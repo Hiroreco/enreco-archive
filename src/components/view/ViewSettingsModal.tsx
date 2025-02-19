@@ -16,7 +16,7 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { TimestampOption, useSettingStore } from "@/store/settingStore";
+import { ThemeType, TimestampOption, useSettingStore } from "@/store/settingStore";
 
 interface ViewSettingsModalProps {
     open: boolean;
@@ -99,6 +99,29 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                             <SelectContent>
                                 <SelectItem value="modal">Card</SelectItem>
                                 <SelectItem value="tab">Tab</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label htmlFor="theme-option">
+                            App Theme
+                        </Label>
+                        <Select
+                            onValueChange={(value) =>
+                                settingStore.setThemeType(
+                                    value as ThemeType,
+                                )
+                            }
+                            value={settingStore.themeType}
+                        >
+                            <SelectTrigger id="theme-option" name="theme-option" className="w-[100px]">
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="system">System</SelectItem>
+                                <SelectItem value="light">Light</SelectItem>
+                                <SelectItem value="dark">Dark</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
