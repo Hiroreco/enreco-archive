@@ -1,10 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import EdgeCardDeco from "@/components/view/EdgeCardDeco";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
-import {
-    getLighterOrDarkerColor,
-    idFromDayChapterId,
-} from "@/lib/utils";
+import { getLighterOrDarkerColor, idFromDayChapterId } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 import {
     EdgeLinkClickHandler,
@@ -114,7 +111,7 @@ const ViewEdgeContent = ({
             <div
                 ref={contentRef}
                 className={clsx("mt-2", {
-                    "overflow-y-auto": !isMobile,
+                    "overflow-y-auto overflow-x-hidden": !isMobile,
                 })}
                 onScroll={handleScroll}
             >

@@ -102,7 +102,7 @@ const ViewNodeContent = ({
             <div
                 ref={contentRef}
                 className={clsx("mt-2", {
-                    "overflow-y-auto": !isMobile,
+                    "overflow-y-auto overflow-x-hidden": !isMobile,
                 })}
                 onScroll={handleScroll}
             >

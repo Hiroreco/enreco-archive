@@ -1,4 +1,5 @@
 import TimestampHref from "@/components/view/content-components/TimestampHref";
+import ViewAmeEasterEgg from "@/components/view/easter-eggs/ViewAmeEasterEgg";
 import ViewFaunaEasterEgg from "@/components/view/easter-eggs/ViewFaunaEasterEgg";
 import ViewPotatoSalidEasterEgg from "@/components/view/easter-eggs/ViewPotatoSalidEasterEgg";
 import { FixedEdgeType, ImageNodeType } from "@/lib/type";
@@ -23,6 +24,7 @@ export type EdgeLinkClickHandler = (targetEdge: FixedEdgeType) => void;
 const EASTER_EGGS: { [key: string]: ReactNode } = {
     faunamart: <ViewFaunaEasterEgg />,
     potato: <ViewPotatoSalidEasterEgg />,
+    ame: <ViewAmeEasterEgg />,
 };
 
 interface Props {
