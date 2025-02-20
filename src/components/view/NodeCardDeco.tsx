@@ -5,7 +5,7 @@ interface NodeCardDecoSVGProps {
 const NodeCardDeco = ({ color }: NodeCardDecoSVGProps) => {
     return (
         <div
-            className="transition-all absolute top-0 w-full rounded-t-xl h-[100px] z-0"
+            className="transition-all absolute top-0 w-full rounded-t-xl h-[100px] z-0 dark:brightness-[0.87]"
             style={{ backgroundColor: color || "" }}
         >
             <div className="deco-node w-full h-full opacity-30" />

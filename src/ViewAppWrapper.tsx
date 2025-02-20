@@ -46,12 +46,16 @@ export const ViewAppWrapper = () => {
         <>
             {isLoading && (
                 <ViewLoadingPage
+                    useDarkMode={useDarkMode}
                     onStart={handleStart}
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />
             )}
             <div className={!viewAppVisible ? "invisible" : ""}>
-                <ViewApp siteData={data} />
+                <ViewApp 
+                    useDarkMode={useDarkMode}
+                    siteData={data} 
+                />
             </div>
         </>
     );

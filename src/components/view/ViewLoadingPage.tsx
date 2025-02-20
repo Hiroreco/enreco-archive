@@ -4,11 +4,13 @@ import { useState } from "react";
 import LogoSVG from "./LogoSVG";
 
 interface ViewLoadingPageProps {
+    useDarkMode: boolean,
     onStart: () => void;
     setViewAppVisible: () => void;
 }
 
 const ViewLoadingPage = ({
+    useDarkMode,
     onStart,
     setViewAppVisible,
 }: ViewLoadingPageProps) => {
@@ -22,6 +24,11 @@ const ViewLoadingPage = ({
         setViewAppVisible();
         setTimeout(onStart, 1000);
     };
+
+    let bgImage = "bg.webp";
+    if(useDarkMode) {
+        bgImage = "bg-dark.png"
+    }
 
     const svgVariants = {
         hidden: {
@@ -59,7 +66,7 @@ const ViewLoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: "url('bg.webp')",
+                backgroundImage: `url('${bgImage}')`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",

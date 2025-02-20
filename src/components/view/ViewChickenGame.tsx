@@ -199,7 +199,7 @@ const ViewChickenGame = () => {
 
     return (
         <div className="flex flex-col w-[90%] h-[90%] items-center gap-4">
-            <div className="w-full relative h-4 bg-gray-200 rounded-lg mt-2 sm:mt-0">
+            <div className="w-full relative h-4 bg-gray-200 dark:bg-gray-600 rounded-lg mt-2 sm:mt-0">
                 <div
                     className="absolute left-0 rounded-lg top-0 h-full transition-all bg-green-600 "
                     style={{ width: `${(timeLeft / GAME_DURATION) * 100}%` }}
@@ -207,7 +207,7 @@ const ViewChickenGame = () => {
             </div>
             <div
                 ref={boardRef}
-                className="relative grid-bg  overflow-hidden w-full h-full border-4"
+                className="relative grid-bg dark:bg-gray-600 overflow-hidden w-full h-full border-4"
             >
                 {/* Chickens */}
                 {chickens.map((chicken) => (

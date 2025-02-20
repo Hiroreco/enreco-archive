@@ -235,7 +235,7 @@ const ViewMemoryGame = () => {
                     {renderColorBox("yellow", 3, "4")}
                 </div>
 
-                <div className="w-full relative h-4 bg-gray-200 rounded-lg mt-2 sm:mt-0">
+                <div className="w-full relative h-4 bg-gray-200 dark:bg-gray-600 rounded-lg mt-2 sm:mt-0">
                     <div
                         className="absolute left-0 rounded-lg top-0 h-full transition-all bg-green-600 "
                         style={{ width: `${(timeLeft / INITIAL_TIME) * 100}%` }}

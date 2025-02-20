@@ -67,7 +67,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 className="transition-all relative cursor-pointer overflow-hidden w-[100px] h-[100px] rounded duration-1000"
             >
                 <Image
-                    className="aspect-square object-cover rounded-lg transition-transform duration-300 ease-in-out transform scale-100 hover:scale-110"
+                    className="aspect-square object-cover rounded-lg transition-transform duration-300 ease-in-out transform scale-100 hover:scale-110 dark:brightness-[0.87]"
                     src={data.imageSrc || ""}
                     width={100}
                     height={100}
