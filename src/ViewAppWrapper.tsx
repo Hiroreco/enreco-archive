@@ -6,6 +6,7 @@ import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import { useAudioStore } from "./store/audioStore";
+import { useSettingStore } from "./store/settingStore";
 
 const data: SiteData = {
     version: 1,
@@ -18,6 +19,23 @@ export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
     const playBGM = useAudioStore((state) => state.playBGM);
+
+    const themeType = useSettingStore((state) => state.themeType);
+
+    let isSystemDarkMode = false;
+    if (typeof window !== "undefined") {
+        isSystemDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+
+    const useDarkMode = (themeType === "dark" || (themeType === "system" && isSystemDarkMode));
+    if (typeof document !== "undefined") {
+        if (useDarkMode) {
+            document.documentElement.classList.add("dark");
+        }
+        else {
+            document.documentElement.classList.remove("dark");
+        }
+    }
 
     const handleStart = () => {
         setIsLoading(false);
