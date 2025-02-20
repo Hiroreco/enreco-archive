@@ -70,6 +70,7 @@ const ViewLoadingPage = ({
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
+                transition: "background 500ms linear"
             }}
             onClick={handleClick}
         >

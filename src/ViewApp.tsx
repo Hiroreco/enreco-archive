@@ -320,6 +320,7 @@ const ViewApp = ({ siteData, useDarkMode }: Props) => {
                 open={viewStore.videoModalOpen}
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
+                useDarkMode={useDarkMode}
             />
 
             <ViewAskVideoModal
