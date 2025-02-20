@@ -261,7 +261,6 @@ export function ViewMarkdown({
                         );
                     } else if (href && href.startsWith("#easter")) {
                         const egg = href.replace("#easter:", "");
-                        console.log(egg);
                         return EASTER_EGGS[egg];
                     } else {
                         return (

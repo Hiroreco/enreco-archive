@@ -70,7 +70,6 @@ const EditorImageNode = ({ data, id }: EditorImageNodeProps) => {
     }, [id, handles, updateNodeInternals, setHandles]);
 
     const isCurrentDay = data.day === currentDay || false;
-    console.log(data.imageSrc);
     return (
         <>
             {handleElements}
