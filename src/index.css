@@ -71,21 +71,9 @@ img {
     }
 }
 
-/* Custom thin scrollbar */
+/* Remove scrollbar cause it looks janky */
 ::-webkit-scrollbar {
-    width: 4px;
-}
-
-::-webkit-scrollbar-track {
-    @apply bg-gray-200;
-}
-
-::-webkit-scrollbar-thumb {
-    @apply bg-gray-400 rounded-full;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray-500;
+    @apply hidden;
 }
 
 h1 {
@@ -115,7 +103,7 @@ a {
 }
 
 a:visited {
-    color: #6F74C0;
+    color: #6f74c0;
 }
 
 ul {
