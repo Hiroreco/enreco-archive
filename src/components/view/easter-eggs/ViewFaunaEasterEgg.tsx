@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { useAudioStore } from "@/store/audioStore";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
@@ -8,6 +9,8 @@ const ViewFaunaEasterEgg = () => {
     const [spinningNumbers, setSpinningNumbers] = useState([0, 0, 0]);
     const [isRolling, setIsRolling] = useState(false);
     const [stoppedIndices, setStoppedIndices] = useState<number[]>([]);
+
+    const audioStore = useAudioStore();
 
     // Rapid number updating effect while spinning
     useEffect(() => {
@@ -35,6 +38,8 @@ const ViewFaunaEasterEgg = () => {
     const handleRoll = () => {
         if (isRolling) return;
 
+        audioStore.playSFX("click");
+
         setIsRolling(true);
         setStoppedIndices([]);
         setSpinningNumbers([0, 0, 0]);
@@ -55,6 +60,7 @@ const ViewFaunaEasterEgg = () => {
                     if (index === 2) {
                         setIsRolling(false);
                     }
+                    audioStore.playSFX("xp");
                 },
                 1000 + index * 500,
             );
