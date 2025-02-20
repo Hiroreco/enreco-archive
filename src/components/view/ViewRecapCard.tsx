@@ -27,9 +27,12 @@ const ViewRecapCard = ({
         }
     }, [dayData]);
     return (
-        <div className="flex flex-col gap-4 m-4 h-full">
+        <div className="flex flex-col gap-4 m-4 h-full relative">
             {/* Scrollable Content */}
-            <div className="overflow-auto scroll-smooth" ref={scrollRef}>
+            <div
+                className="overflow-auto overflow-x-hidden scroll-smooth"
+                ref={scrollRef}
+            >
                 <ViewMarkdown
                     onNodeLinkClicked={onNodeLinkClicked}
                     onEdgeLinkClicked={onEdgeLinkClicked}

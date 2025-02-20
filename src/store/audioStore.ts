@@ -117,6 +117,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     },
     changeBGM: (key: string) => {
         if (!BGM[key]) return;
+        if (key === get().currentBgmKey) return;
 
         const { bgm, bgmVolume } = get();
         const fadeOutDuration = 2000;
