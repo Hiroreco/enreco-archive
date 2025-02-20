@@ -137,15 +137,15 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             loop: true,
             volume: 0,
         });
+        let newBgmVolume = useSettingStore.getState().bgmVolume;
+        if (key === "potato") {
+            newBgmVolume = 0.5;
+        }
+        set({ bgm: newBgm, currentBgmKey: key, bgmVolume: newBgmVolume });
 
         setTimeout(() => {
-            let newBgmVolume = useSettingStore.getState().bgmVolume;
-            if (key === "potato") {
-                newBgmVolume = 0.5;
-            }
             newBgm.play();
             newBgm.fade(0, newBgmVolume, fadeInDuration);
-            set({ bgm: newBgm, currentBgmKey: key, bgmVolume: newBgmVolume });
         }, fadeOutDuration);
     },
 }));

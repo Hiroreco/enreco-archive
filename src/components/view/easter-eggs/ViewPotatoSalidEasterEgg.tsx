@@ -12,9 +12,11 @@ const ViewPotatoSalidEasterEgg = () => {
             animate={jump ? { y: ["0px", "-20px", "0px"] } : {}}
             transition={{ duration: 0.2 }}
             onClick={() => {
-                setJump(true);
-                audioStore.playSFX("chicken-pop");
-                audioStore.changeBGM("potato");
+                if (audioStore.currentBgmKey !== "potato") {
+                    setJump(true);
+                    audioStore.playSFX("chicken-pop");
+                    audioStore.changeBGM("potato");
+                }
             }}
             className="absolute bottom-0 right-2 h-[130px] overflow-hidden"
         >
