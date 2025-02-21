@@ -8,8 +8,8 @@ import {
     DialogTitle,
 } from "@/components/ui/dialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import ViewInfoCredit from "@/components/view/ViewInfoCredit";
 import ViewInfoGuide from "@/components/view/ViewInfoGuide";
+import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -26,29 +26,29 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
             <VisuallyHidden.Root>
                 <DialogTitle>Info Modal</DialogTitle>
             </VisuallyHidden.Root>
-            <DialogContent className="rounded-lg h-[80vh] max-w-none md:w-[50vw] flex flex-col justify-end">
+            <DialogContent className="rounded-lg h-[85vh] max-h-none max-w-none md:w-[50vw] flex flex-col justify-end">
                 <Tabs
                     defaultValue="general"
-                    className="h-[80%] max-h-[100%] flex-1 flex flex-col"
+                    className="h-[80%] flex-1 flex flex-col"
                 >
                     <TabsList className="flex-none w-full grid grid-cols-2">
+                        <TabsTrigger value="general">General</TabsTrigger>
                         <TabsTrigger value="guide">Guide</TabsTrigger>
-                        <TabsTrigger value="credit">Credits</TabsTrigger>
                     </TabsList>
                     <TabsContent
+                        value="general"
+                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
+                    >
+                        <ViewInfoGeneral />
+                    </TabsContent>
+                    <TabsContent
                         value="guide"
-                        className="flex-1 min-h-0 overflow-auto"
+                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
                     >
                         <ViewInfoGuide />
                     </TabsContent>
-                    <TabsContent
-                        value="credit"
-                        className="flex-1 min-h-0 overflow-auto"
-                    >
-                        <ViewInfoCredit />
-                    </TabsContent>
                 </Tabs>
-                <DialogClose asChild className="flex-none w-full p-2 mt-2">
+                <DialogClose asChild>
                     <Button className="self-end">Close</Button>
                 </DialogClose>
             </DialogContent>
