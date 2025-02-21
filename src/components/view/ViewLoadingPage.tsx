@@ -25,11 +25,6 @@ const ViewLoadingPage = ({
         setTimeout(onStart, 1000);
     };
 
-    let bgImage = "bg.webp";
-    if(useDarkMode) {
-        bgImage = "bg-dark.png"
-    }
-
     const svgVariants = {
         hidden: {
             opacity: 1,
@@ -66,14 +61,21 @@ const ViewLoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: `url('${bgImage}')`,
+                backgroundImage: `url('bg-dark.png')`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
-                transition: "background 500ms linear"
+                transition: "background-image 500ms linear"
             }}
             onClick={handleClick}
         >
+            <motion.img
+                initial={{ opacity: 0 }}
+                animate={{ opacity: useDarkMode ? 0 : 1}}
+                className="rounded-none absolute z-[-10] h-screen w-screen"
+                src="bg.webp"
+            />
+
             <motion.div className="md:h-[60vh] md:max-h-[600px] md:w-auto w-[400px] h-[400px] text-[#6f9cc0] mr-2">
                 <LogoSVG
                     onAnimationComplete={() => {
