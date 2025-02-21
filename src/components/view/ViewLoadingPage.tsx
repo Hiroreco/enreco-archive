@@ -61,19 +61,24 @@ const ViewLoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: `url('bg-dark.png')`,
+                backgroundImage: "url('bg-dark.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
-                transition: "background-image 500ms linear"
             }}
             onClick={handleClick}
         >
-            <motion.img
+            <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: useDarkMode ? 0 : 1}}
-                className="rounded-none absolute z-[-10] h-screen w-screen"
-                src="bg.webp"
+                transition={{ duration: 0.5 }}
+                className="absolute top-0 left-0 w-screen h-screen -z-10"
+                style={{
+                    backgroundImage: "url('bg.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                }}
             />
 
             <motion.div className="md:h-[60vh] md:max-h-[600px] md:w-auto w-[400px] h-[400px] text-[#6f9cc0] mr-2">
