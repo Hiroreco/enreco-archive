@@ -21,8 +21,8 @@ const CreditBlock = ({
                 {role}
             </div>
             <ul className="list-disc mt-2">
-                {contributors.map((contributor) => (
-                    <li className="flex gap-2">
+                {contributors.map((contributor, index) => (
+                    <li className="flex gap-2" key={index}>
                         <a href={contributor.socials} target="_blank">
                             {contributor.name}
                         </a>
@@ -124,6 +124,7 @@ const ViewInfoGeneral = () => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2">
                 {CONTRIBUTORS.map((credit) => (
                     <CreditBlock
+                        key={credit.role}
                         role={credit.role}
                         contributors={credit.contributors}
                         icon={credit.icon}
