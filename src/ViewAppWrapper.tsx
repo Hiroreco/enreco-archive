@@ -7,6 +7,7 @@ import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import { useAudioStore } from "./store/audioStore";
 import { useSettingStore } from "./store/settingStore";
+import { cn } from "./lib/utils";
 
 const data: SiteData = {
     version: 1,
@@ -76,7 +77,10 @@ export const ViewAppWrapper = () => {
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />
             )}
-            <div className={!viewAppVisible ? "invisible" : ""}>
+            <div className={cn({
+                "visible opacity-1": viewAppVisible,
+                "invisible opacity-0": !viewAppVisible
+            })}>
                 <ViewApp 
                     useDarkMode={useDarkMode}
                     siteData={data} 
