@@ -23,6 +23,8 @@ import { usePreviousValue } from "@/hooks/usePreviousValue";
 import { useReactFlowFitViewToEdge } from "@/hooks/useReactFlowFitViewToEdge";
 import { OLD_EDGE_OPACITY } from "@/lib/constants";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
+import { useSettingStore } from "@/store/settingStore";
+import { CardType } from "@/store/viewStore";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
@@ -95,6 +97,8 @@ interface Props {
     onPaneClick: () => void;
     day: number;
     previousSelectedDay: number;
+    currentCard: CardType;
+    previousCard: CardType;
 }
 
 function ViewChart({
@@ -115,6 +119,8 @@ function ViewChart({
     onPaneClick,
     day,
     previousSelectedDay,
+    currentCard,
+    previousCard,
 }: Props) {
     const topLeftNode = useMemo(() => findTopLeftNode(nodes), [nodes]);
     const bottomRightNode = useMemo(() => findBottomRightNode(nodes), [nodes]);
@@ -124,6 +130,8 @@ function ViewChart({
     const prevDoFitView = usePreviousValue(doFitView);
     const prevWidthToShrink = usePreviousValue(widthToShrink);
     const flowRendererSizer = useRef<HTMLDivElement>(null);
+
+    const settingStore = useSettingStore();
 
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions) => {
@@ -146,7 +154,13 @@ function ViewChart({
                 selectedEdge,
             );
         } else if (fitViewOperation === "fit-to-all") {
-            fitViewAsync({ padding: 0.5, duration: 1000 });
+            if (
+                previousCard === "setting" ||
+                currentCard === "setting" ||
+                settingStore.autoPanBack
+            ) {
+                fitViewAsync({ padding: 0.5, duration: 1000 });
+            }
         }
     }, [
         fitViewAsync,
@@ -154,6 +168,9 @@ function ViewChart({
         fitViewToEdge,
         selectedEdge,
         selectedNode,
+        previousCard,
+        currentCard,
+        settingStore.autoPanBack,
     ]);
 
     useEffect(() => {
@@ -294,7 +311,12 @@ function ViewChart({
                 zoomOnDoubleClick={false}
                 onPaneClick={() => {
                     if (isCardOpen) {
-                        fitViewAsync({ padding: 0.5, duration: 1000 });
+                        if (
+                            previousCard === "setting" ||
+                            settingStore.autoPanBack
+                        ) {
+                            fitViewAsync({ padding: 0.5, duration: 1000 });
+                        }
                     }
                     onPaneClick();
                 }}

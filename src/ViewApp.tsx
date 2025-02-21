@@ -60,6 +60,7 @@ const ViewApp = ({ siteData }: Props) => {
         useState<FitViewOperation>("none");
     const [doFitView, setDoFitView] = useState(true);
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
+    const [previousCard, setPreviousCard] = useState<CardType | null>(null);
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
@@ -176,6 +177,7 @@ const ViewApp = ({ siteData }: Props) => {
         } else if (newCurrentCard === "edge") {
             setFitViewOperation("fit-to-edge");
         }
+        setPreviousCard(viewStore.currentCard);
         viewStore.setCurrentCard(newCurrentCard);
         setDoFitView(!doFitView);
     }
@@ -242,6 +244,8 @@ const ViewApp = ({ siteData }: Props) => {
                     onPaneClick={onPaneClick}
                     day={viewStore.day}
                     previousSelectedDay={viewStore.previousSelectedDay}
+                    currentCard={viewStore.currentCard}
+                    previousCard={previousCard}
                 />
                 <div
                     className="absolute top-0 left-0 w-screen h-screen -z-10"

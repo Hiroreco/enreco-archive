@@ -28,7 +28,7 @@ export const useSettingStore = create<SettingState>()(
                 set({ timestampOption }),
             bgmVolume: 0.5,
             setBgmVolume: (bgmVolume: number) => set({ bgmVolume }),
-            sfxVolume: 1.0,
+            sfxVolume: 0.5,
             setSfxVolume: (sfxVolume: number) => set({ sfxVolume }),
             openDayRecapOnDayChange: true,
             setOpenDayRecapOnDayChange: (openDayRecapOnDayChange: boolean) =>
