@@ -3,7 +3,11 @@ import ViewAmeEasterEgg from "@/components/view/easter-eggs/ViewAmeEasterEgg";
 import ViewFaunaEasterEgg from "@/components/view/easter-eggs/ViewFaunaEasterEgg";
 import ViewPotatoSalidEasterEgg from "@/components/view/easter-eggs/ViewPotatoSalidEasterEgg";
 import { FixedEdgeType, ImageNodeType } from "@/lib/type";
-import { getBlurDataURL, getLighterOrDarkerColor } from "@/lib/utils";
+import {
+    getBlurDataURL,
+    getLighterOrDarkerColor,
+    urlToLiveUrl,
+} from "@/lib/utils";
 import { useReactFlow } from "@xyflow/react";
 import Image from "next/image";
 import {
@@ -209,17 +213,7 @@ export function ViewMarkdown({
                         );
                     } else if (href && href.startsWith("#embed")) {
                         let url = href.replace("#embed:", "");
-                        if (url.includes("embed")) {
-                            // turn embed to live
-                            // example https://www.youtube.com/embed/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&amp;start=7439)
-                            // to https://www.youtube.com/embed/1_dhGL0K5-k?t=7439
-                            // This is mostly to handle mistakes I made at the beginning in the markdown
-                            const videoid = url
-                                .split("/embed/")[1]
-                                .split("?si=")[0];
-                            const params = url.split("start=")[1];
-                            url = `https://www.youtube.com/live/${videoid}?t=${params}`;
-                        }
+                        url = urlToLiveUrl(url);
 
                         const caption = rest.children as string;
 
@@ -265,7 +259,7 @@ export function ViewMarkdown({
                     } else {
                         return (
                             <TimestampHref
-                                href={href || ""}
+                                href={urlToLiveUrl(href!) || ""}
                                 caption={rest.children as string}
                                 {...rest}
                                 type="general"

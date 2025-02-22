@@ -2,13 +2,13 @@ import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
 import clsx from "clsx";
-import React, { MouseEventHandler, MouseEvent } from "react";
+import { MouseEvent } from "react";
 
 export type HrefType = "embed" | "general";
 
 interface TimestampHrefProps {
     href: string;
-    caption: string;
+    caption?: string;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     rest?: any;
     type: HrefType;
@@ -16,21 +16,19 @@ interface TimestampHrefProps {
 
 const TimestampHref = ({
     href,
-    caption,
     type,
+    caption,
     ...rest
 }: TimestampHrefProps) => {
     const settingStore = useSettingStore();
     const viewStore = useViewStore();
     const audioStore = useAudioStore();
-    const timestampHandler: MouseEventHandler<HTMLAnchorElement> = async (
+    const timestampHandler = async (
         event: MouseEvent<HTMLAnchorElement>,
+        timestampUrl: string,
     ) => {
         event.preventDefault();
         audioStore.pauseBGM();
-
-        const timestampUrl =
-            (event.target as Element).getAttribute("data-timestamp-url") || "";
 
         if (settingStore.timestampOption === "none") {
             viewStore.setAskVideoModalOpen(true);
@@ -80,7 +78,7 @@ const TimestampHref = ({
         <a
             href={href}
             data-timestamp-url={href}
-            onClick={timestampHandler}
+            onClick={(e) => timestampHandler(e, href)}
             {...rest}
             className={clsx({
                 "block text-center italic underline underline-offset-4 font-medium text-[1.125rem]":

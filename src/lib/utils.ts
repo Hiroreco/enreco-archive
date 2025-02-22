@@ -53,6 +53,31 @@ export const urlToEmbedUrl = (url: string | null) => {
     }
 };
 
+export const urlToLiveUrl = (url: string) => {
+    let correctUrl = url;
+    if (!url) return "";
+    if (url.includes("/live/")) {
+        return url;
+    }
+    if (url.includes("embed")) {
+        // turn embed to live
+        // example https://www.youtube.com/embed/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&amp;start=7439)
+        // to https://www.youtube.com/embed/1_dhGL0K5-k?t=7439
+        // This is mostly to handle mistakes I made at the beginning in the markdown
+        const videoid = url.split("/embed/")[1].split("?si=")[0];
+        const params = url.split("start=")[1];
+        correctUrl = `https://www.youtube.com/live/${videoid}?t=${params}`;
+    } else if (url.includes("watch")) {
+        // turn watch to live
+        // example https://www.youtube.com/watch?v=1_dhGL0K5-k&list=PLonYStlm50KZ_rKewRuHUfuEMYbk_hbsi&ab_channel=BoubonClipperCh.
+        // to https://www.youtube.com/live/1_dhGL0K5-k
+        // This is also mostly to handle mistakes I made at the beginning in the markdown
+        const videoid = url.split("v=")[1].split("&")[0];
+        const params = url.split("v=")[1].split("&")[1];
+        correctUrl = `https://www.youtube.com/live/${videoid}?${params}`;
+    }
+    return correctUrl;
+};
 export const idFromDayChapterId = (
     day: number,
     chapter: number,
