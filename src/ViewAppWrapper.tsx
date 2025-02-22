@@ -2,12 +2,13 @@
 import chapter0 from "@/data/chapter0.json";
 import siteMeta from "@/data/metadata.json";
 import { Chapter, SiteData } from "@/lib/type";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import { useAudioStore } from "./store/audioStore";
 import { useSettingStore } from "./store/settingStore";
 import { cn } from "./lib/utils";
+import useLightDarkModeSwitcher from "./hooks/useLightDarkModeSwitcher";
 
 const data: SiteData = {
     version: 1,
@@ -19,49 +20,10 @@ const data: SiteData = {
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
-    const [useDarkMode, setUseDarkMode] = useState(true);
     const playBGM = useAudioStore((state) => state.playBGM);
-
     const themeType = useSettingStore((state) => state.themeType);
 
-    useEffect(() => {
-        if(typeof window === "undefined" || !window.matchMedia) {
-            return;
-        }
-
-        const isSystemDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-        const isDarkMode = (themeType === "dark" || (themeType === "system" && isSystemDarkMode));
-        if (typeof document !== "undefined") {
-            if (isDarkMode) {
-                document.documentElement.classList.add("dark");
-                setUseDarkMode(true);
-            }
-            else {
-                document.documentElement.classList.remove("dark");
-                setUseDarkMode(false);
-            }
-        }
-
-        const systemDarkModeListener = (event: MediaQueryListEvent) => {
-            if(themeType === "system") {
-                const isNowDarkMode = event.matches; 
-                setUseDarkMode(isNowDarkMode);
-
-                if(isNowDarkMode) {
-                    document.documentElement.classList.add("dark");
-                }
-                else {
-                    document.documentElement.classList.remove("dark");
-                }
-            }
-        }
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change",systemDarkModeListener);
-
-        return () => {
-            window.matchMedia('(prefers-color-scheme: dark)').removeEventListener("change",systemDarkModeListener);
-        };
-    }, [themeType]);
+    const useDarkMode = useLightDarkModeSwitcher(themeType);
 
     const handleStart = () => {
         setIsLoading(false);
