@@ -1,9 +1,10 @@
+"use client";
 import { ThemeType } from "@/store/settingStore";
 import { useEffect, useState } from "react";
 
 export default function useLightDarkModeSwitcher(themeType: ThemeType) {
-    const initDarkMode = themeType === "dark" || 
-        (themeType === "system" && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const isSystemDarkMode = window !== undefined && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initDarkMode = (themeType === "dark" || (themeType === "system" && isSystemDarkMode));
     const [useDarkMode, setUseDarkMode] = useState(initDarkMode);
 
     useEffect(() => {
