@@ -207,7 +207,7 @@ const ViewChickenGame = () => {
             </div>
             <div
                 ref={boardRef}
-                className="relative grid-bg dark:bg-gray-600 overflow-hidden w-full h-full border-4"
+                className="relative grid-bg bg-gray-200 dark:bg-gray-600 overflow-hidden w-full h-full border-4"
             >
                 {/* Chickens */}
                 {chickens.map((chicken) => (
