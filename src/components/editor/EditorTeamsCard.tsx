@@ -172,25 +172,25 @@ export default function EditorTeamsCard({
                     <tr>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2 w-16"
+                            className="bg-secondary text-left border border-black p-2 w-16"
                         >
                             Icon
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Id
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Name
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Icon Image URL
                         </th>
@@ -216,7 +216,7 @@ export default function EditorTeamsCard({
                                             setId(team.id, event.target.value)
                                         }
                                         disabled={autoGenIdFromName}
-                                        className="w-full border rounded-lg disabled:opacity-50 disabled:bg-gray-200"
+                                        className="w-full border rounded-lg bg-secondary disabled:opacity-50"
                                     />
                                 </td>
                                 <td className="border border-black p-2">
@@ -227,7 +227,7 @@ export default function EditorTeamsCard({
                                         onBlur={(event) =>
                                             setName(team.id, event.target.value)
                                         }
-                                        className="w-full border rounded-lg"
+                                        className="w-full border rounded-lg bg-secondary"
                                     />
                                 </td>
                                 <td className="border border-black p-2">
@@ -241,7 +241,7 @@ export default function EditorTeamsCard({
                                                 event.target.value,
                                             )
                                         }
-                                        className="w-full border rounded-lg"
+                                        className="w-full border rounded-lg bg-secondary"
                                     />
                                 </td>
                             </tr>
@@ -261,7 +261,7 @@ export default function EditorTeamsCard({
                     id="new-team-id"
                     name="newTeamId"
                     disabled={autoGenIdFromName}
-                    className="border rounded-lg disabled:bg-gray-200"
+                    className="border rounded-lg bg-secondary disabled:opacity-50"
                     required
                 />
 
@@ -272,7 +272,7 @@ export default function EditorTeamsCard({
                     type="text"
                     id="new-team-name"
                     name="newTeamName"
-                    className="border rounded-lg"
+                    className="border rounded-lg bg-secondary"
                     required
                 />
 
@@ -286,7 +286,7 @@ export default function EditorTeamsCard({
                     type="text"
                     id="new-team-icon-url"
                     name="newTeamIconUrl"
-                    className="border rounded-lg"
+                    className="border rounded-lg bg-secondary"
                 />
 
                 <Button type="submit" className="col-span-2">

@@ -51,6 +51,7 @@ interface EditorNodeCardProps {
     deleteNode: () => void;
     onCardClose: () => void;
     numberOfDays: number;
+    isDarkMode: boolean;
 }
 
 export default function EditorNodeCard({
@@ -62,6 +63,7 @@ export default function EditorNodeCard({
     deleteNode,
     onCardClose,
     numberOfDays,
+    isDarkMode
 }: EditorNodeCardProps) {
     const [autoGenIdFromTitle, setAutoGenIdFromTitle] = useState(true);
     const [workingNode, setWorkingNode] = useState(selectedNode);
@@ -153,8 +155,8 @@ export default function EditorNodeCard({
 
     return (
         <EditorCard>
-            <div className="w-full sticky top-0 bg-white z-10">
-                <div className="flex justify-around items-center w-full">
+            <div className="w-full sticky top-0 bg-background z-10">
+                <div className="flex justify-between items-center w-full">
                     <div className="text-xl font-bold">Node Editor</div>
                     <Button onClick={onClose}>
                         <LucideX />
@@ -369,17 +371,18 @@ export default function EditorNodeCard({
                 >
                     Node Day Content
                 </Label>
-                <MDEditor
-                    id="node-content"
-                    textareaProps={{ name: "content" }}
-                    value={workingNode.data.content}
-                    onChange={(content) =>
-                        setWorkingNodeAttr((draft) => {
-                            draft.data.content = content || "";
-                        })
-                    }
-                    className="col-span-2"
-                />
+                <div className="col-span-2" data-color-mode={isDarkMode ? "dark" : "light"}>
+                    <MDEditor
+                        id="node-content"
+                        textareaProps={{ name: "content" }}
+                        value={workingNode.data.content}
+                        onChange={(content) =>
+                            setWorkingNodeAttr((draft) => {
+                                draft.data.content = content || "";
+                            })
+                        }
+                    />
+                </div>
             </div>
 
             <div className="flex flex-row gap-16">

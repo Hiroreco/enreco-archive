@@ -43,6 +43,7 @@ interface EditorChartProps {
     areNodesDraggable: boolean;
     canPlaceNewNode: boolean;
     edgeType: CustomEdgeTypeNames;
+    isDarkMode: boolean;
     onNodeClick: (node: EditorImageNodeType) => void;
     onEdgeClick: (edge: CustomEdgeType) => void;
     setNodes: (nodes: EditorImageNodeType[]) => void;
@@ -55,6 +56,7 @@ export default function EditorChart({
     areNodesDraggable,
     canPlaceNewNode,
     edgeType,
+    isDarkMode,
     setNodes,
     setEdges,
     onNodeClick,
@@ -189,7 +191,7 @@ export default function EditorChart({
         >
             <Background
                 id="bg-axis"
-                color="#dcdcdc"
+                color={isDarkMode ? "#3f3f3f" : "#dcdcdc"}
                 variant={BackgroundVariant.Cross}
                 gap={25}
             />
