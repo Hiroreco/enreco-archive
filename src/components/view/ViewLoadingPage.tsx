@@ -61,7 +61,7 @@ const ViewLoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: "url('bg-dark.png')",
+                backgroundImage: "url('images-opt/bg-dark.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -74,7 +74,7 @@ const ViewLoadingPage = ({
                 transition={{ duration: 0.5 }}
                 className="absolute top-0 left-0 w-screen h-screen -z-10"
                 style={{
-                    backgroundImage: "url('bg.webp')",
+                    backgroundImage: "url('images-opt/bg.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
