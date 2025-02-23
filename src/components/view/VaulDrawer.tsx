@@ -34,11 +34,11 @@ export default function VaulDrawer({
         >
             <Drawer.Portal>
                 <Drawer.Overlay className="fixed inset-0 bg-black/40" />
-                <Drawer.Content className="bg-gray-100 z-50 flex flex-col rounded-t-[10px] mt-24 h-[80vh] fixed bottom-0 left-0 right-0 outline-none overflow-hidden">
+                <Drawer.Content className="z-50 flex flex-col rounded-t-[10px] mt-24 h-[80vh] fixed bottom-0 left-0 right-0 outline-none overflow-hidden">
                     {/* Setting min-h to the containter's height makes it shows children that have less content, idk why this works */}
                     <div
                         className={cn(
-                            "p-4 bg-background text-foreground h-[80vh] max-h-full",
+                            "p-4 card-deco text-foreground h-[80vh] max-h-full",
                             {
                                 "overflow-auto":
                                     isScrollable && !disableScrollablity,
