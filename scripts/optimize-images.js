@@ -12,7 +12,7 @@ async function generateBlurDataURL(inputPath) {
 
 async function optimizeImages() {
     const publicDir = path.join(process.cwd(), "public");
-    const categories = ["characters", "teams", "others", "easter"];
+    const categories = ["characters", "teams", "others", "easter", "ui"];
     // Create a map to store blur data URLs
     const blurDataMap = {};
 
