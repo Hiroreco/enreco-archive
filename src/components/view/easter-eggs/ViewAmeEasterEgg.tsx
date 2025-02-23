@@ -45,7 +45,7 @@ const ViewAmeEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images/original-optimized/easter-ame.webp"
+                src="images-opt/easter-ame.webp"
                 className={clsx(
                     "mx-auto transition-opacity translate-y-[50%]",
                     {

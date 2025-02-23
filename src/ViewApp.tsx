@@ -252,9 +252,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
               ]
             : null;
 
-    let bgImage = "bg.webp";
+    let bgImage = "images-opt/bg.webp";
     if (useDarkMode) {
-        bgImage = "bg-dark.png";
+        bgImage = "images-opt/bg-dark.webp";
     }
 
     return (
@@ -367,7 +367,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     }
                 >
                     <img
-                        src="https://cdn.holoen.fans/hefw/media/emblem.webp"
+                        src="images-opt/emblem.webp"
                         className="w-full h-full"
                     />
                 </IconButton>

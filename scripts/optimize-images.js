@@ -11,14 +11,15 @@ async function generateBlurDataURL(inputPath) {
 }
 
 async function optimizeImages() {
+    const resourceDir = path.join(process.cwd(), "resources");
     const publicDir = path.join(process.cwd(), "public");
-    const categories = ["characters", "teams", "others", "easter"];
+    const categories = ["characters", "teams", "others", "easter", "ui"];
     // Create a map to store blur data URLs
     const blurDataMap = {};
 
     for (const category of categories) {
-        const inputDir = path.join(publicDir, "images", category);
-        const outputDir = path.join(publicDir, "images", `original-optimized`);
+        const inputDir = path.join(resourceDir, "images", category);
+        const outputDir = path.join(publicDir, "images-opt");
 
         await fs.mkdir(outputDir, { recursive: true });
 
@@ -36,19 +37,7 @@ async function optimizeImages() {
                 const blurDataURL = await generateBlurDataURL(inputPath);
                 blurDataMap[path.parse(file).name] = blurDataURL;
 
-                // Get original image dimensions
-                const metadata = await sharp(inputPath).metadata();
-                const reductionFactor = 70 / 100;
-                const newDimensions = [
-                    Math.floor(metadata.width * reductionFactor),
-                    Math.floor(metadata.height * reductionFactor),
-                ];
-
                 await sharp(inputPath)
-                    .resize(newDimensions[0], newDimensions[1], {
-                        fit: "cover",
-                        position: "center",
-                    })
                     .webp({ quality: 70 })
                     .toFile(outputPath);
 

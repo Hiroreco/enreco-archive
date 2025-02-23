@@ -95,10 +95,10 @@ export function ViewMarkdown({
 
     const processTeamIcons = (node: ReactNode): ReactNode => {
         const teamIcons: { [key: string]: string } = {
-            "Amber Coin": "images/original-optimized/ambercoin.webp",
-            "Scarlet Wand": "images/original-optimized/scarletwand.webp",
-            "Cerulean Cup": "images/original-optimized/ceruleancup.webp",
-            "Jade Sword": "images/original-optimized/jadesword.webp",
+            "Amber Coin": "images-opt/ambercoin.webp",
+            "Scarlet Wand": "images-opt/scarletwand.webp",
+            "Cerulean Cup": "images-opt/ceruleancup.webp",
+            "Jade Sword": "images-opt/jadesword.webp",
         };
 
         if (typeof node === "string") {
