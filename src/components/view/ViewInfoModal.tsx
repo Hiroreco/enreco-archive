@@ -5,11 +5,14 @@ import {
     Dialog,
     DialogClose,
     DialogContent,
+    DialogFooter,
     DialogTitle,
 } from "@/components/ui/dialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ViewInfoGuide from "@/components/view/ViewInfoGuide";
 import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
+import { useSettingStore } from "@/store/settingStore";
+import { Moon, Sun } from "lucide-react";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -17,6 +20,7 @@ interface ViewInfoModalProps {
 }
 
 const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
+    const settingStore = useSettingStore();
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <VisuallyHidden.Root>
@@ -44,9 +48,29 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                         <ViewInfoGuide />
                     </TabsContent>
                 </Tabs>
-                <DialogClose asChild>
-                    <Button className="self-end">Close</Button>
-                </DialogClose>
+                <DialogFooter className="flex items-center sm:justify-between w-full">
+                    {/* Theme Toggle */}
+                    <div
+                        onClick={() =>
+                            settingStore.setThemeType(
+                                settingStore.themeType === "dark"
+                                    ? "light"
+                                    : "dark",
+                            )
+                        }
+                        className="cursor-pointer hover:bg-neutral-300 dark:hover:bg-neutral-600 transition-colors p-2 rounded-lg"
+                    >
+                        {settingStore.themeType === "dark" ? (
+                            <Sun className="h-6 w-6" />
+                        ) : (
+                            <Moon className="h-6 w-6" />
+                        )}
+                    </div>
+
+                    <DialogClose asChild>
+                        <Button className="self-end">Close</Button>
+                    </DialogClose>
+                </DialogFooter>
             </DialogContent>
         </Dialog>
     );

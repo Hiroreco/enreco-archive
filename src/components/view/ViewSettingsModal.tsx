@@ -16,7 +16,11 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { ThemeType, TimestampOption, useSettingStore } from "@/store/settingStore";
+import {
+    ThemeType,
+    TimestampOption,
+    useSettingStore,
+} from "@/store/settingStore";
 
 interface ViewSettingsModalProps {
     open: boolean;
@@ -104,18 +108,18 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="theme-option">
-                            App Theme
-                        </Label>
+                        <Label htmlFor="theme-option">App Theme</Label>
                         <Select
                             onValueChange={(value) =>
-                                settingStore.setThemeType(
-                                    value as ThemeType,
-                                )
+                                settingStore.setThemeType(value as ThemeType)
                             }
                             value={settingStore.themeType}
                         >
-                            <SelectTrigger id="theme-option" name="theme-option" className="w-[100px]">
+                            <SelectTrigger
+                                id="theme-option"
+                                name="theme-option"
+                                className="w-[100px]"
+                            >
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -129,7 +133,7 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                 <DialogFooter>
                     <Button
                         onClick={() => onOpenChange(false)}
-                        className="self-end"
+                        className="mt-4"
                     >
                         Close
                     </Button>
