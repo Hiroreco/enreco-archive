@@ -102,6 +102,10 @@ a {
     color: #5f8db2;
 }
 
+.dark a {
+    color: rgb(116, 161, 198);
+}
+
 a:visited {
     color: #6f74c0;
 }

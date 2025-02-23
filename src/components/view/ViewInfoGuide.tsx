@@ -39,7 +39,7 @@ const ViewInfoGuide = () => {
                 <ul className="list-disc mt-4 ">
                     <li>
                         <span className="font-bold">Timestamps:</span> Opens a{" "}
-                        <span className="font-medium text-[#134ea0]">
+                        <span className="font-medium text-[#6594ba]">
                             timestamped{" "}
                         </span>
                         event in a card (or a new tab) for you to watch. It is
@@ -49,7 +49,7 @@ const ViewInfoGuide = () => {
                     <li>
                         <span className="font-bold">Linkers:</span> Clicking on
                         a colored phrase like{" "}
-                        <span className="text-red-700 underline underline-offset-2 font-semibold">
+                        <span className="text-red-700 dark:text-red-600 underline underline-offset-2 font-semibold">
                             Raora-Tam: Say My Name
                         </span>{" "}
                         will directly open the referenced card.
