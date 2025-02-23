@@ -213,20 +213,6 @@ td {
     background-position: 55px 0;
 }
 
-.modal-deco {
-    background-image: url("/bg.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.dark .modal-deco {
-    background-image: url("/bg-dark.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .card-deco {
     background-image: url("/card_deco_temp.webp");
     background-repeat: no-repeat;
