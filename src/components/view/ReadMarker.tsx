@@ -22,7 +22,7 @@ const ReadMarker = ({ id }: ReadMarkerProps) => {
     }, [id]);
 
     return (
-        <div className="mx-auto mt-4 w-full flex items-center justify-center gap-2 z-50">
+        <div className="mx-auto my-6 w-full flex items-center justify-center gap-2 z-50">
             <Label className="text-lg" htmlFor="read">
                 Mark as Read
             </Label>

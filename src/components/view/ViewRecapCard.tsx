@@ -39,7 +39,7 @@ const ViewRecapCard = ({
                 >
                     {dayData.dayRecap || "No content available."}
                 </ViewMarkdown>
-                <Separator className="-mt-10" />
+                <Separator className="my-4" />
             </div>
         </div>
     );
