@@ -31,3 +31,7 @@ tsconfig.tsbuildinfo
 
 # Auto-generated file, probably don't need to commit this.
 next-env.d.ts
+
+# Optimized images
+public/images-opt/*
+public/blur-data.json
