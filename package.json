@@ -11,7 +11,8 @@
         "preview": "next preview",
         "format": "prettier . --write",
         "optimize-images": "ts-node scripts/optimize-images.js",
-        "prebuild": "ts-node scripts/optimize-images.js"
+        "prebuild": "ts-node scripts/optimize-images.js",
+        "predev": "ts-node scripts/optimize-images.js"
     },
     "dependencies": {
         "@next/third-parties": "^15.1.6",
