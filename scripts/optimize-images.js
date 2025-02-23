@@ -18,7 +18,7 @@ async function optimizeImages() {
 
     for (const category of categories) {
         const inputDir = path.join(publicDir, "images", category);
-        const outputDir = path.join(publicDir, "images", `original-optimized`);
+        const outputDir = path.join(publicDir, "images-opt");
 
         await fs.mkdir(outputDir, { recursive: true });
 

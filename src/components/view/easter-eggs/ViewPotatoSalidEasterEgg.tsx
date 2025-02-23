@@ -23,7 +23,7 @@ const ViewPotatoSalidEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images/original-optimized/easter-gremliz.webp"
+                src="images-opt/easter-gremliz.webp"
                 className={clsx(
                     "mx-auto transition-opacity translate-y-[50%]",
                     {
