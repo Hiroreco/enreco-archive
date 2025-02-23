@@ -11,13 +11,14 @@ async function generateBlurDataURL(inputPath) {
 }
 
 async function optimizeImages() {
+    const resourceDir = path.join(process.cwd(), "resources");
     const publicDir = path.join(process.cwd(), "public");
     const categories = ["characters", "teams", "others", "easter", "ui"];
     // Create a map to store blur data URLs
     const blurDataMap = {};
 
     for (const category of categories) {
-        const inputDir = path.join(publicDir, "images", category);
+        const inputDir = path.join(resourceDir, "images", category);
         const outputDir = path.join(publicDir, "images-opt");
 
         await fs.mkdir(outputDir, { recursive: true });
