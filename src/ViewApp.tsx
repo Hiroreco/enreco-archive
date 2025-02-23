@@ -13,11 +13,11 @@ import {
 } from "@/lib/type";
 import { CardType, useViewStore } from "@/store/viewStore";
 
-import ViewAskVideoModal from "@/components/view/ViewAskVideoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
+import clsx from "clsx";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -25,7 +25,6 @@ import ViewSettingsModal from "./components/view/ViewSettingsModal";
 import ViewTransportControls from "./components/view/ViewTransportControls";
 import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
-import clsx from "clsx";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -314,11 +313,6 @@ const ViewApp = ({ siteData }: Props) => {
                 open={viewStore.videoModalOpen}
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
-            />
-
-            <ViewAskVideoModal
-                open={viewStore.askVideoModalOpen}
-                onOpenChange={viewStore.setAskVideoModalOpen}
             />
 
             <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">

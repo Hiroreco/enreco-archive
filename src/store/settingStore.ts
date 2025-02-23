@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-export type TimestampOption = "none" | "modal" | "tab";
+export type TimestampOption = "modal" | "tab";
 
 interface SettingState {
     timestampOption: TimestampOption;
@@ -23,7 +23,7 @@ interface SettingState {
 export const useSettingStore = create<SettingState>()(
     persist(
         (set) => ({
-            timestampOption: "none",
+            timestampOption: "modal",
             setTimestampOption: (timestampOption: TimestampOption) =>
                 set({ timestampOption }),
             bgmVolume: 0.5,

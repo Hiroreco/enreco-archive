@@ -17,10 +17,6 @@ interface ViewInfoModalProps {
 }
 
 const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
-    if (!open) {
-        return <></>;
-    }
-
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <VisuallyHidden.Root>

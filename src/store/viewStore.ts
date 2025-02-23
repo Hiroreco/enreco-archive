@@ -38,9 +38,6 @@ interface ViewState {
     videoModalOpen: boolean;
     setVideoModalOpen: (isVideoModalOpen: boolean) => void;
 
-    askVideoModalOpen: boolean;
-    setAskVideoModalOpen: (isAskVideoModalOpen: boolean) => void;
-
     videoUrl: string | null;
     setVideoUrl: (currentVideoUrl: string | null) => void;
 
@@ -98,10 +95,6 @@ export const useViewStore = create<ViewState>((set) => {
         videoModalOpen: false,
         setVideoModalOpen: (isVideoModalOpen: boolean) =>
             set(() => ({ videoModalOpen: isVideoModalOpen })),
-
-        askVideoModalOpen: false,
-        setAskVideoModalOpen: (isAskVideoModalOpen: boolean) =>
-            set(() => ({ askVideoModalOpen: isAskVideoModalOpen })),
 
         videoUrl: null,
         setVideoUrl: (videoUrl: string | null) => set(() => ({ videoUrl })),

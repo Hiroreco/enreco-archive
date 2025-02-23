@@ -30,28 +30,6 @@ const TimestampHref = ({
         event.preventDefault();
         audioStore.pauseBGM();
 
-        if (settingStore.timestampOption === "none") {
-            viewStore.setAskVideoModalOpen(true);
-
-            // Wait for user decision and opens the video accordingly
-            await new Promise<void>((resolve) => {
-                const unsubscribe = useSettingStore.subscribe((state) => {
-                    if (state.timestampOption !== "none") {
-                        if (state.timestampOption === "modal") {
-                            viewStore.setVideoModalOpen(true);
-                            viewStore.setVideoUrl(timestampUrl);
-                        } else if (state.timestampOption === "tab") {
-                            window.open(timestampUrl, "_blank");
-                        }
-                        unsubscribe();
-                        resolve();
-                    }
-                });
-            });
-
-            viewStore.setAskVideoModalOpen(false);
-        }
-
         if (settingStore.timestampOption === "modal") {
             viewStore.setVideoModalOpen(true);
             viewStore.setVideoUrl(timestampUrl);
