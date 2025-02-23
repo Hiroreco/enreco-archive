@@ -101,8 +101,8 @@ const ViewNodeContent = ({
             {/* Content */}
             <div
                 ref={contentRef}
-                className={clsx("mt-2", {
-                    "overflow-y-auto overflow-x-hidden": !isMobile,
+                className={clsx("mt-2 overflow-x-hidden", {
+                    "overflow-y-auto": !isMobile,
                 })}
                 onScroll={handleScroll}
             >
@@ -115,7 +115,7 @@ const ViewNodeContent = ({
                 >
                     {selectedNode?.data.content || "No content available"}
                 </ViewMarkdown>
-                <Separator className="-mt-10" />
+                <Separator className="mt-4" />
                 <ReadMarker
                     id={idFromDayChapterId(
                         selectedNode.data.day,

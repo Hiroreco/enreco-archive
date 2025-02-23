@@ -147,7 +147,7 @@ export function ViewMarkdown({
 
     return (
         <Markdown
-            className={"pb-20 relative"}
+            className={"relative"}
             rehypePlugins={[rehypeRaw, remarkGfm]}
             components={{
                 // <br> styles not working for some reason, will use a div instead
