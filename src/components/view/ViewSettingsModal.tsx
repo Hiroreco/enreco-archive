@@ -64,7 +64,7 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="timestamp-option">
+                        <Label htmlFor="day-recap">
                             Show Recap On Day Change
                         </Label>
                         <Checkbox
@@ -72,16 +72,16 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                                 settingStore.setOpenDayRecapOnDayChange
                             }
                             checked={settingStore.openDayRecapOnDayChange}
+                            id="day-recap"
                         />
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="timestamp-option">
-                            Auto Pan Back On Close
-                        </Label>
+                        <Label htmlFor="pan">Auto Pan Back On Close</Label>
                         <Checkbox
                             onCheckedChange={settingStore.setAutoPanBack}
                             checked={settingStore.autoPanBack}
+                            id="pan"
                         />
                     </div>
 
