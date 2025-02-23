@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import ViewEdgeCard from "@/components/view/ViewEdgeCard";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
@@ -25,6 +25,7 @@ import ViewSettingsModal from "./components/view/ViewSettingsModal";
 import ViewTransportControls from "./components/view/ViewTransportControls";
 import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
+import { LS_HAS_VISITED } from "@/lib/constants";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -45,10 +46,11 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
 
 interface Props {
     siteData: SiteData;
+    isInLoadingScreen: boolean;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData }: Props) => {
+const ViewApp = ({ siteData, isInLoadingScreen }: Props) => {
     useAudioSettingsSync();
     /* State variables */
     const viewStore = useViewStore();
@@ -61,9 +63,36 @@ const ViewApp = ({ siteData }: Props) => {
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
     const [previousCard, setPreviousCard] = useState<CardType | null>(null);
 
+    const [firstVisit, setFirstVisit] = useState(false);
+
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
     useDisabledDefaultMobilePinchZoom();
+
+    // For handling first visit, show the info modal
+    useEffect(() => {
+        if (isInLoadingScreen) {
+            return;
+        }
+        const hasVisited = localStorage.getItem(LS_HAS_VISITED);
+        if (!hasVisited) {
+            viewStore.setInfoModalOpen(true);
+            setFirstVisit(true);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
+
+    // Then when the user closes the modal, open the day recap card
+    // Only doing this for first visit
+    useEffect(() => {
+        if (firstVisit && !viewStore.infoModalOpen) {
+            viewStore.setInfoModalOpen(false);
+            onCurrentCardChange("setting");
+            setFirstVisit(false);
+            localStorage.setItem(LS_HAS_VISITED, "true");
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
 
     /* Data variables */
     const chapterData = siteData.chapters[viewStore.chapter];

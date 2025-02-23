@@ -19,21 +19,19 @@ export const ViewAppWrapper = () => {
     const [viewAppVisible, setViewAppVisible] = useState(false);
     const playBGM = useAudioStore((state) => state.playBGM);
 
-    const handleStart = () => {
-        setIsLoading(false);
-        playBGM();
-    };
-
     return (
         <>
             {isLoading && (
                 <ViewLoadingPage
-                    onStart={handleStart}
+                    onStart={() => {
+                        setIsLoading(false);
+                        playBGM();
+                    }}
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />
             )}
             <div className={!viewAppVisible ? "invisible" : ""}>
-                <ViewApp siteData={data} />
+                <ViewApp siteData={data} isInLoadingScreen={isLoading} />
             </div>
         </>
     );
