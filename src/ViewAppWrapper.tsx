@@ -5,10 +5,9 @@ import { Chapter, SiteData } from "@/lib/type";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
-import { useAudioStore } from "./store/audioStore";
-import { useSettingStore } from "./store/settingStore";
-import { cn } from "./lib/utils";
 import useLightDarkModeSwitcher from "./hooks/useLightDarkModeSwitcher";
+import { cn } from "./lib/utils";
+import { useSettingStore } from "./store/settingStore";
 
 const data: SiteData = {
     version: 1,
@@ -20,7 +19,6 @@ const data: SiteData = {
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
-    const playBGM = useAudioStore((state) => state.playBGM);
     const themeType = useSettingStore((state) => state.themeType);
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
@@ -32,7 +30,6 @@ export const ViewAppWrapper = () => {
                     useDarkMode={useDarkMode}
                     onStart={() => {
                         setIsLoading(false);
-                        playBGM();
                     }}
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />

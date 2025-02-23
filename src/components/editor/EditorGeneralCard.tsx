@@ -12,6 +12,8 @@ import { Label } from "@/components/ui/label";
 interface FormElements extends HTMLFormControlsCollection {
     chapterTitle: HTMLInputElement;
     dayRecap: HTMLTextAreaElement;
+    bgiSrc: HTMLInputElement;
+    bgmSrc: HTMLInputElement;
 }
 
 interface GeneralFormElement extends HTMLFormElement {
@@ -25,6 +27,8 @@ interface EditorGeneralCardProps {
     isDarkMode: boolean;
     onChapterTitleChange: (title: string) => void;
     onDayRecapChange: (recap: string) => void;
+    onBGImageChange: (src: string) => void;
+    onBGMChange: (src: string) => void;
     onCardClose: () => void;
 }
 
@@ -35,6 +39,8 @@ const EditorGeneralCard = ({
     isDarkMode,
     onChapterTitleChange,
     onDayRecapChange,
+    onBGImageChange,
+    onBGMChange,
     onCardClose,
 }: EditorGeneralCardProps) => {
     const [dayRecapMdData, setDayRecapMdData] = useState(
@@ -54,8 +60,19 @@ const EditorGeneralCard = ({
         }
 
         const newDayRecap = event.currentTarget.elements.dayRecap.value;
+
         if (dayData && newDayRecap !== dayData.dayRecap) {
             onDayRecapChange(newDayRecap);
+        }
+
+        const newBGImage = event.currentTarget.elements.bgiSrc.value;
+        if (chapterData.bgiSrc !== newBGImage) {
+            onBGImageChange(newBGImage);
+        }
+
+        const newBGM = event.currentTarget.elements.bgmSrc.value;
+        if (chapterData.bgmSrc !== newBGM) {
+            onBGMChange(newBGM);
         }
     };
 
@@ -86,7 +103,34 @@ const EditorGeneralCard = ({
                     />
                 </div>
 
-                <div className={clsx("my-2", dayData === null && "hidden")} data-color-mode={isDarkMode ? "dark" : "light"}>
+                <div className="my-2">
+                    <Label className="my-1" htmlFor="bg">
+                        BG Image Url
+                    </Label>
+                    <Input
+                        type="text"
+                        id="bg"
+                        name="bgiSrc"
+                        defaultValue={chapterData.bgiSrc}
+                    />
+                </div>
+
+                <div>
+                    <Label className="my-1" htmlFor="bgm">
+                        BGM Url
+                    </Label>
+                    <Input
+                        type="text"
+                        id="bgm"
+                        name="bgmSrc"
+                        defaultValue={chapterData.bgmSrc}
+                    />
+                </div>
+
+                <div
+                    className={clsx("my-2", dayData === null && "hidden")}
+                    data-color-mode={isDarkMode ? "dark" : "light"}
+                >
                     <Label className="block my-1" htmlFor="dayRecap">
                         Day Recap
                     </Label>

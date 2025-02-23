@@ -36,6 +36,8 @@ export type Chapter = {
     charts: ChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
+    bgiSrc: string;
+    bgmSrc: string;
 };
 
 export type EditorChapter = {
@@ -44,6 +46,8 @@ export type EditorChapter = {
     charts: EditorChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
+    bgiSrc: string;
+    bgmSrc: string;
 };
 
 export type Team = {

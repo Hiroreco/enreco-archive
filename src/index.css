@@ -214,14 +214,14 @@ td {
 }
 
 .card-deco {
-    background-image: url("/card_deco_temp.webp");
+    background-image: url("/images-opt/card_deco.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dark .card-deco {
-    background-image: url("/card_deco_temp_dark.webp");
+    background-image: url("/images-opt/card_deco_dark.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

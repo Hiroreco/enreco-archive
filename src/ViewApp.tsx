@@ -15,7 +15,7 @@ import { CardType, useViewStore } from "@/store/viewStore";
 
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
-import { useAudioSettingsSync } from "@/store/audioStore";
+import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import clsx from "clsx";
 import { Dice6, Info, Settings } from "lucide-react";
@@ -56,6 +56,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     /* State variables */
     const viewStore = useViewStore();
     const settingsStore = useSettingStore();
+    const audioStore = useAudioStore();
 
     const [chartShrink, setChartShrink] = useState(0);
     const [fitViewOperation, setFitViewOperation] =
@@ -71,6 +72,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     useDisabledDefaultMobilePinchZoom();
 
     // For handling first visit, show the info modal
+    // Also play the bgm here
     useEffect(() => {
         if (isInLoadingScreen) {
             return;
@@ -80,6 +82,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.setInfoModalOpen(true);
             setFirstVisit(true);
         }
+        audioStore.changeBGM(chapterData.bgmSrc);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
 
@@ -252,9 +255,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
               ]
             : null;
 
-    let bgImage = "images-opt/bg.webp";
+    let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
-        bgImage = "images-opt/bg-dark.webp";
+        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
     }
 
     return (

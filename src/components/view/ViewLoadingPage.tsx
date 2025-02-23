@@ -4,7 +4,7 @@ import { useState } from "react";
 import LogoSVG from "./LogoSVG";
 
 interface ViewLoadingPageProps {
-    useDarkMode: boolean,
+    useDarkMode: boolean;
     onStart: () => void;
     setViewAppVisible: () => void;
 }
@@ -61,7 +61,7 @@ const ViewLoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: "url('images-opt/bg-dark.webp')",
+                backgroundImage: "url('images-opt/bg-0-dark.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -70,11 +70,11 @@ const ViewLoadingPage = ({
         >
             <motion.div
                 initial={{ opacity: 0 }}
-                animate={{ opacity: useDarkMode ? 0 : 1}}
+                animate={{ opacity: useDarkMode ? 0 : 1 }}
                 transition={{ duration: 0.5 }}
                 className="absolute top-0 left-0 w-screen h-screen -z-10"
                 style={{
-                    backgroundImage: "url('images-opt/bg.webp')",
+                    backgroundImage: "url('images-opt/bg-0.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

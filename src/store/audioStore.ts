@@ -19,15 +19,9 @@ interface AudioState {
     changeBGM: (key: string) => void;
 }
 
-const BGM: { [key: string]: string } = {
-    "chapter-1": "/audio/bgm-0.mp3",
-    "chapter-2": "/audio/bgm-0.mp3",
-    potato: "/audio/potato.mp3",
-};
-
 export const useAudioStore = create<AudioState>((set, get) => ({
     bgm: new Howl({
-        src: [BGM["chapter-1"]],
+        src: ["/audio/chapter-1.mp3"],
         loop: true,
         volume: useSettingStore.getState().bgmVolume,
     }),
@@ -115,9 +109,8 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             bgm.volume(volume);
         }
     },
-    changeBGM: (key: string) => {
-        if (!BGM[key]) return;
-        if (key === get().currentBgmKey) return;
+    changeBGM: (newBgmSrc: string) => {
+        if (newBgmSrc === get().currentBgmKey) return;
 
         const { bgm, bgmVolume } = get();
         const fadeOutDuration = 2000;
@@ -133,15 +126,15 @@ export const useAudioStore = create<AudioState>((set, get) => ({
 
         // Create and fade in new BGM
         const newBgm = new Howl({
-            src: [BGM[key]],
+            src: [newBgmSrc],
             loop: true,
             volume: 0,
         });
         let newBgmVolume = useSettingStore.getState().bgmVolume;
-        if (key === "potato") {
+        if (newBgmSrc === "/audio/potato.mp3") {
             newBgmVolume = 0.5;
         }
-        set({ bgm: newBgm, currentBgmKey: key, bgmVolume: newBgmVolume });
+        set({ bgm: newBgm, currentBgmKey: newBgmSrc, bgmVolume: newBgmVolume });
 
         setTimeout(() => {
             newBgm.play();

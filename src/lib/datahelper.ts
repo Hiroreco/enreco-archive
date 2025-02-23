@@ -267,6 +267,8 @@ export async function exportData(editorChapters: EditorChapter[]) {
             charts: chartData,
             teams: editorChapter.teams,
             relationships: editorChapter.relationships,
+            bgiSrc: editorChapter.bgiSrc,
+            bgmSrc: editorChapter.bgmSrc,
         };
 
         return resultChapter;

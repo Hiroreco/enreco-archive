@@ -12,13 +12,13 @@ const ViewPotatoSalidEasterEgg = () => {
             animate={jump ? { y: ["0px", "-20px", "0px"] } : {}}
             transition={{ duration: 0.2 }}
             onClick={() => {
-                if (audioStore.currentBgmKey !== "potato") {
+                if (audioStore.currentBgmKey !== "/audio/potato.mp3") {
                     setJump(true);
                     audioStore.playSFX("chicken-pop");
-                    audioStore.changeBGM("potato");
+                    audioStore.changeBGM("/audio/potato.mp3");
                 }
             }}
-            className="absolute bottom-0 right-2 h-[130px] overflow-hidden"
+            className="absolute -bottom-12 right-2 h-[130px] overflow-hidden"
         >
             <Image
                 width={100}
@@ -28,7 +28,7 @@ const ViewPotatoSalidEasterEgg = () => {
                     "mx-auto transition-opacity translate-y-[50%]",
                     {
                         "cursor-pointer opacity-50 hover:opacity-100":
-                            audioStore.currentBgmKey !== "potato",
+                            audioStore.currentBgmKey !== "/audio/potato.mp3",
                     },
                 )}
                 alt="potato salid"

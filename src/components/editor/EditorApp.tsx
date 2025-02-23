@@ -476,18 +476,18 @@ const EditorApp = () => {
                         <label htmlFor="toggleHandles">Show Handles</label>
                     </div>
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="theme-option">
-                            App Theme
-                        </Label>
+                        <Label htmlFor="theme-option">App Theme</Label>
                         <Select
                             onValueChange={(value) =>
-                                setThemeType(
-                                    value as ThemeType,
-                                )
+                                setThemeType(value as ThemeType)
                             }
                             value={themeType}
                         >
-                            <SelectTrigger id="theme-option" name="theme-option" className="w-[100px]">
+                            <SelectTrigger
+                                id="theme-option"
+                                name="theme-option"
+                                className="w-[100px]"
+                            >
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -551,6 +551,8 @@ const EditorApp = () => {
                 isDarkMode={isDarkMode}
                 onChapterTitleChange={editorStore.setChapterTitle}
                 onDayRecapChange={editorStore.setDayRecap}
+                onBGImageChange={editorStore.setChapterBackgroundImage}
+                onBGMChange={editorStore.setChapterBgm}
                 onCardClose={() => editorStore.setCurrentCard(null)}
             />
 

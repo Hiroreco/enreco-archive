@@ -3,11 +3,11 @@
 import ReactDOM from "react-dom";
 
 export default function PreloadResources() {
-    ReactDOM.preload("/card_deco_temp.webp", {
+    ReactDOM.preload("/images-opt/card_deco.webp", {
         as: "image",
         fetchPriority: "high",
     });
-    ReactDOM.preload("/card_deco_temp_dark.webp", {
+    ReactDOM.preload("/images-opt/card_deco_dark.webp", {
         as: "image",
         fetchPriority: "high",
     });
