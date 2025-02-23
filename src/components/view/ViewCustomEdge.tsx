@@ -60,11 +60,11 @@ const ViewCustomEdge = ({
     return (
         // Using svg instead of base edge component for more control
         <svg
-            className={cn("transition-all fill-none duration-1000 dark:brightness-[0.87]", {})}
-            style={style}
+            className={cn(
+                "transition-all fill-none duration-1000 dark:brightness-[0.87]",
+            )}
         >
             {/* transparent for increase click area */}
-
             <path
                 d={path}
                 fill="none"
@@ -74,11 +74,13 @@ const ViewCustomEdge = ({
                 className="cursor-pointer"
             />
 
+            {/* actual edge */}
             <path
                 ref={pathRef}
                 d={path}
                 style={{
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
+                    ...style,
                 }}
                 className="hover:stroke-[7] stroke-[5]"
             />
