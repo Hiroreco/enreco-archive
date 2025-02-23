@@ -58,7 +58,7 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                                     : "dark",
                             )
                         }
-                        className="cursor-pointer hover:bg-neutral-300 dark:hover:bg-neutral-600 transition-colors p-2 rounded-lg"
+                        className="cursor-pointer hover:bg-white/50 dark:hover:bg-neutral-600/50 transition-colors p-2 rounded-lg"
                     >
                         {settingStore.themeType === "dark" ? (
                             <Sun className="h-6 w-6" />
