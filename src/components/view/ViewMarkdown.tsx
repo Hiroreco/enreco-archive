@@ -239,7 +239,7 @@ export function ViewMarkdown({
                                 href={url}
                                 target="_blank"
                                 {...rest}
-                                className="font-semibold"
+                                className="font-semibold text-[#6f6ac6]"
                             />
                         );
                     } else if (href && href.startsWith("#image")) {

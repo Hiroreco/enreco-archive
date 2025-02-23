@@ -32,7 +32,7 @@ export const useSettingStore = create<SettingState>()(
             setTimestampOption: (timestampOption: TimestampOption) =>
                 set({ timestampOption }),
 
-            bgmVolume: 0.5,
+            bgmVolume: 1.0,
             setBgmVolume: (bgmVolume: number) => set({ bgmVolume }),
 
             sfxVolume: 0.5,

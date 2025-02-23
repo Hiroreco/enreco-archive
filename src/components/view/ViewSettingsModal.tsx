@@ -97,7 +97,11 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                             }
                             value={settingStore.timestampOption}
                         >
-                            <SelectTrigger className="w-[100px]">
+                            <SelectTrigger
+                                className="w-[100px]"
+                                id="timestamp-option"
+                                name="timestamp-option"
+                            >
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>

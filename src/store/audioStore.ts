@@ -20,8 +20,8 @@ interface AudioState {
 }
 
 const BGM: { [key: string]: string } = {
-    "chapter-1": "/audio/bgm-edit.mp3",
-    "chapter-2": "/audio/bgm-edit.mp3",
+    "chapter-1": "/audio/bgm-0.mp3",
+    "chapter-2": "/audio/bgm-0.mp3",
     potato: "/audio/potato.mp3",
 };
 

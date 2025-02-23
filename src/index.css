@@ -99,7 +99,7 @@ h3 {
 }
 
 a {
-    color: #6f9cc0;
+    color: #5f8db2;
 }
 
 a:visited {
@@ -152,10 +152,6 @@ td {
     background-size: cover; /* Scales to fill the parent */
     background-position: center; /* Centers the image */
     @apply rounded-t-lg;
-}
-
-.link-span {
-    @apply text-[#073471] underline cursor-pointer;
 }
 
 @keyframes drawLine {

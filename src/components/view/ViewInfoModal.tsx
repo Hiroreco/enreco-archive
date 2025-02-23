@@ -48,7 +48,7 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                         <ViewInfoGuide />
                     </TabsContent>
                 </Tabs>
-                <DialogFooter className="flex items-center sm:justify-between w-full">
+                <DialogFooter className="flex items-center flex-row justify-between sm:justify-between w-full">
                     {/* Theme Toggle */}
                     <div
                         onClick={() =>
