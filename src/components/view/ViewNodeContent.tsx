@@ -72,7 +72,7 @@ const ViewNodeContent = ({
                 {selectedNode?.data.imageSrc && (
                     <Image
                         alt="character image"
-                        className="aspect-square w-[150px] z-10"
+                        className="aspect-square w-[150px] z-10 dark:brightness-[0.87]"
                         src={selectedNode?.data.imageSrc}
                         width={150}
                         height={150}

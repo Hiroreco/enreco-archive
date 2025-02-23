@@ -115,7 +115,7 @@ function DragPoint({
     return (
         <div
             ref={pointRef}
-            className="custom_point nodrag nopan"
+            className="custom_point nodrag nopan bg-foreground"
             style={{
                 position: "absolute",
                 left: `${x - DRAG_POINT_WIDTH / 2}px`,
@@ -125,7 +125,6 @@ function DragPoint({
                 height: `${DRAG_POINT_HEIGHT}px`,
                 pointerEvents: "all",
                 borderRadius: "50%",
-                background: "black",
                 cursor:
                     direction === "horizontal" ? "row-resize" : "col-resize",
             }}

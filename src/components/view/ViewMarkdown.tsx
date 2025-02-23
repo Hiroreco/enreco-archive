@@ -17,6 +17,7 @@ import {
     MouseEvent,
     MouseEventHandler,
     ReactNode,
+    useMemo,
 } from "react";
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -55,6 +56,12 @@ export function ViewMarkdown({
     children,
 }: Props) {
     const { getNode, getEdge } = useReactFlow<ImageNodeType, FixedEdgeType>();
+    const isDarkMode = useMemo(() => {
+        if (typeof document !== "undefined") {
+            return document.documentElement.classList.contains("dark");
+        }
+        return false;
+    }, []);
 
     const nodeLinkHandler: MouseEventHandler<HTMLAnchorElement> = (
         event: MouseEvent<HTMLAnchorElement>,
@@ -174,7 +181,7 @@ export function ViewMarkdown({
                         if (style && style.stroke) {
                             nodeColor = getLighterOrDarkerColor(
                                 style.stroke,
-                                -30,
+                                isDarkMode ? 30 : -30,
                             );
                         }
                         return (
@@ -198,7 +205,7 @@ export function ViewMarkdown({
                         if (style && style.stroke) {
                             edgeColor = getLighterOrDarkerColor(
                                 style.stroke,
-                                -30,
+                                isDarkMode ? 30 : -30,
                             );
                         }
                         return (

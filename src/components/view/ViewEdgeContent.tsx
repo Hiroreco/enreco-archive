@@ -80,13 +80,13 @@ const ViewEdgeContent = ({
             >
                 <div className="z-10 flex gap-4 items-center justify-between">
                     <img
-                        className="aspect-square w-[150px] object-cover"
+                        className="aspect-square w-[150px] object-cover dark:brightness-[0.87]"
                         src={nodeA.data.imageSrc}
                         alt="Node A"
                     />
                     <LineSvg style={edgeStyle!} />
                     <img
-                        className="aspect-square w-[150px] object-cover"
+                        className="aspect-square w-[150px] object-cover dark:brightness-[0.87]"
                         src={nodeB.data.imageSrc}
                         alt="Node B"
                     />

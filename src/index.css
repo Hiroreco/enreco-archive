@@ -8,11 +8,11 @@ img {
 
 @layer base {
     :root {
-        --background: 0 0% 100%;
+        --background: 0 0% 98%;
         --foreground: 0 0% 27%;
-        --card: 0 0% 100%;
+        --card: 0 0% 98%;
         --card-foreground: 0 0% 27%;
-        --popover: 0 0% 100%;
+        --popover: 0 0% 98%;
         --popover-foreground: 0 0% 27%;
         --primary: 0 0% 9%;
         --primary-foreground: 0 0% 98%;
@@ -20,7 +20,7 @@ img {
         --secondary-foreground: 0 0% 9%;
         --muted: 0 0% 96.1%;
         --muted-foreground: 0 0% 45.1%;
-        --accent: 0 0% 96.1%;
+        --accent: 207 39.1% 59.4%;
         --accent-foreground: 0 0% 9%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
@@ -35,24 +35,24 @@ img {
         --radius: 0.5rem;
     }
     .dark {
-        --background: 0 0% 3.9%;
-        --foreground: 0 0% 98%;
-        --card: 0 0% 3.9%;
-        --card-foreground: 0 0% 98%;
-        --popover: 0 0% 3.9%;
-        --popover-foreground: 0 0% 98%;
+        --background: 0 0% 7.1%;
+        --foreground: 0 0% 100% / 87%;
+        --card: 0 0% 7.1%;
+        --card-foreground: 0 0% 100% / 87%;
+        --popover: 0 0% 7.1%;
+        --popover-foreground: 0 0% 100% / 87%;
         --primary: 0 0% 98%;
         --primary-foreground: 0 0% 9%;
-        --secondary: 0 0% 14.9%;
-        --secondary-foreground: 0 0% 98%;
-        --muted: 0 0% 14.9%;
-        --muted-foreground: 0 0% 63.9%;
-        --accent: 0 0% 14.9%;
-        --accent-foreground: 0 0% 98%;
+        --secondary: 0 0% 19.9%;
+        --secondary-foreground: 0 0% 100% / 87%;
+        --muted: 0 0% 15.7%;
+        --muted-foreground: 0 0% 100% / 60%;
+        --accent: 207 39.1% 59.4%;
+        --accent-foreground: 0 0% 100% / 87%;
         --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 14.9%;
-        --input: 0 0% 14.9%;
+        --destructive-foreground: 0 0% 100% / 87%;
+        --border: 0 0% 25%;
+        --input: 0 0% 25%;
         --ring: 0 0% 83.1%;
         --chart-1: 220 70% 50%;
         --chart-2: 160 60% 45%;
@@ -71,21 +71,9 @@ img {
     }
 }
 
-/* Custom thin scrollbar */
+/* Remove scrollbar cause it looks janky */
 ::-webkit-scrollbar {
-    width: 4px;
-}
-
-::-webkit-scrollbar-track {
-    @apply bg-gray-200;
-}
-
-::-webkit-scrollbar-thumb {
-    @apply bg-gray-400 rounded-full;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray-500;
+    @apply hidden;
 }
 
 h1 {
@@ -102,7 +90,7 @@ h2::after {
     width: 100%;
     height: 1px;
     opacity: 30%;
-    background-color: rgb(var(--foreground));
+    background-color: hsl(var(--primary));
     @apply w-full my-2;
 }
 
@@ -111,7 +99,11 @@ h3 {
 }
 
 a {
-    color: #134ea0;
+    color: #6f9cc0;
+}
+
+a:visited {
+    color: #6f74c0;
 }
 
 ul {
@@ -184,6 +176,10 @@ td {
 
 .box-empty {
     @apply box bg-gray-200;
+}
+
+.dark .box-empty {
+    @apply box bg-gray-600;
 }
 
 .box-blue {

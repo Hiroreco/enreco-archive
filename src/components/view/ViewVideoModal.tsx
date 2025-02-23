@@ -8,12 +8,14 @@ interface ViewVideoModalProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
     videoUrl: string | null;
+    useDarkMode: boolean;
 }
 
 const ViewVideoModal = ({
     open,
     onOpenChange,
     videoUrl,
+    useDarkMode
 }: ViewVideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const audioStore = useAudioStore();
@@ -23,6 +25,12 @@ const ViewVideoModal = ({
         }
         onOpenChange(newOpen);
     };
+
+    let bgImage = "bg.webp";
+    if(useDarkMode) {
+        bgImage = "bg-dark.png";
+    }
+
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>
             <VisuallyHidden>
@@ -31,7 +39,7 @@ const ViewVideoModal = ({
             <DialogContent
                 className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2"
                 style={{
-                    backgroundImage: "url('bg.webp')",
+                    backgroundImage: `url('${bgImage}')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

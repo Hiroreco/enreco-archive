@@ -25,6 +25,7 @@ interface EditorEdgeCard {
     deleteEdge: () => void;
     onCardClose: () => void;
     numberOfDays: number;
+    isDarkMode: boolean;
 }
 
 const EdgeEditorCard = ({
@@ -35,6 +36,7 @@ const EdgeEditorCard = ({
     deleteEdge,
     onCardClose,
     numberOfDays,
+    isDarkMode
 }: EditorEdgeCard) => {
     const [workingEdge, setWorkingEdge] = useState(selectedEdge);
     const handleSave = () => {
@@ -57,8 +59,8 @@ const EdgeEditorCard = ({
 
     return (
         <EditorCard>
-            <div className="w-full sticky top-0 bg-white z-10">
-                <div className="flex justify-around items-center w-full">
+            <div className="w-full sticky top-0 bg-background z-10">
+                <div className="flex justify-between items-center w-full">
                     <div className="text-xl font-bold">Edge Editor</div>
                     <Button onClick={onClose}>
                         <LucideX />
@@ -166,19 +168,20 @@ const EdgeEditorCard = ({
                 >
                     Edge Day Content
                 </Label>
-                <MDEditor
-                    id="node-content"
-                    textareaProps={{ name: "content" }}
-                    value={workingEdge.data?.content}
-                    onChange={(content) =>
-                        setWorkingEdgeAttr((draft) => {
-                            if (draft.data) {
-                                draft.data.content = content || "";
-                            }
-                        })
-                    }
-                    className="col-span-2"
-                />
+                <div className="col-span-2" data-color-mode={isDarkMode ? "dark" : "light"}>
+                    <MDEditor
+                        id="node-content"
+                        textareaProps={{ name: "content" }}
+                        value={workingEdge.data?.content}
+                        onChange={(content) =>
+                            setWorkingEdgeAttr((draft) => {
+                                if (draft.data) {
+                                    draft.data.content = content || "";
+                                }
+                            })
+                        }
+                    />
+                </div>
             </div>
             <div className="flex flex-row gap-16">
                 <Button onClick={handleSave}>Save</Button>
