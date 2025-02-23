@@ -37,8 +37,15 @@ async function optimizeImages() {
                 const blurDataURL = await generateBlurDataURL(inputPath);
                 blurDataMap[path.parse(file).name] = blurDataURL;
 
+                // Leave quality for anything containing "bg" and "deco" slightly higher
+                // Doing this because the compressed bg and deco looks really blurry
+                let quality = 70;
+                if (file.includes("bg") || file.includes("deco")) {
+                    quality = 95;
+                }
+
                 await sharp(inputPath)
-                    .webp({ quality: 70 })
+                    .webp({ quality: quality })
                     .toFile(outputPath);
 
                 console.log(`Optimized: ${file}`);
