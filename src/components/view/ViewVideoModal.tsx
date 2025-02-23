@@ -26,9 +26,9 @@ const ViewVideoModal = ({
         onOpenChange(newOpen);
     };
 
-    let bgImage = "bg.webp";
+    let bgImage = "images-opt/bg.webp";
     if(useDarkMode) {
-        bgImage = "bg-dark.png";
+        bgImage = "images-opt/bg-dark.webp";
     }
 
     return (
