@@ -367,7 +367,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     }
                 >
                     <img
-                        src="https://cdn.holoen.fans/hefw/media/emblem.webp"
+                        src="images-opt/emblem.webp"
                         className="w-full h-full"
                     />
                 </IconButton>
