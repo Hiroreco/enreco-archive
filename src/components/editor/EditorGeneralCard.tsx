@@ -22,6 +22,7 @@ interface EditorGeneralCardProps {
     isVisible: boolean;
     chapterData: EditorChapter | null;
     dayData: EditorChartData | null;
+    isDarkMode: boolean;
     onChapterTitleChange: (title: string) => void;
     onDayRecapChange: (recap: string) => void;
     onCardClose: () => void;
@@ -31,6 +32,7 @@ const EditorGeneralCard = ({
     isVisible,
     chapterData,
     dayData,
+    isDarkMode,
     onChapterTitleChange,
     onDayRecapChange,
     onCardClose,
@@ -84,7 +86,7 @@ const EditorGeneralCard = ({
                     />
                 </div>
 
-                <div className={clsx("my-2", dayData === null && "hidden")}>
+                <div className={clsx("my-2", dayData === null && "hidden")} data-color-mode={isDarkMode ? "dark" : "light"}>
                     <Label className="block my-1" htmlFor="dayRecap">
                         Day Recap
                     </Label>

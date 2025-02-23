@@ -45,12 +45,13 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
 }
 
 interface Props {
+    useDarkMode: boolean;
     siteData: SiteData;
     isInLoadingScreen: boolean;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, isInLoadingScreen }: Props) => {
+const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     useAudioSettingsSync();
     /* State variables */
     const viewStore = useViewStore();
@@ -251,6 +252,11 @@ const ViewApp = ({ siteData, isInLoadingScreen }: Props) => {
               ]
             : null;
 
+    let bgImage = "bg.webp";
+    if (useDarkMode) {
+        bgImage = "bg-dark.png";
+    }
+
     return (
         <>
             <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
@@ -279,7 +285,7 @@ const ViewApp = ({ siteData, isInLoadingScreen }: Props) => {
                     className="absolute top-0 left-0 w-screen h-screen -z-10"
                     style={{
                         // The optimized background looks bad so using original for now
-                        backgroundImage: "url('bg.webp')",
+                        backgroundImage: `url('${bgImage}')`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
@@ -342,6 +348,7 @@ const ViewApp = ({ siteData, isInLoadingScreen }: Props) => {
                 open={viewStore.videoModalOpen}
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
+                useDarkMode={useDarkMode}
             />
 
             <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">

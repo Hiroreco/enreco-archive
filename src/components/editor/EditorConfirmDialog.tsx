@@ -41,7 +41,7 @@ export default function EditorConfirmDialog({
                     <span className="text-md">{message}</span>
                     <div className="flex flex-row gap-2 mt-2">
                         <Button
-                            className="bg-red-600"
+                            className="bg-destructive text-destructive-foreground"
                             onClick={() => {
                                 onActionConfirm();
                                 onModalClose();

@@ -60,7 +60,7 @@ const ViewCustomEdge = ({
     return (
         // Using svg instead of base edge component for more control
         <svg
-            className={cn("transition-all fill-none duration-1000", {})}
+            className={cn("transition-all fill-none duration-1000 dark:brightness-[0.87]", {})}
             style={style}
         >
             {/* transparent for increase click area */}

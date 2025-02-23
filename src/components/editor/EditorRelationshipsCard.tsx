@@ -198,31 +198,31 @@ export default function EditorRelationshipsCard({
                     <tr>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2 w-20"
+                            className="bg-secondary text-left border border-black p-2 w-20"
                         >
                             Preview
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Id
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Name
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Line Color (stroke)
                         </th>
                         <th
                             scope="col"
-                            className="text-left border border-black p-2"
+                            className="bg-secondary text-left border border-black p-2"
                         >
                             Line Pattern (stroke-dasharray)
                         </th>
@@ -262,7 +262,7 @@ export default function EditorRelationshipsCard({
                                                 )
                                             }
                                             disabled={autoGenIdFromName}
-                                            className="w-full border rounded-lg disabled:opacity-50 disabled:bg-gray-200"
+                                            className="w-full border rounded-lg bg-secondary disabled:opacity-50"
                                         />
                                     </td>
                                     <td className="border border-black p-2">
@@ -276,7 +276,7 @@ export default function EditorRelationshipsCard({
                                                     event.target.value,
                                                 )
                                             }
-                                            className="w-full border rounded-lg"
+                                            className="w-full border rounded-lg bg-secondary "
                                         />
                                     </td>
                                     <td className="border border-black p-2">
@@ -292,7 +292,7 @@ export default function EditorRelationshipsCard({
                                                     event.target.value,
                                                 )
                                             }
-                                            className="w-full border rounded-lg p-0.5"
+                                            className="w-full border rounded-lg bg-secondary p-0.5"
                                         />
                                     </td>
                                     <td className="border border-black p-2">
@@ -309,7 +309,7 @@ export default function EditorRelationshipsCard({
                                                     event.target.value,
                                                 )
                                             }
-                                            className="w-full border rounded-lg"
+                                            className="w-full border rounded-lg bg-secondary"
                                         />
                                     </td>
                                 </tr>
@@ -333,7 +333,7 @@ export default function EditorRelationshipsCard({
                     id="new-rel-id"
                     name="newRelationshipId"
                     disabled={autoGenIdFromName}
-                    className="border rounded-lg disabled:bg-gray-200"
+                    className="border rounded-lg bg-secondary"
                     required
                 />
 
@@ -344,7 +344,7 @@ export default function EditorRelationshipsCard({
                     type="text"
                     id="new-rel-name"
                     name="newRelationshipName"
-                    className="border rounded-lg"
+                    className="border rounded-lg bg-secondary "
                     required
                 />
 
@@ -356,7 +356,7 @@ export default function EditorRelationshipsCard({
                     defaultValue="#000000"
                     id="new-rel-color"
                     name="newRelationshipColor"
-                    className="border rounded-lg p-0.5"
+                    className="border rounded-lg p-0.5 bg-secondary "
                     required
                 />
 
@@ -370,7 +370,7 @@ export default function EditorRelationshipsCard({
                     type="text"
                     id="new-rel-dasharray"
                     name="newRelationshipDashArray"
-                    className="border rounded-lg"
+                    className="border rounded-lg bg-secondary "
                 />
 
                 <Button type="submit" className="col-span-2">

@@ -6,6 +6,9 @@ import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import { useAudioStore } from "./store/audioStore";
+import { useSettingStore } from "./store/settingStore";
+import { cn } from "./lib/utils";
+import useLightDarkModeSwitcher from "./hooks/useLightDarkModeSwitcher";
 
 const data: SiteData = {
     version: 1,
@@ -18,11 +21,15 @@ export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
     const playBGM = useAudioStore((state) => state.playBGM);
+    const themeType = useSettingStore((state) => state.themeType);
+
+    const useDarkMode = useLightDarkModeSwitcher(themeType);
 
     return (
         <>
             {isLoading && (
                 <ViewLoadingPage
+                    useDarkMode={useDarkMode}
                     onStart={() => {
                         setIsLoading(false);
                         playBGM();
@@ -30,8 +37,17 @@ export const ViewAppWrapper = () => {
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />
             )}
-            <div className={!viewAppVisible ? "invisible" : ""}>
-                <ViewApp siteData={data} isInLoadingScreen={isLoading} />
+            <div
+                className={cn({
+                    "visible opacity-1": viewAppVisible,
+                    "invisible opacity-0": !viewAppVisible,
+                })}
+            >
+                <ViewApp
+                    useDarkMode={useDarkMode}
+                    siteData={data}
+                    isInLoadingScreen={isLoading}
+                />
             </div>
         </>
     );

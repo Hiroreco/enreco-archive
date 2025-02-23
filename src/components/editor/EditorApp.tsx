@@ -37,6 +37,9 @@ import {
     TeamMap,
 } from "@/lib/type";
 import { EditorMode, useEditorStore } from "@/store/editorStore";
+import { ThemeType, useSettingStore } from "@/store/settingStore";
+import { Label } from "../ui/label";
+import useLightDarkModeSwitcher from "@/hooks/useLightDarkModeSwitcher";
 
 const EMPTY_NODE: EditorImageNodeType = {
     id: "",
@@ -79,6 +82,8 @@ const EMPTY_EDGE: CustomEdgeType = {
 const EditorApp = () => {
     const { updateEdge, updateNode, deleteElements } = useReactFlow();
     const editorStore = useEditorStore();
+    const { themeType, setThemeType } = useSettingStore();
+    const isDarkMode = useLightDarkModeSwitcher(themeType);
     useKeyboard();
 
     const numChapters = editorStore.data.length;
@@ -295,6 +300,7 @@ const EditorApp = () => {
                     edgeType={editorStore.edgeType}
                     areNodesDraggable={editorStore.mode === "edit"}
                     canPlaceNewNode={editorStore.mode === "place"}
+                    isDarkMode={isDarkMode}
                     onNodeClick={(node: EditorImageNodeType) => {
                         editorStore.setCurrentCard("node");
                         editorStore.setSelectedNode(node);
@@ -310,7 +316,7 @@ const EditorApp = () => {
 
             <Toolbar.Root
                 id="main-toolbar"
-                className="flex flex-row fixed top-5 left-[2.5%] right-[2.5%] w-[95%] mx-auto p-2 px-5 bg-neutral-100 rounded-lg"
+                className="flex flex-row fixed top-5 left-[2.5%] right-[2.5%] w-[95%] mx-auto p-2 px-5 bg-muted rounded-lg"
             >
                 <div className="w-2/12 flex flex-col gap-y-0.5">
                     <span className="text-md font-bold">Editor Mode</span>
@@ -394,7 +400,7 @@ const EditorApp = () => {
                                 editorStore.setCurrentCard(null);
                             }
                         }}
-                        className="h-8 disabled:opacity-50 outline-none disabled:outline-none hover:outline hover:outline-black hover:outline-2 bg-white rounded-lg data-[state=on]:bg-neutral-300"
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
                     >
                         <span className="text-md">
                             Chapter Title / Day Recap
@@ -410,7 +416,7 @@ const EditorApp = () => {
                                 editorStore.setCurrentCard(null);
                             }
                         }}
-                        className="h-8 disabled:opacity-50 outline-none disabled:outline-none hover:outline hover:outline-black hover:outline-2 bg-white rounded-lg data-[state=on]:bg-neutral-300"
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
                     >
                         <span className="text-md">Chapter Teams</span>
                     </Toggle.Root>
@@ -424,7 +430,7 @@ const EditorApp = () => {
                                 editorStore.setCurrentCard(null);
                             }
                         }}
-                        className="h-8 disabled:opacity-50 outline-none disabled:outline-none hover:outline hover:outline-black hover:outline-2 bg-white rounded-lg data-[state=on]:bg-neutral-300"
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
                     >
                         <span className="text-md">Chapter Relationships</span>
                     </Toggle.Root>
@@ -432,21 +438,21 @@ const EditorApp = () => {
                 <Toolbar.Separator className="mx-2.5 w-px bg-black" />
                 <div className="w-1/12 flex flex-col gap-y-2">
                     <Button
-                        className="h-8 gap-2 bg-white text-black hover:text-white"
+                        className="h-8 gap-2 bg-background text-foreground"
                         onClick={() => saveData(editorStore.data)}
                     >
                         <LucideSave />
                         <span className="text-md">Save</span>
                     </Button>
                     <Button
-                        className="h-8 gap-2 bg-white text-black hover:text-white"
+                        className="h-8 gap-2 bg-background text-foreground"
                         onClick={() => loadData(editorStore.setData)}
                     >
                         <LucideFolderOpen />
                         <span className="text-md">Load</span>
                     </Button>
                     <Button
-                        className="h-8 gap-2 bg-white text-black hover:text-white"
+                        className="h-8 gap-2 bg-background text-foreground"
                         onClick={() => exportData(editorStore.data)}
                     >
                         <LucideArrowRightFromLine />
@@ -469,6 +475,28 @@ const EditorApp = () => {
                         />
                         <label htmlFor="toggleHandles">Show Handles</label>
                     </div>
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label htmlFor="theme-option">
+                            App Theme
+                        </Label>
+                        <Select
+                            onValueChange={(value) =>
+                                setThemeType(
+                                    value as ThemeType,
+                                )
+                            }
+                            value={themeType}
+                        >
+                            <SelectTrigger id="theme-option" name="theme-option" className="w-[100px]">
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="system">System</SelectItem>
+                                <SelectItem value="light">Light</SelectItem>
+                                <SelectItem value="dark">Dark</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
                 </div>
             </Toolbar.Root>
 
@@ -486,6 +514,7 @@ const EditorApp = () => {
                 deleteNode={deleteNode}
                 onCardClose={() => editorStore.setCurrentCard(null)}
                 numberOfDays={numDays}
+                isDarkMode={isDarkMode}
             />
 
             <EdgeEditorCard
@@ -501,6 +530,7 @@ const EditorApp = () => {
                 updateEdge={updateEdgeEH}
                 onCardClose={() => editorStore.setCurrentCard(null)}
                 numberOfDays={numDays}
+                isDarkMode={isDarkMode}
             />
 
             <EditorGeneralCard
@@ -518,6 +548,7 @@ const EditorApp = () => {
                           ]
                         : null
                 }
+                isDarkMode={isDarkMode}
                 onChapterTitleChange={editorStore.setChapterTitle}
                 onDayRecapChange={editorStore.setDayRecap}
                 onCardClose={() => editorStore.setCurrentCard(null)}
