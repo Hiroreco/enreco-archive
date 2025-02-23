@@ -12,7 +12,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ViewInfoGuide from "@/components/view/ViewInfoGuide";
 import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
 import { useSettingStore } from "@/store/settingStore";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, SunMoon } from "lucide-react";
+import * as ToggleGroup from "@radix-ui/react-toggle-group";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -50,22 +51,30 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                 </Tabs>
                 <DialogFooter className="flex items-center flex-row justify-between sm:justify-between w-full">
                     {/* Theme Toggle */}
-                    <div
-                        onClick={() =>
-                            settingStore.setThemeType(
-                                settingStore.themeType === "dark"
-                                    ? "light"
-                                    : "dark",
-                            )
-                        }
-                        className="cursor-pointer hover:bg-white/50 dark:hover:bg-neutral-600/50 transition-colors p-2 rounded-lg"
+                    <ToggleGroup.Root
+                        type="single"
+                        value={settingStore.themeType}
+                        onValueChange={settingStore.setThemeType}
                     >
-                        {settingStore.themeType === "dark" ? (
-                            <Sun className="h-6 w-6" />
-                        ) : (
-                            <Moon className="h-6 w-6" />
-                        )}
-                    </div>
+                        <ToggleGroup.Item 
+                            value="light"
+                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg"
+                        >
+                            <Sun className="h-8 w-8"/>
+                        </ToggleGroup.Item>
+                        <ToggleGroup.Item 
+                            value="dark"
+                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg"    
+                        >
+                            <Moon className="h-8 w-8"/>
+                        </ToggleGroup.Item>
+                        <ToggleGroup.Item 
+                            value="system"
+                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg"    
+                        >
+                            <SunMoon className="h-8 w-8"/>
+                        </ToggleGroup.Item>
+                    </ToggleGroup.Root>
 
                     <DialogClose asChild>
                         <Button className="self-end">Close</Button>
