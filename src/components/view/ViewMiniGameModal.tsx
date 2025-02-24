@@ -45,12 +45,12 @@ const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
     const [game, setGame] = useState("gambling");
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="max-w-none md:w-[800px] md:h-[400px] h-[85vh] transition-all">
+            <DialogContent className="md:max-w-[800px] md:max-h-[400px] max-w-none w-[95vw] h-[90vh] transition-all">
                 <DialogHeader>
                     <DialogTitle>Minigames</DialogTitle>
                 </DialogHeader>
 
-                <div className="h-full w-full flex flex-col items-center">
+                <div className="h-full w-full flex flex-col">
                     <Select
                         value={game}
                         onValueChange={(value) => setGame(value)}

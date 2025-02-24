@@ -15,6 +15,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
+import { Separator } from "@/components/ui/separator";
 import { Slider } from "@/components/ui/slider";
 import {
     ThemeType,
@@ -32,11 +33,11 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="rounded-lg space-y-2">
+            <DialogContent className="rounded-lg space-y-2 max-h-[90vh]">
                 <DialogHeader>
                     <DialogTitle>Settings</DialogTitle>
                 </DialogHeader>
-                <div className="flex flex-col gap-4 items-start justify-between flex-1">
+                <div className="flex flex-col gap-4 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="enable-bgm">Background Music</Label>
                         <Slider
@@ -134,13 +135,9 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                         </Select>
                     </div>
                 </div>
+                <Separator />
                 <DialogFooter>
-                    <Button
-                        onClick={() => onOpenChange(false)}
-                        className="mt-4"
-                    >
-                        Close
-                    </Button>
+                    <Button onClick={() => onOpenChange(false)}>Close</Button>
                 </DialogFooter>
             </DialogContent>
         </Dialog>

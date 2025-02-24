@@ -187,11 +187,11 @@ const ViewGamblingGame = () => {
     };
 
     return (
-        <div className="flex flex-col md:flex-row items-center w-full md:gap-4 md:justify-between text-sm sm:text-base">
+        <div className="flex flex-col sm:flex-row items-center w-full md:justify-between text-sm lg:text-base">
             <div className="grid grid-cols-5 grid-rows-5 h-fit w-fit">
                 {displayedBoard}
             </div>
-            <div className="flex flex-col sm:gap-2 items-center grow mt-2">
+            <div className="flex flex-col md:gap-2 items-center grow mt-2">
                 <div className="flex gap-2">
                     <span className="text-center">
                         <span className="font-semibold">Current Budget:</span>{" "}

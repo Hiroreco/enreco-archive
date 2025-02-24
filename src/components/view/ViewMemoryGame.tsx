@@ -222,8 +222,8 @@ const ViewMemoryGame = () => {
     };
 
     return (
-        <div className="flex flex-col md:flex-row gap-4 justify-between w-full items-center text-sm sm:text-base">
-            <div className="grid grid-cols-5 grid-rows-5 h-fit w-fit">
+        <div className="flex flex-col sm:flex-row gap-4 justify-between w-full items-center text-sm md:text-base">
+            <div className="grid grid-cols-5 grid-rows-5 w-fit h-fit">
                 {displayedBoard}
             </div>
             <div className="flex flex-col items-center gap-2 grow">

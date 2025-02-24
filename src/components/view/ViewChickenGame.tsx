@@ -4,7 +4,9 @@ import { useAudioStore } from "@/store/audioStore";
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
 
-const BASKET_WIDTH = 50;
+import Image from "next/image";
+
+const BASKET_WIDTH = 60;
 const BASKET_HEIGHT = 60;
 const CHICKEN_SIZE = 30;
 const CHICKEN_FALL_SPEED = 3;
@@ -198,7 +200,7 @@ const ViewChickenGame = () => {
     }, [isPlaying, basketX, audioStore]);
 
     return (
-        <div className="flex flex-col w-[90%] h-[90%] items-center gap-4">
+        <div className="flex flex-col w-[90%] h-[90%] items-center gap-2 text-sm md:text-base">
             <div className="w-full relative h-4 bg-gray-200 dark:bg-gray-600 rounded-lg mt-2 sm:mt-0">
                 <div
                     className="absolute left-0 rounded-lg top-0 h-full transition-all bg-green-600 "
@@ -211,7 +213,7 @@ const ViewChickenGame = () => {
             >
                 {/* Chickens */}
                 {chickens.map((chicken) => (
-                    <div
+                    <Image
                         key={chicken.id}
                         className="absolute"
                         style={{
@@ -219,28 +221,30 @@ const ViewChickenGame = () => {
                             top: chicken.y,
                             width: CHICKEN_SIZE,
                             height: CHICKEN_SIZE,
-                            fontSize: CHICKEN_SIZE,
                         }}
-                    >
-                        🐔
-                    </div>
+                        width={50}
+                        height={50}
+                        src={`/images-opt/chicken.webp`}
+                        alt="chicken"
+                    ></Image>
                 ))}
 
                 {/* Basket */}
-                <div
+                <Image
                     className="absolute bottom-0 text-center"
                     style={{
                         left: basketX,
                         width: BASKET_WIDTH,
                         height: BASKET_HEIGHT,
-                        fontSize: BASKET_WIDTH,
                     }}
-                >
-                    🧺
-                </div>
+                    width={60}
+                    height={60}
+                    src={`/images-opt/basket.webp`}
+                    alt="basket"
+                ></Image>
             </div>
 
-            <div className="flex w-full items-center justify-around ">
+            <div className="flex w-full items-center justify-around sm:mb-2">
                 <span>Score: {score}</span>
                 <span>High Score: {highScore}</span>
                 <Button
