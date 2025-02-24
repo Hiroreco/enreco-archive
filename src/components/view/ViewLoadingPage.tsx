@@ -81,7 +81,7 @@ const ViewLoadingPage = ({
                 }}
             />
 
-            <motion.div className="md:h-[60vh] md:max-h-[600px] w-auto h-[80vh] text-[#6f9cc0] mr-2">
+            <motion.div className="md:h-[60vh] md:max-h-[600px] w-auto text-[#6f9cc0] mr-2">
                 <LogoSVG
                     onAnimationComplete={() => {
                         setTimeout(() => setIsDrawingComplete(true), 3000);

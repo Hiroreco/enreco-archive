@@ -187,7 +187,7 @@ const ViewGamblingGame = () => {
     };
 
     return (
-        <div className="flex flex-col sm:flex-row items-center w-full md:justify-between text-sm lg:text-base">
+        <div className="flex flex-col sm:flex-row items-center w-full justify-center text-sm lg:text-base">
             <div className="grid grid-cols-5 grid-rows-5 h-fit w-fit">
                 {displayedBoard}
             </div>
@@ -218,36 +218,38 @@ const ViewGamblingGame = () => {
                     <span className="underline underline-offset-2">
                         Bet Amount
                     </span>
-                    <Input
-                        type="number"
-                        onChange={(e) => setBetAmount(+e.target.value)}
-                    />
-                    <Button
-                        disabled={
-                            (currentRoll <= 4 && currentRoll !== 0) ||
-                            currentBudget <= 0 ||
-                            betAmount === 0 ||
-                            betAmount > currentBudget
-                        }
-                        onClick={() => {
-                            // reset the board
-                            setValueBoard(initialValueBoard);
-                            setPositionBoard(initialPositionBoard);
+                    <div className="flex lg:flex-col gap-2">
+                        <Input
+                            type="number"
+                            onChange={(e) => setBetAmount(+e.target.value)}
+                        />
+                        <Button
+                            disabled={
+                                (currentRoll <= 4 && currentRoll !== 0) ||
+                                currentBudget <= 0 ||
+                                betAmount === 0 ||
+                                betAmount > currentBudget
+                            }
+                            onClick={() => {
+                                // reset the board
+                                setValueBoard(initialValueBoard);
+                                setPositionBoard(initialPositionBoard);
 
-                            // start roll
-                            audioStore.playSFX("xp");
-                            setCurrentRoll(1);
-                            setCurrentBudget((prevCurrentBudget) => {
-                                return prevCurrentBudget - betAmount;
-                            });
-                        }}
-                    >
-                        {currentBudget > 0
-                            ? currentRoll === 0 || currentRoll > 4
-                                ? "Lock In"
-                                : "Rolling"
-                            : "Out of money"}
-                    </Button>
+                                // start roll
+                                audioStore.playSFX("xp");
+                                setCurrentRoll(1);
+                                setCurrentBudget((prevCurrentBudget) => {
+                                    return prevCurrentBudget - betAmount;
+                                });
+                            }}
+                        >
+                            {currentBudget > 0
+                                ? currentRoll === 0 || currentRoll > 4
+                                    ? "Lock In"
+                                    : "Rolling"
+                                : "Out of money"}
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>

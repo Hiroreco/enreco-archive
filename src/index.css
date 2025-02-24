@@ -166,11 +166,11 @@ td {
 
 /* Minigame stuff */
 .box {
-    @apply transition-all w-[40px] h-[40px] border border-black border-opacity-10 cursor-pointer;
+    @apply transition-all w-[35px] h-[35px] border border-black border-opacity-10 cursor-pointer;
 }
 
 /* if min-w > md and min-h > 500px then box size is 50px */
-@media (min-width: 768px) and (min-height: 500px) {
+@media (min-height: 700px) {
     .box {
         @apply w-[50px] h-[50px];
     }
