@@ -5,6 +5,7 @@ import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
 import { Chapter, ChartData, StringToBooleanObjectMap } from "@/lib/type";
 import { cn } from "@/lib/utils";
+import { useState } from "react";
 import { BrowserView, MobileView } from "react-device-detect";
 
 interface Props {
@@ -52,6 +53,10 @@ const ViewSettingCard = ({
         }
     };
 
+    // On mobile, you can still scroll even if the drawer isn't open fully
+    // So to only allow scrolling when the drawer is fully open, we need to track that state
+    // Only need to to this for this card, because this card has a fixed tab header
+    const [drawerOpenFully, setDrawerOpenFully] = useState(false);
 
     return (
         <>
@@ -102,6 +107,7 @@ const ViewSettingCard = ({
                 <VaulDrawer
                     open={isCardOpen}
                     onOpenChange={onDrawerOpenChange}
+                    onOpenFullyChange={setDrawerOpenFully}
                     disableScrollablity={true}
                 >
                     <Tabs defaultValue="general">
@@ -111,9 +117,10 @@ const ViewSettingCard = ({
                         </TabsList>
                         <TabsContent
                             value="general"
-                            className="h-[80vh] pb-[10vh]"
+                            className="h-[80vh] pb-[10vh] overflow"
                         >
                             <ViewRecapCard
+                                drawerOpenFully={drawerOpenFully}
                                 dayData={dayData}
                                 onEdgeLinkClicked={() => {}}
                                 onNodeLinkClicked={() => {}}
@@ -134,6 +141,7 @@ const ViewSettingCard = ({
                                 }
                                 chapterData={chapterData}
                                 nodes={dayData.nodes}
+                                drawerOpenFully={drawerOpenFully}
                             />
                         </TabsContent>
                     </Tabs>

@@ -5,17 +5,19 @@ import {
     ViewMarkdown,
 } from "@/components/view/ViewMarkdown";
 import { ChartData } from "@/lib/type";
+import clsx from "clsx";
 import { useEffect, useRef } from "react";
 
 interface Props {
     dayData: ChartData;
-
+    drawerOpenFully?: boolean;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
 }
 
 const ViewRecapCard = ({
     dayData,
+    drawerOpenFully,
     onNodeLinkClicked,
     onEdgeLinkClicked,
 }: Props) => {
@@ -28,9 +30,13 @@ const ViewRecapCard = ({
     }, [dayData]);
     return (
         <div className="flex flex-col gap-4 m-4 h-full relative">
-            {/* Scrollable Content */}
             <div
-                className="overflow-auto overflow-x-hidden scroll-smooth"
+                className={clsx("overflow-x-hidden scroll-smooth", {
+                    "overflow-y-scroll":
+                        drawerOpenFully === true ||
+                        drawerOpenFully === undefined,
+                    "overflow-y-hidden": drawerOpenFully === false,
+                })}
                 ref={scrollRef}
             >
                 <ViewMarkdown
