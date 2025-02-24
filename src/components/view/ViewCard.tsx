@@ -37,7 +37,7 @@ const ViewCard = React.forwardRef<
                     cardRef.current = node;
                 }}
                 className={cn(
-                    "card-deco right-14 rounded-xl border-2 bg-card text-card-foreground flex flex-col shadow-2xl h-[94%] w-[90%] -translate-x-1/2 left-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 md:left-auto items-center gap-4 p-4 lg:w-[40%] z-50",
+                    "card-deco max-h-[1500px] right-14 rounded-xl border-2 bg-card text-card-foreground flex flex-col shadow-2xl h-[94%] w-[90%] -translate-x-1/2 left-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 md:left-auto items-center gap-4 p-4 lg:w-[40%] z-50",
                     className,
                 )}
                 {...props}
