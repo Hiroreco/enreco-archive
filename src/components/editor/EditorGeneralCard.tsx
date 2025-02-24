@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 
 interface FormElements extends HTMLFormControlsCollection {
     chapterTitle: HTMLInputElement;
+    dayTitle: HTMLInputElement;
     dayRecap: HTMLTextAreaElement;
     bgiSrc: HTMLInputElement;
     bgmSrc: HTMLInputElement;
@@ -26,6 +27,7 @@ interface EditorGeneralCardProps {
     dayData: EditorChartData | null;
     isDarkMode: boolean;
     onChapterTitleChange: (title: string) => void;
+    onDayTitleChange: (title: string) => void;
     onDayRecapChange: (recap: string) => void;
     onBGImageChange: (src: string) => void;
     onBGMChange: (src: string) => void;
@@ -38,6 +40,7 @@ const EditorGeneralCard = ({
     dayData,
     isDarkMode,
     onChapterTitleChange,
+    onDayTitleChange,
     onDayRecapChange,
     onBGImageChange,
     onBGMChange,
@@ -59,8 +62,12 @@ const EditorGeneralCard = ({
             onChapterTitleChange(newChTitle);
         }
 
-        const newDayRecap = event.currentTarget.elements.dayRecap.value;
+        const newDayTitle = event.currentTarget.elements.dayTitle.value;
+        if (dayData && newDayTitle !== dayData.title) {
+            onDayTitleChange(newDayTitle);
+        }
 
+        const newDayRecap = event.currentTarget.elements.dayRecap.value;
         if (dayData && newDayRecap !== dayData.dayRecap) {
             onDayRecapChange(newDayRecap);
         }
@@ -124,6 +131,18 @@ const EditorGeneralCard = ({
                         id="bgm"
                         name="bgmSrc"
                         defaultValue={chapterData.bgmSrc}
+                    />
+                </div>
+
+                <div>
+                    <Label className="my-1" htmlFor="day-title">
+                        Day Title
+                    </Label>
+                    <Input
+                        type="text"
+                        id="day-title"
+                        name="dayTitle"
+                        defaultValue={dayData?.title}
                     />
                 </div>
 

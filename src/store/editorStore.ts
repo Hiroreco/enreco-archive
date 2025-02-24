@@ -92,6 +92,7 @@ interface EditorDataSlice {
     setChapterTeams: (teams: TeamMap) => void;
     setChapterRelationships: (relationships: RelationshipMap) => void;
 
+    setDayTitle: (title: string) => void;
     setDayRecap: (recap: string) => void;
 
     setChapterBackgroundImage: (src: string) => void;
@@ -295,6 +296,15 @@ const createEditorDataSlice: StateCreator<
 
         set((state) => {
             state.data[get().chapter!].relationships = relationships;
+        });
+    },
+
+    setDayTitle: (title) => {
+        stateChapterNotNull(get());
+        stateDayNotNull(get());
+
+        set((state) => {
+            state.data[get().chapter!].charts[get().day!].title = title;
         });
     },
 

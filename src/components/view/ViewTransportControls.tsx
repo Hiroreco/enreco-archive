@@ -155,7 +155,8 @@ export default function ViewTransportControls({
                     <SelectContent side={"top"}>
                         {[...Array(numberOfDays).keys()].map((index) => (
                             <SelectItem key={index} value={index.toString()}>
-                                {`Day ${index + 1}`}
+                                {`Day ${index + 1}`}:{" "}
+                                {chapterData[chapter].charts[index].title}
                             </SelectItem>
                         ))}
                     </SelectContent>

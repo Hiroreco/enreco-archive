@@ -550,6 +550,7 @@ const EditorApp = () => {
                 }
                 isDarkMode={isDarkMode}
                 onChapterTitleChange={editorStore.setChapterTitle}
+                onDayTitleChange={editorStore.setDayTitle}
                 onDayRecapChange={editorStore.setDayRecap}
                 onBGImageChange={editorStore.setChapterBackgroundImage}
                 onBGMChange={editorStore.setChapterBgm}
