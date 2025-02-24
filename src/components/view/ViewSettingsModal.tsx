@@ -137,7 +137,12 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                 </div>
                 <Separator />
                 <DialogFooter>
-                    <Button onClick={() => onOpenChange(false)}>Close</Button>
+                    <Button
+                        className="-mb-2 mt-2"
+                        onClick={() => onOpenChange(false)}
+                    >
+                        Close
+                    </Button>
                 </DialogFooter>
             </DialogContent>
         </Dialog>
