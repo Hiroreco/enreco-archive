@@ -187,7 +187,7 @@ const ViewGamblingGame = () => {
     };
 
     return (
-        <div className="flex flex-col sm:flex-row items-center w-full justify-center text-sm lg:text-base">
+        <div className="flex flex-col sm:flex-row items-center gap-1 w-full justify-center text-sm lg:text-base">
             <div className="grid grid-cols-5 grid-rows-5 h-fit w-fit">
                 {displayedBoard}
             </div>
@@ -205,7 +205,7 @@ const ViewGamblingGame = () => {
                 </div>
                 <div className="flex flex-col gap-2 items-center">
                     <span className="underline underline-offset-2">
-                        Choose color
+                        Choose Color
                     </span>
                     <div className="flex gap-2">
                         {renderColorBox("box-blue")}
@@ -218,10 +218,11 @@ const ViewGamblingGame = () => {
                     <span className="underline underline-offset-2">
                         Bet Amount
                     </span>
-                    <div className="flex lg:flex-col gap-2">
+                    <div className="flex lg:flex-col items-center gap-2">
                         <Input
                             type="number"
                             onChange={(e) => setBetAmount(+e.target.value)}
+                            className="max-w-[200px]"
                         />
                         <Button
                             disabled={
