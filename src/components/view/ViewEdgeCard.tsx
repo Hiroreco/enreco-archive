@@ -80,7 +80,7 @@ const ViewEdgeCard = ({
                     onOpenChange={onDrawerOpenChange}
                     disableScrollablity={false}
                 >
-                    <div className="h-full flex flex-col gap-4 items-center">
+                    <div className="flex flex-col gap-4 max-h-full items-center">
                         {renderContent && (
                             <ViewEdgeContent
                                 selectedEdge={selectedEdge}

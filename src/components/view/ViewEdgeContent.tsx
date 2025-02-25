@@ -40,7 +40,6 @@ const ViewEdgeContent = ({
 
     const contentRef = useRef<HTMLDivElement>(null); // Ref for scrollable content
     const [isHeaderVisible, setIsHeaderVisible] = useState(true); // Track header visibility
-    const headerRef = useRef<HTMLDivElement>(null);
     const cardRef = useRef<HTMLDivElement>(null);
 
     // Handle scroll event to toggle header visibility
@@ -69,7 +68,6 @@ const ViewEdgeContent = ({
         <div className="h-full flex flex-col w-full" ref={cardRef}>
             {/* Header */}
             <div
-                ref={headerRef}
                 className="flex flex-col items-center transition-all duration-300"
                 style={{
                     opacity: isHeaderVisible ? 1 : 0,

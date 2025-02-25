@@ -37,7 +37,7 @@ const ReadMarker = ({ id }: ReadMarkerProps) => {
                 id="read"
                 onCheckedChange={handleCheckedChange}
                 checked={checked}
-                className="transition-all w-6 h-6 aspect-square"
+                className="transition-all w-6 h-6 aspect-square border-2"
             />
         </div>
     );
