@@ -1,7 +1,7 @@
 import EditorApp from "@/components/editor/EditorApp";
 import { ViewAppWrapper } from "@/ViewAppWrapper";
 import { ReactFlowProvider } from "@xyflow/react";
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 import PreloadResources from "./preload-resources";
 
 const USE_EDITOR = false;
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         site: "@enrecoarchive",
         creator: "@hiroavrs",
         card: "summary_large_image",
-        images: "https://cdn.holoen.fans/hefw/media/test-embed.jpg",
+        images: "https://cdn.holoen.fans/hefw/media/embed-test.jpg",
     },
     openGraph: {
         type: "website",
@@ -55,12 +55,15 @@ export const metadata: Metadata = {
         description:
             "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
         siteName: "ENreco Archive",
-        images: [
-            {
-                url: "https://cdn.holoen.fans/hefw/media/test-embed.jpg",
-            },
-        ],
+        images: {
+            url: "https://cdn.holoen.fans/hefw/media/embed-test.jpg",
+        },
+        locale: "en_US",
     },
+};
+
+export const viewport: Viewport = {
+    themeColor: "#6f9cc0",
 };
 
 const Page = () => {
