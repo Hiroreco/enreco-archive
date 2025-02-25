@@ -40,7 +40,7 @@ const ViewAmeEasterEgg = () => {
                 ease: "easeInOut",
             }}
             onClick={handleClick}
-            className="absolute bottom-0 right-2 h-[120px] overflow-hidden"
+            className="absolute -bottom-[20px] right-2 h-[120px] overflow-hidden"
         >
             <Image
                 width={100}
