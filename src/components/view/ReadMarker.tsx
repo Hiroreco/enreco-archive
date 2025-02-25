@@ -1,5 +1,6 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
+import { useAudioStore } from "@/store/audioStore";
 import React, { useEffect } from "react";
 
 interface ReadMarkerProps {
@@ -8,9 +9,13 @@ interface ReadMarkerProps {
 
 const ReadMarker = ({ id }: ReadMarkerProps) => {
     const [checked, setChecked] = React.useState(false);
+    const audioStore = useAudioStore();
 
     const handleCheckedChange = (checked: boolean) => {
         setChecked(checked);
+        if (checked) {
+            audioStore.playSFX("xp");
+        }
         localStorage.setItem(id, checked ? "read" : "unread");
     };
 
@@ -18,6 +23,8 @@ const ReadMarker = ({ id }: ReadMarkerProps) => {
         const status = localStorage.getItem(id);
         if (status === "read") {
             setChecked(true);
+        } else {
+            setChecked(false);
         }
     }, [id]);
 
