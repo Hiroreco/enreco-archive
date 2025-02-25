@@ -56,23 +56,23 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                         value={settingStore.themeType}
                         onValueChange={settingStore.setThemeType}
                     >
-                        <ToggleGroup.Item 
+                        <ToggleGroup.Item
                             value="light"
-                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg"
+                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1"
                         >
-                            <Sun className="h-8 w-8"/>
+                            <Sun className="h-8 w-8" />
                         </ToggleGroup.Item>
-                        <ToggleGroup.Item 
+                        <ToggleGroup.Item
                             value="dark"
-                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg"    
+                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1"
                         >
-                            <Moon className="h-8 w-8"/>
+                            <Moon className="h-8 w-8" />
                         </ToggleGroup.Item>
-                        <ToggleGroup.Item 
+                        <ToggleGroup.Item
                             value="system"
-                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg"    
+                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1"
                         >
-                            <SunMoon className="h-8 w-8"/>
+                            <SunMoon className="h-8 w-8" />
                         </ToggleGroup.Item>
                     </ToggleGroup.Root>
 
