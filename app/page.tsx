@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         url: "https://dev.enreco-archive.net",
         title: "ENreco Archive",
         description:
-            "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
+            "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines, everything is compiled neatly for those looking to catch up on the series or simply relive their favorite moments.",
         siteName: "ENreco Archive",
         images: {
             url: "https://cdn.holoen.fans/hefw/media/embed-test.jpg",
