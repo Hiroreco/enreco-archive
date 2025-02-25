@@ -45,10 +45,11 @@ export const metadata: Metadata = {
         site: "@enrecoarchive",
         creator: "@hiroavrs",
         card: "summary_large_image",
-        images: "/images-opt/embed.webp",
+        images: "https://cdn.holoen.fans/hefw/media/test-embed.jpg",
     },
     openGraph: {
         type: "website",
+        // TODO: change this to the actual URL when ready
         url: "https://dev.enreco-archive.net",
         title: "ENreco Archive",
         description:
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
         siteName: "ENreco Archive",
         images: [
             {
-                url: "/images-opt/embed.webp",
+                url: "https://cdn.holoen.fans/hefw/media/test-embed.jpg",
             },
         ],
     },
