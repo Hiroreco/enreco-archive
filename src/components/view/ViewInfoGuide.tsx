@@ -42,9 +42,9 @@ const ViewInfoGuide = () => {
                         <span className="font-medium text-[#6594ba]">
                             timestamped{" "}
                         </span>
-                        event in a card (or a new tab) for you to watch. It is
-                        also used for fan-made content such as fanart, videos,
-                        etc.
+                        , or the corresponding section from the original stream
+                        where the event took place, in a card (or a new tab) for
+                        you to watch.
                     </li>
                     <li>
                         <span className="font-bold">Linkers:</span> Clicking on
