@@ -5,10 +5,15 @@ const ViewChickenGameInfo = () => {
     return (
         <div className="flex flex-col gap-4">
             <p>
-                Just like the Scarlet Wand, the Cerulean Cup launched their own
-                minigame on Day 7. As representatives of empathy, they designed
-                a game that would help spread that very value: Catching
-                Chickens.
+                Just like the Scarlet Wand, the Cerulean Cup{" "}
+                <img
+                    className="inline h-6 w-6 mb-1"
+                    src={"/images-opt/ceruleancup.webp"}
+                    alt={"ceruleancup"}
+                />{" "}
+                launched their own minigame on Day 7. As representatives of
+                empathy, they designed a game that would help spread that very
+                value: <strong>Catching Chickens</strong>.
             </p>
             <p>
                 As the name suggests, the goal is simple—catch chickens… but

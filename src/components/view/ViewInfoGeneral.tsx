@@ -55,7 +55,10 @@ const ViewInfoGeneral = () => {
                 What is Enigmatic Recollection?
             </div>
 
-            <div>Enigmatic Recollection, or ENreco for short, is:</div>
+            <div>
+                Enigmatic Recollection, or <strong>ENreco</strong> for short,
+                is:
+            </div>
             <blockquote className="pl-4 italic opacity-80">
                 "A collection of stories in which the members of hololive
                 English play a part. Through streams, animations, and songs
@@ -145,8 +148,8 @@ const ViewInfoGeneral = () => {
             <div>
                 This is a non-profit fan project and is not affiliated with
                 Cover Corp nor Mojang. The site uses music taken from the
-                talents' streams, as well as sound effects from Minecraft,
-                following{" "}
+                talents' streams, as well as sound effects and assets from
+                Minecraft, following{" "}
                 <a
                     href="https://www.minecraft.net/en-us/usage-guidelines"
                     target="_blank"

@@ -6,8 +6,14 @@ const ViewGamblingGameInfo = () => {
         <div className="flex flex-col gap-4">
             <p>
                 The most frequently visited minigame—or rather, venue—of Chapter
-                One was undoubtedly the Amber Coin Casino, where everyone could
-                indulge in their favorite pastime: gambling.
+                One was undoubtedly the <strong>Amber Coin Casino</strong>{" "}
+                <img
+                    className="inline h-6 w-6 mb-1"
+                    src={"/images-opt/ambercoin.webp"}
+                    alt={"ambercoin"}
+                />
+                , where everyone could indulge in their favorite pastime:
+                gambling.
             </p>
             <p>
                 The casino's signature minigame functions like a roulette of

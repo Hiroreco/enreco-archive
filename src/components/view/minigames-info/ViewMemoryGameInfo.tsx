@@ -5,9 +5,17 @@ const ViewMemoryGameInfo = () => {
     return (
         <div className="flex flex-col gap-4">
             <p>
-                The Scarlet Wand's Memory Game was introduced on Day 7 of the
-                journey. As its name suggests, its main purpose is to test the
-                memory of our heroes.
+                <strong>
+                    The Scarlet Wand{" "}
+                    <img
+                        className="inline h-6 w-6 mb-1"
+                        src={"/images-opt/scarletwand.webp"}
+                        alt={"scarletwand"}
+                    />
+                    's Memory Game
+                </strong>{" "}
+                was introduced on Day 7 of the journey. As its name suggests,
+                its main purpose is to test the memory of our heroes.
             </p>
             <p>
                 Upon starting the game, each round presents a white board where

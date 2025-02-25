@@ -37,7 +37,7 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                 <DialogHeader>
                     <DialogTitle>Settings</DialogTitle>
                 </DialogHeader>
-                <div className="flex flex-col gap-4 overflow-y-scroll max-h-[50vh]">
+                <div className="flex flex-col gap-4 p-2 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="enable-bgm">Background Music</Label>
                         <Slider
