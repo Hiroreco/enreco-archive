@@ -1,3 +1,5 @@
+import { BookOpen, Dice6, Egg, Search, Settings } from "lucide-react";
+
 const ViewInfoGuide = () => {
     return (
         <div className="flex flex-col gap-4">
@@ -20,9 +22,13 @@ const ViewInfoGuide = () => {
                 concise and focus only on major relationships.
             </div>
 
-            <div className="font-bold underline underline-offset-2 text-xl">
-                General
+            <div className="flex items-center gap-2">
+                <Search size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    General
+                </div>
             </div>
+
             <div>
                 You can navigate through each day and chapter using the controls
                 at the bottom of the screen, and the chart will update
@@ -40,7 +46,7 @@ const ViewInfoGuide = () => {
                     <li>
                         <span className="font-bold">Timestamps:</span> Opens a{" "}
                         <span className="font-medium text-[#6594ba]">
-                            timestamped{" "}
+                            timestamp
                         </span>
                         , or the corresponding section from the original stream
                         where the event took place, in a card (or a new tab) for
@@ -57,8 +63,11 @@ const ViewInfoGuide = () => {
                 </ul>
             </div>
 
-            <div className="font-bold underline underline-offset-2 text-xl">
-                Reading Order
+            <div className="flex items-center gap-2">
+                <BookOpen size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Reading Order
+                </div>
             </div>
 
             <div>
@@ -84,17 +93,24 @@ const ViewInfoGuide = () => {
                 relationships.
             </div>
 
-            <div className="font-bold underline underline-offset-2 text-xl">
-                Settings
+            <div className="flex items-center gap-2">
+                <Settings size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Settings
+                </div>
             </div>
+
             <div>
                 You can customize various aspects of your experience in the{" "}
                 <em>Settings Tab</em>, including music volume, timestamp
                 preferences and other miscellaneous options.
             </div>
 
-            <div className="font-bold underline underline-offset-2 text-xl">
-                Minigames
+            <div className="flex items-center gap-2">
+                <Dice6 size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Minigames
+                </div>
             </div>
             <div>
                 A selection of minigames from the series has been recreated and
@@ -102,8 +118,12 @@ const ViewInfoGuide = () => {
                 infamous Gambling Game from Chapter 1.
             </div>
 
-            <div className="font-bold underline underline-offset-2 text-xl">
-                Easter Eggs
+            <div className="flex items-center gap-2">
+                <Egg size={24} />
+
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Easter Eggs
+                </div>
             </div>
             <div>
                 Hidden throughout the cards are easter eggs—little nods to silly
