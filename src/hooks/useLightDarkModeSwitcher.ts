@@ -44,7 +44,5 @@ export default function useLightDarkModeSwitcher(themeType: ThemeType) {
         };
     }, [themeType]);
 
-    console.log(`Hook useDarkMode: ${useDarkMode}`);
-
     return useDarkMode;
 }
