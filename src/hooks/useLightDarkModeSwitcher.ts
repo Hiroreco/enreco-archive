@@ -3,9 +3,7 @@ import { ThemeType } from "@/store/settingStore";
 import { useEffect, useState } from "react";
 
 export default function useLightDarkModeSwitcher(themeType: ThemeType) {
-    const isSystemDarkMode = typeof window !== "undefined" && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initDarkMode = (themeType === "dark" || (themeType === "system" && isSystemDarkMode));
-    const [useDarkMode, setUseDarkMode] = useState(initDarkMode);
+    const [useDarkMode, setUseDarkMode] = useState(true);
 
     useEffect(() => {
         if(typeof window === "undefined" || !window.matchMedia) {
@@ -45,6 +43,8 @@ export default function useLightDarkModeSwitcher(themeType: ThemeType) {
             window.matchMedia('(prefers-color-scheme: dark)').removeEventListener("change",systemDarkModeListener);
         };
     }, [themeType]);
+
+    console.log(`Hook useDarkMode: ${useDarkMode}`);
 
     return useDarkMode;
 }
