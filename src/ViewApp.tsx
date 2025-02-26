@@ -309,6 +309,11 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     }
                     chapterData={chapterData}
                     setChartShrink={setChartShrink}
+                    day={viewStore.day}
+                    onDayChange={(newDay) => {
+                        viewStore.setPreviousSelectedDay(viewStore.day);
+                        updateData(viewStore.chapter, newDay);
+                    }}
                 />
 
                 <ViewNodeCard

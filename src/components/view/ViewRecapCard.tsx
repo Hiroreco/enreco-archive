@@ -4,6 +4,7 @@ import {
     NodeLinkClickHandler,
     ViewMarkdown,
 } from "@/components/view/ViewMarkdown";
+import ViewProgressBar from "@/components/view/ViewProgressBar";
 import { ChartData } from "@/lib/type";
 import clsx from "clsx";
 import { useEffect, useRef } from "react";
@@ -13,6 +14,9 @@ interface Props {
     drawerOpenFully?: boolean;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
+    day: number;
+    numberOfDays: number;
+    onDayChange: (newDay: number) => void;
 }
 
 const ViewRecapCard = ({
@@ -20,6 +24,9 @@ const ViewRecapCard = ({
     drawerOpenFully,
     onNodeLinkClicked,
     onEdgeLinkClicked,
+    day,
+    numberOfDays,
+    onDayChange,
 }: Props) => {
     const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -30,6 +37,11 @@ const ViewRecapCard = ({
     }, [dayData]);
     return (
         <div className="flex flex-col gap-4 m-4 h-full relative">
+            <ViewProgressBar
+                day={day}
+                numberOfDays={numberOfDays}
+                onDayChange={onDayChange}
+            />
             <div
                 className={clsx("overflow-x-hidden scroll-smooth", {
                     "overflow-y-scroll":

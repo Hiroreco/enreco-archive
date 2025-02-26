@@ -26,6 +26,8 @@ interface Props {
         newCharacterVisibility: StringToBooleanObjectMap,
     ) => void;
     setChartShrink: (width: number) => void;
+    day: number;
+    onDayChange: (newDay: number) => void;
 }
 
 const ViewSettingCard = ({
@@ -40,6 +42,8 @@ const ViewSettingCard = ({
     characterVisibility,
     onCharacterVisibilityChange,
     setChartShrink,
+    day,
+    onDayChange,
 }: Props) => {
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
@@ -84,6 +88,9 @@ const ViewSettingCard = ({
                                 dayData={dayData}
                                 onEdgeLinkClicked={() => {}}
                                 onNodeLinkClicked={() => {}}
+                                day={day}
+                                numberOfDays={chapterData.numberOfDays}
+                                onDayChange={onDayChange}
                             />
                         </TabsContent>
                         <TabsContent value="visibility" className="h-full">
@@ -124,6 +131,9 @@ const ViewSettingCard = ({
                                 dayData={dayData}
                                 onEdgeLinkClicked={() => {}}
                                 onNodeLinkClicked={() => {}}
+                                day={day}
+                                numberOfDays={chapterData.numberOfDays}
+                                onDayChange={onDayChange}
                             />
                         </TabsContent>
                         <TabsContent
