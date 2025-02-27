@@ -39,9 +39,9 @@ const Progress = ({ numberOfDays, day, onDayChange }: ViewProgressBarProps) => {
     }, [day, numberOfDays]);
 
     return (
-        <div className="relative w-full m-auto transition-all flex-none bg-neutral-200 dark:bg-neutral-500 rounded-lg h-[4px] opacity-50 hover:opacity-100">
+        <div className="relative w-full m-auto transition-opacity flex-none bg-neutral-200 dark:bg-neutral-500 rounded-lg h-[4px] opacity-50 hover:opacity-100">
             <div
-                className="absolute left-0 top-0 transition-all h-[4px] rounded-lg bg-accent"
+                className="absolute left-0 top-0 transition-all duration-1000 h-[4px] rounded-lg bg-accent"
                 style={{
                     width: width,
                 }}
@@ -54,7 +54,7 @@ const Progress = ({ numberOfDays, day, onDayChange }: ViewProgressBarProps) => {
                         }}
                         key={index}
                         className={clsx(
-                            "w-[12px] h-[12px] transition-all rounded-sm absolute -translate-y-[4px] -translate-x-[6px] hover:bg-accent cursor-pointer",
+                            "w-[12px] h-[12px] transition-colors duration-1000 rounded-sm absolute -translate-y-[4px] -translate-x-[6px] hover:bg-accent cursor-pointer",
                             {
                                 "bg-accent": index - 1 <= day,
                                 "dark:bg-neutral-600 bg-neutral-300":
