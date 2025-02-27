@@ -1,11 +1,12 @@
-import { memo, useMemo } from "react";
-import { Handle, HandleType, Position } from "@xyflow/react";
-import { ImageNodeProps } from "../../lib/type";
-import Image from "next/image";
 import { OLD_NODE_OPACITY } from "@/lib/constants";
-import { useViewStore } from "@/store/viewStore";
 import { getBlurDataURL, idFromDayChapterId } from "@/lib/utils";
+import { useViewStore } from "@/store/viewStore";
+import { Handle, HandleType, Position } from "@xyflow/react";
+import clsx from "clsx";
 import { Check } from "lucide-react";
+import Image from "next/image";
+import { memo, useMemo } from "react";
+import { ImageNodeProps } from "../../lib/type";
 
 const NUM_OF_HANDLES = 5;
 
@@ -44,11 +45,18 @@ const generateHandles = (numOfHandles: number) => [
 const ViewImageNode = ({ id, data }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => generateHandles(NUM_OF_HANDLES), []);
-    const { day, chapter } = useViewStore();
+    const viewStore = useViewStore();
 
-    const isCurrentDay = data.day === day || false;
+    const isCurrentDay = data.day === viewStore.day || false;
     const isRead =
-        localStorage.getItem(idFromDayChapterId(day, chapter, id)) === "read";
+        localStorage.getItem(
+            idFromDayChapterId(viewStore.day, viewStore.chapter, id),
+        ) === "read";
+
+    const isSelected =
+        viewStore.selectedNode?.id === id ||
+        viewStore.selectedEdge?.source === id ||
+        viewStore.selectedEdge?.target === id;
 
     return (
         <>
@@ -64,10 +72,15 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
             ))}
             <div
                 style={{ opacity: isCurrentDay ? 1 : OLD_NODE_OPACITY }}
-                className="transition-all relative cursor-pointer overflow-hidden w-[100px] h-[100px] rounded duration-1000"
+                className="transition-all relative cursor-pointer w-[100px] h-[100px] rounded duration-1000"
             >
                 <Image
-                    className="aspect-square object-cover rounded-lg transition-transform duration-300 ease-in-out transform scale-100 hover:scale-110 dark:brightness-[0.87]"
+                    className={clsx(
+                        "aspect-square object-cover rounded-lg absolute transition-transform duration-300 z-20 ease-in-out transform scale-100 dark:brightness-[0.87]",
+                        {
+                            "hover:scale-110": !isSelected,
+                        },
+                    )}
                     src={data.imageSrc || ""}
                     width={100}
                     height={100}
@@ -76,6 +89,19 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                     blurDataURL={getBlurDataURL(data.imageSrc)}
                     priority={true}
                 />
+
+                {/* Border animation to indicate selected node */}
+                {isSelected && (
+                    <div
+                        className="absolute w-[110px] h-[110px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 fancy"
+                        style={
+                            {
+                                "--border-color": data.bgCardColor,
+                            } as React.CSSProperties
+                        }
+                    />
+                )}
+
                 {data.renderTeamImageSrc !== "" && (
                     <Image
                         className="absolute top-1 left-1 opacity-80"

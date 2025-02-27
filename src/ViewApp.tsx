@@ -217,11 +217,13 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     function onNodeClick(node: ImageNodeType) {
         onCurrentCardChange("node");
         viewStore.setSelectedNode(node);
+        viewStore.setSelectedEdge(null);
     }
 
     function onEdgeClick(edge: FixedEdgeType) {
         onCurrentCardChange("edge");
         viewStore.setSelectedEdge(edge);
+        viewStore.setSelectedNode(null);
     }
 
     function onPaneClick() {

@@ -228,3 +228,41 @@ td {
     background-size: cover;
     background-position: center;
 }
+
+.fancy {
+    --offset: 0px;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.fancy::before {
+    @apply brightness-90;
+    content: "";
+    background: conic-gradient(
+        transparent 270deg,
+        var(--border-color, #5f8db2) /* Fallback color */,
+        transparent
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1;
+    width: 100%;
+    animation: rotate 5s linear infinite;
+}
+
+.dark .fancy::before {
+    @apply brightness-125;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+    }
+}
