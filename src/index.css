@@ -168,8 +168,7 @@ td {
 .box {
     @apply transition-all w-[35px] h-[35px] border border-black border-opacity-10 cursor-pointer;
 }
-
-/* if min-w > md and min-h > 500px then box size is 50px */
+/* To handle mobile horizontal layout */
 @media (min-height: 700px) {
     .box {
         @apply w-[50px] h-[50px];

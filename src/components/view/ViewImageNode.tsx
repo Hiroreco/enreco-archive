@@ -69,7 +69,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
             >
                 <Image
                     className={clsx(
-                        "aspect-square object-cover rounded-lg absolute transition-transform duration-300 z-20 ease-in-out transform scale-100 dark:brightness-[0.87]",
+                        "aspect-square object-cover rounded-lg absolute transition-transform duration-300 z-10 ease-in-out transform scale-100 dark:brightness-[0.87]",
                         {
                             "hover:scale-110": !data.isSelected,
                         },
@@ -97,7 +97,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
 
                 {data.renderTeamImageSrc !== "" && (
                     <Image
-                        className="absolute top-1 left-1 opacity-80"
+                        className="absolute top-1 left-1 opacity-80 z-20"
                         width={25}
                         height={25}
                         src={data.renderTeamImageSrc || ""}
