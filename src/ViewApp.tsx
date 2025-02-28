@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useMemo, useState } from "react";
 
 import ViewEdgeCard from "@/components/view/ViewEdgeCard";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
@@ -102,43 +102,44 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     const chapterData = siteData.chapters[viewStore.chapter];
     const dayData = chapterData.charts[viewStore.day];
 
-    const processedNodes = dayData.nodes
-        .map((node) => {
-            if (node.data.day !== viewStore.day) {
-                // get the node from the latest day it was updated
-                let latestUpdatedNode = undefined;
-                for (let i = viewStore.day - 1; i >= 0; i--) {
-                    latestUpdatedNode = chapterData.charts[i].nodes.find(
-                        (n) => n.id === node.id && n.data && i === n.data.day,
-                    );
-                    if (latestUpdatedNode) {
-                        break;
+    // Update the data with the latest data from previous days
+    const processedNodes = useMemo(() => {
+        return dayData.nodes
+            .map((node) => {
+                if (node.data.day !== viewStore.day) {
+                    let latestUpdatedNode = undefined;
+                    for (let i = viewStore.day - 1; i >= 0; i--) {
+                        latestUpdatedNode = chapterData.charts[i].nodes.find(
+                            (n) =>
+                                n.id === node.id && n.data && i === n.data.day,
+                        );
+                        if (latestUpdatedNode) break;
                     }
+                    return latestUpdatedNode ? latestUpdatedNode : node;
                 }
-                return latestUpdatedNode ? latestUpdatedNode : node;
-            }
-            return node;
-        })
-        .filter((node): node is ImageNodeType => node !== undefined);
+                return node;
+            })
+            .filter((node): node is ImageNodeType => node !== undefined);
+    }, [dayData.nodes, viewStore.day, chapterData.charts]);
 
-    const processedEdges = dayData.edges
-        .map((edge) => {
-            if (edge.data && edge.data.day !== viewStore.day) {
-                // get the edge from the latest day it was updated
-                let latestUpdatedEdge = undefined;
-                for (let i = viewStore.day - 1; i >= 0; i--) {
-                    latestUpdatedEdge = chapterData.charts[i].edges.find(
-                        (e) => e.id === edge.id && e.data && i === e.data.day,
-                    );
-                    if (latestUpdatedEdge) {
-                        break;
+    const processedEdges = useMemo(() => {
+        return dayData.edges
+            .map((edge) => {
+                if (edge.data && edge.data.day !== viewStore.day) {
+                    let latestUpdatedEdge = undefined;
+                    for (let i = viewStore.day - 1; i >= 0; i--) {
+                        latestUpdatedEdge = chapterData.charts[i].edges.find(
+                            (e) =>
+                                e.id === edge.id && e.data && i === e.data.day,
+                        );
+                        if (latestUpdatedEdge) break;
                     }
+                    return latestUpdatedEdge ? latestUpdatedEdge : edge;
                 }
-                return latestUpdatedEdge ? latestUpdatedEdge : edge;
-            }
-            return edge;
-        })
-        .filter((edge): edge is FixedEdgeType => edge !== undefined);
+                return edge;
+            })
+            .filter((edge): edge is FixedEdgeType => edge !== undefined);
+    }, [dayData.edges, viewStore.day, chapterData.charts]);
 
     // Update dayData with the processed nodes and edges
     dayData.nodes = processedNodes;
@@ -284,6 +285,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onNodeClick={onNodeClick}
                     onEdgeClick={onEdgeClick}
                     onPaneClick={onPaneClick}
+                    chapter={viewStore.chapter}
                     day={viewStore.day}
                     previousSelectedDay={viewStore.previousSelectedDay}
                     currentCard={viewStore.currentCard}
@@ -454,4 +456,4 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     );
 };
 
-export default ViewApp;
+export default memo(ViewApp);

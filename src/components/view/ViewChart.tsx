@@ -95,6 +95,7 @@ interface Props {
     onEdgeClick: (edge: FixedEdgeType) => void;
     onPaneClick: () => void;
     day: number;
+    chapter: number;
     previousSelectedDay: number;
     currentCard: CardType;
     previousCard: CardType;
@@ -117,6 +118,7 @@ function ViewChart({
     onEdgeClick,
     onPaneClick,
     day,
+    chapter,
     previousSelectedDay,
     currentCard,
     previousCard,
@@ -130,6 +132,11 @@ function ViewChart({
     const flowRendererSizer = useRef<HTMLDivElement>(null);
 
     const settingStore = useSettingStore();
+
+    const flowRendererWidth = useMemo(
+        () => getFlowRendererWidth(widthToShrink),
+        [widthToShrink],
+    );
 
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions) => {
@@ -193,92 +200,163 @@ function ViewChart({
         }
     }, [doFitView, fitViewFunc, prevDoFitView]);
 
+    useEffect(() => {
+        if (flowRendererSizer.current) {
+            flowRendererSizer.current.style.width = flowRendererWidth;
+        }
+
+        // Need a slight delay to make sure the width is updated before fitting the view
+        setTimeout(fitViewFunc, 20);
+    }, [flowRendererWidth, fitViewFunc]);
+
     // Filter and fill in render properties for nodes/edges before passing them to ReactFlow.
+    const renderableNodes = useMemo(() => {
+        return nodes
+            .filter(
+                (node) =>
+                    teamVisibility[node.data.teamId || "null"] &&
+                    characterVisibility[node.id],
+            )
+            .map((node) => {
+                // Create a new node object to avoid mutating the original
+                const newNode = { ...node, data: { ...node.data } };
 
-    const renderableNodes = nodes
-        .filter(
-            (node) =>
-                // Compute node visibility based on related edge and viewstore settings
+                // Set team icon image, if available
+                if (newNode.data.teamId) {
+                    newNode.data.renderTeamImageSrc =
+                        chapterData.teams[newNode.data.teamId].teamIconSrc ||
+                        "";
+                } else {
+                    newNode.data.renderTeamImageSrc = "";
+                }
 
-                teamVisibility[node.data.teamId || "null"] &&
-                characterVisibility[node.id],
-        )
-        .map((node) => {
-            // Set team icon image, if available.
+                // Set selection state
+                newNode.data.isSelected =
+                    selectedNode?.id === newNode.id ||
+                    selectedEdge?.source === newNode.id ||
+                    selectedEdge?.target === newNode.id;
 
-            if (node.data.teamId) {
-                node.data.renderTeamImageSrc =
-                    chapterData.teams[node.data.teamId].teamIconSrc || "";
-            } else {
-                node.data.renderTeamImageSrc = "";
-            }
+                // Set current day flag and chapter
+                newNode.data.isCurrentDay = newNode.data.day === day;
+                newNode.data.chapter = chapter;
 
-            return node;
-        });
+                return newNode;
+            });
+    }, [
+        nodes,
+        teamVisibility,
+        characterVisibility,
+        chapterData.teams,
+        selectedNode,
+        selectedEdge,
+        day,
+        chapter,
+    ]);
 
-    const renderableEdges = edges
-        .filter((edge) => {
-            const nodeSrc = nodes.filter(
-                (node) => node.id == edge.source,
-            )[0] as ImageNodeType;
-            const nodeTarget = nodes.filter(
-                (node) => node.id == edge.target,
-            )[0] as ImageNodeType;
-            if (!nodeSrc || !nodeTarget) {
-                return false;
-            }
+    // Memoize renderableEdges
+    const renderableEdges = useMemo(() => {
+        return edges
+            .filter((edge) => {
+                const nodeSrc = nodes.find((node) => node.id === edge.source);
+                const nodeTarget = nodes.find(
+                    (node) => node.id === edge.target,
+                );
+                if (!nodeSrc || !nodeTarget) {
+                    return false;
+                }
 
-            const edgeData = edge.data;
-            if (!edgeData) {
-                return false;
-            }
+                const edgeData = edge.data;
+                if (!edgeData) {
+                    return false;
+                }
 
-            return (
-                edgeVisibility[edgeData.relationshipId] &&
-                teamVisibility[nodeSrc.data.teamId || "null"] &&
-                teamVisibility[nodeTarget.data.teamId || "null"] &&
-                characterVisibility[nodeSrc.id] &&
-                characterVisibility[nodeTarget.id]
-            );
-        })
-        .map((edge) => {
-            const edgeData = edge.data;
-            if (!edgeData) {
-                return edge;
-            }
-
-            const edgeStyle =
-                chapterData.relationships[edgeData.relationshipId].style || {};
-            const isCurrentDay = edgeData.day === day;
-            if (edgeVisibility["new"]) {
-                edge.style = {
-                    ...edgeStyle,
-                    opacity: isCurrentDay ? 1 : OLD_EDGE_OPACITY,
-                    pointerEvents: isCurrentDay ? "auto" : "none",
+                return (
+                    edgeVisibility[edgeData.relationshipId] &&
+                    teamVisibility[nodeSrc.data.teamId || "null"] &&
+                    teamVisibility[nodeTarget.data.teamId || "null"] &&
+                    characterVisibility[nodeSrc.id] &&
+                    characterVisibility[nodeTarget.id]
+                );
+            })
+            .map((edge) => {
+                // Create a new edge object to avoid mutating the original
+                const newEdge = {
+                    ...edge,
+                    data: edge.data ? { ...edge.data } : undefined,
                 };
-            } else {
-                edge.style = {
-                    ...edgeStyle,
-                    opacity: 1,
-                    pointerEvents: "auto",
-                };
-            }
+                const edgeData = newEdge.data;
+                if (!edgeData) {
+                    return newEdge;
+                }
 
-            // edgeData.renderIsHoveredEdge = edge.id === hoveredEdgeId;
+                const edgeStyle =
+                    chapterData.relationships[edgeData.relationshipId].style ||
+                    {};
+                const isCurrentDay = edgeData.day === day;
 
-            // Check if edge is newly added, i.e see if from day 0 -> current day if this edge id exist in the
-            const previousEdges = chapterData.charts[previousSelectedDay].edges;
-            if (edge.data) {
-                edge.data.isNewlyAdded = previousEdges.find(
-                    (e) => e.id === edge.id,
-                )
-                    ? false
-                    : true;
-            }
+                if (edgeVisibility["new"]) {
+                    newEdge.style = {
+                        ...edgeStyle,
+                        opacity: isCurrentDay ? 1 : OLD_EDGE_OPACITY,
+                        pointerEvents: isCurrentDay ? "auto" : "none",
+                    };
+                } else {
+                    newEdge.style = {
+                        ...edgeStyle,
+                        opacity: 1,
+                        pointerEvents: "auto",
+                    };
+                }
 
-            return edge;
-        });
+                // Check if edge is newly added
+                const previousEdges =
+                    chapterData.charts[previousSelectedDay].edges;
+                if (newEdge.data) {
+                    newEdge.data.isNewlyAdded = !previousEdges.find(
+                        (e) => e.id === newEdge.id,
+                    );
+                }
 
+                if (newEdge.data) {
+                    if (selectedEdge) {
+                        newEdge.data.isSelected =
+                            selectedEdge.id === newEdge.id;
+                    }
+                    newEdge.data.isCurrentDay = isCurrentDay;
+                    newEdge.data.chapter = chapter;
+                }
+
+                return newEdge;
+            });
+    }, [
+        edges,
+        nodes,
+        edgeVisibility,
+        teamVisibility,
+        characterVisibility,
+        chapterData.relationships,
+        chapterData.charts,
+        previousSelectedDay,
+        selectedEdge,
+        day,
+        chapter,
+    ]);
+
+    const translateExtent = useMemo(() => {
+        if (topLeftNode && bottomRightNode) {
+            return [
+                [
+                    topLeftNode.position.x - areaOffset,
+                    topLeftNode.position.y - areaOffset,
+                ] as [number, number],
+                [
+                    bottomRightNode.position.x + areaOffset,
+                    bottomRightNode.position.y + areaOffset,
+                ] as [number, number],
+            ] as [[number, number], [number, number]];
+        }
+        return undefined;
+    }, [topLeftNode, bottomRightNode]);
     return (
         <div ref={flowRendererSizer} className="w-full h-full">
             <ReactFlow
@@ -322,19 +400,7 @@ function ViewChart({
                 proOptions={{
                     hideAttribution: true,
                 }}
-                translateExtent={
-                    topLeftNode &&
-                    bottomRightNode && [
-                        [
-                            topLeftNode.position.x - areaOffset,
-                            topLeftNode.position.y - areaOffset,
-                        ],
-                        [
-                            bottomRightNode.position.x + areaOffset,
-                            bottomRightNode.position.y + areaOffset,
-                        ],
-                    ]
-                }
+                translateExtent={translateExtent}
             />
         </div>
     );

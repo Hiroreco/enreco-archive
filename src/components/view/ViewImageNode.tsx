@@ -1,6 +1,5 @@
 import { OLD_NODE_OPACITY } from "@/lib/constants";
 import { getBlurDataURL, idFromDayChapterId } from "@/lib/utils";
-import { useViewStore } from "@/store/viewStore";
 import { Handle, HandleType, Position } from "@xyflow/react";
 import clsx from "clsx";
 import { Check } from "lucide-react";
@@ -45,18 +44,12 @@ const generateHandles = (numOfHandles: number) => [
 const ViewImageNode = ({ id, data }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => generateHandles(NUM_OF_HANDLES), []);
-    const viewStore = useViewStore();
 
-    const isCurrentDay = data.day === viewStore.day || false;
+    // !, chapter should probably always be defined, hopefully
     const isRead =
         localStorage.getItem(
-            idFromDayChapterId(viewStore.day, viewStore.chapter, id),
+            idFromDayChapterId(data.day, data.chapter!, id),
         ) === "read";
-
-    const isSelected =
-        viewStore.selectedNode?.id === id ||
-        viewStore.selectedEdge?.source === id ||
-        viewStore.selectedEdge?.target === id;
 
     return (
         <>
@@ -71,14 +64,14 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 />
             ))}
             <div
-                style={{ opacity: isCurrentDay ? 1 : OLD_NODE_OPACITY }}
+                style={{ opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY }}
                 className="transition-all relative cursor-pointer w-[100px] h-[100px] rounded duration-1000"
             >
                 <Image
                     className={clsx(
                         "aspect-square object-cover rounded-lg absolute transition-transform duration-300 z-20 ease-in-out transform scale-100 dark:brightness-[0.87]",
                         {
-                            "hover:scale-110": !isSelected,
+                            "hover:scale-110": !data.isSelected,
                         },
                     )}
                     src={data.imageSrc || ""}
@@ -91,7 +84,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 />
 
                 {/* Border animation to indicate selected node */}
-                {isSelected && (
+                {data.isSelected && (
                     <div
                         className="absolute w-[110px] h-[110px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 running-border"
                         style={

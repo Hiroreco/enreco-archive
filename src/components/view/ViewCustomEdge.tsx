@@ -1,7 +1,6 @@
 import { generatePath } from "@/lib/get-edge-svg-path";
 import { FixedEdgeProps } from "@/lib/type";
 import { cn } from "@/lib/utils";
-import { useViewStore } from "@/store/viewStore";
 import { memo, useEffect, useMemo, useRef } from "react";
 
 const ViewCustomEdge = ({
@@ -13,13 +12,10 @@ const ViewCustomEdge = ({
     targetX,
     targetY,
     targetPosition,
-    id,
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
 
     const pathRef = useRef<SVGPathElement>(null);
-    const viewStore = useViewStore();
-    const isSelected = viewStore.selectedEdge?.id === id;
 
     const path = useMemo(
         () =>
@@ -87,13 +83,13 @@ const ViewCustomEdge = ({
                     ...style,
                 }}
                 className={cn("hover:stroke-[7]", {
-                    "stroke-[5]": !isSelected,
-                    "stroke-[7]": isSelected,
+                    "stroke-[5]": !data!.isSelected,
+                    "stroke-[7]": data!.isSelected,
                 })}
             />
 
             {/* animated light effect when selected */}
-            {isSelected && (
+            {data!.isSelected && (
                 <path
                     d={path}
                     stroke="white"

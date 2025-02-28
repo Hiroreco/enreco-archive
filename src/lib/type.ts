@@ -97,6 +97,11 @@ export type ImageNodeData = CommonNodeData & {
     // The following properties are used during the rendering of this node,
     // and should not be filled by the data source.
     renderTeamImageSrc?: string;
+    isSelected?: boolean;
+    isCurrentDay?: boolean;
+    // Since we're trying to avoid having viewStore in the node component, we're passing it in during render instead
+    // Not putting this in CommonNodeData as it's redundant
+    chapter?: number;
 };
 
 export type CustomEdgeOffsets = {
@@ -124,6 +129,11 @@ export type FixedEdgeData = CommonEdgeData & {
     // The following properties are used during the rendering of this edge,
     // and should not be filled by the data source.
     renderIsHoveredEdge?: boolean;
+    isSelected?: boolean;
+    isCurrentDay?: boolean;
+    // Since we're trying to avoid having viewStore in the edge component, we're passing it in during render instead
+    // Not putting this in CommonEdgeData as it's redundant
+    chapter?: number;
 };
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;
