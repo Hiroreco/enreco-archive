@@ -207,10 +207,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             setChartShrink(0);
         }
         if (newCurrentCard === "setting" || newCurrentCard === null) {
+            viewStore.setSelectedNode(null);
+            viewStore.setSelectedEdge(null);
             setFitViewOperation("fit-to-all");
         } else if (newCurrentCard === "node") {
+            viewStore.setSelectedEdge(null);
             setFitViewOperation("fit-to-node");
         } else if (newCurrentCard === "edge") {
+            viewStore.setSelectedNode(null);
             setFitViewOperation("fit-to-edge");
         }
         setPreviousCard(viewStore.currentCard);
