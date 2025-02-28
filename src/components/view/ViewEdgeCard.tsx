@@ -17,6 +17,7 @@ interface Props {
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
+    setChartShrink: (width: number) => void;
 }
 
 const ViewEdgeCard = ({
@@ -27,6 +28,7 @@ const ViewEdgeCard = ({
     onCardClose,
     onEdgeLinkClicked,
     onNodeLinkClicked,
+    setChartShrink,
 }: Props) => {
     const { getNode } = useReactFlow();
 
@@ -35,6 +37,12 @@ const ViewEdgeCard = ({
             onCardClose();
         }
     }
+
+    const handleCardWidthChange = (width: number) => {
+        if (isCardOpen) {
+            setChartShrink(width + 56); // Add 56px for the right margin
+        }
+    };
 
     // An edge always has a source and target node, which explains the !
     const nodeA = selectedEdge
@@ -55,6 +63,7 @@ const ViewEdgeCard = ({
             <BrowserView>
                 <ViewCard
                     isCardOpen={isCardOpen}
+                    onWidthChange={handleCardWidthChange}
                     className={cn("transition-all absolute", {
                         "opacity-0 -z-10 invisible": !isCardOpen,
                         "opacity-1 z-10 visible": isCardOpen,

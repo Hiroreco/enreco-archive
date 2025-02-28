@@ -17,6 +17,7 @@ interface Props {
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
+    setChartShrink: (width: number) => void;
 }
 
 const ViewNodeCard = ({
@@ -27,6 +28,7 @@ const ViewNodeCard = ({
     onCardClose,
     onNodeLinkClicked,
     onEdgeLinkClicked,
+    setChartShrink,
 }: Props) => {
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
@@ -34,12 +36,19 @@ const ViewNodeCard = ({
         }
     }
 
+    const handleCardWidthChange = (width: number) => {
+        if (isCardOpen) {
+            setChartShrink(width + 56); // Add 56px for the right margin
+        }
+    };
+
     const renderContent = selectedNode !== null && nodeTeam !== null;
 
     return (
         <>
             <BrowserView>
                 <ViewCard
+                    onWidthChange={handleCardWidthChange}
                     isCardOpen={isCardOpen}
                     className={cn(
                         "transition-all absolute flex flex-col items-center",

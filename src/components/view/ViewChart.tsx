@@ -20,11 +20,10 @@ import { isMobile } from "react-device-detect";
 import ViewCustomEdge from "@/components/view/ViewCustomEdge";
 import ImageNodeView from "@/components/view/ViewImageNode";
 import { usePreviousValue } from "@/hooks/usePreviousValue";
-import { useReactFlowFitViewToEdge } from "@/hooks/useReactFlowFitViewToEdge";
 import { OLD_EDGE_OPACITY } from "@/lib/constants";
-import { memo, useCallback, useEffect, useMemo, useRef } from "react";
 import { useSettingStore } from "@/store/settingStore";
 import { CardType } from "@/store/viewStore";
+import { memo, useCallback, useEffect, useMemo, useRef } from "react";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
@@ -126,7 +125,6 @@ function ViewChart({
     const bottomRightNode = useMemo(() => findBottomRightNode(nodes), [nodes]);
 
     const { fitView } = useReactFlow<ImageNodeType, CustomEdgeType>();
-    const { fitViewToEdge } = useReactFlowFitViewToEdge();
     const prevDoFitView = usePreviousValue(doFitView);
     const prevWidthToShrink = usePreviousValue(widthToShrink);
     const flowRendererSizer = useRef<HTMLDivElement>(null);
@@ -148,11 +146,12 @@ function ViewChart({
                 maxZoom: 1.5,
             });
         } else if (selectedEdge && fitViewOperation === "fit-to-edge") {
-            fitViewToEdge(
-                selectedEdge.source,
-                selectedEdge.target,
-                selectedEdge,
-            );
+            const nodeA = nodes.find((node) => node.id === selectedEdge.source);
+            const nodeB = nodes.find((node) => node.id === selectedEdge.target);
+            fitViewAsync({
+                nodes: [nodeA!, nodeB!],
+                duration: 1000,
+            });
         } else if (fitViewOperation === "fit-to-all") {
             if (
                 previousCard === "setting" ||
@@ -165,12 +164,12 @@ function ViewChart({
     }, [
         fitViewAsync,
         fitViewOperation,
-        fitViewToEdge,
         selectedEdge,
         selectedNode,
         previousCard,
         currentCard,
         settingStore.autoPanBack,
+        nodes,
     ]);
 
     useEffect(() => {
@@ -187,7 +186,7 @@ function ViewChart({
 
     useEffect(() => {
         if (prevDoFitView !== doFitView) {
-            // Like a above, need a slight delay to make sure that nodes/edges
+            // Like above, need a slight delay to make sure that nodes/edges
             // get updated in React Flow internally when new nodes/edges are
             // passed in.
             setTimeout(fitViewFunc, 20);

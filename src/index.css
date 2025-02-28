@@ -229,14 +229,14 @@ td {
     background-position: center;
 }
 
-.fancy {
+.running-border {
     --offset: 0px;
     border-radius: 0.5rem;
     position: relative;
     overflow: hidden;
 }
 
-.fancy::before {
+.running-border::before {
     @apply brightness-90;
     content: "";
     background: conic-gradient(
@@ -253,10 +253,6 @@ td {
     animation: rotate 5s linear infinite;
 }
 
-.dark .fancy::before {
-    @apply brightness-125;
-}
-
 @keyframes rotate {
     from {
         transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
@@ -265,4 +261,21 @@ td {
     to {
         transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
     }
+}
+
+.running-light {
+    stroke-dasharray: 5, 200;
+    stroke-dashoffset: 0;
+    animation: runningLight 5s linear infinite;
+    opacity: 0.4;
+}
+
+@keyframes runningLight {
+    to {
+        stroke-dashoffset: -205;
+    }
+}
+
+.dark .running-light {
+    opacity: 0.3;
 }

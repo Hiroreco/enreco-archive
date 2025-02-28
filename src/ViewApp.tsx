@@ -199,7 +199,10 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     // Update react flow renderer width when setting card is open, so the flow is not covered by the card
     function onCurrentCardChange(newCurrentCard: CardType) {
-        if (newCurrentCard !== "setting") {
+        // Only reset the chart shrink when all cards are closed
+        if (newCurrentCard === null) {
+            viewStore.setSelectedNode(null);
+            viewStore.setSelectedEdge(null);
             setChartShrink(0);
         }
         if (newCurrentCard === "setting" || newCurrentCard === null) {
@@ -326,6 +329,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onEdgeLinkClicked={onEdgeClick}
                     nodeTeam={selectedNodeTeam}
                     chapter={viewStore.chapter}
+                    setChartShrink={setChartShrink}
                 />
 
                 <ViewEdgeCard
@@ -336,6 +340,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onEdgeLinkClicked={onEdgeClick}
                     edgeRelationship={selectedEdgeRelationship}
                     chapter={viewStore.chapter}
+                    setChartShrink={setChartShrink}
                 />
             </div>
 

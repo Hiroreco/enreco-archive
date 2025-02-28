@@ -93,7 +93,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 {/* Border animation to indicate selected node */}
                 {isSelected && (
                     <div
-                        className="absolute w-[110px] h-[110px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 fancy"
+                        className="absolute w-[110px] h-[110px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 running-border"
                         style={
                             {
                                 "--border-color": data.bgCardColor,
