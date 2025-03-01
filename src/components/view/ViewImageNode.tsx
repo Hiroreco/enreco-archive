@@ -64,15 +64,20 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 />
             ))}
             <div
-                style={{ opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY }}
-                className="transition-all relative cursor-pointer w-[100px] h-[100px] rounded duration-1000"
+                style={{
+                    opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY,
+                    transition: "transform 0.3s, opacity 1s",
+                }}
+                className={clsx(
+                    "relative cursor-pointer w-[100px] h-[100px] rounded",
+                    {
+                        "hover:scale-110": !data.isSelected,
+                    },
+                )}
             >
                 <Image
                     className={clsx(
-                        "aspect-square object-cover rounded-lg absolute transition-transform duration-300 z-10 ease-in-out transform scale-100 dark:brightness-[0.87]",
-                        {
-                            "hover:scale-110": !data.isSelected,
-                        },
+                        "aspect-square object-cover rounded-lg absolute z-10 dark:brightness-[0.87]",
                     )}
                     src={data.imageSrc || ""}
                     width={100}
@@ -108,7 +113,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 {isRead && (
                     <Check
                         size={25}
-                        className="absolute top-1 right-1 opacity-80"
+                        className="absolute top-1 right-1 opacity-80 z-20"
                         color="white"
                     />
                 )}
