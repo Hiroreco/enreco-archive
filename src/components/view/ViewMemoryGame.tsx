@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { LS_MEMORY_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import _ from "lodash";
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
@@ -192,7 +192,7 @@ const ViewMemoryGame = () => {
         return (
             <div
                 key={index}
-                className={clsx(`${COLOR_MAP[value < 4 ? value : -1]}`, {
+                className={cn(`${COLOR_MAP[value < 4 ? value : -1]}`, {
                     "cursor-pointer hover:border-2 border-gray-400":
                         value === -1 || value >= 4,
                 })}
@@ -210,7 +210,7 @@ const ViewMemoryGame = () => {
         return (
             <div className="flex flex-col items-center">
                 <div
-                    className={clsx(`box-${color}`, {
+                    className={cn(`box-${color}`, {
                         [`scale-110 opacity-100`]: chosenValue === value,
                         "opacity-50": chosenValue !== value,
                     })}
@@ -246,7 +246,7 @@ const ViewMemoryGame = () => {
                     <span className="items-center flex flex-col sm:flex-row sm:gap-2">
                         <span className="font-semibold">Score:</span>{" "}
                         <span
-                            className={clsx({
+                            className={cn({
                                 "text-green-600": guessState === "correct",
                                 "text-red-600": guessState === "incorrect",
                             })}

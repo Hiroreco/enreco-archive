@@ -6,7 +6,7 @@ import {
 } from "@/components/view/ViewMarkdown";
 import ViewProgressBar from "@/components/view/ViewProgressBar";
 import { ChartData } from "@/lib/type";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { useEffect, useRef } from "react";
 
 interface Props {
@@ -43,7 +43,7 @@ const ViewRecapCard = ({
                 onDayChange={onDayChange}
             />
             <div
-                className={clsx("overflow-x-hidden scroll-smooth", {
+                className={cn("overflow-x-hidden scroll-smooth", {
                     "overflow-y-scroll":
                         drawerOpenFully === true ||
                         drawerOpenFully === undefined,

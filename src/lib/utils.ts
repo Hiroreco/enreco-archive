@@ -1,8 +1,8 @@
+import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
 import { ImageNodeType } from "@/lib/type";
 import { clsx, type ClassValue } from "clsx";
-import { twMerge } from "tailwind-merge";
-import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
 import blurData from "public/blur-data.json";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
@@ -91,4 +91,34 @@ export const getBlurDataURL = (imageSrc: string | undefined) => {
     const filename = imageSrc.split("/").pop()?.split(".")[0];
     // @ts-expect-error
     return filename ? blurData[filename] : imageSrc;
+};
+
+export const getViewportSize = () => {
+    if (typeof window === "undefined")
+        return {
+            width: 0,
+            label: "xs",
+        };
+    if (window.innerWidth >= 1024) {
+        return {
+            width: window.innerWidth,
+            label: "lg",
+        };
+    }
+    if (window.innerWidth >= 768) {
+        return {
+            width: window.innerWidth,
+            label: "md",
+        };
+    }
+    if (window.innerWidth >= 640) {
+        return {
+            width: window.innerWidth,
+            label: "sm",
+        };
+    }
+    return {
+        width: window.innerWidth,
+        label: "xs",
+    };
 };

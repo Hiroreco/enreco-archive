@@ -6,7 +6,7 @@ import {
     Position,
     useUpdateNodeInternals,
 } from "@xyflow/react";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
 // Number of handles per side
@@ -75,7 +75,7 @@ const EditorImageNode = ({ data, id }: EditorImageNodeProps) => {
         <>
             {handleElements}
             <img
-                className={clsx("aspect-square object-cover rounded-lg", {
+                className={cn("aspect-square object-cover rounded-lg", {
                     "opacity-50": !isCurrentDay,
                     "opacity-100": isCurrentDay,
                 })}

@@ -1,7 +1,7 @@
 import { OLD_NODE_OPACITY } from "@/lib/constants";
 import { getBlurDataURL, idFromDayChapterId } from "@/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { memo, useMemo } from "react";
@@ -68,7 +68,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                     opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY,
                     transition: "transform 0.3s, opacity 1s",
                 }}
-                className={clsx(
+                className={cn(
                     "relative cursor-pointer w-[100px] h-[100px] rounded",
                     {
                         "hover:scale-110": !data.isSelected,
@@ -76,7 +76,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                 )}
             >
                 <Image
-                    className={clsx(
+                    className={cn(
                         "aspect-square object-cover rounded-lg absolute z-10 dark:brightness-[0.87]",
                     )}
                     src={data.imageSrc || ""}

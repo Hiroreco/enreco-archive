@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import React, { useEffect, useState } from "react";
 import * as _ from "lodash";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { LS_GAMBLING_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 
@@ -73,7 +73,7 @@ const ViewGamblingGame = () => {
         return (
             <div
                 key={index}
-                className={clsx(
+                className={cn(
                     value,
                     isHighlighted && "transition-all opacity-60",
                 )}
@@ -176,7 +176,7 @@ const ViewGamblingGame = () => {
         return (
             <div className="flex flex-col items-center">
                 <div
-                    className={clsx(`${value}`, {
+                    className={cn(`${value}`, {
                         [`scale-110 opacity-100`]: chosenValue === value,
                         "opacity-50": chosenValue !== value,
                     })}

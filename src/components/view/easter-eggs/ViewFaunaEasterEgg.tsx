@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useAudioStore } from "@/store/audioStore";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -73,7 +73,7 @@ const ViewFaunaEasterEgg = () => {
                 {numbers.map((finalNum, index) => (
                     <motion.div
                         key={index}
-                        className={clsx(
+                        className={cn(
                             "w-12 h-16 relative flex items-center justify-center text-2xl font-bold rounded-md overflow-hidden",
                         )}
                         animate={{

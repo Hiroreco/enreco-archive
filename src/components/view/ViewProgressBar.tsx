@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 interface ViewProgressBarProps {
@@ -53,7 +53,7 @@ const Progress = ({ numberOfDays, day, onDayChange }: ViewProgressBarProps) => {
                             if (el) pointRefs.current[index] = el;
                         }}
                         key={index}
-                        className={clsx(
+                        className={cn(
                             "w-[12px] h-[12px] transition-colors duration-1000 rounded-sm absolute -translate-y-[4px] -translate-x-[6px] hover:bg-accent cursor-pointer",
                             {
                                 "bg-accent": index - 1 <= day,

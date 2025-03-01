@@ -9,7 +9,7 @@ import { Chapter } from "@/lib/type";
 
 import { IconButton } from "@/components/ui/IconButton";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { useEffect } from "react";
 import { CardType } from "@/store/viewStore";
 
@@ -69,7 +69,7 @@ export default function ViewTransportControls({
 
     return (
         <div
-            className={clsx(
+            className={cn(
                 "w-full flex justify-center items-stretch md:items-center gap-2 transition-all",
                 {
                     // Hide when a card is selected
@@ -81,7 +81,7 @@ export default function ViewTransportControls({
             )}
         >
             <div
-                className={clsx("flex-1 flex gap-2", {
+                className={cn("flex-1 flex gap-2", {
                     hidden: currentCard === "setting",
                 })}
             >
@@ -128,7 +128,7 @@ export default function ViewTransportControls({
                 </IconButton>
             </div>
             <div
-                className={clsx("flex gap-2 h-10", {
+                className={cn("flex gap-2 h-10", {
                     "flex-1": currentCard !== "setting",
                     "w-1/2": currentCard === "setting",
                 })}

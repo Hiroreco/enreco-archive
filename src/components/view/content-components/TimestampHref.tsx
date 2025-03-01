@@ -1,7 +1,7 @@
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { MouseEvent } from "react";
 
 export type HrefType = "embed" | "general";
@@ -58,7 +58,7 @@ const TimestampHref = ({
             data-timestamp-url={href}
             onClick={(e) => timestampHandler(e, href)}
             {...rest}
-            className={clsx({
+            className={cn({
                 "block text-center italic underline underline-offset-4 font-medium text-[1.125rem]":
                     type === "embed",
                 "font-medium": type === "general",
