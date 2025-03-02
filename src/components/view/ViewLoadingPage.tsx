@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import LogoSVG from "./LogoSVG";
+import Image from "next/image";
 
 interface ViewLoadingPageProps {
     useDarkMode: boolean;
@@ -15,36 +15,31 @@ const ViewLoadingPage = ({
     setViewAppVisible,
 }: ViewLoadingPageProps) => {
     const [isClicked, setIsClicked] = useState(false);
-    const [isDrawingComplete, setIsDrawingComplete] = useState(false);
+    const [isAnimationComplete, setIsAnimationComplete] = useState(false);
 
     const handleClick = () => {
-        if (!isDrawingComplete) return;
+        if (!isAnimationComplete) return;
         setIsClicked(true);
-        // Set the visibility before the fade out
         setViewAppVisible();
         setTimeout(onStart, 1000);
     };
 
-    const svgVariants = {
+    const imageVariants = {
         hidden: {
-            opacity: 1,
-            pathLength: 0,
-            fill: "rgba(255, 255, 255, 0)",
+            opacity: 0,
+            clipPath: "circle(0% at 50% 50%)",
         },
         visible: {
             opacity: 1,
-            pathLength: 1,
-            fill: "rgba(111, 156, 192, 1)",
+            clipPath: "circle(100% at 50% 50%)",
             transition: {
-                duration: 2,
-                ease: "easeInOut",
-                pathLength: {
-                    duration: 2,
-                    ease: "easeInOut",
+                clipPath: {
+                    duration: 3.5,
+                    ease: [0.4, 0, 0.2, 1],
                 },
-                fill: {
-                    duration: 0.5,
-                    delay: 2, // Start fill animation after path drawing
+                opacity: {
+                    duration: 4,
+                    ease: "easeOut",
                 },
             },
         },
@@ -81,23 +76,29 @@ const ViewLoadingPage = ({
                 }}
             />
 
-            <motion.div className="md:h-[60vh] md:max-h-[600px] w-auto text-[#6f9cc0] mr-2">
-                <LogoSVG
-                    onAnimationComplete={() => {
-                        setTimeout(() => setIsDrawingComplete(true), 3000);
-                    }}
-                    className="w-full h-full"
-                    variants={svgVariants}
-                    initial="hidden"
-                    animate="visible"
+            <motion.div
+                className="md:h-[60vh] md:max-h-[600px] w-auto relative"
+                variants={imageVariants}
+                initial="hidden"
+                animate="visible"
+                onAnimationComplete={() => {
+                    setIsAnimationComplete(true);
+                }}
+            >
+                <Image
+                    src="/images-opt/logo.webp"
+                    alt="ENreco Archive Logo"
+                    width={600}
+                    height={600}
+                    priority
+                    className="w-full h-full object-contain"
                 />
             </motion.div>
+
             <motion.div
                 className="mt-8 text-[#6f9cc0] text-2xl font-semibold"
                 initial={{ opacity: 0 }}
-                transition={{
-                    duration: 0.5,
-                }}
+                transition={{ duration: 0.5 }}
                 variants={{
                     visible: {
                         opacity: [0.3, 1, 0.3],
@@ -109,7 +110,7 @@ const ViewLoadingPage = ({
                         },
                     },
                 }}
-                animate={isDrawingComplete ? "visible" : "hidden"}
+                animate={isAnimationComplete ? "visible" : "hidden"}
             >
                 Click anywhere to start
             </motion.div>
