@@ -35,3 +35,5 @@ next-env.d.ts
 # Optimized images
 public/images-opt/*
 public/blur-data.json
+
+.env
