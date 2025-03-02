@@ -46,7 +46,7 @@ export const metadata: Metadata = {
         creator: "@hiroavrs",
         card: "summary_large_image",
         // Embed doesn't suport webp, and putting in directly redirects to localhost
-        images: "https://raw.githubusercontent.com/Hiroreco/enreco-archive/refs/heads/dev/public/embed.png",
+        images: "https://raw.githubusercontent.com/Hiroreco/enreco-archive/refs/heads/dev/embed.png",
     },
     openGraph: {
         type: "website",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
         siteName: "ENreco Archive",
         images: {
             // Embed doesn't suport webp, and putting in directly redirects to localhost
-            url: "https://raw.githubusercontent.com/Hiroreco/enreco-archive/refs/heads/dev/public/embed.png",
+            url: "https://raw.githubusercontent.com/Hiroreco/enreco-archive/refs/heads/dev/embed.png",
         },
         locale: "en_US",
     },
