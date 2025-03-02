@@ -16,6 +16,7 @@ const ViewLoadingPage = ({
 }: ViewLoadingPageProps) => {
     const [isClicked, setIsClicked] = useState(false);
     const [isAnimationComplete, setIsAnimationComplete] = useState(false);
+    const [isPulse, setIsPulse] = useState(false);
 
     const handleClick = () => {
         if (!isAnimationComplete) return;
@@ -97,20 +98,33 @@ const ViewLoadingPage = ({
 
             <motion.div
                 className="mt-8 text-[#6f9cc0] text-2xl font-semibold"
-                initial={{ opacity: 0 }}
-                transition={{ duration: 0.5 }}
                 variants={{
-                    visible: {
-                        opacity: [0.3, 1, 0.3],
+                    fadeIn: {
+                        opacity: [0, 1],
+                        transition: {
+                            duration: 1, // Fade-in duration
+                            ease: "easeOut",
+                        },
+                    },
+                    pulse: {
+                        opacity: [1, 0.3, 1],
                         transition: {
                             duration: 2,
                             times: [0, 0.5, 1],
                             repeat: Infinity,
-                            repeatDelay: 1,
+                            repeatDelay: 0.5,
                         },
                     },
                 }}
-                animate={isAnimationComplete ? "visible" : "hidden"}
+                initial={{ opacity: 0 }}
+                animate={
+                    isAnimationComplete ? (isPulse ? "pulse" : "fadeIn") : {}
+                }
+                onAnimationComplete={(definition) => {
+                    if (definition === "fadeIn") {
+                        setIsPulse(true); // Trigger pulse only after fadeIn
+                    }
+                }}
             >
                 Click anywhere to start
             </motion.div>
