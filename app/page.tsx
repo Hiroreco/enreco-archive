@@ -45,8 +45,8 @@ export const metadata: Metadata = {
         site: "@enrecoarchive",
         creator: "@hiroavrs",
         card: "summary_large_image",
-        // Embed doesn't suport webp
-        images: "/embed.png",
+        // Embed doesn't suport webp, and putting in directly redirects to localhost
+        images: "https://raw.githubusercontent.com/Hiroreco/enreco-archive/refs/heads/dev/public/embed.png",
     },
     openGraph: {
         type: "website",
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
             "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines, everything is compiled neatly for those looking to catch up on the series or simply relive their favorite moments.",
         siteName: "ENreco Archive",
         images: {
-            // Embed doesn't suport webp
-            url: "/embed.png",
+            // Embed doesn't suport webp, and putting in directly redirects to localhost
+            url: "https://raw.githubusercontent.com/Hiroreco/enreco-archive/refs/heads/dev/public/embed.png",
         },
         locale: "en_US",
     },
