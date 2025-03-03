@@ -97,12 +97,12 @@ const ViewLoadingPage = ({
             </motion.div>
 
             <motion.div
-                className="mt-8 text-[#6f9cc0] text-2xl font-semibold"
+                className="mt-8 logo-text"
                 variants={{
                     fadeIn: {
                         opacity: [0, 1],
                         transition: {
-                            duration: 1, // Fade-in duration
+                            duration: 1,
                             ease: "easeOut",
                         },
                     },
@@ -122,7 +122,7 @@ const ViewLoadingPage = ({
                 }
                 onAnimationComplete={(definition) => {
                     if (definition === "fadeIn") {
-                        setIsPulse(true); // Trigger pulse only after fadeIn
+                        setIsPulse(true);
                     }
                 }}
             >
