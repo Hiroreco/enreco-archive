@@ -26,6 +26,7 @@ import ViewTransportControls from "./components/view/ViewTransportControls";
 import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
 import { LS_HAS_VISITED } from "@/lib/constants";
+import { useClickOutside } from "@/hooks/useClickOutsite";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -53,6 +54,7 @@ interface Props {
 let didInit = false;
 const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     useAudioSettingsSync();
+    useClickOutside();
     /* State variables */
     const viewStore = useViewStore();
     const settingsStore = useSettingStore();
@@ -235,6 +237,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }
 
     function onPaneClick() {
+        if (document.activeElement instanceof HTMLElement) {
+            document.activeElement.blur();
+        }
         onCurrentCardChange(null);
         viewStore.setSelectedNode(null);
         viewStore.setSelectedEdge(null);
