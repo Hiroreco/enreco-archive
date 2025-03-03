@@ -43,7 +43,20 @@ const generateHandles = (numOfHandles: number) => [
 
 const ViewImageNode = ({ id, data }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
-    const handles = useMemo(() => generateHandles(NUM_OF_HANDLES), []);
+    const handles = useMemo(() => {
+        const handleData = generateHandles(NUM_OF_HANDLES);
+
+        return handleData.map((handle) => (
+            <Handle
+                key={handle.key}
+                id={handle.id}
+                type={handle.type}
+                position={handle.position}
+                style={{ ...handle.style, opacity: 0 }}
+                isConnectable={false}
+            />
+        ));
+    }, []);
 
     // !, chapter should probably always be defined, hopefully
     const isRead =
@@ -53,16 +66,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
 
     return (
         <>
-            {handles.map((handle) => (
-                <Handle
-                    key={handle.key}
-                    id={handle.id}
-                    type={handle.type}
-                    position={handle.position}
-                    style={{ ...handle.style, opacity: 0 }}
-                    isConnectable={false}
-                />
-            ))}
+            {handles}
             <div
                 style={{ opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY }}
                 className="transition-all relative cursor-pointer w-[100px] h-[100px] rounded duration-1000"
