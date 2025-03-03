@@ -1,5 +1,5 @@
 "use client";
-import { memo, useEffect, useMemo, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
 import ViewEdgeCard from "@/components/view/ViewEdgeCard";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
@@ -87,18 +87,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         audioStore.changeBGM(chapterData.bgmSrc);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
-
-    // Then when the user closes the modal, open the day recap card
-    // Only doing this for first visit
-    useEffect(() => {
-        if (firstVisit && !viewStore.infoModalOpen) {
-            viewStore.setInfoModalOpen(false);
-            onCurrentCardChange("setting");
-            setFirstVisit(false);
-            localStorage.setItem(LS_HAS_VISITED, "true");
-        }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
 
     /* Data variables */
     const chapterData = siteData.chapters[viewStore.chapter];
@@ -201,7 +189,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }
 
     // Update react flow renderer width when setting card is open, so the flow is not covered by the card
-    function onCurrentCardChange(newCurrentCard: CardType) {
+    const onCurrentCardChange = useCallback(function (newCurrentCard: CardType) {
         // Only reset the chart shrink when all cards are closed
         if (newCurrentCard === null) {
             viewStore.setSelectedNode(null);
@@ -222,28 +210,44 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         setPreviousCard(viewStore.currentCard);
         viewStore.setCurrentCard(newCurrentCard);
         setDoFitView(!doFitView);
-    }
+    }, [doFitView, viewStore]);
 
-    function onNodeClick(node: ImageNodeType) {
+    const onCardClose = useCallback(function () {
+        onCurrentCardChange(null);
+    }, [onCurrentCardChange]);
+
+    // Then when the user closes the modal, open the day recap card
+    // Only doing this for first visit
+    useEffect(() => {
+        if (firstVisit && !viewStore.infoModalOpen) {
+            viewStore.setInfoModalOpen(false);
+            onCurrentCardChange("setting");
+            setFirstVisit(false);
+            localStorage.setItem(LS_HAS_VISITED, "true");
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
+
+    const onNodeClick = useCallback(function (node: ImageNodeType) {
         onCurrentCardChange("node");
         viewStore.setSelectedNode(node);
         viewStore.setSelectedEdge(null);
-    }
+    }, [onCurrentCardChange, viewStore]);
 
-    function onEdgeClick(edge: FixedEdgeType) {
+    const onEdgeClick = useCallback(function (edge: FixedEdgeType) {
         onCurrentCardChange("edge");
         viewStore.setSelectedEdge(edge);
         viewStore.setSelectedNode(null);
-    }
+    }, [onCurrentCardChange, viewStore]);
 
-    function onPaneClick() {
+    const onPaneClick = useCallback(function () {
         if (document.activeElement instanceof HTMLElement) {
             document.activeElement.blur();
         }
         onCurrentCardChange(null);
         viewStore.setSelectedNode(null);
         viewStore.setSelectedEdge(null);
-    }
+    }, [onCurrentCardChange, viewStore]);
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -313,7 +317,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
                 <ViewSettingCard
                     isCardOpen={viewStore.currentCard === "setting"}
-                    onCardClose={() => onCurrentCardChange(null)}
+                    onCardClose={onCardClose}
                     dayData={dayData}
                     edgeVisibility={viewStore.edgeVisibility}
                     onEdgeVisibilityChange={viewStore.setEdgeVisibility}
@@ -335,7 +339,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 <ViewNodeCard
                     isCardOpen={viewStore.currentCard === "node"}
                     selectedNode={viewStore.selectedNode}
-                    onCardClose={() => onCurrentCardChange(null)}
+                    onCardClose={onCardClose}
                     onNodeLinkClicked={onNodeClick}
                     onEdgeLinkClicked={onEdgeClick}
                     nodeTeam={selectedNodeTeam}
@@ -346,7 +350,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 <ViewEdgeCard
                     isCardOpen={viewStore.currentCard === "edge"}
                     selectedEdge={viewStore.selectedEdge}
-                    onCardClose={() => onCurrentCardChange(null)}
+                    onCardClose={onCardClose}
                     onNodeLinkClicked={onNodeClick}
                     onEdgeLinkClicked={onEdgeClick}
                     edgeRelationship={selectedEdgeRelationship}
