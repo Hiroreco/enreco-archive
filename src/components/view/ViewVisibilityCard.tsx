@@ -3,7 +3,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Chapter, ImageNodeType, StringToBooleanObjectMap } from "@/lib/type";
 import { extractImageSrcFromNodes } from "@/lib/utils";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { useMemo } from "react";
 
 interface Props {
@@ -43,7 +43,7 @@ const ViewVisibilityCard = ({
 
     return (
         <div
-            className={clsx("flex flex-col gap-4 p-4 h-full", {
+            className={cn("flex flex-col gap-4 p-4 h-full", {
                 "overflow-y-scroll":
                     drawerOpenFully === true || drawerOpenFully === undefined,
                 "overflow-y-hidden": drawerOpenFully === false,

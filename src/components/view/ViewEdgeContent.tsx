@@ -10,7 +10,7 @@ import {
 } from "./ViewMarkdown";
 import { isMobile } from "react-device-detect";
 import ReadMarker from "@/components/view/ReadMarker";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import LineSvg from "../LineSvg";
 
 interface ViewEdgeContentProps {
@@ -108,7 +108,7 @@ const ViewEdgeContent = ({
             {/* Content */}
             <div
                 ref={contentRef}
-                className={clsx("mt-2 overflow-x-hidden", {
+                className={cn("mt-2 overflow-x-hidden", {
                     "overflow-y-auto": !isMobile,
                 })}
                 onScroll={handleScroll}

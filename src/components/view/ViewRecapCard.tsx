@@ -6,7 +6,8 @@ import {
 } from "@/components/view/ViewMarkdown";
 import ViewProgressBar from "@/components/view/ViewProgressBar";
 import { ChartData } from "@/lib/type";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
+import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 interface Props {
@@ -43,7 +44,7 @@ const ViewRecapCard = ({
                 onDayChange={onDayChange}
             />
             <div
-                className={clsx("overflow-x-hidden scroll-smooth", {
+                className={cn("overflow-x-hidden scroll-smooth", {
                     "overflow-y-scroll":
                         drawerOpenFully === true ||
                         drawerOpenFully === undefined,
@@ -51,13 +52,23 @@ const ViewRecapCard = ({
                 })}
                 ref={scrollRef}
             >
-                <ViewMarkdown
-                    onNodeLinkClicked={onNodeLinkClicked}
-                    onEdgeLinkClicked={onEdgeLinkClicked}
-                >
-                    {dayData.dayRecap || "No content available."}
-                </ViewMarkdown>
-                <Separator className="my-4" />
+                <AnimatePresence mode="wait">
+                    <motion.div
+                        key={day} // Change key to trigger animation
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                    >
+                        <ViewMarkdown
+                            onNodeLinkClicked={onNodeLinkClicked}
+                            onEdgeLinkClicked={onEdgeLinkClicked}
+                        >
+                            {dayData.dayRecap || "No content available."}
+                        </ViewMarkdown>
+                        <Separator className="my-4" />
+                    </motion.div>
+                </AnimatePresence>
             </div>
         </div>
     );

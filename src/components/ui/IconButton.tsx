@@ -2,7 +2,7 @@ import * as Tooltip from "@radix-ui/react-tooltip";
 
 import { Button } from "@/components/ui/button";
 import { ReactNode } from "react";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 
 interface IconButtonProps {
     id?: string;
@@ -29,7 +29,7 @@ export function IconButton({
                 <Tooltip.Trigger asChild>
                     <Button
                         id={id}
-                        className={clsx(
+                        className={cn(
                             "h-8 w-8 aspect-square rounded-full p-2",
                             className,
                         )}

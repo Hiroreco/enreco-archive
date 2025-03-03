@@ -9,7 +9,7 @@ import {
     Plus,
 } from "lucide-react";
 
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import EditorConfirmDialog from "@/components/editor/EditorConfirmDialog";
 import EditorDaySelect from "@/components/editor/EditorDaySelect";
 import { EditorMoveDayDialog } from "@/components/editor/EditorMoveDayDialog";
@@ -86,7 +86,7 @@ export default function EditorTransportControls({
                 onActionConfirm={() => onDayDelete()}
                 onModalClose={() => setDeleteDayModalOpen(false)}
             />
-            <div className={clsx(className, "flex flex-row")}>
+            <div className={cn(className, "flex flex-row")}>
                 <div className="w-2/4 grid grid-rows-3 grid-cols-2 gap-x-2 gap-y-1 place-content-stretch mr-2">
                     <span className="text-md col-span-2 font-bold">
                         Chapters

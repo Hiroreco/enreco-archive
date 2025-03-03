@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import React, { useState } from "react";
 import MDEditor from "@uiw/react-md-editor";
 import { LucideX } from "lucide-react";
@@ -147,7 +147,7 @@ const EditorGeneralCard = ({
                 </div>
 
                 <div
-                    className={clsx("my-2", dayData === null && "hidden")}
+                    className={cn("my-2", dayData === null && "hidden")}
                     data-color-mode={isDarkMode ? "dark" : "light"}
                 >
                     <Label className="block my-1" htmlFor="dayRecap">

@@ -3,8 +3,9 @@ import VaulDrawer from "@/components/view/VaulDrawer";
 import ViewCard from "@/components/view/ViewCard";
 import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
+import { useEscapeCard } from "@/hooks/useEscapeCard";
 import { Chapter, ChartData, StringToBooleanObjectMap } from "@/lib/type";
-import { cn } from "@/lib/utils";
+import { cn, getViewportSize } from "@/lib/utils";
 import { useState } from "react";
 import { BrowserView, MobileView } from "react-device-detect";
 
@@ -45,6 +46,7 @@ const ViewSettingCard = ({
     day,
     onDayChange,
 }: Props) => {
+    useEscapeCard({ isCardOpen, onCardClose });
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -52,7 +54,7 @@ const ViewSettingCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen) {
+        if (isCardOpen && getViewportSize().label === "lg") {
             setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
         }
     };

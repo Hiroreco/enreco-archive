@@ -90,7 +90,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
                 src: [`/audio/${name}.mp3`],
                 volume: sfxVolume,
             });
-            set((state) => ({ sfx: { ...state.sfx, [name]: sound } }));
+            // set((state) => ({ sfx: { ...state.sfx, [name]: sound } }));
             sound.play();
         } else {
             sfx[name].volume(sfxVolume);

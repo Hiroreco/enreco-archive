@@ -1,5 +1,5 @@
 import { useAudioStore } from "@/store/audioStore";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -46,13 +46,10 @@ const ViewAmeEasterEgg = () => {
                 width={100}
                 height={100}
                 src="images-opt/easter-ame.webp"
-                className={clsx(
-                    "mx-auto transition-opacity translate-y-[50%]",
-                    {
-                        "cursor-pointer opacity-50 hover:opacity-100":
-                            phase === "idle",
-                    },
-                )}
+                className={cn("mx-auto transition-opacity translate-y-[50%]", {
+                    "cursor-pointer opacity-50 hover:opacity-100":
+                        phase === "idle",
+                })}
                 alt="ame"
             />
         </motion.div>

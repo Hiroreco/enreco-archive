@@ -5,6 +5,10 @@
 img {
     @apply rounded-lg;
 }
+@font-face {
+    font-family: "Chesterfield";
+    src: url("/chesterfield.woff2") format("woff2");
+}
 
 @layer base {
     :root {
@@ -277,4 +281,17 @@ td {
 
 .dark .running-light {
     opacity: 0.3;
+}
+
+.logo-text {
+    @apply text-white font-semibold font-[Chesterfield] text-3xl;
+    text-shadow:
+        0px 0px 10px #153650,
+        0px 0px 10px #153650;
+}
+
+.dark .logo-text {
+    text-shadow:
+        0px 0px 10px #1c4462,
+        0px 0px 10px #1c4462;
 }

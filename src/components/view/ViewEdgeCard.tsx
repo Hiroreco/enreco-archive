@@ -5,9 +5,10 @@ import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import { useReactFlow } from "@xyflow/react";
 import { BrowserView, MobileView } from "react-device-detect";
 
-import { cn } from "@/lib/utils";
+import { cn, getViewportSize } from "@/lib/utils";
 import { EdgeLinkClickHandler, NodeLinkClickHandler } from "./ViewMarkdown";
 import { X } from "lucide-react";
+import { useEscapeCard } from "@/hooks/useEscapeCard";
 
 interface Props {
     isCardOpen: boolean;
@@ -31,7 +32,7 @@ const ViewEdgeCard = ({
     setChartShrink,
 }: Props) => {
     const { getNode } = useReactFlow();
-
+    useEscapeCard({ isCardOpen, onCardClose });
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -39,7 +40,7 @@ const ViewEdgeCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen) {
+        if (isCardOpen && getViewportSize().label === "lg") {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };

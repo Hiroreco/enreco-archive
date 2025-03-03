@@ -17,7 +17,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -26,6 +26,7 @@ import ViewTransportControls from "./components/view/ViewTransportControls";
 import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
 import { LS_HAS_VISITED } from "@/lib/constants";
+import { useClickOutside } from "@/hooks/useClickOutsite";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -53,6 +54,7 @@ interface Props {
 let didInit = false;
 const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     useAudioSettingsSync();
+    useClickOutside();
     /* State variables */
     const viewStore = useViewStore();
     const settingsStore = useSettingStore();
@@ -239,6 +241,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }, [onCurrentCardChange, viewStore]);
 
     const onPaneClick = useCallback(function () {
+        if (document.activeElement instanceof HTMLElement) {
+            document.activeElement.blur();
+        }
         onCurrentCardChange(null);
         viewStore.setSelectedNode(null);
         viewStore.setSelectedEdge(null);
@@ -432,7 +437,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <div
-                className={clsx("fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
+                className={cn("fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
                     "w-[60%] lg:block hidden":
                         viewStore.currentCard === "setting",
                     "w-full md:w-4/5 2xl:w-2/5 mx-auto":
