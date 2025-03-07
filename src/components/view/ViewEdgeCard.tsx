@@ -1,14 +1,9 @@
 import VaulDrawer from "@/components/view/VaulDrawer";
-import ViewCard from "@/components/view/ViewCard";
 import ViewEdgeContent from "@/components/view/ViewEdgeContent";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import { useReactFlow } from "@xyflow/react";
-import { BrowserView, MobileView } from "react-device-detect";
-
-import { cn, getViewportSize } from "@/lib/utils";
+import { getViewportSize } from "@/lib/utils";
 import { EdgeLinkClickHandler, NodeLinkClickHandler } from "./ViewMarkdown";
-import { X } from "lucide-react";
-import { useEscapeCard } from "@/hooks/useEscapeCard";
 
 interface Props {
     isCardOpen: boolean;
@@ -32,7 +27,7 @@ const ViewEdgeCard = ({
     setChartShrink,
 }: Props) => {
     const { getNode } = useReactFlow();
-    useEscapeCard({ isCardOpen, onCardClose });
+
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -60,52 +55,24 @@ const ViewEdgeCard = ({
         nodeB !== null;
 
     return (
-        <>
-            <BrowserView>
-                <ViewCard
-                    isCardOpen={isCardOpen}
-                    onWidthChange={handleCardWidthChange}
-                    className={cn("transition-all absolute", {
-                        "opacity-0 -z-10 invisible": !isCardOpen,
-                        "opacity-1 z-10 visible": isCardOpen,
-                    })}
-                >
-                    {renderContent && (
-                        <ViewEdgeContent
-                            selectedEdge={selectedEdge}
-                            edgeRelationship={edgeRelationship}
-                            nodeA={nodeA}
-                            nodeB={nodeB}
-                            chapter={chapter}
-                            onEdgeLinkClicked={onEdgeLinkClicked}
-                            onNodeLinkClicked={onNodeLinkClicked}
-                        />
-                    )}
-                    <X className="x-close" onClick={onCardClose} />
-                </ViewCard>
-            </BrowserView>
-            <MobileView>
-                <VaulDrawer
-                    open={isCardOpen}
-                    onOpenChange={onDrawerOpenChange}
-                    disableScrollablity={false}
-                >
-                    <div className="flex flex-col gap-4 max-h-full items-center">
-                        {renderContent && (
-                            <ViewEdgeContent
-                                selectedEdge={selectedEdge}
-                                edgeRelationship={edgeRelationship}
-                                nodeA={nodeA}
-                                nodeB={nodeB}
-                                chapter={chapter}
-                                onEdgeLinkClicked={onEdgeLinkClicked}
-                                onNodeLinkClicked={onNodeLinkClicked}
-                            />
-                        )}
-                    </div>
-                </VaulDrawer>
-            </MobileView>
-        </>
+        <VaulDrawer
+            open={isCardOpen}
+            onOpenChange={onDrawerOpenChange}
+            onWidthChange={handleCardWidthChange}
+            disableScrollablity={false}
+        >
+            {renderContent && (
+                <ViewEdgeContent
+                    selectedEdge={selectedEdge}
+                    edgeRelationship={edgeRelationship}
+                    nodeA={nodeA}
+                    nodeB={nodeB}
+                    chapter={chapter}
+                    onEdgeLinkClicked={onEdgeLinkClicked}
+                    onNodeLinkClicked={onNodeLinkClicked}
+                />
+            )}
+        </VaulDrawer>
     );
 };
 

@@ -55,11 +55,11 @@ const ViewNodeContent = ({
     }, [selectedNode]);
 
     return (
-        <div className="h-full flex flex-col w-full" ref={cardRef}>
+        <div className="h-full w-full" ref={cardRef}>
             {/* Header */}
             <div
                 className={cn(
-                    "flex flex-col items-center transition-all duration-300 ",
+                    "flex-none flex flex-col items-center transition-all duration-300 ",
                 )}
                 style={{
                     opacity: isHeaderVisible ? 1 : 0,

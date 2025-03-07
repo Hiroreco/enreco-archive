@@ -1,13 +1,11 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import VaulDrawer from "@/components/view/VaulDrawer";
-import ViewCard from "@/components/view/ViewCard";
 import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
-import { useEscapeCard } from "@/hooks/useEscapeCard";
 import { Chapter, ChartData, StringToBooleanObjectMap } from "@/lib/type";
-import { cn, getViewportSize } from "@/lib/utils";
+import { getViewportSize } from "@/lib/utils";
 import { useState } from "react";
-import { BrowserView, MobileView } from "react-device-detect";
+
 
 interface Props {
     isCardOpen: boolean;
@@ -46,7 +44,6 @@ const ViewSettingCard = ({
     day,
     onDayChange,
 }: Props) => {
-    useEscapeCard({ isCardOpen, onCardClose });
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -65,101 +62,50 @@ const ViewSettingCard = ({
     const [drawerOpenFully, setDrawerOpenFully] = useState(false);
 
     return (
-        <>
-            <BrowserView>
-                <ViewCard
-                    onWidthChange={handleCardWidthChange}
-                    isCardOpen={isCardOpen}
-                    className={cn("transition-all absolute p-0 z-10", {
-                        "opacity-0 invisible": !isCardOpen,
-                        "opacity-1 visible": isCardOpen,
-                    })}
+        <VaulDrawer
+            open={isCardOpen}
+            onOpenChange={onDrawerOpenChange}
+            onOpenFullyChange={setDrawerOpenFully}
+            onWidthChange={handleCardWidthChange}
+            disableScrollablity={false}
+        >
+            <Tabs defaultValue="general">
+                <TabsList className="grid w-full grid-cols-2">
+                    <TabsTrigger value="general">General</TabsTrigger>
+                    <TabsTrigger value="visibility">Edge</TabsTrigger>
+                </TabsList>
+                <TabsContent
+                    value="general"
                 >
-                    <Tabs
-                        defaultValue="general"
-                        className="w-full h-[calc(100%-3.5rem)]"
-                    >
-                        <TabsList className="grid w-full grid-cols-2">
-                            <TabsTrigger value="general">Day Recap</TabsTrigger>
-                            <TabsTrigger value="visibility">
-                                Chart Visibility
-                            </TabsTrigger>
-                        </TabsList>
-                        <TabsContent value="general" className="h-full">
-                            <ViewRecapCard
-                                dayData={dayData}
-                                onEdgeLinkClicked={() => {}}
-                                onNodeLinkClicked={() => {}}
-                                day={day}
-                                numberOfDays={chapterData.numberOfDays}
-                                onDayChange={onDayChange}
-                            />
-                        </TabsContent>
-                        <TabsContent value="visibility" className="h-full">
-                            <ViewVisibilityCard
-                                edgeVisibility={edgeVisibility}
-                                onEdgeVisibilityChange={onEdgeVisibilityChange}
-                                teamVisibility={teamVisibility}
-                                onTeamVisibilityChange={onTeamVisibilityChange}
-                                characterVisibility={characterVisibility}
-                                onCharacterVisibilityChange={
-                                    onCharacterVisibilityChange
-                                }
-                                chapterData={chapterData}
-                                nodes={dayData.nodes}
-                            />
-                        </TabsContent>
-                    </Tabs>
-                </ViewCard>
-            </BrowserView>
-            <MobileView>
-                <VaulDrawer
-                    open={isCardOpen}
-                    onOpenChange={onDrawerOpenChange}
-                    onOpenFullyChange={setDrawerOpenFully}
-                    disableScrollablity={true}
+                    <ViewRecapCard
+                        drawerOpenFully={drawerOpenFully}
+                        dayData={dayData}
+                        onEdgeLinkClicked={() => {}}
+                        onNodeLinkClicked={() => {}}
+                        day={day}
+                        numberOfDays={chapterData.numberOfDays}
+                        onDayChange={onDayChange}
+                    />
+                </TabsContent>
+                <TabsContent
+                    value="visibility"
                 >
-                    <Tabs defaultValue="general">
-                        <TabsList className="grid w-full grid-cols-2">
-                            <TabsTrigger value="general">General</TabsTrigger>
-                            <TabsTrigger value="visibility">Edge</TabsTrigger>
-                        </TabsList>
-                        <TabsContent
-                            value="general"
-                            className="h-[80vh] pb-[10vh] overflow"
-                        >
-                            <ViewRecapCard
-                                drawerOpenFully={drawerOpenFully}
-                                dayData={dayData}
-                                onEdgeLinkClicked={() => {}}
-                                onNodeLinkClicked={() => {}}
-                                day={day}
-                                numberOfDays={chapterData.numberOfDays}
-                                onDayChange={onDayChange}
-                            />
-                        </TabsContent>
-                        <TabsContent
-                            value="visibility"
-                            className="h-[80vh] pb-[10vh]"
-                        >
-                            <ViewVisibilityCard
-                                edgeVisibility={edgeVisibility}
-                                onEdgeVisibilityChange={onEdgeVisibilityChange}
-                                teamVisibility={teamVisibility}
-                                onTeamVisibilityChange={onTeamVisibilityChange}
-                                characterVisibility={characterVisibility}
-                                onCharacterVisibilityChange={
-                                    onCharacterVisibilityChange
-                                }
-                                chapterData={chapterData}
-                                nodes={dayData.nodes}
-                                drawerOpenFully={drawerOpenFully}
-                            />
-                        </TabsContent>
-                    </Tabs>
-                </VaulDrawer>
-            </MobileView>
-        </>
+                    <ViewVisibilityCard
+                        edgeVisibility={edgeVisibility}
+                        onEdgeVisibilityChange={onEdgeVisibilityChange}
+                        teamVisibility={teamVisibility}
+                        onTeamVisibilityChange={onTeamVisibilityChange}
+                        characterVisibility={characterVisibility}
+                        onCharacterVisibilityChange={
+                            onCharacterVisibilityChange
+                        }
+                        chapterData={chapterData}
+                        nodes={dayData.nodes}
+                        drawerOpenFully={drawerOpenFully}
+                    />
+                </TabsContent>
+            </Tabs>
+        </VaulDrawer>
     );
 };
 

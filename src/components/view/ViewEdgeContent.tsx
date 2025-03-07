@@ -65,7 +65,7 @@ const ViewEdgeContent = ({
     }, [selectedEdge]);
 
     return (
-        <div className="h-full flex flex-col w-full" ref={cardRef}>
+        <div className="h-full w-full flex flex-col" ref={cardRef}>
             {/* Header */}
             <div
                 className="flex flex-col items-center transition-all duration-300"
@@ -108,7 +108,7 @@ const ViewEdgeContent = ({
             {/* Content */}
             <div
                 ref={contentRef}
-                className={cn("mt-2 overflow-x-hidden", {
+                className={cn("flex-1 mt-2 overflow-x-hidden", {
                     "overflow-y-auto": !isMobile,
                 })}
                 onScroll={handleScroll}
