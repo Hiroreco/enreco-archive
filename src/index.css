@@ -75,11 +75,6 @@ img {
     }
 }
 
-/* Remove scrollbar cause it looks janky */
-::-webkit-scrollbar {
-    @apply hidden;
-}
-
 h1 {
     @apply text-3xl font-bold;
 }
