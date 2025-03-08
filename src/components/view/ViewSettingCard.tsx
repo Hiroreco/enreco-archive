@@ -4,8 +4,6 @@ import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
 import { Chapter, ChartData, StringToBooleanObjectMap } from "@/lib/type";
 import { getViewportSize } from "@/lib/utils";
-import { useState } from "react";
-
 
 interface Props {
     isCardOpen: boolean;
@@ -56,29 +54,20 @@ const ViewSettingCard = ({
         }
     };
 
-    // On mobile, you can still scroll even if the drawer isn't open fully
-    // So to only allow scrolling when the drawer is fully open, we need to track that state
-    // Only need to to this for this card, because this card has a fixed tab header
-    const [drawerOpenFully, setDrawerOpenFully] = useState(false);
-
     return (
         <VaulDrawer
             open={isCardOpen}
             onOpenChange={onDrawerOpenChange}
-            onOpenFullyChange={setDrawerOpenFully}
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <Tabs defaultValue="general">
-                <TabsList className="grid w-full grid-cols-2">
+            <Tabs defaultValue="general" className="flex flex-col h-full">
+                <TabsList className="flex-none grid w-full grid-cols-2">
                     <TabsTrigger value="general">General</TabsTrigger>
                     <TabsTrigger value="visibility">Edge</TabsTrigger>
                 </TabsList>
-                <TabsContent
-                    value="general"
-                >
+                <TabsContent value="general" className="flex-1" asChild>
                     <ViewRecapCard
-                        drawerOpenFully={drawerOpenFully}
                         dayData={dayData}
                         onEdgeLinkClicked={() => {}}
                         onNodeLinkClicked={() => {}}
@@ -87,9 +76,7 @@ const ViewSettingCard = ({
                         onDayChange={onDayChange}
                     />
                 </TabsContent>
-                <TabsContent
-                    value="visibility"
-                >
+                <TabsContent value="visibility" className="flex-1" asChild>
                     <ViewVisibilityCard
                         edgeVisibility={edgeVisibility}
                         onEdgeVisibilityChange={onEdgeVisibilityChange}
@@ -101,7 +88,6 @@ const ViewSettingCard = ({
                         }
                         chapterData={chapterData}
                         nodes={dayData.nodes}
-                        drawerOpenFully={drawerOpenFully}
                     />
                 </TabsContent>
             </Tabs>
