@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 import { useMounted } from "@/hooks/useMounted";
 
 const MOBILE_SNAP_POINTS: number[] = [0.5, 1];
-const DESKTOP_SNAP_POINTS: number[] = [];
+const DESKTOP_SNAP_POINTS: number[] = [1];
 const DRAWER_CONTENT_CLASSES = 
     "z-50 rounded-t-xl fixed outline-none overflow-hidden bg-card text-card-foreground card-deco " + 
     "h-[80%] bottom-0 left-0 right-0 " + 
@@ -15,11 +15,12 @@ const DRAWER_CONTENT_CLASSES =
 
 interface VaulDrawerProps {
     open: boolean;
+    disableScrollablity: boolean;
     onOpenChange: (open: boolean) => void;
     onOpenFullyChange?: (open: boolean) => void;
     onWidthChange?: (width: number) => void;
-    disableScrollablity: boolean;
-    children: React.ReactNode;
+    onCloseAnimationEnd?: () => void;
+    children?: React.ReactNode;
 }
 
 export default function VaulDrawer({
@@ -27,6 +28,7 @@ export default function VaulDrawer({
     onOpenChange,
     onOpenFullyChange,
     onWidthChange,
+    onCloseAnimationEnd,
     disableScrollablity,
     children,
 }: VaulDrawerProps) {
@@ -39,7 +41,19 @@ export default function VaulDrawer({
         }
 
         onWidthChange?.(contentNode.getBoundingClientRect().width);
-    }, [onWidthChange]);
+
+        const animEndListener = (event: AnimationEvent) => {
+            if(event.animationName === "slideToRight" || event.animationName === "slideToBottom") {
+                onCloseAnimationEnd?.();
+            }
+        };
+
+        contentNode.addEventListener("animationend", animEndListener);
+
+        return () => {
+            contentNode.removeEventListener("animationend", animEndListener);
+        }
+    }, [onCloseAnimationEnd, onWidthChange]);
 
     const viewportInfo = getViewportSize();
     const isMobile = viewportInfo.width <= 768;
@@ -62,15 +76,11 @@ export default function VaulDrawer({
             setActiveSnapPoint={(index) => {
                 if (index === 1) {
                     setIsScrollable(true);
-                    if (onOpenFullyChange) {
-                        onOpenFullyChange(true);
-                    }
+                    onOpenFullyChange?.(true);
                 }
                 if (index === 0.5) {
                     setIsScrollable(false);
-                    if (onOpenFullyChange) {
-                        onOpenFullyChange(false);
-                    }
+                    onOpenFullyChange?.(false);
                 }
             }}
             snapToSequentialPoint
@@ -79,7 +89,11 @@ export default function VaulDrawer({
             <Drawer.Portal>
                 <Drawer.Overlay className="fixed inset-0 bg-black/40" />
 
-                <Drawer.Content className={DRAWER_CONTENT_CLASSES} ref={reportContentWidth}>
+                <Drawer.Content 
+                    className={DRAWER_CONTENT_CLASSES} 
+                    ref={reportContentWidth}
+                    style={ isMobile ? {} : { '--initial-transform': 'calc(100% + 3.5rem)' } as React.CSSProperties }
+                >
                     <VisuallyHidden>
                         <Drawer.Title>Vaul Drawer</Drawer.Title>
                     </VisuallyHidden>
@@ -89,7 +103,7 @@ export default function VaulDrawer({
 
                         <div
                             className={cn(
-                                "flex-1 p-4 max-h-full overflow-auto pointer-events-none",
+                                "flex-1 p-4 max-h-full overflow-hidden pointer-events-none",
                                 {
                                     "pointer-events-auto":
                                         isScrollable && !disableScrollablity,
@@ -105,7 +119,6 @@ export default function VaulDrawer({
                             </Button>
                         </div>
                     </div>
-                    
                 </Drawer.Content>
             </Drawer.Portal>
         </Drawer.Root>
