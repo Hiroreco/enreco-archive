@@ -113,11 +113,14 @@ export default function VaulDrawer({
                             {children}
                         </div>
 
-                        <div className="flex-[0_1_3rem] p-4">
+                        {!isMobile && (
+                            <div className="flex-[0_1_3rem] p-4">
                             <Button className="bg-accent text-foreground h-12 w-full" onClick={() => onOpenChange(false)}>
                                 <span className="text-xl text-primary-foreground">Close</span>
                             </Button>
-                        </div>
+                        </div>    
+                        )}
+
                     </div>
                 </Drawer.Content>
             </Drawer.Portal>
