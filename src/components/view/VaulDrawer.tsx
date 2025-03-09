@@ -103,7 +103,7 @@ export default function VaulDrawer({
 
                         <div
                             className={cn(
-                                "flex-1 p-4 max-h-full overflow-hidden pointer-events-none",
+                                "flex-1 p-4 pt-0 max-h-full overflow-hidden pointer-events-none",
                                 {
                                     "pointer-events-auto":
                                         isScrollable && !disableScrollablity,
