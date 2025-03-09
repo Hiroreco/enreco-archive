@@ -111,7 +111,10 @@ const ViewInfoGeneral = () => {
                     X/Twitter
                 </a>{" "}
                 or send an email to{" "}
-                <a href="mailto:hiroreco@gmail.com">hiroreco@gmail.com</a>.
+                <a href="mailto:hiroreco@gmail.com">
+                    contacthiroreco@gmail.com
+                </a>
+                .
             </div>
 
             <div>
