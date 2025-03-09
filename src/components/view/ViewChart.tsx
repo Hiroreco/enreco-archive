@@ -133,11 +133,6 @@ function ViewChart({
 
     const settingStore = useSettingStore();
 
-    const flowRendererWidth = useMemo(
-        () => getFlowRendererWidth(widthToShrink),
-        [widthToShrink],
-    );
-
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions) => {
             await fitView(fitViewOptions);
@@ -180,34 +175,22 @@ function ViewChart({
     ]);
 
     useEffect(() => {
+        let actuallyDoFitView = prevDoFitView !== doFitView;
+
         if (widthToShrink !== prevWidthToShrink) {
             if (flowRendererSizer.current) {
                 flowRendererSizer.current.style.width =
                     getFlowRendererWidth(widthToShrink);
             }
 
+            actuallyDoFitView = true;
+        }
+
+        if(actuallyDoFitView) {
             // Need a slight delay to make sure the width is updated before fitting the view
             setTimeout(fitViewFunc, 20);
         }
-    }, [widthToShrink, prevWidthToShrink, fitViewFunc]);
-
-    useEffect(() => {
-        if (prevDoFitView !== doFitView) {
-            // Like above, need a slight delay to make sure that nodes/edges
-            // get updated in React Flow internally when new nodes/edges are
-            // passed in.
-            setTimeout(fitViewFunc, 20);
-        }
-    }, [doFitView, fitViewFunc, prevDoFitView]);
-
-    useEffect(() => {
-        if (flowRendererSizer.current) {
-            flowRendererSizer.current.style.width = flowRendererWidth;
-        }
-
-        // Need a slight delay to make sure the width is updated before fitting the view
-        setTimeout(fitViewFunc, 20);
-    }, [flowRendererWidth, fitViewFunc]);
+    }, [doFitView, fitViewFunc, prevDoFitView, prevWidthToShrink, widthToShrink])
 
     // Filter and fill in render properties for nodes/edges before passing them to ReactFlow.
     const renderableNodes = useMemo(() => {
@@ -357,6 +340,7 @@ function ViewChart({
         }
         return undefined;
     }, [topLeftNode, bottomRightNode]);
+
     return (
         <div ref={flowRendererSizer} className="w-full h-full">
             <ReactFlow
