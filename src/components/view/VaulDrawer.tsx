@@ -10,8 +10,8 @@ const DESKTOP_SNAP_POINTS: number[] = [1];
 const DRAWER_CONTENT_CLASSES = 
     "z-50 rounded-t-xl fixed outline-none overflow-hidden bg-card text-card-foreground card-deco " + 
     "h-[80%] bottom-0 left-0 right-0 " + 
-    "md:w-[40%] md:h-[94%] md:bottom-[3%] md:top-[3%] md:left-auto md:right-14 md:rounded-xl" +
-    "";
+    "md:w-[40%] md:h-[94%] md:bottom-[3%] md:top-[3%] md:left-auto md:right-14 md:rounded-xl " +
+    "shadow-2xl";
 
 interface VaulDrawerProps {
     open: boolean;
@@ -100,7 +100,7 @@ export default function VaulDrawer({
 
                     <div className="flex flex-col h-full max-h-full">
                         <div className="flex-initial block md:hidden bg-foreground opacity-75 w-2/4 min-h-2 h-2 mx-auto my-4 rounded-full" />
-
+                        <div className="flex-initial md:block hidden w-2/4 min-h-2 h-2 mx-auto my-2" />
                         <div
                             className={cn(
                                 "flex-1 p-4 pt-0 max-h-full overflow-hidden pointer-events-none",
@@ -114,9 +114,9 @@ export default function VaulDrawer({
                         </div>
 
                         {!isMobile && (
-                            <div className="flex-[0_1_3rem] p-4">
-                            <Button className="bg-accent text-foreground h-12 w-full" onClick={() => onOpenChange(false)}>
-                                <span className="text-xl text-primary-foreground">Close</span>
+                            <div className="flex-[0_1_3rem] px-4 pb-4">
+                            <Button className="bg-accent text-foreground w-full" onClick={() => onOpenChange(false)}>
+                                <span className="text-lg text-primary-foreground">Close</span>
                             </Button>
                         </div>    
                         )}
