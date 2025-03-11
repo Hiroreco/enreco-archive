@@ -4,6 +4,7 @@ import { useCallback, useMemo, useState } from "react";
 import { Drawer } from "vaul";
 import { Button } from "../ui/button";
 import { useMounted } from "@/hooks/useMounted";
+import useScreenWidthChangeListener from "@/hooks/useScreenWidthChangeListener";
 
 const MOBILE_SNAP_POINTS: number[] = [0.5, 1];
 const DESKTOP_SNAP_POINTS: number[] = [1];
@@ -32,6 +33,8 @@ export default function VaulDrawer({
     disableScrollablity,
     children,
 }: VaulDrawerProps) {
+    useScreenWidthChangeListener();
+
     const [isScrollable, setIsScrollable] = useState(true);
     const isOnClient = useMounted();
 
@@ -64,6 +67,8 @@ export default function VaulDrawer({
     if (!isOnClient) {
         return null;
     }
+
+    console.log(isMobile);
 
     return (
         <Drawer.Root
