@@ -9,7 +9,7 @@ const MOBILE_SNAP_POINTS: number[] = [0.5, 1];
 const DESKTOP_SNAP_POINTS: number[] = [1];
 const DRAWER_CONTENT_CLASSES = 
     "z-50 rounded-t-xl fixed outline-none overflow-hidden bg-card text-card-foreground card-deco " + 
-    "h-[80%] bottom-0 left-0 right-0 " + 
+    "h-[90%] bottom-0 left-0 right-0 " + 
     "md:w-[40%] md:h-[94%] md:bottom-[3%] md:top-[3%] md:left-auto md:right-14 md:rounded-xl " +
     "shadow-2xl";
 
