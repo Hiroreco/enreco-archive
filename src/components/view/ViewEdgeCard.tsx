@@ -1,14 +1,22 @@
 import VaulDrawer from "@/components/view/VaulDrawer";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import { useReactFlow } from "@xyflow/react";
-import { getLighterOrDarkerColor, getViewportSize, idFromDayChapterId } from "@/lib/utils";
-import { EdgeLinkClickHandler, NodeLinkClickHandler, ViewMarkdown } from "./ViewMarkdown";
+import {
+    getLighterOrDarkerColor,
+    getViewportSize,
+    idFromDayChapterId,
+} from "@/lib/utils";
+import {
+    EdgeLinkClickHandler,
+    NodeLinkClickHandler,
+    ViewMarkdown,
+} from "./ViewMarkdown";
 import { useEffect, useRef } from "react";
 import LineSvg from "../LineSvg";
 import EdgeCardDeco from "./EdgeCardDeco";
-import { Separator } from "@radix-ui/react-separator";
 import ReadMarker from "./ReadMarker";
 import { Stack, StackItem } from "../ui/Stack";
+import { Separator } from "@/components/ui/separator";
 
 interface Props {
     isCardOpen: boolean;
@@ -67,14 +75,13 @@ const ViewEdgeCard = ({
         nodeA !== null &&
         nodeB !== null;
 
-    if(!renderContent) {
+    if (!renderContent) {
         return (
             <VaulDrawer
                 open={isCardOpen}
                 onOpenChange={onDrawerOpenChange}
                 disableScrollablity={false}
-            >
-            </VaulDrawer>
+            ></VaulDrawer>
         );
     }
 
@@ -120,20 +127,17 @@ const ViewEdgeCard = ({
                             {selectedEdge.data.title}
                         </span>
                     )}
-                    <Separator className="h-px w-full bg-border"/>
+                    <Separator className="h-px w-full bg-border" />
 
                     <div className="my-2">
                         <span className="font-semibold">Relationship:</span>{" "}
                         <span className="">{edgeRelationship.name}</span>
                     </div>
-                    <Separator className="h-px w-full bg-border"/>
+                    <Separator className="h-px w-full bg-border" />
                 </div>
 
                 {/* Content */}
-                <div
-                    ref={contentRef}
-                    className="flex-1 mt-2 overflow-x-hidden"
-                >
+                <div ref={contentRef} className="flex-1 mt-2 overflow-x-hidden">
                     {selectedEdge.data?.day !== undefined && (
                         <div className="text-2xl font-bold my-2 underline underline-offset-4">
                             Day {selectedEdge.data.day + 1}
