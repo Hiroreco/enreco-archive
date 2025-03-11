@@ -1,14 +1,18 @@
 import VaulDrawer from "@/components/view/VaulDrawer";
-import { EdgeLinkClickHandler, NodeLinkClickHandler, ViewMarkdown } from "@/components/view/ViewMarkdown";
+import {
+    EdgeLinkClickHandler,
+    NodeLinkClickHandler,
+    ViewMarkdown,
+} from "@/components/view/ViewMarkdown";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 
 import { getViewportSize, idFromDayChapterId } from "@/lib/utils";
 import { ImageNodeType, Team } from "@/lib/type";
 import Image from "next/image";
-import { Separator } from "@radix-ui/react-separator";
 import { Stack, StackItem } from "../ui/Stack";
 import { useEffect, useRef } from "react";
+import { Separator } from "@/components/ui/separator";
 
 interface Props {
     isCardOpen: boolean;
@@ -53,14 +57,13 @@ const ViewNodeCard = ({
     };
 
     const renderContent = selectedNode !== null && nodeTeam !== null;
-    if(!renderContent) {
+    if (!renderContent) {
         return (
             <VaulDrawer
                 open={isCardOpen}
                 onOpenChange={onDrawerOpenChange}
                 disableScrollablity={false}
-            >
-            </VaulDrawer>
+            ></VaulDrawer>
         );
     }
 
@@ -76,7 +79,9 @@ const ViewNodeCard = ({
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">
                         <StackItem>
-                            <NodeCardDeco color={selectedNode.data.bgCardColor} />
+                            <NodeCardDeco
+                                color={selectedNode.data.bgCardColor}
+                            />
                         </StackItem>
                         <StackItem>
                             {selectedNode?.data.imageSrc && (
