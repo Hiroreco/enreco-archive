@@ -68,8 +68,6 @@ export default function VaulDrawer({
         return null;
     }
 
-    console.log(isMobile);
-
     return (
         <Drawer.Root
             open={open}

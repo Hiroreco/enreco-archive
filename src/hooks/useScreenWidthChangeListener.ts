@@ -9,9 +9,7 @@ export default function useScreenWidthChangeListener() {
         }
 
         const screenWidthChangeListener = function() {
-            console.log("window.innerWidth: ", window.innerWidth);
             if(screenWidth !== window.innerWidth) {
-                console.log("screenWidth != window.innerWidth", screenWidth, window.innerWidth)
                 setScreenWidth(window.innerWidth);
             }
         }
