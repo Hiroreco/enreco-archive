@@ -10,9 +10,9 @@ import { cn } from "./lib/utils";
 import { useSettingStore } from "./store/settingStore";
 
 const data: SiteData = {
-    version: 1,
+    version: siteMeta.version,
     numberOfChapters: siteMeta.numChapters,
-    event: "Test Data V2",
+    event: "ENigmatic Recollection",
     chapters: [chapter0 as Chapter],
 };
 
