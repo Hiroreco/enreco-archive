@@ -15,7 +15,6 @@ import {
     useReactFlow,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import { isMobile } from "react-device-detect";
 
 import ViewCustomEdge from "@/components/view/ViewCustomEdge";
 import ImageNodeView from "@/components/view/ViewImageNode";
@@ -24,6 +23,7 @@ import { OLD_EDGE_OPACITY } from "@/lib/constants";
 import { useSettingStore } from "@/store/settingStore";
 import { CardType } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
+import { isMobileViewport } from "@/lib/utils";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
@@ -54,7 +54,7 @@ function findBottomRightNode(nodes: ImageNodeType[]) {
 }
 
 function getFlowRendererWidth(widthToShrink: number) {
-    return isMobile ? "100%" : `calc(100% - ${widthToShrink}px)`;
+    return isMobileViewport() ? "100%" : `calc(100% - ${widthToShrink}px)`;
 }
 
 const nodeTypes = {
@@ -66,7 +66,7 @@ const edgeTypes = {
 };
 
 // On mobile it's harder to zoom out, so we set a lower min zoom
-const minZoom = isMobile ? 0.3 : 0.5;
+const minZoom = isMobileViewport() ? 0.3 : 0.5;
 // To limit the area where the user can pan
 const areaOffset = 1000;
 
@@ -186,11 +186,17 @@ function ViewChart({
             actuallyDoFitView = true;
         }
 
-        if(actuallyDoFitView) {
+        if (actuallyDoFitView) {
             // Need a slight delay to make sure the width is updated before fitting the view
             setTimeout(fitViewFunc, 20);
         }
-    }, [doFitView, fitViewFunc, prevDoFitView, prevWidthToShrink, widthToShrink])
+    }, [
+        doFitView,
+        fitViewFunc,
+        prevDoFitView,
+        prevWidthToShrink,
+        widthToShrink,
+    ]);
 
     // Filter and fill in render properties for nodes/edges before passing them to ReactFlow.
     const renderableNodes = useMemo(() => {

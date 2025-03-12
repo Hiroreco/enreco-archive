@@ -3,8 +3,8 @@ import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import { useReactFlow } from "@xyflow/react";
 import {
     getLighterOrDarkerColor,
-    getViewportSize,
     idFromDayChapterId,
+    isMobileViewport,
 } from "@/lib/utils";
 import {
     EdgeLinkClickHandler,
@@ -56,7 +56,7 @@ const ViewEdgeCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen && getViewportSize().label === "lg") {
+        if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };

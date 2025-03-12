@@ -1,4 +1,4 @@
-import { cn, getViewportSize } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useMemo, useState } from "react";
 import { Drawer } from "vaul";
@@ -33,8 +33,7 @@ export default function VaulDrawer({
     disableScrollablity,
     children,
 }: VaulDrawerProps) {
-    useScreenWidthChangeListener();
-
+    const { screenWidth } = useScreenWidthChangeListener();
     const [isScrollable, setIsScrollable] = useState(true);
     const isOnClient = useMounted();
 
@@ -58,8 +57,7 @@ export default function VaulDrawer({
         }
     }, [onCloseAnimationEnd, onWidthChange]);
 
-    const viewportInfo = getViewportSize();
-    const isMobile = viewportInfo.width <= 768;
+    const isMobile = screenWidth <= 768;
 
     const drawerDir = useMemo(() => isMobile ? "bottom" : "right", [isMobile]);
 
@@ -106,10 +104,11 @@ export default function VaulDrawer({
                         <div className="flex-initial md:block hidden w-2/4 min-h-2 h-2 mx-auto my-2" />
                         <div
                             className={cn(
-                                "flex-1 p-4 pt-0 max-h-full overflow-hidden pointer-events-none",
+                                "flex-1 p-4 pt-0 max-h-full overflow-hidden",
                                 {
                                     "pointer-events-auto":
                                         isScrollable && !disableScrollablity,
+                                    "pointer-events-none": !isScrollable || disableScrollablity,
                                 },
                             )}
                         >

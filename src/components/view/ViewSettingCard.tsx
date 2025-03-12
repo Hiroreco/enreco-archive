@@ -3,7 +3,7 @@ import VaulDrawer from "@/components/view/VaulDrawer";
 import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
 import { Chapter, ChartData, StringToBooleanObjectMap } from "@/lib/type";
-import { getViewportSize } from "@/lib/utils";
+import { isMobileViewport } from "@/lib/utils";
 
 interface Props {
     isCardOpen: boolean;
@@ -49,7 +49,7 @@ const ViewSettingCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen && getViewportSize().label === "lg") {
+        if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
         }
     };
