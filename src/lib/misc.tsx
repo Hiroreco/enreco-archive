@@ -41,11 +41,11 @@ export const CONTRIBUTORS = [
         contributors: [
             {
                 name: "Quarases",
-                socials: "",
+                socials: null,
             },
             {
                 name: "A1on",
-                socials: "",
+                socials: null,
             },
             {
                 name: "keenbiscuit",
