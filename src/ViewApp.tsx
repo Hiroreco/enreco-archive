@@ -17,7 +17,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { cn, getViewportSize } from "@/lib/utils";
+import { cn, isMobileViewport } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -138,15 +138,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     /* Helper function to coordinate state updates when data changes. */
     function updateData(newChapter: number, newDay: number) {
-        if (
-            newChapter < 0 ||
-            newChapter > siteData.numberOfChapters ||
-            newDay < 0 ||
-            newDay > siteData.chapters[viewStore.chapter].numberOfDays
-        ) {
-            return;
-        }
-
         const newChapterData = siteData.chapters[newChapter];
         const newDayData = newChapterData.charts[newDay];
 
@@ -183,14 +174,28 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     function onBrowserHashChange(hash: string) {
         const parsedValues = parseChapterAndDayFromBrowserHash(hash);
 
+        // Verify values, if invalid, reset to 0/0
         if (parsedValues) {
             const [chapter, day] = parsedValues;
+            if (
+                chapter < 0 ||
+                chapter >= siteData.numberOfChapters ||
+                day < 0 ||
+                day >= siteData.chapters[viewStore.chapter].numberOfDays
+            ) {
+                setBrowserHash("0/0");
+                updateData(0, 0);
+                return;
+            }
             updateData(chapter, day);
+        } else {
+            setBrowserHash("0/0");
+            updateData(0, 0);
         }
     }
 
     // Update react flow renderer width when setting card is open, so the flow is not covered by the card
-    const onCurrentCardChange = useCallback(function (newCurrentCard: CardType) {
+    const onCurrentCardChange = useCallback((newCurrentCard: CardType) => {
         // Only reset the chart shrink when all cards are closed
         if (newCurrentCard === null) {
             viewStore.setSelectedNode(null);
@@ -213,14 +218,17 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         
         // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit 
         // is called.
-        if(viewStore.currentCard !== null || newCurrentCard === null || getViewportSize().width < 768) {
+        if(viewStore.currentCard !== null || newCurrentCard === null || !isMobileViewport()) {
             setDoFitView(!doFitView);
         }        
     }, [doFitView, viewStore]);
 
-    const onCardClose = useCallback(function () {
-        onCurrentCardChange(null);
-    }, [onCurrentCardChange]);
+    const onCardClose = useCallback(
+        function () {
+            onCurrentCardChange(null);
+        },
+        [onCurrentCardChange],
+    );
 
     // Then when the user closes the modal, open the day recap card
     // Only doing this for first visit
@@ -234,26 +242,32 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
 
-    const onNodeClick = useCallback(function (node: ImageNodeType) {
-        onCurrentCardChange("node");
-        viewStore.setSelectedNode(node);
-        viewStore.setSelectedEdge(null);
-    }, [onCurrentCardChange, viewStore]);
+    const onNodeClick = useCallback(
+        function (node: ImageNodeType) {
+            onCurrentCardChange("node");
+            viewStore.setSelectedNode(node);
+            viewStore.setSelectedEdge(null);
+        },
+        [onCurrentCardChange, viewStore],
+    );
 
-    const onEdgeClick = useCallback(function (edge: FixedEdgeType) {
-        onCurrentCardChange("edge");
-        viewStore.setSelectedEdge(edge);
-        viewStore.setSelectedNode(null);
-    }, [onCurrentCardChange, viewStore]);
+    const onEdgeClick = useCallback(
+        function (edge: FixedEdgeType) {
+            onCurrentCardChange("edge");
+            viewStore.setSelectedEdge(edge);
+            viewStore.setSelectedNode(null);
+        },
+        [onCurrentCardChange, viewStore],
+    );
 
-    const onPaneClick = useCallback(function () {
-        if (document.activeElement instanceof HTMLElement) {
-            document.activeElement.blur();
-        }
-        onCurrentCardChange(null);
-        viewStore.setSelectedNode(null);
-        viewStore.setSelectedEdge(null);
-    }, [onCurrentCardChange, viewStore]);
+    const onPaneClick = useCallback(
+        function () {
+            onCurrentCardChange(null);
+            viewStore.setSelectedNode(null);
+            viewStore.setSelectedEdge(null);
+        },
+        [onCurrentCardChange, viewStore],
+    );
 
     const setChartShrinkAndFit = useCallback(function (width: number) {
         setTimeout(() => {
@@ -265,15 +279,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     /* Init block, runs only on first render/load. */
     if (!didInit) {
         didInit = true;
-
-        const initialChapterDay =
-            parseChapterAndDayFromBrowserHash(browserHash);
-        if (initialChapterDay) {
-            const [chapter, day] = initialChapterDay;
-            updateData(chapter, day);
-        } else {
-            updateData(0, 0);
-        }
+        onBrowserHashChange(browserHash);
     }
 
     const selectedNodeTeam =

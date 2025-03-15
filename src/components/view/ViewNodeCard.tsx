@@ -7,7 +7,7 @@ import {
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 
-import { getViewportSize, idFromDayChapterId } from "@/lib/utils";
+import { idFromDayChapterId, isMobileViewport } from "@/lib/utils";
 import { ImageNodeType, Team } from "@/lib/type";
 import Image from "next/image";
 import { Stack, StackItem } from "../ui/Stack";
@@ -51,7 +51,7 @@ const ViewNodeCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen && getViewportSize().label === "lg") {
+        if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };
