@@ -1,12 +1,16 @@
+import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
     Dialog,
+    DialogClose,
     DialogContent,
+    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
+import { Separator } from "@/components/ui/separator";
 import { ChartData, FixedEdgeType, ImageNodeType } from "@/lib/type";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -103,7 +107,7 @@ const ViewReadCounter = ({
                 {readCount}/{totalCount} Read
             </DialogTrigger>
 
-            <DialogContent className="max-h-[70vh] h-[70vh] lg:max-w-[70vw] lg:w-[70vw] overflow-y-auto">
+            <DialogContent className="max-h-[75vh] h-[75vh] lg:max-w-[70vw] lg:w-[70vw] flex flex-col">
                 <DialogHeader>
                     <DialogTitle>
                         <div className="flex justify-between">
@@ -134,120 +138,136 @@ const ViewReadCounter = ({
                     </DialogTitle>
                 </DialogHeader>
 
-                {/* Nodes */}
-                {filteredElements.nodes.length > 0 && (
-                    <div className="space-y-2">
-                        <h3 className="font-semibold">Characters</h3>
-                        <div className="grid lg:grid-cols-2 gap-4">
-                            {filteredElements.nodes.map((node) => (
-                                <div
-                                    key={node.id}
-                                    className={cn(
-                                        "transition-all flex items-center gap-4 p-1 rounded-md border cursor-pointer",
-                                        {
-                                            "bg-accent/20": node.data.isRead,
-                                            "bg-muted hover:bg-accent hover:text-accent-foreground":
-                                                !node.data.isRead,
-                                        },
-                                    )}
-                                    onClick={() =>
-                                        handleNodeClick(node as ImageNodeType)
-                                    }
-                                >
-                                    <div className="relative h-10 w-10 shrink-0">
-                                        <Image
-                                            src={node.data.imageSrc}
-                                            alt={node.data.title}
-                                            fill
-                                            className="object-cover rounded-md"
-                                        />
-                                    </div>
-                                    <span className="font-medium">
-                                        {node.data.title}
-                                    </span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
-
-                {/* Edges */}
-                {filteredElements.edges.length > 0 && (
-                    <div className="space-y-2 mt-4">
-                        <h3 className="font-semibold">Relationships</h3>
-                        <div className="grid lg:grid-cols-2 gap-4">
-                            {filteredElements.edges.map((edge) => (
-                                <div
-                                    key={edge.id}
-                                    className={cn(
-                                        "transition-all flex items-center gap-4 p-1 rounded-md border cursor-pointer",
-                                        {
-                                            "bg-accent/20": edge.data?.isRead,
-                                            "bg-muted hover:bg-accent hover:text-accent-foreground":
-                                                !edge.data?.isRead,
-                                        },
-                                    )}
-                                    onClick={() =>
-                                        handleEdgeClick(edge as FixedEdgeType)
-                                    }
-                                >
-                                    <div className="flex gap-1">
+                <div className="flex-1 overflow-y-auto w-full">
+                    {/* Nodes */}
+                    {filteredElements.nodes.length > 0 && (
+                        <div className="space-y-2">
+                            <h3 className="font-semibold">Characters</h3>
+                            <div className="grid lg:grid-cols-2 gap-4">
+                                {filteredElements.nodes.map((node) => (
+                                    <div
+                                        key={node.id}
+                                        className={cn(
+                                            "transition-all flex items-center gap-4 p-1 rounded-md border cursor-pointer",
+                                            {
+                                                "bg-accent/20":
+                                                    node.data.isRead,
+                                                "bg-muted hover:bg-accent hover:text-accent-foreground":
+                                                    !node.data.isRead,
+                                            },
+                                        )}
+                                        onClick={() =>
+                                            handleNodeClick(
+                                                node as ImageNodeType,
+                                            )
+                                        }
+                                    >
                                         <div className="relative h-10 w-10 shrink-0">
                                             <Image
-                                                src={
-                                                    chartData.nodes.find(
-                                                        (node) =>
-                                                            node.id ===
-                                                            edge.source,
-                                                    )?.data.imageSrc || ""
-                                                }
-                                                alt={
-                                                    chartData.nodes.find(
-                                                        (node) =>
-                                                            node.id ===
-                                                            edge.source,
-                                                    )?.data.title || ""
-                                                }
+                                                src={node.data.imageSrc}
+                                                alt={node.data.title}
                                                 fill
                                                 className="object-cover rounded-md"
                                             />
                                         </div>
-                                        <div className="relative h-10 w-10 shrink-0">
-                                            <Image
-                                                src={
-                                                    chartData.nodes.find(
-                                                        (node) =>
-                                                            node.id ===
-                                                            edge.target,
-                                                    )?.data.imageSrc || ""
-                                                }
-                                                alt={
-                                                    chartData.nodes.find(
-                                                        (node) =>
-                                                            node.id ===
-                                                            edge.target,
-                                                    )?.data.title || ""
-                                                }
-                                                fill
-                                                className="object-cover rounded-md"
-                                            />
-                                        </div>
+                                        <span className="font-medium">
+                                            {node.data.title}
+                                        </span>
                                     </div>
-                                    <span className="font-medium">
-                                        {edge.data?.title}
-                                    </span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
-
-                {filteredElements.nodes.length === 0 &&
-                    filteredElements.edges.length === 0 && (
-                        <div className="text-center text-muted-foreground py-8">
-                            No cards to show with current filters
+                                ))}
+                            </div>
                         </div>
                     )}
+
+                    {/* Edges */}
+                    {filteredElements.edges.length > 0 && (
+                        <div className="space-y-2 mt-4">
+                            <h3 className="font-semibold">Relationships</h3>
+                            <div className="grid lg:grid-cols-2 gap-4">
+                                {filteredElements.edges.map((edge) => (
+                                    <div
+                                        key={edge.id}
+                                        className={cn(
+                                            "transition-all flex items-center gap-4 p-1 rounded-md border cursor-pointer",
+                                            {
+                                                "bg-accent/20":
+                                                    edge.data?.isRead,
+                                                "bg-muted hover:bg-accent hover:text-accent-foreground":
+                                                    !edge.data?.isRead,
+                                            },
+                                        )}
+                                        onClick={() =>
+                                            handleEdgeClick(
+                                                edge as FixedEdgeType,
+                                            )
+                                        }
+                                    >
+                                        <div className="flex gap-1">
+                                            <div className="relative h-10 w-10 shrink-0">
+                                                <Image
+                                                    src={
+                                                        chartData.nodes.find(
+                                                            (node) =>
+                                                                node.id ===
+                                                                edge.source,
+                                                        )?.data.imageSrc || ""
+                                                    }
+                                                    alt={
+                                                        chartData.nodes.find(
+                                                            (node) =>
+                                                                node.id ===
+                                                                edge.source,
+                                                        )?.data.title || ""
+                                                    }
+                                                    fill
+                                                    className="object-cover rounded-md"
+                                                />
+                                            </div>
+                                            <div className="relative h-10 w-10 shrink-0">
+                                                <Image
+                                                    src={
+                                                        chartData.nodes.find(
+                                                            (node) =>
+                                                                node.id ===
+                                                                edge.target,
+                                                        )?.data.imageSrc || ""
+                                                    }
+                                                    alt={
+                                                        chartData.nodes.find(
+                                                            (node) =>
+                                                                node.id ===
+                                                                edge.target,
+                                                        )?.data.title || ""
+                                                    }
+                                                    fill
+                                                    className="object-cover rounded-md"
+                                                />
+                                            </div>
+                                        </div>
+                                        <span className="font-medium">
+                                            {edge.data?.title}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {filteredElements.nodes.length === 0 &&
+                        filteredElements.edges.length === 0 && (
+                            <div className="text-center text-muted-foreground py-8">
+                                No cards to show with current filters
+                            </div>
+                        )}
+                </div>
+
+                <Separator />
+
+                <DialogFooter>
+                    <DialogClose asChild>
+                        <Button className="self-end">Close</Button>
+                    </DialogClose>
+                </DialogFooter>
             </DialogContent>
         </Dialog>
     );
