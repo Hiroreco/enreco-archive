@@ -157,6 +157,10 @@ const ViewInfoGeneral = () => {
                 Cover Corp nor Mojang. The site uses music taken from the
                 talents' streams, as well as sound effects and assets from
                 Minecraft, following{" "}
+                <a href="https://hololivepro.com/en/terms/" target="_blank">
+                    COVER's Derivative Works Guidelines
+                </a>{" "}
+                and{" "}
                 <a
                     href="https://www.minecraft.net/en-us/usage-guidelines"
                     target="_blank"
