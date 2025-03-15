@@ -63,8 +63,8 @@ const ViewSettingCard = ({
         >
             <Tabs defaultValue="general" className="flex flex-col h-full">
                 <TabsList className="flex-none grid w-full grid-cols-2">
-                    <TabsTrigger value="general">General</TabsTrigger>
-                    <TabsTrigger value="visibility">Edge</TabsTrigger>
+                    <TabsTrigger value="general">Summary</TabsTrigger>
+                    <TabsTrigger value="visibility">Visibility</TabsTrigger>
                 </TabsList>
                 <TabsContent value="general" className="flex-1" asChild>
                     <ViewRecapCard

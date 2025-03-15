@@ -162,10 +162,10 @@ export default function VaulDrawer({
             fadeFromIndex={0}
         >
             <Drawer.Portal>
+                {/* Calling this conditionally because it causes crash in dev mode when you resize the viewport for some reason */}
                 {isMobile && (
                     <Drawer.Overlay className="fixed inset-0 bg-black/40" />
                 )}
-                {/* <Drawer.Overlay className="fixed inset-0 bg-black/40" /> */}
 
                 <Drawer.Content
                     className={DRAWER_CONTENT_CLASSES}
@@ -192,7 +192,9 @@ export default function VaulDrawer({
                                     "pointer-events-auto":
                                         isScrollable && !disableScrollablity,
                                     "pointer-events-none":
-                                        !isScrollable || disableScrollablity,
+                                        (!isScrollable ||
+                                            disableScrollablity) &&
+                                        isMobile,
                                 },
                             )}
                         >

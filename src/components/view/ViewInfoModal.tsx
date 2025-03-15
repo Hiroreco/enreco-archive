@@ -14,6 +14,7 @@ import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
 import { useSettingStore } from "@/store/settingStore";
 import { Moon, Sun, SunMoon } from "lucide-react";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
+import ViewInfoCredits from "@/components/view/ViewInfoCredits";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -35,9 +36,10 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                     defaultValue="general"
                     className="h-[80%] flex-1 flex flex-col"
                 >
-                    <TabsList className="flex-none w-full grid grid-cols-2">
+                    <TabsList className="flex-none w-full grid grid-cols-3">
                         <TabsTrigger value="general">General</TabsTrigger>
                         <TabsTrigger value="guide">Guide</TabsTrigger>
+                        <TabsTrigger value="credits">Credits</TabsTrigger>
                     </TabsList>
                     <TabsContent
                         value="general"
@@ -50,6 +52,12 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                         className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
                     >
                         <ViewInfoGuide />
+                    </TabsContent>
+                    <TabsContent
+                        value="credits"
+                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
+                    >
+                        <ViewInfoCredits />
                     </TabsContent>
                 </Tabs>
                 <DialogFooter className="flex items-center flex-row justify-between sm:justify-between w-full">

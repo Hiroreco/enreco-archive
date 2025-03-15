@@ -24,8 +24,7 @@ const ViewInfoGuide = () => {
                     stemotology and sunkissedrhodo
                 </a>
                 , but with an added interactive element. However, note that the
-                charts here differ from the originals—they are designed to be
-                concise and focus only on major relationships.
+                charts here differ from the originals.
             </div>
 
             <div className="flex items-center gap-2">
@@ -40,13 +39,12 @@ const ViewInfoGuide = () => {
                 at the bottom of the screen, and the chart will update
                 accordingly.
             </div>
+
             <div>
                 Clicking on a character or relationship will bring up a card
                 containing information about them on that specific day. If a
-                node or edge is dimmed, it means that character or relationship
-                did not have any updates on that day. A relationship is formed
-                if the two characters had a meaningful interaction that affects
-                their overall dynamic as well as their story.
+                node or edge is dimmed, it means there were no updates on that
+                day.
             </div>
 
             <div>
@@ -91,8 +89,8 @@ const ViewInfoGuide = () => {
             <div>
                 To help you keep track of your progress, there are read markers
                 at the end of each card. To have an overall view of which cards
-                you have read, click the counter at the top left corner to open
-                the <em>Read Status</em> tab.
+                you have read, click the counter at the top to open the{" "}
+                <em>Read Status</em> tab.
             </div>
 
             <div className="flex items-center gap-2">
@@ -120,9 +118,6 @@ const ViewInfoGuide = () => {
 
             <div>
                 However, feel free to explore the cards in any order you like.
-                It's also encouraged to read from multiple POVs to catch details
-                you might have missed and gain a deeper understanding of the
-                relationships.
             </div>
 
             <div className="flex items-center gap-2">
