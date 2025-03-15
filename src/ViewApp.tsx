@@ -449,7 +449,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
+            <div className="fixed top-0 right-0 m-2 z-50 flex flex-col gap-2">
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-none border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110"
@@ -505,7 +505,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <div
-                className={cn("fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
+                className={cn("z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
                     "w-[60%] lg:block hidden":
                         viewStore.currentCard === "setting",
                     "w-full md:w-4/5 2xl:w-2/5 mx-auto":
