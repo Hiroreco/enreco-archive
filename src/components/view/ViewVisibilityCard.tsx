@@ -39,9 +39,7 @@ const ViewVisibilityCard = ({
     }, [nodes]);
 
     return (
-        <div
-            className="flex flex-col gap-4 p-4 h-full overflow-y-scroll"
-        >
+        <div className="flex flex-col gap-4 p-4 h-full overflow-y-scroll">
             <span className="font-bold text-xl">Visibility Toggles</span>
             <div className="grid md:grid-cols-2 gap-4">
                 {/* Edges */}

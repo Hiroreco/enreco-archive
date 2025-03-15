@@ -65,35 +65,37 @@ function ViewMarkdownInternal({
         return false;
     }, []);
 
-    const nodeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback((
-        event: MouseEvent<HTMLAnchorElement>,
-    ) => {
-        event.preventDefault();
+    const nodeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback(
+        (event: MouseEvent<HTMLAnchorElement>) => {
+            event.preventDefault();
 
-        const nodeId =
-            (event.target as Element).getAttribute("data-node-id") || "";
-        const targetNode: ImageNodeType | undefined = getNode(nodeId);
-        if (!targetNode) {
-            return;
-        }
+            const nodeId =
+                (event.target as Element).getAttribute("data-node-id") || "";
+            const targetNode: ImageNodeType | undefined = getNode(nodeId);
+            if (!targetNode) {
+                return;
+            }
 
-        onNodeLinkClicked(targetNode);
-    }, [getNode, onNodeLinkClicked]);
+            onNodeLinkClicked(targetNode);
+        },
+        [getNode, onNodeLinkClicked],
+    );
 
-    const edgeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback((
-        event: MouseEvent<HTMLAnchorElement>,
-    ) => {
-        event.preventDefault();
+    const edgeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback(
+        (event: MouseEvent<HTMLAnchorElement>) => {
+            event.preventDefault();
 
-        const edgeId =
-            (event.target as Element).getAttribute("data-edge-id") || "";
-        const targetEdge: FixedEdgeType | undefined = getEdge(edgeId);
-        if (!targetEdge) {
-            return;
-        }
+            const edgeId =
+                (event.target as Element).getAttribute("data-edge-id") || "";
+            const targetEdge: FixedEdgeType | undefined = getEdge(edgeId);
+            if (!targetEdge) {
+                return;
+            }
 
-        onEdgeLinkClicked(targetEdge);
-    }, [getEdge, onEdgeLinkClicked]);
+            onEdgeLinkClicked(targetEdge);
+        },
+        [getEdge, onEdgeLinkClicked],
+    );
 
     const processTeamIcons = useCallback((node: ReactNode): ReactNode => {
         const teamIcons: { [key: string]: string } = {
@@ -147,134 +149,144 @@ function ViewMarkdownInternal({
         return node;
     }, []);
 
-    const markdownComponentMap = useMemo((): Components => ({
-        // <br> styles not working for some reason, will use a div instead
-        br: () => <div className="block my-6" />,
-        p: ({ children }) => {
-            const processedChildren = Children.map(
-                children,
-                processTeamIcons,
-            );
-            return <>{processedChildren}</>;
-        },
-        li: ({ children }) => {
-            const processedChildren = Children.map(
-                children,
-                processTeamIcons,
-            );
-            return <li>{processedChildren}</li>;
-        },
-        a(props) {
-            const { href, ...rest } = props;
-
-            // Empty href is an easy to retain the correct cursor.
-            if (href && href.startsWith("#node:")) {
-                const nodeId = href.replace("#node:", "");
-
-                // Make the link's color the same as the node's
-                // Not sure about this one, might remove.
-                const node = getNode(nodeId);
-                const style = node?.style;
-                let nodeColor = "#831843";
-                if (style && style.stroke) {
-                    nodeColor = getLighterOrDarkerColor(
-                        style.stroke,
-                        isDarkMode ? 30 : -30,
-                    );
-                }
-                return (
-                    <a
-                        className="font-semibold underline underline-offset-2"
-                        style={{ color: nodeColor }}
-                        href=""
-                        data-node-id={nodeId}
-                        onClick={nodeLinkHandler}
-                        {...rest}
-                    />
+    const markdownComponentMap = useMemo(
+        (): Components => ({
+            // <br> styles not working for some reason, will use a div instead
+            br: () => <div className="block my-6" />,
+            p: ({ children }) => {
+                const processedChildren = Children.map(
+                    children,
+                    processTeamIcons,
                 );
-            } else if (href && href.startsWith("#edge:")) {
-                const edgeId = href.replace("#edge:", "");
-
-                // Make the link's color the same as the edge's
-                // Not sure about this one either, might remove.
-                const edge = getEdge(edgeId);
-                const style = edge?.style;
-                let edgeColor = "#831843";
-                if (style && style.stroke) {
-                    edgeColor = getLighterOrDarkerColor(
-                        style.stroke,
-                        isDarkMode ? 30 : -30,
-                    );
-                }
-                return (
-                    <a
-                        className="font-semibold underline underline-offset-2"
-                        style={{ color: edgeColor }}
-                        href=""
-                        data-edge-id={edgeId}
-                        onClick={edgeLinkHandler}
-                        {...rest}
-                    />
+                return <>{processedChildren}</>;
+            },
+            li: ({ children }) => {
+                const processedChildren = Children.map(
+                    children,
+                    processTeamIcons,
                 );
-            } else if (href && href.startsWith("#embed")) {
-                let url = href.replace("#embed:", "");
-                url = urlToLiveUrl(url);
+                return <li>{processedChildren}</li>;
+            },
+            a(props) {
+                const { href, ...rest } = props;
 
-                const caption = rest.children as string;
+                // Empty href is an easy to retain the correct cursor.
+                if (href && href.startsWith("#node:")) {
+                    const nodeId = href.replace("#node:", "");
 
-                return (
-                    <TimestampHref
-                        href={url}
-                        caption={caption}
-                        {...rest}
-                        type={"embed"}
-                    />
-                );
-            } else if (href && href.startsWith("#out")) {
-                const url = href.replace("#out:", "");
-                return (
-                    <a
-                        href={url}
-                        target="_blank"
-                        {...rest}
-                        className="font-semibold text-[#6f6ac6]"
-                    />
-                );
-            } else if (href && href.startsWith("#image")) {
-                const imageUrl = href.replace("#image:", "");
-                const caption = rest.children as string;
-                return (
-                    <figure>
-                        <Image
-                            src={imageUrl}
-                            alt={rest.children as string}
-                            width={1600}
-                            height={900}
-                            placeholder="blur"
-                            blurDataURL={getBlurDataURL(imageUrl)}
+                    // Make the link's color the same as the node's
+                    // Not sure about this one, might remove.
+                    const node = getNode(nodeId);
+                    const style = node?.style;
+                    let nodeColor = "#831843";
+                    if (style && style.stroke) {
+                        nodeColor = getLighterOrDarkerColor(
+                            style.stroke,
+                            isDarkMode ? 30 : -30,
+                        );
+                    }
+                    return (
+                        <a
+                            className="font-semibold underline underline-offset-2"
+                            style={{ color: nodeColor }}
+                            href=""
+                            data-node-id={nodeId}
+                            onClick={nodeLinkHandler}
+                            {...rest}
                         />
-                        <figcaption className="text-sm opacity-80 italic mt-2">
-                            {caption}
-                        </figcaption>
-                    </figure>
-                );
-            } else if (href && href.startsWith("#easter")) {
-                const egg = href.replace("#easter:", "");
-                return EASTER_EGGS[egg];
-            } else {
-                return (
-                    <TimestampHref
-                        href={urlToLiveUrl(href!) || ""}
-                        caption={rest.children as string}
-                        {...rest}
-                        type="general"
-                    />
-                );
-            }
-        },
-    }), [edgeLinkHandler, getEdge, getNode, isDarkMode, nodeLinkHandler, processTeamIcons]);
+                    );
+                } else if (href && href.startsWith("#edge:")) {
+                    const edgeId = href.replace("#edge:", "");
 
-    const rehypePlugins = useMemo(() => ([rehypeRaw, remarkGfm]), []);
+                    // Make the link's color the same as the edge's
+                    // Not sure about this one either, might remove.
+                    const edge = getEdge(edgeId);
+                    const style = edge?.style;
+                    let edgeColor = "#831843";
+                    if (style && style.stroke) {
+                        edgeColor = getLighterOrDarkerColor(
+                            style.stroke,
+                            isDarkMode ? 30 : -30,
+                        );
+                    }
+                    return (
+                        <a
+                            className="font-semibold underline underline-offset-2"
+                            style={{ color: edgeColor }}
+                            href=""
+                            data-edge-id={edgeId}
+                            onClick={edgeLinkHandler}
+                            {...rest}
+                        />
+                    );
+                } else if (href && href.startsWith("#embed")) {
+                    let url = href.replace("#embed:", "");
+                    url = urlToLiveUrl(url);
+
+                    const caption = rest.children as string;
+
+                    return (
+                        <TimestampHref
+                            href={url}
+                            caption={caption}
+                            {...rest}
+                            type={"embed"}
+                        />
+                    );
+                } else if (href && href.startsWith("#out")) {
+                    const url = href.replace("#out:", "");
+                    return (
+                        <a
+                            href={url}
+                            target="_blank"
+                            {...rest}
+                            className="font-semibold text-[#6f6ac6]"
+                        />
+                    );
+                } else if (href && href.startsWith("#image")) {
+                    const imageUrl = href.replace("#image:", "");
+                    const caption = rest.children as string;
+                    return (
+                        <figure>
+                            <Image
+                                src={imageUrl}
+                                alt={rest.children as string}
+                                width={1600}
+                                height={900}
+                                placeholder="blur"
+                                blurDataURL={getBlurDataURL(imageUrl)}
+                            />
+                            <figcaption className="text-sm opacity-80 italic mt-2">
+                                {caption}
+                            </figcaption>
+                        </figure>
+                    );
+                } else if (href && href.startsWith("#easter")) {
+                    const egg = href.replace("#easter:", "");
+                    return EASTER_EGGS[egg];
+                } else {
+                    return (
+                        <TimestampHref
+                            href={urlToLiveUrl(href!) || ""}
+                            caption={rest.children as string}
+                            {...rest}
+                            type="general"
+                        />
+                    );
+                }
+            },
+        }),
+        [
+            edgeLinkHandler,
+            getEdge,
+            getNode,
+            isDarkMode,
+            nodeLinkHandler,
+            processTeamIcons,
+        ],
+    );
+
+    const rehypePlugins = useMemo(() => [rehypeRaw, remarkGfm], []);
 
     return (
         <Markdown

@@ -195,33 +195,40 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }
 
     // Update react flow renderer width when setting card is open, so the flow is not covered by the card
-    const onCurrentCardChange = useCallback((newCurrentCard: CardType) => {
-        // Only reset the chart shrink when all cards are closed
-        if (newCurrentCard === null) {
-            viewStore.setSelectedNode(null);
-            viewStore.setSelectedEdge(null);
-            setChartShrink(0);
-        }
-        if (newCurrentCard === "setting" || newCurrentCard === null) {
-            viewStore.setSelectedNode(null);
-            viewStore.setSelectedEdge(null);
-            setFitViewOperation("fit-to-all");
-        } else if (newCurrentCard === "node") {
-            viewStore.setSelectedEdge(null);
-            setFitViewOperation("fit-to-node");
-        } else if (newCurrentCard === "edge") {
-            viewStore.setSelectedNode(null);
-            setFitViewOperation("fit-to-edge");
-        }
-        setPreviousCard(viewStore.currentCard);
-        viewStore.setCurrentCard(newCurrentCard);
-        
-        // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit 
-        // is called.
-        if(viewStore.currentCard !== null || newCurrentCard === null || !isMobileViewport()) {
-            setDoFitView(!doFitView);
-        }        
-    }, [doFitView, viewStore]);
+    const onCurrentCardChange = useCallback(
+        (newCurrentCard: CardType) => {
+            // Only reset the chart shrink when all cards are closed
+            if (newCurrentCard === null) {
+                viewStore.setSelectedNode(null);
+                viewStore.setSelectedEdge(null);
+                setChartShrink(0);
+            }
+            if (newCurrentCard === "setting" || newCurrentCard === null) {
+                viewStore.setSelectedNode(null);
+                viewStore.setSelectedEdge(null);
+                setFitViewOperation("fit-to-all");
+            } else if (newCurrentCard === "node") {
+                viewStore.setSelectedEdge(null);
+                setFitViewOperation("fit-to-node");
+            } else if (newCurrentCard === "edge") {
+                viewStore.setSelectedNode(null);
+                setFitViewOperation("fit-to-edge");
+            }
+            setPreviousCard(viewStore.currentCard);
+            viewStore.setCurrentCard(newCurrentCard);
+
+            // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit
+            // is called.
+            if (
+                viewStore.currentCard !== null ||
+                newCurrentCard === null ||
+                !isMobileViewport()
+            ) {
+                setDoFitView(!doFitView);
+            }
+        },
+        [doFitView, viewStore],
+    );
 
     const onCardClose = useCallback(
         function () {
@@ -269,12 +276,15 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         [onCurrentCardChange, viewStore],
     );
 
-    const setChartShrinkAndFit = useCallback(function (width: number) {
-        setTimeout(() => {
-            setChartShrink(width); 
-            setDoFitView(!doFitView); 
-        }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
-    }, [doFitView]);
+    const setChartShrinkAndFit = useCallback(
+        function (width: number) {
+            setTimeout(() => {
+                setChartShrink(width);
+                setDoFitView(!doFitView);
+            }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
+        },
+        [doFitView],
+    );
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {

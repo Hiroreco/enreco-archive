@@ -63,7 +63,7 @@ export default function EditorNodeCard({
     deleteNode,
     onCardClose,
     numberOfDays,
-    isDarkMode
+    isDarkMode,
 }: EditorNodeCardProps) {
     const [autoGenIdFromTitle, setAutoGenIdFromTitle] = useState(true);
     const [workingNode, setWorkingNode] = useState(selectedNode);
@@ -371,7 +371,10 @@ export default function EditorNodeCard({
                 >
                     Node Day Content
                 </Label>
-                <div className="col-span-2" data-color-mode={isDarkMode ? "dark" : "light"}>
+                <div
+                    className="col-span-2"
+                    data-color-mode={isDarkMode ? "dark" : "light"}
+                >
                     <MDEditor
                         id="node-content"
                         textareaProps={{ name: "content" }}

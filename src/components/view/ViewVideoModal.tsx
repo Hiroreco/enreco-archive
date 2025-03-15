@@ -15,7 +15,7 @@ const ViewVideoModal = ({
     open,
     onOpenChange,
     videoUrl,
-    useDarkMode
+    useDarkMode,
 }: ViewVideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const audioStore = useAudioStore();
@@ -27,7 +27,7 @@ const ViewVideoModal = ({
     };
 
     let bgImage = "images-opt/bg.webp";
-    if(useDarkMode) {
+    if (useDarkMode) {
         bgImage = "images-opt/bg-dark.webp";
     }
 

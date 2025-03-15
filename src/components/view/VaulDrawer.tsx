@@ -9,9 +9,9 @@ import { debounce } from "lodash";
 
 const MOBILE_SNAP_POINTS: number[] = [0.5, 1];
 const DESKTOP_SNAP_POINTS: number[] = [1];
-const DRAWER_CONTENT_CLASSES = 
-    "z-50 rounded-t-xl fixed outline-none overflow-hidden bg-card text-card-foreground card-deco " + 
-    "h-[90%] bottom-0 left-0 right-0 " + 
+const DRAWER_CONTENT_CLASSES =
+    "z-50 rounded-t-xl fixed outline-none overflow-hidden bg-card text-card-foreground card-deco " +
+    "h-[90%] bottom-0 left-0 right-0 " +
     "md:w-[40%] md:h-[94%] md:bottom-[3%] md:top-[3%] md:left-auto md:right-14 md:rounded-xl " +
     "shadow-2xl";
 
@@ -43,53 +43,85 @@ export default function VaulDrawer({
     const contentDivWidth = useRef<number>(0);
     const isOnClient = useMounted();
 
-    const debouncedOnCloseAnimationEnd = debounce(() => onCloseAnimationEnd?.(), 300);
-    const debouncedOnOpenAnimationEnd = debounce(() => onOpenAnimationEnd?.(), 300);
+    const debouncedOnCloseAnimationEnd = debounce(
+        () => onCloseAnimationEnd?.(),
+        300,
+    );
+    const debouncedOnOpenAnimationEnd = debounce(
+        () => onOpenAnimationEnd?.(),
+        300,
+    );
 
-    const reportContentWidth = useCallback((contentNode: HTMLDivElement) => {
-        if(!contentNode) {
-            return;
-        }
-
-        //Round off decimal portion.
-        const newContentDivWidth = Math.round(contentNode.getBoundingClientRect().width);
-        if(contentDivWidth.current !== newContentDivWidth) {
-            onWidthChange?.(newContentDivWidth);
-            contentDivWidth.current = newContentDivWidth;
-        }
-        
-        const animEndListener = (event: AnimationEvent) => {
-            if(event.animationName === "slideToRight" || event.animationName === "slideToBottom") {
-                debouncedOnCloseAnimationEnd();
-                contentDivWidth.current = 0;
+    const reportContentWidth = useCallback(
+        (contentNode: HTMLDivElement) => {
+            if (!contentNode) {
+                return;
             }
-            else if(event.animationName === "slideFromRight" || event.animationName === "slideFromBottom") {
-                debouncedOnOpenAnimationEnd();
-            }
-        };
 
-        const transitionEndListener = (event: TransitionEvent) => {
-            if(event.propertyName === "transform" && 
-                event.target === contentNode && 
-                contentNode.dataset.state === "open") {
-                debouncedOnOpenAnimationEnd();
+            //Round off decimal portion.
+            const newContentDivWidth = Math.round(
+                contentNode.getBoundingClientRect().width,
+            );
+            if (contentDivWidth.current !== newContentDivWidth) {
+                onWidthChange?.(newContentDivWidth);
+                contentDivWidth.current = newContentDivWidth;
             }
-            else if(event.propertyName === "transform" && 
-                event.target === contentNode && 
-                contentNode.dataset.state === "closed") {
-                debouncedOnCloseAnimationEnd();
-                contentDivWidth.current = 0;
-            }
-        }
 
-        contentNode.addEventListener("animationend", animEndListener);
-        contentNode.addEventListener("transitionend", transitionEndListener);
+            const animEndListener = (event: AnimationEvent) => {
+                if (
+                    event.animationName === "slideToRight" ||
+                    event.animationName === "slideToBottom"
+                ) {
+                    debouncedOnCloseAnimationEnd();
+                    contentDivWidth.current = 0;
+                } else if (
+                    event.animationName === "slideFromRight" ||
+                    event.animationName === "slideFromBottom"
+                ) {
+                    debouncedOnOpenAnimationEnd();
+                }
+            };
 
-        return () => {
-            contentNode.removeEventListener("animationend", animEndListener);
-            contentNode.removeEventListener("transitionend", transitionEndListener);
-        }
-    }, [debouncedOnCloseAnimationEnd, debouncedOnOpenAnimationEnd, onWidthChange]);
+            const transitionEndListener = (event: TransitionEvent) => {
+                if (
+                    event.propertyName === "transform" &&
+                    event.target === contentNode &&
+                    contentNode.dataset.state === "open"
+                ) {
+                    debouncedOnOpenAnimationEnd();
+                } else if (
+                    event.propertyName === "transform" &&
+                    event.target === contentNode &&
+                    contentNode.dataset.state === "closed"
+                ) {
+                    debouncedOnCloseAnimationEnd();
+                    contentDivWidth.current = 0;
+                }
+            };
+
+            contentNode.addEventListener("animationend", animEndListener);
+            contentNode.addEventListener(
+                "transitionend",
+                transitionEndListener,
+            );
+
+            return () => {
+                contentNode.removeEventListener(
+                    "animationend",
+                    animEndListener,
+                );
+                contentNode.removeEventListener(
+                    "transitionend",
+                    transitionEndListener,
+                );
+            };
+        },
+        [
+            debouncedOnCloseAnimationEnd,
+            debouncedOnOpenAnimationEnd,
+            onWidthChange,
+        ],
+    );
 
     function onDrawerClose() {
         contentDivWidth.current = 0;
@@ -99,7 +131,10 @@ export default function VaulDrawer({
 
     const isMobile = screenWidth <= 768;
 
-    const drawerDir = useMemo(() => isMobile ? "bottom" : "right", [isMobile]);
+    const drawerDir = useMemo(
+        () => (isMobile ? "bottom" : "right"),
+        [isMobile],
+    );
 
     // Don't render anything if we're not the browser, helps avoid the dreaded hydration error.
     if (!isOnClient) {
@@ -113,7 +148,7 @@ export default function VaulDrawer({
             modal={isMobile}
             direction={drawerDir}
             dismissible={true}
-            snapPoints={ isMobile ? MOBILE_SNAP_POINTS : DESKTOP_SNAP_POINTS }
+            snapPoints={isMobile ? MOBILE_SNAP_POINTS : DESKTOP_SNAP_POINTS}
             setActiveSnapPoint={(index) => {
                 if (index === 1) {
                     setIsScrollable(true);
@@ -130,10 +165,16 @@ export default function VaulDrawer({
             <Drawer.Portal>
                 <Drawer.Overlay className="fixed inset-0 bg-black/40" />
 
-                <Drawer.Content 
-                    className={DRAWER_CONTENT_CLASSES} 
+                <Drawer.Content
+                    className={DRAWER_CONTENT_CLASSES}
                     ref={reportContentWidth}
-                    style={ isMobile ? {} : { '--initial-transform': 'calc(100% + 3.5rem)' } as React.CSSProperties }
+                    style={
+                        isMobile
+                            ? {}
+                            : ({
+                                  "--initial-transform": "calc(100% + 3.5rem)",
+                              } as React.CSSProperties)
+                    }
                 >
                     <VisuallyHidden>
                         <Drawer.Title>Vaul Drawer</Drawer.Title>
@@ -148,7 +189,8 @@ export default function VaulDrawer({
                                 {
                                     "pointer-events-auto":
                                         isScrollable && !disableScrollablity,
-                                    "pointer-events-none": !isScrollable || disableScrollablity,
+                                    "pointer-events-none":
+                                        !isScrollable || disableScrollablity,
                                 },
                             )}
                         >
@@ -157,12 +199,16 @@ export default function VaulDrawer({
 
                         {!isMobile && (
                             <div className="flex-[0_1_3rem] px-4 pb-4">
-                            <Button className="bg-accent text-foreground w-full" onClick={onDrawerClose}>
-                                <span className="text-lg text-primary-foreground">Close</span>
-                            </Button>
-                        </div>    
+                                <Button
+                                    className="bg-accent text-foreground w-full"
+                                    onClick={onDrawerClose}
+                                >
+                                    <span className="text-lg text-primary-foreground">
+                                        Close
+                                    </span>
+                                </Button>
+                            </div>
                         )}
-
                     </div>
                 </Drawer.Content>
             </Drawer.Portal>
