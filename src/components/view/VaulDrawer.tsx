@@ -162,7 +162,10 @@ export default function VaulDrawer({
             fadeFromIndex={0}
         >
             <Drawer.Portal>
-                <Drawer.Overlay className="fixed inset-0 bg-black/40" />
+                {isMobile && (
+                    <Drawer.Overlay className="fixed inset-0 bg-black/40" />
+                )}
+                {/* <Drawer.Overlay className="fixed inset-0 bg-black/40" /> */}
 
                 <Drawer.Content
                     className={DRAWER_CONTENT_CLASSES}
@@ -199,12 +202,10 @@ export default function VaulDrawer({
                         {!isMobile && (
                             <div className="flex-[0_1_3rem] px-4 pb-4">
                                 <Button
-                                    className="bg-accent text-foreground w-full"
+                                    className="bg-accent text-accent-foreground w-full"
                                     onClick={onDrawerClose}
                                 >
-                                    <span className="text-lg text-primary-foreground">
-                                        Close
-                                    </span>
+                                    <span className="text-lg">Close</span>
                                 </Button>
                             </div>
                         )}

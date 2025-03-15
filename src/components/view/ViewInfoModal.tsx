@@ -27,7 +27,10 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
             <VisuallyHidden.Root>
                 <DialogTitle>Info Modal</DialogTitle>
             </VisuallyHidden.Root>
-            <DialogContent className="rounded-lg h-[85vh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end">
+            <DialogContent
+                showXButton={false}
+                className="rounded-lg h-[85vh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
+            >
                 <Tabs
                     defaultValue="general"
                     className="h-[80%] flex-1 flex flex-col"

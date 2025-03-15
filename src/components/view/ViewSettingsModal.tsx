@@ -33,7 +33,10 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="rounded-lg space-y-2 max-h-[90vh]">
+            <DialogContent
+                className="rounded-lg space-y-2 max-h-[90vh]"
+                showXButton={false}
+            >
                 <DialogHeader>
                     <DialogTitle>Settings</DialogTitle>
                 </DialogHeader>
