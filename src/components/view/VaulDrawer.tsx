@@ -125,7 +125,6 @@ export default function VaulDrawer({
 
     function onDrawerClose() {
         contentDivWidth.current = 0;
-        onWidthChange?.(0);
         onOpenChange(false);
     }
 
