@@ -94,5 +94,8 @@ export const getBlurDataURL = (imageSrc: string | undefined) => {
 };
 
 export const isMobileViewport = (): boolean => {
-    return window.innerWidth <= 768;
+    if(typeof window !== "undefined") {
+        return window.innerWidth <= 768;
+    }
+    return false;
 };
