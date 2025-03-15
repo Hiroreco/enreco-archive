@@ -1,6 +1,7 @@
 import { generatePath } from "@/lib/get-edge-svg-path";
 import { FixedEdgeProps } from "@/lib/type";
 import { cn } from "@/lib/utils";
+import { useViewStore } from "@/store/viewStore";
 import { memo, useEffect, useId, useMemo, useRef } from "react";
 
 const ViewCustomEdge = ({
@@ -17,6 +18,7 @@ const ViewCustomEdge = ({
     const pathRef = useRef<SVGPathElement>(null);
     const maskId = useId();
     const { strokeDasharray, ...restStyle } = style || {};
+    const viewStore = useViewStore();
 
     const path = useMemo(
         () =>
@@ -60,6 +62,12 @@ const ViewCustomEdge = ({
         <svg
             className={cn(
                 "transition-all fill-none duration-1000 dark:brightness-[0.87]",
+                {
+                    "brightness-90 dark:brightness-50":
+                        viewStore.currentCard !== null && !data!.isSelected,
+                    "brightness-100":
+                        viewStore.currentCard !== null && data!.isSelected,
+                },
             )}
         >
             {/* Mask for dashed edges */}

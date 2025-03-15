@@ -308,7 +308,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     const setChartShrinkAndFit = useCallback(
         function (width: number) {
-            if(width !== chartShrink) {
+            if (width !== chartShrink) {
                 setTimeout(() => {
                     setChartShrink(width);
                     setDoFitView(!doFitView);
@@ -366,7 +366,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     previousCard={previousCard}
                 />
                 <div
-                    className="absolute top-0 left-0 w-screen h-screen -z-10"
+                    className={cn(
+                        "transition-all duration-500 absolute top-0 left-0 w-screen h-screen -z-10",
+                        {
+                            "brightness-90 dark:brightness-70":
+                                viewStore.currentCard !== null,
+                            "brightness-100": viewStore.currentCard === null,
+                        },
+                    )}
                     style={{
                         // The optimized background looks bad so using original for now
                         backgroundImage: `url('${bgImage}')`,
@@ -507,12 +514,15 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <div
-                className={cn("z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
-                    "w-[60%] lg:block hidden":
-                        viewStore.currentCard === "setting",
-                    "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                        viewStore.currentCard !== "setting",
-                })}
+                className={cn(
+                    "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
+                    {
+                        "w-[60%] lg:block hidden":
+                            viewStore.currentCard === "setting",
+                        "w-full md:w-4/5 2xl:w-2/5 mx-auto":
+                            viewStore.currentCard !== "setting",
+                    },
+                )}
             >
                 <ViewTransportControls
                     chapter={viewStore.chapter}
