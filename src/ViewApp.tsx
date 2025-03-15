@@ -134,27 +134,21 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     // Update processed nodes' read status
     processedNodes.forEach((node) => {
-        const status = localStorage.getItem(
-            idFromChapterDayId(viewStore.chapter, viewStore.day, node.id),
-        );
-        if (status === "read") {
-            node.data.isRead = true;
-        } else {
-            node.data.isRead = false;
+        if (typeof window !== "undefined") {
+            const status = localStorage.getItem(
+                idFromChapterDayId(viewStore.chapter, viewStore.day, node.id),
+            );
+            node.data.isRead = status === "read";
         }
     });
 
     // Update processed edges' read status
     processedEdges.forEach((edge) => {
-        const status = localStorage.getItem(
-            idFromChapterDayId(viewStore.chapter, viewStore.day, edge.id),
-        );
-        if (edge.data) {
-            if (status === "read") {
-                edge.data.isRead = true;
-            } else {
-                edge.data.isRead = false;
-            }
+        if (edge.data && typeof window !== "undefined") {
+            const status = localStorage.getItem(
+                idFromChapterDayId(viewStore.chapter, viewStore.day, edge.id),
+            );
+            edge.data.isRead = status === "read";
         }
     });
 
