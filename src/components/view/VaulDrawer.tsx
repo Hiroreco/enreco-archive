@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useMemo, useRef, useState } from "react";
 import { Drawer } from "vaul";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { useMounted } from "@/hooks/useMounted";
 import useScreenWidthChangeListener from "@/hooks/useScreenWidthChangeListener";
 import { debounce } from "lodash";

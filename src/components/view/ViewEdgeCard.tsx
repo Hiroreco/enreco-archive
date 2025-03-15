@@ -12,10 +12,10 @@ import {
     ViewMarkdown,
 } from "./ViewMarkdown";
 import { useEffect, useRef } from "react";
-import LineSvg from "../LineSvg";
+import LineSvg from "@/components/LineSvg";
 import EdgeCardDeco from "./EdgeCardDeco";
 import ReadMarker from "./ReadMarker";
-import { Stack, StackItem } from "../ui/Stack";
+import { Stack, StackItem } from "@/components/ui/Stack";
 import { Separator } from "@/components/ui/separator";
 
 interface Props {

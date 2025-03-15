@@ -10,7 +10,7 @@ import ReadMarker from "@/components/view/ReadMarker";
 import { idFromDayChapterId, isMobileViewport } from "@/lib/utils";
 import { ImageNodeType, Team } from "@/lib/type";
 import Image from "next/image";
-import { Stack, StackItem } from "../ui/Stack";
+import { Stack, StackItem } from "@/components/ui/Stack";
 import { useEffect, useRef } from "react";
 import { Separator } from "@/components/ui/separator";
 
