@@ -4,7 +4,7 @@ import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { memo, useMemo } from "react";
-import { ImageNodeProps } from "../../lib/type";
+import { ImageNodeProps } from "@/lib/type";
 
 const NUM_OF_HANDLES = 5;
 

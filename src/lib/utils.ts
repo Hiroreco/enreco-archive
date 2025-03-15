@@ -93,32 +93,9 @@ export const getBlurDataURL = (imageSrc: string | undefined) => {
     return filename ? blurData[filename] : imageSrc;
 };
 
-export const getViewportSize = () => {
-    if (typeof window === "undefined")
-        return {
-            width: 0,
-            label: "xs",
-        };
-    if (window.innerWidth >= 1024) {
-        return {
-            width: window.innerWidth,
-            label: "lg",
-        };
+export const isMobileViewport = (): boolean => {
+    if(typeof window !== "undefined") {
+        return window.innerWidth <= 768;
     }
-    if (window.innerWidth >= 768) {
-        return {
-            width: window.innerWidth,
-            label: "md",
-        };
-    }
-    if (window.innerWidth >= 640) {
-        return {
-            width: window.innerWidth,
-            label: "sm",
-        };
-    }
-    return {
-        width: window.innerWidth,
-        label: "xs",
-    };
+    return false;
 };

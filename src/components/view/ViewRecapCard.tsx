@@ -6,13 +6,11 @@ import {
 } from "@/components/view/ViewMarkdown";
 import ViewProgressBar from "@/components/view/ViewProgressBar";
 import { ChartData } from "@/lib/type";
-import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 interface Props {
     dayData: ChartData;
-    drawerOpenFully?: boolean;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     day: number;
@@ -22,7 +20,6 @@ interface Props {
 
 const ViewRecapCard = ({
     dayData,
-    drawerOpenFully,
     onNodeLinkClicked,
     onEdgeLinkClicked,
     day,
@@ -37,19 +34,14 @@ const ViewRecapCard = ({
         }
     }, [dayData]);
     return (
-        <div className="flex flex-col gap-4 m-4 h-full relative">
+        <div className="flex flex-col gap-4 mx-4 mt-4 h-full min-h-0 relative">
             <ViewProgressBar
                 day={day}
                 numberOfDays={numberOfDays}
                 onDayChange={onDayChange}
             />
             <div
-                className={cn("overflow-x-hidden scroll-smooth", {
-                    "overflow-y-scroll":
-                        drawerOpenFully === true ||
-                        drawerOpenFully === undefined,
-                    "overflow-y-hidden": drawerOpenFully === false,
-                })}
+                className="overflow-x-hidden scroll-smooth overflow-y-scroll"
                 ref={scrollRef}
             >
                 <AnimatePresence mode="wait">

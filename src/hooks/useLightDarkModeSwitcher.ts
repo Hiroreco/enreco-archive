@@ -6,41 +6,47 @@ export default function useLightDarkModeSwitcher(themeType: ThemeType) {
     const [useDarkMode, setUseDarkMode] = useState(true);
 
     useEffect(() => {
-        if(typeof window === "undefined" || !window.matchMedia) {
+        if (typeof window === "undefined" || !window.matchMedia) {
             return;
         }
 
-        const isSystemDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const isSystemDarkMode = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+        ).matches;
 
-        const isDarkMode = (themeType === "dark" || (themeType === "system" && isSystemDarkMode));
+        const isDarkMode =
+            themeType === "dark" ||
+            (themeType === "system" && isSystemDarkMode);
         if (typeof document !== "undefined") {
             if (isDarkMode) {
                 document.documentElement.classList.add("dark");
                 setUseDarkMode(true);
-            }
-            else {
+            } else {
                 document.documentElement.classList.remove("dark");
                 setUseDarkMode(false);
             }
         }
 
         const systemDarkModeListener = (event: MediaQueryListEvent) => {
-            if(themeType === "system") {
-                const isNowDarkMode = event.matches; 
+            if (themeType === "system") {
+                const isNowDarkMode = event.matches;
                 setUseDarkMode(isNowDarkMode);
 
-                if(isNowDarkMode) {
+                if (isNowDarkMode) {
                     document.documentElement.classList.add("dark");
-                }
-                else {
+                } else {
                     document.documentElement.classList.remove("dark");
                 }
             }
-        }
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change",systemDarkModeListener);
+        };
+        window
+            .matchMedia("(prefers-color-scheme: dark)")
+            .addEventListener("change", systemDarkModeListener);
 
         return () => {
-            window.matchMedia('(prefers-color-scheme: dark)').removeEventListener("change",systemDarkModeListener);
+            window
+                .matchMedia("(prefers-color-scheme: dark)")
+                .removeEventListener("change", systemDarkModeListener);
         };
     }, [themeType]);
 

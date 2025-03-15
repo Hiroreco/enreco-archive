@@ -36,7 +36,7 @@ const EdgeEditorCard = ({
     deleteEdge,
     onCardClose,
     numberOfDays,
-    isDarkMode
+    isDarkMode,
 }: EditorEdgeCard) => {
     const [workingEdge, setWorkingEdge] = useState(selectedEdge);
     const handleSave = () => {
@@ -168,7 +168,10 @@ const EdgeEditorCard = ({
                 >
                     Edge Day Content
                 </Label>
-                <div className="col-span-2" data-color-mode={isDarkMode ? "dark" : "light"}>
+                <div
+                    className="col-span-2"
+                    data-color-mode={isDarkMode ? "dark" : "light"}
+                >
                     <MDEditor
                         id="node-content"
                         textareaProps={{ name: "content" }}

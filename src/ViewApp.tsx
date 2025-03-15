@@ -17,7 +17,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { cn, idFromChapterDayId } from "@/lib/utils";
+import { cn, idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -27,6 +27,7 @@ import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
 import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
+import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
@@ -203,15 +204,29 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     function onBrowserHashChange(hash: string) {
         const parsedValues = parseChapterAndDayFromBrowserHash(hash);
 
+        // Verify values, if invalid, reset to 0/0
         if (parsedValues) {
             const [chapter, day] = parsedValues;
+            if (
+                chapter < 0 ||
+                chapter >= siteData.numberOfChapters ||
+                day < 0 ||
+                day >= siteData.chapters[viewStore.chapter].numberOfDays
+            ) {
+                setBrowserHash("0/0");
+                updateData(0, 0);
+                return;
+            }
             updateData(chapter, day);
+        } else {
+            setBrowserHash("0/0");
+            updateData(0, 0);
         }
     }
 
     // Update react flow renderer width when setting card is open, so the flow is not covered by the card
     const onCurrentCardChange = useCallback(
-        function (newCurrentCard: CardType) {
+        (newCurrentCard: CardType) => {
             // Only reset the chart shrink when all cards are closed
             if (newCurrentCard === null) {
                 viewStore.setSelectedNode(null);
@@ -231,7 +246,16 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             }
             setPreviousCard(viewStore.currentCard);
             viewStore.setCurrentCard(newCurrentCard);
-            setDoFitView(!doFitView);
+
+            // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit
+            // is called.
+            if (
+                viewStore.currentCard !== null ||
+                newCurrentCard === null ||
+                isMobileViewport()
+            ) {
+                setDoFitView(!doFitView);
+            }
         },
         [doFitView, viewStore],
     );
@@ -275,9 +299,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     const onPaneClick = useCallback(
         function () {
-            if (document.activeElement instanceof HTMLElement) {
-                document.activeElement.blur();
-            }
             onCurrentCardChange(null);
             viewStore.setSelectedNode(null);
             viewStore.setSelectedEdge(null);
@@ -285,18 +306,22 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         [onCurrentCardChange, viewStore],
     );
 
+    const setChartShrinkAndFit = useCallback(
+        function (width: number) {
+            if(width !== chartShrink) {
+                setTimeout(() => {
+                    setChartShrink(width);
+                    setDoFitView(!doFitView);
+                }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
+            }
+        },
+        [chartShrink, doFitView],
+    );
+
     /* Init block, runs only on first render/load. */
     if (!didInit) {
         didInit = true;
-
-        const initialChapterDay =
-            parseChapterAndDayFromBrowserHash(browserHash);
-        if (initialChapterDay) {
-            const [chapter, day] = initialChapterDay;
-            updateData(chapter, day);
-        } else {
-            updateData(0, 0);
-        }
+        onBrowserHashChange(browserHash);
     }
 
     const selectedNodeTeam =
@@ -364,7 +389,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         viewStore.setCharacterVisibility
                     }
                     chapterData={chapterData}
-                    setChartShrink={setChartShrink}
+                    setChartShrink={setChartShrinkAndFit}
                     day={viewStore.day}
                     onDayChange={(newDay) => {
                         viewStore.setPreviousSelectedDay(viewStore.day);
@@ -380,7 +405,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onEdgeLinkClicked={onEdgeClick}
                     nodeTeam={selectedNodeTeam}
                     chapter={viewStore.chapter}
-                    setChartShrink={setChartShrink}
+                    setChartShrink={setChartShrinkAndFit}
                 />
 
                 <ViewEdgeCard
@@ -391,7 +416,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onEdgeLinkClicked={onEdgeClick}
                     edgeRelationship={selectedEdgeRelationship}
                     chapter={viewStore.chapter}
-                    setChartShrink={setChartShrink}
+                    setChartShrink={setChartShrinkAndFit}
                 />
             </div>
 
@@ -426,7 +451,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
+            <div className="fixed top-0 right-0 m-2 z-50 flex flex-col gap-2">
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-none border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110"
@@ -482,7 +507,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <div
-                className={cn("fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
+                className={cn("z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ", {
                     "w-[60%] lg:block hidden":
                         viewStore.currentCard === "setting",
                     "w-full md:w-4/5 2xl:w-2/5 mx-auto":

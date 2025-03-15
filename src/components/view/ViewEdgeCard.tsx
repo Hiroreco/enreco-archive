@@ -1,14 +1,22 @@
 import VaulDrawer from "@/components/view/VaulDrawer";
-import ViewCard from "@/components/view/ViewCard";
-import ViewEdgeContent from "@/components/view/ViewEdgeContent";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import { useReactFlow } from "@xyflow/react";
-import { BrowserView, MobileView } from "react-device-detect";
-
-import { cn, getViewportSize } from "@/lib/utils";
-import { EdgeLinkClickHandler, NodeLinkClickHandler } from "./ViewMarkdown";
-import { X } from "lucide-react";
-import { useEscapeCard } from "@/hooks/useEscapeCard";
+import {
+    getLighterOrDarkerColor,
+    idFromChapterDayId,
+    isMobileViewport,
+} from "@/lib/utils";
+import {
+    EdgeLinkClickHandler,
+    NodeLinkClickHandler,
+    ViewMarkdown,
+} from "./ViewMarkdown";
+import { useEffect, useRef } from "react";
+import LineSvg from "@/components/LineSvg";
+import EdgeCardDeco from "./EdgeCardDeco";
+import ReadMarker from "./ReadMarker";
+import { Stack, StackItem } from "@/components/ui/Stack";
+import { Separator } from "@/components/ui/separator";
 
 interface Props {
     isCardOpen: boolean;
@@ -31,8 +39,16 @@ const ViewEdgeCard = ({
     onNodeLinkClicked,
     setChartShrink,
 }: Props) => {
+    const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
-    useEscapeCard({ isCardOpen, onCardClose });
+
+    // Reset scroll position and header visibility when selectedEdge changes
+    useEffect(() => {
+        if (contentRef.current) {
+            contentRef.current.scrollTop = 0;
+        }
+    }, [selectedEdge]);
+
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -40,7 +56,7 @@ const ViewEdgeCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen && getViewportSize().label === "lg") {
+        if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };
@@ -59,53 +75,92 @@ const ViewEdgeCard = ({
         nodeA !== null &&
         nodeB !== null;
 
+    if (!renderContent) {
+        return (
+            <VaulDrawer
+                open={isCardOpen}
+                onOpenChange={onDrawerOpenChange}
+                disableScrollablity={false}
+            ></VaulDrawer>
+        );
+    }
+
+    const edgeStyle = edgeRelationship.style;
+    const backgroundColor = getLighterOrDarkerColor(
+        edgeStyle?.stroke || "",
+        30,
+    );
+
     return (
-        <>
-            <BrowserView>
-                <ViewCard
-                    isCardOpen={isCardOpen}
-                    onWidthChange={handleCardWidthChange}
-                    className={cn("transition-all absolute", {
-                        "opacity-0 -z-10 invisible": !isCardOpen,
-                        "opacity-1 z-10 visible": isCardOpen,
-                    })}
-                >
-                    {renderContent && (
-                        <ViewEdgeContent
-                            selectedEdge={selectedEdge}
-                            edgeRelationship={edgeRelationship}
-                            nodeA={nodeA}
-                            nodeB={nodeB}
-                            chapter={chapter}
-                            onEdgeLinkClicked={onEdgeLinkClicked}
-                            onNodeLinkClicked={onNodeLinkClicked}
-                        />
+        <VaulDrawer
+            open={isCardOpen}
+            onOpenChange={onDrawerOpenChange}
+            onWidthChange={handleCardWidthChange}
+            disableScrollablity={false}
+        >
+            <div className="h-full w-full overflow-auto" ref={contentRef}>
+                {/* Header */}
+                <div className="flex flex-col items-center">
+                    <Stack className="w-full">
+                        <StackItem>
+                            <EdgeCardDeco color={backgroundColor} />
+                        </StackItem>
+                        <StackItem>
+                            <div className="z-10 flex gap-4 items-center justify-between w-fit mx-auto mt-4">
+                                <img
+                                    className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87]"
+                                    src={nodeA.data.imageSrc}
+                                    alt="Node A"
+                                />
+                                <LineSvg style={edgeStyle} />
+                                <img
+                                    className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87]"
+                                    src={nodeB.data.imageSrc}
+                                    alt="Node B"
+                                />
+                            </div>
+                        </StackItem>
+                    </Stack>
+
+                    {selectedEdge.data?.title && (
+                        <span className="font-semibold text-lg text-center my-1">
+                            {selectedEdge.data.title}
+                        </span>
                     )}
-                    <X className="x-close" onClick={onCardClose} />
-                </ViewCard>
-            </BrowserView>
-            <MobileView>
-                <VaulDrawer
-                    open={isCardOpen}
-                    onOpenChange={onDrawerOpenChange}
-                    disableScrollablity={false}
-                >
-                    <div className="flex flex-col gap-4 max-h-full items-center">
-                        {renderContent && (
-                            <ViewEdgeContent
-                                selectedEdge={selectedEdge}
-                                edgeRelationship={edgeRelationship}
-                                nodeA={nodeA}
-                                nodeB={nodeB}
-                                chapter={chapter}
-                                onEdgeLinkClicked={onEdgeLinkClicked}
-                                onNodeLinkClicked={onNodeLinkClicked}
-                            />
-                        )}
+                    <Separator className="h-px w-full bg-border" />
+
+                    <div className="my-2">
+                        <span className="font-semibold">Relationship:</span>{" "}
+                        <span className="">{edgeRelationship.name}</span>
                     </div>
-                </VaulDrawer>
-            </MobileView>
-        </>
+                    <Separator className="h-px w-full bg-border" />
+                </div>
+
+                {/* Content */}
+                <div ref={contentRef} className="flex-1 mt-2 overflow-x-hidden">
+                    {selectedEdge.data?.day !== undefined && (
+                        <div className="text-2xl font-bold my-2 underline underline-offset-4">
+                            Day {selectedEdge.data.day + 1}
+                        </div>
+                    )}
+                    <ViewMarkdown
+                        onEdgeLinkClicked={onEdgeLinkClicked}
+                        onNodeLinkClicked={onNodeLinkClicked}
+                    >
+                        {selectedEdge.data?.content || "No content available"}
+                    </ViewMarkdown>
+                    <Separator className="mt-4" />
+                    <ReadMarker
+                        id={idFromChapterDayId(
+                            chapter,
+                            selectedEdge.data!.day,
+                            selectedEdge.id,
+                        )}
+                        read={selectedEdge.data?.isRead}
+                    />
+                </div>
+            </div>
+        </VaulDrawer>
     );
 };
 

@@ -38,7 +38,7 @@ import {
 } from "@/lib/type";
 import { EditorMode, useEditorStore } from "@/store/editorStore";
 import { ThemeType, useSettingStore } from "@/store/settingStore";
-import { Label } from "../ui/label";
+import { Label } from "@/components/ui/label";
 import useLightDarkModeSwitcher from "@/hooks/useLightDarkModeSwitcher";
 
 const EMPTY_NODE: EditorImageNodeType = {

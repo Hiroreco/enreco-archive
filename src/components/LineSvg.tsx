@@ -3,7 +3,7 @@ interface Props {
     showMarker?: boolean;
 }
 
-export default function LineSvg({style, showMarker = false}: Props) {
+export default function LineSvg({ style, showMarker = false }: Props) {
     const width = 60;
     const height = 20;
     const strokeColor = style?.stroke || "black";
@@ -35,4 +35,4 @@ export default function LineSvg({style, showMarker = false}: Props) {
             />
         </svg>
     );
-};
+}

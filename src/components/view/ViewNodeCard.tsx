@@ -1,14 +1,18 @@
-import ViewCard from "@/components/view/ViewCard";
-
 import VaulDrawer from "@/components/view/VaulDrawer";
-import ViewNodeContent from "@/components/view/ViewNodeContent";
-import { BrowserView, MobileView } from "react-device-detect";
+import {
+    EdgeLinkClickHandler,
+    NodeLinkClickHandler,
+    ViewMarkdown,
+} from "@/components/view/ViewMarkdown";
+import NodeCardDeco from "@/components/view/NodeCardDeco";
+import ReadMarker from "@/components/view/ReadMarker";
 
-import { cn, getViewportSize } from "@/lib/utils";
+import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import { ImageNodeType, Team } from "@/lib/type";
-import { EdgeLinkClickHandler, NodeLinkClickHandler } from "./ViewMarkdown";
-import { X } from "lucide-react";
-import { useEscapeCard } from "@/hooks/useEscapeCard";
+import Image from "next/image";
+import { Stack, StackItem } from "@/components/ui/Stack";
+import { useEffect, useRef } from "react";
+import { Separator } from "@/components/ui/separator";
 
 interface Props {
     isCardOpen: boolean;
@@ -31,7 +35,15 @@ const ViewNodeCard = ({
     onEdgeLinkClicked,
     setChartShrink,
 }: Props) => {
-    useEscapeCard({ isCardOpen, onCardClose });
+    const contentRef = useRef<HTMLDivElement>(null);
+
+    // Reset scroll position when selectedNode changes
+    useEffect(() => {
+        if (contentRef.current) {
+            contentRef.current.scrollTop = 0;
+        }
+    }, [selectedNode]);
+
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -39,59 +51,92 @@ const ViewNodeCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen && getViewportSize().label === "lg") {
+        if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };
 
     const renderContent = selectedNode !== null && nodeTeam !== null;
+    if (!renderContent) {
+        return (
+            <VaulDrawer
+                open={isCardOpen}
+                onOpenChange={onDrawerOpenChange}
+                disableScrollablity={false}
+            ></VaulDrawer>
+        );
+    }
 
     return (
-        <>
-            <BrowserView>
-                <ViewCard
-                    onWidthChange={handleCardWidthChange}
-                    isCardOpen={isCardOpen}
-                    className={cn(
-                        "transition-all absolute flex flex-col items-center",
-                        {
-                            "opacity-0 -z-10 invisible": !isCardOpen,
-                            "opacity-1 z-10 visible": isCardOpen,
-                        },
-                    )}
-                >
-                    {renderContent && (
-                        <ViewNodeContent
-                            onNodeLinkClicked={onNodeLinkClicked}
-                            onEdgeLinkClicked={onEdgeLinkClicked}
-                            selectedNode={selectedNode}
-                            team={nodeTeam}
-                            chapter={chapter}
-                        />
-                    )}
-                    <X className="x-close" onClick={onCardClose} />
-                </ViewCard>
-            </BrowserView>
-            <MobileView>
-                <VaulDrawer
-                    open={isCardOpen}
-                    onOpenChange={onDrawerOpenChange}
-                    disableScrollablity={false}
-                >
-                    <div className="flex-col flex items-center gap-4 max-h-full">
-                        {renderContent && (
-                            <ViewNodeContent
-                                onNodeLinkClicked={onNodeLinkClicked}
-                                onEdgeLinkClicked={onEdgeLinkClicked}
-                                selectedNode={selectedNode}
-                                team={nodeTeam}
-                                chapter={chapter}
+        <VaulDrawer
+            open={isCardOpen}
+            onOpenChange={onDrawerOpenChange}
+            onWidthChange={handleCardWidthChange}
+            disableScrollablity={false}
+        >
+            <div className="h-full w-full overflow-auto" ref={contentRef}>
+                {/* Header */}
+                <div className="flex-none flex flex-col items-center">
+                    <Stack className="w-full">
+                        <StackItem>
+                            <NodeCardDeco
+                                color={selectedNode.data.bgCardColor}
                             />
-                        )}
+                        </StackItem>
+                        <StackItem>
+                            {selectedNode?.data.imageSrc && (
+                                <Image
+                                    alt="character image"
+                                    className="aspect-square w-[150px] z-10 dark:brightness-[0.87] mx-auto mt-4 relative"
+                                    src={selectedNode?.data.imageSrc}
+                                    width={150}
+                                    height={150}
+                                />
+                            )}
+                        </StackItem>
+                    </Stack>
+
+                    <div className="font-semibold text-center text-lg my-1">
+                        {selectedNode?.data.title}
                     </div>
-                </VaulDrawer>
-            </MobileView>
-        </>
+
+                    <Separator className="h-px w-full bg-border" />
+                    <div className="flex flex-row justify-around w-full">
+                        <div className="flex flex-col items-center">
+                            <div className="font-semibold">Team</div>
+                            <div>{nodeTeam?.name}</div>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <div className="font-semibold">Status</div>
+                            <div>{selectedNode?.data.status}</div>
+                        </div>
+                    </div>
+                    <Separator className="h-px w-full bg-border" />
+                </div>
+
+                {/* Content */}
+                <div className="mt-2 overflow-x-hidden">
+                    <div className="text-2xl font-bold mb-2 underline underline-offset-4">
+                        Day {selectedNode.data.day + 1}
+                    </div>
+                    <ViewMarkdown
+                        onEdgeLinkClicked={onEdgeLinkClicked}
+                        onNodeLinkClicked={onNodeLinkClicked}
+                    >
+                        {selectedNode?.data.content || "No content available"}
+                    </ViewMarkdown>
+                    <Separator className="mt-4" />
+                    <ReadMarker
+                        id={idFromChapterDayId(
+                            chapter,
+                            selectedNode.data.day,
+                            selectedNode.id,
+                        )}
+                        read={selectedNode.data.isRead}
+                    />
+                </div>
+            </div>
+        </VaulDrawer>
     );
 };
 

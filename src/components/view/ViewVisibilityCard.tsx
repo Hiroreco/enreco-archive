@@ -3,7 +3,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Chapter, ImageNodeType, StringToBooleanObjectMap } from "@/lib/type";
 import { extractImageSrcFromNodes } from "@/lib/utils";
-import { cn } from "@/lib/utils";
 import { useMemo } from "react";
 
 interface Props {
@@ -21,7 +20,6 @@ interface Props {
     ) => void;
     chapterData: Chapter;
     nodes: ImageNodeType[];
-    drawerOpenFully?: boolean;
 }
 
 const ViewVisibilityCard = ({
@@ -33,7 +31,6 @@ const ViewVisibilityCard = ({
     onCharacterVisibilityChange,
     chapterData,
     nodes,
-    drawerOpenFully,
 }: Props) => {
     // Extract image src from nodes
     const characterImagesMap = useMemo(() => {
@@ -42,13 +39,7 @@ const ViewVisibilityCard = ({
     }, [nodes]);
 
     return (
-        <div
-            className={cn("flex flex-col gap-4 p-4 h-full", {
-                "overflow-y-scroll":
-                    drawerOpenFully === true || drawerOpenFully === undefined,
-                "overflow-y-hidden": drawerOpenFully === false,
-            })}
-        >
+        <div className="flex flex-col gap-4 p-4 h-full overflow-y-scroll">
             <span className="font-bold text-xl">Visibility Toggles</span>
             <div className="grid md:grid-cols-2 gap-4">
                 {/* Edges */}
