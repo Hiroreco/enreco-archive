@@ -2,7 +2,7 @@ import { CONTRIBUTORS } from "@/lib/misc";
 
 interface Contributor {
     name: string;
-    socials: string;
+    socials: string | null;
 }
 
 const CreditBlock = ({
@@ -23,9 +23,13 @@ const CreditBlock = ({
             <ul className="list-disc mt-2">
                 {contributors.map((contributor, index) => (
                     <li className="flex gap-2" key={index}>
-                        <a href={contributor.socials} target="_blank">
-                            {contributor.name}
-                        </a>
+                        {contributor.socials === null ? (
+                            <span>{contributor.name}</span>
+                        ) : (
+                            <a href={contributor.socials} target="_blank">
+                                {contributor.name}
+                            </a>
+                        )}
                     </li>
                 ))}
             </ul>
@@ -111,7 +115,10 @@ const ViewInfoGeneral = () => {
                     X/Twitter
                 </a>{" "}
                 or send an email to{" "}
-                <a href="mailto:hiroreco@gmail.com">hiroreco@gmail.com</a>.
+                <a href="mailto:hiroreco@gmail.com">
+                    contacthiroreco@gmail.com
+                </a>
+                .
             </div>
 
             <div>

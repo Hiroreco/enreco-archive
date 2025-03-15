@@ -17,7 +17,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { cn, isMobileViewport } from "@/lib/utils";
+import { cn, idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -28,6 +28,7 @@ import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMob
 import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
+import ViewReadCounter from "@/components/view/ViewReadCounter";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -132,12 +133,41 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             .filter((edge): edge is FixedEdgeType => edge !== undefined);
     }, [dayData.edges, viewStore.day, chapterData.charts]);
 
+    // Update processed nodes' read status
+    processedNodes.forEach((node) => {
+        if (typeof window !== "undefined") {
+            const status = localStorage.getItem(
+                idFromChapterDayId(viewStore.chapter, viewStore.day, node.id),
+            );
+            node.data.isRead = status === "read";
+        }
+    });
+
+    // Update processed edges' read status
+    processedEdges.forEach((edge) => {
+        if (edge.data && typeof window !== "undefined") {
+            const status = localStorage.getItem(
+                idFromChapterDayId(viewStore.chapter, viewStore.day, edge.id),
+            );
+            edge.data.isRead = status === "read";
+        }
+    });
+
     // Update dayData with the processed nodes and edges
     dayData.nodes = processedNodes;
     dayData.edges = processedEdges;
 
     /* Helper function to coordinate state updates when data changes. */
     function updateData(newChapter: number, newDay: number) {
+        if (
+            newChapter < 0 ||
+            newChapter > siteData.numberOfChapters ||
+            newDay < 0 ||
+            newDay > siteData.chapters[viewStore.chapter].numberOfDays
+        ) {
+            return;
+        }
+
         const newChapterData = siteData.chapters[newChapter];
         const newDayData = newChapterData.charts[newDay];
 
@@ -408,6 +438,15 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
                 useDarkMode={useDarkMode}
+            />
+
+            <ViewReadCounter
+                day={viewStore.day}
+                chapter={viewStore.chapter}
+                chartData={dayData}
+                hidden={viewStore.currentCard !== null}
+                onEdgeClick={onEdgeClick}
+                onNodeClick={onNodeClick}
             />
 
             <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">

@@ -1,19 +1,15 @@
-import { useAudioStore } from "@/store/audioStore";
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
+import { useAudioStore } from "@/store/audioStore";
 import Image from "next/image";
-import React, { useState } from "react";
 
 const ViewPotatoSalidEasterEgg = () => {
     const audioStore = useAudioStore();
-    const [jump, setJump] = useState(false);
+    const isCurrentlyPotatoSalid =
+        audioStore.currentBgmKey === "/audio/potato.mp3";
     return (
-        <motion.div
-            animate={jump ? { y: ["0px", "-20px", "0px"] } : {}}
-            transition={{ duration: 0.2 }}
+        <div
             onClick={() => {
-                if (audioStore.currentBgmKey !== "/audio/potato.mp3") {
-                    setJump(true);
+                if (!isCurrentlyPotatoSalid) {
                     audioStore.playSFX("chicken-pop");
                     audioStore.changeBGM("/audio/potato.mp3");
                 }
@@ -26,11 +22,11 @@ const ViewPotatoSalidEasterEgg = () => {
                 src="images-opt/easter-gremliz.webp"
                 className={cn("mx-auto transition-opacity translate-y-[50%]", {
                     "cursor-pointer opacity-50 hover:opacity-100":
-                        audioStore.currentBgmKey !== "/audio/potato.mp3",
+                        !isCurrentlyPotatoSalid,
                 })}
                 alt="potato salid"
             />
-        </motion.div>
+        </div>
     );
 };
 

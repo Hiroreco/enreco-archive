@@ -3,7 +3,7 @@ import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import { useReactFlow } from "@xyflow/react";
 import {
     getLighterOrDarkerColor,
-    idFromDayChapterId,
+    idFromChapterDayId,
     isMobileViewport,
 } from "@/lib/utils";
 import {
@@ -151,11 +151,12 @@ const ViewEdgeCard = ({
                     </ViewMarkdown>
                     <Separator className="mt-4" />
                     <ReadMarker
-                        id={idFromDayChapterId(
-                            selectedEdge.data!.day,
+                        id={idFromChapterDayId(
                             chapter,
+                            selectedEdge.data!.day,
                             selectedEdge.id,
                         )}
+                        read={selectedEdge.data?.isRead}
                     />
                 </div>
             </div>

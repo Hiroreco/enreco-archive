@@ -9,7 +9,7 @@ export const CONTRIBUTORS = [
         contributors: [
             {
                 name: "Hiro",
-                socials: "https://twitter.com/hiroavrs",
+                socials: "https://x.com/hiroavrs",
             },
         ],
     },
@@ -23,7 +23,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Hiro",
-                socials: "https://twitter.com/hiroavrs",
+                socials: "https://x.com/hiroavrs",
             },
             {
                 name: "goose",
@@ -31,7 +31,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "GoldElysium",
-                socials: "",
+                socials: "https://github.com/GoldElysium",
             },
         ],
     },
@@ -41,11 +41,11 @@ export const CONTRIBUTORS = [
         contributors: [
             {
                 name: "Quarases",
-                socials: "",
+                socials: null,
             },
             {
                 name: "A1on",
-                socials: "",
+                socials: null,
             },
             {
                 name: "keenbiscuit",

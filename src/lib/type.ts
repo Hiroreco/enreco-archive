@@ -99,6 +99,7 @@ export type ImageNodeData = CommonNodeData & {
     renderTeamImageSrc?: string;
     isSelected?: boolean;
     isCurrentDay?: boolean;
+    isRead?: boolean;
     // Since we're trying to avoid having viewStore in the node component, we're passing it in during render instead
     // Not putting this in CommonNodeData as it's redundant
     chapter?: number;
@@ -131,6 +132,7 @@ export type FixedEdgeData = CommonEdgeData & {
     renderIsHoveredEdge?: boolean;
     isSelected?: boolean;
     isCurrentDay?: boolean;
+    isRead?: boolean;
     // Since we're trying to avoid having viewStore in the edge component, we're passing it in during render instead
     // Not putting this in CommonEdgeData as it's redundant
     chapter?: number;

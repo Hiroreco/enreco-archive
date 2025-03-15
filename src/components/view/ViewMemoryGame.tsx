@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { LS_MEMORY_HS } from "@/lib/constants";
-import { useAudioStore } from "@/store/audioStore";
 import { cn } from "@/lib/utils";
+import { useAudioStore } from "@/store/audioStore";
 import _ from "lodash";
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
@@ -22,6 +22,7 @@ const SHORTCUT_KEYS = {
 };
 
 const INITIAL_TIME = 60;
+const INITIAL_DIFFICULTY = 2;
 
 const initBoardState = (boardSize: number) => {
     return Array.from({ length: boardSize }, () => -1);
@@ -34,7 +35,7 @@ const ViewMemoryGame = () => {
     const audioStore = useAudioStore();
     // Game states
     const [board, setBoard] = useState(initBoardState(sideLength * sideLength));
-    const [difficulty, setDifficulty] = useState(2);
+    const [difficulty, setDifficulty] = useState(INITIAL_DIFFICULTY);
     const [chosenValue, setChosenValue] = useState(0);
     const [score, setScore] = useState(0);
     const [highScore, setHighScore] = useState(0);
@@ -54,67 +55,10 @@ const ViewMemoryGame = () => {
         return Math.min(Math.floor(score / 5) + 2, sideLength * sideLength);
     };
 
-    const handleBoardClick = (index: number) => {
-        if (board[index] !== -1 && board[index] < 4) {
-            return;
-        }
-
-        if (!isPlaying) {
-            return;
-        }
-
-        if (!allowClick) {
-            return;
-        }
-
-        let newScore = score;
-
-        if (chosenValue !== -1 && chosenValue + 4 === board[index]) {
-            // Final slot solved, so we're updating the difficulty and the board
-            audioStore.playSFX("xp");
-            if (getNumberOfUnsolvedSlots(board) === 1) {
-                newScore += difficulty;
-                setScore(newScore);
-                setDifficulty(calculateDifficulty(newScore));
-                setGuessState("correct");
-            }
-
-            setBoard((prevBoard) => {
-                const newBoard = [...prevBoard];
-                newBoard[index] = chosenValue;
-                return newBoard;
-            });
-        } else {
-            audioStore.playSFX("break");
-            newScore = Math.max(0, newScore - difficulty);
-            setScore(newScore);
-            setDifficulty(calculateDifficulty(newScore));
-            setGuessState("incorrect");
-        }
-    };
-
-    // Shortcut keys for selecting the colors
-    useEffect(() => {
-        const handleKeyPress = (event: KeyboardEvent) => {
-            const value =
-                SHORTCUT_KEYS[event.key as keyof typeof SHORTCUT_KEYS];
-            if (value !== undefined) {
-                setChosenValue(value);
-            }
-        };
-
-        window.addEventListener("keydown", handleKeyPress);
-
-        return () => {
-            window.removeEventListener("keydown", handleKeyPress);
-        };
-    }, []);
-
-    useEffect(() => {
-        if (!isPlaying) {
-            return;
-        }
+    // Update the board based on the difficulty, should only run after guessed correctly or incorrectly
+    const updateBoard = (difficulty: number) => {
         const setRandomBoardState = (boardSize: number, difficulty: number) => {
+            console.log(difficulty);
             // Sample a "difficulty" number of positions
             const randomPositions = _.sampleSize(
                 _.range(0, boardSize),
@@ -154,7 +98,65 @@ const ViewMemoryGame = () => {
             });
             setAllowClick(true);
         }, 2000);
-    }, [difficulty, score, isPlaying, guessState]);
+    };
+
+    const handleBoardClick = (index: number) => {
+        if (board[index] !== -1 && board[index] < 4) {
+            return;
+        }
+
+        if (!isPlaying) {
+            return;
+        }
+
+        if (!allowClick) {
+            return;
+        }
+
+        if (chosenValue !== -1 && chosenValue + 4 === board[index]) {
+            // Final slot solved, so we're updating the difficulty and the board
+            audioStore.playSFX("xp");
+            if (getNumberOfUnsolvedSlots(board) === 1) {
+                const newScore = score + difficulty;
+                const newDifficulty = calculateDifficulty(newScore);
+                setScore(newScore);
+                setDifficulty(newDifficulty);
+                setGuessState("correct");
+                updateBoard(newDifficulty);
+            }
+
+            setBoard((prevBoard) => {
+                const newBoard = [...prevBoard];
+                newBoard[index] = chosenValue;
+                return newBoard;
+            });
+        } else {
+            audioStore.playSFX("break");
+            const newScore = Math.max(0, score - difficulty);
+            const newDifficulty = calculateDifficulty(newScore);
+            setScore(newScore);
+            setDifficulty(newDifficulty);
+            setGuessState("incorrect");
+            updateBoard(newDifficulty);
+        }
+    };
+
+    // Shortcut keys for selecting the colors
+    useEffect(() => {
+        const handleKeyPress = (event: KeyboardEvent) => {
+            const value =
+                SHORTCUT_KEYS[event.key as keyof typeof SHORTCUT_KEYS];
+            if (value !== undefined) {
+                setChosenValue(value);
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyPress);
+
+        return () => {
+            window.removeEventListener("keydown", handleKeyPress);
+        };
+    }, []);
 
     // Update timer
     useEffect(() => {
@@ -174,6 +176,7 @@ const ViewMemoryGame = () => {
         return () => clearInterval(intervalRef.current);
     }, [isPlaying]);
 
+    // Set initial high score from local storage
     useEffect(() => {
         const value = localStorage.getItem(LS_MEMORY_HS);
         if (value) {
@@ -181,6 +184,7 @@ const ViewMemoryGame = () => {
         }
     }, []);
 
+    // Update high score
     useEffect(() => {
         if (score > highScore) {
             localStorage.setItem(LS_MEMORY_HS, score.toString());
@@ -269,6 +273,10 @@ const ViewMemoryGame = () => {
                     onClick={() => {
                         if (!isPlaying) {
                             audioStore.playSFX("xp");
+                            setScore(0);
+                            setGuessState("none");
+                            setDifficulty(INITIAL_DIFFICULTY);
+                            updateBoard(INITIAL_DIFFICULTY);
                         }
                         setIsPlaying((prevIsPlaying) => !prevIsPlaying);
                     }}

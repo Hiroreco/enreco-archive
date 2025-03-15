@@ -8,6 +8,7 @@ import {
     getLighterOrDarkerColor,
     urlToLiveUrl,
 } from "@/lib/utils";
+import { useSettingStore } from "@/store/settingStore";
 import { useReactFlow } from "@xyflow/react";
 import Image from "next/image";
 import {
@@ -58,12 +59,9 @@ function ViewMarkdownInternal({
     children,
 }: Props) {
     const { getNode, getEdge } = useReactFlow<ImageNodeType, FixedEdgeType>();
-    const isDarkMode = useMemo(() => {
-        if (typeof document !== "undefined") {
-            return document.documentElement.classList.contains("dark");
-        }
-        return false;
-    }, []);
+    // The previous method of tracking the theme based on the document object
+    // doesn't update when the theme changes. So using the store directly instead.
+    const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
     const nodeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback(
         (event: MouseEvent<HTMLAnchorElement>) => {

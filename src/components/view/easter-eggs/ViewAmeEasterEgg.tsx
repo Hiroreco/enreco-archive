@@ -6,11 +6,11 @@ import React, { useState } from "react";
 
 const ViewAmeEasterEgg = () => {
     const audioStore = useAudioStore();
-    const [phase, setPhase] = useState<"idle" | "jump" | "run">("idle");
+    const [phase, setPhase] = useState<"idle" | "clicked" | "run">("idle");
 
     const handleClick = () => {
         if (phase === "idle") {
-            setPhase("jump");
+            setPhase("clicked");
             audioStore.playSFX("chicken-pop");
             audioStore.playSFX("ame");
 
@@ -22,8 +22,8 @@ const ViewAmeEasterEgg = () => {
 
     const variants = {
         idle: {},
-        jump: {
-            y: ["0px", "-20px", "0px"],
+        clicked: {
+            opacity: 1,
         },
         run: {
             x: ["0px", "200px"],
@@ -36,7 +36,7 @@ const ViewAmeEasterEgg = () => {
             variants={variants}
             animate={phase}
             transition={{
-                duration: phase === "jump" ? 0.2 : 1,
+                duration: phase === "clicked" ? 0.2 : 1,
                 ease: "easeInOut",
             }}
             onClick={handleClick}

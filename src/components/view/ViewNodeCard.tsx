@@ -7,7 +7,7 @@ import {
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 
-import { idFromDayChapterId, isMobileViewport } from "@/lib/utils";
+import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import { ImageNodeType, Team } from "@/lib/type";
 import Image from "next/image";
 import { Stack, StackItem } from "@/components/ui/Stack";
@@ -127,11 +127,12 @@ const ViewNodeCard = ({
                     </ViewMarkdown>
                     <Separator className="mt-4" />
                     <ReadMarker
-                        id={idFromDayChapterId(
-                            selectedNode.data.day,
+                        id={idFromChapterDayId(
                             chapter,
+                            selectedNode.data.day,
                             selectedNode.id,
                         )}
+                        read={selectedNode.data.isRead}
                     />
                 </div>
             </div>

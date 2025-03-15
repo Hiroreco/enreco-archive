@@ -10,12 +10,11 @@ const ViewInfoGuide = () => {
             <div>
                 The concept for this site was inspired by the relationship
                 charts created by{" "}
-                <a href="https://x.com/stemotology" target="_blank">
-                    stemotology
-                </a>{" "}
-                and{" "}
-                <a href="https://x.com/sunkissedrhodo" target="_blank">
-                    sunkissedrhodo
+                <a
+                    href="https://x.com/stemotology/status/1833171708775420066/photo/1"
+                    target="_blank"
+                >
+                    stemotology and sunkissedrhodo
                 </a>
                 , but with an added interactive element. However, note that the
                 charts here differ from the originals—they are designed to be
@@ -36,7 +35,11 @@ const ViewInfoGuide = () => {
             </div>
             <div>
                 Clicking on a character or relationship will bring up a card
-                containing information about them on that specific day.
+                containing information about them on that specific day. If a
+                node or edge is dimmed, it means that character or relationship
+                did not have any updates on that day. A relationship is formed
+                if the two characters had a meaningful interaction that affects
+                their overall dynamic as well as their story.
             </div>
 
             <div>
@@ -47,18 +50,21 @@ const ViewInfoGuide = () => {
                         <span className="font-bold">Timestamps:</span> Opens a{" "}
                         <span className="font-medium text-[#6594ba]">
                             timestamp
-                        </span>
-                        , or the corresponding section from the original stream
-                        where the event took place, in a card (or a new tab) for
-                        you to watch.
+                        </span>{" "}
+                        (the corresponding section from the original stream
+                        where the event took place) in a card for you to watch.
+                        These timestamps can be seen both within the content for
+                        small moments and distinct lines for important events,
+                        just look for the blue text.
                     </li>
                     <li>
                         <span className="font-bold">Linkers:</span> Clicking on
-                        a colored phrase like{" "}
+                        a colored segment like{" "}
                         <span className="text-red-700 dark:text-red-600 underline underline-offset-2 font-semibold">
                             Raora-Tam: Say My Name
                         </span>{" "}
-                        will directly open the referenced card.
+                        will directly open the referenced card. This helps you
+                        from needing to search for the card manually.
                     </li>
                 </ul>
             </div>

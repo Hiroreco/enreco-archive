@@ -25,7 +25,7 @@ img {
         --muted: 0 0% 96.1%;
         --muted-foreground: 0 0% 45.1%;
         --accent: 207 39.1% 59.4%;
-        --accent-foreground: 0 0% 9%;
+        --accent-foreground: 0 0% 100% / 87%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
         --border: 0 0% 89.8%;
@@ -73,11 +73,6 @@ img {
     body {
         @apply bg-background text-foreground;
     }
-}
-
-/* Remove scrollbar cause it looks janky */
-::-webkit-scrollbar {
-    @apply hidden;
 }
 
 h1 {
@@ -294,4 +289,20 @@ td {
     text-shadow:
         0px 0px 10px #1c4462,
         0px 0px 10px #1c4462;
+}
+
+::-webkit-scrollbar {
+    @apply w-[4px];
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground;
 }

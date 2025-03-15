@@ -1,7 +1,7 @@
 import { generatePath } from "@/lib/get-edge-svg-path";
 import { FixedEdgeProps } from "@/lib/type";
 import { cn } from "@/lib/utils";
-import { memo, useEffect, useMemo, useRef } from "react";
+import { memo, useEffect, useId, useMemo, useRef } from "react";
 
 const ViewCustomEdge = ({
     data,
@@ -14,8 +14,9 @@ const ViewCustomEdge = ({
     targetPosition,
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
-
     const pathRef = useRef<SVGPathElement>(null);
+    const maskId = useId();
+    const { strokeDasharray, ...restStyle } = style || {};
 
     const path = useMemo(
         () =>
@@ -48,23 +49,36 @@ const ViewCustomEdge = ({
             pathRef.current.style.strokeDashoffset = `${length}`;
             pathRef.current.style.animation =
                 "drawLine 1s ease-in-out forwards";
-        } else {
-            if (pathRef.current) {
-                pathRef.current.style.strokeDasharray = "none";
-                pathRef.current.style.strokeDashoffset = "none";
-                pathRef.current.style.animation = "none";
-            }
+        } else if (pathRef.current) {
+            pathRef.current.style.strokeDasharray = "none";
+            pathRef.current.style.strokeDashoffset = "none";
+            pathRef.current.style.animation = "none";
         }
     }, [isNewlyAdded]);
 
     return (
-        // Using svg instead of base edge component for more control
         <svg
             className={cn(
                 "transition-all fill-none duration-1000 dark:brightness-[0.87]",
             )}
         >
-            {/* transparent for increase click area */}
+            {/* Mask for dashed edges */}
+            <defs>
+                {strokeDasharray && (
+                    <mask id={maskId}>
+                        <path
+                            d={path}
+                            stroke="white"
+                            strokeWidth={data!.isSelected ? 7 : 5}
+                            strokeDasharray={strokeDasharray}
+                            fill="none"
+                            strokeLinecap="round"
+                        />
+                    </mask>
+                )}
+            </defs>
+
+            {/* Transparent click area */}
             <path
                 d={path}
                 fill="none"
@@ -74,21 +88,22 @@ const ViewCustomEdge = ({
                 className="cursor-pointer"
             />
 
-            {/* actual edge */}
+            {/* Actual edge with mask applied if dashed */}
             <path
                 ref={pathRef}
                 d={path}
                 style={{
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
-                    ...style,
+                    ...restStyle,
                 }}
                 className={cn("hover:stroke-[7]", {
                     "stroke-[5]": !data!.isSelected,
                     "stroke-[7]": data!.isSelected,
                 })}
+                mask={strokeDasharray ? `url(#${maskId})` : undefined}
             />
 
-            {/* animated light effect when selected */}
+            {/* Animated light effect when selected */}
             {data!.isSelected && (
                 <path
                     d={path}
