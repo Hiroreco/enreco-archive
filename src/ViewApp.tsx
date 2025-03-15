@@ -222,7 +222,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             if (
                 viewStore.currentCard !== null ||
                 newCurrentCard === null ||
-                !isMobileViewport()
+                isMobileViewport()
             ) {
                 setDoFitView(!doFitView);
             }
