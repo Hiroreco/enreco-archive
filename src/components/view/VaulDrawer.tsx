@@ -1,10 +1,11 @@
 import { cn, getViewportSize } from "@/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { Drawer } from "vaul";
 import { Button } from "../ui/button";
 import { useMounted } from "@/hooks/useMounted";
 import useScreenWidthChangeListener from "@/hooks/useScreenWidthChangeListener";
+import { debounce } from "lodash";
 
 const MOBILE_SNAP_POINTS: number[] = [0.5, 1];
 const DESKTOP_SNAP_POINTS: number[] = [1];
@@ -14,12 +15,15 @@ const DRAWER_CONTENT_CLASSES =
     "md:w-[40%] md:h-[94%] md:bottom-[3%] md:top-[3%] md:left-auto md:right-14 md:rounded-xl " +
     "shadow-2xl";
 
+export const DRAWER_OPEN_CLOSE_ANIM_TIME_MS = 500;
+
 interface VaulDrawerProps {
     open: boolean;
     disableScrollablity: boolean;
     onOpenChange: (open: boolean) => void;
     onOpenFullyChange?: (open: boolean) => void;
     onWidthChange?: (width: number) => void;
+    onOpenAnimationEnd?: () => void;
     onCloseAnimationEnd?: () => void;
     children?: React.ReactNode;
 }
@@ -29,6 +33,7 @@ export default function VaulDrawer({
     onOpenChange,
     onOpenFullyChange,
     onWidthChange,
+    onOpenAnimationEnd,
     onCloseAnimationEnd,
     disableScrollablity,
     children,
@@ -36,27 +41,62 @@ export default function VaulDrawer({
     useScreenWidthChangeListener();
 
     const [isScrollable, setIsScrollable] = useState(true);
+    const contentDivWidth = useRef<number>(0);
     const isOnClient = useMounted();
+
+    const debouncedOnCloseAnimationEnd = debounce(() => onCloseAnimationEnd?.(), 300);
+    const debouncedOnOpenAnimationEnd = debounce(() => onOpenAnimationEnd?.(), 300);
 
     const reportContentWidth = useCallback((contentNode: HTMLDivElement) => {
         if(!contentNode) {
             return;
         }
 
-        onWidthChange?.(contentNode.getBoundingClientRect().width);
-
+        //Round off decimal portion.
+        const newContentDivWidth = Math.round(contentNode.getBoundingClientRect().width);
+        if(contentDivWidth.current !== newContentDivWidth) {
+            onWidthChange?.(newContentDivWidth);
+            contentDivWidth.current = newContentDivWidth;
+        }
+        
         const animEndListener = (event: AnimationEvent) => {
             if(event.animationName === "slideToRight" || event.animationName === "slideToBottom") {
-                onCloseAnimationEnd?.();
+                debouncedOnCloseAnimationEnd();
+                contentDivWidth.current = 0;
+            }
+            else if(event.animationName === "slideFromRight" || event.animationName === "slideFromBottom") {
+                debouncedOnOpenAnimationEnd();
             }
         };
 
+        const transitionEndListener = (event: TransitionEvent) => {
+            if(event.propertyName === "transform" && 
+                event.target === contentNode && 
+                contentNode.dataset.state === "open") {
+                debouncedOnOpenAnimationEnd();
+            }
+            else if(event.propertyName === "transform" && 
+                event.target === contentNode && 
+                contentNode.dataset.state === "closed") {
+                debouncedOnCloseAnimationEnd();
+                contentDivWidth.current = 0;
+            }
+        }
+
         contentNode.addEventListener("animationend", animEndListener);
+        contentNode.addEventListener("transitionend", transitionEndListener);
 
         return () => {
             contentNode.removeEventListener("animationend", animEndListener);
+            contentNode.removeEventListener("transitionend", transitionEndListener);
         }
-    }, [onCloseAnimationEnd, onWidthChange]);
+    }, [debouncedOnCloseAnimationEnd, debouncedOnOpenAnimationEnd, onWidthChange]);
+
+    function onDrawerClose() {
+        contentDivWidth.current = 0;
+        onWidthChange?.(0);
+        onOpenChange(false);
+    }
 
     const viewportInfo = getViewportSize();
     const isMobile = viewportInfo.width <= 768;
@@ -118,7 +158,7 @@ export default function VaulDrawer({
 
                         {!isMobile && (
                             <div className="flex-[0_1_3rem] px-4 pb-4">
-                            <Button className="bg-accent text-foreground w-full" onClick={() => onOpenChange(false)}>
+                            <Button className="bg-accent text-foreground w-full" onClick={onDrawerClose}>
                                 <span className="text-lg text-primary-foreground">Close</span>
                             </Button>
                         </div>    

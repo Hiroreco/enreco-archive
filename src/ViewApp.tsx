@@ -17,7 +17,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { cn } from "@/lib/utils";
+import { cn, getViewportSize } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -27,6 +27,7 @@ import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
 import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
+import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -209,7 +210,12 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
         setPreviousCard(viewStore.currentCard);
         viewStore.setCurrentCard(newCurrentCard);
-        setDoFitView(!doFitView);
+        
+        // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit 
+        // is called.
+        if(viewStore.currentCard !== null || newCurrentCard === null || getViewportSize().width < 768) {
+            setDoFitView(!doFitView);
+        }        
     }, [doFitView, viewStore]);
 
     const onCardClose = useCallback(function () {
@@ -248,6 +254,13 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         viewStore.setSelectedNode(null);
         viewStore.setSelectedEdge(null);
     }, [onCurrentCardChange, viewStore]);
+
+    const setChartShrinkAndFit = useCallback(function (width: number) {
+        setTimeout(() => {
+            setChartShrink(width); 
+            setDoFitView(!doFitView); 
+        }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
+    }, [doFitView]);
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -328,7 +341,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         viewStore.setCharacterVisibility
                     }
                     chapterData={chapterData}
-                    setChartShrink={setChartShrink}
+                    setChartShrink={setChartShrinkAndFit}
                     day={viewStore.day}
                     onDayChange={(newDay) => {
                         viewStore.setPreviousSelectedDay(viewStore.day);
@@ -344,7 +357,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onEdgeLinkClicked={onEdgeClick}
                     nodeTeam={selectedNodeTeam}
                     chapter={viewStore.chapter}
-                    setChartShrink={setChartShrink}
+                    setChartShrink={setChartShrinkAndFit}
                 />
 
                 <ViewEdgeCard
@@ -355,7 +368,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onEdgeLinkClicked={onEdgeClick}
                     edgeRelationship={selectedEdgeRelationship}
                     chapter={viewStore.chapter}
-                    setChartShrink={setChartShrink}
+                    setChartShrink={setChartShrinkAndFit}
                 />
             </div>
 
