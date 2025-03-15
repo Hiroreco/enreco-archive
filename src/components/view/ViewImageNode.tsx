@@ -73,7 +73,7 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
                         "hover:scale-110": !data.isSelected,
                         "brightness-100":
                             data.isSelected && viewStore.currentCard !== null,
-                        "brightness-90 dark:brightness-50":
+                        "brightness-100 dark:brightness-50":
                             !data.isSelected && viewStore.currentCard !== null,
                     },
                 )}

@@ -63,7 +63,7 @@ const ViewCustomEdge = ({
             className={cn(
                 "transition-all fill-none duration-1000 dark:brightness-[0.87]",
                 {
-                    "brightness-90 dark:brightness-50":
+                    "brightness-100 dark:brightness-50":
                         viewStore.currentCard !== null && !data!.isSelected,
                     "brightness-100":
                         viewStore.currentCard !== null && data!.isSelected,
