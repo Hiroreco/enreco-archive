@@ -1,4 +1,11 @@
-import { BookOpen, Dice6, Egg, Search, Settings } from "lucide-react";
+import {
+    BookOpen,
+    CheckSquare,
+    Dice6,
+    Egg,
+    Search,
+    Settings,
+} from "lucide-react";
 
 const ViewInfoGuide = () => {
     return (
@@ -52,10 +59,10 @@ const ViewInfoGuide = () => {
                             timestamp
                         </span>{" "}
                         (the corresponding section from the original stream
-                        where the event took place) in a card for you to watch.
-                        These timestamps can be seen both within the content for
-                        small moments and distinct lines for important events,
-                        just look for the blue text.
+                        where the event took place) in a card for you to watch,
+                        just look for the blue text (both small and big). It is
+                        recommened to watch only the duration described by the
+                        label to avoid spoilers.
                     </li>
                     <li>
                         <span className="font-bold">Linkers:</span> Clicking on
@@ -67,6 +74,25 @@ const ViewInfoGuide = () => {
                         from needing to search for the card manually.
                     </li>
                 </ul>
+            </div>
+
+            <div>
+                You can also occasionally find links to fanworks such as art,
+                music, or animation at the end of each card.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <CheckSquare size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Read Markers
+                </div>
+            </div>
+
+            <div>
+                To help you keep track of your progress, there are read markers
+                at the end of each card. To have an overall view of which cards
+                you have read, click the counter at the top left corner to open
+                the <em>Read Status</em> tab.
             </div>
 
             <div className="flex items-center gap-2">
