@@ -1,4 +1,4 @@
-import { ImageNodeProps } from "@/lib/type";
+import { EditorImageNodeProps } from "@/lib/type";
 import { useEditorStore } from "@/store/editorStore";
 import {
     Handle,
@@ -6,6 +6,7 @@ import {
     Position,
     useUpdateNodeInternals,
 } from "@xyflow/react";
+import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
 // Number of handles per side
@@ -14,7 +15,7 @@ const NUM_OF_HANDLES = 5;
 const generateHandlesOnSide = (
     position: Position,
     positionStyle: "left" | "top",
-    numOfHandles: number
+    numOfHandles: number,
 ) => {
     const handles = [];
     const step = 100 / numOfHandles;
@@ -41,15 +42,15 @@ const generateHandles = (numOfHandles: number) => {
     handles.push(...generateHandlesOnSide(Position.Top, "left", numOfHandles));
     handles.push(...generateHandlesOnSide(Position.Right, "top", numOfHandles));
     handles.push(
-        ...generateHandlesOnSide(Position.Bottom, "left", numOfHandles)
+        ...generateHandlesOnSide(Position.Bottom, "left", numOfHandles),
     );
     handles.push(...generateHandlesOnSide(Position.Left, "top", numOfHandles));
 
     return handles;
 };
 
-const EditorImageNode = ({ data, id }: ImageNodeProps) => {
-    const { showHandles } = useEditorStore();
+const EditorImageNode = ({ data, id }: EditorImageNodeProps) => {
+    const { showHandles, day: currentDay } = useEditorStore();
     const [handles, setHandles] = useState(generateHandles(NUM_OF_HANDLES));
     const updateNodeInternals = useUpdateNodeInternals();
     const handleElements = handles.map((handle) => (
@@ -67,11 +68,17 @@ const EditorImageNode = ({ data, id }: ImageNodeProps) => {
         // filter for only connected handles
         updateNodeInternals(id);
     }, [id, handles, updateNodeInternals, setHandles]);
+
+    const isCurrentDay = data.day === currentDay || false;
+
     return (
         <>
             {handleElements}
             <img
-                className="aspect-square object-cover rounded-lg"
+                className={cn("aspect-square object-cover rounded-lg", {
+                    "opacity-50": !isCurrentDay,
+                    "opacity-100": isCurrentDay,
+                })}
                 width={100}
                 src={data.imageSrc}
             />

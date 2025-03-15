@@ -1,0 +1,363 @@
+{
+  "numberOfDays": 2,
+  "title": "ShioBloodRaven",
+  "charts": [
+    {
+      "dayRecap": "What is this love triangle...  \n\n[random youtube video](https://www.youtube.com/watch?v=0wO8d70KSXw)\n\nUnicode test:\n🤣🤣🤣😆😆😆\n💄🎼👁‍🗨\n日本語の場合はランダムに生成された文章以外に、著作権が切れた小説などが利用されることもある。\n新年快樂",
+      "title": "",
+      "nodes": [
+        {
+          "id": "rissa",
+          "type": "image",
+          "position": {
+            "x": 750,
+            "y": 550
+          },
+          "data": {
+            "title": "Rissa",
+            "content": "CONTENT",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Nerissa-Ravencroft_list_thumb.png",
+            "teamId": "advent",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#4c61f9"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": true,
+          "dragging": false
+        },
+        {
+          "id": "shiorin",
+          "type": "image",
+          "position": {
+            "x": 1050,
+            "y": 550
+          },
+          "data": {
+            "title": "Shiorin",
+            "content": "CONTENT",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Shiori-Novella_list_thumb.png",
+            "teamId": "advent",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#b8a0cd"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "erb",
+          "type": "image",
+          "position": {
+            "x": 900,
+            "y": 375
+          },
+          "data": {
+            "title": "ERB",
+            "content": "CONTENT",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Elizabeth-Rose-Bloodflame_list_thumb.png",
+            "teamId": "justice",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#d46759"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "rissa-erb-top-3-left-2",
+          "source": "rissa",
+          "target": "erb",
+          "sourceHandle": "top-3",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "monitoring",
+            "title": "Totally monitoring, b-b-b-baka!",
+            "content": "Yeah we believe that ERB...",
+            "timestampUrl": "",
+            "pathType": "custom",
+            "marker": false,
+            "new": true,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": -28.5,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "erb-shiorin-right-2-top-2",
+          "source": "erb",
+          "target": "shiorin",
+          "sourceHandle": "right-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "monitoring",
+            "title": "Actually monitoring",
+            "content": "Monitoring her RIVAL IN LOVE?????",
+            "timestampUrl": "",
+            "pathType": "custom",
+            "marker": false,
+            "new": true,
+            "offsets": {
+              "HL": 0,
+              "VL": 36.5,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "shiorin-rissa-left-2-right-2",
+          "source": "shiorin",
+          "target": "rissa",
+          "sourceHandle": "left-2",
+          "targetHandle": "right-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "lovers",
+            "title": "???",
+            "content": "no seriously what is this relationship",
+            "timestampUrl": "",
+            "pathType": "custom",
+            "marker": false,
+            "new": true,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayRecap": "What is this love triangle...",
+      "title": "",
+      "nodes": [
+        {
+          "id": "rissa",
+          "type": "image",
+          "position": {
+            "x": 750,
+            "y": 550
+          },
+          "data": {
+            "title": "Rissa",
+            "content": "CONTENT",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Nerissa-Ravencroft_list_thumb.png",
+            "teamId": "advent",
+            "status": "Alive",
+            "new": false,
+            "bgCardColor": "#4c61f9"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "shiorin",
+          "type": "image",
+          "position": {
+            "x": 1050,
+            "y": 550
+          },
+          "data": {
+            "title": "Shiorin",
+            "content": "CONTENT",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Shiori-Novella_list_thumb.png",
+            "teamId": "advent",
+            "status": "Alive",
+            "new": false,
+            "bgCardColor": "#b8a0cd"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "erb",
+          "type": "image",
+          "position": {
+            "x": 900,
+            "y": 375
+          },
+          "data": {
+            "title": "ERB",
+            "content": "CONTENT",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Elizabeth-Rose-Bloodflame_list_thumb.png",
+            "teamId": "justice",
+            "status": "Alive",
+            "new": false,
+            "bgCardColor": "#db351f"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "rissa-erb-top-3-left-2",
+          "source": "rissa",
+          "target": "erb",
+          "sourceHandle": "top-3",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "monitoring",
+            "title": "Totally monitoring, b-b-b-baka!",
+            "content": "Yeah we believe that ERB...",
+            "timestampUrl": "",
+            "pathType": "custom",
+            "marker": false,
+            "new": false,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": -28.5,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "erb-shiorin-right-2-top-2",
+          "source": "erb",
+          "target": "shiorin",
+          "sourceHandle": "right-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "monitoring",
+            "title": "Actually monitoring",
+            "content": "Monitoring her RIVAL IN LOVE?????",
+            "timestampUrl": "",
+            "pathType": "custom",
+            "marker": false,
+            "new": false,
+            "offsets": {
+              "HL": 0,
+              "VL": 36.5,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "shiorin-rissa-left-2-right-2",
+          "source": "shiorin",
+          "target": "rissa",
+          "sourceHandle": "left-2",
+          "targetHandle": "right-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "lovers",
+            "title": "???",
+            "content": "no seriously what is this relationship",
+            "timestampUrl": "",
+            "pathType": "custom",
+            "marker": false,
+            "new": false,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "erb-shiorin-bottom-2-left-1",
+          "source": "erb",
+          "target": "shiorin",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "being-leader-is-suffering",
+            "title": "Pain dayo",
+            "content": "How do we manage our groups...",
+            "timestampUrl": "",
+            "pathType": "smoothstep",
+            "marker": false,
+            "new": true
+          },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "teams": {
+    "justice": {
+      "id": "justice",
+      "name": "Justice",
+      "teamIconSrc": "/holojustice.webp"
+    },
+    "advent": {
+      "id": "advent",
+      "name": "Advent",
+      "teamIconSrc": "/holoadvent.png"
+    }
+  },
+  "relationships": {
+    "monitoring": {
+      "id": "monitoring",
+      "name": "Monitoring",
+      "style": {
+        "stroke": "#d115cb"
+      }
+    },
+    "lovers": {
+      "id": "lovers",
+      "name": "Lovers?",
+      "style": {
+        "stroke": "#0f17ff"
+      }
+    },
+    "being-leader-is-suffering": {
+      "id": "being-leader-is-suffering",
+      "name": "Being Leader is Suffering",
+      "style": {
+        "stroke": "#9e9e9e"
+      }
+    }
+  }
+}

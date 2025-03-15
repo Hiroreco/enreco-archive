@@ -1,0 +1,600 @@
+{
+  "numberOfDays": 1,
+  "title": "TEMPLATE",
+  "charts": [
+    {
+      "dayRecap": "",
+      "title": "",
+      "nodes": [
+        {
+          "id": "fuwawa-abyssguard",
+          "type": "editorImage",
+          "position": {
+            "x": 400,
+            "y": 200
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Fuwawa-Abyssgard_list_thumb.png",
+            "title": "Fuwawa Abyssguard",
+            "content": "",
+            "teamId": "jade-sword",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#67b2ff",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "mococo-abyssguard",
+          "type": "editorImage",
+          "position": {
+            "x": 650,
+            "y": 200
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Mococo-Abyssgard_list_thumb.png",
+            "title": "Mococo Abyssguard",
+            "content": "",
+            "teamId": "jade-sword",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#f7a6ca",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame",
+          "type": "editorImage",
+          "position": {
+            "x": 400,
+            "y": 450
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Elizabeth-Rose-Bloodflame_list_thumb.png",
+            "title": "Elizabeth Rose Bloodflame",
+            "content": "[This should open Liz-Kronii edge](#edge:node-3-node-19-left-2-bottom-2) <br> [This should open Hot Pink One node](#node:node-17) <br> [This should open a youtube embed modal](https://www.youtube.com/watch?v=Rk7nZ91vme4&start=308)",
+            "teamId": "jade-sword",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#d91b02",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "mori-calliope",
+          "type": "editorImage",
+          "position": {
+            "x": 150,
+            "y": 325
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/calli.png",
+            "title": "Mori Calliope",
+            "content": "",
+            "teamId": "jade-sword",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#d2708b",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "jyan-watson",
+          "type": "editorImage",
+          "position": {
+            "x": 650,
+            "y": 450
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/ame.png",
+            "title": "Jyan Watson",
+            "content": "",
+            "teamId": "jade-sword",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#f8db92",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-nyavella",
+          "type": "editorImage",
+          "position": {
+            "x": 650,
+            "y": 700
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Shiori-Novella_list_thumb.png",
+            "title": "Shiori Nyavella",
+            "content": "",
+            "teamId": "scarlet-wand",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#b8a0cd",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "gawr-gura",
+          "type": "editorImage",
+          "position": {
+            "x": 150,
+            "y": 825
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Gawr-Gura_list_thumb.png",
+            "title": "Gawr Gura",
+            "content": "",
+            "teamId": "scarlet-wand",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#5d81c7",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immergreen",
+          "type": "editorImage",
+          "position": {
+            "x": 400,
+            "y": 950
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Cecilia-Immergreen_list_thumb.png",
+            "title": "Cecilia Immergreen",
+            "content": "",
+            "teamId": "scarlet-wand",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#119a5c",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "nerissa-ravencroft",
+          "type": "editorImage",
+          "position": {
+            "x": 650,
+            "y": 950
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Nerissa-Ravencroft_list_thumb.png",
+            "title": "Nerissa Ravencroft",
+            "content": "",
+            "teamId": "scarlet-wand",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#4c61f9",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "ceres-fauna",
+          "type": "editorImage",
+          "position": {
+            "x": 400,
+            "y": 700
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Ceres-Fauna_list_thumb.png",
+            "title": "Ceres Fauna",
+            "content": "",
+            "teamId": "scarlet-wand",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#b4e4c7",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "mario",
+          "type": "editorImage",
+          "position": {
+            "x": 950,
+            "y": 450
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Raora-Panthera_list_thumb.png",
+            "title": "Mario",
+            "content": "",
+            "teamId": "amber-coin",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#f087a9",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "tanakisha-karia",
+          "type": "editorImage",
+          "position": {
+            "x": 950,
+            "y": 200
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Takanashi-Kiara_thumb.png",
+            "title": "Tanakisha Karia",
+            "content": "",
+            "teamId": "amber-coin",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#ff511c",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "peasant-da-bae",
+          "type": "editorImage",
+          "position": {
+            "x": 1200,
+            "y": 200
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Hakos-Baelz_list_thumb.png",
+            "title": "Peasant Da Bae",
+            "content": "",
+            "teamId": "amber-coin",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#ff675d",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "cleopatra-eisenhower-da-vinci",
+          "type": "editorImage",
+          "position": {
+            "x": 1200,
+            "y": 450
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Nanashi-Mumei_list_thumb.png",
+            "title": "Cleopatra Eisenhower Da Vinci the Great the Third",
+            "content": "",
+            "teamId": "amber-coin",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#dcc4b2",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathan-g",
+          "type": "editorImage",
+          "position": {
+            "x": 1200,
+            "y": 700
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Gigi-Murin_list_thumb.png",
+            "title": "Gonathan G",
+            "content": "",
+            "teamId": "cerulean-cup",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#fdb440",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "koseki-bijou",
+          "type": "editorImage",
+          "position": {
+            "x": 950,
+            "y": 700
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Koseki-Bijou_list_thumb.png",
+            "title": "Koseki Bijou",
+            "content": "",
+            "teamId": "cerulean-cup",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#6e5bf4",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one",
+          "type": "editorImage",
+          "position": {
+            "x": 950,
+            "y": 950
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/IRyS_list_thumb.png",
+            "title": "Hot Pink One",
+            "content": "",
+            "teamId": "cerulean-cup",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#e10e5b",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "nino-ina",
+          "type": "editorImage",
+          "position": {
+            "x": 1200,
+            "y": 950
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/ina.png",
+            "title": "Nino Ina",
+            "content": "",
+            "teamId": "cerulean-cup",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#966aae",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "tam-gandr",
+          "type": "editorImage",
+          "position": {
+            "x": 1475,
+            "y": 825
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Ouro-Kronii_list_thumb.png",
+            "title": "Tam Gandr",
+            "content": "",
+            "teamId": "cerulean-cup",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#1d1797",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "the-king-of-libestal",
+          "type": "editorImage",
+          "position": {
+            "x": 1475,
+            "y": 575
+          },
+          "data": {
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/king.png",
+            "title": "The king of Libestal",
+            "content": "",
+            "team": "",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#f6e7c8",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        }
+      ],
+      "edges": []
+    }
+  ],
+  "teams": {
+    "cerulean-cup": {
+      "id": "cerulean-cup",
+      "name": "Cerulean Cup",
+      "teamIconSrc": "https://cdn.holoen.fans/hefw/media/ceruleancup.webp"
+    },
+    "jade-sword": {
+      "id": "jade-sword",
+      "name": "Jade Sword",
+      "teamIconSrc": "https://cdn.holoen.fans/hefw/media/jadesword.webp"
+    },
+    "scarlet-wand": {
+      "id": "scarlet-wand",
+      "name": "Scarlet Wand",
+      "teamIconSrc": "https://cdn.holoen.fans/hefw/media/scarletwand.webp"
+    },
+    "amber-coin": {
+      "id": "amber-coin",
+      "name": "Amber Coin",
+      "teamIconSrc": "https://cdn.holoen.fans/hefw/media/ambercoin.webp"
+    }
+  },
+  "relationships": {
+    "marriage": {
+      "id": "marriage",
+      "name": "Marriage",
+      "style": {
+        "stroke": "#FE65C5"
+      }
+    },
+    "romantic": {
+      "id": "romantic",
+      "name": "Romantic",
+      "style": {
+        "stroke": "#FE65C5",
+        "strokeDasharray": "5,5"
+      }
+    },
+    "unrequited-love": {
+      "id": "unrequited-love",
+      "name": "Unrequited Love",
+      "style": {
+        "stroke": "#496CED",
+        "strokeDasharray": "5,5"
+      }
+    },
+    "child": {
+      "id": "child",
+      "name": "Child",
+      "style": {
+        "stroke": "#00BF62"
+      }
+    },
+    "familial-relationship": {
+      "id": "familial-relationship",
+      "name": "Familial Relationship",
+      "style": {
+        "stroke": "#00BF62",
+        "strokeDasharray": "5,5"
+      }
+    },
+    "protector": {
+      "id": "protector",
+      "name": "Protector",
+      "style": {
+        "stroke": "#83AF78"
+      }
+    },
+    "misc-romantic-relationship": {
+      "id": "misc-romantic-relationship",
+      "name": "Misc. Romantic Relationship",
+      "style": {
+        "stroke": "#FD914E"
+      }
+    },
+    "enemies-rivals": {
+      "id": "enemies-rivals",
+      "name": "Enemies/Rivals",
+      "style": {
+        "stroke": "#E8181D"
+      }
+    },
+    "big-pink-cat": {
+      "id": "big-pink-cat",
+      "name": "Big Pink Cat",
+      "style": {
+        "stroke": "#5C18E9"
+      }
+    },
+    "lick": {
+      "id": "lick",
+      "name": "Lick",
+      "style": {
+        "stroke": "#5C18E9",
+        "strokeDasharray": "5,5"
+      }
+    },
+    "business": {
+      "id": "business",
+      "name": "Business",
+      "style": {
+        "stroke": "#A7A7A7"
+      }
+    },
+    "side-chick": {
+      "id": "side-chick",
+      "name": "Side Chick",
+      "style": {
+        "stroke": "#FEDE5A"
+      }
+    },
+    "allies": {
+      "id": "allies",
+      "name": "Allies",
+      "style": {
+        "stroke": "#A7A7A7",
+        "strokeDasharray": "5,5"
+      }
+    },
+    "no-longer-together": {
+      "id": "no-longer-together",
+      "name": "No Longer Together",
+      "style": {
+        "stroke": "#000000"
+      }
+    }
+  }
+}

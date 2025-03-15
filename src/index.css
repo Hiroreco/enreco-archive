@@ -2,46 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-p,
-h1,
-h2,
-h3 {
-    color: rgb(63, 63, 70);
-}
-h1::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: rgba(63, 63, 70, 30%);
-    margin-top: 0.5rem;
-}
-
 img {
     @apply rounded-lg;
+}
+@font-face {
+    font-family: "Chesterfield";
+    src: url("/chesterfield.woff2") format("woff2");
 }
 
 @layer base {
     :root {
-        --background: 0 0% 100%;
-        --foreground: 0 0% 3.9%;
-        --card: 0 0% 100%;
-        --card-foreground: 0 0% 3.9%;
-        --popover: 0 0% 100%;
-        --popover-foreground: 0 0% 3.9%;
+        --background: 0 0% 98%;
+        --foreground: 0 0% 27%;
+        --card: 0 0% 98%;
+        --card-foreground: 0 0% 27%;
+        --popover: 0 0% 98%;
+        --popover-foreground: 0 0% 27%;
         --primary: 0 0% 9%;
         --primary-foreground: 0 0% 98%;
         --secondary: 0 0% 96.1%;
         --secondary-foreground: 0 0% 9%;
         --muted: 0 0% 96.1%;
         --muted-foreground: 0 0% 45.1%;
-        --accent: 0 0% 96.1%;
-        --accent-foreground: 0 0% 9%;
+        --accent: 207 39.1% 59.4%;
+        --accent-foreground: 0 0% 100% / 87%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
         --border: 0 0% 89.8%;
         --input: 0 0% 89.8%;
-        --ring: 0 0% 3.9%;
+        --ring: 0 0% 27%;
         --chart-1: 12 76% 61%;
         --chart-2: 173 58% 39%;
         --chart-3: 197 37% 24%;
@@ -50,24 +39,24 @@ img {
         --radius: 0.5rem;
     }
     .dark {
-        --background: 0 0% 3.9%;
-        --foreground: 0 0% 98%;
-        --card: 0 0% 3.9%;
-        --card-foreground: 0 0% 98%;
-        --popover: 0 0% 3.9%;
-        --popover-foreground: 0 0% 98%;
+        --background: 0 0% 7.1%;
+        --foreground: 0 0% 100% / 87%;
+        --card: 0 0% 7.1%;
+        --card-foreground: 0 0% 100% / 87%;
+        --popover: 0 0% 7.1%;
+        --popover-foreground: 0 0% 100% / 87%;
         --primary: 0 0% 98%;
         --primary-foreground: 0 0% 9%;
-        --secondary: 0 0% 14.9%;
-        --secondary-foreground: 0 0% 98%;
-        --muted: 0 0% 14.9%;
-        --muted-foreground: 0 0% 63.9%;
-        --accent: 0 0% 14.9%;
-        --accent-foreground: 0 0% 98%;
+        --secondary: 0 0% 19.9%;
+        --secondary-foreground: 0 0% 100% / 87%;
+        --muted: 0 0% 15.7%;
+        --muted-foreground: 0 0% 100% / 60%;
+        --accent: 207 39.1% 59.4%;
+        --accent-foreground: 0 0% 100% / 87%;
         --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 14.9%;
-        --input: 0 0% 14.9%;
+        --destructive-foreground: 0 0% 100% / 87%;
+        --border: 0 0% 25%;
+        --input: 0 0% 25%;
         --ring: 0 0% 83.1%;
         --chart-1: 220 70% 50%;
         --chart-2: 160 60% 45%;
@@ -86,26 +75,6 @@ img {
     }
 }
 
-/* Custom scrollbar styles */
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--background);
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--foreground);
-    border-radius: 10px;
-    border: 2px solid var(--background);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--primary);
-}
-
 h1 {
     @apply text-3xl font-bold;
 }
@@ -114,12 +83,30 @@ h2 {
     @apply text-2xl font-bold;
 }
 
+h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    opacity: 30%;
+    background-color: hsl(var(--primary));
+    @apply w-full my-2;
+}
+
 h3 {
     @apply text-xl font-bold;
 }
 
 a {
-    color: #073471;
+    color: #5f8db2;
+}
+
+.dark a {
+    color: rgb(116, 161, 198);
+}
+
+a:visited {
+    color: #6f74c0;
 }
 
 ul {
@@ -128,6 +115,30 @@ ul {
 
 li {
     @apply mb-2;
+}
+
+figure {
+    @apply rounded-lg md:max-w-[80%] mx-auto;
+}
+
+lite-youtube {
+    @apply rounded-lg;
+}
+
+figcaption {
+    @apply text-center;
+}
+
+table {
+    @apply w-full;
+}
+
+th {
+    @apply bg-gray-200;
+}
+
+td {
+    @apply border-t border-border;
 }
 
 .deco {
@@ -146,12 +157,160 @@ li {
     @apply rounded-t-lg;
 }
 
-.link-span {
-    @apply text-[#073471] underline cursor-pointer;
-}
-
-@keyframes dash {
+@keyframes drawLine {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+/* Minigame stuff */
+.box {
+    @apply transition-all w-[35px] h-[35px] border border-black border-opacity-10 cursor-pointer;
+}
+/* To handle mobile horizontal layout */
+@media (min-height: 700px) {
+    .box {
+        @apply w-[50px] h-[50px];
+    }
+}
+
+.box-empty {
+    @apply box bg-gray-200;
+}
+
+.dark .box-empty {
+    @apply box bg-gray-600;
+}
+
+.box-blue {
+    @apply box bg-blue-500;
+}
+
+.box-red {
+    @apply box bg-red-500;
+}
+
+.box-green {
+    @apply box bg-green-500;
+}
+
+.box-yellow {
+    @apply box bg-yellow-500;
+}
+
+.x-close {
+    @apply absolute top-6 right-6 cursor-pointer opacity-70 hover:opacity-100;
+}
+
+.grid-bg {
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2) 1px,
+            transparent 1px
+        ),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
+    background-size: 70px 70px;
+    background-position: 55px 0;
+}
+
+.card-deco {
+    background-image: url("/images-opt/card-deco.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dark .card-deco {
+    background-image: url("/images-opt/card-deco-dark.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.running-border {
+    --offset: 0px;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.running-border::before {
+    @apply brightness-90;
+    content: "";
+    background: conic-gradient(
+        transparent 270deg,
+        var(--border-color, #5f8db2) /* Fallback color */,
+        transparent
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1;
+    width: 100%;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+    }
+}
+
+.running-light {
+    stroke-dasharray: 5, 200;
+    stroke-dashoffset: 0;
+    animation: runningLight 5s linear infinite;
+    opacity: 0.4;
+}
+
+@keyframes runningLight {
+    to {
+        stroke-dashoffset: -205;
+    }
+}
+
+.dark .running-light {
+    opacity: 0.3;
+}
+
+.logo-text {
+    @apply text-white font-semibold font-[Chesterfield] text-3xl;
+    text-shadow:
+        0px 0px 10px #153650,
+        0px 0px 10px #153650;
+}
+
+.dark .logo-text {
+    text-shadow:
+        0px 0px 10px #1c4462,
+        0px 0px 10px #1c4462;
+}
+
+/* For Firefox */
+@-moz-document url-prefix() {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #9ca3af transparent;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground;
 }

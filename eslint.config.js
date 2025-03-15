@@ -26,5 +26,5 @@ export default tseslint.config(
             "@typescript-eslint/no-empty-object-type": "off",
             "@typescript-eslint/ban-ts-comment": "off",
         },
-    }
+    },
 );

@@ -8,8 +8,8 @@ const EditorCard = React.forwardRef<
     <div
         ref={ref}
         className={cn(
-            "rounded-lg border bg-card text-card-foreground flex flex-col shadow-xl bg-white items-center gap-4 absolute right-10 px-4 py-4 top-1/2 -translate-y-1/2 max-w-[500px]",
-            className
+            "rounded-lg border bg-card text-card-foreground flex flex-col shadow-xl bg-background items-center gap-4 absolute right-10 px-4 py-4 top-1/2 -translate-y-1/2 max-w-[500px] overflow-y-scroll max-h-[90vh]",
+            className,
         )}
         {...props}
     />

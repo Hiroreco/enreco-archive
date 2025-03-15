@@ -1,97 +1,131 @@
-import useEdgeStyle from "@/hooks/useEdgeStyle";
-import { EDGE_WIDTH, OLD_EDGE_OPACITY } from "@/lib/constants";
-import { CustomEdgeProps, ImageNodeType } from "@/lib/type";
+import { generatePath } from "@/lib/get-edge-svg-path";
+import { FixedEdgeProps } from "@/lib/type";
 import { cn } from "@/lib/utils";
 import { useViewStore } from "@/store/viewStore";
-import { BaseEdge, useReactFlow } from "@xyflow/react";
-import { memo, useMemo } from "react";
+import { memo, useEffect, useId, useMemo, useRef } from "react";
 
-const getVisibilityStyle = (visible: boolean, isNew: boolean) => {
-    if (!visible) {
-        return {
-            opacity: 0,
-            strokeWidth: 0,
-        };
-    }
-    if (!isNew) {
-        return {
-            opacity: OLD_EDGE_OPACITY,
-        };
-    }
-    return {
-        opacity: 1,
-    };
-};
+const ViewCustomEdge = ({
+    data,
+    style,
+    sourceX,
+    sourceY,
+    sourcePosition,
+    targetX,
+    targetY,
+    targetPosition,
+}: FixedEdgeProps) => {
+    const isNewlyAdded = data?.isNewlyAdded || false;
+    const pathRef = useRef<SVGPathElement>(null);
+    const maskId = useId();
+    const { strokeDasharray, ...restStyle } = style || {};
+    const viewStore = useViewStore();
 
-const ViewCustomEdge = ({ source, target, data, id }: CustomEdgeProps) => {
-    const { edgeStyle } = useEdgeStyle(data?.relationship);
-    const {
-        edgeVisibility,
-        teamVisibility,
-        characterVisibility,
-        hoveredEdgeId,
-    } = useViewStore();
-    const { getNode } = useReactFlow();
-
-    const nodeSrc = getNode(source) as ImageNodeType;
-    const nodeTarget = getNode(target) as ImageNodeType;
-
-    // Memoize visibility calculations for performance
-    const isVisible = useMemo(() => {
-        let visibility = true;
-        if (data?.relationship) {
-            visibility = visibility && edgeVisibility[data.relationship];
-        }
-        if (nodeSrc?.data.team) {
-            visibility = visibility && teamVisibility[nodeSrc.data.team];
-        }
-        if (nodeTarget?.data.team) {
-            visibility = visibility && teamVisibility[nodeTarget.data.team];
-        }
-        if (nodeSrc?.data.title) {
-            visibility = visibility && characterVisibility[nodeSrc.data.title];
-        }
-        if (nodeTarget?.data.title) {
-            visibility =
-                visibility && characterVisibility[nodeTarget.data.title];
-        }
-        return visibility;
-    }, [
-        data?.relationship,
-        edgeVisibility,
-        teamVisibility,
-        characterVisibility,
-        nodeSrc?.data.team,
-        nodeSrc?.data.title,
-        nodeTarget?.data.team,
-        nodeTarget?.data.title,
-    ]);
-
-    const isNew = data?.new || !edgeVisibility.new || false;
-    const edgeVisibilityStyle = useMemo(
-        () => getVisibilityStyle(isVisible, isNew),
-        [isVisible, isNew]
+    const path = useMemo(
+        () =>
+            generatePath(
+                data?.pathType,
+                data?.offsets,
+                sourceX,
+                sourceY,
+                sourcePosition,
+                targetX,
+                targetY,
+                targetPosition,
+            ),
+        [
+            data?.offsets,
+            data?.pathType,
+            sourcePosition,
+            sourceX,
+            sourceY,
+            targetPosition,
+            targetX,
+            targetY,
+        ],
     );
 
+    useEffect(() => {
+        if (isNewlyAdded && pathRef.current) {
+            const length = pathRef.current.getTotalLength();
+            pathRef.current.style.strokeDasharray = `${length}`;
+            pathRef.current.style.strokeDashoffset = `${length}`;
+            pathRef.current.style.animation =
+                "drawLine 1s ease-in-out forwards";
+        } else if (pathRef.current) {
+            pathRef.current.style.strokeDasharray = "none";
+            pathRef.current.style.strokeDashoffset = "none";
+            pathRef.current.style.animation = "none";
+        }
+    }, [isNewlyAdded]);
+
     return (
-        <BaseEdge
-            path={data?.path || ""}
-            className={cn("transition-all", {
-                "pointer-events-none":
-                    data?.new === false && edgeVisibility.new,
-            })}
-            style={{
-                strokeWidth:
-                    id === hoveredEdgeId &&
-                    edgeVisibility["new"] &&
-                    data?.new !== false
-                        ? EDGE_WIDTH + 2
-                        : EDGE_WIDTH,
-                ...edgeStyle,
-                ...edgeVisibilityStyle,
-            }}
-            interactionWidth={0}
-        />
+        <svg
+            className={cn(
+                "transition-all fill-none duration-1000 dark:brightness-[0.87]",
+                {
+                    "brightness-90 dark:brightness-50":
+                        viewStore.currentCard !== null && !data!.isSelected,
+                    "brightness-100":
+                        viewStore.currentCard !== null && data!.isSelected,
+                },
+            )}
+        >
+            {/* Mask for dashed edges */}
+            <defs>
+                {strokeDasharray && (
+                    <mask id={maskId}>
+                        <path
+                            d={path}
+                            stroke="white"
+                            strokeWidth={data!.isSelected ? 7 : 5}
+                            strokeDasharray={strokeDasharray}
+                            fill="none"
+                            strokeLinecap="round"
+                        />
+                    </mask>
+                )}
+            </defs>
+
+            {/* Transparent click area */}
+            <path
+                d={path}
+                fill="none"
+                stroke="transparent"
+                strokeWidth={20}
+                strokeLinecap="round"
+                className="cursor-pointer"
+            />
+
+            {/* Actual edge with mask applied if dashed */}
+            <path
+                ref={pathRef}
+                d={path}
+                style={{
+                    transition: "opacity 1s, stroke-width .3s, stroke 1s",
+                    ...restStyle,
+                }}
+                className={cn("hover:stroke-[7]", {
+                    "stroke-[5]": !data!.isSelected,
+                    "stroke-[7]": data!.isSelected,
+                })}
+                mask={strokeDasharray ? `url(#${maskId})` : undefined}
+            />
+
+            {/* Animated light effect when selected */}
+            {data!.isSelected && (
+                <path
+                    d={path}
+                    stroke="white"
+                    strokeWidth={9}
+                    strokeLinecap="round"
+                    fill="none"
+                    className="running-light"
+                    style={{
+                        filter: "drop-shadow(0 0 3px rgba(255,255,255,0.7))",
+                    }}
+                />
+            )}
+        </svg>
     );
 };
 

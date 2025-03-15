@@ -1,0 +1,364 @@
+{
+  "numberOfDays": 2,
+  "title": "TakoBaeRyS",
+  "charts": [
+    {
+      "nodes": [
+        {
+          "id": "inya",
+          "type": "editorImage",
+          "position": {
+            "x": 950,
+            "y": 450
+          },
+          "data": {
+            "title": "Inya",
+            "content": "its inya",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/ina.png",
+            "teamId": "myth",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#4c3f5a",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "iwys",
+          "type": "editorImage",
+          "position": {
+            "x": 775,
+            "y": 650
+          },
+          "data": {
+            "title": "IWyS",
+            "content": "its iwys",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/IRyS_list_thumb.png",
+            "teamId": "promise",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#e10e5b",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "bae",
+          "type": "editorImage",
+          "position": {
+            "x": 1125,
+            "y": 650
+          },
+          "data": {
+            "title": "Bae",
+            "content": "its hakos baelzu",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Hakos-Baelz_list_thumb.png",
+            "teamId": "promise",
+            "status": "Alive",
+            "new": true,
+            "bgCardColor": "#ff675d",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "inya-iwys-left-2-top-2",
+          "source": "inya",
+          "target": "iwys",
+          "sourceHandle": "left-2",
+          "targetHandle": "top-2",
+          "type": "customSmooth",
+          "data": {
+            "relationshipId": "otaku-bond",
+            "title": "",
+            "content": "",
+            "timestampUrl": "",
+            "new": true,
+            "pathType": "smoothstep",
+            "marker": false,
+            "renderEdgeStyle": {
+              "stroke": "#e505f5"
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "inya-bae-right-2-top-2",
+          "source": "inya",
+          "target": "bae",
+          "sourceHandle": "right-2",
+          "targetHandle": "top-2",
+          "type": "customSmooth",
+          "data": {
+            "relationshipId": "best-friends",
+            "title": "",
+            "content": "",
+            "timestampUrl": "",
+            "new": true,
+            "pathType": "smoothstep",
+            "marker": false,
+            "renderEdgeStyle": {
+              "stroke": "#0cec09"
+            },
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "iwys-bae-right-2-left-2",
+          "source": "iwys",
+          "target": "bae",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "customSmooth",
+          "data": {
+            "relationshipId": "married-divorced-married-again",
+            "title": "",
+            "content": "",
+            "timestampUrl": "",
+            "new": true,
+            "pathType": "smoothstep",
+            "marker": false,
+            "renderEdgeStyle": {
+              "stroke": "#ff00bb",
+              "strokeDasharray": "10,10"
+            },
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        }
+      ],
+      "dayRecap": "Another triangle????",
+      "title": ""
+    },
+    {
+      "nodes": [
+        {
+          "id": "inya",
+          "type": "editorImage",
+          "position": {
+            "x": 950,
+            "y": 450
+          },
+          "data": {
+            "title": "Inya",
+            "content": "its inya",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/ina.png",
+            "teamId": "myth",
+            "status": "Alive",
+            "new": false,
+            "bgCardColor": "#4c3f5a",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
+        },
+        {
+          "id": "iwys",
+          "type": "editorImage",
+          "position": {
+            "x": 775,
+            "y": 650
+          },
+          "data": {
+            "title": "IWyS",
+            "content": "its iwys",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/IRyS_list_thumb.png",
+            "teamId": "promise",
+            "status": "Alive",
+            "new": false,
+            "bgCardColor": "#e10e5b",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": true,
+          "dragging": false
+        },
+        {
+          "id": "bae",
+          "type": "editorImage",
+          "position": {
+            "x": 1125,
+            "y": 650
+          },
+          "data": {
+            "title": "Bae",
+            "content": "its hakos baelzu",
+            "imageSrc": "https://cdn.holoen.fans/hefw/media/Hakos-Baelz_list_thumb.png",
+            "teamId": "promise",
+            "status": "Alive",
+            "new": false,
+            "bgCardColor": "#ff675d",
+            "renderShowHandles": true
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "inya-iwys-left-2-top-2",
+          "source": "inya",
+          "target": "iwys",
+          "sourceHandle": "left-2",
+          "targetHandle": "top-2",
+          "type": "customSmooth",
+          "data": {
+            "relationshipId": "otaku-bond",
+            "title": "",
+            "content": "",
+            "timestampUrl": "",
+            "new": false,
+            "pathType": "smoothstep",
+            "marker": false,
+            "renderEdgeStyle": {
+              "stroke": "#e505f5"
+            },
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "inya-bae-right-2-top-2",
+          "source": "inya",
+          "target": "bae",
+          "sourceHandle": "right-2",
+          "targetHandle": "top-2",
+          "type": "customSmooth",
+          "data": {
+            "relationshipId": "best-friends",
+            "title": "",
+            "content": "",
+            "timestampUrl": "",
+            "new": false,
+            "pathType": "smoothstep",
+            "marker": false,
+            "renderEdgeStyle": {
+              "stroke": "#0cec09"
+            },
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "iwys-bae-right-2-left-2",
+          "source": "iwys",
+          "target": "bae",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "customSmooth",
+          "data": {
+            "relationshipId": "married-divorced-married-again",
+            "title": "",
+            "content": "",
+            "timestampUrl": "",
+            "new": false,
+            "pathType": "smoothstep",
+            "marker": false,
+            "renderEdgeStyle": {
+              "stroke": "#ff00bb",
+              "strokeDasharray": "10,10"
+            },
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        }
+      ],
+      "dayRecap": "Another triangle????",
+      "title": ""
+    }
+  ],
+  "relationships": {
+    "best-friends": {
+      "id": "best-friends",
+      "name": "Best Friends",
+      "style": {
+        "stroke": "#0cec09"
+      }
+    },
+    "married-divorced-married-again": {
+      "id": "married-divorced-married-again",
+      "name": "Married-Divorced-Married Again",
+      "style": {
+        "stroke": "#ff00bb",
+        "strokeDasharray": "10,10"
+      }
+    },
+    "otaku-bond": {
+      "id": "otaku-bond",
+      "name": "Otaku Bond",
+      "style": {
+        "stroke": "#e505f5"
+      }
+    }
+  },
+  "teams": {
+    "myth": {
+      "id": "myth",
+      "name": "Myth",
+      "teamIconSrc": "/holomyth.png"
+    },
+    "promise": {
+      "id": "promise",
+      "name": "Promise",
+      "teamIconSrc": "/holopromise.png"
+    }
+  }
+}

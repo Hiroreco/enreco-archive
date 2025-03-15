@@ -1,312 +1,590 @@
-// @ts-nocheck
-// No check because EditorApp isn't going in the final build, it's just for development, and I'm too lazy to fix the types
 "use client";
-import EditorCustomEdge from "@/components/editor/EditorCustomEdge";
+
+import * as Toggle from "@radix-ui/react-toggle";
+import * as Toolbar from "@radix-ui/react-toolbar";
+import { useReactFlow } from "@xyflow/react";
+import {
+    LucideArrowRightFromLine,
+    LucideFolderOpen,
+    LucideSave,
+} from "lucide-react";
+
+import EditorChart from "@/components/editor/EditorChart";
 import EdgeEditorCard from "@/components/editor/EditorEdgeCard";
 import EditorGeneralCard from "@/components/editor/EditorGeneralCard";
 import EditorNodeCard from "@/components/editor/EditorNodeCard";
-import EditorSmoothEdge from "@/components/editor/EditorSmoothEdge";
+import EditorRelationshipsCard from "@/components/editor/EditorRelationshipsCard";
+import EditorTeamsCard from "@/components/editor/EditorTeamsCard";
+import EditorTransportControls from "@/components/editor/EditorTransportControls";
 import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select";
 import useKeyboard from "@/hooks/useKeyboard";
-import { ChartData, CustomEdgeType } from "@/lib/type";
-import { useChartStore } from "@/store/chartStore";
-import { useEditorStore } from "@/store/editorStore";
-import { useFlowStore } from "@/store/flowStore";
+import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
+import { exportData, loadData, saveData } from "@/lib/datahelper";
+import { generateEdgeId } from "@/lib/editor-utils";
 import {
-    addEdge,
-    ConnectionLineType,
-    ConnectionMode,
-    ReactFlow,
-    ReactFlowInstance,
-    useEdgesState,
-    useNodesState,
-    useReactFlow,
-} from "@xyflow/react";
-import "@xyflow/react/dist/style.css";
-import { useEffect, useState } from "react";
-import EditorImageNode from "./EditorImageNode";
+    CustomEdgeType,
+    CustomEdgeTypeNames,
+    EditorImageNodeType,
+    RelationshipMap,
+    TeamMap,
+} from "@/lib/type";
+import { EditorMode, useEditorStore } from "@/store/editorStore";
+import { ThemeType, useSettingStore } from "@/store/settingStore";
+import { Label } from "@/components/ui/label";
+import useLightDarkModeSwitcher from "@/hooks/useLightDarkModeSwitcher";
 
-import EditorFixedEdge from "@/components/editor/EditorFixedEdge";
-import EditorStraightEdge from "@/components/editor/EditorStraightEdge";
-
-import {
-    copyChartData,
-    exportJson,
-    mergeChartsIntoOneBigFile,
-} from "@/lib/datahelper";
-
-import chartData from "@/data/day8.json";
-
-import day1 from "@/data/day1.json";
-import day2 from "@/data/day2.json";
-import day3 from "@/data/day3.json";
-import day4 from "@/data/day4.json";
-import day5 from "@/data/day5.json";
-import day6 from "@/data/day6.json";
-import day7 from "@/data/day7.json";
-import day8 from "@/data/day8.json";
-
-const nodeTypes = {
-    image: EditorImageNode,
+const EMPTY_NODE: EditorImageNodeType = {
+    id: "",
+    type: "editorImage",
+    position: { x: 0, y: 0 },
+    data: {
+        title: "",
+        content: "",
+        imageSrc: DEFAULT_NODE_IMAGE,
+        teamId: "",
+        status: "",
+        day: 0,
+        bgCardColor: "",
+        renderShowHandles: true,
+    },
 };
 
-const edgeTypes = {
-    custom: EditorCustomEdge,
-    customSmooth: EditorSmoothEdge,
-    customStraight: EditorStraightEdge,
-    fixed: EditorFixedEdge,
-};
-
-const loadFlow = () => {
-    return chartData; // Load JSON data from chart.json
+const EMPTY_EDGE: CustomEdgeType = {
+    id: "",
+    type: "custom",
+    source: "",
+    target: "",
+    style: {},
+    data: {
+        relationshipId: "",
+        title: "",
+        content: "",
+        day: 0,
+        pathType: "invalid",
+        offsets: {
+            HL: 0,
+            VL: 0,
+            HC: 0,
+            VR: 0,
+            HR: 0,
+        },
+    },
 };
 
 const EditorApp = () => {
-    const { setData } = useChartStore();
-
-    const { screenToFlowPosition, deleteElements } = useReactFlow();
-    const {
-        mode,
-        currentCard,
-        setCurrentCard,
-        edgePaths,
-        edgeType,
-        setEdgeType,
-    } = useEditorStore();
-    const { selectedEdge, selectedNode, setSelectedEdge, setSelectedNode } =
-        useFlowStore();
-    const [rfInstance, setRfInstance] = useState<ReactFlowInstance>();
-    const [nodes, setNodes, onNodesChange] = useNodesState([]);
-    const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-    const { data } = useChartStore();
+    const { updateEdge, updateNode, deleteElements } = useReactFlow();
+    const editorStore = useEditorStore();
+    const { themeType, setThemeType } = useSettingStore();
+    const isDarkMode = useLightDarkModeSwitcher(themeType);
     useKeyboard();
 
-    // Setting edgePaths as one of the dependencies will cause an infinite loop
-    useEffect(() => {
-        const chartData = loadFlow();
-        setData(chartData);
-        setNodes(chartData.nodes);
-        setEdges(chartData.edges);
-        for (const edge of chartData.edges) {
-            edgePaths[edge.id] = edge.data.path;
+    const numChapters = editorStore.data.length;
+    const numDays =
+        editorStore.chapter !== null && editorStore.data
+            ? editorStore.data[editorStore.chapter].numberOfDays
+            : 0;
+    const teams =
+        editorStore.chapter !== null && editorStore.data
+            ? editorStore.data[editorStore.chapter].teams
+            : {};
+    const relationships =
+        editorStore.chapter !== null && editorStore.data
+            ? editorStore.data[editorStore.chapter].relationships
+            : {};
+
+    const rawNodes =
+        editorStore.chapter !== null &&
+        editorStore.day !== null &&
+        editorStore.data
+            ? editorStore.data[editorStore.chapter].charts[editorStore.day]
+                  ?.nodes
+            : [];
+    const nodes = rawNodes.map((node) => {
+        const newNode = structuredClone(node);
+        newNode.data.renderShowHandles = editorStore.showHandles;
+        return newNode;
+    });
+
+    const processedNodes = nodes
+        .map((node) => {
+            if (node.data.day !== editorStore.day) {
+                if (
+                    !editorStore.data[editorStore.chapter!].charts[
+                        node.data.day
+                    ]
+                ) {
+                    return undefined;
+                }
+                // get the node from the latest day it was updated
+                let latestUpdatedNode = undefined;
+                for (let i = editorStore.day! - 1; i >= 0; i--) {
+                    latestUpdatedNode = editorStore.data[
+                        editorStore.chapter!
+                    ].charts[i].nodes.find(
+                        (n) => n.id === node.id && n.data && i === n.data.day,
+                    );
+                    if (latestUpdatedNode) {
+                        break;
+                    }
+                }
+                return latestUpdatedNode ? latestUpdatedNode : node;
+            }
+            return node;
+        })
+        .filter((node): node is EditorImageNodeType => node !== undefined);
+
+    const rawEdges =
+        editorStore.chapter !== null &&
+        editorStore.day !== null &&
+        editorStore.data
+            ? editorStore.data[editorStore.chapter].charts[editorStore.day]
+                  ?.edges
+            : [];
+    const edges = rawEdges.map((edge) => {
+        const newEdge = structuredClone(edge);
+        if (newEdge.data && newEdge.data.relationshipId) {
+            newEdge.style =
+                relationships[newEdge.data.relationshipId].style || {};
+        } else {
+            newEdge.style = {};
         }
-    }, [setNodes, setEdges, setData]);
+        return newEdge;
+    });
 
-    const addNode = (x: number, y: number) => {
-        const newNode = {
-            id: `node-${nodes.length + 1}`,
-            type: "image",
-            position: screenToFlowPosition({ x, y }),
-            data: {
-                imageSrc: "",
-            },
-        };
-        setNodes((nds) => nds.concat(newNode));
+    const processedEdges = edges
+        .map((edge) => {
+            if (edge.data && edge.data.day !== editorStore.day) {
+                if (
+                    !editorStore.data[editorStore.chapter!].charts[
+                        edge.data.day
+                    ]
+                ) {
+                    return undefined;
+                }
+                // get the edge from the latest day it was updated
+                let latestUpdatedEdge = undefined;
+                for (let i = editorStore.day! - 1; i >= 0; i--) {
+                    latestUpdatedEdge = editorStore.data[
+                        editorStore.chapter!
+                    ].charts[i].edges.find(
+                        (e) => e.id === edge.id && e.data && i === e.data.day,
+                    );
+                    if (latestUpdatedEdge) {
+                        break;
+                    }
+                }
+                return latestUpdatedEdge ? latestUpdatedEdge : edge;
+            }
+            return edge;
+        })
+        .filter((edge): edge is CustomEdgeType => edge !== undefined);
+
+    const updateEdgeEH = (oldEdge: CustomEdgeType, newEdge: CustomEdgeType) => {
+        updateEdge(oldEdge.id, newEdge);
     };
 
-    const connectEdge = (params: CustomEdgeType) => {
-        params.type = edgeType;
-        params.data = {
-            relationship: undefined,
-            title: "",
-            content: "",
-            timestampUrl: "",
-            new: true,
-        };
-        params.id = `${params.source}-${params.target}-${params.sourceHandle}-${params.targetHandle}`;
-        setEdges((eds) => addEdge(params, eds));
-    };
+    const updateNodeEH = (
+        oldNode: EditorImageNodeType,
+        newNode: EditorImageNodeType,
+    ) => {
+        if (oldNode.id !== newNode.id) {
+            edges
+                .filter((edge) => edge.source === oldNode.id)
+                .forEach((edge) => {
+                    edge.source = newNode.id;
+                    edge.id = generateEdgeId(
+                        newNode.id,
+                        edge.target,
+                        edge.sourceHandle,
+                        edge.targetHandle,
+                    );
+                });
+            edges
+                .filter((edge) => edge.target === oldNode.id)
+                .forEach((edge) => {
+                    edge.target = newNode.id;
+                    edge.id = generateEdgeId(
+                        edge.source,
+                        newNode.id,
+                        edge.sourceHandle,
+                        edge.targetHandle,
+                    );
+                });
+            editorStore.setEdges(edges);
+        }
 
-    const updateEdge = (params) => {
-        setEdges((eds) =>
-            eds.map((edge) =>
-                edge.id === params.id ? { ...edge, ...params } : edge
-            )
-        );
-    };
-
-    const updateNode = (params) => {
-        console.log(params);
-        setNodes((nds) =>
-            nds.map((node) =>
-                node.id === params.id ? { ...node, ...params } : node
-            )
-        );
+        updateNode(oldNode.id, newNode);
     };
 
     const deleteEdge = () => {
-        if (selectedEdge) {
+        if (editorStore.selectedEdge) {
             deleteElements({
-                edges: [selectedEdge],
+                edges: [editorStore.selectedEdge],
             });
         }
-        setSelectedEdge(null);
-        setCurrentCard(null);
+        editorStore.setSelectedEdge(null);
+        editorStore.setCurrentCard(null);
     };
 
     const deleteNode = () => {
-        if (selectedNode) {
+        if (editorStore.selectedNode) {
             deleteElements({
-                nodes: [selectedNode],
+                nodes: [editorStore.selectedNode],
             });
         }
-        setSelectedNode(null);
-        setCurrentCard(null);
+        editorStore.setSelectedNode(null);
+        editorStore.setCurrentCard(null);
     };
 
-    const handleClick = (event) => {
-        if (mode === "place") {
-            addNode(event.clientX, event.clientY);
+    const addChapterEH = () => {
+        if (editorStore.chapter === null) {
+            editorStore.setChapter(0);
+            editorStore.addChapter();
+        } else {
+            editorStore.insertChapter(editorStore.chapter);
+            editorStore.setChapter(editorStore.chapter + 1);
+        }
+        editorStore.setDay(null);
+    };
+
+    const deleteChapterEH = () => {
+        if (editorStore.chapter === 0) {
+            editorStore.deleteChapter(0);
+            editorStore.setChapter(numChapters === 1 ? null : 0);
+        } else if (editorStore.chapter === numChapters - 1) {
+            editorStore.deleteChapter(editorStore.chapter);
+            editorStore.setChapter(editorStore.chapter - 1);
+        } else if (editorStore.chapter !== null) {
+            editorStore.deleteChapter(editorStore.chapter);
         }
     };
 
-    const handleExport = () => {
-        if (!rfInstance) return;
-        const exportData: ChartData = data;
-        const flow = rfInstance.toObject();
-        flow.edges.forEach((edge) => {
-            edge.data.path = edgePaths[edge.id];
-            edge.type = "fixed";
-            // edge.data.new = true;
-            // drop edge.selected
-            delete edge.selected;
-            // drop edge.data.marker
-            delete edge.data.marker;
-        });
-
-        flow.nodes.forEach((node) => {
-            delete node.selected;
-            delete node.dragging;
-        });
-
-        // exportData.relationships = relationshipData;
-        exportData.edges = flow.edges;
-        exportData.nodes = flow.nodes;
-        const dataStr = JSON.stringify(exportData, null, 2);
-        const dataUri = `data:application/json;charset=utf-8,${encodeURIComponent(
-            dataStr
-        )}`;
-        console.log(exportData);
-        const exportFileDefaultName = exportData.title
-            ? `${exportData.title}.json`
-            : "flow.json";
-        const linkElement = document.createElement("a");
-        linkElement.setAttribute("href", dataUri);
-        linkElement.setAttribute("download", exportFileDefaultName);
-        linkElement.click();
-    };
-
-    const copyAndExportOldToNewChart = () => {
-        // const newChartLocal = copyChartData(oldChart, newChart);
-        // exportChart(newChartLocal);
-        const charts = [day1, day2, day3, day4, day5, day6, day7, day8];
-
-        // Select two pair at a time (example: day 1 + 2, 2 + 3,etc)
-        for (let i = 0; i < charts.length - 1; i++) {
-            const newChart = copyChartData(charts[i], charts[i + 1]);
-            exportJson(newChart);
+    const addDayEH = () => {
+        if (editorStore.day === null) {
+            editorStore.setDay(0);
+            editorStore.addDay();
+        } else {
+            editorStore.insertDay(editorStore.day);
+            editorStore.setDay(editorStore.day + 1);
         }
     };
 
-    const combineAndExportChartsToSiteData = async () => {
-        const siteData = await mergeChartsIntoOneBigFile();
-        exportJson(siteData);
+    const deleteDayEH = () => {
+        if (editorStore.day === 0) {
+            editorStore.deleteDay(0);
+            editorStore.setDay(numDays === 1 ? null : 0);
+        } else if (editorStore.day === numDays - 1) {
+            editorStore.deleteDay(editorStore.day);
+            editorStore.setDay(editorStore.day - 1);
+        } else if (editorStore.day !== null) {
+            editorStore.deleteDay(editorStore.day);
+        }
     };
 
     return (
-        <div className="w-screen h-screen">
-            <ReactFlow
-                nodes={nodes}
-                edges={edges}
-                nodeTypes={nodeTypes}
-                edgeTypes={edgeTypes}
-                fitView
-                onNodesChange={onNodesChange}
-                onEdgesChange={onEdgesChange}
-                nodesDraggable={mode === "edit"}
-                onClick={handleClick}
-                onNodeClick={(_, node) => {
-                    setCurrentCard("node");
-                    setSelectedNode(node);
-                    setSelectedEdge(null);
-                }}
-                onEdgeClick={(_, edge) => {
-                    setCurrentCard("edge");
-                    setSelectedEdge(edge);
-                    setSelectedNode(null);
-                }}
-                onConnect={connectEdge}
-                snapToGrid
-                snapGrid={[25, 25]}
-                connectionMode={ConnectionMode.Loose}
-                connectionLineType={ConnectionLineType.SmoothStep}
-                zoomOnDoubleClick={false}
-                onInit={setRfInstance}
-            ></ReactFlow>
-            <div className="absolute top-5 right-5 flex flex-row gap-4">
-                <Button
-                    onClick={() => {
-                        combineAndExportChartsToSiteData();
+        <>
+            <div className="w-screen h-screen">
+                <EditorChart
+                    nodes={processedNodes}
+                    setNodes={editorStore.setNodes}
+                    edges={processedEdges}
+                    setEdges={editorStore.setEdges}
+                    edgeType={editorStore.edgeType}
+                    areNodesDraggable={editorStore.mode === "edit"}
+                    canPlaceNewNode={editorStore.mode === "place"}
+                    isDarkMode={isDarkMode}
+                    onNodeClick={(node: EditorImageNodeType) => {
+                        editorStore.setCurrentCard("node");
+                        editorStore.setSelectedNode(node);
+                        editorStore.setSelectedEdge(null);
                     }}
-                >
-                    Export site
-                </Button>
-                <Button
-                    onClick={() => {
-                        copyAndExportOldToNewChart();
+                    onEdgeClick={(edge: CustomEdgeType) => {
+                        editorStore.setCurrentCard("edge");
+                        editorStore.setSelectedEdge(edge);
+                        editorStore.setSelectedNode(null);
                     }}
-                >
-                    Copy chart
-                </Button>
-                <Button
-                    onClick={() => {
-                        setCurrentCard(null);
-                    }}
-                >
-                    Close cards
-                </Button>
-                <Button
-                    onClick={() => {
-                        setCurrentCard("general");
-                        setSelectedNode(null);
-                        setSelectedEdge(null);
-                    }}
-                >
-                    General
-                </Button>
-                <Button
-                    onClick={() => {
-                        if (edgeType === "custom") {
-                            setEdgeType("customSmooth");
-                        } else if (edgeType === "customSmooth") {
-                            setEdgeType("customStraight");
-                        } else {
-                            setEdgeType("custom");
-                        }
-                    }}
-                >
-                    {edgeType}
-                </Button>
-
-                <Button onClick={handleExport}>Export</Button>
-                <Button variant={"outline"} disabled>
-                    {mode}
-                </Button>
+                />
             </div>
-            {currentCard === "node" && (
-                <EditorNodeCard
-                    updateNode={updateNode}
-                    deleteNode={deleteNode}
+
+            <Toolbar.Root
+                id="main-toolbar"
+                className="flex flex-row fixed top-5 left-[2.5%] right-[2.5%] w-[95%] mx-auto p-2 px-5 bg-muted rounded-lg"
+            >
+                <div className="w-2/12 flex flex-col gap-y-0.5">
+                    <span className="text-md font-bold">Editor Mode</span>
+                    <Select
+                        value={editorStore.mode}
+                        onValueChange={(value: EditorMode) =>
+                            editorStore.setMode(value)
+                        }
+                    >
+                        <Toolbar.Button asChild>
+                            <SelectTrigger className="h-8" useUpChevron={false}>
+                                <SelectValue />
+                            </SelectTrigger>
+                        </Toolbar.Button>
+
+                        <SelectContent side={"bottom"}>
+                            <SelectItem value={"view"}>View</SelectItem>
+                            <SelectItem value={"edit"}>Edit</SelectItem>
+                            <SelectItem value={"place"}>Place</SelectItem>
+                            <SelectItem value={"delete"}>Delete</SelectItem>
+                        </SelectContent>
+                    </Select>
+
+                    <span className="text-md font-bold">Edge Type</span>
+                    <Select
+                        value={editorStore.edgeType}
+                        onValueChange={(value: CustomEdgeTypeNames) =>
+                            editorStore.setEdgeType(value)
+                        }
+                    >
+                        <Toolbar.Button asChild>
+                            <SelectTrigger className="h-8" useUpChevron={false}>
+                                <SelectValue />
+                            </SelectTrigger>
+                        </Toolbar.Button>
+
+                        <SelectContent side={"bottom"}>
+                            <SelectItem value={"custom"}>Custom</SelectItem>
+                            <SelectItem value={"customSmooth"}>
+                                Custom (Smooth)
+                            </SelectItem>
+                            <SelectItem value={"customStraight"}>
+                                Custom (Straight)
+                            </SelectItem>
+                        </SelectContent>
+                    </Select>
+                </div>
+                <Toolbar.Separator className="mx-2.5 w-px bg-black" />
+                <EditorTransportControls
+                    className="w-4/12"
+                    chapter={editorStore.chapter}
+                    chapters={editorStore.data}
+                    day={editorStore.day}
+                    onChapterChange={(newChapter: number) => {
+                        editorStore.setChapter(newChapter);
+                        editorStore.setDay(
+                            editorStore.data[newChapter].numberOfDays === 0
+                                ? null
+                                : 0,
+                        );
+                    }}
+                    onDayChange={(newDay: number) => editorStore.setDay(newDay)}
+                    onChapterAdd={addChapterEH}
+                    onChapterDelete={deleteChapterEH}
+                    onDayAdd={addDayEH}
+                    onDayDelete={deleteDayEH}
+                    onDayClone={editorStore.cloneDay}
+                    onDayMove={editorStore.moveDay}
                 />
-            )}
-            {currentCard === "edge" && (
-                <EdgeEditorCard
-                    deleteEdge={deleteEdge}
-                    updateEdge={updateEdge}
-                />
-            )}
-            {currentCard === "general" && <EditorGeneralCard />}
-        </div>
+                <Toolbar.Separator className="mx-2.5 w-px bg-black" />
+                <div className="w-2/12 flex flex-col gap-y-2">
+                    <Toggle.Root
+                        disabled={editorStore.chapter === null}
+                        pressed={editorStore.currentCard === "general"}
+                        onPressedChange={(pressed: boolean) => {
+                            if (pressed) {
+                                editorStore.setCurrentCard("general");
+                                editorStore.setSelectedNode(null);
+                                editorStore.setSelectedEdge(null);
+                            } else {
+                                editorStore.setCurrentCard(null);
+                            }
+                        }}
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
+                    >
+                        <span className="text-md">
+                            Chapter Title / Day Recap
+                        </span>
+                    </Toggle.Root>
+                    <Toggle.Root
+                        disabled={editorStore.chapter === null}
+                        pressed={editorStore.currentCard === "teams"}
+                        onPressedChange={(pressed: boolean) => {
+                            if (pressed) {
+                                editorStore.setCurrentCard("teams");
+                            } else {
+                                editorStore.setCurrentCard(null);
+                            }
+                        }}
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
+                    >
+                        <span className="text-md">Chapter Teams</span>
+                    </Toggle.Root>
+                    <Toggle.Root
+                        disabled={editorStore.chapter === null}
+                        pressed={editorStore.currentCard === "relationships"}
+                        onPressedChange={(pressed: boolean) => {
+                            if (pressed) {
+                                editorStore.setCurrentCard("relationships");
+                            } else {
+                                editorStore.setCurrentCard(null);
+                            }
+                        }}
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
+                    >
+                        <span className="text-md">Chapter Relationships</span>
+                    </Toggle.Root>
+                </div>
+                <Toolbar.Separator className="mx-2.5 w-px bg-black" />
+                <div className="w-1/12 flex flex-col gap-y-2">
+                    <Button
+                        className="h-8 gap-2 bg-background text-foreground"
+                        onClick={() => saveData(editorStore.data)}
+                    >
+                        <LucideSave />
+                        <span className="text-md">Save</span>
+                    </Button>
+                    <Button
+                        className="h-8 gap-2 bg-background text-foreground"
+                        onClick={() => loadData(editorStore.setData)}
+                    >
+                        <LucideFolderOpen />
+                        <span className="text-md">Load</span>
+                    </Button>
+                    <Button
+                        className="h-8 gap-2 bg-background text-foreground"
+                        onClick={() => exportData(editorStore.data)}
+                    >
+                        <LucideArrowRightFromLine />
+                        <span className="text-md">Export</span>
+                    </Button>
+                </div>
+                <Toolbar.Separator className="mx-2.5 w-px bg-black" />
+                <div className="w-1/12 flex flex-col gap-y-0.5">
+                    <span className="text-md font-bold">Settings</span>
+                    <div className="flex content-center h-fit gap-2">
+                        <Checkbox
+                            id="toggleHandles"
+                            className="my-auto"
+                            checked={editorStore.showHandles}
+                            onCheckedChange={(checked) =>
+                                checked && checked !== "indeterminate"
+                                    ? editorStore.setShowHandles(true)
+                                    : editorStore.setShowHandles(false)
+                            }
+                        />
+                        <label htmlFor="toggleHandles">Show Handles</label>
+                    </div>
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label htmlFor="theme-option">App Theme</Label>
+                        <Select
+                            onValueChange={(value) =>
+                                setThemeType(value as ThemeType)
+                            }
+                            value={themeType}
+                        >
+                            <SelectTrigger
+                                id="theme-option"
+                                name="theme-option"
+                                className="w-[100px]"
+                            >
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="system">System</SelectItem>
+                                <SelectItem value="light">Light</SelectItem>
+                                <SelectItem value="dark">Dark</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+                </div>
+            </Toolbar.Root>
+
+            <EditorNodeCard
+                key={
+                    editorStore.selectedNode
+                        ? `${editorStore.selectedNode.id}-node-editor-card`
+                        : "null-node-editor-card"
+                }
+                isVisible={editorStore.currentCard === "node"}
+                selectedNode={editorStore.selectedNode || EMPTY_NODE}
+                teams={teams}
+                nodes={nodes}
+                updateNode={updateNodeEH}
+                deleteNode={deleteNode}
+                onCardClose={() => editorStore.setCurrentCard(null)}
+                numberOfDays={numDays}
+                isDarkMode={isDarkMode}
+            />
+
+            <EdgeEditorCard
+                key={
+                    editorStore.selectedEdge
+                        ? `${editorStore.selectedEdge.id}-edge-editor-card`
+                        : "null-edge-editor-card"
+                }
+                isVisible={editorStore.currentCard === "edge"}
+                selectedEdge={editorStore.selectedEdge || EMPTY_EDGE}
+                relationships={relationships}
+                deleteEdge={deleteEdge}
+                updateEdge={updateEdgeEH}
+                onCardClose={() => editorStore.setCurrentCard(null)}
+                numberOfDays={numDays}
+                isDarkMode={isDarkMode}
+            />
+
+            <EditorGeneralCard
+                key={`${editorStore.chapter}/${editorStore.day}`}
+                isVisible={editorStore.currentCard === "general"}
+                chapterData={
+                    editorStore.chapter !== null
+                        ? editorStore.data[editorStore.chapter]
+                        : null
+                }
+                dayData={
+                    editorStore.chapter !== null && editorStore.day !== null
+                        ? editorStore.data[editorStore.chapter].charts[
+                              editorStore.day
+                          ]
+                        : null
+                }
+                isDarkMode={isDarkMode}
+                onChapterTitleChange={editorStore.setChapterTitle}
+                onDayTitleChange={editorStore.setDayTitle}
+                onDayRecapChange={editorStore.setDayRecap}
+                onBGImageChange={editorStore.setChapterBackgroundImage}
+                onBGMChange={editorStore.setChapterBgm}
+                onCardClose={() => editorStore.setCurrentCard(null)}
+            />
+
+            <EditorTeamsCard
+                key={`${editorStore.chapter}-teams-card`}
+                isVisible={editorStore.currentCard === "teams"}
+                teamData={
+                    editorStore.chapter !== null
+                        ? editorStore.data[editorStore.chapter].teams
+                        : {}
+                }
+                onTeamsChange={(teams: TeamMap) => {
+                    editorStore.setChapterTeams(teams);
+                }}
+                onCardClose={() => editorStore.setCurrentCard(null)}
+            />
+
+            <EditorRelationshipsCard
+                key={`${editorStore.chapter}-relationships-card`}
+                isVisible={editorStore.currentCard === "relationships"}
+                relationshipData={
+                    editorStore.chapter !== null
+                        ? editorStore.data[editorStore.chapter].relationships
+                        : {}
+                }
+                onRelationshipsChange={(relationships: RelationshipMap) => {
+                    editorStore.setChapterRelationships(relationships);
+                }}
+                onCardClose={() => editorStore.setCurrentCard(null)}
+            />
+        </>
     );
 };
 

@@ -1,9 +1,7 @@
-import useEdgeStyle from "@/hooks/useEdgeStyle";
 import { EDGE_WIDTH, OLD_EDGE_OPACITY } from "@/lib/constants";
 import { CustomEdgeProps } from "@/lib/type";
 import { useEditorStore } from "@/store/editorStore";
 import { BaseEdge, getSmoothStepPath } from "@xyflow/react";
-import { useEffect } from "react";
 
 const EditorSmoothEdge = ({
     id,
@@ -14,10 +12,14 @@ const EditorSmoothEdge = ({
     sourcePosition,
     targetPosition,
     data,
+    style,
 }: CustomEdgeProps) => {
-    const { edgeStyle } = useEdgeStyle(data?.relationship);
-    const { setEdgePaths, edgePaths } = useEditorStore();
-    let [path] = getSmoothStepPath({
+    const strokeColor = style?.stroke || "#000";
+    const { day: currentDay } = useEditorStore();
+
+    const isCurrentDay = data?.day === currentDay || false;
+
+    const [path] = getSmoothStepPath({
         sourceX,
         sourceY,
         sourcePosition,
@@ -26,14 +28,7 @@ const EditorSmoothEdge = ({
         targetPosition,
         borderRadius: 0,
     });
-    const strokeColor = edgeStyle?.stroke || "#000";
-    useEffect(() => {
-        setEdgePaths({ ...edgePaths, [id]: path });
-    }, [path]);
-    if (data?.path) {
-        path = data?.path;
-    }
-    const isNew = data?.new || false;
+
     return (
         <>
             <svg width="0" height="0">
@@ -56,8 +51,8 @@ const EditorSmoothEdge = ({
                 path={path}
                 style={{
                     strokeWidth: EDGE_WIDTH,
-                    ...edgeStyle,
-                    opacity: isNew ? 1 : OLD_EDGE_OPACITY,
+                    ...style,
+                    opacity: isCurrentDay ? 1 : OLD_EDGE_OPACITY,
                 }}
                 className="z-10"
                 // markerEnd={data?.marker ? `url(#arrow-${id})` : ""}

@@ -1,0 +1,8 @@
+.stack-container {
+    display: grid;
+    grid-template-areas: "cell";
+}
+
+.stack-item {
+    grid-area: cell;
+}

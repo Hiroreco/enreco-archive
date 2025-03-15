@@ -1,22 +1,18 @@
-import { memo, useEffect, useMemo } from "react";
-import { useChartStore } from "@/store/chartStore";
-import { useViewStore } from "@/store/viewStore";
-import {
-    Handle,
-    HandleType,
-    Position,
-    useUpdateNodeInternals,
-} from "@xyflow/react";
-import { ImageNodeProps } from "../../lib/type";
-import Image from "next/image";
 import { OLD_NODE_OPACITY } from "@/lib/constants";
+import { cn, getBlurDataURL } from "@/lib/utils";
+import { Handle, HandleType, Position } from "@xyflow/react";
+import { Check } from "lucide-react";
+import Image from "next/image";
+import { memo, useMemo } from "react";
+import { ImageNodeProps } from "@/lib/type";
+import { useViewStore } from "@/store/viewStore";
 
 const NUM_OF_HANDLES = 5;
 
 const generateHandlesOnSide = (
     position: Position,
     positionStyle: "left" | "top",
-    numOfHandles: number
+    numOfHandles: number,
 ) => {
     const handles = [];
     const step = 100 / numOfHandles;
@@ -45,108 +41,83 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const getVisibilityStyle = (visible: boolean, isNew: boolean) => {
-    if (!visible) {
-        return {
-            opacity: 0,
-            strokeWidth: 0,
-        };
-    }
-    if (!isNew) {
-        return {
-            opacity: OLD_NODE_OPACITY,
-        };
-    }
-    return {
-        opacity: 1,
-    };
-};
-
-const ViewImageNode = ({ data, id }: ImageNodeProps) => {
-    const { teamVisibility, characterVisibility } = useViewStore();
-    const { data: chartData } = useChartStore();
-
+const ViewImageNode = ({ data }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
-    const handles = useMemo(() => generateHandles(NUM_OF_HANDLES), []);
+    const viewStore = useViewStore();
+    const handles = useMemo(() => {
+        const handleData = generateHandles(NUM_OF_HANDLES);
 
-    // Destructure edges from chartData and use it in `useMemo` hooks
-    const { edges: chartEdges } = chartData;
-
-    // Filter edges based on the current node ID
-    const edges = useMemo(
-        () =>
-            chartEdges.filter(
-                (edge) => edge.source === id || edge.target === id
-            ),
-        [id, chartEdges]
-    );
-
-    // Compute node visibility based on related edge and viewstore settings
-    const nodeVisibility = useMemo(() => {
-        let isVisible = true;
-        if (data.team) isVisible = isVisible && teamVisibility[data.team];
-        if (data.title)
-            isVisible = isVisible && characterVisibility[data.title];
-        return isVisible;
-    }, [teamVisibility, characterVisibility, data.team, data.title]);
-
-    const nodeVisibilityStyle = useMemo(
-        () => getVisibilityStyle(nodeVisibility, data.new || false),
-        [nodeVisibility, data.new]
-    );
-
-    // Filter handles based on used edges
-    const usedHandles = useMemo(() => {
-        const usedHandleIds = edges.reduce((acc, edge) => {
-            if (edge.source === id) acc.add(`${edge.sourceHandle}`);
-            if (edge.target === id) acc.add(`${edge.targetHandle}`);
-            return acc;
-        }, new Set<string>());
-        return handles.filter((handle) => usedHandleIds.has(handle.id));
-    }, [edges, handles, id]);
-
-    const updateNodeInternals = useUpdateNodeInternals();
-    const handleElements = useMemo(
-        () =>
-            usedHandles.map((handle) => (
-                <Handle
-                    key={handle.key}
-                    id={handle.id}
-                    type={handle.type}
-                    position={handle.position}
-                    style={{ ...handle.style, opacity: "0.001" }}
-                    isConnectable={true}
-                />
-            )),
-        [usedHandles]
-    );
-
-    // Update node internals with debounced effect
-    useEffect(() => {
-        updateNodeInternals(id);
-    }, [id, usedHandles, updateNodeInternals]);
+        return handleData.map((handle) => (
+            <Handle
+                key={handle.key}
+                id={handle.id}
+                type={handle.type}
+                position={handle.position}
+                style={{ ...handle.style, opacity: 0 }}
+                isConnectable={false}
+            />
+        ));
+    }, []);
 
     return (
         <>
-            {handleElements}
+            {handles}
             <div
-                style={nodeVisibilityStyle}
-                className="transition-all relative cursor-pointer overflow-hidden w-[100px] h-[100px] rounded"
+                style={{
+                    opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY,
+                    transition: "transform 0.3s, opacity 1s",
+                }}
+                className={cn(
+                    "relative cursor-pointer w-[100px] h-[100px] rounded",
+                    {
+                        "hover:scale-110": !data.isSelected,
+                        "brightness-100":
+                            data.isSelected && viewStore.currentCard !== null,
+                        "brightness-90 dark:brightness-50":
+                            !data.isSelected && viewStore.currentCard !== null,
+                    },
+                )}
             >
                 <Image
-                    className="aspect-square object-cover rounded-lg transition-transform duration-300 ease-in-out transform scale-100 hover:scale-110"
+                    className={cn(
+                        "aspect-square object-cover rounded-lg absolute z-10 dark:brightness-[0.87]",
+                    )}
                     src={data.imageSrc || ""}
                     width={100}
                     height={100}
                     alt="character node"
+                    placeholder="blur"
+                    blurDataURL={getBlurDataURL(data.imageSrc)}
+                    priority={true}
                 />
-                {data.team && chartData.teams[data.team].imageSrc && (
+
+                {/* Border animation to indicate selected node */}
+                {data.isSelected && (
+                    <div
+                        className="absolute w-[110px] h-[110px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 running-border"
+                        style={
+                            {
+                                "--border-color": data.bgCardColor,
+                            } as React.CSSProperties
+                        }
+                    />
+                )}
+
+                {data.renderTeamImageSrc !== "" && (
                     <Image
-                        className="absolute top-1 left-1 opacity-80"
+                        className="absolute top-1 left-1 opacity-80 z-20"
                         width={25}
                         height={25}
-                        src={chartData.teams[data.team].imageSrc || ""}
+                        src={data.renderTeamImageSrc || ""}
                         alt="team icon"
+                        priority={true}
+                    />
+                )}
+                {data.isRead && (
+                    <Check
+                        size={25}
+                        className="absolute top-1 right-1 opacity-80 z-20"
+                        color="white"
                     />
                 )}
             </div>

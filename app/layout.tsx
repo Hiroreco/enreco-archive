@@ -1,9 +1,9 @@
 import "@/index.css";
-import { Kanit } from "next/font/google";
+import { Libre_Franklin } from "next/font/google";
 
-const kanit = Kanit({
+const libreFranklin = Libre_Franklin({
     subsets: ["latin"],
-    weight: ["300", "400", "500", "600", "700", "800"],
+    weight: ["300", "400", "500", "600", "700"],
 });
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={`${kanit.className}`}>
+        <html lang="en" className={`${libreFranklin.className}`}>
             <body>{children}</body>
         </html>
     );

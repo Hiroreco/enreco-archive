@@ -6,7 +6,7 @@ interface EdgeCardDecoProps {
 const EdgeCardDeco = ({ color }: EdgeCardDecoProps) => {
     return (
         <div
-            className="absolute top-0 w-full h-[50px] rounded-t-lg"
+            className="w-full h-[50px] rounded-t-lg dark:brightness-[0.87]"
             style={{
                 backgroundColor: color,
             }}
