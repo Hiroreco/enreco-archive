@@ -308,12 +308,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     const setChartShrinkAndFit = useCallback(
         function (width: number) {
-            setTimeout(() => {
-                setChartShrink(width);
-                setDoFitView(!doFitView);
-            }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
+            if(width !== chartShrink) {
+                setTimeout(() => {
+                    setChartShrink(width);
+                    setDoFitView(!doFitView);
+                }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
+            }
         },
-        [doFitView],
+        [chartShrink, doFitView],
     );
 
     /* Init block, runs only on first render/load. */
