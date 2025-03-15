@@ -291,8 +291,16 @@ td {
         0px 0px 10px #1c4462;
 }
 
+/* For Firefox */
+@-moz-document url-prefix() {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #9ca3af transparent;
+    }
+}
+
 ::-webkit-scrollbar {
-    @apply w-[4px];
+    width: 4px;
 }
 
 ::-webkit-scrollbar-track {
