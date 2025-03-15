@@ -1,7 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import EdgeCardDeco from "@/components/view/EdgeCardDeco";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
-import { getLighterOrDarkerColor, idFromDayChapterId } from "@/lib/utils";
+import { getLighterOrDarkerColor, idFromChapterDayId } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 import {
     EdgeLinkClickHandler,
@@ -126,11 +126,12 @@ const ViewEdgeContent = ({
                 </ViewMarkdown>
                 <Separator className="mt-4" />
                 <ReadMarker
-                    id={idFromDayChapterId(
-                        selectedEdge.data!.day,
+                    id={idFromChapterDayId(
                         chapter,
+                        selectedEdge.data!.day,
                         selectedEdge.id,
                     )}
+                    read={selectedEdge.data?.isRead}
                 />
             </div>
         </div>

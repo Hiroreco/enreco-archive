@@ -17,7 +17,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { cn } from "@/lib/utils";
+import { cn, idFromChapterDayId } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
 import { IconButton } from "./components/ui/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -27,6 +27,7 @@ import { useBrowserHash } from "./hooks/useBrowserHash";
 import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
 import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
+import ViewReadCounter from "@/components/view/ViewReadCounter";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -131,6 +132,32 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             .filter((edge): edge is FixedEdgeType => edge !== undefined);
     }, [dayData.edges, viewStore.day, chapterData.charts]);
 
+    // Update processed nodes' read status
+    processedNodes.forEach((node) => {
+        const status = localStorage.getItem(
+            idFromChapterDayId(viewStore.chapter, viewStore.day, node.id),
+        );
+        if (status === "read") {
+            node.data.isRead = true;
+        } else {
+            node.data.isRead = false;
+        }
+    });
+
+    // Update processed edges' read status
+    processedEdges.forEach((edge) => {
+        const status = localStorage.getItem(
+            idFromChapterDayId(viewStore.chapter, viewStore.day, edge.id),
+        );
+        if (edge.data) {
+            if (status === "read") {
+                edge.data.isRead = true;
+            } else {
+                edge.data.isRead = false;
+            }
+        }
+    });
+
     // Update dayData with the processed nodes and edges
     dayData.nodes = processedNodes;
     dayData.edges = processedEdges;
@@ -189,32 +216,38 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }
 
     // Update react flow renderer width when setting card is open, so the flow is not covered by the card
-    const onCurrentCardChange = useCallback(function (newCurrentCard: CardType) {
-        // Only reset the chart shrink when all cards are closed
-        if (newCurrentCard === null) {
-            viewStore.setSelectedNode(null);
-            viewStore.setSelectedEdge(null);
-            setChartShrink(0);
-        }
-        if (newCurrentCard === "setting" || newCurrentCard === null) {
-            viewStore.setSelectedNode(null);
-            viewStore.setSelectedEdge(null);
-            setFitViewOperation("fit-to-all");
-        } else if (newCurrentCard === "node") {
-            viewStore.setSelectedEdge(null);
-            setFitViewOperation("fit-to-node");
-        } else if (newCurrentCard === "edge") {
-            viewStore.setSelectedNode(null);
-            setFitViewOperation("fit-to-edge");
-        }
-        setPreviousCard(viewStore.currentCard);
-        viewStore.setCurrentCard(newCurrentCard);
-        setDoFitView(!doFitView);
-    }, [doFitView, viewStore]);
+    const onCurrentCardChange = useCallback(
+        function (newCurrentCard: CardType) {
+            // Only reset the chart shrink when all cards are closed
+            if (newCurrentCard === null) {
+                viewStore.setSelectedNode(null);
+                viewStore.setSelectedEdge(null);
+                setChartShrink(0);
+            }
+            if (newCurrentCard === "setting" || newCurrentCard === null) {
+                viewStore.setSelectedNode(null);
+                viewStore.setSelectedEdge(null);
+                setFitViewOperation("fit-to-all");
+            } else if (newCurrentCard === "node") {
+                viewStore.setSelectedEdge(null);
+                setFitViewOperation("fit-to-node");
+            } else if (newCurrentCard === "edge") {
+                viewStore.setSelectedNode(null);
+                setFitViewOperation("fit-to-edge");
+            }
+            setPreviousCard(viewStore.currentCard);
+            viewStore.setCurrentCard(newCurrentCard);
+            setDoFitView(!doFitView);
+        },
+        [doFitView, viewStore],
+    );
 
-    const onCardClose = useCallback(function () {
-        onCurrentCardChange(null);
-    }, [onCurrentCardChange]);
+    const onCardClose = useCallback(
+        function () {
+            onCurrentCardChange(null);
+        },
+        [onCurrentCardChange],
+    );
 
     // Then when the user closes the modal, open the day recap card
     // Only doing this for first visit
@@ -228,26 +261,35 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
 
-    const onNodeClick = useCallback(function (node: ImageNodeType) {
-        onCurrentCardChange("node");
-        viewStore.setSelectedNode(node);
-        viewStore.setSelectedEdge(null);
-    }, [onCurrentCardChange, viewStore]);
+    const onNodeClick = useCallback(
+        function (node: ImageNodeType) {
+            onCurrentCardChange("node");
+            viewStore.setSelectedNode(node);
+            viewStore.setSelectedEdge(null);
+        },
+        [onCurrentCardChange, viewStore],
+    );
 
-    const onEdgeClick = useCallback(function (edge: FixedEdgeType) {
-        onCurrentCardChange("edge");
-        viewStore.setSelectedEdge(edge);
-        viewStore.setSelectedNode(null);
-    }, [onCurrentCardChange, viewStore]);
+    const onEdgeClick = useCallback(
+        function (edge: FixedEdgeType) {
+            onCurrentCardChange("edge");
+            viewStore.setSelectedEdge(edge);
+            viewStore.setSelectedNode(null);
+        },
+        [onCurrentCardChange, viewStore],
+    );
 
-    const onPaneClick = useCallback(function () {
-        if (document.activeElement instanceof HTMLElement) {
-            document.activeElement.blur();
-        }
-        onCurrentCardChange(null);
-        viewStore.setSelectedNode(null);
-        viewStore.setSelectedEdge(null);
-    }, [onCurrentCardChange, viewStore]);
+    const onPaneClick = useCallback(
+        function () {
+            if (document.activeElement instanceof HTMLElement) {
+                document.activeElement.blur();
+            }
+            onCurrentCardChange(null);
+            viewStore.setSelectedNode(null);
+            viewStore.setSelectedEdge(null);
+        },
+        [onCurrentCardChange, viewStore],
+    );
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -379,6 +421,15 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
                 useDarkMode={useDarkMode}
+            />
+
+            <ViewReadCounter
+                day={viewStore.day}
+                chapter={viewStore.chapter}
+                chartData={dayData}
+                hidden={viewStore.currentCard !== null}
+                onEdgeClick={onEdgeClick}
+                onNodeClick={onNodeClick}
             />
 
             <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">

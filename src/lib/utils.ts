@@ -78,12 +78,12 @@ export const urlToLiveUrl = (url: string) => {
     }
     return correctUrl;
 };
-export const idFromDayChapterId = (
-    day: number,
+export const idFromChapterDayId = (
     chapter: number,
+    day: number,
     id: string,
 ) => {
-    return `${day}-${chapter}-${id}`;
+    return `${chapter}-${day}-${id}`;
 };
 
 export const getBlurDataURL = (imageSrc: string | undefined) => {

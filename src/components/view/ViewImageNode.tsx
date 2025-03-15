@@ -1,7 +1,6 @@
 import { OLD_NODE_OPACITY } from "@/lib/constants";
-import { getBlurDataURL, idFromDayChapterId } from "@/lib/utils";
+import { cn, getBlurDataURL } from "@/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
-import { cn } from "@/lib/utils";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { memo, useMemo } from "react";
@@ -41,7 +40,7 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const ViewImageNode = ({ id, data }: ImageNodeProps) => {
+const ViewImageNode = ({ data }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
@@ -57,12 +56,6 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
             />
         ));
     }, []);
-
-    // !, chapter should probably always be defined, hopefully
-    const isRead =
-        localStorage.getItem(
-            idFromDayChapterId(data.day, data.chapter!, id),
-        ) === "read";
 
     return (
         <>
@@ -114,7 +107,7 @@ const ViewImageNode = ({ id, data }: ImageNodeProps) => {
                         priority={true}
                     />
                 )}
-                {isRead && (
+                {data.isRead && (
                     <Check
                         size={25}
                         className="absolute top-1 right-1 opacity-80 z-20"

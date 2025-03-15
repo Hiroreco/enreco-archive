@@ -1,7 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import { ImageNodeType, Team } from "@/lib/type";
-import { cn, idFromDayChapterId } from "@/lib/utils";
+import { cn, idFromChapterDayId as idFromChapterDayId } from "@/lib/utils";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -116,11 +116,12 @@ const ViewNodeContent = ({
                 </ViewMarkdown>
                 <Separator className="mt-4" />
                 <ReadMarker
-                    id={idFromDayChapterId(
-                        selectedNode.data.day,
+                    id={idFromChapterDayId(
                         chapter,
+                        selectedNode.data.day,
                         selectedNode.id,
                     )}
+                    read={selectedNode.data.isRead}
                 />
             </div>
         </div>

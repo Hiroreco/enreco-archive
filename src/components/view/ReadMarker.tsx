@@ -5,28 +5,24 @@ import React, { useEffect } from "react";
 
 interface ReadMarkerProps {
     id: string;
+    read: boolean | undefined;
 }
 
-const ReadMarker = ({ id }: ReadMarkerProps) => {
+const ReadMarker = ({ id, read }: ReadMarkerProps) => {
     const [checked, setChecked] = React.useState(false);
     const audioStore = useAudioStore();
 
     const handleCheckedChange = (checked: boolean) => {
-        setChecked(checked);
         if (checked) {
             audioStore.playSFX("xp");
         }
+        setChecked(checked);
         localStorage.setItem(id, checked ? "read" : "unread");
     };
 
     useEffect(() => {
-        const status = localStorage.getItem(id);
-        if (status === "read") {
-            setChecked(true);
-        } else {
-            setChecked(false);
-        }
-    }, [id]);
+        setChecked(read || false);
+    }, [id, read]);
 
     return (
         <div className="mx-auto my-6 w-full flex items-center justify-center gap-2 z-50">
