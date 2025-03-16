@@ -18,7 +18,7 @@ export const CONTRIBUTORS = [
         icon: <Monitor size={iconSize} />,
         contributors: [
             {
-                name: "Tachtician_Walt",
+                name: "Tactician_Walt",
                 socials: "https://x.com/Walt280",
             },
             {

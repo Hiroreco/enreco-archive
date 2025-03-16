@@ -1,11 +1,10 @@
 import { OLD_NODE_OPACITY } from "@/lib/constants";
+import { ImageNodeProps } from "@/lib/type";
 import { cn, getBlurDataURL } from "@/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { memo, useMemo } from "react";
-import { ImageNodeProps } from "@/lib/type";
-import { useViewStore } from "@/store/viewStore";
 
 const NUM_OF_HANDLES = 5;
 
@@ -42,8 +41,9 @@ const generateHandles = (numOfHandles: number) => [
 ];
 
 const ViewImageNode = ({ data }: ImageNodeProps) => {
+    const cardOtherThanSettingsOpen =
+        data.currentCard !== null && data.currentCard !== "setting";
     // Generate handles only on mount since they’re static
-    const viewStore = useViewStore();
     const handles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
 
@@ -68,19 +68,19 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
                     transition: "transform 0.3s, opacity 1s",
                 }}
                 className={cn(
-                    "relative cursor-pointer w-[100px] h-[100px] rounded",
+                    "relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
                     {
                         "hover:scale-110": !data.isSelected,
                         "brightness-100":
-                            data.isSelected && viewStore.currentCard !== null,
+                            data.isSelected && cardOtherThanSettingsOpen,
                         "brightness-90 dark:brightness-50":
-                            !data.isSelected && viewStore.currentCard !== null,
+                            !data.isSelected && cardOtherThanSettingsOpen,
                     },
                 )}
             >
                 <Image
                     className={cn(
-                        "aspect-square object-cover rounded-lg absolute z-10 dark:brightness-[0.87]",
+                        "aspect-square object-cover rounded-lg absolute z-10",
                     )}
                     src={data.imageSrc || ""}
                     width={100}

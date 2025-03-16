@@ -8,14 +8,14 @@ interface ViewVideoModalProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
     videoUrl: string | null;
-    useDarkMode: boolean;
+    bgImage: string;
 }
 
 const ViewVideoModal = ({
     open,
     onOpenChange,
     videoUrl,
-    useDarkMode,
+    bgImage,
 }: ViewVideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const audioStore = useAudioStore();
@@ -26,19 +26,15 @@ const ViewVideoModal = ({
         onOpenChange(newOpen);
     };
 
-    let bgImage = "images-opt/bg.webp";
-    if (useDarkMode) {
-        bgImage = "images-opt/bg-dark.webp";
-    }
-
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>
             <VisuallyHidden>
                 <DialogTitle>Video modal for ${videoUrl}</DialogTitle>
             </VisuallyHidden>
             <DialogContent
-                className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2"
+                className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2 z-[100]"
                 style={{
+                    // The optimized background looks bad so using original for now
                     backgroundImage: `url('${bgImage}')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",

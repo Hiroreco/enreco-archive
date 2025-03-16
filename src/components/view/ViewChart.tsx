@@ -219,15 +219,14 @@ function ViewChart({
                     newNode.data.renderTeamImageSrc = "";
                 }
 
-                // Set selection state
                 newNode.data.isSelected =
                     selectedNode?.id === newNode.id ||
                     selectedEdge?.source === newNode.id ||
                     selectedEdge?.target === newNode.id;
 
-                // Set current day flag and chapter
                 newNode.data.isCurrentDay = newNode.data.day === day;
                 newNode.data.chapter = chapter;
+                newNode.data.currentCard = currentCard;
 
                 return newNode;
             });
@@ -240,6 +239,7 @@ function ViewChart({
         selectedEdge,
         day,
         chapter,
+        currentCard,
     ]);
 
     // Memoize renderableEdges
@@ -313,6 +313,7 @@ function ViewChart({
                     }
                     newEdge.data.isCurrentDay = isCurrentDay;
                     newEdge.data.chapter = chapter;
+                    newEdge.data.currentCard = currentCard;
                 }
 
                 return newEdge;
@@ -329,6 +330,7 @@ function ViewChart({
         selectedEdge,
         day,
         chapter,
+        currentCard,
     ]);
 
     const translateExtent = useMemo(() => {
