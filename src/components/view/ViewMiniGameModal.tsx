@@ -70,7 +70,7 @@ const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
                     </Select>
                     <Dialog>
                         <DialogTrigger>
-                            <Info className="absolute bottom-4 right-4" />
+                            <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2" />
                         </DialogTrigger>
                         <DialogContent className="flex flex-col max-h-[85vh]">
                             <DialogHeader>
