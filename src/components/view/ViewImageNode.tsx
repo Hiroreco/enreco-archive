@@ -68,7 +68,7 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
                     transition: "transform 0.3s, opacity 1s",
                 }}
                 className={cn(
-                    "relative cursor-pointer w-[100px] h-[100px] rounded",
+                    "relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
                     {
                         "hover:scale-110": !data.isSelected,
                         "brightness-100":
@@ -80,7 +80,7 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
             >
                 <Image
                     className={cn(
-                        "aspect-square object-cover rounded-lg absolute z-10 dark:brightness-[0.87]",
+                        "aspect-square object-cover rounded-lg absolute z-10",
                     )}
                     src={data.imageSrc || ""}
                     width={100}
