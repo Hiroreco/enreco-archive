@@ -78,7 +78,7 @@ const ViewLoadingPage = ({
             />
 
             <motion.div
-                className="sm:h-[60vh] sm:max-h-[600px] w-auto relative"
+                className="sm:h-[65vh] sm:max-h-[650px] w-auto relative"
                 variants={imageVariants}
                 initial="hidden"
                 animate="visible"
