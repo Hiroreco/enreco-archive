@@ -375,7 +375,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         },
                     )}
                     style={{
-                        // The optimized background looks bad so using original for now
                         backgroundImage: `url('${bgImage}')`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
@@ -446,7 +445,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 open={viewStore.videoModalOpen}
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
-                useDarkMode={useDarkMode}
+                bgImage={bgImage}
             />
 
             <ViewReadCounter
