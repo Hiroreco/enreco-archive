@@ -1,3 +1,4 @@
+import { CardType } from "@/store/viewStore";
 import { Edge, EdgeProps, Node, NodeProps } from "@xyflow/react";
 
 /* App Types */
@@ -100,6 +101,7 @@ export type ImageNodeData = CommonNodeData & {
     isSelected?: boolean;
     isCurrentDay?: boolean;
     isRead?: boolean;
+    currentCard?: CardType;
     // Since we're trying to avoid having viewStore in the node component, we're passing it in during render instead
     // Not putting this in CommonNodeData as it's redundant
     chapter?: number;
@@ -133,6 +135,7 @@ export type FixedEdgeData = CommonEdgeData & {
     isSelected?: boolean;
     isCurrentDay?: boolean;
     isRead?: boolean;
+    currentCard?: CardType;
     // Since we're trying to avoid having viewStore in the edge component, we're passing it in during render instead
     // Not putting this in CommonEdgeData as it's redundant
     chapter?: number;
