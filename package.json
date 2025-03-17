@@ -63,7 +63,6 @@
         "@types/sharp": "^0.32.0",
         "@types/slug": "^5.0.9",
         "@uiw/react-md-editor": "^4.0.5",
-        "@vitejs/plugin-react": "^4.3.4",
         "autoprefixer": "^10.4.21",
         "eslint": "^9.22.0",
         "eslint-config-prettier": "^10.1.1",
@@ -75,8 +74,7 @@
         "tailwindcss": "^3.4.17",
         "ts-node": "^10.9.2",
         "typescript": "^5.8.2",
-        "typescript-eslint": "^8.26.1",
-        "vite": "^5.4.14"
+        "typescript-eslint": "^8.26.1"
     },
     "engines": {
         "node": ">=18.18.0"
