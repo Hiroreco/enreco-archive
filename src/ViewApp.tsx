@@ -367,7 +367,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 />
                 <div
                     className={cn(
-                        "transition-all duration-500 absolute top-0 left-0 w-screen h-screen -z-10",
+                        "absolute top-0 left-0 w-screen h-screen -z-10",
                         {
                             "brightness-90 dark:brightness-70":
                                 viewStore.currentCard !== null,
@@ -379,6 +379,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
+                        transition: "brightness 0.5s",
                     }}
                 />
 
