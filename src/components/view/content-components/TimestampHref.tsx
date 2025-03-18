@@ -27,7 +27,6 @@ const TimestampHref = ({
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
     ) => {
-        // event.stopPropagation();
         event.preventDefault();
         audioStore.pauseBGM();
 
