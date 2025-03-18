@@ -27,6 +27,7 @@ const TimestampHref = ({
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
     ) => {
+        // event.stopPropagation();
         event.preventDefault();
         audioStore.pauseBGM();
 
@@ -56,6 +57,7 @@ const TimestampHref = ({
         <a
             href={href}
             data-timestamp-url={href}
+            onMouseDown={(e) => e.preventDefault()}
             onClick={(e) => timestampHandler(e, href)}
             {...rest}
             className={cn({
