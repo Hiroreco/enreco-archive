@@ -182,6 +182,10 @@ export default function VaulDrawer({
                         <Drawer.Title>Vaul Drawer</Drawer.Title>
                     </VisuallyHidden>
 
+                    <VisuallyHidden>
+                        <Drawer.Description>Card Content</Drawer.Description>
+                    </VisuallyHidden>
+
                     <div className="flex flex-col h-full max-h-full">
                         <div className="flex-initial block md:hidden bg-foreground opacity-75 w-2/4 min-h-2 h-2 mx-auto my-4 rounded-full" />
                         <div className="flex-initial md:block hidden w-2/4 min-h-2 h-2 mx-auto my-2" />
