@@ -56,6 +56,7 @@ const TimestampHref = ({
         <a
             href={href}
             data-timestamp-url={href}
+            onMouseDown={(e) => e.preventDefault()}
             onClick={(e) => timestampHandler(e, href)}
             {...rest}
             className={cn({

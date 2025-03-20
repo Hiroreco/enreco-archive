@@ -140,7 +140,7 @@ const ViewGamblingGame = () => {
                     });
                     setCurrentRoll((prevCurrentRoll) => prevCurrentRoll + 1);
                 }
-            }, 1000); // Run every second
+            }, 1000);
         };
         if (currentRoll > 0 && currentRoll <= 4) {
             roll();
@@ -180,7 +180,9 @@ const ViewGamblingGame = () => {
                         [`scale-110 opacity-100`]: chosenValue === value,
                         "opacity-50": chosenValue !== value,
                     })}
-                    onClick={() => setChosenValue(value)}
+                    onClick={() => {
+                        if (currentRoll === 0) setChosenValue(value);
+                    }}
                 ></div>
             </div>
         );

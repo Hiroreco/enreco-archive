@@ -243,11 +243,13 @@ const ViewChickenGame = () => {
                     alt="basket"
                 ></Image>
             </div>
-
             <div className="flex w-full items-center justify-around sm:mb-2">
-                <span>Score: {score}</span>
-                <span>High Score: {highScore}</span>
+                <span className="w-24 text-center">Score: {score}</span>
+                <span className="w-32 text-center">
+                    High Score: {highScore}
+                </span>
                 <Button
+                    className="w-20"
                     onClick={
                         isPlaying ? () => setIsPlaying(false) : handleGameStart
                     }

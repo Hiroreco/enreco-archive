@@ -162,10 +162,10 @@ export default function VaulDrawer({
             fadeFromIndex={0}
         >
             <Drawer.Portal>
+                {/* Calling this conditionally because it causes crash in dev mode when you resize the viewport for some reason */}
                 {isMobile && (
                     <Drawer.Overlay className="fixed inset-0 bg-black/40" />
                 )}
-                {/* <Drawer.Overlay className="fixed inset-0 bg-black/40" /> */}
 
                 <Drawer.Content
                     className={DRAWER_CONTENT_CLASSES}
@@ -182,6 +182,10 @@ export default function VaulDrawer({
                         <Drawer.Title>Vaul Drawer</Drawer.Title>
                     </VisuallyHidden>
 
+                    <VisuallyHidden>
+                        <Drawer.Description>Card Content</Drawer.Description>
+                    </VisuallyHidden>
+
                     <div className="flex flex-col h-full max-h-full">
                         <div className="flex-initial block md:hidden bg-foreground opacity-75 w-2/4 min-h-2 h-2 mx-auto my-4 rounded-full" />
                         <div className="flex-initial md:block hidden w-2/4 min-h-2 h-2 mx-auto my-2" />
@@ -192,7 +196,9 @@ export default function VaulDrawer({
                                     "pointer-events-auto":
                                         isScrollable && !disableScrollablity,
                                     "pointer-events-none":
-                                        !isScrollable || disableScrollablity,
+                                        (!isScrollable ||
+                                            disableScrollablity) &&
+                                        isMobile,
                                 },
                             )}
                         >

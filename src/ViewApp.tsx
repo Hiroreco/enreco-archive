@@ -153,9 +153,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
     });
 
-    // Update dayData with the processed nodes and edges
-    dayData.nodes = processedNodes;
-    dayData.edges = processedEdges;
+    // Memoize the entire dayData with processed nodes and edges
+    const memoizedDayData = useMemo(() => {
+        return {
+            ...dayData,
+            nodes: processedNodes,
+            edges: processedEdges,
+        };
+    }, [dayData, processedNodes, processedEdges]);
 
     /* Helper function to coordinate state updates when data changes. */
     function updateData(newChapter: number, newDay: number) {
@@ -344,8 +349,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         <>
             <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
                 <ViewChart
-                    nodes={dayData.nodes}
-                    edges={dayData.edges}
+                    nodes={memoizedDayData.nodes}
+                    edges={memoizedDayData.edges}
                     edgeVisibility={viewStore.edgeVisibility}
                     teamVisibility={viewStore.teamVisibility}
                     characterVisibility={viewStore.characterVisibility}
@@ -367,7 +372,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 />
                 <div
                     className={cn(
-                        "transition-all duration-500 absolute top-0 left-0 w-screen h-screen -z-10",
+                        "absolute top-0 left-0 w-screen h-screen -z-10",
                         {
                             "brightness-100 dark:brightness-70":
                                 viewStore.currentCard !== null,
@@ -375,11 +380,11 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         },
                     )}
                     style={{
-                        // The optimized background looks bad so using original for now
                         backgroundImage: `url('${bgImage}')`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
+                        transition: "brightness 0.5s",
                     }}
                 />
 
@@ -446,7 +451,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 open={viewStore.videoModalOpen}
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
-                useDarkMode={useDarkMode}
+                bgImage={bgImage}
             />
 
             <ViewReadCounter
