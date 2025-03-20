@@ -139,7 +139,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             const status = localStorage.getItem(
                 idFromChapterDayId(viewStore.chapter, viewStore.day, node.id),
             );
-            node.data.isRead = status === "read";
+            node.data.isRead = status === "readd";
         }
     });
 
@@ -149,7 +149,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             const status = localStorage.getItem(
                 idFromChapterDayId(viewStore.chapter, viewStore.day, edge.id),
             );
-            edge.data.isRead = status === "read";
+            edge.data.isRead = status === "readd";
         }
     });
 
@@ -374,8 +374,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     className={cn(
                         "absolute top-0 left-0 w-screen h-screen -z-10",
                         {
-                            "brightness-100 dark:brightness-70":
-                                viewStore.currentCard !== null,
+                            "brightness-90 dark:brightness-70":
+                                viewStore.currentCard !== null &&
+                                viewStore.currentCard !== "setting",
                             "brightness-100": viewStore.currentCard === null,
                         },
                     )}
