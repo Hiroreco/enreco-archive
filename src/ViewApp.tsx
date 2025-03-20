@@ -153,9 +153,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
     });
 
-    // Update dayData with the processed nodes and edges
-    dayData.nodes = processedNodes;
-    dayData.edges = processedEdges;
+    // Memoize the entire dayData with processed nodes and edges
+    const memoizedDayData = useMemo(() => {
+        return {
+            ...dayData,
+            nodes: processedNodes,
+            edges: processedEdges,
+        };
+    }, [dayData, processedNodes, processedEdges]);
 
     /* Helper function to coordinate state updates when data changes. */
     function updateData(newChapter: number, newDay: number) {
@@ -344,8 +349,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         <>
             <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
                 <ViewChart
-                    nodes={dayData.nodes}
-                    edges={dayData.edges}
+                    nodes={memoizedDayData.nodes}
+                    edges={memoizedDayData.edges}
                     edgeVisibility={viewStore.edgeVisibility}
                     teamVisibility={viewStore.teamVisibility}
                     characterVisibility={viewStore.characterVisibility}
