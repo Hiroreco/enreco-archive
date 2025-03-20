@@ -62,8 +62,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         type: "website",
-        // TODO: change this to the actual URL when ready
-        url: "https://dev.enreco-archive.net",
+        url: "https://enreco-archive.net",
         title: "ENreco Archive",
         description:
             "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines, everything is compiled neatly for those looking to catch up on the series or simply relive their favorite moments.",
