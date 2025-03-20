@@ -374,7 +374,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     className={cn(
                         "absolute top-0 left-0 w-screen h-screen -z-10",
                         {
-                            "brightness-90 dark:brightness-70":
+                            "brightness-100 dark:brightness-70":
                                 viewStore.currentCard !== null,
                             "brightness-100": viewStore.currentCard === null,
                         },
@@ -391,7 +391,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 <ViewSettingCard
                     isCardOpen={viewStore.currentCard === "setting"}
                     onCardClose={onCardClose}
-                    dayData={dayData}
+                    dayData={memoizedDayData}
                     edgeVisibility={viewStore.edgeVisibility}
                     onEdgeVisibilityChange={viewStore.setEdgeVisibility}
                     teamVisibility={viewStore.teamVisibility}
