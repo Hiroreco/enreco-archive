@@ -457,7 +457,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             <ViewReadCounter
                 day={viewStore.day}
                 chapter={viewStore.chapter}
-                chartData={dayData}
+                chartData={memoizedDayData}
                 hidden={viewStore.currentCard !== null}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
