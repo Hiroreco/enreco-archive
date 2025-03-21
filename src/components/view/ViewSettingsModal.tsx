@@ -3,6 +3,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import {
     Dialog,
     DialogContent,
+    DialogDescription,
     DialogFooter,
     DialogHeader,
     DialogTitle,
@@ -22,6 +23,7 @@ import {
     TimestampOption,
     useSettingStore,
 } from "@/store/settingStore";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 interface ViewSettingsModalProps {
     open: boolean;
@@ -40,6 +42,13 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                 <DialogHeader>
                     <DialogTitle>Settings</DialogTitle>
                 </DialogHeader>
+
+                <VisuallyHidden>
+                    <DialogDescription>
+                        Change the settings of the application
+                    </DialogDescription>
+                </VisuallyHidden>
+
                 <div className="flex flex-col gap-4 p-2 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="enable-bgm">Background Music</Label>

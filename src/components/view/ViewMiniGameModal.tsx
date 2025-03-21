@@ -1,6 +1,7 @@
 import {
     Dialog,
     DialogContent,
+    DialogDescription,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -18,6 +19,7 @@ import ViewMemoryGameInfo from "@/components/view/minigames-info/ViewMemoryGameI
 import ViewChickenGame from "@/components/view/ViewChickenGame";
 import ViewGamblingGame from "@/components/view/ViewGamblingGame";
 import ViewMemoryGame from "@/components/view/ViewMemoryGame";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
 import { ReactElement, useState } from "react";
 
@@ -50,6 +52,12 @@ const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
                     <DialogTitle>Minigames</DialogTitle>
                 </DialogHeader>
 
+                <VisuallyHidden>
+                    <DialogDescription>
+                        Play minigames from the story
+                    </DialogDescription>
+                </VisuallyHidden>
+
                 <div className="h-full w-full flex flex-col">
                     <Select
                         value={game}
@@ -73,6 +81,11 @@ const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
                             <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2" />
                         </DialogTrigger>
                         <DialogContent className="flex flex-col max-h-[85vh]">
+                            <VisuallyHidden>
+                                <DialogDescription>
+                                    View information about the minigame
+                                </DialogDescription>
+                            </VisuallyHidden>
                             <DialogHeader>
                                 <DialogTitle>{GAMES[game].label}</DialogTitle>
                             </DialogHeader>

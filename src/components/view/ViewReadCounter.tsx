@@ -4,6 +4,7 @@ import {
     Dialog,
     DialogClose,
     DialogContent,
+    DialogDescription,
     DialogFooter,
     DialogHeader,
     DialogTitle,
@@ -13,6 +14,7 @@ import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { ChartData, FixedEdgeType, ImageNodeType } from "@/lib/type";
 import { cn } from "@/lib/utils";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 
@@ -137,6 +139,12 @@ const ViewReadCounter = ({
                         </div>
                     </DialogTitle>
                 </DialogHeader>
+
+                <VisuallyHidden>
+                    <DialogDescription>
+                        Track the read status of the elements
+                    </DialogDescription>
+                </VisuallyHidden>
 
                 <div className="flex-1 overflow-y-auto w-full">
                     {/* Nodes */}
