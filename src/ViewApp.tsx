@@ -463,7 +463,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-50 flex flex-col gap-2">
+            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-none border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110"
