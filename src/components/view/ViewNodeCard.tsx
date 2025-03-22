@@ -74,7 +74,7 @@ const ViewNodeCard = ({
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <div className="h-full w-full overflow-auto" ref={contentRef}>
+            <div className="h-full w-full overflow-auto px-2" ref={contentRef}>
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">
@@ -115,7 +115,7 @@ const ViewNodeCard = ({
                 </div>
 
                 {/* Content */}
-                <div className="mt-2 overflow-x-hidden px-2">
+                <div className="mt-2 overflow-x-hidden">
                     <div className="text-2xl font-bold mb-2 underline underline-offset-4">
                         Day {selectedNode.data.day + 1}
                     </div>

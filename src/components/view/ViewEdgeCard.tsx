@@ -98,7 +98,7 @@ const ViewEdgeCard = ({
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <div className="h-full w-full overflow-auto" ref={contentRef}>
+            <div className="h-full w-full overflow-auto px-2" ref={contentRef}>
                 {/* Header */}
                 <div className="flex flex-col items-center">
                     <Stack className="w-full">
@@ -137,7 +137,7 @@ const ViewEdgeCard = ({
                 </div>
 
                 {/* Content */}
-                <div ref={contentRef} className="mt-2 overflow-x-hidden px-2">
+                <div ref={contentRef} className="mt-2 overflow-x-hidden">
                     {selectedEdge.data?.day !== undefined && (
                         <div className="text-2xl font-bold my-2 underline underline-offset-4">
                             Day {selectedEdge.data.day + 1}
