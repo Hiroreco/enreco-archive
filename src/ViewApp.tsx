@@ -29,7 +29,7 @@ import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
-import { generateRenderableNodes } from "./lib/generate-renderable-chart-elems";
+import { generateRenderableEdges, generateRenderableNodes } from "./lib/generate-renderable-chart-elems";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -125,23 +125,30 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     ]);
 
     const processedEdges = useMemo(() => {
-        return dayData.edges
-            .map((edge) => {
-                if (edge.data && edge.data.day !== viewStore.day) {
-                    let latestUpdatedEdge = undefined;
-                    for (let i = viewStore.day - 1; i >= 0; i--) {
-                        latestUpdatedEdge = chapterData.charts[i].edges.find(
-                            (e) =>
-                                e.id === edge.id && e.data && i === e.data.day,
-                        );
-                        if (latestUpdatedEdge) break;
-                    }
-                    return latestUpdatedEdge ? latestUpdatedEdge : edge;
-                }
-                return edge;
-            })
-            .filter((edge): edge is FixedEdgeType => edge !== undefined);
-    }, [dayData.edges, viewStore.day, chapterData.charts]);
+        return generateRenderableEdges(
+            chapterData,
+            viewStore.chapter,
+            viewStore.day,
+            viewStore.previousSelectedDay,
+            viewStore.teamVisibility,
+            viewStore.characterVisibility,
+            viewStore.edgeVisibility,
+            processedNodes,
+            viewStore.selectedEdge,
+            viewStore.currentCard
+        );
+    }, [
+        chapterData, 
+        viewStore.chapter, 
+        viewStore.day, 
+        viewStore.previousSelectedDay, 
+        viewStore.teamVisibility, 
+        viewStore.characterVisibility, 
+        viewStore.edgeVisibility, 
+        viewStore.selectedEdge, 
+        viewStore.currentCard, 
+        processedNodes
+    ]);
 
     // Update processed edges' read status
     processedEdges.forEach((edge) => {
@@ -352,11 +359,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     nodes={memoizedDayData.nodes}
                     edges={memoizedDayData.edges}
                     edgeVisibility={viewStore.edgeVisibility}
-                    teamVisibility={viewStore.teamVisibility}
-                    characterVisibility={viewStore.characterVisibility}
                     selectedNode={viewStore.selectedNode}
                     selectedEdge={viewStore.selectedEdge}
-                    chapterData={chapterData}
                     widthToShrink={chartShrink}
                     isCardOpen={viewStore.currentCard !== null}
                     doFitView={doFitView}
@@ -364,9 +368,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onNodeClick={onNodeClick}
                     onEdgeClick={onEdgeClick}
                     onPaneClick={onPaneClick}
-                    chapter={viewStore.chapter}
                     day={viewStore.day}
-                    previousSelectedDay={viewStore.previousSelectedDay}
                     currentCard={viewStore.currentCard}
                     previousCard={previousCard}
                 />

@@ -15,14 +15,13 @@ const ViewCustomEdge = ({
     targetX,
     targetY,
     targetPosition,
+    selected
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
     const pathRef = useRef<SVGPathElement>(null);
     const maskId = useId();
     const { strokeDasharray, ...restStyle } = style || {};
-    const cardOtherThanSettingsOpen =
-        data?.currentCard !== null && data?.currentCard !== "setting";
-
+    
     const path = useMemo(
         () =>
             generatePath(
@@ -66,10 +65,8 @@ const ViewCustomEdge = ({
             className={cn(
                 "transition-all fill-none duration-1000 dark:brightness-[0.87]",
                 {
-                    "brightness-90 dark:brightness-50":
-                        cardOtherThanSettingsOpen && !data!.isSelected,
-                    "brightness-100":
-                        cardOtherThanSettingsOpen && data!.isSelected,
+                    "brightness-90 dark:brightness-50": data?.renderDimly,
+                    "brightness-100": !data?.renderDimly,
                     "custom-edge-group cursor-pointer" :
                         selectable,
                     "cursor-default" :
@@ -84,6 +81,7 @@ const ViewCustomEdge = ({
                         <path
                             d={path}
                             stroke="white"
+                            strokeWidth={selected ? 7 : 5}
                             strokeDasharray={strokeDasharray}
                             fill="none"
                             strokeLinecap="round"
@@ -114,14 +112,14 @@ const ViewCustomEdge = ({
                     ...restStyle,
                 }}
                 className={cn({
-                    "custom-edge": !data!.isSelected,
-                    "custom-edge-selected": data!.isSelected,
+                    "custom-edge": !selected,
+                    "custom-edge-selected": selected,
                 })}
                 mask={strokeDasharray ? `url(#${maskId})` : undefined}
             />
 
             {/* Animated light effect when selected */}
-            {data!.isSelected && (
+            {selected && (
                 <path
                     d={path}
                     stroke="white"
@@ -134,7 +132,6 @@ const ViewCustomEdge = ({
                     }}
                 />
             )}
-            
         </g>
     );
 };
