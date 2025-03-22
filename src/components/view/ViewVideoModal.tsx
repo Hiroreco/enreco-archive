@@ -2,6 +2,7 @@ import {
     Dialog,
     DialogContent,
     DialogDescription,
+    DialogOverlay,
     DialogTitle,
 } from "@/components/ui/dialog";
 import { urlToEmbedUrl } from "@/lib/utils";
@@ -38,6 +39,19 @@ const ViewVideoModal = ({
             </VisuallyHidden>
 
             <DialogContent
+                // When we have the video dialog open on mobile, if we flip from portrait -> landscape -> portrait
+                // the overlay for some reason targets the drawer instead of this modal, so tapping outsite would close the drawer instead of the modal
+                // so we're adding a custom overlay to prevent that
+                // TODO: Remove this when we have a better solution
+                customOverlay={
+                    <DialogOverlay
+                        onPointerDown={(e) => {
+                            e.stopPropagation();
+                            e.preventDefault();
+                            handleOpenChange(false);
+                        }}
+                    />
+                }
                 className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2 z-[100]"
                 style={{
                     backgroundImage: `url('${bgImage}')`,
