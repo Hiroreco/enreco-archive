@@ -41,7 +41,7 @@ const ViewRecapCard = ({
                 onDayChange={onDayChange}
             />
             <div
-                className="overflow-x-hidden px-2 scroll-smooth overflow-y-scroll"
+                className="overflow-x-hidden px-4 scroll-smooth overflow-y-scroll"
                 ref={scrollRef}
             >
                 <AnimatePresence mode="wait">
