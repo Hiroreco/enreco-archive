@@ -17,9 +17,6 @@ const ViewCustomEdge = ({
     const pathRef = useRef<SVGPathElement>(null);
     const maskId = useId();
     const { strokeDasharray, ...restStyle } = style || {};
-    const cardOtherThanSettingsOpen =
-        data?.currentCard !== null && data?.currentCard !== "setting";
-
     const path = useMemo(
         () =>
             generatePath(
@@ -62,12 +59,7 @@ const ViewCustomEdge = ({
         <svg
             className={cn(
                 "transition-all fill-none duration-1000 dark:brightness-[0.87]",
-                {
-                    "brightness-90 dark:brightness-50":
-                        cardOtherThanSettingsOpen && !data!.isSelected,
-                    "brightness-100":
-                        cardOtherThanSettingsOpen && data!.isSelected,
-                },
+                {},
             )}
         >
             {/* Mask for dashed edges */}

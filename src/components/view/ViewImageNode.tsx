@@ -41,8 +41,6 @@ const generateHandles = (numOfHandles: number) => [
 ];
 
 const ViewImageNode = ({ data }: ImageNodeProps) => {
-    const cardOtherThanSettingsOpen =
-        data.currentCard !== null && data.currentCard !== "setting";
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
@@ -69,13 +67,7 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
                 }}
                 className={cn(
                     "relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
-                    {
-                        "hover:scale-110": !data.isSelected,
-                        "brightness-100":
-                            data.isSelected && cardOtherThanSettingsOpen,
-                        "brightness-90 dark:brightness-50":
-                            !data.isSelected && cardOtherThanSettingsOpen,
-                    },
+                    {},
                 )}
             >
                 <Image

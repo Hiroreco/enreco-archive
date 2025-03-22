@@ -219,14 +219,14 @@ function ViewChart({
                     newNode.data.renderTeamImageSrc = "";
                 }
 
-                newNode.data.isSelected =
-                    selectedNode?.id === newNode.id ||
-                    selectedEdge?.source === newNode.id ||
-                    selectedEdge?.target === newNode.id;
+                // newNode.data.isSelected =
+                //     selectedNode?.id === newNode.id ||
+                //     selectedEdge?.source === newNode.id ||
+                //     selectedEdge?.target === newNode.id;
 
                 newNode.data.isCurrentDay = newNode.data.day === day;
                 newNode.data.chapter = chapter;
-                newNode.data.currentCard = currentCard;
+                // newNode.data.currentCard = currentCard;
 
                 return newNode;
             });
@@ -235,11 +235,11 @@ function ViewChart({
         teamVisibility,
         characterVisibility,
         chapterData.teams,
-        selectedNode,
-        selectedEdge,
+        // selectedNode,
+        // selectedEdge,
         day,
         chapter,
-        currentCard,
+        // currentCard,
     ]);
 
     // Memoize renderableEdges
@@ -307,13 +307,13 @@ function ViewChart({
                 }
 
                 if (newEdge.data) {
-                    if (selectedEdge) {
-                        newEdge.data.isSelected =
-                            selectedEdge.id === newEdge.id;
-                    }
+                    // if (selectedEdge) {
+                    //     newEdge.data.isSelected =
+                    //         selectedEdge.id === newEdge.id;
+                    // }
                     newEdge.data.isCurrentDay = isCurrentDay;
                     newEdge.data.chapter = chapter;
-                    newEdge.data.currentCard = currentCard;
+                    // newEdge.data.currentCard = currentCard;
                 }
 
                 return newEdge;
@@ -327,10 +327,10 @@ function ViewChart({
         chapterData.relationships,
         chapterData.charts,
         previousSelectedDay,
-        selectedEdge,
+        // selectedEdge,
         day,
         chapter,
-        currentCard,
+        // currentCard,
     ]);
 
     const translateExtent = useMemo(() => {
