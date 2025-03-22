@@ -198,50 +198,6 @@ function ViewChart({
         widthToShrink,
     ]);
 
-    // Filter and fill in render properties for nodes/edges before passing them to ReactFlow.
-    const renderableNodes = useMemo(() => {
-        return nodes
-            .filter(
-                (node) =>
-                    teamVisibility[node.data.teamId || "null"] &&
-                    characterVisibility[node.id],
-            )
-            .map((node) => {
-                // Create a new node object to avoid mutating the original
-                const newNode = { ...node, data: { ...node.data } };
-
-                // Set team icon image, if available
-                if (newNode.data.teamId) {
-                    newNode.data.renderTeamImageSrc =
-                        chapterData.teams[newNode.data.teamId].teamIconSrc ||
-                        "";
-                } else {
-                    newNode.data.renderTeamImageSrc = "";
-                }
-
-                newNode.data.isSelected =
-                    selectedNode?.id === newNode.id ||
-                    selectedEdge?.source === newNode.id ||
-                    selectedEdge?.target === newNode.id;
-
-                newNode.data.isCurrentDay = newNode.data.day === day;
-                newNode.data.chapter = chapter;
-                newNode.data.currentCard = currentCard;
-
-                return newNode;
-            });
-    }, [
-        nodes,
-        teamVisibility,
-        characterVisibility,
-        chapterData.teams,
-        selectedNode,
-        selectedEdge,
-        day,
-        chapter,
-        currentCard,
-    ]);
-
     // Memoize renderableEdges
     const renderableEdges = useMemo(() => {
         return edges
@@ -361,7 +317,7 @@ function ViewChart({
                 connectOnClick={false}
                 deleteKeyCode={null}
                 connectionMode={ConnectionMode.Loose}
-                nodes={renderableNodes}
+                nodes={nodes}
                 edges={renderableEdges}
                 nodeTypes={nodeTypes}
                 edgeTypes={edgeTypes}

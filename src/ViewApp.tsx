@@ -29,6 +29,7 @@ import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
+import { generateRenderableNodes } from "./lib/generate-renderable-chart-elems";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -96,23 +97,32 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     // Update the data with the latest data from previous days
     const processedNodes = useMemo(() => {
-        return dayData.nodes
-            .map((node) => {
-                if (node.data.day !== viewStore.day) {
-                    let latestUpdatedNode = undefined;
-                    for (let i = viewStore.day - 1; i >= 0; i--) {
-                        latestUpdatedNode = chapterData.charts[i].nodes.find(
-                            (n) =>
-                                n.id === node.id && n.data && i === n.data.day,
-                        );
-                        if (latestUpdatedNode) break;
-                    }
-                    return latestUpdatedNode ? latestUpdatedNode : node;
-                }
-                return node;
-            })
-            .filter((node): node is ImageNodeType => node !== undefined);
-    }, [dayData.nodes, viewStore.day, chapterData.charts]);
+        const selectedNodes = [
+            viewStore.selectedNode?.id,
+            viewStore.selectedEdge?.source,
+            viewStore.selectedEdge?.target,
+        ].filter(s => s !== undefined && s !== null);
+
+        return generateRenderableNodes(
+            chapterData, 
+            viewStore.chapter,
+            viewStore.day,
+            viewStore.teamVisibility,
+            viewStore.characterVisibility,
+            selectedNodes,
+            viewStore.currentCard
+        );
+    }, [
+        viewStore.selectedNode?.id, 
+        viewStore.selectedEdge?.source, 
+        viewStore.selectedEdge?.target, 
+        viewStore.chapter, 
+        viewStore.day, 
+        viewStore.teamVisibility, 
+        viewStore.characterVisibility, 
+        viewStore.currentCard, 
+        chapterData
+    ]);
 
     const processedEdges = useMemo(() => {
         return dayData.edges
@@ -132,16 +142,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             })
             .filter((edge): edge is FixedEdgeType => edge !== undefined);
     }, [dayData.edges, viewStore.day, chapterData.charts]);
-
-    // Update processed nodes' read status
-    processedNodes.forEach((node) => {
-        if (typeof window !== "undefined") {
-            const status = localStorage.getItem(
-                idFromChapterDayId(viewStore.chapter, viewStore.day, node.id),
-            );
-            node.data.isRead = status === "read";
-        }
-    });
 
     // Update processed edges' read status
     processedEdges.forEach((edge) => {
