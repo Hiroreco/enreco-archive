@@ -74,7 +74,7 @@ const ViewNodeCard = ({
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <div className="h-full w-full overflow-auto" ref={contentRef}>
+            <div className="h-full w-full overflow-auto px-2" ref={contentRef}>
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">
