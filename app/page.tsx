@@ -15,16 +15,6 @@ export const metadata: Metadata = {
         { rel: "icon", url: "/favicon.ico" },
         { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
         { rel: "mask-icon", url: "/safari-pinned-tab.svg" },
-        {
-            url: "/android-chrome-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-        },
-        {
-            url: "/android-chrome-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-        },
     ],
     manifest: "/site.webmanifest",
     description:
