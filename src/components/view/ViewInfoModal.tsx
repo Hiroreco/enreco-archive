@@ -1,13 +1,13 @@
-import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
-
 import { Button } from "@/components/ui/button";
 import {
     Dialog,
     DialogClose,
     DialogContent,
+    DialogDescription,
     DialogFooter,
     DialogTitle,
 } from "@/components/ui/dialog";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ViewInfoGuide from "@/components/view/ViewInfoGuide";
 import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
@@ -15,6 +15,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { Moon, Sun, SunMoon } from "lucide-react";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
 import ViewInfoCredits from "@/components/view/ViewInfoCredits";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -25,13 +26,19 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
     const settingStore = useSettingStore();
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <VisuallyHidden.Root>
+            <VisuallyHidden>
                 <DialogTitle>Info Modal</DialogTitle>
-            </VisuallyHidden.Root>
+            </VisuallyHidden>
             <DialogContent
                 showXButton={false}
                 className="rounded-lg h-[85vh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
             >
+                <VisuallyHidden>
+                    <DialogDescription>
+                        View information about the application
+                    </DialogDescription>
+                </VisuallyHidden>
+
                 <Tabs
                     defaultValue="general"
                     className="h-[80%] flex-1 flex flex-col"

@@ -1,4 +1,9 @@
-import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogTitle,
+} from "@/components/ui/dialog";
 import { urlToEmbedUrl } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { YouTubeEmbed } from "@next/third-parties/google";
@@ -31,16 +36,21 @@ const ViewVideoModal = ({
             <VisuallyHidden>
                 <DialogTitle>Video modal for ${videoUrl}</DialogTitle>
             </VisuallyHidden>
+
             <DialogContent
                 className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2 z-[100]"
                 style={{
-                    // The optimized background looks bad so using original for now
                     backgroundImage: `url('${bgImage}')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                 }}
             >
+                <VisuallyHidden>
+                    <DialogDescription>
+                        Watch the video of the story
+                    </DialogDescription>
+                </VisuallyHidden>
                 <YouTubeEmbed
                     videoid={videoid}
                     params={params}
