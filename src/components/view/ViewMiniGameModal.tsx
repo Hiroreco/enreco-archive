@@ -89,7 +89,7 @@ const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
                             <DialogHeader>
                                 <DialogTitle>{GAMES[game].label}</DialogTitle>
                             </DialogHeader>
-                            <div className="overflow-auto grow pb-6">
+                            <div className="overflow-auto grow pb-6 px-2">
                                 {GAMES[game].info}
                             </div>
                         </DialogContent>

@@ -50,19 +50,19 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                     </TabsList>
                     <TabsContent
                         value="general"
-                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
+                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10 px-2"
                     >
                         <ViewInfoGeneral />
                     </TabsContent>
                     <TabsContent
                         value="guide"
-                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
+                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10 px-2"
                     >
                         <ViewInfoGuide />
                     </TabsContent>
                     <TabsContent
                         value="credits"
-                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10"
+                        className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-10 px-2"
                     >
                         <ViewInfoCredits />
                     </TabsContent>

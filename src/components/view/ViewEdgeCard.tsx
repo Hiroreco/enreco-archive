@@ -137,7 +137,7 @@ const ViewEdgeCard = ({
                 </div>
 
                 {/* Content */}
-                <div ref={contentRef} className="flex-1 mt-2 overflow-x-hidden">
+                <div ref={contentRef} className="mt-2 overflow-x-hidden px-2">
                     {selectedEdge.data?.day !== undefined && (
                         <div className="text-2xl font-bold my-2 underline underline-offset-4">
                             Day {selectedEdge.data.day + 1}

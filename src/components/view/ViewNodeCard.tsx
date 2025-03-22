@@ -115,7 +115,7 @@ const ViewNodeCard = ({
                 </div>
 
                 {/* Content */}
-                <div className="mt-2 overflow-x-hidden">
+                <div className="mt-2 overflow-x-hidden px-2">
                     <div className="text-2xl font-bold mb-2 underline underline-offset-4">
                         Day {selectedNode.data.day + 1}
                     </div>

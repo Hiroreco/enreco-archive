@@ -34,14 +34,14 @@ const ViewRecapCard = ({
         }
     }, [dayData]);
     return (
-        <div className="flex flex-col gap-4 mx-4 mt-4 h-full min-h-0 relative">
+        <div className="flex flex-col gap-4 mt-4 h-full min-h-0 relative">
             <ViewProgressBar
                 day={day}
                 numberOfDays={numberOfDays}
                 onDayChange={onDayChange}
             />
             <div
-                className="overflow-x-hidden scroll-smooth overflow-y-scroll"
+                className="overflow-x-hidden px-2 scroll-smooth overflow-y-scroll"
                 ref={scrollRef}
             >
                 <AnimatePresence mode="wait">
