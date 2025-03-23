@@ -73,7 +73,7 @@ const ViewCustomEdge = ({
             {/* Mask for dashed edges */}
             <defs>
                 {strokeDasharray && (
-                    <mask id={maskId} y={"-25%"} height={"140%"}>
+                    <mask id={maskId} y={"-35%"} height={"140%"}>
                         <path
                             d={path}
                             stroke="white"
