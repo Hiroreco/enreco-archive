@@ -1,4 +1,4 @@
-import TimestampHref from "@/components/view/content-components/TimestampHref";
+import TimestampHref from "@/components/view/markdown/TimestampHref";
 import ViewAmeEasterEgg from "@/components/view/easter-eggs/ViewAmeEasterEgg";
 import ViewFaunaEasterEgg from "@/components/view/easter-eggs/ViewFaunaEasterEgg";
 import ViewPotatoSalidEasterEgg from "@/components/view/easter-eggs/ViewPotatoSalidEasterEgg";
