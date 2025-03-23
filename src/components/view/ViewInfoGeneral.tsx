@@ -1,7 +1,12 @@
 const ViewInfoGeneral = () => {
     return (
         <div className="flex flex-col gap-4">
-            <span className="font-bold text-3xl mt-4">ENreco Archive</span>
+            <div className="mt-4 flex flex-col">
+                <span className="font-bold text-3xl">ENreco Archive</span>
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    Updated on March 24th, 2025
+                </span>
+            </div>
             <div>
                 Welcome to ENreco Archive! A fan project dedicated to archiving
                 (almost) everything that transpired during the events of{" "}
