@@ -77,7 +77,7 @@ const ViewCustomEdge = ({
                         <path
                             d={path}
                             stroke="white"
-                            strokeWidth={data!.isSelected ? 7 : 5}
+                            strokeWidth={data!.isSelected ? 14 : 10}
                             strokeDasharray={strokeDasharray}
                             fill="none"
                             strokeLinecap="round"
@@ -104,9 +104,9 @@ const ViewCustomEdge = ({
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
                     ...restStyle,
                 }}
-                className={cn("hover:stroke-[7]", {
-                    "stroke-[5]": !data!.isSelected,
-                    "stroke-[7]": data!.isSelected,
+                className={cn("hover:stroke-[14]", {
+                    "stroke-[10]": !data!.isSelected,
+                    "stroke-[14]": data!.isSelected,
                 })}
                 mask={strokeDasharray ? `url(#${maskId})` : undefined}
             />
@@ -116,12 +116,12 @@ const ViewCustomEdge = ({
                 <path
                     d={path}
                     stroke="white"
-                    strokeWidth={9}
+                    strokeWidth={18}
                     strokeLinecap="round"
                     fill="none"
                     className="running-light"
                     style={{
-                        filter: "drop-shadow(0 0 3px rgba(255,255,255,0.7))",
+                        filter: "drop-shadow(0 0 6px rgba(255,255,255,0.7))",
                     }}
                 />
             )}
