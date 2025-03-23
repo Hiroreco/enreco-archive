@@ -7039,7 +7039,7 @@
       "name": "Unrequited Love",
       "style": {
         "stroke": "#2b65ee",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "10, 10"
       }
     },
     "romantic": {
@@ -7047,7 +7047,7 @@
       "name": "Romantic",
       "style": {
         "stroke": "#ff94d8",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "10, 10"
       }
     },
     "family": {
