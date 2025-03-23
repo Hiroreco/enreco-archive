@@ -44,7 +44,8 @@ const ViewInfoGuide = () => {
                 Clicking on a character or relationship will bring up a card
                 containing information about them on that specific day. If a
                 node or edge is dimmed, it means there were no updates on that
-                day.
+                day. You can zoom in and out using the mouse wheel or trackpad
+                as well.
             </div>
 
             <div>
