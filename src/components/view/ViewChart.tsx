@@ -283,18 +283,20 @@ function ViewChart({
                     {};
                 const isCurrentDay = edgeData.day === day;
 
-                if (edgeVisibility["new"]) {
+                if (edgeVisibility["new"] && !isCurrentDay) {
                     newEdge.style = {
                         ...edgeStyle,
-                        opacity: isCurrentDay ? 1 : OLD_EDGE_OPACITY,
-                        pointerEvents: isCurrentDay ? "auto" : "none",
+                        opacity: OLD_EDGE_OPACITY,
                     };
+                    newEdge.selectable = false;
+                    newEdge.zIndex = -1;
                 } else {
                     newEdge.style = {
                         ...edgeStyle,
                         opacity: 1,
-                        pointerEvents: "auto",
                     };
+                    newEdge.selectable = true;
+                    newEdge.zIndex = 0;
                 }
 
                 // Check if edge is newly added
