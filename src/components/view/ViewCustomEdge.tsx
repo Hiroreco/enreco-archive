@@ -86,8 +86,8 @@ const ViewCustomEdge = ({
                             fill="none"
                             strokeLinecap="round"
                             className={cn({
-                                "custom-edge": !data!.isSelected,
-                                "custom-edge-selected": data!.isSelected,
+                                "custom-edge": !selected,
+                                "custom-edge-selected": selected,
                             })}
                         />
                     </mask>
