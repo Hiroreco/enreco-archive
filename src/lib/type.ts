@@ -1,4 +1,3 @@
-import { CardType } from "@/store/viewStore";
 import { Edge, EdgeProps, Node, NodeProps } from "@xyflow/react";
 
 /* App Types */
@@ -95,16 +94,13 @@ export type EditorImageNodeData = CommonNodeData & {
 };
 
 export type ImageNodeData = CommonNodeData & {
+    isRead?: boolean;
+
     // The following properties are used during the rendering of this node,
     // and should not be filled by the data source.
     renderTeamImageSrc?: string;
-    isSelected?: boolean;
-    isCurrentDay?: boolean;
-    isRead?: boolean;
-    currentCard?: CardType;
-    // Since we're trying to avoid having viewStore in the node component, we're passing it in during render instead
-    // Not putting this in CommonNodeData as it's redundant
-    chapter?: number;
+    renderOpacity?: number;
+    renderDimly?: boolean;
 };
 
 export type CustomEdgeOffsets = {
@@ -129,16 +125,10 @@ type CommonEdgeData = {
 export type CustomEdgeData = CommonEdgeData & {};
 
 export type FixedEdgeData = CommonEdgeData & {
+    isRead?: boolean;
     // The following properties are used during the rendering of this edge,
     // and should not be filled by the data source.
-    renderIsHoveredEdge?: boolean;
-    isSelected?: boolean;
-    isCurrentDay?: boolean;
-    isRead?: boolean;
-    currentCard?: CardType;
-    // Since we're trying to avoid having viewStore in the edge component, we're passing it in during render instead
-    // Not putting this in CommonEdgeData as it's redundant
-    chapter?: number;
+    renderDimly?: boolean;
 };
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;
