@@ -70,7 +70,7 @@ function ViewMarkdownInternal({
             const nodeId =
                 (event.target as Element).getAttribute("data-node-id") || "";
             const targetNode: ImageNodeType | undefined = getNode(nodeId);
-            if (!targetNode) {
+            if (!targetNode || targetNode.hidden) {
                 return;
             }
 

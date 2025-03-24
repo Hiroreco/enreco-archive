@@ -1,7 +1,6 @@
 "use client";
 
 import {
-    Chapter,
     CustomEdgeType,
     FitViewOperation,
     FixedEdgeType,
@@ -19,7 +18,6 @@ import "@xyflow/react/dist/style.css";
 import ViewCustomEdge from "@/components/view/ViewCustomEdge";
 import ImageNodeView from "@/components/view/ViewImageNode";
 import { usePreviousValue } from "@/hooks/usePreviousValue";
-import { OLD_EDGE_OPACITY } from "@/lib/constants";
 import { useSettingStore } from "@/store/settingStore";
 import { CardType } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
@@ -74,15 +72,8 @@ interface Props {
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
     edgeVisibility: StringToBooleanObjectMap;
-    teamVisibility: StringToBooleanObjectMap;
-    characterVisibility: StringToBooleanObjectMap;
-    chapterData: Chapter;
-    focusOnClickedEdge?: boolean;
-    focusOnClickedNode?: boolean;
     selectedNode: ImageNodeType | null;
     selectedEdge: FixedEdgeType | null;
-    focusOnSelectedEdge?: boolean;
-    focusOnSelectedNode?: boolean;
     widthToShrink: number;
     isCardOpen: boolean;
     /**
@@ -95,8 +86,6 @@ interface Props {
     onEdgeClick: (edge: FixedEdgeType) => void;
     onPaneClick: () => void;
     day: number;
-    chapter: number;
-    previousSelectedDay: number;
     currentCard: CardType;
     previousCard: CardType;
 }
@@ -105,9 +94,6 @@ function ViewChart({
     nodes,
     edges,
     edgeVisibility,
-    teamVisibility,
-    characterVisibility,
-    chapterData,
     selectedNode,
     selectedEdge,
     widthToShrink,
@@ -118,8 +104,6 @@ function ViewChart({
     onEdgeClick,
     onPaneClick,
     day,
-    chapter,
-    previousSelectedDay,
     currentCard,
     previousCard,
 }: Props) {
@@ -198,143 +182,6 @@ function ViewChart({
         widthToShrink,
     ]);
 
-    // Filter and fill in render properties for nodes/edges before passing them to ReactFlow.
-    const renderableNodes = useMemo(() => {
-        return nodes
-            .filter(
-                (node) =>
-                    teamVisibility[node.data.teamId || "null"] &&
-                    characterVisibility[node.id],
-            )
-            .map((node) => {
-                // Create a new node object to avoid mutating the original
-                const newNode = { ...node, data: { ...node.data } };
-
-                // Set team icon image, if available
-                if (newNode.data.teamId) {
-                    newNode.data.renderTeamImageSrc =
-                        chapterData.teams[newNode.data.teamId].teamIconSrc ||
-                        "";
-                } else {
-                    newNode.data.renderTeamImageSrc = "";
-                }
-
-                newNode.data.isSelected =
-                    selectedNode?.id === newNode.id ||
-                    selectedEdge?.source === newNode.id ||
-                    selectedEdge?.target === newNode.id;
-
-                newNode.data.isCurrentDay = newNode.data.day === day;
-                newNode.data.chapter = chapter;
-                newNode.data.currentCard = currentCard;
-
-                return newNode;
-            });
-    }, [
-        nodes,
-        teamVisibility,
-        characterVisibility,
-        chapterData.teams,
-        selectedNode,
-        selectedEdge,
-        day,
-        chapter,
-        currentCard,
-    ]);
-
-    // Memoize renderableEdges
-    const renderableEdges = useMemo(() => {
-        return edges
-            .filter((edge) => {
-                const nodeSrc = nodes.find((node) => node.id === edge.source);
-                const nodeTarget = nodes.find(
-                    (node) => node.id === edge.target,
-                );
-                if (!nodeSrc || !nodeTarget) {
-                    return false;
-                }
-
-                const edgeData = edge.data;
-                if (!edgeData) {
-                    return false;
-                }
-
-                return (
-                    edgeVisibility[edgeData.relationshipId] &&
-                    teamVisibility[nodeSrc.data.teamId || "null"] &&
-                    teamVisibility[nodeTarget.data.teamId || "null"] &&
-                    characterVisibility[nodeSrc.id] &&
-                    characterVisibility[nodeTarget.id]
-                );
-            })
-            .map((edge) => {
-                // Create a new edge object to avoid mutating the original
-                const newEdge = {
-                    ...edge,
-                    data: edge.data ? { ...edge.data } : undefined,
-                };
-                const edgeData = newEdge.data;
-                if (!edgeData) {
-                    return newEdge;
-                }
-
-                const edgeStyle =
-                    chapterData.relationships[edgeData.relationshipId].style ||
-                    {};
-                const isCurrentDay = edgeData.day === day;
-
-                if (edgeVisibility["new"] && !isCurrentDay) {
-                    newEdge.style = {
-                        ...edgeStyle,
-                        opacity: OLD_EDGE_OPACITY,
-                    };
-                    newEdge.selectable = false;
-                    newEdge.zIndex = -1;
-                } else {
-                    newEdge.style = {
-                        ...edgeStyle,
-                        opacity: 1,
-                    };
-                    newEdge.selectable = true;
-                    newEdge.zIndex = 0;
-                }
-
-                // Check if edge is newly added
-                const previousEdges =
-                    chapterData.charts[previousSelectedDay].edges;
-                if (newEdge.data) {
-                    newEdge.data.isNewlyAdded = !previousEdges.find(
-                        (e) => e.id === newEdge.id,
-                    );
-                }
-
-                if (newEdge.data) {
-                    if (selectedEdge) {
-                        newEdge.data.isSelected =
-                            selectedEdge.id === newEdge.id;
-                    }
-                    newEdge.data.isCurrentDay = isCurrentDay;
-                    newEdge.data.chapter = chapter;
-                    newEdge.data.currentCard = currentCard;
-                }
-
-                return newEdge;
-            });
-    }, [
-        edges,
-        nodes,
-        edgeVisibility,
-        teamVisibility,
-        characterVisibility,
-        chapterData.relationships,
-        chapterData.charts,
-        previousSelectedDay,
-        selectedEdge,
-        day,
-        chapter,
-        currentCard,
-    ]);
-
     const translateExtent = useMemo(() => {
         if (topLeftNode && bottomRightNode) {
             return [
@@ -361,8 +208,8 @@ function ViewChart({
                 connectOnClick={false}
                 deleteKeyCode={null}
                 connectionMode={ConnectionMode.Loose}
-                nodes={renderableNodes}
-                edges={renderableEdges}
+                nodes={nodes}
+                edges={edges}
                 nodeTypes={nodeTypes}
                 edgeTypes={edgeTypes}
                 fitView

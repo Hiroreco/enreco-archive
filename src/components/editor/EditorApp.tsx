@@ -124,17 +124,13 @@ const EditorApp = () => {
                     return undefined;
                 }
                 // get the node from the latest day it was updated
-                let latestUpdatedNode = undefined;
-                for (let i = editorStore.day! - 1; i >= 0; i--) {
-                    latestUpdatedNode = editorStore.data[
-                        editorStore.chapter!
-                    ].charts[i].nodes.find(
-                        (n) => n.id === node.id && n.data && i === n.data.day,
-                    );
-                    if (latestUpdatedNode) {
-                        break;
-                    }
-                }
+                const latestNodes =
+                    editorStore.data[editorStore.chapter!].charts;
+                const dayNodes = latestNodes[node.data.day]?.nodes;
+                if (!dayNodes) return;
+                const latestUpdatedNode = dayNodes.find(
+                    (n) => n.id === node.id && n.data.day === node.data.day,
+                );
                 return latestUpdatedNode ? latestUpdatedNode : node;
             }
             return node;
@@ -170,18 +166,18 @@ const EditorApp = () => {
                     return undefined;
                 }
                 // get the edge from the latest day it was updated
-                let latestUpdatedEdge = undefined;
-                for (let i = editorStore.day! - 1; i >= 0; i--) {
-                    latestUpdatedEdge = editorStore.data[
-                        editorStore.chapter!
-                    ].charts[i].edges.find(
-                        (e) => e.id === edge.id && e.data && i === e.data.day,
+                if (edge.data && edge.data.day !== editorStore.day) {
+                    const latestUpdatedEdges =
+                        editorStore.data[editorStore.chapter!].charts[
+                            edge.data.day
+                        ].edges;
+                    const latestUpdatedEdge = latestUpdatedEdges.find(
+                        (e) =>
+                            e.id === edge.id && e.data?.day === edge.data?.day,
                     );
-                    if (latestUpdatedEdge) {
-                        break;
-                    }
+                    return latestUpdatedEdge ? latestUpdatedEdge : edge;
                 }
-                return latestUpdatedEdge ? latestUpdatedEdge : edge;
+                return edge;
             }
             return edge;
         })
