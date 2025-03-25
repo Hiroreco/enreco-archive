@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Image from "next/image";
 
 interface ViewLoadingPageProps {
@@ -17,6 +17,11 @@ const ViewLoadingPage = ({
     const [isClicked, setIsClicked] = useState(false);
     const [isAnimationComplete, setIsAnimationComplete] = useState(false);
     const [isPulse, setIsPulse] = useState(false);
+
+    const isAprilFools = useMemo(() => {
+        const today = new Date();
+        return today.getMonth() === 3 && today.getDate() === 1;
+    }, []);
 
     const handleClick = () => {
         if (!isAnimationComplete) return;
@@ -87,7 +92,11 @@ const ViewLoadingPage = ({
                 }}
             >
                 <Image
-                    src="/images-opt/logo.webp"
+                    src={
+                        isAprilFools
+                            ? "/images-opt/bogos.webp"
+                            : "/images-opt/logo.webp"
+                    }
                     alt="ENreco Archive Logo"
                     width={600}
                     height={600}
@@ -126,7 +135,16 @@ const ViewLoadingPage = ({
                     }
                 }}
             >
-                Click anywhere to start
+                {isAprilFools ? (
+                    <span className="text-center">
+                        Sleep on that thang
+                        <span className="block text-xs">
+                            (happy april fools)
+                        </span>
+                    </span>
+                ) : (
+                    <span className="text-center">Click anywhere to start</span>
+                )}
             </motion.div>
         </motion.div>
     );
