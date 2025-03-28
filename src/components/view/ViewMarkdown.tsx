@@ -1,44 +1,193 @@
-import TimestampHref from "@/components/view/content-components/TimestampHref";
-import ViewAmeEasterEgg from "@/components/view/easter-eggs/ViewAmeEasterEgg";
-import ViewFaunaEasterEgg from "@/components/view/easter-eggs/ViewFaunaEasterEgg";
-import ViewPotatoSalidEasterEgg from "@/components/view/easter-eggs/ViewPotatoSalidEasterEgg";
-import { FixedEdgeType, ImageNodeType } from "@/lib/type";
-import {
-    getBlurDataURL,
-    getLighterOrDarkerColor,
-    urlToLiveUrl,
-} from "@/lib/utils";
-import { useSettingStore } from "@/store/settingStore";
-import { useReactFlow } from "@xyflow/react";
+import EasterEgg from "@/components/view/markdown/EasterEgg";
+import EdgeLink, { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
+import NodeLink, { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
+import TimestampHref from "@/components/view/markdown/TimestampHref";
+import { getBlurDataURL, urlToLiveUrl } from "@/lib/utils";
+
+import { Element, ElementContent, Text } from "hast";
 import Image from "next/image";
-import {
-    Children,
-    cloneElement,
-    isValidElement,
-    memo,
-    MouseEvent,
-    MouseEventHandler,
-    ReactNode,
-    useCallback,
-    useMemo,
-} from "react";
+import { memo, useMemo } from "react";
 import Markdown, { Components } from "react-markdown";
-import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
+import { Node } from "unist";
+import { TestFunction } from "unist-util-is";
+import { visit } from 'unist-util-visit'
 
-export type NodeLinkClickHandler = (targetNode: ImageNodeType) => void;
-export type EdgeLinkClickHandler = (targetEdge: FixedEdgeType) => void;
+import "@/components/view/ViewMarkdown.css";
 
-const EASTER_EGGS: { [key: string]: ReactNode } = {
-    faunamart: <ViewFaunaEasterEgg />,
-    potato: <ViewPotatoSalidEasterEgg />,
-    ame: <ViewAmeEasterEgg />,
-};
+/*
+Custom rehype plugin to convert lone images in paragraphs into figures.
+Basically it takes this html:
 
-interface Props {
-    onNodeLinkClicked: NodeLinkClickHandler;
-    onEdgeLinkClicked: EdgeLinkClickHandler;
-    children: string | null | undefined;
+<p>
+  <img src="" alt="" />
+</p>
+
+and turns it into
+
+<figure>
+    <img src="" />
+    <figcaption>
+        {alt text}
+    </figcaption>
+</figure>
+
+We do this here because <figure> cannot be a child of <p>. 
+While the browser seemingly doesn't care, nextjs will complain about
+hydration errors so we need to take care of it here. We can't do this 
+at the markdown/remark level as the parser wants to wrap everything in 
+a paragraph when it turns the markdown into html. 
+*/
+function transformImageParagraphToFigure() {
+    /* Match only <p> elements with one <img> child. */
+    const elementFilter: TestFunction = (node: Node) => {
+        if(node.type === "element") {
+            const element = node as Element;
+            const elementChild = element.children[0] as Element;
+            
+            return element.tagName === "p" && 
+                element.children.length === 1 &&
+                elementChild.tagName === "img";
+        }
+
+        return false;
+    }
+
+    return function(tree: Node) {
+        visit(tree, elementFilter, (node) => {
+            const pElement = node as Element;
+            const imgChild = pElement.children[0] as Element;
+
+            const newNode: Element = {
+                type: "element",
+                tagName: "figure",
+                position: undefined,
+                properties: {},
+                children: [
+                    ...pElement.children,
+                    {
+                        type: "element",
+                        tagName: "figcaption",
+                        position: undefined,
+                        properties: {},
+                        children: [
+                            {
+                                type: "text",
+                                value: imgChild.properties["alt"]
+                            } as Text
+                        ] as ElementContent[]
+                    } as Element
+                ]
+            }
+
+            Object.assign(node, newNode);
+        });
+    }
+}
+
+/*
+Custom rehype plugin to add team icons to the end of team names.
+This is done like so:
+
+for each text node in the hast tree:
+    split the text by team names
+    if no team names are found:
+        return immediately
+    else:
+        wrap each instance of a team name in a span with a specific class (see ViewMarkdown.css)
+        add that as a child of the parent while keeping the correct position
+
+The advantage of this method (although it is way more complex) is that it will
+find the team name everywhere in the markdown.
+*/
+function addTeamIcons() {
+    const teamCssClasses = new Map(
+        [
+            ["Amber Coin", "amber-coin"],
+            ["Scarlet Wand", "scarlet-wand"],
+            ["Cerulean Cup", "cerulean-cup"],
+            ["Jade Sword", "jade-sword"],
+        ]
+    );
+
+    /* 
+    Match only text blocks that are not children of a span element. 
+    This is to prevent an infinite team name substitution loop.
+    */
+    const elementFilter: TestFunction = (node, _index, parent) => {
+        if(node.type === "text" && parent?.type === "element") {
+            const parentElement = parent as Element;
+            return parentElement.tagName !== "span";
+        }
+
+        return false;
+    }
+
+    return function(tree: Node) {
+        visit(tree, elementFilter, (node, _index, parent) => {
+            const textNode = node as Text;
+            const parts = textNode.value.split(
+                /(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword)/g,
+            );
+
+            const newChildren: ElementContent[] = parts.map((part) => {
+                if(teamCssClasses.has(part)) {
+                    return {
+                        type: "element",
+                        tagName: "span",
+                        properties: {
+                            "class": teamCssClasses.get(part)
+                        },
+                        children: [
+                            {
+                                type: "text",
+                                value: part
+                            } as Text
+                        ] as ElementContent[]
+                    } as Element;
+                }
+                else {
+                    return {
+                        type: "text",
+                        value: part
+                    } as Text
+                }
+            });
+
+            if(newChildren.length !== 1) {
+                const parentElem = parent as Element;
+                const nodeChildIdx = parentElem.children.indexOf(textNode);
+                parentElem.children.splice(nodeChildIdx, 1, ...newChildren);
+            }
+        })
+    }
+}
+
+/*
+Custom rehype plugin to unwrap easter egg <a> elements from <p> elements.
+This is basically just to prevent hydration errors again (thanks nextjs).
+*/
+function unWrapEasterEggLink() {
+    /* Match only <p> elements with one <a> child whose href contains "#easter". */
+    const elementFilter: TestFunction = (node) => {
+        if(node.type === "element") {
+            const elementNode = node as Element;
+
+            return elementNode.tagName === "p" &&
+                elementNode.children.length === 1 &&
+                elementNode.children[0].type == "element" &&
+                (elementNode.children[0] as Element).tagName === "a" &&
+                ((elementNode.children[0] as Element).properties["href"] as string).includes("#easter");
+        }
+
+        return false;
+    }
+
+    return function(tree: Node) {
+        visit(tree, elementFilter, (node) => {
+            Object.assign(node, (node as Element).children[0]);
+        })
+    }
 }
 
 /*
@@ -48,247 +197,107 @@ All other links are transformed to open in a new tab.
 You can generate these special links by using the following markdown: 
 For a link to jump to a specific node: [node label](#node:<node id>)
 For a link to jump to a specific edge: [edge label](#edge:<edge id>)
-For a link to open in a new tab: [out label](#out:<url>)
 For a link to embed a video: [embed label](#embed:<url>)
-For a link to show an image: [image label](#image:<url>)
 For a link to show an easter egg: [easter label](#easter:<egg>)
 */
+
+interface ViewMarkdownProps {
+    onNodeLinkClicked: NodeLinkClickHandler;
+    onEdgeLinkClicked: EdgeLinkClickHandler;
+    children: string | null | undefined;
+}
+
 function ViewMarkdownInternal({
     onNodeLinkClicked,
     onEdgeLinkClicked,
     children,
-}: Props) {
-    const { getNode, getEdge } = useReactFlow<ImageNodeType, FixedEdgeType>();
-    // The previous method of tracking the theme based on the document object
-    // doesn't update when the theme changes. So using the store directly instead.
-    const isDarkMode = useSettingStore((state) => state.themeType === "dark");
-
-    const nodeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback(
-        (event: MouseEvent<HTMLAnchorElement>) => {
-            event.preventDefault();
-
-            const nodeId =
-                (event.target as Element).getAttribute("data-node-id") || "";
-            const targetNode: ImageNodeType | undefined = getNode(nodeId);
-            if (!targetNode || targetNode.hidden) {
-                return;
-            }
-
-            onNodeLinkClicked(targetNode);
-        },
-        [getNode, onNodeLinkClicked],
-    );
-
-    const edgeLinkHandler: MouseEventHandler<HTMLAnchorElement> = useCallback(
-        (event: MouseEvent<HTMLAnchorElement>) => {
-            event.preventDefault();
-
-            const edgeId =
-                (event.target as Element).getAttribute("data-edge-id") || "";
-            const targetEdge: FixedEdgeType | undefined = getEdge(edgeId);
-            if (!targetEdge) {
-                return;
-            }
-
-            onEdgeLinkClicked(targetEdge);
-        },
-        [getEdge, onEdgeLinkClicked],
-    );
-
-    const processTeamIcons = useCallback((node: ReactNode): ReactNode => {
-        const teamIcons: { [key: string]: string } = {
-            "Amber Coin": "images-opt/ambercoin.webp",
-            "Scarlet Wand": "images-opt/scarletwand.webp",
-            "Cerulean Cup": "images-opt/ceruleancup.webp",
-            "Jade Sword": "images-opt/jadesword.webp",
-        };
-
-        if (typeof node === "string") {
-            const parts = node.split(
-                /(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword)/g,
-            );
-
-            return parts.reduce((acc: ReactNode[], part, index) => {
-                if (!part) return acc;
-
-                if (teamIcons[part]) {
-                    return [
-                        ...acc,
-                        <span
-                            key={index}
-                            className="inline-flex items-center gap-1"
-                        >
-                            {part}
-                            <img
-                                className="inline h-6 w-6"
-                                src={teamIcons[part]}
-                                alt={part}
-                            />
-                        </span>,
-                    ];
-                }
-
-                return [...acc, part];
-            }, []);
-        }
-
-        if (isValidElement(node)) {
-            const newChildren = Children.map(
-                (node as React.ReactElement).props.children,
-                processTeamIcons,
-            );
-            return cloneElement(
-                node,
-                (node as React.ReactElement).props,
-                newChildren,
-            );
-        }
-
-        return node;
-    }, []);
-
+}: ViewMarkdownProps) {
     const markdownComponentMap = useMemo(
         (): Components => ({
-            // <br> styles not working for some reason, will use a div instead
-            br: () => <div className="block my-6" />,
-            p: ({ children }) => {
-                const processedChildren = Children.map(
-                    children,
-                    processTeamIcons,
+            img: ({src = "", alt = ""}) => {
+                return (
+                    <Image
+                        src={src}
+                        alt={alt}
+                        width={1600}
+                        height={900}
+                        placeholder="blur"
+                        blurDataURL={getBlurDataURL(src)}
+                    />
                 );
-                return <>{processedChildren}</>;
             },
-            li: ({ children }) => {
-                const processedChildren = Children.map(
-                    children,
-                    processTeamIcons,
+            figcaption: ({children}) => {
+                return (
+                    <figcaption className="text-sm opacity-80 italic mt-2">
+                        {children}
+                    </figcaption>
                 );
-                return <li>{processedChildren}</li>;
             },
             a(props) {
-                const { href, ...rest } = props;
-
+                const { href, children } = props;
                 // Empty href is an easy to retain the correct cursor.
+                
                 if (href && href.startsWith("#node:")) {
                     const nodeId = href.replace("#node:", "");
-
-                    // Make the link's color the same as the node's
-                    // Not sure about this one, might remove.
-                    const node = getNode(nodeId);
-                    const style = node?.style;
-                    let nodeColor = "#831843";
-                    if (style && style.stroke) {
-                        nodeColor = getLighterOrDarkerColor(
-                            style.stroke,
-                            isDarkMode ? 30 : -30,
-                        );
-                    }
                     return (
-                        <a
-                            className="font-semibold underline underline-offset-2"
-                            style={{ color: nodeColor }}
-                            href=""
-                            data-node-id={nodeId}
-                            onClick={nodeLinkHandler}
-                            {...rest}
-                        />
+                        <NodeLink nodeId={nodeId} onNodeLinkClick={onNodeLinkClicked}>
+                            {children}
+                        </NodeLink>
                     );
                 } else if (href && href.startsWith("#edge:")) {
                     const edgeId = href.replace("#edge:", "");
 
-                    // Make the link's color the same as the edge's
-                    // Not sure about this one either, might remove.
-                    const edge = getEdge(edgeId);
-                    const style = edge?.style;
-                    let edgeColor = "#831843";
-                    if (style && style.stroke) {
-                        edgeColor = getLighterOrDarkerColor(
-                            style.stroke,
-                            isDarkMode ? 30 : -30,
-                        );
-                    }
                     return (
-                        <a
-                            className="font-semibold underline underline-offset-2"
-                            style={{ color: edgeColor }}
-                            href=""
-                            data-edge-id={edgeId}
-                            onClick={edgeLinkHandler}
-                            {...rest}
-                        />
+                        <EdgeLink edgeId={edgeId} onEdgeLinkClick={onEdgeLinkClicked}>
+                            {children}
+                        </EdgeLink>
                     );
                 } else if (href && href.startsWith("#embed")) {
                     let url = href.replace("#embed:", "");
                     url = urlToLiveUrl(url);
 
-                    const caption = rest.children as string;
+                    const caption = children as string;
 
                     return (
                         <TimestampHref
                             href={url}
                             caption={caption}
-                            {...rest}
-                            type={"embed"}
+                            type="embed"
                         />
-                    );
-                } else if (href && href.startsWith("#out")) {
-                    const url = href.replace("#out:", "");
-                    return (
-                        <a
-                            href={url}
-                            target="_blank"
-                            {...rest}
-                            className="font-semibold text-[#6f6ac6]"
-                        />
-                    );
-                } else if (href && href.startsWith("#image")) {
-                    const imageUrl = href.replace("#image:", "");
-                    const caption = rest.children as string;
-                    return (
-                        <figure>
-                            <Image
-                                src={imageUrl}
-                                alt={rest.children as string}
-                                width={1600}
-                                height={900}
-                                placeholder="blur"
-                                blurDataURL={getBlurDataURL(imageUrl)}
-                            />
-                            <figcaption className="text-sm opacity-80 italic mt-2">
-                                {caption}
-                            </figcaption>
-                        </figure>
                     );
                 } else if (href && href.startsWith("#easter")) {
                     const egg = href.replace("#easter:", "");
-                    return EASTER_EGGS[egg];
-                } else {
+                    return <EasterEgg easterEggName={egg} />;
+                } else if (href && href.startsWith("https://www.youtube.com")) {
                     return (
                         <TimestampHref
                             href={urlToLiveUrl(href!) || ""}
-                            caption={rest.children as string}
-                            {...rest}
+                            caption={children as string}
                             type="general"
                         />
+                    );
+                } else {
+                    return (
+                        <a
+                            href={href}
+                            target="_blank"
+                            className="font-semibold text-[#6f6ac6]"
+                        >
+                            {children}
+                        </a>
                     );
                 }
             },
         }),
-        [
-            edgeLinkHandler,
-            getEdge,
-            getNode,
-            isDarkMode,
-            nodeLinkHandler,
-            processTeamIcons,
-        ],
+        [onEdgeLinkClicked, onNodeLinkClicked],
     );
 
-    const rehypePlugins = useMemo(() => [rehypeRaw, remarkGfm], []);
-
+    const remarkPlugins = useMemo(() => [remarkGfm], []);
+    const rehypePlugins = useMemo(() => [transformImageParagraphToFigure, addTeamIcons, unWrapEasterEggLink], []);
     return (
         <Markdown
-            className={"relative"}
+            className={"relative markdown"}
+            remarkPlugins={remarkPlugins}
             rehypePlugins={rehypePlugins}
             components={markdownComponentMap}
         >

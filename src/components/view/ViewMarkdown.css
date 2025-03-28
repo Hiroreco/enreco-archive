@@ -1,0 +1,43 @@
+.markdown > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.amber-coin::after {
+    display: inline-block;
+    background-image: url('/images-opt/ambercoin.webp');
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.scarlet-wand::after {
+    display: inline-block;
+    background-image: url('/images-opt/scarletwand.webp');
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.cerulean-cup::after {
+    display: inline-block;
+    background-image: url('/images-opt/ceruleancup.webp');
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.jade-sword::after {
+    display: inline-block;
+    background-image: url('/images-opt/jadesword.webp');
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    content: "";
+    vertical-align: text-bottom;
+}

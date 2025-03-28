@@ -1,4 +1,4 @@
-import TimestampHref from "@/components/view/content-components/TimestampHref";
+import TimestampHref from "@/components/view/markdown/TimestampHref";
 import React from "react";
 
 const ViewMemoryGameInfo = () => {

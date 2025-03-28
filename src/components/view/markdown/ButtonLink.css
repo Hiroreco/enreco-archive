@@ -1,0 +1,39 @@
+/* 
+Thanks stack overflow 
+https://stackoverflow.com/a/12642009
+*/
+
+.like-anchor {
+    align-items: normal;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(0, 0, 238);
+    border-style: none;
+    box-sizing: content-box;
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+    display: inline;
+    font: inherit;
+    height: auto;
+    padding: 0;
+    perspective-origin: 0 0;
+    text-align: start;
+    text-decoration: underline;
+    transform-origin: 0 0;
+    width: auto;
+    outline: 1 solid red;
+    -moz-appearance: none;
+    -webkit-logical-height: 1em;
+    -webkit-logical-width: auto;
+}
+
+@supports (-moz-appearance: none) {
+    .like-anchor::-moz-focus-inner {
+        border: none;
+        padding: 0;
+    }
+
+    .like-anchor:focus {
+        outline-style: dotted;
+        outline-width: 1px;
+    }
+}
