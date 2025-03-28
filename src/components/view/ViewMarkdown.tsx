@@ -134,12 +134,14 @@ function ViewMarkdownInternal({
 
         if (isValidElement(node)) {
             const newChildren = Children.map(
-                (node as React.ReactElement).props.children,
+                (node as React.ReactElement<{ children: ReactNode }>).props
+                    .children,
                 processTeamIcons,
             );
             return cloneElement(
                 node,
-                (node as React.ReactElement).props,
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                (node as React.ReactElement<any>).props,
                 newChildren,
             );
         }
@@ -287,13 +289,14 @@ function ViewMarkdownInternal({
     const rehypePlugins = useMemo(() => [rehypeRaw, remarkGfm], []);
 
     return (
-        <Markdown
-            className={"relative"}
-            rehypePlugins={rehypePlugins}
-            components={markdownComponentMap}
-        >
-            {children}
-        </Markdown>
+        <div className="relative">
+            <Markdown
+                rehypePlugins={rehypePlugins}
+                components={markdownComponentMap}
+            >
+                {children}
+            </Markdown>
+        </div>
     );
 }
 

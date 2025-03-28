@@ -29,7 +29,10 @@ import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
-import { generateRenderableEdges, generateRenderableNodes } from "./lib/generate-renderable-chart-elems";
+import {
+    generateRenderableEdges,
+    generateRenderableNodes,
+} from "./lib/generate-renderable-chart-elems";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -49,13 +52,13 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
 }
 
 interface Props {
-    useDarkMode: boolean;
     siteData: SiteData;
     isInLoadingScreen: boolean;
+    bgImage: string;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
+const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     useAudioSettingsSync();
     useClickOutside();
     /* State variables */
@@ -101,27 +104,27 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.selectedNode?.id,
             viewStore.selectedEdge?.source,
             viewStore.selectedEdge?.target,
-        ].filter(s => s !== undefined && s !== null);
+        ].filter((s) => s !== undefined && s !== null);
 
         return generateRenderableNodes(
-            chapterData, 
+            chapterData,
             viewStore.chapter,
             viewStore.day,
             viewStore.teamVisibility,
             viewStore.characterVisibility,
             selectedNodes,
-            viewStore.currentCard
+            viewStore.currentCard,
         );
     }, [
-        viewStore.selectedNode?.id, 
-        viewStore.selectedEdge?.source, 
-        viewStore.selectedEdge?.target, 
-        viewStore.chapter, 
-        viewStore.day, 
-        viewStore.teamVisibility, 
-        viewStore.characterVisibility, 
-        viewStore.currentCard, 
-        chapterData
+        viewStore.selectedNode?.id,
+        viewStore.selectedEdge?.source,
+        viewStore.selectedEdge?.target,
+        viewStore.chapter,
+        viewStore.day,
+        viewStore.teamVisibility,
+        viewStore.characterVisibility,
+        viewStore.currentCard,
+        chapterData,
     ]);
 
     const processedEdges = useMemo(() => {
@@ -135,19 +138,19 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.edgeVisibility,
             processedNodes,
             viewStore.selectedEdge,
-            viewStore.currentCard
+            viewStore.currentCard,
         );
     }, [
-        chapterData, 
-        viewStore.chapter, 
-        viewStore.day, 
-        viewStore.previousSelectedDay, 
-        viewStore.teamVisibility, 
-        viewStore.characterVisibility, 
-        viewStore.edgeVisibility, 
-        viewStore.selectedEdge, 
-        viewStore.currentCard, 
-        processedNodes
+        chapterData,
+        viewStore.chapter,
+        viewStore.day,
+        viewStore.previousSelectedDay,
+        viewStore.teamVisibility,
+        viewStore.characterVisibility,
+        viewStore.edgeVisibility,
+        viewStore.selectedEdge,
+        viewStore.currentCard,
+        processedNodes,
     ]);
 
     // Update processed edges' read status
@@ -347,11 +350,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
               ]
             : null;
 
-    let bgImage = chapterData.bgiSrc;
-    if (useDarkMode) {
-        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
-    }
-
     return (
         <>
             <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
@@ -371,23 +369,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     day={viewStore.day}
                     currentCard={viewStore.currentCard}
                     previousCard={previousCard}
-                />
-                <div
-                    className={cn(
-                        "absolute top-0 left-0 w-screen h-screen -z-10",
-                        {
-                            "brightness-90 dark:brightness-70":
-                                viewStore.currentCard !== null,
-                            "brightness-100": viewStore.currentCard === null,
-                        },
-                    )}
-                    style={{
-                        backgroundImage: `url('${bgImage}')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s",
-                    }}
                 />
 
                 <ViewSettingCard

@@ -8,6 +8,11 @@ import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import useLightDarkModeSwitcher from "./hooks/useLightDarkModeSwitcher";
 import { cn } from "./lib/utils";
 import { useSettingStore } from "./store/settingStore";
+import ViewItemsApp from "@/ViewItemsApp";
+import { AnimatePresence, motion } from "framer-motion";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Sword, Workflow } from "lucide-react";
+import { useViewStore } from "@/store/viewStore";
 
 const data: SiteData = {
     version: siteMeta.version,
@@ -16,12 +21,23 @@ const data: SiteData = {
     chapters: [chapter0 as Chapter],
 };
 
+type AppType = "chart" | "items";
+
 export const ViewAppWrapper = () => {
+    const viewStore = useViewStore();
+
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
+    const [appType, setAppType] = useState<AppType>("chart");
     const themeType = useSettingStore((state) => state.themeType);
-
     const useDarkMode = useLightDarkModeSwitcher(themeType);
+
+    const chapterData = data.chapters[viewStore.chapter];
+
+    let bgImage = chapterData.bgiSrc;
+    if (useDarkMode) {
+        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
+    }
 
     return (
         <>
@@ -34,17 +50,72 @@ export const ViewAppWrapper = () => {
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />
             )}
+
+            <div
+                className={cn("absolute top-0 left-0 w-screen h-screen -z-10", {
+                    "brightness-90 dark:brightness-70":
+                        viewStore.currentCard !== null,
+                    "brightness-100": viewStore.currentCard === null,
+                })}
+                style={{
+                    backgroundImage: `url('${bgImage}')`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    transition: "brightness 0.5s",
+                }}
+            />
+
             <div
                 className={cn({
                     "visible opacity-1": viewAppVisible,
                     "invisible opacity-0": !viewAppVisible,
                 })}
             >
-                <ViewApp
-                    useDarkMode={useDarkMode}
-                    siteData={data}
-                    isInLoadingScreen={isLoading}
-                />
+                <Tabs
+                    orientation="vertical"
+                    defaultValue="chart"
+                    onValueChange={(value) => setAppType(value as AppType)}
+                    className="absolute left-2 top-2 z-10"
+                >
+                    <TabsList>
+                        <TabsTrigger value="chart">
+                            <Workflow size={24} />
+                        </TabsTrigger>
+                        <TabsTrigger value="items">
+                            <Sword size={24} />
+                        </TabsTrigger>
+                    </TabsList>
+                </Tabs>
+
+                <AnimatePresence mode="wait">
+                    {appType === "chart" && (
+                        <motion.div
+                            key="chart"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <ViewApp
+                                bgImage={bgImage}
+                                siteData={data}
+                                isInLoadingScreen={isLoading}
+                            />
+                        </motion.div>
+                    )}
+                    {appType === "items" && (
+                        <motion.div
+                            key="items"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <ViewItemsApp />
+                        </motion.div>
+                    )}
+                </AnimatePresence>
             </div>
         </>
     );
