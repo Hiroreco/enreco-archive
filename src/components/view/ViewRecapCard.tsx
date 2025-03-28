@@ -1,11 +1,12 @@
 import { Separator } from "@/components/ui/separator";
 import {
-    EdgeLinkClickHandler,
-    NodeLinkClickHandler,
     ViewMarkdown,
 } from "@/components/view/ViewMarkdown";
 import ViewProgressBar from "@/components/view/ViewProgressBar";
+import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
+import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { ChartData } from "@/lib/type";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 

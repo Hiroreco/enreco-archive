@@ -1,22 +1,23 @@
+import LineSvg from "@/components/LineSvg";
+import { Separator } from "@/components/ui/separator";
+import { Stack, StackItem } from "@/components/ui/Stack";
+import EdgeCardDeco from "@/components/view/EdgeCardDeco";
+import ReadMarker from "@/components/view/ReadMarker";
 import VaulDrawer from "@/components/view/VaulDrawer";
+import {
+    ViewMarkdown,
+} from "@/components/view/ViewMarkdown";
+import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
+import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
-import { useReactFlow } from "@xyflow/react";
 import {
     getLighterOrDarkerColor,
     idFromChapterDayId,
     isMobileViewport,
 } from "@/lib/utils";
-import {
-    EdgeLinkClickHandler,
-    NodeLinkClickHandler,
-    ViewMarkdown,
-} from "./ViewMarkdown";
+
+import { useReactFlow } from "@xyflow/react";
 import { useEffect, useRef } from "react";
-import LineSvg from "@/components/LineSvg";
-import EdgeCardDeco from "./EdgeCardDeco";
-import ReadMarker from "./ReadMarker";
-import { Stack, StackItem } from "@/components/ui/Stack";
-import { Separator } from "@/components/ui/separator";
 
 interface Props {
     isCardOpen: boolean;
