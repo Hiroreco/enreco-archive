@@ -51,6 +51,7 @@ export const ViewAppWrapper = () => {
                 />
             )}
 
+            {/* Setting the background here so both apps can use it */}
             <div
                 className={cn("absolute top-0 left-0 w-screen h-screen -z-10", {
                     "brightness-90 dark:brightness-70":
@@ -76,7 +77,10 @@ export const ViewAppWrapper = () => {
                     orientation="vertical"
                     defaultValue="chart"
                     onValueChange={(value) => setAppType(value as AppType)}
-                    className="absolute left-2 top-2 z-10"
+                    className={cn("absolute left-2 top-2 z-10 transition-all", {
+                        "invisible opacity-0": viewStore.currentCard !== null,
+                        "visible opacity-100": viewStore.currentCard === null,
+                    })}
                 >
                     <TabsList>
                         <TabsTrigger value="chart">
@@ -112,7 +116,7 @@ export const ViewAppWrapper = () => {
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <ViewItemsApp />
+                            <ViewItemsApp bgImage={bgImage} />
                         </motion.div>
                     )}
                 </AnimatePresence>
