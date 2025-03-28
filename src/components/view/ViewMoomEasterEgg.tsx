@@ -1,21 +1,21 @@
 import { cn } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import Image from "next/image";
-import { useState } from "react";
 
 const ViewMoomEasterEgg = () => {
     const audioStore = useAudioStore();
-    const [easterEggActivated, setEasterEggActivated] = useState(false);
 
     return (
         <div
             onClick={() => {
-                if (!easterEggActivated) {
-                    setEasterEggActivated(true);
+                if (audioStore.isMoomPlaying) return;
+                audioStore.setIsMoomPlaying(true);
+                audioStore.playSFX("chicken-pop");
+                setTimeout(() => {
                     audioStore.playSFX("moom");
-                }
+                }, 1000);
             }}
-            className="absolute -bottom-12 right-2 h-[130px] overflow-hidden"
+            className="absolute -bottom-[24px] right-2 h-[150px] overflow-hidden"
         >
             <Image
                 width={100}
@@ -23,7 +23,7 @@ const ViewMoomEasterEgg = () => {
                 src="images-opt/easter-moom.webp"
                 className={cn("mx-auto transition-opacity translate-y-[50%]", {
                     "cursor-pointer opacity-50 hover:opacity-100":
-                        !easterEggActivated,
+                        !audioStore.isMoomPlaying,
                 })}
                 alt="moom"
             />

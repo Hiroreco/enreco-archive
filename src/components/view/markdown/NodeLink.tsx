@@ -13,11 +13,15 @@ interface NodeLinkProps {
     nodeId: string;
     children?: ReactNode;
     onNodeLinkClick: NodeLinkClickHandler;
-};
+}
 
-export default function NodeLink({nodeId, children, onNodeLinkClick}: NodeLinkProps) {
+export default function NodeLink({
+    nodeId,
+    children,
+    onNodeLinkClick,
+}: NodeLinkProps) {
     const { getNode } = useReactFlow<ImageNodeType, FixedEdgeType>();
-    
+
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
@@ -25,11 +29,11 @@ export default function NodeLink({nodeId, children, onNodeLinkClick}: NodeLinkPr
     const node = getNode(nodeId);
 
     const nodeLinkHandler = useCallback(() => {
-        if(node && !node.hidden) {
+        if (node && !node.hidden) {
             onNodeLinkClick(node);
         }
     }, [node, onNodeLinkClick]);
-    
+
     // Make the link's color the same as the node's
     // Not sure about this one, might remove.
     const style = node?.style;
@@ -43,11 +47,11 @@ export default function NodeLink({nodeId, children, onNodeLinkClick}: NodeLinkPr
 
     return (
         <button
-            className="like-anchor font-semibold underline underline-offset-2"
+            className="like-anchor underline underline-offset-2"
             style={{ color: nodeColor }}
             onClick={nodeLinkHandler}
         >
-            {children}
+            <span className="font-semibold">{children}</span>
         </button>
     );
 }

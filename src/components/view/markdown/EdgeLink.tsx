@@ -13,11 +13,15 @@ interface EdgeLinkProps {
     edgeId: string;
     children?: ReactNode;
     onEdgeLinkClick: EdgeLinkClickHandler;
-};
+}
 
-export default function EdgeLink({edgeId, children, onEdgeLinkClick}: EdgeLinkProps) {
+export default function EdgeLink({
+    edgeId,
+    children,
+    onEdgeLinkClick,
+}: EdgeLinkProps) {
     const { getEdge } = useReactFlow<ImageNodeType, FixedEdgeType>();
-    
+
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
@@ -25,11 +29,11 @@ export default function EdgeLink({edgeId, children, onEdgeLinkClick}: EdgeLinkPr
     const edge = getEdge(edgeId);
 
     const edgeLinkHandler = useCallback(() => {
-        if(edge && !edge.hidden) {
+        if (edge && !edge.hidden) {
             onEdgeLinkClick(edge);
         }
     }, [edge, onEdgeLinkClick]);
-    
+
     // Make the link's color the same as the node's
     // Not sure about this one, might remove.
     const style = edge?.style;
@@ -43,11 +47,11 @@ export default function EdgeLink({edgeId, children, onEdgeLinkClick}: EdgeLinkPr
 
     return (
         <button
-            className="like-anchor font-semibold underline underline-offset-2"
+            className="like-anchor underline underline-offset-2"
             style={{ color: edgeColor }}
             onClick={edgeLinkHandler}
         >
-            {children}
+            <span className="font-semibold">{children}</span>
         </button>
     );
 }
