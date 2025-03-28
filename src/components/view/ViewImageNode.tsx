@@ -1,4 +1,3 @@
-import { OLD_NODE_OPACITY } from "@/lib/constants";
 import { ImageNodeProps } from "@/lib/type";
 import { cn, getBlurDataURL } from "@/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
@@ -40,9 +39,7 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const ViewImageNode = ({ data }: ImageNodeProps) => {
-    const cardOtherThanSettingsOpen =
-        data.currentCard !== null && data.currentCard !== "setting";
+const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
@@ -64,17 +61,15 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
             {handles}
             <div
                 style={{
-                    opacity: data.isCurrentDay ? 1 : OLD_NODE_OPACITY,
+                    opacity: data.renderOpacity,
                     transition: "transform 0.3s, opacity 1s",
                 }}
                 className={cn(
                     "relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
                     {
-                        "hover:scale-110": !data.isSelected,
-                        "brightness-100":
-                            data.isSelected && cardOtherThanSettingsOpen,
-                        "brightness-90 dark:brightness-50":
-                            !data.isSelected && cardOtherThanSettingsOpen,
+                        "hover:scale-110": !selected,
+                        "brightness-100": !data.renderDimly,
+                        "brightness-90 dark:brightness-50": data.renderDimly
                     },
                 )}
             >
@@ -92,7 +87,7 @@ const ViewImageNode = ({ data }: ImageNodeProps) => {
                 />
 
                 {/* Border animation to indicate selected node */}
-                {data.isSelected && (
+                {selected && (
                     <div
                         className="absolute w-[110px] h-[110px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 running-border"
                         style={

@@ -3,8 +3,11 @@ import { FixedEdgeProps } from "@/lib/type";
 import { cn } from "@/lib/utils";
 import { memo, useEffect, useId, useMemo, useRef } from "react";
 
+import "@/components/view/ViewCustomEdge.css";
+
 const ViewCustomEdge = ({
     data,
+    selectable,
     style,
     sourceX,
     sourceY,
@@ -12,14 +15,13 @@ const ViewCustomEdge = ({
     targetX,
     targetY,
     targetPosition,
+    selected
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
     const pathRef = useRef<SVGPathElement>(null);
     const maskId = useId();
     const { strokeDasharray, ...restStyle } = style || {};
-    const cardOtherThanSettingsOpen =
-        data?.currentCard !== null && data?.currentCard !== "setting";
-
+    
     const path = useMemo(
         () =>
             generatePath(
@@ -59,28 +61,34 @@ const ViewCustomEdge = ({
     }, [isNewlyAdded]);
 
     return (
-        <svg
+        <g
             className={cn(
                 "transition-all fill-none duration-1000 dark:brightness-[0.87]",
                 {
-                    "brightness-90 dark:brightness-50":
-                        cardOtherThanSettingsOpen && !data!.isSelected,
-                    "brightness-100":
-                        cardOtherThanSettingsOpen && data!.isSelected,
+                    "brightness-90 dark:brightness-50": data?.renderDimly,
+                    "brightness-100": !data?.renderDimly,
+                    "custom-edge-group cursor-pointer" :
+                        selectable,
+                    "cursor-default" :
+                        !selectable
                 },
             )}
         >
             {/* Mask for dashed edges */}
             <defs>
                 {strokeDasharray && (
-                    <mask id={maskId}>
+                    <mask id={maskId} y={"-20%"} height={"130%"}>
                         <path
                             d={path}
                             stroke="white"
-                            strokeWidth={data!.isSelected ? 7 : 5}
+                            strokeWidth={selected ? 7 : 5}
                             strokeDasharray={strokeDasharray}
                             fill="none"
                             strokeLinecap="round"
+                            className={cn({
+                                "custom-edge": !selected,
+                                "custom-edge-selected": selected,
+                            })}
                         />
                     </mask>
                 )}
@@ -91,9 +99,8 @@ const ViewCustomEdge = ({
                 d={path}
                 fill="none"
                 stroke="transparent"
-                strokeWidth={20}
+                strokeWidth={25}
                 strokeLinecap="round"
-                className="cursor-pointer"
             />
 
             {/* Actual edge with mask applied if dashed */}
@@ -104,15 +111,15 @@ const ViewCustomEdge = ({
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
                     ...restStyle,
                 }}
-                className={cn("hover:stroke-[7]", {
-                    "stroke-[5]": !data!.isSelected,
-                    "stroke-[7]": data!.isSelected,
+                className={cn({
+                    "custom-edge": !selected,
+                    "custom-edge-selected": selected,
                 })}
                 mask={strokeDasharray ? `url(#${maskId})` : undefined}
             />
 
             {/* Animated light effect when selected */}
-            {data!.isSelected && (
+            {selected && (
                 <path
                     d={path}
                     stroke="white"
@@ -125,7 +132,7 @@ const ViewCustomEdge = ({
                     }}
                 />
             )}
-        </svg>
+        </g>
     );
 };
 
