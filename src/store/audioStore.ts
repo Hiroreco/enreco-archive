@@ -17,6 +17,8 @@ interface AudioState {
     setAllSfxVolume: (volume: number) => void;
     setBgmVolume: (volume: number) => void;
     changeBGM: (key: string) => void;
+    isMoomPlaying: boolean;
+    setIsMoomPlaying: (isPlaying: boolean) => void;
 }
 
 export const useAudioStore = create<AudioState>((set, get) => ({
@@ -59,9 +61,15 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/chicken-pop.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
+        moom: new Howl({
+            src: ["/audio/moom.mp3"],
+            volume: useSettingStore.getState().sfxVolume,
+        }),
     },
     bgmVolume: useSettingStore.getState().bgmVolume,
     sfxVolume: useSettingStore.getState().sfxVolume,
+    isMoomPlaying: false,
+    setIsMoomPlaying: (isPlaying: boolean) => set({ isMoomPlaying: isPlaying }),
     playBGM: () => {
         const { bgm, bgmVolume } = get();
         if (bgm && !bgm.playing()) {
@@ -91,9 +99,19 @@ export const useAudioStore = create<AudioState>((set, get) => ({
                 volume: sfxVolume,
             });
             sound.play();
+            if (name === "moom") {
+                sound.on("end", () => {
+                    get().setIsMoomPlaying(false);
+                });
+            }
         } else {
             sfx[name].volume(sfxVolume);
             sfx[name].play();
+            if (name === "moom") {
+                sfx[name].once("end", () => {
+                    get().setIsMoomPlaying(false);
+                });
+            }
         }
     },
     setAllSfxVolume: (volume: number) => {

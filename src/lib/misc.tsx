@@ -51,6 +51,10 @@ export const CONTRIBUTORS = [
                 name: "keenbiscuit",
                 socials: "https://x.com/keenbiscuit",
             },
+            {
+                name: "SuperAppleMan",
+                socials: "https://x.com/KW7MD8FEWT7lMXx",
+            },
         ],
     },
 ];
