@@ -143,3 +143,24 @@ export type CustomEdgeProps = EdgeProps<CustomEdgeType>;
 
 export type FixedEdgeType = Edge<FixedEdgeData, "fixed">;
 export type FixedEdgeProps = EdgeProps<FixedEdgeType>;
+
+// Miscellaneous Page Types
+export type MiscelPageData = {
+    weaponsData: WeaponsData[];
+    miscelItemsData: MiscelItemData[];
+    // if we want more tabs, we can add more types here
+};
+
+export type CommonItemData = {
+    name: string;
+    thumbnailSrc: string;
+    modelSrc: string;
+    content: string;
+};
+
+export type WeaponsData = CommonItemData & {
+    wielder: string;
+    wielderSrc: string;
+};
+
+export type MiscelItemData = CommonItemData & {};
