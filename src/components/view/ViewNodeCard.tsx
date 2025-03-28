@@ -1,18 +1,18 @@
-import VaulDrawer from "@/components/view/VaulDrawer";
-import {
-    EdgeLinkClickHandler,
-    NodeLinkClickHandler,
-    ViewMarkdown,
-} from "@/components/view/ViewMarkdown";
+import { Separator } from "@/components/ui/separator";
+import { Stack, StackItem } from "@/components/ui/Stack";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
-
-import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
+import VaulDrawer from "@/components/view/VaulDrawer";
+import {
+    ViewMarkdown,
+} from "@/components/view/ViewMarkdown";
+import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
+import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { ImageNodeType, Team } from "@/lib/type";
+import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
+
 import Image from "next/image";
-import { Stack, StackItem } from "@/components/ui/Stack";
 import { useEffect, useRef } from "react";
-import { Separator } from "@/components/ui/separator";
 
 interface Props {
     isCardOpen: boolean;
