@@ -1,10 +1,11 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { IconButton } from "@/components/ui/IconButton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
+import ViewHatsCard from "@/components/viewitems/ViewHatsCard";
+import ViewWeaponsCard from "@/components/viewitems/ViewWeaponsCard";
 import { useViewStore } from "@/store/viewStore";
 import { Dice6, Info, Settings } from "lucide-react";
 
@@ -27,35 +28,10 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
                     <TabsTrigger value="hats">Hats</TabsTrigger>
                 </TabsList>
                 <TabsContent value="weapons" className="flex-1">
-                    <Card className="w-full h-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
-                        <CardHeader>
-                            <CardTitle>Weapons</CardTitle>
-                        </CardHeader>
-
-                        <CardContent>
-                            <div className="grid grid-cols-10 gap-4">
-                                {Array.from({ length: 20 }).map((_, index) => (
-                                    <div
-                                        key={index}
-                                        className="border-green-300 border backdrop-blur-md rounded-lg p-4 cursor-pointer hover:scale-105 transition-all"
-                                    >
-                                        <img
-                                            className="w-[50px] h-auto mx-auto"
-                                            src="https://i.pinimg.com/736x/69/de/e6/69dee631b78c61b06d8b1ce53a48c347.jpg"
-                                            alt={`weapon-${index}`}
-                                        />
-                                    </div>
-                                ))}
-                            </div>
-                        </CardContent>
-                    </Card>
+                    <ViewWeaponsCard />
                 </TabsContent>
                 <TabsContent value="hats" className="flex-1">
-                    <Card className="w-full h-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
-                        <CardHeader>
-                            <CardTitle>Hats</CardTitle>
-                        </CardHeader>
-                    </Card>
+                    <ViewHatsCard />
                 </TabsContent>
             </Tabs>
 
