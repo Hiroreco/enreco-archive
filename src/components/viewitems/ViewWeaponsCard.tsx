@@ -1,28 +1,52 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import "@/components/viewitems/Items.css";
+import ViewItemSelector from "@/components/viewitems/ViewItemSelector";
+import ViewItemViewer from "@/components/viewitems/ViewItemViewer";
+import { CommonItemData } from "@/lib/type";
+import { ChevronLeft } from "lucide-react";
+import { useState } from "react";
 
 const ViewWeaponsCard = () => {
+    const dummyItem: CommonItemData = {
+        name: "Shiori's Feather",
+        thumbnailSrc:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAjYuDQF-128q3hUkjcF9083_plzAKNFMsg&s",
+        content: "A feather from Shiori.",
+        modelSrc: "/models/pen.gltf",
+    };
+
+    const [selectedItem, setSelectedItem] = useState<CommonItemData | null>(
+        null,
+    );
+
     return (
-        <Card className="items-card">
+        <Card className="items-card flex flex-col">
             <CardHeader>
-                <CardTitle>Weapons</CardTitle>
+                <CardTitle className="flex items-center gap-2">
+                    {selectedItem !== null && (
+                        <ChevronLeft
+                            className="cursor-pointer"
+                            onClick={() => setSelectedItem(null)}
+                        />
+                    )}
+                    Weapons
+                </CardTitle>
             </CardHeader>
 
-            <CardContent>
-                <div className="grid grid-cols-10 gap-4">
-                    {Array.from({ length: 20 }).map((_, index) => (
-                        <div
-                            key={index}
-                            className="border-green-300 border backdrop-blur-md rounded-lg p-4 cursor-pointer hover:scale-105 transition-all"
-                        >
-                            <img
-                                className="w-[50px] h-auto mx-auto"
-                                src="https://i.pinimg.com/736x/69/de/e6/69dee631b78c61b06d8b1ce53a48c347.jpg"
-                                alt={`weapon-${index}`}
-                            />
-                        </div>
-                    ))}
-                </div>
+            <CardContent className="flex-1">
+                {selectedItem === null && (
+                    <div className="grid grid-cols-10 gap-4">
+                        <ViewItemSelector
+                            item={dummyItem}
+                            onItemClick={(item) => {
+                                setSelectedItem(item);
+                            }}
+                        />
+                    </div>
+                )}
+                {selectedItem !== null && (
+                    <ViewItemViewer item={selectedItem} />
+                )}
             </CardContent>
         </Card>
     );

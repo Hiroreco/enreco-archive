@@ -21,7 +21,7 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
             {/* ViewItemsApp content here */}
             <Tabs
                 defaultValue="weapons"
-                className="w-[80%] h-[90%] mx-auto flex flex-col"
+                className="w-[80%] h-[90%] max-w-[900px] mx-auto flex flex-col"
             >
                 <TabsList className="w-full bg-transparent">
                     <TabsTrigger value="weapons">Weapons</TabsTrigger>
