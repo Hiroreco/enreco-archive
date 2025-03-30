@@ -8,6 +8,7 @@ import { useState } from "react";
 
 const ViewWeaponsCard = () => {
     const dummyItem: CommonItemData = {
+        id: "shiori-feather",
         name: "Shiori's Feather",
         thumbnailSrc:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAjYuDQF-128q3hUkjcF9083_plzAKNFMsg&s",

@@ -3,9 +3,11 @@ import { ViewAppWrapper } from "@/ViewAppWrapper";
 import { ReactFlowProvider } from "@xyflow/react";
 import { Metadata, Viewport } from "next";
 import PreloadResources from "./preload-resources";
+import EditorItemsApp from "@/components/editoritems/EditorItemsApp";
 
-const USE_EDITOR = false;
+const USE_EDITOR = true;
 const inDevEnvironment = !!process && process.env.NODE_ENV === "development";
+const DEV_TYPE = process.env.NEXT_PUBLIC_DEV_TYPE || "chart";
 
 export const metadata: Metadata = {
     title: "ENreco Archive",
@@ -87,10 +89,18 @@ export const viewport: Viewport = {
 };
 
 const Page = () => {
-    if (USE_EDITOR && inDevEnvironment) {
+    if (USE_EDITOR && inDevEnvironment && DEV_TYPE === "chart") {
         return (
             <ReactFlowProvider>
                 <EditorApp />
+            </ReactFlowProvider>
+        );
+    }
+
+    if (USE_EDITOR && inDevEnvironment && DEV_TYPE === "items") {
+        return (
+            <ReactFlowProvider>
+                <EditorItemsApp />
             </ReactFlowProvider>
         );
     }

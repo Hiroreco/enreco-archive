@@ -152,10 +152,12 @@ export type MiscelPageData = {
 };
 
 export type CommonItemData = {
+    id: string;
     name: string;
     thumbnailSrc: string;
     content: string;
     modelSrc?: string;
+    imageSrc?: string;
     wielder?: string;
     wielderSrc?: string;
 };
