@@ -7,26 +7,35 @@ interface ViewItemViewerProps {
 }
 
 const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
-    const { scene } = useGLTF(modelPath, true);
-    return (
-        <Canvas
-            className="md:max-h-[300px] aspect-square rounded-lg"
-            style={{
-                backgroundImage: "url('/images-opt/item-bg.webp')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-            }}
-        >
-            <ambientLight />
-            <directionalLight />
-            <Center>
-                <primitive object={scene} scale={3.5} />
-            </Center>
+    // Need to try/catch this because any invalid url would cause useGLTF to throw an error
+    try {
+        const gltf = useGLTF(modelPath, true);
+        const scene = gltf.scene;
+        if (!scene) {
+            console.error("Model scene is undefined");
+            return <div>Error loading 3D model</div>;
+        }
+        return (
+            <Canvas
+                style={{
+                    backgroundImage: "url('/images-opt/item-bg.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                }}
+            >
+                <ambientLight />
+                <directionalLight />
+                <Center>
+                    <primitive object={scene} scale={3.5} />
+                </Center>
 
-            <OrbitControls enableZoom={false} enablePan={false} />
-        </Canvas>
-    );
+                <OrbitControls enableZoom={false} enablePan={false} />
+            </Canvas>
+        );
+    } catch (error) {
+        console.error("Error loading model:", error);
+        return <div>Error loading 3D model</div>;
+    }
 };
-
 export default ViewModelViewer;
