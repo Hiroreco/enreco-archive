@@ -5,7 +5,7 @@ import { Metadata, Viewport } from "next";
 import PreloadResources from "./preload-resources";
 import EditorItemsApp from "@/components/editoritems/EditorItemsApp";
 
-const USE_EDITOR = true;
+const USE_EDITOR = false;
 const inDevEnvironment = !!process && process.env.NODE_ENV === "development";
 const DEV_TYPE = process.env.NEXT_PUBLIC_DEV_TYPE || "chart";
 

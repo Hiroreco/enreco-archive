@@ -152,6 +152,10 @@ export type CommonItemData = {
     name: string;
     thumbnailSrc: string;
     content: string;
+    galleryImages: {
+        thumbnailSrc: string;
+        bigSrc: string;
+    }[];
     modelSrc?: string;
     imageSrc?: string;
     wielder?: string;

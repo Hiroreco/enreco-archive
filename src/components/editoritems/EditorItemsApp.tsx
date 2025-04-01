@@ -26,6 +26,7 @@ const EMPTY_ITEM: CommonItemData = {
     wielder: "",
     wielderSrc: "",
     content: "",
+    galleryImages: [],
 };
 
 const EditorItemsApp = () => {

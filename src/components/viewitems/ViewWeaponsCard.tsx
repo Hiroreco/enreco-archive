@@ -14,6 +14,23 @@ const ViewWeaponsCard = () => {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAjYuDQF-128q3hUkjcF9083_plzAKNFMsg&s",
         content: "A feather from Shiori.",
         modelSrc: "/models/pen.gltf",
+        galleryImages: [
+            {
+                thumbnailSrc:
+                    "https://images.adagio.com/images2/custom_blends/226544.jpg",
+                bigSrc: "https://images.adagio.com/images2/custom_blends/226544.jpg",
+            },
+            {
+                thumbnailSrc:
+                    "https://images.adagio.com/images2/custom_blends/226544.jpg",
+                bigSrc: "https://images.adagio.com/images2/custom_blends/226544.jpg",
+            },
+            {
+                thumbnailSrc:
+                    "https://images.adagio.com/images2/custom_blends/226544.jpg",
+                bigSrc: "https://images.adagio.com/images2/custom_blends/226544.jpg",
+            },
+        ],
     };
 
     const [selectedItem, setSelectedItem] = useState<CommonItemData | null>(
