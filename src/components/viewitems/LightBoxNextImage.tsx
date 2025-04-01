@@ -1,3 +1,5 @@
+/* https://yet-another-react-lightbox.com/examples/nextjs */
+
 import Image from "next/image";
 import {
     isImageFitCover,
