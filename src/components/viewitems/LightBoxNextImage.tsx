@@ -1,6 +1,6 @@
 /* https://yet-another-react-lightbox.com/examples/nextjs */
 
-import Image from "next/image";
+import ImageBlur from "@/components/ImageBlur";
 import {
     isImageFitCover,
     isImageSlide,
@@ -44,14 +44,13 @@ export default function LightBoxNextImage({ slide, offset, rect }) {
 
     return (
         <div style={{ position: "relative", width, height }}>
-            <Image
+            <ImageBlur
                 id="lightbox-image"
                 fill
                 alt=""
                 src={slide}
                 loading="eager"
                 draggable={false}
-                placeholder={slide.blurDataURL ? "blur" : undefined}
                 style={{
                     objectFit: cover ? "cover" : "contain",
                     cursor: click ? "pointer" : undefined,

@@ -16,19 +16,14 @@ const ViewWeaponsCard = () => {
         modelSrc: "/models/pen.gltf",
         galleryImages: [
             {
-                thumbnailSrc:
-                    "https://images.adagio.com/images2/custom_blends/226544.jpg",
-                bigSrc: "https://images.adagio.com/images2/custom_blends/226544.jpg",
+                thumbnailSrc: "/images-opt/weapon-shiori-0-thumbnail.webp",
+                bigSrc: "images-opt/weapon-shiori-0.webp",
+                title: "Shiori's first time acquiring the quill",
             },
             {
-                thumbnailSrc:
-                    "https://images.adagio.com/images2/custom_blends/226544.jpg",
-                bigSrc: "https://images.adagio.com/images2/custom_blends/226544.jpg",
-            },
-            {
-                thumbnailSrc:
-                    "https://images.adagio.com/images2/custom_blends/226544.jpg",
-                bigSrc: "https://images.adagio.com/images2/custom_blends/226544.jpg",
+                thumbnailSrc: "/images-opt/weapon-shiori-1-thumbnail.webp",
+                bigSrc: "/images-opt/weapon-shiori-1.webp",
+                title: "Shiori blasting her revelation towards a bystander",
             },
         ],
     };

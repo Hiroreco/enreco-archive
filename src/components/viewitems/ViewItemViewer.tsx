@@ -1,14 +1,16 @@
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import ViewModelViewer from "@/components/viewitems/ViewModelViewer";
 import { CommonItemData } from "@/lib/type";
-import Image from "next/image";
 import { useState } from "react";
 
+import ImageBlur from "@/components/ImageBlur";
+import LightBoxNextImage from "@/components/viewitems/LightBoxNextImage";
 import Lightbox from "yet-another-react-lightbox";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import "yet-another-react-lightbox/styles.css";
+import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-import LightBoxNextImage from "@/components/viewitems/LightBoxNextImage";
+import "yet-another-react-lightbox/plugins/captions.css";
+import "yet-another-react-lightbox/styles.css";
 
 interface ViewItemViewerProps {
     item: CommonItemData;
@@ -37,7 +39,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
 
                 <div className="flex gap-4 h-[150px] overflow-x-auto w-full overflow-y-auto p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg">
                     {item.galleryImages.map((image, index) => (
-                        <Image
+                        <ImageBlur
                             width={204}
                             height={113}
                             key={index}
@@ -50,7 +52,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                 </div>
             </div>
 
-            <div className="max-w-[300px]">
+            <div className="w-[300px]">
                 <div className="w-full h-[300px]">
                     {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
@@ -61,10 +63,20 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                         {item.name}
                     </p>
 
-                    <p className="mt-4">
-                        "Tickle tickle or sth Idk I'm just trying to fill up
-                        this space" - Shiori, not really
-                    </p>
+                    <div className="mt-4">
+                        <p>
+                            <span className="underline underline-offset-2">
+                                Category:
+                            </span>{" "}
+                            Weapon
+                        </p>
+                        <p>
+                            <span className="underline underline-offset-2">
+                                Type:
+                            </span>{" "}
+                            Magic
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -76,9 +88,11 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                 controller={{
                     closeOnBackdropClick: true,
                 }}
-                plugins={[Thumbnails]}
+                plugins={[Thumbnails, Captions]}
                 slides={item.galleryImages.map((image) => ({
                     src: image.bigSrc,
+                    thumbnail: image.thumbnailSrc,
+                    title: image.title,
                 }))}
                 render={{
                     slide: LightBoxNextImage,
