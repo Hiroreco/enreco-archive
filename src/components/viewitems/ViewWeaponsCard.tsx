@@ -9,16 +9,22 @@ import { useState } from "react";
 const ViewWeaponsCard = () => {
     const dummyItem: CommonItemData = {
         id: "shiori-feather",
-        name: "Shiori's Feather",
+        name: "Bookmark of Memories",
         thumbnailSrc:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAjYuDQF-128q3hUkjcF9083_plzAKNFMsg&s",
-        content: "A feather from Shiori.",
+        content:
+            "### <u>Description</u> \n**Bookmark of Memories**, Shiori Novella's Revelation, takes the form of a blue feather—more precisely, a quill meant for writing. It was bestowed upon her when she was first summoned to the Kingdom of Libestal. \n\n### <u>Ability and Story</u> \nWhen activated, the quill summons bookmarks that hover around Shiori, firing beams that converge at her target. Upon impact, the beams explode, dealing significant damage. \n\nThe quill serves as a subtle reminder of her role as an *Archiver*—a past she no longer remembers. Perhaps it was this lack of recollection that led her to use it for mischief rather than battle, often opting to tickle people with it instead. Unfortunately, she tended to forget that doing so could accidentally trigger its ability, much to the misfortune of any unsuspecting bystanders.\n\n[Explosive Tickling](#embed:https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=7821)",
         modelSrc: "/models/pen.gltf",
         galleryImages: [
             {
                 thumbnailSrc: "/images-opt/weapon-shiori-0-thumbnail.webp",
                 bigSrc: "images-opt/weapon-shiori-0.webp",
                 title: "Shiori's first time acquiring the quill",
+            },
+            {
+                thumbnailSrc: "/images-opt/weapon-shiori-2-thumbnail.webp",
+                bigSrc: "images-opt/weapon-shiori-2.webp",
+                title: "The quill viewed from the inventory",
             },
             {
                 thumbnailSrc: "/images-opt/weapon-shiori-1-thumbnail.webp",
@@ -46,7 +52,7 @@ const ViewWeaponsCard = () => {
                 </CardTitle>
             </CardHeader>
 
-            <CardContent className="flex-1">
+            <CardContent className="h-[75vh]">
                 {selectedItem === null && (
                     <div className="grid grid-cols-10 gap-4">
                         <ViewItemSelector

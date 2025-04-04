@@ -17,20 +17,20 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
     const viewStore = useViewStore();
 
     return (
-        <div className="w-screen h-screen flex flex-col items-center justify-center">
+        <div className="w-screen h-screen flex flex-col items-center justify-center overflow-hidden">
             {/* ViewItemsApp content here */}
             <Tabs
                 defaultValue="weapons"
-                className="w-[80%] h-[90%] max-w-[900px] mx-auto flex flex-col"
+                className="w-[80%] max-w-[900px] mx-auto flex flex-col"
             >
                 <TabsList className="w-full bg-transparent">
                     <TabsTrigger value="weapons">Weapons</TabsTrigger>
                     <TabsTrigger value="hats">Hats</TabsTrigger>
                 </TabsList>
-                <TabsContent value="weapons" className="flex-1">
+                <TabsContent value="weapons">
                     <ViewWeaponsCard />
                 </TabsContent>
-                <TabsContent value="hats" className="flex-1">
+                <TabsContent value="hats">
                     <ViewHatsCard />
                 </TabsContent>
             </Tabs>

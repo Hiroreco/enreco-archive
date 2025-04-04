@@ -13,6 +13,7 @@ import Image from "next/image";
 import { memo, useMemo } from "react";
 import Markdown, { Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
@@ -167,6 +168,30 @@ function addTeamIcons() {
 }
 
 /*
+Transform u tags to u tags with underline-offset-2, just because this looks better
+*/
+function transformUnderlines() {
+    const elementFilter: TestFunction = (node) => {
+        if (node.type === "element") {
+            const elementNode = node as Element;
+            return elementNode.tagName === "u";
+        }
+
+        return false;
+    };
+
+    return function (tree: Node) {
+        visit(tree, elementFilter, (node) => {
+            const elementNode = node as Element;
+            Object.assign(elementNode, {
+                tagName: "u",
+                properties: { class: "underline underline-offset-2" },
+            });
+        });
+    };
+}
+
+/*
 Custom rehype plugin to unwrap easter egg <a> elements from <p> elements.
 This is basically just to prevent hydration errors again (thanks nextjs).
 */
@@ -313,6 +338,8 @@ function ViewMarkdownInternal({
             transformImageParagraphToFigure,
             addTeamIcons,
             unWrapEasterEggLink,
+            rehypeRaw,
+            transformUnderlines,
         ],
         [],
     );

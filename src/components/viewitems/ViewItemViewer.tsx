@@ -6,10 +6,10 @@ import { useState } from "react";
 import ImageBlur from "@/components/ImageBlur";
 import LightBoxNextImage from "@/components/viewitems/LightBoxNextImage";
 import Lightbox from "yet-another-react-lightbox";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Captions from "yet-another-react-lightbox/plugins/captions";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/captions.css";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/styles.css";
 
 interface ViewItemViewerProps {
@@ -26,8 +26,8 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     };
 
     return (
-        <div className="w-full h-full flex md:flex-row gap-4 relative">
-            <div className="flex-1 flex flex-col gap-4">
+        <div className="flex md:flex-row gap-4 relative h-full">
+            <div className="flex flex-col gap-4 h-full">
                 <div className="w-full grow overflow-y-auto p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg">
                     <ViewMarkdown
                         onNodeLinkClicked={() => {}}
@@ -37,15 +37,15 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                     </ViewMarkdown>
                 </div>
 
-                <div className="flex gap-4 h-[150px] overflow-x-auto w-full overflow-y-auto p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg">
+                <div className="flex shrink-0 gap-4  overflow-x-auto w-full overflow-y-auto p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg">
                     {item.galleryImages.map((image, index) => (
                         <ImageBlur
-                            width={204}
-                            height={113}
+                            width={178}
+                            height={100}
                             key={index}
                             src={image.thumbnailSrc}
                             alt={image.thumbnailSrc}
-                            className="rounded-lg aspect-video object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
+                            className="rounded-lg h-[100px] aspect-video object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
                             onClick={() => openLightbox(index)}
                         />
                     ))}
@@ -53,30 +53,33 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
             </div>
 
             <div className="w-[300px]">
+                <p className="font-bold text-lg text-center">Model Viewer</p>
                 <div className="w-full h-[300px]">
                     {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
                     )}
                 </div>
-                <div className="mt-4">
+                <div className="mt-4 w-full">
                     <p className="text-center underline underline-offset-2 text-xl font-semibold">
                         {item.name}
                     </p>
 
-                    <div className="mt-4">
-                        <p>
-                            <span className="underline underline-offset-2">
-                                Category:
-                            </span>{" "}
-                            Weapon
+                    <div className="mt-2 w-full justify-around flex">
+                        <p className="flex flex-col items-center text-sm">
+                            <span className="font-semibold">Category</span>
+                            <span className="text-muted-foreground">
+                                Weapon
+                            </span>
                         </p>
-                        <p>
-                            <span className="underline underline-offset-2">
-                                Type:
-                            </span>{" "}
-                            Magic
+                        <p className="flex flex-col items-center text-sm">
+                            <span className="font-semibold">Type</span>
+                            <span className="text-muted-foreground">Range</span>
                         </p>
                     </div>
+
+                    <p className="mt-4 italic text-center text-muted-foreground">
+                        "Tickle tickle~ Oh crap I think I just exploded"
+                    </p>
                 </div>
             </div>
 
