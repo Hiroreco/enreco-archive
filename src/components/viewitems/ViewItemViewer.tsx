@@ -26,41 +26,16 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     };
 
     return (
-        <div className="flex md:flex-row gap-4 relative h-full">
-            <div className="flex flex-col gap-4 h-full">
-                <div className="w-full grow overflow-y-auto p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg">
-                    <ViewMarkdown
-                        onNodeLinkClicked={() => {}}
-                        onEdgeLinkClicked={() => {}}
-                    >
-                        {item.content}
-                    </ViewMarkdown>
-                </div>
-
-                <div className="flex shrink-0 gap-4  overflow-x-auto w-full overflow-y-auto p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg">
-                    {item.galleryImages.map((image, index) => (
-                        <ImageBlur
-                            width={178}
-                            height={100}
-                            key={index}
-                            src={image.thumbnailSrc}
-                            alt={image.thumbnailSrc}
-                            className="rounded-lg h-[100px] aspect-video object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
-                            onClick={() => openLightbox(index)}
-                        />
-                    ))}
-                </div>
-            </div>
-
-            <div className="w-[300px]">
-                <p className="font-bold text-lg text-center">Model Viewer</p>
-                <div className="w-full h-[300px]">
+        <div className="flex flex-col items-center md:items-baseline overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 relative h-full">
+            <div className="w-[250px]">
+                <p className="font-bold text-center">Model Viewer</p>
+                <div className="w-full h-[250px]">
                     {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
                     )}
                 </div>
                 <div className="mt-4 w-full">
-                    <p className="text-center underline underline-offset-2 text-xl font-semibold">
+                    <p className="text-center underline underline-offset-2 font-semibold">
                         {item.name}
                     </p>
 
@@ -77,9 +52,34 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                         </p>
                     </div>
 
-                    <p className="mt-4 italic text-center text-muted-foreground">
+                    <p className="mt-4 italic text-center text-muted-foreground text-sm">
                         "Tickle tickle~ Oh crap I think I just exploded"
                     </p>
+                </div>
+            </div>
+
+            <div className="flex flex-col gap-4 h-full">
+                <div className="w-full grow md:overflow-y-auto md:content-container ">
+                    <ViewMarkdown
+                        onNodeLinkClicked={() => {}}
+                        onEdgeLinkClicked={() => {}}
+                    >
+                        {item.content}
+                    </ViewMarkdown>
+                </div>
+
+                <div className="shrink-0 flex overflow-x-scroll w-full content-container">
+                    {item.galleryImages.map((image, index) => (
+                        <ImageBlur
+                            width={178}
+                            height={100}
+                            key={index}
+                            src={image.thumbnailSrc}
+                            alt={image.thumbnailSrc}
+                            className="rounded-lg h-[100px] w-[178px] object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
+                            onClick={() => openLightbox(index)}
+                        />
+                    ))}
                 </div>
             </div>
 

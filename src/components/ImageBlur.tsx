@@ -11,14 +11,12 @@ const ImageBlur = ({ src, ...props }: ImageBlurProps) => {
         typeof src === "string" ? src : undefined,
     );
     return (
-        <div className="relative overflow-hidden">
-            <Image
-                src={src}
-                placeholder={dataBlurUrl ? "blur" : "empty"}
-                blurDataURL={dataBlurUrl}
-                {...props}
-            />
-        </div>
+        <Image
+            src={src}
+            placeholder={dataBlurUrl ? "blur" : "empty"}
+            blurDataURL={dataBlurUrl}
+            {...props}
+        />
     );
 };
 

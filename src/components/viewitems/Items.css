@@ -1,3 +1,7 @@
 .items-card {
     @apply w-full h-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
 }
+
+.content-container {
+    @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
+}
