@@ -68,7 +68,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                     </ViewMarkdown>
                 </div>
 
-                <div className="shrink-0 flex overflow-x-scroll w-full content-container">
+                <div className="shrink-0 flex overflow-x-auto w-full content-container">
                     {item.galleryImages.map((image, index) => (
                         <ImageBlur
                             width={178}

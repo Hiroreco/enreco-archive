@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 
@@ -6,37 +6,43 @@ interface ViewItemViewerProps {
     modelPath: string;
 }
 
-const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
-    // Need to try/catch this because any invalid url would cause useGLTF to throw an error
-    try {
-        const gltf = useGLTF(modelPath, true);
-        const scene = gltf.scene;
-        if (!scene) {
-            console.error("Model scene is undefined");
-            return <div>Error loading 3D model</div>;
-        }
-        return (
-            <Canvas
-                className="rounded-lg"
-                style={{
-                    backgroundImage: "url('/images-opt/item-bg.webp')",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                }}
-            >
-                <ambientLight />
-                <directionalLight />
-                <Center>
-                    <primitive object={scene} scale={3.5} />
-                </Center>
-
-                <OrbitControls enableZoom={false} enablePan={false} />
-            </Canvas>
-        );
-    } catch (error) {
-        console.error("Error loading model:", error);
-        return <div>Error loading 3D model</div>;
-    }
+const Model = ({ modelPath }: { modelPath: string }) => {
+    const gltf = useGLTF(modelPath);
+    return (
+        <Center>
+            <primitive object={gltf.scene} scale={3.5} />
+        </Center>
+    );
 };
+
+const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
+    return (
+        <Canvas
+            className="rounded-lg"
+            style={{
+                backgroundImage: "url('/images-opt/item-bg.webp')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+            }}
+        >
+            <ambientLight />
+            <directionalLight />
+            <Suspense
+                fallback={
+                    <Center>
+                        <mesh>
+                            <boxGeometry args={[1, 1, 1]} />
+                            <meshStandardMaterial color="gray" />
+                        </mesh>
+                    </Center>
+                }
+            >
+                <Model modelPath={modelPath} />
+            </Suspense>
+            <OrbitControls enableZoom={false} enablePan={false} />
+        </Canvas>
+    );
+};
+
 export default ViewModelViewer;
