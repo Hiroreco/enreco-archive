@@ -147,18 +147,19 @@ export type FixedEdgeProps = EdgeProps<FixedEdgeType>;
 // Miscellaneous Page Types
 export type MiscelPageData = CommonItemData[];
 
+export type GalleryImage = {
+    thumbnailSrc: string;
+    bigSrc: string;
+    title: string;
+};
+
 export type CommonItemData = {
     id: string;
     name: string;
     thumbnailSrc: string;
     content: string;
-    galleryImages: {
-        thumbnailSrc: string;
-        bigSrc: string;
-        title: string;
-    }[];
+    galleryImages: GalleryImage[];
     modelSrc?: string;
     imageSrc?: string;
-    wielder?: string;
-    wielderSrc?: string;
+    quote?: string;
 };

@@ -1,5 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -10,10 +11,10 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
-import ViewModelViewer from "@/components/viewitems/ViewModelViewer";
-import { CommonItemData, MiscelPageData } from "@/lib/type";
+import { CommonItemData, GalleryImage, MiscelPageData } from "@/lib/type";
 import MDEditor from "@uiw/react-md-editor";
 import { produce } from "immer";
+import { Plus, Trash2 } from "lucide-react";
 import { useState } from "react";
 import slug from "slug";
 
@@ -23,9 +24,8 @@ const EMPTY_ITEM: CommonItemData = {
     modelSrc: "",
     imageSrc: "",
     thumbnailSrc: "",
-    wielder: "",
-    wielderSrc: "",
     content: "",
+    quote: "",
     galleryImages: [],
 };
 
@@ -78,6 +78,7 @@ const EditorItemsApp = () => {
             try {
                 const text = await file.text();
                 const importedItems = JSON.parse(text) as MiscelPageData;
+                console.log("Imported items:", importedItems);
                 setItems(importedItems);
             } catch (error) {
                 console.error("Error importing items:", error);
@@ -121,10 +122,40 @@ const EditorItemsApp = () => {
         );
     };
 
+    const handleAddGalleryImage = () => {
+        const newImage: GalleryImage = {
+            thumbnailSrc: "",
+            bigSrc: "",
+            title: "",
+        };
+        updateWorkingItem({
+            galleryImages: [...workingItem.galleryImages, newImage],
+        });
+    };
+
+    const handleUpdateGalleryImage = (
+        index: number,
+        updates: Partial<GalleryImage>,
+    ) => {
+        updateWorkingItem({
+            galleryImages: workingItem.galleryImages.map((img, i) =>
+                i === index ? { ...img, ...updates } : img,
+            ),
+        });
+    };
+
+    const handleRemoveGalleryImage = (index: number) => {
+        updateWorkingItem({
+            galleryImages: workingItem.galleryImages.filter(
+                (_, i) => i !== index,
+            ),
+        });
+    };
+
     return (
-        <div className="p-4 flex items-center justify-center gap-4">
+        <div className="p-4 flex items-center gap-4 w-full">
             {/* Edit stuff here */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 w-[700px]">
                 <div className="flex gap-4">
                     <Button onClick={handleImport}>Import</Button>
                     <Button onClick={handleExport}>Export</Button>
@@ -177,7 +208,7 @@ const EditorItemsApp = () => {
                     <Input
                         id="id"
                         placeholder="Id"
-                        className="grow disabled:bg-gray-200"
+                        className=" disabled:bg-gray-200"
                         value={workingItem.id}
                         onChange={(e) =>
                             updateWorkingItem({ id: e.target.value })
@@ -191,7 +222,7 @@ const EditorItemsApp = () => {
                     <Input
                         id="name"
                         placeholder="Name"
-                        className="grow"
+                        className=""
                         value={workingItem.name}
                         onChange={(e) => {
                             const newName = e.target.value;
@@ -212,7 +243,7 @@ const EditorItemsApp = () => {
                     <Input
                         id="modelSrc"
                         placeholder="Model Source"
-                        className="grow"
+                        className=""
                         value={workingItem.modelSrc}
                         onChange={(e) =>
                             updateWorkingItem({ modelSrc: e.target.value })
@@ -225,7 +256,7 @@ const EditorItemsApp = () => {
                     <Input
                         id="imageSrc"
                         placeholder="Image Source"
-                        className="grow"
+                        className=""
                         value={workingItem.imageSrc}
                         onChange={(e) =>
                             updateWorkingItem({ imageSrc: e.target.value })
@@ -238,7 +269,7 @@ const EditorItemsApp = () => {
                     <Input
                         id="thumbnailSrc"
                         placeholder="Thumbnail Source"
-                        className="grow"
+                        className=""
                         value={workingItem.thumbnailSrc}
                         onChange={(e) =>
                             updateWorkingItem({
@@ -249,36 +280,23 @@ const EditorItemsApp = () => {
                 </div>
 
                 <div className="flex gap-4 items-center">
-                    <Label htmlFor="wielder">Wielder Name</Label>
+                    <Label htmlFor="quote">Quote</Label>
                     <Input
-                        id="wielder"
-                        placeholder="Wielder Name"
-                        className="grow"
-                        value={workingItem.wielder}
-                        onChange={(e) =>
-                            updateWorkingItem({ wielder: e.target.value })
-                        }
-                    />
-                </div>
-
-                <div className="flex gap-4 items-center">
-                    <Label htmlFor="wielderSrc">Wielder Source</Label>
-                    <Input
-                        id="wielderSrc"
-                        placeholder="Wielder Source"
-                        className="grow"
-                        value={workingItem.wielderSrc}
+                        id="quote"
+                        placeholder="Quote"
+                        className=""
+                        value={workingItem.quote}
                         onChange={(e) =>
                             updateWorkingItem({
-                                wielderSrc: e.target.value,
+                                quote: e.target.value,
                             })
                         }
                     />
                 </div>
 
-                <div className="flex gap-4 items-center">
+                <div>
                     <Label htmlFor="content">Content</Label>
-                    <div className="grow">
+                    <div className="">
                         <MDEditor
                             id="content"
                             value={workingItem.content}
@@ -296,14 +314,86 @@ const EditorItemsApp = () => {
                 </div>
             </div>
 
-            {/* Model preview here */}
             <div className="flex flex-col gap-4">
+                <Label>Gallery Images</Label>
+
+                <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={handleAddGalleryImage}
+                >
+                    <Plus className="h-4 w-4 mr-2" />
+                    Add Image
+                </Button>
+
+                <div className="grid grid-cols-3 gap-4">
+                    {workingItem.galleryImages.map((image, index) => (
+                        <Card key={index} className="p-4">
+                            <CardContent className="flex flex-col gap-4 pt-0">
+                                <div className="flex gap-4 items-center">
+                                    <Label>Thumbnail URL</Label>
+                                    <Input
+                                        value={image.thumbnailSrc}
+                                        onChange={(e) =>
+                                            handleUpdateGalleryImage(index, {
+                                                thumbnailSrc: e.target.value,
+                                            })
+                                        }
+                                        placeholder="Thumbnail URL"
+                                        className=""
+                                    />
+                                </div>
+
+                                <div className="flex gap-4 items-center">
+                                    <Label>Full Size URL</Label>
+                                    <Input
+                                        value={image.bigSrc}
+                                        onChange={(e) =>
+                                            handleUpdateGalleryImage(index, {
+                                                bigSrc: e.target.value,
+                                            })
+                                        }
+                                        placeholder="Full Size Image URL"
+                                        className=""
+                                    />
+                                </div>
+
+                                <div className="flex gap-4 items-center">
+                                    <Label>Title</Label>
+                                    <Input
+                                        value={image.title}
+                                        onChange={(e) =>
+                                            handleUpdateGalleryImage(index, {
+                                                title: e.target.value,
+                                            })
+                                        }
+                                        placeholder="Image Title"
+                                        className=""
+                                    />
+                                    <Button
+                                        variant="destructive"
+                                        size="icon"
+                                        onClick={() =>
+                                            handleRemoveGalleryImage(index)
+                                        }
+                                    >
+                                        <Trash2 className="h-4 w-4" />
+                                    </Button>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    ))}
+                </div>
+            </div>
+
+            {/* Model preview here */}
+            {/* <div className="flex flex-col gap-4">
                 <ViewModelViewer modelPath={workingItem.modelSrc || "/"} />
                 <img
                     src={workingItem.imageSrc || undefined}
                     className="w-[300px] aspect-square rounded-lg border"
                 />
-            </div>
+            </div> */}
         </div>
     );
 };
