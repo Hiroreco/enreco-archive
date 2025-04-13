@@ -59,7 +59,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
             </div>
 
             <div className="flex flex-col gap-4 h-full">
-                <div className="w-full grow md:overflow-y-auto md:content-container ">
+                <div className="w-full grow md:overflow-y-auto md-content-container">
                     <ViewMarkdown
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}

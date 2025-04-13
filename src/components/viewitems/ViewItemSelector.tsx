@@ -10,17 +10,19 @@ interface ItemSelectorProps {
 const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
     return (
         <div
-            className="card-deco"
+            className="content-container h-[100px] relative flex items-center gap-2 cursor-pointer hover:scale-105 transition-all"
             onClick={onItemClick ? () => onItemClick(item) : undefined}
         >
-            <div className="flex items-end justify-center border rounded-lg p-4 cursor-pointer hover:scale-105 transition-all">
-                <Image
-                    className="w-[50px] h-auto"
-                    src={item.thumbnailSrc}
-                    alt={item.name}
-                    width={50}
-                    height={50}
-                />
+            <Image
+                className="h-[100px] w-[100px] object-cover"
+                src={item.thumbnailSrc}
+                alt={item.name}
+                height={100}
+                width={100}
+            />
+
+            <div>
+                <p className="text-center text-sm font-semibold">{item.name}</p>
             </div>
         </div>
     );

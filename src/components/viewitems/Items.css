@@ -5,3 +5,9 @@
 .content-container {
     @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
 }
+
+@media (min-width: 768px) {
+    .md-content-container {
+        @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
+    }
+}

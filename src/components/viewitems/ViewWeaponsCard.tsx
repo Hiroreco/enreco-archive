@@ -3,6 +3,7 @@ import "@/components/viewitems/Items.css";
 import ViewItemSelector from "@/components/viewitems/ViewItemSelector";
 import ViewItemViewer from "@/components/viewitems/ViewItemViewer";
 import { CommonItemData } from "@/lib/type";
+import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft } from "lucide-react";
 import { useState } from "react";
 
@@ -51,21 +52,41 @@ const ViewWeaponsCard = () => {
                     Weapons
                 </CardTitle>
             </CardHeader>
-
             <CardContent className="h-[75vh]">
-                {selectedItem === null && (
-                    <div className="grid grid-cols-10 gap-4">
-                        <ViewItemSelector
-                            item={dummyItem}
-                            onItemClick={(item) => {
-                                setSelectedItem(item);
-                            }}
-                        />
-                    </div>
-                )}
-                {selectedItem !== null && (
-                    <ViewItemViewer item={selectedItem} />
-                )}
+                <AnimatePresence mode="wait">
+                    {selectedItem === null && (
+                        <motion.div
+                            key="grid"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="h-full overflow-y-auto grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4"
+                        >
+                            {Array(16)
+                                .fill(null)
+                                .map((_, index) => (
+                                    <ViewItemSelector
+                                        key={index}
+                                        item={dummyItem}
+                                        onItemClick={(item) =>
+                                            setSelectedItem(item)
+                                        }
+                                    />
+                                ))}
+                        </motion.div>
+                    )}
+                    {selectedItem !== null && (
+                        <motion.div
+                            className="h-full"
+                            key="viewer"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                        >
+                            <ViewItemViewer item={selectedItem} />
+                        </motion.div>
+                    )}
+                </AnimatePresence>
             </CardContent>
         </Card>
     );
