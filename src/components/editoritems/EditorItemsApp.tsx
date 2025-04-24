@@ -21,9 +21,9 @@ import slug from "slug";
 const EMPTY_ITEM: CommonItemData = {
     id: "",
     name: "",
-    modelSrc: "",
+    modelSrc: "/models/",
     imageSrc: "",
-    thumbnailSrc: "",
+    thumbnailSrc: "/images-opt/",
     content: "",
     quote: "",
     galleryImages: [],
