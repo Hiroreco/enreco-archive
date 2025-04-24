@@ -124,8 +124,7 @@ const EditorItemsApp = () => {
 
     const handleAddGalleryImage = () => {
         const newImage: GalleryImage = {
-            thumbnailSrc: "",
-            bigSrc: "",
+            source: "",
             title: "",
         };
         updateWorkingItem({
@@ -331,26 +330,12 @@ const EditorItemsApp = () => {
                         <Card key={index} className="p-4">
                             <CardContent className="flex flex-col gap-4 pt-0">
                                 <div className="flex gap-4 items-center">
-                                    <Label>Thumbnail URL</Label>
-                                    <Input
-                                        value={image.thumbnailSrc}
-                                        onChange={(e) =>
-                                            handleUpdateGalleryImage(index, {
-                                                thumbnailSrc: e.target.value,
-                                            })
-                                        }
-                                        placeholder="Thumbnail URL"
-                                        className=""
-                                    />
-                                </div>
-
-                                <div className="flex gap-4 items-center">
                                     <Label>Full Size URL</Label>
                                     <Input
-                                        value={image.bigSrc}
+                                        value={image.source}
                                         onChange={(e) =>
                                             handleUpdateGalleryImage(index, {
-                                                bigSrc: e.target.value,
+                                                source: e.target.value,
                                             })
                                         }
                                         placeholder="Full Size Image URL"

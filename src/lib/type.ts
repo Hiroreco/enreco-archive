@@ -148,8 +148,7 @@ export type FixedEdgeProps = EdgeProps<FixedEdgeType>;
 export type MiscelPageData = CommonItemData[];
 
 export type GalleryImage = {
-    thumbnailSrc: string;
-    bigSrc: string;
+    source: string;
     title: string;
 };
 

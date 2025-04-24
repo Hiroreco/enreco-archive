@@ -74,8 +74,11 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                             width={178}
                             height={100}
                             key={index}
-                            src={image.thumbnailSrc}
-                            alt={image.thumbnailSrc}
+                            src={image.source.replace(
+                                ".webp",
+                                "-thumbnail.webp",
+                            )}
+                            alt={"thumbnail"}
                             className="rounded-lg h-[100px] w-[178px] object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
                             onClick={() => openLightbox(index)}
                         />
@@ -93,8 +96,8 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                 }}
                 plugins={[Thumbnails, Captions]}
                 slides={item.galleryImages.map((image) => ({
-                    src: image.bigSrc,
-                    thumbnail: image.thumbnailSrc,
+                    src: image.source,
+                    thumbnail: image.source.replace(".webp", "-thumbnail.webp"),
                     title: image.title,
                 }))}
                 render={{

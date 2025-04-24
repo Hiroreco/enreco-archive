@@ -18,18 +18,15 @@ const ViewWeaponsCard = () => {
         modelSrc: "/models/pen.gltf",
         galleryImages: [
             {
-                thumbnailSrc: "/images-opt/weapon-shiori-0-thumbnail.webp",
-                bigSrc: "images-opt/weapon-shiori-0.webp",
+                source: "images-opt/weapon-shiori-0.webp",
                 title: "Shiori's first time acquiring the quill",
             },
             {
-                thumbnailSrc: "/images-opt/weapon-shiori-2-thumbnail.webp",
-                bigSrc: "images-opt/weapon-shiori-2.webp",
+                source: "images-opt/weapon-shiori-2.webp",
                 title: "The quill viewed from the inventory",
             },
             {
-                thumbnailSrc: "/images-opt/weapon-shiori-1-thumbnail.webp",
-                bigSrc: "/images-opt/weapon-shiori-1.webp",
+                source: "/images-opt/weapon-shiori-1.webp",
                 title: "Shiori blasting her revelation towards a bystander",
             },
         ],

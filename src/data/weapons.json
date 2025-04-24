@@ -1,0 +1,81 @@
+[
+  {
+    "id": "violet-miasma",
+    "name": "Violet Miasma",
+    "modelSrc": "",
+    "imageSrc": "",
+    "thumbnailSrc": "",
+    "content": "### <u>Description</u> \n**Violet Miasma** takes the form of a book — but not just any ordinary one. This tome radiates an eerie, mysterious aura, thanks to its deep purple cover, orange binding, and most strikingly, the ancient scripture etched across its surface. Despite its ominous appearance, its wielder, Ninomae Inanis, is anything but intimidating — exuding more comfy, cozy cuteness than menace.\n\n### <u>Ability and Story</u> \nIna serves as a priestess to the enigmatic Ancient Ones, and this very book, tied to those beings, is the source of her power. Though its potential is vast and terrifying, Ina has always wielded it with kindness and restraint, using it solely against evil — unlike a few of her more *questionable* companions.\n\nWhen activated, a swirling purple cloud materializes above her, firing piercing shots in the direction Ina aims. These projectiles pass through multiple enemies, dealing damage in their wake — a beautiful, eerie display of ancient might in the hands of someone so unexpectedly gentle.\n\n[Firing my lasers!](#embed:https://www.youtube.com/live/THllQCVOYzY?si=6WRNsqGVEFR4DDPO&t=4464)\n",
+    "quote": "\\**Giggles cutely and proceeds to decimate her enemies\\**",
+    "galleryImages": [
+      {
+        "source": "/images-opt/weapon-ina-0.webp",
+        "title": "Ina's first time wielding the book"
+      },
+      {
+        "source": "/images-opt/weapon-ina-1.webp",
+        "title": "The book viewed from the inventory"
+      },
+      {
+        "source": "/images-opt/weapon-ina-2.webp",
+        "title": "Ina activating the book's ability"
+      }
+    ]
+  },
+  {
+    "id": "eye-of-wisdom",
+    "name": "Eye Of Wisdom",
+    "modelSrc": "",
+    "imageSrc": "",
+    "thumbnailSrc": "",
+    "content": "### <u>Description</u> \n**Eye of Wisdom** — an unusual name for what’s essentially a magnifying glass, but a fitting one when you understand what it represents. This golden-rimmed magnifying glass, complete with a comical mustache, might look far less intimidating than the other heroes' armaments, but it remains the trusty weapon Amelia Watson wielded throughout her journey in Libestal.\n\n### <u>Ability and Story</u> \nAmelia Watson is a detective — a self-proclaimed \"number one\" at that. The kind who solves only the biggest of cases, uncovers the truths of mythical beings, and finds Kiara’s burger strangely irresistible. Naturally, it only makes sense for her to rely on her magnifying glass for her detective work.\n\nWhen activated, the glass emits a radial AoE pulse around Ame, applying a defense and slow debuff to any enemies caught in its range. Despite how complex it sounds, the effect lasts barely half a second — basically a quick bonk that leaves everyone around her momentarily dazed... and charmed by how [ridiculously cute](https://www.youtube.com/live/f8W426vzTb8?si=ZfYE4P8UIELdexdN&t=1614) she looks while doing it.\n\n[Bonk](#embed:https://www.youtube.com/live/hUCfCWOj-1w?si=52foGDyrl2byyFWm&t=5578)",
+    "quote": "Hiyahh! \\**Bonk*\\*",
+    "galleryImages": [
+      {
+        "source": "/images-opt/weapon-ame-0.webp",
+        "title": "Ame's first time wielding Eye Of Wisdom"
+      },
+      {
+        "source": "/images-opt/weapon-ame-1.webp",
+        "title": "Eye Of Wisdom as viewed from the inventory"
+      },
+      {
+        "source": "/images-opt/weapon-ame-2.webp",
+        "title": "Eye Of Wisdom's ability activated"
+      }
+    ]
+  },
+  {
+    "id": "1745323529808",
+    "name": "",
+    "modelSrc": "",
+    "imageSrc": "",
+    "thumbnailSrc": "",
+    "content": "",
+    "quote": "",
+    "galleryImages": []
+  },
+  {
+    "id": "rest-in-peace",
+    "name": "Rest In Peace",
+    "modelSrc": "",
+    "imageSrc": "",
+    "thumbnailSrc": "",
+    "content": "### <u>Description</u> \n**Rest In Peace** — a name as fitting as it is ominous for a scythe. This isn’t the kind you’d find in a farmer’s shed; its design is dark and foreboding, with a jagged handle and a protruding joint that amplifies the menace of its razor-sharp blade. This was the weapon wielded by Mori Calliope on her journey through Libestal.\n\n### <u>Ability and Story</u> \nThe Grim Reaper herself — the literal embodiment of Death — naturally carries a scythe of such sinister stature (though her career pivot into a tavern owner offering divorce services and getting herself knocked out by a truck somewhat tarnish that terrifying image).\n\nAs for its ability, it’s as straightforward as Calli herself. No magic. No flashy tricks. Just a single, powerful, lateral swing — cleaving through her target.\n\n[\\**Slashes calmly*\\*](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)\n",
+    "quote": "My thighs? Hands off, I have a scythe!",
+    "galleryImages": [
+      {
+        "source": "/images-opt/weapon-calli-0.webp",
+        "title": "Calli's first time wielding Rest In Piece"
+      },
+      {
+        "source": "/images-opt/weapon-calli-1.webp",
+        "title": "Rest In Piece as viewed from the inventory"
+      },
+      {
+        "source": "/images-opt/weapon-calli-2.webp",
+        "title": "Rest In Peace's ability activated"
+      }
+    ]
+  }
+]
