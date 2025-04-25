@@ -396,7 +396,7 @@ const EditorApp = () => {
                                 editorStore.setCurrentCard(null);
                             }
                         }}
-                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-hidden bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
                     >
                         <span className="text-md">
                             Chapter Title / Day Recap
@@ -412,7 +412,7 @@ const EditorApp = () => {
                                 editorStore.setCurrentCard(null);
                             }
                         }}
-                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-hidden bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
                     >
                         <span className="text-md">Chapter Teams</span>
                     </Toggle.Root>
@@ -426,7 +426,7 @@ const EditorApp = () => {
                                 editorStore.setCurrentCard(null);
                             }
                         }}
-                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-none bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
+                        className="h-8 disabled:opacity-50 disabled:hover:bg-background outline-hidden bg-background text-foreground hover:bg-accent rounded-lg data-[state=on]:bg-accent"
                     >
                         <span className="text-md">Chapter Relationships</span>
                     </Toggle.Root>
