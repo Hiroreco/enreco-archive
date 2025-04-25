@@ -215,18 +215,15 @@ function ViewMarkdownInternal({
     const markdownComponentMap = useMemo(
         (): Components => ({
             img: ({src = "", alt = ""}) => {
-                if(src instanceof Blob) {
-                    throw new Error("We can't handle Blobs right now.");
-                }
-
+                const imgSrc: string = src as string;
                 return (
                     <Image
-                        src={src}
+                        src={imgSrc}
                         alt={alt}
                         width={1600}
                         height={900}
                         placeholder="blur"
-                        blurDataURL={getBlurDataURL(src)}
+                        blurDataURL={getBlurDataURL(imgSrc)}
                     />
                 );
             },
