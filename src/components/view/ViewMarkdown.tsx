@@ -215,14 +215,15 @@ function ViewMarkdownInternal({
     const markdownComponentMap = useMemo(
         (): Components => ({
             img: ({src = "", alt = ""}) => {
+                const imgSrc: string = src as string;
                 return (
                     <Image
-                        src={src}
+                        src={imgSrc}
                         alt={alt}
                         width={1600}
                         height={900}
                         placeholder="blur"
-                        blurDataURL={getBlurDataURL(src)}
+                        blurDataURL={getBlurDataURL(imgSrc)}
                     />
                 );
             },
@@ -295,14 +296,15 @@ function ViewMarkdownInternal({
     const remarkPlugins = useMemo(() => [remarkGfm], []);
     const rehypePlugins = useMemo(() => [transformImageParagraphToFigure, addTeamIcons, unWrapEasterEggLink], []);
     return (
-        <Markdown
-            className={"relative markdown"}
-            remarkPlugins={remarkPlugins}
-            rehypePlugins={rehypePlugins}
-            components={markdownComponentMap}
-        >
-            {children}
-        </Markdown>
+        <div className="relative markdown">
+            <Markdown
+                remarkPlugins={remarkPlugins}
+                rehypePlugins={rehypePlugins}
+                components={markdownComponentMap}
+            >
+                {children}
+            </Markdown>
+        </div>
     );
 }
 

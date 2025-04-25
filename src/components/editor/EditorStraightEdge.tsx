@@ -35,7 +35,7 @@ const EditorStraightEdge = ({
                         refY="5" // Adjust to center the arrow on the line
                         markerWidth="4"
                         markerHeight="4"
-                        className="stroke-[1]"
+                        className="stroke-1"
                         orient="auto-start-reverse" // Automatically orient the marker based on line direction
                     >
                         <path d="M0,0 L10,5 L0,10 z" fill={strokeColor} />

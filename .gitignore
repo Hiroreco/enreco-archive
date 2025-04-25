@@ -27,7 +27,7 @@ dist-ssr
 todo.txt
 .next/*
 out/*
-tsconfig.tsbuildinfo
+*.tsbuildinfo
 
 # Auto-generated file, probably don't need to commit this.
 next-env.d.ts

@@ -52,7 +52,7 @@ const ViewVideoModal = ({
                         }}
                     />
                 }
-                className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2 z-[100]"
+                className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] h-auto aspect-video p-2 z-100"
                 style={{
                     backgroundImage: `url('${bgImage}')`,
                     backgroundSize: "cover",
