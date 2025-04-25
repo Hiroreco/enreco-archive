@@ -215,10 +215,6 @@ function ViewMarkdownInternal({
     const markdownComponentMap = useMemo(
         (): Components => ({
             img: ({src = "", alt = ""}) => {
-                if(src instanceof Blob) {
-                    throw new Error("We can't handle Blobs right now.");
-                }
-
                 return (
                     <Image
                         src={src}
