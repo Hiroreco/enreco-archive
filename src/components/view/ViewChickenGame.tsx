@@ -29,16 +29,16 @@ const ViewChickenGame = () => {
     const [timeLeft, setTimeLeft] = useState(GAME_DURATION);
 
     const boardRef = useRef<HTMLDivElement>(null);
-    const animationFrameRef = useRef<number>();
+    const animationFrameRef = useRef<number>(0);
     const lastSpawnRef = useRef<number>(0);
     const chickenIdRef = useRef<number>(0);
-    const timerRef = useRef<NodeJS.Timeout>();
+    const timerRef = useRef<number>(-1);
 
     // Timer effect
     useEffect(() => {
         if (!isPlaying) return;
 
-        timerRef.current = setInterval(() => {
+        timerRef.current = window.setInterval(() => {
             setTimeLeft((prev: number) => {
                 if (prev <= 1) {
                     setIsPlaying(false);

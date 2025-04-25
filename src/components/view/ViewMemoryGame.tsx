@@ -44,7 +44,7 @@ const ViewMemoryGame = () => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [guessState, setGuessState] = useState<GuessState>("none");
 
-    const intervalRef = useRef<NodeJS.Timeout>();
+    const intervalRef = useRef<number>(-1);
 
     const getNumberOfUnsolvedSlots = (board: number[]) => {
         return board.filter((value) => value >= 4).length;
@@ -161,7 +161,7 @@ const ViewMemoryGame = () => {
     // Update timer
     useEffect(() => {
         if (isPlaying) {
-            intervalRef.current = setInterval(() => {
+            intervalRef.current = window.setInterval(() => {
                 setTimeLeft((prevTimeLeft) => {
                     if (prevTimeLeft === 0) {
                         setIsPlaying(false);
