@@ -36,7 +36,7 @@ export const ViewAppWrapper = () => {
             )}
             <div
                 className={cn({
-                    "visible opacity-1": viewAppVisible,
+                    "visible opacity-100": viewAppVisible,
                     "invisible opacity-0": !viewAppVisible,
                 })}
             >
