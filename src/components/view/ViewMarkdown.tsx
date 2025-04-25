@@ -295,14 +295,15 @@ function ViewMarkdownInternal({
     const remarkPlugins = useMemo(() => [remarkGfm], []);
     const rehypePlugins = useMemo(() => [transformImageParagraphToFigure, addTeamIcons, unWrapEasterEggLink], []);
     return (
-        <Markdown
-            className={"relative markdown"}
-            remarkPlugins={remarkPlugins}
-            rehypePlugins={rehypePlugins}
-            components={markdownComponentMap}
-        >
-            {children}
-        </Markdown>
+        <div className="relative markdown">
+            <Markdown
+                remarkPlugins={remarkPlugins}
+                rehypePlugins={rehypePlugins}
+                components={markdownComponentMap}
+            >
+                {children}
+            </Markdown>
+        </div>
     );
 }
 
