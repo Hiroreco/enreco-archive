@@ -389,7 +389,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s",
+                        transition: "brightness 0.5s, background-image 0.3s",
                     }}
                 />
 
