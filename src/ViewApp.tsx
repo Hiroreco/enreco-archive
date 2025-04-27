@@ -29,7 +29,10 @@ import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
-import { generateRenderableEdges, generateRenderableNodes } from "./lib/generate-renderable-chart-elems";
+import {
+    generateRenderableEdges,
+    generateRenderableNodes,
+} from "./lib/generate-renderable-chart-elems";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -101,27 +104,27 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.selectedNode?.id,
             viewStore.selectedEdge?.source,
             viewStore.selectedEdge?.target,
-        ].filter(s => s !== undefined && s !== null);
+        ].filter((s) => s !== undefined && s !== null);
 
         return generateRenderableNodes(
-            chapterData, 
+            chapterData,
             viewStore.chapter,
             viewStore.day,
             viewStore.teamVisibility,
             viewStore.characterVisibility,
             selectedNodes,
-            viewStore.currentCard
+            viewStore.currentCard,
         );
     }, [
-        viewStore.selectedNode?.id, 
-        viewStore.selectedEdge?.source, 
-        viewStore.selectedEdge?.target, 
-        viewStore.chapter, 
-        viewStore.day, 
-        viewStore.teamVisibility, 
-        viewStore.characterVisibility, 
-        viewStore.currentCard, 
-        chapterData
+        viewStore.selectedNode?.id,
+        viewStore.selectedEdge?.source,
+        viewStore.selectedEdge?.target,
+        viewStore.chapter,
+        viewStore.day,
+        viewStore.teamVisibility,
+        viewStore.characterVisibility,
+        viewStore.currentCard,
+        chapterData,
     ]);
 
     const processedEdges = useMemo(() => {
@@ -135,19 +138,19 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.edgeVisibility,
             processedNodes,
             viewStore.selectedEdge,
-            viewStore.currentCard
+            viewStore.currentCard,
         );
     }, [
-        chapterData, 
-        viewStore.chapter, 
-        viewStore.day, 
-        viewStore.previousSelectedDay, 
-        viewStore.teamVisibility, 
-        viewStore.characterVisibility, 
-        viewStore.edgeVisibility, 
-        viewStore.selectedEdge, 
-        viewStore.currentCard, 
-        processedNodes
+        chapterData,
+        viewStore.chapter,
+        viewStore.day,
+        viewStore.previousSelectedDay,
+        viewStore.teamVisibility,
+        viewStore.characterVisibility,
+        viewStore.edgeVisibility,
+        viewStore.selectedEdge,
+        viewStore.currentCard,
+        processedNodes,
     ]);
 
     // Update processed edges' read status
@@ -541,7 +544,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onChapterChange={(newChapter) => {
                         setFitViewOperation("fit-to-all");
                         setDoFitView(!doFitView);
-                        updateData(newChapter, viewStore.day);
+                        updateData(newChapter, 0);
+                        viewStore.setPreviousSelectedDay(0);
                     }}
                     onDayChange={(newDay) => {
                         viewStore.setPreviousSelectedDay(viewStore.day);
