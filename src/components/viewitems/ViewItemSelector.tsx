@@ -10,7 +10,7 @@ interface ItemSelectorProps {
 const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
     return (
         <div
-            className="content-container h-[100px] relative flex items-center gap-2 cursor-pointer hover:scale-105 transition-all"
+            className="content-container h-[100px] relative flex items-center gap-2 cursor-pointer hover:bg-accent hover:text-primary-foreground transition-all"
             onClick={onItemClick ? () => onItemClick(item) : undefined}
         >
             <Image

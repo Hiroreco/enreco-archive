@@ -2,7 +2,7 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
-import { Suspense } from "react";
+import { Suspense, useMemo } from "react";
 
 interface ViewModelModalProps {
     open: boolean;
@@ -12,9 +12,11 @@ interface ViewModelModalProps {
 
 const Model = ({ modelPath }: { modelPath: string }) => {
     const gltf = useGLTF(modelPath);
+    const clonedScene = useMemo(() => gltf.scene.clone(), [gltf.scene]);
+
     return (
         <Center>
-            <primitive object={gltf.scene} scale={3.5} />
+            <primitive object={clonedScene} scale={3.5} dispose={null} />
         </Center>
     );
 };

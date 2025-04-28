@@ -3,7 +3,7 @@ import ViewModelModal from "@/components/viewitems/ViewModelModal";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Expand } from "lucide-react";
-import { Suspense, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 
 interface ViewItemViewerProps {
     modelPath: string;
@@ -11,9 +11,11 @@ interface ViewItemViewerProps {
 
 const Model = ({ modelPath }: { modelPath: string }) => {
     const gltf = useGLTF(modelPath);
+    const clonedScene = useMemo(() => gltf.scene.clone(), [gltf.scene]);
+
     return (
         <Center>
-            <primitive object={gltf.scene} scale={3.5} />
+            <primitive object={clonedScene} scale={3.5} dispose={null} />
         </Center>
     );
 };

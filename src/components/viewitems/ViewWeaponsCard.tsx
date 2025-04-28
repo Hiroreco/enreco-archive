@@ -57,7 +57,7 @@ const ViewWeaponsCard = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="h-full overflow-y-auto grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4"
+                            className="h-full overflow-x-hidden overflow-y-auto grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4"
                         >
                             {Array(16)
                                 .fill(null)
