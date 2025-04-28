@@ -118,7 +118,7 @@ function ViewChart({
     const settingStore = useSettingStore();
 
     const fitViewAsync = useCallback(
-        async (fitViewOptions?: FitViewOptions) => {
+        async (fitViewOptions?: FitViewOptions<ImageNodeType>) => {
             await fitView(fitViewOptions);
         },
         [fitView],

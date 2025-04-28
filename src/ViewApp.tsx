@@ -370,6 +370,23 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     currentCard={viewStore.currentCard}
                     previousCard={previousCard}
                 />
+                <div
+                    className={cn(
+                        "absolute top-0 left-0 w-screen h-screen -z-10",
+                        {
+                            "brightness-90 dark:brightness-70":
+                                viewStore.currentCard !== null,
+                            "brightness-100": viewStore.currentCard === null,
+                        },
+                    )}
+                    style={{
+                        backgroundImage: `url('${bgImage}')`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        transition: "brightness 0.5s, background-image 0.3s",
+                    }}
+                />
 
                 <ViewSettingCard
                     isCardOpen={viewStore.currentCard === "setting"}
@@ -522,7 +539,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     onChapterChange={(newChapter) => {
                         setFitViewOperation("fit-to-all");
                         setDoFitView(!doFitView);
-                        updateData(newChapter, viewStore.day);
+                        updateData(newChapter, 0);
+                        viewStore.setPreviousSelectedDay(0);
                     }}
                     onDayChange={(newDay) => {
                         viewStore.setPreviousSelectedDay(viewStore.day);
