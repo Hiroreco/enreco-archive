@@ -228,14 +228,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 day < 0 ||
                 day >= siteData.chapters[viewStore.chapter].numberOfDays
             ) {
-                setBrowserHash("0/0");
-                updateData(0, 0);
+                setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
+                updateData(siteData.numberOfChapters - 1, 0);
                 return;
             }
             updateData(chapter, day);
         } else {
-            setBrowserHash("0/0");
-            updateData(0, 0);
+            setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
+            updateData(siteData.numberOfChapters - 1, 0);
         }
     }
 
