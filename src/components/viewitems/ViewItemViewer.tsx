@@ -26,7 +26,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     };
 
     return (
-        <div className="flex flex-col items-center md:items-baseline overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 relative h-full">
+        <div className="flex flex-col items-center md:items-baseline overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 relative h-full px-2">
             <div className="w-[250px]">
                 <p className="font-bold text-center">Model Viewer</p>
                 <div className="w-full h-[250px]">

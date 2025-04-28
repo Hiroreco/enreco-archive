@@ -49,7 +49,7 @@ const ViewWeaponsCard = () => {
                     Weapons
                 </CardTitle>
             </CardHeader>
-            <CardContent className="h-[75vh]">
+            <CardContent className="h-[65vh] sm:h-[75vh] p-4">
                 <AnimatePresence mode="wait">
                     {selectedItem === null && (
                         <motion.div
@@ -57,7 +57,7 @@ const ViewWeaponsCard = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="h-full overflow-x-hidden overflow-y-auto grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4"
+                            className="h-full p-2 overflow-x-hidden overflow-y-auto grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4"
                         >
                             {Array(16)
                                 .fill(null)

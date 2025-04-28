@@ -68,7 +68,7 @@ export const ViewAppWrapper = () => {
             />
 
             <div
-                className={cn({
+                className={cn("overflow-hidden", {
                     "visible opacity-1": viewAppVisible,
                     "invisible opacity-0": !viewAppVisible,
                 })}
