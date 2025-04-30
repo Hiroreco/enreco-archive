@@ -17,8 +17,7 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
     const viewStore = useViewStore();
 
     return (
-        <div className="w-screen h-screen flex flex-col items-center justify-center overflow-hidden">
-            {/* ViewItemsApp content here */}
+        <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <Tabs
                 defaultValue="weapons"
                 className="w-[80%] max-w-[900px] mx-auto flex flex-col"

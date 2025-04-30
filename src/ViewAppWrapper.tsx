@@ -53,7 +53,7 @@ export const ViewAppWrapper = () => {
 
             {/* Setting the background here so both apps can use it */}
             <div
-                className={cn("absolute top-0 left-0 w-screen h-screen -z-10", {
+                className={cn("absolute top-0 left-0 w-screen h-dvh -z-10", {
                     "brightness-90 dark:brightness-70":
                         viewStore.currentCard !== null,
                     "brightness-100": viewStore.currentCard === null,
