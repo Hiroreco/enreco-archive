@@ -357,7 +357,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     return (
         <>
-            <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
+            <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <ViewChart
                     nodes={memoizedDayData.nodes}
                     edges={memoizedDayData.edges}
@@ -377,7 +377,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 />
                 <div
                     className={cn(
-                        "absolute top-0 left-0 w-screen h-screen -z-10",
+                        "absolute top-0 left-0 w-screen h-full -z-10",
                         {
                             "brightness-90 dark:brightness-70":
                                 viewStore.currentCard !== null,
