@@ -4,10 +4,12 @@ import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
-import ViewHatsCard from "@/components/viewitems/ViewHatsCard";
-import ViewWeaponsCard from "@/components/viewitems/ViewWeaponsCard";
+import ViewItemsCard from "@/components/viewitems/ViewItemsCard";
 import { useViewStore } from "@/store/viewStore";
 import { Dice6, Info, Settings } from "lucide-react";
+
+import weapons from "@/data/weapons.json";
+import hats from "@/data/hats.json";
 
 interface ViewItemsAppProps {
     bgImage: string;
@@ -27,10 +29,10 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
                     <TabsTrigger value="hats">Hats</TabsTrigger>
                 </TabsList>
                 <TabsContent value="weapons">
-                    <ViewWeaponsCard />
+                    <ViewItemsCard data={weapons} label="Weapons" />
                 </TabsContent>
                 <TabsContent value="hats">
-                    <ViewHatsCard />
+                    <ViewItemsCard data={hats} label="Hats" />
                 </TabsContent>
             </Tabs>
 
