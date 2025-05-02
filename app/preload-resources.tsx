@@ -11,6 +11,21 @@ export default function PreloadResources() {
         as: "image",
         fetchPriority: "high",
     });
-
+    ReactDOM.preload("/images-opt/bg-0.webp", {
+        as: "image",
+        fetchPriority: "high",
+    });
+    ReactDOM.preload("/images-opt/bg-0-dark.webp", {
+        as: "image",
+        fetchPriority: "high",
+    });
+    ReactDOM.preload("/images-opt/bg-1.webp", {
+        as: "image",
+        fetchPriority: "high",
+    });
+    ReactDOM.preload("/images-opt/bg-1-dark.webp", {
+        as: "image",
+        fetchPriority: "high",
+    });
     return null;
 }
