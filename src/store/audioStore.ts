@@ -6,7 +6,6 @@ import { useEffect } from "react";
 
 interface AudioState {
     bgm: Howl | null;
-    currentBgmKey: string | null;
     sfx: { [key: string]: Howl };
     bgmVolume: number;
     sfxVolume: number;
@@ -22,12 +21,7 @@ interface AudioState {
 }
 
 export const useAudioStore = create<AudioState>((set, get) => ({
-    bgm: new Howl({
-        src: ["/audio/bgm-0.mp3"],
-        loop: true,
-        volume: useSettingStore.getState().bgmVolume,
-    }),
-    currentBgmKey: "chapter-1",
+    bgm: null,
     sfx: {
         click: new Howl({
             src: ["/audio/click.mp3"],
@@ -127,8 +121,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         }
     },
     changeBGM: (newBgmSrc: string) => {
-        if (newBgmSrc === get().currentBgmKey) return;
-
         const { bgm, bgmVolume } = get();
         const fadeOutDuration = 2000;
         const fadeInDuration = 1000;
@@ -151,7 +143,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         if (newBgmSrc === "/audio/potato.mp3") {
             newBgmVolume = 0.5;
         }
-        set({ bgm: newBgm, currentBgmKey: newBgmSrc, bgmVolume: newBgmVolume });
+        set({ bgm: newBgm, bgmVolume: newBgmVolume });
 
         setTimeout(() => {
             newBgm.play();

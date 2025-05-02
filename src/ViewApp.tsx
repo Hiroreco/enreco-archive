@@ -90,7 +90,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.setInfoModalOpen(true);
             setFirstVisit(true);
         }
-        audioStore.changeBGM(chapterData.bgmSrc);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
 
@@ -207,6 +206,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             (node) => (characterVisibilityLoaded[node.id] = true),
         );
 
+        audioStore.changeBGM(newChapterData.bgmSrc);
         viewStore.setEdgeVisibility(edgeVisibilityLoaded);
         viewStore.setTeamVisibility(teamVisibilityLoaded);
         viewStore.setCharacterVisibility(characterVisibilityLoaded);
