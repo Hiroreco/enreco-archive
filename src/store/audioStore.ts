@@ -6,6 +6,7 @@ import { useEffect } from "react";
 
 interface AudioState {
     bgm: Howl | null;
+    currentBgmKey: string | null;
     sfx: { [key: string]: Howl };
     bgmVolume: number;
     sfxVolume: number;
@@ -22,6 +23,7 @@ interface AudioState {
 
 export const useAudioStore = create<AudioState>((set, get) => ({
     bgm: null,
+    currentBgmKey: null,
     sfx: {
         click: new Howl({
             src: ["/audio/click.mp3"],
@@ -121,6 +123,16 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         }
     },
     changeBGM: (newBgmSrc: string) => {
+        const { currentBgmKey } = get();
+        const currentBgmKeyFromSrc =
+            newBgmSrc.split("/").pop()?.split(".")[0] || null;
+        if (
+            currentBgmKey === currentBgmKeyFromSrc ||
+            currentBgmKey === "potato"
+        ) {
+            return;
+        }
+
         const { bgm, bgmVolume } = get();
         const fadeOutDuration = 2000;
         const fadeInDuration = 1000;
@@ -143,7 +155,9 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         if (newBgmSrc === "/audio/potato.mp3") {
             newBgmVolume = 0.5;
         }
-        set({ bgm: newBgm, bgmVolume: newBgmVolume });
+        const newBgmKey = newBgmSrc.split("/").pop()?.split(".")[0] || null;
+
+        set({ bgm: newBgm, bgmVolume: newBgmVolume, currentBgmKey: newBgmKey });
 
         setTimeout(() => {
             newBgm.play();

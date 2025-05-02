@@ -205,7 +205,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         newDayData.nodes.forEach(
             (node) => (characterVisibilityLoaded[node.id] = true),
         );
-
         audioStore.changeBGM(newChapterData.bgmSrc);
         viewStore.setEdgeVisibility(edgeVisibilityLoaded);
         viewStore.setTeamVisibility(teamVisibilityLoaded);

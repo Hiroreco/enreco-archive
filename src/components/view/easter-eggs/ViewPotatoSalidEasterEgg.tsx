@@ -4,8 +4,7 @@ import Image from "next/image";
 
 const ViewPotatoSalidEasterEgg = () => {
     const audioStore = useAudioStore();
-    const isCurrentlyPotatoSalid =
-        audioStore.currentBgmKey === "/audio/potato.mp3";
+    const isCurrentlyPotatoSalid = audioStore.currentBgmKey === "potato";
     return (
         <div
             onClick={() => {
