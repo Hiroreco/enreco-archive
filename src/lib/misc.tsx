@@ -1,15 +1,37 @@
-import { Monitor, Palette, Pencil } from "lucide-react";
+import { Book, Monitor, Palette, Pencil } from "lucide-react";
 
 const iconSize = 20;
 
 export const CONTRIBUTORS = [
     {
-        role: "Organizer & Writer",
+        role: "Organizer",
         icon: <Pencil size={iconSize} />,
         contributors: [
             {
                 name: "Hiro",
                 socials: "https://x.com/hiroavrs",
+            },
+        ],
+    },
+    {
+        role: "Archiver",
+        icon: <Book size={iconSize} />,
+        contributors: [
+            {
+                name: "Hiro",
+                socials: "https://x.com/hiroavrs",
+            },
+            {
+                name: "Zephyr Kitten",
+                socials: "https://x.com/ZephyrKitten",
+            },
+            {
+                name: "Rieght",
+                socials: null,
+            },
+            {
+                name: "Fayelinya Luna",
+                socials: null,
             },
         ],
     },
