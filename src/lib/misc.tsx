@@ -33,6 +33,10 @@ export const CONTRIBUTORS = [
                 name: "Fayelinya Luna",
                 socials: null,
             },
+            {
+                name: "Alfy",
+                socials: null,
+            },
         ],
     },
     {
