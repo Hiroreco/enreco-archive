@@ -23,19 +23,20 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Zephyr Kitten",
-                socials: "https://x.com/ZephyrKitten",
+                socials: null,
             },
             {
                 name: "Rieght",
-                socials: null,
+                socials: "https://www.youtube.com/@immergruenclips",
             },
             {
                 name: "Fayelinya Luna",
-                socials: null,
+                socials: "https://fayelinyaluna.carrd.co/",
             },
             {
                 name: "Alfy",
-                socials: null,
+                socials:
+                    "https://x.com/knightalfy?s=21&t=BK74P_JoXiHZQYXSh_0W-A",
             },
         ],
     },
