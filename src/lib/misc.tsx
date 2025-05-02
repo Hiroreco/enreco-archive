@@ -23,7 +23,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Zephyr Kitten",
-                socials: null,
+                socials: "https://x.com/ZephyrKitten",
             },
             {
                 name: "Rieght",
