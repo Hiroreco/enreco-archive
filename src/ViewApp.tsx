@@ -29,7 +29,10 @@ import { LS_HAS_VISITED } from "@/lib/constants";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
-import { generateRenderableEdges, generateRenderableNodes } from "./lib/generate-renderable-chart-elems";
+import {
+    generateRenderableEdges,
+    generateRenderableNodes,
+} from "./lib/generate-renderable-chart-elems";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -87,7 +90,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.setInfoModalOpen(true);
             setFirstVisit(true);
         }
-        audioStore.changeBGM(chapterData.bgmSrc);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
 
@@ -101,27 +103,27 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.selectedNode?.id,
             viewStore.selectedEdge?.source,
             viewStore.selectedEdge?.target,
-        ].filter(s => s !== undefined && s !== null);
+        ].filter((s) => s !== undefined && s !== null);
 
         return generateRenderableNodes(
-            chapterData, 
+            chapterData,
             viewStore.chapter,
             viewStore.day,
             viewStore.teamVisibility,
             viewStore.characterVisibility,
             selectedNodes,
-            viewStore.currentCard
+            viewStore.currentCard,
         );
     }, [
-        viewStore.selectedNode?.id, 
-        viewStore.selectedEdge?.source, 
-        viewStore.selectedEdge?.target, 
-        viewStore.chapter, 
-        viewStore.day, 
-        viewStore.teamVisibility, 
-        viewStore.characterVisibility, 
-        viewStore.currentCard, 
-        chapterData
+        viewStore.selectedNode?.id,
+        viewStore.selectedEdge?.source,
+        viewStore.selectedEdge?.target,
+        viewStore.chapter,
+        viewStore.day,
+        viewStore.teamVisibility,
+        viewStore.characterVisibility,
+        viewStore.currentCard,
+        chapterData,
     ]);
 
     const processedEdges = useMemo(() => {
@@ -135,19 +137,19 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.edgeVisibility,
             processedNodes,
             viewStore.selectedEdge,
-            viewStore.currentCard
+            viewStore.currentCard,
         );
     }, [
-        chapterData, 
-        viewStore.chapter, 
-        viewStore.day, 
-        viewStore.previousSelectedDay, 
-        viewStore.teamVisibility, 
-        viewStore.characterVisibility, 
-        viewStore.edgeVisibility, 
-        viewStore.selectedEdge, 
-        viewStore.currentCard, 
-        processedNodes
+        chapterData,
+        viewStore.chapter,
+        viewStore.day,
+        viewStore.previousSelectedDay,
+        viewStore.teamVisibility,
+        viewStore.characterVisibility,
+        viewStore.edgeVisibility,
+        viewStore.selectedEdge,
+        viewStore.currentCard,
+        processedNodes,
     ]);
 
     // Update processed edges' read status
@@ -203,7 +205,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         newDayData.nodes.forEach(
             (node) => (characterVisibilityLoaded[node.id] = true),
         );
-
+        audioStore.changeBGM(newChapterData.bgmSrc);
         viewStore.setEdgeVisibility(edgeVisibilityLoaded);
         viewStore.setTeamVisibility(teamVisibilityLoaded);
         viewStore.setCharacterVisibility(characterVisibilityLoaded);
@@ -225,14 +227,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 day < 0 ||
                 day >= siteData.chapters[viewStore.chapter].numberOfDays
             ) {
-                setBrowserHash("0/0");
-                updateData(0, 0);
+                setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
+                updateData(siteData.numberOfChapters - 1, 0);
                 return;
             }
             updateData(chapter, day);
         } else {
-            setBrowserHash("0/0");
-            updateData(0, 0);
+            setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
+            updateData(siteData.numberOfChapters - 1, 0);
         }
     }
 
@@ -354,7 +356,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     return (
         <>
-            <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
+            <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <ViewChart
                     nodes={memoizedDayData.nodes}
                     edges={memoizedDayData.edges}
@@ -374,7 +376,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 />
                 <div
                     className={cn(
-                        "absolute top-0 left-0 w-screen h-screen -z-10",
+                        "absolute top-0 left-0 w-screen h-full -z-10",
                         {
                             "brightness-90 dark:brightness-70":
                                 viewStore.currentCard !== null,
@@ -386,7 +388,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s",
+                        transition: "brightness 0.5s, background-image 0.3s",
                     }}
                 />
 
@@ -541,7 +543,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onChapterChange={(newChapter) => {
                         setFitViewOperation("fit-to-all");
                         setDoFitView(!doFitView);
-                        updateData(newChapter, viewStore.day);
+                        updateData(newChapter, 0);
+                        viewStore.setPreviousSelectedDay(0);
                     }}
                     onDayChange={(newDay) => {
                         viewStore.setPreviousSelectedDay(viewStore.day);
