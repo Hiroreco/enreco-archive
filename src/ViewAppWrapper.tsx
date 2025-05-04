@@ -1,5 +1,6 @@
 "use client";
 import chapter0 from "@/data/chapter0.json";
+import chapter1 from "@/data/chapter1.json";
 import siteMeta from "@/data/metadata.json";
 import { Chapter, SiteData } from "@/lib/type";
 import { useState } from "react";
@@ -13,7 +14,7 @@ const data: SiteData = {
     version: siteMeta.version,
     numberOfChapters: siteMeta.numChapters,
     event: "ENigmatic Recollection",
-    chapters: [chapter0 as Chapter],
+    chapters: [chapter0 as Chapter, chapter1 as Chapter],
 };
 
 export const ViewAppWrapper = () => {

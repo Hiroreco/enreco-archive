@@ -1,6 +1,10 @@
 import EasterEgg from "@/components/view/markdown/EasterEgg";
-import EdgeLink, { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
-import NodeLink, { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
+import EdgeLink, {
+    EdgeLinkClickHandler,
+} from "@/components/view/markdown/EdgeLink";
+import NodeLink, {
+    NodeLinkClickHandler,
+} from "@/components/view/markdown/NodeLink";
 import TimestampHref from "@/components/view/markdown/TimestampHref";
 import { getBlurDataURL, urlToLiveUrl } from "@/lib/utils";
 
@@ -11,7 +15,7 @@ import Markdown, { Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
-import { visit } from 'unist-util-visit'
+import { visit } from "unist-util-visit";
 
 import "@/components/view/ViewMarkdown.css";
 
@@ -41,19 +45,21 @@ a paragraph when it turns the markdown into html.
 function transformImageParagraphToFigure() {
     /* Match only <p> elements with one <img> child. */
     const elementFilter: TestFunction = (node: Node) => {
-        if(node.type === "element") {
+        if (node.type === "element") {
             const element = node as Element;
             const elementChild = element.children[0] as Element;
-            
-            return element.tagName === "p" && 
+
+            return (
+                element.tagName === "p" &&
                 element.children.length === 1 &&
-                elementChild.tagName === "img";
+                elementChild.tagName === "img"
+            );
         }
 
         return false;
-    }
+    };
 
-    return function(tree: Node) {
+    return function (tree: Node) {
         visit(tree, elementFilter, (node) => {
             const pElement = node as Element;
             const imgChild = pElement.children[0] as Element;
@@ -73,16 +79,16 @@ function transformImageParagraphToFigure() {
                         children: [
                             {
                                 type: "text",
-                                value: imgChild.properties["alt"]
-                            } as Text
-                        ] as ElementContent[]
-                    } as Element
-                ]
-            }
+                                value: imgChild.properties["alt"],
+                            } as Text,
+                        ] as ElementContent[],
+                    } as Element,
+                ],
+            };
 
             Object.assign(node, newNode);
         });
-    }
+    };
 }
 
 /*
@@ -101,66 +107,67 @@ The advantage of this method (although it is way more complex) is that it will
 find the team name everywhere in the markdown.
 */
 function addTeamIcons() {
-    const teamCssClasses = new Map(
-        [
-            ["Amber Coin", "amber-coin"],
-            ["Scarlet Wand", "scarlet-wand"],
-            ["Cerulean Cup", "cerulean-cup"],
-            ["Jade Sword", "jade-sword"],
-        ]
-    );
+    const teamCssClasses = new Map([
+        ["Amber Coin", "amber-coin"],
+        ["Scarlet Wand", "scarlet-wand"],
+        ["Cerulean Cup", "cerulean-cup"],
+        ["Jade Sword", "jade-sword"],
+        ["Chef", "ch2_jobs_chef"],
+        ["Jeweler", "ch2_jobs_jeweler"],
+        ["Smith", "ch2_jobs_smith"],
+        ["Supplier", "ch2_jobs_supplier"],
+    ]);
 
     /* 
     Match only text blocks that are not children of a span element. 
     This is to prevent an infinite team name substitution loop.
     */
     const elementFilter: TestFunction = (node, _index, parent) => {
-        if(node.type === "text" && parent?.type === "element") {
+        if (node.type === "text" && parent?.type === "element") {
             const parentElement = parent as Element;
             return parentElement.tagName !== "span";
         }
 
         return false;
-    }
+    };
 
-    return function(tree: Node) {
+    return function (tree: Node) {
         visit(tree, elementFilter, (node, _index, parent) => {
             const textNode = node as Text;
             const parts = textNode.value.split(
-                /(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword)/g,
+                /(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword|Chef|Jeweler|Smith|Supplier)/g,
             );
 
             const newChildren: ElementContent[] = parts.map((part) => {
-                if(teamCssClasses.has(part)) {
+                if (teamCssClasses.has(part)) {
                     return {
                         type: "element",
                         tagName: "span",
                         properties: {
-                            "class": teamCssClasses.get(part)
+                            class: teamCssClasses.get(part),
                         },
                         children: [
                             {
                                 type: "text",
-                                value: part
-                            } as Text
-                        ] as ElementContent[]
+                                value: part,
+                            } as Text,
+                        ] as ElementContent[],
                     } as Element;
-                }
-                else {
+                } else {
                     return {
                         type: "text",
-                        value: part
-                    } as Text
+                        value: part,
+                    } as Text;
                 }
             });
 
-            if(newChildren.length !== 1) {
+            if (newChildren.length !== 1) {
                 const parentElem = parent as Element;
                 const nodeChildIdx = parentElem.children.indexOf(textNode);
                 parentElem.children.splice(nodeChildIdx, 1, ...newChildren);
             }
-        })
-    }
+        });
+    };
 }
 
 /*
@@ -170,24 +177,30 @@ This is basically just to prevent hydration errors again (thanks nextjs).
 function unWrapEasterEggLink() {
     /* Match only <p> elements with one <a> child whose href contains "#easter". */
     const elementFilter: TestFunction = (node) => {
-        if(node.type === "element") {
+        if (node.type === "element") {
             const elementNode = node as Element;
 
-            return elementNode.tagName === "p" &&
+            return (
+                elementNode.tagName === "p" &&
                 elementNode.children.length === 1 &&
                 elementNode.children[0].type == "element" &&
                 (elementNode.children[0] as Element).tagName === "a" &&
-                ((elementNode.children[0] as Element).properties["href"] as string).includes("#easter");
+                (
+                    (elementNode.children[0] as Element).properties[
+                        "href"
+                    ] as string
+                ).includes("#easter")
+            );
         }
 
         return false;
-    }
+    };
 
-    return function(tree: Node) {
+    return function (tree: Node) {
         visit(tree, elementFilter, (node) => {
             Object.assign(node, (node as Element).children[0]);
-        })
-    }
+        });
+    };
 }
 
 /*
@@ -214,7 +227,7 @@ function ViewMarkdownInternal({
 }: ViewMarkdownProps) {
     const markdownComponentMap = useMemo(
         (): Components => ({
-            img: ({src = "", alt = ""}) => {
+            img: ({ src = "", alt = "" }) => {
                 return (
                     <Image
                         src={src}
@@ -226,7 +239,7 @@ function ViewMarkdownInternal({
                     />
                 );
             },
-            figcaption: ({children}) => {
+            figcaption: ({ children }) => {
                 return (
                     <figcaption className="text-sm opacity-80 italic mt-2">
                         {children}
@@ -236,11 +249,14 @@ function ViewMarkdownInternal({
             a(props) {
                 const { href, children } = props;
                 // Empty href is an easy to retain the correct cursor.
-                
+
                 if (href && href.startsWith("#node:")) {
                     const nodeId = href.replace("#node:", "");
                     return (
-                        <NodeLink nodeId={nodeId} onNodeLinkClick={onNodeLinkClicked}>
+                        <NodeLink
+                            nodeId={nodeId}
+                            onNodeLinkClick={onNodeLinkClicked}
+                        >
                             {children}
                         </NodeLink>
                     );
@@ -248,7 +264,10 @@ function ViewMarkdownInternal({
                     const edgeId = href.replace("#edge:", "");
 
                     return (
-                        <EdgeLink edgeId={edgeId} onEdgeLinkClick={onEdgeLinkClicked}>
+                        <EdgeLink
+                            edgeId={edgeId}
+                            onEdgeLinkClick={onEdgeLinkClicked}
+                        >
                             {children}
                         </EdgeLink>
                     );
@@ -268,7 +287,11 @@ function ViewMarkdownInternal({
                 } else if (href && href.startsWith("#easter")) {
                     const egg = href.replace("#easter:", "");
                     return <EasterEgg easterEggName={egg} />;
-                } else if (href && href.startsWith("https://www.youtube.com")) {
+                } else if (
+                    href &&
+                    (href.startsWith("https://www.youtube.com") ||
+                        href.startsWith("https://youtu.be"))
+                ) {
                     return (
                         <TimestampHref
                             href={urlToLiveUrl(href!) || ""}
@@ -293,7 +316,14 @@ function ViewMarkdownInternal({
     );
 
     const remarkPlugins = useMemo(() => [remarkGfm], []);
-    const rehypePlugins = useMemo(() => [transformImageParagraphToFigure, addTeamIcons, unWrapEasterEggLink], []);
+    const rehypePlugins = useMemo(
+        () => [
+            transformImageParagraphToFigure,
+            addTeamIcons,
+            unWrapEasterEggLink,
+        ],
+        [],
+    );
     return (
         <Markdown
             className={"relative markdown"}

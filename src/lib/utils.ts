@@ -75,6 +75,13 @@ export const urlToLiveUrl = (url: string) => {
         const videoid = url.split("v=")[1].split("&")[0];
         const params = url.split("v=")[1].split("&")[1];
         correctUrl = `https://www.youtube.com/live/${videoid}?${params}`;
+    } else if (url.includes("youtu.be")) {
+        // turn youtu.be to live
+        // example https://youtu.be/7bOe38rP7JQ?t=454
+        // to https://www.youtube.com/live/7bOe38rP7JQ?t=454
+        const videoid = url.split("youtu.be/")[1].split("?")[0];
+        const params = url.split("?")[1];
+        correctUrl = `https://www.youtube.com/live/${videoid}?${params}`;
     }
     return correctUrl;
 };
@@ -94,7 +101,7 @@ export const getBlurDataURL = (imageSrc: string | undefined) => {
 };
 
 export const isMobileViewport = (): boolean => {
-    if(typeof window !== "undefined") {
+    if (typeof window !== "undefined") {
         return window.innerWidth <= 768;
     }
     return false;
