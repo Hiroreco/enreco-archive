@@ -4,7 +4,7 @@
 
 .amber-coin::after {
     display: inline-block;
-    background-image: url('/images-opt/ambercoin.webp');
+    background-image: url("/images-opt/ambercoin.webp");
     background-size: 1.5rem 1.5rem;
     height: 1.5rem;
     width: 1.5rem;
@@ -14,7 +14,7 @@
 
 .scarlet-wand::after {
     display: inline-block;
-    background-image: url('/images-opt/scarletwand.webp');
+    background-image: url("/images-opt/scarletwand.webp");
     background-size: 1.5rem 1.5rem;
     height: 1.5rem;
     width: 1.5rem;
@@ -24,7 +24,7 @@
 
 .cerulean-cup::after {
     display: inline-block;
-    background-image: url('/images-opt/ceruleancup.webp');
+    background-image: url("/images-opt/ceruleancup.webp");
     background-size: 1.5rem 1.5rem;
     height: 1.5rem;
     width: 1.5rem;
@@ -34,10 +34,54 @@
 
 .jade-sword::after {
     display: inline-block;
-    background-image: url('/images-opt/jadesword.webp');
+    background-image: url("/images-opt/jadesword.webp");
     background-size: 1.5rem 1.5rem;
     height: 1.5rem;
     width: 1.5rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_smith::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_smith.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_chef::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_chef.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_jeweler::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_jeweler.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_supplier::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_supplier.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
     content: "";
     vertical-align: text-bottom;
 }
