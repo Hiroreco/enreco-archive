@@ -999,7 +999,7 @@
           },
           "data": {
             "title": "Mordan Ramsey",
-            "content": "",
+            "content": "The tavern owner continued renovating her tavern—probably one of the biggest establishments around. It wasn’t just a place to grab a bite; it offered a range of wildly concerning services as well. Thus was the proud creation of Mordon Ramsay.\n\n[Tour of the tavern](#embed:https://www.youtube.com/live/wu7g7fNsXYk?si=s2oebW-2OPVZa5Jt&t=997)\n\nThe place was pink. Pink on all four sides, pink from top to bottom. The roof sparkled with sea lanterns, and the inside was—well, still pink, but a warm, welcoming kind of pink. The main dining area was lined with tables, with sakura petals gently falling from above, a single portrait of the owner herself hung for all to see. Beneath it lay the basement, home to a secret fight club, and above were guest suites of varying classes: Peasant, Knight, and Libestalian King—each with a balcony view of the kingdom’s vast green fields. At this point, it was looking more like a motel than a tavern.\n\nIt was beautiful—but not finished. Miss Mordon had more ideas. She later established a [Therapy Stall](https://www.youtube.com/live/wu7g7fNsXYk?si=cLBaeNYSgM9NfhrZ&t=4070) right next to the tavern: 100 coins for solo sessions, 200 for couples. A chef who could cook, run a motel, and now offer therapy? What *couldn’t* she do at this point?\n\nShe had to do it all, though—the economy was tough, and it was a battlefield for folks like her. Of course, collaboration helped, like the one she had going with [Nerissa](https://www.youtube.com/live/wu7g7fNsXYk?si=-Az4QRmpYlH1g237&t=2062).\n\nTurning back to the main quest, Mordon teamed up with Kiara, Biboo, Roa, and Mococo for a mission to the [Star Site: Elpis Dungeon](https://www.youtube.com/live/wu7g7fNsXYk?si=Mcd8vEwgowdvbG3w&t=6353), where they successfully recovered memories of [IRyS](https://www.youtube.com/live/wu7g7fNsXYk?si=8aHIbG2KX1DFLf3y&t=8501).\n\nToward the end of the day, she went out to gather more ingredients for cooking. Unfortunately, she ran into a slew of monsters, so she hired a bodyguard—who promptly failed at being a bodyguard. Mordon returned home, only to once again be assaulted by the one person who seemed to be bugging her business just for the fun of it (see [Mordon-Shiori: Please Leave Me Alone](#edge:shiori-nyavella-mori-calliope-bottom-2-top-2)).\n",
             "imageSrc": "images-opt/calli.webp",
             "teamId": "chef",
             "status": "Alive",
@@ -1614,7 +1614,7 @@
           },
           "data": {
             "relationshipId": "business",
-            "title": "Please leave me alone",
+            "title": "Please Leave Me Alone",
             "content": "What happens when an unstoppable force meets… a very movable object?\n\nYou could use that analogy to perfectly describe the case of Shiori tormenting the poor soul that is the tavern owner, Mordon Ramsay. Anyone else who had tried to interfere with her business before had been swiftly dealt with—be it through threats, raised rent, or any number of shady tactics. But Shiori? The Oreo lady just went and set up shop right in front of Mordon’s tavern—and the poor pink owner couldn’t do [a thing](https://www.youtube.com/live/wu7g7fNsXYk?si=EageWjwN4WxKqQAs&t=1226) about it.\n\nOnce that one sets her sights on something? Good luck.\n\n[Why is she like this](#embed:https://www.youtube.com/live/wu7g7fNsXYk?si=gqlY8ivGqTBdATtz&t=12241)\n",
             "pathType": "custom",
             "day": 1,
@@ -1626,7 +1626,7 @@
               "HR": 0
             }
           },
-          "selected": false
+          "selected": true
         },
         {
           "id": "hot-pink-one-nerissa-ravencroft-bottom-2-top-2",
