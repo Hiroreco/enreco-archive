@@ -1,6 +1,5 @@
 import EditorCard from "@/components/editor/EditorCard";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -14,12 +13,11 @@ import { Separator } from "@/components/ui/separator";
 import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
 import { EditorImageNodeType, TeamMap } from "@/lib/type";
 
-import { CheckedState } from "@radix-ui/react-checkbox";
 import MDEditor from "@uiw/react-md-editor";
 import { extractColors } from "extract-colors";
 import { produce, WritableDraft } from "immer";
 import { LucideX } from "lucide-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import slug from "slug";
 
 const MAX_ID_LENGTH = 30;
@@ -65,39 +63,18 @@ export default function EditorNodeCard({
     numberOfDays,
     isDarkMode,
 }: EditorNodeCardProps) {
-    const [autoGenIdFromTitle, setAutoGenIdFromTitle] = useState(true);
     const [workingNode, setWorkingNode] = useState(selectedNode);
     const [imgPreviewLink, setImgPreviewLink] = useState(
         selectedNode.data.imageSrc || DEFAULT_NODE_IMAGE,
     );
     const [extractedColors, setExtractedColors] = useState<string[]>([]);
 
-    const nodeIds = nodes.map((node) => node.id);
+    const titleElem = useRef<HTMLInputElement>(null);
 
-    const onToggleAutoGenId = (checkedState: CheckedState) => {
-        if (checkedState === true) {
-            setAutoGenIdFromTitle(true);
-            const newId = generateIdFromTitle(workingNode.data.title);
-            setWorkingNodeAttr((draft) => {
-                draft.id = newId;
-            });
-        } else {
-            setAutoGenIdFromTitle(false);
-        }
-    };
+    const nodeIds = nodes.map((node) => node.id);
 
     const handleSave = () => {
         updateNode(selectedNode, workingNode);
-    };
-
-    const commitId = (newId: string) => {
-        newId = getUniqueId(newId, selectedNode.id, nodeIds);
-
-        setWorkingNode(
-            produce(workingNode, (draft) => {
-                draft.id = newId;
-            }),
-        );
     };
 
     const generateIdFromTitle = (title: string) => {
@@ -106,23 +83,6 @@ export default function EditorNodeCard({
                 ? title.substring(0, MAX_ID_LENGTH)
                 : title;
         return getUniqueId(slug(truncTitle), selectedNode.id, nodeIds);
-    };
-
-    const commitTitle = (newTitle: string) => {
-        let newId = "";
-        if (autoGenIdFromTitle) {
-            newId = generateIdFromTitle(newTitle);
-        }
-
-        setWorkingNode(
-            produce(workingNode, (draft) => {
-                draft.data.title = newTitle;
-
-                if (autoGenIdFromTitle) {
-                    draft.id = newId;
-                }
-            }),
-        );
     };
 
     const commitImageSrc = (newImageSrc: string) => {
@@ -165,14 +125,18 @@ export default function EditorNodeCard({
                 <Separator className="mt-2" />
             </div>
 
-            <div className="flex flex-row content-center gap-2">
-                <Checkbox
-                    id="autoGenId"
-                    checked={autoGenIdFromTitle}
-                    onCheckedChange={onToggleAutoGenId}
-                />
-                <Label htmlFor="autoGenId">Auto-generate id from title</Label>
-            </div>
+            <Button type="button" 
+                className="flex flex-row content-center"
+                onClick={() => {
+                    if(titleElem.current) {
+                        setWorkingNodeAttr((draft) => {
+                            draft.id = generateIdFromTitle(titleElem.current?.value || "");
+                        });
+                    }
+                }}
+            >
+                Generate id from title
+            </Button>
 
             <div className="grid grid-cols-[1fr_4fr] gap-2 w-full">
                 <Label
@@ -191,9 +155,6 @@ export default function EditorNodeCard({
                             draft.id = event.target.value;
                         });
                     }}
-                    onBlur={(event) => commitId(event.target.value)}
-                    disabled={autoGenIdFromTitle}
-                    className="disabled:bg-gray-200"
                     maxLength={MAX_ID_LENGTH}
                 />
 
@@ -213,7 +174,7 @@ export default function EditorNodeCard({
                             draft.data.title = event.target.value;
                         });
                     }}
-                    onBlur={(event) => commitTitle(event.target.value)}
+                    ref={titleElem}
                 />
 
                 <Label
