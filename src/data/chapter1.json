@@ -1,5 +1,5 @@
 {
-  "numberOfDays": 1,
+  "numberOfDays": 2,
   "title": "The Chains of Fate",
   "charts": [
     {
@@ -449,7 +449,7 @@
               "HR": 0
             }
           },
-          "selected": false
+          "selected": true
         },
         {
           "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2",
@@ -841,6 +841,829 @@
               "VL": 0,
               "HC": 13.854833063115365,
               "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayRecap": "## Day 2: Hope, Despair, Hot Pink One\n\nHaving settled into their new lives in ancient Libestal, and with their jobs now underway, our heroes quickly got into the swing of things.\n\nThat's right—summoned to save the universe from impending calamity, what everyone actually ended up doing was bracing themselves for an all-out simulation of capitalism. A brutal game of market survival, where any tactic, no matter how underhanded, was fair play in the war of commerce. Sabotage, unionization, market manipulation—everything was on the table. From booming startups to lonely chefs tossing out yet another unsold chocolate cake, it was cutthroat, chaotic, and kind of impressive.\n\n![Roa and Co's business: Gacharm](/images-opt/gacharm.webp)\n\nResources were abundant and waiting, as new lands opened up for exploration—offering not just fresh adventures, but also valuable materials ripe for profit.\n\nBut beyond the economic battleground, the main quest of the day loomed: the opening of the first dungeon—**Star Site: Elpis**. A place that demanded cooperation to conquer, and in return, would restore the memories of a certain woman clad in hot pink.\n\n![The heroes battling the Stain King Elpis](/images-opt/elpis.webp)\n\nAnd speaking of hot pink, that one was *everywhere* today. Whichever direction you looked, there she was, entangled in yet another wild, unhinged, and somehow meaningful interaction. The web of relationships spun around her only grew more chaotic and expansive by the hour—fitting for a day centered around memories, mishaps, and maybe just a bit of madness.",
+      "title": "Hope, Despair, Hot Pink One",
+      "nodes": [
+        {
+          "id": "fuwawa-abyssguard",
+          "type": "image",
+          "position": {
+            "x": 1450,
+            "y": 800
+          },
+          "data": {
+            "title": "Fuwawa Abyssguard",
+            "content": "Fuwawa woke up and went straight to work. She had to be diligent—only through hard work could she create delicious food, fulfill her role as a chef, and ultimately achieve her dream of bringing people together.\n\nShe gathered materials, completed quests, slew Stains, and farmed—her entire morning was devoted to labor and nothing else. Later, she was invited by Nerissa to join Cecilia and Elizabeth in tackling the [Star Site: Elpis Dungeon](https://www.youtube.com/live/a940cWsshj4?si=UY5Oz5F1CLczMmM1&t=2686). It was a tough one—she fell, and fell, and fell again—but in the end, the team pulled through and successfully recovered IRyS’s [memories](https://www.youtube.com/live/a940cWsshj4?si=65k58U-GsS7g6zhV&t=5966).\n\nAfter that, Fuwawa... went right back to work. For nearly the entire day, she was rarely seen with anyone else—not even near her counterpart, Mococo. She remained laser-focused on her dream of cooking for others, knowing that it would take real effort to get there. And it paid off. She earned a small fortune, possibly becoming one of the richest in the kingdom with over 6000 coins. With that much capital, she finally laid the foundation for her very own [shop](https://www.youtube.com/live/a940cWsshj4?si=btIhScSR8a7IJhij&t=11706)—her ultimate goal coming into view.\n\nEverything was going well. She was always doing her best... Yet there was a hint of melancholy. Despite her efforts, she wasn’t part of the shenanigans the others were caught up in. Fuwawa couldn't help but wonder—once her shop was finished, would anyone even come?\n\nStill, the fluffy one had to stay optimistic. Only by holding on to that hope could she bring smiles to others’ faces.\n\n[Journal Entry for Day 2](#embed:https://www.youtube.com/live/a940cWsshj4?si=FUlM9YlDNyFTYcRj&t=12627)\n",
+            "imageSrc": "images-opt/Fuwawa-Abyssgard_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#67b2ff"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mococo-abyssguard",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 325
+          },
+          "data": {
+            "title": "Mococo Abyssguard",
+            "content": "Mococo woke up and chose violence.\n\n[BAU BAU *slashes you quietly*](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=KgvW5CAB6m_1lqJW&t=577)\n\nIt was on-brand for her, so no one really batted an eye anymore—but it certainly set the tone for a lively day for the money-hungry doggo.\n\nEarly in the day, Mococo was given a tour of Bijou’s new [gacha business](https://www.youtube.com/live/xLWZay9gLBY?si=Wkgan2DawciAuI33&t=956), gifting her yet another perfect opportunity to throw her savings into games governed entirely by luck. She then joined the same jewel lady, along with Calli, Kiara, and Roa, to take on the [Star Site: Elpis Dungeon](https://www.youtube.com/live/xLWZay9gLBY?si=m3k-9BurPYq6EIT2&t=1878), where they successfully recovered the memories of a certain alcoholic lady named [IRyS](https://www.youtube.com/live/xLWZay9gLBY?si=3qhJPqxuHOK_tvwQ&t=3990).\n\nAfterward, the jeweler went off to mine in the newly opened mines, full of glittering resources just waiting to be claimed. As for Mococo—money, profits, gains—those were the [only things](https://www.youtube.com/live/xLWZay9gLBY?si=l5QVdYqULsj7TfAH&t=4993) that really mattered to her. Unlike her sister, who would do anything for others, Mococo would do anything for herself (and her boss’ store, Gacharm, of course... probably).\n\nThe contrast between the two sisters ran deeper than just ideology. While Fuwawa quietly spent the majority of her day working alone, Mococo was constantly surrounded by interaction. She called a random bystander [suspicious](https://www.youtube.com/live/xLWZay9gLBY?si=vAnIIU64NtB2I7xh&t=6183) for no reason, bartered and traded, and got help whenever something was beyond her means.\n\nSo, with so many pleasant encounters throughout the day, it made perfect sense that Mococo would journal in her diary... not about heartfelt moments or personal growth, but about how many sales she made and her ambitious plans for economic domination.\n\n[Deary diary...](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=SpQDxoENvcwy2x1_&t=12407)",
+            "imageSrc": "images-opt/Mococo-Abyssgard_list_thumb.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#f7a6ca"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 800
+          },
+          "data": {
+            "title": "Elizabeth Rose Bloodflame",
+            "content": "Elizabeth didn’t want to forget. With so many of her comrades having lost their memories due to the effects of time travel, even if they couldn't remember her, she at least wanted to remember them—for their sake, and for her own.\n\nIn the previous journey, fragments of past adventures would surface in Elizabeth’s mind as fleeting images, but now things were clearer. To preserve the memories of her journey, her feelings, she chose to commit them to paper.\n\n[Knight's log: 0001](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=F8vVFLc7Z6fvVmx5&t=141)\n\nJade Sword, knight of honor and chivalry—those were still the principles the red-clad knight held close. Even in a new land, under a different ruler, and surrounded by those who might have forgotten her, her sense of duty, her honor, and her role as one of the \"Shining Stars\" kept her moving forward.\n\nWith that resolve, she began her new day, signing her letter as the scarlet knight she was: Elizabeth ~~Romeo~~ Rose Bloodflame (see [Elizabeth-Nerissa: The Fumbler](#edge:elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2)).\n\nShe had two goals for the day: actually do her job as a smith, and tackle the Star Site: Elpis Dungeon. The former came easily—she jumped straight into upgrading her weapon, which turned out to be much simpler than she’d anticipated. The latter, though, presented a different challenge—not in difficulty, but in deciding who to enter the dungeon with.\n\nFortunately, that question was soon answered. While helping Nerissa upgrade her weapon, the songstress invited her—along with Cecilia and Fuwawa—to take on the dungeon together.\n\nIn the meantime, Elizabeth took on some quests—because, frankly, she was broke. During this, she shared a... let’s say *interesting* exchange with Cecilia. Friendly? Maybe. Quirky? Definitely. The lady in green was far weirder than Elizabeth remembered (see [Elizabeth-Cecilia: Are You Okay?](#edge:cecilia-immerkind-elizabeth-rose-bloodflame-left-0-right-1)).\n\nLater, the team entered the [dungeon](https://www.youtube.com/live/wnQuawM-3Jc?si=RswqYsQvMw0bMKm5&t=4650). It was packed with puzzles and demanded teamwork to succeed, but after many—*many many many*—falls, they finally triumphed over the boss and recovered IRyS’s [memories](https://www.youtube.com/live/wnQuawM-3Jc?si=zwOuOP18N9MN1rsA&t=7953).\n\nAfterward, Elizabeth resumed her smithing duties. And yet, despite all the effort, she somehow remained flat-out poor. So, a bit exhausted and more than a little defeated, she turned to what any righteous knight would do in their downtime: prank people.\n\n[*I will eat your eyes*](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=uwFsQZoNgN5PsqYa&t=9848)\n\nToward the end of the day, she joined Kiara and Shiori to explore the Stronghold of Ruin, capturing cinematic shots of the [stunning scenery](https://www.youtube.com/live/wnQuawM-3Jc?si=P3mmCuJ4ecTixSHu&t=13604)—a peaceful close to a long and eventful day.\n",
+            "imageSrc": "images-opt/Elizabeth-Rose-Bloodflame_list_thumb.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#d46759"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "takanashi-kiara",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 800
+          },
+          "data": {
+            "title": "Tanakisha Karia",
+            "content": "The job of a Lorekeeper was hard as Kiara and Mordan looked over the journals of our heroes but nonetheless rewarding. Some expressed concern but Kiara gave her honour as a Knight that their privacy will kept.\n\nAs Kiara began the side quest to set up her own shop, she calls her beloved (not related) cousin Immerkind and shared moments of kindness with her. Though for a moment they doubted their non-blooded relations but reaffirmed it as they out-kind one another with [flowers](https://youtu.be/R23_uw22SK0?t=2779).\n\nThe dungeon soon opened as Kiara would join The Gacharms group and Mordan. Puzzles. It surprised Kiara that stain spawned out of nowhere - this dungeon would prove trickier than the past for it challenges our Knights' intellect, teamwork, and might. But, tricky as it was, it did not matter for Kiara and her companions would face the last trial soon. One where they must fight The Stain King Elpis. The battle was fierce but their experience shines through, defeating Elpis without any [lives lost](https://youtu.be/R23_uw22SK0?t=5662) and recovering the Hot Pink One's history and Fia's memory.\n\nThey reported their findings to the Princess, and later Fia, and likewise received key information in turn.About the Outlander and The Outsider. A hero who defended the kingdom but at the cost of creating a greater evil. New areas are now available, piquing Kiara's interest. More materials to gather from and new dungeon to crawl. Another chance to grow stronger.\n\nIt was harder than expected, for as Kiara's spirit as a Knight remained steadfast, her enemies are eager to match her in strength. Bijou and Roa would recommend new charms to increase her stats.\n\nKiara would then show her experience as a business woman as she securing [great sales](https://youtu.be/R23_uw22SK0?t=7392) for her upgrade stones. She would gain more customers, and a more humble fortune, as her experience as a smithy grows, crafting better quality upgrade stones soon after. She too would act as a bodyguard for Mordan as the latter mined precious materials from the new Remnant.\n\nShortly before writing about adventures today, Kiara as the Lorekeeper would go over [Shiori's](https://youtu.be/R23_uw22SK0?t=14775) finding a small surprise at the end. Satisfied, she expects the next day to be a Legendary one.\n",
+            "imageSrc": "images-opt/Takanashi-Kiara_thumb.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#ff511c"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "peasant-da-bae",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 525
+          },
+          "data": {
+            "title": "Peasant Da Bae",
+            "content": "Bae couldn't help but gasped at the shops that now surrounded her; what was an empty lot was now the starting of small bustling town as everyone started to build their own shop. The former Princess Bijou from the The Gacharms Shop nearby greets Bae and after a pleasant conversation opens up the idea of possibly purchasing some of Bae's wares to be included in their gacha. \n\nInspired, Bae decides to set up her own - a Knickknack shop to sell items she had found whilst being poor to include a double service of sorts: with every purchase customers can get a free enhancement! With that in mind, Bae quickly used her construction box to gather mud, for it is the best suited material for a Peasant-owned shop, and Acacia leaves... Of which is vaguely familiar to The Bae. But it is not enough so, Bae sets out to gather more materials and perhaps gain more experience.\n\nA coward no more, Bae's understanding of her Revelation and her strength as a hero grows after each battle. Soon, she is astounded by the gold she now has. Perhaps, a hero's life is not a bad one. Though, soon she is overwhelmed and must retreat 'fore she dies.\n\nShe meets Nerissa, one of the chefs who opened a restaurant, and is intrigued by the food being sold. The best Potato Salad? Likewise, Bae advertised her own shop and hopefully there might be [more business](https://youtu.be/Tiq2wmF-NfQ?t=1125) between the two in the future.\n\nBae ponders about her business - how much lapis lazuli would she need to do a full enhancement? The answer escapes her as unfortunately, being poor left much of Bae's maths skills null but fortunately, the voices in her head helped her solve that she would need 64 lapis lazuli and even suggested a fitting name to the shop: [tHE dUMPSTER!](https://youtu.be/Tiq2wmF-NfQ?t=1764). The Peasant The Bae's tHE dUMPSTER: Where one man's trash is another's treasure!\n\nSoon after, she meets The Hot Pink One again and began boasting of her shop that will, one day, have things to sell and with it, a free enhancement. Afterwards, Bae seeks Bijou's advice about the emeralds she collected and ultimately managed to sell a stack (plus 5 extra) for 100 gold. Ina too later would be The Bae's first official customer as Bae would upgrade [~~scam~~](https://youtu.be/Tiq2wmF-NfQ?t=2714) Ina's pickaxe for 100 gold.\n\nWith newfound confidence, and more materials gathered for The Dumpster, and Bae began filling the empty lot bit by bit. To commemorate the event, she would name her beloved pickaxe and axe, PP and PA respectively, and then... buy more gacha for the [materials of course!](https://youtu.be/Tiq2wmF-NfQ?t=3602). No regrets were had, clearly.\n\nBut then, Bae remembers her goal: to recover their memories. With a steady breath, she makes amends with The Hot Pink One and joined her, the Consort, and Shiori to tackle the Elpis Dungeon where their teamwork and trust were put to the test. [Multiple times](https://youtu.be/Tiq2wmF-NfQ?t=6308). As Elpis Dragon falls before our heroes, The Hot Pink One remembers who she was. Soon after the quest is done, they reported back to the Princess and, then Fia, learnt that the Outlander is indeed a hero and is investigating the Stronghold of Ruins.\n\nNow that Bae has gotten stronger, so did the Stains, and at her current level - defeat is all to common. She goes on a series of quests, to improve her equipment, and at last [Bae The Peasant is now Bae The Peasant with GOLD!](https://youtu.be/Tiq2wmF-NfQ?t=9443). But, with a price as her beloved PP axe would be mistakenly traded off. Though it was quickly replaced.\n\nAnother thing was amiss, in Bae's staying true to her Peasant nature, Bae has unknowingly slighted Cecilia Immerkind. Never fear for in the end drinks were had with celebration, the hatchet was burried and the two made up - and perhaps, an [attraction](https://youtu.be/Tiq2wmF-NfQ?t=10425) has started. Though the moment was ruined by the Hot Pink One and the two once again had heated words.\n\nAccomplished and now rich, The Bae would write down in her journals, the words of Mother echoing in her thoughts, and finished the day.",
+            "imageSrc": "images-opt/Hakos-Baelz_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#ff675d"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "roa-pandora",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 325
+          },
+          "data": {
+            "title": "Roa Pandora",
+            "content": "The work of a CEO is never done as Roa, Not Rao or Raora, Pandora made it a point to start her days early to ensure that she and her employees are prepared for success. And truly, Pandora is proud of her employees as she marvels at newly constructed The Gacharms shop [Bijou built](https://youtu.be/i54lsw-XjDA?t=692) and the gacha system they implemented. \n\nPandora called Mordan Ramsay for a butter she needed for a quest and is quite pleased by the fair price. Later on, Mordan would advertise her tavern but a potato path would catch Pandora's eyes spies Nerissa's shop at the end. Recalling her shop has the best potato salad, Pandora inquires about it but then found herself caught between the two chefs trying to [out-chef](https://youtu.be/i54lsw-XjDA?t=4654) the other.\n\nSatisifed with the food, Pandora was compelled to give free samples, to both Mordan and Nerissa. Luckily, the voices in her head saved her and she realised  discounts and freebies would be the downfall of her business.\n\nAs she ventured out, Pandora noticed how her Revelation is stronger and would only get stronger from here on out. She would be put to the test as she, Mococo, Kiara, Bijou, and Mordan go forth to find their memories in the Elpis Dungeon. Confident at first, Pandora found the puzzles easy but perplexed as they got progressively harder. But the end is simpler for their last trial was the Stain King Elpis themselves! A fierce fight was had but Pandora and her group [clawed](https://youtu.be/i54lsw-XjDA?t=11045) victory from the dragon's jaws of defeat recovered some of their memories - and The Hot Pink One's history.\n\nThey reported back to the Princess, then Fia, and discovered key information: The Outlander protected Libestal but also triggered the birth of The Outsider. Newer areas to explore opened, more materials for the shops perhaps, and a Stronghold of Ruin to later explore.\n\nA good work done, Roa shares in the comradery with her fellow heroes as they drank in the castle, under a bridge, and a drink to celebrate Bijou's birthday. [Perhaps a bit too much to drink](https://youtu.be/i54lsw-XjDA?t=15299).\n\nAfter selling a few charms to Nerissa and Shiori, and ensuring her employees are settled, Pandora marvelled how far she's come and before writing down her profitable adventures and sales to end her day.",
+            "imageSrc": "images-opt/Raora-Panthera_list_thumb.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#f087a9"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mori-calliope",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 1000
+          },
+          "data": {
+            "title": "Mordan Ramsey",
+            "content": "",
+            "imageSrc": "images-opt/calli.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#c90d40"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "shiori-nyavella",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 800
+          },
+          "data": {
+            "title": "Shiori Nyavella",
+            "content": "Shiori woke up to the sight of her chickens disappearing, but she couldn’t figure out why.\n\n[Getting flashbacks](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=OLDYkPft4YvZnlw_&t=332)\n\nShe was such a tentative owner who just happened to keep a coop of chickens in a remote location so secret that not even the voices in her head could pinpoint it—just so she could carry out entirely non-suspicious activities. So why would something so cruel happen to her poor little chickens?\n\nStill, what’s gone is gone, and Shiori had other things to focus on. After all, she was running a business—ShiorinEats—delivering food to those in need at (not) very reasonable prices. It didn’t take long for her to make her first sales of the day to Peasant da Bae with a couple of loaves of [bread](https://www.youtube.com/live/4dgeXH5KKlI?si=77RXYlj7fMgVBGrw&t=1075), before joining her, along with Ina and the Hot Pink One, to take on the [Star Site: Elpis Dungeon](https://www.youtube.com/live/4dgeXH5KKlI?si=ms6YkOl_w5irfv65&t=1195)—the first of many. Upon completing it, the gang managed to recover the memories of the Hot Pink One, who turned out to be [IRyS](https://www.youtube.com/live/4dgeXH5KKlI?si=3wlfWnlh0MU4h_do&t=3808).\n\nWith that settled, Shiori returned to building her abode. But by now, her name had spread far and wide, and even if she was doing anything remotely normal, those around her remained [wary](https://www.youtube.com/live/4dgeXH5KKlI?si=jwnA-XIXNucAjI44&t=4991). Especially one she had previously tormented—mentally.\n\n[I'm just hanging out](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=LPtF6PiDQRb6_vti&t=6559)\n\nBut really, why would anyone be suspicious? She was just a humble delivery girl who maybe tried scamming a poor, broke knight with supposedly discounted [pork chops](https://www.youtube.com/live/4dgeXH5KKlI?si=SU4dNnWgXpyefwAL&t=7050). A girl who openly admitted to stirring up an [evil scheme](https://www.youtube.com/live/4dgeXH5KKlI?si=HuUPchNE8myBcl0m&t=7169). A girl who somehow talked her way into getting a 100-coin [discount](https://www.youtube.com/live/4dgeXH5KKlI?si=G5pZmSU5lSlsfHUC&t=8964). Totally normal behavior.\n\nAnyway, toward the end of the day, Shiori journaled her journey on Day 2—a day where she learned about the quirks of others and witnessed various curious events unfold.\n\n[Journal for Day 2](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=jWYO3t1b6Ki-kv-z&t=12609)\n\nShe also gave Gonathon beets, again, for completely [non-suspicious reasons](https://www.youtube.com/live/4dgeXH5KKlI?si=OFSnHhwRpTtRCLr_&t=13186).\n",
+            "imageSrc": "images-opt/Shiori-Novella_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#b8a0cd"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "cecilia-immerkind",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 325
+          },
+          "data": {
+            "title": "Cecilia Immerkind",
+            "content": "Cecilia Immerkind wanders about in a dream and meets Cecilia Immergreen who tells her that she must be the [kind one](https://www.youtube.com/live/48HSA_GcOZ0?si=BmXYwLW7t-EgDrVB&t=627). Cecilia wakes up inspired and immediately starts sharing flowers with others to spread kindness (see [Cecilia-Kiara: Marillenknödel and Roses](#edge:cecilia-immerkind-takanashi-kiara-left-3-top-3)).\n\nWhile wandering, Nerissa Juliet Ravencroft calls Cecilia and invites her to a group with Lady Bloodflame and Fuwawa to explore the Star Site: Elpis. The ever so kind Cecilia boosts the morale of the group by giving one free compliment to her fellow travelers.\n\n[Beautiful compliments](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=m0OdMzJIttFapJqP)\n\nThrough adversity, they complete daunting puzzles, hordes of stains, and arrive at the end of the dungeon. They valiantly slay the Stain King Elpis and retrieve the dreams of the Hot Pink One (Irys) and share an [emotional ending together](https://www.youtube.com/live/48HSA_GcOZ0?si=72AIHtOd67m6mOTT&t=6367).\n\nUpon returning to the castle, Cecilia is torn with how to [profess her feelings](https://www.youtube.com/watch?v=48HSA_GcOZ0&t=6610s) to the princess and seeks advice from Lady Bloodflame, Irys, and NinoIna. During this, Irys and NinoIna gather and banter while Irys seeks to recruit Cecilia to become their \"Above SC\" (see [Cecilia-Irys: Classists](#edge:cecilia-immerkind-hot-pink-one-right-2-right-1)). \n\nBae finds her way into the group and Cecilia confronts her and reconciles. This new group of Irys, Bijou, Roa, and Bae travel to the Remnants bridge to share a drink where new feelings start to develop (see [Bae-Cecilia: The Knight and The Hobo](#edge:cecilia-immerkind-peasant-da-bae-bottom-2-top-2)). The stress of feelings and the weight of the world were amplified by the drinks and left Immerkind emotionally vulnerable and seeking companionship.\n\nAfter sobering up with Nerissa's water and discussions with Iphania and Fia, the newly formed party between Cecilia, Shiori, and Lady Bloodflame [depart to the Stronghold Ruins](https://www.youtube.com/live/48HSA_GcOZ0?si=d7A8Eeu8Mggd-qH5&t=10381). Unfortunately, the Azure Screen of Death left Cecilia weak so she must part ways early to rest. \n\n[Restful sleep](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=T199bfN1vhes8XhF&t=10944)\n\n### Objective Tracker - Project Abortion\nNo progress\n\n### Fanart\n[Soul (Stream thumbnail) by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)\n\n[Her princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)",
+            "imageSrc": "images-opt/Cecilia-Immergreen_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#119a5c"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nerissa-ravencroft",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 1000
+          },
+          "data": {
+            "title": "Juliet/Nerissa Bloodflame",
+            "content": "Sometimes, career plans fall through, and cracks begin to form, revealing the grim outlook of the industry we've dedicated our craft to. Competition breeds cutthroat survival tactics, and it's clear that if we keep undercutting each other's prices like this, we'll never turn a profit!\n\nNerissa's cooking skills had surpassed many within Libestal, and she created nothing but impactful Gourmet cuisine from even the most simple of ingredients. She even built a charming Glowstone path to her establishment, so why was nobody coming?\n\n[First customer!](#embed:https://youtu.be/5sWjzbacGUY?t=3210s)\n\nThese downcast thoughts had to be shelved for now — Nerissa's current focus was on readying her arsenal before today's primary assignment. \"Are there even any Smiths online at the moment (see [Elizabeth-Nerissa: The Fumbler](#edge:elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2))\"\n\nIn the midst of trying to crash the butter market, Nerissa encountered a fellow struggling Chef. Recognizing the risks of remaining in their roles, they discussed the structures of other local job sectors, leading to an epiphany about disrupting Libestal's food commerce (see [Hot Pink One–Nerissa: Chef Union](#edge:hot-pink-one-nerissa-ravencroft-bottom-2-top-2)).\n\nOne upside to having a shop so close to the local Jewelers' stand is that you always happen to catch wind of their latest NDA schemes. Are they planning to [sell bad Charms](https://youtu.be/5sWjzbacGUY?t=7118s)?\n\nAs parties began rallying, the Nibs and Nobs saw a slight uptick in sales, however little revenue it accrued. Nerissa wasn't heavily concerned with profits at that moment, for blessings should be shared with [those you fight alongside](https://youtu.be/5sWjzbacGUY?t=8240s), free of charge!\n\nEnlightenment! Some of Nerissa's lost memories had descended, and she managed to remember fuzzy details about [her past in the future](https://youtu.be/5sWjzbacGUY?t=12122s)? Well, it didn't sound like she could recall her name among all that, what a shame.\n\n[Hello??? (concerned)](#embed:https://youtu.be/5sWjzbacGUY?t=13616s)\n\nWith newly-gained knowledge in cookery, Nerissa should've been happy to introduce more variety to her menu, if not for the fact that the new dishes are even more tedious to produce! At least the milkshakes were a charming bargaining chip, no [alcohol](https://youtu.be/5sWjzbacGUY?t=15658s) required.\n\n[Dear Lorekeeper,](#embed:https://youtu.be/5sWjzbacGUY?t=16246s)",
+            "imageSrc": "images-opt/Nerissa-Ravencroft_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#2233fb"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "koseki-bijou",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 525
+          },
+          "data": {
+            "title": "Koseki Bijou",
+            "content": "Between the two days, Bijou finished building the storefront of the Gacharms shop. She’d devised a system to randomize which charm would be dispensed—using letters to pick a random spot on the display board inside the store.\n\nBijou was among the first to wake up today, ahead of the dungeon’s grand opening. She spent most of that time gathering crafting materials, constructing the shop’s storage area, and knocking out side quests. All for good reason—she wouldn’t be able to stay around for long.\n\nHer hard work didn’t go unnoticed. Her boss, Roa, gave her something to take on her adventures in return: a little Beast Stain hat! [“A friend?! Wait… a friend?”](https://youtu.be/03m4uWAFfQg?t=4938) Somehow, this seemed oddly familiar to Bijou. Thinking about it made her head ache… but hey, it was friend-shaped. Roa said its name was Bob.\n\nHaving given a few folks a tour of her new shop, Bijou teamed up with Roa, Mococo, Kiara, and Gordon to take on the dungeon of the day—[Star Site: Elpis](https://www.youtube.com/live/03m4uWAFfQg?si=v8NPjzKF80d-iANM&t=7792). Upon its completion, the group recovered the memories of [IRyS](https://www.youtube.com/live/03m4uWAFfQg?si=dmDDeTDMq-8PzOVB&t=9908).\n\nApparently, her brother—the hot pink one, or IRyS now—was a goddess. An alcoholic one, at that. Coincidentally, they ran into each other just after Bijou’s group had finished their conquest. And the very next day would be the gem girl's birthday! Naturally, she reminded her brother the moment she got back from the dungeon. And what did she do? [Forgot](https://youtu.be/03m4uWAFfQg?t=11179). Some brother.\n\nLater, Bijou went back to stocking the shop with new items, working hard so she could ~~scam~~ make her boss proud—grinding, bartering, doing all the things a good employee would.\n\nAs the day came to a close, she joined her brother's group by the riverside to drink, both to cool down and to celebrate the upcoming occasion. Was Bijou of age? Who knows. But she had fun, and that’s what mattered.\n\n[Cheers, and Happy Birthday!](#embed:https://youtu.be/03m4uWAFfQg?t=14062)\n\nShortly after that gathering, Bijou got so drunk she nearly drowned in the river. Then she suddenly passed out and vanished, ending her day just like that.\n",
+            "imageSrc": "images-opt/Koseki-Bijou_list_thumb.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#6e5bf4"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "gonathon-g",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 1000
+          },
+          "data": {
+            "day": 0
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "hot-pink-one",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 800
+          },
+          "data": {
+            "title": "IRyS",
+            "content": "The Pink One had been a chef for one day—and in that one day, she worked her butt off, gathering materials and crafting the most delicious chocolate cakes imaginable, only for [not a single soul](https://www.youtube.com/live/axlJjQQ_rzU?si=Hk_cFQIe4t9Hkm8x&t=485) to bat an eye. It was, understandably, frustrating. Especially when her little brother was already employed by what looked like the kingdom’s biggest business chain, raking in coin by selling much-coveted goods through gacha.\n\n[Questionable business practice](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=b8NxQYC2U1P93sbS&t=784)\n\nShe tried confronting the store owner for \"corrupting\" her brother—not out of jealousy, of course—but the moment she realized the store sold items she needed, she folded on the spot (see [Hot Pink One–Roa: Pink Union](#edge:hot-pink-one-roa-pandora-left-1-top-3)).\n\nGiven how rough her situation was, she decided to potentially team up with another broke chef struggling to make sales (see [Hot Pink One–Nerissa: Chef Union](#edge:hot-pink-one-nerissa-ravencroft-bottom-2-top-2)).\n\nBack on track—today was a big day for the pink lady. A dungeon had opened, and this one *called* to her. Not because of its funny name, [Star Site: Elpis](https://www.youtube.com/live/axlJjQQ_rzU?si=kiT67P23j1CsC3Zx&t=3512), but because of the secrets it promised to unveil.\n\nShe joined forces with Shiori, Ina, and Da Bae. The dungeon, floating far above the world, was themed around Angels and Devils. It challenged them with puzzles that required cooperation at opposite ends. Many... *descents* happened, testing the patience of our heroes—mostly due to the pink one’s inability to tell left from right. After navigating three puzzles, they faced the two-headed dragon: Stain King Elpis. But with the combined strength of the four, they emerged victorious.\n\nAnd then, the pink one finally remembered who she was.\n\n[One that brings Hope](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=0Hi16X4sdeWI_MnW&t=6194)\n\nShe wasn’t just a struggling chef trying to sell chocolate cakes—she was IRyS, the Nephilim born of war between Angels and Demons. With her voice, she united both factions, a being people called “a goddess”—albeit an alcoholic one.\n\nThough the revelation was profound, she didn’t change all that much. Maybe she had always been this way.\n\nTo celebrate the occasion, she joined Immerkind and the others for a drinking party by the creek, where IRyS’s commentary made many question her divine status (see [Immerkind–IRyS: Classists](#edge:cecilia-immerkind-hot-pink-one-right-2-right-1)).\n\nBrimming with empathy and goodwill, the pink one later lent a hand to her somewhat close friend Tammy, helping her through the same dungeon (see [Tam–IRyS: Sapphire and Lappie](#edge:hot-pink-one-tam-gandr-right-2-left-2)).\n",
+            "imageSrc": "images-opt/IRyS_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alcoholic",
+            "day": 1,
+            "bgCardColor": "#e10e5b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 525
+          },
+          "data": {
+            "title": "Nino Ina / The Hot Purple One",
+            "content": "Awakening from slumber, the Hero browsed the shops for breakfast, but found no food that rivaled her flattering consort's cooking.\n\nIll-suited for business talk this early in the day, NinoIna spent little time in the Jewelers' new Charms shop. She found comfort in her personal space, putting her focus on completing daily obligations and culling the relentless hordes of Stains (and cows).\n\nAfter a period of preparation, NinoIna accepted Shiori's request to reunite their brief adventure party. She formed a team to investigate the first crash site alongside two other Shining Stars: the Hero's eternal consort and the gear-Enchanting Peasant.\n\nStar Site: Elpis was designed to deter explorers like them. NinoIna and her betrothed, though forced apart, stood atop contrasting arenas, guiding each other through the mystical mazes of the stronghold. The Hero did what she knew best to aid her allies, using her trained strength to protect them from the Stain King's malice.\n\n[\"My queen, my goddess!\"](#embed:https://youtu.be/NSOuyMjCxPI?t=7102s)\n\nLearning of her consort's drinking patterns did not waver NinoIna's affection for her, nor the patronage of her baked goods. Wait, did they sign a prenup back in the previous world?\n\nThe victory over Stain King Elpis granted NinoIna's party a renewed fighting spirit, and the limits of their potential expanded. With greater expectations though come greater risk; thus, an excursion to procure a new gem led to [the Hero's first defeat](https://youtu.be/NSOuyMjCxPI?t=7920s) in Ancient Libestan history.\n\n[\"Mother always liked you better...\"](#embed:https://youtu.be/NSOuyMjCxPI?t=8451s)\n\nHaving overcome many trials, NinoIna painstakingly crafted a special wedding charm for her consort, in the image of the Hero's [big red heart](https://youtu.be/NSOuyMjCxPI?t=9590s). Cecilia Immerkind yearned for the closeness they shared with each other, so of course, HPO-Squared offered her a trial period as their \"Above SC\" (Super cute? Super CC?), and she was already cashing in on the therapy benefits.\n\n[Day 2. MEOWMEOW](#embed:https://youtu.be/NSOuyMjCxPI?t=10071s)",
+            "imageSrc": "images-opt/ina.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#4c3f5a"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "tam-gandr",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 525
+          },
+          "data": {
+            "title": "Tam Gandr",
+            "content": "Tam joined in late, already resigned to her fate. Alone, lonely, all lonesome—no one to go with her, no one to help, no one by her side. She would have to do everything herself: the dungeon, which *required* multiple people? She'd brave it solo. It was fine. It was her fate—to be alone, to never have company, to suffer for all eterni— Oh, never mind. \n\nPinky was here (see [Tam–IRyS: Sapphire and Sappie](#edge:hot-pink-one-tam-gandr-right-2-left-2)).\n",
+            "imageSrc": "images-opt/Ouro-Kronii_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#6879c7"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "princess-iphania",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 50
+          },
+          "data": {
+            "title": "Princess Iphania",
+            "content": "Having received uplifting news from the heroes about their successful conquest of the first Star Site and the recovery of fragmented memories, the princess held high hopes that they might be able to prevent what loomed ahead: the Ruination.\n\nWith renewed faith, she tasked the heroes with investigating the next Star Site, hidden deep within the Fallen Lands Stronghold, where traces of the Ruination had been detected by the Outlander.\n\n[First steps completed](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=NMPjiwmImedgxhEN&t=8564)",
+            "imageSrc": "/images-opt/iphania.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#dea677"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "fia",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 50
+          },
+          "data": {
+            "title": "Fia",
+            "content": "Having recovered fragments of their lost memories from the Star Site: Elpis, Fia began to piece together part of the story surrounding the Outsider. Things weren’t as straightforward as they had once believed.\n\nApparently, in saving the Kingdom of Libestal from calamity, the nameless hero had somehow caused the birth of the Outsider. It didn’t add up—and for the truth to come to light, the heroes would need to uncover the rest of the missing pieces.\n\n[Conflicting Logic](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=xOEGDFaE3UrQyFHt&t=9209)",
+            "imageSrc": "/images-opt/fia.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 1,
+            "bgCardColor": "#2b353b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "hot-pink-one-peasant-da-bae-top-2-bottom-2",
+          "source": "hot-pink-one",
+          "target": "peasant-da-bae",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e31cd2"
+          },
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "Two Steps Forward, One Drunk Leap Off The Cliff",
+            "content": "A new day begins but once again Peasant The Bae finds herself in another banter with the Hot Pink One. Small quips about the other's profession to the pink one briefly interrerupting Bae's commission for the Hot Purple One. But perhaps, they got on the wrong foot. Bae would make [ammends](https://youtu.be/Tiq2wmF-NfQ?t=3779) and see if both of them could work together in the new dungeon. The Hot Pink One too would confess to Bae that she may change jobs in the future.\n\nThere were some [missteps](https://youtu.be/Tiq2wmF-NfQ?t=5125) on the way but ultimately, with surprsing teamwork between them (and others) the dungeon was conquered! And their relationship mended and well.\n\n... Until the Hot Pink One relapsed and Bae herself was too poor to experience being drunk. Perhaps it was also due to Cecilia Immerkind falling for the now richer Peasant that the Hot Pink One would wrongly call Bae 'of the Hobo class' that caued [another spat](https://youtu.be/Tiq2wmF-NfQ?t=10523).",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one-hot-pink-one-right-2-left-2",
+          "source": "nino-ina-the-hot-purple-one",
+          "target": "hot-pink-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff7ae2"
+          },
+          "data": {
+            "relationshipId": "marriage",
+            "title": "Married, again",
+            "content": "Hot Pink was lucky to have Hot Purple.\n\nHot Purple bought her gifts. Hot Purple showed her love and care. Hot Purple was dependable. Hot Purple gave everything. Meanwhile, Hot Pink… well, she was just on the receiving end—but that didn’t matter. They were in love.\n\nThe two had already been married once, and now? They were getting re-married, because why not. One was the brother of Koseki Bijou, the other was the sister of Koseki Bijou, so the two tying the knot again was... well, one important detail: they weren’t blood-related, so it’s [totally fine](https://www.youtube.com/live/axlJjQQ_rzU?si=Fgy4X9B4QkwIu_R2&t=7200).\n\nTo seal their eternal bond, the purple one gave her consort a gift—a ring, something like a wedding ring—and then immediately tried to rope in a third party for their SC circle.\n\n[Big Red Heart](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=YRqwTsxYNFe09ozc&t=8622)",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": -0.06832114598218553,
+              "VL": 147,
+              "HC": 0,
+              "VR": -47,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2",
+          "source": "elizabeth-rose-bloodflame",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "The Fumbler",
+            "content": "Elizabeth had earned herself a brand new title today—**the Fumbler**—all thanks to a string of thoroughly embarrassing interactions with the ever-composed blue maiden, Nerissa. It was almost comedic, the sheer consistency with which the red knight managed to fumble the bag. No self-respecting *Romeo* would’ve ever acted like *that* (see Elizabeth).\n\nIt all began when Nerissa reached out first—just a casual, friendly call from one companion to another. But what did Elizabeth say? Nothing. She was so flustered she couldn’t even form a sentence. The situation was so dire, so awkward, that Nerissa had to resort to the psychic route and communicate *directly into her mind*. That’s not romantic. That’s *tragic*.\n\n[I have a mouth and I must scream](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=OdzATm030ekRJ4KZ&t=627)\n\nThen, to make matters worse, Nerissa opened up—shared her struggles trying to sell her homemade potato salad, clearly putting her heart on the line with this business pitch. She even offered Elizabeth a discount, a sweet gesture from a struggling chef to her friend. And Elizabeth? She couldn’t afford a single thing. Not even at a discount. [*Broke.*](https://www.youtube.com/live/wnQuawM-3Jc?si=IGTI21nWiEMonaNo&t=1476)\n\nAnd just when the blue one *finally* started to piece things together—recognizing Elizabeth from the fragments of their past—the red knight, in all her awkward glory, said... almost nothing. Just a few \"What do you remember?,\" and off to somewhere else she went. Girl, you were *devastated* when you realized the bird lady had forgotten you, and now that she remembers? [*Nothing?*](https://www.youtube.com/live/wnQuawM-3Jc?si=rZrI8isM6Zm8ZSzh&t=8191)\n\nFumbling is one thing. But this was an Olympic-level performance.\n\nStill, despite it all, there was something hopeful in the air. Their chemistry, their banter—it hadn’t vanished. The spark was still there, buried under all the missed opportunities and awkward pauses. Sooner or later, they’ll get back to where they were. Probably. Hopefully.\n\n[*I will eat your soul*](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=sFtbzq1H7HIFxZeg&t=9752)\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": 122.28805852974503,
+              "HC": 0,
+              "VR": -70.5799378350682,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-tam-gandr-right-2-left-2",
+          "source": "hot-pink-one",
+          "target": "tam-gandr",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "Sapphire and Lappie",
+            "content": "Tam—sorry, *Tammy*—had just asked the pink one for help, and already the flirting had begun. *Pinky Pie?* Really? Just because they were the only two people awake in the kingdom at the time didn’t mean they had to be so [*public*](https://www.youtube.com/live/k9ZejRHvNV0?si=5oTVa93vxXbkNRNy&t=719) about it.\n\nThe two ventured together into the Star Site: Elpis (after spending a good chunk of time talking about the most random topics imaginable). With Pinky already having cleared the dungeon, she was able to guide Tammy all the way to the end—though not without throwing in eyebrow-raising comments every chance she got. Then came the moment Tammy recovered her [memories](https://www.youtube.com/live/k9ZejRHvNV0?si=dDevj4c-e0YI9T3z&t=4099)—memories of the woman she supposedly had a crush on—and of course, she immediately teased her about it.\n\n[Kneel before your queen!](#embed:https://www.youtube.com/live/k9ZejRHvNV0?si=pzBa-P_zI6inew3v&t=4306)\n\nThe flirty duo later attempted to give each other [nicknames](https://www.youtube.com/live/k9ZejRHvNV0?si=bugka1vug9q7A9yD&t=5020), as if “Tammy” and “Pinky” weren’t already embarrassing enough. Eventually, they landed on “Sapphire” for the blue one and “Sappie” for the pink one.\n\nWere they in love? Well... at least one of them was. As for the pink one, she was—how do we put this—just *weird*. And somehow, Tam found herself head over heels for this eccentric woman who may or may not have a severe case of schizophrenia. But hey, love rarely makes sense.\n\nLater, the two settled down in the library to document their journey. Tam wrote in her journal—[six pages](https://www.youtube.com/live/k9ZejRHvNV0?si=3AKlEPdidPRmd0_z&t=9419), short and concise—about her day with the pink one: the help she received, the quirky antics, the enchanting voice that sang “Lava Chicken,” and the bittersweet feelings she held for someone who was technically already married.\n\nMeanwhile, on the other end of the table... [14 pages](https://www.youtube.com/live/axlJjQQ_rzU?si=0Q2ZcIVH52OhsBcQ&t=26063). A detailed rundown of financial woes, drunken escapades, plans to fatten a cat into a perfectly round loaf, chocolate cakes, egg hunts, chicken scouting—oh, and *one single page* about Tam. \n\nThey ended their day in true chaotic fashion by bullying a fat, talking cat. Naturally.\n\n[Fat fyuck](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=cGMqUeUDJA2qA5lz&t=27623)\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": 46.43668624455228,
+              "HC": 0,
+              "VR": -72.93790429825569,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "mori-calliope-gonathon-g-bottom-1-bottom-3",
+          "source": "mori-calliope",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff7b00",
+            "strokeDasharray": ""
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-peasant-da-bae-bottom-2-top-2",
+          "source": "cecilia-immerkind",
+          "target": "peasant-da-bae",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e30d0d"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-shiori-nyavella-top-2-bottom-1",
+          "source": "gonathon-g",
+          "target": "shiori-nyavella",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "tam-gandr-gonathon-g-right-2-bottom-1",
+          "source": "tam-gandr",
+          "target": "gonathon-g",
+          "sourceHandle": "right-2",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff7b00",
+            "strokeDasharray": ""
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-princess-iphania-top-2-bottom-2",
+          "source": "cecilia-immerkind",
+          "target": "princess-iphania",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#06a84b"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-hot-pink-one-right-2-right-1",
+          "source": "cecilia-immerkind",
+          "target": "hot-pink-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "relationshipId": "business",
+            "title": "Classists",
+            "content": "Miss Kindest of Kind, Immerkind, was indeed a very kind woman—and also a world-class enabler. Upon learning about IRyS’s growing [alcohol problem](https://www.youtube.com/live/axlJjQQ_rzU?si=pUq6lA_E5OP_5Hkn&t=8066) and how her wife had supposedly put her on a path to rehabilitation, Immerkind, in her infinite wisdom as the pink one’s bestest of friends, made the most *reasonable* decision: invite her to a drinking party by the creek.\n\nThe gathering went just about as you'd expect. Five girls—Bae, Bijou, Roa, Cecilia, and IRyS—each hailing from vastly different corners of society, sat around tipsy and chattering about vital topics such as classism and narcolepsy. You know, typical girl talk.\n\n[Differences in classes](#embed:ttps://www.youtube.com/live/axlJjQQ_rzU?si=f-5Cd4a3zXmdMpX9&t=9651)\n\nAs time passed and the bottles emptied, the group began to disperse, until only Roa and the two besties remained—completely and utterly drunk.\n\nAt this point, Roa, with the full confidence of someone ten drinks deep, decided to walk on water. Like Jesus Christ, if Jesus were a furry.\n\nAnd, as with the Son of Man himself, the world just wasn’t ready. The two besties—green and pink—banished her on the spot. Immerkind claimed Roa was far too dangerous to remain. As for IRyS? Her reasoning was… well, *questionable* at best.\n\n[That's a yikes for me, boss](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=fyqwpYA7HUIavSRU&t=10084)\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": 21.5,
+              "HC": 0,
+              "VR": 21.5,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "koseki-bijou-nino-ina-the-hot-purple-one-right-2-left-2",
+          "source": "koseki-bijou",
+          "target": "nino-ina-the-hot-purple-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-mori-calliope-right-3-left-1",
+          "source": "hot-pink-one",
+          "target": "mori-calliope",
+          "sourceHandle": "right-3",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-koseki-bijou-bottom-1-top-3",
+          "source": "cecilia-immerkind",
+          "target": "koseki-bijou",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#06a84b"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-gonathon-g-bottom-1-top-3",
+          "source": "hot-pink-one",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-gonathon-g-left-2-right-3",
+          "source": "cecilia-immerkind",
+          "target": "gonathon-g",
+          "sourceHandle": "left-2",
+          "targetHandle": "right-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff7b00",
+            "strokeDasharray": ""
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-takanashi-kiara-left-3-top-3",
+          "source": "cecilia-immerkind",
+          "target": "takanashi-kiara",
+          "sourceHandle": "left-3",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "relationshipId": "business",
+            "title": "Marillenknödel and Roses",
+            "content": "Upon arriving to the world, Cecilia gives Karia a flower and tells a joke about being [cousin zweiten grades meiner Mutter, dessen Vater, dessen Tochter, dessen Sohn](https://www.youtube.com/watch?v=48HSA_GcOZ0&t=1204s).\n\nKaria asks Cecilia whether she has had marillenknödel and Cecilia states that she never had sweet knödel. Immerkind notes that their ancestry may be from distant lands ... so she proposes to have a [knödel party](https://www.youtube.com/watch?v=48HSA_GcOZ0&t=734s) to train in the art of making different knödel.\n\nKaria returns and gives Cecilia a bouquet of [roses where they share a sniff](https://www.youtube.com/live/48HSA_GcOZ0?si=sq2yFL6C3s6Xtlga&t=1440) on the top of the gryphon roost.\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": -73.1262473168744,
+              "HC": -128.84148336782633,
+              "VR": 119.26542717156897,
+              "HR": -72.25569675357828
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-koseki-bijou-top-1-bottom-3",
+          "source": "hot-pink-one",
+          "target": "koseki-bijou",
+          "sourceHandle": "top-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-roa-pandora-left-1-top-3",
+          "source": "hot-pink-one",
+          "target": "roa-pandora",
+          "sourceHandle": "left-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "relationshipId": "business",
+            "title": "Pink Union",
+            "content": "IRyS was not pleased. Her cakes weren’t selling, it never sold to be begin with—and to make things worse, her brother had found employment under what seemed like a shady enterprise, one possibly built on the backs of child labor. Of course, her outrage had *nothing* to do with jealousy. Not at all. Absolutely not. She just needed to have a stern, civil, and totally not passive-aggressive word with the owner of this “Gacharm” business.\n\n[How dar- Ohh, shinyyy](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=rMRISc9C7Z-8ehKp&t=1241)\n\nBut then she saw the goods being sold. Gacha, but make it *actually* good? The pink one folded immediately. Her “cheapest cake in town” couldn’t even compete with this well-oiled, sparkly gambling machine. It was a blow to her pride, and her wallet.\n\nFast forward a bit, and somehow—after a drunken riverside celebration—two pink ladies found themselves welcoming a certain pink dog into their fold. A dog who just happened to be jogging by, and got swept up into their nonsense. And thus, the \"Pink Union\" was born.\n\nDon’t ask how. It just happened.\n\n[Code RGB(255, 192, 203)](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=djInF_uRZINXSskz&t=10660)\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": -24.781179158344735,
+              "HC": 301.72100791010854,
+              "VR": -4.440892098500626e-15,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-nyavella-mori-calliope-bottom-2-top-2",
+          "source": "shiori-nyavella",
+          "target": "mori-calliope",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "relationshipId": "business",
+            "title": "Please leave me alone",
+            "content": "What happens when an unstoppable force meets… a very movable object?\n\nYou could use that analogy to perfectly describe the case of Shiori tormenting the poor soul that is the tavern owner, Mordon Ramsay. Anyone else who had tried to interfere with her business before had been swiftly dealt with—be it through threats, raised rent, or any number of shady tactics. But Shiori? The Oreo lady just went and set up shop right in front of Mordon’s tavern—and the poor pink owner couldn’t do [a thing](https://www.youtube.com/live/wu7g7fNsXYk?si=EageWjwN4WxKqQAs&t=1226) about it.\n\nOnce that one sets her sights on something? Good luck.\n\n[Why is she like this](#embed:https://www.youtube.com/live/wu7g7fNsXYk?si=gqlY8ivGqTBdATtz&t=12241)\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-nerissa-ravencroft-bottom-2-top-2",
+          "source": "hot-pink-one",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "relationshipId": "business",
+            "title": "Chef Union",
+            "content": "Two chefs, two very different backgrounds—but the same tragic outcome: not a single sale to their names. Dozens of chocolate cakes and vats of potato salad made with love and desperation, only to end up in the trash instead of anyone’s stomach. The kingdom’s economy was ruthless, and it hit the culinary world the hardest.\n\nIf the world wouldn’t buy from them individually, maybe it would listen to a united front.\n\nAnd so, the seeds of a chef union were sown—an alliance forged in flour, tears, and fiscal despair. A movement not just to make money, but to prove that their food *deserved* to be eaten.\n\n[We have to cook](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=HHjSbRqzfwuoRibP&t=1842)\n",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-elizabeth-rose-bloodflame-left-1-right-1",
+          "source": "cecilia-immerkind",
+          "target": "elizabeth-rose-bloodflame",
+          "sourceHandle": "left-1",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e31cd2"
+          },
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "Are you okay?",
+            "content": "The green one Elizabeth had once known was smart, composed, and reserved. But the one now? A completely different story. Immerkind... what kind of \"kind\" are we even talking about here? Would a truly kind person be sniffing around the ruler of the kingdom’s bed? Love their cousins in... [questionable ways](https://www.youtube.com/live/wnQuawM-3Jc?si=CHriNMsPTDxnzLRI&t=3384)? Randomly call Elizabeth a “good girl” and then launch into an impromptu lecture on classism? Yeah—this one’s definitely the weird kind.\n\n[*Good girl~*](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=FUb4Y6R2hdczJZjZ&t=9057)",
+            "pathType": "custom",
+            "day": 1,
+            "offsets": {
+              "HL": 0,
+              "VL": -123.77378318400802,
+              "HC": 0,
+              "VR": 70.54842914173489,
               "HR": 0
             }
           },

@@ -16,7 +16,7 @@ import { EditorImageNodeType, TeamMap } from "@/lib/type";
 import MDEditor from "@uiw/react-md-editor";
 import { extractColors } from "extract-colors";
 import { produce, WritableDraft } from "immer";
-import { LucideX } from "lucide-react";
+import { Copy, LucideX } from "lucide-react";
 import { useRef, useState } from "react";
 import slug from "slug";
 
@@ -125,12 +125,15 @@ export default function EditorNodeCard({
                 <Separator className="mt-2" />
             </div>
 
-            <Button type="button" 
+            <Button
+                type="button"
                 className="flex flex-row content-center"
                 onClick={() => {
-                    if(titleElem.current) {
+                    if (titleElem.current) {
                         setWorkingNodeAttr((draft) => {
-                            draft.id = generateIdFromTitle(titleElem.current?.value || "");
+                            draft.id = generateIdFromTitle(
+                                titleElem.current?.value || "",
+                            );
                         });
                     }
                 }}
@@ -145,18 +148,27 @@ export default function EditorNodeCard({
                 >
                     Id
                 </Label>
-                <Input
-                    type="text"
-                    id="node-id"
-                    name="id"
-                    value={workingNode.id || selectedNode.id}
-                    onChange={(event) => {
-                        setWorkingNodeAttr((draft) => {
-                            draft.id = event.target.value;
-                        });
-                    }}
-                    maxLength={MAX_ID_LENGTH}
-                />
+                <div className="flex gap-2">
+                    <Input
+                        type="text"
+                        id="node-id"
+                        name="id"
+                        value={workingNode.id || selectedNode.id}
+                        onChange={(event) => {
+                            setWorkingNodeAttr((draft) => {
+                                draft.id = event.target.value;
+                            });
+                        }}
+                        maxLength={MAX_ID_LENGTH}
+                    />
+                    <Copy
+                        size={20}
+                        className="cursor-pointer"
+                        onClick={() =>
+                            navigator.clipboard.writeText(workingNode.id)
+                        }
+                    ></Copy>
+                </div>
 
                 <Label
                     htmlFor="node-title"
