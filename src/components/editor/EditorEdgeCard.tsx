@@ -14,7 +14,7 @@ import { CustomEdgeType, RelationshipMap } from "@/lib/type";
 import MDEditor from "@uiw/react-md-editor";
 
 import { produce, WritableDraft } from "immer";
-import { LucideX } from "lucide-react";
+import { Copy, LucideX } from "lucide-react";
 import { useState } from "react";
 
 interface EditorEdgeCard {
@@ -71,7 +71,18 @@ const EdgeEditorCard = ({
 
             <div className="grid grid-cols-[1fr_4fr] gap-2 w-full">
                 <Label className="text-right text-lg self-center">Id</Label>
-                <span className="text-md self-center">{workingEdge.id}</span>
+                <div className="flex gap-2">
+                    <span className="text-md self-center">
+                        {workingEdge.id}
+                    </span>
+                    <Copy
+                        size={20}
+                        className="cursor-pointer"
+                        onClick={() =>
+                            navigator.clipboard.writeText(workingEdge.id)
+                        }
+                    />
+                </div>
 
                 <Label
                     htmlFor="edge-relationship"
