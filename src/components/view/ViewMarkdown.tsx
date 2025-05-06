@@ -135,7 +135,7 @@ function addTeamIcons() {
         visit(tree, elementFilter, (node, _index, parent) => {
             const textNode = node as Text;
             const parts = textNode.value.split(
-                /(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword|Chef|Jeweler|Smith|Supplier)/g,
+                /\b(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword|Chef|Jeweler|Smith|Supplier)\b/g,
             );
 
             const newChildren: ElementContent[] = parts.map((part) => {
