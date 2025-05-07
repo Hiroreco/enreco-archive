@@ -689,32 +689,6 @@
           "selected": false
         },
         {
-          "id": "hot-pink-one-mori-calliope-right-3-left-1",
-          "source": "hot-pink-one",
-          "target": "mori-calliope",
-          "sourceHandle": "right-3",
-          "targetHandle": "left-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "relationshipId": "business",
-            "title": "",
-            "content": "",
-            "pathType": "custom",
-            "day": 0,
-            "offsets": {
-              "HL": 0,
-              "VL": 44.744558912022015,
-              "HC": 0,
-              "VR": -73.91089825146395,
-              "HR": 0
-            }
-          },
-          "selected": false
-        },
-        {
           "id": "cecilia-immerkind-koseki-bijou-bottom-1-top-3",
           "source": "cecilia-immerkind",
           "target": "koseki-bijou",
@@ -1371,7 +1345,7 @@
             "stroke": "#e30d0d"
           },
           "data": {
-            "relationshipId": "enemy",
+            "relationshipId": "romantic",
             "title": "The Knight and the Hobo",
             "content": "Cecilia confronts Peasant da Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). Bae realizes her words were misinterpreted, clears up the misunderstanding and joins Cecilia, Roa, Bijou, and Irys to have a social drink by the creek.\n\nBae takes Cecilia aside in order to repay the debt and apologize. Bae was on the cusp and the 80 gold filled her heart with such raw emotions.\n\nThey share a moment in order to clear up the air and they real they are living the [Libestal Dream](https://www.youtube.com/live/48HSA_GcOZ0?si=AKtCcxs7EHWwCYqx&t=8523).\n\nAfter they forgive one another, Cecilia may have started to develop feelings for Bae after all the emotional build up.\n\n[My Knight has fallen for a hobo - Princess Bijou](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=d2Mbzm51EdkUrsTH&t=8617)",
             "pathType": "custom",
@@ -1409,8 +1383,7 @@
           "targetHandle": "bottom-1",
           "type": "fixed",
           "style": {
-            "stroke": "#ff7b00",
-            "strokeDasharray": ""
+            "stroke": "#c67b8e"
           },
           "data": {
             "day": 0
@@ -1467,21 +1440,6 @@
           "type": "fixed",
           "style": {
             "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-mori-calliope-right-3-left-1",
-          "source": "hot-pink-one",
-          "target": "mori-calliope",
-          "sourceHandle": "right-3",
-          "targetHandle": "left-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
           },
           "data": {
             "day": 0
@@ -2311,21 +2269,6 @@
           "type": "fixed",
           "style": {
             "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-mori-calliope-right-3-left-1",
-          "source": "hot-pink-one",
-          "target": "mori-calliope",
-          "sourceHandle": "right-3",
-          "targetHandle": "left-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
           },
           "data": {
             "day": 0
