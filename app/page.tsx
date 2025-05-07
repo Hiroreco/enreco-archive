@@ -4,7 +4,7 @@ import { ReactFlowProvider } from "@xyflow/react";
 import { Metadata, Viewport } from "next";
 import PreloadResources from "./preload-resources";
 
-const USE_EDITOR = true;
+const USE_EDITOR = false;
 const inDevEnvironment = !!process && process.env.NODE_ENV === "development";
 
 export const metadata: Metadata = {
