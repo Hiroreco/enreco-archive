@@ -3,6 +3,7 @@
 }
 
 .custom-edge {
+    stroke-linecap: round;
     stroke-width: 5px;
 }
 
