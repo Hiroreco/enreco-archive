@@ -151,6 +151,7 @@ export async function exportData(editorChapters: EditorChapter[]) {
                 const resultNode: ImageNodeType = {
                     ...node,
                     type: "image",
+                    selected: false,
                     data: {
                         title: node.data.title,
                         content: node.data.content,
@@ -169,6 +170,7 @@ export async function exportData(editorChapters: EditorChapter[]) {
                 const resultEdge: FixedEdgeType = {
                     ...edge,
                     type: "fixed",
+                    selected: false,
                     data: {
                         relationshipId: edge.data!.relationshipId,
                         title: edge.data!.title,
