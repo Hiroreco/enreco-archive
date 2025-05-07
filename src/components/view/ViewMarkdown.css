@@ -2,6 +2,10 @@
     margin-bottom: 1.5rem;
 }
 
+.markdown li > p {
+    display: inline;
+}
+
 .amber-coin::after {
     display: inline-block;
     background-image: url("/images-opt/ambercoin.webp");
