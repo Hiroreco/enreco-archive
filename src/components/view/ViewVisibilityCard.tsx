@@ -18,6 +18,7 @@ interface Props {
     onCharacterVisibilityChange: (
         newCharacterVisibility: StringToBooleanObjectMap,
     ) => void;
+    chapter: number;
     chapterData: Chapter;
     nodes: ImageNodeType[];
 }
@@ -29,6 +30,7 @@ const ViewVisibilityCard = ({
     onTeamVisibilityChange,
     characterVisibility,
     onCharacterVisibilityChange,
+    chapter,
     chapterData,
     nodes,
 }: Props) => {
@@ -126,11 +128,11 @@ const ViewVisibilityCard = ({
                 {/* Teams */}
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between items-center">
-                        <span className="font-bold">Team Toggles</span>
+                        <span className="font-bold">{chapter === 1 ? "Job Toggles" : "Team Toggles"}</span>
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="team-all">
-                            <span>Show all teams</span>
+                            <span>{chapter === 1 ? "Show all jobs" : "Show all teams"}</span>
                         </Label>
 
                         <Checkbox
