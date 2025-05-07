@@ -1,9 +1,9 @@
 {
-  "numberOfDays": 3,
+  "numberOfDays": 4,
   "title": "The Chains of Fate",
   "charts": [
     {
-      "dayRecap": "## Day 1: The Chains of Employment\nThe kingdom of Libestal has returned—but something is… off. Our heroes have traveled back in time?! As if the whole “the King was evil and the old kingdom was a fabricated illusion” twist wasn’t enough, now we’ve got *time travel* thrown into the mix. But alright, maybe it’s not so bad, they just need t—oh, they’ve also lost their memories. Again???\n\nForget the bonds, the connections, the whole history they’d built up—our heroes now begin anew. A new kingdom, new lives, even new identities. But one thing hasn’t changed: their mission to recover their shattered memories and, somehow, save the world—no, the *universe*—from calamity. The King, now known as the Outsider, still seeks its end.\n\nThe (new? old?) kingdom of Libestal also brings new systems for the heroes to learn. Guilds are gone, replaced by *Jobs*, and each hero is free to choose the path they wish to walk:\n\n* **The Smith:** Crafts upgrade stones used to enhance Revelation Weapons.\n* **The Jeweler:** Crafts charms that boost health and defense.\n* **The Chef:** Cooks meals that grant adventuring buffs.\n* **The Supplier:** Enchants tools, improving resource gathering.\n\n![The job selection area](/images-opt/jobs.webp)\n\nThe kingdom itself has undergone a makeover too. With a strong wooden motif, it carries a distinctly medieval vibe. No tyrannical King this time—replacing him is Princess Iphania, the current ruler. Alongside her is a mysterious talking cat named Fia, who manages a place known as the *Library*.\n\nThe Library holds the memories of everything, and it's now tended by lorekeepers Calli and Kiara, who work with Fia to archive the new stories our heroes will forge. At the end of each day, everyone is expected to write a diary entry of their journey and submit it to the Library.\n\n![The Library with Fia](/images-opt/library.webp)\n\nHow will any of this help save the universe? Who knows. But it's only Day 1—the start of a new adventure, a chance to forge new bonds and rediscover old ones. Forget world-saving for now. First, our heroes need to get a grip on their new lives and roles… because before anything else, they need to *pay the bills*.\n",
+      "dayRecap": "## Day 1: The Chains of Employment\nThe kingdom of Libestal has returned—but something is… off. Our heroes have traveled back in time?! As if the whole “the King was evil and the old kingdom was a fabricated illusion” twist wasn’t enough, now we’ve got *time travel* thrown into the mix. But alright, maybe it’s not so bad, they just need t—oh, they’ve also lost their memories. Again???\n\nForget the bonds, the connections, the whole history they’d built up—our heroes now begin anew. A new kingdom, new lives, even new identities. But one thing hasn’t changed: their mission to recover their shattered memories and, somehow, save the world—no, the *universe*—from calamity. The King, now known as the Outsider, still seeks its end.\n\nThe (new? old?) kingdom of Libestal also brings new systems for the heroes to learn. Guilds are gone, replaced by *Jobs*, and each hero is free to choose the path they wish to walk:\n\n* **The Smith:** Crafts upgrade stones used to enhance Revelation Weapons.\n* **The Jeweler:** Crafts charms that boost health and defense.\n* **The Chef:** Cooks meals that grant adventuring buffs.\n* **The Supplier:** Enchants tools, improving resource gathering.\n\n![The job selection area](/images-opt/jobs.webp)\n\nThe kingdom itself has undergone a makeover too. With a strong wooden motif, it carries a distinctly medieval vibe. No tyrannical King this time—replacing him is Princess Iphania, the current ruler. Alongside her is a mysterious talking cat named Fia, who manages a place known as the *Library*.\n\nThe Library holds the memories of everything, and it's now tended by lorekeepers Calli and Kiara, who work with Fia to archive the new stories our heroes will forge. At the end of each day, everyone is expected to write a diary entry of their journey and submit it to the Library.\n\n![The Library with Fia](/images-opt/library.webp)\n\nHow will any of this help save the universe? Who knows. But it's only Day 1—the start of a new adventure, a chance to forge new bonds and rediscover old ones. Forget world-saving for now. First, our heroes need to get a grip on their new lives and roles… because before anything else, they need to *pay the bills*.\n\n[Monster - ENigmatic Recollection Chapter 2 Theme Song](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)",
       "title": "The Chains of Employment",
       "nodes": [
         {
@@ -1273,7 +1273,7 @@
           "type": "fixed",
           "style": {
             "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "relationshipId": "romantic",
@@ -1300,7 +1300,7 @@
           "type": "fixed",
           "style": {
             "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "relationshipId": "romantic",
@@ -1342,11 +1342,10 @@
           "targetHandle": "top-2",
           "type": "fixed",
           "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
+            "stroke": "#e30d0d"
           },
           "data": {
-            "relationshipId": "its-complicated",
+            "relationshipId": "enemy",
             "title": "The Knight and the Hobo",
             "content": "Cecilia confronts Peasant da Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). Bae realizes her words were misinterpreted, clears up the misunderstanding and joins Cecilia, Roa, Bijou, and Irys to have a social drink by the creek.\n\nBae takes Cecilia aside in order to repay the debt and apologize. Bae was on the cusp and the 80 gold filled her heart with such raw emotions.\n\nThey share a moment in order to clear up the air and they real they are living the [Libestal Dream](https://www.youtube.com/live/48HSA_GcOZ0?si=AKtCcxs7EHWwCYqx&t=8523).\n\nAfter they forgive one another, Cecilia may have started to develop feelings for Bae after all the emotional build up.\n\n[My Knight has fallen for a hobo - Princess Bijou](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=d2Mbzm51EdkUrsTH&t=8617)",
             "pathType": "custom",
@@ -1759,7 +1758,7 @@
             "content": "Being a CEO is hard work and Roa found that the start of her day felt like a (EN)Curse. But she persisted for Profit, for The Gacharms shop and, of course, for her beloved employees.\n\nStill, Roa is a hero and so she would meet with Nerissa and Tammy, to enter the Stronghold of Ruination together. They met the Outlander and learnt of his plight: trapped in the accursed ruintouched prison, and the key to freeing him was to conquer the Stronghold. Understood and done as the trio would [defeat the Stain King Proto](https://youtu.be/hpyRxse4zCw?t=2575) with just a few mathematical hiccups along the way.\n\nA revelation! Roa noted that the Outlander and Princess Iphania are enamored with each other, constantly keeping the other in their thoughts. Though sadly, not an ounce of trust was given to shining heroes from the Outlander for he did not believe. Fellow feline Fia reassured them and suggested that they can become the hero Libestal needs. \n\nThey find the Outlander and the Princess in the guest room where the Princess urged them to work togehter. Roa watched the Outlander repeated his suspicions to the Princess as he left for the next Ruins. Despite this unwarranted untrust, Roa could not help but coo at the lovebirds. Though Gonathan and Cecilia Immerkind would soon insist on a different [type of relationship between the two](https://youtu.be/hpyRxse4zCw?t=3215). Roa interjected into the conversation stating that it does not matter for siblings still love each other and love is love. Should siblings love each other as lovers? Love is **Love**, Roa left it at that . \n\nRoa would meet the the Hot Pink One and be fed by her [mouth to mouth](https://youtu.be/hpyRxse4zCw?t=3485), to which Bijou would express curiousity but Roa and the Hot Pink One explained that it is something only adults do though the conversation was ultimately null since the brothers and Roa would eat mouth to mouth to mouth.\n\nBijou and Roa left for their shop and Roa was impressed by the profits made while she was away. Seeing that their inventory needs restocking, Roa took it upon herself to craft more charms, completing some more quests in the meanwhile to earn a bit more gold. The business between Peasant The Bae are also quite good as the supplier brought back some Stain materials that Roa needed. But, Bae brought more than just the goods, she brought back [a startling discovery of not just the Princess and Outlander, but of the true nature of Libestal as well](https://youtu.be/hpyRxse4zCw?t=5595). Not surprised by the news she already knew, and unphased by the newer revelation, Roa would point out a key feature to support this: the Libestians all have the same face. Following Roa's keen observation, Bijou would add that *they*, the heroes of Libestal from another world, too have similar faces to each other albeit differing in colours.\n\n[We Are In-Bread. Glory to The Sandwich](#embed:https://youtu.be/hpyRxse4zCw?t=6208)\n\nRoa is the ham in the sandwich, such a sentence may not have be spoken of before but it is nonetheless true. Perhaps the trials of the day wore down on the business woman, perhaps something mysterious has (sandwich)spread over these bread-like blocky lands. Whatever the cause, a cult was born and their goal has never been clearer: To follow the bread and turn the entire world into one large sandwich. To accomplish this, they must bring other heroic ingredients into their fold and accept the in-breadness inside them.\n\nShifting her focus back on what truly matters: Gold, Roa knew [advertisement](https://youtu.be/hpyRxse4zCw?t=7655) was key to ensure that The Gacharms stayed relevant in the minds of her customers which soon proved very effective as Bae would wonder by mentioning she received the AD though had skippa skippa it. Of course, it was only natural to of course send another one to Bae and to others.\n\nAs her day drew to a close, Roa would spruce up the shop's exterior creating a much more chic design to reflect the growth of her business.\nA third day done well despite the rocky start. [Glory to the Sandwich](https://youtu.be/hpyRxse4zCw?t=11221).",
             "imageSrc": "images-opt/Raora-Panthera_list_thumb.webp",
             "teamId": "jeweler",
-            "status": "In-bread",
+            "status": "Alive",
             "day": 2,
             "bgCardColor": "#f087a9"
           },
@@ -2006,15 +2005,15 @@
           "dragging": false
         },
         {
-          "id": "the-outlander",
+          "id": "the-outsider",
           "type": "image",
           "position": {
             "x": 1225,
             "y": 50
           },
           "data": {
-            "title": "The Outlander",
-            "content": "Having long heard tales and legends of the enigmatic hero known as the Outlander, our heroes finally stood face-to-face with the man himself. He spoke with weariness and weight in his voice, revealing his current plight—locked in a struggle to keep the creeping Stains at bay. In doing so, he had become trapped, and warned the heroes to stay away.\n\n[The Nameless Swordsman](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=qveipVP2y98ikBG3&t=4927)\n\nBut he had sorely underestimated them.\n\nDefying his expectations, the heroes pushed forward and conquered the Stronghold of Ruin, ultimately breaking the Outlander free from his prison. Though no longer bound, he remained cautious, skeptical of their purpose. He challenged the prophecy they carried, claiming their so-called mission to \"save the world\" would instead usher in something far worse—a Greater Evil.\n\nHe offered no further explanation. With cryptic words hanging in the air, he turned away and disappeared, heading to wherever fate next called him.\n\n[Saving the world?](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=j0u5w9W8hHWcmSfJ&t=6423)\n\nBut oddly enough, he was found within the castle of Libestal's guest room, having a one on one conversation with the Princess (see [Outlander-Princess: The Next Step](#edge:princess-iphania-the-outlander-right-2-left-2)).",
+            "title": "The Outsider",
+            "content": "Having long heard tales and legends of the enigmatic hero known as the Outlander, our heroes finally stood face-to-face with the man himself. He spoke with weariness and weight in his voice, revealing his current plight—locked in a struggle to keep the creeping Stains at bay. In doing so, he had become trapped, and warned the heroes to stay away.\n\n[The Nameless Swordsman](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=qveipVP2y98ikBG3&t=4927)\n\nBut he had sorely underestimated them.\n\nDefying his expectations, the heroes pushed forward and conquered the Stronghold of Ruin, ultimately breaking the Outlander free from his prison. Though no longer bound, he remained cautious, skeptical of their purpose. He challenged the prophecy they carried, claiming their so-called mission to \"save the world\" would instead usher in something far worse—a Greater Evil.\n\nHe offered no further explanation. With cryptic words hanging in the air, he turned away and disappeared, heading to wherever fate next called him.\n\n[Saving the world?](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=j0u5w9W8hHWcmSfJ&t=6423)\n\nBut oddly enough, he was found within the castle of Libestal's guest room, having a one on one conversation with the Princess (see [Outlander-Princess: The Next Step](#edge:princess-iphania-the-outsider-right-2-left-2)).",
             "imageSrc": "/images-opt/the-outsider.webp",
             "teamId": "none",
             "status": "Alive",
@@ -2069,7 +2068,7 @@
           "type": "fixed",
           "style": {
             "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "relationshipId": "romantic",
@@ -2096,7 +2095,7 @@
           "type": "fixed",
           "style": {
             "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "relationshipId": "romantic",
@@ -2148,8 +2147,7 @@
           "targetHandle": "top-2",
           "type": "fixed",
           "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
+            "stroke": "#e30d0d"
           },
           "data": {
             "day": 1
@@ -2165,7 +2163,7 @@
           "type": "fixed",
           "style": {
             "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "relationshipId": "romantic",
@@ -2342,7 +2340,7 @@
           "type": "fixed",
           "style": {
             "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "relationshipId": "romantic",
@@ -2499,9 +2497,9 @@
           "selected": false
         },
         {
-          "id": "princess-iphania-the-outlander-right-2-left-2",
+          "id": "princess-iphania-the-outsider-right-2-left-2",
           "source": "princess-iphania",
-          "target": "the-outlander",
+          "target": "the-outsider",
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
@@ -2540,6 +2538,992 @@
             "content": "Gonathon and Bae the Peasant forged a hearty business relationship, with Gonathon at first [gifting Bae her prized Stain Hat](https://youtu.be/dgfH4qnRlfw?t=9921) after the destitute peasant lamented her inability to purchase a hat for herself. Unwilling to allow Gonathon to leave empty handed, Bae forged an enchanted pickaxe for Gonathon in exchange for some upgrade stones. \n\nHowever, this would not be the end of their dealings, as Gonathon, impressed by the quality of Bae's craft, [took it upon herself to advertise the peasant's store to all who would](https://youtu.be/dgfH4qnRlfw?t=10269) (and even some who would not) listen. From then on, everyone would hear of the finest PP and hole in all of Libestal. \n\n[A humble advertiser](#embed:https://youtu.be/dgfH4qnRlfw?t=10455)\n",
             "pathType": "smoothstep",
             "day": 2
+          },
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayRecap": "## Day 4: Where Love Waits Between the Hours\n\nSecond day in a row where the side event takes the spotlight before the real meat and grit of the main show. At this point, that’s just tradition. Day Four delivered two things: a time lord, and a Korean soap opera. Two wildly different beasts—yet somehow, both showed up to the same dinner party.\n\nEarly in the day, our heroes zeroed in on the main objective: investigating the second major dungeon, the **Star Site: Chronos**. Here, time reigned supreme—each challenge shackled by ticking timers, counting down as the adventurers scrambled for answers. The theme wasn’t just surface-level either. This dungeon was deeply tied to the memories of a key figure. One that many thought was just a broke, self-declared queen—only to discover she was, in fact, the *Warden of Time* herself.\n\nAlongside that, came a game-changing revelation about the mystery of the Outlander, flipping the narrative on its head and solidifying the heroes' purpose: save the world.\n\n![Ours heroes against the Stain King: Chronos](/images-opt/chronos.webp)\n\nBut let’s be real.\n\nNo one cared about such a frivolous responsibility.\n\nThe second law of thermodynamics says that entropy only increases—and if you’ve been following this story, you’d know that law hasn’t missed a single day. Things have only gotten messier since day one.\n\nGonathon with a G—a knight known for his humility, his generosity, his unwavering care—somehow managed to steal Elizabeth’s crown for the biggest fumble of the season. His performance in today’s love drama was so generational, so chaotic, that comparisons were made. To what? *\"A goat being washed\"*. That's how bad it got.\n\nThe knight in orange cooked up a love story so convoluted that most around him either gave up entirely or begged not to be involved. Those unlucky enough to be roped in—yes, even the queen he once served loyally—became collateral damage. Gonathon G? More like *onathon*, because no **G**irls would dare take this person's hands.\n\n![Moments before the \"goat\" fell off](/images-opt/goat.webp)\n\nYet, in the eye of the storm, peace still existed.\n\nElizabeth spent quiet time in her forge, chatting with the voices in her head. Nerissa kept grinding, forever in pursuit of her beloved potato salad. And right in the middle of all the chaos, tucked humbly into the heart of the build zone, stood a cozy little cafe. A cafe that didn’t chase profit, but offered delicious food, handmade with love and fluff. Waiting. Always waiting. Not for gold or fame—but just to make someone smile.\n",
+      "title": "Where Love Waits Between the Hours",
+      "nodes": [
+        {
+          "id": "fuwawa-abyssguard",
+          "type": "image",
+          "position": {
+            "x": 1450,
+            "y": 800
+          },
+          "data": {
+            "title": "Fuwawa Abyssguard",
+            "content": "Continuing work on her shop—or more fittingly, her *café*—was the first thought on Fuwawa’s mind upon waking. The objective hadn’t changed: gather resources for building, materials for cooking, and, if possible, find at least one person to accompany her. Because without her usual fuzzy companion by her side, this journey had felt... somber.\n\nAnd as if the world heard her silent plea, a small, feathery friend arrived.\n\n[Hello there, little one!](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=Go2F6QDRR0qDVuZC&t=1177)\n\nA chicken. An animal Fuwawa held close to her heart. Her previous journey had revolved almost entirely around tending to flocks, nurturing and loving them as family. To have that feeling return—however small—was like a gentle breeze to a tired soul.\n\nThe chicken was mischievous, tiny, always [darting around](https://www.youtube.com/live/geV0HyX5LUA?si=2wRpax8PI0MsZJg6&t=1331) at the first chance. Fuwawa had to think of countless ways to keep him from escaping. But once he was secured within the cozy café, she named him *Moco-chan*, a quiet homage to the companion she missed dearly.\n\nFeeling a little more grounded, Fuwawa turned her sights to progress. She reached out to others for help in catching up with the dungeons. First came the [Stronghold of Ruin](https://www.youtube.com/live/geV0HyX5LUA?si=J38XCoSl-nVt5AHh&t=1863). Then, she joined Shiori, Mococo, and Bae in the [Star Site: Chronos](https://www.youtube.com/live/geV0HyX5LUA?si=AMeAFfmmilO48tEp&t=4763). Together, they recovered the memories of [Ouro Kronii](https://www.youtube.com/live/geV0HyX5LUA?si=2vIMbyUxKOHbQ2y5&t=8554).\n\nThen it was back to work on her café. Materials were still needed, and thankfully, [Shakira](https://www.youtube.com/live/geV0HyX5LUA?si=a98N053xbj--51z9&t=3509) offered stones to help with construction. Things were looking up. The little owner had [no sales](https://www.youtube.com/live/geV0HyX5LUA?si=2WqV9LXEoUfycxxp&t=3849) yet, but she was hopeful. Her dream still shimmered in the distance—and for once, she wasn’t alone. Moco-chan was with her.\n\n[Moco-chan~](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=MON2jav5merqyE4a&t=3907)\n\nAt least, for a short time.\n\n[Moco...chan?](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=qZPau0VzbYTi2o2i&t=9171)\n\nFuwawa stepped out for errands, and when she returned... Moco-chan was gone.\n\nShe ran. Panicked. Calling out. Searching every corner of the area. But there was no sign of him. Had he wandered too far? Was he okay? Would he come back?\n\nShe told herself not to blame him. She could never. If he didn’t want to stay, she wouldn't force him. Fuwawa only ever wanted the best for others. That’s who she was. But pretending it didn’t hurt? That would be a lie.\n\nShe ended the day as always—writing in her journal. But this entry weighed heavier than the rest.\n\nHer shop stood open, but no one had come to buy anything. Visitors were rare. And when they *did* stop by, it was to ask for something... or to advertise. Not to sit. Not to chat. Not to stay.\n\nHer dream was starting to flicker. The other chefs were so talented. So successful. Could she ever catch up?\n\nThe café was empty. And Fuwawa sat in that emptiness.\n\n[Bau bau...](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917)\n\nBut even in a space like that... there was still [hope](https://www.youtube.com/live/wCysZh57Hcc?si=amYBd0PYc_tTX567&t=18155).",
+            "imageSrc": "images-opt/Fuwawa-Abyssgard_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#67b2ff"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mococo-abyssguard",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 325
+          },
+          "data": {
+            "title": "Mococo Abyssguard",
+            "content": "The fuzzy one kicked off her day at Gacharm—dutiful, as always. A model employee, yes, but more importantly: she had her eyes on the prize. Cold, hard cash. And with dreams of swimming in gold already sparkling in her mind, it made perfect sense why she was so eager to clock in.\n\nBut before cashing out, she had some catching up to do. The investigation of the [Stronghold of Ruin](https://www.youtube.com/live/T2StVW1kSxw?si=mlKGQ7NhgMZ73vBu&t=1871) was still a blank in her itinerary, so she called in reinforcements. With the help of Immerkind, Bijou, Gonathon, and Ina, she powered through and got herself up to speed with the rest of the kingdom.\n\nWhile waddling about afterwards, she happened upon a *very* public therapy session between Mordon and Gonathon. And by “happened upon,” we mean she straight-up eavesdropped, no shame in sight. Though one might question whether it even *was* therapy, considering the kind of advice being handed out.\n\n[There's a window here, yeah?](#embed:https://www.youtube.com/live/T2StVW1kSxw?si=1b0WCfas_RRaMR8t&t=3322)\n\nThat’s when the lightbulb hit.\n\nWhy not become a therapist [herself](https://www.youtube.com/live/T2StVW1kSxw?si=FdwTk8KAoS3pt2ch&t=3721)? Offer budget sessions with bargain-bin pricing and declare herself the most qualified while she’s at it—despite having no actual license or experience. None of that mattered. \n\nAfter planting her flag in the mental health business, she joined up with Shiori, Bae, and Fuwawa to tackle the [Star Site: Chronos](https://www.youtube.com/live/T2StVW1kSxw?si=zHdcA0uQyy3zuFUw&t=4759). They fought through the trials and uncovered memories of [Ouro Kronii](https://www.youtube.com/live/T2StVW1kSxw?si=GU5gPfrsUDdQPFUk&t=8555).\n\nThen, the miracle happened.\n\nWhile out gathering materials in the newly unlocked zones, she got her first call as a *licensed-in-spirit* therapist. Her client? Shakira.\n\n[Follow your heart!](#embed:https://www.youtube.com/live/T2StVW1kSxw?si=-ZizHO6g5xCSHEr9&t=9493)\n\nShakira poured her heart out, detailing the mess she’d created by accidentally setting up a blind date between Mordon and Gonathon—based on a complete misunderstanding—and triggering a love triangle that caught Shiori in the emotional crossfire. It was a web of drama spiraling out of control, and she was at a loss on what to do.\n\nEnter Mococo: therapist extraordinaire. She listened carefully, took in the drama, and then dropped her sage wisdom: *“Follow your heart.”* Short. Vague. Possibly meaningful.\n\nThen she asked for her payment. Then she hung up.\n\nAnd that, folks, was therapy.\n\nShe closed her day with pride, documenting everything she’d accomplished—highlighting, of course, the mountain of money she raked in from [shop sales](https://www.youtube.com/live/T2StVW1kSxw?si=ngAzUQ4nmccPecin&t=10939), her paycheck, and her very first therapy gig. Not bad for a day’s work.\n\n[I made money!](#embed:https://www.youtube.com/live/T2StVW1kSxw?si=wMKjKRAhJygZFpQD&t=11978)\n",
+            "imageSrc": "images-opt/Mococo-Abyssgard_list_thumb.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#f7a6ca"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 800
+          },
+          "data": {
+            "title": "Elizabeth Smith Bloodflame",
+            "content": "**Part 1**\n\nA forge built, new stories unfolding—Elizabeth looked back on the day before with a sense of clarity. With each step forward, her journey was beginning to take shape. It may have started on rocky footing, sure, but with new knowledge earned and kind souls met—chief among them the mighty phoenix who had helped her so much—Elizabeth now felt steadier, more grounded, and more determined than ever to keep moving forward. And of course, in the midst of all the day’s events, her moments with Nerissa stood out—moments she hoped to see more of today (see [Elizabeth-Nerissa: Frame By Frame](#edge:elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2)).\n\n[Log 0002](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=miuGcqt46LMF_GCh&t=95)\n\nHer morning began much like the previous one, with her ever-dependable sugar phoenix once again offering assistance for a major task: investigating the Stronghold of Ruin. Before setting off, Elizabeth took a brief tour around the kingdom, admiring the creations people had built—and couldn’t help but feel a strange déjà vu seeing enormous [floating text](https://www.youtube.com/live/vbppXmxXo7o?si=gbwqdZGPxPB_RjoQ&t=651) in the sky again.\n\nThe dungeon itself was conquered with success, and with the mission complete, she moved on to gathering materials. During a brief lull, Elizabeth checked in with [Shiori](https://www.youtube.com/live/vbppXmxXo7o?si=ZHTbaG0Zv_dYDNx4&t=5606), who had tried to contact her earlier. What followed was a friendly—if somewhat bizarre—back-and-forth full of playful jabs, as the two debated their way of addressing each other: one being a knight and the other being a witch.\n\nShiori also took the opportunity to promote her growing business, selling \"memories\"—detailed records of each day’s journey. Elizabeth, intrigued, bought a few and read through them, raising a suspicious brow with each entry. \n\n[Her writing is this fire?](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=a1GZJG59uOdXfzBc&t=11809)\n\nAs the day continued, Elizabeth focused on improving her forge, even constructing a hidden underground bunker to safely store her goods. Of course, she had a secondary motive too: a perfect place to [prank people](https://www.youtube.com/live/vbppXmxXo7o?si=ewOxwttSz3l0BUTO&t=22074) without being caught.\n\nShe wrapped up the first half of her day on a warm, wholesome note—spending quiet, meaningful time with Nerissa, as their bond continued to deepen.\n\n---\n**Part 2**\n\nTired and slightly sleepy, Elizabeth still did her best to keep up with her journal. Thoughts wandered to her Jade Forge, to her old animal companions from journeys past—silly memories, sure, but they made her heart ache in a warm, nostalgic way. \n\nBut just as she wrapped up her writing, a sudden flash of thought pierced through her mind. Ominous. Unsettling. A message that lingered longer than it should have.\n\n[\"Are they with you or against you\"](#embed:https://www.youtube.com/live/1tE2N1kP2YA?si=IEaSGDXxGSpZj8xf&t=198)\n\n\nNow then, Elizabeth was *literally alone* in the kingdom at the time. So of course the most logical next step was to challenge a dungeon designed for a full party of adventurers.\n\nElizabeth managed to solve the first puzzle, pushing through with a spark of brilliance and stubborn will—\n...and then she ran out of time.\n\nAnd then she went bye bye.\n",
+            "imageSrc": "images-opt/Elizabeth-Rose-Bloodflame_list_thumb.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#d46759"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "takanashi-kiara",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 800
+          },
+          "data": {
+            "title": "Tanakisha Karia",
+            "content": "Our Knight's day started earlier than usual as she helped fellow knight Elizabeth conquer the previous day's dungeon. She worried that 2 knights would not be enough but, despite the difficulty, they prevailed.\n\nShe would return to an interesting scene as howls could be heard just outside of [Mordan Ramsay's Tavern](https://youtu.be/wCysZh57Hcc?t=653). It seemed the Pack is bonding quite well despite the moon not out.\n\nA newly built house in the distance that sent Kiara quite a [tickle](https://youtu.be/wCysZh57Hcc?t=782). It reminded her fondly of one she had previously built and though Ina was a bit crossed, both would laugh and parted ways merrily. Kiara appreciated her own forge, marvelling the paintings Elizabeth put up and the improvements made. She was astounded by the [Shrine of Love](https://youtu.be/wCysZh57Hcc?t=1038) and wondered if the Elizabeth and Nerissa had progressed their relationship in Kiara's short absence. The basement was another wonderful addition to the forge along with amusing journals framed on the wall.\n\nKiara saw her very dear cousin Immerkind (questionably related?) and complimented Cecilia's new hat but also expressed the she missed seeing Cecilia's head. The conversation would turn to Cecilia's plight yesterday and her woes and Kiara gently scolded her for the [alcoholism](https://youtu.be/wCysZh57Hcc?t=1665). Kiara would offer her protection for the dungeon and Cecilia will inform her if there is a spot on her party later.\n\nKiara's love was put to the test when she stumbled on Gonathan's therapy session with Mordan. Her fellow orange knight told her that, unfortunately, Cecilia was against cousin romances. Despite this, Kiara would persevere! She will find a way to win Cecilia over. With that in the back of hermind, Kiara whisphered in turn about the blind date she set up for Gonathan.\n\nBut it seemed there is more to worry about Cecilia. First was Cecilia's loan from Bae that had a 100% interest rate. Second, the special \"interest\" Bae might have towards her cousin (now apparently blood-related) and... Cecilia's own flattery to the Peasant's advances? Is this another barrier for Kiara to win Cecilia's heart? Only *time* can tell.\n\nBut speaking of Time! It is Time for Kiara to enter The Chronos Dungeon. Here, their grasp of timing was put to the test. Conquering through their confusion, they soon defeated Stain King Chronos and found another treasured disc in the meanwhile. Soon another memory unfolds before them: Tammy's.\n\nA Queen she was and regal she still is. Kiara couldn't help but admire her with the rest. But there are more important matters:  The Blind Date. The responsibility felt heavy on Kiara's shoulders, she promised Gonathan and she would see the date to its hopefully successful conclusion.\n\nAh. The Knight was so consumed by the date that she forgot to report matters to the Princess! But before Kiara could finish her report, Shiori interrupted with a small concern. She spoke of the blind date between Gonathan and Calli... but Shiori was interested in Gonathan. It seems matters are [complicated](https://youtu.be/wCysZh57Hcc?t=8573).\n\n[Turmoil stirred in Kiara's noble heart.](https://youtu.be/wCysZh57Hcc?t=8832)\n\nConfounded. Concerned. Fear of ruining an already blossoming love. She called Mococo for therapy but the advice 'follow your heart' could not simply solve the dilemma Kiara inadvertently created. How could she follow her heart when its path is unclear? She would ask Mordan if she was still interested in Gonathan and... [Mordan is ready for the date](https://youtu.be/wCysZh57Hcc?t=9226). This is the best day of my life, Mordan exclaimed, to Kiara's growing horror.\n\nAs the date began, Kiara asked Shiori to watch the blind date with her, in case the love between the other Knight and Chef was not meant to be. Was it a bright idea to invite Shiori, who was clearly interested Gonathan, to the event? The short answer is 'no'. The longer answer: Shiori would dramatically pretend to drown, interrupting the date which would led *Mordan* to dive in to save her. [It got complicated](https://youtu.be/wCysZh57Hcc?t=9745). The Good Knight is too popular for his own good.\n\nKiara fretted as everything around her burnt. Mordan proposed to Gonathan. Shiori rescued Gonathan from the dreaded **berry bush**. The silence from Gonathan was astounding as he cried to Tammy about [his woes](https://youtu.be/wCysZh57Hcc?t=10281). In the meanwhile, Shiori and Mordan would have a [simple non-blind date](https://youtu.be/wCysZh57Hcc?t=10111) but there is no 'spark' to be found between them.\n\nBut then, it seemed well. Gonathan seemed to have made a [choice](https://youtu.be/wCysZh57Hcc?t=10733). For a moment, all is right. A ring is given to Shiori. Then, without a shred of awareness and the naivete the size of Kronii's ego, [Gonathan took the trophy and threw it on the ground](https://youtu.be/wCysZh57Hcc?t=10733). Kiara would not be privy to more as the couple decided to resolve it privately.\n\nSo caught Kiara was with the drama that she forgot to do her jobs as a hero and as a smithy, quickly selling her wares and finishing her reports to Fia. *The Outlander and The Outsider* were the same! An ill-fated hero, punished by the gods. The news broke Iphania's own heart as well. Today is a terrible day for love.\n\nBut still, Kiara went through her day. Exploring the new area and soon acquring a diamond pickaxe which was soon upgraded by Cecilia. She herself would be selling the new legendary upgrade stones at a [very affordable price](https://youtu.be/wCysZh57Hcc?t=13082).\n\nKiara traded her legendary upgrade stones for Bijou's legendary charms, Kiara couldn't help but pour her out to a friendly ear [and, accidentally, within hearing range of the couple in question](https://youtu.be/wCysZh57Hcc?t=14507). But it seemed they did not truly hear what Kiara said as they're having a dispute of their own.\n\nAgain, mesmerised by the flames of shattering love, Kiara watched it all [unfold](https://youtu.be/wCysZh57Hcc?t=14970) and heart-wrenched that her own hand, by which she swore to defend others with, had no small part in creating this drama that ultimately ended in Gonathan's broken heart. Even after burning herself at the campfire and turning into a ghostly phoenix for a moment, Kiara agonised the course of day. Her own failed endeavors towards kind cousin, the fumbled date between Gonathan and Mordan. Perhaps, Kiara's love was to be an appreciation for life.\n\nAll this she wrote on her journal. But, even if her goals were not met, it doesn't mean that others should suffer an equally miserable day. She paid her dues to Mococo, expressed to Shiori how Kiara had misunderstood her at first and now sees the kindness in her, and [buying a significant amount of food from Fuwawa's shop](https://youtu.be/wCysZh57Hcc?t=18238). Unperfect Kiara may be, let it be known that her kindess is unfaltering.",
+            "imageSrc": "images-opt/Takanashi-Kiara_thumb.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#ff511c"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "peasant-da-bae",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 525
+          },
+          "data": {
+            "title": "Peasant Da Bae",
+            "content": "It was a brilliant morning for Peasant The Bae, a peasant with a whopping 13K gold, as she woke up to begin her day. She met others and they too would return her pleasantries, commenting on her new hat she had bought the previous day. Truly, the hearts of those around Bae as they [kindly inquire how she felt](https://youtu.be/tEdXQofZuf8?t=428).\n\n[Peasant Partner Loan (PP)](#embed:https://youtu.be/tEdXQofZuf8?t=1188)\n\nBae knew what it felt like to be poor, she was coinless just a few days ago, and thought, there might be others similar to her that might be need of some coin. With this in mind, in addition to tHE dUMPSTER, PP Loans for those in need. Of course, as Bae experienced, nothing in life comes for free and the interest rates of 150% (at a variable rate) is only fair  (to be paid back within 2 business days including day of first lent). Those who don't pay back? Well, Bae can be persistent.\n\nLearning a lesson from The Gacharm's Roa, Bae would set up advertisements of her own, smartly styling each ad differently before quickly sending it out. Except to one; As a special courtesy, Peasant The Baa called the ever kind Immerkind to tell Cecilia about the newly opened PP Loan. Cecilia would receive a special rate of 100% and borrowed 1,500 gold. \n\nBae met the Hot Pink One telling her about the new service she offers. Though like alwats, the two would then gloat about their respective wealth, to up the other, and traded barbs. Bae would refute the [Hot Pink One's accusation of Bae running a scam](https://youtu.be/tEdXQofZuf8?t=3711).\n\nSoon others would inquire about Bae's heath. Still rather worried, Gonathan and Bijou would ask a single question: If a wagon was to travel down trail but caught between two roads; in one way is a baby, who would only lived until 5, and the other had 5 elderly people, each having 1 year left to live, who would Bae choose to condemn? They fretted as Bae pondered her answer but calmed when she answered 'I would stop the wagon'. But when pushed to choose, Bae would ultimately decided to condemn the *baby* for [they have to kill a baby anyways](https://youtu.be/tEdXQofZuf8?t=4026). As she answered, Bae entered a strange trance but seemed to return to normal.\n\nThough unsure why her friends seemed troubled, Bae turned her attention to the day's current challenge: The Chronos Dungeon. Time. Rewind. Pause. The machinations of the dungeon would confuse our heroes the previous one couldn't as they made their way through. But at last, at the end only Stain King Chronos stood in their way. Like the challenges of the dungeon itself, Time was in his grasp but it was not enough. Soon another memory, Tammy's, would unevail.\n\n[Tammy was a Queen!](https://youtu.be/tEdXQofZuf8?t=8275) And a Time Warden, but Bae was astounded that she was in the presence of royalty all this time! But, now Bae worried - what if her own memories wouldn't be up to par? In a rare moment of comradery, IRyS echoed this sentiment. How could the Hot Pink One compare? She was drunk compared to *that*? Tammy would comfort them and reaffirm the Hot Pink One is a goddess no matter what and while it seemed that Tammy was still her same kind self, Bae gasped when Tammy, Queen Tammy, called them *plebians*. Bae may be a peasant but that is an honourable title! She got it from her mother who got it from her mother who got it from her mother. The Queen might soon turn a tyrant and turn the kingdom into a dictatorship.\n\nWith heavy hearts at their friend's change, they report back to the Princess and learnt that the ruination still spreads and the kingdom is still in danger. And as they report to Fia the cat would reveal a further upsetting news: The Outlander is the Outsider! Once The Watcher, he interfered in Libestal's fate and angered the gods (who is not IRyS). The Outsider is a true hero, only turning evil from the years of imprisonment for interfering with fate. \n\nDespite the rough events, a silver lining was found: Diamonds. Bae found her skills as a supplier only grew and the culmination of her hard work draws near...\n\n[PICK OF POWER (PP)](#embed:https://youtu.be/tEdXQofZuf8?t=11740)\n\nA diamond pickaxe. One maxed out to its true potential. Truly, Peasant The Bae has come so far and now her hard work has paid off. Her mother would be proud. And just like how she bears the Peasant title proudly, Bae will never forget her roots; as she finished her new axe Axe of Power (AP), she frames PP and PA in workshop. Her business would also provide this upgrade at a reasonable price, Ina being her first customer, and selling the newly found ore, Enigmatic Stones, to Bijou for a sale price. She also tried to offer her services to Queen Tammy but it seems the questionably good queen has no need of it at the moment. She would then witness [Tammy yell at the Hot Pink One](https://youtu.be/tEdXQofZuf8?t=12995) who promptly ran away.\n\nCecilia would successfully also pay back her loan at the end of the day. The two would converse about their business and Bae advised her that Cecilia's kind prices could afford to be raised since the labour to improve such tools is rather intensive. Kiara would also offer legendary upgrade stones at a cheap price, which Bae was shocked by. She bought 2, as she had promised Gonathan to buy his wares later.\n\nJust as Bae was about to go to bed, staying up late was something Mother would have disapproved, she quickly realised that there were a few chores left to be done. She quickly called Bijou to gacha a few charms, luckily winning her gambles, and would go to buy a legendary upgrade stone Gonathan to witness the [Good Knight's Marital Troubles](https://youtu.be/tEdXQofZuf8?t=14642). Astounded, shocked, and confused, Bae wasn't sure what to do but the time was ticking, and she was already past her bedtime, she would interrupt the drama to quickly finish the trade with Gonathan and slept for the day, unaware of how the Knight's night would end.",
+            "imageSrc": "images-opt/Hakos-Baelz_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "In-bread",
+            "day": 3,
+            "bgCardColor": "#ff675d"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "roa-pandora",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 325
+          },
+          "data": {
+            "day": 2
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mori-calliope",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 1000
+          },
+          "data": {
+            "title": "Mordan Ramsey",
+            "content": "The tavern owner turned therapist kicked off her day by diving straight into a session with none other than Gonathon. The topic? The ever-delicate, always-messy realm of love—specifically, the brand of love that involved siblings, mutual friends, and being roped into playing the role of wingman whether you wanted to or not.\n\nOf course, that wouldn’t be the last therapy session of the day. In fact, love became the centerpiece of nearly every conversation the two had throughout the rest of the date. Mordon, ever the professional (in theory), claimed she was simply offering her services—nothing more. Surely, she'd never get caught up in the tangled mess her clients kept dragging into these sessions… right?\n\n[Therapy session of questionable topics](#embed:https://www.youtube.com/live/AVolo2GU708?si=4AnsPPNT_wg8l5Ml&t=215)\n\nLater, she joined Tam, Nerissa, and Gonathon for the day’s main mission—investigating the [Star Site: Chronos](https://www.youtube.com/live/AVolo2GU708?si=lAhFFA_4EjWnc_FJ&t=4562). And even within the time-twisting, memory-riddled dungeon, she somehow managed to sneak in another [therapy session](https://www.youtube.com/live/AVolo2GU708?si=P7SB05k5Jd07spd9&t=7538). \n\nWhen they recovered the memories of [Ouro Kronii](https://www.youtube.com/live/AVolo2GU708?si=SEplOgl1s3k3hXcx&t=7906)—who, to Mordon’s surprise, turned out to be the very Tam she was journeying with—Mordon wasted no time offering her [professional support](https://www.youtube.com/live/AVolo2GU708?si=1nQSEO7cubwb8rFH&t=8151) to the newly-remembered time goddess. \n\nHer eagerness wasn’t just business as usual though—turns out her monopoly was under threat. A rival had appeared. No experience. No credentials. But with prices so low it hurt. \n\n[She doesn't have a lisence](#embed:https://www.youtube.com/live/AVolo2GU708?si=jllaYw_Lnzhq52cC&t=3403)\n\nBut the real twist came when the very storylines she swore to avoid started dragging her in. Remember all that messy romantic drama Gonathon kept rambling about in therapy? Yeah, Mordon suddenly found herself cast as the “destined love” in a blind date stunt cooked up by her own client—resulting in complete chaos for Gonathon’s actual crush (see [Calli-Gonathon: A Powerful Dynamic](#edge:mori-calliope-gonathon-g-bottom-1-bottom-3)).\n\nAnd what did Mordon do after throwing the whole table into the air?\n\nShe just... left. Off to attend to other business, casually leaving the chaos in her wake.\n",
+            "imageSrc": "images-opt/calli.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#c90d40"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "shiori-nyavella",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 800
+          },
+          "data": {
+            "title": "Shiori Nyavella",
+            "content": "Perhaps today would be the day Shiori chose to be forward with her feelings. She had been eyeing one humble knight ever since their first encounter during a past journey, and it seemed those feelings were starting to solidify. Despite her original intentions—manipulating him for her own gain—things had changed. Somewhere along the way, she might’ve actually fallen for him.\n\nSo naturally, she started her day by infiltrating a therapy session and eavesdropping on her crush.\n\nGotta show you care, right?\n\n[Sneak 100](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=kxtX6JlJhKG0uDhE&t=668)\n\nOutside of all that, Shiori had a proper mission today like everyone else: to investigate the [Star Site: Chronos dungeon](https://www.youtube.com/live/l9VpZ0kmpeY?si=lhZpQ8N-1lD_eYDy&t=2014). Teaming up with Bae, Fuwawa, and Mococo, the group overcame the conquest and recovered long-lost memories of [Ouro Kronii](https://www.youtube.com/live/l9VpZ0kmpeY?si=IaJKKnb-D4y6qJfY&t=5814).\n\nAnd right as she stepped out of the dungeon, Gonathon—who was on a different team—emerged around the same time. Shiori, seizing the moment, dragged him off for a little one-on-one time.\n\n[Just the two of us](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=d0aIf-aCyYQrcc5X&t=5985)\n\nHe was kind, honest, and pure—everything she admired. And she knew that if she didn’t make a move soon, her chance might slip away. So, upon learning that Shakira had arranged a [blind date](https://www.youtube.com/live/l9VpZ0kmpeY?si=I8E4D1s69cbSEPwP&t=6398) for Gonathon, she approached the phoenix and, in her classic tsundere manner, asked to take the mystery slot.\n\nBut that seat was already filled. Due to a major misunderstanding, Shakira had placed Mordon in the date slot, believing she had feelings for Gonathon.\n\nStill, Shiori wasn’t one to give up so easily. She had a plan: crash the date and steal Gonathon’s heart.\n\n[Ahhh! I'm drowning!](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=G-v3Mv7AulkgIwP3&t=7526)\n\nBut things didn’t go how she’d hoped. Even after laying her heart bare, it all unraveled quickly (see [Shiori-Gonathon: The Witch’s Trials](#edge:gonathon-g-shiori-nyavella-top-2-bottom-1)).\n\nThen, as if fate herself had taken pity on the heartbroken maiden, an old acquaintance—someone once dear—approached to help ease the pain. The two shared a long, heartfelt conversation, reflecting on the bond they once shared (see [Shiori-Bijou: Severed, but still there](#edge:shiori-nyavella-koseki-bijou-top-1-bottom-4)).\n\nShiori closed out her day by journaling everything: her hopes, her heartbreak, and her thoughts on what might lie ahead.\n\n[Hurtful, but still hopeful](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=hY1jLc2nVd9MTUO6&t=14316)",
+            "imageSrc": "images-opt/Shiori-Novella_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#b8a0cd"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "cecilia-immerkind",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 325
+          },
+          "data": {
+            "title": "Cecilia Immerkind",
+            "content": "Cecilia awakens refreshed and clear of mind after a restful night outdoors. She continues her morning ritual of visiting the princess, writing a letter, taking a whiff of her [enamoring scent](https://www.youtube.com/live/NGC0VaSUPnE?t=990s), and enjoying their presence.\n\nImmerkind continues to win the hearts and minds of the population as she toils for 5,000 gold to purchase a ring for the princess. This includes kindly activities such as [gambling](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=2974s), pick axe sales, and getting a 100% interest loan. She also bought a nice hat.\n\n[Interest means ... romantic interest?](#embed:https://www.youtube.com/watch?v=NGC0VaSUPnE&t=10069s)\n\nThe party of Cecilia, NinoIna, HPO, Princess Bijou, and Karia depart for the Star Site: Chronos where they [successfully discover the secret artifact](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=12540s) and slay the Stain King Chronos and undercover the memories of Tam Gandr.\n\nThe group surrounds Kronii and barrage her with questions but they notice her demeanor has changed. Cecilia questions Kronii about if the [european kisses and drinks they shared](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=14720s) still matter which she claims it does not. As the group mourns this new Tammy, it is easy to wonder if memories are worth retrieving if it means replacing the one they learned to love.\n\nCecilia seeks an audience with the princess in order to finally be told the truth; however, Cecilia overhears Commander Kopis makes a remark to Iphania of [\"The Outlander of Yours](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=15300s) which sends her thoughts reeling. She quickly disengages and heads for Fia. \n\nOnce Immerkind learns the truth of The Outsider, Tam Gandr explains how time travel can still make Iphania and The Outsider siblings. This means Cecilia still has a chance and this moment brings Queen Tam and Cecilia closer.\n\n[Drinks under the bridge](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=PSdF1DRfJUXe6ZXR&t=15970)\n\nCecilia continues to toil for money to pay off her debts and purchase the ring for Iphania; however, she becomes continually involved in the struggles her fellow Starlights. She eventually earns enough money and gleefully pays off her debt and [purchases the ring](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=19525s).\n\n[I LOVE MINING](#embed:https://www.youtube.com/watch?v=NGC0VaSUPnE&t=18880s)\n\nAs Cecilia prepared to retire for the night, she receives an urgent call from Gonathon. She immediately puts aside her plans and provides urgent relationship counsel to Gonathon but the [complexity of the situation](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=20300s) requires her in person presence. She tells Gonathon once more to:\n\n[Listen to your heart and mind](#embed:https://www.youtube.com/watch?v=NGC0VaSUPnE&t=21370s)\n\nUpon writing one more letter to Iphania and Gonathon, she retires for the night. Unbeknownst to her, this kind action made the kingdom much more brighter.\n\n## Fanart\n[Her Princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)\n\n[To new beginnings by Floomf](https://x.com/fluumf/status/1919736845048676373)\n\n[MATH? by Roronico](https://x.com/roronico1512/status/1919844587000234488)",
+            "imageSrc": "images-opt/Cecilia-Immergreen_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#119a5c"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nerissa-ravencroft",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 1000
+          },
+          "data": {
+            "title": "Nerissa (Juliet Bloodflame) Ravencroft",
+            "content": "Horses were a mere instrument of efficient travel back in the fictitious Libestal, and no two steeds of yours would ever be the same creature, somehow. What logic was there to give them a single name — to pretend that they were the same companion, to form an attachment to it? [Womp womp](https://youtu.be/zVWvu3ozXKM?t=1257s).\n\nThere were many errands to square away before today's big event — negotiating services with Immerkind ([you're welcome for the hat](https://youtu.be/zVWvu3ozXKM?t=2258s)), ignoring spam mail, stocking up on her shop's offerings (plus some battle rations on the side), and finding the perfect place to display her portrait (see: [Elizabeth-Nerissa: Frame By Frame](#edge:elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2)).\n\n[\"..and you look like you're about to... Hug...\"](#embed:https://youtu.be/zVWvu3ozXKM?t=2618s)\n\nSome of these recipes were simply ridiculous to reproduce in meaningful amounts. Having to work both the farms *and* the mines to supply your own ingredients seems a peculiar job description for a distinguished Chef- wait, [what are they talking about](https://youtu.be/zVWvu3ozXKM?t=4962s)? (see: [Calli-Nerissa: New Awoo No.2](#edge:nerissa-ravencroft-mori-calliope-right-2-left-2))\n\n[The Jade Forge Has What in Their Basement?](#embed:https://youtu.be/zVWvu3ozXKM?t=7313s)\n\nExperiencing the a day's worth of time in ten seconds, over, and over, and over again, did not bode well for our champions' psyche. Such was the price to pay to liberate the memories of Libestal's Queen (see: [Kronii](#node:tam-gandr)).\n\nNerissa had seemingly been disillusioned with her OTP overnight, and she was right to have dropped it. With the revelation of the Outlander's eventual fate as the Outsider (shocker), she also recovered a pretty [traumatic fragment of her memory](https://youtu.be/Ydpggr1sBGs).\n\nAs if triggering a natural ability of preserving her sanity, Nerissa swiftly escaped from the brewing conflict and unrest over Tam Gandr's regal identity and personality. Make no mistake, though, for she would not withdraw support from a fellow Wolf based on [clear misunderstandings](https://youtu.be/zVWvu3ozXKM?t=12798s). Long live the Queen, AWOOOOO!!\n\nToday was a productive day — She made good work of collating most of the Library's lost records of Libestan anecdotes and Prophecies, and she dabbled into the practical knowledge on exotic Stain dishes. Alas, her wish to get ahold of a decorative rose bush continued to escape her.",
+            "imageSrc": "images-opt/Nerissa-Ravencroft_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#2233fb"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "koseki-bijou",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 525
+          },
+          "data": {
+            "title": "Koseki Bijou",
+            "content": "The start of Bijou’s day felt… strange. Only through her vision, some things about the world before her looked [strange.](https://youtu.be/Zg3rYsc61XI?t=237) All the charms turned into golden nuggets, and all the characters looked like disembodied stacks of horse armor—even [Fia](#node:fia)! This would last for several minutes.\n\nThis was the least of her troubles today. Far from it. In fact, the little princess was intertwined with a lot of the day’s drama. She even reconnected with a few people along the way. Especially with one she thought she wouldn’t get a chance to reconcile with.\n\nNinoIna returned after being absent from the day before. Blissfully unaware of what happened yesterday, she tried roping her sister to become one with the potato. Bijou agreed, but in turn tried to get her to become one with the bread. …To no avail. Bijou could stay in-bread though! (See [Ina-Bijou: Wooden Potato](#edge:koseki-bijou-nino-ina-the-hot-purple-one-right-2-left-2)) \nSeems like not many people bought into the bread cult thing, and her sister was no exception.\n\nBefore going to Star Site: Chronos, Immerkind and Bijou went exploring to kill Stains in the second area. It’s at this point where she started calling Bijou “Chibi-hime”.\n\nReturning from the slaying session, Bijou comes across the Peasant and checks up on her mental state with that Stain hat on… [It doesn’t look too good for her.](https://youtu.be/Zg3rYsc61XI?t=4287)\n\nThe Peasant’s memories were failing her? Is the Corruption at risk of spreading here too? She felt the need to speak with someone about this. Having discussed this matter with Gonathan earlier, she immediately called him up. She discovered that she was in the middle of a therapy session with Mordan Ramsey; she didn’t care and butted in like a kid getting an adult’s attention.\n\nMordan offered to give her two cents, but only after Bijou paid 100 coins (which she agreed upon as long as she got a snack from her—again, very child-like). The reaper suggests they try tricking the Peasant into giving up that cursed hat somehow in a trade. If that doesn’t work, Calli would gladly take her into The Basement to forcibly take it off.\n\nSpeaking of The Basement, Bijou wanted to finally see it for herself, as part of her therapy. She would NEARLY get inducted into The Wolf Pack… if only she wasn’t an in-bread. Regardless, Gonathan agreed to fight the corruption alongside her, should the need arise.\n\n[Couples’ Therapy with Gonathan](#embed:https://youtu.be/Zg3rYsc61XI?t=4396)\n\nAs if nothing happened preceding, Gonathan joined forces with Bijou to revisit the Stronghold of Ruin, helping Ina, Fuwawa, and Mococo out going through it for the first time. \n\nShe would later join IRyS, Immerkind, Kiara, and Ina to investigate the day’s dungeon, Star Site: Chronos. It was there where they would recover the memories of Tam Gandr, or Ouro Kronii. With her memories restored, everyone returned from the dungeon worshipping her. In the midst of it all, Princess Bijou blurted, “Does that make you my mom?” (see [Bijou-Kronii: Not Again...](#edge:koseki-bijou-tam-gandr-top-2-top-2))\n\nFollowing the dungeon, Bijou immediately sets out to find new materials for the best charms—Legendary Charms using Enigmatic Stones that kind of look like the gem on her chest. Perhaps it was fate that she became a Jeweler after all. \n\nBack at Gacharms, Kiara would visit to fulfil their trade relationship, patiently waiting in line for Bae to finish her pulls. She would end up [spilling tea](https://youtu.be/Zg3rYsc61XI?t=18313) to Bijou about a blind date he put Gonathan and Mordan on. It fell apart after she realized at the last moment that Gonathon had fallen for Shiori instead, who *appeared during said date…* causing a chain reaction.\n\nThey suddenly started hearing voices above them… It was Gonathan and Shiori on the roof. Unbeknownst to Kiara and Bijou, there was *already* an update to Kiara’s gossip that had transpired during her entire talk. Bijou was fine letting Gonathan and Shiori continue to use the roof of the shop. The interaction that ensued on the roof set off its own chain reaction caused by a misunderstanding, and eventually… a divorce (see [Gigi-Shiori: The Witch’s Trials](#edge:gonathon-g-shiori-nyavella-top-2-bottom-1)).\n\nSeveral people watched the breakup happen before their eyes, behind the glass windows of Shiori’s house. Bijou couldn’t help feeling sad seeing Shiori cry, so she came to her side soon after. She took this opportunity to reconcile with her past and get back with her. She wanted to mend Shiori’s twice-broken heart. She also felt bad about abandoning their child Khaos and vowed to bring him back (see [Bijou-Shiori: Severed, but still there](#edge:shiori-nyavella-koseki-bijou-top-1-bottom-4)).\n\nNow Bijou has double the motivation for what she vented about to Mordan and Gonathan. There was a moral need to get the Peasant to give up that Stain hat. This would ultimately be for everyone’s sake… but especially her own, to fix her relationship with Shiori. It's not just a (cursed) hat; it was her child. Their child. How she’ll do it… is a problem for another time.\n\nShe spent the rest of the day gathering materials, all the while pondering if she should confess to Gonathan about her feelings about Shiori. He had forgotten all about their previous adventure in the illusory version of Libestal. She figured that she didn’t want Gonathan to feel bad about taking her girl, so she had to say *something* about it.\n\nThey both agreed to meet back at Gacharm, and it’s there where Bijou confessed about her rekindled love for Shiori. The entire truth came out, and Gonathan seemed to be understanding, despite looking troubled and pacing around in place.\n\n[“...We were, in fact, betrothed.”](#embed:https://youtu.be/Zg3rYsc61XI?t=21191)\n\nBijou was the last one around for the day, working overtime to make sure the shop was ready for the next day. Nobody would be around to hear her practice [howling… “like a pup”](https://youtu.be/Zg3rYsc61XI?t=22518). She may have more than that dawg in her after all.\n\nShe also left exactly [8008 coins](https://youtu.be/Zg3rYsc61XI?t=23011) in her pocket. Just for laughs. We all needed it after what had transpired this day; herself and the voices in her head. [Maybe Fuwawa could smile a bit too.](https://youtu.be/Zg3rYsc61XI?t=22932)\n\n[“JOURNAL DAY 4”](#embed:https://youtu.be/Zg3rYsc61XI?t=23356)",
+            "imageSrc": "images-opt/Koseki-Bijou_list_thumb.webp",
+            "teamId": "jeweler",
+            "status": "In-bread",
+            "day": 3,
+            "bgCardColor": "#6e5bf4"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "gonathon-g",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 1000
+          },
+          "data": {
+            "title": "Gonathon G",
+            "content": "**The Humble Fumbler**\n\nAs the sun rose on day four, no one could foresee the maelstrom of turmoil and tragedy that would engulf Gonathon and those closest to her. The day begin simply enough, with the humble knight visiting Gacharms to acquire new equipment. Chief on Gonathon’s mind was the suspected corruption of Peasant the Bae, which soon extended to Princess Bijou upon learning of her past corruption (see [Bijou-Gonathon: A Rock and a Hard Place](#edge:gonathon-g-koseki-bijou-left-3-left-3)). These concerns had to be set aside, as an encounter with Immerkind led to Gonathon becoming once again conflicted of the [role](https://youtu.be/BSPi8sTHdAY?t=21m13s) she had played in Immerkind’s delusional pursual of the Princess. (see [Cecilia-Gonathon: The Kind and the Humble Knight](#edge:cecilia-immerkind-gonathon-g-left-2-right-3))\n\nHer search for solace led her to Mordan Ramsey who, after some haggling, agreed to become Gonathon’s therapist (see [Mordan-Gonathon: A Powerful Dynamic](#edge:mori-calliope-gonathon-g-bottom-1-bottom-3)). It was during their discussions that Mordan revealed that not only was the [Pearl](https://youtu.be/BSPi8sTHdAY?t=1h23m45s) someone very close to Gonathon, but was in fact her former lover who had since disappeared. \n\n[I was called…a diamond…](#embed:https://youtu.be/BSPi8sTHdAY?t=4h17m53s)\n\nGonathon had little time to ponder these revelations, as she joined Tam Gandr, Nerissa, and Mordan in tackling the next dungeon, [Star Site: Chronos](https://youtu.be/BSPi8sTHdAY?t=1h44m14s). The puzzles and boss proved to be formidable challenge, but they paled in comparison to what came next. Upon the Stain King’s fall, a flood of memories returned to Gonathon: that Tam Gandr was in fact the Queen of Libestal from their timeline and a powerful Time Warden. Returning to Libestal, Tam and Gonathon shared a heartfelt reunion, with both affirming their ironclad bond and Gonathon pledging to stand by Tam no matter what (see [Gonathon-Kronii: The Queen’s Gambit](#edge:tam-gandr-gonathon-g-right-2-bottom-1)). \n\n[You will always be my queen!](#embed:https://youtu.be/BSPi8sTHdAY?t=2h43m48s)\n\nFrom here things took a turn for the dramatic, with Shiori of the Nyavellas at the center of it all (see [Gonathon-Shiori: Trials of the Witch](#edge:gonathon-g-shiori-nyavella-top-2-bottom-1)). For while Gonathon and Shiori's newfound love was still just beginning to blossom, this love would be stretched all the way to the breaking point. For the destined blind date set up by Shakira finally occurred, with [Gonathon’s date being none other than Mordan Ramsey!](https://youtu.be/BSPi8sTHdAY?t=3h11m48s) Things only got worse as Shiori, seeking to observe the date, began to drown and had to be saved by Mordan. As the two rivals for Gonathon’s affection started to quarrel, the hapless knight couldn’t take the pressure and fled. It was here that Gonathon’s lack of decisiveness and blind loyalty reared its ugly head, as the knight begged for Tam Gandr to not only provide advice, but also to [directly observe and live with her and Shiori as a way of preventing any misdeeds on her part.](https://youtu.be/BSPi8sTHdAY?t=3h28m55s)\n\n[Devote yourself to me…no matter the consequences](#embed:https://youtu.be/BSPi8sTHdAY?t=3h51m2s)\n\nWhile Tam agreed to assist, all of this was too much for Shiori. She decided to test Gonathon to prove her devotion, and eventually formed a soul pact with her and they briefly became husband and wife. A meeting with Immerkind led to some more [words of wisdom](https://youtu.be/BSPi8sTHdAY?t=4h23m50s) from the green wolf: That even if Gonathon’s memories were not the same as they were in the past, that deep down Gonathon was still the same person. The two wolves vowed to escape this timeline together, their bond stronger than ever. \n\n[Love is when you spend time together and laugh!](#embed:https://youtu.be/BSPi8sTHdAY?t=4h19m42s)\n\nAlas, none of this was enough to overcome Gonathon’s crippling dedication to her queen and inability to make her own decisions. For upon returning home, Gonathon encountered what seemed to be a startling scene: [Tam Gandr and Shiori engaging in an affair!](https://youtu.be/BSPi8sTHdAY?t=4h31m02s) But rather than seek answers from the two, the bumbling knight chose to once again flee, an act which, along with Shiori [falling to her death](https://youtu.be/BSPi8sTHdAY?t=4h36m00s) while trying to explain to Gonathon, completely broke the battered witch and led to her ending her romance with Gonathon. \n\nDevastated and overcome with regret, Gonathon’s final moments of the day were spent being consoled by Tam Gandr. The queen urged Gonathon to think carefully about her feelings and who she truly loved. But despite all of these misfortunes and frustration that Gonathon had inflicted on herself and others, Tam remained committed to Gonathon, and the two [parted on hopeful terms](https://youtu.be/BSPi8sTHdAY?t=5h6m45s). For hope was now something that Gonathon needed more than anything, and in her daily journal she once again reflected on those that she loved and had loved. She ended by expressing a desire to make tomorrow a better day. Godspeed, Gonathon G.\n\n[Writing her daily journal](#embed:https://youtu.be/BSPi8sTHdAY?t=5h28m35s)\n",
+            "imageSrc": "images-opt/Gigi-Murin_list_thumb.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#fdb440"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "hot-pink-one",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 800
+          },
+          "data": {
+            "title": "IRyS",
+            "content": "IRyS didn’t hold the spotlight today—no active POV—but that didn’t stop her from moving forward alongside the others. Determined not to fall behind, she joined Tam, Nerissa, and the Peasant in tackling the day’s major objective: the investigation of the Star Site: Chronos dungeon (see [Ina](#node:nino-ina-the-hot-purple-one)).\n\nTogether, they braved the challenges, unraveled its time-twisted puzzles, and emerged victorious. And in doing so, she recovered something unexpected—memories of someone very near and dear to her (see [Kronii-IRyS: Tyrannical Ruler](#edge:hot-pink-one-tam-gandr-right-2-left-2)).\n",
+            "imageSrc": "images-opt/IRyS_list_thumb.webp",
+            "teamId": "chef",
+            "status": "In-bread",
+            "day": 3,
+            "bgCardColor": "#e10e5b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 525
+          },
+          "data": {
+            "title": "Nino Ina / The Hot Purple One",
+            "content": "Perhaps Bijou was not truly immune to the effects of the Stain (see [Ina-Bijou: Wooden Potato](#edge:koseki-bijou-nino-ina-the-hot-purple-one-right-2-left-2)). All that hat was good for at this point was [building pity](https://youtu.be/l9HKSDG50HM?t=4659s) — you could also just pretend it was a handheld plush toy instead.\n\nThe time was finally due for NinoIna, donning her big Jeweler hat, to finish building her humble abode. And humble it was, but it's really not that funny; it just needed some greenery — [warau na! :(](https://youtu.be/l9HKSDG50HM?t=4659s)\n\n[But That's Just a Theory...](#embed:https://youtu.be/l9HKSDG50HM?t=6292s)\n\n[Noisy Neighbor NinoIna](#embed:https://youtu.be/l9HKSDG50HM?t=6747s)\n\nThe Hero only managed to get around defeating Stain King Pro*tato* today, and was [blissfully ignorant](https://youtu.be/l9HKSDG50HM?t=7182s) of the gossip around the Princess and the Outlander's relationship and/or alleged familial status. Good for her.\n\n[Man, was she cool](https://youtu.be/qV7dgz75tVo). NinoIna was overjoyed to see Queen Tammy's spirit return in full form. Her loyalty to this Time God entity was palpable, surely a sentiment shared by those of a \"Cerulean\" alignment (see [Gonathon](#node:gonathon-g)), but this whole reveal came with some complications in the details; is Tam Gandr the Hero's stepmom? (see [Bijou-Kronii: Not Again...](#edge:koseki-bijou-tam-gandr-top-2-top-2))\n\nAll things considered, NinoIna was really privileged in how she was living her life. Free of controversy, always on the grind, set on the straight and narrow to elevate herself to her strongest. She literally has [the strongest pickaxe in Libestal](https://youtu.be/l9HKSDG50HM?t=15902s).\n\n[There is no Day 3. MEOWMEOW](#embed:https://youtu.be/l9HKSDG50HM?t=16400s)",
+            "imageSrc": "images-opt/ina.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#4c3f5a"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "tam-gandr",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 525
+          },
+          "data": {
+            "title": "Ouro Kronii",
+            "content": "Tam might not have had an active \"point of view\" today, but that didn’t stop the chaos from finding her anyway. Let’s recap…\n\n— Pulled into a full-blown soap opera with her supposed girlfriend? Check. \n(see [IRyS-Tam: My Best Nightmare](#edge:hot-pink-one-tam-gandr-right-2-left-2))\n\n— Unwillingly involved in a bread-based cult where people are brainwashed into becoming into baked goods? Check.\n(see [Peasant The Bae](#node:peasant-da-bae))\n\n— Thrown headfirst into a sibling drama that teetered dangerously close to something out of an ancient royal family tree (incest—for short)? Check.\n(see [Immerkind](#node:cecilia-immerkind))\n\n— Somehow ended up joining a wolf pack in the middle of it all? Check.\n(see [Gonathon-Tam: Awooo](#edge:tam-gandr-gonathon-g-right-2-bottom-1))\nYep, that about sums it up.\n",
+            "imageSrc": "images-opt/Ouro-Kronii_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "In-bread",
+            "day": 3,
+            "bgCardColor": "#6879c7"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "princess-iphania",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 50
+          },
+          "data": {
+            "title": "Princess Iphania",
+            "content": "Having learned that the Outlander was inevitably destined to become the Outsider—the very calamity that would bring about the end of the world—Princess Iphania remained skeptical. It sounded far-fetched, yet not entirely implausible. The pieces were starting to fit, in a twisted sort of way.\n\nBut she needed time. Time to think, to process, to decide what came next.\n\nFor now, she tasked the heroes with preparing for their next objective: the investigation of the next Star Site—**Star Site: Chaos**—where they would hopefully uncover even more fragments of truth buried in forgotten memories.\n\n[The Third Star Site](#embed:https://www.youtube.com/live/wCysZh57Hcc?si=KMP3qEYRgLTbpBuq&t=11516)",
+            "imageSrc": "/images-opt/iphania.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#dea677"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "fia",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 50
+          },
+          "data": {
+            "title": "Fia",
+            "content": "Another fragment of memories unfolded before Fia—and with it, a revelation that shook everything to its core.\n\n[The truth about the Outsider](#embed:https://www.youtube.com/live/wCysZh57Hcc?si=yZOPqpzRsa6KSL3D&t=11331)\n\nThe Outlander, the nameless swordsman once hailed as the “hero” destined to save the world, was in truth the very cause of its ruin. He *was* the calamity. He *was* the Outsider.\n\nFia explained that his original role had never been to save anyone. He was the Watcher—an entity created solely to observe, to remain distant and uninvolved. But when the world teetered on the edge of destruction, the Watcher couldn’t bear to stand idly by. And so, he broke the only rule that bound him, stepping in as the anonymous swordsman in a desperate attempt to help.\n\nThe Higher Being, enraged by this defiance, cast the Watcher into eternal imprisonment. The shame. The betrayal. The unjust punishment. All of it festered—until it twisted him into something else entirely. The Watcher became the Outsider, the very force that would one day end the world.\n\nNow, the only hope to change this grim fate is for the heroes—not the nameless swordsman—to rise and take up the burden of saving the world in his place.\n",
+            "imageSrc": "/images-opt/fia.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 3,
+            "bgCardColor": "#2b353b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "the-outsider",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 50
+          },
+          "data": {
+            "day": 2
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "hot-pink-one-peasant-da-bae-top-2-bottom-2",
+          "source": "hot-pink-one",
+          "target": "peasant-da-bae",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one-hot-pink-one-right-2-left-2",
+          "source": "nino-ina-the-hot-purple-one",
+          "target": "hot-pink-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff7ae2"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2",
+          "source": "elizabeth-rose-bloodflame",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "Frame By Frame",
+            "content": "The red maiden was slowly recovering from the strawberry incident from the day before. The rose she'd been given now hung proudly on her wall—right where it could be seen the moment you stepped in. And the kiss? Still fresh and warm, or at least, that’s how it lingered in Elizabeth’s mind. Nerissa had absolutely wrecked her mentally—fair to say—but strangely, it wasn’t a bad thing.\n\n[Don't mind me](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=BhRV3I1VTtdSK57Y&t=22337)\n\nNow more composed, Elizabeth no longer turned into a fumbling mess when Nerissa dropped by her little forge-home.\n\nThey chatted, exchanged playful banter, and commented on each other’s portraits. Nerissa’s, for example, looked as though she was opening her arms for a hug. Sure, Elizabeth still had a few awkward moments, but they were fewer now. The craftsmanship of Nerissa’s portrait was breathtaking, and paired with the subject—Nerissa in all her stunning glory—it was something Elizabeth wanted to frame for the world to admire... and for herself, most of all.\n\nShe placed the painting against the side of the building, gently illuminated by the warm glow of shroomlight. But there was still a bit of space left—just enough for one more. Her own portrait.\n\n[One next to each other](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=Q3_FM3XOHKxc6MBo&t=22779)\n\nElizabeth placed it next to Nerissa’s. Frame by frame, the two stood side by side. It was perfect. A small, quiet thing that made their hearts warm. A simple gesture, yet one that symbolized something far greater.\n",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 122.28805852974503,
+              "HC": 0,
+              "VR": -70.5799378350682,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-tam-gandr-right-2-left-2",
+          "source": "hot-pink-one",
+          "target": "tam-gandr",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "Tyrannical Ruler",
+            "content": "Turns out, her lil’ Tammy was actually *the* Warden of Time—Ouro Kronii herself—and just like that, IRyS felt her status crumble under the weight of cosmic significance. I mean, what was she known for? Alcoholism? Party tricks? Certainly not timeline maintenance. The [self-esteem crash](https://www.youtube.com/live/YVyeKQ-6Ka8?si=roD1SAZpIWxklgGw&t=4637) was instant.\n\nThis spiraled fast. IRyS, convinced now that her beloved was a tyrannical queen ruling with an iron clock hand (mostly due to Immerkind's gaslighting, and, well, she wasn't 100% wrong), completely lost it. So much so that merely *seeing* Tam again drove her—and the Peasant, for some reason—to attempt a mutual drowning.\n\n[Bro I didn't do anything](#embed:https://www.youtube.com/live/YVyeKQ-6Ka8?si=_z8TTLSTD0gmDw8l&t=5352)\n\nBut eventually, Tam made an effort to mend the “misunderstanding” (if that’s what we’re calling this whole melodramatic meltdown) by offering [overpriced goods](https://www.youtube.com/live/YVyeKQ-6Ka8?si=mgjYVxEveCtrriA2&t=8287). And just like that, as if nothing ever happened, the two were back in love again.\n",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 46.43668624455228,
+              "HC": 0,
+              "VR": -72.93790429825569,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "mori-calliope-gonathon-g-bottom-1-bottom-3",
+          "source": "mori-calliope",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "relationshipId": "the-wolf-pack",
+            "title": "A Powerful Dynamic",
+            "content": "Filled with uncertainty and regret about not only her burgeoning romance, but also her role in Immerkind’s personal strife, Gonathon decided to seek out Mordan Ramsey for [therapy](https://www.youtube.com/live/BSPi8sTHdAY?si=HuJGqNlAEL-FbZ4D&t=1911). It was during their second session that Mordan revealed an incredible revelation: that the Pearl from Gonathon's memories was in fact her former lover. Before Gonathon could inquire more, a series of interruptions caused by onlookers and loud music forced the two to part ways. \n\nThe next time the two would meet that day would be in a far different context, for Shakira had set Gonathon up on a blind date…with none other than her own therapist! While the two hit it off, with Mordan cracking some tasteful jokes, any hope for a cordial date evaporated as Shiori of the Nyavellas made her appearance known…via [drowning!](https://www.youtube.com/live/BSPi8sTHdAY?si=s74DixP72y3OXh2q&t=11636) As Gonathon stood paralyzed, Mordan leapt in and saved Shiori.\n\nThis act did little to soothe the witch, as she began feuding with Mordan over who deserved Gonathon's heart. Gonathon retreated to talk to Tam Gandr, and after waiting for some time, Mordan herself departed for the day.",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -46.522283377379914,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-peasant-da-bae-bottom-2-top-2",
+          "source": "cecilia-immerkind",
+          "target": "peasant-da-bae",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e30d0d"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-shiori-nyavella-top-2-bottom-1",
+          "source": "gonathon-g",
+          "target": "shiori-nyavella",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#1a1a1a"
+          },
+          "data": {
+            "relationshipId": "no-longer-together",
+            "title": "The Witch’s Trials",
+            "content": "Love can make a person do crazy things, both good and bad. Unfortunately for Gonathon G., her inability to reconcile the love for her queen and the love for her newfound companion would inevitably lead to heartbreak. \n\nFollowing her return from Star Site: Chronos and the reaffirmation of her role as Tam Gandr’s loyal knight (see [Kronii-Gonathon: The Queen’s Gambit](#edge:tam-gandr-gonathon-g-right-2-bottom-1)), Gonathon began to feel conflicted over whether it was right for her to seek love while in the queen’s service. Dismissing these thoughts for the time being, Gonathon assured Shiori that the [strong affinity](https://youtu.be/BSPi8sTHdAY?t=2h50m6s) they had still endured, and Shiori in turn gifted Gonathon with a ring, further cementing their bond. \n\n[What if when my memories return I am not who I am?](#embed:https://youtu.be/BSPi8sTHdAY?t=2h52m33s)\n\nThese tender moments would not last long, as soon after Gonathon was called by Shakira to the destined blind date she had arranged with “the one who was perfected for Gonathon.” This was not Shiori however, but [Mordan Ramsey](https://youtu.be/BSPi8sTHdAY?t=3h11m48s) Gonathon’s fellow wolf and new therapist. Shiori, keen to keep an eye on Gonathon, snuck up on the date and began quarrelling over Gonathon’s heart with the pink therapist. This resulted in the first of Gonathon’s many fumbles, as the hapless knight chose to [flee and seek direction from Tam Gandr](https://youtu.be/BSPi8sTHdAY?t=3h18m18s) rather than address the issue herself. \n\nUpon Gonathon’s return, Shiori expressed her reservation about the knight’s commitment. Indulging in her more manipulative and wily side, the witch announced that she was going to require Gonathon to [prove her devotion](https://youtu.be/BSPi8sTHdAY?t=3h39m36s) which included finishing the roof of her house and for the knight to swear to do anything Shiori asked for. While Gonathon was more than willing to accept, the knight had requirements of her own: that Tam Gandr live with them for at least a year and observe their relationship for any signs of misconduct. Reluctantly agreeing to these terms, the two held pinkies before briefly parting ways. \n\n[Devote yourself to me…no matter the consequences](#embed:https://youtu.be/BSPi8sTHdAY?t=3h51m2s)\n\nUnfortunately, it was here that their budding romance was savagely nipped. For upon returning to her home, Gonathon found her queen and her wife seemingly engaged in an [affair](https://youtu.be/BSPi8sTHdAY?t=4h31m02s) on their bunk bed. Unwilling to wait for an explanation, the distraught knight fled, with Shiori in hot pursuit. Alas, the witch slipped and fell to her death, which deeply shocked Gonathon. The worst was yet to come, for Shiori accused Gonathon of pushing her to her demise, and it was this final act that served as the catalyst for the witch severing their romance for good. \n\nAny hopes Gonathon had of redeeming herself in Shiori’s eyes were quickly dashed, as Koseki Bijou (see [Bijou-Gonathon: Rock and a Hard Place](#edge:gonathon-g-koseki-bijou-left-3-left-3) explained to Gonathon that she had rekindled her past romance with Shiori, one that the gem was keen to not see break again. And thus, Gonathon’s second foray into love ended in tragedy. It remains to be seen if the humble knight has learned anything from this heartbreak, as it is lessons like these that will be needed in the days ahead.",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "tam-gandr-gonathon-g-right-2-bottom-1",
+          "source": "tam-gandr",
+          "target": "gonathon-g",
+          "sourceHandle": "right-2",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#afc0ca"
+          },
+          "data": {
+            "relationshipId": "knight",
+            "title": "The Queen’s Gambit",
+            "content": "Of all the relationships tested on this day perhaps none was as prominent as the one between Tam Gandr and her loyal knight. Gonathon accompanied Tam into Star Site Chronos, where following a series of trials and tribulations, a shocking revelation was revealed: that Tam was in fact the Queen of Libestal from the future the heroes had originated from, and that Gonathon had been her most trusted and ardent follower. \n\nThe two shared a heartfelt reunion where Gonathon once again reaffirmed her undying devotion to the queen. This was quickly interrupted by a gaggle of peasants who, having witnessed Tam’s power in the memory, were now seeking to get into her good graces. This sycophancy was short-lived, as the Breads soon attempted to spark a coup to depose Tam. Immediately rushing to her side, Gonathon reassured Tam that she would always support her, which deeply moved Tam.\n\n[You will always be my queen!](#embed:https://www.youtube.com/live/BSPi8sTHdAY?si=k33dxJgsRB5jPFyu&t=9770)\n\nThe darker side of their bond soon reared its ugly head, as Gonathon’s memories of Tam included a supposed Pact of Celibacy she had taken, which flew straight in the face of her burgeoning relationship with Shiori of the Nyavellas (see [Gonathon-Shiori: Trials of the Witch](#edge:gonathon-g-shiori-nyavella-top-2-bottom-1)). Now deeply conflicted, Gonathon would call on Tam several times to provide guidance and permission. This included intervention in a quarrel between Mordan Ramsey and Shiori following a blind date gone wrong and came to a head when Gonathon requested that Tam not only supervise her relationship with Shiori, but live with them on the top bunk for at least a year. Unwilling to lose her most treasured and only knight, Tam agreed to the [proposal](https://www.youtube.com/live/BSPi8sTHdAY?si=GZzaSx6FFBlTbIpm&t=12615). \n\nDespite Tam’s best (and worst) efforts, a critical misunderstanding shattered Shiori and Gonathon’s relationship: as she was inspecting the sleeping arrangements with Shiori, a hapless Gonathon witnessed what appeared to be an affair between the two and fled. This led to Shiori giving chase and falling to her death, an action which caused her to break off her romance with Gonathon. \n\nIn spite of all of this turmoil, Tam and Gonathon remained committed to one another, with Tam consoling Gonathon and confronting her about her relationship with Mordan Ramsey and Gonathon telling Tam of the wondrous statue the knight had built for her in the future. In a day filled with darkness and grief, the queen’s return was one of the sole shining lights for the knight, but it remains to be seen whether this bond will endure.",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 45.25650822501478,
+              "HC": -346.99999999999983,
+              "VR": -3.241851231905457e-14,
+              "HR": 18.99999999999999
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-princess-iphania-top-2-bottom-2",
+          "source": "cecilia-immerkind",
+          "target": "princess-iphania",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#4f80f0",
+            "strokeDasharray": ""
+          },
+          "data": {
+            "relationshipId": "unrequited-love",
+            "title": "One And Only",
+            "content": "Cecilia begins her day by seeking audience with the princess. Enamored by her beauty and grace, Cecilia finds herself spell bound by her presence and [scent](https://www.youtube.com/live/NGC0VaSUPnE?t=990s).\n\nUpon their harrowing journey at Star Site: Elpis, Cecilia returns to the princess, eager to hear her thoughts. But these expectations led to dissapointment as Iphania thought only of the [Outlander](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=15300s).\n\nHowever, these feelings were eased with the kind counsel of Queen Tammy and Cecilia finds new hope to earn Iphania's love. She doubles her efforts to earn enough gold, pay her debt, and [purchases the ring](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=19525s) for the princess.\n\n## Fanart\n\n[Cecilia and the Princess by Eule Winters](https://x.com/Eule_Winters/status/1919969659094499795)\n\n[My Shining Stars by Zeya](https://x.com/NOminishki/status/1920011853004001565)",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-hot-pink-one-right-2-right-1",
+          "source": "cecilia-immerkind",
+          "target": "hot-pink-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "koseki-bijou-nino-ina-the-hot-purple-one-right-2-left-2",
+          "source": "koseki-bijou",
+          "target": "nino-ina-the-hot-purple-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "relationshipId": "family",
+            "title": "Wooden Potato",
+            "content": "After a period of inactivity since literally the first day, the Potato Club finally gained its third member! — a refreshing development after the [indescribable chaos](https://x.com/ninomaeinanis/status/1919824275546190253) while the Hero was slumbering.\n\nWith her faith dedicated to the potato fairy, NinoIna had no qualms [turning away](https://youtu.be/l9HKSDG50HM?t=539s) from the \"bread\"-centric shenanigans of her rambunctious consort eternal. Perhaps the spud's elusive simplicity (and its complex carb goodness) could also shield [others](https://youtu.be/l9HKSDG50HM?t=5046s) who consume it?\n\nPOTATO!",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-koseki-bijou-bottom-1-top-3",
+          "source": "cecilia-immerkind",
+          "target": "koseki-bijou",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#06a84b"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-gonathon-g-bottom-1-top-3",
+          "source": "hot-pink-one",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-gonathon-g-left-2-right-3",
+          "source": "cecilia-immerkind",
+          "target": "gonathon-g",
+          "sourceHandle": "left-2",
+          "targetHandle": "right-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "relationshipId": "the-wolf-pack",
+            "title": "The Kind and the Humble Knight",
+            "content": "<!-- The Kind Knight and the Humble Knight -->\n\nGonathon calls Cecilia to impart critical information concerning the [Princess Bijou and the \"In Breads\"](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=5422s). However, Cecilia calms Gonathon's concerns and declares her full trust with Bijou.\n\nAs Cecilia prepared to retire for the night, she receives an urgent call from Gonathon. Realizing how distraught her friend is, she listens intently to the intricate [and complex situation Gonathon found themselves in](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=20300s). Cecilia quickly departs from the castle to meet Gonathon.\n\nCecilia sets Gonathon aside and urgently implores them to think about their own mind and heart. She sends this letter quickly in the hopes that it will remind Gonathon about what's important when they need it most.\n\n[Listen to your heart and mind](#embed:https://www.youtube.com/watch?v=NGC0VaSUPnE&t=21370s)",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": -96.4558506186102,
+              "HC": 0,
+              "VR": 97.3425799489625,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-takanashi-kiara-left-3-top-3",
+          "source": "cecilia-immerkind",
+          "target": "takanashi-kiara",
+          "sourceHandle": "left-3",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-koseki-bijou-top-1-bottom-3",
+          "source": "hot-pink-one",
+          "target": "koseki-bijou",
+          "sourceHandle": "top-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-roa-pandora-left-1-top-3",
+          "source": "hot-pink-one",
+          "target": "roa-pandora",
+          "sourceHandle": "left-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-nyavella-mori-calliope-bottom-2-top-2",
+          "source": "shiori-nyavella",
+          "target": "mori-calliope",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-nerissa-ravencroft-bottom-2-top-2",
+          "source": "hot-pink-one",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-elizabeth-rose-bloodflame-left-1-right-1",
+          "source": "cecilia-immerkind",
+          "target": "elizabeth-rose-bloodflame",
+          "sourceHandle": "left-1",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-takanashi-kiara-left-2-bottom-2",
+          "source": "gonathon-g",
+          "target": "takanashi-kiara",
+          "sourceHandle": "left-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "takanashi-kiara-elizabeth-rose-bloodflame-right-2-left-2",
+          "source": "takanashi-kiara",
+          "target": "elizabeth-rose-bloodflame",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "princess-iphania-the-outsider-right-2-left-2",
+          "source": "princess-iphania",
+          "target": "the-outsider",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "peasant-da-bae-gonathon-g-top-1-left-0",
+          "source": "peasant-da-bae",
+          "target": "gonathon-g",
+          "sourceHandle": "top-1",
+          "targetHandle": "left-0",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-nyavella-koseki-bijou-top-1-bottom-4",
+          "source": "shiori-nyavella",
+          "target": "koseki-bijou",
+          "sourceHandle": "top-1",
+          "targetHandle": "bottom-4",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "Severed, but still there",
+            "content": "The two had once been bound in matrimony—among the very first to do so, long before this new journey ever began. But due to circumstances no one could’ve foreseen, Koseki Bijou had made the decision to sever the bond she once shared with Shiori Novella.\n\nThat, however, was a story of the past. And what mattered now… was the present.\n\n[Rock hard for you](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=fQJJmgoe94G0lyb7&t=12979)\n\nAfter experiencing heartbreak—after reaching out to someone she thought she could capture the heart of—Shiori was left reeling. It was then that Bijou came to offer her condolences. There were no grand gestures, no theatrics, just quiet honesty.\n\nThe two reminisced. About the laughter. The sadness. The adventures they’d shared. About the child they once had together. The conversation was soft, grounded—real. And in that stillness, something shifted. A moment that perhaps mended what was once cut. A thread that may yet be rewoven. Maybe, just maybe, there was a chance to begin again.\n",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 37.313807137806336,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "koseki-bijou-tam-gandr-top-2-top-2",
+          "source": "koseki-bijou",
+          "target": "tam-gandr",
+          "sourceHandle": "top-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "relationshipId": "family",
+            "title": "Not Again...",
+            "content": "If I had a nickel for every time Koseki Bijou randomly forced someone of Queenly status into becoming her mother—purely because she considered herself a princess, relation be damned—I’d have three nickels. Which isn’t a lot, but somehow, it’s still way more than it should be.\n\nAnd Tam—*or* Kronii, by this point—was the third lucky (or unlucky) nickel in that bizarre collection.\n\n[Stepmom](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=etz5HD7bApu5gkq3&t=11936)\n\nKronii tried to worm her way out of the whole thing, but just like with Elizabeth Rose Bloodflame, the gem maiden was far too cunning, far too slippery, and far too persistent to be shaken off.\n\n[You have your mother's eyes](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=3wQ1uFGal6EzOCiR&t=17320)",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 72.05424826610876,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-tam-gandr-right-1-top-3",
+          "source": "cecilia-immerkind",
+          "target": "tam-gandr",
+          "sourceHandle": "right-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#51d2b9"
+          },
+          "data": {
+            "relationshipId": "friends",
+            "title": "Drinks between Queen and Knight",
+            "content": "<!-- Drinks between Queen and Knight -->\n<!-- Friends -->\n\nAfter the conclusion of Star Site: Chronos, Cecilia and friends surround Kronii and heap praise upon her. However, the group is appalled to learn that her new status has made her different. Cecilia questions Tammy about whether the [european kisses and drinks shared](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=14720s) still matter to her.\n\nOnce Immerkind learns the truth of The Outsider, Tam Gandr explains how time travel can still making Iphania and The Outsider siblings. This means Cecilia still has a chance and this moment brings Queen Tam and Cecilia.\n\n[Drinks under the bridge](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=PSdF1DRfJUXe6ZXR&t=15970)",
+            "pathType": "smoothstep",
+            "day": 3
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-nerissa-ravencroft-right-1-left-1",
+          "source": "gonathon-g",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "right-1",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "relationshipId": "the-wolf-pack",
+            "title": "New Pup in the Wolf Pack",
+            "content": "One of the few bright spots in Gonathon’s day was the introduction of Nerissa Ravencroft to the Wolf Pack. While Nerissa initially was identified as a member of the Breads when she was caught spying by the Pack, she quickly reassured them of her desire to join them. \n\nHer dedication was cemented in her assistance with two dungeon trials, and while her interactions with Gonathon beyond that, her kindness and gentle heart may prove invaluable given the myriad of traumas Gonathon had experienced that day. \n\n[Awooooo!](#embed:https://www.youtube.com/live/BSPi8sTHdAY?si=Ny1DCTDh4NkMIP-h&t=2805) ",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-koseki-bijou-left-3-left-3",
+          "source": "gonathon-g",
+          "target": "koseki-bijou",
+          "sourceHandle": "left-3",
+          "targetHandle": "left-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ecbe5b"
+          },
+          "data": {
+            "relationshipId": "alliance",
+            "title": "A Rock and a Hard Place",
+            "content": "While taking a trip to Gacharms to obtain some charms, what started as a casual conversation with Princess Bijou soon took a turn when the young gem revealed to Gonathon the history of her stain [corruption](https://www.youtube.com/live/BSPi8sTHdAY?si=kbE6-YQRyp3CFpJQ&t=715) and theorized that Bae the Peasant might be next. While Gonathon was at first suspicious that Bijou herself might be corrupted, she was soon pacified by Bijou’s assurances and agreed to assist her against Bae should the peasant turn.\n\nSoon after, Gonathon brough Bijou to Mordan’s basement and introduced her to the [Wolf Pack](https://www.youtube.com/live/BSPi8sTHdAY?si=mVR0jSVdL_aFNKuq&t=2616). The knight explained that as the InBreads and Wolves were mortal enemies, that siding with one meant rejecting the other. While Bijou felt she had that dawg in her, she wasn’t sure of where her path lay at the moment. Not wishing to push her further, Gonathon reassured her that no matter what they would remain friends.\n \nSadly, the knight and gem’s interactions took a turn for the awkward later in the day when, following Gonathon’s disastrous fumbling of her relationship with Shiori (See [Gonathon-Shiori: Trials of the Witch](#edge:gonathon-g-shiori-nyavella-top-2-bottom-1)), the distraught knight was informed by Bijou that not only had she recovered her own memories of her past, but that she and Shiori had reaffirmed their love for one another. While Gonathon does not seem to bear any ill will towards Bijou, this new development could not have come at a worse time. ",
+            "pathType": "custom",
+            "day": 3,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -238.35490866188465,
+              "VR": -47.67098173237693,
+              "HR": 0
+            }
           },
           "selected": false
         }
@@ -2645,6 +3629,34 @@
       "name": "The Wolf Pack",
       "style": {
         "stroke": "#c56034"
+      }
+    },
+    "friends": {
+      "id": "friends",
+      "name": "Friends",
+      "style": {
+        "stroke": "#51d2b9"
+      }
+    },
+    "no-longer-together": {
+      "id": "no-longer-together",
+      "name": "No Longer Together",
+      "style": {
+        "stroke": "#1a1a1a"
+      }
+    },
+    "alliance": {
+      "id": "alliance",
+      "name": "Alliance",
+      "style": {
+        "stroke": "#ecbe5b"
+      }
+    },
+    "knight": {
+      "id": "knight",
+      "name": "Knight",
+      "style": {
+        "stroke": "#afc0ca"
       }
     }
   },
