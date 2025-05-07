@@ -1,11 +1,13 @@
 import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { memo, useEffect, useId, useMemo, useRef } from "react";
+import { memo, useMemo } from "react";
 
 import "@/components/view/ViewCustomEdge.css";
+import { BaseEdge } from "@xyflow/react";
 
 const ViewCustomEdge = ({
+    id,
     data,
     selectable,
     style,
@@ -18,10 +20,8 @@ const ViewCustomEdge = ({
     selected,
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
-    const pathRef = useRef<SVGPathElement>(null);
-    const maskId = useId();
-    const { strokeDasharray, ...restStyle } = style || {};
-
+    const maskId = `${id}-newly-added-mask`;
+    
     const path = useMemo(
         () =>
             generatePath(
@@ -46,20 +46,6 @@ const ViewCustomEdge = ({
         ],
     );
 
-    useEffect(() => {
-        if (isNewlyAdded && pathRef.current) {
-            const length = pathRef.current.getTotalLength();
-            pathRef.current.style.strokeDasharray = `${length}`;
-            pathRef.current.style.strokeDashoffset = `${length}`;
-            pathRef.current.style.animation =
-                "drawLine 1s ease-in-out forwards";
-        } else if (pathRef.current) {
-            pathRef.current.style.strokeDasharray = "none";
-            pathRef.current.style.strokeDashoffset = "none";
-            pathRef.current.style.animation = "none";
-        }
-    }, [isNewlyAdded]);
-
     return (
         <g
             className={cn(
@@ -72,48 +58,35 @@ const ViewCustomEdge = ({
                 },
             )}
         >
-            {/* Mask for dashed edges */}
             <defs>
-                {strokeDasharray && (
-                    <mask id={maskId} y={"-20%"} height={"130%"}>
+                { isNewlyAdded && 
+                    /* Mask for line drawing animation */
+                    <mask id={maskId}>
                         <path
                             d={path}
                             stroke="white"
                             strokeWidth={selected ? 7 : 5}
-                            strokeDasharray={strokeDasharray}
+                            pathLength="1"
                             fill="none"
                             strokeLinecap="round"
-                            className={cn({
-                                "custom-edge": !selected,
-                                "custom-edge-selected": selected,
-                            })}
+                            className="new-custom-edge-mask-path"
                         />
                     </mask>
-                )}
+                }
             </defs>
 
-            {/* Transparent click area */}
-            <path
-                d={path}
-                fill="none"
-                stroke="transparent"
-                strokeWidth={25}
-                strokeLinecap="round"
-            />
-
-            {/* Actual edge with mask applied if dashed */}
-            <path
-                ref={pathRef}
-                d={path}
+            <BaseEdge
+                path={path}
+                interactionWidth={25}
                 style={{
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
-                    ...restStyle,
+                    ...style,
                 }}
                 className={cn({
                     "custom-edge": !selected,
                     "custom-edge-selected": selected,
                 })}
-                mask={strokeDasharray ? `url(#${maskId})` : undefined}
+                mask={isNewlyAdded ? `url(#${maskId})` : undefined}
             />
 
             {/* Animated light effect when selected */}
