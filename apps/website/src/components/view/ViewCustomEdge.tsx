@@ -82,10 +82,7 @@ const ViewCustomEdge = ({
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
                     ...style,
                 }}
-                className={cn({
-                    "custom-edge": !selected,
-                    "custom-edge-selected": selected,
-                })}
+                className={cn("custom-edge", { "custom-edge-selected": selected })}
                 mask={isNewlyAdded ? `url(#${maskId})` : undefined}
             />
 
