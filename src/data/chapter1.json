@@ -2005,15 +2005,15 @@
           "dragging": false
         },
         {
-          "id": "the-outsider",
+          "id": "the-outlander",
           "type": "image",
           "position": {
             "x": 1225,
             "y": 50
           },
           "data": {
-            "title": "The Outsider",
-            "content": "Having long heard tales and legends of the enigmatic hero known as the Outlander, our heroes finally stood face-to-face with the man himself. He spoke with weariness and weight in his voice, revealing his current plight—locked in a struggle to keep the creeping Stains at bay. In doing so, he had become trapped, and warned the heroes to stay away.\n\n[The Nameless Swordsman](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=qveipVP2y98ikBG3&t=4927)\n\nBut he had sorely underestimated them.\n\nDefying his expectations, the heroes pushed forward and conquered the Stronghold of Ruin, ultimately breaking the Outlander free from his prison. Though no longer bound, he remained cautious, skeptical of their purpose. He challenged the prophecy they carried, claiming their so-called mission to \"save the world\" would instead usher in something far worse—a Greater Evil.\n\nHe offered no further explanation. With cryptic words hanging in the air, he turned away and disappeared, heading to wherever fate next called him.\n\n[Saving the world?](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=j0u5w9W8hHWcmSfJ&t=6423)\n\nBut oddly enough, he was found within the castle of Libestal's guest room, having a one on one conversation with the Princess (see [Outlander-Princess: The Next Step](#edge:princess-iphania-the-outsider-right-2-left-2)).",
+            "title": "The Outlander",
+            "content": "Having long heard tales and legends of the enigmatic hero known as the Outlander, our heroes finally stood face-to-face with the man himself. He spoke with weariness and weight in his voice, revealing his current plight—locked in a struggle to keep the creeping Stains at bay. In doing so, he had become trapped, and warned the heroes to stay away.\n\n[The Nameless Swordsman](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=qveipVP2y98ikBG3&t=4927)\n\nBut he had sorely underestimated them.\n\nDefying his expectations, the heroes pushed forward and conquered the Stronghold of Ruin, ultimately breaking the Outlander free from his prison. Though no longer bound, he remained cautious, skeptical of their purpose. He challenged the prophecy they carried, claiming their so-called mission to \"save the world\" would instead usher in something far worse—a Greater Evil.\n\nHe offered no further explanation. With cryptic words hanging in the air, he turned away and disappeared, heading to wherever fate next called him.\n\n[Saving the world?](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=j0u5w9W8hHWcmSfJ&t=6423)\n\nBut oddly enough, he was found within the castle of Libestal's guest room, having a one on one conversation with the Princess (see [Outlander-Princess: The Next Step](#edge:princess-iphania-the-outlander-right-2-left-2)).",
             "imageSrc": "/images-opt/the-outsider.webp",
             "teamId": "none",
             "status": "Alive",
@@ -2147,7 +2147,8 @@
           "targetHandle": "top-2",
           "type": "fixed",
           "style": {
-            "stroke": "#e30d0d"
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
           },
           "data": {
             "day": 1
@@ -2497,9 +2498,9 @@
           "selected": false
         },
         {
-          "id": "princess-iphania-the-outsider-right-2-left-2",
+          "id": "princess-iphania-the-outlander-right-2-left-2",
           "source": "princess-iphania",
-          "target": "the-outsider",
+          "target": "the-outlander",
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
