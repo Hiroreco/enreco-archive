@@ -404,6 +404,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onCharacterVisibilityChange={
                         viewStore.setCharacterVisibility
                     }
+                    chapter={viewStore.chapter}
                     chapterData={chapterData}
                     setChartShrink={setChartShrinkAndFit}
                     day={viewStore.day}
