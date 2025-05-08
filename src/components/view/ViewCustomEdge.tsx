@@ -20,7 +20,7 @@ const ViewCustomEdge = ({
     selected
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
-    const maskId = `${id}-newly-added-mask`;
+    const maskId = `${id}-newly-added-mask-${data?.day}`;
     
     const path = useMemo(
         () =>
@@ -63,14 +63,13 @@ const ViewCustomEdge = ({
             <defs>
                 { isNewlyAdded && 
                     /* Mask for line drawing animation */
-                    <mask id={maskId}>
+                    <mask id={maskId} maskUnits="userSpaceOnUse">
                         <path
                             d={path}
                             stroke="white"
                             strokeWidth={selected ? 7 : 5}
                             pathLength="1"
                             fill="none"
-                            strokeLinecap="round"
                             className="new-custom-edge-mask-path"
                         />
                     </mask>
@@ -82,10 +81,13 @@ const ViewCustomEdge = ({
                 interactionWidth={25}
                 style={{
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
+                    maskImage: isNewlyAdded ? `url(#${maskId})` : undefined,
                     ...style,
                 }}
-                className={cn("custom-edge", { "custom-edge-selected": selected })}
-                mask={isNewlyAdded ? `url(#${maskId})` : undefined}
+                className={cn("custom-edge", { 
+                    "custom-edge-selected": selected,
+                    "new-custom-edge": isNewlyAdded
+                })}
             />
 
             {/* Animated light effect when selected */}

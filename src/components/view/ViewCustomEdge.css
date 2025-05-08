@@ -11,10 +11,15 @@
     stroke-width: 7px;
 }
 
+.new-custom-edge {
+    mask: none 0% 0% repeat stroke-box stroke-box; 
+}
+
 .new-custom-edge-mask-path {
     stroke-dashoffset: 1;
     stroke-dasharray: 1;
     animation: drawLine 1s ease-in-out forwards;
+    animation-delay: 100ms;
 }
 
 @keyframes drawLine {
