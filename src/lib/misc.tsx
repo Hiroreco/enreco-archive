@@ -35,8 +35,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Alfy",
-                socials:
-                    "https://x.com/knightalfy?s=21&t=BK74P_JoXiHZQYXSh_0W-A",
+                socials: "https://x.com/knightalfy",
             },
             {
                 name: "KugaGray",
