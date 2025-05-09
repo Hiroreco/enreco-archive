@@ -54,6 +54,14 @@ export const CONTRIBUTORS = [
                 name: "Sloth",
                 socials: null,
             },
+            {
+                name: "SB",
+                socials: "https://x.com/SBERBholo"
+            },
+            {
+                name: "Zel",
+                socials: "https://x.com/zelmaelstrom"
+            }
         ],
     },
     {
