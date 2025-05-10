@@ -5714,14 +5714,14 @@
           "data": {
             "relationshipId": "friends",
             "title": "I Like Potatoes, I Don't Like Tomatoes",
-            "content": "In a sea of dramatic and trauma-afflicted companions, the curious NinoIna served as an eccentric but comforting presence for the weary Gonathon G Upon every meeting, the two would touch potatoes and ponder the simple things in life. Today, they adventured together to collect materials to prepare for the upcoming final dungeon: The Heart of Ruin. It was during their questing that perhaps their most peculiar conversation took place: about what future chapters lay in store for them, and just how many chapters they would have to endure. ",
+            "content": "In a sea of dramatic and trauma-afflicted companions, the curious NinoIna served as an eccentric but comforting presence for the weary Gonathon G. Upon every meeting, the two would touch potatoes and ponder the simple things in life. Today, they adventured together to collect materials to prepare for the upcoming final dungeon: The Heart of Ruin. It was during their questing that perhaps their most peculiar conversation took place: about what future chapters lay in store for them, and just how many chapters they would have to endure. ",
             "pathType": "custom",
             "day": 5,
             "offsets": {
               "HL": 0,
               "VL": -45.54356889259381,
               "HC": 0,
-              "VR": -48.14653895087835,
+              "VR": -45.64653895087835,
               "HR": 0
             }
           },
