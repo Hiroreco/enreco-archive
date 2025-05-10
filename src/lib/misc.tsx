@@ -51,7 +51,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Sloth",
-                socials: null,
+                socials: "https://x.com/Sloth4784",
             },
             {
                 name: "SB",
@@ -60,6 +60,14 @@ export const CONTRIBUTORS = [
             {
                 name: "Zel",
                 socials: "https://x.com/zelmaelstrom"
+            },
+            {
+                name: "Squid",
+                socials: "https://x.com/Squid_the_Weeb"
+            },
+            {
+                name: "fast_as_nuk",
+                socials: "https://x.com/fast_as_nuk"
             }
         ],
     },
