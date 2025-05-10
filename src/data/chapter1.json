@@ -5863,7 +5863,7 @@
       "id": "maid",
       "name": "Maid",
       "style": {
-        "stroke": "#000080",
+        "stroke": "#1c1cce",
         "strokeDasharray": "10, 20"
       }
     },
