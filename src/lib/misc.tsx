@@ -35,8 +35,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Alfy",
-                socials:
-                    "https://x.com/knightalfy?s=21&t=BK74P_JoXiHZQYXSh_0W-A",
+                socials: "https://x.com/knightalfy",
             },
             {
                 name: "KugaGray",
@@ -52,8 +51,28 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Sloth",
-                socials: null,
+                socials: "https://x.com/Sloth4784",
             },
+            {
+                name: "SB",
+                socials: "https://x.com/SBERBholo"
+            },
+            {
+                name: "Zel",
+                socials: "https://x.com/zelmaelstrom"
+            },
+            {
+                name: "Squid",
+                socials: "https://x.com/Squid_the_Weeb"
+            },
+            {
+                name: "fast_as_nuk",
+                socials: "https://x.com/fast_as_nuk"
+            },
+            {
+                name: "Perks",
+                socials: "https://x.com/PerksJAZZBERI"
+            }
         ],
     },
     {
