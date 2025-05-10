@@ -68,6 +68,10 @@ export const CONTRIBUTORS = [
             {
                 name: "fast_as_nuk",
                 socials: "https://x.com/fast_as_nuk"
+            },
+            {
+                name: "Perks",
+                socials: "https://x.com/PerksJAZZBERI"
             }
         ],
     },
