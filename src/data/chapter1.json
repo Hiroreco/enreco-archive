@@ -5548,18 +5548,7 @@
             "stroke": "#ecbe5b"
           },
           "data": {
-            "relationshipId": "alliance",
-            "title": "",
-            "content": "",
-            "pathType": "custom",
-            "day": 5,
-            "offsets": {
-              "HL": 0,
-              "VL": 0,
-              "HC": -238.35490866188465,
-              "VR": -47.67098173237693,
-              "HR": 0
-            }
+            "day": 4
           },
           "selected": false
         },
