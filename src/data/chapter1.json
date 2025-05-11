@@ -1,5 +1,5 @@
 {
-  "numberOfDays": 6,
+  "numberOfDays": 7,
   "title": "The Chains of Fate",
   "charts": [
     {
@@ -5728,6 +5728,1114 @@
               "VL": -45.54356889259381,
               "HC": 0,
               "VR": -45.64653895087835,
+              "HR": 0
+            }
+          },
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayRecap": "## Day 7: The Joy of Life\n\nThe day before the finale—when conflicts begin to settle, knots are untied, and long-awaited resolutions unfold. If saving the world and, ultimately, the universe was ever going to happen, it had to be today.\n\nThis was the day our heroes confronted their ultimate task: to destroy the Heart of Ruin, the very reason they had come to this world. All 15 gathered together, united in purpose, ready to face the so-called final boss... or so they thought.\n\nThings didn’t go as smoothly. Some fell to curses, turning against their own, forcing the others to bring them back from the brink. Only then did the true antagonist reveal itself—the creeping evil that had long poisoned the land and now threatened to consume all. And even when they triumphed, there lingered an unease, a feeling that this wasn’t truly over. Something still felt... off.\n\n![The battle against The Curse](/images-opt/curse.webp)\n\nBut for now, their mission was complete. And so came the time for resolutions.\n\nBittersweet closure found its way into Gonathon and Shiori’s story. An unexpected wedding tied together a certain cat lady and her feline partner, Shakira and Roa. A surprisingly heartfelt display of brotherhood emerged between Gonathon and Peasant Bae. Even Elizabeth and Nerissa, for once, shared something more than a witch-themed bickering exchange. Progress—real progress—was made, all rooted in one thing: bonds, connection, and reconciliation.\n\n...Well, almost all.\n\nOne storyline stood defiant in its absurdity.\n\nIn a day full of meaningful moments, a gender reveal party somehow stole the show in the most chaotic way possible. Yes, Miss Hot Pink One struck again—introducing yet more insanity to the kingdom with her ambiguous stomach situation. While others were weaving connections and building bridges, she was... doing the exact opposite. Her logic remained a mystery, one that seemed less like a riddle and more like a dare to comprehend.\n\n![The Pink One's ~~gas~~ gender reveal party](/images-opt/gender.webp)\n\nStill, one day remains. Let’s see how it all ends.\n",
+      "title": "The Joy of Life",
+      "nodes": [
+        {
+          "id": "fuwawa-abyssguard",
+          "type": "image",
+          "position": {
+            "x": 1450,
+            "y": 800
+          },
+          "data": {
+            "title": "Fuwawa Abyssguard",
+            "content": "It's party day! The commission Shiori gave Fuwawa was finally due, and it was time for her to gather all her best dishes for the special event.\n\n[The big day](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=437)\n\nRoa, Nerissa, Elizabeth—many were [excited](https://www.youtube.com/live/eKVBp9EgDLc?t=2104) to taste her food, which gave her all the motivation she needed to start preparing. She foraged, harvested, and cooked up chicken, cakes, salads—every kind of cuisine she could think of.\n\nBut before the event, there was one last thing she had to do: finish the final dungeon, the whole [\"saving the world\"](https://www.youtube.com/live/eKVBp9EgDLc?t=5273) ordeal. So she joined the remaining heroes, got possessed and fought her comrades, got saved, fought the final boss, and helped save the world. You know, the minor stuff. She promptly left to get back to her real priority—finishing her preparations.\n\nFuwawa had come a long way since the early days of dreaming about a humble stall where her food could make people smile. She had faced moments of doubt, times when she felt like giving up, but she stayed strong. Her perseverance paid off—from one customer to many, from earning nothing to raking in thousands of coins. None of it would’ve been possible without her dedication—and the friends who stood by her in her darkest times. She felt deeply grateful to them.\n\n[A letter of appreciation](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=8320)\n\nThe party began. Fuwawa brought all the food she’d prepared—an impressive spread. It was... definitely a [strange party](https://www.youtube.com/live/eKVBp9EgDLc?t=8786), to say the least. Fuwawa didn’t quite understand most of what was going on, but what really mattered to her was whether people enjoyed her cooking.\n\n[Food! Food!](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=8876)\n\nShe moved through the crowd, [offering](https://www.youtube.com/live/eKVBp9EgDLc?t=9248) samples of her dishes—and the response was overwhelmingly positive. Everyone loved it.\n\nFuwawa was happy. It was a special day, and she wouldn’t trade it for the world.\n\n[Today was a special day](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=9576)",
+            "imageSrc": "images-opt/Fuwawa-Abyssgard_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#67b2ff"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mococo-abyssguard",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 325
+          },
+          "data": {
+            "day": 5
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 800
+          },
+          "data": {
+            "title": "Elizabeth Smith Bloodflame",
+            "content": "**Are You Okay?**\n\nAnother day, another journal. Elizabeth is worried about keeping *someone* safe. Yet when she looks at Thorn and strikes at the enemy, it cuts differently now. Flashes of ink splashed across a page seared into her memory. Thoughts of accosting someone without cause, without jury, without...justice.\n\n***Which home do you want to go back to?***\n\nWith the start of her day, Elizabeth takes a brief moment to admire the sunrise before the call of the ominous music returns. She lets out a heavy sigh, tired of hearing this tune. She worries about her sister Mococo and the pretty kitty Roa.\n\nThat entices her to pull her phone out and call Roa, asking if she was okay due to how upset she seemed yesterday. It doesn't take much for concern to take over when Roa states she feels ill and her stomach is still upset from being cursed. Swiftly, the Jade Knight buys and provides the other with a coin slime tart and a chocolate cake at the cost of nearly 300 of her coins.\n\nAs the two chat, Nerissa shows up, causing the fur on Roa's tail to stand up. Bloodfumble makes herself known again when Nerissa admits that she [stayed the night](https://www.youtube.com/live/sDjysXFWYbI?t=854) in Lady Bloodflame's room. Offering the same to Roa with Nerissa in the room only infuriates and frustrates Roa and causes her to run off.\n\n\"I wonder why Roa doesn't trust Rissa.\"\n\nOnce again, that damned ominous music returns. Nerissa had said she was fine, Elizabeth mumbled to herself (see [Elizabeth-Nerissa: Forget or Forgive](#edge:elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2)). Still, she worries and rushes next door, calling for Nerissa multiple times before breaking down the door.\n\nAs a knight, it's her *duty* to protect. She has to do this. Elizabeth needs to know that the Witch is safe!\n\nYet inside the house, tucked into the corner, is a trapdoor that draws her eye, just barely peeking out above the ground. Scared of something deeper and darker, she quickly descends below. Her feet rush through the tight halls until she's face-to-face with the truth.\n\n[A jukebox.](https://www.youtube.com/live/sDjysXFWYbI?t=2065)\n\n***A trick.***\n\n\"Being played a fool. What a foolish knight I am.\" Elizabeth whispers to herself.\n\n\"She was low the other day and was just playing a trick on me to make me feel better,\" Elizabeth lies to herself. \"I will see the brighter side.\"\n\nEven so, she worries. *Is Ravencroft okay?*\n\nOnce again, Roa appears next to the knight, her disdain for the Witch directly making itself known. Yet Elizabeth still, despite the trickery, defends Nerissa. She informs Roa that Shiori is the dangerous one. The story given to Nerissa painted Elizabeth more as a villain than a hero—someone cold, callous, and terrible.\n\nThings unbecoming of a knight.\n\n***F̵o̵r̸ ̷J̸u̸s̶t̴i̷c̵e̶-̴***\n\nShaking her head, Elizabeth makes her way back to the forge, where she takes a brief moment to talk to the Mighty Phoenix, making a note in the back of her mind to gift flowers to her business partner. Moving to her basement puts Elizabeth face-to-face with the memories of the unknown framed upon her wall.\n\nGathering some wood and coal, she makes it to the edge of the woods and starts a campfire. Holding the memories, Elizabeth scoffs and [tosses them into the flames](https://www.youtube.com/live/sDjysXFWYbI?t=5712).\n\n***O̴̠͋h̶͇͂,̴͙̕ ̵͚͋t̴̠́h̷̄ͅè̴̟ ̵̢̈́m̸̫̄ẽ̵̟m̷̟͒o̷̥̓r̸̜̓i̸͚͝ȅ̷̤s̴̹̅.̵̝͌ ̴͚̾Ĕ̵̥v̷̟̆ě̶̗ṙ̵̪y̷̤̆ȍ̶͎n̸͇̓e̸͙̋ ̵̠̍ẘ̶͜ǎ̴̦n̶͈̉ţ̵̍s̶̱̏ ̶͕̂ẗ̸͈́o̶̤͑ ̶̼̈́b̶͍͝ę̴̐ ̶̥̓m̷̰̍ỵ̶͐ ̶͌͜ȇ̶̯n̴͕͐e̷̮̔ḿ̶͎ỳ̷̳.̵͓̋***\n\n*I won't let these memories hurt Nerissa. These lies and scams.*\n\nShiori tries to approach Elizabeth more than once, but the strong knight ignores her and walks on past without a word. She has to focus on the dungeon—on saving Libestal.\n\nStepping into the dungeon with everyone else simultaneously to face the final boss together, they instead face something even more terrifying.\n\nElizabeth must face her friends. Must face...Nerissa.\n\nWithout warning, Elizabeth loses control of her own body. Nerissa giggles sweetly in her ear.\n\n['*Hello. Lady Bloodflame.*'](https://www.youtube.com/live/sDjysXFWYbI?t=8923)\n\nThen suddenly, Nerissa is ejected out of her just as quickly as it happened. The Curse strikes out at them before they even have time to discuss what happens. Fighting against being wrapped and bound by the creature, the group wins. To finally defeat this evil that stained the Kingdom of Libestal.\n\n***D̵o̴ ̶y̵o̷u̴ ̷w̴a̶n̴t̸ ̶t̷o̶ ̸g̴o̴ ̶b̶a̵c̴k̷?̸***\n\nOnce free, she spots Roa with Shiori again and approaches, warning her about the evil Witch. Again, she is questioned about which one is truly the evil one: Shiori or Nerissa?\n\nYet despite that question, she asks Nerissa if she's okay after the dungeon. Again, she's asking Nerissa if she's OK. Is it the third time today? The fourth?\n\nA stop in the castle has her [staring at the paintings again](https://www.youtube.com/live/sDjysXFWYbI?t=10221). Shiori. Nerissa. Bijou. Fuwawa. Mococo. Why are their photos together?\n\nWhy were those five possessed in the dungeon?\n\n***Ⱨ₳Ɽ฿ł₦₲ɆⱤ Ø₣-***\n\nIn need of celebration, Elizabeth purchases a few supplies and returns to the forge, working on creating fireworks for the upcoming and somewhat questionable party. While working, [Nerissa stops in](https://www.youtube.com/live/sDjysXFWYbI?t=10432) to visit her and chat.\n\nElizabeth makes a few blue fireworks for Nerissa and red ones for herself. After a failed attempt at testing them during the day, Nerissa makes a suggestion.\n\nA trip together to the onsen.\n\nYet again, Roa shows up, and Elizabeth Bloodfumble returns full force. Nerissa walks off as Elizabeth offers to have all three attend the onsen together. Something Nerissa or Roa seems too keen on. Somewhere along the way, she loses Roa and searches for Nerissa, finding the onsen she wasn't aware of.\n\nWith the other already in the steamy and hot water, Elizabeth undresses and removes her helmet as she climbs into the opposite side, unaware of wandering eyes inside and outside the onsen.\n\nAfter spending time together in the onsen, the two quickly make their way to the event of the day.\n\nWith the... Gas party underway, Elizabeth finds herself at Nerissa's side throughout the entire thing. Even sharing a picnic.\n\nWalking back to the forge after the party, she takes a moment to [stare at the burning memories](https://www.youtube.com/live/sDjysXFWYbI?t=13731). Once again, she finds herself face-to-face with Nerissa.\n\n[\"You're also pretty too.\"](https://www.youtube.com/live/sDjysXFWYbI?si=038e-vGsvZvwxgJe&t=13938)\n\nIt comes out vocally this time. It's not a thought inside Elizabeth’s head—an admission of something.\n\n***A͓͓̽̽r͓͓̽̽e͓̽ ͓̽Y͓͓̽̽o͓͓̽̽u͓̽ ͓̽O͓͓̽̽k͓̽a͓͓̽̽y͓̽?***\n\nAgain, the question spills from her lips. Again, Nerissa says she's fine in that honeyed tone. Smiling, Elizabeth says they will talk on the morrow.\n\nBut Kiara comes with a warning. [Something to heed](https://www.youtube.com/live/sDjysXFWYbI?t=15003).\n\nCalling Nerissa a witch. Saying she casts curses. It's a horrible thing to do that might chip away at the other. It doesn't matter if Elizabeth thinks she is a good witch. She should apologize.\n\nBut is it a warning too late?\n\nIf a witch is fated to be a witch... Then a witch she shall be.",
+            "imageSrc": "images-opt/Elizabeth-Rose-Bloodflame_list_thumb.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#d46759"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "takanashi-kiara",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 800
+          },
+          "data": {
+            "day": 4
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "peasant-da-bae",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 525
+          },
+          "data": {
+            "title": "Peasant Da Bae",
+            "content": "The Peasant The Bae's day began once again. Soon, it will be her final day in this strange foreign land wherein she had seen many ups and downs in her life; hopefully, today will end in the peaks of romance. Cecilia Immerkind. And apparently, an It's Gas! party.\n\nBae was elated and nervous as she and [Cecilia spoke](https://youtu.be/Br6dvhVJ_IE?t=323). It's been a while, and soon they'll make their way into the final stages of their adventure. To hopefully hint at her intentions, Bae asked if they could save the world together (in exactly 24 minutes), to which Cecilia would respond enthusiastically. Though if she caught the intent behind the words, it wasn't shown.\n\nA brave Hero Bae may have become, she became a mother as well. She still has to [finish the room for Khaos and The Other One](https://youtu.be/Br6dvhVJ_IE?t=489). Perhaps she can add a small decoration to the room as well. One gacha box that the shopkeepers were selling had an opportunity to win a small figurine.\n\nAs she did her quests one final time, Bae fretted over Cecilia. She knew of the Kind Knight's passion and devotion to Princess Iphania, and it seemed she wasn't reciprocating Bae's hints. Doubt began to build up in Bae's heart. Mother, whoever 'Mother' is to Bae at this point, mentioned 'with love comes heartbreak,' and, indeed, Bae's endeavor would most likely end in failure. Was there a reason why she should go through with her confession? [Voices in her head spoke](https://youtu.be/Br6dvhVJ_IE?t=783): Closure.\n\nShe called Gonathan, a comrade who had stuck by her through everything, though it seemed the knight was busy with his affairs in the morning. But they met soon enough at the wagon where they waited for others to begin the final leg of their journey. They refined their plan: Bae would send a call to Gonathan to signal she was ready by the [Bridge in the first Remnant field](https://youtu.be/Br6dvhVJ_IE?t=1903), and Gonathan, when he received that call, would immediately bring Cecilia there.\n\n[The Queen has not risen!](#embed:https://youtu.be/Br6dvhVJ_IE?t=1962)\n\nIt seemed there were still a few more people missing from their party, and Bae took this chance to [watch the rest mingle](https://youtu.be/Br6dvhVJ_IE?t=2160). Mordan announced her auction while the Hot Pink One and a few others were feeling ill. Immerkind was also quite nearby. And another person. The Hero, NinoIna. [Bae talked to Ina](https://youtu.be/Br6dvhVJ_IE?t=2395), telling the Hero of her admiration when they fought the first time, back in the illusory Libestal. How Ina fought on, her gallant back shining. Ina, flattered, reminded Bae: Fight for those you cherish.\n\nEnergized, Bae agreed. But doubts lingered. She pulled Gonathan aside, and the Good Knight reassured her that he believes Bae does have a chance. As if summoned, Immerkind came by. Bae and Gonathan immediately changed the subject, and Bae checked her inventory to find that her letter was missing. \n\n*Her letter was missing*... [in a safe place](https://youtu.be/Br6dvhVJ_IE?t=2645). It was merely in a chest in her PP Hole for safekeeping. She quickly took it with her and showed Gonathan the beginnings of the room she was excavating for her ~~daughters~~ sons. Gonathan would then bring up the chance that Iphania was Fia (a jest Shiori originally told Cecilia to mess with her.) Immerkind would not love the cat romantically, so Bae still may have a chance to win her heart.\n\nOn their way back to the wagon, Bae and Gonathan would hear the words \"raise...\" and the pieces began to connect: sickness, 'raise', and 'life-altering changes.' IRyS was pregnant.\n\n[But then Gonathan Raised Another Concern](https://youtu.be/Br6dvhVJ_IE?t=2782)\n\nBae paused. *Is* there anyone in the kingdom qualified to help with childbi-\n\nOh, Queen Tammy has awoken! The hero Ina took the lead, counting to ensure everyone was ready. It was time.\n\nA series of bookshelves were in the dungeon, with books that told of... betrayal? Evil laughter echoed from Fuwawa, Mococo, Bijou, Nerissa, and Shiori. There was a strange glow to them as they flew. It is the **Advent** of our heroes' challenge as they must find a way to purify their friends and destroy the Ruination.\n\nThe books were meaningless; there were no hints, but soon Bae found they [must leave the room first](https://youtu.be/Br6dvhVJ_IE?t=3246), where they now found themselves in a series of platforms filled with Stains. With each Stain defeated, the purification grew, but their cursed comrades would try to [sabotage them](https://youtu.be/Br6dvhVJ_IE?t=3445). Eventually, they succeeded in saving their friends.\n\n[But there was a final challenge: The Curse](#embed:https://youtu.be/Br6dvhVJ_IE?t=3693)\n\nIt was the fiercest opponent our heroes had faced, as thorns would erupt everywhere from the dungeon. Curses would hit them, almost blackening their hearts. But it did not matter; the heroes have come too far to let it win. Even as the Curse attempted to heal itself, it could not compete with the fierce attacks that rained down. \n\n[Libestal Saved](#embed:https://youtu.be/Br6dvhVJ_IE?t=4009)\n\nIt was over. Their journey has finally come to an end. The Outlander and Princess Iphania soon arrived, thanking everyone for overturning Fate and saying that Libestal was in their debt. But another sweet moment would be had: [The Princess took a fallen doll into her arms](https://youtu.be/Br6dvhVJ_IE?t=4051). The Curse they were fighting was a doll- [Fia](https://youtu.be/Br6dvhVJ_IE?t=4051). The last parting gift Iphania had given to [her father](https://youtu.be/Br6dvhVJ_IE?t=4192) before he left to fight. A gift that finally returned to the Princess.\n\nBut Immerkind's love for the Princess was so well-known that the others grew worried. Iphania and the Outlander had left together in a tender moment. Bae asked Gonathan how Cecilia fared and was surprised to hear that she was doing fine. Whether that was true or not, Bae was determined to go through with her confession.\n\n[Bae is Ready](#embed:https://youtu.be/Br6dvhVJ_IE?t=4438)\n\nIn an attempt to be romantic, Bae would tell her to look at the moon... that's no longer there, but Bae pushed through, finally [handing over the letter](https://youtu.be/Br6dvhVJ_IE?t=4542) she put all her hopes and dreams into. Cecilia read it, her voice faltered at the start as she read Bea's confession out loud. Then, flowers for Cecili. But before Cecilia would take it, she would ask Bae a few questions: Was this truly what Bae wanted? Would Bae's mother want her to jump for the closest person?\n\n[Yes, it is you.](https://youtu.be/Br6dvhVJ_IE?t=4740)\n\n[Rejected.](https://youtu.be/Br6dvhVJ_IE?t=4764)  \n\nThere was no need to mince words or prolong a painful moment: Bae's love was for naught, for Immerkind, though thankful for Bae's feelings, must follow her own heart for the princess. Cecilia will stay in Libestal, and perhaps, one day, she and Bae may meet again and then they can talk. They parted, once friendly companions now sorely strained.\n\nSwiftly, Gonathan was by Bae's side. He witnessed the events and Bae's heartbreak.\n\n[*Gonathan...*](https://youtu.be/Br6dvhVJ_IE?t=4887) \n\nIn the throes of despair, Bae would drown herself in the river by the bridge. A twisted foil to the events that transpired before, but instead of Cecilia, it was Bae, and instead of Bae, there was Gonathan.\n\n[You died... For me?](https://youtu.be/Br6dvhVJ_IE?t=4911)\n\nBae drowned and awoke to see that Gonathan had followed her fate. Touched but still in despair, Bae would repeat and repeat her drowning, Gonathan. Followed. Every. Time. Through the waters, through Mordan Ramsay having the most atrocious timing in this dramatic moment, Gonathan was there.\n\nThe pain echoed within Gonathan as he blamed himself. Bae couldn't bear to see Gonathan, the best knight she has ever known, do that to himself. \nBae knew. They all did. Immerkind's obsessive love was not subtle; in fact, it was rather like throwing a brick into a china shop. There was no need for Gonathan to take such a burden on himself when the truth was always open for all to witness.\n\n[Bae is a mother now](https://youtu.be/Br6dvhVJ_IE?t=5144)\n\nBae had responsibilities now. She had kids that she must provide for, Khaos and The Other One. \n\n[My Brother.](https://youtu.be/Br6dvhVJ_IE?t=5214)\n\nThe flowers were always meant for someone Bae cared for, and who cared for her. It matters not anymore, love, to Bae. Her mother was right. Love brought pain and is unworthy of Bae's attention. There are more important matters: Her children, money, and her bro, Gonathan. With a toast to Bae's vow of celibacy under the light of the new moon, they solidified their newly forged Bromance, with a strong, firm handshake.\n\n[AWWWWWOOOOOOOOOOOOOO](https://youtu.be/Br6dvhVJ_IE?t=5329)\n\n\nNow, Bae's troubles past her, it was time to witness the strange party everyone's been invited to. Queen Tam inquired about her well-being, and Bae immediately replied she felt great. Who was Immerkind? Love was unneeded. [A small misunderstanding occurred](https://youtu.be/Br6dvhVJ_IE?t=5550) but was immediately resolved. She would live for Brotherhood and her kids, introducing the Hot Pink One to her [abandoned nephew](https://youtu.be/Br6dvhVJ_IE?t=5633).\n\nThe party soon started... but of course, [drama followed](https://youtu.be/Br6dvhVJ_IE?t=5761). Bae watched, entranced, at the drama unfolding before her and followed along. \n\n[... Who was going to deliver the child?](https://youtu.be/Br6dvhVJ_IE?t=5883)\n\nIgnoring *that*, Bae would soon look for the Queen, [finding her in her rather mossy abode](https://youtu.be/Br6dvhVJ_IE?t=5936). After entering properly, Bae had to ask about the situation and learned that no, the Queen shall not be the godparent to the child, and the Queen's love is herself. She also learned that the Queen will be staying in Libestal and revealed that Bae herself would leave to find her box that blasted Charlie left somewhere. \n\n[The goddess](https://youtu.be/Br6dvhVJ_IE?t=6239) would ask Bae where the Queen was, but Bae, on the promise of brotherhood, refused to say and would follow the group along. Eventually, the Hot Pink One gave birth. It's a gassy girl! [The less said, the better](https://youtu.be/Br6dvhVJ_IE?t=6744). The baby is named Gasol-Ina and would immediately be thrown into a family drama that ended in a duel where her Brother would defend the Queen, and a dissection would occur on the Hot Pink One's abdomen.\n\nBut romance was not dead, for Bae would witness [a wonderful wedding](https://youtu.be/Br6dvhVJ_IE?t=7715) between Kiara and Roa. After they took one last portrait for the questionable day, Bae would leave to fulfill her promise to her kids. A room. Oh, and [Gacha](https://youtu.be/Br6dvhVJ_IE?t=8062).\n\n[After many attempts, 36 attempts today, Bae finally obtained 2 Stain figures from the gacha box](https://youtu.be/Br6dvhVJ_IE?t=8199)\n\nFinally, Bae went to finalize the room for her children, Khaos and The Other One. Before long, it was done. Warm and comfortable, a bed for each with plenty of food supplied while Bae goes on her journey.\n\n[Kids' Room](https://youtu.be/Br6dvhVJ_IE?t=9402)\n\n[And The Other One is named... Chaoz](https://youtu.be/Br6dvhVJ_IE?t=9475)\n\nBijou called, and Bae was quick to invite her to see her child's room. Some music was also added too, a little entertainment for the children. Their Uncle Gonathan, too, came by to commemorate the moment.\n\nBut alas, with every high in life, there are lows, for [Bae was scammed](https://youtu.be/Br6dvhVJ_IE?t=10289), and her endeavours in [fireworks did not spark colour in her life](https://youtu.be/Br6dvhVJ_IE?t=11047).\n\nPerhaps the morrow would be a more joyous occasion for the Peasant The Bae.",
+            "imageSrc": "images-opt/Hakos-Baelz_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "In-bread",
+            "day": 6,
+            "bgCardColor": "#ff675d"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "roa-pandora",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 325
+          },
+          "data": {
+            "day": 5
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mori-calliope",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 1000
+          },
+          "data": {
+            "day": 4
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "shiori-nyavella",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 800
+          },
+          "data": {
+            "day": 5
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "cecilia-immerkind",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 325
+          },
+          "data": {
+            "day": 5
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nerissa-ravencroft",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 1000
+          },
+          "data": {
+            "title": "Nerissa",
+            "content": "**THE WITCH'S LAIR**\n\nMore and more people had [discovered](https://youtu.be/FlPFFE5_X3Y?t=7063) the secret shrine that was miraculously built under Nerissa's house. Surprisingly, she didn't look bothered; in fact, it rather seemed intentional that she allowed them to find it.\n\nAs if it were an invitation to a baptism of a transformed being.\n\n---\n\n[CORRUPTION](https://youtu.be/FlPFFE5_X3Y?t=8881)\n\nSo far, all of the dungeons had been conquered but one– the Heart of Ruin– the source of ruination, corrupting the whole of Libestal. \n\nThe heroes prepared, making sure they were fully equipped to ensure victory.\n\nAnd when the time was right, they entered the dungeon…  Until… \n\nNerissa noticed something was different.  She had been corrupted! Yet she was not alone, as a few other members-- Shiori of the Nyavella, the Fuzzy One, the Fluffy One, and Princess Bijou-- had been infected by the stains as well. \n\nHow they were chosen was unknown. One thing was clear, however: it was beyond their control, and it was up to their friends to save them… or, perhaps, take their lives if worse comes to worst.\n\nAnd as expected of the heroes, they did their best in winning their friends back as they attempted to purify them.\n\n---\n\n**SOMETHING PERSONAL?**\n\n\nFate was such a trickster. Having been possessed, the corruption guided Nerissa to [haunt](https://youtu.be/FlPFFE5_X3Y?t=9100) Roa Pandora, enabling her to see through the secrets of her heart. The corrupted “witch” finally confirmed and confronted her about the woman’s growing feelings for Lady Bloodflame and the jealousy she harbored for her blossoming relationship with Lady Bloodflame.\n\n*“You stole the red knight”*\n\n*“I stole no such thing,”* she quipped back. \n\n*\"You... evil witch! I knew you were evil from the very beginning\"*\n\nRoa Pandora struggled in fighting for her sanity, while the raven one laughed at her demise. \n\nAfter quite some time, the big cat was finally able to get out of her possession… Only at the cost of another person— [Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).\n\n\n---\n\n**THE FIRE THAT PURIFIES?**\n\n*“Come to your senses!”* the knight shouted.\n\n*“Come to my senses?* I think I came to those a long ago”\n\nIt did not take long for the valiant knight to overcome the possession. Was it because of divine protection?  Perhaps the “witch” has learned the red maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?\n\nBefore they knew it, the pure knight had [\"cleansed\"](https://youtu.be/FlPFFE5_X3Y?t=9259) Nerissa and won her over to their side again.\n\n---\n**THE HEART OF RUIN**\n\nYet, such was just the beginning... As the heroes had yet to face the heart of Ruin and bring to an end the evil it had caused. \n\nEntering the [final](https://youtu.be/FlPFFE5_X3Y?t=9412) dungeon, the warriors fought in all their might, side by side,  even those that had been corrupted once. Together, with their own skills and the power of their bonds, the Shining Stars had successfully defeated the The Curse, saving the world once more... \n\n---\n**SHATTERED MIRROR**\n\n\nDespite all the celebrations, Nerissa couldn’t seem to find the same joy she had from the beginning. \n\nShe had already been purified, right? And yet… her heart still felt empty as a [void](https://youtu.be/FlPFFE5_X3Y?t=14765). As if there was a growing shadow engulfing all the light and happiness within her. As if buried in eternal winter, her soul became numb. Perhaps, devoid of love, even.\n\n*“You see, my heart is still dyed black.”*\n\n*“I have no intention of ‘saving’ anything.”*\n\nThis looming darkness, wherever its roots came from, she finally embraced as her own. Whether it was just an illusion or the reality, it mattered no longer. \n\nShe had accepted this form. \n\nThe monster that had been trapped in the mirror has finally broken free. \n\nAfter all, *NOTHING STAYS PURE*...",
+            "imageSrc": "images-opt/Nerissa-Ravencroft_list_thumb.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#2233fb"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "koseki-bijou",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 525
+          },
+          "data": {
+            "day": 5
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "gonathon-g",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 1000
+          },
+          "data": {
+            "day": 5
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "hot-pink-one",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 800
+          },
+          "data": {
+            "title": "Hot Pink One",
+            "content": "Her abdomen hurt—again. Wait, didn’t we already go through this? The whole “I’m pregnant, but it’s just gas” fiasco? Yeah, we did. But apparently, that doesn’t mean it can’t happen again. This time, though, IRyS was *certain*. She believed, truly and deeply, that what she carried was no longer just air—but life. A living soul between her and her eternal consort.\n\nHer ever-supportive brother, of course, had already begun preparing. As any good sibling would.\n\n[Gender reveal party](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=498)\n\nA gender reveal party, open to the entire kingdom. Everyone was invited to share in the joy, even if half of them [didn’t really know](https://www.youtube.com/live/os9TbwMUcbk?t=657) *what* the occasion was. The venue was nothing short of grand—thanks to her brother and Roa. Seats for guests, a ceremonial birthing area (yes, on the spot), and above all, a great sign floating in the sky, ready to unveil the gender of the not-yet-born.\n\nIRyS was excited—not just for herself, but for her beloved, her eternal consort, who had no idea they were expecting. She couldn't wait to see their face.\n\n[Can't wait for the moment](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=1116)\n\nStill, even with this gas-baby situation looming, she had a world to save. Duty called. She joined the others in the final dungeon, taking on world-ending threats… but her mind stayed locked on [her stomach](https://www.youtube.com/live/os9TbwMUcbk?t=2354).\n\nOnce that small feat—saving the world—was accomplished, it was time for the real event.\n\nIRyS had already picked out [names](https://www.youtube.com/live/os9TbwMUcbk?t=3581). Gaston, if it were a boy. Gaslonia, if it were a girl. (Tasteful.) At the venue, guests gathered. Some excited. Some confused. Some deeply, deeply concerned. And most notably, her eternal consort stood among them—surely about to be shocked and overjoyed.\n\nExcept... someone else was there too.\n\nTammy.\n\nYou know, *the other* one IRyS had been involved with. And Tammy, invited to a gender reveal for a child between IRyS and *someone else*, was *not* having it. Her disgust was visible. Her rage, palpable. She even asked IRyS’ brother to [knock some sense](https://www.youtube.com/live/os9TbwMUcbk?t=5189) into her. Fair.\n\nBut the show must go on.\n\nEveryone turned to the sign in the sky. It slowly revealed its message. One letter at a time.\n\n[It's a boy, it's a girl, no, it's ~~gay~~](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=5636)\n\nIt was a... gas.\n\nNot a girl. Not a boy. Not an attack helicopter.\n\n*A gas*. Well, a *girl gas*, to be specific.\n\nIRyS was elated. Too elated. She went into labor right then and there. \n\n[Live birthing is crazy](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=5739)\n\nWater broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except… she never saw the baby. Never held it. News came fast: Mococo had already *killed* it. Somehow.\n\nIRyS didn’t even question it. She just felt relief, like passing the biggest gas she'd ever had.\n\nAnd then things spiraled.\n\nApparently, the child was actually [Tam and Ina’s](https://www.youtube.com/live/os9TbwMUcbk?t=6901). Apparently, Tam and Ina had feelings for each other. Apparently, IRyS only saw Tam as a sister figure—despite their history. And Ina? Was she cheating on IRyS? No one knew what was real anymore (see [Kronii-IRyS: The Audacity](#edge:hot-pink-one-tam-gandr-right-2-left-2) and [Ina-IRyS: Consort No More?](#edge:nino-ina-the-hot-purple-one-hot-pink-one-right-2-left-2)).\n\nShe wrote it all down in her [journal](https://www.youtube.com/live/os9TbwMUcbk?t=11636)—perhaps one of the last. Her account of childbirth. Of fading bonds. And a promise: if her eternal consort was truly turning away, truly seeking Tammy...\n\nIRyS would bring her back.\n\nNo matter what it took.",
+            "imageSrc": "images-opt/IRyS_list_thumb.webp",
+            "teamId": "chef",
+            "status": "In-bread",
+            "day": 6,
+            "bgCardColor": "#e10e5b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 525
+          },
+          "data": {
+            "title": "Nino Ina / The Hot Purple One",
+            "content": "Ina was told by her sister that there would be a party soon—specifically, a party directly involving her eternal consort, the Hot Pink One. Oh boy, what was she up to this time?\n\n[A party for my consort?](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=276)\n\nExcited? Nervous? Not exactly. Ina had no idea what the occasion was about, but knowing her consort, it could be anything. She was used to the shenanigans by now.\n\nStill, there was time before the event, so she joined the rest of the heroes to face the [final dungeon](https://www.youtube.com/live/Y_f17MHHHzc?si=bGojR6ml6N4nD56H&t=3175), the ultimate battle against the Heart of Ruin, to save the world. They succeeded, but throughout it all, the purple one’s thoughts kept circling back to her consort.\n\nThe party invitation reminded her just how much she loved that woman—her eyes, her wild hair, and more than anything, how she had always been there, even in the darkest of times. Ina wanted to return that love, to show it clearly. So, she wrote a heartfelt letter, a confession of her desire to take the pink one as her wife.\n\n[Dear consort](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=4487)\n\nThey exchanged their letters just before the party began. Turns out, the pink one had something to say too... she was pregnant? Ina was happy—maybe even overjoyed—but the news was sudden. Still, surely everything would stay the same, and nothing could ruin this, right?\n\nWell... it all came tumbling down from there (see [IRyS-Ina: Turning To Another](#edge:nino-ina-the-hot-purple-one-hot-pink-one-right-2-left-2)). And surely it wouldn’t lead to a side story where Ina would end up holding another’s hand and betraying the pink one, right? (see [Ina-Kronii: Netorare](#edge:tam-gandr-nino-ina-the-hot-purple-one-left-1-right-1)).\n\nWell... you already know.",
+            "imageSrc": "images-opt/ina.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#4c3f5a"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "tam-gandr",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 525
+          },
+          "data": {
+            "title": "Ouro Kronii",
+            "content": "The Queen marches in her own time. \n\nWho said she was late? No, [the Queen is never late](https://youtu.be/CUh9eciJil4?t=137). The world is about to end? It was a simple matter for the benevolent Queen to delay the apocalypse by twenty minutes, for she was also the Warden of Time. \n\nThe fight for the future of Libestal began when all the heroes converged, Queen Tam being the last to arrive. Upon entering the final dungeon—the Heart of Ruin—Queen Tam was greeted with a grim curse: [the Curse of Betrayal](https://youtu.be/CUh9eciJil4?t=452). Apparently, some of the heroes had been corrupted, turning against the forces of good, and now had to be purified.\n\nThese cursed individuals were Shiori, Nerissa, Bijou, the Fuzzy One, and the Fluffy One, all of whom began to haunt their former comrades. Queen Tam was [haunted by her stepdaughter, Bijou,](https://youtu.be/CUh9eciJil4?t=646) while desperately fighting against the Stains, the voice of her stepdaughter urging her to attack everyone and give in to her darkest desires.\n\nNext came Shiori, far more skilled at exposing Queen Tam’s flaws. The abusive relationships, the vanity, the pet-play allegations—[everything was laid bare](https://youtu.be/CUh9eciJil4?t=750) by the corrupted Archivist, as Queen Tam vehemently denied each imperfection.\n\n[\"These are just allegations!\"](#embed:https://youtu.be/CUh9eciJil4?t=750)\n\nAfter successfully purifying their companions—and surviving all the humiliation in Queen Tam's case—Her Highness and the heroes emerged victorious and proceeded to the final stage. The battle against The Curse began with Queen Tam and the heroes [immediately jumping the enemy](https://youtu.be/CUh9eciJil4?t=990), not even letting it finish its monologue.\n\nThe fight was long and brutal. The Curse was unrelenting and vicious with its attacks, and could heal whenever one of the heroes fell, their Revelations could barely keep up. The Queen watched as her own knight Gonathon, tanked a heavy hit and was [brought down to his knees](https://youtu.be/CUh9eciJil4?t=1244).\n\nBut there was nothing to fear. Queen Tam and the others [vanquished The Curse](https://youtu.be/CUh9eciJil4?t=1269) for good. It was a battle worthy of legends, destined to be passed down for generations.\n\nAfter receiving gratitude from the Outlander and Princess Iphania, the benevolent Queen began checking in on her subjects, starting with Immerkind, who was smitten with the Princess and likely distraught over her apparent relationship with the Outlander. The Queen also mingled with the common folk and [discovered a budding romance among them](https://youtu.be/CUh9eciJil4?t=1787).\n\nNow, if this were where Queen Tam's day ended, it would have been perfect. But in true Queen Tam Gandr fashion, trouble was drawn to her like a moth to flame.\n\n[\"Immerkind in distress\"](#embed:https://youtu.be/CUh9eciJil4?t=2291).\n\nOne might say there should be a way to forcefully tell the Queen to put down the proverbial shovel and stop digging, but the voices in her head were ignored like passing wind. Immerkind, clearly in distress, failed to perform a proper curtsy. The Queen, taking immediate offense, would later feel awful—classic Queen Tam—upon learning of her emotional state.\n\nAfter offering comforting words to the green knight about her situation with Peasant the Bae, Queen Tam invited her to attend HPO's cursed “gender reveal” party. Why the Queen wanted to attend at all, no one truly knows.\n\nShe was greeted with the same bombastic sign—\"ITS GAS\"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, Nino Ina (see [Kronii-IRyS: The Audacity](#edge:hot-pink-one-tam-gandr-right-2-left-2)).\n\nQueen Tam next found herself attending Shakira and Roa Pandora’s wedding in the Great Hall. The voices in her head noted, yet again, that she never learned. First HPO’s “gender reveal” party, and now the wedding of her previous-timeline lover. Still, she stood in silence, watching one of her “happinesses” marry another. \n\n[\"Say cheese,\"](https://youtu.be/CUh9eciJil4?t=5155) she said as she had herself participate in the group photo.\n\nNaturally, the ceremony wasn’t spared from drama. Queen Tam began implying that the “gas baby” was actually hers, which spiraled when Nino Ina claimed the child was born [from all three of them](https://youtu.be/CUh9eciJil4?t=5204). One could barely keep composure while chronicling these strange Libestan happenings.\n\nThis hatched a plan in Queen Tam's mind. Why not just take Nino Ina for herself? She hired Mordon Ramsay to be her [wingman](https://youtu.be/CUh9eciJil4?t=5950) and set the plan in motion. Queen Tam and Mordon visited Nino Ina, and she [immediately began gaslighting](https://youtu.be/CUh9eciJil4?t=6034) her to think that she does not deserve to be saddled with HPO and her baggage. Finally, the Queen was in her element and seemed to have successfully planted the seeds of doubt.\n\n[\"All according to keikaku.\"](#embed:https://youtu.be/CUh9eciJil4?t=6588)\n\nNot satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](https://youtu.be/CUh9eciJil4?t=6916) Nino Ina's house and saw HPO lurking around. They pretended not to see each other, quite literally, much to Bijou's distress, who was caught in the crossfire between two unrelenting petty forces insulting each other through her. \n\n[\"Why did I decide to love someone like you?\"](https://youtu.be/CUh9eciJil4?t=7701)\n\nBefore retiring for the day, Queen Tam visited Mordon Ramsay, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordon and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordon Ramsay gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.\n\nAfter writing in her journal and having a quick but [heartfelt reflection with Gonathon](https://youtu.be/CUh9eciJil4?t=9187) on what transpired that day, Queen Tam finally retired for the day.",
+            "imageSrc": "images-opt/Ouro-Kronii_list_thumb.webp",
+            "teamId": "supplier",
+            "status": "In-bread",
+            "day": 6,
+            "bgCardColor": "#6879c7"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "princess-iphania",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 50
+          },
+          "data": {
+            "title": "Princess Iphania",
+            "content": "The world was saved, but the Princess had little to say about it (see [Princess-Outlader: An Eerie Victory](#edge:princess-iphania-the-outlander-right-2-left-2)).",
+            "imageSrc": "/images-opt/iphania.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#dea677"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "fia",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 50
+          },
+          "data": {
+            "title": "Fia",
+            "content": "The Princess had a doll—a small, precious thing she once gave to her father before he rode off to war. It had kept her safe, she believed, and she hoped it would protect him too. But he never came back. Nor did her mother. Nor did countless others.\n\nThe doll bore a striking resemblance to Fia.\n\nFia, who had always placed unwavering faith in the Shining Stars—the heroes meant to save the world, and beyond it, the universe. So when the battle was won and all that followed was a simple “thank you,” it felt... hollow. Incomplete. As if something vital had been left unsaid.\n\nWas it the end? Was it truly over?\n\nAll that remained was silence—no cheers, no farewells, just the lingering haze of uncertainty.\n\n[Prelude of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9888)\n\nPerhaps the final day would reveal the truth. Perhaps the story wasn’t over yet.\n\n[Song of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9923)",
+            "imageSrc": "/images-opt/fia.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#2b353b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "the-outlander",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 50
+          },
+          "data": {
+            "title": "The Outlander",
+            "content": "The Outlander was saved from becoming a great evil, and the world was saved. He was content, genuinely impressed by the Heroes, and now, he could finally rest—spending his days in peace, beside the Princess... possibly so (see [Princess-Outlander: An Eerie Victory](#edge:princess-iphania-the-outlander-right-2-left-2)).",
+            "imageSrc": "/images-opt/the-outlander.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 6,
+            "bgCardColor": "#493baf"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "khaos",
+          "type": "image",
+          "position": {
+            "x": 1450,
+            "y": 525
+          },
+          "data": {
+            "day": 4
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "hot-pink-one-peasant-da-bae-top-2-bottom-2",
+          "source": "hot-pink-one",
+          "target": "peasant-da-bae",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one-hot-pink-one-right-2-left-2",
+          "source": "nino-ina-the-hot-purple-one",
+          "target": "hot-pink-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#1a1a1a"
+          },
+          "data": {
+            "relationshipId": "no-longer-together",
+            "title": "Turning To Another",
+            "content": "A bond as deep and romantic as IRyS and her eternal consort’s was, for many, thought to last forever. Sure, the pink one was a handful, but Ina had always handled her chaos with grace and ease. They were inseparable ever since their very first adventure.\n\nNow, their lives were about to change—forever, and for the better—as the two lovebirds stepped into a new chapter: parenthood.\n\n[The gift of life](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=3845)\n\nThey exchanged gifts, shared heartfelt words, and with the promise of new life growing between them, their connection felt stronger than ever. Hand in hand, they looked ahead to a future together... until things started getting weird. Fast.\n\nTam—Tammy—whatever you wanted to call her, couldn’t stand the sight of the Pink One cuddling and fawning over someone else right in front of her. The same Pink One who had once promised love who now had the *audacity* to ask her to be godfather to a child that wasn't even theirs. It was an insult layered on betrayal.\n\n[She does not love you](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=5979)\n\nSo Tam did what Tam had to do—she told Ina the truth. That the Pink One had been sneaking around, stringing both of them along, trying to hold onto Ina while keeping Tam in her grasp. It was a desperate attempt to sever the bond between the pink and the purple—and it worked.\n\nThings escalated fast. Tam ordered her knight, Gonathon, to \"teach the Pink One a lesson.\" But instead of accepting defeat, the Pink One turned it into a duel between herself and Gonathon. She could’ve ended it there—but no, for some *unfathomable* reason, she added a wager: if she lost, she would have her abdomen cut open to check if the so-called child—this gas baby—was actually inside her.\n\nWhy?\n\n[Warning: Gore](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=6563)\n\nShe lost. And after that, she started losing something far more painful.\n\nTam moved in, taking advantage of the moment, slowly pulling Ina away from her. She used her [all-powerful rizz](https://www.youtube.com/live/os9TbwMUcbk?t=6881), her charm, and her presence to win Ina over—and it worked. The Pink One watched as her consort, once hers and hers alone, began to drift further away, inching closer to Tam with every moment.\n\nDesperate, the Pink One enlisted her brother’s help to secretly spy on Ina—to know what she *really* thought of her. And what she saw shattered her completely.\n\nIna wanted to be with Tam instead.\n\n[Unintelligible gasps of shock](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=8322)\n\nSomething within her broke. Something dark, obsessive, and primal. She would do anything to take her consort back. Anything.",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": -0.06832114598218553,
+              "VL": 147,
+              "HC": 0,
+              "VR": -47,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-2-left-2",
+          "source": "elizabeth-rose-bloodflame",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "Forgive or Forget",
+            "content": "***\"Artificial Stars.\"***\n\nWhile everyone was busy filling themselves with food, they were merry in the company of one another. \n\nElizabeth separated herself from the crowd, while Nerissa followed. When she noticed her, the knight mentioned she was making some [fireworks](https://youtu.be/sDjysXFWYbI?t=10435), to which the maiden replied it was a good idea and said she too would make one for herself.\n\nThe lady knight, yearning for more of her presence, stopped her from leaving, giving her quite a lot of her own. Nerissa claimed it was her first time doing it, and so did Lady Bloodflame, but she offered to test them out together on the roof. Just the two of them.\n\nAnd so they did… however, it was already morning, so they had to postpone it till evening. \n\nFate must have been too cruel, for it didn’t prove successful. Nerissa needed to gather some more ingredients, and when the sun finally gave way to the moon, she caught Elizabeth testing the fireworks with Rao Pandora.\n\nHer heart has already grown cold. She shouldn't be affected any longer... \n\n---\n\n***\"Skin to skin.\"***\n\nAn onsen. A place to relax and unwind. A request not to be inappropriate.\n\nNerissa and Elizabeth find themselves across from one another, chatting lightly in the comforting heat of the water.\n\nThe idea of [personal space is temporarily lost](https://www.youtube.com/live/sDjysXFWYbI?t=11173) as Nerissa's voice dips sultry and sweet. Honeyed and sinful. The way she speaks as she inches closer and closer until they are face-to-face. If either leaned forward even just a hair, their lips might touch.\n\nAnother sweet giggle in her ear has Nerissa backing away from Elizabeth—the strawberry curse returns. Suddenly, Nerissa is getting out without warning, leaving Elizabeth scrambling to do the same and get dressed.\n\nThat voice echoed in the back of her skull for a moment.\n\n---\n\n***Loyalty to an Evil King.***\n\nEvery angle feels like it's suffocating Elizabeth with these questions. Would she once again dedicate herself to the corrupt King? She is...a knight. Who pledges her loyalty to the King. But if he's corrupt, is it the right thing to do? Do you betray your King or follow in his shadow of darkness?\n\nThe harsh recall of memory. Nerissa asked her why she would stand by the King after he betrayed them. As he hurt them all. As she heard Mococo's pained cry her sister fell for just a moment.\n\nA question left unanswered in the end. Elizabeth doesn't know the right path for a knight. For her. Despite having experienced that path once.\n\n---\n\n\n***\"You were in my home.***\n\n[The sudden tone is dark.](https://www.youtube.com/live/sDjysXFWYbI?t=11611) Nerissa sounds angry. Hurt. Elizabeth stumbles over her words a bit. \"It was to protect you! I-I wouldn't break and enter unless I had reason!\"\n\nAfter all, Elizabeth had been the one tricked!\n\n4 replaced discs. 200 gold to help fix a broken door—a rose without reason.\n\nSuddenly, a soft laugh breaks the heavy tension. Nerissa isn't angry, just teasing. Relief settles over Elizabeth's shoulders at that.\n\nAfter all, it was done to ensure Nerissa's safety. A proper knight would knock and await an answer. Not bash down a door in a brazen move without just cause.\n\n*I dare not trust your words, but you are a danger - so locked up you must.*\n\n---\n\n***\"The monster behind me now stands before you.\"***\n\nThe recent development in their relationship would have probably made one maiden’s heart swoon. Elizabeth had started warming up to her— following her around, giving her gifts, showering her with praises, and  making sure she was well and protected. \n\nShe even called her beautiful. And promised she would always stay by her side…\n\nBut it was too late.\n\nIf only the scarlet knight had realized a bit earlier… she would’ve folded and lowered her defenses. However, thorns have already grown on the flesh of this delicate rose. Every warm and gentle touch would sting deeper, making it ever more painful to bear.\n\nThe cards had been flipped. Elizabeth was oblivious to the menacing side of the person she was falling for. As if entranced by the siren’s sweet song, she moved according to the witch’s will.\n\nDefenseless. Vulnerable. On the palm of the monster she created.",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 122.28805852974503,
+              "HC": 0,
+              "VR": -70.5799378350682,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-tam-gandr-right-2-left-2",
+          "source": "hot-pink-one",
+          "target": "tam-gandr",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e30d0d"
+          },
+          "data": {
+            "relationshipId": "enemy",
+            "title": "The Audacity",
+            "content": "Of course, with HPO, give her an inch and she’ll take a mile—or two. In a stunning display of audacity, she asked Queen Tam to be the [godmother](https://youtu.be/CUh9eciJil4?t=3061) of the “baby” she was carrying. She was truly a “monster,” befitting of the song titled Monster being played in the background. Forcing Queen Tam to celebrate her conception with another lover wasn’t enough—she also had to make her the godmother.\n\n[\"You sicken me...\"](#embed:https://youtu.be/CUh9eciJil4?t=3072)\n\nAccompanied by her trusty knight, Gonathon, Queen Tam ran away from the scene in anger and disgust. [\"Back off, you monster!\"](https://youtu.be/CUh9eciJil4?t=3146) Queen Tam said, poison in her speech. Seeking shelter in her own home, Queen Tam and Gonathon were visited by the licensed therapist (among many things), [Mordon Ramsay](https://youtu.be/CUh9eciJil4?t=3175). It was finaly time for her long-overdue therapy. \n\nAfter a few interruptions, Queen Tam was finally able to [trauma dump](https://youtu.be/CUh9eciJil4?t=3600), explaining all her woes, most of which seemed to trace back to a single source: the Hot Pink One. Fortunately, they had the best therapist in town.\n\n[\"Have you considered murder?\"](#embed:https://youtu.be/CUh9eciJil4?t=3721)\n\nSuch was the \"based\" take by the renowned therapist/chef/real estate magnate. Murder was a question, and the answer was always \"yes.\" Just eliminate the root of her problems—HPO. The voices in Queen Tam’s head all agreed, even as she questioned the legitimacy of Dr. Mordon’s license.\n\nIt was then that Mordon revealed that HPO had three \"wives,\" insinuating that there was also something in between her and Bijou, her own brother. Of course, it was not a Libestal delicacy without a sprinkling of an additional forbidden ingredient that rhymes with [\"in chest\"](https://youtu.be/CUh9eciJil4?t=3844).\n\nSpeaking of the devil, HPO called Queen Tam and begged her to attend the \"gender reveal\" party, to which pretty much everyone involved already knew what it was. [\"You made yourself into a spectacle!\"](https://youtu.be/CUh9eciJil4?t=3892) Queen Tam exclaimed. And so the cursed celebration began. Bijou and Peasant the Bae unveiled the sign Queen Tam had made, revealing the “gender” of the “baby.”\n\n[\"It's ~~gay~~ Gas!\"](#embed:https://youtu.be/CUh9eciJil4?t=3959)\n\nAll this… for a long, painful divine comedy about passing gas. Hot Pink Gas. The Queen didn’t even need to be there. And yet she and the voices in her head were forced to witness the “birth” of the “gassy baby”—Just [\"Carbonated Love\"](https://youtu.be/CUh9eciJil4?t=4071). Unsightly.\n\nDr. Mordon returned with more [sagely advice](https://youtu.be/CUh9eciJil4?t=4128): Why not confront HPO’s consort and spill the beans about their secret relationship? Scorched earth. Why should Queen Tam be the only one to suffer? Might as well make everyone involved miserable. This therapist was truly something else. Everyone knows the drill. Instead of walking away and moving on, the Queen held the proverbial shovel firmly in her hands and dug deeper, choosing to confront the consort herself, Nino Ina.\n\n[\"I want problems. Always.\"](#embed:https://youtu.be/CUh9eciJil4?t=4247)\n\nThings took a turn when the Hot Pink One casually [dismissed Queen Tam as just a “hobby.”](https://youtu.be/CUh9eciJil4?t=4381) It escalated into a duel, Queen Tam’s honor on the line. Her brave knight, Gonathon, ever loyal, stepped forward—ready to challenge the Hot Pink One, a literal goddess. The conditions were set, a gruesome one involving cutting open the HPO's stomach upon her defeat. \n\n[\"Gonathon the Godslayer.\"](#embed:https://youtu.be/CUh9eciJil4?t=4835)\n\nAnd of course, Gonathon wiped the floor with the puny goddess, reclaiming his Queen’s honor—and perhaps his \"aura.\" \n\n\"You must fight in mortal terms!\" the brave knight yelled as he dealt the decisive blow.\n\nWhat followed was a [scenario so bizarre](https://youtu.be/CUh9eciJil4?t=4854) that one would struggle to put pen to paper to describe what exactly happened - gutting HPO like a fish, alcohol somehow being the real “baby,” and a C-section pun for good measure. But unlike Queen Tam, we move on.\n\n[\"In the midst of 'so over,' we found, within Libestal, a romantic 'we're so back.'\"](#embed:https://youtu.be/CUh9eciJil4?t=5044)\n\n\nOn the other end, Pinky was handling Tam’s judgment the only way she knew how—like a sulking child. She ignored her, pretended not to hear a word, avoided eye contact, and pouted in exaggerated silence. To Tam, it was nothing short of infuriatingly immature.\n\n[A fly is buzzing](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=8813)\n\nIt was getting really weird.\n\nWhat *was* clear, though, was this: the bonds IRyS had cherished were crumbling. Tam had lost all respect for her. Her eternal consort’s affections seemed to waver—possibly drifting toward the blue lady. Even her brother had grown [distant](https://www.youtube.com/live/os9TbwMUcbk?t=10224).\n\nSomething snapped.\n\nIRyS began to spiral. Love-blind, fogged with desperation. She would not lose them. Not without a fight. Not her beloved. Not her place.\n\n[The Awakening of YandeRyS](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=10565)",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 46.43668624455228,
+              "HC": 0,
+              "VR": -72.93790429825569,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "mori-calliope-gonathon-g-bottom-1-bottom-3",
+          "source": "mori-calliope",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "relationshipId": "the-wolf-pack",
+            "title": "Miscommunication and Heavy Hearts",
+            "content": "[Gonathan meets Mordan at the start of her real estate arc!](#embed:https://www.youtube.com/live/rDdbFYqcAyI?t=864)\n\nAfter Gonathan learned that it was Mordan who had mistakenly purchased the book Shiori had asked to be retrieved the previous day, Gonathan quietly retreated to bed, antsy about the message soon to be revealed. As Gonathan began reading, casually quipping about Mordan’s little “oopsies,” fate, ever fond of irony, brought Mordan herself to [appear in proximity,](https://www.youtube.com/live/rDdbFYqcAyI?t=1554) wandering near the tree unaware she was even being spoken of. She approached the chest she had left for Gonathan, confirming the book had indeed been received.\n\n[All is well in the kingdom](#embed:https://www.youtube.com/live/WG748SwXQVo?t=5211)\n\n“All is well in the kingdom. That’s all I need to know. All I needed to know. I am happy for my friend. You should be happy for your friends. In this life, where we only get so many chances to be with our friends, perhaps the best idea is to put aside selfish desires. Selfish desires? I’m being silly; I don’t feel those things. I don’t feel emotions. Only lust for money, fo-sho. Okay, maybe not lust for money, but definitely love for my pack.”\n\nIn a previous conversation between Mordan, Shiori, and Bijou, Mordan had not realized her purchase history was visible in the market chest. Her secret deed thus exposed, she eventually confessed to buying the book in error. And yet, one wonders, was it truly an accident? Or had Mordan, perhaps subconsciously, attempted to delay Gonathon’s receipt of it? As she reflected on all that had transpired since that moment, her lingering affections for her wolf brother Gonathon, not least among them, Mordan seemed to accept her lonely role in this tragic kingdom.\n\nAround the time of the new dungeon’s opening, during a kerfuffle among the heroes of Libestal, a small gesture towards Gonathan somehow led Mordan to even deeper despair. [Offering food to Gonathan](https://www.youtube.com/live/WG748SwXQVo?t=7889s) in preparation for the upcoming battle, she was met with silence, leading her to believe that Gonathan was giving her the cold shoulder:\n\n“Gonathan doesn’t want anything to do with me. That’s fine, whatever. I don’t care; I don’t have emotions. I don’t have emotions… Yeah, what a shame, ignored by my own wolf brother. That’s messed up.”\n\nA simple misunderstanding or miscommunication, perhaps, but for a heart already cracked by unrequited love and perceived rejection, the sting was undeniable.\n\n[Rescheduled auctions turn into unscheduled therapy sessions](#embed:https://www.youtube.com/live/rDdbFYqcAyI?t=13010s)\n\nMuch later in the day, both Mordan and Gonathan found themselves together once more, standing before the auction block as Tam Gandr recounted her latest romantic woes. Listening intently, Mordan and Gonathan offered what counsel they could. In a quiet gesture that betrayed her own wounded heart, Mordan offered Tam a “Gorgeous Ring,” the very same she had intended to give Gonathan only days prior.\n\nSensing the heaviness in Mordan’s voice, Gonathan gently sought to lift her spirits. Gonathan, along with Tam, reminded her of all she had built in this Libestal: her chef activities, her tavern, her therapy business, and now her business as a realtor. Gonathan considered Mordan the “most qualified person in this kingdom,” even proposing she learn medicine so that she might help during emergencies, referencing the recent chaos surrounding the Hot Pink One. With so few hands available in the kingdom, Mordan acknowledges being able to fit many kinds of roles for different circumstances.\n\nAnd yet, despite her many accomplishments, there was no denying that a sadness lingered in her heart. Mordan had been unsuccessful in love, unsuccessful in previously courting Gonathan, and uncertain in her role in the kingdom, and in turn left, hoping that others might find what she could not.\n\n[“But like all things, a broken heart can be mended,”](https://www.youtube.com/live/WG748SwXQVo?t=16989) she said softly as advice to Tam. Perhaps, just perhaps, the advice she gave was not only meant for Tam but also for herself.",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -46.522283377379914,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-peasant-da-bae-bottom-2-top-2",
+          "source": "cecilia-immerkind",
+          "target": "peasant-da-bae",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e30d0d"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-shiori-nyavella-top-2-bottom-1",
+          "source": "gonathon-g",
+          "target": "shiori-nyavella",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "The Moon Sets so the Sun May Rise ",
+            "content": "\"Nice to meet you.\" It is a phrase all too familiar to Gonathon, whether she realizes it or not. Arriving at Shiori's house, Gonathon once again faced one whom she had previously loved, but now saw as a stranger. This time, Gonathon responded almost casually, a resigned sense of acceptance filling her voice as she conversed with Shiori. Expecting to find a book waiting for her, the amnesiac archiver responded in confusion, pointing the knight to Mordan Ramsey, who had bought the book by mistake. \n\nArriving home, Gonathon found a chest waiting for her with the book inside. The book directed her to a hidden site behind her tree, where a number of items related to Shiori's now removed memories could be found. While Gonathon collected these items, she did not have time to go over them. For Shiori of the Nyavellas was now requesting Gonathon's aid in the new farm area, and, determined to not let a chance to converse with her slip her by, eagerly agreed.\n\nArriving at the farming area, Gonathon once again met up with Shiori. Gonathon demonstrated her knightly prowess to Shiori by protecting her and mining items for her. Then, under the watchful eye of the moon, the two sat together and began to converse. Shiori revealed that she did indeed remember a form of Gonathon, her \"true\" self who the archiver simply referred to as \"G.\" Questioning why Gonathon was not with her usual friends and gang, the knight responded that she was still unsure of who she was, and what she wanted for her story. \n\nWith the sun's playful rays beginning to peek out from the horizon, the conversation turned to memories. Shiori remarked that she preferred to seal painful memories away, rather than bear their burden. Gonathon retorted by stating that, regardless of whether Shiori remembered her or not, she knew the archiver was truly kind. Realizing the burden that Shiori bore as an archiver, Gonathon stated that no one could have the answer to everything, as this was a burden too great to shoulder alone. The conversation ended on a peaceful note, with Gonathon promising to fight by Shiori and the archiver wishing to meet the knight again.\n\nFollowing the epic clash with the Heart of Ruin, in which Gonathon assisted in purifying a curse placed on the archiver, and a jovial meal at HPO's party, Gonathon finally turned to the letters Shiori had left for her. The last words the witch had left for her thanked Gonathon for all the time they had spent together and implored the humble knight to live not just for the sake of others, but also for herself. Moved by Shiori's words, Gonathon thought back to her time with Bae (see [Bae-Gonathon: A Bromance of Eternity Borne Under the Light of the New Moon](#edge:peasant-da-bae-gonathon-g-left-3-right-3)) and decided that she, too, would set out on a journey of self-discovery. And with this, it seemed that the blank slate between archiver and knight was set to have a new set of memories etched upon it, free of the dark reminders of the past.\n\nAlas, this was not to be as Shiori uncovered the diaries from the previous days, their contents revealing the blackest depths of her encounters with Gonathon. Requesting that Gonathon speak with her, it appeared that history was set to repeat itself in the most tragic way imaginable. But it was here that the noble knight truly took her first steps towards a brighter future. Meeting face to face with the Archiver once more, Gonathon owned up to the sins she had committed and apologized for the way she had used Shiori as a means of escaping the pain of her lost love. Most important of all for the humble knight was the kindness that Shiori gave her, both before and after losing her memories. Gonathon made one final request: that the two continue to speak like this. Departing on a melancholy but fulfilling note, the two promised to meet each other at the banquet tomorrow. And thus, the tale of the fumbling knight had ended. Where the story of Shiori of the Nyavellas goes next is unclear, but one thing is certain. Their story together is far from over. ",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "tam-gandr-gonathon-g-right-2-bottom-1",
+          "source": "tam-gandr",
+          "target": "gonathon-g",
+          "sourceHandle": "right-2",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#afc0ca"
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-princess-iphania-top-2-bottom-2",
+          "source": "cecilia-immerkind",
+          "target": "princess-iphania",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#4f80f0",
+            "strokeDasharray": ""
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-hot-pink-one-right-2-right-1",
+          "source": "cecilia-immerkind",
+          "target": "hot-pink-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "koseki-bijou-nino-ina-the-hot-purple-one-right-2-left-2",
+          "source": "koseki-bijou",
+          "target": "nino-ina-the-hot-purple-one",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 3
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-koseki-bijou-bottom-1-top-3",
+          "source": "cecilia-immerkind",
+          "target": "koseki-bijou",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#06a84b"
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-gonathon-g-bottom-1-top-3",
+          "source": "hot-pink-one",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e30d0d"
+          },
+          "data": {
+            "relationshipId": "enemy",
+            "title": "Even Gods Can Bleed",
+            "content": "Faith can be a fickle thing. If one's faith is rewarded, it can inspire even the lowliest peasants to commit acts bordering on miracles. But if one's faith is returned only with scorn and worse, humiliation, it can turn even the most devout sycophant into a hardened heretic. Over the course of the \n\nFollowing the destruction of the Heart of Ruin, much of the day was committed to the celebration of HPO's supposed child. However, it was not enough to have undeserved love and adoration heaped on her by all in attendance; the gluttonous goddess desired something more: for Tam Gandr to commit herself to being her child's godparent. Tam adamantly refused, but HPO persisted, dredging up horrific memories of the humiliation she had inflicted upon Tam as a means of humbling the battered queen. All of this was too much for Gonathon G to bear; goddess or no, HPO could not treat her queen this way. Standing between HPO and Tam, Gonathon presented an ultimatum: HPO would engage her in single combat, with the queen's honor on the line.\n\nAssembling at the arena, HPO quickly experienced cold feet. Tam was quick to goad the spineless nephilim into honoring her end of the deal, for surely a goddess could defeat a mere knight? Donning the arms of a humble warrior the goddess and retainer met on the fields of battle as equals. But for all the goddess's haughty words and self-proclaimed superiority, she was no match for the skills and determination of Tam's most loyal knight and fell within seconds. As HPO writhed in agony as her divine flesh was rended by Bijou, Tam thanked Gonathon for once again always being by her side. ",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 27.56876051992884,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-gonathon-g-left-2-right-2",
+          "source": "cecilia-immerkind",
+          "target": "gonathon-g",
+          "sourceHandle": "left-2",
+          "targetHandle": "right-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-takanashi-kiara-left-3-top-3",
+          "source": "cecilia-immerkind",
+          "target": "takanashi-kiara",
+          "sourceHandle": "left-3",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-koseki-bijou-top-1-bottom-3",
+          "source": "hot-pink-one",
+          "target": "koseki-bijou",
+          "sourceHandle": "top-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-roa-pandora-left-1-top-3",
+          "source": "hot-pink-one",
+          "target": "roa-pandora",
+          "sourceHandle": "left-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-nyavella-mori-calliope-bottom-2-top-2",
+          "source": "shiori-nyavella",
+          "target": "mori-calliope",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "hot-pink-one-nerissa-ravencroft-bottom-2-top-2",
+          "source": "hot-pink-one",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-elizabeth-rose-bloodflame-left-1-right-1",
+          "source": "cecilia-immerkind",
+          "target": "elizabeth-rose-bloodflame",
+          "sourceHandle": "left-1",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "day": 1
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-takanashi-kiara-left-2-bottom-2",
+          "source": "gonathon-g",
+          "target": "takanashi-kiara",
+          "sourceHandle": "left-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "takanashi-kiara-elizabeth-rose-bloodflame-right-2-left-2",
+          "source": "takanashi-kiara",
+          "target": "elizabeth-rose-bloodflame",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "princess-iphania-the-outlander-right-2-left-2",
+          "source": "princess-iphania",
+          "target": "the-outlander",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c67b8e"
+          },
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "An Eerie Victory",
+            "content": "It was finally over. The Heart of Ruin was destroyed, the Curse lifted, and the world—saved. The Princess was overjoyed, the Outlander surprised but quietly relieved, and the heroes—the Shining Stars—had succeeded in preventing the end of everything. The expressions on their faces spoke of peace, of the weight that had been lifted. At last, they no longer had to fear a doomed fate.\n\n[The world is saved](#embed:https://www.youtube.com/live/sDjysXFWYbI?t=9436)\n\nAnd yet... something felt *off*.\n\nThe mysteries hadn't vanished with the Ruin. Instead, an unease lingered—subtle but unmistakable. Was something deeper still lurking beneath the surface? A victory like this should have brought clarity, but it all seemed too clean, too quiet. The Princess, who had once placed so much meaning on this journey, offered little more than a passing [“thank you.”](https://www.youtube.com/live/sDjysXFWYbI?t=9872) The Outlander, gone. And Fia—the one who had uncovered the truth for them all—didn’t say a single word.\n\nIt could be nothing. It could be everything. Maybe they were saving it all for the final banquet. Maybe they were just overwhelmed. Or maybe... this is where the real story begins.\n\nThe final day awaited. And with it, perhaps, the real answers.",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 0,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "peasant-da-bae-gonathon-g-top-1-left-0",
+          "source": "peasant-da-bae",
+          "target": "gonathon-g",
+          "sourceHandle": "top-1",
+          "targetHandle": "left-0",
+          "type": "fixed",
+          "style": {
+            "stroke": "#79b3c8"
+          },
+          "data": {
+            "day": 2
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-nyavella-koseki-bijou-top-1-bottom-4",
+          "source": "shiori-nyavella",
+          "target": "koseki-bijou",
+          "sourceHandle": "top-1",
+          "targetHandle": "bottom-4",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "day": 3
+          },
+          "selected": false
+        },
+        {
+          "id": "koseki-bijou-tam-gandr-top-2-top-2",
+          "source": "koseki-bijou",
+          "target": "tam-gandr",
+          "sourceHandle": "top-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 3
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-immerkind-tam-gandr-right-1-top-3",
+          "source": "cecilia-immerkind",
+          "target": "tam-gandr",
+          "sourceHandle": "right-1",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#51d2b9"
+          },
+          "data": {
+            "day": 3
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-nerissa-ravencroft-right-1-left-1",
+          "source": "gonathon-g",
+          "target": "nerissa-ravencroft",
+          "sourceHandle": "right-1",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#c56034"
+          },
+          "data": {
+            "day": 3
+          },
+          "selected": false
+        },
+        {
+          "id": "gonathon-g-koseki-bijou-left-3-left-3",
+          "source": "gonathon-g",
+          "target": "koseki-bijou",
+          "sourceHandle": "left-3",
+          "targetHandle": "left-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ecbe5b"
+          },
+          "data": {
+            "day": 4
+          },
+          "selected": false
+        },
+        {
+          "id": "peasant-da-bae-koseki-bijou-bottom-1-bottom-2",
+          "source": "peasant-da-bae",
+          "target": "koseki-bijou",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 4
+          },
+          "selected": false
+        },
+        {
+          "id": "tam-gandr-roa-pandora-top-1-top-2",
+          "source": "tam-gandr",
+          "target": "roa-pandora",
+          "sourceHandle": "top-1",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#000080",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "day": 4
+          },
+          "selected": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one-takanashi-kiara-bottom-2-top-2",
+          "source": "nino-ina-the-hot-purple-one",
+          "target": "takanashi-kiara",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#51d2b9"
+          },
+          "data": {
+            "day": 4
+          },
+          "selected": false
+        },
+        {
+          "id": "peasant-da-bae-khaos-top-3-top-1",
+          "source": "peasant-da-bae",
+          "target": "khaos",
+          "sourceHandle": "top-3",
+          "targetHandle": "top-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#375aa0"
+          },
+          "data": {
+            "day": 4
+          },
+          "selected": false
+        },
+        {
+          "id": "peasant-da-bae-gonathon-g-left-3-right-3",
+          "source": "peasant-da-bae",
+          "target": "gonathon-g",
+          "sourceHandle": "left-3",
+          "targetHandle": "right-3",
+          "type": "fixed",
+          "style": {
+            "stroke": "#51d2b9"
+          },
+          "data": {
+            "relationshipId": "friends",
+            "title": "A Bromance of Eternity Borne Under the Light of the New Moon",
+            "content": "",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": -147.62914861621755,
+              "HC": 0,
+              "VR": 46.38919956664464,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame-gonathon-g-bottom-1-top-1",
+          "source": "elizabeth-rose-bloodflame",
+          "target": "gonathon-g",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "top-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#51d2b9"
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "roa-pandora-elizabeth-rose-bloodflame-right-1-left-1",
+          "source": "roa-pandora",
+          "target": "elizabeth-rose-bloodflame",
+          "sourceHandle": "right-1",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#4f80f0",
+            "strokeDasharray": ""
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "elizabeth-rose-bloodflame-shiori-nyavella-top-2-top-2",
+          "source": "elizabeth-rose-bloodflame",
+          "target": "shiori-nyavella",
+          "sourceHandle": "top-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#e30d0d"
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "nino-ina-the-hot-purple-one-gonathon-g-left-3-left-1",
+          "source": "nino-ina-the-hot-purple-one",
+          "target": "gonathon-g",
+          "sourceHandle": "left-3",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#51d2b9"
+          },
+          "data": {
+            "day": 5
+          },
+          "selected": false
+        },
+        {
+          "id": "nerissa-ravencroft-shiori-nyavella-right-2-left-2",
+          "source": "nerissa-ravencroft",
+          "target": "shiori-nyavella",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ecbe5b"
+          },
+          "data": {
+            "relationshipId": "alliance",
+            "title": "From one witch to another",
+            "content": "**[FROM ONE WITCH TO ANOTHER](https://youtu.be/FlPFFE5_X3Y?t=3624)**\n\nShiori and Nerissa sat down at the campfire behind Shiori’s house. It had been a while since they caught up and chatted, and it felt nice and familiar since Nerissa had regained all her memories. Much to Shiori’s surprise, Nerissa had no problem with the memory she had given to the raven; she believed it had some truth to it. Unlike the knight Lady Bloodflame, she was not so hostile and quick to call Shiori a liar. \n\nWith this in mind, Shiori thought it best to tell Nerissa about the confrontation Lady Bloodflame had brought upon her. The blue raven did not know of the scarlet knight's actions, telling the two-toned witch that she did no wrong. In fact, one should not view Shiori so negatively for her memories as she had remembered them. \n\n***Are you truly a witch?***\n\nNerissa confirmed, indeed she was a witch. Unsure if she was one before, she knew now that this is who she is. If that is how the people perceive her to be, then a witch she shall be. The two witches agreed, the world is cruel. Thus, Shiori now had a fellow witch! How lovely to know that there is someone who shared much more in common than she once thought. \n\n***The Covenant***\n\nShiori offered Nerissa a pact— like a good neighbor, State Farm is there! They had both agreed, forming the first witch coven in Libestal. They would look out for each other, for their own kind. Both were open to recruiting other witches, the more the merrier! The two witches believed it would be beneficial to everyone, both glad they could come to such an agreement. \n\nAs they departed, Nerissa wished Shiori luck on her party planning, and Shiori wished Nerissa luck on her toxic yuri with the not-so-noble knight, Lady Bloodflame.",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": 69.58379934996701,
+              "HC": 0,
+              "VR": -49.5,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "tam-gandr-nino-ina-the-hot-purple-one-left-1-right-1",
+          "source": "tam-gandr",
+          "target": "nino-ina-the-hot-purple-one",
+          "sourceHandle": "left-1",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "style": {
+            "stroke": "#ff94d8",
+            "strokeDasharray": "10, 20"
+          },
+          "data": {
+            "relationshipId": "romantic",
+            "title": "Netorare",
+            "content": "Somehow, *somehow*, *somehow*, for reasons beyond comprehension, events took a turn that words could barely begin to capture. In an attempt to figure out whether the pink one’s child was Ina’s, the result… somehow\\... pointed to Ina *and* Tam being the parents? No, wait—*all three* of them? Or was Tam the godfather? Or... what?\n\n[It's our child](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=7900)\n\nIt was chaos. Absolute chaos.\n\nThen, out of nowhere, Tam confessed that she “quite liked” Ina—right in front of the pink one’s face. You’d think it was a joke. You’d think Ina, who had just pledged eternal love to her consort, would laugh it off. But no. Ina, who swore to stand by the pink one forever, was... swayed?\n\nWhat?\n\nThen somehow, this spiraled into Ina and Tam having an impromptu therapy session at Mordon’s place. There, they vented—about how the pink one had hurt them both and about how Ina bonding with Tam would make things incredibly messy, considering Tam was Bijou’s mother and Bijou was Ina’s sister. So if you start connecting the dots...\n\nYeah. What is even happening?\n\n[Therapy about...stuff](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=8802)\n\nIn the end, Ina decided she’d figure out [later](https://www.youtube.com/live/Y_f17MHHHzc?t=9796) whether she would stay with the pink one.\n\nWhat.",
+            "pathType": "custom",
+            "day": 6,
+            "offsets": {
+              "HL": 0,
+              "VL": -22.14029979317132,
+              "HC": 253.03199763624366,
+              "VR": 44.28059958634264,
               "HR": 0
             }
           },
