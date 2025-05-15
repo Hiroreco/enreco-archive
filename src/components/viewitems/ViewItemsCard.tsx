@@ -72,7 +72,7 @@ const ViewItemsCard = ({ className }: ViewItemsCardProps) => {
         >
             <CardHeader>
                 <CardTitle className="flex justify-between items-center gap-2">
-                    <div>
+                    <div className="flex gap-1">
                         {selectedItem !== null && (
                             <ChevronLeft
                                 className="cursor-pointer"
