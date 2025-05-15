@@ -7,21 +7,7 @@ import {
 } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
-
-interface GalleryImage {
-    source: string;
-    title: string;
-}
-
-interface CommonItemData {
-    id: string;
-    name: string;
-    chapter: number;
-    quote: string;
-    content: string;
-    thumbnailSrc: string;
-    galleryImages: GalleryImage[];
-}
+import { CommonItemData, GalleryImage } from "../src/lib/type";
 
 const fileArg = process.argv[2];
 if (!fileArg) {
