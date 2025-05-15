@@ -155,6 +155,7 @@ export type GalleryImage = {
 export type CommonItemData = {
     id: string;
     name: string;
+    chapter: number;
     thumbnailSrc: string;
     content: string;
     galleryImages: GalleryImage[];

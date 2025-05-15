@@ -12,7 +12,10 @@
         "format": "prettier . --write",
         "optimize-images": "ts-node scripts/optimize-images.js",
         "prebuild": "ts-node scripts/optimize-images.js",
-        "predev": "ts-node scripts/optimize-images.js"
+        "predev": "ts-node scripts/optimize-images.js",
+        "export-glossary-data": "tsx scripts/export-glossary-data.ts",
+        "inject-glossary-data": "tsx scripts/inject-glossary-data.ts"
+
     },
     "dependencies": {
         "@next/third-parties": "^15.3.1",
@@ -79,6 +82,7 @@
         "sharp": "^0.33.5",
         "tailwindcss": "^3.4.17",
         "ts-node": "^10.9.2",
+        "tsx": "^4.19.4",
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.31.1"
     },
