@@ -8,6 +8,7 @@ import { isMobileViewport } from "@/lib/utils";
 interface Props {
     isCardOpen: boolean;
     onCardClose: () => void;
+    chapter: number;
     chapterData: Chapter;
     dayData: ChartData;
     edgeVisibility: StringToBooleanObjectMap;
@@ -30,6 +31,7 @@ interface Props {
 const ViewSettingCard = ({
     isCardOpen,
     onCardClose,
+    chapter,
     chapterData,
     dayData,
     edgeVisibility,
@@ -86,6 +88,7 @@ const ViewSettingCard = ({
                         onCharacterVisibilityChange={
                             onCharacterVisibilityChange
                         }
+                        chapter={chapter}
                         chapterData={chapterData}
                         nodes={dayData.nodes}
                     />

@@ -1,16 +1,78 @@
-import { Monitor, Palette, Pencil } from "lucide-react";
+import { Book, Monitor, Palette, Pencil } from "lucide-react";
 
 const iconSize = 20;
 
 export const CONTRIBUTORS = [
     {
-        role: "Organizer & Writer",
+        role: "Organizer",
         icon: <Pencil size={iconSize} />,
         contributors: [
             {
                 name: "Hiro",
                 socials: "https://x.com/hiroavrs",
             },
+        ],
+    },
+    {
+        role: "Archiver",
+        icon: <Book size={iconSize} />,
+        contributors: [
+            {
+                name: "Hiro",
+                socials: "https://x.com/hiroavrs",
+            },
+            {
+                name: "Zephyr Kitten",
+                socials: "https://x.com/ZephyrKitten",
+            },
+            {
+                name: "Rieght",
+                socials: "https://www.youtube.com/@immergruenclips",
+            },
+            {
+                name: "Fayelinya Luna",
+                socials: "https://fayelinyaluna.carrd.co/",
+            },
+            {
+                name: "Alfy",
+                socials: "https://x.com/knightalfy",
+            },
+            {
+                name: "KugaGray",
+                socials: "https://x.com/KuyaGray",
+            },
+            {
+                name: "Minhatory",
+                socials: "https://x.com/minhatory ",
+            },
+            {
+                name: "TsukiBep",
+                socials: "https://x.com/tsukibep",
+            },
+            {
+                name: "Sloth",
+                socials: "https://x.com/Sloth4784",
+            },
+            {
+                name: "SB",
+                socials: "https://x.com/SBERBholo"
+            },
+            {
+                name: "Zel",
+                socials: "https://x.com/zelmaelstrom"
+            },
+            {
+                name: "Squid",
+                socials: "https://x.com/Squid_the_Weeb"
+            },
+            {
+                name: "fast_as_nuk",
+                socials: "https://x.com/fast_as_nuk"
+            },
+            {
+                name: "Perks",
+                socials: "https://x.com/PerksJAZZBERI"
+            }
         ],
     },
     {

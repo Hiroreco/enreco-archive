@@ -2754,7 +2754,7 @@
           "data": {
             "day": 1
           },
-          "selected": true
+          "selected": false
         },
         {
           "id": "moom-ceres-fauna-top-1-left-2",
@@ -3817,7 +3817,7 @@
           "data": {
             "day": 3
           },
-          "selected": true
+          "selected": false
         },
         {
           "id": "mococo-abyssguard-cecilia-immergreen-top-2-left-2",

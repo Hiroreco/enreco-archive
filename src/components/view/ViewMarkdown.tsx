@@ -13,7 +13,6 @@ import Image from "next/image";
 import { memo, useMemo } from "react";
 import Markdown, { Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
-import rehypeRaw from "rehype-raw";
 import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
@@ -113,6 +112,10 @@ function addTeamIcons() {
         ["Scarlet Wand", "scarlet-wand"],
         ["Cerulean Cup", "cerulean-cup"],
         ["Jade Sword", "jade-sword"],
+        ["Chef", "ch2_jobs_chef"],
+        ["Jeweler", "ch2_jobs_jeweler"],
+        ["Smith", "ch2_jobs_smith"],
+        ["Supplier", "ch2_jobs_supplier"],
     ]);
 
     /* 
@@ -132,7 +135,7 @@ function addTeamIcons() {
         visit(tree, elementFilter, (node, _index, parent) => {
             const textNode = node as Text;
             const parts = textNode.value.split(
-                /(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword)/g,
+                /\b(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword|Chef|Jeweler|Smith|Supplier)\b/g,
             );
 
             const newChildren: ElementContent[] = parts.map((part) => {
@@ -163,30 +166,6 @@ function addTeamIcons() {
                 const nodeChildIdx = parentElem.children.indexOf(textNode);
                 parentElem.children.splice(nodeChildIdx, 1, ...newChildren);
             }
-        });
-    };
-}
-
-/*
-Transform u tags to u tags with underline-offset-2, just because this looks better
-*/
-function transformUnderlines() {
-    const elementFilter: TestFunction = (node) => {
-        if (node.type === "element") {
-            const elementNode = node as Element;
-            return elementNode.tagName === "u";
-        }
-
-        return false;
-    };
-
-    return function (tree: Node) {
-        visit(tree, elementFilter, (node) => {
-            const elementNode = node as Element;
-            Object.assign(elementNode, {
-                tagName: "u",
-                properties: { class: "underline underline-offset-2" },
-            });
         });
     };
 }
@@ -308,7 +287,11 @@ function ViewMarkdownInternal({
                 } else if (href && href.startsWith("#easter")) {
                     const egg = href.replace("#easter:", "");
                     return <EasterEgg easterEggName={egg} />;
-                } else if (href && href.startsWith("https://www.youtube.com")) {
+                } else if (
+                    href &&
+                    (href.startsWith("https://www.youtube.com") ||
+                        href.startsWith("https://youtu.be"))
+                ) {
                     return (
                         <TimestampHref
                             href={urlToLiveUrl(href!) || ""}
@@ -338,8 +321,6 @@ function ViewMarkdownInternal({
             transformImageParagraphToFigure,
             addTeamIcons,
             unWrapEasterEggLink,
-            rehypeRaw,
-            transformUnderlines,
         ],
         [],
     );

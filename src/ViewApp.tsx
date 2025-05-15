@@ -90,7 +90,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             viewStore.setInfoModalOpen(true);
             setFirstVisit(true);
         }
-        audioStore.changeBGM(chapterData.bgmSrc);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
 
@@ -206,7 +205,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         newDayData.nodes.forEach(
             (node) => (characterVisibilityLoaded[node.id] = true),
         );
-
+        audioStore.changeBGM(newChapterData.bgmSrc);
         viewStore.setEdgeVisibility(edgeVisibilityLoaded);
         viewStore.setTeamVisibility(teamVisibilityLoaded);
         viewStore.setCharacterVisibility(characterVisibilityLoaded);
@@ -228,14 +227,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 day < 0 ||
                 day >= siteData.chapters[viewStore.chapter].numberOfDays
             ) {
-                setBrowserHash("0/0");
-                updateData(0, 0);
+                setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
+                updateData(siteData.numberOfChapters - 1, 0);
                 return;
             }
             updateData(chapter, day);
         } else {
-            setBrowserHash("0/0");
-            updateData(0, 0);
+            setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
+            updateData(siteData.numberOfChapters - 1, 0);
         }
     }
 
@@ -352,7 +351,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
     return (
         <>
-            <div className="w-screen h-screen top-0 inset-x-0 overflow-hidden">
+            <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <ViewChart
                     nodes={memoizedDayData.nodes}
                     edges={memoizedDayData.edges}
@@ -372,7 +371,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 />
                 <div
                     className={cn(
-                        "absolute top-0 left-0 w-screen h-screen -z-10",
+                        "absolute top-0 left-0 w-screen h-full -z-10",
                         {
                             "brightness-90 dark:brightness-70":
                                 viewStore.currentCard !== null,
@@ -400,6 +399,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     onCharacterVisibilityChange={
                         viewStore.setCharacterVisibility
                     }
+                    chapter={viewStore.chapter}
                     chapterData={chapterData}
                     setChartShrink={setChartShrinkAndFit}
                     day={viewStore.day}

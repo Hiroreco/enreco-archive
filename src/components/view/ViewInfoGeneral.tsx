@@ -4,7 +4,8 @@ const ViewInfoGeneral = () => {
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on March 28th, 2025
+                    Updated on May 9th, 2025 (currently archiving Chapter 2
+                    daily)
                 </span>
             </div>
             <div>
@@ -90,6 +91,12 @@ const ViewInfoGeneral = () => {
             <div>
                 With that out of the way, feel free to move on to the next
                 section to learn how to navigate the archive!
+            </div>
+
+            <div className="text-sm text-muted-foreground">
+                Note: If you experince major lag when using the site, try
+                switching to a Chromium-based browser (like Chrome, Opera or
+                Edge).
             </div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
