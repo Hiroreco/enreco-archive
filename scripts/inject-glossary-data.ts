@@ -8,6 +8,9 @@ import {
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { CommonItemData, GalleryImage } from "../src/lib/type";
+import { validateGlossary } from "./validateGlossary";
+
+import metadata from "../src/data/metadata.json";
 
 const fileArg = process.argv[2];
 if (!fileArg) {
@@ -66,6 +69,8 @@ function parseMdFile(md: string, id: string): CommonItemData {
         source: `/images-opt/${id}-${idx}.webp`,
     }));
 
+    //do checks here, for example (if isEmptyChapter())
+
     return {
         id,
         name: tags["name"] || "",
@@ -86,6 +91,22 @@ const items = readdirSync(inputDir)
         return parseMdFile(md, id);
     });
 
-// 4) Write JSON array
-writeFileSync(outputFile, JSON.stringify(items, null, 2), "utf-8");
-console.log(`✅ Injected ${items.length} items into ${outputFile}`);
+// 4) validate data before injecting them in
+const CURRENT_CHAPTER_MAX = metadata.numChapters;
+
+const { valid, invalid } = validateGlossary(items, CURRENT_CHAPTER_MAX);
+
+// Log out any problems
+if (Object.keys(invalid).length) {
+    console.warn("⚠️  Validation errors detected:");
+    for (const [id, errs] of Object.entries(invalid)) {
+        console.warn(`  • ${id}: ${errs.join("; ")}`);
+    }
+    console.log(`Injection aborted`);
+} else {
+    console.log("✅ All items passed validation");
+    writeFileSync(outputFile, JSON.stringify(valid, null, 2), "utf-8");
+    console.log(
+        `Injected ${valid.length}/${items.length} items into ${outputFile}`,
+    );
+}
