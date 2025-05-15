@@ -1,7 +1,7 @@
-[chapter]: # (undefined)
-[quote]:   # (Ṃ̷̳͝͝A̷̼̝͊Y̴͕͑ ̴̹̚T̵͓́͜H̵̻̻̚E̵̟͆ ̴̡̒L̴̙̏̚A̶̲̋Ṉ̴̦̉D̴̡͗S̵̜͇̄ ̸̧̱̐B̵͇̚͝Ǘ̷̗̌R̸̙̳͝N̶̬̬̈)
-[name]:    # (Stain Hat)
-[images]:  # (Corrupted ones wearing the Stain Hat)
+[chapter]: null
+[quote]:   Ṃ̷̳͝͝A̷̼̝͊Y̴͕͑ ̴̹̚T̵͓́͜H̵̻̻̚E̵̟͆ ̴̡̒L̴̙̏̚A̶̲̋Ṉ̴̦̉D̴̡͗S̵̜͇̄ ̸̧̱̐B̵͇̚͝Ǘ̷̗̌R̸̙̳͝N̶̬̬̈
+[name]:    Stain Hat
+[images]:  Corrupted ones wearing the Stain Hat
 
 ### <u>Description</u> 
 The Stain Hat takes the shape of—well—a stain, that part’s obvious. What wasn’t obvious, however, was the implication it held. When placed atop the wearer’s head, it looked as though a stain was just casually sitting there. Cute at first glance, but little did they know, it was quietly corrupting their mind.

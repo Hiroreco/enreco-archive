@@ -1,7 +1,7 @@
-[chapter]: # (undefined)
-[quote]:   # (I thought we were the empathetic ones...)
-[name]:    # (Cerulean Cup Hat)
-[images]:  # (Cerulean Cup members wearing their hat)
+[chapter]: null
+[quote]:   I thought we were the empathetic ones...
+[name]:    Cerulean Cup Hat
+[images]:  Cerulean Cup members wearing their hat
 
 ### <u>Description</u> 
 The Cerulean Cup's hat bears the shape of a... balloon? Egg? Something blue? No one really knows for sure, but one thing's certain—it looks incredibly heavy for the wearer's head.

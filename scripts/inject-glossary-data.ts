@@ -51,7 +51,7 @@ function parseMdFile(md: string, id: string): CommonItemData {
     const tags: Record<string, string> = {};
     let i = 0;
 
-    const TAG_RE = /^\[([^\]]+)\]:\s*#\s*\((.*?)\)$/;
+    const TAG_RE = /^\[([^\]]+)\]:\s*(.*?)\s*$/;
 
     // 1) extract tags until first blank line
     for (; i < lines.length; i++) {

@@ -1,7 +1,7 @@
-[chapter]: # (undefined)
-[quote]:   # (A worthy helmet for a knight)
-[name]:    # (Jade Sword Hat)
-[images]:  # (Elizabeth wearing the Jade Sword Hat)
+[chapter]: null
+[quote]:   A worthy helmet for a knight
+[name]:    Jade Sword Hat
+[images]:  Elizabeth wearing the Jade Sword Hat
 
 ### <u>Description</u> 
 The Jade Sword's hat served more like a helmet, most notable for the visor protecting the wearer's face. And of course, it's green—matching the color of its guild.

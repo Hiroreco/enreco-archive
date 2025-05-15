@@ -1,7 +1,7 @@
-[chapter]: # (undefined)
-[quote]:   # (Let us touch tips!)
-[name]:    # (Scarlet Wand Hat)
-[images]:  # (Gura donning the Scarlet Wand hat,Scarlet Wand tip touching ritual)
+[chapter]: null
+[quote]:   Let us touch tips!
+[name]:    Scarlet Wand Hat
+[images]:  Gura donning the Scarlet Wand hat,Scarlet Wand tip touching ritual
 
 ### <u>Description</u> 
 The Scarlet Wand's hat is by far the longest and most absurd-looking one among all the guilds. It's long, pyramid-shaped, and red—it resembles a very suggestive shape, as pointed out by Shiori. Long story short, it's a pretty unique hat.

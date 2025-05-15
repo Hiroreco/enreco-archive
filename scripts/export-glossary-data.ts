@@ -46,10 +46,10 @@ const writeToFile = (name: string, content: string) => {
 
 const generateFileContent = (item: CommonItemData) => {
     return [
-        `[chapter]: # (${item.chapter})`,
-        `[quote]:   # (${item.quote})`,
-        `[name]:    # (${item.name})`,
-        `[images]:  # (${item.galleryImages.map((imageItem) => imageItem.title)})`,
+        `[chapter]: ${item.chapter}`,
+        `[quote]:   ${item.quote}`,
+        `[name]:    ${item.name}`,
+        `[images]:  ${item.galleryImages.map((imageItem) => imageItem.title)}`,
         ``,
         item.content,
     ].join("\n");
