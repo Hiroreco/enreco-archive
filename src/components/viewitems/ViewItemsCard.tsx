@@ -104,6 +104,11 @@ const ViewItemsCard = ({ data, label }: ViewItemsCardProps) => {
                             <ViewItemViewer item={selectedItem} />
                         </motion.div>
                     )}
+                    {filteredData.length === 0 && (
+                        <div className="text-center text-xl text-muted-foreground">
+                            Nothing here but us chickens
+                        </div>
+                    )}
                 </AnimatePresence>
             </CardContent>
         </Card>
