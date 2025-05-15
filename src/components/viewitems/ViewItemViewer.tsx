@@ -42,7 +42,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                         <span className="font-semibold underline">
                             Appeared in:
                         </span>
-                        <span>{item.chapter}</span>
+                        <span>{item.chapter + 1}</span>
                     </p>
 
                     <p className="mt-4 italic  text-muted-foreground text-sm">

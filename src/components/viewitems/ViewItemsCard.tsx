@@ -1,4 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+    Card,
+    CardContent,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card";
 import {
     Select,
     SelectContent,
@@ -11,32 +17,59 @@ import ViewItemSelector from "@/components/viewitems/ViewItemSelector";
 import ViewItemViewer from "@/components/viewitems/ViewItemViewer";
 import { CommonItemData } from "@/lib/type";
 import { AnimatePresence, motion } from "framer-motion";
-import { ChevronLeft } from "lucide-react";
-import { useEffect, useState } from "react";
+import { ChefHat, ChevronLeft, Sword } from "lucide-react";
+import { ReactElement, useEffect, useState } from "react";
+import { twMerge } from "tailwind-merge";
+
+import weapons from "@/data/glossary/weapons.json";
+import hats from "@/data/glossary/hats.json";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface ViewItemsCardProps {
-    data: CommonItemData[];
-    label: string;
+    className: string;
 }
 
-const ViewItemsCard = ({ data, label }: ViewItemsCardProps) => {
+const categoryMap: {
+    [key: string]: {
+        data: CommonItemData[];
+        label: string;
+        icon: ReactElement;
+    };
+} = {
+    "cat-weapons": {
+        data: weapons,
+        label: "Weapons",
+        icon: <Sword />,
+    },
+    "cat-hats": {
+        data: hats,
+        label: "Hats",
+        icon: <ChefHat />,
+    },
+};
+
+const ViewItemsCard = ({ className }: ViewItemsCardProps) => {
     const [selectedItem, setSelectedItem] = useState<CommonItemData | null>(
         null,
     );
 
+    const [selectedCategory, setSelectedCategory] = useState("cat-hats");
     const [selectedChapter, setSelectedChapter] = useState(-1);
     const [filteredData, setFilteredData] = useState<CommonItemData[]>([]);
 
     useEffect(() => {
+        const data = categoryMap[selectedCategory].data;
         const dataBasedOnChapter = data.filter(
             (item) =>
                 selectedChapter === -1 || item.chapter === selectedChapter,
         );
         setFilteredData(dataBasedOnChapter);
-    }, [selectedChapter, data]);
+    }, [selectedChapter, selectedCategory]);
 
     return (
-        <Card className="items-card flex flex-col">
+        <Card
+            className={twMerge("items-card flex flex-col relative", className)}
+        >
             <CardHeader>
                 <CardTitle className="flex justify-between items-center gap-2">
                     <div>
@@ -46,7 +79,7 @@ const ViewItemsCard = ({ data, label }: ViewItemsCardProps) => {
                                 onClick={() => setSelectedItem(null)}
                             />
                         )}
-                        {label}
+                        {categoryMap[selectedCategory].label}
                     </div>
 
                     <Select
@@ -111,6 +144,22 @@ const ViewItemsCard = ({ data, label }: ViewItemsCardProps) => {
                     )}
                 </AnimatePresence>
             </CardContent>
+            <CardFooter>
+                <Tabs
+                    className="m-auto"
+                    value={selectedCategory}
+                    onValueChange={(value) => setSelectedCategory(value)}
+                    defaultValue="cat-weapons"
+                >
+                    <TabsList>
+                        {Object.keys(categoryMap).map((category) => (
+                            <TabsTrigger value={category} key={category}>
+                                {categoryMap[category].icon}
+                            </TabsTrigger>
+                        ))}
+                    </TabsList>
+                </Tabs>
+            </CardFooter>
         </Card>
     );
 };
