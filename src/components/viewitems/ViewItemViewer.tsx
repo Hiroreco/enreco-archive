@@ -1,5 +1,4 @@
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
-import ViewModelViewer from "@/components/viewitems/ViewModelViewer";
 import { CommonItemData } from "@/lib/type";
 import { useState } from "react";
 
@@ -30,30 +29,24 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
             <div className="w-[250px]">
                 <p className="font-bold text-center">Model Viewer</p>
                 <div className="w-full h-[250px]">
-                    {item.modelSrc && (
+                    {/* {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
-                    )}
+                    )} */}
                 </div>
-                <div className="mt-4 w-full">
-                    <p className="text-center underline underline-offset-2 font-semibold">
+                <div className="mt-4 w-full text-center">
+                    <p className="underline underline-offset-2 font-semibold">
                         {item.name}
                     </p>
 
-                    <div className="mt-2 w-full justify-around flex">
-                        <p className="flex flex-col items-center text-sm">
-                            <span className="font-semibold">Category</span>
-                            <span className="text-muted-foreground">
-                                Weapon
-                            </span>
-                        </p>
-                        <p className="flex flex-col items-center text-sm">
-                            <span className="font-semibold">Type</span>
-                            <span className="text-muted-foreground">Range</span>
-                        </p>
-                    </div>
+                    <p className="flex gap-1 text-sm">
+                        <span className="font-semibold underline">
+                            Appeared in:
+                        </span>
+                        <span>{item.chapter}</span>
+                    </p>
 
-                    <p className="mt-4 italic text-center text-muted-foreground text-sm">
-                        "Tickle tickle~ Oh crap I think I just exploded"
+                    <p className="mt-4 italic  text-muted-foreground text-sm">
+                        {item.quote}
                     </p>
                 </div>
             </div>

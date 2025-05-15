@@ -8,8 +8,8 @@ import ViewItemsCard from "@/components/viewitems/ViewItemsCard";
 import { useViewStore } from "@/store/viewStore";
 import { Dice6, Info, Settings } from "lucide-react";
 
-import weapons from "@/data/weapons.json";
-import hats from "@/data/hats.json";
+import weapons from "@/data/glossary/weapons.json";
+import hats from "@/data/glossary/hats.json";
 
 interface ViewItemsAppProps {
     bgImage: string;

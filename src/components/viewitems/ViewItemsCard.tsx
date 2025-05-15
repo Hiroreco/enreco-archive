@@ -38,7 +38,7 @@ const ViewItemsCard = ({ data, label }: ViewItemsCardProps) => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="h-full p-2 overflow-x-hidden overflow-y-auto grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4"
+                            className="p-2 overflow-x-hidden overflow-y-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
                         >
                             {data.map((weapon) => (
                                 <ViewItemSelector
