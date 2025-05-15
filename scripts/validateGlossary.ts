@@ -23,7 +23,9 @@ const checks: Record<string, CheckFn> = {
     chapter: (item, max) => {
         if (item.chapter == null) return "chapter is null";
         if (isNaN(item.chapter)) return "chapter is not a number";
-        if (item.chapter < 0) return "chapter is negative";
+        // -1 is all chapter
+        if (item.chapter < 0 && item.chapter !== -1)
+            return "chapter is negative";
         if (item.chapter > max)
             return `chapter (${item.chapter}) > max (${max})`;
         return null;
