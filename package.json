@@ -13,7 +13,8 @@
         "optimize-images": "tsx scripts/optimize-images.js",
         "prebuild": "tsx scripts/optimize-images.js",
         "predev": "tsx scripts/optimize-images.js",
-        "export-data": "tsx scripts/export-data.ts"
+        "export-data": "tsx scripts/export-data.ts",
+        "validate-recaps": "tsx scripts/validate-recaps.ts"
     },
     "dependencies": {
         "@next/third-parties": "^15.3.1",
