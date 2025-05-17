@@ -745,23 +745,6 @@
           "dragging": false
         },
         {
-          "id": "peasant-da-bae",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 300
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "raora-panthera",
           "type": "image",
           "position": {
@@ -1015,23 +998,6 @@
           "dragging": false
         },
         {
-          "id": "king-of-libestal",
-          "type": "image",
-          "position": {
-            "x": 850,
-            "y": 75
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "tam-gandr",
           "type": "image",
           "position": {
@@ -1114,81 +1080,6 @@
             "content": "Carrying on from the first day, the bickering between the maiden in blue and the knight clad in red was only growing fiercer.\n\nWhile wandering through the kingdom, Elizabeth caught sight of Tam, and immediately, the so-called Queen caused a scene. She insulted Elizabeth outright, refusing to address the knight by name and instead calling her things like \"red thing\" or \"harlot\" for supposedly harassing her guildmate—the infamous Hot Pink One—the day prior.\n\n[Ah, so you are the Tim!](#embed:https://www.youtube.com/live/M3cuDNZrIKM?feature=shared\\&t=7039)\n\nElizabeth, however, was unfazed. She wanted to set matters straight and challenged Tam to a duel. But Tam, unwilling to get her own hands dirty, declined and instead called upon her subordinate, the Hot Pink One, to fight in her place. Confident in her superior weaponry and skill, Elizabeth saw this as an easy victory. After all, her opponent’s \"special ability\" was just… farting. How hard could it possibly be?\n\n[Hot Red vs Hot Pink](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7494)\n\nAnd yet, to her absolute horror—Elizabeth lost.\n\nBlaming the defeat on the \"ping ghost\" (a completely valid excuse in her eyes), she tried to save face, but the humiliation was [unavoidable](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared\\&t=7553). Tam wasted no time rubbing salt in the wound, taunting Elizabeth and further souring the knight’s already bitter opinion of the so-called Queen.\n\nBut that wasn’t the end of it.\n\nLater that day, the two clashed again, and—unsurprisingly—Tam was the instigator once more. What started as a verbal spar quickly escalated when the topic of Shakira was brought into the fray.\n\n[You are a mighty phoenix!](#embed:https://www.youtube.com/live/M3cuDNZrIKM?feature=shared\\&t=7788)\n\nElizabeth was appalled at what she saw—Shakira, kneeling before Tam, acting as nothing more than a servant to this self-proclaimed Queen. To Elizabeth, it was disgraceful. She had always seen Shakira as a mighty phoenix, a force to be reckoned with—not someone who should be groveling before this foul-mouthed, ill-mannered woman, spewing toxic waste for words.\n\nElizabeth saw nothing in Tam that resembled royalty—no honor, no chivalry, no sense of grace. In her eyes, this woman was not worthy of being a Queen. And as much as she wanted to never deal with Tam again, she hoped others would eventually see the light as well.\n\n[\"Libestal's forbidden love\" by yuuto](https://x.com/yuutomeh97/status/1830490741384356254)\n",
             "pathType": "smoothstep",
             "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
-          "source": "mococo-abyssguard",
-          "target": "elizabeth-rose-bloodflame",
-          "sourceHandle": "left-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-tam-gandr-bottom-2-left-2",
-          "source": "gonathon-g",
-          "target": "tam-gandr",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
           },
           "selected": false
         },
@@ -1453,56 +1344,6 @@
           "selected": false
         },
         {
-          "id": "ame",
-          "type": "image",
-          "position": {
-            "x": 700,
-            "y": 500
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 300
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "peasant-da-bae",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 300
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "raora-panthera",
           "type": "image",
           "position": {
@@ -1517,23 +1358,6 @@
             "status": "Alive",
             "day": 2,
             "bgCardColor": "#f087a9"
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "moom",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 500
-          },
-          "data": {
-            "day": 1
           },
           "measured": {
             "width": 100,
@@ -1704,57 +1528,6 @@
           "dragging": false
         },
         {
-          "id": "hot-pink-one",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 1025
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "nino-ina",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 1025
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "king-of-libestal",
-          "type": "image",
-          "position": {
-            "x": 850,
-            "y": 75
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "tam-gandr",
           "type": "image",
           "position": {
@@ -1776,101 +1549,9 @@
           },
           "selected": false,
           "dragging": false
-        },
-        {
-          "id": "gawr-gura",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 925
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
         }
       ],
       "edges": [
-        {
-          "id": "gonathon-g-ame-top-2-bottom-2",
-          "source": "gonathon-g",
-          "target": "ame",
-          "sourceHandle": "top-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-tam-gandr-top-3-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
-          "source": "mococo-abyssguard",
-          "target": "elizabeth-rose-bloodflame",
-          "sourceHandle": "left-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
         {
           "id": "gonathon-g-tam-gandr-bottom-2-left-2",
           "source": "gonathon-g",
@@ -1887,21 +1568,6 @@
             "content": "Out of all the so-called \"followers\" Queen Tam Gandr had gathered, Gonathon was probably the most normal and level-headed of them all—and, surprisingly, one of the few who was actually loyal to her. He diligently reported on matters in the kingdom, had her back whenever she was puzzled or in need of assistance, and remained composed even when the rest of their guildmates were far less cooperative.\n\n[Wheeze](#embed:https://www.youtube.com/live/JcRcTRedS_8?feature=shared\\&t=6523)\n\nBut more than just her reliable right-hand man, Tam found that her relationship with Gonathon was solid. She could trust him. Sure, he had his silly moments, but he had never turned his back on her. Whenever she called, he would appear immediately—like the time when Raora was annoying her again, and without hesitation, Gonathon stepped in to shield his Queen from the pink cat’s antics.\n\n[Back off you fake!](#embed:https://www.youtube.com/live/JcRcTRedS_8?feature=shared\\&t=6151)\n\nAnd despite the many ways he could have looked down on her—being richer, knowing more about the kingdom, and generally having more while Tam had less—Gonathon never once overstepped his bounds. He knew his place and stayed loyal through everything.\n\nA knight for his Queen, through and through. And Tam? She appreciated it.\n\n[Anything for the Queen](#embed:https://www.youtube.com/live/JcRcTRedS_8?feature=shared\\&t=7876)\n",
             "pathType": "smoothstep",
             "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
           },
           "selected": false
         },
@@ -1932,36 +1598,6 @@
           "selected": false
         },
         {
-          "id": "fuwawa-abyssguard-mococo-abyssguard-right-2-left-2",
-          "source": "fuwawa-abyssguard",
-          "target": "mococo-abyssguard",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nino-ina-right-2-left-2",
-          "source": "hot-pink-one",
-          "target": "nino-ina",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
           "id": "shiori-nyavella-koseki-bijou-right-2-left-2",
           "source": "shiori-nyavella",
           "target": "koseki-bijou",
@@ -1977,82 +1613,6 @@
             "content": "[\"Hello, my other wife\".](https://www.youtube.com/live/BnpLALzUzD4?feature=shared\\&t=237)\n\nThose were Shiori’s unexpected words in response to Bijou’s bright and cheerful morning greeting. The smile on the gem maiden’s face faded instantly, replaced by confusion and a pang of hurt. Bijou immediately pressed Shiori for answers—who was this \"other wife\"?\n\nIt turned out to be Nerissa Ravencroft, someone Bijou wasn’t particularly fond of. Sure, there was the stark contrast between Bijou’s petite figure and Nerissa’s elegant hourglass form, but more importantly, Shiori was her wife, not Nerissa’s. Still, Bijou reassured herself: Nerissa hadn’t participated in the same quirky ceremony that she and Shiori had. That made their bond unique, special, and above all, official—right?\n\nThe day started off smoothly despite the awkward morning. Bijou and Shiori went on their usual adventures, gathering materials, completing quests, and enjoying the idyllic life of a married couple. But their happiness was short-lived.\n\nWhile wandering through the kingdom later that day, Bijou accidentally overheard a conversation between Shiori, Cecilia, and Nerissa. What she heard struck her to the core.\n\n[She betrayed me!](#embed:https://www.youtube.com/live/Tl7rUzJyc_0?t=5811)\n\nShiori had casually mentioned that she wasn’t sure if she and Bijou were truly married. The words stung—Bijou had thought their bond was unshakable, an unbreakable vow of love. But Shiori, being Shiori, had simply been speaking without a second thought, not realizing the weight of her words.\n\nHeartbroken and conflicted, Bijou later confronted Shiori to clear up the [misunderstanding](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\\&t=6015). A small crowd of bystanders and guildmates gathered, witnessing the tense but sincere discussion. Somehow, things worked themselves out—though exactly how, no one could really say.\n\nThe situation grew even more chaotic when Gonathon arrived, acting as Nerissa’s unexpected messenger.\n\n[What's even happening anymore](#embed:https://www.youtube.com/live/Tl7rUzJyc_0?t=6281)\n\nNerissa, he explained, was deeply saddened and jealous over the whole ordeal. She had even declared that she would \"allow\" Bijou to have Shiori for the night but also insisted that she was entitled to Shiori herself for their dungeon raid. Gonathon also added saying Nerissa had \"permitted\" him to have Shiori for the night too, and that Shiori would be okay with having mutilple wives, so technically she'd be okay with everyone going together, and-\n\nThe tangled mess of relationships left everyone’s heads spinning. Was Shiori okay with having two wives? Three? Who even knew anymore? In the end, they all unanimously decided to blame Nerissa for the confusion, mostly for the heck of it.\n",
             "pathType": "smoothstep",
             "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "ame-hot-pink-one-left-2-bottom-2",
-          "source": "ame",
-          "target": "hot-pink-one",
-          "sourceHandle": "left-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#5f0066"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "moom-ceres-fauna-top-1-left-2",
-          "source": "moom",
-          "target": "ceres-fauna",
-          "sourceHandle": "top-1",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-nerissa-ravencroft-bottom-2-top-2",
-          "source": "shiori-nyavella",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-moom-top-2-right-2",
-          "source": "kiara",
-          "target": "moom",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-tam-gandr-top-3-left-3",
-          "source": "hot-pink-one",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "left-3",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 1
           },
           "selected": false
         },
@@ -2213,56 +1773,6 @@
             "height": 100
           },
           "selected": false
-        },
-        {
-          "id": "ame",
-          "type": "image",
-          "position": {
-            "x": 700,
-            "y": 500
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 300
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "peasant-da-bae",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 300
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
         },
         {
           "id": "raora-panthera",
@@ -2472,23 +1982,6 @@
           "dragging": false
         },
         {
-          "id": "hot-pink-one",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 1025
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "nino-ina",
           "type": "image",
           "position": {
@@ -2535,23 +2028,6 @@
           "dragging": false
         },
         {
-          "id": "tam-gandr",
-          "type": "image",
-          "position": {
-            "x": 1450,
-            "y": 925
-          },
-          "data": {
-            "day": 2
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "gawr-gura",
           "type": "image",
           "position": {
@@ -2577,262 +2053,6 @@
       ],
       "edges": [
         {
-          "id": "gonathon-g-ame-top-2-bottom-2",
-          "source": "gonathon-g",
-          "target": "ame",
-          "sourceHandle": "top-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-tam-gandr-top-3-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
-          "source": "mococo-abyssguard",
-          "target": "elizabeth-rose-bloodflame",
-          "sourceHandle": "left-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-tam-gandr-bottom-2-left-2",
-          "source": "gonathon-g",
-          "target": "tam-gandr",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-tam-gandr-right-2-top-1",
-          "source": "raora-panthera",
-          "target": "tam-gandr",
-          "sourceHandle": "right-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "fuwawa-abyssguard-mococo-abyssguard-right-2-left-2",
-          "source": "fuwawa-abyssguard",
-          "target": "mococo-abyssguard",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nino-ina-right-2-left-2",
-          "source": "hot-pink-one",
-          "target": "nino-ina",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-koseki-bijou-right-2-left-2",
-          "source": "shiori-nyavella",
-          "target": "koseki-bijou",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "ame-hot-pink-one-left-2-bottom-2",
-          "source": "ame",
-          "target": "hot-pink-one",
-          "sourceHandle": "left-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#5f0066"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "moom-ceres-fauna-top-1-left-2",
-          "source": "moom",
-          "target": "ceres-fauna",
-          "sourceHandle": "top-1",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-nerissa-ravencroft-bottom-2-top-2",
-          "source": "shiori-nyavella",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-moom-top-2-right-2",
-          "source": "kiara",
-          "target": "moom",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-tam-gandr-top-3-left-3",
-          "source": "hot-pink-one",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "left-3",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-ceres-fauna-bottom-2-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "ceres-fauna",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
           "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-3-left-2",
           "source": "elizabeth-rose-bloodflame",
           "target": "nerissa-ravencroft",
@@ -2849,36 +2069,6 @@
             "content": "Elizabeth couldn’t believe her luck when Nerissa [invited](https://www.youtube.com/live/dCNrMstGc3I?feature=shared\\&t=1397) her to join her on a journey to the Volcanic Dungeon. Without hesitation, she accepted. It was the perfect opportunity to finally spend some quality time alone with the enigmatic maiden in blue.\n\nBefore the adventure, Elizabeth decided to take a stroll around town with Raora. By chance, they stumbled upon Nerissa in the casino. Though their financial situations couldn’t be more different—Nerissa with her overflowing wealth and Elizabeth barely scraping together two digits—the scarlet knight decided to join her anyway. For Elizabeth, the amount didn’t matter. What mattered was the chance to bask in Nerissa’s presence.\n\n[\"Date\" at the casino](#embed:https://www.youtube.com/live/dCNrMstGc3I?t=1716)\n\nAs they played, Elizabeth found herself captivated by Nerissa’s elegance. She couldn’t help but admire every little thing about her—the way she moved, her radiant beauty—it was as if she was under a spell. But her daydream ended abruptly when she lost all her money in the game. Flustered and embarrassed, Elizabeth jokingly accused Nerissa of tricking her, though deep down, she couldn’t stay upset for long.\n\nWhen the time came to conquer the Volcanic Dungeon, the two set off together. However, as they navigated the dungeon’s many challenges, Elizabeth’s suspicions only grew. Nerissa’s uncanny ability to avoid traps seemed too good to be true. Passing lasers effortlessly? Witch. Walking through fire unharmed? Witch. Catching Elizabeth mid-thought as she mentally accused her of being a witch? Definitely a [witch](https://www.youtube.com/live/dCNrMstGc3I?feature=shared\\&t=3234).\n\nDespite the accusations, Elizabeth’s thoughts kept drifting back to Nerissa. She was drawn to her, inexplicably and undeniably. The scarlet knight found herself unable to look away, observing every move Nerissa made with a mix of fascination and disbelief.\n\nElizabeth had fun—more fun than she’d had in a long time. She cherished every second spent with Nerissa, even with all the \"witch\" framing. And though Nerissa teased her, it felt like their bond was growing stronger. Elizabeth began to hope that maybe, just maybe, these feelings she couldn’t shake had real meaning, like birds with their trees, like bees with their flowers, like Romeo with his Juliet.\n\n[Romeo, oh Romeo~](#embed:https://www.youtube.com/live/dCNrMstGc3I?t=6831)\n\nAt one point, Elizabeth even tried to [trap](https://www.youtube.com/live/dCNrMstGc3I?feature=shared\\&t=7576) Nerissa, all for the sake of sharing music with her. But Nerissa, with her usual wit and grace, escaped easily. Of course, Elizabeth blamed it on witchcraft, but she couldn’t deny the joy she felt during these moments.\n\nBut the day took a harsh turn when Elizabeth found herself in a duel against Gonathon. The knight demanded information about Mococo’s whereabouts, which Elizabeth refused to give. She emerged victorious, but Gonathon had an ace up his sleeve—Nerissa.\n\n[Say those words, you witch](#embed:https://www.youtube.com/live/dCNrMstGc3I?t=8527)\n\nAs a spectator, Nerissa had allied herself with Gonathon for protection against Mococo. He warned Elizabeth that if she didn’t cooperate, Nerissa would declare her hatred for her. Elizabeth put on a brave face, but when Nerissa coldly said the words, the scarlet knight crumbled.\n\nTears flowed as Elizabeth’s heart shattered. Everything they’d built, every shared moment, felt meaningless now. Nerissa’s rejection confirmed her worst fears—perhaps these feelings were all part of some cruel spell.\n\nDistraught, Elizabeth wandered aimlessly, seeking comfort from [strangers](https://www.youtube.com/live/dCNrMstGc3I?feature=shared\\&t=8651) and throwing her remaining coins away at the casino. Yet nothing eased her pain. She was left poorer and emptier than before, her heart heavy with regret and longing.\n\n[She's lost it](#embed:https://www.youtube.com/live/dCNrMstGc3I?feature=shared\\&t=8768)\n\nFor Elizabeth, the day ended in despair, but a small part of her still clung to hope. Maybe, just maybe, things could be mended. Perhaps the maiden in blue wasn’t a witch after all, but someone truly special—someone worth fighting for.\n\n[\"BloodRaven\" by Keisea](https://x.com/Keiseeaaa/status/1831435229753700756)\n",
             "pathType": "smoothstep",
             "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "nerissa-ravencroft-koseki-bijou-top-4-left-4",
-          "source": "nerissa-ravencroft",
-          "target": "koseki-bijou",
-          "sourceHandle": "top-4",
-          "targetHandle": "left-4",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-koseki-bijou-bottom-3-top-1",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-3",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 2
           },
           "selected": false
         },
@@ -3088,40 +2278,6 @@
           "selected": false
         },
         {
-          "id": "kiara",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 300
-          },
-          "data": {
-            "day": 1
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "peasant-da-bae",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 300
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "raora-panthera",
           "type": "image",
           "position": {
@@ -3136,40 +2292,6 @@
             "status": "Alive",
             "day": 4,
             "bgCardColor": "#f087a9"
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "moom",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 500
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "mori-calliope",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 400
-          },
-          "data": {
-            "day": 3
           },
           "measured": {
             "width": 100,
@@ -3340,23 +2462,6 @@
           "dragging": false
         },
         {
-          "id": "nino-ina",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 1025
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "king-of-libestal",
           "type": "image",
           "position": {
@@ -3378,208 +2483,9 @@
           },
           "selected": false,
           "dragging": false
-        },
-        {
-          "id": "tam-gandr",
-          "type": "image",
-          "position": {
-            "x": 1450,
-            "y": 925
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "gawr-gura",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 925
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
         }
       ],
       "edges": [
-        {
-          "id": "gonathon-g-ame-top-2-bottom-2",
-          "source": "gonathon-g",
-          "target": "ame",
-          "sourceHandle": "top-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-tam-gandr-top-3-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
-          "source": "mococo-abyssguard",
-          "target": "elizabeth-rose-bloodflame",
-          "sourceHandle": "left-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-tam-gandr-bottom-2-left-2",
-          "source": "gonathon-g",
-          "target": "tam-gandr",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-tam-gandr-right-2-top-1",
-          "source": "raora-panthera",
-          "target": "tam-gandr",
-          "sourceHandle": "right-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "fuwawa-abyssguard-mococo-abyssguard-right-2-left-2",
-          "source": "fuwawa-abyssguard",
-          "target": "mococo-abyssguard",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nino-ina-right-2-left-2",
-          "source": "hot-pink-one",
-          "target": "nino-ina",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-koseki-bijou-right-2-left-2",
-          "source": "shiori-nyavella",
-          "target": "koseki-bijou",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
         {
           "id": "ame-hot-pink-one-left-2-bottom-2",
           "source": "ame",
@@ -3596,82 +2502,6 @@
             "content": "As she stumbled upon Jyonathan, the Hot Pink One wasted no time in boasting about the many sidechicks she had acquired. It was almost as if she was flexing on Jyonathan—sending a silent message that read: \"You didn’t fall for me early on? Well, look at me now, surrounded by wives. And soon enough, you’ll be mine too\". The pink one felt powerful.\n\n[I'm surrounded by hot women](#embed:https://www.youtube.com/live/gtOGWDKwQfY?feature=shared\\&t=7553)\n\nHowever, Jyonathan—along with Elizabeth, who was also present—had absolutely no idea what she was talking about. Sidechicks? Did she have a chicken farm? If so, where was this chicken farm?\n\nThe Hot Pink One found herself struggling to explain the term without just straight-up admitting that she had, in fact, gathered a harem of wives.\n\nEventually, deciding she was done with the conversation, she ended it by [spitting](https://www.youtube.com/live/gtOGWDKwQfY?feature=shared\\&t=7943) on them. Cause why not?\n",
             "pathType": "smoothstep",
             "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "moom-ceres-fauna-top-1-left-2",
-          "source": "moom",
-          "target": "ceres-fauna",
-          "sourceHandle": "top-1",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-nerissa-ravencroft-bottom-2-top-2",
-          "source": "shiori-nyavella",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-moom-top-2-right-2",
-          "source": "kiara",
-          "target": "moom",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-tam-gandr-top-3-left-3",
-          "source": "hot-pink-one",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "left-3",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-ceres-fauna-bottom-2-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "ceres-fauna",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 2
           },
           "selected": false
         },
@@ -3711,51 +2541,6 @@
             "content": "They're side chicks to each other now. Nerissa became the Hot Pink One's side chick, Bijou also became the pink lady's side chick. So by extension, Bijou and Nerissa were each other's side chick.\n\n[I don't know anymore](#embed:https://www.youtube.com/live/5o4TerH2bVI?feature=shared\\&t=12141)\n",
             "pathType": "straight",
             "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-koseki-bijou-bottom-3-top-1",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-3",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-gawr-gura-bottom-1-right-2",
-          "source": "gonathon-g",
-          "target": "gawr-gura",
-          "sourceHandle": "bottom-1",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-koseki-bijou-bottom-2-top-2",
-          "source": "raora-panthera",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 3
           },
           "selected": false
         },
@@ -3801,21 +2586,6 @@
             "content": "Nerissa found herself in quite the predicament—though, to be fair, so did Mococo. The two were at each other's throats, locked in a heated dispute. Nerissa wanted to resolve the whole lottery ticket fiasco in a peaceful manner, as she had been falsely accused in the first place. Meanwhile, Mococo was adamant about receiving compensation, hiring a lawyer, and pursuing a full lawsuit against FaunaMart.\n\nTo support her case, Nerissa rallied her guildmates—Fauna, her CEO; Cecilia, her sharp-minded green-haired ally; and Gonathon, a knight she could trust—along with an abundance of evidence proving her innocence.\n\nMococo, on the other hand had Elizabeth. Just Elizabeth.\n\nTechnically, Cecilia was also her lawyer, but unbeknownst to Mococo, Cecilia was actually on Nerissa’s side (see [Cecilia-Mococo: Better Call Cecilia](#edge:mococo-abyssguard-cecilia-immergreen-top-2-left-2)). Fuwawa was also present, but she wanted nothing to do with the whole mess. With things stacked against her, it seemed Mococo had quite the uphill battle ahead.\n\n[Dog and Bird duking it out](#embed:https://www.youtube.com/live/wINOVotsvPY?t=878)\n\nNerissa presented her side first, explaining how she had mistakenly miscalculated Mococo's lottery ticket count but had promptly corrected the error. She wasn't asking for anything—she simply wanted Mococo to drop the lawsuit and move on. But instead, Mococo, allegedly, put a 50000 coin bounty on her head.\n\nMococo, however, was not willing to back down.\n\nThe doggo accused FaunaMart of engaging in improper business practices, claiming she had been scammed out of her lottery winnings, shortchanged on her rightful prize money, and—most damning of all—hunted down on orders from a FaunaMart employee, causing her immense emotional distress. As compensation, she demanded [*10,000 coins*](https://www.youtube.com/live/wINOVotsvPY?feature=shared\\&t=1310).\n\nThe dispute grew more intense, with neither side willing to concede.\n\nAt one point, someone suggested sending Mococo to the gallows for her so-called crimes, which—unsurprisingly—sent the poor pup into a full-blown panic. Overwhelmed with fear, she immediately fled, crying out in distress.\n\n[Let's go to the gallows](#embed:https://www.youtube.com/embed/wINOVotsvPY?si=BViZFZodzvRoTCtf\\&start=1600)\n\nBy this point, Nerissa was exhausted, mentally. She just wanted this entire ordeal to be over. Determined to put an end to the chaos, she chased after Mococo, tirelessly trying to negotiate a settlement. After what felt like an eternity, the dog finally ran out of energy and had no choice but to listen.\n\nIn the end, Nerissa reluctantly agreed to pay Mococo the 10,000 coins. Mococo then added free kisses as part of the deal. Nerissa complied and gave her what she wanted. And with that, the great FaunaMart lawsuit was officially settled. Enemies turned back into friends once more. Yay.\n\n[Well that was quick](#embed:https://www.youtube.com/live/wINOVotsvPY?feature=shared\\&t=3185)\n",
             "pathType": "smoothstep",
             "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "ceres-fauna-nerissa-ravencroft-bottom-2-top-1",
-          "source": "ceres-fauna",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 3
           },
           "selected": false
         },
@@ -3922,40 +2692,6 @@
       "title": "The Filler Episode",
       "nodes": [
         {
-          "id": "fuwawa-abyssguard",
-          "type": "image",
-          "position": {
-            "x": 475,
-            "y": 300
-          },
-          "data": {
-            "day": 4
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "mococo-abyssguard",
-          "type": "image",
-          "position": {
-            "x": 700,
-            "y": 300
-          },
-          "data": {
-            "day": 4
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "elizabeth-rose-bloodflame",
           "type": "image",
           "position": {
@@ -4023,74 +2759,6 @@
           "dragging": false
         },
         {
-          "id": "peasant-da-bae",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 300
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "raora-panthera",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 500
-          },
-          "data": {
-            "day": 4
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "moom",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 500
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "mori-calliope",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 400
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "ceres-fauna",
           "type": "image",
           "position": {
@@ -4105,40 +2773,6 @@
             "status": "Alive",
             "day": 5,
             "bgCardColor": "#b4e4c7"
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "shiori-nyavella",
-          "type": "image",
-          "position": {
-            "x": 700,
-            "y": 800
-          },
-          "data": {
-            "day": 4
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "cecilia-immergreen",
-          "type": "image",
-          "position": {
-            "x": 475,
-            "y": 1025
-          },
-          "data": {
-            "day": 4
           },
           "measured": {
             "width": 100,
@@ -4217,23 +2851,6 @@
           "dragging": false
         },
         {
-          "id": "hot-pink-one",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 1025
-          },
-          "data": {
-            "day": 4
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "nino-ina",
           "type": "image",
           "position": {
@@ -4248,57 +2865,6 @@
             "status": "Alive",
             "day": 5,
             "bgCardColor": "#4c3f5a"
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "king-of-libestal",
-          "type": "image",
-          "position": {
-            "x": 850,
-            "y": 75
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "tam-gandr",
-          "type": "image",
-          "position": {
-            "x": 1450,
-            "y": 925
-          },
-          "data": {
-            "day": 2
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "gawr-gura",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 925
-          },
-          "data": {
-            "day": 3
           },
           "measured": {
             "width": 100,
@@ -4329,247 +2895,6 @@
           "selected": false
         },
         {
-          "id": "elizabeth-rose-bloodflame-tam-gandr-top-3-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
-          "source": "mococo-abyssguard",
-          "target": "elizabeth-rose-bloodflame",
-          "sourceHandle": "left-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-tam-gandr-bottom-2-left-2",
-          "source": "gonathon-g",
-          "target": "tam-gandr",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-tam-gandr-right-2-top-1",
-          "source": "raora-panthera",
-          "target": "tam-gandr",
-          "sourceHandle": "right-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "fuwawa-abyssguard-mococo-abyssguard-right-2-left-2",
-          "source": "fuwawa-abyssguard",
-          "target": "mococo-abyssguard",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nino-ina-right-2-left-2",
-          "source": "hot-pink-one",
-          "target": "nino-ina",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-koseki-bijou-right-2-left-2",
-          "source": "shiori-nyavella",
-          "target": "koseki-bijou",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "ame-hot-pink-one-left-2-bottom-2",
-          "source": "ame",
-          "target": "hot-pink-one",
-          "sourceHandle": "left-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#5f0066"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "moom-ceres-fauna-top-1-left-2",
-          "source": "moom",
-          "target": "ceres-fauna",
-          "sourceHandle": "top-1",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-nerissa-ravencroft-bottom-2-top-2",
-          "source": "shiori-nyavella",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-moom-top-2-right-2",
-          "source": "kiara",
-          "target": "moom",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-tam-gandr-top-3-left-3",
-          "source": "hot-pink-one",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "left-3",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-ceres-fauna-bottom-2-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "ceres-fauna",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
           "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-3-left-2",
           "source": "elizabeth-rose-bloodflame",
           "target": "nerissa-ravencroft",
@@ -4586,187 +2911,6 @@
             "content": "Nerissa got cooked. Literally. How it happened wasn’t all that important—what mattered was the ridiculous series of events that led up to it.\n\nNerissa had long been accused of being a witch, mostly by Elizabeth, and everyone knew it. But when the blue maiden somehow knew details about conversations Elizabeth had with others without even being there, the red knight’s suspicions only grew stronger. Their usual back-and-forth escalated, as it often did, until things took a very bizarre turn.\n\n[Preganante](#embed:https://www.youtube.com/live/5R01-igo4sM?feature=shared\\&t=2456)\n\nSomehow, Nerissa ended up \"pregnant\" with Elizabeth’s child. To prove it, she cracked open a chicken egg, and, sure enough, a chick popped out. She used this as undeniable evidence, insisting that Elizabeth had to take responsibility. She clung to the scarlet knight, pestering her nonstop, just to grab her attention.\n\nKiara, who had been standing by, watching the absurdity unfold, clearly wasn’t having any of it. Tired of Nerissa’s nonsense, she simply unsheathed her sword, swung it down, and cooked the \"child\" on the spot.\n\nHorrified, Nerissa ran off to report the heinous crime to the others, accusing Kiara of murder. She argued that, as a bird, of course she would lay eggs, and therefore, her child was legitimate. She demanded that Kiara be put on trial, that justice be served, and that reparations be made.\n\nSo, Kiara cooked Nerissa [too](https://www.youtube.com/live/5R01-igo4sM?feature=shared\\&t=2898).\n\nElizabeth, for her part, didn’t think much of it. That was, until she got a call from [Gonathon](https://www.youtube.com/live/5R01-igo4sM?feature=shared\\&t=4894). \"Nerissa’s dead,\" he told her. \"She’s a ghost now\". Startled, she immediately dialed Nerissa’s number, and sure enough, the blue maiden—now ghostly—answered.\n\n[Nerissa is kil](#embed:https://www.youtube.com/live/5R01-igo4sM?feature=shared\\&t=4984)\n\n\"Elizabeth,\" Ghost Nerissa spoke solemnly, \"avenge me. Slay Kiara in my name\". (slightly overdramatized)\n\nElizabeth hesitated. For a moment, she actually considered it. Kiara had quite literally roasted someone alive—justice seemed warranted.\n\nBut then she saw Kiara, absolutely glowing with excitement about her upcoming tournament. And just like that, she abandoned the whole vengeance idea entirely.\n\n[Tough luck, Nerissa.](#embed:https://www.youtube.com/live/5R01-igo4sM?feature=shared\\&t=7493)\n\n[\"Maybe if I die with a knight's honor, I may see her again\" by Keisea](https://x.com/Keiseeaaa/status/1832145708394410335)\n\n[\"i will be a better knight for you, lady ravencroft\" by mitchie](https://x.com/pappikapon/status/1832185189864239450)\n",
             "pathType": "smoothstep",
             "day": 5
-          },
-          "selected": false
-        },
-        {
-          "id": "nerissa-ravencroft-koseki-bijou-top-4-left-4",
-          "source": "nerissa-ravencroft",
-          "target": "koseki-bijou",
-          "sourceHandle": "top-4",
-          "targetHandle": "left-4",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-koseki-bijou-bottom-3-top-1",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-3",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-gawr-gura-bottom-1-right-2",
-          "source": "gonathon-g",
-          "target": "gawr-gura",
-          "sourceHandle": "bottom-1",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-koseki-bijou-bottom-2-top-2",
-          "source": "raora-panthera",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "koseki-bijou-cecilia-immergreen-right-2-bottom-2",
-          "source": "koseki-bijou",
-          "target": "cecilia-immergreen",
-          "sourceHandle": "right-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-nerissa-ravencroft-right-2-right-1",
-          "source": "mococo-abyssguard",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "right-2",
-          "targetHandle": "right-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "ceres-fauna-nerissa-ravencroft-bottom-2-top-1",
-          "source": "ceres-fauna",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-cecilia-immergreen-top-2-left-2",
-          "source": "mococo-abyssguard",
-          "target": "cecilia-immergreen",
-          "sourceHandle": "top-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-shiori-nyavella-top-1-top-2",
-          "source": "gonathon-g",
-          "target": "shiori-nyavella",
-          "sourceHandle": "top-1",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nerissa-ravencroft-left-2-right-2",
-          "source": "hot-pink-one",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "left-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-hot-pink-one-right-4-top-0",
-          "source": "shiori-nyavella",
-          "target": "hot-pink-one",
-          "sourceHandle": "right-4",
-          "targetHandle": "top-0",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "koseki-bijou-hot-pink-one-bottom-2-top-2",
-          "source": "koseki-bijou",
-          "target": "hot-pink-one",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
           },
           "selected": false
         },
@@ -4924,22 +3068,6 @@
           "selected": false
         },
         {
-          "id": "ame",
-          "type": "image",
-          "position": {
-            "x": 700,
-            "y": 500
-          },
-          "data": {
-            "day": 5
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false
-        },
-        {
           "id": "kiara",
           "type": "image",
           "position": {
@@ -4954,23 +3082,6 @@
             "status": "Alive",
             "day": 6,
             "bgCardColor": "#ff511c"
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "peasant-da-bae",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 300
-          },
-          "data": {
-            "day": 0
           },
           "measured": {
             "width": 100,
@@ -5017,57 +3128,6 @@
             "status": "Alive",
             "day": 6,
             "bgCardColor": "#dcc4b2"
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "mori-calliope",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 400
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "ceres-fauna",
-          "type": "image",
-          "position": {
-            "x": 475,
-            "y": 800
-          },
-          "data": {
-            "day": 5
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "shiori-nyavella",
-          "type": "image",
-          "position": {
-            "x": 700,
-            "y": 800
-          },
-          "data": {
-            "day": 4
           },
           "measured": {
             "width": 100,
@@ -5167,199 +3227,9 @@
           },
           "selected": false,
           "dragging": false
-        },
-        {
-          "id": "hot-pink-one",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 1025
-          },
-          "data": {
-            "day": 4
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "nino-ina",
-          "type": "image",
-          "position": {
-            "x": 1225,
-            "y": 1025
-          },
-          "data": {
-            "day": 5
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "king-of-libestal",
-          "type": "image",
-          "position": {
-            "x": 850,
-            "y": 75
-          },
-          "data": {
-            "day": 0
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "tam-gandr",
-          "type": "image",
-          "position": {
-            "x": 1450,
-            "y": 925
-          },
-          "data": {
-            "day": 2
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
-          "id": "gawr-gura",
-          "type": "image",
-          "position": {
-            "x": 250,
-            "y": 925
-          },
-          "data": {
-            "day": 3
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
         }
       ],
       "edges": [
-        {
-          "id": "gonathon-g-ame-top-2-bottom-2",
-          "source": "gonathon-g",
-          "target": "ame",
-          "sourceHandle": "top-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-tam-gandr-top-3-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
-          "source": "mococo-abyssguard",
-          "target": "elizabeth-rose-bloodflame",
-          "sourceHandle": "left-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-tam-gandr-bottom-2-left-2",
-          "source": "gonathon-g",
-          "target": "tam-gandr",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
         {
           "id": "raora-panthera-tam-gandr-right-2-top-1",
           "source": "raora-panthera",
@@ -5383,385 +3253,6 @@
               "VR": 0,
               "HR": 0
             }
-          },
-          "selected": false
-        },
-        {
-          "id": "fuwawa-abyssguard-mococo-abyssguard-right-2-left-2",
-          "source": "fuwawa-abyssguard",
-          "target": "mococo-abyssguard",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nino-ina-right-2-left-2",
-          "source": "hot-pink-one",
-          "target": "nino-ina",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-koseki-bijou-right-2-left-2",
-          "source": "shiori-nyavella",
-          "target": "koseki-bijou",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "ame-hot-pink-one-left-2-bottom-2",
-          "source": "ame",
-          "target": "hot-pink-one",
-          "sourceHandle": "left-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#5f0066"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "moom-ceres-fauna-top-1-left-2",
-          "source": "moom",
-          "target": "ceres-fauna",
-          "sourceHandle": "top-1",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-nerissa-ravencroft-bottom-2-top-2",
-          "source": "shiori-nyavella",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-moom-top-2-right-2",
-          "source": "kiara",
-          "target": "moom",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-tam-gandr-top-3-left-3",
-          "source": "hot-pink-one",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "left-3",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-ceres-fauna-bottom-2-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "ceres-fauna",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-3-left-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "right-3",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "nerissa-ravencroft-koseki-bijou-top-4-left-4",
-          "source": "nerissa-ravencroft",
-          "target": "koseki-bijou",
-          "sourceHandle": "top-4",
-          "targetHandle": "left-4",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-koseki-bijou-bottom-3-top-1",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-3",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-gawr-gura-bottom-1-right-2",
-          "source": "gonathon-g",
-          "target": "gawr-gura",
-          "sourceHandle": "bottom-1",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-koseki-bijou-bottom-2-top-2",
-          "source": "raora-panthera",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "koseki-bijou-cecilia-immergreen-right-2-bottom-2",
-          "source": "koseki-bijou",
-          "target": "cecilia-immergreen",
-          "sourceHandle": "right-2",
-          "targetHandle": "bottom-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-nerissa-ravencroft-right-2-right-1",
-          "source": "mococo-abyssguard",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "right-2",
-          "targetHandle": "right-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "ceres-fauna-nerissa-ravencroft-bottom-2-top-1",
-          "source": "ceres-fauna",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-cecilia-immergreen-top-2-left-2",
-          "source": "mococo-abyssguard",
-          "target": "cecilia-immergreen",
-          "sourceHandle": "top-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-shiori-nyavella-top-1-top-2",
-          "source": "gonathon-g",
-          "target": "shiori-nyavella",
-          "sourceHandle": "top-1",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nerissa-ravencroft-left-2-right-2",
-          "source": "hot-pink-one",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "left-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-hot-pink-one-right-4-top-0",
-          "source": "shiori-nyavella",
-          "target": "hot-pink-one",
-          "sourceHandle": "right-4",
-          "targetHandle": "top-0",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "koseki-bijou-hot-pink-one-bottom-2-top-2",
-          "source": "koseki-bijou",
-          "target": "hot-pink-one",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-gonathon-g-top-2-right-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "gonathon-g",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 5
-          },
-          "selected": false
-        },
-        {
-          "id": "koseki-bijou-nino-ina-bottom-3-top-0",
-          "source": "koseki-bijou",
-          "target": "nino-ina",
-          "sourceHandle": "bottom-3",
-          "targetHandle": "top-0",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 5
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-gonathon-g-top-3-right-1",
-          "source": "kiara",
-          "target": "gonathon-g",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 5
           },
           "selected": false
         },
@@ -5912,23 +3403,6 @@
             "height": 100
           },
           "selected": false
-        },
-        {
-          "id": "kiara",
-          "type": "image",
-          "position": {
-            "x": 1000,
-            "y": 300
-          },
-          "data": {
-            "day": 6
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
         },
         {
           "id": "peasant-da-bae",
@@ -6230,23 +3704,6 @@
           "dragging": false
         },
         {
-          "id": "tam-gandr",
-          "type": "image",
-          "position": {
-            "x": 1450,
-            "y": 925
-          },
-          "data": {
-            "day": 2
-          },
-          "measured": {
-            "width": 100,
-            "height": 100
-          },
-          "selected": false,
-          "dragging": false
-        },
-        {
           "id": "gawr-gura",
           "type": "image",
           "position": {
@@ -6291,51 +3748,6 @@
           "selected": false
         },
         {
-          "id": "elizabeth-rose-bloodflame-tam-gandr-top-3-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-raora-panthera-bottom-2-top-2",
-          "source": "kiara",
-          "target": "raora-panthera",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "tam-gandr-king-of-libestal-top-3-right-2",
-          "source": "tam-gandr",
-          "target": "king-of-libestal",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
           "id": "mococo-abyssguard-elizabeth-rose-bloodflame-left-3-right-2",
           "source": "mococo-abyssguard",
           "target": "elizabeth-rose-bloodflame",
@@ -6351,66 +3763,6 @@
             "content": "*\"I will always be by your side\".*A promise far easier said than done.\nElizabeth understood that better than anyone. As a knight, she bore the burden of protecting others, standing as their shield, being there when they needed her most. Caring for those she loved wasn’t just an instinct—it was her duty.\n\n\nBut at the same time, being a knight meant upholding virtue, standing for righteousness, and banishing all that was wrong.\n\nSo when those two ideals clashed—when duty to a loved one contradicted duty to justice—what was the right choice?\n\nThat was the dilemma Elizabeth faced on this final day.\n\n[You wish to call me sister now?](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\\&t=10236)\n\nMococo, someone she had sworn to protect, someone she had promised to always stand by, had succumbed to corruption. She was spreading chaos throughout the kingdom—an undeniable act of evil. Elizabeth tried to stop her. She tried to reason with her. But Mococo wouldn't listen. Wouldn’t—or couldn’t—[stop](https://www.youtube.com/live/_urPfTQnLes?feature=shared\\&t=10033).\n\nAnd when Mococo pleaded, begged, insisted that it wasn’t her, that she wasn’t the one doing all these horrible things… Elizabeth had no choice but to reject her.\n\nAnd in doing so, she broke the promise she had made on the very first day.\n\nIt was heart-wrenching—for both of them. Mococo, who had always been terrified of being alone, now found herself more alone than ever. Feared. Avoided. Even abandoned by the person she trusted most.\n\nAnd Elizabeth? She did what a knight should do. She upheld righteousness. She made the *right* choice. So why did it hurt so much? Why did it feel like she had just shattered something irreplaceable?\n\nShe had cut ties with someone who had looked up to her. Someone who had seen her as a big sister. Someone she had sworn to protect. But in this moment, it felt like she had done the opposite.\n\nEven so, Elizabeth refused to let things end like this. She believed in redemption—not just for Mococo, but for herself as well.\n\nAnd with sheer determination—and the help of her comrades—they found the cure to the corruption. Through an elaborate plan, they freed those who had been afflicted, including Mococo. And at last, the two were reunited.\n\n[I'm sorry for what I've said](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\\&t=12661)\n\nElizabeth apologized—apologized for the harsh words she had spoken, for abandoning her in her darkest moment. Yes, she had done what many knights should have done. But just because something was *just*, didn’t mean it was the only path.\n\nShe had learned something that day—something far more important than chivalry or duty. That being a knight wasn’t about following rigid orders. It wasn’t about doing what was expected of her.\n\nIt was about following her heart. It was about fighting—not just for justice, but for the people she loved.\n",
             "pathType": "smoothstep",
             "day": 7
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-tam-gandr-bottom-2-left-2",
-          "source": "gonathon-g",
-          "target": "tam-gandr",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "peasant-da-bae-moom-bottom-2-top-2",
-          "source": "peasant-da-bae",
-          "target": "moom",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-tam-gandr-right-2-top-1",
-          "source": "raora-panthera",
-          "target": "tam-gandr",
-          "sourceHandle": "right-2",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 0
-          },
-          "selected": false
-        },
-        {
-          "id": "fuwawa-abyssguard-mococo-abyssguard-right-2-left-2",
-          "source": "fuwawa-abyssguard",
-          "target": "mococo-abyssguard",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
-          "data": {
-            "day": 1
           },
           "selected": false
         },
@@ -6491,52 +3843,6 @@
           "selected": false
         },
         {
-          "id": "kiara-moom-top-2-right-2",
-          "source": "kiara",
-          "target": "moom",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-tam-gandr-top-3-left-3",
-          "source": "hot-pink-one",
-          "target": "tam-gandr",
-          "sourceHandle": "top-3",
-          "targetHandle": "left-3",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 1
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-ceres-fauna-bottom-2-top-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "ceres-fauna",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
           "id": "elizabeth-rose-bloodflame-nerissa-ravencroft-right-3-left-2",
           "source": "elizabeth-rose-bloodflame",
           "target": "nerissa-ravencroft",
@@ -6576,51 +3882,6 @@
           "selected": false
         },
         {
-          "id": "elizabeth-rose-bloodflame-koseki-bijou-bottom-3-top-1",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-3",
-          "targetHandle": "top-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 2
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-gawr-gura-bottom-1-right-2",
-          "source": "gonathon-g",
-          "target": "gawr-gura",
-          "sourceHandle": "bottom-1",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
-          "id": "raora-panthera-koseki-bijou-bottom-2-top-2",
-          "source": "raora-panthera",
-          "target": "koseki-bijou",
-          "sourceHandle": "bottom-2",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
-          "data": {
-            "day": 3
-          },
-          "selected": false
-        },
-        {
           "id": "koseki-bijou-cecilia-immergreen-right-2-bottom-2",
           "source": "koseki-bijou",
           "target": "cecilia-immergreen",
@@ -6643,21 +3904,6 @@
               "VR": 0,
               "HR": 0
             }
-          },
-          "selected": false
-        },
-        {
-          "id": "mococo-abyssguard-nerissa-ravencroft-right-2-right-1",
-          "source": "mococo-abyssguard",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "right-2",
-          "targetHandle": "right-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 3
           },
           "selected": false
         },
@@ -6688,67 +3934,6 @@
           "selected": false
         },
         {
-          "id": "mococo-abyssguard-cecilia-immergreen-top-2-left-2",
-          "source": "mococo-abyssguard",
-          "target": "cecilia-immergreen",
-          "sourceHandle": "top-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "gonathon-g-shiori-nyavella-top-1-top-2",
-          "source": "gonathon-g",
-          "target": "shiori-nyavella",
-          "sourceHandle": "top-1",
-          "targetHandle": "top-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "hot-pink-one-nerissa-ravencroft-left-2-right-2",
-          "source": "hot-pink-one",
-          "target": "nerissa-ravencroft",
-          "sourceHandle": "left-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
-          "id": "shiori-nyavella-hot-pink-one-right-4-top-0",
-          "source": "shiori-nyavella",
-          "target": "hot-pink-one",
-          "sourceHandle": "right-4",
-          "targetHandle": "top-0",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
-          "data": {
-            "day": 4
-          },
-          "selected": false
-        },
-        {
           "id": "koseki-bijou-hot-pink-one-bottom-2-top-2",
           "source": "koseki-bijou",
           "target": "hot-pink-one",
@@ -6764,21 +3949,6 @@
             "content": "Bijou was on a divorce spree, and the Hot Pink One was her second target. But unlike her first victim, Shiori—who, despite everything, still cost Bijou a bit of money in the process—this one wasn’t going down without a fight.\n\n[No longer your sidechick](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\\&t=13723)\n\nThe Pink One, unwilling to lose her sidechick, desperately tried to argue her way out of it. Her reasoning, however, was comically illogical, filled with excuses that made absolutely no sense. But Bijou had already made up her mind.\n\nDefeated but determined to get something out of this, the Pink One demanded a compensation fee of 1,000 coins.\n\nThere was just one problem—Bijou had already spent all her money on her previous divorce. So, being the crafty gem she was, she tricked Gonathon into covering the fee, saying it was for this thing called [\"Bijou Tax\"](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\\&t=13948).\n\nAnd so, with the price [paid](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\\&t=14099), Bijou was officially freed from her second chain of marriage. Only one more to go.\n",
             "pathType": "straight",
             "day": 7
-          },
-          "selected": false
-        },
-        {
-          "id": "elizabeth-rose-bloodflame-gonathon-g-top-2-right-2",
-          "source": "elizabeth-rose-bloodflame",
-          "target": "gonathon-g",
-          "sourceHandle": "top-2",
-          "targetHandle": "right-2",
-          "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
-          "data": {
-            "day": 5
           },
           "selected": false
         },
@@ -6805,22 +3975,6 @@
               "VR": 0,
               "HR": 0
             }
-          },
-          "selected": false
-        },
-        {
-          "id": "kiara-gonathon-g-top-3-right-1",
-          "source": "kiara",
-          "target": "gonathon-g",
-          "sourceHandle": "top-3",
-          "targetHandle": "right-1",
-          "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
-          "data": {
-            "day": 5
           },
           "selected": false
         },
