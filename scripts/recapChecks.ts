@@ -12,7 +12,8 @@ const VALID_TAGS = new Set(["embed", "edge", "node", "easter"]);
 
 export const recapChecks: Record<string, RecapCheckFn> = {
     linkSyntax: (content) => {
-        const RE = /\[([^\]]*)\]\(([^)]*)\)/g;
+        // (?<!\!) ensures we don't match ![alt](src)
+        const RE = /(?<!!)\[([^\]]*)\]\(([^)]*)\)/g;
         let m: RegExpExecArray | null;
         while ((m = RE.exec(content))) {
             const [full, label, url] = m;
