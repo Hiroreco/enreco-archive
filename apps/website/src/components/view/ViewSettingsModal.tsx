@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
     Dialog,
     DialogContent,
@@ -7,17 +7,17 @@ import {
     DialogFooter,
     DialogHeader,
     DialogTitle,
-} from "@/components/ui/dialog";
-import { Label } from "@/components/ui/label";
+} from "@enreco-archive/common-ui/components/dialog";
+import { Label } from "@enreco-archive/common-ui/components/label";
 import {
     Select,
     SelectContent,
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
-import { Separator } from "@/components/ui/separator";
-import { Slider } from "@/components/ui/slider";
+} from "@enreco-archive/common-ui/components/select";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
+import { Slider } from "@enreco-archive/common-ui/components/slider";
 import {
     ThemeType,
     TimestampOption,

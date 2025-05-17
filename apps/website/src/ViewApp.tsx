@@ -19,7 +19,7 @@ import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { cn, idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import { Dice6, Info, Settings } from "lucide-react";
-import { IconButton } from "./components/ui/IconButton";
+import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import ViewChart from "./components/view/ViewChart";
 import ViewSettingsModal from "./components/view/ViewSettingsModal";
 import ViewTransportControls from "./components/view/ViewTransportControls";

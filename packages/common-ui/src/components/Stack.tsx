@@ -1,5 +1,5 @@
-import { cn } from "@/lib/utils";
-import "@/components/ui/Stack.css";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import "@enreco-archive/common-ui/components/Stack.css";
 
 interface StackProps {
     className?: string;

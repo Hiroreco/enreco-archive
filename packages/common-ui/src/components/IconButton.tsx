@@ -1,8 +1,8 @@
 import * as Tooltip from "@radix-ui/react-tooltip";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { ReactNode } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 interface IconButtonProps {
     id?: string;

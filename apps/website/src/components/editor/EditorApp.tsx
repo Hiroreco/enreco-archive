@@ -16,15 +16,15 @@ import EditorNodeCard from "@/components/editor/EditorNodeCard";
 import EditorRelationshipsCard from "@/components/editor/EditorRelationshipsCard";
 import EditorTeamsCard from "@/components/editor/EditorTeamsCard";
 import EditorTransportControls from "@/components/editor/EditorTransportControls";
-import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
     Select,
     SelectContent,
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "@enreco-archive/common-ui/components/select";
 import useKeyboard from "@/hooks/useKeyboard";
 import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
 import { exportData, loadData, saveData } from "@/lib/datahelper";
@@ -38,7 +38,7 @@ import {
 } from "@/lib/type";
 import { EditorMode, useEditorStore } from "@/store/editorStore";
 import { ThemeType, useSettingStore } from "@/store/settingStore";
-import { Label } from "@/components/ui/label";
+import { Label } from "@enreco-archive/common-ui/components/label";
 import useLightDarkModeSwitcher from "@/hooks/useLightDarkModeSwitcher";
 
 const EMPTY_NODE: EditorImageNodeType = {

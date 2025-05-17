@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Input } from "@enreco-archive/common-ui/components/input";
 import React, { useEffect, useState } from "react";
 import * as _ from "lodash";
 import { cn } from "@/lib/utils";

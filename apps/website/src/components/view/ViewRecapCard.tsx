@@ -1,4 +1,4 @@
-import { Separator } from "@/components/ui/separator";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 import {
     ViewMarkdown,
 } from "@/components/view/ViewMarkdown";

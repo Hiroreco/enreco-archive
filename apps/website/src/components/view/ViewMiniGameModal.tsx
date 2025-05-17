@@ -5,14 +5,14 @@ import {
     DialogHeader,
     DialogTitle,
     DialogTrigger,
-} from "@/components/ui/dialog";
+} from "@enreco-archive/common-ui/components/dialog";
 import {
     Select,
     SelectContent,
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "@enreco-archive/common-ui/components/select";
 import ViewChickenGameInfo from "@/components/view/minigames-info/ViewChickenGameInfo";
 import ViewGamblingGameInfo from "@/components/view/minigames-info/ViewGamblingGameInfo";
 import ViewMemoryGameInfo from "@/components/view/minigames-info/ViewMemoryGameInfo";

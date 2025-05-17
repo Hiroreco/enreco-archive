@@ -1,4 +1,5 @@
 import "@/index.css";
+
 import { Libre_Franklin } from "next/font/google";
 
 const libreFranklin = Libre_Franklin({

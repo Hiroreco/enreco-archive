@@ -4,7 +4,7 @@ import {
     DialogDescription,
     DialogOverlay,
     DialogTitle,
-} from "@/components/ui/dialog";
+} from "@enreco-archive/common-ui/components/dialog";
 import { urlToEmbedUrl } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { YouTubeEmbed } from "@next/third-parties/google";

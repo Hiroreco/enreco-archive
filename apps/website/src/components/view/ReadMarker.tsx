@@ -1,5 +1,5 @@
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
+import { Label } from "@enreco-archive/common-ui/components/label";
 import { useAudioStore } from "@/store/audioStore";
 import React, { useEffect } from "react";
 

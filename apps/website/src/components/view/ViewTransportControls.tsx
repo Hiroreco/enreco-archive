@@ -4,10 +4,10 @@ import {
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "@enreco-archive/common-ui/components/select";
 import { Chapter } from "@/lib/type";
 
-import { IconButton } from "@/components/ui/IconButton";
+import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useEffect } from "react";

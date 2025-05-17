@@ -13,14 +13,14 @@ import { cn } from "@/lib/utils";
 import EditorConfirmDialog from "@/components/editor/EditorConfirmDialog";
 import EditorDaySelect from "@/components/editor/EditorDaySelect";
 import { EditorMoveDayDialog } from "@/components/editor/EditorMoveDayDialog";
-import { IconButton } from "@/components/ui/IconButton";
+import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import {
     Select,
     SelectContent,
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "@enreco-archive/common-ui/components/select";
 import { EditorChapter } from "@/lib/type";
 
 interface EditorTransportControlsProps {

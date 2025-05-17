@@ -1,7 +1,7 @@
 import EditorCard from "@/components/editor/EditorCard";
-import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
+import { Label } from "@enreco-archive/common-ui/components/label";
 import { Relationship, RelationshipMap } from "@/lib/type";
 
 import { CheckedState } from "@radix-ui/react-checkbox";

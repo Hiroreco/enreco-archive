@@ -5,9 +5,9 @@ import { LucideX } from "lucide-react";
 
 import EditorCard from "@/components/editor/EditorCard";
 import { EditorChapter, EditorChartData } from "@/lib/type";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Input } from "@enreco-archive/common-ui/components/input";
+import { Label } from "@enreco-archive/common-ui/components/label";
 
 interface FormElements extends HTMLFormControlsCollection {
     chapterTitle: HTMLInputElement;

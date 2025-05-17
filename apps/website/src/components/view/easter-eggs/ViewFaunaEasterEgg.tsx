@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { useAudioStore } from "@/store/audioStore";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";

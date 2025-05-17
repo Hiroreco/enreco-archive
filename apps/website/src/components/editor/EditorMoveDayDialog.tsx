@@ -3,14 +3,14 @@ import { useState } from "react";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 import EditorDaySelect from "@/components/editor/EditorDaySelect";
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
     DialogContent,
     DialogOverlay,
     DialogPortal,
     DialogTitle,
-} from "@/components/ui/dialog";
+} from "@enreco-archive/common-ui/components/dialog";
 
 interface EditorMoveDayDialogProps {
     isModalOpen: boolean;

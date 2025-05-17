@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
     DialogClose,
@@ -6,9 +6,9 @@ import {
     DialogDescription,
     DialogFooter,
     DialogTitle,
-} from "@/components/ui/dialog";
+} from "@enreco-archive/common-ui/components/dialog";
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@enreco-archive/common-ui/components/tabs";
 import ViewInfoGuide from "@/components/view/ViewInfoGuide";
 import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
 import { useSettingStore } from "@/store/settingStore";

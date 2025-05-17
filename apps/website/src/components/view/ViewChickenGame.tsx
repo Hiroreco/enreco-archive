@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { LS_CHICKEN_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { useEffect, useRef, useState } from "react";

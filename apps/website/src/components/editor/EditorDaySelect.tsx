@@ -4,7 +4,7 @@ import {
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "@enreco-archive/common-ui/components/select";
 
 interface EditorDaySelectProps {
     day: number;

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { LS_MEMORY_HS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";

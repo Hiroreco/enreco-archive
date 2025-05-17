@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { useMounted } from "@/hooks/useMounted";
 import useScreenWidthChangeListener from "@/hooks/useScreenWidthChangeListener";
 import { cn } from "@/lib/utils";

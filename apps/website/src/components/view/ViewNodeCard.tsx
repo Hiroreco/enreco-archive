@@ -1,5 +1,5 @@
-import { Separator } from "@/components/ui/separator";
-import { Stack, StackItem } from "@/components/ui/Stack";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
+import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 import VaulDrawer from "@/components/view/VaulDrawer";
