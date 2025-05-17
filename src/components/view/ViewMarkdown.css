@@ -6,6 +6,10 @@
     display: inline;
 }
 
+.markdown p {
+    white-space: pre-line;
+}
+
 .amber-coin::after {
     display: inline-block;
     background-image: url("/images-opt/ambercoin.webp");
