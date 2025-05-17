@@ -63,7 +63,7 @@ function convertChapterToGitFormat(chapter: Chapter): Chapter {
 
 // Main execution
 function main() {
-    const inputDir = path.join(__dirname, "..", "src", "data");
+    const inputDir = path.join(__dirname, "..", "src", "data", "save");
     const files = fs
         .readdirSync(inputDir)
         .filter((f) => f.match(/chapter\d+\.json/));

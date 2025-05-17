@@ -14,8 +14,8 @@
         "prebuild": "tsx scripts/optimize-images.js",
         "predev": "tsx scripts/optimize-images.js",
         "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
-        "export-recap-data": "tsx scripts/export-recap-data.ts",
-        "inject-recap-data": "tsx scripts/inject-recap-data.ts",
+        "export-recaps": "tsx scripts/export-recaps.ts",
+        "inject-recaps": "tsx scripts/inject-recaps.ts",
         "validate-recaps": "tsx scripts/validate-recaps.ts"
     },
     "dependencies": {
