@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { motion } from "framer-motion";
 import { useMemo, useState } from "react";
 import Image from "next/image";

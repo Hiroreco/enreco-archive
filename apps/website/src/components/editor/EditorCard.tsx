@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import React from "react";
 
 const EditorCard = React.forwardRef<

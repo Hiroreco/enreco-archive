@@ -36,6 +36,9 @@ export const urlToEmbedUrl = (url: string | null) => {
     if (videoid) {
         // example https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=10481
         let params = videoid.split("?")[1];
+        if(!params) {
+            return { videoid: "", params: "" };
+        }
         // replace t= with start=, cause YoutubeEmbed uses start= for timestamp (i think)
         params = params.replace("s", "");
         params = params.replace("t=", "start=");
@@ -58,7 +61,7 @@ export const urlToLiveUrl = (url: string) => {
         // example https://www.youtube.com/embed/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&amp;start=7439)
         // to https://www.youtube.com/embed/1_dhGL0K5-k?t=7439
         // This is mostly to handle mistakes I made at the beginning in the markdown
-        const videoid = url.split("/embed/")[1].split("?si=")[0];
+        const videoid = url.split("/embed/")[1]?.split("?si=")[0] ?? "";
         const params = url.split("start=")[1];
         correctUrl = `https://www.youtube.com/live/${videoid}?t=${params}`;
     } else if (url.includes("watch")) {
@@ -66,14 +69,14 @@ export const urlToLiveUrl = (url: string) => {
         // example https://www.youtube.com/watch?v=1_dhGL0K5-k&list=PLonYStlm50KZ_rKewRuHUfuEMYbk_hbsi&ab_channel=BoubonClipperCh.
         // to https://www.youtube.com/live/1_dhGL0K5-k
         // This is also mostly to handle mistakes I made at the beginning in the markdown
-        const videoid = url.split("v=")[1].split("&")[0];
-        const params = url.split("v=")[1].split("&")[1];
+        const videoid = url.split("v=")[1]?.split("&")[0] ?? "";
+        const params = url.split("v=")[1]?.split("&")[1] ?? "";
         correctUrl = `https://www.youtube.com/live/${videoid}?${params}`;
     } else if (url.includes("youtu.be")) {
         // turn youtu.be to live
         // example https://youtu.be/7bOe38rP7JQ?t=454
         // to https://www.youtube.com/live/7bOe38rP7JQ?t=454
-        const videoid = url.split("youtu.be/")[1].split("?")[0];
+        const videoid = url.split("youtu.be/")[1]?.split("?")[0] ?? "";
         const params = url.split("?")[1];
         correctUrl = `https://www.youtube.com/live/${videoid}?${params}`;
     }

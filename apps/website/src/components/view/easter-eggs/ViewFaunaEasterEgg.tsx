@@ -1,6 +1,6 @@
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { useAudioStore } from "@/store/audioStore";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 

@@ -1,6 +1,7 @@
 {
     "extends": "@enreco-archive/typescript-config/nextjs.json",
     "compilerOptions": {
+        "noUncheckedIndexedAccess": false,
         "baseUrl": ".",
         "paths": {
             "@/*": ["src/*"],

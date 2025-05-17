@@ -7,7 +7,7 @@ import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import useLightDarkModeSwitcher from "./hooks/useLightDarkModeSwitcher";
-import { cn } from "./lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useSettingStore } from "./store/settingStore";
 
 const data: SiteData = {

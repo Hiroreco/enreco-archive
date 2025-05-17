@@ -9,7 +9,7 @@ import {
     Plus,
 } from "lucide-react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import EditorConfirmDialog from "@/components/editor/EditorConfirmDialog";
 import EditorDaySelect from "@/components/editor/EditorDaySelect";
 import { EditorMoveDayDialog } from "@/components/editor/EditorMoveDayDialog";

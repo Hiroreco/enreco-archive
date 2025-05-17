@@ -6,7 +6,7 @@ import {
     Position,
     useUpdateNodeInternals,
 } from "@xyflow/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useEffect, useState } from "react";
 
 // Number of handles per side

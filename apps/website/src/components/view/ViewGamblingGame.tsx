@@ -2,7 +2,7 @@ import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import React, { useEffect, useState } from "react";
 import * as _ from "lodash";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { LS_GAMBLING_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 

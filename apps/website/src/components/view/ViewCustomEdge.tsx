@@ -1,6 +1,6 @@
 import { generatePath } from "@/lib/get-edge-svg-path";
 import { FixedEdgeProps } from "@/lib/type";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { memo, useEffect, useId, useMemo, useRef } from "react";
 
 import "@/components/view/ViewCustomEdge.css";

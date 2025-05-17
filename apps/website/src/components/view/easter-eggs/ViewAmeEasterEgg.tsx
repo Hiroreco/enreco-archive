@@ -1,5 +1,5 @@
 import { useAudioStore } from "@/store/audioStore";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState } from "react";

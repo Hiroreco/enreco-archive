@@ -9,7 +9,7 @@ import { Chapter } from "@/lib/type";
 
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useEffect } from "react";
 import { CardType } from "@/store/viewStore";
 

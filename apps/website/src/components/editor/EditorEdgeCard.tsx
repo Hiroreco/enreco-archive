@@ -110,9 +110,9 @@ const EdgeEditorCard = ({
                         />
                     </SelectTrigger>
                     <SelectContent>
-                        {Object.keys(relationships).map((key) => (
+                        {Object.entries(relationships).map(([key, value]) => (
                             <SelectItem key={key} value={key}>
-                                {relationships[key].name}
+                                {value.name}
                             </SelectItem>
                         ))}
                     </SelectContent>

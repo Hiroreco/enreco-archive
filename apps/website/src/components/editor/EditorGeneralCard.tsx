@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import React, { useState } from "react";
 import MDEditor from "@uiw/react-md-editor";
 import { LucideX } from "lucide-react";

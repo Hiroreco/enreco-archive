@@ -1,5 +1,6 @@
 import { ImageNodeProps } from "@/lib/type";
-import { cn, getBlurDataURL } from "@/lib/utils";
+import { getBlurDataURL } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";

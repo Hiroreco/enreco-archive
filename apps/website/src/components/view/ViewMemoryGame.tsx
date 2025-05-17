@@ -1,6 +1,6 @@
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { LS_MEMORY_HS } from "@/lib/constants";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import _ from "lodash";
 import { useEffect, useRef, useState } from "react";
@@ -44,7 +44,7 @@ const ViewMemoryGame = () => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [guessState, setGuessState] = useState<GuessState>("none");
 
-    const intervalRef = useRef<NodeJS.Timeout>();
+    const intervalRef = useRef<NodeJS.Timeout>(null);
 
     const getNumberOfUnsolvedSlots = (board: number[]) => {
         return board.filter((value) => value >= 4).length;
@@ -171,9 +171,15 @@ const ViewMemoryGame = () => {
                 });
             }, 1000);
         } else {
-            clearInterval(intervalRef.current);
+            if(intervalRef.current) {
+                clearInterval(intervalRef.current);
+            }
         }
-        return () => clearInterval(intervalRef.current);
+        return () => {
+            if(intervalRef.current) {
+                clearInterval(intervalRef.current);
+            }
+        }
     }, [isPlaying]);
 
     // Set initial high score from local storage

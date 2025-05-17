@@ -1,7 +1,7 @@
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { useMounted } from "@/hooks/useMounted";
 import useScreenWidthChangeListener from "@/hooks/useScreenWidthChangeListener";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { debounce } from "lodash";
 import { useCallback, useMemo, useRef, useState } from "react";

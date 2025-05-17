@@ -1,7 +1,7 @@
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { MouseEvent } from "react";
 
 export type HrefType = "embed" | "general";

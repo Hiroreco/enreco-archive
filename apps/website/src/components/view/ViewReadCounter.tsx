@@ -13,7 +13,7 @@ import {
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { ChartData, FixedEdgeType, ImageNodeType } from "@/lib/type";
-import { cn } from "@/lib/utils";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";

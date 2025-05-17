@@ -1,4 +1,5 @@
 import { CONTRIBUTORS } from "@/lib/misc";
+import React from "react";
 
 interface Contributor {
     name: string;
@@ -11,7 +12,7 @@ const CreditBlock = ({
     contributors,
 }: {
     role: string;
-    icon: JSX.Element;
+    icon: React.JSX.Element;
     contributors: Contributor[];
 }) => {
     return (

@@ -86,27 +86,16 @@ const EditorApp = () => {
     const isDarkMode = useLightDarkModeSwitcher(themeType);
     useKeyboard();
 
+    const currentChapter = editorStore.chapter !== null ? editorStore.data[editorStore.chapter] ?? null : null;
+    const currentDay = editorStore.day !== null ? currentChapter?.charts[editorStore.day] ?? null : null;
     const numChapters = editorStore.data.length;
-    const numDays =
-        editorStore.chapter !== null && editorStore.data
-            ? editorStore.data[editorStore.chapter].numberOfDays
-            : 0;
-    const teams =
-        editorStore.chapter !== null && editorStore.data
-            ? editorStore.data[editorStore.chapter].teams
-            : {};
-    const relationships =
-        editorStore.chapter !== null && editorStore.data
-            ? editorStore.data[editorStore.chapter].relationships
-            : {};
+    const numDays = currentChapter?.numberOfDays ?? 0;
+    const teams = currentChapter?.numberOfDays ?? {};
+    const relationships = currentChapter?.relationships ?? {};
 
-    const rawNodes =
-        editorStore.chapter !== null &&
-        editorStore.day !== null &&
-        editorStore.data
-            ? editorStore.data[editorStore.chapter].charts[editorStore.day]
-                  ?.nodes
-            : [];
+    const rawNodes = editorStore.chapter !== null && editorStore.day !== null ? 
+        currentChapter?.charts[editorStore.day]?.nodes ?? [] : 
+        [];
     const nodes = rawNodes.map((node) => {
         const newNode = structuredClone(node);
         newNode.data.renderShowHandles = editorStore.showHandles;
@@ -116,16 +105,11 @@ const EditorApp = () => {
     const processedNodes = nodes
         .map((node) => {
             if (node.data.day !== editorStore.day) {
-                if (
-                    !editorStore.data[editorStore.chapter!].charts[
-                        node.data.day
-                    ]
-                ) {
+                if (!currentChapter?.charts[node.data.day]) {
                     return undefined;
                 }
                 // get the node from the latest day it was updated
-                const latestNodes =
-                    editorStore.data[editorStore.chapter!].charts;
+                const latestNodes = currentChapter.charts;
                 const dayNodes = latestNodes[node.data.day]?.nodes;
                 if (!dayNodes) return;
                 const latestUpdatedNode = dayNodes.find(
@@ -137,18 +121,14 @@ const EditorApp = () => {
         })
         .filter((node): node is EditorImageNodeType => node !== undefined);
 
-    const rawEdges =
-        editorStore.chapter !== null &&
-        editorStore.day !== null &&
-        editorStore.data
-            ? editorStore.data[editorStore.chapter].charts[editorStore.day]
-                  ?.edges
-            : [];
+    const rawEdges = editorStore.chapter !== null && editorStore.day !== null ? 
+        currentChapter?.charts[editorStore.day]?.edges ?? [] : 
+        [];;
     const edges = rawEdges.map((edge) => {
         const newEdge = structuredClone(edge);
         if (newEdge.data && newEdge.data.relationshipId) {
             newEdge.style =
-                relationships[newEdge.data.relationshipId].style || {};
+                relationships[newEdge.data.relationshipId]?.style || {};
         } else {
             newEdge.style = {};
         }
@@ -158,19 +138,12 @@ const EditorApp = () => {
     const processedEdges = edges
         .map((edge) => {
             if (edge.data && edge.data.day !== editorStore.day) {
-                if (
-                    !editorStore.data[editorStore.chapter!].charts[
-                        edge.data.day
-                    ]
-                ) {
+                if (!currentChapter?.charts[edge.data.day]) {
                     return undefined;
                 }
                 // get the edge from the latest day it was updated
                 if (edge.data && edge.data.day !== editorStore.day) {
-                    const latestUpdatedEdges =
-                        editorStore.data[editorStore.chapter!].charts[
-                            edge.data.day
-                        ].edges;
+                    const latestUpdatedEdges = currentChapter?.charts[edge.data.day]?.edges ?? [];
                     const latestUpdatedEdge = latestUpdatedEdges.find(
                         (e) =>
                             e.id === edge.id && e.data?.day === edge.data?.day,
@@ -368,11 +341,9 @@ const EditorApp = () => {
                     day={editorStore.day}
                     onChapterChange={(newChapter: number) => {
                         editorStore.setChapter(newChapter);
-                        editorStore.setDay(
-                            editorStore.data[newChapter].numberOfDays === 0
-                                ? null
-                                : 0,
-                        );
+
+                        let newChapterHasDays = (editorStore.data[newChapter]?.numberOfDays ?? 0) !== 0;
+                        editorStore.setDay(newChapterHasDays ? 0 : null);
                     }}
                     onDayChange={(newDay: number) => editorStore.setDay(newDay)}
                     onChapterAdd={addChapterEH}
@@ -532,18 +503,8 @@ const EditorApp = () => {
             <EditorGeneralCard
                 key={`${editorStore.chapter}/${editorStore.day}`}
                 isVisible={editorStore.currentCard === "general"}
-                chapterData={
-                    editorStore.chapter !== null
-                        ? editorStore.data[editorStore.chapter]
-                        : null
-                }
-                dayData={
-                    editorStore.chapter !== null && editorStore.day !== null
-                        ? editorStore.data[editorStore.chapter].charts[
-                              editorStore.day
-                          ]
-                        : null
-                }
+                chapterData={currentChapter}
+                dayData={currentDay}
                 isDarkMode={isDarkMode}
                 onChapterTitleChange={editorStore.setChapterTitle}
                 onDayTitleChange={editorStore.setDayTitle}
@@ -556,11 +517,7 @@ const EditorApp = () => {
             <EditorTeamsCard
                 key={`${editorStore.chapter}-teams-card`}
                 isVisible={editorStore.currentCard === "teams"}
-                teamData={
-                    editorStore.chapter !== null
-                        ? editorStore.data[editorStore.chapter].teams
-                        : {}
-                }
+                teamData={currentChapter?.teams ?? {}}
                 onTeamsChange={(teams: TeamMap) => {
                     editorStore.setChapterTeams(teams);
                 }}
@@ -570,11 +527,7 @@ const EditorApp = () => {
             <EditorRelationshipsCard
                 key={`${editorStore.chapter}-relationships-card`}
                 isVisible={editorStore.currentCard === "relationships"}
-                relationshipData={
-                    editorStore.chapter !== null
-                        ? editorStore.data[editorStore.chapter].relationships
-                        : {}
-                }
+                relationshipData={currentChapter?.relationships ?? {}}
                 onRelationshipsChange={(relationships: RelationshipMap) => {
                     editorStore.setChapterRelationships(relationships);
                 }}

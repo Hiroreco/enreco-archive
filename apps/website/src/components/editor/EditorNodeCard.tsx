@@ -231,9 +231,9 @@ export default function EditorNodeCard({
                         />
                     </SelectTrigger>
                     <SelectContent>
-                        {Object.keys(teams).map((key) => (
+                        {Object.entries(teams).map(([key, value]) => (
                             <SelectItem key={key} value={key}>
-                                {teams[key].name}
+                                {value.name}
                             </SelectItem>
                         ))}
                     </SelectContent>
