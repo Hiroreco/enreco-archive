@@ -93,14 +93,11 @@ async function main() {
                     await fs.readFile(path.join(nodesDir, file), "utf-8")
                 ).trim();
                 // find any node whose id starts with idKey
-                const nd = chart.nodes.find(
-                    (n) =>
-                        n.id.startsWith(idKey) &&
-                        (n.data.day === undefined || n.data.day === dayIndex),
-                );
+                const nd = chart.nodes.find((n) => n.id.startsWith(idKey));
 
                 if (nd) {
                     nd.data.content = md;
+                    nd.data.day = dayIndex;
                 } else {
                     console.warn(
                         `  • Node "${idKey}" not in JSON for ${dayName}`,
@@ -140,14 +137,13 @@ async function main() {
                 // match any edge whose e.id starts with "key-"
                 // since the id contains the handles stuff as well
                 const edg = chart.edges.find(
-                    (e) =>
-                        (e.id === key || e.id.startsWith(key + "-")) &&
-                        (e.data!.day === undefined || e.data!.day === dayIndex),
+                    (e) => e.id === key || e.id.startsWith(key + "-"),
                 );
 
                 if (edg) {
                     if (title) edg.data!.title = title;
                     edg.data!.content = content;
+                    edg.data!.day = dayIndex;
                 } else {
                     console.warn(
                         `  • Edge "${key}" not in JSON for ${dayName}`,
