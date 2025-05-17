@@ -18,7 +18,7 @@ if (isNaN(chapterNum) || chapterNum < 0) {
 }
 
 const chapterOut = chapterNum + 1;
-const baseDir = join(__dirname, "../output", `chapter${chapterOut}`);
+const baseDir = join(__dirname, "../recap-data", `chapter${chapterOut}`);
 if (!existsSync(baseDir)) {
     console.error(`Directory not found: ${baseDir}`);
     process.exit(1);
