@@ -1,0 +1,5 @@
+There was no "active POV" from Jyonathan on the second day, but she was spotted with other members throughout the day. She began by catching up on the first dungeon, having missed the opportunity to explore it on her first day. Accompanied by Shiori, Bijou, and Gonathon G, Jyon finally experienced the dungeon's mysteries.
+
+Her day took an unexpected turn when she entered into a spontaneous marriage with Gonathon, prompted by his gift of ten diamonds (see [Gonathon-Jyon: My Pearl!](#edge:gonathon-g-ame-top-2-bottom-2)). True to her dynamic nature, Jyon found herself amidst a variety of shenanigans—being flirted with, witnessing duels, and "humorously" referring to the Hot Pink One as her "backup plan". (see [Hot Pink One-Jyon: Plan B](#edge:ame-hot-pink-one-left-2-bottom-2))
+
+Later, Jyon joined forces with Ina, Nerissa, and Calli to tackle the *Ocean Temple Dungeon*. Together, they solved puzzles, braved the challenges, and successfully recovered memories of Gawr Gura.For a closer look at the events of the day, her perspective was woven through the views of others.

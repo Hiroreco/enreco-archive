@@ -1,0 +1,43 @@
+She was inexplicably trapped in a chamber of glowing ivory, and mews of *some distant Promise* enveloped her focus, if only for a moment, but that didn't stop Ina from getting her coffee water in order. Spotting some familiar figures within earshot of her, puzzle pieces of past memories immediately fell into place — NinoIna's title of Hero, and her sister, who she once freed from the influence of Ruination, all history from the lost mirage that was the realm of Libestal.
+
+A fellow fluent catto speaker helped Ina recount her previous journey of Empathy, confirming the King of the false Libestal as a masquerade of the Outsider. Beyond the Library shelves was the true Libestal back in the past, which harbored the genesis of the Outsider (no thanks to the birds and the bees — and some alleged fairy godmother), and The Librarian’s scattered memories paramount to unraveling the Outsider’s destiny.
+
+The Library was soon full with the other fourteen "Shining Stars", and the two Lore Keepers among them gave a tour of the place. Ina had different plans though, she was busy perusing bookshelves and brushing with Fia.
+
+
+Nino “Starlight” Ina was intercepted by Princess Iphania and her guards. They escorted her into the Kingdom’s final bastion, where the Princess declared desire to defy Libestal’s Prophecies foretelling doom in seven days. Ina entertained the Princess' wish of repelling the looming malevolence *togethaaaa*! After deliberation with some disembodied voices, Ina gravitated towards the crafting of Charms, choosing work under the mentorship of Grand Jeweler Chrys.
+
+For a few moments, Ina [kept her head down](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=2010s) and struggled to find her way out of the Job Hall. In a detour to speak to the Princess, Ina bumps into a dark-caped character [seemingly well-spoken in the Libestan tongue](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=2080s). Fia’s memory fragments, which crashed onto the land as felled stars, had become strongholds of the Ruination. Ina was to seek assistance from the court’s mages as they gradually map out safe paths to travel to those Star Sites throughout the week. That was, if she could channel her navigation skills to find the castle exit.
+
+With the magic communications relic found on her person, Ina was mysteriously compelled to establish telepathic connection with a random peasant for a jape. While gathering intel on the first "Star Site" to visit on the next day, she overheared the self-introduction of a humble chivalrous knight, perhaps a comrade of days past? *NinoIna* had placed a nametag conveniently atop her head for easy identification, much to the benefit of... her Queen? No, that can't be, this person [eats paper](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=2540s). A fine demonstration for that peasant, at least, for knowledge is superfood.
+
+Some of the books in the Library held [illegible text](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=2848s); It might be Ancient Libestal script, or even a cipher for hive-minds to solve. From what was still readable, though, she learned of an unnamed Library authority whose position that cat succeeded.
+
+In a bizarre twist of fate, Ina reunited with her eternal consort, who the peasant seemed to be [cosmically at odds with](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3150s) (see: [Ina-Hot Pink One: Consort, again](#edge:nino-ina-the-hot-purple-one-hot-pink-one-right-2-left-2)). The group crossed paths with a bubbly Tam Gandr (she's low-key about it), who Ina now called "Tammy".
+    
+Ina was eager to shirk the status of unemployed Hero and attain grand riches, embarking on a [Clean and Simple](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3917s) beeline to the Job Hall, but got lost (again) in the [dark](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3976s) hallways of the castle labyrinth.
+    
+The Grand Jeweler entrusted Ina with the initial task of procuring materials to craft a Basic Crimson Charm. On her way out the Kingdom walls, she saw the Hot Pink One and co. loitering about the Enchanted Wagon arguing joblessly.
+    
+Venturing out to the remnants of the Cliffs of Sidero, Ina began her arduous mission of getting sidetracked. A true Hero on the hunt, no Stains nor Stain-like wild cows were spared; Handmade Steak is always handy to have. Through sheer instinct, Ina sought after the experience of battle in the fields, quickly yet steadily accustoming herself to her Revelation in combat — who knew that magical projectiles from an ancient tome would be outpowered by its melee counterpart of a hundred papercuts? Despite her best efforts, Ina got overwhelmed by the terrible Flying Stains, thus she retreated to safety to recover.
+    
+After a brief first meeting with a fellow Jeweler (BAU BAU), Ina joined hands with a quill-wielding lady, forming a party of introverts to adventure to the caves on the side of the Cliffs. Ina took her leisure gathering raw Iron and Coal from the magically regenerating ores, before parting ways with her party member of five minutes. Armed with more confidence, she stayed on the plains hunting Stains, likely becoming the first among the Shining Stars to reach the upper limit of experience she could gain within the day.
+    
+Ina was making good progress on her first Jewel-working task, when she became enamored by the beautiful sights of the mature untended fields next to the castle. As she uprooted and replanted the wheats and potatoes, [a faraway whisper](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=6909s) motivated her to pour her heart and soul into honoring the potato harvests. Ina vowed to make the "potato fairy" proud through her dedication (see: [Elizabeth](#node:elizabeth-rose-bloodflame)).
+    
+Ina ran into her eternal consort in the outskirts of the plains, and joining the HPO-Squared family unit was the Hot Pink One's now-brother Gonathon. Roa snuck some of Ina's baked potatoes, unknowingly inducting herself into Ina's new "Potato Club". Ina aimed to continue that approach to rope more warriors into the club (though she never managed to fully follow up on this thereafter.)
+    
+Back in the castle, Ina practiced crafting her very first Charms, learning the high-randomised quirks of the craft. While advancing through her career, she also began procurement of materials to strengthen her Revelation via Kiara and her brother-in-law. Unfortunately, she also heard through the very much *not* soundproof walls about the disbandment of her short-lived party, much to her sadness.
+
+HPO-Squared and Bijou had a lively barter negotiation of their respective services, with Ina receiving scrumptious Potato Salad from her eternal consort. Even so, she developed some jealousy over the blood-brothers' close relationship.
+    
+Roa cornered the currently-independent Jeweler Ina to inquire on her non-profiteering business practices. Later on, Ina was beckoned to join Roa and Bijou at the Lucky Lounge, conducting their first union meeting as Jewelers to discuss a joint venture, in a thinly-veiled attempt by Roa to monopolize the *gacha*-fied Charm market. With a preliminary agreement to sell Basic Charms at 150 Coins, the Jewelers settled on their future shop name "Ga*charms*".
+    
+Recognising the great firepower potential within her magic tome, Ina made good time on upgrading her Revelation using relatively cheap material costs, and a timely leverage of the Smiths' early labor rates of free. At this point, she was potentially the most powerful ally of Libestal in terms of battle experience and Revelation strength.
+    
+The cautious self-proclaimed Hero toiled the rest of the day away clearing the entire Quest board gaining many a Coin, plus experience that she could no longer take in due to the technical fatigue of battle. Regardless, she was content with completing her commitments, getting a view of the [beautiful artworks in Pygmalion's gallery](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=12937s) and spending some of her disposable income on failed attempts to get a new hat.
+
+With a token of [Mordon Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13151s) in her pocket, Ina staved herself off the enticement of gambling and retreated to the Library, where she pioneered a page on her brand-new Journal documenting her path to strength. [Her entry today](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13685s) was brief, not because of her desire to turn in early, but because she probably forgot what happened today.
+    
+    
+MEOWMEOW
