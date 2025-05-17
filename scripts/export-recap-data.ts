@@ -31,8 +31,11 @@ try {
     process.exit(1);
 }
 
-// base output dir: output/chapter<N+1>/
-const baseOut = path.join(__dirname, "../output", `chapter${chapterNum + 1}`);
+const baseOut = path.join(
+    __dirname,
+    "../recap-data",
+    `chapter${chapterNum + 1}`,
+);
 
 jsonData.charts.forEach((chart, dayIndex) => {
     const humanDay = dayIndex + 1;
