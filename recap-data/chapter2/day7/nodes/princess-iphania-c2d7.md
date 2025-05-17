@@ -1,1 +1,0 @@
-The world was saved, but the Princess had little to say about it (see [Princess-Outlader: An Eerie Victory](#edge:princess-iphania-the-outlander-right-2-left-2)).

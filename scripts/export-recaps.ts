@@ -51,12 +51,12 @@ async function main() {
     try {
         const jsonStr = await fileEntry.async("text");
         chapterJson = JSON.parse(jsonStr);
+        console.log(chapterJson.charts[0].nodes.map((node) => node.id));
     } catch (err) {
         console.error(`Failed to parse ${entryName}:`, err.message);
         process.exit(1);
     }
 
-    // 3) Export to folders
     const baseOut = path.resolve(
         __dirname,
         "..",

@@ -22,9 +22,9 @@ Still, her obsession lingered. Even as the kingdom spiraled into chaos, with cor
 * [Ina](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=3591) hinted that she should journey eastward, toward the Cerulean Cup guild.
 * [Elizabeth](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=8343) advised her to seek a knight dressed in orange.
 
-Amelia retreated to the onsen she had built, sorting through her [thoughts](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=8404). The clues all pointed to one person: Gonathon. Perhaps he held the key to her questions. But just as she prepared to find him, a chaotic force intervened—a figure known as the Hot Pink One (see [Hot Pink One-Amelia Watson: Non-Traditional Relation](#edge:ame-hot-pink-one-left-2-bottom-2)).
+Amelia retreated to the onsen she had built, sorting through her [thoughts](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=8404). The clues all pointed to one person: Gonathon. Perhaps he held the key to her questions. But just as she prepared to find him, a chaotic force intervened—a figure known as the Hot Pink One (see [Hot Pink One-Amelia Watson: Non-Traditional Relation](#edge:ame-irys-left-2-bottom-2)).
 
-With guidance from [Raora and Nerissa](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=9121), who confirmed the Hot Pink One’s deception, Amelia managed to evade her traps and press onward. Finally, with Nerissa’s push, she and Gonathon unraveled the mystery (see [Gonathon-Amelia: A Knight’s Wish](#edge:gonathon-g-ame-top-2-bottom-2)).
+With guidance from [Raora and Nerissa](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=9121), who confirmed the Hot Pink One’s deception, Amelia managed to evade her traps and press onward. Finally, with Nerissa’s push, she and Gonathon unraveled the mystery (see [Gonathon-Amelia: A Knight’s Wish](#edge:gigi-ame-top-2-bottom-2)).
 
 When the final battle arrived, Amelia had fully regained her sense of self. Alongside her friends, she wielded her magnifying glass against the [Stain King](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared\&t=10901), fighting with determination. Though they emerged victorious, the battle revealed a shocking twist—the true villain was someone they hadn’t anticipated (see [King: The True Evil](#node:king-of-libestal)).
 

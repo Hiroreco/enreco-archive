@@ -1,0 +1,1 @@
+The Outlander was saved from becoming a great evil, and the world was saved. He was content, genuinely impressed by the Heroes, and now, he could finally rest—spending his days in peace, beside the Princess... possibly so (see [Princess-Outlander: An Eerie Victory](#edge:iphania-outlander-right-2-left-2)).
