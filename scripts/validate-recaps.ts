@@ -1,4 +1,3 @@
-// scripts/validateRecaps.ts
 import { existsSync, readdirSync, readFileSync, statSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";

@@ -1,4 +1,3 @@
-// scripts/inject-recap-data.ts
 import * as fs from "fs/promises";
 import * as path from "path";
 import JSZip from "jszip";
@@ -26,7 +25,6 @@ async function main() {
         process.exit(1);
     }
 
-    // Paths
     const zipPath = path.resolve(
         __dirname,
         "..",
@@ -43,11 +41,10 @@ async function main() {
         `chapter${chapterNum + 1}`,
     );
 
-    // 1) Load ZIP
     const zipData = await fs.readFile(zipPath);
     const zip = await JSZip.loadAsync(zipData);
 
-    // 2) Extract and parse the JSON entry
+    // Extract and parse the JSON entry
     const fileEntry = zip.file(entryName);
     if (!fileEntry) {
         console.error(`❌ ${entryName} not found inside ${zipPath}`);
@@ -56,7 +53,7 @@ async function main() {
     const jsonStr = await fileEntry.async("text");
     const chapterJson: ChapterJson = JSON.parse(jsonStr);
 
-    // 3) Walk outputFolder exactly as before
+    // Walk through each day folder and check all recaps
     const days = await fs.readdir(outputFolder);
     for (const dayName of days.sort()) {
         const dayIndex = Number(dayName.replace(/^day/, "")) - 1;
@@ -162,11 +159,11 @@ async function main() {
         }
     }
 
-    // 4) Serialize and re‑insert into ZIP
+    // Serialize and re‑insert into ZIP
     const updated = JSON.stringify(chapterJson, null, 2);
     zip.file(entryName, updated);
 
-    // 5) Write ZIP back to disk
+    // Write ZIP back to disk
     const newZipData = await zip.generateAsync({
         type: "nodebuffer",
         compression: "DEFLATE",
