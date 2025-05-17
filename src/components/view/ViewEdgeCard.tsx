@@ -4,9 +4,7 @@ import { Stack, StackItem } from "@/components/ui/Stack";
 import EdgeCardDeco from "@/components/view/EdgeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 import VaulDrawer from "@/components/view/VaulDrawer";
-import {
-    ViewMarkdown,
-} from "@/components/view/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
@@ -89,7 +87,7 @@ const ViewEdgeCard = ({
     const edgeStyle = edgeRelationship.style;
     const backgroundColor = getLighterOrDarkerColor(
         edgeStyle?.stroke || "",
-        30,
+        10,
     );
 
     return (
