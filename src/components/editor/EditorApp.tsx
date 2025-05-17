@@ -84,7 +84,7 @@ const getCurrentDayChart = (
     charts: EditorChartData[],
     currentDay: number,
 ): EditorChartData => {
-    if (currentDay === null) {
+    if (currentDay === null || currentDay === undefined || !charts.length) {
         return {
             title: "",
             dayRecap: "",
@@ -130,6 +130,7 @@ const getCurrentDayChart = (
             }
         });
     }
+    console.log(result.nodes);
 
     return result;
 };
@@ -175,9 +176,7 @@ const EditorApp = () => {
         return newNode;
     });
 
-    const processedNodes = nodes.filter(
-        (node): node is EditorImageNodeType => node !== undefined,
-    );
+    const processedNodes = nodes.filter((node) => node !== undefined);
 
     const rawEdges =
         editorStore.chapter !== null &&
@@ -197,9 +196,7 @@ const EditorApp = () => {
         return newEdge;
     });
 
-    const processedEdges = edges.filter(
-        (edge): edge is CustomEdgeType => edge !== undefined,
-    );
+    const processedEdges = edges.filter((edge) => edge !== undefined);
 
     const updateEdgeEH = (oldEdge: CustomEdgeType, newEdge: CustomEdgeType) => {
         updateEdge(oldEdge.id, newEdge);
@@ -515,11 +512,6 @@ const EditorApp = () => {
             </Toolbar.Root>
 
             <EditorNodeCard
-                key={
-                    editorStore.selectedNode
-                        ? `${editorStore.selectedNode.id}-node-editor-card`
-                        : "null-node-editor-card"
-                }
                 isVisible={editorStore.currentCard === "node"}
                 selectedNode={editorStore.selectedNode || EMPTY_NODE}
                 teams={teams}
@@ -532,11 +524,6 @@ const EditorApp = () => {
             />
 
             <EdgeEditorCard
-                key={
-                    editorStore.selectedEdge
-                        ? `${editorStore.selectedEdge.id}-edge-editor-card`
-                        : "null-edge-editor-card"
-                }
                 isVisible={editorStore.currentCard === "edge"}
                 selectedEdge={editorStore.selectedEdge || EMPTY_EDGE}
                 relationships={relationships}

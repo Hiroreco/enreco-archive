@@ -17,7 +17,7 @@ import MDEditor from "@uiw/react-md-editor";
 import { extractColors } from "extract-colors";
 import { produce, WritableDraft } from "immer";
 import { Copy, LucideX } from "lucide-react";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import slug from "slug";
 
 const MAX_ID_LENGTH = 30;
@@ -68,6 +68,11 @@ export default function EditorNodeCard({
         selectedNode.data.imageSrc || DEFAULT_NODE_IMAGE,
     );
     const [extractedColors, setExtractedColors] = useState<string[]>([]);
+
+    useEffect(() => {
+        setWorkingNode(selectedNode);
+        setImgPreviewLink(selectedNode.data.imageSrc || DEFAULT_NODE_IMAGE);
+    }, [selectedNode, setWorkingNode, setImgPreviewLink]);
 
     const titleElem = useRef<HTMLInputElement>(null);
 
