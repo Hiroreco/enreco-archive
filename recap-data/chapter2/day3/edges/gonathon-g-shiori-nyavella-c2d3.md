@@ -8,4 +8,4 @@ Later in the day, Shiori asked to meet with Gonathon. Shiori expressed her desir
 
 From here, the two would go on a short journey before writing their journals together. While Gonathon's was filled with hope for the future, Shiori's revealed once again her trickster nature. On the surface it appeared that she might simply be [toying](https://youtu.be/gVAtGMLBJos?t=9980) with Gonathon, her earlier jealous reactions to Gonathon becoming distractions and genuine appreciation for the gifts the knight had given her spoke of another side to her. Could the archiving witch simply be a tsundere deep down? And could Gonathon win her heart?
 
-[I-It's not like I like him or anything!](#embed:https://youtu.be/gVAtGMLBJos?t=6892) 
+[I-It's not like I like him or anything!](#embed:https://youtu.be/gVAtGMLBJos?t=6892)

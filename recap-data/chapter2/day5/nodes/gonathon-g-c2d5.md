@@ -31,4 +31,3 @@ But her most grueling trial was yet to come, for yet another figure needed Gonat
 Unwilling to abandon her queen and treasured friend, Gonathon charged back into the fray, only to find that Tam had heeded her advice and laid low the degenerate pink creature. After foiling an attempt by HPO to escape her responsibility, Gonathon and Tam had a [bewildering heart to heart](https://youtu.be/alQr5XqoUPs?t=18669) in which the knight convinced the queen to seek a more equal role in the relationship…and expanded cat kissing rights. Thus Gonathon’s first steps to redemption came to an end, and while the knight still has much work to do, she resolved to stay optimistic and hold her head high. 
 
 [Writing the daily journal](#embed:https://youtu.be/alQr5XqoUPs?t=16249)
-

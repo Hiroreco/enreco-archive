@@ -14,4 +14,3 @@ Rao, Bijou, and Mococo begin to sell their wares to various people as their ware
 Rao concludes her day with a heart felt call with her employee Bijou.
 
 [Farewell](#embed:https://www.youtube.com/live/zmRDeC_aJUM?si=czHTmms2vxXnctbm)
-

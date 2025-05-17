@@ -31,5 +31,4 @@ It only brought a large sense of relief when Mother refused to part with her. Th
 
 It was terrifying to see Mother so angry against everyone and Khaos was glad to see that everyone reconciled in the end. Though she's a little bit wary of Princess-Mother, it seems she did not dislike Khaos. 
 
-Now, Khaos waits for a new room. One for her and her new little sibling too! 
-
+Now, Khaos waits for a new room. One for her and her new little sibling too!

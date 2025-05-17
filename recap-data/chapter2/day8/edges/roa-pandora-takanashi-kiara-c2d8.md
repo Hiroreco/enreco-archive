@@ -16,4 +16,4 @@ The two moved into their new home fairly quickly, setting up their beds together
 
 [A photo of the newlyweds.](#embed:https://www.youtube.com/live/8E8Dsgs5e50?si=ekcHIcDyu86fONhG&t=5322)
 
-And so, there was their happy ending... or perhaps a beginning to a new chapter in their marriage. 
+And so, there was their happy ending... or perhaps a beginning to a new chapter in their marriage.

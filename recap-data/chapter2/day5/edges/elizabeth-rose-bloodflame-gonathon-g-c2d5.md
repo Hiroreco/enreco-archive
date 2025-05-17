@@ -10,4 +10,4 @@ Liz and Gonathon realized that they shared an intense bond, even if they did not
 
 [For Justice!](#embed:https://youtu.be/alQr5XqoUPs?t=11090)
 
-While this was the end of Gonathon’s interactions with Liz for the day, it was not the end of the advice she would receive. For a [strange, floating cape](https://youtu.be/alQr5XqoUPs?t=11687) would appear before Gonathon and lecture the humble knight on whether she was making the right choices. This exchange further hardened Gonathon’s resolve, and with her knightly code firmly engraved on her heart once more, she set out to set things to right. 
+While this was the end of Gonathon’s interactions with Liz for the day, it was not the end of the advice she would receive. For a [strange, floating cape](https://youtu.be/alQr5XqoUPs?t=11687) would appear before Gonathon and lecture the humble knight on whether she was making the right choices. This exchange further hardened Gonathon’s resolve, and with her knightly code firmly engraved on her heart once more, she set out to set things to right.

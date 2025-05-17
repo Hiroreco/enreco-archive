@@ -10,4 +10,4 @@ Resolving to do whatever it took to fix the world, Gonathon and her companions s
 
 [The line is drawn.](#embed:https://youtu.be/IWNcqsQxuWo?t=7747)
 
-And with this, the second chapter of Gonathon and Shiori's stories came to a close. With these sudden revelations, several quandaries begin to surface. Did Shiori remove her memories to spare herself the pain of them, or was it to prepare herself for her betrayal of Gonathon? Would Gonathon be able to resist the Archiver's offer, given the oath she swore to her? And who exactly was this "G" that Shiori claimed was another version of Gonathon? 
+And with this, the second chapter of Gonathon and Shiori's stories came to a close. With these sudden revelations, several quandaries begin to surface. Did Shiori remove her memories to spare herself the pain of them, or was it to prepare herself for her betrayal of Gonathon? Would Gonathon be able to resist the Archiver's offer, given the oath she swore to her? And who exactly was this "G" that Shiori claimed was another version of Gonathon?

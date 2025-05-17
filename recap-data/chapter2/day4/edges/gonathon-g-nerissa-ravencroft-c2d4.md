@@ -4,4 +4,4 @@ One of the few bright spots in Gonathon’s day was the introduction of Nerissa 
 
 Her dedication was cemented in her assistance with two dungeon trials, and while her interactions with Gonathon beyond that, her kindness and gentle heart may prove invaluable given the myriad of traumas Gonathon had experienced that day. 
 
-[Awooooo!](#embed:https://www.youtube.com/live/BSPi8sTHdAY?si=Ny1DCTDh4NkMIP-h&t=2805) 
+[Awooooo!](#embed:https://www.youtube.com/live/BSPi8sTHdAY?si=Ny1DCTDh4NkMIP-h&t=2805)

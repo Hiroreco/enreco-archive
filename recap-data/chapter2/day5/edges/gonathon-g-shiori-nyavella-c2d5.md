@@ -13,4 +13,4 @@ However, Gonathon’s role in Shiori’s story was far from over. Recruited by B
 
 [We’re good neighbors!](#embed:https://youtu.be/alQr5XqoUPs?t=14029)
 
-From there, Shiori would attempt to dissuade Gonathon from being too brash about assisting Tam Gandr, although her words were unable to restrain the loyal knight from leaping to her queen’s defense. As the witch and knight parted for the final time that day, it was abundantly clear that Shiori was far from done with the humble knight, and in some ways may just be getting started in pulling on her strings. 
+From there, Shiori would attempt to dissuade Gonathon from being too brash about assisting Tam Gandr, although her words were unable to restrain the loyal knight from leaping to her queen’s defense. As the witch and knight parted for the final time that day, it was abundantly clear that Shiori was far from done with the humble knight, and in some ways may just be getting started in pulling on her strings.
