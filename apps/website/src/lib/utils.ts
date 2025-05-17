@@ -1,12 +1,6 @@
 import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
 import { ImageNodeType } from "@/lib/type";
-import { clsx, type ClassValue } from "clsx";
 import blurData from "public/blur-data.json";
-import { twMerge } from "tailwind-merge";
-
-export function cn(...inputs: ClassValue[]) {
-    return twMerge(clsx(inputs));
-}
 
 // Return a lighter or darker version of a color, param is hex color
 export function getLighterOrDarkerColor(color: string, percent: number) {
