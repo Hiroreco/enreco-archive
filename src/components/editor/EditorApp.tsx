@@ -211,23 +211,13 @@ const EditorApp = () => {
                 .filter((edge) => edge.source === oldNode.id)
                 .forEach((edge) => {
                     edge.source = newNode.id;
-                    edge.id = generateEdgeId(
-                        newNode.id,
-                        edge.target,
-                        edge.sourceHandle,
-                        edge.targetHandle,
-                    );
+                    edge.id = generateEdgeId(newNode.id, edge.target);
                 });
             edges
                 .filter((edge) => edge.target === oldNode.id)
                 .forEach((edge) => {
                     edge.target = newNode.id;
-                    edge.id = generateEdgeId(
-                        edge.source,
-                        newNode.id,
-                        edge.sourceHandle,
-                        edge.targetHandle,
-                    );
+                    edge.id = generateEdgeId(edge.source, newNode.id);
                 });
             editorStore.setEdges(edges);
         }
