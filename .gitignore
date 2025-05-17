@@ -41,5 +41,5 @@ next-env.d.ts
 apps/website/public/images-opt/*
 apps/website/public/blur-data.json
 
-# (For now) unexclude the thing
-!packages/vaul-1.1.2-patched/**/dist
+# Exclude generated style.css from patched vaul library
+packages/vaul-1.1.2-patched/style.css

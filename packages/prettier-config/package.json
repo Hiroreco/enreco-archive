@@ -1,0 +1,12 @@
+{
+  "name": "@enreco-archive/prettier-config",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": [
+    "./prettier.config.mjs"
+  ],
+  "devDependencies": {
+    "prettier": "catalog:" 
+  }
+}

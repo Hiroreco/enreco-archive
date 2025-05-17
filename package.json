@@ -7,18 +7,19 @@
     "scripts": {
 		"build": "turbo build",
 		"predev": "ts-node scripts/optimize-images.js",
-		"dev": "turbo dev --filter=enreco-chart",
+		"dev": "turbo run dev-website",
+		"editor": "turbo run editor",
 		"lint": "turbo lint",
 		"format": "prettier --write \"**/*.{ts,tsx,md}\""
 	},
 	"devDependencies": {
 		"@enreco-archive/eslint-config": "workspace:*",
 		"@enreco-archive/typescript-config": "workspace:*",
-		"prettier": "^3.5.1",
+		"prettier": "catalog:",
 		"sharp": "^0.33.5",
 		"ts-node": "^10.9.2",
 		"turbo": "^2.4.2",
-		"typescript": "5.7.3"
+		"typescript": "catalog:"
 	},
     "engines": {
         "node": ">=22"

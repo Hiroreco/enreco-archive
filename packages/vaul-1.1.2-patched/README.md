@@ -2,7 +2,7 @@ https://github.com/emilkowalski/vaul/assets/36730035/fdf8c5e8-ade8-433b-8bb0-4ce
 
 Vaul is an unstyled drawer component for React that can be used as a Dialog replacement on tablet and mobile devices. You can read about why and how it was built [here](https://emilkowal.ski/ui/building-a-drawer-component).
 
-This is a patched version of the 1.1.2 release from https://github.com/skirsten/vaul/tree/no-hacks which fixes https://github.com/emilkowalski/vaul/issues/492. Dev dependencies were also removed to avoid installing a bunch of unnecessary stuff.
+This is a patched version of the 1.1.2 release from https://github.com/skirsten/vaul/tree/no-hacks which fixes https://github.com/emilkowalski/vaul/issues/492.
 
 ## Usage
 

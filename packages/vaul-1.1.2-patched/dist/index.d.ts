@@ -1,3 +1,4 @@
+import * as react_jsx_runtime from 'react/jsx-runtime';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import React from 'react';
 
@@ -110,7 +111,7 @@ type DialogProps = {
     preventScrollRestoration?: boolean;
     autoFocus?: boolean;
 } & (WithFadeFromProps | WithoutFadeFromProps);
-declare function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRelease: onReleaseProp, snapPoints, shouldScaleBackground, setBackgroundColorOnScale, closeThreshold, scrollLockTimeout, dismissible, handleOnly, fadeFromIndex, activeSnapPoint: activeSnapPointProp, setActiveSnapPoint: setActiveSnapPointProp, fixed, modal, onClose, nested, noBodyStyles, direction, defaultOpen, disablePreventScroll, snapToSequentialPoint, preventScrollRestoration, repositionInputs, onAnimationEnd, container, autoFocus, }: DialogProps): React.JSX.Element;
+declare function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRelease: onReleaseProp, snapPoints, shouldScaleBackground, setBackgroundColorOnScale, closeThreshold, scrollLockTimeout, dismissible, handleOnly, fadeFromIndex, activeSnapPoint: activeSnapPointProp, setActiveSnapPoint: setActiveSnapPointProp, fixed, modal, onClose, nested, noBodyStyles, direction, defaultOpen, disablePreventScroll, snapToSequentialPoint, preventScrollRestoration, repositionInputs, onAnimationEnd, container, autoFocus, }: DialogProps): react_jsx_runtime.JSX.Element;
 declare const Overlay: React.ForwardRefExoticComponent<Omit<DialogPrimitive.DialogOverlayProps & React.RefAttributes<HTMLDivElement>, "ref"> & React.RefAttributes<HTMLDivElement>>;
 type ContentProps = React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>;
 declare const Content: React.ForwardRefExoticComponent<Omit<DialogPrimitive.DialogContentProps & React.RefAttributes<HTMLDivElement>, "ref"> & React.RefAttributes<HTMLDivElement>>;
@@ -118,11 +119,11 @@ type HandleProps = React.ComponentPropsWithoutRef<'div'> & {
     preventCycle?: boolean;
 };
 declare const Handle: React.ForwardRefExoticComponent<Omit<React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, "ref"> & {
-    preventCycle?: boolean | undefined;
+    preventCycle?: boolean;
 } & React.RefAttributes<HTMLDivElement>>;
-declare function NestedRoot({ onDrag, onOpenChange, open: nestedIsOpen, ...rest }: DialogProps): React.JSX.Element;
+declare function NestedRoot({ onDrag, onOpenChange, open: nestedIsOpen, ...rest }: DialogProps): react_jsx_runtime.JSX.Element;
 type PortalProps = React.ComponentPropsWithoutRef<typeof DialogPrimitive.Portal>;
-declare function Portal(props: PortalProps): React.JSX.Element;
+declare function Portal(props: PortalProps): react_jsx_runtime.JSX.Element;
 declare const Drawer: {
     Root: typeof Root;
     NestedRoot: typeof NestedRoot;
@@ -131,11 +132,12 @@ declare const Drawer: {
     Trigger: React.ForwardRefExoticComponent<DialogPrimitive.DialogTriggerProps & React.RefAttributes<HTMLButtonElement>>;
     Portal: typeof Portal;
     Handle: React.ForwardRefExoticComponent<Omit<React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, "ref"> & {
-        preventCycle?: boolean | undefined;
+        preventCycle?: boolean;
     } & React.RefAttributes<HTMLDivElement>>;
     Close: React.ForwardRefExoticComponent<DialogPrimitive.DialogCloseProps & React.RefAttributes<HTMLButtonElement>>;
     Title: React.ForwardRefExoticComponent<DialogPrimitive.DialogTitleProps & React.RefAttributes<HTMLHeadingElement>>;
     Description: React.ForwardRefExoticComponent<DialogPrimitive.DialogDescriptionProps & React.RefAttributes<HTMLParagraphElement>>;
 };
 
-export { Content, type ContentProps, type DialogProps, Drawer, Handle, type HandleProps, NestedRoot, Overlay, Portal, Root, type WithFadeFromProps, type WithoutFadeFromProps };
+export { Content, Drawer, Handle, NestedRoot, Overlay, Portal, Root };
+export type { ContentProps, DialogProps, HandleProps, WithFadeFromProps, WithoutFadeFromProps };

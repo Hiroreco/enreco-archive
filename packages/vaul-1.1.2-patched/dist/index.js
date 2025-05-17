@@ -10,6 +10,7 @@ function __insertCSS(code) {
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
+var jsxRuntime = require('react/jsx-runtime');
 var DialogPrimitive = require('@radix-ui/react-dialog');
 var React = require('react');
 
@@ -167,7 +168,7 @@ let restore;
         return ()=>{
             preventScrollCount--;
             if (preventScrollCount === 0) {
-                restore == null ? void 0 : restore();
+                restore?.();
             }
         };
     }, [
@@ -477,7 +478,7 @@ function useCallbackRef(callback) {
         callbackRef.current = callback;
     });
     // https://github.com/facebook/react/issues/19240
-    return React__namespace.default.useMemo(()=>(...args)=>callbackRef.current == null ? void 0 : callbackRef.current.call(callbackRef, ...args), []);
+    return React__namespace.default.useMemo(()=>(...args)=>callbackRef.current?.(...args), []);
 }
 function useUncontrolledState({ defaultProp, onChange }) {
     const uncontrolledState = React__namespace.default.useState(defaultProp);
@@ -527,7 +528,7 @@ function useControllableState({ prop, defaultProp, onChange = ()=>{} }) {
 function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints, drawerRef, overlayRef, fadeFromIndex, onSnapPointChange, direction = 'bottom', container, snapToSequentialPoint }) {
     const [activeSnapPoint, setActiveSnapPoint] = useControllableState({
         prop: activeSnapPointProp,
-        defaultProp: snapPoints == null ? void 0 : snapPoints[0],
+        defaultProp: snapPoints?.[0],
         onChange: setActiveSnapPointProp
     });
     const [windowDimensions, setWindowDimensions] = React__namespace.default.useState(typeof window !== 'undefined' ? {
@@ -544,14 +545,11 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
         window.addEventListener('resize', onResize);
         return ()=>window.removeEventListener('resize', onResize);
     }, []);
-    const isLastSnapPoint = React__namespace.default.useMemo(()=>activeSnapPoint === (snapPoints == null ? void 0 : snapPoints[snapPoints.length - 1]) || null, [
+    const isLastSnapPoint = React__namespace.default.useMemo(()=>activeSnapPoint === snapPoints?.[snapPoints.length - 1] || null, [
         snapPoints,
         activeSnapPoint
     ]);
-    const activeSnapPointIndex = React__namespace.default.useMemo(()=>{
-        var _snapPoints_findIndex;
-        return (_snapPoints_findIndex = snapPoints == null ? void 0 : snapPoints.findIndex((snapPoint)=>snapPoint === activeSnapPoint)) != null ? _snapPoints_findIndex : null;
-    }, [
+    const activeSnapPointIndex = React__namespace.default.useMemo(()=>snapPoints?.findIndex((snapPoint)=>snapPoint === activeSnapPoint) ?? null, [
         snapPoints,
         activeSnapPoint
     ]);
@@ -567,8 +565,7 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
             width: 0,
             height: 0
         };
-        var _snapPoints_map;
-        return (_snapPoints_map = snapPoints == null ? void 0 : snapPoints.map((snapPoint)=>{
+        return snapPoints?.map((snapPoint)=>{
             const isPx = typeof snapPoint === 'string';
             let snapPointAsNumber = 0;
             if (isPx) {
@@ -586,19 +583,18 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
                 return direction === 'right' ? containerSize.width - width : -containerSize.width + width;
             }
             return width;
-        })) != null ? _snapPoints_map : [];
+        }) ?? [];
     }, [
         snapPoints,
         windowDimensions,
         container
     ]);
-    const activeSnapPointOffset = React__namespace.default.useMemo(()=>activeSnapPointIndex !== null ? snapPointsOffset == null ? void 0 : snapPointsOffset[activeSnapPointIndex] : null, [
+    const activeSnapPointOffset = React__namespace.default.useMemo(()=>activeSnapPointIndex !== null ? snapPointsOffset?.[activeSnapPointIndex] : null, [
         snapPointsOffset,
         activeSnapPointIndex
     ]);
     const snapToPoint = React__namespace.default.useCallback((dimension)=>{
-        var _snapPointsOffset_findIndex;
-        const newSnapPointIndex = (_snapPointsOffset_findIndex = snapPointsOffset == null ? void 0 : snapPointsOffset.findIndex((snapPointDim)=>snapPointDim === dimension)) != null ? _snapPointsOffset_findIndex : null;
+        const newSnapPointIndex = snapPointsOffset?.findIndex((snapPointDim)=>snapPointDim === dimension) ?? null;
         onSnapPointChange(newSnapPointIndex);
         set(drawerRef.current, {
             transition: `transform ${TRANSITIONS.DURATION}s cubic-bezier(${TRANSITIONS.EASE.join(',')})`,
@@ -615,7 +611,7 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
                 opacity: '1'
             });
         }
-        setActiveSnapPoint(snapPoints == null ? void 0 : snapPoints[Math.max(newSnapPointIndex, 0)]);
+        setActiveSnapPoint(snapPoints?.[Math.max(newSnapPointIndex, 0)]);
     }, [
         drawerRef.current,
         snapPoints,
@@ -626,8 +622,7 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
     ]);
     React__namespace.default.useEffect(()=>{
         if (activeSnapPoint || activeSnapPointProp) {
-            var _snapPoints_findIndex;
-            const newIndex = (_snapPoints_findIndex = snapPoints == null ? void 0 : snapPoints.findIndex((snapPoint)=>snapPoint === activeSnapPointProp || snapPoint === activeSnapPoint)) != null ? _snapPoints_findIndex : -1;
+            const newIndex = snapPoints?.findIndex((snapPoint)=>snapPoint === activeSnapPointProp || snapPoint === activeSnapPoint) ?? -1;
             if (snapPointsOffset && newIndex !== -1 && typeof snapPointsOffset[newIndex] === 'number') {
                 snapToPoint(snapPointsOffset[newIndex]);
             }
@@ -641,7 +636,7 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
     ]);
     function onRelease({ draggedDistance, closeDrawer, velocity, dismissible }) {
         if (fadeFromIndex === undefined) return;
-        const currentPosition = direction === 'bottom' || direction === 'right' ? (activeSnapPointOffset != null ? activeSnapPointOffset : 0) - draggedDistance : (activeSnapPointOffset != null ? activeSnapPointOffset : 0) + draggedDistance;
+        const currentPosition = direction === 'bottom' || direction === 'right' ? (activeSnapPointOffset ?? 0) - draggedDistance : (activeSnapPointOffset ?? 0) + draggedDistance;
         const isOverlaySnapPoint = activeSnapPointIndex === fadeFromIndex - 1;
         const isFirst = activeSnapPointIndex === 0;
         const hasDraggedUp = draggedDistance > 0;
@@ -660,7 +655,7 @@ function useSnapPoints({ activeSnapPointProp, setActiveSnapPointProp, snapPoints
             return;
         }
         // Find the closest snap point to the current position
-        const closestSnapPoint = snapPointsOffset == null ? void 0 : snapPointsOffset.reduce((prev, curr)=>{
+        const closestSnapPoint = snapPointsOffset?.reduce((prev, curr)=>{
             if (typeof prev !== 'number' || typeof curr !== 'number') return prev;
             return Math.abs(curr - currentPosition) < Math.abs(prev - currentPosition) ? curr : prev;
         });
@@ -779,14 +774,13 @@ function useScaleBackground() {
 }
 
 function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRelease: onReleaseProp, snapPoints, shouldScaleBackground = false, setBackgroundColorOnScale = true, closeThreshold = CLOSE_THRESHOLD, scrollLockTimeout = SCROLL_LOCK_TIMEOUT, dismissible = true, handleOnly = false, fadeFromIndex = snapPoints && snapPoints.length - 1, activeSnapPoint: activeSnapPointProp, setActiveSnapPoint: setActiveSnapPointProp, fixed, modal = true, onClose, nested, noBodyStyles = false, direction = 'bottom', defaultOpen = false, disablePreventScroll = true, snapToSequentialPoint = false, preventScrollRestoration = false, repositionInputs = true, onAnimationEnd, container, autoFocus = false }) {
-    var _drawerRef_current, _drawerRef_current1;
     const [isOpen = false, setIsOpen] = useControllableState({
         defaultProp: defaultOpen,
         prop: openProp,
         onChange: (o)=>{
-            onOpenChange == null ? void 0 : onOpenChange(o);
+            onOpenChange?.(o);
             setTimeout(()=>{
-                onAnimationEnd == null ? void 0 : onAnimationEnd(o);
+                onAnimationEnd?.(o);
             }, TRANSITIONS.DURATION * 1000);
         }
     });
@@ -805,8 +799,8 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
     const shouldAnimate = React__namespace.default.useRef(!defaultOpen);
     const previousDiffFromInitial = React__namespace.default.useRef(0);
     const drawerRef = React__namespace.default.useRef(null);
-    const drawerHeightRef = React__namespace.default.useRef(((_drawerRef_current = drawerRef.current) == null ? void 0 : _drawerRef_current.getBoundingClientRect().height) || 0);
-    const drawerWidthRef = React__namespace.default.useRef(((_drawerRef_current1 = drawerRef.current) == null ? void 0 : _drawerRef_current1.getBoundingClientRect().width) || 0);
+    const drawerHeightRef = React__namespace.default.useRef(drawerRef.current?.getBoundingClientRect().height || 0);
+    const drawerWidthRef = React__namespace.default.useRef(drawerRef.current?.getBoundingClientRect().width || 0);
     const initialDrawerHeight = React__namespace.default.useRef(0);
     const onSnapPointChange = React__namespace.default.useCallback((activeSnapPointIndex)=>{
         // Change openTime ref when we reach the last snap point to prevent dragging for 500ms incase it's scrollable.
@@ -831,11 +825,10 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
         return (window.innerWidth - WINDOW_TOP_OFFSET) / window.innerWidth;
     }
     function onPress(event) {
-        var _drawerRef_current, _drawerRef_current1;
         if (!dismissible && !snapPoints) return;
         if (drawerRef.current && !drawerRef.current.contains(event.target)) return;
-        drawerHeightRef.current = ((_drawerRef_current = drawerRef.current) == null ? void 0 : _drawerRef_current.getBoundingClientRect().height) || 0;
-        drawerWidthRef.current = ((_drawerRef_current1 = drawerRef.current) == null ? void 0 : _drawerRef_current1.getBoundingClientRect().width) || 0;
+        drawerHeightRef.current = drawerRef.current?.getBoundingClientRect().height || 0;
+        drawerWidthRef.current = drawerRef.current?.getBoundingClientRect().width || 0;
         setIsDragging(true);
         dragStartTime.current = new Date();
         // iOS doesn't trigger mouseUp after scrolling so we need to listen to touched in order to disallow dragging
@@ -849,9 +842,8 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
         pointerStart.current = isVertical(direction) ? event.pageY : event.pageX;
     }
     function shouldDrag(el, isDraggingInDirection) {
-        var _window_getSelection;
         let element = el;
-        const highlightedText = (_window_getSelection = window.getSelection()) == null ? void 0 : _window_getSelection.toString();
+        const highlightedText = window.getSelection()?.toString();
         const swipeAmount = drawerRef.current ? getTranslate(drawerRef.current, direction) : null;
         const date = new Date();
         // Fixes https://github.com/emilkowalski/vaul/issues/483
@@ -959,7 +951,7 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
             }
             const opacityValue = 1 - percentageDragged;
             if (shouldFade || fadeFromIndex && activeSnapPointIndex === fadeFromIndex - 1) {
-                onDragProp == null ? void 0 : onDragProp(event, percentageDragged);
+                onDragProp?.(event, percentageDragged);
                 set(overlayRef.current, {
                     opacity: `${opacityValue}`,
                     transition: 'none'
@@ -990,13 +982,11 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
         });
     }, []);
     React__namespace.default.useEffect(()=>{
-        var _window_visualViewport;
         function onVisualViewportChange() {
             if (!drawerRef.current || !repositionInputs) return;
             const focusedElement = document.activeElement;
             if (isInput(focusedElement) || keyboardIsOpen.current) {
-                var _window_visualViewport;
-                const visualViewportHeight = ((_window_visualViewport = window.visualViewport) == null ? void 0 : _window_visualViewport.height) || 0;
+                const visualViewportHeight = window.visualViewport?.height || 0;
                 const totalHeight = window.innerHeight;
                 // This is the height of the keyboard
                 let diffFromInitial = totalHeight - visualViewportHeight;
@@ -1040,11 +1030,8 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
                 }
             }
         }
-        (_window_visualViewport = window.visualViewport) == null ? void 0 : _window_visualViewport.addEventListener('resize', onVisualViewportChange);
-        return ()=>{
-            var _window_visualViewport;
-            return (_window_visualViewport = window.visualViewport) == null ? void 0 : _window_visualViewport.removeEventListener('resize', onVisualViewportChange);
-        };
+        window.visualViewport?.addEventListener('resize', onVisualViewportChange);
+        return ()=>window.visualViewport?.removeEventListener('resize', onVisualViewportChange);
     }, [
         activeSnapPointIndex,
         snapPoints,
@@ -1052,7 +1039,7 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
     ]);
     function closeDrawer(fromWithin) {
         cancelDrag();
-        onClose == null ? void 0 : onClose();
+        onClose?.();
         if (!fromWithin) {
             setIsOpen(false);
         }
@@ -1126,31 +1113,29 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
                 velocity,
                 dismissible
             });
-            onReleaseProp == null ? void 0 : onReleaseProp(event, true);
+            onReleaseProp?.(event, true);
             return;
         }
         // Moved upwards, don't do anything
         if (direction === 'bottom' || direction === 'right' ? distMoved > 0 : distMoved < 0) {
             resetDrawer();
-            onReleaseProp == null ? void 0 : onReleaseProp(event, true);
+            onReleaseProp?.(event, true);
             return;
         }
         if (velocity > VELOCITY_THRESHOLD) {
             closeDrawer();
-            onReleaseProp == null ? void 0 : onReleaseProp(event, false);
+            onReleaseProp?.(event, false);
             return;
         }
-        var _drawerRef_current_getBoundingClientRect_height;
-        const visibleDrawerHeight = Math.min((_drawerRef_current_getBoundingClientRect_height = drawerRef.current.getBoundingClientRect().height) != null ? _drawerRef_current_getBoundingClientRect_height : 0, window.innerHeight);
-        var _drawerRef_current_getBoundingClientRect_width;
-        const visibleDrawerWidth = Math.min((_drawerRef_current_getBoundingClientRect_width = drawerRef.current.getBoundingClientRect().width) != null ? _drawerRef_current_getBoundingClientRect_width : 0, window.innerWidth);
+        const visibleDrawerHeight = Math.min(drawerRef.current.getBoundingClientRect().height ?? 0, window.innerHeight);
+        const visibleDrawerWidth = Math.min(drawerRef.current.getBoundingClientRect().width ?? 0, window.innerWidth);
         const isHorizontalSwipe = direction === 'left' || direction === 'right';
         if (Math.abs(swipeAmount) >= (isHorizontalSwipe ? visibleDrawerWidth : visibleDrawerHeight) * closeThreshold) {
             closeDrawer();
-            onReleaseProp == null ? void 0 : onReleaseProp(event, false);
+            onReleaseProp?.(event, false);
             return;
         }
-        onReleaseProp == null ? void 0 : onReleaseProp(event, true);
+        onReleaseProp?.(event, true);
         resetDrawer();
     }
     React__namespace.default.useEffect(()=>{
@@ -1169,7 +1154,7 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
     ]);
     function onNestedOpenChange(o) {
         const scale = o ? (window.innerWidth - NESTED_DISPLACEMENT) / window.innerWidth : 1;
-        const initialTranslate = o ? -NESTED_DISPLACEMENT : 0;
+        const initialTranslate = o ? -16 : 0;
         if (nestedOpenChangeTimer.current) {
             window.clearTimeout(nestedOpenChangeTimer.current);
         }
@@ -1191,7 +1176,7 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
         if (percentageDragged < 0) return;
         const initialScale = (window.innerWidth - NESTED_DISPLACEMENT) / window.innerWidth;
         const newScale = initialScale + percentageDragged * (1 - initialScale);
-        const newTranslate = -NESTED_DISPLACEMENT + percentageDragged * NESTED_DISPLACEMENT;
+        const newTranslate = -16 + percentageDragged * NESTED_DISPLACEMENT;
         set(drawerRef.current, {
             transform: isVertical(direction) ? `scale(${newScale}) translate3d(0, ${newTranslate}px, 0)` : `scale(${newScale}) translate3d(${newTranslate}px, 0, 0)`,
             transition: 'none'
@@ -1200,7 +1185,7 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
     function onNestedRelease(_event, o) {
         const dim = isVertical(direction) ? window.innerHeight : window.innerWidth;
         const scale = o ? (dim - NESTED_DISPLACEMENT) / dim : 1;
-        const translate = o ? -NESTED_DISPLACEMENT : 0;
+        const translate = o ? -16 : 0;
         if (o) {
             set(drawerRef.current, {
                 transition: `transform ${TRANSITIONS.DURATION}s cubic-bezier(${TRANSITIONS.EASE.join(',')})`,
@@ -1208,7 +1193,7 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
             });
         }
     }
-    return /*#__PURE__*/ React__namespace.default.createElement(DialogPrimitive__namespace.Root, {
+    return /*#__PURE__*/ jsxRuntime.jsx(DialogPrimitive__namespace.Root, {
         defaultOpen: defaultOpen,
         onOpenChange: (open)=>{
             if (!dismissible && !open) return;
@@ -1220,40 +1205,42 @@ function Root({ open: openProp, onOpenChange, children, onDrag: onDragProp, onRe
             setIsOpen(open);
         },
         open: isOpen,
-        modal: modal
-    }, /*#__PURE__*/ React__namespace.default.createElement(DrawerContext.Provider, {
-        value: {
-            activeSnapPoint,
-            snapPoints,
-            setActiveSnapPoint,
-            drawerRef,
-            overlayRef,
-            onOpenChange,
-            onPress,
-            onRelease,
-            onDrag,
-            dismissible,
-            shouldAnimate,
-            handleOnly,
-            isOpen,
-            isDragging,
-            shouldFade,
-            closeDrawer,
-            onNestedDrag,
-            onNestedOpenChange,
-            onNestedRelease,
-            keyboardIsOpen,
-            modal,
-            snapPointsOffset,
-            activeSnapPointIndex,
-            direction,
-            shouldScaleBackground,
-            setBackgroundColorOnScale,
-            noBodyStyles,
-            container,
-            autoFocus
-        }
-    }, children));
+        modal: modal,
+        children: /*#__PURE__*/ jsxRuntime.jsx(DrawerContext.Provider, {
+            value: {
+                activeSnapPoint,
+                snapPoints,
+                setActiveSnapPoint,
+                drawerRef,
+                overlayRef,
+                onOpenChange,
+                onPress,
+                onRelease,
+                onDrag,
+                dismissible,
+                shouldAnimate,
+                handleOnly,
+                isOpen,
+                isDragging,
+                shouldFade,
+                closeDrawer,
+                onNestedDrag,
+                onNestedOpenChange,
+                onNestedRelease,
+                keyboardIsOpen,
+                modal,
+                snapPointsOffset,
+                activeSnapPointIndex,
+                direction,
+                shouldScaleBackground,
+                setBackgroundColorOnScale,
+                noBodyStyles,
+                container,
+                autoFocus
+            },
+            children: children
+        })
+    });
 }
 const Overlay = /*#__PURE__*/ React__namespace.default.forwardRef(function({ ...rest }, ref) {
     const { overlayRef, snapPoints, onRelease, shouldFade, isOpen, modal, shouldAnimate } = useDrawerContext();
@@ -1262,13 +1249,13 @@ const Overlay = /*#__PURE__*/ React__namespace.default.forwardRef(function({ ...
     const onMouseUp = React__namespace.default.useCallback((event)=>onRelease(event), [
         onRelease
     ]);
-    return /*#__PURE__*/ React__namespace.default.createElement(DialogPrimitive__namespace.Overlay, {
+    return /*#__PURE__*/ jsxRuntime.jsx(DialogPrimitive__namespace.Overlay, {
         onMouseUp: onMouseUp,
         ref: composedRef,
         "data-vaul-overlay": "",
         "data-vaul-snap-points": isOpen && hasSnapPoints ? 'true' : 'false',
         "data-vaul-snap-points-overlay": isOpen && shouldFade ? 'true' : 'false',
-        "data-vaul-animate": (shouldAnimate == null ? void 0 : shouldAnimate.current) ? 'true' : 'false',
+        "data-vaul-animate": shouldAnimate?.current ? 'true' : 'false',
         ...rest
     });
 });
@@ -1318,22 +1305,22 @@ const Content = /*#__PURE__*/ React__namespace.default.forwardRef(function({ onP
         wasBeyondThePointRef.current = false;
         onRelease(event);
     }
-    return /*#__PURE__*/ React__namespace.default.createElement(DialogPrimitive__namespace.Content, {
+    return /*#__PURE__*/ jsxRuntime.jsx(DialogPrimitive__namespace.Content, {
         "data-vaul-drawer-direction": direction,
         "data-vaul-drawer": "",
         "data-vaul-delayed-snap-points": delayedSnapPoints ? 'true' : 'false',
         "data-vaul-snap-points": isOpen && hasSnapPoints ? 'true' : 'false',
         "data-vaul-custom-container": container ? 'true' : 'false',
-        "data-vaul-animate": (shouldAnimate == null ? void 0 : shouldAnimate.current) ? 'true' : 'false',
+        "data-vaul-animate": shouldAnimate?.current ? 'true' : 'false',
         ...rest,
         ref: composedRef,
         style: snapPointsOffset && snapPointsOffset.length > 0 ? {
-            '--snap-point-height': `${snapPointsOffset[activeSnapPointIndex != null ? activeSnapPointIndex : 0]}px`,
+            '--snap-point-height': `${snapPointsOffset[activeSnapPointIndex ?? 0]}px`,
             ...style
         } : style,
         onPointerDown: (event)=>{
             if (handleOnly) return;
-            rest.onPointerDown == null ? void 0 : rest.onPointerDown.call(rest, event);
+            rest.onPointerDown?.(event);
             pointerStartRef.current = {
                 x: event.pageX,
                 y: event.pageY
@@ -1341,13 +1328,13 @@ const Content = /*#__PURE__*/ React__namespace.default.forwardRef(function({ onP
             onPress(event);
         },
         onOpenAutoFocus: (e)=>{
-            onOpenAutoFocus == null ? void 0 : onOpenAutoFocus(e);
+            onOpenAutoFocus?.(e);
             if (!autoFocus) {
                 e.preventDefault();
             }
         },
         onPointerDownOutside: (e)=>{
-            onPointerDownOutside == null ? void 0 : onPointerDownOutside(e);
+            onPointerDownOutside?.(e);
             if (!modal || e.defaultPrevented) {
                 e.preventDefault();
                 return;
@@ -1365,7 +1352,7 @@ const Content = /*#__PURE__*/ React__namespace.default.forwardRef(function({ onP
         onPointerMove: (event)=>{
             lastKnownPointerEventRef.current = event;
             if (handleOnly) return;
-            rest.onPointerMove == null ? void 0 : rest.onPointerMove.call(rest, event);
+            rest.onPointerMove?.(event);
             if (!pointerStartRef.current) return;
             const yPosition = event.pageY - pointerStartRef.current.y;
             const xPosition = event.pageX - pointerStartRef.current.x;
@@ -1381,17 +1368,17 @@ const Content = /*#__PURE__*/ React__namespace.default.forwardRef(function({ onP
             }
         },
         onPointerUp: (event)=>{
-            rest.onPointerUp == null ? void 0 : rest.onPointerUp.call(rest, event);
+            rest.onPointerUp?.(event);
             pointerStartRef.current = null;
             wasBeyondThePointRef.current = false;
             onRelease(event);
         },
         onPointerOut: (event)=>{
-            rest.onPointerOut == null ? void 0 : rest.onPointerOut.call(rest, event);
+            rest.onPointerOut?.(event);
             handleOnPointerUp(lastKnownPointerEventRef.current);
         },
         onContextMenu: (event)=>{
-            rest.onContextMenu == null ? void 0 : rest.onContextMenu.call(rest, event);
+            rest.onContextMenu?.(event);
             if (lastKnownPointerEventRef.current) {
                 handleOnPointerUp(lastKnownPointerEventRef.current);
             }
@@ -1451,7 +1438,7 @@ const Handle = /*#__PURE__*/ React__namespace.default.forwardRef(function({ prev
         }
         shouldCancelInteractionRef.current = false;
     }
-    return /*#__PURE__*/ React__namespace.default.createElement("div", {
+    return /*#__PURE__*/ jsxRuntime.jsx("div", {
         onClick: handleStartCycle,
         onPointerCancel: handleCancelInteraction,
         onPointerDown: (e)=>{
@@ -1466,11 +1453,13 @@ const Handle = /*#__PURE__*/ React__namespace.default.forwardRef(function({ prev
         "data-vaul-drawer-visible": isOpen ? 'true' : 'false',
         "data-vaul-handle": "",
         "aria-hidden": "true",
-        ...rest
-    }, /*#__PURE__*/ React__namespace.default.createElement("span", {
-        "data-vaul-handle-hitarea": "",
-        "aria-hidden": "true"
-    }, children));
+        ...rest,
+        children: /*#__PURE__*/ jsxRuntime.jsx("span", {
+            "data-vaul-handle-hitarea": "",
+            "aria-hidden": "true",
+            children: children
+        })
+    });
 });
 Handle.displayName = 'Drawer.Handle';
 function NestedRoot({ onDrag, onOpenChange, open: nestedIsOpen, ...rest }) {
@@ -1478,7 +1467,7 @@ function NestedRoot({ onDrag, onOpenChange, open: nestedIsOpen, ...rest }) {
     if (!onNestedDrag) {
         throw new Error('Drawer.NestedRoot must be placed in another drawer');
     }
-    return /*#__PURE__*/ React__namespace.default.createElement(Root, {
+    return /*#__PURE__*/ jsxRuntime.jsx(Root, {
         nested: true,
         open: nestedIsOpen,
         onClose: ()=>{
@@ -1486,13 +1475,13 @@ function NestedRoot({ onDrag, onOpenChange, open: nestedIsOpen, ...rest }) {
         },
         onDrag: (e, p)=>{
             onNestedDrag(e, p);
-            onDrag == null ? void 0 : onDrag(e, p);
+            onDrag?.(e, p);
         },
         onOpenChange: (o)=>{
             if (o) {
                 onNestedOpenChange(o);
             }
-            onOpenChange == null ? void 0 : onOpenChange(o);
+            onOpenChange?.(o);
         },
         onRelease: onNestedRelease,
         ...rest
@@ -1501,7 +1490,7 @@ function NestedRoot({ onDrag, onOpenChange, open: nestedIsOpen, ...rest }) {
 function Portal(props) {
     const context = useDrawerContext();
     const { container = context.container, ...portalProps } = props;
-    return /*#__PURE__*/ React__namespace.default.createElement(DialogPrimitive__namespace.Portal, {
+    return /*#__PURE__*/ jsxRuntime.jsx(DialogPrimitive__namespace.Portal, {
         container: container,
         ...portalProps
     });
