@@ -32,6 +32,7 @@ import { generateEdgeId } from "@/lib/editor-utils";
 import {
     CustomEdgeType,
     CustomEdgeTypeNames,
+    EditorChartData,
     EditorImageNodeType,
     RelationshipMap,
     TeamMap,
@@ -79,6 +80,60 @@ const EMPTY_EDGE: CustomEdgeType = {
     },
 };
 
+const getCurrentDayChart = (
+    charts: EditorChartData[],
+    currentDay: number,
+): EditorChartData => {
+    if (currentDay === null) {
+        return {
+            title: "",
+            dayRecap: "",
+            nodes: [],
+            edges: [],
+        };
+    }
+
+    // Initialize with current day's title and recap
+    const result: EditorChartData = {
+        title: charts[currentDay].title,
+        dayRecap: charts[currentDay].dayRecap,
+        nodes: [],
+        edges: [],
+    };
+
+    // Merge all changes up to current day
+    for (let day = 0; day <= currentDay; day++) {
+        const chart = charts[day];
+        if (!chart) continue;
+
+        // Merge nodes
+        chart.nodes.forEach((node) => {
+            const existingIndex = result.nodes.findIndex(
+                (n) => n.id === node.id,
+            );
+            if (existingIndex !== -1) {
+                result.nodes[existingIndex] = node;
+            } else {
+                result.nodes.push(node);
+            }
+        });
+
+        // Merge edges
+        chart.edges.forEach((edge) => {
+            const existingIndex = result.edges.findIndex(
+                (e) => e.id === edge.id,
+            );
+            if (existingIndex !== -1) {
+                result.edges[existingIndex] = edge;
+            } else {
+                result.edges.push(edge);
+            }
+        });
+    }
+
+    return result;
+};
+
 const EditorApp = () => {
     const { updateEdge, updateNode, deleteElements } = useReactFlow();
     const editorStore = useEditorStore();
@@ -100,50 +155,37 @@ const EditorApp = () => {
             ? editorStore.data[editorStore.chapter].relationships
             : {};
 
+    const dayData = getCurrentDayChart(
+        editorStore.chapter !== null
+            ? editorStore.data[editorStore.chapter].charts
+            : [],
+        editorStore.day !== null ? editorStore.day : 0,
+    );
+
     const rawNodes =
         editorStore.chapter !== null &&
         editorStore.day !== null &&
-        editorStore.data
-            ? editorStore.data[editorStore.chapter].charts[editorStore.day]
-                  ?.nodes
+        dayData.nodes
+            ? dayData.nodes
             : [];
+
     const nodes = rawNodes.map((node) => {
         const newNode = structuredClone(node);
         newNode.data.renderShowHandles = editorStore.showHandles;
         return newNode;
     });
 
-    const processedNodes = nodes
-        .map((node) => {
-            if (node.data.day !== editorStore.day) {
-                if (
-                    !editorStore.data[editorStore.chapter!].charts[
-                        node.data.day
-                    ]
-                ) {
-                    return undefined;
-                }
-                // get the node from the latest day it was updated
-                const latestNodes =
-                    editorStore.data[editorStore.chapter!].charts;
-                const dayNodes = latestNodes[node.data.day]?.nodes;
-                if (!dayNodes) return;
-                const latestUpdatedNode = dayNodes.find(
-                    (n) => n.id === node.id && n.data.day === node.data.day,
-                );
-                return latestUpdatedNode ? latestUpdatedNode : node;
-            }
-            return node;
-        })
-        .filter((node): node is EditorImageNodeType => node !== undefined);
+    const processedNodes = nodes.filter(
+        (node): node is EditorImageNodeType => node !== undefined,
+    );
 
     const rawEdges =
         editorStore.chapter !== null &&
         editorStore.day !== null &&
-        editorStore.data
-            ? editorStore.data[editorStore.chapter].charts[editorStore.day]
-                  ?.edges
+        dayData.edges
+            ? dayData.edges
             : [];
+
     const edges = rawEdges.map((edge) => {
         const newEdge = structuredClone(edge);
         if (newEdge.data && newEdge.data.relationshipId) {
@@ -155,33 +197,9 @@ const EditorApp = () => {
         return newEdge;
     });
 
-    const processedEdges = edges
-        .map((edge) => {
-            if (edge.data && edge.data.day !== editorStore.day) {
-                if (
-                    !editorStore.data[editorStore.chapter!].charts[
-                        edge.data.day
-                    ]
-                ) {
-                    return undefined;
-                }
-                // get the edge from the latest day it was updated
-                if (edge.data && edge.data.day !== editorStore.day) {
-                    const latestUpdatedEdges =
-                        editorStore.data[editorStore.chapter!].charts[
-                            edge.data.day
-                        ].edges;
-                    const latestUpdatedEdge = latestUpdatedEdges.find(
-                        (e) =>
-                            e.id === edge.id && e.data?.day === edge.data?.day,
-                    );
-                    return latestUpdatedEdge ? latestUpdatedEdge : edge;
-                }
-                return edge;
-            }
-            return edge;
-        })
-        .filter((edge): edge is CustomEdgeType => edge !== undefined);
+    const processedEdges = edges.filter(
+        (edge): edge is CustomEdgeType => edge !== undefined,
+    );
 
     const updateEdgeEH = (oldEdge: CustomEdgeType, newEdge: CustomEdgeType) => {
         updateEdge(oldEdge.id, newEdge);
