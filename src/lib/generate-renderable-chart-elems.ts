@@ -84,7 +84,6 @@ export function generateRenderableEdges(
     dayData: ChartData,
     chapter: number,
     day: number,
-    previousDay: number,
     teamVisibility: StringToBooleanObjectMap,
     characterVisibility: StringToBooleanObjectMap,
     edgeVisibility: StringToBooleanObjectMap,
