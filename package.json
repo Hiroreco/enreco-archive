@@ -4,11 +4,14 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "prebuild": "pnpm copy-resources",
-        "build": "turbo run build",
+        "prebuild": "pnpm run copy-resources",
+        "build": "turbo run build:website",
+        "prebuild:all": "pnpm run copy-resources", 
+        "build:all": "turbo run build",
         "copy-resources": "ts-node scripts/copy-shared-resources.js && ts-node scripts/optimize-images.js",
         "predev": "pnpm copy-resources",
         "dev": "turbo run dev-website",
+        "preeditor": "pnpm run copy-resources",
         "editor": "turbo run editor",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "lint": "turbo run lint"

@@ -5,6 +5,7 @@
     "type": "module",
     "scripts": {
         "build": "tsc -b && next build",
+        "build:website": "pnpm run build",
         "check-types": "tsc --noEmit",
         "dev": "next dev",
         "dev-website": "next dev",
