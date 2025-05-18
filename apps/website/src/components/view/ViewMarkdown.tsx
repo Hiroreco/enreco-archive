@@ -228,7 +228,7 @@ function ViewMarkdownInternal({
     const markdownComponentMap = useMemo(
         (): Components => ({
             img: ({ src = "", alt = "" }) => {
-                if (src instanceof Blob) {
+                if ((typeof src) === "object") {
                     throw new Error("We don't support Blobs right now.");
                 }
                 return (
