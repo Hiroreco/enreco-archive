@@ -1,5 +1,5 @@
 {
-    "name": "enreco-chart",
+    "name": "@enreco-archive/enreco-chart",
     "private": true,
     "version": "0.0.0",
     "type": "module",
