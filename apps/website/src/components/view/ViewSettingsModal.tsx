@@ -18,10 +18,7 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
-import {
-    TimestampOption,
-    useSettingStore,
-} from "@/store/settingStore";
+import { TimestampOption, useSettingStore } from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
 

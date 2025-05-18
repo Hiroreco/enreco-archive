@@ -35,7 +35,7 @@ import {
     EditorImageNodeType,
     RelationshipMap,
     TeamMap,
-    ThemeType
+    ThemeType,
 } from "@enreco-archive/common/types";
 import { EditorMode, useEditorStore } from "@/store/editorStore";
 import { useSettingStore } from "@/store/settingStore";
@@ -87,16 +87,23 @@ const EditorApp = () => {
     const isDarkMode = useLightDarkModeSwitcher(themeType);
     useKeyboard();
 
-    const currentChapter = editorStore.chapter !== null ? editorStore.data[editorStore.chapter] ?? null : null;
-    const currentDay = editorStore.day !== null ? currentChapter?.charts[editorStore.day] ?? null : null;
+    const currentChapter =
+        editorStore.chapter !== null
+            ? (editorStore.data[editorStore.chapter] ?? null)
+            : null;
+    const currentDay =
+        editorStore.day !== null
+            ? (currentChapter?.charts[editorStore.day] ?? null)
+            : null;
     const numChapters = editorStore.data.length;
     const numDays = currentChapter?.numberOfDays ?? 0;
     const teams = currentChapter?.numberOfDays ?? {};
     const relationships = currentChapter?.relationships ?? {};
 
-    const rawNodes = editorStore.chapter !== null && editorStore.day !== null ? 
-        currentChapter?.charts[editorStore.day]?.nodes ?? [] : 
-        [];
+    const rawNodes =
+        editorStore.chapter !== null && editorStore.day !== null
+            ? (currentChapter?.charts[editorStore.day]?.nodes ?? [])
+            : [];
     const nodes = rawNodes.map((node) => {
         const newNode = structuredClone(node);
         newNode.data.renderShowHandles = editorStore.showHandles;
@@ -122,9 +129,10 @@ const EditorApp = () => {
         })
         .filter((node): node is EditorImageNodeType => node !== undefined);
 
-    const rawEdges = editorStore.chapter !== null && editorStore.day !== null ? 
-        currentChapter?.charts[editorStore.day]?.edges ?? [] : 
-        [];;
+    const rawEdges =
+        editorStore.chapter !== null && editorStore.day !== null
+            ? (currentChapter?.charts[editorStore.day]?.edges ?? [])
+            : [];
     const edges = rawEdges.map((edge) => {
         const newEdge = structuredClone(edge);
         if (newEdge.data && newEdge.data.relationshipId) {
@@ -144,7 +152,8 @@ const EditorApp = () => {
                 }
                 // get the edge from the latest day it was updated
                 if (edge.data && edge.data.day !== editorStore.day) {
-                    const latestUpdatedEdges = currentChapter?.charts[edge.data.day]?.edges ?? [];
+                    const latestUpdatedEdges =
+                        currentChapter?.charts[edge.data.day]?.edges ?? [];
                     const latestUpdatedEdge = latestUpdatedEdges.find(
                         (e) =>
                             e.id === edge.id && e.data?.day === edge.data?.day,
@@ -343,7 +352,9 @@ const EditorApp = () => {
                     onChapterChange={(newChapter: number) => {
                         editorStore.setChapter(newChapter);
 
-                        let newChapterHasDays = (editorStore.data[newChapter]?.numberOfDays ?? 0) !== 0;
+                        let newChapterHasDays =
+                            (editorStore.data[newChapter]?.numberOfDays ??
+                                0) !== 0;
                         editorStore.setDay(newChapterHasDays ? 0 : null);
                     }}
                     onDayChange={(newDay: number) => editorStore.setDay(newDay)}

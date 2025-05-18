@@ -36,7 +36,7 @@ export const urlToEmbedUrl = (url: string | null) => {
     if (videoid) {
         // example https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=10481
         let params = videoid.split("?")[1];
-        if(!params) {
+        if (!params) {
             return { videoid: "", params: "" };
         }
         // replace t= with start=, cause YoutubeEmbed uses start= for timestamp (i think)

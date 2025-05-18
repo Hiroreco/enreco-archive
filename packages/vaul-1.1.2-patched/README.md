@@ -15,20 +15,20 @@ npm install vaul
 Use the drawer in your app.
 
 ```jsx
-import { Drawer } from 'vaul';
+import { Drawer } from "vaul";
 
 function MyComponent() {
-  return (
-    <Drawer.Root>
-      <Drawer.Trigger>Open</Drawer.Trigger>
-      <Drawer.Portal>
-        <Drawer.Content>
-          <Drawer.Title>Title</Drawer.Title>
-        </Drawer.Content>
-        <Drawer.Overlay />
-      </Drawer.Portal>
-    </Drawer.Root>
-  );
+    return (
+        <Drawer.Root>
+            <Drawer.Trigger>Open</Drawer.Trigger>
+            <Drawer.Portal>
+                <Drawer.Content>
+                    <Drawer.Title>Title</Drawer.Title>
+                </Drawer.Content>
+                <Drawer.Overlay />
+            </Drawer.Portal>
+        </Drawer.Root>
+    );
 }
 ```
 

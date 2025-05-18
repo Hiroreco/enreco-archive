@@ -12,7 +12,11 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { ChartData, FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
+import {
+    ChartData,
+    FixedEdgeType,
+    ImageNodeType,
+} from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";

@@ -70,7 +70,7 @@ const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
                     {
                         "hover:scale-110": !selected,
                         "brightness-100": !data.renderDimly,
-                        "brightness-90 dark:brightness-50": data.renderDimly
+                        "brightness-90 dark:brightness-50": data.renderDimly,
                     },
                 )}
             >

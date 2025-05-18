@@ -8,7 +8,12 @@ import {
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@enreco-archive/common-ui/components/tabs";
+import {
+    Tabs,
+    TabsContent,
+    TabsList,
+    TabsTrigger,
+} from "@enreco-archive/common-ui/components/tabs";
 import ViewInfoGuide from "@/components/view/ViewInfoGuide";
 import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
 import { useSettingStore } from "@/store/settingStore";

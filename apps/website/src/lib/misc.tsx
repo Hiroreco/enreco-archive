@@ -55,24 +55,24 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "SB",
-                socials: "https://x.com/SBERBholo"
+                socials: "https://x.com/SBERBholo",
             },
             {
                 name: "Zel",
-                socials: "https://x.com/zelmaelstrom"
+                socials: "https://x.com/zelmaelstrom",
             },
             {
                 name: "Squid",
-                socials: "https://x.com/Squid_the_Weeb"
+                socials: "https://x.com/Squid_the_Weeb",
             },
             {
                 name: "fast_as_nuk",
-                socials: "https://x.com/fast_as_nuk"
+                socials: "https://x.com/fast_as_nuk",
             },
             {
                 name: "Perks",
-                socials: "https://x.com/PerksJAZZBERI"
-            }
+                socials: "https://x.com/PerksJAZZBERI",
+            },
         ],
     },
     {

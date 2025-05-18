@@ -171,15 +171,15 @@ const ViewMemoryGame = () => {
                 });
             }, 1000);
         } else {
-            if(intervalRef.current) {
+            if (intervalRef.current) {
                 clearInterval(intervalRef.current);
             }
         }
         return () => {
-            if(intervalRef.current) {
+            if (intervalRef.current) {
                 clearInterval(intervalRef.current);
             }
-        }
+        };
     }, [isPlaying]);
 
     // Set initial high score from local storage

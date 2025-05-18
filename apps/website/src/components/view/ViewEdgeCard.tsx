@@ -4,12 +4,14 @@ import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
 import EdgeCardDeco from "@/components/view/EdgeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 import VaulDrawer from "@/components/view/VaulDrawer";
-import {
-    ViewMarkdown,
-} from "@/components/view/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { FixedEdgeType, ImageNodeType, Relationship } from "@enreco-archive/common/types";
+import {
+    FixedEdgeType,
+    ImageNodeType,
+    Relationship,
+} from "@enreco-archive/common/types";
 import {
     getLighterOrDarkerColor,
     idFromChapterDayId,

@@ -15,13 +15,13 @@ const ViewCustomEdge = ({
     targetX,
     targetY,
     targetPosition,
-    selected
+    selected,
 }: FixedEdgeProps) => {
     const isNewlyAdded = data?.isNewlyAdded || false;
     const pathRef = useRef<SVGPathElement>(null);
     const maskId = useId();
     const { strokeDasharray, ...restStyle } = style || {};
-    
+
     const path = useMemo(
         () =>
             generatePath(
@@ -67,10 +67,8 @@ const ViewCustomEdge = ({
                 {
                     "brightness-90 dark:brightness-50": data?.renderDimly,
                     "brightness-100": !data?.renderDimly,
-                    "custom-edge-group cursor-pointer" :
-                        selectable,
-                    "cursor-default" :
-                        !selectable
+                    "custom-edge-group cursor-pointer": selectable,
+                    "cursor-default": !selectable,
                 },
             )}
         >

@@ -1,7 +1,11 @@
 import LineSvg from "@/components/LineSvg";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import { Label } from "@enreco-archive/common-ui/components/label";
-import { Chapter, ImageNodeType, StringToBooleanObjectMap } from "@enreco-archive/common/types";
+import {
+    Chapter,
+    ImageNodeType,
+    StringToBooleanObjectMap,
+} from "@enreco-archive/common/types";
 import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
 
@@ -128,11 +132,17 @@ const ViewVisibilityCard = ({
                 {/* Teams */}
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between items-center">
-                        <span className="font-bold">{chapter === 1 ? "Job Toggles" : "Team Toggles"}</span>
+                        <span className="font-bold">
+                            {chapter === 1 ? "Job Toggles" : "Team Toggles"}
+                        </span>
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="team-all">
-                            <span>{chapter === 1 ? "Show all jobs" : "Show all teams"}</span>
+                            <span>
+                                {chapter === 1
+                                    ? "Show all jobs"
+                                    : "Show all teams"}
+                            </span>
                         </Label>
 
                         <Checkbox

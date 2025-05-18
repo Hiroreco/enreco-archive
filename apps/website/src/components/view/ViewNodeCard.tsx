@@ -3,9 +3,7 @@ import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 import VaulDrawer from "@/components/view/VaulDrawer";
-import {
-    ViewMarkdown,
-} from "@/components/view/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { ImageNodeType, Team } from "@enreco-archive/common/types";
