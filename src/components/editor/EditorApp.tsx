@@ -130,8 +130,6 @@ const getCurrentDayChart = (
             }
         });
     }
-    console.log(result.nodes);
-
     return result;
 };
 

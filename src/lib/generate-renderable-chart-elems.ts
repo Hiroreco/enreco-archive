@@ -19,7 +19,6 @@ export function generateRenderableNodes(
     selectedNodes: string[],
     currentCard: CardType,
 ) {
-    console.log(dayData.nodes);
     return (
         dayData.nodes
             // Filter out undefined nodes and nodes of incorrect types.
@@ -47,11 +46,6 @@ export function generateRenderableNodes(
                     teamVisibility[node.data.teamId || "null"] &&
                     characterVisibility[node.id]
                 );
-
-                if (node.id === "gonathon-g") {
-                    console.log("gonathon-g");
-                    console.log(node);
-                }
 
                 // Set selected status of node based on selectedNodes list.
                 node.selected = selectedNodes.indexOf(node.id) !== -1;
