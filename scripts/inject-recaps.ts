@@ -1,9 +1,11 @@
-import * as fs from "fs/promises";
-import * as path from "path";
+// scripts/inject-recap-data.ts
+import fs from "fs/promises";
+import path from "path";
 import JSZip from "jszip";
 import { ChartData } from "../src/lib/type";
 import { fileURLToPath } from "url";
 
+// ESM __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -41,79 +43,87 @@ async function main() {
         `chapter${chapterNum + 1}`,
     );
 
+    // load ZIP & JSON
     const zipData = await fs.readFile(zipPath);
     const zip = await JSZip.loadAsync(zipData);
-
-    // Extract and parse the JSON entry
     const fileEntry = zip.file(entryName);
     if (!fileEntry) {
-        console.error(`❌ ${entryName} not found inside ${zipPath}`);
+        console.error(`❌ ${entryName} not found in ${zipPath}`);
         process.exit(1);
     }
-    const jsonStr = await fileEntry.async("text");
-    const chapterJson: ChapterJson = JSON.parse(jsonStr);
+    const chapterJson: ChapterJson = JSON.parse(await fileEntry.async("text"));
 
-    // Walk through each day folder and check all recaps
+    // process each day
     const days = await fs.readdir(outputFolder);
     for (const dayName of days.sort()) {
         const dayIndex = Number(dayName.replace(/^day/, "")) - 1;
         const chart = chapterJson.charts[dayIndex];
         const dayPath = path.join(outputFolder, dayName);
-
         if (!chart) {
             console.warn(`⚠️  No JSON chart for ${dayName}, skipping.`);
             continue;
         }
 
-        // — Day recap
-        const recapFile = path.join(
-            dayPath,
-            "recaps",
-            `recap-c${chapterNum + 1}d${dayIndex + 1}.md`,
-        );
+        // 1) Recap
+        const recapName = `recap-c${chapterNum + 1}d${dayIndex + 1}.md`;
+        const recapFile = path.join(dayPath, "recaps", recapName);
         try {
             const md = await fs.readFile(recapFile, "utf-8");
             chart.dayRecap = md.trim();
         } catch {
-            console.warn(`  • Missing recap: ${recapFile}`);
+            console.warn(`  • Missing dayRecap file: ${recapName}`);
         }
 
         const suffix = `-c${chapterNum + 1}d${dayIndex + 1}`;
 
-        // — Nodes
+        // 2) Nodes
         const nodesDir = path.join(dayPath, "nodes");
+        const seenNodeIds = new Set<string>();
         try {
-            for (const file of (await fs.readdir(nodesDir)).filter((f) =>
+            const files = (await fs.readdir(nodesDir)).filter((f) =>
                 f.endsWith(".md"),
-            )) {
+            );
+            for (const file of files) {
                 const base = path.basename(file, ".md");
                 const idKey = base.replace(new RegExp(`${suffix}$`), "");
 
                 const md = (
                     await fs.readFile(path.join(nodesDir, file), "utf-8")
                 ).trim();
-                // find any node whose id starts with idKey
                 const nd = chart.nodes.find((n) => n.id.startsWith(idKey));
-
                 if (nd) {
                     nd.data.content = md;
                     nd.data.day = dayIndex;
+                    seenNodeIds.add(nd.id);
                 } else {
                     console.warn(
-                        `  • Node "${idKey}" not in JSON for ${dayName}`,
+                        `  • Unknown node file "${file}" in ${dayName}/nodes/`,
                     );
                 }
             }
         } catch {
-            // skip if no nodes folder
+            // no nodes folder
+        }
+        // now check for JSON nodes missing files
+        for (const n of chart.nodes) {
+            if (
+                (n.data.day === undefined || n.data.day === dayIndex) &&
+                !seenNodeIds.has(n.id)
+            ) {
+                console.warn(
+                    `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
+                );
+            }
         }
 
-        // — Edges
+        // 3) Edges
         const edgesDir = path.join(dayPath, "edges");
+        const seenEdges = new Set<string>();
         try {
-            for (const file of (await fs.readdir(edgesDir)).filter((f) =>
+            const files = (await fs.readdir(edgesDir)).filter((f) =>
                 f.endsWith(".md"),
-            )) {
+            );
+            for (const file of files) {
                 const base = path.basename(file, ".md");
                 const key = base.replace(new RegExp(`${suffix}$`), "");
 
@@ -123,7 +133,7 @@ async function main() {
                 );
                 const lines = mdFull.split(/\r?\n/);
 
-                // extract title comment
+                // title
                 let title = "";
                 if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
                     title = lines
@@ -134,39 +144,48 @@ async function main() {
                 }
                 const content = lines.join("\n").trim();
 
-                // match any edge whose e.id starts with "key-"
-                // since the id contains the handles stuff as well
-                const edg = chart.edges.find(
+                // find matching edge
+                const ed = chart.edges.find(
                     (e) => e.id === key || e.id.startsWith(key + "-"),
                 );
-
-                if (edg) {
-                    if (title) edg.data!.title = title;
-                    edg.data!.content = content;
-                    edg.data!.day = dayIndex;
+                if (ed) {
+                    if (title) ed.data!.title = title;
+                    ed.data!.content = content;
+                    ed.data!.day = dayIndex;
+                    seenEdges.add(ed.id);
                 } else {
                     console.warn(
-                        `  • Edge "${key}" not in JSON for ${dayName}`,
+                        `  • Unknown edge file "${file}" in ${dayName}/edges/`,
                     );
                 }
             }
         } catch {
-            // skip if no edges folder
+            // no edges folder
+        }
+        // check for JSON edges missing files
+        for (const e of chart.edges) {
+            if (
+                (e.data?.day === undefined || e.data!.day === dayIndex) &&
+                !seenEdges.has(e.id)
+            ) {
+                console.warn(
+                    `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
+                );
+            }
         }
     }
 
-    // Serialize and re‑insert into ZIP
-    const updated = JSON.stringify(chapterJson, null, 2);
-    zip.file(entryName, updated);
-
-    // Write ZIP back to disk
-    const newZipData = await zip.generateAsync({
+    // write back JSON into ZIP
+    zip.file(entryName, JSON.stringify(chapterJson, null, 2));
+    const outZip = await zip.generateAsync({
         type: "nodebuffer",
         compression: "DEFLATE",
     });
-    await fs.writeFile(zipPath, newZipData);
+    await fs.writeFile(zipPath, outZip);
 
-    console.log(`✅ Injected data into ${entryName} inside ${zipPath}`);
+    console.log(
+        `✅ Injected data and reported missing files for chapter${chapterNum}.json`,
+    );
 }
 
 main().catch((err) => {
