@@ -1,10 +1,10 @@
-Her abdomen hurt—again. Wait, didn’t we already go through this? The whole “I’m pregnant, but it’s just gas” fiasco? Yeah, we did. But apparently, that doesn’t mean it can’t happen again. This time, though, IRyS was *certain*. She believed, truly and deeply, that what she carried was no longer just air—but life. A living soul between her and her eternal consort.
+Her abdomen hurt—again. Wait, didn’t we already go through this? The whole “I’m pregnant, but it’s just gas” fiasco? Yeah, we did. But apparently, that doesn’t mean it can’t happen again. This time, though, IRyS was _certain_. She believed, truly and deeply, that what she carried was no longer just air—but life. A living soul between her and her eternal consort.
 
 Her ever-supportive brother, of course, had already begun preparing. As any good sibling would.
 
 [Gender reveal party](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=498)
 
-A gender reveal party, open to the entire kingdom. Everyone was invited to share in the joy, even if half of them [didn’t really know](https://www.youtube.com/live/os9TbwMUcbk?t=657) *what* the occasion was. The venue was nothing short of grand—thanks to her brother and Roa. Seats for guests, a ceremonial birthing area (yes, on the spot), and above all, a great sign floating in the sky, ready to unveil the gender of the not-yet-born.
+A gender reveal party, open to the entire kingdom. Everyone was invited to share in the joy, even if half of them [didn’t really know](https://www.youtube.com/live/os9TbwMUcbk?t=657) _what_ the occasion was. The venue was nothing short of grand—thanks to her brother and Roa. Seats for guests, a ceremonial birthing area (yes, on the spot), and above all, a great sign floating in the sky, ready to unveil the gender of the not-yet-born.
 
 IRyS was excited—not just for herself, but for her beloved, her eternal consort, who had no idea they were expecting. She couldn't wait to see their face.
 
@@ -20,7 +20,7 @@ Except... someone else was there too.
 
 Tammy.
 
-You know, *the other* one IRyS had been involved with. And Tammy, invited to a gender reveal for a child between IRyS and *someone else*, was *not* having it. Her disgust was visible. Her rage, palpable. She even asked IRyS’ brother to [knock some sense](https://www.youtube.com/live/os9TbwMUcbk?t=5189) into her. Fair.
+You know, _the other_ one IRyS had been involved with. And Tammy, invited to a gender reveal for a child between IRyS and _someone else_, was _not_ having it. Her disgust was visible. Her rage, palpable. She even asked IRyS’ brother to [knock some sense](https://www.youtube.com/live/os9TbwMUcbk?t=5189) into her. Fair.
 
 But the show must go on.
 
@@ -32,13 +32,13 @@ It was a... gas.
 
 Not a girl. Not a boy. Not an attack helicopter.
 
-*A gas*. Well, a *girl gas*, to be specific.
+_A gas_. Well, a _girl gas_, to be specific.
 
-IRyS was elated. Too elated. She went into labor right then and there. 
+IRyS was elated. Too elated. She went into labor right then and there.
 
 [Live birthing is crazy](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=5739)
 
-Water broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except… she never saw the baby. Never held it. News came fast: Mococo had already *killed* it. Somehow.
+Water broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except… she never saw the baby. Never held it. News came fast: Mococo had already _killed_ it. Somehow.
 
 IRyS didn’t even question it. She just felt relief, like passing the biggest gas she'd ever had.
 

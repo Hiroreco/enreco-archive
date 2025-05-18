@@ -4,7 +4,7 @@ There were many errands to square away before today's big event — negotiating 
 
 ["..and you look like you're about to... Hug..."](#embed:https://youtu.be/zVWvu3ozXKM?t=2618s)
 
-Some of these recipes were simply ridiculous to reproduce in meaningful amounts. Having to work both the farms *and* the mines to supply your own ingredients seems a peculiar job description for a distinguished Chef- wait, [what are they talking about](https://youtu.be/zVWvu3ozXKM?t=4962s)? (see: [Calli-Nerissa: New Awoo No.2](#edge:nerissa-calli-right-2-left-2))
+Some of these recipes were simply ridiculous to reproduce in meaningful amounts. Having to work both the farms _and_ the mines to supply your own ingredients seems a peculiar job description for a distinguished Chef- wait, [what are they talking about](https://youtu.be/zVWvu3ozXKM?t=4962s)?
 
 [The Jade Forge Has What in Their Basement?](#embed:https://youtu.be/zVWvu3ozXKM?t=7313s)
 
