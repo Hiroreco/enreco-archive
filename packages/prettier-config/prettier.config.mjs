@@ -3,15 +3,7 @@
  * @type {import("prettier").Config}
  */
 const config = {
-  tabWidth: 4,
-  excludeFiles: [
-    // Ignore artifacts:
-    "build",
-    "coverage",
-
-    // Don't format JSON files
-    "**/*.json"
-  ]
+  tabWidth: 4
 };
   
 export default config;
