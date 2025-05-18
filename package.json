@@ -7,7 +7,7 @@
     "scripts": {
         "copy-resources": "ts-node scripts/copy-shared-resources.js && ts-node scripts/optimize-images.js",
         "prebuild": "pnpm copy-resources",
-        "build": "turbo build",
+        "build": "turbo run build",
         "predev": "pnpm copy-resources",
         "dev": "turbo run dev-website",
         "editor": "turbo run editor",

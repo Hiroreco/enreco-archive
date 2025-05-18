@@ -13,6 +13,11 @@
       "dependsOn": ["^build"],
       "persistent": true,
       "cache": false
+    },
+    "editor": {
+      "dependsOn": ["^build"],
+      "persistent": true,
+      "cache": false
     }
   }
 }
