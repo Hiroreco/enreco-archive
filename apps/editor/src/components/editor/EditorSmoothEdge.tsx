@@ -1,5 +1,5 @@
-import { EDGE_WIDTH, OLD_EDGE_OPACITY } from "@/lib/constants";
-import { CustomEdgeProps } from "@/lib/type";
+import { EDGE_WIDTH, OLD_EDGE_OPACITY } from "@enreco-archive/common-types/constants";
+import { CustomEdgeProps } from "@enreco-archive/common-types/types";
 import { useEditorStore } from "@/store/editorStore";
 import { BaseEdge, getSmoothStepPath } from "@xyflow/react";
 

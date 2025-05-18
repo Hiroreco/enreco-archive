@@ -1,5 +1,5 @@
-import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
-import { ImageNodeType } from "@/lib/type";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common-types/constants";
+import { ImageNodeType } from "@enreco-archive/common-types/types";
 import blurData from "public/blur-data.json";
 
 // Return a lighter or darker version of a color, param is hex color

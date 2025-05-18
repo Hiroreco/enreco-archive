@@ -26,7 +26,7 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import useKeyboard from "@/hooks/useKeyboard";
-import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common-types/constants";
 import { exportData, loadData, saveData } from "@/lib/datahelper";
 import { generateEdgeId } from "@/lib/editor-utils";
 import {
@@ -35,7 +35,7 @@ import {
     EditorImageNodeType,
     RelationshipMap,
     TeamMap,
-} from "@/lib/type";
+} from "@enreco-archive/common-types/types";
 import { EditorMode, useEditorStore } from "@/store/editorStore";
 import { ThemeType, useSettingStore } from "@/store/settingStore";
 import { Label } from "@enreco-archive/common-ui/components/label";

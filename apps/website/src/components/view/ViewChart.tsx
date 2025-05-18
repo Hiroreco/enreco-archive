@@ -6,7 +6,7 @@ import {
     FixedEdgeType,
     ImageNodeType,
     StringToBooleanObjectMap,
-} from "@/lib/type";
+} from "@enreco-archive/common-types/types";
 import {
     ConnectionMode,
     FitViewOptions,

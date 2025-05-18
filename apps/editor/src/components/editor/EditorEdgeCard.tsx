@@ -10,7 +10,7 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { CustomEdgeType, RelationshipMap } from "@/lib/type";
+import { CustomEdgeType, RelationshipMap } from "@enreco-archive/common-types/types";
 import MDEditor from "@uiw/react-md-editor";
 
 import { produce, WritableDraft } from "immer";

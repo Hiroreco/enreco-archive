@@ -77,6 +77,9 @@ importers:
 
   apps/editor:
     dependencies:
+      '@enreco-archive/common-types':
+        specifier: workspace:*
+        version: link:../../packages/common-types
       '@enreco-archive/common-ui':
         specifier: workspace:*
         version: link:../../packages/common-ui
@@ -171,6 +174,9 @@ importers:
 
   apps/website:
     dependencies:
+      '@enreco-archive/common-types':
+        specifier: workspace:*
+        version: link:../../packages/common-types
       '@enreco-archive/common-ui':
         specifier: workspace:*
         version: link:../../packages/common-ui
@@ -301,6 +307,22 @@ importers:
       tailwindcss:
         specifier: 'catalog:'
         version: 4.1.7
+      typescript:
+        specifier: 'catalog:'
+        version: 5.8.3
+
+  packages/common-types:
+    dependencies:
+      '@xyflow/react':
+        specifier: ^12.6.0
+        version: 12.6.0(@types/react@19.1.4)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+    devDependencies:
+      '@enreco-archive/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@enreco-archive/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
       typescript:
         specifier: 'catalog:'
         version: 5.8.3

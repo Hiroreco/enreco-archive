@@ -1,4 +1,4 @@
-import { ImageNodeProps } from "@/lib/type";
+import { ImageNodeProps } from "@enreco-archive/common-types/types";
 import { getBlurDataURL } from "@/lib/utils";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";

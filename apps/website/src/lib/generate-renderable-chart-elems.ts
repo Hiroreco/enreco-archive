@@ -1,6 +1,6 @@
-import { Chapter, FixedEdgeType, ImageNodeType, StringToBooleanObjectMap } from "@/lib/type";
+import { Chapter, FixedEdgeType, ImageNodeType, StringToBooleanObjectMap } from "@enreco-archive/common-types/types";
 import { idFromChapterDayId } from "@/lib/utils";
-import { OLD_EDGE_OPACITY, OLD_NODE_OPACITY } from "./constants";
+import { OLD_EDGE_OPACITY, OLD_NODE_OPACITY } from "@enreco-archive/common-types/constants";
 import { CardType } from "@/store/viewStore";
 
 export function generateRenderableNodes(

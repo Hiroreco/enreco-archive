@@ -10,8 +10,8 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { DEFAULT_NODE_IMAGE } from "@/lib/constants";
-import { EditorImageNodeType, TeamMap } from "@/lib/type";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common-types/constants";
+import { EditorImageNodeType, TeamMap } from "@enreco-archive/common-types/types";
 
 import MDEditor from "@uiw/react-md-editor";
 import { extractColors } from "extract-colors";

@@ -1,7 +1,7 @@
 import LineSvg from "@/components/LineSvg";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import { Label } from "@enreco-archive/common-ui/components/label";
-import { Chapter, ImageNodeType, StringToBooleanObjectMap } from "@/lib/type";
+import { Chapter, ImageNodeType, StringToBooleanObjectMap } from "@enreco-archive/common-types/types";
 import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
 

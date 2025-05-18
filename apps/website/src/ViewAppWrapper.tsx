@@ -2,7 +2,7 @@
 import chapter0 from "@/data/chapter0.json";
 import chapter1 from "@/data/chapter1.json";
 import siteMeta from "@/data/metadata.json";
-import { Chapter, SiteData } from "@/lib/type";
+import { Chapter, SiteData } from "@enreco-archive/common-types/types";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";

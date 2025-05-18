@@ -1,4 +1,4 @@
-import { FixedEdgeType, ImageNodeType } from "@/lib/type";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common-types/types";
 import { create } from "zustand";
 export type CardType = "node" | "edge" | "setting" | null;
 

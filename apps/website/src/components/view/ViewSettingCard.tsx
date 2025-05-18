@@ -2,7 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@enreco-archive/common
 import VaulDrawer from "@/components/view/VaulDrawer";
 import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
-import { Chapter, ChartData, StringToBooleanObjectMap } from "@/lib/type";
+import { Chapter, ChartData, StringToBooleanObjectMap } from "@enreco-archive/common-types/types";
 import { isMobileViewport } from "@/lib/utils";
 
 interface Props {

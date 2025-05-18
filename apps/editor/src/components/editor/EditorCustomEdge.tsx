@@ -6,8 +6,8 @@ import {
     CustomEdgeProps,
     CustomEdgeType,
     EditorImageNodeType,
-} from "@/lib/type";
-import { EDGE_WIDTH, OLD_EDGE_OPACITY } from "@/lib/constants";
+} from "@enreco-archive/common-types/types";
+import { EDGE_WIDTH, OLD_EDGE_OPACITY } from "@enreco-archive/common-types/constants";
 import { generateOrthogonalEdgePath } from "@/lib/get-edge-svg-path";
 import { produce } from "immer";
 import { useEditorStore } from "@/store/editorStore";

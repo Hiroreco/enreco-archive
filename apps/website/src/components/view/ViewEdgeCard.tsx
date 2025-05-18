@@ -9,7 +9,7 @@ import {
 } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
+import { FixedEdgeType, ImageNodeType, Relationship } from "@enreco-archive/common-types/types";
 import {
     getLighterOrDarkerColor,
     idFromChapterDayId,

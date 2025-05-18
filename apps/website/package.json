@@ -24,6 +24,7 @@
         "@types/hast": "^3.0.4",
         "@types/unist": "^3.0.3",
         "@xyflow/react": "^12.6.0",
+        "@enreco-archive/common-types": "workspace:*",
         "@enreco-archive/common-ui": "workspace:*",
         "framer-motion": "^12.9.2",
         "howler": "^2.2.4",
