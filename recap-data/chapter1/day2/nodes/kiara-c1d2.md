@@ -16,7 +16,7 @@ Regardless, Shakira chose not to join the quest and went her ways. Later on, Dar
 
 [Dieser Satz ist auf Deutsch](#embed:https://www.youtube.com/embed/qKlzaYirN88?si=cYKwhcQJE8Dwtauq\&start=1719)
 
-Shakira stopped by Calli and Gonathon, using the opportunity to warn them about FaunaMart and the potential dangers posed by the red hats. Despite it only being her second day in the kingdom, Shakira’s keen sense of justice was already attuned to the undercurrents of deceit. Though her trust in others was beginning to waver, she found some comfort in her pink cat and her guildmates, at least these folks would never betray her...right? (see [Darwin-Shakira: Double Agent](#edge:kiara-moom-top-2-right-2))
+Shakira stopped by Calli and Gonathon, using the opportunity to warn them about FaunaMart and the potential dangers posed by the red hats. Despite it only being her second day in the kingdom, Shakira’s keen sense of justice was already attuned to the undercurrents of deceit. Though her trust in others was beginning to waver, she found some comfort in her pink cat and her guildmates, at least these folks would never betray her...right? (see [Darwin-Shakira: Double Agent](#edge:kiara-moom))
 
 Fast forward, when Shakira noticed Calli interacting with the red hats, seemingly on the verge of being scammed, she rushed to intervene. To her surprise, Calli assured her that she had the situation under control and revealed that she was, in fact, [scamming](https://www.youtube.com/live/qKlzaYirN88?feature=shared\&t=2663) them instead. Although Shakira felt conflicted—knowing this only perpetuated the cycle of deception—she decided to trust Calli’s judgment and let her continue.
 

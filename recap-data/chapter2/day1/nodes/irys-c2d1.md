@@ -8,11 +8,11 @@ She was briefed on the world's looming threat, how she and her fellow heroes wer
 
 To avoid anything that might require literacy, she chose a job that wouldn’t involve [reading or writing](https://www.youtube.com/live/xzAqu4vkY7I?si=HR2XQ6PjVgzkLghk&t=1475): Chef.
 
-And with that, her new journey began. Almost immediately, her infamous “Hot Pink Aura” started drawing people in. Cecilia Immerkind quickly reminded her that HPO stood for “Hard Potential Oliver” and that they were the best of friends. Bijou, after a brief conversation, remembered her too—and they instantly became sworn brothers (see [Cecilia–Hot Pink One: Huh puh](#edge:cecilia-irys-right-2-right-1) and [Bijou–Hot Pink One: Onii-chan](#edge:irys-bijou-top-1-bottom-3)).
+And with that, her new journey began. Almost immediately, her infamous “Hot Pink Aura” started drawing people in. Cecilia Immerkind quickly reminded her that HPO stood for “Hard Potential Oliver” and that they were the best of friends. Bijou, after a brief conversation, remembered her too—and they instantly became sworn brothers (see [Cecilia–Hot Pink One: Huh puh](#edge:cecilia-irys) and [Bijou–Hot Pink One: Onii-chan](#edge:irys-bijou)).
 
 She then reunited with NinoIna and Peasant the Bae, reestablishing their previous connections—Consort and Peasant respectively (see [Hot Pink One–Ina: Consort, again](#edge:ninomae-inanis-irys-right-2-left-2)).
 
-Then came Tam Gandr—Timmy, as the Hot Pink One decided to call her (see [Tam Gandr–Hot Pink One: Timmy and Pinky](#edge:irys-kronii-right-2-left-2)). What followed was a classic bonding session covering truly meaningful topics like siblings, not being blood-related, and... other vaguely questionable things
+Then came Tam Gandr—Timmy, as the Hot Pink One decided to call her (see [Tam Gandr–Hot Pink One: Timmy and Pinky](#edge:irys-kronii)). What followed was a classic bonding session covering truly meaningful topics like siblings, not being blood-related, and... other vaguely questionable things
 
 [I don't know anymore](#embed:https://www.youtube.com/live/xzAqu4vkY7I?si=TuCyb-7ATGOS-iDP&t=3222)
 

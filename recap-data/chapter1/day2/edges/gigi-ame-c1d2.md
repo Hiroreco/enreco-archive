@@ -18,7 +18,7 @@ His loyalty extended beyond mere physical [protection](https://www.youtube.com/l
 
 Gonathon's love for Jyonathan was undeniable. She had become his second guiding light, a purpose as important as his Queen. He respected her wishes, catered to her requests, and vowed to remain loyal to their bond until the very end.
 
-As for Jyonathan, the depth of her feelings for Gonathon was up for debate. Though she accepted his devotion, her occasional teasing remarks—like suggesting he might be an overbearing husband—hinted that perhaps her affection wasn’t as intense as his (see [Hot Pink One-Jyonathan: Plan B](#edge:ame-irys-left-2-bottom-2)). Or maybe she simply enjoyed watching her knight squirm.
+As for Jyonathan, the depth of her feelings for Gonathon was up for debate. Though she accepted his devotion, her occasional teasing remarks—like suggesting he might be an overbearing husband—hinted that perhaps her affection wasn’t as intense as his (see [Hot Pink One-Jyonathan: Plan B](#edge:ame-irys)). Or maybe she simply enjoyed watching her knight squirm.
 
 [He lets me speak sometimes](#embed:https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=9740)
 

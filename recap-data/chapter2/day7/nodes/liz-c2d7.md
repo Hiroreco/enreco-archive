@@ -12,7 +12,7 @@ As the two chat, Nerissa shows up, causing the fur on Roa's tail to stand up. Bl
 
 "I wonder why Roa doesn't trust Rissa."
 
-Once again, that damned ominous music returns. Nerissa had said she was fine, Elizabeth mumbled to herself (see [Elizabeth-Nerissa: Forget or Forgive](#edge:liz-nerissa-right-2-left-2)). Still, she worries and rushes next door, calling for Nerissa multiple times before breaking down the door.
+Once again, that damned ominous music returns. Nerissa had said she was fine, Elizabeth mumbled to herself (see [Elizabeth-Nerissa: Forget or Forgive](#edge:liz-nerissa)). Still, she worries and rushes next door, calling for Nerissa multiple times before breaking down the door.
 
 As a knight, it's her *duty* to protect. She has to do this. Elizabeth needs to know that the Witch is safe!
 

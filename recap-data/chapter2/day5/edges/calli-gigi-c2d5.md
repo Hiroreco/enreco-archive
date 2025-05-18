@@ -8,7 +8,7 @@ Later, the wolf pack once again assembled to delve into a dungeon. It was here t
 
 [What exactly is the Wolf Pack?](#embed:https://youtu.be/alQr5XqoUPs?t=4946)
 
-Alas for poor Mordan, this trials would pale in comparison to what would come next, however the hardship would come not from the knight, but from the quarrelling Peasant Bae and Princess Bijou (see [Bae-Bijou: Family Broken, Found, and Resolved](#edge:bae-bijou-bottom-1-bottom-2)) who were engaged in a custody battle for Khaos. The lengthy, grueling couples therapy that followed saw Gonathon serving as a voice of reason, but sadly the other three left in disgust following an outburst by Mordan calling out what she saw as their prejudices. 
+Alas for poor Mordan, this trials would pale in comparison to what would come next, however the hardship would come not from the knight, but from the quarrelling Peasant Bae and Princess Bijou (see [Bae-Bijou: Family Broken, Found, and Resolved](#edge:bae-bijou)) who were engaged in a custody battle for Khaos. The lengthy, grueling couples therapy that followed saw Gonathon serving as a voice of reason, but sadly the other three left in disgust following an outburst by Mordan calling out what she saw as their prejudices. 
 
 [God she is so ****ing crazy](#embed:https://youtu.be/alQr5XqoUPs?t=13255)
 

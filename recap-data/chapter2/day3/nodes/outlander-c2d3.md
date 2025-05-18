@@ -12,4 +12,4 @@ He offered no further explanation. With cryptic words hanging in the air, he tur
 
 [Saving the world?](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=j0u5w9W8hHWcmSfJ&t=6423)
 
-But oddly enough, he was found within the castle of Libestal's guest room, having a one on one conversation with the Princess (see [Outlander-Princess: The Next Step](#edge:iphania-outlander-right-2-left-2)).
+But oddly enough, he was found within the castle of Libestal's guest room, having a one on one conversation with the Princess (see [Outlander-Princess: The Next Step](#edge:iphania-outlander)).

@@ -10,7 +10,7 @@ As the day unfolded, Da Bae’s confusion only deepened. A princess? Corruption?
 
 [What do you want, old man](#embed:https://www.youtube.com/embed/t5NGryTaGqk?si=tcYRdht25LG-Vqye\&start=1526)
 
-Despite her frustration, she found fleeting moments of amusement. The ridiculously [long hats](https://www.youtube.com/live/t5NGryTaGqk?feature=shared\&t=1721) worn by some residents caught her attention, as did the drama of the Hot Pink One—a woman entangled in a dispute involving five wives. Bae was both astonished and spitefully compelled to mess with her (see [Bae-Hot Pink One: Pure Spite](#edge:bae-irys-top-2-left-1)).
+Despite her frustration, she found fleeting moments of amusement. The ridiculously [long hats](https://www.youtube.com/live/t5NGryTaGqk?feature=shared\&t=1721) worn by some residents caught her attention, as did the drama of the Hot Pink One—a woman entangled in a dispute involving five wives. Bae was both astonished and spitefully compelled to mess with her (see [Bae-Hot Pink One: Pure Spite](#edge:bae-irys)).
 
 Later, Da Bae visited the tavern, hoping for a meal, only to discover the exorbitant prices—hundreds of coins for a single item. She caused a ruckus, alternately accused of being crazy and poor. Nerissa, the wealthiest person in the kingdom, graciously offered her some money, but Da Bae’s pride wouldn’t allow her to accept. Instead, she boldly claimed to be wealthy enough to afford the tavern on her own.
 

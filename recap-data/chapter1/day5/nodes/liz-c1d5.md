@@ -3,7 +3,7 @@ Elizabeth’s thoughts echoed with the words that had defined her existence: "Yo
 
 [My only guiding light](#embed:https://www.youtube.com/live/1_dhGL0K5-k?t=183)
 
-This moment of heartache might have spiraled into a prolonged reflection on her part, but it was quickly derailed—by none other than Nerissa herself. (see [Elizabeth-Nerissa: Bloodraven](#edge:liz-nerissa-right-3-left-2)).
+This moment of heartache might have spiraled into a prolonged reflection on her part, but it was quickly derailed—by none other than Nerissa herself. (see [Elizabeth-Nerissa: Bloodraven](#edge:liz-nerissa)).
 
 Shaking off her melancholy with surprising speed, Elizabeth braced herself for the day ahead. Attempts to dive back into monologues were thwarted at every turn, so she gave up [entirely](https://www.youtube.com/live/1_dhGL0K5-k?feature=shared\&t=1381). Her focus shifted when Mococo, surrounded by accusations of criminality from the previous day’s lottery fiasco, reached out to her. Ever loyal, Elizabeth promised to protect her. Together with Fuwawa, she set out to build a temporary hideout for Mococo, though the structure’s design unintentionally leaned more toward a prison—or perhaps even a grave.
 

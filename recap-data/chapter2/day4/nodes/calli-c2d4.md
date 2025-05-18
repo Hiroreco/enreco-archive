@@ -12,7 +12,7 @@ Her eagerness wasn’t just business as usual though—turns out her monopoly wa
 
 [She doesn't have a lisence](#embed:https://www.youtube.com/live/AVolo2GU708?si=jllaYw_Lnzhq52cC&t=3403)
 
-But the real twist came when the very storylines she swore to avoid started dragging her in. Remember all that messy romantic drama Gonathon kept rambling about in therapy? Yeah, Mordon suddenly found herself cast as the “destined love” in a blind date stunt cooked up by her own client—resulting in complete chaos for Gonathon’s actual crush (see [Calli-Gonathon: A Powerful Dynamic](#edge:calli-gigi-bottom-1-bottom-3)).
+But the real twist came when the very storylines she swore to avoid started dragging her in. Remember all that messy romantic drama Gonathon kept rambling about in therapy? Yeah, Mordon suddenly found herself cast as the “destined love” in a blind date stunt cooked up by her own client—resulting in complete chaos for Gonathon’s actual crush (see [Calli-Gonathon: A Powerful Dynamic](#edge:calli-gigi)).
 
 And what did Mordon do after throwing the whole table into the air?
 

@@ -8,7 +8,7 @@ In anticipation of tougher battles ahead, she finally paid a little visit to the
 
 [A Rose for a Rose](#embed:https://youtu.be/vMdhvi8dHN4?t=6070s)
 
-Nerissa had a sincere appreciation for her transactional relationship with the Jade Forge, but since recovering bits and pieces of lost tidings, she wondered if the scarlet knight had held back on divulging details about their thorny past. With that being said, the butterfly effect set in motion by an innocent [slip of the tongue](https://youtu.be/vMdhvi8dHN4?t=6520s) were beyond foresight of chivalry, no matter how great. (see: [Elizabeth-Nerissa: Strawberry Red](#edge:liz-nerissa-right-2-left-2))
+Nerissa had a sincere appreciation for her transactional relationship with the Jade Forge, but since recovering bits and pieces of lost tidings, she wondered if the scarlet knight had held back on divulging details about their thorny past. With that being said, the butterfly effect set in motion by an innocent [slip of the tongue](https://youtu.be/vMdhvi8dHN4?t=6520s) were beyond foresight of chivalry, no matter how great. (see: [Elizabeth-Nerissa: Strawberry Red](#edge:liz-nerissa))
 
 ["AWOOO! Do you like the Moon?"](#embed:https://youtu.be/vMdhvi8dHN4?t=6772s)
 
@@ -20,7 +20,7 @@ Nerissa shared great excitement with some others over the Outlander's fond inter
 
 [\*with conviction\*: "Love is love."](#embed:https://youtu.be/vMdhvi8dHN4?t=12577s)
 
-As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing as she had no relationship prospects going on — none that she's aware of — and how she was pretty much oblivious to any of the great love entanglements. Until today, that is. (see: [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii-right-2-left-2))
+As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing as she had no relationship prospects going on — none that she's aware of — and how she was pretty much oblivious to any of the great love entanglements. Until today, that is. (see: [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii))
 
 [Are They Siblings *(Platonic)* or European?](#embed:https://youtu.be/vMdhvi8dHN4?t=12936s)
 

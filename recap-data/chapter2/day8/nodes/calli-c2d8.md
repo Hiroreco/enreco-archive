@@ -9,7 +9,7 @@ INSPIRED OR COPIED?
 
 With no more time to spare, Mordan started the bidding war for the three houses she had built. That is, before [home inspections revealed holes in the walls](https://www.youtube.com/live/Ch4qLZhARtY?t=4991), which Mordan immediately patched up. 
 
-The first house was a small one-bedroom property. Nothing too special. The bid started at 500 coins, and it went to Gonathon, her fellow wolf, for 2672 coins. The second one was slightly bigger. It was a 2LDK with a mini front yard. That one went to the couple in the front. (See: [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara-left-2-left-2))
+The first house was a small one-bedroom property. Nothing too special. The bid started at 500 coins, and it went to Gonathon, her fellow wolf, for 2672 coins. The second one was slightly bigger. It was a 2LDK with a mini front yard. That one went to the couple in the front. (See: [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara))
 
 The last house was the biggest of them all. It was akin to a mansion with seven bedrooms and-------- 
 
@@ -32,4 +32,4 @@ Mordan knew that she would miss these moments with everyone, and she needed to c
 
 As fireworks lit up the twilight sky, the banquet had begun—but sadly, even laughter couldn't silence the fate that was fast approaching. 
 
-(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander-right-2-left-2))
+(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))

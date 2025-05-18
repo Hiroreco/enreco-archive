@@ -12,7 +12,7 @@ Back at Gacharms, Fuwawa seems to be in the market for charms. Roa started handl
 
 Bijou enjoyed the business while it lasted; as the end of the world draws near, they may not get many sales in the coming days.
 
-Roa soon tells Bijou she landed a date with the Red Knight, Lady Bloodflame! She asked for her Diamond Pickaxe as they were going material hunting. Bijou felt the urge to eavesdrop again, wondering how her boss does. (See [Raora-Elizabeth: Roa's Not-Beach Day Episode!](#edge:raora-liz-right-1-left-1))
+Roa soon tells Bijou she landed a date with the Red Knight, Lady Bloodflame! She asked for her Diamond Pickaxe as they were going material hunting. Bijou felt the urge to eavesdrop again, wondering how her boss does. (See [Raora-Elizabeth: Roa's Not-Beach Day Episode!](#edge:raora-liz))
 
 She wasn’t too sneaky about this. While pretending to [“do her dailies”](https://youtu.be/uMenK-yr3ss?t=2122) and “love maps”, she fumbled constantly as she tried to get within earshot. She even [got caught](https://youtu.be/uMenK-yr3ss?t=2889) a few times while wandering too close to Lady Bloodflame.
 

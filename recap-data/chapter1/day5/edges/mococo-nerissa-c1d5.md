@@ -6,7 +6,7 @@ To support her case, Nerissa rallied her guildmates—Fauna, her CEO; Cecilia, h
 
 Mococo, on the other hand had Elizabeth. Just Elizabeth.
 
-Technically, Cecilia was also her lawyer, but unbeknownst to Mococo, Cecilia was actually on Nerissa’s side (see [Cecilia-Mococo: Better Call Cecilia](#edge:mococo-cecilia-top-2-left-2)). Fuwawa was also present, but she wanted nothing to do with the whole mess. With things stacked against her, it seemed Mococo had quite the uphill battle ahead.
+Technically, Cecilia was also her lawyer, but unbeknownst to Mococo, Cecilia was actually on Nerissa’s side (see [Cecilia-Mococo: Better Call Cecilia](#edge:mococo-cecilia)). Fuwawa was also present, but she wanted nothing to do with the whole mess. With things stacked against her, it seemed Mococo had quite the uphill battle ahead.
 
 [Dog and Bird duking it out](#embed:https://www.youtube.com/live/wINOVotsvPY?t=878)
 

@@ -2,7 +2,7 @@ A new day, a new start, and for our girl in brown, a new name. Given how many pe
 
 Weird and elaborate names aside, Darwin was ready to dive into her second day in the kingdom. Her first interaction was with Fauna, who was busy constructing her budding business, *FaunaMart*.
 
-Fauna explained her vision: a convenience store selling local goods and lottery tickets. Darwin was immediately skeptical, especially when Fauna claimed that "10% of ticket revenue goes to the library". A quick visit to the library, which had a shockingly sparse collection of books, only deepened Darwin’s doubts (see [Darwin-Fauna: Shady Business](#edge:moom-fauna-top-1-left-2))
+Fauna explained her vision: a convenience store selling local goods and lottery tickets. Darwin was immediately skeptical, especially when Fauna claimed that "10% of ticket revenue goes to the library". A quick visit to the library, which had a shockingly sparse collection of books, only deepened Darwin’s doubts (see [Darwin-Fauna: Shady Business](#edge:moom-fauna))
 
 Later, the two made their way to the quest board, where they met Shakira, Cecilia, and Gura. True to form, Fauna began advertising her business again. Darwin, ever the skeptic, tried to warn the group about the potential scams, but her efforts were in vain as everyone became enamored with FaunaMart.
 
@@ -16,6 +16,6 @@ Darwin, being a self-proclaimed genius, picked up the language instantly, speaki
 
 When it came time to try the hat gacha, Darwin surprised everyone by pulling the long hat (representing the Scarlet Wand guild) on her very first try. Gura, in particular, was left [flabbergasted](https://www.youtube.com/live/WQRPyJ4zhC0?feature=shared\&t=3931).
 
-One standout moment came when Darwin reunited with her guildmate Shakira. Initially, Shakira accused Darwin of betraying the Amber Coin and joining the Scarlet Wand. But Darwin revealed that her apparent betrayal was part of her role as a spy (see [Darwin-Shakira: Double Agent](#edge:kiara-moom-top-2-right-2))
+One standout moment came when Darwin reunited with her guildmate Shakira. Initially, Shakira accused Darwin of betraying the Amber Coin and joining the Scarlet Wand. But Darwin revealed that her apparent betrayal was part of her role as a spy (see [Darwin-Shakira: Double Agent](#edge:kiara-moom))
 
 Finally returning to their main objective, Darwin, along with Gura and Cecilia, tackled the *Ocean Temple Dungeon*. Upon conquering it, they successfully recovered Gawr Gura’s [memories](https://www.youtube.com/live/WQRPyJ4zhC0?feature=shared\&t=10437). Triumphant, the group returned to the kingdom, with Darwin entertaining everyone along the way with her trademark horse noises. They ended the day by unwinding with some good old-fashioned [gambling](https://www.youtube.com/live/WQRPyJ4zhC0?feature=shared\&t=11457).

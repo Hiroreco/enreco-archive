@@ -51,4 +51,4 @@ All was right! [Well, except for some last-minute cannibalism.](https://youtu.be
 
 A scream.
 
-(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander-right-2-left-2))
+(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))

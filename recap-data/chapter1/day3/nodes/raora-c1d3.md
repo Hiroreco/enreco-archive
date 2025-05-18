@@ -8,7 +8,7 @@ While wandering, she stumbled upon Gonathon, or ["Jordan"](https://www.youtube.c
 
 Eventually, Raora returned her focus to the larger tasks at hand. Joining forces with Elizabeth, Calli, and the two doggos, she ventured into the dreaded *Eldritch Horror dungeon*. Together, they overcame its many challenges and successfully recovered fragments of Ninomae Ina'nis’ [memories](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared\&t=7780).
 
-With the dungeon conquered, Raora returned to her primary objective: building her castle. By this point, Tam was working on her own guild base nearby. Never one to pass up an opportunity for mischief, Raora couldn’t resist poking fun at Tam as well (see [Raora-Tam: Annoying Cat](#edge:raora-kronii-right-2-top-1)).
+With the dungeon conquered, Raora returned to her primary objective: building her castle. By this point, Tam was working on her own guild base nearby. Never one to pass up an opportunity for mischief, Raora couldn’t resist poking fun at Tam as well (see [Raora-Tam: Annoying Cat](#edge:raora-kronii)).
 
 Yet, her playful and chaotic nature gave way to a strikingly different side when she immersed herself in construction. Her focus was unmatched—every piece was carefully placed, every detail thoughtfully planned. The meticulous craftsmanship made it clear she took her role seriously, using her dedication as proof of her worthiness for the throne.
 

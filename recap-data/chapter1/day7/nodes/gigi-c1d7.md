@@ -18,7 +18,7 @@ Then came an utterly bizarre and unexpected detour: Gonathon, a male knight, was
 
 [How did we get here](#embed:https://www.youtube.com/live/_pxgqfGjshs?feature=shared\&t=7535)
 
-Of course, Gonathon wasn’t pregnant, but the sheer absurdity of the situation lightened the mood. He recognized it as a much-needed distraction from the burdens he'd been carrying. Perhaps his friends sensed his struggles and tried to cheer him up—or perhaps they were simply eccentric. One knight, however, showed genuine care, going out of their way to remind Gonathon of his worth and ensure he didn’t feel alone (see [Cecilia-Gonathon: Green and Orange](#edge:cecilia-gigi-bottom-1-right-3)).
+Of course, Gonathon wasn’t pregnant, but the sheer absurdity of the situation lightened the mood. He recognized it as a much-needed distraction from the burdens he'd been carrying. Perhaps his friends sensed his struggles and tried to cheer him up—or perhaps they were simply eccentric. One knight, however, showed genuine care, going out of their way to remind Gonathon of his worth and ensure he didn’t feel alone (see [Cecilia-Gonathon: Green and Orange](#edge:cecilia-gigi)).
 
 But yet, the lighthearted moments were fleeting. As Gonathon neared completion of the queen’s statue, he realized he was too late to prevent a grave disaster—Bijou had spread her corruption to Mococo and possibly beyond. Feeling unsafe, Gonathon fled the scene.
 

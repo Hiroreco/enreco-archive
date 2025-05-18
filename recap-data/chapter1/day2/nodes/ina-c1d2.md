@@ -10,7 +10,7 @@ With the auction concluded, Ina assembled her team, which included Nerissa, Call
 
 The team emerged victorious, recovering memories of [Gawr Gura](https://www.youtube.com/live/z4R10dPeuwY?feature=shared\&t=3134) along the way.
 
-After leaving the dungeon and taking a moment to mine for materials, Ina was pulled aside by the Hot Pink One. What followed was an unexpected and heartfelt proposal. The pink lady attributed their success to Ina’s hat and confessed that Ina was her one and only. Touched by the gesture, Ina accepted and vowed to be her eternal consort, sealing their unconventional union (see [Hot Pink One-Ina: Eternal Consort](#edge:irys-ina-right-2-left-2)).
+After leaving the dungeon and taking a moment to mine for materials, Ina was pulled aside by the Hot Pink One. What followed was an unexpected and heartfelt proposal. The pink lady attributed their success to Ina’s hat and confessed that Ina was her one and only. Touched by the gesture, Ina accepted and vowed to be her eternal consort, sealing their unconventional union (see [Hot Pink One-Ina: Eternal Consort](#edge:irys-ina)).
 
 Ina’s day continued in her signature serene fashion. Unlike most, she avoided the kingdom’s typical madness. She took on quests, explored the land, and engaged in calm conversations—an unusual rarity in a realm dominated by chaos. Even during her interactions with her guildmates, she maintained a steady demeanor, though her wife’s overly [questionable comments](https://www.youtube.com/live/z4R10dPeuwY?feature=shared\&t=4239) often drew a subtle smile.
 

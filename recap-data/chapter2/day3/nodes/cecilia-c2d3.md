@@ -4,11 +4,11 @@ Cecilia awakens from a restful sleep in the princess' bed and begins her day by 
 
 During these forays into the field, she encounters Gonathon who requires protection. Cecilia resolutely stands and protects [her dawg](https://www.youtube.com/watch?v=Icdii90_vSA&t=3608s) from the countless stains as they encroach upon the enchanted wagon
 
-As the two spend time together, Cecilia and Gonathon return to her "room" where they take a moment of respite. Unable to bear her burden anymore, she [confides the troubles](https://www.youtube.com/live/Icdii90_vSA?t=4770s) of her heart to Gonathon. Gonathon knows Immerkind's love to be true and pure and implores her to confess to the princess (see [Cecilia-Gigi](#edge:cecilia-gigi-left-2-right-2)).
+As the two spend time together, Cecilia and Gonathon return to her "room" where they take a moment of respite. Unable to bear her burden anymore, she [confides the troubles](https://www.youtube.com/live/Icdii90_vSA?t=4770s) of her heart to Gonathon. Gonathon knows Immerkind's love to be true and pure and implores her to confess to the princess (see [Cecilia-Gigi](#edge:cecilia-gigi)).
 
 [Your feelings come from you](#embed:https://www.youtube.com/live/Icdii90_vSA?t=4843s)
 
-Cecilia immediately seeks an audience with the princess and is heart broken to find that Iphania's (See [Cecilia-Iphania: Just Siblings?](#edge:cecilia-iphania-top-2-bottom-2)) mind is only focused on The Outlander. Cecilia and Gonathon depart, emotions high as Iphania appears blind to the pure emotions that Immerkind has for her. But Gonathon persuades Cecilia and tells her she may still have a chance and that Iphania's free will may be imprisoned to court politics.
+Cecilia immediately seeks an audience with the princess and is heart broken to find that Iphania's (See [Cecilia-Iphania: Just Siblings?](#edge:cecilia-iphania)) mind is only focused on The Outlander. Cecilia and Gonathon depart, emotions high as Iphania appears blind to the pure emotions that Immerkind has for her. But Gonathon persuades Cecilia and tells her she may still have a chance and that Iphania's free will may be imprisoned to court politics.
 
 [The Knights most Kind Resolution](#embed:https://www.youtube.com/live/Icdii90_vSA?t=5430s)
 

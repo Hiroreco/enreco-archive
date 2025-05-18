@@ -28,11 +28,11 @@ These fleeting moments reminded Elizabeth that she wasn’t alone. She didn’t 
 
 [Thank you, Gonathon](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=10485)
 
-Yet, these moments of solace were brief. News spread that Mococo, a member of the Jade Sword and someone Elizabeth cared for deeply, had fallen to corruption. Witnessing Mococo’s descent firsthand was devastating. Elizabeth, who had long fought to protect her, now faced the grim possibility of having to end her suffering (see [Elizabeth-Mococo: Keeping My Promise](#edge:mococo-liz-left-3-right-2)).
+Yet, these moments of solace were brief. News spread that Mococo, a member of the Jade Sword and someone Elizabeth cared for deeply, had fallen to corruption. Witnessing Mococo’s descent firsthand was devastating. Elizabeth, who had long fought to protect her, now faced the grim possibility of having to end her suffering (see [Elizabeth-Mococo: Keeping My Promise](#edge:mococo-liz)).
 
 When hope seemed lost, Ina and Raora arrived with news of a potential cure for the corruption. But there was no time to waste—Fuwawa, too, succumbed to the corruption right before Elizabeth’s [eyes](https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=11473), slaughtering her remaining chickens. With Calli, Gonathon, Raora, and Ina, Elizabeth devised a desperate plan: disrupt the corrupted ones’ minds with music, creating an opening to administer the cure.
 
-The plan was perilous but necessary. Elizabeth faced her target head-on, determined to save even those who had caused her pain (see [Elizabeth-Nerissa: Start Again](#edge:liz-nerissa-right-3-left-2)).
+The plan was perilous but necessary. Elizabeth faced her target head-on, determined to save even those who had caused her pain (see [Elizabeth-Nerissa: Start Again](#edge:liz-nerissa)).
 
 Against all odds, the cure worked. One by one, the corrupted were freed. Though Elizabeth’s heart ached at Mococo and Fuwawa’s resistance, she pressed on, knowing their salvation was worth every effort.
 

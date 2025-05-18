@@ -19,7 +19,7 @@ Gonathon was torn. He had told himself before that he would respect Amelia’s c
 
 [You dare betray me?!](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared\&t=8758)
 
-And as if the universe had answered his plea, the Hot Pink One was punished for her deception, and Amelia was freed from her grasp (see [Hot Pink One-Amelia: Non-Traditional Relation](#edge:ame-irys-left-2-bottom-2)). Gonathon wasted no time. He pulled Amelia aside, his voice firm yet earnest, telling her not to trust the pink woman, hoping—praying—that she would trust him instead.
+And as if the universe had answered his plea, the Hot Pink One was punished for her deception, and Amelia was freed from her grasp (see [Hot Pink One-Amelia: Non-Traditional Relation](#edge:ame-irys)). Gonathon wasted no time. He pulled Amelia aside, his voice firm yet earnest, telling her not to trust the pink woman, hoping—praying—that she would trust him instead.
 
 Then, the wheels began to turn.
 

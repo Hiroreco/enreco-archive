@@ -4,7 +4,7 @@ Fuwawa decided to try her luck and purchased a single [lottery ticket](https://w
 
 [How is she gonna buy food](#embed:https://www.youtube.com/live/jjCVWFJl-_o?t=967)
 
-As Mococo painstakingly listed all sixty-eight of her ticket numbers, Fuwawa’s patience wore thin, with each new number called, her annoyance grew more visibly (see [Fuwawa-Mococo: Same But Different](#edge:fuwawa-mococo-right-2-left-2)).
+As Mococo painstakingly listed all sixty-eight of her ticket numbers, Fuwawa’s patience wore thin, with each new number called, her annoyance grew more visibly (see [Fuwawa-Mococo: Same But Different](#edge:fuwawa-mococo)).
 
 [Mococoooo hurry up!](#embed:https://www.youtube.com/live/jjCVWFJl-_o?feature=shared\&t=1180)
 

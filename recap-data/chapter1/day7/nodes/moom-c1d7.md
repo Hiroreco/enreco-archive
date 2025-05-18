@@ -19,7 +19,7 @@ The store’s grand opening was an immediate success, attracting curious onlooke
 
 Despite its seemingly altruistic nature, the lottery tickets contained a hidden element that our shop owner did not disclose.
 
-Speaking of names, the entrepreneur asked Cecilia, her first customer, to give her a fitting title. Cecilia christened her "Nanamoo," a name the owl girl immediately adored for its catchy ring. Thus, Nanamoo was born. The pair unexpectedly bonded over their business dealings, forming an unusual friendship (see [Nanamoo-Cecilia: Friends From Business](#edge:moom-cecilia-bottom-0-left-1)).
+Speaking of names, the entrepreneur asked Cecilia, her first customer, to give her a fitting title. Cecilia christened her "Nanamoo," a name the owl girl immediately adored for its catchy ring. Thus, Nanamoo was born. The pair unexpectedly bonded over their business dealings, forming an unusual friendship (see [Nanamoo-Cecilia: Friends From Business](#edge:moom-cecilia)).
 
 About an hour after distributing her free lottery tickets, it was time to announce the winners. Unsurprisingly, everyone [won](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared\&t=6391). During the celebration, Nanamoo made a cheeky remark about Gonathon looking [pregnant](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared\&t=6241), which snowballed into an entire side story (see [Gonathon’s Point of View](#node:gigi)).
 

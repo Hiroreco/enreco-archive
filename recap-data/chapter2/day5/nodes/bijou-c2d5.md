@@ -46,7 +46,7 @@ Bijou met with Gonathan at the Library after recovering [Fia’s](#node:fia) thi
 
 Sat under a big tree far from everyone else’s buildings, he felt the need to confess about eavesdropping on the conversation she had with Bae earlier.
 
-Gonathan realized how much Bijou likes Shiori. If there was anything he could do to help Bijou get the baby back, he was but one call away. (See [Bijou-Gonathan: Good Neighbors](#edge:gigi-bijou-left-3-left-3).) In response, she invited Gonathan to join her therapy session with Bae.
+Gonathan realized how much Bijou likes Shiori. If there was anything he could do to help Bijou get the baby back, he was but one call away. (See [Bijou-Gonathan: Good Neighbors](#edge:gigi-bijou).) In response, she invited Gonathan to join her therapy session with Bae.
 
 Bae was waiting at the wagon, now having reclaimed her memories as Hakos Baelz (she was still a peasant at heart). She postponed her therapy session until after she revisited Star Site: Chaos. With Bijou, Gonathan, and Ina, they tried winning the hidden music disc a second time.
 

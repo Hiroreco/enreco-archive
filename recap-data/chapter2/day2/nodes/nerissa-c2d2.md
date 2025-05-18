@@ -4,9 +4,9 @@ Nerissa's cooking skills had surpassed many within Libestal, and she created not
 
 [First customer!](#embed:https://youtu.be/5sWjzbacGUY?t=3210s)
 
-These downcast thoughts had to be shelved for now — Nerissa's current focus was on readying her arsenal before today's primary assignment. "Are there even any Smiths online at the moment (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa-right-2-left-2))"
+These downcast thoughts had to be shelved for now — Nerissa's current focus was on readying her arsenal before today's primary assignment. "Are there even any Smiths online at the moment (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa))"
 
-In the midst of trying to crash the butter market, Nerissa encountered a fellow struggling Chef. Recognizing the risks of remaining in their roles, they discussed the structures of other local job sectors, leading to an epiphany about disrupting Libestal's food commerce (see [Hot Pink One–Nerissa: Chef Union](#edge:irys-nerissa-bottom-2-top-2)).
+In the midst of trying to crash the butter market, Nerissa encountered a fellow struggling Chef. Recognizing the risks of remaining in their roles, they discussed the structures of other local job sectors, leading to an epiphany about disrupting Libestal's food commerce (see [Hot Pink One–Nerissa: Chef Union](#edge:irys-nerissa)).
 
 One upside to having a shop so close to the local Jewelers' stand is that you always happen to catch wind of their latest NDA schemes. Are they planning to [sell bad Charms](https://youtu.be/5sWjzbacGUY?t=7118s)?
 

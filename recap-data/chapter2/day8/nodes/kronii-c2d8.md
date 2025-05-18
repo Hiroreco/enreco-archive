@@ -32,7 +32,7 @@ And so, on a deserted street—against a backdrop of the vast blue sky fading in
 
 At last, it was time for the victory banquet. There, Queen Tam and the others enjoyed [fireworks supplied by Peasant the Bae](https://youtu.be/II40tjM-mxg?t=3675). The sense of accomplishment was palpable, and spirits were high as the celebration commenced. Soon, the Outlander stepped forward to personally thank each hero for their bravery—for saving him and the kingdom from their grim fate.
 
-That was when the gears of destiny started again, and the fate of the heroes reached a turning point. (see: [Outlander-Iphania: The Chains of Fate](#edge:iphania-outlander-right-2-left-2)).
+That was when the gears of destiny started again, and the fate of the heroes reached a turning point. (see: [Outlander-Iphania: The Chains of Fate](#edge:iphania-outlander)).
 
 Queen Tam Gandr could scarcely believe what was unfolding before her. Just as a newfound determination to save the world stirred in her chest, a betrayal cracked the bond the heroes had built. And as the [advent of seemingly wicked intentions](https://youtu.be/II40tjM-mxg?t=4199) came from the five individuals who sought to rebel, the Queen felt her strength drain from her body—and was claimed by slumber once more.
 

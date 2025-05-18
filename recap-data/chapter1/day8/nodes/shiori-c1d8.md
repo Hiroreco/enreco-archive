@@ -10,13 +10,13 @@ Shiori later met Gonathon and learned about his heartbreak over Amelia Watson. A
 
 Next, Shiori targeted [Nanamoo](https://www.youtube.com/live/dTf0g5tqzBU?feature=shared\&t=1889). She channeled all of her "rizz," introducing herself as the Archiver of Hearts, whose mission was to archive relationships by marrying people. With all her charisma, she tried convincing the owl lady to join her polycule. But Nanamoo wasn’t interested in being a side chick—she wanted to be the main one. Feeling slighted, she declined and ran off. Another fail.
 
-Just when Shiori thought her plans couldn’t get worse, Bijou—her wife—filed for divorce at Mori’s Tavern (see [Shiori-Bijou: Divorce No.1](#edge:shiori-bijou-right-2-left-2)).
+Just when Shiori thought her plans couldn’t get worse, Bijou—her wife—filed for divorce at Mori’s Tavern (see [Shiori-Bijou: Divorce No.1](#edge:shiori-bijou)).
 
 Now single, wifeless, and a single mother to a Stain child, Shiori went around the kingdom seeking sustenance to raise her "child". Elizabeth and Mococo, moved by her story, gave her food. She eventually ended up in the onsen, contemplating how her dream of a "Happy Sugar Life" surrounded by women had instead left her alone, with no women and a child to care for.
 
 [Please feed me and my child](#embed:https://www.youtube.com/live/dTf0g5tqzBU?feature=shared\&t=3309)
 
-As Shiori pondered her predicament, she realized she wasn’t entirely alone. She still had one woman by her side (see [Shiori-Nerissa: Always There](#edge:shiori-nerissa-bottom-2-top-2)).
+As Shiori pondered her predicament, she realized she wasn’t entirely alone. She still had one woman by her side (see [Shiori-Nerissa: Always There](#edge:shiori-nerissa)).
 
 Finally, everyone was urgently summoned to the kingdom gates for one last battle against the Stain King. True to form, Shiori, ever the chill one, stood back and watched as the heroes faced the King head-on. But this time, the Stain King wasn’t leaving her out of the action.
 

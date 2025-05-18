@@ -18,6 +18,6 @@ Mococo, unbothered by Elizabeth’s suspicions, decided to buy not one, not two,
 
 After bidding farewell to the "witch," the group turned their attention to the day’s main quest: conquering the *Ocean Temple Dungeon*. Joining Elizabeth and the doggos were Shakira and Raora. The journey was fraught with challenges, including several failed attempts and plenty of [trolling](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared\&t=4122), but their persistence paid off. By the end of the ordeal, they emerged victorious, recovering memories of [Gawr Gura](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared\&t=5143).
 
-Returning to the kingdom, Elizabeth encountered a figure she had taken an instant disliking to on the first day—Tam Gandr, the self-proclaimed queen. Fueled by her distaste, Elizabeth wasn't going to let the blue maiden get the better of her this time (see [Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii-top-3-top-2)).
+Returning to the kingdom, Elizabeth encountered a figure she had taken an instant disliking to on the first day—Tam Gandr, the self-proclaimed queen. Fueled by her distaste, Elizabeth wasn't going to let the blue maiden get the better of her this time (see [Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii)).
 
 Later on, Elizabeth refocused her efforts. She joined Shakira in uncovering the first dungeon’s secret treasure, a hidden music disc. The day ended on a brighter note as the group celebrated their success with a lively party at the [tavern](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared\&t=10446).

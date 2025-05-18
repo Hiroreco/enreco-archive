@@ -2,7 +2,7 @@ The start of Bijou’s day felt… strange. Only through her vision, some things
 
 This was the least of her troubles today. Far from it. In fact, the little princess was intertwined with a lot of the day’s drama. She even reconnected with a few people along the way. Especially with one she thought she wouldn’t get a chance to reconcile with.
 
-NinoIna returned after being absent from the day before. Blissfully unaware of what happened yesterday, she tried roping her sister to become one with the potato. Bijou agreed, but in turn tried to get her to become one with the bread. …To no avail. Bijou could stay in-bread though! (See [Ina-Bijou: Wooden Potato](#edge:bijou-ina-right-2-left-2)) 
+NinoIna returned after being absent from the day before. Blissfully unaware of what happened yesterday, she tried roping her sister to become one with the potato. Bijou agreed, but in turn tried to get her to become one with the bread. …To no avail. Bijou could stay in-bread though! (See [Ina-Bijou: Wooden Potato](#edge:bijou-ina)) 
 Seems like not many people bought into the bread cult thing, and her sister was no exception.
 
 Before going to Star Site: Chronos, Immerkind and Bijou went exploring to kill Stains in the second area. It’s at this point where she started calling Bijou “Chibi-hime”.
@@ -19,15 +19,15 @@ Speaking of The Basement, Bijou wanted to finally see it for herself, as part of
 
 As if nothing happened preceding, Gonathan joined forces with Bijou to revisit the Stronghold of Ruin, helping Ina, Fuwawa, and Mococo out going through it for the first time. 
 
-She would later join IRyS, Immerkind, Kiara, and Ina to investigate the day’s dungeon, Star Site: Chronos. It was there where they would recover the memories of Tam Gandr, or Ouro Kronii. With her memories restored, everyone returned from the dungeon worshipping her. In the midst of it all, Princess Bijou blurted, “Does that make you my mom?” (see [Bijou-Kronii: Not Again...](#edge:bijou-kronii-top-2-top-2))
+She would later join IRyS, Immerkind, Kiara, and Ina to investigate the day’s dungeon, Star Site: Chronos. It was there where they would recover the memories of Tam Gandr, or Ouro Kronii. With her memories restored, everyone returned from the dungeon worshipping her. In the midst of it all, Princess Bijou blurted, “Does that make you my mom?” (see [Bijou-Kronii: Not Again...](#edge:bijou-kronii))
 
 Following the dungeon, Bijou immediately sets out to find new materials for the best charms—Legendary Charms using Enigmatic Stones that kind of look like the gem on her chest. Perhaps it was fate that she became a Jeweler after all. 
 
 Back at Gacharms, Kiara would visit to fulfil their trade relationship, patiently waiting in line for Bae to finish her pulls. She would end up [spilling tea](https://youtu.be/Zg3rYsc61XI?t=18313) to Bijou about a blind date he put Gonathan and Mordan on. It fell apart after she realized at the last moment that Gonathon had fallen for Shiori instead, who *appeared during said date…* causing a chain reaction.
 
-They suddenly started hearing voices above them… It was Gonathan and Shiori on the roof. Unbeknownst to Kiara and Bijou, there was *already* an update to Kiara’s gossip that had transpired during her entire talk. Bijou was fine letting Gonathan and Shiori continue to use the roof of the shop. The interaction that ensued on the roof set off its own chain reaction caused by a misunderstanding, and eventually… a divorce (see [Gigi-Shiori: The Witch’s Trials](#edge:gigi-shiori-top-2-bottom-1)).
+They suddenly started hearing voices above them… It was Gonathan and Shiori on the roof. Unbeknownst to Kiara and Bijou, there was *already* an update to Kiara’s gossip that had transpired during her entire talk. Bijou was fine letting Gonathan and Shiori continue to use the roof of the shop. The interaction that ensued on the roof set off its own chain reaction caused by a misunderstanding, and eventually… a divorce (see [Gigi-Shiori: The Witch’s Trials](#edge:gigi-shiori)).
 
-Several people watched the breakup happen before their eyes, behind the glass windows of Shiori’s house. Bijou couldn’t help feeling sad seeing Shiori cry, so she came to her side soon after. She took this opportunity to reconcile with her past and get back with her. She wanted to mend Shiori’s twice-broken heart. She also felt bad about abandoning their child Khaos and vowed to bring him back (see [Bijou-Shiori: Severed, but still there](#edge:shiori-bijou-top-1-bottom-4)).
+Several people watched the breakup happen before their eyes, behind the glass windows of Shiori’s house. Bijou couldn’t help feeling sad seeing Shiori cry, so she came to her side soon after. She took this opportunity to reconcile with her past and get back with her. She wanted to mend Shiori’s twice-broken heart. She also felt bad about abandoning their child Khaos and vowed to bring him back (see [Bijou-Shiori: Severed, but still there](#edge:shiori-bijou)).
 
 Now Bijou has double the motivation for what she vented about to Mordan and Gonathan. There was a moral need to get the Peasant to give up that Stain hat. This would ultimately be for everyone’s sake… but especially her own, to fix her relationship with Shiori. It's not just a (cursed) hat; it was her child. Their child. How she’ll do it… is a problem for another time.
 

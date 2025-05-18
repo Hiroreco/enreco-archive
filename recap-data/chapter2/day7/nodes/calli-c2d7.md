@@ -30,7 +30,7 @@ Mordan ran a brisk trip with the rest of her fellow heroes into the *Heart of Ru
 
 The next big thing to do was to celebrate the Hot Pink One's gender reveal party, as she had been invited by Shiori a few hours ago. 
 
-Family drama between HPO, Tam Gandr, and Ina (see: [Ina-IRyS: Turning To Another](#edge:ina-irys-right-2-left-2) and [Ina-Kronii: Netorare](#edge:kronii-ina-left-1-right-1)) unfolds in front of the Lorekeeper. It feels so much like a telenovela, the therapist couldn't help but watch the show. [*She even brought out popcorn.*](https://www.youtube.com/live/WG748SwXQVo?t=11440)
+Family drama between HPO, Tam Gandr, and Ina (see: [Ina-IRyS: Turning To Another](#edge:ina-irys) and [Ina-Kronii: Netorare](#edge:kronii-ina)) unfolds in front of the Lorekeeper. It feels so much like a telenovela, the therapist couldn't help but watch the show. [*She even brought out popcorn.*](https://www.youtube.com/live/WG748SwXQVo?t=11440)
 
 [Murder is always an option.](https://www.youtube.com/live/WG748SwXQVo?t=11842)
 

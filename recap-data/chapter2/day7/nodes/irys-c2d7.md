@@ -44,7 +44,7 @@ IRyS didn’t even question it. She just felt relief, like passing the biggest g
 
 And then things spiraled.
 
-Apparently, the child was actually [Tam and Ina’s](https://www.youtube.com/live/os9TbwMUcbk?t=6901). Apparently, Tam and Ina had feelings for each other. Apparently, IRyS only saw Tam as a sister figure—despite their history. And Ina? Was she cheating on IRyS? No one knew what was real anymore (see [Kronii-IRyS: The Audacity](#edge:irys-kronii-right-2-left-2) and [Ina-IRyS: Turning To Another](#edge:ina-irys-right-2-left-2)).
+Apparently, the child was actually [Tam and Ina’s](https://www.youtube.com/live/os9TbwMUcbk?t=6901). Apparently, Tam and Ina had feelings for each other. Apparently, IRyS only saw Tam as a sister figure—despite their history. And Ina? Was she cheating on IRyS? No one knew what was real anymore (see [Kronii-IRyS: The Audacity](#edge:irys-kronii) and [Ina-IRyS: Turning To Another](#edge:ina-irys)).
 
 She wrote it all down in her [journal](https://www.youtube.com/live/os9TbwMUcbk?t=11636)—perhaps one of the last. Her account of childbirth. Of fading bonds. And a promise: if her eternal consort was truly turning away, truly seeking Tammy...
 

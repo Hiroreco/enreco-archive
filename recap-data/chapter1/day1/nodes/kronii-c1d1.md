@@ -16,12 +16,12 @@ Tam’s empathetic nature shone as she leveraged her remarkable powers of persua
 
 ["Nobody wants you except us".](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=6213)
 
-As the day progressed, Tam found herself caught in various shenanigans. Yet, she always managed to handle situations with an air of maturity. When Gonathon was interrogated by Elizabeth, Tam intervened, *calmly* defusing the tension (see [Elizabeth-Tam: Red and Blue](#edge:liz-kronii-top-3-top-2)).
+As the day progressed, Tam found herself caught in various shenanigans. Yet, she always managed to handle situations with an air of maturity. When Gonathon was interrogated by Elizabeth, Tam intervened, *calmly* defusing the tension (see [Elizabeth-Tam: Red and Blue](#edge:liz-kronii)).
 
-By the day's end, Tam joined The Hot Pink One and Mori Calliope in the *Underworld Dungeon*, where they recovered fragments of their lost [memories](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=11965). It was a chaotic, exhausting day for Tam, filled with triumphs, conflicts, and laughter. She gained devoted followers who pledged their unwavering loyalty (see [Gonathon-Tam: You're the Queen!](#edge:gigi-kronii-bottom-2-left-2)).
+By the day's end, Tam joined The Hot Pink One and Mori Calliope in the *Underworld Dungeon*, where they recovered fragments of their lost [memories](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=11965). It was a chaotic, exhausting day for Tam, filled with triumphs, conflicts, and laughter. She gained devoted followers who pledged their unwavering loyalty (see [Gonathon-Tam: You're the Queen!](#edge:gigi-kronii)).
 
 But above all, she found solace in the simple yet profound comfort of having a name—*Tam*. Though it was given impulsively by Gonathon, it resonated with her, becoming a cherished part of her identity. To Tam, that name was more than just a label; it was a symbol of her newfound self, one she would carry and treasure throughout the rest of her journey.
 
-As the kingdom settled into quiet, Tam yearned for a peaceful night’s sleep. Surely, nothing else would trouble her now. Surely...(see [Raora-Tam: Say my name](#edge:raora-kronii-right-2-top-1)).
+As the kingdom settled into quiet, Tam yearned for a peaceful night’s sleep. Surely, nothing else would trouble her now. Surely...(see [Raora-Tam: Say my name](#edge:raora-kronii)).
 
 ["Queen Tam Gandr" by Daaku](https://x.com/koizumi_arata/status/1830329272155931070)

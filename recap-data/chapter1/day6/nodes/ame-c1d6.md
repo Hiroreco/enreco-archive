@@ -28,4 +28,4 @@ She smiled at the knight, and asked,
 
 *"And you are?"*
 
-(see [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame-top-2-bottom-2))
+(see [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame))

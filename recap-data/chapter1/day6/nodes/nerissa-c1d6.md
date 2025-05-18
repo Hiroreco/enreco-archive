@@ -8,4 +8,4 @@ I was at home watching A Knight's Tale when phone rang
 
 *no*
 
-(see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa-right-3-left-2))
+(see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa))

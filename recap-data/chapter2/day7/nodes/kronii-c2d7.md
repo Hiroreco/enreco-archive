@@ -26,7 +26,7 @@ One might say there should be a way to forcefully tell the Queen to put down the
 
 After offering comforting words to the green knight about her situation with Peasant the Bae, Queen Tam invited her to attend HPO's cursed “gender reveal” party. Why the Queen wanted to attend at all, no one truly knows.
 
-She was greeted with the same bombastic sign—"ITS GAS"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, Nino Ina (see [Kronii-IRyS: The Audacity](#edge:irys-kronii-right-2-left-2)).
+She was greeted with the same bombastic sign—"ITS GAS"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, Nino Ina (see [Kronii-IRyS: The Audacity](#edge:irys-kronii)).
 
 Queen Tam next found herself attending Shakira and Roa Pandora’s wedding in the Great Hall. The voices in her head noted, yet again, that she never learned. First HPO’s “gender reveal” party, and now the wedding of her previous-timeline lover. Still, she stood in silence, watching one of her “happinesses” marry another. 
 

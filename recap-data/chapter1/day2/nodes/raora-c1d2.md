@@ -8,6 +8,6 @@ Getting back on track, Raora refocused on the day’s main objective: the *Ocean
 
 Upon their return, they found themselves face-to-face with Tam Gandr and her guildmates at the quest board. Shakira knelt before Tam and brought up her concerns about the suspicious FaunaMart scam. Shakira’s act of loyalty was also a statement of trust—she saw Tam as the rightful ruler, much to Raora’s visible [displeasure](https://www.youtube.com/live/qDhyA4-79ko?feature=shared\&t=6292). Raora couldn’t help but feel that Shakira’s allegiance should lie with her instead.
 
-Later in the day, Raora crossed paths with Tam again, this time finding her in a heated argument with Elizabeth. Sensing an opportunity to rile Tam up, Raora wasted no time stirring the pot (see [Raora-Tam: Fake Queen](#edge:raora-kronii-right-2-top-1)).
+Later in the day, Raora crossed paths with Tam again, this time finding her in a heated argument with Elizabeth. Sensing an opportunity to rile Tam up, Raora wasted no time stirring the pot (see [Raora-Tam: Fake Queen](#edge:raora-kronii)).
 
 After cooling off, Raora joined Shakira in revisiting the first dungeon to uncover its secret treasure. They managed retrieve a hidden music disc, which became the centerpiece of a celebratory evening at the [tavern](https://www.youtube.com/live/qDhyA4-79ko?feature=shared\&t=9968). Together, they reveled in their small victory, their bond strengthened by the shared adventure.

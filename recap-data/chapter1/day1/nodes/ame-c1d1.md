@@ -22,7 +22,7 @@ With a dramatic flourish, she activated her Revelation, bonking the King on the 
 
 Actually, none of her attacks worked. Defeated but undeterred, she vowed to return for vengance.
 
-Later, Gonathon confronted her again. This time, Jyon managed to persuade him, spinning a tale that convinced him to let her go (see [Gonathon-Jyon: King Killer](#edge:gigi-ame-top-2-bottom-2)). With that hurdle cleared, she capped off her day with a prank call to Gura, claiming to represent the "Libestonian Charity". Unsurprisingly, Gura wasn’t fooled and rejected her scam.
+Later, Gonathon confronted her again. This time, Jyon managed to persuade him, spinning a tale that convinced him to let her go (see [Gonathon-Jyon: King Killer](#edge:gigi-ame)). With that hurdle cleared, she capped off her day with a prank call to Gura, claiming to represent the "Libestonian Charity". Unsurprisingly, Gura wasn’t fooled and rejected her scam.
 
 [I'm from the charity](#embed:https://www.youtube.com/live/hUCfCWOj-1w?feature=shared\&t=7353)
 

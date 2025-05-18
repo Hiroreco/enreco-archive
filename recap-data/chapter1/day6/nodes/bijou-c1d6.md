@@ -18,7 +18,7 @@ However, the corruption’s presence was becoming harder to ignore. It occupied 
 
 [Good morning, what's happening?](#embed:https://www.youtube.com/embed/8frv4avuyl8?si=57u_j8ZXf4jtt8yu\&start=7379)
 
-Consumed by evil—or perhaps just mischief—Bijou decided to [torment](https://www.youtube.com/live/8frv4avuyl8?feature=shared\&t=11633) her sister Ina. She blasted Ina’s song, Violet, right next to her. Whether it was an act of malice or simply a prank, it unnerved the purple priestess. Later, Bijou and Ina had a heart-to-heart conversation. It was then that Bijou revealed the truth of her corruption (see [Bijou-Ina: Sisters](#edge:bijou-ina-bottom-3-top-0)).
+Consumed by evil—or perhaps just mischief—Bijou decided to [torment](https://www.youtube.com/live/8frv4avuyl8?feature=shared\&t=11633) her sister Ina. She blasted Ina’s song, Violet, right next to her. Whether it was an act of malice or simply a prank, it unnerved the purple priestess. Later, Bijou and Ina had a heart-to-heart conversation. It was then that Bijou revealed the truth of her corruption (see [Bijou-Ina: Sisters](#edge:bijou-ina)).
 
 Toward the end of the day, after participating in the tournament, Bijou confided in Frieda Adams Antoinette Senior. She unveiled her identity as the Stain Princess and shared her plans to take over the kingdom. To her delight, Frieda knelt before her, pledging loyalty and offering to aid in her conquest... but Bijou’s excitement was short-lived; Frieda quickly revealed she was tricking her. The owl lady declared her intention to defeat Bijou and become a hero herself.
 

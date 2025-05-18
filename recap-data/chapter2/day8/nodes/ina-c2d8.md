@@ -1,4 +1,4 @@
-After much reflection on the tangled web of emotions between her, her consort, and Tam, Ina came to a bittersweet conclusion—she needed more time. The pink one’s [letter](https://www.youtube.com/live/PoM6ETBlOVY?t=205), filled with passion yet laced with confusion, only deepened the haze surrounding her heart. And so, Ina made her decision: she would write one final letter to her consort before stepping away, seeking peace and clarity in solitude. (see [Hot Pink One–Ina: So Long, Consort](#edge:ina-irys-right-2-left-2))
+After much reflection on the tangled web of emotions between her, her consort, and Tam, Ina came to a bittersweet conclusion—she needed more time. The pink one’s [letter](https://www.youtube.com/live/PoM6ETBlOVY?t=205), filled with passion yet laced with confusion, only deepened the haze surrounding her heart. And so, Ina made her decision: she would write one final letter to her consort before stepping away, seeking peace and clarity in solitude. (see [Hot Pink One–Ina: So Long, Consort](#edge:ina-irys))
 
 [One final "Dear consort"](#embed:https://www.youtube.com/live/PoM6ETBlOVY?t=723)
 
@@ -12,4 +12,4 @@ She laughed with the others, took [commemorative photos](https://www.youtube.com
 
 Until it didn’t.
 
-(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander-right-2-left-2))
+(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))

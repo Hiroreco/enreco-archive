@@ -6,9 +6,9 @@ Turning to Cecilia for legal advice, Nerissa recounted the details of the Mococo
 
 Though their discussion was cut short by work duties. As FaunaMart employees, they were tasked with gathering leather for the library’s bookshelves. At the same time, Nerissa accompanied Fauna and Mumei to the Volcanic Dungeon to lend her support. Following their dungeon expedition, Nerissa indulged in some more gambling, [losing 500 coins](https://www.youtube.com/live/iy0fMrzhwOY?feature=shared\&t=6495)—an insignificant dent in her wealth of over 50,000 coins.
 
-Mococo finally arrived, and Nerissa braced herself for the climax of the lottery drama. After numerous attempts and headaches, the two managed to resolve their differences. Mococo dropped her lawsuit, putting an end to the ordeal (see [Nerissa-Mococo: A Resolution](#edge:mococo-nerissa-right-2-right-1)).
+Mococo finally arrived, and Nerissa braced herself for the climax of the lottery drama. After numerous attempts and headaches, the two managed to resolve their differences. Mococo dropped her lawsuit, putting an end to the ordeal (see [Nerissa-Mococo: A Resolution](#edge:mococo-nerissa)).
 
-With one major issue resolved, Nerissa turned her attention to another: her misunderstanding with Elizabeth from day four. Determined to make amends, Nerissa prepared herself for a heartfelt apology (see [Nerissa-Elizabeth: Bloodraven](#edge:liz-nerissa-right-3-left-2)).
+With one major issue resolved, Nerissa turned her attention to another: her misunderstanding with Elizabeth from day four. Determined to make amends, Nerissa prepared herself for a heartfelt apology (see [Nerissa-Elizabeth: Bloodraven](#edge:liz-nerissa)).
 
 Finally free from unresolved conflicts, Nerissa joined forces with Elizabeth, Shiori, Fuwawa, and Mococo to tackle the *Ancient Sewer Dungeon*. Together, the group successfully completed the dungeon, recovering the [memories](https://www.youtube.com/live/Lv6_Xl1u_Ss?feature=shared\&t=5390) of *Amelia Watson*.
 
@@ -16,4 +16,4 @@ As the day wound down, Nerissa upheld her role as a just and diligent member of 
 
 [Employee Of The Month](#embed:https://www.youtube.com/live/Lv6_Xl1u_Ss?t=8914)
 
-To cap off her eventful day, Nerissa became the Hot Pink One’s side chick (see [Hot Pink One-Nerissa: Side Chick No.4](#edge:irys-nerissa-left-2-right-2)).
+To cap off her eventful day, Nerissa became the Hot Pink One’s side chick (see [Hot Pink One-Nerissa: Side Chick No.4](#edge:irys-nerissa)).

@@ -2,7 +2,7 @@ Bijou stepped into her fourth day brimming with newfound confidence. Armed with 
 
 [Gacha Moai Statue](#embed:https://www.youtube.com/live/ZV47e39yyMU?t=818)
 
-It was amidst these events that Bijou claimed her title of Princess, but not just any princess, the Princess of the Kingdom of Evergreen, with Cecilia as her knight (see Cecilia-Bijou: Knight of Evergreen). Everyone around her seemed to be claiming grand titles like queens, so why not stake her own claim? Adding to the familial drama, she also announced that Queen Mario was now her mother, making her the proud daughter of two mothers: Elizabeth and Mario (see [Mario-Bijou: Mommy!](#edge:raora-bijou-bottom-2-top-2)).
+It was amidst these events that Bijou claimed her title of Princess, but not just any princess, the Princess of the Kingdom of Evergreen, with Cecilia as her knight (see Cecilia-Bijou: Knight of Evergreen). Everyone around her seemed to be claiming grand titles like queens, so why not stake her own claim? Adding to the familial drama, she also announced that Queen Mario was now her mother, making her the proud daughter of two mothers: Elizabeth and Mario (see [Mario-Bijou: Mommy!](#edge:raora-bijou)).
 
 Later in the day, Bijou joined forces with Shiori, Ina, Cecilia, and the whimsically named Napoleon Galileo Aristotle Targaryen to take on the Eldritch Horror Dungeon. Their quest was [successful](https://www.youtube.com/live/ZV47e39yyMU?feature=shared\&t=8517), though the celebratory moments took a bizarre turn with everyone indulging in some peculiar [licking antics](https://www.youtube.com/live/ZV47e39yyMU?feature=shared\&t=9603).
 

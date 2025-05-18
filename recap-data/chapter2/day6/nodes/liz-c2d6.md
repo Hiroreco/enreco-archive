@@ -24,7 +24,7 @@ Raora has a fit about the books, not wanting Liz to read them before taking off,
 
 Concern rises within Elizabeth as she reads on. Once she encounters the Witch, she quickly asks Nerissa if she's okay. Questions lead to no one knowing how the painting got down below the ground, which leads to Elizabeth requesting that Nerissa stay the night in her LOO for safety.
 
-After a brief break, Nerissa again approaches Elizabeth about reading The Cell by Shiori (see [Elizabeth-Nerissa: Paper Thin](#edge:liz-nerissa-right-2-left-2)).
+After a brief break, Nerissa again approaches Elizabeth about reading The Cell by Shiori (see [Elizabeth-Nerissa: Paper Thin](#edge:liz-nerissa)).
 
 Concern rises within the knight. With the worries on her mind, Elizabeth hunts down Shiori, calling her stories scams and lies. However, Shiori asks her an unexpected question.
 

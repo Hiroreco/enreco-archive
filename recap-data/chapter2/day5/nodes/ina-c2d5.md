@@ -5,11 +5,11 @@ Surely the Hero would take the news in stride.
 Anyway, watch as the well-rested Hero and co. inspect the totally-not-a-Necronomicon-like object she wields in the battlefields. The tome bends reality in such a way that its very manifestation in this world was obscure, but one thing's for sure: it is a [progenitor](https://youtu.be/OxKP4ED-xz8?t=278s). Of what, who knows — the book is sealed shut — but actions speak louder than written words. Hard cover equals hard-hitting slam ~~poetry~~.
 
 The Hot Purple One was distinct from her Pink counterpart, in that *she* was perfectly literate, and her Revelation showcase was not the only time she was put to the test today;
-* Shakira made her thoughts heard, seeking amends for her transgressions (see: [Ina-Kiara: Love Thy Neighbor](#edge:ina-kiara-bottom-2-top-2));
+* Shakira made her thoughts heard, seeking amends for her transgressions (see: [Ina-Kiara: Love Thy Neighbor](#edge:ina-kiara));
 * The Peasant penned [a confession](https://youtu.be/OxKP4ED-xz8?t=978s) to a knight who was at the dentist, and Ina was its betaer. It was good enough to publish as-is!
 * Later on, the highly-discussed Hot Pink One [received the wrong Charm](https://youtu.be/OxKP4ED-xz8?t=5606s)... Oh, I guess heroes do get some things wrong.
 
-While she would not get to see the resolution to her [Sneak 100 cutscene](https://youtu.be/OxKP4ED-xz8?t=1606s) (see: [Bae-Khaos](#edge:bae-khaos-top-3-top-1)), she left her mark by [helping author](https://youtu.be/OxKP4ED-xz8?t=1902s) the Baece Attorney event that leads to it. Such was the humble Hero's fate to miss out on [cinema](https://youtu.be/OxKP4ED-xz8?t=12740s).
+While she would not get to see the resolution to her [Sneak 100 cutscene](https://youtu.be/OxKP4ED-xz8?t=1606s) (see: [Bae-Khaos](#edge:bae-khaos)), she left her mark by [helping author](https://youtu.be/OxKP4ED-xz8?t=1902s) the Baece Attorney event that leads to it. Such was the humble Hero's fate to miss out on [cinema](https://youtu.be/OxKP4ED-xz8?t=12740s).
 
 [What does Libestal mean to NinoIna?](#embed:https://youtu.be/OxKP4ED-xz8?t=4121s)
 
@@ -17,6 +17,6 @@ The potato fairy's prophet rolled a Nat 20 on [persuading Chaos Incarnate](https
 
 [Handheld cured pork, what is your wisdom?](#embed:https://youtu.be/OxKP4ED-xz8?t=4498s)
 
-Shortly before logging off, Ina squeezed in some more illegally-obtained [rising action](https://youtu.be/OxKP4ED-xz8?t=7146s) footage (see [Elizabeth-Nerissa: No Room for Drama](#edge:liz-nerissa-right-2-left-2)). Not really sure what to make of it, but she'll [sleep on it](https://youtu.be/OxKP4ED-xz8?t=8162s) for the time being.
+Shortly before logging off, Ina squeezed in some more illegally-obtained [rising action](https://youtu.be/OxKP4ED-xz8?t=7146s) footage (see [Elizabeth-Nerissa: No Room for Drama](#edge:liz-nerissa)). Not really sure what to make of it, but she'll [sleep on it](https://youtu.be/OxKP4ED-xz8?t=8162s) for the time being.
 
 [...tell my consort eternal...that I... MEOWMEOW](#embed:https://youtu.be/OxKP4ED-xz8?t=7311s)

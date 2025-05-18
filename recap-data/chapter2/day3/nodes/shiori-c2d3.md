@@ -14,7 +14,7 @@ A world of fantasy, time travel, cutthroat capitalism, minimum wage labor—ther
 
 Novel complete.
 
-Next hurdle? How to market it. How to make money off it. Luckily for her, Shiori knew just the knight to manipulate—I mean, humbly ask for help (see [Shiori-Gonathon: The Diamond and the Black Pearl](#edge:gigi-shiori-top-2-bottom-1)).
+Next hurdle? How to market it. How to make money off it. Luckily for her, Shiori knew just the knight to manipulate—I mean, humbly ask for help (see [Shiori-Gonathon: The Diamond and the Black Pearl](#edge:gigi-shiori)).
 
 She ended her day documenting her day in her journal, about the new bonds she'd just made with the humble knight.
 

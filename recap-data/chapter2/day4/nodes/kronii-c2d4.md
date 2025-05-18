@@ -16,13 +16,13 @@ Unfortunately, the truth didn’t exactly come with celebratory fanfare.
 
 In fact, it brought more headaches than clarity:
 
-* The love of her life, the devoted peasant who once adored her, and that unhinged green gremlin who never misses a chance to stir chaos—*all* of them were under the impression that she was a tyrant. A cold, dictatorial overlord (see [Kronii-IRyS: Tyrannical Ruler](#edge:irys-kronii-right-2-left-2)).
+* The love of her life, the devoted peasant who once adored her, and that unhinged green gremlin who never misses a chance to stir chaos—*all* of them were under the impression that she was a tyrant. A cold, dictatorial overlord (see [Kronii-IRyS: Tyrannical Ruler](#edge:irys-kronii)).
 
-* Speaking of the green one—Immerkind, obsessed with the Princess as always—nearly jumped off the deep end, and Kronii had to drag her back from the edge (see [Kronii-Immerkind: Drinks between Queen and Knight](#edge:cecilia-kronii-right-1-top-3)).
+* Speaking of the green one—Immerkind, obsessed with the Princess as always—nearly jumped off the deep end, and Kronii had to drag her back from the edge (see [Kronii-Immerkind: Drinks between Queen and Knight](#edge:cecilia-kronii)).
 
-* Geting dragged into adopting someone else's once daughter (see [Kronii-Bijou: Not Again...](#edge:bijou-kronii-top-2-top-2))
+* Geting dragged into adopting someone else's once daughter (see [Kronii-Bijou: Not Again...](#edge:bijou-kronii))
 
-* And to top it all off, Gonathon G, her ever-loyal servant, was in the middle of a love fiasco that she somehow got [blamed for](https://www.youtube.com/live/YVyeKQ-6Ka8?si=52HWNzLYw1YlgPp8&t=10344). Something about heartbreak and false hope and *she* ended up the scapegoat (see [Kronii-Gonathon: The Queen’s Gambit](#edge:kronii-gigi-right-2-bottom-1)).
+* And to top it all off, Gonathon G, her ever-loyal servant, was in the middle of a love fiasco that she somehow got [blamed for](https://www.youtube.com/live/YVyeKQ-6Ka8?si=52HWNzLYw1YlgPp8&t=10344). Something about heartbreak and false hope and *she* ended up the scapegoat (see [Kronii-Gonathon: The Queen’s Gambit](#edge:kronii-gigi)).
 
 [Is this my fault?](#embed:https://www.youtube.com/live/YVyeKQ-6Ka8?si=vXgt9AUn-I4rIQ5o&t=11385)
 

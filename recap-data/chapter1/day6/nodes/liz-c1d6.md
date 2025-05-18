@@ -6,9 +6,9 @@ From what Elizabeth knew, they had one day left before *"the end"*. A final batt
 
 Upon joining the kingdom, Elizabeth noticed a missed call from Gonathon. She called him back, and he requested a private conversation. Given how rare one-on-one interactions with the knight were, Elizabeth couldn’t resist teasing him a little.
 
-Yet, as she listened to him, Elizabeth saw something in Gonathon she hadn’t fully appreciated before. His unwavering loyalty to his queen and his dedication moved her, and she made a surprising decision: she offered him her blade (see [Elizabeth-Gonathon: Unexpected Alliance](#edge:liz-gigi-top-2-right-2)).
+Yet, as she listened to him, Elizabeth saw something in Gonathon she hadn’t fully appreciated before. His unwavering loyalty to his queen and his dedication moved her, and she made a surprising decision: she offered him her blade (see [Elizabeth-Gonathon: Unexpected Alliance](#edge:liz-gigi)).
 
-Of course, a serious moment with Elizabeth wouldn’t be complete without her usual shenanigans with Nerissa. Today’s antics somehow managed to outshine even the chaos of the fifth day. They involved hexing, marriages, and…childbirth? (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa-right-3-left-2)).
+Of course, a serious moment with Elizabeth wouldn’t be complete without her usual shenanigans with Nerissa. Today’s antics somehow managed to outshine even the chaos of the fifth day. They involved hexing, marriages, and…childbirth? (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa)).
 
 After their mischief, Elizabeth refocused on the king’s words about preparation. Inspired, she came up with the idea to organize a tournament. It would be a chance for everyone to train, test, and hone their swordsmanship.
 

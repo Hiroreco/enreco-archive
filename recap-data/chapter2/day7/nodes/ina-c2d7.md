@@ -12,6 +12,6 @@ The party invitation reminded her just how much she loved that woman—her eyes,
 
 They exchanged their letters just before the party began. Turns out, the pink one had something to say too... she was pregnant? Ina was happy—maybe even overjoyed—but the news was sudden. Still, surely everything would stay the same, and nothing could ruin this, right?
 
-Well... it all came tumbling down from there (see [IRyS-Ina: Turning To Another](#edge:ina-irys-right-2-left-2)). And surely it wouldn’t lead to a side story where Ina would end up holding another’s hand and betraying the pink one, right? (see [Ina-Kronii: Netorare](#edge:kronii-ina-left-1-right-1)).
+Well... it all came tumbling down from there (see [IRyS-Ina: Turning To Another](#edge:ina-irys)). And surely it wouldn’t lead to a side story where Ina would end up holding another’s hand and betraying the pink one, right? (see [Ina-Kronii: Netorare](#edge:kronii-ina)).
 
 Well... you already know.

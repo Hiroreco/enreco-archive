@@ -14,7 +14,7 @@ Despite her paranoia, she made it through the fight and was sorted into the [Amb
 
 Once in the kingdom, Bae’s adventures continued. She immediately clashed with *Cleopatra Eisenhower Da Vinci III the Great*, known as Three, who was also part of Amber Coin. Three wasted no time calling Bae a [weirdo](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared\&t=3510). Three did make fun of Bae before when someone tried to claim her [precious corner](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared\&t=2482), but this solidified the fact that her guildmate was not someone she can get along with.
 
-The two developed a love-hate relationship that leaned heavily on the hate. (see [Bae-Three: Friends](#edge:bae-moom-bottom-2-top-2))
+The two developed a love-hate relationship that leaned heavily on the hate. (see [Bae-Three: Friends](#edge:bae-moom))
 
 Despite her grumbling and reluctance, Bae completed her quests diligently. She hated the King for dragging her away from her comfortable life but went along with the tasks nonetheless. Toward the end of the day, she and her guildmates tackled the *Underworld Dungeon* and recovered memories of [Mori Calliope](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared\&t=9842).
 

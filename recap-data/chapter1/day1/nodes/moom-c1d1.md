@@ -10,7 +10,7 @@ Next thing we know, our hero had somehow skipped ahead and was already fighting 
 
 When she first met up with her guildmates, after calling Bae a weirdo, Mumei introduced herself as *Cleopatra Eisenhower Da Vinci The Great III*. Bae shortened it to *Three*, for obvious reasons. Later, at the quest board, Three’s eyes lit up when she saw someone riding a [horse](https://www.youtube.com/live/vuij6YTMIzw?feature=shared\&t=3947). From that moment on, she was all about the horses. She enjoyed herself [way](https://www.youtube.com/live/vuij6YTMIzw?t=4951s) too much, riding around like a knight from some chaotic medieval fair. Unfortunately for everyone else, her idea of fun included using her steed as a [battering ram](https://www.youtube.com/live/vuij6YTMIzw?feature=shared\&t=5259).
 
-Although they started off rocky, Mumei and Bae ended up sticking together for most of the day. Sure, they bickered and called each other names, but somewhere along the way, a weird little friendship formed (see [Bae-Three: Friends(?)](#edge:bae-moom-bottom-2-top-2)).
+Although they started off rocky, Mumei and Bae ended up sticking together for most of the day. Sure, they bickered and called each other names, but somewhere along the way, a weird little friendship formed (see [Bae-Three: Friends(?)](#edge:bae-moom)).
 
 By the end of the day, Three and her guildmates conquered the *Underworld Dungeon* and recovered *[Mori Calliope’s](https://www.youtube.com/live/vuij6YTMIzw?feature=shared\&t=9831)* memories. Her start was odd indeed, but Three throughout the day had fun nontheless. Here’s hoping things stay fun—and that her love for trampling people with horses doesn’t get her in too much trouble.
 

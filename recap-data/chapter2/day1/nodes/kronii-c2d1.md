@@ -2,7 +2,7 @@ The first thing the blue maiden saw upon waking was a magical talking cat explai
 
 Tam—or was she Tam? The blue maiden couldn't recall. Her name, her past journey, even her former comrades were but faint echoes in her mind. Foggy, half-remembered fragments. But she didn’t seem to care. As ever, she remained completely deadpan, even in the midst of chaos and confusion.
 
-Others, however, seemed to remember her. Calli was the first to call her by name—Tam Gandr—followed by Gonathon, who felt an odd sense of loyalty toward her (see [Gonathon-Tam: A Sense of Loyalty](#edge:kronii-gigi-right-2-bottom-1)). Elizabeth? She straight up remembered Tam, no doubt about it. Even the Hot Pink One chimed in with a nickname of her own (see [Tam-Hot Pink One: Timmy and Pinky](#edge:irys-kronii-right-2-left-2)).
+Others, however, seemed to remember her. Calli was the first to call her by name—Tam Gandr—followed by Gonathon, who felt an odd sense of loyalty toward her (see [Gonathon-Tam: A Sense of Loyalty](#edge:kronii-gigi)). Elizabeth? She straight up remembered Tam, no doubt about it. Even the Hot Pink One chimed in with a nickname of her own (see [Tam-Hot Pink One: Timmy and Pinky](#edge:irys-kronii)).
 
 Strangely enough, Tam became something of a focal point. Perhaps it was the uniqueness of her name—or perhaps something else—but people seemed drawn to her. 
 

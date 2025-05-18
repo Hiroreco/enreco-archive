@@ -23,8 +23,8 @@ To achieve her goal, Cecilia detailed an intricate scheme to possess the soul of
 
 Through an ancient ritual, Cecilia aimed to control Bijou as a puppet, granting her the means to seize power. Despite the ethical implications of her plan, Cecilia’s cheerful demeanor and innocent laugh seemed to mask her true intentions—or at least make them more palatable to her allies.
 
-Before initiating her scheme, Cecilia attended to other matters. Noticing her lack of gear compared to her peers, she resorted to asking others for equipment, avoiding the hard work herself. She also volunteered as Mococo’s lawyer in the lottery debacle (see [Cecilia-Mococo: Better Call Cecilia](#edge:mococo-cecilia-top-2-left-2)). Despite having occupying about three different roles at this point (a knight, an employee, and a lawyer), Cecilia was still depressingly poor.
+Before initiating her scheme, Cecilia attended to other matters. Noticing her lack of gear compared to her peers, she resorted to asking others for equipment, avoiding the hard work herself. She also volunteered as Mococo’s lawyer in the lottery debacle (see [Cecilia-Mococo: Better Call Cecilia](#edge:mococo-cecilia)). Despite having occupying about three different roles at this point (a knight, an employee, and a lawyer), Cecilia was still depressingly poor.
 
-Next, she accompanied Bijou to investigate the king. The plan turned chaotic when an attempted assassination ended with Cecilia slipping and falling (see [Cecilia-Bijou: A Failed Coup](#edge:bijou-cecilia-right-2-bottom-2)).
+Next, she accompanied Bijou to investigate the king. The plan turned chaotic when an attempted assassination ended with Cecilia slipping and falling (see [Cecilia-Bijou: A Failed Coup](#edge:bijou-cecilia)).
 
 Undeterred, Cecilia joined Gonathon, Bijou, Raora, and the Hot Pink One in exploring the *Ancient Sewer Dungeon*. Together, they successfully recovered *Amelia Watson’s* [memories](https://www.youtube.com/live/2ATTd32AV-Q?feature=shared\&t=12991).

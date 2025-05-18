@@ -12,7 +12,7 @@ Seeking answers, Gonathon confronted Bijou and requested that she remove the hat
 
 [She's not taking it off](#embed:https://www.youtube.com/embed/oygFzGlMT28?si=2KtGxfUiZWo9TRa6\&start=2475)
 
-Realizing he couldn’t solve this alone, Gonathon reluctantly sought help from Elizabeth. Despite their occasional clashes, he knew she was resourceful and could aid in uncovering the truth (see [Gonathon-Elizabeth: Unexpected Alliance](#edge:liz-gigi-top-2-right-2)).
+Realizing he couldn’t solve this alone, Gonathon reluctantly sought help from Elizabeth. Despite their occasional clashes, he knew she was resourceful and could aid in uncovering the truth (see [Gonathon-Elizabeth: Unexpected Alliance](#edge:liz-gigi)).
 
 The day was far from uneventful. Gonathon found himself embroiled in various occurrences, from witnessing the peculiar romance between Elizabeth and Nerissa to participating in an impromptu dueling tournament. Yet through it all, two traits of Gonathon shone brightly: his unwavering loyalty and his readiness to assist others.
 
@@ -30,6 +30,6 @@ When he greeted her later on, the blonde maiden had no recollection of her dear 
 
 With his queen on an expedition, his guildmate under suspicion of corruption, and his beloved lost to memory, Gonathon’s burdens were heavy.
 
-Yet, he resolved to press on, undeterred by the challenges before him (see [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame-top-2-bottom-2)).
+Yet, he resolved to press on, undeterred by the challenges before him (see [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame)).
 
 ["there is only one for him" by Daaku](https://x.com/koizumi_arata/status/1831971695621808324)

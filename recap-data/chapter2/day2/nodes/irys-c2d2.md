@@ -2,9 +2,9 @@ The Pink One had been a chef for one day—and in that one day, she worked her b
 
 [Questionable business practice](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=b8NxQYC2U1P93sbS&t=784)
 
-She tried confronting the store owner for "corrupting" her brother—not out of jealousy, of course—but the moment she realized the store sold items she needed, she folded on the spot (see [Hot Pink One–Roa: Pink Union](#edge:irys-raora-left-1-top-3)).
+She tried confronting the store owner for "corrupting" her brother—not out of jealousy, of course—but the moment she realized the store sold items she needed, she folded on the spot (see [Hot Pink One–Roa: Pink Union](#edge:irys-raora)).
 
-Given how rough her situation was, she decided to potentially team up with another broke chef struggling to make sales (see [Hot Pink One–Nerissa: Chef Union](#edge:irys-nerissa-bottom-2-top-2)).
+Given how rough her situation was, she decided to potentially team up with another broke chef struggling to make sales (see [Hot Pink One–Nerissa: Chef Union](#edge:irys-nerissa)).
 
 Back on track—today was a big day for the pink lady. A dungeon had opened, and this one *called* to her. Not because of its funny name, [Star Site: Elpis](https://www.youtube.com/live/axlJjQQ_rzU?si=kiT67P23j1CsC3Zx&t=3512), but because of the secrets it promised to unveil.
 
@@ -18,6 +18,6 @@ She wasn’t just a struggling chef trying to sell chocolate cakes—she was IRy
 
 Though the revelation was profound, she didn’t change all that much. Maybe she had always been this way.
 
-To celebrate the occasion, she joined Immerkind and the others for a drinking party by the creek, where IRyS’s commentary made many question her divine status (see [Immerkind–IRyS: Classists](#edge:cecilia-irys-right-2-right-1)).
+To celebrate the occasion, she joined Immerkind and the others for a drinking party by the creek, where IRyS’s commentary made many question her divine status (see [Immerkind–IRyS: Classists](#edge:cecilia-irys)).
 
-Brimming with empathy and goodwill, the pink one later lent a hand to her somewhat close friend Tammy, helping her through the same dungeon (see [Tam–IRyS: Sapphire and Lappie](#edge:irys-kronii-right-2-left-2)).
+Brimming with empathy and goodwill, the pink one later lent a hand to her somewhat close friend Tammy, helping her through the same dungeon (see [Tam–IRyS: Sapphire and Lappie](#edge:irys-kronii)).

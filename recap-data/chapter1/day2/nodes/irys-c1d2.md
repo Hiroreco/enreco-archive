@@ -1,4 +1,4 @@
-The day began with bold intentions from the Hot Pink One, whose first move was to stir up some drama. Targeting Gonathon's newly wedded wife, Jyonathan, at the quest board, the Pink One adopted a flirtatious demeanor, her motives unclear but certainly mischievous. Fortunately, Bijou quickly notified Gonathon, who dashed to the scene and interrupted the Pink One’s antics. His wife was safe, at least for the moment (see [Hot Pink One-Jyonthan: Plan B](#edge:ame-irys-left-2-bottom-2)).
+The day began with bold intentions from the Hot Pink One, whose first move was to stir up some drama. Targeting Gonathon's newly wedded wife, Jyonathan, at the quest board, the Pink One adopted a flirtatious demeanor, her motives unclear but certainly mischievous. Fortunately, Bijou quickly notified Gonathon, who dashed to the scene and interrupted the Pink One’s antics. His wife was safe, at least for the moment (see [Hot Pink One-Jyonthan: Plan B](#edge:ame-irys)).
 
 After the interruption, Bijou invited the group to the Amber Coin casino to try their luck. Despite being part of the Guild of Empathy, Bijou was surprisingly enthusiastic about gambling. The Hot Pink One, while losing her coins at the tables, couldn't help but express envy towards Gonathon, wishing for someone special in her life. Gonathon offered her encouragement, assuring her that her special someone would come along eventually.
 
@@ -20,4 +20,4 @@ At the dungeon’s entrance, the group discussed how their teams should be split
 
 Inside the Ocean Temple Dungeon, the Hot Pink One surprised everyone, including herself, by excelling at puzzles—a rarity given her usual disposition. She credited her newfound intellect to Ina’s hat, which she now considered a source of luck and inspiration. Her team successfully conquered the dungeon, recovering memories of [Gawr Gura](https://www.youtube.com/live/f8W426vzTb8?si=X8em6vc_K7PpG1Mh\&t=9178).
 
-Feeling emboldened by her achievements and newfound clarity, the Pink One realized her feelings for Nino Ina and proposed (see [Hot Pink One-Ina: Enertal Consort](#edge:irys-ina-right-2-left-2))
+Feeling emboldened by her achievements and newfound clarity, the Pink One realized her feelings for Nino Ina and proposed (see [Hot Pink One-Ina: Enertal Consort](#edge:irys-ina))

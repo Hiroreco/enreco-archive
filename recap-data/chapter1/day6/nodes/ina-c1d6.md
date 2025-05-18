@@ -12,7 +12,7 @@ Later, Ina’s mischievous streak resurfaced as she stumbled upon a conversation
 
 [*Cicada noises*](#embed:https://www.youtube.com/embed/3zaM1QIff9U?si=MTxcQMh-nLtocBcE\&start=4520)
 
-Afterward, Ina confronted Bijou directly. What she discovered was chilling: Bijou wasn’t just acting odd; she had become corrupted (see Ina-Bijou: Corrupted for details). This revelation weighed heavily on Ina’s heart. She knew she needed to act but decided to hold off until she could investigate further (see [Bijou-Ina: Sisters](#edge:bijou-ina-bottom-3-top-0)).
+Afterward, Ina confronted Bijou directly. What she discovered was chilling: Bijou wasn’t just acting odd; she had become corrupted (see Ina-Bijou: Corrupted for details). This revelation weighed heavily on Ina’s heart. She knew she needed to act but decided to hold off until she could investigate further (see [Bijou-Ina: Sisters](#edge:bijou-ina)).
 
 The tournament awaited, and Ina participated in the duels. Though she was defeated by Gonathon, she remained proud of her guildmate, who advanced to [victory](https://www.youtube.com/live/3zaM1QIff9U?feature=shared\&t=7150). Still, her joy was tempered by the somber reality of Gonathon’s struggles. His wife, Amelia, had [forgotten him](https://www.youtube.com/live/3zaM1QIff9U?feature=shared\&t=7730). Despite this, Gonathon focused on a greater threat—Bijou, or as she now called herself, the *Stain Princess*, who was believed to be possessed by a sinister force.
 

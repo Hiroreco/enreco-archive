@@ -21,7 +21,7 @@ She looked and looked... And to her surprise, she found letters in the drawers. 
 
 The signs might not have been obvious earlier, but there had certainly been change in the demeanor of the once-sweet maiden. Throughout today, instead of focusing on her food business, or just providing food in general out of the kindness of her heart, she toiled underground, creating space to store a [strange device](https://youtu.be/-BFf3e6YJwY?t=4262) — an instrument that produced enchanting, hypnotic music.
 
-It was quite the effort, as she needed to consult several spirits/ voices and grimoires to craft the device itself. Once done, it proved useful as she witnessed Lady Bloodflame fall prey to her collection of haunting [sounds](https://youtu.be/-BFf3e6YJwY?t=12262) (see: [Elizabeth-Nerissa: Paper-Thin](#edge:liz-nerissa-right-2-left-2)).
+It was quite the effort, as she needed to consult several spirits/ voices and grimoires to craft the device itself. Once done, it proved useful as she witnessed Lady Bloodflame fall prey to her collection of haunting [sounds](https://youtu.be/-BFf3e6YJwY?t=12262) (see: [Elizabeth-Nerissa: Paper-Thin](#edge:liz-nerissa)).
 
 ---
 **Stranger than Fiction**

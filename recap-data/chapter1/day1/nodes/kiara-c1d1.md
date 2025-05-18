@@ -6,7 +6,7 @@ Though Kiara was baffled, her purpose became clear when summoned by the king to 
 
 Her Revelation took the form of a blazing sword, [*Burning Phoenix*](https://www.youtube.com/live/izEX6XKyApQ?feature=shared\&t=3181), carving a path of flames through its enemies.
 
-Shakira was sorted into the *Amber Coin* guild, a lively group that nearly gained another member, The Hot Pink One, before the Cerulean Cup  reclaimed the maiden despite Kiara's bold [attempt](https://www.youtube.com/live/izEX6XKyApQ?feature=shared\&t=5610) to recruit her. But no worries, as her guild had a pink member of its own (see [Shakira-Raora: Big Pink Cat](#edge:kiara-raora-bottom-2-top-2)).
+Shakira was sorted into the *Amber Coin* guild, a lively group that nearly gained another member, The Hot Pink One, before the Cerulean Cup  reclaimed the maiden despite Kiara's bold [attempt](https://www.youtube.com/live/izEX6XKyApQ?feature=shared\&t=5610) to recruit her. But no worries, as her guild had a pink member of its own (see [Shakira-Raora: Big Pink Cat](#edge:kiara-raora)).
 
 Determined to forge her own path, Kiara embarked on her first major quest with her guildmates: delving into the *Underworld dungeon*. There, they sought to recover the memories of [Mori Calliope](https://www.youtube.com/live/izEX6XKyApQ?feature=shared\&t=9829), someone Kiara felt an inexplicable, deep connection to. With each step of their journey, Kiara grew more resolved to uncover the truth behind their strange new world and her place within it.
 

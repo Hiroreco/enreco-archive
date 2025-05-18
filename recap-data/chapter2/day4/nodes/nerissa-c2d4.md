@@ -1,6 +1,6 @@
 Horses were a mere instrument of efficient travel back in the fictitious Libestal, and no two steeds of yours would ever be the same creature, somehow. What logic was there to give them a single name — to pretend that they were the same companion, to form an attachment to it? [Womp womp](https://youtu.be/zVWvu3ozXKM?t=1257s).
 
-There were many errands to square away before today's big event — negotiating services with Immerkind ([you're welcome for the hat](https://youtu.be/zVWvu3ozXKM?t=2258s)), ignoring spam mail, stocking up on her shop's offerings (plus some battle rations on the side), and finding the perfect place to display her portrait (see: [Elizabeth-Nerissa: Frame By Frame](#edge:liz-nerissa-right-2-left-2)).
+There were many errands to square away before today's big event — negotiating services with Immerkind ([you're welcome for the hat](https://youtu.be/zVWvu3ozXKM?t=2258s)), ignoring spam mail, stocking up on her shop's offerings (plus some battle rations on the side), and finding the perfect place to display her portrait (see: [Elizabeth-Nerissa: Frame By Frame](#edge:liz-nerissa)).
 
 ["..and you look like you're about to... Hug..."](#embed:https://youtu.be/zVWvu3ozXKM?t=2618s)
 

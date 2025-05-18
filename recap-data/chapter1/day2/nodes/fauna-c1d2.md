@@ -8,7 +8,7 @@ For 10 coins apiece, customers could try their luck, with the promise that 10% o
 
 [Man I Love Gambling](#embed:https://www.youtube.com/live/eUQWfgVwwpo?t=646)
 
-Construction of the cozy, wooden shop [began](https://www.youtube.com/live/eUQWfgVwwpo?feature=shared\&t=3387), and Fauna envisioned a charming establishment that would eventually sit beside the promised library (once the shop was complete, of course). It wasn’t long before Fauna found her first ~~victim~~ customer (see [Darwin-Fauna: Shady Business](#edge:moom-fauna-top-1-left-2))
+Construction of the cozy, wooden shop [began](https://www.youtube.com/live/eUQWfgVwwpo?feature=shared\&t=3387), and Fauna envisioned a charming establishment that would eventually sit beside the promised library (once the shop was complete, of course). It wasn’t long before Fauna found her first ~~victim~~ customer (see [Darwin-Fauna: Shady Business](#edge:moom-fauna))
 
 With her first sale secured, Fauna spread the word to her guildmate Cecilia, recruiting her to help sell more tickets. Together, they approached Shakira, but the orange lady proved a tough nut to crack. Shakira wasn’t just skeptical; she accused Fauna of exploiting people and declared the lottery an obvious *scam*. She even threatened to report Fauna to the queen, Tam Gandr. But Fauna, unfazed, dismissed the threat as an opportunity for free advertising.
 

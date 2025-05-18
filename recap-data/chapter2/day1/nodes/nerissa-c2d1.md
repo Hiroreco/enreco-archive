@@ -6,6 +6,6 @@ She struck up conversation with Shiori of the Nyavella, though “trying to” w
 
 The nameless maiden took interest in learning the crafts of culinary arts to get by throughout the week. She was on the straight and narrow, focusing on exploring the castle grounds as she completed the Princess’ quests. She placed much trust in fellow Chef Mordon Ramsay to save Ancient Libestal, taking in her well-informed advice on the state of the land. She even agreed to become Mordon’s sous chef in her upcoming tavern, such great developments for her budding career.
 
-The woman with crimson hair reappeared, distrusting of her apparent amnesia, to the point of accusing her to be a witch! (see: [Elizabeth-Nerissa: She's jesting, right?](#edge:liz-nerissa-right-2-left-2))
+The woman with crimson hair reappeared, distrusting of her apparent amnesia, to the point of accusing her to be a witch! (see: [Elizabeth-Nerissa: She's jesting, right?](#edge:liz-nerissa))
 
 Her path converged again with Shiori (who tried to name her Pickles) and Mordon in the cave of Sidero. As luck would have it, the three of them are fledgling Chefs, setting them up for a fine discussion of the future in the restaurant industry while they gathered precious metals.

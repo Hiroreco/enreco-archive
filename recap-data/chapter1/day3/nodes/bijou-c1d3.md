@@ -10,7 +10,7 @@ Knowing that Bijou needed *Stain Bones* for her quest, Fauna advertised that she
 
 However, while struggling to slay the Stains for the bones, Bijou received an [ad call](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=2340) from Fauna, reminding her that she could purchase the bones at her store instead. She continued struggling and received yet another [ad call](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=2565). Eventually, having great difficulty acquiring the bones on her own, she yielded and returned to FaunaMart to [buy them](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=3325).
 
-Continuing her day, Bijou noticed that her wife, Shiori, was awake and went to greet her. However, during their conversation, she couldn’t help but notice Shiori referring to her as *"my other wife"*, hinting at a relationship with another woman (see [Bijou-Shiori: Soap Opera](#edge:shiori-bijou-right-2-left-2)).
+Continuing her day, Bijou noticed that her wife, Shiori, was awake and went to greet her. However, during their conversation, she couldn’t help but notice Shiori referring to her as *"my other wife"*, hinting at a relationship with another woman (see [Bijou-Shiori: Soap Opera](#edge:shiori-bijou)).
 
 After this, they turned their attention to one of the primary tasks for the day: tackling the *Eldritch Horror Dungeon*. Joining Bijou were Shiori, Tam, and Gonathon. Together, they conquered the dungeon and recovered [memories](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=12019) of *Ninomae Ina'nis*.
 

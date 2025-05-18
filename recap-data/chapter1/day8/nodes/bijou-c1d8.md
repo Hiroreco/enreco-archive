@@ -14,13 +14,13 @@ Bijou’s ambition extended beyond destruction. She envisioned rewriting the kin
 
 [3AM chuuni speech](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=5ujXRmx4bgpcTv1c\&start=1757)
 
-She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama"](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=6121). Even in her chaos, she found time to write her "spicy fics", boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou-top-4-left-4)).
+She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama"](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=6121). Even in her chaos, she found time to write her "spicy fics", boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou)).
 
 Bijou’s suspicions of having allies proved correct. Slowly, Mococo, Fuwawa, Nerissa, and even Shiori succumbed to the corruption, joining her in wreaking havoc. However, her newfound power began unraveling when she faced her mother, Mario. Mario, heartbroken and in tears, begged Bijou to stop, only to be rejected.
 
 [I'm sorry, mother](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=10794)
 
-The turning point came when Bijou confronted her sister, Ina. Ina vowed to save Bijou, even if it meant putting her down. Bijou scoffed at the notion but couldn’t deny that her allies were falling, one by one, cured of their corruption through trickery. Realizing she was being cornered, Bijou proposed a compromise: a duel with Ina. If Bijou won, she would corrupt everyone. If Ina won, Bijou would drink the cure. It was all or nothing (see [Bijou-Ina: Wooden Shovel](#edge:bijou-ina-bottom-3-top-0)).
+The turning point came when Bijou confronted her sister, Ina. Ina vowed to save Bijou, even if it meant putting her down. Bijou scoffed at the notion but couldn’t deny that her allies were falling, one by one, cured of their corruption through trickery. Realizing she was being cornered, Bijou proposed a compromise: a duel with Ina. If Bijou won, she would corrupt everyone. If Ina won, Bijou would drink the cure. It was all or nothing (see [Bijou-Ina: Wooden Shovel](#edge:bijou-ina)).
 
 Despite her strength and cunning, Bijou couldn’t overcome Ina’s resolve. She lost the duel and was forced to drink the cure. The corruption left her, and for the first time in what felt like an eternity, Bijou was herself again.
 
@@ -28,7 +28,7 @@ The kingdom rejoiced. Mario’s tears of sorrow turned to joy as she embraced he
 
 [I'm sorry for everything](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=12247)
 
-Awakened with a clear mind, Bijou reflected on the dangers of losing herself to control, whether by corruption or others’ expectations. Determined to redefine herself, she severed ties with her superficial relationships, including Shiori, Hot Pink One, and Nerissa (see [Divorce No.1](#edge:shiori-bijou-right-2-left-2), [No.2](#edge:bijou-irys-bottom-2-top-2), and [No.3](#edge:nerissa-bijou-top-4-left-4)).
+Awakened with a clear mind, Bijou reflected on the dangers of losing herself to control, whether by corruption or others’ expectations. Determined to redefine herself, she severed ties with her superficial relationships, including Shiori, Hot Pink One, and Nerissa (see [Divorce No.1](#edge:shiori-bijou), [No.2](#edge:bijou-irys), and [No.3](#edge:nerissa-bijou)).
 
 Finally, Bijou stood alongside her comrades for the final battle against the [Stain King](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=15132). Channeling her fury at the corruption that had consumed her, she fought fiercely, her gemstones striking true. Though the battle was won, the heroes faced an unsettling revelation about the king’s true nature (see [King: The True Evil](#node:king-of-libestal)).
 

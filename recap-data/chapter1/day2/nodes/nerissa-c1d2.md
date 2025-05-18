@@ -1,4 +1,4 @@
-Nerissa made her debut on day two, joining mid-conversation with her (self-proclaimed) wife , Shiori, who at the time was soloing the second dungeon. Their exchange went as expected for any "married" couple—playful flirting mixed with odd and suggestive banter (see [Shiori-Nerissa: Keeping Company](#edge:shiori-nerissa-bottom-2-top-2)).
+Nerissa made her debut on day two, joining mid-conversation with her (self-proclaimed) wife , Shiori, who at the time was soloing the second dungeon. Their exchange went as expected for any "married" couple—playful flirting mixed with odd and suggestive banter (see [Shiori-Nerissa: Keeping Company](#edge:shiori-nerissa)).
 
 Nerissa then had her first visit to the casino, and beginner’s luck seemed to be on her side. While the other three faced were losing both their coins and their sanity, Nerissa was winning every single round. By the end, she had amassed a staggering 1,500 coins, leaving her two guildmates far behind with only 10 and even 0 coins between them.
 

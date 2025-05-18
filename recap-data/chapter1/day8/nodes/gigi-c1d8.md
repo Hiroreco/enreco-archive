@@ -20,7 +20,7 @@ Was this truly the end? No. He didn’t have to shoulder this burden alone. This
 
 The plan was risky but [successful](https://www.youtube.com/live/WvRIdaH107U?feature=shared\&t=7019). One by one, the corrupted were cured, and the kingdom slowly began to heal. Gonathon felt an immense weight lifted from his shoulders. His efforts had not been in vain.
 
-With peace beginning to return, Gonathon’s thoughts lingered on Amelia. Was she still obsessed with diamonds? His worry was interrupted by an urgent call from Ina, summoning him to address one final challenge—a test of his unwavering devotion to Amelia (see [Gonathon-Amelia: A Knight's Wish](#edge:gigi-ame-top-2-bottom-2)).
+With peace beginning to return, Gonathon’s thoughts lingered on Amelia. Was she still obsessed with diamonds? His worry was interrupted by an urgent call from Ina, summoning him to address one final challenge—a test of his unwavering devotion to Amelia (see [Gonathon-Amelia: A Knight's Wish](#edge:gigi-ame)).
 
 And then came the final battle. Everything had led to this moment. Gonathon, alongside the other heroes, faced the [Stain King](https://www.youtube.com/live/WvRIdaH107U?feature=shared\&t=11048) in a grueling and merciless fight. Every blow he landed was fueled by his righteous spirit and his determination to protect his loved ones
 

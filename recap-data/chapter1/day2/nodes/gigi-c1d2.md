@@ -4,7 +4,7 @@ However, before venturing into the depths, a bizarre conversation unfolded, leav
 
 [What is this conversation](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=35)
 
-After clearing the dungeon, Gonathon’s day only grew more eventful. A surprising twist came in the form of a small marriage ceremony, binding him and *Jyonathan* in holy—or perhaps chaotic—matrimony (see [Gonathon-Jyonathan: My Pearl!](#edge:gigi-ame-top-2-bottom-2)).
+After clearing the dungeon, Gonathon’s day only grew more eventful. A surprising twist came in the form of a small marriage ceremony, binding him and *Jyonathan* in holy—or perhaps chaotic—matrimony (see [Gonathon-Jyonathan: My Pearl!](#edge:gigi-ame)).
 
 The day wasn’t done with its events. Joined by his guildmates, Gonathon reported recent kingdom happenings to Queen Tam Gandr, including a scam orchestrated by the Scarlet Wand guild involving fraudulent [lottery tickets](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=5324). At the quest board, while seeking more information about the scam from Shakira, the group encountered Elizabeth, sparking immediate tension. Cerulean Cup braced for confrontation.
 

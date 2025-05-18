@@ -2,7 +2,7 @@ A Hero Searches for Their Purpose
 
 Returning from her day training in the forest, Gonathon had much to catch up on, chief among them being the need to complete not one, but two dungeons. However, what initially looked to be a simple day of adventuring soon became anything but. 
 
-Much of Gonathon's day would be intertwined with Cecilia Immerkind (see [Cecilia-Gonathon: Wolves Before Harlots](#edge:cecilia-gigi-left-2-right-2)). Immerkind revealed her greatest desire: to win the love of the Princess of Libestal. Eager to assist her dawg, Gonathon agreed to help her. Moved by Gonathon's kindness, Immerkind declared that they had become more than dawgs, they were now wolves, and this led to the creation of the Wolf Pack, with Mordan Ramsey, Kiara, and Tam Gandr eventually joining as well.
+Much of Gonathon's day would be intertwined with Cecilia Immerkind (see [Cecilia-Gonathon: Wolves Before Harlots](#edge:cecilia-gigi)). Immerkind revealed her greatest desire: to win the love of the Princess of Libestal. Eager to assist her dawg, Gonathon agreed to help her. Moved by Gonathon's kindness, Immerkind declared that they had become more than dawgs, they were now wolves, and this led to the creation of the Wolf Pack, with Mordan Ramsey, Kiara, and Tam Gandr eventually joining as well.
 
 [You are truly kind.](#embed:https://youtu.be/dgfH4qnRlfw?t=2020)
 
@@ -14,9 +14,9 @@ Upon their triumphant return and after upgrading her smithing rank and acquiring
 
 [The pack is the only truth!](#embed:https://youtu.be/dgfH4qnRlfw?t=9538)
 
-While a [second dungeon conquest](https://youtu.be/dgfH4qnRlfw?t=12253) served as another boost of morale, what followed proved to be the spark that would sow chaos in the kingdom. Urged by Kiara to set her up with Cecilia (see [Gonathon-Kiara: A One-Sided Rivalry, A Two-Sided Pact](#edge:gigi-kiara-left-2-bottom-2)), the naive knight convinced Immerkind that the Outlander and Princess were in fact siblings. Whether this was a fib or what she truly believed, this rumor spiraled out of control, leading to the formation of an entire cult that Gonathon remained largely oblivious to. 
+While a [second dungeon conquest](https://youtu.be/dgfH4qnRlfw?t=12253) served as another boost of morale, what followed proved to be the spark that would sow chaos in the kingdom. Urged by Kiara to set her up with Cecilia (see [Gonathon-Kiara: A One-Sided Rivalry, A Two-Sided Pact](#edge:gigi-kiara)), the naive knight convinced Immerkind that the Outlander and Princess were in fact siblings. Whether this was a fib or what she truly believed, this rumor spiraled out of control, leading to the formation of an entire cult that Gonathon remained largely oblivious to. 
 
-The end of the day saw one of the most unexpected twists, with Gonathon falling madly in love with Shiori of the Nyavellas (see [Gonathon-Shiori: The Diamond and the Black Pearl](#edge:gigi-shiori-top-2-bottom-1)). While Shiori's true intentions were still uncertain, this affair served as a temporary reprieve for the troubled knight, and as she wrote her daily journal she mused on the future and her happiness. But could this joy truly last? And what of the fragments of memories that continue to close in all around her? Only time will tell what awaits the Humble Knight in the next few days. 
+The end of the day saw one of the most unexpected twists, with Gonathon falling madly in love with Shiori of the Nyavellas (see [Gonathon-Shiori: The Diamond and the Black Pearl](#edge:gigi-shiori)). While Shiori's true intentions were still uncertain, this affair served as a temporary reprieve for the troubled knight, and as she wrote her daily journal she mused on the future and her happiness. But could this joy truly last? And what of the fragments of memories that continue to close in all around her? Only time will tell what awaits the Humble Knight in the next few days. 
 
 [Writing her daily journal](#embed:https://youtu.be/dgfH4qnRlfw?t=20429)
 

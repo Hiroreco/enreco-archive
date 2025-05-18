@@ -6,7 +6,7 @@ Regardless, there were more pressing matters. Gonathon explained the lottery sca
 
 [Listen to me!](#embed:https://www.youtube.com/live/fIGfh8GmKY8?t=816)
 
-At the quest board, Shakira shared more about the scams. Midway during this, Elizabeth appeared, reigniting the rivalry between her and Tam. Liz, unaware of Tam's name, referred to her as "Tim", much to Tam's irritation. Insults flew—Tam calling Liz a "red thing" and a harlot, sentencing her to death, while Liz retaliated with equal fervor. The heated exchange reached its peak when Liz challenged Tam to a duel ([see Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii-top-3-top-2))
+At the quest board, Shakira shared more about the scams. Midway during this, Elizabeth appeared, reigniting the rivalry between her and Tam. Liz, unaware of Tam's name, referred to her as "Tim", much to Tam's irritation. Insults flew—Tam calling Liz a "red thing" and a harlot, sentencing her to death, while Liz retaliated with equal fervor. The heated exchange reached its peak when Liz challenged Tam to a duel ([see Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii))
 
 As a queen, Tam declared it beneath her, not because she was afraid, not at all, but she claimed as the Queen, violence was not a suited act. She instead asked a subordinate to step in. The Hot Pink One volunteered, eager to settle her score with Liz. After an intense battle, the pink one emerged victorious, to Tam's delight.
 
@@ -16,7 +16,7 @@ Tam's day carried on with the usual shenanigans: completing quests, sharing a [s
 
 Eventually, the group prepared for the *Ocean Temple Dungeon*. After clearing its challenges and recovering Gawr Gura’s [memories](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared\&t=7458), Tam witnessed another guild mate's marriage. This time, the [Hot Pink One](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared\&t=8043). This time, it kinda stung.
 
-Tam later admitted she had feelings for the pink one, making this yet another reminder of her loneliness. Though accustomed to being alone, the sight of her wedded guild mates left her longing for someone special. Nevertheless, Tam continued her day, she was Queen after all, and queens never cry (see [Tam-Hot Pink One: Unrequited Love](#edge:irys-kronii-top-3-left-3)).
+Tam later admitted she had feelings for the pink one, making this yet another reminder of her loneliness. Though accustomed to being alone, the sight of her wedded guild mates left her longing for someone special. Nevertheless, Tam continued her day, she was Queen after all, and queens never cry (see [Tam-Hot Pink One: Unrequited Love](#edge:irys-kronii)).
 
 Tam thought that at the very least, she could provide shelter for her followers. Despite her envy, she still treasured them deeply. With this resolve, Tam set out to build the [guild base](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared\&t=11310).
 

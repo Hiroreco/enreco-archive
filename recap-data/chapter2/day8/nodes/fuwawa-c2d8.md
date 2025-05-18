@@ -16,4 +16,4 @@ Still, something tugged at her heart. A subtle feeling, hard to explain, but it 
 
 She penned her [final diary entry](https://www.youtube.com/live/9A1cO7jL0jw?t=3729), wrapping up her journey in Libestal with warm memories and hopeful thoughts. That lingering feeling, though—about those four—would soon prove to be more than just a whim.
 
-(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander-right-2-left-2))
+(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))

@@ -1,4 +1,4 @@
-Queen Mario and her trusty knight, Cecilia, began their day as any good royal duo might—by casually trespassing into other people’s homes. This seemingly innocent detour led to a shocking revelation for Mario: Tam Gandr, the so-called "fake queen" she had clashed with since day one, the person who had been her sworn nemesis, was... in love with her?! (see [Mario-Tam Gandr: Enemies To Lovers](#edge:raora-kronii-right-2-top-1)).
+Queen Mario and her trusty knight, Cecilia, began their day as any good royal duo might—by casually trespassing into other people’s homes. This seemingly innocent detour led to a shocking revelation for Mario: Tam Gandr, the so-called "fake queen" she had clashed with since day one, the person who had been her sworn nemesis, was... in love with her?! (see [Mario-Tam Gandr: Enemies To Lovers](#edge:raora-kronii)).
 
 Well, that was quite the way to kick off the day. With only one day left before the kingdom’s reckoning, Mario decided it was time to go all out.
 

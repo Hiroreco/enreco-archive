@@ -16,7 +16,7 @@ With the conquest completed, Tam returned to her construction of the Cerulean Cu
 
 [Why did I lie...](#embed:https://www.youtube.com/live/JcRcTRedS_8?feature=shared\&t=4242)
 
-Her work was interrupted further by Raora, the pink cat, whose mere presence sparked the usual verbal sparring. Tam, upon learning that Raora was from Amber Coin—a guild she despised—called for Bijou and Gonathon to help her eject Raora, dramatically claiming she was "being harmed" (see [Raora-Tam: Queens Standoff](#edge:raora-kronii-right-2-top-1)).
+Her work was interrupted further by Raora, the pink cat, whose mere presence sparked the usual verbal sparring. Tam, upon learning that Raora was from Amber Coin—a guild she despised—called for Bijou and Gonathon to help her eject Raora, dramatically claiming she was "being harmed" (see [Raora-Tam: Queens Standoff](#edge:raora-kronii)).
 
 Afterwards, as the day waned, Tam finally found her bits of peace. After all, true to her nature, she found comfort in solitude. Tam turned her attention to the guild base—a project she was determined to finish because this was her last day in the kingdom. She was to attend to urgent business in a [faraway land](https://www.youtube.com/live/JcRcTRedS_8?feature=shared\&t=12460).
 
@@ -24,7 +24,7 @@ But more important than the kingdom itself, this was her last day to spend with 
 
 As much as they caused her head wrinkles, she still cared for their well-being. Her good will had been shown from time to time again, like how she defended Gonathon and the Hot Pink One when they were interrogated by Elizabeth on the first day, or when she reminded Bijou to spend less money on gambling and gacha. She even fought to buy food for everyone despite having little to her name. And now, she was constructing a home for them all—a roof under which they could gather and reside.
 
-The lady in blue was often cruel in her words, but deep inside, her heart was kind, empathetic, and full of care. The guild base was her way of showing this, a gift to the people she had grown to cherish (see [Gonathon-Tam: Safe Journey](#edge:gigi-kronii-bottom-2-left-2)).
+The lady in blue was often cruel in her words, but deep inside, her heart was kind, empathetic, and full of care. The guild base was her way of showing this, a gift to the people she had grown to cherish (see [Gonathon-Tam: Safe Journey](#edge:gigi-kronii)).
 
 After many hours of hard labor and frustration, the Cerulean Cup guild base was done.
 

@@ -13,7 +13,7 @@ With the magic communications relic found on her person, Ina was mysteriously co
 
 Some of the books in the Library held [illegible text](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=2848s); It might be Ancient Libestal script, or even a cipher for hive-minds to solve. From what was still readable, though, she learned of an unnamed Library authority whose position that cat succeeded.
 
-In a bizarre twist of fate, Ina reunited with her eternal consort, who the peasant seemed to be [cosmically at odds with](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3150s) (see: [Ina-Hot Pink One: Consort, again](#edge:ina-irys-right-2-left-2)). The group crossed paths with a bubbly Tam Gandr (she's low-key about it), who Ina now called "Tammy".
+In a bizarre twist of fate, Ina reunited with her eternal consort, who the peasant seemed to be [cosmically at odds with](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3150s) (see: [Ina-Hot Pink One: Consort, again](#edge:ina-irys)). The group crossed paths with a bubbly Tam Gandr (she's low-key about it), who Ina now called "Tammy".
     
 Ina was eager to shirk the status of unemployed Hero and attain grand riches, embarking on a [Clean and Simple](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3917s) beeline to the Job Hall, but got lost (again) in the [dark](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3976s) hallways of the castle labyrinth.
     

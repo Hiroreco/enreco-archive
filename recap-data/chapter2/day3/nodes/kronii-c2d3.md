@@ -1,7 +1,7 @@
 Tam might not have had an active "point of view" today, but that didn’t stop the chaos from finding her anyway. Let’s recap…
 
 — Pulled into a full-blown soap opera with her supposed girlfriend? Check. 
-(see [IRyS-Tam: My Best Nightmare](#edge:irys-kronii-right-2-left-2))
+(see [IRyS-Tam: My Best Nightmare](#edge:irys-kronii))
 
 — Unwillingly involved in a bread-based cult where people are brainwashed into becoming into baked goods? Check.
 (see [Peasant The Bae](#node:bae))
@@ -10,5 +10,5 @@ Tam might not have had an active "point of view" today, but that didn’t stop t
 (see [Immerkind](#node:cecilia))
 
 — Somehow ended up joining a wolf pack in the middle of it all? Check.
-(see [Gonathon-Tam: Awooo](#edge:kronii-gigi-right-2-bottom-1))
+(see [Gonathon-Tam: Awooo](#edge:kronii-gigi))
 Yep, that about sums it up.

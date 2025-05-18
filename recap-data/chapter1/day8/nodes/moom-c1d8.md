@@ -4,9 +4,9 @@ Getting sidetracked aside, Nanamoo had a critical mission that day. She had rece
 
 [Not a scam if you agreed to it](#embed:https://www.youtube.com/embed/oq_4QZacuso?si=jke3kI6TUf59Ttxl\&start=688)
 
-Her goal was simple: to collect what she was owed. Unfortunately, things didn’t go as planned. Nerissa, whom she believed to be wealthy, turned out to be nearly broke (though unknown to Nanamoo, she’d been tricked—see [Nerissa-Fauna: My Money](#edge:fauna-nerissa-bottom-2-top-1)). Similarly, Gonathon, another supposed high-roller, had already spent most of his wealth on [others](https://www.youtube.com/live/oq_4QZacuso?feature=shared\&t=2891).
+Her goal was simple: to collect what she was owed. Unfortunately, things didn’t go as planned. Nerissa, whom she believed to be wealthy, turned out to be nearly broke (though unknown to Nanamoo, she’d been tricked—see [Nerissa-Fauna: My Money](#edge:fauna-nerissa)). Similarly, Gonathon, another supposed high-roller, had already spent most of his wealth on [others](https://www.youtube.com/live/oq_4QZacuso?feature=shared\&t=2891).
 
-Despite the setbacks, Nanamoo wasn’t discouraged. Her business had already made a name for itself, and that was all she needed. NanaEleven wasn’t just a convenience store; it was the cornerstone of her larger scheme to support and elevate FaunaMart (see [Fauna-Nanamoo: Deal Of The Century](#edge:moom-fauna-top-1-left-2)).
+Despite the setbacks, Nanamoo wasn’t discouraged. Her business had already made a name for itself, and that was all she needed. NanaEleven wasn’t just a convenience store; it was the cornerstone of her larger scheme to support and elevate FaunaMart (see [Fauna-Nanamoo: Deal Of The Century](#edge:moom-fauna)).
 
 Later, she engaged in some more dubious activities, including selling [diamonds](https://www.youtube.com/live/oq_4QZacuso?feature=shared\&t=2154) to a schizophrenic Amelia and having a very questionable conversation with [Shiori](https://www.youtube.com/live/oq_4QZacuso?feature=shared\&t=5064). As the day progressed, Nanamoo regrouped with her Scarlet Wand guildmates to prepare for the final dungeon. Before their journey, Nanamoo unveiled the secret she’d been harboring since day one.
 
@@ -22,7 +22,7 @@ Despite the challenges, the heroes triumphed over the Stain King. But their vict
 
 As the heroes returned to the white room where their journey began, they were a mix of joyful and shaken, reflecting on the bonds they had forged and the adventures they had shared. But then came the final, heartbreaking twist.
 
-Nanamoo, upon returning to the white room, forgot everything that had transpired during her time in Libestal. The adventure, the king, the convenience stores, and, most tragically, the friendships she had formed—all vanished from her memory (see [Cecilia-Nanamoo: Oh, she forgot...](#edge:moom-cecilia-bottom-0-left-1)).
+Nanamoo, upon returning to the white room, forgot everything that had transpired during her time in Libestal. The adventure, the king, the convenience stores, and, most tragically, the friendships she had formed—all vanished from her memory (see [Cecilia-Nanamoo: Oh, she forgot...](#edge:moom-cecilia)).
 
 ...
 

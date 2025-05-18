@@ -10,7 +10,7 @@ Her first encounter in the guild was with *Fuwawa Abyssguard*, who looked so sim
 
 [You also bau bau?](#embed:https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared\&t=3549)
 
-Just when Mococo thought she’d gotten over her initial fear of this new world, a different fear crept in: loneliness. When checking out the Jade Sword arena, she wandered off alone and, realizing she was left behind, began to panic. Luckily, her guildmates found her in time and promised they’d always stick by her (see [Elizabeth-Mococo: By your side](#edge:mococo-liz-left-3-right-2)).
+Just when Mococo thought she’d gotten over her initial fear of this new world, a different fear crept in: loneliness. When checking out the Jade Sword arena, she wandered off alone and, realizing she was left behind, began to panic. Luckily, her guildmates found her in time and promised they’d always stick by her (see [Elizabeth-Mococo: By your side](#edge:mococo-liz)).
 
 With her fears calmed, Mococo dove into learning about this strange world. She lit up with joy when she figured out how to ride a [horse](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared\&t=4345) and couldn’t stop laughing as she repeatedly destroyed a berry bush for fun. Though she was often confused, it didn’t stop her from having a blast.
 

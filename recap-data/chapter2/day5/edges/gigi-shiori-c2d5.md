@@ -2,7 +2,7 @@
 
 Following the events of the previous day, one would expect Shiori of the Nyavellas to want nothing to do with Gonathon. Somehow though a spark of interest remained for the bumbling knight, and Shiori was keen to not allow sleeping wolves to lie. 
 
-Gonathon began the day with the witch on her mind, but upon encountering her before the dungeon, Shiori seemed to avoid the knight, a fact which Gonathon was understanding of. It was to Bijou (see [Bijou-Gonathon: Good Neighbors](#edge:gigi-bijou-left-3-left-3)) that the subject of the witch would come to the spotlight, with Gonathon expressing her regret for using Shiori to fill the hole in her heart left by the loss of her Pearl. The witch and the knight would not stay apart for long though, and Gonathon soon found herself once again waiting outside Shiori’s door. 
+Gonathon began the day with the witch on her mind, but upon encountering her before the dungeon, Shiori seemed to avoid the knight, a fact which Gonathon was understanding of. It was to Bijou (see [Bijou-Gonathon: Good Neighbors](#edge:gigi-bijou)) that the subject of the witch would come to the spotlight, with Gonathon expressing her regret for using Shiori to fill the hole in her heart left by the loss of her Pearl. The witch and the knight would not stay apart for long though, and Gonathon soon found herself once again waiting outside Shiori’s door. 
 
 [My Fumbling Knight](#embed:https://youtu.be/alQr5XqoUPs?t=11508)
 

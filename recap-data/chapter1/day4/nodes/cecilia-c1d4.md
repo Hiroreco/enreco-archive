@@ -1,4 +1,4 @@
-Cecilia joined the adventure on the fourth day, and within mere moments of her arrival, she became a knight for a princess. Abrupt? A little bit, yeah. But that was just the kind of chaotic energy the green lady brought with her (see [Cecilia-Bijou: Royal Protector](#edge:bijou-cecilia-right-2-bottom-2)).
+Cecilia joined the adventure on the fourth day, and within mere moments of her arrival, she became a knight for a princess. Abrupt? A little bit, yeah. But that was just the kind of chaotic energy the green lady brought with her (see [Cecilia-Bijou: Royal Protector](#edge:bijou-cecilia)).
 
 Without much of a personal goal to pursue, Cecilia spent the day wandering around and chatting with people. Unlike others who were actively taking on quests, she had little motivation to do so. After all, she now had a princess to leech off for money—what more could she ask for? Life was easy, and she was thriving.
 

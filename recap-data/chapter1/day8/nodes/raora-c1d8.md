@@ -2,7 +2,7 @@ The corruption was spreading, dark tendrils slowly consuming the world. Mario, u
 
 [My beautiful daughter...](#embed:https://www.youtube.com/live/Gou89O6CzmY?feature=shared\&t=773)
 
-Even so, Mario refused to give in to despair. There were still others searching for a way to stop the corruption. She teamed up with Gonathon and Ina to [discuss](https://www.youtube.com/live/Gou89O6CzmY?feature=shared\&t=855) a potential cure: a legendary golden apple said to cleanse the Stain. During their planning, Mario uncovered a stunning truth—Ina was her long-lost daughter all along (see [Mario-Ina: Mother?](#edge:raora-ina-right-1-left-1)).
+Even so, Mario refused to give in to despair. There were still others searching for a way to stop the corruption. She teamed up with Gonathon and Ina to [discuss](https://www.youtube.com/live/Gou89O6CzmY?feature=shared\&t=855) a potential cure: a legendary golden apple said to cleanse the Stain. During their planning, Mario uncovered a stunning truth—Ina was her long-lost daughter all along (see [Mario-Ina: Mother?](#edge:raora-ina)).
 
 Fueled by newfound hope, Mario and Ina set out to find the golden apples. Their journey was a success, and they managed to craft a [cure](https://www.youtube.com/live/Gou89O6CzmY?feature=shared\&t=2153) for the corruption. Quickly reuniting with their comrades, they devised a bold plan: lure the corrupted individuals into Mori’s Tavern and force them to drink the cure. Time was running out as the corruption claimed more victims, including Nerissa and Fuwawa.
 

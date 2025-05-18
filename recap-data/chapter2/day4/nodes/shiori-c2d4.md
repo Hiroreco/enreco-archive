@@ -20,9 +20,9 @@ Still, Shiori wasn’t one to give up so easily. She had a plan: crash the date 
 
 [Ahhh! I'm drowning!](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=G-v3Mv7AulkgIwP3&t=7526)
 
-But things didn’t go how she’d hoped. Even after laying her heart bare, it all unraveled quickly (see [Shiori-Gonathon: The Witch’s Trials](#edge:gigi-shiori-top-2-bottom-1)).
+But things didn’t go how she’d hoped. Even after laying her heart bare, it all unraveled quickly (see [Shiori-Gonathon: The Witch’s Trials](#edge:gigi-shiori)).
 
-Then, as if fate herself had taken pity on the heartbroken maiden, an old acquaintance—someone once dear—approached to help ease the pain. The two shared a long, heartfelt conversation, reflecting on the bond they once shared (see [Shiori-Bijou: Severed, but still there](#edge:shiori-bijou-top-1-bottom-4)).
+Then, as if fate herself had taken pity on the heartbroken maiden, an old acquaintance—someone once dear—approached to help ease the pain. The two shared a long, heartfelt conversation, reflecting on the bond they once shared (see [Shiori-Bijou: Severed, but still there](#edge:shiori-bijou)).
 
 Shiori closed out her day by journaling everything: her hopes, her heartbreak, and her thoughts on what might lie ahead.
 

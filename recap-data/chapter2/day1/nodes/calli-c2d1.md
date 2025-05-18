@@ -6,7 +6,7 @@ And with that self-appointed title came great responsibility: explaining to the 
 
 Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Falling Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordon Ramsay was here to cook, and cook she shall.
 
-She quickly befriended her new (or were they old?) comrades, including the likes of Gonathon (see [Calli-Gonathon: My Dawg](#edge:calli-gigi-bottom-1-bottom-3)). She had a lot of “dawgs.” She formed bonds with [fellow chefs](https://www.youtube.com/live/aqhG1kmmkec?si=3GeaCgPBFqQL-cAU&t=3179), started questing, and got used to the mechanics of the new kingdom.
+She quickly befriended her new (or were they old?) comrades, including the likes of Gonathon (see [Calli-Gonathon: My Dawg](#edge:calli-gigi)). She had a lot of “dawgs.” She formed bonds with [fellow chefs](https://www.youtube.com/live/aqhG1kmmkec?si=3GeaCgPBFqQL-cAU&t=3179), started questing, and got used to the mechanics of the new kingdom.
 
 With the basics out of the way, she turned to her true ambition: [opening a shop](https://www.youtube.com/live/aqhG1kmmkec?si=Y4GcVRFhNDwNYn6w&t=4391)—again. But this time, it would be grander. Better. More delicious food. More divorce services. More charging married couples exorbitant fees. And this time… maybe even a few employees. Her last tavern was built with a green theme to reflect the Jade Sword colors, but since guilds were no longer a thing, she pivoted. Maybe bricks this time—for that solid, grounded, “no tax fraud here” look.
 

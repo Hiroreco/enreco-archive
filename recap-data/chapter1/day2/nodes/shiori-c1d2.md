@@ -8,7 +8,7 @@ Anyway, back to the matter at hand. The group successfully conquered the dungeon
 
 Later, Shiori ventured to the entrance of the second dungeon, the *Ocean Temple Dungeon*. She had initially planned to tackle 'the land of the moist world' with Koseki Bijou, but Bijou was already committed to joining her guildmates. Undeterred, Shiori reached out to others for help, but everyone was busy. So, in a moment of boldness (or recklessness), she decided to attempt the dungeon [solo](https://www.youtube.com/live/LTIq_0ykLVA?feature=shared\&t=4066).
 
-Barely a minute into the dungeon, Shiori began to feel the sting of solitude. Seeking some semblance of company, she called Nerissa via the telekinesis device and filled the silence with random chatter (see [Shiori-Nerissa: Keeping Company](#edge:shiori-nerissa-bottom-2-top-2)).
+Barely a minute into the dungeon, Shiori began to feel the sting of solitude. Seeking some semblance of company, she called Nerissa via the telekinesis device and filled the silence with random chatter (see [Shiori-Nerissa: Keeping Company](#edge:shiori-nerissa)).
 
 But as the dungeon progressed, her initial confidence gave way to mounting frustration. The puzzles proved far more challenging than anticipated, and Shiori’s patience quickly wore thin.
 
@@ -18,4 +18,4 @@ After the mental ordeal, Shiori returned to the kingdom to unwind. At one of the
 
 [I showed you my sword](#embed:https://www.youtube.com/live/LTIq_0ykLVA?feature=shared\&t=7805)
 
-The day ended on an unexpected note when Bijou confessed her feelings to Shiori. To her own surprise, Shiori accepted, and the two consummated their newfound relationship... in front of the cows (see [Bijou-Shiori: Seeds and Eggs](#edge:shiori-bijou-right-2-left-2)).
+The day ended on an unexpected note when Bijou confessed her feelings to Shiori. To her own surprise, Shiori accepted, and the two consummated their newfound relationship... in front of the cows (see [Bijou-Shiori: Seeds and Eggs](#edge:shiori-bijou)).

@@ -38,4 +38,4 @@ A little [gacha](https://youtu.be/neUwPDy7cbk?t=6977)  didn't hurt either, since
 
 And now to the banquet. 
 
-(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander-right-2-left-2))
+(See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))

@@ -16,12 +16,12 @@ Still, she pressed on. With Fauna's assistance, the ritual was completed, and th
 
 With time to spare, Cecilia decided to hang out with her friends. She shared more of her crackhead theory about the king with Nanamoo and Fauna, going on about how he was evil, yada yada yada, the usual [yap](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=3652).
 
-Finally, the princess was cured. Cecilia met with her, preparing to execute the final step of her plan (for more details, see [Cecilia-Bijou: Mission Success?](#edge:bijou-cecilia-right-2-bottom-2)).
+Finally, the princess was cured. Cecilia met with her, preparing to execute the final step of her plan (for more details, see [Cecilia-Bijou: Mission Success?](#edge:bijou-cecilia)).
 
-Did it work? In Cecilia’s heart, it did, and that was all that mattered. Afterward, she helped others catch up with the final dungeon and prepared herself for the showdown. However, during this time, something strange occurred. Red text—similar to what she’d seen on day two—suddenly appeared in Cecilia’s mind. Strangely, Gonathon experienced the same phenomenon simultaneously. What could it mean? (see [Cecilia-Gonathon: Mysterious Messages](#edge:cecilia-gigi-bottom-1-right-3)).
+Did it work? In Cecilia’s heart, it did, and that was all that mattered. Afterward, she helped others catch up with the final dungeon and prepared herself for the showdown. However, during this time, something strange occurred. Red text—similar to what she’d seen on day two—suddenly appeared in Cecilia’s mind. Strangely, Gonathon experienced the same phenomenon simultaneously. What could it mean? (see [Cecilia-Gonathon: Mysterious Messages](#edge:cecilia-gigi)).
 
 Finally, the climactic battle arrived. Upon their [victory](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=8430), the heroes learned the cruel truth about the king (see [King: The True Evil](#node:king-of-libestal)). Cecilia’s wild theory about the king being evil—the one many dismissed as nonsense—turned out to be true.
 
 Still baffled by her own genius, Cecilia and the others were returned to the white box where their journey had begun. Should she be happy or sad that her theory was right? She wasn’t sure. After all, it was hard to tell whether she was a hero or a villain, considering her plan to control the princess’s mind. But that was a story for another time. For now, Cecilia wanted to enjoy her final moments with her guildmates—friends she’d bonded with throughout the journey—and Nanamoo, someone she’d only recently grown close to but felt deeply connected with.
 
-But as Cecilia called Nanamoo over for a group picture, she was met with a response that left her heart heavy (see [Cecilia-Nanamoo: Oh, she forgot...](#edge:moom-cecilia-bottom-0-left-1)).
+But as Cecilia called Nanamoo over for a group picture, she was met with a response that left her heart heavy (see [Cecilia-Nanamoo: Oh, she forgot...](#edge:moom-cecilia)).

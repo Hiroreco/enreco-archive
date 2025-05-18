@@ -2,7 +2,7 @@ Koseki Bijou, ever innocent, calls herself the princess of the Kingdom of Libest
 
 Some time after slaying the Captive (now the Outsider), she finds herself in a library like everyone else. A cat named [Fia](#node:fia) tells her and the other heroes that they have been sent back in time to an earlier state of Libestal. The REAL Libestal, not the phony version everyone was once trapped in. While some details are clear as crystal and painful to bear, she had forgotten some details due to the effects of time travel.
 
-She keeps her title more as a formality than a status, wishing to do good in this world to make up for what she had done before. She also remembers things about the other heroes she was once close to. While Ina remembered being her dear sister, the Hot Pink One completely forgot about Bijou and started calling her brother instead (see [Bijou-Hot Pink One: Onii-chan](#edge:irys-bijou-top-1-bottom-3))
+She keeps her title more as a formality than a status, wishing to do good in this world to make up for what she had done before. She also remembers things about the other heroes she was once close to. While Ina remembered being her dear sister, the Hot Pink One completely forgot about Bijou and started calling her brother instead (see [Bijou-Hot Pink One: Onii-chan](#edge:irys-bijou))
 
 
 Princess Bijou quickly realizes she must take up a new lifestyle, as the role of "Princess" is already taken at this point in time. For some of the heroes, this doesn’t mean much more than taking up any old occupation. As a (former) princess who lived as a carefree royal for all her life, Bijou is distraught to become one with the common folk and... [GET A JOB.](https://youtu.be/pEAXwijhfFY?t=1762)
