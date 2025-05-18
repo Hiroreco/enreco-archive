@@ -36,12 +36,9 @@ if (dayDirs.length === 0) {
 }
 
 // Prepare to collect issues
-type SectionIssues = Record<string, string[]>; // filename → errors[]
-type DayIssues = Record<string, SectionIssues>; // section → SectionIssues
+type SectionIssues = Record<string, string[]>;
+type DayIssues = Record<string, SectionIssues>;
 const allIssues: Record<string, DayIssues> = {};
-
-// scripts/validateRecaps.ts
-// … your existing imports …
 
 for (const dayName of dayDirs) {
     const dayPath = join(baseDir, dayName);
@@ -62,6 +59,17 @@ for (const dayName of dayDirs) {
         }
     }
 
+    const nodesFolder = join(dayPath, "nodes");
+    const validNodeBaseIds = new Set<string>();
+    if (existsSync(nodesFolder)) {
+        for (const f of readdirSync(nodesFolder).filter((f) =>
+            f.endsWith(".md"),
+        )) {
+            const base = f.replace(/\.md$/, "");
+            validNodeBaseIds.add(base.replace(new RegExp(`${suffix}$`), ""));
+        }
+    }
+
     for (const section of ["recaps", "nodes", "edges"] as const) {
         const secPath = join(dayPath, section);
         if (!existsSync(secPath)) continue;
@@ -73,12 +81,12 @@ for (const dayName of dayDirs) {
 
             // Only in nodes & edges sections
             if (section === "nodes" || section === "edges") {
-                // 1) Empty edge refs
+                // Empty edge refs
                 if (/\[[^\]]*\]\(#edge:\s*\)/.test(content)) {
                     issues.push("empty #edge: reference (no ID provided)");
                 }
 
-                // 2) Non‑existent edge IDs in this day’s edges folder
+                // Non‑existent edge IDs in this day’s edges folder
                 const EDGE_REF_RE = /\[[^\]]+\]\(#edge:([^)]+)\)/g;
                 let m: RegExpExecArray | null;
                 while ((m = EDGE_REF_RE.exec(content))) {
@@ -89,9 +97,25 @@ for (const dayName of dayDirs) {
                         );
                     }
                 }
+
+                // Empty node refs
+                if (/\[[^\]]*\]\(#node:\s*\)/.test(content)) {
+                    issues.push("empty #node: reference (no ID provided)");
+                }
+
+                // Non‑existent node IDs
+                const NODE_REF_RE = /\[[^\]]+\]\(#node:([^)]+)\)/g;
+                while ((m = NODE_REF_RE.exec(content))) {
+                    const id = m[1].trim();
+                    if (id && !validNodeBaseIds.has(id)) {
+                        issues.push(
+                            `#node ID "${id}" not found in nodes/day${dayIndex + 1}`,
+                        );
+                    }
+                }
             }
 
-            // 3) Title check for edges only
+            // Title check for edges only
             if (section === "edges") {
                 const firstLine = content.split(/\r?\n/)[0].trim();
                 if (!/^<!--\s*title:\s*.+\s*-->$/.test(firstLine)) {
