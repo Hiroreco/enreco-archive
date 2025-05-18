@@ -52,13 +52,13 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
 }
 
 interface Props {
-    useDarkMode: boolean;
     siteData: SiteData;
     isInLoadingScreen: boolean;
+    bgImage: string;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
+const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     useAudioSettingsSync();
     useClickOutside();
     /* State variables */
@@ -348,11 +348,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                   viewStore.selectedEdge.data?.relationshipId
               ]
             : null;
-
-    let bgImage = chapterData.bgiSrc;
-    if (useDarkMode) {
-        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
-    }
 
     return (
         <>

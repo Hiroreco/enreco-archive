@@ -44,7 +44,7 @@ const ViewMemoryGame = () => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [guessState, setGuessState] = useState<GuessState>("none");
 
-    const intervalRef = useRef<NodeJS.Timeout>();
+    const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
     const getNumberOfUnsolvedSlots = (board: number[]) => {
         return board.filter((value) => value >= 4).length;
@@ -171,9 +171,15 @@ const ViewMemoryGame = () => {
                 });
             }, 1000);
         } else {
-            clearInterval(intervalRef.current);
+            if (intervalRef.current) {
+                clearInterval(intervalRef.current);
+            }
         }
-        return () => clearInterval(intervalRef.current);
+        return () => {
+            if (intervalRef.current) {
+                clearInterval(intervalRef.current);
+            }
+        };
     }, [isPlaying]);
 
     // Set initial high score from local storage

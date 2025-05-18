@@ -1,4 +1,5 @@
 import { CONTRIBUTORS } from "@/lib/misc";
+import { JSX } from "react";
 
 interface Contributor {
     name: string;
