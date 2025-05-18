@@ -1,4 +1,4 @@
-import { CustomEdgeOffsets } from "@enreco-archive/common-types/types";
+import { CustomEdgeOffsets } from "@enreco-archive/common/types";
 import { getSmoothStepPath, getStraightPath, Position } from "@xyflow/react";
 
 // Function that generates the SVG path given start/end coords of the edges and all the offsets.

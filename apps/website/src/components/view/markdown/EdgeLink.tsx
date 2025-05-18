@@ -1,4 +1,4 @@
-import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common-types/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 

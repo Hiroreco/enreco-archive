@@ -22,9 +22,9 @@ import {
     CustomEdgeType,
     CustomEdgeTypeNames,
     EditorImageNodeType,
-} from "@enreco-archive/common-types/types";
+} from "@enreco-archive/common/types";
 import { MouseEventHandler, useCallback } from "react";
-import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common-types/constants";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import { generateEdgeId } from "@/lib/editor-utils";
 
 const nodeTypes = {

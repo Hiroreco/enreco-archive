@@ -1,5 +1,8 @@
 import { Edge, EdgeProps, Node, NodeProps } from "@xyflow/react";
 
+/* Settings Types */
+export type ThemeType = "system" | "light" | "dark";
+
 /* App Types */
 export type StringToBooleanObjectMap = { [key: string]: boolean };
 export type FitViewOperation =

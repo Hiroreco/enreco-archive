@@ -26,7 +26,7 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import useKeyboard from "@/hooks/useKeyboard";
-import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common-types/constants";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import { exportData, loadData, saveData } from "@/lib/datahelper";
 import { generateEdgeId } from "@/lib/editor-utils";
 import {
@@ -35,11 +35,12 @@ import {
     EditorImageNodeType,
     RelationshipMap,
     TeamMap,
-} from "@enreco-archive/common-types/types";
+    ThemeType
+} from "@enreco-archive/common/types";
 import { EditorMode, useEditorStore } from "@/store/editorStore";
-import { ThemeType, useSettingStore } from "@/store/settingStore";
+import { useSettingStore } from "@/store/settingStore";
 import { Label } from "@enreco-archive/common-ui/components/label";
-import useLightDarkModeSwitcher from "@/hooks/useLightDarkModeSwitcher";
+import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 
 const EMPTY_NODE: EditorImageNodeType = {
     id: "",

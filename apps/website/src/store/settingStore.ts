@@ -1,8 +1,9 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
+import { ThemeType } from "@enreco-archive/common/types";
+
 export type TimestampOption = "modal" | "tab";
-export type ThemeType = "system" | "light" | "dark";
 
 interface SettingState {
     timestampOption: TimestampOption;

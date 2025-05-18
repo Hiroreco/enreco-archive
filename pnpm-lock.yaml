@@ -77,9 +77,9 @@ importers:
 
   apps/editor:
     dependencies:
-      '@enreco-archive/common-types':
+      '@enreco-archive/common':
         specifier: workspace:*
-        version: link:../../packages/common-types
+        version: link:../../packages/common
       '@enreco-archive/common-ui':
         specifier: workspace:*
         version: link:../../packages/common-ui
@@ -174,9 +174,9 @@ importers:
 
   apps/website:
     dependencies:
-      '@enreco-archive/common-types':
+      '@enreco-archive/common':
         specifier: workspace:*
-        version: link:../../packages/common-types
+        version: link:../../packages/common
       '@enreco-archive/common-ui':
         specifier: workspace:*
         version: link:../../packages/common-ui
@@ -311,11 +311,14 @@ importers:
         specifier: 'catalog:'
         version: 5.8.3
 
-  packages/common-types:
+  packages/common:
     dependencies:
       '@xyflow/react':
         specifier: ^12.6.0
         version: 12.6.0(@types/react@19.1.4)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react:
+        specifier: 'catalog:'
+        version: 19.1.0
     devDependencies:
       '@enreco-archive/eslint-config':
         specifier: workspace:*
@@ -323,6 +326,9 @@ importers:
       '@enreco-archive/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.1.4
       typescript:
         specifier: 'catalog:'
         version: 5.8.3

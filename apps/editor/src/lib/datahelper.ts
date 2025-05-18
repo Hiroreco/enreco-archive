@@ -8,7 +8,7 @@ import {
     FixedEdgeType,
     ImageNodeType,
     Metadata,
-} from "@enreco-archive/common-types/types";
+} from "@enreco-archive/common/types";
 
 import JSZip from "jszip";
 

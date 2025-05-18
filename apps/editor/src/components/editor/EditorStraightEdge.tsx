@@ -1,5 +1,5 @@
-import { EDGE_WIDTH } from "@enreco-archive/common-types/constants";
-import { CustomEdgeProps } from "@enreco-archive/common-types/types";
+import { EDGE_WIDTH } from "@enreco-archive/common/constants";
+import { CustomEdgeProps } from "@enreco-archive/common/types";
 import { useEditorStore } from "@/store/editorStore";
 
 import { BaseEdge, getStraightPath } from "@xyflow/react";

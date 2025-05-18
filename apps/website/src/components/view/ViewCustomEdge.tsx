@@ -1,5 +1,5 @@
-import { generatePath } from "@/lib/get-edge-svg-path";
-import { FixedEdgeProps } from "@enreco-archive/common-types/types";
+import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
+import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { memo, useEffect, useId, useMemo, useRef } from "react";
 

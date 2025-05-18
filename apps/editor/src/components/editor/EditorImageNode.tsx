@@ -1,4 +1,4 @@
-import { EditorImageNodeProps } from "@enreco-archive/common-types/types";
+import { EditorImageNodeProps } from "@enreco-archive/common/types";
 import { useEditorStore } from "@/store/editorStore";
 import {
     Handle,

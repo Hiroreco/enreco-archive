@@ -5,7 +5,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import { Chapter } from "@enreco-archive/common-types/types";
+import { Chapter } from "@enreco-archive/common/types";
 
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { ChevronLeft, ChevronRight } from "lucide-react";

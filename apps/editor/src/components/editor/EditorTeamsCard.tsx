@@ -4,7 +4,7 @@ import EditorCard from "@/components/editor/EditorCard";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import { Label } from "@enreco-archive/common-ui/components/label";
-import { Team, TeamMap } from "@enreco-archive/common-types/types";
+import { Team, TeamMap } from "@enreco-archive/common/types";
 
 import { CheckedState } from "@radix-ui/react-checkbox";
 import { produce } from "immer";

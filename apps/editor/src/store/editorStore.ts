@@ -6,7 +6,7 @@ import {
     EditorImageNodeType,
     RelationshipMap,
     TeamMap,
-} from "@enreco-archive/common-types/types";
+} from "@enreco-archive/common/types";
 import { create, StateCreator } from "zustand";
 import { immer } from "zustand/middleware/immer";
 

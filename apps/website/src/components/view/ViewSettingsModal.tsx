@@ -19,11 +19,11 @@ import {
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
 import {
-    ThemeType,
     TimestampOption,
     useSettingStore,
 } from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { ThemeType } from "@enreco-archive/common/types";
 
 interface ViewSettingsModalProps {
     open: boolean;

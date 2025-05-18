@@ -1,5 +1,5 @@
 {
-  "name": "@enreco-archive/common-types",
+  "name": "@enreco-archive/common",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -7,14 +7,18 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@xyflow/react": "^12.6.0"
+    "@xyflow/react": "^12.6.0",
+    "react": "catalog:"
   },
   "devDependencies": {
     "@enreco-archive/eslint-config": "workspace:*",
     "@enreco-archive/typescript-config": "workspace:*",
+    "@types/react": "catalog:",
     "typescript": "catalog:"
   },
   "exports": {
+    "./hooks/*": "./src/hooks/*.ts",
+    "./utils/*": "./src/utils/*.ts",
     "./types": "./types.ts",
     "./constants": "./constants.ts"
   }

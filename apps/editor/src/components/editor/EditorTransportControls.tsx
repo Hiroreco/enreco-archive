@@ -21,7 +21,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import { EditorChapter } from "@enreco-archive/common-types/types";
+import { EditorChapter } from "@enreco-archive/common/types";
 
 interface EditorTransportControlsProps {
     className?: string;

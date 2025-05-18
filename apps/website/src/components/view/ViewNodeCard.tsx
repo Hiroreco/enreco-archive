@@ -8,7 +8,7 @@ import {
 } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ImageNodeType, Team } from "@enreco-archive/common-types/types";
+import { ImageNodeType, Team } from "@enreco-archive/common/types";
 import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 
 import Image from "next/image";

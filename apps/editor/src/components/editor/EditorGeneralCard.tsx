@@ -4,7 +4,7 @@ import MDEditor from "@uiw/react-md-editor";
 import { LucideX } from "lucide-react";
 
 import EditorCard from "@/components/editor/EditorCard";
-import { EditorChapter, EditorChartData } from "@enreco-archive/common-types/types";
+import { EditorChapter, EditorChartData } from "@enreco-archive/common/types";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Label } from "@enreco-archive/common-ui/components/label";

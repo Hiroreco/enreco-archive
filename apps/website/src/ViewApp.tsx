@@ -10,7 +10,7 @@ import {
     FixedEdgeType,
     ImageNodeType,
     SiteData,
-} from "@enreco-archive/common-types/types";
+} from "@enreco-archive/common/types";
 import { CardType, useViewStore } from "@/store/viewStore";
 
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";

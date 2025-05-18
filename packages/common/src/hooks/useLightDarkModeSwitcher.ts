@@ -1,5 +1,5 @@
 "use client";
-import { ThemeType } from "@/store/settingStore";
+import { ThemeType } from "@enreco-archive/common/types";
 import { useEffect, useState } from "react";
 
 export default function useLightDarkModeSwitcher(themeType: ThemeType) {

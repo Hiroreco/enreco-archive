@@ -5,7 +5,7 @@ import {
 import ViewProgressBar from "@/components/view/ViewProgressBar";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ChartData } from "@enreco-archive/common-types/types";
+import { ChartData } from "@enreco-archive/common/types";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
