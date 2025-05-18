@@ -7,7 +7,7 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@xyflow/react": "^12.6.0",
+    "@xyflow/react": "^12.6.4",
     "react": "catalog:"
   },
   "devDependencies": {
