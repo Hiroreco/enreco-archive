@@ -468,6 +468,9 @@ importers:
       '@playwright/test':
         specifier: ^1.52.0
         version: 1.52.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 22.15.3
       '@types/react':
         specifier: 'catalog:'
         version: 19.1.4
