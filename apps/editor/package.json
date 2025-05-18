@@ -1,18 +1,17 @@
 {
     "name": "@enreco-archive/enreco-chart-editor",
-    "private": true,
     "version": "0.0.0",
+    "private": true,
     "type": "module",
-    "packageManager": "pnpm@10.11.0",
     "scripts": {
+        "build": "tsc -b && next build",
+        "check-types": "tsc --noEmit",
         "dev": "next dev",
         "editor": "next dev -p 3116",
-        "build": "tsc -b && next build",
-        "start": "next start",
+        "format": "prettier . --write",
         "lint": "next lint",
         "preview": "next preview",
-        "format": "prettier . --write",
-        "check-types": "tsc --noEmit"
+        "start": "next start"
     },
     "dependencies": {
         "@enreco-archive/common": "workspace:*",
@@ -49,6 +48,7 @@
         "tailwindcss": "catalog:",
         "typescript": "catalog:"
     },
+    "packageManager": "pnpm@10.11.0",
     "engines": {
         "node": ">=22"
     }

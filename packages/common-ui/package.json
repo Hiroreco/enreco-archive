@@ -1,8 +1,16 @@
 {
   "name": "@enreco-archive/common-ui",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
+  "exports": {
+    "./globals.css": "./src/styles/globals.css",
+    "./postcss.config": "./postcss.config.mjs",
+    "./lib/*": "./src/lib/*.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./components/*.css": "./src/components/*.css",
+    "./hooks/*": "./src/hooks/*.ts"
+  },
   "scripts": {
     "lint": "eslint . --max-warnings 0"
   },
@@ -35,13 +43,5 @@
     "@types/react-dom": "catalog:",
     "eslint": "catalog:",
     "tailwindcss": "catalog:"
-  },
-  "exports": {
-    "./globals.css": "./src/styles/globals.css",
-    "./postcss.config": "./postcss.config.mjs",
-    "./lib/*": "./src/lib/*.ts",
-    "./components/*": "./src/components/*.tsx",
-    "./components/*.css": "./src/components/*.css",
-    "./hooks/*": "./src/hooks/*.ts"
   }
 }
