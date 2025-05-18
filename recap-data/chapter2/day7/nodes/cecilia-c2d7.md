@@ -8,7 +8,6 @@ Cecilia tells Princess Bijou about her decision to stay with Iphania. Even thoug
 
 [Full Circle](#embed:https://www.youtube.com/watch?v=wYTiK9cm_bo&t=3730s)
 
-
 NinoIna and Cecilia depart for the training grounds [to spar](https://www.youtube.com/watch?v=wYTiK9cm_bo&t=6470s) in preparation for the final battle. After defeating the Curse, the Outlander and Iphania meet the Shining Stars and discover a doll that looks just like Fia. This causes great confusion, and the travelers check on Cecilia to ensure she is okay after what she witnessed.
 
 Gonathon requests to talk to Cecilia alone at the Remnant Bridge. Gonathon departs, but Peasant the Bae arrives in his place with a letter. Bae confesses her feelings; however, Cecilia must decline, [for her heart and loyalty still belong to the princess](https://www.youtube.com/live/wYTiK9cm_bo?t=8390s).
