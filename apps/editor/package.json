@@ -42,6 +42,7 @@
         "@types/react-dom": "catalog:",
         "@types/slug": "^5.0.9",
         "@uiw/react-md-editor": "^4.0.6",
+        "eslint": "catalog:",
         "extract-colors": "^4.2.0",
         "globals": "catalog:",
         "prettier": "catalog:",

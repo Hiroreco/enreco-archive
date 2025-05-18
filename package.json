@@ -11,7 +11,7 @@
         "predev": "pnpm copy-resources",
         "dev": "turbo run dev-website",
         "editor": "turbo run editor",
-        "lint": "turbo lint",
+        "lint": "turbo run lint",
         "format": "prettier --write \"**/*.{ts,tsx,md}\""
     },
     "devDependencies": {
