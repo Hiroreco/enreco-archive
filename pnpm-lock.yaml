@@ -56,6 +56,9 @@ importers:
       '@enreco-archive/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
+      '@enreco-archive/prettier-config':
+        specifier: workspace:*
+        version: link:packages/prettier-config
       '@enreco-archive/typescript-config':
         specifier: workspace:*
         version: link:packages/typescript-config
@@ -132,6 +135,9 @@ importers:
       '@enreco-archive/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
+      '@enreco-archive/prettier-config':
+        specifier: workspace:*
+        version: link:../../packages/prettier-config
       '@enreco-archive/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -259,6 +265,9 @@ importers:
       '@enreco-archive/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
+      '@enreco-archive/prettier-config':
+        specifier: workspace:*
+        version: link:../../packages/prettier-config
       '@enreco-archive/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -323,6 +332,9 @@ importers:
       '@enreco-archive/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
+      '@enreco-archive/prettier-config':
+        specifier: workspace:*
+        version: link:../prettier-config
       '@enreco-archive/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -405,6 +417,9 @@ importers:
       '@enreco-archive/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
+      '@enreco-archive/prettier-config':
+        specifier: workspace:*
+        version: link:../prettier-config
       '@enreco-archive/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config

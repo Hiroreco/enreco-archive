@@ -35,6 +35,7 @@
     },
     "devDependencies": {
         "@enreco-archive/eslint-config": "workspace:^",
+        "@enreco-archive/prettier-config": "workspace:*",
         "@enreco-archive/typescript-config": "workspace:*",
         "@tailwindcss/postcss": "catalog:",
         "@types/howler": "^2.2.12",

@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@enreco-archive/eslint-config": "workspace:*",
+    "@enreco-archive/prettier-config": "workspace:*",
     "@enreco-archive/typescript-config": "workspace:*",
     "@types/react": "catalog:",
     "typescript": "catalog:"
