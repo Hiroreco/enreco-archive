@@ -5,6 +5,7 @@
     "type": "module",
     "packageManager": "pnpm@10.11.0",
     "scripts": {
+        "prebuild": "ts-node scripts/copy-shared-resources.js",
         "build": "turbo build",
         "predev": "ts-node scripts/optimize-images.js",
         "dev": "turbo run dev-website",
