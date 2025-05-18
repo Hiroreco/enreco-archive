@@ -47,11 +47,10 @@ async function optimizeImages() {
                     .toBuffer();
                 
                 for(const dest of DESTINATIONS) {
-                    const outputDir = path.join(process.cwd(), dest);
+                    const outputDir = path.join(process.cwd(), dest, "images-opt");
                     await fs.mkdir(outputDir, { recursive: true });
                     const outputPath = path.join(
                         outputDir,
-                        "images-opt",
                         // Uncomment to enabled nested paths.
                         //path.parse(file).dir,
                         `${path.parse(file).name}.webp`,
