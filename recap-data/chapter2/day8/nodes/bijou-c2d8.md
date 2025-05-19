@@ -22,7 +22,7 @@ As if the trauma of yesterday wasn’t enough, the HPO got a letter… from her 
 
 Bijou started to feel suffocated in the tense atmosphere. She clutched her map to cope, but even that didn’t feel like enough. As if by magic, the appearance of the fluffy one was able to calm her down. Her presence alone was able to soothe her.
 
-[Headpat me! Headpat me!](https://youtu.be/C6kmnHsopgM?t=4066)
+[Headpat me! Headpat me!](#embed:https://youtu.be/C6kmnHsopgM?t=4066)
 
 Guiding map in hand, Bijou continued to eavesdrop anyway. She had to call her sister to check in with her, but… she was at Mordan's house auction.
 
@@ -48,7 +48,7 @@ Mordan also had the bright idea of taking a group photo before the banquet, anti
 
 Their first stop was the **library**, where this chapter started. Without Fia, they would not have been saved from the false Libestal and taken back in time. Bijou was called out for being short and thus was put front and center. She was the one to take the picture though!
 
-[A photo for the archives](https://youtu.be/C6kmnHsopgM?t=5062)
+[A photo for the archives](#embed:https://youtu.be/C6kmnHsopgM?t=5062)
 
 ---
 
@@ -58,7 +58,7 @@ Bijou called the jewelers for a group photo at [Gacharm](https://youtu.be/C6kmnH
 
 They first took a photo while flying in front of the [floating sign](https://youtu.be/C6kmnHsopgM?t=5442) above the shop—it was Mococo’s first time with the Magic Feather. Then they went inside for one last photo.
 
-[Tiny treasures, infinite pleasure!](https://youtu.be/C6kmnHsopgM?t=5552)
+[Tiny treasures, infinite pleasure!](#embed:https://youtu.be/C6kmnHsopgM?t=5552)
 
 ---
 
@@ -92,7 +92,7 @@ It was brought up that they could try [recruiting](https://youtu.be/C6kmnHsopgM?
 
 Arguably, they could use a little guidance. The fluffy and fuzzy ones were summoned, and together they all formed an alliance. From that day forward, they all vowed to protect one another. The Coven “Rebellion” had been formed. The voices in their heads stirred, almost as if this particular group of five was destined to be!
 
-[An **Advent** of something new…](https://youtu.be/C6kmnHsopgM?t=6784)
+[An **Advent** of something new…](#embed:https://youtu.be/C6kmnHsopgM?t=6784)
 
 To commemorate this moment, they took a [group photo](https://youtu.be/C6kmnHsopgM?t=6895) together; they were among one of the last to gather for one. Tam, Immerkind, and Gonathan helped take photos for them as well.
 
