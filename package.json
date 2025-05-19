@@ -16,7 +16,8 @@
         "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
         "export-recaps": "tsx scripts/export-recaps.ts",
         "inject-recaps": "tsx scripts/inject-recaps.ts",
-        "validate-recaps": "tsx scripts/validate-recaps.ts"
+        "validate-recaps": "tsx scripts/validate-recaps.ts",
+        "cleanup": "tsx scripts/cleanup.ts"
     },
     "dependencies": {
         "@next/third-parties": "^15.3.1",
