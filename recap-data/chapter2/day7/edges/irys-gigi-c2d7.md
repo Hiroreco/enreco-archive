@@ -10,6 +10,6 @@ Tam [adamantly refused](https://www.youtube.com/watch?v=rDdbFYqcAyI&t=7533s), bu
 
 [I answer to my queen!](#embed:https://youtu.be/rDdbFYqcAyI?t=8982)
 
-Assembling at the arena, HPO quickly experienced cold feet. Tam was quick to goad the spineless nephilim into honoring her end of the deal, for surely a goddess could defeat a mere knight? Donning the arms of a humble warrior the goddess and retainer met on the fields of battle as equals. But for all the goddess's haughty words and self-proclaimed superiority, she was no match for [the skills and determination](https://youtu.be/rDdbFYqcAyI?t=9277) of Tam's most loyal knight and fell within seconds. As HPO writhed in agony as her divine flesh was rended by Bijou, Tam thanked Gonathon for once again always being by her side (see [Gonathon-Kronii: Immortal Game](#edge:)).
+Assembling at the arena, HPO quickly experienced cold feet. Tam was quick to goad the spineless nephilim into honoring her end of the deal, for surely a goddess could defeat a mere knight? Donning the arms of a humble warrior the goddess and retainer met on the fields of battle as equals. But for all the goddess's haughty words and self-proclaimed superiority, she was no match for [the skills and determination](https://youtu.be/rDdbFYqcAyI?t=9277) of Tam's most loyal knight and fell within seconds. As HPO writhed in agony as her divine flesh was rended by Bijou, Tam thanked Gonathon for once again always being by her side (see [Gonathon-Kronii](#edge:kronii-gigi)).
 
 [A stain upon us all](#embed:https://youtu.be/rDdbFYqcAyI?t=9317)
