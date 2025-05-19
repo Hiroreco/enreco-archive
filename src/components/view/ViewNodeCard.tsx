@@ -3,9 +3,7 @@ import { Stack, StackItem } from "@/components/ui/Stack";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
 import ReadMarker from "@/components/view/ReadMarker";
 import VaulDrawer from "@/components/view/VaulDrawer";
-import {
-    ViewMarkdown,
-} from "@/components/view/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { ImageNodeType, Team } from "@/lib/type";
@@ -13,6 +11,7 @@ import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
+import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
 
 interface Props {
     isCardOpen: boolean;
@@ -23,6 +22,8 @@ interface Props {
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     setChartShrink: (width: number) => void;
+    onDayChange: (newDay: number) => void;
+    availiableNodes: ImageNodeType[];
 }
 
 const ViewNodeCard = ({
@@ -30,10 +31,12 @@ const ViewNodeCard = ({
     selectedNode,
     nodeTeam,
     chapter,
+    availiableNodes,
     onCardClose,
     onNodeLinkClicked,
     onEdgeLinkClicked,
     setChartShrink,
+    onDayChange,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
 
@@ -116,9 +119,14 @@ const ViewNodeCard = ({
 
                 {/* Content */}
                 <div className="mt-2 overflow-x-hidden">
-                    <div className="text-2xl font-bold mb-2 underline underline-offset-4">
+                    {/* <div className="text-2xl font-bold mb-2 underline underline-offset-4">
                         Day {selectedNode.data.day + 1}
-                    </div>
+                    </div> */}
+                    <ViewCardDaySwitcher
+                        currentDay={selectedNode.data.day}
+                        onDayChange={onDayChange}
+                        availiableElements={availiableNodes}
+                    />
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}
                         onNodeLinkClicked={onNodeLinkClicked}

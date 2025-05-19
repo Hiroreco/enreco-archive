@@ -104,12 +104,7 @@ export default function EditorChart({
             })();
 
             const newEdge: CustomEdgeType = {
-                id: generateEdgeId(
-                    params.source,
-                    params.target,
-                    params.sourceHandle,
-                    params.targetHandle,
-                ),
+                id: generateEdgeId(params.source, params.target),
                 source: params.source,
                 target: params.target,
                 sourceHandle: params.sourceHandle,

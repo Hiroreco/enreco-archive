@@ -1,0 +1,3 @@
+Fia is a talking cat who oversees the Library Between Worlds—an odd yet seemingly all-knowing figure who, for some reason, remembers the tales of the heroes from before. They claimed that the King—or rather, the Outsider—had been freed and was now on a rampage to destroy the universe. And the only hope to stop him? These heroes, these so-called "Shining Stars," who had been brought back to an earlier stage of Libestal—sent back in time, at the cost of losing parts of their memories.
+
+[Shining Stars](#embed:https://www.youtube.com/live/2toZfafpyW8?si=DCk9DdbYzYoPk1Un&t=385)
