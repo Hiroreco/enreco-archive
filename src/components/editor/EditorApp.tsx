@@ -121,7 +121,7 @@ const getCurrentDayChart = (
         // Merge edges
         chart.edges.forEach((edge) => {
             const existingIndex = result.edges.findIndex(
-                (e) => e.id === edge.id,
+                (e) => e.id === edge.id && edge.data!.day === day,
             );
             if (existingIndex !== -1) {
                 result.edges[existingIndex] = edge;
