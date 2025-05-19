@@ -61,7 +61,7 @@
     "prettier": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
-    "shx": "^0.4.0",
+    "shx": "catalog:",
     "typescript": "catalog:"
   },
   "peerDependencies": {

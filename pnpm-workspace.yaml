@@ -16,6 +16,7 @@ catalog:
   prettier: ^3.5.3
   react: ^19.1.0
   react-dom: ^19.1.0
+  shx: ^0.4.0
   tailwindcss: ^4.1.7
   tailwind-merge: ^3.3.0
   tw-animate-css: "^1.2.4"

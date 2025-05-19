@@ -2,7 +2,7 @@ import sharp from "sharp";
 import fs from "fs/promises";
 import path from "path";
 
-const SHARED_IMAGES_FOLDER = "shared_resources/images";
+const SHARED_IMAGES_FOLDER = "shared-resources/images";
 const DESTINATIONS = [
     "apps/editor/public",
     "apps/website/public",

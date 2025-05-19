@@ -1,6 +1,6 @@
 import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import { ImageNodeType } from "@enreco-archive/common/types";
-import blurData from "public/blur-data.json";
+import blurData from "~/blur-data.json";
 
 // Return a lighter or darker version of a color, param is hex color
 export function getLighterOrDarkerColor(color: string, percent: number) {
