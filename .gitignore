@@ -37,8 +37,6 @@ next-env.d.ts
 # Exclude Turbo cache dir
 .turbo
 
-# Optimized images
-apps/editor/public/images-opt/*
-apps/editor/public/blur-data.json
-apps/website/public/images-opt/*
-apps/website/public/blur-data.json
+# Assets folder
+apps/editor/public
+apps/website/public
