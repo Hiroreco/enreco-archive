@@ -1,18 +1,17 @@
 import {
     Chapter,
+    ChartData,
     FixedEdgeType,
     ImageNodeType,
     StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import { idFromChapterDayId } from "@/lib/utils";
-import {
-    OLD_EDGE_OPACITY,
-    OLD_NODE_OPACITY,
-} from "@enreco-archive/common/constants";
+import { OLD_EDGE_OPACITY, OLD_NODE_OPACITY } from "@enreco-archive/common/constants";
 import { CardType } from "@/store/viewStore";
 
 export function generateRenderableNodes(
     chapterData: Chapter,
+    dayData: ChartData,
     chapter: number,
     day: number,
     teamVisibility: StringToBooleanObjectMap,
@@ -21,21 +20,7 @@ export function generateRenderableNodes(
     currentCard: CardType,
 ) {
     return (
-        chapterData.charts[day].nodes
-            // Resolve all nodes.
-            // If a node isn't available for the current day, find the most recent node
-            // from the past days.
-            .map((node) => {
-                if (node.data.day !== day) {
-                    const latestUpdatedNodes =
-                        chapterData.charts[node.data.day].nodes;
-                    const latestUpdatedNode = latestUpdatedNodes.find(
-                        (n) => node.id === n.id,
-                    );
-                    return latestUpdatedNode ? latestUpdatedNode : node;
-                }
-                return node;
-            })
+        dayData.nodes
             // Filter out undefined nodes and nodes of incorrect types.
             .filter(
                 (node): node is ImageNodeType =>
@@ -90,9 +75,9 @@ export function generateRenderableNodes(
 
 export function generateRenderableEdges(
     chapterData: Chapter,
+    dayData: ChartData,
     chapter: number,
     day: number,
-    previousDay: number,
     teamVisibility: StringToBooleanObjectMap,
     characterVisibility: StringToBooleanObjectMap,
     edgeVisibility: StringToBooleanObjectMap,
@@ -101,22 +86,7 @@ export function generateRenderableEdges(
     currentCard: CardType,
 ) {
     return (
-        chapterData.charts[day].edges
-            // Resolve all nodes.
-            // If a node isn't available for the current day, find the most recent node
-            // from the past days.
-            .map((edge) => {
-                if (edge.data && edge.data.day !== day) {
-                    const latestUpdatedEdges =
-                        chapterData.charts[edge.data.day].edges;
-                    const latestUpdatedEdge = latestUpdatedEdges.find(
-                        (e) => edge.id === e.id,
-                    );
-                    return latestUpdatedEdge ? latestUpdatedEdge : edge;
-                }
-
-                return edge;
-            })
+        dayData.edges
             // Filter out undefined edges and edges of incorrect types.
             .filter(
                 (edge): edge is FixedEdgeType =>
@@ -176,12 +146,6 @@ export function generateRenderableEdges(
                         pointerEvents: "auto",
                     };
                 }
-
-                // Check if edge is newly added
-                const previousEdges = chapterData.charts[previousDay].edges;
-                edge.data.isNewlyAdded = !previousEdges.find(
-                    (e) => e.id === edge.id,
-                );
 
                 if (selectedEdge) {
                     edge.selected = selectedEdge.id === edge.id;

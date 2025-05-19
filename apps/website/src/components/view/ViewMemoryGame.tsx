@@ -58,7 +58,6 @@ const ViewMemoryGame = () => {
     // Update the board based on the difficulty, should only run after guessed correctly or incorrectly
     const updateBoard = (difficulty: number) => {
         const setRandomBoardState = (boardSize: number, difficulty: number) => {
-            console.log(difficulty);
             // Sample a "difficulty" number of positions
             const randomPositions = _.sampleSize(
                 _.range(0, boardSize),

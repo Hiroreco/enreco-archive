@@ -14,6 +14,50 @@ export const CONTRIBUTORS = [
         ],
     },
     {
+        role: "Developer",
+        icon: <Monitor size={iconSize} />,
+        contributors: [
+            {
+                name: "Tactician_Walt",
+                socials: "https://x.com/Walt280",
+            },
+            {
+                name: "Hiro",
+                socials: "https://x.com/hiroavrs",
+            },
+            {
+                name: "goose",
+                socials: "https://github.com/Pyreko",
+            },
+            {
+                name: "GoldElysium",
+                socials: "https://github.com/GoldElysium",
+            },
+        ],
+    },
+    {
+        role: "Site Graphics",
+        icon: <Palette size={iconSize} />,
+        contributors: [
+            {
+                name: "Quarases",
+                socials: "https://x.com/Quarases_",
+            },
+            {
+                name: "A1on",
+                socials: "https://x.com/_a1on",
+            },
+            {
+                name: "keenbiscuit",
+                socials: "https://x.com/keenbiscuit",
+            },
+            {
+                name: "SuperAppleMan",
+                socials: "https://x.com/KW7MD8FEWT7lMXx",
+            },
+        ],
+    },
+    {
         role: "Archiver",
         icon: <Book size={iconSize} />,
         contributors: [
@@ -73,49 +117,21 @@ export const CONTRIBUTORS = [
                 name: "Perks",
                 socials: "https://x.com/PerksJAZZBERI",
             },
-        ],
-    },
-    {
-        role: "Developer",
-        icon: <Monitor size={iconSize} />,
-        contributors: [
             {
-                name: "Tactician_Walt",
-                socials: "https://x.com/Walt280",
+                name: "esca",
+                socials: "https://x.com/esca_prod",
             },
             {
-                name: "Hiro",
-                socials: "https://x.com/hiroavrs",
+                name: "tom8o",
+                socials: "https://x.com/Tom_8o",
             },
             {
-                name: "goose",
-                socials: "https://github.com/Pyreko",
+                name: "Aki",
+                socials: "https://x.com/Aki_Zaychik",
             },
             {
-                name: "GoldElysium",
-                socials: "https://github.com/GoldElysium",
-            },
-        ],
-    },
-    {
-        role: "Site Graphics",
-        icon: <Palette size={iconSize} />,
-        contributors: [
-            {
-                name: "Quarases",
+                name: "dulce",
                 socials: null,
-            },
-            {
-                name: "A1on",
-                socials: null,
-            },
-            {
-                name: "keenbiscuit",
-                socials: "https://x.com/keenbiscuit",
-            },
-            {
-                name: "SuperAppleMan",
-                socials: "https://x.com/KW7MD8FEWT7lMXx",
             },
         ],
     },

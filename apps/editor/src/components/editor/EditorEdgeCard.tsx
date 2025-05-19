@@ -15,7 +15,7 @@ import MDEditor from "@uiw/react-md-editor";
 
 import { produce, WritableDraft } from "immer";
 import { Copy, LucideX } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface EditorEdgeCard {
     isVisible: boolean;
@@ -39,6 +39,11 @@ const EdgeEditorCard = ({
     isDarkMode,
 }: EditorEdgeCard) => {
     const [workingEdge, setWorkingEdge] = useState(selectedEdge);
+
+    useEffect(() => {
+        setWorkingEdge(selectedEdge);
+    }, [selectedEdge, setWorkingEdge]);
+
     const handleSave = () => {
         updateEdge(selectedEdge, workingEdge);
     };

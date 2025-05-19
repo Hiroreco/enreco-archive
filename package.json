@@ -8,13 +8,18 @@
         "build": "turbo run build:website",
         "prebuild:all": "pnpm run copy-resources", 
         "build:all": "turbo run build",
-        "copy-resources": "ts-node scripts/copy-shared-resources.js && ts-node scripts/optimize-images.js",
+        "copy-resources": "tsx scripts/copy-shared-resources.js && tsx scripts/optimize-images.js",
         "predev": "pnpm copy-resources",
         "dev": "turbo run dev-website",
         "preeditor": "pnpm run copy-resources",
         "editor": "turbo run editor",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-        "lint": "turbo run lint"
+        "lint": "turbo run lint",
+	    "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
+        "export-recaps": "tsx scripts/export-recaps.ts",
+        "inject-recaps": "tsx scripts/inject-recaps.ts",
+        "validate-recaps": "tsx scripts/validate-recaps.ts",
+        "cleanup": "tsx scripts/cleanup.ts"
     },
     "devDependencies": {
         "@enreco-archive/eslint-config": "workspace:*",
@@ -22,7 +27,7 @@
         "@enreco-archive/typescript-config": "workspace:*",
         "prettier": "catalog:",
         "sharp": "^0.34.1",
-        "ts-node": "^10.9.2",
+        "tsx": "^4.19.4",
         "turbo": "^2.5.3",
         "typescript": "catalog:"
     },

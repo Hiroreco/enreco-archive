@@ -1,4 +1,5 @@
 # ENreco Archive
+A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection.
 
 ## Installation
 
@@ -7,14 +8,10 @@
     pnpm install
     ```
 
-Note: You might need you install all the shadcn radix dependency manually if it asks you too, I don't know how to get around this yet
-
 2. Start the development server:
     ```bash
     pnpm dev
     ```
-
-Note: You only need to care about the "View" stuff in "./view", the editor stuff is only for developent (it's also gross to look at))
 
 ## Stack
 

@@ -18,44 +18,13 @@ function getChapterFileName(chapterIndex: number) {
     return `chapter${chapterIndex}.json`;
 }
 
-const clearDuplicateNodesData = (chapter: EditorChapter) => {
-    const updatedChapter = { ...chapter };
-    // @ts-expect-error Incompatible type due to all other data beside "day" being removed
-    updatedChapter.charts = updatedChapter.charts.map((chart, currentDay) => ({
-        ...chart,
-        nodes: chart.nodes.map((node) => {
-            if (!node.data || node.data.day >= currentDay) return node;
-            // clear data but leave day
-            return { ...node, data: { day: node.data.day } };
-        }),
-    }));
-    return updatedChapter;
-};
-
-const clearDuplicateEdgesData = (chapter: EditorChapter) => {
-    const updatedChapter = { ...chapter };
-    // @ts-expect-error Incompatible type due to all other data beside "day" being removed
-    updatedChapter.charts = updatedChapter.charts.map((chart, currentDay) => ({
-        ...chart,
-        edges: chart.edges.map((edge) => {
-            if (!edge.data || edge.data.day >= currentDay) return edge;
-            // clear data but leave day
-            return { ...edge, data: { day: edge.data.day } };
-        }),
-    }));
-    return updatedChapter;
-};
-
 export async function saveData(editorChapters: EditorChapter[]) {
     const utf8Encoder = new TextEncoder();
     const zipFile = new JSZip();
     let chNum = 0;
 
     for (const editorChapter of editorChapters) {
-        // Clear duplicate nodes and edges in the save data
-        const updatedChapter = clearDuplicateNodesData(editorChapter);
-        const updatedChapterWithEdges = clearDuplicateEdgesData(updatedChapter);
-        const chJson = JSON.stringify(updatedChapterWithEdges, null, 2);
+        const chJson = JSON.stringify(editorChapter, null, 2);
 
         zipFile.file(getChapterFileName(chNum), utf8Encoder.encode(chJson));
         chNum++;
@@ -211,10 +180,7 @@ export async function exportData(editorChapters: EditorChapter[]) {
     let chNum = 0;
 
     for (const chapter of exportData) {
-        // @ts-expect-error Incompatible type due to all other data beside "day" being removed
-        const updatedChapter = clearDuplicateNodesData(chapter);
-        const updatedChapterWithEdges = clearDuplicateEdgesData(updatedChapter);
-        const chJson = JSON.stringify(updatedChapterWithEdges, null, 2);
+        const chJson = JSON.stringify(chapter, null, 2);
         zipFile.file(getChapterFileName(chNum), utf8Encoder.encode(chJson));
         chNum++;
     }

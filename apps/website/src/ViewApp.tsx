@@ -6,6 +6,8 @@ import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewNodeCard from "@/components/view/ViewNodeCard";
 import ViewSettingCard from "@/components/view/ViewSettingCard";
 import {
+    Chapter,
+    ChartData,
     FitViewOperation,
     FixedEdgeType,
     ImageNodeType,
@@ -52,6 +54,91 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     return null;
 }
 
+function getAllNodesOfIdFromChapter(
+    id: string,
+    chapterData: Chapter,
+): ImageNodeType[] {
+    const res: ImageNodeType[] = [];
+    chapterData.charts.forEach((chart) => {
+        const node = chart.nodes.find((node) => node.id === id);
+        if (node) {
+            res.push(node);
+        }
+    });
+    return res;
+}
+
+function getAllEdgesOfIdFromChapter(
+    id: string,
+    chapterData: Chapter,
+): FixedEdgeType[] {
+    const res: FixedEdgeType[] = [];
+    chapterData.charts.forEach((chart) => {
+        const edge = chart.edges.find((node) => node.id === id);
+        if (edge) {
+            res.push(edge);
+        }
+    });
+    return res;
+}
+
+// combine the charts of the current day with the previous days
+// works like git, the result is the final chart of the current dayconst mergeChartsIntoCurrentDay
+function mergeChartsIntoCurrentDay(
+    charts: ChartData[],
+    currentDay: number,
+): ChartData {
+    const result: ChartData = {
+        nodes: [] as ImageNodeType[],
+        edges: [] as FixedEdgeType[],
+        title: charts[currentDay].title,
+        dayRecap: charts[currentDay].dayRecap,
+    };
+
+    // Process each day up to the current day
+    for (let day = 0; day <= currentDay; day++) {
+        const chart = charts[day];
+        if (!chart) continue;
+
+        // For nodes, merge by id - newer versions replace older ones
+        chart.nodes.forEach((node: ImageNodeType) => {
+            const existingIndex = result.nodes.findIndex(
+                (n) => n.id === node.id,
+            );
+
+            if (existingIndex !== -1) {
+                // Update existing node
+                result.nodes[existingIndex] = node;
+            } else {
+                // Add new node
+                result.nodes.push(node);
+            }
+        });
+
+        // For edges, merge by id - newer versions replace older ones
+        chart.edges.forEach((edge: FixedEdgeType) => {
+            const existingIndex = result.edges.findIndex(
+                (e) => e.id === edge.id,
+            );
+            if (existingIndex !== -1) {
+                // Update existing edge
+                if (edge.data) {
+                    edge.data.isNewlyAdded = false;
+                }
+                result.edges[existingIndex] = edge;
+            } else {
+                // Add new edge
+                if (edge.data) {
+                    edge.data.isNewlyAdded = true;
+                }
+                result.edges.push(edge);
+            }
+        });
+    }
+
+    return result;
+}
+
 interface Props {
     useDarkMode: boolean;
     siteData: SiteData;
@@ -96,9 +183,11 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     /* Data variables */
     const chapterData = siteData.chapters[viewStore.chapter];
-    const dayData = chapterData.charts[viewStore.day];
+    const dayData = useMemo(
+        () => mergeChartsIntoCurrentDay(chapterData.charts, viewStore.day),
+        [chapterData.charts, viewStore.day],
+    );
 
-    // Update the data with the latest data from previous days
     const processedNodes = useMemo(() => {
         const selectedNodes = [
             viewStore.selectedNode?.id,
@@ -108,6 +197,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
         return generateRenderableNodes(
             chapterData,
+            dayData,
             viewStore.chapter,
             viewStore.day,
             viewStore.teamVisibility,
@@ -125,14 +215,15 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         viewStore.characterVisibility,
         viewStore.currentCard,
         chapterData,
+        dayData,
     ]);
 
     const processedEdges = useMemo(() => {
         return generateRenderableEdges(
             chapterData,
+            dayData,
             viewStore.chapter,
             viewStore.day,
-            viewStore.previousSelectedDay,
             viewStore.teamVisibility,
             viewStore.characterVisibility,
             viewStore.edgeVisibility,
@@ -144,13 +235,13 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         chapterData,
         viewStore.chapter,
         viewStore.day,
-        viewStore.previousSelectedDay,
         viewStore.teamVisibility,
         viewStore.characterVisibility,
         viewStore.edgeVisibility,
         viewStore.selectedEdge,
         viewStore.currentCard,
         processedNodes,
+        dayData,
     ]);
 
     // Update processed edges' read status
@@ -184,7 +275,10 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
 
         const newChapterData = siteData.chapters[newChapter];
-        const newDayData = newChapterData.charts[newDay];
+        const newDayData = mergeChartsIntoCurrentDay(
+            newChapterData.charts,
+            newDay,
+        );
 
         // Rest edge/team/character visibility on data change.
         // Setting the visibility of edges, teams and characters
@@ -213,6 +307,22 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         viewStore.setChapter(newChapter);
         viewStore.setDay(newDay);
         setBrowserHash(`${newChapter}/${newDay}`);
+
+        if (viewStore.selectedNode) {
+            viewStore.setSelectedNode(
+                newDayData.nodes.find(
+                    (node) => node.id === viewStore.selectedNode!.id,
+                )!,
+            );
+        }
+
+        if (viewStore.selectedEdge) {
+            viewStore.setSelectedEdge(
+                newDayData.edges.find(
+                    (edge) => edge.id === viewStore.selectedEdge!.id,
+                )!,
+            );
+        }
     }
 
     /* Event handler functions */
@@ -424,6 +534,18 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     nodeTeam={selectedNodeTeam}
                     chapter={viewStore.chapter}
                     setChartShrink={setChartShrinkAndFit}
+                    onDayChange={(newDay) => {
+                        viewStore.setPreviousSelectedDay(viewStore.day);
+                        updateData(viewStore.chapter, newDay);
+                    }}
+                    availiableNodes={
+                        viewStore.selectedNode
+                            ? getAllNodesOfIdFromChapter(
+                                  viewStore.selectedNode.id,
+                                  chapterData,
+                              )
+                            : []
+                    }
                 />
 
                 <ViewEdgeCard
@@ -435,6 +557,18 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     edgeRelationship={selectedEdgeRelationship}
                     chapter={viewStore.chapter}
                     setChartShrink={setChartShrinkAndFit}
+                    availiableEdges={
+                        viewStore.selectedEdge
+                            ? getAllEdgesOfIdFromChapter(
+                                  viewStore.selectedEdge.id,
+                                  chapterData,
+                              )
+                            : []
+                    }
+                    onDayChange={(newDay) => {
+                        viewStore.setPreviousSelectedDay(viewStore.day);
+                        updateData(viewStore.chapter, newDay);
+                    }}
                 />
             </div>
 
