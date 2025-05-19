@@ -22,7 +22,7 @@
         "@radix-ui/react-visually-hidden": "^1.2.2",
         "@xyflow/react": "^12.6.4",
         "immer": "catalog:",
-        "jszip": "^3.10.1",
+        "jszip": "catalog:",
         "lucide-react": "catalog:",
         "next": "catalog:",
         "react": "catalog:",

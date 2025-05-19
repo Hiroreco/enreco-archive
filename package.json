@@ -22,9 +22,11 @@
         "cleanup": "tsx scripts/cleanup.ts"
     },
     "devDependencies": {
+        "@enreco-archive/common": "workspace:*",
         "@enreco-archive/eslint-config": "workspace:*",
         "@enreco-archive/prettier-config": "workspace:*",
         "@enreco-archive/typescript-config": "workspace:*",
+        "jszip": "catalog:",
         "prettier": "catalog:",
         "sharp": "^0.34.1",
         "tsx": "^4.19.4",
