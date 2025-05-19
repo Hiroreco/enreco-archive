@@ -1,7 +1,7 @@
 "use client";
-import chapter0 from "@/data/chapter0.json";
-import chapter1 from "@/data/chapter1.json";
-import siteMeta from "@/data/metadata.json";
+import chapter0 from "#/chapter0.json";
+import chapter1 from "#/chapter1.json";
+import siteMeta from "#/metadata.json";
 import { Chapter, SiteData } from "@enreco-archive/common/types";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
