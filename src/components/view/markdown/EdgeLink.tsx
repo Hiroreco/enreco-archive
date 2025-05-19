@@ -46,9 +46,12 @@ export default function EdgeLink({
     }
 
     let label = children as string;
-    label = label.split(":")[0];
-
-    label = `${label}: ${edge?.data?.title}`;
+    try {
+        label = label.split(":")[0];
+        label = `${label}: ${edge?.data?.title}`;
+    } catch {
+        label = `see "${edge?.data?.title}"`;
+    }
 
     return (
         <button
