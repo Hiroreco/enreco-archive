@@ -26,7 +26,7 @@ Back upstairs in Nerissa's home, she notes the roses and ring frame on the wallâ
 
 _Promise rings. Nothing more._
 
-Then Nerissa requests a spar, something they've been doing daily now. And yet, Elizabeth makes an even stranger request: to go gambling (see:[Nerissa-Elizabeth: Finding Shelter in the Shadows of Hope](edge)).
+Then Nerissa requests a spar, something they've been doing daily now. And yet, Elizabeth makes an even stranger request: to go gambling (see: [Nerissa-Elizabeth: Finding Shelter in the Shadows of Hope](#edge:liz-nerissa)).
 
 ["Maybe you are my lucky blue."](https://www.youtube.com/live/b-jTHH6GK5w?si=SGFe8V8u909-nM1L&t=2025)
 

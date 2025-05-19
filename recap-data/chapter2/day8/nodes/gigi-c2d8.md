@@ -1,4 +1,4 @@
-++Justice is Blind++
+**Justice is Blind**
 
 The day started almost eerily calm for the humble knight. With a few hours to burn before the victory banquet, Gonathon busied himself by unearthing the final tomes of lore that still eluded her abount the kingdom. His thoughts drifting back to Immerkind (see [Cecilia-Gonathon:](edge:cecilia-gigi)), Gonathon decided that the best way he could help his lovesick friend was to win a house for her in Mordan Ramsey’s upcoming auction. Reviewing his funds and informing Immerkind of his plan, Gonathon made his way back to the common area.
 

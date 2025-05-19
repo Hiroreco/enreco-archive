@@ -127,7 +127,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "Aki",
-                socials: null,
+                socials: "https://x.com/Aki_Zaychik",
             },
             {
                 name: "dulce",

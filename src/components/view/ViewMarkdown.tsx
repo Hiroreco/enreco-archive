@@ -18,6 +18,7 @@ import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
 import "@/components/view/ViewMarkdown.css";
+import remarkUnderline from "@/components/plugins/remarkUnderline";
 
 /*
 Custom rehype plugin to convert lone images in paragraphs into figures.
@@ -315,7 +316,7 @@ function ViewMarkdownInternal({
         [onEdgeLinkClicked, onNodeLinkClicked],
     );
 
-    const remarkPlugins = useMemo(() => [remarkGfm], []);
+    const remarkPlugins = useMemo(() => [remarkGfm, remarkUnderline], []);
     const rehypePlugins = useMemo(
         () => [
             transformImageParagraphToFigure,
