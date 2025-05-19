@@ -109,7 +109,7 @@ const getCurrentDayChart = (
         // Merge nodes
         chart.nodes.forEach((node) => {
             const existingIndex = result.nodes.findIndex(
-                (n) => n.id === node.id,
+                (n) => n.id === node.id && node.data.day === day,
             );
             if (existingIndex !== -1) {
                 result.nodes[existingIndex] = node;
@@ -130,6 +130,7 @@ const getCurrentDayChart = (
             }
         });
     }
+    console.log(result);
     return result;
 };
 
