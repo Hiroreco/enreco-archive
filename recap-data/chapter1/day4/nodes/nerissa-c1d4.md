@@ -1,0 +1,9 @@
+Nerissa entered her fourth day with no grand ambitions. Much like the previous day, her goals were simple: go with the flow, build her house, and rake in as much money as possible.
+
+Early in the day, Nerissa stumbled upon Gura’s latest project—a [gallows](https://www.youtube.com/live/dRCvSHBTvSk?feature=shared\&t=1198). The sight triggered an odd memory from her past life, though it wasn’t a pleasant one. The memory was hazy but carried the guilt of a criminal past. Shaking it off, she decided to help Gura test the gallows by volunteering Jyonathan as a participant.
+
+Not long after, Fauna recruited Nerissa to work at FaunaMart, officially dubbing her an employee. During a chat with Raora, Nerissa learned about a money exploit that had everyone in the kingdom buzzing. Naturally, this piqued her interest, and she dove headfirst into the scheme. In just 94 minutes, the money-hungry raven amassed a fortune of over 6.9 thousand coins. Her relentless pursuit of wealth even led her to decline Cecilia’s invitation to join Bijou’s knights—money, after all, was the priority.
+
+Flush with cash and satisfied with her grind, Nerissa joined Elizabeth and Raora to tackle the *Volcanic Dungeon*. The group’s teamwork led to a successful run, and they recovered [memories](https://www.youtube.com/live/dRCvSHBTvSk?feature=shared\&t=15014) of *Takanashi Kiara*.
+
+Nerissa’s day was shaping up to be smooth and fulfilling. She had made a fortune, spent quality time with friends, and even braved a dungeon. It felt like a peaceful, productive day. That was until Mococo approached her with a request—lottery tickets. Not even Nerissa could expect such a simple confrontation would later throw a wrench into her tranquility in this kingdom (see [Mococo-Nerissa: Lottery Fiasco](#edge:mococo-nerissa) and [Elizabeth-Nerissa: Heartbroken](#edge:liz-nerissa))

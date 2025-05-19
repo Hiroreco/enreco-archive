@@ -10,15 +10,21 @@
         "lint": "next lint",
         "preview": "next preview",
         "format": "prettier . --write",
-        "optimize-images": "ts-node scripts/optimize-images.js",
-        "prebuild": "ts-node scripts/optimize-images.js",
-        "predev": "ts-node scripts/optimize-images.js"
+        "optimize-images": "tsx scripts/optimize-images.js",
+        "prebuild": "tsx scripts/optimize-images.js",
+        "predev": "tsx scripts/optimize-images.js",
+        "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
+        "export-recaps": "tsx scripts/export-recaps.ts",
+        "inject-recaps": "tsx scripts/inject-recaps.ts",
+        "validate-recaps": "tsx scripts/validate-recaps.ts",
+        "cleanup": "tsx scripts/cleanup.ts"
     },
     "dependencies": {
         "@next/third-parties": "^15.3.1",
         "@radix-ui/react-alert-dialog": "^1.1.11",
         "@radix-ui/react-checkbox": "^1.2.3",
         "@radix-ui/react-dialog": "^1.1.11",
+        "@radix-ui/react-dropdown-menu": "^2.1.14",
         "@radix-ui/react-label": "^2.1.4",
         "@radix-ui/react-select": "^2.2.2",
         "@radix-ui/react-separator": "^1.1.4",
@@ -75,7 +81,7 @@
         "prettier": "3.5.3",
         "sharp": "^0.33.5",
         "tailwindcss": "^3.4.17",
-        "ts-node": "^10.9.2",
+        "tsx": "^4.19.4",
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.31.1"
     },

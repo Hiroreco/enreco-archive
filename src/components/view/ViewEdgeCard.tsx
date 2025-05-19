@@ -2,13 +2,12 @@ import LineSvg from "@/components/LineSvg";
 import { Separator } from "@/components/ui/separator";
 import { Stack, StackItem } from "@/components/ui/Stack";
 import EdgeCardDeco from "@/components/view/EdgeCardDeco";
-import ReadMarker from "@/components/view/ReadMarker";
-import VaulDrawer from "@/components/view/VaulDrawer";
-import {
-    ViewMarkdown,
-} from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
+import ReadMarker from "@/components/view/ReadMarker";
+import VaulDrawer from "@/components/view/VaulDrawer";
+import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
+import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { FixedEdgeType, ImageNodeType, Relationship } from "@/lib/type";
 import {
     getLighterOrDarkerColor,
@@ -28,6 +27,8 @@ interface Props {
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     setChartShrink: (width: number) => void;
+    onDayChange: (newDay: number) => void;
+    availiableEdges: FixedEdgeType[];
 }
 
 const ViewEdgeCard = ({
@@ -35,10 +36,12 @@ const ViewEdgeCard = ({
     selectedEdge,
     edgeRelationship,
     chapter,
+    availiableEdges,
     onCardClose,
     onEdgeLinkClicked,
     onNodeLinkClicked,
     setChartShrink,
+    onDayChange,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
@@ -89,7 +92,7 @@ const ViewEdgeCard = ({
     const edgeStyle = edgeRelationship.style;
     const backgroundColor = getLighterOrDarkerColor(
         edgeStyle?.stroke || "",
-        30,
+        10,
     );
 
     return (
@@ -140,9 +143,15 @@ const ViewEdgeCard = ({
                 {/* Content */}
                 <div ref={contentRef} className="mt-2 overflow-x-hidden">
                     {selectedEdge.data?.day !== undefined && (
-                        <div className="text-2xl font-bold my-2 underline underline-offset-4">
-                            Day {selectedEdge.data.day + 1}
-                        </div>
+                        // <div className="text-2xl font-bold my-2 underline underline-offset-4">
+                        //     Day {selectedEdge.data.day + 1}
+                        // </div>
+                        <ViewCardDaySwitcher
+                            currentDay={selectedEdge.data.day}
+                            onDayChange={onDayChange}
+                            availiableElements={availiableEdges}
+                            showTitle={true}
+                        />
                     )}
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}

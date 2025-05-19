@@ -41,9 +41,14 @@ export default function EdgeLink({
     if (style && style.stroke) {
         edgeColor = getLighterOrDarkerColor(
             style.stroke,
-            isDarkMode ? 30 : -30,
+            isDarkMode ? 10 : -10,
         );
     }
+
+    let label = children as string;
+    label = label.split(":")[0];
+
+    label = `${label}: ${edge?.data?.title}`;
 
     return (
         <button
@@ -51,7 +56,7 @@ export default function EdgeLink({
             style={{ color: edgeColor }}
             onClick={edgeLinkHandler}
         >
-            <span className="font-semibold">{children}</span>
+            <span className="font-semibold">{label}</span>
         </button>
     );
 }
