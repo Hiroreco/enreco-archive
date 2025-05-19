@@ -10,7 +10,7 @@
         "build:all": "turbo run build",
         "copy-resources": "tsx scripts/copy-shared-resources.js && tsx scripts/optimize-images.js",
         "predev": "pnpm copy-resources",
-        "dev": "turbo run dev-website",
+        "dev": "turbo run dev:website",
         "preeditor": "pnpm run copy-resources",
         "editor": "turbo run editor",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
