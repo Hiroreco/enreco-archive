@@ -90,10 +90,11 @@ async function main() {
                 const md = (
                     await fs.readFile(path.join(nodesDir, file), "utf-8")
                 ).trim();
-                const nd = chart.nodes.find((n) => n.id.startsWith(idKey));
+                const nd = chart.nodes.find(
+                    (n) => n.id.startsWith(idKey) && n.data.day === dayIndex,
+                );
                 if (nd) {
                     nd.data.content = md;
-                    nd.data.day = dayIndex;
                     seenNodeIds.add(nd.id);
                 } else {
                     console.warn(
@@ -146,12 +147,14 @@ async function main() {
 
                 // find matching edge
                 const ed = chart.edges.find(
-                    (e) => e.id === key || e.id.startsWith(key + "-"),
+                    (e) =>
+                        e.id === key ||
+                        (e.id.startsWith(key + "-") &&
+                            e.data!.day === dayIndex),
                 );
                 if (ed) {
                     if (title) ed.data!.title = title;
                     ed.data!.content = content;
-                    ed.data!.day = dayIndex;
                     seenEdges.add(ed.id);
                 } else {
                     console.warn(
