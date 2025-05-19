@@ -9,7 +9,7 @@ const DESTINATIONS = [
 ];
 const CATEGORIES = ["characters", "teams", "others", "easter", "ui"];
 
-async function generateBlurDataURL(inputPath) {
+async function generateBlurDataURL(inputPath: string) {
     const buffer = await sharp(inputPath)
         .resize(8, 8, { fit: "inside" })
         .toBuffer();
@@ -20,7 +20,7 @@ async function generateBlurDataURL(inputPath) {
 async function optimizeImages() {
     const resourceDir = path.join(process.cwd(), SHARED_IMAGES_FOLDER);
     // Create a map to store blur data URLs
-    const blurDataMap = {};
+    const blurDataMap: { [key: string]: string } = {};
 
     for (const category of CATEGORIES) {
         const inputDir = path.join(resourceDir, category);
