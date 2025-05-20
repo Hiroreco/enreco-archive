@@ -1,6 +1,6 @@
 <!-- title: Fake Queen -->
 
-The pink cat was really starting to get on Tam’s nerves. Just the day before, Tam had already endured an exhausting session trying to get Raora to pronounce her name correctly. Yet, here they were again—another day, another mispronunciation, followed by Raora’s laughter. Tam was already drained from a verbal clash with Elizabeth, and Raora coulnd't miss that chance to mess with her temper.
+The pink cat was really starting to get on Tam’s nerves. Just the day before, Tam had already endured an exhausting session trying to get Raora to pronounce her name correctly. Yet, here they were again—another day, another mispronunciation, followed by Raora’s laughter. Tam was already drained from a verbal clash with Elizabeth, and Raora couldn't miss that chance to mess with her temper.
 
 [Listen here, Tim Bembers](#embed:https://www.youtube.com/live/qDhyA4-79ko?t=7612)
 

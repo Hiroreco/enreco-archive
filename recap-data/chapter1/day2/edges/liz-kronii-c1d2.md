@@ -1,6 +1,6 @@
 <!-- title: Some queen, eh? -->
 
-Carrying on from the first day, the bickering between the maiden in blue and the knight clad in red was only growing fiercer.
+Carrying on from the first day, the bickering between the maiden in blue and the knight clad in red grew only fiercer.
 
 While wandering through the kingdom, Elizabeth caught sight of Tam, and immediately, the so-called Queen caused a scene. She insulted Elizabeth outright, refusing to address the knight by name and instead calling her things like "red thing" or "harlot" for supposedly harassing her guildmate—the infamous Hot Pink One—the day prior.
 
@@ -8,7 +8,7 @@ While wandering through the kingdom, Elizabeth caught sight of Tam, and immediat
 
 Elizabeth, however, was unfazed. She wanted to set matters straight and challenged Tam to a duel. But Tam, unwilling to get her own hands dirty, declined and instead called upon her subordinate, the Hot Pink One, to fight in her place. Confident in her superior weaponry and skill, Elizabeth saw this as an easy victory. After all, her opponent’s "special ability" was just… farting. How hard could it possibly be?
 
-[Hot Red vs Hot Pink](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7494)
+[Hot Red vs. Hot Pink](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7494)
 
 And yet, to her absolute horror—Elizabeth lost.
 
@@ -22,6 +22,6 @@ Later that day, the two clashed again, and—unsurprisingly—Tam was the instig
 
 Elizabeth was appalled at what she saw—Shakira, kneeling before Tam, acting as nothing more than a servant to this self-proclaimed Queen. To Elizabeth, it was disgraceful. She had always seen Shakira as a mighty phoenix, a force to be reckoned with—not someone who should be groveling before this foul-mouthed, ill-mannered woman, spewing toxic waste for words.
 
-Elizabeth saw nothing in Tam that resembled royalty—no honor, no chivalry, no sense of grace. In her eyes, this woman was not worthy of being a Queen. And as much as she wanted to never deal with Tam again, she hoped others would eventually see the light as well.
+Elizabeth saw nothing in Tam that resembled royalty—no honor, no chivalry, no sense of grace. In her eyes, this woman was not worthy of being a queen. And as much as she wanted to never deal with Tam again, she hoped others would eventually see the light as well.
 
 ["Libestal's forbidden love" by yuuto](https://x.com/yuutomeh97/status/1830490741384356254)
