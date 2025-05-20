@@ -3,7 +3,7 @@ import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
 import { useReactFlow } from "@xyflow/react";
-import { ReactNode, useCallback } from "react";
+import { ReactNode, useCallback, useEffect, useState } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
 
@@ -26,7 +26,15 @@ export default function EdgeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const edge = getEdge(edgeId);
+    const [edge, setEdge] = useState<FixedEdgeType | null>(null);
+    useEffect(() => {
+        const edge = getEdge(edgeId);
+        if (edge) {
+            setEdge(edge);
+        } else {
+            setEdge(null);
+        }
+    }, [edgeId, getEdge]);
 
     const edgeLinkHandler = useCallback(() => {
         if (edge && !edge.hidden) {

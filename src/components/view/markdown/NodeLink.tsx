@@ -3,7 +3,7 @@ import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
 import { useReactFlow } from "@xyflow/react";
-import { ReactNode, useCallback } from "react";
+import { ReactNode, useCallback, useEffect, useState } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
 
@@ -26,7 +26,15 @@ export default function NodeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const node = getNode(nodeId);
+    const [node, setNode] = useState<ImageNodeType | null>(null);
+    useEffect(() => {
+        const node = getNode(nodeId);
+        if (node) {
+            setNode(node);
+        } else {
+            setNode(null);
+        }
+    }, [nodeId, getNode]);
 
     const nodeLinkHandler = useCallback(() => {
         if (node && !node.hidden) {
