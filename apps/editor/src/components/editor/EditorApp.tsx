@@ -110,11 +110,11 @@ const getCurrentDayChart = (
         // Merge nodes
         chart.nodes.forEach((node) => {
             const existingIndex = result.nodes.findIndex(
-                (n) => n.id === node.id && node.data.day === day,
+                (n) => n.id === node.id,
             );
             if (existingIndex !== -1) {
                 result.nodes[existingIndex] = node;
-            } else {
+            } else if (node.data?.day === day) {
                 result.nodes.push(node);
             }
         });
@@ -122,11 +122,11 @@ const getCurrentDayChart = (
         // Merge edges
         chart.edges.forEach((edge) => {
             const existingIndex = result.edges.findIndex(
-                (e) => e.id === edge.id && edge.data!.day === day,
+                (e) => e.id === edge.id,
             );
             if (existingIndex !== -1) {
                 result.edges[existingIndex] = edge;
-            } else {
+            } else if (edge.data?.day === day) {
                 result.edges.push(edge);
             }
         });
