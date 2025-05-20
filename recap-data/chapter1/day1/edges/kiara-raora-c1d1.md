@@ -2,7 +2,7 @@
 
 Raora, affectionately known as the "beeg cat" of the group, quickly became a favorite of Shakira, who clearly had a soft spot for cats. From the moment they met, Shakira went out of her way to ensure Raora was comfortable and cared for.
 
-Her attentiveness was unwavering—when Raora went missing, Shakira was the first to notice. Without hesitation, she rallied everyone to search for [her](https://www.youtube.com/watch?v=izEX6XKyApQ\&t=3874s). On another ocassion, when Shakira found Raora on her own after wandering around on her lonesome herself, she was [overjoyed](https://www.youtube.com/watch?v=izEX6XKyApQ\&t=4707s), like an owner finding their lost pet.
+Her attentiveness was unwavering—when Raora went missing, Shakira was the first to notice. Without hesitation, she rallied everyone to search for [her](https://www.youtube.com/watch?v=izEX6XKyApQ\&t=3874s). On another occasion, when Shakira found Raora on her own after wandering around on her lonesome herself, she was [overjoyed](https://www.youtube.com/watch?v=izEX6XKyApQ\&t=4707s), like an owner finding their lost pet.
 
 [Kitty kitty, where are you?](#embed:https://www.youtube.com/live/izEX6XKyApQ?t=3874)
 
