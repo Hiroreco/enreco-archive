@@ -2,7 +2,7 @@ FaunaMart was already under fire—despite being open for just one day, rumors s
 
 [We're a reputable business](#embed:https://www.youtube.com/watch?v=menSag1VKTc\&t=178s)
 
-Her plan was straightforward yet effective: she would boost the jackpot prize with her own funds, start selling hats and other sought-after items, and recruit her Scarlet Wand guildmates to help manage sales in her absence. Fauna assured everyone that her lottery wasn’t gambling—because, according to her, it didn’t count, or if it did, it was the only form of that should be [endorsed](https://www.youtube.com/watch?v=menSag1VKTc\&t=571s).
+Her plan was straightforward yet effective: she would boost the jackpot prize with her own funds, start selling hats and other sought-after items, and recruit her Scarlet Wand guildmates to help manage sales in her absence. Fauna assured everyone that her lottery wasn’t gambling—because, according to her, it didn’t count, or if it did, it was the only form of it that should be [endorsed](https://www.youtube.com/watch?v=menSag1VKTc\&t=571s).
 
 Fauna’s first order of business was to gather materials. Along the way, she quickly conquered the *Ocean Temple* [dungeon](https://www.youtube.com/live/menSag1VKTc?feature=shared\&t=5846), which she hadn’t had the chance to tackle the previous day. With plenty of resources in hand, Fauna returned to her shop, setting prices just exorbitant enough to not discourage sales and still make her plenty of profit.
 
@@ -10,9 +10,9 @@ Later, it was time to announce the day’s lottery winner. The winning number wa
 
 [The first lottery drawing](#embed:https://www.youtube.com/live/menSag1VKTc?t=7156)
 
-The rumors about FaunaMart’s legitimacy persisted, however. Gonathon confronted Fauna, asking if her business was indeed a [scam](https://www.youtube.com/live/menSag1VKTc?feature=shared\&t=9225). With her smooth-talking charm, Fauna reassured him of her noble intentions to serve the community. Whether genuine or not, her words [worked](https://www.youtube.com/watch?v=menSag1VKTc\&t=9680s). Gonathon bought 130 tickets—30 of which were for Nerissa. The customers kept rolling in, with Bijou purchasing 10 tickets and even her former accuser, Raora, begrudgingly buying one as well.
+However, the rumors about FaunaMart’s illegitimacy persisted. Gonathon confronted Fauna, asking if her business was indeed a [scam](https://www.youtube.com/live/menSag1VKTc?feature=shared\&t=9225). With her smooth-talking charm, Fauna reassured him of her noble intentions to serve the community. Whether genuine or not, her words [worked](https://www.youtube.com/watch?v=menSag1VKTc\&t=9680s). Gonathon bought 130 tickets—30 of which were for Nerissa. The customers kept rolling in, with Bijou purchasing 10 tickets and even her former accuser, Raora, begrudgingly buying one as well.
 
-As business boomed, Nerissa approached Fauna to share an alarming discovery: a "glitch" that allowed infinite money generation. While Nerissa’s intentions were pure, Fauna saw the devastating impact this could have on her business. Without hesitation, she reported it to the Gods, who patched it immediately.
+As business boomed, Nerissa approached Fauna to share an alarming discovery: a "glitch" that allowed infinite money generation. While Nerissa’s intentions were pure, Fauna saw the devastating impact this could have on her business. Without hesitation, she reported it to the gods, who patched it immediately.
 
 [I must protect the economy](#embed:https://www.youtube.com/live/menSag1VKTc?t=12540)
 
