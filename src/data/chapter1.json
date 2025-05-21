@@ -4492,7 +4492,7 @@
           },
           "data": {
             "title": "Princess Iphania",
-            "content": "The world was saved, but the Princess had little to say about it (see [Princess-Outlader: An Eerie Victory](#edge:iphania-outlander)).",
+            "content": "The world was saved, and the Princess couldn't be happier (see [Princess-Outlader](#edge:iphania-outlander)).",
             "imageSrc": "/images-opt/iphania.webp",
             "teamId": "none",
             "status": "Alive",
@@ -4515,7 +4515,7 @@
           },
           "data": {
             "title": "Fia",
-            "content": "The Princess had a doll—a small, precious thing she once gave to her father before he rode off to war. It had kept her safe, she believed, and she hoped it would protect him too. But he never came back. Nor did her mother. Nor did countless others.\r\n\r\nThe doll bore a striking resemblance to Fia.\r\n\r\nFia, who had always placed unwavering faith in the Shining Stars—the heroes meant to save the world, and beyond it, the universe. So when the battle was won and all that followed was a simple “thank you,” it felt... hollow. Incomplete. As if something vital had been left unsaid.\r\n\r\nWas it the end? Was it truly over?\r\n\r\nAll that remained was silence—no cheers, no farewells, just the lingering haze of uncertainty.\r\n\r\n[Prelude of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9888)\r\n\r\nPerhaps the final day would reveal the truth. Perhaps the story wasn’t over yet.\r\n\r\n[Song of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9923)",
+            "content": "The Princess had a doll—a small, precious thing she once gave to her father before he rode off to war. It had kept her safe, she believed, and she hoped it would protect him too. But he never came back. Nor did her mother. Nor did countless others.\r\n\r\nThe doll bore a striking resemblance to Fia.\r\n\r\nFia, who had always placed unwavering faith in the Shining Stars—the heroes destined to save not just the world, but the universe beyond. And when the final battle was won, joy rippled through the kingdom that had long drowned in despair. It was joyful. Everyone was happy.\r\n\r\nBut was it truly the end? Was it truly over?\r\n\r\n[Prelude of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9888)\r\n\r\nPerhaps the final day would reveal the truth. Perhaps this was only the beginning of a long story.\r\n\r\n[Song of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9923)",
             "imageSrc": "/images-opt/fia.webp",
             "teamId": "none",
             "status": "Alive",
@@ -4801,8 +4801,8 @@
           },
           "data": {
             "relationshipId": "its-complicated",
-            "title": "An Eerie Victory",
-            "content": "It was finally over. The Heart of Ruin was destroyed, the Curse lifted, and the world—saved. The Princess was overjoyed, the Outlander surprised but quietly relieved, and the heroes—the Shining Stars—had succeeded in preventing the end of everything. The expressions on their faces spoke of peace, of the weight that had been lifted. At last, they no longer had to fear a doomed fate.\n\n[The world is saved](#embed:https://www.youtube.com/live/sDjysXFWYbI?t=9436)\n\nAnd yet... something felt *off*.\n\nThe mysteries hadn't vanished with the Ruin. Instead, an unease lingered—subtle but unmistakable. Was something deeper still lurking beneath the surface? A victory like this should have brought clarity, but it all seemed too clean, too quiet. The Princess, who had once placed so much meaning on this journey, offered little more than a passing [“thank you.”](https://www.youtube.com/live/sDjysXFWYbI?t=9872) The Outlander, gone. And Fia—the one who had uncovered the truth for them all—didn’t say a single word.\n\nIt could be nothing. It could be everything. Maybe they were saving it all for the final banquet. Maybe they were just overwhelmed. Or maybe... this is where the real story begins.\n\nThe final day awaited. And with it, perhaps, the real answers.",
+            "title": "Joyous Time",
+            "content": "It was finally over. The Heart of Ruin was destroyed, the Curse lifted, and the world—saved. The Princess was overjoyed, the Outlander surprised but quietly relieved, and the heroes—the Shining Stars—had succeeded in preventing the end of everything. The expressions on their faces spoke of peace, of the weight that had been lifted. At last, they no longer had to fear a doomed fate.\n\n[The world is saved](#embed:https://www.youtube.com/live/sDjysXFWYbI?t=9436)\n\nAnd yet... it didn't feel like the end.\n\nThough joy and cheerfulness radiated through the kingdom, the heroes couldn’t shake a lingering unease. They were, after all, no strangers to the closing chapters of a long journey—chapters that might appear peaceful on the surface, yet hide something far more ominous beneath. They knew better than anyone: never celebrate too soon.\n\n[Something feels off](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?si=JPrfvOJ4Iqheojny&t=10019)\n\nThe final day awaited.\n\nAnd with it, perhaps, the answers to these doubts that refused to fade.",
             "pathType": "custom",
             "day": 6,
             "offsets": {

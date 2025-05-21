@@ -2,14 +2,12 @@ The Princess had a doll—a small, precious thing she once gave to her father be
 
 The doll bore a striking resemblance to Fia.
 
-Fia, who had always placed unwavering faith in the Shining Stars—the heroes meant to save the world, and beyond it, the universe. So when the battle was won and all that followed was a simple “thank you,” it felt... hollow. Incomplete. As if something vital had been left unsaid.
+Fia, who had always placed unwavering faith in the Shining Stars—the heroes destined to save not just the world, but the universe beyond. And when the final battle was won, joy rippled through the kingdom that had long drowned in despair. It was joyful. Everyone was happy.
 
-Was it the end? Was it truly over?
-
-All that remained was silence—no cheers, no farewells, just the lingering haze of uncertainty.
+But was it truly the end? Was it truly over?
 
 [Prelude of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9888)
 
-Perhaps the final day would reveal the truth. Perhaps the story wasn’t over yet.
+Perhaps the final day would reveal the truth. Perhaps this was only the beginning of a long story.
 
 [Song of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9923)
