@@ -18,6 +18,13 @@ export type SiteData = {
     chapters: Chapter[];
 };
 
+export type ChapterRecapData = {
+    chapters: {
+        title: string;
+        content: string;
+    }[];
+};
+
 export type Metadata = {
     version: number;
     numChapters: number;
