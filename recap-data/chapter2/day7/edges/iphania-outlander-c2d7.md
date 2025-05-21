@@ -1,13 +1,15 @@
-<!-- title: An Eerie Victory -->
+<!-- title: Joyous Time -->
 
 It was finally over. The Heart of Ruin was destroyed, the Curse lifted, and the world—saved. The Princess was overjoyed, the Outlander surprised but quietly relieved, and the heroes—the Shining Stars—had succeeded in preventing the end of everything. The expressions on their faces spoke of peace, of the weight that had been lifted. At last, they no longer had to fear a doomed fate.
 
 [The world is saved](#embed:https://www.youtube.com/live/sDjysXFWYbI?t=9436)
 
-And yet... something felt *off*.
+And yet... it didn't feel like the end.
 
-The mysteries hadn't vanished with the Ruin. Instead, an unease lingered—subtle but unmistakable. Was something deeper still lurking beneath the surface? A victory like this should have brought clarity, but it all seemed too clean, too quiet. The Princess, who had once placed so much meaning on this journey, offered little more than a passing [“thank you.”](https://www.youtube.com/live/sDjysXFWYbI?t=9872) The Outlander, gone. And Fia—the one who had uncovered the truth for them all—didn’t say a single word.
+Though joy and cheerfulness radiated through the kingdom, the heroes couldn’t shake a lingering unease. They were, after all, no strangers to the closing chapters of a long journey—chapters that might appear peaceful on the surface, yet hide something far more ominous beneath. They knew better than anyone: never celebrate too soon.
 
-It could be nothing. It could be everything. Maybe they were saving it all for the final banquet. Maybe they were just overwhelmed. Or maybe... this is where the real story begins.
+[Something feels off](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?si=JPrfvOJ4Iqheojny&t=10019)
 
-The final day awaited. And with it, perhaps, the real answers.
+The final day awaited.
+
+And with it, perhaps, the answers to these doubts that refused to fade.

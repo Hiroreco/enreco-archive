@@ -1,1 +1,1 @@
-The world was saved, but the Princess had little to say about it (see [Princess-Outlader: An Eerie Victory](#edge:iphania-outlander)).
+The world was saved, and the Princess couldn't be happier (see [Princess-Outlader](#edge:iphania-outlander)).
