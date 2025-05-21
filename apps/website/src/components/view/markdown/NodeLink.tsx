@@ -1,11 +1,11 @@
-import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
+import { ImageNodeType } from "@enreco-archive/common/types";
 import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
-import { useReactFlow } from "@xyflow/react";
-import { ReactNode, useCallback, useEffect, useState } from "react";
+import { ReactNode, useCallback, useContext } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
+import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
 
 export type NodeLinkClickHandler = (targetNode: ImageNodeType) => void;
 
@@ -20,21 +20,13 @@ export default function NodeLink({
     children,
     onNodeLinkClick,
 }: NodeLinkProps) {
-    const { getNode } = useReactFlow<ImageNodeType, FixedEdgeType>();
+    const { nodes } = useContext(CurrentChartDataContext);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const [node, setNode] = useState<ImageNodeType | null>(null);
-    useEffect(() => {
-        const node = getNode(nodeId);
-        if (node) {
-            setNode(node);
-        } else {
-            setNode(null);
-        }
-    }, [nodeId, getNode]);
+    const node = nodes.find(n => n.id === nodeId);
 
     const nodeLinkHandler = useCallback(() => {
         if (node && !node.hidden) {

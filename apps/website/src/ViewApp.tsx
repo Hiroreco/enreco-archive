@@ -36,6 +36,7 @@ import {
     generateRenderableEdges,
     generateRenderableNodes,
 } from "./lib/generate-renderable-chart-elems";
+import { CurrentChartDataContext } from "./contexts/CurrentChartData";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -503,73 +504,75 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     }}
                 />
 
-                <ViewSettingCard
-                    isCardOpen={viewStore.currentCard === "setting"}
-                    onCardClose={onCardClose}
-                    dayData={memoizedDayData}
-                    edgeVisibility={viewStore.edgeVisibility}
-                    onEdgeVisibilityChange={viewStore.setEdgeVisibility}
-                    teamVisibility={viewStore.teamVisibility}
-                    onTeamVisibilityChange={viewStore.setTeamVisibility}
-                    characterVisibility={viewStore.characterVisibility}
-                    onCharacterVisibilityChange={
-                        viewStore.setCharacterVisibility
-                    }
-                    chapter={viewStore.chapter}
-                    chapterData={chapterData}
-                    setChartShrink={setChartShrinkAndFit}
-                    day={viewStore.day}
-                    onDayChange={(newDay) => {
-                        viewStore.setPreviousSelectedDay(viewStore.day);
-                        updateData(viewStore.chapter, newDay);
-                    }}
-                />
+                <CurrentChartDataContext value={{ nodes: memoizedDayData.nodes, edges: memoizedDayData.edges }}>
+                    <ViewSettingCard
+                        isCardOpen={viewStore.currentCard === "setting"}
+                        onCardClose={onCardClose}
+                        dayData={memoizedDayData}
+                        edgeVisibility={viewStore.edgeVisibility}
+                        onEdgeVisibilityChange={viewStore.setEdgeVisibility}
+                        teamVisibility={viewStore.teamVisibility}
+                        onTeamVisibilityChange={viewStore.setTeamVisibility}
+                        characterVisibility={viewStore.characterVisibility}
+                        onCharacterVisibilityChange={
+                            viewStore.setCharacterVisibility
+                        }
+                        chapter={viewStore.chapter}
+                        chapterData={chapterData}
+                        setChartShrink={setChartShrinkAndFit}
+                        day={viewStore.day}
+                        onDayChange={(newDay) => {
+                            viewStore.setPreviousSelectedDay(viewStore.day);
+                            updateData(viewStore.chapter, newDay);
+                        }}
+                    />
 
-                <ViewNodeCard
-                    isCardOpen={viewStore.currentCard === "node"}
-                    selectedNode={viewStore.selectedNode}
-                    onCardClose={onCardClose}
-                    onNodeLinkClicked={onNodeClick}
-                    onEdgeLinkClicked={onEdgeClick}
-                    nodeTeam={selectedNodeTeam}
-                    chapter={viewStore.chapter}
-                    setChartShrink={setChartShrinkAndFit}
-                    onDayChange={(newDay) => {
-                        viewStore.setPreviousSelectedDay(viewStore.day);
-                        updateData(viewStore.chapter, newDay);
-                    }}
-                    availiableNodes={
-                        viewStore.selectedNode
-                            ? getAllNodesOfIdFromChapter(
-                                  viewStore.selectedNode.id,
-                                  chapterData,
-                              )
-                            : []
-                    }
-                />
+                    <ViewNodeCard
+                        isCardOpen={viewStore.currentCard === "node"}
+                        selectedNode={viewStore.selectedNode}
+                        onCardClose={onCardClose}
+                        onNodeLinkClicked={onNodeClick}
+                        onEdgeLinkClicked={onEdgeClick}
+                        nodeTeam={selectedNodeTeam}
+                        chapter={viewStore.chapter}
+                        setChartShrink={setChartShrinkAndFit}
+                        onDayChange={(newDay) => {
+                            viewStore.setPreviousSelectedDay(viewStore.day);
+                            updateData(viewStore.chapter, newDay);
+                        }}
+                        availiableNodes={
+                            viewStore.selectedNode
+                                ? getAllNodesOfIdFromChapter(
+                                    viewStore.selectedNode.id,
+                                    chapterData,
+                                )
+                                : []
+                        }
+                    />
 
-                <ViewEdgeCard
-                    isCardOpen={viewStore.currentCard === "edge"}
-                    selectedEdge={viewStore.selectedEdge}
-                    onCardClose={onCardClose}
-                    onNodeLinkClicked={onNodeClick}
-                    onEdgeLinkClicked={onEdgeClick}
-                    edgeRelationship={selectedEdgeRelationship}
-                    chapter={viewStore.chapter}
-                    setChartShrink={setChartShrinkAndFit}
-                    availiableEdges={
-                        viewStore.selectedEdge
-                            ? getAllEdgesOfIdFromChapter(
-                                  viewStore.selectedEdge.id,
-                                  chapterData,
-                              )
-                            : []
-                    }
-                    onDayChange={(newDay) => {
-                        viewStore.setPreviousSelectedDay(viewStore.day);
-                        updateData(viewStore.chapter, newDay);
-                    }}
-                />
+                    <ViewEdgeCard
+                        isCardOpen={viewStore.currentCard === "edge"}
+                        selectedEdge={viewStore.selectedEdge}
+                        onCardClose={onCardClose}
+                        onNodeLinkClicked={onNodeClick}
+                        onEdgeLinkClicked={onEdgeClick}
+                        edgeRelationship={selectedEdgeRelationship}
+                        chapter={viewStore.chapter}
+                        setChartShrink={setChartShrinkAndFit}
+                        availiableEdges={
+                            viewStore.selectedEdge
+                                ? getAllEdgesOfIdFromChapter(
+                                    viewStore.selectedEdge.id,
+                                    chapterData,
+                                )
+                                : []
+                        }
+                        onDayChange={(newDay) => {
+                            viewStore.setPreviousSelectedDay(viewStore.day);
+                            updateData(viewStore.chapter, newDay);
+                        }}
+                    />
+                </CurrentChartDataContext>
             </div>
 
             <ViewInfoModal
