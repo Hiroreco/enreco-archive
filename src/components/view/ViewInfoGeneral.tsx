@@ -4,7 +4,7 @@ const ViewInfoGeneral = () => {
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on May 19th, 2025 (Chapter 2 archived)
+                    Updated on May 21st, 2025 (Tweaked Day 7's cards)
                 </span>
             </div>
             <div>
