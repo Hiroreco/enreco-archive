@@ -45,6 +45,9 @@ const ViewChapterRecapModal = ({
     const [currentSection, setCurrentSection] = useState("");
     const contentRef = useRef<HTMLDivElement>(null);
 
+    const isScrollingProgrammatically = useRef(false);
+    const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
+
     const sections = useMemo(
         () => extractSections(data.chapters[chapter].content),
         [chapter],
@@ -52,13 +55,21 @@ const ViewChapterRecapModal = ({
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
     const activeSection = useScrollSpy(sectionIds);
 
+    // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {
-        if (activeSection) {
+        if (!isScrollingProgrammatically.current && activeSection) {
             setCurrentSection(activeSection);
         }
     }, [activeSection]);
 
-    // Reset section when chapter changes
+    useEffect(() => {
+        return () => {
+            if (scrollTimeout.current) {
+                clearTimeout(scrollTimeout.current);
+            }
+        };
+    }, []);
+
     useEffect(() => {
         setCurrentSection(sections[0]?.id || "");
         contentRef.current?.scrollTo({ top: 0, behavior: "smooth" });
@@ -66,10 +77,19 @@ const ViewChapterRecapModal = ({
 
     const handleSectionChange = (sectionId: string) => {
         setCurrentSection(sectionId);
-        // Find the section element and scroll to it
+        isScrollingProgrammatically.current = true;
+
         const element = document.getElementById(sectionId);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
+
+            if (scrollTimeout.current) {
+                clearTimeout(scrollTimeout.current);
+            }
+
+            scrollTimeout.current = setTimeout(() => {
+                isScrollingProgrammatically.current = false;
+            }, 1000);
         }
     };
 

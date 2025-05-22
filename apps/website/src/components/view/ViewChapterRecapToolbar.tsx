@@ -30,7 +30,6 @@ const ViewChapterRecapToolbar = ({
 }: Props) => {
     const handleSectionChange = (sectionId: string) => {
         onSectionChange(sectionId);
-        // Find and scroll to the selected section
         const element = document.getElementById(sectionId);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
