@@ -1,0 +1,198 @@
+@import 'tailwindcss';
+@import "tw-animate-css";
+@import "@enreco-archive/common-ui/globals.css";
+
+@source "../apps/**/*.{ts,tsx}";
+@source "./components/**/*.{ts,tsx}";
+
+@layer utilities {
+  img {
+    @apply rounded-lg;
+  }
+  @font-face {
+    font-family: 'Chesterfield';
+    src: url('/chesterfield.woff2') format('woff2');
+  }
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    @apply text-3xl font-bold;
+}
+
+h2 {
+    @apply text-2xl font-bold;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    opacity: 30%;
+    background-color: hsl(var(--primary));
+    @apply w-full my-2;
+}
+
+h3 {
+    @apply text-xl font-bold;
+}
+
+a {
+    color: #5f8db2;
+}
+
+.dark a {
+    color: rgb(116, 161, 198);
+}
+
+a:visited {
+    color: #6f74c0;
+}
+
+ul {
+    @apply list-disc list-inside;
+}
+
+li {
+    @apply mb-2;
+}
+
+figure {
+    @apply rounded-lg md:max-w-[80%] mx-auto;
+}
+
+figcaption {
+    @apply text-center;
+}
+
+table {
+    @apply w-full;
+}
+
+th {
+    @apply bg-gray-200;
+}
+
+td {
+    @apply border-t border-border;
+}
+
+.deco {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23000"><path d="M0 0v100c250 0 375-24 500-48 125 24 250 48 500 48V0H0Z" opacity=".5"></path><path d="M0 0v4c250 0 375 24 500 48C625 28 750 4 1000 4V0H0Z"></path></svg>');
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-size: cover; /* Scales to fill the parent */
+    background-position: center; /* Centers the image */
+    @apply rounded-t-lg;
+}
+
+.deco-node {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23000"><path d="m0 4 150 40h160l190 50 190-50h160l150-40V0H0v4z"></path></svg>');
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-size: cover; /* Scales to fill the parent */
+    background-position: center; /* Centers the image */
+    @apply rounded-t-lg;
+}
+
+.x-close {
+    @apply absolute top-6 right-6 cursor-pointer opacity-70 hover:opacity-100;
+}
+
+.grid-bg {
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2) 1px,
+            transparent 1px
+        ),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
+    background-size: 70px 70px;
+    background-position: 55px 0;
+}
+
+.card-deco {
+    background-image: url("/images-opt/card-deco.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dark .card-deco {
+    background-image: url("/images-opt/card-deco-dark.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.running-border {
+    --offset: 0px;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.running-border::before {
+    @apply brightness-90;
+    content: "";
+    background: conic-gradient(
+        transparent 270deg,
+        var(--border-color, #5f8db2) /* Fallback color */,
+        transparent
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1;
+    width: 100%;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+    }
+}
+
+.logo-text {
+    @apply text-white font-semibold font-[Chesterfield] text-3xl;
+    text-shadow:
+        0px 0px 10px #153650,
+        0px 0px 10px #153650;
+}
+
+.dark .logo-text {
+    text-shadow:
+        0px 0px 10px #1c4462,
+        0px 0px 10px #1c4462;
+}
+
+/* For Firefox */
+@-moz-document url-prefix() {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #9ca3af transparent;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground;
+}

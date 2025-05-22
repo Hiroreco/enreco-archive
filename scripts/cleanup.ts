@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import JSZip from "jszip";
 import { fileURLToPath } from "url";
-import { ChartData } from "../src/lib/type";
+import { ChartData } from "@enreco-archive/common/types";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -12,9 +12,8 @@ async function main() {
     const zipPath = path.resolve(
         __dirname,
         "..",
-        "src",
-        "data",
-        "save",
+        "site-data",
+        "editor",
         "current-data.zip",
     );
     const zipData = await fs.readFile(zipPath);

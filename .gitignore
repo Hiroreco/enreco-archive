@@ -25,17 +25,18 @@ dist-ssr
 
 # other
 todo.txt
-.next/*
-out/*
+**/.next/*
+**/out/*
 tsconfig.tsbuildinfo
 
 # Auto-generated file, probably don't need to commit this.
 next-env.d.ts
 
-# Optimized images
-public/images-opt/*
-public/blur-data.json
-
-# Don't exclude self-managed third-party libs
-!third-party/**/dist
 .env
+
+# Exclude Turbo cache dir
+.turbo
+
+# Assets folder
+apps/editor/public
+apps/website/public

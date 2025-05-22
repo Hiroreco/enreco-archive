@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import JSZip from "jszip";
 import { fileURLToPath } from "url";
-import { ChartData } from "../src/lib/type";
+import { ChartData } from "@enreco-archive/common/types";
 
 // ─── Setup __dirname ──────────────────────────────────────────────────────────
 const __filename = fileURLToPath(import.meta.url);

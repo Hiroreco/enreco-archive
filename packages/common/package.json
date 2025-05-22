@@ -1,0 +1,26 @@
+{
+  "name": "@enreco-archive/common",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./hooks/*": "./src/hooks/*.ts",
+    "./utils/*": "./src/utils/*.ts",
+    "./types": "./types.ts",
+    "./constants": "./constants.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.6.4",
+    "react": "catalog:"
+  },
+  "devDependencies": {
+    "@enreco-archive/eslint-config": "workspace:*",
+    "@enreco-archive/prettier-config": "workspace:*",
+    "@enreco-archive/typescript-config": "workspace:*",
+    "@types/react": "catalog:",
+    "eslint": "catalog:"
+  }
+}
