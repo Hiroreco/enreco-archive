@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import JSZip from "jszip";
 import { fileURLToPath } from "url";
-import { ChartData } from "../src/lib/type";
+import { ChartData } from "@enreco-archive/common/types";
 
 // ─── ESM __dirname boilerplate ────────────────────────────────────────────────
 const __filename = fileURLToPath(import.meta.url);
@@ -48,7 +48,9 @@ async function main() {
 
                 // 3) edges
                 for (const ed of chart.edges) {
-                    ed.data.content = ed.data.content.replace(re, "$1");
+                    if(ed.data) {
+                        ed.data.content = ed.data.content.replace(re, "$1");
+                    }
                 }
             }
         }

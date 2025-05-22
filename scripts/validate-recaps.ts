@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
-import { validateRecapContent } from "./recapChecks";
+import { validateRecapContent } from "./recapChecks.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
