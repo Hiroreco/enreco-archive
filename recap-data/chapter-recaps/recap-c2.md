@@ -1,14 +1,16 @@
 <!-- title: The Chains of Fate -->
 
-### Chapter 2: The Chains of Fate
+## Chapter 2: The Chains of Fate
 
 ### New Beginnings, Greater Responsibilities
 
-After leaping into a portal to escape the Outsider’s grasp—guided only by a mysterious voice—the heroes found themselves adrift in time and space, their sense of reality slipping away. When they finally opened their eyes, they were in yet another unfamiliar place, greeted by yet another unfamiliar face.
+After leaping into a portal to escape the Captive’s grasp—guided only by a mysterious voice—the heroes found themselves adrift in time and space, their sense of reality slipping away. When they finally opened their eyes, they were in yet another unfamiliar place, greeted by yet another unfamiliar face.
 
-That face belonged to Fia—a talking, cat-like doll who, in no uncertain terms, had saved their lives. She brought them to a place known as the Library and explained the truth of their situation: the kingdom of Libestal, where their previous journey had taken place, was never real. It was an illusion—one created to contain the being the heroes had called their King. By defeating the Stain King, they had unwittingly destroyed the vessel keeping this entity imprisoned. And in doing so, they had freed his true form—the Outsider—a force of hatred and ruin now set to obliterate the universe itself.
+That face belonged to Fia—a talking, cat-like doll who, in no uncertain terms, had saved their lives. She brought them to a place known as the Library and explained the truth of their situation: the kingdom of Libestal, where their previous journey had taken place, was never real.
 
-But not all hope was lost. Fia had pulled them back—back through time—to an older, real version of Libestal. Here, in the past, there was still a chance. A narrow, fading hope to stop the Outsider before he could ever come into being. The heroes—no, the _Shining Stars_—would be the ones to change fate.
+It was an illusion—one created to contain the being the heroes had called their King. By defeating the Stain King, they had unwittingly destroyed the vessel keeping this entity imprisoned. And in doing so, they had freed his true form—**the Outsider** (previously known as the Captive)—a force of hatred and ruin now set to obliterate the universe itself.
+
+But not all hope was lost. Fia had pulled them back—back through time—to an older, real version of Libestal. Here, in the past, there was still a chance. A narrow, fading hope to stop the Outsider before he could ever come into being. The heroes—no, the **Shining Stars**—would be the ones to change fate.
 
 ![The hereos meeting Fia for the first time](/images-opt/chrecap-1-library.webp)
 
@@ -16,7 +18,9 @@ However, there was one problem.
 
 Time travel comes at a cost. Both the heroes and Fia had lost pieces of their memories—crucial pieces that might hold the key to stopping the Outsider. Just like before, they'd need to recover them—piece by piece—through trials ahead.
 
-Fia wasn't alone in placing hope in the Shining Stars. Iphania, Princess of this older Libestal, ruled over the last sanctuary of a world being slowly devoured by Stains, by corruption, by the _Ruination_. When the heroes appeared before her, she believed them to be divine—fallen stars sent to defy destiny. She spoke of the Book of Prophecies, which foretold the world's end. But Iphania refused to surrender to fate, and the arrival of the heroes seemed proof that perhaps, just perhaps, the future could still be rewritten.
+Fia wasn't alone in placing hope in the Shining Stars. Iphania, Princess of this older Libestal, ruled over the last sanctuary of a world being slowly devoured by Stains, by corruption, by the **Ruination**. When the heroes appeared before her, she believed them to be divine—fallen stars sent to defy destiny. She spoke of the Book of Prophecies, which foretold the world's end. But Iphania refused to surrender to fate, and the arrival of the heroes seemed proof that perhaps, just perhaps, the future could still be rewritten.
+
+![The hereos meeting Iphania for the first time](/images-opt/chrecap-1-princess.webp)
 
 And so began a new journey. In a new kingdom. With new stakes.
 
@@ -51,6 +55,8 @@ Each Star Site centered on a specific hero, unlocking recollections of who they 
 
 It was also required for the heroes to submit daily diary entries to the Library—records of their thoughts, experiences, and emotions. These entries served a critical purpose: to archive their memories. In the event they ever lost them again, the Library would act as a safeguard, preserving fragments of their identities, relationships, and choices. Every joy, every sorrow, every battle and bond—they were all written down, page by page, day by day.
 
+![The Hot Pink One noting down her day](/images-opt/chrecap-1-diary.webp)
+
 Beyond the main Star Sites, the heroes also undertook smaller dungeons and side missions that unveiled hidden truths. Not only did they recover the memories of their companions—they slowly began to restore Fia’s fragmented past as well.
 
 ![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss.webp)
@@ -59,19 +65,21 @@ And with those memories, came revelations about the true nature of the Outsider�
 
 ### The Nameless Swordsman
 
-Before the heroes arrived in this kingdom, there was one who had already taken up the burden of saving the world—offering his blade in service to a doomed cause. A mysterious swordsman, known only as the _Outlander_, stood alone. Though nameless, he was far from forgotten—especially by the Princess, who held great affection for him, and he, in turn, for her. He was powerful, resolute, and driven by the will to destroy the Curse and shatter the Heart of Ruin. But that very determination sealed his fate—and everyone else’s.
+Before the heroes arrived in this kingdom, there was one who had already taken up the burden of saving the world—offering his blade in service to a doomed cause. A mysterious swordsman, known only as **the Outlander**, stood alone. Though nameless, he was far from forgotten—especially by the Princess, who held great affection for him, and he, in turn, for her. He was powerful, resolute, and driven by the will to destroy the Curse and shatter the Heart of Ruin. But that very determination sealed his fate—and everyone else’s.
 
-As Fia recovered the last fragments of her memory, the Outlander’s true identity was revealed: _The Watcher_, a member of the Collective, whose divine purpose was to observe the fates of worlds without interference. He had seen countless tragedies unfold—including Libestal’s—and never lifted a finger. But something changed the day he met Princess Iphania. A girl with a fire in her heart, who refused to surrender to fate, who stood tall when all others had fallen. Her courage stirred something long dormant within the Watcher.
+![The heroes meeting the Outlander for the first time](/images-opt/outlander-meet.webp)
+
+As Fia recovered the last fragments of her memory, the Outlander’s true identity was revealed: **The Watcher**, a member of the Collective, whose divine purpose was to observe the fates of worlds without interference. He had seen countless tragedies unfold—including Libestal’s—and never lifted a finger. But something changed the day he met Princess Iphania. A girl with a fire in her heart, who refused to surrender to fate, who stood tall when all others had fallen. Her courage stirred something long dormant within the Watcher.
 
 For the first time, he broke his oath. He intervened.
 
 He tried to save the world.
 
-But defying a Higher Being came with a price. As punishment, he was imprisoned within a fabricated kingdom—a false Libestal designed to contain him for eternity. Time passed. Pain festered. Despair turned to rage. That rage took shape when the heroes unknowingly freed him by destroying the vessel of the Stain King, releasing the full wrath of the _Outsider_.
+But defying a Higher Being came with a price. As punishment, he was imprisoned within a fabricated kingdom—a false Libestal designed to contain him for eternity. Time passed. Pain festered. Despair turned to rage. That rage took shape when the heroes unknowingly freed him by destroying the vessel of the Stain King, releasing the full wrath of the Outsider.
 
 To prevent such devastation from ever happening again, Fia placed their hopes in the heroes. If they could finish what the Outlander started—defeat the Curse and destroy the Heart of Ruin—the Watcher’s defiance would never come to light. The Outsider would never be born. The universe could be saved.
 
-![The Princess and the Outlander entrust the heroes with the world's fate.](/images-opt/chrecap-1-boss.webp)
+![The Princess and the Outlander entrust the heroes with the world's fate.](/images-opt/chrecap-1-outlander.webp)
 
 Though the end of the world loomed just seven days away, those seven days were more than enough for the heroes to do what they did best—stir things up.
 
@@ -84,11 +92,13 @@ Oh, how wrong that assumption was.
 Let’s sample just a few days to illustrate the magnitude of the madness:
 
 - **Day 1**: Jobs were chosen. Alliances formed. A “Dawg Pack” was established. Some remembered their pasts, others didn’t. Former lovers were now siblings. A green lady grew dangerously obsessed with the Princess. A tavern owner’s business suffered repeated sabotage.
-- **Day 2**: A descent—both literal and metaphorical. Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. The questionable love story between one Tammy and Pinkie. The embrassing fumbling performance of a red knight in front of her crush.
+- **Day 2**: A descent—both literal and metaphorical. Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. The embrassing fumbling performance of a red knight in front of her crush.
 - **Day 3**: Incest.
-- **Day 7**: "We defeated the Curse!" — immediately followed by a gender reveal party, complete with spontaneous birth.
+- **Day 7**: "We defeated the Curse!" — immediately followed by a gender reveal party, complete with spontaneous birth (of gas).
 
 And that only scratched the surface... _Sigh_.
+
+![It's a bird! It's a plane! No, it's gas!](/images-opt/chrecap-1-gas.webp)
 
 However, beneath the mind-melting absurdity, though, were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling red knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
 
@@ -134,7 +144,7 @@ Perhaps the past couldn't be changed. Perhaps fate truly was immutable. But even
 
 She asked for their help once more. And, without hesitation, the heroes answered. They were heroes, after all. If the world needed saving, they would rise to the call—no matter how many times it asked.
 
-![The heroes lend their hands to Fia](/images-opt/helpfia.webp)
+![The heroes lend their hands to Fia](/images-opt/chrecap-1-helpfia.webp)
 
 …Except, not all of them stepped forward.
 
@@ -144,12 +154,12 @@ They refused.
 
 Tired of being ordered, tired of playing roles dictated by others, they declared rebellion. Whether cursed or possessed was unclear, but one thing was certain—the fire of defiance now burned in their hearts, "nothing stays pure" after all . They would forge their own path. Do things _their_ way
 
-At the head of it all stood Shiori Novella.
+At the head of it all stood Shiori Nyavella.
 
 Two-toned hair flowing, golden eyes gleaming with ancient knowledge, she stood like someone who knew everything—who had seen everything. Not just her own story, but everyone’s. The scripts. The endings. The truths no one else dared acknowledge.
 
 With her arms outstretched and her voice steady, she asked the remaining heroes just one question:
 
-!["Who's with us?"](/images-opt/shiori.webp)
+!["Who's with us?"](/images-opt/chrecap-1-shiori.webp)
 
 And thus marked the end of Chapter Two of this enigmatic journey.
