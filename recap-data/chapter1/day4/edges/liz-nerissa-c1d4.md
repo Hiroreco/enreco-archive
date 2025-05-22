@@ -6,7 +6,7 @@ Before the adventure, Elizabeth decided to take a stroll around town with Raora.
 
 ["Date" at the casino](#embed:https://www.youtube.com/live/dCNrMstGc3I?t=1716)
 
-As they played, Elizabeth found herself captivated by Nerissa’s elegance. She couldn’t help but admire every little thing about her—the way she moved, her radiant beauty—it was as if she was under a spell. But her daydream ended abruptly when she lost all her money in the game. Flustered and embarrassed, Elizabeth jokingly accused Nerissa of tricking her, though deep down, she couldn’t stay upset for long.
+As they played, Elizabeth found herself captivated by Nerissa’s elegance. She couldn’t help but admire every little thing about her—the way she moved, her radiant beauty—it was as if she were under a spell. But her daydream ended abruptly when she lost all her money in the game. Flustered and embarrassed, Elizabeth jokingly accused Nerissa of tricking her, though deep down, she couldn’t stay upset for long.
 
 When the time came to conquer the Volcanic Dungeon, the two set off together. However, as they navigated the dungeon’s many challenges, Elizabeth’s suspicions only grew. Nerissa’s uncanny ability to avoid traps seemed too good to be true. Passing lasers effortlessly? Witch. Walking through fire unharmed? Witch. Catching Elizabeth mid-thought as she mentally accused her of being a witch? Definitely a [witch](https://www.youtube.com/live/dCNrMstGc3I?feature=shared\&t=3234).
 
