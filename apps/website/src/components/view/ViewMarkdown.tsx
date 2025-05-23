@@ -18,6 +18,7 @@ import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
 import "@/components/view/ViewMarkdown.css";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 /*
 Custom rehype plugin to convert lone images in paragraphs into figures.
@@ -217,18 +218,20 @@ For a link to show an easter egg: [easter label](#easter:<egg>)
 interface ViewMarkdownProps {
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
+    className?: string;
     children: string | null | undefined;
 }
 
 function ViewMarkdownInternal({
     onNodeLinkClicked,
     onEdgeLinkClicked,
+    className,
     children,
 }: ViewMarkdownProps) {
     const markdownComponentMap = useMemo(
         (): Components => ({
             img: ({ src = "", alt = "" }) => {
-                if ((typeof src) === "object") {
+                if (typeof src === "object") {
                     throw new Error("We don't support Blobs right now.");
                 }
                 return (
@@ -241,6 +244,10 @@ function ViewMarkdownInternal({
                         blurDataURL={getBlurDataURL(src)}
                     />
                 );
+            },
+            h3: ({ children }) => {
+                const sectionId = children as string;
+                return <h3 id={sectionId}>{children}</h3>;
             },
             figcaption: ({ children }) => {
                 return (
@@ -328,7 +335,7 @@ function ViewMarkdownInternal({
         [],
     );
     return (
-        <div className="relative markdown">
+        <div className={cn("relative markdown", className)}>
             <Markdown
                 remarkPlugins={remarkPlugins}
                 rehypePlugins={rehypePlugins}

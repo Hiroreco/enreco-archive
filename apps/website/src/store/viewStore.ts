@@ -35,6 +35,9 @@ interface ViewState {
     minigameModalOpen: boolean;
     setMinigameModalOpen: (isMinigameModalOpen: boolean) => void;
 
+    chapterRecapModalOpen: boolean;
+    setChapterRecapModalOpen: (isChapterRecapModalOpen: boolean) => void;
+
     videoModalOpen: boolean;
     setVideoModalOpen: (isVideoModalOpen: boolean) => void;
 
@@ -91,6 +94,10 @@ export const useViewStore = create<ViewState>((set) => {
         minigameModalOpen: false,
         setMinigameModalOpen: (isMinigameModalOpen: boolean) =>
             set(() => ({ minigameModalOpen: isMinigameModalOpen })),
+
+        chapterRecapModalOpen: false,
+        setChapterRecapModalOpen: (isChapterRecapModalOpen: boolean) =>
+            set(() => ({ chapterRecapModalOpen: isChapterRecapModalOpen })),
 
         videoModalOpen: false,
         setVideoModalOpen: (isVideoModalOpen: boolean) =>

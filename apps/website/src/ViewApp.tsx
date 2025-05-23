@@ -19,9 +19,9 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
-import { Dice6, Info, Settings } from "lucide-react";
+import { Book, Dice6, Info, Settings } from "lucide-react";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import ViewChart from "./components/view/ViewChart";
 import ViewSettingsModal from "./components/view/ViewSettingsModal";
@@ -36,7 +36,8 @@ import {
     generateRenderableEdges,
     generateRenderableNodes,
 } from "./lib/generate-renderable-chart-elems";
-import { CurrentChartDataContext } from "./contexts/CurrentChartData";
+import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
+import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -504,7 +505,12 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     }}
                 />
 
-                <CurrentChartDataContext value={{ nodes: memoizedDayData.nodes, edges: memoizedDayData.edges }}>
+                <CurrentChartDataContext
+                    value={{
+                        nodes: memoizedDayData.nodes,
+                        edges: memoizedDayData.edges,
+                    }}
+                >
                     <ViewSettingCard
                         isCardOpen={viewStore.currentCard === "setting"}
                         onCardClose={onCardClose}
@@ -543,9 +549,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         availiableNodes={
                             viewStore.selectedNode
                                 ? getAllNodesOfIdFromChapter(
-                                    viewStore.selectedNode.id,
-                                    chapterData,
-                                )
+                                      viewStore.selectedNode.id,
+                                      chapterData,
+                                  )
                                 : []
                         }
                     />
@@ -562,9 +568,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         availiableEdges={
                             viewStore.selectedEdge
                                 ? getAllEdgesOfIdFromChapter(
-                                    viewStore.selectedEdge.id,
-                                    chapterData,
-                                )
+                                      viewStore.selectedEdge.id,
+                                      chapterData,
+                                  )
                                 : []
                         }
                         onDayChange={(newDay) => {
@@ -597,6 +603,12 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 bgImage={bgImage}
             />
 
+            <ViewChapterRecapModal
+                key={`chapter-recap-modal-${viewStore.chapter}`}
+                open={viewStore.chapterRecapModalOpen}
+                onOpenChange={viewStore.setChapterRecapModalOpen}
+                currentChapter={viewStore.chapter}
+            />
             <ViewReadCounter
                 day={viewStore.day}
                 chapter={viewStore.chapter}
@@ -658,6 +670,17 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     onClick={() => viewStore.setMinigameModalOpen(true)}
                 >
                     <Dice6 />
+                </IconButton>
+
+                <IconButton
+                    id="chapter-recap-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Chatper Recap"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={() => viewStore.setChapterRecapModalOpen(true)}
+                >
+                    <Book />
                 </IconButton>
             </div>
 
