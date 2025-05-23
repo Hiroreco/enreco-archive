@@ -1,7 +1,7 @@
 import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { memo, useEffect, useId, useMemo, useRef } from "react";
+import { memo, useEffect, useId, useMemo, useRef, useState } from "react";
 
 import "@/components/view/ViewCustomEdge.css";
 
@@ -21,6 +21,13 @@ const ViewCustomEdge = ({
     const pathRef = useRef<SVGPathElement>(null);
     const maskId = useId();
     const { strokeDasharray, ...restStyle } = style || {};
+
+    const [maskBounds, setMaskBounds] = useState({
+        x: 0,
+        y: 0,
+        width: 0,
+        height: 0,
+    });
 
     const path = useMemo(
         () =>
@@ -45,6 +52,19 @@ const ViewCustomEdge = ({
             targetY,
         ],
     );
+
+    useEffect(() => {
+        if (pathRef.current) {
+            const bbox = pathRef.current.getBBox();
+            const padding = 20;
+            setMaskBounds({
+                x: bbox.x - padding,
+                y: bbox.y - padding,
+                width: bbox.width + padding * 2,
+                height: bbox.height + padding * 2,
+            });
+        }
+    }, [path]);
 
     useEffect(() => {
         if (isNewlyAdded && pathRef.current) {
@@ -75,7 +95,14 @@ const ViewCustomEdge = ({
             {/* Mask for dashed edges */}
             <defs>
                 {strokeDasharray && (
-                    <mask id={maskId} y={"-20%"} height={"130%"}>
+                    <mask
+                        id={maskId}
+                        maskUnits="userSpaceOnUse"
+                        x={maskBounds.x}
+                        y={maskBounds.y}
+                        width={maskBounds.width}
+                        height={maskBounds.height}
+                    >
                         <path
                             d={path}
                             stroke="white"
