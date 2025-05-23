@@ -2,7 +2,7 @@
 import fs from "fs/promises";
 import path from "path";
 import JSZip from "jszip";
-import { ChartData } from "../src/lib/type";
+import { ChartData } from "@enreco-archive/common/types";
 import { fileURLToPath } from "url";
 
 // ESM __dirname
@@ -30,9 +30,8 @@ async function main() {
     const zipPath = path.resolve(
         __dirname,
         "..",
-        "src",
-        "data",
-        "save",
+        "site-data",
+        "editor",
         "current-data.zip",
     );
     const entryName = `chapter${chapterNum}.json`;

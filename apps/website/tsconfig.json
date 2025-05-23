@@ -1,0 +1,19 @@
+{
+    "extends": "@enreco-archive/typescript-config/nextjs.json",
+    "compilerOptions": {
+        "noUncheckedIndexedAccess": false,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"],
+            "~/*": ["public/*"],
+            "#/*": ["data/*"]
+        }
+    },
+    "include": [
+        "./dist/types/**/*.ts",
+        "./next-env.d.ts",
+        "./src",
+        ".next/types/**/*.ts"
+    ],
+    "exclude": ["./node_modules"]
+}

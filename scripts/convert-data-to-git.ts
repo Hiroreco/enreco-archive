@@ -1,4 +1,4 @@
-import { ChartData, Chapter } from "../src/lib/type";
+import { ChartData, Chapter } from "@enreco-archive/common/types";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
@@ -61,7 +61,7 @@ function convertChapterToGitFormat(chapter: Chapter): Chapter {
 }
 
 function main() {
-    const inputDir = path.join(__dirname, "..", "src", "data", "save");
+    const inputDir = path.join(__dirname, "..", "apps", "website", "data");
     const files = fs
         .readdirSync(inputDir)
         .filter((f) => f.match(/chapter\d+\.json/));

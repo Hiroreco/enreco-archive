@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import JSZip from "jszip";
-import { ChartData } from "../src/lib/type";
+import { ChartData } from "@enreco-archive/common/types";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -24,16 +24,16 @@ async function main() {
     const zipPath = path.resolve(
         __dirname,
         "..",
-        "src",
-        "data",
-        "save",
+        "site-data",
+        "editor",
         "current-data.zip",
     );
     let zipData: Buffer;
     try {
         zipData = await fs.readFile(zipPath);
     } catch (err) {
-        console.error(`Failed to read ZIP at ${zipPath}:`, err.message);
+        const errMessage = err instanceof Error ? err.message : err;
+        console.error(`Failed to read ZIP at ${zipPath}:`, errMessage);
         process.exit(1);
     }
 
@@ -53,7 +53,8 @@ async function main() {
         chapterJson = JSON.parse(jsonStr);
         console.log(chapterJson.charts[0].nodes.map((node) => node.id));
     } catch (err) {
-        console.error(`Failed to parse ${entryName}:`, err.message);
+        const errMessage = err instanceof Error ? err.message : err;
+        console.error(`Failed to parse ${entryName}:`, errMessage);
         process.exit(1);
     }
 
