@@ -61,7 +61,7 @@ const ViewCustomEdge = ({
             <defs>
                 { isNewlyAdded && 
                     /* Mask for line drawing animation */
-                    <mask id={maskId}>
+                    <mask id={maskId} maskUnits="userSpaceOnUse">
                         <path
                             d={path}
                             stroke="white"

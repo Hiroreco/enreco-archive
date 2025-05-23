@@ -23,6 +23,8 @@ import { CardType } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
 import { isMobileViewport } from "@/lib/utils";
 
+import "@/components/view/ViewChart.css"
+
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
     for (const node of nodes) {
