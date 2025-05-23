@@ -63,12 +63,12 @@ const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
             <div
                 style={{
                     opacity: data.renderOpacity,
-                    transition: "transform 0.3s, opacity 1s",
+                    transition: "all 0.3s, opacity 1s",
                 }}
                 className={cn(
                     "relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
                     {
-                        "hover:scale-110": !selected,
+                        "hover:scale-110 transition-transform": !selected,
                         "brightness-100": !data.renderDimly,
                         "brightness-90 dark:brightness-50": data.renderDimly,
                     },
