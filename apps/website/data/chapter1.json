@@ -5623,7 +5623,8 @@
       "id": "business",
       "name": "Business",
       "style": {
-        "stroke": "#79b3c8"
+        "stroke": "#79b3c8",
+        "strokeDasharray": ""
       }
     },
     "unrequited-love": {
@@ -5631,15 +5632,15 @@
       "name": "Unrequited Love",
       "style": {
         "stroke": "#4f80f0",
-        "strokeDasharray": ""
+        "strokeDasharray": "10, 20"
       }
     },
     "romantic": {
       "id": "romantic",
       "name": "Romantic",
       "style": {
-        "stroke": "#fe85ec",
-        "strokeDasharray": ""
+        "stroke": "#fe49e3",
+        "strokeDasharray": "10, 20"
       }
     },
     "family": {
@@ -5661,7 +5662,8 @@
       "id": "its-complicated",
       "name": "It's Complicated",
       "style": {
-        "stroke": "#c67b8e"
+        "stroke": "#c67b8e",
+        "strokeDasharray": "10, 20"
       }
     },
     "protector": {
@@ -5696,7 +5698,8 @@
       "id": "alliance",
       "name": "Alliance",
       "style": {
-        "stroke": "#ecbe5b"
+        "stroke": "#ecbe5b",
+        "strokeDasharray": "10, 20"
       }
     },
     "knight": {
@@ -5725,7 +5728,8 @@
       "id": "bros",
       "name": "Bros",
       "style": {
-        "stroke": "#00ffcc"
+        "stroke": "#00ffcc",
+        "strokeDasharray": ""
       }
     },
     "same-person": {
