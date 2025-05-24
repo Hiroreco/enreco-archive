@@ -5632,7 +5632,7 @@
       "name": "Unrequited Love",
       "style": {
         "stroke": "#4f80f0",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "15, 10"
       }
     },
     "romantic": {
@@ -5640,7 +5640,7 @@
       "name": "Romantic",
       "style": {
         "stroke": "#fe49e3",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "15, 10"
       }
     },
     "family": {
@@ -5663,7 +5663,7 @@
       "name": "It's Complicated",
       "style": {
         "stroke": "#c67b8e",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "15, 10"
       }
     },
     "protector": {
@@ -5699,7 +5699,7 @@
       "name": "Alliance",
       "style": {
         "stroke": "#ecbe5b",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "15, 10"
       }
     },
     "knight": {
@@ -5714,14 +5714,15 @@
       "name": "Maid",
       "style": {
         "stroke": "#1c1cce",
-        "strokeDasharray": "10, 20"
+        "strokeDasharray": "15, 10"
       }
     },
     "guard-dog": {
       "id": "guard-dog",
       "name": "Guard Dog",
       "style": {
-        "stroke": "#8f6d2d"
+        "stroke": "#8f6d2d",
+        "strokeDasharray": ""
       }
     },
     "bros": {
