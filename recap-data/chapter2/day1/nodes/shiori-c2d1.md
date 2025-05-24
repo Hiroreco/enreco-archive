@@ -18,4 +18,4 @@ In no time at all, Shiori transformed from misunderstood oddball to infamous kin
 
 [There there](#embed:https://www.youtube.com/live/zCWoxMbOZPk?si=oYopwgLcQ619PkeF&t=13380)
 
-All in all, a flawless start to her new culinary life of chaos. Evenmore, the beginning of a blossoming relationship (see [Shiori-Gonathon][#edge:gigi-shiori])
+All in all, a flawless start to her new culinary life of chaos. Evenmore, the beginning of a blossoming relationship (see [Shiori-Gonathon](#edge:gigi-shiori))
