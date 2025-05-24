@@ -1,4 +1,4 @@
-Tanakisha Karia, or rather, Kiara Takahashi's memories returned though some parts remained a blur. What happened in the end? A fierce battle of epic proportions? 
+Tanakisha Karia, or rather, Kiara Takahashi's memories returned though some parts remained a blur. What happened in the end? A fierce battle of epic proportions?
 
 The mystery didn't last long as a [voice](https://youtu.be/5pgqtkxazUo?t=471) reminds her.
 
@@ -25,3 +25,5 @@ Focusing on the quests beforehand to prepare for the coming days, Kiara gained m
 Soon, Elizabeth calls Kiara to the building area, a generous place that our heroes are free to use as they see fit, and shows her the beginnings of their shop. Kiara marvelled at the craftsmanship Elizabeth showed but is appalled that the other knight was too humble, giving herself only the sparsest of places to rest and insisted they share the upper floor.
 
 A knight and hero's work is far from over as the deadline looms over their heads. Tired, Kiara writes down on her journals before departing to rest, pondering on what the next day could bring.
+
+[Liebes Tagebuch](#embed:https://www.youtube.com/live/5pgqtkxazUo?si=o9cCRFjDiz3cwnjr&t=13675)

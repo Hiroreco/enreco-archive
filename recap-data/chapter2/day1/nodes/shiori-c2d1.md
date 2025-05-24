@@ -8,7 +8,7 @@ This was classic Shiori: defying expectations, doing everything on her own terms
 
 Thus began the tale of perhaps the most dangerous chef the kingdom had ever seen. One who casually referred to a random woman as [Pickle](https://www.youtube.com/live/zCWoxMbOZPk?si=5acuSuxcDzRRtjdl&t=2667), spoke freely of burying gold and breeding pigs, and generally operated in ways no one could predict. And yes—she cooked. A lot.
 
-To everyone’s shock (and mild horror), Shiori turned out to be exceptionally good at it. She cooked up a storm and hit over 1500 coins before anyone could blink. But for Shiori, it wasn’t enough. A new idea took root—not opening her own shop (too much effort), but rather, what if she... sold her goods on *someone else’s* shop?
+To everyone’s shock (and mild horror), Shiori turned out to be exceptionally good at it. She cooked up a storm and hit over 1500 coins before anyone could blink. But for Shiori, it wasn’t enough. A new idea took root—not opening her own shop (too much effort), but rather, what if she... sold her goods on _someone else’s_ shop? Or even better, buy their goods, and sold them at a higher price?
 
 And so the Oreo Maiden’s devious schemes began. The unfortunate target? Whichever poor soul owned the establishment she decided to “borrow”.
 
@@ -18,4 +18,4 @@ In no time at all, Shiori transformed from misunderstood oddball to infamous kin
 
 [There there](#embed:https://www.youtube.com/live/zCWoxMbOZPk?si=oYopwgLcQ619PkeF&t=13380)
 
-All in all, a flawless start to her new culinary life of chaos.
+All in all, a flawless start to her new culinary life of chaos. Evenmore, the beginning of a blossoming relationship (see [Shiori-Gonathon](#edge:gigi-shiori))

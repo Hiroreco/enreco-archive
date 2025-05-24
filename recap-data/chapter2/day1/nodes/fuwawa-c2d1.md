@@ -6,13 +6,11 @@ When asked to choose an occupation, Fuwawa became a chef. Her reason was simple 
 
 And so her new adventure began. Thanks to the familiarity of the kingdom’s mechanics from her previous life, the fluffy one had a much easier time settling into this strange, yet oddly familiar world. Along the way, she encountered old acquaintances—or perhaps new ones? With her memories fragmented, she couldn’t be sure. She remembered her beloved bread lady, [Elizabeth](https://www.youtube.com/live/-zBlbI-EuCw?si=wV_c4zN2N9MCFymM&t=5394), but drew a blank on the striking blue maiden before her. So she gave her a name of her own:
 
-[Miss Mustard](#embed:https://www.youtube.com/watch?v=-zBlbI-EuCw&t=3399s
-)
+[Miss Mustard](#embed:https://www.youtube.com/watch?v=-zBlbI-EuCw&t=3399s)
 
 Then came the cooking. She was a chef, after all. From soups to potato salads, Fuwawa happily prepared meal after meal. It quickly became clear she had made the right decision—cooking was easy, fun, and most importantly, fulfilling.
 
-She spent time exploring the kingdom, inspecting the [kitchen](https://www.youtube.com/watch?v=-zBlbI-EuCw&t=8953s
-) she would come to know well, and even visited the gallery where she stumbled upon a nostalgic painting of herself from a past she could still recall.
+She spent time exploring the kingdom, inspecting the [kitchen](https://www.youtube.com/watch?v=-zBlbI-EuCw&t=8953s) she would come to know well, and even visited the gallery where she stumbled upon a nostalgic painting of herself from a past she could still recall.
 
 [The chickens...](#embed:https://www.youtube.com/live/-zBlbI-EuCw?si=EsVMxO7nW5FLNBdj&t=9049)
 

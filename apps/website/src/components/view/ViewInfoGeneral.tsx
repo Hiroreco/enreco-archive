@@ -4,7 +4,7 @@ const ViewInfoGeneral = () => {
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on May 21st, 2025 (Tweaked Day 7's cards)
+                    Updated on May 23rd, 2025 (Tweaked Day 1's cards)
                 </span>
             </div>
             <div>
@@ -37,6 +37,7 @@ const ViewInfoGeneral = () => {
                 <a
                     href="https://hololive.hololivepro.com/en/news/20240823-01-97/"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     (Source)
                 </a>
@@ -65,6 +66,7 @@ const ViewInfoGeneral = () => {
                         <a
                             href="https://www.youtube.com/watch?v=KIbQ-tcNWDw&list=PLonYStlm50KZ_rKewRuHUfuEMYbk_hbsi&ab_channel=BoubonClipperCh."
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Boubon Clipper Ch.
                         </a>
@@ -77,7 +79,12 @@ const ViewInfoGeneral = () => {
                 gladly welcome any help along the way! If you have any questions
                 or are interested in joining the team, feel free to reach out to
                 Hiro via{" "}
-                <a href="https://x.com/hiroavrs" target="_blank">
+                <a
+                    href="https://x.com/hiroavrs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span className="font-bold">@hiroavrs</span>
                     X/Twitter
                 </a>{" "}
                 or send an email to{" "}
@@ -106,13 +113,18 @@ const ViewInfoGeneral = () => {
                 Cover Corp nor Mojang. The site uses music taken from the
                 talents' streams, as well as sound effects and assets from
                 Minecraft, following{" "}
-                <a href="https://hololivepro.com/en/terms/" target="_blank">
+                <a
+                    href="https://hololivepro.com/en/terms/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     COVER's Derivative Works Guidelines
                 </a>{" "}
                 and{" "}
                 <a
                     href="https://www.minecraft.net/en-us/usage-guidelines"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     Minecraft Usage Guidlines.
                 </a>
