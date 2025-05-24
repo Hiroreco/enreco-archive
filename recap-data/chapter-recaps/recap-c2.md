@@ -12,7 +12,7 @@ It was an illusion—one created to contain the being the heroes had called thei
 
 But not all hope was lost. Fia had pulled them back—back through time—to an older, real version of Libestal. Here, in the past, there was still a chance. A narrow, fading hope to stop the Outsider before he could ever come into being. The heroes—no, the **Shining Stars**—would be the ones to change fate.
 
-![The hereos meeting Fia for the first time](/images-opt/chrecap-1-library.webp)
+![The heroes meet Fia for the first time](/images-opt/chrecap-1-library.webp)
 
 However, there was one problem.
 
@@ -20,7 +20,7 @@ Time travel comes at a cost. Both the heroes and Fia had lost pieces of their me
 
 Fia wasn't alone in placing hope in the Shining Stars. Iphania, Princess of this older Libestal, ruled over the last sanctuary of a world being slowly devoured by Stains, by corruption, by the **Ruination**. When the heroes appeared before her, she believed them to be divine—fallen stars sent to defy destiny. She spoke of the Book of Prophecies, which foretold the world's end. But Iphania refused to surrender to fate, and the arrival of the heroes seemed proof that perhaps, just perhaps, the future could still be rewritten.
 
-![The hereos meeting Iphania for the first time](/images-opt/chrecap-1-princess.webp)
+![The heroes meeting Iphania for the first time](/images-opt/chrecap-1-princess.webp)
 
 And so began a new journey. In a new kingdom. With new stakes.
 
@@ -39,11 +39,11 @@ With the kingdom barely sustaining its refugees, the heroes needed more than jus
 - **The Smith** – Forged upgrade stones used to enhance Revelation weapons.
 - **The Jeweler** – Crafted charms that bolstered health and defense.
 - **The Chef** – Cooked meals granting powerful buffs for their adventures.
-- **The Supplier** – Enchanted tools to boost resource gathering efficiency.
+- **The Supplier** – Enchanted tools to boost resource-gathering efficiency.
 
 Each role played an important part in the group’s advancement. Cooperation was essential. The chefs provided food for all. The smiths strengthened weapons others couldn’t. The suppliers fueled the craftsmen. And though it was less about goodwill and more about charging each other for services rendered, the system worked—barely.
 
-![Charm making proccess from a Jeweler](/images-opt/chrecap-1-charm.webp)
+![Charm making process for a Jeweler](/images-opt/chrecap-1-charm.webp)
 
 The heroes needed every advantage they could get. New lands meant harder battles, and the dungeons—or rather, _Star Sites_—grew more dangerous with each step forward. But just like before, within those treacherous places lay fragments of what they’d lost: their memories.
 
@@ -61,7 +61,7 @@ Beyond the main Star Sites, the heroes also undertook smaller dungeons and side 
 
 ![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss.webp)
 
-And with those memories, came revelations about the true nature of the Outsider—how his existence was deeply intertwined with another mysterious figure: the Outlander.
+And with those memories came revelations about the true nature of the Outsider—how his existence was deeply intertwined with another mysterious figure: the Outlander.
 
 ### The Nameless Swordsman
 
@@ -75,7 +75,7 @@ For the first time, he broke his oath. He intervened.
 
 He tried to save the world.
 
-But defying a Higher Being came with a price. As punishment, he was imprisoned within a fabricated kingdom—a false Libestal designed to contain him for eternity. Time passed. Pain festered. Despair turned to rage. That rage took shape when the heroes unknowingly freed him by destroying the vessel of the Stain King, releasing the full wrath of the Outsider.
+But defying a higher being came with a price. As punishment, he was imprisoned within a fabricated kingdom—a false Libestal designed to contain him for eternity. Time passed. Pain festered. Despair turned to rage. That rage took shape when the heroes unknowingly freed him by destroying the vessel of the Stain King, releasing the full wrath of the Outsider.
 
 To prevent such devastation from ever happening again, Fia placed their hopes in the heroes. If they could finish what the Outlander started—defeat the Curse and destroy the Heart of Ruin—the Watcher’s defiance would never come to light. The Outsider would never be born. The universe could be saved.
 
@@ -85,14 +85,14 @@ Though the end of the world loomed just seven days away, those seven days were m
 
 ### Your Usual Shenanigans, Tenfold
 
-With four fewer heroes on this second journey—those lost to tax evasion, alleged trident theft—you’d think things would be calmer. Perhaps even quieter.
+With four fewer heroes on this second journey—those lost to tax evasion and alleged trident theft—you’d think things would be calmer. Perhaps even quieter.
 
 Oh, how wrong that assumption was.
 
 Let’s sample just a few days to illustrate the magnitude of the madness:
 
 - **Day 1**: Jobs were chosen. Alliances formed. A “Dawg Pack” was established. Some remembered their pasts, others didn’t. Former lovers were now siblings. A green lady grew dangerously obsessed with the Princess. A tavern owner’s business suffered repeated sabotage.
-- **Day 2**: A descent—both literal and metaphorical. Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. The embrassing fumbling performance of a red knight in front of her crush.
+- **Day 2**: A descent—both literal and metaphorical. Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic, began causing relationship destruction wherever she went. The embarrassing fumbling performance of a red knight in front of her crush.
 - **Day 3**: Incest.
 - **Day 7**: "We defeated the Curse!" — immediately followed by a gender reveal party, complete with spontaneous birth (of gas).
 
@@ -100,7 +100,7 @@ And that only scratched the surface... _Sigh_.
 
 ![It's a bird! It's a plane! No, it's gas!](/images-opt/chrecap-1-gas.webp)
 
-However, beneath the mind-melting absurdity, though, were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling red knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
+However, beneath the mind-melting absurdity were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling red knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
 
 Weird, wonderful, emotional—the journey was all of it. Even without the full ensemble from the first tale, the world remained alive, chaotic, heartfelt... and deeply unforgettable.
 
@@ -122,7 +122,7 @@ And then, a ripple tore through the space around them.
 
 A voice—cryptic, cold, and godlike—echoed across the room. A being beyond comprehension, cloaked in divinity and judgment, spoke with grim finality. It condemned the heroes and the Outlander alike, declaring their sin: the audacity to defy fate itself.
 
-![Iphania's death, and the price for defying fate](/images-opt/chrecap-1-banquet.webp)
+![Iphania's death and the price for defying fate](/images-opt/chrecap-1-banquet.webp)
 
 Just as divine punishment was about to be dealt, Fia intervened. In a desperate act, she saved the heroes from the impending doom. No one had foreseen such a cruel twist. No one wanted to believe what had just happened. But even in the face of heartbreak and despair, the heroes still clung to hope.
 
@@ -152,7 +152,7 @@ Fuwawa, Mococo, Bijou, Nerissa, and Shiori remained behind—shrouded in shadow.
 
 They refused.
 
-Tired of being ordered, tired of playing roles dictated by others, they declared rebellion. Whether cursed or possessed was unclear, but one thing was certain—the fire of defiance now burned in their hearts, "nothing stays pure" after all . They would forge their own path. Do things _their_ way
+Tired of being ordered, tired of playing roles dictated by others, they declared rebellion. Whether cursed or possessed was unclear, but one thing was certain—the fire of defiance now burned in their hearts, "nothing stays pure" after all. They would forge their own path. Do things _their_ way.
 
 At the head of it all stood Shiori Nyavella.
 
