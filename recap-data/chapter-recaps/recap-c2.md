@@ -41,7 +41,7 @@ With the kingdom barely sustaining its refugees, the heroes needed more than jus
 - **The Chef** – Cooked meals granting powerful buffs for their adventures.
 - **The Supplier** – Enchanted tools to boost resource-gathering efficiency.
 
-![Charm making process for a Jeweler](/images-opt/chrecap-1-charm.webp)
+![Charm making process from a Jeweler](/images-opt/chrecap-1-charm.webp)
 
 Each role played an important part in the group’s advancement. Cooperation was essential. The chefs provided food for all. The smiths strengthened weapons others couldn’t. The suppliers fueled the craftsmen. And though it was less about goodwill and more about charging each other for services rendered, the system worked—barely.
 
