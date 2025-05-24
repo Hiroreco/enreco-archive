@@ -3,9 +3,39 @@
 }
 
 .custom-edge {
+    stroke-linecap: round;
     stroke-width: 5px;
 }
 
 .custom-edge-selected {
     stroke-width: 7px;
+}
+
+.new-custom-edge-mask-path {
+    stroke-dashoffset: 1;
+    stroke-dasharray: 1;
+    animation: drawLine 1s ease-in-out forwards;
+}
+
+@keyframes drawLine {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.running-light {
+    stroke-dasharray: 5, 200;
+    stroke-dashoffset: 0;
+    animation: runningLight 5s linear infinite;
+    opacity: 0.4;
+}
+
+@keyframes runningLight {
+    to {
+        stroke-dashoffset: -205;
+    }
+}
+
+.dark .running-light {
+    opacity: 0.3;
 }
