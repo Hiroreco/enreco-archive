@@ -1,6 +1,6 @@
 <!-- title: Unrequited Love -->
 
-Tam liking the Pink Thing? That was unexpected. Considering how much of a clutz she saw the Hot Pink One as, the blue maiden never would have imagined herself feeling attracted to such silliness. Yet, after witnessing marriages happening left and right, a thought crept into her mind—Could her chance come as well?
+Tam likes the Pink Thing? That was unexpected. Considering how much of a clutz she saw the Hot Pink One as, the Blue Maiden never would have imagined herself feeling attracted to such silliness. Yet, after witnessing marriages happening left and right, a thought crept into her mind—could her chance come as well?
 
 But… she was a step too late.
 

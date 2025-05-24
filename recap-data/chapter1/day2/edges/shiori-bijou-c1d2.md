@@ -6,7 +6,7 @@ Inspired by the blossoming relationship between Gonathon and Jyonathan, Bijou mu
 
 [Rock girl proposes to Oreo lady](#embed:https://www.youtube.com/live/Y2LV1PUQ0S8?t=8385)
 
-Their marriage ceremony was far from traditional. In the middle of an open field, with Stains attacking from all directions and wildlife as their only witnesses, they exchanged their "eggs" and "seeds". It was unconventional, chaotic, and perfectly fitting for two individuals whose weirdness seemed to define them.
+Their marriage ceremony was far from traditional. In the middle of an open field, with Stains attacking from all directions and wildlife as their only witnesses, they exchanged their "eggs" and "seeds." It was unconventional, chaotic, and perfectly fitting for two individuals whose weirdness seemed to define them.
 
 Even the Grim Reaper herself, Calli, was unsettled by their union, backing away cautiously after their peculiar introduction. But love isn’t about conformity; it’s about finding someone who matches your rhythm, no matter how offbeat it might seem to others.
 

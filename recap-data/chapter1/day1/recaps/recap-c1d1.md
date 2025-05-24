@@ -6,12 +6,12 @@ Chaos and confusion ruled the day, which was to be expected. The girls were divi
 
 * **Jade Sword:** The beacon of the righteous and loyal, where great threats are faced with even greater courage
 * **Cerulean Cup:** The sanctum of healing, where the spirit of empathy and devotion thrives.
-* **Amber Coin**: The home for glory-seekers with ambition and vision, where closest allies become fiercest rivals.
+* **Amber Coin:** The home for glory-seekers with ambition and vision, where even the closest allies become fiercest rivals.
 * **Scarlet Wand:** The haven for the curious, where knowledge and creativity are valued above all.
 
 ![The four guild masters](images-opt/guildmasters.webp)
 
-Tasked and trusted by the king, the heroes set out to acclimate to their new world. They learned about its intricate systems, including forming parties, using telepathic devices for communication, undertaking quests to earn coins, and more. Central to their roles were the unique weapons bestowed upon them. Each weapon possessed a special ability, or *Revelation* tied exclusively to its wielder—a power as mysterious as it was significant.
+Tasked and trusted by the king, the heroes set out to acclimate to their new world. They learned about its intricate systems, including forming parties, using telepathic devices for communication, undertaking quests to earn coins, and more. Central to their roles were the unique weapons bestowed upon them. Each weapon possessed a special ability, or *Revelation*, tied exclusively to its wielder—a power as mysterious as it was significant.
 
 The day's primary mission led them to the *Underworld Dungeon*, a foreboding place tied to the essence of death. Success in conquering the dungeon promised a reward of profound value: the restoration of fragments of their lost memories.
 
