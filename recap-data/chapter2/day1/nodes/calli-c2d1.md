@@ -2,15 +2,15 @@ While everyone around her was confused and panicking—grappling with the fact t
 
 [I'm your hero](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=d-oTxkczcDfoDeMa&t=1009)
 
-And with that self-appointed title came great responsibility: explaining to the others what was happening, what to do, and how to go about it. You know, main character things. She carried herself with pride… which only made the looks she got from others more awkward—especially after she loudly introduced herself as *Mordon Ramsay*.
+And with that self-appointed title came great responsibility: explaining to the others what was happening, what to do, and how to go about it. You know, main character things. She carried herself with pride… which only made the looks she got from others more awkward—especially after she loudly introduced herself as _Mordon Ramsay_.
 
-Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Falling Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordon Ramsay was here to cook, and cook she shall.
+Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Shining Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordon Ramsay was here to cook, and cook she shall.
 
 She quickly befriended her new (or were they old?) comrades, including the likes of Gonathon (see [Calli-Gonathon: My Dawg](#edge:calli-gigi)). She had a lot of “dawgs.” She formed bonds with [fellow chefs](https://www.youtube.com/live/aqhG1kmmkec?si=3GeaCgPBFqQL-cAU&t=3179), started questing, and got used to the mechanics of the new kingdom.
 
 With the basics out of the way, she turned to her true ambition: [opening a shop](https://www.youtube.com/live/aqhG1kmmkec?si=Y4GcVRFhNDwNYn6w&t=4391)—again. But this time, it would be grander. Better. More delicious food. More divorce services. More charging married couples exorbitant fees. And this time… maybe even a few employees. Her last tavern was built with a green theme to reflect the Jade Sword colors, but since guilds were no longer a thing, she pivoted. Maybe bricks this time—for that solid, grounded, “no tax fraud here” look.
 
-Then came the masterstroke: a secret underground fight club basement. She called it *Dawg Pound*. 
+Then came the masterstroke: a secret underground fight club basement. She called it _Dawg Pound_.
 
 [Eating a fist to the face](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=7bkRNUPKvlz0tZ7i&t=9404)
 
