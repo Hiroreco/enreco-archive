@@ -1,0 +1,11 @@
+{
+  "extends": "@enreco-archive/typescript-config/react-library.json",
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": false
+  },
+  "include": ["src"],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

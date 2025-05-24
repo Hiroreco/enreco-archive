@@ -1,0 +1,3 @@
+{
+    "extends": "@enreco-archive/typescript-config/react-library.json"
+}
