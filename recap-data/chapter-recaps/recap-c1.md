@@ -6,11 +6,11 @@
 
 Nineteen heroes awoke in a blinding white box, confused and disoriented. One moment, they were going about their ordinary lives—the next, they found themselves surrounded by strangers just as bewildered as they were. More puzzling still, none of them could remember anything: not their names, not their pasts—nothing.
 
-Then came another strange twist. The group was transported to a castle—specifically, the royal castle of the Kingdom of Libestal. There, the _King_, who claimed to have summoned all there, declared them to be the prophesied heroes destined to save the kingdom from the encroaching threat of the Stains.
+Then came another strange twist. The group was transported to a castle—specifically, the royal castle of the Kingdom of Libestal. There, the _King_—who claimed responsibility for their summoning—declared them the prophesied heroes destined to save the kingdom from the encroaching threat of the Stains.
 
 ![The heroes' first time meeting the King](/images-opt/chrecap-0-king.webp)
 
-Though the situation was bizarre, the heroes banded together. With their newfound powers, known as _Revelations_, they managed to temporarily halt the advance of the Stain King.
+Though the situation was bizarre, the heroes banded together. With their newfound powers, known as _Revelation_, they managed to temporarily halt the advance of the Stain King.
 
 And so, donning their Libestal cloaks, they took their first steps on an enigmatic journey.
 
@@ -29,9 +29,9 @@ Within these guilds, unfamiliar faces became trusted companions.
 
 ![The Scarlet tip-touching ritual](/images-opt/touchingtips.webp)
 
-As they explored the kingdom, the heroes were assigned various tasks—or _quests_—to help them grow accustomed to life in Libestal. From slaying Stains and gathering resources, to making an absurd amount of potato salad that somehow tanked the economy, these quests kept them busy and earned them coin.
+As they explored the kingdom, the heroes were assigned various tasks—or _quests_—to help them grow accustomed to life in Libestal. From slaying Stains and gathering resources to making an absurd amount of potato salad that somehow tanked the economy, these quests kept them busy and earned them coin.
 
-But the most important quests, assigned by either the King or the Guild Masters, revolved around conquering _dungeons_. Each dungeon had its own unique theme and challenges, pushing the heroes to their limits—and strengthening their bonds. Upon completing each conquest, the heroes were rewarded not just with gold, but with something far more precious: a fragment of their lost memories. Specifically, a memory of one of their fellow companions.
+But the most important quests, assigned by either the King or the Guildmasters, revolved around conquering _dungeons_. Each dungeon had its own unique theme and challenges, pushing the heroes to their limits—and strengthening their bonds. Upon completing each conquest, the heroes were rewarded not just with gold, but with something far more precious: a fragment of their lost memories. Specifically, a memory of one of their fellow companions.
 
 There were five dungeons in total, each tied to a different hero:
 
@@ -55,7 +55,7 @@ One of them plotted a coup against the monarchy on day one. Another repeatedly m
 
 One opened a business—FaunaMart—selling everyday goods at outrageous prices, including the highly sought-after meat and, more controversially, lottery tickets. Another opened a rival shop, NanaEleven, equally predatory. Both enterprises ran elaborate scams.
 
-One hero got addicted to gambling, then to those same lottery tickets, triggering confrontations, lawsuits, public trials—you name it.
+One hero got addicted to gambling, to those same lottery tickets, triggering confrontations, lawsuits, public trials—you name it.
 
 ![Green capitalistic CEO setting up her shop](/images-opt/chrecap-0-faunamart.webp)
 
@@ -67,7 +67,7 @@ Yet beneath all that madness, a more grounded, heartfelt story unfolded—a bond
 
 ![The Diamond and his Pearl](/images-opt/chrecap-0-pearl.webp)
 
-Things were vibrant, full of life—and the heroes were truly enjoying themselves.
+Things were vibrant and full of life—the heroes were truly enjoying themselves.
 
 ---
 
@@ -99,7 +99,7 @@ And for a moment, the world felt whole again.
 
 The Kingdom of Libestal, despite its regal exterior, held secrets—secrets that the more perceptive heroes began to uncover. Whispers and doubts about the King began to spread. Theories circulated: Was he truly the benevolent ruler he claimed to be?
 
-With the corruption finally quelled, the heroes prepared for one last battle—to destroy the Stain King once and for all. This time, they would not merely delay him, but defeat him for good. And they did. Their Revelations aligned, their bonds stronger than ever, they brought him down. The kingdom rejoiced. Peace, at last... or so they believed.
+With the corruption finally quelled, the heroes prepared for one last battle—to destroy the Stain King once and for all. This time, they would not merely delay him but defeat him for good. And they did. Their Revelations aligned, their bonds stronger than ever, they brought him down. The kingdom rejoiced. Peace, at last... or so they believed.
 
 But then came the betrayal.
 
