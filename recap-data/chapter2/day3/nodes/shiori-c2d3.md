@@ -1,4 +1,4 @@
-Hmmm… maybe churning butter 24/7 wasn’t the smartest path to riches—Shiori came to that realization eventually. In hindsight, yeah, it made sense. So a new business model was in order. It wasn’t that she was broke—she’d done _plenty_ of scamming to stay afloat—but even a con artist needs a steady income.
+Hmmm… maybe churning butter 24/7 wasn’t the smartest path to riches—Shiori came to that realization eventually. In hindsight, yeah, it made sense. So a new business model was in order. It wasn’t that she was broke—she’d done _plenty_ to stay afloat—but even a con artist needs a steady income.
 
 So what if, instead of selling food… she sold _fanfics_?
 

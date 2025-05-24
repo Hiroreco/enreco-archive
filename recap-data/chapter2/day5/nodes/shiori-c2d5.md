@@ -10,7 +10,7 @@ She did make time to join the others for the new [Star Site: Chaos dungeon](http
 
 Like the others, Shiori was then challenged by the Outlander to a duel—a trial, more than a true battle. A test to determine whether the heroes were worthy of inheriting his role, of destroying the Heart of Ruin and saving the world.
 
-And in classic Shiori fashion, she took the opportunity to jab, tease, and prod. She mocked the Outlander, though at first it seemed like her usual playful snark. But then, her tone shifted—less whimsical, more biting. Her words carried an odd weight, a hint of something deeper. She spoke not just to the Outlander, but about him, about herself. About how they were alike.
+And in classic Shiori fashion, she took the opportunity to jab, tease, and prod. She mocked the Outlander, though at first it seemed like her usual playful snark. But then, her tone shifted—less whimsical, more biting. Her words carried an odd weight, a hint of something deeper. She spoke not just to the Outlander, but also herself. About how they were alike.
 
 [You and I are similar, after all](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=4vKuhvHq9ARFIyAF&t=8794)
 
