@@ -6,4 +6,4 @@ Nerissa had always held a soft spot for Fauna in her heart. Watching her guildma
 
 Her responsibilities included overseeing the store in Fauna’s absence, promoting its services, and making sales whenever opportunities arose. While Nerissa herself had no real need for money—her wealth was so vast she could easily buy FaunaMart outright if she wanted—she took on the role out of pure goodwill. Helping Fauna with her dream was reward enough for the blue maiden.
 
-Nerissa got straight to business, trying to sell hats, lottery tickets, bascially anything to anyone she met. However, as enthusiastic as she was, Nerissa’s first day on the job proved more chaotic than expected (see [Nerissa-Mococo: Lottery Fiasco](#edge:mococo-nerissa)).
+Nerissa got straight to business, trying to sell hats, lottery tickets, and basically anything to anyone she met. However, as enthusiastic as she was, Nerissa’s first day on the job proved more chaotic than expected (see [Nerissa-Mococo: Lottery Fiasco](#edge:mococo-nerissa)).

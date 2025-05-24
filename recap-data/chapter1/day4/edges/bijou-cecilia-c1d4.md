@@ -4,7 +4,7 @@ Cecilia was a simple soul, driven by one uncomplicated rule: she would serve any
 
 [The royal protector](#embed:https://www.youtube.com/live/yK3QZkOZ6bE?t=842)
 
-Raora, who aspired to royalty but lacked a crown, did not receive the same honor—because, well, no crown, no knighthood.
+Raora, who aspired to royalty but lacked a crown, did not receive the same honor—because, well, no crown, no knight.
 
 However, Cecilia wasn’t content with the plain title of "knight". It lacked the grandeur she envisioned, so she promoted herself to *"Lord Protector of the Princess of the Kingdom of Evergreen"*. While impressive in title, her qualifications for the role were... questionable at best. For one, she was perpetually broke. Her poverty stemmed from her steadfast refusal to complete side quests, a critical income source in the kingdom. Instead, Cecilia developed a reputation as a professional leech, always relying on others to get by.
 

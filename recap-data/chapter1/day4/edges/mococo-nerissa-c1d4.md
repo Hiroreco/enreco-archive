@@ -1,6 +1,6 @@
 <!-- title: Lottery Fiasco -->
 
-Mococo was in deep. Her addiction to gambling consumed her, and every morning, her first thought was the lottery—buying new tickets and eagerly checking if she'd struck gold from the previous batch. On the other side of this chaotic equation was Nerissa, freshly starting her internship at FaunaMart. Unfortunately for her, Mococo was her first customer, and the day was destined for disaster.
+Mococo was in deep. Her gambling addiction consumed her, and every morning, her first thought was the lottery—buying new tickets and eagerly checking if she'd struck gold from the previous batch. On the other side of this chaotic equation was Nerissa, freshly starting her internship at FaunaMart. Unfortunately for her, Mococo was her first customer, and the day was destined for disaster.
 
 [New face, new trouble](#embed:https://www.youtube.com/live/5swK4fB2smo?t=902)
 
@@ -12,9 +12,9 @@ In a desperate attempt to resolve the escalating tension, Nerissa agreed to a du
 
 [Give me your money!](#embed:https://www.youtube.com/live/5swK4fB2smo?t=1251)
 
-Cornered and exhausted, Nerissa reluctantly handed over 3,000 coins to Mococo, hoping it would end the madness. To her horror, Mococo immediately spent every last coin on more lottery tickets. But the chaos didn’t end there. Due to another calculation blunder, Nerissa accidentally gave Mococo 680 tickets instead of the requested 300. Mococo noticed the error but this time, said nothing—why would she?
+Cornered and exhausted, Nerissa reluctantly handed over 3,000 coins to Mococo, hoping it would end the madness. To her horror, Mococo immediately spent every last coin on more lottery tickets. But the chaos didn’t end there. Due to another calculation blunder, Nerissa accidentally gave Mococo 680 tickets instead of the requested 300. Mococo noticed the error but this time said nothing—why would she?
 
-When Nerissa later discovered her mistake and confronted Mococo about it, the pup wasn’t having [any of it](https://www.youtube.com/live/5swK4fB2smo?feature=shared\&t=1602). She turned hostile, threatening to attack Nerissa if she tried to take back even a single ticket. Panicked, Nerissa sought protection from Gonathon and The Hot Pink One, exaggerating the situation by claiming Mococo had placed a 50,000-coin bounty on her head (a blatant lie). The two knights sprang into action, hunting down Mococo and eventually cornering her. The poor dog cried for help as she was trapped, the tables turned.
+When Nerissa later discovered her mistake and confronted Mococo about it, the pup wasn’t having [any of it](https://www.youtube.com/live/5swK4fB2smo?feature=shared\&t=1602). She turned hostile, threatening to attack Nerissa if she tried to take back even a single ticket. Panicked, Nerissa sought protection with Gonathon and The Hot Pink One, exaggerating the situation by claiming Mococo had placed a 50,000-coin bounty on her head (a blatant lie). The two knights sprang into action, hunting down Mococo and eventually cornering her. The poor dog cried for help as she was trapped, the tables had turned.
 
 [I'm not a criminal, I'm Mococo!](#embed:https://www.youtube.com/live/5swK4fB2smo?t=2432)
 
