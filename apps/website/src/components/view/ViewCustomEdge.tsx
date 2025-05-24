@@ -4,7 +4,6 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { memo, useMemo } from "react";
 
 import "@/components/view/ViewCustomEdge.css";
-import { BaseEdge } from "@xyflow/react";
 
 const ViewCustomEdge = ({
     id,
@@ -47,17 +46,7 @@ const ViewCustomEdge = ({
     );
 
     return (
-        <g
-            className={cn(
-                "transition-all fill-none duration-1000 dark:brightness-[0.87]",
-                {
-                    "brightness-90 dark:brightness-50": data?.renderDimly,
-                    "brightness-100": !data?.renderDimly,
-                    "custom-edge-group cursor-pointer": selectable,
-                    "cursor-default": !selectable,
-                },
-            )}
-        >
+        <>
             <defs>
                 { isNewlyAdded && 
                     /* Mask for line drawing animation */
@@ -75,32 +64,56 @@ const ViewCustomEdge = ({
                 }
             </defs>
 
-            <BaseEdge
-                path={path}
-                interactionWidth={25}
-                style={{
-                    transition: "opacity 1s, stroke-width .3s, stroke 1s",
-                    ...style,
-                }}
-                className={cn("custom-edge", { "custom-edge-selected": selected })}
+            <g
+                className={cn(
+                    "transition-all fill-none duration-1000 dark:brightness-[0.87]",
+                    {
+                        "brightness-90 dark:brightness-50": data?.renderDimly,
+                        "brightness-100": !data?.renderDimly,
+                        "custom-edge-group cursor-pointer": selectable,
+                        "cursor-default": !selectable,
+                    },
+                )}
                 mask={isNewlyAdded ? `url(#${maskId})` : undefined}
-            />
-
-            {/* Animated light effect when selected */}
-            {selected && (
+            >
+                {/* Transparent click area */}
                 <path
                     d={path}
-                    stroke="white"
-                    strokeWidth={9}
-                    strokeLinecap="round"
                     fill="none"
-                    className="running-light"
-                    style={{
-                        filter: "drop-shadow(0 0 3px rgba(255,255,255,0.7))",
-                    }}
+                    stroke="transparent"
+                    strokeWidth={25}
+                    strokeLinecap="round"
                 />
-            )}
-        </g>
+
+                {/* Actual edge with mask applied if dashed */}
+                <path
+                    d={path}
+                    style={{
+                        transition: "opacity 1s, stroke-width .3s, stroke 1s",
+                        ...style,
+                    }}
+                    className={cn({
+                        "custom-edge": !selected,
+                        "custom-edge-selected": selected,
+                    })}
+                />
+
+                {/* Animated light effect when selected */}
+                {selected && (
+                    <path
+                        d={path}
+                        stroke="white"
+                        strokeWidth={9}
+                        strokeLinecap="round"
+                        fill="none"
+                        className="running-light"
+                        style={{
+                            filter: "drop-shadow(0 0 3px rgba(255,255,255,0.7))",
+                        }}
+                    />
+                )}
+            </g>
+        </>
     );
 };
 
