@@ -138,9 +138,9 @@ const ViewChapterRecapModal = ({
                         </AnimatePresence>
                     </div>
                 </div>
-                <div className="absolute bottom-4 flex justify-center left-0 right-0 px-10 bg-background pt-4">
+                <div className="absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
                     <Button
-                        className="bg-accent text-accent-foreground w-full shadow-lg hover:brightness-105 "
+                        className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}
                     >
                         <span className="text-lg">Close</span>
