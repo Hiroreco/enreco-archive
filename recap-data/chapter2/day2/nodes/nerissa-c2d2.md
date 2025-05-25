@@ -1,21 +1,27 @@
 Sometimes, career plans fall through, and cracks begin to form, revealing the grim outlook of the industry we've dedicated our craft to. Competition breeds cutthroat survival tactics, and it's clear that if we keep undercutting each other's prices like this, we'll never turn a profit!
 
-Nerissa's cooking skills had surpassed many within Libestal, and she created nothing but impactful Gourmet cuisine from even the most simple of ingredients. She even built a charming Glowstone path to her establishment, so why was nobody coming?
+Nerissa's cooking skills had surpassed many within Libestal, and she created nothing but impactful Gourmet cuisine from even the most simple of ingredients (potato salad, for short). She even built a charming Glowstone path to her establishment, so why was nobody coming?
 
 [First customer!](#embed:https://youtu.be/5sWjzbacGUY?t=3210s)
 
-These downcast thoughts had to be shelved for now — Nerissa's current focus was on readying her arsenal before today's primary assignment. "Are there even any Smiths online at the moment (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa))"
+Was becoming a chef the right choice? While other professions—like jewelers and smiths—were striking deals left and right, Nerissa was barely scraping by. Well, not really. Truthfully, she was doing quite well for herself, given the mountain of potato salad she somehow managed to churn out day after day.
 
-In the midst of trying to crash the butter market, Nerissa encountered a fellow struggling Chef. Recognizing the risks of remaining in their roles, they discussed the structures of other local job sectors, leading to an epiphany about disrupting Libestal's food commerce (see [Hot Pink One–Nerissa: Chef Union](#edge:irys-nerissa)).
+At least she wasn’t alone. In the midst of attempting to crash the butter market, Nerissa came across a fellow struggling chef, and the two discussed the perils of sticking with their underdog profession. As they traded insights on the structural flaws of Libestal’s job sectors, a lightbulb went off—perhaps they didn’t need to play by the rules at all. Perhaps they could rewrite them. Thus began whispers of a potential revolution in Libestal’s food economy (a revolution that they completely forgot right after, see [Hot Pink One–Nerissa: Chef Union](#edge:irys-nerissa)).
 
-One upside to having a shop so close to the local Jewelers' stand is that you always happen to catch wind of their latest NDA schemes. Are they planning to [sell bad Charms](https://youtu.be/5sWjzbacGUY?t=7118s)?
+Still, such grand thoughts had to be tabled for now. Nerissa had more immediate priorities: preparing for the first dungeon—[Star Site: Elpis](https://www.youtube.com/live/5sWjzbacGUY?si=7myqyyByUtojQPIp&t=8532). Alongside Fuwawa, Immerkind, and Lady Bloodflame, the squad braved the depths and managed to recover the memories of [IRyS](https://www.youtube.com/live/5sWjzbacGUY?si=xv_Os9Yc1EXcf32c&t=11849).
 
-As parties began rallying, the Nibs and Nobs saw a slight uptick in sales, however little revenue it accrued. Nerissa wasn't heavily concerned with profits at that moment, for blessings should be shared with [those you fight alongside](https://youtu.be/5sWjzbacGUY?t=8240s), free of charge!
+Then, it was back to the grind. Life as a chef might be tough, but maybe persistence would eventually pay off. At the very least, not everything felt so bleak. After the dungeon, Nerissa began recovering small fragments of her past—a past she had forgotten in the haze of her current life as a potato salad dealer.
 
-Enlightenment! Some of Nerissa's lost memories had descended, and she managed to remember fuzzy details about [her past in the future](https://youtu.be/5sWjzbacGUY?t=12122s)? Well, it didn't sound like she could recall her name among all that, what a shame.
+[She rember, kind of](#embed:https://www.youtube.com/live/5sWjzbacGUY?si=KUn5fSB0crLgmamn&t=12079)
 
-[Hello??? (concerned)](#embed:https://youtu.be/5sWjzbacGUY?t=13616s)
+She remembered defeating the Stain King. She remembered Mori Calliope—not just as a culinary comrade, but as the Grim Reaper herself. And most importantly—or perhaps most bizarrely—she remembered Elizabeth calling her a witch. Still, the way Elizabeth’s eyes shimmered with hope when Nerissa started to recall even vague details? That made the confusion feel worthwhile (see [Elizabeth–Nerissa](#edge:liz-nerissa)).
 
-With newly-gained knowledge in cookery, Nerissa should've been happy to introduce more variety to her menu, if not for the fact that the new dishes are even more tedious to produce! At least the milkshakes were a charming bargaining chip, no [alcohol](https://youtu.be/5sWjzbacGUY?t=15658s) required.
+The memories were murky, scattered, and strange, but they were memories nonetheless.
+
+Back in the present, as more adventuring parties began to gather, her humble [Nibs and Nobs](https://youtu.be/5sWjzbacGUY?t=8240s) stall saw a modest uptick in foot traffic. Profit margins remained slim, but Nerissa wasn’t too worried about that. After all, blessings—especially those in the form of potato salad—were meant to be shared with the people you fight beside, not hoarded for coin.
+
+Besides, being situated next to the local Jewelers' stall meant she always overheard their latest hush-hush scheming. While she worked hard slicing, seasoning, and selling, others were plotting ways to [scam](https://youtu.be/5sWjzbacGUY?t=7118s).
+
+She ended the day journaling in her journal. Not about her culinary conquests this time, but the memories she’d begun to retrieve. They brought her relief… but also a quiet, nagging conflict deep within.
 
 [Dear Lorekeeper,](#embed:https://youtu.be/5sWjzbacGUY?t=16246s)
