@@ -1,12 +1,12 @@
 It is the day of the gas reveal, but preparations are still in order. Bijou shares her recent conversation with others, which leads them to believe that perhaps it's just [constipation](https://www.youtube.com/live/4_zJe0t0558?si=y5yjkh4NAX9clGIW&t=399), or perhaps a weird virus; only time could tell. Still, she desired to meet her beloved, and Shiori wanted to give her food, so they agreed to meet at the archiver's house.
 
-But upon reaching the archiver's door, she's first met with Gonathan G. While Bijou has learned she has to trust Shiori, her mind still inevitably goes to maps as they talk, but it quickly becomes apparent to her that the archiver has no recollection of him. This forces her to intervene and have a private chat with the knight. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.
+But upon reaching the archiver's door, she's first met with Gonathan G. Bijou quickly realizes that the archiver has no recollection of the knight. This forces her to intervene and have a private chat with him. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.
 
 [Well this is awkward](#embed:https://www.youtube.com/live/4_zJe0t0558?si=TuIqi8kS_tcjKH5u&t=851)
 
 Once Bijou notices that her onii-chan woke up, she immediately wants to show her the [preparations](https://www.youtube.com/live/4_zJe0t0558?si=ASbpOoYyeE-xFFaZ&t=3584) for the party, and HPO notices that the sign saying "ITS GAS" is too visible, so Bijou takes it upon herself to hide it.
 
-As she's placing the final touches, people are gathering at the wagon to face the Heart of Ruin. It takes some time for all of them to gather, and in the meantime, Roa and Fuwawa report the same stomachache as Bijou and Mococo. Bijou goes back to Gacharms to prepare and in there she confides to Roa that Shiori and her exchanged a seed and an egg, and the last time that happened, Khaos was born. Roa is completely taken aback by this development.
+As she's placing the final touches, people are gathering at the wagon to face the Heart of Ruin. In the meantime, Fuwawa report the same stomachache as Bijou and Mococo.
 
 _"IT COULD BE GAS, IT COULD BE GAS THO, I CAN'T TELL"_
 
@@ -15,8 +15,6 @@ And in the end... It was not gas... Nor a pregnancy but a secret third thing. Th
 [May the lands burn](#embed:https://www.youtube.com/live/4_zJe0t0558?si=59l0U4sYULFe2bYR&t=5230)
 
 Through its powers controlled their minds and forced them to attack and hunt their allies, but with the combined power of the heroes from beyond the stars, they managed to purify them.
-
-Once reunited on the same side, the girls found themselves in a library again, and in front of them was the Song of Ruin. Was Princess Iphania... Evil...? Bijou worries about Immerkind's feelings, but there was no time left before they had to fight The Curse.
 
 With the power of the revelations in one hand and the potato in the other, the heroes manage to defeat the formidable foe and [save Libestal](https://www.youtube.com/live/4_zJe0t0558?si=MuH6a3gYsGGU4iHY&t=6043) from the stain. They quickly meet with Princess Iphania, and there is no betrayal this time; they have done it, they've changed fate. And as they're speaking, they notice a doll next to them, the same doll Iphania has given to her father, and one they were familiar with, Fia.
 
@@ -55,8 +53,6 @@ Bijou leaves her home once more to talk with her onii-chan, which led the little
 Is it then that her brother is determined to convince Bijou the princess that the queen only desires to use her. However, Bijou is reluctant to believe this.
 
 [Jaslighting](#embed:https://www.youtube.com/live/4_zJe0t0558?si=fuv5o4ggw4tby11g&t=13403)
-
-_"If that is the case, (that you can soothe any conflict) why is the case that conflict follows you everywhere you go, onii-chan?"_
 
 Without being able to choose a side, Bijou can only run and cry. Why must the people she loves fight? Why must there be conflict everywhere? Bijou did not know, the only thing she knew for sure...
 
