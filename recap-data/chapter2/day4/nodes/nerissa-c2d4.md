@@ -1,6 +1,6 @@
 Horses were little more than a means to an end in the strange, fantastical realm of Libestal—tools of travel, never the same twice, never familiar enough to name. Why pretend otherwise? Why act like each steed was a loyal companion when, clearly, they were replaced as often as socks?
 
-[You name your horses?](https://youtu.be/zVWvu3ozXKM?t=1257s)
+[You name your horses?](#embed:https://youtu.be/zVWvu3ozXKM?t=1257s)
 
 And yet, Nerissa’s day began quite horsey indeed, eavesdropping on a conversation that was all about them. Fitting, considering the number of errands she had to gallop through before the big event of the day. These included: arranging service negotiations with [Immerkind](https://youtu.be/zVWvu3ozXKM?t=2258s), ignoring spam mail like a responsible adult, restocking her humble shop (with a side of battle rations), and most importantly—finding the perfect spot to hang her portrait. Not in her own home, no, but somewhere far more meaningful. Someone else's place. Someone special (see [Elizabeth–Nerissa](#edge:liz-nerissa)).
 
