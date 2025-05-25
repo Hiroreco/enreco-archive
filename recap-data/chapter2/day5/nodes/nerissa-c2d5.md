@@ -1,38 +1,33 @@
-The pieces have fallen into place. *She* shall return.
+Another day, another adventure. Pockets full of coin, enough potato salad to last her a week—five days into this new journey and things were looking up for Nerissa. It hadn't been smooth sailing at the start, sure, but she'd pushed through, and now? She was thriving.
 
-This was what she willed (see: [Elizabeth](#node:liz)), and so she shall bear witness to *her* existence.
+Nothing could possibly ruin her mood on such a good da—wait. Why wasn’t her painting next to Lady Bloodflame’s anymore?
 
-But first, a quick word from our sponsor:
-[#BuyFromFuwawa](#embed:https://youtu.be/m5VOeHvSgbI?t=375s)
+[Nande? Doshite?](#embed:https://youtu.be/m5VOeHvSgbI?t=1510s)
 
-Welcome back.
+Ah. Of course. Doomed yuri was the theme of the day. Fantastic. Just what she needed.
 
----
+But personal heartbreak aside, Nerissa had more pressing things to focus on—like tackling the newest dungeon, _Star Site: Chaos_, and recovering the memories of [Hakos Baelz](https://www.youtube.com/live/m5VOeHvSgbI?si=9bu0M3cWXrMpstRN&t=10832). Or helping others catch up with the previous dungeon. Maybe commissioning Shiori to write something about [her own past](https://www.youtube.com/live/m5VOeHvSgbI?si=9Hcx5S3SAxi5tYqg&t=8695); after all, if anyone could weave together forgotten memories, it would be the kingdom’s Archiver.
 
-The snowball began rolling as soon as *she* woke up, when *she* realized that their gallery had a shocking [content update](https://youtu.be/m5VOeHvSgbI?t=1510s). Why would she do that, *she* wondered.
+She fought the [Outlander](https://www.youtube.com/live/m5VOeHvSgbI?si=wbEBqq7W5kOczeb2&t=11263), she then tried reading tearful stories of past heroes and their [grim fates](https://www.youtube.com/live/m5VOeHvSgbI?si=Qsn5tfyuwRebdnaA&t=11614) battling the Stains, hoping the emotional weight of their struggles might distract her from her own. It didn’t.
 
-Then [she](https://youtu.be/m5VOeHvSgbI?t=1950s) wouldn't look *her* in the eye. Just *her*. Why is she doing that, *she* wondered.
+Nerissa couldn’t stop thinking about Elizabeth. It seemed like the red knight had been keeping her distance—ignoring her, brushing her off— and as soon as she noticed it, something inside Nerissa had begun to fracture. She _thought_ there was something between them. Something special. And now? Now she felt unwanted. Unseen.
 
-Then [she](https://youtu.be/m5VOeHvSgbI?t=2130s) started bringing up memories about *her*, which added more weight to *her* piling confusion. Why did she do that, *she* wondered.
+Desperate for clarity, she turned to Mordon for comfort. Therapy, really.
 
-Then [she](https://youtu.be/m5VOeHvSgbI?t=2795s) hit *her* head to get *her* Stain Hat off, didn't respond to *her* Upgrade Stone request and just stormed off mid-discussion. What is she going to do, *she* wondered.
+[Hi, so I'm emotionally devastated](https://www.youtube.com/live/m5VOeHvSgbI?si=Yoxf24-6Bl_RxZ_d&t=13280)
 
-Then [she](https://youtu.be/m5VOeHvSgbI?t=2890s) chased *her* away when *she*'s just trying to see what she's doing, yelling "Witch!" repeatedly at her. What is she doing, she wondered.
+She spilled everything—her frustration, her jealousy, her fears, her heartbreak. She admitted, openly, that she was in love with Lady Bloodflame. And surprisingly, Mordon didn’t laugh, didn’t push her away. She listened. She offered earnest advice, support, warmth. And for the first time that day, Nerissa felt the weight on her chest lift—if only a little.
 
-Then [she](https://youtu.be/m5VOeHvSgbI?t=2960s) sounded her *off* for trying to buy someone else's Upgrade Stone, saying *she* "guessed incorrectly". Why would she do that, she wondered.
+It still hurt. Of course it did. But it was a start. She wrote it all down in her [journal](https://www.youtube.com/live/m5VOeHvSgbI?si=9RnBbuaougRXlp3M&t=14505) later—everything she couldn't say aloud. And though Mordon had gently encouraged her to confess her feelings, Nerissa wasn’t ready. Not yet.
 
-Then, while [she](https://youtu.be/m5VOeHvSgbI?t=8985s) was in the Library, *she* stood behind her, around her, next to her. When *she* tried to stand in front of her, "Fia" shooed her away. She was so cute when she did that.
+Worn down both physically and emotionally, she wandered into the casino and started throwing her coins into the void. Coping mechanism? Absolutely. Sulking? Definitely. But could anyone blame her? The one person she admired most was suddenly out of reach, and the sting of that cut deeper than she expected. If things stayed this way, she wasn’t sure how much longer she could keep it up...
 
-[Then...](#embed:https://youtu.be/m5VOeHvSgbI?t=12426s)
+[Anything but blue](#embed:https://www.youtube.com/live/m5VOeHvSgbI?si=aKruKVQY9bhwM8QD&t=15357)
 
-There was nothing that *Nerissa* could do to understand Elizabeth's desires.
+But maybe—just maybe—she was overthinking it all. Maybe things weren’t as bleak as they seemed (see [Elizabeth–Nerissa](#edge:liz-nerissa)).
 
-It was so much easier to just [spiral](https://youtu.be/m5VOeHvSgbI?t=15920s).
+And to close out her long, exhausting day, Nerissa bought herself a hat. Not just any hat—a big, red, slightly ridiculous one. But to her, it was perfect. A memento of her first journey, of old friends now gone, of the bonds that shaped her into who she was. It was warm. Familiar. Precious.
 
-There were so many [mixed signals](https://youtu.be/m5VOeHvSgbI?t=16180s).
+[Scarlet Wand is here to stay](#embed:https://www.youtube.com/live/m5VOeHvSgbI?si=E38tf2lpApnGGgE7&t=16218)
 
-But there was one thing about her that *she*'s certain of.
-
-*She*, in the eyes and mind of the Knight, was supposed to be a *witch*.
-
-So a *witch* [*she*](https://youtu.be/m5VOeHvSgbI?t=16220s) shall be.
+Tomorrow would be a new day. The journey was already halfway through—where it led next, only time would tell.

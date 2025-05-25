@@ -1,17 +1,29 @@
-Horses were a mere instrument of efficient travel back in the fictitious Libestal, and no two steeds of yours would ever be the same creature, somehow. What logic was there to give them a single name — to pretend that they were the same companion, to form an attachment to it? [Womp womp](https://youtu.be/zVWvu3ozXKM?t=1257s).
+Horses were little more than a means to an end in the strange, fantastical realm of Libestal—tools of travel, never the same twice, never familiar enough to name. Why pretend otherwise? Why act like each steed was a loyal companion when, clearly, they were replaced as often as socks?
 
-There were many errands to square away before today's big event — negotiating services with Immerkind ([you're welcome for the hat](https://youtu.be/zVWvu3ozXKM?t=2258s)), ignoring spam mail, stocking up on her shop's offerings (plus some battle rations on the side), and finding the perfect place to display her portrait (see: [Elizabeth-Nerissa: Frame By Frame](#edge:liz-nerissa)).
+[You name your horses?](https://youtu.be/zVWvu3ozXKM?t=1257s)
 
-["..and you look like you're about to... Hug..."](#embed:https://youtu.be/zVWvu3ozXKM?t=2618s)
+And yet, Nerissa’s day began quite horsey indeed, eavesdropping on a conversation that was all about them. Fitting, considering the number of errands she had to gallop through before the big event of the day. These included: arranging service negotiations with [Immerkind](https://youtu.be/zVWvu3ozXKM?t=2258s), ignoring spam mail like a responsible adult, restocking her humble shop (with a side of battle rations), and most importantly—finding the perfect spot to hang her portrait. Not in her own home, no, but somewhere far more meaningful. Someone else's place. Someone special (see [Elizabeth–Nerissa](#edge:liz-nerissa)).
 
-Some of these recipes were simply ridiculous to reproduce in meaningful amounts. Having to work both the farms _and_ the mines to supply your own ingredients seems a peculiar job description for a distinguished Chef- wait, [what are they talking about](https://youtu.be/zVWvu3ozXKM?t=4962s)?
+With all that done, it was time to prepare for the dungeon ahead. That meant food. That meant materials. That meant working the mines _and_ the farms just to supply her own ingredients. Was this really the life of a world-class chef? Apparently so.
 
-[The Jade Forge Has What in Their Basement?](#embed:https://youtu.be/zVWvu3ozXKM?t=7313s)
+But before she could get too deep into that grind, something... strange happened.
 
-Experiencing the a day's worth of time in ten seconds, over, and over, and over again, did not bode well for our champions' psyche. Such was the price to pay to liberate the memories of Libestal's Queen (see: [Kronii](#node:kronii)).
+A crowd. Noise. Awooing. Why were people coming to her house? What were they doing? Why were they awooing?! And just like that, Nerissa had inadvertently joined a wolf pack. Yeah.
 
-Nerissa had seemingly been disillusioned with her OTP overnight, and she was right to have dropped it. With the revelation of the Outlander's eventual fate as the Outsider (shocker), she also recovered a pretty [traumatic fragment of her memory](https://youtu.be/Ydpggr1sBGs).
+[Awoooo?](#embed:https://youtu.be/zVWvu3ozXKM?t=4962s)
 
-As if triggering a natural ability of preserving her sanity, Nerissa swiftly escaped from the brewing conflict and unrest over Tam Gandr's regal identity and personality. Make no mistake, though, for she would not withdraw support from a fellow Wolf based on [clear misunderstandings](https://youtu.be/zVWvu3ozXKM?t=12798s). Long live the Queen, AWOOOOO!!
+Anyway! Back to business.
 
-Today was a productive day — She made good work of collating most of the Library's lost records of Libestan anecdotes and Prophecies, and she dabbled into the practical knowledge on exotic Stain dishes. Alas, her wish to get ahold of a decorative rose bush continued to escape her.
+For the day’s main event, Nerissa teamed up with Gonathon, Tam, and Mordon to tackle the Star Site: Chronos. It was no easy feat—slow progress, tough fights—but they pulled through and successfully recovered the lost memories of Tam, revealing her true identity as the Warden of Time: Ouro Kronii. A name that apparently instilled fear in some, given the rumors of [dictatorship](https://youtu.be/zVWvu3ozXKM?t=12798s)... which, of course, _couldn’t_ be true. Probably.
+
+She also made a habit of barging into people’s homes—purely for fun, of course. Well... mostly just Elizabeth’s place, really. There, she stumbled upon some rather _interesting_ discoveries.
+
+Specifically? “Fanfics.”
+
+Yep. Hidden among the shelves and papers were Elizabeth’s personal collection of stories, if you could call them that. Were they romantic? Maybe. Dramatic? Guess so. Did Nerissa read them? Absolutely.
+
+[UwU what's this?](#embed:https://youtu.be/zVWvu3ozXKM?t=7313s)
+
+The rest of the day was spent exploring the newly revealed lands and diving deep into the [lore](https://www.youtube.com/live/zVWvu3ozXKM?si=1z93z1yY4ce4TH9M&t=16144) of the kingdom. Curious as ever, Nerissa couldn’t help but theorize and investigate, much like she had in her first journey. Always chasing answers, always wondering.
+
+After all, even in a world of fleeting horses and forgotten pasts, some instincts—like curiosity—never fade.

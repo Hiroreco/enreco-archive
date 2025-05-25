@@ -6,7 +6,7 @@ She placed her trust in one particularly loud and passionate fellow Chef—Mordo
 
 [I just want to cook](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=3600WJ1QhxxPaCmK&t=2472)
 
-In the early days, she went around asking others what her name might be. Suggestions included [“Pickles”](https://www.youtube.com/live/XfZh_3xb7i0?si=LsieHphNAMacw33r&t=2781), [“Mustard”](https://www.youtube.com/live/XfZh_3xb7i0?si=Vfs5XEK6BG2ZsnzT&t=3599), and other bizarrely food-related guesses. Thankfully, Elizabeth gave her a name that stuck—**Nerissa**. A small anchor in an ocean of uncertainty.
+In the early days, she went around asking others what her name might be. Suggestions included [“Pickles”](https://www.youtube.com/live/XfZh_3xb7i0?si=LsieHphNAMacw33r&t=2781), [“Mustard”](https://www.youtube.com/live/XfZh_3xb7i0?si=Vfs5XEK6BG2ZsnzT&t=3599), and other bizarre guesses. Thankfully, Elizabeth gave her a name that stuck—**Nerissa**. A small anchor in an ocean of uncertainty.
 
 And so she worked. Hard. Even without memories, her instincts never left her. She cooked (mostly potato salad), gathered ingredients, bonded with other chefs, and built a modest home. She even hung a portrait of herself inside, and set up a small food stall to sell her endless supply of potato salad.
 
