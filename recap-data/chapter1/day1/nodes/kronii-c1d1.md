@@ -4,7 +4,7 @@
 
 This changed when she crossed paths with Gonathon G, who suggested the title *'The Azure Maiden'* because of her fondness for blue. While Kronii found it poetic, she thought it was a bit too long. Gonathon shortened it to *'Tam,'* and Kronii, in her own flair, appended *Gandr*. Thus, her new identity was born—*Tam Gandr*.
 
-When summoned by the King alongside the other heroes, Tam felt a unique sense of destiny. Unlike the rest, she was convinced that the King’s fateful words, "Will you—" were the prelude to a royal proposal. Naturally, this meant she was destined to be his *Queen* (see Tam-King: Guess I'm Queen now).
+When summoned by the King alongside the other heroes, Tam felt a unique sense of destiny. Unlike the rest, she was convinced that the King’s fateful words, "Will you—" were the prelude to a royal proposal. Naturally, this meant she was destined to be his *Queen* (see [Tam-King: Guess I'm Queen now](#edge:kronii-king-of-libestal)).
 
 Brimming with this belief, she shared her newfound 'truth' with *Peasant the Bae*, who became awestruck at the honor of standing in the presence of [royalty](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=1333).
 

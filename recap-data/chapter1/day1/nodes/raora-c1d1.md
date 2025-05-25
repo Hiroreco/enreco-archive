@@ -16,7 +16,7 @@ Her adventures led to several memorable encounters. She met new faces, laughed a
 
 One of the more entertaining moments of her adventure involved *Tam Gandr*. Tam made repeated efforts to teach Raora the correct pronunciation of her name, but Raora consistently mispronounced it, much to Tam’s frustration. Their conversation took an interesting turn when Tam declared her destiny to become the *Queen of Libestal*. Raora, however, countered with a confident assertion that she was destined for that role (see [Raora-Tam: Say my name](#edge:raora-kronii)).
 
-Her interactions with others were just as unpredictable. She accidentally hurt *Nerissa’s* feelings by bluntly saying they weren’t [friends](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared\&t=13860), she also tried to charm *Gonathon* with some suggestive gestures, only to casually mention that she planned to overthrow the king.
+Her interactions with others were just as unpredictable. She accidentally hurt *Nerissa’s* feelings by bluntly saying they weren’t [friends](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared\&t=13860). She also tried to charm *Gonathon* with some suggestive gestures, only to casually mention that she planned to overthrow the king.
 
 [Breaking it down](#embed:https://www.youtube.com/live/8ybUOw9NhMc?feature=shared\&t=14436)
 
