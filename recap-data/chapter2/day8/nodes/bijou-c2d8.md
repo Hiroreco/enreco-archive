@@ -28,13 +28,7 @@ Bijou started to feel suffocated in the tense atmosphere. She clutched her map t
 
 ---
 
-Moving on, Bijou's siter, Ina declared to set out on a journey following the victory banquet. Though, she still needed a house to come back to, so she wanted to join the auction. Bijou supported her sister’s journey to find her revelation. She also realizes she has a home to return to of her own, the one of her dearly belove. She was content with sharing it with her. Even though she knew a body may soon be buried underneath.
-
-…But she would bid for one of the houses anyway. [“Seven thousand!”](https://youtu.be/C6kmnHsopgM?t=4531) (_She only had 5,485 coins remaining._)
-
----
-
-Mordan also had the bright idea of taking a group photo before the banquet, anticipating the end of their time in Past Libestal.
+One [auctioning session](https://youtu.be/C6kmnHsopgM?t=4531) later, Mordan also had the bright idea of taking a group photo before the banquet, anticipating the end of their time in Past Libestal.
 
 Their first stop was the **library**, where this chapter started. Without Fia, they would not have been saved from the false Libestal and taken back in time. Bijou was called out for being short and thus was put front and center. She was the one to take the picture though!
 
