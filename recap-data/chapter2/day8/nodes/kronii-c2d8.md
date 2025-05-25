@@ -2,7 +2,7 @@ The Queen woke up with fire in her heart and vindication in mind. It was _on sig
 
 But alas, one could not win it all. Nino Ina chose not to take up the Queen’s offer to leave HPO and be with her—for Nino Ina did not wish to stray from [the path of a righteous hero](https://youtu.be/II40tjM-mxg?t=296). The Queen looked up at the sky exasperatedly, let out a deep sigh, and began taking out her frustration on HPO once more, who had somehow managed to save face with Immerkind. To this, the Queen remarked,
 
-[“You couldn’t save OUR relationship now, could you?!”](https://youtu.be/II40tjM-mxg?t=342)
+[“You couldn’t save OUR relationship now, could you?!”](#embed:https://youtu.be/II40tjM-mxg?t=342)
 
 One squabbling session later, Tam decided to take part in the auctioning event.
 
