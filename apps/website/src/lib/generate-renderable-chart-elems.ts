@@ -151,6 +151,8 @@ export function generateRenderableEdges(
                     edge.selected = selectedEdge.id === edge.id;
                 }
 
+                edge.selectable = day === edge.data.day;
+
                 const cardOtherThanSettingsOpen =
                     currentCard !== null && currentCard !== "setting";
                 edge.data.renderDimly =

@@ -23,6 +23,10 @@ import { CardType } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
 import { isMobileViewport } from "@/lib/utils";
 
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+
+import "@/components/view/ViewChart.css";
+
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
     for (const node of nodes) {
@@ -198,6 +202,8 @@ function ViewChart({
         return undefined;
     }, [topLeftNode, bottomRightNode]);
 
+    const renderDimly = currentCard !== null && currentCard !== "setting";
+
     return (
         <div ref={flowRendererSizer} className="w-full h-full">
             <ReactFlow
@@ -242,6 +248,7 @@ function ViewChart({
                     hideAttribution: true,
                 }}
                 translateExtent={translateExtent}
+                className={cn({"render-dimly": renderDimly})}
             />
         </div>
     );
