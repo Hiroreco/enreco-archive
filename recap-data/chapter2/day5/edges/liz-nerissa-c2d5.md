@@ -87,6 +87,5 @@ And wait until her heart shows through.
 A love like ours, strange and sublime—
 It hurts. It heals. It takes its time.
 
-(_writer's note: nerissa, girl, why are you like this she was just chillin_)
-
-(_writer's note 2: this took me over an hour i hope you're happy nerissa (affectionate)_)
+_(writer's note: nerissa, girl, why are you like this she was just chillin)_
+_(writer's note 2: this took me over an hour i hope you're happy nerissa (affectionate))_
