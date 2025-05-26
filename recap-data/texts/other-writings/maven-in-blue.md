@@ -1,6 +1,5 @@
 <!-- title: Maven in Blue -->
 
-Here's the full poem for Maven in Blue:
 "And thus, in a field of wilting lilacs
 Two black wings grew upon her back
 Tearing through flesh, her blood soaking in
