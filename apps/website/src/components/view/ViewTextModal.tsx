@@ -32,7 +32,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
             <DialogTrigger className="flex items-center gap-1 hover:text-accent transition-colors">
                 {label} <BookOpenTextIcon />
             </DialogTrigger>
-            <DialogContent>
+            <DialogContent showXButton={false}>
                 <DialogHeader>
                     <DialogTitle>{textItem.title}</DialogTitle>
                 </DialogHeader>
