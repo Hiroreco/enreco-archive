@@ -9,7 +9,9 @@ import {
 } from "@enreco-archive/common/types";
 import {
     ConnectionMode,
+    EdgeMouseHandler,
     FitViewOptions,
+    NodeMouseHandler,
     ReactFlow,
     useReactFlow,
 } from "@xyflow/react";
@@ -71,6 +73,8 @@ const edgeTypes = {
 const minZoom = isMobileViewport() ? 0.3 : 0.5;
 // To limit the area where the user can pan
 const areaOffset = 1000;
+const initialFitViewOptions = { padding: 0.5, duration: 1000 };
+const proOptions = { hideAttribution: true };
 
 interface Props {
     nodes: ImageNodeType[];
@@ -204,6 +208,31 @@ function ViewChart({
 
     const renderDimly = currentCard !== null && currentCard !== "setting";
 
+    const onNodeClickHandler: NodeMouseHandler<ImageNodeType> = 
+        useCallback((_ , node: ImageNodeType) => {
+            onNodeClick(node);
+    }, [onNodeClick]);
+
+    const onEdgeClickHandler: EdgeMouseHandler<FixedEdgeType> =
+        useCallback((_, edge: FixedEdgeType) => {
+            // Disable edge selection on if is old edge and only show new is true
+            if (edge.data?.day !== day && edgeVisibility["new"]) {
+                return;
+            }
+
+            onEdgeClick(edge);
+        }, [day, edgeVisibility, onEdgeClick]);
+
+    const onPaneClickHandler = useCallback(() => {
+        if (isCardOpen && (previousCard === "setting" || settingStore.autoPanBack)) {
+            fitViewAsync({ padding: 0.5, duration: 1000 });
+        }
+
+        onPaneClick();
+    }, [fitViewAsync, isCardOpen, onPaneClick, previousCard, settingStore.autoPanBack]);
+
+    const reactFlowClassnames = useMemo(() => cn({"render-dimly": renderDimly}), [renderDimly]);
+
     return (
         <div ref={flowRendererSizer} className="w-full h-full">
             <ReactFlow
@@ -219,36 +248,15 @@ function ViewChart({
                 nodeTypes={nodeTypes}
                 edgeTypes={edgeTypes}
                 fitView
-                fitViewOptions={{ padding: 0.5, duration: 1000 }}
-                onNodeClick={(_, node) => {
-                    onNodeClick(node);
-                }}
-                onEdgeClick={(_, edge) => {
-                    // Disable edge selection on if is old edge and only show new is true
-                    if (edge.data?.day !== day && edgeVisibility["new"]) {
-                        return;
-                    }
-
-                    onEdgeClick(edge);
-                }}
+                fitViewOptions={initialFitViewOptions}
+                onNodeClick={onNodeClickHandler}
+                onEdgeClick={onEdgeClickHandler}
                 minZoom={minZoom}
                 zoomOnDoubleClick={false}
-                onPaneClick={() => {
-                    if (isCardOpen) {
-                        if (
-                            previousCard === "setting" ||
-                            settingStore.autoPanBack
-                        ) {
-                            fitViewAsync({ padding: 0.5, duration: 1000 });
-                        }
-                    }
-                    onPaneClick();
-                }}
-                proOptions={{
-                    hideAttribution: true,
-                }}
+                onPaneClick={onPaneClickHandler}
+                proOptions={proOptions}
                 translateExtent={translateExtent}
-                className={cn({"render-dimly": renderDimly})}
+                className={reactFlowClassnames}
             />
         </div>
     );
