@@ -6,18 +6,15 @@ import {
     StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import { idFromChapterDayId } from "@/lib/utils";
-import { OLD_EDGE_OPACITY, OLD_NODE_OPACITY } from "@enreco-archive/common/constants";
-import { CardType } from "@/store/viewStore";
+import { OLD_EDGE_OPACITY } from "@enreco-archive/common/constants";
 
 export function generateRenderableNodes(
-    chapterData: Chapter,
     dayData: ChartData,
     chapter: number,
     day: number,
     teamVisibility: StringToBooleanObjectMap,
     characterVisibility: StringToBooleanObjectMap,
     selectedNodes: string[],
-    currentCard: CardType,
 ) {
     return (
         dayData.nodes
@@ -51,22 +48,7 @@ export function generateRenderableNodes(
                 node.selected = selectedNodes.indexOf(node.id) !== -1;
 
                 // Older nodes are translucent.
-                node.data.renderOpacity =
-                    node.data.day === day ? 1 : OLD_NODE_OPACITY;
-
-                // Dim other nodes if a node is selected.
-                const cardOtherThanSettingsOpen =
-                    currentCard !== null && currentCard !== "setting";
-                node.data.renderDimly =
-                    !node.selected && cardOtherThanSettingsOpen;
-
-                // Set team icon image, if available
-                if (node.data.teamId) {
-                    node.data.renderTeamImageSrc =
-                        chapterData.teams[node.data.teamId].teamIconSrc || "";
-                } else {
-                    node.data.renderTeamImageSrc = "";
-                }
+                node.className = node.data.day === day ? "" : "old-node";
 
                 return node;
             })
@@ -83,7 +65,6 @@ export function generateRenderableEdges(
     edgeVisibility: StringToBooleanObjectMap,
     nodes: ImageNodeType[],
     selectedEdge: FixedEdgeType | null,
-    currentCard: CardType,
 ) {
     return (
         dayData.edges
@@ -153,11 +134,6 @@ export function generateRenderableEdges(
 
                 edge.selectable = (day === edge.data.day) || (edgeVisibility["new"] === false);
                 edge.zIndex = edge.data.day;
-
-                const cardOtherThanSettingsOpen =
-                    currentCard !== null && currentCard !== "setting";
-                edge.data.renderDimly =
-                    !edge.selected && cardOtherThanSettingsOpen;
 
                 return edge;
             })

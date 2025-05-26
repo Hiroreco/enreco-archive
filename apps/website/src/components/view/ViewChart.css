@@ -1,12 +1,39 @@
 @import 'tailwindcss';
 @import "@enreco-archive/common-ui/globals.css";
 
+.react-flow__nodes {
+    z-index: 1;
+}
+
+.react-flow__edges {
+    z-index: 0;
+}
+
+.render-dimly .react-flow__node,
 .render-dimly .react-flow__edge {
     @apply brightness-90 dark:brightness-50;
 }
 
+.react-flow__node,
 .react-flow__edge {
-    @apply transition-all fill-none duration-1000 brightness-100 dark:brightness-[0.87] cursor-default pointer-events-none;
+    @apply brightness-100 dark:brightness-[0.87];
+}
+
+.react-flow__node.selected, 
+.react-flow__edge.selected {
+    @apply brightness-100 dark:brightness-[0.87];
+}
+
+.react-flow__node.old-node {
+    opacity: 0.15;
+}
+
+.react-flow__node.node-content {
+    transition: "all 0.3s, opacity 1s";
+}
+
+.react-flow__edge {
+    @apply transition-all fill-none duration-1000 cursor-default pointer-events-none;
 }
 
 .react-flow__edge.selectable:hover .custom-edge {

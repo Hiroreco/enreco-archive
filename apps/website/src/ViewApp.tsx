@@ -198,14 +198,12 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         ].filter((s) => s !== undefined && s !== null);
 
         return generateRenderableNodes(
-            chapterData,
             dayData,
             viewStore.chapter,
             viewStore.day,
             viewStore.teamVisibility,
             viewStore.characterVisibility,
-            selectedNodes,
-            viewStore.currentCard,
+            selectedNodes
         );
     }, [
         viewStore.selectedNode?.id,
@@ -215,8 +213,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         viewStore.day,
         viewStore.teamVisibility,
         viewStore.characterVisibility,
-        viewStore.currentCard,
-        chapterData,
         dayData,
     ]);
 
@@ -231,7 +227,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             viewStore.edgeVisibility,
             processedNodes,
             viewStore.selectedEdge,
-            viewStore.currentCard,
         );
     }, [
         chapterData,
@@ -241,7 +236,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         viewStore.characterVisibility,
         viewStore.edgeVisibility,
         viewStore.selectedEdge,
-        viewStore.currentCard,
         processedNodes,
         dayData,
     ]);
@@ -470,47 +464,49 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                <ViewChart
-                    nodes={memoizedDayData.nodes}
-                    edges={memoizedDayData.edges}
-                    edgeVisibility={viewStore.edgeVisibility}
-                    selectedNode={viewStore.selectedNode}
-                    selectedEdge={viewStore.selectedEdge}
-                    widthToShrink={chartShrink}
-                    isCardOpen={viewStore.currentCard !== null}
-                    doFitView={doFitView}
-                    fitViewOperation={fitViewOperation}
-                    onNodeClick={onNodeClick}
-                    onEdgeClick={onEdgeClick}
-                    onPaneClick={onPaneClick}
-                    day={viewStore.day}
-                    currentCard={viewStore.currentCard}
-                    previousCard={previousCard}
-                />
-                <div
-                    className={cn(
-                        "absolute top-0 left-0 w-screen h-full -z-10",
-                        {
-                            "brightness-90 dark:brightness-70":
-                                viewStore.currentCard !== null,
-                            "brightness-100": viewStore.currentCard === null,
-                        },
-                    )}
-                    style={{
-                        backgroundImage: `url('${bgImage}')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s, background-image 0.3s",
-                    }}
-                />
-
                 <CurrentChartDataContext
                     value={{
                         nodes: memoizedDayData.nodes,
                         edges: memoizedDayData.edges,
+                        teams: chapterData.teams,
+                        relationships: chapterData.relationships
                     }}
                 >
+                    <ViewChart
+                        nodes={memoizedDayData.nodes}
+                        edges={memoizedDayData.edges}
+                        edgeVisibility={viewStore.edgeVisibility}
+                        selectedNode={viewStore.selectedNode}
+                        selectedEdge={viewStore.selectedEdge}
+                        widthToShrink={chartShrink}
+                        isCardOpen={viewStore.currentCard !== null}
+                        doFitView={doFitView}
+                        fitViewOperation={fitViewOperation}
+                        onNodeClick={onNodeClick}
+                        onEdgeClick={onEdgeClick}
+                        onPaneClick={onPaneClick}
+                        day={viewStore.day}
+                        currentCard={viewStore.currentCard}
+                        previousCard={previousCard}
+                    />
+                    <div
+                        className={cn(
+                            "absolute top-0 left-0 w-screen h-full -z-10",
+                            {
+                                "brightness-90 dark:brightness-70":
+                                    viewStore.currentCard !== null,
+                                "brightness-100": viewStore.currentCard === null,
+                            },
+                        )}
+                        style={{
+                            backgroundImage: `url('${bgImage}')`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            transition: "brightness 0.5s, background-image 0.3s",
+                        }}
+                    />
+
                     <ViewSettingCard
                         isCardOpen={viewStore.currentCard === "setting"}
                         onCardClose={onCardClose}
