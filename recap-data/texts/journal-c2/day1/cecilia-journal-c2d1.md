@@ -1,6 +1,6 @@
-<!-- title: Cecilia Immerkind's Journal Entry: Day 1 -->
+<!-- title: Immerkind's Journal Entry: Day 1 -->
 
-Kindness I
+**Kindness I**
 
 Diary of Immerkind.
 

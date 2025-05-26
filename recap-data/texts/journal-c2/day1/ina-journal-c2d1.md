@@ -1,6 +1,6 @@
-<!-- title: Nino Ina's Journal Entry: Day 1 -->
+<!-- title: Ina's Journal Entry: Day 1 -->
 
-DAY 1
+**DAY 1**
 
 DAY 1 of Ninolna the HERO.
 MEOW MEOW

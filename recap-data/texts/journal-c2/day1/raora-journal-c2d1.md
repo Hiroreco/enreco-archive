@@ -1,6 +1,6 @@
-<!-- title: Roa Pandora's Journal Entry: Day 1 -->
+<!-- title: Roa's Journal Entry: Day 1 -->
 
-ROA PANDORA
+**ROA PANDORA**
 
 ROA PANDORA DIARY
 

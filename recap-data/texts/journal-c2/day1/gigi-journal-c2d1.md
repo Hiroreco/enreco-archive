@@ -1,6 +1,6 @@
-<!-- title: Gonathon G's Journal Entry: Day 1 -->
+<!-- title: Gonathon's Journal Entry: Day 1 -->
 
-DAY ONE
+**DAY ONE**
 
 Day one of being in this new strange kingdom.
 

@@ -1,6 +1,6 @@
-<!-- title: Mococo Abyssgaurd's Journal Entry: Day 1 -->
+<!-- title: Mococo's Journal Entry: Day 1 -->
 
-MOCOCO Day 1
+**MOCOCO Day 1**
 
 day 1:
 i've started out a new business venture with roa and koseki bijou! we're partners together for our new jewelry company but we've had a few hiccups along the way... bijou's sister inya is sabotaging the market value of our crafts! hopefully we can get her to see eye to eye on this issue and join us in business...

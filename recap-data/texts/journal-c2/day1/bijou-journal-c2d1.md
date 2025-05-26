@@ -1,9 +1,9 @@
-<!-- title: Koseki Bijou's Journal Entry: Day 1 -->
+<!-- title: Bijou's Journal Entry: Day 1 -->
 
-JOURNAL DAY 1
+**JOURNAL DAY 1**
 
 The Journal
-of [Former] Princess 
+of \[Former\] Princess
 Koseki Bijou
 
 This world...it already has a princess... Do l...even have a purpose?
@@ -24,6 +24,6 @@ that in 7 days time, those of us who came from another world can truly save this
 
 Well, let's see what tomorrow brings.
 
--[Former] Princess
+\-\[Former\] Princess
 Koseki Bijou
 Day 1/7

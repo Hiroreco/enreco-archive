@@ -1,6 +1,6 @@
-<!-- title: Fuwawa Abyssgaurd's Journal Entry: Day 1 -->
+<!-- title: Fuwawa's Journal Entry: Day 1 -->
 
--01-
+**-01-**
 
 Everything feels so fuzzy... and nostalgic...
 

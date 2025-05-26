@@ -1,6 +1,6 @@
-<!-- title: Peasant Da Bae's Journal Entry: Day 1 -->
+<!-- title: Bae's Journal Entry: Day 1 -->
 
-DAY 1
+**DAY 1**
 
 today i was whisked back to the lands of Libestal.....
 

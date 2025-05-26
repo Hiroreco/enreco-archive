@@ -1,6 +1,6 @@
 <!-- title: Hot Pink One's Journal Entry: Day 4 -->
 
-HPO's Daily Diary
+**HPO's Daily Diary**
 Day 4
 
 My head feels clearer as day, as I do not hear the voices in my head today. I wonder why.

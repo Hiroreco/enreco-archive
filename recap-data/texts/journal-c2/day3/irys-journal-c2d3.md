@@ -1,6 +1,6 @@
 <!-- title: Hot Pink One's Journal Entry: Day 3 -->
 
-HPO's Daily Diary
+**HPO's Daily Diary**
 Day 3
 
 Today was a great day.

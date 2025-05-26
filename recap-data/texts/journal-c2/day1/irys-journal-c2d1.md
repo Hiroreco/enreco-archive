@@ -1,6 +1,7 @@
 <!-- title: Hot Pink One's Journal Entry: Day 1 -->
 
-HPO's Daily Diary
+**HPO's Daily Diary**
+
 Day 1
 I had a good day.
 

@@ -1,6 +1,6 @@
 <!-- title: Hot Pink One's Journal Entry: Day 7 -->
 
-HPO's Daily Diary
+**HPO's Daily Diary**
 
 After a long slumber to prepare to give birth to a miracle, I have awoken.
 

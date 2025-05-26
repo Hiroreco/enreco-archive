@@ -1,6 +1,6 @@
-<!-- title: Tanakisha Karia's Journal Entry: Day 1 -->
+<!-- title: Shakira's Journal Entry: Day 1 -->
 
-Tales of Kind
+**Tales of Kind**
 
 Liebes Tagebuch
 
@@ -26,5 +26,5 @@ At the end of the day I find myself 8 times stronger than I was at the start of 
 
 day, and with a 3 times strengthened Phoenix Sword, I feel ready to challenge anything that comes my way, and protect the common folk and my fellow adventurers.
 
-I am looking forward to everyone elses diary!!!!!!!!!!!!! huzzah. 
+I am looking forward to everyone elses diary!!!!!!!!!!!!! huzzah.
 gute Nacht.
