@@ -35,7 +35,7 @@ const ViewShioriGame = () => {
         },
         {
             question:
-                "What is Shiori's role in general (hint: she likes books)?",
+                "What is Shiori's role in general? (Hint: She likes books)",
             answer: ["archiver"],
         },
         {
@@ -45,7 +45,7 @@ const ViewShioriGame = () => {
         },
         {
             question:
-                "What title did Shiori claim for herself in Chapter 2? (Hint: magic)",
+                "What title did Shiori claim for herself in Chapter 2? (Hint: Magic)",
             answer: ["witch"],
         },
         {
