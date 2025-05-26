@@ -18,6 +18,7 @@ import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
 import "@/components/view/ViewMarkdown.css";
+import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 /*
@@ -309,11 +310,16 @@ function ViewMarkdownInternal({
                             type="general"
                         />
                     );
+                } else if (href && href.startsWith("#text:")) {
+                    const textId = href.replace("#text:", "");
+                    const label = children as string;
+                    return <ViewTextModal textId={textId} label={label} />;
                 } else {
                     return (
                         <a
                             href={href}
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="font-semibold text-[#6f6ac6]"
                         >
                             {children}

@@ -12,6 +12,7 @@ import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
+import ViewCardUtilities from "@/components/view/ViewCardUtilities";
 
 interface Props {
     isCardOpen: boolean;
@@ -119,14 +120,18 @@ const ViewNodeCard = ({
 
                 {/* Content */}
                 <div className="mt-2 overflow-x-hidden">
-                    {/* <div className="text-2xl font-bold mb-2 underline underline-offset-4">
-                        Day {selectedNode.data.day + 1}
-                    </div> */}
-                    <ViewCardDaySwitcher
-                        currentDay={selectedNode.data.day}
-                        onDayChange={onDayChange}
-                        availiableElements={availiableNodes}
-                    />
+                    <div className="flex items-center justify-between">
+                        <ViewCardDaySwitcher
+                            currentDay={selectedNode.data.day}
+                            onDayChange={onDayChange}
+                            availiableElements={availiableNodes}
+                        />
+                        <ViewCardUtilities
+                            chapter={chapter}
+                            node={selectedNode}
+                        />
+                    </div>
+
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}
                         onNodeLinkClicked={onNodeLinkClicked}

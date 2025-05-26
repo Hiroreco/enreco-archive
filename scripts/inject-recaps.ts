@@ -23,10 +23,11 @@ async function main() {
     }
     const chapterNum = parseInt(chapterArg, 10);
     if (isNaN(chapterNum) || chapterNum < 0) {
-        console.error("Chapter number must be a non‑negative integer");
+        console.error("Chapter number must be a non-negative integer");
         process.exit(1);
     }
 
+    // ——————————— Update ZIP ———————————
     const zipPath = path.resolve(
         __dirname,
         "..",
@@ -52,7 +53,7 @@ async function main() {
     }
     const chapterJson: ChapterJson = JSON.parse(await fileEntry.async("text"));
 
-    // process each day
+    // process each day folder exactly as before
     const days = await fs.readdir(outputFolder);
     for (const dayName of days.sort()) {
         const dayIndex = Number(dayName.replace(/^day/, "")) - 1;
@@ -63,11 +64,13 @@ async function main() {
             continue;
         }
 
-        // 1) Recap
+        // 1) dayRecap
         const recapName = `recap-c${chapterNum + 1}d${dayIndex + 1}.md`;
-        const recapFile = path.join(dayPath, "recaps", recapName);
         try {
-            const md = await fs.readFile(recapFile, "utf-8");
+            const md = await fs.readFile(
+                path.join(dayPath, "recaps", recapName),
+                "utf-8",
+            );
             chart.dayRecap = md.trim();
         } catch {
             console.warn(`  • Missing dayRecap file: ${recapName}`);
@@ -77,15 +80,13 @@ async function main() {
 
         // 2) Nodes
         const nodesDir = path.join(dayPath, "nodes");
-        const seenNodeIds = new Set<string>();
+        const seenNodes = new Set<string>();
         try {
-            const files = (await fs.readdir(nodesDir)).filter((f) =>
+            for (const file of (await fs.readdir(nodesDir)).filter((f) =>
                 f.endsWith(".md"),
-            );
-            for (const file of files) {
+            )) {
                 const base = path.basename(file, ".md");
                 const idKey = base.replace(new RegExp(`${suffix}$`), "");
-
                 const md = (
                     await fs.readFile(path.join(nodesDir, file), "utf-8")
                 ).trim();
@@ -94,7 +95,7 @@ async function main() {
                 );
                 if (nd) {
                     nd.data.content = md;
-                    seenNodeIds.add(nd.id);
+                    seenNodes.add(nd.id);
                 } else {
                     console.warn(
                         `  • Unknown node file "${file}" in ${dayName}/nodes/`,
@@ -102,13 +103,12 @@ async function main() {
                 }
             }
         } catch {
-            // no nodes folder
+            /* ignore missing folder */
         }
-        // now check for JSON nodes missing files
         for (const n of chart.nodes) {
             if (
                 (n.data.day === undefined || n.data.day === dayIndex) &&
-                !seenNodeIds.has(n.id)
+                !seenNodes.has(n.id)
             ) {
                 console.warn(
                     `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
@@ -120,20 +120,17 @@ async function main() {
         const edgesDir = path.join(dayPath, "edges");
         const seenEdges = new Set<string>();
         try {
-            const files = (await fs.readdir(edgesDir)).filter((f) =>
+            for (const file of (await fs.readdir(edgesDir)).filter((f) =>
                 f.endsWith(".md"),
-            );
-            for (const file of files) {
+            )) {
                 const base = path.basename(file, ".md");
                 const key = base.replace(new RegExp(`${suffix}$`), "");
-
                 const mdFull = await fs.readFile(
                     path.join(edgesDir, file),
                     "utf-8",
                 );
                 const lines = mdFull.split(/\r?\n/);
 
-                // title
                 let title = "";
                 if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
                     title = lines
@@ -144,7 +141,6 @@ async function main() {
                 }
                 const content = lines.join("\n").trim();
 
-                // find matching edge
                 const ed = chart.edges.find(
                     (e) =>
                         e.id === key ||
@@ -162,12 +158,11 @@ async function main() {
                 }
             }
         } catch {
-            // no edges folder
+            /* ignore missing folder */
         }
-        // check for JSON edges missing files
         for (const e of chart.edges) {
             if (
-                (e.data?.day === undefined || e.data!.day === dayIndex) &&
+                (e.data?.day === undefined || e.data.day === dayIndex) &&
                 !seenEdges.has(e.id)
             ) {
                 console.warn(
@@ -177,17 +172,61 @@ async function main() {
         }
     }
 
-    // write back JSON into ZIP
+    // write ZIP back
     zip.file(entryName, JSON.stringify(chapterJson, null, 2));
     const outZip = await zip.generateAsync({
         type: "nodebuffer",
         compression: "DEFLATE",
     });
     await fs.writeFile(zipPath, outZip);
+    console.log(`✅ Injected into ZIP: ${zipPath}`);
 
-    console.log(
-        `✅ Injected data and reported missing files for chapter${chapterNum}.json`,
+    // ——————————— Update website JSON ———————————
+    const webPath = path.resolve(
+        __dirname,
+        "..",
+        "apps",
+        "website",
+        "data",
+        `chapter${chapterNum}.json`,
     );
+    const webStr = await fs.readFile(webPath, "utf-8");
+    const webJson = JSON.parse(webStr) as { charts: ChartData[] };
+
+    // Only copy over recaps + node content + edge content/title:
+    webJson.charts.forEach((wChart, dayIndex) => {
+        const zChart = chapterJson.charts[dayIndex];
+        if (!zChart || !wChart) return;
+
+        // dayRecap
+        wChart.dayRecap = zChart.dayRecap;
+
+        // nodes
+        zChart.nodes.forEach((zNode) => {
+            if (zNode.data.day !== undefined && zNode.data.day !== dayIndex)
+                return;
+            const wNode = wChart.nodes.find((n) => n.id === zNode.id);
+            if (wNode) {
+                wNode.data.content = zNode.data.content;
+            }
+        });
+
+        // edges
+        zChart.edges.forEach((zEdge) => {
+            if (zEdge.data!.day !== undefined && zEdge.data!.day !== dayIndex)
+                return;
+            const wEdge = wChart.edges.find((e) => e.id === zEdge.id);
+            if (wEdge) {
+                wEdge.data!.content = zEdge.data!.content;
+                if (zEdge.data!.title !== undefined) {
+                    wEdge.data!.title = zEdge.data!.title;
+                }
+            }
+        });
+    });
+
+    await fs.writeFile(webPath, JSON.stringify(webJson, null, 2), "utf-8");
+    console.log(`✅ Injected recaps into site JSON: ${webPath}`);
 }
 
 main().catch((err) => {

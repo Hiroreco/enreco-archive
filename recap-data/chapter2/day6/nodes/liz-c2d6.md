@@ -26,8 +26,6 @@ Concern rises within Elizabeth as she reads on. Once she encounters the Witch, s
 
 After a brief break, Nerissa again approaches Elizabeth about reading The Cell by Shiori (see [Elizabeth-Nerissa: Paper Thin](#edge:liz-nerissa)).
 
-Concern rises within the knight. With the worries on her mind, Elizabeth hunts down Shiori, calling her stories scams and lies. However, Shiori asks her an unexpected question.
-
-["That's you as Lady Bloodflame, who were you before Lady Bloodflame?"](https://www.youtube.com/live/uEB2dIe37oo?si=0eOrNhfGkfXIozs5&t=24224)
+Concern rises within the knight. With the worries on her mind, Elizabeth hunts down Shiori, calling her stories scams and lies. However, Shiori asks her an unexpected question (see [Elizabeth-Shiori](#edge:liz-shiori)).
 
 With the question ringing in her mind, Elizabeth returns to her room and scraps the initial letter meant for Shiori, instead writing a letter to Mococo before tucking away for the night.

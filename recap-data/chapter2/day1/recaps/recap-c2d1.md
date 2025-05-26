@@ -14,10 +14,10 @@ The (new? old?) kingdom of Libestal also brings new systems for the heroes to le
 
 The kingdom itself has undergone a makeover too. With a strong wooden motif, it carries a distinctly medieval vibe. No tyrannical King this time—replacing him is Princess Iphania, the current ruler. Alongside her is a mysterious talking cat named Fia, who manages a place known as the *Library*.
 
-The Library holds the memories of everything, and it's now tended by lorekeepers Calli and Kiara, who work with Fia to archive the new stories our heroes will forge. At the end of each day, everyone is expected to write a diary entry of their journey and submit it to the Library.
+The Library holds the memories of everything, and it's now tended by lorekeepers, Calli and Kiara, who work with Fia to archive the new stories our heroes will forge. At the end of each day, everyone is expected to write a diary entry about their journey and submit it to the Library.
 
 ![The Library with Fia](/images-opt/library.webp)
 
-How will any of this help save the universe? Who knows. But it's only Day 1—the start of a new adventure, a chance to forge new bonds and rediscover old ones. Forget world-saving for now. First, our heroes need to get a grip on their new lives and roles… because before anything else, they need to *pay the bills*.
+How will any of this help save the universe? Who knows? But it's only Day 1—the start of a new adventure, a chance to forge new bonds and rediscover old ones. Forget world-saving for now. First, our heroes need to get a grip on their new lives and roles… because before anything else, they need to *pay the bills*.
 
 [Monster - ENigmatic Recollection Chapter 2 Theme Song](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)

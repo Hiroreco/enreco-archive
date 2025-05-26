@@ -1,4 +1,4 @@
-Elizabeth didn’t want to forget. With so many of her comrades having lost their memories due to the effects of time travel, even if they couldn't remember her, she at least wanted to remember them—for their sake, and for her own.
+Elizabeth didn’t want to forget. With so many of her comrades having lost their memories due to the effects of time travel, even if they couldn't remember her, she at least wanted to remember them—for their sake, and her own.
 
 In the previous journey, fragments of past adventures would surface in Elizabeth’s mind as fleeting images, but now things were clearer. To preserve the memories of her journey, her feelings, she chose to commit them to paper.
 
@@ -8,9 +8,9 @@ Jade Sword, knight of honor and chivalry—those were still the principles the r
 
 With that resolve, she began her new day, signing her letter as the scarlet knight she was: Elizabeth ~~Romeo~~ Rose Bloodflame (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa)).
 
-She had two goals for the day: actually do her job as a smith, and tackle the Star Site: Elpis Dungeon. The former came easily—she jumped straight into upgrading her weapon, which turned out to be much simpler than she’d anticipated. The latter, though, presented a different challenge—not in difficulty, but in deciding who to enter the dungeon with.
+She had two goals for the day: do her job as a smith and tackle the Star Site: Elpis Dungeon. The former came easily—she jumped straight into upgrading her weapon, which turned out to be much simpler than she’d anticipated. The latter, though, presented a different challenge—not in difficulty, but in deciding who to enter the dungeon with.
 
-Fortunately, that question was soon answered. While helping Nerissa upgrade her weapon, the songstress invited her—along with Cecilia and Fuwawa—to take on the dungeon together.
+Fortunately, that question was soon answered. While helping Nerissa upgrade her weapon, the songstress invited her—along with Cecilia and Fuwawa—to take on the dungeon.
 
 In the meantime, Elizabeth took on some quests—because, frankly, she was broke. During this, she shared a... let’s say *interesting* exchange with Cecilia. Friendly? Maybe. Quirky? Definitely. The lady in green was far weirder than Elizabeth remembered (see [Elizabeth-Cecilia: Are You Okay?](#edge:cecilia-liz)).
 

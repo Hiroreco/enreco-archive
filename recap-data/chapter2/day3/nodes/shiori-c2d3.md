@@ -14,6 +14,8 @@ A world of fantasy, time travel, cutthroat capitalism, minimum wage labor—ther
 
 Novel complete.
 
+[Read Sea x Lovers](#text:sea-x-lovers)
+
 The next hurdle? Marketing it. Figuring out how to make money off it. Luckily, Shiori knew just the right person to humbly request assistance from.
 
 It had been three days since she first got to know the orange knight. Gullible, no doubt about that. At first, she’d only seen him as a convenient pawn—someone easily swayed, someone useful. But something had changed. Somewhere between the sly grins and half-meant jokes, between her calculated words and his sincere responses, something began to stir in her.

@@ -1,5 +1,9 @@
 A writer's work was never done; there were countless stories to be written even as Shiori's script will soon conclude. It is with this in mind that Shiori found herself writing once again, in the early morning of Libestal, finishing the commissions she had left. Luckily, only a few remained—Kiara's rather [_suggestive_ fanfiction](https://youtu.be/jh0GSZRpkfU?t=553), Roa's memory, and Bijou's commission.
 
+[Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
+
+[Read "Cucumber"](#text:cucumber)
+
 After finishing the newlywed couple's _spicy_ story, Shiori left for the Library to obtain another blank journal for Roa's memory. There, Shiori met her own wife, Bijou. They talk about how the banquet will be magnificent; nothing about it shall be dyed red, but if there will be red, it will be the red of love and hearts! Only trays of joy shall be served—not be*tray*als. [Things will be fine.](https://youtu.be/jh0GSZRpkfU?t=764)
 
 They parted ways to settle some unfinished business, and Shiori found a quiet place to write. She looked for a memory in the Void. One from Before Libestal.
