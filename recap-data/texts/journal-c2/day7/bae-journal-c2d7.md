@@ -36,7 +36,6 @@ I. QUIT.
 
 \
 \
-
 PEASANT. THE. BAE.
 
 \
@@ -45,6 +44,5 @@ PEASANT. THE. BAE.
 \
 \
 \
-
 p.s
 don't worry children, i will be back for you

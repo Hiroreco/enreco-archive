@@ -45,5 +45,6 @@ Right now...I just... don't know...
 
 We will have to see what tomorrow brings.
 
--[Former] Princess
-Koseki Bijou Day 5/7
+\-\[Former\] Princess
+Koseki Bijou
+Day 5/7

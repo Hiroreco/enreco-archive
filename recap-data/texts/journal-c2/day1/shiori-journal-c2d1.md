@@ -2,7 +2,7 @@
 
 **Day 1**
 
-## There's no need to pretend, is there?
+**There's no need to pretend, is there?**
 
 A few seem to remember.
 
@@ -36,5 +36,4 @@ Didn't stay dead.
 \
 \
 \
-
 I see you.

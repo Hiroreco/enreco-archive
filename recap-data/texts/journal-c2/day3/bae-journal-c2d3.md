@@ -12,7 +12,6 @@ BECOME AS BREAD..........
 
 \
 \
-
 Please come by and visit tHE dUMPSTER!!!
 
 today's gacha: 0/6

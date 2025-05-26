@@ -31,5 +31,4 @@ My bones ache. My heart - equally so.
 But at least there is hope...
 
 \
-
 ...in the form of a sparkly jewel.
