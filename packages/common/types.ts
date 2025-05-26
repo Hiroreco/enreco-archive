@@ -23,7 +23,7 @@ export type SiteData = {
 
 export type TextData = {
     [key: string]: { content: string; title: string; category: string };
-}[];
+};
 
 export type ChapterRecapData = {
     chapters: {

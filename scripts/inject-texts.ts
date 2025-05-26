@@ -1,13 +1,10 @@
+import { TextData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-type TextDataItem = {
-    [key: string]: { title: string; content: string; category: string };
-};
 
 async function main() {
     const baseDir = path.resolve(__dirname, "..", "recap-data", "texts");
@@ -20,7 +17,7 @@ async function main() {
         "text-data.json",
     );
 
-    const result: TextDataItem[] = [];
+    const result: TextData = {};
 
     // Recursively walk baseDir
     async function walk(dir: string) {
@@ -53,9 +50,7 @@ async function main() {
 
                 const content = lines.slice(i).join("\n").trim();
 
-                result.push({
-                    [key]: { title, content, category },
-                });
+                result[key] = { title, content, category };
             }
         }
     }
