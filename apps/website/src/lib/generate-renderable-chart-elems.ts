@@ -151,7 +151,8 @@ export function generateRenderableEdges(
                     edge.selected = selectedEdge.id === edge.id;
                 }
 
-                edge.selectable = day === edge.data.day;
+                edge.selectable = (day === edge.data.day) || (edgeVisibility["new"] === false);
+                edge.zIndex = edge.data.day;
 
                 const cardOtherThanSettingsOpen =
                     currentCard !== null && currentCard !== "setting";
