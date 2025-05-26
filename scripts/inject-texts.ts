@@ -58,7 +58,9 @@ async function main() {
     await walk(baseDir);
 
     await fs.writeFile(outputPath, JSON.stringify(result, null, 2), "utf-8");
-    console.log(`✅ Injected ${result.length} items into ${outputPath}`);
+    console.log(
+        `✅ Injected ${Object.keys(result).length} items into ${outputPath}`,
+    );
 }
 
 main().catch((err) => {
