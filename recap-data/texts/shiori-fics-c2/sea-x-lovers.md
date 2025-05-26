@@ -1,6 +1,6 @@
 <!-- title: Sea x Lovers -->
 
-Once upon a time, (in a world beyond this one, where the lands were not ravaged by corruption and the Void, there lived a red, talking crab with a love of money.
+Once upon a time, in a world beyond this one, where the lands were not ravaged by corruption and the Void, there lived a red, talking crab with a love of money.
 
 This crab, in his quest for gold and riches, started a business with a green, tiny thing.
 
