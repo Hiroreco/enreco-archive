@@ -1,6 +1,7 @@
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { create } from "zustand";
 export type CardType = "node" | "edge" | "setting" | null;
+export type ModalType = "info" | "settings" | "minigame" | "chapterRecap" | "video" | null;
 
 interface ViewState {
     chapter: number;
@@ -8,9 +9,6 @@ interface ViewState {
 
     day: number;
     setDay: (day: number) => void;
-
-    previousSelectedDay: number;
-    setPreviousSelectedDay: (previousSelectedDay: number) => void;
 
     currentCard: CardType;
     setCurrentCard: (name: CardType) => void;
@@ -26,26 +24,16 @@ interface ViewState {
         [key: string]: boolean;
     }) => void;
 
-    infoModalOpen: boolean;
-    setInfoModalOpen: (isInfoModalOpen: boolean) => void;
-
-    settingsModalOpen: boolean;
-    setSettingsModalOpen: (isSettingsModalOpen: boolean) => void;
-
-    minigameModalOpen: boolean;
-    setMinigameModalOpen: (isMinigameModalOpen: boolean) => void;
-
-    chapterRecapModalOpen: boolean;
-    setChapterRecapModalOpen: (isChapterRecapModalOpen: boolean) => void;
-
-    videoModalOpen: boolean;
-    setVideoModalOpen: (isVideoModalOpen: boolean) => void;
+    openModal: ModalType;
+    setOpenModal: (openModal: ModalType) => void;
+    isInfoModalOpen: () => boolean;
+    isSettingsModalOpen: () => boolean;
+    isMinigameModalOpen: () => boolean;
+    isChapterRecapModalOpen: () => boolean;
+    isVideoModalOpen: () => boolean;
 
     videoUrl: string | null;
     setVideoUrl: (currentVideoUrl: string | null) => void;
-
-    hoveredEdgeId: string | null;
-    setHoveredEdgeId: (hoveredEdgeId: string) => void;
 
     selectedNode: ImageNodeType | null;
     setSelectedNode: (node: ImageNodeType | null) => void;
@@ -53,7 +41,7 @@ interface ViewState {
     selectedEdge: FixedEdgeType | null;
     setSelectedEdge: (edge: FixedEdgeType | null) => void;
 }
-export const useViewStore = create<ViewState>((set) => {
+export const useViewStore = create<ViewState>((set, get) => {
     const [initialChapter, initialDay] = [0, 0];
 
     return {
@@ -62,10 +50,6 @@ export const useViewStore = create<ViewState>((set) => {
 
         day: initialDay,
         setDay: (day: number) => set(() => ({ day })),
-
-        previousSelectedDay: initialDay,
-        setPreviousSelectedDay: (previousSelectedDay: number) =>
-            set(() => ({ previousSelectedDay })),
 
         currentCard: null,
         setCurrentCard: (currentCard: CardType) => set(() => ({ currentCard })),
@@ -83,32 +67,16 @@ export const useViewStore = create<ViewState>((set) => {
             [key: string]: boolean;
         }) => set(() => ({ characterVisibility })),
 
-        infoModalOpen: false,
-        setInfoModalOpen: (isInfoModalOpen: boolean) =>
-            set(() => ({ infoModalOpen: isInfoModalOpen })),
-
-        settingsModalOpen: false,
-        setSettingsModalOpen: (isSettingsModalOpen: boolean) =>
-            set(() => ({ settingsModalOpen: isSettingsModalOpen })),
-
-        minigameModalOpen: false,
-        setMinigameModalOpen: (isMinigameModalOpen: boolean) =>
-            set(() => ({ minigameModalOpen: isMinigameModalOpen })),
-
-        chapterRecapModalOpen: false,
-        setChapterRecapModalOpen: (isChapterRecapModalOpen: boolean) =>
-            set(() => ({ chapterRecapModalOpen: isChapterRecapModalOpen })),
-
-        videoModalOpen: false,
-        setVideoModalOpen: (isVideoModalOpen: boolean) =>
-            set(() => ({ videoModalOpen: isVideoModalOpen })),
+        openModal: null,
+        setOpenModal: (openModal: ModalType) => set(() => ({openModal})),
+        isInfoModalOpen: () => get().openModal === "info",
+        isChapterRecapModalOpen: () => get().openModal === "chapterRecap",
+        isMinigameModalOpen: () => get().openModal === "minigame",
+        isSettingsModalOpen: () => get().openModal === "settings",
+        isVideoModalOpen: () => get().openModal === "video",
 
         videoUrl: null,
         setVideoUrl: (videoUrl: string | null) => set(() => ({ videoUrl })),
-
-        hoveredEdgeId: null,
-        setHoveredEdgeId: (hoveredEdgeId: string) =>
-            set(() => ({ hoveredEdgeId })),
 
         selectedNode: null,
         setSelectedNode: (node: ImageNodeType | null) =>

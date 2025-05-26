@@ -177,11 +177,11 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
         const hasVisited = localStorage.getItem(LS_HAS_VISITED);
         if (!hasVisited) {
-            viewStore.setInfoModalOpen(true);
+            viewStore.setOpenModal("info");
             setFirstVisit(true);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
+    }, [viewStore.setOpenModal, setFirstVisit, isInLoadingScreen]);
 
     /* Data variables */
     const chapterData = siteData.chapters[viewStore.chapter];
@@ -397,14 +397,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     // Then when the user closes the modal, open the day recap card
     // Only doing this for first visit
     useEffect(() => {
-        if (firstVisit && !viewStore.infoModalOpen) {
-            viewStore.setInfoModalOpen(false);
+        if (firstVisit && !viewStore.isInfoModalOpen()) {
+            viewStore.setOpenModal(null);
             onCurrentCardChange("setting");
             setFirstVisit(false);
             localStorage.setItem(LS_HAS_VISITED, "true");
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
+    }, [viewStore.setOpenModal, firstVisit, onCurrentCardChange]);
 
     const onNodeClick = useCallback(
         function (node: ImageNodeType) {
@@ -528,7 +528,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         setChartShrink={setChartShrinkAndFit}
                         day={viewStore.day}
                         onDayChange={(newDay) => {
-                            viewStore.setPreviousSelectedDay(viewStore.day);
                             updateData(viewStore.chapter, newDay);
                         }}
                     />
@@ -543,7 +542,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         chapter={viewStore.chapter}
                         setChartShrink={setChartShrinkAndFit}
                         onDayChange={(newDay) => {
-                            viewStore.setPreviousSelectedDay(viewStore.day);
                             updateData(viewStore.chapter, newDay);
                         }}
                         availiableNodes={
@@ -574,7 +572,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                                 : []
                         }
                         onDayChange={(newDay) => {
-                            viewStore.setPreviousSelectedDay(viewStore.day);
                             updateData(viewStore.chapter, newDay);
                         }}
                     />
@@ -582,31 +579,31 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <ViewInfoModal
-                open={viewStore.infoModalOpen}
-                onOpenChange={viewStore.setInfoModalOpen}
+                open={viewStore.isInfoModalOpen()}
+                onOpenChange={(open) => viewStore.setOpenModal(open ? "info" : null)}
             />
 
             <ViewSettingsModal
-                open={viewStore.settingsModalOpen}
-                onOpenChange={viewStore.setSettingsModalOpen}
+                open={viewStore.isSettingsModalOpen()}
+                onOpenChange={(open) => viewStore.setOpenModal(open ? "settings" : null)}
             />
 
             <ViewMiniGameModal
-                open={viewStore.minigameModalOpen}
-                onOpenChange={viewStore.setMinigameModalOpen}
+                open={viewStore.isMinigameModalOpen()}
+                onOpenChange={(open) => viewStore.setOpenModal(open ? "minigame" : null)}
             />
 
             <ViewVideoModal
-                open={viewStore.videoModalOpen}
-                onOpenChange={viewStore.setVideoModalOpen}
+                open={viewStore.isVideoModalOpen()}
+                onOpenChange={(open) => viewStore.setOpenModal(open ? "video" : null)}
                 videoUrl={viewStore.videoUrl}
                 bgImage={bgImage}
             />
 
             <ViewChapterRecapModal
                 key={`chapter-recap-modal-${viewStore.chapter}`}
-                open={viewStore.chapterRecapModalOpen}
-                onOpenChange={viewStore.setChapterRecapModalOpen}
+                open={viewStore.isChapterRecapModalOpen()}
+                onOpenChange={(open) => viewStore.setOpenModal(open ? "chapterRecap" : null)}
                 currentChapter={viewStore.chapter}
             />
             <ViewReadCounter
@@ -645,7 +642,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setInfoModalOpen(true)}
+                    onClick={() => viewStore.setOpenModal("info")}
                 >
                     <Info />
                 </IconButton>
@@ -656,7 +653,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setSettingsModalOpen(true)}
+                    onClick={() => viewStore.setOpenModal("settings")}
                 >
                     <Settings />
                 </IconButton>
@@ -667,7 +664,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setMinigameModalOpen(true)}
+                    onClick={() => viewStore.setOpenModal("minigame")}
                 >
                     <Dice6 />
                 </IconButton>
@@ -678,7 +675,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Chatper Recap"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setChapterRecapModalOpen(true)}
+                    onClick={() => viewStore.setOpenModal("chapterRecap")}
                 >
                     <Book />
                 </IconButton>
@@ -706,10 +703,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         setFitViewOperation("fit-to-all");
                         setDoFitView(!doFitView);
                         updateData(newChapter, 0);
-                        viewStore.setPreviousSelectedDay(0);
                     }}
                     onDayChange={(newDay) => {
-                        viewStore.setPreviousSelectedDay(viewStore.day);
                         if (settingsStore.openDayRecapOnDayChange) {
                             onCurrentCardChange("setting");
                         }

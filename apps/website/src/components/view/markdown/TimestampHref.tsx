@@ -31,7 +31,7 @@ const TimestampHref = ({
         audioStore.pauseBGM();
 
         if (settingStore.timestampOption === "modal") {
-            viewStore.setVideoModalOpen(true);
+            viewStore.setOpenModal("video");
             viewStore.setVideoUrl(timestampUrl);
         } else if (settingStore.timestampOption === "tab") {
             window.open(timestampUrl, "_blank");
