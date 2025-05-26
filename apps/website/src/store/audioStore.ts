@@ -29,6 +29,10 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/click.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
+        book: new Howl({
+            src: ["/audio/book.mp3"],
+            volume: useSettingStore.getState().sfxVolume,
+        }),
         break: new Howl({
             src: ["/audio/break.mp3"],
             volume: useSettingStore.getState().sfxVolume,

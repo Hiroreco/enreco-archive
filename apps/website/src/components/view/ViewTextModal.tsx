@@ -1,5 +1,6 @@
 import textData from "#/text-data.json";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import { useAudioStore } from "@/store/audioStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -23,12 +24,20 @@ interface ViewTextModalProps {
 
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const textItem = (textData as TextData)[textId];
+    const { playSFX } = useAudioStore();
+
     if (!textItem) {
         return null;
     }
 
     return (
-        <Dialog>
+        <Dialog
+            onOpenChange={(open) => {
+                if (open) {
+                    playSFX("book");
+                }
+            }}
+        >
             <DialogTrigger className="flex items-center gap-1 hover:text-accent transition-colors">
                 {label} <BookOpenTextIcon />
             </DialogTrigger>
