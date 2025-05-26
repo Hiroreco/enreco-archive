@@ -6,11 +6,11 @@ Her hard work didn’t go unnoticed. Her boss, Roa, gave her something to take o
 
 Having given a few folks a tour of her new shop, Bijou teamed up with Roa, Mococo, Kiara, and Gordon to take on the dungeon of the day—[Star Site: Elpis](https://www.youtube.com/live/03m4uWAFfQg?si=v8NPjzKF80d-iANM&t=7792). Upon its completion, the group recovered the memories of [IRyS](https://www.youtube.com/live/03m4uWAFfQg?si=dmDDeTDMq-8PzOVB&t=9908).
 
-Apparently, her brother—the hot pink one, or IRyS now—was a goddess. An alcoholic one, at that. Coincidentally, they ran into each other just after Bijou’s group had finished their conquest. And the very next day would be the gem girl's birthday! Naturally, she reminded her brother the moment she got back from the dungeon. And what did she do? [Forgot](https://youtu.be/03m4uWAFfQg?t=11179). Some brother.
+Apparently, her brother—the hot pink one, or IRyS now—was a goddess. An alcoholic one, at that. Coincidentally, they ran into each other just after Bijou’s group had finished their conquest. And the very next day would be the gem girl's birthday! Naturally, she reminded her brother the moment she got back from the dungeon. And what did she do? [Forget](https://youtu.be/03m4uWAFfQg?t=11179). Some brother.
 
-Later, Bijou went back to stocking the shop with new items, working hard so she could ~~scam~~ make her boss proud—grinding, bartering, doing all the things a good employee would.
+Later, Bijou went back to stocking the shop with new items, working hard so she could ~~scam~~ make her boss proud—grinding, bartering, and doing all the things a good employee would.
 
-As the day came to a close, she joined her brother's group by the riverside to drink, both to cool down and to celebrate the upcoming occasion. Was Bijou of age? Who knows. But she had fun, and that’s what mattered.
+As the day came to a close, she joined her brother's group by the riverside to drink, both to cool down and to celebrate the upcoming occasion. Was Bijou of age? Who knows? But she had fun, and that’s what mattered.
 
 [Cheers, and Happy Birthday!](#embed:https://youtu.be/03m4uWAFfQg?t=14062)
 
