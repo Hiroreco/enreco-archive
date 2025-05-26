@@ -147,8 +147,16 @@ const ViewShioriGame = () => {
                 <Image
                     src="/images-opt/easter-shiori.webp"
                     alt="Shiori Nyavella"
-                    className="absolute bottom-4 right-0 w-40 opacity-20"
+                    className={cn(
+                        "absolute bottom-4 right-0 w-40  transition-opacity",
+                        {
+                            "cursor-pointer hover:opacity-50 opacity-20":
+                                !shioriPressed,
+                            "opacity-50": shioriPressed,
+                        },
+                    )}
                     width={200}
+                    onClick={handleShioriPress}
                     height={200}
                 />
             </div>
