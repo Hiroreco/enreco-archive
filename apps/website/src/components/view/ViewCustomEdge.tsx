@@ -100,7 +100,7 @@ const ViewCustomEdge = ({
                     strokeWidth={25}
                     strokeLinecap="round"
                     mask={isNewlyAdded ? `url(#${maskId})` : undefined}
-                    style={{ zIndex: 1 }}
+                    style={{ zIndex: 5 }}
                 />
             }
 
@@ -109,9 +109,9 @@ const ViewCustomEdge = ({
                 ref={pathRef}
                 d={path}
                 style={{
-                    transition: "opacity 1s, stroke-width .3s, stroke 1s",
-                    zIndex: 0,
                     ...style,
+                    transition: "opacity 1s, stroke-width .3s, stroke 1s",
+                    zIndex: 0
                 }}
                 className={cn({
                     "custom-edge": !selected,
@@ -130,7 +130,7 @@ const ViewCustomEdge = ({
                     fill="none"
                     className="running-light"
                     style={{
-                        zIndex: 2,
+                        zIndex: 10,
                         filter: "drop-shadow(0 0 3px rgba(255,255,255,0.7))",
                     }}
                 />
