@@ -5,13 +5,16 @@ import {
     Dialog,
     DialogClose,
     DialogContent,
+    DialogDescription,
     DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
 import { TextData } from "@enreco-archive/common/types";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { BookOpenTextIcon } from "lucide-react";
+import Image from "next/image";
 
 interface ViewTextModalProps {
     textId: string;
@@ -19,7 +22,10 @@ interface ViewTextModalProps {
 }
 
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
-    const text = (textData as TextData)[textId];
+    const textItem = (textData as TextData)[textId];
+    if (!textItem) {
+        return null;
+    }
 
     return (
         <Dialog>
@@ -28,15 +34,32 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
             </DialogTrigger>
             <DialogContent>
                 <DialogHeader>
-                    <DialogTitle>{text.title || "No title"}</DialogTitle>
+                    <DialogTitle>{textItem.title}</DialogTitle>
                 </DialogHeader>
-                <ViewMarkdown
-                    className="px-2 overflow-y-auto max-h-[70vh] pb-10"
-                    onNodeLinkClicked={() => {}}
-                    onEdgeLinkClicked={() => {}}
-                >
-                    {text.content || "No content available."}
-                </ViewMarkdown>
+
+                <VisuallyHidden>
+                    <DialogDescription>
+                        {textItem.category} - {textItem.title}
+                    </DialogDescription>
+                </VisuallyHidden>
+                <div className="relative">
+                    <ViewMarkdown
+                        className="px-2 overflow-y-auto h-[70vh] pb-10 z-10"
+                        onNodeLinkClicked={() => {}}
+                        onEdgeLinkClicked={() => {}}
+                    >
+                        {textItem.content}
+                    </ViewMarkdown>
+
+                    <Image
+                        src="/images-opt/logo-blank.webp"
+                        alt="bg"
+                        className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2 w-3/4 opacity-15 grayscale"
+                        width={128}
+                        height={128}
+                    />
+                </div>
+
                 <DialogFooter className="pt-4 border-t-2 ">
                     <DialogClose asChild>
                         <Button className="bg-accent text-lg text-accent-foreground w-full -mb-2">
