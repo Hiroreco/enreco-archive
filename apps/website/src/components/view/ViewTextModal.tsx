@@ -53,7 +53,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                 </VisuallyHidden>
                 <div className="relative">
                     <ViewMarkdown
-                        className="px-2 overflow-y-auto h-[70vh] pb-10 z-10"
+                        className="px-2 overflow-y-auto overflow-x-hidden h-[70vh] pb-10 z-10"
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}
                     >
