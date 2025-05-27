@@ -31,3 +31,9 @@ A warm-hearted Knight might have been once a cold Queen.
 Of course, Elizabeth would be upset by the story, the _memory_, before Libestal. While some of her fellow heroes recalled the time before the past, none of them recalled the _time before Libestal_. The memories some of them regained are but a portion of what was taken.
 
 It seemed that their friendship, one that started sweetly in the day with gifts and kindness, had ended in distrust and harsh realities.
+
+## Fanart
+
+["The Truth" by mofumashu](https://x.com/mofumashu/status/1921096315812839551)
+
+["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
