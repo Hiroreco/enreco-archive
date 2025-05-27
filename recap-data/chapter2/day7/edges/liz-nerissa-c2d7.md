@@ -70,3 +70,11 @@ If only the scarlet knight had realized a bit earlier… she would’ve folded a
 The cards had been flipped. Elizabeth was oblivious to the menacing side of the person she was falling for. As if entranced by the siren’s sweet song, she moved according to the witch’s will.
 
 Defenseless. Vulnerable. On the palm of the monster she created.
+
+---
+FAN ARTS
+
+[Fireworks](https://x.com/zelmaelstrom/status/1922143256164356165)
+[Onsen ](https://x.com/thekaiyip/status/1921344476032663740)
+[Onsen-Animatic](https://x.com/_se_t_/status/1921155712278798577)
+[Played Fool](https://x.com/SiFXi_/status/1922715233606377622)
