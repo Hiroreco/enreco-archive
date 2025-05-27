@@ -17,33 +17,3 @@ Cecilia thanks her friends for their counsel as she must make a critical decisio
 For the remainder of the day, Cecilia travels with her companions and listens to the happenings of the town. The drama between Gonathon and Shiori. The love child between several parties. The concerns of the townsfolk of the impending end.
 
 After another exhausting day, Cecilia retires and prepares [another letter](https://www.youtube.com/watch?v=I75IWfMGVgM&t=15665s) for the princess. She patiently awaits an answer but will continue her duties for the princess, Libestal, and her friends no matter what the princess says back.
-
-## Fan Art from Music Video
-
-Note from the Legend of Immerkind Archiver: Thank you so much everyone for all your hard work for creating beautiful fan art for the story Cecilia is telling. The story was made more colorful with your hard work and kindness!
-
-[The Princess and the Knight by Lillian](https://x.com/Lillian5090/status/1920258639580766280)
-
-[Admiring the Princess by Kaje](https://x.com/kaje_zu/status/1920142379383943206)
-
-[Serenade for the Princess by Nellepoof](https://x.com/nellepoof/status/1920139044693922274)
-
-[Absolute Immerkind-nema! by Rando_Zlink](https://x.com/Rando_ZLink/status/1920072518939132072)
-
-[Immerphania By Sirs](https://x.com/SirShadenfreude/status/1919955783967490180)
-
-[Immerkind and Princess by Falyn ](https://x.com/DetectiveFalyn/status/1919579661480169695)
-
-[My Shining Stars by Zeya](https://x.com/NOminishki/status/1920011853004001565)
-
-[Cecilia and Iphania by Eule Winters](https://x.com/Eule_Winters/status/1919969659094499795)
-
-[The Princess is Kind by NellePoof](https://x.com/nellepoof/status/1919079218916303097)
-
-[The Princess, Iphania, and Cecilia by scrambleham](https://x.com/scrambleham/status/1920353533930487993)
-
-[Immerkind by Maie](https://x.com/maiemuri/status/1919914115356885274)
-
-[Current Events of Immerkind by Nellepoof](https://x.com/nellepoof/status/1919448453266239514)
-
-[Fit in Perfectly by HiYoi](https://x.com/HatakeKelly/status/1920140228473630955)
