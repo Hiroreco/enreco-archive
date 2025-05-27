@@ -21,3 +21,9 @@ While Tam attempted to convince Gonathon of Shiori’s duplicity and manipulatio
 [Read "To Gonathon"](#text:to-gonathon)
 
 [Read "Your Promise](#text:your-promise)
+
+## Fanart
+
+["The Fumble Knight" by KHOA](https://x.com/KhoaPhan96/status/1920858870433391103)
+
+["Losing interest" by The_DankWave](https://x.com/The_DankWave/status/1920202895640965586)

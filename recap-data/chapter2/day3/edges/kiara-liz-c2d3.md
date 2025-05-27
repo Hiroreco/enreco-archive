@@ -15,3 +15,7 @@ With all her tasks finished, Elizabeth asked her “mother” for one last bit o
 And with her deft craftsmanship, Shakira not only helped Elizabeth set up shop—she transformed it. The store came to life in a way that left Elizabeth speechless, eyes gleaming with admiration.
 
 [The Jade Forge](#embed:https://www.youtube.com/live/CVF91CqGD80?si=FDao9shHchm_vRuR&t=9534)
+
+## Fanart
+
+["just some knightly bonding" by Noise](https://x.com/lestkrr/status/1921705091372863518)

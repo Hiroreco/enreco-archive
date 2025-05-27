@@ -89,3 +89,7 @@ It hurts. It heals. It takes its time.
 
 _(writer's note: nerissa, girl, why are you like this she was just chillin)_
 _(writer's note 2: this took me over an hour i hope you're happy nerissa (affectionate))_
+
+## Fanart
+
+["Lady blooflame playing with her heart" by Keisea](https://x.com/Keiseeaaa/status/1920370505892430128)

@@ -1,11 +1,11 @@
 <!-- title: The Knight and the Hobo -->
 
-Cecilia confronts Peasant da Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). Bae realizes her words were misinterpreted, clears up the misunderstanding and joins Cecilia, Roa, Bijou, and Irys to have a social drink by the creek.
+Cecilia confronts Peasant da Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). Bae realizes her words were misinterpreted, clears up the misunderstanding, and joins Cecilia, Roa, Bijou, and IRyS to have a social drink by the creek.
 
-Bae takes Cecilia aside in order to repay the debt and apologize. Bae was on the cusp and the 80 gold filled her heart with such raw emotions.
+Bae takes Cecilia aside in order to repay the debt and apologize. Bae was on the cusp, and the 80 gold filled her heart with such raw emotions.
 
-They share a moment in order to clear up the air and they real they are living the [Libestal Dream](https://www.youtube.com/live/48HSA_GcOZ0?si=AKtCcxs7EHWwCYqx&t=8523).
+They share a moment in order to clear up the air, and they realize they are living the [Libestal Dream](https://www.youtube.com/live/48HSA_GcOZ0?si=AKtCcxs7EHWwCYqx&t=8523).
 
-After they forgive one another, Cecilia may have started to develop feelings for Bae after all the emotional build up.
+After their reconciliation, Cecilia may have started to develop feelings for Bae after all the emotional buildup.
 
 [My Knight has fallen for a hobo - Princess Bijou](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=d2Mbzm51EdkUrsTH&t=8617)

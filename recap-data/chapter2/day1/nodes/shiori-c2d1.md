@@ -19,3 +19,7 @@ In no time at all, Shiori transformed from a misunderstood oddball to an infamou
 [There, there](#embed:https://www.youtube.com/live/zCWoxMbOZPk?si=oYopwgLcQ619PkeF&t=13380)
 
 All in all, a flawless start to her new culinary life of chaos. Even more, the beginning of a blossoming relationship (see [Shiori-Gonathon](#edge:gigi-shiori)).
+
+## Fanart
+
+["She was mysterious and beautiful" by yuri_kyannon](https://x.com/yuri_kyanon/status/1919648496329883766)
