@@ -38,7 +38,7 @@ The strawberry glowed so red it might as well have been a beacon.
 
 ["Turned her face into a strawberry?!" by LordJoeboto](https://x.com/LordJoeboto/status/1919654751324557545)
 
-["You're a witch!!!" by Zel Maelstrom] (https://x.com/zelmaelstrom/status/1919583127711973790)
+["You're a witch!!!" by Zel Maelstrom](https://x.com/zelmaelstrom/status/1919583127711973790)
 
 ["Fumble Queen part 2" by Zel Maelstrom](https://x.com/zelmaelstrom/status/1920221012169535936)
 
