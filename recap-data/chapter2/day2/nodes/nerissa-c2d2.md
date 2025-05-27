@@ -26,7 +26,7 @@ She ended the day journaling in her journal. Not about her culinary conquests th
 
 [Dear Lorekeeper,](#embed:https://youtu.be/5sWjzbacGUY?t=16246s)
 
-##Fanart
+## Fanart
 
 ["...can't go back to those happy days" by StandingPlace12](https://x.com/StandingPlace12/status/1921472739644199167)
 
