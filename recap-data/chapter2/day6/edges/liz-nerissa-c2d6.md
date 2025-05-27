@@ -73,3 +73,5 @@ Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have y
 ["Witch 2/3" by Kayrii](https://x.com/VulpusKayrii/status/1921056104634622391)
 
 ["How to woo a witch 101" by Keisea](https://x.com/Keiseeaaa/status/1832856628850491716)
+
+["A kinder fate" by Cress](https://x.com/CressentiaQin/status/1924078500727955647)
