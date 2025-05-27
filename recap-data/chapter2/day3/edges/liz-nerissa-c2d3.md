@@ -32,3 +32,11 @@ A "reward" for the performance.
 The strawberry glowed so red it might as well have been a beacon.
 
 [Ahhh, umm... AHHHH](#embed:https://www.youtube.com/live/CVF91CqGD80?si=0WJ6A3s8dUHs0eLF&t=8123)
+
+---
+FAN ARTS
+
+[Trade Request] (https://x.com/noirstein/status/1919950989265658028)
+[Strawberry Face] (https://x.com/LordJoeboto/status/1919654751324557545)
+[Hushing one's gums] (https://x.com/zelmaelstrom/status/1920221012169535936)
+[Reward] (https://x.com/_se_t_/status/1919743867081130432)
