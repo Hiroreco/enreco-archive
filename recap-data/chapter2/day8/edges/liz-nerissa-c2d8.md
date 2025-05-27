@@ -66,4 +66,4 @@ When does a knight bend the knee?
 
 ["Villain" by Keisea](https://x.com/Keiseeaaa/status/1923701440473858538)
 
-[BloodRaven animatic by Eli](https://x.com/Elisbian_/status/1923090463063416862)
+
