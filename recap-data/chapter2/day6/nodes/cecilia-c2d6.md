@@ -8,11 +8,9 @@ Upon clearing the curse, Princess Bijou accompanies Cecilia as she goes to talk 
 
 [Bijou lends her power!](#embed:https://www.youtube.com/watch?v=I75IWfMGVgM&t=6558)
 
-Upon defeat of the Outlander, Cecilia gets on her knees and serenades the princess and confesses her love. Cecilia takes the princess word as an agreement; however, Gonathon and Princess Bijou tell her the truth and that leaves her torn.
+Upon defeat of the Outlander, Cecilia gets on her knees and serenades the princess and confesses her love. Cecilia takes the princess word as an agreement; however, Gonathon and Princess Bijou tell her the truth and that leaves her torn (see [Cecilia-Princess](#edge:cecilia-iphania)).
 
-[Oh Princess ~ Serenade and Music Video by Cecilia Immergreen](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=7144)
-
-Cecilia now faces a critical choice, to stay with the princess or to return to their reality? Cecilia is willing [to stay behind](https://www.youtube.com/watch?v=I75IWfMGVgM&t=9428s) even if the Princess does not love her back, but she is also torn about leaving the wolf pack, chibi-hime, and her other friends behind. Is it really love if her love is dependent upon the love of the other?
+Cecilia now faces a critical choice, to stay with the princess or to return to their reality? Cecilia is willing [to stay behind](https://www.youtube.com/watch?v=I75IWfMGVgM&t=9428s) even if the Princess does not love her back, but she is also torn about leaving the wolf pack, chibi-hime, and her other friends behind. Is it really love if her love is dependent upon the love of the other? (see [Cecilia-Gonathon](#edge:cecilia-gigi))
 
 Cecilia thanks her friends for their counsel as she must make a critical decision in 2 days. This moment of self-reflect was interrupted as the group is roped into the potential confession of Roa to the Red Knight.
 
