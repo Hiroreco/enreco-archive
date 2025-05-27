@@ -44,6 +44,8 @@ The strawberry glowed so red it might as well have been a beacon.
 
 ["You have won the spar" by set](https://x.com/_se_t_/status/1919743867081130432)
 
+["Knight confronts the witch' by DasDokter](https://x.com/DasDokter/status/1831973884461298095)
+
 ["Gift" by Kayrii](https://x.com/VulpusKayrii/status/1919957480106303488)
 
 ["Looks like I won this round, witch" by Keisea](https://x.com/Keiseeaaa/status/1919845669562622165)
