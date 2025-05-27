@@ -675,7 +675,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 <IconButton
                     id="chapter-recap-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Chatper Recap"
+                    tooltipText="Chapter Recap"
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => viewStore.setChapterRecapModalOpen(true)}

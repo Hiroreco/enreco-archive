@@ -18,4 +18,14 @@ Late into the day, Bijou would be the only jeweler left. Several of the heroes w
 
 The rest of her day is spent building what will become the establishment for her charm business with Roa and the other jewelers. IRyS keeps her company as she builds her house nearby.
 
-[Corruption - by Dr.Pigeon](https://x.com/PhdPigeon/status/1896821416395436357/photo/2) (#ENrecoCanvas)
+...
+
+And lava chicken.
+
+[Lalalava, Chichichicken](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=g_MMHUO1MJ6g91V1&t=12480)
+
+## Fanart
+
+[Corruption - by Dr.Pigeon](https://x.com/PhdPigeon/status/1896821416395436357/photo/2)
+
+["Some memories are better leave forgotten" by seapupu](https://x.com/seapupu290495/status/1919057398330700031)

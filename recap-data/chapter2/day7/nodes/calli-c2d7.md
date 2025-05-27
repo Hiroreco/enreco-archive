@@ -35,3 +35,7 @@ Not going to lie, the therapist secretly rooted for this to happen so that she c
 _[God Mordan told Ina to forget about the HPO.](https://www.youtube.com/live/WG748SwXQVo?t=15053)_
 
 With that out of the way, it was time to get some rest before the big auction tomorrow.
+
+## Fanart
+
+["Have you tried murder, bro?" by NP_Mango](https://x.com/NP_Mango/status/1921382634040533389)

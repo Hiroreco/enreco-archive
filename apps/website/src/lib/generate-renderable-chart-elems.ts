@@ -6,7 +6,10 @@ import {
     StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import { idFromChapterDayId } from "@/lib/utils";
-import { OLD_EDGE_OPACITY, OLD_NODE_OPACITY } from "@enreco-archive/common/constants";
+import {
+    OLD_EDGE_OPACITY,
+    OLD_NODE_OPACITY,
+} from "@enreco-archive/common/constants";
 import { CardType } from "@/store/viewStore";
 
 export function generateRenderableNodes(
@@ -149,6 +152,10 @@ export function generateRenderableEdges(
 
                 if (selectedEdge) {
                     edge.selected = selectedEdge.id === edge.id;
+                }
+
+                if (edge.data.day !== day) {
+                    edge.selectable = false;
                 }
 
                 const cardOtherThanSettingsOpen =

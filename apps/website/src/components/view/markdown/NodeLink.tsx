@@ -26,7 +26,7 @@ export default function NodeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const node = nodes.find(n => n.id === nodeId);
+    const node = nodes.find((n) => n.id === nodeId);
 
     const nodeLinkHandler = useCallback(() => {
         if (node && !node.hidden) {
@@ -36,13 +36,9 @@ export default function NodeLink({
 
     // Make the link's color the same as the node's
     // Not sure about this one, might remove.
-    const style = node?.style;
-    let nodeColor = "#831843";
-    if (style && style.stroke) {
-        nodeColor = getLighterOrDarkerColor(
-            style.stroke,
-            isDarkMode ? 30 : -30,
-        );
+    let nodeColor = node?.data.bgCardColor;
+    if (nodeColor) {
+        nodeColor = getLighterOrDarkerColor(nodeColor, isDarkMode ? 30 : -30);
     }
 
     return (

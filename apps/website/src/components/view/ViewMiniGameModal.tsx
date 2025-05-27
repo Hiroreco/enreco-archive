@@ -44,7 +44,7 @@ const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
         info: <ViewChickenGameInfo />,
     },
     shiori: {
-        label: "Comission Shiori (Chapter 2)",
+        label: "Commission Shiori (Chapter 2)",
         info: <ViewShioriGameInfo />,
     },
 };

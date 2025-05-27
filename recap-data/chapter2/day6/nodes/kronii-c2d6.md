@@ -49,3 +49,5 @@ The situation grew even more bizarre for the Queen and her Humble Knight when Sh
 [I'm too sleepy for this](#embed:https://www.youtube.com/live/jayBiB9euJU?si=JBsNjpi3chQw5tVT&t=12650)
 
 With that, the Queen retired for the day and went to her perfect slumber once again.
+
+["A peaceful day indeed..." by seapupu](https://x.com/seapupu290495/status/1920852715703320626)

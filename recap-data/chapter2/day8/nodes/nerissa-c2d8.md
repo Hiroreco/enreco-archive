@@ -56,5 +56,8 @@ Would this coven be just another harmless faction? Or would they be a threat to 
 
 ## Fan Arts
 
-[Coven Rebellion](https://x.com/DiChwis12652/status/1922518834847625230)
-[Witches](https://x.com/haaro_69/status/1922094444339462652)
+["naow" by  Chaku](https://x.com/DiChwis12652/status/1922518834847625230)
+
+["-Advent-" by Haaro](https://x.com/haaro_69/status/1922094444339462652)
+
+[Untitled by BRASILEIRoo0](https://x.com/BRASILEIROO0/status/1923024077683347585)

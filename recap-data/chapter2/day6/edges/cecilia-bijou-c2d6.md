@@ -1,9 +1,15 @@
-<!-- title: Lend me your Strength! Chibi-Hime! -->
+<!-- title: Emotional Support Chibi-Hime -->
 
-Cecilia walks out of the guest room grasping her arm, injured by The Outlander. A concerned Princess Bijou hurries over to check on her dear friend. She reaches into her pockets for a package with her most powerful charms.
+Bijou had already done so much for Cecilia throughout this journey—quietly, consistently. From lending her coin, to handing over rare materials, to even gifting her the [charms](https://www.youtube.com/watch?v=I75IWfMGVgM&t=6558) that helped her overcome the Outlander… which, when you thought about it, was kind of ironic. Wasn’t Cecilia supposed to be _Bijou’s_ knight? The one doing the protecting and supporting? Well, roles were clearly flipped, but hey—whatever worked.
 
-She takes Immerkind's hand and places the charms on her hand. "Make sure to give these back!"
+And today proved that Bijou’s strengths extended far beyond material support.
 
-[Bijou lends her power!](#embed:https://www.youtube.com/watch?v=I75IWfMGVgM&t=6558)
+[Yoshi yoshi](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=ec5M5jzztWb0Awye&t=9214)
 
-With power surging through her body, Cecilia turns around and faces The Outlander for one final, fateful duel.
+At Cecilia’s lowest—heart shattered, love unreturned, spirit broken—it was Bijou who stood by her side (with Gonathon too, of course), offering not just comfort, but reassurance. For someone so small, so bubbly, Bijou carried a quiet gravity, a gentleness that could reach past all the noise and pull someone back from their worst thoughts.
+
+She didn’t try to fix everything. She didn’t say what Cecilia wanted to hear—she said what she needed.
+
+And just like that, the green knight began to breathe again.
+
+Turns out, this little gem princess wasn’t just precious in name. She really was a jewel of emotion—radiant, steady, and far more brilliant than anyone gave her credit for.

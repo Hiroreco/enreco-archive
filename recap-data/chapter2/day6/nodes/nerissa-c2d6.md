@@ -6,6 +6,8 @@ Despite her declaration from yesterday, nothing strange has happened yet… Cert
 
 [Read "Maven in Blue"](#text:maven-in-blue)
 
+[Read "Hamlet"](#text:hamlet)
+
 ---
 
 **The Quest for Truth**
@@ -39,3 +41,15 @@ It was quite the effort, as she needed to consult several spirits/ voices and gr
 Was a witch actually born? Lady Bloodflame, Gonathon, and Roa Pandora accidentally found the first level of her secret shrine, as well as the books that were stored behind it. When [confronted](https://youtu.be/-BFf3e6YJwY?t=12240), she claimed she didn’t know why the painting was moved there, nor remember how the books were carefully shelved directly behind it.
 
 Did she really not remember? Or was she just deceiving them... for reasons not yet known to anyone?
+
+## Fanart
+
+["Inspired by Maven in Blue" by TibsSketches](https://x.com/TibsSketches/status/1921634037858201687)
+
+["Maven in Blue" by Keisea](https://x.com/Keiseeaaa/status/1921199677443035543)
+
+["A witch" by komori hiki](https://x.com/hikienlaventana/status/1924207173829083449)
+
+["...looking forward to the end of the world" by nick](https://x.com/criostatic/status/1921106947182322012)
+
+

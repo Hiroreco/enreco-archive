@@ -1,6 +1,6 @@
-Bae couldn't help but gasp at the shops that now surrounded her; what was an empty lot was now the start of a small bustling town as everyone started to build their shop. The former Princess Bijou from the Gacharms Shop nearby greets Bae, and after a pleasant conversation, opens up the idea of possibly purchasing some of Bae's wares to be included in their gacha. 
+Bae couldn't help but gasp at the shops that now surrounded her; what was an empty lot was now the start of a small bustling town as everyone started to build their shop. The former Princess Bijou from the Gacharms Shop nearby greets Bae, and after a pleasant conversation, opens up the idea of possibly purchasing some of Bae's wares to be included in their gacha.
 
-Inspired, Bae decides to set up her own—a knickknack shop to sell items she had found whilst being poor to include a double service of sorts: with every purchase, customers can get a free enhancement! With that in mind, Bae quickly used her construction box to gather mud, for it is the best-suited material for a peasant-owned shop, and acacia leaves... of which was vaguely familiar. 
+Inspired, Bae decides to set up her own—a knickknack shop to sell items she had found whilst being poor to include a double service of sorts: with every purchase, customers can get a free enhancement! With that in mind, Bae quickly used her construction box to gather mud, for it is the best-suited material for a peasant-owned shop, and acacia leaves... of which was vaguely familiar.
 
 Soon, she is astounded by the gold she now has. Perhaps a hero's life is not a bad one.
 
@@ -19,3 +19,7 @@ Now that Bae has gotten stronger, so have the Stains, and at her current level�
 Another thing was amiss, in Bae's staying true to her peasant nature, Bae had unknowingly slighted Cecilia Immerkind. Never fear, for in the end drinks were had with celebration, the hatchet was buried, and the two made up—and perhaps, an [attraction](https://youtu.be/Tiq2wmF-NfQ?t=10425) was formed. Though the moment was ruined by the Hot Pink One, the two once again had heated words.
 
 Accomplished and now rich, The Bae would write down in her journals the words of Mother echoing in her thoughts and finish the day.
+
+## Fanart
+
+["Meanwhile Peasant The Bae" by Yume](https://x.com/Yume_ato29/status/1919498300232982554)
