@@ -29,8 +29,8 @@ She ended the day journaling in her journal. Not about her culinary conquests th
 ---
 FAN ARTS
 
-[Demon of Soup](https://x.com/StandingPlace12/status/1921472739644199167)
-[Nibs N' Nobs](https://x.com/andrslmu/status/1920687085301756408)
-[Advertisement Poster](https://x.com/elskaelu/status/1918973111795359805)
+["...can't go back to those happy days" by StandingPlace12](https://x.com/StandingPlace12/status/1921472739644199167)
+["... help the business..." by andrslmu](https://x.com/andrslmu/status/1920687085301756408)
+["Demon of Salad, take my offering" by elskaelu](https://x.com/elskaelu/status/1918973111795359805)
 
 
