@@ -60,6 +60,10 @@ When does a knight bend the knee?
 
 ## Fan Arts
 
-[Enchanted](https://x.com/Keiseeaaa/status/1921816580691726507)
-[Alternate Ending ](https://x.com/Keiseeaaa/status/1920620111464992799)
-[Villain](https://x.com/Keiseeaaa/status/1923701440473858538)
+["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
+
+["What could've been" by Keisea](https://x.com/Keiseeaaa/status/1920620111464992799)
+
+
+
+

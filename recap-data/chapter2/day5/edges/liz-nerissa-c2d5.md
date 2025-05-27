@@ -92,10 +92,10 @@ _(writer's note 2: this took me over an hour i hope you're happy nerissa (affect
 
 ## Fanart
 
-[Headpat] (https://x.com/nurizza_ilst/status/1922690872854065611)
+["Duel Reward" by Nurizza](https://x.com/nurizza_ilst/status/1922690872854065611)
 
-[Headpats-Animatic](https://x.com/zelmaelstrom/status/1924142831410856372)
+["Headpats" by Zel Maelstrom](https://x.com/zelmaelstrom/status/1924142831410856372)
 
-[Too late?] (https://x.com/Elisbian_/status/1924543172753166413)
+["Too late?" by Eli](https://x.com/Elisbian_/status/1924543172753166413)
 
 ["Lady blooflame playing with her heart" by Keisea](https://x.com/Keiseeaaa/status/1920370505892430128)

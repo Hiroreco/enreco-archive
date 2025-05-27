@@ -66,8 +66,10 @@ Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have y
 
 ## Fanart
 
-[The Cell] (https://x.com/Keiseeaaa/status/1925918187972964430)
+["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
 
-[The Real Villain] (https://x.com/Keiseeaaa/status/1923701440473858538)
+["Villain" by Keisea](https://x.com/Keiseeaaa/status/1923701440473858538)
 
-[A good night's unrest] (https://x.com/VulpusKayrii/status/1921056104634622391)
+["Witch 2/3" by Kayrii](https://x.com/VulpusKayrii/status/1921056104634622391)
+
+["How to woo a witch 101" by Keisea](https://x.com/Keiseeaaa/status/1832856628850491716)

@@ -13,3 +13,9 @@ She placed the painting against the side of the building, gently illuminated by 
 [One next to each other](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=Q3_FM3XOHKxc6MBo&t=22779)
 
 Elizabeth placed it next to Nerissa’s. Frame by frame, the two stood side by side. It was perfect. A small, quiet thing that made their hearts warm. A simple gesture, yet one that symbolized something far greater.
+
+## Fanart
+
+["ERB's child" by set](https://x.com/_se_t_/status/1920087505665143221)
+
+[Hug by Puniki](https://x.com/Puniki_XIV/status/1926153741314478419)
