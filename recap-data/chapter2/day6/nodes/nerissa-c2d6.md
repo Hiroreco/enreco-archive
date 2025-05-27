@@ -42,11 +42,14 @@ Was a witch actually born? Lady Bloodflame, Gonathon, and Roa Pandora accidental
 
 Did she really not remember? Or was she just deceiving them... for reasons not yet known to anyone?
 
----
-FAN ARTS
+## Fanart
 
-[Metamorphose](https://x.com/TibsSketches/status/1921634037858201687)
-[Maven in Blue](https://x.com/Keiseeaaa/status/1921199677443035543)
-[Ravens under the moonlight](https://x.com/hikienlaventana/status/1924207173829083449)
+["Inspired by Maven in Blue" by TibsSketches](https://x.com/TibsSketches/status/1921634037858201687)
+
+["Maven in Blue" by Keisea](https://x.com/Keiseeaaa/status/1921199677443035543)
+
+["A witch" by komori hiki](https://x.com/hikienlaventana/status/1924207173829083449)
+
+["...looking forward to the end of the world" by nick](https://x.com/criostatic/status/1921106947182322012)
 
 
