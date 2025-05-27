@@ -39,3 +39,12 @@ It was quite the effort, as she needed to consult several spirits/ voices and gr
 Was a witch actually born? Lady Bloodflame, Gonathon, and Roa Pandora accidentally found the first level of her secret shrine, as well as the books that were stored behind it. When [confronted](https://youtu.be/-BFf3e6YJwY?t=12240), she claimed she didn’t know why the painting was moved there, nor remember how the books were carefully shelved directly behind it.
 
 Did she really not remember? Or was she just deceiving them... for reasons not yet known to anyone?
+
+---
+FAN ARTS
+
+[Metamorphose] (https://x.com/TibsSketches/status/1921634037858201687)
+[Maven in Blue] (https://x.com/Keiseeaaa/status/1921199677443035543)
+[Ravens under the moonlight] (https://x.com/hikienlaventana/status/1924207173829083449)
+
+
