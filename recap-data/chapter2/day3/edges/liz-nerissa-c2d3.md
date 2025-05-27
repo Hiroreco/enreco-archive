@@ -36,11 +36,13 @@ The strawberry glowed so red it might as well have been a beacon.
 
 ["Trade Request" by noistein](https://x.com/noirstein/status/1919950989265658028)
 
-["Turned her face into a strawberr?!" by LordJoeboto](https://x.com/LordJoeboto/status/1919654751324557545)
+["Turned her face into a strawberry?!" by LordJoeboto](https://x.com/LordJoeboto/status/1919654751324557545)
 
-[Hushing one's gums](https://x.com/zelmaelstrom/status/1920221012169535936)
+["You're a witch!!!" by Zel Maelstrom] (https://x.com/zelmaelstrom/status/1919583127711973790)
 
-[Reward](https://x.com/_se_t_/status/1919743867081130432)
+["Fumble Queen part 2" by Zel Maelstrom](https://x.com/zelmaelstrom/status/1920221012169535936)
+
+["You have won the spar" by set](https://x.com/_se_t_/status/1919743867081130432)
 
 ["Gift" by Kayrii](https://x.com/VulpusKayrii/status/1919957480106303488)
 
