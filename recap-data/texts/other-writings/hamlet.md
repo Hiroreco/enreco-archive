@@ -1,4 +1,4 @@
-Hamlet- Act III, Scene I
+<!-- title: Hamlet-Act III, Scene I  -->
 
 To be, or not to be, that is the question:
 Whether 'tis nobler in the mind to suffer
@@ -32,4 +32,4 @@ And thus the native hue of resolution
 Is sicklied o'er with the pale cast of thought,
 And enterprises of great pitch and moment
 With this regard their currents turn awry
-And lose the name of action. 
+And lose the name of action.
