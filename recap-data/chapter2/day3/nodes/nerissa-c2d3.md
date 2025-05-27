@@ -17,3 +17,7 @@ As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing 
 Divine intervention saw to it that she experienced today's chaos no longer — she retreated promptly to the Library, preparing to retire from this realm. Although her doubts about her place in the world to bubble and brew, she asserted that "perserverence" was key, and she closed the book on her journey so far with a pen of her signature.
 
 ["Nerissa (Juliet Bloodflame) Ravencroft"](https://youtu.be/vMdhvi8dHN4?t=13486s).
+
+## Fanart
+
+["How they do greetings" by underdatv](https://x.com/underdatv/status/1919820213811294236)

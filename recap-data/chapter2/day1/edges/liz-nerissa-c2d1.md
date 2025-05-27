@@ -1,8 +1,8 @@
 <!-- title: She's jesting, right? -->
 
-She was a witch—had always been a witch—the very same witch who had caused Elizabeth countless headaches, who brought more trouble than anything else. But she was *the* witch. The one Elizabeth had once risked her life to protect. The one she knew, deep down, was a kind and loving soul who looked out for others... even if she delighted in teasing Elizabeth for reasons only known to her. Still, Elizabeth wouldn’t trade what they had for anything.
+She was a witch—had always been a witch—the very same witch who had caused Elizabeth countless headaches, who brought more trouble than anything else. But she was _the_ witch. The one Elizabeth had once risked her life to protect. The one she knew, deep down, was a kind and loving soul who looked out for others... even if she delighted in teasing Elizabeth for reasons only known to her. Still, Elizabeth wouldn’t trade what they had for anything.
 
-And now was no different. Even in another world, Elizabeth believed things would stay the same—the same teasing, the same exasperation, the same feelings. 
+And now was no different. Even in another world, Elizabeth believed things would stay the same—the same teasing, the same exasperation, the same feelings.
 
 Or so she hoped.
 
@@ -15,3 +15,11 @@ As if their bond had never truly been severed, the two crossed paths again and a
 Maybe not all was lost. Maybe something still lingered between them. Until that day came—until Nerissa Ravencroft remembered—Elizabeth wouldn’t change a thing.
 
 [What's my name?](#embed:https://www.youtube.com/live/2toZfafpyW8?si=Bibgd_RaoXYFdYtI&t=4831)
+
+## Fanart
+
+["Thank you for doomed yuri :D" by ritorich](https://x.com/ritorich_s/status/1921996810249265554)
+
+["first sight" by Magho](https://x.com/M_Agho/status/1926008375482990741)
+
+["Please don't look at me with those unfamiliar eyes" by TibsSketeches](https://x.com/TibsSketches/status/1919845172369596470)
