@@ -34,6 +34,14 @@ The strawberry glowed so red it might as well have been a beacon.
 
 ## Fanart
 
+[Trade Request] (https://x.com/noirstein/status/1919950989265658028)
+
+[Strawberry Face] (https://x.com/LordJoeboto/status/1919654751324557545)
+
+[Hushing one's gums] (https://x.com/zelmaelstrom/status/1920221012169535936)
+
+[Reward] (https://x.com/_se_t_/status/1919743867081130432)
+
 ["Gift" by Kayrii](https://x.com/VulpusKayrii/status/1919957480106303488)
 
 ["Looks like I won this round, witch" by Keisea](https://x.com/Keiseeaaa/status/1919845669562622165)

@@ -72,4 +72,12 @@ Defenseless. Vulnerable. On the palm of the monster she created.
 
 ## Fanart
 
+[Fireworks](https://x.com/zelmaelstrom/status/1922143256164356165)
+
+[Onsen](https://x.com/thekaiyip/status/1921344476032663740)
+
+[Onsen-Animatic](https://x.com/_se_t_/status/1921155712278798577)
+
+[Played Fool](https://x.com/SiFXi_/status/1922715233606377622)
+
 ["The Bird Song" by Eli](https://x.com/Elisbian_/status/1923090463063416862)
