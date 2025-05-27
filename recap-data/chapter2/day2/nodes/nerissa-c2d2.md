@@ -25,3 +25,12 @@ Besides, being situated next to the local Jewelers' stall meant she always overh
 She ended the day journaling in her journal. Not about her culinary conquests this time, but the memories she’d begun to retrieve. They brought her relief… but also a quiet, nagging conflict deep within.
 
 [Dear Lorekeeper,](#embed:https://youtu.be/5sWjzbacGUY?t=16246s)
+
+---
+FAN ARTS
+
+[Demon of Soup] (https://x.com/StandingPlace12/status/1921472739644199167)
+[Nibs N' Nobs] (https://x.com/andrslmu/status/1920687085301756408)
+[Advertisement Poster] (https://x.com/elskaelu/status/1918973111795359805)
+
+
