@@ -15,3 +15,9 @@ Fumbling is one thing. But this was an Olympic-level performance.
 Still, despite it all, there was something hopeful in the air. Their chemistry, their banter—it hadn’t vanished. The spark was still there, buried under all the missed opportunities and awkward pauses. Sooner or later, they’ll get back to where they were. Probably. Hopefully.
 
 [*I will eat your soul*](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=sFtbzq1H7HIFxZeg&t=9752)
+
+---
+FAN ARTS
+
+[Pure Love] (https://x.com/paw_chie/status/1923480569280856202)
+[Devour your soul] (https://x.com/zelmaelstrom/status/1922782098202488961)
