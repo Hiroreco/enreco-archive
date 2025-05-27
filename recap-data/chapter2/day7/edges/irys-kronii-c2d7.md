@@ -49,3 +49,7 @@ Something snapped.
 IRyS began to spiral. Love-blind, fogged with desperation. She would not lose them. Not without a fight. Not her beloved. Not her place.
 
 [The Awakening of YandeRyS](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=10565)
+
+## Fanart
+
+["Couple goals!!" by Sora](https://x.com/GuyFloating/status/1921366078610923856)

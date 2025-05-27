@@ -21,3 +21,9 @@ After that, she began building her [abode](https://www.youtube.com/live/9XG91aw1
 Eventually, Tam settled down to write her journal entry for the Library, reflecting on the bizarre start to her journey and the strange, memorable people she had already encountered.
 
 [Tam writing her diary](#embed:https://www.youtube.com/live/9XG91aw1gTo?si=EWtPKvo1Fk35j255&t=15167)
+
+## Fanart
+
+["Supplier fit" by CHEL](https://x.com/chelimationz/status/1919839617232314759)
+
+["in the mirror" by DoppiDonny](https://x.com/DoppiDonny/status/1921230140056424847)
