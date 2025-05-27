@@ -21,3 +21,9 @@ It was thrilling. She got straight to work laying the foundation—literally—f
 Before, well, others planned on ruining her business
 
 [Oi!!!](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=_NKA4AiEGnoMhNqK&t=15668)
+
+## Fanart
+
+["see?" by sanni](https://x.com/sanni44322/status/1921325284067811733)
+
+["chef mori!" by fushide](https://x.com/fushide_/status/1919625900900896785)
