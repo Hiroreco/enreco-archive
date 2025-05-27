@@ -6,6 +6,8 @@ Despite her declaration from yesterday, nothing strange has happened yet… Cert
 
 [Read "Maven in Blue"](#text:maven-in-blue)
 
+[Read "Hamlet"](#text:hamlet)
+
 ---
 
 **The Quest for Truth**
