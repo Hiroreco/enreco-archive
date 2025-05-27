@@ -70,4 +70,4 @@ Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have y
 
 ["Villain" by Keisea](https://x.com/Keiseeaaa/status/1923701440473858538)
 
-["Witch 2/3' by Kayrii](https://x.com/VulpusKayrii/status/1921056104634622391)
+["Witch 2/3" by Kayrii](https://x.com/VulpusKayrii/status/1921056104634622391)
