@@ -17,3 +17,16 @@ It was a confusing start, no doubt. But gradually, she settled into this new rhy
 And of course, she got swept up in all sorts of shenanigans with the others along the way.
 
 [You didn't hear that from me](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=lWELp9iRolic9XBH&t=20884)
+
+
+## Fanart
+
+["kneel" by sumo](https://x.com/sumo88_/status/1900190544602734862)
+
+["💙🎼" by latte](https://x.com/leuvi_tte/status/1902565329823568215)
+
+["Nerissa Ravencroft" by DDOLBANG](https://x.com/DDOLBANG11/status/1902194136926843161)
+
+["🐦‍⬛" by Pungson Mori](https://x.com/33aalloonnHD/status/1902579334008692736)
+
+[Untitled by Okunashi](https://x.com/okunashi27/status/1900088484695818505)
