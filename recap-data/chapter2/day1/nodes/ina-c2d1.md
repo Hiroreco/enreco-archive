@@ -25,3 +25,9 @@ The cautious self-proclaimed Hero toiled the rest of the day away clearing the e
 With a token of [Mordon Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13151s) in her pocket, Ina staved herself off the enticement of gambling and retreated to the Library, where she pioneered a page on her brand-new Journal documenting her path to strength. Her entry today was brief, not because of her desire to turn in early, but because she probably forgot what happened today.
 
 [MEOWMEOW](#embed:https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13685s)
+
+## Fanart
+
+["the hero's most powerful spell (physical)" by kshut](https://x.com/shutowl/status/1919994120837177491)
+
+["HAVE A TASTE OF MY BOOK" by The Retch](https://x.com/aFookinRetch/status/1921997300240425214)

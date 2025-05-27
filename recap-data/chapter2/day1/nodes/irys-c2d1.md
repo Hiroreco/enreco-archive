@@ -25,3 +25,7 @@ She also got wind of the Shiori Nyavella [scam saga](https://www.youtube.com/liv
 In the end, she opened her own shop—a [pink one](https://www.youtube.com/live/xzAqu4vkY7I?si=4DWyjnCRm8GAkJ9g&t=22870), of course, to match her energy. And finally, with great reluctance, she ended the day by writing her journal. A slightly chaotic, very pink beginning to what was sure to be a memorably unhinged culinary journey.
 
 [So is she illiterate still?](#embed:https://www.youtube.com/live/xzAqu4vkY7I?si=UY3BYIdiRmn1_UHr&t=24060)
+
+## Fanart
+
+["IRyS" by Wynnie](https://x.com/WynnTerra_/status/1902017659547353299/photo/1)

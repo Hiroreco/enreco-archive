@@ -23,3 +23,7 @@ Bae finally came to an epiphany: that it was not romantic love that she would li
 Some time later, [Gonathon paid a visit to Bae's hole](https://youtu.be/Br6dvhVJ_IE?t=10130) and found the once spartan side room had been transformed into a lavish sanctuary for her children. It was here Bae told Gonathon that she would be leaving on a journey of self-discovery after this. These words touched Gonathon, and she too vowed to take up her own quest.
 
 It is curious how the memories of HPO and Tam invoked a feeling of reveration for the wannabe god and queen in Gonathon, yet Bae's memories did little to sway her opinion of the peasant. But perhaps this was for the best, for it was through deed and experience that Bae and Gonathon were bound together. While the future for both remains murky, as brothers, they will see it through together.
+
+## Fanart
+
+["The weight of a knight's tears" by daiya](https://x.com/daiyaekaku/status/1923920501631578438)

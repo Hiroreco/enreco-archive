@@ -1,6 +1,6 @@
 Mococo woke up and chose violence.
 
-[BAU BAU *slashes you quietly*](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=KgvW5CAB6m_1lqJW&t=577)
+[BAU BAU _slashes you quietly_](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=KgvW5CAB6m_1lqJW&t=577)
 
 It was on-brand for her, so no one batted an eye anymore—but it certainly set the tone for a lively day for the money-hungry doggo.
 
@@ -13,3 +13,7 @@ The contrast between the two sisters ran deeper than just ideology. While Fuwawa
 So, with so many pleasant encounters throughout the day, it made perfect sense that Mococo would journal in her diary... not about heartfelt moments or personal growth, but about how many sales she made and her ambitious plans for economic domination.
 
 [Dear diary...](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=SpQDxoENvcwy2x1_&t=12407)
+
+## Fanart
+
+["Day 2" by fukuinu](https://x.com/fukuinu_daddy/status/1919258061119672376)

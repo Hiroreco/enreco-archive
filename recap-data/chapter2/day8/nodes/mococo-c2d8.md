@@ -19,3 +19,7 @@ As Mococo noted in her last diary, she sensed that she was drawn closer to Shior
 [REBELLION](#embed:https://www.youtube.com/live/-vv8XkRzP_Y?si=yUidUR2ibSFODD9z&t=4533)
 
 (see [Princess–Outlander](#edge:iphania-outlander))
+
+## Fanart
+
+["BAU BAU" by akashiba](https://x.com/akashibag/status/1921577417602154658)

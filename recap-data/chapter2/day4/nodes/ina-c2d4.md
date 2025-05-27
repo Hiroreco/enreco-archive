@@ -13,3 +13,7 @@ The Hero only managed to get around defeating Stain King Pro*tato* today, and wa
 All things considered, NinoIna was really privileged in how she was living her life. Free of controversy, always on the grind, set on the straight and narrow to elevate herself to her strongest. She literally has [the strongest pickaxe in Libestal](https://youtu.be/l9HKSDG50HM?t=15902s).
 
 [There is no Day 3. MEOWMEOW](#embed:https://youtu.be/l9HKSDG50HM?t=16400s)
+
+## Fanart
+
+["potatp" by m-pien](https://x.com/mpien6/status/1920134834791600586)

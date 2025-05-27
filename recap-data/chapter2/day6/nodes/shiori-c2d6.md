@@ -53,3 +53,7 @@ Their relationship was not perfect. Rather, Shiori thought it was filled with mu
 Shiori inquired about Bijou's feelings on her possible pregnancy and told her of Shiori's decision to forget Gonathan. As she waited for her wife to finish writing her diary, Shiori left to place a letter and roses for Gonathan to [find underneath his tree](https://youtu.be/tJ_YXGE3o2w?t=17908). Then started [writing the book she made him promise to buy](https://youtu.be/tJ_YXGE3o2w?t=18081). In a cruel twist of fate, [Gonathan would walk by] ignorant that this would be the final meeting between him and the Shiori who loved him.
 
 Before Shiori left to sleep, Queen Tam approached to apologise for interrupting her and Gonathan's talk earlier.
+
+## Fanart
+
+["just a humble witch" by Noise](https://x.com/lestkrr/status/1922074979434184946)

@@ -10,7 +10,7 @@ But there is a way to stop him...
 
 In the past, before The Outsider truly came to be, Peasant The Bae could be the hero the world needs. The key to their victory lies in the missing memories of all our heroes and Fia. Star-shaped crystals, the form their memories took, are scattered throughout the world. With each memory recovered, the power of their Revelation would be strengthened, and they would grow closer to finding the key to defeat The Outsider.
 
-[Ruination](#embed:https://youtu.be/7bOe38rP7JQ?t=1484) 
+[Ruination](#embed:https://youtu.be/7bOe38rP7JQ?t=1484)
 
 Soon after arriving in Ancient Libestal, Bae meets Princess Iphinia, Libestal's last remaining royal. The Princess tells them of the Ruination and that the end will come after seven days. Though Bae's mission differs from Princess Iphinia's own goal to defy the fate of her Kingdom, she graciously allows our heroes to take on jobs and to prepare for their respective quests.
 
@@ -27,3 +27,7 @@ Soon after gathering enough materials, Bae learned that she would need coins to 
 Once back in the Kingdom, Bae finished her job and traded some iron ore to Shakira and received an upgrade stone. With money now in her pockets and tools enchanted well, all seems well for our beloved Bae. But alas, misfortune would soon befall her...
 
 Gacha. Gacha would soon leave Bae poor once again as she attempted, and failed (even after receiving gold from Cecilia to save wisely), to obtain any of the special prizes. However, it would not keep her down as she would write in her journal that she remained true to her soul: [A Peasant.](https://youtu.be/7bOe38rP7JQ?t=8145)
+
+## Fanart
+
+["Peasant The Bae" by Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)

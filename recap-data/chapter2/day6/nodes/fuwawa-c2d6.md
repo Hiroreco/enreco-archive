@@ -21,3 +21,9 @@ Her café? More alive than ever. [Nerissa](https://www.youtube.com/live/Yv3kKfGJ
 Now, a new goal stood before her: make the upcoming picnic party the best it could possibly be. Saying she wasn’t nervous would be a lie—it was a huge job, and the thought of the store going empty again did haunt her. But those fears could wait. What mattered now was holding onto this moment, this happiness, and doing everything she could to make sure it lasted forever.
 
 [Today was a happy day](#embed:https://www.youtube.com/live/Yv3kKfGJUfI?si=38SXUkohf-G30Q0v&t=12153)
+
+## Fanart
+
+["Libestal's Young Chef (Part 2)" by Dreamplanes](https://x.com/Dreamplanes256/status/1922931113174917132)
+
+["the fluffy ones journey" by Tai](https://x.com/tchailune/status/1921440727466217479)

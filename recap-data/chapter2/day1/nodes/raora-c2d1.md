@@ -13,3 +13,7 @@ Roa, Bijou, and Mococo begin to sell their wares to various people, as demand is
 Roa concludes her day with a heartfelt call with her employee Bijou.
 
 [Farewell](#embed:https://www.youtube.com/live/zmRDeC_aJUM?si=czHTmms2vxXnctbm)
+
+## Fanart
+
+["Raora" by kit](https://x.com/quartzquadrant/status/1902200030980649355)

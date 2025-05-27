@@ -17,3 +17,7 @@ Meanwhile, on the other end of the table... [14 pages](https://www.youtube.com/l
 They ended their day in true chaotic fashion by bullying a fat, talking cat. Naturally.
 
 [Fat fyuck](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=cGMqUeUDJA2qA5lz&t=27623)
+
+## Fanart
+
+["Deep 'Partnership'" by underdatv](https://x.com/underdatv/status/1919617636545245333)

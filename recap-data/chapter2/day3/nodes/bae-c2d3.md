@@ -8,9 +8,9 @@ Bae then met Elizabeth and was astounded! Beautiful, regal. The Lady exuded an a
 
 The day goes on but it would be incomplete without arguing with the Hot Pink One as Bae would blatantly buy another chef's food in front of IRyS, whilst criticizing her cooking skills. They would trade barbs to the amusement of those around them, Bijou even suggesting that two may be fond of each other.
 
-Bae would soon dive into the dungeon, meeting the famed Outlander and tasked to help free him, which proved to be tricky since the challenges included [**Math**](https://youtu.be/Lp7GyRVbz1c?t=3408). But, it was no match for Bae's Peasant Intellect. The battles fought were arduous but boosted by the spar early on Bae endured. Eventually, they would fight and win against Stain King Proto, receiving parts of Fia's *meowmery* and treasured disc, and freeing the Outlander. Thankful, but distrusting, the hero was wary of them but nonetheless warned them of the lingering corruption within the kingdom.
+Bae would soon dive into the dungeon, meeting the famed Outlander and tasked to help free him, which proved to be tricky since the challenges included [**Math**](https://youtu.be/Lp7GyRVbz1c?t=3408). But, it was no match for Bae's Peasant Intellect. The battles fought were arduous but boosted by the spar early on Bae endured. Eventually, they would fight and win against Stain King Proto, receiving parts of Fia's _meowmery_ and treasured disc, and freeing the Outlander. Thankful, but distrusting, the hero was wary of them but nonetheless warned them of the lingering corruption within the kingdom.
 
-They report back to the Princess, Bae noticed a strange... sense of giddiness from the Princess Iphania upon hearing of the Outlander's rescue. Methinks they are together, thought the Peasant. That perhaps, The Outsider is the result of a [union between the two](https://youtu.be/Lp7GyRVbz1c?t=4400). 
+They report back to the Princess, Bae noticed a strange... sense of giddiness from the Princess Iphania upon hearing of the Outlander's rescue. Methinks they are together, thought the Peasant. That perhaps, The Outsider is the result of a [union between the two](https://youtu.be/Lp7GyRVbz1c?t=4400).
 
 After small adventure to obtain the first disc from the previous dungeon, Bae set of to mine diamonds but as she did, she noticed the concerning amount of death text from Immerkind. Worried, Bae called her. The Kind Knight was distraught. Bae, perplexed, asked to meet and suggested for Cecilia to kill livestock in order to destress while she waits. Under the bridge, Cecilia mentioned a special bond with the princess which shocked Bae but was reassured when Cecilia that it was a different 'special' from their own. Soon Cecilia would reveal:
 
@@ -37,3 +37,9 @@ With the day's almost at the end, Bae would continue to do a few more quests to 
 One last thing before she rests, with more money to spare, surely it wouldn't hurt to purchase another hat from the quest hall's shop. With a promise to earn the gold lost on the morrow, Bae bought the stain hat and excitedly showed it to Bijou who, upon seeing what now donned Bae's head, felt a shiver of unease. Bijou cautioned Bae to be careful and keep well. Bae unaware of the warning, took little heed as she wrote down her day in her journal...
 
 [Glory to Sandwich](#embed:https://youtu.be/Lp7GyRVbz1c?t=15371)
+
+## Fanart
+
+["tHE dUMPSTERRRRR" by iennie](https://x.com/iennie_/status/1920442027751190563)
+
+["Join the Sandwich" by Cellophim](https://x.com/ThatCello/status/1921233137280880850)

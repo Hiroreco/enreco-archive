@@ -18,7 +18,11 @@ The details of the red knight and the imprisonment of what seemed to be a charac
 
 \*Lies, a **scam\***
 
-["Who were you _before_ Lady Bloodflame?"](https://www.youtube.com/live/uEB2dIe37oo?si=DuNR8JBHz0oZKwTR&t=24218) Shiori asked Elizabeth Bloodflame, a Knight who swore her loyalty to the Kingdom of Libestal.
+And so, a confrontation was much needed.
+
+["Who were you _before_ Lady Bloodflame?"](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060)
+
+Shiori asked Elizabeth Bloodflame, a Knight who swore her loyalty to the Kingdom of Libestal.
 
 Shiori was surprised but unphased by the way Elizabeth confronted her about Nerissa's commission. But she had pride in her stories, in her writing. The best stories are always ones that held a grain of truth.
 
@@ -37,3 +41,5 @@ It seemed that their friendship, one that started sweetly in the day with gifts 
 ["The Truth" by mofumashu](https://x.com/mofumashu/status/1921096315812839551)
 
 ["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
+
+["When have I ever lied to you?" by ESTY](https://x.com/Sticker_sr/status/1921550872217104488)

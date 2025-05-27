@@ -23,3 +23,7 @@ So now she was left with all this pent-up frustration from losing back-to-back..
 Excellent. A perfect target for her claws to unleash fury upon, just like old times.
 
 [Say your last prayers, chicken.](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=S5vlYTWNDv68hc5A&t=8949)
+
+## Fanart
+
+["CONGRATS! IT'S ~~A GIRL~~ DEAD" by iry](https://x.com/iryry_a/status/1921139006986678434)
