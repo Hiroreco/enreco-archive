@@ -6,6 +6,8 @@ Despite her declaration from yesterday, nothing strange has happened yet… Cert
 
 [Read "Maven in Blue"](#text:maven-in-blue)
 
+[Read "Hamlet"](#text:hamlet)
+
 ---
 
 **The Quest for Truth**
@@ -43,8 +45,8 @@ Did she really not remember? Or was she just deceiving them... for reasons not y
 ---
 FAN ARTS
 
-[Metamorphose] (https://x.com/TibsSketches/status/1921634037858201687)
-[Maven in Blue] (https://x.com/Keiseeaaa/status/1921199677443035543)
-[Ravens under the moonlight] (https://x.com/hikienlaventana/status/1924207173829083449)
+[Metamorphose](https://x.com/TibsSketches/status/1921634037858201687)
+[Maven in Blue](https://x.com/Keiseeaaa/status/1921199677443035543)
+[Ravens under the moonlight](https://x.com/hikienlaventana/status/1924207173829083449)
 
 

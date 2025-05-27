@@ -18,8 +18,8 @@ Still, despite it all, there was something hopeful in the air. Their chemistry, 
 
 ## Fanart
 
-[Pure Love] (https://x.com/paw_chie/status/1923480569280856202)
+["Pure Love" by pawchie](https://x.com/paw_chie/status/1923480569280856202)
 
-[Devour your soul] (https://x.com/zelmaelstrom/status/1922782098202488961)
+["Devour your soul" by zelmaelstrom](https://x.com/zelmaelstrom/status/1922782098202488961)
 
 ["Trade" by noirstein](https://x.com/noirstein/status/1919950989265658028)
