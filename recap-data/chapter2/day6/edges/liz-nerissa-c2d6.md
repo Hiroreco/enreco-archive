@@ -66,3 +66,9 @@ Overall, it had been quite a fun day… as they were able to spend time together
 … Yet there lay the ominous books behind the portrait of the “witch”... seemingly foreboding of death and loss.
 
 Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have yet to find out….
+
+---
+FAN ARTS
+[The Cell] (https://x.com/Keiseeaaa/status/1925918187972964430)
+[The Real Villain] (https://x.com/Keiseeaaa/status/1923701440473858538)
+[A good night's unrest] (https://x.com/VulpusKayrii/status/1921056104634622391)
