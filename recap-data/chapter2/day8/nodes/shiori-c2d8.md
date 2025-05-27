@@ -77,3 +77,5 @@ Shiori's golden eyes glowed as she turned to the three goddess-like beings, avat
 ## Fanart:
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
+
+["witch shiori 1" by mofumashu](https://x.com/mofumashu/status/1921461081714688036)

@@ -23,3 +23,7 @@ Towards the end of the day, Shiori journaled her journey on Day 2—a day where 
 [Journal for Day 2](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=jWYO3t1b6Ki-kv-z&t=12609)
 
 She also gave Gonathon beets, again, for completely [non-suspicious reasons](https://www.youtube.com/live/4dgeXH5KKlI?si=OFSnHhwRpTtRCLr_&t=13186).
+
+## Fanart
+
+["kiss it to make it better?" by kuma](https://x.com/kumakibbs/status/1926080936971497522)
