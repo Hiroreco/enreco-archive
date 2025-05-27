@@ -76,3 +76,10 @@ She had accepted this form.
 The monster that had been trapped in the mirror has finally broken free. 
 
 After all, *NOTHING STAYS PURE*...
+
+---
+FAN ARTS
+
+[Sinister](https://x.com/shafpng/status/1886083673935798700)
+[Witch](https://x.com/yuri_kyanon/status/1921582803809886659)
+[Behind the Mirror](https://x.com/Elisbian_/status/1920708225848012912)
