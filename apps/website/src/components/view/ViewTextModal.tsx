@@ -1,6 +1,7 @@
 import textData from "#/text-data.json";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { useAudioStore } from "@/store/audioStore";
+import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -25,6 +26,7 @@ interface ViewTextModalProps {
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const textItem = (textData as TextData)[textId];
     const { playSFX } = useAudioStore();
+    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     if (!textItem) {
         return null;
@@ -41,11 +43,10 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
             <DialogTrigger className="flex items-center gap-1 hover:text-accent transition-colors">
                 {label} <BookOpenTextIcon />
             </DialogTrigger>
-            <DialogContent showXButton={false}>
+            <DialogContent showXButton={false} backdropFilter={backdropFilter}>
                 <DialogHeader>
                     <DialogTitle>{textItem.title}</DialogTitle>
                 </DialogHeader>
-
                 <VisuallyHidden>
                     <DialogDescription>
                         {textItem.category} - {textItem.title}
@@ -68,7 +69,6 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                         height={128}
                     />
                 </div>
-
                 <DialogFooter className="pt-4 border-t-2 ">
                     <DialogClose asChild>
                         <Button className="bg-accent text-lg text-accent-foreground w-full -mb-2">

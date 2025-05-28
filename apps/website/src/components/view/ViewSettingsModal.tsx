@@ -18,7 +18,7 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
-import { TimestampOption, useSettingStore } from "@/store/settingStore";
+import { BackdropFilter, useSettingStore } from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
 
@@ -96,27 +96,25 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="timestamp-option">
-                            Timestamp Option
-                        </Label>
+                        <Label htmlFor="backdrop-filter">Backdrop Filter</Label>
                         <Select
                             onValueChange={(value) =>
-                                settingStore.setTimestampOption(
-                                    value as TimestampOption,
+                                settingStore.setBackdropFilter(
+                                    value as BackdropFilter,
                                 )
                             }
-                            value={settingStore.timestampOption}
+                            value={settingStore.backdropFilter}
                         >
                             <SelectTrigger
                                 className="w-[100px]"
-                                id="timestamp-option"
-                                name="timestamp-option"
+                                id="backdrop-filter"
+                                name="backdrop-filter"
                             >
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="modal">Card</SelectItem>
-                                <SelectItem value="tab">Tab</SelectItem>
+                                <SelectItem value="blur">Blur</SelectItem>
+                                <SelectItem value="clear">Clear</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>

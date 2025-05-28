@@ -1,8 +1,7 @@
-import * as DialogPrimitive from "@radix-ui/react-dialog";
-import * as React from "react";
-
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { X } from "lucide-react";
+import * as React from "react";
 
 const Dialog = DialogPrimitive.Root;
 
@@ -11,20 +10,27 @@ const DialogTrigger = DialogPrimitive.Trigger;
 const DialogPortal = DialogPrimitive.Portal;
 
 const DialogClose = DialogPrimitive.Close;
-
+// Modified DialogOverlay component with props instead of direct import
 const DialogOverlay = React.forwardRef<
-    React.ElementRef<typeof DialogPrimitive.Overlay>,
-    React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>
->(({ className, ...props }, ref) => (
-    <DialogPrimitive.Overlay
-        ref={ref}
-        className={cn(
-            "fixed inset-0 z-50 bg-black/80  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
-            className,
-        )}
-        {...props}
-    />
-));
+    React.ComponentRef<typeof DialogPrimitive.Overlay>,
+    React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay> & {
+        backdropFilter?: "blur" | "clear";
+    }
+>(({ className, backdropFilter = "clear", ...props }, ref) => {
+    return (
+        <DialogPrimitive.Overlay
+            ref={ref}
+            className={cn(
+                "fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+                className,
+                {
+                    "backdrop-blur-xs": backdropFilter === "blur",
+                },
+            )}
+            {...props}
+        />
+    );
+});
 DialogOverlay.displayName = DialogPrimitive.Overlay.displayName;
 
 interface DialogContentProps
@@ -34,14 +40,23 @@ interface DialogContentProps
 
 const DialogContent = React.forwardRef<
     React.ElementRef<typeof DialogPrimitive.Content>,
-    DialogContentProps & { customOverlay?: React.ReactNode }
+    DialogContentProps & { customOverlay?: React.ReactNode } & {
+        backdropFilter?: "blur" | "clear";
+    }
 >(
     (
-        { className, children, showXButton = true, customOverlay, ...props },
+        {
+            className,
+            children,
+            showXButton = false,
+            customOverlay,
+            backdropFilter,
+            ...props
+        },
         ref,
     ) => (
         <DialogPortal>
-            {customOverlay || <DialogOverlay />}
+            {customOverlay || <DialogOverlay backdropFilter={backdropFilter} />}
             <DialogPrimitive.Content
                 ref={ref}
                 className={cn(
