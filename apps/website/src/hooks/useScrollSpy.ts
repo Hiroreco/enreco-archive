@@ -2,22 +2,35 @@ import { useEffect, useState } from "react";
 
 export const useScrollSpy = (
     sectionIds: string[],
-    options: IntersectionObserverInit = { threshold: 0.5 },
+    options: IntersectionObserverInit = { rootMargin: "0px", threshold: 0.3 },
 ) => {
     const [activeSection, setActiveSection] = useState<string>("");
 
     useEffect(() => {
         if (sectionIds.length === 0) return;
 
+        // Use this to debounce multiple intersection events
+        let debounceTimeout: NodeJS.Timeout | null = null;
+
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    setActiveSection(entry.target.id);
-                }
-            });
+            // Clear any pending timeout
+            if (debounceTimeout) clearTimeout(debounceTimeout);
+
+            // Find intersecting entries
+            const intersectingEntries = entries.filter(
+                (entry) => entry.isIntersecting,
+            );
+
+            // Only update if we have an intersecting entry
+            if (intersectingEntries.length > 0) {
+                // Use the first intersecting entry (or the one most visible)
+                debounceTimeout = setTimeout(() => {
+                    setActiveSection(intersectingEntries[0].target.id);
+                }, 50); // Small debounce to prevent rapid changes
+            }
         }, options);
 
-        // Initial setup with retry mechanism
+        // Setup observer for all sections
         const setupObserver = () => {
             let allFound = true;
 
@@ -30,28 +43,29 @@ export const useScrollSpy = (
                 }
             });
 
-            // If not all elements were found, retry after a small delay
             if (!allFound) {
                 setTimeout(setupObserver, 100);
             } else if (sectionIds.length > 0 && !activeSection) {
-                // If all elements are found but no active section yet,
-                // set the first visible section or the first section as active
-                const firstVisibleSection = sectionIds.find((id) => {
+                // Find first visible section
+                const visibleSection = sectionIds.find((id) => {
                     const element = document.getElementById(id);
                     if (!element) return false;
-
                     const rect = element.getBoundingClientRect();
-                    return rect.top >= 0 && rect.top <= window.innerHeight;
+                    return rect.top >= 0 && rect.bottom <= window.innerHeight;
                 });
 
-                setActiveSection(firstVisibleSection || sectionIds[0]);
+                setActiveSection(visibleSection || sectionIds[0]);
             }
         };
 
         setupObserver();
 
-        return () => observer.disconnect();
-    }, [sectionIds, options, activeSection]);
+        return () => {
+            observer.disconnect();
+            if (debounceTimeout) clearTimeout(debounceTimeout);
+        };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [sectionIds, options]); // Remove activeSection dependency
 
     return activeSection;
 };
