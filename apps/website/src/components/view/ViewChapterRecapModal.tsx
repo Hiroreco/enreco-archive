@@ -15,6 +15,7 @@ import { Section } from "@/components/view/ViewChapterRecapToolbar";
 import { AnimatePresence, motion } from "framer-motion";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { Button } from "@enreco-archive/common-ui/components/button";
+import { useSettingStore } from "@/store/settingStore";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
@@ -54,10 +55,11 @@ const ViewChapterRecapModal = ({
     );
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
     const activeSection = useScrollSpy(sectionIds);
+    const backdropFiler = useSettingStore((state) => state.backdropFilter);
 
     // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {
-        if (!isScrollingProgrammatically.current && activeSection) {
+        if (activeSection && !isScrollingProgrammatically.current) {
             setCurrentSection(activeSection);
         }
     }, [activeSection]);
@@ -95,7 +97,10 @@ const ViewChapterRecapModal = ({
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all">
+            <DialogContent
+                className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
+                backdropFilter={backdropFiler}
+            >
                 <VisuallyHidden>
                     <DialogHeader>
                         <DialogTitle>Chapters Recap</DialogTitle>
@@ -127,13 +132,19 @@ const ViewChapterRecapModal = ({
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.3 }}
                             >
-                                <ViewMarkdown
-                                    className="pb-20"
-                                    onNodeLinkClicked={() => {}}
-                                    onEdgeLinkClicked={() => {}}
-                                >
-                                    {data.chapters[chapter].content}
-                                </ViewMarkdown>
+                                {/* Without this memo, every section change would cause the Markdown to rerender  */}
+                                {useMemo(
+                                    () => (
+                                        <ViewMarkdown
+                                            className="pb-20"
+                                            onNodeLinkClicked={() => {}}
+                                            onEdgeLinkClicked={() => {}}
+                                        >
+                                            {data.chapters[chapter].content}
+                                        </ViewMarkdown>
+                                    ),
+                                    [chapter],
+                                )}
                             </motion.div>
                         </AnimatePresence>
                     </div>
