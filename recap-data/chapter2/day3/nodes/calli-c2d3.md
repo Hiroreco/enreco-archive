@@ -1,6 +1,6 @@
-Awooooo! That’s right—that’s the call of the wolf pack. Not dawgs anymore—_wolves_. Having already finished pretty much everything she set out to do, the tavern owner found herself with time to spare, so she did what any loyal alpha would do: hang out with her pack and help out wherever needed (see [Calli-Gonathon: Animals](#edge:calli-gigi)). Along the way, she also passed through conversations so questionable they could raise even the sternest of eyebrows.
+Awooooo! That’s right—that’s the call of the wolf pack. Not dawgs anymore—_wolves_. Having already finished pretty much everything she set out to do, the tavern owner found herself with time to spare, so she did what any loyal alpha would do: hung out with her pack and help out wherever needed (see [Calli-Gonathon: Animals](#edge:calli-gigi)). Along the way, she also passed through conversations so questionable they could raise even the sternest of eyebrows.
 
-[\*\*darts eyes around concernly\*\*](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=lN7skq8UX4nbv6z5&t=3212)
+[\*\*darts eyes around concerned\*\*](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=lN7skq8UX4nbv6z5&t=3212)
 
 But it wasn’t all frolicking and playful banter. One of Mordon’s main objectives was to investigate the [Stronghold of Ruin](https://www.youtube.com/live/uX0rZYSrb4Q?si=aLBbcb29JY8k7qre&t=4924). So, alongside her wolf pack, she delved into the dark halls and shadowed corners, uncovering key secrets about the Outlander—and perhaps even deeper truths about the kingdom itself.
 

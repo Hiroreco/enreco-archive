@@ -12,7 +12,7 @@ Throughout his adventures, Gonathon received many flashes of his past, which he 
 
 [For The Greater Good!](#embed:https://youtu.be/CPT2cj934-I?t=16668)
 
-Along the way, Gonathon bonded with many fellow adventurers, with some seeming to be very familiar. In particular, he learned [the concept of a "dawg,"](https://youtu.be/CPT2cj934-I?t=5376) a form of soul bond from Mordan Ramsey, and he quickly formed a similar bond with Cecelia Immerkind. Immerkind was quick to provide Gonathon with some words of warning, stating that he should not trust everything he hears and should make decisions for himself.
+Along the way, Gonathon bonded with many fellow adventurers, with some seeming to be very familiar. In particular, he learned [the concept of a "dawg,"](https://youtu.be/CPT2cj934-I?t=5376) a form of soul bond from Mordan Ramsey, and he quickly formed a similar bond with Cecilia Immerkind. Immerkind was quick to provide Gonathon with some words of warning, stating that he should not trust everything he hears and should make decisions for himself.
 
 [Be careful who you trust](#embed:https://youtu.be/CPT2cj934-I?t=6742)
 
