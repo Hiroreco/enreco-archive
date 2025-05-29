@@ -1,8 +1,12 @@
-import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import { Suspense, useMemo } from "react";
+import {
+    Dialog,
+    DialogContent,
+    DialogTitle,
+} from "@enreco-archive/common-ui/components/dialog";
 
 interface ViewModelModalProps {
     open: boolean;

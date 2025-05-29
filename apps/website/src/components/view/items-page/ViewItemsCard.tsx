@@ -1,8 +1,13 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
+import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
 import "@/components/viewitems/Items.css";
-import ViewItemSelector from "@/components/viewitems/ViewItemSelector";
-import ViewItemViewer from "@/components/viewitems/ViewItemViewer";
-import { CommonItemData } from "@/lib/type";
+import {
+    Card,
+    CardContent,
+    CardHeader,
+    CardTitle,
+} from "@enreco-archive/common-ui/components/card";
+import { CommonItemData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft } from "lucide-react";
 import { useState } from "react";

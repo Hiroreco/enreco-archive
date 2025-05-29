@@ -1,16 +1,8 @@
+import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
+import ViewLightbox from "@/components/view/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
-import ViewModelViewer from "@/components/viewitems/ViewModelViewer";
-import { CommonItemData } from "@/lib/type";
+import { CommonItemData } from "@enreco-archive/common/types";
 import { useState } from "react";
-
-import ImageBlur from "@/components/ImageBlur";
-import LightBoxNextImage from "@/components/viewitems/LightBoxNextImage";
-import Lightbox from "yet-another-react-lightbox";
-import Captions from "yet-another-react-lightbox/plugins/captions";
-import "yet-another-react-lightbox/plugins/captions.css";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
-import "yet-another-react-lightbox/styles.css";
 
 interface ViewItemViewerProps {
     item: CommonItemData;
@@ -70,7 +62,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
 
                 <div className="shrink-0 flex overflow-x-auto w-full content-container">
                     {item.galleryImages.map((image, index) => (
-                        <ImageBlur
+                        <ViewLightbox
                             width={178}
                             height={100}
                             key={index}
@@ -80,32 +72,10 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                             )}
                             alt={"thumbnail"}
                             className="rounded-lg h-[100px] w-[178px] object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
-                            onClick={() => openLightbox(index)}
                         />
                     ))}
                 </div>
             </div>
-
-            {/* https://yet-another-react-lightbox.com/examples/nextjs */}
-            <Lightbox
-                open={lightboxOpen}
-                close={() => setLightboxOpen(false)}
-                index={lightboxIndex}
-                controller={{
-                    closeOnBackdropClick: true,
-                }}
-                plugins={[Thumbnails, Captions]}
-                slides={item.galleryImages.map((image) => ({
-                    src: image.source,
-                    thumbnail: image.source.replace(".webp", "-thumbnail.webp"),
-                    title: image.title,
-                }))}
-                render={{
-                    slide: LightBoxNextImage,
-                    // @ts-expect-error yalb doesn't have proper types so yeah
-                    thumbnail: LightBoxNextImage,
-                }}
-            />
         </div>
     );
 };

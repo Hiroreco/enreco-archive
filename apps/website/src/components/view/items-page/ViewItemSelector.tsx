@@ -1,3 +1,4 @@
+import { CommonItemData } from "@enreco-archive/common/types";
 import Image from "next/image";
 import React from "react";
 

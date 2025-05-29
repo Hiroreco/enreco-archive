@@ -2,12 +2,11 @@ import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
-import ViewItemsCard from "@/components/viewitems/ViewItemsCard";
 import { useViewStore } from "@/store/viewStore";
 import { Dice6, Info, Settings } from "lucide-react";
 
-import weapons from "@/data/weapons.json";
-import hats from "@/data/hats.json";
+import weapons from "#/glossary/weapons.json";
+import hats from "#/glossary/hats.json";
 import {
     Tabs,
     TabsContent,
@@ -15,6 +14,7 @@ import {
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
+import ViewItemsCard from "@/components/view/items-page/ViewItemsCard";
 
 interface ViewItemsAppProps {
     bgImage: string;

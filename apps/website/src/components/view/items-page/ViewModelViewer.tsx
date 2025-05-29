@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import ViewModelModal from "@/components/viewitems/ViewModelModal";
+import ViewModelModal from "@/components/view/items-page/ViewModelModal";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Expand } from "lucide-react";
