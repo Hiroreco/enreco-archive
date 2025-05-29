@@ -9,14 +9,6 @@ interface ViewItemViewerProps {
 }
 
 const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
-    const [lightboxOpen, setLightboxOpen] = useState(false);
-    const [lightboxIndex, setLightboxIndex] = useState(0);
-
-    const openLightbox = (index: number) => {
-        setLightboxIndex(index);
-        setLightboxOpen(true);
-    };
-
     return (
         <div className="flex flex-col items-center md:items-baseline overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 relative h-full px-2">
             <div className="w-[250px]">
@@ -32,16 +24,16 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                     </p>
 
                     <p className="flex flex-col items-center text-sm mt-4">
-                        <span className="font-semibold">
-                            -First Appearance-
+                        <span className="font-semibold text-center">
+                            First Appeared
                         </span>
-                        <span className="text-muted-foreground">
+                        <span className="text-muted-foreground text-center">
                             Chapter {item.chapter + 1}
                         </span>
                     </p>
 
                     <p className="flex flex-col items-center text-sm mt-4">
-                        <span className="font-semibold">-Quote-</span>
+                        <span className="font-semibold text-center">Quote</span>
                         <span className="italic text-center text-muted-foreground text-sm">
                             {item.quote}
                         </span>
@@ -62,15 +54,20 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                 <div className="shrink-0 flex overflow-x-auto w-full content-container">
                     {item.galleryImages.map((image, index) => (
                         <ViewLightbox
+                            key={index}
                             width={178}
                             height={100}
-                            key={index}
                             src={image.source.replace(
                                 ".webp",
                                 "-thumbnail.webp",
                             )}
-                            alt={"thumbnail"}
-                            className="rounded-lg h-[100px] w-[178px] object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all"
+                            alt={image.title || "Gallery image"}
+                            className="rounded-lg h-[100px] w-[178px] object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all mr-2"
+                            galleryImages={item.galleryImages.map((img) => ({
+                                src: img.source,
+                                alt: img.title || "Gallery image",
+                            }))}
+                            galleryIndex={index}
                         />
                     ))}
                 </div>

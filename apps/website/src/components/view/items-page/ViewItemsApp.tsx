@@ -1,45 +1,23 @@
+import ViewItemsCard from "@/components/view/items-page/ViewItemsCard";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useViewStore } from "@/store/viewStore";
-import { Dice6, Info, Settings } from "lucide-react";
-
-import weapons from "#/glossary/weapons.json";
-import hats from "#/glossary/hats.json";
-import {
-    Tabs,
-    TabsContent,
-    TabsList,
-    TabsTrigger,
-} from "@enreco-archive/common-ui/components/tabs";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import ViewItemsCard from "@/components/view/items-page/ViewItemsCard";
+import { Dice6, Info, Settings } from "lucide-react";
 
 interface ViewItemsAppProps {
     bgImage: string;
 }
 
-const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
+const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
     const viewStore = useViewStore();
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
-            <Tabs
-                defaultValue="weapons"
-                className="w-[80%] max-w-[900px] mx-auto flex flex-col"
-            >
-                <TabsList className="w-full bg-transparent">
-                    <TabsTrigger value="weapons">Weapons</TabsTrigger>
-                    <TabsTrigger value="hats">Hats</TabsTrigger>
-                </TabsList>
-                <TabsContent value="weapons">
-                    <ViewItemsCard data={weapons} label="Weapons" />
-                </TabsContent>
-                <TabsContent value="hats">
-                    <ViewItemsCard data={hats} label="Hats" />
-                </TabsContent>
-            </Tabs>
+            <h1>Glossary</h1>
+            <ViewItemsCard className="h-[80dvh] max-w-[900px] mx-auto mt-2" />
 
             {/* Pretty much the same as ViewApp from here on */}
             <ViewInfoModal
@@ -102,4 +80,4 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     );
 };
 
-export default ViewGlossaryApp;
+export default ViewItemsApp;
