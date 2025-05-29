@@ -20,7 +20,7 @@ interface ViewItemsAppProps {
     bgImage: string;
 }
 
-const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
+const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     const viewStore = useViewStore();
 
     return (
@@ -102,4 +102,4 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
     );
 };
 
-export default ViewItemsApp;
+export default ViewGlossaryApp;

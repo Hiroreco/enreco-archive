@@ -38,6 +38,7 @@ import {
 } from "./lib/generate-renderable-chart-elems";
 import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
 import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
+import Image from "next/image";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -142,13 +143,13 @@ function mergeChartsIntoCurrentDay(
 }
 
 interface Props {
-    useDarkMode: boolean;
     siteData: SiteData;
     isInLoadingScreen: boolean;
+    bgImage: string;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
+const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     useAudioSettingsSync();
     useClickOutside();
     /* State variables */
@@ -462,11 +463,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
               ]
             : null;
 
-    let bgImage = chapterData.bgiSrc;
-    if (useDarkMode) {
-        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
-    }
-
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
@@ -633,9 +629,10 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         )
                     }
                 >
-                    <img
+                    <Image
+                        alt="Enreco Emblem"
+                        fill
                         src="images-opt/emblem.webp"
-                        className="w-full h-full"
                     />
                 </IconButton>
 
