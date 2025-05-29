@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @import "tw-animate-css";
 @import "@enreco-archive/common-ui/globals.css";
 
@@ -6,13 +6,13 @@
 @source "./components/**/*.{ts,tsx}";
 
 @layer utilities {
-  img {
-    @apply rounded-lg;
-  }
-  @font-face {
-    font-family: 'Chesterfield';
-    src: url('/chesterfield.woff2') format('woff2');
-  }
+    img {
+        @apply rounded-lg;
+    }
+    @font-face {
+        font-family: "Chesterfield";
+        src: url("/chesterfield.woff2") format("woff2");
+    }
 }
 
 button {
@@ -61,14 +61,6 @@ li {
     @apply mb-2;
 }
 
-figure {
-    @apply rounded-lg md:max-w-[80%] mx-auto;
-}
-
-figcaption {
-    @apply text-center;
-}
-
 table {
     @apply w-full;
 }
@@ -83,17 +75,17 @@ td {
 
 .deco {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23000"><path d="M0 0v100c250 0 375-24 500-48 125 24 250 48 500 48V0H0Z" opacity=".5"></path><path d="M0 0v4c250 0 375 24 500 48C625 28 750 4 1000 4V0H0Z"></path></svg>');
-    background-repeat: no-repeat; /* Prevents repetition */
-    background-size: cover; /* Scales to fill the parent */
-    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     @apply rounded-t-lg;
 }
 
 .deco-node {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23000"><path d="m0 4 150 40h160l190 50 190-50h160l150-40V0H0v4z"></path></svg>');
-    background-repeat: no-repeat; /* Prevents repetition */
-    background-size: cover; /* Scales to fill the parent */
-    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     @apply rounded-t-lg;
 }
 
@@ -102,11 +94,8 @@ td {
 }
 
 .grid-bg {
-    background-image: linear-gradient(
-            to right,
-            rgba(0, 0, 0, 0.2) 1px,
-            transparent 1px
-        ),
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.2) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
     background-size: 70px 70px;
     background-position: 55px 0;

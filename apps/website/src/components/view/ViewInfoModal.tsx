@@ -28,7 +28,10 @@ interface ViewInfoModalProps {
 }
 
 const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
-    const settingStore = useSettingStore();
+    const themeType = useSettingStore((state) => state.themeType);
+    const setThemeType = useSettingStore((state) => state.setThemeType);
+    const backdropFilter = useSettingStore((state) => state.backdropFilter);
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <VisuallyHidden>
@@ -37,6 +40,7 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
             <DialogContent
                 showXButton={false}
                 className="rounded-lg h-[85vh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
+                backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
                     <DialogDescription>
@@ -76,8 +80,8 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                     {/* Theme Toggle */}
                     <ToggleGroup.Root
                         type="single"
-                        value={settingStore.themeType}
-                        onValueChange={settingStore.setThemeType}
+                        value={themeType}
+                        onValueChange={setThemeType}
                     >
                         <ToggleGroup.Item
                             value="light"

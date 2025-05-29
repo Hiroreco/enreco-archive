@@ -18,7 +18,6 @@ const ViewShioriGame = () => {
 
     const handleShioriPress = () => {
         if (!shioriPressed) {
-            console.log("sdsd");
             playSFX("chicken-pop");
             playSFX("shiori-chicken");
             setShioriPressed(true);
