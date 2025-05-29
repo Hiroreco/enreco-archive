@@ -17,11 +17,13 @@
         "lint": "turbo run lint",
 	    "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
         "export-recaps": "tsx scripts/export-recaps.ts",
+        "export-glossary": "tsx scripts/export-glossary.ts",
         "inject-recaps": "tsx scripts/inject-recaps.ts",
         "validate-recaps": "tsx scripts/validate-recaps.ts",
         "cleanup": "tsx scripts/cleanup.ts",
         "inject-chapter-recaps": "tsx scripts/inject-chapter-recaps.ts",
-        "inject-texts": "tsx scripts/inject-texts.ts"
+        "inject-texts": "tsx scripts/inject-texts.ts",
+        "inject-glossary": "tsx scripts/inject-glossary.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",

@@ -168,7 +168,7 @@ export type GalleryImage = {
 
 export type CommonItemData = {
     id: string;
-    name: string;
+    title: string;
     chapter: number;
     thumbnailSrc: string;
     content: string;

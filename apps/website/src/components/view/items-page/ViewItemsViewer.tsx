@@ -28,7 +28,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                 </div>
                 <div className="mt-4 w-full">
                     <p className="text-center underline underline-offset-2 font-semibold">
-                        {item.name}
+                        {item.title}
                     </p>
 
                     <div className="mt-2 w-full justify-around flex">

@@ -16,13 +16,15 @@ const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
             <Image
                 className="h-[100px] w-[100px] object-cover"
                 src={item.thumbnailSrc}
-                alt={item.name}
+                alt={item.title}
                 height={100}
                 width={100}
             />
 
             <div>
-                <p className="text-center text-sm font-semibold">{item.name}</p>
+                <p className="text-center text-sm font-semibold">
+                    {item.title}
+                </p>
             </div>
         </div>
     );
