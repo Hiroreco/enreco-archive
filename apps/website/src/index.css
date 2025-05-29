@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @import "tw-animate-css";
 @import "@enreco-archive/common-ui/globals.css";
 
@@ -6,13 +6,13 @@
 @source "./components/**/*.{ts,tsx}";
 
 @layer utilities {
-  img {
-    @apply rounded-lg;
-  }
-  @font-face {
-    font-family: 'Chesterfield';
-    src: url('/chesterfield.woff2') format('woff2');
-  }
+    img {
+        @apply rounded-lg;
+    }
+    @font-face {
+        font-family: "Chesterfield";
+        src: url("/chesterfield.woff2") format("woff2");
+    }
 }
 
 button {
@@ -146,11 +146,8 @@ td {
 }
 
 .grid-bg {
-    background-image: linear-gradient(
-            to right,
-            rgba(0, 0, 0, 0.2) 1px,
-            transparent 1px
-        ),
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.2) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
     background-size: 70px 70px;
     background-position: 55px 0;
@@ -256,4 +253,19 @@ td {
 
 ::-webkit-scrollbar-thumb:hover {
     @apply bg-muted-foreground;
+}
+
+/* Putting these here for now cause Items.css doesn't work */
+.items-card {
+    @apply w-full h-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.content-container {
+    @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+@media (min-width: 768px) {
+    .md-content-container {
+        @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
+    }
 }

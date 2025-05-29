@@ -31,21 +31,20 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                         {item.title}
                     </p>
 
-                    <div className="mt-2 w-full justify-around flex">
-                        <p className="flex flex-col items-center text-sm">
-                            <span className="font-semibold">Category</span>
-                            <span className="text-muted-foreground">
-                                Weapon
-                            </span>
-                        </p>
-                        <p className="flex flex-col items-center text-sm">
-                            <span className="font-semibold">Type</span>
-                            <span className="text-muted-foreground">Range</span>
-                        </p>
-                    </div>
+                    <p className="flex flex-col items-center text-sm mt-4">
+                        <span className="font-semibold">
+                            -First Appearance-
+                        </span>
+                        <span className="text-muted-foreground">
+                            Chapter {item.chapter + 1}
+                        </span>
+                    </p>
 
-                    <p className="mt-4 italic text-center text-muted-foreground text-sm">
-                        "Tickle tickle~ Oh crap I think I just exploded"
+                    <p className="flex flex-col items-center text-sm mt-4">
+                        <span className="font-semibold">-Quote-</span>
+                        <span className="italic text-center text-muted-foreground text-sm">
+                            {item.quote}
+                        </span>
                     </p>
                 </div>
             </div>

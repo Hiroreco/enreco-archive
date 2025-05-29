@@ -46,7 +46,7 @@ export const ViewAppWrapper = () => {
     }
 
     return (
-        <>
+        <div>
             {isLoading && (
                 <ViewLoadingPage
                     useDarkMode={useDarkMode}
@@ -74,7 +74,7 @@ export const ViewAppWrapper = () => {
 
             <div
                 className={cn("overflow-hidden", {
-                    "visible opacity-1": viewAppVisible,
+                    "visible opacity-100": viewAppVisible,
                     "invisible opacity-0": !viewAppVisible,
                 })}
             >
@@ -91,7 +91,7 @@ export const ViewAppWrapper = () => {
                         <TabsTrigger value="chart">
                             <Workflow size={24} />
                         </TabsTrigger>
-                        <TabsTrigger value="items">
+                        <TabsTrigger value="glossary">
                             <Sword size={24} />
                         </TabsTrigger>
                     </TabsList>
@@ -126,6 +126,6 @@ export const ViewAppWrapper = () => {
                     )}
                 </AnimatePresence>
             </div>
-        </>
+        </div>
     );
 };

@@ -464,7 +464,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             : null;
 
     return (
-        <>
+        <div>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <ViewChart
                     nodes={memoizedDayData.nodes}
@@ -631,7 +631,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 >
                     <Image
                         alt="Enreco Emblem"
-                        fill
+                        width={32}
+                        height={32}
                         src="images-opt/emblem.webp"
                     />
                 </IconButton>
@@ -714,7 +715,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
             </div>
-        </>
+        </div>
     );
 };
 

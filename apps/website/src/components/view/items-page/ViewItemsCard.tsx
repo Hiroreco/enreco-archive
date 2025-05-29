@@ -1,6 +1,6 @@
 import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
 import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
-import "@/components/viewitems/Items.css";
+import "./Items.css";
 import {
     Card,
     CardContent,

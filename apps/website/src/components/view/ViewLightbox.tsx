@@ -47,7 +47,7 @@ const ViewLightbox = ({
                     "cursor-pointer transition-opacity hover:opacity-90",
                     className,
                 )}
-                placeholder="blur"
+                placeholder={getBlurDataURL(src) ? "blur" : "empty"}
                 blurDataURL={getBlurDataURL(src)}
                 priority={priority}
                 onClick={() => handleOpenChange(true)}
@@ -84,7 +84,7 @@ const ViewLightbox = ({
                             alt={alt}
                             fill
                             className="object-cover"
-                            placeholder="blur"
+                            placeholder={getBlurDataURL(src) ? "blur" : "empty"}
                             blurDataURL={getBlurDataURL(src)}
                         />
                     </div>
