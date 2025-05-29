@@ -10,7 +10,7 @@ Tears brimmed and spilled before she even realized they had formed. She turned a
 
 Maybe… maybe the princess hadn’t spoken because she was overwhelmed. Confused. Yes, confuzzled. She’d just reunited with the Outlander after all this time—it made sense, right?
 
-But Cecilia, in her pain, latched onto a singular, destructive conclusion: _If the Outlander was the burden, then removing them would set the princess free._
+But Cecilia, in her pain, latched onto a singular, destructive conclusion: _if the Outlander was the burden, then removing them would set the princess free._
 
 [For ~~Justice~~ Love!](#embed:https://www.youtube.com/live/Icdii90_vSA?t=5430s)
 
