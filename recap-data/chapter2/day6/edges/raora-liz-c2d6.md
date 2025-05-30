@@ -39,3 +39,23 @@ Three legendary charms for a Legendary Knight. Roa apologised as well, for runni
 The beach episode was, by all accounts, a success—romantic tension, heartfelt gestures, and a parade of [stalkers](https://www.youtube.com/live/E-LGNO7JdO4?si=EQ2i5tfeEEHauBZz&t=10780) lurking in the backdrop.
 
 Though she could not fully confession her feelings, perhaps if the tide remained kind, tomorrow would be the day Roa finds the courage to finally say what she's been holding in for so long.
+
+**Bonus Biboo Crashing Raora's and Liz's Date Moments**
+
+[Biboo is drowning in the waterfall](https://youtu.be/E-LGNO7JdO4?t=2021)
+
+[Biboo literally crashing](https://youtu.be/E-LGNO7JdO4?t=2764)
+
+[Music playing interrupts the date](https://youtu.be/E-LGNO7JdO4?t=9064)
+
+[Biboo on a tree](https://youtu.be/E-LGNO7JdO4?t=10469)
+
+[Bijou, who really loved maps, on this RomCom Episode of EnReco](https://youtu.be/E-LGNO7JdO4?t=10487)
+
+[Biboo found "treasure"](https://youtu.be/E-LGNO7JdO4?t=10545)
+
+[2nd Monster music, may not have been Biboo, but she was there](https://youtu.be/E-LGNO7JdO4?t=10566)
+
+[InvisiBiboo](https://youtu.be/E-LGNO7JdO4?t=10779)
+
+[Bonus: Biboo just REALLY LOVES **maps**](https://youtu.be/E-LGNO7JdO4?t=10896)
