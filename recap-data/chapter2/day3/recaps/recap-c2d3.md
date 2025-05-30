@@ -10,7 +10,7 @@ That was how the day *should’ve* gone. But now, let’s talk about the absolut
 
 If you've been paying attention, you’d notice that relationships among the heroes have always been... layered. From lovers to sworn brothers, strangers to long-lost cousins, familial themes have been running strong through the kingdom—and on the surface, that sounds wholesome. Heartwarming, even.
 
-But no. Apparently, the idea of “family” got a little *too* medieval for our band of “heroes.” Somewhere along the way, what began as playful speculation took a hard swerve into *full-on incest*. That's right—*sweet home Alabama* levels of chaos.
+But no. Apparently, the idea of “family” got a little *too* medieval for our band of “heroes.” Somewhere along the way, what began as playful speculation took a hard swerve into *full-on incest*. That's right—*Sweet Home Alabama* levels of chaos.
 
 We had people assuming the kingdom’s ruler and her companions were both siblings *and* lovers. We had a cousin—yep, a cousin—making moves on a relative, and upon getting rejected, nearly spiraled into an emotional breakdown. And from the ashes of all this confusion came the crackpot theory to top all crackpot theories: *everyone* in the kingdom was somehow related. All of them. An entire world of inbred individuals. And from this madness was born a cult. A cult of carbs. The In-Breads. Yes, a religion that believed people were bread—sandwiches even—born of divine inbreeding.
 

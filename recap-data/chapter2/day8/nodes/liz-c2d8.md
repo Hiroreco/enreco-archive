@@ -28,36 +28,6 @@ _Promise rings. Nothing more._
 
 Then Nerissa requests a spar, something they've been doing daily now. And yet, Elizabeth makes an even stranger request: to go gambling (see: [Nerissa-Elizabeth: Finding Shelter in the Shadows of Hope](#edge:liz-nerissa)).
 
-["Maybe you are my lucky blue."](https://www.youtube.com/live/b-jTHH6GK5w?si=SGFe8V8u909-nM1L&t=2025)
-
-With gambling completed, the two move to spar. Jokes are made during combat. And then Elizabeth says something out of the blue.
-
-["I am your knight!"](https://www.youtube.com/live/b-jTHH6GK5w?si=iZB5pI1FOkv_Iq_t&t=2213)
-
-Even when Nerissa questions it, Elizabeth doesn't take the statement back. She doubles down with a "yes," solidifying her new stance on the woman in blue and her lucky charm.
-
-With a prize from Nerissa, they jest about rings on each finger. Of Elizabeth being a queen. A princess.
-
-["You can be the princess, and I can be the knight."](https://www.youtube.com/live/b-jTHH6GK5w?si=nwUrn5ouuy9Hr7Se&t=2738)
-
-When Elizabeth discovers Nerissa is in a witches' coven with Shiori and Bijou. It leaves a foul taste in the mouth of the knight. It's in this moment that she declares Nerissa is not a witch.
-
-The two quickly stop by Queen Tam Gandr’s, where Nerissa commits breaking and entering right in front of Elizabeth. The knight chides the princess, jesting, "Maybe you should be a vampire, so you'll follow the rules!"
-
-Standing over burned memories and an ash-coated lie about her absence during this apparent party, the two step away to talk.
-
-["Will you be loyal to me?"](https://www.youtube.com/live/b-jTHH6GK5w?si=MwXStMNDmCrPZwVj&t=3119)
-
-A question filled with weight. Is it in jest? Or is she serious?
-
-Elizabeth answers yes. With a promise, through thick and thin. Nerissa claims her as _her_ knight, of a smaller flame, without Nerissa.
-
-["Are you happy here?"](https://www.youtube.com/live/b-jTHH6GK5w?si=Haluy3WzBkSIgdNi&t=3405)
-
-It's a loaded question, even for herself. How happy is one existing in the past when there are memories of the future? Would one be so willing to forget to avoid what may be a painful truth? Afraid of those ink-soaked words having a scratch of truth to them?
-
-After a quick but heartfelt apology, the two move to watching the auction and the chaos over copyright and templates. It’s small talk, but there seems to be less tension between them.
-
 Back at home, a [heart-to-heart with Kiara](https://www.youtube.com/live/b-jTHH6GK5w?si=oGPHYYz-3nlKro3Y&t=4582) reveals their shared nature as knights—both in thought and action. A reminder that Kiara is moving out is painful for Elizabeth, but she’s happy for her friend.
 
 But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?si=E3oALHLYZAo5suDE&t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of…Potato Salad?

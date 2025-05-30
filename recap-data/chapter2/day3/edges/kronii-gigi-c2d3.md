@@ -1,6 +1,6 @@
 <!-- title: A Ship Sunken, A Pack Expanded -->
 
-With much of Gonathon's day devoted to completing quests and assisting Cecilia Immerkind (see [Cecilia-Gonathon: Wolves Before Harlots](#edge:cecilia-gigi)), the humble knight found little time to devote to her queen. Instead, it was Gonathon's claims of the Outlander and Princess being siblings that most impacted Tam Gandr.
+As Gonathon devoted to completing quests and assisting Cecilia Immerkind (see [Cecilia-Gonathon: Wolves Before Harlots](#edge:cecilia-gigi)), the humble knight found little time to devote to her queen. Instead, it was Gonathon's claims of the Outlander and Princess being siblings that most impacted Tam Gandr.
 
 [I have been shipping those two!](#embed:https://youtu.be/dgfH4qnRlfw?t=17281)
 
