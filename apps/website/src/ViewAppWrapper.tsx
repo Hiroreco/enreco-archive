@@ -17,7 +17,7 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { Sword, Workflow } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import ViewGlossaryApp from "@/components/view/items-page/ViewItemsApp";
+import ViewGlossaryApp from "@/components/view/items-page/ViewGlossaryApp";
 
 const data: SiteData = {
     version: siteMeta.version,

@@ -2,7 +2,6 @@ import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
 import ViewLightbox from "@/components/view/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { CommonItemData } from "@enreco-archive/common/types";
-import { useState } from "react";
 
 interface ViewItemViewerProps {
     item: CommonItemData;

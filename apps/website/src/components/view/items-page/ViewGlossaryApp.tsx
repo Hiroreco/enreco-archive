@@ -1,4 +1,4 @@
-import ViewItemsCard from "@/components/view/items-page/ViewItemsCard";
+import ViewGlossaryCard from "@/components/view/items-page/ViewGlossaryCard";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
@@ -11,13 +11,13 @@ interface ViewItemsAppProps {
     bgImage: string;
 }
 
-const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
+const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     const viewStore = useViewStore();
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <h1>Glossary</h1>
-            <ViewItemsCard className="h-[80dvh] max-w-[900px] mx-auto mt-2" />
+            <ViewGlossaryCard className="h-[80dvh] max-w-[900px] mx-auto mt-2" />
 
             {/* Pretty much the same as ViewApp from here on */}
             <ViewInfoModal
@@ -80,4 +80,4 @@ const ViewItemsApp = ({ bgImage }: ViewItemsAppProps) => {
     );
 };
 
-export default ViewItemsApp;
+export default ViewGlossaryApp;

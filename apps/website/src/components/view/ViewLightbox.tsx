@@ -42,7 +42,6 @@ const ViewLightbox = ({
     const [currentImageIndex, setCurrentImageIndex] = useState(galleryIndex);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
-    // Create a gallery array if one wasn't provided
     const images = galleryImages || [{ src, alt }];
 
     const handleOpenChange = (open: boolean) => {

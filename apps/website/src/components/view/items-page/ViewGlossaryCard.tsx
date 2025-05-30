@@ -28,7 +28,7 @@ import {
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
 
-interface ViewItemsCardProps {
+interface ViewGlossaryCardProps {
     className: string;
 }
 
@@ -51,7 +51,7 @@ const categoryMap: {
     },
 };
 
-const ViewItemsCard = ({ className }: ViewItemsCardProps) => {
+const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     const [selectedItem, setSelectedItem] = useState<CommonItemData | null>(
         null,
     );
@@ -169,4 +169,4 @@ const ViewItemsCard = ({ className }: ViewItemsCardProps) => {
     );
 };
 
-export default ViewItemsCard;
+export default ViewGlossaryCard;
