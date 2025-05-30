@@ -4,11 +4,11 @@
 <!-- images: (HPO's first time wielding Light and Darkness), (Light and Darkness viewed from the inventory), (Light and Darkness's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Light and Darkness**, a white star and a black star, one held in each hand, are the twin weapons bestowed upon the Hot Pink One upon her arrival in the Kingdom of Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 Half devil, half angel—in other words, a nephilim—that was how the pink maiden once described herself. The dual stars symbolize this dichotomy... before she eventually abandoned the title in favor of simply being _Hot Pink_ (whether she still retains any "angelic" part after what she did to a certain orange knight is... debatable).
 

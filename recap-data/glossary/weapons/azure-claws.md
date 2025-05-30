@@ -4,11 +4,11 @@
 <!-- images: (Fuwawa's first time wielding Azure Claws), (Azure Claws viewed from the inventory), (Azure Claws' ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Azure Claws**—a pair of razor-sharp, blue claws—are the weapons bestowed upon Fuwawa Abyssgard when she first arrived in the Kingdom of Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 Their vicious design is a stark contrast to Fuwawa’s fluffy and gentle demeanor, but for someone known as the Demon Guard Dog, it’s a fitting match.
 

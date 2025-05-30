@@ -4,11 +4,11 @@
 <!-- images: (Mococo's first time wielding Fuchsia Claws), (Fuchsia Claws viewed from the inventory), (Fuchsia Claws' ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by Mococo Abyssgard, differentiated only by their light blue hue.
 
-### <u>Ability and Story</u>
+## Detail
 
 These claws share the same core ability: upon activation, Mococo unleashes a flurry of X-shaped slashes, devastating anything in her path.
 

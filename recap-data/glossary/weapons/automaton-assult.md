@@ -4,11 +4,11 @@
 <!-- images: (Cecilia's first time wielding Automaton Assult), (Automaton Assult as viewed from the inventory), (Automaton Assult's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Automaton Assult**, a lance adorned in gold and green, is the beloved weapon of Cecilia Immergreen on her journey through the Kingdom of Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 An ancient automaton, a champion of Justice with a love for flowers, tea, and assulting the world with her _very unbiased_ opinions, it’s only fitting her weapon carries a name like this.
 

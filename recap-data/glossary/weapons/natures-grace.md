@@ -4,11 +4,11 @@
 <!-- images: (Fauna's first time wielding Nature's Grace), (Nature's Grace viewed from the inventory), (Nature's Grace's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Nature's Grace**, a wooden staff adorned with a golden apple, was the weapon—if you could even call it that—wielded by Ceres Fauna upon her arrival in the Kingdom of Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 The golden apple is a nod to her title as Mother Nature—one who once brought life and greenery wherever she went... before capitalism got to her, she formed a monopoly, and started draining everyone’s wallets.
 

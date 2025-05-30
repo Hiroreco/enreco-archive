@@ -4,11 +4,11 @@
 <!-- images: (Ame's first time wielding Eye Of Wisdom), (Eye Of Wisdom as viewed from the inventory), (Eye Of Wisdom's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Eye of Wisdom** — an unusual name for what's essentially a magnifying glass, but a fitting one when you understand what it represents. This golden-rimmed magnifying glass, complete with a comical mustache, might look far less intimidating than the other heroes' armaments, but it remains the trusty weapon Amelia Watson wielded throughout her journey in Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 Amelia Watson is a detective — a self-proclaimed "number one" at that. The kind who solves only the biggest of cases, uncovers the truths of mythical beings, and finds Kiara's burger strangely irresistible. Naturally, it only makes sense for her to rely on her magnifying glass for her detective work.
 

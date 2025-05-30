@@ -4,11 +4,11 @@
 <!-- images: (Bae's first time wielding Chaos Stampede), (Chaos Stampede viewed from the inventory), (Chaos Stampede's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Chaos Stampede**, a six-faced black die with neon-hued dots, is the simple yet undeniably cool weapon that Peasant da Bae wields upon her arrival in the Kingdom of Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 Before she reduced herself to the humble life of a peasant—or hermit, depending on the day—Bae was the embodiment of Chaos itself. Not that anyone would believe her if she said so. After all, she hardly seems the chaotic type these days.
 

@@ -4,11 +4,11 @@
 <!-- images: (Kiara's first time wielding Burning Phoenix), (Burning Phoenix as viewed from the inventory), (Burning Phoenix's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Burning Phoenix** takes the form of a one-handed sword and a shield. Orange and turquoise colors the weapon's design - strangely reminiscent of the feathers Tanakisha Karia wears.
 
-### <u>Ability and Story</u>
+## Detail
 
 When used, Burning Phoenix launches a fiery attack towards her enemies before shortly erupting into a brilliant blaze, turning any stains caught in the crossfire into ashes.
 

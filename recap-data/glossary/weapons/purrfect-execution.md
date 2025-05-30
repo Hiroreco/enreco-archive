@@ -4,11 +4,11 @@
 <!-- images: (Raora's first time wielding Purrfect Execution), (Purrfect Execution as viewed from the inventory), (Purrfect Execution's ability activated) -->
 <!-- model: true -->
 
-### <u>Description</u>
+## Overvie
 
 **Purrfect Execution**, a playful yet unmistakably intimidating name, is the title of the razor-sharp mechanical claw wielded by Raora Panthera on her journey through Libestal.
 
-### <u>Ability and Story</u>
+## Detail
 
 Raora is a panther — a _pink_ one at that. Fierce, relentless, and full of sass. She runs on coffee, harbors a deep disdain for tea, and was once a proud agent of Justice... until her memories were lost and she entered a chaotic rivalry with Tam, boldly crowning herself “Queen Mario.”
 
