@@ -71,11 +71,3 @@ When does a knight bend the knee?
 ["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
 
 ["What could've been" by Keisea](https://x.com/Keiseeaaa/status/1920620111464992799)
-
-
-
-
-
-When Elizabeth discovers Nerissa is in a witches' coven with Shiori and Bijou. It leaves a foul taste in the mouth of the knight. It's in this moment that she declares Nerissa is not a witch.
-
-The two quickly stop by Queen Tam Gandr’s, where Nerissa commits breaking and entering right in front of Elizabeth. The knight chides the princess, jesting, "Maybe you should be a vampire, so you'll follow the rules!"
