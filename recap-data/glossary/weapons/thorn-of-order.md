@@ -1,4 +1,4 @@
-<!-- title: Thorn -->
+<!-- title: Thorn Of Order -->
 <!-- quote: Welcome to the world of stability and harmony! -->
 <!-- chapter: 0 -->
 <!-- images: (Elizabeth's first time wielding Thorn), (Thorn as viewed from the inventory), (Thorn's ability activated) -->

@@ -368,27 +368,27 @@
     "modelSrc": "/models/shining-emotions.glb"
   },
   {
-    "id": "thorn",
-    "title": "Thorn",
+    "id": "thorn-of-order",
+    "title": "Thorn Of Order",
     "chapter": 0,
     "quote": "Welcome to the world of stability and harmony!",
     "content": "## Overvie\n\n**Thorn**, a greatsword, a claymore — or in simpler terms, a _really_ big sword — stands out as one of the most striking weapons among all the heroes, purely due to its overwhelming size. Naturally, only a knight as noble as Elizabeth Rose Bloodflame could wield such a formidable blade.\n\n## Detail\n\nIf there’s anyone most deserving of a sword, it’s Elizabeth. The Scarlet Queen, the Harbinger of Order, the leader of Justice — titles once belonging to her before her memories faded. Yet even without recollection of her former self, the crimson knight’s chivalry remains unwavering, as she continues to fight for righteousness throughout her journey in Libestal (despite constantly getting teased by a self-proclaimed queen and a very mischievous witch).\n\nUpon activation, Thorn unleashes a sweeping lateral strike followed by a powerful explosion. It’s a simple move — but one that speaks volumes through sheer force.\n\n[For honour!](#embed:https://www.youtube.com/live/oVguNTPnDww?si=XWIrWAhx_Nv0aR13&t=1433)",
-    "thumbnailSrc": "/images-opt/thorn-thumb.webp",
+    "thumbnailSrc": "/images-opt/thorn-of-order-thumb.webp",
     "galleryImages": [
       {
         "title": "Elizabeth's first time wielding Thorn",
-        "source": "/images-opt/thorn-0.webp"
+        "source": "/images-opt/thorn-of-order-0.webp"
       },
       {
         "title": "Thorn as viewed from the inventory",
-        "source": "/images-opt/thorn-1.webp"
+        "source": "/images-opt/thorn-of-order-1.webp"
       },
       {
         "title": "Thorn's ability activated",
-        "source": "/images-opt/thorn-2.webp"
+        "source": "/images-opt/thorn-of-order-2.webp"
       }
     ],
-    "modelSrc": "/models/thorn.glb"
+    "modelSrc": "/models/thorn-of-order.glb"
   },
   {
     "id": "violet-miasma",
