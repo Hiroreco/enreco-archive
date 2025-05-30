@@ -255,17 +255,21 @@ td {
     @apply bg-muted-foreground;
 }
 
+::-webkit-scrollbar:horizontal {
+    height: 4px;
+}
+
 /* Putting these here for now cause Items.css doesn't work */
 .items-card {
-    @apply w-full h-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
 }
 
 .content-container {
-    @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
+    @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border shadow-lg;
 }
 
 @media (min-width: 768px) {
     .md-content-container {
-        @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border border-white/20 shadow-lg;
+        @apply p-4 rounded-lg bg-background/10 backdrop-blur-md border shadow-lg;
     }
 }

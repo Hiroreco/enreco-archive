@@ -1,6 +1,7 @@
 import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
 import ViewLightbox from "@/components/view/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { CommonItemData } from "@enreco-archive/common/types";
 
 interface ViewItemViewerProps {
@@ -9,15 +10,24 @@ interface ViewItemViewerProps {
 
 const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     return (
-        <div className="flex flex-col items-center md:items-baseline overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 relative h-full px-2">
+        <div className="flex flex-col items-center overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 h-full px-2">
             <div className="w-[250px]">
                 <p className="font-bold text-center">Model Viewer</p>
                 <div className="w-full h-[250px]">
                     {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
                     )}
+                    {item.imageSrc && (
+                        <ViewLightbox
+                            src={item.imageSrc}
+                            alt={item.title}
+                            className="object-cover h-[250px] w-full"
+                            width={250}
+                            height={250}
+                        />
+                    )}
                 </div>
-                <div className="mt-4 w-full">
+                <div className="mt-4 w-full text-center">
                     <p className="text-center underline underline-offset-2 font-semibold">
                         {item.title}
                     </p>
@@ -40,9 +50,12 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-4 h-full">
+            <Separator className="md:hidden" />
+
+            <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)]">
                 <div className="w-full grow md:overflow-y-auto md-content-container">
                     <ViewMarkdown
+                        className="p-2"
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}
                     >
@@ -50,18 +63,17 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                     </ViewMarkdown>
                 </div>
 
-                <div className="shrink-0 flex overflow-x-auto w-full content-container">
+                <Separator />
+
+                <div className="shrink-0 flex overflow-x-scroll w-full content-container scrollb">
                     {item.galleryImages.map((image, index) => (
                         <ViewLightbox
                             key={index}
                             width={178}
                             height={100}
-                            src={image.source.replace(
-                                ".webp",
-                                "-thumbnail.webp",
-                            )}
+                            src={image.source.replace(".webp", "-thumb.webp")}
                             alt={image.title || "Gallery image"}
-                            className="rounded-lg h-[100px] w-[178px] object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all mr-2"
+                            className="h-[100px] aspect-video rounded-lg object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all mr-2"
                             galleryImages={item.galleryImages.map((img) => ({
                                 src: img.source,
                                 alt: img.title || "Gallery image",

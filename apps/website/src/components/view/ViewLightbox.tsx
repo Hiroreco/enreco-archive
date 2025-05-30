@@ -10,7 +10,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import Image from "next/image";
-import { memo, useState } from "react";
+import { memo, useState, useRef, useEffect, useCallback } from "react";
 
 interface GalleryImage {
     src: string;
@@ -41,35 +41,90 @@ const ViewLightbox = ({
     const [isOpen, setIsOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(galleryIndex);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
+    const carouselRef = useRef<HTMLDivElement>(null);
+    const thumbnailRefs = useRef<(HTMLDivElement | null)[]>([]);
 
     const images = galleryImages || [{ src, alt }];
 
-    const handleOpenChange = (open: boolean) => {
-        setIsOpen(open);
-        if (open) {
-            // Reset to initial index when opening
-            setCurrentImageIndex(galleryIndex);
-        }
-    };
+    const handleOpenChange = useCallback(
+        (open: boolean) => {
+            setIsOpen(open);
+            if (open) {
+                // Reset to initial index when opening
+                setCurrentImageIndex(galleryIndex);
+            }
+        },
+        [galleryIndex],
+    );
 
-    const handleNext = () => {
+    const handleNext = useCallback(() => {
         setCurrentImageIndex((prev) => (prev + 1) % images.length);
-    };
+    }, [images.length]);
 
-    const handlePrev = () => {
+    const handlePrev = useCallback(() => {
         setCurrentImageIndex(
             (prev) => (prev - 1 + images.length) % images.length,
         );
-    };
+    }, [images.length]);
 
     const handleThumbnailClick = (index: number) => {
         setCurrentImageIndex(index);
     };
 
+    // Center the selected thumbnail when it changes
+    useEffect(() => {
+        if (
+            isOpen &&
+            thumbnailRefs.current[currentImageIndex] &&
+            carouselRef.current
+        ) {
+            const thumbnail = thumbnailRefs.current[currentImageIndex];
+            const carousel = carouselRef.current;
+
+            // Calculate the scroll position to center the thumbnail
+            const thumbnailLeft = thumbnail!.offsetLeft;
+            const thumbnailWidth = thumbnail!.offsetWidth;
+            const carouselWidth = carousel.offsetWidth;
+
+            const scrollPosition =
+                thumbnailLeft - carouselWidth / 2 + thumbnailWidth / 2;
+
+            carousel.scrollTo({
+                left: scrollPosition,
+                behavior: "smooth",
+            });
+        }
+    }, [currentImageIndex, isOpen]);
+
+    // Handle keyboard navigation
+    useEffect(() => {
+        if (!isOpen) return;
+
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "ArrowLeft") {
+                handlePrev();
+            } else if (e.key === "ArrowRight") {
+                handleNext();
+            } else if (e.key === "Escape") {
+                handleOpenChange(false);
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [isOpen, handlePrev, handleNext, handleOpenChange]);
+
+    // Initialize thumbnail refs array
+    useEffect(() => {
+        thumbnailRefs.current = thumbnailRefs.current.slice(0, images.length);
+    }, [images.length]);
+
     const currentImage = images[currentImageIndex];
 
     return (
-        <div>
+        <div className={className}>
             <Image
                 src={src}
                 alt={alt}
@@ -111,7 +166,7 @@ const ViewLightbox = ({
                         <X className="size-full" />
                     </button>
 
-                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[95vw] aspect-video">
+                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[95vw] max-h-[60vh] flex items-center justify-center">
                         {images.length > 1 && (
                             <>
                                 <button
@@ -130,32 +185,48 @@ const ViewLightbox = ({
                                 </button>
                             </>
                         )}
-                        <Image
-                            src={currentImage.src}
-                            alt={currentImage.alt}
-                            fill
-                            className="object-cover"
-                            placeholder={
-                                getBlurDataURL(currentImage.src)
-                                    ? "blur"
-                                    : "empty"
-                            }
-                            blurDataURL={getBlurDataURL(currentImage.src)}
-                        />
+                        <div className="relative w-full h-full min-h-[300px] flex items-center justify-center">
+                            <Image
+                                src={currentImage.src}
+                                alt={currentImage.alt}
+                                className="object-contain max-h-[60vh] max-w-full"
+                                placeholder={
+                                    getBlurDataURL(currentImage.src)
+                                        ? "blur"
+                                        : "empty"
+                                }
+                                blurDataURL={getBlurDataURL(currentImage.src)}
+                                width={1200}
+                                height={1200}
+                                sizes="(max-width: 768px) 95vw, (max-width: 1024px) 80vw, 60vw"
+                                style={{ width: "auto", height: "auto" }}
+                            />
+                        </div>
                     </div>
 
-                    <div className="flex flex-col gap-2 w-full">
+                    <div className="flex flex-col gap-2 max-w-full">
                         <span className="text-white text-center font-semibold text-sm md:text-lg">
                             {currentImage.alt}
                         </span>
 
                         {images.length > 1 && (
-                            <div className="flex justify-center gap-2 overflow-x-auto py-2 max-w-full">
+                            <div
+                                ref={carouselRef}
+                                className="flex justify-start gap-2 overflow-x-auto py-2 px-4 max-w-full scroll-smooth"
+                                style={{
+                                    scrollbarWidth: "thin",
+                                    scrollbarColor:
+                                        "rgba(255,255,255,0.3) transparent",
+                                }}
+                            >
                                 {images.map((image, index) => (
                                     <div
                                         key={index}
+                                        ref={(el) => {
+                                            thumbnailRefs.current[index] = el;
+                                        }}
                                         className={cn(
-                                            "relative h-16 w-28 cursor-pointer transition-all duration-200 border-2 rounded-md overflow-hidden",
+                                            "relative h-16 w-28 shrink-0 cursor-pointer transition-all duration-200 border-2 rounded-md overflow-hidden",
                                             index === currentImageIndex
                                                 ? "border-white opacity-100 scale-105"
                                                 : "border-gray-500/50 opacity-70 hover:opacity-90",
@@ -181,6 +252,11 @@ const ViewLightbox = ({
                                         />
                                     </div>
                                 ))}
+
+                                {/* Simple image counter */}
+                                <div className="absolute bottom-2 right-4 bg-black/50 text-white text-xs px-2 py-1 rounded-full">
+                                    {currentImageIndex + 1} / {images.length}
+                                </div>
                             </div>
                         )}
                     </div>

@@ -10,11 +10,11 @@ interface ItemSelectorProps {
 const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
     return (
         <div
-            className="content-container w-full h-[100px] flex items-center gap-2 cursor-pointer hover:bg-accent hover:text-primary-foreground transition-all"
+            className="py-2 px-4 rounded-lg bg-background/10 backdrop-blur-md border shadow-lg w-full h-[100px] flex items-center gap-2 cursor-pointer hover:bg-accent hover:text-primary-foreground transition-all"
             onClick={onItemClick ? () => onItemClick(item) : undefined}
         >
             <Image
-                className="h-[100px] w-[100px] object-cover"
+                className="h-[80px] w-[80px] object-cover"
                 src={item.thumbnailSrc}
                 alt={item.title}
                 height={100}

@@ -1,10 +1,12 @@
 import { CommonItemData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
-import { ChefHat, ChevronLeft, Sword } from "lucide-react";
+import { Castle, ChefHat, ChevronLeft, Sword } from "lucide-react";
 import { ReactElement, useEffect, useState } from "react";
 
 import weapons from "#/glossary/weapons.json";
 import hats from "#/glossary/hats.json";
+import dungeons from "#/glossary/dungeons.json";
+
 import {
     Card,
     CardContent,
@@ -27,6 +29,7 @@ import {
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 
 interface ViewGlossaryCardProps {
     className: string;
@@ -49,6 +52,11 @@ const categoryMap: {
         label: "Hats",
         icon: <ChefHat />,
     },
+    "cat-dungeons": {
+        data: dungeons,
+        label: "Dungeons",
+        icon: <Castle />,
+    },
 };
 
 const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
@@ -56,7 +64,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
         null,
     );
 
-    const [selectedCategory, setSelectedCategory] = useState("cat-hats");
+    const [selectedCategory, setSelectedCategory] = useState("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
     const [filteredData, setFilteredData] = useState<CommonItemData[]>([]);
 
@@ -71,17 +79,18 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
-            <CardHeader>
-                <CardTitle className="flex justify-between items-center gap-2">
-                    <div className="flex gap-1">
+            <CardHeader className="pb-0 px-4">
+                <div className="flex flex-row items-center m-0 space-y-0 w-full justify-between">
+                    <CardTitle className="flex m-0 justify-between items-center h-full gap-2">
                         {selectedItem !== null && (
                             <ChevronLeft
+                                size={16}
                                 className="cursor-pointer"
                                 onClick={() => setSelectedItem(null)}
                             />
                         )}
                         {categoryMap[selectedCategory].label}
-                    </div>
+                    </CardTitle>
 
                     <Select
                         value={selectedChapter.toString()}
@@ -89,7 +98,11 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             setSelectedChapter(parseInt(value))
                         }
                     >
-                        <SelectTrigger className="w-[180px]">
+                        <SelectTrigger
+                            className={cn("w-[180px]", {
+                                invisible: selectedItem !== null,
+                            })}
+                        >
                             <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
@@ -104,9 +117,11 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             ))}
                         </SelectContent>
                     </Select>
-                </CardTitle>
+                </div>
+
+                <Separator className="my-2" />
             </CardHeader>
-            <CardContent className="h-[65vh] sm:h-[75vh] p-4 overflow-y-auto">
+            <CardContent className="h-[65vh] sm:h-[70vh] px-4 mt-2 overflow-y-auto">
                 <AnimatePresence mode="wait">
                     {selectedItem === null && (
                         <motion.div
@@ -114,7 +129,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="p-2 overflow-x-hidden  overflow-y-auto grid sm:grid-cols-2 lg:grid-cols-3 place-items-start gap-4"
+                            className="overflow-x-hidden overflow-y-auto grid sm:grid-cols-2 lg:grid-cols-3 place-items-start gap-4"
                         >
                             {filteredData.map((item) => (
                                 <ViewItemSelector
@@ -145,7 +160,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     )}
                 </AnimatePresence>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="p-0 pb-4">
                 <Tabs
                     className="m-auto"
                     value={selectedCategory}
@@ -154,7 +169,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                         setSelectedItem(null);
                         setSelectedChapter(-1);
                     }}
-                    defaultValue="cat-weapons"
+                    defaultValue={selectedCategory}
                 >
                     <TabsList>
                         {Object.keys(categoryMap).map((category) => (

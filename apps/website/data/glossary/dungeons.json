@@ -1,0 +1,29 @@
+[
+  {
+    "id": "star-site-elpis",
+    "title": "Star Site: Elpis",
+    "chapter": 1,
+    "quote": "Your one true idol, now sit back and enjoy the show!",
+    "content": "## Overview\n\n**Star Site: Elpis** marked the first major dungeon tackled by the heroes in Chapter 2, and the first of the three key dungeons in this arc. Within its walls resided the fragmented memories of IRyS—the embodiment of hope and despair.\n\n## Details\n\n### Puzzles\n\nDesigned for a group of four, the dungeon splits the party into two teams: the **Angelic Side** and the **Demonic Side**, who must cooperate to solve a series of puzzles in order to progress.\n\n**First Puzzle**\n\nThe Angelic Side is presented with a [circle of red blocks](https://www.youtube.com/live/axlJjQQ_rzU?si=MAqpJXpQJXmj2K6e&t=3573) topped with buttons. Pressing a button changes the block's color to blue. These colors must be matched to the Demonic Side, where red and blue [campfires](https://www.youtube.com/live/NSOuyMjCxPI?si=03CadFAr7PQ8DJvd&t=4524) are also arranged in a circle.\n\n**Second Puzzle**\n\nThe Angelic Side is given a [movable block](https://www.youtube.com/live/axlJjQQ_rzU?si=DDnmLpQW0CXpggdp&t=3694), which must be pushed through a floor-based puzzle according to a [maze map](https://www.youtube.com/live/NSOuyMjCxPI?si=wgLETZiPN-WpX7qy&t=4666) only visible on the Demonic Side.\n\n- A small rectangular tutorial map introduces the mechanic.\n- The main puzzle features a larger maze on the Demonic Side, while the Angelic Side sees a circular area with colored blocks on the ground.\n- **Note:** Pushing the block onto a tile made of black and red terracotta unlocks a secret door at the end of the dungeon containing a [music disc](https://www.youtube.com/live/A97SrozF36w?si=zNzhwalpOc_S6Tu_&t=7429).\n\n**Third Puzzle**\n\nNow floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273) through it. The Demonic Side assists by standing on specific [floor tiles](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227), which create temporary platforms to help their teammates across.\n\nAfter completing the final puzzle, both teams reunite to face the dungeon boss: **Stain King Elpis**, a two-headed dragon.\n\n[Stain King Elpis Fight](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=imMOupLj1UxTJV2C&t=5896)\n\n### Rewards\n\n- **\"Caesura of Despair\"** – a music disc by IRyS\n- **Memories of IRyS**\n\n[Recolletion - IRyS](#embed:https://www.youtube.com/watch?v=5uaWaQg4pnM)\n\n### Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1919701535896043963/photo/1)",
+    "thumbnailSrc": "/images-opt/star-site-elpis-thumb.webp",
+    "galleryImages": [
+      {
+        "title": "Star Site: Elpis Overview #1",
+        "source": "/images-opt/star-site-elpis-0.webp"
+      },
+      {
+        "title": "Star Site: Elpis Overview #2",
+        "source": "/images-opt/star-site-elpis-1.webp"
+      },
+      {
+        "title": "Star Site: Elpis Overview #3",
+        "source": "/images-opt/star-site-elpis-2.webp"
+      },
+      {
+        "title": "Star Site: Elpis Overview #4",
+        "source": "/images-opt/star-site-elpis-3.webp"
+      }
+    ],
+    "imageSrc": "/images-opt/star-site-elpis.webp"
+  }
+]

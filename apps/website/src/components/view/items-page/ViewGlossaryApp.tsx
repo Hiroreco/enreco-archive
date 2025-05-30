@@ -16,8 +16,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
-            <h1>Glossary</h1>
-            <ViewGlossaryCard className="h-[80dvh] max-w-[900px] mx-auto mt-2" />
+            <ViewGlossaryCard className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2" />
 
             {/* Pretty much the same as ViewApp from here on */}
             <ViewInfoModal
@@ -45,7 +44,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
             <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
                 <IconButton
                     id="info-btn"
-                    className="h-10 w-10 p-1"
+                    className="h-10 w-10 p-1 hidden md:block"
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
@@ -67,7 +66,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
 
                 <IconButton
                     id="minigames-btn"
-                    className="h-10 w-10 p-1"
+                    className="h-10 w-10 p-1 hidden md:block"
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
