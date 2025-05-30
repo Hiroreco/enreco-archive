@@ -8,7 +8,7 @@ After clearing the dungeon, Gonathon’s day only grew more eventful. A surprisi
 
 The day's events were far from over. Joined by his guildmates, Gonathon reported recent kingdom happenings to Queen Tam Gandr, including a scam orchestrated by the Scarlet Wand guild involving fraudulent [lottery tickets](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=5324). At the quest board, while seeking more information about the scam from Shakira, the group encountered Elizabeth, sparking immediate tension. Cerulean Cup braced for confrontation.
 
-A duel was proposed, and the Hot Pink One volunteered to fight in her Tam's [stead](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=5963). Amidst these antics, Cecilia ~~stole~~ asked Gonathon if he were able to lend her 50 coins, after ~~lying~~ saying she was Jyon's guildmate, to which Gonathon, representing that of empathy, did exactly just that. The loan was never [repaid](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=6001).
+A duel was proposed, and the Hot Pink One volunteered to fight in her Tam's [stead](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=5963). Amidst these antics, Cecilia ~~stole~~ asked Gonathon if he were able to lend her 50 coins, ~~lying~~ saying she was Jyon's guildmate. Representing empathy, Gonathon did exactly that. The loan was never [repaid](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=6001).
 
 The duel concluded with a victory for the Hot Pink One, allowing everyone to continue with their day. Gonathon, ever the romantic after his whirlwind marriage, encouraged Bijou to confess her feelings to Shiori. She did, and the confession culminated in another accepted marriage—love seemed to be the theme of the day.
 

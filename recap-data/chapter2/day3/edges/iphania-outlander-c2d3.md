@@ -6,4 +6,4 @@ The Princess pondered stepping aside, letting the heroes take on the mantle inst
 
 And so, the Princess gave them their next task: to investigate the next Star Site. Perhaps, within it, lay the answers they were all searching for.
 
-[What comes next](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=UABlcxchRxHiGh_d&t=7144)
+[What comes next?](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=UABlcxchRxHiGh_d&t=7144)
