@@ -3,6 +3,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { MouseEvent } from "react";
+import { useShallow } from "zustand/shallow";
 
 export type HrefType = "embed" | "general";
 
@@ -20,25 +21,25 @@ const TimestampHref = ({
     caption,
     ...rest
 }: TimestampHrefProps) => {
-    const settingStore = useSettingStore();
-    const viewStore = useViewStore();
-    const audioStore = useAudioStore();
+    const timestampOption = useSettingStore(state => state.timestampOption);
+    const [ openVideoModal, setVideoUrl ] = useViewStore(useShallow(state => [state.modal.openVideoModal, state.modal.setVideoUrl]));
+    const [ playBGM, pauseBGM ] = useAudioStore(useShallow(state => [ state.playBGM, state.pauseBGM ]));
     const timestampHandler = async (
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
     ) => {
         event.preventDefault();
-        audioStore.pauseBGM();
+        pauseBGM();
 
-        if (settingStore.timestampOption === "modal") {
-            viewStore.setOpenModal("video");
-            viewStore.setVideoUrl(timestampUrl);
-        } else if (settingStore.timestampOption === "tab") {
+        if (timestampOption === "modal") {
+            openVideoModal();
+            setVideoUrl(timestampUrl);
+        } else if (timestampOption === "tab") {
             window.open(timestampUrl, "_blank");
             // Visibility change listener when user switches tabs
             const handleVisibilityChange = () => {
                 if (document.visibilityState === "visible") {
-                    audioStore.playBGM();
+                    playBGM();
                     document.removeEventListener(
                         "visibilitychange",
                         handleVisibilityChange,

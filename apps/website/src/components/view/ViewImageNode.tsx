@@ -5,7 +5,7 @@ import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { memo, useContext, useMemo } from "react";
-import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
+import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 const NUM_OF_HANDLES = 5;
 
@@ -42,7 +42,7 @@ const generateHandles = (numOfHandles: number) => [
 ];
 
 const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
-    const { teams } = useContext(CurrentChartDataContext);
+    const { teams } = useContext(CurrentChapterDataContext);
 
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {

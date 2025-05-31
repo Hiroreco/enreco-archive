@@ -1,9 +1,10 @@
 import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { memo, useEffect, useMemo, useRef, useState } from "react";
+import { memo, useContext, useEffect, useMemo, useRef, useState } from "react";
 
 import "@/components/view/ViewCustomEdge.css";
+import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 const ViewCustomEdge = ({
     id,
@@ -27,6 +28,8 @@ const ViewCustomEdge = ({
         width: 0,
         height: 0,
     });
+
+    const { relationships } = useContext(CurrentChapterDataContext);
     
     const path = useMemo(
         () =>
@@ -64,6 +67,8 @@ const ViewCustomEdge = ({
             });
         }
     }, []);
+
+    const relationshipStyle = data ? relationships[data?.relationshipId].style : {};
     
     return (
         <>
@@ -109,6 +114,7 @@ const ViewCustomEdge = ({
                 ref={pathRef}
                 d={path}
                 style={{
+                    ...relationshipStyle,
                     ...style,
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
                     zIndex: 0

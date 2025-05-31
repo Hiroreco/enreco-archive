@@ -21,14 +21,21 @@ import { Slider } from "@enreco-archive/common-ui/components/slider";
 import { TimestampOption, useSettingStore } from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
+import { useCallback } from "react";
 
 interface ViewSettingsModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
 }
 
-const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
+const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
     const settingStore = useSettingStore();
+
+    const onOpenChange = useCallback((open: boolean) => {
+        if(!open) {
+            onClose();
+        }
+    }, [onClose]);
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>

@@ -5,7 +5,6 @@ import {
     FitViewOperation,
     FixedEdgeType,
     ImageNodeType,
-    StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import {
     ConnectionMode,
@@ -79,7 +78,6 @@ const proOptions = { hideAttribution: true };
 interface Props {
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
-    edgeVisibility: StringToBooleanObjectMap;
     selectedNode: ImageNodeType | null;
     selectedEdge: FixedEdgeType | null;
     widthToShrink: number;
@@ -93,7 +91,6 @@ interface Props {
     onNodeClick: (node: ImageNodeType) => void;
     onEdgeClick: (edge: FixedEdgeType) => void;
     onPaneClick: () => void;
-    day: number;
     currentCard: CardType;
     previousCard: CardType;
 }
@@ -101,7 +98,6 @@ interface Props {
 function ViewChart({
     nodes,
     edges,
-    edgeVisibility,
     selectedNode,
     selectedEdge,
     widthToShrink,
@@ -111,7 +107,6 @@ function ViewChart({
     onNodeClick,
     onEdgeClick,
     onPaneClick,
-    day,
     currentCard,
     previousCard,
 }: Props) {
@@ -215,13 +210,8 @@ function ViewChart({
 
     const onEdgeClickHandler: EdgeMouseHandler<FixedEdgeType> =
         useCallback((_, edge: FixedEdgeType) => {
-            // Disable edge selection on if is old edge and only show new is true
-            if (edge.data?.day !== day && edgeVisibility["new"]) {
-                return;
-            }
-
             onEdgeClick(edge);
-        }, [day, edgeVisibility, onEdgeClick]);
+        }, [onEdgeClick]);
 
     const onPaneClickHandler = useCallback(() => {
         if (isCardOpen && (previousCard === "setting" || settingStore.autoPanBack)) {

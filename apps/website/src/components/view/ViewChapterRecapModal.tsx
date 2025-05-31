@@ -8,7 +8,7 @@ import {
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import data from "#/chapter-recaps.json";
 import { Section } from "@/components/view/ViewChapterRecapToolbar";
@@ -18,7 +18,7 @@ import { Button } from "@enreco-archive/common-ui/components/button";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     currentChapter: number;
 }
 
@@ -34,7 +34,7 @@ function extractSections(content: string): Section[] {
 
 const ViewChapterRecapModal = ({
     open,
-    onOpenChange,
+    onClose,
     currentChapter,
 }: ViewChapterRecapModalProps) => {
     const validCurrentChapter = currentChapter < data.chapters.length;
@@ -54,6 +54,12 @@ const ViewChapterRecapModal = ({
     );
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
     const activeSection = useScrollSpy(sectionIds);
+
+    const onOpenChange = useCallback((open: boolean) => {
+        if(!open) {
+            onClose();
+        }
+    }, [onClose]);
 
     // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {
