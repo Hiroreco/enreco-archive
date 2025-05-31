@@ -14,7 +14,7 @@ And right as she stepped out of the dungeon, Gonathon—who was on a different t
 
 He was kind, honest, and pure—everything she admired. And she knew that if she didn’t make a move soon, her chance might slip away. So, upon learning that Shakira had arranged a [blind date](https://www.youtube.com/live/l9VpZ0kmpeY?si=I8E4D1s69cbSEPwP&t=6398) for Gonathon, she approached the phoenix and, in her classic tsundere manner, asked to take the mystery slot.
 
-But that seat was already filled. Due to a major misunderstanding, Shakira had placed Mordon in the date slot, believing she had feelings for Gonathon.
+But that seat was already filled. Due to a major misunderstanding, Shakira had placed Mordan in the date slot, believing she had feelings for Gonathon.
 
 Still, Shiori wasn’t one to give up so easily. She had a plan: crash the date and steal Gonathon’s heart.
 
