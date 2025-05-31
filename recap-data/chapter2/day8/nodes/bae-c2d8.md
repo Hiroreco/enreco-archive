@@ -4,7 +4,7 @@ But it seemed peace wasn't felt by all—Queen Tammy and... Oh, it's [The Hot Pi
 
 And speaking of fresh air, Fuwawa, the blessing that she truly is in this world, shared some of [her wonderful cooking with Bae.](https://youtu.be/NL8O6nH1UE0?t=390) Though Bae would have to wait to eat the tart, she was nonetheless enthused by the gift.
 
-An auction! After days of preparation, Mordan Ramsay's auction was finally underway. Eyeing one house, Bae offered her price... [a joke!](https://youtu.be/NL8O6nH1UE0?t=637) All seemed jolly, but it seemed the occasion left Ina the Hero in a dour mood. In a grave *InaJustice*, [Ina's design](https://youtu.be/NL8O6nH1UE0?t=719), the architectural design of her own home, was stolen! The chef had copied Ina's house, from the bricks used to the window design. Seeing this unfold, Bae quickly stepped in and added a title to her name. (And another line to the *chart*.)
+An auction! After days of preparation, Mordan Ramsey's auction was finally underway. Eyeing one house, Bae offered her price... [a joke!](https://youtu.be/NL8O6nH1UE0?t=637) All seemed jolly, but it seemed the occasion left Ina the Hero in a dour mood. In a grave *InaJustice*, [Ina's design](https://youtu.be/NL8O6nH1UE0?t=719), the architectural design of her own home, was stolen! The chef had copied Ina's house, from the bricks used to the window design. Seeing this unfold, Bae quickly stepped in and added a title to her name. (And another line to the *chart*.)
 
 [Lawyer The Bae](#embed:https://youtu.be/NL8O6nH1UE0?t=847)
 

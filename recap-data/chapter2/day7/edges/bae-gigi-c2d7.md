@@ -10,7 +10,7 @@ Alas, it was not to be, for the zealous green one was dead set on remaining in t
 
 In the throes of despair, Bae drowned herself in the river, mirroring events that transpired before, but instead of Cecilia, it was Bae, and instead of Bae, there was Gonathan. Leaping into action, Gonathon begged Bae to reconsider, and in between many bouts of kissing the depths together, Gonathon implored Bae to choose life, for as one whom love had also cursed, she knew all too well the pain of losing it.
 
-And just as Bae cared for Cecilia, Gonathan cared, platonically, for Bae; the good knight following her without rest in a camaraderie few would ever have in this world. Through the waters, through Mordan Ramsay having the most atrocious timing in this dramatic moment, Gonathan was there. Gonathan blamed himself, but Bae couldn't bear that. Bae reassured Gonathan that they all knew Cecilia's lover for the Princess. Gonathan shouldn't carry a burden when the truth was known to all.
+And just as Bae cared for Cecilia, Gonathan cared, platonically, for Bae; the good knight following her without rest in a camaraderie few would ever have in this world. Through the waters, through Mordan Ramsey having the most atrocious timing in this dramatic moment, Gonathan was there. Gonathan blamed himself, but Bae couldn't bear that. Bae reassured Gonathan that they all knew Cecilia's lover for the Princess. Gonathan shouldn't carry a burden when the truth was known to all.
 
 [My Brother.](https://youtu.be/Br6dvhVJ_IE?t=5214)
 

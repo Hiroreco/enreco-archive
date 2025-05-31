@@ -10,7 +10,7 @@ Then, out of nowhere, Tam confessed that she “quite liked” Ina—right in fr
 
 What?
 
-Then somehow, this spiraled into Ina and Tam having an impromptu therapy session at Mordon’s place. There, they vented—about how the pink one had hurt them both and about how Ina bonding with Tam would make things incredibly messy, considering Tam was Bijou’s mother and Bijou was Ina’s sister. So if you start connecting the dots...
+Then somehow, this spiraled into Ina and Tam having an impromptu therapy session at Mordan’s place. There, they vented—about how the pink one had hurt them both and about how Ina bonding with Tam would make things incredibly messy, considering Tam was Bijou’s mother and Bijou was Ina’s sister. So if you start connecting the dots...
 
 Yeah. What is even happening?
 

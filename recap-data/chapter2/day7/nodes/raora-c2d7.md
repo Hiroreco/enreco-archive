@@ -8,7 +8,7 @@ Distracted and flustered, Roa answered. She reassured Elizabeth that she was fin
 
 However, fate was cruel—Roa saw Elizabeth with [Nerissa](https://youtu.be/m2OG5auudrQ?t=781); they even shared a room. [Nerissa's rather catty comeback](https://youtu.be/m2OG5auudrQ?t=823) pushed her over the edge, and despite Elizabeth’s comfort, Roa fled, calling Nerissa a witch.
 
-But the determination, the delusion, was too strong, as Roa refused to give up on Elizabeth. Anger still coursed through her as she left for the Remnant fields to once again fight the Stains. Another session to destress. Only for it to come back when Nerissa was nearby. Luckily, so was [Mordan Ramsay, who offered free therapy](https://youtu.be/m2OG5auudrQ?t=1407) to help Roa calm down.
+But the determination, the delusion, was too strong, as Roa refused to give up on Elizabeth. Anger still coursed through her as she left for the Remnant fields to once again fight the Stains. Another session to destress. Only for it to come back when Nerissa was nearby. Luckily, so was [Mordan Ramsey, who offered free therapy](https://youtu.be/m2OG5auudrQ?t=1407) to help Roa calm down.
 
 [Oh, it's so cute!](https://youtu.be/m2OG5auudrQ?t=1786)
 

@@ -1,6 +1,6 @@
 The events of yesterday were hazy in Shiori's mind, a strange feeling for someone such as her. Normally, she would be keen on the details, as a writer should, of course, but for now she felt... odd. Perhaps it was due to the quietness in the morning, or perhaps it was because today is their penultimate day in Libestal, and tomorrow's outcome depended on today's success.
 
-Nonetheless, there was work to be done. As Shiori checked her shop, she noted that Mordan Ramsay had bought [something earlier](https://youtu.be/mb91g7vQSnA?t=342), though, bemusingly, her items seemed to be untouched.
+Nonetheless, there was work to be done. As Shiori checked her shop, she noted that Mordan Ramsey had bought [something earlier](https://youtu.be/mb91g7vQSnA?t=342), though, bemusingly, her items seemed to be untouched.
 
 Shiori called Nerissa to talk and offered to bring some food as a courtesy, something simple. On her way to visit, Shiori saw Mordan constructing a few houses for an auction later on. It seemed that while the therapist-chef was still wary of Shiori, Mordan accepted the invitation to the party.
 

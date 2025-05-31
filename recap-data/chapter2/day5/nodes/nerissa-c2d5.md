@@ -12,13 +12,13 @@ She fought the [Outlander](https://www.youtube.com/live/m5VOeHvSgbI?si=wbEBqq7W5
 
 Nerissa couldn’t stop thinking about Elizabeth. It seemed like the red knight had been keeping her distance—ignoring her, brushing her off— and as soon as she noticed it, something inside Nerissa had begun to fracture. She _thought_ there was something between them. Something special. And now? Now she felt unwanted. Unseen.
 
-Desperate for clarity, she turned to Mordon for comfort. Therapy, really.
+Desperate for clarity, she turned to Mordan for comfort. Therapy, really.
 
 [Hi, so I'm emotionally devastated](https://www.youtube.com/live/m5VOeHvSgbI?si=Yoxf24-6Bl_RxZ_d&t=13280)
 
-She spilled everything—her frustration, her jealousy, her fears, her heartbreak. She admitted, openly, that she was in love with Lady Bloodflame. And surprisingly, Mordon didn’t laugh, didn’t push her away. She listened. She offered earnest advice, support, warmth. And for the first time that day, Nerissa felt the weight on her chest lift—if only a little.
+She spilled everything—her frustration, her jealousy, her fears, her heartbreak. She admitted, openly, that she was in love with Lady Bloodflame. And surprisingly, Mordan didn’t laugh, didn’t push her away. She listened. She offered earnest advice, support, warmth. And for the first time that day, Nerissa felt the weight on her chest lift—if only a little.
 
-It still hurt. Of course it did. But it was a start. She wrote it all down in her [journal](https://www.youtube.com/live/m5VOeHvSgbI?si=9RnBbuaougRXlp3M&t=14505) later—everything she couldn't say aloud. And though Mordon had gently encouraged her to confess her feelings, Nerissa wasn’t ready. Not yet.
+It still hurt. Of course it did. But it was a start. She wrote it all down in her [journal](https://www.youtube.com/live/m5VOeHvSgbI?si=9RnBbuaougRXlp3M&t=14505) later—everything she couldn't say aloud. And though Mordan had gently encouraged her to confess her feelings, Nerissa wasn’t ready. Not yet.
 
 Worn down both physically and emotionally, she wandered into the casino and started throwing her coins into the void. Coping mechanism? Absolutely. Sulking? Definitely. But could anyone blame her? The one person she admired most was suddenly out of reach, and the sting of that cut deeper than she expected. If things stayed this way, she wasn’t sure how much longer she could keep it up...
 

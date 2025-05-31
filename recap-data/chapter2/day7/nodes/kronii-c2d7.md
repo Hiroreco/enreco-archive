@@ -34,7 +34,7 @@ Queen Tam next found herself attending Shakira and Roa Pandora’s wedding in th
 
 Naturally, the ceremony wasn’t spared from drama. Queen Tam began implying that the “gas baby” was actually hers, which spiraled when Nino Ina claimed the child was born [from all three of them](https://youtu.be/CUh9eciJil4?t=5204). One could barely keep composure while chronicling these strange Libestan happenings.
 
-This hatched a plan in Queen Tam's mind. Why not just take Nino Ina for herself? She hired Mordon Ramsay to be her [wingman](https://youtu.be/CUh9eciJil4?t=5950) and set the plan in motion. Queen Tam and Mordon visited Nino Ina, and she [immediately began gaslighting](https://youtu.be/CUh9eciJil4?t=6034) her to think that she does not deserve to be saddled with HPO and her baggage. Finally, the Queen was in her element and seemed to have successfully planted the seeds of doubt.
+This hatched a plan in Queen Tam's mind. Why not just take Nino Ina for herself? She hired Mordan Ramsey to be her [wingman](https://youtu.be/CUh9eciJil4?t=5950) and set the plan in motion. Queen Tam and Mordan visited Nino Ina, and she [immediately began gaslighting](https://youtu.be/CUh9eciJil4?t=6034) her to think that she does not deserve to be saddled with HPO and her baggage. Finally, the Queen was in her element and seemed to have successfully planted the seeds of doubt.
 
 ["All according to keikaku."](#embed:https://youtu.be/CUh9eciJil4?t=6588)
 
@@ -42,6 +42,6 @@ Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](
 
 ["Why did I decide to love someone like you?"](https://youtu.be/CUh9eciJil4?t=7701)
 
-Before retiring for the day, Queen Tam visited Mordon Ramsay, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordon and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordon Ramsay gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.
+Before retiring for the day, Queen Tam visited Mordan Ramsey, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordan and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordan Ramsey gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.
 
 After writing in her journal and having a quick but [heartfelt reflection with Gonathon](https://youtu.be/CUh9eciJil4?t=9187) on what transpired that day, Queen Tam finally retired for the day.
