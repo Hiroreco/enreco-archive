@@ -1,8 +1,8 @@
 <!-- title: Not Again... -->
 
-If I had a nickel for every time Koseki Bijou randomly forced someone of Queenly status into becoming her mother—purely because she considered herself a princess, relation be damned—I’d have three nickels. Which isn’t a lot, but somehow, it’s still way more than it should be.
+If I had a nickel for every time Koseki Bijou randomly forced some queenly figure into becoming her mother—purely because she considered herself a princess, relation be damned—I’d have three nickels. Which isn’t a lot, but somehow, it’s still way more than it should be.
 
-And Tam by this point—was the third lucky (or unlucky) nickel in that bizarre collection.
+And Tam, by this point, was the third lucky (or unlucky) nickel in that bizarre collection.
 
 [Stepmom](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=etz5HD7bApu5gkq3&t=11936)
 
