@@ -6,18 +6,16 @@ import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewNodeCard from "@/components/view/ViewNodeCard";
 import ViewSettingCard from "@/components/view/ViewSettingCard";
 import {
-    FitViewOperation,
     FixedEdgeType,
     ImageNodeType,
     SiteData,
 } from "@enreco-archive/common/types";
-import { CardType, useViewStore } from "@/store/viewStore";
+import { useViewStore } from "@/store/viewStore";
 
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { isMobileViewport } from "@/lib/utils";
 import { Book, Dice6, Info, Settings } from "lucide-react";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
@@ -81,11 +79,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     const [hasVisitedBefore, setHasVisitedBefore] = usePersistedViewStore(useShallow(state => [state.hasVisitedBefore, state.setHasVisitedBefore]));
 
     const [chartShrink, setChartShrink] = useState(0);
-    const [fitViewOperation, setFitViewOperation] =
-        useState<FitViewOperation>("none");
-    const [doFitView, setDoFitView] = useState(true);
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
-    const [previousCard, setPreviousCard] = useState<CardType | null>(null);
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
@@ -109,7 +103,16 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         viewStoreVisibility.character[node.id]
                     );
 
-                    node.selected = node.id === viewStoreUi.selectedNode?.id;
+                    if(viewStoreUi.selectedNode) {
+                        node.selected = node.id === viewStoreUi.selectedNode.id;
+                    }
+                    else if(viewStoreUi.selectedEdge) {
+                        node.selected = (
+                            node.id === viewStoreUi.selectedEdge.target ||
+                            node.id === viewStoreUi.selectedEdge.source
+                        );
+                    }
+                    
                     node.data.isRead = getReadStatus(viewStoreData.chapter, viewStoreData.day, node.id);
                 }
             }
@@ -119,7 +122,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         resolvedData.nodes, 
         viewStoreData.chapter, 
         viewStoreData.day, 
-        viewStoreUi.selectedNode?.id, 
+        viewStoreUi.selectedEdge, 
+        viewStoreUi.selectedNode, 
         viewStoreVisibility.character, 
         viewStoreVisibility.team
     ]);
@@ -255,21 +259,11 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
     }
 
-    const refitView = useCallback((newCurrentCard: CardType) => {
-        // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit
-        // is called.
-        if (viewStoreUi.currentCard !== null || newCurrentCard === null || isMobileViewport()) {
-            setDoFitView(!doFitView);
-        }
-    }, [viewStoreUi.currentCard, doFitView])
-
     const onCardClose = useCallback(() => {
         viewStoreUi.clearSelectedNode();
         viewStoreUi.clearSelectedEdge();
         viewStoreUi.closeCard();
         setChartShrink(0);
-        setFitViewOperation("fit-to-all");
-        setPreviousCard(viewStoreUi.currentCard);
     },
         [viewStoreUi],
     );
@@ -278,29 +272,22 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         viewStoreUi.clearSelectedNode();
         viewStoreUi.clearSelectedEdge();
         viewStoreUi.openSettingsCard();
-        setFitViewOperation("fit-to-all");
-        setPreviousCard(viewStoreUi.currentCard);
-        refitView("setting");
     }
 
     const onNodeClick = useCallback((node: ImageNodeType) => {
             viewStoreUi.selectNode(node);
             viewStoreUi.clearSelectedEdge();
             viewStoreUi.openNodeCard();
-            setFitViewOperation("fit-to-node");
-            refitView("node");
         },
-        [refitView, viewStoreUi],
+        [viewStoreUi],
     );
 
     const onEdgeClick = useCallback((edge: FixedEdgeType) => {
             viewStoreUi.clearSelectedNode();
             viewStoreUi.selectEdge(edge);
             viewStoreUi.openEdgeCard();
-            setFitViewOperation("fit-to-edge");
-            refitView("edge");
         },
-        [refitView, viewStoreUi],
+        [viewStoreUi],
     );
 
     const getReadStatusHelper = (id?: string): boolean => {
@@ -332,11 +319,10 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             if (width !== chartShrink) {
                 setTimeout(() => {
                     setChartShrink(width);
-                    setDoFitView(!doFitView);
                 }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
             }
         },
-        [chartShrink, doFitView],
+        [chartShrink],
     );
 
     const currentChapterContextValue = useMemo(() => ({
@@ -372,6 +358,14 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
     }
 
+    let selectedElement = null;
+    if(viewStoreUi.selectedNode) {
+        selectedElement = viewStoreUi.selectedNode;
+    }
+    else if(viewStoreUi.selectedEdge) {
+        selectedElement = viewStoreUi.selectedEdge;
+    }
+    
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
@@ -379,17 +373,12 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     <ViewChart
                         nodes={completeNodes}
                         edges={completeEdges}
-                        selectedNode={viewStoreUi.selectedNode}
-                        selectedEdge={viewStoreUi.selectedEdge}
+                        selectedElement={selectedElement}
                         widthToShrink={chartShrink}
-                        isCardOpen={viewStoreUi.currentCard !== null}
-                        doFitView={doFitView}
-                        fitViewOperation={fitViewOperation}
+                        currentCard={viewStoreUi.currentCard}
                         onNodeClick={onNodeClick}
                         onEdgeClick={onEdgeClick}
                         onPaneClick={onCardClose}
-                        currentCard={viewStoreUi.currentCard}
-                        previousCard={previousCard}
                     />
                     <div
                         className={cn(
@@ -610,8 +599,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     numberOfDays={chapterData.numberOfDays}
                     currentCard={viewStoreUi.currentCard}
                     onChapterChange={(newChapter) => {
-                        setFitViewOperation("fit-to-all");
-                        setDoFitView(!doFitView);
+                        viewStoreUi.clearSelectedEdge();
+                        viewStoreUi.clearSelectedNode();
+                        viewStoreUi.closeCard();
                         changeWorkingData(newChapter, 0);
                     }}
                     onDayChange={(newDay) => {
