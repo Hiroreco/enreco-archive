@@ -10,7 +10,7 @@ The lady knight, yearning for more of her presence, stopped her from leaving, gi
 
 And so they did… however, it was already morning, so they had to postpone it till evening.
 
-Fate must have been too cruel, for it didn’t prove successful. Nerissa needed to gather some more ingredients, and when the sun finally gave way to the moon, she caught Elizabeth testing the fireworks with Rao Pandora.
+Fate must have been too cruel, for it didn’t prove successful. Nerissa needed to gather some more ingredients, and when the sun finally gave way to the moon, she caught Elizabeth testing the fireworks with Roa Pandora.
 
 Her heart has already grown cold. She shouldn't be affected any longer...
 

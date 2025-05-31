@@ -8,7 +8,7 @@ In the meanwhile, Mordan and the other newly unionized chefs banded together to 
 
 Back to the Therapy Stall once again! The tired therapist could only allude to Gonathon of the tragedy of the humble knight and his pearl in the hopes he grasps what true love *really* means. Surely, this would help lead him to remember...
 
-Mordan later joined Kiara, Rao, and Gonathon and swiftly finished the **Star Site: Chaos Dungeon**. After that, she defeats the Outlander in a duel with the power of her cooking.
+Mordan later joined Kiara, Roa, and Gonathon and swiftly finished the **Star Site: Chaos Dungeon**. After that, she defeats the Outlander in a duel with the power of her cooking.
 
 Mordan soon continued on her usual tasks. Building an onsen seemed to calm her down, but alas… a therapist’s job is never done. 
 

@@ -8,7 +8,7 @@ After being summoned by Nerissa, Queen Tam and all the heroes went to the Assemb
 
 Nerissa read out a letter sent by Princess Iphania regarding an ancient tome that could help the heroes fight the Ruination. However, a certain ritual needed to be performed—one that could even place them under the curse as well.
 
-Even then, Queen Tam had a more troubling matter at hand: Rao Pandora, and what had transpired the previous day. The latter was quick to remind her to remember what happened.
+Even then, Queen Tam had a more troubling matter at hand: Roa Pandora, and what had transpired the previous day. The latter was quick to remind her to remember what happened.
 
 [Sassy cat](#embed:https://youtu.be/jayBiB9euJU?t=670)
 
