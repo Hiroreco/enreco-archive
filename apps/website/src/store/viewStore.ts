@@ -1,3 +1,4 @@
+import { isEdge, isNode } from "@/lib/utils";
 import { FixedEdgeType, ImageNodeType, TeamMap } from "@enreco-archive/common/types";
 import { create } from "zustand";
 import { immer } from "zustand/middleware/immer"; 
@@ -21,13 +22,13 @@ interface ViewState {
         openSettingsCard: () => void;
         closeCard: () => void;
 
-        selectedNode: ImageNodeType | null;
-        selectNode: (node: ImageNodeType) => void;
-        clearSelectedNode: () => void;
-
-        selectedEdge: FixedEdgeType | null;
-        selectEdge: (edge: FixedEdgeType) => void;
-        clearSelectedEdge: () => void;
+        selectedElement: ImageNodeType | FixedEdgeType | null;
+        selectElement: (element: ImageNodeType | FixedEdgeType) => void;
+        deselectElement: () => void;
+        selectedElementIsNode: () => boolean;
+        selectedElementIsEdge: () => boolean;
+        selectedElementAsNode: () => ImageNodeType | null;
+        selectedElementAsEdge: () => FixedEdgeType | null;
     },
 
     visibility: {
@@ -88,17 +89,33 @@ export const useViewStore = create<ViewState>()(immer((set, get) => {
             openSettingsCard: () => set(draft => { draft.ui.currentCard = "setting"; }),
             closeCard: () => set(draft => { draft.ui.currentCard = null; }),
 
-            selectedNode: null,
-            selectNode: (node: ImageNodeType) => 
-                set(draft => { draft.ui.selectedNode = node; }),
-            clearSelectedNode: () => 
-                set(draft => { draft.ui.selectedNode = null; }),
+            selectedElement: null,
+            selectElement: (element) => set(draft => { draft.ui.selectedElement = element; }),
+            deselectElement: () => set(draft => { draft.ui.selectedElement = null; }),
+            selectedElementIsNode: () => {
+                const element = get().ui.selectedElement;
+                return (element !== null && isNode(element));
+            },
+            selectedElementIsEdge: () => {
+                const element = get().ui.selectedElement;
+                return (element !== null && isEdge(element));
+            },
+            selectedElementAsNode: () => {
+                const element = get().ui.selectedElement;
+                if(element && isNode(element)) {
+                    return element as ImageNodeType;
+                }
 
-            selectedEdge: null,
-            selectEdge: (edge: FixedEdgeType) =>
-                set(draft => { draft.ui.selectedEdge = edge; }),
-            clearSelectedEdge: () => 
-                set(draft => { draft.ui.selectedEdge = null; }),
+                return null;
+            },
+            selectedElementAsEdge: () => {
+                const element = get().ui.selectedElement;
+                if(element && isEdge(element)) {
+                    return element as FixedEdgeType;
+                }
+
+                return null;
+            },
         },
 
         visibility: {

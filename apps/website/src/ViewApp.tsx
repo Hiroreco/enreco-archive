@@ -103,13 +103,13 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         viewStoreVisibility.character[node.id]
                     );
 
-                    if(viewStoreUi.selectedNode) {
-                        node.selected = node.id === viewStoreUi.selectedNode.id;
+                    if(viewStoreUi.selectedElementIsNode()) {
+                        node.selected = node.id === viewStoreUi.selectedElementAsNode()!.id;
                     }
-                    else if(viewStoreUi.selectedEdge) {
+                    else if(viewStoreUi.selectedElementIsEdge()) {
                         node.selected = (
-                            node.id === viewStoreUi.selectedEdge.target ||
-                            node.id === viewStoreUi.selectedEdge.source
+                            node.id === viewStoreUi.selectedElementAsEdge()!.target ||
+                            node.id === viewStoreUi.selectedElementAsEdge()!.source
                         );
                     }
                     
@@ -122,8 +122,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         resolvedData.nodes, 
         viewStoreData.chapter, 
         viewStoreData.day, 
-        viewStoreUi.selectedEdge, 
-        viewStoreUi.selectedNode, 
+        viewStoreUi, 
         viewStoreVisibility.character, 
         viewStoreVisibility.team
     ]);
@@ -148,7 +147,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         edge.data !== undefined &&
                         viewStoreVisibility.edge[edge.data.relationshipId];
 
-                    edge.selected = edge.id === viewStoreUi.selectedEdge?.id;
+                    edge.selected = edge.id === viewStoreUi.selectedElementAsEdge()?.id;
                     edge.selectable = (
                         viewStoreVisibility.showOnlyNewEdges && 
                         edge.data !== undefined &&
@@ -162,17 +161,17 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             }
         );
     }, [
-        getReadStatus,
+        getReadStatus, 
         resolvedData.edges, 
         resolvedData.nodes, 
         viewStoreData.chapter, 
-        viewStoreData.day,
-        viewStoreUi.selectedEdge?.id, 
+        viewStoreData.day, 
+        viewStoreUi, 
         viewStoreVisibility.character, 
         viewStoreVisibility.edge, 
         viewStoreVisibility.showOnlyNewEdges, 
-        viewStoreVisibility.team
-    ]);
+        viewStoreVisibility.team]
+    );
 
     /* Helper function to coordinate state updates when data changes. */
     function changeWorkingData(newChapter: number, newDay: number) {
@@ -191,21 +190,21 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             newDay,
         );
 
-        if (viewStoreUi.selectedNode) {
+        if (viewStoreUi.selectedElementIsNode()) {
             const newSelectedNode = newDayData.nodes.find(
-                n => n.id === viewStoreUi.selectedNode?.id);
+                n => n.id === viewStoreUi.selectedElementAsNode()!.id);
             
             if(newSelectedNode) {
                 newSelectedNode.selected = true;
             }
             else {
-                viewStoreUi.clearSelectedNode();
+                viewStoreUi.deselectElement();
             }
         }
 
-        if (viewStoreUi.selectedEdge) {
+        if (viewStoreUi.selectedElementIsEdge()) {
             const newSelectedEdge = newDayData.edges.find(
-                e => e.id === viewStoreUi.selectedEdge?.id);
+                e => e.id === viewStoreUi.selectedElementAsEdge()!.id);
             
             if(newSelectedEdge) {
                 newSelectedEdge.selected = true;
@@ -220,7 +219,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 }
             }
             else {
-                viewStoreUi.clearSelectedNode();
+                viewStoreUi.deselectElement();
             }
         }
 
@@ -260,8 +259,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }
 
     const onCardClose = useCallback(() => {
-        viewStoreUi.clearSelectedNode();
-        viewStoreUi.clearSelectedEdge();
+        viewStoreUi.deselectElement();
         viewStoreUi.closeCard();
         setChartShrink(0);
     },
@@ -269,51 +267,23 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     );
 
     function onSettingsCardOpen() {
-        viewStoreUi.clearSelectedNode();
-        viewStoreUi.clearSelectedEdge();
+        viewStoreUi.deselectElement();
         viewStoreUi.openSettingsCard();
     }
 
     const onNodeClick = useCallback((node: ImageNodeType) => {
-            viewStoreUi.selectNode(node);
-            viewStoreUi.clearSelectedEdge();
+            viewStoreUi.selectElement(node);
             viewStoreUi.openNodeCard();
         },
         [viewStoreUi],
     );
 
     const onEdgeClick = useCallback((edge: FixedEdgeType) => {
-            viewStoreUi.clearSelectedNode();
-            viewStoreUi.selectEdge(edge);
+            viewStoreUi.selectElement(edge);
             viewStoreUi.openEdgeCard();
         },
         [viewStoreUi],
     );
-
-    const getReadStatusHelper = (id?: string): boolean => {
-        if(!id) {
-            return false;
-        }
-
-        return getReadStatus(
-            viewStoreData.chapter,
-            viewStoreData.day,
-            id
-        );
-    }
-
-    const onReadChange = (newReadStatus: boolean, id?: string) => {
-        if(!id) {
-            return;
-        }
-
-        setReadStatus(
-            viewStoreData.chapter,
-            viewStoreData.day,
-            id,
-            newReadStatus
-        )
-    }
 
     const setChartShrinkAndFit = useCallback((width: number) => {
             if (width !== chartShrink) {
@@ -347,25 +317,29 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         onBrowserHashChange(browserHash);    
     }
 
-    const selectedNodeTeamKey = viewStoreUi.selectedNode?.data.teamId;
+    const selectedNodeTeamKey = viewStoreUi.selectedElementAsNode()?.data.teamId;
     const selectedNodeTeam = selectedNodeTeamKey ? chapterData.teams[selectedNodeTeamKey] : null;
 
-    const selectedEdgeRelationshipKey = viewStoreUi.selectedEdge?.data?.relationshipId;
+    const selectedEdgeRelationshipKey = viewStoreUi.selectedElementAsEdge()?.data?.relationshipId;
     const selectedEdgeRelationship = selectedEdgeRelationshipKey ? chapterData.relationships[selectedEdgeRelationshipKey] : null;
+
+    const selectedNodeRead = viewStoreUi.selectedElementIsNode() ? 
+        getReadStatus(viewStoreData.chapter, viewStoreData.day, viewStoreUi.selectedElementAsNode()!.id) : false;
+    const selectedEdgeRead = viewStoreUi.selectedElementIsEdge() ? 
+        getReadStatus(viewStoreData.chapter, viewStoreData.day, viewStoreUi.selectedElementAsEdge()!.id) : false;
+    function onReadChange(newReadStatus: boolean) {
+        if(viewStoreUi.selectedElement == null) {
+            return;
+        }
+
+        setReadStatus(viewStoreData.chapter, viewStoreData.day, viewStoreUi.selectedElement.id, newReadStatus);
+    }
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
         bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
     }
 
-    let selectedElement = null;
-    if(viewStoreUi.selectedNode) {
-        selectedElement = viewStoreUi.selectedNode;
-    }
-    else if(viewStoreUi.selectedEdge) {
-        selectedElement = viewStoreUi.selectedEdge;
-    }
-    
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
@@ -373,7 +347,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     <ViewChart
                         nodes={completeNodes}
                         edges={completeEdges}
-                        selectedElement={selectedElement}
+                        selectedElement={viewStoreUi.selectedElement}
                         widthToShrink={chartShrink}
                         currentCard={viewStoreUi.currentCard}
                         onNodeClick={onNodeClick}
@@ -427,37 +401,33 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
                     <ViewNodeCard
                         isCardOpen={viewStoreUi.currentCard === "node"}
-                        selectedNode={viewStoreUi.selectedNode}
+                        selectedNode={viewStoreUi.selectedElementAsNode()}
                         nodeTeam={selectedNodeTeam}
                         charts={chapterData.charts}
-                        read={getReadStatusHelper(viewStoreUi.selectedNode?.id)}
+                        read={selectedNodeRead}
                         onCardClose={onCardClose}
                         onNodeLinkClicked={onNodeClick}
                         onEdgeLinkClicked={onEdgeClick}
                         onDayChange={(newDay) => {
                             changeWorkingData(viewStoreData.chapter, newDay);
                         }}
-                        onReadChange={(newReadStatus) =>
-                            onReadChange(newReadStatus, viewStoreUi.selectedNode?.id)
-                        }
+                        onReadChange={onReadChange}
                         setChartShrink={setChartShrinkAndFit}
                     />
 
                     <ViewEdgeCard
                         isCardOpen={viewStoreUi.currentCard === "edge"}
-                        selectedEdge={viewStoreUi.selectedEdge}
+                        selectedEdge={viewStoreUi.selectedElementAsEdge()}
                         edgeRelationship={selectedEdgeRelationship}
                         charts={chapterData.charts}
-                        read={getReadStatusHelper(viewStoreUi.selectedEdge?.id)}
+                        read={selectedEdgeRead}
                         onCardClose={onCardClose}
                         onNodeLinkClicked={onNodeClick}
                         onEdgeLinkClicked={onEdgeClick}
                         onDayChange={(newDay) => {
                             changeWorkingData(viewStoreData.chapter, newDay);
                         }}
-                        onReadChange={(newReadStatus) =>
-                            onReadChange(newReadStatus, viewStoreUi.selectedEdge?.id)
-                        }
+                        onReadChange={onReadChange}
                         setChartShrink={setChartShrinkAndFit}
                     />
                 </CurrentDayDataContext>
@@ -599,8 +569,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     numberOfDays={chapterData.numberOfDays}
                     currentCard={viewStoreUi.currentCard}
                     onChapterChange={(newChapter) => {
-                        viewStoreUi.clearSelectedEdge();
-                        viewStoreUi.clearSelectedNode();
+                        viewStoreUi.deselectElement();
                         viewStoreUi.closeCard();
                         changeWorkingData(newChapter, 0);
                     }}

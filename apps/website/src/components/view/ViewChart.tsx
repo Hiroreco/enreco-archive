@@ -20,7 +20,7 @@ import ImageNodeView from "@/components/view/ViewImageNode";
 import { useSettingStore } from "@/store/settingStore";
 import { CardType } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
-import { isMobileViewport } from "@/lib/utils";
+import { isEdge, isMobileViewport, isNode } from "@/lib/utils";
 
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
@@ -61,14 +61,6 @@ function getFlowRendererWidth(widthToShrink: number) {
     }
 
     return isMobileViewport() ? "100%" : `calc(100% - ${widthToShrink}px)`;
-}
-
-function isNode(element: ImageNodeType | FixedEdgeType): element is ImageNodeType {
-    return !!(element as ImageNodeType)?.position;
-}
-
-function isEdge(element: ImageNodeType | FixedEdgeType): element is FixedEdgeType {
-    return !!(element as FixedEdgeType)?.source;
 }
 
 const nodeTypes = {
