@@ -17,7 +17,7 @@ But none of it really concerned Roa in the slightest—her mind was occupied wit
 So what if Nerissa may have already caught Elizabeth's eye? So what if the Raven had magic and Roa didn't have magic? She's the owner of a successful business; if she can put her mind to gathering a large profit, then she can win Elizabeth's heart. Back in the fields, she fought once again until [the money, then the ring, was hers.](https://youtu.be/E-LGNO7JdO4?t=9770)
 
 Seeing Bijou once again, Roa took her aside, told her, and Shiori, how her day went, when [Shiori had a suggestion](https://youtu.be/E-LGNO7JdO4?t=10994):
-Tell Elizabeth little stories of Nerissa? That might jog Elizabeth's memory... The topic was immediately dropped when Immerkind and Gonathan passed by. Someone then immediately suggested using the Constipation Party area to propose to Elizabeth. Bijou includes blue and pink floating lanterns to set the mood.
+Tell Elizabeth little stories of Nerissa? That might jog Elizabeth's memory... The topic was immediately dropped when Immerkind and Gonathon passed by. Someone then immediately suggested using the Constipation Party area to propose to Elizabeth. Bijou includes blue and pink floating lanterns to set the mood.
 
 A plan was secured for tomorrow. Roa would soon write in her diary, the excitement flowing through her quill.
 

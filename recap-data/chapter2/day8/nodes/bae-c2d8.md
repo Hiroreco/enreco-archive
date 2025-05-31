@@ -22,9 +22,9 @@ Not having one last group photo with her fellow suppliers would be amiss. Though
 
 [Suppliers' Splendid Snapshots](#embed:https://youtu.be/IWNcqsQxuWo?t=5380)
 
-They ventured back to where they first mined. It was a perfect spot to capture their last meeting before going their separate ways. Gonathan agreed; he might be a humble knight, but Bae's brother was a truly talented photographer. Capturing multiple angles, suggesting poses, and encapsulating the candid moments truly exemplified his experience with the camera. 
+They ventured back to where they first mined. It was a perfect spot to capture their last meeting before going their separate ways. Gonathon agreed; he might be a humble knight, but Bae's brother was a truly talented photographer. Capturing multiple angles, suggesting poses, and encapsulating the candid moments truly exemplified his experience with the camera. 
 
-Bae returned the favor, taking photos of Gonathan and his fellow pack in front of Mordan's Tavern... shortly after [Mordan's prank faded,](https://youtu.be/NL8O6nH1UE0?t=1921) their [photo was taken.](https://youtu.be/NL8O6nH1UE0?t=2097)
+Bae returned the favor, taking photos of Gonathon and his fellow pack in front of Mordan's Tavern... shortly after [Mordan's prank faded,](https://youtu.be/NL8O6nH1UE0?t=1921) their [photo was taken.](https://youtu.be/NL8O6nH1UE0?t=2097)
 
 As Bae left, one of the houses in the auction caught her eye. An interesting one, a 7LDK (seven bedrooms, a living room, dining room, and kitchen), was up for sale, though... [its roof seemed to be quite avant-garde](https://youtu.be/NL8O6nH1UE0?t=2234) Shiori and Bae competed to buy the house before the writer remembered that Bae has kids now (one of whom was hers and Bijou's) and gracefully bowed out. But not before Bijou upped the price to 2,000 gold.
 

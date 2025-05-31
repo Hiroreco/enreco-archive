@@ -20,4 +20,4 @@ She just... left. Off to attend to other business, casually leaving the chaos in
 
 ## Fanart
 
-["Gonathan deserved better" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)
+["Gonathon deserved better" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)

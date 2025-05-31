@@ -4,17 +4,17 @@ A true knight never forgets her oaths, and for Gonathon G, not the end of the wo
 
 Alas, it was not to be, for the zealous green one was dead set on remaining in the past (see [Cecilia-Iphania](#edge:cecilia-iphania)). While she gave Bae the consolation that she would look for her in the future, this meager offering did little to mend Bae's heart, and the distraught peasant turned to [the embrace of the ocean's abyss](https://youtu.be/Br6dvhVJ_IE?t=4887).
 
-[_Gonathan..._](https://youtu.be/Br6dvhVJ_IE?t=4887)
+[_Gonathon..._](https://youtu.be/Br6dvhVJ_IE?t=4887)
 
 [You died... For me?](https://youtu.be/Br6dvhVJ_IE?t=4911)
 
-In the throes of despair, Bae drowned herself in the river, mirroring events that transpired before, but instead of Cecilia, it was Bae, and instead of Bae, there was Gonathan. Leaping into action, Gonathon begged Bae to reconsider, and in between many bouts of kissing the depths together, Gonathon implored Bae to choose life, for as one whom love had also cursed, she knew all too well the pain of losing it.
+In the throes of despair, Bae drowned herself in the river, mirroring events that transpired before, but instead of Cecilia, it was Bae, and instead of Bae, there was Gonathon. Leaping into action, Gonathon begged Bae to reconsider, and in between many bouts of kissing the depths together, Gonathon implored Bae to choose life, for as one whom love had also cursed, she knew all too well the pain of losing it.
 
-And just as Bae cared for Cecilia, Gonathan cared, platonically, for Bae; the good knight following her without rest in a camaraderie few would ever have in this world. Through the waters, through Mordan Ramsey having the most atrocious timing in this dramatic moment, Gonathan was there. Gonathan blamed himself, but Bae couldn't bear that. Bae reassured Gonathan that they all knew Cecilia's lover for the Princess. Gonathan shouldn't carry a burden when the truth was known to all.
+And just as Bae cared for Cecilia, Gonathon cared, platonically, for Bae; the good knight following her without rest in a camaraderie few would ever have in this world. Through the waters, through Mordan Ramsey having the most atrocious timing in this dramatic moment, Gonathon was there. Gonathon blamed himself, but Bae couldn't bear that. Bae reassured Gonathon that they all knew Cecilia's lover for the Princess. Gonathon shouldn't carry a burden when the truth was known to all.
 
 [My Brother.](https://youtu.be/Br6dvhVJ_IE?t=5214)
 
-Touched by Gonathan's goood heart, Bae gave Gonathan the bouquet she bought. It was always meant to be given to someone Bae cared, and who cared in turn for her. They swore an oath of Brotherhood, and Bae swore a vow of celibacy under the new moon. A Bromance inagurated with a strong, firm handshake. A Bromance to last lifetimes.
+Touched by Gonathon's goood heart, Bae gave Gonathon the bouquet she bought. It was always meant to be given to someone Bae cared, and who cared in turn for her. They swore an oath of Brotherhood, and Bae swore a vow of celibacy under the new moon. A Bromance inagurated with a strong, firm handshake. A Bromance to last lifetimes.
 
 [AWWWWWOOOOOOOOOOOOOO](https://youtu.be/Br6dvhVJ_IE?t=5329)
 

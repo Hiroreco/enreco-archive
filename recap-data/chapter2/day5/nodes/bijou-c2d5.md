@@ -12,7 +12,7 @@ Bijou tried to push her towards making a move, and it seems like she did—altho
 
 ---
 
-After her revisit to Star Site: Chronos, [she called up Peasant Bae](https://youtu.be/AwTYvoyB3Xo?t=7980), asking for materials for her shop as she ran out after serving Gonathan. This was how Bijou decided to bait her into trying to get Khaos back…
+After her revisit to Star Site: Chronos, [she called up Peasant Bae](https://youtu.be/AwTYvoyB3Xo?t=7980), asking for materials for her shop as she ran out after serving Gonathon. This was how Bijou decided to bait her into trying to get Khaos back…
 
 Veiled behind a regular business transaction, Bijou confronts the Peasant about the Stain hat on her head. She and Shiori had previously abandoned the baby back in the illusory Libestal, and now she wants it back.
 
@@ -36,9 +36,9 @@ And then, broke the news. IRyS... was EXPECTING?! Hearing what Tam and IRyS were
 
 To try bringing comedic relief to the situation, Bijou asks to make sure if it’s just gas she is feeling. Then again, if it was real, then maybe a [gender reveal party](https://youtu.be/AwTYvoyB3Xo?t=20922) is to be called for. Shiori could easily provide for that.
 
-Bijou had to speak to someone about this though. Now without a therapist, [Shiori lends both her and Gonathan her ear](https://youtu.be/AwTYvoyB3Xo?t=21122)—promising to be completely unbiased. Unlike that reaper/lorekeeper/tavern keeper guy…
+Bijou had to speak to someone about this though. Now without a therapist, [Shiori lends both her and Gonathon her ear](https://youtu.be/AwTYvoyB3Xo?t=21122)—promising to be completely unbiased. Unlike that reaper/lorekeeper/tavern keeper guy…
 
-This was mainly Gonathon’s time to speak his mind about what he felt. Bijou had also given her two cents on the matter, coming from her blood-pact relation to IRyS. She leaves Shiori and Gonathan alone after the latter leaves to go see where IRyS was.
+This was mainly Gonathon’s time to speak his mind about what he felt. Bijou had also given her two cents on the matter, coming from her blood-pact relation to IRyS. She leaves Shiori and Gonathon alone after the latter leaves to go see where IRyS was.
 
 ---
 

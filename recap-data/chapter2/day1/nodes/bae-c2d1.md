@@ -16,7 +16,7 @@ Soon after arriving in Ancient Libestal, Bae meets Princess Iphinia, Libestal's 
 
 [Bae Yearns for the Mines](#embed:https://youtu.be/7bOe38rP7JQ?t=1739)
 
-Now no longer jobless, but still poor, Bae sets out to explore the Kingdom, meeting fellow heroes, though some conversations were admittedly [questionable](https://youtu.be/7bOe38rP7JQ?t=2293). Even if the dungeon is still not yet available, it does not mean that the day is wasted. Together with Tammy, Ina, and Gonathan with a G, the group explored the Library and found codes hidden within the texts of the books, including [Fia's](https://youtu.be/7bOe38rP7JQ?t=2910), bringing suspicion to their benefactor.
+Now no longer jobless, but still poor, Bae sets out to explore the Kingdom, meeting fellow heroes, though some conversations were admittedly [questionable](https://youtu.be/7bOe38rP7JQ?t=2293). Even if the dungeon is still not yet available, it does not mean that the day is wasted. Together with Tammy, Ina, and Gonathon with a G, the group explored the Library and found codes hidden within the texts of the books, including [Fia's](https://youtu.be/7bOe38rP7JQ?t=2910), bringing suspicion to their benefactor.
 
 Soon after leaving the Library, Peasant The Bae meets The Hot Pink One once again, finding that the HPO is married. Whenever The Hot Pink One speaks it leaves Bae annoyed. Though she still eventually agreed to be the SC, supply chain, for HPO's consort. Throughout the rest of the day, Bae would find the Hot Pink One constantly nearby.
 

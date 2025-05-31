@@ -24,7 +24,7 @@ They debated Shiori’s story and Nerissa’s past but couldn’t see eye to eye
 
 Flustered, Roa left. She focused on picking flowers to use for the venue's decoration and soon returned when she had gathered enough. Back in Libestal, she saw Mococo, who, unfortunately, was still sick. Concerned, Roa gave her employee a bed to rest in and food to eat, wishing that she would get better soon.
 
-In her shop, Roa encountered a few intruders lurking beneath the floorboards. It was just Gonathan and Nerissa. Roa followed them back to Gonathan's home, and for a moment, the two love rivals [had returned to being friends](https://youtu.be/m2OG5auudrQ?t=4784)... until Lady Bloodflame's name was mentioned and Roa left.
+In her shop, Roa encountered a few intruders lurking beneath the floorboards. It was just Gonathon and Nerissa. Roa followed them back to Gonathon's home, and for a moment, the two love rivals [had returned to being friends](https://youtu.be/m2OG5auudrQ?t=4784)... until Lady Bloodflame's name was mentioned and Roa left.
 
 [Stick of Love. How Romantic.](#embed:https://youtu.be/m2OG5auudrQ?t=6482.)
 
