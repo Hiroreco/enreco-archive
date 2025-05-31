@@ -4,11 +4,11 @@
 <!-- images: (Ina's first time wielding the book), (The book viewed from the inventory), (Ina activating the book's ability) -->
 <!-- model: true -->
 
-## Overvie
+## Overview
 
 **Violet Miasma** takes the form of a book — but not just any ordinary one. This tome radiates an eerie, mysterious aura, thanks to its deep purple cover, orange binding, and most strikingly, the ancient scripture etched across its surface. Despite its ominous appearance, its wielder, Ninomae Inanis, is anything but intimidating — exuding more comfy, cozy cuteness than menace.
 
-## Detail
+## Details
 
 Ina serves as a priestess to the enigmatic Ancient Ones, and this very book, tied to those beings, is the source of her power. Though its potential is vast and terrifying, Ina has always wielded it with kindness and restraint, using it solely against evil — unlike a few of her more _questionable_ companions.
 

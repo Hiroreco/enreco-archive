@@ -4,11 +4,11 @@
 <!-- images: (Nerissa's first time wielding Resonant Strike), (Resonant Strike viewed from the inventory), (Resonant Strike's ability activated) -->
 <!-- model: true -->
 
-## Overvie
+## Overview
 
 **Resonant Strike**, true to its name, takes the form of a massive tuning fork—an oversized metal instrument that serves as Nerissa Ravencroft's weapon, bestowed upon her on Day One of her arrival in the Kingdom of Libestal.
 
-## Detail
+## Details
 
 Originally wielded by the Demon of Sound before she lost her memories, a tuning fork may not sound intimidating, but it packs quite the punch. After all, it’s a giant metal fork roughly the size of a person.
 

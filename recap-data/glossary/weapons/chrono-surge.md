@@ -4,11 +4,11 @@
 <!-- images: (Tam's first time wielding Chrono Surge), (Chrono Surge viewed from the inventory), (Chrono Surge's ability activated) -->
 <!-- model: true -->
 
-## Overvie
+## Overview
 
 **Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main and the hour hand in her offhand—are the trusty blades of Tam Gandr, the self-proclaimed queen of Libestal.
 
-## Detail
+## Details
 
 Long before she found herself tangled in royal business and throne-claiming antics, Tam bore the title of **Warden of Time**. A name as intimidating as it sounds—had people known her true identity, her queenly claims would’ve raised far fewer eyebrows.
 

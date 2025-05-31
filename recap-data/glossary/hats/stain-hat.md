@@ -4,11 +4,11 @@
 <!-- images: (Corrupted ones wearing the Stain Hat) -->
 <!-- model: false -->
 
-## Overvie
+## Overview
 
 The Stain Hat takes the shape of—well—a stain, that part’s obvious. What wasn’t obvious, however, was the implication it held. When placed atop the wearer’s head, it looked as though a stain was just casually sitting there. Cute at first glance, but little did they know, it was quietly corrupting their mind.
 
-### <u>Story## Details
+## Details
 
 Koseki Bijou was one of the first to obtain this hat. As excited as she was to finally have any kind of hat, she put it on immediately. But as days passed, the Stain slowly seeped into her thoughts—until she was completely under its control.
 

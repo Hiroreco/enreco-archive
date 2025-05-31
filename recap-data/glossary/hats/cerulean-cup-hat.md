@@ -4,11 +4,11 @@
 <!-- images: (Cerulean Cup members wearing their hat) -->
 <!-- model: false -->
 
-## Overvie
+## Overview
 
 The Cerulean Cup's hat bears the shape of a... balloon? Egg? Something blue? No one really knows for sure, but one thing's certain—it looks incredibly heavy for the wearer's head.
 
-### <u>Story## Details
+## Details
 
 The hat represents the guild of the empathetic, though ironically, most members of the Cerulean Cup were anything but empathetic.
 

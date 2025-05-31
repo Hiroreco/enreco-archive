@@ -4,11 +4,11 @@
 <!-- images: (Gonathon's first time wielding Gremlin Grenade), (Gremlin Grenade viewed from the inventory ), (Gremlin Grenade's ability activated) -->
 <!-- model: true -->
 
-## Overvie
+## Overview
 
 **Gremlin Grenade**, a pair of spiked metal gauntlets—so massive they nearly dwarf their wielder's head—are the weapons worn by our humble knight, Gonathon G, upon his arrival in the Kingdom of Libestal.
 
-## Detail
+## Details
 
 Once a mischievous orange gremlin chasing justice in their own chaotic way, these gauntlets were the tools Gonathon used to hunt down criminals and "fist" them into submission—before he eventually _de-gremlinfied_ and rose to become the noble knight we all know and love.
 

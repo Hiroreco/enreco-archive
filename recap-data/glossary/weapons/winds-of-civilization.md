@@ -4,11 +4,11 @@
 <!-- images: (Nanamoo's first time wielding Winds of Civilization), (Winds of Civilization as viewed from the inventory), (Winds of Civilization's ability activated) -->
 <!-- model: true -->
 
-## Overvie
+## Overview
 
 **Winds of Civilization** takes the form of a short bronze dagger, a strangely familiar weapon to Cleopatra Darwin Napoleon Eisenhower Roosevelt Galileo Da Vinci DiCaprio Aristotle Targaryen the Great III, Jr. or simply Three or NanaMoo for short. Sharp as an owl's talon, many should fear this blade and it's owner.
 
-## Detail
+## Details
 
 When the Kingdom of Libestal needed her most, a lone warrior took up the quest against the Stain King and against all odds slayed it. The dagger, when used, summons razor sharp winds that cuts, and washes, away any Stains that dare stands against NanaMoo.
 

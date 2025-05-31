@@ -4,11 +4,11 @@
 <!-- images: (Gura donning the Scarlet Wand hat), (Scarlet Wand tip touching ritual) -->
 <!-- model: false -->
 
-## Overvie
+## Overview
 
 The Scarlet Wand's hat is by far the longest and most absurd-looking one among all the guilds. It's long, pyramid-shaped, and red—it resembles a very suggestive shape, as pointed out by Shiori. Long story short, it's a pretty unique hat.
 
-### <u>Story## Details
+## Details
 
 Its strange appearance is one thing, but the story it brought upon its wearers is another. The Scarlet Wand is the guild of the knowledgeable, yet instead of representing its intended meaning, the hat earned its wearers titles like "witches," misunderstood as granting the ability to read minds.
 

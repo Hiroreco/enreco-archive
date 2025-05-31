@@ -4,11 +4,11 @@
 <!-- images: (Shiori's first time wielding the book), (Bookmark of Memories viewed from the inventory), (Bookmark of Memories' ability activated) -->
 <!-- model: true -->
 
-## Overvie
+## Overview
 
 **Bookmark of Memories**, Shiori Novella's Revelation, takes the form of a blue feather—more precisely, a quill meant for writing. It was bestowed upon her when she was first summoned to the Kingdom of Libestal.
 
-## Detail
+## Details
 
 When activated, the quill summons bookmarks that hover around Shiori, firing beams that converge at her target. Upon impact, the beams explode, dealing significant damage.
 
