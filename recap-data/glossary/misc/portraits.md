@@ -6,13 +6,20 @@
 
 ## Overview
 
-In Chapter 2, there was a sidequest where the heroes could ask an aritst, Pygmalion, to "draw" a portrait of themsevles. These portraits were actually selected from winners of the #ENrecoCanvas campaign, an event/competition preceding the start of Chapter 2, which started on March 1st 2025 and ended on March 19th 2025.
+In Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art event that ran from `March 1st to March 19th, 2025`, prior to the start of Chapter 2.
 
 ## Details
 
-The quest itself required the heroes to gather materials for the artist, first 5 raw iron, 5 raw copper, then 1 butter, then 1 Basic Upgrade Stone, and finally, a Basic Azure Charm. As tedious as the process sounds, it acted as a way for the heroes to get familiarized with asking each other for help, as each of the material above was only obtainable from a specific occupation: Iron and copper from a Supplier, butter from a Chef, Basic Upgrade Stone from a Smith, and Basic Azure Charm from a Jeweler.
+To receive a portrait, the heroes needed to help Pygmalion by gathering a set of materials. The task was intentionally a bit tedious, as it encouraged cooperation among the heroes. Each item was tied to a specific profession, meaning players had to seek out others in those roles:
 
-The portrait specific to the hero doing the quest, meaning each portrait was unique to each hero. And each of them was uniquie in style, and story in their own unique way.
+- **5 Raw Iron, 5 Raw Copper** – obtainable only from a Supplier
+- **1 Butter** – from a Chef
+- **1 Basic Upgrade Stone** – from a Smith
+- **1 Basic Azure Charm** – from a Jeweler
+
+This quest acted not only as a way to earn a personalized portrait but also as a clever method to promote player interaction and teamwork early in Chapter 2.
+
+Each hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was meaningful.
 
 ## Credits
 
