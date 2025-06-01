@@ -6,13 +6,13 @@
 
 ## Overview
 
-**Day unlocked**: 5
+**Day Unlocked**: 5
 
 Star Site: Chaos marked the third and final star site in Chapter 2, and it stood out significantly from the previous two. Fittingly, the memories it contained belonged to none other than the embodiment of chaos herself—Hakos Baelz.
 
 ## Details
 
-### Mechanics
+### Games
 
 Unlike the earlier dungeons where puzzles were the main focus, the primary gimmick of this dungeon was a collection of minigames determined by spinning a roulette wheel. Player performance in these games was tracked by a **luck meter**—the better the performance, the more luck gained.
 
