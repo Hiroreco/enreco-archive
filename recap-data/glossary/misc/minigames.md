@@ -67,4 +67,4 @@ A solo challenge where the player must control a basket to catch chickens fallin
 
 [Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)
 
-_Note: You can try out Color Cannon, Mind's Eye and Chicken Rescue yourself on ENreco Archive_
+_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive_
