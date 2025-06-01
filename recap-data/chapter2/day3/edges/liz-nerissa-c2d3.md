@@ -8,7 +8,7 @@ And it was working… until Nerissa gave her a [rose](https://www.youtube.com/li
 
 That’s when the cracks began to show.
 
-[Uhh, umm...uhhh](#embed:https://www.youtube.com/live/CVF91CqGD80?si=1dSFxlg0GsDPjdU7&t=7799)
+[Uhh, umm... uhhh...](#embed:https://www.youtube.com/live/CVF91CqGD80?si=1dSFxlg0GsDPjdU7&t=7799)
 
 First came the fluster. Then the fidgeting. Heat crawled up her face. In a desperate attempt to wrestle back control of the situation, she called Nerissa a witch—clearly hoping the accusation would distract from the butterflies wreaking havoc in her chest. But it only made things worse. “How so?” Nerissa asked. And thus began Elizabeth’s spiral.
 

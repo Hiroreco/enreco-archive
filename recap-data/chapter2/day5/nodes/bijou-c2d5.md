@@ -16,7 +16,7 @@ After her revisit to Star Site: Chronos, [she called up Peasant Bae](https://you
 
 Veiled behind a regular business transaction, Bijou confronts the Peasant about the Stain hat on her head. She and Shiori had previously abandoned the baby back in the illusory Libestal, and now she wants it back.
 
-Bae strongly believed she had been taking better care of Khaos since she found it; after all, Bae did the right thing to free them from the shackles of slavery (see [Bijou-Bae](#edge:bae-bijou)). _(How it traveled back in time with the warriors is…not explained.)_
+Bae strongly believed she had been taking better care of Khaos since she found it; after all, Bae did the right thing to free them from the shackles of slavery (see [Bijou-Bae](#edge:bae-bijou)). _(How it traveled back in time with the warriors is… not explained.)_
 
 That said, they would have to set their differences aside for the time being. It was time for Bijou to investigate Star Site: Chaos, and later, a duel with [The Outlander](#node:outlander)
 

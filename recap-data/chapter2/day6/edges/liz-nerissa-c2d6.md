@@ -60,9 +60,9 @@ The two hoped it was just make-believe... a figment of Shiori of the Nyavella’
 
 Overall, it had been quite a fun day… as they were able to spend time together and rekindle their relationship. Partly oblivious to the truth, they [slept](https://youtu.be/-BFf3e6YJwY?t=16262) the night together in Elizabeth’s quarters. The morrow shall be a good one…
 
-… Yet there lay the ominous books behind the portrait of the “witch”... seemingly foreboding of death and loss.
+…Yet there lay the ominous books behind the portrait of the “witch”... seemingly foreboding of death and loss.
 
-Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have yet to find out….
+Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have yet to find out…
 
 ## Fanart
 

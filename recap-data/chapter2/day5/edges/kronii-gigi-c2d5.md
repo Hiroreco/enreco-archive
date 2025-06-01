@@ -4,7 +4,7 @@ As Gonathon roamed the lands righting her past wrongs, so too did Tam Gandr desc
 
 Initially seeking therapy from Mordan, upon learning of her retirement Tam begged Gonathon to help her. Spilling her guts about the horrific situation she found herself in, not even the revelation that Gonathon had somehow ended up in HPO’s service herself (see [Gonathon-Irys: No Goddesses or Queens, only Grems](#edge:irys-gigi)) could dissuade Tam from seeing the knight as her last hope. And the queen’s faith was well placed, for upon hearing of Tam’s enslavement to HPO, Gonathon flew into a rage and implored the queen to fight for her dignity and status as a monarch.
 
-[It’s over…it’s so over](#embed:https://youtu.be/alQr5XqoUPs?t=15613)
+[It’s over… it’s so over](#embed:https://youtu.be/alQr5XqoUPs?t=15613)
 
 Gonathon mused over their options, including taking HPO to court, while a shellshocked Tam thanked Gonathon for her [purity and unbreakable loyalty](https://youtu.be/alQr5XqoUPs?t=15872). Alas, nothing could be done at the moment for the vile goddess had discovered Kronii and commenced ravaging her in front of the humble knight. Despite wishing to remain by her queen’s side, Tam’s tearful plea to not witness her humiliation forced Gonathon to retreat, but not before promising to return. Writhing with frustration over the queen’s plight, Gonathon was briefly consoled by Shiori and Bijou, but their words imploring the knight to not get involved only served to harden the knight’s resolve: she had to save her queen!
 

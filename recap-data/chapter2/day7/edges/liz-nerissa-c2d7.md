@@ -32,7 +32,7 @@ That voice echoed in the back of her skull for a moment.
 
 **_Loyalty to an Evil King._**
 
-Every angle feels like it's suffocating Elizabeth with these questions. Would she once again dedicate herself to the corrupt King? She is...a knight. Who pledges her loyalty to the King. But if he's corrupt, is it the right thing to do? Do you betray your King or follow in his shadow of darkness?
+Every angle feels like it's suffocating Elizabeth with these questions. Would she once again dedicate herself to the corrupt King? She is... a knight. Who pledges her loyalty to the King. But if he's corrupt, is it the right thing to do? Do you betray your King or follow in his shadow of darkness?
 
 The harsh recall of memory. Nerissa asked her why she would stand by the King after he betrayed them. As he hurt them all. As she heard Mococo's pained cry her sister fell for just a moment.
 
