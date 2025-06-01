@@ -42,7 +42,7 @@ At the end, players face the true boss: **Stain King Chaos**, a battle riddled w
 - **"Play Dice"** – a music disc by Hakos Baelz
 - **Memories of Hakos Baelz**
 
-[Recolletion - Hakos Baelz](#embed:https://www.youtube.com/watch?v=aSFZwinYaaU)
+[Recollection - Hakos Baelz](#embed:https://www.youtube.com/watch?v=aSFZwinYaaU)
 
 ### Sources
 
