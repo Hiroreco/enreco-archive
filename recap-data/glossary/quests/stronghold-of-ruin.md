@@ -47,3 +47,7 @@ The arena was surrounded by four more black roses, one in each corner, each prot
 ### Rewards
 
 - **"Monster"** Music Disc
+
+### Sources
+
+- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1920399135754367072/photo/1)
