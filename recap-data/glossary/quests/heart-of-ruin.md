@@ -8,14 +8,14 @@
 
 **Unlocked on:** Day 7
 
-The **Heart of Ruin** was the final dungeon—and the ultimate challenge the heroes faced in Chapter 2, as this was the source of all corruption, the root cause of the kingdom’s decay. Destroying it meant not only completing the mission for which the heroes were summoned, but also saving the world from ruin itself.
+The **Heart of Ruin** was the final dungeon—and the ultimate challenge the heroes faced in Chapter 2, as this was the source of all corruption, the root cause of the kingdom’s decay. Destroying it meant not only completing the mission for which the heroes were summoned but also saving the world from ruin itself.
 
-Yet, it quickly became clear that this victory would come at a cost, as some of their own comrades had become more vulnerable to the corruption than anyone had expected.
+Yet, it quickly became clear that this victory would come at a cost, as some of their comrades had become more vulnerable to the corruption than anyone had expected.
 
 ## Details
 
 **The Cursed Ones**
-Unlike the dungeons before it, the Heart of Ruin featured no puzzles, no quizzes.
+Unlike the dungeons before it, the Heart of Ruin featured no puzzles or quizzes.
 
 The heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221) their progress and becoming obstacles on the path forward. The remaining heroes were tasked with purifying their friends.
 
@@ -23,7 +23,7 @@ Within this first library was a book titled **“Prelude of Ruin,”** hinting a
 
 [Read "Prelude of Ruin"](#text:prelude-of-ruin)
 
-Progressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains, each victory building up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by trap-laden terrain and attacks from their own cursed allies, which would drain the energy and delay their rescue.
+Progressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains, each victory building up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by trap-laden terrain and attacks from their cursed allies, which would drain the energy meter and delay their rescue.
 
 Only once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250) and return to the group.
 
