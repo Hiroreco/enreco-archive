@@ -8,7 +8,7 @@
 
 **Day Unlocked:** 4
 
-**Star Site: Chronos** was the second of the three star sites in Chapter 2, and it set itself apart with a strong central theme: _time_. This dungeon contained the memories of none other than the Warden of Time herself, **Ouro Kronii**, and as expected, the puzzles and mechanics were all built around the manipulation of time.
+**Star Site: Chronos** was the second of the three star sites in Chapter 2, and it set itself apart with a strong central theme: _time_. This dungeon contained the memories of none other than the Warden of Time herself, **Ouro Kronii**, and, as expected, the puzzles and mechanics were all built around the manipulation of time.
 
 ## Details
 
@@ -26,17 +26,17 @@ A maze with [moving walls](https://www.youtube.com/live/YVyeKQ-6Ka8?si=uw5ysU_bC
 
 **Third Puzzle**
 
-Set inside a clocktower, this room features [four mirrors](https://www.youtube.com/live/YVyeKQ-6Ka8?si=9ipSXdXbJZx-cklg&t=1222) mounted on pillars. When play is pressed, the timer block emits a beam of light that can be paused in midair. By rotating and angling the mirrors, the team must reflect the light to hit a target tile above the door to progress. Pausing and restarting the light path is essential to success.
+Set inside a clock tower, this room features [four mirrors](https://www.youtube.com/live/YVyeKQ-6Ka8?si=9ipSXdXbJZx-cklg&t=1222) mounted on pillars. When play is pressed, the timer block emits a beam of light that can be paused in midair. By rotating and angling the mirrors, the team must reflect the light to hit a target tile above the door to progress. Pausing and restarting the light beam is essential to success.
 
 **Fourth Puzzle**
 
-Higher in the clocktower is a [colored wall maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850): six different colored walls can be raised by pressing corresponding buttons. These walls reset when the timer ends, and the timer block allows pausing and playing. The group must first locate a vine that leads above the walls, then raise the correct walls to reach the exit.
+Higher in the clocktower is a [colored wall maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850): six different colored walls can be raised by pressing corresponding buttons. These walls reset when the timer ends, and the timer block allows pausing and playing. The group must first locate a vine that leads above the walls, and then raise the correct walls to reach the exit.
 
 Exploration here also reveals secret cracked blocks—when the green wall is raised, players can break through the cracks to unlock a shortcut back to the mirror room. Using the mirrors and pillars again allows traversal to another breakable wall, hiding a chest with the dungeon's music disc.
 
 **Fifth Puzzle**
 
-By far the most complex challenge in the dungeon. A massive [multi-layered maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=hccb2ghDRdj1nsgO&t=2636) with moving platforms, fenced walls, and cube structures embedded with colored buttons. The timer block now supports rewind, moving platforms between positions. Players must:
+By far the most complex challenge in the dungeon. A massive [multi-layered maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=hccb2ghDRdj1nsgO&t=2636) with moving platforms, fenced walls, and cube structures embedded with colored buttons. The timer block now supports rewinding and moving platforms between positions. Players must:
 
 - Rewind or play to position platforms correctly
 - Press buttons to open colored gates

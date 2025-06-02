@@ -23,7 +23,7 @@ Each hero's portrait was unique, both in art style and in the story it portrayed
 
 ## Credits
 
-- Portrait of Mordon Ramsay - [nino](https://x.com/2nochuu/status/1902511940938952880)
+- Portrait of Mordan Ramsey - [nino](https://x.com/2nochuu/status/1902511940938952880)
 - Portrait of Tanakisha Karia - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)
 - Portrait of Nino Ina - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)
 - Portrait of Tam Gandr - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)
