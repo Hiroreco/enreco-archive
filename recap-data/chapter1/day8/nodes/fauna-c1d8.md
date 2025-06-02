@@ -14,7 +14,7 @@ Afterward, Fauna made even more sales by selling battle gear to [Elizabeth](http
 
 Gonathon visited next—seriously, FaunaMart was busy that day. He informed Fauna that Nerissa, her employee, had succumbed to the corruption. Fauna’s response? She couldn't care less, and congratulated Gonathon on winning the lottery two days prior and handed him his prize. Though puzzled by Fauna’s priorities, Gonathon accepted and even bought another 21 lottery tickets, contributing to the library fund.
 
-[Dang that sucks.... Anyway](#embed:https://www.youtube.com/live/8x-MVX8h9gU?feature=shared\&t=4316)
+[Dang that sucks... Anyway](#embed:https://www.youtube.com/live/8x-MVX8h9gU?feature=shared\&t=4316)
 
 Mococo also showed up to remind Fauna of the money owed to her from two days ago. To everyone’s surprise, Fauna actually paid her [back](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared\&t=5001). You really had to question the mindset of these "heroes," collecting debts on the day of the apocalypse.
 

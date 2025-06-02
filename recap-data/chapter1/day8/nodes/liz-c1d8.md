@@ -8,7 +8,7 @@ Just the day before, Elizabeth had bid her companions farewell, leaving the king
 
 Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, only a solitary red knight remained. The loneliness was suffocating. To honor her lost chickens, she built a small memorial before beginning the arduous task of cleaning the ruined land... by herself.
 
-[I feel...alone](#embed:https://www.youtube.com/embed/_urPfTQnLes?si=ecdhhjj71kzhplJw\&start=1670)
+[I feel... alone](#embed:https://www.youtube.com/embed/_urPfTQnLes?si=ecdhhjj71kzhplJw\&start=1670)
 
 Companionship came only when the other heroes awoke. Among them was Calli, the trusted tavern owner and Elizabeth’s guildmate. Together, they speculated on the corruption’s [origins](https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=5396). Initially, Elizabeth suspected Nerissa, the "witch", but Nerissa proclaimed her innocence. Suspicion then fell on Koseki Bijou, whose behavior had grown increasingly erratic.
 

@@ -18,7 +18,7 @@ The two developed a love-hate relationship that leaned heavily on the hate. (see
 
 Despite her grumbling and reluctance, Bae completed her quests diligently. She hated the King for dragging her away from her comfortable life but went along with the tasks nonetheless. Toward the end of the day, she and her guildmates tackled the *Underworld Dungeon* and recovered memories of [Mori Calliope](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared\&t=9842).
 
-For a moment, Bae considered the possibility that life here might not be so bad. Maybe she could make friends, build relationships, and fulfill her role as a hero...yeah, no. One dungeon was more than enough. After that, she disappeared, retreating to what she hoped would be an eternal nap, leaving her guildmates to handle the rest of the journey without her. A true hero’s exit.
+For a moment, Bae considered the possibility that life here might not be so bad. Maybe she could make friends, build relationships, and fulfill her role as a hero... yeah, no. One dungeon was more than enough. After that, she disappeared, retreating to what she hoped would be an eternal nap, leaving her guildmates to handle the rest of the journey without her. A true hero’s exit.
 
 [Adios, suckers](#embed:www.youtube.com/live/y8bcLA6BQsw?t=10388)
 
