@@ -8,7 +8,7 @@ Much of Gonathon's day would be intertwined with Cecilia Immerkind (see [Cecilia
 
 Setting aside Immerkind's plot for the time being, the two wolves joined Princess Bijou and Nerissa in tackling [Star Site: Elpis](https://youtu.be/dgfH4qnRlfw?t=4404). After a long and hard-fought adventure, Gonathon was able to recover a part of his memories, with a group of mysterious blonde angels reminding him of something precious.
 
-[Those angels that I saw...with their short, blond hair](#embed:https://youtu.be/dgfH4qnRlfw?t=7532)
+[Those angels that I saw... with their short, blond hair](#embed:https://youtu.be/dgfH4qnRlfw?t=7532)
 
 Upon their triumphant return and after upgrading his smithing rank and acquiring new quests, Gonathon once again found himself in the company of Immerkind. It was here that Immerkind once again gave Gonathon some important words of wisdom: [to not let the past define who he was in the present](https://youtu.be/dgfH4qnRlfw?t=9664). Gonathon in turn expressed his desire to fight for the pack, and the two once again cemented their ironclad bond to each other.
 

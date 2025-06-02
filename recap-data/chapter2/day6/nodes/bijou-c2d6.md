@@ -8,7 +8,7 @@ She’ll probably be fine. Just don’t think.
 
 ---
 
-Back at Gacharms, Fuwawa seems to be in the market for charms. Roa started handling it while she was away. Gonathan was even nice enough to give Fuwawa an extra ticket! Bijou enjoyed the business while it lasted; as the end of the world draws near, they may not get many sales in the coming days.
+Back at Gacharms, Fuwawa seems to be in the market for charms. Roa started handling it while she was away. Gonathon was even nice enough to give Fuwawa an extra ticket! Bijou enjoyed the business while it lasted; as the end of the world draws near, they may not get many sales in the coming days.
 
 Roa soon tells Bijou she landed a date with the Red Knight, Lady Bloodflame! She asked for her Diamond Pickaxe as they were going material hunting. Bijou felt the urge to eavesdrop again, wondering how her boss does. (See [Raora-Elizabeth: Roa's Not-Beach Day Episode!](#edge:raora-liz))
 
@@ -30,7 +30,7 @@ While waiting to hear back from her knight, she kept herself company with the vo
 
 When Immerkind returned, Bijou let her off on their own devices… but she called back. There was clearly a misunderstanding, and Bijou was the one to clear it up. Indeed, _everyone_ had the same dialogue with the Princess following the Outlander duel. It was a canon event.
 
-Immerkind started to spiral, now with their self-esteem down the drain. Suddenly, Bijou found herself beside Gonathan, acting as moral support while trying to talk sense into the kind knight.
+Immerkind started to spiral, now with their self-esteem down the drain. Suddenly, Bijou found herself beside Gonathon, acting as moral support while trying to talk sense into the kind knight.
 
 ---
 
@@ -48,13 +48,13 @@ Technology had not advanced well enough that their cloaks and effects would go i
 
 Roa scolded Bijou for not being discreet about her snooping on her date. Though she didn’t realize that Bijou had been eavesdropping since her date earlier in the mountains. Because of her hard work in the shop, Bijou was forgiven.
 
-Now with Gonathan, Immerkind, the Queen, and Shiori, the five of them gathered for one last round at Star Site: Chaos; Immerkind had yet to win Bae’s music disc. Luckily, they made quick work of the dungeon, and she got it with a 94% drop rate.
+Now with Gonathon, Immerkind, the Queen, and Shiori, the five of them gathered for one last round at Star Site: Chaos; Immerkind had yet to win Bae’s music disc. Luckily, they made quick work of the dungeon, and she got it with a 94% drop rate.
 
 ---
 
 Later, Bijou and Shiori had more or less finished decorating the “IT’S GAS” picnic area. She mostly appeared to be spaced out while Shiori took a call with Immerkind, but she did have some things to say anyway.
 
-She decided to [start writing her journal](https://youtu.be/uMenK-yr3ss?t=14570). She stopped halfway as Tam and Gonathan [approached](https://youtu.be/uMenK-yr3ss?t=15364) the table. Of course, this conversation had to end up being cursed beyond belief.
+She decided to [start writing her journal](https://youtu.be/uMenK-yr3ss?t=14570). She stopped halfway as Tam and Gonathon [approached](https://youtu.be/uMenK-yr3ss?t=15364) the table. Of course, this conversation had to end up being cursed beyond belief.
 
 It also revealed a _very shocking revelation:_
 

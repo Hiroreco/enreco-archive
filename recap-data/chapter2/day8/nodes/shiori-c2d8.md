@@ -46,7 +46,7 @@ As they dodged paying for the room, fellow witch Nerissa called for them to meet
 
 Even as Advent affirmed in this timeline, there were still a few things to remember from Shiori and Bijou's short stay. A little view of their own, GothRock wouldn't be remiss, a home that saw many of the events transpire. Even the outside toilet may be missed. So, they lingered for a moment before writing about their final day. And to make the [final entry special](https://youtu.be/jh0GSZRpkfU?t=7478), Shiori grabbed the diary in the latrine for that final smelly majestic use.
 
-[A Picture with ~~Gonathan~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
+[A Picture with ~~Gonathon~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
 
 After much waiting, the not-red banquet had begun! Everyone cheered as the second part of their journey was officially over, letting out "Huzzahs" and firing fireworks into the flammable decor of the Great Hall. Shiori watched from the sidelines, celebrating with them as she ate a bit before the food could be served. She enjoyed the moment for just that. A moment. Jubilation and "wooden shovels" consumed the conversations Shiori could hear, though that didn't matter for long. Soon, Shiori Nyavella's role will end, and a new one will begin.
 

@@ -22,7 +22,7 @@ Roa cornered the currently-independent Jeweler Ina to inquire on her non-profite
 
 The cautious self-proclaimed Hero toiled the rest of the day away clearing the entire Quest board gaining many a Coin, plus experience that she could no longer take in due to the technical fatigue of battle. Regardless, she was content with completing her commitments, getting a view of the [beautiful artworks in Pygmalion's gallery](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=12937s) and spending some of her disposable income on failed attempts to get a new hat.
 
-With a token of [Mordon Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13151s) in her pocket, Ina staved herself off the enticement of gambling and retreated to the Library, where she pioneered a page on her brand-new Journal documenting her path to strength. Her entry today was brief, not because of her desire to turn in early, but because she probably forgot what happened today.
+With a token of [Mordan Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13151s) in her pocket, Ina staved herself off the enticement of gambling and retreated to the Library, where she pioneered a page on her brand-new Journal documenting her path to strength. Her entry today was brief, not because of her desire to turn in early, but because she probably forgot what happened today.
 
 [MEOWMEOW](#embed:https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13685s)
 

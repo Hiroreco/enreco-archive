@@ -2,7 +2,7 @@ After much reflection on the tangled web of emotions between her, her consort, a
 
 [One final "Dear consort"](#embed:https://www.youtube.com/live/PoM6ETBlOVY?t=723)
 
-With that emotional weight set aside, Ina turned to enjoy what remained of the final day. She hoped for a calm, peaceful time... but peace was never quite guaranteed in this world. What followed was an unexpected dose of comedic frustration: the humble little home she had painstakingly built—bland by some standards but deeply personal to her—was straight-up [plagiarized](https://www.youtube.com/live/PoM6ETBlOVY?t=1756) for an auction. When she tried to challenge the perpetrator, none other than the insufferably clever Mordon Ramsay, she found herself utterly outmatched.
+With that emotional weight set aside, Ina turned to enjoy what remained of the final day. She hoped for a calm, peaceful time... but peace was never quite guaranteed in this world. What followed was an unexpected dose of comedic frustration: the humble little home she had painstakingly built—bland by some standards but deeply personal to her—was straight-up [plagiarized](https://www.youtube.com/live/PoM6ETBlOVY?t=1756) for an auction. When she tried to challenge the perpetrator, none other than the insufferably clever Mordan Ramsey, she found herself utterly outmatched.
 
 [You look like a napkin!](#embed:https://www.youtube.com/live/PoM6ETBlOVY?t=2015)
 

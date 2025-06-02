@@ -40,7 +40,7 @@ The beach episode was, by all accounts, a success—romantic tension, heartfelt 
 
 Though she could not fully confession her feelings, perhaps if the tide remained kind, tomorrow would be the day Roa finds the courage to finally say what she's been holding in for so long.
 
-**Bonus Biboo Crashing Raora's and Liz's Date Moments**
+**Bonus Biboo Crashing Roa's and Liz's Date Moments**
 
 [Biboo is drowning in the waterfall](https://youtu.be/E-LGNO7JdO4?t=2021)
 

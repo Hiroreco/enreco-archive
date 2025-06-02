@@ -1,6 +1,6 @@
 It is the day of the gas reveal, but preparations are still in order. Bijou shares her recent conversation with others, which leads them to believe that perhaps it's just [constipation](https://www.youtube.com/live/4_zJe0t0558?si=y5yjkh4NAX9clGIW&t=399), or perhaps a weird virus; only time could tell. Still, she desired to meet her beloved, and Shiori wanted to give her food, so they agreed to meet at the archiver's house.
 
-But upon reaching the archiver's door, she's first met with Gonathan G. Bijou quickly realizes that the archiver has no recollection of the knight. This forces her to intervene and have a private chat with him. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.
+But upon reaching the archiver's door, she's first met with Gonathon G. Bijou quickly realizes that the archiver has no recollection of the knight. This forces her to intervene and have a private chat with him. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.
 
 [Well this is awkward](#embed:https://www.youtube.com/live/4_zJe0t0558?si=TuIqi8kS_tcjKH5u&t=851)
 
@@ -30,7 +30,7 @@ Sadly, things quickly go south. As the baby is taking her first steps, Mococo ki
 
 [Maps...maps... I love maps...](#embed:https://www.youtube.com/live/4_zJe0t0558?si=i-m4qvVv7hVV7F09&t=12638)
 
-Bijou finds herself lost in this conflict; she realizes her sister is leaving her onii-chan, and a duel is set between Gonathan and The Hot Pink One, with concerning stakes. If the princess' brother were to lose, someone would have to cut open her stomach. With no one else willing to fulfill this task, Bijou decides to take it upon herself... Maps... Maps... Maps... Maps are the only true...
+Bijou finds herself lost in this conflict; she realizes her sister is leaving her onii-chan, and a duel is set between Gonathon and The Hot Pink One, with concerning stakes. If the princess' brother were to lose, someone would have to cut open her stomach. With no one else willing to fulfill this task, Bijou decides to take it upon herself... Maps... Maps... Maps... Maps are the only true...
 
 And so, the duel starts. And while the goddess tries her best, she quickly finds out she's no match for the knight, and it is time for her punishment. Bijou gets close to her onii-chan and starts the excruciating process, she cuts, and cuts, and cuts. Reaping everything out, making sure there is nothing left inside. And at the end of this, she finds inside a single thing... A... Soul...? Alcohol...?
 

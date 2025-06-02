@@ -28,7 +28,7 @@ Family drama between HPO, Tam Gandr, and Ina (see: [Ina-IRyS: Turning To Another
 
 Being an awkward introvert at the party, Mordan and Nerissa shared a bond over forgoing romance as people gathered around to watch HPO give birth live—_and yes, Mordan filmed it._
 
-[**"It's a boy...it's a girl...it's _gay_!**](#embed:https://www.youtube.com/live/WG748SwXQVo?t=12075)
+[**"It's a boy... it's a girl... it's _gay_!**](#embed:https://www.youtube.com/live/WG748SwXQVo?t=12075)
 
 Not going to lie, the therapist secretly rooted for this to happen so that she could sell a house to the expecting family. Plus, it was an opportunity to try family counseling services again with the newly formed polycule.
 

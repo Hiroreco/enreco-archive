@@ -2,13 +2,13 @@ Awooooo! That’s right—that’s the call of the wolf pack. Not dawgs anymore�
 
 [\*\*darts eyes around concerned\*\*](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=lN7skq8UX4nbv6z5&t=3212)
 
-But it wasn’t all frolicking and playful banter. One of Mordon’s main objectives was to investigate the [Stronghold of Ruin](https://www.youtube.com/live/uX0rZYSrb4Q?si=aLBbcb29JY8k7qre&t=4924). So, alongside her wolf pack, she delved into the dark halls and shadowed corners, uncovering key secrets about the Outlander—and perhaps even deeper truths about the kingdom itself.
+But it wasn’t all frolicking and playful banter. One of Mordan’s main objectives was to investigate the [Stronghold of Ruin](https://www.youtube.com/live/uX0rZYSrb4Q?si=aLBbcb29JY8k7qre&t=4924). So, alongside her wolf pack, she delved into the dark halls and shadowed corners, uncovering key secrets about the Outlander—and perhaps even deeper truths about the kingdom itself.
 
 Among their findings was a hidden artifact: the music disc _Monster_. Naturally, the pack promised to jam out to it later, and some members got _very_ excited.
 
 [Breaking it down](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=-S8LakM9_e_1wryx&t=6569)
 
-Now, with the tavern finished and the therapy center up and running, Mordon found herself at a crossroads. What next? After some contemplation, she landed on an idea—a big one. It was time to build a [_Chef Guild_](https://www.youtube.com/live/uX0rZYSrb4Q?si=w1SXzcLHIPpTg1mi&t=6893). No more rivalry or sabotaging, just chefs—together, united by flavor over failure.
+Now, with the tavern finished and the therapy center up and running, Mordan found herself at a crossroads. What next? After some contemplation, she landed on an idea—a big one. It was time to build a [_Chef Guild_](https://www.youtube.com/live/uX0rZYSrb4Q?si=w1SXzcLHIPpTg1mi&t=6893). No more rivalry or sabotaging, just chefs—together, united by flavor over failure.
 
 ## Fanart
 

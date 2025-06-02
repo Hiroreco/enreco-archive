@@ -1,6 +1,6 @@
 <!-- title: Forget and Forgive -->
 
-In a shocking turn of events, one of Gonathon's former greatest adversaries, the Hot Pink One, seemingly became one of her closest friends and...brother?!
+In a shocking turn of events, one of Gonathon's former greatest adversaries, the Hot Pink One, seemingly became one of her closest friends and... brother?!
 
 [Are you not my brother?](#embed:https://youtu.be/CPT2cj934-I?t=7088)
 

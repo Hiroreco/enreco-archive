@@ -10,7 +10,7 @@ The lady knight, yearning for more of her presence, stopped her from leaving, gi
 
 And so they did… however, it was already morning, so they had to postpone it till evening.
 
-Fate must have been too cruel, for it didn’t prove successful. Nerissa needed to gather some more ingredients, and when the sun finally gave way to the moon, she caught Elizabeth testing the fireworks with Rao Pandora.
+Fate must have been too cruel, for it didn’t prove successful. Nerissa needed to gather some more ingredients, and when the sun finally gave way to the moon, she caught Elizabeth testing the fireworks with Roa Pandora.
 
 Her heart has already grown cold. She shouldn't be affected any longer...
 
@@ -32,7 +32,7 @@ That voice echoed in the back of her skull for a moment.
 
 **_Loyalty to an Evil King._**
 
-Every angle feels like it's suffocating Elizabeth with these questions. Would she once again dedicate herself to the corrupt King? She is...a knight. Who pledges her loyalty to the King. But if he's corrupt, is it the right thing to do? Do you betray your King or follow in his shadow of darkness?
+Every angle feels like it's suffocating Elizabeth with these questions. Would she once again dedicate herself to the corrupt King? She is... a knight. Who pledges her loyalty to the King. But if he's corrupt, is it the right thing to do? Do you betray your King or follow in his shadow of darkness?
 
 The harsh recall of memory. Nerissa asked her why she would stand by the King after he betrayed them. As he hurt them all. As she heard Mococo's pained cry her sister fell for just a moment.
 

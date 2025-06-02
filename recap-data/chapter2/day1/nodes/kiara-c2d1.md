@@ -18,7 +18,7 @@ After slight difficulty in reading the map—the effects of time travel still li
 
 [Lost in only direction](https://youtu.be/5pgqtkxazUo?t=2908)—but never in heart. Kiara eventually made her way to the Remnants, and before she could procure the materials essential to a smith, she must first take care of the Stains. Hard fought, almost defeated, but by the timely appearance of others, they secured a safe victory.
 
-Along the way, Kiara met many of her companions. Though perplexed by the youths of today, who seemed to prefer speaking through the floor. Kiara made wonderful connections, such as forming a kindred spirit with fellow orange smith Gonathan and finding a possible cousin with Cecilia Immerkind due to the common language they speak and a mutual appreciation for kindness.
+Along the way, Kiara met many of her companions. Though perplexed by the youths of today, who seemed to prefer speaking through the floor. Kiara made wonderful connections, such as forming a kindred spirit with fellow orange smith Gonathon and finding a possible cousin with Cecilia Immerkind due to the common language they speak and a mutual appreciation for kindness.
 
 Focusing on the quests beforehand to prepare for the coming days, Kiara gained more experience as a smith and began trading her goods with others free of charge, for her Noble Spirit as a Knight shines ever bright. Not everyone is in agreement with Kiara's ideals, as Roa Pandora and her employees, the former Princess Bijou and Mococo, enforced [capitalistic ideals](https://youtu.be/5pgqtkxazUo?t=9621). Against all odds, and perhaps due to Kiara's kind nature, she may have convinced Bijou that fairer trades could be made—not just ones with gold.
 

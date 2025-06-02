@@ -4,7 +4,7 @@ She felt different today, though she couldn't quite explain why. Mococo felt muc
 
 [BREAK A HOLE IN THE WALL!](#embed:https://www.youtube.com/live/-vv8XkRzP_Y?si=eUBNUW75IS9WfTnU&t=581)
 
-She knew that the others were going to worry about her. Raora was the first to notice. Her sister, Elizabeth, pulled her aside to check on her ~~(and talk about [touching feet](https://www.youtube.com/live/-vv8XkRzP_Y?si=iXAkiwtkoJKM9kmh&t=1277)).~~
+She knew that the others were going to worry about her. Roa was the first to notice. Her sister, Elizabeth, pulled her aside to check on her ~~(and talk about [touching feet](https://www.youtube.com/live/-vv8XkRzP_Y?si=iXAkiwtkoJKM9kmh&t=1277)).~~
 
 Mococo joined everyone in a [picture to remember! ](https://www.youtube.com/live/-vv8XkRzP_Y?si=2LGw4sR2aKf6GdFD&t=1682)Shortly after, she received her first flying lesson and took a [photo with Gacharms](https://www.youtube.com/live/-vv8XkRzP_Y?si=3LsvcJs-3dmLcsFd&t=1966)—and one more just by [herself.](https://www.youtube.com/live/-vv8XkRzP_Y?si=PoQVz0TTgHhBVXLD&t=2243)
 

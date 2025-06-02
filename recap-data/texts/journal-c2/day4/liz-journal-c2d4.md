@@ -1,4 +1,4 @@
-<!-- title: Elizabeth's Journal Entry: Day 3 -->
+<!-- title: Elizabeth's Journal Entry: Day 4 -->
 
 **Knights Log 0003**
 

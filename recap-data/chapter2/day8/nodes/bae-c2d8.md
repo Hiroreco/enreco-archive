@@ -4,7 +4,7 @@ But it seemed peace wasn't felt by all—Queen Tammy and... Oh, it's [The Hot Pi
 
 And speaking of fresh air, Fuwawa, the blessing that she truly is in this world, shared some of [her wonderful cooking with Bae.](https://youtu.be/NL8O6nH1UE0?t=390) Though Bae would have to wait to eat the tart, she was nonetheless enthused by the gift.
 
-An auction! After days of preparation, Mordan Ramsay's auction was finally underway. Eyeing one house, Bae offered her price... [a joke!](https://youtu.be/NL8O6nH1UE0?t=637) All seemed jolly, but it seemed the occasion left Ina the Hero in a dour mood. In a grave *InaJustice*, [Ina's design](https://youtu.be/NL8O6nH1UE0?t=719), the architectural design of her own home, was stolen! The chef had copied Ina's house, from the bricks used to the window design. Seeing this unfold, Bae quickly stepped in and added a title to her name. (And another line to the *chart*.)
+An auction! After days of preparation, Mordan Ramsey's auction was finally underway. Eyeing one house, Bae offered her price... [a joke!](https://youtu.be/NL8O6nH1UE0?t=637) All seemed jolly, but it seemed the occasion left Ina the Hero in a dour mood. In a grave *InaJustice*, [Ina's design](https://youtu.be/NL8O6nH1UE0?t=719), the architectural design of her own home, was stolen! The chef had copied Ina's house, from the bricks used to the window design. Seeing this unfold, Bae quickly stepped in and added a title to her name. (And another line to the *chart*.)
 
 [Lawyer The Bae](#embed:https://youtu.be/NL8O6nH1UE0?t=847)
 
@@ -22,9 +22,9 @@ Not having one last group photo with her fellow suppliers would be amiss. Though
 
 [Suppliers' Splendid Snapshots](#embed:https://youtu.be/IWNcqsQxuWo?t=5380)
 
-They ventured back to where they first mined. It was a perfect spot to capture their last meeting before going their separate ways. Gonathan agreed; he might be a humble knight, but Bae's brother was a truly talented photographer. Capturing multiple angles, suggesting poses, and encapsulating the candid moments truly exemplified his experience with the camera. 
+They ventured back to where they first mined. It was a perfect spot to capture their last meeting before going their separate ways. Gonathon agreed; he might be a humble knight, but Bae's brother was a truly talented photographer. Capturing multiple angles, suggesting poses, and encapsulating the candid moments truly exemplified his experience with the camera. 
 
-Bae returned the favor, taking photos of Gonathan and his fellow pack in front of Mordan's Tavern... shortly after [Mordan's prank faded,](https://youtu.be/NL8O6nH1UE0?t=1921) their [photo was taken.](https://youtu.be/NL8O6nH1UE0?t=2097)
+Bae returned the favor, taking photos of Gonathon and his fellow pack in front of Mordan's Tavern... shortly after [Mordan's prank faded,](https://youtu.be/NL8O6nH1UE0?t=1921) their [photo was taken.](https://youtu.be/NL8O6nH1UE0?t=2097)
 
 As Bae left, one of the houses in the auction caught her eye. An interesting one, a 7LDK (seven bedrooms, a living room, dining room, and kitchen), was up for sale, though... [its roof seemed to be quite avant-garde](https://youtu.be/NL8O6nH1UE0?t=2234) Shiori and Bae competed to buy the house before the writer remembered that Bae has kids now (one of whom was hers and Bijou's) and gracefully bowed out. But not before Bijou upped the price to 2,000 gold.
 

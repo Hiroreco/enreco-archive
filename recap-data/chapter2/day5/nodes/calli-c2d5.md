@@ -8,7 +8,7 @@ In the meanwhile, Mordan and the other newly unionized chefs banded together to 
 
 Back to the Therapy Stall once again! The tired therapist could only allude to Gonathon of the tragedy of the humble knight and his pearl in the hopes he grasps what true love *really* means. Surely, this would help lead him to remember...
 
-Mordan later joined Kiara, Rao, and Gonathon and swiftly finished the **Star Site: Chaos Dungeon**. After that, she defeats the Outlander in a duel with the power of her cooking.
+Mordan later joined Kiara, Roa, and Gonathon and swiftly finished the **Star Site: Chaos Dungeon**. After that, she defeats the Outlander in a duel with the power of her cooking.
 
 Mordan soon continued on her usual tasks. Building an onsen seemed to calm her down, but alas… a therapist’s job is never done. 
 
@@ -18,4 +18,4 @@ Next up is Bijou and her marital troubles with Shiori - and about who would take
 
 [*So unprofessional!*](#embed:https://www.youtube.com/live/ABO6qUKDBG0?si=8wRcb_rUHunL6g-l&t=15020)
 
-Oh, but what should the pink chef wolf do? Mordan relies on Gonathan's [advice and comforting words](https://www.youtube.com/live/ABO6qUKDBG0?si=2mHBa7quw2R5pts9) – quite ironic for the therapist to become the patient. She even considered quitting altogether. Perhaps opening a fortune telling stand will bring her success in the future...
+Oh, but what should the pink chef wolf do? Mordan relies on Gonathon's [advice and comforting words](https://www.youtube.com/live/ABO6qUKDBG0?si=2mHBa7quw2R5pts9) – quite ironic for the therapist to become the patient. She even considered quitting altogether. Perhaps opening a fortune telling stand will bring her success in the future...

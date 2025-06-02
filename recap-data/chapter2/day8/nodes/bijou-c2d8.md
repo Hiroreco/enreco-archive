@@ -2,7 +2,7 @@ As with the others, today was a day of celebration and goodbyes. Though, surpris
 
 It wasn’t a day without some [eavesdropping](https://www.youtube.com/live/C6kmnHsopgM?si=avfoBgSKUq9BJzvQ&t=268) either. She had woken up on Shiori’s bed again, coming off a dream about watching Pokémon movies. Shiori was already up, writing someone’s commission in the center of the room. Bijou warped away just as she finished to avoid getting caught.
 
-She comes across Shiori anyway in the library. They theorize what may happen at the banquet; surely nothing bad will happen, right? ……Right?
+She comes across Shiori anyway in the library. They theorize what may happen at the banquet; surely nothing bad will happen, right? …Right?
 
 [Would be a shame if something happens](#embed:https://www.youtube.com/live/C6kmnHsopgM?si=AMA62ai2XxdOzql9&t=610)
 
@@ -56,13 +56,13 @@ Arguably, they could use a little guidance. The fluffy and fuzzy ones were summo
 
 [An **Advent** of something new…](#embed:https://youtu.be/C6kmnHsopgM?t=6784)
 
-To commemorate this moment, they took a [group photo](https://youtu.be/C6kmnHsopgM?t=6895) together; they were among one of the last to gather for one. Tam, Immerkind, and Gonathan helped take photos for them as well.
+To commemorate this moment, they took a [group photo](https://youtu.be/C6kmnHsopgM?t=6895) together; they were among one of the last to gather for one. Tam, Immerkind, and Gonathon helped take photos for them as well.
 
 _”The banquet will begin in 5 minutes.”_
 
 Now of their own coven, Shiori and Bijou said their farewells to the Building Area, and by extension their house. Bijou decided to carry her egg and one of Shiori’s seeds with her.
 
-She took a pit stop at the outhouse before they left for the banquet. …But she took this as an excuse to “love maps” one last time, overhearing a photo op between Gonathan and Shiori. Even as she was summoned to the Great Hall, she decided to sneak in [one last journal entry](https://youtu.be/C6kmnHsopgM?t=7324) and a selfie with her knight Immerkind before leaving.
+She took a pit stop at the outhouse before they left for the banquet. …But she took this as an excuse to “love maps” one last time, overhearing a photo op between Gonathon and Shiori. Even as she was summoned to the Great Hall, she decided to sneak in [one last journal entry](https://youtu.be/C6kmnHsopgM?t=7324) and a selfie with her knight Immerkind before leaving.
 
 ---
 
