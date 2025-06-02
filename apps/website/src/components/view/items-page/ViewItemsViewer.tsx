@@ -10,8 +10,8 @@ interface ViewItemViewerProps {
 
 const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     return (
-        <div className="flex flex-col items-center overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 h-full px-2">
-            <div className="w-[250px]">
+        <div className="flex flex-col items-center md:items-start  overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 h-full px-2">
+            <div className="w-[250px] md:mt-20">
                 <p className="font-bold text-center">Model Viewer</p>
                 <div className="w-full h-[250px]">
                     {item.modelSrc && (
@@ -37,14 +37,14 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                             First Appeared
                         </span>
                         <span className="text-muted-foreground text-center">
-                            Chapter {item.chapter + 1}
+                            Chapter {item.chapter !== -1 ? item.chapter + 1 : 1}
                         </span>
                     </p>
 
                     <p className="flex flex-col items-center text-sm mt-4">
                         <span className="font-semibold text-center">Quote</span>
                         <span className="italic text-center text-muted-foreground text-sm">
-                            {item.quote}
+                            “{item.quote}”
                         </span>
                     </p>
                 </div>

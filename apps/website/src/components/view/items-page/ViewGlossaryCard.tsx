@@ -1,11 +1,24 @@
 import { CommonItemData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
-import { Castle, ChefHat, ChevronLeft, Sword } from "lucide-react";
+import {
+    Book,
+    Castle,
+    ChefHat,
+    ChevronLeft,
+    Dices,
+    Scroll,
+    Sword,
+    UserRound,
+} from "lucide-react";
 import { ReactElement, useEffect, useState } from "react";
 
 import weapons from "#/glossary/weapons.json";
 import hats from "#/glossary/hats.json";
 import dungeons from "#/glossary/dungeons.json";
+import characters from "#/glossary/characters.json";
+import lore from "#/glossary/lore.json";
+import quests from "#/glossary/quests.json";
+import misc from "#/glossary/misc.json";
 
 import {
     Card,
@@ -56,6 +69,26 @@ const categoryMap: {
         data: dungeons,
         label: "Dungeons",
         icon: <Castle />,
+    },
+    "cat-characters": {
+        data: characters,
+        label: "Characters",
+        icon: <UserRound />,
+    },
+    "cat-lore": {
+        data: lore,
+        label: "Lore",
+        icon: <Book />,
+    },
+    "cat-quests": {
+        data: quests,
+        label: "Quests",
+        icon: <Scroll />,
+    },
+    "cat-misc": {
+        data: misc,
+        label: "Miscellaneous",
+        icon: <Dices />,
     },
 };
 
