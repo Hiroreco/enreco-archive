@@ -1,4 +1,4 @@
-<!-- The Outsider -->
+<!-- title: The Outsider -->
 
 A cosmic being that was imprisoned for eons in the illusory world of Libestal Ficta. Mad with hatred, he now turns his wrath upon the unsuspecting universe.
 
