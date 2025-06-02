@@ -17,11 +17,11 @@ Fuwawa Abyssguard was one of the few "normal" heroes amidst the chaos. Rarely dr
 **Name:** Fuwawa Abyssguard
 **Guild:** Jade Sword
 
-Though she started off more lost than most, Fuwawa showed a strong will to grow, learning as she went. With the help of Elizabeth, her trusty breadlady, she found her footing and steadily carved her own path. She never gambled, never stirred up conflict—just focused on her quests. This made her a sharp contrast to her fuzzier counterpart, Mococo, who frequently got into trouble. Fuwawa spent much of her time keeping an eye on her, until she got so fed up that she gave up trying altogether.
+Though she began more lost than most, Fuwawa showed a strong will to grow, learning as she went. With the help of Elizabeth, her trusty bread lady, she found her footing and steadily carved her own path. She never gambled, never stirred up conflict—just focused on her quests. This made her a sharp contrast to her fuzzier counterpart, Mococo, who frequently got into trouble. Fuwawa spent much of her time keeping an eye on her until she got so fed up that she gave up trying altogether.
 
 Toward the end, Fuwawa found unexpected joy in chickens. It began when she tended Elizabeth’s small flock of chicks, and soon, she developed a deep connection with them. But when corruption took hold of the kingdom, tragedy struck. Again and again, her beloved chicks were slaughtered despite her best efforts to protect them. Eventually, Fuwawa herself fell to the corruption.
 
-Yet, with the help of her comrades, the corruption was vanquished and Fuwawa returned to normal. Peace was restored, and once more she gathered a new flock of chicks—her happiness complete… until Mococo accidentally murdered them all again.
+Yet, with the help of her comrades, the corruption was vanquished, and Fuwawa returned to normal. Peace was restored, and once more she gathered a new flock of chicks—her happiness complete… until Mococo accidentally murdered them all. Again.
 
 ### Chapter 2
 
@@ -30,7 +30,7 @@ Yet, with the help of her comrades, the corruption was vanquished and Fuwawa ret
 
 Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on the role of a chef—not for power or glory, but simply because she wanted to make others smile through her cooking. With that goal, she wasted no time in building a cozy little café, hoping it could become a space where people came together in a kingdom rife with drama.
 
-She worked hard, gathering ingredients and crafting dishes with care—but things didn’t go as planned. For days, not a single dish sold. Her café was quiet, ignored. She began to feel invisible. The other chefs were just too good, she thought. And with no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. Loneliness crept in.
+She worked hard, gathering ingredients and crafting dishes with care—but things didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible. The other chefs were just too good, she thought. And with no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. Loneliness crept in.
 
 But then, at the end of Day 5, a kind orange lady gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was overjoyed—so much so that she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
 
@@ -38,4 +38,4 @@ It felt like the perfect ending.
 
 But then came the twist.
 
-On the final day, Fuwawa, along with Mococo, Bijou, Nerissa, and Shiori, turned away fr om the other heroes. They rejected Fia’s wish, and chose to follow their own path.
+On the final day, Fuwawa, along with Mococo, Bijou, Nerissa, and Shiori, turned away from the other heroes. They rejected Fia’s wish and chose to follow their own path.
