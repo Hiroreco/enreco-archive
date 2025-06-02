@@ -28,7 +28,7 @@ The dialogue she had with the Princess and the Outlander after the duel had Bijo
 
 Fast forwarding to the end of the day, after one hectic therapy session later, Bijou and Shiori decided to cool down and [wrote their daily journals](https://youtu.be/AwTYvoyB3Xo?t=19395) together inside the therapist shack. But… the day’s tension was not over.
 
-As the two were about to submit their daily journals to the library, they walked into Tam and IRyS. The queen was confessing her love to IRyS. Bijou sees this all go down from a distance, not even thinking at first to go to her brother’s side.
+As the two were about to submit their daily journals to the Library, they walked into Tam and IRyS. The queen was confessing her love to IRyS. Bijou sees this all go down from a distance, not even thinking at first to go to her brother’s side.
 
 And then, broke the news. IRyS... was EXPECTING?! Hearing what Tam and IRyS were saying… the Princess started to spiral too.
 

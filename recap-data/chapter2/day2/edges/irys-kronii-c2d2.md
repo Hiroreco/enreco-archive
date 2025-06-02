@@ -10,7 +10,7 @@ The flirty duo later attempted to give each other [nicknames](https://www.youtub
 
 Were they in love? Well... at least one of them was. As for the Pink One, she was—how do we put this—just _weird_. And somehow, Tam found herself head over heels for this eccentric woman who may or may not have had a severe case of schizophrenia. But hey, love rarely makes sense.
 
-Later, the two settled down in the library to document their journey. Tam wrote in her journal—[six pages](https://www.youtube.com/live/k9ZejRHvNV0?si=3AKlEPdidPRmd0_z&t=9419), short and concise—about her day with the Pink One: the help she received, the quirky antics, the enchanting voice that sang “Lava Chicken,” and the bittersweet feelings she held for someone technically already married.
+Later, the two settled down in the Library to document their journey. Tam wrote in her journal—[six pages](https://www.youtube.com/live/k9ZejRHvNV0?si=3AKlEPdidPRmd0_z&t=9419), short and concise—about her day with the Pink One: the help she received, the quirky antics, the enchanting voice that sang “Lava Chicken,” and the bittersweet feelings she held for someone technically already married.
 
 Meanwhile, at the other end of the table... [14 pages](https://www.youtube.com/live/axlJjQQ_rzU?si=0Q2ZcIVH52OhsBcQ&t=26063). A detailed rundown of financial woes, drunken escapades, plans to fatten a cat into a perfectly round loaf, chocolate cakes, egg hunts, chicken scouting—oh, and _one single page_ about Tam.
 
