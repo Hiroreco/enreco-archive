@@ -30,7 +30,7 @@ Sadly, things quickly go south. As the baby is taking her first steps, Mococo ki
 
 [Maps...maps... I love maps...](#embed:https://www.youtube.com/live/4_zJe0t0558?si=i-m4qvVv7hVV7F09&t=12638)
 
-Bijou finds herself lost in this conflict; she realizes her sister is leaving her onii-chan, and a duel is set between Gonathon and The Hot Pink One, with concerning stakes. If the princess' brother were to lose, someone would have to cut open her stomach. With no one else willing to fulfill this task, Bijou decides to take it upon herself... Maps... Maps... Maps... Maps are the only true...
+Bijou finds herself lost in this conflict; she realizes her sister is leaving her onii-chan, and a duel is set between Gonathon and the Hot Pink One, with concerning stakes. If the princess' brother were to lose, someone would have to cut open her stomach. With no one else willing to fulfill this task, Bijou decides to take it upon herself... Maps... Maps... Maps... Maps are the only true...
 
 And so, the duel starts. And while the goddess tries her best, she quickly finds out she's no match for the knight, and it is time for her punishment. Bijou gets close to her onii-chan and starts the excruciating process, she cuts, and cuts, and cuts. Reaping everything out, making sure there is nothing left inside. And at the end of this, she finds inside a single thing... A... Soul...? Alcohol...?
 
@@ -48,7 +48,7 @@ Without time to lose, Bijou runs to buy a ring, a ring not to propose, but to pr
 
 They teleport to the witch's house, set the ring on display, and rename it to The Home of Gothrock, as they will now live together.
 
-Bijou leaves her home once more to talk with her onii-chan, which led the little princess to stand in the middle of the conflict between her step mother and her brother once more. Tam, deciding she no longer wishes to keep wasting her time arguing, leaves, leaving Bijou and The Hot Pink One alone.
+Bijou leaves her home once more to talk with her onii-chan, which led the little princess to stand in the middle of the conflict between her step mother and her brother once more. Tam, deciding she no longer wishes to keep wasting her time arguing, leaves, leaving Bijou and the Hot Pink One alone.
 
 Is it then that her brother is determined to convince Bijou the princess that the queen only desires to use her. However, Bijou is reluctant to believe this.
 

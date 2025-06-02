@@ -30,7 +30,7 @@ She was rejected.
 
 Swiftly, Gonathon was by Bae's side, a witness to her heartbreak (see [Bae-Gigi](#edge:bae-gigi)).
 
-With love, and Cecilia, behind her, Bae witnessed the... party. Slightly awkward as others may have known about her recent plight, Bae reassured all that she was fine, even introducing IRyS to her [abandoned nephew.](https://youtu.be/Br6dvhVJ_IE?t=5633) Soon the party started and, tradition at this point, drama ensued. Queen Tammy [rejecting The Hot Pink One](https://youtu.be/Br6dvhVJ_IE?t=5761), Gonathon jumping at his Queen's defence.
+With love, and Cecilia, behind her, Bae witnessed the... party. Slightly awkward as others may have known about her recent plight, Bae reassured all that she was fine, even introducing IRyS to her [abandoned nephew.](https://youtu.be/Br6dvhVJ_IE?t=5633) Soon the party started and, tradition at this point, drama ensued. Queen Tammy [rejecting the Hot Pink One](https://youtu.be/Br6dvhVJ_IE?t=5761), Gonathon jumping at his Queen's defence.
 
 [... Who was going to deliver the child?](https://youtu.be/Br6dvhVJ_IE?t=5883)
 
