@@ -1,6 +1,7 @@
 <!-- title: Explorer's Journal #3 -->
 
 20th day of Midspring, 1006
+
 Why must you haunt my dreams like this? My tears may have dried, but that doesn't mean I've forgotten. I think of you every day. You're the reason I'm out here, adventuring, instead of taking over the shop like Ma wanted.
 
 But you're right. We can't just stop and go home, not now. We must be getting close.

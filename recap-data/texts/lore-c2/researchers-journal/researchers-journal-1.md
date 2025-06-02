@@ -2,7 +2,7 @@
 
 3rd day of Early Summer, 1006
 
-We've decided to call the shadow creatures ""Stains."" They were first observed in the Sidero region, but their spread has been rapid and relentless.
+We've decided to call the shadow creatures "Stains." They were first observed in the Sidero region, but their spread has been rapid and relentless.
 
 These past weeks, I have been leading the research team investigating this new threat. Here's what we know so far:
 
