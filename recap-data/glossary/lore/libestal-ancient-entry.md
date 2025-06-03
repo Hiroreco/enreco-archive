@@ -1,7 +1,7 @@
 <!-- title: Kingdom of Libestal (Ancient) -->
 <!-- quote: Here, in the distant past, the Outsider was born. -->
 <!-- chapter: 1 -->
-<!-- images: (Ancient Libestal Overview #1), (Ancient Libestal Overview #2), (Ancient Libestal Overview #3), (Exterior of Libestal Castle), (Interior of Libestal Castle #1), (Interior of Libestal Castle #2), (Interior of Libestal Castle #3), (Interior of Libestal Castle #4), (Ancient Libestal Concerpt Art) --->
+<!-- images: (Ancient Libestal Overview #1), (Ancient Libestal Overview #2), (Ancient Libestal Overview #3), (Exterior of Libestal Castle), (Interior of Libestal Castle #1), (Interior of Libestal Castle #2), (Interior of Libestal Castle #3), (Interior of Libestal Castle #4), (Ancient Libestal Concept Art) --->
 <!-- model: false -->
 
 ## Overview
@@ -14,14 +14,14 @@ Ancient Libestal, unlike the fabricated kingdom the heroes were summoned to in t
 
 ### Preface
 
-As the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to Fia, the current caretaker of The Library, who brought the heroes back in time to an earlier, real Libestal. Her hope was that the heroes—now known as the Shining Stars—could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.
+As the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to Fia, the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. Her hope was that the heroes—now known as the Shining Stars—could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.
 
 ### Setting
 
 Ancient Libestal, as its name implies, was set in a distant past, reflected in its antique architecture and atmosphere. The kingdom served as the last sanctuary for the world’s inhabitants, as the rest of the land was slowly being consumed by the Ruination. Stains ravaged the wilderness, and death was ever-present. Unlike the previous Libestal, there were no guilds here. Instead, the kingdom’s survival relied on four core occupations:
 
 - **The Smith** – Forged upgrade stones used to enhance Revelation weapons.
-- **The Jeweler** – Crafted charms that bolstered health and defense.
+- **The Jeweler** – Crafted charms that enhanced health and bolstered defense.
 - **The Chef** – Cooked meals that granted powerful buffs for exploration and combat.
 - **The Supplier** – Enchanted tools to improve resource-gathering efficiency.
 
@@ -32,7 +32,7 @@ One noticeable difference between the fabricated and the real Libestal was how a
 From above, the kingdom had a compact layout, with buildings made mostly of mud brick, adding to its ancient charm. While familiar structures such as a castle and residential areas remained, they differed significantly from their counterparts in the fabricated Libestal.
 
 **The Castle**
-The largest structure in the kingdom, the castle focused on verticality rather than width. It housed the Princess, numerous workers, and many refugees, instantly making it feel far more alive than the vacant halls of the previous castle.
+The largest structure in the kingdom, the castle focused on height rather than width. It housed the Princess, numerous workers, and many refugees, instantly making it feel far more alive than the vacant halls of the previous castle.
 
 Within the castle grounds were a variety of facilities, including the Princess's chambers, a dining hall, a dueling area, a casino, merchant stalls, and more. Most kingdom activities and sidequests took place here.
 
@@ -75,7 +75,7 @@ Before entering the Heart of Ruin, the heroes undertook a special quest on Day 6
 
 ### Ending
 
-After defeating the Heart of Ruin and saving the world, the heroes joined the kingdom's citizens for a grand victory banquet. Just as celebration peaked, tragedy struck: the Princess was assassinated by the Curse, which had somehow survived. A mysterious higher being appeared, ready to punish the heroes for “defying fate.”
+After defeating the Heart of Ruin and saving the world, the heroes joined the kingdom's citizens for a grand victory banquet. Just as the celebration peaked, tragedy struck: the Princess was assassinated by the Curse, which had somehow survived. A mysterious higher being appeared, ready to punish the heroes for “defying fate.”
 
 In the final moment, Fia intervened, transporting the heroes back to the Library to escape annihilation.
 
