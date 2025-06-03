@@ -8,6 +8,8 @@
 
 **The Kingdom of Libestal** was where the heroes were first summoned by the King, marking the beginning of their enigmatic journey. They were brought forth with the objective of defending the kingdom from a mysterious threat known as the Stains. However, it was later revealed that the kingdom itself was a fabrication—a guise for a prison holding the King, whose true identity was The Captive (the Outsider). In a grand deception, the Captive had tricked the heroes into releasing him.
 
+[Read "Kingdom of Libestal (Ficta)"](#text:libestal-ficta)
+
 ## Details
 
 ### Preface

@@ -71,7 +71,7 @@ In addition to Star Sites, two major dungeons served as key plot events:
 - **Stronghold of Ruin** – Unlocked on Day 3; where the heroes first encountered and freed the Outlander.
 - **Heart of Ruin** – Unlocked on Day 7; the final dungeon where the source of all evil—the Curse—was destroyed.
 
-Before entering the Heart of Ruin, the heroes undertook a pivotal quest on Day 6 titled **The Ritual**, which served as a narrative bridge into the finale.
+Before entering the Heart of Ruin, the heroes undertook a special quest on Day 6 titled **The Ritual**, which served as a narrative bridge into the finale.
 
 ### Ending
 
@@ -79,4 +79,4 @@ After defeating the Heart of Ruin and saving the world, the heroes joined the ki
 
 In the final moment, Fia intervened, transporting the heroes back to the Library to escape annihilation.
 
-With sorrow, Fia acknowledged that preventing the Outsider’s birth was impossible. The only path forward now was to fight him directly in the present—and that meant Libestal was doomed. Ancient Libestal fell, marking its inevitable demise.
+With sorrow, Fia acknowledged that preventing the Outsider’s birth was impossible. The only path forward now was to prevent whatever his intentions were in the present—and that meant Libestal was doomed. Ancient Libestal fell, marking its inevitable demise.
