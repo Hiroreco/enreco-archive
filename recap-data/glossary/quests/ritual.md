@@ -1,7 +1,7 @@
 <!-- title: The Ritual -->
 <!-- quote: Get the order correct, and the ritual succeeds! -->
 <!-- chapter: 1 -->
-<!-- images: (Star Site: Chaos Overview #1), (Star Site: Chaos Overview #2), (Star Site: Chaos Concept Art #3), (Star Site: Elpis Overview #4) -->
+<!-- images: (Venue where the Ritual took place)-->
 <!-- model: false -->
 
 ## Overview
@@ -26,6 +26,6 @@ The ritual could be completed by either correctly seating everyone in numerical 
 
 ### Rewards
 
-- "The Truth of Ruin" Book
+- **"The Truth of Ruin"** Book
 
 [Read "The Truth of Ruin"](#text:the-truth-of-ruin)
