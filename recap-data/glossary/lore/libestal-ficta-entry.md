@@ -1,7 +1,7 @@
 <!-- title: Kingdom of Libestal (Ficta) -->
 <!-- quote: A noble kingdom, besieged by monsters of shadow—but it was all a lie -->
 <!-- chapter: 0 -->
-<!-- images: (Entrance into the Kingdom of Libestal), (Libestal Overview #1), (Libestal Overview #2), (Outside view of the kingdom's castle), (Outside view of the Shopping Building #1), (Outside view of the Shopping Building #2), (Libestal's Wilderness #1), (Libestal's Wilderness #2), (Libestal's Wilderness #3), (Libestal's Wilderness #4), (Libestal's Wilderness #5), (Front view of Libestal Castle), (Kingdom of Libestal Concept Art), (Map of Libestal and the five Dungeons)  --->
+<!-- images: (Entrance into the Kingdom of Libestal), (Libestal Overview #1), (Libestal Overview #2), (Outside view of the kingdom's castle), (Outside view of the Shopping Building #1), (Outside view of the Shopping Building #2), (Libestal's Wilderness #1), (Libestal's Wilderness #2), (Libestal's Wilderness #3), (Libestal's Wilderness #4), (Libestal's Wilderness #5), (Front view of Libestal Castle), (Kingdom of Libestal Concept Art), (Map of Libestal and the five Dungeons) --->
 <!-- model: false -->
 
 ## Overview
@@ -31,11 +31,11 @@ Despite the kingdom’s scale, many heroes remarked on how empty it felt—its v
 
 The kingdom was vast and diverse in its architecture, with clear distinctions between major and minor structures. It could be divided into four key zones:
 
-- **Guild Headquarters** – Each guild’s headquarters housed their respective guild master and reflected their philosophy. For example, Jade Sword’s area included dueling arenas, while Amber Coin featured a casino.
+- **Guild Headquarters** – Each guild’s headquarters housed its respective guild master and reflected their philosophy. For example, Jade Sword’s area included dueling arenas, while Amber Coin featured a casino.
 
-- **Free Build Area** – A sandbox-like zone where heroes could build shops, homes, or anything else they desired. This area was subdivided by guild, with each guild’s members allotted specific land plots. Building heights and depths were restricted, and heroes could only fly or construct within their assigned territory.
+- **Free Build Area** – A sandbox-like zone where heroes could build shops, homes, or anything else they desired. This area was subdivided by guild, with each guild’s members allotted specific land plots. Building heights and depths were restricted, and heroes could only fly and construct within their assigned territory.
 
-- **The Castle** – The largest structure in the kingdom and the King’s residence. Constructed mainly from quartz, the castle had a clean, bright, and grand appearance. Despite its imposing architecture, many of its halls were eerily empty—only the throne room saw consistent use.
+- **The Castle** – The largest structure in the kingdom and the King’s residence. Constructed mainly from quartz, the Castle had a clean, bright, and grand appearance. Despite its imposing architecture, many of its halls were eerily empty—only the throne room saw consistent use.
 
 - **Miscellaneous Areas** – Additional zones included gardens, shopping buildings, and residential structures for the kingdom's occupants.
 
