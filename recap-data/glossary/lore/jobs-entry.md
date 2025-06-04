@@ -12,7 +12,7 @@ Jobs were introduced in Chapter Two as a replacement for the guild system. Unlik
 
 ### Preface
 
-Upon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into the new life. These jobs were not just titles—they introduced entirely new gameplay systems and collaboration mechanics.
+Upon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into their new life. These jobs were not just titles—they introduced entirely new gameplay systems and collaboration mechanics.
 
 ### The Four Jobs
 

@@ -36,7 +36,7 @@ Their headquarters resembled a traditional wooden guild hall filled with arcane 
 
 A haven for dreamers, visionaries, and glory-seekers—where friends could easily become rivals. Amber Coin had a rocky start, accused by others (especially the Ceruleans) of murder, kidnapping, and general coin-chasing greed.
 
-Over time, the guild lost several members: Bae vanished into the woods, Nanamoo became an honorary Scarlet, leaving only Kiara and her pink feline companion as the last two standing.
+Over time, the guild lost several members: Bae vanished into the woods, and Nanamoo became an honorary member of the Scarlet Wand, leaving only Kiara and her pink feline companion as the last two standing.
 
 Their luxurious palace-like headquarters featured grand gardens and a casino—an opulent display fitting for their name.
 

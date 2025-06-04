@@ -42,14 +42,14 @@ As the heroes ventured deeper, they uncovered scattered stories that illuminated
 
 - One tale spoke of an explorer who accidentally unearthed the corruption while seeking treasure.
 - Another followed a scholar researching the Stains, who uncovered a prophecy foretelling the world’s eventual fall.
-- A third told the account of a refugee, who witnessed the Ruination render lands uninhabitable and drive entire species to extinction.
+- A third told the account of a refugee who witnessed the Ruination render lands uninhabitable and drive entire species to extinction.
 
 _Note: Further information on these stories is available in the Library Archive._
 
 **The “Cursed” Ones**
-One particularly chilling discovery was that of the _ruin-touched_—people who had come into contact with the corruption. These individuals lost their sanity, their spirits twisted until they were driven to commit violence against those they once held dear.
+One particularly chilling discovery was that of the _ruin-touched_—people who had come into contact with the corruption. These individuals lost their sanity; their spirits twisted until they were driven to commit violence against those they once held dear.
 
-On Day 7, during the final dungeon—the Heart of Ruin—five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades, until the others managed to purify and rescue them.
+On Day 7, during the final dungeon—the Heart of Ruin—five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades until the others managed to purify and rescue them.
 
 [Read "The Truth of Ruin"](#text:the-truth-of-ruin)
 [Read "Prelude of Ruin"](#text:prelude-of-ruin)
@@ -59,4 +59,4 @@ On Day 7, during the final dungeon—the Heart of Ruin—five heroes (Fuwawa, Mo
 
 Several theories have been put forward regarding the Stains’ origins. One speculates that Stains were once Libestans, transformed through corruption. Another suggests a deeper [connection](https://www.reddit.com/r/Hololive/comments/1fbq036/enreco_theory_about_the_stains/) between the Stains and Shiori Nyavellas.
 
-At the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself, and by the heroes themselves: **"Nothing stays pure."**
+At the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself and by the heroes themselves: **"Nothing stays pure."**
