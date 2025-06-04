@@ -1,4 +1,4 @@
-<!-- title: No Goddesses or Queens, only Grems -->
+<!-- title: No Goddesses or Queens, Only Grems -->
 
 After speaking of her reverence for the HPO for a few days, Gonathon finally had a meeting with the elusive pink trickster. Assisting HPO against a pack of voracious stains, Gonathon struck up a conversation with the wannabe deity. At this point the goddess simply demanded tribute and, busy with other tasks, Gonathon departed for the dungeon.
 

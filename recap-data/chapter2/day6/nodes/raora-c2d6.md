@@ -10,7 +10,7 @@ Roa would then meet Bijou to ask about their inventory; perhaps there was someth
 
 Together with Ina, Bijou, and Bae, Roa had to play a strange game to find who was cursed by the tome. It was confusing, as the cursed one would shift after each round, and their answers would sometimes be too close to tell who would try to foil their attempts.
 
-The curse would shift from Bae to Roa to Bijou until it was purified bit by bit, leaving a book that may be able to answer some of their questions. But, [concern lingered](https://youtu.be/E-LGNO7JdO4?t=5760) about the possibility that the curse may have stayed with someone, but it was a concern thankfully unfounded. In the library, they uncover [The Truth of Ruin](https://youtu.be/E-LGNO7JdO4?t=5936). The source of Ruination and Stains may not be from Libestal but elsewhere...
+The curse would shift from Bae to Roa to Bijou until it was purified bit by bit, leaving a book that may be able to answer some of their questions. But, [concern lingered](https://youtu.be/E-LGNO7JdO4?t=5760) about the possibility that the curse may have stayed with someone, but it was a concern thankfully unfounded. In the Library, they uncover [The Truth of Ruin](https://youtu.be/E-LGNO7JdO4?t=5936). The source of Ruination and Stains may not be from Libestal but elsewhere...
 
 But none of it really concerned Roa in the slightest—her mind was occupied with other thoughts. Throughout her date with Elizabeth, one woman—despite not even being present that day—kept slipping into the romantic air between her and the fiery knight: _Nerissa_.
 

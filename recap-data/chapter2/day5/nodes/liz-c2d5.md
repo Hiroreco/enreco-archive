@@ -1,4 +1,4 @@
-Right from the start of the fifth day, Elizabeth already had company. She was greeted by [Roa and Bijou](https://www.youtube.com/live/9gL4We5utAk?t=490s)  —friendly morning hellos, headpats exchanged—until the blue bird lady popped in, completely ruining the mood (or more accurately, ruining Elizabeth’s ability to keep her composure).
+Right from the start of the fifth day, Elizabeth already had company. She was greeted by [Roa and Bijou](https://www.youtube.com/live/9gL4We5utAk?t=490s)—friendly morning hellos, head pats exchanged—until the blue bird lady popped in, completely ruining the mood (or more accurately, ruining Elizabeth’s ability to keep her composure).
 
 With actual people around her this time—unlike the solitude of the day before—Elizabeth joined the gang to tackle the Star Site: Chronos dungeon. Upon completion, she recovered memories of Ouro Kronii and came to a simple yet powerful realization: having others around really did make all the [difference](https://www.youtube.com/live/9gL4We5utAk?t=6644s).
 

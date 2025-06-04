@@ -1,6 +1,6 @@
 It was quite surreal. The journey was finally over, and Bae could finally return and live her life in the woods, and find that blasted box of hers too while she was at it.
 
-But it seemed peace wasn't felt by all—Queen Tammy and... Oh, it's [The Hot Pink One again](https://youtu.be/NL8O6nH1UE0?t=289). We're having a spat. They looked to be fine at first, but then the goddess magically disappeared from the Queen's eyes, becoming little less than wind—a rather noisy one.
+But it seemed peace wasn't felt by all—Queen Tammy and... Oh, it's [the Hot Pink One again](https://youtu.be/NL8O6nH1UE0?t=289). We're having a spat. They looked to be fine at first, but then the goddess magically disappeared from the Queen's eyes, becoming little less than wind—a rather noisy one.
 
 And speaking of fresh air, Fuwawa, the blessing that she truly is in this world, shared some of [her wonderful cooking with Bae.](https://youtu.be/NL8O6nH1UE0?t=390) Though Bae would have to wait to eat the tart, she was nonetheless enthused by the gift.
 

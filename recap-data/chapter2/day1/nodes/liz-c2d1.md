@@ -4,7 +4,7 @@ There was a lot to take in, but one detail stood out to Elizabeth more than anyt
 
 Elizabeth found this peculiar. She could still recall everything—her battles, her comrades, the life she once lived. But not everyone could say the same. When she met Mococo again, the latter didn’t even [recognize her](https://www.youtube.com/live/2toZfafpyW8?si=7Td3cbu0PPDJkx27&t=606).
 
-After some discussion about the library's mechanics with Kiara and Calli, Elizabeth eventually met with the Princess, who further clarified the current state of things.
+After some discussion about the Library's mechanics with Kiara and Calli, Elizabeth eventually met with the Princess, who further clarified the current state of things.
 
 Having had enough of the info dump, Elizabeth’s new journey began. Like everyone else, she needed to learn the ropes of this unfamiliar kingdom. A lot had changed: the guilds were no more, her Jade Sword guildmaster was nowhere to be found, and her former guildmates didn’t even remember her clearly. Her status as a knight who once protected the kingdom no longer held any meaning. Instead, she was told she had to… get a job.
 

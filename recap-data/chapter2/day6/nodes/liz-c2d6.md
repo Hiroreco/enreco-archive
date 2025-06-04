@@ -12,7 +12,7 @@ Against her wishes, Elizabeth has no choice but to use magic to escape to safety
 
 Soon after, the event begins with a letter from the Princess herself. Everyone is to perform a ritual to clear a mysterious and cursed tome. Without a second thought, Elizabeth teams up with Nerissa, Gonathon, and Mococo. The group successfully clears it in two tries, and concern rises for her sister Mococo, who was double-cursed during the ritual.
 
-After reading the book in the library, Elizabeth finally talks to Nerissa, requesting they spar again. After a short talk with Gonathon, she makes it up to the sparring area after walking the entire way again like a true and proper knight.
+After reading the book in the Library, Elizabeth finally talks to Nerissa, requesting they spar again. After a short talk with Gonathon, she makes it up to the sparring area after walking the entire way again like a true and proper knight.
 
 With a 2-0 fight in Liz's favor, Nerissa has one last chance to win and claim the prize. Without being nicked even once, the Witch wins the battle and passes her the [ring](https://www.youtube.com/watch?v=uEB2dIe37oo&t=20317s).
 

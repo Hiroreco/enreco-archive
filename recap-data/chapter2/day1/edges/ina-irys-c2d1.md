@@ -1,4 +1,4 @@
-<!-- title: Consort, again -->
+<!-- title: Consort, Again -->
 
 The love of her life had returned—her eternal consort, her walking bank account, her one and only Ninomae Ina’nis. Despite claiming to be illiterate and to have forgotten most things from her past, the Hot Pink One remembered one thing clearly: her undying bond with the purple priestess. And yes, she was still illiterate.
 

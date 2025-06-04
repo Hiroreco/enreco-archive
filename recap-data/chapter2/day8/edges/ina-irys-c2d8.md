@@ -1,4 +1,4 @@
-<!-- title: So long, Consort -->
+<!-- title: So Long, Consort -->
 
 The Hot Pink One didn’t know how to react.
 

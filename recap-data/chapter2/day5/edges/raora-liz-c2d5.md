@@ -1,4 +1,4 @@
-<!-- title: Who's a Pretty Kitty, You are! -->
+<!-- title: Who's a Pretty Kitty, You Are! -->
 
 There was something familiar about Lady Elizabeth Bloodflame. Is it her strength? Her alluring beauty?
 

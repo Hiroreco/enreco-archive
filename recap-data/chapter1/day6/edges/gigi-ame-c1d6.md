@@ -16,7 +16,7 @@ Throughout all this, it was clear how close the two were. They cared for each ot
 
 As he reminisced about how crazy the journey had been, he thought about writing a [book](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=7660)—a book about the people he’d met, the adventures he’d gone on, and most importantly, his beloved. A book about how he hoped everything would stay the same.
 
-A book about how he wished things would never change....
+A book about how he wished things would never change...
 Jyonathan went on to complete the final dungeon, and from that conquest, she remembered who she was.
 Her name wasn’t Jyonathan, nor was she some lunatic who wanted to kill the king. She was Amelia Watson, the number one detective. She remembered everything—her past friends, her accomplishments, her legacy, everything that made her the person she was.
 But in return, she forgot something, or rather, someone, someone near and dear to her. A tradeoff many would deem cruel.

@@ -1,4 +1,4 @@
-<!-- title: That one Time the Queen was Sent To Another World and is Now Suddenly a Maid for a Goddess and Cat -->
+<!-- title: That One Time the Queen was Sent To Another World and is Now Suddenly a Maid for a Goddess and Cat -->
 
 Roa later meets "Tam Tenders" where they share are an emotional moment where they realize they remember each other. Roa offers almost everything to her queen who is in needed of charms.
 
