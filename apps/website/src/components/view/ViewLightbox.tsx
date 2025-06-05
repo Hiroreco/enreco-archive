@@ -212,7 +212,7 @@ const ViewLightbox = ({
                         {images.length > 1 && (
                             <div
                                 ref={carouselRef}
-                                className="flex justify-start gap-2 overflow-x-auto py-2 px-4 max-w-full scroll-smooth"
+                                className="flex justify-start gap-2 overflow-x-auto py-2 px-4 max-w-full lg:max-w-[60vw] md:max-w-[80vw] scroll-smooth"
                                 style={{
                                     scrollbarWidth: "thin",
                                     scrollbarColor:
