@@ -14,4 +14,4 @@ The pink lady dismissed all doubts with characteristic flair. To nurture this ne
 
 [Pink woman and her bank account](#embed:https://www.youtube.com/live/z4R10dPeuwY?t=8693)
 
-Yet, her commitment seemed dubious when considering her earlier remarks about Gonathon’s wife, Jyonathan. The Hot Pink One had often joked that Jyonathan could be her "backup plan" should the marriage falter. While she swore these were harmless jokes, the line between jest and truth had always been blurry with her. Surely, the pink lady wouldn’t stoop so low as to pursue her guildmate’s beloved…right?
+Yet, her commitment seemed dubious when considering her earlier remarks about Gonathon’s wife, Jyonathan. The Hot Pink One had often joked that Jyonathan could be her "backup plan" should the marriage falter. While she swore these were harmless jokes, the line between jest and truth had always been blurry with her. Surely, the pink lady wouldn’t stoop so low as to pursue her guildmate’s beloved… right?
