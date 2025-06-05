@@ -10,7 +10,7 @@ But personal heartbreak aside, Nerissa had more pressing things to focus on—li
 
 She fought the [Outlander](https://www.youtube.com/live/m5VOeHvSgbI?si=wbEBqq7W5kOczeb2&t=11263), she then tried reading tearful stories of past heroes and their [grim fates](https://www.youtube.com/live/m5VOeHvSgbI?si=Qsn5tfyuwRebdnaA&t=11614) battling the Stains, hoping the emotional weight of their struggles might distract her from her own. It didn’t.
 
-Nerissa couldn’t stop thinking about Elizabeth. It seemed like the red knight had been keeping her distance—ignoring her, brushing her off— and as soon as she noticed it, something inside Nerissa had begun to fracture. She _thought_ there was something between them. Something special. And now? Now she felt unwanted. Unseen.
+Nerissa couldn’t stop thinking about Elizabeth. It seemed like the red knight had been keeping her distance—ignoring her, brushing her off—and as soon as she noticed it, something inside Nerissa had begun to fracture. She _thought_ there was something between them. Something special. And now? Now she felt unwanted. Unseen.
 
 Desperate for clarity, she turned to Mordan for comfort. Therapy, really.
 

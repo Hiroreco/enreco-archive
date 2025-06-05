@@ -28,7 +28,7 @@ Like lovers dancing, they waltzed with their blades. The sound of the clashing d
 
 Even when Nerissa questions it, Elizabeth doesn't take the statement back. She doubles down with a "yes," solidifying her new stance on the woman in blue and her lucky charm.
 
-After a few rounds, Lady Bloodflame was finally declared the victor, so Nerissa made haste to buy her a prize— a gorgeous ring with pink stone, similar to what the knight had given her in the previous days.
+After a few rounds, Lady Bloodflame was finally declared the victor, so Nerissa made haste to buy her a prize—a gorgeous ring with pink stone, similar to what the knight had given her in the previous days.
 
 ---
 

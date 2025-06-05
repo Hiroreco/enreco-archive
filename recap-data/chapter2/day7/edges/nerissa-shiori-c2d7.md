@@ -12,6 +12,6 @@ Nerissa confirmed, indeed she was a witch. Unsure if she was one before, she kne
 
 ***The Covenant***
 
-Shiori offered Nerissa a pact— like a good neighbor, State Farm is there! They had both agreed, forming the first witch coven in Libestal. They would look out for each other, for their own kind. Both were open to recruiting other witches, the more the merrier! The two witches believed it would be beneficial to everyone, both glad they could come to such an agreement. 
+Shiori offered Nerissa a pact—like a good neighbor, State Farm is there! They had both agreed, forming the first witch coven in Libestal. They would look out for each other, for their own kind. Both were open to recruiting other witches, the more the merrier! The two witches believed it would be beneficial to everyone, both glad they could come to such an agreement. 
 
 As they departed, Nerissa wished Shiori luck on her party planning, and Shiori wished Nerissa luck on her toxic yuri with the not-so-noble knight, Lady Bloodflame.

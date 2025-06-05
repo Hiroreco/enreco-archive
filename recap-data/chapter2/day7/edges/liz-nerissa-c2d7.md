@@ -58,7 +58,7 @@ _I dare not trust your words, but you are a danger - so locked up you must._
 
 **_"The monster behind me now stands before you."_**
 
-The recent development in their relationship would have probably made one maiden’s heart swoon. Elizabeth had started warming up to her— following her around, giving her gifts, showering her with praises, and making sure she was well and protected.
+The recent development in their relationship would have probably made one maiden’s heart swoon. Elizabeth had started warming up to her—following her around, giving her gifts, showering her with praises, and making sure she was well and protected.
 
 She even called her beautiful. And promised she would always stay by her side…
 

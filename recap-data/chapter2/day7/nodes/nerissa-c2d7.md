@@ -34,7 +34,7 @@ _"You... evil witch! I knew you were evil from the very beginning"_
 
 Roa Pandora struggled in fighting for her sanity, while the raven one laughed at her demise.
 
-After quite some time, the big cat was finally able to get out of her possession… Only at the cost of another person— [Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).
+After quite some time, the big cat was finally able to get out of her possession… Only at the cost of another person—[Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).
 
 ---
 
