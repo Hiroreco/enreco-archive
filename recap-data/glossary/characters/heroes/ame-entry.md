@@ -1,6 +1,6 @@
 <!-- title: Amelia Watson -->
 <!-- quote: The King has a stain on his pants-->
-<!-- chapters: -1 -->
+<!-- chapters: 0 -->
 <!-- images: (Jyan exploring the Kingdom of Libestal), (Recollection - Amelia Watson) -->
 <!-- model: false -->
 
