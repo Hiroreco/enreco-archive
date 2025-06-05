@@ -14,9 +14,6 @@ After sobering up with Nerissa's water and discussions with Iphania and Fia, the
 
 [Restful sleep](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=T199bfN1vhes8XhF&t=10944)
 
-### Objective Tracker - Project Abortion
-No progress
-
 ### Fanart
 [Soul (Stream thumbnail) by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)
 
