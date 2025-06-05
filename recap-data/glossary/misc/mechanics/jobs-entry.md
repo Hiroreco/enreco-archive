@@ -35,7 +35,7 @@ Smiths also gained a passive combat buff: a scaling chance to deal increased dam
 
 #### Jeweler
 
-**Occupants:** Koseki Bijou, Nino Ina, Roa Pandora, Mococo Abyssguard
+**Occupants:** Koseki Bijou, NinoIna, Roa Pandora, Mococo Abyssguard
 **Lead:** Grand Jeweler Chrys
 
 Jewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.

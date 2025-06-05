@@ -1,7 +1,7 @@
 <!-- title: Portraits -->
 <!-- quote: Looking at this makes me feel nostalgic... -->
 <!-- chapters: 1 -->
-<!-- images: (Portrait of Mordon Ramsay), (Portrait of Tanakisha Karia), (Portrait of Nino Ina), (Portrait of Tam Gandr), (Portrait of the Hot Pink One), (Portrait of Peasant Da Bae), (Portrait of Shiori Nyavella), (Portrait of Nerissa Ravencroft), (Portrait of Fuwawa Abyssguard), (Portrait of Mococo Abyssguard), (Portrait of Koseki Bijou), (Portrait of Elizabeth Rose Bloodflame), (Portrait of Gonathon G), (Portrait of Cecilia Immerkind), (Portrait of Roa Pandora) -->
+<!-- images: (Portrait of Mordon Ramsay), (Portrait of Tanakisha Karia), (Portrait of NinoIna), (Portrait of Tam Gandr), (Portrait of the Hot Pink One), (Portrait of Peasant Da Bae), (Portrait of Shiori Nyavella), (Portrait of Nerissa Ravencroft), (Portrait of Fuwawa Abyssguard), (Portrait of Mococo Abyssguard), (Portrait of Koseki Bijou), (Portrait of Elizabeth Rose Bloodflame), (Portrait of Gonathon G), (Portrait of Cecilia Immerkind), (Portrait of Roa Pandora) -->
 <!-- model: false -->
 
 ## Overview
@@ -25,7 +25,7 @@ Each hero's portrait was unique, both in art style and in the story it portrayed
 
 - Portrait of Mordan Ramsey - [nino](https://x.com/2nochuu/status/1902511940938952880)
 - Portrait of Tanakisha Karia - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)
-- Portrait of Nino Ina - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)
+- Portrait of NinoIna - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)
 - Portrait of Tam Gandr - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)
 - Portrait of the Hot Pink One - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)
 - Portrait of Peasant Da Bae - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)
