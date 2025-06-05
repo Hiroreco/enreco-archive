@@ -1,4 +1,4 @@
-<!-- title: Stronghold Of Ruin -->
+<!-- title: Heart of Ruin -->
 <!-- quote: They brought this upon themselves—Nothing stays pure -->
 <!-- chapters: 1 -->
 <!-- images: (Heart of Ruin Overview #1), (Heart of Ruin Overview #2), (Heart of Ruin Overview #3), (Heart of Ruin Concept Art #1), (Heart of Ruin Concept Art #2), (Heart of Ruin Concept Art #3) -->
