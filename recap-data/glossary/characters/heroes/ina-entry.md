@@ -1,0 +1,37 @@
+<!-- title: Ninomae Ina'nis -->
+<!-- quote: Potato... Po-ta-to -->
+<!-- chapters: -1 -->
+<!-- images: (Ina, along with Shiori, activating their Revelation), (Recollection of Ina), (Ina in Chapter 2's Ending)  -->
+<!-- model: false -->
+
+## Overview
+
+**Memories:** Recollected
+
+Ninomae Ina'nis, or more casually, Nino Ina, was one of the rare few—alongside Fuwawa—who could be considered relatively normal in this enigmatic journey. Hard-working, always on the grind, empathetic and calm, she stood in stark contrast to the chaos around her. And she had a wife who was almost her complete opposite.
+
+## Details
+
+### Chapter 1
+
+**Name:** Nino Ina
+**Guild:** Cerulean Cup
+
+Ina began her journey with a more reserved demeanor than most. Despite being placed in the same guild as some of the most eccentric individuals in the kingdom, she remained calm and collected throughout. She quickly bonded with others, most notably entangling herself with the Hot Pink One, whom she declared her eternal consort as early as Day 2, and with Bijou, whom she lovingly regarded as a sister—bonded over the shared memory of a "wooden shovel."
+
+She was always there when others needed help, standing by during conflicts and supporting her guildmates. Toward the end of the first journey, she became one of the key heroes in halting the corruption, discovering the cure and saving others—especially her sister—from the depths of darkness.
+
+Ina proved herself to be loyal and dependable, both to her guild and to her beloved. Even when the latter occasionally hurt her feelings, Ina’s empathetic heart led her to forgive. She gave gifts, love, and even gracefully accepted the Hot Pink One’s desire for romantic "side chicks" without resentment.
+
+### Chapter 2
+
+**Name:** Nino Ina
+**Job:** Jeweler
+
+Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming potatoes by her humble abode.
+
+She upheld her sisterly bond with Bijou—and this time, didn’t need to save her from any corruption. Her path seemed to promise a peaceful, steady journey once again… until the final days.
+
+The Hot Pink One, still Ina’s consort for the majority of the story, began to test the limits of Ina’s patience with her growing chaos. From the sudden announcement of her pregnancy, to escalating tensions between her and Tam Gandr (her other romantic entanglement), to Tam asking Ina to be her lover instead, and then the Pink One demanding that Ina be hers and hers alone—it all became too much for the potato-loving jeweler.
+
+And so, Ina made a decision. She would set off on her own journey—a path of reflection, seeking enlightenment, and asking herself where things had gone wrong… and whether her relationship with the Pink One was still something worth holding onto.

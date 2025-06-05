@@ -86,7 +86,6 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     const [selectedCategory, setSelectedCategory] = useState("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
 
-    // filteredData is now a map: subcategory → CommonItemData[]
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
     useEffect(() => {
@@ -105,7 +104,6 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
         setFilteredData(newMap);
     }, [selectedChapter, selectedCategory]);
 
-    // Helper to see if every subcategory is empty
     const allEmpty = Object.values(filteredData).every(
         (arr) => arr.length === 0,
     );
