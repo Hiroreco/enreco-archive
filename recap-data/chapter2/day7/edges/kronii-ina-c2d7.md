@@ -14,7 +14,7 @@ Then somehow, this spiraled into Ina and Tam having an impromptu therapy session
 
 Yeah. What is even happening?
 
-[Therapy about...stuff](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=8802)
+[Therapy about... stuff](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=8802)
 
 In the end, Ina decided she’d figure out [later](https://www.youtube.com/live/Y_f17MHHHzc?t=9796) whether she would stay with the pink one.
 

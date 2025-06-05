@@ -10,7 +10,7 @@ Mococo joined everyone in a [picture to remember! ](https://www.youtube.com/live
 
 As the sun set in the distance, the doggy jeweler found it hard to sleep. So Mococo went snooping around people's houses to steal enigmatic stones and buy fireworks from the peasant.
 
-Bijou called upon Mococo to arrive at the wagon to start a new group....
+Bijou called upon Mococo to arrive at the wagon to start a new group...
 
 ["ADVENT" is a weird name.](#embed:https://www.youtube.com/live/-vv8XkRzP_Y?si=OSFAXSDxgbFmkWXF&t=3306)
 

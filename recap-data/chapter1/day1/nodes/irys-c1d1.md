@@ -1,4 +1,4 @@
-The lady in pink's introduction to the fantasy world was, well, a little different from the others. She awoke in the mysterious white box by herself, spoke with the king by herself, and even faced the Stain King...[by herself.](https://www.youtube.com/live/Rk7nZ91vme4?si=SR-vjc02WKIL4nUb\&t=1084)
+The lady in pink's introduction to the fantasy world was, well, a little different from the others. She awoke in the mysterious white box by herself, spoke with the king by herself, and even faced the Stain King... [by herself.](https://www.youtube.com/live/Rk7nZ91vme4?si=SR-vjc02WKIL4nUb\&t=1084)
 
 An odd and grueling start it was, but the isolation didn’t last long. Once she entered the Kingdom of Libestal, her presence made an immediate impact, transforming her lonely beginning into something much more dynamic.
 

@@ -10,4 +10,4 @@ This exchange touched Bijou so much that she insisted that Gonathon be present a
 
 While Bijou would ultimately take the side of HPO against Tam Gandr, this would not cripple the bond between princess and knight. Rather, Gonathon had simply cemented another friendship and righted another wrong she had inflicted on others the day prior. 
 
-[Little Princess...Do not Eat the Yellow Snow](#embed:https://youtu.be/alQr5XqoUPs?t=11794)
+[Little Princess... Do not Eat the Yellow Snow](#embed:https://youtu.be/alQr5XqoUPs?t=11794)
