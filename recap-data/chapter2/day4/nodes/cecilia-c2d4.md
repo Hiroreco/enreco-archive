@@ -4,7 +4,7 @@ Immerkind continues her quest to win the hearts and minds of the population as s
 
 [Interest means ... romantic interest?](#embed:https://www.youtube.com/watch?v=NGC0VaSUPnE&t=10069s)
 
-The party of Cecilia, NinoIna, HPO, Princess Bijou, and Karia depart for the Star Site: Chronos, where they [successfully discover the secret artifact](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=12540s) and defeat the Stain King Chronos to uncover the memories of Tam Gandr.
+The party of Cecilia, NinoIna, Hot Pink One, Princess Bijou, and Karia depart for the Star Site: Chronos, where they [successfully discover the secret artifact](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=12540s) and defeat the Stain King Chronos to uncover the memories of Tam Gandr.
 
 The group surrounds Kronii and barrages her with questions, but they notice her demeanor has changed. Cecilia questions Kronii about whether the [European kisses and drinks they shared](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=14720s) still matter, which she claims they do not. As the group mourns this new version of Tam, it is easy to wonder if memories are worth retrieving if it means replacing the one they learned to love.
 

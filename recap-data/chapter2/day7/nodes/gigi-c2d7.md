@@ -18,7 +18,7 @@ Returning triumphantly, Gonathon now faced his next quest: assisting Bae (see [B
 
 [Today we rise... as brothers!](#embed:https://youtu.be/rDdbFYqcAyI?t=7101)
 
-Returning to the party site, Gonathon witnessed the voracious HPO demanding that Tam Gandr be the godparent of her expected spawnling (see [Gonathon-Irys: Even God's Can Bleed](#edge:irys-gigi)). Tam flatly refused, and the queen and Gonathon retreated to Mordan Ramsey's home to seek counsel and plan their next move (see [Gonathon-Kronii: Immortal Game](#edge:kronii-gigi)). After getting some words of wisdom from Mordan, including to simply slay HPO, the queen and her retainer returned to the raucous celebration.
+Returning to the party site, Gonathon witnessed the voracious Hot Pink One demanding that Tam Gandr be the godparent of her expected spawnling (see [Gonathon-Irys: Even God's Can Bleed](#edge:irys-gigi)). Tam flatly refused, and the queen and Gonathon retreated to Mordan Ramsey's home to seek counsel and plan their next move (see [Gonathon-Kronii: Immortal Game](#edge:kronii-gigi)). After getting some words of wisdom from Mordan, including to simply slay HPO, the queen and her retainer returned to the raucous celebration.
 
 [I must answer to my queen!](#embed:https://youtu.be/rDdbFYqcAyI?t=8982)
 

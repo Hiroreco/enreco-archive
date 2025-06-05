@@ -14,7 +14,7 @@ Cecilia immediately seeks an audience with the princess and is heartbroken to fi
 
 After regaining her wits, Cecilia proposes that Gonathon become her [best man, maid of honor, and best wolf](https://www.youtube.com/watch?v=Icdii90_vSA&t=5938s) at the eventual wedding. After a moment of respite, and despite the storm in her heart, she agrees to assist Gonathon with Star Site Elpis, alongside Nerissa and Princess Bijou.
 
-They work together to defeat the Stain King once more and uncover a hidden artifact known as the [Caesura of Despair](https://www.youtube.com/watch?v=Icdii90_vSA&t=10650s). The party celebrates at the HPO's house, a welcome respite for Immerkind as she shares a beautiful moment surrounded by her friends and comrades.
+They work together to defeat the Stain King once more and uncover a hidden artifact known as the [Caesura of Despair](https://www.youtube.com/watch?v=Icdii90_vSA&t=10650s). The party celebrates at the Hot Pink One's house, a welcome respite for Immerkind as she shares a beautiful moment surrounded by her friends and comrades.
 
 After a brief moment of respite and retooling, the Wolfpack Team (Gonathon, Mordan, Cecilia, and Karia) departs for the Stronghold Ruin to rescue The Outlander. Cecilia slays countless stains and solves [difficult puzzles](https://www.youtube.com/live/Icdii90_vSA?si=2MtGJDNGarHGSAuW&t=16129) utilizing her +99 INT to reach the end of the dungeon. After the challenge, the team celebrates at Mordan's reputable establishment and [parties in Mordan's pit](https://www.youtube.com/live/Icdii90_vSA?t=17430s).
 

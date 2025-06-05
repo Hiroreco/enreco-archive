@@ -24,7 +24,7 @@ Now, if this were where Queen Tam's day ended, it would have been perfect. But i
 
 One might say there should be a way to forcefully tell the Queen to put down the proverbial shovel and stop digging, but the voices in her head were ignored like passing wind. Immerkind, clearly in distress, failed to perform a proper curtsy. The Queen, taking immediate offense, would later feel awful—classic Queen Tam—upon learning of her emotional state.
 
-After offering comforting words to the green knight about her situation with Peasant the Bae, Queen Tam invited her to attend HPO's cursed “gender reveal” party. Why the Queen wanted to attend at all, no one truly knows.
+After offering comforting words to the green knight about her situation with Peasant the Bae, Queen Tam invited her to attend the Hot Pink One's cursed “gender reveal” party. Why the Queen wanted to attend at all, no one truly knows.
 
 She was greeted with the same bombastic sign—"ITS GAS"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, NinoIna (see [Kronii-IRyS: The Audacity](#edge:irys-kronii)).
 

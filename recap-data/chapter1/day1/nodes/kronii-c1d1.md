@@ -12,13 +12,13 @@ During the battle with the *Stain King*, Tam unsheathed her weapons: a pair of d
 
 Tam’s presence in Cerulean Cup quickly established her as a dominant figure, with her charisma and aura of confidence naturally earning her respect as the guild leader. This was evident during the first major conflict in the kingdom, a heated recruitment battle between *Cerulean Cup and Amber Coin* over *the Hot Pink One*.
 
-Tam’s empathetic nature shone as she leveraged her remarkable power of persuasion—a skill she had already demonstrated while inspiring a [Libestan child](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=5140). It was no surprise when The Hot Pink One eventually succumbed to her words, sealed with Tam’s unforgettable declaration:
+Tam’s empathetic nature shone as she leveraged her remarkable power of persuasion—a skill she had already demonstrated while inspiring a [Libestan child](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=5140). It was no surprise when the Hot Pink One eventually succumbed to her words, sealed with Tam’s unforgettable declaration:
 
 ["Nobody wants you except us".](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=6213)
 
 As the day progressed, Tam found herself caught in various shenanigans. Yet, she always managed to handle situations with an air of maturity. When Gonathon was interrogated by Elizabeth, Tam intervened, *calmly* defusing the tension (see [Elizabeth-Tam: Red and Blue](#edge:liz-kronii)).
 
-By the day's end, Tam joined The Hot Pink One and Mori Calliope in the *Underworld Dungeon*, where they recovered fragments of their lost [memories](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=11965). It was a chaotic, exhausting day for Tam, filled with triumphs, conflicts, and laughter. She gained devoted followers who pledged their unwavering loyalty (see [Gonathon-Tam: You're the Queen!](#edge:gigi-kronii)).
+By the day's end, Tam joined the Hot Pink One and Mori Calliope in the *Underworld Dungeon*, where they recovered fragments of their lost [memories](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=11965). It was a chaotic, exhausting day for Tam, filled with triumphs, conflicts, and laughter. She gained devoted followers who pledged their unwavering loyalty (see [Gonathon-Tam: You're the Queen!](#edge:gigi-kronii)).
 
 But above all, she found solace in the simple yet profound comfort of having a name—*Tam*. Though it was given impulsively by Gonathon, it resonated with her, becoming a cherished part of her identity. To Tam, that name was more than just a label; it was a symbol of her newfound self, one she would carry and treasure throughout the rest of her journey.
 

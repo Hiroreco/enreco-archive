@@ -12,6 +12,6 @@ This betrayal was short-lived, however. When the rest of Cerulean Cup arrived to
 
 Her journey culminated in the group’s venture into the *Underworld Dungeon*, where she recovered the memories of [Mori Calliope](https://www.youtube.com/live/Rk7nZ91vme4?feature=shared\&t=8690), and also where she was first nicknamed [Hot Pink One](https://www.youtube.com/live/Rk7nZ91vme4?si=PZSB2R7NaSzFRo_b\&t=7601).
 
-It was a whirlwind of a day for the maiden, filled with ups, downs, and plenty of chaos. But through it all, she had fun, marking the vibrant beginning of The Hot Pink One’s journey.
+It was a whirlwind of a day for the maiden, filled with ups, downs, and plenty of chaos. But through it all, she had fun, marking the vibrant beginning of the Hot Pink One’s journey.
 
 ["Fallen Angel" by DasDokter](https://x.com/DasDokter/status/1902324865778250152)

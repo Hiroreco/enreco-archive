@@ -14,6 +14,6 @@ The victory over Stain King Elpis granted NinoIna's party a renewed fighting spi
 
 ["Mother always liked you better..."](#embed:https://youtu.be/NSOuyMjCxPI?t=8451s)
 
-Having overcome many trials, NinoIna painstakingly crafted a special wedding charm for her consort in the image of the Hero's [big red heart](https://youtu.be/NSOuyMjCxPI?t=9590s). Cecilia Immerkind yearned for the closeness they shared with each other, so of course, HPO-offered her a trial period as their "Above SC" (Super cute? Super CC?), and she was already cashing in on the therapy benefits.
+Having overcome many trials, NinoIna painstakingly crafted a special wedding charm for her consort in the image of the Hero's [big red heart](https://youtu.be/NSOuyMjCxPI?t=9590s). Cecilia Immerkind yearned for the closeness they shared with each other, so of course, the Hot Pink One-offered her a trial period as their "Above SC" (Super cute? Super CC?), and she was already cashing in on the therapy benefits.
 
 [Day 2. MEOWMEOW](#embed:https://youtu.be/NSOuyMjCxPI?t=10071s)
