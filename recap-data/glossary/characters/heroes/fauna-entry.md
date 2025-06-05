@@ -15,6 +15,8 @@ Whether that notoriety was a good or bad thing is up for debate, especially cons
 
 ## Details
 
+### Chapter 1
+
 **Name:** Ceres Fauna
 **Guild:** Scarlet Wand
 
