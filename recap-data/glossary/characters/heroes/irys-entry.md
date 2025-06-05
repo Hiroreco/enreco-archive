@@ -21,7 +21,7 @@ In the first chapter, the Hot Pink One maintained an aloof, detached demeanor. W
 
 Still, despite her relative inactivity compared to others, she quickly carved out a notorious reputation as a "side chick magnet."
 
-As early as Day 2, she had already claimed a wife—Nino Ina—and, despite professing eternal loyalty to the purple one, continued to gather more women into her orbit. Four more, to be exact. She even attempted to ensnare a fifth: a memory-lost blonde searching for her beloved. A reminder that the pink one was a member of Cerulean Cup, the supposedly empathetic guild.
+As early as Day 2, she had already claimed a wife—NinoIna—and, despite professing eternal loyalty to the purple one, continued to gather more women into her orbit. Four more, to be exact. She even attempted to ensnare a fifth: a memory-lost blonde searching for her beloved. A reminder that the pink one was a member of Cerulean Cup, the supposedly empathetic guild.
 
 Call it karma or collapse, but eventually, her polycule of side chicks unraveled, with only her eternal consort remaining at her side.
 
