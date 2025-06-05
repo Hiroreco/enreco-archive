@@ -14,7 +14,7 @@ The heroes prepared, making sure they were fully equipped to ensure victory.
 
 And when the time was right, they entered the dungeon… Until…
 
-Nerissa noticed something was different. She had been corrupted! Yet she was not alone, as a few other members-- Shiori of the Nyavella, the Fuzzy One, the Fluffy One, and Princess Bijou-- had been infected by the stains as well.
+Nerissa noticed something was different. She had been corrupted! Yet she was not alone, as a few other members-- Shiori of the Nyavella, the Fuzzy One, the Fluffy One, and Princess Bijou-- had been infected by the Stains as well.
 
 How they were chosen was unknown. One thing was clear, however: it was beyond their control, and it was up to their friends to save them… or, perhaps, take their lives if worse comes to worst.
 

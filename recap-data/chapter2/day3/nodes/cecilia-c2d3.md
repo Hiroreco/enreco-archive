@@ -2,7 +2,7 @@ Cecilia awakens from a restful sleep in the princess' bed and begins her day by 
 
 [Letter from Immerking](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=2122s)
 
-During these forays into the field, she encounters Gonathon who requires protection. Cecilia resolutely stands and protects [her dawg](https://www.youtube.com/watch?v=Icdii90_vSA&t=3608s) from the countless stains as they encroach upon the enchanted wagon.
+During these forays into the field, she encounters Gonathon who requires protection. Cecilia resolutely stands and protects [her dawg](https://www.youtube.com/watch?v=Icdii90_vSA&t=3608s) from the countless Stains as they encroach upon the enchanted wagon.
 
 As the two spend time together, Cecilia and Gonathon return to her "room," where they take a moment of respite. Unable to bear her burden any longer, she [confides the troubles](https://www.youtube.com/live/Icdii90_vSA?t=4770s) of her heart to Gonathon. Gonathon knows Immerkind's love to be true and pure and implores her to confess to the princess (see [Cecilia-Gigi](#edge:cecilia-gigi)).
 
@@ -16,7 +16,7 @@ After regaining her wits, Cecilia proposes that Gonathon become her [best man, m
 
 They work together to defeat the Stain King once more and uncover a hidden artifact known as the [Caesura of Despair](https://www.youtube.com/watch?v=Icdii90_vSA&t=10650s). The party celebrates at the Hot Pink One's house, a welcome respite for Immerkind as she shares a beautiful moment surrounded by her friends and comrades.
 
-After a brief moment of respite and retooling, the Wolfpack Team (Gonathon, Mordan, Cecilia, and Karia) departs for the Stronghold Ruin to rescue The Outlander. Cecilia slays countless stains and solves [difficult puzzles](https://www.youtube.com/live/Icdii90_vSA?si=2MtGJDNGarHGSAuW&t=16129) utilizing her +99 INT to reach the end of the dungeon. After the challenge, the team celebrates at Mordan's reputable establishment and [parties in Mordan's pit](https://www.youtube.com/live/Icdii90_vSA?t=17430s).
+After a brief moment of respite and retooling, the Wolfpack Team (Gonathon, Mordan, Cecilia, and Karia) departs for the Stronghold Ruin to rescue The Outlander. Cecilia slays countless Stains and solves [difficult puzzles](https://www.youtube.com/live/Icdii90_vSA?si=2MtGJDNGarHGSAuW&t=16129) utilizing her +99 INT to reach the end of the dungeon. After the challenge, the team celebrates at Mordan's reputable establishment and [parties in Mordan's pit](https://www.youtube.com/live/Icdii90_vSA?t=17430s).
 
 Gonathon later calls Cecilia and tells her not to talk to the princess yet and to go on an adventure with her because [wolf pack before...](https://www.youtube.com/live/Icdii90_vSA?si=_TcyB6TwuOqLVVYO&t=17714). However, Cecilia accidentally runs into Gonathon at the Library, who then implores her to consider her cousin as a potential love interest, but Cecilia rapidly departs to meet the princess, who is still absorbed with The Outlander.
 

@@ -1,6 +1,6 @@
 <!-- title: No Goddesses or Queens, Only Grems -->
 
-After speaking of his reverence for the Hot Pink One for a few days, Gonathon finally had a meeting with the elusive pink trickster. Assisting HPO against a pack of voracious stains, Gonathon struck up a conversation with the wannabe deity. At this point the goddess simply demanded tribute, and, busy with other tasks, Gonathon departed for the dungeon.
+After speaking of his reverence for the Hot Pink One for a few days, Gonathon finally had a meeting with the elusive pink trickster. Assisting HPO against a pack of voracious Stains, Gonathon struck up a conversation with the wannabe deity. At this point the goddess simply demanded tribute, and, busy with other tasks, Gonathon departed for the dungeon.
 
 After assisting State Farm with couple’s therapy (see [Bae-Bijou: Family Broken, Found, and Resolved](#edge:bae-bijou)), Gonathon once again encountered HPO as she was desperately seeking therapy following a series of unfortunate events with Tam Gandr (see [Irys-Kronii: Nice Boat](#edge:irys-kronii)). Completely oblivious to the maelstrom of controversy that had erupted between the queen and the goddess, Gonathon offered to assist HPO despite them being in opposing factions. For even if they could not be wolves, Gonathon would still serve as her [guard dog](https://youtu.be/alQr5XqoUPs?t=14697). However, the humble knight soon learned that his intended target would be none other than his beloved queen. 
 

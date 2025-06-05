@@ -6,7 +6,7 @@ She stood amidst her masterpiece—a forest corrupted and stained, littered with
 
 While exploring the kingdom, Bijou stumbled upon an unusual sight. The kingdom’s gardens had been ravaged by famine, though not by her hand. Could she have an [ally](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=805), someone aligned with her chaotic vision? The idea amused her. Distracted momentarily, she indulged in a game of [chicken-catching](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=1182)—a brief respite from her descent into darkness.
 
-Her amusement didn’t last long. Bijou then confronted the King, whom she mockingly addressed. Her words dripped with scorn and malice as she taunted him, painting vivid imagery of his downfall: his gates overrun by her stain army, his throne consumed by flames, and his ultimate demise at her hands.
+Her amusement didn’t last long. Bijou then confronted the King, whom she mockingly addressed. Her words dripped with scorn and malice as she taunted him, painting vivid imagery of his downfall: his gates overrun by her Stain army, his throne consumed by flames, and his ultimate demise at her hands.
 
 [Your time is now, King](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=1297)
 

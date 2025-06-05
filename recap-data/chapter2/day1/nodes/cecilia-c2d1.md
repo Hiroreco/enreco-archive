@@ -6,7 +6,7 @@ She travels to the meeting chamber where her gaze falls upon the beautiful Princ
 
 Immerkind becomes reacquainted with her fellow Shining Stars and helps ["Oliver"](https://www.youtube.com/live/cyLsX20esBE?si=_Q7J44xZtf5xKMqD&t=2417) with some of her memories, and Hot Pink One helps Immerkind decide upon the supplier job. She immediately departed and was assisted by Peasant the Bae (see [Bae-Cecilia: Supply Monopoly](#edge:cecilia-bae)) at the Remnants, where she gets to work. With her newfound job and comrade, they create a monopoly with Bae to become rich (with ["kindness"](https://www.youtube.com/live/cyLsX20esBE?si=98NttHZqZvCyfV3K&t=5215)).
 
-Immerkind develops her [skills](https://www.youtube.com/live/cyLsX20esBE?t=5699s) quickly, she then departs to explore the surrounding area. She strikes down the stains and saves Gonathon from a [dreaded bird](https://www.youtube.com/live/cyLsX20esBE?si=heSaCd2NMHfPv-Ah&t=6718) and tries to remind Gonathon of who he once was. As they bond, Cecilia agrees to become dogs with Gonathon (see [Cecilia-Gonathon: Up Dog](#edge:cecilia-gigi)).
+Immerkind develops her [skills](https://www.youtube.com/live/cyLsX20esBE?t=5699s) quickly, she then departs to explore the surrounding area. She strikes down the Stains and saves Gonathon from a [dreaded bird](https://www.youtube.com/live/cyLsX20esBE?si=heSaCd2NMHfPv-Ah&t=6718) and tries to remind Gonathon of who he once was. As they bond, Cecilia agrees to become dogs with Gonathon (see [Cecilia-Gonathon: Up Dog](#edge:cecilia-gigi)).
 
 [Shall we be each other's dogs?](#embed:https://www.youtube.com/live/cyLsX20esBE?t=6986s)
 

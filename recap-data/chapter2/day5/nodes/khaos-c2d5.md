@@ -1,6 +1,6 @@
 Cold. Lonely.
 
-A small stain-looking child sits among the similarly looking hats in one of Libestal's shops. 
+A small Stain-looking child sits among the similarly looking hats in one of Libestal's shops. 
 
 She's been here for a long while now, just waiting for someone. Memories of the past were too painful to remember—a feeling of warmth now left terribly cold.
 
