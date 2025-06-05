@@ -1,6 +1,6 @@
 <!-- title: Guilds -->
 <!-- quote: Responsible for ensuring the kingdom's peace and prosperity -->
-<!-- chapter: 0 -->
+<!-- chapters: 0 -->
 <!-- images: (Guilds Overview) --->
 <!-- model: false -->
 

@@ -1,20 +1,22 @@
 <!-- title: Underworld Dungeon -->
 <!-- quote: Reapers should help the living, not take away their future. -->
-<!-- chapter: 1 -->
+<!-- chapters: 0 -->
 <!-- images: -->
 <!-- model: false -->
 
 ## Overview
-The **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing. 
 
+The **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing.
 
 ## Details
+
 - requires Underworld Key
 
 ### Puzzles
+
 - Platform Parkour
--  Glass Panes
-- Lights Out: Turn off all lights in the correct sequence.  
+- Glass Panes
+- Lights Out: Turn off all lights in the correct sequence.
 - Climb the Dungeon’s Tree
 
 ### Rewards

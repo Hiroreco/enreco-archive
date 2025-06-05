@@ -1,6 +1,6 @@
 <!-- title: Fuchsia Claws -->
 <!-- quote: I'll get you with these sharp claws of mine! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Mococo's first time wielding Fuchsia Claws), (Fuchsia Claws viewed from the inventory), (Fuchsia Claws' ability activated) -->
 <!-- model: true -->
 

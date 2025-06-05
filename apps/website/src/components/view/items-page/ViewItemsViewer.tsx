@@ -37,7 +37,10 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                             First Appeared
                         </span>
                         <span className="text-muted-foreground text-center">
-                            Chapter {item.chapter !== -1 ? item.chapter + 1 : 1}
+                            Chapter{" "}
+                            {item.chapters.includes(-1)
+                                ? 1
+                                : item.chapters[0] + 1}
                         </span>
                     </p>
 

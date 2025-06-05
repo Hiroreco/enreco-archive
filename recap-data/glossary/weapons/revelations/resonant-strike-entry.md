@@ -1,6 +1,6 @@
 <!-- title: Resonant Strike -->
 <!-- quote: There I made a loud noise, now they'll be able to find us -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Nerissa's first time wielding Resonant Strike), (Resonant Strike viewed from the inventory), (Resonant Strike's ability activated) -->
 <!-- model: true -->
 

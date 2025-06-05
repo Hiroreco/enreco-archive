@@ -1,6 +1,6 @@
 <!-- title: Star Site: Elpis -->
 <!-- quote: Your one true idol, now sit back and enjoy the show! -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Star Site: Elpis Overview #1), (Star Site: Elpis Overview #2), (Star Site: Elpis Overview #3), (Star Site: Elpis Overview #4) -->
 <!-- model: false -->
 

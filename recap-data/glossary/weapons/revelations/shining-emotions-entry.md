@@ -1,6 +1,6 @@
 <!-- title: Shining Emotions -->
 <!-- quote: Shining Emotion! Wow, I'm powerful -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Bijou's first time weilding Shining Emotions), (Shining Emotions viewed from the inventory), (Shining Emotions' ability activated) -->
 <!-- model: true -->
 

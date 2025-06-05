@@ -1,6 +1,6 @@
 <!-- title: Stronghold Of Ruin -->
 <!-- quote: If Iphania trusts you, perhaps you stand a chance -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Stronghold of Ruin Overview #1), (Stronghold of Ruin Overview #2), (Stronghold of Ruin Overview #3) -->
 <!-- model: false -->
 

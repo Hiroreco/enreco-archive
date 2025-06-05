@@ -1,108 +1,150 @@
-[
-  {
-    "id": "minigames",
-    "title": "Minigames",
-    "chapter": 0,
-    "quote": "It's gotta be red this time!",
-    "content": "## Overview\n\nAside from the usual questing, the heroes could take some time off to relax and refresh their minds by participating in the kingdom’s minigames. These ranged from simple tests of strength and intelligence to losing all your savings betting on a color.\n\n## Details\n\nThere are currently **four minigames**, each originally introduced in **Chapter 1**, with every game initially representing one of the four guilds—each minigame reflecting its respective guild's ideology (only in Chapter 1).\n\n### **Color Cannon**\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Amber Coin\n\nA game of chance and tension. Players place wagers on any of four available colors:\n\n- **Blue** (x2 multiplier) – 12 positions\n- **Green** (x3 multiplier) – 8 positions\n- **Yellow** (x5 multiplier) – 4 positions\n- **Red** (x10 multiplier) – 1 position\n\nOnce the game begins, colors are eliminated one by one on a large board until only one color remains. Those who bet on the final surviving color receive their wager multiplied accordingly. High risk, high reward.\n\n[Color Cannon Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n---\n\n### **Duel Arena**\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Jade Sword\n\nA test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.\n\nIn Chapter 2, an added rule ensures the match ends in a draw if both participants are still standing after one minute. Furthermore, they could also place bets on which side they thought would come out victorious.\n\n[Duel Arena Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n---\n\n### **Mind’s Eye**\n\n**Appearance:** Chapter 1\n**Representing Guild:** Scarlet Wand\n\nA memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.\n\n[Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n---\n\n### **Chicken Rescue**\n\n**Appearance:** Chapter 1\n**Representing Guild:** Cerulean Cup\n\nA solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging repeat attempts and competition.\n\n[Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive_",
-    "thumbnailSrc": "/images-opt/minigames-thumb.webp",
-    "galleryImages": [
-      {
-        "title": "Color Cannon Minigame in Chapter 1",
-        "source": "/images-opt/minigames-0.webp"
-      },
-      {
-        "title": "Duel Arena in Chapter 1",
-        "source": "/images-opt/minigames-1.webp"
-      },
-      {
-        "title": "Mind's Eye",
-        "source": "/images-opt/minigames-2.webp"
-      },
-      {
-        "title": "Chicken Rescue",
-        "source": "/images-opt/minigames-3.webp"
-      },
-      {
-        "title": "Color Cannon Minigame in Chapter 2",
-        "source": "/images-opt/minigames-4.webp"
-      },
-      {
-        "title": "Duel Arena in Chapter 2",
-        "source": "/images-opt/minigames-5.webp"
-      }
-    ],
-    "imageSrc": "/images-opt/minigames.webp"
-  },
-  {
-    "id": "portraits",
-    "title": "Portraits",
-    "chapter": 1,
-    "quote": "Looking at this makes me feel nostalgic...",
-    "content": "## Overview\n\nIn Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art event that ran from `March 1st to March 19th, 2025`, prior to the start of Chapter 2.\n\n## Details\n\nTo receive a portrait, the heroes needed to help Pygmalion by gathering a set of materials. The task was intentionally a bit tedious, as it encouraged cooperation among the heroes. Each item was tied to a specific profession, meaning players had to seek out others in those roles:\n\n- **5 Raw Iron, 5 Raw Copper** – obtainable only from a Supplier\n- **1 Butter** – from a Chef\n- **1 Basic Upgrade Stone** – from a Smith\n- **1 Basic Azure Charm** – from a Jeweler\n\nThis quest acted not only as a way to earn a personalized portrait but also as a clever method to promote player interaction and teamwork early in Chapter 2.\n\nEach hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was meaningful.\n\n## Credits\n\n- Portrait of Mordan Ramsey - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- Portrait of Tanakisha Karia - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- Portrait of Nino Ina - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- Portrait of Tam Gandr - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- Portrait of the Hot Pink One - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- Portrait of Peasant Da Bae - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- Portrait of Shiori Nyavella - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- Portrait of Nerissa Ravencroft - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- Portrait of Fuwawa Abyssguard - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- Portrait of Mococo Abyssguard\n- Portrait of Koseki Bijou - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- Portrait of Elizabeth Rose Bloodflame - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- Portrait of Gonathon G - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- Portrait of Cecilia Immerkind - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- Portrait of Roa Pandora - [kit](https://x.com/quartzquadrant/status/1902200030980649355)",
-    "thumbnailSrc": "/images-opt/portraits-thumb.webp",
-    "galleryImages": [
-      {
-        "title": "Portrait of Mordon Ramsay",
-        "source": "/images-opt/portraits-0.webp"
-      },
-      {
-        "title": "Portrait of Tanakisha Karia",
-        "source": "/images-opt/portraits-1.webp"
-      },
-      {
-        "title": "Portrait of Nino Ina",
-        "source": "/images-opt/portraits-2.webp"
-      },
-      {
-        "title": "Portrait of Tam Gandr",
-        "source": "/images-opt/portraits-3.webp"
-      },
-      {
-        "title": "Portrait of the Hot Pink One",
-        "source": "/images-opt/portraits-4.webp"
-      },
-      {
-        "title": "Portrait of Peasant Da Bae",
-        "source": "/images-opt/portraits-5.webp"
-      },
-      {
-        "title": "Portrait of Shiori Nyavella",
-        "source": "/images-opt/portraits-6.webp"
-      },
-      {
-        "title": "Portrait of Nerissa Ravencroft",
-        "source": "/images-opt/portraits-7.webp"
-      },
-      {
-        "title": "Portrait of Fuwawa Abyssguard",
-        "source": "/images-opt/portraits-8.webp"
-      },
-      {
-        "title": "Portrait of Mococo Abyssguard",
-        "source": "/images-opt/portraits-9.webp"
-      },
-      {
-        "title": "Portrait of Koseki Bijou",
-        "source": "/images-opt/portraits-10.webp"
-      },
-      {
-        "title": "Portrait of Elizabeth Rose Bloodflame",
-        "source": "/images-opt/portraits-11.webp"
-      },
-      {
-        "title": "Portrait of Gonathon G",
-        "source": "/images-opt/portraits-12.webp"
-      },
-      {
-        "title": "Portrait of Cecilia Immerkind",
-        "source": "/images-opt/portraits-13.webp"
-      },
-      {
-        "title": "Portrait of Roa Pandora",
-        "source": "/images-opt/portraits-14.webp"
-      }
-    ],
-    "imageSrc": "/images-opt/portraits.webp"
-  }
-]
+{
+  "mechanics": [
+    {
+      "id": "guilds-entry",
+      "title": "Guilds",
+      "chapters": [
+        0
+      ],
+      "quote": "Responsible for ensuring the kingdom's peace and prosperity",
+      "content": "## Overview\n\nGuilds were created to organize the heroes into manageable groups and served as the foundational pillars of Libestal in Chapter One.\n\n## Details\n\n### Preface\n\nAfter the temporary defeat of the Stain King, the four Guildmasters introduced themselves and shared the philosophies behind their respective guilds. Each hero was then assigned to one of these four guilds by the Room of Truth.\n\n### Guilds and Members\n\nGuild assignments were made based on perceived alignment with each guild’s philosophy—though many questioned how accurate these alignments were, considering the often humorous mismatch between a hero’s personality and their assigned values.\n\nEach guild also hosted its own unique event or minigame within its headquarters.\n\n#### Scarlet Wand\n\n**Members:** Cecilia Immergreen, Gawr Gura, Ceres Fauna, Nerissa Ravencroft, Shiori Nyavella\n**Guildmaster:** Rubius\n\nMarked by their iconic long red hats, the Scarlet Wand was a sanctuary for the curious—where knowledge and creativity were held in the highest regard. However, thanks to a suspicious lottery scheme, the guild earned a reputation for scamming and mind-reading, with many calling them witches.\n\nTheir headquarters resembled a traditional wooden guild hall filled with arcane charm.\n\n#### Amber Coin\n\n**Members:** Takanashi Kiara, Nanamoo, Raora Panthera, Peasant Da Bae\n**Guildmaster:** Auren\n\nA haven for dreamers, visionaries, and glory-seekers—where friends could easily become rivals. Amber Coin had a rocky start, accused by others (especially the Ceruleans) of murder, kidnapping, and general coin-chasing greed.\n\nOver time, the guild lost several members: Bae vanished into the woods, and Nanamoo became an honorary member of the Scarlet Wand, leaving only Kiara and her pink feline companion as the last two standing.\n\nTheir luxurious palace-like headquarters featured grand gardens and a casino—an opulent display fitting for their name.\n\n#### Cerulean Cup\n\n**Members:** Tam Gandr, Gonathon G, Ninomae Ina’nis, Hot Pink One, Koseki Bijou\n**Guildmaster:** _(Not specified)_\n\nA sanctum devoted to healing and empathy... in theory. In practice, most members—except for Ina—were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.\n\nTheir base took the form of a serene, open-air temple that radiated tranquility—regardless of how its members behaved.\n\n#### Jade Sword\n\n**Members:** Elizabeth Rose Bloodflame, Mori Calliope, Fuwawa Abyssguard, Mococo Abyssguard, Jyan Watson\n**Guildmaster:** Viridus\n\nChampions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind fluffy girl, a quirky blonde detective, and Elizabeth—perhaps the only one who truly embodied the chivalric ideal.\n\nTheir headquarters was a large, circular arena visible from afar, designed as a training ground for swordplay.",
+      "thumbnailSrc": "/images-opt/guilds-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Guilds Overview",
+          "source": "/images-opt/guilds-entry-0.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/guilds-entry.webp"
+    },
+    {
+      "id": "jobs-entry",
+      "title": "Jobs",
+      "chapters": [
+        1
+      ],
+      "quote": "250 coins for one soup?!",
+      "content": "## Overview\n\nJobs were introduced in Chapter Two as a replacement for the guild system. Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of Ancient Libestal.\n\n## Details\n\n### Preface\n\nUpon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into their new life. These jobs were not just titles—they introduced entirely new gameplay systems and collaboration mechanics.\n\n### The Four Jobs\n\nThere were four jobs available, each with a distinct specialty. The design of the system encouraged interdependence—heroes were meant to rely on one another’s crafts to thrive in their journey.\n\nAs heroes practiced their crafts, their job levels increased, unlocking stronger buffs, items, and abilities.\n\nFurthermore, the heroes could set up stalls or shops to sell their specialized crafted goods, allowing them to trade with one another and ~~scam~~ support the community through their unique professions.\n\n#### Smith\n\n**Occupants:** Elizabeth Rose Bloodflame, Gonathon G, Tanakisha Karia\n**Lead:** Master Smith Heph\n\nSmiths specialized in forging upgrade stones to enhance Revelation weapons, using a toolset known as the Smithing Tools.\n\nCrafting involved using a large grid similar to a crafting table but with more complexity. Players had to arrange materials according to recipes shown in a recipe book to create the desired upgrade stones.\n\nSmiths also gained a passive combat buff: a scaling chance to deal increased damage on hit, based on their job level.\n\n#### Jeweler\n\n**Occupants:** Koseki Bijou, Nino Ina, Roa Pandora, Mococo Abyssguard\n**Lead:** Grand Jeweler Chrys\n\nJewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.\n\nA board filled with various stat buffs would be shown briefly before going blank. Jewelers had to recall the positions of their desired buffs and select them accurately. The chance of enhanced buffs increased with Jeweler level.\n\nCharms came in three different colors. Heroes could equip one charm of each color, encouraging thoughtful stat combinations.\n\n#### Chef\n\n**Occupants:** Hot Pink One, Shiori Nyavella, Nerissa Ravencroft, Mordan Ramsey, Fuwawa Abyssguard\n**Lead:** Executive Chef Ambros\n\nChefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the \"cook\" button.\n\nThe more meals a chef prepared, the higher their cooking pot's level became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.\n\n#### Supplier\n\n**Occupants:** Cecilia Immerkind, Peasant Da Bae, Tam Gandr\n**Lead:** Supplier Foreman Kory\n\nSuppliers focused on resource collection through enchanted tools and a unique mining minigame.\n\nUsing lapis lazuli, they added durability to a special pick, then mined a grid of randomized blocks to collect iron, gold, and diamond ores—each contributing enchantment points. Up to 40 points could be earned per run.\n\nOnce durability ran out, points could be allocated to enchant tools with traits like Efficiency, Unbreaking, Fortune, and even a unique auto-smelting enchantment that converted mined ore directly into ingots.\n\nSuppliers also had exclusive charms that boosted their mining effectiveness. When paired with high job levels and upgraded tools, they became unmatched in resource gathering.\n\n<!-- timestamps to add later -->\n<!-- https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078 charm -->",
+      "thumbnailSrc": "/images-opt/jobs-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Jobs Overview",
+          "source": "/images-opt/jobs-entry-0.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/jobs-entry.webp"
+    },
+    {
+      "id": "minigames-entry",
+      "title": "Minigames",
+      "chapters": [
+        0
+      ],
+      "quote": "It's gotta be red this time!",
+      "content": "## Overview\n\nAside from the usual questing, the heroes could take some time off to relax and refresh their minds by participating in the kingdom’s minigames. These ranged from simple tests of strength and intelligence to losing all your savings betting on a color.\n\n## Details\n\nThere are currently **four minigames**, each originally introduced in **Chapter 1**, with every game initially representing one of the four guilds—each minigame reflecting its respective guild's ideology (only in Chapter 1).\n\n### **Color Cannon**\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Amber Coin\n\nA game of chance and tension. Players place wagers on any of four available colors:\n\n- **Blue** (x2 multiplier) – 12 positions\n- **Green** (x3 multiplier) – 8 positions\n- **Yellow** (x5 multiplier) – 4 positions\n- **Red** (x10 multiplier) – 1 position\n\nOnce the game begins, colors are eliminated one by one on a large board until only one color remains. Those who bet on the final surviving color receive their wager multiplied accordingly. High risk, high reward.\n\n[Color Cannon Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n---\n\n### **Duel Arena**\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Jade Sword\n\nA test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.\n\nIn Chapter 2, an added rule ensures the match ends in a draw if both participants are still standing after one minute. Furthermore, they could also place bets on which side they thought would come out victorious.\n\n[Duel Arena Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n---\n\n### **Mind’s Eye**\n\n**Appearance:** Chapter 1\n**Representing Guild:** Scarlet Wand\n\nA memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.\n\n[Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n---\n\n### **Chicken Rescue**\n\n**Appearance:** Chapter 1\n**Representing Guild:** Cerulean Cup\n\nA solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging repeat attempts and competition.\n\n[Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive_",
+      "thumbnailSrc": "/images-opt/minigames-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Color Cannon Minigame in Chapter 1",
+          "source": "/images-opt/minigames-entry-0.webp"
+        },
+        {
+          "title": "Duel Arena in Chapter 1",
+          "source": "/images-opt/minigames-entry-1.webp"
+        },
+        {
+          "title": "Mind's Eye",
+          "source": "/images-opt/minigames-entry-2.webp"
+        },
+        {
+          "title": "Chicken Rescue",
+          "source": "/images-opt/minigames-entry-3.webp"
+        },
+        {
+          "title": "Color Cannon Minigame in Chapter 2",
+          "source": "/images-opt/minigames-entry-4.webp"
+        },
+        {
+          "title": "Duel Arena in Chapter 2",
+          "source": "/images-opt/minigames-entry-5.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/minigames-entry.webp"
+    }
+  ],
+  "quests": [
+    {
+      "id": "portraits-entry",
+      "title": "Portraits",
+      "chapters": [
+        1
+      ],
+      "quote": "Looking at this makes me feel nostalgic...",
+      "content": "## Overview\n\nIn Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art event that ran from `March 1st to March 19th, 2025`, prior to the start of Chapter 2.\n\n## Details\n\nTo receive a portrait, the heroes needed to help Pygmalion by gathering a set of materials. The task was intentionally a bit tedious, as it encouraged cooperation among the heroes. Each item was tied to a specific profession, meaning players had to seek out others in those roles:\n\n- **5 Raw Iron, 5 Raw Copper** – obtainable only from a Supplier\n- **1 Butter** – from a Chef\n- **1 Basic Upgrade Stone** – from a Smith\n- **1 Basic Azure Charm** – from a Jeweler\n\nThis quest acted not only as a way to earn a personalized portrait but also as a clever method to promote player interaction and teamwork early in Chapter 2.\n\nEach hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was meaningful.\n\n## Credits\n\n- Portrait of Mordan Ramsey - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- Portrait of Tanakisha Karia - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- Portrait of Nino Ina - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- Portrait of Tam Gandr - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- Portrait of the Hot Pink One - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- Portrait of Peasant Da Bae - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- Portrait of Shiori Nyavella - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- Portrait of Nerissa Ravencroft - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- Portrait of Fuwawa Abyssguard - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- Portrait of Mococo Abyssguard\n- Portrait of Koseki Bijou - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- Portrait of Elizabeth Rose Bloodflame - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- Portrait of Gonathon G - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- Portrait of Cecilia Immerkind - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- Portrait of Roa Pandora - [kit](https://x.com/quartzquadrant/status/1902200030980649355)",
+      "thumbnailSrc": "/images-opt/portraits-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Portrait of Mordon Ramsay",
+          "source": "/images-opt/portraits-entry-0.webp"
+        },
+        {
+          "title": "Portrait of Tanakisha Karia",
+          "source": "/images-opt/portraits-entry-1.webp"
+        },
+        {
+          "title": "Portrait of Nino Ina",
+          "source": "/images-opt/portraits-entry-2.webp"
+        },
+        {
+          "title": "Portrait of Tam Gandr",
+          "source": "/images-opt/portraits-entry-3.webp"
+        },
+        {
+          "title": "Portrait of the Hot Pink One",
+          "source": "/images-opt/portraits-entry-4.webp"
+        },
+        {
+          "title": "Portrait of Peasant Da Bae",
+          "source": "/images-opt/portraits-entry-5.webp"
+        },
+        {
+          "title": "Portrait of Shiori Nyavella",
+          "source": "/images-opt/portraits-entry-6.webp"
+        },
+        {
+          "title": "Portrait of Nerissa Ravencroft",
+          "source": "/images-opt/portraits-entry-7.webp"
+        },
+        {
+          "title": "Portrait of Fuwawa Abyssguard",
+          "source": "/images-opt/portraits-entry-8.webp"
+        },
+        {
+          "title": "Portrait of Mococo Abyssguard",
+          "source": "/images-opt/portraits-entry-9.webp"
+        },
+        {
+          "title": "Portrait of Koseki Bijou",
+          "source": "/images-opt/portraits-entry-10.webp"
+        },
+        {
+          "title": "Portrait of Elizabeth Rose Bloodflame",
+          "source": "/images-opt/portraits-entry-11.webp"
+        },
+        {
+          "title": "Portrait of Gonathon G",
+          "source": "/images-opt/portraits-entry-12.webp"
+        },
+        {
+          "title": "Portrait of Cecilia Immerkind",
+          "source": "/images-opt/portraits-entry-13.webp"
+        },
+        {
+          "title": "Portrait of Roa Pandora",
+          "source": "/images-opt/portraits-entry-14.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/portraits-entry.webp"
+    }
+  ]
+}

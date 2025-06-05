@@ -1,6 +1,6 @@
 <!-- title: The Ritual -->
 <!-- quote: Get the order correct, and the ritual succeeds! -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Venue where the Ritual took place)-->
 <!-- model: false -->
 

@@ -1,6 +1,6 @@
 <!-- title: Automaton Assult -->
 <!-- quote: Hmph, don't tell me what to do. Automaton Assult! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Cecilia's first time wielding Automaton Assult), (Automaton Assult as viewed from the inventory), (Automaton Assult's ability activated) -->
 <!-- model: true -->
 

@@ -1,6 +1,6 @@
 <!-- title: Light and Darkness -->
 <!-- quote: It's not a fart! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (HPO's first time wielding Light and Darkness), (Light and Darkness viewed from the inventory), (Light and Darkness's ability activated) -->
 <!-- model: true -->
 

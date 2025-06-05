@@ -1,6 +1,6 @@
 <!-- title: Bookmark of Memories -->
 <!-- quote: Tickle tickle~ Oh crap I think I just exploded -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Shiori's first time wielding the book), (Bookmark of Memories viewed from the inventory), (Bookmark of Memories' ability activated) -->
 <!-- model: true -->
 

@@ -1,6 +1,6 @@
 <!-- title: Jobs -->
 <!-- quote: 250 coins for one soup?! -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Jobs Overview) --->
 <!-- model: false -->
 

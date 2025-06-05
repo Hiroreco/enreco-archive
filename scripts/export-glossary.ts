@@ -56,7 +56,7 @@ async function main() {
         const headerLines = [
             `<!-- title: ${it.title} -->`,
             `<!-- quote: ${it.quote ?? ""} -->`,
-            `<!-- chapter: ${it.chapter} -->`,
+            `<!-- chapters: ${it.chapters} -->`,
             `<!-- images: ${imagesList} -->`,
             `<!-- model: ${hasModel} -->`,
             ``,

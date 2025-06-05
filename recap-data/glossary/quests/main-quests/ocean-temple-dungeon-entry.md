@@ -1,18 +1,21 @@
 <!-- title: Ocean Temple Dungeon -->
 <!-- quote: Finally... My story begins here! -->
-<!-- chapter: 1 -->
+<!-- chapters: 0 -->
 <!-- images: -->
 <!-- model: false -->
 
 ## Overview
-The **Ocean Temple Dungeon** is the remnants of an old, dried up Atlantis. 
+
+The **Ocean Temple Dungeon** is the remnants of an old, dried up Atlantis.
 
 ## Details
-n/a 
+
+n/a
 
 ### Puzzles
-Tower of Hanoi (Ring Stacking): Rings 
-Bridge Puzzle: 
+
+Tower of Hanoi (Ring Stacking): Rings
+Bridge Puzzle:
 Directional Guard Puzzle
 
 ### Rewards

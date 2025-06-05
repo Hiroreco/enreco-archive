@@ -1,7 +1,6 @@
-
 <!-- title: Nerissa Ravencroft -->
 <!-- quote: "Oh where, oh where is my brave knight?"-->
-<!-- chapter: -1 -->
+<!-- chapters: -1 -->
 <!-- model: false -->
 
 ## Overview

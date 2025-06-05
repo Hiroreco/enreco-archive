@@ -1,9 +1,7 @@
-import { CommonItemData } from "@enreco-archive/common/types";
+import { CommonItemData, GlossaryPageData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
 import {
     Book,
-    Castle,
-    ChefHat,
     ChevronLeft,
     Dices,
     Scroll,
@@ -12,14 +10,14 @@ import {
 } from "lucide-react";
 import { ReactElement, useEffect, useState } from "react";
 
-import weapons from "#/glossary/weapons.json";
-import hats from "#/glossary/hats.json";
-import dungeons from "#/glossary/dungeons.json";
 import characters from "#/glossary/characters.json";
 import lore from "#/glossary/lore.json";
-import quests from "#/glossary/quests.json";
 import misc from "#/glossary/misc.json";
+import quests from "#/glossary/quests.json";
+import weapons from "#/glossary/weapons.json";
 
+import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
+import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
 import {
     Card,
     CardContent,
@@ -27,7 +25,6 @@ import {
     CardHeader,
     CardTitle,
 } from "@enreco-archive/common-ui/components/card";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
 import {
     Select,
     SelectContent,
@@ -35,22 +32,22 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
-import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 import {
     Tabs,
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
-import { Separator } from "@enreco-archive/common-ui/components/separator";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 interface ViewGlossaryCardProps {
-    className: string;
+    className?: string;
 }
 
+// Each “big” category now contains a map of { subcategoryName: CommonItemData[] }
 const categoryMap: {
     [key: string]: {
-        data: CommonItemData[];
+        data: GlossaryPageData;
         label: string;
         icon: ReactElement;
     };
@@ -59,16 +56,6 @@ const categoryMap: {
         data: weapons,
         label: "Weapons",
         icon: <Sword />,
-    },
-    "cat-hats": {
-        data: hats,
-        label: "Hats",
-        icon: <ChefHat />,
-    },
-    "cat-dungeons": {
-        data: dungeons,
-        label: "Dungeons",
-        icon: <Castle />,
     },
     "cat-characters": {
         data: characters,
@@ -96,25 +83,38 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     const [selectedItem, setSelectedItem] = useState<CommonItemData | null>(
         null,
     );
-
     const [selectedCategory, setSelectedCategory] = useState("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
-    const [filteredData, setFilteredData] = useState<CommonItemData[]>([]);
+
+    // filteredData is now a map: subcategory → CommonItemData[]
+    const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
     useEffect(() => {
-        const data = categoryMap[selectedCategory].data;
-        const dataBasedOnChapter = data.filter(
-            (item) =>
-                selectedChapter === -1 || item.chapter === selectedChapter,
-        );
-        setFilteredData(dataBasedOnChapter);
+        const dataMap = categoryMap[selectedCategory].data;
+        const newMap: GlossaryPageData = {};
+
+        Object.entries(dataMap).forEach(([subcat, items]) => {
+            newMap[subcat] = items.filter(
+                (item) =>
+                    selectedChapter === -1 ||
+                    item.chapters.includes(-1) ||
+                    item.chapters.includes(selectedChapter),
+            );
+        });
+
+        setFilteredData(newMap);
     }, [selectedChapter, selectedCategory]);
+
+    // Helper to see if every subcategory is empty
+    const allEmpty = Object.values(filteredData).every(
+        (arr) => arr.length === 0,
+    );
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
             <CardHeader className="pb-0 px-4">
-                <div className="flex flex-row items-center m-0 space-y-0 w-full justify-between">
-                    <CardTitle className="flex m-0 justify-between items-center h-full gap-2">
+                <div className="flex flex-row items-center w-full justify-between">
+                    <CardTitle className="flex justify-between items-center gap-2">
                         {selectedItem !== null && (
                             <ChevronLeft
                                 size={16}
@@ -140,7 +140,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                         </SelectTrigger>
                         <SelectContent>
                             <SelectItem value={"-1"}>All Chapters</SelectItem>
-                            {[...Array(2).keys()].map((chapter) => (
+                            {[...Array(10).keys()].map((chapter) => (
                                 <SelectItem
                                     key={chapter}
                                     value={chapter.toString()}
@@ -154,6 +154,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
                 <Separator className="my-2" />
             </CardHeader>
+
             <CardContent className="h-[65vh] sm:h-[70vh] px-4 mt-2 overflow-y-auto">
                 <AnimatePresence mode="wait">
                     {selectedItem === null && (
@@ -162,19 +163,46 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="overflow-x-hidden overflow-y-auto grid sm:grid-cols-2 lg:grid-cols-3 place-items-start gap-4"
+                            className="overflow-x-hidden overflow-y-auto space-y-6"
                         >
-                            {filteredData.map((item) => (
-                                <ViewItemSelector
-                                    key={item.id}
-                                    item={item}
-                                    onItemClick={(item) =>
-                                        setSelectedItem(item)
-                                    }
-                                />
-                            ))}
+                            {allEmpty ? (
+                                <div className="text-center text-xl text-muted-foreground">
+                                    Nothing here but us chickens
+                                </div>
+                            ) : (
+                                // For each non-empty subcategory, render a heading + its items
+                                Object.entries(filteredData).map(
+                                    ([subcat, items]) => {
+                                        if (items.length === 0) return null;
+                                        return (
+                                            <div key={subcat}>
+                                                <h3 className="text-lg font-semibold mb-2 capitalize">
+                                                    {subcat.replace(
+                                                        /[-_]/g,
+                                                        " ",
+                                                    )}
+                                                </h3>
+                                                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                                                    {items.map((item) => (
+                                                        <ViewItemSelector
+                                                            key={item.id}
+                                                            item={item}
+                                                            onItemClick={(it) =>
+                                                                setSelectedItem(
+                                                                    it,
+                                                                )
+                                                            }
+                                                        />
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        );
+                                    },
+                                )
+                            )}
                         </motion.div>
                     )}
+
                     {selectedItem !== null && (
                         <motion.div
                             className="h-full"
@@ -186,13 +214,9 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             <ViewItemViewer item={selectedItem} />
                         </motion.div>
                     )}
-                    {filteredData.length === 0 && (
-                        <div className="text-center text-xl text-muted-foreground">
-                            Nothing here but us chickens
-                        </div>
-                    )}
                 </AnimatePresence>
             </CardContent>
+
             <CardFooter className="p-0 pb-4">
                 <Tabs
                     className="m-auto"

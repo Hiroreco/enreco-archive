@@ -1,6 +1,6 @@
 <!-- title: Nature's Grace -->
 <!-- quote: Heals for sales! Get your heals today! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Fauna's first time wielding Nature's Grace), (Nature's Grace viewed from the inventory), (Nature's Grace's ability activated) -->
 <!-- model: true -->
 

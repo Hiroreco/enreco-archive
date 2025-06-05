@@ -1,6 +1,6 @@
 <!-- title: Gremlin Grenade -->
 <!-- quote: Revelation! Huzzah! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Gonathon's first time wielding Gremlin Grenade), (Gremlin Grenade viewed from the inventory ), (Gremlin Grenade's ability activated) -->
 <!-- model: true -->
 

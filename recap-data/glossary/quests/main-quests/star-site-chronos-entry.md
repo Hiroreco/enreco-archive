@@ -1,6 +1,6 @@
 <!-- title: Star Site: Chronos -->
 <!-- quote: When abnormalities arise, it falls to me to correct them. -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Star Site: Chronos Overview #1), (Star Site: Chronos Overview #2), (Star Site: Chronos Overview #3), (Star Site: Chronos Concept Art) -->
 <!-- model: false -->
 

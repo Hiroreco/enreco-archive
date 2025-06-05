@@ -1,6 +1,6 @@
 <!-- title: Winds of Civilization -->
 <!-- quote: Somebody's hurting you. I hurt them back -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Nanamoo's first time wielding Winds of Civilization), (Winds of Civilization as viewed from the inventory), (Winds of Civilization's ability activated) -->
 <!-- model: true -->
 

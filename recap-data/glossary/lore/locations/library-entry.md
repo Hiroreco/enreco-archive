@@ -1,6 +1,6 @@
 <!-- title: The Library -->
 <!-- quote: An archive of lore from across the multiverse -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (The Library Overview #1), (The Library Overview #2), (The Library Overview #3), (View of the Lore Archive), (The Library Overview #4) --->
 <!-- model: false -->
 

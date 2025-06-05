@@ -1,6 +1,6 @@
 <!-- title: Kingdom of Libestal (Ficta) -->
 <!-- quote: A noble kingdom, besieged by monsters of shadow—but it was all a lie -->
-<!-- chapter: 0 -->
+<!-- chapters: 0 -->
 <!-- images: (Entrance into the Kingdom of Libestal), (Libestal Overview #1), (Libestal Overview #2), (Outside view of the kingdom's castle), (Outside view of the Shopping Building #1), (Outside view of the Shopping Building #2), (Libestal's Wilderness #1), (Libestal's Wilderness #2), (Libestal's Wilderness #3), (Libestal's Wilderness #4), (Libestal's Wilderness #5), (Front view of Libestal Castle), (Kingdom of Libestal Concept Art), (Map of Libestal and the five Dungeons) --->
 <!-- model: false -->
 

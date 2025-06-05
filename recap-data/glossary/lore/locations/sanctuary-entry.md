@@ -1,6 +1,6 @@
 <!-- title: The Sanctuary -->
 <!-- quote: Don't worry. This isn't goodbye forever. -->
-<!-- chapter: 1 -->
+<!-- chapters: 0 -->
 <!-- images: (The Sanctuary Overview #1), (The Sanctuary Overview #2), (The Sanctuary Overview #3), (The Sanctuary Overview #4) --->
 <!-- model: false -->
 

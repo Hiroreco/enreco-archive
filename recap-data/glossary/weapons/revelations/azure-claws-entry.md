@@ -1,6 +1,6 @@
 <!-- title: Azure Claws -->
 <!-- quote: Bau Bau~ Ehehehehehe -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Fuwawa's first time wielding Azure Claws), (Azure Claws viewed from the inventory), (Azure Claws' ability activated) -->
 <!-- model: true -->
 

@@ -1,6 +1,6 @@
 <!-- title: Hot Pink One / IRyS -->
 <!-- quote: You were always my backup plan -->
-<!-- chapter: -1 -->
+<!-- chapters: -1 -->
 <!-- images: (The Hot Pink One's Chapter 1 Profile), (The Hot Pink One activating her Revelation), (The Hot Pink One in "Start Again"), (The Hot Pink One's Chapter 2 Profile), (The Hot Pink One's Tarot Card), (Recollection of IRyS), (IRyS in Chapter 2's Ending) -->
 <!-- model: false -->
 

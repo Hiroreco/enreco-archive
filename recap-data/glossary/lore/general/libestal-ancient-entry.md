@@ -1,6 +1,6 @@
 <!-- title: Kingdom of Libestal (Ancient) -->
 <!-- quote: Here, in the distant past, the Outsider was born. -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Ancient Libestal Overview #1), (Ancient Libestal Overview #2), (Ancient Libestal Overview #3), (Exterior of Libestal Castle), (Interior of Libestal Castle #1), (Interior of Libestal Castle #2), (Interior of Libestal Castle #3), (Interior of Libestal Castle #4), (Ancient Libestal Concept Art) --->
 <!-- model: false -->
 

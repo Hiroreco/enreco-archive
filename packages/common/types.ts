@@ -159,7 +159,7 @@ export type FixedEdgeType = Edge<FixedEdgeData, "fixed">;
 export type FixedEdgeProps = EdgeProps<FixedEdgeType>;
 
 // Miscellaneous Page Types
-export type MiscelPageData = CommonItemData[];
+export type GlossaryPageData = { [key: string]: CommonItemData[] };
 
 export type GalleryImage = {
     source: string;
@@ -169,7 +169,7 @@ export type GalleryImage = {
 export type CommonItemData = {
     id: string;
     title: string;
-    chapter: number;
+    chapters: number[];
     thumbnailSrc: string;
     content: string;
     galleryImages: GalleryImage[];

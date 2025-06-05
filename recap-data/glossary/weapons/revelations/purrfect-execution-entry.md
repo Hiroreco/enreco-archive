@@ -1,6 +1,6 @@
 <!-- title: Purrfect Execution -->
 <!-- quote: Raooo! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Raora's first time wielding Purrfect Execution), (Purrfect Execution as viewed from the inventory), (Purrfect Execution's ability activated) -->
 <!-- model: true -->
 

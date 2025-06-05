@@ -1,6 +1,6 @@
 <!-- title: Minigames -->
 <!-- quote: It's gotta be red this time! -->
-<!-- chapter: 0 -->
+<!-- chapters: 0 -->
 <!-- images: (Color Cannon Minigame in Chapter 1), (Duel Arena in Chapter 1), (Mind's Eye), (Chicken Rescue), (Color Cannon Minigame in Chapter 2), (Duel Arena in Chapter 2) -->
 <!-- model: false -->
 

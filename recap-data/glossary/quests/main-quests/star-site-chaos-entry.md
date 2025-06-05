@@ -1,6 +1,6 @@
 <!-- title: Star Site: Chaos -->
 <!-- quote: Just ask me anything and I'll make it happen! -->
-<!-- chapter: 1 -->
+<!-- chapters: 1 -->
 <!-- images: (Star Site: Chaos Overview #1), (Star Site: Chaos Overview #2), (Star Site: Chaos Concept Art #3), (Star Site: Elpis Overview #4) -->
 <!-- model: false -->
 

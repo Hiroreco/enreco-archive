@@ -1,6 +1,6 @@
 <!-- title: Chaos Stampede -->
 <!-- quote: I am going to enter my eternal slumber -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Bae's first time wielding Chaos Stampede), (Chaos Stampede viewed from the inventory), (Chaos Stampede's ability activated) -->
 <!-- model: true -->
 

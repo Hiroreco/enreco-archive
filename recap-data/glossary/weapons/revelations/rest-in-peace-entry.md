@@ -1,6 +1,6 @@
 <!-- title: Rest In Peace -->
 <!-- quote: My thighs? Hands off, I have a scythe! -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Calli's first time wielding Rest In Piece), (Rest In Piece as viewed from the inventory), (Rest In Peace's ability activated) -->
 <!-- model: true -->
 

@@ -1,6 +1,6 @@
 <!-- title: Revelations -->
 <!-- quote: The power came to them, like a forgotten memory -->
-<!-- chapter: -1 -->
+<!-- chapters: -1 -->
 <!-- images: (Revelations' Appearance Overview), (Revelations' Power Overview) --->
 <!-- model: false -->
 

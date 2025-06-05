@@ -1,6 +1,6 @@
 <!-- title: Eye Of Wisdom -->
 <!-- quote: Hiyahh! \**Bonk*\* -->
-<!-- chapter: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Ame's first time wielding Eye Of Wisdom), (Eye Of Wisdom as viewed from the inventory), (Eye Of Wisdom's ability activated) -->
 <!-- model: true -->
 
