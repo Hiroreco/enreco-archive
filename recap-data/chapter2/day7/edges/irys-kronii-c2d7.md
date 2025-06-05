@@ -20,7 +20,7 @@ Speaking of the devil, HPO called Queen Tam and begged her to attend the "gender
 
 All this… for a long, painful divine comedy about passing gas. Hot Pink Gas. The Queen didn’t even need to be there. And yet she and the voices in her head were forced to witness the “birth” of the “gassy baby”—Just ["Carbonated Love"](https://youtu.be/CUh9eciJil4?t=4071). Unsightly.
 
-Dr. Mordan returned with more [sagely advice](https://youtu.be/CUh9eciJil4?t=4128): Why not confront HPO’s consort and spill the beans about their secret relationship? Scorched earth. Why should Queen Tam be the only one to suffer? Might as well make everyone involved miserable. This therapist was truly something else. Everyone knows the drill. Instead of walking away and moving on, the Queen held the proverbial shovel firmly in her hands and dug deeper, choosing to confront the consort herself, Nino Ina.
+Dr. Mordan returned with more [sagely advice](https://youtu.be/CUh9eciJil4?t=4128): Why not confront HPO’s consort and spill the beans about their secret relationship? Scorched earth. Why should Queen Tam be the only one to suffer? Might as well make everyone involved miserable. This therapist was truly something else. Everyone knows the drill. Instead of walking away and moving on, the Queen held the proverbial shovel firmly in her hands and dug deeper, choosing to confront the consort herself, NinoIna.
 
 ["I want problems. Always."](#embed:https://youtu.be/CUh9eciJil4?t=4247)
 

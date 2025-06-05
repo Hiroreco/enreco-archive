@@ -20,7 +20,7 @@ With the power of the revelations in one hand and the potato in the other, the h
 
 Immerkind seems to be doing okay, and so is Fia at the Library. This left them puzzled, but without more hints to go by, they decided to wait for the banquet for answers. Now, there was something way more important to them, Bijou's onii-chan's pregnancy/gas reveal party.
 
-The picnic starts innocently enough, there is food, decorations, fireworks, music, and happy guests. The Hot Pink One manages to confess her feelings to Nino Ina, her eternal consort, and she feels the same.
+The picnic starts innocently enough, there is food, decorations, fireworks, music, and happy guests. The Hot Pink One manages to confess her feelings to NinoIna, her eternal consort, and she feels the same.
 
 As they are all gathered to see the miracle of birth and/or the liberation of gas, Bijou starts to reveal the sign hidden in bricks, and they all can see it says "ITS GAS". Not only is it gas, but, as she also tells everyone, the pink wool behind reveals it's a girl, a gassy girl!
 

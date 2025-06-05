@@ -4,7 +4,7 @@ The Hot Pink One had been battling jealousy all day long. Gonathon’s wife, or 
 
 Miraculously, that wish would come true later in the day.
 
-Inside the Ocean Temple Dungeon, the Hot Pink One surprised everyone with her sudden knack for solving puzzles. It was an unexpected display of brilliance for someone usually lost in her chaotic antics. She credited her newfound intelligence and luck entirely to Ina’s hat, which she now considered a talisman of inspiration. Emboldened by this revelation, the pink lady realized her growing feelings for Nino Ina and—without hesitation—proposed.
+Inside the Ocean Temple Dungeon, the Hot Pink One surprised everyone with her sudden knack for solving puzzles. It was an unexpected display of brilliance for someone usually lost in her chaotic antics. She credited her newfound intelligence and luck entirely to Ina’s hat, which she now considered a talisman of inspiration. Emboldened by this revelation, the pink lady realized her growing feelings for NinoIna and—without hesitation—proposed.
 
 [Will you be my eternal consort?](#embed:https://www.youtube.com/live/f8W426vzTb8?t=9715)
 

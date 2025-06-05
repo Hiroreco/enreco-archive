@@ -14,6 +14,6 @@ He also grew visibly agitated when Elizabeth, one of Jade Sword's members, refer
 
 Gonathon's first day wasn’t entirely marked by screams and tears. Many of the people he encountered treated him kindly, especially his guildmates. One person, however, stood out above all the rest. She wasn’t just any ordinary individual—she was destined to become the next Queen of this new kingdom. Moved by a sense of honor and purpose, Gonathon vowed his loyalty to her (see [Gonathon-Tam: You're the Queen!](#edge:gigi-kronii)).
 
-Eventually, alongside Elizabeth Rose Bloodflame and Nino Ina, he ventured into the *Underworld Dungeon*. Together, they recovered memories tied to [Mori Calliope](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=12343), taking their first steps in unraveling the mysteries of their fragmented pasts.
+Eventually, alongside Elizabeth Rose Bloodflame and NinoIna, he ventured into the *Underworld Dungeon*. Together, they recovered memories tied to [Mori Calliope](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=12343), taking their first steps in unraveling the mysteries of their fragmented pasts.
 
 ["The Humble Knight" by Hyoweii](https://x.com/weiiyxn/status/1902360036522991650)
