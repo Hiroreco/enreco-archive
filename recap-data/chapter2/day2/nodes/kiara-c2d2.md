@@ -4,7 +4,7 @@ As Kiara began the side quest to set up her own shop, she called her beloved (no
 
 The dungeon soon opened as Kiara would join The Gacharms group and Mordan. Puzzles. It surprised Kiara that Stain spawned out of nowhere—this dungeon would prove trickier than the past for it challenged our Knights' intellect, teamwork, and might. But, tricky as it was, it did not matter, for Kiara and her companions would face the last trial soon. One where they must fight The Stain King Elpis. The battle was fierce, but their experience shone through, defeating Elpis without any [lives lost](https://youtu.be/R23_uw22SK0?t=5662) and recovering the Hot Pink One's history and Fia's memory.
 
-They reported their findings to the Princess, and later Fia, and likewise received key information in turn about the Outlander and The Outsider. A hero who defended the kingdom but at the cost of creating a greater evil. New areas are now available, piquing Kiara's interest. There were more materials to gather and a new dungeon to crawl. Another chance to grow stronger.
+They reported their findings to the Princess, and later Fia, and likewise received key information in turn about the Outlander and the Outsider. A hero who defended the kingdom but at the cost of creating a greater evil. New areas are now available, piquing Kiara's interest. There were more materials to gather and a new dungeon to crawl. Another chance to grow stronger.
 
 It was harder than expected, for as Kiara's spirit as a Knight remained steadfast, her enemies were eager to match her in strength. Bijou and Roa would recommend new charms to increase her stats.
 

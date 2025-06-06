@@ -4,11 +4,11 @@ Once again, Peasant The Bae finds herself trapped in a familiar room with equall
 
 [The Outsider](#embed:https://youtu.be/7bOe38rP7JQ?t=454)
 
-A mysterious cat named Fia brought Bae and her maybe-friends back to the past, in an abandoned temple hides the Library, a special place that exists between worlds. There, she told them of The Outsider, the one who donned the King's skin and tricked them into freeing him from his prison. The Libestal they knew was but an illusion to keep The Outsider locked in, but now that he runs free, millions of worlds are now in jeopardy.
+A mysterious cat named Fia brought Bae and her maybe-friends back to the past, in an abandoned temple hides the Library, a special place that exists between worlds. There, she told them of the Outsider, the one who donned the King's skin and tricked them into freeing him from his prison. The Libestal they knew was but an illusion to keep the Outsider locked in, but now that he runs free, millions of worlds are now in jeopardy.
 
 But there is a way to stop him...
 
-In the past, before The Outsider truly came to be, Peasant The Bae could be the hero the world needs. The key to their victory lies in the missing memories of all our heroes and Fia. Star-shaped crystals, the form their memories took, are scattered throughout the world. With each memory recovered, the power of their Revelation would be strengthened, and they would grow closer to finding the key to defeat The Outsider.
+In the past, before the Outsider truly came to be, Peasant The Bae could be the hero the world needs. The key to their victory lies in the missing memories of all our heroes and Fia. Star-shaped crystals, the form their memories took, are scattered throughout the world. With each memory recovered, the power of their Revelation would be strengthened, and they would grow closer to finding the key to defeat the Outsider.
 
 [Ruination](#embed:https://youtu.be/7bOe38rP7JQ?t=1484)
 

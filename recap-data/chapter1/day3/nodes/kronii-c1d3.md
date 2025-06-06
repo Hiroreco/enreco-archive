@@ -30,7 +30,7 @@ After many hours of hard labor and frustration, the Cerulean Cup guild base was 
 
 [Tour of the guild hall](#embed:https://www.youtube.com/embed/JcRcTRedS_8?si=BpLFAukBwLvo_GEc\&start=19012)
 
-The wooden structure stood as a testament to her dedication and creativity, adorned with cherry blossoms whose delicate petals danced in the breeze. The hallways were lit by the warm glow of torches, while sea lanterns illuminated the floors. Paintings decorated the walls, and each room was uniquely designed to reflect the guild members’ personalities. Bijou’s room featured her beloved pet rock, while Ina and The Hot Pink One had connected rooms to symbolize their bond. The second floor housed a spacious, cozy common area—a perfect gathering place for the friends she was leaving behind.
+The wooden structure stood as a testament to her dedication and creativity, adorned with cherry blossoms whose delicate petals danced in the breeze. The hallways were lit by the warm glow of torches, while sea lanterns illuminated the floors. Paintings decorated the walls, and each room was uniquely designed to reflect the guild members’ personalities. Bijou’s room featured her beloved pet rock, while Ina and the Hot Pink One had connected rooms to symbolize their bond. The second floor housed a spacious, cozy common area—a perfect gathering place for the friends she was leaving behind.
 
 This was more than just a building; it was a piece of her soul, left in a place that had become a home, however briefly. She hoped they would use it well, filling its halls with laughter and the kind of memories she now carried with her.
 

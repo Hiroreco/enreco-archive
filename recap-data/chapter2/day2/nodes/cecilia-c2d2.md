@@ -4,7 +4,7 @@ While wandering, Nerissa Juliet Ravencroft calls Cecilia and invites her to a gr
 
 [Beautiful compliments](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=m0OdMzJIttFapJqP)
 
-Through adversity, they complete daunting puzzles, slay hordes of stains, and arrive at the end of the dungeon. They valiantly slay the Stain King Elpis and retrieve the memories of the Hot Pink One (Irys) and share an [emotional ending together](https://www.youtube.com/live/48HSA_GcOZ0?si=72AIHtOd67m6mOTT&t=6367).
+Through adversity, they complete daunting puzzles, slay hordes of Stains, and arrive at the end of the dungeon. They valiantly slay the Stain King Elpis and retrieve the memories of the Hot Pink One (Irys) and share an [emotional ending together](https://www.youtube.com/live/48HSA_GcOZ0?si=72AIHtOd67m6mOTT&t=6367).
 
 Upon returning to the castle, Cecilia is torn about how to [profess her feelings](https://www.youtube.com/watch?v=48HSA_GcOZ0&t=6610s) to the princess and seeks advice from Lady Bloodflame, Irys, and NinoIna. During this, Irys and NinoIna gather and banter while Irys seeks to recruit Cecilia to become their "Above SC" (see [Cecilia-Irys: Classists](#edge:cecilia-irys)). 
 
@@ -13,9 +13,6 @@ Bae finds her way into the group, and Cecilia confronts her and reconciles. This
 After sobering up with Nerissa's water and discussions with Iphania and Fia, the newly formed party of Cecilia, Shiori, and Lady Bloodflame [depart to the Stronghold Ruins](https://www.youtube.com/live/48HSA_GcOZ0?si=d7A8Eeu8Mggd-qH5&t=10381). Unfortunately, the Azure Screen of Death left Cecilia weak, so she must part ways early to rest. 
 
 [Restful sleep](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=T199bfN1vhes8XhF&t=10944)
-
-### Objective Tracker - Project Abortion
-No progress
 
 ### Fanart
 [Soul (Stream thumbnail) by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)

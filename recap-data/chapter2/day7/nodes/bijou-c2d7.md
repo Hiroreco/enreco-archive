@@ -16,11 +16,11 @@ And in the end... It was not gas... Nor a pregnancy but a secret third thing. Th
 
 Through its powers controlled their minds and forced them to attack and hunt their allies, but with the combined power of the heroes from beyond the stars, they managed to purify them.
 
-With the power of the revelations in one hand and the potato in the other, the heroes manage to defeat the formidable foe and [save Libestal](https://www.youtube.com/live/4_zJe0t0558?si=MuH6a3gYsGGU4iHY&t=6043) from the stain. They quickly meet with Princess Iphania, and there is no betrayal this time; they have done it, they've changed fate. And as they're speaking, they notice a doll next to them, the same doll Iphania has given to her father, and one they were familiar with, Fia.
+With the power of the revelations in one hand and the potato in the other, the heroes manage to defeat the formidable foe and [save Libestal](https://www.youtube.com/live/4_zJe0t0558?si=MuH6a3gYsGGU4iHY&t=6043) from the Stain. They quickly meet with Princess Iphania, and there is no betrayal this time; they have done it, they've changed fate. And as they're speaking, they notice a doll next to them, the same doll Iphania has given to her father, and one they were familiar with, Fia.
 
 Immerkind seems to be doing okay, and so is Fia at the Library. This left them puzzled, but without more hints to go by, they decided to wait for the banquet for answers. Now, there was something way more important to them, Bijou's onii-chan's pregnancy/gas reveal party.
 
-The picnic starts innocently enough, there is food, decorations, fireworks, music, and happy guests. The Hot Pink One manages to confess her feelings to Nino Ina, her eternal consort, and she feels the same.
+The picnic starts innocently enough, there is food, decorations, fireworks, music, and happy guests. The Hot Pink One manages to confess her feelings to NinoIna, her eternal consort, and she feels the same.
 
 As they are all gathered to see the miracle of birth and/or the liberation of gas, Bijou starts to reveal the sign hidden in bricks, and they all can see it says "ITS GAS". Not only is it gas, but, as she also tells everyone, the pink wool behind reveals it's a girl, a gassy girl!
 
@@ -28,7 +28,7 @@ As they are all gathered to see the miracle of birth and/or the liberation of ga
 
 Sadly, things quickly go south. As the baby is taking her first steps, Mococo kills her, and HPO is heartbroken and finds herself in denial. Then, soon after, a fight erupts between Bijou's stepmother, Queen Tam Gandr, and her onii-chan (see [Hot Pink One-Tam](#edge:irys-kronii)).
 
-[Maps...maps... I love maps...](#embed:https://www.youtube.com/live/4_zJe0t0558?si=i-m4qvVv7hVV7F09&t=12638)
+[Maps... maps... I love maps...](#embed:https://www.youtube.com/live/4_zJe0t0558?si=i-m4qvVv7hVV7F09&t=12638)
 
 Bijou finds herself lost in this conflict; she realizes her sister is leaving her onii-chan, and a duel is set between Gonathon and the Hot Pink One, with concerning stakes. If the princess' brother were to lose, someone would have to cut open her stomach. With no one else willing to fulfill this task, Bijou decides to take it upon herself... Maps... Maps... Maps... Maps are the only true...
 

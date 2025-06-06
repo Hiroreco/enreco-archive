@@ -20,7 +20,7 @@ Kiara fretted as everything fell apart. Mordan proposed to Gonathon. Shiori resc
 
 Ultimately, Gonathon seemed to have made his [choice](https://youtu.be/wCysZh57Hcc?t=10733). For a moment, all is right. A ring was given to Shiori. Then, without a shred of awareness and with the naivete the size of Kronii's ego, [Gonathon took the trophy and threw it on the ground](https://youtu.be/wCysZh57Hcc?t=10733). Whatever happened next, Kiara did not witness.
 
-Even Princess Iphania wasn't spared, as the revelation of _The Outsider_ and _The Outlander_ broke her heart. The hero she fancied would be punished by the gods. Truly, a terrible day for love.
+Even Princess Iphania wasn't spared, as the revelation of _the Outsider_ and _the Outlander_ broke her heart. The hero she fancied would be punished by the gods. Truly, a terrible day for love.
 
 But still, Kiara went through her day. Exploring the new area and soon acquiring a diamond pickaxe, which was soon upgraded by Cecilia. She would be selling the new legendary upgrade stones at a [very affordable price](https://youtu.be/wCysZh57Hcc?t=13082) and trading a few for Bijou's legendary charms.
 

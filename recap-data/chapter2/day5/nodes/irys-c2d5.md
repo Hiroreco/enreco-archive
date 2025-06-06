@@ -1,6 +1,6 @@
 IRyS joined the day and got straight into preparing for the day’s task. One of which was tackling the day’s dungeon—but before that, she received an invitation to join the [Chef Union](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=1300s), led by none other than Mordan Ramsey.
 
-Soon after, she got swept into a drama involving Bijou, where they discovered that the former child of Bijou and Shiori was actually the [mysterious stain](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=1808s) atop Bae’s head.
+Soon after, she got swept into a drama involving Bijou, where they discovered that the former child of Bijou and Shiori was actually the [mysterious Stain](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=1808s) atop Bae’s head.
 
 Then she teamed up with Tammy, Bae, and Ina to challenge the Star Site: Chaos, where together they managed to recover memories of [Hakos Baelz](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=3568s). 
 

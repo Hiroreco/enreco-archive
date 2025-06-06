@@ -8,6 +8,6 @@ But rather than view the young gem with spite, Gonathon instead wished to help h
 
 This exchange touched Bijou so much that she insisted that Gonathon be present as [moral support](https://youtu.be/alQr5XqoUPs?t=11861) for the no-holds-barred custody battle with Bae the Peasant over the child Khaos, and following the dispute ending amicably, inducted Gonathon into her new extended family, dubbed State Farm, as they were all good neighbors to one another.
 
-While Bijou would ultimately take the side of HPO against Tam Gandr, this would not cripple the bond between princess and knight. Rather, Gonathon had simply cemented another friendship and righted another wrong she had inflicted on others the day prior. 
+While Bijou would ultimately take the side of Hot Pink One against Tam Gandr, this would not cripple the bond between princess and knight. Rather, Gonathon had simply cemented another friendship and righted another wrong she had inflicted on others the day prior. 
 
-[Little Princess...Do not Eat the Yellow Snow](#embed:https://youtu.be/alQr5XqoUPs?t=11794)
+[Little Princess... Do not Eat the Yellow Snow](#embed:https://youtu.be/alQr5XqoUPs?t=11794)

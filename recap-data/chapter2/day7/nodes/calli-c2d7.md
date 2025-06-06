@@ -10,7 +10,7 @@ Mordan panicked. Putting it back wasn't an option. She couldn’t openly give it
 
 [Evidence disposed.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=650)
 
-The pink wolf encountered a disgruntled Roa, who had been upset by how much Nerissa was hovering around Elizabeth while killing stain monsters. Mordan listened to her and offered a free therapy session to lift the pink cat's spirits. This, _and her dwindling desire to keep chasing her chef dream_, led to Mordan reconsidering whether to continue her therapist career [full-time](https://www.youtube.com/live/WG748SwXQVo?t=1927) as _Doctor_ Mordan Ramsey—competing with Mococo's services in terms of quality.
+The pink wolf encountered a disgruntled Roa, who had been upset by how much Nerissa was hovering around Elizabeth while killing Stains. Mordan listened to her and offered a free therapy session to lift the pink cat's spirits. This, _and her dwindling desire to keep chasing her chef dream_, led to Mordan reconsidering whether to continue her therapist career [full-time](https://www.youtube.com/live/WG748SwXQVo?t=1927) as _Doctor_ Mordan Ramsey—competing with Mococo's services in terms of quality.
 
 After that, Mordan began working on her real estate business. She sought an empty lot of land and claimed it. As she placed down her first brick, she thought auctioning new housing would market well to the homeless and the constipat- expecting families. Mordan's building process captured the eyes of her wolf pack and a few others who passed by—[even offering tours of the inside.](https://www.youtube.com/live/WG748SwXQVo?t=4571)
 

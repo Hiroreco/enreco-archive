@@ -14,6 +14,6 @@ The duel concluded with a victory for the Hot Pink One, allowing everyone to con
 
 [Watching a consummation](#embed:https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=7406)
 
-As the day neared its end, preparations for the *Ocean Temple Dungeon* began. Joined by the Hot Pink One, Bijou, and Tam, Gonathon conquered the dungeon and recovered memories of [Gawr Gura](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=12043). Not long after, another marriage ceremony unfolded, this time uniting the *Hot Pink One and Nino Ina*. What a wonderful occasion this day had been, he thought. For the first time, he experienced the touch of another’s affection. Watching his guildmates embrace similar happiness only deepened the warmth he felt.
+As the day neared its end, preparations for the *Ocean Temple Dungeon* began. Joined by the Hot Pink One, Bijou, and Tam, Gonathon conquered the dungeon and recovered memories of [Gawr Gura](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=12043). Not long after, another marriage ceremony unfolded, this time uniting the *Hot Pink One and NinoIna*. What a wonderful occasion this day had been, he thought. For the first time, he experienced the touch of another’s affection. Watching his guildmates embrace similar happiness only deepened the warmth he felt.
 
 [What a happy occasion, huzzah!](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=12550)

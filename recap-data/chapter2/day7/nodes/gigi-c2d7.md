@@ -16,9 +16,9 @@ Gathering with the other adventurers, Gonathon briefly talked with Peasant the B
 
 Returning triumphantly, Gonathon now faced his next quest: assisting Bae (see [Bae-Gonathon: A Bromance of Eternity Borne Under the Light of the New Moon](#edge:bae-gigi)). Directing Immerkind to the fated bridge, Gonathon listened in as Immerkind swiftly rejected Bae, leaving the brokenhearted peasant still clutching the flowers meant for the princess-obsessed doll. Upon realizing Bae intended to drown herself, the mortified Gonathon [leaped into action](https://youtu.be/rDdbFYqcAyI?t=6605), succumbing to the murky depths of the ocean with the peasant several times as he pleaded with her to reconsider. Finally seeing the light, Bae swore an oath of brotherhood with Gonathon, solidifying another stalwart bond the knight had built.
 
-[Today we rise...as brothers!](#embed:https://youtu.be/rDdbFYqcAyI?t=7101)
+[Today we rise... as brothers!](#embed:https://youtu.be/rDdbFYqcAyI?t=7101)
 
-Returning to the party site, Gonathon witnessed the voracious HPO demanding that Tam Gandr be the godparent of her expected spawnling (see [Gonathon-Irys: Even God's Can Bleed](#edge:irys-gigi)). Tam flatly refused, and the queen and Gonathon retreated to Mordan Ramsey's home to seek counsel and plan their next move (see [Gonathon-Kronii: Immortal Game](#edge:kronii-gigi)). After getting some words of wisdom from Mordan, including to simply slay HPO, the queen and her retainer returned to the raucous celebration.
+Returning to the party site, Gonathon witnessed the voracious Hot Pink One demanding that Tam Gandr be the godparent of her expected spawnling (see [Gonathon-Irys: Even God's Can Bleed](#edge:irys-gigi)). Tam flatly refused, and the queen and Gonathon retreated to Mordan Ramsey's home to seek counsel and plan their next move (see [Gonathon-Kronii: Immortal Game](#edge:kronii-gigi)). After getting some words of wisdom from Mordan, including to simply slay HPO, the queen and her retainer returned to the raucous celebration.
 
 [I must answer to my queen!](#embed:https://youtu.be/rDdbFYqcAyI?t=8982)
 
