@@ -20,7 +20,7 @@ Shakira, short for Tanakisha Karia and who now goes by Kiara, is the allmighty p
 
 Tanakisha Karia's purpose was sealed from the moment she had awakened -- to save the lesbians. Chapter 1 followed Shakira herself truly embracing her hero responsibilities, such as reporting to Queen Gandr regarding scam calls or instinctively venturing through the dangers of the dungeons to become the first to find treasure discs. 
 
-She rarely took nonsense from anyone else, confident and poised she was in her judgment. While she wasn't friends with everyone Even so, this pheonix found herself in need of a partner--someone to love and come home to.  In the end, did she learn to continue moving forward on her own.
+She rarely took nonsense from anyone else, confident and poised she was in her judgment. While she wasn't friends with everyone Even so, this pheonix found herself in need of a partner--someone to love and come home to.  In the end, she learned to continue moving forward on her own.
 
 
 ### Chapter 2
