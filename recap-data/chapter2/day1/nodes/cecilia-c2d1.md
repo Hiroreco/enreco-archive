@@ -1,6 +1,6 @@
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
-She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop The Outsider? Her eyes then sparkle with a flash of inspiration: "We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider". A task well suited to her vast knowledge gained from romance novels.
+She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration: "We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider". A task well suited to her vast knowledge gained from romance novels.
 
 [Project Abortion](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
 

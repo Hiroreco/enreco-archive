@@ -4,7 +4,7 @@ Before diving into the juicy chaos, let’s get the “non-important” stuff ou
 
 On the task front, the day largely revolved around two recurring themes for our heroes: grinding and material gathering. They spent time upgrading their weapons, expanding their businesses, and most notably, investigating the **Stronghold of Ruin**. It was there they encountered the mysterious, nameless swordsman—**the Outlander**—for the first time. He revealed more about his role in this tangled tale and the looming catastrophe tied to the fate of the world.
 
-![Meeting The Outlander in the Stronghold of Ruin](/images-opt/outlander-meet.webp)
+![Meeting the Outlander in the Stronghold of Ruin](/images-opt/outlander-meet.webp)
 
 That was how the day *should’ve* gone. But now, let’s talk about the absolute fever dream that was Day 3.
 

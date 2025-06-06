@@ -18,7 +18,7 @@ Veiled behind a regular business transaction, Bijou confronts the Peasant about 
 
 Bae strongly believed she had been taking better care of Khaos since she found it; after all, Bae did the right thing to free them from the shackles of slavery (see [Bijou-Bae](#edge:bae-bijou)). _(How it traveled back in time with the warriors was never explained.)_
 
-That said, they would have to set their differences aside for the time being. It was time for Bijou to investigate Star Site: Chaos, and later, a duel with [The Outlander](#node:outlander).
+That said, they would have to set their differences aside for the time being. It was time for Bijou to investigate Star Site: Chaos, and later, a duel with [the Outlander](#node:outlander).
 
 The dialogue she had with the Princess and the Outlander after the duel had Bijou pause to think deeply for a moment. Although she was being asked about the fate of Libestal, she couldn’t just think of that when asked this one question:
 
