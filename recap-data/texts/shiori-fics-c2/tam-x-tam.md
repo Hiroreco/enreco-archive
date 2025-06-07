@@ -13,15 +13,15 @@ Unavailable to resist her own reflection, she offered her rizz.
 Sweet words.
 
 Spicy helicopter ASMR sounds.
-And the supple call of Ithe Tam's rotary blades spinning infinitely like the endless void of Time.
+And the supple call of the Tam's rotary blades spinning infinitely like the endless void of Time.
 
 She purred. "Hello, meowster," then donned on the cat ears.
 
 Tam Gander licked her lips at the sound of her own title used on her.
 "Meowster?" she repeated.
-"I like the sound of that." She approached her, hips swaying in the breeze, lips moisturized in preparation,salivating.
+"I like the sound of that." She approached her, hips swaying in the breeze, lips moisturized in preparation, salivating.
 
 And then, under the mossy cobblestoned roof-they fidget spun.
-They spun so out of control that their mechanical whirring I woke up the neighbors next door.
+They spun so out of control that their mechanical whirring woke up the neighbors next door.
 
 Tam just had the best Tam of her life.

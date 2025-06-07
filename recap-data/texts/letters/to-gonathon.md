@@ -10,7 +10,7 @@ I may not be as good to you the next time we meet, and I'm sorry if that's the c
 
 I was fond of you if that's any consolation.
 
-I really did think you I have quite the pure and gentle heart.
+I really did think you have quite the pure and gentle heart.
 
 I think you need to find yourself first before starting anything with anyone.
 
@@ -20,7 +20,7 @@ Do not sacrifice too much of yourself now.
 
 Even if it's by the queen's orders, I think it would be much better for everyone if you could stand up for yourself.
 
-I was hoping to impart to you one last gift, but as per your wishes I I will not give the memory pearl.
+I was hoping to impart to you one last gift, but as per your wishes I will not give the memory pearl.
 
 Instead, thank you and sorry for taking this burden of memory from me.
 
