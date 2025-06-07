@@ -10,7 +10,7 @@ interface ItemSelectorProps {
 const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
     return (
         <div
-            className="py-2 px-4 rounded-lg bg-background/10 backdrop-blur-md border shadow-lg w-full h-[100px] flex items-center gap-2 cursor-pointer hover:bg-accent hover:text-primary-foreground transition-all"
+            className="py-2 px-4 rounded-lg card-deco backdrop-blur-md border shadow-lg w-full h-[100px] flex items-center gap-2 cursor-pointer hover:brightness-90  transition-all"
             onClick={onItemClick ? () => onItemClick(item) : undefined}
         >
             <Image
@@ -19,6 +19,12 @@ const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
                 alt={item.title}
                 height={100}
                 width={100}
+                style={{
+                    backgroundImage: "url('/images-opt/item-bg.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                }}
             />
 
             <div>

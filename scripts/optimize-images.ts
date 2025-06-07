@@ -69,18 +69,39 @@ async function optimizeImages() {
 
             // 5) If this file is under "glossary", also emit thumbnail
             if (parsed.dir.split(path.sep)[0] === "glossary") {
-                const thumbBuffer = await sharp(inputPath)
-                    .resize(204, 113, {
-                        fit: "cover",
-                        position: "center",
-                    })
-                    .webp({ quality: 80 })
-                    .toBuffer();
+                // Get image metadata to check aspect ratio
+                const metadata = await sharp(inputPath).metadata();
+                const width = metadata.width || 0;
+                const height = metadata.height || 0;
+                const aspectRatio = width / height;
 
-                await fs.writeFile(
-                    path.join(outDir, `${name}-thumb.webp`),
-                    thumbBuffer,
-                );
+                if (aspectRatio >= 0.9 && aspectRatio <= 1.1) {
+                    const thumbBuffer = await sharp(inputPath)
+                        .resize(100, 100, {
+                            fit: "cover",
+                            position: "center",
+                        })
+                        .webp({ quality: 80 })
+                        .toBuffer();
+
+                    await fs.writeFile(
+                        path.join(outDir, `${name}-thumb.webp`),
+                        thumbBuffer,
+                    );
+                } else {
+                    const thumbBuffer = await sharp(inputPath)
+                        .resize(204, 113, {
+                            fit: "cover",
+                            position: "center",
+                        })
+                        .webp({ quality: 80 })
+                        .toBuffer();
+
+                    await fs.writeFile(
+                        path.join(outDir, `${name}-thumb.webp`),
+                        thumbBuffer,
+                    );
+                }
                 console.log(`Generated thumbnail: ${name}-thumb.webp`);
             }
         }
