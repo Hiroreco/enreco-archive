@@ -1,5 +1,5 @@
 import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
-import { ImageNodeType } from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import blurData from "~/blur-data.json";
 
 // Return a lighter or darker version of a color, param is hex color
@@ -103,3 +103,11 @@ export const isMobileViewport = (): boolean => {
     }
     return false;
 };
+
+export function isNode(element: ImageNodeType | FixedEdgeType): element is ImageNodeType {
+    return !!(element as ImageNodeType)?.position;
+}
+
+export function isEdge(element: ImageNodeType | FixedEdgeType): element is FixedEdgeType {
+    return !!(element as FixedEdgeType)?.source;
+}

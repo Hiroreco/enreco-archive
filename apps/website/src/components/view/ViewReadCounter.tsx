@@ -13,19 +13,22 @@ import {
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import {
-    ChartData,
     FixedEdgeType,
     ImageNodeType,
 } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 interface ViewReadCounterProps {
     day: number;
     chapter: number;
-    chartData: ChartData;
+    // Note: pass in the *unresolved* nodes/edges (raw data, pre-combining)
+    nodes: ImageNodeType[];
+    edges: FixedEdgeType[];
+    readCount: number;
+    getReadStatus: (chapter: number, day: number, id: string) => boolean;
     hidden: boolean;
     onNodeClick?: (node: ImageNodeType) => void;
     onEdgeClick?: (edge: FixedEdgeType) => void;
@@ -34,12 +37,14 @@ interface ViewReadCounterProps {
 const ViewReadCounter = ({
     day,
     chapter,
-    chartData,
+    nodes,
+    edges,
+    readCount,
+    getReadStatus,
     hidden,
     onNodeClick,
     onEdgeClick,
 }: ViewReadCounterProps) => {
-    const [readCount, setReadCount] = useState(0);
     const [showRead, setShowRead] = useState(false);
     const [showUnread, setShowUnread] = useState(true);
     const [open, setOpen] = useState(false);
@@ -58,46 +63,29 @@ const ViewReadCounter = ({
         }
     };
 
-    // Get elements that belong to current day
-    const currentDayElements = useMemo(
-        () => [
-            ...chartData.nodes.filter((node) => node.data.day === day),
-            ...chartData.edges.filter((edge) => edge.data?.day === day),
-        ],
-        [chartData.nodes, chartData.edges, day],
-    );
-
-    const totalCount = currentDayElements.length;
-
-    useEffect(() => {
-        // Count read elements from current day
-        const count = currentDayElements.reduce((acc, element) => {
-            return element.data?.isRead ? acc + 1 : acc;
-        }, 0);
-
-        setReadCount(count);
-    }, [currentDayElements, day, chapter, hidden]);
+    const totalCount = nodes.length + edges.length;
 
     // Get filtered elements
     const filteredElements = useMemo(() => {
-        const filterNodes = chartData.nodes.filter((node) => {
-            if (node.data.day !== day) return false;
+        const filterNodes = nodes.filter((node) => {
+            const nodeReadStatus = getReadStatus(chapter, day, node.id);
             return (
-                (showRead && node.data.isRead) ||
-                (showUnread && !node.data.isRead)
+                (showRead && nodeReadStatus) ||
+                (showUnread && !nodeReadStatus)
             );
         });
 
-        const filterEdges = chartData.edges.filter((edge) => {
+        const filterEdges = edges.filter((edge) => {
             if (edge.data?.day !== day) return false;
+            const edgeReadStatus = getReadStatus(chapter, day, edge.id);
             return (
-                (showRead && edge.data.isRead) ||
-                (showUnread && !edge.data.isRead)
+                (showRead && edgeReadStatus) ||
+                (showUnread && !edgeReadStatus)
             );
         });
 
         return { nodes: filterNodes, edges: filterEdges };
-    }, [chartData.nodes, chartData.edges, day, showRead, showUnread]);
+    }, [nodes, edges, getReadStatus, chapter, day, showRead, showUnread]);
 
     return (
         <Dialog open={open} onOpenChange={setOpen}>
@@ -218,14 +206,14 @@ const ViewReadCounter = ({
                                             <div className="relative h-10 w-10 shrink-0">
                                                 <Image
                                                     src={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.source,
                                                         )?.data.imageSrc || ""
                                                     }
                                                     alt={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.source,
@@ -238,14 +226,14 @@ const ViewReadCounter = ({
                                             <div className="relative h-10 w-10 shrink-0">
                                                 <Image
                                                     src={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.target,
                                                         )?.data.imageSrc || ""
                                                     }
                                                     alt={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.target,

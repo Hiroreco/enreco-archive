@@ -21,14 +21,22 @@ import { Moon, Sun, SunMoon } from "lucide-react";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
 import ViewInfoCredits from "@/components/view/ViewInfoCredits";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { useCallback } from "react";
 
 interface ViewInfoModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
 }
 
-const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
+const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
     const settingStore = useSettingStore();
+
+    const onOpenChange = useCallback((open: boolean) => {
+        if(!open) {
+            onClose();
+        }
+    }, [onClose]);
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <VisuallyHidden>

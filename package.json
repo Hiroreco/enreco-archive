@@ -6,7 +6,7 @@
     "scripts": {
         "prebuild": "pnpm run copy-resources",
         "build": "turbo run build:website",
-        "prebuild:all": "pnpm run copy-resources", 
+        "prebuild:all": "pnpm run copy-resources",
         "build:all": "turbo run build",
         "copy-resources": "tsx scripts/copy-shared-resources.js && tsx scripts/optimize-images.js",
         "predev": "pnpm copy-resources",
@@ -15,7 +15,7 @@
         "editor": "turbo run editor",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "lint": "turbo run lint",
-	    "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
+        "convert-data-to-git": "tsx scripts/convert-data-to-git.js",
         "export-recaps": "tsx scripts/export-recaps.ts",
         "inject-recaps": "tsx scripts/inject-recaps.ts",
         "validate-recaps": "tsx scripts/validate-recaps.ts",
