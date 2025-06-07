@@ -19,11 +19,11 @@ import { useSettingStore } from "@/store/settingStore";
 import { Book, Dice6, Info, Settings } from "lucide-react";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import ViewChart from "./components/view/ViewChart";
-import ViewSettingsModal from "./components/view/ViewSettingsModal";
-import ViewTransportControls from "./components/view/ViewTransportControls";
-import { useBrowserHash } from "./hooks/useBrowserHash";
-import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
+import ViewChart from "@/components/view/ViewChart";
+import ViewSettingsModal from "@/components/view/ViewSettingsModal";
+import ViewTransportControls from "@/components/view/ViewTransportControls";
+import { useBrowserHash } from "@/hooks/useBrowserHash";
+import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
@@ -31,9 +31,10 @@ import ViewReadCounter from "@/components/view/ViewReadCounter";
 import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
 import { CurrentChapterDataContext, CurrentDayDataContext } from "@/contexts/CurrentChartData";
 import { resolveDataForDay } from "@/lib/chart-utils";
-import { usePersistedViewStore } from "./store/persistedViewStore";
+import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { produce } from "immer";
 import { useShallow } from "zustand/react/shallow";
+import { isEdge, isNode } from "@/lib/utils";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -60,17 +61,105 @@ interface Props {
 
 let didInit = false;
 const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
+    /* Hooks that are not use*Store/useState/useMemo/useCallback */
     useAudioSettingsSync();
     useClickOutside();
-    /* State variables */
-    const settingsStore = useSettingStore();
-    const audioStore = useAudioStore();
+    
+    // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
+    // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
+    useDisabledDefaultMobilePinchZoom();
 
-    const viewStoreData = useViewStore(useShallow(state => state.data));
-    const viewStoreUi = useViewStore(useShallow(state => state.ui));
-    const viewStoreVisibility = useViewStore(useShallow(state => state.visibility));
-    const viewStoreModal = useViewStore(useShallow(state => state.modal));
+    /* Zustand store variables */
+    // Settings Store
+    const openDayRecapOnDayChange = useSettingStore(state => state.openDayRecapOnDayChange);
+    
+    // Audio Store
+    const changeBGM = useAudioStore(state => state.changeBGM);
 
+    // Main App Store
+    const [ chapter, day, setChapter, setDay] = useViewStore(useShallow(state => [
+        state.data.chapter, state.data.day, state.data.setChapter,state.data.setDay 
+    ]));
+    
+    const [
+        currentCard,
+        openNodeCard,
+        openEdgeCard,
+        openSettingsCard,
+        closeCard,
+        selectedElement,
+        selectElement,
+        deselectElement,
+    ] = useViewStore(useShallow(state => [
+        state.ui.currentCard,
+        state.ui.openNodeCard,
+        state.ui.openEdgeCard,
+        state.ui.openSettingsCard,
+        state.ui.closeCard,
+        state.ui.selectedElement, 
+        state.ui.selectElement, 
+        state.ui.deselectElement, 
+    ]));
+
+    const [
+        showOnlyNewEdges,
+        setShowOnlyNewEdges,
+        edgeVisibility,
+        toggleEdge,
+        toggleAllEdges,
+        setEdgeKeys,
+        team,
+        toggleTeam,
+        toggleAllTeams,
+        setTeamKeys,
+        character,
+        toggleCharacter,
+        toggleAllCharacters,
+        setCharacterKeys,
+    ] = useViewStore(useShallow(state => [
+        state.visibility.showOnlyNewEdges,
+        state.visibility.setShowOnlyNewEdges,
+        state.visibility.edge,
+        state.visibility.toggleEdge,
+        state.visibility.toggleAllEdges,
+        state.visibility.setEdgeKeys,
+        state.visibility.team,
+        state.visibility.toggleTeam,
+        state.visibility.toggleAllTeams,
+        state.visibility.setTeamKeys,
+        state.visibility.character,
+        state.visibility.toggleCharacter,
+        state.visibility.toggleAllCharacters,
+        state.visibility.setCharacterKeys,
+    ]));
+
+    const [
+        openInfoModal,
+        openSettingsModal,
+        openMinigameModal,
+        openChapterRecapModal,
+        closeModal,
+        isInfoModalOpen,
+        isSettingsModalOpen,
+        isMinigameModalOpen,
+        isChapterRecapModalOpen,
+        isVideoModalOpen,
+        videoUrl,
+    ] = useViewStore(useShallow(state => [
+        state.modal.openInfoModal,
+        state.modal.openSettingsModal,
+        state.modal.openMinigameModal,
+        state.modal.openChapterRecapModal,
+        state.modal.closeModal,
+        state.modal.isInfoModalOpen,
+        state.modal.isSettingsModalOpen,
+        state.modal.isMinigameModalOpen,
+        state.modal.isChapterRecapModalOpen,
+        state.modal.isVideoModalOpen,
+        state.modal.videoUrl,
+    ]));
+
+    // Persisted Store
     const [
         countReadElements,
         getReadStatus, 
@@ -78,55 +167,58 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     ] = usePersistedViewStore(useShallow(state => [state.countReadElements, state.getReadStatus, state.setReadStatus]));
     const [hasVisitedBefore, setHasVisitedBefore] = usePersistedViewStore(useShallow(state => [state.hasVisitedBefore, state.setHasVisitedBefore]));
 
+    /* State variables */
     const [chartShrink, setChartShrink] = useState(0);
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
 
-    // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
-    // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
-    useDisabledDefaultMobilePinchZoom();
-
     /* Data variables */
-    const chapterData = siteData.chapters[viewStoreData.chapter];
-    const dayData = chapterData.charts[viewStoreData.day];
+    const chapterData = siteData.chapters[chapter];
+    const dayData = chapterData.charts[day];
 
+    /* Build initial nodes/edges by combining data from previous days. */
     const resolvedData = useMemo(() => {
-        console.log("building initial nodes/edges");
-        return resolveDataForDay(chapterData.charts, viewStoreData.day);
-    }, [chapterData.charts, viewStoreData.day]);
+        return resolveDataForDay(chapterData.charts, day);
+    }, [chapterData.charts, day]);
 
+    /* Set additional properties for nodes. */
     const completeNodes = useMemo(() => {
         return produce(resolvedData.nodes,
             draft => {
                 for(const node of draft) {
                     node.hidden = !(
-                        viewStoreVisibility.team[node.data.teamId || "null"] &&
-                        viewStoreVisibility.character[node.id]
+                        team[node.data.teamId || "null"] &&
+                        character[node.id]
                     );
 
-                    if(viewStoreUi.selectedElementIsNode()) {
-                        node.selected = node.id === viewStoreUi.selectedElementAsNode()!.id;
-                    }
-                    else if(viewStoreUi.selectedElementIsEdge()) {
-                        node.selected = (
-                            node.id === viewStoreUi.selectedElementAsEdge()!.target ||
-                            node.id === viewStoreUi.selectedElementAsEdge()!.source
-                        );
+                    if(selectedElement) {
+                        if(isNode(selectedElement)) {
+                            node.selected = node.id === (selectedElement as ImageNodeType).id;
+                        }
+                        else if(isEdge(selectedElement)) {
+                            const selectedEdge = (selectedElement as FixedEdgeType);
+                            node.selected = (
+                                node.id === selectedEdge.target ||
+                                node.id === selectedEdge.source
+                            );
+                        }
                     }
                     
-                    node.data.isRead = getReadStatus(viewStoreData.chapter, viewStoreData.day, node.id);
+                    
+                    node.data.isRead = getReadStatus(chapter, day, node.id);
                 }
             }
         );
     }, [
-        getReadStatus, 
         resolvedData.nodes, 
-        viewStoreData.chapter, 
-        viewStoreData.day, 
-        viewStoreUi, 
-        viewStoreVisibility.character, 
-        viewStoreVisibility.team
+        team, 
+        character, 
+        selectedElement, 
+        getReadStatus, 
+        chapter, 
+        day
     ]);
 
+    /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
         return produce(resolvedData.edges,
             draft => {
@@ -137,41 +229,45 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     const edgesNodesAreVisible = (
                         (sourceNode !== undefined) && 
                         (targetNode !== undefined) && 
-                        (viewStoreVisibility.character[sourceNode.id] ?? false) &&
-                        (viewStoreVisibility.character[targetNode.id] ?? false) &&
-                        (viewStoreVisibility.team[sourceNode.data.teamId] ?? false) && 
-                        (viewStoreVisibility.team[targetNode.data.teamId] ?? false)
+                        (character[sourceNode.id] ?? false) &&
+                        (character[targetNode.id] ?? false) &&
+                        (team[sourceNode.data.teamId] ?? false) && 
+                        (team[targetNode.data.teamId] ?? false)
                     );
 
                     edge.hidden = edgesNodesAreVisible && 
                         edge.data !== undefined &&
-                        viewStoreVisibility.edge[edge.data.relationshipId];
+                        edgeVisibility[edge.data.relationshipId];
 
-                    edge.selected = edge.id === viewStoreUi.selectedElementAsEdge()?.id;
+                    if(selectedElement && isEdge(selectedElement)) {
+                        const selectedEdge = (selectedElement as FixedEdgeType);
+                        edge.selected = edge.id === selectedEdge.id;
+                    }
+                    
                     edge.selectable = (
-                        viewStoreVisibility.showOnlyNewEdges && 
+                        showOnlyNewEdges && 
                         edge.data !== undefined &&
-                        edge.data.day === viewStoreData.day
-                    ) || (!viewStoreVisibility.showOnlyNewEdges);
+                        edge.data.day === day
+                    ) || (!showOnlyNewEdges);
 
                     if(edge.data) {
-                        edge.data.isRead = getReadStatus(viewStoreData.chapter, viewStoreData.day, edge.id);
+                        edge.data.isRead = getReadStatus(chapter, day, edge.id);
                     }
                 }
             }
         );
     }, [
-        getReadStatus, 
         resolvedData.edges, 
         resolvedData.nodes, 
-        viewStoreData.chapter, 
-        viewStoreData.day, 
-        viewStoreUi, 
-        viewStoreVisibility.character, 
-        viewStoreVisibility.edge, 
-        viewStoreVisibility.showOnlyNewEdges, 
-        viewStoreVisibility.team]
-    );
+        character, 
+        team, 
+        edgeVisibility, 
+        showOnlyNewEdges, 
+        selectedElement, 
+        day, 
+        getReadStatus, 
+        chapter
+    ]);
 
     /* Helper function to coordinate state updates when data changes. */
     function changeWorkingData(newChapter: number, newDay: number) {
@@ -179,7 +275,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             newChapter < 0 ||
             newChapter > siteData.numberOfChapters ||
             newDay < 0 ||
-            newDay > siteData.chapters[viewStoreData.chapter].numberOfDays
+            newDay > siteData.chapters[chapter].numberOfDays
         ) {
             return;
         }
@@ -190,47 +286,51 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             newDay,
         );
 
-        if (viewStoreUi.selectedElementIsNode()) {
-            const newSelectedNode = newDayData.nodes.find(
-                n => n.id === viewStoreUi.selectedElementAsNode()!.id);
-            
-            if(newSelectedNode) {
-                newSelectedNode.selected = true;
-            }
-            else {
-                viewStoreUi.deselectElement();
-            }
-        }
+        if(selectedElement) {
+            if (isNode(selectedElement)) {
+                const selectedNode = (selectedElement as ImageNodeType);
 
-        if (viewStoreUi.selectedElementIsEdge()) {
-            const newSelectedEdge = newDayData.edges.find(
-                e => e.id === viewStoreUi.selectedElementAsEdge()!.id);
-            
-            if(newSelectedEdge) {
-                newSelectedEdge.selected = true;
-                const sourceNode = dayData.nodes.find(n => n.id === newSelectedEdge.source);
-                if(sourceNode) {
-                    sourceNode.selected = true;
+                const newSelectedNode = newDayData.nodes.find(
+                    n => n.id === selectedNode.id);
+                
+                if(newSelectedNode) {
+                    newSelectedNode.selected = true;
                 }
-
-                const targetNode = dayData.nodes.find(n => n.id === newSelectedEdge.target);
-                if(targetNode) {
-                    targetNode.selected = true;
+                else {
+                    deselectElement();
                 }
             }
-            else {
-                viewStoreUi.deselectElement();
+            else if (isEdge(selectedElement)) {
+                const selectedEdge = (selectedElement as FixedEdgeType);
+                const newSelectedEdge = newDayData.edges.find(
+                    e => e.id === selectedEdge.id);
+                
+                if(newSelectedEdge) {
+                    newSelectedEdge.selected = true;
+                    const sourceNode = dayData.nodes.find(n => n.id === newSelectedEdge.source);
+                    if(sourceNode) {
+                        sourceNode.selected = true;
+                    }
+
+                    const targetNode = dayData.nodes.find(n => n.id === newSelectedEdge.target);
+                    if(targetNode) {
+                        targetNode.selected = true;
+                    }
+                }
+                else {
+                    deselectElement();
+                }
             }
         }
 
         // Reset edge/team/character visibility on data change.
-        viewStoreVisibility.setEdgeKeys(newDayData.edges);
-        viewStoreVisibility.setTeamKeys(newChapterData.teams);
-        viewStoreVisibility.setCharacterKeys(newDayData.nodes);
+        setEdgeKeys(newDayData.edges);
+        setTeamKeys(newChapterData.teams);
+        setCharacterKeys(newDayData.nodes);
 
-        audioStore.changeBGM(newChapterData.bgmSrc);
-        viewStoreData.setChapter(newChapter);
-        viewStoreData.setDay(newDay);
+        changeBGM(newChapterData.bgmSrc);
+        setChapter(newChapter);
+        setDay(newDay);
         setBrowserHash(`${newChapter}/${newDay}`);
     }
 
@@ -245,7 +345,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
                 day < 0 ||
-                day >= siteData.chapters[viewStoreData.chapter].numberOfDays
+                day >= siteData.chapters[chapter].numberOfDays
             ) {
                 setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
                 changeWorkingData(siteData.numberOfChapters - 1, 0);
@@ -259,30 +359,30 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     }
 
     const onCardClose = useCallback(() => {
-        viewStoreUi.deselectElement();
-        viewStoreUi.closeCard();
+        deselectElement();
+        closeCard();
         setChartShrink(0);
     },
-        [viewStoreUi],
+        [closeCard, deselectElement],
     );
 
-    function onSettingsCardOpen() {
-        viewStoreUi.deselectElement();
-        viewStoreUi.openSettingsCard();
-    }
+    const onSettingsCardOpen = useCallback(() => {
+        deselectElement();
+        openSettingsCard();
+    }, [deselectElement, openSettingsCard]);
 
     const onNodeClick = useCallback((node: ImageNodeType) => {
-            viewStoreUi.selectElement(node);
-            viewStoreUi.openNodeCard();
+            selectElement(node);
+            openNodeCard();
         },
-        [viewStoreUi],
+        [openNodeCard, selectElement],
     );
 
     const onEdgeClick = useCallback((edge: FixedEdgeType) => {
-            viewStoreUi.selectElement(edge);
-            viewStoreUi.openEdgeCard();
+            selectElement(edge);
+            openEdgeCard();
         },
-        [viewStoreUi],
+        [openEdgeCard, selectElement],
     );
 
     const setChartShrinkAndFit = useCallback((width: number) => {
@@ -295,6 +395,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         [chartShrink],
     );
 
+    /* Memotized values for CurrentChapterDataContext and CurrentDayDataContext. */
     const currentChapterContextValue = useMemo(() => ({
         teams: chapterData.teams,
         relationships: chapterData.relationships
@@ -307,7 +408,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     useEffect(() => {
         if(!hasVisitedBefore && !isInLoadingScreen) {
-            viewStoreModal.openInfoModal();
+            openInfoModal();
         }
     })
 
@@ -317,22 +418,32 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         onBrowserHashChange(browserHash);    
     }
 
-    const selectedNodeTeamKey = viewStoreUi.selectedElementAsNode()?.data.teamId;
-    const selectedNodeTeam = selectedNodeTeamKey ? chapterData.teams[selectedNodeTeamKey] : null;
+    let selectedNodeTeam = null;
+    let selectedEdgeRelationship = null;
+    let selectedNodeRead = false;
+    let selectedEdgeRead = false;
+    let selectedNode = null;
+    let selectedEdge = null;
+    if(selectedElement) {
+        if(isNode(selectedElement)) {
+            selectedNode = (selectedElement as ImageNodeType);
+            selectedNodeTeam = chapterData.teams[selectedNode.data.teamId];
+            selectedNodeRead = getReadStatus(chapter, day, selectedNode.id);
+        }
+        else if(isEdge(selectedElement)) {
+            selectedEdge = (selectedElement as FixedEdgeType);
+            const selectedEdgeRelationshipKey = selectedEdge.data?.relationshipId;
+            selectedEdgeRelationship = selectedEdgeRelationshipKey ? chapterData.relationships[selectedEdgeRelationshipKey] : null;
+            selectedEdgeRead = getReadStatus(chapter, day, selectedEdge.id);
+        }
+    }
 
-    const selectedEdgeRelationshipKey = viewStoreUi.selectedElementAsEdge()?.data?.relationshipId;
-    const selectedEdgeRelationship = selectedEdgeRelationshipKey ? chapterData.relationships[selectedEdgeRelationshipKey] : null;
-
-    const selectedNodeRead = viewStoreUi.selectedElementIsNode() ? 
-        getReadStatus(viewStoreData.chapter, viewStoreData.day, viewStoreUi.selectedElementAsNode()!.id) : false;
-    const selectedEdgeRead = viewStoreUi.selectedElementIsEdge() ? 
-        getReadStatus(viewStoreData.chapter, viewStoreData.day, viewStoreUi.selectedElementAsEdge()!.id) : false;
     function onReadChange(newReadStatus: boolean) {
-        if(viewStoreUi.selectedElement == null) {
+        if(selectedElement == null) {
             return;
         }
 
-        setReadStatus(viewStoreData.chapter, viewStoreData.day, viewStoreUi.selectedElement.id, newReadStatus);
+        setReadStatus(chapter, day, selectedElement.id, newReadStatus);
     }
 
     let bgImage = chapterData.bgiSrc;
@@ -347,9 +458,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     <ViewChart
                         nodes={completeNodes}
                         edges={completeEdges}
-                        selectedElement={viewStoreUi.selectedElement}
+                        selectedElement={selectedElement}
                         widthToShrink={chartShrink}
-                        currentCard={viewStoreUi.currentCard}
+                        currentCard={currentCard}
                         onNodeClick={onNodeClick}
                         onEdgeClick={onEdgeClick}
                         onPaneClick={onCardClose}
@@ -359,8 +470,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                             "absolute top-0 left-0 w-screen h-full -z-10",
                             {
                                 "brightness-90 dark:brightness-70":
-                                    viewStoreUi.currentCard !== null,
-                                "brightness-100": viewStoreUi.currentCard === null,
+                                    currentCard !== null,
+                                "brightness-100": currentCard === null,
                             },
                         )}
                         style={{
@@ -375,33 +486,33 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
                 <CurrentDayDataContext value={currentDayContextValue}>
                     <ViewSettingCard
-                        isCardOpen={viewStoreUi.currentCard === "setting"}
+                        isCardOpen={currentCard === "setting"}
                         onCardClose={onCardClose}
                         dayRecap={dayData.dayRecap}
                         nodes={completeNodes}
-                        edgeVisibility={viewStoreVisibility.edge}
-                        toggleEdgeVisible={viewStoreVisibility.toggleEdge}
-                        toggleAllEdgesVisible={viewStoreVisibility.toggleAllEdges}
-                        showOnlyNewEdges={viewStoreVisibility.showOnlyNewEdges}
-                        setShowOnlyNewEdges={viewStoreVisibility.setShowOnlyNewEdges}
-                        teamVisibility={viewStoreVisibility.team}
-                        toggleTeamVisible={viewStoreVisibility.toggleTeam}
-                        toggleAllTeamsVisible={viewStoreVisibility.toggleAllTeams}
-                        characterVisibility={viewStoreVisibility.character}
-                        toggleCharacterVisible={viewStoreVisibility.toggleCharacter}
-                        toggleAllCharactersVisible={viewStoreVisibility.toggleAllCharacters}
-                        chapter={viewStoreData.chapter}
+                        edgeVisibility={edgeVisibility}
+                        toggleEdgeVisible={toggleEdge}
+                        toggleAllEdgesVisible={toggleAllEdges}
+                        showOnlyNewEdges={showOnlyNewEdges}
+                        setShowOnlyNewEdges={setShowOnlyNewEdges}
+                        teamVisibility={team}
+                        toggleTeamVisible={toggleTeam}
+                        toggleAllTeamsVisible={toggleAllTeams}
+                        characterVisibility={character}
+                        toggleCharacterVisible={toggleCharacter}
+                        toggleAllCharactersVisible={toggleAllCharacters}
+                        chapter={chapter}
                         chapterData={chapterData}
                         setChartShrink={setChartShrinkAndFit}
-                        day={viewStoreData.day}
+                        day={day}
                         onDayChange={(newDay) => {
-                            changeWorkingData(viewStoreData.chapter, newDay);
+                            changeWorkingData(chapter, newDay);
                         }}
                     />
 
                     <ViewNodeCard
-                        isCardOpen={viewStoreUi.currentCard === "node"}
-                        selectedNode={viewStoreUi.selectedElementAsNode()}
+                        isCardOpen={currentCard === "node"}
+                        selectedNode={selectedNode}
                         nodeTeam={selectedNodeTeam}
                         charts={chapterData.charts}
                         read={selectedNodeRead}
@@ -409,15 +520,15 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         onNodeLinkClicked={onNodeClick}
                         onEdgeLinkClicked={onEdgeClick}
                         onDayChange={(newDay) => {
-                            changeWorkingData(viewStoreData.chapter, newDay);
+                            changeWorkingData(chapter, newDay);
                         }}
                         onReadChange={onReadChange}
                         setChartShrink={setChartShrinkAndFit}
                     />
 
                     <ViewEdgeCard
-                        isCardOpen={viewStoreUi.currentCard === "edge"}
-                        selectedEdge={viewStoreUi.selectedElementAsEdge()}
+                        isCardOpen={currentCard === "edge"}
+                        selectedEdge={selectedEdge}
                         edgeRelationship={selectedEdgeRelationship}
                         charts={chapterData.charts}
                         read={selectedEdgeRead}
@@ -425,7 +536,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         onNodeLinkClicked={onNodeClick}
                         onEdgeLinkClicked={onEdgeClick}
                         onDayChange={(newDay) => {
-                            changeWorkingData(viewStoreData.chapter, newDay);
+                            changeWorkingData(chapter, newDay);
                         }}
                         onReadChange={onReadChange}
                         setChartShrink={setChartShrinkAndFit}
@@ -434,51 +545,51 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <ViewInfoModal
-                open={viewStoreModal.isInfoModalOpen()}
+                open={isInfoModalOpen()}
                 onClose={() => {
                     if(!hasVisitedBefore) {
                         setHasVisitedBefore(true);
-                        viewStoreModal.closeModal();
+                        closeModal();
                         onSettingsCardOpen();
                     }
                     else {
-                        viewStoreModal.closeModal();
+                        closeModal();
                     }
                 }}
             />
 
             <ViewSettingsModal
-                open={viewStoreModal.isSettingsModalOpen()}
-                onClose={viewStoreModal.closeModal}
+                open={isSettingsModalOpen()}
+                onClose={closeModal}
             />
 
             <ViewMiniGameModal
-                open={viewStoreModal.isMinigameModalOpen()}
-                onClose={viewStoreModal.closeModal}
+                open={isMinigameModalOpen()}
+                onClose={closeModal}
             />
 
             <ViewVideoModal
-                open={viewStoreModal.isVideoModalOpen()}
-                onClose={viewStoreModal.closeModal}
-                videoUrl={viewStoreModal.videoUrl}
+                open={isVideoModalOpen()}
+                onClose={closeModal}
+                videoUrl={videoUrl}
                 bgImage={bgImage}
             />
 
             <ViewChapterRecapModal
-                key={`chapter-recap-modal-${viewStoreData.chapter}`}
-                open={viewStoreModal.isChapterRecapModalOpen()}
-                onClose={viewStoreModal.closeModal}
-                currentChapter={viewStoreData.chapter}
+                key={`chapter-recap-modal-${chapter}`}
+                open={isChapterRecapModalOpen()}
+                onClose={closeModal}
+                currentChapter={chapter}
             />
 
             <ViewReadCounter
-                day={viewStoreData.day}
-                chapter={viewStoreData.chapter}
+                day={day}
+                chapter={chapter}
                 nodes={dayData.nodes}
                 edges={dayData.edges}
-                readCount={countReadElements(viewStoreData.chapter, viewStoreData.day)}
+                readCount={countReadElements(chapter, day)}
                 getReadStatus={getReadStatus}
-                hidden={viewStoreUi.currentCard !== null}
+                hidden={currentCard !== null}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
@@ -491,7 +602,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
-                        if(viewStoreUi.currentCard === "setting") {
+                        if(currentCard === "setting") {
                             onCardClose();
                         }
                         else {
@@ -511,7 +622,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={viewStoreModal.openInfoModal}
+                    onClick={openInfoModal}
                 >
                     <Info />
                 </IconButton>
@@ -522,7 +633,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={viewStoreModal.openSettingsModal}
+                    onClick={openSettingsModal}
                 >
                     <Settings />
                 </IconButton>
@@ -533,7 +644,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={viewStoreModal.openMinigameModal}
+                    onClick={openMinigameModal}
                 >
                     <Dice6 />
                 </IconButton>
@@ -544,7 +655,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Chatper Recap"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={viewStoreModal.openChapterRecapModal}
+                    onClick={openChapterRecapModal}
                 >
                     <Book />
                 </IconButton>
@@ -555,29 +666,29 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
                     {
                         "w-[60%] lg:block hidden":
-                            viewStoreUi.currentCard === "setting",
+                            currentCard === "setting",
                         "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            viewStoreUi.currentCard !== "setting",
+                            currentCard !== "setting",
                     },
                 )}
             >
                 <ViewTransportControls
-                    chapter={viewStoreData.chapter}
+                    chapter={chapter}
                     chapterData={siteData.chapters}
-                    day={viewStoreData.day}
+                    day={day}
                     numberOfChapters={siteData.numberOfChapters}
                     numberOfDays={chapterData.numberOfDays}
-                    currentCard={viewStoreUi.currentCard}
+                    currentCard={currentCard}
                     onChapterChange={(newChapter) => {
-                        viewStoreUi.deselectElement();
-                        viewStoreUi.closeCard();
+                        deselectElement();
+                        closeCard();
                         changeWorkingData(newChapter, 0);
                     }}
                     onDayChange={(newDay) => {
-                        if (settingsStore.openDayRecapOnDayChange) {
+                        if (openDayRecapOnDayChange) {
                             onSettingsCardOpen();
                         }
-                        changeWorkingData(viewStoreData.chapter, newDay);
+                        changeWorkingData(chapter, newDay);
                     }}
                 />
             </div>

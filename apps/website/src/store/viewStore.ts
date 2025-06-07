@@ -1,4 +1,3 @@
-import { isEdge, isNode } from "@/lib/utils";
 import { FixedEdgeType, ImageNodeType, TeamMap } from "@enreco-archive/common/types";
 import { create } from "zustand";
 import { immer } from "zustand/middleware/immer"; 
@@ -25,10 +24,6 @@ interface ViewState {
         selectedElement: ImageNodeType | FixedEdgeType | null;
         selectElement: (element: ImageNodeType | FixedEdgeType) => void;
         deselectElement: () => void;
-        selectedElementIsNode: () => boolean;
-        selectedElementIsEdge: () => boolean;
-        selectedElementAsNode: () => ImageNodeType | null;
-        selectedElementAsEdge: () => FixedEdgeType | null;
     },
 
     visibility: {
@@ -92,30 +87,6 @@ export const useViewStore = create<ViewState>()(immer((set, get) => {
             selectedElement: null,
             selectElement: (element) => set(draft => { draft.ui.selectedElement = element; }),
             deselectElement: () => set(draft => { draft.ui.selectedElement = null; }),
-            selectedElementIsNode: () => {
-                const element = get().ui.selectedElement;
-                return (element !== null && isNode(element));
-            },
-            selectedElementIsEdge: () => {
-                const element = get().ui.selectedElement;
-                return (element !== null && isEdge(element));
-            },
-            selectedElementAsNode: () => {
-                const element = get().ui.selectedElement;
-                if(element && isNode(element)) {
-                    return element as ImageNodeType;
-                }
-
-                return null;
-            },
-            selectedElementAsEdge: () => {
-                const element = get().ui.selectedElement;
-                if(element && isEdge(element)) {
-                    return element as FixedEdgeType;
-                }
-
-                return null;
-            },
         },
 
         visibility: {
