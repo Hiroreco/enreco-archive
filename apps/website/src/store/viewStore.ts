@@ -20,6 +20,10 @@ interface ViewState {
         openEdgeCard: () => void;
         openSettingsCard: () => void;
         closeCard: () => void;
+        isNodeCardOpen: () => boolean;
+        isEdgeCardOpen: () => boolean;
+        isSettingsCardOpen: () => boolean;
+        isAnyCardOpen: () => boolean;
 
         selectedElement: ImageNodeType | FixedEdgeType | null;
         selectElement: (element: ImageNodeType | FixedEdgeType) => void;
@@ -83,6 +87,10 @@ export const useViewStore = create<ViewState>()(immer((set, get) => {
             openEdgeCard: () => set(draft => { draft.ui.currentCard = "edge"; }),
             openSettingsCard: () => set(draft => { draft.ui.currentCard = "setting"; }),
             closeCard: () => set(draft => { draft.ui.currentCard = null; }),
+            isNodeCardOpen: () => get().ui.currentCard === "node",
+            isEdgeCardOpen: () => get().ui.currentCard === "edge",
+            isSettingsCardOpen: () => get().ui.currentCard === "setting",
+            isAnyCardOpen: () => get().ui.currentCard !== null,
 
             selectedElement: null,
             selectElement: (element) => set(draft => { draft.ui.selectedElement = element; }),

@@ -87,6 +87,10 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         openEdgeCard,
         openSettingsCard,
         closeCard,
+        isNodeCardOpen,
+        isEdgeCardOpen,
+        isSettingsCardOpen,
+        isAnyCardOpen,
         selectedElement,
         selectElement,
         deselectElement,
@@ -96,6 +100,10 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         state.ui.openEdgeCard,
         state.ui.openSettingsCard,
         state.ui.closeCard,
+        state.ui.isNodeCardOpen,
+        state.ui.isEdgeCardOpen,
+        state.ui.isSettingsCardOpen,
+        state.ui.isAnyCardOpen,
         state.ui.selectedElement, 
         state.ui.selectElement, 
         state.ui.deselectElement, 
@@ -470,8 +478,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                             "absolute top-0 left-0 w-screen h-full -z-10",
                             {
                                 "brightness-90 dark:brightness-70":
-                                    currentCard !== null,
-                                "brightness-100": currentCard === null,
+                                    isAnyCardOpen(),
+                                "brightness-100": !isAnyCardOpen(),
                             },
                         )}
                         style={{
@@ -486,7 +494,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
                 <CurrentDayDataContext value={currentDayContextValue}>
                     <ViewSettingCard
-                        isCardOpen={currentCard === "setting"}
+                        isCardOpen={isSettingsCardOpen()}
                         onCardClose={onCardClose}
                         dayRecap={dayData.dayRecap}
                         nodes={completeNodes}
@@ -511,7 +519,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     />
 
                     <ViewNodeCard
-                        isCardOpen={currentCard === "node"}
+                        isCardOpen={isNodeCardOpen()}
                         selectedNode={selectedNode}
                         nodeTeam={selectedNodeTeam}
                         charts={chapterData.charts}
@@ -527,7 +535,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     />
 
                     <ViewEdgeCard
-                        isCardOpen={currentCard === "edge"}
+                        isCardOpen={isEdgeCardOpen()}
                         selectedEdge={selectedEdge}
                         edgeRelationship={selectedEdgeRelationship}
                         charts={chapterData.charts}
@@ -589,7 +597,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 edges={dayData.edges}
                 readCount={countReadElements(chapter, day)}
                 getReadStatus={getReadStatus}
-                hidden={currentCard !== null}
+                hidden={!isAnyCardOpen()}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
@@ -602,7 +610,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
-                        if(currentCard === "setting") {
+                        if(isSettingsCardOpen()) {
                             onCardClose();
                         }
                         else {
@@ -666,9 +674,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
                     {
                         "w-[60%] lg:block hidden":
-                            currentCard === "setting",
+                            isSettingsCardOpen(),
                         "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            currentCard !== "setting",
+                            !isSettingsCardOpen(),
                     },
                 )}
             >
