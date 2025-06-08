@@ -7,6 +7,8 @@ import Image from "next/image";
 import { memo, useContext, useMemo } from "react";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
+import "@/components/view/ViewImageNode.css";
+
 const NUM_OF_HANDLES = 5;
 
 const generateHandlesOnSide = (
