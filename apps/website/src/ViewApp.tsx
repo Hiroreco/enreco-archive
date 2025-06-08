@@ -87,10 +87,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         openEdgeCard,
         openSettingsCard,
         closeCard,
-        isNodeCardOpen,
-        isEdgeCardOpen,
-        isSettingsCardOpen,
-        isAnyCardOpen,
         selectedElement,
         selectElement,
         deselectElement,
@@ -100,10 +96,6 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         state.ui.openEdgeCard,
         state.ui.openSettingsCard,
         state.ui.closeCard,
-        state.ui.isNodeCardOpen,
-        state.ui.isEdgeCardOpen,
-        state.ui.isSettingsCardOpen,
-        state.ui.isAnyCardOpen,
         state.ui.selectedElement, 
         state.ui.selectElement, 
         state.ui.deselectElement, 
@@ -142,28 +134,20 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     ]));
 
     const [
+        openModal,
         openInfoModal,
         openSettingsModal,
         openMinigameModal,
         openChapterRecapModal,
         closeModal,
-        isInfoModalOpen,
-        isSettingsModalOpen,
-        isMinigameModalOpen,
-        isChapterRecapModalOpen,
-        isVideoModalOpen,
         videoUrl,
     ] = useViewStore(useShallow(state => [
+        state.modal.openModal,
         state.modal.openInfoModal,
         state.modal.openSettingsModal,
         state.modal.openMinigameModal,
         state.modal.openChapterRecapModal,
         state.modal.closeModal,
-        state.modal.isInfoModalOpen,
-        state.modal.isSettingsModalOpen,
-        state.modal.isMinigameModalOpen,
-        state.modal.isChapterRecapModalOpen,
-        state.modal.isVideoModalOpen,
         state.modal.videoUrl,
     ]));
 
@@ -478,8 +462,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                             "absolute top-0 left-0 w-screen h-full -z-10",
                             {
                                 "brightness-90 dark:brightness-70":
-                                    isAnyCardOpen(),
-                                "brightness-100": !isAnyCardOpen(),
+                                    currentCard !== null,
+                                "brightness-100": currentCard === null,
                             },
                         )}
                         style={{
@@ -494,7 +478,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
                 <CurrentDayDataContext value={currentDayContextValue}>
                     <ViewSettingCard
-                        isCardOpen={isSettingsCardOpen()}
+                        isCardOpen={currentCard === "setting"}
                         onCardClose={onCardClose}
                         dayRecap={dayData.dayRecap}
                         nodes={completeNodes}
@@ -519,7 +503,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     />
 
                     <ViewNodeCard
-                        isCardOpen={isNodeCardOpen()}
+                        isCardOpen={currentCard === "node"}
                         selectedNode={selectedNode}
                         nodeTeam={selectedNodeTeam}
                         charts={chapterData.charts}
@@ -535,7 +519,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     />
 
                     <ViewEdgeCard
-                        isCardOpen={isEdgeCardOpen()}
+                        isCardOpen={currentCard === "edge"}
                         selectedEdge={selectedEdge}
                         edgeRelationship={selectedEdgeRelationship}
                         charts={chapterData.charts}
@@ -553,7 +537,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             </div>
 
             <ViewInfoModal
-                open={isInfoModalOpen()}
+                open={openModal === "info"}
                 onClose={() => {
                     if(!hasVisitedBefore) {
                         setHasVisitedBefore(true);
@@ -567,17 +551,17 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             />
 
             <ViewSettingsModal
-                open={isSettingsModalOpen()}
+                open={openModal === "settings"}
                 onClose={closeModal}
             />
 
             <ViewMiniGameModal
-                open={isMinigameModalOpen()}
+                open={openModal === "minigame"}
                 onClose={closeModal}
             />
 
             <ViewVideoModal
-                open={isVideoModalOpen()}
+                open={openModal === "video"}
                 onClose={closeModal}
                 videoUrl={videoUrl}
                 bgImage={bgImage}
@@ -585,7 +569,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
             <ViewChapterRecapModal
                 key={`chapter-recap-modal-${chapter}`}
-                open={isChapterRecapModalOpen()}
+                open={openModal === "chapterRecap"}
                 onClose={closeModal}
                 currentChapter={chapter}
             />
@@ -597,7 +581,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 edges={dayData.edges}
                 readCount={countReadElements(chapter, day)}
                 getReadStatus={getReadStatus}
-                hidden={!isAnyCardOpen()}
+                hidden={currentCard !== null}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
@@ -610,7 +594,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
-                        if(isSettingsCardOpen()) {
+                        if(currentCard === "setting") {
                             onCardClose();
                         }
                         else {
@@ -674,9 +658,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
                     {
                         "w-[60%] lg:block hidden":
-                            isSettingsCardOpen(),
+                            currentCard === "setting",
                         "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            !isSettingsCardOpen(),
+                            currentCard !== "setting",
                     },
                 )}
             >

@@ -20,10 +20,6 @@ interface ViewState {
         openEdgeCard: () => void;
         openSettingsCard: () => void;
         closeCard: () => void;
-        isNodeCardOpen: () => boolean;
-        isEdgeCardOpen: () => boolean;
-        isSettingsCardOpen: () => boolean;
-        isAnyCardOpen: () => boolean;
 
         selectedElement: ImageNodeType | FixedEdgeType | null;
         selectElement: (element: ImageNodeType | FixedEdgeType) => void;
@@ -58,11 +54,6 @@ interface ViewState {
         openChapterRecapModal: () => void;
         openVideoModal: () => void;
         closeModal: () => void;
-        isInfoModalOpen: () => boolean;
-        isSettingsModalOpen: () => boolean;
-        isMinigameModalOpen: () => boolean;
-        isChapterRecapModalOpen: () => boolean;
-        isVideoModalOpen: () => boolean;
 
         videoUrl: string | null;
         setVideoUrl: (currentVideoUrl: string | null) => void;
@@ -87,10 +78,6 @@ export const useViewStore = create<ViewState>()(immer((set, get) => {
             openEdgeCard: () => set(draft => { draft.ui.currentCard = "edge"; }),
             openSettingsCard: () => set(draft => { draft.ui.currentCard = "setting"; }),
             closeCard: () => set(draft => { draft.ui.currentCard = null; }),
-            isNodeCardOpen: () => get().ui.currentCard === "node",
-            isEdgeCardOpen: () => get().ui.currentCard === "edge",
-            isSettingsCardOpen: () => get().ui.currentCard === "setting",
-            isAnyCardOpen: () => get().ui.currentCard !== null,
 
             selectedElement: null,
             selectElement: (element) => set(draft => { draft.ui.selectedElement = element; }),
@@ -180,11 +167,6 @@ export const useViewStore = create<ViewState>()(immer((set, get) => {
             openChapterRecapModal: () => set(draft => { draft.modal.openModal = "chapterRecap"; }),
             openVideoModal: () => set(draft => { draft.modal.openModal = "video"; }),
             closeModal: () => set(draft => { draft.modal.openModal = null; }),
-            isInfoModalOpen: () => get().modal.openModal === "info",
-            isChapterRecapModalOpen: () => get().modal.openModal === "chapterRecap",
-            isMinigameModalOpen: () => get().modal.openModal === "minigame",
-            isSettingsModalOpen: () => get().modal.openModal === "settings",
-            isVideoModalOpen: () => get().modal.openModal === "video",
 
             videoUrl: null,
             setVideoUrl: (videoUrl) => set(draft => { draft.modal.videoUrl = videoUrl; }),
