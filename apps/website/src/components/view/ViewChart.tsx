@@ -142,8 +142,8 @@ function ViewChart({
             }
         }
 
-        // If opening a new card, defer until resize.
-        if(!(previousCard === null && currentCard !== null)) {
+        // If opening a new card, defer until resize, unless we're on mobile in which case resize immediately.
+        if(isMobileViewport() || !(previousCard === null && currentCard !== null)) {
             fitView();
         }
 
