@@ -91,7 +91,7 @@ const ViewReadCounter = ({
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger
                 className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 opacity-60 bg-transparent border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground hover:opacity-100 transition-all w-[120px]",
+                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
                     {
                         invisible: hidden,
                         visible: !hidden,
