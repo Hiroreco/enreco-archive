@@ -10,7 +10,7 @@ With that settled, Shiori returned to building her abode. But by now, her name h
 
 [I'm just hanging out](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=LPtF6PiDQRb6_vti&t=6559)
 
-But really, why would anyone be suspicious? She was just a humble delivery girl who maybe tried scamming a poor, broke knight with supposedly discounted [pork chops](https://www.youtube.com/live/4dgeXH5KKlI?si=SU4dNnWgXpyefwAL&t=7050). A girl who openly admitted to stirring up an [evil scheme](https://www.youtube.com/live/4dgeXH5KKlI?si=HuUPchNE8myBcl0m&t=7169). A girl who somehow talked her way into getting a 100-coin [discount](https://www.youtube.com/live/4dgeXH5KKlI?si=G5pZmSU5lSlsfHUC&t=8964). Totally normal behavior.
+But really, why would anyone be suspicious? She was just a humble delivery girl who maybe tried talking a poor, broke knight into buying supposedly discounted [pork chops](https://www.youtube.com/live/4dgeXH5KKlI?si=SU4dNnWgXpyefwAL&t=7050). A girl who openly admitted to stirring up an [evil scheme](https://www.youtube.com/live/4dgeXH5KKlI?si=HuUPchNE8myBcl0m&t=7169). A girl who somehow haggled her way into getting a 100-coin [discount](https://www.youtube.com/live/4dgeXH5KKlI?si=G5pZmSU5lSlsfHUC&t=8964). Totally normal behavior.
 
 Throughout the day, she often found herself on the sidelines, quietly observing the antics of those around her. Even when tensions ran high and arguments broke out, she’d slip in a dry remark or offbeat comment that left everyone blinking in confusion—conflict momentarily forgotten as question marks floated in the air.
 
@@ -18,8 +18,12 @@ Throughout the day, she often found herself on the sidelines, quietly observing 
 
 She continued building up her cozy little abode, expanding bit by bit as she explored new areas with the others, which brought new discoveries, as well as [new connections](https://www.youtube.com/live/4dgeXH5KKlI?si=_mBsbkGmIb_1APIR&t=9735). All the while, she remained dedicated to the grind. Gathering, crafting, cooking—anything that could earn her a bit more coin.
 
-Anyway, toward the end of the day, Shiori journaled her journey on Day 2—a day where she learned about the quirks of others and witnessed various curious events unfold.
+Towards the end of the day, Shiori journaled her journey on Day 2—a day where she learned about the quirks of others and witnessed various curious events unfold.
 
 [Journal for Day 2](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=jWYO3t1b6Ki-kv-z&t=12609)
 
 She also gave Gonathon beets, again, for completely [non-suspicious reasons](https://www.youtube.com/live/4dgeXH5KKlI?si=OFSnHhwRpTtRCLr_&t=13186).
+
+## Fanart
+
+["kiss it to make it better?" by kuma](https://x.com/kumakibbs/status/1926080936971497522)

@@ -20,7 +20,8 @@
         "inject-recaps": "tsx scripts/inject-recaps.ts",
         "validate-recaps": "tsx scripts/validate-recaps.ts",
         "cleanup": "tsx scripts/cleanup.ts",
-        "inject-chapter-recaps": "tsx scripts/inject-chapter-recaps.ts"
+        "inject-chapter-recaps": "tsx scripts/inject-chapter-recaps.ts",
+        "inject-texts": "tsx scripts/inject-texts.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",

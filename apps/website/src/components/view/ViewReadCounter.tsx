@@ -12,10 +12,7 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import {
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
@@ -67,9 +64,9 @@ const ViewReadCounter = ({
         const filterNodes = nodes.filter((node) => {
             const nodeReadStatus = getReadStatus(chapter, day, node.id);
             return (
-                node.data.day === day && 
+                node.data.day === day &&
                 ((showRead && nodeReadStatus) ||
-                (showUnread && !nodeReadStatus))
+                    (showUnread && !nodeReadStatus))
             );
         });
 
@@ -79,20 +76,22 @@ const ViewReadCounter = ({
             return (
                 edge.data.day === day &&
                 ((showRead && edgeReadStatus) ||
-                (showUnread && !edgeReadStatus))
+                    (showUnread && !edgeReadStatus))
             );
         });
 
         return { nodes: filterNodes, edges: filterEdges };
     }, [nodes, edges, getReadStatus, chapter, day, showRead, showUnread]);
 
-    const totalCount = nodes.filter(n => n.data.day === day).length + edges.filter(e => e?.data?.day === day).length;
+    const totalCount =
+        nodes.filter((n) => n.data.day === day).length +
+        edges.filter((e) => e?.data?.day === day).length;
 
     return (
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger
                 className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
+                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
                     {
                         invisible: hidden,
                         visible: !hidden,

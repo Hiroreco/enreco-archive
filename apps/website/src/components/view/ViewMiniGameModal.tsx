@@ -22,6 +22,8 @@ import ViewMemoryGame from "@/components/view/ViewMemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
 import { ReactElement, useCallback, useState } from "react";
+import ViewShioriGame from "@/components/view/ViewShioriGame";
+import ViewShioriGameInfo from "@/components/view/minigames-info/ViewShioriGameInfo";
 
 interface ViewMiniGameModalProps {
     open: boolean;
@@ -41,16 +43,23 @@ const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
         label: "Chicken Game (Chapter 1)",
         info: <ViewChickenGameInfo />,
     },
+    shiori: {
+        label: "Commission Shiori (Chapter 2)",
+        info: <ViewShioriGameInfo />,
+    },
 };
 
 const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
     const [game, setGame] = useState("gambling");
 
-    const onOpenChange = useCallback((open: boolean) => {
-        if(!open) {
-            onClose();
-        }
-    }, [onClose]);
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
+    );
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
@@ -83,9 +92,18 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
                             })}
                         </SelectContent>
                     </Select>
+
+                    {/* Game container */}
+                    <div className="flex grow items-center justify-center w-full">
+                        {game === "gambling" && <ViewGamblingGame />}
+                        {game === "memory" && <ViewMemoryGame />}
+                        {game === "chicken" && <ViewChickenGame />}
+                        {game === "shiori" && <ViewShioriGame />}
+                    </div>
+
                     <Dialog>
                         <DialogTrigger>
-                            <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2" />
+                            <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2 z-40" />
                         </DialogTrigger>
                         <DialogContent className="flex flex-col max-h-[85vh]">
                             <VisuallyHidden>
@@ -101,13 +119,6 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
                             </div>
                         </DialogContent>
                     </Dialog>
-
-                    {/* Game container */}
-                    <div className="flex grow items-center justify-center w-full">
-                        {game === "gambling" && <ViewGamblingGame />}
-                        {game === "memory" && <ViewMemoryGame />}
-                        {game === "chicken" && <ViewChickenGame />}
-                    </div>
                 </div>
             </DialogContent>
         </Dialog>

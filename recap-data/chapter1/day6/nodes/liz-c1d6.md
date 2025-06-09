@@ -8,7 +8,7 @@ Upon joining the kingdom, Elizabeth noticed a missed call from Gonathon. She cal
 
 Yet, as she listened to him, Elizabeth saw something in Gonathon she hadn’t fully appreciated before. His unwavering loyalty to his queen and his dedication moved her, and she made a surprising decision: she offered him her blade (see [Elizabeth-Gonathon: Unexpected Alliance](#edge:liz-gigi)).
 
-Of course, a serious moment with Elizabeth wouldn’t be complete without her usual shenanigans with Nerissa. Today’s antics somehow managed to outshine even the chaos of the fifth day. They involved hexing, marriages, and…childbirth? (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa)).
+Of course, a serious moment with Elizabeth wouldn’t be complete without her usual shenanigans with Nerissa. Today’s antics somehow managed to outshine even the chaos of the fifth day. They involved hexing, marriages, and… childbirth? (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa)).
 
 After their mischief, Elizabeth refocused on the king’s words about preparation. Inspired, she came up with the idea to organize a tournament. It would be a chance for everyone to train, test, and hone their swordsmanship.
 

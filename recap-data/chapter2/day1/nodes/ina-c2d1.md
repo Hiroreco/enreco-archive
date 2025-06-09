@@ -1,6 +1,6 @@
-She was inexplicably trapped in a chamber of glowing ivory, and mews of _some distant Promise_ enveloped her focus, if only for a moment, but that didn't stop Ina from getting her coffee water in order. Spotting some familiar figures within earshot of her, puzzle pieces of past memories immediately fell into place — NinoIna's title of Hero, and her sister, who she once freed from the influence of Ruination, all history from the lost mirage that was the realm of Libestal.
+She was inexplicably trapped in a chamber of glowing ivory, and mews of _some distant Promise_ enveloped her focus, if only for a moment, but that didn't stop Ina from getting her coffee water in order. Spotting some familiar figures within earshot of her, puzzle pieces of past memories immediately fell into place—NinoIna's title of Hero, and her sister, who she once freed from the influence of Ruination, all history from the lost mirage that was the realm of Libestal.
 
-A fellow fluent [catto speaker](https://www.youtube.com/live/BkJIFGhpKIY?si=AdkRu0SJWePxchf7&t=479) helped Ina recount her previous journey of Empathy, confirming the King of the false Libestal as a masquerade of the Outsider. Beyond the Library shelves was the true Libestal back in the past, which harbored the genesis of the Outsider (no thanks to the birds and the bees — and some alleged fairy godmother), and The Librarian’s scattered memories paramount to unraveling the Outsider’s destiny.
+A fellow fluent [catto speaker](https://www.youtube.com/live/BkJIFGhpKIY?si=AdkRu0SJWePxchf7&t=479) helped Ina recount her previous journey of Empathy, confirming the King of the false Libestal as a masquerade of the Outsider. Beyond the Library shelves was the true Libestal back in the past, which harbored the genesis of the Outsider (no thanks to the birds and the bees—and some alleged fairy godmother), and The Librarian’s scattered memories paramount to unraveling the Outsider’s destiny.
 
 The Library was soon full with the other fourteen "Shining Stars", and the two Lore Keepers among them gave a tour of the place. Ina had different plans though, she was busy perusing bookshelves and brushing with Fia.
 
@@ -22,6 +22,12 @@ Roa cornered the currently-independent Jeweler Ina to inquire on her non-profite
 
 The cautious self-proclaimed Hero toiled the rest of the day away clearing the entire Quest board gaining many a Coin, plus experience that she could no longer take in due to the technical fatigue of battle. Regardless, she was content with completing her commitments, getting a view of the [beautiful artworks in Pygmalion's gallery](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=12937s) and spending some of her disposable income on failed attempts to get a new hat.
 
-With a token of [Mordon Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13151s) in her pocket, Ina staved herself off the enticement of gambling and retreated to the Library, where she pioneered a page on her brand-new Journal documenting her path to strength. Her entry today was brief, not because of her desire to turn in early, but because she probably forgot what happened today.
+With a token of [Mordan Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13151s) in her pocket, Ina staved herself off the enticement of gambling and retreated to the Library, where she pioneered a page on her brand-new Journal documenting her path to strength. Her entry today was brief, not because of her desire to turn in early, but because she probably forgot what happened today.
 
 [MEOWMEOW](#embed:https://www.youtube.com/watch?v=BkJIFGhpKIY&t=13685s)
+
+## Fanart
+
+["the hero's most powerful spell (physical)" by kshut](https://x.com/shutowl/status/1919994120837177491)
+
+["HAVE A TASTE OF MY BOOK" by The Retch](https://x.com/aFookinRetch/status/1921997300240425214)

@@ -2,7 +2,7 @@
 
 The second day in the Kingdom of Libestal brought more than just progress—it brought chaos, laughter, and the blossoming of peculiar relationships. As everyone began to settle into their roles and understand the mechanics of this world, new bonds were forged, and the dynamics among the heroes grew even quirkier.
 
-Marriages became the talk of the day: Gonathon and Jyon Watson tied the knot in an impromptu ceremony, Shiori and Bijou declared their undying love, and Nino Ina and The Hot Pink One became each other's eternal consort. The royal status Tam Gandr held as, the 'Queen,' also attracted more followers.
+Marriages became the talk of the day: Gonathon and Jyon Watson tied the knot in an impromptu ceremony, Shiori and Bijou declared their undying love, and NinoIna and the Hot Pink One became each other's eternal consort. The royal status Tam Gandr held as the 'Queen' also attracted more followers.
 
 Meanwhile, a mysterious faction known as *The Appointed Points* formed—a group connected telepathically by their distinctive pointy hats. Their bond was so profound that if one member was to remove their hat, the entire group would perish (or so they claimed).
 

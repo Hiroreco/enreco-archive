@@ -14,7 +14,7 @@ The day continued with Cecilia joining Fauna in trying to sell lottery tickets t
 
 [Cecilia's (crackhead) theory about the king](#embed:https://www.youtube.com/live/a74NeBcixi8?t=3368)
 
-She shared her suspicions with Fauna, Gura, and Darwin, theorizing that the King might be turning the kingdom’s people into the "stains" they were sent to fight. What’s more, despite being tasked with clearing dungeons, there were no stains to be found in them. Her suspicions deepened after overhearing and overanalyzing the words (a bug) of a civilian.
+She shared her suspicions with Fauna, Gura, and Darwin, theorizing that the King might be turning the kingdom’s people into the "Stains" they were sent to fight. What’s more, despite being tasked with clearing dungeons, there were no Stains to be found in them. Her suspicions deepened after overhearing and overanalyzing the words (a bug) of a civilian.
 
 After wrapping up their conspiracy discussions, Cecilia, Gura, and Darwin headed to the second dungeon, the *Ocean Temple Dungeon*. After navigating multiple puzzles—and, of course, [overthinking](https://www.youtube.com/live/a74NeBcixi8?feature=shared\&t=8274) most of them—they successfully completed the dungeon and helped Gawr Gura recover her lost [memories](https://www.youtube.com/live/a74NeBcixi8?feature=shared\&t=8878).
 

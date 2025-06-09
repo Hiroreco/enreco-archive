@@ -1,6 +1,6 @@
 import { useAudioStore } from "@/store/audioStore";
-import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
+
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { MouseEvent } from "react";
 import { useShallow } from "zustand/shallow";
@@ -21,9 +21,16 @@ const TimestampHref = ({
     caption,
     ...rest
 }: TimestampHrefProps) => {
-    const timestampOption = useSettingStore(state => state.timestampOption);
-    const [ openVideoModal, setVideoUrl ] = useViewStore(useShallow(state => [state.modal.openVideoModal, state.modal.setVideoUrl]));
-    const [ playBGM, pauseBGM ] = useAudioStore(useShallow(state => [ state.playBGM, state.pauseBGM ]));
+    const [openVideoModal, setVideoUrl] = useViewStore(
+        useShallow((state) => [
+            state.modal.openVideoModal,
+            state.modal.setVideoUrl,
+        ]),
+    );
+    const [pauseBGM] = useAudioStore(
+        useShallow((state) => [state.playBGM, state.pauseBGM]),
+    );
+
     const timestampHandler = async (
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
@@ -31,26 +38,8 @@ const TimestampHref = ({
         event.preventDefault();
         pauseBGM();
 
-        if (timestampOption === "modal") {
-            openVideoModal();
-            setVideoUrl(timestampUrl);
-        } else if (timestampOption === "tab") {
-            window.open(timestampUrl, "_blank");
-            // Visibility change listener when user switches tabs
-            const handleVisibilityChange = () => {
-                if (document.visibilityState === "visible") {
-                    playBGM();
-                    document.removeEventListener(
-                        "visibilitychange",
-                        handleVisibilityChange,
-                    );
-                }
-            };
-            document.addEventListener(
-                "visibilitychange",
-                handleVisibilityChange,
-            );
-        }
+        openVideoModal();
+        setVideoUrl(timestampUrl);
     };
 
     return (

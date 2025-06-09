@@ -1,4 +1,4 @@
-<!-- title: Deal Of The Century -->
+<!-- title: Deal of the Century -->
 
 FaunaMart had witnessed the rise of NanaEleven, and they were not pleased. A rival store? Worse yet, this rival store was gaining more favor than FaunaMart? Fauna had poured hours of effort, blood, and sweat into her business—collecting materials, building an establishment—only for this tiny shed of a "store" to overshadow her? Unacceptable. She had to do something about it.
 

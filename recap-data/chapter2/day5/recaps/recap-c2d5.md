@@ -4,7 +4,7 @@ Another wild day unfolded—and at this point, should that really be surprising?
 
 Before diving into the chaos, the heroes took on what might be the final major dungeon: Star Site: Chaos. And true to its name, it was exactly that—chaotic. Unlike the previous dungeons, which had grand themes and solemn trials, this one felt more like a playground of silliness. 
 
-Puzzles? More like party games. Deep concepts? Nah, just fun. And of course, luck was a major player—so even if the heroes performed flawlessly, they still had to pray the stars were on their side.
+Puzzles? More like party games. Deep concepts? Nah, just fun. And of course, luck was a major player—so even if the heroes performed flawlessly; they still had to pray the stars were on their side.
 
 ![The heroes battling Stain King: Chaos](/images-opt/chaos.webp)
 

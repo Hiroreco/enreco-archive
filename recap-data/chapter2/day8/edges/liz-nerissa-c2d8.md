@@ -8,6 +8,8 @@ The red knight was not completely clueless to the changes in her demeanor, howev
 
 Spending the day together, Lady Bloodflame tried to improve her connection with Nerissa, suggesting they could play the lucky game together first. The Raven agreed, and together the pair bonded once more, though their feelings and fates were now just as intertwined with their gambled fortunes.
 
+["Maybe you are my lucky blue."](https://www.youtube.com/live/b-jTHH6GK5w?si=SGFe8V8u909-nM1L&t=2025)
+
 Would red persist and rekindle their mutual flame? Or would blue remain colder and distant still?
 
 ---
@@ -20,13 +22,19 @@ After their gambling session, Lady Nerissa returned the favor to the knight by o
 
 _En garde!_
 
-Like lovers dancing, they waltzed with their blades. The sound of the clashing dull swords echoed throughout the court. Their laughter was attuned to each other's heartbeat.
+Like lovers dancing, they waltzed with their blades. The sound of the clashing dull swords echoed throughout the court. Their laughter was attuned to each other's heartbeat. And then Elizabeth says something out of the blue.
 
-After a few rounds, Lady Bloodflame was finally declared the victor, so Nerissa made haste to buy her a prize— a gorgeous ring with pink stone, similar to what the knight had given her in the previous days.
+["I am your knight!"](https://www.youtube.com/live/b-jTHH6GK5w?si=iZB5pI1FOkv_Iq_t&t=2213)
+
+Even when Nerissa questions it, Elizabeth doesn't take the statement back. She doubles down with a "yes," solidifying her new stance on the woman in blue and her lucky charm.
+
+After a few rounds, Lady Bloodflame was finally declared the victor, so Nerissa made haste to buy her a prize—a gorgeous ring with pink stone, similar to what the knight had given her in the previous days.
 
 ---
 
 **WHERE DOES YOUR LOYALTY LIE**
+
+When Elizabeth discovers Nerissa is in a witches' coven with Shiori and Bijou. It leaves a foul taste in the mouth of the knight. It's in this moment that she declares Nerissa is not a witch.
 
 Memories burnt to ash and dust. Embers of ink-stained memories full of lies. Talks of the future, of parties. A Princess, after all, shall always be invited to gatherings.
 
@@ -60,6 +68,6 @@ When does a knight bend the knee?
 
 ## Fan Arts
 
-[Enchanted](https://x.com/Keiseeaaa/status/1921816580691726507)
-[Alternate Ending ](https://x.com/Keiseeaaa/status/1920620111464992799)
-[Villain](https://x.com/Keiseeaaa/status/1923701440473858538)
+["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
+
+["What could've been" by Keisea](https://x.com/Keiseeaaa/status/1920620111464992799)

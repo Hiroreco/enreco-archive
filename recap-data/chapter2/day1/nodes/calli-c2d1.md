@@ -1,10 +1,10 @@
-While everyone around her was confused and panicking—grappling with the fact that they'd lost parts of their memories yet again—the pink ex-tavern owner stood calm and cool. Why? Because she remembered everything. And more importantly, she had been tasked by a certain important someone—Fia—alongside Kiara, to oversee operations at the Library. That made her feel special. She was the main character now. Probably.
+While everyone around her was confused and panicking—grappling with the fact that they'd lost parts of their memories once more—the pink ex-tavern owner stood calmly. Why? Because she remembered everything. More importantly, she had been tasked by a certain important someone—Fia—alongside Kiara, to oversee operations at the Library. That made her feel special. She was the main character now. Probably.
 
 [I'm your hero](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=d-oTxkczcDfoDeMa&t=1009)
 
-And with that self-appointed title came great responsibility: explaining to the others what was happening, what to do, and how to go about it. You know, main character things. She carried herself with pride… which only made the looks she got from others more awkward—especially after she loudly introduced herself as _Mordon Ramsay_.
+And with that self-appointed title came great responsibility: explaining to the others what was happening, what to do, and how to go about it. You know, main character things. She carried herself with pride… which only made the looks she got from others more awkward—especially after she loudly introduced herself as _Mordan Ramsey_.
 
-Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Shining Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordon Ramsay was here to cook, and cook she shall.
+Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Shining Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordan Ramsey was here to cook, and cook she shall.
 
 She quickly befriended her new (or were they old?) comrades, including the likes of Gonathon (see [Calli-Gonathon: My Dawg](#edge:calli-gigi)). She had a lot of “dawgs.” She formed bonds with [fellow chefs](https://www.youtube.com/live/aqhG1kmmkec?si=3GeaCgPBFqQL-cAU&t=3179), started questing, and got used to the mechanics of the new kingdom.
 
@@ -20,4 +20,10 @@ It was thrilling. She got straight to work laying the foundation—literally—f
 
 Before, well, others planned on ruining her business
 
-[OI!!!](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=_NKA4AiEGnoMhNqK&t=15668)
+[Oi!!!](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=_NKA4AiEGnoMhNqK&t=15668)
+
+## Fanart
+
+["see?" by sanni](https://x.com/sanni44322/status/1921325284067811733)
+
+["chef mori!" by fushide](https://x.com/fushide_/status/1919625900900896785)

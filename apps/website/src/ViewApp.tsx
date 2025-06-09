@@ -29,7 +29,10 @@ import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 import ViewReadCounter from "@/components/view/ViewReadCounter";
 
 import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
-import { CurrentChapterDataContext, CurrentDayDataContext } from "@/contexts/CurrentChartData";
+import {
+    CurrentChapterDataContext,
+    CurrentDayDataContext,
+} from "@/contexts/CurrentChartData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { produce } from "immer";
@@ -64,23 +67,30 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     /* Hooks that are not use*Store/useState/useMemo/useCallback */
     useAudioSettingsSync();
     useClickOutside();
-    
+
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
     useDisabledDefaultMobilePinchZoom();
 
     /* Zustand store variables */
     // Settings Store
-    const openDayRecapOnDayChange = useSettingStore(state => state.openDayRecapOnDayChange);
-    
+    const openDayRecapOnDayChange = useSettingStore(
+        (state) => state.openDayRecapOnDayChange,
+    );
+
     // Audio Store
-    const changeBGM = useAudioStore(state => state.changeBGM);
+    const changeBGM = useAudioStore((state) => state.changeBGM);
 
     // Main App Store
-    const [ chapter, day, setChapter, setDay] = useViewStore(useShallow(state => [
-        state.data.chapter, state.data.day, state.data.setChapter,state.data.setDay 
-    ]));
-    
+    const [chapter, day, setChapter, setDay] = useViewStore(
+        useShallow((state) => [
+            state.data.chapter,
+            state.data.day,
+            state.data.setChapter,
+            state.data.setDay,
+        ]),
+    );
+
     const [
         currentCard,
         openNodeCard,
@@ -90,16 +100,18 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         selectedElement,
         selectElement,
         deselectElement,
-    ] = useViewStore(useShallow(state => [
-        state.ui.currentCard,
-        state.ui.openNodeCard,
-        state.ui.openEdgeCard,
-        state.ui.openSettingsCard,
-        state.ui.closeCard,
-        state.ui.selectedElement, 
-        state.ui.selectElement, 
-        state.ui.deselectElement, 
-    ]));
+    ] = useViewStore(
+        useShallow((state) => [
+            state.ui.currentCard,
+            state.ui.openNodeCard,
+            state.ui.openEdgeCard,
+            state.ui.openSettingsCard,
+            state.ui.closeCard,
+            state.ui.selectedElement,
+            state.ui.selectElement,
+            state.ui.deselectElement,
+        ]),
+    );
 
     const [
         showOnlyNewEdges,
@@ -116,22 +128,24 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         toggleCharacter,
         toggleAllCharacters,
         setCharacterKeys,
-    ] = useViewStore(useShallow(state => [
-        state.visibility.showOnlyNewEdges,
-        state.visibility.setShowOnlyNewEdges,
-        state.visibility.edge,
-        state.visibility.toggleEdge,
-        state.visibility.toggleAllEdges,
-        state.visibility.setEdgeKeys,
-        state.visibility.team,
-        state.visibility.toggleTeam,
-        state.visibility.toggleAllTeams,
-        state.visibility.setTeamKeys,
-        state.visibility.character,
-        state.visibility.toggleCharacter,
-        state.visibility.toggleAllCharacters,
-        state.visibility.setCharacterKeys,
-    ]));
+    ] = useViewStore(
+        useShallow((state) => [
+            state.visibility.showOnlyNewEdges,
+            state.visibility.setShowOnlyNewEdges,
+            state.visibility.edge,
+            state.visibility.toggleEdge,
+            state.visibility.toggleAllEdges,
+            state.visibility.setEdgeKeys,
+            state.visibility.team,
+            state.visibility.toggleTeam,
+            state.visibility.toggleAllTeams,
+            state.visibility.setTeamKeys,
+            state.visibility.character,
+            state.visibility.toggleCharacter,
+            state.visibility.toggleAllCharacters,
+            state.visibility.setCharacterKeys,
+        ]),
+    );
 
     const [
         openModal,
@@ -141,23 +155,33 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         openChapterRecapModal,
         closeModal,
         videoUrl,
-    ] = useViewStore(useShallow(state => [
-        state.modal.openModal,
-        state.modal.openInfoModal,
-        state.modal.openSettingsModal,
-        state.modal.openMinigameModal,
-        state.modal.openChapterRecapModal,
-        state.modal.closeModal,
-        state.modal.videoUrl,
-    ]));
+    ] = useViewStore(
+        useShallow((state) => [
+            state.modal.openModal,
+            state.modal.openInfoModal,
+            state.modal.openSettingsModal,
+            state.modal.openMinigameModal,
+            state.modal.openChapterRecapModal,
+            state.modal.closeModal,
+            state.modal.videoUrl,
+        ]),
+    );
 
     // Persisted Store
-    const [
-        countReadElements,
-        getReadStatus, 
-        setReadStatus
-    ] = usePersistedViewStore(useShallow(state => [state.countReadElements, state.getReadStatus, state.setReadStatus]));
-    const [hasVisitedBefore, setHasVisitedBefore] = usePersistedViewStore(useShallow(state => [state.hasVisitedBefore, state.setHasVisitedBefore]));
+    const [countReadElements, getReadStatus, setReadStatus] =
+        usePersistedViewStore(
+            useShallow((state) => [
+                state.countReadElements,
+                state.getReadStatus,
+                state.setReadStatus,
+            ]),
+        );
+    const [hasVisitedBefore, setHasVisitedBefore] = usePersistedViewStore(
+        useShallow((state) => [
+            state.hasVisitedBefore,
+            state.setHasVisitedBefore,
+        ]),
+    );
 
     /* State variables */
     const [chartShrink, setChartShrink] = useState(0);
@@ -174,91 +198,88 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
 
     /* Set additional properties for nodes. */
     const completeNodes = useMemo(() => {
-        return produce(resolvedData.nodes,
-            draft => {
-                for(const node of draft) {
-                    node.hidden = !(
-                        team[node.data.teamId || "null"] &&
-                        character[node.id]
-                    );
+        return produce(resolvedData.nodes, (draft) => {
+            for (const node of draft) {
+                node.hidden = !(
+                    team[node.data.teamId || "null"] && character[node.id]
+                );
 
-                    if(selectedElement) {
-                        if(isNode(selectedElement)) {
-                            node.selected = node.id === (selectedElement as ImageNodeType).id;
-                        }
-                        else if(isEdge(selectedElement)) {
-                            const selectedEdge = (selectedElement as FixedEdgeType);
-                            node.selected = (
-                                node.id === selectedEdge.target ||
-                                node.id === selectedEdge.source
-                            );
-                        }
+                if (selectedElement) {
+                    if (isNode(selectedElement)) {
+                        node.selected =
+                            node.id === (selectedElement as ImageNodeType).id;
+                    } else if (isEdge(selectedElement)) {
+                        const selectedEdge = selectedElement as FixedEdgeType;
+                        node.selected =
+                            node.id === selectedEdge.target ||
+                            node.id === selectedEdge.source;
                     }
-                    
-                    
-                    node.data.isRead = getReadStatus(chapter, day, node.id);
                 }
+
+                node.data.isRead = getReadStatus(chapter, day, node.id);
             }
-        );
+        });
     }, [
-        resolvedData.nodes, 
-        team, 
-        character, 
-        selectedElement, 
-        getReadStatus, 
-        chapter, 
-        day
+        resolvedData.nodes,
+        team,
+        character,
+        selectedElement,
+        getReadStatus,
+        chapter,
+        day,
     ]);
 
     /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
-        return produce(resolvedData.edges,
-            draft => {
-                for(const edge of draft) {
-                    const sourceNode = resolvedData.nodes.find(n => n.id === edge.source);
-                    const targetNode = resolvedData.nodes.find(n => n.id === edge.target);
+        return produce(resolvedData.edges, (draft) => {
+            for (const edge of draft) {
+                const sourceNode = resolvedData.nodes.find(
+                    (n) => n.id === edge.source,
+                );
+                const targetNode = resolvedData.nodes.find(
+                    (n) => n.id === edge.target,
+                );
 
-                    const edgesNodesAreVisible = (
-                        (sourceNode !== undefined) && 
-                        (targetNode !== undefined) && 
-                        (character[sourceNode.id] ?? false) &&
-                        (character[targetNode.id] ?? false) &&
-                        (team[sourceNode.data.teamId] ?? false) && 
-                        (team[targetNode.data.teamId] ?? false)
-                    );
+                const edgesNodesAreVisible =
+                    sourceNode !== undefined &&
+                    targetNode !== undefined &&
+                    (character[sourceNode.id] ?? false) &&
+                    (character[targetNode.id] ?? false) &&
+                    (team[sourceNode.data.teamId] ?? false) &&
+                    (team[targetNode.data.teamId] ?? false);
 
-                    edge.hidden = edgesNodesAreVisible && 
+                edge.hidden =
+                    edgesNodesAreVisible &&
+                    edge.data !== undefined &&
+                    edgeVisibility[edge.data.relationshipId];
+
+                if (selectedElement && isEdge(selectedElement)) {
+                    const selectedEdge = selectedElement as FixedEdgeType;
+                    edge.selected = edge.id === selectedEdge.id;
+                }
+
+                edge.selectable =
+                    (showOnlyNewEdges &&
                         edge.data !== undefined &&
-                        edgeVisibility[edge.data.relationshipId];
+                        edge.data.day === day) ||
+                    !showOnlyNewEdges;
 
-                    if(selectedElement && isEdge(selectedElement)) {
-                        const selectedEdge = (selectedElement as FixedEdgeType);
-                        edge.selected = edge.id === selectedEdge.id;
-                    }
-                    
-                    edge.selectable = (
-                        showOnlyNewEdges && 
-                        edge.data !== undefined &&
-                        edge.data.day === day
-                    ) || (!showOnlyNewEdges);
-
-                    if(edge.data) {
-                        edge.data.isRead = getReadStatus(chapter, day, edge.id);
-                    }
+                if (edge.data) {
+                    edge.data.isRead = getReadStatus(chapter, day, edge.id);
                 }
             }
-        );
+        });
     }, [
-        resolvedData.edges, 
-        resolvedData.nodes, 
-        character, 
-        team, 
-        edgeVisibility, 
-        showOnlyNewEdges, 
-        selectedElement, 
-        day, 
-        getReadStatus, 
-        chapter
+        resolvedData.edges,
+        resolvedData.nodes,
+        character,
+        team,
+        edgeVisibility,
+        showOnlyNewEdges,
+        selectedElement,
+        day,
+        getReadStatus,
+        chapter,
     ]);
 
     /* Helper function to coordinate state updates when data changes. */
@@ -273,46 +294,46 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         }
 
         const newChapterData = siteData.chapters[newChapter];
-        const newDayData = resolveDataForDay(
-            newChapterData.charts,
-            newDay,
-        );
+        const newDayData = resolveDataForDay(newChapterData.charts, newDay);
 
-        if(selectedElement) {
+        if (selectedElement) {
             if (isNode(selectedElement)) {
-                const selectedNode = (selectedElement as ImageNodeType);
+                const selectedNode = selectedElement as ImageNodeType;
 
                 const newSelectedNode = newDayData.nodes.find(
-                    n => n.id === selectedNode.id);
-                
-                if(newSelectedNode) {
+                    (n) => n.id === selectedNode.id,
+                );
+
+                if (newSelectedNode) {
                     newSelectedNode.selected = true;
                     selectElement(newSelectedNode);
-                }
-                else {
+                } else {
                     deselectElement();
                 }
-            }
-            else if (isEdge(selectedElement)) {
-                const selectedEdge = (selectedElement as FixedEdgeType);
+            } else if (isEdge(selectedElement)) {
+                const selectedEdge = selectedElement as FixedEdgeType;
                 const newSelectedEdge = newDayData.edges.find(
-                    e => e.id === selectedEdge.id);
-                
-                if(newSelectedEdge) {
+                    (e) => e.id === selectedEdge.id,
+                );
+
+                if (newSelectedEdge) {
                     newSelectedEdge.selected = true;
-                    const sourceNode = dayData.nodes.find(n => n.id === newSelectedEdge.source);
-                    if(sourceNode) {
+                    const sourceNode = dayData.nodes.find(
+                        (n) => n.id === newSelectedEdge.source,
+                    );
+                    if (sourceNode) {
                         sourceNode.selected = true;
                     }
 
-                    const targetNode = dayData.nodes.find(n => n.id === newSelectedEdge.target);
-                    if(targetNode) {
+                    const targetNode = dayData.nodes.find(
+                        (n) => n.id === newSelectedEdge.target,
+                    );
+                    if (targetNode) {
                         targetNode.selected = true;
                     }
 
                     selectElement(newSelectedEdge);
-                }
-                else {
+                } else {
                     deselectElement();
                 }
             }
@@ -357,30 +378,31 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         deselectElement();
         closeCard();
         setChartShrink(0);
-    },
-        [closeCard, deselectElement],
-    );
+    }, [closeCard, deselectElement]);
 
     const onSettingsCardOpen = useCallback(() => {
         deselectElement();
         openSettingsCard();
     }, [deselectElement, openSettingsCard]);
 
-    const onNodeClick = useCallback((node: ImageNodeType) => {
+    const onNodeClick = useCallback(
+        (node: ImageNodeType) => {
             selectElement(node);
             openNodeCard();
         },
         [openNodeCard, selectElement],
     );
 
-    const onEdgeClick = useCallback((edge: FixedEdgeType) => {
+    const onEdgeClick = useCallback(
+        (edge: FixedEdgeType) => {
             selectElement(edge);
             openEdgeCard();
         },
         [openEdgeCard, selectElement],
     );
 
-    const setChartShrinkAndFit = useCallback((width: number) => {
+    const setChartShrinkAndFit = useCallback(
+        (width: number) => {
             if (width !== chartShrink) {
                 setTimeout(() => {
                     setChartShrink(width);
@@ -391,26 +413,32 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     );
 
     /* Memotized values for CurrentChapterDataContext and CurrentDayDataContext. */
-    const currentChapterContextValue = useMemo(() => ({
-        teams: chapterData.teams,
-        relationships: chapterData.relationships
-    }), [chapterData.relationships, chapterData.teams]);
+    const currentChapterContextValue = useMemo(
+        () => ({
+            teams: chapterData.teams,
+            relationships: chapterData.relationships,
+        }),
+        [chapterData.relationships, chapterData.teams],
+    );
 
-    const currentDayContextValue = useMemo(() => ({
-        nodes: resolvedData.nodes,
-        edges: resolvedData.edges
-    }), [resolvedData.edges, resolvedData.nodes]);
+    const currentDayContextValue = useMemo(
+        () => ({
+            nodes: resolvedData.nodes,
+            edges: resolvedData.edges,
+        }),
+        [resolvedData.edges, resolvedData.nodes],
+    );
 
     useEffect(() => {
-        if(!hasVisitedBefore && !isInLoadingScreen) {
+        if (!hasVisitedBefore && !isInLoadingScreen) {
             openInfoModal();
         }
-    })
+    });
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
         didInit = true;
-        onBrowserHashChange(browserHash);    
+        onBrowserHashChange(browserHash);
     }
 
     let selectedNodeTeam = null;
@@ -419,22 +447,24 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
     let selectedEdgeRead = false;
     let selectedNode = null;
     let selectedEdge = null;
-    if(selectedElement) {
-        if(isNode(selectedElement)) {
-            selectedNode = (selectedElement as ImageNodeType);
+    if (selectedElement) {
+        if (isNode(selectedElement)) {
+            selectedNode = selectedElement as ImageNodeType;
             selectedNodeTeam = chapterData.teams[selectedNode.data.teamId];
             selectedNodeRead = getReadStatus(chapter, day, selectedNode.id);
-        }
-        else if(isEdge(selectedElement)) {
-            selectedEdge = (selectedElement as FixedEdgeType);
-            const selectedEdgeRelationshipKey = selectedEdge.data?.relationshipId;
-            selectedEdgeRelationship = selectedEdgeRelationshipKey ? chapterData.relationships[selectedEdgeRelationshipKey] : null;
+        } else if (isEdge(selectedElement)) {
+            selectedEdge = selectedElement as FixedEdgeType;
+            const selectedEdgeRelationshipKey =
+                selectedEdge.data?.relationshipId;
+            selectedEdgeRelationship = selectedEdgeRelationshipKey
+                ? chapterData.relationships[selectedEdgeRelationshipKey]
+                : null;
             selectedEdgeRead = getReadStatus(chapter, day, selectedEdge.id);
         }
     }
 
     function onReadChange(newReadStatus: boolean) {
-        if(selectedElement == null) {
+        if (selectedElement == null) {
             return;
         }
 
@@ -474,7 +504,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
-                            transition: "brightness 0.5s, background-image 0.3s",
+                            transition:
+                                "brightness 0.5s, background-image 0.3s",
                         }}
                     />
                 </CurrentChapterDataContext>
@@ -511,6 +542,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                         nodeTeam={selectedNodeTeam}
                         charts={chapterData.charts}
                         read={selectedNodeRead}
+                        chapter={chapter}
                         onCardClose={onCardClose}
                         onNodeLinkClicked={onNodeClick}
                         onEdgeLinkClicked={onEdgeClick}
@@ -542,12 +574,11 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             <ViewInfoModal
                 open={openModal === "info"}
                 onClose={() => {
-                    if(!hasVisitedBefore) {
+                    if (!hasVisitedBefore) {
                         setHasVisitedBefore(true);
                         closeModal();
                         onSettingsCardOpen();
-                    }
-                    else {
+                    } else {
                         closeModal();
                     }
                 }}
@@ -597,10 +628,9 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
-                        if(currentCard === "setting") {
+                        if (currentCard === "setting") {
                             onCardClose();
-                        }
-                        else {
+                        } else {
                             onSettingsCardOpen();
                         }
                     }}
@@ -647,7 +677,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 <IconButton
                     id="chapter-recap-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Chatper Recap"
+                    tooltipText="Chapter Recap"
                     enabled={true}
                     tooltipSide="left"
                     onClick={openChapterRecapModal}
@@ -660,8 +690,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 className={cn(
                     "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
                     {
-                        "w-[60%] lg:block hidden":
-                            currentCard === "setting",
+                        "w-[60%] lg:block hidden": currentCard === "setting",
                         "w-full md:w-4/5 2xl:w-2/5 mx-auto":
                             currentCard !== "setting",
                     },

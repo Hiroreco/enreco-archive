@@ -1,4 +1,4 @@
-<!-- title: Say my name -->
+<!-- title: Say My Name -->
 
 The (self-proclaimed) Libestian Queen was already making a name for herself across the kingdom. She had gathered loyal followers, asserted her dominance, and made others bow whenever they stood in her presence.
 

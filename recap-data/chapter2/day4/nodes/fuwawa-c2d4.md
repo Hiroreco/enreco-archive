@@ -1,12 +1,12 @@
-Continuing work on her shop—or more fittingly, her _café_—was the first thought on Fuwawa’s mind upon waking. The objective hadn’t changed: gather resources for building, materials for cooking, and, if possible, find at least one person to accompany her. Because without her usual fuzzy companion by her side, this journey had felt... somber.
+Continuing work on her shop—or, more fittingly, her _café_—was the first thought on Fuwawa’s mind upon waking. The objective hadn’t changed: gather resources for building, materials for cooking, and, if possible, find at least one person to accompany her. Because without her usual fuzzy companion by her side, this journey had felt... somber.
 
 And as if the world heard her silent plea, a small, feathery friend arrived.
 
 [Hello there, little one!](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=Go2F6QDRR0qDVuZC&t=1177)
 
-A chicken. An animal Fuwawa held close to her heart. Her previous journey had revolved almost entirely around tending to flocks, nurturing and loving them as family. To have that feeling return—however small—was like a gentle breeze to a tired soul.
+A chicken. An animal that Fuwawa held close to her heart. Her previous journey had revolved almost entirely around tending to flocks, nurturing and loving them as family. To have that feeling return—however small—was like a gentle breeze to a tired soul.
 
-The chicken was mischievous, tiny, always [darting around](https://www.youtube.com/live/geV0HyX5LUA?si=2wRpax8PI0MsZJg6&t=1331) at the first chance. Fuwawa had to think of countless ways to keep him from escaping. But once he was secured within the cozy café, she named him _Moco-chan_, a quiet homage to the companion she missed dearly.
+The chicken was mischievous, tiny, and always [darting around](https://www.youtube.com/live/geV0HyX5LUA?si=2wRpax8PI0MsZJg6&t=1331) at the first chance it got. Fuwawa had to think of countless ways to keep him from escaping. But once he was secured within the cozy café, she named him _Moco-chan_, a quiet homage to the companion she missed dearly.
 
 Feeling a little more grounded, Fuwawa turned her sights to progress. She reached out to others for help in catching up with the dungeons. First came the [Stronghold of Ruin](https://www.youtube.com/live/geV0HyX5LUA?si=J38XCoSl-nVt5AHh&t=1863). Then, she joined Shiori, Mococo, and Bae in the [Star Site: Chronos](https://www.youtube.com/live/geV0HyX5LUA?si=AMeAFfmmilO48tEp&t=4763). Together, they recovered the memories of [Ouro Kronii](https://www.youtube.com/live/geV0HyX5LUA?si=2vIMbyUxKOHbQ2y5&t=8554).
 
@@ -35,3 +35,7 @@ The café was empty. And Fuwawa sat in that emptiness.
 [Bau bau...](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917)
 
 But even in a space like that... there was still hope (see [Shakira-Fuwawa](#edge:kiara-fuwawa)).
+
+## Fanart
+
+["Libestal's Young Chef (Part 1)" by Dreamplanes](https://x.com/Dreamplanes256/status/1921562462647709819)

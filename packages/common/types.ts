@@ -21,6 +21,10 @@ export type SiteData = {
     chapters: Chapter[];
 };
 
+export type TextData = {
+    [key: string]: { content: string; title: string; category: string };
+};
+
 export type ChapterRecapData = {
     chapters: {
         title: string;

@@ -1,5 +1,9 @@
 A writer's work was never done; there were countless stories to be written even as Shiori's script will soon conclude. It is with this in mind that Shiori found herself writing once again, in the early morning of Libestal, finishing the commissions she had left. Luckily, only a few remained—Kiara's rather [_suggestive_ fanfiction](https://youtu.be/jh0GSZRpkfU?t=553), Roa's memory, and Bijou's commission.
 
+[Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
+
+[Read "Cucumber"](#text:cucumber)
+
 After finishing the newlywed couple's _spicy_ story, Shiori left for the Library to obtain another blank journal for Roa's memory. There, Shiori met her own wife, Bijou. They talk about how the banquet will be magnificent; nothing about it shall be dyed red, but if there will be red, it will be the red of love and hearts! Only trays of joy shall be served—not be*tray*als. [Things will be fine.](https://youtu.be/jh0GSZRpkfU?t=764)
 
 They parted ways to settle some unfinished business, and Shiori found a quiet place to write. She looked for a memory in the Void. One from Before Libestal.
@@ -42,7 +46,7 @@ As they dodged paying for the room, fellow witch Nerissa called for them to meet
 
 Even as Advent affirmed in this timeline, there were still a few things to remember from Shiori and Bijou's short stay. A little view of their own, GothRock wouldn't be remiss, a home that saw many of the events transpire. Even the outside toilet may be missed. So, they lingered for a moment before writing about their final day. And to make the [final entry special](https://youtu.be/jh0GSZRpkfU?t=7478), Shiori grabbed the diary in the latrine for that final smelly majestic use.
 
-[A Picture with ~~Gonathan~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
+[A Picture with ~~Gonathon~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
 
 After much waiting, the not-red banquet had begun! Everyone cheered as the second part of their journey was officially over, letting out "Huzzahs" and firing fireworks into the flammable decor of the Great Hall. Shiori watched from the sidelines, celebrating with them as she ate a bit before the food could be served. She enjoyed the moment for just that. A moment. Jubilation and "wooden shovels" consumed the conversations Shiori could hear, though that didn't matter for long. Soon, Shiori Nyavella's role will end, and a new one will begin.
 
@@ -70,6 +74,10 @@ Shiori's golden eyes glowed as she turned to the three goddess-like beings, avat
 
 "Who's... With Us?"
 
-## Fanart:
+## Fanworks:
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
+
+["witch shiori 1" by mofumashu](https://x.com/mofumashu/status/1921461081714688036)
+
+["A Shiori Nyavella Character Write up" by usd100](https://www.reddit.com/r/Hololive/comments/1kkcg8h/a_shiori_nyavella_character_write_up/)

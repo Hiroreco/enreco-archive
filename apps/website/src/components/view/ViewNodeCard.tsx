@@ -12,13 +12,15 @@ import { isMobileViewport } from "@/lib/utils";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
+import ViewCardUtilities from "@/components/view/ViewCardUtilities";
 
 interface Props {
     isCardOpen: boolean;
     selectedNode: ImageNodeType | null;
     nodeTeam: Team | null;
-    charts: ChartData[], 
-    read: boolean,
+    charts: ChartData[];
+    read: boolean;
+    chapter: number;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
@@ -33,12 +35,13 @@ const ViewNodeCard = ({
     nodeTeam,
     charts,
     read,
+    chapter,
     onCardClose,
     onNodeLinkClicked,
     onEdgeLinkClicked,
     setChartShrink,
     onDayChange,
-    onReadChange
+    onReadChange,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
 
@@ -73,9 +76,9 @@ const ViewNodeCard = ({
     }
 
     const availiableNodes = [];
-    for(const chart of charts) {
-        for(const node of chart.nodes) {
-            if(node.id === selectedNode.id) {
+    for (const chart of charts) {
+        for (const node of chart.nodes) {
+            if (node.id === selectedNode.id) {
                 availiableNodes.push(node);
             }
         }
@@ -130,11 +133,18 @@ const ViewNodeCard = ({
 
                 {/* Content */}
                 <div className="mt-2 overflow-x-hidden">
-                    <ViewCardDaySwitcher
-                        currentDay={selectedNode.data.day}
-                        onDayChange={onDayChange}
-                        availiableElements={availiableNodes}
-                    />
+                    <div className="flex items-center justify-between">
+                        <ViewCardDaySwitcher
+                            currentDay={selectedNode.data.day}
+                            onDayChange={onDayChange}
+                            availiableElements={availiableNodes}
+                        />
+                        <ViewCardUtilities
+                            chapter={chapter}
+                            node={selectedNode}
+                        />
+                    </div>
+
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}
                         onNodeLinkClicked={onNodeLinkClicked}
@@ -142,10 +152,7 @@ const ViewNodeCard = ({
                         {selectedNode?.data.content || "No content available"}
                     </ViewMarkdown>
                     <Separator className="mt-4" />
-                    <ReadMarker
-                        read={read}
-                        setRead={onReadChange}
-                    />
+                    <ReadMarker read={read} setRead={onReadChange} />
                 </div>
             </div>
         </VaulDrawer>

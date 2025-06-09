@@ -12,4 +12,4 @@ Eventually, Jyon seemed to tire of the relentless pursuit and finally decided to
 
 According to her, the King was corrupted and bore a Stain (on his pants, no less) and was deceiving everyone into serving him for his own nefarious purposes. However, her claims were offered without evidence, sources, or any tangible proof... so it made perfect sense for Gonathon to believe her without question. Whether it was her striking beauty or her confident delivery that swayed him, the knight cast aside all of his earlier accusations.
 
-Swearing allegiance to her cause, Gonathon vowed to help Jyon in her endeavors, with the goal of saving the King.
+Swearing allegiance to her cause, Gonathon vowed to help Jyon in her endeavors with the goal of saving the King.

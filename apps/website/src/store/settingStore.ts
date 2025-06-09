@@ -3,11 +3,11 @@ import { persist } from "zustand/middleware";
 
 import { ThemeType } from "@enreco-archive/common/types";
 
-export type TimestampOption = "modal" | "tab";
+export type BackdropFilter = "blur" | "clear";
 
 interface SettingState {
-    timestampOption: TimestampOption;
-    setTimestampOption: (timestampOption: TimestampOption) => void;
+    backdropFilter: BackdropFilter;
+    setBackdropFilter: (backdropFilter: BackdropFilter) => void;
 
     bgmVolume: number;
     setBgmVolume: (bgmVolume: number) => void;
@@ -29,9 +29,9 @@ interface SettingState {
 export const useSettingStore = create<SettingState>()(
     persist(
         (set) => ({
-            timestampOption: "modal",
-            setTimestampOption: (timestampOption: TimestampOption) =>
-                set({ timestampOption }),
+            backdropFilter: "blur",
+            setBackdropFilter: (backdropFilter: BackdropFilter) =>
+                set({ backdropFilter: backdropFilter }),
 
             bgmVolume: 0.5,
             setBgmVolume: (bgmVolume: number) => set({ bgmVolume }),
