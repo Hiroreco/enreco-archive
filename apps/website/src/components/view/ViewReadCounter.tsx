@@ -24,7 +24,6 @@ import { useMemo, useState } from "react";
 interface ViewReadCounterProps {
     day: number;
     chapter: number;
-    // Note: pass in the *unresolved* nodes/edges (raw data, pre-combining)
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
     readCount: number;
@@ -63,15 +62,14 @@ const ViewReadCounter = ({
         }
     };
 
-    const totalCount = nodes.length + edges.length;
-
-    // Get filtered elements
+    // Get filtered and only elements that match the current day.
     const filteredElements = useMemo(() => {
         const filterNodes = nodes.filter((node) => {
             const nodeReadStatus = getReadStatus(chapter, day, node.id);
             return (
-                (showRead && nodeReadStatus) ||
-                (showUnread && !nodeReadStatus)
+                node.data.day === day && 
+                ((showRead && nodeReadStatus) ||
+                (showUnread && !nodeReadStatus))
             );
         });
 
@@ -79,13 +77,16 @@ const ViewReadCounter = ({
             if (edge.data?.day !== day) return false;
             const edgeReadStatus = getReadStatus(chapter, day, edge.id);
             return (
-                (showRead && edgeReadStatus) ||
-                (showUnread && !edgeReadStatus)
+                edge.data.day === day &&
+                ((showRead && edgeReadStatus) ||
+                (showUnread && !edgeReadStatus))
             );
         });
 
         return { nodes: filterNodes, edges: filterEdges };
     }, [nodes, edges, getReadStatus, chapter, day, showRead, showUnread]);
+
+    const totalCount = nodes.filter(n => n.data.day === day).length + edges.filter(e => e?.data?.day === day).length;
 
     return (
         <Dialog open={open} onOpenChange={setOpen}>

@@ -580,8 +580,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
             <ViewReadCounter
                 day={day}
                 chapter={chapter}
-                nodes={dayData.nodes}
-                edges={dayData.edges}
+                nodes={resolvedData.nodes}
+                edges={resolvedData.edges}
                 readCount={countReadElements(chapter, day)}
                 getReadStatus={getReadStatus}
                 hidden={currentCard !== null}
