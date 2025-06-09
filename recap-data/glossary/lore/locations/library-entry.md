@@ -37,6 +37,7 @@ Contained records on major figures and the overarching history of the kingdom of
 [Read "Libestal Ficta"](#text:libestal-ficta)
 [Read "libestal"](#text:libestal)
 [Read "The Outsider"](#text:the-outsider)
+[Read "The Library"](#text:the-library)
 
 **Book of Prophecies**
 As described by the Princess, this book knew all and revealed all. It didn’t simply predict the future—it _defined_ it, including the doomed fate of Libestal.
