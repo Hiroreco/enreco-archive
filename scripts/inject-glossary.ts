@@ -89,7 +89,7 @@ async function processSubfolder(fileArg: string) {
                         quote = val;
                         break;
 
-                    case "chapter":
+                    case "chapters":
                         // split on commas, parse each as integer
                         chapterArr =
                             val

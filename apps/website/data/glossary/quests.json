@@ -1,13 +1,38 @@
 {
   "main-quests": [
     {
+      "id": "eldritch-horror-dungeon-entry",
+      "title": "Eldritch Horror Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company.",
+      "content": "## Overview\n\nA haunted sanctum houses the Eldrich Horror dungeon, tied to the priestess of the Ancient Ones, Ninomae Ina’nis.\n\n**Day Unlocked**: 3\n\n\n## Details\n\nGoal:\n- Free the trapped spirit in the dungeon by playing games together\n- Puzzles operate on a sanity system, reaching 0 inflicts permanent withering until death, upon which 25 sanity is restored. \n\n### Puzzles\n\nPuzzles:\n- Pot Smashing\n- Indoor Maze w/ fake doors\n- Collect Lilies of the Valley\n\n### Rewards\n### Sources",
+      "thumbnailSrc": "/images-opt/eldritch-horror-dungeon-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Eldritch Horror Overview #1",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-0.webp"
+        },
+        {
+          "title": "Eldritch Horror Overview #2",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-1.webp"
+        },
+        {
+          "title": "Dungeon Concept Art",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-2.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/eldritch-horror-dungeon-entry.webp"
+    },
+    {
       "id": "ocean-temple-dungeon-entry",
       "title": "Ocean Temple Dungeon",
       "chapters": [
-        1
+        0
       ],
       "quote": "Finally... My story begins here!",
-      "content": "## Overview\nThe **Ocean Temple Dungeon** is the remnants of an old, dried up Atlantis. \n\n## Details\nn/a \n\n### Puzzles\nTower of Hanoi (Ring Stacking): Rings \nBridge Puzzle: \nDirectional Guard Puzzle\n\n### Rewards\n\n- **\"REFLECT\"** – a music disc by Gawr Gura\n- **Gura's Memories**\n\n[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n### Sources",
+      "content": "## Overview\n\nThe **Ocean Temple Dungeon** is the remnants of an old, dried up Atlantis.\n\n## Details\n\nn/a\n\n### Puzzles\n\nTower of Hanoi (Ring Stacking): Rings\nBridge Puzzle:\nDirectional Guard Puzzle\n\n### Rewards\n\n- **\"REFLECT\"** – a music disc by Gawr Gura\n- **Gura's Memories**\n\n[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n### Sources",
       "thumbnailSrc": "/images-opt/ocean-temple-dungeon-entry-thumb.webp",
       "galleryImages": [],
       "imageSrc": "/images-opt/ocean-temple-dungeon-entry.webp"
@@ -103,10 +128,10 @@
       "id": "underworld-dungeon-entry",
       "title": "Underworld Dungeon",
       "chapters": [
-        1
+        0
       ],
       "quote": "Reapers should help the living, not take away their future.",
-      "content": "## Overview\nThe **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing. \n\n\n## Details\n- requires Underworld Key\n\n### Puzzles\n- Platform Parkour\n-  Glass Panes\n- Lights Out: Turn off all lights in the correct sequence.  \n- Climb the Dungeon’s Tree\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n### Sources",
+      "content": "## Overview\n\nThe **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing.\n\n## Details\n\n- requires Underworld Key\n\n### Puzzles\n\n- Platform Parkour\n- Glass Panes\n- Lights Out: Turn off all lights in the correct sequence.\n- Climb the Dungeon’s Tree\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n### Sources",
       "thumbnailSrc": "/images-opt/underworld-dungeon-entry-thumb.webp",
       "galleryImages": [],
       "imageSrc": "/images-opt/underworld-dungeon-entry.webp"
@@ -115,7 +140,7 @@
   "special-quests": [
     {
       "id": "heart-of-ruin-entry",
-      "title": "Stronghold Of Ruin",
+      "title": "Heart of Ruin",
       "chapters": [
         1
       ],
@@ -169,7 +194,7 @@
     },
     {
       "id": "stronghold-of-ruin-entry",
-      "title": "Stronghold Of Ruin",
+      "title": "Stronghold of Ruin",
       "chapters": [
         1
       ],

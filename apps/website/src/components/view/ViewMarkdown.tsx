@@ -20,6 +20,7 @@ import ViewLightbox from "@/components/view/ViewLightbox";
 import "@/components/view/ViewMarkdown.css";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import EntryLink from "@/components/view/markdown/EntryLink";
 
 /*
 Custom rehype plugin to convert lone images in paragraphs into figures.
@@ -312,6 +313,9 @@ function ViewMarkdownInternal({
                     const textId = href.replace("#text:", "");
                     const label = children as string;
                     return <ViewTextModal textId={textId} label={label} />;
+                } else if (href && href.startsWith("#entry:")) {
+                    const itemId = href.replace("#entry:", "");
+                    return <EntryLink itemId={itemId}>{children}</EntryLink>;
                 } else {
                     return (
                         <a

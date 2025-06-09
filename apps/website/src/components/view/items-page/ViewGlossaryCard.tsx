@@ -1,4 +1,4 @@
-import { CommonItemData, GlossaryPageData } from "@enreco-archive/common/types";
+import { GlossaryPageData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
 import {
     Book,
@@ -10,14 +10,9 @@ import {
 } from "lucide-react";
 import { ReactElement, useEffect, useState } from "react";
 
-import characters from "#/glossary/characters.json";
-import lore from "#/glossary/lore.json";
-import misc from "#/glossary/misc.json";
-import quests from "#/glossary/quests.json";
-import weapons from "#/glossary/weapons.json";
-
 import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
 import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
+import { useGlossary } from "@/contexts/GlossaryContext";
 import {
     Card,
     CardContent,
@@ -44,65 +39,53 @@ interface ViewGlossaryCardProps {
     className?: string;
 }
 
-// Each “big” category now contains a map of { subcategoryName: CommonItemData[] }
-const categoryMap: {
-    [key: string]: {
-        data: GlossaryPageData;
-        label: string;
-        icon: ReactElement;
-    };
-} = {
-    "cat-weapons": {
-        data: weapons,
-        label: "Weapons",
-        icon: <Sword />,
-    },
-    "cat-characters": {
-        data: characters,
-        label: "Characters",
-        icon: <UserRound />,
-    },
-    "cat-lore": {
-        data: lore,
-        label: "Lore",
-        icon: <Book />,
-    },
-    "cat-quests": {
-        data: quests,
-        label: "Quests",
-        icon: <Scroll />,
-    },
-    "cat-misc": {
-        data: misc,
-        label: "Miscellaneous",
-        icon: <Dices />,
-    },
+const categoryMap: Record<string, { label: string; icon: ReactElement }> = {
+    "cat-weapons": { label: "Weapons", icon: <Sword /> },
+    "cat-characters": { label: "Characters", icon: <UserRound /> },
+    "cat-lore": { label: "Lore", icon: <Book /> },
+    "cat-quests": { label: "Quests", icon: <Scroll /> },
+    "cat-misc": { label: "Miscellaneous", icon: <Dices /> },
 };
 
 const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
-    const [selectedItem, setSelectedItem] = useState<CommonItemData | null>(
-        null,
-    );
     const [selectedCategory, setSelectedCategory] = useState("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
 
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
+    const { registry, selected, selectItem } = useGlossary();
+    const selectedItem = selected?.item || null;
+
     useEffect(() => {
-        const dataMap = categoryMap[selectedCategory].data;
         const newMap: GlossaryPageData = {};
 
-        Object.entries(dataMap).forEach(([subcat, items]) => {
-            newMap[subcat] = items.filter(
-                (item) =>
-                    selectedChapter === -1 ||
-                    item.chapters.includes(-1) ||
-                    item.chapters.includes(selectedChapter),
-            );
-        });
+        Object.values(registry)
+            .filter(({ categoryKey }) => categoryKey === selectedCategory)
+            .forEach(({ subcategory, item }) => {
+                if (
+                    selectedChapter !== -1 &&
+                    !item.chapters.includes(-1) &&
+                    !item.chapters.includes(selectedChapter)
+                ) {
+                    return;
+                }
+
+                if (!newMap[subcategory]) newMap[subcategory] = [];
+                newMap[subcategory].push(item);
+            });
 
         setFilteredData(newMap);
-    }, [selectedChapter, selectedCategory]);
+    }, [selectedCategory, selectedChapter, registry]);
+
+    // If context.selected changes (via a #item link), jump to its category
+    useEffect(() => {
+        if (selected) {
+            // switch tabs to the entry's category
+            setSelectedCategory(selected.categoryKey);
+            // reset chapter filter so item is visible
+            setSelectedChapter(-1);
+        }
+    }, [selected]);
 
     const allEmpty = Object.values(filteredData).every(
         (arr) => arr.length === 0,
@@ -117,7 +100,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             <ChevronLeft
                                 size={16}
                                 className="cursor-pointer"
-                                onClick={() => setSelectedItem(null)}
+                                onClick={() => selectItem(null)}
                             />
                         )}
                         {categoryMap[selectedCategory].label}
@@ -138,7 +121,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                         </SelectTrigger>
                         <SelectContent>
                             <SelectItem value={"-1"}>All Chapters</SelectItem>
-                            {[...Array(10).keys()].map((chapter) => (
+                            {[...Array(2).keys()].map((chapter) => (
                                 <SelectItem
                                     key={chapter}
                                     value={chapter.toString()}
@@ -185,11 +168,18 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                                                         <ViewItemSelector
                                                             key={item.id}
                                                             item={item}
-                                                            onItemClick={(it) =>
-                                                                setSelectedItem(
-                                                                    it,
-                                                                )
-                                                            }
+                                                            onItemClick={(
+                                                                it,
+                                                            ) => {
+                                                                // find which registry entry it was:
+                                                                const entry =
+                                                                    registry[
+                                                                        it.id
+                                                                    ];
+                                                                selectItem(
+                                                                    entry,
+                                                                );
+                                                            }}
                                                         />
                                                     ))}
                                                 </div>
@@ -221,7 +211,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     value={selectedCategory}
                     onValueChange={(value) => {
                         setSelectedCategory(value);
-                        setSelectedItem(null);
+                        selectItem(null);
                         setSelectedChapter(-1);
                     }}
                     defaultValue={selectedCategory}

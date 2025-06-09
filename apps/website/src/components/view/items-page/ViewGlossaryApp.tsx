@@ -3,6 +3,7 @@ import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
+import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Dice6, Info, Settings } from "lucide-react";
@@ -16,7 +17,9 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
-            <ViewGlossaryCard className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2" />
+            <GlossaryProvider>
+                <ViewGlossaryCard className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2" />
+            </GlossaryProvider>
 
             {/* Pretty much the same as ViewApp from here on */}
             <ViewInfoModal
