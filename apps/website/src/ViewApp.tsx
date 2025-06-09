@@ -287,6 +287,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 
                 if(newSelectedNode) {
                     newSelectedNode.selected = true;
+                    selectElement(newSelectedNode);
                 }
                 else {
                     deselectElement();
@@ -308,6 +309,8 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     if(targetNode) {
                         targetNode.selected = true;
                     }
+
+                    selectElement(newSelectedEdge);
                 }
                 else {
                     deselectElement();

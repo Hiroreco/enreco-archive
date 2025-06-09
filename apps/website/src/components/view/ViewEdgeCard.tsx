@@ -97,9 +97,9 @@ const ViewEdgeCard = ({
 
     const availiableEdges = [];
     for(const chart of charts) {
-        for(const node of chart.nodes) {
-            if(node.id === selectedEdge.id) {
-                availiableEdges.push(node);
+        for(const edge of chart.edges) {
+            if(edge.id === selectedEdge.id) {
+                availiableEdges.push(edge);
             }
         }
     }
