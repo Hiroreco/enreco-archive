@@ -25,7 +25,7 @@ Shiori just wanted a simple life. But fate had other plans.
 
 Amidst the chaos, however, she found herself intrigued by Gonathon G—a sincere, loyal knight devoted to his Pearl. Something about his earnestness stirred something in her. She tried to win him over, but when she saw his heart already belonged to someone else, she let it go, quietly and respectfully.
 
-All of that might sound like harmless, comedic fluff, but those distractions obscured a deeper thread. Throughout the journey, Shiori dropped cryptic remarks suggesting she’d never truly lost her memories at all. That she was merely _playing along_.
+All of that might sound like harmless, comedic fluff, but those distractions obscured a deeper thread. Throughout the journey, Shiori dropped cryptic remarks suggesting she’d never truly lost her memories at all. That she was merely playing along.
 
 It all came to a head in one final statement:
 _“But the question is: Did I really have amnesia?”_
@@ -47,7 +47,7 @@ In truth, Shiori took things further. She _wiped_ him from her memory entirely.
 
 Because yes—Shiori could manipulate memories. Whether she could do it to others was unclear, but she certainly did it to herself.
 
-Beyond being a butter-churning, beet-eating chef, Shiori held another secret identity: _an Archiver_. She took on writing commissions—often silly "fanfics"—but hidden among them were the “Memory” commissions. These were not fiction. These were _truths_—recollections of real memories, forgotten or buried.
+Beyond being a butter-churning, beet-eating chef, Shiori held another secret identity: _an Archiver_. She took on writing commissions—often silly "fanfics"—but hidden among them were the “Memory” commissions. These were not fiction. These were truths—recollections of real memories, forgotten or buried.
 
 Some found these tales amusing. Others found them disturbing. Some doubted their veracity. But Shiori insisted: _She never lied. Everything she wrote was the truth._
 
