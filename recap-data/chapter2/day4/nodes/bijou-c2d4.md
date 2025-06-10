@@ -29,5 +29,3 @@ She spent the rest of the day gathering materials, all the while pondering if sh
 They both agreed to meet back at Gacharm, and it’s there that Bijou confessed about her rekindled love for Shiori. The entire truth came out, and Gonathon seemed to be understanding, despite looking troubled and pacing around in place.
 
 [“...We were, in fact, betrothed.”](#embed:https://youtu.be/Zg3rYsc61XI?t=21191)
-
-[“JOURNAL DAY 4”](#embed:https://youtu.be/Zg3rYsc61XI?t=23356)

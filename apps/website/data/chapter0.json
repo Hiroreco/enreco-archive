@@ -4178,7 +4178,7 @@
       "id": "backup-plan",
       "name": "Backup Plan",
       "style": {
-        "stroke": "#5f0066"
+        "stroke": "#c100b3"
       }
     },
     "business": {
@@ -4215,7 +4215,7 @@
       "id": "no-longer-together",
       "name": "No Longer Together",
       "style": {
-        "stroke": "#1a1a1a"
+        "stroke": "#c74b4f"
       }
     }
   },

@@ -34,7 +34,7 @@ And of course, Gonathon wiped the floor with the puny goddess, reclaiming his Qu
 
 What followed was a [scenario so bizarre](https://youtu.be/CUh9eciJil4?t=4854) that one would struggle to put pen to paper to describe what exactly happened - gutting HPO like a fish, alcohol somehow being the real “baby,” and a C-section pun for good measure. But unlike Queen Tam, we move on.
 
-["In the midst of 'so over,' we found, within Libestal, a romantic 'we're so back.'"](#embed:https://youtu.be/CUh9eciJil4?t=5044)
+[From "it's over" to a romantic "we're so back."](#embed:https://youtu.be/CUh9eciJil4?t=5044)
 
 On the other end, Pinky was handling Tam’s judgment the only way she knew how—like a sulking child. She ignored her, pretended not to hear a word, avoided eye contact, and pouted in exaggerated silence. To Tam, it was nothing short of infuriatingly immature.
 
