@@ -42,12 +42,12 @@ export default function NodeLink({
     }
 
     return (
-        <button
-            className="like-anchor underline underline-offset-2"
+        <span
+            className="font-semibold cursor-pointer underline underline-offset-2"
             style={{ color: nodeColor }}
             onClick={nodeLinkHandler}
         >
-            <span className="font-semibold">{children}</span>
-        </button>
+            {children}
+        </span>
     );
 }
