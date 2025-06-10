@@ -84,8 +84,7 @@ const ViewInfoGeneral = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span className="font-bold">@hiroavrs</span>
-                    X/Twitter
+                    <span className="font-bold">@hiroavrs (X/Twitter)</span>
                 </a>{" "}
                 or send an email to{" "}
                 <a href="mailto:hiroreco@gmail.com">
