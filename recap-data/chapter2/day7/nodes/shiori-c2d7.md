@@ -6,7 +6,7 @@ Shiori called Nerissa, perhaps visiting a familiar face would help Shiori's thou
 
 [In My Heart I Have Given Up.](https://youtu.be/mb91g7vQSnA?t=1065)
 
-As they talked, Nerissa mentioned how her heart has given up on the Red Knight. Surprised, Shiori agreed with the decision - it was _doomed yuri_ and the healthiest option for Nerissa was to let go lest she falls deeper. Elizabeth's many suitors certainly didn't help matters though it seemed Nerissa's advances were reciprocated, it was all for naught. As they mentioned Roa, in an amazing happenstance, [Shiori's phone rang](https://youtu.be/mb91g7vQSnA?t=1096). The panther herself, very much unaware, called to confirm the party's timing. 
+As they talked, Nerissa mentioned how her heart has given up on the Red Knight. Surprised, Shiori agreed with the decision - it was _doomed yuri_ and the healthiest option for Nerissa was to let go lest she falls deeper. Elizabeth's many suitors certainly didn't help matters though it seemed Nerissa's advances were reciprocated, it was all for naught. As they mentioned Roa, in an amazing happenstance, [Shiori's phone rang](https://youtu.be/mb91g7vQSnA?t=1096). The panther herself, very much unaware, called to confirm the party's timing.
 
 Soon Nerissa left but not before Shiori could return the borrowed book. Shiori quickly left after her to witness an awkward scene between Nerissa and the very Red Knight they talked about earlier. Mococo fled in an apparent case of theft as Elizabeth attempted to reason her charge's behaviour.
 
@@ -22,19 +22,19 @@ The mystery of the stolen book was quickly solved as Mordan soon came by as Shio
 
 Not to waste a day, and to understand the puzzle, Shiori would call Gonathan to join her in some quests. After ensuring that Bijou would be cared for while she was away, Shiori left for the Remnant fields. There was a certain familiarity to the Knight, the way they talked and the easeness her camaraderie.
 
-[Oh, thank you! That's very kind of you, Gigi](#embed:https://youtu.be/mb91g7vQSnA?t=3283)
+[That's very kind of you, Gigi](#embed:https://youtu.be/mb91g7vQSnA?t=3283)
 
-But something about her, about yesterday, kept Shiori from using "his" name. Gonathan was confused, of course she was. She wasn't privy to the memories Shiori had. The only memories she could recall were the times in Libestal and nothing beyond the story they're trapped in. Despite this they fell into conversation easily. Too easily. 
+But something about her, about yesterday, kept Shiori from using "his" name. Gonathan was confused, of course she was. She wasn't privy to the memories Shiori had. The only memories she could recall were the times in Libestal and nothing beyond the story they're trapped in. Despite this they fell into conversation easily. Too easily.
 
 [Gigi-Shiori](#edge:gigi-shiori)
 
 [A Sweet Moment Under the Stars](#embed:https://youtu.be/mb91g7vQSnA?t=4171)
 
-Deep talks and sillier moments, there were more memories for Shiori to add to her archive. A strange feeling lingered inside her.  
+Deep talks and sillier moments, there were more memories for Shiori to add to her archive. A strange feeling lingered inside her.
 
 [**_Ruined_**](#embed:https://youtu.be/mb91g7vQSnA?t=6148)
 
-In the last dungeon, A voice called out to Shiori. 
+In the last dungeon, A voice called out to Shiori.
 
 "_Don't let anyone leave alive_."
 
@@ -46,11 +46,11 @@ Finally, The Curse.
 
 One important invent was left: The ~~Constipation~~ Party. All was well; [Fuwawa's catering](https://youtu.be/mb91g7vQSnA?t=7271) was superb, delicious food lined each framed plate, the Roa's field of flowers brought life to the venue, and Bijou's lanterns brought light into the sky. To Shiori's relief, Bijou was also well - the gas, not a child, and curse had dissipated. A certain hero finally learned of [expecting news](https://youtu.be/mb91g7vQSnA?t=7930) as well. Soon, the party, and the birthing bed (yes, a birthing bed.), was ready.
 
-*Baby included*. [The Hot Pink One was in labor](https://youtu.be/mb91g7vQSnA?t=8883). In a questionable display of entertainment, IRyS gave birth, buckets of water desecrating the previously wonderful picnic venue, to the disgust of those around her. Sadly, or not, the ~~chick~~ baby [was gone too soon](https://youtu.be/mb91g7vQSnA?t=9845) by the Fuzzy One's claws as fire was burned the picnic blanket while a fight broke out between the guests. Finally having had enough, [Shiori stepped away](https://youtu.be/mb91g7vQSnA?t=10172) to start the last diary entry. As she entered the Library, Shiori saw a distressed Ina. The goddess's infidelity had finally come to light and the hero questioned whether the not-so-dearly departed child was hers. Shiori could only offer her sympathies, witnessing the Hot Pink One's questionable actions beforehand.
+_Baby included_. [The Hot Pink One was in labor](https://youtu.be/mb91g7vQSnA?t=8883). In a questionable display of entertainment, IRyS gave birth, buckets of water desecrating the previously wonderful picnic venue, to the disgust of those around her. Sadly, or not, the ~~chick~~ baby [was gone too soon](https://youtu.be/mb91g7vQSnA?t=9845) by the Fuzzy One's claws as fire was burned the picnic blanket while a fight broke out between the guests. Finally having had enough, [Shiori stepped away](https://youtu.be/mb91g7vQSnA?t=10172) to start the last diary entry. As she entered the Library, Shiori saw a distressed Ina. The goddess's infidelity had finally come to light and the hero questioned whether the not-so-dearly departed child was hers. Shiori could only offer her sympathies, witnessing the Hot Pink One's questionable actions beforehand.
 
 But not to worry for there is a joyous occassion to be had -- a wedding! Between Roa and Kiara.
 
-Thoughout the day, and the previous ones, Shiori had witnessed and supported Roa's *purr*suit of love. It was one fraught one with [great challenge](#edge:raora-liz) that culminated in Roa's defeat. But, from the ashes sprout [forth another love: Kiara](#edge:raora-kiara). 
+Thoughout the day, and the previous ones, Shiori had witnessed and supported Roa's *purr*suit of love. It was one fraught one with [great challenge](#edge:raora-liz) that culminated in Roa's defeat. But, from the ashes sprout [forth another love: Kiara](#edge:raora-kiara).
 
 Shiori would walk the beautiful businesswoman down the aisle as crowd cheered for the new couple's happiness. Though Shiori worried for a moment that this may have been a ploy to steal Elizabeth's attention, as the knight was the best woman to Kiara's groom, Roa assured her that this is true happiness, something that Roa would reaffirm later as she declared to [fight for herself](https://youtu.be/mb91g7vQSnA?t=10949). Shiori congratulated Roa, promising to complete [the commissions](https://youtu.be/mb91g7vQSnA?t=8350) soon and send them their way.
 
@@ -68,8 +68,7 @@ It was a day filled with many, many events to write down. As Shiori submitted he
 
 An entry written by her own hand, filled with pain. It detailed the Knight's anger, Shiori's sorrows, and ultimately the decision to move on from their relationship. There was more to this, Shiori needed Gonathan's side to... to this event. They met in the Library, where Shiori read her entry to Gonathon—[Though they couldn't seem to find a private place to talk](https://youtu.be/mb91g7vQSnA?t=12352).
 
-Gonathan confirmed that not everything written was true; she might have been furious but she could never lay a hand on Shiori. Never. Shiori learned more about their relationship. Of their hastiness and then Gonathan's hesitance to continue this romance. But Gonathan affirmed that the kindess Shiori showed her, *him*, was always there -- everyday. Though her memories were gone, [something lingered in Shiori's heart whenever she met Gonathon](https://youtu.be/mb91g7vQSnA?t=12655). A bittersweet feeling that left tears in its wake. 
-
+Gonathan confirmed that not everything written was true; she might have been furious but she could never lay a hand on Shiori. Never. Shiori learned more about their relationship. Of their hastiness and then Gonathan's hesitance to continue this romance. But Gonathan affirmed that the kindess Shiori showed her, _him_, was always there -- everyday. Though her memories were gone, [something lingered in Shiori's heart whenever she met Gonathon](https://youtu.be/mb91g7vQSnA?t=12655). A bittersweet feeling that left tears in its wake.
 
 ## Fanart
 

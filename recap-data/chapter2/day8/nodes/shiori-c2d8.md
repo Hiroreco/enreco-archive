@@ -6,13 +6,13 @@ A writer's work was never done; a book must end for another to begin and Shiori'
 
 After finishing the newlywed couple's _spicy_ story, Shiori left for the Library to obtain another blank journal for Roa's memory. There, Shiori met her own wife, Bijou. They talk about how the banquet will be magnificent; nothing about it shall be dyed red, but if there will be red, it will be the red of love and hearts! Only trays of joy shall be served—not be*tray*als. [Things will be fine.](https://youtu.be/jh0GSZRpkfU?t=764)
 
-In a quiet space, Shiori saw a memory; blue, furry, cat-like beings begging for jetpacks in her mind's eye. How they were upset when denied, but quickly rejoiced over the mention of cucumbers. She saw the bemused frown on the Pink Panther's face as she admonished the #########s. An occurrence that happened quite often to Shiori's amusement. 
+In a quiet space, Shiori saw a memory; blue, furry, cat-like beings begging for jetpacks in her mind's eye. How they were upset when denied, but quickly rejoiced over the mention of cucumbers. She saw the bemused frown on the Pink Panther's face as she admonished the #########s. An occurrence that happened quite often to Shiori's amusement.
 
 With commissions done, Shiori delivered each to their respective owners, earning a nice tip from Kiara. Kindness given deserves kindness in turn, so Shiori gave Kiara some of her own [home cooking](https://youtu.be/jh0GSZRpkfU?t=1548). From the start to near the end, the phoenix had been one of the kinder knights to Shiori, compared to two particular knight. Shiori enjoyed Kiara's company, taking the time to listen to Kiara fretting about her wedding knight and giving out suggestions: some vegetables are rather... _potent_.
 
 [It's the Heart, Not the Hips.](#embed:https://youtu.be/jh0GSZRpkfU?t=1615)
 
-There wasn't much left for Shiori to do. A few quests and cooking filled was had. Shiori learned that Mordan would later host an auction for the houses she was building the past few days. The chef was certainly a better house-builder than a therapist, in Shiori's eyes. For a brief mischievious moment, Shiori considered pranking Mordan by placing some jukeboxes underneath the houses but dismissed the thought. Shiori Nyavella _was_ a kind witch. 
+There wasn't much left for Shiori to do. A few quests and cooking filled was had. Shiori learned that Mordan would later host an auction for the houses she was building the past few days. The chef was certainly a better house-builder than a therapist, in Shiori's eyes. For a brief mischievious moment, Shiori considered pranking Mordan by placing some jukeboxes underneath the houses but dismissed the thought. Shiori Nyavella _was_ a kind witch.
 
 The picnic with Cecilia was also rather nice, the two trading small talk over the _complicated_ relationships and resulting dramas. About how each person was the hero of their own story; it was their tale while others were but a part of it. Such as Roa attaining her own happy ending with Kiara after days of turmoil. Even the Hero Ina had [her own struggles](https://youtu.be/jh0GSZRpkfU?t=4091), Shiori accidentally eavesdropping as Ina wrote a letter to her own paramour. But in the end, they were part of a larger, grander epic.
 
@@ -31,7 +31,7 @@ As one last prank, Shiori and Bijou sneaked into Mordan's Tavern where they crit
 [Advent of Rebellion](#embed:https://youtu.be/jh0GSZRpkfU?t=6938)
 
 [Fire, Fire, Light the Fire!](#embed:https://youtu.be/jh0GSZRpkfU?t=7053)
- 
+
 There were still a few things to remember from Shiori and Bijou's short stay. They lingered. Their GothRock shouldn't be remiss, it was a home that saw many moments. Even the outside toilet may be missed. And to make the [final entry special](https://youtu.be/jh0GSZRpkfU?t=7478), Shiori grabbed the diary in the latrine for that final smelly majestic use.
 
 [A Picture with ~~Gonathon~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
@@ -60,7 +60,7 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 
 **Bonds** forged yesterday are now **broken** today.
 
-"Who's... With Us?"
+**_"Who's... With Us?"_**
 
 ## Fanworks:
 

@@ -48,7 +48,6 @@ A day that began with peace ended with turmoil. As Shiori waited for her wife to
 
 Before Shiori left to sleep, Queen Tam approached to apologise for interrupting her and Gonathan's talk earlier.
 
-
 ## Fanart
 
 ["just a humble witch" by Noise](https://x.com/lestkrr/status/1922074979434184946)
