@@ -6,11 +6,11 @@ The reason? The two of them shared something unique, just like in their first jo
 
 Either way, the two shared moments of banter throughout the day, even engaging in a semi-rivalrous sibling moment, a friendly battle of kindness. Each sought to kindly outdo the other's kindness, aiming to become the most kind in the kingdom.
 
-[Kindness rivals](https://www.google.com/search?q=%23embed:https://www.youtube.com/live/cyLsX20esBE%3Ft%3D10506s)
+[Kindness rivals](#embed:https://www.google.com/search?q=%23embed:https://www.youtube.com/live/cyLsX20esBE%3Ft%3D10506s)
 
 Upon the conclusion of their work, Shakira sought out Immerkind. Karia sternly declared that she knew what Cecilia wanted:
 
-["Do you know what you want?"](https://www.google.com/search?q=%23embed:https://www.youtube.com/live/cyLsX20esBE%3Ft%3D11317s)
+["Do you know what you want?"](#embed:https://www.google.com/search?q=%23embed:https://www.youtube.com/live/cyLsX20esBE%3Ft%3D11317s)
 
 They kissed, the platonic kind.
 
