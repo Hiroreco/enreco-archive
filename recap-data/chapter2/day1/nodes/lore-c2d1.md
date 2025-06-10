@@ -35,6 +35,7 @@ The Cliffs of Sidero were once the site of an ancient expedition led by an explo
 **Book of Prophecies**
 
 - Read ["Book of Prophecies 3:21"](#text:book-of-prophecies-3-21)
+- Read ["Book of Prophecies 3:7"](#text:book-of-prophecies-3-7)
 
 #### Updated NPCs:
 
