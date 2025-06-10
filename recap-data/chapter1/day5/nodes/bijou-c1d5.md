@@ -6,7 +6,7 @@ The day started on a high note as she visited her mother Raora’s newly built c
 
 True to her title, Bijou spent her day engaging in what she deemed "princess-like" behavior, including [stalking](https://www.youtube.com/live/5o4TerH2bVI?feature=shared\&t=2361) other residents of the kingdom. She also sought to turn her iconic moai statue into a perpetual music player, blasting tunes day and night to annoy her neighbors. To achieve this, she visited FaunaMart to purchase a [jukebox](https://www.youtube.com/live/5o4TerH2bVI?feature=shared\&t=3164).
 
-Bijou’s royal ambitions then led her down a treacherous path. Alongside her trusted knight, Cecilia, she attempted to overthrow the kingdom’s ruler in a daring coup. While the coup didn’t go as planned, it cemented her reputation as a princess who kept things... interesting (see [Bijou-Cecilia: A Failed Coup](#edge:bijou-cecilia))
+Bijou’s royal ambitions then led her down a treacherous path. Alongside her trusted knight, Cecilia, she attempted to overthrow the kingdom’s ruler in a daring coup. While the coup didn’t go as planned, it cemented her reputation as a princess who kept things... interesting (see [Bijou-Cecilia: A Failed Coup](#edge:bijou-cecilia)).
 
 Adding to her unconventional day, Bijou found herself entangled in polygamous relationships, extending her royal affections beyond her wives. It was clear that the princess had her priorities uniquely arranged (see [Irys-Bijou: Side Chick No.2](#edge:bijou-irys)).
 
