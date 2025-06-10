@@ -117,6 +117,7 @@ const ViewChapterRecapModal = ({
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
+                showXButton={true}
                 backdropFilter={backdropFiler}
             >
                 <VisuallyHidden>
@@ -167,7 +168,7 @@ const ViewChapterRecapModal = ({
                         </AnimatePresence>
                     </div>
                 </div>
-                <div className="absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
+                <div className="md:hidden absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
                     <Button
                         className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}

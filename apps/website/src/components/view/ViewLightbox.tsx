@@ -43,10 +43,7 @@ const ViewLightbox = ({
                 alt={alt}
                 width={width}
                 height={height}
-                className={cn(
-                    "cursor-pointer transition-opacity hover:opacity-90",
-                    className,
-                )}
+                className={cn("cursor-pointer hover:opacity-90", className)}
                 placeholder="blur"
                 blurDataURL={getBlurDataURL(src)}
                 priority={priority}
