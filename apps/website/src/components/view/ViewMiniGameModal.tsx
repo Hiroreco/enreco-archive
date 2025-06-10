@@ -53,7 +53,11 @@ const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
     const [game, setGame] = useState("gambling");
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="md:max-w-[800px] md:max-h-[400px] max-w-none w-[95vw] h-[80vh] transition-all">
+            <DialogContent
+                className="md:max-w-[800px] md:max-h-[400px] max-w-none w-[95vw] h-[80vh] transition-all"
+                showXButton={true}
+                showXButtonForce={true}
+            >
                 <DialogHeader>
                     <DialogTitle>Minigames</DialogTitle>
                 </DialogHeader>
