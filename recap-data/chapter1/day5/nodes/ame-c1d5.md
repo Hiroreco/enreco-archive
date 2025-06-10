@@ -6,9 +6,9 @@ Right after, Elizabeth stopped by, and the two Jade Sword members decided to tak
 
 [Walking around with Elizabeth](#embed:https://www.youtube.com/live/uyOxBS0Cx8E?feature=shared\&t=795)
 
-After bidding Elizabeth farewell, it was finally time for Jyonathan to focus on her onsen project—nevermind, she went to the casino to gamble instead. Seemed like the blonde was very easily distracted. She spent quite a bit of time there and lost a lot of money, but she wasn’t too worried; after all, her husband’s pockets were deep, and she could always ask for an [allowance](https://www.youtube.com/live/uyOxBS0Cx8E?feature=shared\&t=4140).
+After bidding Elizabeth farewell, it was finally time for Jyonathan to focus on her onsen project—never mind, she went to the casino to gamble instead. It seemed like the blonde was very easily distracted. She spent quite a bit of time there and lost a lot of money, but she wasn’t too worried; after all, her husband’s pockets were deep, and she could have asked for an [allowance](https://www.youtube.com/live/uyOxBS0Cx8E?feature=shared\&t=4140).
 
-Okay, for real this time, Jyonathan got back on track and began construction on the onsen. She envisioned it as a place where everyone could gather and unwind after a long day of work. And, most importantly, a place where they could finally bathe.
+Okay, for real this time, Jyonathan got back on track and began construction on the onsen. She envisioned it as a place where everyone could gather and unwind after a long day of work—and, most importantly, a place where they could finally bathe.
 
 After hours of effort, she finally completed something that matched what she had imagined.
 
