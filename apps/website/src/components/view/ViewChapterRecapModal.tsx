@@ -16,6 +16,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { useSettingStore } from "@/store/settingStore";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
@@ -155,7 +156,7 @@ const ViewChapterRecapModal = ({
                                 {useMemo(
                                     () => (
                                         <ViewMarkdown
-                                            className="pb-20"
+                                            className="pb-16"
                                             onNodeLinkClicked={() => {}}
                                             onEdgeLinkClicked={() => {}}
                                         >
@@ -166,6 +167,7 @@ const ViewChapterRecapModal = ({
                                 )}
                             </motion.div>
                         </AnimatePresence>
+                        <Separator />
                     </div>
                 </div>
                 <div className="md:hidden absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
