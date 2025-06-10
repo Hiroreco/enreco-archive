@@ -60,7 +60,7 @@ Perhaps swept up by the flow, Shiori shared her feelings with Bijou. Insecure si
 
 [Ring of Promise](#embed:https://youtu.be/mb91g7vQSnA?t=11132)
 
-The ring now decorates their door as a precious blue flower guards [their home, GothRock](https://youtu.be/mb91g7vQSnA?t=11372). A cheeky kiss from Bijou had Shiori chuckling fondly as her wife scamps about, bringing her brother with her soon after as Nerissa visited. The two witches then swiftly decided to have Bijou join as a witch-in-training.
+The ring now decorates their door as a precious blue flower guards [their home, GothRock](https://youtu.be/mb91g7vQSnA?t=11372). A cheeky kiss from Bijou had Shiori chuckling fondly as her wife scamps about, bringing her brother with her soon after as Nerissa arrived. The two witches then swiftly decided to have Bijou join as a witch-in-training.
 
 It was a day filled with many, many events to write down. As Shiori submitted her diary for the day, something catches her eye:
 
