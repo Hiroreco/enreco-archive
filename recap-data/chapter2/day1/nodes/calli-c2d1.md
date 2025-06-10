@@ -18,7 +18,7 @@ A place for others to throw hands in the name of glory (and entertainment), whil
 
 It was thrilling. She got straight to work laying the foundation—literally—for the Dawg Pound, pushing aside all that “save the world” and “recover your memories” stuff. Journals? Nah. Fight club first. Priorities. And in true Calli fashion, she was locked in.
 
-Before, well, others planned on ruining her business
+...And of course, just as her conviction solidified, others began to ruin her business.
 
 [Oi!!!](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=_NKA4AiEGnoMhNqK&t=15668)
 

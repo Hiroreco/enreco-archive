@@ -1,6 +1,10 @@
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
-She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration: "We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider". A task well suited to her vast knowledge gained from romance novels.
+She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
+
+_"We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider"_.
+
+A task well suited to her vast knowledge gained from romance novels.
 
 [Project Abortion](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
 
@@ -16,12 +20,12 @@ She continues her exploration of the castle, stopping anyone who is potentially 
 
 [Saving you and the world](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
 
-She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Novella at their restaurant for respite. 
+She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Novella at their restaurant for respite.
 
-After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day. 
-
+After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day.
 
 ### Objective Tracker - Project Abortion
+
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
 [Libestan Two - Grypon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 

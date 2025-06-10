@@ -10,13 +10,15 @@ Gonathon had little time to ponder these revelations, as he joined Tam Gandr, Ne
 
 [You will always be my queen!](#embed:https://youtu.be/BSPi8sTHdAY?t=2h43m48s)
 
-From here things took a turn for the dramatic, with Shiori of the Nyavellas at the center of it all (see [Gonathon-Shiori: Trials of the Witch](#edge:gigi-shiori)). While Gonathon and Shiori's newfound love was still just beginning to blossom, this love would be stretched all the way to the breaking point. The destined blind date set up by Shakira finally occurred, with [Gonathon’s date being none other than Mordan Ramsey!](https://youtu.be/BSPi8sTHdAY?t=3h11m48s) Things only got worse as Shiori, seeking to observe the date, began to drown and had to be saved by Mordan. As the two rivals for Gonathon’s affection started to quarrel, the hapless knight couldn’t take the pressure and fled. It was here that Gonathon’s lack of decisiveness and blind loyalty reared its ugly head, as the knight begged for Tam Gandr to not only provide advice but also to [directly observe and live with him and Shiori as a way of preventing any misdeeds on his part.](https://youtu.be/BSPi8sTHdAY?t=3h28m55s)
+From here things took a turn for the dramatic, with Shiori of the Nyavellas at the center of it all (see [Gonathon-Shiori: Trials of the Witch](#edge:gigi-shiori)). While Gonathon and Shiori's newfound love was still just beginning to blossom, this love would be stretched all the way to the breaking point.
 
-[Devote yourself to me… no matter the consequences](#embed:https://youtu.be/BSPi8sTHdAY?t=3h51m2s)
+The destined blind date set up by Shakira finally occurred, with [Gonathon’s date being none other than Mordan Ramsey!](https://youtu.be/BSPi8sTHdAY?t=3h11m48s) Things only got worse as Shiori, seeking to observe the date, began to drown and had to be saved by Mordan. As the two rivals for Gonathon’s affection started to quarrel, the hapless knight couldn’t take the pressure and fled.
+
+It was here that Gonathon’s lack of decisiveness and blind loyalty reared its ugly head, as the knight begged for Tam Gandr to not only provide advice but also to [directly observe and live](https://youtu.be/BSPi8sTHdAY?t=3h28m55s) with him and Shiori as a way of preventing any misdeeds on his part.
 
 While Tam agreed to assist, all of this was too much for Shiori. She decided to test Gonathon to prove his devotion and eventually formed a soul pact with him, and they briefly became husband and wife. A meeting with Immerkind led to some more [words of wisdom](https://youtu.be/BSPi8sTHdAY?t=4h23m50s) from the green wolf: that even if Gonathon’s memories were not the same as they were in the past, deep down Gonathon was still the same person. The two wolves vowed to escape this timeline together, their bond stronger than ever.
 
-[Love is when you spend time together and laugh!](#embed:https://youtu.be/BSPi8sTHdAY?t=4h19m42s)
+[Love is when you spend time together!](#embed:https://youtu.be/BSPi8sTHdAY?t=4h19m42s)
 
 Alas, none of this was enough to overcome Gonathon’s crippling dedication to his queen and inability to make his own decisions. Upon returning home, Gonathon encountered what seemed to be a startling scene: [Tam Gandr and Shiori engaging in an affair!](https://youtu.be/BSPi8sTHdAY?t=4h31m02s) But rather than seek answers from the two, the bumbling knight chose to once again flee, an act that, along with Shiori [falling to her death](https://youtu.be/BSPi8sTHdAY?t=4h36m00s) while trying to explain to Gonathon, completely broke the battered witch and led to her ending her romance with Gonathon.
 
