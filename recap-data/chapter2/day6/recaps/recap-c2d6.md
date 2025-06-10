@@ -1,6 +1,6 @@
 ## Day 6: The Silence Before the Surge
 
-A somewhat… _normal_ day? No way—really? Are we still in the same adventure? Still in the chaotic lands of Libestal? Still following the 15 agents of drama, scams, and emotional damage?
+A somewhat… _normal_ day? No way—really? Are we still on the same adventure? Still in the chaotic lands of Libestal? Still following the 15 agents of drama, scams, and emotional damage?
 
 Apparently so. But hey, even the wildest horses need to catch their breath sometimes. Or at least, that’s what it _seemed_ like on the surface.
 
@@ -17,7 +17,7 @@ Now normally, this is the part where the summary descends into chaos. But today?
 
 It was all cute. All calm. A bit _too_ calm.
 
-This felt like the “calm before the storm.” Tiny ripples of tension hinted at the greater waves to come. A tense conversation between Elizabeth and Shiori sowed the seeds for something heavier. Shiori, quietly sets the stage for what could become the climax of her entanglement with Gonathon. The chessboard was being set.
+This felt like the “calm before the storm.” Tiny ripples of tension hinted at the greater waves to come. A tense conversation between Elizabeth and Shiori sowed the seeds for something heavier. Shiori quietly sets the stage for what could become the climax of her entanglement with Gonathon. The chessboard was being set.
 
 ![Shiori's message for Gonathon](/images-opt/to-gonathon.webp)
 

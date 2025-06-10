@@ -2,7 +2,7 @@
 
 Shiori's stories were rather nice.
 
-Elizabeth hadn't quite interacted with Shiori since the start of their new adventure into the past; she was still quite amicable with the surprisingly kind witch - even commissioning a few stories that she enjoyed enough to display on the walls of the Jade Forge.
+Elizabeth hadn't quite interacted with Shiori since the start of their new adventure into the past, but she was still quite amicable with the surprisingly kind witch—even commissioning a few stories that she enjoyed enough to display on the walls of the Jade Forge.
 
 The chef had a surprising knack for weaving words into wonderful stories, ones so accurately detailed that they left Elizabeth uncomfortable.
 
@@ -16,21 +16,21 @@ Elizabeth didn't think anyone else would know of her trusted blade's name. She d
 
 The details of the red knight and the imprisonment of what seemed to be a character based on Nerissa...
 
-\*Lies, a **scam\***
+*Lies,* a ***scam***
 
 And so, a confrontation was much needed.
 
 ["Who were you _before_ Lady Bloodflame?"](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060)
 
-Shiori asked Elizabeth Bloodflame, a Knight who swore her loyalty to the Kingdom of Libestal.
+Shiori asked Elizabeth Bloodflame, a knight who swore her loyalty to the Kingdom of Libestal.
 
-Shiori was surprised but unphased by the way Elizabeth confronted her about Nerissa's commission. But she had pride in her stories, in her writing. The best stories are always ones that held a grain of truth.
+Shiori was surprised but unfazed by the way Elizabeth confronted her about Nerissa's commission. But she had pride in her stories, in her writing. The best stories are always ones that hold a grain of truth.
 
-It is rather unfortunate reality that there are those who are afraid of the Truth. That there was a time when they weren't as kind as they are now.
+It is a rather unfortunate reality that there are those who are afraid of the truth—that there was a time when they weren't as kind as they are now.
 
-That a person she loved, is the raven that she caged.
+That a person she loved is the raven that she caged.
 
-A warm-hearted Knight might have been once a cold Queen.
+A warm-hearted knight might have been once a cold queen.
 
 Of course, Elizabeth would be upset by the story, the _memory_, before Libestal. While some of her fellow heroes recalled the time before the past, none of them recalled the _time before Libestal_. The memories some of them regained are but a portion of what was taken.
 
