@@ -180,6 +180,9 @@ function ViewChart({
         if (isCardOpen && (previousCard === "setting" || autoPanBack)) {
             fitViewAsync({ padding: 0.5, duration: 1000 });
         }
+        else if(!isCardOpen) {
+            fitViewAsync({ padding: 0.5, duration: 1000 });
+        }
 
         onPaneClick();
     }, [fitViewAsync, isCardOpen, onPaneClick, previousCard, autoPanBack]);
@@ -206,9 +209,9 @@ function ViewChart({
                 fitViewOptions={initialFitViewOptions}
                 onNodeClick={onNodeClickHandler}
                 onEdgeClick={onEdgeClickHandler}
+                onPaneClick={onPaneClickHandler}
                 minZoom={minZoom}
                 zoomOnDoubleClick={false}
-                onPaneClick={onPaneClickHandler}
                 proOptions={proOptions}
                 translateExtent={translateExtent}
                 className={reactFlowClassnames}
