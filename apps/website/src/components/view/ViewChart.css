@@ -33,7 +33,7 @@
 }
 
 .react-flow__edge {
-    @apply transition-all fill-none duration-1000 cursor-default pointer-events-none;
+    @apply transition-all fill-none duration-1000 cursor-default pointer-events-none opacity-15;
 }
 
 .react-flow__edge.selectable:hover .custom-edge {
@@ -41,5 +41,5 @@
 }
 
 .react-flow__edge.selectable {
-    @apply cursor-pointer pointer-events-auto;
+    @apply opacity-100 cursor-pointer pointer-events-auto;
 }

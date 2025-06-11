@@ -61,13 +61,7 @@ export function resolveDataForDay(charts: ChartData[], currentDay: number)
     result.edges = result.edges.map(e => { 
         const resEdge = structuredClone(e);
 
-        const isCurrentDay = e.data?.day === currentDay;
-
         resEdge.hidden = false;
-        resEdge.style = {
-            opacity: isCurrentDay ? 1 : OLD_EDGE_OPACITY,
-            pointerEvents: isCurrentDay ? "auto" : "none",
-        };
         resEdge.selectable = currentDay === e.data?.day;
         resEdge.zIndex = e.data?.day ?? 0;
         
