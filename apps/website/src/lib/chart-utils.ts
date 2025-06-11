@@ -1,4 +1,3 @@
-import { OLD_EDGE_OPACITY } from "@enreco-archive/common/constants";
 import { ChartData, FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 
 export function resolveDataForDay(charts: ChartData[], currentDay: number)
