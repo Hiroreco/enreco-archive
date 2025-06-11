@@ -484,9 +484,29 @@
     "content": "**Finale**\n\nAnd they all lived unhappily ever after.",
     "category": "journal-c2"
   },
+  "dearest-knight": {
+    "title": "Dearest Knight",
+    "content": "Dearest Lady Bloodflame,\n\nI hath noticed that you hath removeth thine portrait\nfrom our mutual portrait wall of your house.\nHath I angered you, dear knight?\nOr perhaps... am I... overthinking it?\n\nSincerely,\nLady Nerissa Juliet",
+    "category": "letters"
+  },
+  "from-romeo": {
+    "title": "From Romeo",
+    "content": "Dear Juliet,\n\nYou spoke of feeling down. If I played any part in that shadow,\nI offer my deepest apology. A good knight should never be the cause\nof a maiden's sorrow.\nThough you may have forgotten what came before, please know that in the quiet\nmoments between this world, and the previous, you have remained a cherished memory.\nI hope I become an even better knight day by day worthy of what I cherish.\n\nFrom Romeo\n\nP.S.\nNext time instead of gambling- spar me.",
+    "category": "letters"
+  },
+  "letter": {
+    "title": "Letter",
+    "content": "Dear Shiori of the Nyavellas,\n\nThank you for taking your time to write your kind letter.\n\nI have not gotten a chance to eat your potato salad yet but it smells lovely.\n\nWhenever you need assistance, please do not be afraid to call.\n\nI look forward to the next time we meet.\n\nGonathon with a G.",
+    "category": "letters"
+  },
   "my-confession": {
     "title": "My confession",
     "content": "Dearest Immerkind,\n\nI hope this letter reaches you well.\n\nI am writing to you for none other reason that to express these inexplicible emotions that are swirling inside of me.....like a storm.\n\nMother always told me that maybe one day I would find my special somebody....\n\nbut she was gone before she could explain what that I meant...\n\nI don't understand what these emotions truly are... but you are special to me.\n\nThere is something about you...\n\nI... care for you...\n\nAs a token of my affection, please do accept this humble present from this humble peasant.\n\nOh could this be the buds of love?...\n\nWould you care to join me on such a adventure...?\n\nAn adventure of life\n\nAn adventure of love\n\nAn adventure of something new..?\n\nI eagerly anticipate our next meeting...\n\nSigned with passion,\nPeasant THE BAE",
+    "category": "letters"
+  },
+  "to-da-kindest-1": {
+    "title": "To da Kindest 1",
+    "content": "Dearest Johns of Tons,\n\nI appreciate you being the kind hero that I do not deserve!\n\nIf you ever need food, let me know!\n\nThe potato salad buying means so much to me!",
     "category": "letters"
   },
   "to-gonathon": {

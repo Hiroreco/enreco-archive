@@ -1,3 +1,5 @@
+<!-- title: Letter -->
+
 Dear Shiori of the Nyavellas,
 
 Thank you for taking your time to write your kind letter.
