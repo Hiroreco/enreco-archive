@@ -1,6 +1,6 @@
 <!-- title: A Bromance of Eternity Borne Under the Light of the New Moon -->
 
-A true knight never forgets her oaths, and for Gonathon G, not the end of the world nor her aching heart would keep her from fulfilling her promise to Peasant the Bae: to attempt to sway the delusional Immerkind's heart (see [Bae-Cecilia: A Bridge to Far](#edge:cecilia-bae)). Luring Immerkind to the fated bridge, the humble knight left the peasant to make her heartfelt plea.
+A true knight never forgets her oaths, and for Gonathon G, not the end of the world nor her aching heart would keep her from fulfilling her promise to Peasant the Bae: to attempt to sway the delusional Immerkind's heart (see [Bae-Cecilia: A Bridge to Far](#edge:cecilia-bae)). Luring Immerkind to the fated bridge, the Humble Knight left the peasant to make her heartfelt plea.
 
 Alas, it was not to be, for the zealous green one was dead set on remaining in the past (see [Cecilia-Iphania](#edge:cecilia-iphania)). While she gave Bae the consolation that she would look for her in the future, this meager offering did little to mend Bae's heart, and the distraught peasant turned to [the embrace of the ocean's abyss](https://youtu.be/Br6dvhVJ_IE?t=4887).
 

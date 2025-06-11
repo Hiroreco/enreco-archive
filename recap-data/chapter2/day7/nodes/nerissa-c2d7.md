@@ -26,7 +26,7 @@ And as expected of the heroes, they did their best in winning their friends back
 
 Fate was such a trickster. Having been possessed, the corruption guided Nerissa to [haunt](https://youtu.be/FlPFFE5_X3Y?t=9100) Roa Pandora, enabling her to see through the secrets of her heart. The corrupted “witch” finally confirmed and confronted her about the woman’s growing feelings for Lady Bloodflame and the jealousy she harbored for her blossoming relationship with Lady Bloodflame.
 
-_“You stole the red knight”_
+_“You stole the Red Knight”_
 
 _“I stole no such thing,”_ she quipped back.
 
@@ -44,7 +44,7 @@ _“Come to your senses!”_ the knight shouted.
 
 _“Come to my senses?_ I think I came to those a long ago”
 
-It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the red maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
+It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the Red Maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
 
 Before they knew it, the pure knight had ["cleansed"](https://youtu.be/FlPFFE5_X3Y?t=9259) Nerissa and won her over to their side again.
 

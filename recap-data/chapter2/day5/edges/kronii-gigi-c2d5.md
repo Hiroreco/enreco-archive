@@ -6,7 +6,7 @@ Initially seeking therapy from Mordan, however, upon learning of her retirement,
 
 [It’s over… it’s so over](#embed:https://youtu.be/alQr5XqoUPs?t=15613)
 
-Gonathon mused over their options, including taking HPO to court, while a shellshocked Tam thanked Gonathon for his [purity and unbreakable loyalty](https://youtu.be/alQr5XqoUPs?t=15872). Alas, nothing could be done at the moment, for the vile goddess had discovered Kronii and commenced ravaging her in front of the humble knight. Despite wishing to remain by her queen’s side, Tam’s tearful plea not to witness her humiliation forced Gonathon to retreat, but not before promising to return. Writhing with frustration over the queen’s plight, Gonathon was briefly consoled by Shiori and Bijou, but their words imploring the knight to not get involved only served to harden the knight’s resolve: he had to save his queen!
+Gonathon mused over their options, including taking HPO to court, while a shellshocked Tam thanked Gonathon for his [purity and unbreakable loyalty](https://youtu.be/alQr5XqoUPs?t=15872). Alas, nothing could be done at the moment, for the vile goddess had discovered Kronii and commenced ravaging her in front of the Humble Knight. Despite wishing to remain by her queen’s side, Tam’s tearful plea not to witness her humiliation forced Gonathon to retreat, but not before promising to return. Writhing with frustration over the queen’s plight, Gonathon was briefly consoled by Shiori and Bijou, but their words imploring the knight to not get involved only served to harden the knight’s resolve: he had to save his queen!
 
 [I don’t want you to see me like this…](#embed:https://youtu.be/alQr5XqoUPs?t=16167)
 

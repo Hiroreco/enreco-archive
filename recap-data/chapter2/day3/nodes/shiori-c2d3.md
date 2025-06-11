@@ -18,13 +18,13 @@ Novel complete.
 
 The next hurdle? Marketing it. Figuring out how to make money off it. Luckily, Shiori knew just the right person to humbly request assistance from.
 
-It had been three days since she first got to know the orange knight. Gullible, no doubt about that. At first, she’d only seen him as a convenient pawn—someone easily swayed, someone useful. But something had changed. Somewhere between the sly grins and half-meant jokes, between her calculated words and his sincere responses, something began to stir in her.
+It had been three days since she first got to know the Orange Knight. Gullible, no doubt about that. At first, she’d only seen him as a convenient pawn—someone easily swayed, someone useful. But something had changed. Somewhere between the sly grins and half-meant jokes, between her calculated words and his sincere responses, something began to stir in her.
 
 A warmth.
 
 It was subtle at first, just a flicker. But now, it burned just enough for even a witch like her to take notice. And maybe… just maybe, it was something she didn’t want to ignore (see [Shiori-Gonathon](#edge:gigi-shiori)).
 
-Afterward, she ended the day documenting her experiences in her journal about the new bonds she'd just made with the humble knight.
+Afterward, she ended the day documenting her experiences in her journal about the new bonds she'd just made with the Humble Knight.
 
 [Documenting Gonathon](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=PSU7h0E2fe8YmwFW&t=9968)
 

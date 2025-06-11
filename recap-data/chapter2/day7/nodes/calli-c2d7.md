@@ -6,7 +6,7 @@ Providing therapy was beginning to be too much for Mordan (see: Mordan day 6). A
 
 And unknowingly, [she accidentally read one of Shiori’s letters addressed to Gonathon!](https://www.youtube.com/live/WG748SwXQVo?t=389)
 
-Mordan panicked. Putting it back wasn't an option. She couldn’t openly give it to the humble knight either—that’d be awkward.
+Mordan panicked. Putting it back wasn't an option. She couldn’t openly give it to the Humble Knight either—that’d be awkward.
 
 [Evidence disposed.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=650)
 
