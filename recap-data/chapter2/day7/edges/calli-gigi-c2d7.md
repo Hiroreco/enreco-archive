@@ -1,6 +1,6 @@
 <!-- title: Miscommunication and Heavy Hearts -->
 
-[Gonathon meets Mordan at the start of her real estate arc!](#embed:https://www.youtube.com/live/rDdbFYqcAyI?t=864)
+[My real estate arc](#embed:https://www.youtube.com/live/rDdbFYqcAyI?t=864)
 
 After Gonathon learned that it was Mordan who had mistakenly purchased the book Shiori had asked to be retrieved the previous day, Gonathon quietly retreated to bed, antsy about the message soon to be revealed. As Gonathon began reading, casually quipping about Mordan’s little “oopsies,” fate, ever fond of irony, brought Mordan herself to [appear in proximity,](https://www.youtube.com/live/rDdbFYqcAyI?t=1554) wandering near the tree unaware she was even being spoken of. She approached the chest she had left for Gonathon, confirming the book had indeed been received.
 
@@ -16,7 +16,7 @@ Around the time of the new dungeon’s opening, during a kerfuffle among the her
 
 A simple misunderstanding or miscommunication, perhaps, but for a heart already cracked by unrequited love and perceived rejection, the sting was undeniable.
 
-[Rescheduled auctions turn into unscheduled therapy sessions](#embed:https://www.youtube.com/live/rDdbFYqcAyI?t=13010s)
+[From auctions to therapy sessions](#embed:https://www.youtube.com/live/rDdbFYqcAyI?t=13010s)
 
 Much later in the day, both Mordan and Gonathon found themselves together once more, standing before the auction block as Tam Gandr recounted her latest romantic woes. Listening intently, Mordan and Gonathon offered what counsel they could. In a quiet gesture that betrayed her own wounded heart, Mordan offered Tam a “Gorgeous Ring,” the very same she had intended to give Gonathon only days prior.
 
@@ -24,4 +24,4 @@ Sensing the heaviness in Mordan’s voice, Gonathon gently sought to lift her sp
 
 And yet, despite her many accomplishments, there was no denying that a sadness lingered in her heart. Mordan had been unsuccessful in love, unsuccessful in previously courting Gonathon, and uncertain in her role in the kingdom, and in turn left, hoping that others might find what she could not.
 
-[“But like all things, a broken heart can be mended,”](https://www.youtube.com/live/WG748SwXQVo?t=16989) she said softly as advice to Tam. Perhaps, just perhaps, the advice she gave was not only meant for Tam but also for herself.
+[“Like all things, a broken heart can be mended”](https://www.youtube.com/live/WG748SwXQVo?t=16989) she said softly as advice to Tam. Perhaps, just perhaps, the advice she gave was not only meant for Tam but also for herself.

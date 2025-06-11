@@ -1,4 +1,4 @@
-The fluffy one’s beginning mirrored that of all the others—she was given the rundown of her situation, her mission, and the state she was in: missing a piece of her memories (see [Fia](#node:fia) and [Princess Iphania](#node:iphania)). She was understandably confused, but, as always, she faced her new reality with quiet resolve. Just like in her past journey, she accepted her role and duties without hesitation.
+The fluffy one’s beginning mirrored that of all the others—she was given the rundown of her situation, her mission, and the state she was in: missing a piece of her memories. She was understandably confused, but, as always, she faced her new reality with quiet resolve. Just like in her past journey, she accepted her role and duties without hesitation.
 
 When asked to choose an occupation, Fuwawa became a chef. Her reason was simple and heartfelt: she wanted to bring people together through food, to create joyful moments with her cooking—a touching motive that fit her perfectly.
 

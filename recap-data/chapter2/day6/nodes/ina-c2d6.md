@@ -13,7 +13,3 @@ Upon arriving on time at today's rendezvous point—which was apparently early, 
 She's really mostly doing a lot of people-watching, including the peasant's greeting with Immerkind, all the way until she entered the day's point of interest. NinoIna was no stranger to a sealed ancient tome—she had one of her own, after all. The mystical cursing properties of the tome also did not affect the Hero's vessel nor spirit in the slightest, as expected of a real Hero.
 
 [MEOWMEOW](#embed:https://youtu.be/EkwigIYpcdI?t=4685s)
-
----
-
-Don't forget to check out Ina's [new outfit reveal](https://x.com/ninomaeinanis/status/1920677512775884951), a day after the end of ENreco Chapter 2!

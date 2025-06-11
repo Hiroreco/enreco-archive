@@ -64,8 +64,9 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                showXButton={true}
                 className="md:max-w-[800px] md:max-h-[400px] max-w-none w-[95vw] h-[80vh] transition-all"
+                showXButton={true}
+                showXButtonForce={true}
             >
                 <DialogHeader>
                     <DialogTitle>Minigames</DialogTitle>

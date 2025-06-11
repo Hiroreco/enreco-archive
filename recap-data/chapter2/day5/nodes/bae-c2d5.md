@@ -4,13 +4,15 @@ But visions of what could be Bae's past weren't the only thing troubling her. Th
 
 [A Peasant's Heart for One with a Kind Heart](#embed:https://youtu.be/L7rBGepFrXA?t=1318)
 
-[Immerkind's love for Princess Iphania](https://youtu.be/L7rBGepFrXA?t=1388) was too well-known and worrisome for Bae to be ignorant. How could a peasant, in name, compare to royalty? Gonathon would give sound advice, reminding Bae that she had cared for Cecilia when she was in pain and that as heroes of another land, they must leave once evil had been defeated. That Cecilia's love may be fraught with inevitable heartbreak. Bae may still have a chance. A chance that a heartfelt letter may sway Cecilia's own heart.
+Immerkind's love for Princess Iphania was too well-known and worrisome for Bae to be ignorant. How could a peasant, in name, compare to royalty? Gonathon would give sound advice, reminding Bae that she had cared for Cecilia when she was in pain and that as heroes of another land, they must leave once evil had been defeated. That Cecilia's love may be fraught with inevitable heartbreak. Bae may still have a chance. A chance that a heartfelt letter may sway Cecilia's own heart.
 
 [A letter and a 5000 gold bouquet](#embed:https://youtu.be/L7rBGepFrXA?t=1762)
 
 Rings were too soon, but flowers gave the 'right' touch of Bae's intention. The price, Bae faltered for a moment, but her love for Cecilia couldn't be measured by gold spent (gold that would be earned back after a certain therapist-chef commissioned Bae for a pickaxe). But another worry crept in: what [comes after today's Dungeon?](https://youtu.be/L7rBGepFrXA?t=2262) If Peasant The Bae's memories returned; would her feelings stay the same? To preserve her feelings, Bae wrote her a letter first:
 
 [Dearest ImmerKind...](#embed:https://youtu.be/L7rBGepFrXA?t=2543)
+
+Read ["My confession"](#text:my-confession)
 
 Words flowed out like a steady river from Bae's quill, passion burning itself onto the parchment. Each feeling is transcribed carefully and precisely, hoping that the Fair Maiden can hear Bae's sincerity and ardent love. After being [proofread by others](https://youtu.be/L7rBGepFrXA?t=3130), the Hot Pink One notwithstanding her rating of 6/10, it was ready.
 
@@ -32,7 +34,7 @@ Second, there were Bae's memories. [Who was Mother](https://youtu.be/L7rBGepFrXA
 
 But it wasn't just Bae who was troubled, since a distressed Bijou soon called for help; [Bijou's beloved, Shiori, and Gonathon were talking once again](https://youtu.be/L7rBGepFrXA?t=10880). Caught between trusting her wife and repeating her mistake, Bijou turned to Bae for advice. Despite the tensions earlier in the day, Bae still held Bijou as a friend. She told her to trust Shiori and that they could begin the custody battle/family therapy session with Mordan soon.
 
-[**_The dispute for lack of better words, was a Mess_**](https://youtu.be/L7rBGepFrXA?t=11850).
+[**_The dispute was... a Mess_**](https://youtu.be/L7rBGepFrXA?t=11850).
 
 It was one filled with drama, tears, and deceit that soap operas can only dream of having. Inspired by a suggestion from Mordan, [Bae bought another hat/child](https://youtu.be/L7rBGepFrXA?t=11383) and [renamed the real Khaos](https://youtu.be/L7rBGepFrXA?t=11464) to test Bijou. A ploy that [Bijou fell for](https://youtu.be/L7rBGepFrXA?t=12085), proving that Bae deserved primary custody. Not that anybody disagreed. But alas, the subject of home suitability came up, and, in an unexpected twist, Mordan's tavern seemed like the top choice for the children's home. A home that was accepted then dropped when everyone, except Gonathon, turned on Mordan after they mistakenly thought the chef insulted the group (it was only Shiori).
 

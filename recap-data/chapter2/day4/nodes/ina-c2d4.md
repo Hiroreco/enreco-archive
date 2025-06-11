@@ -4,8 +4,6 @@ The time was finally due for NinoIna, donning her big jeweler hat, to finish bui
 
 [But That's Just a Theory...](#embed:https://youtu.be/l9HKSDG50HM?t=6292s)
 
-[Noisy Neighbor NinoIna](#embed:https://youtu.be/l9HKSDG50HM?t=6747s)
-
 The Hero only managed to get around to defeating Stain King Pro*tato* today and was [blissfully ignorant](https://youtu.be/l9HKSDG50HM?t=7182s) of the gossip around the Princess and the Outlander's relationship and/or alleged familial status. Good for her.
 
 [Man, was she cool](https://youtu.be/qV7dgz75tVo). NinoIna was overjoyed to see Queen Tammy's spirit return in full form. Her loyalty to this Time God entity was palpable, surely a sentiment shared by those of a "Cerulean" alignment (see [Gonathon](#node:gigi)), but this whole reveal came with some complications in the details; is Tam Gandr the Hero's stepmom? (See [Bijou-Kronii: Not Again...](#edge:bijou-kronii))

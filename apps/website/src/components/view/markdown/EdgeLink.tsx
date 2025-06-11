@@ -26,7 +26,7 @@ export default function EdgeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const edge = edges.find(e => e.id === edgeId);
+    const edge = edges.find((e) => e.id === edgeId);
 
     const edgeLinkHandler = useCallback(() => {
         if (edge && !edge.hidden) {
@@ -54,12 +54,12 @@ export default function EdgeLink({
     }
 
     return (
-        <button
-            className="like-anchor underline underline-offset-2"
+        <span
+            className="font-semibold cursor-pointer underline underline-offset-2"
             style={{ color: edgeColor }}
             onClick={edgeLinkHandler}
         >
-            <span className="font-semibold">{label}</span>
-        </button>
+            {label}
+        </span>
     );
 }
