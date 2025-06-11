@@ -10,9 +10,9 @@ import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
 
 interface Props {
-    edgeVisibility: StringToBooleanObjectMap;
-    toggleEdgeVisible: (edgeId: string, visibility: boolean) => void;
-    toggleAllEdgesVisible: (visibility: boolean) => void;
+    relationshipVisibility: StringToBooleanObjectMap;
+    toggleRelationshipVisible: (relationshipId: string, relationshipVisibility: boolean) => void;
+    toggleAllRelationshipVisible: (relationshipVisibility: boolean) => void;
     showOnlyNewEdges: boolean;
     setShowOnlyNewEdges: (newVal: boolean) => void;
     teamVisibility: StringToBooleanObjectMap;
@@ -27,9 +27,9 @@ interface Props {
 }
 
 const ViewVisibilityCard = ({
-    edgeVisibility,
-    toggleEdgeVisible,
-    toggleAllEdgesVisible,
+    relationshipVisibility,
+    toggleRelationshipVisible,
+    toggleAllRelationshipVisible,
     showOnlyNewEdges,
     setShowOnlyNewEdges,
     teamVisibility,
@@ -75,15 +75,15 @@ const ViewVisibilityCard = ({
                         <Checkbox
                             id="edge-all"
                             checked={
-                                Object.keys(edgeVisibility)
-                                    .every(key => edgeVisibility[key] === true)
+                                Object.keys(relationshipVisibility)
+                                    .every(key => relationshipVisibility[key] === true)
                             }
                             onCheckedChange={(checked) => {
                                 if(checked === "indeterminate") {
-                                    toggleAllEdgesVisible(false);
+                                    toggleAllRelationshipVisible(false);
                                 }
                                 else {
-                                    toggleAllEdgesVisible(checked);
+                                    toggleAllRelationshipVisible(checked);
                                 }
                             }}
                         />
@@ -109,13 +109,13 @@ const ViewVisibilityCard = ({
 
                             <Checkbox
                                 id={`edge-${key.toLowerCase()}`}
-                                checked={edgeVisibility[key]}
+                                checked={relationshipVisibility[key]}
                                 onCheckedChange={(checked) => {
                                     if(checked === "indeterminate") {
-                                        toggleEdgeVisible(key, false);
+                                        toggleRelationshipVisible(key, false);
                                     }
                                     else {
-                                        toggleEdgeVisible(key, checked);
+                                        toggleRelationshipVisible(key, checked);
                                     }
                                 }}
                             />

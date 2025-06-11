@@ -1,4 +1,4 @@
-import { FixedEdgeType, ImageNodeType, TeamMap } from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType, Relationship, RelationshipMap, TeamMap } from "@enreco-archive/common/types";
 import { create } from "zustand";
 import { immer } from "zustand/middleware/immer"; 
 
@@ -27,10 +27,10 @@ interface ViewState {
     },
 
     visibility: {
-        edge: { [key: string]: boolean };
-        toggleEdge: (edgeId: string, edgeVisibility: boolean) => void;
-        toggleAllEdges: (edgeVisibility: boolean) => void;
-        setEdgeKeys: (edges: FixedEdgeType[]) => void;
+        relationship: { [key: string]: boolean };
+        toggleRelationship: (relationshipId: string, relationshipVisibility: boolean) => void;
+        toggleAllRelationships: (relationshipVisibility: boolean) => void;
+        setRelationshipKeys: (relationships: RelationshipMap) => void;
 
         showOnlyNewEdges: boolean;
         setShowOnlyNewEdges: (showOnlyNewEdges: boolean) => void;
@@ -85,27 +85,27 @@ export const useViewStore = create<ViewState>()(immer((set, get) => {
         },
 
         visibility: {
-            edge: {},
-            toggleEdge: (edgeId, edgeVisibility) => 
-                set(draft => { draft.visibility.edge[edgeId] = edgeVisibility; }),
-            toggleAllEdges: (edgeVisibility) => 
+            relationship: {},
+            toggleRelationship: (relationshipId, relationshipVisibility) => 
+                set(draft => { draft.visibility.relationship[relationshipId] = relationshipVisibility; }),
+            toggleAllRelationships: (relationshipVisibility) => 
                 set(draft => {
-                    const keys = Object.keys(get().visibility.edge);
+                    const keys = Object.keys(get().visibility.relationship);
 
                     for(const key of keys) {
-                        draft.visibility.edge[key] = edgeVisibility;
+                        draft.visibility.relationship[key] = relationshipVisibility;
                     }
                 }),
-            setEdgeKeys: (edges) => 
+            setRelationshipKeys: (relationships) => 
                 set(draft => {
-                    const keys = edges.map(e => e.id);
+                    const keys = Object.keys(relationships);
 
-                    const newEdgeVisibility: { [key: string]: boolean } = {};
+                    const newRelationshipVisibility: { [key: string]: boolean } = {};
                     for(const key of keys) {
-                        newEdgeVisibility[key] = true;
+                        newRelationshipVisibility[key] = true;
                     }
 
-                    draft.visibility.edge = newEdgeVisibility;
+                    draft.visibility.relationship = newRelationshipVisibility;
                 }),
 
             showOnlyNewEdges: true,

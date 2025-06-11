@@ -21,9 +21,9 @@ interface Props {
     chapterData: Chapter;
     dayRecap: string;
     nodes: ImageNodeType[];
-    edgeVisibility: StringToBooleanObjectMap;
-    toggleEdgeVisible: (edgeId: string, visibility: boolean) => void;
-    toggleAllEdgesVisible: (visibility: boolean) => void;
+    relationshipVisibility: StringToBooleanObjectMap;
+    toggleRelationshipVisible: (edgeId: string, visibility: boolean) => void;
+    toggleAllRelationshipVisible: (visibility: boolean) => void;
     showOnlyNewEdges: boolean;
     setShowOnlyNewEdges: (newVal: boolean) => void;
     teamVisibility: StringToBooleanObjectMap;
@@ -44,9 +44,9 @@ const ViewSettingCard = ({
     chapterData,
     dayRecap,
     nodes,
-    edgeVisibility,
-    toggleEdgeVisible,
-    toggleAllEdgesVisible,
+    relationshipVisibility,
+    toggleRelationshipVisible,
+    toggleAllRelationshipVisible,
     showOnlyNewEdges,
     setShowOnlyNewEdges,
     teamVisibility,
@@ -95,9 +95,9 @@ const ViewSettingCard = ({
                 </TabsContent>
                 <TabsContent value="visibility" className="flex-1" asChild>
                     <ViewVisibilityCard
-                        edgeVisibility={edgeVisibility}
-                        toggleEdgeVisible={toggleEdgeVisible}
-                        toggleAllEdgesVisible={toggleAllEdgesVisible}
+                        relationshipVisibility={relationshipVisibility}
+                        toggleRelationshipVisible={toggleRelationshipVisible}
+                        toggleAllRelationshipVisible={toggleAllRelationshipVisible}
                         showOnlyNewEdges={showOnlyNewEdges}
                         setShowOnlyNewEdges={setShowOnlyNewEdges}
                         teamVisibility={teamVisibility}
