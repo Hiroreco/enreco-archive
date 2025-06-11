@@ -10,30 +10,34 @@ import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
 
 interface Props {
-    edgeVisibility: StringToBooleanObjectMap;
-    onEdgeVisibilityChange: (
-        newEdgeVisibility: StringToBooleanObjectMap,
-    ) => void;
+    relationshipVisibility: StringToBooleanObjectMap;
+    toggleRelationshipVisible: (relationshipId: string, relationshipVisibility: boolean) => void;
+    toggleAllRelationshipVisible: (relationshipVisibility: boolean) => void;
+    showOnlyNewEdges: boolean;
+    setShowOnlyNewEdges: (newVal: boolean) => void;
     teamVisibility: StringToBooleanObjectMap;
-    onTeamVisibilityChange: (
-        newTeamVisibility: StringToBooleanObjectMap,
-    ) => void;
+    toggleTeamVisible: (teamId: string, visibility: boolean) => void;
+    toggleAllTeamsVisible: (visibility: boolean) => void;
     characterVisibility: { [key: string]: boolean };
-    onCharacterVisibilityChange: (
-        newCharacterVisibility: StringToBooleanObjectMap,
-    ) => void;
+    toggleCharacterVisible: (characterId: string, visibility: boolean) => void;
+    toggleAllCharactersVisible: (visibility: boolean) => void;
     chapter: number;
     chapterData: Chapter;
     nodes: ImageNodeType[];
 }
 
 const ViewVisibilityCard = ({
-    edgeVisibility,
-    onEdgeVisibilityChange,
+    relationshipVisibility,
+    toggleRelationshipVisible,
+    toggleAllRelationshipVisible,
+    showOnlyNewEdges,
+    setShowOnlyNewEdges,
     teamVisibility,
-    onTeamVisibilityChange,
+    toggleTeamVisible,
+    toggleAllTeamsVisible,
     characterVisibility,
-    onCharacterVisibilityChange,
+    toggleCharacterVisible,
+    toggleAllCharactersVisible,
     chapter,
     chapterData,
     nodes,
@@ -59,13 +63,8 @@ const ViewVisibilityCard = ({
                         </Label>
                         <Checkbox
                             id="edge-new"
-                            checked={edgeVisibility.new}
-                            onCheckedChange={(checked) =>
-                                onEdgeVisibilityChange({
-                                    ...edgeVisibility,
-                                    new: checked as boolean,
-                                })
-                            }
+                            checked={showOnlyNewEdges}
+                            onCheckedChange={setShowOnlyNewEdges}
                         />
                     </div>
                     <div className="flex justify-between items-center">
@@ -75,24 +74,17 @@ const ViewVisibilityCard = ({
 
                         <Checkbox
                             id="edge-all"
-                            checked={Object.keys(edgeVisibility).every(
-                                (key) => {
-                                    return key === "new"
-                                        ? true
-                                        : edgeVisibility[key];
-                                },
-                            )}
+                            checked={
+                                Object.keys(relationshipVisibility)
+                                    .every(key => relationshipVisibility[key] === true)
+                            }
                             onCheckedChange={(checked) => {
-                                const newEdgeVisibility = Object.keys(
-                                    edgeVisibility,
-                                ).reduce(
-                                    (acc, key) => {
-                                        acc[key] = checked as boolean;
-                                        return acc;
-                                    },
-                                    {} as Record<string, boolean>,
-                                );
-                                onEdgeVisibilityChange(newEdgeVisibility);
+                                if(checked === "indeterminate") {
+                                    toggleAllRelationshipVisible(false);
+                                }
+                                else {
+                                    toggleAllRelationshipVisible(checked);
+                                }
                             }}
                         />
                     </div>
@@ -117,13 +109,15 @@ const ViewVisibilityCard = ({
 
                             <Checkbox
                                 id={`edge-${key.toLowerCase()}`}
-                                checked={edgeVisibility[key]}
-                                onCheckedChange={(checked) =>
-                                    onEdgeVisibilityChange({
-                                        ...edgeVisibility,
-                                        [key]: checked as boolean,
-                                    })
-                                }
+                                checked={relationshipVisibility[key]}
+                                onCheckedChange={(checked) => {
+                                    if(checked === "indeterminate") {
+                                        toggleRelationshipVisible(key, false);
+                                    }
+                                    else {
+                                        toggleRelationshipVisible(key, checked);
+                                    }
+                                }}
                             />
                         </div>
                     ))}
@@ -147,20 +141,17 @@ const ViewVisibilityCard = ({
 
                         <Checkbox
                             id="team-all"
-                            checked={Object.values(teamVisibility).every(
-                                (v) => v,
-                            )}
+                            checked={
+                                Object.values(teamVisibility)
+                                    .every((v) => v === true)
+                            }
                             onCheckedChange={(checked) => {
-                                const newTeamVisibility = Object.keys(
-                                    teamVisibility,
-                                ).reduce(
-                                    (acc, key) => {
-                                        acc[key] = checked as boolean;
-                                        return acc;
-                                    },
-                                    {} as Record<string, boolean>,
-                                );
-                                onTeamVisibilityChange(newTeamVisibility);
+                                if(checked === "indeterminate") {
+                                    toggleAllTeamsVisible(false);
+                                }
+                                else {
+                                    toggleAllTeamsVisible(checked);
+                                }
                             }}
                         />
                     </div>
@@ -185,12 +176,14 @@ const ViewVisibilityCard = ({
                             <Checkbox
                                 id={`team-${key.toLowerCase()}`}
                                 checked={teamVisibility[key]}
-                                onCheckedChange={(checked) =>
-                                    onTeamVisibilityChange({
-                                        ...teamVisibility,
-                                        [key]: checked as boolean,
-                                    })
-                                }
+                                onCheckedChange={(checked) => {
+                                    if(checked === "indeterminate") {
+                                        toggleTeamVisible(key, false);
+                                    }
+                                    else {
+                                        toggleTeamVisible(key, checked);
+                                    }
+                                }}
                             />
                         </div>
                     ))}
@@ -208,20 +201,17 @@ const ViewVisibilityCard = ({
 
                     <Checkbox
                         id="character-all"
-                        checked={Object.values(characterVisibility).every(
-                            (v) => v,
-                        )}
+                        checked={
+                            Object.values(characterVisibility)
+                                .every((v) => v)
+                            }
                         onCheckedChange={(checked) => {
-                            const newCharacterVisibility = Object.keys(
-                                characterVisibility,
-                            ).reduce(
-                                (acc, key) => {
-                                    acc[key] = checked as boolean;
-                                    return acc;
-                                },
-                                {} as Record<string, boolean>,
-                            );
-                            onCharacterVisibilityChange(newCharacterVisibility);
+                            if(checked === "indeterminate") {
+                                toggleAllCharactersVisible(false);
+                            }
+                            else {
+                                toggleAllCharactersVisible(checked);
+                            }
                         }}
                     />
                 </div>
@@ -250,12 +240,14 @@ const ViewVisibilityCard = ({
                         <Checkbox
                             id={`character-${key.toLowerCase()}`}
                             checked={characterVisibility[key]}
-                            onCheckedChange={(checked) =>
-                                onCharacterVisibilityChange({
-                                    ...characterVisibility,
-                                    [key]: checked as boolean,
-                                })
-                            }
+                            onCheckedChange={(checked) => {
+                                if(checked === "indeterminate") {
+                                    toggleCharacterVisible(key, false);
+                                }
+                                else {
+                                    toggleCharacterVisible(key, checked);
+                                }
+                            }}
                         />
                     </div>
                 ))}

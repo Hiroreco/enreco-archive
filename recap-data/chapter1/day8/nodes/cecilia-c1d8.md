@@ -8,7 +8,7 @@ Not long after, Gonathon and Ina approached Cecilia to ask if the library had an
 
 Only later, after receiving explanations from the others and seeing the corruption firsthand, did Cecilia start to grasp its nature. Instead of being scared or sad that her friends were succumbing to it, Cecilia was... upset. Upset that she still didn’t fully understand what was so bad about the corruption.
 
-Sure, it was destroying crops, which might be a problem, but it didn’t seem like the end of the world. More importantly, Koseki Bijou—the princess—was at the center of the corruption. This revelation threw a wrench into Cecilia’s plan. If the princess’s mind was already under the control of the stain on her head, Cecilia’s efforts to control her might be [pointless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=2080).
+Sure, it was destroying crops, which might be a problem, but it didn’t seem like the end of the world. More importantly, Koseki Bijou—the princess—was at the center of the corruption. This revelation threw a wrench into Cecilia’s plan. If the princess’s mind was already under the control of the Stain on her head, Cecilia’s efforts to control her might be [pointless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=2080).
 
 Still, she pressed on. With Fauna's assistance, the ritual was completed, and the special cake needed for the plan was ready.
 

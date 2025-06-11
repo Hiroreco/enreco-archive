@@ -4,7 +4,7 @@ const ViewInfoGeneral = () => {
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on May 23rd, 2025 (Tweaked Day 1's cards)
+                    Updated on June 10th, 2025 (Fixed/Updated Chapter 2 Recaps)
                 </span>
             </div>
             <div>
@@ -84,8 +84,7 @@ const ViewInfoGeneral = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span className="font-bold">@hiroavrs</span>
-                    X/Twitter
+                    <span className="font-bold">@hiroavrs (X/Twitter)</span>
                 </a>{" "}
                 or send an email to{" "}
                 <a href="mailto:hiroreco@gmail.com">

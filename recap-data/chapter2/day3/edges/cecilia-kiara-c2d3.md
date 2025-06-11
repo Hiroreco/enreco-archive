@@ -1,6 +1,9 @@
 <!-- title: Still Siblings Right? -->
 
-Cecilia then departs to meet her cousin after making promises with Jonathan. Karia is confused about the situation between her and Cecilia because Karia believed that there was something between [her and Cecilia](https://www.youtube.com/watch?v=Icdii90_vSA&t=6620s). 
+Cecilia set off to meet her cousin Shakira after making promises to Gonathon. Shakira, puzzled by the situation, sensed a connection between herself and Cecilia, believing something unspoken lingered between them.
 
+[I may or may not be into you](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=6620s)
 
-They have a private conversation in the corner where proclaims Cecilia that she was so happy about the roses but her heart was intent on the Princess and she couldn’t see the tree from the forest. Cecilia says that there might be two places in heart, one for Kaira and Cecilia.
+Apparently Shakira had feelings for her cousin...yeah...yikes. She even went so far as to ask Gonathon to pair her with the green one. In a kingdom where rumors of inbreeding swirled, this revelation was, surprisingly, less shocking than it might have been.
+
+In a quiet corner, they shared a private conversation. Cecilia admitted she cherished the roses Shakira gave her, but her heart was set on Princess Iphania. Yet, with a tender pause, she confessed there might be room in her heart for two—Shakira and Iphania.

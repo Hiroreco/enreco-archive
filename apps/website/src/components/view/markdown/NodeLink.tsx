@@ -5,7 +5,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { ReactNode, useCallback, useContext } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
-import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
+import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
 
 export type NodeLinkClickHandler = (targetNode: ImageNodeType) => void;
 
@@ -20,13 +20,13 @@ export default function NodeLink({
     children,
     onNodeLinkClick,
 }: NodeLinkProps) {
-    const { nodes } = useContext(CurrentChartDataContext);
+    const { nodes } = useContext(CurrentDayDataContext);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const node = nodes.find(n => n.id === nodeId);
+    const node = nodes.find((n) => n.id === nodeId);
 
     const nodeLinkHandler = useCallback(() => {
         if (node && !node.hidden) {
@@ -36,22 +36,18 @@ export default function NodeLink({
 
     // Make the link's color the same as the node's
     // Not sure about this one, might remove.
-    const style = node?.style;
-    let nodeColor = "#831843";
-    if (style && style.stroke) {
-        nodeColor = getLighterOrDarkerColor(
-            style.stroke,
-            isDarkMode ? 30 : -30,
-        );
+    let nodeColor = node?.data.bgCardColor;
+    if (nodeColor) {
+        nodeColor = getLighterOrDarkerColor(nodeColor, isDarkMode ? 30 : -30);
     }
 
     return (
-        <button
-            className="like-anchor underline underline-offset-2"
+        <span
+            className="font-semibold cursor-pointer underline underline-offset-2"
             style={{ color: nodeColor }}
             onClick={nodeLinkHandler}
         >
-            <span className="font-semibold">{children}</span>
-        </button>
+            {children}
+        </span>
     );
 }

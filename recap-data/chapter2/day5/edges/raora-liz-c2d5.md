@@ -1,23 +1,25 @@
-<!-- title: Who's a Pretty Kitty, You are! -->
+<!-- title: Who's a Pretty Kitty, You Are! -->
 
-There was something familiar about Lady Elizabeth Bloodflame. Is it her strength? Her alluring beauty?
+There was something familiar about Lady Elizabeth Bloodflame. Was it her strength? Her alluring beauty?
 
-"Hello, Pretty Kitty!"
+["Hello, Pretty Kitty!"](#embed:https://www.youtube.com/live/iWSC8XgRlqA?si=Zpq39tm7nn4HhoSh&t=1159)
 
-Soft hands tenderly patted her head. As Lady Elizabeth's laugh softly rang in Roa's ears.
+Soft hands tenderly patted her head as Lady Elizabeth's laugh softly rang in Roa's ears.
 
-Or is it her kindness that attracts Roa to her?
+Or was it her kindness that attracted Roa to her?
 
-After the warm greeting, Roa watched the Red Knight approach The Gacharms shop, inquiring about the charms they sell and what would they advise for her to us. There's a sense of pride Roa felt as she watched Bijou handles the deal.
+After the warm greeting, Roa watched the Red Knight approach the Gacharms shop, inquiring about the charms they sell and what they would advise her to use. There was a sense of pride Roa felt as she watched Bijou handle the deal.
 
-The Knight would only grow stronger from their charms. Roa admired Elizabeth's strength since she could dream to be as strong as her.
+The Knight grew stronger from their charms. Roa admired Elizabeth's strength since she could only dream of being as strong as she was.
 
-Elizabeth would humbly wave Roa's compliment, pointing that Roa's brains was quite helpful in the dungeon the other day.
+Elizabeth would humbly brush off Roa's compliment, pointing out that Roa herself was quite helpful in the dungeon the other day.
 
-Pleased by the compliment, Roa would watch the humble Knight leave. 
+Pleased by the compliment, Roa watched the Knight leave. The whole segment, however, got the furry pink's heart all flusterd.
 
-But it seems Elizabeth is popular;  Roa watched her and Nerissa in the distance, her god-eyes sparking as she spied the two converse. Jealousy sparked when Bijou mentioned Roa shouldn't leave the two alone. Though Elizabeth seemed to avoid looking at Nerissa, it doesn't change the way Nerissa searches for Elizabeth.
+[I think I like her](#embed:https://www.youtube.com/live/iWSC8XgRlqA?si=KI1pvMw54VuDuizS&t=1493)
 
-Roa might be a pretty kitty, but she is a persistant panther too, soon buying gifts and leaving them in Elizabeth's room.
+But it seemed Elizabeth was popular; Roa [watched](https://www.youtube.com/live/iWSC8XgRlqA?si=wEybCi_1CNOe_S9x&t=2717) her and Nerissa in the distance, her god-eyes sparking as she spied on the two converse. Jealousy sparked when Bijou mentioned Roa shouldn't leave the two alone. Though Elizabeth seemed to avoid looking at Nerissa, it didn't change the way Nerissa searched for Elizabeth.
+
+Roa might be a pretty kitty, but she was a persistent panther too, soon buying gifts and leaving them in Elizabeth's room.
 
 Only time will tell if she can make The Red Knight hers.

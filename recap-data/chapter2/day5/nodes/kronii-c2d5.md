@@ -6,9 +6,9 @@ And so, using her newly regained memories to her unfair advantage, the Queen did
 
 The plot thickened when Roa, Queen Tam, and the Hot Pink One (yes, the very same one Queen Tam began having a secret affair with the other day—and who just so happens to be Roa’s master, as Roa was her pet) decided to [team up for the day’s dungeon](https://youtu.be/PukMnVXnJMo?t=5771) again in search of treasure. The Queen was quite literally playing a dangerous game by juggling two women at the same time.
 
-It went about as well as you’d expect: chaotic, emotionally confusing, and infinitely frustrating as they were forced to do the dungeon over and over due to failing to acquire the treasure in it, which required a certain amount of luck, and all while leaving a trail of drama in its wake (see [Roa-Kronii](#edge:kronii-raora)).
+It went about as well as you’d expect: chaotic, emotionally confusing, and infinitely frustrating, as they were forced to do the dungeon over and over due to failing to acquire the treasure in it, which required a certain amount of luck, and all while leaving a trail of drama in its wake (see [Roa-Kronii](#edge:kronii-raora)).
 
-Above all else, the humiliation that befell the Queen on this day reached heights—or depths— that even shook her own Humble Knight, Gonathon (see [Gigi-Kronii](#edge:kronii-gigi)).
+Above all else, the humiliation that befell the Queen on this day reached heights—or depths—that even shook her own Humble Knight, Gonathon (see [Gigi-Kronii](#edge:kronii-gigi)).
 
 Before the day could properly end, the ongoing drama with the Hot Pink One escalated to the point of her jumping off a cliffside, even as Queen Tam, Gonathon, and Bijou tried to stop her from doing so (see [Kronii-IRyS: Abdomen Pain](#edge:irys-kronii)).
 

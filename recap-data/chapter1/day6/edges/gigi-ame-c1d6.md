@@ -4,38 +4,38 @@ The love story between Gonathon and Jyonathan was a sweet one. From enemies accu
 
 At the start of the day, Jyonathan (accidentally) saved her husband from being trapped by Elizabeth. The blonde heard his cry for help and acted immediately, instinctively protecting him.
 
-[Thank you my Pearl!](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=238)
+[Thank you my Pearl!](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=238)
 
-Later, Gonathon pulled his wife aside for a private conversation regarding the strange behaviors of various members, specifically Koseki Bijou, whom he suspected had a living Stain controlling her mind. Jyonathan agreed and took it upon herself to investigate the [situation](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=4034).
+Later, Gonathon pulled his wife aside for a private conversation regarding the strange behaviors of various members, specifically Koseki Bijou, whom he suspected had a living Stain controlling her mind. Jyonathan agreed and took it upon herself to investigate the [situation](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4034).
 
-The two were determined to figure things out, trying to talk to Bijou, questioning her, even asking her to take off her hat, but the more they sought answers, the more confusing the situation [became](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=4887). They decided to set it aside for now.
+The two were determined to figure things out, trying to talk to Bijou, questioning her, even asking her to take off her hat, but the more they sought answers, the more confusing the situation [became](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4887). They decided to set it aside for now.
 
 Throughout all this, it was clear how close the two were. They cared for each other, watched each other’s backs, and always helped whenever one needed anything. It was a beautiful relationship, and moments like these reminded Gonathon how grateful he was to have such a companion. He was loyal to his queen, but he did not wish to abandon his Pearl either.
 
-[Anything for you, my Pearl](#embed:https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=4987)
+[Anything for you, my Pearl](#embed:https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4987)
 
-As he reminisced about how crazy the journey had been, he thought about writing a [book](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=7660)—a book about the people he’d met, the adventures he’d gone on, and most importantly, his beloved. A book about how he hoped everything would stay the same.
+As he reminisced about how crazy the journey had been, he thought about writing a [book](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=7660)—a book about the people he’d met, the adventures he’d gone on, and most importantly, his beloved. A book about how he hoped everything would stay the same.
 
-A book about how he wished things would never change....
+A book about how he wished things would never change...
 Jyonathan went on to complete the final dungeon, and from that conquest, she remembered who she was.
 Her name wasn’t Jyonathan, nor was she some lunatic who wanted to kill the king. She was Amelia Watson, the number one detective. She remembered everything—her past friends, her accomplishments, her legacy, everything that made her the person she was.
 But in return, she forgot something, or rather, someone, someone near and dear to her. A tradeoff many would deem cruel.
 
-
-[And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=5989)
+[And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=5989)
 
 Amelia had forgotten about her dear husband, Gonathon.The revelation stunned the knight, but only for a mere moment. He had expected such an outcome the day before. And so, instead of breaking down, instead of grieving, instead of bawling his eyes out, Gonathon stood firm and wished Amelia the best in her endeavors. He saw it as the right thing to do, to let her go her own way and not force her to stay where she no longer belonged.
 
-
 It was a powerful moment, and with his emotions heavy, Gonathon made his decision. He would write the book he had been meaning to write.
 
-[A Knight's Tale](#embed:https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=9754)
+[A Knight's Tale](#embed:https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=9754)
+
+[Read "A Knight's Tale"](#text:a-knights-tale)
 
 Later on, during the tournament, something peculiar happened.
 
-While watching the duels, something stirred within Amelia—something about the way Gonathon fought, his might, his will, his determination for victory. It faintly reminded her of something she had lost, something she had [forgotten](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=8801). Others noticed it and tried to push the recollection [further](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=9236).
+While watching the duels, something stirred within Amelia—something about the way Gonathon fought, his might, his will, his determination for victory. It faintly reminded her of something she had lost, something she had [forgotten](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=8801). Others noticed it and tried to push the recollection [further](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=9236).
 
-At one point, Amelia remembered a diamond, but it was still too foggy. Her head hurt, and she struggled to grasp what it was she was trying to recall. It was important, she felt, but no matter how hard she tried, she couldn’t remember.Amelia decided it would be best to rest for now, yet that aching in her head [persisted](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=9730).
+At one point, Amelia remembered a diamond, but it was still too foggy. Her head hurt, and she struggled to grasp what it was she was trying to recall. It was important, she felt, but no matter how hard she tried, she couldn’t remember.Amelia decided it would be best to rest for now, yet that aching in her head [persisted](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=9730).
 
 [A Knight's Tale by Raff Yasushi](https://x.com/raffanda_/status/1832103922015822089)
 

@@ -6,7 +6,7 @@ Before he could delve into the mystery, Gonathon joined Kiara, Raora, Nerissa, a
 
 Returning to the kingdom, Gonathon resumed his investigation. Within his guild’s territory, he discovered something alarming—corrupted blocks had appeared in a corner of the land, accompanied by a sinister sign that read: [*"May chaos take the world".*](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=1759) This discovery only deepened the mystery, and Gonathon began to piece together the puzzle.
 
-Given that only guild members could build on his land, suspicion naturally fell on his peers. Queen Tam was above reproach, and Ina wasn’t the type for such antics. This left two potential suspects: the Hot Pink One and Koseki Bijou. The latter’s behavior had been peculiar lately, and her hat—a strange, stain-like accessory—only added to Gonathon’s unease.
+Given that only guild members could build on his land, suspicion naturally fell on his peers. Queen Tam was above reproach, and Ina wasn’t the type for such antics. This left two potential suspects: the Hot Pink One and Koseki Bijou. The latter’s behavior had been peculiar lately, and her hat—a strange, Stain-like accessory—only added to Gonathon’s unease.
 
 Seeking answers, Gonathon confronted Bijou and requested that she remove the hat to prove it was merely an accessory. To his frustration, Bijou refused, offering a litany of excuses that only fueled his suspicions.
 

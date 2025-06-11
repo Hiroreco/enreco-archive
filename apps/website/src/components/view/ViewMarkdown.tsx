@@ -6,10 +6,9 @@ import NodeLink, {
     NodeLinkClickHandler,
 } from "@/components/view/markdown/NodeLink";
 import TimestampHref from "@/components/view/markdown/TimestampHref";
-import { getBlurDataURL, urlToLiveUrl } from "@/lib/utils";
+import { urlToLiveUrl } from "@/lib/utils";
 
 import { Element, ElementContent, Text } from "hast";
-import Image from "next/image";
 import { memo, useMemo } from "react";
 import Markdown, { Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -17,7 +16,9 @@ import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
+import ViewLightbox from "@/components/view/ViewLightbox";
 import "@/components/view/ViewMarkdown.css";
+import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 /*
@@ -235,13 +236,11 @@ function ViewMarkdownInternal({
                     throw new Error("We don't support Blobs right now.");
                 }
                 return (
-                    <Image
+                    <ViewLightbox
                         src={src}
                         alt={alt}
                         width={1600}
                         height={900}
-                        placeholder="blur"
-                        blurDataURL={getBlurDataURL(src)}
                     />
                 );
             },
@@ -309,11 +308,16 @@ function ViewMarkdownInternal({
                             type="general"
                         />
                     );
+                } else if (href && href.startsWith("#text:")) {
+                    const textId = href.replace("#text:", "");
+                    const label = children as string;
+                    return <ViewTextModal textId={textId} label={label} />;
                 } else {
                     return (
                         <a
                             href={href}
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="font-semibold text-[#6f6ac6]"
                         >
                             {children}

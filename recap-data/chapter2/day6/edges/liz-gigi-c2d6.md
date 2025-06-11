@@ -16,4 +16,4 @@ While Gonathon assisted Immerkind with her troubles (see [Cecilia-Gonathon: The 
 
 Gonathon now stood very conflicted. On the one hand, she deeply trusted her fellow knight and saw no reason why she would falsely accuse Shiori. But on the other hand, she could not bring herself to suspect Shiori, and could not help but question exactly what Liz was up to and why she only had a single bed for her LOO. Gonathon, Tam Gandr, and Immerkind all agreed to [confront](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=12902s) Liz and determine once and for all what motivated the stalwart knight’s heart. 
 
-[Immerkind has an...interesting theory](#embed:https://www.youtube.com/watch?v=p5xrAxTh8ho&t=12645s)
+[Immerkind has an... interesting theory](#embed:https://www.youtube.com/watch?v=p5xrAxTh8ho&t=12645s)

@@ -2,7 +2,7 @@ Only minutes after waking up in the mysterious white box, the individual clad in
 
 [Gonathon with a G](#embed:https://www.youtube.com/live/y9KKa_k2VTU?si=wZsW1DBJimIdz-06\&t=607)
 
-An important detail about Gonathon: *he* (at least for the time being) identifies as a knight, and his weapon of choice was a pair of metal fists, or the [Gremlin Grenade](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=3085), which unleashes devastating explosions when activated.
+An important detail about Gonathon: *he* (at least at the time) identified as a knight, and his weapon of choice was a pair of metal fists, or the [Gremlin Grenade](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=3085), which unleashed devastating explosions when activated.
 
 Gonathon was sorted into the Cerulean Cup guild, known for its spirit of empathy, along with four other members. However, the harmonious image didn’t last long. Tensions flared when their rival guild, the Amber Coin, attempted to [kidnap](https://www.youtube.com/live/y9KKa_k2VTU?si=xE2vDkSE0e1yKT_w\&t=5565) one of Cerulean Cup’s own, the so-called Hot Pink One. This act of aggression led the Cerulean Cup members to unanimously declare Amber Coin as their worst enemy. Fortunately, our empaths eventually managed to retrieve their guildmate.
 
@@ -14,6 +14,6 @@ He also grew visibly agitated when Elizabeth, one of Jade Sword's members, refer
 
 Gonathon's first day wasn’t entirely marked by screams and tears. Many of the people he encountered treated him kindly, especially his guildmates. One person, however, stood out above all the rest. She wasn’t just any ordinary individual—she was destined to become the next Queen of this new kingdom. Moved by a sense of honor and purpose, Gonathon vowed his loyalty to her (see [Gonathon-Tam: You're the Queen!](#edge:gigi-kronii)).
 
-Eventually, alongside Elizabeth Rose Bloodflame and Nino Ina, he ventured into the *Underworld Dungeon*. Together, they recovered memories tied to [Mori Calliope](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=12343), taking their first steps in unraveling the mysteries of their fragmented pasts.
+Eventually, alongside Elizabeth Rose Bloodflame and NinoIna, he ventured into the *Underworld Dungeon*. Together, they recovered memories tied to [Mori Calliope](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=12343), taking their first steps in unraveling the mysteries of their fragmented pasts.
 
 ["The Humble Knight" by Hyoweii](https://x.com/weiiyxn/status/1902360036522991650)

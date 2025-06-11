@@ -12,12 +12,12 @@ Undeterred by the backlash, Calli pressed on, coming up with a catchy slogan: ["
 
 Later in the day, Calli joined a team to tackle the *Ocean Temple Dungeon*. Her group included Nerissa, Jyon, and Ina. Together, they racked their brains to solve the dungeon’s puzzles and eventually succeeded, recovering the memories of [Gawr Gura](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=5368).
 
-As they emerged from the dungeon, Calli witnessed yet another impulsive wedding—this time between Ina and the Hot Pink One. While the rest of the group celebrated the union, Calli quietly smirked. She wasn’t cheering for their happiness but for the potential future customers her business might attract. ["They all start off so naive"](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=5828), she mused as the newlyweds declared their eternal love. By now, Calli had a fitting name for her establishment:
+As they emerged from the dungeon, Calli witnessed yet another impulsive wedding—this time between Ina and the Hot Pink One. While the rest of the group celebrated the union, Calli quietly smirked. She wasn’t cheering for their happiness but for the potential future customers her business might attract. ["They all start off so naive,"](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=5828) she mused as the newlyweds declared their eternal love. By now, Calli had a fitting name for her establishment:
 
 [*"Until Death Do You Part."*](#embed:https://www.youtube.com/live/oPKmSO7XtoY?t=5879)
 
 Back in the kingdom, Calli resumed the diner’s construction. At some point, she received a [prank call](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=8313) from Bijou, likely in retaliation for her constant jabs about Shiori and Bijou’s marriage falling apart.
 
-Reflecting on her new venture, Calli began to reconsider its premise. The harsh reception from the kingdom’s couples made her realize that her idea might be a little too cruel. As Calli had the revelation, she decided to revise her business model. She'd no longer be selling any kind of divorce services...instead, they'd come free with any meal purchased, [free of charge](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=8229). Oh, Calli.
+Reflecting on her new venture, Calli began to reconsider its premise. The harsh reception from the kingdom’s couples made her realize that her idea might be a little too cruel. As Calli had the revelation, she decided to revise her business model. She'd no longer be selling any kind of divorce services... instead, they'd come free with any meal purchased, [free of charge](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=8229). Oh, Calli.
 
 Calli held great hopes for her diner’s future. Love, after all, often ends in heartbreak, and when it did, she knew people would come for the divorces and stay for the food.

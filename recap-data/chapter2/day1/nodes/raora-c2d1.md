@@ -1,15 +1,21 @@
-Rao Pandora enters the job hall where she eagerly accepts the job of [jeweler](https://www.youtube.com/live/zmRDeC_aJUM?si=jFDNWI_EmN9S-nyd&t=1890). She continues exploring the castle where she engages in conversation with other Shining Stars like Fuwawa, Mococo, Princess Bijou, and others. She takes Mococo and Princess Bijou under her wing as they seek to make a business together. They then depart for the Remnants in order to secure resources for their business venture.
+Roa Pandora enters the job hall, where she eagerly accepts the job of [jeweler](https://www.youtube.com/live/zmRDeC_aJUM?si=jFDNWI_EmN9S-nyd&t=1890). She continues exploring the castle where she engages in conversation with other Shining Stars like Fuwawa, Mococo, Princess Bijou, and others. She takes Mococo and Princess Bijou under her wing as they seek to start a business together. They then depart for the Remnants in order to secure resources for their business venture.
+
+A business that will stand as the most well-known store in the kingdom, one that capitalizes on gacha, one that will have customers emptying their pockets for the goods. They call it: _Garcharm_.
 
 [Making money!](#embed:https://www.youtube.com/live/zmRDeC_aJUM?t=4400s)
 
-Rao runs into Lady Bloodflame who calls her "Queen Mario" sending Rao into a deep moment of contemplation. Mococo attempts to comfort Rao with headpats to help her feel better. Bijou also checks in on her boss from her crash out.
+Roa later runs into Lady Bloodflame, who calls her "Queen Mario," sending her into a deep moment of contemplation. Mococo attempts to comfort Roa with headpats to help her feel better. Bijou also checks in on her boss from her crash out.
 
 [M A R I O](#embed:https://www.youtube.com/live/zmRDeC_aJUM?t=4844s)
 
-Raora continues to engage with Lady Bloodflame, she is curious about the [mysterious air](https://www.youtube.com/live/zmRDeC_aJUM?si=lv4_37Z3C-neG7Fs&t=6615) about her and the knowledge of her past. After Rao departs, she receives a call from Bijou who tells her a very important [business proposition](https://www.youtube.com/live/zmRDeC_aJUM?si=FyLgQ_zBtSf6EpCZ&t=7104).
+She continues to engage with Lady Bloodflame, curious about the [mysterious air](https://www.youtube.com/live/zmRDeC_aJUM?si=lv4_37Z3C-neG7Fs&t=6615) about her and the knowledge of her past. After Roa departs, she receives a call from Bijou, who tells her about a very important [business proposition](https://www.youtube.com/live/zmRDeC_aJUM?si=FyLgQ_zBtSf6EpCZ&t=7104).
 
-Rao, Bijou, and Mococo begin to sell their wares to various people as their wares are in demand but their business model as they try to bring NinoIna in their business. They [haggle](https://www.youtube.com/live/zmRDeC_aJUM?t=10740s) a price in order to bring her on board at the cost of becoming broke.
+Roa, Bijou, and Mococo begin to sell their wares to various people, as demand is high—even though their business model is questionable. They also try to rope NinoIna into their monopoly. They [haggle](https://www.youtube.com/live/zmRDeC_aJUM?t=10740s) over a price to bring her on board—at the cost of going broke.
 
-Rao concludes her day with a heart felt call with her employee Bijou.
+Roa concludes her day with a heartfelt call with her employee Bijou.
 
 [Farewell](#embed:https://www.youtube.com/live/zmRDeC_aJUM?si=czHTmms2vxXnctbm)
+
+## Fanart
+
+["Raora" by kit](https://x.com/quartzquadrant/status/1902200030980649355)

@@ -10,7 +10,6 @@ With a laugh and praise, Elizabeth initiated a trade, passing over the [gorgeous
 
 ---
 
-
 **A NOBLE KNIGHT'S STAY**
 
 With victory achieved and a loss gained, there are talks of the Knight’s Suite as a prize for a sparring tournament. The very gift Nerissa secretly gave to Elizabeth. But it becomes painfully evident that Elizabeth has no idea the size of this room or that it’s not a room intended for sparring.
@@ -39,7 +38,6 @@ Or perhaps the danger is right before the knight. Reflected in red eyes and odd 
 
 ---
 
-
 **VERUM VOLUMEN**
 
 What exactly were their past identities? Their previous relationship? If Elizabeth was so insistent on Nerissa being a witch, was she actually one? Had Nerissa done something evil to the knight, so that her hatred transcended along with her in the present?
@@ -52,17 +50,28 @@ The contents of the scroll told of a tale of a Knight and a Ravened one; the Kni
 
 Troubled by such a story, she [called](https://youtu.be/-BFf3e6YJwY?t=13185) upon Lady Bloodflame, perhaps to inquire if she remembered any of it… if there was any truth to it. The fair knight, having received the call, made haste and read the same words written in the scroll.
 
-Confused, she denied it was factual and accused Shiori of telling lies. Indeed, there was no way she could do such a thing to her, could she? Even Nerissa believed she was a kind knight– a soldier of justice. She would make sure a just and fair trial had been put into place before she could pass judgment, surely? 
+Confused, she denied it was factual and accused Shiori of telling lies. Indeed, there was no way she could do such a thing to her, could she? Even Nerissa believed she was a kind knight– a soldier of justice. She would make sure a just and fair trial had been put into place before she could pass judgment, surely?
 
-The two hoped it was just make-believe... a figment of Shiori of the Nyavella’s imagination. 
+The two hoped it was just make-believe... a figment of Shiori of the Nyavella’s imagination.
 
 ---
-
 
 **THE OMEN**
 
 Overall, it had been quite a fun day… as they were able to spend time together and rekindle their relationship. Partly oblivious to the truth, they [slept](https://youtu.be/-BFf3e6YJwY?t=16262) the night together in Elizabeth’s quarters. The morrow shall be a good one…
 
-… Yet there lay the ominous books behind the portrait of the “witch”... seemingly foreboding of death and loss.
+…Yet there lay the ominous books behind the portrait of the “witch”... seemingly foreboding of death and loss.
 
-Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have yet to find out….
+Was it a prophecy? Or a retelling of the past? A mere fiction perhaps? We have yet to find out…
+
+## Fanart
+
+["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
+
+["Villain" by Keisea](https://x.com/Keiseeaaa/status/1923701440473858538)
+
+["Witch 2/3" by Kayrii](https://x.com/VulpusKayrii/status/1921056104634622391)
+
+["How to woo a witch 101" by Keisea](https://x.com/Keiseeaaa/status/1832856628850491716)
+
+["A kinder fate" by Cress](https://x.com/CressentiaQin/status/1924078500727955647)

@@ -1,4 +1,4 @@
-<!-- title: Enemies To Lovers -->
+<!-- title: Enemies to Lovers -->
 
 Enemies to lovers—if I had a nickel for every time two people went from absolutely hating each other to somehow getting married, I'd have two nickels. Which isn’t a lot, but it’s weird that it happened twice.
 

@@ -1,4 +1,4 @@
-Corruption. It was all Bijou could think about. This sinister side of her hadn’t surfaced since she joined the kingdom—until she donned the hat. A seemingly innocuous accessory, the hat resembled a stain, but this resemblance was no coincidence. It wasn’t just a symbol; it was alive. The stain atop her head began to take over her mind and actions.
+Corruption. It was all Bijou could think about. This sinister side of her hadn’t surfaced since she joined the kingdom—until she donned the hat. A seemingly innocuous accessory, the hat resembled a Stain, but this resemblance was no coincidence. It wasn’t just a symbol; it was alive. The Stain atop her head began to take over her mind and actions.
 
 [Princess of the Stains](#embed:https://www.youtube.com/embed/8frv4avuyl8?si=1o2GsUu_IvpfxnZn\&start=217)
 

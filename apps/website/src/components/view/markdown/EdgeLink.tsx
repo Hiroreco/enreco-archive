@@ -1,5 +1,5 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
-import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
+import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
 import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
@@ -20,13 +20,13 @@ export default function EdgeLink({
     children,
     onEdgeLinkClick,
 }: EdgeLinkProps) {
-    const { edges } = useContext(CurrentChartDataContext);
+    const { edges } = useContext(CurrentDayDataContext);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const edge = edges.find(e => e.id === edgeId);
+    const edge = edges.find((e) => e.id === edgeId);
 
     const edgeLinkHandler = useCallback(() => {
         if (edge && !edge.hidden) {
@@ -54,12 +54,12 @@ export default function EdgeLink({
     }
 
     return (
-        <button
-            className="like-anchor underline underline-offset-2"
+        <span
+            className="font-semibold cursor-pointer underline underline-offset-2"
             style={{ color: edgeColor }}
             onClick={edgeLinkHandler}
         >
-            <span className="font-semibold">{label}</span>
-        </button>
+            {label}
+        </span>
     );
 }

@@ -1,6 +1,8 @@
-A New Start for a Weary Heart
+**A New Start for a Weary Heart**
 
-The day started like any other, with Gonathon doing the rounds and visiting his companions. However, upon arriving at Shiori’s home, the humble knight was met with a [sobering discovery](https://youtu.be/rDdbFYqcAyI?t=482): the witch he had grown close with now had no memories of him, and greeted Gonathon as a stranger. For most others, such a revelation would leave them numb or furious. But the humble knight responded only with a gentle greeting, along with a brief explanation of who he was. Perhaps somewhere deep in his mind, he recalled going through this situation before, and was used to it. Or maybe he accepted Shiori’s choice as justified. Whatever the reason, after a brief conversation with Bijou and Shiori, the melancholic knight learned that Mordan Ramsey had mistakenly purchased the book and hurried off to find her.
+The day started like any other, with Gonathon doing the rounds and visiting his companions. However, upon arriving at Shiori’s home, the humble knight was met with a [sobering discovery](https://youtu.be/rDdbFYqcAyI?t=482): the witch he had grown close with now had no memories of him, and greeted Gonathon as a stranger. For most others, such a revelation would leave them numb or furious. But the humble knight responded only with a gentle greeting, along with a brief explanation of who he was.
+
+Perhaps somewhere deep in his mind, he recalled going through this situation before, and was used to it. Or maybe he accepted Shiori’s choice as justified. Whatever the reason, after a brief conversation with Bijou and Shiori, the melancholic knight learned that Mordan Ramsey had mistakenly purchased the book and hurried off to find her.
 
 [To Gonathon: Ooopsies](#embed:https://www.youtube.com/watch?v=rDdbFYqcAyI&t=1177s)
 
@@ -16,9 +18,9 @@ Gathering with the other adventurers, Gonathon briefly talked with Peasant the B
 
 Returning triumphantly, Gonathon now faced his next quest: assisting Bae (see [Bae-Gonathon: A Bromance of Eternity Borne Under the Light of the New Moon](#edge:bae-gigi)). Directing Immerkind to the fated bridge, Gonathon listened in as Immerkind swiftly rejected Bae, leaving the brokenhearted peasant still clutching the flowers meant for the princess-obsessed doll. Upon realizing Bae intended to drown herself, the mortified Gonathon [leaped into action](https://youtu.be/rDdbFYqcAyI?t=6605), succumbing to the murky depths of the ocean with the peasant several times as he pleaded with her to reconsider. Finally seeing the light, Bae swore an oath of brotherhood with Gonathon, solidifying another stalwart bond the knight had built.
 
-[Today we rise...as brothers!](#embed:https://youtu.be/rDdbFYqcAyI?t=7101)
+[Today we rise... as brothers!](#embed:https://youtu.be/rDdbFYqcAyI?t=7101)
 
-Returning to the party site, Gonathon witnessed the voracious HPO demanding that Tam Gandr be the godparent of her expected spawnling (see [Gonathon-Irys: Even God's Can Bleed](#edge:irys-gigi)). Tam flatly refused, and the queen and Gonathon retreated to Mordan Ramsey's home to seek counsel and plan their next move (see [Gonathon-Kronii: Immortal Game](#edge:kronii-gigi)). After getting some words of wisdom from Mordan, including to simply slay HPO, the queen and her retainer returned to the raucous celebration.
+Returning to the party site, Gonathon witnessed the voracious Hot Pink One demanding that Tam Gandr be the godparent of her expected spawnling (see [Gonathon-Irys: Even God's Can Bleed](#edge:irys-gigi)). Tam flatly refused, and the queen and Gonathon retreated to Mordan Ramsey's home to seek counsel and plan their next move (see [Gonathon-Kronii: Immortal Game](#edge:kronii-gigi)). After getting some words of wisdom from Mordan, including to simply slay HPO, the queen and her retainer returned to the raucous celebration.
 
 [I must answer to my queen!](#embed:https://youtu.be/rDdbFYqcAyI?t=8982)
 
@@ -30,8 +32,12 @@ Once again alone, the humble knight finally read through the notes left by Shior
 
 [We will meet again!](#embed:https://youtu.be/rDdbFYqcAyI?t=9925)
 
-Alas, Gonathon's trials for the day were not yet over, for now he faced possibly his greatest struggle yet. At this moment, he received a call from Shiori in which the archiver revealed she had found the diaries of her past self that laid bare the traumatic experiences the two had endured in their brief relationship. It was here that Gonathon steeled himself and, rather than flee or make excuses as he had before, the humble knight charged straight in to confront Shiori. He explained to Shiori his side of the story and [lamented the way he had treated her](https://www.youtube.com/watch?v=rDdbFYqcAyI&t=11316s). Having seemingly righted the wrongs of the past, Gonathon thanked Shiori, and as the two parted for the day, Shiori gave a seemingly innocent farewell: "See you tomorrow."
+Alas, Gonathon's trials for the day were not yet over, for now he faced possibly his greatest struggle yet. At this moment, he received a call from Shiori in which the archiver revealed she had found the diaries of her past self that laid bare the traumatic experiences the two had endured in their brief relationship.
 
-With the primary adventures of the day behind him, Gonathon busied himself with tying up loose ends. He visited Bae, who was hard at work on decorating her house for her children, as well as Tam Gandr, who was now hatching [a new plan](https://www.youtube.com/watch?v=rDdbFYqcAyI&t=13105s) to get back at HPO. Seeing his friends full of vigor and determination, Gonathon reflected on his own trials but vowed to continue moving forward. After writing his daily journal, the humble knight turned in for the night. All that remained was one final day, and with the Curse destroyed, it would hopefully promise to be one of celebration and relaxation.
+It was here that Gonathon steeled himself and, rather than flee or make excuses as he had before, the humble knight charged straight in to confront Shiori. He explained to Shiori his side of the story and [lamented the way he had treated her](https://www.youtube.com/watch?v=rDdbFYqcAyI&t=11316s). Having seemingly righted the wrongs of the past, Gonathon thanked Shiori, and as the two parted for the day, Shiori gave a seemingly innocent farewell: "See you tomorrow."
 
-[The sun will always rise, the moon will always become full. That is a guarantee!](#embed:https://www.youtube.com/watch?v=rDdbFYqcAyI&t=14284s)
+With the primary adventures of the day behind him, Gonathon busied himself with tying up loose ends. He visited Bae, who was hard at work on decorating her house for her children, as well as Tam Gandr, who was now hatching [a new plan](https://www.youtube.com/watch?v=rDdbFYqcAyI&t=13105s) to get back at HPO. Seeing his friends full of vigor and determination, Gonathon reflected on his own trials but vowed to continue moving forward.
+
+After writing his daily journal, the humble knight turned in for the night. All that remained was one final day, and with the Curse destroyed, it would hopefully promise to be one of celebration and relaxation.
+
+[The sun will always rise](#embed:https://www.youtube.com/watch?v=rDdbFYqcAyI&t=14284s)

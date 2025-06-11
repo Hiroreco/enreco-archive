@@ -12,20 +12,19 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import {
-    ChartData,
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 interface ViewReadCounterProps {
     day: number;
     chapter: number;
-    chartData: ChartData;
+    nodes: ImageNodeType[];
+    edges: FixedEdgeType[];
+    readCount: number;
+    getReadStatus: (chapter: number, day: number, id: string) => boolean;
     hidden: boolean;
     onNodeClick?: (node: ImageNodeType) => void;
     onEdgeClick?: (edge: FixedEdgeType) => void;
@@ -34,12 +33,14 @@ interface ViewReadCounterProps {
 const ViewReadCounter = ({
     day,
     chapter,
-    chartData,
+    nodes,
+    edges,
+    readCount,
+    getReadStatus,
     hidden,
     onNodeClick,
     onEdgeClick,
 }: ViewReadCounterProps) => {
-    const [readCount, setReadCount] = useState(0);
     const [showRead, setShowRead] = useState(false);
     const [showUnread, setShowUnread] = useState(true);
     const [open, setOpen] = useState(false);
@@ -58,52 +59,39 @@ const ViewReadCounter = ({
         }
     };
 
-    // Get elements that belong to current day
-    const currentDayElements = useMemo(
-        () => [
-            ...chartData.nodes.filter((node) => node.data.day === day),
-            ...chartData.edges.filter((edge) => edge.data?.day === day),
-        ],
-        [chartData.nodes, chartData.edges, day],
-    );
-
-    const totalCount = currentDayElements.length;
-
-    useEffect(() => {
-        // Count read elements from current day
-        const count = currentDayElements.reduce((acc, element) => {
-            return element.data?.isRead ? acc + 1 : acc;
-        }, 0);
-
-        setReadCount(count);
-    }, [currentDayElements, day, chapter, hidden]);
-
-    // Get filtered elements
+    // Get filtered and only elements that match the current day.
     const filteredElements = useMemo(() => {
-        const filterNodes = chartData.nodes.filter((node) => {
-            if (node.data.day !== day) return false;
+        const filterNodes = nodes.filter((node) => {
+            const nodeReadStatus = getReadStatus(chapter, day, node.id);
             return (
-                (showRead && node.data.isRead) ||
-                (showUnread && !node.data.isRead)
+                node.data.day === day &&
+                ((showRead && nodeReadStatus) ||
+                    (showUnread && !nodeReadStatus))
             );
         });
 
-        const filterEdges = chartData.edges.filter((edge) => {
+        const filterEdges = edges.filter((edge) => {
             if (edge.data?.day !== day) return false;
+            const edgeReadStatus = getReadStatus(chapter, day, edge.id);
             return (
-                (showRead && edge.data.isRead) ||
-                (showUnread && !edge.data.isRead)
+                edge.data.day === day &&
+                ((showRead && edgeReadStatus) ||
+                    (showUnread && !edgeReadStatus))
             );
         });
 
         return { nodes: filterNodes, edges: filterEdges };
-    }, [chartData.nodes, chartData.edges, day, showRead, showUnread]);
+    }, [nodes, edges, getReadStatus, chapter, day, showRead, showUnread]);
+
+    const totalCount =
+        nodes.filter((n) => n.data.day === day).length +
+        edges.filter((e) => e?.data?.day === day).length;
 
     return (
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger
                 className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 opacity-60 bg-transparent border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground hover:opacity-100 transition-all w-[120px]",
+                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
                     {
                         invisible: hidden,
                         visible: !hidden,
@@ -150,7 +138,7 @@ const ViewReadCounter = ({
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="flex-1 overflow-y-auto w-full">
+                <div className="flex-1 overflow-y-auto w-full px-2">
                     {/* Nodes */}
                     {filteredElements.nodes.length > 0 && (
                         <div className="space-y-2">
@@ -218,14 +206,14 @@ const ViewReadCounter = ({
                                             <div className="relative h-10 w-10 shrink-0">
                                                 <Image
                                                     src={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.source,
                                                         )?.data.imageSrc || ""
                                                     }
                                                     alt={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.source,
@@ -238,14 +226,14 @@ const ViewReadCounter = ({
                                             <div className="relative h-10 w-10 shrink-0">
                                                 <Image
                                                     src={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.target,
                                                         )?.data.imageSrc || ""
                                                     }
                                                     alt={
-                                                        chartData.nodes.find(
+                                                        nodes.find(
                                                             (node) =>
                                                                 node.id ===
                                                                 edge.target,

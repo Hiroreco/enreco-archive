@@ -1,29 +1,23 @@
-Business seemed to be picking up at *Nibs 'n Nobs* today! There was also [intriguing fashion](https://youtu.be/vMdhvi8dHN4?t=895s) about the streets — perhaps today was going to be a pleasant day.
+Business was booming at Nibs 'n Nobs today! Who would've thought that an obsession with potato salad would actually pay off? Maybe a chef revolution wasn’t necessary after all—at least, not for now. The kingdom was abuzz with life too, full of adventurers flaunting new [hats](https://youtu.be/vMdhvi8dHN4?t=895s) and a contagious energy that made the day feel promising.
 
-A date's a date; Nerissa tagged along with Bijou on a search for a [secret](https://youtu.be/vMdhvi8dHN4?t=3876s), only this time as an escort team to accompany Gonathon on his first foray through Star Site: Elpis.
+Nerissa kicked things off by lending a hand to others who missed out on yesterday’s dungeon. Once that was done, it was time to gear up for the next big challenge: the _Stronghold of Ruin_, said to be where the elusive Outlander was holed up.
 
-[Abble](#embed:https://youtu.be/vMdhvi8dHN4?t=1261s)
+Her prep began with a visit to the newly opened Gacharms shop, which—despite her initial suspicions of being a gimmicky money sink—turned out to be surprisingly fair. Plus, the excited [awooo-ing](https://youtu.be/vMdhvi8dHN4?t=4441) outside really added to the atmosphere.
 
-In anticipation of tougher battles ahead, she finally paid a little visit to the butsling *GaCharms* next door. The pity system was great, but the real pull of the place was the people (what the [dawgs](https://youtu.be/vMdhvi8dHN4?t=4441s) doin'?)
+With a few shiny new charms in hand, she turned her attention to upgrading her weapon. That meant she needed a smith, and who else came to mind but _that_ one? Whether it was from fragmented memories or just picking up on increasingly obvious signals, Nerissa had started to notice the scarlet knight’s... affections. She couldn’t help but enjoy teasing her a little, especially now that she suspected he might be holding back details about their shared history (see [Elizabeth–Nerissa](#edge:liz-nerissa)).
 
-[A Rose for a Rose](#embed:https://youtu.be/vMdhvi8dHN4?t=6070s)
+Eventually, she joined forces with Roa and Tam to take on the Stronghold of Ruin. They triumphed (after extremely arduous challenges, such as that of [basic arithmetic](https://www.youtube.com/live/vMdhvi8dHN4?si=jktjQ0j4VDY6INeR&t=11623)), freed the Outlander, and naturally—what followed was not a solemn debrief, but a full-blown gossip session speculating on his _very_ interesting dynamic with the Princess.
 
-Nerissa had a sincere appreciation for her transactional relationship with the Jade Forge, but since recovering bits and pieces of lost tidings, she wondered if the scarlet knight had held back on divulging details about their thorny past. With that being said, the butterfly effect set in motion by an innocent [slip of the tongue](https://youtu.be/vMdhvi8dHN4?t=6520s) were beyond foresight of chivalry, no matter how great. (see: [Elizabeth-Nerissa: Strawberry Red](#edge:liz-nerissa))
+[Are they related?](#embed:https://youtu.be/vMdhvi8dHN4?t=12507s)
 
-["AWOOO! Do you like the Moon?"](#embed:https://youtu.be/vMdhvi8dHN4?t=6772s)
+As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing as she had no relationship prospects—at least none that she's aware of—and she was pretty much oblivious to any of the great love entanglements. Until today, that is. (See: [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii))
 
-While waiting for Pandora's arrival to attempt today's dungeon, Nerissa burned her extra time getting in touch with a [long-lost vice](https://youtu.be/vMdhvi8dHN4?t=8514s).
+[Are they siblings _(platonic)_ or European?](#embed:https://youtu.be/vMdhvi8dHN4?t=12936s)
 
-[World's most sadistic puzzle](#embed:https://youtu.be/vMdhvi8dHN4?t=11045s)
+Divine intervention saw to it that she experienced today's chaos no longer—she retreated promptly to the Library, preparing to retire from this realm. Although her doubts about her place in the world bubble and brew, she asserted that "perseverance" was key, and she closed the book on her journey so far with a pen of her signature.
 
-Nerissa shared great excitement with some others over the Outlander's fond interactions with the Princess; then again, [who wouldn't be](https://youtu.be/vMdhvi8dHN4?t=12507s)? The two Libestal figures seemed close with one another.
+["Nerissa (Juliet Bloodflame) Ravencroft"](https://youtu.be/vMdhvi8dHN4?t=13486s).
 
-[\*with conviction\*: "Love is love."](#embed:https://youtu.be/vMdhvi8dHN4?t=12577s)
+## Fanart
 
-As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing as she had no relationship prospects going on — none that she's aware of — and how she was pretty much oblivious to any of the great love entanglements. Until today, that is. (see: [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii))
-
-[Are They Siblings *(Platonic)* or European?](#embed:https://youtu.be/vMdhvi8dHN4?t=12936s)
-
-Divine intervention saw to it that she experienced today's chaos no longer — she retreated promptly to the Library, preparing to retire from this realm. Although her doubts about her place in the world to bubble and brew, she asserted that "perserverence" was key, and she closed the book on her journey so far with a pen of her signature; ["Neriss (Juliet Bloodflame) Ravencroft"](https://youtu.be/vMdhvi8dHN4?t=13486s).
-
-[Double your earnings!](#embed:https://youtu.be/vMdhvi8dHN4?t=13904s)
+["How they do greetings" by underdatv](https://x.com/underdatv/status/1919820213811294236)

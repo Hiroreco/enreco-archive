@@ -1,0 +1,7 @@
+<!-- title: Bae's Journal Entry: Day 8 -->
+
+**SAYONARA**
+
+GOODBYE LIBESTAL
+
+PEASANT THE BAE'S JOURNEY HAS ONLY BEGUN!!

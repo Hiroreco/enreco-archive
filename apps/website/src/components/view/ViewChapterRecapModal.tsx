@@ -8,17 +8,19 @@ import {
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import data from "#/chapter-recaps.json";
 import { Section } from "@/components/view/ViewChapterRecapToolbar";
 import { AnimatePresence, motion } from "framer-motion";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { Button } from "@enreco-archive/common-ui/components/button";
+import { useSettingStore } from "@/store/settingStore";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     currentChapter: number;
 }
 
@@ -34,7 +36,7 @@ function extractSections(content: string): Section[] {
 
 const ViewChapterRecapModal = ({
     open,
-    onOpenChange,
+    onClose,
     currentChapter,
 }: ViewChapterRecapModalProps) => {
     const validCurrentChapter = currentChapter < data.chapters.length;
@@ -54,16 +56,36 @@ const ViewChapterRecapModal = ({
     );
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
     const activeSection = useScrollSpy(sectionIds);
+    const backdropFiler = useSettingStore((state) => state.backdropFilter);
+
+    const onOpenChange = useCallback((open: boolean) => {
+        if(!open) {
+            onClose();
+        }
+    }, [onClose]);
 
     // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {
-        if (!isScrollingProgrammatically.current && activeSection) {
-            setCurrentSection(activeSection);
-        }
+        // Use a short timeout to smooth out rapid section changes
+        const timer = setTimeout(() => {
+            if (activeSection && !isScrollingProgrammatically.current) {
+                setCurrentSection(activeSection);
+            }
+        }, 20);
+
+        return () => clearTimeout(timer);
     }, [activeSection]);
 
     useEffect(() => {
+        const contentElement = contentRef.current;
+        if (!contentElement) return;
+
+        // Add passive scroll listener for better performance
+        contentElement.addEventListener("scroll", () => {}, { passive: true });
+
         return () => {
+            contentElement.removeEventListener("scroll", () => {});
+
             if (scrollTimeout.current) {
                 clearTimeout(scrollTimeout.current);
             }
@@ -76,12 +98,17 @@ const ViewChapterRecapModal = ({
     }, [chapter, sections]);
 
     const handleSectionChange = (sectionId: string) => {
+        if (currentSection === sectionId) return;
+
         setCurrentSection(sectionId);
         isScrollingProgrammatically.current = true;
 
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
 
             if (scrollTimeout.current) {
                 clearTimeout(scrollTimeout.current);
@@ -89,13 +116,17 @@ const ViewChapterRecapModal = ({
 
             scrollTimeout.current = setTimeout(() => {
                 isScrollingProgrammatically.current = false;
-            }, 1000);
+            }, 800);
         }
     };
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all">
+            <DialogContent
+                className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
+                showXButton={true}
+                backdropFilter={backdropFiler}
+            >
                 <VisuallyHidden>
                     <DialogHeader>
                         <DialogTitle>Chapters Recap</DialogTitle>
@@ -127,18 +158,25 @@ const ViewChapterRecapModal = ({
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.3 }}
                             >
-                                <ViewMarkdown
-                                    className="pb-20"
-                                    onNodeLinkClicked={() => {}}
-                                    onEdgeLinkClicked={() => {}}
-                                >
-                                    {data.chapters[chapter].content}
-                                </ViewMarkdown>
+                                {/* Without this memo, every section change would cause the Markdown to rerender  */}
+                                {useMemo(
+                                    () => (
+                                        <ViewMarkdown
+                                            className="pb-16"
+                                            onNodeLinkClicked={() => {}}
+                                            onEdgeLinkClicked={() => {}}
+                                        >
+                                            {data.chapters[chapter].content}
+                                        </ViewMarkdown>
+                                    ),
+                                    [chapter],
+                                )}
                             </motion.div>
                         </AnimatePresence>
+                        <Separator />
                     </div>
                 </div>
-                <div className="absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
+                <div className="md:hidden absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
                     <Button
                         className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}

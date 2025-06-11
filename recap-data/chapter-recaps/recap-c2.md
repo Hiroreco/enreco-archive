@@ -41,9 +41,9 @@ With the kingdom barely sustaining its refugees, the heroes needed more than jus
 - **The Chef** – Cooked meals granting powerful buffs for their adventures.
 - **The Supplier** – Enchanted tools to boost resource-gathering efficiency.
 
-Each role played an important part in the group’s advancement. Cooperation was essential. The chefs provided food for all. The smiths strengthened weapons others couldn’t. The suppliers fueled the craftsmen. And though it was less about goodwill and more about charging each other for services rendered, the system worked—barely.
+![Charm making process from a Jeweler](/images-opt/chrecap-1-charm.webp)
 
-![Charm making process for a Jeweler](/images-opt/chrecap-1-charm.webp)
+Each role played an important part in the group’s advancement. Cooperation was essential. The chefs provided food for all. The smiths strengthened weapons others couldn’t. The suppliers fueled the craftsmen. And though it was less about goodwill and more about charging each other for services rendered, the system worked—barely.
 
 The heroes needed every advantage they could get. New lands meant harder battles, and the dungeons—or rather, _Star Sites_—grew more dangerous with each step forward. But just like before, within those treacherous places lay fragments of what they’d lost: their memories.
 
@@ -53,13 +53,19 @@ Each Star Site centered on a specific hero, unlocking recollections of who they 
 - **Star Site: Chronos** – Governed by the relentless passage of time, its trials restored the memories of the _Warden of Time_, _Ouro Kronii_.
 - **Star Site: Chaos** – A place of madness and mischief, more like a fever dream than a dungeon, holding the memories of Chaos herself, _Hakos Baelz_.
 
+![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss.webp)
+
+The dungeons this time were far more intricate than before. Each one was a labyrinth of puzzles, traps, and trials—but above all, they demanded one thing above everything else: teamwork. No lone hero could tackle them alone. Even if someone possessed the skill to survive on their own, the challenges were designed to test not just strength or wits, but trust, timing, and synergy.
+
+Every switch required coordination. Every battle demanded support. Every step forward was a step together.
+
+These weren’t just dungeons—they were trials of unity.
+
 It was also required for the heroes to submit daily diary entries to the Library—records of their thoughts, experiences, and emotions. These entries served a critical purpose: to archive their memories. In the event they ever lost them again, the Library would act as a safeguard, preserving fragments of their identities, relationships, and choices. Every joy, every sorrow, every battle and bond—they were all written down, page by page, day by day.
 
 ![The Hot Pink One noting down her day](/images-opt/chrecap-1-diary.webp)
 
 Beyond the main Star Sites, the heroes also undertook smaller dungeons and side missions that unveiled hidden truths. Not only did they recover the memories of their companions—they slowly began to restore Fia’s fragmented past as well.
-
-![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss.webp)
 
 And with those memories came revelations about the true nature of the Outsider—how his existence was deeply intertwined with another mysterious figure: the Outlander.
 
@@ -92,7 +98,7 @@ Oh, how wrong that assumption was.
 Let’s sample just a few days to illustrate the magnitude of the madness:
 
 - **Day 1**: Jobs were chosen. Alliances formed. A “Dawg Pack” was established. Some remembered their pasts, others didn’t. Former lovers were now siblings. A green lady grew dangerously obsessed with the Princess. A tavern owner’s business suffered repeated sabotage.
-- **Day 2**: A descent—both literal and metaphorical. Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic, began causing relationship destruction wherever she went. The embarrassing fumbling performance of a red knight in front of her crush.
+- **Day 2**: Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. An embarrassing fumbling performance of a red knight in front of her crush.
 - **Day 3**: Incest.
 - **Day 7**: "We defeated the Curse!" — immediately followed by a gender reveal party, complete with spontaneous birth (of gas).
 
@@ -106,13 +112,13 @@ Weird, wonderful, emotional—the journey was all of it. Even without the full e
 
 ![Shiori and Gonathon's last heartfelt conversation with each other](/images-opt/chrecap-1-novelgrem.webp)
 
-### The Crimson Banquet
+### The Crimson-Colored Banquet
 
 Through sheer will, determination, and the strength of their unbreakable bonds, the heroes banded together to defeat the Curse once and for all. The Ruination was stopped. The world was saved. More importantly, a cruel fate had been averted—one that would have given birth to a great evil capable of consuming the entire universe. The Princess was overjoyed. Fia was elated. The Outlander's burden was finally lifted, and the kingdom basked in the light of celebration.
 
 At long last, everyone could breathe a sigh of relief and savor a rare, well-earned moment of peace.
 
-A grand banquet awaited—the Crimson Banquet—held in honor of the Shining Stars, the saviors of the world.
+A grand banquet awaited—the Victory Banquet—held in honor of the Shining Stars, the saviors of the world.
 
 ...
 

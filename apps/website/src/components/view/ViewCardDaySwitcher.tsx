@@ -39,7 +39,7 @@ const ViewCardDaySwitcher = ({
                             <DropdownMenuRadioItem
                                 key={ind}
                                 value={element.data!.day.toString()}
-                                className="max-w-[300px] md:max-w-none"
+                                className="max-w-[300px]"
                             >
                                 <span className="truncate">
                                     Day {element.data!.day + 1}

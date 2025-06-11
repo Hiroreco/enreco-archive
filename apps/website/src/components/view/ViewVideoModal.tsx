@@ -9,28 +9,34 @@ import { urlToEmbedUrl } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { useSettingStore } from "@/store/settingStore";
+import { useCallback } from "react";
 
 interface ViewVideoModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     videoUrl: string | null;
     bgImage: string;
 }
 
 const ViewVideoModal = ({
     open,
-    onOpenChange,
+    onClose,
     videoUrl,
     bgImage,
 }: ViewVideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
-    const audioStore = useAudioStore();
-    const handleOpenChange = (newOpen: boolean) => {
-        if (!newOpen) {
-            audioStore.playBGM();
-        }
-        onOpenChange(newOpen);
-    };
+    const playBGM = useAudioStore((state) => state.playBGM);
+    const backdropFiler = useSettingStore((state) => state.backdropFilter);
+    const handleOpenChange = useCallback(
+        (newOpen: boolean) => {
+            if (!newOpen) {
+                playBGM();
+                onClose();
+            }
+        },
+        [onClose],
+    );
 
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>
@@ -39,12 +45,14 @@ const ViewVideoModal = ({
             </VisuallyHidden>
 
             <DialogContent
+                backdropFilter={backdropFiler}
                 // When we have the video dialog open on mobile, if we flip from portrait -> landscape -> portrait
                 // the overlay for some reason targets the drawer instead of this modal, so tapping outsite would close the drawer instead of the modal
                 // so we're adding a custom overlay to prevent that
                 // TODO: Remove this when we have a better solution
                 customOverlay={
                     <DialogOverlay
+                        backdropFilter={backdropFiler}
                         onPointerDown={(e) => {
                             e.stopPropagation();
                             e.preventDefault();

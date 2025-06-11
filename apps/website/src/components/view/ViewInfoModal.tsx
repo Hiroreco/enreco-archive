@@ -21,14 +21,27 @@ import { Moon, Sun, SunMoon } from "lucide-react";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
 import ViewInfoCredits from "@/components/view/ViewInfoCredits";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { useCallback } from "react";
 
 interface ViewInfoModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
 }
 
-const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
-    const settingStore = useSettingStore();
+const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
+    const themeType = useSettingStore((state) => state.themeType);
+    const setThemeType = useSettingStore((state) => state.setThemeType);
+    const backdropFilter = useSettingStore((state) => state.backdropFilter);
+
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
+    );
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <VisuallyHidden>
@@ -37,6 +50,7 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
             <DialogContent
                 showXButton={false}
                 className="rounded-lg h-[85vh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
+                backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
                     <DialogDescription>
@@ -76,8 +90,8 @@ const ViewInfoModal = ({ open, onOpenChange }: ViewInfoModalProps) => {
                     {/* Theme Toggle */}
                     <ToggleGroup.Root
                         type="single"
-                        value={settingStore.themeType}
-                        onValueChange={settingStore.setThemeType}
+                        value={themeType}
+                        onValueChange={setThemeType}
                     >
                         <ToggleGroup.Item
                             value="light"

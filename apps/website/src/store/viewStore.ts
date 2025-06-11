@@ -1,121 +1,175 @@
-import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType, RelationshipMap, TeamMap } from "@enreco-archive/common/types";
 import { create } from "zustand";
+import { immer } from "zustand/middleware/immer"; 
+
 export type CardType = "node" | "edge" | "setting" | null;
+export type ModalType = "info" | "settings" | "minigame" | "chapterRecap" | "video" | null;
 
 interface ViewState {
-    chapter: number;
-    setChapter: (chapter: number) => void;
+    data: {
+        chapter: number;
+        setChapter: (chapter: number) => void;
 
-    day: number;
-    setDay: (day: number) => void;
+        day: number;
+        setDay: (day: number) => void;
+    },
 
-    previousSelectedDay: number;
-    setPreviousSelectedDay: (previousSelectedDay: number) => void;
+    ui: {
+        currentCard: CardType;
+        openNodeCard: () => void;
+        openEdgeCard: () => void;
+        openSettingsCard: () => void;
+        closeCard: () => void;
 
-    currentCard: CardType;
-    setCurrentCard: (name: CardType) => void;
+        selectedElement: ImageNodeType | FixedEdgeType | null;
+        selectElement: (element: ImageNodeType | FixedEdgeType) => void;
+        deselectElement: () => void;
+    },
 
-    edgeVisibility: { [key: string]: boolean };
-    setEdgeVisibility: (edgeVisibility: { [key: string]: boolean }) => void;
+    visibility: {
+        relationship: { [key: string]: boolean };
+        toggleRelationship: (relationshipId: string, relationshipVisibility: boolean) => void;
+        toggleAllRelationships: (relationshipVisibility: boolean) => void;
+        setRelationshipKeys: (relationships: RelationshipMap) => void;
 
-    teamVisibility: { [key: string]: boolean };
-    setTeamVisibility: (teamVisibility: { [key: string]: boolean }) => void;
+        showOnlyNewEdges: boolean;
+        setShowOnlyNewEdges: (showOnlyNewEdges: boolean) => void;
 
-    characterVisibility: { [key: string]: boolean };
-    setCharacterVisibility: (characterVisibility: {
-        [key: string]: boolean;
-    }) => void;
+        team: { [key: string]: boolean };
+        toggleTeam: (teamId: string, teamVisibility: boolean) => void;
+        toggleAllTeams: (teamVisibility: boolean) => void;
+        setTeamKeys: (teams: TeamMap) => void;
 
-    infoModalOpen: boolean;
-    setInfoModalOpen: (isInfoModalOpen: boolean) => void;
+        character: { [key: string]: boolean };
+        toggleCharacter: (characterId: string, characterVisibility: boolean) => void;
+        toggleAllCharacters: (characterVisibility: boolean) => void;
+        setCharacterKeys: (nodes: ImageNodeType[]) => void;
+    },
 
-    settingsModalOpen: boolean;
-    setSettingsModalOpen: (isSettingsModalOpen: boolean) => void;
+    modal: {
+        openModal: ModalType;
+        openInfoModal: () => void;
+        openSettingsModal: () => void;
+        openMinigameModal: () => void;
+        openChapterRecapModal: () => void;
+        openVideoModal: () => void;
+        closeModal: () => void;
 
-    minigameModalOpen: boolean;
-    setMinigameModalOpen: (isMinigameModalOpen: boolean) => void;
-
-    chapterRecapModalOpen: boolean;
-    setChapterRecapModalOpen: (isChapterRecapModalOpen: boolean) => void;
-
-    videoModalOpen: boolean;
-    setVideoModalOpen: (isVideoModalOpen: boolean) => void;
-
-    videoUrl: string | null;
-    setVideoUrl: (currentVideoUrl: string | null) => void;
-
-    hoveredEdgeId: string | null;
-    setHoveredEdgeId: (hoveredEdgeId: string) => void;
-
-    selectedNode: ImageNodeType | null;
-    setSelectedNode: (node: ImageNodeType | null) => void;
-
-    selectedEdge: FixedEdgeType | null;
-    setSelectedEdge: (edge: FixedEdgeType | null) => void;
+        videoUrl: string | null;
+        setVideoUrl: (currentVideoUrl: string | null) => void;
+    }
 }
-export const useViewStore = create<ViewState>((set) => {
+
+export const useViewStore = create<ViewState>()(immer((set, get) => {
     const [initialChapter, initialDay] = [0, 0];
 
     return {
-        chapter: initialChapter,
-        setChapter: (chapter: number) => set(() => ({ chapter })),
+        data: {
+            chapter: initialChapter,
+            setChapter: (chapter) => set(draft => { draft.data.chapter = chapter; }),
 
-        day: initialDay,
-        setDay: (day: number) => set(() => ({ day })),
+            day: initialDay,
+            setDay: (day) => set(draft => { draft.data.day = day; }),
+        },
 
-        previousSelectedDay: initialDay,
-        setPreviousSelectedDay: (previousSelectedDay: number) =>
-            set(() => ({ previousSelectedDay })),
+        ui: {
+            currentCard: null,
+            openNodeCard: () => set(draft => { draft.ui.currentCard = "node"; }),
+            openEdgeCard: () => set(draft => { draft.ui.currentCard = "edge"; }),
+            openSettingsCard: () => set(draft => { draft.ui.currentCard = "setting"; }),
+            closeCard: () => set(draft => { draft.ui.currentCard = null; }),
 
-        currentCard: null,
-        setCurrentCard: (currentCard: CardType) => set(() => ({ currentCard })),
+            selectedElement: null,
+            selectElement: (element) => set(draft => { draft.ui.selectedElement = element; }),
+            deselectElement: () => set(draft => { draft.ui.selectedElement = null; }),
+        },
 
-        edgeVisibility: {},
-        setEdgeVisibility: (edgeVisibility: { [key: string]: boolean }) =>
-            set(() => ({ edgeVisibility })),
+        visibility: {
+            relationship: {},
+            toggleRelationship: (relationshipId, relationshipVisibility) => 
+                set(draft => { draft.visibility.relationship[relationshipId] = relationshipVisibility; }),
+            toggleAllRelationships: (relationshipVisibility) => 
+                set(draft => {
+                    const keys = Object.keys(get().visibility.relationship);
 
-        teamVisibility: {},
-        setTeamVisibility: (teamVisibility: { [key: string]: boolean }) =>
-            set(() => ({ teamVisibility })),
+                    for(const key of keys) {
+                        draft.visibility.relationship[key] = relationshipVisibility;
+                    }
+                }),
+            setRelationshipKeys: (relationships) => 
+                set(draft => {
+                    const keys = Object.keys(relationships);
 
-        characterVisibility: {},
-        setCharacterVisibility: (characterVisibility: {
-            [key: string]: boolean;
-        }) => set(() => ({ characterVisibility })),
+                    const newRelationshipVisibility: { [key: string]: boolean } = {};
+                    for(const key of keys) {
+                        newRelationshipVisibility[key] = true;
+                    }
 
-        infoModalOpen: false,
-        setInfoModalOpen: (isInfoModalOpen: boolean) =>
-            set(() => ({ infoModalOpen: isInfoModalOpen })),
+                    draft.visibility.relationship = newRelationshipVisibility;
+                }),
 
-        settingsModalOpen: false,
-        setSettingsModalOpen: (isSettingsModalOpen: boolean) =>
-            set(() => ({ settingsModalOpen: isSettingsModalOpen })),
+            showOnlyNewEdges: true,
+            setShowOnlyNewEdges: (showOnlyNewEdges) => 
+                set(draft => { draft.visibility.showOnlyNewEdges = showOnlyNewEdges; }),
 
-        minigameModalOpen: false,
-        setMinigameModalOpen: (isMinigameModalOpen: boolean) =>
-            set(() => ({ minigameModalOpen: isMinigameModalOpen })),
+            team: {},
+            toggleTeam: (teamId, teamVisibility) => 
+                set(draft => { draft.visibility.team[teamId] = teamVisibility; }),
+            toggleAllTeams: (teamVisibility: boolean) => 
+                set(draft => {
+                    const keys = Object.keys(get().visibility.team);
 
-        chapterRecapModalOpen: false,
-        setChapterRecapModalOpen: (isChapterRecapModalOpen: boolean) =>
-            set(() => ({ chapterRecapModalOpen: isChapterRecapModalOpen })),
+                    for(const key of keys) {
+                        draft.visibility.team[key] = teamVisibility;
+                    }
+                }),
+            setTeamKeys: (teams: TeamMap) => 
+                set(draft => {
+                    const keys = Object.keys(teams);
 
-        videoModalOpen: false,
-        setVideoModalOpen: (isVideoModalOpen: boolean) =>
-            set(() => ({ videoModalOpen: isVideoModalOpen })),
+                    const newTeamVisibility: { [key: string]: boolean } = {};
+                    for(const key of keys) {
+                        newTeamVisibility[key] = true;
+                    }
 
-        videoUrl: null,
-        setVideoUrl: (videoUrl: string | null) => set(() => ({ videoUrl })),
+                    draft.visibility.team = newTeamVisibility;
+                }),
 
-        hoveredEdgeId: null,
-        setHoveredEdgeId: (hoveredEdgeId: string) =>
-            set(() => ({ hoveredEdgeId })),
+            character: {},
+            toggleCharacter: (characterId, characterVisibility) =>
+                set(draft => { draft.visibility.character[characterId] = characterVisibility; }),
+            toggleAllCharacters: (characterVisibility: boolean) => 
+                set(draft => {
+                    const keys = Object.keys(get().visibility.character);
 
-        selectedNode: null,
-        setSelectedNode: (node: ImageNodeType | null) =>
-            set(() => ({ selectedNode: node })),
+                    for(const key of keys) {
+                        draft.visibility.character[key] = characterVisibility;
+                    }
+                }),
+            setCharacterKeys: (nodes: ImageNodeType[]) => 
+                set(draft => {
+                    const keys = nodes.map(n => n.id);
 
-        selectedEdge: null,
-        setSelectedEdge: (edge: FixedEdgeType | null) =>
-            set(() => ({ selectedEdge: edge })),
+                    const newCharacterVisibility: { [key: string]: boolean } = {};
+                    for(const key of keys) {
+                        newCharacterVisibility[key] = true;
+                    }
+
+                    draft.visibility.character = newCharacterVisibility;
+                }),
+        },
+
+        modal: {
+            openModal: null,
+            openInfoModal: () => set(draft => { draft.modal.openModal = "info"; }),
+            openSettingsModal: () => set(draft => { draft.modal.openModal = "settings"; }),
+            openMinigameModal: () => set(draft => { draft.modal.openModal = "minigame"; }),
+            openChapterRecapModal: () => set(draft => { draft.modal.openModal = "chapterRecap"; }),
+            openVideoModal: () => set(draft => { draft.modal.openModal = "video"; }),
+            closeModal: () => set(draft => { draft.modal.openModal = null; }),
+
+            videoUrl: null,
+            setVideoUrl: (videoUrl) => set(draft => { draft.modal.videoUrl = videoUrl; }),
+        }
     };
-});
+}));
