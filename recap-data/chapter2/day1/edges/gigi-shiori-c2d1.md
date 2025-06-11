@@ -6,7 +6,11 @@ In their first encounter, Shiori attempted to [scam Gonathon](https://youtu.be/C
 
 The next time Gonathon would encounter Shiori, the knight's values would be put to the test. Shiori earnestly requested Gonathon's aid in her feud with Morden Ramsey, claiming her rival chef was [demeaning her store](https://youtu.be/CPT2cj934-I?t=12331). However, Gonathon would soon learn the truth, and indignant over Shiori's betrayal, sought to reveal her crimes to Tam Gandr. Upon reading a [seemingly heartfelt letter](https://youtu.be/CPT2cj934-I?t=13233) from Shiori thanking Gonathon for purchasing her food, Gonathon retracted her accusations.
 
+[Read "To da Kindest 1"](#text:To-da-Kindest-1)
+
 After writing her own letter to Shiori in which she struggled with the prickly topic of the Chef Wars, Gonathon became determined to learn more about Shiori, expressing a belief that Shiori meant well. Only time will tell whether this proves true, or whether the tricky Archiver continues to prey on the naive knight.
+
+[Read "letter"](#text:letter)
 
 [I need to get to know her better!](#embed:https://youtu.be/CPT2cj934-I?t=15101)
 
