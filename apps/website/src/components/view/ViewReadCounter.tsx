@@ -138,7 +138,7 @@ const ViewReadCounter = ({
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="flex-1 overflow-y-auto w-full">
+                <div className="flex-1 overflow-y-auto w-full px-2">
                     {/* Nodes */}
                     {filteredElements.nodes.length > 0 && (
                         <div className="space-y-2">
