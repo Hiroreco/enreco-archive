@@ -12,7 +12,7 @@ Yesterday's events resurfaced, ones about Shiori's wife and the _possible_ impli
 
 Outside their home, it seemed her wife was talking to a familiar face. One more tender and softer than usual and who wore a distinctive orange jacket underneath the Libestan cloak. Once upon a time, Shiori knew her under a different name. "His" name was Gonathon G. Calmer. Relaxed.
 
-And missing from Shiori's backlog. Shiori had never met him before. A fact that was unreciprocated, as Gonathon recalled speaking to Shiori yesterday about an item Shiori had supposedly left for her to buy. Bijou herself seemed to be aware of something by how she nudged Gonathon away to talk, a conversation Shiori was careful to avoid eavesdropping on. When the two finished, [Shiori gave the Knight a small snack for later](https://youtu.be/mb91g7vQSnA?t=2040), a small commemoration of their "first" meeting.
+And missing from Shiori's backlog. Shiori had never met "him" before. A fact that was unreciprocated, as Gonathon recalled speaking to Shiori yesterday about an item Shiori had supposedly left for her to buy. Bijou herself seemed to be aware of something by how she nudged Gonathon away to talk, a conversation Shiori was careful to avoid eavesdropping on. When the two finished, [Shiori gave the Knight a small snack for later](https://youtu.be/mb91g7vQSnA?t=2040), a small commemoration of their "first" meeting.
 
 The mystery of the stolen book was quickly solved as Mordan soon came by, as Shiori noted that the chef bought something earlier, [mistaking it for her commission](https://youtu.be/mb91g7vQSnA?t=2438). The embarrassed chef learned more about the bookkeeping mechanics and shared that she did deliver the book to Gonathon's home when she realized her mistake. Mordan was at least quite satisfied with her commission when she discovered it had already been delivered yesterday.
 
@@ -42,13 +42,13 @@ Finally, The Curse.
 
 One important event was left: The ~~Constipation~~ Party. All was well; [Fuwawa's catering](https://youtu.be/mb91g7vQSnA?t=7271) was superb, delicious food lined each framed plate, the Roa's field of flowers brought life to the venue, and Bijou's lanterns brought light into the sky. To Shiori's relief, Bijou was also well—the gas, not a child, and the curse had dissipated. A certain hero finally learned of [expecting news](https://youtu.be/mb91g7vQSnA?t=7930) as well. Soon, the party, and the birthing bed (yes, a birthing bed), were ready.
 
-_Baby included_. [The Hot Pink One was in labor](https://youtu.be/mb91g7vQSnA?t=8883). In a questionable display of entertainment, IRyS gave birth, buckets of water desecrating the previously wonderful picnic venue, to the disgust of those around her. Sadly, or not, the ~~chick~~ baby [was gone too soon](https://youtu.be/mb91g7vQSnA?t=9845) by the Fuzzy One's claws as fire burned the picnic blanket while a fight broke out between the guests. Finally having had enough, [Shiori stepped away](https://youtu.be/mb91g7vQSnA?t=10172) to start the last diary entry. As she entered the Library, Shiori saw a distressed Ina. The goddess's infidelity had finally come to light, and the hero questioned whether the not-so-dearly departed child was hers. Shiori could only offer her sympathies, witnessing the Hot Pink One's questionable actions beforehand.
+_Baby included_. [The Hot Pink One was in labor](https://youtu.be/mb91g7vQSnA?t=8883). In a questionable display of entertainment, IRyS gave birth, buckets of water desecrating the previously wonderful picnic venue, to the attendants' disgust. Sadly, or not, the ~~chick~~ baby [was gone too soon](https://youtu.be/mb91g7vQSnA?t=9845) by the Fuzzy One's claws as fire burned the picnic blanket while a fight broke out between the guests. Finally having had enough, [Shiori stepped away](https://youtu.be/mb91g7vQSnA?t=10172) to start the last diary entry. As she entered the Library, Shiori saw a distressed Ina. The goddess's infidelity had finally come to light, and the hero questioned whether the not-so-dearly departed child was hers. Shiori could only offer her sympathies, witnessing the Hot Pink One's questionable actions beforehand.
 
 But not to worry, for there is a joyous occasion to be had—a wedding! Between Roa and Kiara.
 
 Throughout the day and the previous ones, Shiori had witnessed and supported Roa's *purr*suit of love. It was fraught with [great challenge](#edge:raora-liz) that culminated in Roa's defeat. But, from the ashes sprouts [forth another love: Kiara](#edge:raora-kiara).
 
-Shiori would walk the beautiful businesswoman down the aisle as the crowd cheered for the new couple's happiness. Though Shiori worried for a moment that this may have been a ploy to steal Elizabeth's attention, as the knight was the best woman to Kiara's groom, Roa assured her that this was true happiness, something that Roa would reaffirm later as she declared to [fight for herself](https://youtu.be/mb91g7vQSnA?t=10949). Shiori congratulated Roa, promising to complete [the commissions](https://youtu.be/mb91g7vQSnA?t=8350) soon and send them their way.
+Shiori would walk the beautiful businesswoman down the aisle as the crowd cheered for the new couple's happiness. She worried for a moment that this may have been a ploy to steal Elizabeth's attention, as the knight was Kiara's best woman, Roa assured her that this was true happiness, something that Roa would reaffirm later as she declared to [fight for herself](https://youtu.be/mb91g7vQSnA?t=10949). Shiori congratulated Roa, promising to complete [the commissions](https://youtu.be/mb91g7vQSnA?t=8350) soon and send them their way.
 
 [Group Photo! Huzzah!](#embed:https://youtu.be/mb91g7vQSnA?t=10859)
 
@@ -56,7 +56,7 @@ Perhaps swept up by the flow, Shiori shared her feelings with Bijou. Insecure si
 
 [Ring of Promise](#embed:https://youtu.be/mb91g7vQSnA?t=11132)
 
-The ring now decorates their door as a precious blue flower guards [their home, GothRock](https://youtu.be/mb91g7vQSnA?t=11372). A cheeky kiss from Bijou had Shiori chuckling fondly as her wife scamped about, bringing her brother with her soon after as Nerissa arrived. The two witches then swiftly decided to have Bijou join as a witch-in-training.
+The ring now decorates their door as a precious blue flower guards [their home, GothRock](https://youtu.be/mb91g7vQSnA?t=11372). A cheeky kiss from Bijou had Shiori chuckling fondly as her wife scamped about, bringing her brother with her soon after Nerissa's arrival. The two witches then swiftly decided to have Bijou join as a witch-in-training.
 
 It was a day filled with many, many events to write down. As Shiori submitted her diary for the day, something caught her eye:
 
