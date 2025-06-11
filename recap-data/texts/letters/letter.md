@@ -1,4 +1,4 @@
-<!-- title: Letter -->
+<!-- title: letter -->
 
 Dear Shiori of the Nyavellas,
 
