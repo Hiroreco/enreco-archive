@@ -68,7 +68,7 @@ const ViewCustomEdge = ({
         }
     }, []);
 
-    const relationshipStyle = data ? relationships[data?.relationshipId].style : {};
+    const relationshipStyle = data ? relationships[data?.relationshipId]?.style ?? {} : {};
     
     return (
         <>
