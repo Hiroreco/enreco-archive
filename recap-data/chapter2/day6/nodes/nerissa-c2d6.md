@@ -22,7 +22,7 @@ In light of this, she also found children playing [hide-and-seek](https://youtu.
 
 **The Princess’ Chambers**
 
-As she continued with her search, Nerissa stumbled upon [the Princess’ chambers](https://youtu.be/-BFf3e6YJwY?t=2162). There was a guard on duty in front of the door, and while he would say clear as day that nobody could enter the room on his watch, he didn’t make any effort to stop the maiden from barging in.
+As she continued with her search, Nerissa stumbled upon [the Princess’ chambers](https://youtu.be/-BFf3e6YJwY?t=2162). There was a guard on duty in front of the door, and while he would say clear as day that nobody could enter the room on his watch, he didn’t make any effort to stop the Maiden from barging in.
 
 She looked and looked and to her surprise, she found letters in the drawers. From whom could they be? Growing curious, she invited herself to skim their contents... Love letters? From Cecilia Immerkind?!
 
@@ -30,7 +30,7 @@ She looked and looked and to her surprise, she found letters in the drawers. Fro
 
 **Six Feet Under**
 
-The signs might not have been obvious earlier, but there had certainly been a change in the demeanor of the once-sweet maiden. Throughout today, instead of focusing on her food business or just providing food in general out of the kindness of her heart, she toiled underground, creating space to store a [strange device](https://youtu.be/-BFf3e6YJwY?t=4262)—an instrument that produced enchanting, hypnotic music.
+The signs might not have been obvious earlier, but there had certainly been a change in the demeanor of the once-sweet Maiden. Throughout today, instead of focusing on her food business or just providing food in general out of the kindness of her heart, she toiled underground, creating space to store a [strange device](https://youtu.be/-BFf3e6YJwY?t=4262)—an instrument that produced enchanting, hypnotic music.
 
 It was quite the effort, as she needed to consult several spirits/voices and grimoires to craft the device itself. Once done, it proved useful as she witnessed Lady Bloodflame fall prey to her collection of haunting [sounds](https://youtu.be/-BFf3e6YJwY?t=12262) (see: [Elizabeth-Nerissa: Paper-Thin](#edge:liz-nerissa)).
 

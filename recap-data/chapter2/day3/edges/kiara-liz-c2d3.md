@@ -6,7 +6,7 @@ So when Shakira offered her help to the lone scarlet knight, Elizabeth was beyon
 
 [Good morrow!](#embed:https://www.youtube.com/live/CVF91CqGD80?si=YjA9HkRwDhzSjOnt&t=433)
 
-The way the two interacted—so naturally, so comfortably—could easily make one mistake them for family. Shakira especially played into the role, taking on the mantle of a “mother bird.” She bought everything Elizabeth needed for her quests, from humble items like [butter](https://www.youtube.com/live/CVF91CqGD80?si=jlgLHt9iX51FLlEP&t=3358) to pricier ones like [gacha boxes](https://www.youtube.com/live/CVF91CqGD80?si=omF41I7UAk3lXAXN&t=4393). She even gave herself the title of Elizabeth’s “sugar mommy”—though in this case, it was as sweet and wholesome as it sounded. The red maiden, ever innocent and a little clueless, reacted to the nickname with the wide-eyed surprise of a child.
+The way the two interacted—so naturally, so comfortably—could easily make one mistake them for family. Shakira especially played into the role, taking on the mantle of a “mother bird.” She bought everything Elizabeth needed for her quests, from humble items like [butter](https://www.youtube.com/live/CVF91CqGD80?si=jlgLHt9iX51FLlEP&t=3358) to pricier ones like [gacha boxes](https://www.youtube.com/live/CVF91CqGD80?si=omF41I7UAk3lXAXN&t=4393). She even gave herself the title of Elizabeth’s “sugar mommy”—though in this case, it was as sweet and wholesome as it sounded. The Red Maiden, ever innocent and a little clueless, reacted to the nickname with the wide-eyed surprise of a child.
 
 [A mom made of sugar?](#embed:https://www.youtube.com/live/CVF91CqGD80?si=1Yg1k-_xZLiaVf6z&t=2666)
 

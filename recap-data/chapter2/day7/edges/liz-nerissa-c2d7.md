@@ -4,7 +4,7 @@
 
 While everyone was busy filling themselves with food, they were merry in the company of one another.
 
-Elizabeth separated herself from the crowd, while Nerissa followed. When she noticed her, the knight mentioned she was making some [fireworks](https://youtu.be/sDjysXFWYbI?t=10435), to which the maiden replied it was a good idea and said she too would make one for herself.
+Elizabeth separated herself from the crowd, while Nerissa followed. When she noticed her, the knight mentioned she was making some [fireworks](https://youtu.be/sDjysXFWYbI?t=10435), to which the Maiden replied it was a good idea and said she too would make one for herself.
 
 The lady knight, yearning for more of her presence, stopped her from leaving, giving her quite a lot of her own. Nerissa claimed it was her first time doing it, and so did Lady Bloodflame, but she offered to test them out together on the roof. Just the two of them.
 

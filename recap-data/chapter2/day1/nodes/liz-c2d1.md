@@ -16,7 +16,7 @@ But of course, her journey was anything but smooth. Just moments after signing u
 
 [Hmm, she's not mean](#embed:https://www.youtube.com/live/2toZfafpyW8?si=cub9RWxGvm1oH9sK&t=2105)
 
-Tam didn’t seem to remember who Elizabeth was, which strangely delighted the red maiden. The obnoxious, self-proclaimed queen was no more. But fate wasn’t so kind, for there was another blue maiden Elizabeth would've rather remained forgotten (see [Elizabeth-Nerissa: She’s jesting, right?](#edge:liz-nerissa)).
+Tam didn’t seem to remember who Elizabeth was, which strangely delighted the Red Maiden. The obnoxious, self-proclaimed queen was no more. But fate wasn’t so kind, for there was another blue maiden Elizabeth would've rather remained forgotten (see [Elizabeth-Nerissa: She’s jesting, right?](#edge:liz-nerissa)).
 
 Even Elizabeth’s ex-daughter, Koseki Bijou, had no recollection of her. And with that, Elizabeth slowly realized—maybe this wasn’t a joke. Maybe she really _was_ one of the few who had retained her memories. Was she sad? Was she shocked? Not really. She just felt… tired. Being thrown back in time, forced to adapt to a new life on the spot, and now the people she once held close couldn’t even remember her? Mentally, it was draining.
 

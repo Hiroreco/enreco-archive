@@ -44,7 +44,7 @@ _“Come to your senses!”_ the knight shouted.
 
 _“Come to my senses?_ I think I came to those a long ago”
 
-It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the red maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
+It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the Red Maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
 
 Before they knew it, the pure knight had ["cleansed"](https://youtu.be/FlPFFE5_X3Y?t=9259) Nerissa and won her over to their side again.
 

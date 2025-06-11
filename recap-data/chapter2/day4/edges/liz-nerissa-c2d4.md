@@ -1,6 +1,6 @@
 <!-- title: Frame by Frame -->
 
-The red maiden was slowly recovering from the strawberry incident from the day before. The rose she'd been given now hung proudly on her wall—right where it could be seen the moment you stepped in. And the kiss? Still fresh, still warm, or at least, that’s how it lingered in Elizabeth’s mind. Nerissa had absolutely wrecked her mentally—fair to say—but strangely, it wasn’t a bad thing.
+The Red Maiden was slowly recovering from the strawberry incident from the day before. The rose she'd been given now hung proudly on her wall—right where it could be seen the moment you stepped in. And the kiss? Still fresh, still warm, or at least, that’s how it lingered in Elizabeth’s mind. Nerissa had absolutely wrecked her mentally—fair to say—but strangely, it wasn’t a bad thing.
 
 [Don't mind me](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=BhRV3I1VTtdSK57Y&t=22337)
 

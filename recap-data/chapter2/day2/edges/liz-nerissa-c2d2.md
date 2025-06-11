@@ -1,6 +1,6 @@
 <!-- title: The Fumbler -->
 
-Elizabeth had earned herself a brand new title today—**the Fumbler**—all thanks to a string of thoroughly embarrassing interactions with the ever-composed blue maiden, Nerissa. It was almost comedic, the sheer consistency with which the red knight managed to fumble the bag. No self-respecting _Romeo_ would’ve ever acted like _that_ (see [Elizabeth](#node:liz)).
+Elizabeth had earned herself a brand new title today—**the Fumbler**—all thanks to a string of thoroughly embarrassing interactions with the ever-composed Blue Maiden, Nerissa. It was almost comedic, the sheer consistency with which the red knight managed to fumble the bag. No self-respecting _Romeo_ would’ve ever acted like _that_ (see [Elizabeth](#node:liz)).
 
 It all began when Nerissa reached out first—just a casual, friendly call from one companion to another. But what did Elizabeth say? Nothing. She was so flustered she couldn’t even form a sentence. The situation was so dire, so awkward, that Nerissa had to resort to the psychic route and communicate _directly into her mind_. That’s not romantic. That’s _tragic_.
 
