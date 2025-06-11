@@ -1,4 +1,4 @@
-import { FixedEdgeType, ImageNodeType, Relationship, RelationshipMap, TeamMap } from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType, RelationshipMap, TeamMap } from "@enreco-archive/common/types";
 import { create } from "zustand";
 import { immer } from "zustand/middleware/immer"; 
 
