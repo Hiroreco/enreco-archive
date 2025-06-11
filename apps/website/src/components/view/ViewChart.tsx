@@ -218,11 +218,6 @@ function ViewChart({
                     onNodeClick(node);
                 }}
                 onEdgeClick={(_, edge) => {
-                    // Disable edge selection on if is old edge and only show new is true
-                    if (edge.data?.day !== day && edgeVisibility["new"]) {
-                        return;
-                    }
-
                     onEdgeClick(edge);
                 }}
                 minZoom={minZoom}

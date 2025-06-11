@@ -93,13 +93,15 @@ const ViewCustomEdge = ({
             </defs>
 
             {/* Transparent click area */}
-            <path
-                d={path}
-                fill="none"
-                stroke="transparent"
-                strokeWidth={25}
-                strokeLinecap="round"
-            />
+            {selectable && (
+                <path
+                    d={path}
+                    fill="none"
+                    stroke="transparent"
+                    strokeWidth={25}
+                    strokeLinecap="round"
+                />
+            )}
 
             {/* Actual edge with mask applied if dashed */}
             <path
