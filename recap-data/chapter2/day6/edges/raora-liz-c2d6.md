@@ -20,7 +20,7 @@ Then, there was _that_ moment—tender, quiet—where it seemed like Roa might c
 
 [Nice music, eh?](#embed:https://www.youtube.com/live/E-LGNO7JdO4?si=D4DbO9SIH19UQouG&t=3357)
 
-For the first time in what felt like forever, the Pink Maiden's heart dared to hope. Maybe, just maybe, her affections were finally reaching the fiery knight who unknowingly lit up her world each time she drew near.
+For the first time in what felt like forever, the Pink Maiden's heart dared to hope. Maybe, just maybe, her affections were finally reaching the Scarlet Knight who unknowingly lit up her world each time she drew near.
 
 It was romantic at first, but then the moment would ultimately be ruined by the mention of Nerissa's gifts.
 

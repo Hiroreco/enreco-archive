@@ -12,7 +12,7 @@ Together with Ina, Bijou, and Bae, Roa had to play a strange game to find who wa
 
 The curse would shift from Bae to Roa to Bijou until it was purified bit by bit, leaving a book that may be able to answer some of their questions. But [concern lingered](https://youtu.be/E-LGNO7JdO4?t=5760) about the possibility that the curse may have stayed with someone, but it was a concern thankfully unfounded. In the Library, they uncover [The Truth of Ruin](https://youtu.be/E-LGNO7JdO4?t=5936). The source of Ruination and Stains may not be from Libestal but elsewhere...
 
-But none of it concerned Roa in the slightest—her mind was occupied with other thoughts. Throughout her date with Elizabeth, one woman—despite not even being present that day—kept slipping into the romantic air between her and the fiery knight: _Nerissa_.
+But none of it concerned Roa in the slightest—her mind was occupied with other thoughts. Throughout her date with Elizabeth, one woman—despite not even being present that day—kept slipping into the romantic air between her and the Scalet Knight: _Nerissa_.
 
 So what if Nerissa may have already caught Elizabeth's eye? So what if the Raven had magic and Roa didn't have magic? She's the owner of a successful business; if she can put her mind to gathering a large profit, then she can win Elizabeth's heart. Back in the fields, she fought once again until [the money, then the ring, was hers.](https://youtu.be/E-LGNO7JdO4?t=9770)
 

@@ -6,7 +6,7 @@ Regardless, the impact of IRyS' debacles permeates throughout the kingdom regard
 
 The Hero's appearances in the kingdom were not numerous—having all of her gear upgraded to its best form, she found less need to roam around the Remnants for materials. Nowadays, most of her busywork would be related to her daily tasks, and none beyond. But she would never shy away from the opportunity of being iconic in her interactions.
 
-Upon arriving on time at today's rendezvous point—which was apparently early, because none of the organizers were on location yet—she and the humble knight Gonathon with a G just messed around, [engaged in conversation](https://youtu.be/EkwigIYpcdI?t=895s), and entertained each other. (The sketch they're referencing originally came out 18 years ago. Let that sink in.)
+Upon arriving on time at today's rendezvous point—which was apparently early, because none of the organizers were on location yet—she and the Humble Knight Gonathon with a G just messed around, [engaged in conversation](https://youtu.be/EkwigIYpcdI?t=895s), and entertained each other. (The sketch they're referencing originally came out 18 years ago. Let that sink in.)
 
 ["What's a YouTuber?"](#embed:https://youtu.be/EkwigIYpcdI?t=1382s)
 

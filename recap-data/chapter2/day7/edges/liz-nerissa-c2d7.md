@@ -64,7 +64,7 @@ She even called her beautiful. And promised she would always stay by her side…
 
 But it was too late.
 
-If only the scarlet knight had realized a bit earlier… she would’ve folded and lowered her defenses. However, thorns have already grown on the flesh of this delicate rose. Every warm and gentle touch would sting deeper, making it ever more painful to bear.
+If only the Scarlet Knight had realized a bit earlier… she would’ve folded and lowered her defenses. However, thorns have already grown on the flesh of this delicate rose. Every warm and gentle touch would sting deeper, making it ever more painful to bear.
 
 The cards had been flipped. Elizabeth was oblivious to the menacing side of the person she was falling for. As if entranced by the siren’s sweet song, she moved according to the witch’s will.
 

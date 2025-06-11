@@ -1,6 +1,6 @@
 <!-- title: The Diamond and the Black Pearl -->
 
-Early in the day, Gonathon received [a strange letter](https://youtu.be/dgfH4qnRlfw?t=2540) from Shiori of the Nyavellas, one that seemed to imply the witch had feelings for the humble knight. Dismissing it as simply an expression of gratitude, Gonathon set out to complete his daily tasks.
+Early in the day, Gonathon received [a strange letter](https://youtu.be/dgfH4qnRlfw?t=2540) from Shiori of the Nyavellas, one that seemed to imply the witch had feelings for the Humble Knight. Dismissing it as simply an expression of gratitude, Gonathon set out to complete his daily tasks.
 
 Later in the day, Shiori asked to meet with Gonathon. Shiori expressed her desire to open up a bookstore and sold Gonathon her [first story](https://youtu.be/dgfH4qnRlfw?t=17052). Shiori further admitted her lack of popularity with the others and her inability to cook. Hearing the witch's laments, something awoke within Gonathon as the knight fell madly in love with Shiori, proclaiming she wanted to live with Shiori and that they were soul mates.
 

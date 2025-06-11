@@ -6,7 +6,7 @@ She went back to her shop, where she found the story she commissioned from her d
 
 It was only 10 pages long like she asked, but… it ended on a cliffhanger! She desperately wanted to see what would happen next. Luckily, Shiori just got on, so she was able to ask for a sequel then and there.
 
-The gem then met up with her boss, Roa, who seemed to [have the hots for a certain scarlet knight?](https://youtu.be/AwTYvoyB3Xo?t=3401)
+The gem then met up with her boss, Roa, who seemed to [have the hots for a certain Scarlet Knight?](https://youtu.be/AwTYvoyB3Xo?t=3401)
 
 Bijou tried to push her towards making a move, and it seems like she did—although she made it anonymous, a secret admirer sort of situation. Whatever happened after that wasn’t Bijou’s problem at that point.
 

@@ -1,6 +1,6 @@
 <!-- title: A Bridge Too Far -->
 
-Bae was worried for Cecilia at first; The Princess and the Outlander left in a tender moment. Something that was clearly more than platonic (perhaps, incestual) love. Nonetheless, Bae pushed through. She waited by the bridge, letter in hand and roses ready. Finally, Bae gave Cecilia her confession. Bae watched patiently as Cecilia read her letter, the kind knight's voice faltering every so often. When Cecilia finished reading, Bae kneeled and presented her flowers, answering any question Cecilia asked her.
+Bae was worried for Cecilia at first; The Princess and the Outlander left in a tender moment. Something that was clearly more than platonic (perhaps, incestual) love. Nonetheless, Bae pushed through. She waited by the bridge, letter in hand and roses ready. Finally, Bae gave Cecilia her confession. Bae watched patiently as Cecilia read her letter, the Kind Knight's voice faltering every so often. When Cecilia finished reading, Bae kneeled and presented her flowers, answering any question Cecilia asked her.
 
 [Yes, it is you.](https://youtu.be/Br6dvhVJ_IE?t=4740)
 

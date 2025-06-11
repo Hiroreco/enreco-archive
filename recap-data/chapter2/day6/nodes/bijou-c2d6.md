@@ -30,7 +30,7 @@ While waiting to hear back from her knight, she kept herself company with the vo
 
 When Immerkind returned, Bijou let her off on her own devices… but she called back. There was clearly a misunderstanding, and Bijou was the one to clear it up. Indeed, _everyone_ had the same dialogue with the Princess following the Outlander duel. It was a canon event.
 
-Immerkind started to spiral, now with their self-esteem down the drain. Suddenly, Bijou found herself beside Gonathon, acting as moral support while trying to talk sense into the kind knight.
+Immerkind started to spiral, now with their self-esteem down the drain. Suddenly, Bijou found herself beside Gonathon, acting as moral support while trying to talk sense into the Kind Knight.
 
 ---
 

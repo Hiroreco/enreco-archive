@@ -2,7 +2,7 @@
 
 Elizabeth held a deep respect for Shakira. A mighty phoenix, a radiant and friendly soul, and above all, a fellow knight—she was everything Elizabeth admired. That respect went both ways. Their bond, seemingly carried over from past adventures, remained as strong as ever—perhaps even stronger now.
 
-So when Shakira offered her help to the lone scarlet knight, Elizabeth was beyond delighted.
+So when Shakira offered her help to the lone Scarlet Knight, Elizabeth was beyond delighted.
 
 [Good morrow!](#embed:https://www.youtube.com/live/CVF91CqGD80?si=YjA9HkRwDhzSjOnt&t=433)
 

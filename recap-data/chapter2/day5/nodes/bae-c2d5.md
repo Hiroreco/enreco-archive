@@ -42,7 +42,7 @@ Tired and wary, [Bijou and Bae finally made amends](https://youtu.be/L7rBGepFrXA
 
 [Oh, and Bae is also mother to another child.](#embed:https://youtu.be/L7rBGepFrXA?t=13027)
 
-But another matter lingered in Bae's mind: Cecilia Immerkind. As a worried Gonathon pulled her away to talk, Bae explained that some of her memories might be linked to her missing box. But her focus right now was the kind knight. Bae would give the letter [to Cecilia](https://youtu.be/L7rBGepFrXA?t=13807) in person and present her with flowers afterwards. Touched, Gonathon promised to help Bae when the moment arrived.
+But another matter lingered in Bae's mind: Cecilia Immerkind. As a worried Gonathon pulled her away to talk, Bae explained that some of her memories might be linked to her missing box. But her focus right now was the Kind Knight. Bae would give the letter [to Cecilia](https://youtu.be/L7rBGepFrXA?t=13807) in person and present her with flowers afterwards. Touched, Gonathon promised to help Bae when the moment arrived.
 
 ## Fanart
 

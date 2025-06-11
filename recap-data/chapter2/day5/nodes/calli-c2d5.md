@@ -6,7 +6,7 @@ In the meantime, Mordan and the other newly unionized chefs banded together to s
 
 [**“LOOK DEEPER!!”**](#embed:https://www.youtube.com/live/ABO6qUKDBG0?si=CANHm4diKaH_wEQx&t=2710)
 
-Back to the Therapy Stall once again! The tired therapist could only allude to Gonathon the tragedy of the humble knight and his pearl in the hopes he grasps what true love *really* means. Surely, this would help lead him to remember...
+Back to the Therapy Stall once again! The tired therapist could only allude to Gonathon the tragedy of the Humble Knight and his pearl in the hopes he grasps what true love *really* means. Surely, this would help lead him to remember...
 
 Mordan later joined Kiara, Roa, and Gonathon and swiftly finished the **Star Site: Chaos Dungeon**. After that, she defeats the Outlander in a duel with the power of her cooking.
 

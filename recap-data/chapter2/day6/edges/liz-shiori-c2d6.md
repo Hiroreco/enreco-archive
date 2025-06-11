@@ -14,7 +14,7 @@ Thorn.
 
 Elizabeth didn't think anyone else would know of her trusted blade's name. She did not tell anyone about Thorn, so how could Shiori Nyavella have known that name?
 
-The details of the red knight and the imprisonment of what seemed to be a character based on Nerissa...
+The details of the Red Knight and the imprisonment of what seemed to be a character based on Nerissa...
 
 *Lies,* a ***scam***
 
