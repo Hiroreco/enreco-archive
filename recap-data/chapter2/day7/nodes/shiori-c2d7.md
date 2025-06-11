@@ -1,4 +1,4 @@
-The events of yesterday were hazy in Shiori's mind, a strange feeling for someone such as her. A reboot? That would explain some of the oddness. Shiori was normally keener on the details, as a writer should, of course, but for now there was little left but to go about her day. Her shop, for instance, had a single sale so far—Mordan Ramsey had bought [something earlier](https://youtu.be/mb91g7vQSnA?t=342) earlier, but, bemusingly, her items seemed to be untouched.
+The events of yesterday were hazy in Shiori's mind, a strange feeling for someone such as her. A reboot? That would explain some of the oddness. Shiori was normally keener on the details, as a writer should. For now there was little left but to go about her day. Her shop, for instance, had a single sale so far—Mordan Ramsey had bought [something earlier](https://youtu.be/mb91g7vQSnA?t=342) earlier, but, bemusingly, her items seemed to be untouched.
 
 When Shiori went to Nerissa's house, she discovered a hidden shrine and took several books off a secret shelf. Shiori was annoyed by the loud music, so they chose to have a picnic at her house instead (see [Nerissa-Shiori](#edge:nerissa-shiori)).
 
@@ -10,7 +10,7 @@ Yesterday's events resurfaced, ones about Shiori's wife and the _possible_ impli
 
 [A familiar voice.](#embed:https://youtu.be/mb91g7vQSnA?t=1732)
 
-Outside their home, it seemed her wife was talking to a familiar face. One more tender and softer than usual and who wore a distinctive orange jacket underneath the Libestan cloak. Once upon a time, Shiori knew her under a different name. "His" name was Gonathon G. Calmer. Relaxed.
+Outside their home, it seemed her wife was talking to a familiar face. One who wore a distinctive orange jacket underneath the Libestan cloak but missing her trademark gremlin-like demeanour. Once upon a time, Shiori knew her under a different name. "His" name was Gonathon G. Calmer. Relaxed.
 
 And missing from Shiori's backlog. Shiori had never met "him" before. A fact that was unreciprocated, as Gonathon recalled speaking to Shiori yesterday about an item Shiori had supposedly left for her to buy. Bijou herself seemed to be aware of something by how she nudged Gonathon away to talk, a conversation Shiori was careful to avoid eavesdropping on. When the two finished, [Shiori gave the Knight a small snack for later](https://youtu.be/mb91g7vQSnA?t=2040), a small commemoration of their "first" meeting.
 
@@ -52,7 +52,7 @@ Shiori would walk the beautiful businesswoman down the aisle as the crowd cheere
 
 [Group Photo! Huzzah!](#embed:https://youtu.be/mb91g7vQSnA?t=10859)
 
-Perhaps swept up by the flow, Shiori shared her feelings with Bijou. Insecure since their relationship was unbalanced by what Shiori remembered and what Bijou couldn't. But that didn't matter, not to Bijou. She promised Shiori that she would be the only one Bijou would love. Taking heart the lessons from the past, they would take it slow, and when the time comes to talk, they shall. Shiori accepted.
+Swept up by the flow of events, Shiori shared her feelings with Bijou. Insecure since their relationship was unbalanced by what Shiori remembered and what Bijou couldn't. But that didn't matter, not to Bijou. She promised Shiori that she would be the only one Bijou would love. Taking heart the lessons from the past, they would take it slow, and when the time comes to talk, they shall. Shiori accepted.
 
 [Ring of Promise](#embed:https://youtu.be/mb91g7vQSnA?t=11132)
 
