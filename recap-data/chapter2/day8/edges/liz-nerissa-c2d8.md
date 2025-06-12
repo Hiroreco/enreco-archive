@@ -66,8 +66,10 @@ When does a knight bend the knee?
 
 ---
 
-## Fan Arts
+## Fan Work
 
 ["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
 
 ["What could've been" by Keisea](https://x.com/Keiseeaaa/status/1920620111464992799)
+
+["The Bird Song | An ENreco Animatic" by Elisbian](https://www.youtube.com/watch?v=xhnI-hxB3as&ab_channel=Elisbian)
