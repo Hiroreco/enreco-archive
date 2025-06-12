@@ -12,7 +12,7 @@ In the past, before the Outsider truly came to be, Peasant The Bae could be the 
 
 [Ruination](#embed:https://youtu.be/7bOe38rP7JQ?t=1484)
 
-Soon after arriving in Ancient Libestal, Bae meets Princess Iphinia, Libestal's last remaining royal. The Princess tells them of the Ruination and that the end will come after seven days. Though Bae's mission differs from Princess Iphinia's own goal to defy the fate of her Kingdom, she graciously allows our heroes to take on jobs and to prepare for their respective quests.
+Soon after arriving in Ancient Libestal, Bae meets Princess Iphania, Libestal's last remaining royal. The Princess tells them of the Ruination and that the end will come after seven days. Though Bae's mission differs from Princess Iphania's own goal to defy the fate of her Kingdom, she graciously allows our heroes to take on jobs and to prepare for their respective quests.
 
 [Bae Yearns for the Mines](#embed:https://youtu.be/7bOe38rP7JQ?t=1739)
 
