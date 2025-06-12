@@ -16,7 +16,7 @@ There wasn't much left for Shiori to do. A few quests and cooking filled was had
 
 The picnic with Cecilia was also rather nice, the two trading small talk over the _complicated_ relationships and resulting dramas. About how each person was the hero of their own story; it was their tale while others were but a part of it. Such as Roa attaining her own happy ending with Kiara after days of turmoil. Even the Hero Ina had [her own struggles](https://youtu.be/jh0GSZRpkfU?t=4091), Shiori accidentally eavesdropping as Ina wrote a letter to her own paramour. But in the end, they were part of a larger, grander epic.
 
-Shiori's own tale was winding down. With her beloved Bijou, they watched Mordan's auction unfold. Friends bought houses to stay and build a new start to their lives. Shiori wondered if they should buy a house of their own, but Bijou refused. She looked at Shiori fondly, saying she was content and happy with the GothRock they already had. A tender moment that was briefly interrupted by another scandal: Mordan Ramsay was accused of intellectual theft by Ina. A scandal that was soon dropped since our heroes have limited run time.
+Shiori's own tale was winding down. With her beloved Bijou, they watched Mordan's auction unfold. Friends bought houses to stay and build a new start to their lives. Shiori wondered if they should buy a house of their own, but Bijou refused. She looked at Shiori fondly, saying she was content and happy with the GothRock they already had. A tender moment that was briefly interrupted by another scandal: Mordan Ramsey was accused of intellectual theft by Ina. A scandal that was soon dropped since our heroes have limited run time.
 
 [A Memory to Save...](#embed:https://youtu.be/jh0GSZRpkfU?t=5266)
 
