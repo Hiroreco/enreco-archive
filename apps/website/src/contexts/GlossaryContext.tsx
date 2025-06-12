@@ -35,18 +35,58 @@ for (const [categoryKey, data] of Object.entries(categoryMap)) {
 
 interface GlossaryContextType {
     registry: typeof registry;
+    current: LookupEntry | null;
+    history: LookupEntry[];
     selectItem: (entry: LookupEntry | null) => void;
-    selected: LookupEntry | null;
+    goBack: () => void;
+    goHome: () => void;
+    clearHistory: () => void;
 }
 
 const GlossaryContext = createContext<GlossaryContextType | null>(null);
 
 export function GlossaryProvider({ children }: { children: ReactNode }) {
-    const [selected, setSelected] = useState<LookupEntry | null>(null);
-    const selectItem = (entry: LookupEntry | null) => setSelected(entry);
+    const [current, setCurrent] = useState<LookupEntry | null>(null);
+    const [history, setHistory] = useState<LookupEntry[]>([]);
+
+    const selectItem = (entry: LookupEntry | null) => {
+        setHistory((h) => (current ? [...h, current] : h));
+        setCurrent(entry);
+    };
+
+    const goBack = () => {
+        setHistory((h) => {
+            if (h.length === 0) {
+                setCurrent(null);
+                return [];
+            }
+            const prev = h[h.length - 1];
+            setCurrent(prev);
+            return h.slice(0, -1);
+        });
+    };
+
+    const goHome = () => {
+        setCurrent(null);
+        setHistory([]);
+    };
+
+    const clearHistory = () => {
+        setHistory([]);
+    };
 
     return (
-        <GlossaryContext.Provider value={{ registry, selectItem, selected }}>
+        <GlossaryContext.Provider
+            value={{
+                registry,
+                selectItem,
+                current,
+                history,
+                goBack,
+                goHome,
+                clearHistory,
+            }}
+        >
             {children}
         </GlossaryContext.Provider>
     );

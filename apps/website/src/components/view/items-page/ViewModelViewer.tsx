@@ -24,7 +24,7 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
-        <div className="relative w-full h-full">
+        <div className="relative size-full">
             <Canvas
                 className="rounded-lg"
                 style={{

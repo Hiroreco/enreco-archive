@@ -10,10 +10,10 @@ interface ViewItemViewerProps {
 
 const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     return (
-        <div className="flex flex-col items-center md:items-start  overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-4 h-full px-2">
-            <div className="w-[250px] md:mt-20">
+        <div className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2">
+            <div className="flex flex-col items-center md:mt-14 gap-4">
                 <p className="font-bold text-center">Model Viewer</p>
-                <div className="w-full h-[250px]">
+                <div className="w-[250px] h-[250px]">
                     {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
                     )}
@@ -21,13 +21,13 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                         <ViewLightbox
                             src={item.imageSrc}
                             alt={item.title}
-                            className="object-cover h-[250px] w-full"
+                            className="object-cover size-full"
                             width={250}
                             height={250}
                         />
                     )}
                 </div>
-                <div className="mt-4 w-full text-center">
+                <div className="w-full text-center">
                     <p className="text-center underline underline-offset-2 font-semibold">
                         {item.title}
                     </p>
@@ -68,7 +68,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
 
                 <Separator />
 
-                <div className="shrink-0 flex overflow-x-scroll w-full content-container scrollb">
+                <div className="shrink-0 flex overflow-x-scroll w-full content-container">
                     {item.galleryImages.map((image, index) => (
                         <ViewLightbox
                             key={index}

@@ -4,6 +4,7 @@ import {
     Book,
     ChevronLeft,
     Dices,
+    Home,
     Scroll,
     Sword,
     UserRound,
@@ -53,8 +54,16 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
-    const { registry, selected, selectItem } = useGlossary();
-    const selectedItem = selected?.item || null;
+    const {
+        registry,
+        current,
+        history,
+        clearHistory,
+        selectItem,
+        goBack,
+        goHome,
+    } = useGlossary();
+    const selectedItem = current?.item || null;
 
     useEffect(() => {
         const newMap: GlossaryPageData = {};
@@ -79,13 +88,11 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
     // If context.selected changes (via a #item link), jump to its category
     useEffect(() => {
-        if (selected) {
-            // switch tabs to the entry's category
-            setSelectedCategory(selected.categoryKey);
-            // reset chapter filter so item is visible
+        if (current) {
+            setSelectedCategory(current.categoryKey);
             setSelectedChapter(-1);
         }
-    }, [selected]);
+    }, [current]);
 
     const allEmpty = Object.values(filteredData).every(
         (arr) => arr.length === 0,
@@ -94,16 +101,25 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
             <CardHeader className="pb-0 px-4">
-                <div className="flex flex-row items-center w-full justify-between">
-                    <CardTitle className="flex justify-between items-center gap-2">
-                        {selectedItem !== null && (
-                            <ChevronLeft
-                                size={16}
-                                className="cursor-pointer"
-                                onClick={() => selectItem(null)}
-                            />
-                        )}
+                <div className="flex flex-row h-[30px] items-center w-full justify-between px-2">
+                    <CardTitle className="flex justify-between items-center w-full">
                         {categoryMap[selectedCategory].label}
+                        {selectedItem !== null && (
+                            <div className="flex items-center gap-2">
+                                {history.length > 0 && (
+                                    <ChevronLeft
+                                        size={24}
+                                        className="cursor-pointer transition-opacity opacity-60 hover:opacity-100"
+                                        onClick={goBack}
+                                    />
+                                )}
+                                <Home
+                                    size={24}
+                                    className="cursor-pointer transition-opacity opacity-60 hover:opacity-100"
+                                    onClick={goHome}
+                                />
+                            </div>
+                        )}
                     </CardTitle>
 
                     <Select
@@ -114,7 +130,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     >
                         <SelectTrigger
                             className={cn("w-[180px]", {
-                                invisible: selectedItem !== null,
+                                hidden: selectedItem !== null,
                             })}
                         >
                             <SelectValue />
@@ -172,6 +188,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                                                                 it,
                                                             ) => {
                                                                 // find which registry entry it was:
+                                                                // also prettier wtf is this formatting
                                                                 const entry =
                                                                     registry[
                                                                         it.id
@@ -205,7 +222,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                 </AnimatePresence>
             </CardContent>
 
-            <CardFooter className="p-0 pb-4">
+            <CardFooter className="p-0 py-4">
                 <Tabs
                     className="m-auto"
                     value={selectedCategory}
@@ -213,6 +230,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                         setSelectedCategory(value);
                         selectItem(null);
                         setSelectedChapter(-1);
+                        clearHistory();
                     }}
                     defaultValue={selectedCategory}
                 >
