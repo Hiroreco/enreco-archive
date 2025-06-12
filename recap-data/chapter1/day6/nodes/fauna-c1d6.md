@@ -18,4 +18,6 @@ Unlike the others in the kingdom, Fauna’s day was relatively quiet and focused
 
 For now, her library was her priority, and she poured her heart into every brick and shelf, confident that her vision would soon come to life.
 
+## Fanart
+
 ["FaunaMart 1996 VHS Commercial Footage" by Emico Otero](https://x.com/EmicoOtero/status/1832447889794331060)

@@ -28,6 +28,8 @@ Meanwhile, Nerissa was putting in extra effort to grab Elizabeth’s attention, 
 
 Nerissa knew she was getting on Elizabeth’s nerves, and she enjoyed every second of it.
 
+## Fanart
+
 ["she's cursed" by Keisea](https://x.com/Keiseeaaa/status/1831845649870160186)
 
 ["knight confronts the witch" by DasDokter](https://x.com/DasDokter/status/1831973884461298095)

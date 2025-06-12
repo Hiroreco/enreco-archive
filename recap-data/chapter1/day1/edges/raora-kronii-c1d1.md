@@ -14,4 +14,6 @@ What followed was a conversation that could only be described as something strai
 
 Raora, however, wasn’t just playing around—she was serious. She would do whatever it took to prove she was the true queen. But Tam? She could only shake her head and brush the whole thing off, thinking to herself, "What the heck is wrong with this person?"
 
+## Fanart
+
 ["Tam ten~" by ErasorPepero](https://x.com/erasopepero232/status/1830564734657331247)

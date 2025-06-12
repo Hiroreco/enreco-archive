@@ -54,6 +54,8 @@ A knight’s tale. A knight’s wish.
 
 A story to be told for generations to come.
 
+## Fanart
+
 ["Once upon a time" by Fongban](https://x.com/Fongban_/status/1832841781727383603)
 
 ["His Pearl, Her Diamond" by Meowniac](https://x.com/RayyRamson/status/1832709727857627345)

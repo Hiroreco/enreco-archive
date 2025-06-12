@@ -25,4 +25,6 @@ From there on, the two gained newfound respect for each other. Before this, when
 
 [You're finally listening](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=10359)
 
+## Fanart
+
 ["A distraction" by Hyoweii](https://x.com/weiiyxn/status/1832436596261724166)

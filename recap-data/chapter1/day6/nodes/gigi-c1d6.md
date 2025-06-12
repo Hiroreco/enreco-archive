@@ -32,4 +32,6 @@ With his queen on an expedition, his guildmate under suspicion of corruption, an
 
 Yet, he resolved to press on, undeterred by the challenges before him (see [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame)).
 
+## Fanart
+
 ["there is only one for him" by Daaku](https://x.com/koizumi_arata/status/1831971695621808324)
