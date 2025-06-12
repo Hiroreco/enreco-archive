@@ -9,13 +9,20 @@ import lore from "#/glossary/lore.json";
 import quests from "#/glossary/quests.json";
 import misc from "#/glossary/misc.json";
 
+export type Category =
+    | "cat-weapons"
+    | "cat-characters"
+    | "cat-lore"
+    | "cat-quests"
+    | "cat-misc";
+
 type LookupEntry = {
-    categoryKey: string;
+    categoryKey: Category;
     subcategory: string;
     item: CommonItemData;
 };
 
-const categoryMap: Record<string, GlossaryPageData> = {
+const categoryMap: Record<Category, GlossaryPageData> = {
     "cat-weapons": weapons,
     "cat-characters": characters,
     "cat-lore": lore,
@@ -28,7 +35,11 @@ const registry: Record<string, LookupEntry> = {};
 for (const [categoryKey, data] of Object.entries(categoryMap)) {
     for (const [subcat, items] of Object.entries(data)) {
         for (const item of items) {
-            registry[item.id] = { categoryKey, subcategory: subcat, item };
+            registry[item.id] = {
+                categoryKey: categoryKey as Category,
+                subcategory: subcat,
+                item,
+            };
         }
     }
 }

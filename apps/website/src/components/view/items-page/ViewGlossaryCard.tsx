@@ -13,7 +13,7 @@ import { ReactElement, useEffect, useState } from "react";
 
 import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
 import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
-import { useGlossary } from "@/contexts/GlossaryContext";
+import { Category, useGlossary } from "@/contexts/GlossaryContext";
 import {
     Card,
     CardContent,
@@ -40,7 +40,7 @@ interface ViewGlossaryCardProps {
     className?: string;
 }
 
-const categoryMap: Record<string, { label: string; icon: ReactElement }> = {
+const categoryMap: Record<Category, { label: string; icon: ReactElement }> = {
     "cat-weapons": { label: "Weapons", icon: <Sword /> },
     "cat-characters": { label: "Characters", icon: <UserRound /> },
     "cat-lore": { label: "Lore", icon: <Book /> },
@@ -49,7 +49,8 @@ const categoryMap: Record<string, { label: string; icon: ReactElement }> = {
 };
 
 const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
-    const [selectedCategory, setSelectedCategory] = useState("cat-weapons");
+    const [selectedCategory, setSelectedCategory] =
+        useState<Category>("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
 
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
@@ -227,7 +228,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     className="m-auto"
                     value={selectedCategory}
                     onValueChange={(value) => {
-                        setSelectedCategory(value);
+                        setSelectedCategory(value as Category);
                         selectItem(null);
                         setSelectedChapter(-1);
                         clearHistory();
@@ -237,7 +238,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     <TabsList>
                         {Object.keys(categoryMap).map((category) => (
                             <TabsTrigger value={category} key={category}>
-                                {categoryMap[category].icon}
+                                {categoryMap[category as Category].icon}
                             </TabsTrigger>
                         ))}
                     </TabsList>
