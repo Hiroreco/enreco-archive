@@ -36,7 +36,8 @@ There were still a few things to remember from Shiori and Bijou's short stay. Th
 
 [A Picture with ~~Gonathon~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
 
-Finally, the not-red banquet had begun! Shiori watched as Everyone cheered as the second part of their journey was officially over, letting out "Huzzahs" and firing fireworks into the flammable decor of the Great Hall. She enjoyed the moment for just that. A moment. Jubilation and "wooden shovels" consumed the conversations Shiori could hear, though that didn't matter for long. Soon, Shiori Nyavella's role will end, and a new one will begin.
+Finally, the not-red banquet had begun! Shiori watched as everyone cheered as the second part of their journey was officially over, letting out "Huzzahs" and firing fireworks into the flammable decor of the Great Hall. She enjoyed the moment for just that. A moment. Jubilation and "wooden shovels" consumed the conversations Shiori could hear, though that didn't matter for long. Soon, Shiori Nyavella's role will end, and a new one will begin.
+
 
 A scream echoed through the castle, throughout Libestal.
 
