@@ -1,9 +1,10 @@
-<!-- title: Sidechick No.4 -->
+<!-- title: Side Chick No.4 -->
 
-Hot Pink One: "I'm so hot, I have three side chicks".Nerissa: "Can I be your fourth?"
-Hot Pink One: "Sure".
+Hot Pink One: "I'm so hot, I have three side chicks." 
+Nerissa: "Can I be your fourth?"
+Hot Pink One: "Sure."
+
 And just like that, Nerissa became the Pink Lady's fourth concubine. Honestly, it couldn't have been any simpler.
-
 
 [Finally, I've gathered them all](#embed:https://www.youtube.com/live/gtOGWDKwQfY?feature=shared\&t=4682)
 
