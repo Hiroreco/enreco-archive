@@ -2,9 +2,9 @@ Fuwawa’s day began with a familiar worry. [*"Is Mococo going to the lottery ag
 
 As she contemplated her plans for the day, Fuwawa realized that she lacked a clear goal. Since arriving in the kingdom, she’d simply gone with the flow, completing her tasks dutifully and being the good doggo everyone expected her to be. But now, she craved something of her own—something to give her purpose.
 
-The idea of creating a [garden](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared\&t=1460) began to blossom in her mind. Unlike the grand gallows, bustling businesses, and massive statues others were constructing, Fuwawa wanted a small, peaceful space where she could relax and feel at ease. She turned to Elizabeth for help, and the breadlady eagerly agreed.
+The idea of creating a [garden](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared\&t=1460) began to blossom in her mind. Unlike the grand gallows, bustling businesses, and massive statues others were constructing, Fuwawa wanted a small, peaceful space where she could relax and feel at ease. She turned to Elizabeth for help, and the bread lady eagerly agreed.
 
-The garden project would have to wait, though, as there were other pressing matters to attend to. Fuwawa started preparing for the final dungeon, and during a visit to the king’s castle turned unsettling for Fuwawa. As she left the castle, she heard blood-curdling screams and the sound of a heavy thud, like someone had fallen. The eerie noises left her stunned and utterly baffled, a chilling moment she couldn’t shake off.
+The garden project would have to wait though, as there were other pressing matters to attend to. While Fuwawa started preparing for the final dungeon, she had an unsettling visit to the king’s castle. As she left the castle, she heard blood-curdling screams and the sound of a heavy thud, like someone had fallen. The eerie noises left her stunned and utterly baffled, a chilling moment she couldn’t shake off.
 
 [A fluffy adventure turned horror](#embed:https://www.youtube.com/live/FjZ9ettDlNw?t=3643)
 
