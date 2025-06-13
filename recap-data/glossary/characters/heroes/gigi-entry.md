@@ -21,6 +21,8 @@ Who are you
 
 ### Chapter 2
 
-**Name:** Gonathon G. Gets Amnesia
+**Name:** Gonathon G. 
+
 **Job:** Blacksmith
+
 Who are you 2: Electric Boogaloo
