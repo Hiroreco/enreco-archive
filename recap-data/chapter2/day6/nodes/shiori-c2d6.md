@@ -51,3 +51,5 @@ Before Shiori left to sleep, Queen Tam approached to apologize for interrupting 
 ## Fanart
 
 ["just a humble witch" by Noise](https://x.com/lestkrr/status/1922074979434184946)
+
+["a finger in every pie" by Elisbian](https://x.com/Elisbian_/status/1932104079939186910)

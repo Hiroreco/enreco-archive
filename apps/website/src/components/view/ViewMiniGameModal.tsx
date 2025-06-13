@@ -32,15 +32,15 @@ interface ViewMiniGameModalProps {
 
 const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
     gambling: {
-        label: "Gambling Game (Chapter 1)",
+        label: "Color Cannon (Chapter 1)",
         info: <ViewGamblingGameInfo />,
     },
     memory: {
-        label: "Memory Game (Chapter 1)",
+        label: "Mind's Eye (Chapter 1)",
         info: <ViewMemoryGameInfo />,
     },
     chicken: {
-        label: "Chicken Game (Chapter 1)",
+        label: "Chicken Rescue (Chapter 1)",
         info: <ViewChickenGameInfo />,
     },
     shiori: {

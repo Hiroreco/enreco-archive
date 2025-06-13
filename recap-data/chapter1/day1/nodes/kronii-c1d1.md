@@ -24,4 +24,6 @@ But above all, she found solace in the simple yet profound comfort of having a n
 
 As the kingdom settled into quiet, Tam yearned for a peaceful night’s sleep. Surely, nothing else would trouble her now. Surely... (see [Raora-Tam: Say my name](#edge:raora-kronii)).
 
+## Fanart
+
 ["Queen Tam Gandr" by Daaku](https://x.com/koizumi_arata/status/1830329272155931070)

@@ -1,6 +1,6 @@
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
-She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
+She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Shining Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
 
 _"We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider"_.
 
@@ -27,7 +27,7 @@ After a long first day, Immerkind returns to the artist Pygmalion and marvels at
 ### Objective Tracker - Project Abortion
 
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
-[Libestan Two - Grypon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
+[Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 
 ### Fanart
 

@@ -37,6 +37,8 @@ While watching the duels, something stirred within Amelia—something about the 
 
 At one point, Amelia remembered a diamond, but it was still too foggy. Her head hurt, and she struggled to grasp what it was she was trying to recall. It was important, she felt, but no matter how hard she tried, she couldn’t remember.Amelia decided it would be best to rest for now, yet that aching in her head [persisted](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=9730).
 
+## Fanart
+
 [A Knight's Tale by Raff Yasushi](https://x.com/raffanda_/status/1832103922015822089)
 
 [Gonathon G! by yomosaka](https://x.com/yomosaka/status/1832146121898221666)

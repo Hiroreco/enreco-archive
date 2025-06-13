@@ -200,7 +200,3 @@ Procfile          text
 *.*ignore         text
 # Prevents massive diffs from built files
 dist/*            binary
-/shared-resources/**/*.png filter=lfs diff=lfs merge=lfs -text
-/shared-resources/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-/shared-resources/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
-/shared-resources/**/*.webp filter=lfs diff=lfs merge=lfs -text

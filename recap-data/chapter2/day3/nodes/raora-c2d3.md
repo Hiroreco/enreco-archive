@@ -10,7 +10,7 @@ Roa met the Hot Pink One and was fed by her [mouth-to-mouth](https://youtu.be/hp
 
 Bijou and Roa left for their shop, and Roa was impressed by the profits made while she was away. Seeing that their inventory needed restocking, Roa took it upon herself to craft more charms, completing some more quests in the meanwhile to earn a bit more gold. The business with Peasant The Bae is also quite good, as the supplier brought back some Stain materials that Roa needed. But Bae brought more than just the goods; she brought back [a startling discovery of not just the Princess and Outlander, but of the true nature of Libestal as well](https://youtu.be/hpyRxse4zCw?t=5595). Not surprised by the news that she already knew and unfazed by the newer revelation, Roa pointed out a key feature to support this: the Libestians all have the same face. Following Roa's keen observation, Bijou added that *they*, the heroes of Libestal from another world, have similar faces to each other, albeit differing in colors.
 
-[We Are In-Bread. Glory to The Sandwich](#embed:https://youtu.be/hpyRxse4zCw?t=6208)
+[We Are In-Bread, Glory to The Sandwich](#embed:https://youtu.be/hpyRxse4zCw?t=6208)
 
 Roa is the ham in the sandwich; such a sentence may not have been spoken of before, but it is nonetheless true. Perhaps the trials of the day wore down on the businesswoman, perhaps something mysterious (sandwich) has spread over these bread-like, blocky lands. Whatever the cause, a cult was born, and their goal has never been clearer: to follow the bread and turn the entire world into one large sandwich. To accomplish this, they must bring other heroic ingredients into their fold and accept the inbreadness inside them.
 

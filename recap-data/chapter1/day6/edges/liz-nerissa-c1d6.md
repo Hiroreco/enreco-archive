@@ -26,6 +26,8 @@ But then she saw Kiara, absolutely glowing with excitement about her upcoming to
 
 [Tough luck, Nerissa.](#embed:https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=7493)
 
+## Fanart
+
 ["Maybe if I die with a knight's honor, I may see her again" by Keisea](https://x.com/Keiseeaaa/status/1832145708394410335)
 
 ["i will be a better knight for you, lady ravencroft" by mitchie](https://x.com/pappikapon/status/1832185189864239450)
