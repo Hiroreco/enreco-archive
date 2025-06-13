@@ -14,6 +14,7 @@ Gonathon G. is pretty cool.
 ### Chapter 1
 
 **Name:** Gonathon G.
+
 **Guild:** Cerulean Cup
 
 Who are you
