@@ -6,7 +6,7 @@ Perhaps deep down, he recalled going through this before and had grown used to i
 
 [To Gonathon: Ooopsies](#embed:https://www.youtube.com/watch?v=rDdbFYqcAyI&t=1177s)
 
-Thankfully, the absent-minded therapist quickly realized her mistake and left the book for Gonathon at the knight’s treehouse. Cradling it in his hands, Gonathon [read it](https://youtu.be/rDdbFYqcAyI?t=1555) and learned of items Shiori had hidden for him at the back of her tree. Swiftly collecting them, Gonathon had no time to read them as Shiori—now calling him “G”—contacted him for assistance in the newest resource area, a request he was happy to oblige.
+Thankfully, the absent-minded therapist quickly realized her mistake and left the book for Gonathon at the knight’s treehouse. Cradling it in his hands, Gonathon [read it](https://youtu.be/rDdbFYqcAyI?t=1555) and learned that Shiori had hidden several important items for him being the treehouse. Swiftly collecting them, Gonathon had no time to read their contents as Shiori—now calling him “G”—contacted him for assistance in the newest resource area, a request he was happy to oblige.
 
 [A Chance to Begin Again](#embed:https://youtu.be/rDdbFYqcAyI?t=1775)
 
