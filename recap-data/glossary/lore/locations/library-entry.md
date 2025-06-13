@@ -68,7 +68,7 @@ The records of a researcher studying the spread of shadowy beings known as the S
 [Read "Researcher's Journal #5"](#text:researchers-journal-5)
 
 **Rider's Journal**
-The diary of a refugee and caretaker of gryphons, who witnessed firsthand the devastation wrought by the Stains—the loss of their home and the loved ones they once protected.
+The diary of a refugee and caretaker of gryphons, who bore witness to the devastation wrought by the Stains—losing not only their home, but also their beloved companions.
 
 [Read "Rider's Journal #1"](#text:riders-journal-1)
 [Read "Rider's Journal #2"](#text:riders-journal-2)
