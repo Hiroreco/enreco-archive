@@ -22,6 +22,6 @@ The day took a chaotic turn when Elizabeth became an impromptu guardian for Moco
 
 The situation spiraled when Gonathon, seeking answers about Mococo, challenged Elizabeth to a duel. Determined not to repeat her past humiliation at the hands of the Hot Pink One, Elizabeth gave the duel her all. She emerged victorious, earning the respect of onlookers.
 
-However, her triumph was short-lived. As part of Gonathon’s terms for the duel, he forced Nerissa to utter a heart-wrenching phrase: "I hate you".
+However, her triumph was short-lived. As part of Gonathon’s terms for the duel, he forced Nerissa to utter a heart-wrenching phrase: "I hate you."
 
 Elizabeth, the scarlet knight, was left heartbroken. The sweetness of her victory dissolved into bitterness (see [Elizabeth-Nerissa: Heartbroken](#edge:liz-nerissa)).

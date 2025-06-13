@@ -1,4 +1,4 @@
-Gonathon awoke from a restless night, haunted by troubling thoughts. The corruption spreading through the kingdom weighed heavily on his mind, alongside the impending sense of doom tied to the "calm before the storm". Above all, his Pearl—the one he cherished most—had forgotten him, leaving an ache of loneliness and doubt in his heart.
+Gonathon awoke from a restless night, haunted by troubling thoughts. The corruption spreading through the kingdom weighed heavily on his mind, alongside the impending sense of doom tied to the "calm before the storm." Above all, his Pearl—the one he cherished most—had forgotten him, leaving an ache of loneliness and doubt in his heart.
 
 Yet, despite the emotional turmoil, Gonathon resolved to press on. As a knight entrusted by his queen, he couldn't afford to falter. He steeled himself, determined to complete the grand statue of his queen—a monument of his devotion—before the day ended. But as he set to work, he was interrupted by an unexpected sight: why were there people in his guild base?
 
@@ -14,7 +14,7 @@ During their quest, Gonathon took the opportunity to share his growing concerns 
 
 Later, while passing by Cecilia and Nanamoo playing a memory game, Gonathon decided to join in for a change of pace. Despite not taking it seriously, he won, much to Cecilia’s chagrin—a small but welcome reprieve from the heavier matters at hand.
 
-Then came an utterly bizarre and unexpected detour: Gonathon, a male knight, was rumored to be [pregnant?](https://www.youtube.com/live/_pxgqfGjshs?feature=shared\&t=6299) The absurd idea stemmed from a visit to the newly opened NanaEleven store, where Nanamoo somehow turned a simple errand into a side quest. Despite the silliness, Gonathon found himself drawn into the chaos. He half-heartedly worried over Nanamoo’s grim warnings about male pregnancy survival rates and even agreed to an impromptu "pregnancy test".
+Then came an utterly bizarre and unexpected detour: Gonathon, a male knight, was rumored to be [pregnant?](https://www.youtube.com/live/_pxgqfGjshs?feature=shared\&t=6299) The absurd idea stemmed from a visit to the newly opened NanaEleven store, where Nanamoo somehow turned a simple errand into a side quest. Despite the silliness, Gonathon found himself drawn into the chaos. He half-heartedly worried over Nanamoo’s grim warnings about male pregnancy survival rates and even agreed to an impromptu "pregnancy test."
 
 [How did we get here](#embed:https://www.youtube.com/live/_pxgqfGjshs?feature=shared\&t=7535)
 

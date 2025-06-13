@@ -4,7 +4,7 @@ The first thing Gura did upon regrouping with everyone was perform the Scarlet W
 
 [poopoo in the bush](#embed:https://www.youtube.com/live/cIb5yHw4mvk?feature=shared\&t=1089)
 
-Gura then crossed paths with Amelia. Despite having rarely spoken to each other before, their interactions always seemed to convey an unusual closeness. Of course, their conversations often veered into questionable territory, like when Gura casually offered Amelia her ["meat"](https://www.youtube.com/live/cIb5yHw4mvk?feature=shared\&t=733). Nevertheless, she wished the blonde maiden good luck in her search for her "diamonds".
+Gura then crossed paths with Amelia. Despite having rarely spoken to each other before, their interactions always seemed to convey an unusual closeness. Of course, their conversations often veered into questionable territory, like when Gura casually offered Amelia her ["meat"](https://www.youtube.com/live/cIb5yHw4mvk?feature=shared\&t=733). Nevertheless, she wished the blonde maiden good luck in her search for her "diamonds."
 
 Realizing that time was running out—only 15 minutes left until the end of the world—Gura rushed to finish her quests and dungeons. In her hurry, she accidentally [ignored](https://www.youtube.com/live/cIb5yHw4mvk?feature=shared\&t=1525) Mococo, who had been trying to start a conversation.
 

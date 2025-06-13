@@ -2,7 +2,7 @@ The lands were burning. Grass, leaves, and plants withered as a dark atmosphere 
 
 [Corruption tour goes hard](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=2dtIYm0_FVJFB59D&start=604)
 
-She stood amidst her masterpiece—a forest corrupted and stained, littered with flames. In the heart of this chaos, she constructed a small, ominous pillar adorned with four guild hats, surrounded by fire, with a sign that read: _"FIRE FIRE LIGHT THE FIRE"._ It was a grim warning to all who dared oppose her. Nearby, a moai statue wept blood, symbolizing the land’s despair under its false queen. The imagery was deliberate; Bijou sought to bring chaos and suffering.
+She stood amidst her masterpiece—a forest corrupted and stained, littered with flames. In the heart of this chaos, she constructed a small, ominous pillar adorned with four guild hats, surrounded by fire, with a sign that read: _"FIRE FIRE LIGHT THE FIRE."_ It was a grim warning to all who dared oppose her. Nearby, a moai statue wept blood, symbolizing the land’s despair under its false queen. The imagery was deliberate; Bijou sought to bring chaos and suffering.
 
 While exploring the kingdom, Bijou stumbled upon an unusual sight. The kingdom’s gardens had been ravaged by famine, though not by her hand. Could she have an [ally](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=805), someone aligned with her chaotic vision? The idea amused her. Distracted momentarily, she indulged in a game of [chicken-catching](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=1182)—a brief respite from her descent into darkness.
 
@@ -20,7 +20,7 @@ As she pondered, flashes of memories surfaced—fragments of bonds forged during
 
 [3AM chuuni speech](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=5ujXRmx4bgpcTv1c&start=1757)
 
-She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama"](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=6121). Even in her chaos, she found time to write her "spicy fics", boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou)).
+She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama"](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=6121). Even in her chaos, she found time to write her "spicy fics," boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou)).
 
 Bijou’s suspicions of having allies proved correct. Slowly, Mococo, Fuwawa, Nerissa, and even Shiori succumbed to the corruption, joining her in wreaking havoc. However, her newfound power began unraveling when she faced her mother, Mario. Mario, heartbroken and in tears, begged Bijou to stop, only to be rejected.
 

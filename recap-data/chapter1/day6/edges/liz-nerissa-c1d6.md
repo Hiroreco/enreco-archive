@@ -14,11 +14,11 @@ Horrified, Nerissa ran off to report the heinous crime to the others, accusing K
 
 So, Kiara cooked Nerissa [too](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=2898).
 
-Elizabeth, for her part, didn’t think much of it. That was, until she got a call from [Gonathon](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=4894). "Nerissa’s dead," he told her. "She’s a ghost now". Startled, she immediately dialed Nerissa’s number, and sure enough, the blue maiden—now ghostly—answered.
+Elizabeth, for her part, didn’t think much of it. That was, until she got a call from [Gonathon](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=4894). "Nerissa’s dead," he told her. "She’s a ghost now." Startled, she immediately dialed Nerissa’s number, and sure enough, the blue maiden—now ghostly—answered.
 
 [Nerissa is kil](#embed:https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=4984)
 
-"Elizabeth," Ghost Nerissa spoke solemnly, "avenge me. Slay Kiara in my name". (slightly overdramatized)
+"Elizabeth," Ghost Nerissa spoke solemnly, "avenge me. Slay Kiara in my name." (slightly overdramatized)
 
 Elizabeth hesitated. For a moment, she actually considered it. Kiara had quite literally roasted someone alive—justice seemed warranted.
 

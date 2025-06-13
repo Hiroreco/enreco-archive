@@ -20,7 +20,7 @@ Then, the King's chuckle echoed through the throne room.
 
 It wasn’t a chuckle of relief or joy. It was mocking, twisted, and laced with malice. The truth came crashing down.
 
-The King had tricked them. This had all been part of his plan. The kingdom, the Stains, the war—it had all been a ruse. With the heroes’ victory, he had finally been "freed".
+The King had tricked them. This had all been part of his plan. The kingdom, the Stains, the war—it had all been a ruse. With the heroes’ victory, he had finally been "freed."
 
 No longer bound by his shackles, the King revealed his true self. His small, kindly form twisted and contorted, warping into a hideous monstrosity wrapped in chains. *The Captive* had awakened.
 

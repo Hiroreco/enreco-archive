@@ -14,6 +14,6 @@ While she paused construction to join the other heroes on a journey to the *Ocea
 
 As if it were a custom for these girls, she decided to conclude her day with another trip to the casino. But beginner's luck only lasts for so long, and this time around, fortune wasn’t on her side.
 
-Round after round, she kept losing. The voices in her head begged her to stop for her own good, but like any true addict, she kept going, muttering, "just one more round". Despite starting the day as one of the richest heroes with over 1,500 coins, by the end, Nerissa had whittled her fortune down to a mere... 92.
+Round after round, she kept losing. The voices in her head begged her to stop for her own good, but like any true addict, she kept going, muttering, "just one more round." Despite starting the day as one of the richest heroes with over 1,500 coins, by the end, Nerissa had whittled her fortune down to a mere... 92.
 
 [One more game, she said](#embed:https://www.youtube.com/live/nHn2JKHTyzM?t=11250)

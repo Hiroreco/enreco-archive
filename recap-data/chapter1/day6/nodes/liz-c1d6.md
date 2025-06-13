@@ -1,4 +1,4 @@
-The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom: "Tis the calm before the storm, and something more terrible is brewing as we speak," "Train your combat skills, and stock up any items you might need," "This may be your last chance, so make the most of it".
+The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom: "Tis the calm before the storm, and something more terrible is brewing as we speak," "Train your combat skills, and stock up any items you might need," "This may be your last chance, so make the most of it."
 
 [*"The calm before the storm"*](#embed:https://www.youtube.com/embed/5R01-igo4sM?si=4btPS_yE7In0DRPe\&start=324)
 

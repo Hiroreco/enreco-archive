@@ -8,7 +8,7 @@ While trying to distract Gonathon to make him lose in the memory game, she accid
 
 Later on, Gonathon stopped by the library to donate a book. Cecilia happened to be there at the time and happily accepted it. Curious, she gave it a read, and through it, she finally learned a little more about the knight.
 
-["Accidentally found it", he said](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=6827)
+["Accidentally found it," he said](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=6827)
 
 The book, A Knight’s Tale, told the story of a humble knight who was once lost but gained purpose through the adventures he shared with the people he had tagged along with. As the days went on, he made more and more memories with these quirky individuals, and each one, he cherished. Yet, as much as others called him humble and steadfast, he felt conflicted, for he had a selfish wish. A wish that the memories of those around him would never return, so he could continue spending these peaceful days with them. But such a wish would never come true, and so, he would press on, doing what he believed was right.
 

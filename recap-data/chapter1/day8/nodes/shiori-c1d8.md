@@ -1,6 +1,6 @@
-It was the final day, and while everyone frantically worked to end Bijou’s corruption saga, Shiori had other plans. She was focused on advancing her ultimate goal—a "Happy Sugar Life".
+It was the final day, and while everyone frantically worked to end Bijou’s corruption saga, Shiori had other plans. She was focused on advancing her ultimate goal—a "Happy Sugar Life."
 
-While wandering around the kingdom, Shiori crossed paths with Bijou, who gifted her a Stain Hat and, in a surprising twist, nominated her as the [Stain Prince](https://www.youtube.com/live/dTf0g5tqzBU?feature=shared\&t=448). For most people, wearing the Stain Hat would have been alarming, as it caused corruption. But Shiori? She felt exactly the same. Even Nerissa, puzzled by how the corruption cure didn’t work on her, speculated, "Shiori’s already corrupted, but in a fun way". Shiori, naturally, found this amusing and even entertained the idea of spreading the corruption, affectionately calling it "her children".
+While wandering around the kingdom, Shiori crossed paths with Bijou, who gifted her a Stain Hat and, in a surprising twist, nominated her as the [Stain Prince](https://www.youtube.com/live/dTf0g5tqzBU?feature=shared\&t=448). For most people, wearing the Stain Hat would have been alarming, as it caused corruption. But Shiori? She felt exactly the same. Even Nerissa, puzzled by how the corruption cure didn’t work on her, speculated, "Shiori’s already corrupted, but in a fun way." Shiori, naturally, found this amusing and even entertained the idea of spreading the corruption, affectionately calling it "her children."
 
 [You can't fix what's not broken](#embed:https://www.youtube.com/embed/dTf0g5tqzBU?si=RSHASwdQD5Os_E9z\&start=687)
 
@@ -12,7 +12,7 @@ Next, Shiori targeted [Nanamoo](https://www.youtube.com/live/dTf0g5tqzBU?feature
 
 Just when Shiori thought her plans couldn’t get worse, Bijou—her wife—filed for divorce at Mori’s Tavern (see [Shiori-Bijou: Divorce No.1](#edge:shiori-bijou)).
 
-Now single, wifeless, and a single mother to a Stain child, Shiori went around the kingdom seeking sustenance to raise her "child". Elizabeth and Mococo, moved by her story, gave her food. She eventually ended up in the onsen, contemplating how her dream of a "Happy Sugar Life" surrounded by women had instead left her alone, with no women and a child to care for.
+Now single, wifeless, and a single mother to a Stain child, Shiori went around the kingdom seeking sustenance to raise her "child." Elizabeth and Mococo, moved by her story, gave her food. She eventually ended up in the onsen, contemplating how her dream of a "Happy Sugar Life" surrounded by women had instead left her alone, with no women and a child to care for.
 
 [Please feed me and my child](#embed:https://www.youtube.com/live/dTf0g5tqzBU?feature=shared\&t=3309)
 

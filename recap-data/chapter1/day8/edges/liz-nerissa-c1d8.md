@@ -16,7 +16,7 @@ As the corruption spread, consuming everything in its path, Elizabeth discovered
 
 [Let us start again](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12224)
 
-With determination and effort, the corruption was finally defeated, and Nerissa was brought back to her usual self. And just like that, they were back to their antics again. To commemorate the occasion, Nerissa gifted Elizabeth some books titled "Nerissa Ravencroft x Elizabeth Rose Bloodflame". Just from the name alone, it was obvious how Elizabeth would [react](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=15714).
+With determination and effort, the corruption was finally defeated, and Nerissa was brought back to her usual self. And just like that, they were back to their antics again. To commemorate the occasion, Nerissa gifted Elizabeth some books titled "Nerissa Ravencroft x Elizabeth Rose Bloodflame." Just from the name alone, it was obvious how Elizabeth would [react](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=15714).
 
 [Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
 [Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)

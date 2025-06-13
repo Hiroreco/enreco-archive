@@ -10,7 +10,7 @@ Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, onl
 
 [I feel... alone](#embed:https://www.youtube.com/embed/_urPfTQnLes?si=ecdhhjj71kzhplJw\&start=1670)
 
-Companionship came only when the other heroes awoke. Among them was Calli, the trusted tavern owner and Elizabeth’s guildmate. Together, they speculated on the corruption’s [origins](https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=5396). Initially, Elizabeth suspected Nerissa, the "witch", but Nerissa proclaimed her innocence. Suspicion then fell on Koseki Bijou, whose behavior had grown increasingly erratic.
+Companionship came only when the other heroes awoke. Among them was Calli, the trusted tavern owner and Elizabeth’s guildmate. Together, they speculated on the corruption’s [origins](https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=5396). Initially, Elizabeth suspected Nerissa, the "witch," but Nerissa proclaimed her innocence. Suspicion then fell on Koseki Bijou, whose behavior had grown increasingly erratic.
 
 Determined to uncover the truth, Elizabeth drank an invisibility potion, intending to spy on Bijou. But her stealth attempt ended in a less-than-graceful predicament.
 

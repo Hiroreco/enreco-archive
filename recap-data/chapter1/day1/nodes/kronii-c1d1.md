@@ -14,7 +14,7 @@ Tam’s presence in Cerulean Cup quickly established her as a dominant figure, w
 
 Tam’s empathetic nature shone as she leveraged her remarkable power of persuasion—a skill she had already demonstrated while inspiring a [Libestan child](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=5140). It was no surprise when the Hot Pink One eventually succumbed to her words, sealed with Tam’s unforgettable declaration:
 
-["Nobody wants you except us".](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=6213)
+["Nobody wants you except us"](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=6213)
 
 As the day progressed, Tam found herself caught in various shenanigans. Yet, she always managed to handle situations with an air of maturity. When Gonathon was interrogated by Elizabeth, Tam intervened, *calmly* defusing the tension (see [Elizabeth-Tam: Red and Blue](#edge:liz-kronii)).
 
