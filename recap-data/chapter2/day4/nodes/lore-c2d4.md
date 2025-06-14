@@ -10,6 +10,8 @@ Devising from this, Fia came up with a plan: to change this grim fate, the heroe
 
 Upon conquering Star Site:Chronos, the heroes unlocked the Remnants of the Antigonian Aerie, one of the lands once served as a place for refugees, those that'd lost their homes to the Stains, ultimately, it too was consumed by the spreading evil. It was here where the journals of a refugee and caretaker of gryphons, who bore witness to the devastation wrought by the Stains—losing not only their home, but also their beloved companions.
 
+![Overview of the Antigonian Aerie](/images-opt/lore-antigonian-aerie.webp)
+
 #### Uncovered Lore Books:
 
 **Ciffs of Sidero's Journals**
