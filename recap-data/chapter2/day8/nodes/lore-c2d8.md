@@ -12,7 +12,7 @@ Now, knowing the past could no longer be changed, Fia resolved to shift her focu
 
 Most agreed. But **Mococo**, **Fuwawa**, **Bijou**, **Nerissa**, and **Shiori** refused. As if once again touched by the Curse, the five broke away, rejecting Fia’s plan and declaring they would follow their own path instead.
 
-### Updated NPCs
+#### Updated NPCs
 
 - See [Fia](#node:fia)
 - See [Iphania](#node:iphania)
