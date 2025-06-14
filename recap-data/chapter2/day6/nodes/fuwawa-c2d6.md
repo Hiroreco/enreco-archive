@@ -1,4 +1,4 @@
-Waking up that morning, Fuwawa braced herself for the usual—an empty café, no customers, no sales, just her and the quiet hum of her own hope slowly dimming. Maybe, just maybe, her dream would never come true?
+Waking up that morning, Fuwawa braced herself for the usual—an empty café, no customers, no sales, just her, and the quiet hum of her own hope slowly dimming. Maybe, just maybe, her dream would never come true.
 
 But then, Shiori called.
 

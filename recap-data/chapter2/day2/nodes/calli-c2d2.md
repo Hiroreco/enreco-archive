@@ -1,4 +1,4 @@
-The tavern owner continued renovating her tavern—probably one of the biggest establishments around. It wasn’t just a place to grab a bite; it offered a range of wildly concerning services as well. Thus was the proud creation of Mordon Ramsay.
+The tavern owner continued renovating her tavern—probably one of the biggest establishments around. It wasn’t just a place to grab a bite; it offered a range of wildly concerning services as well. Thus was the proud creation of Mordan Ramsey.
 
 [Tour of the tavern](#embed:https://www.youtube.com/live/wu7g7fNsXYk?si=s2oebW-2OPVZa5Jt&t=997)
 

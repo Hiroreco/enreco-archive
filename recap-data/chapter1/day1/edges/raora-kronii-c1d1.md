@@ -1,4 +1,4 @@
-<!-- title: Say my name -->
+<!-- title: Say My Name -->
 
 The (self-proclaimed) Libestian Queen was already making a name for herself across the kingdom. She had gathered loyal followers, asserted her dominance, and made others bow whenever they stood in her presence.
 
@@ -13,5 +13,7 @@ What followed was a conversation that could only be described as something strai
 [Not if I build mine first](#embed:https://www.youtube.com/live/8ybUOw9NhMc?feature=shared\&t=13146)
 
 Raora, however, wasn’t just playing around—she was serious. She would do whatever it took to prove she was the true queen. But Tam? She could only shake her head and brush the whole thing off, thinking to herself, "What the heck is wrong with this person?"
+
+## Fanart
 
 ["Tam ten~" by ErasorPepero](https://x.com/erasopepero232/status/1830564734657331247)

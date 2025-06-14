@@ -12,7 +12,7 @@ After a hard-fought victory in the dungeon and recovering memories of [Takanashi
 
 [What was that just now?](#embed:https://www.youtube.com/live/VgMSugOH5DA?feature=shared\&t=11555)
 
-By sheer luck, Gonathon managed to escape and shifted his focus to other matters. Acting on a report from Nerissa that Mococo was a criminal, Gonathon set out to hunt her down, albeit with no concrete evidence. 
+By sheer luck, Gonathon managed to escape and shifted his focus to other matters. Acting on a report from Nerissa that Mococo was a criminal, Gonathon set out to hunt her down, albeit with no concrete evidence.
 
 [Doghunt](#embed:https://www.youtube.com/live/VgMSugOH5DA?feature=shared\&t=12009)
 

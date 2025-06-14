@@ -8,7 +8,7 @@ She was ready to exact revenge.
 
 **BLOOD IN THE BREEZE**
 
-Breaking from her own "spell", she went about her way, [killing the remnants of the stains](https://youtu.be/MXqotm_8_Hc?t=483) that were left after the salvage of Libestal, destroying everything that came across her. Even an innocent cow was not spared from this woman’s rage.
+Breaking from her own "spell", she went about her way, [killing the remnants of the Stains](https://youtu.be/MXqotm_8_Hc?t=483) that were left after the salvage of Libestal, destroying everything that came across her. Even an innocent cow was not spared from this woman’s rage.
 
 ---
 

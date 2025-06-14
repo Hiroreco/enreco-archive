@@ -36,6 +36,7 @@ DialogOverlay.displayName = DialogPrimitive.Overlay.displayName;
 interface DialogContentProps
     extends React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> {
     showXButton?: boolean;
+    showXButtonForce?: boolean;
 }
 
 const DialogContent = React.forwardRef<
@@ -49,6 +50,7 @@ const DialogContent = React.forwardRef<
             className,
             children,
             showXButton = false,
+            showXButtonForce = false,
             customOverlay,
             backdropFilter,
             ...props
@@ -67,7 +69,15 @@ const DialogContent = React.forwardRef<
             >
                 {children}
                 {showXButton && (
-                    <DialogPrimitive.Close className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+                    <DialogPrimitive.Close
+                        className={cn(
+                            "absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground",
+                            {
+                                "hidden md:block": !showXButtonForce,
+                                block: showXButtonForce,
+                            },
+                        )}
+                    >
                         <X className="h-4 w-4" />
                         <span className="sr-only">Close</span>
                     </DialogPrimitive.Close>

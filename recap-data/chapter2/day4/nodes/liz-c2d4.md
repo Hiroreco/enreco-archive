@@ -6,7 +6,7 @@ A forge built, new stories unfolding—Elizabeth looked back on the day before w
 
 Her morning began much like the previous one, with her ever-dependable sugar phoenix once again offering assistance for a major task: investigating the Stronghold of Ruin. Before setting off, Elizabeth took a brief tour around the kingdom, admiring the creations people had built—and couldn’t help but feel a strange déjà vu seeing enormous [floating text](https://www.youtube.com/live/vbppXmxXo7o?si=gbwqdZGPxPB_RjoQ&t=651) in the sky again.
 
-The dungeon itself was conquered with success, and with the mission complete, she moved on to gathering materials. During a brief lull, Elizabeth checked in with [Shiori](https://www.youtube.com/live/vbppXmxXo7o?si=ZHTbaG0Zv_dYDNx4&t=5606), who had tried to contact her earlier. What followed was a friendly—if somewhat bizarre—back-and-forth full of playful jabs, as the two debated their way of addressing each other: one being a knight and the other being a witch.
+The dungeon itself was conquered, and with the mission complete, she moved on to gathering materials. During a brief lull, Elizabeth checked in with [Shiori](https://www.youtube.com/live/vbppXmxXo7o?si=ZHTbaG0Zv_dYDNx4&t=5606), who had tried to contact her earlier. What followed was a friendly—if somewhat bizarre—back-and-forth full of playful jabs, as the two debated their way of addressing each other: one being a knight and the other being a witch.
 
 Shiori also took the opportunity to promote her growing business, selling "memories"—detailed records of each day’s journey. Elizabeth, intrigued, bought a few and read through them, raising a suspicious brow with each entry.
 
@@ -30,11 +30,11 @@ Tired and slightly sleepy, Elizabeth still did her best to keep up with her jour
 
 But just as she wrapped up her writing, a sudden flash of thought pierced through her mind. Ominous. Unsettling. A message that lingered longer than it should have.
 
-["Are they with you or against you"](#embed:https://www.youtube.com/live/1tE2N1kP2YA?si=IEaSGDXxGSpZj8xf&t=198)
+["Are they with you or against you?"](#embed:https://www.youtube.com/live/1tE2N1kP2YA?si=IEaSGDXxGSpZj8xf&t=198)
 
 Now then, Elizabeth was _literally alone_ in the kingdom at the time. So of course the most logical next step was to challenge a dungeon designed for a full party of adventurers.
 
 Elizabeth managed to solve the first puzzle, pushing through with a spark of brilliance and stubborn will—
 ...and then she ran out of time.
 
-And then she went bye bye.
+And then she went bye-bye.

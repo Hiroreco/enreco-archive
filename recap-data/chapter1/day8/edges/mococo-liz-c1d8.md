@@ -1,6 +1,6 @@
 <!-- title: Keeping My Promise -->
 
-*"I will always be by your side".*A promise far easier said than done.
+*"I will always be by your side."*A promise far easier said than done.
 Elizabeth understood that better than anyone. As a knight, she bore the burden of protecting others, standing as their shield, being there when they needed her most. Caring for those she loved wasn’t just an instinct—it was her duty.
 
 

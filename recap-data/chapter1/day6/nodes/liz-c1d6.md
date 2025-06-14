@@ -1,4 +1,4 @@
-The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom: "Tis the calm before the storm, and something more terrible is brewing as we speak," "Train your combat skills, and stock up any items you might need," "This may be your last chance, so make the most of it".
+The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom: "Tis the calm before the storm, and something more terrible is brewing as we speak," "Train your combat skills, and stock up any items you might need," "This may be your last chance, so make the most of it."
 
 [*"The calm before the storm"*](#embed:https://www.youtube.com/embed/5R01-igo4sM?si=4btPS_yE7In0DRPe\&start=324)
 
@@ -8,7 +8,7 @@ Upon joining the kingdom, Elizabeth noticed a missed call from Gonathon. She cal
 
 Yet, as she listened to him, Elizabeth saw something in Gonathon she hadn’t fully appreciated before. His unwavering loyalty to his queen and his dedication moved her, and she made a surprising decision: she offered him her blade (see [Elizabeth-Gonathon: Unexpected Alliance](#edge:liz-gigi)).
 
-Of course, a serious moment with Elizabeth wouldn’t be complete without her usual shenanigans with Nerissa. Today’s antics somehow managed to outshine even the chaos of the fifth day. They involved hexing, marriages, and…childbirth? (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa)).
+Of course, a serious moment with Elizabeth wouldn’t be complete without her usual shenanigans with Nerissa. Today’s antics somehow managed to outshine even the chaos of the fifth day. They involved hexing, marriages, and… childbirth? (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa)).
 
 After their mischief, Elizabeth refocused on the king’s words about preparation. Inspired, she came up with the idea to organize a tournament. It would be a chance for everyone to train, test, and hone their swordsmanship.
 

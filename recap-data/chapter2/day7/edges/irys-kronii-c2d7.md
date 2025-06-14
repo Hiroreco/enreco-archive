@@ -4,15 +4,15 @@ Of course, with HPO, give her an inch and she’ll take a mile—or two. In a st
 
 ["You sicken me..."](#embed:https://youtu.be/CUh9eciJil4?t=3072)
 
-Accompanied by her trusty knight, Gonathon, Queen Tam ran away from the scene in anger and disgust. ["Back off, you monster!"](https://youtu.be/CUh9eciJil4?t=3146) Queen Tam said, poison in her speech. Seeking shelter in her own home, Queen Tam and Gonathon were visited by the licensed therapist (among many things), [Mordon Ramsay](https://youtu.be/CUh9eciJil4?t=3175). It was finaly time for her long-overdue therapy.
+Accompanied by her trusty knight, Gonathon, Queen Tam ran away from the scene in anger and disgust. ["Back off, you monster!"](https://youtu.be/CUh9eciJil4?t=3146) Queen Tam said, poison in her speech. Seeking shelter in her own home, Queen Tam and Gonathon were visited by the licensed therapist (among many things), [Mordan Ramsey](https://youtu.be/CUh9eciJil4?t=3175). It was finaly time for her long-overdue therapy.
 
 After a few interruptions, Queen Tam was finally able to [trauma dump](https://youtu.be/CUh9eciJil4?t=3600), explaining all her woes, most of which seemed to trace back to a single source: the Hot Pink One. Fortunately, they had the best therapist in town.
 
 ["Have you considered murder?"](#embed:https://youtu.be/CUh9eciJil4?t=3721)
 
-Such was the "based" take by the renowned therapist/chef/real estate magnate. Murder was a question, and the answer was always "yes." Just eliminate the root of her problems—HPO. The voices in Queen Tam’s head all agreed, even as she questioned the legitimacy of Dr. Mordon’s license.
+Such was the "based" take by the renowned therapist/chef/real estate magnate. Murder was a question, and the answer was always "yes." Just eliminate the root of her problems—HPO. The voices in Queen Tam’s head all agreed, even as she questioned the legitimacy of Dr. Mordan’s license.
 
-It was then that Mordon revealed that HPO had three "wives," insinuating that there was also something in between her and Bijou, her own brother. Of course, it was not a Libestal delicacy without a sprinkling of an additional forbidden ingredient that rhymes with ["in chest"](https://youtu.be/CUh9eciJil4?t=3844).
+It was then that Mordan revealed that HPO had three "wives," insinuating that there was also something in between her and Bijou, her own brother. Of course, it was not a Libestal delicacy without a sprinkling of an additional forbidden ingredient that rhymes with ["in chest"](https://youtu.be/CUh9eciJil4?t=3844).
 
 Speaking of the devil, HPO called Queen Tam and begged her to attend the "gender reveal" party, to which pretty much everyone involved already knew what it was. ["You made yourself into a spectacle!"](https://youtu.be/CUh9eciJil4?t=3892) Queen Tam exclaimed. And so the cursed celebration began. Bijou and Peasant the Bae unveiled the sign Queen Tam had made, revealing the “gender” of the “baby.”
 
@@ -20,7 +20,7 @@ Speaking of the devil, HPO called Queen Tam and begged her to attend the "gender
 
 All this… for a long, painful divine comedy about passing gas. Hot Pink Gas. The Queen didn’t even need to be there. And yet she and the voices in her head were forced to witness the “birth” of the “gassy baby”—Just ["Carbonated Love"](https://youtu.be/CUh9eciJil4?t=4071). Unsightly.
 
-Dr. Mordon returned with more [sagely advice](https://youtu.be/CUh9eciJil4?t=4128): Why not confront HPO’s consort and spill the beans about their secret relationship? Scorched earth. Why should Queen Tam be the only one to suffer? Might as well make everyone involved miserable. This therapist was truly something else. Everyone knows the drill. Instead of walking away and moving on, the Queen held the proverbial shovel firmly in her hands and dug deeper, choosing to confront the consort herself, Nino Ina.
+Dr. Mordan returned with more [sagely advice](https://youtu.be/CUh9eciJil4?t=4128): Why not confront HPO’s consort and spill the beans about their secret relationship? Scorched earth. Why should Queen Tam be the only one to suffer? Might as well make everyone involved miserable. This therapist was truly something else. Everyone knows the drill. Instead of walking away and moving on, the Queen held the proverbial shovel firmly in her hands and dug deeper, choosing to confront the consort herself, NinoIna.
 
 ["I want problems. Always."](#embed:https://youtu.be/CUh9eciJil4?t=4247)
 
@@ -34,7 +34,7 @@ And of course, Gonathon wiped the floor with the puny goddess, reclaiming his Qu
 
 What followed was a [scenario so bizarre](https://youtu.be/CUh9eciJil4?t=4854) that one would struggle to put pen to paper to describe what exactly happened - gutting HPO like a fish, alcohol somehow being the real “baby,” and a C-section pun for good measure. But unlike Queen Tam, we move on.
 
-["In the midst of 'so over,' we found, within Libestal, a romantic 'we're so back.'"](#embed:https://youtu.be/CUh9eciJil4?t=5044)
+[From "it's over" to a romantic "we're so back."](#embed:https://youtu.be/CUh9eciJil4?t=5044)
 
 On the other end, Pinky was handling Tam’s judgment the only way she knew how—like a sulking child. She ignored her, pretended not to hear a word, avoided eye contact, and pouted in exaggerated silence. To Tam, it was nothing short of infuriatingly immature.
 

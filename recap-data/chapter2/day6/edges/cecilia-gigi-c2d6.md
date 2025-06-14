@@ -6,11 +6,11 @@ And once again, as if fate had him on standby, Gonathon was there.
 
 [Orange and Green](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=ie9yZ74ftKZFa7Vb&t=9258)
 
-The green knight, usually so composed, crumbled—tears streaming, heart breaking, all hope slipping away. Others tried to comfort her, offered gentle words, told her what she wanted to hear. But Gonathon? Gonathon cut through it all with honesty. No false hope, no sugarcoating—just a raw, steady reminder that he wouldn’t let her drown in this sadness again. Not this time. Not after everything.
+The Green Knight, usually so composed, crumbled—tears streaming, heartbreaking, all hope slipping away. Others tried to comfort her, offered gentle words, and told her what she wanted to hear. But Gonathon? Gonathon cut through it all with honesty. No false hope, no sugarcoating—just a raw, steady reminder that he wouldn’t let her drown in this sadness again. Not this time. Not after everything.
 
-"Bro tug before hoes tugs," the words didn’t need to be poetic—they just needed to be real.
+"Bro tug before hoes tug," the words didn’t need to be poetic—they just needed to be real.
 
-And with a little help from Bijou’s unshakable cheer, Cecilia began to breathe again. The fog lifted, if only just a little. The weight began to ease.
+And with a little help from Bijou’s unshakable cheer, Cecilia began to breathe again. The fog lifted, and, if only just a little, the weight began to ease.
 
 And then, not long after, the green one turned around and offered the same emotional support right back to the orange one.
 

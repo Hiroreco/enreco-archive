@@ -2,7 +2,7 @@ The fourth day arrived, and Shiori decided it would be a calm, drama-free one—
 
 The mere thought of more drama made her wary. So when Bijou called to invite her on a dungeon quest, Shiori hesitated, fearing she might have to play the "peacemaker" yet again. Memories of being berated for "abandoning the bros" the previous day still [lingered](https://www.youtube.com/live/N3v-MJXHQ0w?feature=shared\&t=472).
 
-Before heading to the dungeon, Shiori spent some time with her "bros". Their conversations were far from typical, revolving around overthrowing the throne and constructing gallows. Just your everyday hero chatter in a kingdom you’re supposed to save.
+Before heading to the dungeon, Shiori spent some time with her "bros." Their conversations were far from typical, revolving around overthrowing the throne and constructing gallows. Just your everyday hero chatter in a kingdom you’re supposed to save.
 
 [Going with the flow](#embed:https://www.youtube.com/live/N3v-MJXHQ0w?feature=shared\&t=784)
 

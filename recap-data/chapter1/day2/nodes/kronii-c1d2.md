@@ -2,13 +2,13 @@ The new (self-proclaimed) *Queen of Libestal* awoke for the second day, and it s
 
 When she arrived, the first thing everyone pointed out was her "Xbox-like" [voice](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared\&t=561). Tam, being self-conscious about it, tried to brush it off but couldn’t help feeling embarrassed.
 
-Regardless, there were more pressing matters. Gonathon explained the lottery scam situation, but at the mention of "lottery", both Bijou and the Hot Pink One, notorious gambling addicts, dashed to the quest board. Tam's desperate attempts to stop them were futile, and with no other choice, she followed her reckless guildmates.
+Regardless, there were more pressing matters. Gonathon explained the lottery scam situation, but at the mention of "lottery," both Bijou and the Hot Pink One, notorious gambling addicts, dashed to the quest board. Tam's desperate attempts to stop them were futile, and with no other choice, she followed her reckless guildmates.
 
 [Listen to me!](#embed:https://www.youtube.com/live/fIGfh8GmKY8?t=816)
 
-At the quest board, Shakira shared more about the scams. Midway through, Elizabeth appeared, reigniting her rivalry with Tam. Liz, unaware of Tam's name, referred to her as "Tim", much to Tam's irritation. Insults flew—Tam calling Liz a "red thing" and a harlot, sentencing her to death, while Liz retaliated with equal fervor. The heated exchange reached its peak when Liz challenged Tam to a duel ([see Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii)).
+At the quest board, Shakira shared more about the scams. Midway through, Elizabeth appeared, reigniting her rivalry with Tam. Liz, unaware of Tam's name, referred to her as "Tim," much to Tam's irritation. Insults flew—Tam calling Liz a "red thing" and a harlot, sentencing her to death, while Liz retaliated with equal fervor. The heated exchange reached its peak when Liz challenged Tam to a duel ([see Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii)).
 
- Tam, as Queen, declared the duel beneath her—not out of fear, of course—but because violence, she claimed, was unbecoming of royalty. Instead, she requested that a subordinate take her place. The Hot Pink One volunteered, eager to settle her score with Liz. After an intense battle, the Pink One emerged victorious, to Tam's delight.
+Tam, as Queen, declared the duel beneath her—not out of fear, of course—but because violence, she claimed, was unbecoming of royalty. Instead, she requested that a subordinate take her place. The Hot Pink One volunteered, eager to settle her score with Liz. After an intense battle, the Pink One emerged victorious, to Tam's delight.
 
 Tam's day carried on with the usual shenanigans: completing quests, sharing a [sensual moment](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared\&t=2332) with Shiori, being called "queen dum dum" by Calli, and much more.
 

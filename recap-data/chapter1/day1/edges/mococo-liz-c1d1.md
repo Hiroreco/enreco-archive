@@ -10,4 +10,6 @@ Seeing the small girl in such a state, Elizabeth felt compelled to act by her se
 
 The knight's words were sturdy, firm, and trustworthy. They provided warmth and comfort, and Mococo felt so safe under the protection of Elizabeth that even losing sight of her would cause minor [panic](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared\&t=4131). She wished to be by her side, and Elizabeth, in turn, would uphold that promise, no matter what.
 
+## Fanart
+
 ["Don't leave me..." by WoCaKi](https://x.com/WCKsan/status/1830274143344042319)

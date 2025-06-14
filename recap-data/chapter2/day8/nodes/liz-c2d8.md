@@ -30,7 +30,7 @@ Then Nerissa requests a spar, something they've been doing daily now. And yet, E
 
 Back at home, a [heart-to-heart with Kiara](https://www.youtube.com/live/b-jTHH6GK5w?si=oGPHYYz-3nlKro3Y&t=4582) reveals their shared nature as knights—both in thought and action. A reminder that Kiara is moving out is painful for Elizabeth, but she’s happy for her friend.
 
-But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?si=E3oALHLYZAo5suDE&t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of…Potato Salad?
+But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?si=E3oALHLYZAo5suDE&t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of… Potato Salad?
 
 "Princess of her heart," Kiara says.
 

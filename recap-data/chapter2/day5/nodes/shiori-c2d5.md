@@ -1,16 +1,16 @@
-Seemingly unfazed by the previous day’s chaos, Shiori started off her morning productively by helping others through the Star Site: Chronos dungeon. It was nice—being helpful, motivated, and untouched by drama… well, for a little while, anyway.
+Seemingly unfazed by the previous day’s chaos, Shiori started off her morning productively by helping others get through the Star Site: Chronos dungeon. It was nice—being helpful, motivated, and untouched by drama… well, for a little while, anyway.
 
 Inevitably, she got dragged into the madness. But more often than not, she played the role of a distant observer, silently watching the chaos unfold around her.
 
 [She likes to observe](#embed:https://www.youtube.com/live/98bQ3awzWLM?t=17280)
 
-In the situations where she was actually involved, she often felt more like a background prop being shuffled around than a key player—take, for example, the convoluted tale involving her old child with Bijou, which spiraled into a full-on legal dispute (see [Bae-Bijou: Family Broken, Found, and Resolved](#edge:bae-bijou)).
+In the situations where she was involved, she often felt more like a background prop being shuffled around than a key player—take, for example, the convoluted tale involving her old child with Bijou, which spiraled into a full-on legal dispute (see [Bae-Bijou: Family Broken, Found, and Resolved](#edge:bae-bijou)).
 
-She did make time to join the others for the new [Star Site: Chaos dungeon](https://www.youtube.com/live/98bQ3awzWLM?t=7733) and even fought the Outlander—y’know, the actual main quest that somehow got buried under all the emotional wreckage.
+She did make time to join the others for the new [Star Site: Chaos dungeon](https://www.youtube.com/live/98bQ3awzWLM?t=7733) and even fought the Outlander—you know, the actual main quest that somehow got buried under all the emotional wreckage.
 
-Like the others, Shiori was then challenged by the Outlander to a duel—a trial, more than a true battle. A test to determine whether the heroes were worthy of inheriting his role, of destroying the Heart of Ruin and saving the world.
+Like the others, Shiori was then challenged by the Outlander to a duel—a trial, more than a true battle. A test to determine whether the heroes were worthy of inheriting his role of destroying the Heart of Ruin and saving the world.
 
-And in classic Shiori fashion, she took the opportunity to jab, tease, and prod. She mocked the Outlander, though at first it seemed like her usual playful snark. But then, her tone shifted—less whimsical, more biting. Her words carried an odd weight, a hint of something deeper. She spoke not just to the Outlander, but also herself. About how they were alike.
+And in classic Shiori fashion, she took the opportunity to jab, tease, and prod. She mocked the Outlander, though at first, it seemed like her usual playful snark. But then, her tone shifted—less whimsical, more biting. Her words carried an odd weight, a hint of something deeper. She spoke not just to the Outlander but also to herself. About how they were alike.
 
 [You and I are similar, after all](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=4vKuhvHq9ARFIyAF&t=8794)
 
@@ -20,7 +20,7 @@ They weren’t throwaway lines. Not from someone who speaks as if they know more
 
 What did she mean by that? Did it tie into her title—Archiver?
 
-Later, when the Princess and the Outlander asked the heroes about their reason for saving the kingdom, the others gave answers that varied: confusion, pride, profit. But Shiori’s answer was different.
+Later, when the Princess and the Outlander asked the heroes about their reason for saving the kingdom, the others gave answers that varied: confusion, pride, and profit. But Shiori’s answer was different.
 
 [The scripts](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=GlbL7dJkjV0wglfU&t=9223)
 
@@ -34,8 +34,8 @@ Self-inserter? Into what, exactly? A story? Was she hinting at something more...
 
 Maybe she was just being her strange, eccentric self. Or maybe, just maybe, Shiori Nyavella wasn’t merely a witch with a pen and a sharp tongue—but something far more.
 
-Still, not everything had to be tangled in mystery. At least one of the questions had a charmingly down-to-earth answer: the mess of romance and rivalry she’d stumbled into. The orange knight, so humble, so earnest, had completely upended her world. Turned her story on its head. And now, she was left picking up the emotional debris of their ever-complicated dynamic (see [Shiori–Gonathon](#edge:gigi-shiori)).
+Still, not everything had to be tangled in mystery. At least one of the questions had a charmingly down-to-earth answer: the mess of romance and rivalry she’d stumbled into. The Orange Knight, so humble, so earnest, had completely upended her world. Turned her story on its head. And now, she was left picking up the emotional debris of their ever-complicated dynamic (see [Shiori–Gonathon](#edge:gigi-shiori)).
 
-She ended her day with rare, quiet moments—sharing them with [Bijou](https://www.youtube.com/live/98bQ3awzWLM?15814), and later, a bonding conversation with a sleepy Elizabeth. All of it, as always, inked into her diary—yet another page, yet another piece of the puzzle that was Shiori.
+She ended her day with rare, quiet moments—sharing them with [Bijou](https://www.youtube.com/live/98bQ3awzWLM?t=15814) and later, a bonding conversation with a sleepy Elizabeth. All of it, as always, inked into her diary—yet another page, yet another piece of the puzzle that was Shiori.
 
 [A moment to cool down](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=Zv5vHxEzlcKhAmcH&t=18947)

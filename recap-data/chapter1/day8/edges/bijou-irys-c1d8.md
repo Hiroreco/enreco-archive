@@ -2,9 +2,9 @@
 
 Bijou was on a divorce spree, and the Hot Pink One was her second target. But unlike her first victim, Shiori—who, despite everything, still cost Bijou a bit of money in the process—this one wasn’t going down without a fight.
 
-[No longer your sidechick](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=13723)
+[No longer your side chick](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=13723)
 
-The Pink One, unwilling to lose her sidechick, desperately tried to argue her way out of it. Her reasoning, however, was comically illogical, filled with excuses that made absolutely no sense. But Bijou had already made up her mind.
+The Pink One, unwilling to lose her side chick, desperately tried to argue her way out of it. Her reasoning, however, was comically illogical, filled with excuses that made absolutely no sense. But Bijou had already made up her mind.
 
 Defeated but determined to get something out of this, the Pink One demanded a compensation fee of 1,000 coins.
 

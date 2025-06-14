@@ -18,6 +18,6 @@ As they emerged from the dungeon, Calli witnessed yet another impulsive wedding�
 
 Back in the kingdom, Calli resumed the diner’s construction. At some point, she received a [prank call](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=8313) from Bijou, likely in retaliation for her constant jabs about Shiori and Bijou’s marriage falling apart.
 
-Reflecting on her new venture, Calli began to reconsider its premise. The harsh reception from the kingdom’s couples made her realize that her idea might be a little too cruel. As Calli had the revelation, she decided to revise her business model. She'd no longer be selling any kind of divorce services...instead, they'd come free with any meal purchased, [free of charge](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=8229). Oh, Calli.
+Reflecting on her new venture, Calli began to reconsider its premise. The harsh reception from the kingdom’s couples made her realize that her idea might be a little too cruel. As Calli had the revelation, she decided to revise her business model. She'd no longer be selling any kind of divorce services... instead, they'd come free with any meal purchased, [free of charge](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared\&t=8229). Oh, Calli.
 
 Calli held great hopes for her diner’s future. Love, after all, often ends in heartbreak, and when it did, she knew people would come for the divorces and stay for the food.

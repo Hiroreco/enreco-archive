@@ -14,4 +14,4 @@ Amusingly, the title of "backup plan" wasn’t something the Hot Pink One claime
 
 [Plan B, Plan C](#embed:https://www.youtube.com/live/f8W426vzTb8?feature=shared\&t=3231)
 
-By the end of the day, the Hot Pink One did manage to gain a consort of her own, somewhat easing her yearning for companionship. Yet the fact remained: she still carried the title of Jyonathan’s "backup plan". Whether this playful flirtation would lead to future drama, or perhaps something even more profound, remains to be seen.
+By the end of the day, the Hot Pink One did manage to gain a consort of her own, somewhat easing her yearning for companionship. Yet the fact remained: she still carried the title of Jyonathan’s "backup plan." Whether this playful flirtation would lead to future drama, or perhaps something even more profound, remains to be seen.

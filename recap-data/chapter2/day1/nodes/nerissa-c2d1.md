@@ -2,7 +2,7 @@ Nerissa—if that was even her real name anymore—[remembered nothing](https://
 
 With no memory and no grand destiny in mind, she turned to something simpler—something grounding. The [culinary arts](https://www.youtube.com/live/XfZh_3xb7i0?si=pOseYNmId4we0h3f&t=1909). To survive the week, she took up cooking, wandering the castle grounds, helping out with the Princess’s errands, and keeping her head down.
 
-She placed her trust in one particularly loud and passionate fellow chef—Mordon Ramsay. Despite her... colorful personality, her advice on the state of Ancient Libestal was oddly sound. So much so that she agreed to become her sous chef for the tavern she planned to open. Not bad for someone who had no idea who she really was.
+She placed her trust in one particularly loud and passionate fellow chef—Mordan Ramsey. Despite her... colorful personality, her advice on the state of Ancient Libestal was oddly sound. So much so that she agreed to become her sous chef for the tavern she planned to open. Not bad for someone who had no idea who she really was.
 
 [I just want to cook](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=3600WJ1QhxxPaCmK&t=2472)
 

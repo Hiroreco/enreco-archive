@@ -4,7 +4,7 @@ The kingdom's elusive hermit, Peasant Da Bae, was in distress. Not a single soul
 
 Her mind raced. Who could have brought her back? The answer was clear: the King. The devil in sheep's clothing. Her fury burned bright as she vowed to confront him and demand answers.
 
-Her first interaction upon returning to the kingdom was with the infamous Sir Gonathon. His reputation had even reached her secluded corner of the woods. Naturally, her greeting was to respectfully call his hat ["fugly".](https://www.youtube.com/live/t5NGryTaGqk?feature=shared\&t=1249)
+Her first interaction upon returning to the kingdom was with the infamous Sir Gonathon. His reputation had even reached her secluded corner of the woods. Naturally, her greeting was to respectfully call his hat ["fugly."](https://www.youtube.com/live/t5NGryTaGqk?feature=shared\&t=1249)
 
 As the day unfolded, Da Bae’s confusion only deepened. A princess? Corruption? Queen Mario? None of it made any sense. Overwhelmed by the kingdom's strange developments, she pulled Sir Gonathon aside and insisted he take her to the King so she could unleash her anger.
 

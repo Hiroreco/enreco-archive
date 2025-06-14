@@ -1,4 +1,4 @@
-<!-- title: Green And Orange -->
+<!-- title: Green and Orange -->
 
 Cecilia didn’t know much about Gonathon, apart from the fact that he was a widely respected figure, had a lot of money (which she had no shame in leeching off), and was annoyingly good at multitasking—so much so that he had beaten her in a minigame without breaking a sweat, much to her [dismay](https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=5502). But beyond that, she knew little about him. She didn’t know what goals he had, what he wanted.
 
@@ -8,7 +8,7 @@ While trying to distract Gonathon to make him lose in the memory game, she accid
 
 Later on, Gonathon stopped by the library to donate a book. Cecilia happened to be there at the time and happily accepted it. Curious, she gave it a read, and through it, she finally learned a little more about the knight.
 
-["Accidentally found it", he said](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=6827)
+["Accidentally found it," he said](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=6827)
 
 The book, A Knight’s Tale, told the story of a humble knight who was once lost but gained purpose through the adventures he shared with the people he had tagged along with. As the days went on, he made more and more memories with these quirky individuals, and each one, he cherished. Yet, as much as others called him humble and steadfast, he felt conflicted, for he had a selfish wish. A wish that the memories of those around him would never return, so he could continue spending these peaceful days with them. But such a wish would never come true, and so, he would press on, doing what he believed was right.
 
@@ -24,5 +24,7 @@ From there on, the two gained newfound respect for each other. Before this, when
 
 
 [You're finally listening](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared\&t=10359)
+
+## Fanart
 
 ["A distraction" by Hyoweii](https://x.com/weiiyxn/status/1832436596261724166)

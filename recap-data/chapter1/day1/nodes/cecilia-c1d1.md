@@ -12,7 +12,7 @@ For heroes summoned to save a kingdom, their approach was, well, unconventional.
 
 Cecilia’s adventure officially began with great enthusiasm, especially after donning the [Libestal Cloak](https://www.youtube.com/live/SAdndMvNK98?feature=shared\&t=3483). She started tackling quests with her guildmates, learning the basics of the world: communication devices, forming parties, and more.
 
-Later, Cecilia teamed up with *Gura and Fauna* to take on the *Underworld Dungeon*. She was the most animated, reacting dramatically to every [twist and turn](https://www.youtube.com/live/SAdndMvNK98?feature=shared\&t=8277) on their journey. Together, they conquered the dungeon and unlocked the memories of *[Mori Calliope](https://www.youtube.com/live/SAdndMvNK98?feature=shared\&t=9328)*. Afterward, the trio decided to hang out in the kingdom, exploring buildings, dueling, and purchasing "gacha boxes". Gura’s prize—a ridiculously long hat—left Cecilia in fits of laughter.
+Later, Cecilia teamed up with *Gura and Fauna* to take on the *Underworld Dungeon*. She was the most animated, reacting dramatically to every [twist and turn](https://www.youtube.com/live/SAdndMvNK98?feature=shared\&t=8277) on their journey. Together, they conquered the dungeon and unlocked the memories of *[Mori Calliope](https://www.youtube.com/live/SAdndMvNK98?feature=shared\&t=9328)*. Afterward, the trio decided to hang out in the kingdom, exploring buildings, dueling, and purchasing "gacha boxes." Gura’s prize—a ridiculously long hat—left Cecilia in fits of laughter.
 
 [El em a o](#embed:https://www.youtube.com/live/SAdndMvNK98?feature=shared\&t=10126)
 

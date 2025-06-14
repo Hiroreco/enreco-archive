@@ -2,7 +2,7 @@ A new day, a new start, and for our girl in brown, a new name. Given how many pe
 
 Weird and elaborate names aside, Darwin was ready to dive into her second day in the kingdom. Her first interaction was with Fauna, who was busy constructing her budding business, *FaunaMart*.
 
-Fauna explained her vision: a convenience store selling local goods and lottery tickets. Darwin was immediately skeptical, especially when Fauna claimed that "10% of ticket revenue goes to the library". A quick visit to the library, which had a shockingly sparse collection of books, only deepened Darwin’s doubts (see [Darwin-Fauna: Shady Business](#edge:moom-fauna)).
+Fauna explained her vision: a convenience store selling local goods and lottery tickets. Darwin was immediately skeptical, especially when Fauna claimed that "10% of ticket revenue goes to the library." A quick visit to the library, which had a shockingly sparse collection of books, only deepened Darwin’s doubts (see [Darwin-Fauna: Shady Business](#edge:moom-fauna)).
 
 Later, the two made their way to the quest board, where they met Shakira, Cecilia, and Gura. True to form, Fauna began advertising her business again. Darwin, ever the skeptic, tried to warn the group about the potential scams, but her efforts were in vain as everyone became enamored with FaunaMart.
 

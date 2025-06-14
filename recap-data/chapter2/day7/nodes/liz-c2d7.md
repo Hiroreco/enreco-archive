@@ -1,6 +1,6 @@
 **Are You Okay?**
 
-Another day, another journal. Elizabeth is worried about keeping *someone* safe. Yet when she looks at Thorn and strikes at the enemy, it cuts differently now. Flashes of ink splashed across a page seared into her memory. Thoughts of accosting someone without cause, without jury, without...justice.
+Another day, another journal. Elizabeth is worried about keeping *someone* safe. Yet when she looks at Thorn and strikes at the enemy, it cuts differently now. Flashes of ink splashed across a page seared into her memory. Thoughts of accosting someone without cause, without jury, without... justice.
 
 ***Which home do you want to go back to?***
 
@@ -44,7 +44,7 @@ Shiori tries to approach Elizabeth more than once, but the strong knight ignores
 
 Stepping into the dungeon with everyone else simultaneously to face the final boss together, they instead face something even more terrifying.
 
-Elizabeth must face her friends. Must face...Nerissa.
+Elizabeth must face her friends. Must face... Nerissa.
 
 Without warning, Elizabeth loses control of her own body. Nerissa giggles sweetly in her ear.
 

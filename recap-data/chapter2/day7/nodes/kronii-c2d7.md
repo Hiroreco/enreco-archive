@@ -24,24 +24,24 @@ Now, if this were where Queen Tam's day ended, it would have been perfect. But i
 
 One might say there should be a way to forcefully tell the Queen to put down the proverbial shovel and stop digging, but the voices in her head were ignored like passing wind. Immerkind, clearly in distress, failed to perform a proper curtsy. The Queen, taking immediate offense, would later feel awful—classic Queen Tam—upon learning of her emotional state.
 
-After offering comforting words to the green knight about her situation with Peasant the Bae, Queen Tam invited her to attend HPO's cursed “gender reveal” party. Why the Queen wanted to attend at all, no one truly knows.
+After offering comforting words to the green knight about her situation with Peasant the Bae, Queen Tam invited her to attend the Hot Pink One's cursed “gender reveal” party. Why the Queen wanted to attend at all, no one truly knows.
 
-She was greeted with the same bombastic sign—"ITS GAS"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, Nino Ina (see [Kronii-IRyS: The Audacity](#edge:irys-kronii)).
+She was greeted with the same bombastic sign—"ITS GAS"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, NinoIna (see [Kronii-IRyS: The Audacity](#edge:irys-kronii)).
 
 Queen Tam next found herself attending Shakira and Roa Pandora’s wedding in the Great Hall. The voices in her head noted, yet again, that she never learned. First HPO’s “gender reveal” party, and now the wedding of her previous-timeline lover. Still, she stood in silence, watching one of her “happinesses” marry another. 
 
 ["Say cheese,"](https://youtu.be/CUh9eciJil4?t=5155) she said as she had herself participate in the group photo.
 
-Naturally, the ceremony wasn’t spared from drama. Queen Tam began implying that the “gas baby” was actually hers, which spiraled when Nino Ina claimed the child was born [from all three of them](https://youtu.be/CUh9eciJil4?t=5204). One could barely keep composure while chronicling these strange Libestan happenings.
+Naturally, the ceremony wasn’t spared from drama. Queen Tam began implying that the “gas baby” was actually hers, which spiraled when NinoIna claimed the child was born [from all three of them](https://youtu.be/CUh9eciJil4?t=5204). One could barely keep composure while chronicling these strange Libestan happenings.
 
-This hatched a plan in Queen Tam's mind. Why not just take Nino Ina for herself? She hired Mordon Ramsay to be her [wingman](https://youtu.be/CUh9eciJil4?t=5950) and set the plan in motion. Queen Tam and Mordon visited Nino Ina, and she [immediately began gaslighting](https://youtu.be/CUh9eciJil4?t=6034) her to think that she does not deserve to be saddled with HPO and her baggage. Finally, the Queen was in her element and seemed to have successfully planted the seeds of doubt.
+This hatched a plan in Queen Tam's mind. Why not just take NinoIna for herself? She hired Mordan Ramsey to be her [wingman](https://youtu.be/CUh9eciJil4?t=5950) and set the plan in motion. Queen Tam and Mordan visited NinoIna, and she [immediately began gaslighting](https://youtu.be/CUh9eciJil4?t=6034) her to think that she does not deserve to be saddled with HPO and her baggage. Finally, the Queen was in her element and seemed to have successfully planted the seeds of doubt.
 
 ["All according to keikaku."](#embed:https://youtu.be/CUh9eciJil4?t=6588)
 
-Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](https://youtu.be/CUh9eciJil4?t=6916) Nino Ina's house and saw HPO lurking around. They pretended not to see each other, quite literally, much to Bijou's distress, who was caught in the crossfire between two unrelenting petty forces insulting each other through her. 
+Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](https://youtu.be/CUh9eciJil4?t=6916) NinoIna's house and saw HPO lurking around. They pretended not to see each other, quite literally, much to Bijou's distress, who was caught in the crossfire between two unrelenting petty forces insulting each other through her. 
 
 ["Why did I decide to love someone like you?"](https://youtu.be/CUh9eciJil4?t=7701)
 
-Before retiring for the day, Queen Tam visited Mordon Ramsay, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordon and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordon Ramsay gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.
+Before retiring for the day, Queen Tam visited Mordan Ramsey, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordan and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordan Ramsey gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.
 
 After writing in her journal and having a quick but [heartfelt reflection with Gonathon](https://youtu.be/CUh9eciJil4?t=9187) on what transpired that day, Queen Tam finally retired for the day.

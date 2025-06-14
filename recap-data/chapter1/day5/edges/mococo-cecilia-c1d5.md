@@ -6,7 +6,7 @@ So when she heard that Mococo needed legal help—or more specifically, *a lawye
 
 [Cel Goodwoman and Associates](#embed:https://www.youtube.com/live/2ATTd32AV-Q?t=7504)
 
-Upon meeting her client, Mococo immediately asked if Cecilia had any legal qualifications. Unsurprisingly, she didn’t. But in her defense, she had taken a bar exam before. (The keyword here being "taken", not "passed"). Nonetheless, Mococo didn’t have much of a choice, so she accepted Cecilia as her lawyer anyway.
+Upon meeting her client, Mococo immediately asked if Cecilia had any legal qualifications. Unsurprisingly, she didn’t. But in her defense, she had taken a bar exam before. (The keyword here being "taken," not "passed"). Nonetheless, Mococo didn’t have much of a choice, so she accepted Cecilia as her lawyer anyway.
 
 Mococo wanted 10,000 coins in compensation for her suffering, but Fauna was only willing to offer 8,000. Cecilia advised Mococo to take the 8,000, claiming that she could always ask for more later—like an investment. (Not exactly sure how that worked, but okay.) But Mococo refused to settle, convinced that 10,000 was barely enough to compensate for her suffering.
 
@@ -24,7 +24,7 @@ Later on, the case somehow resolved itself—without Cecilia’s involvement.
 
 Yay! Happy news! So… where’s my paycheck?
 
-[Another sucessful case](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared\&t=10669)
+[Another successful case](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared\&t=10669)
 
 Despite not actually doing anything to resolve the case, Cecilia still wanted her cut. She asked for 5% of the compensation as payment for all the hard work she had put into defending Mococo. And Mococo, being ever so generous and understanding, gave her 1.8% instead—which, all things considered, was fair.
 

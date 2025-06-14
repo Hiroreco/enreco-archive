@@ -6,7 +6,7 @@ She had her eyes on the intriguing promise of lottery tickets being sold there. 
 
 [Let's go to FaunaMart!](#embed:https://www.youtube.com/live/0rhoyO69kAQ?feature=shared\&t=703)
 
-At FaunaMart, Mococo dove right in and bought her first lottery ticket. She reasoned it was best to play it safe—after all, this could be a scam. Therefore, Mococo, being the responsible doggo that she was, bought only one, two, three...four...sixty-eight tickets. She spent every last coin she had, her tail wagging with excitement.
+At FaunaMart, Mococo dove right in and bought her first lottery ticket. She reasoned it was best to play it safe—after all, this could be a scam. Therefore, Mococo, being the responsible doggo that she was, bought only one, two, three... four... sixty-eight tickets. She spent every last coin she had, her tail wagging with excitement.
 
 Elizabeth and Fuwawa exchanged worried glances as Mococo gleefully held her mountain of tickets, certain she’d struck gold. She assured Elizabeth that she’d soon be rich and promised to treat her friends once she hit the [jackpot](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared\&t=1310). Elizabeth, though still concerned, wished her the best of luck.
 

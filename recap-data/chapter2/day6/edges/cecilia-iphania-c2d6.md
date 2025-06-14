@@ -1,13 +1,13 @@
 <!-- title: A Knight's Love -->
 
-One day became two, two turned to three, and now, it had been six long, hope-filled days since Cecilia first laid eyes on the Princess. Six days where the glimmer in her eyes had never dulled, not even for a moment. She had given her all—every breath, every thought, every ounce of strength—just for a chance to remain by the Princess' side. She shielded her, fulfilled her wishes, and held steadfast even when the Princess' heart seemed to wander elsewhere, most often toward the Outlander.
+One day became two, two turned to three, and now, it had been six long, hope-filled days since Cecilia first laid eyes on the Princess. Six days where the glimmer in her eyes had never dulled, not even for a moment. She had given her all—every breath, every thought, every ounce of strength—just for a chance to remain by the Princess's side. She shielded her, fulfilled her wishes, and held steadfast even when the Princess's heart seemed to wander elsewhere, most often toward the Outlander.
 
 But today… today, emotions could no longer be held back.
 
 Instrument in hand, heart on sleeve, Cecilia chose to bare it all. No more subtle gestures. No more waiting. She poured herself into a song.
 
 A song for her Princess.
-A song from the knight’s aching heart.
+A song from the Knight’s aching heart.
 
 [Oh Princess ♪](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=7144)
 
@@ -35,7 +35,7 @@ And in those two days, Cecilia would wait—for an answer, for hope, for the lov
 
 ## Fan Art from Music Video
 
-Note from the Legend of Immerkind Archiver: Thank you so much everyone for all your hard work for creating beautiful fan art for the story Cecilia is telling. The story was made more colorful with your hard work and kindness!
+Note from the Legend of Immerkind Archiver: Thank you so much everyone for all your hard work in creating beautiful fan art for the story Cecilia is telling. The story was made more colorful with your hard work and kindness!
 
 [The Princess and the Knight by Lillian](https://x.com/Lillian5090/status/1920258639580766280)
 

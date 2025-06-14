@@ -8,7 +8,7 @@ The friendship and support of Gonathon meant so much to Cecilia that she propose
 
 During a moment of respite after slaying the Stain King Elpis, Cecilia confides that her feelings are still tumultuous. Her heart once sought comfort in both [Iphania and Bae](https://www.youtube.com/watch?v=Icdii90_vSA&t=14096s), but she resolved to stay devoted only to the princess.
 
-After the conquest of Star Site: Elpis and the Stronghold Ruins, Gonathon calls Cecilia and [tells her not to talk to the princess yet](https://www.youtube.com/live/Icdii90_vSA?t=17674s), for Gonathon is trying to assist Karia with getting together with Cecilia. Gonathon proclaims that perhaps The Outlander and Iphania are related as siblings and cannot marry!
+After the conquest of Star Site: Elpis and the Stronghold Ruins, Gonathon calls Cecilia and [tells her not to talk to the princess yet](https://www.youtube.com/live/Icdii90_vSA?t=17674s), for Gonathon is trying to assist Karia with getting together with Cecilia. Gonathon proclaims that perhaps the Outlander and Iphania are related as siblings and cannot marry!
 
 [Just Siblings](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=18700s)
 

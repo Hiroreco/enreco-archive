@@ -8,9 +8,9 @@ During the battle with the *Stain King*, Fauna’s weapon made its debut: a wand
 
 In a brief exchange with the guildmasters, she mimicked the *Amber Coin* guildmaster’s accent, calling it "British," and, knowing how "good" Fauna is at her accents, the voices in her head went into an immediate state of [panic](https://www.youtube.com/live/VrLNA0SjYN8?si=0_DR3pQaTV-Eefyw\&t=3234). She was eventually sorted into the *Scarlet Wand* [guild](https://www.youtube.com/live/VrLNA0SjYN8?si=-WFwPJ36yVIN8B7Z\&t=3441).
 
-After entering the new world, Fauna began familiarizing herself with her surroundings. While completing a quest to slay stains, Fauna discovered something intriguing—she earned money for each stain defeated. The realization amused her, sparking a newfound joy.
+After entering the new world, Fauna began familiarizing herself with her surroundings. While completing a quest to slay Stains, Fauna discovered something intriguing—she earned money for each Stain defeated. The realization amused her, sparking a newfound joy.
 
-The stains were no longer just enemies to vanquish for the greater good—they were a source of [income](https://www.youtube.com/live/VrLNA0SjYN8?si=Ewua3iV9CrElQap3\&t=5008). With dollar signs in her eyes, Fauna’s motivation shifted ever so slightly as she continued questing with her guildmates.
+The Stains were no longer just enemies to vanquish for the greater good—they were a source of [income](https://www.youtube.com/live/VrLNA0SjYN8?si=Ewua3iV9CrElQap3\&t=5008). With dollar signs in her eyes, Fauna’s motivation shifted ever so slightly as she continued questing with her guildmates.
 
 Continuing on, in a memorable moment involving *Shakira*, the lady in orange challenged *Gura* to float on water, given that she had a shark tail. Gura gave it a go and promptly drowned. Fauna, observing the entire fiasco, didn’t lift a finger to help (she did, but only after Gura drowned). She did feel pretty guilty about her guildmate, however, because right after Gura cried out, *"HEALER? WHERE’S MY HEAL?"* Holding the support title, Fauna felt it was her responsibility to provide a sincere apology, and so she replied:
 

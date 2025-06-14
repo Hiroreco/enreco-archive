@@ -14,10 +14,10 @@ In the duel, the Hot Pink One emerged victorious. Elizabeth’s excuses about a 
 
 The day’s events continued with the Pink One 'accidentally' killing Bijou’s pet [rock](https://www.youtube.com/live/f8W426vzTb8?si=purywjxey_noU_DD\&t=3974), partying at the [tavern](https://www.youtube.com/live/f8W426vzTb8?si=0B4-qaOCsa2OupoT\&t=6275), and finally preparing for the *Ocean Temple Dungeon*.
 
-At the dungeon’s entrance, the group discussed how their teams should be split, with the Pink One joining Gonathon, Tam, and Bijou. Meanwhile, Nino Ina mentioned auctioning her hat. Initially uninterested, the Pink One’s demeanor shifted entirely when she learned the hat carried Ina’s scent. Fueled by newfound enthusiasm, she purchased the hat for a steep 600 coins.
+At the dungeon’s entrance, the group discussed how their teams should be split, with the Pink One joining Gonathon, Tam, and Bijou. Meanwhile, NinoIna mentioned auctioning her hat. Initially uninterested, the Pink One’s demeanor shifted entirely when she learned the hat carried Ina’s scent. Fueled by newfound enthusiasm, she purchased the hat for a steep 600 coins.
 
 [Mmmmm, smells like her](#embed:https://www.youtube.com/live/f8W426vzTb8?si=zn5oNkKqFzUfNvDI\&t=7400)
 
 Inside the Ocean Temple Dungeon, the Hot Pink One surprised everyone, including herself, by excelling at puzzles—a rarity given her usual disposition. She credited her newfound intellect to Ina’s hat, which she now considered a source of luck and inspiration. Her team successfully conquered the dungeon, recovering memories of [Gawr Gura](https://www.youtube.com/live/f8W426vzTb8?si=X8em6vc_K7PpG1Mh\&t=9178).
 
-Feeling emboldened by her achievements and newfound clarity, the Pink One realized her feelings for Nino Ina and proposed (see [Hot Pink One-Ina: Eternal Consort](#edge:irys-ina).)
+Feeling emboldened by her achievements and newfound clarity, the Pink One realized her feelings for NinoIna and proposed (see [Hot Pink One-Ina: Eternal Consort](#edge:irys-ina).)

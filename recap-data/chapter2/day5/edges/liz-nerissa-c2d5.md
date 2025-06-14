@@ -1,8 +1,8 @@
 <!-- title: Doomed Yuri -->
 
-**Elizbaeth's Point of View**
+**Elizabeth's Point of View**
 
-Reaching the fifth day of the journey without any conflicts or misunderstandings that could spark heartbreak, the bond between the scarlet knight and the blue raven lady officially broke their previous record. That’s progress, right? Hard to say—eye contact alone still seemed like a final boss fight.
+Reaching the fifth day of the journey without any conflicts or misunderstandings that could spark heartbreak, the bond between the Scarlet Knight and the blue raven lady officially broke their previous record. That’s progress, right? Hard to say—eye contact alone still seemed like a final boss fight.
 
 [Why aren’t you looking at her?](#embed:https://www.youtube.com/live/9gL4We5utAk?t=684s)
 
@@ -10,7 +10,7 @@ These two were so harmoniously in sync that it felt almost impossible to imagine
 
 [Do you hate me?](#embed:https://www.youtube.com/live/9gL4We5utAk?t=950s)
 
-It looked like there was an attempt—an honest effort—to stir up some drama. Elizabeth called Nerissa a witch, and Nerissa needing therapy because of being called said witch. But let’s be real here, that was just your average Tuesday for these two. Nothing out of the ordinary, even others joined in to entertain the bit.
+It looked like there was an attempt—an honest effort—to stir up some drama. Elizabeth called Nerissa a witch, and Nerissa needed therapy because of being called said witch. But let’s be real here, that was just your average Tuesday for these two. Nothing out of the ordinary, even others joined in to entertain the bit.
 
 [God’s calling](#embed:https://www.youtube.com/watch?v=9gL4We5utAk&t=12950s)
 
@@ -87,8 +87,8 @@ And wait until her heart shows through.
 A love like ours, strange and sublime—
 It hurts. It heals. It takes its time.
 
-_(writer's note: nerissa, girl, why are you like this she was just chillin)_
-_(writer's note 2: this took me over an hour i hope you're happy nerissa (affectionate))_
+_(writer's note: Nerissa, girl, why are you like this she was just chillin)_
+_(writer's note 2: this took me over an hour I hope you're happy Nerissa (affectionate))_
 
 ## Fanart
 

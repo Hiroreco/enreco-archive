@@ -18,7 +18,7 @@ Jyonathan remembered everything now. Her name wasn’t Jyonathan—it was Amelia
 
 Returning to the kingdom, Amelia was greeted warmly by her companions, who congratulated her on reclaiming her memories. She resolved to continue being the lively, mischievous person she had grown into, cherishing her journey so far.
 
-However, something nagged at her. Her "chatterbox" kept mentioning odd words: *"Husband," "Gonathon," "Pearl".* The terms were foreign to her, but they seemed significant.
+However, something nagged at her. Her "chatterbox" kept mentioning odd words: *"Husband," "Gonathon," "Pearl."* The terms were foreign to her, but they seemed significant.
 
 Before she could make sense of it, a knight clad in orange approached her, congratulating her like the others. Amelia, likewise, thanked the knight for his generosity.
 

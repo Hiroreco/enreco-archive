@@ -16,4 +16,6 @@ It seemed clear: these two weren’t about to reconcile anytime soon. Their riva
 
 [Red and Blue, round two](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=8324)
 
+## Fanart
+
 ["Elizabeth vs. Tam" by Daaku](https://x.com/koizumi_arata/status/1830388700678697267)

@@ -86,6 +86,7 @@ const ViewShioriGame = () => {
         "sea-x-lovers",
         "tam-x-tam",
         "the-cell",
+        "the-princess-1",
         "the-princess-2",
     ];
 

@@ -1,6 +1,6 @@
-Fragments of Memories, Whispers of Past Deeds, and Love
+**Fragments of Memories, Whispers of Past Deeds, and Love**
 
-With a flash of light, Gonathon G. once again found himself whisked back to the land of Libestal. However, in a perverse turn of fate, he found himself stripped of his memories, including those of his time in the present and of those most dear to him.
+With a flash of light, Gonathon G. once again found himself whisked back to the land of Libestal. However, in a perverse turn of fate, he was stripped of his memories, including those of his time in the present and of those most dear to him.
 
 [Something is missing](#embed:https://youtu.be/CPT2cj934-I?t=4968)
 

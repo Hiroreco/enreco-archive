@@ -2,13 +2,13 @@ The final day had arrived, and if there was ever a day for Cecilia to execute he
 
 Part of the ritual required the involvement of someone Cecilia considered an ally. Naturally, she stopped by FaunaMart to ask her green companion to fulfill that role. By chance, Amelia was also there, frantically searching for the "diamonds" she'd been obsessing over all day. Cecilia didn’t really understand what Amelia was on about but tried to help her [nonetheless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=875).
 
-Not long after, Gonathon and Ina approached Cecilia to ask if the library had any records of an ancient tale about a golden apple rumored to cure the "corruption". Cecilia, not quite understanding why they needed it, recalled that the library did have the book, so she handed it over.
+Not long after, Gonathon and Ina approached Cecilia to ask if the library had any records of an ancient tale about a golden apple rumored to cure the "corruption." Cecilia, not quite understanding why they needed it, recalled that the library did have the book, so she handed it over.
 
 [A lot's happening, huh](#embed:https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=1399)
 
 Only later, after receiving explanations from the others and seeing the corruption firsthand, did Cecilia start to grasp its nature. Instead of being scared or sad that her friends were succumbing to it, Cecilia was... upset. Upset that she still didn’t fully understand what was so bad about the corruption.
 
-Sure, it was destroying crops, which might be a problem, but it didn’t seem like the end of the world. More importantly, Koseki Bijou—the princess—was at the center of the corruption. This revelation threw a wrench into Cecilia’s plan. If the princess’s mind was already under the control of the stain on her head, Cecilia’s efforts to control her might be [pointless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=2080).
+Sure, it was destroying crops, which might be a problem, but it didn’t seem like the end of the world. More importantly, Koseki Bijou—the princess—was at the center of the corruption. This revelation threw a wrench into Cecilia’s plan. If the princess’s mind was already under the control of the Stain on her head, Cecilia’s efforts to control her might be [pointless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=2080).
 
 Still, she pressed on. With Fauna's assistance, the ritual was completed, and the special cake needed for the plan was ready.
 

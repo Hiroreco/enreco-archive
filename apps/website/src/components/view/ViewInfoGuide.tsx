@@ -1,4 +1,5 @@
 import {
+    Book,
     BookOpen,
     CheckSquare,
     Dice6,
@@ -72,6 +73,14 @@ const ViewInfoGuide = () => {
                         will directly open the referenced card. This helps you
                         from needing to search for the card manually.
                     </li>
+                    <li>
+                        <span className="font-bold inline-flex items-center gap-1">
+                            Texts <BookOpen size={18} />:
+                        </span>{" "}
+                        These are writings made by either the talents or within
+                        the journey itself. Clicking on them will open a card
+                        containing the text, which can be read in full.
+                    </li>
                 </ul>
             </div>
 
@@ -144,6 +153,19 @@ const ViewInfoGuide = () => {
                 A selection of minigames from the series has been recreated and
                 can be played in the <em>Minigames Tab</em>—including the
                 infamous Gambling Game from Chapter 1.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <Book size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Chapter Recaps
+                </div>
+            </div>
+            <div>
+                A general overview of the entirety of each chapter can be
+                accessed via the <em>Chapter Recaps Tab</em>. This includes
+                summaries of the main events, character arcs, and relationships
+                that defined the story of the journey.
             </div>
 
             <div className="flex items-center gap-2">

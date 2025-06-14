@@ -8,7 +8,7 @@ And it was working… until Nerissa gave her a [rose](https://www.youtube.com/li
 
 That’s when the cracks began to show.
 
-[Uhh, umm...uhhh](#embed:https://www.youtube.com/live/CVF91CqGD80?si=1dSFxlg0GsDPjdU7&t=7799)
+[Uhh, umm... uhhh...](#embed:https://www.youtube.com/live/CVF91CqGD80?si=1dSFxlg0GsDPjdU7&t=7799)
 
 First came the fluster. Then the fidgeting. Heat crawled up her face. In a desperate attempt to wrestle back control of the situation, she called Nerissa a witch—clearly hoping the accusation would distract from the butterflies wreaking havoc in her chest. But it only made things worse. “How so?” Nerissa asked. And thus began Elizabeth’s spiral.
 
@@ -18,7 +18,7 @@ It meant Elizabeth was scrambling, that’s what.
 
 Desperate to recover, they settled on a sparring match, as if a couple swings of a wooden sword could knock the embarrassment out of her.
 
-Elizabeth didn’t need to hold back—she was already nerfed. Swinging her blades, raising her shield, trying to stay focused… all while a majestic Blue Maiden danced in front of her, fully immersed in their little spar. Every move Nerissa made was deliberate, serious, and graceful. And that sight alone? More than enough to break the composure of the Scarlet Swordswoman.
+Elizabeth didn’t need to hold back—she was already nerfed. Swinging her blades, raising her shield, trying to stay focused… all while a majestic blue maiden danced in front of her, fully immersed in their little spar. Every move Nerissa made was deliberate, serious, and graceful. And that sight alone? More than enough to break the composure of the Scarlet Swordswoman.
 
 In the end, Elizabeth still won—she _was_ a knight, after all. And surprisingly, the match helped clear her head. The fog lifted. She was calm again.
 

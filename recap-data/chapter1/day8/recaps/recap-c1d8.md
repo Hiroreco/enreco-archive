@@ -16,4 +16,4 @@ And finally, the most crucial moment of all—the battle against the Stain King.
 
 With corruption at its peak, relationships transformed, rivalries settled, and secrets unearthed, the kingdom stood at the brink of a new era. And yet, despite the battles won, this was only the beginning of something far, far greater.
 
-["The finale is here". by keenbiscuit](https://x.com/keenbiscuit/status/1832589405451931972)
+["The finale is here." by keenbiscuit](https://x.com/keenbiscuit/status/1832589405451931972)

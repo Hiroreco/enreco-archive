@@ -1,12 +1,16 @@
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
-She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop The Outsider? Her eyes then sparkle with a flash of inspiration: "We are not here to kill a baby, we are here to break apart a couple that will birth the outsider". A task well suited to her vast knowledge gained from romance novels.
+She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Shining Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
+
+_"We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider"_.
+
+A task well suited to her vast knowledge gained from romance novels.
 
 [Project Abortion](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
 
 Immerkind becomes reacquainted with her fellow Shining Stars and helps ["Oliver"](https://www.youtube.com/live/cyLsX20esBE?si=_Q7J44xZtf5xKMqD&t=2417) with some of her memories, and Hot Pink One helps Immerkind decide upon the supplier job. She immediately departed and was assisted by Peasant the Bae (see [Bae-Cecilia: Supply Monopoly](#edge:cecilia-bae)) at the Remnants, where she gets to work. With her newfound job and comrade, they create a monopoly with Bae to become rich (with ["kindness"](https://www.youtube.com/live/cyLsX20esBE?si=98NttHZqZvCyfV3K&t=5215)).
 
-Immerkind develops her [skills](https://www.youtube.com/live/cyLsX20esBE?t=5699s) quickly, she then departs to explore the surrounding area. She strikes down the stains and saves Gonathan from a [dreaded bird](https://www.youtube.com/live/cyLsX20esBE?si=heSaCd2NMHfPv-Ah&t=6718) and tries to remind Gonathan of who he once was. As they bond, Cecilia agrees to become dogs with Gonathan (see [Cecilia-Gonathan: Up Dog](#edge:cecilia-gigi)).
+Immerkind develops her [skills](https://www.youtube.com/live/cyLsX20esBE?t=5699s) quickly, she then departs to explore the surrounding area. She strikes down the Stains and saves Gonathon from a [dreaded bird](https://www.youtube.com/live/cyLsX20esBE?si=heSaCd2NMHfPv-Ah&t=6718) and tries to remind Gonathon of who he once was. As they bond, Cecilia agrees to become dogs with Gonathon (see [Cecilia-Gonathon: Up Dog](#edge:cecilia-gigi)).
 
 [Shall we be each other's dogs?](#embed:https://www.youtube.com/live/cyLsX20esBE?t=6986s)
 
@@ -16,14 +20,14 @@ She continues her exploration of the castle, stopping anyone who is potentially 
 
 [Saving you and the world](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
 
-She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathan and visits Mordan Ramsey and Shiori of the Novella at their restaurant for respite. 
+She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Novella at their restaurant for respite.
 
-After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day. 
-
+After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day.
 
 ### Objective Tracker - Project Abortion
+
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
-[Libestan Two - Grypon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
+[Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 
 ### Fanart
 
