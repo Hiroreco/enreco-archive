@@ -1,7 +1,7 @@
 <!-- title: Cecilia Immergreen -->
 <!-- quote: P-Princess, I need to go. I have a dentist appointment. -->
 <!-- chapters: -1 -->
-<!-- images: ()  -->
+<!-- images: (Cecilia's Chapter 1 Profile), (Cecilia in battle, along with others), (Cecilia's Chapter 2 Profile), (Cecilia's serenade for the Princess), (Cecilia upon finding out the love of her life is a cat)  -->
 <!-- model: false -->
 
 ## Overview

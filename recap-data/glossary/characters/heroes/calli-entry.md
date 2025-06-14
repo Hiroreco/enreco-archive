@@ -1,7 +1,7 @@
 <!-- title: Mori Calliope -->
 <!-- quote: Until death do you part. -->
 <!-- chapters: 0 -->
-<!-- images: -->
+<!-- images: (Calli's Chapter 1 Profile), (Calli aura farming), (Recollection - Mori Calliope), (Calli's Chapter 2 Profile), (Calli during Chapter 2's Ending)-->
 <!-- model: false -->
 
 ## Overview
@@ -18,7 +18,7 @@ Mori Calliope, now remembered as Amelia Watson, was a mischievous and lovable de
 **Name:** Mori Calliope
 **Guild:** Cerulean Cup
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat sodales nunc, ut vulputate dui. Nam volutpat arcu tellus. Etiam porta est nec mauris eleifend aliquet ut eget tortor. Suspendisse potenti. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat sodales nunc, ut vulputate dui. Nam volutpat arcu tellus. Etiam porta est nec mauris eleifend aliquet ut eget tortor. Suspendisse potenti.
 
 ### Chapter 2
 
