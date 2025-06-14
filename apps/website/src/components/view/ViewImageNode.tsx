@@ -40,7 +40,7 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
+const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
@@ -99,7 +99,7 @@ const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
                     />
                 )}
 
-                {data.renderTeamImageSrc !== "" && (
+                {data.renderTeamImageSrc !== "" && id !== "lore" && (
                     <Image
                         className="absolute top-1 left-1 opacity-80 z-20"
                         width={25}

@@ -41,6 +41,11 @@ h3 {
     @apply text-xl font-bold;
 }
 
+/* line height should be like normal text */
+h4 {
+    @apply text-lg font-semibold underline underline-offset-2;
+}
+
 a {
     color: #5f8db2;
 }
