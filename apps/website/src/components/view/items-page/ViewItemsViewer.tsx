@@ -12,7 +12,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     return (
         <div className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2">
             <div className="flex flex-col items-center md:mt-14 gap-4">
-                <p className="font-bold text-center">Model Viewer</p>
+                <p className="font-bold text-center">General Info</p>
                 <div className="w-[250px] h-[250px]">
                     {item.modelSrc && (
                         <ViewModelViewer modelPath={item.modelSrc} />
