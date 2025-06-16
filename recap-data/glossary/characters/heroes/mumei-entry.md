@@ -1,7 +1,7 @@
 <!-- title: Nanamoo -->
-<!-- quote: The look as alike as you look pregnant.  -->
+<!-- quote: They look as alike as you look pregnant.  -->
 <!-- chapters: 0 -->
-<!-- images: (Nanamoo reading a book), (Nanamoo exploring the Ancient Sewer Dungeon with others)  -->
+<!-- images: (Nanamoo's Chapter 1 Profile), (Nanamoo reading a book), (Nanamoo exploring the Ancient Sewer Dungeon with others)  -->
 <!-- model: false -->
 
 ## Overview

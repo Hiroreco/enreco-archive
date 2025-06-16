@@ -1,7 +1,7 @@
 <!-- title: Shiori Nyavella -->
 <!-- quote: I don't know what to say. I think if I say too much, it'll change everything. -->
 <!-- chapters: -1 -->
-<!-- images: () -->
+<!-- images: (Shiori's Chapter 1 Profile), (Shiori investigating a dungeon along with others), (Shiori's Chapter 2 Profile), (Shiori in the "Monster" MV), (Shiori turning against Fia in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview

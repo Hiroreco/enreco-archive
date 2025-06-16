@@ -1,6 +1,7 @@
 <!-- title: Gonathon G, the Humble Knight -->
 <!-- quote: "Oh where, oh where is my brave knight?"-->
 <!-- chapters: -1 -->
+<!-- images: (Gonathon's Chapter 1 Profile), (Gonathon terrorizing the local Libestians), (Gonathon's Chapter 2 Profile), (Gonathon in the "Monster" MV), (Gonathon in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview
@@ -21,7 +22,7 @@ Who are you
 
 ### Chapter 2
 
-**Name:** Gonathon G. 
+**Name:** Gonathon G.
 
 **Job:** Blacksmith
 

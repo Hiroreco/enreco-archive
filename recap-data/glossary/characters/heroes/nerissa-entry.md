@@ -1,6 +1,7 @@
 <!-- title: Nerissa Ravencroft -->
-<!-- quote: "Oh where, oh where is my brave knight?"-->
+<!-- quote: Oh where, oh where is my brave knight?-->
 <!-- chapters: -1 -->
+<!-- images: (Nerissa's Chapter 1 Profile), (Nerissa in the "Start Again" MV), (Nerissa acivating her Revelation), (Nerissa's Chapter 2 Profile), (Nerissa turning against Fia in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview

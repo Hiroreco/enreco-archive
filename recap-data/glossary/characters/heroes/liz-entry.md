@@ -1,7 +1,7 @@
 <!-- title: Elizabeth Rose Bloodflame -->
 <!-- quote: For honour, onwards and upwards!-->
 <!-- chapters: -1 -->
-<!-- images: () -->
+<!-- images: (Elizabeth's Chapter 1 Profile), (Elizabeth in the "Start Again" MV), (Elizabeth fighting along with Cecilia), (Elizabeth's Chapter 2 Profile), (Elizabeth in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview

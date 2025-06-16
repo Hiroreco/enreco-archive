@@ -1,7 +1,7 @@
 <!-- title: Tam Gandr / Ouro Kronii -->
-<!-- quote: Bro this is too much for me, I just woke up-->
+<!-- quote: It is simply way too early for this-->
 <!-- chapters: -1 -->
-<!-- images: () -->
+<!-- images: (Tam's Chapter 1 Profile), (Tam's Chapter 2 Profile #1), (Tam's Chapter 2 Profile #2), (Tam in the "Monster" MV), (Recollection - Ouro Kronii), (Tam in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview

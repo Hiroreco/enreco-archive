@@ -1,7 +1,7 @@
 <!-- title: Fuwawa Abyssguard -->
 <!-- quote: Bau bau! Thank you for enjoying my food!-->
 <!-- chapters: -1 -->
-<!-- images: (Fuwawa's Chapter 1 Profile), (Fuwawa and her not sister by the fire), (Fuwawa's Tarot Card), (Fuwawa and Mococo turning against Fia) -->
+<!-- images: (Fuwawa's Chapter 1 Profile), (Fuwawa and her not sister by the fire), (Fuwawa's Chapter 2 Profile), (Fuwawa and Mococo turning against Fia in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview
