@@ -2,7 +2,7 @@
 
 She returned to the job hall, where adventurers toiled to complete their tasks, and met Tanakisha Karia. There, they discovered they were cousins.
 
-The reason? The two of them shared something unique, just like in their first journey: they could speak the cryptic language known as "German." So, naturally, they were connected by this string of fate, because that's how siblings are formed... right?
+The reason? The two of them shared something unique, just like in their first journey: they could speak the cryptic language known as "German". So, naturally, they were connected by this string of fate, because that's how siblings are formed... right?
 
 Either way, the two shared moments of banter throughout the day, even engaging in a semi-rivalrous sibling moment, a friendly battle of kindness. Each sought to kindly outdo the other's kindness, aiming to become the most kind in the kingdom.
 

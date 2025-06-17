@@ -4,7 +4,7 @@ From side chicks to sidebros—a development that transcended all boundaries (es
 
 [Hoes to Bros](#embed:https://www.youtube.com/live/xzAqu4vkY7I?si=eLLiweZ183nhGJCJ&t=2233)
 
-Surprisingly, they got along splendidly. It started with the exchange of ancient wisdom—secret arts passed down through generations (or maybe just made up on the spot): the “bro tug,” the “chicken jockey,” the sacred “flint and steel.” These teachings forged something greater than a mere alliance, culminating in the gemstone calling the pink menace her **“Onii-chan.”** And just like that, their sibling status—*kyodai*—was sealed.
+Surprisingly, they got along splendidly. It started with the exchange of ancient wisdom—secret arts passed down through generations (or maybe just made up on the spot): the “bro tug”, the “chicken jockey” and the sacred “flint and steel”. These teachings forged something greater than a mere alliance, culminating in the gemstone calling the pink menace her **“Onii-chan.”** And just like that, their sibling status—*kyodai*—was sealed.
 
 [Onii-chan, Daisuki!](#embed:https://www.youtube.com/live/xzAqu4vkY7I?si=dmzjAvUae0JZXmQS&t=2555)
 
