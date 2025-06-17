@@ -15,7 +15,7 @@ Elizabeth had always been a knight through and through. From the very first day 
 **Name:** Elizabeth Rose Bloodflame
 **Guild:** Jade Sword
 
-Elizabeth began her journey with a conviction that would define her character throughout, even with no memory of who she once was. She embraced the mantle of a knight—dutiful, responsible, compassionate, and loyal to her King.
+Elizabeth began her journey with a conviction that would define her character throughout, even with no memory of who she once was. She embraced the mantle of a knight—dutiful, responsible, compassionate, and loyal to her [King](#entry:outsider-entry).
 
 But as noble as she was, Elizabeth was also terribly clumsy and somewhat clueless when it came to the inner workings of the kingdom. The systems were far too advanced for a classical knight like her, and more often than not, she ended up needing help instead of giving it.
 
@@ -56,3 +56,7 @@ She couldn’t remember that life—not fully. But she could feel traces of it. 
 > I lend my sword to those who need it—even if it means I break a little more with every swing.
 > Kindness need not feel soft to be real.
 > Sometimes, it is simply what remains when everything else has burned away."
+
+## Trivia
+
+- Elizabeth is the only one who has not missed a single day in this enigmatic journey.

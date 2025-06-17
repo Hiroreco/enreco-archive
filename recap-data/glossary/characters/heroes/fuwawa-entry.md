@@ -28,14 +28,19 @@ Yet, with the help of her comrades, the corruption was vanquished, and Fuwawa re
 **Name:** Fuwawa Abyssguard
 **Job:** Chef
 
-Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on the role of a chef—not for power or glory, but simply because she wanted to make others smile through her cooking. With that goal, she wasted no time in building a cozy little café, hoping it could become a space where people came together in a kingdom rife with drama.
+Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on the role of a [chef](#entry:jobs-entry)—not for power or glory, but simply because she wanted to make others smile through her cooking. With that goal, she wasted no time in building a cozy little café, hoping it could become a space where people came together in a kingdom rife with drama.
 
 She worked hard, gathering ingredients and crafting dishes with care—but things didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible. The other chefs were just too good, she thought. And with no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. Loneliness crept in.
 
-But then, at the end of Day 5, a kind orange lady gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was overjoyed—so much so that she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
+But then, at the end of Day 5, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was overjoyed, and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
 
 It felt like the perfect ending.
 
 But then came the twist.
 
 On the final day, Fuwawa, along with Mococo, Bijou, Nerissa, and Shiori, turned away from the other heroes. They rejected Fia’s wish and chose to follow their own path.
+
+## Trivia
+
+- Fuwawa's chicken flocks in Chapter 1 were murdered, and rebuilt, a total of 6 times.
+- By Chapter 2, Fuwawa had amassed over 60,000 coins, becoming the richest person in the kingdom and surpassing Nerissa's Chapter 1 record of around 50,000 coins.

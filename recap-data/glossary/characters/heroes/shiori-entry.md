@@ -63,3 +63,7 @@ About the _story_.
 And perhaps it was this knowledge that drove her final decision.
 
 When Fia called on the heroes to fight the Outsider, five of them refused: Nerissa, Bijou, Fuwawa, Mococo and Shiori. Standing at the front of this rebellion, it was Shiori who spoke first—declaring their rejection of Fia's plea, and sparking a new chapter of resistance.
+
+## Trivia
+
+- Shiori has a habit of referring to others not by their actual names, but by quirky, often oddly specific titles. Some examples include: Nerissa as "the birded one" or "the tall lady," Gonathon as "the fumbly one," Mococo as "the belly button girl," and so on.

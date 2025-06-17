@@ -6,7 +6,7 @@
 
 ## Overview
 
-The contrast between the gem maiden’s petite figure and voice and the chaos she brought upon this journey was quite remarkable—but that’s exactly what Koseki Bijou was. Mischievous, adorable, and unwaveringly committed to whatever she set her sights on—no matter how silly, or how much pain it might cause others. A truly special gem to have.
+The contrast between the gem maiden’s petite figure and voice and the chaos she brought upon this journey was quite remarkable, but that’s exactly what Koseki Bijou was. Mischievous, adorable, and unwaveringly committed to whatever she set her sights on—no matter how silly, or how much pain it might cause others. A truly special gem to have.
 
 ## Details
 
@@ -15,13 +15,13 @@ The contrast between the gem maiden’s petite figure and voice and the chaos sh
 **Name:** Koseki Bijou
 **Guild:** Cerulean Cup
 
-Bijou was unpredictable—_very_ unpredictable. Which was saying something, considering the existing chaos caused by the other heroes. But Bijou’s unpredictability was on a completely different level.
+Bijou was unpredictable, _very_ unpredictable. Which was saying something, considering the existing chaos caused by the other heroes. But Bijou’s unpredictability was on a completely different level.
 
-Just a few days in, she’d already managed to get herself a wife—Shiori—whom she loved dearly… only to dump her on the final day, leaving her with a child.
+Just a few days in, she’d already managed to get herself a wife—Shiori—whom she loved dearly... only to dump her on the final day, leaving her with a child.
 
 She also acquired a mother. Two, actually. And got involved in a polygamous relationship with three other women, all while wearing a wide colon-D smile on her face. A smile she often used to get what she wanted—after all, who could say no to that cute, pleading expression?
 
-She claimed to be of royalty—a princess, to be precise—because of the crown she wore. Whether she was truly royal was up for debate, considering she acted like a literal toddler: always up to mischief, constantly messing about.
+She claimed to be of royalty, a princess, because of the crown she wore. Whether she was truly royal was up for debate, considering she acted like a literal toddler: always up to mischief, constantly messing about.
 
 But when it came to commitment, Bijou didn’t mess around. Early on, she set her sights on a goal—not saving the world or anything trivial like that—but acquiring a hat. She dedicated entire days and nights, hoarding money, gambling her life away just to afford more gacha boxes. All because she saw someone else’s hat and got jealous.
 
@@ -42,12 +42,17 @@ In contrast, her so-called brother had done virtually nothing good for her. If a
 
 Bijou also served as a diligent employee at the Gacharm business, a loyal wingwoman and sidekick for her boss, Roa, and a loving sister to Ina—once again, the two reunited from their past journey. Tam also became her mother, simply because Bijou wanted her to be. Déjà vu?
 
-She even attempted to atone for her past mistake—abandoning Shiori and their child. This time, she managed to mend their fractured bond.
+She even attempted to atone for her past mistake of abandoning Shiori and their child. This time, she managed to mend their fractured bond.
 
-In short, Bijou was kind and diligent toward everyone around her. It felt as though she was doing her best to redeem herself—for falling to corruption, for hurting those she cared about. She had turned over a new leaf, no longer driven by blind greed.
+In short, Bijou was kind and diligent toward everyone around her. It felt as though she was doing her best to redeem herself, for falling to corruption, for hurting those she cared about. She had turned over a new leaf, no longer driven by blind greed.
 
 …Which made the final twist all the more shocking.
 
 At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shiori—turned against Fia and the remaining heroes.
 
 _“After all, nothing stays pure,”_ the gem maiden said.
+
+## Trivia
+
+- By playing the music disc "Violet"—as a prank to mess with Ina, Bijou accidentally made one of the most iconic moments that defined Chapter 1, between Gonathon G and Amelia Watson.
+- Many others had a habit of calling the gem princess "Biboo", which usually prompted Bijou to correct them.

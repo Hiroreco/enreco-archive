@@ -17,7 +17,7 @@ Cecilia was an enigma: a theorist, a contrarian, a knight who only served royalt
 
 Cecilia’s journey in the first chapter was a little different from most. She wasn’t one for manual labor to earn money or goods—instead, she preferred shortcuts, leeching off others with shameless ease. Need money? She’d "borrow" it and promise to pay it back (spoiler: she never did). A hat for sale? She’d offer a live performance and a couple of junk items in exchange. Weapons and tools? She was “far too busy” to get them herself. Easy, quick, and sweat-free.
 
-She was after all, a member of the Scarlet Wand, a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting conspiracy theories about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
+She was after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting conspiracy theories about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
 
 That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for FaunaMart’s lottery, and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Cecilia!
 
@@ -34,8 +34,8 @@ Now more of an enabler than instigator, she roamed freely, making chaotic situat
 
 She also built stronger, more layered relationships this time. She remained loyal to the Wolf Pack, claimed to be best friends (allegedly) with the Hot Pink One (whom she dubbed "Oliver"), and continued to serve as Bijou’s knight.
 
-But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, Iphania. From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her feelings throughout the journey.
+But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, [Iphania](#entry:iphania-entry). From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her feelings throughout the journey.
 
 Anyone who stood between her and the princess—like the Outlander—was an immediate rival. She even considered abandoning the Wolf Pack just to stay by the princess’s side. When Peasant the Bae, someone who once bickered with Cecilia but eventually warmed up to her, confessed her feelings, Cecilia rejected her on the spot. Because in Cecilia’s heart, there was only the princess.
 
-In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself—still alive and well in the Library—it gave her all the reason she needed to keep fighting.
+In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself, still alive and well in the Library, it gave her all the reason she needed to keep fighting.
