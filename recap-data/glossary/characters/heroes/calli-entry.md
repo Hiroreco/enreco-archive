@@ -1,6 +1,6 @@
 <!-- title: Mori Calliope -->
 <!-- quote: Until death do you part. -->
-<!-- chapters: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Calli's Chapter 1 Profile), (Calli aura farming), (Recollection - Mori Calliope), (Calli's Chapter 2 Profile), (Calli during Chapter 2's Ending)-->
 <!-- model: false -->
 

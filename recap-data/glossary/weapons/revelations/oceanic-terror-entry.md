@@ -1,6 +1,6 @@
 <!-- title: Oceanic Terror -->
 <!-- quote: We have a tickler, a healer, and... a mop? -->
-<!-- chapters: -1 -->
+<!-- chapters: 0 -->
 <!-- images: (Gura's first time wielding Oceanic Terror), (Oceanic Terror as viewed from the inventory), (Oceanic Terror's ability activated) -->
 <!-- model: true -->
 

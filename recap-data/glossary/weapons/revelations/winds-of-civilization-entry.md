@@ -1,6 +1,6 @@
 <!-- title: Winds of Civilization -->
 <!-- quote: Somebody's hurting you. I hurt them back -->
-<!-- chapters: -1 -->
+<!-- chapters: 0 -->
 <!-- images: (Winds of Civilization as held in hand), (Winds of Civilization as viewed from the inventory), (Winds of Civilization's ability activated) -->
 <!-- model: true -->
 
