@@ -1,18 +1,18 @@
 <!-- title: Iphania / Fia -->
 <!-- quote: Let us break the chains of fate, together  -->
 <!-- chapters: 1 -->
-<!-- images: -->
+<!-- images: (Iphania's Profile), (Fia's Profile), (Iphania slain by the Curse), (Fia in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview
 
-Iphania—now known as Fia—was once the Princess of Ancient Libestal, and now serves as the Librarian of the Library, the timeless sanctuary that lies beyond space and time. It was she who rescued the heroes from the destruction of the fabricated world, pulling them into the past not only to save their lives, but to ask a favor: to help her prevent the Outsider from ever coming into existence.
+Iphania—now known as Fia—was once the Princess of Ancient Libestal, and now serves as the Librarian of [the Library](#entry:library-entry), the timeless sanctuary that lies beyond space and time. It was she who rescued the heroes from the destruction of the [fabricated world](#entry:libestal-ficta-entry), pulling them into the past not only to save their lives, but to ask a favor: to help her prevent [the Outsider](#entry:outsider-entry) from ever coming into existence.
 
 ## Details
 
 ### Backstory
 
-Long ago in Ancient Libestal, the kingdom was ruled by Princess Iphania, the last of her royal bloodline. Both her parents, along with many close to her, had perished to the spreading corruption. The world was falling apart, and the Book of Prophecy foretold nothing but doom.
+Long ago in [Ancient Libestal](#entry:libestal-ancient-entry), the kingdom was ruled by Princess Iphania, the last of her royal bloodline. Both her parents, along with many close to her, had perished to the spreading corruption. The world was falling apart, and the Book of Prophecy foretold nothing but doom.
 
 Despite the grim prophecies, Iphania refused to yield to despair. She continued to fight with unwavering resolve—even if it meant defying fate itself. Her unshakable will moved the heart of **the Watcher**, a divine observer tasked only with watching worlds play out.
 
@@ -28,14 +28,14 @@ With new hope, she summoned them into the past, to a time one week before the pi
 
 ### Chapter 2
 
-Upon first meeting the heroes, Fia explained the truth: the King they once knew was a fraud—the Outsider, who sought to destroy the universe. She begged for their aid, though she herself could not recall all the details, having lost fragments of her memory due to the strain of time travel.
+Upon first meeting the heroes, Fia explained the truth: the King they once knew was a fraud—the Outsider, who sought to destroy the universe. She asked for their aid, though she herself could not recall all the details, having lost fragments of her memory due to the strain of time travel.
 
 She asked the heroes to help her recover what had been lost.
 And so, they did.
 
 Their journey took them through Ancient Libestal, where they met Iphania’s past self—a princess still fighting to defy destiny. Through dungeons, Star Sites, and battles, the heroes slowly pieced together Fia’s lost memories. With clarity regained, she proposed a new path: let the heroes take up the Outlander’s burden of saving the world, so that he would not be punished, and the Outsider would never be born.
 
-The heroes shared the truth with Iphania, who, alongside them, convinced the Outlander to relinquish his fate. He agreed. And the plan worked—they defeated the Curse and saved Libestal.
+The heroes shared the truth with Iphania, who, alongside them, convinced the Outlander to relinquish his fate. He agreed. And the plan worked—they defeated [the Curse](#entry:heart-of-ruin-entry) and saved Libestal.
 
 But just as victory was within reach, fate struck again.
 The Curse reemerged during the celebration banquet, slaying Iphania in one final, merciless act.
