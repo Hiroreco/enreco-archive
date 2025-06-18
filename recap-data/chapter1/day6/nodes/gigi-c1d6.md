@@ -2,7 +2,7 @@ Gonathon awoke to his sixth day, only to be greeted by a sight that filled him w
 
 [Ah! Such blasphemy!](#embed:https://www.youtube.com/embed/oygFzGlMT28?si=2KtGxfUiZWo9TRa6\&start=180)
 
-Before he could delve into the mystery, Gonathon joined Kiara, Raora, Nerissa, and Bijou to aid their expedition into the Ancient Sewer Dungeon. Along the way, most members expressed their loyalty and reverence for [Queen Tam](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=442), though Nerissa made a cheeky comment about how the statue’s depiction of Tam lacking a bit of "cake."
+Before he could delve into the mystery, Gonathon joined Kiara, Raora, Nerissa, and Bijou to aid their expedition into the Ancient Sewer Dungeon. Along the way, most members expressed their loyalty and reverence for [Queen Tam](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=442), though Nerissa made a cheeky comment about how the statue’s depiction of Tam lacked a bit of "cake."
 
 Returning to the kingdom, Gonathon resumed his investigation. Within his guild’s territory, he discovered something alarming—corrupted blocks had appeared in a corner of the land, accompanied by a sinister sign that read: [*"May chaos take the world."*](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=1759) This discovery only deepened the mystery, and Gonathon began to piece together the puzzle.
 
@@ -18,7 +18,7 @@ The day was far from uneventful. Gonathon found himself embroiled in various occ
 
 He helped Kiara [enchant](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=5674) her tools and mediated between Nerissa and Kiara after a dramatic incident involving the alleged "death" of Nerissa’s [child](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=4296).
 
-But his most profound devotion was reserved for two figures: his queen, Tam Gandr, for whom he would gladly defend against naysayers, and his wife, Jyonathan—the pearl of his life. Gonathon’s love for Jyonathan was so deep that he dreamt of erecting a statue in her honor beside Tam’s, a testament to his devotion and desire to make her happy. Yes, anything to make his beloved happy.
+But his most profound devotion was reserved for two figures: his queen, Tam Gandr, whom he would gladly defend against naysayers, and his wife, Jyonathan—the pearl of his life. Gonathon’s love for Jyonathan was so deep that he dreamt of erecting a statue in her honor beside Tam’s, a testament to his devotion and desire to make her happy. Yes, anything to make his beloved happy.
 
 ......
 

@@ -1,4 +1,4 @@
-The sixth day was shaping up to be as chaotic as ever, and Jyonathan mostly stood on the sidelines, witnessing the madness: Nerissa hexing Elizabeth, talk of the Stain Princess, a discussion about Nerissa’s child being "murdered," and then a tournament being announced. It was overwhelming, but she found herself enjoying the energy of it all.
+The sixth day was shaping up to be as chaotic as ever, and Jyonathan mostly stood on the sidelines and witnessed the madness: Nerissa hexing Elizabeth, talk of the Stain Princess, a discussion about Nerissa’s child being "murdered," and then a tournament being announced. It was overwhelming, but she found herself enjoying the energy of it all.
 
 As someone who enjoyed a bit of mischief, she decided to add her own flair to the chaos. She investigated Bijou, suspecting her of [corruption](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=1496), tried her luck at [gambling](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared\&t=2378), and even stood atop the king's throne, roleplaying as the new ruler of the kingdom.
 
@@ -18,14 +18,14 @@ Jyonathan remembered everything now. Her name wasn’t Jyonathan—it was Amelia
 
 Returning to the kingdom, Amelia was greeted warmly by her companions, who congratulated her on reclaiming her memories. She resolved to continue being the lively, mischievous person she had grown into, cherishing her journey so far.
 
-However, something nagged at her. Her "chatterbox" kept mentioning odd words: *"Husband," "Gonathon," "Pearl."* The terms were foreign to her, but they seemed significant.
+However, something nagged at her. Her "chatterbox" kept mentioning odd words: *"Husband," "Gonathon," and "Pearl."* The terms were foreign to her, but they seemed significant.
 
 Before she could make sense of it, a knight clad in orange approached her, congratulating her like the others. Amelia, likewise, thanked the knight for his generosity.
 
 But she didn't know who this knight was.
 
-She smiled at the knight, and asked,
+She smiled at the knight and asked,
 
 *"And you are?"*
 
-(see [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame))
+(See [Gonathon-Amelia Watson: A Knight's Tale](#edge:gigi-ame))

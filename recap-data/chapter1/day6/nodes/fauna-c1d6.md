@@ -12,7 +12,7 @@ Returning to her project, Fauna laid out her plans for the library. It would be 
 
 [Vision of the library](#embed:https://www.youtube.com/live/j4AxXzluEWE?feature=shared\&t=10707)
 
-The Red-Hued Library stood tall, its three floors connected by an elegant spiral staircase, mirroring the distinctive shape of the Scarlet Wand’s hat from the outside. The ground floor housed an extensive collection of books, neatly arranged on towering mahogany shelves. The flooring, made of polished quartz, gleamed under the gentle glow of warm ambient lighting, creating a cozy and inviting atmosphere—the perfect space for reading and quiet contemplation.
+The red-hued library stood tall, its three floors connected by an elegant spiral staircase, mirroring the distinctive shape of the Scarlet Wand’s hat from the outside. The ground floor housed an extensive collection of books, neatly arranged on towering mahogany shelves. The flooring, made of polished quartz, gleamed under the gentle glow of warm ambient lighting, creating a cozy and inviting atmosphere—the perfect space for reading and quiet contemplation.
 
 Unlike the others in the kingdom, Fauna’s day was relatively quiet and focused. While others dove into chaotic and often absurd shenanigans, Fauna regretted not getting involved in the action. However, she held onto the hope that more exciting adventures and interactions would come her way soon.
 
