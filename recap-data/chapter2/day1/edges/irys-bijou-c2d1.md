@@ -8,6 +8,6 @@ Surprisingly, they got along splendidly. It started with the exchange of ancient
 
 [Onii-chan, Daisuki!](#embed:https://www.youtube.com/live/xzAqu4vkY7I?si=dmzjAvUae0JZXmQS&t=2555)
 
-The two spent nearly the entire day side by side. Through sticks and stones, blood and tears, they stuck together. They were even the last two to call it a day, staying up to help set up each other's shops like true business partners... or delinquent siblings.
+The two spent nearly the entire day side by side. Through sticks and stones, blood and tears, they stuck together. They were even the last two to call it a day, staying up to help set up each other's shops like true business partners, or delinquent siblings.
 
 No one could have predicted such a twist in fate—but in this strange new world, somehow, it just made sense.

@@ -1,6 +1,6 @@
 <!-- title: Enemy -->
 
-Cecilia has become a newly appointed supplier in Libestal. As she gathers her gear and prepares to depart, she runs into a fellow Star who describes herself as "Peasant the Bae."
+Cecilia has become a newly appointed supplier in Libestal. As she gathers her gear and prepares to depart, she runs into a fellow Star who describes herself as "Peasant Da Bae."
 
 They depart for the Remnants where they get to work. With her newfound job and comrade, she creates a monopoly. But their definitions of riches differ. Bae seeks fortune, whereas Immerkind seeks to enrich the lives of others with kindness and supplies:
 
