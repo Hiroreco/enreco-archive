@@ -1,12 +1,12 @@
 <!-- title: Unexpected Alliance -->
 
-Gonathon was determined to find the culprit that had defaced the queen's statue, but seeing how it might be difficult to do alone, he decided to ask for help. He reached out to someone whom he didn't have a good impression of, considering the various mental damage she'd caused him on the first day, as well as her spitefulness for his queen Tam Gandr, but she was the only person he saw capable and trustworthy for something like this.
+Gonathon was determined to find out the culprit that had defaced the queen's statue, but seeing how it might be difficult to do it alone, he decided to ask for help. He reached out to someone that he had not really had a good impresssion with, considering the various mental damage she'd caused him on the first day, as well as her spitefulness for his queen Tam Gandr, but she was the only person he saw capable and trustworthy for something like this
 
-At first, she didn’t pick up (and left quite a funny [voicemail](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=2527)), but a little later, the red maiden, Elizabeth, called him [back](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=1092). They met up at Mori’s Tavern, where Gonathon explained his situation and proposed setting their differences aside to uncover the truth. Elizabeth wanted more details, and when she was shown an image of the defacement, she was baffled.
+At first, she didn’t pick up (and left quite an funny [voicemail](https://www.youtube.com/live/oygFzGlMT28?feature=shared\&t=2527)), but a little later, the red maiden, Elizabeth, called him [back](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=1092). They met up at Mori’s Tavern, where Gonathon explained his situation and proposed setting their differences aside to uncover the truth. Elizabeth wanted more details, and when she was shown an image of the defacement, she was baffled.
 
 [Oh god the humanity!](#embed:https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=1257)
 
-Seeing how bad it was, Elizabeth agreed to [assist](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=1407) Gonathon. Their primary suspect was Koseki Bijou, and so the two brought her to the tavern for interrogation. Their reasoning was simple—only those within Gonathon’s guild could have modified the statue, and Bijou was his guildmate.
+Seeing how bad it was, Elizabeth agreed to [assist](https://www.youtube.com/live/5R01-igo4sM?feature=shared\&t=1407) Gonathon. Their primary suspect was Koseki Bijou, and so the two brought her to the tavern for interrogation. Their reasoning was simple—only those within Gonathon’s guild could have modified or changed anything about the statue, and Bijou was his guildmate.
 
 Elizabeth, being the strict knight and motherly figure that she was, didn’t relent in her questioning.
 
