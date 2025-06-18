@@ -1,14 +1,14 @@
 <!-- title: Star Site: Chronos -->
 <!-- quote: When abnormalities arise, it falls to me to correct them. -->
 <!-- chapters: 1 -->
-<!-- images: (Star Site: Chronos Overview #1), (Star Site: Chronos Overview #2), (Star Site: Chronos Overview #3), (Star Site: Chronos Concept Art) -->
+<!-- images: (Star Site: Chronos Overview #1), (Star Site: Chronos Overview #2), (Star Site: Chronos Overview #3), (Star Site: Chronos Concept Art), (Star Site: Chronos Effect Icon) -->
 <!-- model: false -->
 
 ## Overview
 
 **Day Unlocked:** 4
 
-**Star Site: Chronos** was the second of the three star sites in Chapter 2, and it set itself apart with a strong central theme: _time_. This dungeon contained the memories of none other than the Warden of Time herself, **Ouro Kronii**, and, as expected, the puzzles and mechanics were all built around the manipulation of time.
+**Star Site: Chronos** was the second of the three star sites in Chapter 2, and it set itself apart with a strong central theme: _time_. This dungeon contained the memories of none other than the Warden of Time herself, [Ouro Kronii](#entry:kronii-entry), and, as expected, the puzzles and mechanics were all built around the manipulation of time.
 
 ## Details
 

@@ -1,14 +1,14 @@
 <!-- title: Star Site: Elpis -->
 <!-- quote: Your one true idol, now sit back and enjoy the show! -->
 <!-- chapters: 1 -->
-<!-- images: (Star Site: Elpis Overview #1), (Star Site: Elpis Overview #2), (Star Site: Elpis Overview #3), (Star Site: Elpis Overview #4) -->
+<!-- images: (Star Site: Elpis Overview #1), (Star Site: Elpis Overview #2), (Star Site: Elpis Overview #3), (Star Site: Elpis Overview #4), (Star Site: Elpis Effect Icon) -->
 <!-- model: false -->
 
 ## Overview
 
 **Day Unlocked**: 2
 
-**Star Site: Elpis** marked the first major dungeon tackled by the heroes in Chapter 2, and the first of the three key dungeons in this arc. Within its walls resided the fragmented memories of IRyS—the embodiment of hope and despair.
+**Star Site: Elpis** marked the first major dungeon tackled by the heroes in Chapter 2, and the first of the three key dungeons in this arc. Within its walls resided the fragmented memories of [IRyS](#entry:irys-entry)—the embodiment of hope and despair.
 
 ## Details
 

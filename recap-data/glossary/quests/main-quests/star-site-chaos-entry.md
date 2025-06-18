@@ -1,14 +1,14 @@
 <!-- title: Star Site: Chaos -->
 <!-- quote: Just ask me anything and I'll make it happen! -->
 <!-- chapters: 1 -->
-<!-- images: (Star Site: Chaos Overview #1), (Star Site: Chaos Overview #2), (Star Site: Chaos Concept Art #3), (Star Site: Elpis Overview #4) -->
+<!-- images: (Star Site: Chaos Overview #1), (Star Site: Chaos Overview #2), (Star Site: Chaos Concept Art), (Star Sites: Chaos Effect Icon) -->
 <!-- model: false -->
 
 ## Overview
 
 **Day Unlocked**: 5
 
-Star Site: Chaos marked the third and final star site in Chapter 2, and it stood out significantly from the previous two. Fittingly, the memories it contained belonged to none other than the embodiment of chaos herself—Hakos Baelz.
+Star Site: Chaos marked the third and final star site in Chapter 2, and it stood out significantly from the previous two. Fittingly, the memories it contained belonged to none other than the embodiment of chaos herself—[Hakos Baelz](#entry:bae-entry).
 
 ## Details
 

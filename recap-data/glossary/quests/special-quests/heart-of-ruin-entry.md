@@ -19,7 +19,7 @@ Unlike the dungeons before it, the Heart of Ruin featured no puzzles or quizzes.
 
 The heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221) their progress and becoming obstacles on the path forward. The remaining heroes were tasked with purifying their friends.
 
-Within this first library was a book titled **“Prelude of Ruin,”** hinting at the events and powers that brought the kingdom to its current state.
+Within this first library was a book titled _“Prelude of Ruin,”_ hinting at the events and powers that brought the kingdom to its current state.
 
 [Read "Prelude of Ruin"](#text:prelude-of-ruin)
 
@@ -31,7 +31,7 @@ Only once the meter was filled could each corrupted hero [be freed](https://www.
 
 **The Final Battle**
 
-Deeper into the dungeon, another library awaited. There, the heroes found the book titled **“Song of Ruin,”** which detailed the tragic fate of the former King and Queen, as well as the source behind such fate.
+Deeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former King and Queen, as well as the source behind such fate.
 
 [Read "Song of Ruin"](#text:song-of-ruin)
 

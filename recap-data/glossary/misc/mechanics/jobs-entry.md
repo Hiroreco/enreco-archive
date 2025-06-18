@@ -6,7 +6,7 @@
 
 ## Overview
 
-Jobs were introduced in Chapter Two as a replacement for the guild system. Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of Ancient Libestal.
+Jobs were introduced in Chapter Two as a replacement for the guild system. Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of [Ancient Libestal](#entry:libestal-ancient-entry).
 
 ## Details
 

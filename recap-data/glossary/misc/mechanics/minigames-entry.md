@@ -10,7 +10,7 @@ Aside from the usual questing, the heroes could take some time off to relax and 
 
 ## Details
 
-There are currently **four minigames**, each originally introduced in **Chapter 1**, with every game initially representing one of the four guilds—each minigame reflecting its respective guild's ideology (only in Chapter 1).
+There are currently **four minigames**, each originally introduced in **Chapter 1**, with every game initially representing one of the four [guilds](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).
 
 ### **Color Cannon**
 

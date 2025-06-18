@@ -8,7 +8,7 @@
 
 **Unlocked on**: Day 3
 
-The **Stronghold of Ruin** marked the place where the heroes [first encountered](https://www.youtube.com/live/gVAtGMLBJos?si=9OzbDqqyZc3LR1-Q&t=1242) the **Outlander**, a nameless swordsman the Princess had specifically tasked them to find. He, too, had been investigating the stronghold—only to fall victim to the lingering corruption that trapped him inside. Thanks to the heroes' efforts in conquering the dungeon, he was ultimately freed.
+The **Stronghold of Ruin** marked the place where the heroes first encountered the [Outlander](#entry:outsider-entry), a nameless swordsman the Princess had specifically tasked them to find. He, too, had been investigating the stronghold—only to fall victim to the lingering corruption that trapped him inside. Thanks to the heroes' efforts in conquering the dungeon, he was ultimately freed.
 
 ## Details
 
@@ -38,7 +38,7 @@ Progressing further, the heroes entered a quiet but eerie library, where they di
 
 **Final Challenge**
 
-The last room housed **Stain King Proto**, guarding a crystal linked to something greater—the **Heart of Ruin**, an as-yet unrevealed location that would eventually come into play.
+The last room housed **Stain King Proto**, guarding a crystal linked to something greater—the [Heart of Ruin](#entry:heart-of-ruin-entry), an as-yet unrevealed location that would eventually come into play.
 
 The arena was surrounded by four more black roses, one in each corner, each protected by the same types of puzzles encountered earlier (math and memory). Only after the roses were destroyed could the chest containing the music disc be accessed post-battle.
 
