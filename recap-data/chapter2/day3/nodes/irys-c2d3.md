@@ -10,7 +10,7 @@ Post-dungeon, the group stuck together to retrieve a special record—IRyS’s [
 
 Back in the kingdom, while looking for more errands to run, she overheard a familiar name. Tammy? Someone else was calling _her_ Tammy Tammy? Turning to the voice, she saw _her_ Tammy—center stage, surrounded by women. The pink one wasn’t thrilled (see [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii)).
 
-And then the day _really_ spiraled, as everyone started theorizing how they were all possibly inbred—sorry, _in-bread_. (see [Peasant Da Bae](#node:bae)). Such a revelation would cause any sane person to suddenly want to, uh, _"sandwich"_ their little brother with their big buns.
+And then the day _really_ spiraled, as everyone started theorizing how they were all possibly inbred—sorry, _in-bread_. (see [Peasant the Bae](#node:bae)). Such a revelation would cause any sane person to suddenly want to, uh, _"sandwich"_ their little brother with their big buns.
 
 [I don't know anymore](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=qANkilpIyeBOmiVE&t=9458)
 
