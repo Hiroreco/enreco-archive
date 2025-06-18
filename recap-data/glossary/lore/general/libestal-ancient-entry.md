@@ -6,7 +6,7 @@
 
 ## Overview
 
-Ancient Libestal, unlike the fabricated kingdom the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before the Outsider came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world—and the universe.
+Ancient Libestal, unlike the fabricated kingdom the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.
 
 [Read "Kingdom of Libestal (Ancient)"](#text:libestal)
 
@@ -14,7 +14,7 @@ Ancient Libestal, unlike the fabricated kingdom the heroes were summoned to in t
 
 ### Preface
 
-As the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to Fia, the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. Her hope was that the heroes—now known as the Shining Stars—could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.
+As the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to Fia, the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. Her hope was that the heroes, now known as the Shining Stars, could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.
 
 ### Setting
 
@@ -69,7 +69,7 @@ As in the previous chapter, the heroes needed to clear dungeons to recover their
 In addition to Star Sites, two major dungeons served as key plot events:
 
 - **Stronghold of Ruin** – Unlocked on Day 3; where the heroes first encountered and freed the Outlander.
-- **Heart of Ruin** – Unlocked on Day 7; the final dungeon where the source of all evil—the Curse—was destroyed.
+- **Heart of Ruin** – Unlocked on Day 7; the final dungeon where the source of all evil, the Curse, was destroyed.
 
 Before entering the Heart of Ruin, the heroes undertook a special quest on Day 6 titled **The Ritual**, which served as a narrative bridge into the finale.
 

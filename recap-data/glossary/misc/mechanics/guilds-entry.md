@@ -43,9 +43,9 @@ Their luxurious palace-like headquarters featured grand gardens and a casino—a
 #### Cerulean Cup
 
 **Members:** Tam Gandr, Gonathon G, Ninomae Ina’nis, Hot Pink One, Koseki Bijou
-**Guildmaster:** _(Not specified)_
+**Guildmaster:** Celesta
 
-A sanctum devoted to healing and empathy... in theory. In practice, most members—except for Ina—were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.
+A sanctum devoted to healing and empathy... in theory. In practice, most members, except for Ina,were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.
 
 Their base took the form of a serene, open-air temple that radiated tranquility—regardless of how its members behaved.
 

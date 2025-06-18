@@ -14,7 +14,7 @@ Stains served as the main antagonists throughout much of the story, driving the 
 
 Stains took the form of shadowy creatures of various shapes, sizes, and species—some wielded swords, some walked on two legs, others on four, some flew, and some resembled crystalline beings. Despite these differences, they all shared a defining trait: a shroud of darkness and a glowing, purple, symbol-like pattern across their faces. Each species of Stain had its own distinct abilities used to attack the heroes.
 
-When defeated, Stains dropped coins and valuable materials essential to the heroes' progression—ingredients for cooking, crafting tools, and enhancing their Revelation weapons.
+When defeated, Stains dropped coins and valuable materials essential to the heroes' progression—ingredients for cooking, crafting tools, and enhancing their [Revelation](#entry:revelations-entry) weapons.
 
 Interestingly, the heroes once noted how Stains emitted sounds similar to whimpering puppies upon death, which made some feel uneasy about slaying them.
 
@@ -24,19 +24,19 @@ Interestingly, the heroes once noted how Stains emitted sounds similar to whimpe
 
 In the first journey, the heroes were tasked with defending the kingdom from the invading Stains. Little was initially known about these creatures, other than their malevolent nature and their relentless aggression toward the heroes and the world.
 
-At the forefront of this invasion stood the **Stain King**—a larger, more formidable Stain. However, it was eventually revealed that this Stain King was a false monarch, merely a key piece in a fabricated kingdom designed to imprison the true threat: the Outsider. Defeating it ultimately led to the Outsider’s release.
+At the forefront of this invasion stood the **Stain King**—a larger, more formidable Stain. However, it was eventually revealed that this Stain King was a false monarch, merely a key piece in a fabricated kingdom designed to imprison the true threat: the [Outsider](#entry:outlander-entry). Defeating it ultimately led to the Outsider’s release.
 
 #### Chapter 2
 
 **Origins**
 The second chapter introduced even more Stain types and powerful boss-class Stains. Among them were four major foes, each guarding a key location:
 
-- **Stain King Elpis** – A two-headed dragon guarding Star Site: Elpis
-- **Stain King Chronos** – A mechanical guardian defending Star Site: Chronos
-- **Stain King Proto** – A knight-like figure, resembling the first chapter’s Stain King, guarding the Stronghold of Ruin
-- **Stain King Chaos** – A chaotic, rodent-like creature guarding Star Site: Chaos
+- **Stain King Elpis** – A two-headed dragon guarding [Star Site: Elpis](#entry:star-site-elpis-entry)
+- **Stain King Chronos** – A mechanical guardian defending [Star Site: Chronos](#entry:star-site-chronos-entry)
+- **Stain King Proto** – A knight-like figure, resembling the first chapter’s Stain King, guarding the [Stronghold of Ruin](#entry:stronghold-of-ruin-entry)
+- **Stain King Chaos** – A chaotic, rodent-like creature guarding [Star Site: Chaos](#entry:star-site-chaos-entry)
 
-This chapter revealed that the real world, too, was falling victim to the spread of the Stains—through an encroaching phenomenon known as the **Ruination**. At its heart lay the **Heart of Ruin**, the ultimate source of this corruption.
+This chapter revealed that the real world, too, was falling victim to the spread of the Stains, through an encroaching phenomenon known as the **Ruination**. At its heart lay the _Heart of Ruin_, the ultimate source of this corruption.
 
 As the heroes ventured deeper, they uncovered scattered stories that illuminated the history and tragedy behind the Stains:
 
@@ -49,7 +49,7 @@ _Note: Further information on these stories is available in the Library Archive.
 **The “Cursed” Ones**
 One particularly chilling discovery was that of the _ruin-touched_—people who had come into contact with the corruption. These individuals lost their sanity; their spirits twisted until they were driven to commit violence against those they once held dear.
 
-On Day 7, during the final dungeon—the Heart of Ruin—five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades until the others managed to purify and rescue them.
+On Day 7, during the final dungeon, the [Heart of Ruin](#entry:heart-of-ruin-entry), five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades until the others managed to purify and rescue them.
 
 [Read "The Truth of Ruin"](#text:the-truth-of-ruin)
 [Read "Prelude of Ruin"](#text:prelude-of-ruin)

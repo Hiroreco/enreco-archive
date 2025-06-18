@@ -12,7 +12,7 @@ Revelations were special powers and weapons unique to each hero, shaped by their
 
 ### Preface
 
-During the first battle against the Stain King, the heroes manifested mysterious powers upon shouting the word _"Revelation."_ These powers enabled them to repel the great evil. The King of Libestal proclaimed that these Revelations were the key to saving the world from the Calamity, and urged the heroes to lend their strength in doing so.
+During the first battle against the Stain King, the heroes manifested mysterious powers upon shouting the word _"Revelation."_ These powers enabled them to repel the great evil. The [King of Libestal](#entry:outlander-entry) proclaimed that these Revelations were the key to saving the world from the Calamity, and urged the heroes to lend their strength in doing so.
 
 ### Abilities
 
@@ -26,40 +26,40 @@ In Chapter 2, Revelations received a significant upgrade. Not only were their po
 
 Each hero wielded a unique Revelation—distinct in both form and function—based on their past selves and forgotten identities:
 
-- **Gawr Gura** – _Oceanic Terror_, a trident
+- **Gawr Gura** – [Oceanic Terror](#entry:oceanic-terror-entry), a trident
 
-- **Mori Calliope** – _Rest In Peace_, a scythe
+- **Mori Calliope** – [Rest In Peace](#entry:rest-in-peace-entry), a scythe
 
-- **Amelia Watson** – _Eye of Wisdom_, a magnifying glass
+- **Amelia Watson** – [Eye of Wisdom](#entry:eye-of-wisdom-entry), a magnifying glass
 
-- **Takanashi Kiara** – _Burning Phoenix_, a fiery sword and shield
+- **Takanashi Kiara** – [Burning Phoenix](#entry:burning-phoenix-entry), a fiery sword and shield
 
-- **Ninomae Ina’nis** – _Violet Miasma_, a book with cryptic runes
+- **Ninomae Ina'nis** – [Violet Miasma](#entry:violet-miasma-entry), a book with cryptic runes
 
-- **Nanamoo** – _Winds of Civilization_, a short blade
+- **Nanamoo** – [Winds of Civilization](#entry:winds-of-civilization-entry), a short blade
 
-- **Ceres Fauna** – _Nature’s Grace_, a golden apple
+- **Ceres Fauna** – [Nature's Grace](#entry:natures-grace-entry), a golden apple
 
-- **Hakos Baelz** – _Chaos Stampede_, a dice
+- **Hakos Baelz** – [Chaos Stampede](#entry:chaos-stampede-entry), a dice
 
-- **Ouro Kronii** – _Chrono Surge_, dual clock hands
+- **Ouro Kronii** – [Chrono Surge](#entry:chrono-surge-entry), dual clock hands
 
-- **IRyS** – _Light and Darkness_, a pair of black and white stars
+- **IRyS** – [Light and Darkness](#entry:light-and-darkness-entry), a pair of black and white stars
 
-- **Fuwawa Abyssguard** – _Azure Claws_, sharp blue claws
+- **Fuwawa Abyssguard** – [Azure Claws](#entry:azure-claws-entry), sharp blue claws
 
-- **Mococo Abyssguard** – _Fuchsia Claws_, sharp pink claws
+- **Mococo Abyssguard** – [Fuchsia Claws](#entry:fuchsia-claws-entry), sharp pink claws
 
-- **Koseki Bijou** – _Shining Emotions_, a gem
+- **Koseki Bijou** – [Shining Emotions](#entry:shining-emotions-entry), a gem
 
-- **Nerissa Ravencroft** – _Resonant Strike_, a tuning fork
+- **Nerissa Ravencroft** – [Resonant Strike](#entry:resonant-strike-entry), a tuning fork
 
-- **Shiori Novella** – _Bookmark of Memories_, a quill
+- **Shiori Novella** – [Bookmark of Memories](#entry:bookmark-of-memories-entry), a quill
 
-- **Elizabeth Rose Bloodflame** – _Thorn of Justice_, a claymore
+- **Elizabeth Rose Bloodflame** – [Thorn of Justice](#entry:thorn-of-justice-entry), a claymore
 
-- **Gonathon G** – _Gremlin Grenade_, a pair of metal fists
+- **Gonathon G** – [Gremlin Grenade](#entry:gremlin-grenade-entry), a pair of metal fists
 
-- **Cecilia Immergreen** – _Automaton Assault_, a lance
+- **Cecilia Immergreen** – [Automaton Assault](#entry:automaton-assault-entry), a lance
 
-- **Raora Panthera** – _Purrfect Execution_, a mechanical claw
+- **Raora Panthera** – [Purrfect Execution](#entry:purrfect-execution-entry), a mechanical claw

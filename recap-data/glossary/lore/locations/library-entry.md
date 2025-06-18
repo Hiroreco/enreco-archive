@@ -6,13 +6,13 @@
 
 ## Overview
 
-**The Library** was both a key concept and location in the heroes’ journey during the second chapter. It served not only as an archive of multiversal lore and the heroes’ memories throughout their time in Libestal, but also as the home of a significant figure: the Library’s caretaker, Fia.
+**The Library** was both a key concept and location in the heroes’ journey during the second chapter. It served not only as an archive of multiversal lore and the heroes’ memories throughout their time in Libestal, but also as the home of a significant figure: the Library’s caretaker, [Fia](#entry:iphania-entry).
 
 ## Details
 
 ### Preface
 
-As the heroes faced off against the Outsider and watched the world around them crumble, Fia [intervened](https://www.youtube.com/live/zCWoxMbOZPk?si=19OQf5NWGUyY74j9&t=548). She pulled them back through time and transported them to the Library to save their lives. It was here that they first met Fia, the current Librarian, who explained their new objective: they needed to help her recover her lost memories—fragments lost due to the effects of time travel—in order to find a way to prevent the Outsider’s existence.
+As the heroes faced off against the Outsider and watched the world around them crumble, Fia intervened. She pulled them back through time and transported them to the Library to save their lives. It was here that they first met Fia, the current Librarian, who explained their new objective: they needed to help her recover her lost memories—fragments lost due to the effects of time travel—in order to find a way to prevent the Outsider’s existence.
 
 > _The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases._
 
