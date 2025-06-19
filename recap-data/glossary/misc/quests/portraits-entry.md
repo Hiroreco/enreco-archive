@@ -1,7 +1,7 @@
 <!-- title: Portraits -->
 <!-- quote: Looking at this makes me feel nostalgic... -->
 <!-- chapters: 1 -->
-<!-- images: (Portrait of Mordon Ramsay), (Portrait of Tanakisha Karia), (Portrait of NinoIna), (Portrait of Tam Gandr), (Portrait of the Hot Pink One), (Portrait of Peasant Da Bae), (Portrait of Shiori Nyavella), (Portrait of Nerissa Ravencroft), (Portrait of Fuwawa Abyssguard), (Portrait of Mococo Abyssguard), (Portrait of Koseki Bijou), (Portrait of Elizabeth Rose Bloodflame), (Portrait of Gonathon G), (Portrait of Cecilia Immerkind), (Portrait of Roa Pandora) -->
+<!-- images: (Portrait of Mordon Ramsay), (Portrait of Tanakisha Karia), (Portrait of NinoIna), (Portrait of Tam Gandr), (Portrait of the Hot Pink One), (Portrait of Peasant Da Bae), (Portrait of Shiori Nyavella), (Portrait of Nerissa Ravencroft), (Portrait of Fuwawa Abyssguard), (Portrait of Koseki Bijou), (Portrait of Elizabeth Rose Bloodflame), (Portrait of Gonathon G), (Portrait of Cecilia Immerkind), (Portrait of Roa Pandora), (Portrait of Mococo Abyssguard) -->
 <!-- model: false -->
 
 ## Overview
@@ -32,7 +32,7 @@ Each hero's portrait was unique, both in art style and in the story it portrayed
 - Portrait of Shiori Nyavella - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)
 - Portrait of Nerissa Ravencroft - [sumo](https://x.com/sumo88_/status/1900190544602734862)
 - Portrait of Fuwawa Abyssguard - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)
-- Portrait of Mococo Abyssguard
+- Portrait of Mococo Abyssguard - [eli_soratabi](https://x.com/elis_soratabi/status/1935579733976396182)
 - Portrait of Koseki Bijou - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)
 - Portrait of Elizabeth Rose Bloodflame - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)
 - Portrait of Gonathon G - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)
