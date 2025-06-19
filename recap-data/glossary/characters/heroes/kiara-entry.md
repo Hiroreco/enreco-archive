@@ -1,6 +1,6 @@
 <!-- title: Takanashi Kiara -->
 <!-- quote: We must save the lesbians!-->
-<!-- chapters: 0 -->
+<!-- chapters: -1 -->
 <!-- images: (Shakira's Chapter 1 Profile), (Shakira fighting Stains along with others), (Recollection - Takanashi Kiara), (Shakira's Chapter 2 Profile), (Shakira in Chapter 2's Ending) -->
 <!-- model: false -->
 
