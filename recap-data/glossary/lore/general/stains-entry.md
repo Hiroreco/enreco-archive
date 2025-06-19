@@ -1,7 +1,7 @@
 <!-- title: Stains and Corruption -->
 <!-- quote: They brought this upon themselves—Nothing stays pure. -->
 <!-- chapters: -1 -->
-<!-- images: (Stains Overview #1), (Stains Overview #2) --->
+<!-- images: (Stains Overview #1), (Stains Overview #2), (Stains Concept Art) --->
 <!-- model: false -->
 
 ## Overview
