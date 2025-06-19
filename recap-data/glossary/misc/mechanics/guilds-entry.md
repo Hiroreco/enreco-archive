@@ -22,7 +22,7 @@ Each guild also hosted its own unique event or minigame within its headquarters.
 
 #### Scarlet Wand
 
-**Members:** Cecilia Immergreen, Gawr Gura, Ceres Fauna, Nerissa Ravencroft, Shiori Nyavella
+**Members:** [Cecilia Immergreen](#entry:cecilia-entry), [Gawr Gura](#entry:gura-entry), [Ceres Fauna](#entry:fauna-entry), [Nerissa Ravencroft](#entry:nerissa-entry), [Shiori Nyavella](#entry:shiori-entry)
 **Guildmaster:** Rubius
 
 Marked by their iconic long red hats, the Scarlet Wand was a sanctuary for the curious—where knowledge and creativity were held in the highest regard. However, thanks to a suspicious lottery scheme, the guild earned a reputation for scamming and mind-reading, with many calling them witches.
@@ -31,7 +31,7 @@ Their headquarters resembled a traditional wooden guild hall filled with arcane 
 
 #### Amber Coin
 
-**Members:** Takanashi Kiara, Nanamoo, Raora Panthera, Peasant Da Bae
+**Members:** [Takanashi Kiara](#entry:kiara-entry), [Nanamoo](#entry:mumei-entry), [Raora Panthera](#entry:raora-entry), [Peasant Da Bae](#entry:bae-entry)
 **Guildmaster:** Auren
 
 A haven for dreamers, visionaries, and glory-seekers—where friends could easily become rivals. Amber Coin had a rocky start, accused by others (especially the Ceruleans) of murder, kidnapping, and general coin-chasing greed.
@@ -42,7 +42,7 @@ Their luxurious palace-like headquarters featured grand gardens and a casino—a
 
 #### Cerulean Cup
 
-**Members:** Tam Gandr, Gonathon G, Ninomae Ina’nis, Hot Pink One, Koseki Bijou
+**Members:** [Tam Gandr](#entry:kronii-entry), [Gonathon G](#entry:gigi-entry), [Ninomae Ina’nis](#entry:ina-entry), [Hot Pink One](#entry:irys-entry), [Koseki Bijou](#entry:bijou-entry)
 **Guildmaster:** Celesta
 
 A sanctum devoted to healing and empathy... in theory. In practice, most members, except for Ina,were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.
@@ -51,7 +51,7 @@ Their base took the form of a serene, open-air temple that radiated tranquility�
 
 #### Jade Sword
 
-**Members:** Elizabeth Rose Bloodflame, Mori Calliope, Fuwawa Abyssguard, Mococo Abyssguard, Jyan Watson
+**Members:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Mori Calliope](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry), [Mococo Abyssguard](#entry:mococo-entry), [Jyan Watson](#entry:ame-entry)
 **Guildmaster:** Viridus
 
 Champions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind fluffy girl, a quirky blonde detective, and Elizabeth—perhaps the only one who truly embodied the chivalric ideal.
