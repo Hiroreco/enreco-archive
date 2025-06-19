@@ -166,7 +166,7 @@ const ViewLightbox = ({
                         <X className="size-full" />
                     </button>
 
-                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[95vw] max-h-[60vh] flex items-center justify-center">
+                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[95vw] h-[60vh] flex items-center justify-center">
                         {images.length > 1 && (
                             <>
                                 <button

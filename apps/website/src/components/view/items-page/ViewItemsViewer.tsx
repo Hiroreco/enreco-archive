@@ -11,7 +11,7 @@ interface ViewItemViewerProps {
 const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     return (
         <div className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2">
-            <div className="flex flex-col items-center justify-between h-full max-w-[250px]">
+            <div className="flex flex-col items-center justify-between h-full">
                 <div className="flex flex-col items-center gap-2">
                     <p className="font-bold text-center">General Info</p>
                     <div className="w-[250px] h-[250px]">
@@ -56,7 +56,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                     </div>
                 </div>
 
-                <div className="shrink-0 flex overflow-x-scroll w-full content-container self-end">
+                <div className="shrink-0 flex overflow-x-scroll w-full content-container md:max-w-[250px] max-w-[320px]">
                     {item.galleryImages.map((image, index) => (
                         <ViewLightbox
                             key={index}

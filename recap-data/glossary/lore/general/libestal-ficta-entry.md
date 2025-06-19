@@ -6,7 +6,7 @@
 
 ## Overview
 
-**The Kingdom of Libestal** was where the heroes were first summoned by the [King](#entry:outlander-entry), marking the beginning of their enigmatic journey. They were brought forth with the objective of defending the kingdom from a mysterious threat known as the [Stains](#entry:stains-entry). However, it was later revealed that the kingdom itself was a fabrication—a guise for a prison holding the King, whose true identity was The Captive (the Outsider). In a grand deception, the Captive had tricked the heroes into releasing him.
+**The Kingdom of Libestal** was where the heroes were first summoned by the [King](#entry:outsider-entry), marking the beginning of their enigmatic journey. They were brought forth with the objective of defending the kingdom from a mysterious threat known as the [Stains](#entry:stains-entry). However, it was later revealed that the kingdom itself was a fabrication—a guise for a prison holding the King, whose true identity was The Captive (the Outsider). In a grand deception, the Captive had tricked the heroes into releasing him.
 
 [Read "Kingdom of Libestal (Ficta)"](#text:libestal-ficta)
 
@@ -18,7 +18,7 @@ Nineteen heroes were summoned to a mysterious kingdom by its King, each stripped
 
 ### Setting
 
-Libestal was set in a somewhat medieval, though not archaic—fantasy world. Magical devices and enchanted weaponry were commonplace. The kingdom’s citizens, known as Libestans, were rabbit-like humanoids, and the realm was ruled by the King. Four guilds served as pillars of the kingdom’s structure, each tasked with different duties, and the heroes were assigned to one of them:
+Libestal was set in a somewhat medieval, though not archaic—fantasy world. Magical devices and enchanted weaponry were commonplace. The kingdom’s citizens, known as Libestans, were rabbit-like humanoids, and the realm was ruled by the King. Four [guilds](#entry:guilds-entry) served as pillars of the kingdom’s structure, each tasked with different duties, and the heroes were assigned to one of them:
 
 - **Jade Sword** – A beacon of righteousness and loyalty, where great threats are met with even greater courage.
 - **Cerulean Cup** – A sanctum of healing, where empathy and devotion flourish.
