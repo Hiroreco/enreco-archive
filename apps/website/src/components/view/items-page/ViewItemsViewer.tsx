@@ -12,7 +12,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     return (
         <div className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2">
             <div className="flex flex-col items-center justify-between h-full">
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 w-[250px]">
                     <p className="font-bold text-center">General Info</p>
                     <div className="w-[250px] h-[250px]">
                         {item.modelSrc && (
@@ -56,7 +56,7 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
                     </div>
                 </div>
 
-                <div className="shrink-0 flex overflow-x-scroll w-full content-container md:max-w-[250px] max-w-[320px]">
+                <div className="shrink-0 flex overflow-x-scroll content-container md:w-[250px] w-[320px]">
                     {item.galleryImages.map((image, index) => (
                         <ViewLightbox
                             key={index}
