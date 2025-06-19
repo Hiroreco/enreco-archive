@@ -1,10 +1,42 @@
+const getDateDifference = (
+    date: Date = new Date("2025-06-10"),
+    isSince: boolean = true,
+): string => {
+    const now = new Date();
+    const diffTime = date.getTime() - now.getTime();
+    // If isSince is true, we want past dates to be positive
+    const absoluteDiff = isSince ? -diffTime : diffTime;
+
+    if (isNaN(absoluteDiff)) return "Invalid date";
+
+    const diffDays = Math.floor(Math.abs(absoluteDiff) / (1000 * 60 * 60 * 24));
+    const diffMonths = Math.floor(diffDays / 30);
+    const remainingDays = diffDays % 30;
+
+    if (diffMonths === 0) {
+        return `${diffDays} day${diffDays !== 1 ? "s" : ""}`;
+    }
+
+    return `${diffMonths} month${diffMonths !== 1 ? "s" : ""} ${remainingDays} day${remainingDays !== 1 ? "s" : ""}`;
+};
+
 const ViewInfoGeneral = () => {
     return (
         <div className="flex flex-col gap-4">
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on June 10th, 2025 (Fixed/Updated Chapter 2 Recaps)
+                    Updated on June 10th, 2025
+                </span>
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    Days since last episode:{" "}
+                    <span className="font-bold">
+                        {getDateDifference(new Date("2025-05-11"))}
+                    </span>
+                </span>
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    Days until next chapter:{" "}
+                    <span className="font-bold">No info</span>
                 </span>
             </div>
             <div>
