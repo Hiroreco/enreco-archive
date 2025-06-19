@@ -153,7 +153,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                 <Separator className="my-2" />
             </CardHeader>
 
-            <CardContent className="h-[65vh] sm:h-[70vh] px-4 mt-2 overflow-y-auto">
+            <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto">
                 <AnimatePresence mode="wait">
                     {selectedItem === null && (
                         <motion.div

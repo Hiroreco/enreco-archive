@@ -18,7 +18,7 @@ export default function EntryLink({ itemId, children }: ItemLinkProps) {
 
     return (
         <button
-            className="text-accent flex items-center hover:underline hover:underline-offset-2"
+            className="text-accent inline-flex items-center hover:underline hover:underline-offset-2"
             onClick={handleClick}
         >
             <span className="font-semibold">{children}</span>

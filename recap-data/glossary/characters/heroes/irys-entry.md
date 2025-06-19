@@ -1,4 +1,4 @@
-<!-- title: Hot Pink One / IRyS -->
+<!-- title: Satan -->
 <!-- quote: You were always my backup plan -->
 <!-- chapters: -1 -->
 <!-- images: (The Hot Pink One's Chapter 1 Profile), (The Hot Pink One activating her Revelation), (The Hot Pink One in "Start Again"), (The Hot Pink One's Chapter 2 Profile #1), (The Hot Pink One's Chapter 2 Profile #2), (Recollection - IRyS), (IRyS in Chapter 2's Ending) -->
