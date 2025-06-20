@@ -1,6 +1,6 @@
 ## Day 7: The calm before the storm
 
-A new business opened its doors on this day—a rival store to FaunaMart, known as *NanaEleven*, with NanaMoo as its owner. Right from its grand opening, the store made a name for itself, drawing in a crowd with its unique business ideals and quickly establishing itself as a worthy competitor.
+A new business opened its doors on this day—a rival store to FaunaMart, known as _NanaEleven_, with NanaMoo as its owner. Right from its grand opening, the store made a name for itself, drawing in a crowd with its unique business ideals and quickly establishing itself as a worthy competitor.
 
 ![NanaEleven's venue](images-opt/nanaeleven.webp)
 
@@ -16,4 +16,4 @@ Finally, Bijou’s plan to take over the kingdom fully throttled forward—or as
 
 With businesses rising, secrets unfolding, rivalries shifting into romance, and corruption spreading, the kingdom stood on the brink of something far greater. The storm was coming.
 
-[Potato](#easter:potato)
+[Potato](#easter:easter-potato)

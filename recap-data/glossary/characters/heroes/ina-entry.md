@@ -21,7 +21,7 @@ Ina began her journey with a more reserved demeanor than most. Despite being pla
 
 And upon conquering the [Eldritch Horror Dungeon](#entry:eldritch-horro-dungeon-entry), she recovered memories of herself as Ninomae Ina'nis, a priestess who cared for and tended to lingering souls, sending them off with a smile.
 
-She was always there when others needed help, standing by during conflicts and supporting her guildmates. Toward the end of the first journey, she became one of the key heroes in halting the corruption, discovering the cure and saving others—especially her sister—from the depths of darkness.
+She was always there when others needed help, standing by during conflicts and supporting her guildmates. Toward the end of the first journey, she became one of the key heroes in halting the corruption, discovering the cure and saving others—especially her sister—from the [depths of darkness.](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=4490)
 
 Ina proved herself to be loyal and dependable, both to her guild and to her beloved. Even when the latter occasionally hurt her feelings, Ina’s empathetic heart led her to forgive. She gave gifts, love, and even gracefully accepted the Hot Pink One’s desire for romantic "side chicks" without resentment.
 
@@ -30,10 +30,14 @@ Ina proved herself to be loyal and dependable, both to her guild and to her belo
 **Name:** Nino Ina
 **Job:** Jeweler
 
-Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming potatoes by her humble abode.
+Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming [potatoes](https://www.youtube.com/live/BkJIFGhpKIY?si=TOOasp2g_o_oVHFp&t=6891) by her humble abode.
 
 She upheld her sisterly bond with Bijou—and this time, didn’t need to save her from any corruption. Her path seemed to promise a peaceful, steady journey once again… until the final days.
 
 The Hot Pink One, still Ina’s consort for the majority of the story, began to test the limits of Ina’s patience with her growing chaos. From the sudden announcement of her pregnancy, to escalating tensions between her and Tam Gandr (her other romantic entanglement), to Tam asking Ina to be her lover instead, and then the Pink One demanding that Ina be hers and hers alone—it all became too much for the potato-loving jeweler.
 
-And so, Ina made a decision. She would set off on her own journey—a path of reflection, seeking enlightenment, and asking herself where things had gone wrong… and whether her relationship with the Pink One was still something worth holding onto.
+And so, Ina made a [decision](https://www.youtube.com/live/PoM6ETBlOVY?t=723). She would set off on her own journey—a path of reflection, seeking enlightenment, and asking herself where things had gone wrong… and whether her relationship with the Pink One was still something worth holding onto.
+
+## Trivia
+
+- In both instances where Ina found herself caught in the crossfire of affair and romance drama—first with the Gonathon and Pearl situation in Chapter 1, and then with the Tam Gandr situation in Chapter 2—it was, unsurprisingly, her consort, the Hot Pink One, who was the root cause behind it all.

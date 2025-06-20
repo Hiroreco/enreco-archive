@@ -15,13 +15,13 @@ Cecilia was an enigma: a theorist, a contrarian, a knight who only served royalt
 **Name:** Cecilia Immergreen
 **Guild:** Scarlet Wand
 
-Cecilia’s journey in the first chapter was a little different from most. She wasn’t one for manual labor to earn money or goods—instead, she preferred shortcuts, leeching off others with shameless ease. Need money? She’d "borrow" it and promise to pay it back (spoiler: she never did). A hat for sale? She’d offer a live performance and a couple of junk items in exchange. Weapons and tools? She was “far too busy” to get them herself. Easy, quick, and sweat-free.
+Cecilia’s journey in the first chapter was a little different from most. She wasn’t one for manual labor to earn money or goods—instead, she preferred shortcuts, [leeching](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=3020) off others with shameless ease. Need money? She’d "borrow" it and promise to pay it back (spoiler: she never did). A hat for sale? She’d offer a live performance and a couple of junk items in exchange. Weapons and tools? She was “far too busy” to get them herself. Easy, quick, and sweat-free.
 
-She was after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting conspiracy theories about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
+She was after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting [conspiracy theories](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=3869) about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
 
 That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for FaunaMart’s lottery, and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Cecilia!
 
-In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind—planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly worked: she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
+In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind—planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
 
 ### Chapter 2
 
@@ -30,11 +30,11 @@ In the latter half of the journey, Cecilia claimed yet another title: Koseki Bij
 
 With her memories lost once more, Cecilia awoke feeling... slightly different. Perhaps deep down, she sensed how manipulative she’d been in the past. A flicker of change prompted her to take on the name “Cecilia Immerkind.” Whether she truly became kinder is up for debate, as her personality remained mostly intact.
 
-Now more of an enabler than instigator, she roamed freely, making chaotic situations even worse—calling Tam a tyrant, poking her nose in Gonathon and Shiori’s relationship drama, and becoming one of the sparks that ignited the infamous incest scandal on the third day.
+Now more of an enabler than instigator, she roamed freely, making chaotic situations even worse—calling Tam a tyrant, poking her nose in Gonathon and Shiori’s relationship drama, and becoming one of the sparks that ignited the infamous [incest scandal](https://www.youtube.com/live/Icdii90_vSA?t=18700s) on the third day.
 
 She also built stronger, more layered relationships this time. She remained loyal to the Wolf Pack, claimed to be best friends (allegedly) with the Hot Pink One (whom she dubbed "Oliver"), and continued to serve as Bijou’s knight.
 
-But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, [Iphania](#entry:iphania-entry). From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her feelings throughout the journey.
+But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, [Iphania](#entry:iphania-entry). From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her [feelings](https://www.youtube.com/live/I75IWfMGVgM?t=7144) throughout the journey.
 
 Anyone who stood between her and the princess—like the Outlander—was an immediate rival. She even considered abandoning the Wolf Pack just to stay by the princess’s side. When Peasant the Bae, someone who once bickered with Cecilia but eventually warmed up to her, confessed her feelings, Cecilia rejected her on the spot. Because in Cecilia’s heart, there was only the princess.
 
