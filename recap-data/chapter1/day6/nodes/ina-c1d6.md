@@ -4,11 +4,11 @@ Ina’s sixth day in the kingdom started with an unusual wake-up call—a prank 
 
 The call wasn’t entirely frivolous, though. Elizabeth also informed Ina of a tournament set to take place in a few hours, giving her time to prepare. Before that, however, Ina joined Jyonathan, Kiara, and Frieda Adams Antoinette Senior for an expedition into the *Ancient Sewer Dungeon*. There, they recovered [memories](https://www.youtube.com/live/3zaM1QIff9U?feature=shared\&t=3719) of *Amelia Watson*, revealing that Jyonathan had been Amelia all along.
 
-Upon returning to the kingdom, Ina encountered Gonathon, who sought her insight regarding his wife. He asked if Amelia, after regaining her memories, had mentioned him. Just as Ina began to respond, a tune filled the air—a familiar one emanating from the Moai statue. It was her own voice from the past, and the sound was too much for the purple priestess, and she fled the scene.
+Upon returning to the kingdom, Ina encountered Gonathon, who sought her insight regarding his wife. He asked if Amelia, after regaining her memories, had mentioned him. Just as Ina began to respond, a tune filled the air—a familiar one emanating from the Moai statue. It was her voice from the past, and the sound was too much for the purple priestess, and she fled the scene.
 
 [Aghghg yamero!!!!](#embed:https://www.youtube.com/live/3zaM1QIff9U?feature=shared\&t=4244)
 
-Later, Ina’s mischievous streak resurfaced as she stumbled upon a conversation between Elizabeth and Bijou. Bijou had been acting strangely, and though Ina was concerned for her sister, the moment was too tempting to resist. Channelling her inner cicada, Ina began making noises to prank the duo.
+Later, Ina’s mischievous streak resurfaced as she stumbled upon a conversation between Elizabeth and Bijou. Bijou had been acting strangely, and though Ina was concerned for her sister, the moment was too tempting to resist. Channeling her inner cicada, Ina began making noises to prank the duo.
 
 [*Cicada noises*](#embed:https://www.youtube.com/embed/3zaM1QIff9U?si=MTxcQMh-nLtocBcE\&start=4520)
 
