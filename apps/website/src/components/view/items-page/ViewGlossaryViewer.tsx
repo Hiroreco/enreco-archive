@@ -8,7 +8,7 @@ interface ViewItemViewerProps {
     item: CommonItemData;
 }
 
-const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
+const ViewGlossaryViewer = ({ item }: ViewItemViewerProps) => {
     return (
         <div className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2">
             <div className="flex flex-col items-center justify-between h-full">
@@ -94,4 +94,4 @@ const ViewItemViewer = ({ item }: ViewItemViewerProps) => {
     );
 };
 
-export default ViewItemViewer;
+export default ViewGlossaryViewer;

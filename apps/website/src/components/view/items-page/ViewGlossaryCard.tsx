@@ -11,8 +11,8 @@ import {
 } from "lucide-react";
 import { ReactElement, useEffect, useState } from "react";
 
-import ViewItemSelector from "@/components/view/items-page/ViewItemSelector";
-import ViewItemViewer from "@/components/view/items-page/ViewItemsViewer";
+import ViewGlossarySelector from "@/components/view/items-page/ViewGlossarySelector";
+import ViewGlossaryViewer from "@/components/view/items-page/ViewGlossaryViewer";
 import { Category, useGlossary } from "@/contexts/GlossaryContext";
 import {
     Card,
@@ -181,7 +181,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                                                 </h3>
                                                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                                                     {items.map((item) => (
-                                                        <ViewItemSelector
+                                                        <ViewGlossarySelector
                                                             key={item.id}
                                                             item={item}
                                                             onItemClick={(
@@ -216,7 +216,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                         >
-                            <ViewItemViewer item={selectedItem} />
+                            <ViewGlossaryViewer item={selectedItem} />
                         </motion.div>
                     )}
                 </AnimatePresence>

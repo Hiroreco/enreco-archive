@@ -7,7 +7,7 @@ interface ItemSelectorProps {
     onItemClick?: (item: CommonItemData) => void;
 }
 
-const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
+const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
     return (
         <div
             className="view-item-selector card-deco"
@@ -36,4 +36,4 @@ const ViewItemSelector = ({ item, onItemClick }: ItemSelectorProps) => {
     );
 };
 
-export default ViewItemSelector;
+export default ViewGlossarySelector;
