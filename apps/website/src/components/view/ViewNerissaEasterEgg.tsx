@@ -2,7 +2,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import Image from "next/image";
 
-const ViewAwooEasterEgg = () => {
+const ViewNerissaEasterEgg = () => {
     const { playSFX } = useAudioStore();
 
     return (
@@ -27,4 +27,4 @@ const ViewAwooEasterEgg = () => {
     );
 };
 
-export default ViewAwooEasterEgg;
+export default ViewNerissaEasterEgg;
