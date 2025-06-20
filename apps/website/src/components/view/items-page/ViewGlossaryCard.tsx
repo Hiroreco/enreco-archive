@@ -91,7 +91,6 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     useEffect(() => {
         if (current) {
             setSelectedCategory(current.categoryKey);
-            setSelectedChapter(-1);
         }
     }, [current]);
 
@@ -230,7 +229,6 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     onValueChange={(value) => {
                         setSelectedCategory(value as Category);
                         selectItem(null);
-                        setSelectedChapter(-1);
                         clearHistory();
                     }}
                     defaultValue={selectedCategory}
