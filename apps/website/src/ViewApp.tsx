@@ -20,7 +20,7 @@ import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
-import { Book, Dice6, Info, Settings } from "lucide-react";
+import { Book, Dice6, Disc3, Info, Settings } from "lucide-react";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -39,6 +39,7 @@ import {
 import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
 import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
 import Image from "next/image";
+import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -165,6 +166,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const [previousCard, setPreviousCard] = useState<CardType | null>(null);
 
     const [firstVisit, setFirstVisit] = useState(false);
+
+    // Temp stuff
+    const [openMusicModal, setOpenMusicModal] = useState(false);
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
@@ -605,6 +609,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onOpenChange={viewStore.setChapterRecapModalOpen}
                 currentChapter={viewStore.chapter}
             />
+
+            <ViewMusicPlayerModal
+                open={openMusicModal}
+                onOpenChange={setOpenMusicModal}
+            />
+
             <ViewReadCounter
                 day={viewStore.day}
                 chapter={viewStore.chapter}
@@ -679,6 +689,17 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     onClick={() => viewStore.setChapterRecapModalOpen(true)}
                 >
                     <Book />
+                </IconButton>
+
+                <IconButton
+                    id="music-player-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Music Player"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={() => setOpenMusicModal(!openMusicModal)}
+                >
+                    <Disc3 />
                 </IconButton>
             </div>
 

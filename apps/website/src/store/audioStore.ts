@@ -10,13 +10,17 @@ interface AudioState {
     sfx: { [key: string]: Howl };
     bgmVolume: number;
     sfxVolume: number;
-    playBGM: () => void;
-    stopBGM: () => void;
+    playBGM: (fadeInDuration?: number) => void;
+    stopBGM: (fadeOutDuration?: number) => void;
     playSFX: (name: string) => void;
-    pauseBGM: () => void;
+    pauseBGM: (fadeOutDuration?: number) => void;
     setAllSfxVolume: (volume: number) => void;
     setBgmVolume: (volume: number) => void;
-    changeBGM: (key: string) => void;
+    changeBGM: (
+        key: string,
+        fadeInDuration?: number,
+        fadeOutDuration?: number,
+    ) => void;
     isMoomPlaying: boolean;
     setIsMoomPlaying: (isPlaying: boolean) => void;
 }
@@ -78,8 +82,8 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/easter-gura.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-        "easter-awoo": new Howl({
-            src: ["/audio/easter-awoo.mp3"],
+        "easter-gigi": new Howl({
+            src: ["/audio/easter-gigi.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "easter-nerissa": new Howl({
@@ -91,25 +95,25 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     sfxVolume: useSettingStore.getState().sfxVolume,
     isMoomPlaying: false,
     setIsMoomPlaying: (isPlaying: boolean) => set({ isMoomPlaying: isPlaying }),
-    playBGM: () => {
+    playBGM: (fadeInDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm && !bgm.playing()) {
-            bgm.fade(0, bgmVolume, 1000);
+            bgm.fade(0, bgmVolume, fadeInDuration);
             bgm.play();
         }
     },
-    stopBGM: () => {
+    stopBGM: (fadeOutDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm) {
-            bgm.fade(bgmVolume, 0, 1000);
-            setTimeout(() => bgm.stop(), 1000);
+            bgm.fade(bgmVolume, 0, fadeOutDuration);
+            setTimeout(() => bgm.stop(), fadeOutDuration);
         }
     },
-    pauseBGM: () => {
+    pauseBGM: (fadeOutDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm && bgm.playing()) {
-            bgm.fade(bgmVolume, 0, 1000);
-            setTimeout(() => bgm.pause(), 1000);
+            bgm.fade(bgmVolume, 0, fadeOutDuration);
+            setTimeout(() => bgm.pause(), fadeOutDuration);
         }
     },
     playSFX: (name: string) => {
@@ -147,7 +151,11 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             bgm.volume(volume);
         }
     },
-    changeBGM: (newBgmSrc: string) => {
+    changeBGM: (
+        newBgmSrc: string,
+        fadeInDuration = 1000,
+        fadeOutDuration = 2000,
+    ) => {
         const { currentBgmKey } = get();
         const currentBgmKeyFromSrc =
             newBgmSrc.split("/").pop()?.split(".")[0] || null;
@@ -159,8 +167,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         }
 
         const { bgm, bgmVolume } = get();
-        const fadeOutDuration = 2000;
-        const fadeInDuration = 1000;
 
         // Fade out current BGM
         if (bgm) {
