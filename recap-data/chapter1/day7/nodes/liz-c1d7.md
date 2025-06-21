@@ -1,6 +1,6 @@
 *Justice*. Elizabeth’s thoughts had been consumed by that single word ever since her journey began. It lingered in her mind like an unfulfilled promise, shaping her actions and ideals as a knight. But why did it resonate so deeply? Perhaps it was her duty to uphold justice, to shield the kingdom from evil. Or perhaps it was something more personal—a connection she had yet to fully understand. Regardless of the reason, Elizabeth resolved to honor her purpose by serving the king and protecting the people, even as the shadow of impending doom loomed large.
 
-[\*Justice(n): the quality of being just](#embed:https://www.youtube.com/embed/Gw0dZbPKTG4?si=2V7sePWgWbYocBpb\&start=322)
+[Justice(n): the quality of being just](#embed:https://www.youtube.com/embed/Gw0dZbPKTG4?si=2V7sePWgWbYocBpb\&start=322)
 
 The seventh day, the final day before disaster struck, began with unease. Elizabeth awoke feeling unrested, burdened by a restless night haunted by thoughts of Nerissa. Despite their quarrelsome interactions, Elizabeth felt an inexplicable connection to the raven-haired woman, whom she had previously accused of witchcraft. Nerissa's death weighed heavily on her, yet hope lingered—magic existed in the kingdom, and perhaps there was a way to bring her back.
 
@@ -10,7 +10,7 @@ Determined to prepare for the storm that the king had ominously foretold, Elizab
 
 As she wandered the kingdom, Elizabeth came across the massive Tam Gandr statue completed by Gonathon. Though her disdain for the blue "queen" Tam Gandr had not waned, she admired the craftsmanship and the loyalty it represented. Despite her lingering spite, Elizabeth couldn’t deny the respect she held for Gonathon's dedication to [his queen](https://www.youtube.com/live/Gw0dZbPKTG4?feature=shared\&t=958).
 
-Spotting a few early risers, Elizabeth decided to add some liveliness to her day by pranking Cecilia. However, her plans backfired when Cecilia turned the tables on her, catching Elizabeth off guard (this wasn't the first time Elizabeth had done a failed prank),
+Spotting a few early risers, Elizabeth decided to add some liveliness to her day by pranking Cecilia. However, her plans backfired when Cecilia turned the tables on her, catching Elizabeth off guard (this wasn’t the first time one of her pranks had failed).
 
 [Digital Millennium Copyright Act](#embed:https://www.youtube.com/embed/Gw0dZbPKTG4?si=1KlntTFohlr2YxvR\&start=1128)
 

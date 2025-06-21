@@ -12,13 +12,13 @@ However, her joy was short-lived. After venturing out to gather materials, Fuwaw
 
 [What happened to my chickens...](#embed:https://www.youtube.com/embed/zdQoGFICNDk?si=k3FnLH85iZl-cZKz\&start=11103)
 
-Her mind turned to Mococo, the fuzzy one's recent string of questionable actions made her a suspect. But with no evidence, Fuwawa couldn’t be sure. Saddened by the loss, she let out a heart-wrenching bau bau that could tug at anyone’s heartstrings.
+Her mind turned to Mococo; the fuzzy one's recent string of questionable actions made her a suspect. But with no evidence, Fuwawa couldn’t be sure. Saddened by the loss, she let out a heart-wrenching bau bau that could tug at anyone’s heartstrings.
 
-Fuwawa reported the incident to [Gonathon and Raora](https://www.youtube.com/live/zdQoGFICNDk?feature=shared\&t=11569). Overcome with sadness and frustration, she [lashed out](https://www.youtube.com/live/zdQoGFICNDk?feature=shared\&t=11633) at Raora, suspecting the big cat for having eaten all the chickens. This outburst was uncharacteristic of Fuwawa, who was typically gentle and composed. However, Raora assured her that she wasn’t responsible and, to help ease her sorrow, gifted her some chicken eggs to start anew. Grateful, Fuwawa accepted the eggs and began hatching a new brood.
+Fuwawa reported the incident to [Gonathon and Raora](https://www.youtube.com/live/zdQoGFICNDk?feature=shared\&t=11569). Overcome with sadness and frustration, she [lashed out](https://www.youtube.com/live/zdQoGFICNDk?feature=shared\&t=11633) at Raora, suspecting the big cat of having eaten all the chickens. This outburst was uncharacteristic of Fuwawa, who was typically gentle and composed. However, Raora assured her that she wasn’t responsible and, to help ease her sorrow, gifted her some chicken eggs to start anew. Grateful, Fuwawa accepted the eggs and began hatching a new brood.
 
 Feeling somewhat better, Fuwawa returned to her preparations. A brief moment of levity came when Mococo, having won big at the casino, celebrated so enthusiastically that her cheers echoed throughout the kingdom, reaching Fuwawa’s ears.
 
-[A disturbance in the force](#embed:https://www.youtube.com/embed/zdQoGFICNDk?si=hLhOJsA0QC7bKCkW\&start=12521)
+[A disturbance in the Force](#embed:https://www.youtube.com/embed/zdQoGFICNDk?si=hLhOJsA0QC7bKCkW\&start=12521)
 
 But her relief didn’t last long. Not long after, Fuwawa discovered her chickens missing [once again](https://www.youtube.com/live/zdQoGFICNDk?feature=shared\&t=13177). Something was definitely amiss. Seeking answers, she approached [Gonathon](https://www.youtube.com/live/zdQoGFICNDk?feature=shared\&t=13459), who revealed that he had a suspicion about the culprit. Someone corrupted was targeting her chickens, he warned. He urged Fuwawa to be cautious and to avoid accepting hats from anyone—especially Mococo, who might already be under the influence of corruption.
 
