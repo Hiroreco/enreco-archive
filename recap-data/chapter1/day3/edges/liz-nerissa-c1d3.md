@@ -10,6 +10,6 @@ However, her lofty expectations of the blue maiden were tempered when Nerissa re
 
 Despite this revelation, Elizabeth didn’t hold it against her. Not everyone needed to share her rigid sense of morality. After all, what mattered most was the connection they’d shared, however fleeting.
 
-Truth be told, Elizabeth was a [fumbling mess](https://www.youtube.com/live/oVguNTPnDww?feature=shared\&t=2740) whenever the blue maiden appeared. And every time they parted ways, Elizabeth quietly hoped for more moments with Nerissa in the days to come.
+Truth be told, Elizabeth was a [fumbling mess](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=2740) whenever the blue maiden appeared. And every time they parted ways, Elizabeth quietly hoped for more moments with Nerissa in the days to come.
 
-[Can't stop thinking about her](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared\&t=2185)
+[Can't stop thinking about her](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=2185)

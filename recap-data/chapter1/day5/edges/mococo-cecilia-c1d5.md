@@ -12,9 +12,9 @@ Mococo wanted 10,000 coins in compensation for her suffering, but Fauna was only
 
 Fauna then made a different offer, giving Mococo a discount on lottery tickets, essentially making her a privileged customer, along with a "buy 9, get 1 free" coupon. Cecilia, once again, told Mococo it was a good deal. While it might have been questionable for a lawyer to keep agreeing to every offer made by the opposing side, Cecilia was secretly on Fauna’s side, so it made sense. Mococo, however, wasn’t interested in any of it and remained adamant about receiving the full 10,000.
 
-[Not enough for my suffering](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared\&t=7871)
+[Not enough for my suffering](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=7871)
 
-Then Nerissa arrived, claiming she had evidence that Mococo had committed fraud and had framed her by placing a bounty on her head. The pressure was mounting, but Cecilia remained confident and undeterred. She consulted with Mococo, discussed matters with Fauna, and ultimately decided that the only way forward was to take this to the [high court](https://www.youtube.com/live/2ATTd32AV-Q?feature=shared\&t=8270).
+Then Nerissa arrived, claiming she had evidence that Mococo had committed fraud and had framed her by placing a bounty on her head. The pressure was mounting, but Cecilia remained confident and undeterred. She consulted with Mococo, discussed matters with Fauna, and ultimately decided that the only way forward was to take this to the [high court](https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=8270).
 
 But things only got worse from there. With Gonathon and Nerissa relentlessly pressing on the case—especially Gonathon, who kept rubbing in Cecilia’s complete lack of legal qualifications—the situation was quickly turning against them. With pressure coming from all sides, the doggo finally broke, running away in tears, leaving her lawyer behind to desperately argue that she was actually fit to be a lawyer.
 
@@ -24,7 +24,7 @@ Later on, the case somehow resolved itself—without Cecilia’s involvement.
 
 Yay! Happy news! So… where’s my paycheck?
 
-[Another successful case](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared\&t=10669)
+[Another successful case](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=10669)
 
 Despite not actually doing anything to resolve the case, Cecilia still wanted her cut. She asked for 5% of the compensation as payment for all the hard work she had put into defending Mococo. And Mococo, being ever so generous and understanding, gave her 1.8% instead—which, all things considered, was fair.
 

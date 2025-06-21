@@ -5,7 +5,7 @@ Cecilia’s grand plan was finally coming to fruition. It had been on her mind s
 
 And she succeeded.
 
-[Under my control](#embed:https://www.youtube.com/live/4co7VDSYTqU?feature=shared\&t=5496)
+[Under my control](#embed:https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496)
 
 At long last, after all her careful scheming, she had the princess under her control. And by extension… the entire kingdom!
 

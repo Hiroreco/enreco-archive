@@ -6,6 +6,6 @@ Unlike the others, Nerissa wasn’t all that uppity about the whole side chick p
 
 And quick and painless it was.
 
-[She just left](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared\&t=14216)
+[She just left](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=14216)
 
 With that, Bijou was finally freed from the shackles of marriage—and she had never felt more alive.

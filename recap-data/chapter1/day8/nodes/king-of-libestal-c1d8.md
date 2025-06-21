@@ -1,6 +1,6 @@
 The heroes and their guildmasters stood at the kingdom’s gate, the very place where their journey had begun. Now, they gathered once more, preparing for what could be their final battle. The fight ahead would be their most grueling yet, but they had come a long way—stronger, sharper, and more determined than ever.
 
-[For the King!](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=16622)
+[For the King!](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=16622)
 
 As the battle against the Stain King commenced, the struggle was immense. Many heroes were knocked down, their strength tested to the absolute limit. But through sheer perseverance, through their unyielding bonds, they fought on—and at long last, they emerged victorious.
 
@@ -16,7 +16,7 @@ Rushing toward the castle, the heroes desperately sought answers—was the King 
 
 Then, the King's chuckle echoed through the throne room.
 
-[At long last...](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=17220)
+[At long last...](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=17220)
 
 It wasn’t a chuckle of relief or joy. It was mocking, twisted, and laced with malice. The truth came crashing down.
 
@@ -24,7 +24,7 @@ The King had tricked them. This had all been part of his plan. The kingdom, the 
 
 No longer bound by his shackles, the King revealed his true self. His small, kindly form twisted and contorted, warping into a hideous monstrosity wrapped in chains. *The Captive* had awakened.
 
-[My vengeance is only beginning](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared\&t=12263)
+[My vengeance is only beginning](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=12263)
 
 With chains wrapped around his body, The Captive lashed out. Chains cracked through the air, binding and battering the heroes. His strikes were relentless, his malice suffocating.
 
@@ -34,6 +34,6 @@ It was gentle yet urgent, pleading for them to leave. The kingdom was collapsing
 Trusting the voice, the heroes fled through the crumbling ruins. And then—
 
 
-[This isn't the end](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=18165)
+[This isn't the end](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=18165)
 
 They returned to the white room. The same place where it all began.Thus, the first tale in this enigmatic journey came to a close.

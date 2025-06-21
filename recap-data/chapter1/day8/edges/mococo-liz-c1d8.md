@@ -10,9 +10,9 @@ So when those two ideals clashed—when duty to a loved one contradicted duty to
 
 That was the dilemma Elizabeth faced on this final day.
 
-[You wish to call me sister now?](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=10236)
+[You wish to call me sister now?](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=10236)
 
-Mococo, someone she had sworn to protect, someone she had promised to always stand by, had succumbed to corruption. She was spreading chaos throughout the kingdom—an undeniable act of evil. Elizabeth tried to stop her. She tried to reason with her. But Mococo wouldn't listen. Wouldn’t—or couldn’t—[stop](https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=10033).
+Mococo, someone she had sworn to protect, someone she had promised to always stand by, had succumbed to corruption. She was spreading chaos throughout the kingdom—an undeniable act of evil. Elizabeth tried to stop her. She tried to reason with her. But Mococo wouldn't listen. Wouldn’t—or couldn’t—[stop](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=10033).
 
 And when Mococo pleaded, begged, insisted that it wasn’t her, that she wasn’t the one doing all these horrible things… Elizabeth had no choice but to reject her.
 
@@ -28,7 +28,7 @@ Even so, Elizabeth refused to let things end like this. She believed in redempti
 
 And with sheer determination—and the help of her comrades—they found the cure to the corruption. Through an elaborate plan, they freed those who had been afflicted, including Mococo. And at last, the two were reunited.
 
-[I'm sorry for what I've said](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared\&t=12661)
+[I'm sorry for what I've said](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12661)
 
 Elizabeth apologized—apologized for the harsh words she had spoken, for abandoning her in her darkest moment. Yes, she had done what many knights should have done. But just because something was *just*, didn’t mean it was the only path.
 

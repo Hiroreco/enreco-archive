@@ -4,7 +4,7 @@ Ina had one special case for a wife. She wasn’t unfamiliar with the antics of 
 
 But what Ina didn’t expect… was just how low this pink menace was willing to go. Even tricking someone who was heartbroken—taking advantage of a vulnerable soul who had already lost so much.
 
-[Eternal Consort! Oi!](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared\&t=5210)
+[Eternal Consort! Oi!](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=5210)
 
 Upon meeting Amelia Watson, the Hot Pink One did the unthinkable. She lied. She tricked the blonde into believing that she was the one who had given her all those diamonds during their first meeting, that she was the one Amelia had been searching for all this time.
 
@@ -14,6 +14,6 @@ Ina couldn’t take it. She left, sad and hurt. But karma came quickly. Her sist
 
 Because, despite everything, love is love. And so, the two shared a dinner date at Mori’s tavern, exchanging sweet words over delicious food, as if nothing had ever happened.
 
-[The world lights up with you](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared\&t=5981)
+[The world lights up with you](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=5981)
 
-Ina, the sweetest, kindest, and most normal person in the entire kingdom, had somehow found a way to put up with the silliest, most unpredictable one. But maybe that’s just how love worked. And despite the minor setback, they walked through their journey hand in hand, sticking together till the [very end](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared\&t=9492).
+Ina, the sweetest, kindest, and most normal person in the entire kingdom, had somehow found a way to put up with the silliest, most unpredictable one. But maybe that’s just how love worked. And despite the minor setback, they walked through their journey hand in hand, sticking together till the [very end](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=9492).

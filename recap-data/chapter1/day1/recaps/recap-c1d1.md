@@ -19,6 +19,6 @@ The day's primary mission led them to the *Underworld Dungeon*, a foreboding pla
 
 However, this was far from the day's only story. The heroes summoned by the king proved to be anything but ordinary. Beyond the main quest, countless shenanigans unfolded, along with budding relationships and unexpected narratives. For every grand objective, there were personal moments of humor, mischief, and discovery.
 
-["START AGAIN" - Chapter 1 Theme Song](https://www.youtube.com/watch?v=r-kkCrVZUzc\&ab_channel=hololiveEnglish)
+["START AGAIN" - Chapter 1 Theme Song](https://www.youtube.com/watch?v=r-kkCrVZUzc&ab_channel=hololiveEnglish)
 
 ["Full Libestal Cast" by DDOLBANG](https://x.com/DDOLBANG11/status/1902413203335999859)
