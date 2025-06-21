@@ -19,98 +19,24 @@ import React, { useEffect, useRef, useState } from "react";
 import { useAudioStore } from "@/store/audioStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
+import { SONGS } from "@/lib/misc";
 
-// Song data structure
-interface Song {
-    id: number;
-    title: string;
-    artist: string;
-    coverUrl: string;
-    audioSrc: string;
-}
+const PlayingAnimation = () => (
+    <div className="flex items-end h-3 gap-[2px]">
+        <div className="w-[3px] h-full bg-gray-200 animate-music-bar-1 rounded-sm" />
+        <div className="w-[3px] h-[70%] bg-gray-200 animate-music-bar-2 rounded-sm" />
+        <div className="w-[3px] h-[40%] bg-gray-200 animate-music-bar-3 rounded-sm" />
+    </div>
+);
 
-// Define our song list
-const songList: Song[] = [
-    {
-        id: 1,
-        title: "Monster (Instrumental)",
-        artist: "Enreco",
-        coverUrl:
-            "https://hololive.hololivepro.com/wp-content/uploads/2025/05/MONSTER.png",
-        audioSrc: "/audio/songs/song-monster-ins.mp3",
-    },
-    {
-        id: 2,
-        title: "Start Again (Instrumental)",
-        artist: "Enreco Archive",
-        coverUrl:
-            "https://hololive.hololivepro.com/wp-content/uploads/2025/05/MONSTER.png",
-        audioSrc: "/audio/songs/song-start-again-ins.mp3",
-    },
-    {
-        id: 3,
-        title: "Adventure Awaits",
-        artist: "Enreco Studios",
-        coverUrl:
-            "https://hololive.hololivepro.com/wp-content/uploads/2025/05/MONSTER.png",
-        audioSrc: "/audio/songs/chapter3.mp3",
-    },
-    // Add more songs as needed
-];
+const categories = Object.entries(SONGS);
 
-const PlayingAnimation = () => {
-    return (
-        <div className="flex items-end h-3 gap-[2px] ml-2">
-            <div className="w-[3px] h-full bg-primary animate-music-bar-1 rounded-sm"></div>
-            <div className="w-[3px] h-[70%] bg-primary animate-music-bar-2 rounded-sm"></div>
-            <div className="w-[3px] h-[40%] bg-primary animate-music-bar-3 rounded-sm"></div>
-        </div>
-    );
-};
-
-interface MusicItemProps {
-    index: number;
-    title: string;
-    artist: string;
-    isSelected: boolean;
-    isPlaying: boolean;
-    onClick: () => void;
-}
-
-const MusicItem = ({
-    index,
-    title,
-    artist,
-    isSelected,
-    isPlaying,
-    onClick,
-}: MusicItemProps) => {
-    return (
-        <div
-            className={cn(
-                "flex items-center cursor-pointer hover:dark:bg-white/10 hover:bg-black/10 transition-colors px-3 py-1.5 rounded-lg group",
-                {
-                    "dark:bg-white/20 bg-black/20": isSelected,
-                },
-            )}
-            onClick={onClick}
-        >
-            <span className="opacity-50 h-6 w-4 flex items-center justify-center">
-                {isSelected && isPlaying ? (
-                    <PlayingAnimation />
-                ) : (
-                    <>
-                        <Play className="size-3 hidden group-hover:block" />
-                        <span className="group-hover:hidden">{index}</span>
-                    </>
-                )}
-            </span>
-            <span className="px-2 text-sm font-semibold grow opacity-90">
-                {title}
-            </span>
-            <span className="text-xs opacity-50">{artist}</span>
-        </div>
-    );
+const categoriesLabels: Record<string, string> = {
+    enreco: "Official Themes",
+    ingame: "In-Game Music",
+    stream: "Talent-used Music",
+    talent: "Hero Themes",
+    instrumental: "Instrumental",
 };
 
 interface ViewMusicPlayerModalProps {
@@ -122,106 +48,95 @@ const ViewMusicPlayerModal = ({
     open,
     onOpenChange,
 }: ViewMusicPlayerModalProps) => {
-    const [currentSongIndex, setCurrentSongIndex] = useState(0);
+    // State persists across opens; no selection initially
+    const [catIndex, setCatIndex] = useState<number | null>(null);
+    const [trackIndex, setTrackIndex] = useState<number | null>(null);
     const [isPlaying, setIsPlaying] = useState(false);
     const [loop, setLoop] = useState(false);
     const [volume, setVolume] = useState(0.5);
 
     const audioStore = useAudioStore();
     const listRef = useRef<HTMLDivElement>(null);
-    const currentSong = songList[currentSongIndex];
 
-    // Scroll to current song
+    const hasSelection = catIndex !== null && trackIndex !== null;
+    const [categoryName, songs] = hasSelection
+        ? categories[catIndex!]
+        : ["", []];
+    const currentTrack = hasSelection ? songs[trackIndex!] : null;
+
+    // Scroll into view when selection changes
     useEffect(() => {
-        if (open && listRef.current) {
-            const songElement = listRef.current.children[currentSongIndex];
-            if (songElement) {
-                songElement.scrollIntoView({
-                    behavior: "smooth",
-                    block: "center",
-                });
+        if (!open || !listRef.current || !hasSelection) return;
+        const selector = `[data-cat="${catIndex}"][data-track="${trackIndex}"]`;
+        listRef.current
+            .querySelector(selector)
+            ?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, [catIndex, trackIndex, open, hasSelection]);
+
+    // Load track and auto-next/loop within category
+    useEffect(() => {
+        if (!open || !currentTrack) return;
+        audioStore.changeBGM(currentTrack.sourceUrl, 0, 0);
+        const endHandler = () => {
+            if (trackIndex! < songs.length - 1) {
+                setTrackIndex((i) => i! + 1);
+                setIsPlaying(true);
+            } else if (loop) {
+                setTrackIndex(0);
+                setIsPlaying(true);
+            } else {
+                setIsPlaying(false);
             }
-        }
-    }, [currentSongIndex, open]);
+        };
+        audioStore.bgm?.once("end", endHandler);
+    }, [catIndex, trackIndex, loop, currentTrack, open]);
 
-    // Handle playing and auto-next
+    // Play/pause effect
     useEffect(() => {
-        if (!open) return;
-        // Start playing current song
-        audioStore.changeBGM(currentSong.audioSrc, 0, 0);
+        if (!open || !currentTrack) return;
+        isPlaying ? audioStore.playBGM(0) : audioStore.pauseBGM(0);
+    }, [isPlaying, open, currentTrack]);
 
-        // Set up listener for when song ends (if not looping)
-        if (!loop && audioStore.bgm) {
-            const handleEnd = () => {
-                if (currentSongIndex < songList.length - 1) {
-                    setCurrentSongIndex((prev) => prev + 1);
-                } else {
-                    setIsPlaying(false);
-                }
-            };
-
-            audioStore.bgm.once("end", handleEnd);
-            return () => {
-                if (audioStore.bgm) {
-                    audioStore.bgm.off("end", handleEnd);
-                }
-            };
-        }
-    }, [currentSongIndex, loop, currentSong.audioSrc]);
-
-    // Play or pause the current song
+    // Loop flag effect
     useEffect(() => {
-        if (!open) return;
-        if (isPlaying) {
-            audioStore.playBGM(0);
-        } else {
-            audioStore.pauseBGM(0);
-        }
-    }, [isPlaying, audioStore]);
+        if (!open || !currentTrack) return;
+        audioStore.bgm?.loop(loop);
+    }, [loop, open, currentTrack]);
 
-    // Update loop setting on BGM
+    // Volume effect
     useEffect(() => {
-        if (!open) return;
-        if (audioStore.bgm) {
-            audioStore.bgm.loop(loop);
-        }
-    }, [loop, audioStore.bgm]);
-
-    // Handle volume changes
-    useEffect(() => {
-        if (!open) return;
+        if (!open || !currentTrack) return;
         audioStore.setBgmVolume(volume);
-    }, [volume]);
+    }, [volume, open, currentTrack]);
 
-    const playPause = () => {
-        setIsPlaying(!isPlaying);
-    };
-
+    const playPause = () => setIsPlaying((p) => !p);
     const playNext = () => {
-        if (currentSongIndex < songList.length - 1) {
-            setCurrentSongIndex((prev) => prev + 1);
-            if (!isPlaying) setIsPlaying(true);
+        if (!currentTrack) return;
+        if (trackIndex! < songs.length - 1) {
+            setTrackIndex((i) => i! + 1);
+            setIsPlaying(true);
+        } else if (loop) {
+            setTrackIndex(0);
+            setIsPlaying(true);
         }
     };
-
     const playPrev = () => {
-        if (currentSongIndex > 0) {
-            setCurrentSongIndex((prev) => prev - 1);
-            if (!isPlaying) setIsPlaying(true);
+        if (!currentTrack) return;
+        if (trackIndex! > 0) {
+            setTrackIndex((i) => i! - 1);
+            setIsPlaying(true);
+        } else if (loop) {
+            setTrackIndex(songs.length - 1);
+            setIsPlaying(true);
         }
     };
+    const toggleLoop = () => setLoop((l) => !l);
+    const onVolumeChange = (val: number[]) => setVolume(val[0]);
 
-    const toggleLoop = () => {
-        setLoop(!loop);
-    };
-
-    const handleSongSelect = (index: number) => {
-        setCurrentSongIndex(index);
+    const onSelect = (cIdx: number, tIdx: number) => {
+        setCatIndex(cIdx);
+        setTrackIndex(tIdx);
         setIsPlaying(true);
-    };
-
-    const handleVolumeChange = (value: number[]) => {
-        setVolume(value[0]);
     };
 
     return (
@@ -233,29 +148,33 @@ const ViewMusicPlayerModal = ({
                 </DialogDescription>
             </DialogHeader>
             <DialogContent
-                className="max-w-fit items-card"
+                className="max-w-fit dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20 shadow-lg"
                 style={{ backgroundImage: "none" }}
             >
                 <div className="flex md:flex-row flex-col items-center gap-2">
-                    <div className="flex flex-col items-center gap-4 p-4 w-[300px] bg-background/50 rounded-lg">
+                    {/* Cover & Controls */}
+                    <div className="flex flex-col items-center gap-4 p-4 w-[300px] dark:bg-white/50 bg-black/30 rounded-lg">
                         <Image
-                            src={currentSong.coverUrl}
-                            alt={`${currentSong.title} by ${currentSong.artist}`}
+                            src={
+                                currentTrack?.coverUrl ||
+                                "/images-opt/logo-1.webp"
+                            }
+                            alt={currentTrack?.title || "Select a track"}
                             width={300}
                             height={300}
                             className="rounded-lg"
                             draggable={false}
                         />
-
                         <div className="text-center w-full px-2">
-                            <h3 className="font-bold text-lg truncate">
-                                {currentSong.title}
-                            </h3>
-                            <p className="text-sm opacity-70">
-                                {currentSong.artist}
+                            <p className="truncate font-lg font-semibold">
+                                {currentTrack?.title || "Select a track"}
                             </p>
+                            {currentTrack?.info && (
+                                <p className="text-sm opacity-70">
+                                    {currentTrack.info}
+                                </p>
+                            )}
                         </div>
-
                         <div className="flex items-center justify-between w-full px-2">
                             <div className="flex items-center gap-2">
                                 <Volume2 size={16} />
@@ -264,45 +183,32 @@ const ViewMusicPlayerModal = ({
                                     value={[volume]}
                                     max={1}
                                     step={0.01}
-                                    onValueChange={handleVolumeChange}
+                                    onValueChange={onVolumeChange}
                                 />
                             </div>
                             <div className="flex items-center gap-4">
                                 <button
                                     onClick={playPrev}
+                                    disabled={!currentTrack}
                                     className="hover:opacity-80 transition-opacity"
-                                    disabled={currentSongIndex === 0}
                                 >
-                                    <ChevronFirst
-                                        className={cn({
-                                            "opacity-50":
-                                                currentSongIndex === 0,
-                                        })}
-                                    />
+                                    <ChevronFirst />
                                 </button>
                                 <button
                                     onClick={playPause}
+                                    disabled={!currentTrack}
                                     className="hover:opacity-80 transition-opacity"
                                 >
                                     {isPlaying ? <Pause /> : <Play />}
                                 </button>
                                 <button
                                     onClick={playNext}
+                                    disabled={!currentTrack}
                                     className="hover:opacity-80 transition-opacity"
-                                    disabled={
-                                        currentSongIndex === songList.length - 1
-                                    }
                                 >
-                                    <ChevronLast
-                                        className={cn({
-                                            "opacity-50":
-                                                currentSongIndex ===
-                                                songList.length - 1,
-                                        })}
-                                    />
+                                    <ChevronLast />
                                 </button>
                             </div>
-
                             <button
                                 onClick={toggleLoop}
                                 className={cn(
@@ -320,22 +226,62 @@ const ViewMusicPlayerModal = ({
 
                     <Separator className="md:hidden w-full" />
 
+                    {/* Song List by Category */}
                     <div
                         ref={listRef}
-                        className="flex flex-col gap-2 px-2 max-h-[30vh] md:max-h-[60vh] overflow-x-hidden overflow-y-auto w-[80vw] md:w-[400px]"
+                        className="flex flex-col gap-2 px-2 max-h-[60vh] overflow-auto w-[80vw] md:w-[400px]"
                     >
-                        {songList.map((song, index) => (
-                            <MusicItem
-                                key={song.id}
-                                index={index + 1}
-                                title={song.title}
-                                artist={song.artist}
-                                isSelected={index === currentSongIndex}
-                                isPlaying={
-                                    index === currentSongIndex && isPlaying
-                                }
-                                onClick={() => handleSongSelect(index)}
-                            />
+                        {categories.map(([cat, list], cIdx) => (
+                            <div key={cat}>
+                                <h4 className="px-3 pt-2 text-xs opacity-70">
+                                    {categoriesLabels[cat] || cat}
+                                </h4>
+                                {list.map((song, tIdx) => (
+                                    <div
+                                        key={`${cIdx}-${tIdx}`}
+                                        data-cat={cIdx}
+                                        data-track={tIdx}
+                                    >
+                                        <div
+                                            className={cn(
+                                                "flex items-center cursor-pointer hover:dark:bg-white/10 hover:bg-black/10 transition-colors px-3 py-1.5 rounded-lg group",
+                                                {
+                                                    "dark:bg-white/20 bg-black/20":
+                                                        cIdx === catIndex &&
+                                                        tIdx === trackIndex,
+                                                },
+                                            )}
+                                            onClick={() => onSelect(cIdx, tIdx)}
+                                        >
+                                            <span className="opacity-50 h-6 w-4 flex items-center justify-center">
+                                                {cIdx === catIndex &&
+                                                tIdx === trackIndex &&
+                                                isPlaying ? (
+                                                    <PlayingAnimation />
+                                                ) : (
+                                                    <>
+                                                        <Play className="size-3 hidden group-hover:block" />
+                                                        <span className="group-hover:hidden">
+                                                            {tIdx + 1}
+                                                        </span>
+                                                    </>
+                                                )}
+                                            </span>
+                                            <span className="px-2 text-sm font-semibold grow opacity-90">
+                                                {song.title}
+                                            </span>
+                                            {song.info && (
+                                                <span className="text-xs opacity-50">
+                                                    {song.info}
+                                                </span>
+                                            )}
+                                            <span className="text-xs opacity-50 ml-2">
+                                                {song.duration}
+                                            </span>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                         ))}
                     </div>
                 </div>
