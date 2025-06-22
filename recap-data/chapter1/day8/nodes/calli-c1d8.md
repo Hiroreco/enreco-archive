@@ -6,7 +6,7 @@ Calli could sense the malevolence radiating from the corrupted gem maiden. Altho
 
 The corruption spreading through the kingdom had even reached Calli’s beloved [tavern](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=882), a place she’d worked tirelessly to build. Seeking a plan, she discussed the dire situation with her guildmate, [Elizabeth](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=1831). They needed to act swiftly before the corruption consumed everything. Adding to the turmoil, Jyonathan—whose true identity Calli had not yet recalled—was behaving oddly, obsessing over ["diamonds"](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=2441) in an unsettling manner.
 
-Calli’s suspicions about the kingdom’s leadership deepened when Nerissa invited her to explore the [castle](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=3441). Together, they uncovered its many secrets, though the investigation was briefly derailed when Bijou ambushed Calli with a *"[Joe Mama"](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=4073)* joke. Very sinister indeed.
+Calli’s suspicions about the kingdom’s leadership deepened when Nerissa invited her to explore the [castle](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=3441). Together, they uncovered its many secrets, though the investigation was briefly derailed when Bijou ambushed Calli with a [*"Joe Mama"*](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=4073) joke. Very sinister indeed.
 
 Later, Calli ventured into the Ancient Sewer Dungeon to recover the last missing fragments of her memories. There, she realized that Jyonathan was none other than [Amelia Watson](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=7646).
 

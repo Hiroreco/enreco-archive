@@ -4,7 +4,7 @@ Ina approached, ready to plead for her sister’s return—but was interrupted b
 
 [She seems busy](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=692)
 
-Gathering with Gonathon and Mario, Ina recalled the nursery rhymes from her childhood, tales of a magical golden apple capable of cleansing corruption. Gonathon suggested consulting the kingdom’s library for records of such an item, and they sought Cecilia’s help. It was during this discussion that Ina learned of her connection to Mario: Mario was her mother (see [Mario-Ina: Mother?](#edge:raora-ina)).
+Gathering with Gonathon and Mario, Ina recalled the nursery rhymes from her childhood, tales of a magical golden apple capable of cleansing corruption. Gonathon suggested consulting the kingdom’s library for records of such an item, and they sought Cecilia’s help. It was during this discussion that Ina learned of her connection to Mario: Mario was her mother (see [Mario-Ina: Mother?](#edge:raora-ina))
 
 The group hurried to the library, where Cecilia unearthed a book with a cryptic clue pointing to the apple's location. It described the entrance as a "fiery perishment where rebirth awaits." Ina recognized it immediately: the Volcanic Dungeon. Furthermore, they were also given a map of the location.
 

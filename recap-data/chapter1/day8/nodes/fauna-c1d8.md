@@ -12,11 +12,11 @@ Afterward, Fauna made even more sales by selling battle gear to [Elizabeth](http
 
 [Spicy Novels](#embed:https://www.youtube.com/embed/8x-MVX8h9gU?si=IMjZK6slIHg67-Pp&start=2573)
 
-Gonathon visited next—seriously, FaunaMart was busy that day. He informed Fauna that Nerissa, her employee, had succumbed to the corruption. Fauna’s response? She couldn't care less, and congratulated Gonathon on winning the lottery two days prior and handed him his prize. Though puzzled by Fauna’s priorities, Gonathon accepted and even bought another 21 lottery tickets, contributing to the library fund.
+Gonathon visited next—seriously, FaunaMart was busy that day. He informed Fauna that Nerissa, her employee, had succumbed to the corruption. Fauna’s response? She couldn't care less and congratulated Gonathon on winning the lottery two days prior and handed him his prize. Though puzzled by Fauna’s priorities, Gonathon accepted and even bought another 21 lottery tickets, contributing to the library fund.
 
-[Dang that sucks... Anyway](#embed:https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=4316)
+[Dang, that sucks... Anyway](#embed:https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=4316)
 
-Mococo also showed up to remind Fauna of the money owed to her from two days ago. To everyone’s surprise, Fauna actually paid her [back](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=5001). You really had to question the mindset of these "heroes," collecting debts on the day of the apocalypse.
+Mococo also showed up to remind Fauna of the money owed to her from two days ago. To everyone’s surprise, Fauna paid her [back](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=5001). You really had to question the mindset of these "heroes," collecting debts on the day of the apocalypse.
 
 As the final battle loomed, Fauna had a brilliant idea: sell battle gear to her fellow heroes at exorbitant prices. Knowing most were too preoccupied with the corruption to negotiate, she crafted shields and swords and made a [fortune](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=7180).
 
@@ -28,7 +28,7 @@ In the end, the heroes returned to the [white room](https://www.youtube.com/live
 
 Although her business practices often raised eyebrows, Fauna’s ability to establish capitalism in a fantasy setting—and create a convenience store that sold lottery tickets—was nothing short of genius. While this marked the end of her story, FaunaMart left an undeniable impression on everyone involved.
 
-With the store closing and the library’s purpose fulfilled, the CEO bid farewell to her customers and supporters. As she ventured off onto a new journey, one thing was certain: Fauna’s wit, dedication, and entrepreneurial spirit would not be forgotten.
+With the store closing and the library’s purpose fulfilled, the CEO bid farewell to her customers and supporters. As she ventured off on a new journey, one thing was certain: Fauna’s wit, dedication, and entrepreneurial spirit would not be forgotten.
 
 Faunwell, miss CEO.
 
