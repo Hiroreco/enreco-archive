@@ -10,7 +10,7 @@ Later on, Gonathon stopped by the library to donate a book. Cecilia happened to 
 
 ["Accidentally found it," he said](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared&t=6827)
 
-The book, A Knight’s Tale, told the story of a humble knight who was once lost but gained purpose through the adventures he shared with the people he had tagged along with. As the days went on, he made more and more memories with these quirky individuals, and each one, he cherished. Yet, as much as others called him humble and steadfast, he felt conflicted, for he had a selfish wish. A wish that the memories of those around him would never return, so he could continue spending these peaceful days with them. But such a wish would never come true, and so, he would press on, doing what he believed was right.
+The book, A Knight’s Tale, tells the story of a humble knight who was once lost but gained purpose through the adventures he shared with the people he had tagged along with. As the days went on, he made more and more memories with these quirky individuals, and each one, he cherished. Yet, as much as others called him humble and steadfast, he felt conflicted, for he had a selfish wish. He wished that the memories of those around him would never return, so he could continue spending these peaceful days with them. But such a wish would never come true, and so, he would press on, doing what he believed was right.
 
 As much as Gonathon claimed he had "accidentally found" the book, Cecilia knew full well it was his story. So, to make up for her mistake from earlier, she [called](https://www.youtube.com/live/iAYrdIlfVf0?feature=shared&t=9566) the knight for another match in the memory game. This time, her goal wasn’t to win—she wanted Gonathon to realize his worth.
 
@@ -20,8 +20,7 @@ She purposely lost to give him the win, and when he tried to reject it, insistin
 
 The gesture was simple but genuine. Though initially hesitant, Gonathon eventually thanked Cecilia for it.
 
-From there on, the two gained newfound respect for each other. Before this, whenever Cecilia rambled on about her crackhead theory regarding the King, Gonathon would roll his eyes and call her crazy. But now? They were investigating the theory together. No matter how absurd her yapping got, he listened with genuine interest. It was unexpected, indeed, for these two to team up, but strangely enough, it didn’t feel out of place.As if they had known each other before.
-
+From there on, the two gained a newfound respect for each other. Before this, whenever Cecilia rambled on about her crackhead theory regarding the King, Gonathon would roll his eyes and call her crazy. But now? They were investigating the theory together. No matter how absurd her yapping got, he listened with genuine interest. It was unexpected, indeed, for these two to team up, but strangely enough, it didn’t feel out of place. As if they had known each other before.
 
 [You're finally listening](#embed:https://www.youtube.com/live/iAYrdIlfVf0?feature=shared&t=10359)
 

@@ -6,4 +6,4 @@ Despite belonging to rival businesses, Cecilia and Nanamoo got along surprisingl
 
 Nanamoo’s random [remarks](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=6901) at the most unexpected times often made Cecilia question whether the girl was normal (she was leaning more toward not). But while she found the brown maiden undeniably odd, there was something about that weirdness that she couldn’t help but find… endearing.
 
-[Did you just evily giggle?](#embed:https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=7743)
+[Did you just evilly giggle?](#embed:https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=7743)

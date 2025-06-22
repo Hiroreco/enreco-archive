@@ -1,6 +1,6 @@
-Although Cleopetra/Darwin/Napoleon/Frieda—her name was always a mystery—hadn’t been seen in the kingdom for a while, she had been quietly working on something monumental. Before she "started her vlog" on day seven, both Elizabeth and Cecilia noticed her unwavering diligence. She was so focused that she tolerated no distractions (see [Elizabeth's Point of View](#node:liz)).
+Although Cleopatra/Darwin/Napoleon/Frieda—her name was always a mystery—had been absent in the kingdom for a while, she had been quietly working on something monumental. Before she "started her vlog" on day seven, both Elizabeth and Cecilia noticed her unwavering diligence. She was so focused that she tolerated no distractions (see [Elizabeth's Point of View](#node:liz)).
 
-When the time was right, she launched her vlog with great excitement. It was a pivotal day for the girl in brown, one where she would unveil something that would change her life—and the lives of the kingdom's dwellers—for the better\*. However, her big announcement was briefly delayed when she stumbled across Kiara, who sought a heartfelt conversation about their bond as Amber Coin members.
+When the time was right, she launched her vlog with great excitement. It was a pivotal day for the girl in brown, one where she would unveil something that would change her life—and the lives of the kingdom's dwellers—for the better. However, her big announcement was briefly delayed when she stumbled across Kiara, who sought a heartfelt conversation about their bond as Amber Coin members.
 
 Unfortunately, the two were caught snooping around FaunaMart by Cecilia. In typical fashion, the girl in brown threw her guildmate under the bus without hesitation.
 

@@ -1,6 +1,6 @@
 *Justice*. Elizabeth’s thoughts had been consumed by that single word ever since her journey began. It lingered in her mind like an unfulfilled promise, shaping her actions and ideals as a knight. But why did it resonate so deeply? Perhaps it was her duty to uphold justice, to shield the kingdom from evil. Or perhaps it was something more personal—a connection she had yet to fully understand. Regardless of the reason, Elizabeth resolved to honor her purpose by serving the king and protecting the people, even as the shadow of impending doom loomed large.
 
-[Justice(n): the quality of being just](#embed:https://www.youtube.com/embed/Gw0dZbPKTG4?si=2V7sePWgWbYocBpb&start=322)
+[Justice: the quality of being just](#embed:https://www.youtube.com/embed/Gw0dZbPKTG4?si=2V7sePWgWbYocBpb&start=322)
 
 The seventh day, the final day before disaster struck, began with unease. Elizabeth awoke feeling unrested, burdened by a restless night haunted by thoughts of Nerissa. Despite their quarrelsome interactions, Elizabeth felt an inexplicable connection to the raven-haired woman, whom she had previously accused of witchcraft. Nerissa's death weighed heavily on her, yet hope lingered—magic existed in the kingdom, and perhaps there was a way to bring her back.
 
