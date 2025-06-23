@@ -1,4 +1,4 @@
-Nanamoo began her final day overhearing whispers about plans to corrupt the world, destroy the lands, and terrorize the lives of its people. After careful consideration, she decided that… it probably wasn’t important and continued on [her way](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=216). She then shared a brief exchange with Ina, proudly asserting that she was the ["main chick"](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=385), not the side.
+Nanamoo began her final day overhearing whispers about plans to corrupt the world, destroy the lands, and terrorize the lives of its people. After careful consideration, she decided that… it probably wasn’t important and continued on [her way](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=216). She then shared a brief exchange with Ina, proudly asserting that she was the ["main chick,"](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=385) not the side.
 
 Getting sidetracked aside, Nanamoo had a critical mission that day. She had recently launched her business venture, NanaEleven, which had gained immense popularity thanks to her lottery tickets. The tickets seemed like an incredible deal, with winners walking away with hundreds of coins. What the buyers didn’t realize was that hidden on each ticket was a clause written in an ancient language. This clause legally obligated them to contribute a portion of their income to NanaEleven "for the greater good."
 
@@ -26,11 +26,11 @@ Nanamoo, upon returning to the white room, forgot everything that had transpired
 
 ...
 
-And as much as everyone would love to see her story continue, it seems that Nanamoo’s journey ends here—at least for now.  
+And as much as everyone would love to see her story continue, it seems that Nanamoo’s journey ends here—at least for now.
 
-Despite her circumstances, her health, she pushed herself beyond her limits—not just for herself, but to ensure that everyone she loved had the best time possible. She gave it her all, embracing every moment with her usual silliness and charm, leaving behind memories that will be cherished by many.  
+Despite her circumstances and her health, she pushed herself beyond her limits—not just for herself, but to ensure that everyone she loved had the best time possible. She gave it her all, embracing every moment with her usual silliness and charm, leaving behind memories that will be cherished by many.
 
-Her shenanigans, her laughter, her presence—they will truly be missed.  
+Her shenanigans, her laughter, and her presence—they will truly be missed.
 
 Thank you for everything, Mumei.
 
