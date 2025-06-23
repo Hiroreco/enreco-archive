@@ -127,7 +127,6 @@ const ViewMusicPlayerModal = ({
     const [, songs] = hasSelection ? categories[catIndex!] : ["", []];
 
     const playNext = useCallback(() => {
-        console.log("song is looping", loopCurrentSong);
         if (trackIndex === null || loopCurrentSong) {
             return;
         }
@@ -204,29 +203,30 @@ const ViewMusicPlayerModal = ({
             ?.scrollIntoView({ behavior: "smooth", block: "center" });
     }, [catIndex, trackIndex, hasSelection]);
 
-    // Load track and auto-next/loop within category
     useEffect(() => {
         if (trackIndex === null) return;
         const currentTrack = songs[trackIndex];
         changeBGM(currentTrack?.sourceUrl, 0, 0);
+
+        if (bgm) {
+            bgm.loop(loopCurrentSong);
+        }
+    }, [trackIndex, songs, changeBGM, bgm, loopCurrentSong]);
+
+    useEffect(() => {
+        if (!bgm) return;
+
         const endHandler = () => {
-            playNext();
+            if (!loopCurrentSong) {
+                playNext();
+            }
         };
-        bgm?.once("end", endHandler);
-        bgm?.loop(loopCurrentSong);
-    }, [
-        trackIndex,
-        loopWithinCategory,
-        bgm,
-        songs,
-        changeBGM,
-        setIsPlaying,
-        setTrackIndex,
-        catIndex,
-        setCatIndex,
-        playNext,
-        loopCurrentSong,
-    ]);
+
+        bgm.on("end", endHandler);
+        return () => {
+            bgm.off("end", endHandler);
+        };
+    }, [bgm, loopCurrentSong, playNext]);
 
     const currentTrack = useMemo(
         () => (trackIndex !== null ? songs[trackIndex] : null),
@@ -249,6 +249,7 @@ const ViewMusicPlayerModal = ({
                     {/* Cover & Controls */}
                     <div className="flex flex-col items-center gap-4 p-2 dark:bg-white/50 bg-black/30 rounded-lg">
                         <Image
+                            // TODO: temp no song logo, change later
                             src={
                                 currentTrack?.coverUrl ||
                                 "/images-opt/logo-1.webp"
