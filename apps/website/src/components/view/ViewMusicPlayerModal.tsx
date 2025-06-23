@@ -284,7 +284,7 @@ const ViewMusicPlayerModal = ({
                                     {currentTrack.info}
                                 </p>
                             )}
-                            <AudioVisualizer className="absolute bottom-0 left-0 w-full h-8 z-0 opacity-20" />
+                            <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
                         </div>
                         <div className="flex items-center justify-between w-full px-2">
                             <div className="flex items-center gap-2">
