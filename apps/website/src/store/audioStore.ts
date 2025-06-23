@@ -30,64 +30,64 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     currentBgmKey: null,
     sfx: {
         click: new Howl({
-            src: ["/audio/click.mp3"],
+            src: ["/audio/sfx/sfx-click.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
 
         unlock: new Howl({
-            src: ["/audio/unlock.mp3"],
+            src: ["/audio/sfx/sfx-unlock.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         book: new Howl({
-            src: ["/audio/book.mp3"],
+            src: ["/audio/sfx/sfx-book.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         break: new Howl({
-            src: ["/audio/break.mp3"],
+            src: ["/audio/sfx/sfx-break.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         explosion: new Howl({
-            src: ["/audio/explosion.mp3"],
+            src: ["/audio/sfx/sfx-explosion.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         xp: new Howl({
-            src: ["/audio/xp.mp3"],
+            src: ["/audio/sfx/sfx-xp.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "chicken-1": new Howl({
-            src: ["/audio/chicken-1.mp3"],
+            src: ["/audio/sfx/sfx-chicken-1.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "chicken-2": new Howl({
-            src: ["/audio/chicken-2.mp3"],
+            src: ["/audio/sfx/sfx-chicken-2.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "chicken-3": new Howl({
-            src: ["/audio/chicken-3.mp3"],
+            src: ["/audio/sfx/sfx-chicken-3.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "chicken-pop": new Howl({
-            src: ["/audio/chicken-pop.mp3"],
+            src: ["/audio/sfx/sfx-chicken-pop.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         moom: new Howl({
-            src: ["/audio/moom.mp3"],
+            src: ["/audio/easter/easter-moom.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "shiori-chicken": new Howl({
-            src: ["/audio/shiori-chicken.mp3"],
+            src: ["/audio/easter/easter-shiori.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "easter-gura": new Howl({
-            src: ["/audio/easter-gura.mp3"],
+            src: ["/audio/easter/easter-gura.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "easter-gigi": new Howl({
-            src: ["/audio/easter-gigi.mp3"],
+            src: ["/audio/easter/easter-gigi.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "easter-nerissa": new Howl({
-            src: ["/audio/easter-nerissa.mp3"],
+            src: ["/audio/easter/easter-nerissa.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
     },
@@ -120,7 +120,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         const { sfx, sfxVolume } = get();
         if (!sfx[name]) {
             const sound = new Howl({
-                src: [`/audio/${name}.mp3`],
+                src: [`/audio/sfx/${name}.mp3`],
                 volume: sfxVolume,
             });
             sound.play();
@@ -183,7 +183,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             volume: 0,
         });
         let newBgmVolume = useSettingStore.getState().bgmVolume;
-        if (newBgmSrc === "/audio/potato.mp3") {
+        if (newBgmSrc === "/audio/easter/easter-potato.mp3") {
             newBgmVolume = 0.5;
         }
         const newBgmKey = newBgmSrc.split("/").pop()?.split(".")[0] || null;

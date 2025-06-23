@@ -169,6 +169,14 @@ export const SONGS: { [category: string]: Song[] } = {
     ],
     ingame: [
         {
+            title: "Secret Library",
+            info: "Theme of the Library (Chapter 2)",
+            originalUrl: "https://audiostock.net/tracks/826727",
+            sourceUrl: "/audio/bgm/bgm-1.mp3",
+            coverUrl: "/images-opt/song-chapter-2.webp",
+            duration: "01:35",
+        },
+        {
             title: "Fantasy Orchestra 02",
             info: "Theme of Libestal Castle (Chapter 2)",
             originalUrl: "https://audiostock.net/tracks/61836",
@@ -462,7 +470,7 @@ export const SONGS: { [category: string]: Song[] } = {
                 "https://www.youtube.com/watch?v=5x9ix5CGmoo&ab_channel=CeciliaImmergreenCh.hololive-EN",
             sourceUrl: "/audio/songs/special/special-oh-princess.mp3",
             coverUrl: "/images-opt/song-chapter-2.webp",
-            duration: "04:16",
+            duration: "02:15",
         },
         {
             title: "potato salad",
@@ -471,7 +479,7 @@ export const SONGS: { [category: string]: Song[] } = {
                 "https://www.youtube.com/watch?v=Vf2j3YNF3e8&ab_channel=Mithra%7C%C2%B7%D0%94%C2%B7%29%E3%83%8E",
             sourceUrl: "/audio/songs/special/special-potato-salad.mp3",
             coverUrl: "/images-opt/song-chapter-1.webp",
-            duration: "03:43",
+            duration: "00:43",
         },
     ],
 };
