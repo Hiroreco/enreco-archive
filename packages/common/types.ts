@@ -177,3 +177,13 @@ export type CommonItemData = {
     imageSrc?: string;
     quote?: string;
 };
+
+export type Song = {
+    title: string;
+    info: string;
+    originalUrl: string;
+    sourceUrl: string;
+    coverUrl: string;
+    // The duration is in the format "mm:ss", only for representative purposes
+    duration: string;
+};

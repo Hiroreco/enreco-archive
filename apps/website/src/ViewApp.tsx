@@ -40,6 +40,7 @@ import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
 import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
 import Image from "next/image";
 import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
+import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -157,6 +158,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const viewStore = useViewStore();
     const settingsStore = useSettingStore();
     const audioStore = useAudioStore();
+    const { isOpen: isMusicModalOpen, setIsOpen: setIsMusicModalOpen } =
+        useMusicPlayerStore();
 
     const [chartShrink, setChartShrink] = useState(0);
     const [fitViewOperation, setFitViewOperation] =
@@ -166,9 +169,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const [previousCard, setPreviousCard] = useState<CardType | null>(null);
 
     const [firstVisit, setFirstVisit] = useState(false);
-
-    // Temp stuff
-    const [openMusicModal, setOpenMusicModal] = useState(false);
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
@@ -611,8 +611,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             />
 
             <ViewMusicPlayerModal
-                open={openMusicModal}
-                onOpenChange={setOpenMusicModal}
+                open={isMusicModalOpen}
+                onOpenChange={setIsMusicModalOpen}
             />
 
             <ViewReadCounter
@@ -697,7 +697,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     tooltipText="Music Player"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => setOpenMusicModal(!openMusicModal)}
+                    onClick={() => setIsMusicModalOpen(!isMusicModalOpen)}
                 >
                     <Disc3 />
                 </IconButton>

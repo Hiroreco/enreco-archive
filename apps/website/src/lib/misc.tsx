@@ -1,14 +1,5 @@
+import { Song } from "@enreco-archive/common/types";
 import { Book, Monitor, Palette, Pencil } from "lucide-react";
-
-export type Song = {
-    title: string;
-    info: string;
-    originalUrl: string;
-    sourceUrl: string;
-    coverUrl: string;
-    // The duration is in the format "mm:ss", only for representative purposes
-    duration: string;
-};
 
 const iconSize = 20;
 export const CONTRIBUTORS = [

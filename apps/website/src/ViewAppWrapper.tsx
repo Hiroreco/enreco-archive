@@ -2,22 +2,22 @@
 import chapter0 from "#/chapter0.json";
 import chapter1 from "#/chapter1.json";
 import siteMeta from "#/metadata.json";
-import { Chapter, SiteData } from "@enreco-archive/common/types";
-import { useState } from "react";
-import ViewApp from "./ViewApp";
-import ViewLoadingPage from "./components/view/ViewLoadingPage";
-import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { useSettingStore } from "./store/settingStore";
+import ViewGlossaryApp from "@/components/view/items-page/ViewGlossaryApp";
 import { useViewStore } from "@/store/viewStore";
 import {
     Tabs,
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
-import { Sword, Workflow } from "lucide-react";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
+import { Chapter, SiteData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
-import ViewGlossaryApp from "@/components/view/items-page/ViewGlossaryApp";
+import { Sword, Workflow } from "lucide-react";
+import { useState } from "react";
+import ViewApp from "./ViewApp";
+import ViewLoadingPage from "./components/view/ViewLoadingPage";
+import { useSettingStore } from "./store/settingStore";
 
 const data: SiteData = {
     version: siteMeta.version,
