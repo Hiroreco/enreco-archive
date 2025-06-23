@@ -365,7 +365,7 @@ export const SONGS: { [category: string]: Song[] } = {
                 "https://www.youtube.com/watch?v=Z4w2woCYxQ4&ab_channel=Release-Topic",
             sourceUrl: "/audio/songs/stream/stream-nostalgic-and-calm.mp3",
             coverUrl: "/images-opt/song-chapter-1.webp",
-            duration: "03:08",
+            duration: "03:22",
         },
 
         {
