@@ -24,4 +24,4 @@ Lorem ipsum
 **Name:** Nerissa Ravencroft/ Mustard/ Pickles/ Linkin' Park/ Juliet Bloodflame/ Nerissa
 **Job:** Chef
 
-Lorem ipsum
+Nerissa began her Chapter 2 journey, again, with a blank slate. No memory of her own past or of other; even her own name, she could not recall. Thus, she had the wisest idea to ask around and rely on her fellow heroes to name her. 
