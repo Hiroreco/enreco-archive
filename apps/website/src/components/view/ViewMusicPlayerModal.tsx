@@ -260,9 +260,9 @@ const ViewMusicPlayerModal = ({
                             className="rounded-lg md:size-[300px] size-[250px]"
                             draggable={false}
                         />
-                        <div className="flex flex-col items-center grow px-2 md:w-[300px] w-[250px] relative ">
-                            <div className="flex items-center gap-1 z-10">
-                                <p className=" truncate font-lg font-semibold">
+                        <div className="flex flex-col items-center px-2 md:w-[300px] w-[250px] relative">
+                            <div className="w-full flex mx-auto justify-center items-center gap-1 z-10">
+                                <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title || "Select a track"}
                                 </p>
                                 {currentTrack?.originalUrl && (
