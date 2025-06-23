@@ -261,7 +261,7 @@ const ViewMusicPlayerModal = ({
                             draggable={false}
                         />
                         <div className="flex flex-col items-center px-2 md:w-[300px] w-[250px] relative">
-                            <div className="w-full flex mx-auto justify-center items-center gap-1 z-10">
+                            <div className="w-full flex justify-center items-center gap-1 z-10">
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title || "Select a track"}
                                 </p>
