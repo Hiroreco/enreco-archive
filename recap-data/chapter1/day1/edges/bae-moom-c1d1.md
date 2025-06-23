@@ -8,6 +8,6 @@ But that dynamic didn’t last long. In a chaotic fantasy kingdom filled with eq
 
 Their teamwork extended to investigating the arrival of the Hot Pink One. After some awkward introductions and a hilariously confusing debate over whether the Hot Pink One’s weapon was a halo or a set of shurikens, Bae and Three came to a unanimous conclusion: she was too much trouble.
 
-[Meeting the Hot Pink One](#embed:https://www.youtube.com/live/vuij6YTMIzw?feature=shared\&t=6025)
+[Meeting the Hot Pink One](#embed:https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=6025)
 
-Deciding against recruiting her, they [left her](https://www.youtube.com/live/vuij6YTMIzw?feature=shared\&t=6319) to her eccentricities. Perhaps bringing the town loony into their guild would have done more harm than good.
+Deciding against recruiting her, they [left her](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=6319) to her eccentricities. Perhaps bringing the town loony into their guild would have done more harm than good.

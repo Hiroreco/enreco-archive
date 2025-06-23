@@ -4,7 +4,7 @@ Without much of a personal goal to pursue, Cecilia spent the day wandering aroun
 
 But with so much free time on her hands, Cecilia’s mind began brewing something interesting. Something ambitious. Something that, if anyone were to hear it, would immediately put her status as both a hero and a knight into question. She would take over the kingdom. Simple as that.
 
-[Crazy green lady's crazy idea](#embed:https://www.youtube.com/live/yK3QZkOZ6bE?feature=shared\&t=4153)
+[Crazy green lady's crazy idea](#embed:https://www.youtube.com/live/yK3QZkOZ6bE?feature=shared&t=4153)
 
 The plan? Bijou would be the key. As a princess, she held the perfect status for Cecilia’s scheme. She would gain Bijou’s trust, slowly but surely, winning her over with charm and unwavering loyalty. And once the gem maiden was completely dependent on her? Cecilia would place her on the throne and pull the strings from the shadows, controlling her like a puppet. A royal usurpation, hidden behind a façade of loyalty.
 

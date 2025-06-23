@@ -4,15 +4,15 @@ She had been yearning for one ever since she stepped foot in this kingdom. Every
 
 [Bijou resenting Nerissa for her hat](#embed:https://www.youtube.com/live/Tl7rUzJyc_0?t=141)
 
-At the start of her day, Bijou decided to check out FaunaMart. She was surprised to learn that, despite hearing rumors about the business being a scam, someone had actually won the lottery—and it was Mococo, no less. Hearing about the massive prize pool, Bijou wasted no time buying some tickets of [her own](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=616).
+At the start of her day, Bijou decided to check out FaunaMart. She was surprised to learn that, despite hearing rumors about the business being a scam, someone had actually won the lottery—and it was Mococo, no less. Hearing about the massive prize pool, Bijou wasted no time buying some tickets of [her own](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=616).
 
 Knowing that Bijou needed *Stain Bones* for her quest, Fauna advertised that she was selling them—though at very high prices. Bijou declined, confident she could get them herself.
 
-However, while struggling to slay the Stains for the bones, Bijou received an [ad call](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=2340) from Fauna, reminding her that she could purchase the bones at her store instead. She continued struggling and received yet another [ad call](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=2565). Eventually, having great difficulty acquiring the bones on her own, she yielded and returned to FaunaMart to [buy them](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=3325).
+However, while struggling to slay the Stains for the bones, Bijou received an [ad call](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=2340) from Fauna, reminding her that she could purchase the bones at her store instead. She continued struggling and received yet another [ad call](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=2565). Eventually, having great difficulty acquiring the bones on her own, she yielded and returned to FaunaMart to [buy them](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=3325).
 
 Continuing her day, Bijou noticed that her wife, Shiori, was awake and went to greet her. However, during their conversation, she couldn’t help but notice Shiori referring to her as *"my other wife,"* hinting at a relationship with another woman (see [Bijou-Shiori: Soap Opera](#edge:shiori-bijou)).
 
-After this, they turned their attention to one of the primary tasks for the day: tackling the *Eldritch Horror Dungeon*. Joining Bijou were Shiori, Tam, and Gonathon. Together, they conquered the dungeon and recovered [memories](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=12019) of *Ninomae Ina'nis*.
+After this, they turned their attention to one of the primary tasks for the day: tackling the *Eldritch Horror Dungeon*. Joining Bijou were Shiori, Tam, and Gonathon. Together, they conquered the dungeon and recovered [memories](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=12019) of *Ninomae Ina'nis*.
 
 With all the "unimportant stuff" out of the way, it was finally time for Bijou to focus on her ultimate goal: getting her much-coveted hat.
 

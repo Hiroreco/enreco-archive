@@ -1,4 +1,4 @@
-The lady in pink's introduction to the fantasy world was, well, a little different from the others. She awoke in the mysterious white box by herself, spoke with the king by herself, and even faced the Stain King... [by herself.](https://www.youtube.com/live/Rk7nZ91vme4?si=SR-vjc02WKIL4nUb\&t=1084)
+The lady in pink's introduction to the fantasy world was, well, a little different from the others. She awoke in the mysterious white box by herself, spoke with the king by herself, and even faced the Stain King... [by herself.](https://www.youtube.com/live/Rk7nZ91vme4?si=SR-vjc02WKIL4nUb&t=1084)
 
 An odd and grueling start it was, but the isolation didn’t last long. Once she entered the Kingdom of Libestal, her presence made an immediate impact, transforming her lonely beginning into something much more dynamic.
 
@@ -8,9 +8,9 @@ Little did Shakira know, the pink one was no simpleton. She was someone loyal to
 
 [Everyone wants the pink woman](#embed:https://www.youtube.com/live/Rk7nZ91vme4?t=2087)
 
-This betrayal was short-lived, however. When the rest of Cerulean Cup arrived to retrieve their wayward guildmate, she eventually returned to her proper guild, albeit reluctantly. After showcasing her unique Revelation, *Light and Darkness*, which some dubbed similar to a [fart](https://www.youtube.com/live/Rk7nZ91vme4?si=uFnTUFLfBm36VZS-\&t=2668), she threw herself into the day’s activities. Completing quests, enduring [hushed gums](https://www.youtube.com/live/Rk7nZ91vme4?si=5AhwIkLOBX3MgfA2\&t=4480), and earning her fair share of [eyebrow-raising](https://www.youtube.com/live/Rk7nZ91vme4?si=5jr_c9OW9ds8maMQ\&t=5777) remarks.
+This betrayal was short-lived, however. When the rest of Cerulean Cup arrived to retrieve their wayward guildmate, she eventually returned to her proper guild, albeit reluctantly. After showcasing her unique Revelation, *Light and Darkness*, which some dubbed similar to a [fart](https://www.youtube.com/live/Rk7nZ91vme4?si=uFnTUFLfBm36VZS-&t=2668), she threw herself into the day’s activities. Completing quests, enduring [hushed gums](https://www.youtube.com/live/Rk7nZ91vme4?si=5AhwIkLOBX3MgfA2&t=4480), and earning her fair share of [eyebrow-raising](https://www.youtube.com/live/Rk7nZ91vme4?si=5jr_c9OW9ds8maMQ&t=5777) remarks.
 
-Her journey culminated in the group’s venture into the *Underworld Dungeon*, where she recovered the memories of [Mori Calliope](https://www.youtube.com/live/Rk7nZ91vme4?feature=shared\&t=8690), and also where she was first nicknamed [Hot Pink One](https://www.youtube.com/live/Rk7nZ91vme4?si=PZSB2R7NaSzFRo_b\&t=7601).
+Her journey culminated in the group’s venture into the *Underworld Dungeon*, where she recovered the memories of [Mori Calliope](https://www.youtube.com/live/Rk7nZ91vme4?feature=shared&t=8690), and also where she was first nicknamed [Hot Pink One](https://www.youtube.com/live/Rk7nZ91vme4?si=PZSB2R7NaSzFRo_b&t=7601).
 
 It was a whirlwind of a day for the maiden, filled with ups, downs, and plenty of chaos. But through it all, she had fun, marking the vibrant beginning of the Hot Pink One’s journey.
 

@@ -4,6 +4,6 @@ Tam had never messed with Raora—ever. In fact, if she had it her way, she woul
 
 So when Raora caught wind that Tam was building a base of her own, she wasted no time in doing what she did best—getting all up in the blue lady’s business and annoying the absolute heck out of her.
 
-[Pink cat pestering blue woman](#embed:https://www.youtube.com/live/6VtHPTU1FB8?feature=shared\&t=15032)
+[Pink cat pestering blue woman](#embed:https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=15032)
 
 ["The first and second queen quarrel" by Abendago](https://x.com/Abendag0/status/1831257105069949232)
