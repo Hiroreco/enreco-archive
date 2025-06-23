@@ -20,7 +20,7 @@ She continues her exploration of the castle, stopping anyone who is potentially 
 
 [Saving you and the world](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
 
-She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Novella at their restaurant for respite.
+She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Nyavellas at their restaurant for respite.
 
 After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day.
 

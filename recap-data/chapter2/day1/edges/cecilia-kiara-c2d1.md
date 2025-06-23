@@ -14,4 +14,4 @@ Upon the conclusion of their work, Shakira sought out Immerkind. Karia sternly d
 
 They kissed, the platonic kind.
 
-Another German thing... maybe.
+Another German thing, maybe.

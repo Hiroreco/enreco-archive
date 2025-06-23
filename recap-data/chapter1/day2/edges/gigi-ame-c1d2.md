@@ -10,17 +10,17 @@ Their union didn’t happen immediately, however. Bijou, in her usual mischief, 
 
 Having a wife for the first time in his life awakened a deeply protective instinct in Gonathon. Throughout the day, he found himself frequently stressed over his beloved’s well-being, particularly whenever someone dared to hit on her. And more often than not, the culprit was the Hot Pink One.
 
-Whether it was overhearing the Hot Pink One [hitting on](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=3460) his wife, whispering sweet nothings into her ear, or engaging in outright questionable behavior at the casino, Gonathon was always quick to intervene. His dedication even led him to abandon his own tasks, confront situations he normally would have avoided—like entering the Amber Coin Guild's domain—and defy his personal code, all in the name of protecting his Pearl.
+Whether it was overhearing the Hot Pink One [hitting on](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=3460) his wife, whispering sweet nothings into her ear, or engaging in outright questionable behavior at the casino, Gonathon was always quick to intervene. His dedication even led him to abandon his own tasks, confront situations he normally would have avoided—like entering the Amber Coin Guild's domain—and defy his personal code, all in the name of protecting his Pearl.
 
 [HANDS OFF MY WIFE!!!](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=3980)
 
-His loyalty extended beyond mere physical [protection](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=6395). Gonathon even went as far as rejecting the Queen’s orders when they conflicted with Jyonathan’s desires. During preparations for the Ocean Temple Dungeon, when he was told he would have to separate from his wife, Gonathon objected [furiously](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=10437). Tears streaming down his face, he begged to stay by her side. Despite the others’ insistence, he whispered a heartfelt plea for her to stay safe before they parted.
+His loyalty extended beyond mere physical [protection](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=6395). Gonathon even went as far as rejecting the Queen’s orders when they conflicted with Jyonathan’s desires. During preparations for the Ocean Temple Dungeon, when he was told he would have to separate from his wife, Gonathon objected [furiously](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=10437). Tears streaming down his face, he begged to stay by her side. Despite the others’ insistence, he whispered a heartfelt plea for her to stay safe before they parted.
 
 Gonathon's love for Jyonathan was undeniable. She had become his second guiding light, a purpose as important as his Queen. He respected her wishes, catered to her requests, and vowed to remain loyal to their bond until the very end.
 
 As for Jyonathan, the depth of her feelings for Gonathon was up for debate. Though she accepted his devotion, her occasional teasing remarks—like suggesting he might be an overbearing husband—hinted that perhaps her affection wasn’t as intense as his (see [Hot Pink One-Jyonathan: Plan B](#edge:ame-irys)). Or maybe she simply enjoyed watching her knight squirm.
 
-[He lets me speak sometimes](#embed:https://www.youtube.com/live/kB2jUKUsxtE?feature=shared\&t=9740)
+[He lets me speak sometimes](#embed:https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=9740)
 
 ["is this what they call...enemies to lovers?..." by Mooon](https://x.com/Moon_LDL/status/1830455614625001879)
 

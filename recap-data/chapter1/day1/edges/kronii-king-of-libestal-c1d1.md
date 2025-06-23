@@ -4,8 +4,8 @@ When Tam was summoned to this world, she didn’t share the confusion or fear th
 
 [The answer is "I do"](#embed:https://www.youtube.com/live/zgioohaY0m4?t=2555)
 
-Brimming with confidence, Tam wasted no time sharing her "royal engagement" with everyone. She told [Peasant the Bae](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=1331), [Gura](https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=2497), and essentially all her guildmates. To her delight—or perhaps bewilderment—everyone believed her, or at least went along with it, not knowing any better.
+Brimming with confidence, Tam wasted no time sharing her "royal engagement" with everyone. She told [Peasant the Bae](https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=1331), [Gura](https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=2497), and essentially all her guildmates. To her delight—or perhaps bewilderment—everyone believed her, or at least went along with it, not knowing any better.
 
-[Bow before your Highness](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=5589)
+[Bow before your Highness](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=5589)
 
 Before long, word spread throughout the entire kingdom: Tam was destined to marry the diminutive rabbit-man King, who stood at half her height. Whether or not anyone questioned the absurdity of it, one thing was certain—the kingdom would never be the same with Tam’s unique way of shaping her own destiny.

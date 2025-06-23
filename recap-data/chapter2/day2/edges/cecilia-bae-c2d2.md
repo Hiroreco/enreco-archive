@@ -1,6 +1,6 @@
 <!-- title: The Knight and the Hobo -->
 
-Cecilia confronts Peasant da Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). The tension between them has softened, as Bae realizes her words were misunderstood. She clarifies the misunderstanding and joins Cecilia, Roa, Bijou, and IRyS for a friendly drink by the creek.
+Cecilia confronts Peasant the Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). The tension between them has softened, as Bae realizes her words were misunderstood. She clarifies the misunderstanding and joins Cecilia, Roa, Bijou, and IRyS for a friendly drink by the creek.
 
 Bae takes Cecilia aside in order to repay the debt and apologize. Bae was on the cusp, and the 80 gold filled her heart with such raw emotions.
 

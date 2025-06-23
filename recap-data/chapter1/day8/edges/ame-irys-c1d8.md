@@ -8,11 +8,11 @@ Yeah, she totally should do that.
 
 Or at least, she was trying to—until she met Amelia.
 
-It started out harmless, but then the blonde pointed out something peculiar: the Pink One’s hat reminded her of someone. And that was when it snapped—the pink lady's old tendencies resurfaced.
+It started harmlessly, but then the blonde pointed out something peculiar: the Pink One’s hat reminded her of someone. And that was when it snapped—the pink lady's old tendencies resurfaced.
 
-[I was your *"backup plan"*](#embed:https://www.youtube.com/live/pH9lSCrTVMY?feature=shared\&t=1792)
+[I was your *"backup plan"*](#embed:https://www.youtube.com/live/pH9lSCrTVMY?feature=shared&t=1792)
 
-Seizing the perfect opportunity, the Pink One took advantage of Amelia’s fragmented memories, spinning a web of deception. She tricked the blonde into believing that she was her beloved—not Gonathon. To the Hot Pink One’s delight—and to Ina’s absolute horror—Amelia believed her.
+Seizing the perfect opportunity, the Pink One took advantage of Amelia’s fragmented memories, spinning a web of deception. She tricked the blonde into believing that she was her beloved—not Gonathon. To the Hot Pink One’s delight—and Ina’s absolute horror—Amelia believed her.
 
 Things escalated when Gonathon arrived. With no hesitation, the Pink One boldly declared to his face that Amelia was her Pearl, and the knight in orange was furious.
 
@@ -20,7 +20,7 @@ It was truly an act of villainy—something no one would expect from a supposed 
 
 And then—everything came crashing down.
 
-Shiori happened to stumble upon the scene, and with a mischievous smirk, she [exposed](https://www.youtube.com/live/pH9lSCrTVMY?feature=shared\&t=2059) the Pink One, revealing that she had been entangled in multiple affairs at the same time. That was the beginning of the end.
+Shiori happened to stumble upon the scene, and with a mischievous smirk, she [exposed](https://www.youtube.com/live/pH9lSCrTVMY?feature=shared&t=2059) the Pink One, revealing that she had been entangled in multiple affairs at the same time. That was the beginning of the end.
 
 Amelia’s trust in the pink woman wavered. She studied her diamond, frowning as she murmured that it felt foggy and impure. Doubt took root, and realization struck—she had been tricked. The moment she understood the truth, she broke free from the Pink One’s grasp.
 

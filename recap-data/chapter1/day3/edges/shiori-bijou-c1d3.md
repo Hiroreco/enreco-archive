@@ -1,6 +1,6 @@
 <!-- title: Soap Opera -->
 
-["Hello, my other wife"](https://www.youtube.com/live/BnpLALzUzD4?feature=shared\&t=237)
+["Hello, my other wife"](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=237)
 
 Those were Shiori’s unexpected words in response to Bijou’s bright and cheerful morning greeting. The smile on the gem maiden’s face faded instantly, replaced by confusion and a pang of hurt. Bijou immediately pressed Shiori for answers—who was this "other wife"?
 
@@ -14,7 +14,7 @@ While wandering through the kingdom later that day, Bijou accidentally overheard
 
 Shiori had casually mentioned that she wasn’t sure if she and Bijou were truly married. The words stung—Bijou had thought their bond was unshakable, an unbreakable vow of love. But Shiori, being Shiori, had simply been speaking without a second thought, not realizing the weight of her words.
 
-Heartbroken and conflicted, Bijou later confronted Shiori to clear up the [misunderstanding](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=6015). A small crowd of bystanders and guildmates gathered, witnessing the tense but sincere discussion. Somehow, things worked themselves out—though exactly how, no one could really say.
+Heartbroken and conflicted, Bijou later confronted Shiori to clear up the [misunderstanding](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=6015). A small crowd of bystanders and guildmates gathered, witnessing the tense but sincere discussion. Somehow, things worked themselves out—though exactly how, no one could really say.
 
 The situation grew even more chaotic when Gonathon arrived, acting as Nerissa’s unexpected messenger.
 

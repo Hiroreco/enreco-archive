@@ -8,7 +8,7 @@ Given how rough her situation was, she decided to potentially team up with anoth
 
 Back on track—today was a big day for the pink lady. A dungeon had opened, and this one _called_ to her. Not because of its funny name, [Star Site: Elpis](https://www.youtube.com/live/axlJjQQ_rzU?si=kiT67P23j1CsC3Zx&t=3512), but because of the secrets it promised to unveil.
 
-She joined forces with Shiori, Ina, and Da Bae. The dungeon, floating far above the world, was themed around Angels and Devils. It challenged them with puzzles that required cooperation at opposite ends. Many... _descents_ happened, testing the patience of our heroes—mostly due to the pink one’s inability to tell left from right. After navigating three puzzles, they faced the two-headed dragon: Stain King Elpis. But with the combined strength of the four, they emerged victorious.
+She joined forces with Shiori, Ina, and Bae. The dungeon, floating far above the world, was themed around Angels and Devils. It challenged them with puzzles that required cooperation at opposite ends. Many... _descents_ happened, testing the patience of our heroes—mostly due to the pink one’s inability to tell left from right. After navigating three puzzles, they faced the two-headed dragon: Stain King Elpis. But with the combined strength of the four, they emerged victorious.
 
 And then, the pink one finally remembered who she was.
 

@@ -12,7 +12,7 @@ Then came an unexpected twist. Raora, also known as Queen Mario, had a sudden re
 
 ![Mario's proposal to Tam](images-opt/marry.webp)
 
-Finally, Bijou’s plan to take over the kingdom fully throttled forward—or as she preferred to call it, "spreading the corruption". She spent the entire day becoming an absolute menace to those around her, slowly but surely corrupting others into joining her cause. Among her first recruits? Mococo, who fell to the Stain and embraced the mission alongside her.
+Finally, Bijou’s plan to take over the kingdom kicked into full gear—or as she preferred to call it, "spreading the corruption." She spent the entire day becoming an absolute menace to those around her, slowly but surely corrupting others into joining her cause. Among her first recruits? Mococo, who fell to the Stain and embraced the mission alongside her.
 
 With businesses rising, secrets unfolding, rivalries shifting into romance, and corruption spreading, the kingdom stood on the brink of something far greater. The storm was coming.
 

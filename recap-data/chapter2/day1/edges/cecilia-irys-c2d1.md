@@ -1,6 +1,6 @@
 <!-- title: Huh Puh -->
 
-At first, the Hot Pink One had no clue what “HPO” even meant. Acronyms? Out of her league—she was proudly, aggressively illiterate, after all. All she could gather was that it probably had something to do with her name, somehow. But try as she might, she couldn’t crack the code.
+At first, the Hot Pink One had no clue what “HPO” even meant. Acronyms? Out of her league—she was proudly, aggressively illiterate after all. All she could gather was that it probably had something to do with her name, somehow. But try as she might, she couldn’t crack the code.
 
 That was until she met *her*—a graceful, brilliant, and suspiciously composed green lady who seemed to know everything about everyone. Cecilia Immerkind, they called her. And Cecilia, in her infinite wisdom and alarming calmness, bestowed upon the pink one the answer she sought.
 
