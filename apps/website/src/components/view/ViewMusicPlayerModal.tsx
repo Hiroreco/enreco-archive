@@ -80,9 +80,7 @@ const TrackItem = ({
             <span className="px-2 text-sm font-semibold grow opacity-90">
                 {song.title}
             </span>
-            {song.info && (
-                <span className="text-xs opacity-50">{song.info}</span>
-            )}
+
             <span className="text-xs opacity-50 ml-2">{song.duration}</span>
         </div>
     </div>
@@ -317,6 +315,7 @@ const ViewMusicPlayerModal = ({
                             </button>
                         </div>
                     </div>
+
                     <Separator className="md:hidden w-full opacity-50" />
                     {/* Song List by Category */}
                     <div
