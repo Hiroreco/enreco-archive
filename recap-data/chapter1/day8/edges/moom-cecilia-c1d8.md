@@ -2,7 +2,7 @@
 
 This strange owl friend Cecilia had made was… well, strange. But not in a bad way. She had a habit of giggling evilly for no reason, opened up a shop only to give everything away for free, liked pretending she was part of the Scarlet Wand guild (even though she wasn’t), and rambled about how she didn’t have amnesia—claiming instead that she remembered her past life where she was "cool, had tons of friends, and drove a Ferrari." She was an oddball, to say the least. Yet, despite all of that, Cecilia had grown attached to her—like an odd little sister she found herself wanting to protect.
 
-Throughout the last day, Cecilia was always keeping an eye out for [Nanamoo](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=2207). Whether it was checking in on whatever trouble she was getting into, making sure she was up to date on current events, or simply seeing what she was doing—it was a constant. Just the day before, she had frequently asked about how Nanamoo’s business was doing. Unlike many of Cecilia’s other relationships, which she maintained partly for her own ulterior motives, this bond was different. This was one she had nurtured, one she had come to genuinely appreciate.
+Throughout the last day, Cecilia was always keeping an eye out for [Nanamoo](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=2207). Whether it was checking in on whatever trouble she was getting into, making sure she was up to date on current events, or simply seeing what she was doing—it was a constant. Just the day before, she had frequently asked about how Nanamoo’s business was doing. Unlike many of Cecilia’s other relationships, which she maintained partly for her ulterior motives, this bond was different. This was one she had nurtured, one she had come to genuinely appreciate.
 
 And it was nice. For both of them. A green knight and her silly bird friend.
 
@@ -22,7 +22,7 @@ Instead of an excited answer or a teasing remark, she was met with confused word
 
 At first, Cecilia was taken aback. But then, realization dawned on her.
 
-Nanamoo had forgotten about everthing.
+Nanamoo had forgotten about everything.
 
 The adventures they had shared. The bonds they had built. The time they had spent together.
 
@@ -31,6 +31,8 @@ The moment was brief, and Cecilia didn’t want to spoil the atmosphere for ever
 At the very least, this wouldn’t be the last time they interacted. Maybe, in time, Nanamoo would recover her memories. Maybe they could rebuild what was lost.
 
 But still—right now, in this moment—it hurt.
+
+## Fanart
 
 ["She forgot..." by Medu](https://x.com/Medu_Yusa/status/1832886978574234063)
 

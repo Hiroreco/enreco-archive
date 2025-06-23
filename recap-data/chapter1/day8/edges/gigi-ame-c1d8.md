@@ -24,7 +24,7 @@ And as if the universe had answered his plea, the Hot Pink One was punished for 
 
 Then, the wheels began to turn.
 
-Hints and signs flooded Amelia’s path, coming from everyone she met (see [Amelia’s POV](#node:ame), all leading her to a single revelation—the diamond she had been searching for all this time had been right in front of her. The knight in orange. And with one final push from Nerissa, urging her to meet Gonathon at the onsen, the long-awaited reunion finally arrived.
+Hints and signs flooded Amelia’s path, coming from everyone she met (see [Amelia’s POV](#node:ame)), all leading her to a single revelation—the diamond she had been searching for all this time had been right in front of her. The knight in orange. And with one final push from Nerissa, urging her to meet Gonathon at the onsen, the long-awaited reunion finally arrived.
 
 Gonathon laid his heart bare.
 

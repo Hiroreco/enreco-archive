@@ -8,11 +8,11 @@ Yeah, she totally should do that.
 
 Or at least, she was trying to—until she met Amelia.
 
-It started out harmless, but then the blonde pointed out something peculiar: the Pink One’s hat reminded her of someone. And that was when it snapped—the pink lady's old tendencies resurfaced.
+It started harmlessly, but then the blonde pointed out something peculiar: the Pink One’s hat reminded her of someone. And that was when it snapped—the pink lady's old tendencies resurfaced.
 
 [I was your *"backup plan"*](#embed:https://www.youtube.com/live/pH9lSCrTVMY?feature=shared&t=1792)
 
-Seizing the perfect opportunity, the Pink One took advantage of Amelia’s fragmented memories, spinning a web of deception. She tricked the blonde into believing that she was her beloved—not Gonathon. To the Hot Pink One’s delight—and to Ina’s absolute horror—Amelia believed her.
+Seizing the perfect opportunity, the Pink One took advantage of Amelia’s fragmented memories, spinning a web of deception. She tricked the blonde into believing that she was her beloved—not Gonathon. To the Hot Pink One’s delight—and Ina’s absolute horror—Amelia believed her.
 
 Things escalated when Gonathon arrived. With no hesitation, the Pink One boldly declared to his face that Amelia was her Pearl, and the knight in orange was furious.
 
