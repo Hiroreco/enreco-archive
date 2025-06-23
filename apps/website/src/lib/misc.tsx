@@ -359,6 +359,16 @@ export const SONGS: { [category: string]: Song[] } = {
             duration: "03:08",
         },
         {
+            title: "Nostalgic and Calm",
+            info: "Used by Cecilia (Chapter 1)",
+            originalUrl:
+                "https://www.youtube.com/watch?v=Z4w2woCYxQ4&ab_channel=Release-Topic",
+            sourceUrl: "/audio/songs/stream/stream-nostalgic-and-calm.mp3",
+            coverUrl: "/images-opt/song-chapter-1.webp",
+            duration: "03:08",
+        },
+
+        {
             title: "灯火",
             info: "Used by Ina (Chapter 1)",
             originalUrl:

@@ -20,6 +20,7 @@ import { Song } from "@enreco-archive/common/types";
 import {
     ChevronFirst,
     ChevronLast,
+    ExternalLink,
     Pause,
     Play,
     Repeat,
@@ -93,6 +94,7 @@ const categoriesLabels: Record<string, string> = {
     stream: "Talent-used Music",
     talent: "Hero Themes",
     instrumental: "Instrumental",
+    special: "Special",
 };
 
 interface ViewMusicPlayerModalProps {
@@ -258,12 +260,27 @@ const ViewMusicPlayerModal = ({
                             className="rounded-lg md:size-[300px] size-[250px]"
                             draggable={false}
                         />
-                        <div className="text-center grow px-2 md:w-[300px] w-[250px] relative">
-                            <p className="truncate font-lg font-semibold">
-                                {currentTrack?.title || "Select a track"}
-                            </p>
+                        <div className="flex flex-col items-center grow px-2 md:w-[300px] w-[250px] relative ">
+                            <div className="flex items-center gap-1 z-10">
+                                <p className=" truncate font-lg font-semibold">
+                                    {currentTrack?.title || "Select a track"}
+                                </p>
+                                {currentTrack?.originalUrl && (
+                                    <a
+                                        href={currentTrack.originalUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="opacity-70"
+                                    >
+                                        <ExternalLink
+                                            size={16}
+                                            stroke="white"
+                                        />
+                                    </a>
+                                )}
+                            </div>
                             {currentTrack?.info && (
-                                <p className="text-sm opacity-70">
+                                <p className="text-sm opacity-70 z-10">
                                     {currentTrack.info}
                                 </p>
                             )}
