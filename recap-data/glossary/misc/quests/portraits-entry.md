@@ -1,7 +1,7 @@
 <!-- title: Portraits -->
 <!-- quote: Looking at this makes me feel nostalgic... -->
 <!-- chapters: 1 -->
-<!-- images: (Portrait of Mordon Ramsay), (Portrait of Tanakisha Karia), (Portrait of NinoIna), (Portrait of Tam Gandr), (Portrait of the Hot Pink One), (Portrait of Peasant Da Bae), (Portrait of Shiori Nyavella), (Portrait of Nerissa Ravencroft), (Portrait of Fuwawa Abyssguard), (Portrait of Koseki Bijou), (Portrait of Elizabeth Rose Bloodflame), (Portrait of Gonathon G), (Portrait of Cecilia Immerkind), (Portrait of Roa Pandora), (Portrait of Mococo Abyssguard) -->
+<!-- images: (Portrait of Mordan Ramsay), (Portrait of Tanakisha Karia), (Portrait of NinoIna), (Portrait of Tam Gandr), (Portrait of the Hot Pink One), (Portrait of Peasant Da Bae), (Portrait of Shiori Nyavella), (Portrait of Nerissa Ravencroft), (Portrait of Fuwawa Abyssguard), (Portrait of Roa Pandora), (Portrait of Koseki Bijou), (Portrait of Elizabeth Rose Bloodflame), (Portrait of Gonathon G), (Portrait of Cecilia Immerkind),  (Portrait of Mococo Abyssguard) -->
 <!-- model: false -->
 
 ## Overview

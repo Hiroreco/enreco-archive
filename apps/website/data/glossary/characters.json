@@ -542,7 +542,7 @@
       "imageSrc": "/images-opt/shiori-entry.webp"
     }
   ],
-  "npcs": [
+  "NPCs": [
     {
       "id": "iphania-entry",
       "title": "Iphania / Fia",

@@ -35,7 +35,7 @@ _“But the question is: Did I really have amnesia?”_
 **Name:** Shiori Nyavella
 **Job:** Chef
 
-Chapter 2 began much like the first: Shiori was still odd, still drifting, still spouting peculiar lines. But this time, she chose to be more present—more deliberate in her interactions. She made stronger bonds, opened up, got involved. For some, it was refreshing. For others, like poor Mordon Ramsay, it was a nightmare, as Shiori [terrorized](https://www.youtube.com/live/zCWoxMbOZPk?si=Y_mj_z_Qpgx2OJKj&t=11795) the poor tavern owner endlessly in every way possible.
+Chapter 2 began much like the first: Shiori was still odd, still drifting, still spouting peculiar lines. But this time, she chose to be more present—more deliberate in her interactions. She made stronger bonds, opened up, got involved. For some, it was refreshing. For others, like poor Mordan Ramsey, it was a nightmare, as Shiori [terrorized](https://www.youtube.com/live/zCWoxMbOZPk?si=Y_mj_z_Qpgx2OJKj&t=11795) the poor tavern owner endlessly in every way possible.
 
 But this new openness led to one of the chapter’s most significant romances: her relationship with Gonathon. Fate had seemingly offered Shiori another shot at the orange knight—now with no memories of his past beloved, who was no longer around.
 
