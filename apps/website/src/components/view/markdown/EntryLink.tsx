@@ -21,13 +21,13 @@ export default function EntryLink({ itemId, children }: ItemLinkProps) {
             if (isMobile) {
                 // On mobile, the entire viewer container is scrollable
                 const viewerContainer = document.querySelector(
-                    ".flex.flex-col.items-center.md\\:items-start.overflow-y-auto",
+                    "#glossary-viewer-container",
                 ) as HTMLElement;
                 scrollPosition = viewerContainer?.scrollTop || 0;
             } else {
                 // On desktop, only the content area is scrollable
                 const contentContainer = document.querySelector(
-                    ".md\\:overflow-y-auto.md-content-container",
+                    "#glossary-viewer-content-container",
                 ) as HTMLElement;
                 scrollPosition = contentContainer?.scrollTop || 0;
             }

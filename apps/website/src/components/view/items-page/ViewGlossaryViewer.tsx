@@ -33,6 +33,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     return (
         <div
             ref={containerRef}
+            id="glossary-viewer-container"
             className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2"
         >
             <div className="flex flex-col items-center justify-between h-full">
@@ -104,6 +105,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
             <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)]">
                 <div
                     ref={contentRef}
+                    id="glossary-viewer-content-container"
                     className="w-full grow md:overflow-y-auto md-content-container"
                 >
                     <ViewMarkdown
