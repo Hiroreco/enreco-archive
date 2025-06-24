@@ -48,6 +48,17 @@ const categoryMap: Record<Category, { label: string; icon: ReactElement }> = {
     "cat-misc": { label: "Miscellaneous", icon: <Dices /> },
 };
 
+const subCatergoryMap: Record<string, string> = {
+    revelations: "Revelations",
+    npcs: "NPCs",
+    general: "General",
+    locations: "Locations",
+    "main-quests": "Main Quests",
+    "special-quests": "Special Quests",
+    mechanics: "Mechanics",
+    quests: "Quests",
+};
+
 const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     const [selectedCategory, setSelectedCategory] =
         useState<Category>("cat-weapons");
@@ -175,10 +186,8 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                                         return (
                                             <div key={subcat}>
                                                 <h3 className="text-lg font-semibold mb-2 capitalize">
-                                                    {subcat.replace(
-                                                        /[-_]/g,
-                                                        " ",
-                                                    )}
+                                                    {subCatergoryMap[subcat] ||
+                                                        subcat}
                                                 </h3>
                                                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                                                     {items.map((item) => (

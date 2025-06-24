@@ -26,6 +26,43 @@
       "imageSrc": "/images-opt/eldritch-horror-dungeon-entry.webp"
     },
     {
+      "id": "heart-of-ruin-entry",
+      "title": "Heart of Ruin",
+      "chapters": [
+        1
+      ],
+      "quote": "They brought this upon themselves—Nothing stays pure",
+      "content": "## Overview\n\n**Unlocked on:** Day 7\n\nThe **Heart of Ruin** was the final dungeon—and the ultimate challenge the heroes faced in Chapter 2, as this was the source of all corruption, the root cause of the kingdom’s decay. Destroying it meant not only completing the mission for which the heroes were summoned but also saving the world from ruin itself.\n\nYet, it quickly became clear that this victory would come at a cost, as some of their comrades had become more vulnerable to the corruption than anyone had expected.\n\n## Details\n\n**The Cursed Ones**\nUnlike the dungeons before it, the Heart of Ruin featured no puzzles or quizzes.\n\nThe heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221) their progress and becoming obstacles on the path forward. The remaining heroes were tasked with purifying their friends.\n\nWithin this first library was a book titled _“Prelude of Ruin,”_ hinting at the events and powers that brought the kingdom to its current state.\n\n[Read \"Prelude of Ruin\"](#text:prelude-of-ruin)\n\nProgressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains, each victory building up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by trap-laden terrain and attacks from their cursed allies, which would drain the energy meter and delay their rescue.\n\nOnly once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250) and return to the group.\n\n---\n\n**The Final Battle**\n\nDeeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former King and Queen, as well as the source behind such fate.\n\n[Read \"Song of Ruin\"](#text:song-of-ruin)\n\nFinally, at the end of the path, the heroes stood before their last enemy: **The Curse** — the very essence of corruption, the entity that had infected the kingdom and threatened to bring everything to its knees.\n\nDefeating this entity meant liberation: of the land, of the Princess, and of the Outlander, who both offered their heartfelt gratitude after the battle.\n\n[The battle against The Curse](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=aPXghWa1h648PaCG&t=6678)\n\nBut this was not the end.\nAs the heroes would soon learn, the events on the final day would change everything.\nThis chapter had closed, but the story was far from over.\n\n### Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1921298594185036164/photo/1)\n- Concept Art - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1921068336151957890)",
+      "thumbnailSrc": "/images-opt/heart-of-ruin-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Heart of Ruin Overview #1",
+          "source": "/images-opt/heart-of-ruin-entry-0.webp"
+        },
+        {
+          "title": "Heart of Ruin Overview #2",
+          "source": "/images-opt/heart-of-ruin-entry-1.webp"
+        },
+        {
+          "title": "Heart of Ruin Overview #3",
+          "source": "/images-opt/heart-of-ruin-entry-2.webp"
+        },
+        {
+          "title": "Heart of Ruin Concept Art #1",
+          "source": "/images-opt/heart-of-ruin-entry-3.webp"
+        },
+        {
+          "title": "Heart of Ruin Concept Art #2",
+          "source": "/images-opt/heart-of-ruin-entry-4.webp"
+        },
+        {
+          "title": "Heart of Ruin Concept Art #3",
+          "source": "/images-opt/heart-of-ruin-entry-5.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/heart-of-ruin-entry.webp"
+    },
+    {
       "id": "ocean-temple-dungeon-entry",
       "title": "Ocean Temple Dungeon",
       "chapters": [
@@ -133,74 +170,6 @@
       "imageSrc": "/images-opt/star-site-elpis-entry.webp"
     },
     {
-      "id": "underworld-dungeon-entry",
-      "title": "Underworld Dungeon",
-      "chapters": [
-        0
-      ],
-      "quote": "Reapers should help the living, not take away their future.",
-      "content": "## Overview\n\nThe **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing.\n\n## Details\n\n- requires Underworld Key\n\n### Puzzles\n\n- Platform Parkour\n- Glass Panes\n- Lights Out: Turn off all lights in the correct sequence.\n- Climb the Dungeon’s Tree\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n### Sources",
-      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-thumb.webp",
-      "galleryImages": [],
-      "imageSrc": "/images-opt/underworld-dungeon-entry.webp"
-    }
-  ],
-  "special-quests": [
-    {
-      "id": "heart-of-ruin-entry",
-      "title": "Heart of Ruin",
-      "chapters": [
-        1
-      ],
-      "quote": "They brought this upon themselves—Nothing stays pure",
-      "content": "## Overview\n\n**Unlocked on:** Day 7\n\nThe **Heart of Ruin** was the final dungeon—and the ultimate challenge the heroes faced in Chapter 2, as this was the source of all corruption, the root cause of the kingdom’s decay. Destroying it meant not only completing the mission for which the heroes were summoned but also saving the world from ruin itself.\n\nYet, it quickly became clear that this victory would come at a cost, as some of their comrades had become more vulnerable to the corruption than anyone had expected.\n\n## Details\n\n**The Cursed Ones**\nUnlike the dungeons before it, the Heart of Ruin featured no puzzles or quizzes.\n\nThe heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221) their progress and becoming obstacles on the path forward. The remaining heroes were tasked with purifying their friends.\n\nWithin this first library was a book titled _“Prelude of Ruin,”_ hinting at the events and powers that brought the kingdom to its current state.\n\n[Read \"Prelude of Ruin\"](#text:prelude-of-ruin)\n\nProgressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains, each victory building up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by trap-laden terrain and attacks from their cursed allies, which would drain the energy meter and delay their rescue.\n\nOnly once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250) and return to the group.\n\n---\n\n**The Final Battle**\n\nDeeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former King and Queen, as well as the source behind such fate.\n\n[Read \"Song of Ruin\"](#text:song-of-ruin)\n\nFinally, at the end of the path, the heroes stood before their last enemy: **The Curse** — the very essence of corruption, the entity that had infected the kingdom and threatened to bring everything to its knees.\n\nDefeating this entity meant liberation: of the land, of the Princess, and of the Outlander, who both offered their heartfelt gratitude after the battle.\n\n[The battle against The Curse](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=aPXghWa1h648PaCG&t=6678)\n\nBut this was not the end.\nAs the heroes would soon learn, the events on the final day would change everything.\nThis chapter had closed, but the story was far from over.\n\n### Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1921298594185036164/photo/1)\n- Concept Art - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1921068336151957890)",
-      "thumbnailSrc": "/images-opt/heart-of-ruin-entry-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Heart of Ruin Overview #1",
-          "source": "/images-opt/heart-of-ruin-entry-0.webp"
-        },
-        {
-          "title": "Heart of Ruin Overview #2",
-          "source": "/images-opt/heart-of-ruin-entry-1.webp"
-        },
-        {
-          "title": "Heart of Ruin Overview #3",
-          "source": "/images-opt/heart-of-ruin-entry-2.webp"
-        },
-        {
-          "title": "Heart of Ruin Concept Art #1",
-          "source": "/images-opt/heart-of-ruin-entry-3.webp"
-        },
-        {
-          "title": "Heart of Ruin Concept Art #2",
-          "source": "/images-opt/heart-of-ruin-entry-4.webp"
-        },
-        {
-          "title": "Heart of Ruin Concept Art #3",
-          "source": "/images-opt/heart-of-ruin-entry-5.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/heart-of-ruin-entry.webp"
-    },
-    {
-      "id": "ritual-entry",
-      "title": "The Ritual",
-      "chapters": [
-        1
-      ],
-      "quote": "Get the order correct, and the ritual succeeds!",
-      "content": "## Overview\n\n_Unlocked on:_ Day 6\n\n**\"The Ritual\"** was a unique quest assigned to the heroes, deviating from their usual dungeon investigations. Their new task was to perform a \"ritual\" to purify a book essential for the next stage of their journey.\n\n## Details\n\n### Puzzle\n\nThe ritual was structured as a social deduction game. Each participant was assigned a number and a topic.\n\nThey had to devise a word that reflected the magnitude of their assigned number (small or large) to determine the correct seating order.\n\nOne participant was \"Cursed\" and sought to sabotage the purification without being discovered.\n\nThe ritual could be completed by either correctly seating everyone in numerical order or by identifying and voting out the Cursed individual.\n\n[The Ritual](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?si=PuRoJPyk6DJCIjQC&t=5809)\n\n### Rewards\n\n- **\"The Truth of Ruin\"** Book\n\n[Read \"The Truth of Ruin\"](#text:the-truth-of-ruin)",
-      "thumbnailSrc": "/images-opt/ritual-entry-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Venue where the Ritual took place",
-          "source": "/images-opt/ritual-entry-0.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/ritual-entry.webp"
-    },
-    {
       "id": "stronghold-of-ruin-entry",
       "title": "Stronghold of Ruin",
       "chapters": [
@@ -224,6 +193,37 @@
         }
       ],
       "imageSrc": "/images-opt/stronghold-of-ruin-entry.webp"
+    },
+    {
+      "id": "underworld-dungeon-entry",
+      "title": "Underworld Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Reapers should help the living, not take away their future.",
+      "content": "## Overview\n\nThe **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing.\n\n## Details\n\n- requires Underworld Key\n\n### Puzzles\n\n- Platform Parkour\n- Glass Panes\n- Lights Out: Turn off all lights in the correct sequence.\n- Climb the Dungeon’s Tree\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n### Sources",
+      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-thumb.webp",
+      "galleryImages": [],
+      "imageSrc": "/images-opt/underworld-dungeon-entry.webp"
+    }
+  ],
+  "special-quests": [
+    {
+      "id": "ritual-entry",
+      "title": "The Ritual",
+      "chapters": [
+        1
+      ],
+      "quote": "Get the order correct, and the ritual succeeds!",
+      "content": "## Overview\n\n_Unlocked on:_ Day 6\n\n**\"The Ritual\"** was a unique quest assigned to the heroes, deviating from their usual dungeon investigations. Their new task was to perform a \"ritual\" to purify a book essential for the next stage of their journey.\n\n## Details\n\n### Puzzle\n\nThe ritual was structured as a social deduction game. Each participant was assigned a number and a topic.\n\nThey had to devise a word that reflected the magnitude of their assigned number (small or large) to determine the correct seating order.\n\nOne participant was \"Cursed\" and sought to sabotage the purification without being discovered.\n\nThe ritual could be completed by either correctly seating everyone in numerical order or by identifying and voting out the Cursed individual.\n\n[The Ritual](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?si=PuRoJPyk6DJCIjQC&t=5809)\n\n### Rewards\n\n- **\"The Truth of Ruin\"** Book\n\n[Read \"The Truth of Ruin\"](#text:the-truth-of-ruin)",
+      "thumbnailSrc": "/images-opt/ritual-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Venue where the Ritual took place",
+          "source": "/images-opt/ritual-entry-0.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/ritual-entry.webp"
     }
   ]
 }
