@@ -22,7 +22,7 @@ Fast forward, when Shakira noticed Calli interacting with the red hats, seemingl
 
 As the day wore on, Shakira sought solace in the company of her pink cat, the one companion she felt she could truly rely on. Shakira then prepared herself for the *Ocean Temple Dungeon*, joining forces with Elizabeth, the pink cat, and the two doggos. Her sharp "RPG senses" guided the team to a hidden treasure—a music disc labeled Reflect. Pleased with the find, Shakira made a mental note to revisit the first dungeon to uncover its secrets [as well](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9051).
 
-After conquering the dungeon and recovering memories of Gawr Gura, Shakira returned to the kingdom. On her way back, she noticed that Queen Tam Gandr had awakened. Wasting no time, she approached the queen to report her suspicions about FaunaMart’s alleged scams, introducing herself as the savior of the ~~lesbians~~ Libestians in hopes of earning the queen’s trust.
+After conquering the dungeon and recovering memories of Gawr Gura, Shakira returned to the kingdom. On her way back, she noticed that Queen Tam Gandr had awakened. Wasting no time, she approached the queen to report her suspicions about FaunaMart’s alleged scams, introducing herself as the savior of the ~~lesbians~~ Libestans in hopes of earning the queen’s trust.
 
 [Never gets old](#embed:https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9867)
 
