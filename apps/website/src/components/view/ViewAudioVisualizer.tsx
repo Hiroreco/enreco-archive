@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 
-const AudioVisualizer = ({ className }: { className?: string }) => {
+interface AudioVisualizerProps {
+    className?: string;
+}
+
+const AudioVisualizer = ({ className }: AudioVisualizerProps) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const animationRef = useRef<number>(null);
     const smoothingRef = useRef<number[]>([]);
