@@ -262,7 +262,7 @@ const ViewMusicPlayerModal = ({
             >
                 <div className="flex md:flex-row flex-col items-center gap-2">
                     {/* Cover & Controls */}
-                    <div className="flex flex-col items-center gap-4 p-2 dark:bg-white/50 bg-black/30 rounded-lg">
+                    <div className="hidden md:flex flex-col items-center gap-4 p-2 dark:bg-white/5 bg-black/30 rounded-lg">
                         <Image
                             // TODO: temp no song logo, change later
                             src={
@@ -272,13 +272,14 @@ const ViewMusicPlayerModal = ({
                             alt={currentTrack?.title || "Select a track"}
                             width={300}
                             height={300}
-                            className="rounded-lg md:size-[300px] size-[250px]"
+                            className="rounded-lg size-[300px]"
                             draggable={false}
                         />
-                        <div className="flex flex-col items-center px-2 md:w-[300px] w-[250px] relative">
+                        <div className="flex flex-col items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
                                 <p className="truncate font-lg font-semibold">
-                                    {currentTrack?.title || "Select a track"}
+                                    {currentTrack?.title ||
+                                        "ENreco Archive Jukebox"}
                                 </p>
                                 {currentTrack?.originalUrl && (
                                     <a
@@ -294,11 +295,9 @@ const ViewMusicPlayerModal = ({
                                     </a>
                                 )}
                             </div>
-                            {currentTrack?.info && (
-                                <p className="text-sm opacity-70 z-10">
-                                    {currentTrack.info}
-                                </p>
-                            )}
+                            <p className="text-sm opacity-70 z-10">
+                                {currentTrack?.info || "No track selected"}
+                            </p>
                             <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
                         </div>
                         <div className="flex items-center justify-between w-full px-2">
@@ -348,11 +347,83 @@ const ViewMusicPlayerModal = ({
                         </div>
                     </div>
 
-                    <Separator className="md:hidden w-full opacity-50" />
+                    <div className="flex md:hidden flex-col items-center gap-4">
+                        <div className="flex flex-col items-center px-2 w-[300px] relative">
+                            <div className="w-full flex justify-center items-center gap-1 z-10">
+                                <p className="truncate font-lg font-semibold">
+                                    {currentTrack?.title ||
+                                        "ENreco Archive Jukebox"}
+                                </p>
+                                {currentTrack?.originalUrl && (
+                                    <a
+                                        href={currentTrack.originalUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="opacity-70"
+                                    >
+                                        <ExternalLink
+                                            size={16}
+                                            stroke="white"
+                                        />
+                                    </a>
+                                )}
+                            </div>
+                            <p className="text-sm opacity-70 z-10">
+                                {currentTrack?.info || "No track selected"}
+                            </p>
+                            <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
+                        </div>
+                        <div className="flex items-center justify-between w-full px-2">
+                            <div className="flex items-center gap-2">
+                                <Volume2 size={16} />
+                                <Slider
+                                    className="w-16"
+                                    value={[bgmVolume]}
+                                    max={1}
+                                    step={0.01}
+                                    onValueChange={onVolumeChange}
+                                />
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <button
+                                    onClick={playPrev}
+                                    disabled={!currentTrack}
+                                    className="hover:opacity-80 transition-opacity"
+                                >
+                                    <ChevronFirst />
+                                </button>
+                                <button
+                                    onClick={playPause}
+                                    disabled={!currentTrack}
+                                    className="hover:opacity-80 transition-opacity"
+                                >
+                                    {isPlaying ? <Pause /> : <Play />}
+                                </button>
+                                <button
+                                    onClick={playNext}
+                                    disabled={!currentTrack}
+                                    className="hover:opacity-80 transition-opacity"
+                                >
+                                    <ChevronLast />
+                                </button>
+                            </div>
+                            <button
+                                onClick={toggleLoop}
+                                className={cn("transition-opacity", {
+                                    "opacity-100": loopCurrentSong,
+                                    "opacity-50 hover:opacity-80":
+                                        !loopCurrentSong,
+                                })}
+                            >
+                                <Repeat size={16} />
+                            </button>
+                        </div>
+                    </div>
+
                     {/* Song List by Category */}
                     <div
                         ref={listRef}
-                        className="flex flex-col gap-2 px-2 max-h-[40vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
+                        className="flex flex-col gap-2 px-2 border-y max-h-[40vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
                     >
                         {categories.map(([cat, list], cIdx) => (
                             <div key={cat}>

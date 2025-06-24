@@ -169,7 +169,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         ) {
             return;
         }
-        console.log(newBgmSrc);
 
         const { bgm, bgmVolume } = get();
 

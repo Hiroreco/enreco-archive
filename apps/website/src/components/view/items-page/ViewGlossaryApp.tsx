@@ -53,7 +53,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 onOpenChange={setIsMusicModalOpen}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
+            <div className="fixed top-0 right-0 m-2 z-10 flex md:flex-col gap-2">
                 <IconButton
                     id="info-btn"
                     className="h-10 w-10 p-1 hidden md:block"
