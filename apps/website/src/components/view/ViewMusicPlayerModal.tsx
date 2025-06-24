@@ -159,20 +159,21 @@ const ViewMusicPlayerModal = ({
     ]);
 
     const playPrev = () => {
-        if (trackIndex === null || loopCurrentSong) {
+        if (trackIndex === null) {
             return;
         }
-
         if (trackIndex > 0) {
-            setTrackIndex(trackIndex! - 1);
+            setTrackIndex(trackIndex - 1);
             setIsPlaying(true);
         } else if (loopWithinCategory) {
             setTrackIndex(songs.length - 1);
             setIsPlaying(true);
         } else {
-            const newCatIndex = (catIndex! + 1) % categories.length;
+            const newCatIndex =
+                (catIndex! + categories.length - 1) % categories.length;
+
             setCatIndex(newCatIndex);
-            setTrackIndex(categories[newCatIndex].length - 1);
+            setTrackIndex(categories[newCatIndex][1].length - 1);
         }
     };
 
@@ -243,7 +244,6 @@ const ViewMusicPlayerModal = ({
         <Dialog
             open={open}
             onOpenChange={(val) => {
-                console.log(siteBgmKey);
                 if (val == false && !isPlaying) {
                     changeBGM(siteBgmKey!, 0, 0);
                 }
