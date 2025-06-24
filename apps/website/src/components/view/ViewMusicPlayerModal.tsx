@@ -1,9 +1,5 @@
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipTrigger,
-} from "@enreco-archive/common-ui/components/tooltip";
 import SONGS from "#/songs.json";
+import AudioVisualizer from "@/components/view/ViewAudioVisualizer";
 import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import {
@@ -13,8 +9,12 @@ import {
     DialogHeader,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
-import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Song } from "@enreco-archive/common/types";
 import {
@@ -24,11 +24,11 @@ import {
     Pause,
     Play,
     Repeat,
+    Shuffle,
     Volume2,
 } from "lucide-react";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef } from "react";
-import AudioVisualizer from "@/components/view/ViewAudioVisualizer";
 
 const PlayingAnimation = () => (
     <div className="flex items-end h-3 gap-[2px]">
@@ -97,6 +97,113 @@ const categoriesLabels: Record<string, string> = {
     special: "Special",
 };
 
+interface PlayerControlsProps {
+    bgmVolume: number;
+    onVolumeChange: (val: number[]) => void;
+    isShuffled: boolean;
+    toggleShuffle: () => void;
+    playPrev: () => void;
+    playPause: () => void;
+    isPlaying: boolean;
+    playNext: () => void;
+    toggleLoop: () => void;
+    loopCurrentSong: boolean;
+    currentTrack: Song | null;
+}
+
+const PlayerControls = ({
+    bgmVolume,
+    onVolumeChange,
+    isShuffled,
+    toggleShuffle,
+    playPrev,
+    playPause,
+    isPlaying,
+    playNext,
+    toggleLoop,
+    loopCurrentSong,
+    currentTrack,
+}: PlayerControlsProps) => (
+    <div className="flex items-center justify-between w-full px-2">
+        <div className="flex items-center gap-2">
+            <Volume2 size={16} />
+            <Slider
+                className="w-16"
+                value={[bgmVolume]}
+                max={1}
+                step={0.01}
+                onValueChange={onVolumeChange}
+            />
+        </div>
+        <div className="flex items-center gap-4">
+            <Tooltip delayDuration={300}>
+                <TooltipTrigger
+                    onClick={toggleShuffle}
+                    className={cn("transition-opacity", {
+                        "opacity-100": isShuffled,
+                        "opacity-50 hover:opacity-80": !isShuffled,
+                    })}
+                >
+                    <Shuffle size={16} />
+                </TooltipTrigger>
+                <TooltipContent>
+                    {isShuffled ? "Turn off shuffle" : "Turn on shuffle"}
+                </TooltipContent>
+            </Tooltip>
+
+            <Tooltip delayDuration={300}>
+                <TooltipTrigger
+                    onClick={playPrev}
+                    disabled={!currentTrack}
+                    className="hover:opacity-80 transition-opacity disabled:opacity-30"
+                >
+                    <ChevronFirst />
+                </TooltipTrigger>
+                <TooltipContent>Previous track</TooltipContent>
+            </Tooltip>
+
+            <Tooltip delayDuration={300}>
+                <TooltipTrigger
+                    onClick={playPause}
+                    disabled={!currentTrack}
+                    className="hover:opacity-80 transition-opacity disabled:opacity-30"
+                >
+                    {isPlaying ? <Pause /> : <Play />}
+                </TooltipTrigger>
+                <TooltipContent>{isPlaying ? "Pause" : "Play"}</TooltipContent>
+            </Tooltip>
+
+            <Tooltip delayDuration={300}>
+                <TooltipTrigger
+                    onClick={playNext}
+                    disabled={!currentTrack}
+                    className="hover:opacity-80 transition-opacity disabled:opacity-30"
+                >
+                    <ChevronLast />
+                </TooltipTrigger>
+                <TooltipContent>Next track</TooltipContent>
+            </Tooltip>
+
+            <Tooltip delayDuration={300}>
+                <TooltipTrigger
+                    onClick={toggleLoop}
+                    className={cn("transition-opacity", {
+                        "opacity-100": loopCurrentSong,
+                        "opacity-50 hover:opacity-80": !loopCurrentSong,
+                    })}
+                >
+                    <Repeat size={16} />
+                </TooltipTrigger>
+                <TooltipContent>
+                    {loopCurrentSong
+                        ? "Turn off repeat"
+                        : "Repeat current song"}
+                </TooltipContent>
+            </Tooltip>
+        </div>
+    </div>
+);
+
 interface ViewMusicPlayerModalProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
@@ -117,6 +224,10 @@ const ViewMusicPlayerModal = ({
         setLoopWithinCategory,
         loopCurrentSong,
         setLoopCurrentSong,
+        isShuffled,
+        setIsShuffled,
+        shuffledIndices,
+        setShuffledIndices,
     } = useMusicPlayerStore();
 
     const {
@@ -133,49 +244,120 @@ const ViewMusicPlayerModal = ({
     const hasSelection = catIndex !== null && trackIndex !== null;
     const [, songs] = hasSelection ? categories[catIndex!] : ["", []];
 
+    // Shuffle utility functions
+    const generateShuffledIndices = useCallback((length: number) => {
+        const indices = Array.from({ length }, (_, i) => i);
+        for (let i = indices.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [indices[i], indices[j]] = [indices[j], indices[i]];
+        }
+        return indices;
+    }, []);
+
+    const getNextTrackIndex = useCallback(() => {
+        if (trackIndex === null) return null;
+
+        if (isShuffled) {
+            const currentShuffledIndex = shuffledIndices.indexOf(trackIndex);
+            if (currentShuffledIndex < shuffledIndices.length - 1) {
+                return shuffledIndices[currentShuffledIndex + 1];
+            } else if (loopWithinCategory) {
+                return shuffledIndices[0];
+            }
+            return null;
+        } else {
+            if (trackIndex < songs.length - 1) {
+                return trackIndex + 1;
+            } else if (loopWithinCategory) {
+                return 0;
+            }
+            return null;
+        }
+    }, [
+        trackIndex,
+        isShuffled,
+        shuffledIndices,
+        songs.length,
+        loopWithinCategory,
+    ]);
+
+    const getPrevTrackIndex = useCallback(() => {
+        if (trackIndex === null) return null;
+
+        if (isShuffled) {
+            const currentShuffledIndex = shuffledIndices.indexOf(trackIndex);
+            if (currentShuffledIndex > 0) {
+                return shuffledIndices[currentShuffledIndex - 1];
+            } else if (loopWithinCategory) {
+                return shuffledIndices[shuffledIndices.length - 1];
+            }
+            return null;
+        } else {
+            if (trackIndex > 0) {
+                return trackIndex - 1;
+            } else if (loopWithinCategory) {
+                return songs.length - 1;
+            }
+            return null;
+        }
+    }, [
+        trackIndex,
+        isShuffled,
+        shuffledIndices,
+        songs.length,
+        loopWithinCategory,
+    ]);
+
     const playNext = useCallback(() => {
         if (trackIndex === null || loopCurrentSong) {
             return;
         }
-        if (trackIndex < songs.length - 1) {
-            setTrackIndex(trackIndex + 1);
+
+        const nextIndex = getNextTrackIndex();
+        if (nextIndex !== null) {
+            setTrackIndex(nextIndex);
             setIsPlaying(true);
-        } else if (loopWithinCategory) {
-            setTrackIndex(0);
-            setIsPlaying(true);
-        } else {
+        } else if (!loopWithinCategory) {
+            // Move to next category
             setTrackIndex(0);
             setCatIndex((catIndex! + 1) % categories.length);
         }
     }, [
         trackIndex,
         loopCurrentSong,
+        getNextTrackIndex,
         setTrackIndex,
-        songs,
         setIsPlaying,
+        loopWithinCategory,
         catIndex,
         setCatIndex,
-        loopWithinCategory,
     ]);
 
-    const playPrev = () => {
+    const playPrev = useCallback(() => {
         if (trackIndex === null) {
             return;
         }
-        if (trackIndex > 0) {
-            setTrackIndex(trackIndex - 1);
+
+        const prevIndex = getPrevTrackIndex();
+        if (prevIndex !== null) {
+            setTrackIndex(prevIndex);
             setIsPlaying(true);
-        } else if (loopWithinCategory) {
-            setTrackIndex(songs.length - 1);
-            setIsPlaying(true);
-        } else {
+        } else if (!loopWithinCategory) {
+            // Move to previous category
             const newCatIndex =
                 (catIndex! + categories.length - 1) % categories.length;
-
             setCatIndex(newCatIndex);
             setTrackIndex(categories[newCatIndex][1].length - 1);
         }
-    };
+    }, [
+        trackIndex,
+        getPrevTrackIndex,
+        setTrackIndex,
+        setIsPlaying,
+        loopWithinCategory,
+        catIndex,
+        setCatIndex,
+    ]);
 
     const playPause = () => {
         setIsPlaying(!isPlaying);
@@ -194,6 +376,16 @@ const ViewMusicPlayerModal = ({
         }
         setLoopCurrentSong(!loopCurrentSong);
     };
+
+    const toggleShuffle = () => {
+        if (!isShuffled) {
+            // Enable shuffle: generate shuffled indices
+            const newShuffledIndices = generateShuffledIndices(songs.length);
+            setShuffledIndices(newShuffledIndices);
+        }
+        setIsShuffled(!isShuffled);
+    };
+
     const onVolumeChange = (val: number[]) => setBgmVolume(val[0]);
 
     const onSelect = (cIdx: number, tIdx: number) => {
@@ -201,6 +393,20 @@ const ViewMusicPlayerModal = ({
         setTrackIndex(tIdx);
         setIsPlaying(true);
     };
+
+    // Regenerate shuffled indices when category changes
+    useEffect(() => {
+        if (isShuffled && songs.length > 0) {
+            const newShuffledIndices = generateShuffledIndices(songs.length);
+            setShuffledIndices(newShuffledIndices);
+        }
+    }, [
+        catIndex,
+        isShuffled,
+        songs.length,
+        generateShuffledIndices,
+        setShuffledIndices,
+    ]);
 
     // Scroll into view when selection changes
     useEffect(() => {
@@ -300,51 +506,19 @@ const ViewMusicPlayerModal = ({
                             </p>
                             <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
                         </div>
-                        <div className="flex items-center justify-between w-full px-2">
-                            <div className="flex items-center gap-2">
-                                <Volume2 size={16} />
-                                <Slider
-                                    className="w-16"
-                                    value={[bgmVolume]}
-                                    max={1}
-                                    step={0.01}
-                                    onValueChange={onVolumeChange}
-                                />
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <button
-                                    onClick={playPrev}
-                                    disabled={!currentTrack}
-                                    className="hover:opacity-80 transition-opacity"
-                                >
-                                    <ChevronFirst />
-                                </button>
-                                <button
-                                    onClick={playPause}
-                                    disabled={!currentTrack}
-                                    className="hover:opacity-80 transition-opacity"
-                                >
-                                    {isPlaying ? <Pause /> : <Play />}
-                                </button>
-                                <button
-                                    onClick={playNext}
-                                    disabled={!currentTrack}
-                                    className="hover:opacity-80 transition-opacity"
-                                >
-                                    <ChevronLast />
-                                </button>
-                            </div>
-                            <button
-                                onClick={toggleLoop}
-                                className={cn("transition-opacity", {
-                                    "opacity-100": loopCurrentSong,
-                                    "opacity-50 hover:opacity-80":
-                                        !loopCurrentSong,
-                                })}
-                            >
-                                <Repeat size={16} />
-                            </button>
-                        </div>
+                        <PlayerControls
+                            bgmVolume={bgmVolume}
+                            onVolumeChange={onVolumeChange}
+                            isShuffled={isShuffled}
+                            toggleShuffle={toggleShuffle}
+                            playPrev={playPrev}
+                            playPause={playPause}
+                            isPlaying={isPlaying}
+                            playNext={playNext}
+                            toggleLoop={toggleLoop}
+                            loopCurrentSong={loopCurrentSong}
+                            currentTrack={currentTrack}
+                        />
                     </div>
 
                     <div className="flex md:hidden flex-col items-center gap-4">
@@ -373,51 +547,19 @@ const ViewMusicPlayerModal = ({
                             </p>
                             <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
                         </div>
-                        <div className="flex items-center justify-between w-full px-2">
-                            <div className="flex items-center gap-2">
-                                <Volume2 size={16} />
-                                <Slider
-                                    className="w-16"
-                                    value={[bgmVolume]}
-                                    max={1}
-                                    step={0.01}
-                                    onValueChange={onVolumeChange}
-                                />
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <button
-                                    onClick={playPrev}
-                                    disabled={!currentTrack}
-                                    className="hover:opacity-80 transition-opacity"
-                                >
-                                    <ChevronFirst />
-                                </button>
-                                <button
-                                    onClick={playPause}
-                                    disabled={!currentTrack}
-                                    className="hover:opacity-80 transition-opacity"
-                                >
-                                    {isPlaying ? <Pause /> : <Play />}
-                                </button>
-                                <button
-                                    onClick={playNext}
-                                    disabled={!currentTrack}
-                                    className="hover:opacity-80 transition-opacity"
-                                >
-                                    <ChevronLast />
-                                </button>
-                            </div>
-                            <button
-                                onClick={toggleLoop}
-                                className={cn("transition-opacity", {
-                                    "opacity-100": loopCurrentSong,
-                                    "opacity-50 hover:opacity-80":
-                                        !loopCurrentSong,
-                                })}
-                            >
-                                <Repeat size={16} />
-                            </button>
-                        </div>
+                        <PlayerControls
+                            bgmVolume={bgmVolume}
+                            onVolumeChange={onVolumeChange}
+                            isShuffled={isShuffled}
+                            toggleShuffle={toggleShuffle}
+                            playPrev={playPrev}
+                            playPause={playPause}
+                            isPlaying={isPlaying}
+                            playNext={playNext}
+                            toggleLoop={toggleLoop}
+                            loopCurrentSong={loopCurrentSong}
+                            currentTrack={currentTrack}
+                        />
                     </div>
 
                     {/* Song List by Category */}
@@ -452,7 +594,9 @@ const ViewMusicPlayerModal = ({
                                                 <Repeat size={14} />
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                Loop within category
+                                                {loopWithinCategory
+                                                    ? "Turn off loop within category"
+                                                    : "Loop within category"}
                                             </TooltipContent>
                                         </Tooltip>
                                     )}
