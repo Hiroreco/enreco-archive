@@ -119,8 +119,15 @@ const ViewMusicPlayerModal = ({
         setLoopCurrentSong,
     } = useMusicPlayerStore();
 
-    const { changeBGM, bgm, playBGM, pauseBGM, bgmVolume, setBgmVolume } =
-        useAudioStore();
+    const {
+        changeBGM,
+        bgm,
+        playBGM,
+        pauseBGM,
+        bgmVolume,
+        setBgmVolume,
+        siteBgmKey,
+    } = useAudioStore();
     const listRef = useRef<HTMLDivElement>(null);
 
     const hasSelection = catIndex !== null && trackIndex !== null;
@@ -204,17 +211,17 @@ const ViewMusicPlayerModal = ({
     }, [catIndex, trackIndex, hasSelection]);
 
     useEffect(() => {
-        if (trackIndex === null) return;
+        if (trackIndex === null || !isPlaying) return;
         const currentTrack = songs[trackIndex];
         changeBGM(currentTrack?.sourceUrl, 0, 0);
-
+        console.log("this ran");
         if (bgm) {
             bgm.loop(loopCurrentSong);
         }
-    }, [trackIndex, songs, changeBGM, bgm, loopCurrentSong]);
+    }, [trackIndex, songs, changeBGM, bgm, loopCurrentSong, isPlaying]);
 
     useEffect(() => {
-        if (!bgm) return;
+        if (!bgm || !isPlaying) return;
 
         const endHandler = () => {
             if (!loopCurrentSong) {
@@ -226,7 +233,7 @@ const ViewMusicPlayerModal = ({
         return () => {
             bgm.off("end", endHandler);
         };
-    }, [bgm, loopCurrentSong, playNext]);
+    }, [bgm, loopCurrentSong, playNext, isPlaying]);
 
     const currentTrack = useMemo(
         () => (trackIndex !== null ? songs[trackIndex] : null),
@@ -234,7 +241,16 @@ const ViewMusicPlayerModal = ({
     );
 
     return (
-        <Dialog open={open} onOpenChange={onOpenChange}>
+        <Dialog
+            open={open}
+            onOpenChange={(val) => {
+                console.log(siteBgmKey);
+                if (val == false && !isPlaying) {
+                    changeBGM(siteBgmKey!, 0, 0);
+                }
+                onOpenChange(val);
+            }}
+        >
             <DialogHeader>
                 <DialogTitle className="sr-only">Music Player</DialogTitle>
                 <DialogDescription className="sr-only">

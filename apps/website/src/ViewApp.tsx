@@ -158,8 +158,11 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const viewStore = useViewStore();
     const settingsStore = useSettingStore();
     const audioStore = useAudioStore();
-    const { isOpen: isMusicModalOpen, setIsOpen: setIsMusicModalOpen } =
-        useMusicPlayerStore();
+    const {
+        isOpen: isMusicModalOpen,
+        setIsOpen: setIsMusicModalOpen,
+        isPlaying: isJukeboxPlaying,
+    } = useMusicPlayerStore();
 
     const [chartShrink, setChartShrink] = useState(0);
     const [fitViewOperation, setFitViewOperation] =
@@ -307,7 +310,13 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         newDayData.nodes.forEach(
             (node) => (characterVisibilityLoaded[node.id] = true),
         );
-        audioStore.changeBGM(newChapterData.bgmSrc);
+
+        if (!isJukeboxPlaying) {
+            audioStore.changeBGM(newChapterData.bgmSrc);
+        }
+        console.log(`Changing BGM to ${newChapterData.bgmSrc}`);
+        audioStore.setSiteBgmKey(newChapterData.bgmSrc);
+
         viewStore.setEdgeVisibility(edgeVisibilityLoaded);
         viewStore.setTeamVisibility(teamVisibilityLoaded);
         viewStore.setCharacterVisibility(characterVisibilityLoaded);

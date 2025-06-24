@@ -21,6 +21,8 @@ interface AudioState {
         fadeInDuration?: number,
         fadeOutDuration?: number,
     ) => void;
+    siteBgmKey: string | null;
+    setSiteBgmKey: (key: string) => void;
     isMoomPlaying: boolean;
     setIsMoomPlaying: (isPlaying: boolean) => void;
 }
@@ -28,6 +30,8 @@ interface AudioState {
 export const useAudioStore = create<AudioState>((set, get) => ({
     bgm: null,
     currentBgmKey: null,
+    siteBgmKey: null,
+    setSiteBgmKey: (key: string) => set({ siteBgmKey: key }),
     sfx: {
         click: new Howl({
             src: ["/audio/sfx/sfx-click.mp3"],
@@ -165,6 +169,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         ) {
             return;
         }
+        console.log(newBgmSrc);
 
         const { bgm, bgmVolume } = get();
 
