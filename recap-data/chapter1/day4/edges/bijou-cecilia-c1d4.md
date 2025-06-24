@@ -1,4 +1,4 @@
-<!-- title: The Royal Protector  -->
+<!-- title: The Royal Protector -->
 
 Cecilia was a simple soul, driven by one uncomplicated rule: she would serve anyone who wore a crown. So, when she spotted Bijou adorned with her gleaming gem-studded crown, Cecilia immediately knelt before her and swore her allegiance, pledging to become the Gem Princess’s loyal knight.
 

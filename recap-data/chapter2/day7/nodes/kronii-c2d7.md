@@ -1,6 +1,6 @@
-The Queen marches in her own time. 
+The Queen marches in her own time.
 
-Who said she was late? No, [the Queen is never late](https://youtu.be/CUh9eciJil4?t=137). The world is about to end? It was a simple matter for the benevolent Queen to delay the apocalypse by twenty minutes, for she was also the Warden of Time. 
+Who said she was late? No, [the Queen is never late](https://youtu.be/CUh9eciJil4?t=137). The world is about to end? It was a simple matter for the benevolent Queen to delay the apocalypse by twenty minutes, for she was also the Warden of Time.
 
 The fight for the future of Libestal began when all the heroes converged, Queen Tam being the last to arrive. Upon entering the final dungeon—the Heart of Ruin—Queen Tam was greeted with a grim curse: [the Curse of Betrayal](https://youtu.be/CUh9eciJil4?t=452). Apparently, some of the heroes had been corrupted, turning against the forces of good, and now had to be purified.
 
@@ -28,7 +28,7 @@ After offering comforting words to the green knight about her situation with Pea
 
 She was greeted with the same bombastic sign—"ITS GAS"—that she had made the day before, now covered for dramatic effect. Naturally, the Queen wasted no time in digging another proverbial hole, unearthing drama like a seasoned groundhog. For reasons unfathomable, Queen Tam implied she was open to a [three-way relationship](https://youtu.be/CUh9eciJil4?t=2732) with HPO and her Consort Eternal, NinoIna (see [Kronii-IRyS: The Audacity](#edge:irys-kronii)).
 
-Queen Tam next found herself attending Shakira and Roa Pandora’s wedding in the Great Hall. The voices in her head noted, yet again, that she never learned. First HPO’s “gender reveal” party, and now the wedding of her previous-timeline lover. Still, she stood in silence, watching one of her “happinesses” marry another. 
+Queen Tam next found herself attending Shakira and Roa Pandora’s wedding in the Great Hall. The voices in her head noted, yet again, that she never learned. First HPO’s “gender reveal” party, and now the wedding of her previous-timeline lover. Still, she stood in silence, watching one of her “happinesses” marry another.
 
 ["Say cheese,"](https://youtu.be/CUh9eciJil4?t=5155) she said as she had herself participate in the group photo.
 
@@ -38,7 +38,7 @@ This hatched a plan in Queen Tam's mind. Why not just take NinoIna for herself? 
 
 ["All according to keikaku."](#embed:https://youtu.be/CUh9eciJil4?t=6588)
 
-Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](https://youtu.be/CUh9eciJil4?t=6916) NinoIna's house and saw HPO lurking around. They pretended not to see each other, quite literally, much to Bijou's distress, who was caught in the crossfire between two unrelenting petty forces insulting each other through her. 
+Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](https://youtu.be/CUh9eciJil4?t=6916) NinoIna's house and saw HPO lurking around. They pretended not to see each other, quite literally, much to Bijou's distress, who was caught in the crossfire between two unrelenting petty forces insulting each other through her.
 
 ["Why did I decide to love someone like you?"](https://youtu.be/CUh9eciJil4?t=7701)
 

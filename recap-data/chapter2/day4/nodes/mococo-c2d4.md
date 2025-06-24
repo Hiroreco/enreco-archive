@@ -8,7 +8,7 @@ While waddling about afterwards, she happened upon a *very* public therapy sessi
 
 That’s when the lightbulb hit.
 
-Why not become a therapist [herself](https://www.youtube.com/live/T2StVW1kSxw?si=FdwTk8KAoS3pt2ch&t=3721)? Offer budget sessions with bargain-bin pricing and declare herself the most qualified while she’s at it—despite having no actual license or experience. None of that mattered. 
+Why not become a therapist [herself](https://www.youtube.com/live/T2StVW1kSxw?si=FdwTk8KAoS3pt2ch&t=3721)? Offer budget sessions with bargain-bin pricing and declare herself the most qualified while she’s at it—despite having no actual license or experience. None of that mattered.
 
 After planting her flag in the mental health business, she joined up with Shiori, Bae, and Fuwawa to tackle the [Star Site: Chronos](https://www.youtube.com/live/T2StVW1kSxw?si=zHdcA0uQyy3zuFUw&t=4759). They fought through the trials and uncovered memories of [Ouro Kronii](https://www.youtube.com/live/T2StVW1kSxw?si=GU5gPfrsUDdQPFUk&t=8555).
 

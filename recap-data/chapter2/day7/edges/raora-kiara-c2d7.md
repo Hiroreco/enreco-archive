@@ -6,9 +6,9 @@ After Roa's numerous failed attempts at pursuing Elizabeth, it seemed as though 
 
 So, when Kiara tried to show Roa all the flowers Elizabeth had given her, Roa misunderstood the situation and [Roa left crying!](https://youtu.be/m2OG5auudrQ?t=5845) But Kiara was quick to follow her, giving [her pets](https://youtu.be/m2OG5auudrQ?t=5878) and emphasizing she wasn't Roa's rival. The flowers Kiara received were a sign of **friendship** since she had never received any before.
 
-Kiara asked Roa if she knew anyone looking for love, wherein she proudly exclaimed that she was a cat lover. 
+Kiara asked Roa if she knew anyone looking for love, wherein she proudly exclaimed that she was a cat lover.
 
-Up till this point, the two were just friends. But there, in that moment, Kiara said something unexpected that would change their lives forever. 
+Up till this point, the two were just friends. But there, in that moment, Kiara said something unexpected that would change their lives forever.
 
 [**"I love cats. I love YOU!"**](https://www.youtube.com/live/ngfdLbrpeM4?t=6475)
 

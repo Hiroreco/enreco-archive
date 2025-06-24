@@ -14,7 +14,7 @@ But the determination, the delusion, was too strong, as Roa refused to give up o
 
 Perhaps therapy was the way to go. Roa's mood was better as she marveled at the pretty decorations for the party tonight. Floating lanterns filled the sky as "plates" were already placed on the picnic blanket. Roa called Shiori to inquire what time the party would start, easily agreeing to help with the decorations after Shiori answered.
 
-Despite her pursuit of love, Roa was still the CEO of The Gacharms and managed her shop for a while. Their time in Libestal was coming to a close, but there was one more dungeon to face. 
+Despite her pursuit of love, Roa was still the CEO of The Gacharms and managed her shop for a while. Their time in Libestal was coming to a close, but there was one more dungeon to face.
 
 With her new pickaxe, Roa met Elizabeth outside the kingdom and warned her to beware of “[the witch](https://youtu.be/m2OG5auudrQ?t=2753)” Nerissa. Elizabeth, unfazed, reminded Roa she was a strong knight—and said the real witch was Shiori. [Roa disagreed.](https://youtu.be/m2OG5auudrQ?t=2902)
 
