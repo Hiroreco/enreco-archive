@@ -187,7 +187,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             loop: true,
             volume: 0,
         });
-        let newBgmVolume = useSettingStore.getState().bgmVolume;
+        let newBgmVolume = bgmVolume;
         if (newBgmSrc === "/audio/easter/easter-potato.mp3") {
             newBgmVolume = 0.5;
         }
