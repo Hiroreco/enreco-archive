@@ -400,12 +400,15 @@ const ViewMusicPlayerModal = ({
             const newShuffledIndices = generateShuffledIndices(songs.length);
             setShuffledIndices(newShuffledIndices);
         }
+        // Turn off loopWithinCategory when category changes
+        setLoopWithinCategory(false);
     }, [
         catIndex,
         isShuffled,
         songs.length,
         generateShuffledIndices,
         setShuffledIndices,
+        setLoopWithinCategory,
     ]);
 
     // Scroll into view when selection changes
@@ -478,8 +481,10 @@ const ViewMusicPlayerModal = ({
                             alt={currentTrack?.title || "Select a track"}
                             width={300}
                             height={300}
-                            className="rounded-lg size-[300px]"
+                            className="rounded-lg size-[300px] cursor-pointer"
                             draggable={false}
+                            onClick={playPause}
+                            title={isPlaying ? "Pause" : "Play"}
                         />
                         <div className="flex flex-col items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
@@ -573,7 +578,7 @@ const ViewMusicPlayerModal = ({
                                     <div className="px-3 pt-2 text-sm font-semibold underline underline-offset-2 opacity-70">
                                         {categoriesLabels[cat] || cat}
                                     </div>
-                                    {cIdx === 0 && (
+                                    {cIdx === catIndex && (
                                         <Tooltip delayDuration={300}>
                                             <TooltipTrigger
                                                 onClick={() =>
