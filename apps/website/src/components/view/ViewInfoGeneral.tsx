@@ -1,23 +1,18 @@
-const getDateDifference = (
-    date: Date = new Date("2025-06-10"),
-    isSince: boolean = true,
-): string => {
+const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
     const now = new Date();
-    const diffTime = date.getTime() - now.getTime();
-    // If isSince is true, we want past dates to be positive
-    const absoluteDiff = isSince ? -diffTime : diffTime;
+    const diffMonth =
+        now.getMonth() -
+        date.getMonth() +
+        12 * (now.getFullYear() - date.getFullYear());
+    const diffDays = now.getDate() - date.getDate();
+    const diffMonths = Math.floor(diffMonth + (diffDays < 0 ? -1 : 0));
+    const remainingDays =
+        diffDays < 0
+            ? new Date(now.getFullYear(), now.getMonth(), 0).getDate() +
+              diffDays
+            : diffDays;
 
-    if (isNaN(absoluteDiff)) return "Invalid date";
-
-    const diffDays = Math.floor(Math.abs(absoluteDiff) / (1000 * 60 * 60 * 24));
-    const diffMonths = Math.floor(diffDays / 30);
-    const remainingDays = diffDays % 30;
-
-    if (diffMonths === 0) {
-        return `${diffDays} day${diffDays !== 1 ? "s" : ""}`;
-    }
-
-    return `${diffMonths} month${diffMonths !== 1 ? "s" : ""} ${remainingDays} day${remainingDays !== 1 ? "s" : ""}`;
+    return `${Math.abs(diffMonths)} month${Math.abs(diffMonths) !== 1 ? "s" : ""} ${Math.abs(remainingDays)} day${Math.abs(remainingDays) !== 1 ? "s" : ""}`;
 };
 
 const ViewInfoGeneral = () => {
@@ -31,7 +26,13 @@ const ViewInfoGeneral = () => {
                 <span className="italic text-sm text-foreground/70 mr-4">
                     Days since last episode:{" "}
                     <span className="font-bold">
-                        {getDateDifference(new Date("2025-05-11"))}
+                        {getDateDifference(
+                            new Date(
+                                new Date("2025-05-11").toLocaleString("en-US", {
+                                    timeZone: "Asia/Tokyo",
+                                }),
+                            ),
+                        )}
                     </span>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
