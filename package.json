@@ -24,7 +24,8 @@
         "inject-chapter-recaps": "tsx scripts/inject-chapter-recaps.ts",
         "inject-texts": "tsx scripts/inject-texts.ts",
         "inject-glossary": "tsx scripts/inject-glossary.ts",
-        "inject-songs": "tsx scripts/inject-songs.ts"
+        "inject-songs": "tsx scripts/inject-songs.ts",
+        "normalize-audio": "tsx scripts/normalize-audio.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",
