@@ -1,7 +1,7 @@
 <!-- title: Eldritch Horror Dungeon -->
 <!-- quote: Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company. -->
 <!-- chapters: 0 -->
-<!-- images: (Eldritch Horror Overview #1), (Eldritch Horror Overview #2), (Dungeon Concept Art)  -->
+<!-- images: (Eldritch Horror Overview #1), (Eldritch Horror Overview #2), (Dungeon Concept Art) -->
 <!-- model: false -->
 
 ## Overview
