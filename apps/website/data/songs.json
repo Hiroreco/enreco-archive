@@ -30,7 +30,7 @@
             "title": "Secret Library",
             "info": "Theme of the Library (Chapter 2)",
             "originalUrl": "https://audiostock.net/tracks/826727",
-            "sourceUrl": "/audio/bgm/bgm-1.mp3",
+            "sourceUrl": "/audio/songs/ingame/ingame-secret-library.mp3",
             "coverUrl": "/images-opt/song-chapter-2.webp",
             "duration": "01:35"
         },
@@ -76,6 +76,14 @@
         }
     ],
     "stream": [
+        {
+            "title": "Gigi's Opening Theme",
+            "info": "Used by Gigi (Chapter 1)",
+            "originalUrl": "https://www.youtube.com/live/y9KKa_k2VTU?si=dB5C6RSGg-oB0y_y",
+            "sourceUrl": "/audio/songs/stream/stream-gigi-chapter-1.mp3",
+            "coverUrl": "/images-opt/song-chapter-1.webp",
+            "duration": "01:44"
+        },
         {
             "title": "003 RPG Town",
             "info": "Used by Gura (Chapter 1)",
