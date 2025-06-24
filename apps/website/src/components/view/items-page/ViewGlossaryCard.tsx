@@ -168,10 +168,11 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                 <AnimatePresence mode="wait">
                     {currentEntry === null && (
                         <motion.div
-                            key="grid"
+                            key={`grid-${selectedCategory}-${selectedChapter}`}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
+                            transition={{ duration: 0.15 }}
                             className="overflow-x-hidden overflow-y-auto space-y-6"
                         >
                             {allEmpty ? (
