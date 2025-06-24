@@ -3,7 +3,7 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
-import { SONGS } from "@/lib/misc";
+import SONGS from "#/songs.json";
 import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import {
@@ -214,7 +214,6 @@ const ViewMusicPlayerModal = ({
         if (trackIndex === null || !isPlaying) return;
         const currentTrack = songs[trackIndex];
         changeBGM(currentTrack?.sourceUrl, 0, 0);
-        console.log("this ran");
         if (bgm) {
             bgm.loop(loopCurrentSong);
         }
