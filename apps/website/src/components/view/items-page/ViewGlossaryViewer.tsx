@@ -1,16 +1,40 @@
 import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
 import ViewLightbox from "@/components/view/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { CommonItemData } from "@enreco-archive/common/types";
+import { useEffect, useRef } from "react";
 
 interface ViewItemViewerProps {
-    item: CommonItemData;
+    entry: LookupEntry;
 }
 
-const ViewGlossaryViewer = ({ item }: ViewItemViewerProps) => {
+const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
+    const containerRef = useRef<HTMLDivElement>(null);
+    const contentRef = useRef<HTMLDivElement>(null);
+
+    // Handle scroll position restoration and reset
+    useEffect(() => {
+        // Use requestAnimationFrame to ensure DOM is updated
+        requestAnimationFrame(() => {
+            const isMobile = window.innerWidth < 768;
+            const scrollElement = isMobile
+                ? containerRef.current
+                : contentRef.current;
+
+            if (scrollElement) {
+                scrollElement.scrollTop = entry.scrollPosition || 0;
+            }
+        });
+    }, [entry]);
+
+    const item = entry.item;
+
     return (
-        <div className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2">
+        <div
+            ref={containerRef}
+            className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2"
+        >
             <div className="flex flex-col items-center justify-between h-full">
                 <div className="flex flex-col items-center gap-2 w-[250px]">
                     <p className="font-bold text-center">General Info</p>
@@ -78,7 +102,10 @@ const ViewGlossaryViewer = ({ item }: ViewItemViewerProps) => {
             <Separator className="md:hidden" />
 
             <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)]">
-                <div className="w-full grow md:overflow-y-auto md-content-container">
+                <div
+                    ref={contentRef}
+                    className="w-full grow md:overflow-y-auto md-content-container"
+                >
                     <ViewMarkdown
                         className="p-2"
                         onNodeLinkClicked={() => {}}
@@ -87,8 +114,6 @@ const ViewGlossaryViewer = ({ item }: ViewItemViewerProps) => {
                         {item.content}
                     </ViewMarkdown>
                 </div>
-
-                {/* <Separator /> */}
             </div>
         </div>
     );

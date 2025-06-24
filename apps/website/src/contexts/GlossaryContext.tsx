@@ -16,10 +16,11 @@ export type Category =
     | "cat-quests"
     | "cat-misc";
 
-type LookupEntry = {
+export type LookupEntry = {
     categoryKey: Category;
     subcategory: string;
     item: CommonItemData;
+    scrollPosition?: number;
 };
 
 const categoryMap: Record<Category, GlossaryPageData> = {
@@ -46,9 +47,10 @@ for (const [categoryKey, data] of Object.entries(categoryMap)) {
 
 interface GlossaryContextType {
     registry: typeof registry;
-    current: LookupEntry | null;
+    currentEntry: LookupEntry | null;
     history: LookupEntry[];
-    selectItem: (entry: LookupEntry | null) => void;
+    goingBack: boolean;
+    selectItem: (entry: LookupEntry | null, scrollPosition?: number) => void;
     goBack: () => void;
     goHome: () => void;
     clearHistory: () => void;
@@ -57,28 +59,36 @@ interface GlossaryContextType {
 const GlossaryContext = createContext<GlossaryContextType | null>(null);
 
 export function GlossaryProvider({ children }: { children: ReactNode }) {
-    const [current, setCurrent] = useState<LookupEntry | null>(null);
+    const [currentEntry, setCurrentEntry] = useState<LookupEntry | null>(null);
     const [history, setHistory] = useState<LookupEntry[]>([]);
+    const [goingBack, setGoingBack] = useState(false);
 
-    const selectItem = (entry: LookupEntry | null) => {
-        setHistory((h) => (current ? [...h, current] : h));
-        setCurrent(entry);
+    const selectItem = (
+        entry: LookupEntry | null,
+        scrollPosition: number = 0,
+    ) => {
+        setHistory((h) =>
+            currentEntry ? [...h, { ...currentEntry, scrollPosition }] : h,
+        );
+        setCurrentEntry(entry);
+        setGoingBack(false);
     };
 
     const goBack = () => {
         setHistory((h) => {
             if (h.length === 0) {
-                setCurrent(null);
+                setCurrentEntry(null);
                 return [];
             }
             const prev = h[h.length - 1];
-            setCurrent(prev);
+            setCurrentEntry(prev);
             return h.slice(0, -1);
         });
+        setGoingBack(true);
     };
 
     const goHome = () => {
-        setCurrent(null);
+        setCurrentEntry(null);
         setHistory([]);
     };
 
@@ -89,9 +99,10 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
     return (
         <GlossaryContext.Provider
             value={{
+                goingBack,
                 registry,
                 selectItem,
-                current,
+                currentEntry,
                 history,
                 goBack,
                 goHome,

@@ -57,14 +57,13 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
     const {
         registry,
-        current,
+        currentEntry,
         history,
         clearHistory,
         selectItem,
         goBack,
         goHome,
     } = useGlossary();
-    const selectedItem = current?.item || null;
 
     useEffect(() => {
         const newMap: GlossaryPageData = {};
@@ -89,10 +88,10 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
     // If context.selected changes (via a #item link), jump to its category
     useEffect(() => {
-        if (current) {
-            setSelectedCategory(current.categoryKey);
+        if (currentEntry) {
+            setSelectedCategory(currentEntry.categoryKey);
         }
-    }, [current]);
+    }, [currentEntry]);
 
     const allEmpty = Object.values(filteredData).every(
         (arr) => arr.length === 0,
@@ -104,13 +103,15 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                 <div className="flex flex-row h-[30px] items-center w-full justify-between px-2">
                     <CardTitle className="flex justify-between items-center w-full">
                         {categoryMap[selectedCategory].label}
-                        {selectedItem !== null && (
+                        {currentEntry !== null && (
                             <div className="flex items-center gap-2">
                                 {history.length > 0 && (
                                     <ChevronLeft
                                         size={24}
                                         className="cursor-pointer transition-opacity opacity-60 hover:opacity-100"
-                                        onClick={goBack}
+                                        onClick={() => {
+                                            goBack();
+                                        }}
                                     />
                                 )}
                                 <Home
@@ -130,7 +131,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     >
                         <SelectTrigger
                             className={cn("w-[180px]", {
-                                hidden: selectedItem !== null,
+                                hidden: currentEntry !== null,
                             })}
                         >
                             <SelectValue />
@@ -154,7 +155,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
 
             <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto">
                 <AnimatePresence mode="wait">
-                    {selectedItem === null && (
+                    {currentEntry === null && (
                         <motion.div
                             key="grid"
                             initial={{ opacity: 0 }}
@@ -208,7 +209,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                         </motion.div>
                     )}
 
-                    {selectedItem !== null && (
+                    {currentEntry !== null && (
                         <motion.div
                             className="h-full"
                             key="viewer"
@@ -216,7 +217,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                         >
-                            <ViewGlossaryViewer item={selectedItem} />
+                            <ViewGlossaryViewer entry={currentEntry} />
                         </motion.div>
                     )}
                 </AnimatePresence>

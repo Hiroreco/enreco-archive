@@ -13,7 +13,27 @@ export default function EntryLink({ itemId, children }: ItemLinkProps) {
     const entry = registry[itemId];
 
     const handleClick = useCallback(() => {
-        if (entry) selectItem(entry);
+        if (entry) {
+            // Capture current scroll position
+            const isMobile = window.innerWidth < 768;
+            let scrollPosition = 0;
+
+            if (isMobile) {
+                // On mobile, the entire viewer container is scrollable
+                const viewerContainer = document.querySelector(
+                    ".flex.flex-col.items-center.md\\:items-start.overflow-y-auto",
+                ) as HTMLElement;
+                scrollPosition = viewerContainer?.scrollTop || 0;
+            } else {
+                // On desktop, only the content area is scrollable
+                const contentContainer = document.querySelector(
+                    ".md\\:overflow-y-auto.md-content-container",
+                ) as HTMLElement;
+                scrollPosition = contentContainer?.scrollTop || 0;
+            }
+
+            selectItem(entry, scrollPosition);
+        }
     }, [entry, selectItem]);
 
     return (
