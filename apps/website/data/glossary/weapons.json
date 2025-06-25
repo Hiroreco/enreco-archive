@@ -1,29 +1,29 @@
 {
   "revelations": [
     {
-      "id": "automaton-assult-entry",
-      "title": "Automaton Assult",
+      "id": "automaton-assault-entry",
+      "title": "Automaton Assault",
       "chapters": [
         -1
       ],
-      "quote": "Hmph, don't tell me what to do. Automaton Assult!",
-      "content": "## Overview\n\n**Automaton Assult**, a lance adorned in gold and green, is the beloved weapon of Cecilia Immergreen on her journey through the Kingdom of Libestal.\n\n## Details\n\nAn ancient automaton, a champion of Justice with a love for flowers, tea, and assulting the world with her _very unbiased_ opinions, it’s only fitting her weapon carries a name like this.\n\nWhen activated, Cecilia unleashes a concentrated flurry of spear strikes at her enemies. As terrifying as being on the receiving end of a rapid-fire poking spree sounds, the intimidation factor tends to wear off just a bit—thanks to the adorably cheerful catchphrase she never forgets to shout right before launching her target into oblivion.\n\n[Automaton Assult!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)",
-      "thumbnailSrc": "/images-opt/automaton-assult-entry-thumb.webp",
+      "quote": "Hmph, don't tell me what to do. Automaton Assault!",
+      "content": "## Overview\n\n**Automaton Assault**, a lance adorned in gold and green, is the beloved weapon of Cecilia Immergreen on her journey through the Kingdom of Libestal.\n\n## Details\n\nAn ancient automaton, a champion of Justice with a love for flowers, tea, and assulting the world with her _very unbiased_ opinions, it’s only fitting her weapon carries a name like this.\n\nWhen activated, Cecilia unleashes a concentrated flurry of spear strikes at her enemies. As terrifying as being on the receiving end of a rapid-fire poking spree sounds, the intimidation factor tends to wear off just a bit—thanks to the adorably cheerful catchphrase she never forgets to shout right before launching her target into oblivion.\n\n[Automaton Assault!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)",
+      "thumbnailSrc": "/images-opt/automaton-assault-entry-thumb.webp",
       "galleryImages": [
         {
-          "title": "Cecilia's first time wielding Automaton Assult",
-          "source": "/images-opt/automaton-assult-entry-0.webp"
+          "title": "Cecilia's first time wielding Automaton Assault",
+          "source": "/images-opt/automaton-assault-entry-0.webp"
         },
         {
-          "title": "Automaton Assult as viewed from the inventory",
-          "source": "/images-opt/automaton-assult-entry-1.webp"
+          "title": "Automaton Assault as viewed from the inventory",
+          "source": "/images-opt/automaton-assault-entry-1.webp"
         },
         {
-          "title": "Automaton Assult's ability activated",
-          "source": "/images-opt/automaton-assult-entry-2.webp"
+          "title": "Automaton Assault's ability activated",
+          "source": "/images-opt/automaton-assault-entry-2.webp"
         }
       ],
-      "modelSrc": "/models/automaton-assult-entry.glb"
+      "modelSrc": "/models/automaton-assault-entry.glb"
     },
     {
       "id": "azure-claws-entry",
