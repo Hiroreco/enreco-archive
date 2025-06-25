@@ -2,6 +2,7 @@ import SONGS from "#/songs.json";
 import AudioVisualizer from "@/components/view/ViewAudioVisualizer";
 import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
+import { useSettingStore } from "@/store/settingStore";
 import {
     Dialog,
     DialogContent,
@@ -230,15 +231,9 @@ const ViewMusicPlayerModal = ({
         setShuffledIndices,
     } = useMusicPlayerStore();
 
-    const {
-        changeBGM,
-        bgm,
-        playBGM,
-        pauseBGM,
-        bgmVolume,
-        setBgmVolume,
-        siteBgmKey,
-    } = useAudioStore();
+    const { changeBGM, bgm, playBGM, pauseBGM, siteBgmKey } = useAudioStore();
+    const { setBgmVolume, bgmVolume } = useSettingStore();
+
     const listRef = useRef<HTMLDivElement>(null);
 
     const hasSelection = catIndex !== null && trackIndex !== null;
@@ -400,16 +395,17 @@ const ViewMusicPlayerModal = ({
             const newShuffledIndices = generateShuffledIndices(songs.length);
             setShuffledIndices(newShuffledIndices);
         }
-        // Turn off loopWithinCategory when category changes
-        setLoopWithinCategory(false);
     }, [
         catIndex,
         isShuffled,
         songs.length,
         generateShuffledIndices,
         setShuffledIndices,
-        setLoopWithinCategory,
     ]);
+
+    useEffect(() => {
+        setLoopWithinCategory(false);
+    }, [setLoopWithinCategory, catIndex]);
 
     // Scroll into view when selection changes
     useEffect(() => {
@@ -472,20 +468,40 @@ const ViewMusicPlayerModal = ({
                 <div className="flex md:flex-row flex-col items-center gap-2">
                     {/* Cover & Controls */}
                     <div className="hidden md:flex flex-col items-center gap-4 p-2 dark:bg-white/5 bg-black/30 rounded-lg">
-                        <Image
-                            // TODO: temp no song logo, change later
-                            src={
-                                currentTrack?.coverUrl ||
-                                "/images-opt/song-chapter-2.webp"
-                            }
-                            alt={currentTrack?.title || "Select a track"}
-                            width={300}
-                            height={300}
-                            className="rounded-lg size-[300px] cursor-pointer"
-                            draggable={false}
-                            onClick={playPause}
-                            title={isPlaying ? "Pause" : "Play"}
-                        />
+                        <div className="relative group">
+                            <Image
+                                // TODO: temp no song logo, change later
+                                src={
+                                    currentTrack?.coverUrl ||
+                                    "/images-opt/song-chapter-2.webp"
+                                }
+                                alt={currentTrack?.title || "Select a track"}
+                                width={300}
+                                height={300}
+                                className="rounded-lg size-[300px]"
+                                draggable={false}
+                                title={isPlaying ? "Pause" : "Play"}
+                            />
+                            {/* Hover overlay with play/pause button, actually like this better with the default cursor */}
+                            {currentTrack && (
+                                <div
+                                    className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-lg hover:bg-black/50"
+                                    onClick={playPause}
+                                >
+                                    {isPlaying ? (
+                                        <Pause
+                                            size={32}
+                                            className="text-white"
+                                        />
+                                    ) : (
+                                        <Play
+                                            size={32}
+                                            className="text-white"
+                                        />
+                                    )}
+                                </div>
+                            )}
+                        </div>
                         <div className="flex flex-col items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
                                 <p className="truncate font-lg font-semibold">
@@ -570,7 +586,7 @@ const ViewMusicPlayerModal = ({
                     {/* Song List by Category */}
                     <div
                         ref={listRef}
-                        className="flex flex-col gap-2 px-2 border-y max-h-[40vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
+                        className="flex flex-col gap-2 px-2 border-y border-neutral-500 max-h-[40vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
                     >
                         {categories.map(([cat, list], cIdx) => (
                             <div key={cat}>
