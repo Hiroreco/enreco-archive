@@ -14,9 +14,10 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const contentRef = useRef<HTMLDivElement>(null);
 
-    // Handle scroll position restoration and reset
-    useEffect(() => {
-        // Use requestAnimationFrame to ensure DOM is updated
+    const item = entry.item;
+
+    const handleAnimationComplete = () => {
+        // Handle scroll position restoration after animation completes
         requestAnimationFrame(() => {
             const isMobile = window.innerWidth < 768;
             const scrollElement = isMobile
@@ -24,12 +25,13 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                 : contentRef.current;
 
             if (scrollElement) {
-                scrollElement.scrollTop = entry.scrollPosition || 0;
+                scrollElement.scrollTo({
+                    top: entry.scrollPosition || 0,
+                    behavior: "smooth",
+                });
             }
         });
-    }, [entry]);
-
-    const item = entry.item;
+    };
 
     return (
         <AnimatePresence mode="wait">
@@ -38,7 +40,8 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.15 }}
+                onAnimationComplete={handleAnimationComplete}
                 ref={containerRef}
                 id="glossary-viewer-container"
                 className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2"

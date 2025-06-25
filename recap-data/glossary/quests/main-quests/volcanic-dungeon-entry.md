@@ -1,4 +1,4 @@
-<!-- title: Volcano Dungeon -->
+<!-- title: Volcanic Dungeon -->
 <!-- quote: Fried Chicken -->
 <!-- chapters: 0 -->
 <!-- images: -->
@@ -9,7 +9,6 @@
 ???
 
 **Day Unlocked**: ?
-
 
 ## Details
 
