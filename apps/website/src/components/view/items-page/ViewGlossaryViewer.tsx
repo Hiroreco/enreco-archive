@@ -4,7 +4,7 @@ import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 interface ViewItemViewerProps {
     entry: LookupEntry;
