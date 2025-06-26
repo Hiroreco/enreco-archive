@@ -30,7 +30,7 @@ Bae wasn't a peasant—she helped out _peasants_, like Charlie! That brat. Bae r
 
 But all is not over, for there are a few more challenges. First, the Outlander. Bae must prove that she is [the hero this world needs](https://youtu.be/L7rBGepFrXA?t=6108) and overturn fate. A battle well fought and well won.
 
-Second, there were Bae's memories. [Who was Mother](https://youtu.be/L7rBGepFrXA?t=6505) if Bae ever had one. Bae can remember Charlie fondly, reminiscing about the times they spent as she worked, but not a 'Mother'. Was perhaps, Mother... Brother? Was 'Brother' Charlie? It almost felt like the memories in Bae's head were in too much conflict for her to truly understand.
+Second, there were Bae's memories. [Who was Mother](https://youtu.be/L7rBGepFrXA?t=6505) if Bae ever had one. Bae can remember Charlie fondly, reminiscing about the times they spent as she worked, but not a 'Mother.' Was perhaps, Mother... Brother? Was 'Brother' Charlie? It almost felt like the memories in Bae's head were in too much conflict for her to truly understand.
 
 But it wasn't just Bae who was troubled, since a distressed Bijou soon called for help; [Bijou's beloved, Shiori, and Gonathon were talking once again](https://youtu.be/L7rBGepFrXA?t=10880). Caught between trusting her wife and repeating her mistake, Bijou turned to Bae for advice. Despite the tensions earlier in the day, Bae still held Bijou as a friend. She told her to trust Shiori and that they could begin the custody battle/family therapy session with Mordan soon.
 

@@ -22,7 +22,7 @@ Instead, she continued pulling crops from the ground, her movements eerily metho
 
 [No! Not my salad!](#embed:https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=8362)
 
-Startled, Nerissa tried to stop her, calling for help. Soon, everyone gathered, watching in shock as Bijou tore through the crops with unrelenting speed. They yelled at her and tried using their Revelations to snap her out of it, but nothing worked. Only when the fields were left barren did she finally stop. And then, in a chilling voice, she uttered just four words: *"May the land starve."* And with that, she vanished.
+Startled, Nerissa tried to stop her, calling for help. Soon, everyone gathered, watching in shock as Bijou tore through the crops with unrelenting speed. They yelled at her and tried using their Revelations to snap her out of it, but nothing worked. Only when the fields were left barren did she finally stop. And then, in a chilling voice, she uttered just four words: _"May the land starve."_ And with that, she vanished.
 
 So it was Bijou who had been destroying the fields all along. But more importantly—why? What had happened to her? Why had she done such a thing? The group was left shaken and confused. Nerissa, however, was more upset than anything else. Not out of concern for Bijou, but because the crops had been her main source of income, and their destruction meant a massive hit to her profits. Still grumbling under her breath, she replanted everything to prevent a potential famine.
 

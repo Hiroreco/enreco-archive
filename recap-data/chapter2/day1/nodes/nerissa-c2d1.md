@@ -18,7 +18,6 @@ And of course, she got swept up in all sorts of shenanigans with the others alon
 
 [You didn't hear that from me](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=lWELp9iRolic9XBH&t=20884)
 
-
 ## Fanart
 
 ["kneel" by sumo](https://x.com/sumo88_/status/1900190544602734862)

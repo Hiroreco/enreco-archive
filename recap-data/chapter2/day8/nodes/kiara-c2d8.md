@@ -2,8 +2,7 @@ With the kingdom saved, it was time to celebrate!
 
 Kiara and Roa spent a night together and bought a new home at Mordan's auction. (See [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara))
 
-Before moving in with her new wife, Kiara [extended her gratitude](https://www.youtube.com/live/8E8Dsgs5e50?t=4555) towards Elizabeth for being able to tolerate her antics in the Jade Forge. Admitting this broke her heart, to say the least. She had built this place with Elizabeth, and the phoenix didn't want her best friend to feel left alone—*even if they were going to be neighbors*.
-
+Before moving in with her new wife, Kiara [extended her gratitude](https://www.youtube.com/live/8E8Dsgs5e50?t=4555) towards Elizabeth for being able to tolerate her antics in the Jade Forge. Admitting this broke her heart, to say the least. She had built this place with Elizabeth, and the phoenix didn't want her best friend to feel left alone—_even if they were going to be neighbors_.
 
 Fortunately, Liz was already happy for her! She thanked Kiara for being her wonderful roommate and sugar mama. Both agree that even despite going their separate ways, their friendship would always stay the same.
 

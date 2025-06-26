@@ -2,7 +2,7 @@ Another fragment of memories unfolded before Fia—and with it, a revelation tha
 
 [The truth about the Outsider](#embed:https://www.youtube.com/live/wCysZh57Hcc?si=yZOPqpzRsa6KSL3D&t=11331)
 
-The Outlander, the nameless swordsman once hailed as the “hero” destined to save the world, was in truth the one who would bring about the end of the universe. He *was* the great evil. He *was* the Outsider.
+The Outlander, the nameless swordsman once hailed as the “hero” destined to save the world, was in truth the one who would bring about the end of the universe. He _was_ the great evil. He _was_ the Outsider.
 
 Fia explained that his original role had never been to save anyone. He was the Watcher—an entity created solely to observe, to remain distant and uninvolved. But when the world teetered on the edge of destruction, the Watcher couldn’t bear to stand idly by. And so, he broke the only rule that bound him, stepping in as the anonymous swordsman in a desperate attempt to help.
 

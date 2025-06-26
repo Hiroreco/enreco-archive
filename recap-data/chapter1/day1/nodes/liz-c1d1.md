@@ -16,7 +16,7 @@ The cherry on top? She was branded a harlot simply for hushing the gums of the H
 
 Despite the chaos, Elizabeth found solace in her guildmates, with whom she felt an undeniable connection. Perhaps her nature was to be kind, to stand for the weak, no matter the mishaps. She felt this strongly with the two doggos (see [Elizabeth-Mococo: By Your Side](#edge:mococo-liz)).
 
-By the end of the day, alongside Gonathon G and NinoIna—both members of Cerulean Cup—Elizabeth conquered the *Underworld Dungeon*, reclaiming the lost memories of [Mori Calliope](https://www.youtube.com/live/2qiX7084obE?feature=shared&t=12428). It marked not just the end of her chaotic first day but the beginning of her journey in this strange new world.
+By the end of the day, alongside Gonathon G and NinoIna—both members of Cerulean Cup—Elizabeth conquered the _Underworld Dungeon_, reclaiming the lost memories of [Mori Calliope](https://www.youtube.com/live/2qiX7084obE?feature=shared&t=12428). It marked not just the end of her chaotic first day but the beginning of her journey in this strange new world.
 
 ## Fanart
 

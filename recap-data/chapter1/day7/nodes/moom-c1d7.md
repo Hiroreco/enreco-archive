@@ -6,7 +6,7 @@ Unfortunately, the two were caught snooping around FaunaMart by Cecilia. In typi
 
 [Get out! You heathen!](#embed:https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=360)
 
-With distractions out of the way, it was finally time for her big reveal. She proudly announced her secret project: the grand opening of *NanaEleven*, her very own convenience store.
+With distractions out of the way, it was finally time for her big reveal. She proudly announced her secret project: the grand opening of _NanaEleven_, her very own convenience store.
 
 [Welcome to NanaEleven!](#embed:https://www.youtube.com/embed/zPJ78C7uNq8?si=mqiviMof_FRuC4tu&start=605)
 

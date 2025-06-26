@@ -16,7 +16,7 @@ Nerissa couldn’t stop thinking about Elizabeth. It seemed like the Red Knight 
 
 Desperate for clarity, she turned to Mordan for comfort. Therapy, really.
 
-[Hi, so I'm emotionally devastated](https://www.youtube.com/live/m5VOeHvSgbI?si=Yoxf24-6Bl_RxZ_d&t=13280)
+[Hi, so I'm emotionally devastated](#embed:https://www.youtube.com/live/m5VOeHvSgbI?si=Yoxf24-6Bl_RxZ_d&t=13280)
 
 She spilled everything—her frustration, her jealousy, her fears, her heartbreak. She admitted, openly, that she was in love with Lady Bloodflame. And surprisingly, Mordan didn’t laugh, didn’t push her away. She listened. She offered earnest advice, support, and warmth. And for the first time that day, Nerissa felt the weight on her chest lift—if only a little.
 

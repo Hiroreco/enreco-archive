@@ -8,9 +8,9 @@ Continuing her exploration, she encountered Nerissa, who tempted her with a new 
 
 Her disdain for FaunaMart sparked an idea—a rival store. She envisioned [NanaEleven](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=1257), a business that would stand in stark contrast to FaunaMart, offering fair prices and ethical practices. It was a bold plan, but one she tucked away for another time.
 
-For now, Napoleon turned her attention to catching up on dungeon explorations. She joined forces with Ina, Shiori, Cecilia, and Bijou to tackle the *Eldritch Horror Dungeon*. The eerie and mysterious environment resonated with the group, and they successfully recovered [memories](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=4419) of *Ninomae Ina’nis*.
+For now, Napoleon turned her attention to catching up on dungeon explorations. She joined forces with Ina, Shiori, Cecilia, and Bijou to tackle the _Eldritch Horror Dungeon_. The eerie and mysterious environment resonated with the group, and they successfully recovered [memories](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=4419) of _Ninomae Ina’nis_.
 
-Right after, the group—with Calli substituting for Cecilia—moved on to the *Volcanic Dungeon*. This fiery trial tested their resolve, with countless challenges and setbacks. Despite the obstacles, they emerged victorious, recovering [memories](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=9426) of Takanashi Kiara.
+Right after, the group—with Calli substituting for Cecilia—moved on to the _Volcanic Dungeon_. This fiery trial tested their resolve, with countless challenges and setbacks. Despite the obstacles, they emerged victorious, recovering [memories](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=9426) of Takanashi Kiara.
 
 As the day wound down, Napoleon crossed paths with the Hot Pink One, leading to one of the most baffling conversations of her life. Topics ranged from love triangles to side chicks, with Napoleon hilariously mistaking Raora for the actual Hot Pink One.
 

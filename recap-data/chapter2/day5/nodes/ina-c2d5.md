@@ -4,10 +4,11 @@ Surely the Hero would take the news in stride.
 
 Anyway, watch as the well-rested Hero and co. inspect the totally-not-a-Necronomicon-like object she wields in the battlefields. The tome bends reality in such a way that its very manifestation in this world is obscure, but one thing's for sure: it is a [progenitor](https://youtu.be/OxKP4ED-xz8?t=278s). Of what, who knows—the book is sealed shut—but actions speak louder than written words. Hardcover equals hard-hitting slam ~~poetry~~.
 
-The Hot Purple One was distinct from her Pink counterpart in that *she* was perfectly literate, and her Revelation showcase was not the only time she was put to the test today:
-* Shakira made her thoughts heard, seeking amends for her transgressions (see: [Ina-Kiara: Love Thy Neighbor](#edge:ina-kiara)).
-* The Peasant penned [a confession](https://youtu.be/OxKP4ED-xz8?t=978s) to a knight who was at the dentist, and Ina was its beta reader. It was good enough to publish as is!
-* Later on, the highly discussed Hot Pink One [received the wrong charm](https://youtu.be/OxKP4ED-xz8?t=5606s)... Oh, I guess heroes do get some things wrong.
+The Hot Purple One was distinct from her Pink counterpart in that _she_ was perfectly literate, and her Revelation showcase was not the only time she was put to the test today:
+
+- Shakira made her thoughts heard, seeking amends for her transgressions (see: [Ina-Kiara: Love Thy Neighbor](#edge:ina-kiara)).
+- The Peasant penned [a confession](https://youtu.be/OxKP4ED-xz8?t=978s) to a knight who was at the dentist, and Ina was its beta reader. It was good enough to publish as is!
+- Later on, the highly discussed Hot Pink One [received the wrong charm](https://youtu.be/OxKP4ED-xz8?t=5606s)... Oh, I guess heroes do get some things wrong.
 
 While she would not get to see the resolution to her [Sneak 100 cutscene](https://youtu.be/OxKP4ED-xz8?t=1606s) (see: [Bae-Khaos](#edge:bae-khaos)), she left her mark by [helping author](https://youtu.be/OxKP4ED-xz8?t=1902s) the Baece Attorney event that leads to it. Such was the humble Hero's fate to miss out on [cinema](https://youtu.be/OxKP4ED-xz8?t=12740s).
 

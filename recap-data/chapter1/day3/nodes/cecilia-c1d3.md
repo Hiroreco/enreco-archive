@@ -22,7 +22,7 @@ Amused or perhaps out of pity, he offered her 500 coins and declared her an hono
 
 During one of her quests, Cecilia found herself caught in the middle of a scandal. She had run into Shiori, only to discover she was embroiled in a marriage drama with Bijou. Cecilia couldn’t resist watching the chaos unfold as Bijou caught Shiori red-handed in a compromising situation. Cecilia was left [marveling](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=5886) at the drama, entertained by the tension between the wedded pair.
 
-Eventually, it was time for Cecilia to face the *Eldritch Horror Dungeon*. Joining her on this journey were Nerissa and Fauna. Together, they navigated the dungeon’s dark corridors, defeating its challenges and recovering fragments of Ninomae Ina'nis’ [memories](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=7361).
+Eventually, it was time for Cecilia to face the _Eldritch Horror Dungeon_. Joining her on this journey were Nerissa and Fauna. Together, they navigated the dungeon’s dark corridors, defeating its challenges and recovering fragments of Ninomae Ina'nis’ [memories](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=7361).
 
 As with her previous days, Cecilia chose to wind down with some gambling. The day’s events had completely distracted her from the mysterious note she found that morning. But as she started to lose money again—her usual outcome—something strange happened. Red, ominous text flashed in her mind, reading, "Come find me."
 "You mustn’t forget."

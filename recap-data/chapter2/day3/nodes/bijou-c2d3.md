@@ -10,6 +10,6 @@ Things REALLY started to turn on their head when Bae started spilling the tea wi
 
 Word also started going around about a haunted cape haunting the town, according to her brother IRyS. Bijou didn’t seem to buy it because she saw her drink a potion of invisibility mere minutes before. Taking a page from her brother, however, she decided to sneak a listen to a conversation IRyS had with Tam Gandr, causing Bijou to become the very thing IRyS warned about… but worse.
 
-[Vulgar language](https://youtu.be/A97SrozF36w?t=20390)
+[Vulgar language](#embed:https://youtu.be/A97SrozF36w?t=20390)
 
 The rest of the day was calmer by comparison as others left for the day. After writing her daily journal entry, Roa and Bijou start polishing up the shop’s exterior. She signed the book at the end of the day, left wondering what will come of everyone’s relationships tomorrow.

@@ -10,7 +10,7 @@ A Queen Tammy was, and regal she still is; Kiara couldn't help but admire her. B
 
 Ah, the Knight was so consumed by the date that she forgot to report matters to the Princess! But before Kiara could finish her report, Shiori interrupted with a small concern. She spoke of the blind date between Gonathon and Mordan... but Shiori was interested in Gonathon. It seems matters are [complicated](https://youtu.be/wCysZh57Hcc?t=8573).
 
-[Turmoil stirred in Kiara's noble heart.](https://youtu.be/wCysZh57Hcc?t=8832)
+[Turmoil stirred in Kiara's noble heart.](#embed:https://youtu.be/wCysZh57Hcc?t=8832)
 
 Confounded. Concerned. Fear of ruining an already blossoming love. Kiara called Mococo for therapy, but the advice 'follow your heart' was too simple for a complicated matter that Kiara inadvertently created. How could she follow her heart when its path is unclear? Especially when Mordan was [ready for the date](https://youtu.be/wCysZh57Hcc?t=9226). This is the best day of my life, Mordan exclaimed, to Kiara's growing horror.
 

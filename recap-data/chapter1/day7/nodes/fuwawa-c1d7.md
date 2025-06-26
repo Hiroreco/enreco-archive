@@ -2,13 +2,13 @@ Fuwawa had been diligently preparing for the final day, as she always had since 
 
 While gathering materials, Fuwawa took a moment to reflect on the kingdom of Libestal. Despite the occasional need to slay enemies and the myriad shenanigans other heroes engaged in, the kingdom seemed [peaceful](https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=2085) overall. The challenges they faced often felt more like lighthearted adventures than real threats.
 
-She spent some time exploring the kingdom, admiring its latest developments, including the newly opened *NanaEleven* and the completed statue of the [queen](https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=2133). Fuwawa marveled at the accomplishments of her fellow heroes.
+She spent some time exploring the kingdom, admiring its latest developments, including the newly opened _NanaEleven_ and the completed statue of the [queen](https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=2133). Fuwawa marveled at the accomplishments of her fellow heroes.
 
 With plenty of time before the final day arrived, Fuwawa turned to a newfound passion: caring for Elizabeth’s chickens. As mentioned on day six, Fuwawa had been seeking something to nurture, and these chickens were the perfect companions. She adored their cuteness and tended to them lovingly in her small coop. Her eyes sparkled with joy whenever they laid eggs, and she fed them every seed she could find. It was a simple yet blissful routine that brought her immense happiness.
 
 [They're so cute](#embed:https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=9083)
 
-However, her joy was short-lived. After venturing out to gather materials, Fuwawa returned to find her coop empty. All the chickens were gone—vanished without a trace. Not even a feather remained. Confusion and panic set in as she considered the possibilities. Had they flown away? Escaped? Both seemed unlikely. This left her with a more troubling thought: someone had *done* something to them.
+However, her joy was short-lived. After venturing out to gather materials, Fuwawa returned to find her coop empty. All the chickens were gone—vanished without a trace. Not even a feather remained. Confusion and panic set in as she considered the possibilities. Had they flown away? Escaped? Both seemed unlikely. This left her with a more troubling thought: someone had _done_ something to them.
 
 [What happened to my chickens...](#embed:https://www.youtube.com/embed/zdQoGFICNDk?si=k3FnLH85iZl-cZKz&start=11103)
 

@@ -1,6 +1,6 @@
 <!-- title: I Met My Ex-Wife in Libestal But We Both Forgot Our Memories -->
 
-Though they may not remember, some things don't change between worlds. 
+Though they may not remember, some things don't change between worlds.
 
 In a familiar song and dance, Bae and the Hot Pink One once again clash; anything the Hot Pink One says is [incomprehensible](https://youtu.be/7bOe38rP7JQ?t=3182) to Peasant the Bae's ears and the feeling is quite mutual. The Hot Pink One is quite generous to feed anyone she comes across with the exception of the peasant. But this does not stop business, with Bae agreeing to be the Hot Pink One's SC (supply chain) for her consort's concert at the end of their adventure.
 

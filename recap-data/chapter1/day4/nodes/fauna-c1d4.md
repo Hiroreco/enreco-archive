@@ -2,7 +2,7 @@ Fauna’s fourth day began with her favorite ritual: drawing the lottery. The ja
 
 [FaunaMart's 3rd Lottery Drawing](#embed:https://www.youtube.com/live/E2JxBxhda9I?t=247)
 
-The winning number of the day was *571*, but unfortunately—or perhaps fortunately for Fauna—there were no winners. With a grin, she shrugged it off, ["No winner, no problem,"](https://www.youtube.com/live/E2JxBxhda9I?feature=shared&t=736) as the jackpot continued to grow.
+The winning number of the day was _571_, but unfortunately—or perhaps fortunately for Fauna—there were no winners. With a grin, she shrugged it off, ["No winner, no problem,"](https://www.youtube.com/live/E2JxBxhda9I?feature=shared&t=736) as the jackpot continued to grow.
 
 Her excitement was interrupted when she noticed some unusual activity behind her store. Curious, Fauna went to investigate, only to find Gura constructing [gallows](https://www.youtube.com/live/E2JxBxhda9I?feature=shared&t=767). The sight left her both surprised and concerned. While it wasn’t necessarily bad in itself, the looming presence of the gallows behind FaunaMart seemed like questionable symbolism for her business, potentially scaring off customers.
 

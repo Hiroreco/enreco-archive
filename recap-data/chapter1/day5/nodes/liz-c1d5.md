@@ -10,6 +10,6 @@ Shaking off her melancholy with surprising speed, Elizabeth braced herself for t
 
 Later, Elizabeth seized a rare quiet moment to resume her internal musings. She pondered the Scarlet Wand’s growing power and found herself oddly stirred by words like "harbinger" and, most notably, "justice." But, as was becoming routine, her thoughts were abruptly interrupted—this time by her noisy neighbor [blasting music](https://www.youtube.com/live/1_dhGL0K5-k?feature=shared&t=4393).
 
-Elizabeth’s day took a more adventurous turn when she joined Shiori, Nerissa, and the two doggos on a journey to the *Ancient Sewer Dungeon*. The party triumphed and recovered [memories](https://www.youtube.com/live/1_dhGL0K5-k?feature=shared&t=5881) of *Amelia Watson*.
+Elizabeth’s day took a more adventurous turn when she joined Shiori, Nerissa, and the two doggos on a journey to the _Ancient Sewer Dungeon_. The party triumphed and recovered [memories](https://www.youtube.com/live/1_dhGL0K5-k?feature=shared&t=5881) of _Amelia Watson_.
 
 As the day wound down, Elizabeth continued working on the prison-slash-dungeon-slash-bunker-slash-grave structure. She also enjoyed a lighthearted chat with Jyonathan—now recalling that they were Amelia—about building an onsen and how Tam’s statue resembled a worm. Their similar sense of humor hinted at a shared [wavelength](https://www.youtube.com/live/1_dhGL0K5-k?feature=shared&t=12113).

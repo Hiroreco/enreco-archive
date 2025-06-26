@@ -10,4 +10,4 @@ The refusals didn’t end there. Cecilia later invited Shiori to join her in tac
 
 After navigating the day’s chaos, Shiori finally found some time to focus on herself. She completed her quests, gathered funds, and continued building her humble abode. She also took a break to visit the "Death Do Us Part" tavern for a [meal](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=6718).
 
-As the day drew to a close, Shiori teamed up with Bijou, Gonathon, and Tam Gandr to conquer the *Eldritch Horror dungeon*. Together, they successfully recovered fragments of *Ninomae Ina'nis’* [memories](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=8370).
+As the day drew to a close, Shiori teamed up with Bijou, Gonathon, and Tam Gandr to conquer the _Eldritch Horror dungeon_. Together, they successfully recovered fragments of _Ninomae Ina'nis’_ [memories](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=8370).

@@ -1,4 +1,4 @@
-<!-- title: Hamlet-Act III, Scene I  -->
+<!-- title: Hamlet-Act III, Scene I -->
 
 To be, or not to be, that is the question:
 Whether 'tis nobler in the mind to suffer

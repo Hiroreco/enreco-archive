@@ -38,7 +38,7 @@ The words catch Elizabeth off guard, but she doesn’t deny them. Red in the fac
 
 With the chat with Kiara concluded, Elizabeth moves to find Nerissa once again, replicating something unique to them.
 
-[“Juliet, Juliet!”](https://www.youtube.com/live/b-jTHH6GK5w?si=wW_PnKZylMBJiFeK&t=5150)
+[“Juliet, Juliet!”](#embed:https://www.youtube.com/live/b-jTHH6GK5w?si=wW_PnKZylMBJiFeK&t=5150)
 
 Though neither remembers the lines fully, it is a cheerful memory for them. Romeo and Juliet. Elizabeth and Nerissa.
 

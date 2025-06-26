@@ -10,6 +10,6 @@ Raora’s aspirations to be recognized as queen extended beyond titles and symbo
 
 With the castle nearing completion, Raora began working on constructing the Amber Coin [logo](https://www.youtube.com/live/xT6ChmC6CfU?feature=shared&t=3389) in her guild’s area. This emblem would serve as a symbol of her reign, reinforcing her claim as the true queen.
 
-Later in the day, Raora teamed up with Gonathon, Cecilia, Bijou, and the Hot Pink One to conquer the *Ancient Sewer Dungeon*. The group succeeded in recovering [memories](https://www.youtube.com/live/xT6ChmC6CfU?feature=shared&t=9528) of *Amelia Watson*.
+Later in the day, Raora teamed up with Gonathon, Cecilia, Bijou, and the Hot Pink One to conquer the _Ancient Sewer Dungeon_. The group succeeded in recovering [memories](https://www.youtube.com/live/xT6ChmC6CfU?feature=shared&t=9528) of _Amelia Watson_.
 
 The dungeon’s aftermath then brought an unusual twist—Hot Pink One approached Raora with a bold request: to take Bijou’s hand as her side chick. After a moment of hesitation, Raora agreed, recognizing this as an opportunity to strengthen her position as queen. Her condition? The Hot Pink One must acknowledge Raora as the [true queen](https://www.youtube.com/live/xT6ChmC6CfU?feature=shared&t=11463).

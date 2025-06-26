@@ -4,7 +4,7 @@ Cecilia and NinoIna had only shared passing interactions, but they were always c
 
 NinoIna and Cecilia depart for the training grounds [to spar](https://www.youtube.com/watch?v=wYTiK9cm_bo&t=6470s) in preparation for the final battle. Their bond grows as close as the clashing of their swords in the distant field.
 
-After having cleared the Heart of Ruins, Cecilia seeks NinoIna's counsel in order to sort out the feelings of her heart. 
+After having cleared the Heart of Ruins, Cecilia seeks NinoIna's counsel in order to sort out the feelings of her heart.
 
 [Be Kind to Yourself](#embed:https://www.youtube.com/watch?v=wYTiK9cm_bo&t=9750s)
 

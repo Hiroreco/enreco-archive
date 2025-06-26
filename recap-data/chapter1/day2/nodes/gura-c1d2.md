@@ -6,7 +6,7 @@ She proved her point by revealing that, despite not being present, she already k
 
 [The Appointed Point's power](#embed:https://www.youtube.com/live/bOIlLaFiiE4?t=648)
 
-The group then investigated the source of the day’s buzz: the under-construction *FaunaMart* convenience store. Fauna enthusiastically explained her lottery system and how it could benefit the kingdom, though Shakira remained skeptical. Cecilia stepped in, offering the allure of a ["German discount"](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=1123), a mysterious incentive that segued into a side quest where the group attempted to learn [German](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=1210).
+The group then investigated the source of the day’s buzz: the under-construction _FaunaMart_ convenience store. Fauna enthusiastically explained her lottery system and how it could benefit the kingdom, though Shakira remained skeptical. Cecilia stepped in, offering the allure of a ["German discount"](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=1123), a mysterious incentive that segued into a side quest where the group attempted to learn [German](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=1210).
 
 After fully mastering German in just five minutes, their antics resumed as Fauna forced Gura to buy a lottery ticket, sprinkled with discussions about ["ice-breaking" videos](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=1785) and Darwin’s unused ["kindle"](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=1937).
 
@@ -16,7 +16,7 @@ They then turned their attention to gacha boxes, with Cecilia determined to win 
 
 She warned Darwin of the immense responsibility and stress tied to being part of the Appointed Points. Darwin solemnly accepted the role, sealing the pact with a ceremonial touching of tips.
 
-With their new (unofficial) member in tow, the group attempted to scam Calli into buying [lottery tickets](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=2658) before bidding Fauna farewell and preparing for the *Ocean Temple Dungeon*.
+With their new (unofficial) member in tow, the group attempted to scam Calli into buying [lottery tickets](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=2658) before bidding Fauna farewell and preparing for the _Ocean Temple Dungeon_.
 
 As the conquest began, Gura felt a strange sense of familiarity. The oceanic decor, ~~aircrafts~~ [dolphin statues](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=5735), and subtle hints of lore stirred memories of a life long forgotten. It felt personal, as if this dungeon was somehow tied to her. Determined to uncover the truth, the group pushed forward through puzzles.
 

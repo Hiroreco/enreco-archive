@@ -8,7 +8,7 @@ Before heading to the dungeon, Shiori spent some time with her "bros." Their con
 
 Shiori eventually joined Bijou, Cecilia, Ina, and Napoleon Galileo Aristotle Targaryen to tackle the Eldritch Horror Dungeon.
 
-Right after, Cecilia swapped for Calli, the group proceeded to the *Volcanic Dungeon*. This journey proved to be a loud and chaotic ordeal. Shouts and screams echoed through the dungeon as one hero after another plunged into fiery pits of doom. Shiori, in particular, found herself screaming so much that Calli nearly lost her hearing.
+Right after, Cecilia swapped for Calli, the group proceeded to the _Volcanic Dungeon_. This journey proved to be a loud and chaotic ordeal. Shouts and screams echoed through the dungeon as one hero after another plunged into fiery pits of doom. Shiori, in particular, found herself screaming so much that Calli nearly lost her hearing.
 
 [Turn your volumes up](#embed:https://www.youtube.com/live/N3v-MJXHQ0w?t=7212)
 

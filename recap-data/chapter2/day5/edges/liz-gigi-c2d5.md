@@ -1,8 +1,8 @@
 <!-- title: Honor and Justice -->
 
-Throughout Gonathon’s trials and tribulations, a keen eye was observing and keeping track of him. No longer able to continue passively watching, Gonathon’s fellow knight Elizabeth called Gonathon, stating that she wished to speak in private. Despite having not interacted much with Liz in the current Libestal, this conversation would prove to have an immense impact on both of them. 
+Throughout Gonathon’s trials and tribulations, a keen eye was observing and keeping track of him. No longer able to continue passively watching, Gonathon’s fellow knight Elizabeth called Gonathon, stating that she wished to speak in private. Despite having not interacted much with Liz in the current Libestal, this conversation would prove to have an immense impact on both of them.
 
-Calling Gonathon to her home, the two at first attempted to have a conversation in [the Jade Forge’s basement](https://youtu.be/alQr5XqoUPs?t=9708), but upon being stalked by interlopers, Liz led Gonathon through a secret passage. There in private, Liz scolded Gonathon for associating and giving money to [witches](https://youtu.be/alQr5XqoUPs?t=9885), despite her own obvious affinity for one. This teasing soon led to a warm exchange, with Gonathon regaling Liz with the adventures of the Wolf Pack and Liz giving Gonathon some wise words on the nature of love and duty. 
+Calling Gonathon to her home, the two at first attempted to have a conversation in [the Jade Forge’s basement](https://youtu.be/alQr5XqoUPs?t=9708), but upon being stalked by interlopers, Liz led Gonathon through a secret passage. There in private, Liz scolded Gonathon for associating and giving money to [witches](https://youtu.be/alQr5XqoUPs?t=9885), despite her own obvious affinity for one. This teasing soon led to a warm exchange, with Gonathon regaling Liz with the adventures of the Wolf Pack and Liz giving Gonathon some wise words on the nature of love and duty.
 
 [What are you fighting for?](#embed:https://youtu.be/alQr5XqoUPs?t=10749)
 

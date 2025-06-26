@@ -8,7 +8,7 @@ Afterward, Fuwawa returned to her beloved café, rolling up her sleeves for the 
 
 [Cafe complete!](#embed:https://www.youtube.com/live/9A1cO7jL0jw?t=2950)
 
-And just like that, it was done. Everything—*everything*—was complete. From having nothing to becoming the wealthiest; from being unknown to bringing smiles to countless faces with her cooking. Fuwawa had come so far, and she was endlessly grateful for everyone who had supported her along the way.
+And just like that, it was done. Everything—_everything_—was complete. From having nothing to becoming the wealthiest; from being unknown to bringing smiles to countless faces with her cooking. Fuwawa had come so far, and she was endlessly grateful for everyone who had supported her along the way.
 
 Still, something tugged at her heart. A subtle feeling, hard to explain, but it centered on four others—Nerissa, Mococo, Bijou, and Shiori. There was something special about this group. A deep resonance. Enough for her to imagine them not as passing allies, but as something more—something lasting. A group, a bond, a chosen family that would weather all storms together.
 

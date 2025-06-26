@@ -2,7 +2,7 @@
 
 Cecilia didn’t have much money. To put it bluntly, she was pretty poor—not because of some tragic backstory or a traumatic experience that left her penniless, but simply because she refused to do any quests and instead relied on leeching off others.
 
-So when she heard that Mococo needed legal help—or more specifically, *a lawyer*—for her lawsuit against FaunaMart, Cecilia’s eyes sparkled. This was an opportunity she couldn’t afford to miss. Not only could she potentially earn a paycheck from helping Mococo, but she would also be assisting her guildmate’s business in getting out of trouble. Killing two birds with one stone. Easy cash.
+So when she heard that Mococo needed legal help—or more specifically, _a lawyer_—for her lawsuit against FaunaMart, Cecilia’s eyes sparkled. This was an opportunity she couldn’t afford to miss. Not only could she potentially earn a paycheck from helping Mococo, but she would also be assisting her guildmate’s business in getting out of trouble. Killing two birds with one stone. Easy cash.
 
 [Cel Goodwoman and Associates](#embed:https://www.youtube.com/live/2ATTd32AV-Q?t=7504)
 
