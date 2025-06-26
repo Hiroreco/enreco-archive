@@ -54,7 +54,7 @@ const ViewRecapCard = ({
                         <ViewMarkdown
                             onNodeLinkClicked={onNodeLinkClicked}
                             onEdgeLinkClicked={onEdgeLinkClicked}
-                            className="px-4"
+                            className="md:px-4 px-2"
                         >
                             {dayData.dayRecap || "No content available."}
                         </ViewMarkdown>

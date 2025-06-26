@@ -165,7 +165,7 @@ const ViewEdgeCard = ({
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}
                         onNodeLinkClicked={onNodeLinkClicked}
-                        className="px-4"
+                        className="md:px-4 px-2"
                     >
                         {selectedEdge.data?.content || "No content available"}
                     </ViewMarkdown>

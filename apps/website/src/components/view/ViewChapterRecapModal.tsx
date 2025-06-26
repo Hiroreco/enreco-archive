@@ -156,7 +156,7 @@ const ViewChapterRecapModal = ({
                                 {useMemo(
                                     () => (
                                         <ViewMarkdown
-                                            className="pb-16 px-4"
+                                            className="pb-16 md:px-4"
                                             onNodeLinkClicked={() => {}}
                                             onEdgeLinkClicked={() => {}}
                                         >

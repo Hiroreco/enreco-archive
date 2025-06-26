@@ -192,10 +192,8 @@ export default function VaulDrawer({
                         <div className="flex-initial md:block hidden w-2/4 min-h-2 h-2 mx-auto my-2" />
                         <div
                             className={cn(
-                                "flex-1 p-4 pt-0 max-h-full overflow-hidden",
+                                "flex-1 p-4 pt-0 max-h-full overflow-hidden select-text",
                                 {
-                                    "pointer-events-auto":
-                                        isScrollable && !disableScrollablity,
                                     "pointer-events-none":
                                         (!isScrollable ||
                                             disableScrollablity) &&
