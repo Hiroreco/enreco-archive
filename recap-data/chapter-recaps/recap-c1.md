@@ -49,19 +49,19 @@ As these memories returned, so too did the heroes’ perceptions of one another.
 
 ### Capitalism and Bonds
 
-Of course, all of that barely scratched the surface of what went on in this kingdom. Our heroes, despite their supposed status as saviors (a title only a few truly lived up to), were... eccentric, to say the least. So much so that even the King himself might have questioned his decisions on summoning them.
+Of course, all of that barely scratched the surface of what went on in this kingdom. Our heroes, despite their supposed status as saviors (a title only a few truly lived up to), were... eccentric, to say the least. So much so that even the King himself might have questioned his decision on summoning them.
 
 One of them plotted a coup against the monarchy on day one. Another repeatedly mispronounced the kingdom's name as "Lesbians" for no reason other than, well, nothing at all.
 
 One opened a business—FaunaMart—selling everyday goods at outrageous prices, including the highly sought-after meat and, more controversially, lottery tickets. Another opened a rival shop, NanaEleven, equally predatory. Both enterprises ran elaborate scams.
 
-One hero got addicted to gambling, to those same lottery tickets, triggering confrontations, lawsuits, public trials—you name it.
+One hero got addicted to gambling—those same lottery tickets—and that kicked off everything: confrontations, lawsuits, public trials, you name it.
 
 ![Green capitalistic CEO setting up her shop](/images-opt/chrecap-0-faunamart.webp)
 
 There were battles between two fake queens. A tavern keeper who not only served food but also ran a booming side business in processing divorces—because, apparently, there was no shortage of them.
 
-From adopting strangers as their moms to proposing marriages with seeds and eggs as dowries. From a fiery knight who kept accusing a certain woman of witchcraft—who in turn relished every accusation.
+From adopting strangers as their moms, to proposing marriages with seeds and eggs as dowries, to a fiery knight who kept accusing a certain woman of witchcraft—who in turn relished every accusation.
 
 Yet beneath all that madness, a more grounded, heartfelt story unfolded—a bond between a humble knight and his precious pearl. A love story marked by trials, sweetness, sorrow, and ultimately, perseverance. Against all odds, they made it through.
 
