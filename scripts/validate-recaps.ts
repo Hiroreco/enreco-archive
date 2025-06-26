@@ -113,6 +113,35 @@ for (const dayName of dayDirs) {
                         );
                     }
                 }
+
+                // Check for potential missing #embed tags
+                const lines = content.split(/\r?\n/);
+                for (let i = 1; i < lines.length - 1; i++) {
+                    const prev = lines[i - 1].trim();
+                    const curr = lines[i].trim();
+                    const next = lines[i + 1].trim();
+
+                    // a line that's exactly a standalone Markdown link
+                    const m = curr.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                    if (m && prev === "" && next === "") {
+                        const url = m[2].trim();
+
+                        // 1) Already an embed → ignore
+                        if (url.startsWith("#embed:")) continue;
+
+                        // 2) Any other hash‐tag link (#node:, #edge:, #easter:, etc.) → ignore
+                        if (/^#\w+:/.test(url)) continue;
+
+                        // 3) Twitter / X links → ignore
+                        if (/^https?:\/\/(www\.)?(twitter|x)\.com\//.test(url))
+                            continue;
+
+                        // Otherwise, warn about a standalone link that probably needs #embed
+                        issues.push(
+                            `potential missing #embed tag around standalone link ${curr}`,
+                        );
+                    }
+                }
             }
 
             // Title check for edges only

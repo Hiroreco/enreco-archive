@@ -40,7 +40,7 @@ This hatched a plan in Queen Tam's mind. Why not just take NinoIna for herself? 
 
 Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](https://youtu.be/CUh9eciJil4?t=6916) NinoIna's house and saw HPO lurking around. They pretended not to see each other, quite literally, much to Bijou's distress, who was caught in the crossfire between two unrelenting petty forces insulting each other through her.
 
-["Why did I decide to love someone like you?"](https://youtu.be/CUh9eciJil4?t=7701)
+["Why did I decide to love someone like you?"](#embed:https://youtu.be/CUh9eciJil4?t=7701)
 
 Before retiring for the day, Queen Tam visited Mordan Ramsey, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordan and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordan Ramsey gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.
 

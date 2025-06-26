@@ -10,7 +10,7 @@ A sense of excitement filled the air as they wait for Queen Tam to arrive; [Bae 
 
 But, it seemed a certain pink one might have something _more_ than constipation. Words such as "raise," "sickness," and "life-altering changes" reached Bae's ears. The pieces connected... _IRyS_ was **pregnant**.
 
-[Then Gonathon Raised Another Concern](https://youtu.be/Br6dvhVJ_IE?t=2782)
+[Then Gonathon Raised Another Concern](#embed:https://youtu.be/Br6dvhVJ_IE?t=2782)
 
 Bae paused. _Is_ there anyone in the kingdom qualified to help with childbi-
 
@@ -32,7 +32,7 @@ Swiftly, Gonathon was by Bae's side, a witness to her heartbreak (see [Bae-Gigi]
 
 With love, and Cecilia, behind her, Bae witnessed the... party. Slightly awkward as others may have known about her recent plight, Bae reassured all that she was fine, even introducing IRyS to her [abandoned nephew.](https://youtu.be/Br6dvhVJ_IE?t=5633) Soon the party started and, tradition at this point, drama ensued. Queen Tammy [rejecting the Hot Pink One](https://youtu.be/Br6dvhVJ_IE?t=5761), Gonathon jumping at his Queen's defence.
 
-[... Who was going to deliver the child?](https://youtu.be/Br6dvhVJ_IE?t=5883)
+[... Who was going to deliver the child?](#embed:https://youtu.be/Br6dvhVJ_IE?t=5883)
 
 Ignoring _that_, [Bae looked for the Queen](https://youtu.be/Br6dvhVJ_IE?t=5936), inquiring about the authencity of the rumours. Bae watched reassured as Queen Tam admired herself, it seemed all was fine now and that the Queen would stay in Libestal. Hearing that, Bae couldn't help but feel disappointed, since she would leave to find her Box. Bae left to give them some privacy as Tammy's therapy session would soon begin.
 
@@ -40,9 +40,7 @@ A series of events quickly followed: a gassy girl born [(the less said, the bett
 
 Finally, Bae went to finalize the room for her children, Khaos and The Other One. Before long, it was done; it was warm and comfortable with plenty of supplies to keep them fed; [Bae even won 2 figures from the gacha](https://youtu.be/Br6dvhVJ_IE?t=8199) after 36 attempts! Bae commerated this moment with Gonathon and Bijou, fellow State Farmers, proudly showing them her hard work.
 
-[Kids' Room](https://youtu.be/Br6dvhVJ_IE?t=9402)
-
-[And The Other One is named... Chaoz](https://youtu.be/Br6dvhVJ_IE?t=9475)
+[Kids' Room](#embed:https://youtu.be/Br6dvhVJ_IE?t=9402)
 
 But alas, with every high in life, there are lows, for [Bae was scammed](https://youtu.be/Br6dvhVJ_IE?t=10289), and her endeavours in [fireworks did not spark colour in her life](https://youtu.be/Br6dvhVJ_IE?t=11047).
 
