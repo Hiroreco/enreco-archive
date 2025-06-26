@@ -207,16 +207,16 @@
       "imageSrc": "/images-opt/underworld-dungeon-entry.webp"
     },
     {
-      "id": "volcano-dungeon",
-      "title": "Volcano Dungeon",
+      "id": "volcanic-dungeon-entry",
+      "title": "Volcanic Dungeon",
       "chapters": [
         0
       ],
       "quote": "Fried Chicken",
-      "content": "## Overview\n\n???\n\n**Day Unlocked**: ?\n\n\n## Details\n\n???\n\n### Puzzles\n\n- Lava\n- Lasers\n- Statue boss fight\n\n### Rewards\n\n- Hinotori disc\n\n### Sources\n\n- Concept Art - [taneda822456](https://x.com/taneda822456/status/1831263434736013607/photo/1)",
-      "thumbnailSrc": "/images-opt/volcano-dungeon-thumb.webp",
+      "content": "## Overview\n\n???\n\n**Day Unlocked**: ?\n\n## Details\n\n???\n\n### Puzzles\n\n- Lava\n- Lasers\n- Statue boss fight\n\n### Rewards\n\n- Hinotori disc\n\n### Sources\n\n- Concept Art - [taneda822456](https://x.com/taneda822456/status/1831263434736013607/photo/1)",
+      "thumbnailSrc": "/images-opt/volcanic-dungeon-entry-thumb.webp",
       "galleryImages": [],
-      "imageSrc": "/images-opt/volcano-dungeon.webp"
+      "imageSrc": "/images-opt/volcanic-dungeon-entry.webp"
     }
   ],
   "special-quests": [

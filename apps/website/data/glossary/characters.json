@@ -26,6 +26,43 @@
       "imageSrc": "/images-opt/ame-entry.webp"
     },
     {
+      "id": "bae-entry",
+      "title": "Hakos Baelz",
+      "chapters": [
+        -1
+      ],
+      "quote": "\"Placeholder\"",
+      "content": "## Overview\n\n**Memories:** Recollected\n\nGenie peasant\n\n## Details\n\nRich peasant\n\n### Chapter 1\n\n**Name:** Peasant Da Bae\n\n**Guild:** Amber Coin\n\nInto the woods\n\n### Chapter 2\n\n**Name:** Peasant The Bae\n\n**Job:** Supplier\n\nThe comeback",
+      "thumbnailSrc": "/images-opt/bae-entry-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Bae's Chapter 1 Profile",
+          "source": "/images-opt/bae-entry-0.webp"
+        },
+        {
+          "title": "Bae in the mines",
+          "source": "/images-opt/bae-entry-1.webp"
+        },
+        {
+          "title": "Bae's Chapter 2 Profile",
+          "source": "/images-opt/bae-entry-2.webp"
+        },
+        {
+          "title": "Bae's card in the \"Monster\" MV",
+          "source": "/images-opt/bae-entry-3.webp"
+        },
+        {
+          "title": "Bae's box being stolen",
+          "source": "/images-opt/bae-entry-4.webp"
+        },
+        {
+          "title": "Bae in Chapter 2's Ending",
+          "source": "/images-opt/bae-entry-5.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/bae-entry.webp"
+    },
+    {
       "id": "bijou-entry",
       "title": "Koseki Bijou",
       "chapters": [
