@@ -21,6 +21,7 @@ import {
 
 import { useReactFlow } from "@xyflow/react";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 interface Props {
     isCardOpen: boolean;
@@ -115,16 +116,20 @@ const ViewEdgeCard = ({
                         </StackItem>
                         <StackItem>
                             <div className="z-10 flex gap-4 items-center justify-between w-fit mx-auto mt-4">
-                                <img
+                                <Image
                                     className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87]"
                                     src={nodeA.data.imageSrc}
                                     alt="Node A"
+                                    width={150}
+                                    height={150}
                                 />
                                 <LineSvg style={edgeStyle} />
-                                <img
+                                <Image
                                     className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87]"
                                     src={nodeB.data.imageSrc}
                                     alt="Node B"
+                                    width={150}
+                                    height={150}
                                 />
                             </div>
                         </StackItem>
@@ -160,6 +165,7 @@ const ViewEdgeCard = ({
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}
                         onNodeLinkClicked={onNodeLinkClicked}
+                        className="px-4"
                     >
                         {selectedEdge.data?.content || "No content available"}
                     </ViewMarkdown>

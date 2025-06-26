@@ -462,7 +462,7 @@ const ViewMusicPlayerModal = ({
                 </DialogDescription>
             </DialogHeader>
             <DialogContent
-                className="max-w-fit dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20 shadow-lg"
+                className="max-w-fit dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20"
                 style={{ backgroundImage: "none" }}
             >
                 <div className="flex md:flex-row flex-col items-center gap-2">

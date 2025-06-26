@@ -40,7 +40,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                 }
             }}
         >
-            <DialogTrigger className="inline-flex items-center gap-1 hover:text-accent transition-colors">
+            <DialogTrigger className="inline-flex items-center gap-1 hover:text-accent transition-colors underline-offset-4 underline">
                 {label} <BookOpenTextIcon />
             </DialogTrigger>
             <DialogContent showXButton={false} backdropFilter={backdropFilter}>

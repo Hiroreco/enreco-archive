@@ -13,7 +13,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { Chapter, SiteData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
-import { Sword, Workflow } from "lucide-react";
+import { LibraryBig, Workflow } from "lucide-react";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
@@ -92,7 +92,7 @@ export const ViewAppWrapper = () => {
                             <Workflow size={24} />
                         </TabsTrigger>
                         <TabsTrigger value="glossary">
-                            <Sword size={24} />
+                            <LibraryBig size={24} />
                         </TabsTrigger>
                     </TabsList>
                 </Tabs>
