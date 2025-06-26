@@ -184,7 +184,7 @@ td {
     content: "";
     background: conic-gradient(
         transparent 270deg,
-        var(--item-selector-border-color, #5f8db2) /* Fallback color */,
+        var(--border-color, #5f8db2) /* Fallback color */,
         transparent
     );
     position: absolute;
