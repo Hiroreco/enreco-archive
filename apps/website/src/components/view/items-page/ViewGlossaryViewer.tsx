@@ -91,7 +91,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         </div>
                     </div>
 
-                    <div className="shrink-0 flex overflow-x-scroll content-container md:w-[250px] w-[320px]">
+                    <div className="shrink-0 flex overflow-x-scroll content-container md:w-[250px] w-[300px]">
                         {item.galleryImages.map((image, index) => (
                             <ViewLightbox
                                 key={index}
