@@ -24,7 +24,7 @@ The next big thing to do was to celebrate the Hot Pink One's gender reveal party
 
 Family drama between HPO, Tam Gandr, and Ina (see: [Ina-IRyS: Turning To Another](#edge:ina-irys) and [Ina-Kronii: Netorare](#edge:kronii-ina)) unfolds in front of the Lorekeeper. It feels so much like a telenovela, the therapist couldn't help but watch the show. [_She even brought out popcorn._](https://www.youtube.com/live/WG748SwXQVo?t=11440)
 
-[Murder is always an option.](https://www.youtube.com/live/WG748SwXQVo?t=11842)
+[Murder is always an option.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=11842)
 
 Being an awkward introvert at the party, Mordan and Nerissa shared a bond over forgoing romance as people gathered around to watch HPO give birth live—_and yes, Mordan filmed it._
 
@@ -32,7 +32,7 @@ Being an awkward introvert at the party, Mordan and Nerissa shared a bond over f
 
 Not going to lie, the therapist secretly rooted for this to happen so that she could sell a house to the expecting family. Plus, it was an opportunity to try family counseling services again with the newly formed polycule.
 
-_[God Mordan told Ina to forget about the HPO.](https://www.youtube.com/live/WG748SwXQVo?t=15053)_
+_[God Mordan told Ina to forget about the HPO.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=15053)_
 
 With that out of the way, it was time to get some rest before the big auction tomorrow.
 

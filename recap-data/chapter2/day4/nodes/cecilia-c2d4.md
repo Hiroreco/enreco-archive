@@ -8,7 +8,7 @@ The party of Cecilia, NinoIna, Hot Pink One, Princess Bijou, and Karia depart fo
 
 The group surrounds Kronii and barrages her with questions, but they notice her demeanor has changed. Cecilia questions Kronii about whether the [European kisses and drinks they shared](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=14720s) still matter, which she claims they do not. As the group mourns this new version of Tam, it is easy to wonder if memories are worth retrieving if it means replacing the one they learned to love.
 
-Cecilia seeks an audience with the princess in order to finally be told the truth; however, Cecilia overhears Commander Kopis remarks to Iphania about ["The Outlander of Yours"](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=15300s) which sends her thoughts reeling. She quickly disengages and heads for Fia. 
+Cecilia seeks an audience with the princess in order to finally be told the truth; however, Cecilia overhears Commander Kopis remarks to Iphania about ["The Outlander of Yours"](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=15300s) which sends her thoughts reeling. She quickly disengages and heads for Fia.
 
 Once Immerkind learns the truth about the Outsider, Tam Gandr explains how time travel could still explain how Iphania and the Outsider are siblings. This means Cecilia still has a chance, and this moment brings Queen Tam and Cecilia closer.
 
@@ -25,6 +25,7 @@ As Cecilia prepared to retire for the night, she received an urgent call from Go
 Upon writing one more letter to Iphania and Gonathon, she retires for the night. Unbeknownst to her, this kind of action made the kingdom much brighter.
 
 ## Fanart
+
 [Her Princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)
 
 [To new beginnings by Floomf](https://x.com/fluumf/status/1919736845048676373)

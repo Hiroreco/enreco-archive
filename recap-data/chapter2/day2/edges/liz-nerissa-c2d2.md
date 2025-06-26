@@ -8,13 +8,13 @@ It all began when Nerissa reached out first—just a casual, friendly call from 
 
 Then, to make matters worse, Nerissa opened up—and shared her struggles trying to sell her homemade potato salad, clearly putting her heart on the line with this business pitch. She even offered Elizabeth a discount, a sweet gesture from a struggling chef to her friend. And Elizabeth? She couldn’t afford a single thing. Not even at a discount. [_Broke._](https://www.youtube.com/live/wnQuawM-3Jc?si=IGTI21nWiEMonaNo&t=1476)
 
-And just when the blue one _finally_ started to piece things together—recognizing Elizabeth from the fragments of their past—the Red Knight, in all her awkward glory, said... almost nothing. Just a few "What do you remember?", and off to somewhere else she went. Girl, you were _devastated_ when you realized the bird lady had forgotten you, and now that she remembers? [_Nothing?_](https://www.youtube.com/live/wnQuawM-3Jc?si=rZrI8isM6Zm8ZSzh&t=8191)
+And just when the blue one _finally_ started to piece things together—recognizing Elizabeth from the fragments of their past—the Red Knight, in all her awkward glory, said... almost nothing. Just a few "What do you remember?," and off to somewhere else she went. Girl, you were _devastated_ when you realized the bird lady had forgotten you, and now that she remembers? [_Nothing?_](https://www.youtube.com/live/wnQuawM-3Jc?si=rZrI8isM6Zm8ZSzh&t=8191)
 
 Fumbling is one thing. But this was an Olympic-level performance.
 
 Still, despite it all, there was something hopeful in the air. Their chemistry, their banter—it hadn’t vanished. The spark was still there, buried under all the missed opportunities and awkward pauses. Sooner or later, they’ll get back to where they were. Probably. Hopefully.
 
-[*I will eat your soul*](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=sFtbzq1H7HIFxZeg&t=9752)
+[_I will eat your soul_](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=sFtbzq1H7HIFxZeg&t=9752)
 
 ## Fanart
 

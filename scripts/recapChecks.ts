@@ -8,7 +8,7 @@ export type RecapCheckFn = (content: string) => string | null;
  * Whitelisted “hash‐tags” that are allowed in links.
  * E.g. in `[foo](#embed:... )` the tag is “embed”.
  */
-const VALID_TAGS = new Set(["embed", "edge", "node", "easter"]);
+const VALID_TAGS = new Set(["embed", "edge", "node", "easter", "text"]);
 
 export const recapChecks: Record<string, RecapCheckFn> = {
     linkSyntax: (content) => {

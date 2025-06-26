@@ -2,11 +2,11 @@ Raora began her third day with a clear goal of completing her castle. It was mor
 
 As she worked through her quests for money to buy materials, she encountered various people along the way. She greeted Fauna, took a moment to buy a [lottery ticket](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=988), then paid a visit to Calli’s newly constructed tavern for a [tour](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=1480).
 
-While wandering, she stumbled upon Gonathon, or ["Jordan"](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=2504), as she liked to call him, her mischievous streak taking hold. She teased him relentlessly, manipulating him into kneeling and  gaslighting him into believing it was for some grand purpose. Not content with just that, she followed him wherever he went, much to his frustration. Whether or not her antics were productive, one thing was certain—she had firmly gotten on Gonathon’s nerves.
+While wandering, she stumbled upon Gonathon, or ["Jordan"](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=2504), as she liked to call him, her mischievous streak taking hold. She teased him relentlessly, manipulating him into kneeling and gaslighting him into believing it was for some grand purpose. Not content with just that, she followed him wherever he went, much to his frustration. Whether or not her antics were productive, one thing was certain—she had firmly gotten on Gonathon’s nerves.
 
 [The pink cat stalks](#embed:https://www.youtube.com/live/6VtHPTU1FB8?t=3229)
 
-Eventually, Raora returned her focus to the larger tasks at hand. Joining forces with Elizabeth, Calli, and the two doggos, she ventured into the dreaded *Eldritch Horror dungeon*. Together, they overcame its many challenges and successfully recovered fragments of Ninomae Ina'nis’ [memories](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=7780).
+Eventually, Raora returned her focus to the larger tasks at hand. Joining forces with Elizabeth, Calli, and the two doggos, she ventured into the dreaded _Eldritch Horror dungeon_. Together, they overcame its many challenges and successfully recovered fragments of Ninomae Ina'nis’ [memories](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=7780).
 
 With the dungeon conquered, Raora returned to her primary objective: building her castle. By this point, Tam was working on her own guild base nearby. Never one to pass up an opportunity for mischief, Raora couldn’t resist poking fun at Tam as well (see [Raora-Tam: Annoying Cat](#edge:raora-kronii)).
 

@@ -8,7 +8,7 @@ As Mococo painstakingly listed all sixty-eight of her ticket numbers, Fuwawa’s
 
 [Mococoooo, hurry up!](#embed:https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=1180)
 
-With the lottery escapade behind them, the group turned their attention back to preparing for the *Ocean Temple Dungeon*. Along the way, they encountered other adventurers. Fuwawa, ever curious, was captivated by the Scarlet Wand members and their striking long [red hats](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=1594). Later on, her innate clumsiness got the better of her, and she wandered off into a random area, momentarily [getting lost](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=2257).
+With the lottery escapade behind them, the group turned their attention back to preparing for the _Ocean Temple Dungeon_. Along the way, they encountered other adventurers. Fuwawa, ever curious, was captivated by the Scarlet Wand members and their striking long [red hats](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=1594). Later on, her innate clumsiness got the better of her, and she wandered off into a random area, momentarily [getting lost](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=2257).
 
 Eventually, the party made its way into the dungeon. The labyrinth was filled with challenging puzzles, and Fuwawa’s empty-headed moments and occasional [screams](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=5170) punctuated the adventure. Despite her frequent distractions, the group managed to overcome the obstacles and recovered memories of [Gawr Gura](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=4848).
 

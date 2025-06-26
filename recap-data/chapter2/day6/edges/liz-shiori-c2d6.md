@@ -16,11 +16,11 @@ Elizabeth didn't think anyone else would know of her trusted blade's name. She d
 
 The details of the Red Knight and the imprisonment of what seemed to be a character based on Nerissa...
 
-*Lies,* a ***scam***
+_Lies,_ a **_scam_**
 
 And so, a confrontation was much needed.
 
-["Who were you _before_ Lady Bloodflame?"](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060)
+["Who were you _before_ Lady Bloodflame?"](#embed:https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060)
 
 Shiori asked Elizabeth Bloodflame, a knight who swore her loyalty to the Kingdom of Libestal.
 

@@ -21,6 +21,6 @@ Tell Elizabeth little stories of Nerissa? That might jog Elizabeth's memory... T
 
 A plan was secured for tomorrow. Roa would soon write in her diary, the excitement flowing through her quill.
 
-[Hello Pandora](https://youtu.be/E-LGNO7JdO4?t=11534)
+[Hello Pandora](#embed:https://youtu.be/E-LGNO7JdO4?t=11534)
 
 Nerissa passed by, and they exchanged pleasantries. Whether Nerissa knew that Roa had foiled her plans to make Elizabeth her own couldn't be known, but the two remained cordial as they parted ways.

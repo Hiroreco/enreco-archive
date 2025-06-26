@@ -6,7 +6,7 @@ As if it were an invitation to a baptism of a transformed being.
 
 ---
 
-[CORRUPTION](https://youtu.be/FlPFFE5_X3Y?t=8881)
+[CORRUPTION](#embed:https://youtu.be/FlPFFE5_X3Y?t=8881)
 
 So far, all of the dungeons had been conquered but one– the Heart of Ruin– the source of ruination, corrupting the whole of Libestal.
 

@@ -10,7 +10,7 @@ Later on, Bijou pulls Mococo aside to give her a salary for helping the business
 
 She used this golden opportunity to advertise to Bijou her (un)professional mental health services for the low, low cost of 100 coins! Such affordable pricing convinces Bijou enough to try her phone therapy out.
 
-["Have you considered 'don't think, just jam?'"](https://www.youtube.com/live/3ybwXx6rUPg?t=1505)
+["Have you considered 'don't think, just jam?'"](#embed:https://www.youtube.com/live/3ybwXx6rUPg?t=1505)
 
 Now to other matters—such as completing the Star Site: Chaos Dungeon! With the help of Gonathon, Immerkind, and Bijou, Mococo knew that anything was possible... [even though she lost the disc gacha.](https://www.youtube.com/live/3ybwXx6rUPg?t=4441s)
 

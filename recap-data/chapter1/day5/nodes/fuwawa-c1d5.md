@@ -1,4 +1,4 @@
-Fuwawa’s day began with a familiar worry. [*"Is Mococo going to the lottery again?"*](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=346) she wondered, her concern for her companion growing deeper with each passing day. Though she cared for Mococo, this time, Fuwawa decided to stay on the sidelines, watching the fiasco unfold without stepping in. After all, it wasn’t her battle to fight.
+Fuwawa’s day began with a familiar worry. [_"Is Mococo going to the lottery again?"_](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=346) she wondered, her concern for her companion growing deeper with each passing day. Though she cared for Mococo, this time, Fuwawa decided to stay on the sidelines, watching the fiasco unfold without stepping in. After all, it wasn’t her battle to fight.
 
 As she contemplated her plans for the day, Fuwawa realized that she lacked a clear goal. Since arriving in the kingdom, she’d simply gone with the flow, completing her tasks dutifully and being the good doggo everyone expected her to be. But now, she craved something of her own—something to give her purpose.
 
@@ -8,7 +8,7 @@ The garden project would have to wait though, as there were other pressing matte
 
 [A fluffy adventure turned horror](#embed:https://www.youtube.com/live/FjZ9ettDlNw?t=3643)
 
-She then joined Shiori, Elizabeth, Nerissa, and Mococo on a quest to the *Ancient Sewer Dungeon*. Together, they conquered the challenges within and recovered [memories](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=5921) of *Amelia Watson*. Before this, Fuwawa also acted as a witness to Mococo’s settlement for the lottery situation, observing with discomfort as Mococo negotiated for 10,000 coins and received a barrage of [kisses](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=3342) in the process.
+She then joined Shiori, Elizabeth, Nerissa, and Mococo on a quest to the _Ancient Sewer Dungeon_. Together, they conquered the challenges within and recovered [memories](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=5921) of _Amelia Watson_. Before this, Fuwawa also acted as a witness to Mococo’s settlement for the lottery situation, observing with discomfort as Mococo negotiated for 10,000 coins and received a barrage of [kisses](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=3342) in the process.
 
 As if her day wasn’t strange enough, Fuwawa’s clumsiness landed her in yet another predicament—this time, trapped in the gallows. She had to call for help, feeling equal parts embarrassed and grateful when others came to her rescue.
 

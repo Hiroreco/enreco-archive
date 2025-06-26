@@ -6,7 +6,7 @@ It was amidst these events that Bijou claimed her title of princess—but not ju
 
 Later in the day, Bijou joined forces with Shiori, Ina, Cecilia, and the whimsically named Napoleon Galileo Aristotle Targaryen to take on the Eldritch Horror Dungeon. Their quest was [successful](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=8517), though the celebratory moments took a bizarre turn with everyone indulging in some peculiar [licking antics](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=9603).
 
-Anyway, they quickly regrouped for the *Volcanic Dungeon*, with Calli stepping in to replace Cecilia. The fiery dungeon proved particularly tough for Bijou, with several ["bweh"](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=10341) moments along the way, but the team triumphed in the end, recovering [memories](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=13502) of *Takanashi Kiara*.
+Anyway, they quickly regrouped for the _Volcanic Dungeon_, with Calli stepping in to replace Cecilia. The fiery dungeon proved particularly tough for Bijou, with several ["bweh"](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=10341) moments along the way, but the team triumphed in the end, recovering [memories](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=13502) of _Takanashi Kiara_.
 
 As the day wound down, Bijou returned to the fiery dungeon, this time assisting Mococo and the Hot Pink One. After successfully lending her support, she called it a day. Bijou’s journey felt quieter compared to her earlier adventures—perhaps her drive had dimmed after achieving her ultimate goal of securing a hat.
 

@@ -6,7 +6,7 @@ First and foremost, the fight against corruption reached its peak. Koseki Bijou,
 
 ![The Stain Princess' bleeding statue](images-opt/corruption.webp)
 
-As the story neared its climax, the relationships between our heroes evolved in ways fitting for a grand finale. *The Sidechick Polygamy* collapsed, bringing an end to the once-thriving chaos of endless romantic entanglements. At the same time, the heartbreaking case of Gonathon and Jyonathan finally reached its resolution.
+As the story neared its climax, the relationships between our heroes evolved in ways fitting for a grand finale. _The Sidechick Polygamy_ collapsed, bringing an end to the once-thriving chaos of endless romantic entanglements. At the same time, the heartbreaking case of Gonathon and Jyonathan finally reached its resolution.
 
 Meanwhile, the ongoing rivalry between FaunaMart and NanaEleven took an unexpected turn—one that no one could have anticipated. What had once been a fierce business war transformed into something far more intriguing, culminating in what might just be the Deal of the Century.
 

@@ -22,7 +22,7 @@ Immerkind seems to be doing okay, and so is Fia at the Library. This left them p
 
 The picnic starts innocently enough, there is food, decorations, fireworks, music, and happy guests. The Hot Pink One manages to confess her feelings to NinoIna, her eternal consort, and she feels the same.
 
-As they are all gathered to see the miracle of birth and/or the liberation of gas, Bijou starts to reveal the sign hidden in bricks, and they all can see it says "ITS GAS". Not only is it gas, but, as she also tells everyone, the pink wool behind reveals it's a girl, a gassy girl!
+As they are all gathered to see the miracle of birth and/or the liberation of gas, Bijou starts to reveal the sign hidden in bricks, and they all can see it says "ITS GAS." Not only is it gas, but, as she also tells everyone, the pink wool behind reveals it's a girl, a gassy girl!
 
 [It's Gas!](#embed:https://www.youtube.com/live/4_zJe0t0558?si=oFCqx7ndLwdT4gdb&t=8748)
 

@@ -12,7 +12,7 @@ In the middle of her rambling, Raora called in. Elizabeth found herself quite fo
 
 [Kitty noooooo- oh she's okay](#embed:https://www.youtube.com/live/dCNrMstGc3I?feature=shared&t=1397)
 
-With trust firmly established, Elizabeth accepted Raora’s invitation to tackle the *Volcanic Dungeon* alongside Nerissa. The trio emerged victorious, recovering memories of [Takanashi Kiara](https://www.youtube.com/live/dCNrMstGc3I?feature=shared&t=5895).
+With trust firmly established, Elizabeth accepted Raora’s invitation to tackle the _Volcanic Dungeon_ alongside Nerissa. The trio emerged victorious, recovering memories of [Takanashi Kiara](https://www.youtube.com/live/dCNrMstGc3I?feature=shared&t=5895).
 
 Upon returning to the kingdom, Elizabeth discovered that her guild area could trap people within its bounds. Fueled by curiosity (and a penchant for theatrics), she attempted to trap [Gonathon](https://www.youtube.com/live/dCNrMstGc3I?feature=shared&t=7186) in Calli’s tavern for interrogation. Later, she tried the same trick on Nerissa, this time to force her into listening to music. Both attempts failed, leaving Elizabeth bewildered and mildly frustrated.
 

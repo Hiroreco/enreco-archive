@@ -1,6 +1,6 @@
 <!-- title: Say My Name -->
 
-The (self-proclaimed) Libestian Queen was already making a name for herself across the kingdom. She had gathered loyal followers, asserted her dominance, and made others bow whenever they stood in her presence.
+The (self-proclaimed) Libestan Queen was already making a name for herself across the kingdom. She had gathered loyal followers, asserted her dominance, and made others bow whenever they stood in her presence.
 
 It was only natural—after all, she was perfect. Brimming with empathy and compassion, she never let anything get under her skin, always maintaining her mature composure throughout the day… until a certain pink cat appeared.
 
