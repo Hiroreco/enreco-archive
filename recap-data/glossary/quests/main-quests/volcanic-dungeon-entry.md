@@ -47,4 +47,5 @@ At the summit stood the Flame Guardian, a towering statue of a goddess-like figu
 
 ### Sources
 
+- World Builder - [t.s.kai](https://x.com/tskai_xx)
 - Concept Art - [taneda822456](https://x.com/taneda822456/status/1831263434736013607/photo/1)
