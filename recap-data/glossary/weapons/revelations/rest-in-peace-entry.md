@@ -1,7 +1,7 @@
 <!-- title: Rest In Peace -->
 <!-- quote: My thighs? Hands off, I have a scythe! -->
 <!-- chapters: -1 -->
-<!-- images: (Calli's first time wielding Rest In Piece), (Rest In Piece as viewed from the inventory), (Rest In Peace's ability activated) -->
+<!-- images: (Calli's first time wielding Rest In Peace), (Rest In Peace as viewed from the inventory), (Rest In Peace's ability activated) -->
 <!-- model: true -->
 
 ## Overview
@@ -14,4 +14,4 @@ The Grim Reaper herself — the literal embodiment of Death — naturally carrie
 
 As for its ability, it's as straightforward as Calli herself. No magic. No flashy tricks. Just a single, powerful, lateral swing — cleaving through her target.
 
-[\*_Slashes calmly_\*](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)
+[*_Slashes calmly_*](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)

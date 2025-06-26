@@ -6,12 +6,12 @@
 
 ## Overview
 
-**Burning Phoenix** takes the form of a one-handed sword and a shield. Orange and turquoise colors the weapon's design - strangely reminiscent of the feathers Tanakisha Karia wears.
+**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by Tanakisha Karia.
 
 ## Details
 
-When used, Burning Phoenix launches a fiery attack towards her enemies before shortly erupting into a brilliant blaze, turning any stains caught in the crossfire into ashes.
+When used, Burning Phoenix launches a fiery attack towards her enemies, then shortly erupts into a brilliant blaze, turning any stains caught in the crossfire into ashes.
 
-Though Karia, Shakira to most, awoke without her memories it does not impede her ability to fight the Stains. Rather, a burning righteousness remains steadfast in this phoenix's heart as she raises her sword and shield in oath as a knight to defend the beautiful Lesbi, oh, ahem, the shining Kingdom of Libestal! (Lesbians included, of course).
+Though Karia, known as Shakira to most, awoke without her memories, it does not impede her ability to fight the Stains. Rather, a burning righteousness remains steadfast in this phoenix's heart as she raises her sword and shield with an oath as a knight to defend the beautiful Lesbi, oh, ahem, the shining Kingdom of Libestal! (Lesbians included, of course).
 
 [What son? There is no son](#embed:https://youtu.be/3cr3DLpyB60?t=13486)
