@@ -17,7 +17,3 @@ But the real twist came when the very storylines she swore to avoid started drag
 And what did Mordan do after throwing the whole table into the air?
 
 She just... left. Off to attend to other business, casually leaving the chaos in her wake.
-
-## Fanart
-
-["Gonathon deserved better" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)

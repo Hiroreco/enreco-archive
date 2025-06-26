@@ -29,7 +29,6 @@ After a long first day, Immerkind returns to the artist Pygmalion and marvels at
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
 [Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 
-### Fanart
+## Fanart
 
-[Revelation by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
-[The Princess is Kind, by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+["Revelation" by Mittsu](https://x.com/MittsumiA/status/1902371897985397070)

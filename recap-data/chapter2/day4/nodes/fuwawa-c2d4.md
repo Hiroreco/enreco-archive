@@ -35,7 +35,3 @@ The café was empty. And Fuwawa sat in that emptiness.
 [Bau bau...](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917)
 
 But even in a space like that... there was still hope (see [Shakira-Fuwawa](#edge:kiara-fuwawa)).
-
-## Fanart
-
-["Libestal's Young Chef (Part 1)" by Dreamplanes](https://x.com/Dreamplanes256/status/1921562462647709819)

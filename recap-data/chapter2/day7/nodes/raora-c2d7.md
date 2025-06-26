@@ -57,7 +57,3 @@ It was a whirlwind romance. A serendipitous realization that ultimately ended in
 As they celebrated this wonderful occasion, Roa would pull Shiori and Bijou away to talk. Her new wife aside, both had helped Roa tremendously during her stay in Libestal. Roa shared [her determination](https://youtu.be/m2OG5auudrQ?t=13224) to find her happiness with her own hands.
 
 She talked of love lost and love found in her diary.
-
-## Fanart
-
-[Big Cat, Big Pains](https://x.com/fernrOreo/status/1923057970440536174)

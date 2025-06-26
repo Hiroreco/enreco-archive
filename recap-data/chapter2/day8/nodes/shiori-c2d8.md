@@ -62,8 +62,6 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 
 ## Fanworks:
 
-[Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
-
 ["witch shiori 1" by mofumashu](https://x.com/mofumashu/status/1921461081714688036)
 
 ["A Shiori Nyavella Character Write up" by usd100](https://www.reddit.com/r/Hololive/comments/1kkcg8h/a_shiori_nyavella_character_write_up/)

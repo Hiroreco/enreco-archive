@@ -26,6 +26,6 @@ Oh, and lava chicken.
 
 ## Fanart
 
-[Corruption - by Dr.Pigeon](https://x.com/PhdPigeon/status/1896821416395436357/photo/2)
+["Corruption" by Dr.Pigeon](https://x.com/PhdPigeon/status/1896821416395436357/photo/2)
 
 ["Some memories are better leave forgotten" by seapupu](https://x.com/seapupu290495/status/1919057398330700031)

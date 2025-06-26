@@ -48,6 +48,4 @@ Did she really not remember? Or was she just deceiving them... for reasons not y
 
 ["Maven in Blue" by Keisea](https://x.com/Keiseeaaa/status/1921199677443035543)
 
-["A witch" by komori hiki](https://x.com/hikienlaventana/status/1924207173829083449)
-
 ["...looking forward to the end of the world" by nick](https://x.com/criostatic/status/1921106947182322012)

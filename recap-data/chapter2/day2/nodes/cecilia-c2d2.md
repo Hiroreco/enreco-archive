@@ -14,8 +14,6 @@ After sobering up with Nerissa's water and discussions with Iphania and Fia, the
 
 [Restful sleep](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=T199bfN1vhes8XhF&t=10944)
 
-### Fanart
+## Fanart
 
-[Soul (Stream thumbnail) by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)
-
-[Her princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)
+["Soul" by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)

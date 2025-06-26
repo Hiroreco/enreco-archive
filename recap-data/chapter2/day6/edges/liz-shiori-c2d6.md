@@ -40,6 +40,4 @@ It seemed that their friendship, one that started sweetly in the day with gifts 
 
 ["The Truth" by mofumashu](https://x.com/mofumashu/status/1921096315812839551)
 
-["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
-
 ["When have I ever lied to you?" by ESTY](https://x.com/Sticker_sr/status/1921550872217104488)

@@ -29,7 +29,3 @@ Cecilia tries various attempts to [resolve](https://www.youtube.com/live/Icdii90
 After a moment to clear her thoughts and a quick discussion with the princess where Tam Gandr and Cecilia share a [customary kiss](https://www.youtube.com/watch?v=Icdii90_vSA&t=21964s), Cecilia writes in her diary and realizes that maybe the princess' heart is better in the care of someone else.
 
 [Maybe she is to bloom with another](#embed:https://www.youtube.com/live/Icdii90_vSA?si=2442Iuml0kJwJFKa)
-
-## Fanart
-
-[Your feelings come from the best place by Mittsu](https://x.com/MittsumiA/status/1919718476379521404)

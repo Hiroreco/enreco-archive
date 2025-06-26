@@ -17,3 +17,5 @@ Cecilia concludes the day discussing her concerns about the ["Inbread"](https://
 ## Fanart
 
 ["Born of a cult" by BunBBun](https://x.com/BunBBun1/status/1919963091464249648)
+
+[Your feelings come from the best place by Mittsu](https://x.com/MittsumiA/status/1919718476379521404)
