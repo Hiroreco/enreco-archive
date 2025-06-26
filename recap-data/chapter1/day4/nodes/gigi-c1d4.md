@@ -4,7 +4,7 @@ Gonathon’s fourth day began with a declaration from Bijou, who claimed herself
 
 With the conversations out of the way, Gonathon shifted his focus back to his duties. As mentioned on day three, Tam Gandr, his queen, had embarked on an expedition and entrusted Gonathon with managing the kingdom in her absence. To honor her legacy, Gonathon resolved to construct a monumental commemorative statue of the queen. He began laying the groundwork for this ambitious project, determined to see it through despite the immense effort it would require.
 
-Taking a break from the statue, Gonathon joined his wife and Gura to tackle the day’s dungeon—the *Volcanic Dungeon*. Navigating its perilous traps and obstacles, he valiantly tried to maintain his composure in front of his wife, though his pride took a hit as he repeatedly fell and screamed his way through the challenges.
+Taking a break from the statue, Gonathon joined his wife and Gura to tackle the day’s dungeon—the _Volcanic Dungeon_. Navigating its perilous traps and obstacles, he valiantly tried to maintain his composure in front of his wife, though his pride took a hit as he repeatedly fell and screamed his way through the challenges.
 
 [Totally made it](#embed:https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=7796)
 

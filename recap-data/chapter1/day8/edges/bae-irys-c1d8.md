@@ -6,7 +6,7 @@ But worse than the lack of wealth, tools, or influence? She had no deep relation
 
 So, when you have nothing while others have everything, what do you do? You annoy them. Out of sheer, unfiltered spite. Most of the kingdom’s folks were relatively nice to her, but there was one exception.
 
-*The Hot Pink One.*
+_The Hot Pink One._
 
 [Get away from me!](#embed:https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=1055)
 

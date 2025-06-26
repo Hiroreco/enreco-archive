@@ -1,4 +1,4 @@
-Amelia’s final day in the kingdom began in an unusual and unsettling way. Her wide, sleepless eyes hinted at countless restless nights, and her inventory was filled to the brim with stacks of diamonds. Her movements were erratic, her words nonsensical, and every conversation she initiated revolved around the same frantic questions, spoken in a shaky tone: *"Have you seen my diamond?"* and *"Did you give me these diamonds?"* Her behavior left her companions uneasy and deeply concerned.
+Amelia’s final day in the kingdom began in an unusual and unsettling way. Her wide, sleepless eyes hinted at countless restless nights, and her inventory was filled to the brim with stacks of diamonds. Her movements were erratic, her words nonsensical, and every conversation she initiated revolved around the same frantic questions, spoken in a shaky tone: _"Have you seen my diamond?"_ and _"Did you give me these diamonds?"_ Her behavior left her companions uneasy and deeply concerned.
 
 [Diamond... diamond... diamond...](#embed:https://www.youtube.com/embed/mxOT9QEg5dI?si=QIefO6CBFBGQ4gie&start=315)
 
@@ -18,9 +18,9 @@ The book’s contents didn’t immediately clarify Amelia’s plight, but Neriss
 
 Still, her obsession lingered. Even as the kingdom spiraled into chaos, with corruption spreading and Mococo’s screams echoing through the land, Amelia remained fixated on her [diamonds](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=4279). Her companions, realizing the significance of her quest, began guiding her toward the truth.
 
-* [Calli](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=3960) purchased every diamond from FaunaMart to deter Amelia, urging her to search within herself for the true diamond.
-* [Ina](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=3591) hinted that she should journey eastward, toward the Cerulean Cup guild.
-* [Elizabeth](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=8343) advised her to seek a knight dressed in orange.
+- [Calli](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=3960) purchased every diamond from FaunaMart to deter Amelia, urging her to search within herself for the true diamond.
+- [Ina](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=3591) hinted that she should journey eastward, toward the Cerulean Cup guild.
+- [Elizabeth](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=8343) advised her to seek a knight dressed in orange.
 
 Amelia retreated to the onsen she had built, sorting through her [thoughts](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=8404). The clues all pointed to one person: Gonathon. Perhaps he held the key to her questions. But just as she prepared to find him, a chaotic force intervened—a figure known as the Hot Pink One (see [Hot Pink One-Amelia Watson: Non-Traditional Relation](#edge:ame-irys)).
 

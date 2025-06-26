@@ -4,7 +4,7 @@ But it seemed peace wasn't felt by all—Queen Tammy and... Oh, it's [the Hot Pi
 
 And speaking of fresh air, Fuwawa, the blessing that she truly is in this world, shared some of [her wonderful cooking with Bae.](https://youtu.be/NL8O6nH1UE0?t=390) Though Bae would have to wait to eat the tart, she was nonetheless enthused by the gift.
 
-An auction! After days of preparation, Mordan Ramsey's auction was finally underway. Eyeing one house, Bae offered her price... [a joke!](https://youtu.be/NL8O6nH1UE0?t=637) All seemed jolly, but it seemed the occasion left Ina the Hero in a dour mood. In a grave *InaJustice*, [Ina's design](https://youtu.be/NL8O6nH1UE0?t=719), the architectural design of her own home, was stolen! The chef had copied Ina's house, from the bricks used to the window design. Seeing this unfold, Bae quickly stepped in and added a title to her name. (And another line to the *chart*.)
+An auction! After days of preparation, Mordan Ramsey's auction was finally underway. Eyeing one house, Bae offered her price... [a joke!](https://youtu.be/NL8O6nH1UE0?t=637) All seemed jolly, but it seemed the occasion left Ina the Hero in a dour mood. In a grave _InaJustice_, [Ina's design](https://youtu.be/NL8O6nH1UE0?t=719), the architectural design of her own home, was stolen! The chef had copied Ina's house, from the bricks used to the window design. Seeing this unfold, Bae quickly stepped in and added a title to her name. (And another line to the _chart_.)
 
 [Lawyer The Bae](#embed:https://youtu.be/NL8O6nH1UE0?t=847)
 
@@ -14,7 +14,7 @@ Now, time to remember this chapter with pictures!
 
 [Group Photo in the Library](#embed:https://youtu.be/NL8O6nH1UE0?t=1190)
 
-Shortly after the photo, Bae's two Promise members were still fighting. Bae watched as they walked while trading barbs and insults. To her shock, Bae learned that the Hero had [***dumped*** the goddess.](https://youtu.be/NL8O6nH1UE0?t=1370)
+Shortly after the photo, Bae's two Promise members were still fighting. Bae watched as they walked while trading barbs and insults. To her shock, Bae learned that the Hero had [**_dumped_** the goddess.](https://youtu.be/NL8O6nH1UE0?t=1370)
 
 Not having one last group photo with her fellow suppliers would be amiss. Though Bae and Cecilia were still rather awkward after the rejection, they were still cordial. It was during their talk that Bae found out [there were only three suppliers](https://youtu.be/NL8O6nH1UE0?t=1413) in the whole kingdom.
 
@@ -47,7 +47,6 @@ And of course, a final diary entry. A final message... GOODBYE LIBESTAL. With th
 Huzzah! The banquet is here! Fireworks were shared and fired within range of flammable materials in an enclosed environment. Joy was had, and the celebrations resounded throughout the halls.
 
 All was right! [Well, except for some last-minute cannibalism.](https://youtu.be/NL8O6nH1UE0?t=3634)
-
 
 A scream.
 

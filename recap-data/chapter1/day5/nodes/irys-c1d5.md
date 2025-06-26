@@ -6,7 +6,7 @@ Before tackling her new goal, the Hot Pink One needed to reconnect with the king
 
 [She's quite tall and flat](#embed:https://www.youtube.com/live/gtOGWDKwQfY?feature=shared&t=829)
 
-She later joined forces with Gonathon, Raora, Bijou, and Cecilia on a quest to the *Ancient Sewer Dungeon*. Together, they succeeded in recovering the lost memories of [Amelia Watson](https://www.youtube.com/live/gtOGWDKwQfY?feature=shared&t=2173).
+She later joined forces with Gonathon, Raora, Bijou, and Cecilia on a quest to the _Ancient Sewer Dungeon_. Together, they succeeded in recovering the lost memories of [Amelia Watson](https://www.youtube.com/live/gtOGWDKwQfY?feature=shared&t=2173).
 
 As the group returned to the kingdom, Cecilia, Bijou's newly appointed knight, prepared to call it a day. Seizing the moment, the Hot Pink One attempted to woo the gem princess to her side. Suggesting that Bijou would be safer as her knight instead, she poked at Cecilia’s pride. Unwilling to back down, the Green Knight challenged the Hot Pink One to a duel. Confident in her undefeated streak, the Hot Pink One emerged victorious once more.
 

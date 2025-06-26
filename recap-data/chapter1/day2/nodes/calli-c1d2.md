@@ -10,11 +10,11 @@ Once the basic structure of her diner was complete, Calli realized she needed to
 
 Undeterred by the backlash, Calli pressed on, coming up with a catchy slogan: ["Save your money, lose your honey"](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=2550)
 
-Later in the day, Calli joined a team to tackle the *Ocean Temple Dungeon*. Her group included Nerissa, Jyon, and Ina. Together, they racked their brains to solve the dungeon’s puzzles and eventually succeeded, recovering the memories of [Gawr Gura](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=5368).
+Later in the day, Calli joined a team to tackle the _Ocean Temple Dungeon_. Her group included Nerissa, Jyon, and Ina. Together, they racked their brains to solve the dungeon’s puzzles and eventually succeeded, recovering the memories of [Gawr Gura](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=5368).
 
 As they emerged from the dungeon, Calli witnessed yet another impulsive wedding—this time between Ina and the Hot Pink One. While the rest of the group celebrated the union, Calli quietly smirked. She wasn’t cheering for their happiness but for the potential future customers her business might attract. ["They all start off so naive,"](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=5828) she mused as the newlyweds declared their eternal love. By now, Calli had a fitting name for her establishment:
 
-[*"Until Death Do You Part."*](#embed:https://www.youtube.com/live/oPKmSO7XtoY?t=5879)
+[_"Until Death Do You Part."_](#embed:https://www.youtube.com/live/oPKmSO7XtoY?t=5879)
 
 Back in the kingdom, Calli resumed the diner’s construction. At some point, she received a [prank call](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=8313) from Bijou, likely in retaliation for her constant jabs about Shiori and Bijou’s marriage falling apart.
 

@@ -12,7 +12,7 @@ At the quest board, Elizabeth also appeared, and the Hot Pink One couldn’t for
 
 In the duel, the Hot Pink One emerged victorious. Elizabeth’s excuses about a "Ping Ghost" didn’t matter—victory was hers. Empowered by her win, she sought another opponent to satiate her newfound hunger for battle. She turned to Bijou and challenged her guildmate to a [duel](https://www.youtube.com/live/f8W426vzTb8?si=A-sxFCAwk8h7m671&t=3638). Another win followed, leaving Bijou defeated and the Hot Pink One now claiming [double](https://www.youtube.com/live/f8W426vzTb8?si=oNpLE1mN_HFpM6Jf&t=3666) the dignity, whatever that meant.
 
-The day’s events continued with the Pink One 'accidentally' killing Bijou’s pet [rock](https://www.youtube.com/live/f8W426vzTb8?si=purywjxey_noU_DD&t=3974), partying at the [tavern](https://www.youtube.com/live/f8W426vzTb8?si=0B4-qaOCsa2OupoT&t=6275), and finally preparing for the *Ocean Temple Dungeon*.
+The day’s events continued with the Pink One 'accidentally' killing Bijou’s pet [rock](https://www.youtube.com/live/f8W426vzTb8?si=purywjxey_noU_DD&t=3974), partying at the [tavern](https://www.youtube.com/live/f8W426vzTb8?si=0B4-qaOCsa2OupoT&t=6275), and finally preparing for the _Ocean Temple Dungeon_.
 
 At the dungeon’s entrance, the group discussed how their teams should be split, with the Pink One joining Gonathon, Tam, and Bijou. Meanwhile, NinoIna mentioned auctioning her hat. Initially uninterested, the Pink One’s demeanor shifted entirely when she learned the hat carried Ina’s scent. Fueled by newfound enthusiasm, she purchased the hat for a steep 600 coins.
 

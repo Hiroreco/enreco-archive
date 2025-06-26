@@ -3,10 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
-const DESTINATIONS = [
-    "apps/editor/public",
-    "apps/website/public",
-];
+const DESTINATIONS = ["apps/editor/public", "apps/website/public"];
 const CATEGORIES = ["characters", "teams", "others", "easter", "ui"];
 
 async function generateBlurDataURL(inputPath: string) {
@@ -30,7 +27,7 @@ async function optimizeImages() {
         for (const file of files) {
             if (file.match(/\.(jpg|jpeg|png|webp)$/i)) {
                 const inputPath = path.join(inputDir, file);
-                
+
                 // Generate blur data URL
                 const blurDataURL = await generateBlurDataURL(inputPath);
                 blurDataMap[path.parse(file).name] = blurDataURL;
@@ -45,9 +42,13 @@ async function optimizeImages() {
                 const buffer = await sharp(inputPath)
                     .webp({ quality: quality })
                     .toBuffer();
-                
-                for(const dest of DESTINATIONS) {
-                    const outputDir = path.join(process.cwd(), dest, "images-opt");
+
+                for (const dest of DESTINATIONS) {
+                    const outputDir = path.join(
+                        process.cwd(),
+                        dest,
+                        "images-opt",
+                    );
                     await fs.mkdir(outputDir, { recursive: true });
                     const outputPath = path.join(
                         outputDir,
@@ -64,20 +65,12 @@ async function optimizeImages() {
         }
     }
 
-    for(const dest of DESTINATIONS) {
-        const outputPath = path.join(
-            process.cwd(),
-            dest,
-            "blur-data.json"
-        );
+    for (const dest of DESTINATIONS) {
+        const outputPath = path.join(process.cwd(), dest, "blur-data.json");
         // Save blur data URLs to a JSON file
-        await fs.writeFile(
-            outputPath,
-            JSON.stringify(blurDataMap, null, 2),
-        );
+        await fs.writeFile(outputPath, JSON.stringify(blurDataMap, null, 2));
         console.log(`Blur data written to ${outputPath}`);
     }
-    
 }
 
 optimizeImages().catch(console.error);

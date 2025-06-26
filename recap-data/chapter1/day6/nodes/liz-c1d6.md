@@ -1,8 +1,8 @@
 The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom: "Tis the calm before the storm, and something more terrible is brewing as we speak," "Train your combat skills, and stock up any items you might need," "This may be your last chance, so make the most of it."
 
-[*"The calm before the storm"*](#embed:https://www.youtube.com/embed/5R01-igo4sM?si=4btPS_yE7In0DRPe&start=324)
+[_"The calm before the storm"_](#embed:https://www.youtube.com/embed/5R01-igo4sM?si=4btPS_yE7In0DRPe&start=324)
 
-From what Elizabeth knew, they had one day left before *"the end."* A final battle against some great force loomed ahead, and the aftermath was uncertain. But for Elizabeth, the focus was on the present—making the most of their time and preparing for what was to come.
+From what Elizabeth knew, they had one day left before _"the end."_ A final battle against some great force loomed ahead, and the aftermath was uncertain. But for Elizabeth, the focus was on the present—making the most of their time and preparing for what was to come.
 
 Upon joining the kingdom, Elizabeth noticed a missed call from Gonathon. She called him back, and he requested a private conversation. Given how rare one-on-one interactions with the knight were, Elizabeth couldn’t resist teasing him a little.
 

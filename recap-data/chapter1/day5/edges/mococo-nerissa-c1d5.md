@@ -14,7 +14,7 @@ Nerissa presented her side first, explaining how she had mistakenly miscalculate
 
 Mococo, however, was not willing to back down.
 
-The doggo accused FaunaMart of engaging in improper business practices, claiming she had been scammed out of her lottery winnings, shortchanged on her rightful prize money, and—most damning of all—hunted down on orders from a FaunaMart employee, causing her immense emotional distress. As compensation, she demanded [*10,000 coins*](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=1310).
+The doggo accused FaunaMart of engaging in improper business practices, claiming she had been scammed out of her lottery winnings, shortchanged on her rightful prize money, and—most damning of all—hunted down on orders from a FaunaMart employee, causing her immense emotional distress. As compensation, she demanded [_10,000 coins_](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=1310).
 
 The dispute grew more intense, with neither side willing to concede.
 

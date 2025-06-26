@@ -4,7 +4,7 @@ The group struck up a lively conversation, with Shakira and Cecilia bonding over
 
 [Imagine not speaking German](#embed:https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=378)
 
-Fauna also enthusiastically introduced Shakira to her latest business venture—*FaunaMart*, a store offering local goods and lottery tickets.
+Fauna also enthusiastically introduced Shakira to her latest business venture—_FaunaMart_, a store offering local goods and lottery tickets.
 
 While Fauna spoke with confidence about the "big jackpot" awaiting lucky customers, Shakira and Darwin exchanged skeptical glances. Something about the whole setup felt off, so Shakira decided to accompany the group to investigate this so-called convenience store. As Fauna continued to boast about the elusive jackpot without providing any evidence, Shakira’s suspicions deepened. She eventually warned Fauna that if her business turned out to be a scam, she wouldn’t hesitate to report it to the Queen.
 
@@ -20,10 +20,10 @@ Shakira stopped by Calli and Gonathon, using the opportunity to warn them about 
 
 Fast forward, when Shakira noticed Calli interacting with the red hats, seemingly on the verge of being scammed, she rushed to intervene. To her surprise, Calli assured her that she had the situation under control and revealed that she was, in fact, [scamming](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=2663) them instead. Although Shakira felt conflicted—knowing this only perpetuated the cycle of deception—she decided to trust Calli’s judgment and let her continue.
 
-As the day wore on, Shakira sought solace in the company of her pink cat, the one companion she felt she could truly rely on. Shakira then prepared herself for the *Ocean Temple Dungeon*, joining forces with Elizabeth, the pink cat, and the two doggos. Her sharp "RPG senses" guided the team to a hidden treasure—a music disc labeled Reflect. Pleased with the find, Shakira made a mental note to revisit the first dungeon to uncover its secrets [as well](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9051).
+As the day wore on, Shakira sought solace in the company of her pink cat, the one companion she felt she could truly rely on. Shakira then prepared herself for the _Ocean Temple Dungeon_, joining forces with Elizabeth, the pink cat, and the two doggos. Her sharp "RPG senses" guided the team to a hidden treasure—a music disc labeled Reflect. Pleased with the find, Shakira made a mental note to revisit the first dungeon to uncover its secrets [as well](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9051).
 
 After conquering the dungeon and recovering memories of Gawr Gura, Shakira returned to the kingdom. On her way back, she noticed that Queen Tam Gandr had awakened. Wasting no time, she approached the queen to report her suspicions about FaunaMart’s alleged scams, introducing herself as the savior of the ~~lesbians~~ Libestans in hopes of earning the queen’s trust.
 
 [Never gets old](#embed:https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9867)
 
-As the day drew to a close, Shakira, joined by Liz and Raora, ventured back into the first dungeon. Guided once again by her RPG instincts, she uncovered another hidden music disc, *"Excuse me, can you please RIP"*. She became the first adventurer to own this artifact, a small but satisfying [victory](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=13548) to end a chaotic day.
+As the day drew to a close, Shakira, joined by Liz and Raora, ventured back into the first dungeon. Guided once again by her RPG instincts, she uncovered another hidden music disc, _"Excuse me, can you please RIP"_. She became the first adventurer to own this artifact, a small but satisfying [victory](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=13548) to end a chaotic day.

@@ -1,6 +1,6 @@
 <!-- title: Birthday Girl -->
 
-Her shop? *Tampered with*? Her very own **HPO's Sick Deals**, the proud little pink stand where not a single transaction had ever occurred? That was the call the Pink One received from her brother—reporting a suspicious figure meddling with her beloved store.
+Her shop? _Tampered with_? Her very own **HPO's Sick Deals**, the proud little pink stand where not a single transaction had ever occurred? That was the call the Pink One received from her brother—reporting a suspicious figure meddling with her beloved store.
 
 Alarm bells rang. The pink lady rushed to the scene, heart pounding, ready to confront whatever culprit dared to mess with her turf.
 

@@ -8,7 +8,7 @@ After this exchange, Gonathon made his daily contribution to Fauna’s library, 
 
 [A jail behind the library](#embed:https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=1912)
 
-Later, Gonathon joined Bijou, Raora, Cecilia, and the Hot Pink One to tackle the *Ancient Sewer Dungeon*—a place rumored to be the final dungeon. Despite his usual knightly demeanor, Gonathon was surprisingly "playful" during this expedition. He spent his time running around trying to drink the dirty water and even managed to trick the others into taking a bath in the murky filth, much to Cecilia’s dismay.
+Later, Gonathon joined Bijou, Raora, Cecilia, and the Hot Pink One to tackle the _Ancient Sewer Dungeon_—a place rumored to be the final dungeon. Despite his usual knightly demeanor, Gonathon was surprisingly "playful" during this expedition. He spent his time running around trying to drink the dirty water and even managed to trick the others into taking a bath in the murky filth, much to Cecilia’s dismay.
 
 [What a lovely bath](#embed:https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=9423)
 

@@ -51,5 +51,3 @@ Did she really not remember? Or was she just deceiving them... for reasons not y
 ["A witch" by komori hiki](https://x.com/hikienlaventana/status/1924207173829083449)
 
 ["...looking forward to the end of the world" by nick](https://x.com/criostatic/status/1921106947182322012)
-
-

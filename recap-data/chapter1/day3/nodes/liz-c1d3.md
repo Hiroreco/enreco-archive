@@ -16,7 +16,7 @@ Moving on, Elizabeth wandered around and met Cecilia and Bijou, who were engross
 
 As many friends as Elizabeth made, she also had her skepticism toward a few—specifically, those she suspected of being witches. And at the top of that list? The mastermind behind the latest lottery craze, Ceres Fauna. Something about this green lady just didn’t sit right with Elizabeth, and she wasn’t about to let her guard down (see [Elizabeth-Fauna: She's a Witch](#edge:liz-fauna)).
 
-Later in the day, she was invited by Raora to tackle the dungeon of the day: the *Eldritch Horror Dungeon*. Joining them were Calli and the two doggos. During the conquest, while trying to help Mococo, who accidentally found herself stuck in a ditch, Elizabeth clumsily fell and shared the same situation as the fuzzy one.
+Later in the day, she was invited by Raora to tackle the dungeon of the day: the _Eldritch Horror Dungeon_. Joining them were Calli and the two doggos. During the conquest, while trying to help Mococo, who accidentally found herself stuck in a ditch, Elizabeth clumsily fell and shared the same situation as the fuzzy one.
 
 [Taking the promise too literally](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=9220)
 

@@ -6,7 +6,7 @@ Cecilia was a simple soul, driven by one uncomplicated rule: she would serve any
 
 Raora, who aspired to royalty but lacked a crown, did not receive the same honor—because, well, no crown, no knight.
 
-However, Cecilia wasn’t content with the plain title of "knight." It lacked the grandeur she envisioned, so she promoted herself to *"Lord Protector of the Princess of the Kingdom of Evergreen"*. While impressive in title, her qualifications for the role were... questionable at best. For one, she was perpetually broke. Her poverty stemmed from her steadfast refusal to complete side quests, a critical income source in the kingdom. Instead, Cecilia developed a reputation as a professional leech, always relying on others to get by.
+However, Cecilia wasn’t content with the plain title of "knight." It lacked the grandeur she envisioned, so she promoted herself to _"Lord Protector of the Princess of the Kingdom of Evergreen"_. While impressive in title, her qualifications for the role were... questionable at best. For one, she was perpetually broke. Her poverty stemmed from her steadfast refusal to complete side quests, a critical income source in the kingdom. Instead, Cecilia developed a reputation as a professional leech, always relying on others to get by.
 
 Despite her shortcomings, Bijou seemed to enjoy her company, which was all that mattered. Cecilia even went out of her way to craft a small, makeshift [throne](https://www.youtube.com/live/yK3QZkOZ6bE?feature=shared&t=3190) for her princess—an endearing, if slightly shabby, gesture of devotion.
 

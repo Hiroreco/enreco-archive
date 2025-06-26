@@ -1,8 +1,8 @@
-*Ina's* introduction to the journey began much like everyone else's: waking up in the blindingly white box, disoriented and uncertain. Yet, her experience set her apart as she remained calm. Unlike Peasant Da Bae's dramatic exclamations or Tam's barrage of questions, Ina approached the situation with a quiet sense of detachment, simply observing and taking it all in. Perhaps this was her nature—to remain composed and collected, even in the face of chaos.
+_Ina's_ introduction to the journey began much like everyone else's: waking up in the blindingly white box, disoriented and uncertain. Yet, her experience set her apart as she remained calm. Unlike Peasant Da Bae's dramatic exclamations or Tam's barrage of questions, Ina approached the situation with a quiet sense of detachment, simply observing and taking it all in. Perhaps this was her nature—to remain composed and collected, even in the face of chaos.
 
 [How is she so calm?](#embed:https://www.youtube.com/live/THllQCVOYzY?t=240s)
 
-This trait became even more apparent during the battle with the Stain King, where she calmly wielded her Revelation—a magical book, [Violet Miasma](https://www.youtube.com/live/THllQCVOYzY?t=3183s)—while her companions screamed. When its ability was activated, the book unleashed radiant beams of energy that struck nearby enemies. Her serene demeanor and empathetic spirit naturally led to her being sorted into the *Cerulean Cup* [guild](https://www.youtube.com/watch?v=THllQCVOYzY&t=3425s).
+This trait became even more apparent during the battle with the Stain King, where she calmly wielded her Revelation—a magical book, [Violet Miasma](https://www.youtube.com/live/THllQCVOYzY?t=3183s)—while her companions screamed. When its ability was activated, the book unleashed radiant beams of energy that struck nearby enemies. Her serene demeanor and empathetic spirit naturally led to her being sorted into the _Cerulean Cup_ [guild](https://www.youtube.com/watch?v=THllQCVOYzY&t=3425s).
 
 At first, Ina believed this journey might not be as daunting as she'd feared. The guild seemed filled with empathetic, heroic individuals, and the kingdom's tasks felt manageable. But her optimism soon wavered as she began to grasp the eccentricities of her guildmates.
 
@@ -10,7 +10,7 @@ During the dispute with Amber Coin over recruiting the Hot Pink One, Ina couldn'
 
 ["Am I right to be in Cerulean?"](#embed:https://www.youtube.com/live/THllQCVOYzY?t=6125s)
 
-Despite being surrounded by chaos, Ina embraced her role as the level-headed one in the group. She diligently completed her tasks, made puns whenever [inspiration](https://www.youtube.com/live/THllQCVOYzY?feature=shared&t=7603s) struck, and had [fleeting](https://www.youtube.com/watch?v=THllQCVOYzY&t=9680s) interactions with members of other guilds. Her day culminated in the *Underworld Dungeon*, where she teamed up with Elizabeth and Gonathon.
+Despite being surrounded by chaos, Ina embraced her role as the level-headed one in the group. She diligently completed her tasks, made puns whenever [inspiration](https://www.youtube.com/live/THllQCVOYzY?feature=shared&t=7603s) struck, and had [fleeting](https://www.youtube.com/watch?v=THllQCVOYzY&t=9680s) interactions with members of other guilds. Her day culminated in the _Underworld Dungeon_, where she teamed up with Elizabeth and Gonathon.
 
 After completing the challenge, she regained memories of [Mori Calliope](https://www.youtube.com/watch?v=THllQCVOYzY&t=12389s). While most heroes chose to retire for the day afterward, Ina's adventures continued. She exchanged friendly [banter](https://www.youtube.com/watch?v=THllQCVOYzY&t=14236s) with Nerissa, tackled additional quests, and stumbled upon a peculiar "glitch" that allowed her to [duplicate items](https://www.youtube.com/watch?v=THllQCVOYzY&t=17960s). True to her empathetic nature, she refrained from exploiting it and dutifully reported it to the gods of the world.
 

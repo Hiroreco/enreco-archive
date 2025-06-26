@@ -20,7 +20,7 @@ Thanks to the unwavering efforts of the other heroes, the corruption was ultimat
 
 Her joy was short-lived, however, as Mococo—by accident—decimated the flock once again.
 
-[*♪ Yureta yuganda sekai ni dan dan ♪*](#embed:https://www.youtube.com/embed/31OnEJrRDfU?si=7TsPwSbv9amxpvre&start=7268)
+[_♪ Yureta yuganda sekai ni dan dan ♪_](#embed:https://www.youtube.com/embed/31OnEJrRDfU?si=7TsPwSbv9amxpvre&start=7268)
 
 Despite her lingering sadness, Fuwawa joined the others in the [final battle](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=7996). Together, they fought valiantly and defeated the Stain, only to uncover a deeper truth: the true threat all along had been the King (see [King: The True Evil](#node:king-of-libestal)).
 

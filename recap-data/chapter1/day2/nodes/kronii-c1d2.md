@@ -1,4 +1,4 @@
-The new (self-proclaimed) *Queen of Libestal* awoke for the second day, and it seemed action was the theme of the day. As soon as Tam joined the kingdom, Bijou summoned her for [immediate assistance](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=307), while informing her that Gonathon had been wedded. At the same time, Tam received a secret message from Shakira about an evil force—FaunaMart—scamming people through lottery tickets. Intrigued, the Queen wasted no time and hurried to join her guildmates.
+The new (self-proclaimed) _Queen of Libestal_ awoke for the second day, and it seemed action was the theme of the day. As soon as Tam joined the kingdom, Bijou summoned her for [immediate assistance](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=307), while informing her that Gonathon had been wedded. At the same time, Tam received a secret message from Shakira about an evil force—FaunaMart—scamming people through lottery tickets. Intrigued, the Queen wasted no time and hurried to join her guildmates.
 
 When she arrived, the first thing everyone pointed out was her "Xbox-like" [voice](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=561). Tam, being self-conscious about it, tried to brush it off but couldn’t help feeling embarrassed.
 
@@ -14,7 +14,7 @@ Tam's day carried on with the usual shenanigans: completing quests, sharing a [s
 
 [It's just a joke?](#embed:https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=2921)
 
-Eventually, the group prepared for the *Ocean Temple Dungeon*. After clearing its challenges and recovering Gawr Gura’s [memories](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=7458), Tam witnessed another guildmate's marriage. This time, the [Hot Pink One](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=8043). This time, it kind of stung.
+Eventually, the group prepared for the _Ocean Temple Dungeon_. After clearing its challenges and recovering Gawr Gura’s [memories](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=7458), Tam witnessed another guildmate's marriage. This time, the [Hot Pink One](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=8043). This time, it kind of stung.
 
 Tam later admitted she had feelings for the Pink One, making this yet another reminder of her loneliness. Though accustomed to being alone, the sight of her wedded guildmates left her longing for someone special. Nevertheless, Tam continued her day; she was queen after all, and queens never cry (see [Tam-Hot Pink One: Unrequited Love](#edge:irys-kronii)).
 

@@ -16,7 +16,7 @@ Her jolly day would only last for so long. Later in the day, Mococo received a p
 
 As the mystery deepened, Mococo stumbled upon the answer herself. While wandering near the Cerulean Cup, her curiosity led her to a dark, ominous corner of the area. The ground was scorched, littered with withered bushes, strange Stains, and patches of fire. Unwittingly, Mococo stepped on one of the rotten blocks, [injuring herself](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=12650). Gonathon, who happened to be nearby, swiftly pulled her out of harm’s way and urged her to cleanse herself in the queen’s holy water to rid herself of corruption. Whether Gonathon was bluffing or not, the fear Mococo felt in that place was all too real.
 
-Shortly after, Bijou appeared. The gem maiden said nothing, merely handing Mococo a peculiar purple hat shaped like a Stain. Unaware of its true nature, Mococo thought it was just an accessory and put it on. But almost immediately, she felt strange. A sinister voice whispered into her mind, commanding her with chilling simplicity: *"The chickens are tasty."*
+Shortly after, Bijou appeared. The gem maiden said nothing, merely handing Mococo a peculiar purple hat shaped like a Stain. Unaware of its true nature, Mococo thought it was just an accessory and put it on. But almost immediately, she felt strange. A sinister voice whispered into her mind, commanding her with chilling simplicity: _"The chickens are tasty."_
 
 What happened next was a blur.
 

@@ -25,6 +25,7 @@ As Cecilia prepared to retire for the night, she received an urgent call from Go
 Upon writing one more letter to Iphania and Gonathon, she retires for the night. Unbeknownst to her, this kind of action made the kingdom much brighter.
 
 ## Fanart
+
 [Her Princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)
 
 [To new beginnings by Floomf](https://x.com/fluumf/status/1919736845048676373)

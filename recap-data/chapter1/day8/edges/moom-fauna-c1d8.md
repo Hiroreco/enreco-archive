@@ -10,7 +10,7 @@ In her best Godfather tone, Fauna addressed the brown entrepreneur, recounting t
 
 NanaMoo, unimpressed, scoffed. "You take me for a fool?" she retorted mockingly, making it clear that 55,000 coins were mere pocket change to NanaEleven. Not only did she reject the offer outright, but she also exposed the truth—Fauna wasn’t even using her own money—it was Nerissa’s.
 
-[*Gasps dramatically*](#embed:https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=1263)
+[_Gasps dramatically_](#embed:https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=1263)
 
 Fauna's plan was crumbling fast. She was being backed into a corner, her carefully laid-out scheme unraveling before her eyes. But then, something unexpected happened.
 

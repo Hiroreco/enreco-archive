@@ -48,7 +48,7 @@ async function main() {
 
                 // 3) edges
                 for (const ed of chart.edges) {
-                    if(ed.data) {
+                    if (ed.data) {
                         ed.data.content = ed.data.content.replace(re, "$1");
                     }
                 }
