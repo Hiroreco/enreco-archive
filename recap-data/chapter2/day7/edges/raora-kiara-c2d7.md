@@ -14,7 +14,7 @@ Up till this point, the two were just friends. But there, in that moment, Kiara 
 
 In a rather surprising turn of events, it seemed like Kiara was a forerunner for Roa's heart. Both of them spent more time together throughout the day and even [commissioned a memory and a story from Shiori.](https://youtu.be/m2OG5auudrQ?t=10472) Roa would cheer for Kiara as the Orange Knight dueled.
 
-[Kiara proposed with a ring and a bouquet of roses.](https://www.youtube.com/live/m2OG5auudrQ?t=12662)
+[Kiara proposed with a ring and a bouquet of roses.](#embed:https://www.youtube.com/live/m2OG5auudrQ?t=12662)
 
 An impromptu wedding ceremony was arranged! Everyone, from all over the kingdom, despite the short notice, was invited.
 
