@@ -6,11 +6,11 @@
 
 ## Overview
 
-**Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by Mococo Abyssgard, differentiated only by their light blue hue.
+**Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by [Mococo Abyssgard](#entry:mococo-entry), differentiated only by their light blue hue.
 
 ## Details
 
-These claws share the same core ability: upon activation, Mococo unleashes a flurry of X-shaped slashes, devastating anything in her path.
+These claws share the same core ability: upon activation, Mococo unleashes a flurry of X-shaped slashes devastating anything in her path.
 
 But while the weapons may be similar, their wielders couldn't be more different. Unlike Fuwawa, who uses her claws only in times of absolute necessity and against evil foes, Mococo doesn’t hesitate to flash her claws at innocent bystanders—most often aimed at Nerissa, for reasons unknown (or perhaps very known).
 

@@ -6,12 +6,12 @@
 
 ## Overview
 
-**Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main and the hour hand in her offhand—are the trusty blades of Tam Gandr, the self-proclaimed queen of Libestal.
+**Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main hand and the hour hand in her offhand—are the trusty blades of [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of Libestal.
 
 ## Details
 
-Long before she found herself tangled in royal business and throne-claiming antics, Tam bore the title of **Warden of Time**. A name as intimidating as it sounds—had people known her true identity, her queenly claims would’ve raised far fewer eyebrows.
+Long before she found herself tangled in royal business and polycules, Tam bore the title of **Warden of Time**. A name as intimidating as it sounds—though it had minimal effect on the other heroes.
 
-The keyword here is _Time_. Upon activating the ability of her twin blades, Tam freezes time for all entities within a certain radius and deals damage to those caught in the stasis. However, this ability doesn’t affect her fellow heroes—so unless there’s a real enemy nearby, her ultimate time-freezing move turns into a whole lot of [flashy nothing](https://www.youtube.com/live/fIGfh8GmKY8?si=a7sNjb8ZFNpUudXp&t=7695).
+The keyword here is _Time_. Upon activating the ability of her twin blades, Tam freezes time for all entities within a certain radius and deals damage to those caught in stasis. However, this ability doesn’t affect her fellow heroes—so unless there’s a real enemy nearby, her ultimate time-freezing move turns into a whole lot of [flashy nothing](https://www.youtube.com/live/fIGfh8GmKY8?si=a7sNjb8ZFNpUudXp&t=7695).
 
 [ZA WARUDO](#embed:https://www.youtube.com/live/zgioohaY0m4?si=wjs7xiiQwD3m2sdP&t=8108)

@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Bookmark of Memories**, Shiori Novella's Revelation, takes the form of a blue feather—more precisely, a quill meant for writing. It was bestowed upon her when she was first summoned to the Kingdom of Libestal.
+**Bookmark of Memories**, [Shiori Novella's](#entry:shiori-entry) Revelation, takes the form of a blue feather—more precisely, a quill meant for writing. It was bestowed upon her when she was first summoned to the Kingdom of Libestal.
 
 ## Details
 

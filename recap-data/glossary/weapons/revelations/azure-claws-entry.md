@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Azure Claws**—a pair of razor-sharp, blue claws—are the weapons bestowed upon Fuwawa Abyssgard when she first arrived in the Kingdom of Libestal.
+**Azure Claws**—a pair of razor-sharp, blue claws—are the weapons bestowed upon [Fuwawa Abyssgard](#entry:fuwawa-entry) when she first arrived in the Kingdom of Libestal.
 
 ## Details
 
