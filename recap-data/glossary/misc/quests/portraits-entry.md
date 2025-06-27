@@ -6,7 +6,7 @@
 
 ## Overview
 
-In Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art event that ran from `March 1st to March 19th, 2025`, prior to the start of Chapter 2.
+In Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art event that ran from `March 1st to March 19th, 2025`, prior to the start of the chapter.
 
 ## Details
 
@@ -19,7 +19,7 @@ To receive a portrait, the heroes needed to help Pygmalion by gathering a set of
 
 This quest acted not only as a way to earn a personalized portrait but also as a clever method to promote player interaction and teamwork early in Chapter 2.
 
-Each hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was meaningful.
+Each hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was [meaningful.](https://www.youtube.com/live/CVF91CqGD80?si=xnTcW4oA0I5l5zax&t=4441)
 
 ## Credits
 

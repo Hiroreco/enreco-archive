@@ -30,8 +30,6 @@ Once the game begins, colors are eliminated one by one on a large board until on
 
 [Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)
 
----
-
 ### **Duel Arena**
 
 **Appearance:** Chapter 1, Chapter 2
@@ -45,8 +43,6 @@ In Chapter 2, an added rule ensures the match ends in a draw if both participant
 
 [Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)
 
----
-
 ### **Mind’s Eye**
 
 **Appearance:** Chapter 1
@@ -55,8 +51,6 @@ In Chapter 2, an added rule ensures the match ends in a draw if both participant
 A memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.
 
 [Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)
-
----
 
 ### **Chicken Rescue**
 

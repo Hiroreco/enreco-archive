@@ -6,7 +6,7 @@
 
 ## Overview
 
-Guilds were created to organize the heroes into manageable groups and served as the foundational pillars of Libestal in Chapter One.
+Guilds were created to organize the heroes into manageable groups and served as the foundational pillars of [Libestal](#entry:libestal-ficta-entry) in Chapter One.
 
 ## Details
 

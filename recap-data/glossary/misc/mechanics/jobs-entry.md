@@ -1,7 +1,7 @@
 <!-- title: Jobs -->
 <!-- quote: 250 coins for one soup?! -->
 <!-- chapters: 1 -->
-<!-- images: (Jobs Overview) --->
+<!-- images: (Jobs Overview), (Jobs and their icons), (Charms made by a Jeweler), (Food made by a Chef), (Upgrade Stones made by a Smith) --->
 <!-- model: false -->
 
 ## Overview
@@ -24,7 +24,7 @@ Furthermore, the heroes could set up stalls or shops to sell their specialized c
 
 #### Smith
 
-**Occupants:** Elizabeth Rose Bloodflame, Gonathon G, Tanakisha Karia
+**Occupants:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Gonathon G](#entry:gigi-entry), [Tanakisha Karia](#entry:kiara-entry)
 **Lead:** Master Smith Heph
 
 Smiths specialized in forging upgrade stones to enhance Revelation weapons, using a toolset known as the Smithing Tools.
@@ -33,9 +33,11 @@ Crafting involved using a large grid similar to a crafting table but with more c
 
 Smiths also gained a passive combat buff: a scaling chance to deal increased damage on hit, based on their job level.
 
+[A smith making an upgrade stone](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)
+
 #### Jeweler
 
-**Occupants:** Koseki Bijou, NinoIna, Roa Pandora, Mococo Abyssguard
+**Occupants:** [Koseki Bijou](#entry:bijou-entry), [NinoIna](#entry:ina-entry), [Roa Pandora](#entry:raora-entry), [Mococo Abyssguard](#entry:mococo-entry)
 **Lead:** Grand Jeweler Chrys
 
 Jewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.
@@ -44,18 +46,22 @@ A board filled with various stat buffs would be shown briefly before going blank
 
 Charms came in three different colors. Heroes could equip one charm of each color, encouraging thoughtful stat combinations.
 
+[A jewerler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)
+
 #### Chef
 
-**Occupants:** Hot Pink One, Shiori Nyavella, Nerissa Ravencroft, Mordan Ramsey, Fuwawa Abyssguard
+**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry)
 **Lead:** Executive Chef Ambros
 
 Chefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the "cook" button.
 
 The more meals a chef prepared, the higher their cooking pot's level became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.
 
+[A chef making food](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)
+
 #### Supplier
 
-**Occupants:** Cecilia Immerkind, Peasant Da Bae, Tam Gandr
+**Occupants:** [Cecilia Immerkind](#entry:cecilia-entry), [Peasant Da Bae](#entry:bae-entry), [Tam Gandr](#entry:kronii-entry)
 **Lead:** Supplier Foreman Kory
 
 Suppliers focused on resource collection through enchanted tools and a unique mining minigame.
@@ -66,5 +72,4 @@ Once durability ran out, points could be allocated to enchant tools with traits 
 
 Suppliers also had exclusive charms that boosted their mining effectiveness. When paired with high job levels and upgraded tools, they became unmatched in resource gathering.
 
-<!-- timestamps to add later -->
-<!-- https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078 charm -->
+[A supplier enchanting a pickaxe](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)

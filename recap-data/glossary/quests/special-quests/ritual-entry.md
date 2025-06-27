@@ -26,6 +26,4 @@ The ritual could be completed by either correctly seating everyone in numerical 
 
 ### Rewards
 
-- **"The Truth of Ruin"** Book
-
-[Read "The Truth of Ruin"](#text:the-truth-of-ruin)
+- [Read "The Truth of Ruin"](#text:the-truth-of-ruin)
