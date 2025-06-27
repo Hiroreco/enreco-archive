@@ -6,7 +6,8 @@
 
 ## Overview
 
-**Memories:** Recollected
+**Memories:** [Recollected](https://youtu.be/aSFZwinYaaU)
+**Revelation:** [Chaos Stampede](#entry:chaos-stampede-entry)
 
 Genie peasant
 

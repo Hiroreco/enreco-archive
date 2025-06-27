@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by [Tanakisha Karia](entry:kiara-entry).
+**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by [Tanakisha Karia](#entry:kiara-entry).
 
 ## Details
 

@@ -7,6 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
+**Revelation** [Fuchsia Claws](#entry:fuchsia-claws-entry)
 
 Mococo Abyssguard was definitely not the typical hero you'd imagine when you hear the word. She was notable for being a lottery addict in Chapter 1, helpless to the adrenaline that gambling gives her. One of the most chaotic and shameless of the bunch, it's a miracle how this mischievious dog learned from her poor financial decisions to become a hardworking jeweler and therapist in Chapter 2.
 

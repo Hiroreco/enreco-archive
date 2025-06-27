@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Light and Darkness**, a white and black star, one held in each hand, are the twin weapons bestowed to the [Hot Pink One](entry:irys-entry) upon her arrival in the Kingdom of Libestal.
+**Light and Darkness**, a white and black star, one held in each hand, are the twin weapons bestowed to the [Hot Pink One](#entry:irys-entry) upon her arrival in the Kingdom of Libestal.
 
 ## Details
 

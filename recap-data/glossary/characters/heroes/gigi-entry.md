@@ -7,6 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
+**Revelation** [Gremlin Grenade](#entry:gremlin-grenade-entry)
 
 Gonathon G. is pretty cool.
 

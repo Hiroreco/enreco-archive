@@ -6,7 +6,8 @@
 
 ## Overview
 
-**Memories:** Recollected
+**Memories:** [Recollected](https://youtu.be/aSFZwinYaaU)
+**Revelation** [Chrono Surge](#entry:chrono-surge-entry)
 
 Tam Gandr, now fully remembered as Ouro Kronii, was infamous in the kingdom for her oppressive charisma, razor-sharp tongue, inflated narcissism, and most of all—her endlessly boasted, self-proclaimed status as Queen.
 

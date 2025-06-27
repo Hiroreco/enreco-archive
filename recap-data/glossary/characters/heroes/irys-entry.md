@@ -6,7 +6,8 @@
 
 ## Overview
 
-**Memories:** Recollected
+**Memories:** [Recollected](https://youtu.be/5uaWaQg4pnM)
+**Revelation** [Light and Darkness](#entry:light-and-darkness-entry)
 
 The Hot Pink One, now remembered as IRyS, was a whirlwind of relationship chaos wrapped in a deceptively carefree shell. Wherever she went, confusion and drama followed—specifically of the romantic variety. A magnet for affairs, this pink enigma drew women in just as easily as she pushed them away, thanks to her ever-perplexing personality.
 

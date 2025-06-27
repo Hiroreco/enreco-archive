@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main hand and the hour hand in her offhand—are the trusty blades of [Tam Gandr](entry:kronii-entry), the self-proclaimed queen of Libestal.
+**Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main hand and the hour hand in her offhand—are the trusty blades of [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of Libestal.
 
 ## Details
 

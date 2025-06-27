@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by [Mococo Abyssgard](entry:mococo-entry), differentiated only by their light blue hue.
+**Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by [Mococo Abyssgard](#entry:mococo-entry), differentiated only by their light blue hue.
 
 ## Details
 

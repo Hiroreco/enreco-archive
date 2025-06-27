@@ -6,6 +6,9 @@
 
 ## Overview
 
+**Memories:** Not Recollected
+**Revelation** [Bookmark of Memories](#entry:bookmark-of-memories-entry)
+
 Shiori was possibly one of the most intriguing heroes. Weird, quirky, unpredictable—her surface was all eccentricities, but underneath lay secrets, depth, and a quiet, unnerving awareness. Hints were dropped all along that she retained not just her own memories, but fragments of everyone else's as well. There was an aura to her—of someone who knew things others didn’t. Knew things she _shouldn’t_.
 
 This omniscient undertone came to full light in Chapter 2, culminating in a shocking heel turn at the end of the journey alongside four others.

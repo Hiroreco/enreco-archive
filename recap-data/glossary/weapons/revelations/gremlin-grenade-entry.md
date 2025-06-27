@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Gremlin Grenade**, a pair of spiked metal gauntlets—so massive they nearly dwarf their wielder's head—are the weapons worn by our humble knight, [Gonathon G](entry:gigi-entry), upon his arrival in the Kingdom of Libestal.
+**Gremlin Grenade**, a pair of spiked metal gauntlets—so massive they nearly dwarf their wielder's head—are the weapons worn by our humble knight, [Gonathon G](#entry:gigi-entry), upon his arrival in the Kingdom of Libestal.
 
 ## Details
 

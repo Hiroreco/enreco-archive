@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Eye of Wisdom**—an unusual name for what's essentially a magnifying glass, but a fitting one when you understand what it represents. This golden-rimmed magnifying glass, complete with a comical mustache, might look far less intimidating than the other heroes' armaments, but it remains the trusty weapon [Amelia Watson](entry:amelia-entry) wielded throughout her journey in Libestal.
+**Eye of Wisdom**—an unusual name for what's essentially a magnifying glass, but a fitting one when you understand what it represents. This golden-rimmed magnifying glass, complete with a comical mustache, might look far less intimidating than the other heroes' armaments, but it remains the trusty weapon [Amelia Watson](#entry:ame-entry) wielded throughout her journey in Libestal.
 
 ## Details
 

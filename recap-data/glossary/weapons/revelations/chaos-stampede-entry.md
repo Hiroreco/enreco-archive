@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Chaos Stampede**, a six-faced black die with neon-hued dots, is the simple yet undeniably cool weapon that [Peasant da Bae](entry:bae-entry) wields upon her arrival in the Kingdom of Libestal.
+**Chaos Stampede**, a six-faced black die with neon-hued dots, is the simple yet undeniably cool weapon that [Peasant da Bae](#entry:bae-entry) wields upon her arrival in the Kingdom of Libestal.
 
 ## Details
 
