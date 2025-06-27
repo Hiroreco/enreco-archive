@@ -14,7 +14,14 @@ Yet, it quickly became clear that this victory would come at a cost, as some of 
 
 ## Details
 
-**The Cursed Ones**
+### Appearence
+
+The dungeon’s atmosphere was oppressive and grim, resembling a massive, foreboding mansion. Dark and crimson red dominated the color palette, while curtains of lava bathed the space in an intimidating orange glow. The layout featured a vast library and multiple platform-like sections, all gradually leading toward a grand hall—where the final boss awaited.
+
+### Challenges
+
+#### The Cursed Ones
+
 Unlike the dungeons before it, the Heart of Ruin featured no puzzles or quizzes.
 
 The heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221) their progress and becoming obstacles on the path forward. The remaining heroes were tasked with purifying their friends.
@@ -27,9 +34,7 @@ Progressing onward, the heroes were thrown into a series of arenas where they fo
 
 Only once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250) and return to the group.
 
----
-
-**The Final Battle**
+#### The Final Battle
 
 Deeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former King and Queen, as well as the source behind such fate.
 

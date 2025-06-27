@@ -8,7 +8,7 @@
 
 **Day Unlocked**: 3
 
-The Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere standing in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: Ninomae Ina’nis of the Ancient Ones.
+The Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere standing in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: [Ninomae Ina’nis](#entry:ina-entry) of the Ancient Ones.
 
 ## Details
 
@@ -28,9 +28,11 @@ There were three main puzzles:
 
 ### Rewards
 
-- "Violet" Disc - Ninomae Ina'nis
+- ["Violet"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Vinyl - Ninomae Ina'nis
 - Memories of Ninomae Ina'nis
+
+[Recollection - Ninomae Ina'nis](#embed:https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)
 
 ### Sources
 
-- World Builder - [t.s.kai](https://x.com/tskai_xx)
+- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1830984777304015120/photo/1)

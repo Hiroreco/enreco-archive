@@ -12,6 +12,12 @@
 
 ## Details
 
+### Appearance
+
+The dungeon was deeply rooted in the concept of a nephilim, split between two opposing forces. One side embodied the angelic, bathed in brilliant white and soft pastel blues, evoking a sense of serenity and purity. The other side channeled the demonic, cloaked in deep crimson reds that radiated intensity and conflict.
+
+Each side consisted of a long corridor filled with challenges, parreleling to each other and separated so that neither path could see the other. Only after all trials on both paths were completed did the two halves converge—united for the final boss fight.
+
 ### Puzzles
 
 Designed for a group of four, the dungeon splits the party into two teams: the **Angelic Side** and the **Demonic Side**, who must cooperate to solve a series of puzzles in order to progress.
@@ -38,10 +44,8 @@ After completing the final puzzle, both teams reunite to face the dungeon boss: 
 
 ### Rewards
 
-- **"Caesura of Despair"** – a music disc by IRyS
-- **Memories of IRyS**
-
-[Recollection - IRyS](#embed:https://www.youtube.com/watch?v=5uaWaQg4pnM)
+- ["Caesura of Despair"](https://youtu.be/vBNI979XyoE?si=J7NPq-J5GJfAt8iP) – a music disc by IRyS
+- [Memories](https://www.youtube.com/watch?v=5uaWaQg4pnM) of IRyS
 
 ### Sources
 

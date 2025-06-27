@@ -12,6 +12,10 @@ The **Stronghold of Ruin** marked the place where the heroes first encountered t
 
 ## Details
 
+### Appearance
+
+This dungeon served as a branch of the Heart of Ruin, which explained the visual and atmospheric similarities between them. It was cloaked in a dark, ominous palette of reds and shadows, creating an oppressive sense of danger. The structure featured large, round platforms where challenges took place, culminating in a final arena adorned with floating red crystals—where the dungeon’s boss awaited.
+
 ### Puzzles
 
 Upon entering, the party was granted a checkpoint system and 5 shared lives, setting the tone for the challenging trials ahead.
@@ -46,7 +50,7 @@ The arena was surrounded by four more black roses, one in each corner, each prot
 
 ### Rewards
 
-- **"Monster"** Music Disc
+- ["Monster"](https://www.youtube.com/watch?v=2kllY6gIU6o&pp=ygUQbW9uc3RlciBob2xvbGl2ZQ%3D%3D) Vinyl
 
 ### Sources
 

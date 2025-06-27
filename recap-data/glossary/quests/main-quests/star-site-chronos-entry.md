@@ -12,6 +12,12 @@
 
 ## Details
 
+### Appearance
+
+Among all the dungeons in Chapter 2, Star Site: Chronos likely had the most elegant, formal, and grand design. The core structure was a towering clock tower, where all the challenges were held, painted in regal shades of deep blue and shimmering gold, perched atop a wide circular platform of matching colors. Each of the platform’s four corners was marked with ornate clock symbols, enhancing the time motif.
+
+Suspended within a serene void bathed in cool blue hues, the tower glowed softly from scattered points of light, echoing the enchanting twinkle of distant stars in the background. The atmosphere exuded a sense of command and reverence—as if those who entered were stepping into a domain governed by one of the universe’s most sacred forces: time itself.
+
 ### Puzzles
 
 The dungeon introduced its main mechanic immediately: each room presented a short **10-second timer** to complete an objective. A central device called the **timer block** allowed the players to manipulate this timer in various ways—**playing**, **pausing**, **rewinding**, or **resetting** time depending on the challenge.
@@ -54,10 +60,8 @@ Chronos can also rewind its own health bar, healing back damage taken, forcing p
 
 ### Rewards
 
-- **"Daydream"** – a music disc by Ouro Kronii
-- **Memories of Ouro Kronii**
-
-[Recollection - Ouro Kronii](#embed:https://www.youtube.com/watch?v=qV7dgz75tVo)
+- ["Daydream"](https://www.youtube.com/watch?v=6W749jRBg-4&pp=ygURZGF5ZHJlYW0gaG9sb2xpdmU%3D) Vinyl – Ouro Kronii
+- [Memories](https://www.youtube.com/watch?v=qV7dgz75tVo&pp=ygUTcmVjb2xsZWN0aW9uIGtyb25padIHCQnDCQGHKiGM7w%3D%3D) of Ouro Kronii
 
 ### Sources
 

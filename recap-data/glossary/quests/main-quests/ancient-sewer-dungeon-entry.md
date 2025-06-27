@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Ancient Sewer Dungeon marked the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—Amelia Watson.
+The Ancient Sewer Dungeon marked the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—[Amelia Watson](#entry:ame-entry).
 
 ## Details
 
@@ -16,7 +16,7 @@ In stark contrast to the grand, mythical settings of the previous four dungeons�
 
 ### Puzzles
 
-Compared to the other dungeons, this one featured the simplest challenge: a quiz. The heroes had to answer a sequence of five questions that tested their knowledge of their journey thus far. Multiple choices were given for each. A correct answer would let them advance to the next question; a wrong one would transport them to a chamber filled with Stains, which they had to defeat before trying again.
+Compared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056). The heroes had to answer a sequence of five questions that tested their knowledge of their journey thus far. Multiple choices were given for each. A correct answer would let them advance to the next question; a wrong one would transport them to a chamber filled with Stains, which they had to defeat before trying again.
 
 Each question was tied to previous dungeon events and memory fragments, with the final question requiring the players to explore the dungeon itself for a hidden clue.
 
@@ -37,9 +37,12 @@ Answer all five correctly, and the final dungeon of the first chapter would be c
 
 ### Rewards
 
-- "ChikuTaku" Disc - Amelia Watson
+- A Wrap Crystal
+- ["ChikuTaku"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson
 - Memories of Amelia Watson
+
+[Recollection - Amelia Watson](#embed:https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D)
 
 ### Sources
 
-- World Builder - [t.s.kai](https://x.com/tskai_xx)
+- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)

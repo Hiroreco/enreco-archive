@@ -12,6 +12,10 @@ Star Site: Chaos marked the third and final star site in Chapter 2, and it stood
 
 ## Details
 
+### Appearance
+
+At the center of the dungeon hovered a massive, circular roulette platform, suspended in a swirling void. Surrounding it were six towering structures shaped like doors, each leading to a unique minigame. The entire dungeon was adorned in gleaming quartz white, contrasted with bold, primary color palettes that gave the space a bright, vibrant, and almost surreal energy—perfectly capturing the essence of chance and chaos.
+
 ### Games
 
 Unlike the earlier dungeons where puzzles were the main focus, the primary gimmick of this dungeon was a collection of minigames determined by spinning a roulette wheel. Player performance in these games was tracked by a **luck meter**—the better the performance, the more luck gained.
@@ -39,10 +43,8 @@ At the end, players face the true boss: **Stain King Chaos**, a battle riddled w
 
 ### Rewards
 
-- **"Play Dice"** – a music disc by Hakos Baelz
-- **Memories of Hakos Baelz**
-
-[Recollection - Hakos Baelz](#embed:https://www.youtube.com/watch?v=aSFZwinYaaU)
+- ["Play Dice"](https://www.youtube.com/watch?v=na6bysYNuS0&pp=ygUJcGxheSBkaWNl) Vinyl – Hakos Baelz
+- [Memories](https://www.youtube.com/watch?v=aSFZwinYaaU) of Hakos Baelz
 
 ### Sources
 
