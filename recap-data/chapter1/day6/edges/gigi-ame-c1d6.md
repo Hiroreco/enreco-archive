@@ -38,7 +38,7 @@ At one point, Amelia remembered a diamond, but it was still too foggy. Her head 
 
 ## Fanart
 
-["A Knight's Tale"by Raff Yasushi](https://x.com/raffanda_/status/1832103922015822089)
+["A Knight's Tale" by Raff Yasushi](https://x.com/raffanda_/status/1832103922015822089)
 
 ["Gonathon G!" by yomosaka](https://x.com/yomosaka/status/1832146121898221666)
 
