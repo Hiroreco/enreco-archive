@@ -42,8 +42,8 @@ At the summit stood the Flame Guardian, a towering statue of a goddess-like figu
 
 ### Rewards
 
-- "Hinotori" Disc - Takanashi Kiara
-- Memories of Takanashi Kiara
+- ["Hinotori"](https://youtu.be/eDfMDkgheQY?si=LrNua8X-nFdM770M) Disc - Takanashi Kiara
+- [Memories](https://youtu.be/A3bQdV_sl08?si=-NxdiYuhunxDUoa1) of Takanashi Kiara
 
 ## Sources
 
