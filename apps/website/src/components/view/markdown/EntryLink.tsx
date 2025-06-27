@@ -41,7 +41,7 @@ export default function EntryLink({ itemId, children }: ItemLinkProps) {
             className="text-accent inline-flex items-center hover:underline hover:underline-offset-2"
             onClick={handleClick}
         >
-            <span className="font-semibold">{children}</span>
+            <span className="italic font-semibold">{children}</span>
             <ArrowUpRight />
         </button>
     );

@@ -22,27 +22,29 @@ Each question was tied to previous dungeon events and memory fragments, with the
 
 The questions were as follows:
 
-1. **Which source of energy did a certain offbeat reaper discover?**
-    – Answer: People’s strong emotions
-2. **Which of these guard the force field around Atlantis?**
-    – Answer: Shark statues
-3. **A mysterious boy appeared at a certain shrine. What is he particularly good at?**
-    – Answer: Folding origami
-4. **What is the grand achievement of a certain oddball phoenix?**
-    – Answer: Helping a fast food restaurant pay its debt
-5. **What did a certain detective invent for the travelers who made it this far?**
-    – Answer: A Warp Crystal
+**Which source of energy did a certain offbeat reaper discover?**
+– Answer: People’s strong emotions
+
+**Which of these guard the force field around Atlantis?**
+– Answer: Shark statues
+
+**A mysterious boy appeared at a certain shrine. What is he particularly good at?**
+– Answer: Folding origami
+
+**What is the grand achievement of a certain oddball phoenix?**
+– Answer: Helping a fast food restaurant pay its debt
+
+**What did a certain detective invent for the travelers who made it this far?**
+– Answer: A Warp Crystal
 
 Answer all five correctly, and the final dungeon of the first chapter would be cleared.
 
 ### Rewards
 
-- A Wrap Crystal
+- A Warp Crystal
 - ["ChikuTaku"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson
-- Memories of Amelia Watson
+- [Memories](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D) of Amelia Watson
 
-[Recollection - Amelia Watson](#embed:https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D)
-
-### Sources
+## Sources
 
 - World Builder - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)

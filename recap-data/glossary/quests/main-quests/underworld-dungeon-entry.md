@@ -26,6 +26,6 @@ The **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is them
 
 [Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)
 
-### Sources
+## Sources
 
 - Concept Art - [miya-zaki](https://x.com/miya_zaki/status/1830140718729265368/photo/1)

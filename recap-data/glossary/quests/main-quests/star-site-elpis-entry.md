@@ -47,6 +47,6 @@ After completing the final puzzle, both teams reunite to face the dungeon boss: 
 - ["Caesura of Despair"](https://youtu.be/vBNI979XyoE?si=J7NPq-J5GJfAt8iP) – a music disc by IRyS
 - [Memories](https://www.youtube.com/watch?v=5uaWaQg4pnM) of IRyS
 
-### Sources
+## Sources
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1919701535896043963/photo/1)

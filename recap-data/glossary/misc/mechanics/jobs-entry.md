@@ -25,7 +25,7 @@ Furthermore, the heroes could set up stalls or shops to sell their specialized c
 #### Smith
 
 **Occupants:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Gonathon G](#entry:gigi-entry), [Tanakisha Karia](#entry:kiara-entry)
-**Lead:** Master Smith Heph
+**Lead:** Heph
 
 Smiths specialized in forging upgrade stones to enhance Revelation weapons, using a toolset known as the Smithing Tools.
 
@@ -38,7 +38,7 @@ Smiths also gained a passive combat buff: a scaling chance to deal increased dam
 #### Jeweler
 
 **Occupants:** [Koseki Bijou](#entry:bijou-entry), [NinoIna](#entry:ina-entry), [Roa Pandora](#entry:raora-entry), [Mococo Abyssguard](#entry:mococo-entry)
-**Lead:** Grand Jeweler Chrys
+**Lead:** Chrys
 
 Jewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.
 
@@ -51,7 +51,7 @@ Charms came in three different colors. Heroes could equip one charm of each colo
 #### Chef
 
 **Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry)
-**Lead:** Executive Chef Ambros
+**Lead:** Ambros
 
 Chefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the "cook" button.
 
@@ -62,7 +62,7 @@ The more meals a chef prepared, the higher their cooking pot's level became. Hig
 #### Supplier
 
 **Occupants:** [Cecilia Immerkind](#entry:cecilia-entry), [Peasant Da Bae](#entry:bae-entry), [Tam Gandr](#entry:kronii-entry)
-**Lead:** Supplier Foreman Kory
+**Lead:** Foreman Kory
 
 Suppliers focused on resource collection through enchanted tools and a unique mining minigame.
 

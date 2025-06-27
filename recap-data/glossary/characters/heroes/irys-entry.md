@@ -49,4 +49,4 @@ If anyone followed the story from her perspective, it was easy to lose track of 
 
 ## Trivia
 
-- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the highest number of relationships.
+- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the highest number of romantic—or ex-romantic—partners.

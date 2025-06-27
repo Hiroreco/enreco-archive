@@ -46,7 +46,7 @@ At the end, players face the true boss: **Stain King Chaos**, a battle riddled w
 - ["Play Dice"](https://www.youtube.com/watch?v=na6bysYNuS0&pp=ygUJcGxheSBkaWNl) Vinyl – Hakos Baelz
 - [Memories](https://www.youtube.com/watch?v=aSFZwinYaaU) of Hakos Baelz
 
-### Sources
+## Sources
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1921298173123076248)
 - Concept Art - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1922200389815882127/photo/1)

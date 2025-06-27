@@ -23,7 +23,7 @@ Jyon wasted no time causing a stir with her chaotic antics. On her very first da
 
 Word of this great conspiracy quickly spread, reaching the ears of Gonathon, the ever-loyal knight who was determined to stop and expose Jyon at all costs. But instead of conflict, fate had other plans: by the second day, the two were happily married, after an exchange of diamonds.
 
-Jyon was adored by all. With her cheerful energy and iconic “Bonk” from her [Revelation](#entry:eye-of-wisdom-entry), she brought laughter and light wherever she went. It was no wonder the orange knight fell head over heels for her.
+Jyon was adored by all. With her cheerful energy and iconic “Bonk” from her Revelation, she brought laughter and light wherever she went. It was no wonder the orange knight fell head over heels for her.
 
 But just as their love story bloomed, tragedy struck. After conquering the [Ancient Sewer Dungeon](#entry:ancient-sewer-dungeon-entry), Jyon regained her past life’s memories as Amelia Watson—at the cost of forgetting her current self and, more painfully, forgetting Gonathon. The orange knight was heartbroken. Yet Amelia's pain ran deeper, haunted by a sense of having lost something precious—something she couldn’t quite remember.
 
@@ -33,4 +33,4 @@ This marked the close of her chapter—for now. She set off to take care of some
 
 ## Trivia
 
-- One of the Ancient Sewer Dungeon's rewards was the Teleportation Crystal. This crystal was stated to have been made by Ame.
+- One of the Ancient Sewer Dungeon's rewards was the Warp Crystal. This crystal was stated to have been made by Ame.

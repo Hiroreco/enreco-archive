@@ -89,6 +89,6 @@ At the end of each day, the heroes were asked to record their experiences and su
 
 _Note: You can read all of the heroes' entries in Chapter 2's charts._
 
-### Credits
+## Sources
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1919396839205593174/photo/1)
