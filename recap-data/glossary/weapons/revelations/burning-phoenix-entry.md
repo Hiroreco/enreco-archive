@@ -1,12 +1,12 @@
 <!-- title: Burning Phoenix -->
-<!-- quote: No, no! I do not want to be known as the 'Burger Lady'!... Beautiful, MYTHical, and demure and mindful. -->
+<!-- quote: No, no! I do not want to be known as the 'Burger Lady'!... Beautiful, MYTHical, demure, and mindful. -->
 <!-- chapters: -1 -->
 <!-- images: (Kiara's first time wielding Burning Phoenix), (Burning Phoenix as viewed from the inventory), (Burning Phoenix's ability activated) -->
 <!-- model: true -->
 
 ## Overview
 
-**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by Tanakisha Karia.
+**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by [Tanakisha Karia](entry:kiara-entry).
 
 ## Details
 

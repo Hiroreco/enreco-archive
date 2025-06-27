@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Automaton Assault**, a lance adorned in gold and green, is the beloved weapon of Cecilia Immergreen on her journey through the Kingdom of Libestal.
+**Automaton Assault**, a lance adorned in gold and green, is the beloved weapon of [Cecilia Immergreen](#entry:cecilia-entry) on her journey through the Kingdom of Libestal.
 
 ## Details
 
