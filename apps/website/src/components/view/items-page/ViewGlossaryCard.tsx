@@ -63,7 +63,6 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
     const [selectedCategory, setSelectedCategory] =
         useState<Category>("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
-
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
     const {
@@ -75,6 +74,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
         goBack,
         goHome,
     } = useGlossary();
+    console.log(history);
 
     useEffect(() => {
         const newMap: GlossaryPageData = {};
@@ -131,6 +131,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                                     onClick={() => {
                                         setSelectedCategory(
                                             history[0]?.categoryKey ||
+                                                currentEntry?.categoryKey ||
                                                 "cat-weapons",
                                         );
                                         goHome();
