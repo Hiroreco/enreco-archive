@@ -2,6 +2,7 @@ import textData from "#/text-data.json";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
+import { getTextSizeValue, getFontFamilyValue } from "@/store/uiSettings";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -27,6 +28,9 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const textItem = (textData as TextData)[textId];
     const { playSFX } = useAudioStore();
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
+    const { textSize, fontFamily } = useSettingStore();
+    const textSizeValue = getTextSizeValue(textSize);
+    const fontFamilyValue = getFontFamilyValue(fontFamily);
 
     if (!textItem) {
         return null;
@@ -52,7 +56,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                         {textItem.category} - {textItem.title}
                     </DialogDescription>
                 </VisuallyHidden>
-                <div className="relative">
+                <div className="relative" style={{ fontSize: textSizeValue, fontFamily: fontFamilyValue }}>
                     <ViewMarkdown
                         className="px-2 overflow-y-auto overflow-x-hidden h-[70vh] pb-10 z-10"
                         onNodeLinkClicked={() => {}}

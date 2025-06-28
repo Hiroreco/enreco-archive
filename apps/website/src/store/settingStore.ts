@@ -1,7 +1,10 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
+
 import { ThemeType } from "@enreco-archive/common/types";
+
+import type { FontFamily } from "./uiSettings";
 
 export type BackdropFilter = "blur" | "clear";
 
@@ -23,6 +26,12 @@ interface SettingState {
 
     themeType: ThemeType;
     setThemeType: (newThemeType: ThemeType) => void;
+
+    textSize: string;
+    setTextSize: (textSize: string) => void;
+
+    fontFamily: FontFamily;
+    setFontFamily: (fontFamily: FontFamily) => void;
 }
 
 // Persists state in local storage
@@ -49,6 +58,11 @@ export const useSettingStore = create<SettingState>()(
             themeType: "system",
             setThemeType: (newThemeType: ThemeType) =>
                 set({ themeType: newThemeType }),
+
+            textSize: "md",
+            setTextSize: (textSize: string) => set({ textSize }),
+            fontFamily: "sans",
+            setFontFamily: (fontFamily: FontFamily) => set({ fontFamily }),
         }),
         { name: "setting" },
     ),

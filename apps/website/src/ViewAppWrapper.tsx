@@ -12,12 +12,15 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { Chapter, SiteData } from "@enreco-archive/common/types";
+
+import type { FontFamily } from "./store/uiSettings";
 import { AnimatePresence, motion } from "framer-motion";
 import { LibraryBig, Workflow } from "lucide-react";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
+import { getTextSizeValue, getFontFamilyValue } from "./store/uiSettings";
 
 const data: SiteData = {
     version: siteMeta.version,
@@ -45,8 +48,17 @@ export const ViewAppWrapper = () => {
         bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
     }
 
+    // Text size and font family for global text scaling
+    const { textSize, fontFamily } = useSettingStore();
+    const textSizeValue = getTextSizeValue(textSize);
+    const fontFamilyValue = getFontFamilyValue(fontFamily);
+    const style = {
+        '--site-text-size': textSizeValue,
+        fontFamily: fontFamilyValue,
+    } as React.CSSProperties;
+
     return (
-        <div>
+        <div style={style} className="site-text-size">
             {isLoading && (
                 <ViewLoadingPage
                     useDarkMode={useDarkMode}

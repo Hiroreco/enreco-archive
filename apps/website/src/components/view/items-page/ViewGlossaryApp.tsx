@@ -7,6 +7,8 @@ import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useViewStore } from "@/store/viewStore";
+import { useSettingStore } from "@/store/settingStore";
+import { getTextSizeValue, getFontFamilyValue } from "@/store/uiSettings";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Dice6, Info, Settings, Disc3 } from "lucide-react";
 
@@ -19,8 +21,18 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     const { isOpen: isMusicModalOpen, setIsOpen: setIsMusicModalOpen } =
         useMusicPlayerStore();
 
+    const { textSize, fontFamily } = useSettingStore();
+    const textSizeValue = getTextSizeValue(textSize);
+    const fontFamilyValue = getFontFamilyValue(fontFamily);
+
     return (
-        <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
+        <div
+            style={{
+                ['--site-text-size' as any]: textSizeValue,
+                fontFamily: fontFamilyValue,
+            }}
+            className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden site-text-size"
+        >
             <GlossaryProvider>
                 <ViewGlossaryCard className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2" />
             </GlossaryProvider>

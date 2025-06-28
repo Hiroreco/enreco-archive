@@ -1,3 +1,4 @@
+import { getTextSizeValue, getFontFamilyValue } from "@/store/uiSettings";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import ViewChapterRecapToolbar from "@/components/view/ViewChapterRecapToolbar";
 import {
@@ -57,6 +58,9 @@ const ViewChapterRecapModal = ({
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
     const activeSection = useScrollSpy(sectionIds);
     const backdropFiler = useSettingStore((state) => state.backdropFilter);
+    const { textSize, fontFamily } = useSettingStore();
+    const textSizeValue = getTextSizeValue(textSize);
+    const fontFamilyValue = getFontFamilyValue(fontFamily);
 
     // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {
@@ -143,7 +147,11 @@ const ViewChapterRecapModal = ({
                         onSectionChange={handleSectionChange}
                     />
 
-                    <div className="overflow-auto flex-1 p-4" ref={contentRef}>
+                    <div
+                        className="overflow-auto flex-1 p-4"
+                        ref={contentRef}
+                        style={{ fontSize: textSizeValue, fontFamily: fontFamilyValue }}
+                    >
                         <AnimatePresence mode="wait">
                             <motion.div
                                 key={chapter}

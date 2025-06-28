@@ -2,6 +2,14 @@
 @import "tw-animate-css";
 @import "@enreco-archive/common-ui/globals.css";
 
+html {
+  --site-text-size: 1rem;
+}
+
+body, .site-text-size {
+  font-size: var(--site-text-size) !important;
+}
+
 @source "../apps/**/*.{ts,tsx}";
 @source "./components/**/*.{ts,tsx}";
 

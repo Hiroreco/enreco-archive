@@ -19,6 +19,7 @@ import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
+import { getTextSizeClass } from "@/store/uiSettings";
 import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
 import { Book, Dice6, Disc3, Info, Settings } from "lucide-react";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
@@ -476,8 +477,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
               ]
             : null;
 
+
+    // Determine text size class using helper
+    const textSizeClass = getTextSizeClass(settingsStore.textSize);
+
     return (
-        <div>
+        <div className={textSizeClass}>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <ViewChart
                     nodes={memoizedDayData.nodes}

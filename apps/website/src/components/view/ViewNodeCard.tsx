@@ -1,3 +1,6 @@
+import { useSettingStore } from "@/store/settingStore";
+import { getTextSizeValue, getFontFamilyValue } from "@/store/uiSettings";
+
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
 import NodeCardDeco from "@/components/view/NodeCardDeco";
@@ -45,6 +48,11 @@ const ViewNodeCard = ({
     setChartShrink,
     onDayChange,
 }: Props) => {
+
+    // Get dynamic text size and font family values
+    const { textSize, fontFamily } = useSettingStore();
+    const textSizeValue = getTextSizeValue(textSize);
+    const fontFamilyValue = getFontFamilyValue(fontFamily);
     const contentRef = useRef<HTMLDivElement>(null);
 
     // Reset scroll position when selectedNode changes
@@ -84,7 +92,11 @@ const ViewNodeCard = ({
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <div className="h-full w-full overflow-auto px-2" ref={contentRef}>
+            <div
+                className="h-full w-full overflow-auto px-2"
+                ref={contentRef}
+                style={{ fontSize: textSizeValue, fontFamily: fontFamilyValue }}
+            >
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">

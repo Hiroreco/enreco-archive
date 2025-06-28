@@ -19,6 +19,7 @@ import {
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
 import { BackdropFilter, useSettingStore } from "@/store/settingStore";
+import type { FontFamily } from "@/store/uiSettings";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
 
@@ -115,6 +116,51 @@ const ViewSettingsModal = ({ open, onOpenChange }: ViewSettingsModalProps) => {
                             <SelectContent>
                                 <SelectItem value="blur">Blur</SelectItem>
                                 <SelectItem value="clear">Clear</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label htmlFor="text-size">Text Size</Label>
+                        <Select
+                            onValueChange={(value) => settingStore.setTextSize(value)}
+                            value={settingStore.textSize}
+                        >
+                            <SelectTrigger
+                                id="text-size"
+                                name="text-size"
+                                className="w-[100px]"
+                            >
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="xs">Extra Small</SelectItem>
+                                <SelectItem value="sm">Small</SelectItem>
+                                <SelectItem value="md">Medium</SelectItem>
+                                <SelectItem value="mdlg">Medium-Large</SelectItem>
+                                <SelectItem value="lg">Large</SelectItem>
+                                <SelectItem value="xlg">Extra Large</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label htmlFor="font-family">Font</Label>
+                        <Select
+                            onValueChange={(value) => settingStore.setFontFamily(value as FontFamily)}
+                            value={settingStore.fontFamily}
+                        >
+                            <SelectTrigger
+                                id="font-family"
+                                name="font-family"
+                                className="w-[140px]"
+                            >
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="sans">Sans Serif</SelectItem>
+                                <SelectItem value="serif">Serif</SelectItem>
+                                <SelectItem value="mono">Monospace</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>

@@ -1,3 +1,5 @@
+import { useSettingStore } from "@/store/settingStore";
+import { getTextSizeValue, getFontFamilyValue } from "@/store/uiSettings";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import ViewProgressBar from "@/components/view/ViewProgressBar";
@@ -32,8 +34,16 @@ const ViewRecapCard = ({
             scrollRef.current.scrollTo(0, 0);
         }
     }, [dayData]);
+    // Get dynamic text size and font family values
+    const { textSize, fontFamily } = useSettingStore();
+    const textSizeValue = getTextSizeValue(textSize);
+    const fontFamilyValue = getFontFamilyValue(fontFamily);
+
     return (
-        <div className="flex flex-col gap-4 mt-4 h-full min-h-0 relative">
+        <div
+            className="flex flex-col gap-4 mt-4 h-full min-h-0 relative"
+            style={{ fontSize: textSizeValue, fontFamily: fontFamilyValue }}
+        >
             <ViewProgressBar
                 day={day}
                 numberOfDays={numberOfDays}
