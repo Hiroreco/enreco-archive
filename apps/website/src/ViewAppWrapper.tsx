@@ -82,10 +82,13 @@ export const ViewAppWrapper = () => {
                     orientation="vertical"
                     defaultValue="chart"
                     onValueChange={(value) => setAppType(value as AppType)}
-                    className={cn("absolute left-2 top-2 z-10 transition-all", {
-                        "invisible opacity-0": currentCard !== null,
-                        "visible opacity-100": currentCard === null,
-                    })}
+                    className={cn(
+                        "absolute left-[8px] top-[8px] z-10 transition-all",
+                        {
+                            "invisible opacity-0": currentCard !== null,
+                            "visible opacity-100": currentCard === null,
+                        },
+                    )}
                 >
                     <TabsList>
                         <TabsTrigger value="chart">

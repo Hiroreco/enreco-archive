@@ -63,12 +63,12 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 />
                             )}
                         </div>
-                        <div className="w-full text-center">
+                        <div className="w-full text-center flex flex-col gap-[8px]">
                             <p className="text-center underline underline-offset-2 font-semibold">
                                 {item.title}
                             </p>
 
-                            <p className="flex flex-col items-center text-sm mt-4">
+                            <p className="flex flex-col items-center text-sm">
                                 <span className="font-semibold text-center">
                                     Appeared In
                                 </span>
@@ -82,7 +82,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 </span>
                             </p>
 
-                            <p className="flex flex-col items-center text-sm mt-4">
+                            <p className="flex flex-col items-center text-sm">
                                 <span className="font-semibold text-center">
                                     Quote
                                 </span>
@@ -93,7 +93,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         </div>
                     </div>
 
-                    <div className="flex overflow-x-scroll gap-2 content-container md:w-[250px] w-[300px]">
+                    <div className="flex overflow-x-scroll overflow-y-hidden gap-2 content-container md:w-[250px] w-[300px]">
                         {item.galleryImages.map((image, index) => (
                             <ViewLightbox
                                 key={index}
@@ -104,8 +104,8 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     "-thumb.webp",
                                 )}
                                 alt={image.title || "Gallery image"}
-                                containerClassName="border-2 border-foreground/30 shadow-md rounded-lg shrink-0"
-                                className="h-[100px] aspect-video object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
+                                containerClassName="shrink-0"
+                                className="h-[100px] border-2 border-foreground/30 shadow-md rounded-lg aspect-video object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
                                 galleryImages={item.galleryImages.map(
                                     (img) => ({
                                         src: img.source,

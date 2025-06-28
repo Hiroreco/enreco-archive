@@ -502,7 +502,7 @@ const ViewMusicPlayerModal = ({
                                 </div>
                             )}
                         </div>
-                        <div className="flex flex-col items-center px-2 w-[300px] relative">
+                        <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title ||
@@ -542,7 +542,7 @@ const ViewMusicPlayerModal = ({
                         />
                     </div>
 
-                    <div className="flex md:hidden flex-col items-center gap-4">
+                    <div className="text-center flex md:hidden flex-col items-center gap-4">
                         <div className="flex flex-col items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
                                 <p className="truncate font-lg font-semibold">
@@ -586,7 +586,7 @@ const ViewMusicPlayerModal = ({
                     {/* Song List by Category */}
                     <div
                         ref={listRef}
-                        className="flex flex-col gap-2 px-2 border-y border-neutral-500 max-h-[40vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
+                        className="flex flex-col gap-2 px-2 border-y border-neutral-500 max-h-[45vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
                     >
                         {categories.map(([cat, list], cIdx) => (
                             <div key={cat}>

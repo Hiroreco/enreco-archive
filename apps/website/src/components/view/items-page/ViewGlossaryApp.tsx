@@ -53,10 +53,10 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 onOpenChange={setIsMusicModalOpen}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex md:flex-col gap-2">
+            <div className="fixed top-0 right-0 m-[8px] z-10 flex md:flex-col gap-[8px]">
                 <IconButton
                     id="info-btn"
-                    className="h-10 w-10 p-1 hidden md:block"
+                    className="size-[40px] p-[4px] hidden md:block"
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
@@ -67,7 +67,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
 
                 <IconButton
                     id="settings-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-[4px]"
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
@@ -78,7 +78,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
 
                 <IconButton
                     id="minigames-btn"
-                    className="h-10 w-10 p-1 hidden md:block"
+                    className="size-[40px] p-[4px] hidden md:block"
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
@@ -89,7 +89,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
 
                 <IconButton
                     id="music-player-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-[4px]"
                     tooltipText="Music Player"
                     enabled={true}
                     tooltipSide="left"

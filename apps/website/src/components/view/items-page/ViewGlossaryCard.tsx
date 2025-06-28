@@ -74,7 +74,6 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
         goBack,
         goHome,
     } = useGlossary();
-    console.log(history);
 
     useEffect(() => {
         const newMap: GlossaryPageData = {};

@@ -32,7 +32,7 @@ export function IconButton({
                 <Button
                     id={id}
                     className={cn(
-                        "h-8 w-8 aspect-square rounded-full p-2",
+                        "size-[32px] aspect-square rounded-full p-2",
                         className,
                     )}
                     variant="outline"

@@ -314,7 +314,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         if (!isJukeboxPlaying) {
             audioStore.changeBGM(newChapterData.bgmSrc);
         }
-        console.log(`Changing BGM to ${newChapterData.bgmSrc}`);
         audioStore.setSiteBgmKey(newChapterData.bgmSrc);
 
         viewStore.setEdgeVisibility(edgeVisibilityLoaded);
@@ -589,41 +588,34 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     />
                 </CurrentChartDataContext>
             </div>
-
             <ViewInfoModal
                 open={viewStore.infoModalOpen}
                 onOpenChange={viewStore.setInfoModalOpen}
             />
-
             <ViewSettingsModal
                 open={viewStore.settingsModalOpen}
                 onOpenChange={viewStore.setSettingsModalOpen}
             />
-
             <ViewMiniGameModal
                 open={viewStore.minigameModalOpen}
                 onOpenChange={viewStore.setMinigameModalOpen}
             />
-
             <ViewVideoModal
                 open={viewStore.videoModalOpen}
                 onOpenChange={viewStore.setVideoModalOpen}
                 videoUrl={viewStore.videoUrl}
                 bgImage={bgImage}
             />
-
             <ViewChapterRecapModal
                 key={`chapter-recap-modal-${viewStore.chapter}`}
                 open={viewStore.chapterRecapModalOpen}
                 onOpenChange={viewStore.setChapterRecapModalOpen}
                 currentChapter={viewStore.chapter}
             />
-
             <ViewMusicPlayerModal
                 open={isMusicModalOpen}
                 onOpenChange={setIsMusicModalOpen}
             />
-
             <ViewReadCounter
                 day={viewStore.day}
                 chapter={viewStore.chapter}
@@ -633,10 +625,10 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
+            <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
                     id="chart-info-btn"
-                    className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-105"
+                    className="size-[40px] p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-105"
                     tooltipText="Day Recap / Visibility"
                     enabled={true}
                     tooltipSide="left"
@@ -658,7 +650,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="info-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-1"
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
@@ -669,7 +661,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="settings-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-1"
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
@@ -680,7 +672,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="minigames-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-1"
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
@@ -691,7 +683,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="chapter-recap-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-1"
                     tooltipText="Chapter Recap"
                     enabled={true}
                     tooltipSide="left"
@@ -702,7 +694,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="music-player-btn"
-                    className="h-10 w-10 p-1"
+                    className="size-[40px] p-1"
                     tooltipText="Music Player"
                     enabled={true}
                     tooltipSide="left"
@@ -711,10 +703,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     <Disc3 />
                 </IconButton>
             </div>
-
             <div
                 className={cn(
-                    "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
+                    "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0",
                     {
                         "w-[60%] lg:block hidden":
                             viewStore.currentCard === "setting",
