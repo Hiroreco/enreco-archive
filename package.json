@@ -8,7 +8,7 @@
         "build": "turbo run build:website",
         "prebuild:all": "pnpm run copy-resources",
         "build:all": "turbo run build",
-        "copy-resources": "tsx scripts/copy-shared-resources.ts && tsx scripts/optimize-images.ts",
+        "copy-resources": "tsx scripts/optimize-images.ts && tsx scripts/copy-shared-resources.ts",
         "predev": "pnpm copy-resources",
         "dev": "turbo run dev:website",
         "preeditor": "pnpm run copy-resources",
@@ -16,6 +16,7 @@
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "lint": "turbo run lint",
         "convert-data-to-git": "tsx scripts/convert-data-to-git.ts",
+        "optimize-images": "tsx scripts/optimize-images.ts",
         "export-recaps": "tsx scripts/export-recaps.ts",
         "export-glossary": "tsx scripts/export-glossary.ts",
         "inject-recaps": "tsx scripts/inject-recaps.ts",
@@ -25,7 +26,9 @@
         "inject-texts": "tsx scripts/inject-texts.ts",
         "inject-glossary": "tsx scripts/inject-glossary.ts",
         "inject-songs": "tsx scripts/inject-songs.ts",
-        "normalize-audio": "tsx scripts/normalize-audio.ts"
+        "normalize-audio": "tsx scripts/normalize-audio.ts",
+        "extract-twitter-links": "tsx scripts/extract-twitter-links.ts",
+        "download-images": "tsx scripts/download-images.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",
@@ -35,6 +38,7 @@
         "jszip": "catalog:",
         "music-metadata": "^11.3.0",
         "prettier": "catalog:",
+        "puppeteer": "^24.11.1",
         "sharp": "^0.34.1",
         "tsx": "^4.19.4",
         "turbo": "^2.5.3",

@@ -16,6 +16,4 @@ Elizabeth placed it next to Nerissa’s. Frame by frame, the two stood side by s
 
 ## Fanart
 
-["ERB's child" by set](https://x.com/_se_t_/status/1920087505665143221)
-
 [Hug by Puniki](https://x.com/Puniki_XIV/status/1926153741314478419)

@@ -1,3 +1,4 @@
+// scripts/optimize-images.ts
 import sharp from "sharp";
 import fs from "fs/promises";
 import path from "path";
@@ -11,7 +12,6 @@ async function generateBlurDataURL(inputPath: string) {
         .resize(8, 8, { fit: "inside" })
         .webp()
         .toBuffer();
-
     return `data:image/webp;base64,${buffer.toString("base64")}`;
 }
 
@@ -19,7 +19,6 @@ async function generateBlurDataURL(inputPath: string) {
 async function walkDir(dir: string): Promise<string[]> {
     const entries = await fs.readdir(dir, { withFileTypes: true });
     const files: string[] = [];
-
     for (const entry of entries) {
         const fullPath = path.join(dir, entry.name);
         if (entry.isDirectory()) {
@@ -28,7 +27,6 @@ async function walkDir(dir: string): Promise<string[]> {
             files.push(fullPath);
         }
     }
-
     return files;
 }
 
@@ -36,89 +34,94 @@ async function optimizeImages() {
     const resourceDir = path.resolve(process.cwd(), SHARED_IMAGES_FOLDER);
     const allFiles = await walkDir(resourceDir);
 
-    // Filter to only images
-    const imageFiles = allFiles.filter((f) => /\.(jpe?g|png|webp)$/i.test(f));
+    // Only image sources (we'll produce <name>-opt.webp)
+    // skip any file whose base name already ends in "-opt"
+    const imageFiles = allFiles.filter((f) => {
+        const extMatch = f.match(/\.(jpe?g|png|webp)$/i);
+        if (!extMatch) return false;
+        const name = path.parse(f).name;
+        return !name.endsWith("-opt");
+    });
 
+    // Gather blur data for all originals
     const blurDataMap: Record<string, string> = {};
 
     for (const inputPath of imageFiles) {
         const relPath = path.relative(resourceDir, inputPath);
         const parsed = path.parse(relPath);
-        const name = parsed.name; // file name without extension
+        const dir = path.dirname(inputPath);
+        const name = parsed.name;
 
-        // 1) Blur data
-        const blurDataURL = await generateBlurDataURL(inputPath);
-        blurDataMap[name] = blurDataURL;
+        // If we've already produced name-opt.webp, skip
+        const optimizedName = `${name}-opt.webp`;
+        const optimizedPath = path.join(dir, optimizedName);
+        try {
+            await fs.access(optimizedPath);
+            console.log(`↻ Skipping already-optimized: ${relPath}`);
+            continue;
+        } catch {
+            // proceed
+        }
+
+        console.log(`→ Optimizing: ${relPath}`);
+
+        // 1) Blur data (still keyed by base name)
+        blurDataMap[name] = await generateBlurDataURL(inputPath);
 
         // 2) Quality
         let quality = 70;
-        if (/bg|deco/i.test(name)) {
-            quality = 95;
-        }
+        if (/bg|deco/i.test(name)) quality = 95;
 
-        // 3) Convert to WebP
+        // 3) Re‑encode to WebP optimized
         const webpBuffer = await sharp(inputPath).webp({ quality }).toBuffer();
 
-        // 4) Write to all destinations
-        for (const dest of DESTINATIONS) {
-            const outDir = path.join(process.cwd(), dest, "images-opt");
-            await fs.mkdir(outDir, { recursive: true });
+        // 4) Write optimized file _in place_
+        await fs.writeFile(optimizedPath, webpBuffer);
+        console.log(
+            `  ✅ Wrote optimized ${path.join(parsed.dir, optimizedName)}`,
+        );
 
-            // main file
-            await fs.writeFile(path.join(outDir, `${name}.webp`), webpBuffer);
+        // 5) If under glossary, also produce thumbnail in each DESTINATION
+        if (parsed.dir.split(path.sep)[0] === "glossary") {
+            const metadata = await sharp(inputPath).metadata();
+            const aspect = (metadata.width || 1) / (metadata.height || 1);
+            const thumbOpts =
+                Math.abs(aspect - 1) < 0.1
+                    ? { width: 100, height: 100 }
+                    : { width: 204, height: 113 };
 
-            // 5) If this file is under "glossary", also emit thumbnail
-            if (parsed.dir.split(path.sep)[0] === "glossary") {
-                // Get image metadata to check aspect ratio
-                const metadata = await sharp(inputPath).metadata();
-                const width = metadata.width || 0;
-                const height = metadata.height || 0;
-                const aspectRatio = width / height;
-
-                if (aspectRatio >= 0.9 && aspectRatio <= 1.1) {
-                    const thumbBuffer = await sharp(inputPath)
-                        .resize(100, 100, {
-                            fit: "cover",
-                            position: "center",
-                        })
-                        .webp({ quality: 80 })
-                        .toBuffer();
-
-                    await fs.writeFile(
-                        path.join(outDir, `${name}-thumb.webp`),
-                        thumbBuffer,
-                    );
-                } else {
-                    const thumbBuffer = await sharp(inputPath)
-                        .resize(204, 113, {
-                            fit: "cover",
-                            position: "center",
-                        })
-                        .webp({ quality: 80 })
-                        .toBuffer();
-
-                    await fs.writeFile(
-                        path.join(outDir, `${name}-thumb.webp`),
-                        thumbBuffer,
-                    );
-                }
-                console.log(`Generated thumbnail: ${name}-thumb.webp`);
+            const thumbBuffer = await sharp(inputPath)
+                .resize(thumbOpts.width, thumbOpts.height, {
+                    fit: "cover",
+                    position: "center",
+                })
+                .webp({ quality: 80 })
+                .toBuffer();
+            for (const dest of DESTINATIONS) {
+                const outDir = path.join(process.cwd(), dest, "images-opt");
+                await fs.mkdir(outDir, { recursive: true });
+                await fs.writeFile(
+                    path.join(outDir, `${name}-thumb.webp`),
+                    thumbBuffer,
+                );
             }
+            console.log(`  🖼 Generated thumbnail for ${name}`);
         }
-
-        console.log(`Optimized: ${relPath}`);
     }
 
-    // 6) Write blur-data.json
+    // 6) Write blur-data.json into each DESTINATION
     for (const dest of DESTINATIONS) {
         const outJSON = path.join(process.cwd(), dest, "blur-data.json");
+        await fs.mkdir(path.dirname(outJSON), { recursive: true });
         await fs.writeFile(
             outJSON,
             JSON.stringify(blurDataMap, null, 2),
             "utf-8",
         );
-        console.log(`Blur data written to ${outJSON}`);
+        console.log(`📝 Wrote blur-data.json to ${dest}`);
     }
+
+    console.log("✅ All images processed.");
 }
 
 optimizeImages().catch((err) => {

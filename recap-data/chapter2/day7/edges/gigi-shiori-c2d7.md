@@ -21,3 +21,7 @@ Alas, this was not to be as Shiori uncovered the diaries from the previous days,
 Most important of all for the Humble Knight was the kindness that Shiori gave her, both before and after losing her memories. Gonathon made one final request: that the two continue to speak like this. Departing on a melancholy but fulfilling note, the two promised to meet each other at the banquet tomorrow. And thus, the tale of the fumbling knight had ended. Where the story of Shiori of the Nyavellas goes next is unclear, but one thing is certain. Their story together is far from over.
 
 [I can't recall... but I can feel it](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=tve9IVBF0HJBYQkK&t=12800)
+
+## Fanart
+
+["But she can feel it" by planetdropper](https://x.com/planetdropper/status/1930074019526783341)
