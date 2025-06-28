@@ -40,3 +40,7 @@ With the help of her diligent [employees](https://www.youtube.com/live/i54lsw-Xj
 This time around, her web of relationships became even more tangled. Unlike the first chapter, Roa actively involved herself in others’ affairs—sometimes _literal_ affairs. She became the third rose to bloom between Tam and the Hot Pink One, ultimately contributing to the collapse of their relationship. Then, her attention shifted to a certain red knight, [Elizabeth.](https://www.youtube.com/live/m2OG5auudrQ?si=8Q0YfMORv-AQL_qj&t=11014)
 
 Despite her efforts, Elizabeth’s heart already belonged to another. Even so, a happy ending still awaited Roa, as she eventually found love and married a certain cat-loving maiden, Shakira—ending her second journey on a high note.
+
+## Trivia
+
+- If one had a nickel for every time Raora ended up married with someone on day 7 of each chapter, they’d have two nickels. Which isn’t a lot, but it’s weird that it happened twice.
