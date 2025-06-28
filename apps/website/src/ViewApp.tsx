@@ -636,8 +636,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
                 <IconButton
                     id="chart-info-btn"
-                    className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110"
-                    tooltipText="Chart Info / Visibility"
+                    className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-105"
+                    tooltipText="Day Recap / Visibility"
                     enabled={true}
                     tooltipSide="left"
                     onClick={() =>
@@ -650,8 +650,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 >
                     <Image
                         alt="Enreco Emblem"
-                        width={32}
-                        height={32}
+                        width={40}
+                        height={40}
                         src="images-opt/emblem.webp"
                     />
                 </IconButton>
