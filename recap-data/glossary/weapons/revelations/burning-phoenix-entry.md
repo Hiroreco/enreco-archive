@@ -1,5 +1,5 @@
 <!-- title: Burning Phoenix -->
-<!-- quote: No, no! I do not want to be known as the 'Burger Lady'!... Beautiful, MYTHical, demure, and mindful. -->
+<!-- quote: No, no! I do not want to be known as the 'Burger Lady'! -->
 <!-- chapters: -1 -->
 <!-- images: (Kiara's first time wielding Burning Phoenix), (Burning Phoenix as viewed from the inventory), (Burning Phoenix's ability activated) -->
 <!-- model: true -->
