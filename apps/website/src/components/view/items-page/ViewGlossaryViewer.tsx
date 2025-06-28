@@ -44,9 +44,9 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                 onAnimationComplete={handleAnimationComplete}
                 ref={containerRef}
                 id="glossary-viewer-container"
-                className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 h-full md:p-0 px-2"
+                className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 md:h-full md:p-0 px-2"
             >
-                <div className="flex flex-col items-center justify-between h-full">
+                <div className="flex flex-col items-center justify-between md:h-full">
                     <div className="flex flex-col items-center gap-2 w-[250px]">
                         <p className="font-bold text-center">General Info</p>
                         <div className="w-[250px] h-[250px]">
@@ -91,7 +91,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         </div>
                     </div>
 
-                    <div className="shrink-0 flex overflow-x-scroll content-container md:w-[250px] w-[300px]">
+                    <div className="flex overflow-x-scroll gap-2 content-container md:w-[250px] w-[300px]">
                         {item.galleryImages.map((image, index) => (
                             <ViewLightbox
                                 key={index}
@@ -102,7 +102,8 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     "-thumb.webp",
                                 )}
                                 alt={image.title || "Gallery image"}
-                                className="h-[70px] aspect-video rounded-lg object-cover border-2 border-foreground/30 shadow-md cursor-pointer opacity-70 hover:opacity-100 transition-all mr-2"
+                                containerClassName="border-2 border-foreground/30 shadow-md rounded-lg shrink-0"
+                                className="h-[100px] aspect-video object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
                                 galleryImages={item.galleryImages.map(
                                     (img) => ({
                                         src: img.source,

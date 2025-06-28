@@ -23,6 +23,7 @@ interface ViewLightboxProps {
     width?: number;
     height?: number;
     className?: string;
+    containerClassName?: string;
     priority?: boolean;
     galleryImages?: GalleryImage[];
     galleryIndex?: number;
@@ -34,6 +35,7 @@ const ViewLightbox = ({
     width = 500,
     height = 500,
     className,
+    containerClassName,
     priority = false,
     galleryImages,
     galleryIndex = 0,
@@ -124,7 +126,7 @@ const ViewLightbox = ({
     const currentImage = images[currentImageIndex];
 
     return (
-        <div className={className}>
+        <div className={containerClassName}>
             <Image
                 src={src}
                 alt={alt}
