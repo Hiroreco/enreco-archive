@@ -13,6 +13,12 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
 import ViewCardUtilities from "@/components/view/ViewCardUtilities";
+import { Check } from "lucide-react";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
 
 interface Props {
     isCardOpen: boolean;
@@ -82,11 +88,26 @@ const ViewNodeCard = ({
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">
-                        <StackItem>
+                        <StackItem className="relative">
                             <NodeCardDeco
                                 color={selectedNode.data.bgCardColor}
                             />
+                            {selectedNode?.data.isRead && (
+                                <Tooltip delayDuration={300}>
+                                    <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
+                                        <Check
+                                            size={17}
+                                            className="opacity-90"
+                                            color="white"
+                                        />
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        This card has been read
+                                    </TooltipContent>
+                                </Tooltip>
+                            )}
                         </StackItem>
+
                         <StackItem>
                             {selectedNode?.data.imageSrc && (
                                 <Image

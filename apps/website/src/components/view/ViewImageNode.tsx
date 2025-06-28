@@ -110,11 +110,6 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
                     />
                 )}
                 {data.isRead && (
-                    // <Check
-                    //     size={25}
-                    //     className="absolute top-1 right-1 opacity-80 z-20 shadow-md"
-                    //     color="white"
-                    // />
                     <div className="absolute top-1 right-1 z-20 bg-black/50 rounded-full p-1">
                         <Check size={17} className="opacity-90" color="white" />
                     </div>

@@ -22,6 +22,12 @@ import {
 import { useReactFlow } from "@xyflow/react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
+import { Check } from "lucide-react";
 
 interface Props {
     isCardOpen: boolean;
@@ -111,8 +117,22 @@ const ViewEdgeCard = ({
                 {/* Header */}
                 <div className="flex flex-col items-center">
                     <Stack className="w-full">
-                        <StackItem>
+                        <StackItem className="relative">
                             <EdgeCardDeco color={backgroundColor} />
+                            {selectedEdge?.data!.isRead && (
+                                <Tooltip delayDuration={300}>
+                                    <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
+                                        <Check
+                                            size={17}
+                                            className="opacity-90"
+                                            color="white"
+                                        />
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        This card has been read
+                                    </TooltipContent>
+                                </Tooltip>
+                            )}
                         </StackItem>
                         <StackItem>
                             <div className="z-10 flex gap-4 items-center justify-between w-fit mx-auto mt-4">
