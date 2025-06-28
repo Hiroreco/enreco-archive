@@ -27,4 +27,4 @@ As early as the heroes could remember, they awoke in this cold, mysterious place
 
 After that, the heroes never returned to the Sanctuary—until the final day of the first chapter.
 
-During the last battle, as the [Captive](#entry:outlander-entry) was defeated, the fabric of space began to unravel. In that moment, a mysterious voice—now revealed to be [Fia](#entry:iphania-entry)—urged the heroes to jump into a portal, leading them to the Library and marking the beginning of the second chapter.
+During the last battle, as the [Captive](#entry:outsider-entry) was defeated, the fabric of space began to unravel. In that moment, a mysterious voice—now revealed to be [Fia](#entry:iphania-entry)—urged the heroes to jump into a portal, leading them to the Library and marking the beginning of the second chapter.

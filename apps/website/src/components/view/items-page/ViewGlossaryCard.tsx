@@ -128,7 +128,13 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                                 <Home
                                     size={24}
                                     className="cursor-pointer transition-opacity opacity-60 hover:opacity-100"
-                                    onClick={goHome}
+                                    onClick={() => {
+                                        setSelectedCategory(
+                                            history[0]?.categoryKey ||
+                                                "cat-weapons",
+                                        );
+                                        goHome();
+                                    }}
                                 />
                             </div>
                         )}
