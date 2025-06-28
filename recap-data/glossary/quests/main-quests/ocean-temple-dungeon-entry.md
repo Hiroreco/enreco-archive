@@ -1,6 +1,6 @@
 <!-- title: Ocean Temple Dungeon -->
 <!-- quote: Finally... My story begins here! -->
-<!-- chapters: 1 -->
+<!-- chapters: 0 -->
 <!-- images: -->
 <!-- model: false -->
 
