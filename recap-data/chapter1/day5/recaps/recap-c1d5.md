@@ -6,4 +6,4 @@ Not only that, but this day was side chick galore. The Hot Pink One, finally unl
 
 Finally, getting back to the actual main quests, the heroes tackled their last dungeon in the kingdom—the [_Ancient Sewer Dungeon_](https://x.com/hololive_En/status/1831512579405181432). Unlike the previous dungeons, this one was less about brute force and more about wit, with puzzles designed to test the heroes' recollection of everything they had learned during their time in the kingdom. And upon conquering it, they were rewarded with a Warp Crystal, crafted by none other than [Amelia Watson](https://www.youtube.com/watch?v=jDmyL6CuzBU) herself.
 
-![A riddle inside the dungeon](images-opt/sewer.webp)
+![A riddle inside the dungeon](images-opt/sewer-opt.webp)

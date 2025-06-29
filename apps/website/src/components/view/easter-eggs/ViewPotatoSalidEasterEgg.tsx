@@ -18,7 +18,7 @@ const ViewPotatoSalidEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images-opt/easter-gremliz.webp"
+                src="images-opt/easter-gremliz-opt.webp"
                 className={cn("mx-auto transition-opacity translate-y-[50%]", {
                     "cursor-pointer opacity-50 hover:opacity-100":
                         !isCurrentlyPotatoSalid,

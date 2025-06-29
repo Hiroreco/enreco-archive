@@ -39,7 +39,7 @@ const ViewModelModal = ({
             <DialogContent
                 className="rounded-lg lg:w-[60vw] md:w-[80vw] max-w-none w-[95vw] md:h-[80vh] h-[50vh] p-2"
                 style={{
-                    backgroundImage: `url('/images-opt/item-bg.webp')`,
+                    backgroundImage: `url('/images-opt/item-bg-opt.webp')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

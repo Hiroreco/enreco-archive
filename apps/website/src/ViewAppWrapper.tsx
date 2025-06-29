@@ -42,7 +42,7 @@ export const ViewAppWrapper = () => {
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
-        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
+        bgImage = chapterData.bgiSrc.replace("-opt.webp", "-dark-opt.webp");
     }
 
     return (

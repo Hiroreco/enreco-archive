@@ -25,7 +25,7 @@ Meals and photos, joy well-sown.
 The kingdom basked in peace so bright—
 A calm before the fall of night.
 
-![](/images-opt/group-photo.webp)
+![](/images-opt/group-photo-opt.webp)
 
 If only joy could stay for long.
 If only fate would prove us wrong.
@@ -57,4 +57,4 @@ They sought their truth, their own design.
 And thus began with hearts unshaken—
 The quiet rise of rebellion awakened.
 
-![](/images-opt/advent-video.webp)
+![](/images-opt/advent-video-opt.webp)

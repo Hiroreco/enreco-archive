@@ -644,7 +644,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                         alt="Enreco Emblem"
                         width={40}
                         height={40}
-                        src="images-opt/emblem.webp"
+                        src="images-opt/emblem-opt.webp"
                     />
                 </IconButton>
 

@@ -4,7 +4,7 @@ Day 4 brought even more tangled lines to the ever-growing relationship chart, as
 
 The dungeon of the day was the [_Volcanic Dungeon_](https://x.com/hololive_En/status/1831150187605049574), and this one was no joke. Easily the most brutal challenge so far, it pushed our heroes to their absolute limits.
 
-![The Flame Guardian](images-opt/volcanic.webp)
+![The Flame Guardian](images-opt/volcanic-opt.webp)
 
 As the name suggests, fire and burning were the dominant themes, and oh boy, did everyone get firsthand experience. There was screaming, there was falling, and the total death count easily reached three digits. By the time they were done, the adventurers were little more than walking piles of charcoal. Their reward for enduring this fiery ordeal? The recovered memories of [_Takanashi Kiara_](https://www.youtube.com/watch?v=A3bQdV_sl08).
 

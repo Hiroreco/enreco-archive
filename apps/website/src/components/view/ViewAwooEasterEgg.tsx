@@ -17,7 +17,7 @@ const ViewAwooEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images-opt/easter-gigi.webp"
+                src="images-opt/easter-gigi-opt.webp"
                 className={cn(
                     " cursor-pointer opacity-50 hover:opacity-100 transition-opacity translate-y-[50%]",
                 )}

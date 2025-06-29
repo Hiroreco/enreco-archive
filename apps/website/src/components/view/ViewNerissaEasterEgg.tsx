@@ -17,7 +17,7 @@ const ViewNerissaEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images-opt/easter-nerissa.webp"
+                src="images-opt/easter-nerissa-opt.webp"
                 className={cn(
                     " cursor-pointer opacity-50 hover:opacity-100 transition-opacity translate-y-[50%]",
                 )}

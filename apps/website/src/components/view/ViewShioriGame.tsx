@@ -145,7 +145,7 @@ const ViewShioriGame = () => {
                 </div>
                 {error && <div className="text-red-500">{error}</div>}
                 <Image
-                    src="/images-opt/easter-shiori.webp"
+                    src="/images-opt/easter-shiori-opt.webp"
                     alt="Shiori Nyavella"
                     className={cn(
                         "absolute bottom-4 right-0 w-40  transition-opacity",
@@ -179,7 +179,7 @@ const ViewShioriGame = () => {
                 ))}
             </div>
             <Image
-                src="/images-opt/easter-shiori.webp"
+                src="/images-opt/easter-shiori-opt.webp"
                 alt="Shiori Nyavella"
                 className={cn(
                     "absolute bottom-4 right-0 w-40  transition-opacity",

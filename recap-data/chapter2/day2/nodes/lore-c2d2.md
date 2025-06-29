@@ -8,7 +8,7 @@ Fia revealed that in the effort to save the Kingdom of Libestal from calamity, t
 
 The heroes unlocked a new region in the wilderness: the **Remnants of the Lykeion Campus**, a long-abandoned area now overrun by powerful enemies and rich in materials. It was once home to a researcher who studied the shadowy beings known as the Stains. Their journals chronicled a desperate investigation into the Book of Prophecies—and whether the Ruination it foretold was truly inevitable.
 
-![Overview of the Lykeion Campus](/images-opt/lore-lykeion-campus.webp)
+![Overview of the Lykeion Campus](/images-opt/lore-lykeion-campus-opt.webp)
 
 #### Uncovered Lore Books:
 

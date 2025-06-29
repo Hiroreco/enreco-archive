@@ -28,7 +28,7 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
             <Canvas
                 className="rounded-lg"
                 style={{
-                    backgroundImage: "url('/images-opt/item-bg.webp')",
+                    backgroundImage: "url('/images-opt/item-bg-opt.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

@@ -473,7 +473,7 @@ const ViewMusicPlayerModal = ({
                                 // TODO: temp no song logo, change later
                                 src={
                                     currentTrack?.coverUrl ||
-                                    "/images-opt/song-chapter-2.webp"
+                                    "/images-opt/song-chapter-2-opt.webp"
                                 }
                                 alt={currentTrack?.title || "Select a track"}
                                 width={300}

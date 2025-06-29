@@ -8,7 +8,7 @@ Day six didn’t begin with a brand-new dungeon, unlike the ones before it. Inst
 
 Upon clearing the ritual, the heroes were rewarded with a mysterious book: **“The Truth of Ruin.”** Within it, scattered fragments of knowledge—clues about the evil that rampaged the world—began to take form. The deeper truths of the world they found themselves in… slowly began to reveal themselves.
 
-![The heroes attempting The Ritual](/images-opt/ritual.webp)
+![The heroes attempting The Ritual](/images-opt/ritual-opt.webp)
 
 Now normally, this is the part where the summary descends into chaos. But today? Things remained oddly... tame. Well, tame _by Libestal standards_, which still includes:
 
@@ -19,7 +19,7 @@ It was all cute. All calm. A bit _too_ calm.
 
 This felt like the “calm before the storm.” Tiny ripples of tension hinted at the greater waves to come. A tense conversation between Elizabeth and Shiori sowed the seeds for something heavier. Shiori quietly sets the stage for what could become the climax of her entanglement with Gonathon. The chessboard was being set.
 
-![Shiori's message for Gonathon](/images-opt/to-gonathon.webp)
+![Shiori's message for Gonathon](/images-opt/to-gonathon-opt.webp)
 
 But on the lighter, wholesome side—Fuwawa’s café finally got some visitors! Yay for the fluffy cook and her dream slowly coming true.
 

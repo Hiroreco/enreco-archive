@@ -9,7 +9,7 @@ const ViewMemoryGameInfo = () => {
                     The Scarlet Wand{" "}
                     <img
                         className="inline h-6 w-6 mb-1"
-                        src={"/images-opt/scarletwand.webp"}
+                        src={"/images-opt/scarletwand-opt.webp"}
                         alt={"scarletwand"}
                     />
                     's Memory Game

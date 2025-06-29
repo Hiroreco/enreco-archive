@@ -62,7 +62,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                     </ViewMarkdown>
 
                     <Image
-                        src="/images-opt/logo-blank.webp"
+                        src="/images-opt/logo-blank-opt.webp"
                         alt="bg"
                         className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2 w-3/4 opacity-15 grayscale"
                         width={128}

@@ -4,13 +4,13 @@ The final day of the journey tied up many loose ends while simultaneously raisin
 
 First and foremost, the fight against corruption reached its peak. Koseki Bijou, the Stain Princess, was going all out, spreading the Stain far and wide—to the kingdom, to her friends, everywhere. With corruption spreading at an alarming rate, the remaining uncorrupted banded together, formulating strategies and crafting one final plan to defeat the corruption once and for all—and save their friends in the process.
 
-![The Stain Princess' bleeding statue](images-opt/corruption.webp)
+![The Stain Princess' bleeding statue](images-opt/corruption-opt.webp)
 
 As the story neared its climax, the relationships between our heroes evolved in ways fitting for a grand finale. _The Sidechick Polygamy_ collapsed, bringing an end to the once-thriving chaos of endless romantic entanglements. At the same time, the heartbreaking case of Gonathon and Jyonathan finally reached its resolution.
 
 Meanwhile, the ongoing rivalry between FaunaMart and NanaEleven took an unexpected turn—one that no one could have anticipated. What had once been a fierce business war transformed into something far more intriguing, culminating in what might just be the Deal of the Century.
 
-![FaunaMart vs. NanaEleven](images-opt/faunamoom.webp)
+![FaunaMart vs. NanaEleven](images-opt/faunamoom-opt.webp)
 
 And finally, the most crucial moment of all—the battle against the Stain King. But even more shocking than the battle itself was the truth that unraveled about the kingdom, and more specifically, its ruler. A revelation that flipped everyone’s understanding of their journey on its head, sending them hurtling toward unexpected new adventures that lay ahead.
 

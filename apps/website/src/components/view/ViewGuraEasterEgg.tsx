@@ -17,7 +17,7 @@ const ViewGuraEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images-opt/easter-gura.webp"
+                src="images-opt/easter-gura-opt.webp"
                 className={cn(
                     " cursor-pointer opacity-50 hover:opacity-100 transition-opacity translate-y-[50%]",
                 )}

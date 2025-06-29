@@ -6,10 +6,10 @@ Before diving into the chaos, the heroes took on what might be the final major d
 
 Puzzles? More like party games. Deep concepts? Nah, just fun. And of course, luck was a major player—so even if the heroes performed flawlessly; they still had to pray the stars were on their side.
 
-![The heroes battling Stain King: Chaos](/images-opt/chaos.webp)
+![The heroes battling Stain King: Chaos](/images-opt/chaos-opt.webp)
 
 Now, onto the real madness. Gonathon kind of redeemed himself. Shiori and Bijou reconnected. Elizabeth and Nerissa continued their little flirt-fest, though for one side it was all flowers and sunshine, while for the other, it was thunder and darkness. Bijou and Bae ended up in a legal custody battle over their child. Tam, Roa, and the hot pink lady spiraled into a love triangle slash maid-master relationship? With the pink one somehow claiming she was pregnant. And all the mentally scarred adventurers? They booked a session with Mordan the therapist… who promptly quit her job after realizing what she had to deal with.
 
-![Mordan’s therapy session](/images-opt/therapy.webp)
+![Mordan’s therapy session](/images-opt/therapy-opt.webp)
 
 You following all that? Because I’m not. And that’s still not even half of it...

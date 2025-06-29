@@ -224,7 +224,7 @@ const ViewChickenGame = () => {
                         }}
                         width={50}
                         height={50}
-                        src={`/images-opt/chicken.webp`}
+                        src={`/images-opt/chicken-opt.webp`}
                         alt="chicken"
                     ></Image>
                 ))}
@@ -239,7 +239,7 @@ const ViewChickenGame = () => {
                     }}
                     width={60}
                     height={60}
-                    src={`/images-opt/basket.webp`}
+                    src={`/images-opt/basket-opt.webp`}
                     alt="basket"
                 ></Image>
             </div>

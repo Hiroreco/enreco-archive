@@ -8,7 +8,7 @@ const ViewChickenGameInfo = () => {
                 Just like the Scarlet Wand, the Cerulean Cup{" "}
                 <img
                     className="inline h-6 w-6 mb-1"
-                    src={"/images-opt/ceruleancup.webp"}
+                    src={"/images-opt/ceruleancup-opt.webp"}
                     alt={"ceruleancup"}
                 />{" "}
                 launched their own minigame on Day 7. As representatives of

@@ -9,7 +9,7 @@ const ViewGamblingGameInfo = () => {
                 One was undoubtedly the <strong>Amber Coin Casino</strong>{" "}
                 <img
                     className="inline h-6 w-6 mb-1"
-                    src={"/images-opt/ambercoin.webp"}
+                    src={"/images-opt/ambercoin-opt.webp"}
                     alt={"ambercoin"}
                 />
                 , where everyone could indulge in their favorite pastime:

@@ -21,7 +21,7 @@ const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
                     height={100}
                     width={100}
                     style={{
-                        backgroundImage: "url('/images-opt/item-bg.webp')",
+                        backgroundImage: "url('/images-opt/item-bg-opt.webp')",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",

@@ -12,7 +12,7 @@ Currently, the heroes are gathering their resources and materials at the Remnant
 
 The Cliffs of Sidero were once the site of an ancient expedition led by an explorer who, long before the corruption took hold, ventured deep into the cliffs in search of treasure. One by one, his companions fell away, until he finally discovered what he believed to be the treasure—only to realize they had instead unleashed something terrible: possibly the Stains themselves.
 
-![Overview of the Cliffs of Sidero](/images-opt/lore-cliffs-of-sidero.webp)
+![Overview of the Cliffs of Sidero](/images-opt/lore-cliffs-of-sidero-opt.webp)
 
 #### Uncovered Lore Books:
 

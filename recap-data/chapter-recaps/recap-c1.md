@@ -8,7 +8,7 @@ Nineteen heroes awoke in a blinding white box, confused and disoriented. One mom
 
 Then came another strange twist. The group was transported to a castle—specifically, the royal castle of the Kingdom of Libestal. There, the _King_—who claimed responsibility for their summoning—declared them the prophesied heroes destined to save the kingdom from the encroaching threat of the Stains.
 
-![The heroes' first time meeting the King](/images-opt/chrecap-0-king.webp)
+![The heroes' first time meeting the King](/images-opt/chrecap-0-king-opt.webp)
 
 Though the situation was bizarre, the heroes banded together. With their newfound powers, known as _Revelation_, they managed to temporarily halt the advance of the Stain King.
 
@@ -27,7 +27,7 @@ Nineteen individuals, each with their own quirks and personalities… it was a l
 
 Within these guilds, unfamiliar faces became trusted companions.
 
-![The Scarlet tip-touching ritual](/images-opt/touchingtips.webp)
+![The Scarlet tip-touching ritual](/images-opt/touchingtips-opt.webp)
 
 As they explored the kingdom, the heroes were assigned various tasks—or _quests_—to help them grow accustomed to life in Libestal. From slaying Stains and gathering resources to making an absurd amount of potato salad that somehow tanked the economy, these quests kept them busy and earned them coin.
 
@@ -41,7 +41,7 @@ There were five dungeons in total, each tied to a different hero:
 - **The Volcanic Dungeon** – A blazing inferno of fire and rebirth, housing the memories of _Takanashi Kiara_, the undying Phoenix.
 - **The Ancient Sewer Dungeon** – Unassuming in appearance but deeply significant. Within this grimy maze lay the memories of someone very special—a time-traveling detective, the brilliant _Amelia Watson_.
 
-![Memories from the conquered dungeons](/images-opt/chrecap-0-reaction.webp)
+![Memories from the conquered dungeons](/images-opt/chrecap-0-reaction-opt.webp)
 
 As these memories returned, so too did the heroes’ perceptions of one another. The companions they had grown to trust turned out to be legends—each one mighty in her own right.
 
@@ -57,7 +57,7 @@ One opened a business—FaunaMart—selling everyday goods at outrageous prices,
 
 One hero got addicted to gambling, to those same lottery tickets, triggering confrontations, lawsuits, public trials—you name it.
 
-![Green capitalistic CEO setting up her shop](/images-opt/chrecap-0-faunamart.webp)
+![Green capitalistic CEO setting up her shop](/images-opt/chrecap-0-faunamart-opt.webp)
 
 There were battles between two fake queens. A tavern keeper who not only served food but also ran a booming side business in processing divorces—because, apparently, there was no shortage of them.
 
@@ -65,7 +65,7 @@ From adopting strangers as their moms to proposing marriages with seeds and eggs
 
 Yet beneath all that madness, a more grounded, heartfelt story unfolded—a bond between a humble knight and his precious pearl. A love story marked by trials, sweetness, sorrow, and ultimately, perseverance. Against all odds, they made it through.
 
-![The Diamond and his Pearl](/images-opt/chrecap-0-pearl.webp)
+![The Diamond and his Pearl](/images-opt/chrecap-0-pearl-opt.webp)
 
 Things were vibrant and full of life—the heroes were truly enjoying themselves.
 
@@ -77,7 +77,7 @@ As the final days approached, the kingdom’s once cheerful and vibrant air took
 
 The infection spread quickly, overtaking more and more, threatening to consume everything. But even as despair loomed, the heroes stood firm. With hearts full of determination, they gave everything they had to save their corrupted friends. They believed—no matter how far gone someone seemed—there was always a chance to _Start Again_.
 
-![The lands ruined by the corruption](/images-opt/chrecap-0-ruined.webp)
+![The lands ruined by the corruption](/images-opt/chrecap-0-ruined-opt.webp)
 
 The remaining heroes rallied together, determined to find a way to cleanse the corruption that had taken hold of their former comrades. Refusing to give up on those they once fought beside, they poured their efforts into uncovering a cure—one that could reach through the darkness and pull their friends back.
 
@@ -85,7 +85,7 @@ Through resourcefulness, wit, and a fair share of chaos, they devised a clever p
 
 Even Bijou, who had fallen deep into the clutches of corruption, was saved.
 
-![The heroes watch as Bijou drinks the cure](/images-opt/chrecap-0-corruption.webp)
+![The heroes watch as Bijou drinks the cure](/images-opt/chrecap-0-corruption-opt.webp)
 
 Their bonds, once frayed, were mended.
 
@@ -105,7 +105,7 @@ But then came the betrayal.
 
 The King revealed his true intentions. By defeating the Stain King, the heroes had unknowingly broken the chains that bound him. The title of "King" was just a mask. What stood before them now was something far worse: The Captive. A being beyond comprehension, free at last, with one goal—to enact what it would call its _vengeance._
 
-![The battle against The Captive](/images-opt/chrecap-0-captive.webp)
+![The battle against The Captive](/images-opt/chrecap-0-captive-opt.webp)
 
 Shock. Anger. Confusion. Betrayal. All these emotions surged through the heroes. But there was no time to dwell. They raised their weapons one final time and charged at the great evil. Yet it was not enough. The Captive was too strong.
 
