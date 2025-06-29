@@ -16,7 +16,6 @@
         "editor": "turbo run editor",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "lint": "turbo run lint",
-        "convert-data-to-git": "tsx scripts/convert-data-to-git.ts",
         "optimize-images": "tsx scripts/optimize-images.ts",
         "export-recaps": "tsx scripts/export-recaps.ts",
         "export-glossary": "tsx scripts/export-glossary.ts",
