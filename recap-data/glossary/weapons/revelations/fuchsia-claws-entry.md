@@ -19,3 +19,5 @@ But while the weapons may be similar, their wielders couldn't be more different.
 Even harmless creatures like chickens aren't safe from the fuzzy one’s wrath. As the saying goes, "With great power comes great responsibility"... but when that power ends up in the hands of a gambling-addicted demon dog? Well, may fortune be on your side.
 
 [AHHHHHHHH!!!!!](#embed:https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=7274)
+
+Ever since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)

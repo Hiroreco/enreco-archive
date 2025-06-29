@@ -10,8 +10,10 @@
 
 ## Details
 
-The Grim Reaper herself—the literal embodiment of Death—naturally carries a scythe of such sinister stature though her career pivot to tavern owner offering divorce services and getting herself knocked out by a truck somewhat tarnishes that terrifying image.
+The Grim Reaper herself—the literal embodiment of Death—naturally wields a scythe that radiates a deeply sinister aura. However, the light-hearted and caring nature of the pink one, always eager to try silly things and help others, somewhat tarnishes that fearsome image.
 
-As for its ability, it's as straightforward as Calli herself. No magic. No flashy tricks. Just a single, powerful, lateral swing—cleaving through her target.
+As for its ability, it’s as straightforward as Calli herself. No magic, no flashy tricks—just a single, powerful, lateral swing that cleaves clean through her target.
 
-[*_Slashes calmly_*](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)
+[_*Slashes calmly*_](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)
+
+Starting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)

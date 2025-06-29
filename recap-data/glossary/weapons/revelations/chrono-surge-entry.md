@@ -15,3 +15,5 @@ Long before she found herself tangled in royal business and polycules, Tam bore 
 The keyword here is _Time_. Upon activating the ability of her twin blades, Tam freezes time for all entities within a certain radius and deals damage to those caught in stasis. However, this ability doesn’t affect her fellow heroes—so unless there’s a real enemy nearby, her ultimate time-freezing move turns into a whole lot of [flashy nothing](https://www.youtube.com/live/fIGfh8GmKY8?si=a7sNjb8ZFNpUudXp&t=7695).
 
 [ZA WARUDO](#embed:https://www.youtube.com/live/zgioohaY0m4?si=wjs7xiiQwD3m2sdP&t=8108)
+
+Starting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)

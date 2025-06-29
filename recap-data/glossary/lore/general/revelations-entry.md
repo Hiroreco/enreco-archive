@@ -20,7 +20,7 @@ Each Revelation possessed a unique ability, ranging from blazing projectiles to 
 
 With each dungeon conquered, the heroes’ Revelations grew stronger, a change marked visually by increasingly brilliant sparkles surrounding the weapon.
 
-In Chapter 2, Revelations received a significant upgrade. Not only were their powers enhanced, but they could also be wielded as melee weapons—unlike in Chapter 1, where they functioned purely as activated abilities. Additionally, each Revelation gained a basic ranged attack that could be used repeatedly without cooldown.
+In Chapter 2, Revelations received a significant upgrade. Not only were their powers enhanced, but they could also be wielded as melee weapons—unlike in Chapter 1, where they functioned purely as activated abilities. Additionally, each Revelation gained a basic [ranged attack](https://www.youtube.com/live/zCWoxMbOZPk?si=xESfWS16pd6-LjUN&t=6606) that could be used repeatedly without cooldown.
 
 ### The Heroes and Their Revelations
 
