@@ -44,15 +44,13 @@ async function generateThumbnailsAndBlurData() {
 
     console.log(`Found ${allImageFiles.length} images for blur data`);
     console.log(`Found ${thumbnailFiles.length} images for thumbnails`);
+    console.log("Generating thumbnails and blur data...");
 
     // Generate blur data for all images
     for (const inputPath of allImageFiles) {
         const relPath = path.relative(resourceDir, inputPath);
         const parsed = path.parse(relPath);
         const name = parsed.name;
-
-        console.log(`→ Generating blur data for: ${relPath}`);
-
         // Read file and generate blur data
         const originalBuffer = await fs.readFile(inputPath);
         const blurSharp = sharp(originalBuffer)
@@ -62,8 +60,6 @@ async function generateThumbnailsAndBlurData() {
         blurSharp.destroy();
         blurDataMap[name] =
             `data:image/webp;base64,${blurBuffer.toString("base64")}`;
-
-        console.log(`  ✨ Generated blur data for ${name}`);
     }
 
     // Generate thumbnails for glossary and fanart images
@@ -72,8 +68,6 @@ async function generateThumbnailsAndBlurData() {
         const parsed = path.parse(relPath);
         const name = parsed.name;
         const firstDir = parsed.dir.split(path.sep)[0];
-
-        console.log(`→ Generating thumbnail for: ${relPath}`);
 
         // Read file and get metadata
         const originalBuffer = await fs.readFile(inputPath);
@@ -126,7 +120,6 @@ async function generateThumbnailsAndBlurData() {
                 thumbBuffer,
             );
         }
-        console.log(`  🖼 Generated thumbnail for ${name}`);
     }
 
     // Write blur-data.json into each DESTINATION

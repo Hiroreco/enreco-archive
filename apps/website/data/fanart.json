@@ -3068,8 +3068,28 @@
     "images": [
       {
         "src": "images-opt/planetdropper-1930074019526783341-0-opt.webp",
-        "width": 2150,
-        "height": 1212
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "src": "images-opt/planetdropper-1930074019526783341-1-opt.webp",
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "src": "images-opt/planetdropper-1930074019526783341-2-opt.webp",
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "src": "images-opt/planetdropper-1930074019526783341-3-opt.webp",
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "src": "images-opt/planetdropper-1930074019526783341-4-opt.webp",
+        "width": 1600,
+        "height": 1600
       }
     ]
   },

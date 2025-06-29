@@ -101,7 +101,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 height={100}
                                 src={image.source.replace(
                                     "-opt.webp",
-                                    "-thumb-opt.webp",
+                                    "-opt-thumb.webp",
                                 )}
                                 alt={image.title || "Gallery image"}
                                 containerClassName="shrink-0"
