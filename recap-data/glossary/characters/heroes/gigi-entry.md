@@ -9,7 +9,7 @@
 **Memories:** Not Recollected
 **Revelation** [Gremlin Grenade](#entry:gremlin-grenade-entry)
 
-Gonathon G. is pretty cool.
+The humble knight known as Gonathon G. has faced many trials and tribulations during his adventures in Libestal, but has never once abandoned his dedication to helping those in need. Gonathon was committed to fighting for his beloved Queen and the people of the kingdom, as well as the many friends he made during his adventures. While hardly a stranger to heartache and loss, Gonathon's unbreakable resolve to do what was right and his steadfast humbleness would see him through many challenges, even ones from the most unlikely of places. 
 
 ## Details
 
@@ -19,7 +19,7 @@ Gonathon G. is pretty cool.
 
 **Guild:** Cerulean Cup
 
-Who are you
+Gave money to lots of people. Jyonathon Pearl saga. Conflicts with Liz. Dedication to Tam Gandr. Tam statue. Bijou corruption. 
 
 ### Chapter 2
 
