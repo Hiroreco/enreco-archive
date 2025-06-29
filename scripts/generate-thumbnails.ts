@@ -120,6 +120,15 @@ async function generateThumbnailsAndBlurData() {
                 thumbBuffer,
             );
         }
+
+        // Generate blur data for the thumbnail
+        const thumbBlurSharp = sharp(thumbBuffer)
+            .resize(8, 8, { fit: "inside" })
+            .webp();
+        const thumbBlurBuffer = await thumbBlurSharp.toBuffer();
+        thumbBlurSharp.destroy();
+        blurDataMap[`${name}-thumb`] =
+            `data:image/webp;base64,${thumbBlurBuffer.toString("base64")}`;
     }
 
     // Write blur-data.json into each DESTINATION
