@@ -113,7 +113,11 @@ const ViewFanartModal = ({
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="max-w-7xl h-[90vh] flex flex-col gap-2 md:gap-4">
+            <DialogContent
+                className="max-w-7xl h-[90vh] flex flex-col gap-2 md:gap-4"
+                showXButtonForce={true}
+                showXButton={true}
+            >
                 <DialogHeader className="space-y-0">
                     <DialogTitle className="">Fanart Gallery</DialogTitle>
                     <DialogDescription className="sr-only">
@@ -325,7 +329,7 @@ const ViewFanartModal = ({
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.125 }}
-                            className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 space-y-4"
+                            className="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 space-y-4"
                         >
                             {filteredFanart.map((entry, index) => {
                                 const firstImage = entry.images[0];

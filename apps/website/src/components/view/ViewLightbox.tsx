@@ -161,6 +161,25 @@ const ViewLightbox = ({
                         <VisuallyHidden>{currentImage.alt}</VisuallyHidden>
                     </DialogDescription>
 
+                    {/* Blurred background image for fancy effect*/}
+                    <div className="absolute inset-0 -z-10">
+                        <Image
+                            src={currentImage.src}
+                            alt=""
+                            fill
+                            className="object-cover blur-xl opacity-20"
+                            placeholder={
+                                getBlurDataURL(currentImage.src)
+                                    ? "blur"
+                                    : "empty"
+                            }
+                            blurDataURL={getBlurDataURL(currentImage.src)}
+                            priority={false}
+                        />
+                        {/* Dark overlay to ensure content readability */}
+                        <div className="absolute inset-0 bg-black/30" />
+                    </div>
+
                     <button
                         onClick={() => handleOpenChange(false)}
                         className="absolute -top-7 size-6 right-0 text-white hover:text-gray-300 transition-colors"
