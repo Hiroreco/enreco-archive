@@ -390,3 +390,7 @@ td {
         animation: music-bar-3 1.3s ease-in-out infinite;
     }
 }
+
+.bg-blur {
+    @apply dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20;
+}

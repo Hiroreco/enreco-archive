@@ -58,6 +58,7 @@ async function copyResources() {
         );
         await copyFilesRecursively(srcImageDir, destPathRoot);
     }
+    console.log("All resources copied successfully.");
 }
 
 copyResources().catch(console.error);

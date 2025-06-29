@@ -1,4 +1,3 @@
-import { Song } from "@enreco-archive/common/types";
 import { Book, Monitor, Palette, Pencil } from "lucide-react";
 
 const iconSize = 20;
@@ -136,3 +135,43 @@ export const CONTRIBUTORS = [
         ],
     },
 ];
+
+export const CHARACTER_ID_NAME_MAP: Record<string, string> = {
+    ame: "Amelia Watson",
+    ina: "NinoIna",
+    gura: "Gawr Gura",
+    kiara: "Tanakisha Karia",
+    calli: "Mori Calliope",
+    moom: "Nanamoo",
+    fauna: "Ceres Fauna",
+    kronii: "Tam Gandr",
+    irys: "Hot Pink One",
+    bae: "Peasant the Bae",
+    fuwawa: "Fuwawa Abyssguard",
+    mococo: "Mococo Abyssguard",
+    shiori: "Shiori Nyavella",
+    nerissa: "Nerissa Ravencroft",
+    bijou: "Koseki Bijou",
+    liz: "Elizabeth Rose Bloodflame",
+    gigi: "Gonathon G",
+    cecilia: "Cecilia Immergreen",
+    raora: "Raora Panthera",
+};
+
+export const getCharacterIdNameMap = (chapter = 0): Record<string, string> => {
+    if (chapter === 0) {
+        return {
+            ...CHARACTER_ID_NAME_MAP,
+        };
+    }
+    if (chapter === 1) {
+        return {
+            ...CHARACTER_ID_NAME_MAP,
+            cecilia: "Cecilia Immerkind",
+            raora: "Roa Pandora",
+            calli: "Mordan Ramsey",
+            nerissa: "Nerissa Juliet Ravencroft",
+        };
+    }
+    return CHARACTER_ID_NAME_MAP;
+};

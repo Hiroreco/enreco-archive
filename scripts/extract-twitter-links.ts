@@ -59,6 +59,11 @@ async function main() {
         "https://x.com/Rando_ZLink/status/1920072518939132072",
         "https://x.com/Chalek0/status/1923051887990800540/video/1",
         "https://x.com/lestkrr/status/1922074979434184946",
+        "https://x.com/sirshadenfreude/status/1919955783967490180",
+        "https://x.com/detectivefalyn/status/1919579661480169695",
+        "https://x.com/hatakekelly/status/1920140228473630955",
+        "https://x.com/zelmaelstrom/status/1919583127711973790",
+        "https://x.com/lillian5090/status/1920258639580766280",
     ];
     blacklistUrls = blacklistUrls.map((url) => url.toLowerCase());
 
@@ -74,8 +79,8 @@ async function main() {
         url: string;
         label: string;
         author: string;
-        chapter: string;
-        day: string;
+        chapter: number;
+        day: number;
         characters: string[];
     }> = [];
 
@@ -90,7 +95,10 @@ async function main() {
         const dayPart = parts.find((p) => /^day\d+$/i.test(p)) || "";
         const filename = path.basename(file, ".md");
         const character = filename.replace(/-c\d+d\d+$/, "");
-        const characters = character.split("-").map((c) => c.trim());
+        const characters = character
+            .split("-")
+            .map((c) => c.trim())
+            .map((c) => (c === "recap" ? "various" : c));
 
         const text = await fs.readFile(file, "utf-8");
         let m: RegExpExecArray | null;
@@ -111,8 +119,8 @@ async function main() {
                 url: url,
                 label,
                 author,
-                chapter: chapterPart.replace(/^chapter/, ""),
-                day: dayPart.replace(/^day/, ""),
+                chapter: parseInt(chapterPart.replace(/^chapter/, "")) - 1,
+                day: parseInt(dayPart.replace(/^day/, "")) - 1,
                 characters,
             });
         }

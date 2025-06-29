@@ -20,7 +20,7 @@ import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
-import { Book, Dice6, Disc3, Info, Settings } from "lucide-react";
+import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import ViewChart from "./components/view/ViewChart";
@@ -41,6 +41,7 @@ import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
 import Image from "next/image";
 import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
+import ViewFanartModal from "@/components/view/ViewFanartModal";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -172,6 +173,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const [previousCard, setPreviousCard] = useState<CardType | null>(null);
 
     const [firstVisit, setFirstVisit] = useState(false);
+
+    // TODO: Remove this later, don't want to put in the store since have to wait for dev merge
+    const [openFanartModal, setOpenFanartModal] = useState(false);
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
@@ -625,6 +629,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
+            <ViewFanartModal
+                key={`fanart-modal-${viewStore.chapter}-${viewStore.day}`}
+                open={openFanartModal}
+                onOpenChange={setOpenFanartModal}
+                chapter={viewStore.chapter}
+                day={viewStore.day}
+            />
+
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
                     id="chart-info-btn"
@@ -701,6 +713,17 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     onClick={() => setIsMusicModalOpen(!isMusicModalOpen)}
                 >
                     <Disc3 />
+                </IconButton>
+
+                <IconButton
+                    id="fanart-btn"
+                    className="size-[40px] p-1"
+                    tooltipText="Fanart"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={() => setOpenFanartModal(!openFanartModal)}
+                >
+                    <Palette />
                 </IconButton>
             </div>
             <div

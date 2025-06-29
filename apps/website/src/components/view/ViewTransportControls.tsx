@@ -7,11 +7,11 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Chapter } from "@enreco-archive/common/types";
 
-import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { useEffect } from "react";
 import { CardType } from "@/store/viewStore";
+import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useEffect } from "react";
 
 interface ViewTransportControlsProps {
     chapter: number;
@@ -38,6 +38,16 @@ export default function ViewTransportControls({
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (currentCard !== null && currentCard !== "setting") return;
+            // TODO: Temporary fix, remove later
+            const isAnyDialogOpen =
+                document.querySelector('[role="dialog"]') !== null;
+
+            // Disable keyboard navigation when any modal is open or when non-setting cards are open
+            if (
+                isAnyDialogOpen ||
+                (currentCard !== null && currentCard !== "setting")
+            )
+                return;
 
             if (event.key === "ArrowLeft") {
                 if (day !== 0) onDayChange(day - 1);

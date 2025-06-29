@@ -6,9 +6,10 @@ import {
     DialogDescription,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, ExternalLink, X } from "lucide-react";
 import Image from "next/image";
 import { memo, useState, useRef, useEffect, useCallback } from "react";
 
@@ -27,6 +28,7 @@ interface ViewLightboxProps {
     priority?: boolean;
     galleryImages?: GalleryImage[];
     galleryIndex?: number;
+    authorSrc?: string;
 }
 
 const ViewLightbox = ({
@@ -39,6 +41,7 @@ const ViewLightbox = ({
     priority = false,
     galleryImages,
     galleryIndex = 0,
+    authorSrc,
 }: ViewLightboxProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(galleryIndex);
@@ -101,7 +104,6 @@ const ViewLightbox = ({
     // Handle keyboard navigation
     useEffect(() => {
         if (!isOpen) return;
-
         const handleKeyDown = (e: KeyboardEvent) => {
             if (e.key === "ArrowLeft") {
                 handlePrev();
@@ -116,7 +118,7 @@ const ViewLightbox = ({
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         };
-    }, [isOpen, handlePrev, handleNext, handleOpenChange]);
+    }, [isOpen, handlePrev, handleNext, handleOpenChange, images.length]);
 
     // Initialize thumbnail refs array
     useEffect(() => {
@@ -145,11 +147,10 @@ const ViewLightbox = ({
             <Dialog open={isOpen} onOpenChange={handleOpenChange}>
                 <DialogContent
                     backdropFilter={backdropFilter}
-                    className="max-w-fit p-0 gap-4 border-0 bg-none flex flex-col items-center shadow-none"
+                    className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center"
                     showXButton={false}
                     style={{
                         backgroundImage: "none",
-                        backgroundColor: "transparent",
                     }}
                 >
                     <DialogTitle className="sr-only">
@@ -168,7 +169,7 @@ const ViewLightbox = ({
                         <X className="size-full" />
                     </button>
 
-                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[95vw] h-[60vh] flex items-center justify-center">
+                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] h-[60vh] flex items-center justify-center">
                         {images.length > 1 && (
                             <>
                                 <button
@@ -187,7 +188,7 @@ const ViewLightbox = ({
                                 </button>
                             </>
                         )}
-                        <div className="relative w-full h-full min-h-[300px] flex items-center justify-center">
+                        <div className="relative w-full h-full flex items-center justify-center">
                             <Image
                                 src={currentImage.src}
                                 alt={currentImage.alt}
@@ -207,60 +208,67 @@ const ViewLightbox = ({
                     </div>
 
                     <div className="flex flex-col gap-2 max-w-full">
-                        <span className="text-white text-center font-semibold text-sm md:text-lg">
-                            {currentImage.alt}
-                        </span>
-
-                        {images.length > 1 && (
-                            <div
-                                ref={carouselRef}
-                                className="flex justify-start gap-2 overflow-x-auto py-2 px-4 max-w-full lg:max-w-[60vw] md:max-w-[80vw] scroll-smooth"
-                                style={{
-                                    scrollbarWidth: "thin",
-                                    scrollbarColor:
-                                        "rgba(255,255,255,0.3) transparent",
-                                }}
-                            >
-                                {images.map((image, index) => (
-                                    <div
-                                        key={index}
-                                        ref={(el) => {
-                                            thumbnailRefs.current[index] = el;
-                                        }}
-                                        className={cn(
-                                            "relative h-16 w-28 shrink-0 cursor-pointer transition-all duration-200 border-2 rounded-md overflow-hidden",
-                                            index === currentImageIndex
-                                                ? "border-white opacity-100 scale-105"
-                                                : "border-gray-500/50 opacity-70 hover:opacity-90",
-                                        )}
-                                        onClick={() =>
-                                            handleThumbnailClick(index)
-                                        }
+                        <div className="flex justify-center items-center gap-1">
+                            <Separator className="md:w-[200px] w-[30px] opacity-50" />
+                            <span className="text-white flex items-center gap-1 text-center font-semibold text-sm md:text-lg">
+                                {currentImage.alt}
+                                {authorSrc && (
+                                    <a
+                                        href={authorSrc}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
-                                        <Image
-                                            src={image.src}
-                                            alt={`Thumbnail ${index + 1}`}
-                                            fill
-                                            sizes="112px"
-                                            className="object-cover"
-                                            placeholder={
-                                                getBlurDataURL(image.src)
-                                                    ? "blur"
-                                                    : "empty"
-                                            }
-                                            blurDataURL={getBlurDataURL(
-                                                image.src,
-                                            )}
-                                        />
-                                    </div>
-                                ))}
+                                        <ExternalLink className="size-4 stroke-white" />
+                                    </a>
+                                )}
+                            </span>
 
-                                {/* Simple image counter */}
-                                <div className="absolute bottom-2 right-4 bg-black/50 text-white text-xs px-2 py-1 rounded-full">
-                                    {currentImageIndex + 1} / {images.length}
+                            <Separator className="md:w-[200px] w-[30px] opacity-50" />
+                        </div>
+                        <div
+                            ref={carouselRef}
+                            className="flex mx-auto justify-start gap-2 overflow-x-auto py-2 px-4 max-w-full lg:max-w-[60vw] md:max-w-[80vw] scroll-smooth"
+                            style={{
+                                scrollbarWidth: "thin",
+                                scrollbarColor:
+                                    "rgba(255,255,255,0.3) transparent",
+                            }}
+                        >
+                            {images.map((image, index) => (
+                                <div
+                                    key={index}
+                                    ref={(el) => {
+                                        thumbnailRefs.current[index] = el;
+                                    }}
+                                    className={cn(
+                                        "relative h-16 w-28 shrink-0 cursor-pointer transition-all duration-200 border-2 rounded-md overflow-hidden",
+                                        index === currentImageIndex
+                                            ? "border-white opacity-100 scale-105"
+                                            : "border-gray-500/50 opacity-70 hover:opacity-90",
+                                    )}
+                                    onClick={() => handleThumbnailClick(index)}
+                                >
+                                    <Image
+                                        src={image.src}
+                                        alt={`Thumbnail ${index + 1}`}
+                                        fill
+                                        sizes="112px"
+                                        className="object-cover"
+                                        placeholder={
+                                            getBlurDataURL(image.src)
+                                                ? "blur"
+                                                : "empty"
+                                        }
+                                        blurDataURL={getBlurDataURL(image.src)}
+                                    />
                                 </div>
+                            ))}
+
+                            {/* Simple image counter */}
+                            <div className="absolute bottom-2 right-4 bg-black/50 text-white text-xs px-2 py-1 rounded-full">
+                                {currentImageIndex + 1} / {images.length}
                             </div>
-                        )}
+                        </div>
                     </div>
                 </DialogContent>
             </Dialog>
