@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Oceanic Terror**, a blue trident as tall as its wielder—or as its owner fondly calls it, a _fork_—is Gawr Gura's chosen weapon for her journey in Libestal.
+**Oceanic Terror**—a blue trident as tall as its wielder, or, as its owner fondly calls it, a _fork_—is [Gawr Gura's](#entry:gura-entry) chosen weapon for her journey in Libestal.
 
 ## Details
 
