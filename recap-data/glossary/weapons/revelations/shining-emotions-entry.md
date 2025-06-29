@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Shining Emotions** takes the form of a purple octahedral gem, wielded by none other than Koseki Bijou.
+**Shining Emotions** takes the form of a purple octahedral gem, wielded by none other than [Koseki Bijou](#entry:bijou-entry).
 
 ## Details
 
