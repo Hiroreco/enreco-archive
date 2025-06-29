@@ -1,5 +1,280 @@
 [
   {
+    "url": "https://x.com/koizumi_arata/status/1830388700678697267",
+    "label": "\"Elizabeth vs. Tam\" by Daaku",
+    "author": "koizumi_arata",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "liz",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1830388700678697267-0-opt.webp",
+        "width": 3277,
+        "height": 4096
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/wcksan/status/1830274143344042319",
+    "label": "\"Don't leave me...\" by WoCaKi",
+    "author": "wcksan",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "mococo",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/wcksan-1830274143344042319-0-opt.webp",
+        "width": 2070,
+        "height": 2070
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/erasopepero232/status/1830564734657331247",
+    "label": "\"Tam ten~\" by ErasorPepero",
+    "author": "erasopepero232",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "raora",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/erasopepero232-1830564734657331247-0-opt.webp",
+        "width": 2894,
+        "height": 4093
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/seekorplatypus/status/1902528599774883882",
+    "label": "\"The BAE\" by Platypus Jowo",
+    "author": "seekorplatypus",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/seekorplatypus-1902528599774883882-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/amano_ritsu827/status/1901978737610301805",
+    "label": "\"Koseki Bijou\" by Amano Ritsu",
+    "author": "amano_ritsu827",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "bijou"
+    ],
+    "images": [
+      {
+        "src": "images-opt/amano_ritsu827-1901978737610301805-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/2nochuu/status/1902511940938952880",
+    "label": "\"The Underworld Calls\" by nino",
+    "author": "2nochuu",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "calli"
+    ],
+    "images": [
+      {
+        "src": "images-opt/2nochuu-1902511940938952880-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/mittsumia/status/1902371897985397070",
+    "label": "\"Revelation\" by Mittsu",
+    "author": "mittsumia",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mittsumia-1902371897985397070-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/weiiyxn/status/1902360036522991650",
+    "label": "\"The Humble Knight\" by Hyoweii",
+    "author": "weiiyxn",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/weiiyxn-1902360036522991650-0-opt.webp",
+        "width": 2497,
+        "height": 3048
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/ammiietty/status/1830136980811796710",
+    "label": "\"A Shark\" by Ammy",
+    "author": "ammiietty",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "gura"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ammiietty-1830136980811796710-0-opt.webp",
+        "width": 1241,
+        "height": 1632
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/torororose/status/1830139747202728375",
+    "label": "\"Big Silly Hat\" by toro rose",
+    "author": "torororose",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "gura"
+    ],
+    "images": [
+      {
+        "src": "images-opt/torororose-1830139747202728375-0-opt.webp",
+        "width": 1500,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/laaaw444/status/1902474971496227083",
+    "label": "\"ENdless journey\" by LAW",
+    "author": "laaaw444",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "ina"
+    ],
+    "images": [
+      {
+        "src": "images-opt/laaaw444-1902474971496227083-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/dasdokter/status/1902324865778250152",
+    "label": "\"Fallen Angel\" by DasDokter",
+    "author": "dasdokter",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "irys"
+    ],
+    "images": [
+      {
+        "src": "images-opt/dasdokter-1902324865778250152-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/tac_toki/status/1899898564433662436",
+    "label": "\"🐔\" by TacToki",
+    "author": "tac_toki",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "kiara"
+    ],
+    "images": [
+      {
+        "src": "images-opt/tac_toki-1899898564433662436-0-opt.webp",
+        "width": 2894,
+        "height": 4093
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/koizumi_arata/status/1830329272155931070",
+    "label": "\"Queen Tam Gandr\" by Daaku",
+    "author": "koizumi_arata",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1830329272155931070-0-opt.webp",
+        "width": 3277,
+        "height": 4096
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1899423935571333292",
+    "label": "\"Who were you, Lady Bloodflame?\" by Eli",
+    "author": "elisbian_",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/elisbian_-1899423935571333292-0-opt.webp",
+        "width": 2731,
+        "height": 4096
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/onecolo133/status/1831681269106974738",
+    "label": "\"Moom, the True Chosen One\" by Onecolo133",
+    "author": "onecolo133",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/onecolo133-1831681269106974738-0-opt.webp",
+        "width": 2170,
+        "height": 1848
+      }
+    ]
+  },
+  {
     "url": "https://x.com/torkirby/status/1830410419082510816",
     "label": "\"Scarlet Wand\" by tor",
     "author": "torkirby",
@@ -10,9 +285,471 @@
     ],
     "images": [
       {
-        "src": "images-opt/torkirby_1830410419082510816-0-opt.webp",
+        "src": "images-opt/torkirby-1830410419082510816-0-opt.webp",
         "width": 1557,
         "height": 1302
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/mikururun/status/1899247515700019465",
+    "label": "\":3\" by Miku",
+    "author": "mikururun",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mikururun-1899247515700019465-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/higeji404/status/1901370626591605149",
+    "label": "\"The Archiver\" by Higeji",
+    "author": "higeji404",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/higeji404-1901370626591605149-0-opt.webp",
+        "width": 1280,
+        "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/ddolbang11/status/1902413203335999859",
+    "label": "\"Full Libestal Cast\" by DDOLBANG",
+    "author": "ddolbang11",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "recap"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ddolbang11-1902413203335999859-0-opt.webp",
+        "width": 3413,
+        "height": 4096
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/moon_ldl/status/1830455614625001879",
+    "label": "\"is this what they call...enemies to lovers?...\" by Mooon",
+    "author": "moon_ldl",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "gigi",
+      "ame"
+    ],
+    "images": [
+      {
+        "src": "images-opt/moon_ldl-1830455614625001879-0-opt.webp",
+        "width": 2718,
+        "height": 3357
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/weiiyxn/status/1830844192723255551",
+    "label": "\"A proposal\" by Hyoweii",
+    "author": "weiiyxn",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "gigi",
+      "ame"
+    ],
+    "images": [
+      {
+        "src": "images-opt/weiiyxn-1830844192723255551-0-opt.webp",
+        "width": 2999,
+        "height": 2292
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/yuutomeh97/status/1830490741384356254",
+    "label": "\"Libestal's forbidden love\" by yuuto",
+    "author": "yuutomeh97",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "liz",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/yuutomeh97-1830490741384356254-0-opt.webp",
+        "width": 2048,
+        "height": 1761
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1830628289926557835",
+    "label": "\"The Appointed Points\" by Hiro",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1830628289926557835-0-opt.webp",
+        "width": 2048,
+        "height": 1139
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/bloodymoonia/status/1830726627686588557",
+    "label": "\"Tipi\" by Moonia",
+    "author": "bloodymoonia",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bloodymoonia-1830726627686588557-0-opt.webp",
+        "width": 3413,
+        "height": 4096
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/chalek0/status/1830482782222426481",
+    "label": "\"The secret technique of the Scarlet Wand guild\" by Chaleko",
+    "author": "chalek0",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/chalek0-1830482782222426481-0-opt.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/chalek0/status/1830748696935313524",
+    "label": "\"Do it for the library\" by Chaleko",
+    "author": "chalek0",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "fauna"
+    ],
+    "images": [
+      {
+        "src": "images-opt/chalek0-1830748696935313524-0-opt.webp",
+        "width": 1080,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/mikururun/status/1830701638472081531",
+    "label": "\"the council will decide your fate\" by Miku",
+    "author": "mikururun",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "gura"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mikururun-1830701638472081531-0-opt.webp",
+        "width": 3500,
+        "height": 2028
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/fukuinu_daddy/status/1830478922934616529",
+    "label": "\"Mogojan!?\" by Fukuinu",
+    "author": "fukuinu_daddy",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/fukuinu_daddy-1830478922934616529-0-opt.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/karunochi/status/1830608765454024950",
+    "label": "\"they're going to the moon\" by karunochi",
+    "author": "karunochi",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/karunochi-1830608765454024950-0-opt.webp",
+        "width": 2894,
+        "height": 4093
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/rediosokiut/status/1832178260446474397",
+    "label": "\"Witch\" by rediola",
+    "author": "rediosokiut",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "liz",
+      "fauna"
+    ],
+    "images": [
+      {
+        "src": "images-opt/rediosokiut-1832178260446474397-0-opt.webp",
+        "width": 1555,
+        "height": 2200
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/abendag0/status/1831257105069949232",
+    "label": "\"The first and second queen quarrel\" by Abendago",
+    "author": "abendag0",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "raora",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/abendag0-1831257105069949232-0-opt.webp",
+        "width": 3624,
+        "height": 2955
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/awooofa/status/1831049705700413843",
+    "label": "\"She got tha HAT!!!\" by aWoooFa",
+    "author": "awooofa",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/awooofa-1831049705700413843-0-opt.webp",
+        "width": 1500,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/scrambleham/status/1831057372820963655",
+    "label": "\"gonathon g / pure of heart\" by scramble ham",
+    "author": "scrambleham",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/scrambleham-1831057372820963655-0-opt.webp",
+        "width": 1535,
+        "height": 2048
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/weiiyxn/status/1831340977870823504",
+    "label": "\"Gonathon G\" by Hyoweii",
+    "author": "weiiyxn",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/weiiyxn-1831340977870823504-0-opt.webp",
+        "width": 2497,
+        "height": 3048
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/awooofa/status/1831403586494017956",
+    "label": "\"Pearl...\" by aWoooFa",
+    "author": "awooofa",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "gigi",
+      "gura"
+    ],
+    "images": [
+      {
+        "src": "images-opt/awooofa-1831403586494017956-0-opt.webp",
+        "width": 1500,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/keiseeaaa/status/1831435229753700756",
+    "label": "\"BloodRaven\" by Keisea",
+    "author": "keiseeaaa",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "liz",
+      "nerissa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/keiseeaaa-1831435229753700756-0-opt.webp",
+        "width": 2500,
+        "height": 3500
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/blaparky/status/1831222642730516798",
+    "label": "\"The Knight Chooses Her Ruler\" by BlaParky",
+    "author": "blaparky",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/blaparky-1831222642730516798-0-opt.webp",
+        "width": 3080,
+        "height": 3000
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/chalek0/status/1831120630860963872",
+    "label": "\"Welcome to the Scarlet Wand Guild\" by Chaleko",
+    "author": "chalek0",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "fauna"
+    ],
+    "images": [
+      {
+        "src": "images-opt/chalek0-1831120630860963872-0-opt.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/keiseeaaa/status/1831845649870160186",
+    "label": "\"she's cursed\" by Keisea",
+    "author": "keiseeaaa",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "liz",
+      "nerissa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/keiseeaaa-1831845649870160186-0-opt.webp",
+        "width": 2500,
+        "height": 2688
+      },
+      {
+        "src": "images-opt/keiseeaaa-1831845649870160186-1-opt.webp",
+        "width": 2500,
+        "height": 3500
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/dasdokter/status/1831973884461298095",
+    "label": "\"knight confronts the witch\" by DasDokter",
+    "author": "dasdokter",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "liz",
+      "nerissa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/dasdokter-1831973884461298095-0-opt.webp",
+        "width": 1579,
+        "height": 1512
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/bbbbungle/status/1831862192855228538",
+    "label": "\"mayhaps i am no longer the path she wishes\" by bungle",
+    "author": "bbbbungle",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bbbbungle-1831862192855228538-0-opt.webp",
+        "width": 2800,
+        "height": 3700
+      },
+      {
+        "src": "images-opt/bbbbungle-1831862192855228538-1-opt.webp",
+        "width": 2800,
+        "height": 3700
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/raffanda_/status/1832103922015822089",
+    "label": "A Knight's Tale by Raff Yasushi",
+    "author": "raffanda_",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "gigi",
+      "ame"
+    ],
+    "images": [
+      {
+        "src": "images-opt/raffanda_-1832103922015822089-0-opt.webp",
+        "width": 2862,
+        "height": 4096
       }
     ]
   },
@@ -28,7 +765,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/yomosaka_1832146121898221666-0-opt.webp",
+        "src": "images-opt/yomosaka-1832146121898221666-0-opt.webp",
         "width": 1512,
         "height": 1481
       }
@@ -46,16 +783,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/sir_tro_1832092670191349947-0-opt.webp",
+        "src": "images-opt/sir_tro-1832092670191349947-0-opt.webp",
         "width": 2400,
         "height": 3200
       }
     ]
   },
   {
-    "url": "https://x.com/NAMIORII/status/1832844940021514601",
+    "url": "https://x.com/namiorii/status/1832844940021514601",
     "label": "\"A Knight's Tale illustrated\" by Namii",
-    "author": "NAMIORII",
+    "author": "namiorii",
     "chapter": 1,
     "day": 6,
     "characters": [
@@ -64,16 +801,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/NAMIORII_1832844940021514601-0-opt.webp",
+        "src": "images-opt/namiorii-1832844940021514601-0-opt.webp",
         "width": 3277,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/NekoNyanTJ/status/1832093407843672251",
+    "url": "https://x.com/nekonyantj/status/1832093407843672251",
     "label": "\"Welcome back, Myth\" by nekotj",
-    "author": "NekoNyanTJ",
+    "author": "nekonyantj",
     "chapter": 1,
     "day": 6,
     "characters": [
@@ -82,16 +819,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/NekoNyanTJ_1832093407843672251-0-opt.webp",
+        "src": "images-opt/nekonyantj-1832093407843672251-0-opt.webp",
         "width": 2000,
         "height": 1125
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1832145708394410335",
+    "url": "https://x.com/keiseeaaa/status/1832145708394410335",
     "label": "\"Maybe if I die with a knight's honor, I may see her again\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 1,
     "day": 6,
     "characters": [
@@ -100,7 +837,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1832145708394410335-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1832145708394410335-0-opt.webp",
         "width": 1719,
         "height": 2580
       }
@@ -117,7 +854,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/koizumi_arata_1831971695621808324-0-opt.webp",
+        "src": "images-opt/koizumi_arata-1831971695621808324-0-opt.webp",
         "width": 3277,
         "height": 4096
       }
@@ -135,16 +872,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/weiiyxn_1832436596261724166-0-opt.webp",
+        "src": "images-opt/weiiyxn-1832436596261724166-0-opt.webp",
         "width": 1497,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/KenjikoKun/status/1832287162777399451",
+    "url": "https://x.com/kenjikokun/status/1832287162777399451",
     "label": "\"May the land be starve.\" by Kenjiko",
-    "author": "KenjikoKun",
+    "author": "kenjikokun",
     "chapter": 1,
     "day": 7,
     "characters": [
@@ -152,7 +889,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/KenjikoKun_1832287162777399451-0-opt.webp",
+        "src": "images-opt/kenjikokun-1832287162777399451-0-opt.webp",
         "width": 1080,
         "height": 1690
       }
@@ -169,7 +906,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/fukuinu_daddy_1832892608789770703-0-opt.webp",
+        "src": "images-opt/fukuinu_daddy-1832892608789770703-0-opt.webp",
         "width": 1536,
         "height": 1152
       }
@@ -186,7 +923,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/hiroavrs_1832437338469011589-0-opt.webp",
+        "src": "images-opt/hiroavrs-1832437338469011589-0-opt.webp",
         "width": 2048,
         "height": 1159
       }
@@ -203,16 +940,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/kei_myon_1831699644038181321-0-opt.webp",
+        "src": "images-opt/kei_myon-1831699644038181321-0-opt.webp",
         "width": 1376,
         "height": 1096
       }
     ]
   },
   {
-    "url": "https://x.com/Fongban_/status/1832841781727383603",
+    "url": "https://x.com/fongban_/status/1832841781727383603",
     "label": "\"Once upon a time\" by Fongban",
-    "author": "Fongban_",
+    "author": "fongban_",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -221,21 +958,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/Fongban__1832841781727383603-0-opt.webp",
+        "src": "images-opt/fongban_-1832841781727383603-0-opt.webp",
         "width": 2590,
         "height": 2660
       },
       {
-        "src": "images-opt/Fongban__1832841781727383603-1-opt.webp",
+        "src": "images-opt/fongban_-1832841781727383603-1-opt.webp",
         "width": 2590,
         "height": 2660
       }
     ]
   },
   {
-    "url": "https://x.com/RayyRamson/status/1832709727857627345",
+    "url": "https://x.com/rayyramson/status/1832709727857627345",
     "label": "\"His Pearl, Her Diamond\" by Meowniac",
-    "author": "RayyRamson",
+    "author": "rayyramson",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -244,7 +981,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/RayyRamson_1832709727857627345-0-opt.webp",
+        "src": "images-opt/rayyramson-1832709727857627345-0-opt.webp",
         "width": 1748,
         "height": 2480
       }
@@ -262,16 +999,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/erasopepero232_1832763779790323948-0-opt.webp",
+        "src": "images-opt/erasopepero232-1832763779790323948-0-opt.webp",
         "width": 4096,
         "height": 2915
       }
     ]
   },
   {
-    "url": "https://x.com/Nagi_Nyaaa/status/1832736395368321060",
+    "url": "https://x.com/nagi_nyaaa/status/1832736395368321060",
     "label": "\"Huzzah for the good ending!\" by Nagi",
-    "author": "Nagi_Nyaaa",
+    "author": "nagi_nyaaa",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -280,21 +1017,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/Nagi_Nyaaa_1832736395368321060-0-opt.webp",
+        "src": "images-opt/nagi_nyaaa-1832736395368321060-0-opt.webp",
         "width": 2786,
         "height": 4096
       },
       {
-        "src": "images-opt/Nagi_Nyaaa_1832736395368321060-1-opt.webp",
+        "src": "images-opt/nagi_nyaaa-1832736395368321060-1-opt.webp",
         "width": 2507,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1832856628850491716",
+    "url": "https://x.com/keiseeaaa/status/1832856628850491716",
     "label": "\"How to Woo a Witch 101\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -303,16 +1040,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1832856628850491716-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1832856628850491716-0-opt.webp",
         "width": 2836,
         "height": 2592
       }
     ]
   },
   {
-    "url": "https://x.com/Medu_Yusa/status/1832886978574234063",
+    "url": "https://x.com/medu_yusa/status/1832886978574234063",
     "label": "\"She forgot...\" by Medu",
-    "author": "Medu_Yusa",
+    "author": "medu_yusa",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -321,21 +1058,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/Medu_Yusa_1832886978574234063-0-opt.webp",
+        "src": "images-opt/medu_yusa-1832886978574234063-0-opt.webp",
         "width": 1584,
         "height": 4096
       },
       {
-        "src": "images-opt/Medu_Yusa_1832886978574234063-1-opt.webp",
+        "src": "images-opt/medu_yusa-1832886978574234063-1-opt.webp",
         "width": 1584,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/Ammiietty/status/1832638322503463219",
+    "url": "https://x.com/ammiietty/status/1832638322503463219",
     "label": "\"she's a professional after all\" by Ammy",
-    "author": "Ammiietty",
+    "author": "ammiietty",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -344,16 +1081,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Ammiietty_1832638322503463219-0-opt.webp",
+        "src": "images-opt/ammiietty-1832638322503463219-0-opt.webp",
         "width": 1779,
         "height": 1297
       }
     ]
   },
   {
-    "url": "https://x.com/Fineria_/status/1902555962864751092",
+    "url": "https://x.com/fineria_/status/1902555962864751092",
     "label": "\"Taking over\" by Fineria",
-    "author": "Fineria_",
+    "author": "fineria_",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -361,16 +1098,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Fineria__1902555962864751092-0-opt.webp",
+        "src": "images-opt/fineria_-1902555962864751092-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
     ]
   },
   {
-    "url": "https://x.com/Onecolo133/status/1902225836020744442",
+    "url": "https://x.com/onecolo133/status/1902225836020744442",
     "label": "\"Smol Moom\" by Onecolo133",
-    "author": "Onecolo133",
+    "author": "onecolo133",
     "chapter": 1,
     "day": 8,
     "characters": [
@@ -378,7 +1115,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Onecolo133_1902225836020744442-0-opt.webp",
+        "src": "images-opt/onecolo133-1902225836020744442-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -395,22 +1132,22 @@
     ],
     "images": [
       {
-        "src": "images-opt/keenbiscuit_1832589405451931972-0-opt.webp",
+        "src": "images-opt/keenbiscuit-1832589405451931972-0-opt.webp",
         "width": 1574,
         "height": 874
       },
       {
-        "src": "images-opt/keenbiscuit_1832589405451931972-1-opt.webp",
+        "src": "images-opt/keenbiscuit-1832589405451931972-1-opt.webp",
         "width": 1574,
         "height": 874
       },
       {
-        "src": "images-opt/keenbiscuit_1832589405451931972-2-opt.webp",
+        "src": "images-opt/keenbiscuit-1832589405451931972-2-opt.webp",
         "width": 1574,
         "height": 874
       },
       {
-        "src": "images-opt/keenbiscuit_1832589405451931972-3-opt.webp",
+        "src": "images-opt/keenbiscuit-1832589405451931972-3-opt.webp",
         "width": 1574,
         "height": 874
       }
@@ -428,16 +1165,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/cd_usr_1921362193527845250-0-opt.webp",
+        "src": "images-opt/cd_usr-1921362193527845250-0-opt.webp",
         "width": 4096,
         "height": 2896
       }
     ]
   },
   {
-    "url": "https://x.com/RikuJe/status/1921276963735421438",
+    "url": "https://x.com/rikuje/status/1921276963735421438",
     "label": "\"Queen\" by rikuJe",
-    "author": "RikuJe",
+    "author": "rikuje",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -446,7 +1183,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/RikuJe_1921276963735421438-0-opt.webp",
+        "src": "images-opt/rikuje-1921276963735421438-0-opt.webp",
         "width": 1892,
         "height": 4096
       }
@@ -464,16 +1201,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/ritorich_s_1921996810249265554-0-opt.webp",
+        "src": "images-opt/ritorich_s-1921996810249265554-0-opt.webp",
         "width": 1448,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/TibsSketches/status/1919845172369596470",
+    "url": "https://x.com/tibssketches/status/1919845172369596470",
     "label": "\"Please don't look at me with those unfamiliar eyes\" by TibsSketeches",
-    "author": "TibsSketches",
+    "author": "tibssketches",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -482,16 +1219,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/TibsSketches_1919845172369596470-0-opt.webp",
+        "src": "images-opt/tibssketches-1919845172369596470-0-opt.webp",
         "width": 1165,
         "height": 1654
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1919107348817195311",
+    "url": "https://x.com/keiseeaaa/status/1919107348817195311",
     "label": "\"Juliet\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -500,21 +1237,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1919107348817195311-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1919107348817195311-0-opt.webp",
         "width": 2500,
         "height": 3436
       },
       {
-        "src": "images-opt/Keiseeaaa_1919107348817195311-1-opt.webp",
+        "src": "images-opt/keiseeaaa-1919107348817195311-1-opt.webp",
         "width": 2500,
         "height": 3500
       }
     ]
   },
   {
-    "url": "https://x.com/Mikururun/status/1899107067182411936/photo/1",
+    "url": "https://x.com/mikururun/status/1899107067182411936/photo/1",
     "label": "\"Peasant The Bae\" by Miku",
-    "author": "Mikururun",
+    "author": "mikururun",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -522,16 +1259,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Mikururun_1899107067182411936-0-opt.webp",
+        "src": "images-opt/mikururun-1899107067182411936-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
     ]
   },
   {
-    "url": "https://x.com/PhdPigeon/status/1896821416395436357/photo/2",
+    "url": "https://x.com/phdpigeon/status/1896821416395436357/photo/2",
     "label": "Corruption - by Dr.Pigeon",
-    "author": "PhdPigeon",
+    "author": "phdpigeon",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -539,12 +1276,12 @@
     ],
     "images": [
       {
-        "src": "images-opt/PhdPigeon_1896821416395436357-0-opt.webp",
+        "src": "images-opt/phdpigeon-1896821416395436357-0-opt.webp",
         "width": 1280,
         "height": 1920
       },
       {
-        "src": "images-opt/PhdPigeon_1896821416395436357-1-opt.webp",
+        "src": "images-opt/phdpigeon-1896821416395436357-1-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -561,7 +1298,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/seapupu290495_1919057398330700031-0-opt.webp",
+        "src": "images-opt/seapupu290495-1919057398330700031-0-opt.webp",
         "width": 2368,
         "height": 4093
       }
@@ -578,7 +1315,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/sanni44322_1921325284067811733-0-opt.webp",
+        "src": "images-opt/sanni44322-1921325284067811733-0-opt.webp",
         "width": 1373,
         "height": 2048
       }
@@ -595,16 +1332,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/fushide__1919625900900896785-0-opt.webp",
+        "src": "images-opt/fushide_-1919625900900896785-0-opt.webp",
         "width": 3200,
         "height": 3200
       }
     ]
   },
   {
-    "url": "https://x.com/StandingPlace12/status/1918991950818021419",
+    "url": "https://x.com/standingplace12/status/1918991950818021419",
     "label": "The Princess is Kind, by StandingPlace12",
-    "author": "StandingPlace12",
+    "author": "standingplace12",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -612,7 +1349,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/StandingPlace12_1918991950818021419-0-opt.webp",
+        "src": "images-opt/standingplace12-1918991950818021419-0-opt.webp",
         "width": 1340,
         "height": 955
       }
@@ -629,16 +1366,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/shutowl_1919994120837177491-0-opt.webp",
+        "src": "images-opt/shutowl-1919994120837177491-0-opt.webp",
         "width": 3000,
         "height": 3000
       }
     ]
   },
   {
-    "url": "https://x.com/aFookinRetch/status/1921997300240425214",
+    "url": "https://x.com/afookinretch/status/1921997300240425214",
     "label": "\"HAVE A TASTE OF MY BOOK\" by The Retch",
-    "author": "aFookinRetch",
+    "author": "afookinretch",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -646,16 +1383,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/aFookinRetch_1921997300240425214-0-opt.webp",
+        "src": "images-opt/afookinretch-1921997300240425214-0-opt.webp",
         "width": 2048,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/WynnTerra_/status/1902017659547353299/photo/1",
+    "url": "https://x.com/wynnterra_/status/1902017659547353299/photo/1",
     "label": "\"IRyS\" by Wynnie",
-    "author": "WynnTerra_",
+    "author": "wynnterra_",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -663,7 +1400,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/WynnTerra__1902017659547353299-0-opt.webp",
+        "src": "images-opt/wynnterra_-1902017659547353299-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -680,16 +1417,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/chelimationz_1919839617232314759-0-opt.webp",
+        "src": "images-opt/chelimationz-1919839617232314759-0-opt.webp",
         "width": 2048,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/DoppiDonny/status/1921230140056424847",
+    "url": "https://x.com/doppidonny/status/1921230140056424847",
     "label": "\"in the mirror\" by DoppiDonny",
-    "author": "DoppiDonny",
+    "author": "doppidonny",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -697,16 +1434,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/DoppiDonny_1921230140056424847-0-opt.webp",
+        "src": "images-opt/doppidonny-1921230140056424847-0-opt.webp",
         "width": 3508,
         "height": 2480
       }
     ]
   },
   {
-    "url": "https://x.com/Another_achicvc/status/1922911239631516123",
+    "url": "https://x.com/another_achicvc/status/1922911239631516123",
     "label": "\"KNIGHT GANG\" by Achicvc",
-    "author": "Another_achicvc",
+    "author": "another_achicvc",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -714,7 +1451,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Another_achicvc_1922911239631516123-0-opt.webp",
+        "src": "images-opt/another_achicvc-1922911239631516123-0-opt.webp",
         "width": 1536,
         "height": 2048
       }
@@ -731,7 +1468,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/sumo88__1900190544602734862-0-opt.webp",
+        "src": "images-opt/sumo88_-1900190544602734862-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -748,16 +1485,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/leuvi_tte_1902565329823568215-0-opt.webp",
+        "src": "images-opt/leuvi_tte-1902565329823568215-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
     ]
   },
   {
-    "url": "https://x.com/DDOLBANG11/status/1902194136926843161",
+    "url": "https://x.com/ddolbang11/status/1902194136926843161",
     "label": "\"Nerissa Ravencroft\" by DDOLBANG",
-    "author": "DDOLBANG11",
+    "author": "ddolbang11",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -765,16 +1502,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/DDOLBANG11_1902194136926843161-0-opt.webp",
+        "src": "images-opt/ddolbang11-1902194136926843161-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
     ]
   },
   {
-    "url": "https://x.com/33aalloonnHD/status/1902579334008692736",
+    "url": "https://x.com/33aalloonnhd/status/1902579334008692736",
     "label": "\"🐦‍⬛\" by Pungson Mori",
-    "author": "33aalloonnHD",
+    "author": "33aalloonnhd",
     "chapter": 2,
     "day": 1,
     "characters": [
@@ -782,7 +1519,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/33aalloonnHD_1902579334008692736-0-opt.webp",
+        "src": "images-opt/33aalloonnhd-1902579334008692736-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -799,7 +1536,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/okunashi27_1900088484695818505-0-opt.webp",
+        "src": "images-opt/okunashi27-1900088484695818505-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -816,7 +1553,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/quartzquadrant_1902200030980649355-0-opt.webp",
+        "src": "images-opt/quartzquadrant-1902200030980649355-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -833,16 +1570,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/yuri_kyanon_1919648496329883766-0-opt.webp",
+        "src": "images-opt/yuri_kyanon-1919648496329883766-0-opt.webp",
         "width": 954,
         "height": 1567
       }
     ]
   },
   {
-    "url": "https://x.com/Ammiietty/status/1919997510287794293",
+    "url": "https://x.com/ammiietty/status/1919997510287794293",
     "label": "\"witchcraft\" by Ammy",
-    "author": "Ammiietty",
+    "author": "ammiietty",
     "chapter": 2,
     "day": 2,
     "characters": [
@@ -851,7 +1588,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Ammiietty_1919997510287794293-0-opt.webp",
+        "src": "images-opt/ammiietty-1919997510287794293-0-opt.webp",
         "width": 780,
         "height": 1420
       }
@@ -869,7 +1606,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/underdatv_1919617636545245333-0-opt.webp",
+        "src": "images-opt/underdatv-1919617636545245333-0-opt.webp",
         "width": 1348,
         "height": 1000
       }
@@ -887,16 +1624,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/noirstein_1919950989265658028-0-opt.webp",
+        "src": "images-opt/noirstein-1919950989265658028-0-opt.webp",
         "width": 3200,
         "height": 2400
       }
     ]
   },
   {
-    "url": "https://x.com/Yume_ato29/status/1919498300232982554",
+    "url": "https://x.com/yume_ato29/status/1919498300232982554",
     "label": "\"Meanwhile Peasant The Bae\" by Yume",
-    "author": "Yume_ato29",
+    "author": "yume_ato29",
     "chapter": 2,
     "day": 2,
     "characters": [
@@ -904,7 +1641,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Yume_ato29_1919498300232982554-0-opt.webp",
+        "src": "images-opt/yume_ato29-1919498300232982554-0-opt.webp",
         "width": 2048,
         "height": 1660
       }
@@ -921,7 +1658,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/arexsudraws_1919246188831707196-0-opt.webp",
+        "src": "images-opt/arexsudraws-1919246188831707196-0-opt.webp",
         "width": 1438,
         "height": 1548
       }
@@ -938,16 +1675,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/nellepoof_1896555698835841279-0-opt.webp",
+        "src": "images-opt/nellepoof-1896555698835841279-0-opt.webp",
         "width": 800,
         "height": 1200
       }
     ]
   },
   {
-    "url": "https://x.com/NOminishki/status/1919330292319277410",
+    "url": "https://x.com/nominishki/status/1919330292319277410",
     "label": "Her princess by Zeya",
-    "author": "NOminishki",
+    "author": "nominishki",
     "chapter": 2,
     "day": 2,
     "characters": [
@@ -955,16 +1692,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/NOminishki_1919330292319277410-0-opt.webp",
+        "src": "images-opt/nominishki-1919330292319277410-0-opt.webp",
         "width": 2867,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/SubNil4/status/1920153037156573445",
+    "url": "https://x.com/subnil4/status/1920153037156573445",
     "label": "\"IRyS the savior of the food economy\" by Sub_Nil",
-    "author": "SubNil4",
+    "author": "subnil4",
     "chapter": 2,
     "day": 2,
     "characters": [
@@ -972,16 +1709,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/SubNil4_1920153037156573445-0-opt.webp",
+        "src": "images-opt/subnil4-1920153037156573445-0-opt.webp",
         "width": 2000,
         "height": 2000
       }
     ]
   },
   {
-    "url": "https://x.com/Oopartzy/status/1902600564913139718",
+    "url": "https://x.com/oopartzy/status/1902600564913139718",
     "label": "\"Queen Tam Gandr\" by OOPARTZ",
-    "author": "Oopartzy",
+    "author": "oopartzy",
     "chapter": 2,
     "day": 2,
     "characters": [
@@ -989,7 +1726,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Oopartzy_1902600564913139718-0-opt.webp",
+        "src": "images-opt/oopartzy-1902600564913139718-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -1006,7 +1743,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/underdatv_1919463544581718116-0-opt.webp",
+        "src": "images-opt/underdatv-1919463544581718116-0-opt.webp",
         "width": 1920,
         "height": 1200
       }
@@ -1023,16 +1760,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/fukuinu_daddy_1919258061119672376-0-opt.webp",
+        "src": "images-opt/fukuinu_daddy-1919258061119672376-0-opt.webp",
         "width": 960,
         "height": 1280
       }
     ]
   },
   {
-    "url": "https://x.com/StandingPlace12/status/1921472739644199167",
+    "url": "https://x.com/standingplace12/status/1921472739644199167",
     "label": "\"...can't go back to those happy days\" by StandingPlace12",
-    "author": "StandingPlace12",
+    "author": "standingplace12",
     "chapter": 2,
     "day": 2,
     "characters": [
@@ -1040,12 +1777,12 @@
     ],
     "images": [
       {
-        "src": "images-opt/StandingPlace12_1921472739644199167-0-opt.webp",
+        "src": "images-opt/standingplace12-1921472739644199167-0-opt.webp",
         "width": 2753,
         "height": 3600
       },
       {
-        "src": "images-opt/StandingPlace12_1921472739644199167-1-opt.webp",
+        "src": "images-opt/standingplace12-1921472739644199167-1-opt.webp",
         "width": 2753,
         "height": 3600
       }
@@ -1062,7 +1799,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/andrslmu_1920687085301756408-0-opt.webp",
+        "src": "images-opt/andrslmu-1920687085301756408-0-opt.webp",
         "width": 2300,
         "height": 3000
       }
@@ -1079,7 +1816,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/elskaelu_1918973111795359805-0-opt.webp",
+        "src": "images-opt/elskaelu-1918973111795359805-0-opt.webp",
         "width": 2550,
         "height": 3300
       }
@@ -1096,16 +1833,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/kumakibbs_1926080936971497522-0-opt.webp",
+        "src": "images-opt/kumakibbs-1926080936971497522-0-opt.webp",
         "width": 3500,
         "height": 3500
       }
     ]
   },
   {
-    "url": "https://x.com/BunBBun1/status/1919963091464249648",
+    "url": "https://x.com/bunbbun1/status/1919963091464249648",
     "label": "\"Born of a cult\" by BunBBun",
-    "author": "BunBBun1",
+    "author": "bunbbun1",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1114,7 +1851,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/BunBBun1_1919963091464249648-0-opt.webp",
+        "src": "images-opt/bunbbun1-1919963091464249648-0-opt.webp",
         "width": 1000,
         "height": 1700
       }
@@ -1132,7 +1869,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/lestkrr_1921705091372863518-0-opt.webp",
+        "src": "images-opt/lestkrr-1921705091372863518-0-opt.webp",
         "width": 4096,
         "height": 2896
       }
@@ -1150,16 +1887,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/illust_asashi_1920369360209637411-0-opt.webp",
+        "src": "images-opt/illust_asashi-1920369360209637411-0-opt.webp",
         "width": 2048,
         "height": 1448
       }
     ]
   },
   {
-    "url": "https://x.com/LordJoeboto/status/1919654751324557545",
+    "url": "https://x.com/lordjoeboto/status/1919654751324557545",
     "label": "\"Turned her face into a strawberry?!\" by LordJoeboto",
-    "author": "LordJoeboto",
+    "author": "lordjoeboto",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1168,7 +1905,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/LordJoeboto_1919654751324557545-0-opt.webp",
+        "src": "images-opt/lordjoeboto-1919654751324557545-0-opt.webp",
         "width": 1233,
         "height": 1267
       }
@@ -1186,7 +1923,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/zelmaelstrom_1919583127711973790-0-opt.webp",
+        "src": "images-opt/zelmaelstrom-1919583127711973790-0-opt.webp",
         "width": 1754,
         "height": 1240
       }
@@ -1204,21 +1941,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/zelmaelstrom_1920221012169535936-0-opt.webp",
+        "src": "images-opt/zelmaelstrom-1920221012169535936-0-opt.webp",
         "width": 1754,
         "height": 1240
       },
       {
-        "src": "images-opt/zelmaelstrom_1920221012169535936-1-opt.webp",
+        "src": "images-opt/zelmaelstrom-1920221012169535936-1-opt.webp",
         "width": 1754,
         "height": 1240
       }
     ]
   },
   {
-    "url": "https://x.com/VulpusKayrii/status/1919957480106303488",
+    "url": "https://x.com/vulpuskayrii/status/1919957480106303488",
     "label": "\"Gift\" by Kayrii",
-    "author": "VulpusKayrii",
+    "author": "vulpuskayrii",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1227,16 +1964,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/VulpusKayrii_1919957480106303488-0-opt.webp",
+        "src": "images-opt/vulpuskayrii-1919957480106303488-0-opt.webp",
         "width": 3080,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1919845669562622165",
+    "url": "https://x.com/keiseeaaa/status/1919845669562622165",
     "label": "\"Looks like I won this round, witch\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1245,16 +1982,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1919845669562622165-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1919845669562622165-0-opt.webp",
         "width": 2148,
         "height": 2576
       }
     ]
   },
   {
-    "url": "https://x.com/TibsSketches/status/1920495769099931750",
+    "url": "https://x.com/tibssketches/status/1920495769099931750",
     "label": "\"A light moment between them\" by TibsSketeches",
-    "author": "TibsSketches",
+    "author": "tibssketches",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1263,16 +2000,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/TibsSketches_1920495769099931750-0-opt.webp",
+        "src": "images-opt/tibssketches-1920495769099931750-0-opt.webp",
         "width": 1165,
         "height": 1654
       }
     ]
   },
   {
-    "url": "https://x.com/Mikururun/status/1899107067182411936",
+    "url": "https://x.com/mikururun/status/1899107067182411936",
     "label": "Peasant The Bae",
-    "author": "Mikururun",
+    "author": "mikururun",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1280,7 +2017,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Mikururun_1899107067182411936-0-opt.webp",
+        "src": "images-opt/mikururun-1899107067182411936-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -1297,16 +2034,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/iennie__1920442027751190563-0-opt.webp",
+        "src": "images-opt/iennie_-1920442027751190563-0-opt.webp",
         "width": 1024,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/ThatCello/status/1921233137280880850",
+    "url": "https://x.com/thatcello/status/1921233137280880850",
     "label": "\"Join the Sandwich\" by Cellophim",
-    "author": "ThatCello",
+    "author": "thatcello",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1314,7 +2051,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/ThatCello_1921233137280880850-0-opt.webp",
+        "src": "images-opt/thatcello-1921233137280880850-0-opt.webp",
         "width": 1449,
         "height": 1436
       }
@@ -1331,16 +2068,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/__akkanen_1919051593619755126-0-opt.webp",
+        "src": "images-opt/__akkanen-1919051593619755126-0-opt.webp",
         "width": 1414,
         "height": 2000
       }
     ]
   },
   {
-    "url": "https://x.com/MittsumiA/status/1919718476379521404",
+    "url": "https://x.com/mittsumia/status/1919718476379521404",
     "label": "Your feelings come from the best place by Mittsu",
-    "author": "MittsumiA",
+    "author": "mittsumia",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1348,7 +2085,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/MittsumiA_1919718476379521404-0-opt.webp",
+        "src": "images-opt/mittsumia-1919718476379521404-0-opt.webp",
         "width": 623,
         "height": 852
       }
@@ -1365,16 +2102,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/blaparky_1919657314384282081-0-opt.webp",
+        "src": "images-opt/blaparky-1919657314384282081-0-opt.webp",
         "width": 3045,
         "height": 2729
       }
     ]
   },
   {
-    "url": "https://x.com/Ediialex/status/1919243257499853211",
+    "url": "https://x.com/ediialex/status/1919243257499853211",
     "label": "... (The World Tree) by Edialex",
-    "author": "Ediialex",
+    "author": "ediialex",
     "chapter": 2,
     "day": 3,
     "characters": [
@@ -1382,7 +2119,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Ediialex_1919243257499853211-0-opt.webp",
+        "src": "images-opt/ediialex-1919243257499853211-0-opt.webp",
         "width": 2750,
         "height": 4000
       }
@@ -1399,7 +2136,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/koizumi_arata_1918528170237558813-0-opt.webp",
+        "src": "images-opt/koizumi_arata-1918528170237558813-0-opt.webp",
         "width": 4096,
         "height": 2731
       }
@@ -1416,7 +2153,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/ashiartwork_1900196831394668961-0-opt.webp",
+        "src": "images-opt/ashiartwork-1900196831394668961-0-opt.webp",
         "width": 1280,
         "height": 1920
       }
@@ -1433,7 +2170,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/underdatv_1919820213811294236-0-opt.webp",
+        "src": "images-opt/underdatv-1919820213811294236-0-opt.webp",
         "width": 1558,
         "height": 1170
       }
@@ -1451,16 +2188,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/seapupu290495_1920170130492785116-0-opt.webp",
+        "src": "images-opt/seapupu290495-1920170130492785116-0-opt.webp",
         "width": 2368,
         "height": 4093
       }
     ]
   },
   {
-    "url": "https://x.com/Eule_Winters/status/1919969659094499795",
+    "url": "https://x.com/eule_winters/status/1919969659094499795",
     "label": "Cecilia and the Princess by Eule Winters",
-    "author": "Eule_Winters",
+    "author": "eule_winters",
     "chapter": 2,
     "day": 4,
     "characters": [
@@ -1469,21 +2206,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/Eule_Winters_1919969659094499795-0-opt.webp",
+        "src": "images-opt/eule_winters-1919969659094499795-0-opt.webp",
         "width": 1668,
         "height": 1813
       },
       {
-        "src": "images-opt/Eule_Winters_1919969659094499795-1-opt.webp",
+        "src": "images-opt/eule_winters-1919969659094499795-1-opt.webp",
         "width": 1668,
         "height": 1813
       }
     ]
   },
   {
-    "url": "https://x.com/NOminishki/status/1920011853004001565",
+    "url": "https://x.com/nominishki/status/1920011853004001565",
     "label": "My Shining Stars by Zeya",
-    "author": "NOminishki",
+    "author": "nominishki",
     "chapter": 2,
     "day": 4,
     "characters": [
@@ -1492,7 +2229,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/NOminishki_1920011853004001565-0-opt.webp",
+        "src": "images-opt/nominishki-1920011853004001565-0-opt.webp",
         "width": 3277,
         "height": 4096
       }
@@ -1510,16 +2247,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/kawrrsz_1920100323001348357-0-opt.webp",
+        "src": "images-opt/kawrrsz-1920100323001348357-0-opt.webp",
         "width": 2048,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/BunBBun1/status/1920236766730092572",
+    "url": "https://x.com/bunbbun1/status/1920236766730092572",
     "label": "\"Cuck bunk\" by BunBBun",
-    "author": "BunBBun1",
+    "author": "bunbbun1",
     "chapter": 2,
     "day": 4,
     "characters": [
@@ -1528,16 +2265,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/BunBBun1_1920236766730092572-0-opt.webp",
+        "src": "images-opt/bunbbun1-1920236766730092572-0-opt.webp",
         "width": 1000,
         "height": 1600
       }
     ]
   },
   {
-    "url": "https://x.com/Puniki_XIV/status/1926153741314478419",
+    "url": "https://x.com/puniki_xiv/status/1926153741314478419",
     "label": "Hug by Puniki",
-    "author": "Puniki_XIV",
+    "author": "puniki_xiv",
     "chapter": 2,
     "day": 4,
     "characters": [
@@ -1546,7 +2283,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Puniki_XIV_1926153741314478419-0-opt.webp",
+        "src": "images-opt/puniki_xiv-1926153741314478419-0-opt.webp",
         "width": 2025,
         "height": 2160
       }
@@ -1564,7 +2301,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/haaro_69_1920956572743741642-0-opt.webp",
+        "src": "images-opt/haaro_69-1920956572743741642-0-opt.webp",
         "width": 1500,
         "height": 1500
       }
@@ -1581,7 +2318,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/maybe_myra28_1920143568561180880-0-opt.webp",
+        "src": "images-opt/maybe_myra28-1920143568561180880-0-opt.webp",
         "width": 3500,
         "height": 2500
       }
@@ -1598,7 +2335,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/fluumf_1919736845048676373-0-opt.webp",
+        "src": "images-opt/fluumf-1919736845048676373-0-opt.webp",
         "width": 2224,
         "height": 3372
       }
@@ -1615,16 +2352,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/roronico1512_1919844587000234488-0-opt.webp",
+        "src": "images-opt/roronico1512-1919844587000234488-0-opt.webp",
         "width": 2048,
         "height": 1427
       }
     ]
   },
   {
-    "url": "https://x.com/Dreamplanes256/status/1921562462647709819",
+    "url": "https://x.com/dreamplanes256/status/1921562462647709819",
     "label": "\"Libestal's Young Chef (Part 1)\" by Dreamplanes",
-    "author": "Dreamplanes256",
+    "author": "dreamplanes256",
     "chapter": 2,
     "day": 4,
     "characters": [
@@ -1632,7 +2369,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Dreamplanes256_1921562462647709819-0-opt.webp",
+        "src": "images-opt/dreamplanes256-1921562462647709819-0-opt.webp",
         "width": 2894,
         "height": 4093
       }
@@ -1649,7 +2386,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/mpien6_1920134834791600586-0-opt.webp",
+        "src": "images-opt/mpien6-1920134834791600586-0-opt.webp",
         "width": 4096,
         "height": 3705
       }
@@ -1666,7 +2403,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/roronico1512_1920030742597484826-0-opt.webp",
+        "src": "images-opt/roronico1512-1920030742597484826-0-opt.webp",
         "width": 2048,
         "height": 1403
       }
@@ -1684,16 +2421,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/jhgardener__1920897502833787226-0-opt.webp",
+        "src": "images-opt/jhgardener_-1920897502833787226-0-opt.webp",
         "width": 2330,
         "height": 1668
       }
     ]
   },
   {
-    "url": "https://x.com/BunBBun1/status/1920775872061018370",
+    "url": "https://x.com/bunbbun1/status/1920775872061018370",
     "label": "\"Bad gas :D\" by BunBBun",
-    "author": "BunBBun1",
+    "author": "bunbbun1",
     "chapter": 2,
     "day": 5,
     "characters": [
@@ -1702,16 +2439,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/BunBBun1_1920775872061018370-0-opt.webp",
+        "src": "images-opt/bunbbun1-1920775872061018370-0-opt.webp",
         "width": 1000,
         "height": 1720
       }
     ]
   },
   {
-    "url": "https://x.com/LLCole_/status/1922040765531718058",
+    "url": "https://x.com/llcole_/status/1922040765531718058",
     "label": "\"A knight and queen in sync...\" by LLCole",
-    "author": "LLCole_",
+    "author": "llcole_",
     "chapter": 2,
     "day": 5,
     "characters": [
@@ -1720,7 +2457,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/LLCole__1922040765531718058-0-opt.webp",
+        "src": "images-opt/llcole_-1922040765531718058-0-opt.webp",
         "width": 3000,
         "height": 4000
       }
@@ -1738,7 +2475,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/underdatv_1920335173909975159-0-opt.webp",
+        "src": "images-opt/underdatv-1920335173909975159-0-opt.webp",
         "width": 1200,
         "height": 800
       }
@@ -1756,16 +2493,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/nurizza_ilst_1922690872854065611-0-opt.webp",
+        "src": "images-opt/nurizza_ilst-1922690872854065611-0-opt.webp",
         "width": 2048,
         "height": 1918
       }
     ]
   },
   {
-    "url": "https://x.com/Elisbian_/status/1924543172753166413",
+    "url": "https://x.com/elisbian_/status/1924543172753166413",
     "label": "\"Too late?\" by Eli",
-    "author": "Elisbian_",
+    "author": "elisbian_",
     "chapter": 2,
     "day": 5,
     "characters": [
@@ -1774,16 +2511,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Elisbian__1924543172753166413-0-opt.webp",
+        "src": "images-opt/elisbian_-1924543172753166413-0-opt.webp",
         "width": 3266,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1920370505892430128",
+    "url": "https://x.com/keiseeaaa/status/1920370505892430128",
     "label": "\"Lady blooflame playing with her heart\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 2,
     "day": 5,
     "characters": [
@@ -1792,16 +2529,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1920370505892430128-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1920370505892430128-0-opt.webp",
         "width": 1828,
         "height": 2300
       }
     ]
   },
   {
-    "url": "https://x.com/RLus654/status/1920313961980793313",
+    "url": "https://x.com/rlus654/status/1920313961980793313",
     "label": "\"you need to pay for the three wishes\" by R-Lus",
-    "author": "RLus654",
+    "author": "rlus654",
     "chapter": 2,
     "day": 5,
     "characters": [
@@ -1809,7 +2546,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/RLus654_1920313961980793313-0-opt.webp",
+        "src": "images-opt/rlus654-1920313961980793313-0-opt.webp",
         "width": 1637,
         "height": 1696
       }
@@ -1826,16 +2563,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/roronico1512_1920392409898168688-0-opt.webp",
+        "src": "images-opt/roronico1512-1920392409898168688-0-opt.webp",
         "width": 2048,
         "height": 1431
       }
     ]
   },
   {
-    "url": "https://x.com/Lillian5090/status/1920258639580766280",
+    "url": "https://x.com/lillian5090/status/1920258639580766280",
     "label": "The Princess and the Knight by Lillian",
-    "author": "Lillian5090",
+    "author": "lillian5090",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -1844,7 +2581,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Lillian5090_1920258639580766280-0-opt.webp",
+        "src": "images-opt/lillian5090-1920258639580766280-0-opt.webp",
         "width": 1463,
         "height": 2048
       }
@@ -1862,7 +2599,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/kaje_zu_1920142379383943206-0-opt.webp",
+        "src": "images-opt/kaje_zu-1920142379383943206-0-opt.webp",
         "width": 2300,
         "height": 1800
       }
@@ -1880,16 +2617,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/nellepoof_1920139044693922274-0-opt.webp",
+        "src": "images-opt/nellepoof-1920139044693922274-0-opt.webp",
         "width": 3300,
         "height": 4000
       }
     ]
   },
   {
-    "url": "https://x.com/SirShadenfreude/status/1919955783967490180",
+    "url": "https://x.com/sirshadenfreude/status/1919955783967490180",
     "label": "Immerphania By Sirs",
-    "author": "SirShadenfreude",
+    "author": "sirshadenfreude",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -1898,16 +2635,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/SirShadenfreude_1919955783967490180-0-opt.webp",
+        "src": "images-opt/sirshadenfreude-1919955783967490180-0-opt.webp",
         "width": 1000,
         "height": 1000
       }
     ]
   },
   {
-    "url": "https://x.com/DetectiveFalyn/status/1919579661480169695",
+    "url": "https://x.com/detectivefalyn/status/1919579661480169695",
     "label": "Immerkind and Princess by Falyn ",
-    "author": "DetectiveFalyn",
+    "author": "detectivefalyn",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -1916,7 +2653,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/DetectiveFalyn_1919579661480169695-0-opt.webp",
+        "src": "images-opt/detectivefalyn-1919579661480169695-0-opt.webp",
         "width": 1184,
         "height": 1615
       }
@@ -1934,7 +2671,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/nellepoof_1919079218916303097-0-opt.webp",
+        "src": "images-opt/nellepoof-1919079218916303097-0-opt.webp",
         "width": 722,
         "height": 635
       }
@@ -1952,7 +2689,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/scrambleham_1920353533930487993-0-opt.webp",
+        "src": "images-opt/scrambleham-1920353533930487993-0-opt.webp",
         "width": 2048,
         "height": 1517
       }
@@ -1970,7 +2707,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/maiemuri_1919914115356885274-0-opt.webp",
+        "src": "images-opt/maiemuri-1919914115356885274-0-opt.webp",
         "width": 1595,
         "height": 1379
       }
@@ -1988,16 +2725,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/nellepoof_1919448453266239514-0-opt.webp",
+        "src": "images-opt/nellepoof-1919448453266239514-0-opt.webp",
         "width": 4000,
         "height": 3996
       }
     ]
   },
   {
-    "url": "https://x.com/HatakeKelly/status/1920140228473630955",
+    "url": "https://x.com/hatakekelly/status/1920140228473630955",
     "label": "Fit in Perfectly by HiYoi",
-    "author": "HatakeKelly",
+    "author": "hatakekelly",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2006,16 +2743,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/HatakeKelly_1920140228473630955-0-opt.webp",
+        "src": "images-opt/hatakekelly-1920140228473630955-0-opt.webp",
         "width": 1668,
         "height": 1064
       }
     ]
   },
   {
-    "url": "https://x.com/KhoaPhan96/status/1920858870433391103",
+    "url": "https://x.com/khoaphan96/status/1920858870433391103",
     "label": "\"The Fumble Knight\" by KHOA",
-    "author": "KhoaPhan96",
+    "author": "khoaphan96",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2024,16 +2761,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/KhoaPhan96_1920858870433391103-0-opt.webp",
+        "src": "images-opt/khoaphan96-1920858870433391103-0-opt.webp",
         "width": 3231,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/The_DankWave/status/1920202895640965586",
+    "url": "https://x.com/the_dankwave/status/1920202895640965586",
     "label": "\"Losing interest\" by The_DankWave",
-    "author": "The_DankWave",
+    "author": "the_dankwave",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2042,16 +2779,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/The_DankWave_1920202895640965586-0-opt.webp",
+        "src": "images-opt/the_dankwave-1920202895640965586-0-opt.webp",
         "width": 1536,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/Ediialex/status/1920993972970721626",
+    "url": "https://x.com/ediialex/status/1920993972970721626",
     "label": "\"In the closet\" by Edialex",
-    "author": "Ediialex",
+    "author": "ediialex",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2060,16 +2797,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Ediialex_1920993972970721626-0-opt.webp",
+        "src": "images-opt/ediialex-1920993972970721626-0-opt.webp",
         "width": 1393,
         "height": 3137
       }
     ]
   },
   {
-    "url": "https://x.com/BunBBun1/status/1921443699562610732",
+    "url": "https://x.com/bunbbun1/status/1921443699562610732",
     "label": "\"the closet\" by BunBBun",
-    "author": "BunBBun1",
+    "author": "bunbbun1",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2078,16 +2815,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/BunBBun1_1921443699562610732-0-opt.webp",
+        "src": "images-opt/bunbbun1-1921443699562610732-0-opt.webp",
         "width": 1000,
         "height": 1150
       }
     ]
   },
   {
-    "url": "https://x.com/VulpusKayrii/status/1921056104634622391",
+    "url": "https://x.com/vulpuskayrii/status/1921056104634622391",
     "label": "\"Witch 2/3\" by Kayrii",
-    "author": "VulpusKayrii",
+    "author": "vulpuskayrii",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2096,21 +2833,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/VulpusKayrii_1921056104634622391-0-opt.webp",
+        "src": "images-opt/vulpuskayrii-1921056104634622391-0-opt.webp",
         "width": 2456,
         "height": 4096
       },
       {
-        "src": "images-opt/VulpusKayrii_1921056104634622391-1-opt.webp",
+        "src": "images-opt/vulpuskayrii-1921056104634622391-1-opt.webp",
         "width": 2445,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/CressentiaQin/status/1924078500727955647",
+    "url": "https://x.com/cressentiaqin/status/1924078500727955647",
     "label": "\"A kinder fate\" by Cress",
-    "author": "CressentiaQin",
+    "author": "cressentiaqin",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2119,7 +2856,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/CressentiaQin_1924078500727955647-0-opt.webp",
+        "src": "images-opt/cressentiaqin-1924078500727955647-0-opt.webp",
         "width": 4096,
         "height": 2304
       }
@@ -2137,21 +2874,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/mofumashu_1921096315812839551-0-opt.webp",
+        "src": "images-opt/mofumashu-1921096315812839551-0-opt.webp",
         "width": 2234,
         "height": 4096
       },
       {
-        "src": "images-opt/mofumashu_1921096315812839551-1-opt.webp",
+        "src": "images-opt/mofumashu-1921096315812839551-1-opt.webp",
         "width": 2234,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/Sticker_sr/status/1921550872217104488",
+    "url": "https://x.com/sticker_sr/status/1921550872217104488",
     "label": "\"When have I ever lied to you?\" by ESTY",
-    "author": "Sticker_sr",
+    "author": "sticker_sr",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2160,26 +2897,26 @@
     ],
     "images": [
       {
-        "src": "images-opt/Sticker_sr_1921550872217104488-0-opt.webp",
+        "src": "images-opt/sticker_sr-1921550872217104488-0-opt.webp",
         "width": 1098,
         "height": 1200
       },
       {
-        "src": "images-opt/Sticker_sr_1921550872217104488-1-opt.webp",
+        "src": "images-opt/sticker_sr-1921550872217104488-1-opt.webp",
         "width": 739,
         "height": 1200
       },
       {
-        "src": "images-opt/Sticker_sr_1921550872217104488-2-opt.webp",
+        "src": "images-opt/sticker_sr-1921550872217104488-2-opt.webp",
         "width": 941,
         "height": 1200
       }
     ]
   },
   {
-    "url": "https://x.com/Dreamplanes256/status/1922931113174917132",
+    "url": "https://x.com/dreamplanes256/status/1922931113174917132",
     "label": "\"Libestal's Young Chef (Part 2)\" by Dreamplanes",
-    "author": "Dreamplanes256",
+    "author": "dreamplanes256",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2187,12 +2924,12 @@
     ],
     "images": [
       {
-        "src": "images-opt/Dreamplanes256_1922931113174917132-0-opt.webp",
+        "src": "images-opt/dreamplanes256-1922931113174917132-0-opt.webp",
         "width": 2894,
         "height": 4093
       },
       {
-        "src": "images-opt/Dreamplanes256_1922931113174917132-1-opt.webp",
+        "src": "images-opt/dreamplanes256-1922931113174917132-1-opt.webp",
         "width": 2894,
         "height": 4093
       }
@@ -2209,7 +2946,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/tchailune_1921440727466217479-0-opt.webp",
+        "src": "images-opt/tchailune-1921440727466217479-0-opt.webp",
         "width": 4096,
         "height": 2987
       }
@@ -2226,16 +2963,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/seapupu290495_1920852715703320626-0-opt.webp",
+        "src": "images-opt/seapupu290495-1920852715703320626-0-opt.webp",
         "width": 1195,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/TibsSketches/status/1921634037858201687",
+    "url": "https://x.com/tibssketches/status/1921634037858201687",
     "label": "\"Inspired by Maven in Blue\" by TibsSketches",
-    "author": "TibsSketches",
+    "author": "tibssketches",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2243,16 +2980,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/TibsSketches_1921634037858201687-0-opt.webp",
+        "src": "images-opt/tibssketches-1921634037858201687-0-opt.webp",
         "width": 957,
         "height": 867
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1921199677443035543",
+    "url": "https://x.com/keiseeaaa/status/1921199677443035543",
     "label": "\"Maven in Blue\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2260,7 +2997,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1921199677443035543-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1921199677443035543-0-opt.webp",
         "width": 2296,
         "height": 3000
       }
@@ -2277,16 +3014,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/criostatic_1921106947182322012-0-opt.webp",
+        "src": "images-opt/criostatic-1921106947182322012-0-opt.webp",
         "width": 1500,
         "height": 2250
       }
     ]
   },
   {
-    "url": "https://x.com/Elisbian_/status/1932104079939186910",
+    "url": "https://x.com/elisbian_/status/1932104079939186910",
     "label": "\"a finger in every pie\" by Elisbian",
-    "author": "Elisbian_",
+    "author": "elisbian_",
     "chapter": 2,
     "day": 6,
     "characters": [
@@ -2294,7 +3031,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Elisbian__1932104079939186910-0-opt.webp",
+        "src": "images-opt/elisbian_-1932104079939186910-0-opt.webp",
         "width": 2867,
         "height": 4096
       }
@@ -2312,16 +3049,34 @@
     ],
     "images": [
       {
-        "src": "images-opt/daiyaekaku_1923920501631578438-0-opt.webp",
+        "src": "images-opt/daiyaekaku-1923920501631578438-0-opt.webp",
         "width": 1500,
         "height": 3000
       }
     ]
   },
   {
-    "url": "https://x.com/GuyFloating/status/1921366078610923856",
+    "url": "https://x.com/planetdropper/status/1930074019526783341",
+    "label": "\"But she can feel it\" by planetdropper",
+    "author": "planetdropper",
+    "chapter": 2,
+    "day": 7,
+    "characters": [
+      "gigi",
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/planetdropper-1930074019526783341-0-opt.webp",
+        "width": 2150,
+        "height": 1212
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/guyfloating/status/1921366078610923856",
     "label": "\"Couple goals!!\" by Sora",
-    "author": "GuyFloating",
+    "author": "guyfloating",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2330,17 +3085,17 @@
     ],
     "images": [
       {
-        "src": "images-opt/GuyFloating_1921366078610923856-0-opt.webp",
+        "src": "images-opt/guyfloating-1921366078610923856-0-opt.webp",
         "width": 1280,
         "height": 1280
       },
       {
-        "src": "images-opt/GuyFloating_1921366078610923856-1-opt.webp",
+        "src": "images-opt/guyfloating-1921366078610923856-1-opt.webp",
         "width": 1280,
         "height": 1280
       },
       {
-        "src": "images-opt/GuyFloating_1921366078610923856-2-opt.webp",
+        "src": "images-opt/guyfloating-1921366078610923856-2-opt.webp",
         "width": 1280,
         "height": 1280
       }
@@ -2358,16 +3113,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/hiroavrs_1921224812703232063-0-opt.webp",
+        "src": "images-opt/hiroavrs-1921224812703232063-0-opt.webp",
         "width": 2048,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/SiFXi_/status/1922715233606377622",
+    "url": "https://x.com/sifxi_/status/1922715233606377622",
     "label": "\"🍽️\" by soap",
-    "author": "SiFXi_",
+    "author": "sifxi_",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2376,16 +3131,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/SiFXi__1922715233606377622-0-opt.webp",
+        "src": "images-opt/sifxi_-1922715233606377622-0-opt.webp",
         "width": 2896,
         "height": 4096
       }
     ]
   },
   {
-    "url": "https://x.com/NP_Mango/status/1921382634040533389",
+    "url": "https://x.com/np_mango/status/1921382634040533389",
     "label": "\"Have you tried murder, bro?\" by NP_Mango",
-    "author": "NP_Mango",
+    "author": "np_mango",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2393,9 +3148,14 @@
     ],
     "images": [
       {
-        "src": "images-opt/NP_Mango_1921382634040533389-0-opt.webp",
+        "src": "images-opt/np_mango-1921382634040533389-0-opt.webp",
         "width": 1167,
         "height": 780
+      },
+      {
+        "src": "images-opt/np_mango-1921382634040533389-1-opt.webp",
+        "width": 612,
+        "height": 408
       }
     ]
   },
@@ -2410,7 +3170,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/iryry_a_1921139006986678434-0-opt.webp",
+        "src": "images-opt/iryry_a-1921139006986678434-0-opt.webp",
         "width": 1000,
         "height": 1200
       }
@@ -2427,7 +3187,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/shafpng_1886083673935798700-0-opt.webp",
+        "src": "images-opt/shafpng-1886083673935798700-0-opt.webp",
         "width": 2894,
         "height": 4093
       }
@@ -2444,16 +3204,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/yuri_kyanon_1921582803809886659-0-opt.webp",
+        "src": "images-opt/yuri_kyanon-1921582803809886659-0-opt.webp",
         "width": 1390,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/Elisbian_/status/1920609369328079156",
+    "url": "https://x.com/elisbian_/status/1920609369328079156",
     "label": "\"My reflection is that of a forgotten stranger\" by Eli",
-    "author": "Elisbian_",
+    "author": "elisbian_",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2461,7 +3221,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/Elisbian__1920609369328079156-0-opt.webp",
+        "src": "images-opt/elisbian_-1920609369328079156-0-opt.webp",
         "width": 2867,
         "height": 4096
       }
@@ -2478,16 +3238,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/lancaster_1636_1924872752890077294-0-opt.webp",
+        "src": "images-opt/lancaster_1636-1924872752890077294-0-opt.webp",
         "width": 2560,
         "height": 1920
       }
     ]
   },
   {
-    "url": "https://x.com/M_Agho/status/1920808679089009020",
+    "url": "https://x.com/m_agho/status/1920808679089009020",
     "label": "rkgk by Magho",
-    "author": "M_Agho",
+    "author": "m_agho",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2495,16 +3255,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/M_Agho_1920808679089009020-0-opt.webp",
+        "src": "images-opt/m_agho-1920808679089009020-0-opt.webp",
         "width": 1324,
         "height": 550
       }
     ]
   },
   {
-    "url": "https://x.com/Hanaswing/status/1921134059658330192",
+    "url": "https://x.com/hanaswing/status/1921134059658330192",
     "label": "\"Nothing stays pure\" by ArizaZarigueya",
-    "author": "Hanaswing",
+    "author": "hanaswing",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2512,16 +3272,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Hanaswing_1921134059658330192-0-opt.webp",
+        "src": "images-opt/hanaswing-1921134059658330192-0-opt.webp",
         "width": 3295,
         "height": 1854
       }
     ]
   },
   {
-    "url": "https://x.com/fernrOreo/status/1923057970440536174",
+    "url": "https://x.com/fernroreo/status/1923057970440536174",
     "label": "Big Cat, Big Pains",
-    "author": "fernrOreo",
+    "author": "fernroreo",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2529,16 +3289,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/fernrOreo_1923057970440536174-0-opt.webp",
+        "src": "images-opt/fernroreo-1923057970440536174-0-opt.webp",
         "width": 1883,
         "height": 2048
       }
     ]
   },
   {
-    "url": "https://x.com/TomYumKung_Art/status/1922095825062117883",
+    "url": "https://x.com/tomyumkung_art/status/1922095825062117883",
     "label": "\"I can not quite recall it, but I can feel it\" by TomYumKung_Art",
-    "author": "TomYumKung_Art",
+    "author": "tomyumkung_art",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2546,21 +3306,21 @@
     ],
     "images": [
       {
-        "src": "images-opt/TomYumKung_Art_1922095825062117883-0-opt.webp",
+        "src": "images-opt/tomyumkung_art-1922095825062117883-0-opt.webp",
         "width": 729,
         "height": 1032
       },
       {
-        "src": "images-opt/TomYumKung_Art_1922095825062117883-1-opt.webp",
+        "src": "images-opt/tomyumkung_art-1922095825062117883-1-opt.webp",
         "width": 729,
         "height": 1032
       }
     ]
   },
   {
-    "url": "https://x.com/MassiveYog/status/1923695201052393918",
+    "url": "https://x.com/massiveyog/status/1923695201052393918",
     "label": "\"Maybe I'm not as kind as you thought\" by Yog",
-    "author": "MassiveYog",
+    "author": "massiveyog",
     "chapter": 2,
     "day": 7,
     "characters": [
@@ -2568,16 +3328,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/MassiveYog_1923695201052393918-0-opt.webp",
+        "src": "images-opt/massiveyog-1923695201052393918-0-opt.webp",
         "width": 2048,
         "height": 1152
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1921816580691726507",
+    "url": "https://x.com/keiseeaaa/status/1921816580691726507",
     "label": "\"...entrusted my fate...\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 2,
     "day": 8,
     "characters": [
@@ -2586,16 +3346,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1921816580691726507-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1921816580691726507-0-opt.webp",
         "width": 1988,
         "height": 2376
       }
     ]
   },
   {
-    "url": "https://x.com/Keiseeaaa/status/1920620111464992799",
+    "url": "https://x.com/keiseeaaa/status/1920620111464992799",
     "label": "\"What could've been\" by Keisea",
-    "author": "Keiseeaaa",
+    "author": "keiseeaaa",
     "chapter": 2,
     "day": 8,
     "characters": [
@@ -2604,16 +3364,16 @@
     ],
     "images": [
       {
-        "src": "images-opt/Keiseeaaa_1920620111464992799-0-opt.webp",
+        "src": "images-opt/keiseeaaa-1920620111464992799-0-opt.webp",
         "width": 2084,
         "height": 2200
       }
     ]
   },
   {
-    "url": "https://x.com/DiChwis12652/status/1922518834847625230",
+    "url": "https://x.com/dichwis12652/status/1922518834847625230",
     "label": "\"naow\" by Chaku",
-    "author": "DiChwis12652",
+    "author": "dichwis12652",
     "chapter": 2,
     "day": 8,
     "characters": [
@@ -2621,7 +3381,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/DiChwis12652_1922518834847625230-0-opt.webp",
+        "src": "images-opt/dichwis12652-1922518834847625230-0-opt.webp",
         "width": 768,
         "height": 1024
       }
@@ -2638,31 +3398,31 @@
     ],
     "images": [
       {
-        "src": "images-opt/haaro_69_1922094444339462652-0-opt.webp",
+        "src": "images-opt/haaro_69-1922094444339462652-0-opt.webp",
         "width": 1200,
         "height": 1200
       },
       {
-        "src": "images-opt/haaro_69_1922094444339462652-1-opt.webp",
+        "src": "images-opt/haaro_69-1922094444339462652-1-opt.webp",
         "width": 1200,
         "height": 1200
       },
       {
-        "src": "images-opt/haaro_69_1922094444339462652-2-opt.webp",
+        "src": "images-opt/haaro_69-1922094444339462652-2-opt.webp",
         "width": 1200,
         "height": 1200
       },
       {
-        "src": "images-opt/haaro_69_1922094444339462652-3-opt.webp",
+        "src": "images-opt/haaro_69-1922094444339462652-3-opt.webp",
         "width": 1200,
         "height": 1200
       }
     ]
   },
   {
-    "url": "https://x.com/BRASILEIROO0/status/1923024077683347585",
+    "url": "https://x.com/brasileiroo0/status/1923024077683347585",
     "label": "Untitled by BRASILEIRoo0",
-    "author": "BRASILEIROO0",
+    "author": "brasileiroo0",
     "chapter": 2,
     "day": 8,
     "characters": [
@@ -2670,7 +3430,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/BRASILEIROO0_1923024077683347585-0-opt.webp",
+        "src": "images-opt/brasileiroo0-1923024077683347585-0-opt.webp",
         "width": 2480,
         "height": 3508
       }
@@ -2687,7 +3447,7 @@
     ],
     "images": [
       {
-        "src": "images-opt/mofumashu_1921461081714688036-0-opt.webp",
+        "src": "images-opt/mofumashu-1921461081714688036-0-opt.webp",
         "width": 1876,
         "height": 4096
       }

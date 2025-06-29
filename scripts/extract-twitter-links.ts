@@ -1,4 +1,3 @@
-// scripts/extract-twitter-links.ts
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -29,7 +28,7 @@ async function main() {
     // 1) Base folder to scan (recap-data/)
     const base = path.resolve(__dirname, "..", "recap-data");
     // These are videos/non-fanart, so can't be downloaded
-    const blacklistUrls = [
+    let blacklistUrls = [
         "https://x.com/shutowl/status/1830517595768000529",
         "https://x.com/Chalek0/status/1832964350597804334",
         "https://x.com/WaywardAdlo/status/1832901859667005729",
@@ -59,8 +58,10 @@ async function main() {
         "https://x.com/ourokronii/status/1832266311625306551",
         "https://x.com/Rando_ZLink/status/1920072518939132072",
         "https://x.com/Chalek0/status/1923051887990800540/video/1",
-        ,
+        "https://x.com/lestkrr/status/1922074979434184946",
     ];
+    blacklistUrls = blacklistUrls.map((url) => url.toLowerCase());
+
     let mdFiles: string[];
     try {
         mdFiles = await walkDir(base, base);
@@ -94,8 +95,9 @@ async function main() {
         const text = await fs.readFile(file, "utf-8");
         let m: RegExpExecArray | null;
         while ((m = LINK_RE.exec(text))) {
-            const [, label, host, author, statusPath] = m;
-            const url = `${host}/${author}${statusPath}`;
+            let [, label, host, author, statusPath] = m;
+            const url = `${host}/${author}${statusPath}`.toLowerCase();
+            author = author.toLowerCase();
             if (blacklistUrls.includes(url)) {
                 console.log(`Skipping blacklisted URL: ${url}`);
                 continue;

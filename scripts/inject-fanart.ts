@@ -1,4 +1,3 @@
-// scripts/extend-twitter-links.ts
 import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
@@ -8,11 +7,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const LINKS_JSON = path.resolve(__dirname, "../src/data/twitter-links.json");
 const IMAGE_DIR = path.resolve(__dirname, "../shared-resources/images/fanart");
-const OUT_JSON = path.resolve(
-    __dirname,
-    "../src/data/twitter-links-extended.json",
-);
-const IMAGE_PREFIX = "images-opt/"; // adjust if your web‑served path differs
+const OUT_JSON = path.resolve(__dirname, "../apps/website/data/fanart.json");
+const IMAGE_PREFIX = "images-opt/";
 
 interface LinkEntry {
     url: string;
@@ -43,7 +39,7 @@ async function main() {
     for (const e of baseEntries) {
         const postIdMatch = e.url.match(/status\/(\d+)/);
         const postId = postIdMatch ? postIdMatch[1] : "";
-        const prefix = `${e.author}_${postId}`;
+        const prefix = `${e.author}-${postId}`;
 
         // Filter images belonging to this entry
         const matches = allImages.filter(

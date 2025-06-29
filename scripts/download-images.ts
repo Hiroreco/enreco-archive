@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const LINKS_JSON = path.resolve(__dirname, "../src/data/twitter-links.json");
 const OUT_DIR = path.resolve(__dirname, "../shared-resources/images/fanart");
-const EXTENSIONS = ["jpg", "png", "gif"];
+const EXTENSIONS = ["jpg", "png", "webp", "gif"];
 
 interface LinkEntry {
     url: string;
@@ -50,7 +50,14 @@ async function run() {
         const already = EXTENSIONS.some((ext) => {
             const noIdx = path.join(OUT_DIR, `${baseName}.${ext}`);
             const idx0 = path.join(OUT_DIR, `${baseName}-0.${ext}`);
-            return existsSync(noIdx) || existsSync(idx0);
+            const noIdxOpt = path.join(OUT_DIR, `${baseName}-opt.${ext}`);
+            const idx0Opt = path.join(OUT_DIR, `${baseName}-0-opt.${ext}`);
+            return (
+                existsSync(noIdx) ||
+                existsSync(idx0) ||
+                existsSync(noIdxOpt) ||
+                existsSync(idx0Opt)
+            );
         });
         if (already) {
             console.log(`↻ Skipping ${baseName} (already downloaded)`);
@@ -107,7 +114,7 @@ async function run() {
                 );
                 const buffer = await downloadBuffer(rawUrl);
                 await fs.writeFile(outPath, buffer);
-                console.log(`  ✅ Saved ${fileName}`);
+                console.log(`  ✅ Saved ${fileName.toLowerCase()}`);
             }
         } catch (err: any) {
             console.warn(`  ✖ Failed ${entry.url}: ${err.message}`);
