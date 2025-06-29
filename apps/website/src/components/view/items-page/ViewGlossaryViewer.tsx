@@ -70,15 +70,12 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
 
                             <p className="flex flex-col items-center text-sm">
                                 <span className="font-semibold text-center">
-                                    Appeared In
+                                    First Appeared
                                 </span>
                                 <span className="text-muted-foreground text-center">
                                     {item.chapters.includes(-1)
-                                        ? "All Chapters"
-                                        : "Chapter " +
-                                          item.chapters
-                                              .map((chapter) => chapter + 1)
-                                              .join(", ")}
+                                        ? "Chapter 1"
+                                        : `Chapter ${item.chapters[0] + 1}`}
                                 </span>
                             </p>
 
