@@ -29,6 +29,11 @@ interface ViewLightboxProps {
     galleryImages?: GalleryImage[];
     galleryIndex?: number;
     authorSrc?: string;
+    onNextEnd?: () => void;
+    onPrevEnd?: () => void;
+    isExternallyControlled?: boolean;
+    externalIsOpen?: boolean;
+    onExternalClose?: () => void;
 }
 
 const ViewLightbox = ({
@@ -42,8 +47,13 @@ const ViewLightbox = ({
     galleryImages,
     galleryIndex = 0,
     authorSrc,
+    onNextEnd,
+    onPrevEnd,
+    isExternallyControlled = false,
+    externalIsOpen = false,
+    onExternalClose,
 }: ViewLightboxProps) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(galleryIndex);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const carouselRef = useRef<HTMLDivElement>(null);
@@ -51,26 +61,47 @@ const ViewLightbox = ({
 
     const images = galleryImages || [{ src, alt }];
 
+    // Use external control if provided, otherwise use internal
+    const isOpen = isExternallyControlled ? externalIsOpen : internalIsOpen;
+
     const handleOpenChange = useCallback(
         (open: boolean) => {
-            setIsOpen(open);
-            if (open) {
-                // Reset to initial index when opening
-                setCurrentImageIndex(galleryIndex);
+            if (isExternallyControlled) {
+                if (!open && onExternalClose) {
+                    onExternalClose();
+                }
+            } else {
+                setInternalIsOpen(open);
+                if (open) {
+                    // Reset to initial index when opening
+                    setCurrentImageIndex(galleryIndex);
+                }
             }
         },
-        [galleryIndex],
+        [isExternallyControlled, onExternalClose, galleryIndex],
     );
 
     const handleNext = useCallback(() => {
-        setCurrentImageIndex((prev) => (prev + 1) % images.length);
-    }, [images.length]);
+        if (currentImageIndex < images.length - 1) {
+            setCurrentImageIndex((prev) => prev + 1);
+        } else if (onNextEnd) {
+            // If at the end of gallery and callback exists, call it
+            onNextEnd();
+        } else {
+            setCurrentImageIndex(0);
+        }
+    }, [images.length, currentImageIndex, onNextEnd]);
 
     const handlePrev = useCallback(() => {
-        setCurrentImageIndex(
-            (prev) => (prev - 1 + images.length) % images.length,
-        );
-    }, [images.length]);
+        if (currentImageIndex > 0) {
+            setCurrentImageIndex((prev) => prev - 1);
+        } else if (onPrevEnd) {
+            // If at the beginning of gallery and callback exists, call it
+            onPrevEnd();
+        } else {
+            setCurrentImageIndex(images.length - 1);
+        }
+    }, [currentImageIndex, onPrevEnd, images.length]);
 
     const handleThumbnailClick = (index: number) => {
         setCurrentImageIndex(index);
@@ -118,31 +149,63 @@ const ViewLightbox = ({
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         };
-    }, [isOpen, handlePrev, handleNext, handleOpenChange, images.length]);
+    }, [isOpen, handlePrev, handleNext, handleOpenChange]);
 
     // Initialize thumbnail refs array
     useEffect(() => {
         thumbnailRefs.current = thumbnailRefs.current.slice(0, images.length);
     }, [images.length]);
 
-    const currentImage = images[currentImageIndex];
+    // Handle external control opening
+    useEffect(() => {
+        if (containerClassName === "hidden" && !isExternallyControlled) {
+            // If container is hidden, this means it's being controlled externally (legacy support)
+            setInternalIsOpen(true);
+        }
+    }, [containerClassName, isExternallyControlled]);
+
+    // Update current image index when gallery changes (for entry switching)
+    useEffect(() => {
+        if (galleryImages && galleryImages.length > 0) {
+            setCurrentImageIndex(0);
+        }
+    }, [galleryImages]);
+
+    // Ensure currentImageIndex is always valid
+    useEffect(() => {
+        if (currentImageIndex >= images.length) {
+            setCurrentImageIndex(0);
+        }
+    }, [currentImageIndex, images.length]);
+
+    // Update current image index when galleryIndex changes
+    useEffect(() => {
+        if (!isExternallyControlled) {
+            setCurrentImageIndex(galleryIndex);
+        }
+    }, [galleryIndex, isExternallyControlled]);
+
+    // Safe currentImage access with fallback
+    const currentImage = images[currentImageIndex] || images[0] || { src, alt };
 
     return (
         <div className={containerClassName}>
-            <Image
-                src={src}
-                alt={alt}
-                width={width}
-                height={height}
-                className={cn(
-                    "cursor-pointer transition-opacity hover:opacity-90",
-                    className,
-                )}
-                placeholder={getBlurDataURL(src) ? "blur" : "empty"}
-                blurDataURL={getBlurDataURL(src)}
-                priority={priority}
-                onClick={() => handleOpenChange(true)}
-            />
+            {!isExternallyControlled && (
+                <Image
+                    src={src}
+                    alt={alt}
+                    width={width}
+                    height={height}
+                    className={cn(
+                        "cursor-pointer transition-opacity hover:opacity-90",
+                        className,
+                    )}
+                    placeholder={getBlurDataURL(src) ? "blur" : "empty"}
+                    blurDataURL={getBlurDataURL(src)}
+                    priority={priority}
+                    onClick={() => handleOpenChange(true)}
+                />
+            )}
 
             <Dialog open={isOpen} onOpenChange={handleOpenChange}>
                 <DialogContent
@@ -182,7 +245,7 @@ const ViewLightbox = ({
 
                     <button
                         onClick={() => handleOpenChange(false)}
-                        className="absolute -top-7 size-6 right-0 text-white hover:text-gray-300 transition-colors"
+                        className="absolute -top-7 size-6 right-0 text-white hover:text-gray-300 transition-colors z-10"
                         aria-label="Close lightbox"
                     >
                         <X className="size-full" />
@@ -241,7 +304,6 @@ const ViewLightbox = ({
                                     </a>
                                 )}
                             </span>
-
                             <Separator className="md:w-[200px] w-[30px] opacity-50" />
                         </div>
                         <div
