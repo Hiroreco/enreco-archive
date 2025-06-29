@@ -56,6 +56,10 @@ async function main() {
         "https://x.com/hololive_En/status/1830787800968638636",
         "https://x.com/hololive_En/status/1831150187605049574",
         "https://x.com/hololive_En/status/1831512579405181432",
+        "https://x.com/ourokronii/status/1832266311625306551",
+        "https://x.com/Rando_ZLink/status/1920072518939132072",
+        "https://x.com/Chalek0/status/1923051887990800540/video/1",
+        ,
     ];
     let mdFiles: string[];
     try {
@@ -71,7 +75,7 @@ async function main() {
         author: string;
         chapter: string;
         day: string;
-        character: string;
+        characters: string[];
     }> = [];
 
     // matches [label](https://twitter.com/USER/status/123...) or x.com
@@ -85,6 +89,7 @@ async function main() {
         const dayPart = parts.find((p) => /^day\d+$/i.test(p)) || "";
         const filename = path.basename(file, ".md");
         const character = filename.replace(/-c\d+d\d+$/, "");
+        const characters = character.split("-").map((c) => c.trim());
 
         const text = await fs.readFile(file, "utf-8");
         let m: RegExpExecArray | null;
@@ -106,7 +111,7 @@ async function main() {
                 author,
                 chapter: chapterPart.replace(/^chapter/, ""),
                 day: dayPart.replace(/^day/, ""),
-                character,
+                characters,
             });
         }
     }

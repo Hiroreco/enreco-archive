@@ -8,8 +8,8 @@
         "build": "turbo run build:website",
         "prebuild:all": "pnpm run copy-resources",
         "build:all": "turbo run build",
-        "copy-resources": "tsx scripts/optimize-images.ts && tsx scripts/copy-shared-resources.ts",
-        "predev": "pnpm copy-resources",
+        "copy-resources": "tsx scripts/generate-thumbnails.ts && tsx scripts/copy-shared-resources.ts",
+        "predev": "tsx scripts/optimizt-images && pnpm copy-resources",
         "dev": "turbo run dev:website",
         "preeditor": "pnpm run copy-resources",
         "editor": "turbo run editor",
@@ -28,7 +28,8 @@
         "inject-songs": "tsx scripts/inject-songs.ts",
         "normalize-audio": "tsx scripts/normalize-audio.ts",
         "extract-twitter-links": "tsx scripts/extract-twitter-links.ts",
-        "download-images": "tsx scripts/download-images.ts"
+        "download-images": "tsx scripts/download-images.ts",
+        "extend-twitter-links": "tsx scripts/extend-twitter-links.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",

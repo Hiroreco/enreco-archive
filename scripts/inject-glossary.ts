@@ -122,12 +122,12 @@ async function processSubfolder(fileArg: string) {
             // build galleryImages
             const galleryImages: GalleryImage[] = imageTitles.map((t, i) => ({
                 title: t,
-                source: `/images-opt/${id}-${i}.webp`,
+                source: `/images-opt/${id}-${i}-opt.webp`,
             }));
 
-            const thumbnailSrc = `/images-opt/${id}-thumb.webp`;
+            const thumbnailSrc = `/images-opt/${id}-opt-thumb.webp`;
             const modelSrc = model ? `/models/${id}.glb` : undefined;
-            const imageSrc = model ? undefined : `/images-opt/${id}.webp`;
+            const imageSrc = model ? undefined : `/images-opt/${id}-opt.webp`;
 
             items.push({
                 id,

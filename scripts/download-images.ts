@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const LINKS_JSON = path.resolve(__dirname, "../src/data/twitter-links.json");
-const OUT_DIR = path.resolve(__dirname, "../twitter-images");
+const OUT_DIR = path.resolve(__dirname, "../shared-resources/images/fanart");
 const EXTENSIONS = ["jpg", "png", "gif"];
 
 interface LinkEntry {
@@ -44,13 +44,13 @@ async function run() {
         // derive base name from author + postId
         const postIdMatch = entry.url.match(/status\/(\d+)/);
         const postId = postIdMatch ? postIdMatch[1] : "unknown";
-        const baseName = `${entry.author}_${postId}`;
+        const baseName = `${entry.author}-${postId}`;
 
         // PRE-CHECK: skip if already downloaded
         const already = EXTENSIONS.some((ext) => {
             const noIdx = path.join(OUT_DIR, `${baseName}.${ext}`);
-            const idx1 = path.join(OUT_DIR, `${baseName}_1.${ext}`);
-            return existsSync(noIdx) || existsSync(idx1);
+            const idx0 = path.join(OUT_DIR, `${baseName}-0.${ext}`);
+            return existsSync(noIdx) || existsSync(idx0);
         });
         if (already) {
             console.log(`↻ Skipping ${baseName} (already downloaded)`);
@@ -81,7 +81,7 @@ async function run() {
 
             for (let i = 0; i < srcs.length; i++) {
                 let rawUrl = srcs[i];
-                const idx = i + 1;
+                const idx = i;
 
                 // force high-res
                 if (rawUrl.includes("name=")) {
@@ -93,7 +93,7 @@ async function run() {
                 const extMatch = rawUrl.match(/\.(jpg|png|gif)(?:\?|$)/i);
                 const ext = extMatch ? extMatch[1] : "jpg";
 
-                const fileName = `${baseName}_${idx}.${ext}`;
+                const fileName = `${baseName}-${idx}.${ext}`;
                 const outPath = path.join(OUT_DIR, fileName);
 
                 // If somehow we already have this specific image, skip it
@@ -103,7 +103,7 @@ async function run() {
                 }
 
                 console.log(
-                    `  ↳ Downloading [${idx}/${srcs.length}]: ${rawUrl}`,
+                    `  ↳ Downloading [${idx + 1}/${srcs.length}]: ${rawUrl}`,
                 );
                 const buffer = await downloadBuffer(rawUrl);
                 await fs.writeFile(outPath, buffer);

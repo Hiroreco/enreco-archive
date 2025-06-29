@@ -72,7 +72,7 @@ async function main() {
                 info: "",
                 originalUrl: "",
                 sourceUrl: `/audio/songs/${category}/${file}`,
-                coverUrl: `/images-opt/song-${name}.webp`,
+                coverUrl: `/images-opt/song-${name}-opt.webp`,
                 duration: durationStr,
             });
         }
