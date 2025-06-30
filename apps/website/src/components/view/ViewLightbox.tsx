@@ -210,7 +210,7 @@ const ViewLightbox = ({
                             src={currentImage.src}
                             alt=""
                             fill
-                            className="object-cover blur-xl opacity-20"
+                            className="object-cover blur-xl opacity-30"
                             placeholder={
                                 getBlurDataURL(currentImage.src)
                                     ? "blur"
