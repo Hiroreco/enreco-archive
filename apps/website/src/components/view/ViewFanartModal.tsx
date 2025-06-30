@@ -68,13 +68,13 @@ const CollapseButton = ({
                     asChild
                     onClick={onClick}
                     className={cn(
-                        "size-8 bg-background border border-border rounded-full flex items-center justify-center hover:bg-muted transition-colors z-10 cursor-pointer p-1",
+                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 opacity-70 transition-colors z-10 cursor-pointer p-1",
                         className,
                     )}
                 >
                     <ChevronUp
                         className={cn(
-                            "transition-transform duration-200",
+                            "transition-transform duration-200 size-8",
                             isCollapsed ? "rotate-180" : "rotate-0",
                         )}
                     />
@@ -232,7 +232,7 @@ const ViewFanartModal = ({
         <>
             <Dialog open={open} onOpenChange={onOpenChange}>
                 <DialogContent
-                    className="max-w-7xl h-[90vh] flex flex-col gap-2 md:gap-4"
+                    className="max-w-7xl md:h-[90vh] h-[80vh] flex flex-col gap-2 md:gap-4"
                     showXButtonForce={true}
                     showXButton={true}
                 >

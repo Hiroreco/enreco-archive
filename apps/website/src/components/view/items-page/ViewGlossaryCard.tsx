@@ -167,7 +167,7 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
                     </Select>
                 </div>
 
-                <Separator className="my-2" />
+                <Separator className="my-2 bg-foreground/60" />
             </CardHeader>
 
             <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto">

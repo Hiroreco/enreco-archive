@@ -5,6 +5,8 @@ import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
+import { getBlurDataURL } from "@/lib/utils";
 
 interface ViewItemViewerProps {
     entry: LookupEntry;
@@ -46,6 +48,22 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                 id="glossary-viewer-container"
                 className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 md:h-full md:p-0 px-2"
             >
+                {/* Fancy blur bg image thingy */}
+                <div className="absolute inset-0 -z-10">
+                    <Image
+                        src={item.thumbnailSrc}
+                        alt=""
+                        fill
+                        className="object-cover blur-xl dark:opacity-20 opacity-30"
+                        placeholder={
+                            getBlurDataURL(item.thumbnailSrc) ? "blur" : "empty"
+                        }
+                        blurDataURL={getBlurDataURL(item.thumbnailSrc)}
+                        priority={false}
+                    />
+                    {/* Dark overlay to ensure content readability */}
+                    <div className="absolute inset-0 dark:bg-black/30 bg-white/50" />
+                </div>
                 <div className="flex flex-col items-center justify-between md:h-full">
                     <div className="flex flex-col items-center gap-2 w-[250px]">
                         <p className="font-bold text-center">General Info</p>
