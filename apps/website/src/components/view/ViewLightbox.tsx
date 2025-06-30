@@ -29,6 +29,12 @@ interface ViewLightboxProps {
     galleryImages?: GalleryImage[];
     galleryIndex?: number;
     authorSrc?: string;
+    onNextEnd?: () => void;
+    onPrevEnd?: () => void;
+    isExternallyControlled?: boolean;
+    externalIsOpen?: boolean;
+    alwaysShowNavigationArrows?: boolean;
+    onExternalClose?: () => void;
 }
 
 const ViewLightbox = ({
@@ -42,8 +48,14 @@ const ViewLightbox = ({
     galleryImages,
     galleryIndex = 0,
     authorSrc,
+    onNextEnd,
+    onPrevEnd,
+    alwaysShowNavigationArrows = false,
+    isExternallyControlled = false,
+    externalIsOpen = false,
+    onExternalClose,
 }: ViewLightboxProps) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(galleryIndex);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const carouselRef = useRef<HTMLDivElement>(null);
@@ -51,26 +63,47 @@ const ViewLightbox = ({
 
     const images = galleryImages || [{ src, alt }];
 
+    // Use external control if provided, otherwise use internal
+    const isOpen = isExternallyControlled ? externalIsOpen : internalIsOpen;
+
     const handleOpenChange = useCallback(
         (open: boolean) => {
-            setIsOpen(open);
-            if (open) {
-                // Reset to initial index when opening
-                setCurrentImageIndex(galleryIndex);
+            if (isExternallyControlled) {
+                if (!open && onExternalClose) {
+                    onExternalClose();
+                }
+            } else {
+                setInternalIsOpen(open);
+                if (open) {
+                    // Reset to initial index when opening
+                    setCurrentImageIndex(galleryIndex);
+                }
             }
         },
-        [galleryIndex],
+        [isExternallyControlled, onExternalClose, galleryIndex],
     );
 
     const handleNext = useCallback(() => {
-        setCurrentImageIndex((prev) => (prev + 1) % images.length);
-    }, [images.length]);
+        if (currentImageIndex < images.length - 1) {
+            setCurrentImageIndex((prev) => prev + 1);
+        } else if (onNextEnd) {
+            // If at the end of gallery and callback exists, call it
+            onNextEnd();
+        } else {
+            setCurrentImageIndex(0);
+        }
+    }, [images.length, currentImageIndex, onNextEnd]);
 
     const handlePrev = useCallback(() => {
-        setCurrentImageIndex(
-            (prev) => (prev - 1 + images.length) % images.length,
-        );
-    }, [images.length]);
+        if (currentImageIndex > 0) {
+            setCurrentImageIndex((prev) => prev - 1);
+        } else if (onPrevEnd) {
+            // If at the beginning of gallery and callback exists, call it
+            onPrevEnd();
+        } else {
+            setCurrentImageIndex(images.length - 1);
+        }
+    }, [currentImageIndex, onPrevEnd, images.length]);
 
     const handleThumbnailClick = (index: number) => {
         setCurrentImageIndex(index);
@@ -118,36 +151,46 @@ const ViewLightbox = ({
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         };
-    }, [isOpen, handlePrev, handleNext, handleOpenChange, images.length]);
+    }, [isOpen, handlePrev, handleNext, handleOpenChange]);
 
     // Initialize thumbnail refs array
     useEffect(() => {
         thumbnailRefs.current = thumbnailRefs.current.slice(0, images.length);
     }, [images.length]);
 
-    const currentImage = images[currentImageIndex];
+    // Update current image index when gallery changes (for entry switching)
+    useEffect(() => {
+        if (galleryImages && galleryImages.length > 0) {
+            setCurrentImageIndex(0);
+        }
+    }, [galleryImages]);
+
+    // Safe currentImage access with fallback
+    const currentImage = images[currentImageIndex] || images[0] || { src, alt };
 
     return (
         <div className={containerClassName}>
-            <Image
-                src={src}
-                alt={alt}
-                width={width}
-                height={height}
-                className={cn(
-                    "cursor-pointer transition-opacity hover:opacity-90",
-                    className,
-                )}
-                placeholder={getBlurDataURL(src) ? "blur" : "empty"}
-                blurDataURL={getBlurDataURL(src)}
-                priority={priority}
-                onClick={() => handleOpenChange(true)}
-            />
+            {!isExternallyControlled && (
+                <Image
+                    src={src}
+                    alt={alt}
+                    width={width}
+                    height={height}
+                    className={cn(
+                        "cursor-pointer transition-opacity hover:opacity-90",
+                        className,
+                    )}
+                    placeholder={getBlurDataURL(src) ? "blur" : "empty"}
+                    blurDataURL={getBlurDataURL(src)}
+                    priority={priority}
+                    onClick={() => handleOpenChange(true)}
+                />
+            )}
 
             <Dialog open={isOpen} onOpenChange={handleOpenChange}>
                 <DialogContent
                     backdropFilter={backdropFilter}
-                    className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center"
+                    className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center h-[80dvh]  md:h-[90vh]"
                     showXButton={false}
                     style={{
                         backgroundImage: "none",
@@ -167,7 +210,7 @@ const ViewLightbox = ({
                             src={currentImage.src}
                             alt=""
                             fill
-                            className="object-cover blur-xl opacity-20"
+                            className="object-cover blur-xl opacity-30"
                             placeholder={
                                 getBlurDataURL(currentImage.src)
                                     ? "blur"
@@ -182,14 +225,14 @@ const ViewLightbox = ({
 
                     <button
                         onClick={() => handleOpenChange(false)}
-                        className="absolute -top-7 size-6 right-0 text-white hover:text-gray-300 transition-colors"
+                        className="absolute -top-7 size-6 right-0 text-white hover:text-gray-300 transition-colors z-10"
                         aria-label="Close lightbox"
                     >
                         <X className="size-full" />
                     </button>
 
-                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] h-[60vh] flex items-center justify-center">
-                        {images.length > 1 && (
+                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] flex items-center justify-center flex-1 min-h-0">
+                        {(images.length > 1 || alwaysShowNavigationArrows) && (
                             <>
                                 <button
                                     className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full"
@@ -211,7 +254,7 @@ const ViewLightbox = ({
                             <Image
                                 src={currentImage.src}
                                 alt={currentImage.alt}
-                                className="object-contain max-h-[60vh] max-w-full"
+                                className="object-contain max-w-full max-h-full"
                                 placeholder={
                                     getBlurDataURL(currentImage.src)
                                         ? "blur"
@@ -228,7 +271,7 @@ const ViewLightbox = ({
 
                     <div className="flex flex-col gap-2 max-w-full">
                         <div className="flex justify-center items-center gap-1">
-                            <Separator className="md:w-[200px] w-[30px] opacity-50" />
+                            <Separator className="md:w-[200px] w-[30px] bg-foreground/80" />
                             <span className="text-white flex items-center gap-1 text-center font-semibold text-sm md:text-lg">
                                 {currentImage.alt}
                                 {authorSrc && (
@@ -241,8 +284,7 @@ const ViewLightbox = ({
                                     </a>
                                 )}
                             </span>
-
-                            <Separator className="md:w-[200px] w-[30px] opacity-50" />
+                            <Separator className="md:w-[200px] w-[30px] bg-foreground/80" />
                         </div>
                         <div
                             ref={carouselRef}

@@ -10,8 +10,8 @@
 
 ## Details
 
-Once a mischievous orange gremlin chasing justice in their own chaotic way, these gauntlets were the tools Gonathon used to hunt down criminals and "fist" them into submission—before he eventually _de-gremlinfied_ and rose to become the humble knight we all know and love.
-
 When activated, the gauntlets launch Gonathon forward, allowing him to perform AoE ground pounds followed by explosions, dealing serious damage to anything unlucky enough to be nearby. Much like Raora’s launch ability, it also lets Gonathon reach places most others can’t… which, yes, he shamelessly exploited to grab [dungeon treasure](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=6730).
 
 [Fist of Fury](#embed:https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=8095)
+
+Ever since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)

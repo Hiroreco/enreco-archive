@@ -10,8 +10,10 @@
 
 ## Details
 
-Its vicious design is a stark contrast to Fuwawa’s fluffy and gentle demeanor, but for someone known as the Demon Guard Dog, it’s a fitting match.
+The claws’ vicious design stands in stark contrast to Fuwawa’s fluffy, gentle demeanorg. When activated, they unleash a flurry of devastating X-shaped slashes, tearing her targets apart with frightening efficiency. It’s an ability meant to instill fear in any foe.
 
-When activated, the claws unleash devastating X-shaped slashes in a flurry, shredding her target into bits. It’s an ability meant to strike fear into any foe. That said, ever the kind-hearted pup, Fuwawa has only used it against monsters and true threats—unlike a certain pink someone who might be a bit less discerning.
+Of course, true to her kind-hearted nature, Fuwawa has only ever turned this power on monsters and genuine threats—unlike a certain pink someone who might not be quite as selective.
 
 [Giggles as she minces her enemies](#embed:https://www.youtube.com/live/3s_pVYBEax0?feature=shared&t=5667)
+
+Starting from Chapter 2, the claws also gained an additional [ranged attack.](#entry:revelations-entry)

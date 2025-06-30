@@ -15,3 +15,5 @@ Before she resigned herself to the humble life of a peasant—or hermit dependin
 Her weapon, however, tells a different story. Unlike the other heroes' weapons, which all have set abilities, _Chaos Stampede_ leaves things to chance. Upon activation, Bae rolls the die, and depending on the number it lands on, the die explodes into a swarm of even more explosive mice, dealing damage in a wide area. The higher the number, the more chaos—and the more explosions—ensue.
 
 [Play Dice!](#embed:https://www.youtube.com/live/y8bcLA6BQsw?si=ZfXcV-8FZMyknj4r&t=7251)
+
+Ever since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)

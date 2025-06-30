@@ -15,3 +15,5 @@ When used, Burning Phoenix launches a fiery attack towards her enemies, then sho
 Though Karia, known as Shakira to most, awoke without her memories, it does not impede her ability to fight the Stains. Rather, a burning righteousness remains steadfast in this phoenix's heart as she raises her sword and shield with an oath as a knight to defend the beautiful Lesbi, oh, ahem, the shining Kingdom of Libestal! (Lesbians included, of course).
 
 [What son? There is no son](#embed:https://youtu.be/3cr3DLpyB60?t=13486)
+
+Ever since Chapter 2, the blade gained an additional [ranged attack.](#entry:revelations-entry)

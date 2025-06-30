@@ -15,3 +15,5 @@ When activated, the quill summons bookmarks that hover around Shiori and fire be
 The quill serves as a subtle reminder of her role as an _Archiver_—a life she no longer remembers. Perhaps it was this lack of recollection that led her to use it for mischief rather than battle, often opting to tickle people with it instead. Unfortunately, she tended to forget that doing so could accidentally trigger its ability, much to the misfortune of any unsuspecting bystanders.
 
 [Explosive Tickling](#embed:https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=7821)
+
+Ever since Chapter 2, the quill gained an additional [ranged attack.](#entry:revelations-entry)

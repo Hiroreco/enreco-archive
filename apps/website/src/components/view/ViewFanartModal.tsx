@@ -1,4 +1,6 @@
 import fanartData from "#/fanart.json";
+import { getCharacterIdNameMap } from "@/lib/misc";
+import { getBlurDataURL } from "@/lib/utils";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -14,11 +16,18 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import { ExternalLink, Image } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
-import ViewLightbox from "./ViewLightbox";
-import { getCharacterIdNameMap } from "@/lib/misc";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
+import { ChevronUp, ExternalLink, Image as ImageIcon } from "lucide-react";
+import Image from "next/image";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import ViewLightbox from "./ViewLightbox";
 
 interface FanartEntry {
     url: string;
@@ -41,6 +50,43 @@ interface ViewFanartModalProps {
     day: number;
 }
 
+interface CollapseButtonProps {
+    isCollapsed: boolean;
+    onClick: () => void;
+    className?: string;
+}
+
+const CollapseButton = ({
+    isCollapsed,
+    onClick,
+    className,
+}: CollapseButtonProps) => {
+    return (
+        <TooltipProvider>
+            <Tooltip>
+                <TooltipTrigger
+                    asChild
+                    onClick={onClick}
+                    className={cn(
+                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 opacity-70 transition-colors z-10 cursor-pointer p-1",
+                        className,
+                    )}
+                >
+                    <ChevronUp
+                        className={cn(
+                            "transition-transform duration-200 size-8",
+                            isCollapsed ? "rotate-180" : "rotate-0",
+                        )}
+                    />
+                </TooltipTrigger>
+                <TooltipContent side="right">
+                    {isCollapsed ? "Expand header" : "Collapse header"}
+                </TooltipContent>
+            </Tooltip>
+        </TooltipProvider>
+    );
+};
+
 const ViewFanartModal = ({
     open,
     onOpenChange,
@@ -55,11 +101,24 @@ const ViewFanartModal = ({
         day.toString() || "all",
     );
     const contentContainerRef = useRef<HTMLDivElement>(null);
+    const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
-    const fanart = fanartData as FanartEntry[];
-    const nameMap = getCharacterIdNameMap(chapter);
+    const [currentLightboxEntryIndex, setCurrentLightboxEntryIndex] = useState<
+        number | null
+    >(null);
 
-    // Get unique values for filters
+    // Header collapse state - persisted in localStorage
+    const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(() => {
+        if (typeof window !== "undefined") {
+            const saved = localStorage.getItem("fanart-modal-header-collapsed");
+            return saved === "true";
+        }
+        return false;
+    });
+
+    const fanart = useMemo(() => fanartData as FanartEntry[], []);
+    const nameMap = useMemo(() => getCharacterIdNameMap(chapter), [chapter]);
+
     const characters = useMemo(() => {
         const allCharacters = new Set<string>();
         fanart.forEach((entry) => {
@@ -96,12 +155,54 @@ const ViewFanartModal = ({
         });
     }, [selectedCharacter, selectedChapter, selectedDay, fanart]);
 
-    const resetFilters = () => {
+    // Save collapse state to localStorage
+    useEffect(() => {
+        localStorage.setItem(
+            "fanart-modal-header-collapsed",
+            isHeaderCollapsed.toString(),
+        );
+    }, [isHeaderCollapsed]);
+
+    const handleNextEntry = useCallback(() => {
+        if (currentLightboxEntryIndex !== null) {
+            const nextIndex =
+                currentLightboxEntryIndex < filteredFanart.length - 1
+                    ? currentLightboxEntryIndex + 1
+                    : 0;
+            setCurrentLightboxEntryIndex(nextIndex);
+        }
+    }, [currentLightboxEntryIndex, filteredFanart.length]);
+
+    const handlePrevEntry = useCallback(() => {
+        if (currentLightboxEntryIndex !== null) {
+            const prevIndex =
+                currentLightboxEntryIndex > 0
+                    ? currentLightboxEntryIndex - 1
+                    : filteredFanart.length - 1;
+            setCurrentLightboxEntryIndex(prevIndex);
+        }
+    }, [currentLightboxEntryIndex, filteredFanart.length]);
+
+    const handleOpenLightbox = useCallback((index: number) => {
+        setCurrentLightboxEntryIndex(index);
+        setIsLightboxOpen(true);
+    }, []);
+
+    const handleCloseLightbox = useCallback(() => {
+        setIsLightboxOpen(false);
+        // Delay clearing the entry to prevent flicker
+        setTimeout(() => {
+            setCurrentLightboxEntryIndex(null);
+        }, 150);
+    }, []);
+
+    const resetFilters = useCallback(() => {
         setSelectedCharacter("all");
         setSelectedChapter("all");
         setSelectedDay("all");
-    };
+    }, []);
 
+    // Reset scroll position when filters change
     useEffect(() => {
         if (contentContainerRef.current) {
             contentContainerRef.current.scrollTo({
@@ -111,283 +212,388 @@ const ViewFanartModal = ({
         }
     }, [selectedCharacter, selectedChapter, selectedDay]);
 
-    return (
-        <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent
-                className="max-w-7xl h-[90vh] flex flex-col gap-2 md:gap-4"
-                showXButtonForce={true}
-                showXButton={true}
-            >
-                <DialogHeader className="space-y-0">
-                    <DialogTitle className="">Fanart Gallery</DialogTitle>
-                    <DialogDescription className="sr-only">
-                        Browse community fanart from the ENreco series
-                    </DialogDescription>
-                </DialogHeader>
+    useEffect(() => {
+        setSelectedDay("all");
+    }, [selectedChapter]);
 
-                {/* Filters */}
-                <div className="border-b pb-4">
-                    {/* Mobile layout */}
-                    <div className="md:hidden space-y-3">
-                        <div className="grid grid-cols-2 gap-2">
-                            <div className="space-y-1">
-                                <label className="text-xs font-medium text-muted-foreground">
-                                    Day
-                                </label>
-                                <Select
-                                    value={selectedDay}
-                                    onValueChange={setSelectedDay}
-                                >
-                                    <SelectTrigger className="h-8 text-sm">
-                                        <SelectValue />
-                                    </SelectTrigger>
-                                    <SelectContent>
-                                        <SelectItem value="all">All</SelectItem>
-                                        {days.map((day) => (
-                                            <SelectItem
-                                                key={day}
-                                                value={day.toString()}
+    // Close lightbox when modal closes
+    useEffect(() => {
+        if (!open) {
+            setCurrentLightboxEntryIndex(null);
+        }
+    }, [open]);
+
+    const currentEntry =
+        currentLightboxEntryIndex !== null
+            ? filteredFanart[currentLightboxEntryIndex]
+            : null;
+
+    return (
+        <>
+            <Dialog open={open} onOpenChange={onOpenChange}>
+                <DialogContent
+                    className="max-w-7xl md:h-[90vh] h-[80vh] flex flex-col gap-2 md:gap-4"
+                    showXButtonForce={true}
+                    showXButton={true}
+                >
+                    {/* Collapsible Header */}
+                    <div className="relative">
+                        {/* Header Content */}
+                        <div
+                            className={cn(
+                                "overflow-hidden transition-all duration-300 ease-in-out",
+                                isHeaderCollapsed
+                                    ? "max-h-0 opacity-0"
+                                    : "max-h-96 opacity-100",
+                            )}
+                        >
+                            <div className="pb-4">
+                                <DialogHeader className="space-y-0 mb-4">
+                                    <DialogTitle>
+                                        <div className="w-full justify-center md:justify-normal mx-auto md:mx-0 flex gap-2 items-center">
+                                            <CollapseButton
+                                                isCollapsed={isHeaderCollapsed}
+                                                onClick={() =>
+                                                    setIsHeaderCollapsed(
+                                                        !isHeaderCollapsed,
+                                                    )
+                                                }
+                                                className="shrink-0"
+                                            />
+                                            <span>Fanart Gallery</span>
+                                        </div>
+                                    </DialogTitle>
+                                    <DialogDescription className="sr-only">
+                                        Browse community fanart from the ENreco
+                                        series
+                                    </DialogDescription>
+                                </DialogHeader>
+
+                                {/* Filters */}
+                                <div className="border-b pb-4">
+                                    {/* Mobile layout */}
+                                    <div className="md:hidden space-y-3">
+                                        <div className="grid grid-cols-2 gap-2">
+                                            <div className="space-y-1">
+                                                <label className="text-xs font-medium text-muted-foreground">
+                                                    Day
+                                                </label>
+                                                <Select
+                                                    value={selectedDay}
+                                                    onValueChange={
+                                                        setSelectedDay
+                                                    }
+                                                >
+                                                    <SelectTrigger className="h-8 text-sm">
+                                                        <SelectValue />
+                                                    </SelectTrigger>
+                                                    <SelectContent>
+                                                        <SelectItem value="all">
+                                                            All
+                                                        </SelectItem>
+                                                        {days.map((day) => (
+                                                            <SelectItem
+                                                                key={day}
+                                                                value={day.toString()}
+                                                            >
+                                                                {day + 1}
+                                                            </SelectItem>
+                                                        ))}
+                                                    </SelectContent>
+                                                </Select>
+                                            </div>
+                                            <div className="space-y-1">
+                                                <label className="text-xs font-medium text-muted-foreground">
+                                                    Chapter
+                                                </label>
+                                                <Select
+                                                    value={selectedChapter}
+                                                    onValueChange={
+                                                        setSelectedChapter
+                                                    }
+                                                >
+                                                    <SelectTrigger className="h-8 text-sm">
+                                                        <SelectValue />
+                                                    </SelectTrigger>
+                                                    <SelectContent>
+                                                        <SelectItem value="all">
+                                                            All
+                                                        </SelectItem>
+                                                        {chapters.map(
+                                                            (chapter) => (
+                                                                <SelectItem
+                                                                    key={
+                                                                        chapter
+                                                                    }
+                                                                    value={chapter.toString()}
+                                                                >
+                                                                    {chapter +
+                                                                        1}
+                                                                </SelectItem>
+                                                            ),
+                                                        )}
+                                                    </SelectContent>
+                                                </Select>
+                                            </div>
+                                        </div>
+                                        <div className="flex items-end justify-between gap-2">
+                                            <div className="flex-1">
+                                                <label className="text-xs font-medium text-muted-foreground">
+                                                    Character
+                                                </label>
+                                                <Select
+                                                    value={selectedCharacter}
+                                                    onValueChange={
+                                                        setSelectedCharacter
+                                                    }
+                                                >
+                                                    <SelectTrigger className="h-8 text-sm">
+                                                        <SelectValue />
+                                                    </SelectTrigger>
+                                                    <SelectContent>
+                                                        <SelectItem value="all">
+                                                            All
+                                                        </SelectItem>
+                                                        {characters.map(
+                                                            (character) => (
+                                                                <SelectItem
+                                                                    key={
+                                                                        character
+                                                                    }
+                                                                    value={
+                                                                        character
+                                                                    }
+                                                                >
+                                                                    {nameMap[
+                                                                        character
+                                                                    ] ||
+                                                                        character
+                                                                            .charAt(
+                                                                                0,
+                                                                            )
+                                                                            .toUpperCase() +
+                                                                            character.slice(
+                                                                                1,
+                                                                            )}
+                                                                </SelectItem>
+                                                            ),
+                                                        )}
+                                                    </SelectContent>
+                                                </Select>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <Button
+                                                    variant="outline"
+                                                    size="sm"
+                                                    className="h-8 text-xs"
+                                                    onClick={resetFilters}
+                                                >
+                                                    Reset
+                                                </Button>
+                                                <div className="text-xs text-muted-foreground whitespace-nowrap">
+                                                    {filteredFanart.length}{" "}
+                                                    items
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* Desktop layout */}
+                                    <div className="hidden md:flex flex-wrap gap-4 items-center">
+                                        <div className="flex items-center gap-2">
+                                            <label className="text-sm font-medium">
+                                                Character:
+                                            </label>
+                                            <Select
+                                                value={selectedCharacter}
+                                                onValueChange={
+                                                    setSelectedCharacter
+                                                }
                                             >
-                                                {day + 1}
-                                            </SelectItem>
-                                        ))}
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                            <div className="space-y-1">
-                                <label className="text-xs font-medium text-muted-foreground">
-                                    Chapter
-                                </label>
-                                <Select
-                                    value={selectedChapter}
-                                    onValueChange={setSelectedChapter}
-                                >
-                                    <SelectTrigger className="h-8 text-sm">
-                                        <SelectValue />
-                                    </SelectTrigger>
-                                    <SelectContent>
-                                        <SelectItem value="all">All</SelectItem>
-                                        {chapters.map((chapter) => (
-                                            <SelectItem
-                                                key={chapter}
-                                                value={chapter.toString()}
+                                                <SelectTrigger className="w-[150px]">
+                                                    <SelectValue />
+                                                </SelectTrigger>
+                                                <SelectContent>
+                                                    <SelectItem value="all">
+                                                        All
+                                                    </SelectItem>
+                                                    {characters.map(
+                                                        (character) => (
+                                                            <SelectItem
+                                                                key={character}
+                                                                value={
+                                                                    character
+                                                                }
+                                                            >
+                                                                {nameMap[
+                                                                    character
+                                                                ] ||
+                                                                    character
+                                                                        .charAt(
+                                                                            0,
+                                                                        )
+                                                                        .toUpperCase() +
+                                                                        character.slice(
+                                                                            1,
+                                                                        )}
+                                                            </SelectItem>
+                                                        ),
+                                                    )}
+                                                </SelectContent>
+                                            </Select>
+                                        </div>
+
+                                        <div className="flex items-center gap-2">
+                                            <label className="text-sm font-medium">
+                                                Chapter:
+                                            </label>
+                                            <Select
+                                                value={selectedChapter}
+                                                onValueChange={
+                                                    setSelectedChapter
+                                                }
                                             >
-                                                {chapter + 1}
-                                            </SelectItem>
-                                        ))}
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                        </div>
-                        <div className="flex items-end justify-between gap-2">
-                            <div className="flex-1">
-                                <label className="text-xs font-medium text-muted-foreground">
-                                    Character
-                                </label>
-                                <Select
-                                    value={selectedCharacter}
-                                    onValueChange={setSelectedCharacter}
-                                >
-                                    <SelectTrigger className="h-8 text-sm">
-                                        <SelectValue />
-                                    </SelectTrigger>
-                                    <SelectContent>
-                                        <SelectItem value="all">All</SelectItem>
-                                        {characters.map((character) => (
-                                            <SelectItem
-                                                key={character}
-                                                value={character}
+                                                <SelectTrigger className="w-[100px]">
+                                                    <SelectValue />
+                                                </SelectTrigger>
+                                                <SelectContent>
+                                                    <SelectItem value="all">
+                                                        All
+                                                    </SelectItem>
+                                                    {chapters.map((chapter) => (
+                                                        <SelectItem
+                                                            key={chapter}
+                                                            value={chapter.toString()}
+                                                        >
+                                                            {chapter + 1}
+                                                        </SelectItem>
+                                                    ))}
+                                                </SelectContent>
+                                            </Select>
+                                        </div>
+
+                                        <div className="flex items-center gap-2">
+                                            <label className="text-sm font-medium">
+                                                Day:
+                                            </label>
+                                            <Select
+                                                value={selectedDay}
+                                                onValueChange={setSelectedDay}
                                             >
-                                                {nameMap[character] ||
-                                                    character
-                                                        .charAt(0)
-                                                        .toUpperCase() +
-                                                        character.slice(1)}
-                                            </SelectItem>
-                                        ))}
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <Button
-                                    variant="outline"
-                                    size="sm"
-                                    className="h-8 text-xs"
-                                    onClick={resetFilters}
-                                >
-                                    Reset
-                                </Button>
-                                <div className="text-xs text-muted-foreground whitespace-nowrap">
-                                    {filteredFanart.length} items
+                                                <SelectTrigger className="w-[100px]">
+                                                    <SelectValue />
+                                                </SelectTrigger>
+                                                <SelectContent>
+                                                    <SelectItem value="all">
+                                                        All
+                                                    </SelectItem>
+                                                    {days.map((day) => (
+                                                        <SelectItem
+                                                            key={day}
+                                                            value={day.toString()}
+                                                        >
+                                                            {day + 1}
+                                                        </SelectItem>
+                                                    ))}
+                                                </SelectContent>
+                                            </Select>
+                                        </div>
+
+                                        <Button
+                                            variant="outline"
+                                            size="sm"
+                                            onClick={resetFilters}
+                                        >
+                                            Reset Filters
+                                        </Button>
+
+                                        <div className="ml-auto text-sm text-muted-foreground">
+                                            {filteredFanart.length} items
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        {/* Collapse button when header is collapsed - positioned absolutely */}
+                        {isHeaderCollapsed && (
+                            <CollapseButton
+                                isCollapsed={isHeaderCollapsed}
+                                onClick={() => setIsHeaderCollapsed(false)}
+                                className="absolute top-0 left-0"
+                            />
+                        )}
                     </div>
 
-                    {/* Desktop layout */}
-                    <div className="hidden md:flex flex-wrap gap-4 items-center">
-                        <div className="flex items-center gap-2">
-                            <label className="text-sm font-medium">
-                                Character:
-                            </label>
-                            <Select
-                                value={selectedCharacter}
-                                onValueChange={setSelectedCharacter}
+                    {/* Masonry Grid */}
+                    <div
+                        className="flex-1 overflow-y-auto"
+                        ref={contentContainerRef}
+                    >
+                        <AnimatePresence mode="wait">
+                            <motion.div
+                                key={`${selectedCharacter}-${selectedChapter}-${selectedDay}`}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.125 }}
+                                className="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 space-y-4"
                             >
-                                <SelectTrigger className="w-[150px]">
-                                    <SelectValue />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="all">All</SelectItem>
-                                    {characters.map((character) => (
-                                        <SelectItem
-                                            key={character}
-                                            value={character}
+                                {filteredFanart.map((entry, index) => {
+                                    const firstImage = entry.images[0];
+                                    const thumbnailSrc = firstImage.src.replace(
+                                        "-opt.webp",
+                                        "-opt-thumb.webp",
+                                    );
+
+                                    return (
+                                        <div
+                                            className="relative group bg-muted rounded-lg overflow-hidden cursor-pointer"
+                                            key={`${entry.url}-${index}`}
+                                            onClick={() =>
+                                                handleOpenLightbox(index)
+                                            }
                                         >
-                                            {nameMap[character] ||
-                                                character
-                                                    .charAt(0)
-                                                    .toUpperCase() +
-                                                    character.slice(1)}
-                                        </SelectItem>
-                                    ))}
-                                </SelectContent>
-                            </Select>
-                        </div>
+                                            <Image
+                                                src={thumbnailSrc}
+                                                alt={entry.label}
+                                                width={firstImage.width}
+                                                height={firstImage.height}
+                                                className="w-full h-auto object-cover transition-transform group-hover:scale-105"
+                                                placeholder={
+                                                    getBlurDataURL(thumbnailSrc)
+                                                        ? "blur"
+                                                        : "empty"
+                                                }
+                                                blurDataURL={getBlurDataURL(
+                                                    thumbnailSrc,
+                                                )}
+                                                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                                            />
 
-                        <div className="flex items-center gap-2">
-                            <label className="text-sm font-medium">
-                                Chapter:
-                            </label>
-                            <Select
-                                value={selectedChapter}
-                                onValueChange={setSelectedChapter}
-                            >
-                                <SelectTrigger className="w-[100px]">
-                                    <SelectValue />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="all">All</SelectItem>
-                                    {chapters.map((chapter) => (
-                                        <SelectItem
-                                            key={chapter}
-                                            value={chapter.toString()}
-                                        >
-                                            {chapter + 1}
-                                        </SelectItem>
-                                    ))}
-                                </SelectContent>
-                            </Select>
-                        </div>
+                                            {/* Image count badge - always visible*/}
+                                            {entry.images.length > 1 && (
+                                                <div className="flex item-center gap-1 absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg">
+                                                    <ImageIcon size={16} />
+                                                    <span>
+                                                        {entry.images.length}
+                                                    </span>
+                                                </div>
+                                            )}
 
-                        <div className="flex items-center gap-2">
-                            <label className="text-sm font-medium">Day:</label>
-                            <Select
-                                value={selectedDay}
-                                onValueChange={setSelectedDay}
-                            >
-                                <SelectTrigger className="w-[100px]">
-                                    <SelectValue />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="all">All</SelectItem>
-                                    {days.map((day) => (
-                                        <SelectItem
-                                            key={day}
-                                            value={day.toString()}
-                                        >
-                                            {day + 1}
-                                        </SelectItem>
-                                    ))}
-                                </SelectContent>
-                            </Select>
-                        </div>
-
-                        <Button
-                            variant="outline"
-                            size="sm"
-                            onClick={resetFilters}
-                        >
-                            Reset Filters
-                        </Button>
-
-                        <div className="ml-auto text-sm text-muted-foreground">
-                            {filteredFanart.length} items
-                        </div>
-                    </div>
-                </div>
-
-                {/* Masonry Grid */}
-                <div
-                    className="flex-1 overflow-y-auto"
-                    ref={contentContainerRef}
-                >
-                    <AnimatePresence mode="wait">
-                        <motion.div
-                            key={`${selectedCharacter}-${selectedChapter}-${selectedDay}`}
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{ duration: 0.125 }}
-                            className="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 space-y-4"
-                        >
-                            {filteredFanart.map((entry, index) => {
-                                const firstImage = entry.images[0];
-                                const thumbnailSrc = firstImage.src.replace(
-                                    "-opt.webp",
-                                    "-opt-thumb.webp",
-                                );
-                                const aspectRatio =
-                                    firstImage.height / firstImage.width;
-
-                                const galleryImages = entry.images.map(
-                                    (img) => ({
-                                        src: img.src,
-                                        alt: entry.label,
-                                    }),
-                                );
-
-                                return (
-                                    <div
-                                        className="relative group bg-muted rounded-lg overflow-hidden"
-                                        key={`${entry.url}-${index}`}
-                                    >
-                                        <ViewLightbox
-                                            src={thumbnailSrc}
-                                            alt={entry.label}
-                                            width={300}
-                                            height={300 * aspectRatio}
-                                            className="w-full h-auto object-cover transition-transform group-hover:scale-105"
-                                            galleryImages={galleryImages}
-                                            galleryIndex={0}
-                                            authorSrc={entry.url}
-                                        />
-
-                                        {/* Image count badge - always visible*/}
-                                        {entry.images.length > 1 && (
-                                            <div className="flex item-center gap-1 absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg">
-                                                <Image size={16} />
-                                                <span>
-                                                    {entry.images.length}
-                                                </span>
-                                            </div>
-                                        )}
-
-                                        {/* Overlay with info - pointer events disabled except for button */}
-                                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors flex flex-col justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
-                                            <div className="text-white">
-                                                <p className="font-semibold text-sm line-clamp-2 mb-1">
+                                            {/* Mobile - always visible full info */}
+                                            <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                                                <p className="text-white text-sm font-semibold line-clamp-1">
                                                     {entry.label}
                                                 </p>
-                                                <p className="text-xs text-white/80 mb-2">
+                                                <p className="text-white/80 text-xs mb-2">
                                                     by {entry.author}
                                                 </p>
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex gap-1 text-xs">
                                                         <div className="text-xs h-5 border-white/30 text-white">
-                                                            Ch.
-                                                            {entry.chapter +
-                                                                1}{" "}
+                                                            Ch.{" "}
+                                                            {entry.chapter + 1}{" "}
                                                             Day {entry.day + 1}
                                                         </div>
                                                     </div>
@@ -396,34 +602,93 @@ const ViewFanartModal = ({
                                                         href={entry.url}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
+                                                        onClick={(e) =>
+                                                            e.stopPropagation()
+                                                        }
                                                     >
                                                         <ExternalLink className="size-4 stroke-inherit" />
                                                     </a>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                        </motion.div>
-                    </AnimatePresence>
 
-                    {filteredFanart.length === 0 && (
-                        <div className="flex items-center justify-center h-full text-center">
-                            <div>
-                                <p className="text-lg font-medium text-muted-foreground mb-2">
-                                    No fanart found
-                                </p>
-                                <p className="text-sm text-muted-foreground">
-                                    Try adjusting your filters to see more
-                                    results
-                                </p>
+                                            {/* Desktop - hover overlay with full info */}
+                                            <div className="hidden md:flex flex-col absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
+                                                <div className="text-white">
+                                                    <p className="font-semibold text-sm line-clamp-2 mb-1">
+                                                        {entry.label}
+                                                    </p>
+                                                    <p className="text-xs text-white/80 mb-2">
+                                                        by {entry.author}
+                                                    </p>
+                                                    <div className="flex items-center justify-between">
+                                                        <div className="flex gap-1 text-xs">
+                                                            <div className="text-xs h-5 border-white/30 text-white">
+                                                                Ch.{" "}
+                                                                {entry.chapter +
+                                                                    1}{" "}
+                                                                Day{" "}
+                                                                {entry.day + 1}
+                                                            </div>
+                                                        </div>
+                                                        <a
+                                                            className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto"
+                                                            href={entry.url}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            onClick={(e) =>
+                                                                e.stopPropagation()
+                                                            }
+                                                        >
+                                                            <ExternalLink className="size-4 stroke-inherit" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </motion.div>
+                        </AnimatePresence>
+
+                        {filteredFanart.length === 0 && (
+                            <div className="flex items-center justify-center h-full text-center">
+                                <div>
+                                    <p className="text-lg font-medium text-muted-foreground mb-2">
+                                        No fanart found
+                                    </p>
+                                    <p className="text-sm text-muted-foreground">
+                                        Try adjusting your filters to see more
+                                        results
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    )}
-                </div>
-            </DialogContent>
-        </Dialog>
+                        )}
+                    </div>
+                </DialogContent>
+            </Dialog>
+
+            {/* Centralized Lightbox, need this to support keyboard entry switching */}
+            {currentEntry && (
+                <ViewLightbox
+                    src={currentEntry.images[0].src}
+                    alt={currentEntry.label}
+                    width={currentEntry.images[0].width}
+                    height={currentEntry.images[0].height}
+                    galleryImages={currentEntry.images.map((img) => ({
+                        src: img.src,
+                        alt: currentEntry.label,
+                    }))}
+                    alwaysShowNavigationArrows={true}
+                    galleryIndex={0}
+                    authorSrc={currentEntry.url}
+                    onNextEnd={handleNextEntry}
+                    onPrevEnd={handlePrevEntry}
+                    isExternallyControlled={true}
+                    externalIsOpen={isLightboxOpen}
+                    onExternalClose={handleCloseLightbox}
+                />
+            )}
+        </>
     );
 };
 

@@ -6,12 +6,12 @@
 
 ## Overview
 
-**Automaton Assault**, a lance adorned in gold and green, is the beloved weapon of [Cecilia Immergreen](#entry:cecilia-entry) on her journey through the Kingdom of Libestal.
+**Automaton Assault**, a lance adorned in gold and green, is the signature weapon of [Cecilia Immergreen](#entry:cecilia-entry) during her journey through the Kingdom of Libestal.
 
 ## Details
 
-An ancient automaton, a champion of Justice with a love for flowers, tea, and assaulting the world with her _very unbiased_ opinions, it’s only fitting her weapon carries such a name.
-
-When activated, Cecilia unleashes a concentrated flurry of spear strikes at her enemies. As terrifying as being on the receiving end of a rapid-fire poking spree sounds, the intimidation factor tends to wear off just a bit—thanks to the adorably cheerful catchphrase she never forgets to shout right before launching her target into oblivion.
+True to its name, Automaton Assault enables Cecilia to unleash a rapid flurry of spear strikes upon her enemies. While the sheer speed and force of the attack are intimidating, the effect is often slightly undercut by Cecilia’s unshakable habit of shouting an adorably cheerful catchphrase before launching her foes into oblivion.
 
 [Automaton Assault!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)
+
+Starting from Chapter 2, the lance also gained an additional [ranged attack.](#entry:revelations-entry)

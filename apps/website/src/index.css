@@ -272,7 +272,7 @@ td {
 }
 
 .items-card {
-    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+    @apply dark:bg-white/10 bg-white/90 backdrop-blur-md border border-white/20 shadow-lg;
 }
 
 .content-container {
