@@ -90,27 +90,35 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         </div>
                     </div>
 
-                    <div className="flex overflow-x-scroll overflow-y-hidden gap-2 content-container md:w-[250px] w-[300px]">
+                    <div
+                        className="flex overflow-x-scroll overflow-y-hidden gap-2 content-container md:w-[250px] w-[300px] min-h-0"
+                        style={{ padding: "0.5rem" }}
+                    >
                         {item.galleryImages.map((image, index) => (
-                            <ViewLightbox
+                            <div
                                 key={index}
-                                width={178}
-                                height={100}
-                                src={image.source.replace(
-                                    "-opt.webp",
-                                    "-opt-thumb.webp",
-                                )}
-                                alt={image.title || "Gallery image"}
-                                containerClassName="shrink-0"
-                                className="h-[100px] border-2 border-foreground/30 shadow-md rounded-lg aspect-video object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
-                                galleryImages={item.galleryImages.map(
-                                    (img) => ({
-                                        src: img.source,
-                                        alt: img.title || "Gallery image",
-                                    }),
-                                )}
-                                galleryIndex={index}
-                            />
+                                className="shrink-0 flex-none"
+                                style={{ aspectRatio: "16/9", height: "100%" }}
+                            >
+                                <ViewLightbox
+                                    width={124}
+                                    height={70}
+                                    src={image.source.replace(
+                                        "-opt.webp",
+                                        "-opt-thumb.webp",
+                                    )}
+                                    alt={image.title || "Gallery image"}
+                                    containerClassName="w-full h-full"
+                                    className="w-full h-full border-2 border-foreground/30 shadow-md rounded-lg object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
+                                    galleryImages={item.galleryImages.map(
+                                        (img) => ({
+                                            src: img.source,
+                                            alt: img.title || "Gallery image",
+                                        }),
+                                    )}
+                                    galleryIndex={index}
+                                />
+                            </div>
                         ))}
                     </div>
                 </div>
