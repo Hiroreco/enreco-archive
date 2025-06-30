@@ -84,7 +84,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     Quote
                                 </span>
                                 <span className="italic text-center text-muted-foreground text-sm">
-                                    "{item.quote}"
+                                    “{item.quote}”
                                 </span>
                             </p>
                         </div>
