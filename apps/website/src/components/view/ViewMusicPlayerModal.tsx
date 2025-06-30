@@ -474,7 +474,7 @@ const ViewMusicPlayerModal = ({
                         }
                         alt=""
                         fill
-                        className="object-cover blur-xl opacity-30"
+                        className="object-cover blur-xl opacity-20"
                         placeholder={
                             getBlurDataURL(
                                 currentTrack?.coverUrl ||
