@@ -1,5 +1,6 @@
 import SONGS from "#/songs.json";
 import AudioVisualizer from "@/components/view/ViewAudioVisualizer";
+import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useSettingStore } from "@/store/settingStore";
@@ -465,6 +466,32 @@ const ViewMusicPlayerModal = ({
                 className="max-w-fit dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20"
                 style={{ backgroundImage: "none" }}
             >
+                <div className="absolute inset-0 -z-10">
+                    <Image
+                        src={
+                            currentTrack?.coverUrl ||
+                            "images-opt/song-chapter-2-opt.webp"
+                        }
+                        alt=""
+                        fill
+                        className="object-cover blur-xl opacity-20"
+                        placeholder={
+                            getBlurDataURL(
+                                currentTrack?.coverUrl ||
+                                    "images-opt/song-chapter-2-opt.webp",
+                            )
+                                ? "blur"
+                                : "empty"
+                        }
+                        blurDataURL={getBlurDataURL(
+                            currentTrack?.coverUrl ||
+                                "images-opt/song-chapter-2-opt.webp",
+                        )}
+                        priority={false}
+                    />
+                    {/* Dark overlay to ensure content readability */}
+                    <div className="absolute inset-0 bg-black/30" />
+                </div>
                 <div className="flex md:flex-row flex-col items-center gap-2">
                     {/* Cover & Controls */}
                     <div className="hidden md:flex flex-col items-center gap-4 p-2 dark:bg-white/5 bg-black/30 rounded-lg">

@@ -22,7 +22,10 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <GlossaryProvider>
-                <ViewGlossaryCard className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2" />
+                <ViewGlossaryCard
+                    className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2"
+                    bgImage={bgImage}
+                />
             </GlossaryProvider>
 
             {/* Pretty much the same as ViewApp from here on */}
