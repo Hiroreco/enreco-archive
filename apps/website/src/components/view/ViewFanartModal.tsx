@@ -438,8 +438,38 @@ const ViewFanartModal = ({
                                                 </div>
                                             )}
 
-                                            {/* Overlay with info - pointer events disabled except for button */}
-                                            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors flex flex-col justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
+                                            {/* Mobile info overly */}
+                                            <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                                                <p className="text-white text-sm font-semibold line-clamp-1">
+                                                    {entry.label}
+                                                </p>
+                                                <p className="text-white/80 text-xs">
+                                                    by {entry.author}
+                                                </p>
+                                                <div className="flex items-center justify-between">
+                                                    <div className="flex gap-1 text-xs">
+                                                        <div className="text-xs h-5 border-white/30 text-white">
+                                                            Ch.{" "}
+                                                            {entry.chapter + 1}{" "}
+                                                            Day {entry.day + 1}
+                                                        </div>
+                                                    </div>
+                                                    <a
+                                                        className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto"
+                                                        href={entry.url}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        onClick={(e) =>
+                                                            e.stopPropagation()
+                                                        }
+                                                    >
+                                                        <ExternalLink className="size-4 stroke-inherit" />
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            {/* Desktop info overlay */}
+                                            <div className="md:flex flex-col hidden absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors  justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
                                                 <div className="text-white">
                                                     <p className="font-semibold text-sm line-clamp-2 mb-1">
                                                         {entry.label}
