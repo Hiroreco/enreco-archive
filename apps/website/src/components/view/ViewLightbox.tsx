@@ -33,6 +33,7 @@ interface ViewLightboxProps {
     onPrevEnd?: () => void;
     isExternallyControlled?: boolean;
     externalIsOpen?: boolean;
+    alwaysShowNavigationArrows?: boolean;
     onExternalClose?: () => void;
 }
 
@@ -49,6 +50,7 @@ const ViewLightbox = ({
     authorSrc,
     onNextEnd,
     onPrevEnd,
+    alwaysShowNavigationArrows = false,
     isExternallyControlled = false,
     externalIsOpen = false,
     onExternalClose,
@@ -156,34 +158,12 @@ const ViewLightbox = ({
         thumbnailRefs.current = thumbnailRefs.current.slice(0, images.length);
     }, [images.length]);
 
-    // Handle external control opening
-    useEffect(() => {
-        if (containerClassName === "hidden" && !isExternallyControlled) {
-            // If container is hidden, this means it's being controlled externally (legacy support)
-            setInternalIsOpen(true);
-        }
-    }, [containerClassName, isExternallyControlled]);
-
     // Update current image index when gallery changes (for entry switching)
     useEffect(() => {
         if (galleryImages && galleryImages.length > 0) {
             setCurrentImageIndex(0);
         }
     }, [galleryImages]);
-
-    // Ensure currentImageIndex is always valid
-    useEffect(() => {
-        if (currentImageIndex >= images.length) {
-            setCurrentImageIndex(0);
-        }
-    }, [currentImageIndex, images.length]);
-
-    // Update current image index when galleryIndex changes
-    useEffect(() => {
-        if (!isExternallyControlled) {
-            setCurrentImageIndex(galleryIndex);
-        }
-    }, [galleryIndex, isExternallyControlled]);
 
     // Safe currentImage access with fallback
     const currentImage = images[currentImageIndex] || images[0] || { src, alt };
@@ -252,7 +232,7 @@ const ViewLightbox = ({
                     </button>
 
                     <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] h-[60vh] flex items-center justify-center">
-                        {images.length > 1 && (
+                        {(images.length > 1 || alwaysShowNavigationArrows) && (
                             <>
                                 <button
                                     className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full"

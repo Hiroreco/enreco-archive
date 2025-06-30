@@ -59,15 +59,13 @@ const ViewFanartModal = ({
     const contentContainerRef = useRef<HTMLDivElement>(null);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
-    // Add state for centralized lightbox
     const [currentLightboxEntryIndex, setCurrentLightboxEntryIndex] = useState<
         number | null
     >(null);
 
-    const fanart = fanartData as FanartEntry[];
-    const nameMap = getCharacterIdNameMap(chapter);
+    const fanart = useMemo(() => fanartData as FanartEntry[], []);
+    const nameMap = useMemo(() => getCharacterIdNameMap(chapter), [chapter]);
 
-    // Get unique values for filters
     const characters = useMemo(() => {
         const allCharacters = new Set<string>();
         fanart.forEach((entry) => {
@@ -111,7 +109,6 @@ const ViewFanartModal = ({
                     ? currentLightboxEntryIndex + 1
                     : 0;
             setCurrentLightboxEntryIndex(nextIndex);
-            // Don't close lightbox, just update the entry
         }
     }, [currentLightboxEntryIndex, filteredFanart.length]);
 
@@ -122,7 +119,6 @@ const ViewFanartModal = ({
                     ? currentLightboxEntryIndex - 1
                     : filteredFanart.length - 1;
             setCurrentLightboxEntryIndex(prevIndex);
-            // Don't close lightbox, just update the entry
         }
     }, [currentLightboxEntryIndex, filteredFanart.length]);
 
@@ -406,8 +402,6 @@ const ViewFanartModal = ({
                                         "-opt.webp",
                                         "-opt-thumb.webp",
                                     );
-                                    const aspectRatio =
-                                        firstImage.height / firstImage.width;
 
                                     return (
                                         <div
@@ -420,8 +414,8 @@ const ViewFanartModal = ({
                                             <Image
                                                 src={thumbnailSrc}
                                                 alt={entry.label}
-                                                width={300}
-                                                height={300 * aspectRatio}
+                                                width={firstImage.width}
+                                                height={firstImage.height}
                                                 className="w-full h-auto object-cover transition-transform group-hover:scale-105"
                                                 placeholder={
                                                     getBlurDataURL(thumbnailSrc)
@@ -500,19 +494,18 @@ const ViewFanartModal = ({
                 </DialogContent>
             </Dialog>
 
-            {/* Centralized Lightbox - rendered outside the main dialog */}
+            {/* Centralized Lightbox, need this to support keyboard entry switching */}
             {currentEntry && (
                 <ViewLightbox
                     src={currentEntry.images[0].src}
                     alt={currentEntry.label}
-                    width={300}
-                    height={300}
-                    className="hidden"
-                    containerClassName="hidden"
+                    width={currentEntry.images[0].width}
+                    height={currentEntry.images[0].height}
                     galleryImages={currentEntry.images.map((img) => ({
                         src: img.src,
                         alt: currentEntry.label,
                     }))}
+                    alwaysShowNavigationArrows={true}
                     galleryIndex={0}
                     authorSrc={currentEntry.url}
                     onNextEnd={handleNextEntry}
