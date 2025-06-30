@@ -190,7 +190,7 @@ const ViewLightbox = ({
             <Dialog open={isOpen} onOpenChange={handleOpenChange}>
                 <DialogContent
                     backdropFilter={backdropFilter}
-                    className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center"
+                    className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center h-[80dvh]  md:h-[90vh]"
                     showXButton={false}
                     style={{
                         backgroundImage: "none",
@@ -231,7 +231,7 @@ const ViewLightbox = ({
                         <X className="size-full" />
                     </button>
 
-                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] h-[60vh] flex items-center justify-center">
+                    <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] flex items-center justify-center flex-1 min-h-0">
                         {(images.length > 1 || alwaysShowNavigationArrows) && (
                             <>
                                 <button
@@ -254,7 +254,7 @@ const ViewLightbox = ({
                             <Image
                                 src={currentImage.src}
                                 alt={currentImage.alt}
-                                className="object-contain max-h-[60vh] max-w-full"
+                                className="object-contain max-w-full max-h-full"
                                 placeholder={
                                     getBlurDataURL(currentImage.src)
                                         ? "blur"
@@ -271,7 +271,7 @@ const ViewLightbox = ({
 
                     <div className="flex flex-col gap-2 max-w-full">
                         <div className="flex justify-center items-center gap-1">
-                            <Separator className="md:w-[200px] w-[30px] opacity-50" />
+                            <Separator className="md:w-[200px] w-[30px] bg-foreground/80" />
                             <span className="text-white flex items-center gap-1 text-center font-semibold text-sm md:text-lg">
                                 {currentImage.alt}
                                 {authorSrc && (
@@ -284,7 +284,7 @@ const ViewLightbox = ({
                                     </a>
                                 )}
                             </span>
-                            <Separator className="md:w-[200px] w-[30px] opacity-50" />
+                            <Separator className="md:w-[200px] w-[30px] bg-foreground/80" />
                         </div>
                         <div
                             ref={carouselRef}
