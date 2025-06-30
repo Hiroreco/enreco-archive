@@ -35,9 +35,12 @@ import {
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import Image from "next/image";
+import { getBlurDataURL } from "@/lib/utils";
 
 interface ViewGlossaryCardProps {
     className?: string;
+    bgImage: string;
 }
 
 const categoryMap: Record<Category, { label: string; icon: ReactElement }> = {
@@ -59,7 +62,7 @@ const subCatergoryMap: Record<string, string> = {
     quests: "Quests",
 };
 
-const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
+const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
     const [selectedCategory, setSelectedCategory] =
         useState<Category>("cat-weapons");
     const [selectedChapter, setSelectedChapter] = useState(-1);
@@ -171,6 +174,29 @@ const ViewGlossaryCard = ({ className }: ViewGlossaryCardProps) => {
             </CardHeader>
 
             <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto">
+                <AnimatePresence>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.15 }}
+                        className="absolute inset-0 -z-10"
+                    >
+                        <Image
+                            src={bgImage}
+                            alt=""
+                            fill
+                            className="object-cover blur-xl dark:opacity-20 opacity-30"
+                            placeholder={
+                                getBlurDataURL(bgImage) ? "blur" : "empty"
+                            }
+                            blurDataURL={getBlurDataURL(bgImage)}
+                            priority={false}
+                        />
+                        {/* Dark overlay to ensure content readability */}
+                        <div className="absolute inset-0 dark:bg-black/30 bg-white/50" />
+                    </motion.div>
+                </AnimatePresence>
                 <AnimatePresence mode="wait">
                     {currentEntry === null && (
                         <motion.div

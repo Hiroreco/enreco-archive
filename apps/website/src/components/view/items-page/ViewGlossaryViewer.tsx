@@ -36,25 +36,22 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     };
 
     return (
-        <AnimatePresence mode="wait">
-            <motion.div
-                key={entry.item.id}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.15 }}
-                onAnimationComplete={handleAnimationComplete}
-                ref={containerRef}
-                id="glossary-viewer-container"
-                className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 md:h-full md:p-0 px-2"
-            >
-                {/* Fancy blur bg image thingy */}
-                <div className="absolute inset-0 -z-10">
+        <>
+            {/* Background layer with smooth transitions */}
+            <AnimatePresence>
+                <motion.div
+                    key={`bg-${entry.item.id}`}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.15 }}
+                    className="absolute inset-0 -z-10"
+                >
                     <Image
                         src={item.thumbnailSrc}
                         alt=""
                         fill
-                        className="object-cover blur-xl dark:opacity-20 opacity-30"
+                        className="object-cover blur-xl dark:opacity-10 opacity-30"
                         placeholder={
                             getBlurDataURL(item.thumbnailSrc) ? "blur" : "empty"
                         }
@@ -62,104 +59,129 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         priority={false}
                     />
                     {/* Dark overlay to ensure content readability */}
-                    <div className="absolute inset-0 dark:bg-black/30 bg-white/50" />
-                </div>
-                <div className="flex flex-col items-center justify-between md:h-full">
-                    <div className="flex flex-col items-center gap-2 w-[250px]">
-                        <p className="font-bold text-center">General Info</p>
-                        <div className="w-[250px] h-[250px]">
-                            {item.modelSrc && (
-                                <ViewModelViewer modelPath={item.modelSrc} />
-                            )}
-                            {item.imageSrc && (
-                                <ViewLightbox
-                                    src={item.imageSrc}
-                                    alt={item.title}
-                                    className="object-cover size-full"
-                                    width={250}
-                                    height={250}
-                                />
-                            )}
-                        </div>
-                        <div className="w-full text-center flex flex-col gap-[8px]">
-                            <p className="text-center underline underline-offset-2 font-semibold">
-                                {item.title}
-                            </p>
+                    <div className="absolute inset-0 dark:bg-black/20 bg-white/50" />
+                </motion.div>
+            </AnimatePresence>
 
-                            <p className="flex flex-col items-center text-sm">
-                                <span className="font-semibold text-center">
-                                    First Appeared
-                                </span>
-                                <span className="text-muted-foreground text-center">
-                                    {item.chapters.includes(-1)
-                                        ? "Chapter 1"
-                                        : `Chapter ${item.chapters[0] + 1}`}
-                                </span>
+            {/* Content layer */}
+            <AnimatePresence mode="wait">
+                <motion.div
+                    key={entry.item.id}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.15 }}
+                    onAnimationComplete={handleAnimationComplete}
+                    ref={containerRef}
+                    id="glossary-viewer-container"
+                    className="flex flex-col items-center md:items-start overflow-y-auto overflow-x-hidden md:overflow-hidden md:flex-row gap-2 md:h-full md:p-0 px-2 relative"
+                >
+                    <div className="flex flex-col items-center justify-between md:h-full">
+                        <div className="flex flex-col items-center gap-2 w-[250px]">
+                            <p className="font-bold text-center">
+                                General Info
                             </p>
-
-                            <p className="flex flex-col items-center text-sm">
-                                <span className="font-semibold text-center">
-                                    Quote
-                                </span>
-                                <span className="italic text-center text-muted-foreground text-sm">
-                                    “{item.quote}”
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div
-                        className="flex overflow-x-scroll overflow-y-hidden gap-2 content-container md:w-[250px] w-[300px] min-h-0"
-                        style={{ padding: "0.5rem" }}
-                    >
-                        {item.galleryImages.map((image, index) => (
-                            <div
-                                key={index}
-                                className="shrink-0 flex-none"
-                                style={{ aspectRatio: "16/9", height: "100%" }}
-                            >
-                                <ViewLightbox
-                                    width={124}
-                                    height={70}
-                                    src={image.source.replace(
-                                        "-opt.webp",
-                                        "-opt-thumb.webp",
-                                    )}
-                                    alt={image.title || "Gallery image"}
-                                    containerClassName="w-full h-full"
-                                    className="w-full h-full border-2 border-foreground/30 shadow-md rounded-lg object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
-                                    galleryImages={item.galleryImages.map(
-                                        (img) => ({
-                                            src: img.source,
-                                            alt: img.title || "Gallery image",
-                                        }),
-                                    )}
-                                    galleryIndex={index}
-                                />
+                            <div className="w-[250px] h-[250px]">
+                                {item.modelSrc && (
+                                    <ViewModelViewer
+                                        modelPath={item.modelSrc}
+                                    />
+                                )}
+                                {item.imageSrc && (
+                                    <ViewLightbox
+                                        src={item.imageSrc}
+                                        alt={item.title}
+                                        className="object-cover size-full"
+                                        width={250}
+                                        height={250}
+                                    />
+                                )}
                             </div>
-                        ))}
-                    </div>
-                </div>
+                            <div className="w-full text-center flex flex-col gap-[8px]">
+                                <p className="text-center underline underline-offset-2 font-semibold">
+                                    {item.title}
+                                </p>
 
-                <Separator className="md:hidden" />
+                                <p className="flex flex-col items-center text-sm">
+                                    <span className="font-semibold text-center">
+                                        First Appeared
+                                    </span>
+                                    <span className="text-muted-foreground text-center">
+                                        {item.chapters.includes(-1)
+                                            ? "Chapter 1"
+                                            : `Chapter ${item.chapters[0] + 1}`}
+                                    </span>
+                                </p>
 
-                <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)]">
-                    <div
-                        ref={contentRef}
-                        id="glossary-viewer-content-container"
-                        className="w-full grow md:overflow-y-auto md-content-container"
-                    >
-                        <ViewMarkdown
-                            className="p-2"
-                            onNodeLinkClicked={() => {}}
-                            onEdgeLinkClicked={() => {}}
+                                <p className="flex flex-col items-center text-sm">
+                                    <span className="font-semibold text-center">
+                                        Quote
+                                    </span>
+                                    <span className="italic text-center text-muted-foreground text-sm">
+                                        “{item.quote}”
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            className="flex overflow-x-scroll overflow-y-hidden gap-2 content-container md:w-[250px] w-[300px] min-h-0"
+                            style={{ padding: "0.5rem" }}
                         >
-                            {item.content}
-                        </ViewMarkdown>
+                            {item.galleryImages.map((image, index) => (
+                                <div
+                                    key={index}
+                                    className="shrink-0 flex-none"
+                                    style={{
+                                        aspectRatio: "16/9",
+                                        height: "100%",
+                                    }}
+                                >
+                                    <ViewLightbox
+                                        width={124}
+                                        height={70}
+                                        src={image.source.replace(
+                                            "-opt.webp",
+                                            "-opt-thumb.webp",
+                                        )}
+                                        alt={image.title || "Gallery image"}
+                                        containerClassName="w-full h-full"
+                                        className="w-full h-full border-2 border-foreground/30 shadow-md rounded-lg object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
+                                        galleryImages={item.galleryImages.map(
+                                            (img) => ({
+                                                src: img.source,
+                                                alt:
+                                                    img.title ||
+                                                    "Gallery image",
+                                            }),
+                                        )}
+                                        galleryIndex={index}
+                                    />
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                </div>
-            </motion.div>
-        </AnimatePresence>
+
+                    <Separator className="md:hidden" />
+
+                    <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)]">
+                        <div
+                            ref={contentRef}
+                            id="glossary-viewer-content-container"
+                            className="w-full grow md:overflow-y-auto md-content-container"
+                        >
+                            <ViewMarkdown
+                                className="p-2"
+                                onNodeLinkClicked={() => {}}
+                                onEdgeLinkClicked={() => {}}
+                            >
+                                {item.content}
+                            </ViewMarkdown>
+                        </div>
+                    </div>
+                </motion.div>
+            </AnimatePresence>
+        </>
     );
 };
 
