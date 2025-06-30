@@ -110,6 +110,13 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         (arr) => arr.length === 0,
     );
 
+    const entryBg =
+        selectedCategory === "cat-weapons"
+            ? "/images-opt/item-bg-opt.webp"
+            : currentEntry
+              ? currentEntry.item.thumbnailSrc
+              : bgImage;
+
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
             <CardHeader className="pb-0 px-4">
@@ -173,30 +180,11 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 <Separator className="my-2 bg-foreground/60" />
             </CardHeader>
 
-            <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto">
-                <AnimatePresence>
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 0.15 }}
-                        className="absolute inset-0 -z-10"
-                    >
-                        <Image
-                            src={bgImage}
-                            alt=""
-                            fill
-                            className="object-cover blur-xl dark:opacity-20 opacity-30"
-                            placeholder={
-                                getBlurDataURL(bgImage) ? "blur" : "empty"
-                            }
-                            blurDataURL={getBlurDataURL(bgImage)}
-                            priority={false}
-                        />
-                        {/* Dark overlay to ensure content readability */}
-                        <div className="absolute inset-0 dark:bg-black/30 bg-white/50" />
-                    </motion.div>
-                </AnimatePresence>
+            <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto relative">
+                {/* Fade shadows for overflow boundaries */}
+                <div className="absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-t from-black/5 to-transparent pointer-events-none z-10" />
+
+                {/* Content layer */}
                 <AnimatePresence mode="wait">
                     {currentEntry === null && (
                         <motion.div
@@ -205,7 +193,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="overflow-x-hidden overflow-y-auto space-y-6"
+                            className="overflow-x-hidden overflow-y-auto space-y-6 h-full"
                         >
                             {allEmpty ? (
                                 <div className="text-center text-xl text-muted-foreground">
@@ -250,13 +238,13 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             )}
                         </motion.div>
                     )}
-
                     {currentEntry !== null && (
                         <motion.div
                             className="h-full"
                             key="viewer"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
+                            transition={{ duration: 0.15 }}
                             exit={{ opacity: 0 }}
                         >
                             <ViewGlossaryViewer entry={currentEntry} />
@@ -265,7 +253,58 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 </AnimatePresence>
             </CardContent>
 
-            <CardFooter className="p-0 py-4">
+            <AnimatePresence>
+                {currentEntry === null && (
+                    <motion.div
+                        key="card-bg"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="absolute inset-0 -z-10"
+                    >
+                        <Image
+                            src={bgImage}
+                            alt=""
+                            fill
+                            className="object-cover blur-xl dark:opacity-20 opacity-40"
+                            placeholder={
+                                getBlurDataURL(bgImage) ? "blur" : "empty"
+                            }
+                            blurDataURL={getBlurDataURL(bgImage)}
+                            priority={false}
+                        />
+                        {/* Dark overlay to ensure content readability */}
+                        <div className="absolute inset-0 dark:bg-black/30 bg-white/30" />
+                    </motion.div>
+                )}
+                {currentEntry !== null && (
+                    <motion.div
+                        key={`viewer-bg-${currentEntry.item.id}`}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="absolute inset-0 -z-10"
+                    >
+                        <Image
+                            src={entryBg}
+                            alt=""
+                            fill
+                            className="object-cover blur-xl dark:opacity-20 opacity-40"
+                            placeholder={
+                                getBlurDataURL(entryBg) ? "blur" : "empty"
+                            }
+                            blurDataURL={getBlurDataURL(entryBg)}
+                            priority={false}
+                        />
+                        {/* Dark overlay to ensure content readability */}
+                        <div className="absolute inset-0 dark:bg-black/30 bg-white/30" />
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            <CardFooter className="p-0 py-4 z-10">
                 <Tabs
                     className="m-auto"
                     value={selectedCategory}

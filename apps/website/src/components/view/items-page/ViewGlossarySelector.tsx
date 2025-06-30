@@ -1,3 +1,4 @@
+import { getBlurDataURL } from "@/lib/utils";
 import { CommonItemData } from "@enreco-archive/common/types";
 import Image from "next/image";
 import React from "react";
@@ -10,9 +11,24 @@ interface ItemSelectorProps {
 const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
     return (
         <div
-            className="view-item-selector card-deco"
+            className="view-item-selector dark:bg-white/10 bg-white/90 backdrop-blur-md shadow-lg"
             onClick={onItemClick ? () => onItemClick(item) : undefined}
         >
+            <div className="absolute inset-0 -z-10">
+                <Image
+                    src={item.thumbnailSrc}
+                    alt=""
+                    fill
+                    className="object-cover blur-xl dark:opacity-10 opacity-30"
+                    placeholder={
+                        getBlurDataURL(item.thumbnailSrc) ? "blur" : "empty"
+                    }
+                    blurDataURL={getBlurDataURL(item.thumbnailSrc)}
+                    priority={false}
+                />
+                {/* Dark overlay to ensure content readability */}
+                <div className="absolute inset-0 dark:bg-black/20 bg-white/20" />
+            </div>
             <div className="view-item-selector-inner flex items-center gap-2">
                 <Image
                     className="h-[80px] w-[80px] object-cover"
