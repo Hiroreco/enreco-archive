@@ -264,14 +264,10 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                         className="absolute inset-0 -z-10"
                     >
                         <Image
-                            src={bgImage}
+                            src={getBlurDataURL(bgImage)}
                             alt=""
                             fill
                             className="object-cover blur-xl dark:opacity-20 opacity-40"
-                            placeholder={
-                                getBlurDataURL(bgImage) ? "blur" : "empty"
-                            }
-                            blurDataURL={getBlurDataURL(bgImage)}
                             priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}
@@ -288,14 +284,10 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                         className="absolute inset-0 -z-10"
                     >
                         <Image
-                            src={entryBg}
+                            src={getBlurDataURL(entryBg)}
                             alt=""
                             fill
-                            className="object-cover blur-xl dark:opacity-20 opacity-40"
-                            placeholder={
-                                getBlurDataURL(entryBg) ? "blur" : "empty"
-                            }
-                            blurDataURL={getBlurDataURL(entryBg)}
+                            className="object-cover blur-md dark:opacity-20 opacity-40"
                             priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}

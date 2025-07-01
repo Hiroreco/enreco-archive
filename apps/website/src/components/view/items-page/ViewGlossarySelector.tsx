@@ -16,14 +16,10 @@ const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
         >
             <div className="absolute inset-0 -z-10">
                 <Image
-                    src={item.thumbnailSrc}
+                    src={getBlurDataURL(item.thumbnailSrc)}
                     alt=""
                     fill
-                    className="object-cover blur-xl dark:opacity-10 opacity-30"
-                    placeholder={
-                        getBlurDataURL(item.thumbnailSrc) ? "blur" : "empty"
-                    }
-                    blurDataURL={getBlurDataURL(item.thumbnailSrc)}
+                    className="object-cover blur-md dark:opacity-10 opacity-30"
                     priority={false}
                 />
                 {/* Dark overlay to ensure content readability */}

@@ -446,6 +446,10 @@ const ViewMusicPlayerModal = ({
         [songs, trackIndex],
     );
 
+    const coverImage = useMemo(() => {
+        return currentTrack?.coverUrl || "images-opt/song-chapter-2-opt.webp";
+    }, [currentTrack]);
+
     return (
         <Dialog
             open={open}
@@ -468,25 +472,10 @@ const ViewMusicPlayerModal = ({
             >
                 <div className="absolute inset-0 -z-10">
                     <Image
-                        src={
-                            currentTrack?.coverUrl ||
-                            "images-opt/song-chapter-2-opt.webp"
-                        }
+                        src={getBlurDataURL(coverImage)}
                         alt=""
                         fill
-                        className="object-cover blur-xl opacity-20"
-                        placeholder={
-                            getBlurDataURL(
-                                currentTrack?.coverUrl ||
-                                    "images-opt/song-chapter-2-opt.webp",
-                            )
-                                ? "blur"
-                                : "empty"
-                        }
-                        blurDataURL={getBlurDataURL(
-                            currentTrack?.coverUrl ||
-                                "images-opt/song-chapter-2-opt.webp",
-                        )}
+                        className="object-cover blur-md opacity-20"
                         priority={false}
                     />
                     {/* Dark overlay to ensure content readability */}

@@ -207,16 +207,10 @@ const ViewLightbox = ({
                     {/* Blurred background image for fancy effect*/}
                     <div className="absolute inset-0 -z-10">
                         <Image
-                            src={currentImage.src}
+                            src={getBlurDataURL(currentImage.src)}
                             alt=""
                             fill
-                            className="object-cover blur-xl opacity-30"
-                            placeholder={
-                                getBlurDataURL(currentImage.src)
-                                    ? "blur"
-                                    : "empty"
-                            }
-                            blurDataURL={getBlurDataURL(currentImage.src)}
+                            className="object-cover blur-md opacity-30"
                             priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}
