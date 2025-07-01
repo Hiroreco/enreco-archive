@@ -24,7 +24,7 @@ Interestingly, the heroes once noted how Stains emitted sounds similar to whimpe
 
 In the first journey, the heroes were tasked with defending the kingdom from the invading Stains. Little was initially known about these creatures, other than their malevolent nature and their relentless aggression toward the heroes and the world.
 
-At the forefront of this invasion stood the **Stain King**—a larger, more formidable Stain. However, it was eventually revealed that this Stain King was a false monarch, merely a key piece in a fabricated kingdom designed to imprison the true threat: the [Outsider](#entry:outlander-entry). Defeating it ultimately led to the Outsider’s release.
+At the forefront of this invasion stood the **Stain King**—a larger, more formidable Stain. However, it was eventually revealed that this Stain King was a false monarch, merely a key piece in a fabricated kingdom designed to imprison the true threat: the [Outsider](#entry:outsider-entry). Defeating it ultimately led to the Outsider’s release.
 
 #### Chapter 2
 
@@ -36,7 +36,7 @@ The second chapter introduced even more Stain types and powerful boss-class Stai
 - **Stain King Proto** – A knight-like figure, resembling the first chapter’s Stain King, guarding the [Stronghold of Ruin](#entry:stronghold-of-ruin-entry)
 - **Stain King Chaos** – A chaotic, rodent-like creature guarding [Star Site: Chaos](#entry:star-site-chaos-entry)
 
-This chapter revealed that the real world, too, was falling victim to the spread of the Stains, through an encroaching phenomenon known as the **Ruination**. At its heart lay the _Heart of Ruin_, the ultimate source of this corruption.
+This chapter revealed that the real world, too, was falling victim to the spread of the Stains through an encroaching phenomenon known as the **Ruination**. At its heart lay the _Heart of Ruin_, the ultimate source of this corruption.
 
 As the heroes ventured deeper, they uncovered scattered stories that illuminated the history and tragedy behind the Stains:
 
@@ -44,7 +44,7 @@ As the heroes ventured deeper, they uncovered scattered stories that illuminated
 - Another followed a scholar researching the Stains, who uncovered a prophecy foretelling the world’s eventual fall.
 - A third told the account of a refugee who witnessed the Ruination render lands uninhabitable and drive entire species to extinction.
 
-_Note: Further information on these stories is available in the Library Archive._
+_Note: Further information on these stories is available in the [Library](#entry:library-entry) Archive._
 
 **The “Cursed” Ones**
 One particularly chilling discovery was that of the _ruin-touched_—people who had come into contact with the corruption. These individuals lost their sanity; their spirits twisted until they were driven to commit violence against those they once held dear.
@@ -57,6 +57,6 @@ On Day 7, during the final dungeon, the [Heart of Ruin](#entry:heart-of-ruin-ent
 
 ### Current Theories
 
-Several theories have been put forward regarding the Stains’ origins. One speculates that Stains were once Libestans, transformed through corruption. Another suggests a deeper [connection](https://www.reddit.com/r/Hololive/comments/1fbq036/enreco_theory_about_the_stains/) between the Stains and Shiori Nyavellas.
+Several theories have been put forward regarding the Stains’ origins. One speculates that the Stains were once Libestans, transformed through corruption. Another suggests a deeper [connection](https://www.reddit.com/r/Hololive/comments/1fbq036/enreco_theory_about_the_stains/) between the Stains and Shiori Nyavellas.
 
 At the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself and by the heroes themselves: **"Nothing stays pure."**

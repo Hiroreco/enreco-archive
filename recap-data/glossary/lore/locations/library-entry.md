@@ -12,7 +12,7 @@
 
 ### Preface
 
-As the heroes faced off against the Outsider and watched the world around them crumble, Fia intervened. She pulled them back through time and transported them to the Library to save their lives. It was here that they first met Fia, the current Librarian, who explained their new objective: they needed to help her recover her lost memories—fragments lost due to the effects of time travel—in order to find a way to prevent the Outsider’s existence.
+As the heroes faced off against the [Outsider](#entry:outsider-entry) and watched the world around them crumble, Fia intervened. She pulled them back through time and transported them to the Library to save their lives. It was here that they first met Fia, the current Librarian, who explained their new objective: they needed to help her recover her lost memories—fragments lost due to the effects of time travel—in order to find a way to prevent the Outsider’s existence.
 
 > _The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases._
 
@@ -28,7 +28,7 @@ Most striking were the endless stacks of bookshelves lining the Library. True to
 
 ### Lore and Journals
 
-Lore played a crucial role in the second chapter, uncovering the kingdom’s history, the rise of the Stains, and hidden truths that shaped the world. These pieces of lore were found throughout the heroes’ travels—from forgotten ruins to the depths of ancient dungeons.
+Lore played a crucial role in the second chapter, uncovering the [kingdom’s](#entry:libestal-ancient-entry) history, the rise of the [Stains](#entry:stains-entry), and the hidden truths that shaped the world. These pieces of lore were found throughout the heroes’ travels—from forgotten ruins to the depths of ancient dungeons.
 
 **General Lore**
 Contained records on major figures and the overarching history of the kingdom of Libestal.

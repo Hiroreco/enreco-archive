@@ -12,7 +12,7 @@ Guilds were created to organize the heroes into manageable groups and served as 
 
 ### Preface
 
-After the temporary defeat of the Stain King, the four Guildmasters introduced themselves and shared the philosophies behind their respective guilds. Each hero was then assigned to one of these four guilds by the Room of Truth.
+After the temporary defeat of the Stain King, the four guildmasters introduced themselves and shared the philosophies behind their respective guilds. Each hero was then assigned to one of these four guilds by the Room of Truth.
 
 ### Guilds and Members
 
@@ -45,7 +45,7 @@ Their luxurious palace-like headquarters featured grand gardens and a casino—a
 **Members:** [Tam Gandr](#entry:kronii-entry), [Gonathon G](#entry:gigi-entry), [Ninomae Ina’nis](#entry:ina-entry), [Hot Pink One](#entry:irys-entry), [Koseki Bijou](#entry:bijou-entry)
 **Guildmaster:** Celesta
 
-A sanctum devoted to healing and empathy... in theory. In practice, most members, except for Ina,were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.
+A sanctum devoted to healing and empathy... in theory. In practice, most members, except for Ina, were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.
 
 Their base took the form of a serene, open-air temple that radiated tranquility—regardless of how its members behaved.
 
@@ -54,6 +54,6 @@ Their base took the form of a serene, open-air temple that radiated tranquility�
 **Members:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Mori Calliope](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry), [Mococo Abyssguard](#entry:mococo-entry), [Jyan Watson](#entry:ame-entry)
 **Guildmaster:** Viridus
 
-Champions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind fluffy girl, a quirky blonde detective, and Elizabeth—perhaps the only one who truly embodied the chivalric ideal.
+Champions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind, fluffy girl, a quirky blonde detective, and Elizabeth—perhaps the only one who truly embodied the chivalric ideal.
 
 Their headquarters was a large, circular arena visible from afar, designed as a training ground for swordplay.
