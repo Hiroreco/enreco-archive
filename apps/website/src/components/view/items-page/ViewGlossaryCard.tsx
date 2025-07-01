@@ -111,6 +111,24 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         [filteredData],
     );
 
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            const isAnyDialogOpen =
+                document.querySelector('[role="dialog"]') !== null;
+
+            if (isAnyDialogOpen) return;
+            if (event.key === "Escape" || event.key === "Backspace") {
+                if (currentEntry !== null) {
+                    goBack();
+                }
+                return;
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [currentEntry, goBack]);
+
     const entryBg = useMemo(
         () =>
             selectedCategory === "cat-weapons"

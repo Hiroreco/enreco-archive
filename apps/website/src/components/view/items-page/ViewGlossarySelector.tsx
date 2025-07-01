@@ -13,6 +13,13 @@ const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
         <div
             className="view-item-selector dark:bg-white/10 bg-white/90 backdrop-blur-md shadow-lg"
             onClick={onItemClick ? () => onItemClick(item) : undefined}
+            tabIndex={0}
+            onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    onItemClick?.(item);
+                }
+            }}
         >
             <div className="absolute inset-0 -z-10">
                 <Image
