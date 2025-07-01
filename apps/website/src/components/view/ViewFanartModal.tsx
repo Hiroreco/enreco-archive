@@ -28,6 +28,7 @@ import { ChevronUp, ExternalLink, Image as ImageIcon } from "lucide-react";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import ViewLightbox from "./ViewLightbox";
+import { LS_FANART_MODAL_HEADER_COLLAPSED } from "@/lib/constants";
 
 interface FanartEntry {
     url: string;
@@ -110,7 +111,9 @@ const ViewFanartModal = ({
     // Header collapse state - persisted in localStorage
     const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(() => {
         if (typeof window !== "undefined") {
-            const saved = localStorage.getItem("fanart-modal-header-collapsed");
+            const saved = localStorage.getItem(
+                LS_FANART_MODAL_HEADER_COLLAPSED,
+            );
             return saved === "true";
         }
         return false;
@@ -158,7 +161,7 @@ const ViewFanartModal = ({
     // Save collapse state to localStorage
     useEffect(() => {
         localStorage.setItem(
-            "fanart-modal-header-collapsed",
+            LS_FANART_MODAL_HEADER_COLLAPSED,
             isHeaderCollapsed.toString(),
         );
     }, [isHeaderCollapsed]);

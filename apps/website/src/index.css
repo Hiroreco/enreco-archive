@@ -276,12 +276,12 @@ td {
 }
 
 .content-container {
-    @apply p-4 rounded-lg bg-background/10 border shadow-lg;
+    @apply p-4 rounded-lg border-foreground/20 border shadow-lg;
 }
 
 @media (min-width: 768px) {
     .md-content-container {
-        @apply p-4 rounded-lg bg-background/10 border shadow-lg;
+        @apply p-4 rounded-lg border-foreground/20 border shadow-lg;
     }
 }
 

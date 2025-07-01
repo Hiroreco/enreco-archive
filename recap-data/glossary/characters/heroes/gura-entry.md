@@ -32,3 +32,5 @@ She regained her past memories after conquering the [Underwater Dungeon](#entry:
 ## Trivia
 
 - When the heroes were teleported back to the white box at the end of Chapter 1, Gura sneakily managed to return to Libestal. This was, of course, not supposed to happen, and she was quickly brought back into the box by the gods.
+
+[gura](#easter:easter-gura)

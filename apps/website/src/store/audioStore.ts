@@ -86,8 +86,8 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/easter/easter-gura.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-        "easter-gigi": new Howl({
-            src: ["/audio/easter/easter-gigi.mp3"],
+        "easter-awoo": new Howl({
+            src: ["/audio/easter/easter-awoo.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
         "easter-nerissa": new Howl({

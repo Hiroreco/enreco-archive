@@ -18,4 +18,8 @@ Still baffled and processing the truth, Gura and everyone else were sent back to
 
 ["Try me now, God!"](#embed:https://www.youtube.com/embed/cIb5yHw4mvk?si=FITNRJQKzyv96_MJ&start=5708)
 
-Of course, the gods caught her in no time and promptly returned her to the white room with the others. Once there, Gura reunited with her fellow Scarlet Wand members for one last group tip-touching session. And so, the curtain fell on the first chapter of her enigmatic journey.
+Of course, the gods caught her in no time and promptly returned her to the white room with the others. Once there, Gura reunited with her fellow Scarlet Wand members for one last group tip-touching session.
+
+But unfortunately, that moment truly was the shark’s final interaction with these silly heroes. Not long after, having been exposed as the one who stole the trident, she was found by the people of Atlantis and dragged back down to the depths.
+
+Even so, the shark had already left her mark—one cherished by many. Her presence alone had become a legend, destined to be remembered for as long as time endures.

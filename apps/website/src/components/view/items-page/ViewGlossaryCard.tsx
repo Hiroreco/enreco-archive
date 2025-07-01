@@ -291,7 +291,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}
-                        <div className="absolute inset-0 dark:bg-black/30 bg-white/30" />
+                        <div className="absolute inset-0 dark:bg-black/30 bg-white/50" />
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -307,7 +307,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                     }}
                     defaultValue={selectedCategory}
                 >
-                    <TabsList>
+                    <TabsList className="bg-transparent shadow-md">
                         {Object.keys(categoryMap).map((category) => (
                             <TabsTrigger value={category} key={category}>
                                 {categoryMap[category as Category].icon}
