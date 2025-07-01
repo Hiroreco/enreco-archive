@@ -163,14 +163,15 @@ const ViewLightbox = ({
     useEffect(() => {
         thumbnailRefs.current = thumbnailRefs.current.slice(0, images.length);
     }, [images.length]);
-
     // Update current image index when gallery changes (for entry switching)
     useEffect(() => {
-        if (!isOpen) return;
+        if (!isOpen || !isExternallyControlled) return;
         if (galleryImages && galleryImages.length > 0) {
             setCurrentImageIndex(0);
         }
-    }, [galleryImages, isOpen]);
+    }, [galleryImages, isOpen, isExternallyControlled]);
+
+    console.log(currentImageIndex, images.length);
 
     // Safe currentImage access with fallback
     const currentImage = useMemo(
