@@ -32,8 +32,6 @@ With the store closing and the library’s purpose fulfilled, the CEO bid farewe
 
 Faunwell, miss CEO.
 
-[Faunamart](#easter:easter-faunamart)
-
 ["Boss of FaunaMart" by Ano Yatsu](https://www.youtube.com/watch?v=T7fHJcrmO0U)
 
 ["Hololive's Biggest SCAMMER (in minecraft)" by clippy](https://www.youtube.com/watch?v=Dyia273Gi7E&ab_channel=clippy)

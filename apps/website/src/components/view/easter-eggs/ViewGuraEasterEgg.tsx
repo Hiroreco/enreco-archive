@@ -31,6 +31,7 @@ const ViewGuraEasterEgg = () => {
                     "opacity-100": !canClick,
                 })}
                 alt="gura"
+                priority={true}
             />
         </div>
     );

@@ -49,6 +49,7 @@ const ViewAwooEasterEgg = () => {
                 onClick={handleClick}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
+                priority={true}
             />
         </div>
     );

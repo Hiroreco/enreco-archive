@@ -33,5 +33,3 @@ The group was ultimately returned to the white room, marking the end of their ch
 Amelia’s journey throughout this tale was a testament to her quirks and spirit. She remained curious, witty, and ever-investigative, with a playful streak that brought light to even the darkest moments. Her sunny demeanor and relentless determination to solve mysteries left an indelible mark on her companions. Whether or not her path crosses theirs again, her impact is undeniable, and whichever path she decides to tackle next will surely be met with unwavering support and respect.
 
 Thank you for your service, detective.
-
-[Ame](#easter:easter-ame)

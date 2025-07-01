@@ -9,7 +9,7 @@ import {
     Sword,
     UserRound,
 } from "lucide-react";
-import { ReactElement, useEffect, useState } from "react";
+import { ReactElement, useEffect, useMemo, useState } from "react";
 
 import ViewGlossarySelector from "@/components/view/items-page/ViewGlossarySelector";
 import ViewGlossaryViewer from "@/components/view/items-page/ViewGlossaryViewer";
@@ -106,16 +106,20 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         }
     }, [currentEntry]);
 
-    const allEmpty = Object.values(filteredData).every(
-        (arr) => arr.length === 0,
+    const allEmpty = useMemo(
+        () => Object.values(filteredData).every((arr) => arr.length === 0),
+        [filteredData],
     );
 
-    const entryBg =
-        selectedCategory === "cat-weapons"
-            ? "/images-opt/item-bg-opt.webp"
-            : currentEntry
-              ? currentEntry.item.thumbnailSrc
-              : bgImage;
+    const entryBg = useMemo(
+        () =>
+            selectedCategory === "cat-weapons"
+                ? "/images-opt/item-bg-opt.webp"
+                : currentEntry
+                  ? currentEntry.item.thumbnailSrc
+                  : bgImage,
+        [selectedCategory, currentEntry, bgImage],
+    );
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
@@ -182,7 +186,15 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
 
             <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto relative">
                 {/* Fade shadows for overflow boundaries */}
-                <div className="absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-t from-black/5 to-transparent pointer-events-none z-10" />
+                <div
+                    className={cn(
+                        "absolute bottom-0 transition-opacity left-0 right-0 h-4 bg-gradient-to-t from-black/5 to-transparent pointer-events-none z-10",
+                        {
+                            "opacity-0": currentEntry !== null,
+                            "opacity-100": currentEntry === null,
+                        },
+                    )}
+                />
 
                 {/* Content layer */}
                 <AnimatePresence mode="wait">
@@ -309,7 +321,16 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 >
                     <TabsList className="bg-transparent shadow-md">
                         {Object.keys(categoryMap).map((category) => (
-                            <TabsTrigger value={category} key={category}>
+                            <TabsTrigger
+                                value={category}
+                                key={category}
+                                onClick={() => {
+                                    if (selectedCategory === category) {
+                                        selectItem(null);
+                                        clearHistory();
+                                    }
+                                }}
+                            >
                                 {categoryMap[category as Category].icon}
                             </TabsTrigger>
                         ))}

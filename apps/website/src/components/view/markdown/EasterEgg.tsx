@@ -1,12 +1,13 @@
 import ViewAmeEasterEgg from "@/components/view/easter-eggs/ViewAmeEasterEgg";
 import ViewFaunaEasterEgg from "@/components/view/easter-eggs/ViewFaunaEasterEgg";
 import ViewPotatoSalidEasterEgg from "@/components/view/easter-eggs/ViewPotatoSalidEasterEgg";
-import ViewAwooEasterEgg from "@/components/view/ViewAwooEasterEgg";
-import ViewGuraEasterEgg from "@/components/view/ViewGuraEasterEgg";
-import ViewMoomEasterEgg from "@/components/view/ViewMoomEasterEgg";
-import ViewNerissaEasterEgg from "@/components/view/ViewNerissaEasterEgg";
+import ViewAwooEasterEgg from "@/components/view/easter-eggs/ViewAwooEasterEgg";
+import ViewGuraEasterEgg from "@/components/view/easter-eggs/ViewGuraEasterEgg";
+import ViewMoomEasterEgg from "@/components/view/easter-eggs/ViewMoomEasterEgg";
+import ViewNerissaEasterEgg from "@/components/view/easter-eggs/ViewNerissaEasterEgg";
 
 import { ReactNode } from "react";
+import ViewLizEasterEgg from "@/components/view/easter-eggs/ViewLizEasterEgg";
 
 const EASTER_EGGS: { [key: string]: ReactNode } = {
     "easter-faunamart": <ViewFaunaEasterEgg />,
@@ -14,8 +15,9 @@ const EASTER_EGGS: { [key: string]: ReactNode } = {
     "easter-ame": <ViewAmeEasterEgg />,
     "easter-moom": <ViewMoomEasterEgg />,
     "easter-gura": <ViewGuraEasterEgg />,
-    "easter-awoo": <ViewAwooEasterEgg />,
+    "easter-gigi": <ViewAwooEasterEgg />,
     "easter-nerissa": <ViewNerissaEasterEgg />,
+    "easter-liz": <ViewLizEasterEgg />,
 };
 
 interface EasterEggProps {

@@ -34,3 +34,5 @@ This marked the close of her chapter—for now. She set off to take care of some
 ## Trivia
 
 - One of the Ancient Sewer Dungeon's rewards was the Warp Crystal. This crystal was stated to have been made by Ame.
+
+[Ame](#easter:easter-ame)

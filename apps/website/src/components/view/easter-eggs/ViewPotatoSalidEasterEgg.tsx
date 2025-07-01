@@ -24,6 +24,7 @@ const ViewPotatoSalidEasterEgg = () => {
                         !isCurrentlyPotatoSalid,
                 })}
                 alt="potato salid"
+                priority={true}
             />
         </div>
     );

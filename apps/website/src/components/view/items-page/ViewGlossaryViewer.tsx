@@ -4,7 +4,7 @@ import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
-import { useRef } from "react";
+import { useCallback, useRef } from "react";
 
 interface ViewItemViewerProps {
     entry: LookupEntry;
@@ -14,9 +14,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const contentRef = useRef<HTMLDivElement>(null);
 
-    const item = entry.item;
-
-    const handleAnimationComplete = () => {
+    const handleAnimationComplete = useCallback(() => {
         // Handle scroll position restoration after animation completes
         requestAnimationFrame(() => {
             const isMobile = window.innerWidth < 768;
@@ -31,7 +29,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                 });
             }
         });
-    };
+    }, [entry.scrollPosition]);
 
     return (
         <AnimatePresence mode="wait">
@@ -50,13 +48,15 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                     <div className="flex flex-col items-center gap-2 w-[250px]">
                         <p className="font-bold text-center">General Info</p>
                         <div className="w-[250px] h-[250px]">
-                            {item.modelSrc && (
-                                <ViewModelViewer modelPath={item.modelSrc} />
+                            {entry.item.modelSrc && (
+                                <ViewModelViewer
+                                    modelPath={entry.item.modelSrc}
+                                />
                             )}
-                            {item.imageSrc && (
+                            {entry.item.imageSrc && (
                                 <ViewLightbox
-                                    src={item.imageSrc}
-                                    alt={item.title}
+                                    src={entry.item.imageSrc}
+                                    alt={entry.item.title}
                                     className="object-cover size-full"
                                     width={250}
                                     height={250}
@@ -65,7 +65,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         </div>
                         <div className="w-full text-center flex flex-col gap-[8px]">
                             <p className="text-center underline underline-offset-2 font-semibold">
-                                {item.title}
+                                {entry.item.title}
                             </p>
 
                             <p className="flex flex-col items-center text-sm">
@@ -73,9 +73,9 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     First Appeared
                                 </span>
                                 <span className="text-muted-foreground text-center">
-                                    {item.chapters.includes(-1)
+                                    {entry.item.chapters.includes(-1)
                                         ? "Chapter 1"
-                                        : `Chapter ${item.chapters[0] + 1}`}
+                                        : `Chapter ${entry.item.chapters[0] + 1}`}
                                 </span>
                             </p>
 
@@ -84,7 +84,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     Quote
                                 </span>
                                 <span className="italic text-center text-muted-foreground text-sm">
-                                    “{item.quote}”
+                                    “{entry.item.quote}”
                                 </span>
                             </p>
                         </div>
@@ -94,7 +94,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         className="flex overflow-x-scroll overflow-y-hidden gap-2 content-container md:w-[250px] w-[300px] min-h-0"
                         style={{ padding: "0.5rem" }}
                     >
-                        {item.galleryImages.map((image, index) => (
+                        {entry.item.galleryImages.map((image, index) => (
                             <div
                                 key={index}
                                 className="shrink-0 flex-none"
@@ -113,7 +113,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     alt={image.title || "Gallery image"}
                                     containerClassName="w-full h-full"
                                     className="w-full h-full border-2 border-foreground/30 shadow-md rounded-lg object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
-                                    galleryImages={item.galleryImages.map(
+                                    galleryImages={entry.item.galleryImages.map(
                                         (img) => ({
                                             src: img.source,
                                             alt: img.title || "Gallery image",
@@ -128,7 +128,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
 
                 <Separator className="md:hidden" />
 
-                <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)]">
+                <div className="flex flex-col  gap-4 h-full w-full md:w-[calc(100%-250px)]">
                     <div
                         ref={contentRef}
                         id="glossary-viewer-content-container"
@@ -139,7 +139,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                             onNodeLinkClicked={() => {}}
                             onEdgeLinkClicked={() => {}}
                         >
-                            {item.content}
+                            {entry.item.content}
                         </ViewMarkdown>
                     </div>
                 </div>

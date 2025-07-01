@@ -25,6 +25,8 @@ interface AudioState {
     setSiteBgmKey: (key: string) => void;
     isMoomPlaying: boolean;
     setIsMoomPlaying: (isPlaying: boolean) => void;
+    isLizPlaying: boolean;
+    setIsLizPlaying: (isPlaying: boolean) => void;
 }
 
 export const useAudioStore = create<AudioState>((set, get) => ({
@@ -74,7 +76,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/sfx/sfx-chicken-pop.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-        moom: new Howl({
+        "easter-moom": new Howl({
             src: ["/audio/easter/easter-moom.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
@@ -94,11 +96,21 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/easter/easter-nerissa.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
+        "easter-ame": new Howl({
+            src: ["/audio/easter/easter-ame.mp3"],
+            volume: useSettingStore.getState().sfxVolume,
+        }),
+        "easter-liz": new Howl({
+            src: ["/audio/easter/easter-liz.mp3"],
+            volume: useSettingStore.getState().sfxVolume,
+        }),
     },
     bgmVolume: useSettingStore.getState().bgmVolume,
     sfxVolume: useSettingStore.getState().sfxVolume,
     isMoomPlaying: false,
     setIsMoomPlaying: (isPlaying: boolean) => set({ isMoomPlaying: isPlaying }),
+    isLizPlaying: false,
+    setIsLizPlaying: (isPlaying: boolean) => set({ isLizPlaying: isPlaying }),
     playBGM: (fadeInDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm && !bgm.playing()) {
@@ -128,17 +140,17 @@ export const useAudioStore = create<AudioState>((set, get) => ({
                 volume: sfxVolume,
             });
             sound.play();
-            if (name === "moom") {
-                sound.on("end", () => {
-                    get().setIsMoomPlaying(false);
-                });
-            }
         } else {
             sfx[name].volume(sfxVolume);
             sfx[name].play();
-            if (name === "moom") {
+            if (name === "easter-moom") {
                 sfx[name].once("end", () => {
                     get().setIsMoomPlaying(false);
+                });
+            }
+            if (name === "easter-liz") {
+                sfx[name].once("end", () => {
+                    get().setIsLizPlaying(false);
                 });
             }
         }

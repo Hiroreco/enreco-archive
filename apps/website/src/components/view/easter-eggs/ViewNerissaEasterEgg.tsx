@@ -18,7 +18,7 @@ const ViewNerissaEasterEgg = () => {
                 setCanClick(false);
                 setTimeout(() => {
                     setCanClick(true);
-                }, 14000);
+                }, 12000);
             }}
             className="absolute -bottom-[50px] right-2"
         >
@@ -30,6 +30,7 @@ const ViewNerissaEasterEgg = () => {
                     "cursor-pointer opacity-50 hover:opacity-100": canClick,
                     "opacity-100": !canClick,
                 })}
+                priority={true}
                 alt="nerissa"
             />
         </div>

@@ -32,3 +32,5 @@ Her journey was brief, chaotic, and incredibly silly—but one that left a lasti
 ## Trivia
 
 - Despite her masterfully crafted lottery scam, Nanamoo ended up with less profit than what she spent to set the whole scheme in motion, as she only managed to extort two out of the many people she had sold the tickets to.
+
+[Moom](#easter:easter-moom)

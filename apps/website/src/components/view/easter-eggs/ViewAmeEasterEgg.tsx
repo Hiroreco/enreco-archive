@@ -11,8 +11,8 @@ const ViewAmeEasterEgg = () => {
     const handleClick = () => {
         if (phase === "idle") {
             setPhase("clicked");
-            audioStore.playSFX("chicken-pop");
-            audioStore.playSFX("ame");
+            audioStore.playSFX("sfx-chicken-pop");
+            audioStore.playSFX("easter-ame");
 
             setTimeout(() => {
                 setPhase("run");
@@ -51,6 +51,7 @@ const ViewAmeEasterEgg = () => {
                         phase === "idle",
                 })}
                 alt="ame"
+                priority={true}
             />
         </motion.div>
     );

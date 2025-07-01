@@ -65,3 +65,5 @@ She couldn’t remember that life—not fully. But she could feel traces of it. 
 ## Trivia
 
 - As of Chapter 2, Elizabeth is the only one who has not missed a single day in this enigmatic journey.
+
+[liz](#easter:easter-liz)

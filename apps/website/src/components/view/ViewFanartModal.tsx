@@ -172,9 +172,19 @@ const ViewFanartModal = ({
                 currentLightboxEntryIndex < filteredFanart.length - 1
                     ? currentLightboxEntryIndex + 1
                     : 0;
-            setCurrentLightboxEntryIndex(nextIndex);
+
+            // Preload the first image of the next entry before switching
+            const nextEntry = filteredFanart[nextIndex];
+            if (nextEntry?.images[0]) {
+                const img = new window.Image();
+                img.src = nextEntry.images[0].src;
+                // Switch immediately after starting preload
+                setCurrentLightboxEntryIndex(nextIndex);
+            } else {
+                setCurrentLightboxEntryIndex(nextIndex);
+            }
         }
-    }, [currentLightboxEntryIndex, filteredFanart.length]);
+    }, [currentLightboxEntryIndex, filteredFanart]);
 
     const handlePrevEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
@@ -182,9 +192,42 @@ const ViewFanartModal = ({
                 currentLightboxEntryIndex > 0
                     ? currentLightboxEntryIndex - 1
                     : filteredFanart.length - 1;
-            setCurrentLightboxEntryIndex(prevIndex);
+
+            // Preload the first image of the previous entry before switching
+            const prevEntry = filteredFanart[prevIndex];
+            if (prevEntry?.images[0]) {
+                const img = new window.Image();
+                img.src = prevEntry.images[0].src;
+                // Switch immediately after starting preload
+                setCurrentLightboxEntryIndex(prevIndex);
+            } else {
+                setCurrentLightboxEntryIndex(prevIndex);
+            }
         }
-    }, [currentLightboxEntryIndex, filteredFanart.length]);
+    }, [currentLightboxEntryIndex, filteredFanart]);
+
+    // Add preloading effect for adjacent entries
+    useEffect(() => {
+        if (currentLightboxEntryIndex !== null && isLightboxOpen) {
+            // Preload next and previous entry images
+            const nextIndex =
+                currentLightboxEntryIndex < filteredFanart.length - 1
+                    ? currentLightboxEntryIndex + 1
+                    : 0;
+            const prevIndex =
+                currentLightboxEntryIndex > 0
+                    ? currentLightboxEntryIndex - 1
+                    : filteredFanart.length - 1;
+
+            [nextIndex, prevIndex].forEach((index) => {
+                const entry = filteredFanart[index];
+                if (entry?.images[0]) {
+                    const img = new window.Image();
+                    img.src = entry.images[0].src;
+                }
+            });
+        }
+    }, [currentLightboxEntryIndex, filteredFanart, isLightboxOpen]);
 
     const handleOpenLightbox = useCallback((index: number) => {
         setCurrentLightboxEntryIndex(index);
@@ -193,10 +236,6 @@ const ViewFanartModal = ({
 
     const handleCloseLightbox = useCallback(() => {
         setIsLightboxOpen(false);
-        // Delay clearing the entry to prevent flicker
-        setTimeout(() => {
-            setCurrentLightboxEntryIndex(null);
-        }, 150);
     }, []);
 
     const resetFilters = useCallback(() => {
@@ -226,10 +265,13 @@ const ViewFanartModal = ({
         }
     }, [open]);
 
-    const currentEntry =
-        currentLightboxEntryIndex !== null
-            ? filteredFanart[currentLightboxEntryIndex]
-            : null;
+    const currentEntry = useMemo(
+        () =>
+            currentLightboxEntryIndex !== null
+                ? filteredFanart[currentLightboxEntryIndex]
+                : null,
+        [currentLightboxEntryIndex, filteredFanart],
+    );
 
     return (
         <>
@@ -681,6 +723,7 @@ const ViewFanartModal = ({
                         src: img.src,
                         alt: currentEntry.label,
                     }))}
+                    priority={true}
                     alwaysShowNavigationArrows={true}
                     galleryIndex={0}
                     authorSrc={currentEntry.url}

@@ -37,5 +37,3 @@ Thank you for everything, Mumei.
 ["Taking over" by Fineria](https://x.com/Fineria_/status/1902555962864751092)
 
 ["Smol Moom" by Onecolo133](https://x.com/Onecolo133/status/1902225836020744442)
-
-[Moom](#easter:easter-moom)

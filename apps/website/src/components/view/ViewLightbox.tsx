@@ -11,7 +11,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ChevronLeft, ChevronRight, ExternalLink, X } from "lucide-react";
 import Image from "next/image";
-import { memo, useState, useRef, useEffect, useCallback } from "react";
+import { memo, useState, useRef, useEffect, useCallback, useMemo } from "react";
 
 interface GalleryImage {
     src: string;
@@ -61,10 +61,16 @@ const ViewLightbox = ({
     const carouselRef = useRef<HTMLDivElement>(null);
     const thumbnailRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-    const images = galleryImages || [{ src, alt }];
+    const images = useMemo(
+        () => galleryImages || [{ src, alt }],
+        [galleryImages, src, alt],
+    );
 
     // Use external control if provided, otherwise use internal
-    const isOpen = isExternallyControlled ? externalIsOpen : internalIsOpen;
+    const isOpen = useMemo(
+        () => (isExternallyControlled ? externalIsOpen : internalIsOpen),
+        [isExternallyControlled, externalIsOpen, internalIsOpen],
+    );
 
     const handleOpenChange = useCallback(
         (open: boolean) => {
@@ -105,9 +111,9 @@ const ViewLightbox = ({
         }
     }, [currentImageIndex, onPrevEnd, images.length]);
 
-    const handleThumbnailClick = (index: number) => {
+    const handleThumbnailClick = useCallback((index: number) => {
         setCurrentImageIndex(index);
-    };
+    }, []);
 
     // Center the selected thumbnail when it changes
     useEffect(() => {
@@ -160,13 +166,17 @@ const ViewLightbox = ({
 
     // Update current image index when gallery changes (for entry switching)
     useEffect(() => {
+        if (!isOpen) return;
         if (galleryImages && galleryImages.length > 0) {
             setCurrentImageIndex(0);
         }
-    }, [galleryImages]);
+    }, [galleryImages, isOpen]);
 
     // Safe currentImage access with fallback
-    const currentImage = images[currentImageIndex] || images[0] || { src, alt };
+    const currentImage = useMemo(
+        () => images[currentImageIndex] || images[0] || { src, alt },
+        [images, currentImageIndex, src, alt],
+    );
 
     return (
         <div className={containerClassName}>
@@ -210,8 +220,8 @@ const ViewLightbox = ({
                             src={getBlurDataURL(currentImage.src)}
                             alt=""
                             fill
+                            priority={priority}
                             className="object-cover blur-md opacity-30"
-                            priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}
                         <div className="absolute inset-0 bg-black/30" />
@@ -254,6 +264,7 @@ const ViewLightbox = ({
                                         ? "blur"
                                         : "empty"
                                 }
+                                priority={priority}
                                 blurDataURL={getBlurDataURL(currentImage.src)}
                                 width={1200}
                                 height={1200}

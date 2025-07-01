@@ -37,3 +37,5 @@ Having now vanished with the profits in hand, fleeing interrogation from the aut
 
 - Despite rejecting allegations of scamming her customers, Fauna, during the first few days of running the lottery, didn't realize that the magical system she used to generate random numbers was flawed. In other words, she had, albeit accidentally, scammed her customers by producing rigged results.
 - Although Fauna ran the largest business in the kingdom, she was far from being the richest. That title belonged to Nerissa, ironically, one of her own employees.
+
+[Faunamart](#easter:easter-faunamart)

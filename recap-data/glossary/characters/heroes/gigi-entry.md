@@ -42,3 +42,5 @@ Despite his mental malaise, Gonathon would go on to help many people and inspire
 At the same time as his humbleness and everlasting loyalty shown through, so too did his naivety and inability to make his own choices. Nowhere was this more apparent than in his relationship with Shiori of the Nyavellas. Unable to recall his Pearl, Gonathon sought to mend the hole in his heart by supporting and courting Shiori. Regardless of his pure and noble intentions, Gonathon’s failure to decouple his dedication to his queen from his desire for love led him to fumble several times in his interactions with Shiori. While the two eventually reconciled, this heartbreak would leave a lasting impact on Gonathon, and finally push him to take more agency in his life.
 
 While the future remains murky, particularly given the climatic conclusion of Chapter 2, Gonathon has come out of his adventures in past Libestal determined to fight for what he believes in and right his past wrongs.
+
+[gigi](#easter:easter-gigi)
