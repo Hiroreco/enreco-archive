@@ -32,3 +32,5 @@ Her journey was not smooth-sailing . This, also due the corruption that took ove
 Chapter 2 presented Mococo an opportunity to start anew and forget her mistakes. This jeweler was sort of a meddler herself— eavesdropping is her new hobby.
 
 On the final day, Mococo, along with Fuwawa, Bijou, Nerissa, and Shiori, rejected Fia’s wish and chose to rebel.
+
+[mococo](#easter:easter-mococo)

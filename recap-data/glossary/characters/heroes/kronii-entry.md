@@ -50,3 +50,5 @@ She severed ties, took revenge, and made a play for Ina herself. In a dramatic r
 ## Trivia
 
 - Tam was the poorest of all the heroes in Chapter 1; she was also the only person who never managed to pass the 1,000-coin mark.
+
+[kronii](#easter:easter-kronii)

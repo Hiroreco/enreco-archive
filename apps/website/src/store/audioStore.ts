@@ -76,26 +76,13 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/sfx/sfx-chicken-pop.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-        "easter-moom": new Howl({
-            src: ["/audio/easter/easter-moom.mp3"],
-            volume: useSettingStore.getState().sfxVolume,
-        }),
-        "shiori-chicken": new Howl({
-            src: ["/audio/easter/easter-shiori.mp3"],
-            volume: useSettingStore.getState().sfxVolume,
-        }),
-        "easter-gura": new Howl({
-            src: ["/audio/easter/easter-gura.mp3"],
-            volume: useSettingStore.getState().sfxVolume,
-        }),
+
+        // these easters should be preloaded
         "easter-awoo": new Howl({
             src: ["/audio/easter/easter-awoo.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-        "easter-nerissa": new Howl({
-            src: ["/audio/easter/easter-nerissa.mp3"],
-            volume: useSettingStore.getState().sfxVolume,
-        }),
+
         "easter-ame": new Howl({
             src: ["/audio/easter/easter-ame.mp3"],
             volume: useSettingStore.getState().sfxVolume,
@@ -136,7 +123,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         const { sfx, sfxVolume } = get();
         if (!sfx[name]) {
             const sound = new Howl({
-                src: [`/audio/sfx/${name}.mp3`],
+                src: [`/audio/${name}.mp3`],
                 volume: sfxVolume,
             });
             sound.play();

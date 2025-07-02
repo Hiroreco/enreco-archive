@@ -19,11 +19,11 @@ const ViewShioriGame = () => {
     const handleShioriPress = () => {
         if (!shioriPressed) {
             playSFX("chicken-pop");
-            playSFX("shiori-chicken");
+            playSFX("easter/easter-shiori-minigame");
             setShioriPressed(true);
             setTimeout(() => {
                 setShioriPressed(false);
-            }, 10000);
+            }, 11000);
         }
     };
 

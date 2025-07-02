@@ -44,3 +44,5 @@ Despite her efforts, Elizabeth’s heart already belonged to another. Even so, a
 ## Trivia
 
 - If one had a nickel for every time Raora ended up married with someone on day 7 of each chapter, they’d have two nickels. Which isn’t a lot, but it’s weird that it happened twice.
+
+[raora](#easter:easter-raora)

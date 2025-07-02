@@ -1,9 +1,21 @@
-import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { useState } from "react";
 
-const ViewGuraEasterEgg = () => {
+interface ViewBasicEggProps {
+    sfxName: string;
+    imageName: string;
+    delayDuration: number;
+    className?: string;
+}
+
+const ViewBasicEgg = ({
+    sfxName,
+    imageName,
+    delayDuration,
+    className = "",
+}: ViewBasicEggProps) => {
     const { playSFX } = useAudioStore();
     const [canClick, setCanClick] = useState(true);
 
@@ -11,30 +23,33 @@ const ViewGuraEasterEgg = () => {
         <div
             onClick={() => {
                 if (!canClick) return;
-                playSFX("sfx-chicken-pop");
+                playSFX("chicken-pop");
                 setTimeout(() => {
-                    playSFX("easter-gura");
+                    playSFX(sfxName);
                 }, 1000);
                 setCanClick(false);
                 setTimeout(() => {
                     setCanClick(true);
-                }, 17000);
+                }, delayDuration);
             }}
-            className="absolute -bottom-[100px] right-2 h-[150px] overflow-hidden"
+            className={cn(
+                "absolute -bottom-[100px] right-2 h-[150px] overflow-hidden",
+                className,
+            )}
         >
             <Image
                 width={100}
                 height={100}
-                src="images-opt/easter-gura-opt.webp"
+                src={`images-opt/${imageName}-opt.webp`}
                 className={cn("transition-opacity", {
                     "cursor-pointer opacity-50 hover:opacity-100": canClick,
                     "opacity-100": !canClick,
                 })}
-                alt="gura"
+                alt={imageName}
                 priority={true}
             />
         </div>
     );
 };
 
-export default ViewGuraEasterEgg;
+export default ViewBasicEgg;

@@ -30,3 +30,5 @@ She rarely took nonsense from anyone else, confident and poised she was in her j
 Shakira continued to keep her head held high in Chapter 2. She was assigned a new role in this chapter, to become a "Lorekeeper" alongside Mori Calliope whom she weirdly felt close feelings for.
 
 As Shakira reached her lowest point towards the end of the chapter, she saw the light in a certain beeg cat. In a sudden twist of events, Kiara tied the knot with Roa with new-found admiration and love. This chapter ended in a wholesome note for the orange warrior. She earned the happy ending of her love story, what more could you ask for?
+
+[kiara](#easter:easter-kiara)

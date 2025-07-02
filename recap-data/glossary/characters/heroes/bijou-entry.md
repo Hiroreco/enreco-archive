@@ -59,3 +59,5 @@ _“After all, nothing stays pure,”_ the gem maiden [said](https://www.youtube
 
 - By playing the music disc "Violet"—as a prank to mess with Ina, Bijou accidentally made one of the most iconic moments that defined Chapter 1, between Gonathon G and Amelia Watson.
 - Many others had a habit of calling the gem princess "Biboo", which usually prompted Bijou to correct them.
+
+[bijou](#easter:easter-bijou)

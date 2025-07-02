@@ -45,3 +45,5 @@ On the final day, Fuwawa, along with Mococo, Bijou, Nerissa, and Shiori, turned 
 
 - Fuwawa's chicken flocks in Chapter 1 were murdered, and rebuilt, and murdered again, a total of 6 times.
 - By Chapter 2, Fuwawa had amassed over 60,000 coins, becoming the richest person in the kingdom and surpassing Nerissa's Chapter 1 record of around 50,000 coins.
+
+[fuwawa](#easter:easter-fuwawa)

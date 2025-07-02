@@ -42,3 +42,5 @@ And so, Ina made a [decision](https://www.youtube.com/live/PoM6ETBlOVY?t=723). S
 ## Trivia
 
 - In both instances where Ina found herself caught in the crossfire of affair and romance drama—first with the Gonathon and Pearl situation in Chapter 1, and then with the Tam Gandr situation in Chapter 2—it was, unsurprisingly, her consort, the Hot Pink One, who was the root cause behind it all.
+
+[ina](#easter:easter-ina)
