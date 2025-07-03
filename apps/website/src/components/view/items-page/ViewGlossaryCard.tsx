@@ -60,6 +60,7 @@ const subCatergoryMap: Record<string, string> = {
     "special-quests": "Special Quests",
     mechanics: "Mechanics",
     quests: "Quests",
+    "side-quests": "Side Quests",
 };
 
 const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {

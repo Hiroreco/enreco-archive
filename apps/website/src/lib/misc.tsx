@@ -1,10 +1,18 @@
-import { Book, Monitor, Palette, Pencil } from "lucide-react";
+import {
+    Laptop,
+    Monitor,
+    NotebookPen,
+    Palette,
+    SquareCheckBig,
+    SquarePen,
+    Star,
+} from "lucide-react";
 
 const iconSize = 20;
 export const CONTRIBUTORS = [
     {
-        role: "Organizer",
-        icon: <Pencil size={iconSize} />,
+        role: "Project Lead",
+        icon: <Star size={iconSize} />,
         contributors: [
             {
                 name: "Hiro",
@@ -13,7 +21,7 @@ export const CONTRIBUTORS = [
         ],
     },
     {
-        role: "Developer",
+        role: "Main Developer",
         icon: <Monitor size={iconSize} />,
         contributors: [
             {
@@ -24,6 +32,12 @@ export const CONTRIBUTORS = [
                 name: "Hiro",
                 socials: "https://x.com/hiroavrs",
             },
+        ],
+    },
+    {
+        role: "Assisted Developer",
+        icon: <Laptop size={iconSize} />,
+        contributors: [
             {
                 name: "goose",
                 socials: "https://github.com/Pyreko",
@@ -46,19 +60,59 @@ export const CONTRIBUTORS = [
                 name: "A1on",
                 socials: "https://x.com/_a1on",
             },
+        ],
+    },
+    {
+        role: "Quality Assurance",
+        icon: <SquareCheckBig size={iconSize} />,
+        contributors: [
             {
-                name: "keenbiscuit",
-                socials: "https://x.com/keenbiscuit",
+                name: "Sloth",
+                socials: "https://x.com/Sloth4784",
             },
             {
-                name: "SuperAppleMan",
-                socials: "https://x.com/KW7MD8FEWT7lMXx",
+                name: "fast_as_nuk",
+                socials: "https://x.com/fast_as_nuk",
+            },
+            {
+                name: "fireycar",
+                socials: null,
             },
         ],
     },
     {
-        role: "Archiver",
-        icon: <Book size={iconSize} />,
+        role: "Archive Assistant",
+        icon: <SquarePen size={iconSize} />,
+        contributors: [
+            {
+                name: "Rieght",
+                socials: "https://www.youtube.com/@immergruenclips",
+            },
+            {
+                name: "dulce",
+                socials: null,
+            },
+            {
+                name: "Squid",
+                socials: "https://x.com/Squid_the_Weeb",
+            },
+            {
+                name: "Minhatory",
+                socials: "https://x.com/minhatory ",
+            },
+            {
+                name: "tom8o",
+                socials: "https://x.com/Tom_8o",
+            },
+            {
+                name: "Aki",
+                socials: "https://x.com/Aki_Zaychik",
+            },
+        ],
+    },
+    {
+        role: "Archive Writer",
+        icon: <NotebookPen size={iconSize} />,
         contributors: [
             {
                 name: "Hiro",
@@ -68,10 +122,7 @@ export const CONTRIBUTORS = [
                 name: "Zephyr Kitten",
                 socials: "https://x.com/ZephyrKitten",
             },
-            {
-                name: "Rieght",
-                socials: "https://www.youtube.com/@immergruenclips",
-            },
+
             {
                 name: "Fayelinya Luna",
                 socials: "https://fayelinyaluna.carrd.co/",
@@ -84,18 +135,12 @@ export const CONTRIBUTORS = [
                 name: "KugaGray",
                 socials: "https://x.com/KuyaGray",
             },
-            {
-                name: "Minhatory",
-                socials: "https://x.com/minhatory ",
-            },
+
             {
                 name: "TsukiBep",
                 socials: "https://x.com/tsukibep",
             },
-            {
-                name: "Sloth",
-                socials: "https://x.com/Sloth4784",
-            },
+
             {
                 name: "SB",
                 socials: "https://x.com/SBERBholo",
@@ -104,14 +149,7 @@ export const CONTRIBUTORS = [
                 name: "Zel",
                 socials: "https://x.com/zelmaelstrom",
             },
-            {
-                name: "Squid",
-                socials: "https://x.com/Squid_the_Weeb",
-            },
-            {
-                name: "fast_as_nuk",
-                socials: "https://x.com/fast_as_nuk",
-            },
+
             {
                 name: "Perks",
                 socials: "https://x.com/PerksJAZZBERI",
@@ -119,18 +157,6 @@ export const CONTRIBUTORS = [
             {
                 name: "esca",
                 socials: "https://x.com/esca_prod",
-            },
-            {
-                name: "tom8o",
-                socials: "https://x.com/Tom_8o",
-            },
-            {
-                name: "Aki",
-                socials: "https://x.com/Aki_Zaychik",
-            },
-            {
-                name: "dulce",
-                socials: null,
             },
         ],
     },

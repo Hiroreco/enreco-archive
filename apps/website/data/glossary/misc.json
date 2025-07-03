@@ -88,7 +88,7 @@
       "imageSrc": "/images-opt/minigames-entry-opt.webp"
     }
   ],
-  "quests": [
+  "side-quests": [
     {
       "id": "portraits-entry",
       "title": "Portraits",
