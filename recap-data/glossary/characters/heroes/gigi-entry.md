@@ -33,7 +33,7 @@ Despite many fumbles along the way, Gonathon would prove not only that he was a 
 
 **Name:** Gonathon G.
 
-**Job:** Blacksmith
+**Job:** Smith
 
 The second chapter of Gonathon’s adventure would see even more triumph and heartache. Going into this new adventure, the humble knight was seemingly once again afflicted with amnesia, and the loss of the memory of his Pearl would serve as the core of his struggles.
 
