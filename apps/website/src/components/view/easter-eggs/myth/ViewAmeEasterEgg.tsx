@@ -22,38 +22,36 @@ const ViewAmeEasterEgg = () => {
 
     const variants = {
         idle: {},
-        clicked: {
-            opacity: 1,
-        },
-        run: {
-            x: ["0px", "200px"],
-            opacity: [1, 0],
-        },
+        clicked: { x: 0, opacity: 1 },
+        run: { x: 100, opacity: 0 },
     };
 
     return (
-        <motion.div
-            variants={variants}
-            animate={phase}
-            transition={{
-                duration: phase === "clicked" ? 0.2 : 1,
-                ease: "easeInOut",
-            }}
+        <div
             onClick={handleClick}
-            className="absolute -bottom-[20px] right-2 h-[120px] overflow-hidden"
+            className="absolute -bottom-[20px] right-2 h-[120px] w-[100px] overflow-hidden"
         >
-            <Image
-                width={100}
-                height={100}
-                src="images-opt/easter-ame-opt.webp"
-                className={cn("mx-auto transition-opacity translate-y-[50%]", {
-                    "cursor-pointer opacity-50 hover:opacity-100":
-                        phase === "idle",
-                })}
-                alt="ame"
-                priority={true}
-            />
-        </motion.div>
+            <motion.div
+                variants={variants}
+                animate={phase}
+                transition={{
+                    duration: phase === "clicked" ? 0.2 : 1,
+                    ease: "easeInOut",
+                }}
+            >
+                <Image
+                    width={100}
+                    height={100}
+                    src="images-opt/easter-ame-opt.webp"
+                    className={cn("mx-auto transition-opacity translate-y-[50%]", {
+                        "cursor-pointer opacity-50 hover:opacity-100":
+                            phase === "idle",
+                    })}
+                    alt="ame"
+                    priority={true}
+                />
+            </motion.div>
+        </div>
     );
 };
 

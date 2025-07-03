@@ -1,6 +1,7 @@
 "use client";
 import "@/index.css";
 import { useSettingStore, FontSize } from "@/store/settingStore";
+import { useAudioSettingsSync } from "@/store/audioStore";
 import { PT_Sans } from "next/font/google";
 import { useEffect, useState } from "react";
 
@@ -31,6 +32,9 @@ export default function RootLayout({
 }) {
     const [mounted, setMounted] = useState(false);
     const fontSize = useSettingStore((state) => state.fontSize);
+
+    // Sync audio settings
+    useAudioSettingsSync();
 
     // Avoid hydration mismatch
     useEffect(() => {
