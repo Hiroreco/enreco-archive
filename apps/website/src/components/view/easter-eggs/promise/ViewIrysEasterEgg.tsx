@@ -5,7 +5,7 @@ const ViewIrysEasterEgg = () => {
         <ViewBasicEgg
             imageName="easter-irys"
             sfxName="easter/easter-irys"
-            delayDuration={3000}
+            delayDuration={4000}
         />
     );
 };

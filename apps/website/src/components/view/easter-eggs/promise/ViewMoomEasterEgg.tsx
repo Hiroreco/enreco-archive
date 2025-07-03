@@ -12,10 +12,10 @@ const ViewMoomEasterEgg = () => {
                 audioStore.setIsMoomPlaying(true);
                 audioStore.playSFX("chicken-pop");
                 setTimeout(() => {
-                    audioStore.playSFX("easter-moom");
+                    audioStore.playSFX("easter/easter-moom");
                 }, 1000);
             }}
-            className="absolute -bottom-[24px] right-2 h-[150px] overflow-hidden"
+            className="absolute -bottom-[50px] right-2 h-[150px] overflow-hidden"
         >
             <Image
                 width={100}

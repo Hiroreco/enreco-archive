@@ -19,6 +19,7 @@ import ViewMococoEasterEgg from "@/components/view/easter-eggs/advent/ViewMococo
 import ViewShioriEasterEgg from "@/components/view/easter-eggs/advent/ViewShioriEasterEgg";
 import ViewCeciliaEasterEgg from "@/components/view/easter-eggs/justice/ViewCeciliaEasterEgg";
 import ViewRaoraEasterEgg from "@/components/view/easter-eggs/justice/ViewRaoraEasterEgg";
+import ViewBijouEasterEgg from "@/components/view/easter-eggs/advent/ViewBijouEasterEgg";
 
 const EASTER_EGGS: { [key: string]: ReactNode } = {
     "easter-potato": <ViewPotatoSalidEasterEgg />,
@@ -35,6 +36,7 @@ const EASTER_EGGS: { [key: string]: ReactNode } = {
     "easter-nerissa": <ViewNerissaEasterEgg />,
     "easter-fuwawa": <ViewFuwawaEasterEgg />,
     "easter-mococo": <ViewMococoEasterEgg />,
+    "easter-bijou": <ViewBijouEasterEgg />,
     "easter-shiori": <ViewShioriEasterEgg />,
     "easter-gigi": <ViewAwooEasterEgg />,
     "easter-liz": <ViewLizEasterEgg />,

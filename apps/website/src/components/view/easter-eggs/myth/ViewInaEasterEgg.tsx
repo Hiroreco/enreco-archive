@@ -6,6 +6,7 @@ const ViewInaEasterEgg = () => {
             imageName="easter-ina"
             sfxName="easter/easter-ina"
             delayDuration={5000}
+            className="-bottom-[80px]"
         />
     );
 };

@@ -20,7 +20,20 @@ const ViewBasicEgg = ({
     const [canClick, setCanClick] = useState(true);
 
     return (
-        <div
+        <Image
+            width={100}
+            height={100}
+            src={`images-opt/${imageName}-opt.webp`}
+            className={cn(
+                "transition-opacity absolute -bottom-[50px] right-0 h-[100px] w-auto",
+                {
+                    "cursor-pointer opacity-50 hover:opacity-100": canClick,
+                    "opacity-100": !canClick,
+                },
+                className,
+            )}
+            alt={imageName}
+            priority={true}
             onClick={() => {
                 if (!canClick) return;
                 playSFX("chicken-pop");
@@ -32,23 +45,7 @@ const ViewBasicEgg = ({
                     setCanClick(true);
                 }, delayDuration);
             }}
-            className={cn(
-                "absolute -bottom-[100px] right-2 h-[150px] overflow-hidden",
-                className,
-            )}
-        >
-            <Image
-                width={100}
-                height={100}
-                src={`images-opt/${imageName}-opt.webp`}
-                className={cn("transition-opacity", {
-                    "cursor-pointer opacity-50 hover:opacity-100": canClick,
-                    "opacity-100": !canClick,
-                })}
-                alt={imageName}
-                priority={true}
-            />
-        </div>
+        />
     );
 };
 

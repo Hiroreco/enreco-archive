@@ -70,3 +70,5 @@ When Fia called on the heroes to fight the Outsider, five of them refused: Neris
 ## Trivia
 
 - Shiori has a habit of referring to others not by their actual names, but by quirky, often oddly specific titles. Some examples include: Nerissa as "the birded one" or _"the tall lady,"_ Gonathon as _"the fumbly one,"_ Mococo as _"the belly button girl,"_ and so on.
+
+[shiori](#easter:easter-shiori)

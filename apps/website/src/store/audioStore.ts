@@ -121,20 +121,22 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     },
     playSFX: (name: string) => {
         const { sfx, sfxVolume } = get();
+        // this bit is a bit funky since i want to prioritize preloading certain easter eggs to others
         if (!sfx[name]) {
             const sound = new Howl({
                 src: [`/audio/${name}.mp3`],
                 volume: sfxVolume,
             });
             sound.play();
-        } else {
-            sfx[name].volume(sfxVolume);
-            sfx[name].play();
-            if (name === "easter-moom") {
-                sfx[name].once("end", () => {
+            if (name === "easter/easter-moom") {
+                sound.once("end", () => {
                     get().setIsMoomPlaying(false);
                 });
             }
+        } else {
+            sfx[name].volume(sfxVolume);
+            sfx[name].play();
+
             if (name === "easter-liz") {
                 sfx[name].once("end", () => {
                     get().setIsLizPlaying(false);
