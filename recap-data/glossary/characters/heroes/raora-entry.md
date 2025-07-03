@@ -1,5 +1,5 @@
 <!-- title: Raora Panthera -->
-<!-- quote: For honour, onwards and upwards!-->
+<!-- quote: She is FA KE! She is FA KE!-->
 <!-- chapters: -1 -->
 <!-- images:  -->
 <!-- model: false -->
@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
-**Revelation** [Purrfect Execution](#entry:purrfect-execution-entry)
+**Revelation:** [Purrfect Execution](#entry:purrfect-execution-entry)
 
 Raora, first a (fake) queen married to another (fake) queen, then a jewel store owner married to a cat-loving woman, was the hard-working big cat who dabbled in many different endeavors, and for some reason, constantly sought out romantic partners.
 

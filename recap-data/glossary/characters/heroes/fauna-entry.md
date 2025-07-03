@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
-**Revelation** [Nature's Grace](#entry:natures-grace-entry)
+**Revelation:** [Nature's Grace](#entry:natures-grace-entry)
 **Status:** Running from the authorities
 
 Ceres Fauna was truly one of a kind—not only did she diverge from the main objective of the story as far as humanly possible, she also managed to become one of the most prominent figures of the first chapter thanks to her infamous business venture: FaunaMart.

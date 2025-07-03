@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** [Recollected](https://youtu.be/A3bQdV_sl08)
-**Revelation** [Burning Phoenix](#entry:burning-phoenix-entry)
+**Revelation:** [Burning Phoenix](#entry:burning-phoenix-entry)
 
 Shakira, short for Tanakisha Karia and who now goes by Kiara, is the allmighty phoenix warrior who is always eager to support her friends and fight for justice. Despite her own occasional mishaps, she always tried her best to do follow her mind and heart no matter the cost.
 

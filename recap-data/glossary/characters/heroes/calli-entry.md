@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** [Recollected](https://youtu.be/j8I3gqJV1NU)
-**Revelation** [Rest In Peace](#entry:rest-in-peace-entry)
+**Revelation:** [Rest In Peace](#entry:rest-in-peace-entry)
 
 Mori Calliope, now remembered as Mori Calliope, lorem ipsum
 

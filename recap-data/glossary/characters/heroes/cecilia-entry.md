@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
-**Revelation** [Automaton Assault](#entry:automaton-assault-entry)
+**Revelation:** [Automaton Assault](#entry:automaton-assault-entry)
 
 Cecilia was an enigma: a theorist, a contrarian, a knight who only served royalty, and a chaos enabler wherever she went. Always stirring up wild theories and pouring oil into already chaotic fires, she had a knack for yapping endlessly on the spot. Anyone foolish enough to argue with her had virtually no chance of winning.
 

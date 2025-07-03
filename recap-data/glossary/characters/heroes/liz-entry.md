@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
-**Revelation** [Thorn of Order](#entry:thorn-of-order-entry)
+**Revelation:** [Thorn of Order](#entry:thorn-of-order-entry)
 
 Elizabeth had always been a knight through and through. From the very first day of her journey, she stood unwavering—just, strong-willed, and devoted to what was right. She fought against wrongs and injustice with unwavering conviction. Yet beneath that armored resolve lay a caring, loving heart that always looked out for others. This was especially true when it came to a certain blue maiden, whose very presence sent the red knight’s heart fluttering time and time again.
 

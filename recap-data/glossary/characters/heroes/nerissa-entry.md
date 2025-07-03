@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
-**Revelation** [Resonant Strike](#entry:resonant-strike-entry)
+**Revelation:** [Resonant Strike](#entry:resonant-strike-entry)
 
 Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bloodflame Ravencroft (what a long name!) in Chapter 2, was a dedicated member of the Scarlet Wand- the guild of the knowledgeable or as the people in Libestal Ficta call it, the guild of witches. She has some sort of love-hate relationship with Lady Bloodflame which has not been resolved in Chapter One, and thus has been carried over in Chapter Two despite her memory loss.
 

@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** Not Recollected
-**Revelation** [Winds of Civilization](#entry:winds-of-civilzation-entry)
+**Revelation:** [Winds of Civilization](#entry:winds-of-civilzation-entry)
 **Status:** Running from the authorities
 
 Nanamoo was strange, weird, arguably unwell, or—if we’re being generous—simply silly. Her offbeat demeanor and unsettlingly unpredictable energy managed to spook not only a few of the other heroes, but even the voices in her head. No one could quite tell what she was doing or why she was doing it, but one thing was clear: she was adorable. And much like her green business partner, she’s now on the run from the authorities for a very familiar reason—scamming.

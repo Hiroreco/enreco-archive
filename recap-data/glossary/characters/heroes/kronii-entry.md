@@ -1,5 +1,5 @@
 <!-- title: Ouro Kronii -->
-<!-- quote: It is simply way too early for this-->
+<!-- quote: It is simply too early for this-->
 <!-- chapters: -1 -->
 <!-- images: (Tam's Chapter 1 Profile), (Tam's Chapter 2 Profile #1), (Tam's Chapter 2 Profile #2), (Tam in the "Monster" MV), (Recollection - Ouro Kronii), (Tam in Chapter 2's Ending) -->
 <!-- model: false -->
@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** [Recollected](https://youtu.be/aSFZwinYaaU)
-**Revelation** [Chrono Surge](#entry:chrono-surge-entry)
+**Revelationz:** [Chrono Surge](#entry:chrono-surge-entry)
 
 Tam Gandr, now fully remembered as Ouro Kronii, was infamous in the kingdom for her oppressive charisma, razor-sharp tongue, inflated narcissism, and most of all—her endlessly boasted, self-proclaimed status as Queen.
 

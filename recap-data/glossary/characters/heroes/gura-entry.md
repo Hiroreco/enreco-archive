@@ -7,7 +7,7 @@
 ## Overview
 
 **Memories:** [Recollected](https://youtu.be/SDnRHwpnIH4)
-**Revelation** [Oceanic Terror](#entry:oceanic-terror-entry)
+**Revelation:** [Oceanic Terror](#entry:oceanic-terror-entry)
 **Status:** Back to Atlantis
 
 Gura was joyful, quirky, and someone everyone loved to be around thanks to her bubbly personality and sense of humor. Though her journey with the others was cut short when she was taken back to Atlantis, the memories she made—with her friends and the voices in her head—will remain forevermore.
