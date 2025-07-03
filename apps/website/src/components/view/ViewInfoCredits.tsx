@@ -17,9 +17,9 @@ const CreditBlock = ({
 }) => {
     return (
         <div className="text-center sm:text-left">
-            <div className="flex gap-2 items-center font-bold justify-center sm:justify-start">
+            <div className="flex underline underline-offset-2 gap-2 items-center font-bold justify-center sm:justify-start">
                 {icon}
-                <span className="underline underline-offset-2">{role}</span>
+                {role}
             </div>
             <ul className="list-disc mt-2 text-left sm:text-left">
                 {contributors.map((contributor, index) => (
@@ -49,8 +49,13 @@ const ViewInfoCredits = () => {
     const archiverCredits = CONTRIBUTORS.filter(
         (credit) => credit.role === "Archive Writer",
     );
+    const archiveAssistants = CONTRIBUTORS.filter(
+        (credit) => credit.role === "Archive Assistant",
+    );
     const otherCredits = CONTRIBUTORS.filter(
-        (credit) => credit.role !== "Archive Writer",
+        (credit) =>
+            credit.role !== "Archive Writer" &&
+            credit.role !== "Archive Assistant",
     );
     return (
         <div className="flex flex-col gap-4">
@@ -66,29 +71,63 @@ const ViewInfoCredits = () => {
                 ))}
             </div>
 
-            <div className="flex gap-2 items-center font-bold justify-center sm:justify-start">
-                {archiverCredits[0].icon}
-                {archiverCredits[0].role}
-            </div>
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-2 text-center sm:text-left">
-                {archiverCredits[0].contributors.map((contributor, index) => (
-                    <div
-                        className="flex gap-2 justify-center sm:justify-start"
-                        key={index}
-                    >
-                        {contributor.socials === null ? (
-                            <span>{contributor.name}</span>
-                        ) : (
-                            <a
-                                href={contributor.socials}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {contributor.name}
-                            </a>
+            <div className="grid lg:grid-cols-2 gap-4">
+                <div className="flex flex-col lg:items-center gap-2">
+                    <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
+                        {archiverCredits[0].icon}
+                        {archiverCredits[0].role}
+                    </div>
+                    <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 text-center sm:text-left">
+                        {archiverCredits[0].contributors.map(
+                            (contributor, index) => (
+                                <div
+                                    className="flex gap-2 justify-center sm:justify-start"
+                                    key={index}
+                                >
+                                    {contributor.socials === null ? (
+                                        <span>{contributor.name}</span>
+                                    ) : (
+                                        <a
+                                            href={contributor.socials}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            {contributor.name}
+                                        </a>
+                                    )}
+                                </div>
+                            ),
                         )}
                     </div>
-                ))}
+                </div>
+                <div className="flex flex-col lg:mx-auto gap-2">
+                    <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
+                        {archiveAssistants[0].icon}
+                        {archiveAssistants[0].role}
+                    </div>
+                    <div className="grid gap-2 text-center sm:text-left">
+                        {archiveAssistants[0].contributors.map(
+                            (contributor, index) => (
+                                <div
+                                    className="flex gap-2 justify-center sm:justify-start"
+                                    key={index}
+                                >
+                                    {contributor.socials === null ? (
+                                        <span>{contributor.name}</span>
+                                    ) : (
+                                        <a
+                                            href={contributor.socials}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            {contributor.name}
+                                        </a>
+                                    )}
+                                </div>
+                            ),
+                        )}
+                    </div>
+                </div>
             </div>
 
             <div className="font-bold text-center sm:text-left">

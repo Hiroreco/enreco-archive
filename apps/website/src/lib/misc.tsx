@@ -6,6 +6,7 @@ import {
     SquareCheckBig,
     SquarePen,
     Star,
+    Image,
 } from "lucide-react";
 
 const iconSize = 20;
@@ -59,6 +60,32 @@ export const CONTRIBUTORS = [
             {
                 name: "A1on",
                 socials: "https://x.com/_a1on",
+            },
+        ],
+    },
+    {
+        role: "Special Assets",
+        icon: <Image size={iconSize} />,
+        contributors: [
+            {
+                name: "DDOLBANG",
+                socials: "https://x.com/DDOLBANG11",
+            },
+            {
+                name: "keenbiscuit",
+                socials: "https://x.com/keenbiscuit",
+            },
+            {
+                name: "SuperAppleMan",
+                socials: "https://x.com/KW7MD8FEWT7lMXx",
+            },
+            {
+                name: "Mooon",
+                socials: "https://x.com/Moon_LDL",
+            },
+            {
+                name: "kudaran",
+                socials: "https://x.com/kudarannnS",
             },
         ],
     },
