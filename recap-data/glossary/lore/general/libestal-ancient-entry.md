@@ -6,7 +6,7 @@
 
 ## Overview
 
-Ancient Libestal, unlike the fabricated kingdom the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.
+Ancient Libestal, unlike the [fabricated kingdom](#entry:libestal-ficta-entry) the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.
 
 [Read "Kingdom of Libestal (Ancient)"](#text:libestal)
 
@@ -14,11 +14,11 @@ Ancient Libestal, unlike the fabricated kingdom the heroes were summoned to in t
 
 ### Preface
 
-As the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to Fia, the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. Her hope was that the heroes, now known as the Shining Stars, could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.
+As the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to [Fia](#entry:iphania-entry), the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. She hoped that the heroes, now known as the Shining Stars, could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.
 
 ### Setting
 
-Ancient Libestal, as its name implies, was set in a distant past, reflected in its antique architecture and atmosphere. The kingdom served as the last sanctuary for the world’s inhabitants, as the rest of the land was slowly being consumed by the Ruination. Stains ravaged the wilderness, and death was ever-present. Unlike the previous Libestal, there were no guilds here. Instead, the kingdom’s survival relied on four core occupations:
+Ancient Libestal, as its name implies, was set in a distant past, reflected in its antique architecture and atmosphere. The kingdom served as the last sanctuary for the world’s inhabitants, as the rest of the land was slowly being consumed by the Ruination. Stains ravaged the wilderness, and death was ever-present. Unlike the previous Libestal, there were no guilds here. Instead, the kingdom’s survival relied on four core [occupations](#entry:jobs-entry):
 
 - **The Smith** – Forged upgrade stones used to enhance Revelation weapons.
 - **The Jeweler** – Crafted charms that enhanced health and bolstered defense.
@@ -32,12 +32,12 @@ One noticeable difference between the fabricated and the real Libestal was how a
 From above, the kingdom had a compact layout, with buildings made mostly of mud brick, adding to its ancient charm. While familiar structures such as a castle and residential areas remained, they differed significantly from their counterparts in the fabricated Libestal.
 
 **The Castle**
-The largest structure in the kingdom, the castle focused on height rather than width. It housed the Princess, numerous workers, and many refugees, instantly making it feel far more alive than the vacant halls of the previous castle.
+The largest structure in the kingdom, the castle, focused on height rather than width. It housed the Princess, numerous workers, and many refugees, instantly making it feel far more alive than the vacant halls of the previous castle.
 
 Within the castle grounds were a variety of facilities, including the Princess's chambers, a dining hall, a dueling area, a casino, merchant stalls, and more. Most kingdom activities and sidequests took place here.
 
 **The Library**
-Located at the center of the residential area and directly in front of the castle gates, the Library was a central hub of the second chapter’s story and the place where Fia resided.
+Located at the center of the residential area and directly in front of the castle gates, the [Library](#entry:library-entry) was a central hub of the second chapter’s story and the place where Fia resided.
 
 **Build Area**
 Surrounding the Library were expansive plots of land allocated to the heroes for free building. Compared to the limited, guild-restricted building areas in the first chapter, this iteration offered far more freedom and fewer restrictions, allowing for grander, more personalized structures.
@@ -60,16 +60,16 @@ As the story advanced, new regions called Remnants became accessible, offering n
 
 As in the previous chapter, the heroes needed to clear dungeons to recover their memories and progress the story. These were known as Star Sites:
 
-- **Star Site: Elpis** – Unlocked on Day 2; contained IRyS's memories.
-- **Star Site: Chronos** – Unlocked on Day 4; contained Ouro Kronii's memories.
-- **Star Site: Chaos** – Unlocked on Day 5; contained Hakos Baelz's memories.
+- [Star Site: Elpis](#entry:star-site-elpis-entry) – Unlocked on Day 2; contained IRyS's memories.
+- [Star Site: Chronos](#entry:star-site-chronos-entry) – Unlocked on Day 4; contained Ouro Kronii's memories.
+- [Star Site: Chaos](#entry:star-site-chaos-entry) – Unlocked on Day 5; contained Hakos Baelz's memories.
 
 ### Other Quests
 
 In addition to Star Sites, two major dungeons served as key plot events:
 
-- **Stronghold of Ruin** – Unlocked on Day 3; where the heroes first encountered and freed the Outlander.
-- **Heart of Ruin** – Unlocked on Day 7; the final dungeon where the source of all evil, the Curse, was destroyed.
+- [Stronghold of Ruin](#entry:stronghold-of-ruin-entry) – Unlocked on Day 3; where the heroes first encountered and freed the Outlander.
+- [Heart of Ruin](#entry:heart-of-ruin-entry) – Unlocked on Day 7; the final dungeon where the source of all evil, the Curse, was destroyed.
 
 Before entering the Heart of Ruin, the heroes undertook a special quest on Day 6 titled **The Ritual**, which served as a narrative bridge into the finale.
 

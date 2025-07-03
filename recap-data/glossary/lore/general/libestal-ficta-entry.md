@@ -14,11 +14,11 @@
 
 ### Preface
 
-Nineteen heroes were summoned to a mysterious kingdom by its King, each stripped of their memories. Recognizing them as the destined saviors foretold by the power of their Revelation, the King urged them to grow stronger and unite in order to defeat the looming threat of the Stain King—and, in doing so, save the kingdom.
+Nineteen heroes were summoned to a mysterious kingdom by its King, each stripped of their memories. Recognizing them as the destined saviors foretold by the power of their [Revelation](#entry:revelations-entry), the King urged them to grow stronger and unite in order to defeat the looming threat of the Stain King—and, in doing so, save the kingdom.
 
 ### Setting
 
-Libestal was set in a somewhat medieval, though not archaic—fantasy world. Magical devices and enchanted weaponry were commonplace. The kingdom’s citizens, known as Libestans, were rabbit-like humanoids, and the realm was ruled by the King. Four [guilds](#entry:guilds-entry) served as pillars of the kingdom’s structure, each tasked with different duties, and the heroes were assigned to one of them:
+Libestal was set in a somewhat medieval, though not archaic, fantasy world. Magical devices and enchanted weaponry were commonplace. The kingdom’s citizens, known as Libestans, were rabbit-like humanoids, and the realm was ruled by the King. Four [guilds](#entry:guilds-entry) served as pillars of the kingdom’s structure, each tasked with different duties, and the heroes were assigned to one of them:
 
 - **Jade Sword** – A beacon of righteousness and loyalty, where great threats are met with even greater courage.
 - **Cerulean Cup** – A sanctum of healing, where empathy and devotion flourish.

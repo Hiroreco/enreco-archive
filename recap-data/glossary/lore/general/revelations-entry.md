@@ -12,7 +12,7 @@ Revelations were special powers and weapons unique to each hero, shaped by their
 
 ### Preface
 
-During the first battle against the Stain King, the heroes manifested mysterious powers upon shouting the word _"Revelation."_ These powers enabled them to repel the great evil. The [King of Libestal](#entry:outlander-entry) proclaimed that these Revelations were the key to saving the world from the Calamity, and urged the heroes to lend their strength in doing so.
+During the first battle against the Stain King, the heroes manifested mysterious powers upon shouting the word _"Revelation."_ These powers enabled them to repel the great evil. The [King of Libestal](#entry:outsider-entry) proclaimed that these Revelations were the key to saving the world from the Calamity and urged the heroes to lend their strength in doing so.
 
 ### Abilities
 
@@ -56,7 +56,7 @@ Each hero wielded a unique Revelation—distinct in both form and function—bas
 
 - **Shiori Novella** – [Bookmark of Memories](#entry:bookmark-of-memories-entry), a quill
 
-- **Elizabeth Rose Bloodflame** – [Thorn of Justice](#entry:thorn-of-justice-entry), a claymore
+- **Elizabeth Rose Bloodflame** – [Thorn of Order](#entry:thorn-of-order-entry), a claymore
 
 - **Gonathon G** – [Gremlin Grenade](#entry:gremlin-grenade-entry), a pair of metal fists
 

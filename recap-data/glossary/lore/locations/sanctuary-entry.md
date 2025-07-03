@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Sanctuary remained a mystery in both meaning and purpose. It was the very first place where the heroes opened their eyes before their journeys began. It was also the site of the final battle between the heroes and the Captive in the first chapter.
+The Sanctuary remained a mystery in both meaning and purpose. It was the very first place where the heroes opened their eyes before their journey began. It was also the site of the final battle between the heroes and the [Captive](#entry:outsider-entry) in the first chapter.
 
 ## Details
 
@@ -27,4 +27,4 @@ As early as the heroes could remember, they awoke in this cold, mysterious place
 
 After that, the heroes never returned to the Sanctuary—until the final day of the first chapter.
 
-During the last battle, as the [Captive](#entry:outsider-entry) was defeated, the fabric of space began to unravel. In that moment, a mysterious voice—now revealed to be [Fia](#entry:iphania-entry)—urged the heroes to jump into a portal, leading them to the Library and marking the beginning of the second chapter.
+During the last battle, as the Captive was defeated, the fabric of space began to unravel. In that moment, a mysterious voice—now revealed to be [Fia](#entry:iphania-entry)—urged the heroes to jump into a portal, leading them to the Library and marking the beginning of the second chapter.

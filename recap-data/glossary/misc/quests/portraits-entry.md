@@ -6,13 +6,13 @@
 
 ## Overview
 
-In Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art [event](https://x.com/hololive_En/status/1895609934085325149) that ran from `March 1st to March 19th, 2025`, prior to the start of the chapter .
+In Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art [event](https://x.com/hololive_En/status/1895609934085325149) that ran from `March 1st to March 19th, 2025`, before the start of the chapter.
 
 ## Details
 
 To receive a portrait, the heroes needed to help Pygmalion by gathering a set of materials. The task was intentionally a bit tedious, as it encouraged cooperation among the heroes. Each item was tied to a specific profession, meaning players had to seek out others in those roles:
 
-- **5 Raw Iron, 5 Raw Copper** – obtainable only from a Supplier
+- **5 Raw Iron, 5 Raw Copper** – from a Supplier
 - **1 Butter** – from a Chef
 - **1 Basic Upgrade Stone** – from a Smith
 - **1 Basic Azure Charm** – from a Jeweler

@@ -6,13 +6,13 @@
 
 ## Overview
 
-Jobs were introduced in Chapter Two as a replacement for the guild system. Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of [Ancient Libestal](#entry:libestal-ancient-entry).
+Jobs were introduced in Chapter Two as a replacement for the [guild system](#entry:guilds-entry). Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of [Ancient Libestal](#entry:libestal-ancient-entry).
 
 ## Details
 
 ### Preface
 
-Upon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into their new life. These jobs were not just titles—they introduced entirely new gameplay systems and collaboration mechanics.
+Upon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into their new life. These jobs were not just titles—they introduced new gameplay systems and collaboration mechanics.
 
 ### The Four Jobs
 
@@ -46,7 +46,7 @@ A board filled with various stat buffs would be shown briefly before going blank
 
 Charms came in three different colors. Heroes could equip one charm of each color, encouraging thoughtful stat combinations.
 
-[A jewerler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)
+[A jeweler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)
 
 #### Chef
 
@@ -55,7 +55,7 @@ Charms came in three different colors. Heroes could equip one charm of each colo
 
 Chefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the "cook" button.
 
-The more meals a chef prepared, the higher their cooking pot's level became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.
+The more meals a chef prepared, the higher the level their cooking pot became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.
 
 [A chef making food](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)
 

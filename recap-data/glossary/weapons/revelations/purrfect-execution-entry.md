@@ -10,7 +10,7 @@
 
 ## Details
 
-When activated, the big pink cat is launched into the air, executing rapid claw strikes while orbiting around her target—slashing through multiple enemies like a true feline expertly pouncing on its prey.
+When activated, the big pink cat is launched into the air, executing rapid claw strikes while orbiting around her target, slashing through multiple enemies like a true feline expertly pouncing on its prey.
 
 [Big cat means big slashes](#embed:https://www.youtube.com/live/8ybUOw9NhMc?si=8Pej7LP6Am3NbGSa&t=6746)
 

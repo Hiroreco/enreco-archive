@@ -10,7 +10,7 @@
 
 ## Details
 
-The claws’ vicious design stands in stark contrast to Fuwawa’s fluffy, gentle demeanorg. When activated, they unleash a flurry of devastating X-shaped slashes, tearing her targets apart with frightening efficiency. It’s an ability meant to instill fear in any foe.
+The claws’ vicious design stands in stark contrast to Fuwawa’s fluffy, gentle demeanor. When activated, they unleash a flurry of devastating X-shaped slashes, tearing their targets apart with frightening efficiency. It’s an ability meant to instill fear in any foe.
 
 Of course, true to her kind-hearted nature, Fuwawa has only ever turned this power on monsters and genuine threats—unlike a certain pink someone who might not be quite as selective.
 

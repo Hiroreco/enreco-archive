@@ -10,14 +10,14 @@ Aside from the usual questing, the heroes could take some time off to relax and 
 
 ## Details
 
-There are currently **four minigames**, each originally introduced in **Chapter 1**, with every game initially representing one of the four [guilds](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).
+There are currently **four minigames**, each originally introduced in **Chapter 1**, with every game representing one of the four [guilds,](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).
 
 ### **Color Cannon**
 
 **Appearance:** Chapter 1, Chapter 2
 **Representing Guild:** Amber Coin
 
-A game of chance and tension. Players place wagers on any of four available colors:
+A game of chance and tension. Players place wagers on any of the four available colors:
 
 - **Blue** (x2 multiplier) – 12 positions
 - **Green** (x3 multiplier) – 8 positions
@@ -48,7 +48,7 @@ In Chapter 2, an added rule ensures the match ends in a draw if both participant
 **Appearance:** Chapter 1
 **Representing Guild:** Scarlet Wand
 
-A memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.
+A memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As the rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.
 
 [Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)
 
@@ -57,8 +57,8 @@ A memory-based minigame where four players compete to recreate a color arrangeme
 **Appearance:** Chapter 1
 **Representing Guild:** Cerulean Cup
 
-A solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging repeat attempts and competition.
+A solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging more attempts and competition.
 
 [Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)
 
-_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive_
+_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive._
