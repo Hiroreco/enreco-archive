@@ -1,4 +1,3 @@
-// scripts/inject-glossary.ts
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -6,12 +5,38 @@ import type {
     CommonItemData,
     GalleryImage,
 } from "@enreco-archive/common/types";
+import {
+    CHARACTER_ORDER,
+    GLOSSARY_MAIN_QUESTS_ORDER,
+    GLOSSARY_MISC_MECHANICS,
+    GLOSSARY_WEAPONS_ORDER,
+    sortByPredefinedOrder,
+} from "./orders.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // GlossaryPageData keyed by subcategory (immediate child of fileArg)
 type GlossaryPageData = { [subcategory: string]: CommonItemData[] };
+
+// Define sort orders for different categories and subcategories
+const getSortOrder = (category: string, subcategory: string): string[] => {
+    const key = `${category}.${subcategory}`;
+
+    switch (key) {
+        case "characters.heroes":
+            return CHARACTER_ORDER;
+        case "quests.main-quests":
+            return GLOSSARY_MAIN_QUESTS_ORDER;
+        case "weapons.revelations":
+            return GLOSSARY_WEAPONS_ORDER;
+        case "misc.mechanics":
+            return GLOSSARY_MISC_MECHANICS;
+        // Add more mappings as needed
+        default:
+            return []; // No specific order
+    }
+};
 
 // Recursively collect all file paths under `dir`
 async function walkDir(dir: string): Promise<string[]> {
@@ -141,7 +166,27 @@ async function processSubfolder(fileArg: string) {
             });
         }
 
-        result[subcat] = items;
+        // Sort items within this subcategory
+        const sortOrder = getSortOrder(fileArg, subcat).map(
+            (id) => id + "-entry",
+        );
+        if (sortOrder.length > 0) {
+            const sortedItems = sortByPredefinedOrder(
+                items,
+                sortOrder,
+                (item) => item.id,
+                "alphabetical",
+            );
+            result[subcat] = sortedItems;
+            console.log(
+                `📊 Sorted ${items.length} items in ${fileArg}.${subcat} using predefined order`,
+            );
+        } else {
+            result[subcat] = items;
+            console.log(
+                `📝 Kept original order for ${items.length} items in ${fileArg}.${subcat}`,
+            );
+        }
     }
 
     // Write JSON to apps/website/data/glossary/<fileArg>.json
@@ -156,7 +201,9 @@ async function processSubfolder(fileArg: string) {
     );
     await fs.mkdir(path.dirname(outPath), { recursive: true });
     await fs.writeFile(outPath, JSON.stringify(result, null, 2), "utf-8");
-    console.log(`✅ Injected subcategories of '${fileArg}' into ${outPath}`);
+    console.log(
+        `✅ Injected and sorted subcategories of '${fileArg}' into ${outPath}`,
+    );
 }
 
 async function main() {

@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
 import { fileURLToPath } from "url";
+import { CHARACTER_ORDER, sortByPredefinedOrder } from "./orders.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -65,21 +66,71 @@ async function main() {
             continue;
         }
 
+        // Sort characters within each entry according to predefined order
+        const sortedCharacters = sortByPredefinedOrder(
+            e.characters,
+            CHARACTER_ORDER,
+            (char) => char,
+            "alphabetical",
+        );
+
         extended.push({
             url: e.url,
             label: e.label,
             author: e.author,
             chapter: Number(e.chapter),
             day: Number(e.day),
-            characters: e.characters,
+            characters: sortedCharacters,
             images: images,
         });
     }
 
+    // Sort the entire fanart array - you can define your own logic here
+    // For example, sort by chapter, then day, then by first character in the predefined order
+    const sortedExtended = extended.sort((a, b) => {
+        // First by chapter
+        if (a.chapter !== b.chapter) {
+            return a.chapter - b.chapter;
+        }
+
+        // Then by day
+        if (a.day !== b.day) {
+            return a.day - b.day;
+        }
+
+        // Then by first character's position in CHARACTER_ORDER
+        const aFirstChar = a.characters[0] || "";
+        const bFirstChar = b.characters[0] || "";
+
+        const aIndex = CHARACTER_ORDER.indexOf(aFirstChar);
+        const bIndex = CHARACTER_ORDER.indexOf(bFirstChar);
+
+        // If both characters are in the order array
+        if (aIndex !== -1 && bIndex !== -1) {
+            return aIndex - bIndex;
+        }
+
+        // If only one is in the order array, prioritize it
+        if (aIndex !== -1 && bIndex === -1) return -1;
+        if (aIndex === -1 && bIndex !== -1) return 1;
+
+        // If neither is in the order array, sort alphabetically
+        return aFirstChar.localeCompare(bFirstChar);
+    });
+    // const sortedExtended = extended;
     // 3) Write out
     await fs.mkdir(path.dirname(OUT_JSON), { recursive: true });
-    await fs.writeFile(OUT_JSON, JSON.stringify(extended, null, 2), "utf-8");
-    console.log(`✅ Wrote ${extended.length} entries to ${OUT_JSON}`);
+    await fs.writeFile(
+        OUT_JSON,
+        JSON.stringify(sortedExtended, null, 2),
+        "utf-8",
+    );
+    console.log(
+        `✅ Wrote ${sortedExtended.length} sorted entries to ${OUT_JSON}`,
+    );
+    console.log(
+        `📊 Sorted fanart entries by chapter, day, and character order`,
+    );
 }
 
 main().catch((err) => {

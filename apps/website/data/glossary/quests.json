@@ -1,64 +1,6 @@
 {
   "main-quests": [
     {
-      "id": "ancient-sewer-dungeon-entry",
-      "title": "Ancient Sewer Dungeon",
-      "chapters": [
-        0
-      ],
-      "quote": "I want to work on something big! The case of the century!",
-      "content": "## Overview\n\nThe Ancient Sewer Dungeon marked the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—[Amelia Watson](#entry:ame-entry).\n\n## Details\n\n### Appearance\n\nIn stark contrast to the grand, mythical settings of the previous four dungeons—castles, temples, labyrinths—the Ancient Sewer Dungeon was located, as the name implies, beneath a sewer system. Comprised of twisting tunnels and junctions built with mud bricks, the setting, while modest, exuded a strange sense of mystery and intrigue that invited exploration.\n\n### Puzzles\n\nCompared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056). The heroes had to answer a sequence of five questions that tested their knowledge of their journey thus far. Multiple choices were given for each. A correct answer would let them advance to the next question; a wrong one would transport them to a chamber filled with Stains, which they had to defeat before trying again.\n\nEach question was tied to previous dungeon events and memory fragments, with the final question requiring the players to explore the dungeon itself for a hidden clue.\n\nThe questions were as follows:\n\n**Which source of energy did a certain offbeat reaper discover?**\n– Answer: People’s strong emotions\n\n**Which of these guard the force field around Atlantis?**\n– Answer: Shark statues\n\n**A mysterious boy appeared at a certain shrine. What is he particularly good at?**\n– Answer: Folding origami\n\n**What is the grand achievement of a certain oddball phoenix?**\n– Answer: Helping a fast food restaurant pay its debt\n\n**What did a certain detective invent for the travelers who made it this far?**\n– Answer: A Warp Crystal\n\nAnswer all five correctly, and the final dungeon of the first chapter would be cleared.\n\n### Rewards\n\n- A Warp Crystal\n- [\"ChikuTaku\"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson\n- [Memories](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D) of Amelia Watson\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)",
-      "thumbnailSrc": "/images-opt/ancient-sewer-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Ancient Sewer Dungeon's Entry",
-          "source": "/images-opt/ancient-sewer-dungeon-entry-0-opt.webp"
-        },
-        {
-          "title": "Ancient Sewer Dungeon Overview #1",
-          "source": "/images-opt/ancient-sewer-dungeon-entry-1-opt.webp"
-        },
-        {
-          "title": "Ancient Sewer Dungeon Overview #2",
-          "source": "/images-opt/ancient-sewer-dungeon-entry-2-opt.webp"
-        },
-        {
-          "title": "Ancient Sewer Dungeon Overview #3",
-          "source": "/images-opt/ancient-sewer-dungeon-entry-3-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/ancient-sewer-dungeon-entry-opt.webp"
-    },
-    {
-      "id": "eldritch-horror-dungeon-entry",
-      "title": "Eldritch Horror Dungeon",
-      "chapters": [
-        0
-      ],
-      "quote": "Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company.",
-      "content": "## Overview\n\n**Day Unlocked**: 3\n\nThe Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere standing in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: [Ninomae Ina’nis](#entry:ina-entry) of the Ancient Ones.\n\n## Details\n\n### Appearance\n\nTrue to its name, the dungeon exuded a dark, gloomy, and otherworldly vibe. From the outside, it appeared as an isolated island hovering above an endless pool of water. The surface was scattered with torii gates and religious artifacts, evoking the feeling of a sacred yet forsaken ground. However, the trials themselves didn’t take place on this surface. Instead, the heroes were transported into enclosed wooden chambers, furnished with pots, bookshelves, and strange décor, where the first real challenges began.\n\n### Puzzles\n\nThe objective was to free a trapped spirit by playing a series of “games,” each chosen by a mysterious soul guiding the trials. These puzzles operated under a sanity mechanic—sanity would gradually deplete over time, and if it reached zero, the afflicted hero would suffer permanent withering until death.\n\nThere were three main puzzles:\n\n- **Pot Smashing**: Break the five correct [pots](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275) among a group, using the clues provided to identify them.\n- **House Maze**: Navigate a confusing [maze](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540) filled with deceptive doors to find the exit.\n- **Lilies of the Valley**: Search various chests to collect [flowers](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573) known as _Lilies of the Valley_.\n\n### Rewards\n\n- [\"Violet\"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Vinyl - Ninomae Ina'nis\n- Memories of Ninomae Ina'nis\n\n[Recollection - Ninomae Ina'nis](#embed:https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1830984777304015120/photo/1)",
-      "thumbnailSrc": "/images-opt/eldritch-horror-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Eldritch Horror Dungeon's Entry",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-0-opt.webp"
-        },
-        {
-          "title": "Eldritch Horror Dungeon Overview #1",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-1-opt.webp"
-        },
-        {
-          "title": "Eldritch Horror Dungeon Overview #2",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-2-opt.webp"
-        },
-        {
-          "title": "Eldritch Horror Dungeon Overview #3",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-3-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/eldritch-horror-dungeon-entry-opt.webp"
-    },
-    {
       "id": "heart-of-ruin-entry",
       "title": "Heart of Ruin",
       "chapters": [
@@ -96,16 +38,29 @@
       "imageSrc": "/images-opt/heart-of-ruin-entry-opt.webp"
     },
     {
-      "id": "ocean-temple-dungeon-entry",
-      "title": "Ocean Temple Dungeon",
+      "id": "stronghold-of-ruin-entry",
+      "title": "Stronghold of Ruin",
       "chapters": [
-        0
+        1
       ],
-      "quote": "Finally... My story begins here!",
-      "content": "## Overview\n \nThe **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving member, whose memories can be found here as well— Gawr Gura.\n\n## Details\n\n### History\n\nThere was once a civilization that prospered in both innovative technology and culture. At its peak, this civilization sank to the ocean's floor and rebuilt itself, becoming what is known as Atlantis. \n\n### Appearance\n\nIn the present day, the dungeon is an empty shell of what Atlantis used to be. To enter, the heroes must swim to an underwater cave where a portal transports them to the entrance at the threshold of a stone-walled city. Each step they take is cushioned by the vibrant green moss that has claimed the once-bustling streets, giving the place an air of enchantment and mystery. Towering above are intricately carved shark statues, which could be mistaken for dolphins, each possibly depicting a celebrated figure of the past.\n\n### Puzzles\n\nTower of Hanoi: Stack all rings on the third rod in decreasing size order.\n\nBridge Puzzle: Activate color-coded bridges whilst avoiding laser traps and falling to advance to the other side.\n\nDirectional Guard Puzzle: Lead a mannequin guard on the prismarine route to an elevated platform. Letting the guard pass by the 5 embedded golden blocks in the ground unlocks the dungeon's treasure. \n\n### Rewards\n\n- [\"REFLECT\"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05)– a music disc by Gawr Gura\n- Memories of Gawr Gura\n\n[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n## Sources",
-      "thumbnailSrc": "/images-opt/ocean-temple-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [],
-      "imageSrc": "/images-opt/ocean-temple-dungeon-entry-opt.webp"
+      "quote": "If Iphania trusts you, perhaps you stand a chance",
+      "content": "## Overview\n\n**Unlocked on**: Day 3\n\nThe **Stronghold of Ruin** marked the place where the heroes first encountered the [Outlander](#entry:outsider-entry), a nameless swordsman the Princess had specifically tasked them to find. He, too, had been investigating the stronghold—only to fall victim to the lingering corruption that trapped him inside. Thanks to the heroes' efforts in conquering the dungeon, he was ultimately freed.\n\n## Details\n\n### Appearance\n\nThis dungeon served as a branch of the Heart of Ruin, which explained the visual and atmospheric similarities between them. It was cloaked in a dark, ominous palette of reds and shadows, creating an oppressive sense of danger. The structure featured large, round platforms where challenges took place, culminating in a final arena adorned with floating red crystals—where the dungeon’s boss awaited.\n\n### Puzzles\n\nUpon entering, the party was granted a checkpoint system and 5 shared lives, setting the tone for the challenging trials ahead.\n\n**First Challenge**\n\nThe dungeon began with a gauntlet of [stain-filled arenas](https://www.youtube.com/live/gVAtGMLBJos?si=Yz9FvKwuZtv4e-ZS&t=1423). Each arena required the party to defeat all spawned stains before the gates would open and allow them to move forward, and the fights escalated in intensity as they progressed.\n\n**Second Challenge**\n\nNext, the party encountered artifacts represented as black roses. To advance meant destroying those roses, and in order to do so, the heroes needed to first solve puzzles:\n\n- One puzzle involved a series of [math problems](https://www.youtube.com/live/EKjcWfEGsB0?si=kbaxo2QGrPfrE5La&t=2999).\n- The other required solving a sequence [memory lock](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892).\n\nAll the while, stains continued to spawn endlessly, making puzzle-solving a frantic and dangerous task until all the black roses were destroyed.\n\n**Intermission**\n\nProgressing further, the heroes entered a quiet but eerie library, where they discovered a riddle etched into a hidden corner of the room:\n\n> _\"The heart is distant, under lock and key\n> And hides in corners far from enemy.\"_\n\n**Final Challenge**\n\nThe last room housed **Stain King Proto**, guarding a crystal linked to something greater—the [Heart of Ruin](#entry:heart-of-ruin-entry), an as-yet unrevealed location that would eventually come into play.\n\nThe arena was surrounded by four more black roses, one in each corner, each protected by the same types of puzzles encountered earlier (math and memory). Only after the roses were destroyed could the chest containing the music disc be accessed post-battle.\n\n[Stain King Proto Fight](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=ySvBC15UpSUDHK4E&t=2203)\n\n### Rewards\n\n- [\"Monster\"](https://www.youtube.com/watch?v=2kllY6gIU6o&pp=ygUQbW9uc3RlciBob2xvbGl2ZQ%3D%3D) Vinyl\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1920399135754367072/photo/1)",
+      "thumbnailSrc": "/images-opt/stronghold-of-ruin-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Stronghold of Ruin Overview #1",
+          "source": "/images-opt/stronghold-of-ruin-entry-0-opt.webp"
+        },
+        {
+          "title": "Stronghold of Ruin Overview #2",
+          "source": "/images-opt/stronghold-of-ruin-entry-1-opt.webp"
+        },
+        {
+          "title": "Stronghold of Ruin Overview #3",
+          "source": "/images-opt/stronghold-of-ruin-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/stronghold-of-ruin-entry-opt.webp"
     },
     {
       "id": "star-site-chaos-entry",
@@ -203,41 +158,33 @@
       "imageSrc": "/images-opt/star-site-elpis-entry-opt.webp"
     },
     {
-      "id": "stronghold-of-ruin-entry",
-      "title": "Stronghold of Ruin",
-      "chapters": [
-        1
-      ],
-      "quote": "If Iphania trusts you, perhaps you stand a chance",
-      "content": "## Overview\n\n**Unlocked on**: Day 3\n\nThe **Stronghold of Ruin** marked the place where the heroes first encountered the [Outlander](#entry:outsider-entry), a nameless swordsman the Princess had specifically tasked them to find. He, too, had been investigating the stronghold—only to fall victim to the lingering corruption that trapped him inside. Thanks to the heroes' efforts in conquering the dungeon, he was ultimately freed.\n\n## Details\n\n### Appearance\n\nThis dungeon served as a branch of the Heart of Ruin, which explained the visual and atmospheric similarities between them. It was cloaked in a dark, ominous palette of reds and shadows, creating an oppressive sense of danger. The structure featured large, round platforms where challenges took place, culminating in a final arena adorned with floating red crystals—where the dungeon’s boss awaited.\n\n### Puzzles\n\nUpon entering, the party was granted a checkpoint system and 5 shared lives, setting the tone for the challenging trials ahead.\n\n**First Challenge**\n\nThe dungeon began with a gauntlet of [stain-filled arenas](https://www.youtube.com/live/gVAtGMLBJos?si=Yz9FvKwuZtv4e-ZS&t=1423). Each arena required the party to defeat all spawned stains before the gates would open and allow them to move forward, and the fights escalated in intensity as they progressed.\n\n**Second Challenge**\n\nNext, the party encountered artifacts represented as black roses. To advance meant destroying those roses, and in order to do so, the heroes needed to first solve puzzles:\n\n- One puzzle involved a series of [math problems](https://www.youtube.com/live/EKjcWfEGsB0?si=kbaxo2QGrPfrE5La&t=2999).\n- The other required solving a sequence [memory lock](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892).\n\nAll the while, stains continued to spawn endlessly, making puzzle-solving a frantic and dangerous task until all the black roses were destroyed.\n\n**Intermission**\n\nProgressing further, the heroes entered a quiet but eerie library, where they discovered a riddle etched into a hidden corner of the room:\n\n> _\"The heart is distant, under lock and key\n> And hides in corners far from enemy.\"_\n\n**Final Challenge**\n\nThe last room housed **Stain King Proto**, guarding a crystal linked to something greater—the [Heart of Ruin](#entry:heart-of-ruin-entry), an as-yet unrevealed location that would eventually come into play.\n\nThe arena was surrounded by four more black roses, one in each corner, each protected by the same types of puzzles encountered earlier (math and memory). Only after the roses were destroyed could the chest containing the music disc be accessed post-battle.\n\n[Stain King Proto Fight](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=ySvBC15UpSUDHK4E&t=2203)\n\n### Rewards\n\n- [\"Monster\"](https://www.youtube.com/watch?v=2kllY6gIU6o&pp=ygUQbW9uc3RlciBob2xvbGl2ZQ%3D%3D) Vinyl\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1920399135754367072/photo/1)",
-      "thumbnailSrc": "/images-opt/stronghold-of-ruin-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Stronghold of Ruin Overview #1",
-          "source": "/images-opt/stronghold-of-ruin-entry-0-opt.webp"
-        },
-        {
-          "title": "Stronghold of Ruin Overview #2",
-          "source": "/images-opt/stronghold-of-ruin-entry-1-opt.webp"
-        },
-        {
-          "title": "Stronghold of Ruin Overview #3",
-          "source": "/images-opt/stronghold-of-ruin-entry-2-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/stronghold-of-ruin-entry-opt.webp"
-    },
-    {
-      "id": "underworld-dungeon-entry",
-      "title": "Underworld Dungeon",
+      "id": "ancient-sewer-dungeon-entry",
+      "title": "Ancient Sewer Dungeon",
       "chapters": [
         0
       ],
-      "quote": "Reapers should help the living, not take away their future.",
-      "content": "## Overview\n\nThe **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing.\n\n## Details\n\n- requires Underworld Key\n\n### Puzzles\n\n- Platform Parkour\n- Glass Panes\n- Lights Out: Turn off all lights in the correct sequence.\n- Climb the Dungeon’s Tree\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n## Sources\n\n- Concept Art - [miya-zaki](https://x.com/miya_zaki/status/1830140718729265368/photo/1)",
-      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [],
-      "imageSrc": "/images-opt/underworld-dungeon-entry-opt.webp"
+      "quote": "I want to work on something big! The case of the century!",
+      "content": "## Overview\n\nThe Ancient Sewer Dungeon marked the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—[Amelia Watson](#entry:ame-entry).\n\n## Details\n\n### Appearance\n\nIn stark contrast to the grand, mythical settings of the previous four dungeons—castles, temples, labyrinths—the Ancient Sewer Dungeon was located, as the name implies, beneath a sewer system. Comprised of twisting tunnels and junctions built with mud bricks, the setting, while modest, exuded a strange sense of mystery and intrigue that invited exploration.\n\n### Puzzles\n\nCompared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056). The heroes had to answer a sequence of five questions that tested their knowledge of their journey thus far. Multiple choices were given for each. A correct answer would let them advance to the next question; a wrong one would transport them to a chamber filled with Stains, which they had to defeat before trying again.\n\nEach question was tied to previous dungeon events and memory fragments, with the final question requiring the players to explore the dungeon itself for a hidden clue.\n\nThe questions were as follows:\n\n**Which source of energy did a certain offbeat reaper discover?**\n– Answer: People’s strong emotions\n\n**Which of these guard the force field around Atlantis?**\n– Answer: Shark statues\n\n**A mysterious boy appeared at a certain shrine. What is he particularly good at?**\n– Answer: Folding origami\n\n**What is the grand achievement of a certain oddball phoenix?**\n– Answer: Helping a fast food restaurant pay its debt\n\n**What did a certain detective invent for the travelers who made it this far?**\n– Answer: A Warp Crystal\n\nAnswer all five correctly, and the final dungeon of the first chapter would be cleared.\n\n### Rewards\n\n- A Warp Crystal\n- [\"ChikuTaku\"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson\n- [Memories](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D) of Amelia Watson\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)",
+      "thumbnailSrc": "/images-opt/ancient-sewer-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Ancient Sewer Dungeon's Entry",
+          "source": "/images-opt/ancient-sewer-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "Ancient Sewer Dungeon Overview #1",
+          "source": "/images-opt/ancient-sewer-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "Ancient Sewer Dungeon Overview #2",
+          "source": "/images-opt/ancient-sewer-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "Ancient Sewer Dungeon Overview #3",
+          "source": "/images-opt/ancient-sewer-dungeon-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/ancient-sewer-dungeon-entry-opt.webp"
     },
     {
       "id": "volcanic-dungeon-entry",
@@ -283,6 +230,59 @@
         }
       ],
       "imageSrc": "/images-opt/volcanic-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "eldritch-horror-dungeon-entry",
+      "title": "Eldritch Horror Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company.",
+      "content": "## Overview\n\n**Day Unlocked**: 3\n\nThe Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere standing in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: [Ninomae Ina’nis](#entry:ina-entry) of the Ancient Ones.\n\n## Details\n\n### Appearance\n\nTrue to its name, the dungeon exuded a dark, gloomy, and otherworldly vibe. From the outside, it appeared as an isolated island hovering above an endless pool of water. The surface was scattered with torii gates and religious artifacts, evoking the feeling of a sacred yet forsaken ground. However, the trials themselves didn’t take place on this surface. Instead, the heroes were transported into enclosed wooden chambers, furnished with pots, bookshelves, and strange décor, where the first real challenges began.\n\n### Puzzles\n\nThe objective was to free a trapped spirit by playing a series of “games,” each chosen by a mysterious soul guiding the trials. These puzzles operated under a sanity mechanic—sanity would gradually deplete over time, and if it reached zero, the afflicted hero would suffer permanent withering until death.\n\nThere were three main puzzles:\n\n- **Pot Smashing**: Break the five correct [pots](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275) among a group, using the clues provided to identify them.\n- **House Maze**: Navigate a confusing [maze](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540) filled with deceptive doors to find the exit.\n- **Lilies of the Valley**: Search various chests to collect [flowers](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573) known as _Lilies of the Valley_.\n\n### Rewards\n\n- [\"Violet\"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Vinyl - Ninomae Ina'nis\n- Memories of Ninomae Ina'nis\n\n[Recollection - Ninomae Ina'nis](#embed:https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1830984777304015120/photo/1)",
+      "thumbnailSrc": "/images-opt/eldritch-horror-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Eldritch Horror Dungeon's Entry",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #1",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #2",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #3",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/eldritch-horror-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "ocean-temple-dungeon-entry",
+      "title": "Ocean Temple Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Finally... My story begins here!",
+      "content": "## Overview\n \nThe **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving member, whose memories can be found here as well— Gawr Gura.\n\n## Details\n\n### History\n\nThere was once a civilization that prospered in both innovative technology and culture. At its peak, this civilization sank to the ocean's floor and rebuilt itself, becoming what is known as Atlantis. \n\n### Appearance\n\nIn the present day, the dungeon is an empty shell of what Atlantis used to be. To enter, the heroes must swim to an underwater cave where a portal transports them to the entrance at the threshold of a stone-walled city. Each step they take is cushioned by the vibrant green moss that has claimed the once-bustling streets, giving the place an air of enchantment and mystery. Towering above are intricately carved shark statues, which could be mistaken for dolphins, each possibly depicting a celebrated figure of the past.\n\n### Puzzles\n\nTower of Hanoi: Stack all rings on the third rod in decreasing size order.\n\nBridge Puzzle: Activate color-coded bridges whilst avoiding laser traps and falling to advance to the other side.\n\nDirectional Guard Puzzle: Lead a mannequin guard on the prismarine route to an elevated platform. Letting the guard pass by the 5 embedded golden blocks in the ground unlocks the dungeon's treasure. \n\n### Rewards\n\n- [\"REFLECT\"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05)– a music disc by Gawr Gura\n- Memories of Gawr Gura\n\n[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n## Sources",
+      "thumbnailSrc": "/images-opt/ocean-temple-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [],
+      "imageSrc": "/images-opt/ocean-temple-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "underworld-dungeon-entry",
+      "title": "Underworld Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Reapers should help the living, not take away their future.",
+      "content": "## Overview\n\nThe **Underworld Dungeon** the first of Chapter 1's 5 major dungeons and is themed of Mori Calliope. Described as a domain of boundless darkness, the Underworld represents the land of the dead, home to those whom passed and those who watch their passing.\n\n## Details\n\n- requires Underworld Key\n\n### Puzzles\n\n- Platform Parkour\n- Glass Panes\n- Lights Out: Turn off all lights in the correct sequence.\n- Climb the Dungeon’s Tree\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n## Sources\n\n- Concept Art - [miya-zaki](https://x.com/miya_zaki/status/1830140718729265368/photo/1)",
+      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [],
+      "imageSrc": "/images-opt/underworld-dungeon-entry-opt.webp"
     }
   ],
   "special-quests": [

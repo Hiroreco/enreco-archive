@@ -1,156 +1,6 @@
 {
   "revelations": [
     {
-      "id": "automaton-assault-entry",
-      "title": "Automaton Assault",
-      "chapters": [
-        -1
-      ],
-      "quote": "Hmph, don't tell me what to do. Automaton Assault!",
-      "content": "## Overview\n\n**Automaton Assault**, a lance adorned in gold and green, is the signature weapon of [Cecilia Immergreen](#entry:cecilia-entry) during her journey through the Kingdom of Libestal.\n\n## Details\n\nTrue to its name, Automaton Assault enables Cecilia to unleash a rapid flurry of spear strikes upon her enemies. While the sheer speed and force of the attack are intimidating, the effect is often slightly undercut by Cecilia’s unshakable habit of shouting an adorably cheerful catchphrase before launching her foes into oblivion.\n\n[Automaton Assault!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)\n\nStarting from Chapter 2, the lance also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/automaton-assault-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Cecilia's first time wielding Automaton Assault",
-          "source": "/images-opt/automaton-assault-entry-0-opt.webp"
-        },
-        {
-          "title": "Automaton Assault as viewed from the inventory",
-          "source": "/images-opt/automaton-assault-entry-1-opt.webp"
-        },
-        {
-          "title": "Automaton Assault's ability activated",
-          "source": "/images-opt/automaton-assault-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/automaton-assault-entry.glb"
-    },
-    {
-      "id": "azure-claws-entry",
-      "title": "Azure Claws",
-      "chapters": [
-        -1
-      ],
-      "quote": "Bau Bau~ Ehehehehehe",
-      "content": "## Overview\n\n**Azure Claws**—a pair of razor-sharp, blue claws—are the weapons bestowed upon [Fuwawa Abyssgard](#entry:fuwawa-entry) when she first arrived in the Kingdom of Libestal.\n\n## Details\n\nThe claws’ vicious design stands in stark contrast to Fuwawa’s fluffy, gentle demeanor. When activated, they unleash a flurry of devastating X-shaped slashes, tearing their targets apart with frightening efficiency. It’s an ability meant to instill fear in any foe.\n\nOf course, true to her kind-hearted nature, Fuwawa has only ever turned this power on monsters and genuine threats—unlike a certain pink someone who might not be quite as selective.\n\n[Giggles as she minces her enemies](#embed:https://www.youtube.com/live/3s_pVYBEax0?feature=shared&t=5667)\n\nStarting from Chapter 2, the claws also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/azure-claws-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Fuwawa's first time wielding Azure Claws",
-          "source": "/images-opt/azure-claws-entry-0-opt.webp"
-        },
-        {
-          "title": "Azure Claws viewed from the inventory",
-          "source": "/images-opt/azure-claws-entry-1-opt.webp"
-        },
-        {
-          "title": "Azure Claws' ability activated",
-          "source": "/images-opt/azure-claws-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/azure-claws-entry.glb"
-    },
-    {
-      "id": "bookmark-of-memories-entry",
-      "title": "Bookmark of Memories",
-      "chapters": [
-        -1
-      ],
-      "quote": "Tickle tickle~ Oh crap I think I just exploded",
-      "content": "## Overview\n\n**Bookmark of Memories**, [Shiori Novella's](#entry:shiori-entry) Revelation, takes the form of a blue feather—more precisely, a quill meant for writing. It was bestowed upon her when she was first summoned to the Kingdom of Libestal.\n\n## Details\n\nWhen activated, the quill summons bookmarks that hover around Shiori and fire beams that converge on her target. Upon impact, the beams explode, dealing significant damage.\n\nThe quill serves as a subtle reminder of her role as an _Archiver_—a life she no longer remembers. Perhaps it was this lack of recollection that led her to use it for mischief rather than battle, often opting to tickle people with it instead. Unfortunately, she tended to forget that doing so could accidentally trigger its ability, much to the misfortune of any unsuspecting bystanders.\n\n[Explosive Tickling](#embed:https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=7821)\n\nEver since Chapter 2, the quill gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/bookmark-of-memories-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Shiori's first time wielding the book",
-          "source": "/images-opt/bookmark-of-memories-entry-0-opt.webp"
-        },
-        {
-          "title": "Bookmark of Memories viewed from the inventory",
-          "source": "/images-opt/bookmark-of-memories-entry-1-opt.webp"
-        },
-        {
-          "title": "Bookmark of Memories' ability activated",
-          "source": "/images-opt/bookmark-of-memories-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/bookmark-of-memories-entry.glb"
-    },
-    {
-      "id": "burning-phoenix-entry",
-      "title": "Burning Phoenix",
-      "chapters": [
-        -1
-      ],
-      "quote": "No, no! I do not want to be known as the 'Burger Lady'!",
-      "content": "## Overview\n\n**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by [Tanakisha Karia](#entry:kiara-entry).\n\n## Details\n\nWhen used, Burning Phoenix launches a fiery attack towards her enemies, then shortly erupts into a brilliant blaze, turning any stains caught in the crossfire into ashes.\n\nThough Karia, known as Shakira to most, awoke without her memories, it does not impede her ability to fight the Stains. Rather, a burning righteousness remains steadfast in this phoenix's heart as she raises her sword and shield with an oath as a knight to defend the beautiful Lesbi, oh, ahem, the shining Kingdom of Libestal! (Lesbians included, of course).\n\n[What son? There is no son](#embed:https://youtu.be/3cr3DLpyB60?t=13486)\n\nEver since Chapter 2, the blade gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/burning-phoenix-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Kiara's first time wielding Burning Phoenix",
-          "source": "/images-opt/burning-phoenix-entry-0-opt.webp"
-        },
-        {
-          "title": "Burning Phoenix as viewed from the inventory",
-          "source": "/images-opt/burning-phoenix-entry-1-opt.webp"
-        },
-        {
-          "title": "Burning Phoenix's ability activated",
-          "source": "/images-opt/burning-phoenix-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/burning-phoenix-entry.glb"
-    },
-    {
-      "id": "chaos-stampede-entry",
-      "title": "Chaos Stampede",
-      "chapters": [
-        -1
-      ],
-      "quote": "Well you got something to say about my revaltion, eh?",
-      "content": "## Overview\n\n**Chaos Stampede**, a six-faced black die with neon-hued dots, is the simple yet undeniably cool weapon that [Peasant da Bae](#entry:bae-entry) wields upon her arrival in the Kingdom of Libestal.\n\n## Details\n\nBefore she resigned herself to the humble life of a peasant—or hermit depending on the day—Bae was the embodiment of Chaos itself. Not that it mattered since she lost her wish-granting box.\n\nHer weapon, however, tells a different story. Unlike the other heroes' weapons, which all have set abilities, _Chaos Stampede_ leaves things to chance. Upon activation, Bae rolls the die, and depending on the number it lands on, the die explodes into a swarm of even more explosive mice, dealing damage in a wide area. The higher the number, the more chaos—and the more explosions—ensue.\n\n[Play Dice!](#embed:https://www.youtube.com/live/y8bcLA6BQsw?si=ZfXcV-8FZMyknj4r&t=7251)\n\nEver since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/chaos-stampede-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Bae's first time wielding Chaos Stampede",
-          "source": "/images-opt/chaos-stampede-entry-0-opt.webp"
-        },
-        {
-          "title": "Chaos Stampede viewed from the inventory",
-          "source": "/images-opt/chaos-stampede-entry-1-opt.webp"
-        },
-        {
-          "title": "Chaos Stampede's ability activated",
-          "source": "/images-opt/chaos-stampede-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/chaos-stampede-entry.glb"
-    },
-    {
-      "id": "chrono-surge-entry",
-      "title": "Chrono Surge",
-      "chapters": [
-        -1
-      ],
-      "quote": "Revelation! *\\*cricket noises\\**",
-      "content": "## Overview\n\n**Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main hand and the hour hand in her offhand—are the trusty blades of [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of Libestal.\n\n## Details\n\nLong before she found herself tangled in royal business and polycules, Tam bore the title of **Warden of Time**. A name as intimidating as it sounds—though it had minimal effect on the other heroes.\n\nThe keyword here is _Time_. Upon activating the ability of her twin blades, Tam freezes time for all entities within a certain radius and deals damage to those caught in stasis. However, this ability doesn’t affect her fellow heroes—so unless there’s a real enemy nearby, her ultimate time-freezing move turns into a whole lot of [flashy nothing](https://www.youtube.com/live/fIGfh8GmKY8?si=a7sNjb8ZFNpUudXp&t=7695).\n\n[ZA WARUDO](#embed:https://www.youtube.com/live/zgioohaY0m4?si=wjs7xiiQwD3m2sdP&t=8108)\n\nStarting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/chrono-surge-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Tam's first time wielding Chrono Surge",
-          "source": "/images-opt/chrono-surge-entry-0-opt.webp"
-        },
-        {
-          "title": "Chrono Surge viewed from the inventory",
-          "source": "/images-opt/chrono-surge-entry-1-opt.webp"
-        },
-        {
-          "title": "Chrono Surge's ability activated",
-          "source": "/images-opt/chrono-surge-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/chrono-surge-entry.glb"
-    },
-    {
       "id": "eye-of-wisdom-entry",
       "title": "Eye of Wisdom",
       "chapters": [
@@ -174,106 +24,6 @@
         }
       ],
       "modelSrc": "/models/eye-of-wisdom-entry.glb"
-    },
-    {
-      "id": "fuchsia-claws-entry",
-      "title": "Fuchsia Claws",
-      "chapters": [
-        -1
-      ],
-      "quote": "I'll get you with these sharp claws of mine!",
-      "content": "## Overview\n\n**Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by [Mococo Abyssgard](#entry:mococo-entry), differentiated only by their light blue hue.\n\n## Details\n\nThese claws share the same core ability: upon activation, Mococo unleashes a flurry of X-shaped slashes devastating anything in her path.\n\nBut while the weapons may be similar, their wielders couldn't be more different. Unlike Fuwawa, who uses her claws only in times of absolute necessity and against evil foes, Mococo doesn’t hesitate to flash her claws at innocent bystanders—most often aimed at Nerissa, for reasons unknown (or perhaps very known).\n\n[Give me your money!](#embed:https://www.youtube.com/live/5swK4fB2smo?feature=shared&t=1373)\n\nEven harmless creatures like chickens aren't safe from the fuzzy one’s wrath. As the saying goes, \"With great power comes great responsibility\"... but when that power ends up in the hands of a gambling-addicted demon dog? Well, may fortune be on your side.\n\n[AHHHHHHHH!!!!!](#embed:https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=7274)\n\nEver since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/fuchsia-claws-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Mococo's first time wielding Fuchsia Claws",
-          "source": "/images-opt/fuchsia-claws-entry-0-opt.webp"
-        },
-        {
-          "title": "Fuchsia Claws viewed from the inventory",
-          "source": "/images-opt/fuchsia-claws-entry-1-opt.webp"
-        },
-        {
-          "title": "Fuchsia Claws' ability activated",
-          "source": "/images-opt/fuchsia-claws-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/fuchsia-claws-entry.glb"
-    },
-    {
-      "id": "gremlin-grenade-entry",
-      "title": "Gremlin Grenade",
-      "chapters": [
-        -1
-      ],
-      "quote": "Revelation! Huzzah!",
-      "content": "## Overview\n\n**Gremlin Grenade**, a pair of spiked metal gauntlets—so massive they nearly dwarf their wielder's head—are the weapons worn by our humble knight, [Gonathon G](#entry:gigi-entry), upon his arrival in the Kingdom of Libestal.\n\n## Details\n\nWhen activated, the gauntlets launch Gonathon forward, allowing him to perform AoE ground pounds followed by explosions, dealing serious damage to anything unlucky enough to be nearby. Much like Raora’s launch ability, it also lets Gonathon reach places most others can’t… which, yes, he shamelessly exploited to grab [dungeon treasure](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=6730).\n\n[Fist of Fury](#embed:https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=8095)\n\nEver since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/gremlin-grenade-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Gonathon's first time wielding Gremlin Grenade",
-          "source": "/images-opt/gremlin-grenade-entry-0-opt.webp"
-        },
-        {
-          "title": "Gremlin Grenade viewed from the inventory ",
-          "source": "/images-opt/gremlin-grenade-entry-1-opt.webp"
-        },
-        {
-          "title": "Gremlin Grenade's ability activated",
-          "source": "/images-opt/gremlin-grenade-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/gremlin-grenade-entry.glb"
-    },
-    {
-      "id": "light-and-darkness-entry",
-      "title": "Light and Darkness",
-      "chapters": [
-        -1
-      ],
-      "quote": "It's not a fart!",
-      "content": "## Overview\n\n**Light and Darkness**, a white and black star, one held in each hand, are the twin weapons bestowed upon the [Hot Pink One](#entry:irys-entry) upon her arrival in the Kingdom of Libestal.\n\n## Details\n\nHalf devil, half angel—in other words, a Nephilim—was how the hot pink maiden described herself. The dual stars symbolize this dichotomy... before she abandoned the title in favor of simply being _Hot Pink_ (whether she still retains any \"angelic\" part—after her actions against a certain humble knight, and later his queen—is debatable).\n\nWhen she activates her weapon's ability, white and black wisps rise into the air, converging into a beam that fires wherever she aims, dealing damage to her targets. As majestic as she tries to make it sound, others have compared the attack to something far less elegant—a [fart](https://www.youtube.com/live/f8W426vzTb8?si=foqRHkhJucvdRk3z&t=4046). And with how little damage it does, even she’s begun to wonder: maybe they’re right.\n\n[Hot Pink Beam---mu!](#embed:https://www.youtube.com/live/Rk7nZ91vme4?si=gB2Tvf3h41hZE0K1&t=4782)\n\nThough ever since Chapter 2, just like the others, the pink one was fortunate enough to receive a decent upgrade to her weapon, allowing her to deal significantly more damage than before, along with gaining an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/light-and-darkness-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "HPO's first time wielding Light and Darkness",
-          "source": "/images-opt/light-and-darkness-entry-0-opt.webp"
-        },
-        {
-          "title": "Light and Darkness viewed from the inventory",
-          "source": "/images-opt/light-and-darkness-entry-1-opt.webp"
-        },
-        {
-          "title": "Light and Darkness's ability activated",
-          "source": "/images-opt/light-and-darkness-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/light-and-darkness-entry.glb"
-    },
-    {
-      "id": "natures-grace-entry",
-      "title": "Nature's Grace",
-      "chapters": [
-        0
-      ],
-      "quote": "Heals for sales! Get your heals today!",
-      "content": "## Overview\n\n**Nature's Grace**, a wooden staff adorned with a golden apple, was the weapon—if you could even call it that—wielded by [Ceres Fauna](#entry:fauna-entry) upon her arrival in the Kingdom of Libestal.\n\n## Details\n\nHer revelation isn’t geared toward offense but support. When activated, Fauna’s staff fully heals all allies within its AoE. Additionally, depending on where she aims, it summons a cage of vines to ensnare enemies. While her role as a healer has been heavily questioned—whether it be her [failure](https://www.youtube.com/live/VrLNA0SjYN8?si=eqNXxwok2sYV58L-&t=6903) to heal teammates when they needed it most, or [charging them](https://www.youtube.com/live/8x-MVX8h9gU?t=7796s) for healing while they were getting pummeled—one part of her ability always worked flawlessly: the ensnaring.\n\nBecause no one could escape... the lure of her gambling schemes.\n\n[I'm the healer!](#embed:https://www.youtube.com/live/VrLNA0SjYN8?si=44SWAU576JOrr0X5&t=6724)",
-      "thumbnailSrc": "/images-opt/natures-grace-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Fauna's first time wielding Nature's Grace",
-          "source": "/images-opt/natures-grace-entry-0-opt.webp"
-        },
-        {
-          "title": "Nature's Grace viewed from the inventory",
-          "source": "/images-opt/natures-grace-entry-1-opt.webp"
-        },
-        {
-          "title": "Nature's Grace's ability activated",
-          "source": "/images-opt/natures-grace-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/natures-grace-entry.glb"
     },
     {
       "id": "oceanic-terror-entry",
@@ -301,56 +51,6 @@
       "modelSrc": "/models/oceanic-terror-entry.glb"
     },
     {
-      "id": "purrfect-execution-entry",
-      "title": "Purrfect Execution",
-      "chapters": [
-        -1
-      ],
-      "quote": "Raooo!",
-      "content": "## Overview\n\n**Purrfect Execution**, a playful yet unmistakably intimidating name, is the title of the razor-sharp mechanical claw wielded by [Raora Panthera](#entry:raora-entry) on her journey through Libestal.\n\n## Details\n\nWhen activated, the big pink cat is launched into the air, executing rapid claw strikes while orbiting around her target, slashing through multiple enemies like a true feline expertly pouncing on its prey.\n\n[Big cat means big slashes](#embed:https://www.youtube.com/live/8ybUOw9NhMc?si=8Pej7LP6Am3NbGSa&t=6746)\n\nStarting in Chapter 2, the claw also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/purrfect-execution-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Raora's first time wielding Purrfect Execution",
-          "source": "/images-opt/purrfect-execution-entry-0-opt.webp"
-        },
-        {
-          "title": "Purrfect Execution as viewed from the inventory",
-          "source": "/images-opt/purrfect-execution-entry-1-opt.webp"
-        },
-        {
-          "title": "Purrfect Execution's ability activated",
-          "source": "/images-opt/purrfect-execution-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/purrfect-execution-entry.glb"
-    },
-    {
-      "id": "resonant-strike-entry",
-      "title": "Resonant Strike",
-      "chapters": [
-        -1
-      ],
-      "quote": "There I made a loud noise, now they'll be able to find us",
-      "content": "## Overview\n\n**Resonant Strike**, true to its name, takes the form of a massive tuning fork—an oversized metal instrument bestowed upon [Nerrissa Ravencroft](#entry:nerissa-entry) on Day One of her arrival in the Kingdom of Libestal.\n\n## Details\n\nA tuning fork may not sound intimidating, but it packs quite the punch. After all, it’s a giant metal fork roughly the size of a person.\n\nIts ability is straightforward: when activated, it emits an area-of-effect sonic blast at the target location, creating a resonant explosion. However, Nerissa rarely takes advantage of the AoE nature of the weapon—instead, she tends to just slam the fork directly onto her target, essentially bonking them into oblivion.\n\n[\\*\\*Ringing bonk sfx\\*\\*](#embed:https://www.youtube.com/live/DDwNcYCtAXw?feature=shared&t=1628)\n\nStarting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/resonant-strike-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Nerissa's first time wielding Resonant Strike",
-          "source": "/images-opt/resonant-strike-entry-0-opt.webp"
-        },
-        {
-          "title": "Resonant Strike viewed from the inventory",
-          "source": "/images-opt/resonant-strike-entry-1-opt.webp"
-        },
-        {
-          "title": "Resonant Strike's ability activated",
-          "source": "/images-opt/resonant-strike-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/resonant-strike-entry.glb"
-    },
-    {
       "id": "rest-in-peace-entry",
       "title": "Rest In Peace",
       "chapters": [
@@ -376,54 +76,29 @@
       "modelSrc": "/models/rest-in-peace-entry.glb"
     },
     {
-      "id": "shining-emotions-entry",
-      "title": "Shining Emotions",
+      "id": "burning-phoenix-entry",
+      "title": "Burning Phoenix",
       "chapters": [
         -1
       ],
-      "quote": "Shining Emotion! Wow, I'm powerful",
-      "content": "## Overview\n\n**Shining Emotions** takes the form of a purple octahedral gem, wielded by none other than [Koseki Bijou](#entry:bijou-entry).\n\n## Details\n\nA radiant gem for the Princess of Jewels—it’s only fitting. And while its name might evoke something emotional or sparkly, the actual ability is much more straightforward… and a bit comedic. When activated, Bijou unleashes a rapid barrage of gem projectiles at her target, flinging them at high speed and frequency.\n\nIt might not be as magical as the name implies, but it’s brutally effective. After all, getting pelted in the face with diamond-hard rocks at Mach speed? That’ll ruin anyone’s day.\n\n[More Power!](#embed:https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=8524)\n\nStarting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/shining-emotions-entry-opt-thumb.webp",
+      "quote": "No, no! I do not want to be known as the 'Burger Lady'!",
+      "content": "## Overview\n\n**Burning Phoenix** takes the form of a one-handed sword and a shield. The weapon's design, with its orange and turquoise colors, is strangely reminiscent of the feathers worn by [Tanakisha Karia](#entry:kiara-entry).\n\n## Details\n\nWhen used, Burning Phoenix launches a fiery attack towards her enemies, then shortly erupts into a brilliant blaze, turning any stains caught in the crossfire into ashes.\n\nThough Karia, known as Shakira to most, awoke without her memories, it does not impede her ability to fight the Stains. Rather, a burning righteousness remains steadfast in this phoenix's heart as she raises her sword and shield with an oath as a knight to defend the beautiful Lesbi, oh, ahem, the shining Kingdom of Libestal! (Lesbians included, of course).\n\n[What son? There is no son](#embed:https://youtu.be/3cr3DLpyB60?t=13486)\n\nEver since Chapter 2, the blade gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/burning-phoenix-entry-opt-thumb.webp",
       "galleryImages": [
         {
-          "title": "Bijou's first time wielding Shining Emotions",
-          "source": "/images-opt/shining-emotions-entry-0-opt.webp"
+          "title": "Kiara's first time wielding Burning Phoenix",
+          "source": "/images-opt/burning-phoenix-entry-0-opt.webp"
         },
         {
-          "title": "Shining Emotions viewed from the inventory",
-          "source": "/images-opt/shining-emotions-entry-1-opt.webp"
+          "title": "Burning Phoenix as viewed from the inventory",
+          "source": "/images-opt/burning-phoenix-entry-1-opt.webp"
         },
         {
-          "title": "Shining Emotions' ability activated",
-          "source": "/images-opt/shining-emotions-entry-2-opt.webp"
+          "title": "Burning Phoenix's ability activated",
+          "source": "/images-opt/burning-phoenix-entry-2-opt.webp"
         }
       ],
-      "modelSrc": "/models/shining-emotions-entry.glb"
-    },
-    {
-      "id": "thorn-of-order-entry",
-      "title": "Thorn of Order",
-      "chapters": [
-        -1
-      ],
-      "quote": "Welcome to the world of stability and harmony!",
-      "content": "## Overview\n\n**Thorn**, a greatsword, a claymore—or, in simpler terms, a _really_ big sword—stands out as one of the most striking weapons among all the heroes, purely due to its overwhelming size. Naturally, only a knight as noble as [Elizabeth Rose Bloodflame](#entry:liz-entry) could wield such a formidable blade.\n\n## Details\n\nIf there’s anyone most deserving of a sword, it’s Elizabeth. A true knight through and through, even without recollection of her former self, the scarlet one's sense of chivalry remains unwavering, as she continues to fight for righteousness throughout her journey in Libestal despite all the weirdness surrounding her.\n\nUpon activation, Thorn unleashes a sweeping lateral strike followed by a powerful explosion. It’s a simple move—but one that speaks volumes through sheer force.\n\n[For honour!](#embed:https://www.youtube.com/live/oVguNTPnDww?si=XWIrWAhx_Nv0aR13&t=1433)\n\nStarting in Chapter 2, the blade also gained an additional [ranged attack.](#entry:revelations-entry)",
-      "thumbnailSrc": "/images-opt/thorn-of-order-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Elizabeth's first time wielding Thorn",
-          "source": "/images-opt/thorn-of-order-entry-0-opt.webp"
-        },
-        {
-          "title": "Thorn as viewed from the inventory",
-          "source": "/images-opt/thorn-of-order-entry-1-opt.webp"
-        },
-        {
-          "title": "Thorn's ability activated",
-          "source": "/images-opt/thorn-of-order-entry-2-opt.webp"
-        }
-      ],
-      "modelSrc": "/models/thorn-of-order-entry.glb"
+      "modelSrc": "/models/burning-phoenix-entry.glb"
     },
     {
       "id": "violet-miasma-entry",
@@ -451,6 +126,106 @@
       "modelSrc": "/models/violet-miasma-entry.glb"
     },
     {
+      "id": "light-and-darkness-entry",
+      "title": "Light and Darkness",
+      "chapters": [
+        -1
+      ],
+      "quote": "It's not a fart!",
+      "content": "## Overview\n\n**Light and Darkness**, a white and black star, one held in each hand, are the twin weapons bestowed upon the [Hot Pink One](#entry:irys-entry) upon her arrival in the Kingdom of Libestal.\n\n## Details\n\nHalf devil, half angel—in other words, a Nephilim—was how the hot pink maiden described herself. The dual stars symbolize this dichotomy... before she abandoned the title in favor of simply being _Hot Pink_ (whether she still retains any \"angelic\" part—after her actions against a certain humble knight, and later his queen—is debatable).\n\nWhen she activates her weapon's ability, white and black wisps rise into the air, converging into a beam that fires wherever she aims, dealing damage to her targets. As majestic as she tries to make it sound, others have compared the attack to something far less elegant—a [fart](https://www.youtube.com/live/f8W426vzTb8?si=foqRHkhJucvdRk3z&t=4046). And with how little damage it does, even she’s begun to wonder: maybe they’re right.\n\n[Hot Pink Beam---mu!](#embed:https://www.youtube.com/live/Rk7nZ91vme4?si=gB2Tvf3h41hZE0K1&t=4782)\n\nThough ever since Chapter 2, just like the others, the pink one was fortunate enough to receive a decent upgrade to her weapon, allowing her to deal significantly more damage than before, along with gaining an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/light-and-darkness-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "HPO's first time wielding Light and Darkness",
+          "source": "/images-opt/light-and-darkness-entry-0-opt.webp"
+        },
+        {
+          "title": "Light and Darkness viewed from the inventory",
+          "source": "/images-opt/light-and-darkness-entry-1-opt.webp"
+        },
+        {
+          "title": "Light and Darkness's ability activated",
+          "source": "/images-opt/light-and-darkness-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/light-and-darkness-entry.glb"
+    },
+    {
+      "id": "chrono-surge-entry",
+      "title": "Chrono Surge",
+      "chapters": [
+        -1
+      ],
+      "quote": "Revelation! *\\*cricket noises\\**",
+      "content": "## Overview\n\n**Chrono Surge**—a pair of clock hands, with the minute hand wielded in her main hand and the hour hand in her offhand—are the trusty blades of [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of Libestal.\n\n## Details\n\nLong before she found herself tangled in royal business and polycules, Tam bore the title of **Warden of Time**. A name as intimidating as it sounds—though it had minimal effect on the other heroes.\n\nThe keyword here is _Time_. Upon activating the ability of her twin blades, Tam freezes time for all entities within a certain radius and deals damage to those caught in stasis. However, this ability doesn’t affect her fellow heroes—so unless there’s a real enemy nearby, her ultimate time-freezing move turns into a whole lot of [flashy nothing](https://www.youtube.com/live/fIGfh8GmKY8?si=a7sNjb8ZFNpUudXp&t=7695).\n\n[ZA WARUDO](#embed:https://www.youtube.com/live/zgioohaY0m4?si=wjs7xiiQwD3m2sdP&t=8108)\n\nStarting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/chrono-surge-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Tam's first time wielding Chrono Surge",
+          "source": "/images-opt/chrono-surge-entry-0-opt.webp"
+        },
+        {
+          "title": "Chrono Surge viewed from the inventory",
+          "source": "/images-opt/chrono-surge-entry-1-opt.webp"
+        },
+        {
+          "title": "Chrono Surge's ability activated",
+          "source": "/images-opt/chrono-surge-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/chrono-surge-entry.glb"
+    },
+    {
+      "id": "chaos-stampede-entry",
+      "title": "Chaos Stampede",
+      "chapters": [
+        -1
+      ],
+      "quote": "Well you got something to say about my revaltion, eh?",
+      "content": "## Overview\n\n**Chaos Stampede**, a six-faced black die with neon-hued dots, is the simple yet undeniably cool weapon that [Peasant da Bae](#entry:bae-entry) wields upon her arrival in the Kingdom of Libestal.\n\n## Details\n\nBefore she resigned herself to the humble life of a peasant—or hermit depending on the day—Bae was the embodiment of Chaos itself. Not that it mattered since she lost her wish-granting box.\n\nHer weapon, however, tells a different story. Unlike the other heroes' weapons, which all have set abilities, _Chaos Stampede_ leaves things to chance. Upon activation, Bae rolls the die, and depending on the number it lands on, the die explodes into a swarm of even more explosive mice, dealing damage in a wide area. The higher the number, the more chaos—and the more explosions—ensue.\n\n[Play Dice!](#embed:https://www.youtube.com/live/y8bcLA6BQsw?si=ZfXcV-8FZMyknj4r&t=7251)\n\nEver since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/chaos-stampede-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Bae's first time wielding Chaos Stampede",
+          "source": "/images-opt/chaos-stampede-entry-0-opt.webp"
+        },
+        {
+          "title": "Chaos Stampede viewed from the inventory",
+          "source": "/images-opt/chaos-stampede-entry-1-opt.webp"
+        },
+        {
+          "title": "Chaos Stampede's ability activated",
+          "source": "/images-opt/chaos-stampede-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/chaos-stampede-entry.glb"
+    },
+    {
+      "id": "natures-grace-entry",
+      "title": "Nature's Grace",
+      "chapters": [
+        0
+      ],
+      "quote": "Heals for sales! Get your heals today!",
+      "content": "## Overview\n\n**Nature's Grace**, a wooden staff adorned with a golden apple, was the weapon—if you could even call it that—wielded by [Ceres Fauna](#entry:fauna-entry) upon her arrival in the Kingdom of Libestal.\n\n## Details\n\nHer revelation isn’t geared toward offense but support. When activated, Fauna’s staff fully heals all allies within its AoE. Additionally, depending on where she aims, it summons a cage of vines to ensnare enemies. While her role as a healer has been heavily questioned—whether it be her [failure](https://www.youtube.com/live/VrLNA0SjYN8?si=eqNXxwok2sYV58L-&t=6903) to heal teammates when they needed it most, or [charging them](https://www.youtube.com/live/8x-MVX8h9gU?t=7796s) for healing while they were getting pummeled—one part of her ability always worked flawlessly: the ensnaring.\n\nBecause no one could escape... the lure of her gambling schemes.\n\n[I'm the healer!](#embed:https://www.youtube.com/live/VrLNA0SjYN8?si=44SWAU576JOrr0X5&t=6724)",
+      "thumbnailSrc": "/images-opt/natures-grace-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Fauna's first time wielding Nature's Grace",
+          "source": "/images-opt/natures-grace-entry-0-opt.webp"
+        },
+        {
+          "title": "Nature's Grace viewed from the inventory",
+          "source": "/images-opt/natures-grace-entry-1-opt.webp"
+        },
+        {
+          "title": "Nature's Grace's ability activated",
+          "source": "/images-opt/natures-grace-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/natures-grace-entry.glb"
+    },
+    {
       "id": "winds-of-civilization-entry",
       "title": "Winds of Civilization",
       "chapters": [
@@ -474,6 +249,231 @@
         }
       ],
       "modelSrc": "/models/winds-of-civilization-entry.glb"
+    },
+    {
+      "id": "shining-emotions-entry",
+      "title": "Shining Emotions",
+      "chapters": [
+        -1
+      ],
+      "quote": "Shining Emotion! Wow, I'm powerful",
+      "content": "## Overview\n\n**Shining Emotions** takes the form of a purple octahedral gem, wielded by none other than [Koseki Bijou](#entry:bijou-entry).\n\n## Details\n\nA radiant gem for the Princess of Jewels—it’s only fitting. And while its name might evoke something emotional or sparkly, the actual ability is much more straightforward… and a bit comedic. When activated, Bijou unleashes a rapid barrage of gem projectiles at her target, flinging them at high speed and frequency.\n\nIt might not be as magical as the name implies, but it’s brutally effective. After all, getting pelted in the face with diamond-hard rocks at Mach speed? That’ll ruin anyone’s day.\n\n[More Power!](#embed:https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=8524)\n\nStarting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/shining-emotions-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Bijou's first time wielding Shining Emotions",
+          "source": "/images-opt/shining-emotions-entry-0-opt.webp"
+        },
+        {
+          "title": "Shining Emotions viewed from the inventory",
+          "source": "/images-opt/shining-emotions-entry-1-opt.webp"
+        },
+        {
+          "title": "Shining Emotions' ability activated",
+          "source": "/images-opt/shining-emotions-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/shining-emotions-entry.glb"
+    },
+    {
+      "id": "resonant-strike-entry",
+      "title": "Resonant Strike",
+      "chapters": [
+        -1
+      ],
+      "quote": "There I made a loud noise, now they'll be able to find us",
+      "content": "## Overview\n\n**Resonant Strike**, true to its name, takes the form of a massive tuning fork—an oversized metal instrument bestowed upon [Nerrissa Ravencroft](#entry:nerissa-entry) on Day One of her arrival in the Kingdom of Libestal.\n\n## Details\n\nA tuning fork may not sound intimidating, but it packs quite the punch. After all, it’s a giant metal fork roughly the size of a person.\n\nIts ability is straightforward: when activated, it emits an area-of-effect sonic blast at the target location, creating a resonant explosion. However, Nerissa rarely takes advantage of the AoE nature of the weapon—instead, she tends to just slam the fork directly onto her target, essentially bonking them into oblivion.\n\n[\\*\\*Ringing bonk sfx\\*\\*](#embed:https://www.youtube.com/live/DDwNcYCtAXw?feature=shared&t=1628)\n\nStarting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/resonant-strike-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Nerissa's first time wielding Resonant Strike",
+          "source": "/images-opt/resonant-strike-entry-0-opt.webp"
+        },
+        {
+          "title": "Resonant Strike viewed from the inventory",
+          "source": "/images-opt/resonant-strike-entry-1-opt.webp"
+        },
+        {
+          "title": "Resonant Strike's ability activated",
+          "source": "/images-opt/resonant-strike-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/resonant-strike-entry.glb"
+    },
+    {
+      "id": "bookmark-of-memories-entry",
+      "title": "Bookmark of Memories",
+      "chapters": [
+        -1
+      ],
+      "quote": "Tickle tickle~ Oh crap I think I just exploded",
+      "content": "## Overview\n\n**Bookmark of Memories**, [Shiori Novella's](#entry:shiori-entry) Revelation, takes the form of a blue feather—more precisely, a quill meant for writing. It was bestowed upon her when she was first summoned to the Kingdom of Libestal.\n\n## Details\n\nWhen activated, the quill summons bookmarks that hover around Shiori and fire beams that converge on her target. Upon impact, the beams explode, dealing significant damage.\n\nThe quill serves as a subtle reminder of her role as an _Archiver_—a life she no longer remembers. Perhaps it was this lack of recollection that led her to use it for mischief rather than battle, often opting to tickle people with it instead. Unfortunately, she tended to forget that doing so could accidentally trigger its ability, much to the misfortune of any unsuspecting bystanders.\n\n[Explosive Tickling](#embed:https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=7821)\n\nEver since Chapter 2, the quill gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/bookmark-of-memories-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Shiori's first time wielding the book",
+          "source": "/images-opt/bookmark-of-memories-entry-0-opt.webp"
+        },
+        {
+          "title": "Bookmark of Memories viewed from the inventory",
+          "source": "/images-opt/bookmark-of-memories-entry-1-opt.webp"
+        },
+        {
+          "title": "Bookmark of Memories' ability activated",
+          "source": "/images-opt/bookmark-of-memories-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/bookmark-of-memories-entry.glb"
+    },
+    {
+      "id": "azure-claws-entry",
+      "title": "Azure Claws",
+      "chapters": [
+        -1
+      ],
+      "quote": "Bau Bau~ Ehehehehehe",
+      "content": "## Overview\n\n**Azure Claws**—a pair of razor-sharp, blue claws—are the weapons bestowed upon [Fuwawa Abyssgard](#entry:fuwawa-entry) when she first arrived in the Kingdom of Libestal.\n\n## Details\n\nThe claws’ vicious design stands in stark contrast to Fuwawa’s fluffy, gentle demeanor. When activated, they unleash a flurry of devastating X-shaped slashes, tearing their targets apart with frightening efficiency. It’s an ability meant to instill fear in any foe.\n\nOf course, true to her kind-hearted nature, Fuwawa has only ever turned this power on monsters and genuine threats—unlike a certain pink someone who might not be quite as selective.\n\n[Giggles as she minces her enemies](#embed:https://www.youtube.com/live/3s_pVYBEax0?feature=shared&t=5667)\n\nStarting from Chapter 2, the claws also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/azure-claws-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Fuwawa's first time wielding Azure Claws",
+          "source": "/images-opt/azure-claws-entry-0-opt.webp"
+        },
+        {
+          "title": "Azure Claws viewed from the inventory",
+          "source": "/images-opt/azure-claws-entry-1-opt.webp"
+        },
+        {
+          "title": "Azure Claws' ability activated",
+          "source": "/images-opt/azure-claws-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/azure-claws-entry.glb"
+    },
+    {
+      "id": "fuchsia-claws-entry",
+      "title": "Fuchsia Claws",
+      "chapters": [
+        -1
+      ],
+      "quote": "I'll get you with these sharp claws of mine!",
+      "content": "## Overview\n\n**Fuchsia Claws**—much like her fluffy counterpart’s weapon—are a pair of razor-sharp claws wielded by [Mococo Abyssgard](#entry:mococo-entry), differentiated only by their light blue hue.\n\n## Details\n\nThese claws share the same core ability: upon activation, Mococo unleashes a flurry of X-shaped slashes devastating anything in her path.\n\nBut while the weapons may be similar, their wielders couldn't be more different. Unlike Fuwawa, who uses her claws only in times of absolute necessity and against evil foes, Mococo doesn’t hesitate to flash her claws at innocent bystanders—most often aimed at Nerissa, for reasons unknown (or perhaps very known).\n\n[Give me your money!](#embed:https://www.youtube.com/live/5swK4fB2smo?feature=shared&t=1373)\n\nEven harmless creatures like chickens aren't safe from the fuzzy one’s wrath. As the saying goes, \"With great power comes great responsibility\"... but when that power ends up in the hands of a gambling-addicted demon dog? Well, may fortune be on your side.\n\n[AHHHHHHHH!!!!!](#embed:https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=7274)\n\nEver since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/fuchsia-claws-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Mococo's first time wielding Fuchsia Claws",
+          "source": "/images-opt/fuchsia-claws-entry-0-opt.webp"
+        },
+        {
+          "title": "Fuchsia Claws viewed from the inventory",
+          "source": "/images-opt/fuchsia-claws-entry-1-opt.webp"
+        },
+        {
+          "title": "Fuchsia Claws' ability activated",
+          "source": "/images-opt/fuchsia-claws-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/fuchsia-claws-entry.glb"
+    },
+    {
+      "id": "thorn-of-order-entry",
+      "title": "Thorn of Order",
+      "chapters": [
+        -1
+      ],
+      "quote": "Welcome to the world of stability and harmony!",
+      "content": "## Overview\n\n**Thorn**, a greatsword, a claymore—or, in simpler terms, a _really_ big sword—stands out as one of the most striking weapons among all the heroes, purely due to its overwhelming size. Naturally, only a knight as noble as [Elizabeth Rose Bloodflame](#entry:liz-entry) could wield such a formidable blade.\n\n## Details\n\nIf there’s anyone most deserving of a sword, it’s Elizabeth. A true knight through and through, even without recollection of her former self, the scarlet one's sense of chivalry remains unwavering, as she continues to fight for righteousness throughout her journey in Libestal despite all the weirdness surrounding her.\n\nUpon activation, Thorn unleashes a sweeping lateral strike followed by a powerful explosion. It’s a simple move—but one that speaks volumes through sheer force.\n\n[For honour!](#embed:https://www.youtube.com/live/oVguNTPnDww?si=XWIrWAhx_Nv0aR13&t=1433)\n\nStarting in Chapter 2, the blade also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/thorn-of-order-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Elizabeth's first time wielding Thorn",
+          "source": "/images-opt/thorn-of-order-entry-0-opt.webp"
+        },
+        {
+          "title": "Thorn as viewed from the inventory",
+          "source": "/images-opt/thorn-of-order-entry-1-opt.webp"
+        },
+        {
+          "title": "Thorn's ability activated",
+          "source": "/images-opt/thorn-of-order-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/thorn-of-order-entry.glb"
+    },
+    {
+      "id": "automaton-assault-entry",
+      "title": "Automaton Assault",
+      "chapters": [
+        -1
+      ],
+      "quote": "Hmph, don't tell me what to do. Automaton Assault!",
+      "content": "## Overview\n\n**Automaton Assault**, a lance adorned in gold and green, is the signature weapon of [Cecilia Immergreen](#entry:cecilia-entry) during her journey through the Kingdom of Libestal.\n\n## Details\n\nTrue to its name, Automaton Assault enables Cecilia to unleash a rapid flurry of spear strikes upon her enemies. While the sheer speed and force of the attack are intimidating, the effect is often slightly undercut by Cecilia’s unshakable habit of shouting an adorably cheerful catchphrase before launching her foes into oblivion.\n\n[Automaton Assault!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)\n\nStarting from Chapter 2, the lance also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/automaton-assault-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Cecilia's first time wielding Automaton Assault",
+          "source": "/images-opt/automaton-assault-entry-0-opt.webp"
+        },
+        {
+          "title": "Automaton Assault as viewed from the inventory",
+          "source": "/images-opt/automaton-assault-entry-1-opt.webp"
+        },
+        {
+          "title": "Automaton Assault's ability activated",
+          "source": "/images-opt/automaton-assault-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/automaton-assault-entry.glb"
+    },
+    {
+      "id": "gremlin-grenade-entry",
+      "title": "Gremlin Grenade",
+      "chapters": [
+        -1
+      ],
+      "quote": "Revelation! Huzzah!",
+      "content": "## Overview\n\n**Gremlin Grenade**, a pair of spiked metal gauntlets—so massive they nearly dwarf their wielder's head—are the weapons worn by our humble knight, [Gonathon G](#entry:gigi-entry), upon his arrival in the Kingdom of Libestal.\n\n## Details\n\nWhen activated, the gauntlets launch Gonathon forward, allowing him to perform AoE ground pounds followed by explosions, dealing serious damage to anything unlucky enough to be nearby. Much like Raora’s launch ability, it also lets Gonathon reach places most others can’t… which, yes, he shamelessly exploited to grab [dungeon treasure](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=6730).\n\n[Fist of Fury](#embed:https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=8095)\n\nEver since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/gremlin-grenade-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Gonathon's first time wielding Gremlin Grenade",
+          "source": "/images-opt/gremlin-grenade-entry-0-opt.webp"
+        },
+        {
+          "title": "Gremlin Grenade viewed from the inventory ",
+          "source": "/images-opt/gremlin-grenade-entry-1-opt.webp"
+        },
+        {
+          "title": "Gremlin Grenade's ability activated",
+          "source": "/images-opt/gremlin-grenade-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/gremlin-grenade-entry.glb"
+    },
+    {
+      "id": "purrfect-execution-entry",
+      "title": "Purrfect Execution",
+      "chapters": [
+        -1
+      ],
+      "quote": "Raooo!",
+      "content": "## Overview\n\n**Purrfect Execution**, a playful yet unmistakably intimidating name, is the title of the razor-sharp mechanical claw wielded by [Raora Panthera](#entry:raora-entry) on her journey through Libestal.\n\n## Details\n\nWhen activated, the big pink cat is launched into the air, executing rapid claw strikes while orbiting around her target, slashing through multiple enemies like a true feline expertly pouncing on its prey.\n\n[Big cat means big slashes](#embed:https://www.youtube.com/live/8ybUOw9NhMc?si=8Pej7LP6Am3NbGSa&t=6746)\n\nStarting in Chapter 2, the claw also gained an additional [ranged attack.](#entry:revelations-entry)",
+      "thumbnailSrc": "/images-opt/purrfect-execution-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Raora's first time wielding Purrfect Execution",
+          "source": "/images-opt/purrfect-execution-entry-0-opt.webp"
+        },
+        {
+          "title": "Purrfect Execution as viewed from the inventory",
+          "source": "/images-opt/purrfect-execution-entry-1-opt.webp"
+        },
+        {
+          "title": "Purrfect Execution's ability activated",
+          "source": "/images-opt/purrfect-execution-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/purrfect-execution-entry.glb"
     }
   ]
 }

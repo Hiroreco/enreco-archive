@@ -171,8 +171,6 @@ const ViewLightbox = ({
         }
     }, [galleryImages, isOpen, isExternallyControlled]);
 
-    console.log(currentImageIndex, images.length);
-
     // Safe currentImage access with fallback
     const currentImage = useMemo(
         () => images[currentImageIndex] || images[0] || { src, alt },

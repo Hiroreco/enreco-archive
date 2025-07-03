@@ -1,5 +1,9 @@
 import fanartData from "#/fanart.json";
-import { getCharacterIdNameMap } from "@/lib/misc";
+import {
+    CHARACTER_ORDER,
+    getCharacterIdNameMap,
+    sortByPredefinedOrder,
+} from "@/lib/misc";
 import { getBlurDataURL } from "@/lib/utils";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
@@ -124,11 +128,20 @@ const ViewFanartModal = ({
 
     const characters = useMemo(() => {
         const allCharacters = new Set<string>();
+        // only add characters that are in the current chapter
         fanart.forEach((entry) => {
-            entry.characters.forEach((char) => allCharacters.add(char));
+            if (entry.chapter === parseInt(selectedChapter)) {
+                entry.characters.forEach((char) => allCharacters.add(char));
+            }
         });
-        return Array.from(allCharacters).sort();
-    }, [fanart]);
+
+        return sortByPredefinedOrder(
+            Array.from(allCharacters),
+            CHARACTER_ORDER,
+            (char) => char,
+            "alphabetical",
+        );
+    }, [fanart, selectedChapter]);
 
     const chapters = useMemo(() => {
         const allChapters = new Set<number>();

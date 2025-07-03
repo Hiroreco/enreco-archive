@@ -228,3 +228,90 @@ export const getCharacterIdNameMap = (chapter = 0): Record<string, string> => {
     }
     return CHARACTER_ID_NAME_MAP;
 };
+
+export const CHARACTER_ORDER = [
+    "ame",
+    "gura",
+    "calli",
+    "kiara",
+    "ina",
+    "irys",
+    "kronii",
+    "bae",
+    "fauna",
+    "moom",
+    "bijou",
+    "nerissa",
+    "shiori",
+    "fuwawa",
+    "mococo",
+    "liz",
+    "cecilia",
+    "gigi",
+    "raora",
+    "iphania",
+];
+
+export const GLOSSARY_DUNGEON_ORDER = [
+    "underworld-dungeon",
+    "ocean-temple-dungeon",
+    "eldritch-horror-dungeon",
+    "volcanic-dungeon",
+    "ancient-sewer-dungeon",
+    "star-site-elpis",
+    "star-site-chronos",
+    "star-site-chaos",
+];
+
+export const GLOSSARY_CHARACTER_ORDER = CHARACTER_ORDER.map((id) => {
+    return id + "-entry";
+});
+
+export const FANART_CHARACTER_ORDER = [...CHARACTER_ORDER, "iphania"];
+
+/**
+ * Sorts an array based on a predefined order array
+ * @param items - Array of items to sort
+ * @param orderArray - Array defining the desired order
+ * @param getKey - Function to extract the key from each item (defaults to identity)
+ * @param fallbackSort - How to sort items not in orderArray ('start' | 'end' | 'alphabetical')
+ */
+export function sortByPredefinedOrder<T>(
+    items: T[],
+    orderArray: string[],
+    getKey: (item: T) => string = (item) => String(item),
+    fallbackSort: "start" | "end" | "alphabetical" = "end",
+): T[] {
+    const orderMap = new Map(orderArray.map((key, index) => [key, index]));
+
+    const tmp = [...items].sort((a, b) => {
+        const keyA = getKey(a);
+        const keyB = getKey(b);
+
+        const indexA = orderMap.get(keyA);
+        const indexB = orderMap.get(keyB);
+
+        // Both items are in the order array
+        if (indexA !== undefined && indexB !== undefined) {
+            return indexA - indexB;
+        }
+
+        // Only A is in the order array
+        if (indexA !== undefined && indexB === undefined) {
+            return fallbackSort === "start" ? 1 : -1;
+        }
+
+        // Only B is in the order array
+        if (indexA === undefined && indexB !== undefined) {
+            return fallbackSort === "start" ? -1 : 1;
+        }
+
+        // Neither is in the order array
+        if (fallbackSort === "alphabetical") {
+            return keyA.localeCompare(keyB);
+        }
+        // Keep original order for items not in orderArray
+        return 0;
+    });
+    return tmp;
+}
