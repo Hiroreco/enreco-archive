@@ -3,13 +3,14 @@ import { AnimatePresence, motion } from "framer-motion";
 import {
     Book,
     ChevronLeft,
+    ChevronRight,
     Dices,
     Home,
     Scroll,
     Sword,
     UserRound,
 } from "lucide-react";
-import { ReactElement, useEffect, useMemo, useState } from "react";
+import { ReactElement, useCallback, useEffect, useMemo, useState } from "react";
 
 import ViewGlossarySelector from "@/components/view/items-page/ViewGlossarySelector";
 import ViewGlossaryViewer from "@/components/view/items-page/ViewGlossaryViewer";
@@ -79,6 +80,86 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         goHome,
     } = useGlossary();
 
+    const allEmpty = useMemo(
+        () => Object.values(filteredData).every((arr) => arr.length === 0),
+        [filteredData],
+    );
+
+    const entryBg = useMemo(
+        () =>
+            selectedCategory === "cat-weapons"
+                ? "/images-opt/item-bg-opt.webp"
+                : currentEntry
+                  ? currentEntry.item.thumbnailSrc
+                  : bgImage,
+        [selectedCategory, currentEntry, bgImage],
+    );
+
+    const flattenedItems = useMemo(() => {
+        const items: Array<{ id: string; subcategory: string }> = [];
+
+        // Sort subcategories consistently
+        const sortedSubcategories = Object.keys(filteredData).sort();
+
+        sortedSubcategories.forEach((subcategory) => {
+            const subcategoryItems = filteredData[subcategory];
+            if (subcategoryItems && subcategoryItems.length > 0) {
+                // Sort items within subcategory by title
+                const sortedItems = [...subcategoryItems].sort((a, b) =>
+                    a.title.localeCompare(b.title),
+                );
+                sortedItems.forEach((item) => {
+                    items.push({ id: item.id, subcategory });
+                });
+            }
+        });
+
+        return items;
+    }, [filteredData]);
+
+    const currentItemIndex = useMemo(() => {
+        if (!currentEntry) return -1;
+        return flattenedItems.findIndex(
+            (item) => item.id === currentEntry.item.id,
+        );
+    }, [currentEntry, flattenedItems]);
+
+    const canGoNext = useMemo(
+        () =>
+            currentItemIndex >= 0 &&
+            currentItemIndex < flattenedItems.length - 1,
+        [currentItemIndex, flattenedItems.length],
+    );
+    const canGoPrev = useMemo(() => currentItemIndex > 0, [currentItemIndex]);
+
+    const goToNext = useCallback(() => {
+        if (canGoNext) {
+            const nextItem = flattenedItems[currentItemIndex + 1];
+            const nextEntry = registry[nextItem.id];
+            if (nextEntry) {
+                selectItem(nextEntry);
+            }
+        }
+    }, [canGoNext, currentItemIndex, flattenedItems, registry, selectItem]);
+
+    const goToPrev = useCallback(() => {
+        if (canGoPrev) {
+            const prevItem = flattenedItems[currentItemIndex - 1];
+            const prevEntry = registry[prevItem.id];
+            if (prevEntry) {
+                selectItem(prevEntry);
+            }
+        }
+    }, [canGoPrev, currentItemIndex, flattenedItems, registry, selectItem]);
+
+    // If context.selected changes (via a #item link), jump to its category
+    useEffect(() => {
+        if (currentEntry) {
+            setSelectedCategory(currentEntry.categoryKey);
+        }
+    }, [currentEntry]);
+
+    // Filter and prepare data based on selected category and chapter
     useEffect(() => {
         const newMap: GlossaryPageData = {};
 
@@ -100,45 +181,33 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         setFilteredData(newMap);
     }, [selectedCategory, selectedChapter, registry]);
 
-    // If context.selected changes (via a #item link), jump to its category
-    useEffect(() => {
-        if (currentEntry) {
-            setSelectedCategory(currentEntry.categoryKey);
-        }
-    }, [currentEntry]);
-
-    const allEmpty = useMemo(
-        () => Object.values(filteredData).every((arr) => arr.length === 0),
-        [filteredData],
-    );
-
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             const isAnyDialogOpen =
                 document.querySelector('[role="dialog"]') !== null;
 
             if (isAnyDialogOpen) return;
+
             if (event.key === "Escape" || event.key === "Backspace") {
                 if (currentEntry !== null) {
                     goBack();
                 }
                 return;
             }
+
+            // Add keyboard navigation for prev/next
+            if (currentEntry !== null) {
+                if (event.key === "ArrowLeft" && canGoPrev) {
+                    goToPrev();
+                } else if (event.key === "ArrowRight" && canGoNext) {
+                    goToNext();
+                }
+            }
         };
 
         window.addEventListener("keydown", handleKeyDown);
         return () => window.removeEventListener("keydown", handleKeyDown);
-    }, [currentEntry, goBack]);
-
-    const entryBg = useMemo(
-        () =>
-            selectedCategory === "cat-weapons"
-                ? "/images-opt/item-bg-opt.webp"
-                : currentEntry
-                  ? currentEntry.item.thumbnailSrc
-                  : bgImage,
-        [selectedCategory, currentEntry, bgImage],
-    );
+    }, [currentEntry, goBack, canGoPrev, canGoNext, goToPrev, goToNext]);
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
@@ -355,6 +424,38 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                         ))}
                     </TabsList>
                 </Tabs>
+
+                {/* Prev/Next Navigation */}
+                {currentEntry !== null && (
+                    <div className="absolute bottom-4 right-4 flex items-center gap-2">
+                        <button
+                            onClick={goToPrev}
+                            disabled={!canGoPrev}
+                            className={cn(
+                                "p-2 rounded-full transition-all",
+                                "bg-white/20 backdrop-blur-sm shadow-md",
+                                "hover:bg-white/30 hover:scale-105",
+                                "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
+                            )}
+                            title="Previous entry (←)"
+                        >
+                            <ChevronLeft size={20} />
+                        </button>
+                        <button
+                            onClick={goToNext}
+                            disabled={!canGoNext}
+                            className={cn(
+                                "p-2 rounded-full transition-all",
+                                "bg-white/20 backdrop-blur-sm shadow-md",
+                                "hover:bg-white/30 hover:scale-105",
+                                "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
+                            )}
+                            title="Next entry (→)"
+                        >
+                            <ChevronRight size={20} />
+                        </button>
+                    </div>
+                )}
             </CardFooter>
         </Card>
     );

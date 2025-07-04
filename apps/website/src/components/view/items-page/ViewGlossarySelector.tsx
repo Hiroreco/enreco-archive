@@ -27,6 +27,7 @@ const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
                     alt=""
                     fill
                     className="object-cover blur-md dark:opacity-10 opacity-30"
+                    priority={true}
                 />
                 {/* Dark overlay to ensure content readability */}
                 <div className="absolute inset-0 dark:bg-black/20 bg-white/20" />
