@@ -38,8 +38,8 @@ export const GLOSSARY_MAIN_QUESTS_ORDER = [
 ];
 
 export const GLOSSARY_LORE_GENERAL_ORDER = [
-    "kingdom-of-libestal-ancient",
-    "kingdom-of-libestal-ficta",
+    "libestal-ancient",
+    "libestal-ficta",
     "stains",
     "revelations",
 ];
