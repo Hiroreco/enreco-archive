@@ -20,4 +20,6 @@ Somewhere along the way, though, an odd camaraderie formed between the unlikely 
 
 [Big Gnome Man](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=cUCbHoToUYsfGNWz&t=13728)
 
+## Fanart
+
 ["Pearl..." by aWoooFa](https://x.com/Awooofa/status/1831403586494017956)

@@ -22,4 +22,6 @@ With a solemn bow before Tam Gandr’s statue, Kiara whispered her goodbyes. The
 
 [Best of luck to everyone](#embed:https://www.youtube.com/live/lNIoudshEkQ?feature=shared&t=8978)
 
+## Fanart
+
 [Kiara by KeiMyon](https://x.com/kei_myon/status/1831699644038181321)

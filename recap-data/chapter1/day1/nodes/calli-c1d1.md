@@ -20,4 +20,6 @@ The return of her memories filled Calli with fear and guilt. She felt like a tra
 
 At the end of the day—a day that included being hit by a truck, losing her memories, navigating chaos, and rediscovering herself—Calli took a moment to reflect. It had been wild, but it wasn’t the end. Her enigmatic journey was only just beginning, with many more adventures yet to come.
 
+## Fanart
+
 ["The Underworld Calls" by nino](https://x.com/2nochuu/status/1902511940938952880)

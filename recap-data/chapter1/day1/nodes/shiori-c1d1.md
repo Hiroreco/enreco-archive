@@ -20,4 +20,6 @@ Unlike the others, Shiori didn’t tackle the _Underworld Dungeon_ on the first 
 
 [Conspiracy theories](#embed:https://www.youtube.com/live/KSaC99K4IF8?t=5588)
 
+## Fanart
+
 ["The Archiver" by Higeji](https://x.com/higeji404/status/1901370626591605149)

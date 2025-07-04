@@ -33,4 +33,6 @@ At first, Cecilia brushed it off, too engrossed in her gambling to give it much 
 
 Before she could investigate further, the key on her head abruptly stopped spinning. Her vision darkened, and the world around her faded into black.
 
+## Fanart
+
 ["She got tha HAT!!!" by aWoooFa](https://x.com/Awooofa/status/1831049705700413843)

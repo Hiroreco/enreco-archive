@@ -20,4 +20,6 @@ Their day didn’t end there. They ventured into a casino to test their luck. Ce
 
 [Green women whispering](#embed:https://www.youtube.com/live/SAdndMvNK98?t=12161)
 
+## Fanart
+
 ["Revelation" by Mittsu](https://x.com/MittsumiA/status/1902371897985397070)

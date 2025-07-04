@@ -18,4 +18,6 @@ Pride and happiness filled his heart, but alongside these emotions came a creepi
 
 [I will respect her choice](#embed:https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=12019)
 
+## Fanart
+
 ["mayhaps i am no longer the path she wishes" by bungle](https://x.com/bbbbungle/status/1831862192855228538)

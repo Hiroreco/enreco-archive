@@ -18,6 +18,8 @@ After a fulfilling meal, Gonathon moved on to the next major task of the day: co
 
 Through teamwork and perseverance, the group emerged victorious, recovering the [memories](https://www.youtube.com/live/6exWVCmzA9I?feature=shared&t=10803) of _Ninomae Ina’nis_. With their mission complete, Gonathon returned to the kingdom to assist Tam in building the guild base. He poured the remainder of his energy into the task, dedicating himself entirely to helping her realize her vision (see [Gonathon-Tam: Knight and Queen](#edge:gigi-kronii)).
 
+## Fanart
+
 ["gonathon g / pure of heart" by scramble ham](https://x.com/scrambleham/status/1831057372820963655)
 
 ["Gonathon G" by Hyoweii](https://x.com/weiiyxn/status/1831340977870823504)

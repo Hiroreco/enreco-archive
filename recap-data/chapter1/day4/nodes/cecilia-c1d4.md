@@ -10,4 +10,6 @@ The plan? Bijou would be the key. As a princess, she held the perfect status for
 
 If the already questionable crackhead theories about the kingdom weren’t enough to cast doubts on Cecilia’s sanity, well—this certainly would.
 
+## Fanart
+
 ["The Knight Chooses Her Ruler" by BlaParky](https://x.com/BlaParky/status/1831222642730516798)

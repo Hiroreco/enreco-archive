@@ -26,4 +26,6 @@ Later on, deciding that earning the trust of her "future subjects" was important
 
 After helping them complete the dungeon, Raora finally called it a day. It had been a fun and eventful one, and perhaps the first steps toward her self-proclaimed destiny as the next queen of Libestal.
 
+## Fanart
+
 [":3" by Miku](https://x.com/Mikururun/status/1899247515700019465)

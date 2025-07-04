@@ -14,4 +14,6 @@ Her journey culminated in the group’s venture into the _Underworld Dungeon_, w
 
 It was a whirlwind of a day for the maiden, filled with ups, downs, and plenty of chaos. But through it all, she had fun, marking the vibrant beginning of the Hot Pink One’s journey.
 
+## Fanart
+
 ["Fallen Angel" by DasDokter](https://x.com/DasDokter/status/1902324865778250152)

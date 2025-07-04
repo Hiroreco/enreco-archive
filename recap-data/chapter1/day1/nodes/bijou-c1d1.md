@@ -28,4 +28,6 @@ Oh, and one more thing, wooden shovel.
 
 [Wooden shovel](#embed:https://www.youtube.com/live/Fr6yMByDTIs?t=7886)
 
+## Fanart
+
 ["Koseki Bijou" by Amano Ritsu](https://x.com/Amano_Ritsu827/status/1901978737610301805)

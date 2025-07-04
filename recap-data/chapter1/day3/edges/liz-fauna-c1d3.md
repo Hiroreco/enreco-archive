@@ -14,4 +14,6 @@ Perhaps there was some truth to Fauna's words, but for now, Elizabeth saw her as
 
 [She's just standing there...](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=3589)
 
+## Fanart
+
 ["Witch" by rediola](https://x.com/rediosokiut/status/1832178260446474397)

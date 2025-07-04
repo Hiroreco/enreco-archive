@@ -22,6 +22,8 @@ Exhausted from the mental gymnastics, the group decided to unwind at the casino.
 
 [It's over...](#embed:https://www.youtube.com/live/a74NeBcixi8?feature=shared&t=10831)
 
+## Fanart
+
 ["The Appointed Points" by Hiro](https://x.com/hiroavrs/status/1830628289926557835)
 
 ["Tipi" by Moonia](https://x.com/BloodyMoonia/status/1830726627686588557)

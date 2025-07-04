@@ -30,4 +30,6 @@ Fuwawa barely had time to process Gonathon’s warning before she was confronted
 
 Fuwawa’s once-peaceful view of Libestal began to crumble. Her chickens were gone, the corruption was spreading, and even her closest companion, Mococo, might not be trustworthy. For the first time, Fuwawa felt a deep, foreboding fear for what awaited on the final day.
 
+## Fanart
+
 ["Memory fragments" by fukuinu](https://x.com/fukuinu_daddy/status/1832892608789770703)

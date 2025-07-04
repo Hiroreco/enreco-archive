@@ -22,4 +22,6 @@ For a moment, Bae considered the possibility that life here might not be so bad.
 
 [Adios, suckers](#embed:www.youtube.com/live/y8bcLA6BQsw?t=10388)
 
+## Fanart
+
 ["The BAE" by Platypus Jowo](https://x.com/seekorplatypus/status/1902528599774883882)

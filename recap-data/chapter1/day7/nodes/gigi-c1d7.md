@@ -30,12 +30,12 @@ He penned two letters that night: one to Amelia Watson, warning her of the growi
 
 The final day loomed ominously on the horizon. Despite the mounting dangers, Gonathon knew he had to face whatever came with courage and resolve, for the sake of his kingdom, his queen, and the ones he cared about.
 
-["Who is Gonathon G" by Emico Otero](https://www.youtube.com/watch?v=MxNvjxcmzW4)
-
-["Rizzle me this" by Hiro](https://x.com/hiroavrs/status/1832437338469011589)
-
 ## Fanart
 
 ["I hope you come back soon". by Daaku](https://x.com/koizumi_arata/status/1832113066487771210)
 
 ["My dear pearl..." by Leaflet](https://x.com/Lil_Leaflet_/status/1832398336877596978)
+
+["Who is Gonathon G" by Emico Otero](https://www.youtube.com/watch?v=MxNvjxcmzW4)
+
+["Rizzle me this" by Hiro](https://x.com/hiroavrs/status/1832437338469011589)
