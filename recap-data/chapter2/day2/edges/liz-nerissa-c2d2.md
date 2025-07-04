@@ -23,3 +23,5 @@ Still, despite it all, there was something hopeful in the air. Their chemistry, 
 ["Devour your soul" by zelmaelstrom](https://x.com/zelmaelstrom/status/1922782098202488961)
 
 ["Trade" by noirstein](https://x.com/noirstein/status/1919950989265658028)
+
+["Bloodraven in a nutshell" by Shee](https://x.com/tianshiko/status/1934050252702802157)

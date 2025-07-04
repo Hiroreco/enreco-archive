@@ -15,3 +15,7 @@ But amidst the shenanigans, the heroes did not forget their primary mission: to 
 ![The girls attempting the Ocean Temple Dungeon](images-opt/oceantemple-opt.webp)
 
 In completing the dungeon, the heroes unlocked another fragment of their forgotten past—this time, uncovering the story of [Gawr Gura](https://www.youtube.com/watch?v=SDnRHwpnIH4).
+
+## Fanart
+
+["ERB and the Fantastic Beasts" by Marus_Circle](https://x.com/Marus_Circle/status/1830885012788674962)

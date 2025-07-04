@@ -43,3 +43,5 @@ It seemed that their friendship, one that started sweetly in the day with gifts 
 ["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
 
 ["When have I ever lied to you?" by ESTY](https://x.com/Sticker_sr/status/1921550872217104488)
+
+["Who were you before Lady Bloodflame" by Mr. Joeboto](https://x.com/LordJoeboto/status/1920978616894062922)

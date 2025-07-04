@@ -27,4 +27,10 @@ Though NanaEleven had just opened, it had already made an impact—albeit with a
 
 [They'll never see it coming](#embed:https://www.youtube.com/embed/zPJ78C7uNq8?si=AOTB6BRlzqAsVuef&start=5592)
 
+## Fanwork
+
 ["Nana-11 1996 VHS Commercial Footage" by Emico Otero](https://www.youtube.com/watch?v=cyw49svSeMw)
+
+["Nana-11" by Fongban](https://x.com/fongban_/status/1902071843584143478)
+
+["Nanamoo" by Manganeso](https://x.com/ManganesoDS/status/1831552708098023623)

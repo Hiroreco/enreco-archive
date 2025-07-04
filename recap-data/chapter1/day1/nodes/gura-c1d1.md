@@ -18,6 +18,12 @@ The almighty Appointed Point didn’t stay mighty for long, as Fauna promptly be
 
 Finally, the three of them wrapped up their day at the casino. While Fauna and Cecilia made decent profits, Gura went bankrupt—she lost so much money she couldn't feel her legs anymore. Again, the hat offered no perks. Despite that, she had a blast and was excited for whatever adventures lay ahead.
 
+## Fanart
+
 ["A Shark" by Ammy](https://x.com/Ammiietty/status/1830136980811796710)
 
 ["Big Silly Hat" by toro rose](https://x.com/TororoRose/status/1830139747202728375)
+
+["Gura" by ma_draws"](https://x.com/ma_draws/status/1901606787452948765/)
+
+["stalatite head" by keenbiscuit](https://x.com/keenbiscuit/status/1830198547343671646)

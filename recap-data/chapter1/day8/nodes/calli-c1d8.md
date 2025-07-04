@@ -27,3 +27,7 @@ When the final battle arrived, Calli and her allies faced off against the Stain 
 Before signing off, Calli left one last remark, addressing a peculiar customer review of her food.
 
 [Peeing on food](#embed:https://www.youtube.com/embed/evcruocvE3g?si=TvbG_jKQwRp9fagg&start=15340)
+
+## Fanart
+
+["the pink one" by Daaku](https://x.com/koizumi_arata/status/1902563407699513352)

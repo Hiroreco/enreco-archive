@@ -58,3 +58,11 @@ And thus began with hearts unshaken—
 The quiet rise of rebellion awakened.
 
 ![](/images-opt/advent-video-opt.webp)
+
+## Fanart
+
+["Chapter 2" by BunBBun](https://x.com/BunBBun1/status/1922478064446902631)
+
+["Who's with us?" by Haaro](https://x.com/haaro_69/status/1922034045124223411)
+
+["Title card" by BunBBun](https://x.com/BunBBun1/status/1922035596597358999)

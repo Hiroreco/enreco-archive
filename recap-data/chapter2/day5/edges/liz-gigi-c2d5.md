@@ -11,3 +11,7 @@ Liz and Gonathon realized that they shared an intense bond, even if they did not
 [For Justice!](#embed:https://youtu.be/alQr5XqoUPs?t=11090)
 
 While this was the end of Gonathon’s interactions with Liz for the day, it was not the end of the advice he would receive. A [strange, floating cape](https://youtu.be/alQr5XqoUPs?t=11687) would appear before Gonathon and lecture the Humble Knight on whether he was making the right choices. This exchange further hardened Gonathon’s resolve, and with his knightly code firmly engraved on his heart once more, he set out to make things to right.
+
+## Fanart
+
+["My knight's armor- harm- arm- knight's honor! And my armor..." by floomf](https://x.com/fluumf/status/1920463783882891312)

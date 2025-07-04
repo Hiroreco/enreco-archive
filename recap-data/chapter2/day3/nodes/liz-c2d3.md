@@ -13,3 +13,5 @@ With her tasks wrapped up (and [pranks](https://www.youtube.com/live/CVF91CqGD80
 ## Fanart
 
 ["Revelation" by otashishi](https://x.com/ashiartwork/status/1900196831394668961)
+
+["at the jade forge" by eli](https://x.com/Elisbian_/status/1925783785758482569)

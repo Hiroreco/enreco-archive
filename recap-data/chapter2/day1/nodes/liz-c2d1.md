@@ -34,4 +34,4 @@ Instead, she chose to build herself a [humble home](https://www.youtube.com/live
 
 ## Fanart
 
-["KNIGHT GANG" by Achicvc](https://x.com/Another_achicvc/status/1922911239631516123)
+["Prediction for enreco s2" byy Ren](https://x.com/RenShifter/status/1902036192822247870)

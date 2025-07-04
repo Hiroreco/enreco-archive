@@ -73,3 +73,5 @@ When does a knight bend the knee?
 ["What could've been" by Keisea](https://x.com/Keiseeaaa/status/1920620111464992799)
 
 ["The Bird Song | An ENreco Animatic" by Elisbian](https://www.youtube.com/watch?v=xhnI-hxB3as&ab_channel=Elisbian)
+
+["Chapter 3" by otashishi](https://x.com/ashiartwork/status/1921948280365224396)

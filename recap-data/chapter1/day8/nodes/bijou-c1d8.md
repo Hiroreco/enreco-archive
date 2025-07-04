@@ -39,3 +39,13 @@ Awakened with a clear mind, Bijou reflected on the dangers of losing control, wh
 Finally, Bijou stood alongside her comrades for the final battle against the [Stain King](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=15132). Channeling her fury at the corruption that had consumed her, she fought fiercely, her gemstones striking true. Though the battle was won, the heroes faced an unsettling revelation about the king’s true nature (see [King: The True Evil](#node:king-of-libestal)).
 
 And then, everyone was brought back to the [white room](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=16724), where everything began and where this chapter closes.
+
+## Fanart
+
+["The Stain Princess" by Captain Skelefun](https://x.com/captainskelefun/status/1900878033872986249)
+
+["Princess" by SK JYNX](https://x.com/SK_Jynx/status/1833175491957968955)
+
+["Corruption" by Dr. Pigeon](https://x.com/PhdPigeon/status/1896821416395436357)
+
+["Corruption" by Magho](https://x.com/M_Agho/status/1834940565013868751)

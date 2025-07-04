@@ -56,8 +56,8 @@ Would this coven be just another harmless faction? Or would they be a threat to 
 
 ## Fan Arts
 
-["naow" by Chaku](https://x.com/DiChwis12652/status/1922518834847625230)
-
-["-Advent-" by Haaro](https://x.com/haaro_69/status/1922094444339462652)
-
 [Untitled by BRASILEIRoo0](https://x.com/BRASILEIROO0/status/1923024077683347585)
+
+["la vie en rose" by nino](https://x.com/2nochuu/status/1924239997458383113)
+
+["ABSOLUTE CINEMA" by seapupu](https://x.com/seapupu290495/status/1921597971465920739)

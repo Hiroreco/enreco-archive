@@ -13,3 +13,7 @@ Not all of the day's events were a fiery disaster—some new interactions took p
 But the true spectacle of the day wasn’t the dungeon, nor the new royal claims—it was the lottery fiasco between Mococo and Nerissa. What began as a simple mistake quickly spiraled into an all-out disaster.
 
 One small blunder left Nerissa spending the entire day running for her life from a rabid, fuzzy dog with dangerously sharp claws, while Mococo’s unchecked greed eventually backfired, forcing her to go into hiding from everyone. Things escalated so wildly that it even turned into a lawsuit, courtesy of Mococo.
+
+## Fanart
+
+["The Knight (And The Dog) Chooses Her Ruler" by BlaParky](https://x.com/BlaParky/status/1831222642730516798)

@@ -47,3 +47,11 @@ At one point, Amelia remembered a diamond, but it was still too foggy. Her head 
 ["A Knight's Tale illustrated" by Namii](https://x.com/NAMIORII/status/1832844940021514601)
 
 ["Welcome back, Myth" by nekotj](https://x.com/NekoNyanTJ/status/1832093407843672251)
+
+["And you are...?" by wishbone777](https://x.com/wishbone777/status/1832198108052382174)
+
+["On the way to a Smile" by advarcher](https://x.com/Anonamos_701/status/1832193120387395757)
+
+["where is my diamond...?" by wishbone777](https://x.com/wishbone777/status/1833889675456786595)
+
+["A distant memory" by Hyoweii](https://x.com/weiiyxn/status/1832322835596927349)

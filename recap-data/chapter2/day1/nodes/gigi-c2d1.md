@@ -21,3 +21,9 @@ This mantra would quickly be tested, as Gonathon found himself thrust into many 
 With the day drawing to a close, Gonathon retired to record his diary for inclusion in the Library. It was here that his self-doubt bubbled to the surface.
 
 [Their most cherished memories](#embed:https://youtu.be/CPT2cj934-I?t=17880)
+
+## Fanart
+
+["Gonathon training" by cd usr](https://x.com/cd_usr/status/1920637427082743930)
+
+["Henceforth!" by Hase](https://x.com/_nHase/status/1919082092828516566)

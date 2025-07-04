@@ -19,3 +19,5 @@ And with her deft craftsmanship, Shakira not only helped Elizabeth set up shopâ€
 ## Fanart
 
 ["just some knightly bonding" by Noise](https://x.com/lestkrr/status/1921705091372863518)
+
+["Liz and Shakira" by Kiosko](https://x.com/FeverKiosko/status/1934841637588611209)

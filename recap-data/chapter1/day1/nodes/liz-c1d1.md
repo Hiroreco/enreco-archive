@@ -21,3 +21,5 @@ By the end of the day, alongside Gonathon G and NinoIna—both members of Cerule
 ## Fanart
 
 ["Who were you, Lady Bloodflame?" by Eli](https://x.com/Elisbian_/status/1899423935571333292)
+
+["Defending the Kingdom" by LaZIK 1337](https://x.com/lazik_1337/status/1898490450949865975)

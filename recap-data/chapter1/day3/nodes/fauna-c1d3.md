@@ -32,3 +32,9 @@ Returning to her store, Fauna was greeted by Mococo, who came to collect her lot
 | Cecilia | 3 | 30 |
 
 Gave away 54 for free, total coins earned: _2220_
+
+## Fanart
+
+["Fauna" by DioDio](https://x.com/DioDio49/status/1832145126912590148)
+
+["Your Friendly Fauna Mart" by Fongban](https://x.com/Fongban_/status/1901895840236765627)

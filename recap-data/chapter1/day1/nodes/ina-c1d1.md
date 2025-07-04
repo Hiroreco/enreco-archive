@@ -20,4 +20,6 @@ Despite being placed in a guild full of quirky personalities, she remained calm 
 
 [What are they doing now...](#embed:https://www.youtube.com/live/THllQCVOYzY?t=6842)
 
-["ENdless journey" by LAW](https://x.com/laaaw444/status/1902474971496227083)
+## Fanart
+
+["NinoIna" by TaLLgeese](https://x.com/LgeeseL/status/1832493697914827120)

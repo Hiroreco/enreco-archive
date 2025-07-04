@@ -16,3 +16,7 @@ And so, as the final banquet began, Cecilia promised herself one thing: she woul
 
 But then—the unthinkable happened.
 (See [Cecilia-Princess](#edge:cecilia-iphania) and [Princess-Outlander](#edge:iphania-outlander))
+
+## Fanart
+
+["Princess..." by BunBBun](https://x.com/BunBBun1/status/1922035787824075147)

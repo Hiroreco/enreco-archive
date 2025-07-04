@@ -25,3 +25,9 @@ Her joy was short-lived, however, as Mococo—by accident—decimated the flock 
 Despite her lingering sadness, Fuwawa joined the others in the [final battle](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=7996). Together, they fought valiantly and defeated the Stain, only to uncover a deeper truth: the true threat all along had been the King (see [King: The True Evil](#node:king-of-libestal)).
 
 With the battle over, Fuwawa and the others returned to the mysterious [white room](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=9750), marking the end of her first chapter.
+
+## Fanart
+
+["Today's BAD END" by fukuinu](https://x.com/fukuinu_daddy/status/1832666640334405679)
+
+["I prefer to think it's magical" by Cipher4109](https://x.com/cipher4109/status/1833511205211959600)

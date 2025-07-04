@@ -23,3 +23,7 @@ All in all, a flawless start to her new culinary life of chaos. Even more, the b
 ## Fanart
 
 ["She was mysterious and beautiful" by yuri_kyannon](https://x.com/yuri_kyanon/status/1919648496329883766)
+
+["Shiori" by Lily is Asleep](https://x.com/Kukie_nyan/status/1920230188601823581)
+
+["Shiori" by hazel](https://x.com/hzlform/status/1901576727979233612)

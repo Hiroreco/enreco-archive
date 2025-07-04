@@ -33,3 +33,7 @@ Seemingly satisfied, Shiori reminisced with Gonathon for a while, with the knigh
 Although Tam once more sought to open Gonathon’s eyes to Shiori’s duplicities, Gonathon remained faithful to all his friends. Rather, he felt that a weight had been lifted off his shoulders, and together with the queen, the two mulled over what the next day would bring them as the curtains closed on another day.
 
 [A weight has been lifted](#embed:https://www.youtube.com/watch?v=p5xrAxTh8ho&t=15822s)
+
+## Fanart
+
+["I do not remember what being in love was like" by Gardener](https://x.com/jhgardener_/status/1920130763439386993)

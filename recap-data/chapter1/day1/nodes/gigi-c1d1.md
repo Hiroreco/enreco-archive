@@ -16,4 +16,8 @@ Gonathon's first day wasn’t entirely marked by screams and tears. Many of the 
 
 Eventually, alongside Elizabeth Rose Bloodflame and NinoIna, he ventured into the _Underworld Dungeon_. Together, they recovered memories tied to [Mori Calliope](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=12343), taking their first steps in unraveling the mysteries of their fragmented pasts.
 
+## Fanart
+
 ["The Humble Knight" by Hyoweii](https://x.com/weiiyxn/status/1902360036522991650)
+
+["The pain that Gonathon G carries" by Meyshi](https://x.com/Meyshi29/status/1833782799490601208)

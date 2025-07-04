@@ -51,3 +51,5 @@ The strawberry glowed so red it might as well have been a beacon.
 ["Looks like I won this round, witch" by Keisea](https://x.com/Keiseeaaa/status/1919845669562622165)
 
 ["A light moment between them" by TibsSketeches](https://x.com/TibsSketches/status/1920495769099931750)
+
+["hush my gums" by otashishi](https://x.com/ashiartwork/status/1934386688991850581)

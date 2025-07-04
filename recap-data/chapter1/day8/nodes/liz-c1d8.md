@@ -49,3 +49,7 @@ Unable to raise her sword at first, Elizabeth clung to denial. But the sight of 
 [For Justice!](#embed:https://www.youtube.com/live/_urPfTQnLes?si=xQsUGR_UZBcLZWQP&start=17881)
 
 When the journey ended, the heroes found themselves once again in the white room where it all [began](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=18386).
+
+## Fanart
+
+["Ravencroft1 and nerissa2" by set](https://x.com/_se_t_/status/1834034907229946123)

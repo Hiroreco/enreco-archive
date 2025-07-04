@@ -27,3 +27,7 @@ After conquering the dungeon and recovering memories of Gawr Gura, Shakira retur
 [Never gets old](#embed:https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9867)
 
 As the day drew to a close, Shakira, joined by Liz and Raora, ventured back into the first dungeon. Guided once again by her RPG instincts, she uncovered another hidden music disc, _"Excuse me, can you please RIP"_. She became the first adventurer to own this artifact, a small but satisfying [victory](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=13548) to end a chaotic day.
+
+## Fanart
+
+["Disc" by Hina](https://x.com/HYurisaki/status/1904203019035824337)

@@ -28,3 +28,7 @@ Before initiating her scheme, Cecilia attended to other matters. Noticing her la
 Next, she accompanied Bijou to investigate the king. The plan turned chaotic when an attempted assassination ended with Cecilia slipping and falling (see [Cecilia-Bijou: A Failed Coup](#edge:bijou-cecilia)).
 
 Undeterred, Cecilia joined Gonathon, Bijou, Raora, and the Hot Pink One in exploring the _Ancient Sewer Dungeon_. Together, they successfully recovered _Amelia Watson’s_ [memories](https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=12991).
+
+## Fanart
+
+["Better Call Ceci" by advarcher](https://x.com/Anonamos_701/status/1831536576620585414)

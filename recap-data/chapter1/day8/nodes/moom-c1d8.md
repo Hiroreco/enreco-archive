@@ -34,6 +34,10 @@ Her shenanigans, her laughter, and her presence—they will truly be missed.
 
 Thank you for everything, Mumei.
 
+## Fanart
+
 ["Taking over" by Fineria](https://x.com/Fineria_/status/1902555962864751092)
 
 ["Smol Moom" by Onecolo133](https://x.com/Onecolo133/status/1902225836020744442)
+
+["Nanamoo" by st.147](https://x.com/147illu/status/1901947215293428179)

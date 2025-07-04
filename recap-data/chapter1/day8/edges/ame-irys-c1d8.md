@@ -27,3 +27,7 @@ Amelia’s trust in the pink woman wavered. She studied her diamond, frowning as
 Not only that, Ina and Bijou soon joined in, confronting the Pink One for her betrayal. The confrontation erupted into a full-blown spectacle, drawing the attention of the entire kingdom.
 
 Caught red-handed and with no way out, the Pink One was left frantically apologizing to everyone, scrambling to salvage what little dignity she had left. It was like a scene ripped straight from a drama movie—except this time, she was the antagonist getting her long-overdue karma.
+
+## Fanart
+
+["GRIF- HOT PINK ONE!!!" by Miru](https://x.com/Kizuru09/status/1832752231696752933)

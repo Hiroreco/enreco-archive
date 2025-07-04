@@ -27,3 +27,5 @@ Eventually, Tam settled down to write her journal entry for the Library, reflect
 ["Supplier fit" by CHEL](https://x.com/chelimationz/status/1919839617232314759)
 
 ["in the mirror" by DoppiDonny](https://x.com/DoppiDonny/status/1921230140056424847)
+
+["Tam Gandr" by sleepy](https://x.com/hunk_404/status/1919887710409654390)

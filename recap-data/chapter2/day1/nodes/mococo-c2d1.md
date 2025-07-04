@@ -11,3 +11,9 @@ And so the fuzzy one’s journey began. Like everyone else, she had to learn the
 Not much else happened—it was only Day 1, after all. And honestly? That was probably for the best. After how chaotic things got for Mococo last time, she could use a bit of peace. Time to refresh her mind, perhaps become a kinder, gentler soul. Sure, she was still a little obsessed with cash, but who isn’t? At the very least, she didn’t have to worry about lottery tickets anymore. She could live her life, make her own choices, and—oh no, Mococo, no! She found the gambling machine!
 
 [Here we go again](#embed:https://www.youtube.com/live/Fv6DAiZLbUk?si=xxcTjEyCBICYhYy1&t=9886)
+
+## Fanart
+
+["Enreco Mococo" by seitohakuya](https://x.com/seitohakuya/status/1902530835552649547)
+
+["Lottery Ticket" by fukuinu](https://x.com/fukuinu_daddy/status/1917907936216601005)

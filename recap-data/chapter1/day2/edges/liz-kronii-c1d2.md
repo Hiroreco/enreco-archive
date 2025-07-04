@@ -24,4 +24,8 @@ Elizabeth was appalled at what she saw—Shakira, kneeling before Tam, acting as
 
 Elizabeth saw nothing in Tam that resembled royalty—no honor, no chivalry, no sense of grace. In her eyes, this woman was not worthy of being a queen. And as much as she wanted to never deal with Tam again, she hoped others would eventually see the light as well.
 
+## Fanart
+
 ["Libestal's forbidden love" by yuuto](https://x.com/yuutomeh97/status/1830490741384356254)
+
+["Tam Tender vs ERB" by Ho2nium](https://x.com/H_Hornium/status/1831083165341106580/photo/1)

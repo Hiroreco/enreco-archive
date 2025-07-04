@@ -31,3 +31,7 @@ So yes. Quite the day for Miss Warden. Miss Queen. Miss “I Actually Control Ti
 But she survived it all. Held her head high. And—of course—ended the day by journaling every bit of it, sprinkling in generous self-praise like the full-blown narcissist she was.
 
 [Dang I'm banging](#embed:https://www.youtube.com/live/YVyeKQ-6Ka8?si=3B-YlidTxv54ltwN&t=12964)
+
+## Fanart
+
+["Remember" by Daaku](https://x.com/koizumi_arata/status/1919773686233526778)

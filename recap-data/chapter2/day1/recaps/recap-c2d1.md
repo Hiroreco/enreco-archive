@@ -21,4 +21,12 @@ The Library holds the memories of everything, and it's now tended by lorekeepers
 
 How will any of this help save the universe? Who knows? But it's only Day 1—the start of a new adventure, a chance to forge new bonds and rediscover old ones. Forget world-saving for now. First, our heroes need to get a grip on their new lives and roles, because before anything else, they need to _pay the bills_.
 
+## Official Work
+
 [Monster - ENigmatic Recollection Chapter 2 Theme Song](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)
+
+["Monster" by purokiti](https://x.com/purokiti/status/1918510105928032297)
+
+["Monster" by KagenOyuhi](https://x.com/KagenOyuhi/status/1918496790875144250)
+
+["Monster Tarot Cards" by mokoppe](https://x.com/mokoppe/status/1918629108000362512)

@@ -19,3 +19,7 @@ Back in the kingdom, while working on her gallows, Gura was approached by Cecili
 Undeterred, Gura teamed up with Gonathon and Jyonathan to tackle the _Volcanic Dungeon_. The dungeon posed significant challenges, but its intricate contraptions fascinated Gura, who marveled at their [ingenuity](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=15828). The team ultimately emerged victorious, recovering [memories](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=16175) of _Takanashi Kiara_.
 
 With another successful day behind her, Gura called it a night, her mind racing with plans for justice, adventures, and perhaps some revisions to her gallows.
+
+## Fanart
+
+["Ultimate battle form" by advarcher](https://x.com/Anonamos_701/status/1831053964131140033)

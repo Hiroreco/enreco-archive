@@ -27,3 +27,9 @@ When Mococo regained [her senses](https://www.youtube.com/live/qFnAgJtQtiY?featu
 The situation escalated when Bijou cornered Fuwawa. Mococo instinctively stepped in to [protect](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=14838) her fluffy counterpart, distracting Bijou long enough for Fuwawa to escape. Their plan worked, and the two managed to flee.
 
 To ensure their safety, Mococo built a small shelter for the two of them to hide in, preparing for whatever danger lay ahead.
+
+## Fanart
+
+["Today's FUWAMOCO](https://x.com/fukuinu_daddy/status/1832281930748064239)
+
+["THE CHICKENS ARE TASTY." by DankWave](https://x.com/The_DankWave/status/1834198780335587359)

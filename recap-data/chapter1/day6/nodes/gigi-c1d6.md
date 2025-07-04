@@ -35,3 +35,5 @@ Yet, he resolved to press on, undeterred by the challenges before him (see [Gona
 ## Fanart
 
 ["there is only one for him" by Daaku](https://x.com/koizumi_arata/status/1831971695621808324)
+
+["One fear" by Daaku](https://x.com/koizumi_arata/status/1832141040792240564)

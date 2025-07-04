@@ -13,7 +13,3 @@ After the conquest of Star Site: Elpis and the Stronghold Ruins, Gonathon calls 
 [Just Siblings](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=18700s)
 
 Cecilia concludes the day discussing her concerns about the ["Inbread"](https://www.youtube.com/watch?v=Icdii90_vSA&t=22533s) occurrences at the castle with Gonathon over the phone.
-
-## Fanart
-
-["Born of a cult" by BunBBun](https://x.com/BunBBun1/status/1919963091464249648)

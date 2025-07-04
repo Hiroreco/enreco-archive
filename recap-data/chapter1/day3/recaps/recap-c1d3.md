@@ -15,3 +15,7 @@ Perhaps the most notable addition, however, was the grand opening of Mori’s Ta
 Finally, returning to the main task of the day—the dungeon challenge. This time, our adventurers were sent into the ominous depths of the [_Eldritch Horror Dungeon_](https://x.com/hololive_En/status/1830787800968638636), a place shrouded in eerie whispers and creeping dread. The challenge? To complete a series of designated tasks within a reasonable timeframe before their sanity levels plummeted beyond salvation. Upon completion, the heroes were granted the recovered memories of [_Ninomae Ina’nis_](https://www.youtube.com/watch?v=QE5Ow4L1Zt8).
 
 ![Inside the Eldritch Horror Dungeon](images-opt/ina-dungeon-opt.webp)
+
+## Fanart
+
+["Welcome to the Scarlet Wand Guild" by Chaleko](https://x.com/Chalek0/status/1831120630860963872)

@@ -16,4 +16,8 @@ And finally, the most crucial moment of all—the battle against the Stain King.
 
 With corruption at its peak, relationships transformed, rivalries settled, and secrets unearthed, the kingdom stood on the brink of a new era. And yet, despite the battles won, this was only the beginning of something far, far greater.
 
+## Fanart
+
 ["The finale is here." by keenbiscuit](https://x.com/keenbiscuit/status/1832589405451931972)
+
+["When you can't even say my name" by Daaku](https://x.com/koizumi_arata/status/1832563954859610324)

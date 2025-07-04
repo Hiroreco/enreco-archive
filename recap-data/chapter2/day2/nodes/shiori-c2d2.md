@@ -27,3 +27,5 @@ She also gave Gonathon beets, again, for completely [non-suspicious reasons](htt
 ## Fanart
 
 ["kiss it to make it better?" by kuma](https://x.com/kumakibbs/status/1926080936971497522)
+
+["soul-piercing" by sumo](https://x.com/sumo88_/status/1902014127691747329/)

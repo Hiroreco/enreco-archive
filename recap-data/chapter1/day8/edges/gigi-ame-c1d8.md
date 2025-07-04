@@ -63,3 +63,7 @@ A story to be told for generations to come.
 ["Gonathon and Ame reunion" by ErasorPepero](https://x.com/erasopepero232/status/1832763779790323948)
 
 ["Huzzah for the good ending!" by Nagi](https://x.com/Nagi_Nyaaa/status/1832736395368321060)
+
+["Couple" by Adarin](https://x.com/AdarinSinner/status/1848429109103505750)
+
+["my diamond" my Daaku](https://x.com/koizumi_arata/status/1832737380857459090)

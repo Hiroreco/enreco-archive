@@ -27,3 +27,11 @@ Even as the journey came to an end, the two remained inseparable, constantly flo
 ## Fanart
 
 ["How to Woo a Witch 101" by Keisea](https://x.com/Keiseeaaa/status/1832856628850491716)
+
+["blind loyalty" by eli](https://x.com/Elisbian_/status/1918616257747898833)
+
+["haha what if bad end" by Keisea](https://x.com/keiseeaaa/status/1833938251633303674)
+
+["The happy family we dreamt of" by pawchie](https://x.com/paw_chie/status/1833602592875942394)
+
+["Fire & Flight Vol 3" by Keisea](https://x.com/keiseeaaa/status/1833244422903108017)

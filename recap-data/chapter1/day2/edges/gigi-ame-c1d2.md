@@ -25,3 +25,7 @@ As for Jyonathan, the depth of her feelings for Gonathon was up for debate. Thou
 ["is this what they call...enemies to lovers?..." by Mooon](https://x.com/Moon_LDL/status/1830455614625001879)
 
 ["A proposal" by Hyoweii](https://x.com/weiiyxn/status/1830844192723255551)
+
+## Fanart
+
+["Gonathon and Jyonathon" by St3ll4](https://x.com/sssst3ll4/status/1834360675503837275)

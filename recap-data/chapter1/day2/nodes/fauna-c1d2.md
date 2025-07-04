@@ -24,4 +24,8 @@ Despite the cheapness of the tactic, it proved effective, bringing in three [new
 
 Business was flourishing, and Fauna’s entrepreneurial spirit showed no signs of slowing down. But as promising as her future appeared, one couldn’t help but wonder, would her questionable business practices eventually lead to lawsuits? Only time would tell.
 
+## Fanart
+
 ["Do it for the library" by Chaleko](https://x.com/Chalek0/status/1830748696935313524)
+
+["Big Faunamart" by advarcher](https://x.com/Anonamos_701/status/1831146945597038826)

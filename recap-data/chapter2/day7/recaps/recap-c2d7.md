@@ -21,3 +21,7 @@ In a day full of meaningful moments, a gender reveal party somehow stole the sho
 ![The Pink One's ~~gas~~ gender reveal party](/images-opt/gender-opt.webp)
 
 Still, one day remains. Let’s see how it all ends.
+
+## Fanart
+
+["GIVE BIRTH !!!" by BunBBun](https://x.com/BunBBun1/status/1921443281776381979)

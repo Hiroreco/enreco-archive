@@ -23,3 +23,7 @@ While Tam agreed to assist, all of this was too much for Shiori. She decided to 
 Alas, none of this was enough to overcome Gonathon’s crippling dedication to his queen and inability to make his own decisions. Upon returning home, Gonathon encountered what seemed to be a startling scene: [Tam Gandr and Shiori engaging in an affair!](https://youtu.be/BSPi8sTHdAY?t=4h31m02s) But rather than seek answers from the two, the bumbling knight chose to once again flee, an act that, along with Shiori [falling to her death](https://youtu.be/BSPi8sTHdAY?t=4h36m00s) while trying to explain to Gonathon, completely broke the battered witch and led to her ending her romance with Gonathon.
 
 Devastated and overcome with regret, Gonathon’s final moments of the day were spent being consoled by Tam Gandr. The queen urged Gonathon to think carefully about his feelings and who he truly loved. But despite all of these misfortunes and frustrations that Gonathon had inflicted on himself and others, Tam remained committed to Gonathon, and the two [parted on hopeful terms](https://youtu.be/BSPi8sTHdAY?t=5h6m45s). For hope was now something that Gonathon needed more than anything, and in his daily journal, he once again reflected on those that he loved and had loved. He ended by expressing a desire to make tomorrow a better day. Godspeed, Gonathon G.
+
+## Fanart
+
+["gonathan" by Miku](https://x.com/Mikururun/status/1920242829692948593)

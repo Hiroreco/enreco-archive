@@ -19,3 +19,9 @@ We had people assuming the kingdom’s ruler and her companions were both siblin
 Sure, there were also love stories. Drama... Wolf pack? Maybe even a couple of healthy, emotionally stable conversations. But none of that mattered. It all got absolutely steamrolled by the unhinged shenanigans of the day. Up, down, left, right—wherever you looked, it was chaos.
 
 And the spark that might’ve lit this family-fueled dumpster fire? One orange, fiery bird lady. Who needs logic, morals, or restraint... when you’ve got _family_, right?
+
+## Fanart
+
+["Born of a cult" by BunBBun](https://x.com/BunBBun1/status/1919963091464249648)
+
+["AWOOOOO" by Ammy](https://x.com/Ammiietty/status/1921756422808785318)

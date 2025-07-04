@@ -21,3 +21,5 @@ Divine intervention saw to it that she experienced today's chaos no longer—she
 ## Fanart
 
 ["How they do greetings" by underdatv](https://x.com/underdatv/status/1919820213811294236)
+
+["mirrors" by Eli](https://x.com/Elisbian_/status/1920311940167184848)

@@ -29,3 +29,5 @@ In the end, she opened her own shop—a [pink one](https://www.youtube.com/live/
 ## Fanart
 
 ["IRyS" by Wynnie](https://x.com/WynnTerra_/status/1902017659547353299/photo/1)
+
+["fallen angel" by DasDokter](https://x.com/DasDokter/status/1902324865778250152)

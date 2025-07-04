@@ -27,3 +27,7 @@ And then came the final battle. Everything had led to this moment. Gonathon, alo
 The victory was hard-won, but the celebration was short-lived. A cruel twist awaited the heroes, shaking them to their cores (see [King: The True Evil](#node:king-of-libestal)).
 
 The heroes were returned to the [white room](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=12694), marking the conclusion of their first journey. Though the twist left everyone shaken, Gonathon chose to focus on spending his final moments with those who had been by his side.
+
+## Fanart
+
+["enreoc gg rkgk" by Harutimu](https://x.com/harutimu_415/status/1862390625846304772)

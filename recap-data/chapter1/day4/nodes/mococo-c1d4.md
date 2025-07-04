@@ -7,3 +7,9 @@ Naturally, the first stop on her agenda was FaunaMart. Though she didn’t win t
 Of course, Mococo couldn’t resist buying lottery tickets from her. It was the same as always, a batch purchase of lottery tickets, nothing new, nothing special. So surely, nothing would go wrong… right? (See [Mococo-Nerissa: Lottery Fiasco](#edge:mococo-nerissa), a lot happened.)
 
 Despite her money-driven fervor, Mococo still found time for adventuring. Later in the day, she tackled the _Volcanic Dungeon_ alongside the Hot Pink One and Bijou, [screaming and scrambling](https://www.youtube.com/live/5swK4fB2smo?feature=shared&t=6904) through the fiery challenges. Emerging victorious, the group recovered [memories](https://www.youtube.com/live/5swK4fB2smo?feature=shared&t=9307) of _Takanashi Kiara_.
+
+## Fanart
+
+["Where's the adventure?" by fukuinu](https://x.com/fukuinu_daddy/status/1831679967299817739)
+
+["Lava" by fukuinu](https://x.com/fukuinu_daddy/status/1830139314807980512)

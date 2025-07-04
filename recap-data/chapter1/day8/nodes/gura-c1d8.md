@@ -23,3 +23,9 @@ Of course, the gods caught her in no time and promptly returned her to the white
 But unfortunately, that moment truly was the shark’s final interaction with these silly heroes. Not long after, having been exposed as the one who stole the trident, she was found by the people of Atlantis and dragged back down to the depths.
 
 Even so, the shark had already left her mark—one cherished by many. Her presence alone had become a legend, destined to be remembered for as long as time endures.
+
+## Fanart
+
+[">:D" by ma_draws](https://x.com/ma_draws/status/1901606787452948765)
+
+["Reflection" by advarcher](https://x.com/Anonamos_701/status/1896393585995694268)

@@ -27,3 +27,9 @@ When the heroes finally bested the Stain King, they uncovered the painful truth 
 And with that, everyone was returned to where their journey had first begun: the white box. Thus marked the end of their first adventure.
 
 [Bonus Scene](#embed:https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=6723)
+
+## Fanart
+
+["Steep journey" by Taku](https://x.com/Taku_Artworks/status/1831427591443714133/)
+
+["The Archiver" by Roku](https://x.com/KurochaNai/status/1900890295069520307)

@@ -21,3 +21,9 @@ As part of her redemption, Mococo decided to help Fuwawa with the chickens, hopi
 [She must really hate chickens](#embed:https://www.youtube.com/embed/6TXwZjXEoxk?si=hTcidaLzCx7pJMaJ&start=7247)
 
 After the final battle, Mococo and her companions uncovered the truth about the king (see [King: The True Evil](#node:king-of-libestal)). They were then returned to the mysterious [white room](https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=9745), marking the end of the first chapter in Mococo’s journey.
+
+## Fanart
+
+["Mococo the stained" by tenka](https://x.com/doutenka/status/1833441767578071067)
+
+["Chickens" by Wugedou](https://x.com/wugedou579/status/1832787089068638641)

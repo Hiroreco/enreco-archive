@@ -25,3 +25,9 @@ Most important of all for the Humble Knight was the kindness that Shiori gave he
 ## Fanart
 
 ["But she can feel it" by planetdropper](https://x.com/planetdropper/status/1930074019526783341)
+
+["It was kindness." by yakimi27](https://x.com/Yakimi27/status/1925898088876568829/)
+
+["i'll catch you" by Daaku](https://x.com/koizumi_arata/status/1922439809542316098/)
+
+["Heartbroken" by the baker I am](https://x.com/imabaker111/status/1922026532635107535)

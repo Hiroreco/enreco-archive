@@ -20,4 +20,6 @@ Later, Nerissa teamed up with Fuwawa, Mococo, Bijou, and Raora to tackle the _Un
 
 After a bit more wandering, Nerissa called it a day. It had been confusing, chaotic, and a little painful at times, but ultimately fun—and that was all that mattered.
 
-["Scarlet Wand" by tor](https://x.com/torkirby/status/1830410419082510816)
+## Fanart
+
+["Nerissa" by thekaiyip](https://x.com/thekaiyip/status/1903164554022097168)

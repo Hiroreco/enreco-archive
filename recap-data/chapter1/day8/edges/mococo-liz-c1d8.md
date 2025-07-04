@@ -19,3 +19,7 @@ Elizabeth apologized—apologized for the harsh words she had spoken, for abando
 She had learned something that day—something far more important than chivalry or duty. That being a knight wasn’t about following rigid orders. It wasn’t about doing what was expected of her.
 
 It was about following her heart. It was about fighting—not just for justice, but for the people she loved.
+
+## Fanart
+
+["A knight fights for more than a king" by Alma](https://x.com/A1ma3ru/status/1832977664514179283)

@@ -15,3 +15,7 @@ She spent time exploring the kingdom, inspecting the [kitchen](https://www.youtu
 [The chickens...](#embed:https://www.youtube.com/live/-zBlbI-EuCw?si=EsVMxO7nW5FLNBdj&t=9049)
 
 As the day came to a close, the doggo continued doing what she loved. She even attempted to bake a cake—though that endeavor didn’t go quite as planned, and she ultimately gave up. Still, it was a sweet and fluffy end to a sweet and fluffy start.
+
+## Fanart
+
+["BAU BAU" by nakazako](https://x.com/_nakazako/status/1900696188736991264)

@@ -13,3 +13,7 @@ But beyond the economic battleground, the main quest of the day loomed: the open
 ![The heroes battling the Stain King Elpis](/images-opt/elpis-opt.webp)
 
 And speaking of hot pink, that one was _everywhere_ today. Whichever direction you looked, there she was, entangled in yet another wild, unhinged, and somehow meaningful interaction. The web of relationships spun around her only grew more chaotic and expansive by the hour—fitting for a day centered around memories, mishaps, and maybe just a bit of madness.
+
+## Fanart
+
+["KNIGHT GANG" by Achicvc](https://x.com/Another_achicvc/status/1922911239631516123)

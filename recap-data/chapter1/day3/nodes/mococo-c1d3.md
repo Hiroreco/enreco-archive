@@ -9,3 +9,9 @@ Naturally, being the responsible adult she was, she decided to reinvest all her 
 As she went about her day, she proudly boasted about her win to everyone she met, including Elizabeth and Nerissa. While they congratulated her, their concern grew upon learning that she had spent all her money on lottery tickets [again](https://www.youtube.com/live/zh0satM3cEs?feature=shared&t=1395).
 
 Later, Mococo joined Raora, Fuwawa, Elizabeth, and Calli to tackle the _Eldritch Horror Dungeon_. True to her easily frightened nature, there were countless moments when she got startled, much like a small puppy encountering the unknown. Despite her fears, the group succeeded in their mission and recovered the [memories](https://www.youtube.com/live/zh0satM3cEs?feature=shared&t=3965) of _Ninomae Ina'nis_.
+
+## Fanart
+
+["Today's FUWAMOCO" by fukuinu](https://x.com/fukuinu_daddy/status/1831329880249905569)
+
+["It's not a scam, the librarly is real" by Abendago](https://x.com/Abendag0/status/1831627938883891257)

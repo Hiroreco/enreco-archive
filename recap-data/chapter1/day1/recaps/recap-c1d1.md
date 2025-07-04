@@ -21,4 +21,16 @@ However, this was far from the day's only story. The heroes summoned by the king
 
 ["START AGAIN" - Chapter 1 Theme Song](https://www.youtube.com/watch?v=r-kkCrVZUzc&ab_channel=hololiveEnglish)
 
+## Fanart
+
 ["Full Libestal Cast" by DDOLBANG](https://x.com/DDOLBANG11/status/1902413203335999859)
+
+["ENreco assemble!" by Keisea](https://x.com/keiseeaaa/status/1832534510598250820)
+
+["Scarlet Wand" by tor](https://x.com/torkirby/status/1830410419082510816)
+
+["The Jade Sword Guild!" by Nagi](https://x.com/Nagi_Nyaaa/status/1830397551553761776)
+
+["Day 1" by Pungson Mori](https://x.com/33aalloonnHD/status/1830096222046323027)
+
+["START AGAIN" by mocailla](https://x.com/mocailla/status/1831321461212189031)

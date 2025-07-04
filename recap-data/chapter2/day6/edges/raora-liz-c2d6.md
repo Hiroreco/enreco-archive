@@ -59,3 +59,7 @@ Though she could not fully confess her feelings, perhaps if the tide remained ki
 [InvisiBiboo](https://youtu.be/E-LGNO7JdO4?t=10779)
 
 [Bonus: Biboo just REALLY LOVES **maps**](https://youtu.be/E-LGNO7JdO4?t=10896)
+
+## Fanart
+
+["please, be mine" by eli](https://x.com/Elisbian_/status/1930824900752838961)

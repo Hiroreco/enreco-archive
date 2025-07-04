@@ -32,6 +32,10 @@ Yet, her story of rebellion didn’t inspire admiration as [she had hoped](https
 
 Their adventure continued at the tavern, where they celebrated with Gura’s newly acquired [music disc](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=9204), and the day once again closed off with some good ol' bits [gambling](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=9761).
 
+## Fanart
+
 ["1 coin bet" by kshut](https://x.com/shutowl/status/1830517595768000529)
 
 ["the council will decide your fate" by Miku](https://x.com/Mikururun/status/1830701638472081531)
+
+["Come, I don't wawnt to destroy this place" by Daaku](https://x.com/koizumi_arata/status/1831100215668908440)

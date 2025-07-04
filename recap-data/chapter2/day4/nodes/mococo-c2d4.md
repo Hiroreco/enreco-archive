@@ -29,3 +29,7 @@ And that, folks, was therapy.
 She closed her day with pride, documenting everything she’d accomplished—highlighting, of course, the mountain of money she raked in from [shop sales](https://www.youtube.com/live/T2StVW1kSxw?si=ngAzUQ4nmccPecin&t=10939), her paycheck, and her very first therapy gig. Not bad for a day’s work.
 
 [I made money!](#embed:https://www.youtube.com/live/T2StVW1kSxw?si=wMKjKRAhJygZFpQD&t=11978)
+
+## Fanart
+
+["mococo therapy tomorrow" by keenbiscuit](https://x.com/keenbiscuit/status/1920469031976661247)

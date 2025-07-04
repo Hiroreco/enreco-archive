@@ -16,4 +16,8 @@ By the end of the day, Three and her guildmates conquered the _Underworld Dungeo
 
 [Trampling people with horses](#embed:https://www.youtube.com/live/vuij6YTMIzw?t=10378)
 
+## Fanart
+
 ["Moom, the True Chosen One" by Onecolo133](https://x.com/Onecolo133/status/1831681269106974738)
+
+["You smell like moom" by Moonia](https://x.com/BloodyMoonia/status/1833203185852539284)
