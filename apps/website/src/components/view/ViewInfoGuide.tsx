@@ -7,6 +7,8 @@ import {
     Search,
     Settings,
     LibraryBig,
+    Disc3,
+    Palette,
 } from "lucide-react";
 
 const ViewInfoGuide = () => {
@@ -22,6 +24,7 @@ const ViewInfoGuide = () => {
                 <a
                     href="https://x.com/stemotology/status/1833171708775420066/photo/1"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     stemotology and sunkissedrhodo
                 </a>
@@ -132,6 +135,33 @@ const ViewInfoGuide = () => {
             </div>
 
             <div className="flex items-center gap-2">
+                <LibraryBig size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Glossary
+                </div>
+            </div>
+            <div>
+                Located in the <em>Glossary Tab</em> in the upper left corner,
+                this collection of entries provides detailed information on
+                revelations, characters, locations, quests, and more. It serves
+                as a resource for understanding topics referenced throughout the
+                nodes.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <Book size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Chapter Recaps
+                </div>
+            </div>
+            <div>
+                A general overview of the entirety of each chapter can be
+                accessed via the <em>Chapter Recaps Tab</em>. This includes
+                summaries of the main events, character arcs, and relationships
+                that defined the story of the journey.
+            </div>
+
+            <div className="flex items-center gap-2">
                 <Settings size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
                     Settings
@@ -153,33 +183,31 @@ const ViewInfoGuide = () => {
             <div>
                 A selection of minigames from the series has been recreated and
                 can be played in the <em>Minigames Tab</em>—including the
-                infamous Gambling Game from Chapter 1.
+                infamous Color Cannon minigame.
             </div>
 
             <div className="flex items-center gap-2">
-                <LibraryBig size={24} />
+                <Disc3 size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Glossary
+                    Jukebox
                 </div>
             </div>
             <div>
-                 Located in the <em>Glossary Tab</em> in the upper left corner, 
-                  this collection of entries provides detailed information on revelations, 
-                  characters, locations, quests, and more. It serves as a resource 
-                  for understanding topics referenced throughout the nodes.
+                The jukebox features a collection of music used in ENreco,
+                including tracks from the game itself as well as ones used by
+                the talents.
             </div>
 
             <div className="flex items-center gap-2">
-                <Book size={24} />
+                <Palette size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Chapter Recaps
+                    Fanart Gallery
                 </div>
             </div>
             <div>
-                A general overview of the entirety of each chapter can be
-                accessed via the <em>Chapter Recaps Tab</em>. This includes
-                summaries of the main events, character arcs, and relationships
-                that defined the story of the journey.
+                You can explore all the incredible fanart created by the
+                community during the event in the <em>Fanart Gallery tab</em>,
+                organized by characters, chapters, and days.
             </div>
 
             <div className="flex items-center gap-2">
@@ -190,7 +218,7 @@ const ViewInfoGuide = () => {
                 </div>
             </div>
             <div>
-                Hidden throughout the cards are easter eggs—little nods to silly
+                Hidden throughout the site are easter eggs—little nods to silly
                 moments or tributes to certain members. These are interactive,
                 so keep an eye out for surprises!
             </div>
