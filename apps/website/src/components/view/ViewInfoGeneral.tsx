@@ -132,8 +132,8 @@ const ViewInfoGeneral = () => {
             </div>
 
             <div className="text-sm text-muted-foreground">
-                Note: If you experince major lag when using the site, try
-                switching to a Chromium-based browser (like Chrome, Opera or
+                Note: If you experience major lag when using the site, try
+                switching to a Chromium-based browser (like Chrome, Opera, or
                 Edge).
             </div>
 
@@ -142,7 +142,7 @@ const ViewInfoGeneral = () => {
             </div>
             <div>
                 This is a non-profit fan project and is not affiliated with
-                Cover Corp nor Mojang. The site uses music taken from the
+                COVER Corp. nor Mojang. The site uses music taken from the
                 talents' streams, as well as sound effects and assets from
                 Minecraft, following{" "}
                 <a
@@ -158,7 +158,7 @@ const ViewInfoGeneral = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Minecraft Usage Guidlines.
+                    Minecraft Usage Guidelines.
                 </a>
             </div>
         </div>

@@ -6,6 +6,7 @@ import {
     Egg,
     Search,
     Settings,
+    LibraryBig,
 } from "lucide-react";
 
 const ViewInfoGuide = () => {
@@ -61,7 +62,7 @@ const ViewInfoGuide = () => {
                         (the corresponding section from the original stream
                         where the event took place) in a card for you to watch,
                         just look for the blue text (both small and big). It is
-                        recommened to watch only the duration described by the
+                        recommended to watch only the duration described by the
                         label to avoid spoilers.
                     </li>
                     <li>
@@ -71,7 +72,7 @@ const ViewInfoGuide = () => {
                             Raora-Tam: Say My Name
                         </span>{" "}
                         will directly open the referenced card. This helps you
-                        from needing to search for the card manually.
+                        avoid needing to search for the card manually.
                     </li>
                     <li>
                         <span className="font-bold inline-flex items-center gap-1">
@@ -111,7 +112,7 @@ const ViewInfoGuide = () => {
             </div>
 
             <div>
-                Each day also has its own <em>"Day Recap"</em>, which summarizes
+                Each day also has its own <em>"Day Recap,"</em> which summarizes
                 the events of that day. This opens automatically when you switch
                 days, but you can also manually open it via the icon in the top
                 right corner. From there, you can also toggle the visibility of
@@ -140,7 +141,7 @@ const ViewInfoGuide = () => {
             <div>
                 You can customize various aspects of your experience in the{" "}
                 <em>Settings Tab</em>, including music volume, timestamp
-                preferences and other miscellaneous options.
+                preferences, and other miscellaneous options.
             </div>
 
             <div className="flex items-center gap-2">
@@ -153,6 +154,19 @@ const ViewInfoGuide = () => {
                 A selection of minigames from the series has been recreated and
                 can be played in the <em>Minigames Tab</em>—including the
                 infamous Gambling Game from Chapter 1.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <LibraryBig size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Glossary
+                </div>
+            </div>
+            <div>
+                 Located in the <em>Glossary Tab</em> in the upper left corner, 
+                  this collection of entries provides detailed information on revelations, 
+                  characters, locations, quests, and more. It serves as a resource 
+                  for understanding topics referenced throughout the nodes.
             </div>
 
             <div className="flex items-center gap-2">
