@@ -209,6 +209,7 @@ export const CHARACTER_ID_NAME_MAP: Record<string, string> = {
     gigi: "Gonathon G",
     cecilia: "Cecilia Immergreen",
     raora: "Raora Panthera",
+    iphania: "Iphania",
 };
 
 export const getCharacterIdNameMap = (chapter = 0): Record<string, string> => {

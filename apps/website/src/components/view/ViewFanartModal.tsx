@@ -1,4 +1,5 @@
 import fanartData from "#/fanart.json";
+import { LS_FANART_MODAL_HEADER_COLLAPSED } from "@/lib/constants";
 import {
     CHARACTER_ORDER,
     getCharacterIdNameMap,
@@ -32,7 +33,6 @@ import { ChevronUp, ExternalLink, Image as ImageIcon } from "lucide-react";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import ViewLightbox from "./ViewLightbox";
-import { LS_FANART_MODAL_HEADER_COLLAPSED } from "@/lib/constants";
 
 interface FanartEntry {
     url: string;
@@ -124,17 +124,25 @@ const ViewFanartModal = ({
     });
 
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
-    const nameMap = useMemo(() => getCharacterIdNameMap(chapter), [chapter]);
+    const nameMap = useMemo(
+        () =>
+            getCharacterIdNameMap(
+                selectedChapter !== "all" ? parseInt(selectedChapter) : -1,
+            ),
+        [selectedChapter],
+    );
 
     const characters = useMemo(() => {
         const allCharacters = new Set<string>();
         // only add characters that are in the current chapter
         fanart.forEach((entry) => {
-            if (entry.chapter === parseInt(selectedChapter)) {
+            if (
+                entry.chapter === parseInt(selectedChapter) ||
+                selectedChapter === "all"
+            ) {
                 entry.characters.forEach((char) => allCharacters.add(char));
             }
         });
-
         return sortByPredefinedOrder(
             Array.from(allCharacters),
             CHARACTER_ORDER,
@@ -171,13 +179,13 @@ const ViewFanartModal = ({
         });
     }, [selectedCharacter, selectedChapter, selectedDay, fanart]);
 
-    // Save collapse state to localStorage
-    useEffect(() => {
-        localStorage.setItem(
-            LS_FANART_MODAL_HEADER_COLLAPSED,
-            isHeaderCollapsed.toString(),
-        );
-    }, [isHeaderCollapsed]);
+    const currentEntry = useMemo(
+        () =>
+            currentLightboxEntryIndex !== null
+                ? filteredFanart[currentLightboxEntryIndex]
+                : null,
+        [currentLightboxEntryIndex, filteredFanart],
+    );
 
     const handleNextEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
@@ -219,6 +227,29 @@ const ViewFanartModal = ({
         }
     }, [currentLightboxEntryIndex, filteredFanart]);
 
+    const handleOpenLightbox = useCallback((index: number) => {
+        setCurrentLightboxEntryIndex(index);
+        setIsLightboxOpen(true);
+    }, []);
+
+    const handleCloseLightbox = useCallback(() => {
+        setIsLightboxOpen(false);
+    }, []);
+
+    const resetFilters = useCallback(() => {
+        setSelectedCharacter("all");
+        setSelectedChapter("all");
+        setSelectedDay("all");
+    }, []);
+
+    // Save collapse state to localStorage
+    useEffect(() => {
+        localStorage.setItem(
+            LS_FANART_MODAL_HEADER_COLLAPSED,
+            isHeaderCollapsed.toString(),
+        );
+    }, [isHeaderCollapsed]);
+
     // Add preloading effect for adjacent entries
     useEffect(() => {
         if (currentLightboxEntryIndex !== null && isLightboxOpen) {
@@ -242,21 +273,6 @@ const ViewFanartModal = ({
         }
     }, [currentLightboxEntryIndex, filteredFanart, isLightboxOpen]);
 
-    const handleOpenLightbox = useCallback((index: number) => {
-        setCurrentLightboxEntryIndex(index);
-        setIsLightboxOpen(true);
-    }, []);
-
-    const handleCloseLightbox = useCallback(() => {
-        setIsLightboxOpen(false);
-    }, []);
-
-    const resetFilters = useCallback(() => {
-        setSelectedCharacter("all");
-        setSelectedChapter("all");
-        setSelectedDay("all");
-    }, []);
-
     // Reset scroll position when filters change
     useEffect(() => {
         if (contentContainerRef.current) {
@@ -271,20 +287,26 @@ const ViewFanartModal = ({
         setSelectedDay("all");
     }, [selectedChapter]);
 
+    // if selected character is not in the current chapter, reset to "all"
+    useEffect(() => {
+        if (
+            selectedCharacter !== "all" &&
+            !characters.includes(selectedCharacter)
+        ) {
+            setSelectedCharacter("all");
+        }
+    }, [selectedCharacter, characters]);
+
+    useEffect(() => {
+        setSelectedDay(day.toString() || "all");
+    }, [day]);
+
     // Close lightbox when modal closes
     useEffect(() => {
         if (!open) {
             setCurrentLightboxEntryIndex(null);
         }
     }, [open]);
-
-    const currentEntry = useMemo(
-        () =>
-            currentLightboxEntryIndex !== null
-                ? filteredFanart[currentLightboxEntryIndex]
-                : null,
-        [currentLightboxEntryIndex, filteredFanart],
-    );
 
     return (
         <>
@@ -640,47 +662,19 @@ const ViewFanartModal = ({
                                             )}
 
                                             {/* Mobile - always visible full info */}
-                                            <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
-                                                <p className="text-white text-sm font-semibold line-clamp-1">
-                                                    {entry.label}
-                                                </p>
-                                                <p className="text-white/80 text-xs mb-2">
-                                                    by {entry.author}
-                                                </p>
-                                                <div className="flex items-center justify-between">
-                                                    <div className="flex gap-1 text-xs">
-                                                        <div className="text-xs h-5 border-white/30 text-white">
-                                                            Ch.{" "}
-                                                            {entry.chapter + 1}{" "}
-                                                            Day {entry.day + 1}
-                                                        </div>
+                                            <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
+                                                <div className="text-white flex flex-col min-h-0">
+                                                    <div className="flex-1 min-h-0 overflow-hidden">
+                                                        <p className="text-white text-xs font-semibold line-clamp-1 mb-0.5">
+                                                            {entry.label}
+                                                        </p>
+                                                        <p className="text-white/80 text-xs mb-1 line-clamp-1">
+                                                            by {entry.author}
+                                                        </p>
                                                     </div>
-                                                    <a
-                                                        className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto"
-                                                        href={entry.url}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        onClick={(e) =>
-                                                            e.stopPropagation()
-                                                        }
-                                                    >
-                                                        <ExternalLink className="size-4 stroke-inherit" />
-                                                    </a>
-                                                </div>
-                                            </div>
-
-                                            {/* Desktop - hover overlay with full info */}
-                                            <div className="hidden md:flex flex-col absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
-                                                <div className="text-white">
-                                                    <p className="font-semibold text-sm line-clamp-2 mb-1">
-                                                        {entry.label}
-                                                    </p>
-                                                    <p className="text-xs text-white/80 mb-2">
-                                                        by {entry.author}
-                                                    </p>
-                                                    <div className="flex items-center justify-between">
-                                                        <div className="flex gap-1 text-xs">
-                                                            <div className="text-xs h-5 border-white/30 text-white">
+                                                    <div className="flex items-center justify-between flex-shrink-0">
+                                                        <div className="flex gap-1 text-xs min-w-0">
+                                                            <div className="text-xs text-white whitespace-nowrap truncate">
                                                                 Ch.{" "}
                                                                 {entry.chapter +
                                                                     1}{" "}
@@ -689,7 +683,43 @@ const ViewFanartModal = ({
                                                             </div>
                                                         </div>
                                                         <a
-                                                            className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto"
+                                                            className="px-1.5 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
+                                                            href={entry.url}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            onClick={(e) =>
+                                                                e.stopPropagation()
+                                                            }
+                                                        >
+                                                            <ExternalLink className="size-3 stroke-inherit" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            {/* Desktop - hover overlay with full info */}
+                                            <div className="hidden md:flex flex-col absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
+                                                <div className="text-white flex flex-col min-h-0">
+                                                    <div className="flex-1 min-h-0 overflow-hidden">
+                                                        <p className="font-semibold text-sm line-clamp-1 mb-1">
+                                                            {entry.label}
+                                                        </p>
+                                                        <p className="text-xs text-white/80 mb-2 line-clamp-1">
+                                                            by {entry.author}
+                                                        </p>
+                                                    </div>
+                                                    <div className="flex items-center justify-between flex-shrink-0">
+                                                        <div className="flex gap-1 text-xs min-w-0">
+                                                            <div className="text-xs text-white whitespace-nowrap truncate">
+                                                                Ch.{" "}
+                                                                {entry.chapter +
+                                                                    1}{" "}
+                                                                Day{" "}
+                                                                {entry.day + 1}
+                                                            </div>
+                                                        </div>
+                                                        <a
+                                                            className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
                                                             href={entry.url}
                                                             target="_blank"
                                                             rel="noopener noreferrer"

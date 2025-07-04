@@ -106,6 +106,16 @@ async function main() {
             let [, label, host, author, statusPath] = m;
             const url = `${host}/${author}${statusPath}`.toLowerCase();
             author = author.toLowerCase();
+
+            // Clean up label by removing "by {author}" pattern at the end
+            // Match the specific author name we extracted to avoid false positives
+            const byAuthorPattern = /\s+by\s+.+$/i;
+            label = label.replace(byAuthorPattern, "").trim();
+
+            if (blacklistUrls.includes(url)) {
+                console.log(`Skipping blacklisted URL: ${url}`);
+                continue;
+            }
             if (blacklistUrls.includes(url)) {
                 console.log(`Skipping blacklisted URL: ${url}`);
                 continue;
