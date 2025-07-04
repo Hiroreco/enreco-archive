@@ -18,7 +18,7 @@ The Hot Pink One, now remembered as IRyS, was a whirlwind of relationship chaos 
 **Name:** Hot Pink One
 **Guild:** Cerulean Cup
 
-In the first chapter, the Hot Pink One maintained an aloof, detached demeanor, as she mostly meandered through her days with an air of nonchalance. Memory loss or not, she remained herself—often ridiculed for the absurdities that escaped her mouth.
+In the first chapter, the Hot Pink One maintained an aloof, detached demeanor, as she mostly meandered through her days with an air of nonchalance. Memory loss or not, she remained herself, often ridiculed for the absurdities that escaped her mouth.
 
 She would soon weave herself into the kingdom's shenanigans. Despite her relative inactivity compared to others, she quickly carved out a notorious reputation as a "side chick magnet."
 
@@ -37,7 +37,7 @@ Still known as the Hot Pink One, she took on the role of a chef specializing in 
 
 And as each day passed, the pink one's entanglement with others grew more and more complicated.
 
-New threads formed: romantic, platonic, confusing—sometimes all three. She shared mouth-to-mouth meals with a pink cat, declared best friendship with Immerkind (or so the green one claimed), and became part of a peculiar cult known as the "Inbread."
+New threads formed: romantic, platonic, confusing, sometimes all three. She shared mouth-to-mouth meals with a pink cat, declared best friendship with Immerkind (or so the green one claimed), and became part of a peculiar cult known as the "Inbread."
 
 Her familial side blossomed—with Koseki Bijou as her [brother](https://www.youtube.com/live/EKjcWfEGsB0?si=s8GiS__Q7mOaFuB_&t=436), endlessly devoted to her throughout the journey. Ina, her eternal consort, also remained steadfast as her romantic partner. And Tam Gandr, a new and passionate love interest, stood by her side, someone to constantly banter back and forth with.
 
@@ -49,6 +49,6 @@ If anyone followed the story from her perspective, it was easy to lose track of 
 
 ## Trivia
 
-- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the highest number of romantic—or ex-romantic—partners.
+- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the highest number of romantic, or ex-romantic, partners.
 
 [irys](#easter:easter-irys)

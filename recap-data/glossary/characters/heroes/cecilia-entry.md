@@ -24,7 +24,7 @@ She was after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild 
 
 That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for FaunaMart’s lottery, and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Doll!
 
-In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind—planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
+In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind, planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
 
 ### Chapter 2
 
@@ -39,7 +39,7 @@ She also built stronger, more layered relationships this time. She remained loya
 
 But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, [Iphania](#entry:iphania-entry). From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her [feelings](https://www.youtube.com/live/I75IWfMGVgM?t=7144) throughout the journey.
 
-Anyone who stood between her and the princess—like the Outlander—was an immediate rival. She even considered abandoning the Wolf Pack just to stay by the princess’s side. When Peasant the Bae, someone who once bickered with Cecilia but eventually warmed up to her, confessed her feelings, Cecilia rejected her on the spot. Because in Cecilia’s heart, there was only the princess.
+Anyone who stood between her and the princess, like the Outlander, was an immediate rival. She even considered abandoning the Wolf Pack just to stay by the princess’s side. When Peasant the Bae, someone who once bickered with Cecilia but eventually warmed up to her, confessed her feelings, Cecilia rejected her on the spot. Because in Cecilia’s heart, there was only the princess.
 
 In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself, still alive and well in the Library, it gave her all the reason she needed to keep fighting.
 

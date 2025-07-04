@@ -22,7 +22,7 @@ Though she began more lost than most, Fuwawa showed a strong will to grow, learn
 
 Toward the end, Fuwawa found unexpected joy in chickens. It began when she tended Elizabeth’s small flock of chicks, and soon, she developed a deep connection with them. But when corruption took hold of the kingdom, tragedy struck. Again and again, her beloved chicks were slaughtered despite her best efforts to protect them. Eventually, Fuwawa herself fell to the corruption.
 
-Yet, with the help of her comrades, the corruption was vanquished, and Fuwawa returned to normal. Peace was restored, and once more she gathered a new flock of chicks—her happiness complete… until Mococo accidentally murdered them all. [Again.](https://www.youtube.com/live/31OnEJrRDfU?t=7268)
+Yet, with the help of her comrades, the corruption was vanquished, and Fuwawa returned to normal. Peace was restored, and once more she gathered a new flock of chicks, her happiness complete… until Mococo accidentally murdered them all. [Again.](https://www.youtube.com/live/31OnEJrRDfU?t=7268)
 
 ### Chapter 2
 
@@ -31,7 +31,7 @@ Yet, with the help of her comrades, the corruption was vanquished, and Fuwawa re
 
 Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on the role of a [chef](#entry:jobs-entry)—not for power or glory, but simply because she wanted to make others smile through her cooking. With that goal, she wasted no time in building a cozy little café, hoping it could become a space where people came together in a kingdom rife with drama.
 
-She worked hard, gathering ingredients and crafting dishes with care—but things didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible. The other chefs were just too good, she thought. And with no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. [Loneliness](https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917) crept in.
+She worked hard, gathering ingredients and crafting dishes with care. Things, however, didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible, the other chefs were just too good, she thought. And with no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. [Loneliness](https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917) crept in.
 
 But then, at the end of Day 5, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was [overjoyed,](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546) and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
 

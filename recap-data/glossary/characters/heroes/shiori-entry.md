@@ -20,7 +20,7 @@ This omniscient undertone came to full light in Chapter 2, culminating in a shoc
 **Name:** Shiori Nyavella
 **Guild:** Scarlet Wand
 
-In the first chapter, Shiori appeared to be little more than the oddball who kept to herself. She hovered on the fringes, avoided drama, asked bizarre questions, and said strange things that raised eyebrows and caused—at times—[psychic damage.](https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=8760)
+In the first chapter, Shiori appeared to be little more than the oddball who kept to herself. She hovered on the fringes, avoided drama, asked bizarre questions, and said strange things that raised eyebrows and causedm, at times, [psychic damage.](https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=8760)
 
 She floated like a leaf in the wind, constantly swept into relationships she never agreed to. Betrothed to Bijou? Sure, until Bijou dumped her on the final day and left her with a baby to raise alone. Dragged into a polygamous relationship with four other women? Yes—only to see it crash and burn at the end.
 
@@ -38,11 +38,11 @@ _“But the question is: Did I really have amnesia?”_
 **Name:** Shiori Nyavella
 **Job:** Chef
 
-Chapter 2 began much like the first: Shiori was still odd, still drifting, still spouting peculiar lines. But this time, she chose to be more present—more deliberate in her interactions. She made stronger bonds, opened up, got involved. For some, it was refreshing. For others, like poor Mordan Ramsey, it was a nightmare, as Shiori [terrorized](https://www.youtube.com/live/zCWoxMbOZPk?si=Y_mj_z_Qpgx2OJKj&t=11795) the poor tavern owner endlessly in every way possible.
+Chapter 2 began much like the first: Shiori was still odd, still drifting, still spouting peculiar lines. But this time, she chose to be more present, more deliberate in her interactions. She made stronger bonds, opened up, got involved. For some, it was refreshing. For others, like poor Mordan Ramsey, it was a nightmare, as Shiori [terrorized](https://www.youtube.com/live/zCWoxMbOZPk?si=Y_mj_z_Qpgx2OJKj&t=11795) the poor tavern owner endlessly in every way possible.
 
 But this new openness led to one of the chapter’s most significant romances: her relationship with Gonathon. Fate had seemingly offered Shiori another shot at the orange knight—now with no memories of his past beloved, who was no longer around.
 
-What started as manipulation—tricking him out of coins—slowly bloomed into affection. Gonathon’s kindness chipped away at Shiori’s walls. She cooked for him, made a shared room, and [genuinely cared.](https://www.youtube.com/live/gVAtGMLBJos?si=GgmAIeHBDZrl4Pmq&t=7857) It was sweet, quiet, and in stark contrast to her whirlwind past.
+What started as manipulation, tricking him out of coins, slowly bloomed into affection. Gonathon’s kindness chipped away at Shiori’s walls. She cooked for him, made a shared room, and [genuinely cared.](https://www.youtube.com/live/gVAtGMLBJos?si=GgmAIeHBDZrl4Pmq&t=7857) It was sweet, quiet, and in stark contrast to her whirlwind past.
 
 But just as she was ready to take the next step, Gonathon faltered. He hesitated. Depended too much on others. Never made his own choices. His devotion felt more like obligation than love. Shiori gave him chances—many of them—but when it became clear he wouldn't change, she made the painful decision to step away. They returned to being friends… or so it seemed.
 
@@ -50,7 +50,7 @@ In truth, Shiori took things further. She _wiped_ him from her memory entirely.
 
 Because yes—Shiori could manipulate memories. Whether she could do it to others was unclear, but she certainly did it to herself.
 
-Beyond being a butter-churning, beet-eating chef, Shiori held another secret identity: _an Archiver_. She took on writing commissions—often silly "fanfics"—but hidden among them were the “Memory” commissions. These were not fiction. These were truths—recollections of real [memories,](https://www.youtube.com/live/tJ_YXGE3o2w?si=7ajFqe3fWIHtWYs2&t=11107) forgotten or buried.
+Beyond being a butter-churning, beet-eating chef, Shiori held another secret identity: _an Archiver_. She took on writing commissions, often silly "fanfics", but hidden among them were the “Memory” commissions. These were not fiction. These were truths—recollections of real [memories,](https://www.youtube.com/live/tJ_YXGE3o2w?si=7ajFqe3fWIHtWYs2&t=11107) forgotten or buried.
 
 Some found these tales amusing. Others found them disturbing. Some doubted their veracity. But Shiori insisted: _She never lied. Everything she wrote was the truth._
 

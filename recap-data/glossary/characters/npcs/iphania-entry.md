@@ -16,11 +16,11 @@ Long ago in [Ancient Libestal](#entry:libestal-ancient-entry), the kingdom was r
 
 Despite the grim prophecies, Iphania refused to yield to despair. She continued to fight with unwavering resolve—even if it meant defying fate itself. Her unshakable will moved the heart of **the Watcher**, a divine observer tasked only with watching worlds play out.
 
-Breaking his oath, the Watcher disguised himself as a swordsman—**the Outlander**—and fought to save the world at her side. Together, they succeeded: the Curse was slain, and the source of corruption destroyed.
+Breaking his oath, the Watcher disguised himself as a swordsman, **the Outlander**, and fought to save the world at her side. Together, they succeeded: the Curse was slain, and the source of corruption destroyed.
 
-But fate was cruel. A fragment of the Curse survived, hiding itself inside Iphania’s cherished doll. At the moment no one expected, it reemerged and struck her down. Though her body perished, Iphania’s soul lingered—clinging to the very doll that had caused her demise, and which now bore her spirit within.
+But fate was cruel. A fragment of the Curse survived, hiding itself inside Iphania’s cherished doll. At the moment no one expected, it reemerged and struck her down. Though her body perished, Iphania’s soul lingered, clinging to the very doll that had caused her demise, and which now bore her spirit within.
 
-As the world crumbled into ruin, her soul drifted through space and time, eventually finding refuge in the Library. The sanctuary preserved her essence, though in exchange, she could never leave. Taking on the name **Fia**—a nickname once given to her by the Outlander—she became the Library's eternal caretaker.
+As the world crumbled into ruin, her soul drifted through space and time, eventually finding refuge in the Library. The sanctuary preserved her essence, though in exchange, she could never leave. Taking on the name **Fia**, a nickname once given to her by the Outlander, she became the Library's eternal caretaker.
 
 Bound within those walls, Fia could do little but reflect—on her kingdom’s fall, the Outlander’s punishment, and the cycle of despair that led to **the Outsider’s** creation. She longed to save them both but was powerless. That is, until she saw them—the heroes, her Shining Stars.
 
@@ -28,7 +28,7 @@ With new hope, she summoned them into the past, to a time one week before the pi
 
 ### Chapter 2
 
-Upon first meeting the heroes, Fia explained the truth: the King they once knew was a fraud—the Outsider, who sought to destroy the universe. She asked for their aid, though she herself could not recall all the details, having lost fragments of her memory due to the strain of time travel.
+Upon first meeting the heroes, Fia explained the truth: the King they once knew was a fraud, the Outsider, who sought to destroy the universe. She asked for their aid, though she herself could not recall all the details, having lost fragments of her memory due to the strain of time travel.
 
 She asked the heroes to help her recover what had been lost.
 And so, they did.

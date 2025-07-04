@@ -21,15 +21,15 @@ Whether that notoriety was a good or bad thing is up for debate, especially cons
 **Name:** Ceres Fauna
 **Guild:** Scarlet Wand
 
-Fauna embodied the ideals of her [guild](#entry:guild-entry)—intelligence and curiosity—though exactly how she applied those traits to the betterment of the kingdom remains a hot topic. As early as Day 2, she boldly declared her intent to abandon all kingdom-related duties and instead live life as an "NPC," launching her personal venture: [_FaunaMart_](https://www.youtube.com/live/eUQWfgVwwpo?feature=shared&t=176).
+Fauna embodied the ideals of her [guild](#entry:guild-entry), intelligence and curiosity, though exactly how she applied those traits to the betterment of the kingdom remains a hot topic. As early as Day 2, she boldly declared her intent to abandon all kingdom-related duties and instead live life as an "NPC," launching her personal venture: [_FaunaMart_](https://www.youtube.com/live/eUQWfgVwwpo?feature=shared&t=176).
 
-FaunaMart rapidly became a household name—if not quite for the reasons Fauna might have hoped, thanks to its flagship product: _lottery tickets_. Rumors and accusations of scamming ran rampant, but Fauna, ever the determined entrepreneur, remained unfazed.
+FaunaMart rapidly became a household name, if not quite for the reasons Fauna might have hoped, thanks to its flagship product: _lottery tickets_. Rumors and accusations of scamming ran rampant, but Fauna, ever the determined entrepreneur, remained unfazed.
 
 She worked tirelessly to build her business, gaining many customers through persistence and savvy marketing. Among them was a particularly enthusiastic Mococo—perhaps _too_ enthusiastic—who eventually turned around and sued the store for murky, legally grey reasons.
 
 Fauna’s empire even faced direct competition when a rival shop, _NanaEleven_, appeared and swiftly stole her entire customer base. Most would crumble. Fauna, instead, confronted her rival—only for the two to unexpectedly reconcile and join forces, shaking hands to form a [business alliance.](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=1516)
 
-To Fauna, FaunaMart _was_ her world. Even as the world teetered on the edge of collapse, she kept her store running with an [“End of the World Sale.”](https://www.youtube.com/live/8x-MVX8h9gU?t=142) Whether her business-minded obsession made her a proper hero was debatable—but her heart was undeniable. She was admired by those around her, especially by Nerissa, who appreciated her sincerity, creativity, and kindness—even with the alleged scamming.
+To Fauna, FaunaMart _was_ her world. Even as the world teetered on the edge of collapse, she kept her store running with an [“End of the World Sale.”](https://www.youtube.com/live/8x-MVX8h9gU?t=142) Whether her business-minded obsession made her a proper hero was debatable, but her heart was undeniable. She was admired by those around her, especially by Nerissa, who appreciated her sincerity, creativity, and kindness... even with the alleged scamming.
 
 Having now vanished with the profits in hand, fleeing interrogation from the authorities, the kingdom can do little but salute the green-thumbed CEO for all she’s done. Wherever she is now, one thing is certain: FaunaMart lives on—in memory and in legend.
 

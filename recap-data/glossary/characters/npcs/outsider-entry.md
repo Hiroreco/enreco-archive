@@ -20,7 +20,7 @@ His intent was clear: to destroy all of existence as retribution for his impriso
 
 ### Chapter 2
 
-The heroes were pulled back in time by **Fia** to the ancient era of Libestal—an age before the Outsider’s existence—in hopes of preventing his tragic birth altogether.
+The heroes were pulled back in time by **Fia** to the ancient era of Libestal, an age before the Outsider’s existence—in hopes of preventing his tragic birth altogether.
 
 During their journey, they encountered a wandering, nameless swordsman, **the Outlander**, who was on his own mission to destroy the Heart of Ruin, the wellspring of corruption plaguing the land.
 

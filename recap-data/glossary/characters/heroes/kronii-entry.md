@@ -18,7 +18,7 @@ Tam Gandr, now fully remembered as Ouro Kronii, was infamous in the kingdom for 
 **Name:** Tam Gandr
 **Guild:** Cerulean Cup
 
-The name Tam was given by Gonathon—an acronym for _The Azure Maiden_. "Gandr," the surname, was proudly self-appointed. From the moment she met the [King of Libestal](#entry:outsider-entry), Tam twisted his request for aid into a royal proposal and immediately crowned herself Queen.
+The name Tam was given by Gonathon, an acronym for _The Azure Maiden_. "Gandr," the surname, was proudly self-appointed. From the moment she met the [King of Libestal](#entry:outsider-entry), Tam twisted his request for aid into a royal proposal and immediately crowned herself Queen.
 
 On the first day, she was already amassing devoted followers. Gonathon stood as her most loyal knight, ready to defend her at every turn, whether she was being accused of illegitimacy or stirring up conflict herself by flaunting her so-called royalty. Usually, it was the [latter.](https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=9013)
 
