@@ -43,4 +43,9 @@ At the same time as his humbleness and everlasting loyalty shown through, so too
 
 While the future remains murky, particularly given the climatic conclusion of Chapter 2, Gonathon has come out of his adventures in past Libestal determined to fight for what he believes in and right his past wrongs.
 
+## Trivia
+-In Chapter 1 Gonathon was able to have some level of interaction with every other member, an impressive feat considering this included Bae the Peasant, who was absent for all but the first and second days. 
+-In both Chapter 1 and 2 Gonathon's attempts to build massive structures ran into snags due to being unable to build above a certain elevation. This was the case for his Tam Gandr statue in Chapter 1 and World Tree house in Chapter 2. Interestingly, both cases were also references to members of Promise, Ouro Kronii and Ceres Fauna respectively. 
+-Gonathon's gender being male was due to Gigi Murin misunderstanding that she was playing an amnesiac version of herself rather than a unique character. Even after learning this she decided to stick with having Gonathon be referred to as he/him. 
+
 [gigi](#easter:easter-gigi)
