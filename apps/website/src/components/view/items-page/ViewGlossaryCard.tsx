@@ -427,34 +427,35 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
 
                 {/* Prev/Next Navigation */}
                 {currentEntry !== null && (
-                    <div className="absolute bottom-4 right-4 flex items-center gap-2">
-                        <button
-                            onClick={goToPrev}
-                            disabled={!canGoPrev}
-                            className={cn(
-                                "p-2 rounded-full transition-all",
-                                "bg-white/20 backdrop-blur-sm shadow-md",
-                                "hover:bg-white/30 hover:scale-105",
-                                "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
-                            )}
-                            title="Previous entry (←)"
-                        >
-                            <ChevronLeft size={20} />
-                        </button>
-                        <button
-                            onClick={goToNext}
-                            disabled={!canGoNext}
-                            className={cn(
-                                "p-2 rounded-full transition-all",
-                                "bg-white/20 backdrop-blur-sm shadow-md",
-                                "hover:bg-white/30 hover:scale-105",
-                                "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
-                            )}
-                            title="Next entry (→)"
-                        >
-                            <ChevronRight size={20} />
-                        </button>
-                    </div>
+                    <button
+                        onClick={goToPrev}
+                        disabled={!canGoPrev}
+                        className={cn(
+                            "absolute bottom-4 p-2 rounded-full transition-all",
+                            "bg-white/20 backdrop-blur-sm shadow-md",
+                            "hover:bg-white/30 hover:scale-105",
+                            "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
+                            "left-[16px] md:left-auto md:right-[60px]",
+                        )}
+                        title="Previous entry (←)"
+                    >
+                        <ChevronLeft size={20} />
+                    </button>
+                )}
+                {currentEntry !== null && (
+                    <button
+                        onClick={goToNext}
+                        disabled={!canGoNext}
+                        className={cn(
+                            "absolute bottom-4 right-[16px] p-2 rounded-full transition-all",
+                            "bg-white/20 backdrop-blur-sm shadow-md",
+                            "hover:bg-white/30 hover:scale-105",
+                            "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
+                        )}
+                        title="Next entry (→)"
+                    >
+                        <ChevronRight size={20} />
+                    </button>
                 )}
             </CardFooter>
         </Card>
