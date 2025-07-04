@@ -630,11 +630,23 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             />
 
             <ViewFanartModal
-                key={`fanart-modal-${viewStore.chapter}-${viewStore.day}`}
+                key={`fanart-modal-${viewStore.chapter}-${viewStore.day}-${viewStore.selectedNode?.id || "none"}`}
                 open={openFanartModal}
                 onOpenChange={setOpenFanartModal}
                 chapter={viewStore.chapter}
                 day={viewStore.day}
+                initialCharacter={(() => {
+                    if (viewStore.currentCard === "node" && viewStore.selectedNode) {
+                        const fanartData = require("#/fanart.json");
+                        const nodeId = viewStore.selectedNode?.id;
+                        const isCharacter = nodeId && fanartData.some((entry: any) =>
+                            entry.chapter === viewStore.chapter &&
+                            entry.characters.includes(nodeId)
+                        );
+                        if (isCharacter) return nodeId;
+                    }
+                    return undefined;
+                })()}
             />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">

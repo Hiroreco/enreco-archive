@@ -53,6 +53,7 @@ interface ViewFanartModalProps {
     onOpenChange: (open: boolean) => void;
     chapter: number;
     day: number;
+    initialCharacter?: string;
 }
 
 interface CollapseButtonProps {
@@ -102,8 +103,12 @@ const ViewFanartModal = ({
     onOpenChange,
     chapter,
     day,
+    initialCharacter = "all",
 }: ViewFanartModalProps) => {
-    const [selectedCharacter, setSelectedCharacter] = useState<string>("all");
+    // MULTI-SELECT: selectedCharacters is an array of character ids, or ["all"]
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
+        initialCharacter && initialCharacter !== "all" ? [initialCharacter] : ["all"]
+    );
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
@@ -175,18 +180,18 @@ const ViewFanartModal = ({
     // Filter fanart based on selected filters
     const filteredFanart = useMemo(() => {
         return fanart.filter((entry) => {
+            // MULTI-SELECT: Only show art that includes ALL selected characters (unless "all" is selected)
             const characterMatch =
-                selectedCharacter === "all" ||
-                entry.characters.includes(selectedCharacter);
+                selectedCharacters.includes("all") ||
+                selectedCharacters.every((char) => entry.characters.includes(char));
             const chapterMatch =
                 selectedChapter === "all" ||
                 entry.chapter === parseInt(selectedChapter);
             const dayMatch =
                 selectedDay === "all" || entry.day === parseInt(selectedDay);
-
             return characterMatch && chapterMatch && dayMatch;
         });
-    }, [selectedCharacter, selectedChapter, selectedDay, fanart]);
+    }, [selectedCharacters, selectedChapter, selectedDay, fanart]);
 
     const currentEntry = useMemo(
         () =>
@@ -303,7 +308,7 @@ const ViewFanartModal = ({
     }, []);
 
     const resetFilters = useCallback(() => {
-        setSelectedCharacter("all");
+        setSelectedCharacters(["all"]);
         setSelectedChapter("all");
         setSelectedDay("all");
     }, []);
@@ -347,21 +352,31 @@ const ViewFanartModal = ({
                 behavior: "smooth",
             });
         }
-    }, [selectedCharacter, selectedChapter, selectedDay]);
+    }, [selectedCharacters, selectedChapter, selectedDay]);
 
     useEffect(() => {
         setSelectedDay("all");
     }, [selectedChapter]);
 
-    // if selected character is not in the current chapter, reset to "all"
+
+    // If initialCharacter changes (e.g. modal is opened for a new node), update selectedCharacter
+    useEffect(() => {
+        setSelectedCharacters(
+            initialCharacter && initialCharacter !== "all"
+                ? [initialCharacter]
+                : ["all"]
+        );
+    }, [initialCharacter, open]);
+
+    // if any selected character is not in the current chapter, reset to "all"
     useEffect(() => {
         if (
-            selectedCharacter !== "all" &&
-            !characters.includes(selectedCharacter)
+            !selectedCharacters.includes("all") &&
+            selectedCharacters.some((char) => !characters.includes(char))
         ) {
-            setSelectedCharacter("all");
+            setSelectedCharacters(["all"]);
         }
-    }, [selectedCharacter, characters]);
+    }, [selectedCharacters, characters]);
 
     useEffect(() => {
         setSelectedDay(day.toString() || "all");
@@ -487,45 +502,36 @@ const ViewFanartModal = ({
                                                 <label className="text-xs font-medium text-muted-foreground">
                                                     Character
                                                 </label>
-                                                <Select
-                                                    value={selectedCharacter}
-                                                    onValueChange={
-                                                        setSelectedCharacter
-                                                    }
-                                                >
-                                                    <SelectTrigger className="h-8 text-sm">
-                                                        <SelectValue />
-                                                    </SelectTrigger>
-                                                    <SelectContent>
-                                                        <SelectItem value="all">
-                                                            All
-                                                        </SelectItem>
-                                                        {characters.map(
-                                                            (character) => (
-                                                                <SelectItem
-                                                                    key={
-                                                                        character
-                                                                    }
-                                                                    value={
-                                                                        character
-                                                                    }
-                                                                >
-                                                                    {nameMap[
-                                                                        character
-                                                                    ] ||
-                                                                        character
-                                                                            .charAt(
-                                                                                0,
-                                                                            )
-                                                                            .toUpperCase() +
-                                                                            character.slice(
-                                                                                1,
-                                                                            )}
-                                                                </SelectItem>
-                                                            ),
-                                                        )}
-                                                    </SelectContent>
-                                                </Select>
+                                                {/* MULTI-SELECT: Replace Select with toggle buttons for each character */}
+                                                <div className="flex flex-wrap gap-1">
+                                                    <label className="text-xs font-medium text-muted-foreground w-full">Characters</label>
+                                                    <button
+                                                        type="button"
+                                                        className={`px-2 py-1 rounded border text-xs ${selectedCharacters.includes("all") ? "bg-accent border-accent-foreground text-accent-foreground" : "bg-background border-border"}`}
+                                                        onClick={() => setSelectedCharacters(["all"])}
+                                                    >
+                                                        All
+                                                    </button>
+                                                    {characters.map((character) => (
+                                                        <button
+                                                            type="button"
+                                                            key={character}
+                                                            className={`px-2 py-1 rounded border text-xs ${selectedCharacters.includes(character) ? "bg-accent border-accent-foreground text-accent-foreground" : "bg-background border-border"}`}
+                                                            onClick={() => {
+                                                                if (selectedCharacters.includes("all")) {
+                                                                    setSelectedCharacters([character]);
+                                                                } else if (selectedCharacters.includes(character)) {
+                                                                    const next = selectedCharacters.filter((c) => c !== character);
+                                                                    setSelectedCharacters(next.length === 0 ? ["all"] : next);
+                                                                } else {
+                                                                    setSelectedCharacters([...selectedCharacters, character]);
+                                                                }
+                                                            }}
+                                                        >
+                                                            {nameMap[character] || character.charAt(0).toUpperCase() + character.slice(1)}
+                                                        </button>
+                                                    ))}
+                                                </div>
                                             </div>
                                             <div className="flex items-center gap-2">
                                                 <Button
@@ -550,43 +556,35 @@ const ViewFanartModal = ({
                                             <label className="text-sm font-medium">
                                                 Character:
                                             </label>
-                                            <Select
-                                                value={selectedCharacter}
-                                                onValueChange={
-                                                    setSelectedCharacter
-                                                }
-                                            >
-                                                <SelectTrigger className="w-[150px]">
-                                                    <SelectValue />
-                                                </SelectTrigger>
-                                                <SelectContent>
-                                                    <SelectItem value="all">
-                                                        All
-                                                    </SelectItem>
-                                                    {characters.map(
-                                                        (character) => (
-                                                            <SelectItem
-                                                                key={character}
-                                                                value={
-                                                                    character
-                                                                }
-                                                            >
-                                                                {nameMap[
-                                                                    character
-                                                                ] ||
-                                                                    character
-                                                                        .charAt(
-                                                                            0,
-                                                                        )
-                                                                        .toUpperCase() +
-                                                                        character.slice(
-                                                                            1,
-                                                                        )}
-                                                            </SelectItem>
-                                                        ),
-                                                    )}
-                                                </SelectContent>
-                                            </Select>
+                                            {/* MULTI-SELECT: Desktop version */}
+                                            <div className="flex flex-wrap gap-1">
+                                                <button
+                                                    type="button"
+                                                    className={`px-2 py-1 rounded border text-xs ${selectedCharacters.includes("all") ? "bg-accent border-accent-foreground text-accent-foreground" : "bg-background border-border"}`}
+                                                    onClick={() => setSelectedCharacters(["all"])}
+                                                >
+                                                    All
+                                                </button>
+                                                {characters.map((character) => (
+                                                    <button
+                                                        type="button"
+                                                        key={character}
+                                                        className={`px-2 py-1 rounded border text-xs ${selectedCharacters.includes(character) ? "bg-accent border-accent-foreground text-accent-foreground" : "bg-background border-border"}`}
+                                                        onClick={() => {
+                                                            if (selectedCharacters.includes("all")) {
+                                                                setSelectedCharacters([character]);
+                                                            } else if (selectedCharacters.includes(character)) {
+                                                                const next = selectedCharacters.filter((c) => c !== character);
+                                                                setSelectedCharacters(next.length === 0 ? ["all"] : next);
+                                                            } else {
+                                                                setSelectedCharacters([...selectedCharacters, character]);
+                                                            }
+                                                        }}
+                                                    >
+                                                        {nameMap[character] || character.charAt(0).toUpperCase() + character.slice(1)}
+                                                    </button>
+                                                ))}
+                                            </div>
                                         </div>
 
                                         <div className="flex items-center gap-2">
@@ -678,7 +676,7 @@ const ViewFanartModal = ({
                     >
                         <AnimatePresence mode="wait">
                             <motion.div
-                                key={`${selectedCharacter}-${selectedChapter}-${selectedDay}`}
+                                key={`${selectedCharacters.join(",")}-${selectedChapter}-${selectedDay}`}
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
