@@ -128,6 +128,10 @@ export const useAudioStore = create<AudioState>((set, get) => ({
                 volume: sfxVolume,
             });
             sound.play();
+
+            // Add the dynamically loaded sound to the sfx object
+            set({ sfx: { ...sfx, [name]: sound } });
+
             if (name === "easter/easter-moom") {
                 sound.once("end", () => {
                     get().setIsMoomPlaying(false);
