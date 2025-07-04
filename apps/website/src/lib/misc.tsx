@@ -252,23 +252,6 @@ export const CHARACTER_ORDER = [
     "iphania",
 ];
 
-export const GLOSSARY_DUNGEON_ORDER = [
-    "underworld-dungeon",
-    "ocean-temple-dungeon",
-    "eldritch-horror-dungeon",
-    "volcanic-dungeon",
-    "ancient-sewer-dungeon",
-    "star-site-elpis",
-    "star-site-chronos",
-    "star-site-chaos",
-];
-
-export const GLOSSARY_CHARACTER_ORDER = CHARACTER_ORDER.map((id) => {
-    return id + "-entry";
-});
-
-export const FANART_CHARACTER_ORDER = [...CHARACTER_ORDER, "iphania"];
-
 /**
  * Sorts an array based on a predefined order array
  * @param items - Array of items to sort

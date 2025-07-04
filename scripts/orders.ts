@@ -37,6 +37,15 @@ export const GLOSSARY_MAIN_QUESTS_ORDER = [
     "underworld-dungeon",
 ];
 
+export const GLOSSARY_LORE_GENERAL_ORDER = [
+    "kingdom-of-libestal-ancient",
+    "kingdom-of-libestal-ficta",
+    "stains",
+    "revelations",
+];
+
+export const GLOSSARY_LORE_LOCATIONS_ORDER = ["library", "sanctuary"];
+
 export const GLOSSARY_MISC_MECHANICS = ["jobs", "minigames", "guilds"];
 
 export const GLOSSARY_WEAPONS_ORDER = [
