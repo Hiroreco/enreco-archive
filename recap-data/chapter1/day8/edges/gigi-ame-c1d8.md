@@ -66,4 +66,4 @@ A story to be told for generations to come.
 
 ["Couple" by Adarin](https://x.com/AdarinSinner/status/1848429109103505750)
 
-["my diamond" my Daaku](https://x.com/koizumi_arata/status/1832737380857459090)
+["my diamond" by Daaku](https://x.com/koizumi_arata/status/1832737380857459090)

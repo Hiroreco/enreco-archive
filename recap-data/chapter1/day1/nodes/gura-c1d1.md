@@ -24,6 +24,4 @@ Finally, the three of them wrapped up their day at the casino. While Fauna and C
 
 ["Big Silly Hat" by toro rose](https://x.com/TororoRose/status/1830139747202728375)
 
-["Gura" by ma_draws"](https://x.com/ma_draws/status/1901606787452948765/)
-
 ["stalatite head" by keenbiscuit](https://x.com/keenbiscuit/status/1830198547343671646)

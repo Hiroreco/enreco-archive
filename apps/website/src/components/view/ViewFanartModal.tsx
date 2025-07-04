@@ -61,6 +61,11 @@ interface CollapseButtonProps {
     className?: string;
 }
 
+interface MasonryColumn {
+    items: Array<{ entry: FanartEntry; index: number }>;
+    height: number;
+}
+
 const CollapseButton = ({
     isCollapsed,
     onClick,
@@ -122,6 +127,10 @@ const ViewFanartModal = ({
         }
         return false;
     });
+
+    // Masonry state
+    const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
+    const [columnCount, setColumnCount] = useState(3);
 
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
     const nameMap = useMemo(
@@ -186,6 +195,63 @@ const ViewFanartModal = ({
                 : null,
         [currentLightboxEntryIndex, filteredFanart],
     );
+
+    // Calculate column count based on screen size
+    useEffect(() => {
+        const updateColumnCount = () => {
+            const width = window.innerWidth;
+            if (width < 768) setColumnCount(2);
+            else if (width < 1024) setColumnCount(3);
+            else if (width < 1280) setColumnCount(4);
+            else setColumnCount(5);
+        };
+
+        updateColumnCount();
+        window.addEventListener("resize", updateColumnCount);
+        return () => window.removeEventListener("resize", updateColumnCount);
+    }, []);
+
+    // Calculate masonry layout
+    const calculateMasonryLayout = useCallback(
+        (entries: FanartEntry[]) => {
+            const columns: MasonryColumn[] = Array.from(
+                { length: columnCount },
+                () => ({
+                    items: [],
+                    height: 0,
+                }),
+            );
+
+            entries.forEach((entry, index) => {
+                const firstImage = entry.images[0];
+                if (!firstImage) return;
+
+                // Find column with smallest height
+                const shortestColumn = columns.reduce(
+                    (min, col, i) =>
+                        col.height < columns[min].height ? i : min,
+                    0,
+                );
+
+                // Estimate item height (image height + padding + text)
+                const aspectRatio = firstImage.height / firstImage.width;
+                const estimatedWidth = 300; // Approximate column width
+                const estimatedHeight = estimatedWidth * aspectRatio + 100; // Add padding for text
+
+                columns[shortestColumn].items.push({ entry, index });
+                columns[shortestColumn].height += estimatedHeight;
+            });
+
+            return columns;
+        },
+        [columnCount],
+    );
+
+    // Update masonry layout when data changes
+    useEffect(() => {
+        const columns = calculateMasonryLayout(filteredFanart);
+        setMasonryColumns(columns);
+    }, [filteredFanart, calculateMasonryLayout]);
 
     const handleNextEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
@@ -617,124 +683,171 @@ const ViewFanartModal = ({
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.125 }}
-                                className="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 space-y-4"
+                                className="flex gap-4 items-start"
+                                style={{ minHeight: "fit-content" }}
                             >
-                                {filteredFanart.map((entry, index) => {
-                                    const firstImage = entry.images[0];
-                                    const thumbnailSrc = firstImage.src.replace(
-                                        "-opt.webp",
-                                        "-opt-thumb.webp",
-                                    );
+                                {masonryColumns.map((column, columnIndex) => (
+                                    <div
+                                        key={columnIndex}
+                                        className="flex-1 flex flex-col"
+                                    >
+                                        {column.items.map(
+                                            ({ entry, index }) => {
+                                                const firstImage =
+                                                    entry.images[0];
+                                                const thumbnailSrc =
+                                                    firstImage.src.replace(
+                                                        "-opt.webp",
+                                                        "-opt-thumb.webp",
+                                                    );
 
-                                    return (
-                                        <div
-                                            className="relative group bg-muted rounded-lg overflow-hidden cursor-pointer"
-                                            key={`${entry.url}-${index}`}
-                                            onClick={() =>
-                                                handleOpenLightbox(index)
-                                            }
-                                        >
-                                            <Image
-                                                src={thumbnailSrc}
-                                                alt={entry.label}
-                                                width={firstImage.width}
-                                                height={firstImage.height}
-                                                className="w-full h-auto object-cover transition-transform group-hover:scale-105"
-                                                placeholder={
-                                                    getBlurDataURL(thumbnailSrc)
-                                                        ? "blur"
-                                                        : "empty"
-                                                }
-                                                blurDataURL={getBlurDataURL(
-                                                    thumbnailSrc,
-                                                )}
-                                                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
-                                            />
+                                                return (
+                                                    <div
+                                                        className="relative group bg-muted rounded-lg overflow-hidden cursor-pointer break-inside-avoid mb-4"
+                                                        key={`${entry.url}-${index}`}
+                                                        onClick={() =>
+                                                            handleOpenLightbox(
+                                                                index,
+                                                            )
+                                                        }
+                                                    >
+                                                        <Image
+                                                            src={thumbnailSrc}
+                                                            alt={entry.label}
+                                                            width={
+                                                                firstImage.width
+                                                            }
+                                                            height={
+                                                                firstImage.height
+                                                            }
+                                                            className="w-full h-auto object-cover transition-transform group-hover:scale-105"
+                                                            placeholder={
+                                                                getBlurDataURL(
+                                                                    thumbnailSrc,
+                                                                )
+                                                                    ? "blur"
+                                                                    : "empty"
+                                                            }
+                                                            blurDataURL={getBlurDataURL(
+                                                                thumbnailSrc,
+                                                            )}
+                                                            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                                                        />
 
-                                            {/* Image count badge - always visible*/}
-                                            {entry.images.length > 1 && (
-                                                <div className="flex item-center gap-1 absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg">
-                                                    <ImageIcon size={16} />
-                                                    <span>
-                                                        {entry.images.length}
-                                                    </span>
-                                                </div>
-                                            )}
+                                                        {/* Image count badge */}
+                                                        {entry.images.length >
+                                                            1 && (
+                                                            <div className="flex item-center gap-1 absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg">
+                                                                <ImageIcon
+                                                                    size={16}
+                                                                />
+                                                                <span>
+                                                                    {
+                                                                        entry
+                                                                            .images
+                                                                            .length
+                                                                    }
+                                                                </span>
+                                                            </div>
+                                                        )}
 
-                                            {/* Mobile - always visible full info */}
-                                            <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
-                                                <div className="text-white flex flex-col min-h-0">
-                                                    <div className="flex-1 min-h-0 overflow-hidden">
-                                                        <p className="text-white text-xs font-semibold line-clamp-1 mb-0.5">
-                                                            {entry.label}
-                                                        </p>
-                                                        <p className="text-white/80 text-xs mb-1 line-clamp-1">
-                                                            by {entry.author}
-                                                        </p>
-                                                    </div>
-                                                    <div className="flex items-center justify-between flex-shrink-0">
-                                                        <div className="flex gap-1 text-xs min-w-0">
-                                                            <div className="text-xs text-white whitespace-nowrap truncate">
-                                                                Ch.{" "}
-                                                                {entry.chapter +
-                                                                    1}{" "}
-                                                                Day{" "}
-                                                                {entry.day + 1}
+                                                        {/* Mobile - always visible full info */}
+                                                        <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
+                                                            <div className="text-white flex flex-col min-h-0">
+                                                                <div className="flex-1 min-h-0 overflow-hidden">
+                                                                    <p className="text-white text-xs font-semibold line-clamp-1 mb-0.5">
+                                                                        {
+                                                                            entry.label
+                                                                        }
+                                                                    </p>
+                                                                    <p className="text-white/80 text-xs mb-1 line-clamp-1">
+                                                                        by{" "}
+                                                                        {
+                                                                            entry.author
+                                                                        }
+                                                                    </p>
+                                                                </div>
+                                                                <div className="flex items-center justify-between flex-shrink-0">
+                                                                    <div className="flex gap-1 text-xs min-w-0">
+                                                                        <div className="text-xs text-white whitespace-nowrap truncate">
+                                                                            Ch.{" "}
+                                                                            {entry.chapter +
+                                                                                1}{" "}
+                                                                            Day{" "}
+                                                                            {entry.day +
+                                                                                1}
+                                                                        </div>
+                                                                    </div>
+                                                                    <a
+                                                                        className="px-1.5 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
+                                                                        href={
+                                                                            entry.url
+                                                                        }
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        onClick={(
+                                                                            e,
+                                                                        ) =>
+                                                                            e.stopPropagation()
+                                                                        }
+                                                                    >
+                                                                        <ExternalLink className="size-3 stroke-inherit" />
+                                                                    </a>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <a
-                                                            className="px-1.5 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
-                                                            href={entry.url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            onClick={(e) =>
-                                                                e.stopPropagation()
-                                                            }
-                                                        >
-                                                            <ExternalLink className="size-3 stroke-inherit" />
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
 
-                                            {/* Desktop - hover overlay with full info */}
-                                            <div className="hidden md:flex flex-col absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
-                                                <div className="text-white flex flex-col min-h-0">
-                                                    <div className="flex-1 min-h-0 overflow-hidden">
-                                                        <p className="font-semibold text-sm line-clamp-1 mb-1">
-                                                            {entry.label}
-                                                        </p>
-                                                        <p className="text-xs text-white/80 mb-2 line-clamp-1">
-                                                            by {entry.author}
-                                                        </p>
-                                                    </div>
-                                                    <div className="flex items-center justify-between flex-shrink-0">
-                                                        <div className="flex gap-1 text-xs min-w-0">
-                                                            <div className="text-xs text-white whitespace-nowrap truncate">
-                                                                Ch.{" "}
-                                                                {entry.chapter +
-                                                                    1}{" "}
-                                                                Day{" "}
-                                                                {entry.day + 1}
+                                                        {/* Desktop - hover overlay with full info */}
+                                                        <div className="hidden md:flex flex-col absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors justify-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
+                                                            <div className="text-white flex flex-col min-h-0">
+                                                                <div className="flex-1 min-h-0 overflow-hidden">
+                                                                    <p className="font-semibold text-sm line-clamp-1 mb-1">
+                                                                        {
+                                                                            entry.label
+                                                                        }
+                                                                    </p>
+                                                                    <p className="text-xs text-white/80 mb-2 line-clamp-1">
+                                                                        by{" "}
+                                                                        {
+                                                                            entry.author
+                                                                        }
+                                                                    </p>
+                                                                </div>
+                                                                <div className="flex items-center justify-between flex-shrink-0">
+                                                                    <div className="flex gap-1 text-xs min-w-0">
+                                                                        <div className="text-xs text-white whitespace-nowrap truncate">
+                                                                            Ch.{" "}
+                                                                            {entry.chapter +
+                                                                                1}{" "}
+                                                                            Day{" "}
+                                                                            {entry.day +
+                                                                                1}
+                                                                        </div>
+                                                                    </div>
+                                                                    <a
+                                                                        className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
+                                                                        href={
+                                                                            entry.url
+                                                                        }
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        onClick={(
+                                                                            e,
+                                                                        ) =>
+                                                                            e.stopPropagation()
+                                                                        }
+                                                                    >
+                                                                        <ExternalLink className="size-4 stroke-inherit" />
+                                                                    </a>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <a
-                                                            className="px-2 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
-                                                            href={entry.url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            onClick={(e) =>
-                                                                e.stopPropagation()
-                                                            }
-                                                        >
-                                                            <ExternalLink className="size-4 stroke-inherit" />
-                                                        </a>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    );
-                                })}
+                                                );
+                                            },
+                                        )}
+                                    </div>
+                                ))}
                             </motion.div>
                         </AnimatePresence>
 
@@ -764,7 +877,7 @@ const ViewFanartModal = ({
                     height={currentEntry.images[0].height}
                     galleryImages={currentEntry.images.map((img) => ({
                         src: img.src,
-                        alt: currentEntry.label,
+                        alt: currentEntry.label + " by " + currentEntry.author,
                     }))}
                     priority={true}
                     alwaysShowNavigationArrows={true}

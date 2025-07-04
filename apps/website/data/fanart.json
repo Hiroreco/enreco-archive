@@ -34,23 +34,6 @@
     ]
   },
   {
-    "url": "https://x.com/ma_draws/status/1901606787452948765/",
-    "label": "\"Gura\"",
-    "author": "ma_draws",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "gura"
-    ],
-    "images": [
-      {
-        "src": "images-opt/ma_draws-1901606787452948765-0-opt.webp",
-        "width": 1365,
-        "height": 2048
-      }
-    ]
-  },
-  {
     "url": "https://x.com/keenbiscuit/status/1830198547343671646",
     "label": "\"stalatite head\"",
     "author": "keenbiscuit",
@@ -1059,6 +1042,23 @@
     ]
   },
   {
+    "url": "https://x.com/ma_draws/status/1832081741831381036",
+    "label": "\"🔱💦\"",
+    "author": "ma_draws",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "gura"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ma_draws-1832081741831381036-0-opt.webp",
+        "width": 1678,
+        "height": 2048
+      }
+    ]
+  },
+  {
     "url": "https://x.com/keiseeaaa/status/1831435229753700756",
     "label": "\"BloodRaven\"",
     "author": "keiseeaaa",
@@ -1884,7 +1884,7 @@
   },
   {
     "url": "https://x.com/koizumi_arata/status/1832737380857459090",
-    "label": "\"my diamond\" my Daaku",
+    "label": "\"my diamond\"",
     "author": "koizumi_arata",
     "chapter": 0,
     "day": 7,
@@ -2168,11 +2168,6 @@
         "src": "images-opt/keiseeaaa-1833938251633303674-0-opt.webp",
         "width": 2500,
         "height": 3402
-      },
-      {
-        "src": "images-opt/keiseeaaa-1833938251633303674-1-opt.webp",
-        "width": 2836,
-        "height": 2592
       }
     ]
   },

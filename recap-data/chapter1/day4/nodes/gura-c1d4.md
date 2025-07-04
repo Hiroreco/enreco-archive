@@ -23,3 +23,5 @@ With another successful day behind her, Gura called it a night, her mind racing 
 ## Fanart
 
 ["Ultimate battle form" by advarcher](https://x.com/Anonamos_701/status/1831053964131140033)
+
+["🔱💦" by ma_draws](https://x.com/ma_draws/status/1832081741831381036)
