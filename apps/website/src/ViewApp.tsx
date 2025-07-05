@@ -41,7 +41,7 @@ import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
 import Image from "next/image";
 import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
-import ViewFanartModal from "@/components/view/ViewFanartModal";
+import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -636,14 +636,11 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 chapter={viewStore.chapter}
                 day={viewStore.day}
                 initialCharacter={(() => {
-                    if (viewStore.currentCard === "node" && viewStore.selectedNode) {
-                        const fanartData = require("#/fanart.json");
-                        const nodeId = viewStore.selectedNode?.id;
-                        const isCharacter = nodeId && fanartData.some((entry: any) =>
-                            entry.chapter === viewStore.chapter &&
-                            entry.characters.includes(nodeId)
-                        );
-                        if (isCharacter) return nodeId;
+                    if (
+                        viewStore.currentCard === "node" &&
+                        viewStore.selectedNode
+                    ) {
+                        return viewStore.selectedNode.id;
                     }
                     return undefined;
                 })()}
