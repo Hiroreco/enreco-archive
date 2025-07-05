@@ -27,6 +27,12 @@ How will any of this help save the universe? Who knows? But it's only Day 1—th
 
 ["Monster" by purokiti](https://x.com/purokiti/status/1918510105928032297)
 
+<!-- kronii, ina, gigi, shiori -->
+
 ["Monster" by KagenOyuhi](https://x.com/KagenOyuhi/status/1918496790875144250)
 
+<!-- kronii, ina, gigi, shiori -->
+
 ["Monster Tarot Cards" by mokoppe](https://x.com/mokoppe/status/1918629108000362512)
+
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->

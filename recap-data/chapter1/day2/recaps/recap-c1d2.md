@@ -19,3 +19,5 @@ In completing the dungeon, the heroes unlocked another fragment of their forgott
 ## Fanart
 
 ["ERB and the Fantastic Beasts" by Marus_Circle](https://x.com/Marus_Circle/status/1830885012788674962)
+
+<!-- liz, kiara, fuwawa, mococo, raora -->

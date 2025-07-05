@@ -63,6 +63,12 @@ The quiet rise of rebellion awakened.
 
 ["Chapter 2" by BunBBun](https://x.com/BunBBun1/status/1922478064446902631)
 
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
 ["Who's with us?" by Haaro](https://x.com/haaro_69/status/1922034045124223411)
 
+<!-- shiori, bijou, nerissa, fuwawa, mococo -->
+
 ["Title card" by BunBBun](https://x.com/BunBBun1/status/1922035596597358999)
+
+<!-- shiori, bijou, nerissa, fuwawa, mococo -->

@@ -15,6 +15,12 @@ type ChapterJson = {
     charts: ChartData[];
 };
 
+function stripCommentTags(content: string): string {
+    // Remove HTML-style comments (<!-- ... -->)
+    // This regex handles multi-line comments and comments with newlines
+    return content.replace(/<!--[\s\S]*?-->/g, "").trim();
+}
+
 async function main() {
     const chapterArg = process.argv[2];
     if (!chapterArg) {
@@ -71,7 +77,7 @@ async function main() {
                 path.join(dayPath, "recaps", recapName),
                 "utf-8",
             );
-            chart.dayRecap = md.trim();
+            chart.dayRecap = stripCommentTags(md).trim();
         } catch {
             console.warn(`  • Missing dayRecap file: ${recapName}`);
         }
@@ -87,14 +93,16 @@ async function main() {
             )) {
                 const base = path.basename(file, ".md");
                 const idKey = base.replace(new RegExp(`${suffix}$`), "");
-                const md = (
-                    await fs.readFile(path.join(nodesDir, file), "utf-8")
-                ).trim();
+                const md = await fs.readFile(
+                    path.join(nodesDir, file),
+                    "utf-8",
+                );
+                const cleanedMd = stripCommentTags(md).trim();
                 const nd = chart.nodes.find(
                     (n) => n.id.startsWith(idKey) && n.data.day === dayIndex,
                 );
                 if (nd) {
-                    nd.data.content = md;
+                    nd.data.content = cleanedMd;
                     seenNodes.add(nd.id);
                 } else {
                     console.warn(
@@ -139,7 +147,7 @@ async function main() {
                         .trim();
                     if (!lines[0].trim()) lines.shift();
                 }
-                const content = lines.join("\n").trim();
+                const content = stripCommentTags(lines.join("\n")).trim();
 
                 const ed = chart.edges.find(
                     (e) =>

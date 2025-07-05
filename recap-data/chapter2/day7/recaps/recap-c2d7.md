@@ -25,3 +25,5 @@ Still, one day remains. Let’s see how it all ends.
 ## Fanart
 
 ["GIVE BIRTH !!!" by BunBBun](https://x.com/BunBBun1/status/1921443281776381979)
+
+<!-- bijou, irys, bae, ina, shiori, mococo, kronii, gigi -->

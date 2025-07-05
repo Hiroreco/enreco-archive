@@ -20,4 +20,8 @@ With corruption at its peak, relationships transformed, rivalries settled, and s
 
 ["The finale is here." by keenbiscuit](https://x.com/keenbiscuit/status/1832589405451931972)
 
+<!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
 ["When you can't even say my name" by Daaku](https://x.com/koizumi_arata/status/1832563954859610324)
+
+<!-- kronii, gigi, ame, bijou, irys, ina -->

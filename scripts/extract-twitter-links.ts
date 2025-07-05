@@ -24,6 +24,31 @@ async function walkDir(dir: string, base: string): Promise<string[]> {
     return files;
 }
 
+function parseCharacterComments(text: string, linkUrl: string): string[] {
+    // Look for comments after the specific link
+    const linkPattern = new RegExp(
+        `\\[.*?\\]\\(${linkUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\)`,
+        "gi",
+    );
+
+    const matches = [...text.matchAll(linkPattern)];
+    if (matches.length === 0) return [];
+
+    // Find the last match (in case the same link appears multiple times)
+    const lastMatch = matches[matches.length - 1];
+    const afterLinkText = text.slice(lastMatch.index! + lastMatch[0].length);
+
+    // Look for the first comment after the link
+    const commentMatch = afterLinkText.match(/^\s*<!--\s*(.+?)\s*-->/);
+    if (!commentMatch) return [];
+
+    // Parse comma-separated characters
+    return commentMatch[1]
+        .split(",")
+        .map((char) => char.trim())
+        .filter((char) => char.length > 0);
+}
+
 async function main() {
     // 1) Base folder to scan (recap-data/)
     const base = path.resolve(__dirname, "..", "recap-data");
@@ -95,11 +120,10 @@ async function main() {
         const dayPart = parts.find((p) => /^day\d+$/i.test(p)) || "";
         const filename = path.basename(file, ".md");
         const character = filename.replace(/-c\d+d\d+$/, "");
-        const characters = character
-            .split("-")
-            .map((c) => c.trim())
-            .map((c) => (c === "recap" ? "various" : c));
-
+        let characters: string[] = [];
+        if (character !== "recap") {
+            characters = character.split("-").map((c) => c.trim());
+        }
         const text = await fs.readFile(file, "utf-8");
         let m: RegExpExecArray | null;
         while ((m = LINK_RE.exec(text))) {
@@ -116,22 +140,27 @@ async function main() {
                 console.log(`Skipping blacklisted URL: ${url}`);
                 continue;
             }
-            if (blacklistUrls.includes(url)) {
-                console.log(`Skipping blacklisted URL: ${url}`);
-                continue;
-            }
+
             // Skip if link already exists
             if (linkEntries.some((entry) => entry.url === url)) {
                 console.log(`Skipping duplicate URL: ${url}`);
                 continue;
             }
+
+            // Check for character comments after the link
+            const commentCharacters = parseCharacterComments(text, url);
+            const finalCharacters =
+                commentCharacters.length > 0
+                    ? [...new Set([...characters, ...commentCharacters])]
+                    : characters;
+
             linkEntries.push({
                 url: url,
                 label,
                 author,
                 chapter: parseInt(chapterPart.replace(/^chapter/, "")) - 1,
                 day: parseInt(dayPart.replace(/^day/, "")) - 1,
-                characters,
+                characters: finalCharacters,
             });
         }
     }

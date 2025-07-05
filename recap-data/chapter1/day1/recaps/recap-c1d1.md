@@ -25,12 +25,24 @@ However, this was far from the day's only story. The heroes summoned by the king
 
 ["Full Libestal Cast" by DDOLBANG](https://x.com/DDOLBANG11/status/1902413203335999859)
 
+<!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
 ["ENreco assemble!" by Keisea](https://x.com/keiseeaaa/status/1832534510598250820)
+
+<!-- nerissa, ina, raora, moom -->
 
 ["Scarlet Wand" by tor](https://x.com/torkirby/status/1830410419082510816)
 
+<!-- fauna, gura, moom, nerissa, shiori -->
+
 ["The Jade Sword Guild!" by Nagi](https://x.com/Nagi_Nyaaa/status/1830397551553761776)
+
+<!-- liz, calli, ame, fuwawa, mococo -->
 
 ["Day 1" by Pungson Mori](https://x.com/33aalloonnHD/status/1830096222046323027)
 
+<!-- kiara, bijou, gura, nerissa, fauna, raora, shiori, irys, moom, kronii, ina, gigi -->
+
 ["START AGAIN" by mocailla](https://x.com/mocailla/status/1831321461212189031)
+
+<!-- liz, nerissa, irys, calli -->

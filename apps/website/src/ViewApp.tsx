@@ -630,7 +630,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             />
 
             <ViewFanartModal
-                key={`fanart-modal-${viewStore.chapter}-${viewStore.day}-${viewStore.selectedNode?.id || "none"}`}
+                key={`fanart-modal-${viewStore.chapter}-${viewStore.day}}`}
                 open={openFanartModal}
                 onOpenChange={setOpenFanartModal}
                 chapter={viewStore.chapter}

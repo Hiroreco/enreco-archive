@@ -24,4 +24,8 @@ And the spark that might’ve lit this family-fueled dumpster fire? One orange, 
 
 ["Born of a cult" by BunBBun](https://x.com/BunBBun1/status/1919963091464249648)
 
+<!-- gigi, cecilia, kronii, bijou, irys, raora, bae, nerissa, shiori, kiara -->
+
 ["AWOOOOO" by Ammy](https://x.com/Ammiietty/status/1921756422808785318)
+
+<!-- cecilia, gigi, kiara, kronii, calli -->

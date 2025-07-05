@@ -57,6 +57,17 @@ const CharacterSelector = ({
                         >
                             All
                         </button>
+                        <button
+                            type="button"
+                            className={`px-2 py-1 rounded border text-xs whitespace-nowrap flex-shrink-0 ${
+                                selectedCharacters.includes("various")
+                                    ? "bg-accent border-accent-foreground text-accent-foreground"
+                                    : "bg-background border-border"
+                            }`}
+                            onClick={() => handleCharacterClick("various")}
+                        >
+                            Various
+                        </button>
                         {characters.map((character) => (
                             <button
                                 type="button"
@@ -91,6 +102,17 @@ const CharacterSelector = ({
                     onClick={() => onCharactersChange(["all"])}
                 >
                     All
+                </button>
+                <button
+                    type="button"
+                    className={`px-2 py-1 rounded border text-xs ${
+                        selectedCharacters.includes("various")
+                            ? "bg-accent border-accent-foreground text-accent-foreground"
+                            : "bg-background border-border"
+                    }`}
+                    onClick={() => handleCharacterClick("various")}
+                >
+                    Various
                 </button>
                 {characters.map((character) => (
                     <button

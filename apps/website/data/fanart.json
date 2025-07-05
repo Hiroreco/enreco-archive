@@ -1,5 +1,61 @@
 [
   {
+    "url": "https://x.com/ddolbang11/status/1902413203335999859",
+    "label": "\"Full Libestal Cast\"",
+    "author": "ddolbang11",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "ame",
+      "gura",
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "fauna",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ddolbang11-1902413203335999859-0-opt.webp",
+        "width": 3413,
+        "height": 4096
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/nagi_nyaaa/status/1830397551553761776",
+    "label": "\"The Jade Sword Guild!\"",
+    "author": "nagi_nyaaa",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "ame",
+      "calli",
+      "fuwawa",
+      "mococo",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nagi_nyaaa-1830397551553761776-0-opt.webp",
+        "width": 2048,
+        "height": 2048
+      }
+    ]
+  },
+  {
     "url": "https://x.com/ammiietty/status/1830136980811796710",
     "label": "\"A Shark\"",
     "author": "ammiietty",
@@ -51,6 +107,55 @@
     ]
   },
   {
+    "url": "https://x.com/torkirby/status/1830410419082510816",
+    "label": "\"Scarlet Wand\"",
+    "author": "torkirby",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "gura",
+      "fauna",
+      "nerissa",
+      "shiori",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/torkirby-1830410419082510816-0-opt.webp",
+        "width": 1557,
+        "height": 1302
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/33aalloonnhd/status/1830096222046323027",
+    "label": "\"Day 1\"",
+    "author": "33aalloonnhd",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "gura",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "fauna",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "gigi",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/33aalloonnhd-1830096222046323027-0-opt.webp",
+        "width": 3474,
+        "height": 4096
+      }
+    ]
+  },
+  {
     "url": "https://x.com/2nochuu/status/1902511940938952880",
     "label": "\"The Underworld Calls\"",
     "author": "2nochuu",
@@ -64,6 +169,26 @@
         "src": "images-opt/2nochuu-1902511940938952880-0-opt.webp",
         "width": 1280,
         "height": 1920
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/mocailla/status/1831321461212189031",
+    "label": "\"START AGAIN\"",
+    "author": "mocailla",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "calli",
+      "irys",
+      "nerissa",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mocailla-1831321461212189031-0-opt.webp",
+        "width": 801,
+        "height": 1199
       }
     ]
   },
@@ -98,6 +223,26 @@
         "src": "images-opt/lgeesel-1832493697914827120-0-opt.webp",
         "width": 1290,
         "height": 1560
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/keiseeaaa/status/1832534510598250820",
+    "label": "\"ENreco assemble!\"",
+    "author": "keiseeaaa",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "ina",
+      "nerissa",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/keiseeaaa-1832534510598250820-0-opt.webp",
+        "width": 3336,
+        "height": 3369
       }
     ]
   },
@@ -411,108 +556,6 @@
     ]
   },
   {
-    "url": "https://x.com/ddolbang11/status/1902413203335999859",
-    "label": "\"Full Libestal Cast\"",
-    "author": "ddolbang11",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/ddolbang11-1902413203335999859-0-opt.webp",
-        "width": 3413,
-        "height": 4096
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/keiseeaaa/status/1832534510598250820",
-    "label": "\"ENreco assemble!\"",
-    "author": "keiseeaaa",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/keiseeaaa-1832534510598250820-0-opt.webp",
-        "width": 3336,
-        "height": 3369
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/torkirby/status/1830410419082510816",
-    "label": "\"Scarlet Wand\"",
-    "author": "torkirby",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/torkirby-1830410419082510816-0-opt.webp",
-        "width": 1557,
-        "height": 1302
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/nagi_nyaaa/status/1830397551553761776",
-    "label": "\"The Jade Sword Guild!\"",
-    "author": "nagi_nyaaa",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/nagi_nyaaa-1830397551553761776-0-opt.webp",
-        "width": 2048,
-        "height": 2048
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/33aalloonnhd/status/1830096222046323027",
-    "label": "\"Day 1\"",
-    "author": "33aalloonnhd",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/33aalloonnhd-1830096222046323027-0-opt.webp",
-        "width": 3474,
-        "height": 4096
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/mocailla/status/1831321461212189031",
-    "label": "\"START AGAIN\"",
-    "author": "mocailla",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/mocailla-1831321461212189031-0-opt.webp",
-        "width": 801,
-        "height": 1199
-      }
-    ]
-  },
-  {
     "url": "https://x.com/moon_ldl/status/1830455614625001879",
     "label": "\"is this what they call...enemies to lovers?...\"",
     "author": "moon_ldl",
@@ -614,6 +657,32 @@
         "src": "images-opt/hyurisaki-1904203019035824337-0-opt.webp",
         "width": 743,
         "height": 800
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/marus_circle/status/1830885012788674962",
+    "label": "\"ERB and the Fantastic Beasts\"",
+    "author": "marus_circle",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "kiara",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/marus_circle-1830885012788674962-0-opt.webp",
+        "width": 2077,
+        "height": 851
+      },
+      {
+        "src": "images-opt/marus_circle-1830885012788674962-1-opt.webp",
+        "width": 2227,
+        "height": 1704
       }
     ]
   },
@@ -795,24 +864,24 @@
     ]
   },
   {
-    "url": "https://x.com/marus_circle/status/1830885012788674962",
-    "label": "\"ERB and the Fantastic Beasts\"",
-    "author": "marus_circle",
+    "url": "https://x.com/chalek0/status/1831120630860963872",
+    "label": "\"Welcome to the Scarlet Wand Guild\"",
+    "author": "chalek0",
     "chapter": 0,
-    "day": 1,
+    "day": 2,
     "characters": [
-      "various"
+      "gura",
+      "fauna",
+      "nerissa",
+      "shiori",
+      "cecilia",
+      "moom"
     ],
     "images": [
       {
-        "src": "images-opt/marus_circle-1830885012788674962-0-opt.webp",
-        "width": 2077,
-        "height": 851
-      },
-      {
-        "src": "images-opt/marus_circle-1830885012788674962-1-opt.webp",
-        "width": 2227,
-        "height": 1704
+        "src": "images-opt/chalek0-1831120630860963872-0-opt.webp",
+        "width": 1920,
+        "height": 1080
       }
     ]
   },
@@ -986,23 +1055,6 @@
         "src": "images-opt/weiiyxn-1831340977870823504-0-opt.webp",
         "width": 2497,
         "height": 3048
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/chalek0/status/1831120630860963872",
-    "label": "\"Welcome to the Scarlet Wand Guild\"",
-    "author": "chalek0",
-    "chapter": 0,
-    "day": 2,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/chalek0-1831120630860963872-0-opt.webp",
-        "width": 1920,
-        "height": 1080
       }
     ]
   },
@@ -1935,6 +1987,78 @@
     ]
   },
   {
+    "url": "https://x.com/keenbiscuit/status/1832589405451931972",
+    "label": "\"The finale is here.\"",
+    "author": "keenbiscuit",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gura",
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "fauna",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/keenbiscuit-1832589405451931972-0-opt.webp",
+        "width": 1574,
+        "height": 874
+      },
+      {
+        "src": "images-opt/keenbiscuit-1832589405451931972-1-opt.webp",
+        "width": 1574,
+        "height": 874
+      },
+      {
+        "src": "images-opt/keenbiscuit-1832589405451931972-2-opt.webp",
+        "width": 1574,
+        "height": 874
+      },
+      {
+        "src": "images-opt/keenbiscuit-1832589405451931972-3-opt.webp",
+        "width": 1574,
+        "height": 874
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/koizumi_arata/status/1832563954859610324",
+    "label": "\"When you can't even say my name\"",
+    "author": "koizumi_arata",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "ina",
+      "irys",
+      "kronii",
+      "bijou",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1832563954859610324-0-opt.webp",
+        "width": 3277,
+        "height": 4096
+      }
+    ]
+  },
+  {
     "url": "https://x.com/ma_draws/status/1901606787452948765",
     "label": "\">:D\"",
     "author": "ma_draws",
@@ -2492,55 +2616,6 @@
     ]
   },
   {
-    "url": "https://x.com/keenbiscuit/status/1832589405451931972",
-    "label": "\"The finale is here.\"",
-    "author": "keenbiscuit",
-    "chapter": 0,
-    "day": 7,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/keenbiscuit-1832589405451931972-0-opt.webp",
-        "width": 1574,
-        "height": 874
-      },
-      {
-        "src": "images-opt/keenbiscuit-1832589405451931972-1-opt.webp",
-        "width": 1574,
-        "height": 874
-      },
-      {
-        "src": "images-opt/keenbiscuit-1832589405451931972-2-opt.webp",
-        "width": 1574,
-        "height": 874
-      },
-      {
-        "src": "images-opt/keenbiscuit-1832589405451931972-3-opt.webp",
-        "width": 1574,
-        "height": 874
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/koizumi_arata/status/1832563954859610324",
-    "label": "\"When you can't even say my name\"",
-    "author": "koizumi_arata",
-    "chapter": 0,
-    "day": 7,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/koizumi_arata-1832563954859610324-0-opt.webp",
-        "width": 3277,
-        "height": 4096
-      }
-    ]
-  },
-  {
     "url": "https://x.com/sanni44322/status/1921325284067811733",
     "label": "\"see?\"",
     "author": "sanni44322",
@@ -2571,6 +2646,52 @@
         "src": "images-opt/fushide_-1919625900900896785-0-opt.webp",
         "width": 3200,
         "height": 3200
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/mokoppe/status/1918629108000362512",
+    "label": "\"Monster Tarot Cards\"",
+    "author": "mokoppe",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mokoppe-1918629108000362512-0-opt.webp",
+        "width": 1352,
+        "height": 852
+      },
+      {
+        "src": "images-opt/mokoppe-1918629108000362512-1-opt.webp",
+        "width": 1352,
+        "height": 852
+      },
+      {
+        "src": "images-opt/mokoppe-1918629108000362512-2-opt.webp",
+        "width": 1352,
+        "height": 852
+      },
+      {
+        "src": "images-opt/mokoppe-1918629108000362512-3-opt.webp",
+        "width": 1352,
+        "height": 852
       }
     ]
   },
@@ -2639,6 +2760,46 @@
         "src": "images-opt/youn_hand-1918831922362413460-0-opt.webp",
         "width": 4096,
         "height": 3581
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/purokiti/status/1918510105928032297",
+    "label": "\"Monster\"",
+    "author": "purokiti",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "ina",
+      "kronii",
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/purokiti-1918510105928032297-0-opt.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/kagenoyuhi/status/1918496790875144250",
+    "label": "\"Monster\"",
+    "author": "kagenoyuhi",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "ina",
+      "kronii",
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/kagenoyuhi-1918496790875144250-0-opt.webp",
+        "width": 1448,
+        "height": 2048
       }
     ]
   },
@@ -3129,72 +3290,6 @@
     ]
   },
   {
-    "url": "https://x.com/purokiti/status/1918510105928032297",
-    "label": "\"Monster\"",
-    "author": "purokiti",
-    "chapter": 1,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/purokiti-1918510105928032297-0-opt.webp",
-        "width": 1920,
-        "height": 1080
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/kagenoyuhi/status/1918496790875144250",
-    "label": "\"Monster\"",
-    "author": "kagenoyuhi",
-    "chapter": 1,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/kagenoyuhi-1918496790875144250-0-opt.webp",
-        "width": 1448,
-        "height": 2048
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/mokoppe/status/1918629108000362512",
-    "label": "\"Monster Tarot Cards\"",
-    "author": "mokoppe",
-    "chapter": 1,
-    "day": 0,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/mokoppe-1918629108000362512-0-opt.webp",
-        "width": 1352,
-        "height": 852
-      },
-      {
-        "src": "images-opt/mokoppe-1918629108000362512-1-opt.webp",
-        "width": 1352,
-        "height": 852
-      },
-      {
-        "src": "images-opt/mokoppe-1918629108000362512-2-opt.webp",
-        "width": 1352,
-        "height": 852
-      },
-      {
-        "src": "images-opt/mokoppe-1918629108000362512-3-opt.webp",
-        "width": 1352,
-        "height": 852
-      }
-    ]
-  },
-  {
     "url": "https://x.com/arexsudraws/status/1919246188831707196",
     "label": "\"yes chef\"",
     "author": "arexsudraws",
@@ -3208,6 +3303,26 @@
         "src": "images-opt/arexsudraws-1919246188831707196-0-opt.webp",
         "width": 1438,
         "height": 1548
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/another_achicvc/status/1922911239631516123",
+    "label": "\"KNIGHT GANG\"",
+    "author": "another_achicvc",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "kiara",
+      "liz",
+      "cecilia",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/another_achicvc-1922911239631516123-0-opt.webp",
+        "width": 1536,
+        "height": 2048
       }
     ]
   },
@@ -3544,23 +3659,6 @@
     ]
   },
   {
-    "url": "https://x.com/another_achicvc/status/1922911239631516123",
-    "label": "\"KNIGHT GANG\"",
-    "author": "another_achicvc",
-    "chapter": 1,
-    "day": 1,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/another_achicvc-1922911239631516123-0-opt.webp",
-        "width": 1536,
-        "height": 2048
-      }
-    ]
-  },
-  {
     "url": "https://x.com/__akkanen/status/1919051593619755126",
     "label": "\"Modan Ramsey\"",
     "author": "__akkanen",
@@ -3574,6 +3672,32 @@
         "src": "images-opt/__akkanen-1919051593619755126-0-opt.webp",
         "width": 1414,
         "height": 2000
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/ammiietty/status/1921756422808785318",
+    "label": "\"AWOOOOO\"",
+    "author": "ammiietty",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "calli",
+      "kiara",
+      "kronii",
+      "cecilia",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ammiietty-1921756422808785318-0-opt.webp",
+        "width": 1869,
+        "height": 2031
+      },
+      {
+        "src": "images-opt/ammiietty-1921756422808785318-1-opt.webp",
+        "width": 1869,
+        "height": 1813
       }
     ]
   },
@@ -3610,6 +3734,32 @@
         "src": "images-opt/feverkiosko-1934841637588611209-0-opt.webp",
         "width": 1219,
         "height": 1400
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1919963091464249648",
+    "label": "\"Born of a cult\"",
+    "author": "bunbbun1",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "kiara",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1919963091464249648-0-opt.webp",
+        "width": 1000,
+        "height": 1700
       }
     ]
   },
@@ -3986,45 +4136,6 @@
         "src": "images-opt/seekorplatypus-1919368149411176695-0-opt.webp",
         "width": 1080,
         "height": 1340
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/bunbbun1/status/1919963091464249648",
-    "label": "\"Born of a cult\"",
-    "author": "bunbbun1",
-    "chapter": 1,
-    "day": 2,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/bunbbun1-1919963091464249648-0-opt.webp",
-        "width": 1000,
-        "height": 1700
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/ammiietty/status/1921756422808785318",
-    "label": "\"AWOOOOO\"",
-    "author": "ammiietty",
-    "chapter": 1,
-    "day": 2,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/ammiietty-1921756422808785318-0-opt.webp",
-        "width": 1869,
-        "height": 2031
-      },
-      {
-        "src": "images-opt/ammiietty-1921756422808785318-1-opt.webp",
-        "width": 1869,
-        "height": 1813
       }
     ]
   },
@@ -5116,6 +5227,30 @@
     ]
   },
   {
+    "url": "https://x.com/bunbbun1/status/1921443281776381979",
+    "label": "\"GIVE BIRTH !!!\"",
+    "author": "bunbbun1",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "shiori",
+      "mococo",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1921443281776381979-0-opt.webp",
+        "width": 1000,
+        "height": 1545
+      }
+    ]
+  },
+  {
     "url": "https://x.com/guyfloating/status/1921366078610923856",
     "label": "\"Couple goals!!\"",
     "author": "guyfloating",
@@ -5481,23 +5616,6 @@
     ]
   },
   {
-    "url": "https://x.com/bunbbun1/status/1921443281776381979",
-    "label": "\"GIVE BIRTH !!!\"",
-    "author": "bunbbun1",
-    "chapter": 1,
-    "day": 6,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/bunbbun1-1921443281776381979-0-opt.webp",
-        "width": 1000,
-        "height": 1545
-      }
-    ]
-  },
-  {
     "url": "https://x.com/lucesamaaa/status/1927770964688802240",
     "label": "\"Passing the Torch\"",
     "author": "lucesamaaa",
@@ -5511,6 +5629,89 @@
         "src": "images-opt/lucesamaaa-1927770964688802240-0-opt.webp",
         "width": 2831,
         "height": 1887
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1922478064446902631",
+    "label": "\"Chapter 2\"",
+    "author": "bunbbun1",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1922478064446902631-0-opt.webp",
+        "width": 1950,
+        "height": 1100
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/haaro_69/status/1922034045124223411",
+    "label": "\"Who's with us?\"",
+    "author": "haaro_69",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/haaro_69-1922034045124223411-0-opt.webp",
+        "width": 1200,
+        "height": 1200
+      }
+    ]
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1922035596597358999",
+    "label": "\"Title card\"",
+    "author": "bunbbun1",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1922035596597358999-0-opt.webp",
+        "width": 1000,
+        "height": 1110
+      },
+      {
+        "src": "images-opt/bunbbun1-1922035596597358999-1-opt.webp",
+        "width": 1000,
+        "height": 1110
+      },
+      {
+        "src": "images-opt/bunbbun1-1922035596597358999-2-opt.webp",
+        "width": 1000,
+        "height": 1110
       }
     ]
   },
@@ -5684,67 +5885,6 @@
         "src": "images-opt/logiies-1928228176104177699-0-opt.webp",
         "width": 975,
         "height": 1162
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/bunbbun1/status/1922478064446902631",
-    "label": "\"Chapter 2\"",
-    "author": "bunbbun1",
-    "chapter": 1,
-    "day": 7,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/bunbbun1-1922478064446902631-0-opt.webp",
-        "width": 1950,
-        "height": 1100
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/haaro_69/status/1922034045124223411",
-    "label": "\"Who's with us?\"",
-    "author": "haaro_69",
-    "chapter": 1,
-    "day": 7,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/haaro_69-1922034045124223411-0-opt.webp",
-        "width": 1200,
-        "height": 1200
-      }
-    ]
-  },
-  {
-    "url": "https://x.com/bunbbun1/status/1922035596597358999",
-    "label": "\"Title card\"",
-    "author": "bunbbun1",
-    "chapter": 1,
-    "day": 7,
-    "characters": [
-      "various"
-    ],
-    "images": [
-      {
-        "src": "images-opt/bunbbun1-1922035596597358999-0-opt.webp",
-        "width": 1000,
-        "height": 1110
-      },
-      {
-        "src": "images-opt/bunbbun1-1922035596597358999-1-opt.webp",
-        "width": 1000,
-        "height": 1110
-      },
-      {
-        "src": "images-opt/bunbbun1-1922035596597358999-2-opt.webp",
-        "width": 1000,
-        "height": 1110
       }
     ]
   }

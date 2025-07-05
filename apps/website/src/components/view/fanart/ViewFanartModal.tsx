@@ -120,11 +120,18 @@ const ViewFanartModal = ({
 
     const filteredFanart = useMemo(() => {
         return fanart.filter((entry) => {
-            const characterMatch =
-                selectedCharacters.includes("all") ||
-                selectedCharacters.every((char) =>
+            let characterMatch = false;
+
+            if (selectedCharacters.includes("all")) {
+                characterMatch = true;
+            } else if (selectedCharacters.includes("various")) {
+                characterMatch = entry.characters.length > 1;
+            } else {
+                characterMatch = selectedCharacters.every((char) =>
                     entry.characters.includes(char),
                 );
+            }
+
             const chapterMatch =
                 selectedChapter === "all" ||
                 entry.chapter === parseInt(selectedChapter);
@@ -271,12 +278,15 @@ const ViewFanartModal = ({
                 ? [initialCharacter]
                 : ["all"],
         );
-    }, [initialCharacter, open]);
+    }, [initialCharacter]);
 
+    // Ensure selected characters are valid
     useEffect(() => {
         if (
             !selectedCharacters.includes("all") &&
-            selectedCharacters.some((char) => !characters.includes(char))
+            selectedCharacters.some(
+                (char) => char !== "various" && !characters.includes(char),
+            )
         ) {
             setSelectedCharacters(["all"]);
         }
