@@ -7,6 +7,12 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import CharacterSelector from "@/components/view/fanart/CharacterSelector";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 
 interface FanartFiltersProps {
     selectedCharacters: string[];
@@ -16,9 +22,11 @@ interface FanartFiltersProps {
     chapters: number[];
     days: number[];
     nameMap: Record<string, string>;
+    inclusiveMode: boolean;
     onCharactersChange: (characters: string[]) => void;
     onChapterChange: (chapter: string) => void;
     onDayChange: (day: string) => void;
+    onInclusiveModeChange: (inclusive: boolean) => void;
     onReset: () => void;
     totalItems: number;
 }
@@ -31,9 +39,11 @@ const FanartFilters = ({
     chapters,
     days,
     nameMap,
+    inclusiveMode,
     onCharactersChange,
     onChapterChange,
     onDayChange,
+    onInclusiveModeChange,
     onReset,
     totalItems,
 }: FanartFiltersProps) => {
@@ -95,6 +105,51 @@ const FanartFilters = ({
                     onCharactersChange={onCharactersChange}
                     mobile={true}
                 />
+                {/* Mobile inclusive checkbox - below character selector */}
+                {selectedCharacters.includes("all") ||
+                selectedCharacters.includes("various") ? (
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <div className="flex items-center gap-2">
+                                <Checkbox
+                                    id="inclusive-mobile"
+                                    checked={inclusiveMode}
+                                    onCheckedChange={(checked) =>
+                                        onInclusiveModeChange(checked === true)
+                                    }
+                                    disabled={true}
+                                />
+                                <label
+                                    htmlFor="inclusive-mobile"
+                                    className="text-xs font-medium text-muted-foreground"
+                                >
+                                    Inclusive (require ALL selected characters)
+                                </label>
+                            </div>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            Can not turn on inclusive mode if "All" or "Various"
+                            is selected
+                        </TooltipContent>
+                    </Tooltip>
+                ) : (
+                    <div className="flex items-center gap-2">
+                        <Checkbox
+                            id="inclusive-mobile"
+                            checked={inclusiveMode}
+                            onCheckedChange={(checked) =>
+                                onInclusiveModeChange(checked === true)
+                            }
+                            disabled={false}
+                        />
+                        <label
+                            htmlFor="inclusive-mobile"
+                            className="text-xs font-medium text-muted-foreground"
+                        >
+                            Inclusive (require ALL selected characters)
+                        </label>
+                    </div>
+                )}
             </div>
 
             {/* Desktop layout */}
@@ -146,6 +201,52 @@ const FanartFilters = ({
                         </SelectContent>
                     </Select>
                 </div>
+
+                {/* Desktop inclusive checkbox - beside character selector */}
+                {selectedCharacters.includes("all") ||
+                selectedCharacters.includes("various") ? (
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <div className="flex items-center gap-2">
+                                <Checkbox
+                                    id="inclusive-desktop"
+                                    checked={inclusiveMode}
+                                    onCheckedChange={(checked) =>
+                                        onInclusiveModeChange(checked === true)
+                                    }
+                                    disabled={true}
+                                />
+                                <label
+                                    htmlFor="inclusive-desktop"
+                                    className="text-sm font-medium"
+                                >
+                                    Inclusive
+                                </label>
+                            </div>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            Can not turn on inclusive mode if "All" or "Various"
+                            is selected
+                        </TooltipContent>
+                    </Tooltip>
+                ) : (
+                    <div className="flex items-center gap-2">
+                        <Checkbox
+                            id="inclusive-desktop"
+                            checked={inclusiveMode}
+                            onCheckedChange={(checked) =>
+                                onInclusiveModeChange(checked === true)
+                            }
+                            disabled={false}
+                        />
+                        <label
+                            htmlFor="inclusive-desktop"
+                            className="text-sm font-medium"
+                        >
+                            Inclusive
+                        </label>
+                    </div>
+                )}
 
                 <Button variant="outline" size="sm" onClick={onReset}>
                     Reset Filters

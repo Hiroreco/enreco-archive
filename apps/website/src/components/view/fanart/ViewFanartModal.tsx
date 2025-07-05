@@ -65,6 +65,7 @@ const ViewFanartModal = ({
     >(null);
     const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
     const [columnCount, setColumnCount] = useState(3);
+    const [inclusiveMode, setInclusiveMode] = useState(false);
 
     const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(() => {
         if (typeof window !== "undefined") {
@@ -127,9 +128,14 @@ const ViewFanartModal = ({
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
             } else {
-                characterMatch = selectedCharacters.some((char) =>
-                    entry.characters.includes(char),
-                );
+                // Use every() for inclusive mode, some() for standard mode
+                characterMatch = inclusiveMode
+                    ? selectedCharacters.every((char) =>
+                          entry.characters.includes(char),
+                      )
+                    : selectedCharacters.some((char) =>
+                          entry.characters.includes(char),
+                      );
             }
 
             const chapterMatch =
@@ -139,7 +145,13 @@ const ViewFanartModal = ({
                 selectedDay === "all" || entry.day === parseInt(selectedDay);
             return characterMatch && chapterMatch && dayMatch;
         });
-    }, [selectedCharacters, selectedChapter, selectedDay, fanart]);
+    }, [
+        selectedCharacters,
+        selectedChapter,
+        selectedDay,
+        fanart,
+        inclusiveMode,
+    ]);
 
     const currentEntry = useMemo(
         () =>
@@ -154,6 +166,7 @@ const ViewFanartModal = ({
         setSelectedCharacters(["all"]);
         setSelectedChapter("all");
         setSelectedDay("all");
+        setInclusiveMode(false);
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -293,6 +306,15 @@ const ViewFanartModal = ({
     }, [selectedCharacters, characters]);
 
     useEffect(() => {
+        if (
+            selectedCharacters.includes("all") ||
+            selectedCharacters.includes("various")
+        ) {
+            setInclusiveMode(false);
+        }
+    }, [selectedCharacters]);
+
+    useEffect(() => {
         setSelectedDay(day.toString() || "all");
     }, [day]);
 
@@ -351,6 +373,8 @@ const ViewFanartModal = ({
                             onDayChange={setSelectedDay}
                             onReset={resetFilters}
                             totalItems={filteredFanart.length}
+                            inclusiveMode={inclusiveMode}
+                            onInclusiveModeChange={setInclusiveMode}
                         />
                     </CollapsibleHeader>
 
