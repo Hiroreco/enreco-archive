@@ -14,4 +14,4 @@ While this was the end of Gonathon’s interactions with Liz for the day, it was
 
 ## Fanart
 
-["My knight's armor- harm- arm- knight's honor! And my armor..." by floomf](https://x.com/fluumf/status/1920463783882891312)
+["My knight's armor- harm- knight's honor!" by floomf](https://x.com/fluumf/status/1920463783882891312)

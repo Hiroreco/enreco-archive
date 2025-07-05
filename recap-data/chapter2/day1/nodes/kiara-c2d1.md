@@ -31,3 +31,5 @@ A knight's and hero's work is never done, especially as the deadline looms. Tire
 ## Fanart
 
 ["CHEF" by XU CW](https://x.com/2H2xO2is2H2O/status/1921125232099651645)
+
+<!-- calli -->

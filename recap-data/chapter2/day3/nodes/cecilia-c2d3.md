@@ -33,3 +33,5 @@ After a moment to clear her thoughts and a quick discussion with the princess wh
 ## Fanart
 
 [Your feelings come from the best place by Mittsu](https://x.com/MittsumiA/status/1919718476379521404)
+
+<!-- gigi -->

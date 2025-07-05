@@ -33,3 +33,5 @@ Shiori closed out her day by journaling everything: her hopes, her heartbreak, a
 ["What a tragedy" by Haaro](https://x.com/haaro_69/status/1920182731260244067)
 
 ["nyavella has (had) a soft spot" by Noise](https://x.com/lestkrr/status/1922733970778648735)
+
+<!-- liz, kiara -->

@@ -26,6 +26,8 @@ The end of the day saw one of the most unexpected twists, with Gonathon falling 
 
 [The Humble Knight's Happiness by Blaparky](https://x.com/blaparky/status/1919657314384282081)
 
+<!-- shiori -->
+
 [... (The World Tree) by Edialex](https://x.com/Ediialex/status/1919243257499853211)
 
 ["The World Tree" by Jowo](https://x.com/seekorplatypus/status/1919368149411176695)

@@ -33,6 +33,8 @@ After a long first day, Immerkind returns to the artist Pygmalion and marvels at
 
 [Revelation by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
 
-[The Princess is Kind, by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+[The Princess is Kind by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+
+<!-- iphania -->
 
 [Cecilia by SEBU](https://x.com/SEBU_illust/status/1899563774933340404)

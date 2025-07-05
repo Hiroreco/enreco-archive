@@ -34,4 +34,8 @@ Honestly, what even was this storyline supposed to be?
 
 ["Bad gas :D" by BunBBun](https://x.com/BunBBun1/status/1920775872061018370)
 
+<!-- bijou -->
+
 ["The Queen, the Knight, and the Goddess" by Akkanen](https://x.com/__akkanen/status/1921223443321655710)
+
+<!-- gigi -->

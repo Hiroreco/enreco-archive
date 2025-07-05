@@ -27,3 +27,5 @@ Excellent. A perfect target for her claws to unleash fury upon, just like old ti
 ## Fanart
 
 ["CONGRATS! IT'S ~~A GIRL~~ DEAD" by iry](https://x.com/iryry_a/status/1921139006986678434)
+
+<!-- bijou, shiori, bae -->

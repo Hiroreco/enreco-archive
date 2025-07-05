@@ -15,3 +15,5 @@ All things considered, NinoIna was really privileged in how she was living her l
 ## Fanart
 
 ["potato" by m-pien](https://x.com/mpien6/status/1920134834791600586)
+
+<!-- kronii, bijou, kiara, gigi ,shiori -->

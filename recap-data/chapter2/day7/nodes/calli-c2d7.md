@@ -39,3 +39,5 @@ With that out of the way, it was time to get some rest before the big auction to
 ## Fanart
 
 ["Have you tried murder, bro?" by NP_Mango](https://x.com/NP_Mango/status/1921382634040533389)
+
+<!-- kronii -->

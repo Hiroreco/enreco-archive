@@ -127,7 +127,7 @@ const ViewFanartModal = ({
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
             } else {
-                characterMatch = selectedCharacters.every((char) =>
+                characterMatch = selectedCharacters.some((char) =>
                     entry.characters.includes(char),
                 );
             }

@@ -95,3 +95,5 @@ If a witch is fated to be a witch... Then a witch she shall be.
 ## Fanart
 
 ["Even a rose can cut when all that's left are thorns." by Keisea](https://x.com/Keiseeaaa/status/1924575131592228995)
+
+<!-- nerissa -->

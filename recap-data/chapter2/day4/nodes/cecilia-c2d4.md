@@ -26,8 +26,10 @@ Upon writing one more letter to Iphania and Gonathon, she retires for the night.
 
 ## Fanart
 
-[Her Princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)
-
 [To new beginnings by Floomf](https://x.com/fluumf/status/1919736845048676373)
 
+<!-- kronii -->
+
 [MATH? by Roronico](https://x.com/roronico1512/status/1919844587000234488)
+
+<!-- gigi, kiara, calli -->

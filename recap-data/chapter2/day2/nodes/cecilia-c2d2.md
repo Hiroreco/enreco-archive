@@ -16,6 +16,8 @@ After sobering up with Nerissa's water and discussions with Iphania and Fia, the
 
 ### Fanart
 
-[Soul (Stream thumbnail) by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)
+[Soul by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)
 
 [Her princess by Zeya](https://x.com/NOminishki/status/1919330292319277410)
+
+<!-- iphania -->

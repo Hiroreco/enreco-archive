@@ -26,4 +26,6 @@ Now, a new goal stood before her: make the upcoming picnic party the best it cou
 
 ["Libestal's Young Chef (Part 2)" by Dreamplanes](https://x.com/Dreamplanes256/status/1922931113174917132)
 
+<!-- shiori -->
+
 ["the fluffy ones journey" by Tai](https://x.com/tchailune/status/1921440727466217479)

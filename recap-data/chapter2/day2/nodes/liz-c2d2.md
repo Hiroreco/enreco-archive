@@ -25,3 +25,5 @@ Toward the end of the day, she joined Kiara and Shiori to explore the Stronghold
 ## Fanart
 
 ["Evil voice" by underdatv](https://x.com/underdatv/status/1919463544581718116)
+
+<!-- bijou, raora, ina, irys, cecilia -->

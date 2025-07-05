@@ -99,7 +99,8 @@
     "chapter": 0,
     "day": 0,
     "characters": [
-      "gura"
+      "gura",
+      "kiara"
     ]
   },
   {
@@ -119,7 +120,9 @@
     "chapter": 0,
     "day": 0,
     "characters": [
-      "gura"
+      "gura",
+      "fauna",
+      "cecilia"
     ]
   },
   {
@@ -209,7 +212,9 @@
     "chapter": 0,
     "day": 0,
     "characters": [
-      "moom"
+      "moom",
+      "bijou",
+      "ame"
     ]
   },
   {
@@ -407,7 +412,10 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "gura",
+      "fauna",
+      "moom"
     ]
   },
   {
@@ -417,7 +425,10 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "gura",
+      "fauna",
+      "moom"
     ]
   },
   {
@@ -427,7 +438,9 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "gura",
+      "fauna"
     ]
   },
   {
@@ -457,7 +470,9 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "gura"
+      "gura",
+      "fauna",
+      "moom"
     ]
   },
   {
@@ -477,7 +492,8 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "kiara"
+      "kiara",
+      "calli"
     ]
   },
   {
@@ -507,7 +523,9 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "raora"
+      "raora",
+      "fuwawa",
+      "mococo"
     ]
   },
   {
@@ -594,7 +612,13 @@
     "chapter": 0,
     "day": 2,
     "characters": [
-      "gigi"
+      "gigi",
+      "ame",
+      "raora",
+      "irys",
+      "ina",
+      "bijou",
+      "kronii"
     ]
   },
   {
@@ -614,7 +638,9 @@
     "chapter": 0,
     "day": 2,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa",
+      "irys"
     ]
   },
   {
@@ -624,7 +650,8 @@
     "chapter": 0,
     "day": 2,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ]
   },
   {
@@ -650,7 +677,8 @@
     "day": 3,
     "characters": [
       "gigi",
-      "gura"
+      "gura",
+      "ame"
     ]
   },
   {
@@ -672,7 +700,8 @@
     "day": 3,
     "characters": [
       "liz",
-      "nerissa"
+      "nerissa",
+      "gigi"
     ]
   },
   {
@@ -694,7 +723,9 @@
     "day": 3,
     "characters": [
       "liz",
-      "nerissa"
+      "nerissa",
+      "ame",
+      "gigi"
     ]
   },
   {
@@ -705,7 +736,8 @@
     "day": 3,
     "characters": [
       "mococo",
-      "nerissa"
+      "nerissa",
+      "liz"
     ]
   },
   {
@@ -715,7 +747,10 @@
     "chapter": 0,
     "day": 3,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "bijou",
+      "mococo",
+      "raora"
     ]
   },
   {
@@ -745,7 +780,11 @@
     "chapter": 0,
     "day": 3,
     "characters": [
-      "mococo"
+      "mococo",
+      "raora",
+      "nerissa",
+      "gigi",
+      "fuwawa"
     ]
   },
   {
@@ -797,7 +836,8 @@
     "chapter": 0,
     "day": 4,
     "characters": [
-      "gigi"
+      "gigi",
+      "ame"
     ]
   },
   {
@@ -852,7 +892,11 @@
     "day": 5,
     "characters": [
       "gigi",
-      "ame"
+      "ame",
+      "calli",
+      "gura",
+      "ina",
+      "kiara"
     ]
   },
   {
@@ -928,7 +972,10 @@
     "chapter": 0,
     "day": 5,
     "characters": [
-      "gigi"
+      "gigi",
+      "ina",
+      "calli",
+      "kiara"
     ]
   },
   {
@@ -938,7 +985,8 @@
     "chapter": 0,
     "day": 5,
     "characters": [
-      "gigi"
+      "gigi",
+      "kronii"
     ]
   },
   {
@@ -948,7 +996,9 @@
     "chapter": 0,
     "day": 5,
     "characters": [
-      "liz"
+      "liz",
+      "ame",
+      "gigi"
     ]
   },
   {
@@ -1000,7 +1050,10 @@
     "chapter": 0,
     "day": 6,
     "characters": [
-      "gigi"
+      "gigi",
+      "raora",
+      "ame",
+      "liz"
     ]
   },
   {
@@ -1020,7 +1073,8 @@
     "chapter": 0,
     "day": 6,
     "characters": [
-      "gigi"
+      "gigi",
+      "bijou"
     ]
   },
   {
@@ -1040,7 +1094,8 @@
     "chapter": 0,
     "day": 6,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ]
   },
   {
@@ -1081,7 +1136,8 @@
     "day": 7,
     "characters": [
       "ame",
-      "irys"
+      "irys",
+      "gigi"
     ]
   },
   {
@@ -1092,7 +1148,10 @@
     "day": 7,
     "characters": [
       "bae",
-      "irys"
+      "irys",
+      "shiori",
+      "bijou",
+      "ina"
     ]
   },
   {
@@ -1114,7 +1173,25 @@
     "day": 7,
     "characters": [
       "bijou",
-      "ina"
+      "ina",
+      "raora"
+    ]
+  },
+  {
+    "url": "https://x.com/lordjoeboto/status/1834514267736822065",
+    "label": "\"One duel to decide their fate\"",
+    "author": "lordjoeboto",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "bijou",
+      "ina",
+      "raora",
+      "irys",
+      "nerissa",
+      "calli",
+      "fuwawa",
+      "mococo"
     ]
   },
   {
@@ -1235,7 +1312,8 @@
     "day": 7,
     "characters": [
       "liz",
-      "nerissa"
+      "nerissa",
+      "bijou"
     ]
   },
   {
@@ -1246,7 +1324,8 @@
     "day": 7,
     "characters": [
       "mococo",
-      "liz"
+      "liz",
+      "fuwawa"
     ]
   },
   {
@@ -1419,7 +1498,8 @@
     "chapter": 0,
     "day": 7,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ]
   },
   {
@@ -1429,7 +1509,8 @@
     "chapter": 0,
     "day": 7,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ]
   },
   {
@@ -1622,12 +1703,13 @@
   },
   {
     "url": "https://x.com/standingplace12/status/1918991950818021419",
-    "label": "The Princess is Kind,",
+    "label": "The Princess is Kind",
     "author": "standingplace12",
     "chapter": 1,
     "day": 0,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "iphania"
     ]
   },
   {
@@ -1647,7 +1729,8 @@
     "chapter": 1,
     "day": 0,
     "characters": [
-      "fuwawa"
+      "fuwawa",
+      "mococo"
     ]
   },
   {
@@ -1717,7 +1800,8 @@
     "chapter": 1,
     "day": 0,
     "characters": [
-      "kiara"
+      "kiara",
+      "calli"
     ]
   },
   {
@@ -1822,7 +1906,7 @@
   },
   {
     "url": "https://x.com/okunashi27/status/1900088484695818505",
-    "label": "Untitled",
+    "label": "\"Nerissa\"",
     "author": "okunashi27",
     "chapter": 1,
     "day": 0,
@@ -1928,7 +2012,8 @@
     "day": 1,
     "characters": [
       "cecilia",
-      "irys"
+      "irys",
+      "raora"
     ]
   },
   {
@@ -1986,7 +2071,7 @@
   },
   {
     "url": "https://x.com/nellepoof/status/1896555698835841279",
-    "label": "Soul (Stream thumbnail)",
+    "label": "Soul",
     "author": "nellepoof",
     "chapter": 1,
     "day": 1,
@@ -2001,7 +2086,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "iphania"
     ]
   },
   {
@@ -2041,7 +2127,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "irys"
+      "irys",
+      "ina"
     ]
   },
   {
@@ -2061,7 +2148,12 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "liz"
+      "liz",
+      "bijou",
+      "raora",
+      "ina",
+      "irys",
+      "cecilia"
     ]
   },
   {
@@ -2071,7 +2163,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ]
   },
   {
@@ -2111,7 +2204,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "shiori"
+      "shiori",
+      "liz"
     ]
   },
   {
@@ -2279,16 +2373,6 @@
     ]
   },
   {
-    "url": "https://x.com/thatcello/status/1921233137280880850",
-    "label": "\"Join the Sandwich\"",
-    "author": "thatcello",
-    "chapter": 1,
-    "day": 2,
-    "characters": [
-      "bae"
-    ]
-  },
-  {
     "url": "https://x.com/__akkanen/status/1919051593619755126",
     "label": "\"Modan Ramsey\"",
     "author": "__akkanen",
@@ -2305,7 +2389,8 @@
     "chapter": 1,
     "day": 2,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "gigi"
     ]
   },
   {
@@ -2315,7 +2400,8 @@
     "chapter": 1,
     "day": 2,
     "characters": [
-      "gigi"
+      "gigi",
+      "shiori"
     ]
   },
   {
@@ -2375,7 +2461,8 @@
     "chapter": 1,
     "day": 2,
     "characters": [
-      "nerissa"
+      "nerissa",
+      "kronii"
     ]
   },
   {
@@ -2385,7 +2472,8 @@
     "chapter": 1,
     "day": 2,
     "characters": [
-      "nerissa"
+      "nerissa",
+      "liz"
     ]
   },
   {
@@ -2484,7 +2572,8 @@
     "day": 3,
     "characters": [
       "kronii",
-      "gigi"
+      "gigi",
+      "shiori"
     ]
   },
   {
@@ -2495,7 +2584,8 @@
     "day": 3,
     "characters": [
       "kronii",
-      "gigi"
+      "gigi",
+      "shiori"
     ]
   },
   {
@@ -2538,7 +2628,8 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "calli"
+      "calli",
+      "shiori"
     ]
   },
   {
@@ -2548,7 +2639,8 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "kronii"
     ]
   },
   {
@@ -2558,7 +2650,10 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "gigi",
+      "kiara",
+      "calli"
     ]
   },
   {
@@ -2568,7 +2663,8 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "fuwawa"
+      "fuwawa",
+      "kiara"
     ]
   },
   {
@@ -2588,7 +2684,12 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "ina"
+      "ina",
+      "kronii",
+      "bijou",
+      "kiara",
+      "gigi",
+      "shiori"
     ]
   },
   {
@@ -2618,7 +2719,14 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "mococo"
+      "mococo",
+      "gigi",
+      "bijou",
+      "kronii",
+      "irys",
+      "kiara",
+      "bae",
+      "calli"
     ]
   },
   {
@@ -2638,7 +2746,9 @@
     "chapter": 1,
     "day": 3,
     "characters": [
-      "shiori"
+      "shiori",
+      "liz",
+      "kiara"
     ]
   },
   {
@@ -2660,7 +2770,8 @@
     "day": 4,
     "characters": [
       "irys",
-      "kronii"
+      "kronii",
+      "bijou"
     ]
   },
   {
@@ -2671,7 +2782,8 @@
     "day": 4,
     "characters": [
       "irys",
-      "kronii"
+      "kronii",
+      "gigi"
     ]
   },
   {
@@ -2693,12 +2805,13 @@
     "day": 4,
     "characters": [
       "kronii",
-      "raora"
+      "raora",
+      "irys"
     ]
   },
   {
     "url": "https://x.com/fluumf/status/1920463783882891312",
-    "label": "\"My knight's armor- harm- arm- knight's honor! And my armor...\"",
+    "label": "\"My knight's armor- harm- knight's honor!\"",
     "author": "fluumf",
     "chapter": 1,
     "day": 4,
@@ -2767,7 +2880,10 @@
     "chapter": 1,
     "day": 4,
     "characters": [
-      "kiara"
+      "kiara",
+      "raora",
+      "gigi",
+      "calli"
     ]
   },
   {
@@ -2866,7 +2982,8 @@
     "day": 5,
     "characters": [
       "kronii",
-      "gigi"
+      "gigi",
+      "cecilia"
     ]
   },
   {
@@ -2877,7 +2994,8 @@
     "day": 5,
     "characters": [
       "kronii",
-      "gigi"
+      "gigi",
+      "cecilia"
     ]
   },
   {
@@ -2953,7 +3071,8 @@
     "chapter": 1,
     "day": 5,
     "characters": [
-      "fuwawa"
+      "fuwawa",
+      "shiori"
     ]
   },
   {
@@ -2983,7 +3102,9 @@
     "chapter": 1,
     "day": 5,
     "characters": [
-      "kronii"
+      "kronii",
+      "shiori",
+      "bijou"
     ]
   },
   {
@@ -3034,7 +3155,8 @@
     "day": 6,
     "characters": [
       "bae",
-      "gigi"
+      "gigi",
+      "cecilia"
     ]
   },
   {
@@ -3100,7 +3222,8 @@
     "day": 6,
     "characters": [
       "kronii",
-      "ina"
+      "ina",
+      "irys"
     ]
   },
   {
@@ -3122,7 +3245,13 @@
     "day": 6,
     "characters": [
       "raora",
-      "kiara"
+      "kiara",
+      "bijou",
+      "shiori",
+      "cecilia",
+      "ina",
+      "liz",
+      "calli"
     ]
   },
   {
@@ -3132,7 +3261,8 @@
     "chapter": 1,
     "day": 6,
     "characters": [
-      "calli"
+      "calli",
+      "kronii"
     ]
   },
   {
@@ -3142,7 +3272,8 @@
     "chapter": 1,
     "day": 6,
     "characters": [
-      "liz"
+      "liz",
+      "nerissa"
     ]
   },
   {
@@ -3152,7 +3283,10 @@
     "chapter": 1,
     "day": 6,
     "characters": [
-      "mococo"
+      "mococo",
+      "bijou",
+      "shiori",
+      "bae"
     ]
   },
   {
@@ -3222,7 +3356,9 @@
     "chapter": 1,
     "day": 6,
     "characters": [
-      "raora"
+      "raora",
+      "nerissa",
+      "liz"
     ]
   },
   {
@@ -3232,7 +3368,8 @@
     "chapter": 1,
     "day": 6,
     "characters": [
-      "shiori"
+      "shiori",
+      "gigi"
     ]
   },
   {
@@ -3242,7 +3379,8 @@
     "chapter": 1,
     "day": 6,
     "characters": [
-      "shiori"
+      "shiori",
+      "gigi"
     ]
   },
   {
@@ -3312,7 +3450,8 @@
     "chapter": 1,
     "day": 7,
     "characters": [
-      "calli"
+      "calli",
+      "liz"
     ]
   },
   {
@@ -3322,7 +3461,8 @@
     "chapter": 1,
     "day": 7,
     "characters": [
-      "cecilia"
+      "cecilia",
+      "iphania"
     ]
   },
   {
@@ -3347,7 +3487,7 @@
   },
   {
     "url": "https://x.com/brasileiroo0/status/1923024077683347585",
-    "label": "Untitled",
+    "label": "\"Nerissa\"",
     "author": "brasileiroo0",
     "chapter": 1,
     "day": 7,
@@ -3372,7 +3512,8 @@
     "chapter": 1,
     "day": 7,
     "characters": [
-      "nerissa"
+      "nerissa",
+      "shiori"
     ]
   },
   {

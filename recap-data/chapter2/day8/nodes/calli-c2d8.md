@@ -37,3 +37,5 @@ As fireworks lit up the twilight sky, the banquet had begun—but sadly, even la
 ## Fanart
 
 ["Passing the Torch" by luce](https://x.com/lucesamaaa/status/1927770964688802240)
+
+<!-- liz -->

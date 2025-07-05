@@ -37,3 +37,5 @@ Today was a calmer day, and perhaps tomorrow would be a nice day off.
 ## Fanart
 
 ["2 wolves, 1 big cat and a leader" by Roronico](https://x.com/roronico1512/status/1920392409898168688)
+
+<!-- raora, gigi, calli -->

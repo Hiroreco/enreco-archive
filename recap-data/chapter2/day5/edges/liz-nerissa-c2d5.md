@@ -87,9 +87,6 @@ And wait until her heart shows through.
 A love like ours, strange and sublime—
 It hurts. It heals. It takes its time.
 
-_(writer's note: Nerissa, girl, why are you like this she was just chillin)_
-_(writer's note 2: this took me over an hour I hope you're happy Nerissa (affectionate))_
-
 ## Fanart
 
 ["Duel Reward" by Nurizza](https://x.com/nurizza_ilst/status/1922690872854065611)

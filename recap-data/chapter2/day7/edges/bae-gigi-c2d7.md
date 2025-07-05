@@ -25,3 +25,5 @@ It is curious how the memories of Hot Pink One and Tam invoked a feeling of reve
 ## Fanart
 
 ["The weight of a knight's tears" by daiya](https://x.com/daiyaekaku/status/1923920501631578438)
+
+<!-- cecilia -->

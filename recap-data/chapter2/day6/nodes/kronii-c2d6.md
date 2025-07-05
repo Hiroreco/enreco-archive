@@ -50,4 +50,8 @@ The situation grew even more bizarre for the Queen and her Humble Knight when Sh
 
 With that, the Queen retired for the day and went to her perfect slumber once again.
 
+## Fanart
+
 ["A peaceful day indeed..." by seapupu](https://x.com/seapupu290495/status/1920852715703320626)
+
+<!-- shiori, bijou -->

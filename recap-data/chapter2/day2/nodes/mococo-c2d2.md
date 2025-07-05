@@ -17,3 +17,5 @@ So, with so many pleasant encounters throughout the day, it made perfect sense t
 ## Fanart
 
 ["Day 2" by fukuinu](https://x.com/fukuinu_daddy/status/1919258061119672376)
+
+<!-- fuwawa -->

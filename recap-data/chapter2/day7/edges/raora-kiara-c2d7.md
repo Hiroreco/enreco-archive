@@ -23,3 +23,5 @@ An impromptu wedding ceremony was arranged! Everyone, from all over the kingdom,
 ## Fanart
 
 ["The Cat Woman and her Cat" by Roronico](https://x.com/roronico1512/status/1936422814145458405)
+
+<!-- bijou, shiori, cecilia, ina, liz, calli -->
