@@ -15,3 +15,5 @@ After cooling off, Raora joined Shakira in revisiting the first dungeon to uncov
 ## Fanart
 
 ["Mamma raora" by Qui](https://x.com/yuq_ui/status/1831786877688651973)
+
+<!-- fuwawa, mococo -->

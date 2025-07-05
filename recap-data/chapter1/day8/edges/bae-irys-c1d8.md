@@ -21,3 +21,5 @@ At first, Bae wanted nothing to do with her. But after enduring enough, she deci
 ## Fanart
 
 ["The Hot Pink One strikes again by Miku](https://x.com/Mikururun/status/1915083922976678195)
+
+<!-- shiori, bijou, ina -->

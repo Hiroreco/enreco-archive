@@ -23,3 +23,5 @@ Somewhere along the way, though, an odd camaraderie formed between the unlikely 
 ## Fanart
 
 ["Pearl..." by aWoooFa](https://x.com/Awooofa/status/1831403586494017956)
+
+<!-- ame -->

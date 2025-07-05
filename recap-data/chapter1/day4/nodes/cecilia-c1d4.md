@@ -13,3 +13,5 @@ If the already questionable crackhead theories about the kingdom weren’t enoug
 ## Fanart
 
 ["The Knight Chooses Her Ruler" by BlaParky](https://x.com/BlaParky/status/1831222642730516798)
+
+<!-- bijou, mococo, raora -->

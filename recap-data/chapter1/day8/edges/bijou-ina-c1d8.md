@@ -21,4 +21,8 @@ Ina was overjoyed.
 
 ["You were never alone" by m-pien](https://x.com/mpien6/status/1832812067478446477)
 
-["One duel to decide their fate" by Mr.Joeboto](https://x.com/LordJoeboto/status/1833057528063668313/)
+<!-- raora -->
+
+["One duel to decide their fate" by Mr.Joeboto](https://x.com/LordJoeboto/status/1834514267736822065)
+
+<!-- raora, irys, nerissa, calli, fuwawa, mococo -->

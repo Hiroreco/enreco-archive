@@ -21,3 +21,5 @@ Pride and happiness filled his heart, but alongside these emotions came a creepi
 ## Fanart
 
 ["mayhaps i am no longer the path she wishes" by bungle](https://x.com/bbbbungle/status/1831862192855228538)
+
+<!-- ame -->

@@ -23,3 +23,5 @@ It was about following her heart. It was about fighting—not just for justice, 
 ## Fanart
 
 ["A knight fights for more than a king" by Alma](https://x.com/A1ma3ru/status/1832977664514179283)
+
+<!-- fuwawa -->

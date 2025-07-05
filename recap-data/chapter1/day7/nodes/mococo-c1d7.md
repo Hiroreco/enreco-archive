@@ -32,4 +32,6 @@ To ensure their safety, Mococo built a small shelter for the two of them to hide
 
 ["Today's FUWAMOCO](https://x.com/fukuinu_daddy/status/1832281930748064239)
 
+<!-- fuwawa -->
+
 ["THE CHICKENS ARE TASTY." by DankWave](https://x.com/The_DankWave/status/1834198780335587359)

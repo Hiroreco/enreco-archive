@@ -25,3 +25,5 @@ As the day came to an end, Elizabeth reflected on what felt like a lighthearted 
 ## Fanart
 
 ["An unfortunate curse" by Mr.Joeboto](https://x.com/LordJoeboto/status/1833057528063668313/)
+
+<!-- ame, gigi -->

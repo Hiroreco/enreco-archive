@@ -48,6 +48,8 @@ At one point, Amelia remembered a diamond, but it was still too foggy. Her head 
 
 ["Welcome back, Myth" by nekotj](https://x.com/NekoNyanTJ/status/1832093407843672251)
 
+<!-- calli, gura, ina, kiara -->
+
 ["And you are...?" by wishbone777](https://x.com/wishbone777/status/1832198108052382174)
 
 ["On the way to a Smile" by advarcher](https://x.com/Anonamos_701/status/1832193120387395757)

@@ -30,6 +30,4 @@ But then she saw Kiara, absolutely glowing with excitement about her upcoming to
 
 ["Maybe if I die with a knight's honor, I may see her again" by Keisea](https://x.com/Keiseeaaa/status/1832145708394410335)
 
-["i will be a better knight for you, lady ravencroft" by mitchie](https://x.com/pappikapon/status/1832185189864239450)
-
 ["Diametrically Opposed" by Eli](https://x.com/elisbian_/status/1866736410826576342)

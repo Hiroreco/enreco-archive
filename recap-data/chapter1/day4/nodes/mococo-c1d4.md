@@ -12,4 +12,6 @@ Despite her money-driven fervor, Mococo still found time for adventuring. Later 
 
 ["Where's the adventure?" by fukuinu](https://x.com/fukuinu_daddy/status/1831679967299817739)
 
+<!-- raora, nerissa, gigi, fuwawa -->
+
 ["Lava" by fukuinu](https://x.com/fukuinu_daddy/status/1830139314807980512)

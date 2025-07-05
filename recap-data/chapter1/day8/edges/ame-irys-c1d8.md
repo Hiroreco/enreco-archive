@@ -31,3 +31,5 @@ Caught red-handed and with no way out, the Pink One was left frantically apologi
 ## Fanart
 
 ["GRIF- HOT PINK ONE!!!" by Miru](https://x.com/Kizuru09/status/1832752231696752933)
+
+<!-- gigi -->

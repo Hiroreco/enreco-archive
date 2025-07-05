@@ -38,4 +38,6 @@ Their adventure continued at the tavern, where they celebrated with Gura’s new
 
 ["the council will decide your fate" by Miku](https://x.com/Mikururun/status/1830701638472081531)
 
+<!-- fauna, moom -->
+
 ["Come, I don't wawnt to destroy this place" by Daaku](https://x.com/koizumi_arata/status/1831100215668908440)

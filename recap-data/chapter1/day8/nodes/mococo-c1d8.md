@@ -26,4 +26,8 @@ After the final battle, Mococo and her companions uncovered the truth about the 
 
 ["Mococo the stained" by tenka](https://x.com/doutenka/status/1833441767578071067)
 
+<!-- fuwawa -->
+
 ["Chickens" by Wugedou](https://x.com/wugedou579/status/1832787089068638641)
+
+<!-- fuwawa -->

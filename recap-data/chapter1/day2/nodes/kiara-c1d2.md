@@ -31,3 +31,5 @@ As the day drew to a close, Shakira, joined by Liz and Raora, ventured back into
 ## Fanart
 
 ["Disc" by Hina](https://x.com/HYurisaki/status/1904203019035824337)
+
+<!-- calli -->

@@ -38,6 +38,10 @@ For Elizabeth, the day ended in despair, but a small part of her still clung to 
 
 ["The devil whispers, and another suffers." by Akkanen](https://x.com/__akkanen/status/1831732785029288447)
 
+<!-- gigi -->
+
 ["friendly conversation" by Eli](https://x.com/Elisbian_/status/1843360679111340534)
 
 ["too bad you're a witch" by Mr. Joeboto](https://x.com/LordJoeboto/status/1833057528063668313)
+
+<!-- ame, gigi -->
