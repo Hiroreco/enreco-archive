@@ -1,7 +1,7 @@
 <!-- title: Stronghold of Ruin -->
 <!-- quote: If Iphania trusts you, perhaps you stand a chance -->
 <!-- chapters: 1 -->
-<!-- images: (Stronghold of Ruin Overview #1), (Stronghold of Ruin Overview #2), (Stronghold of Ruin Overview #3) -->
+<!-- images: (Stronghold of Ruin Overview #1), (Stronghold of Ruin Overview #2), (Stronghold of Ruin Overview #3), (Dungeon Boss: Stain King Proto) -->
 <!-- model: false -->
 
 ## Overview
@@ -55,3 +55,4 @@ The arena was surrounded by four more black roses, one in each corner, each prot
 ## Sources
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1920399135754367072/photo/1)
+- Boss Design - [Asmodeus](#out:https://www.youtube.com/watch?v=7DoxNoIma18&feature=youtu.be)

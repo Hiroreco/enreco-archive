@@ -1,7 +1,7 @@
 <!-- title: Star Site: Chaos -->
 <!-- quote: Just ask me anything and I'll make it happen! -->
 <!-- chapters: 1 -->
-<!-- images: (Star Site: Chaos Overview #1), (Star Site: Chaos Overview #2), (Star Site: Chaos Concept Art), (Star Sites: Chaos Effect Icon) -->
+<!-- images: (Star Site: Chaos Overview #1), (Star Site: Chaos Overview #2), (Star Site: Chaos Concept Art), (Star Sites: Chaos Icon), (Dungeon Boss: Stain King Chaos) -->
 <!-- model: false -->
 
 ## Overview
@@ -50,3 +50,4 @@ At the end, players face the true boss: **Stain King Chaos**, a battle riddled w
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1921298173123076248)
 - Concept Art - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1922200389815882127/photo/1)
+- Boss Design - [Asmodeus](#out:https://www.youtube.com/watch?v=jEPAk0PdIjc&feature=youtu.be)

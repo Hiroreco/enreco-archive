@@ -258,9 +258,20 @@ function ViewMarkdownInternal({
             },
             a(props) {
                 const { href, children } = props;
-                // Empty href is an easy to retain the correct cursor.
-
-                if (href && href.startsWith("#node:")) {
+                // Still need #out in case wew want to redirect to youtube links
+                if (href && href.startsWith("#out:")) {
+                    const outHref = href.replace("#out:", "");
+                    return (
+                        <a
+                            href={outHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-[#6f6ac6]"
+                        >
+                            {children}
+                        </a>
+                    );
+                } else if (href && href.startsWith("#node:")) {
                     const nodeId = href.replace("#node:", "");
                     return (
                         <NodeLink

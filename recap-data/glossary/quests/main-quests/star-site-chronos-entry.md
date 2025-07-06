@@ -1,7 +1,7 @@
 <!-- title: Star Site: Chronos -->
 <!-- quote: When abnormalities arise, it falls to me to correct them. -->
 <!-- chapters: 1 -->
-<!-- images: (Star Site: Chronos Overview #1), (Star Site: Chronos Overview #2), (Star Site: Chronos Overview #3), (Star Site: Chronos Concept Art), (Star Site: Chronos Effect Icon) -->
+<!-- images: (Star Site: Chronos Overview #1), (Star Site: Chronos Overview #2), (Star Site: Chronos Overview #3), (Star Site: Chronos Concept Art), (Star Site: Chronos Icon), (Dungeon Boss: Stain King Chronos) -->
 <!-- model: false -->
 
 ## Overview
@@ -67,3 +67,4 @@ Chronos can also rewind its own health bar, healing back damage taken, forcing p
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1920402035117338696/photo/1)
 - Concept Art - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1921475614206505098/photo/1)
+- Boss Design - [Asmodeus](#out:https://www.youtube.com/watch?v=x4kTmNXDCXQ&feature=youtu.be)

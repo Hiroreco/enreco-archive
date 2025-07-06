@@ -1,7 +1,7 @@
 <!-- title: Star Site: Elpis -->
 <!-- quote: Your one true idol, now sit back and enjoy the show! -->
 <!-- chapters: 1 -->
-<!-- images: (Star Site: Elpis Overview #1), (Star Site: Elpis Overview #2), (Star Site: Elpis Overview #3), (Star Site: Elpis Overview #4), (Star Site: Elpis Effect Icon) -->
+<!-- images: (Star Site: Elpis Overview #1), (Star Site: Elpis Overview #2), (Star Site: Elpis Overview #3), (Star Site: Elpis Overview #4), (Star Site: Elpis Icon), (Dungeon Boss: Stain King Elpis) -->
 <!-- model: false -->
 
 ## Overview
@@ -50,3 +50,4 @@ After completing the final puzzle, both teams reunite to face the dungeon boss: 
 ## Sources
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1919701535896043963/photo/1)
+- Boss Design - [Asmodeus](#out:https://www.youtube.com/watch?v=o3-fzH3MgfE&feature=youtu.be)

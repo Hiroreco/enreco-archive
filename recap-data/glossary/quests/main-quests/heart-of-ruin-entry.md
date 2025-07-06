@@ -1,7 +1,7 @@
 <!-- title: Heart of Ruin -->
 <!-- quote: They brought this upon themselves—Nothing stays pure -->
 <!-- chapters: 1 -->
-<!-- images: (Heart of Ruin Overview #1), (Heart of Ruin Overview #2), (Heart of Ruin Overview #3), (Heart of Ruin Concept Art #1), (Heart of Ruin Concept Art #2), (Heart of Ruin Concept Art #3) -->
+<!-- images: (Heart of Ruin Overview #1), (Heart of Ruin Overview #2), (Heart of Ruin Overview #3), (Heart of Ruin Concept Art #1), (Heart of Ruin Concept Art #2), (Heart of Ruin Concept Art #3), (Dungeon Boss: The Curse) -->
 <!-- model: false -->
 
 ## Overview
@@ -54,3 +54,4 @@ This chapter had closed, but the story was far from over.
 
 - World Builder - [tskai_xx](https://x.com/tskai_xx/status/1921298594185036164/photo/1)
 - Concept Art - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1921068336151957890)
+- Boss Design - [Asmodeus](#out:https://www.youtube.com/watch?v=wMbXr2nLMeU)
