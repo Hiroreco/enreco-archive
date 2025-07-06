@@ -6,7 +6,7 @@
 
 ## Overview
 
-Iphania—now known as Fia—was once the Princess of Ancient Libestal, and now serves as the Librarian of [the Library](#entry:library-entry), the timeless sanctuary that lies beyond space and time. It was she who rescued the heroes from the destruction of the [fabricated world](#entry:libestal-ficta-entry), pulling them into the past not only to save their lives, but to ask a favor: to help her prevent [the Outsider](#entry:outsider-entry) from ever coming into existence.
+Iphania—now known as Fia—was once the Princess of Ancient Libestal, and now serves as the keeper of [the Library](#entry:library-entry), the timeless sanctuary that lies beyond space and time. It was she who rescued the heroes from the destruction of the [fabricated world](#entry:libestal-ficta-entry), pulling them into the past not only to save their lives, but to ask a favor: to help her prevent [the Outsider](#entry:outsider-entry) from ever coming into existence.
 
 ## Details
 
