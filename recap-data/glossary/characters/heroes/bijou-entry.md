@@ -9,7 +9,7 @@
 **Memories:** Not Recollected
 **Revelation:** [Shining Emotions](#entry:shining-emotions-entry)
 
-The contrast between the gem maiden’s petite figure and voice and the chaos she brought upon this journey was quite remarkable, but that’s exactly what Koseki Bijou was. Mischievous, adorable, and unwaveringly committed to whatever she set her sights on—no matter how silly, or how much pain it might cause others. A truly special gem to have.
+The contrast between the gem maiden’s petite figure, voice, and the chaos she brought upon this journey was quite remarkable, but that’s exactly what Koseki Bijou was. Mischievous, adorable, and unwaveringly committed to whatever she set her sights on—no matter how silly, or how much pain it caused others. A truly special gem.
 
 ## Details
 
@@ -37,7 +37,7 @@ Ultimately, with the combined efforts of the remaining heroes—most notably her
 **Name:** Koseki Bijou
 **Job:** Jeweler
 
-In this second chapter, the mischievous gem maiden had lost all memories of her previous journey. So naturally, she did what made perfect sense: declared a random stranger—the Hot Pink One—as her [brother](https://www.youtube.com/live/xzAqu4vkY7I?si=eLLiweZ183nhGJCJ&t=2233).
+In this second chapter, the mischievous gem maiden had lost all memories of her previous journey. So naturally, she did what made perfect sense: declared a random stranger—[the Hot Pink One](#entry:irys-entry)—as her [brother](https://www.youtube.com/live/xzAqu4vkY7I?si=eLLiweZ183nhGJCJ&t=2233).
 
 She was obsessed with this “onii-chan,” wagging after her whenever she was near, snuggling up to her like an actual little brother asking about her school day (don’t question the gender dynamic here). She cared so much about her that she was even willing to leap off a cliff beside her during her darkest moment. She even organized an entire gender reveal party in her honor. Once again, Bijou's dedication and commitment were front and center.
 
@@ -58,6 +58,6 @@ _“After all, nothing stays pure,”_ the gem maiden [said](https://www.youtube
 ## Trivia
 
 - By playing the music disc "Violet"—as a prank to mess with Ina, Bijou accidentally made one of the most iconic moments that defined Chapter 1, between Gonathon G and Amelia Watson.
-- Many others had a habit of calling the gem princess "Biboo", which usually prompted Bijou to correct them.
+- Many others had a habit of calling the gem princess "Biboo," which usually prompted Bijou to correct them.
 
 [bijou](#easter:easter-bijou)

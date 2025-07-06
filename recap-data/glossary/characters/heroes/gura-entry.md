@@ -10,7 +10,7 @@
 **Revelation:** [Oceanic Terror](#entry:oceanic-terror-entry)
 **Status:** Back to Atlantis
 
-Gura was joyful, quirky, and someone everyone loved to be around thanks to her bubbly personality and sense of humor. Though her journey with the others was cut short when she was taken back to Atlantis, the memories she made—with her friends and the voices in her head—will remain forevermore.
+Gura was joyful and quirky, someone everyone loved to be around thanks to her bubbly personality and sense of humor. Though her journey with the others was cut short when she was taken back to Atlantis, the memories she made—with her friends and the voices in her head—will remain forevermore.
 
 ## Details
 
@@ -19,7 +19,7 @@ Gura was joyful, quirky, and someone everyone loved to be around thanks to her b
 **Name:** Gawr Gura
 **Guild:** Scarlet Wand
 
-Gura was among the most excited to embark on this strange adventure. She lit up whenever she discovered new things—new mechanics, fascinating dungeon designs, clearly enamored by the thought and creativity behind it all. She regularly expressed admiration for the creators of these intricate feats.
+Gura was among the most excited to embark on this strange adventure. She lit up whenever she discovered new things—new mechanics, fascinating dungeon designs—clearly enamored by the thought and creativity behind it all. She regularly expressed admiration for the creators of these intricate feats.
 
 She was also savage and sassy, delighting in poking fun at others, especially Tam and [Jyon Watson,](https://www.youtube.com/live/PJtapc2_7ok?si=Zjtfn-It4RAxI-V-&t=7423) _especially_ Jyon. Gura seemed to sense that the two had some sort of preexisting bond—not the romantic kind, but the sort where you’d buy a box of lemons just to leave it in front of the other’s door for no reason. She also loved to mess with Gonathon, fully aware that the knight was head over heels for Jyon.
 
