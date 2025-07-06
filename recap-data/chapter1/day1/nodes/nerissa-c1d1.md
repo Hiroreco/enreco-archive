@@ -23,3 +23,7 @@ After a bit more wandering, Nerissa called it a day. It had been confusing, chao
 ## Fanart
 
 ["Nerissa" by thekaiyip](https://x.com/thekaiyip/status/1903164554022097168)
+
+["Scarlet Wand" by Raff Yasushi](https://x.com/raffanda_/status/1833432464448229657)
+
+<!-- cecilia, fauna, shiori, gura -->

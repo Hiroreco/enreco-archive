@@ -27,9 +27,15 @@ Exhausted from the mental gymnastics, the group decided to unwind at the casino.
 ["The Appointed Points" by Hiro](https://x.com/hiroavrs/status/1830628289926557835)
 
 <!-- gura, fauna, moom -->
+
 ["Tipi" by Moonia](https://x.com/BloodyMoonia/status/1830726627686588557)
 
 <!-- gura, fauna, moom -->
+
 ["The secret technique of the Scarlet Wand guild" by Chaleko](https://x.com/Chalek0/status/1830482782222426481)
 
 <!-- gura, fauna -->
+
+["no hat?" by Raff Yasushi](https://x.com/raffanda_/status/1830498321720598623)
+
+<!-- fauna, moom, gura -->

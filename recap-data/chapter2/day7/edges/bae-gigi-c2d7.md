@@ -27,3 +27,5 @@ It is curious how the memories of Hot Pink One and Tam invoked a feeling of reve
 ["The weight of a knight's tears" by daiya](https://x.com/daiyaekaku/status/1923920501631578438)
 
 <!-- cecilia -->
+
+["they drowned" by Nagi](https://x.com/Nagi_Nyaaa/status/1921060151550791998)

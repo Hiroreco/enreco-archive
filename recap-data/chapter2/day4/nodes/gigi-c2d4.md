@@ -27,3 +27,7 @@ Devastated and overcome with regret, Gonathon’s final moments of the day were 
 ## Fanart
 
 ["gonathan" by Miku](https://x.com/Mikururun/status/1920242829692948593)
+
+["peak moment" by Asashi](https://x.com/illust_asashi/status/1919997343094735288)
+
+<!-- shiori, kronii -->

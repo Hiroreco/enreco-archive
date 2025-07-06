@@ -35,3 +35,5 @@ Unwilling to abandon his queen and treasured friend, Gonathon charged back into 
 ## Fanart
 
 ["Gonathon G Day5" by blueplankton](https://x.com/blueplankton/status/1920519820686070207)
+
+["no ideas whats going on" by Mooon](https://x.com/Moon_LDL/status/1919988166020198577)
