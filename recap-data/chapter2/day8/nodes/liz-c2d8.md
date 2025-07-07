@@ -56,3 +56,9 @@ And moments before, Elizabeth asks Nerissa again, [“Are you okay?”](https://
 To make it in time, Elizabeth uses magic and teleports for her princess to make it in time. And the banquet begins (see: [Princess-Outlander: A Price for Defying Fate](#edge:iphania-outlander)).
 
 Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to the other. Will she bend the knee and break her word as a knight? Or will she give in once more to what seems to be corruption, as she had done for the king?
+
+## Fanart
+
+["..." by soap](https://x.com/SiFXi_/status/1922931817402806278)
+
+<!-- nerissa -->

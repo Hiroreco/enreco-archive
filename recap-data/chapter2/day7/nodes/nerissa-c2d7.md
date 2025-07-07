@@ -81,8 +81,6 @@ After all, _NOTHING STAYS PURE_...
 
 ## Fanart
 
-["Nerissa Ravencroft 🎼" by SHAF](https://x.com/shafpng/status/1886083673935798700)
-
 ["Witch" by yuri_kyanon](https://x.com/yuri_kyanon/status/1921582803809886659)
 
 ["My reflection is that of a forgotten stranger" by Eli](https://x.com/Elisbian_/status/1920609369328079156)

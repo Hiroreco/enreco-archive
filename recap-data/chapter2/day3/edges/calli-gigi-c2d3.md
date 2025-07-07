@@ -21,3 +21,9 @@ Just like animals
 Animals
 
 Like animals-mals
+
+## Fanart
+
+["This wolf pack should smooch each other" by Roronico](https://x.com/roronico1512/status/1919665039730213267)
+
+<!-- kiara, cecilia -->

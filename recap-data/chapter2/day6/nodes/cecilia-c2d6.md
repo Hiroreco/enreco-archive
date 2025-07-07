@@ -20,3 +20,7 @@ Cecilia thanks her friends for their counsel as she must make a critical decisio
 For the remainder of the day, Cecilia travels with her companions and listens to the happenings of the town. The drama between Gonathon and Shiori. The love child between several parties. The concerns of the townsfolk about the impending end.
 
 After another exhausting day, Cecilia retires and prepares [another letter](https://www.youtube.com/watch?v=I75IWfMGVgM&t=15665s) for the princess. She patiently awaits an answer but will continue her duties for the princess, Libestal, and her friends no matter what the princess says back.
+
+## Fanart
+
+["For the Princess' honor" by daiya](https://x.com/daiyaekaku/status/1920683282439516582)

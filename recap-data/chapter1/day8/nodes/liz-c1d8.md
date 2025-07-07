@@ -56,3 +56,5 @@ When the journey ended, the heroes found themselves once again in the white room
 ## Fanart
 
 ["Ravencroft1 and nerissa2" by set](https://x.com/_se_t_/status/1834034907229946123)
+
+["The king is whom you serve." by BRASILEIRooO](https://x.com/BRASILEIROO0/status/1901358989033832670)

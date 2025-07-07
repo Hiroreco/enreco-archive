@@ -16,3 +16,9 @@ A good work done, Roa shares in the comradery with her fellow heroes as they dra
 [Five drunk women by the creek](#embed:https://youtu.be/i54lsw-XjDA?t=15299)
 
 After selling a few charms to Nerissa and Shiori, and ensuring her employees are settled, Pandora marvelled how far she's come and before writing down her profitable adventures and sales to end her day.
+
+## Fanart
+
+["Welcome to Gatcharms!" by Hanaswing](https://x.com/Hanaswing/status/1919548229479244203)
+
+<!-- mococo, ina, bijou -->

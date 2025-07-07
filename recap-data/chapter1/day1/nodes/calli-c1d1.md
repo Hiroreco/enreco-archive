@@ -26,3 +26,7 @@ At the end of the day—a day that included being hit by a truck, losing her mem
 ## Fanart
 
 ["The Underworld Calls" by nino](https://x.com/2nochuu/status/1902511940938952880)
+
+["Lore keepers" by Roronico](https://x.com/roronico1512/status/1919423587532095876)
+
+<!-- kiara -->
