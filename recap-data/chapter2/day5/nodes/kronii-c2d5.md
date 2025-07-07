@@ -1,4 +1,4 @@
-<!-- title: Ouro Kronii -->
+<!-- title: Tam Gandr -->
 <!-- status: Alive -->
 
 Tam kicked off her day by diving headfirst into the Star Site: Chaos dungeon alongside the Hot Pink One, Nino Ina, and Peasant the Bae. There, they uncovered Bae's lost memories—turns out, she was more than just some quirky [peasant girl](https://www.youtube.com/watch?v=PukMnVXnJMo&t=2307s). Afterward, Tam was challenged by the Outlander himself. It was a challenge, alright, with the Outlander easily wiping the floor with her regal robes as Queen Tam was put in the dirt over and over due to her weak equipment.

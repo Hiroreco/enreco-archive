@@ -1,4 +1,4 @@
-<!-- title: Nerissa -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 **SHADOW**

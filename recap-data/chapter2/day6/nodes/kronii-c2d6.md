@@ -1,4 +1,4 @@
-<!-- title: Ouro Kronii -->
+<!-- title: Tam Gandr -->
 <!-- status: Alive -->
 
 Perfect Queen Tam Gandr woke up from her perfect slumber in her perfect “truck” abode.

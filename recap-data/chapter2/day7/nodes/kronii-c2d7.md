@@ -1,4 +1,4 @@
-<!-- title: Ouro Kronii -->
+<!-- title: Tam Gandr -->
 <!-- status: Alive -->
 
 The Queen marches in her own time.

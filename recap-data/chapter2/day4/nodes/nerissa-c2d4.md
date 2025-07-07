@@ -1,4 +1,4 @@
-<!-- title: Nerissa (Juliet Bloodflame) Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Horses were little more than a means to an end in the strange, fantastical realm of Libestal—tools of travel, never the same twice, never familiar enough to name. Why pretend otherwise? Why act like each steed was a loyal companion when, clearly, they were replaced as often as socks?

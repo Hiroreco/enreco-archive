@@ -1,4 +1,4 @@
-<!-- title: Ouro Kronii -->
+<!-- title: Tam Gandr -->
 <!-- status: Alive -->
 
 Today felt important for Tam—she couldn’t explain why, but there was something in the air. A pull. A subconscious urgency. With that, she joined Mordan, Gonathon, and Nerissa, setting off to tackle the [Star Site: Chronos](https://www.youtube.com/live/YVyeKQ-6Ka8?si=eMc-IJaSIceRJmM9&t=685).

@@ -1,5 +1,5 @@
 <!-- title: Roa Pandora -->
-<!-- status: Alive -->
+<!-- status: In-bread -->
 
 Being a CEO is hard work, and Roa found that the start of her day felt like a ~~EN~~ curse. But she persisted for profit, for The Gacharms shop, and, of course, for her beloved employees.
 

@@ -87,14 +87,42 @@ async function main() {
             )) {
                 const base = path.basename(file, ".md");
                 const idKey = base.replace(new RegExp(`${suffix}$`), "");
-                const md = (
-                    await fs.readFile(path.join(nodesDir, file), "utf-8")
-                ).trim();
+                const mdFull = await fs.readFile(
+                    path.join(nodesDir, file),
+                    "utf-8",
+                );
+                const lines = mdFull.split(/\r?\n/);
+
+                let title = "";
+                let status = "";
+
+                // Extract title
+                if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
+                    title = lines
+                        .shift()!
+                        .replace(/^<!--\s*title:\s*(.+?)\s*-->$/, "$1")
+                        .trim();
+                    if (!lines[0]?.trim()) lines.shift();
+                }
+
+                // Extract status
+                if (/^<!--\s*status:\s*(.+?)\s*-->$/.test(lines[0])) {
+                    status = lines
+                        .shift()!
+                        .replace(/^<!--\s*status:\s*(.+?)\s*-->$/, "$1")
+                        .trim();
+                    if (!lines[0]?.trim()) lines.shift();
+                }
+
+                const content = lines.join("\n").trim();
+
                 const nd = chart.nodes.find(
                     (n) => n.id.startsWith(idKey) && n.data.day === dayIndex,
                 );
                 if (nd) {
-                    nd.data.content = md;
+                    nd.data.content = content;
+                    if (title) nd.data.title = title;
+                    if (status) nd.data.status = status;
                     seenNodes.add(nd.id);
                 } else {
                     console.warn(
@@ -208,6 +236,12 @@ async function main() {
             const wNode = wChart.nodes.find((n) => n.id === zNode.id);
             if (wNode) {
                 wNode.data.content = zNode.data.content;
+                if (zNode.data.title !== undefined) {
+                    wNode.data.title = zNode.data.title;
+                }
+                if (zNode.data.status !== undefined) {
+                    wNode.data.status = zNode.data.status;
+                }
             }
         });
 

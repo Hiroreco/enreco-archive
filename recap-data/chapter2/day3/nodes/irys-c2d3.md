@@ -1,4 +1,4 @@
-<!-- title: IRyS -->
+<!-- title: Hot Pink One -->
 <!-- status: In-bread -->
 
 IRyS—sleep-deprived, hungover, and absolutely _not_ helping her case with the [alcoholic](https://www.youtube.com/live/EKjcWfEGsB0?si=CgvbYR_kAf7Wh2dB&t=270) allegations—woke up on her third day in Libestal feeling like a stiff breeze could knock her over. But the spirit was still there. Groggy or not, the pink menace set off to knock out her daily quests.

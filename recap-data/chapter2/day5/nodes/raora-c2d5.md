@@ -1,5 +1,5 @@
 <!-- title: Roa Pandora -->
-<!-- status: Alive -->
+<!-- status: In-bread -->
 
 The successful businesswoman Roa wakes up and begins her day immediately checking on her business and employees; however, her attention is quickly stolen by the Red Knight, Lady Bloodflame. She confides her concerns to her employees and tries to assess the relationship between Nerissa and Lady Bloodflame.
 

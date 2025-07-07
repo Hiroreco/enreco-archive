@@ -1,4 +1,4 @@
-<!-- title: Ouro Kronii -->
+<!-- title: Tam Gandr -->
 <!-- status: Alive -->
 
 The Queen woke up with fire in her heart and vindication in mind. It was _on sight_ for the Hot Pink One, and she wasted no time telling Immerkind that it was, in fact, HPO who had spread rumors about her being [“far from kind”](https://youtu.be/II40tjM-mxg?t=264) right from day one. Naturally, the kind knight took offense and immediately started grilling the Hot Pink One. The Queen took this distraction as an opportunity to read a letter she’d received from Nino Ina. There was nothing like reading a heartfelt letter while your enemy was getting flamed in the background.

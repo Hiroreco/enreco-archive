@@ -1,4 +1,4 @@
-<!-- title: Nerissa (Juliet Bloodflame) Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Business was booming at Nibs 'n Nobs today! Who would've thought that an obsession with potato salad would actually pay off? Maybe a chef revolution wasn’t necessary after all—at least, not for now. The kingdom was abuzz with life too, full of adventurers flaunting new [hats](https://youtu.be/vMdhvi8dHN4?t=895s) and a contagious energy that made the day feel promising.

@@ -1,5 +1,5 @@
 <!-- title: Roa Pandora -->
-<!-- status: Alive -->
+<!-- status: In-bread -->
 
 It was a sleepy start for Roa's day as she pondered what to do. Her beloved shop, The Gacharms, was doing well with little for her to do. Perhaps today she should focus on something else... or someone else.
 

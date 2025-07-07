@@ -1,4 +1,4 @@
-<!-- title: IRyS -->
+<!-- title: Hot Pink One -->
 <!-- status: In-bread -->
 
 IRyS joined the day and got straight into preparing for the day’s task. One of which was tackling the day’s dungeon—but before that, she received an invitation to join the [Chef Union](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=1300s), led by none other than Mordan Ramsey.
