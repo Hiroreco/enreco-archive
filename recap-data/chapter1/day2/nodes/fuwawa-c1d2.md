@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 Upon re-entering the kingdom, Fuwawa teamed up with Mococo to seek companions for a dungeon expedition. Their search led them to Liz, and as the trio exchanged pleasantries, their conversation was interrupted by a peculiar advertisement call from Fauna, promoting her new business venture, [FaunaMart](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=665). While Fuwawa was only mildly interested in the pitch, Mococo was thoroughly intrigued. Her excitement dragged both Fuwawa and Liz to the newly opened convenience store.
 
 Fuwawa decided to try her luck and purchased a single [lottery ticket](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=903). Mococo, on the other hand, went all in, buying an astonishing sixty-eight tickets. Fuwawa grew visibly concerned, quietly telling Liz she worried Mococo would run out of money for essentials like food.

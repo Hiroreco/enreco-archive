@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 **Are You Okay?**
 
 Another day, another journal. Elizabeth is worried about keeping _someone_ safe. Yet when she looks at Thorn and strikes at the enemy, it cuts differently now. Flashes of ink splashed across a page seared into her memory. Thoughts of accosting someone without cause, without jury, without... justice.

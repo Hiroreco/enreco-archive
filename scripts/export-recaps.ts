@@ -93,7 +93,14 @@ async function main() {
             if (node.data.day !== undefined && node.data.day !== dayIndex)
                 continue;
             const nodeName = `${node.id}-c${chapterNum + 1}d${humanDay}`;
-            await writeMd(nodesDir, nodeName, node.data.content);
+
+            // Add title and status tags at the start
+            const nodeContent = `<!-- title: ${node.data.title || node.id} -->
+<!-- status: ${node.data.status || "Unknown"} -->
+
+${node.data.content}`;
+
+            await writeMd(nodesDir, nodeName, nodeContent);
         }
 
         // edges

@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **The Humble Fumbler**
 
 As the sun rose on day four, no one could foresee the maelstrom of turmoil and tragedy that would engulf Gonathon and those closest to him. The day began simply enough, with the Humble Knight visiting Gacharms to acquire new equipment. Chief on Gonathon’s mind was the suspected corruption of Peasant the Bae, which soon extended to Princess Bijou upon learning of her past corruption (see [Bijou-Gonathon: A Rock and a Hard Place](#edge:gigi-bijou)). These concerns had to be set aside, as an encounter with Immerkind led to Gonathon becoming once again conflicted with the [role](https://youtu.be/BSPi8sTHdAY?t=21m13s) he had played in Immerkind’s delusional pursuit of the Princess. (See [Cecilia-Gonathon: The Kind and the Humble Knight](#edge:cecilia-gigi))

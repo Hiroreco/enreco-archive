@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Awakening from slumber, the Hero browsed the shops for breakfast but found no food that rivaled her etenral consort's cooking.
 
 Ill-suited for business talk this early in the day, NinoIna spent little time in the Jewelers' new Charms shop. She found comfort in her personal space, putting her focus on completing daily obligations and culling the relentless hordes of Stains (and cows).

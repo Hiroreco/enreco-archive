@@ -1,3 +1,6 @@
+<!-- title: IRyS -->
+<!-- status: In-bread -->
+
 IRyS—sleep-deprived, hungover, and absolutely _not_ helping her case with the [alcoholic](https://www.youtube.com/live/EKjcWfEGsB0?si=CgvbYR_kAf7Wh2dB&t=270) allegations—woke up on her third day in Libestal feeling like a stiff breeze could knock her over. But the spirit was still there. Groggy or not, the pink menace set off to knock out her daily quests.
 
 That morning daze didn’t last long, though. A phone call from her brother snapped her back into reality: someone shady had been snooping around her shop. IRyS went to investigate, ready to confront a shadowy figure… only to be met with an unexpectedly wholesome surprise (see [IRyS-Bijou: Birthday Girl](#edge:irys-bijou)).

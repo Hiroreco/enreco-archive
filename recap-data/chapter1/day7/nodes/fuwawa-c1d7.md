@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 Fuwawa had been diligently preparing for the final day, as she always had since the beginning. Her dependable nature had never wavered—she did what needed to be done, avoided causing trouble, and won the hearts of everyone she met. She was, in many ways, the ideal hero, in contrast to her pink counterpart, who was often a source of chaos. Still, Mococo’s antics had their own charm, and Fuwawa couldn’t deny that her partner was a good doggo at heart.
 
 While gathering materials, Fuwawa took a moment to reflect on the kingdom of Libestal. Despite the occasional need to slay enemies and the myriad shenanigans other heroes engaged in, the kingdom seemed [peaceful](https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=2085) overall. The challenges they faced often felt more like lighthearted adventures than real threats.

@@ -1,3 +1,6 @@
+<!-- title: Raora Panthera -->
+<!-- status: Alive -->
+
 The corruption was spreading, dark tendrils slowly consuming the world. Mario, understandably, was not a fan. On the final day, she awoke to a ruined kingdom. Mococo, completely overtaken by the Stain on her hand, was rampaging and spreading [chaos](https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=650). But what broke Mario’s heart most was that the root of it all was her own daughter, Koseki Bijou. The sight of her kingdom in shambles and her beloved child in such a state weighed heavily on her soul.
 
 [My beautiful daughter...](#embed:https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=773)

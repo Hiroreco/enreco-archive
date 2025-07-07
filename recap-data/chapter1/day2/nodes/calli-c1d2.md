@@ -1,3 +1,6 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 Calli’s second day in the kingdom began with a lively group conversation. Among the crowd, she congratulated the newlyweds Gonathon G and Jyon Watson. As Jyon was her guildmate, Calli made sure to extract a promise from Gonathon to take good care of his [wife](https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=704). Soon after, she encountered another newlywed couple—Shiori and Bijou. This pair, however, had a rather peculiar dynamic that left Calli feeling more concerned than celebratory.
 
 [I better back away](#embed:https://www.youtube.com/live/oPKmSO7XtoY?feature=shared&t=970)

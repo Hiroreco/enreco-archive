@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 The maiden in orange awoke in a mysterious white box with no memories of her past, much like everyone else trapped there. Despite the confusion, she realized she could speak a language called _German_ and quickly connected with Cecilia Immergreen, another German speaker, when they first crossed paths in the box, with a conversation only they understood.
 
 [Sprechen Sie Deutsch?](#embed:https://www.youtube.com/live/izEX6XKyApQ?feature=shared&t=907)

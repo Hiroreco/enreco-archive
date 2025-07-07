@@ -1,3 +1,6 @@
+<!-- title: IRyS -->
+<!-- status: Alcoholic -->
+
 The Pink One had been a chef for one day—and in that one day, she worked her butt off, gathering materials and crafting the most delicious chocolate cakes imaginable, only for [not a single soul](https://www.youtube.com/live/axlJjQQ_rzU?si=Hk_cFQIe4t9Hkm8x&t=485) to bat an eye. It was, understandably, frustrating. Especially when her little brother was already employed by what looked like the kingdom’s biggest business chain, raking in coin by selling much-coveted goods through gacha.
 
 [Questionable business practice](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=b8NxQYC2U1P93sbS&t=784)

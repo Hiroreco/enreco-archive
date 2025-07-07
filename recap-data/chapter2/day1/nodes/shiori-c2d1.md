@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Shiori Nyavella learned about the universe being in danger, the loss of memories, being chosen as a hero, all that usual spiel—and promptly decided it was far too boring. Naturally, her first instinct was to drown herself.
 
 [The intrusive thoughts](#embed:https://www.youtube.com/live/zCWoxMbOZPk?si=do0y3EhgCYkvoJ2D&t=1080)

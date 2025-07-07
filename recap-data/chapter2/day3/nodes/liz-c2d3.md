@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Today was set to be a simple one for Miss Bloodflame. Nothing grand or intense—just what she’d call a "guerrilla" adventure, aimed mostly at catching up on quests and general progress.
 
 Right at the start, she received a call from Shakira, who generously offered her assistance with anything she needed—being ahead of the game and all. The Red Knight appreciated the gesture (see [Kiara-Elizabeth: Sugar Phoenix](#edge:kiara-liz)).

@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Shiori woke up to the sight of her chickens disappearing, but she couldn’t figure out why.
 
 [My chickens!](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=OLDYkPft4YvZnlw_&t=332)

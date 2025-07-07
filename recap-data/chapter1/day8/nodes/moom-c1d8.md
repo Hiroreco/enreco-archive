@@ -1,3 +1,6 @@
+<!-- title: Nanamoo -->
+<!-- status: Alive -->
+
 Nanamoo began her final day overhearing whispers about plans to corrupt the world, destroy the lands, and terrorize the lives of its people. After careful consideration, she decided that… it probably wasn’t important and continued on [her way](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=216). She then shared a brief exchange with Ina, proudly asserting that she was the ["main chick,"](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=385) not the side.
 
 Getting sidetracked aside, Nanamoo had a critical mission that day. She had recently launched her business venture, NanaEleven, which had gained immense popularity thanks to her lottery tickets. The tickets seemed like an incredible deal, with winners walking away with hundreds of coins. What the buyers didn’t realize was that hidden on each ticket was a clause written in an ancient language. This clause legally obligated them to contribute a portion of their income to NanaEleven "for the greater good."

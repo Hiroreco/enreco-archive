@@ -1,3 +1,6 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Alive -->
+
 Nerissa entered her fourth day with no grand ambitions. Much like the previous day, her goals were simple: go with the flow, build her house, and rake in as much money as possible.
 
 Early in the day, Nerissa stumbled upon Gura’s latest project—a [gallows](https://www.youtube.com/live/dRCvSHBTvSk?feature=shared&t=1198). The sight triggered an odd memory from her past life, though it wasn’t a pleasant one. The memory was hazy but tinged with the guilt of a criminal past. Shaking it off, she decided to help Gura test the gallows by volunteering Jyonathan as a participant.

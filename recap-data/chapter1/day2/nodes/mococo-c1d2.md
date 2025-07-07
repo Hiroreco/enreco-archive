@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 On her second day in the kingdom, the fuzzy one, Mococo, awoke with a sense of renewed determination. Her first day had been overwhelming—strange people, unfamiliar surroundings, and a whirlwind of emotions had left her quite shaken. But amidst all the chaos, there was a comforting presence: the lady in red, Elizabeth, who promised to always stay by her side. That promise gave Mococo a sense of ease.
 
 Being the sociable doggo she was, Mococo wasted no time seeking companionship. She reached out to Raora and Elizabeth, asking if they’d be interested in tackling the second dungeon together. Both agreed, and with Fuwawa tagging along, Mococo eagerly set out to group up. During their gathering, Mococo brought up a new establishment she’d heard about—_FaunaMart_.

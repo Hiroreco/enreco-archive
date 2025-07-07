@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia Immerkind returned from her journey afar and had prepared a poem and musical tune for her princess.
 
 However, the state of Libestal was in chaos with the discovery of Star Site: Chaos. Cecilia, Fuwawa, Mococo, and Gonathon depart to the star site where they engage in a variety of trials and slay Stain King: Chaos. [Cecilia chuckles at the thematic differences of the memories between Irys, Kronii, and Bae](https://www.youtube.com/watch?v=I75IWfMGVgM&t=3320s).

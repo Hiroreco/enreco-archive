@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **Fragments of Memories, Whispers of Past Deeds, and Love**
 
 With a flash of light, Gonathon G. once again found himself whisked back to the land of Libestal. However, in a perverse turn of fate, he was stripped of his memories, including those of his time in the present and of those most dear to him.

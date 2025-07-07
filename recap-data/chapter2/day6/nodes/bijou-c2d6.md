@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 Bijou tried taking this day a bit easier. Instead of worrying about herself, she tried focusing more on helping others.
 
 She still wanted a little [“pup talk”](https://youtu.be/uMenK-yr3ss?t=420) after the madness of the last couple of days, especially yesterday. So she rang up Mococo—she only took appointments by phone.

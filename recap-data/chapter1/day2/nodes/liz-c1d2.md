@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 As the knight in red stirred from her slumber, fragments of a memory surfaced—a faint recollection from day one. It was the moment Elizabeth Rose Bloodflame had sworn her unwavering loyalty to the fuzzy dog, Mococo. This memory wasn’t just a fleeting thought but a cornerstone of who she was, a defining piece of her identity. Elizabeth’s journey would be marked by such recollections, each day unearthing a new fragment that shaped her character and story.
 
 [A fragment of memory](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=90)

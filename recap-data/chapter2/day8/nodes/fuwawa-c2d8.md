@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 The final day had arrived. With riches in hand, friendships forged, and dreams realized, Fuwawa had just about fulfilled everything she set out to do on this journey. Now, it was time to wind down, enjoy the company of those she cherished, and prepare for the grand banquet that marked the end of it all. Oh—and build a roof for her café. It wouldn't do to let customers get soaked in the rain, after all.
 
 But before any of that, there was one last thing to do: gather everyone for a group picture. One final commemorative snapshot of this mysterious, chaotic, unforgettable adventure.

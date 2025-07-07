@@ -1,3 +1,6 @@
+<!-- title: Jyonathan -->
+<!-- status: Alive -->
+
 There was no "active POV" from Jyonathan on the second day, but she was spotted with other members throughout the day. She began by catching up on the first dungeon, having missed the opportunity to explore it on her first day. Accompanied by Shiori, Bijou, and Gonathon G, Jyon finally experienced the dungeon's mysteries.
 
 Her day took an unexpected turn when she entered into a spontaneous marriage with Gonathon, prompted by his gift of ten diamonds (see [Gonathon-Jyon: My Pearl!](#edge:gigi-ame)). True to her dynamic nature, Jyon found herself amidst a variety of shenanigans—being flirted with, witnessing duels, and "humorously" referring to the Hot Pink One as her "backup plan." (See [Hot Pink One-Jyon: Plan B](#edge:ame-irys))

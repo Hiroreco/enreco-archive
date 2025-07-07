@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 _Shiori_ woke up in the white box with no memories, full of questions: _Who’s this? What’s that? Where’s Waldo?_ As she wandered around, inspecting (and judging) the [others](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=97), she frequently conversed with the 'guardian angels' in her head, affectionately calling them _"Chat."_
 
 Every time she tried something new, she’d ask, _"Chat, am I cookin’?"_. She also faintly recalled an image of a truck heading toward her in a place called "New York," hinting at how she might have ended up here.

@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 _“It’s my birthday!”_
 
 It was going to be a great day for the doggy jeweler—especially because it was her birthday, of course! So naturally, Mococo had been expecting warm gifts and greetings from her friends.

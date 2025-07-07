@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 Today was the official opening of Gacharms to great success. Many of the warriors went to the shop throughout the day and on average pulled more than once. This certainly helped the others with their side quests and dungeons—ESPECIALLY the dungeon.
 
 That wasn’t all that was on Bijou’s mind today, far from it. She sniffed out something fishy between the Outlander and the Princess, as their dialogue made it sound like they could be related. She wasn’t the only one to pick up on this, as rumors about this started to spread like wildfire around the kingdom.

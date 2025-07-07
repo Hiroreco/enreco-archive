@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 The Hero rose alongside the morning sun in her lovely brick home. Her recaps are so serene that you cannot believe it.
 
 Remember that talk the day before, when the Hot Pink One was supposed to tell the Hot Purple One everything today? Well, the Hot Pink One took a rest day and was never seen around the kingdom; she escaped the hands of fate for one day.

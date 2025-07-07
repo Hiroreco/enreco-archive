@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 It is the day of the gas reveal, but preparations are still in order. Bijou shares her recent conversation with others, which leads them to believe that perhaps it's just [constipation](https://www.youtube.com/live/4_zJe0t0558?si=y5yjkh4NAX9clGIW&t=399), or perhaps a weird virus; only time could tell. Still, she desired to meet her beloved, and Shiori wanted to give her food, so they agreed to meet at the archiver's house.
 
 But upon reaching the archiver's door, she's first met with Gonathon G. Bijou quickly realizes that the archiver has no recollection of the knight. This forces her to intervene and have a private chat with him. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.

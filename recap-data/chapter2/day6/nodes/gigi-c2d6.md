@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **Bonds Beyond Time**
 
 Starting his day once again at Gacharms, Gonathon conversed with his friends and assisted Fuwawa in upgrading her gear. Learning that several of his companions needed to do the previous day’s dungeon, the Humble Knight wasted no time in volunteering to assist. After a [quick rerun](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=1113s) of the dungeon and some farming with Shiori and NinoIna (the latter of whom he engaged in potato touching with), Gonathon found himself at the Mysterious House with many others, all awaiting the announcement of a special event.

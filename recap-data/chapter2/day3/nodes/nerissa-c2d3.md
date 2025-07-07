@@ -1,3 +1,6 @@
+<!-- title: Nerissa (Juliet Bloodflame) Ravencroft -->
+<!-- status: Alive -->
+
 Business was booming at Nibs 'n Nobs today! Who would've thought that an obsession with potato salad would actually pay off? Maybe a chef revolution wasn’t necessary after all—at least, not for now. The kingdom was abuzz with life too, full of adventurers flaunting new [hats](https://youtu.be/vMdhvi8dHN4?t=895s) and a contagious energy that made the day feel promising.
 
 Nerissa kicked things off by lending a hand to others who missed out on yesterday’s dungeon. Once that was done, it was time to gear up for the next big challenge: the _Stronghold of Ruin_, said to be where the elusive Outlander was holed up.

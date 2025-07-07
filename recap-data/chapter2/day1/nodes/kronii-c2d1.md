@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 The first thing the blue maiden saw upon waking was a magical talking cat explaining her dire situation and her ultimate mission. And the first thing she did upon seeing said cat? She called it [fat](https://www.youtube.com/live/9XG91aw1gTo?si=HUKTRLtdetft9DSn&t=554). A flawless introduction.
 
 Tam—or was she Tam? The Blue Maiden couldn't recall. Her name, her past journey, and even her former comrades were but faint echoes in her mind. Foggy, half-remembered fragments. But she didn’t seem to care. As ever, she remained completely deadpan, even amid the chaos and confusion.

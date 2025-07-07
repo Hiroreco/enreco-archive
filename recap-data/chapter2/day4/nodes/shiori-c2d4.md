@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Perhaps today would be the day Shiori chose to be forward with her feelings. She had been eyeing one humble knight ever since their first encounter during a past journey, and it seemed those feelings were starting to solidify. Despite her original intentions—manipulating him for her own gain—things had changed. Somewhere along the way, she might’ve actually fallen for him.
 
 So naturally, she started her day by infiltrating a therapy session and eavesdropping on her crush.

@@ -1,3 +1,6 @@
+<!-- title: King of Libestal -->
+<!-- status: Freed -->
+
 The heroes and their guildmasters stood at the kingdom’s gate, the very place where their journey had begun. Now, they gathered once more, preparing for what could be their final battle. The fight ahead would be their most grueling yet, but they had come a long way—stronger, sharper, and more determined than ever.
 
 [For the King!](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=16622)

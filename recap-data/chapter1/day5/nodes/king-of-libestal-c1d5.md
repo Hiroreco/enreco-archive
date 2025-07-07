@@ -1,3 +1,6 @@
+<!-- title: King of Libestal -->
+<!-- status: Alive -->
+
 With the heroes having successfully quelled the commotion at the Ancient Sewer Dungeon, the King of Libestal felt a sense of relief and pride in their accomplishments. However, despite this victory, a lingering unease gnawed at him.
 
 [The calm before the storm](#embed:https://www.youtube.com/live/1_dhGL0K5-k?feature=shared&t=6990)

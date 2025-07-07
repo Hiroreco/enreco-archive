@@ -1,3 +1,6 @@
+<!-- title: Nerissa -->
+<!-- status: Alive -->
+
 Despite her declaration from yesterday, nothing strange has happened yet… Certainly. Aside from her [portrait](https://youtu.be/-BFf3e6YJwY?t=344) being moved to a basement, which seemingly served as a secret room for worship. Behind the immaculate portrait were mysterious books stored. Are these books of witchcraft? Simple tales of love and loss? Or an ominous prophecy that has yet to unfold...
 
 [Read "Go, lovely rose"](#text:go-lovely-rose)

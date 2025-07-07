@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: In-bread -->
+
 Her abdomen hurt—again. Wait, didn’t we already go through this? The whole “I’m pregnant, but it’s just gas” fiasco? Yeah, we did. But apparently, that doesn’t mean it can’t happen again. This time, though, IRyS was _certain_. She believed, truly and deeply, that what she carried was no longer just air—but life. A living soul between her and her eternal consort.
 
 Her ever-supportive brother, of course, had already begun preparing. As any good sibling would.

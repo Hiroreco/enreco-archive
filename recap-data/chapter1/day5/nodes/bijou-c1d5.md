@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 Bijou, no, _Princess Farmer Koseki Bijou Bloodflame Panthera Evergreen_ began her fifth day with a regal sense of pride. As the self-proclaimed princess of the kingdom of Evergreen, she had everything a royal could wish for—a loyal knight, a queen for a mother (also self-proclaimed), and another mom with an undeniably cool name. Her royal life seemed perfect.
 
 [Kira Kira, init, my fellow comrades](#embed:https://www.youtube.com/embed/5o4TerH2bVI?si=2GpoastQ0CsBNmUe&start=208)

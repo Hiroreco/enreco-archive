@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 After the chaos of the first day, Bijou, feeling a tinge of guilt (not really) for blowing all her money on gambling, decided she'd turn over a new leaf—at least for today. She resolved to be a "nice person" and help Shiori conquer the first dungeon, as Shiori hadn’t managed to finish it the day before. Jyon Watson found herself in a similar predicament, so she tagged along as well, enlisting Gonathon’s assistance.
 
 Naturally, it wouldn’t be normal for these girls to proceed without some level of absurdity. Before entering the dungeon, a bizarre conversation unfolded—one involving the idea of milking Shiori, biting Bijou’s feet, and the questionable stains on the King’s pants.

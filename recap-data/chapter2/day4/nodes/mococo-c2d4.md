@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 The fuzzy one kicked off her day at Gacharm—dutiful, as always. A model employee, yes, but more importantly, she had her eyes on the prize. Cold, hard cash. And with dreams of swimming in gold already sparkling in her mind, it made perfect sense why she was so eager to clock in.
 
 But before cashing out, she had some catching up to do. The investigation of the [Stronghold of Ruin](https://www.youtube.com/live/T2StVW1kSxw?si=mlKGQ7NhgMZ73vBu&t=1871) was still a blank in her itinerary, so she called in reinforcements. With the help of Immerkind, Bijou, Gonathon, and Ina, she powered through and got herself up to speed with the rest of the kingdom.

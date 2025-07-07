@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 The start of Bijou’s day felt… strange. Only through her vision did some things about the world before her look [strange.](https://youtu.be/Zg3rYsc61XI?t=237) All the charms turned into golden nuggets, and all the characters looked like disembodied stacks of horse armor—even Fia! This would last for several minutes.
 
 This was the least of her troubles today. Far from it. In fact, the little princess was intertwined with a lot of the day’s drama. She even reconnected with a few people along the way.

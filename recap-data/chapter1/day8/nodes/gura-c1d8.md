@@ -1,3 +1,6 @@
+<!-- title: Gawr Gura -->
+<!-- status: Alive -->
+
 ["Am I about to ride into chaos?"](https://www.youtube.com/live/cIb5yHw4mvk?feature=shared&t=421) Yes, Gura, the answer is yes. Joining a bit later than the others on the final day, it was no surprise that she had missed nearly all the earlier events. Oddly enough, Gura had managed to avoid most of the major shenanigans throughout her journey, somehow always slipping past the chaos while everyone else got entangled. It explained why her perspective on the story remained remarkably peaceful—at least compared to the others.
 
 The first thing Gura did upon regrouping with everyone was perform the Scarlet Wand ritual by [touching tips](https://www.youtube.com/live/cIb5yHw4mvk?feature=shared&t=456) with her guildmates. During this, she learned about Nanamoo’s secret: retaining all her memories from a past life. Gura warned her to be cautious, joking that she might get kidnapped and sold for ransom. As Nanamoo wandered off into the bushes, Gura couldn’t resist throwing in a witty remark.

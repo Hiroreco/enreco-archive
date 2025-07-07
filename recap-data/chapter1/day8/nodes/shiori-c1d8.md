@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 It was the final day, and while everyone frantically worked to end Bijou’s corruption saga, Shiori had other plans. She was focused on advancing her ultimate goal—a "Happy Sugar Life."
 
 While wandering around the kingdom, Shiori crossed paths with Bijou, who gifted her a Stain Hat, and, in a surprising twist, nominated her as the [Stain Prince](https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=448). For most people, wearing the Stain Hat would have been alarming, as it caused corruption. But Shiori? She felt exactly the same. Even Nerissa, puzzled that the corruption cure didn’t work on her, speculated, "Shiori’s already corrupted, but in a fun way." Shiori, naturally, found this amusing and even entertained the idea of spreading the corruption, affectionately calling it "her children."

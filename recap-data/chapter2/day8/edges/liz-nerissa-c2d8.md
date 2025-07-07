@@ -1,4 +1,4 @@
-<!-- title: Finding Shelter in the Shadows of Hope-->
+<!-- title: Finding Shelter in the Shadows of Hope -->
 
 **Second chances?**
 

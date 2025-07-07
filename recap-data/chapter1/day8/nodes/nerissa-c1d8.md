@@ -1,3 +1,6 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Alive -->
+
 Nerissa arrived on the final day to a scene of pure devastation. The fields lay in ruin, fire and withered leaves painting a grim picture of corruption seeping through the kingdom. It was an ugly sight, and she had a strong suspicion about who was behind it all. Yet, to her surprise, Elizabeth and Calli believed she might have been the culprit. Thankfully, she was able to clear [her name](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=780).
 
 While wandering the kingdom, she eventually came face-to-face with the suspected culprit—Koseki Bijou.

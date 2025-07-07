@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Elizabeth didn’t want to forget. With so many of her comrades having lost their memories due to the effects of time travel, even if they couldn't remember her, she at least wanted to remember them—for their sake, and her own.
 
 In the previous journey, fragments of past adventures would surface in Elizabeth’s mind as fleeting images, but now things were clearer. To preserve the memories of her journey, her feelings, she chose to commit them to paper.

@@ -1,3 +1,6 @@
+<!-- title: Nerissa -->
+<!-- status: Alive -->
+
 **THE WITCH'S LAIR**
 
 More and more people had [discovered](https://youtu.be/FlPFFE5_X3Y?t=7063) the secret shrine that was miraculously built under Nerissa's house. Surprisingly, she didn't look bothered; in fact, it rather seemed intentional that she allowed them to find it.

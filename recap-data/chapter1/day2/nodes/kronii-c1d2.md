@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 The new (self-proclaimed) _Queen of Libestal_ awoke for the second day, and it seemed action was the theme of the day. As soon as Tam joined the kingdom, Bijou summoned her for [immediate assistance](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=307), while informing her that Gonathon had been wedded. At the same time, Tam received a secret message from Shakira about an evil force—FaunaMart—scamming people through lottery tickets. Intrigued, the Queen wasted no time and hurried to join her guildmates.
 
 When she arrived, the first thing everyone pointed out was her "Xbox-like" [voice](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=561). Tam, being self-conscious about it, tried to brush it off but couldn’t help feeling embarrassed.

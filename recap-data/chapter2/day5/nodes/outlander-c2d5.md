@@ -1,3 +1,6 @@
+<!-- title: The Outlander -->
+<!-- status: Alive -->
+
 With the truth about the Outlander’s identity now known, it was only a matter of time before the man himself confronted it.
 
 [Outlander, Watcher](#embed:https://www.youtube.com/watch?v=UyN7jwsiiXA&t=3990s)

@@ -1,3 +1,6 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 _Calli_ had been working tirelessly—deadlines, projects, you name it. She decided it was time for a well-deserved break, going for a stroll with her beloved Deadbeats. But just as she was enjoying her walk, a truck crashed into her, knocking her out and sending her to the mysterious white box. How did a truck manage to take down the literal incarnation of Death? No clue, but here we are.
 
 [And he takes another](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?t=331)

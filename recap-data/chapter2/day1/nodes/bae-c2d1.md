@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: Alive -->
+
 When one chapter ends, another must soon begin.
 
 Once again, Peasant The Bae finds herself trapped in a familiar room with equally familiar people. A hero? A princess? But before they could talk, a darkness enveloped them all, and an unknown voice spoke.

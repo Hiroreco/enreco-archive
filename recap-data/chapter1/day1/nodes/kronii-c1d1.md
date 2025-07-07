@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 _The maiden in blue_ woke up in a peculiar white box, her first thought fixated on why everything—her hands, the world, even the people—appeared so square and pixelated. She roamed around asking anyone and everyone a barrage of questions: _"Is your name Kiara? What are you doing in the corner? The server closed? What does that mean?"_ Her confusion was palpable, and it became evident that she couldn’t even recall her own name.
 
 [Why is it so pixelated?](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=390)

@@ -1,3 +1,6 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Alive -->
+
 Sometimes, career plans fall through, and cracks begin to form, revealing the grim outlook of the industry we've dedicated our craft to. Competition breeds cutthroat survival tactics, and it's clear that if we keep undercutting each other's prices like this, we'll never turn a profit!
 
 Nerissa's cooking skills had surpassed many within Libestal, and she created nothing but impactful Gourmet cuisine from even the most simple of ingredients (potato salad, for short). She even built a charming Glowstone path to her establishment, so why was nobody coming?

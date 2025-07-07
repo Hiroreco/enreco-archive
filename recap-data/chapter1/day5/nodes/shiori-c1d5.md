@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Bumping into Fauna and the day’s lottery winner, Mococo, Shiori overheard their lively conversation about money and winnings. Initially intrigued, she considered joining in, but her interest quickly [waned](https://www.youtube.com/live/BlDRaNhYZxk?feature=shared&t=443). Shiori craved a peaceful life—free from economic worries, epic adventures, or romantic entanglements. Her simple, happy existence had always been the goal. The complicated relationships and headaches, like her multiple-wives situation, had been thrust upon her, not chosen.
 
 Later in the day, Shiori joined the others to prepare for the final dungeon. Bijou, wife number one, proposed that Nerissa, wife number two, partner with Shiori for the dungeon, calling it Nerissa’s "turn." Shiori, feeling like an ["Xbox"](https://www.youtube.com/live/BlDRaNhYZxk?feature=shared&t=1972) being passed around, agreed.

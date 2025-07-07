@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: Alive -->
+
 The Hot Pink One realized she had missed quite a bit leading up to the final day. The only thing she could clearly recall was the heartbreaking separation between Gonathon and his Pearl. Still, she had just enough time to reconnect with everyone before the grand showdown.
 
 Her first stop was the Cerulean Cup building area, where she admired the Tam Gandr statue that Gonathon had recently completed. She couldn’t help but question the ominous Moai statue standing next to it—what was that about? Then, she finally found where everyone was: gathered around Mori’s Tavern. Excited to say hi, she joined the crowd.

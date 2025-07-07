@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 The events of yesterday were hazy in Shiori's mind, a strange feeling for someone such as her. A reboot? That would explain some of the oddness. Shiori was normally keener on the details, as a writer should. For now there was little left but to go about her day. Her shop, for instance, had a single sale so far—Mordan Ramsey had bought [something earlier](https://youtu.be/mb91g7vQSnA?t=342), but, bemusingly, her items seemed to be untouched.
 
 When Shiori went to Nerissa's house, she discovered a hidden shrine and took several books off a secret shelf. Shiori was annoyed by the loud music, so they chose to have a picnic at her house instead (see [Nerissa-Shiori](#edge:nerissa-shiori)).

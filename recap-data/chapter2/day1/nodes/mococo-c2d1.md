@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Mococo had lost her memories—again—as she listened to the explanation of the new situation she and the other heroes were in. But did she care? Not particularly. She didn’t question it at all. Sure, she had trouble remembering people who were once close to her, like [Elizabeth](https://www.youtube.com/watch?v=Fv6DAiZLbUk&t=823s), and others she was only vaguely familiar with, like [Nerissa](https://www.youtube.com/live/Fv6DAiZLbUk?si=KUz2qVX6vM0F-4ff&t=2737)—but beyond that, she was remarkably unbothered.
 
 Maybe, in some strange way, it was a blessing. A clean slate. A sweet release from the trail of crimes she’d left behind in her last adventure. Wrongfully suing a local business, corrupting the land, singlehandedly wiping out all of Fuwawa’s chickens in one fell swoop—this new journey was her chance at redemption.

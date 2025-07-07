@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 _Cecilia_, the very durable _automaton_, was minding her own business when, out of nowhere, a grand piano fell on her, knocking her out instantly. Don’t you just hate it when random pianos fall from the sky—indoors, no less?
 
 [Hate it when that happens](#embed:https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=435)

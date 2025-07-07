@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia Immerkind wanders about in a dream and meets Cecilia Immergreen who tells her that she must be the [kind one](https://www.youtube.com/live/48HSA_GcOZ0?si=BmXYwLW7t-EgDrVB&t=627). Cecilia wakes up inspired and immediately starts sharing flowers with others to spread kindness (see [Cecilia-Kiara](#edge:cecilia-kiara)).
 
 While wandering, Nerissa Juliet Ravencroft calls Cecilia and invites her to a group with Lady Bloodflame and Fuwawa to explore the Star Site: Elpis. The ever-so-kind Cecilia boosts the morale of the group by giving one free compliment to her fellow travelers.

@@ -1,3 +1,6 @@
+<!-- title: Roa Pandora -->
+<!-- status: Alive -->
+
 The work of a CEO is never done as Roa, Not Rao or Raora, Pandora made it a point to start her days early to ensure that she and her employees are prepared for success. And truly, Pandora is proud of her employees as she marvels at newly constructed The Gacharms shop [Bijou built](https://youtu.be/i54lsw-XjDA?t=692) and the gacha system they implemented.
 
 Pandora called Mordan Ramsey for a butter she needed for a quest and is quite pleased by the fair price. Later on, Mordan would advertise her tavern but a potato path would catch Pandora's eyes spies Nerissa's shop at the end. Recalling her shop has the best potato salad, Pandora inquires about it but then found herself caught between the two chefs trying to [out-chef](https://youtu.be/i54lsw-XjDA?t=4654) the other.

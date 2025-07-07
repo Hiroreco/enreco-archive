@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: In-bread -->
+
 There was an apprehensive sense of foreboding. Was it the air? The child on Bae's head? Inside her? Wherever it was from, it didn't stop the visions, snapshots of a [blurry face in her dreams.](https://youtu.be/L7rBGepFrXA?t=824)
 
 But visions of what could be Bae's past weren't the only thing troubling her. There was also love... and Gonathon's rather messy relationship. Bae called him to her PP Hole, concerned about his well-being after yesterday's _bombastic_ events. Glad to hear he was fine, she asked for his love advice. Bae was but a peasant, dumb (and poor) in many ways but especially in matters of the heart. A lesson her Mother never finished, but the heart didn't heed what the brain thought, stirring whenever she met the lovely Immerkind... And _anguish_ as Bae knows she wasn't the green apple of Immerkind's green eyes.

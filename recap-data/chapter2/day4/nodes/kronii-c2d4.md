@@ -1,3 +1,6 @@
+<!-- title: Ouro Kronii -->
+<!-- status: Alive -->
+
 Today felt important for Tam—she couldn’t explain why, but there was something in the air. A pull. A subconscious urgency. With that, she joined Mordan, Gonathon, and Nerissa, setting off to tackle the [Star Site: Chronos](https://www.youtube.com/live/YVyeKQ-6Ka8?si=eMc-IJaSIceRJmM9&t=685).
 
 Time. That was the theme of the dungeon, made clear from the moment they stepped inside. Day and night flickered like a faulty lantern, the sky shifting with every step. The trials? All timed. Every challenge ticked down ominously, each misstep shaving away precious seconds. Even the puzzles, though unforgiving, could be reset—_rewound_ as if the dungeon itself had bent to the flow of time. And then there were the platforms—eerie heads embedded in them, silent observers of every movement. The visuals were unsettling, sure, but more than that, they felt... fitting.

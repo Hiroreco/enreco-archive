@@ -1,3 +1,6 @@
+<!-- title: Roa Pandora -->
+<!-- status: Alive -->
+
 It was a sleepy start for Roa's day as she pondered what to do. Her beloved shop, The Gacharms, was doing well with little for her to do. Perhaps today she should focus on something else... or someone else.
 
 With that person in mind, Roa [called her Red Knight](https://youtu.be/E-LGNO7JdO4?t=748) and, needing more upgrade stones, offered to accompany Elizabeth to the Remnant fields to mine Enigmatic Stones, which Elizabeth agreed to, suggesting they meet by the wagon.

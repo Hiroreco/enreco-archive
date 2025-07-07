@@ -1,3 +1,6 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Alive -->
+
 Day three marked a turning point for Nerissa, as she discovered a new passion: the relentless pursuit of wealth. Unlike Fauna, who needed money to fuel her thriving business, or Gonathon, who used it to help others, Nerissa's goal was simple—she just liked being rich.
 
 Her day began with a brief chat with Fauna, during which Nerissa declared her mission to amass as much money as [possible](https://www.youtube.com/live/LH_8d-8gZow?feature=shared&t=313). Wasting no time, she dived into quests to build her fortune. It was during these quests that she stumbled upon a game-changing revelation: a "glitch" in the kingdom's system that allowed her to infinitely exploit a particular quest for its rewards.

@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 NinoIna's consciousness returned to the Kingdom of Libestal in the Library, and the very first scene to greet her eyes was the figure of her consort eternal. It was cute! They had a whole thing about how fate brought them together, clearly a divine sign that they were meant for each other. Verily, the Hero and her Goddess knew not what was about to transpire on this new day and what Lady Fate [had in store for them](https://youtu.be/UyN7jwsiiXA?t=17578s) tomorrow.
 
 Surely the Hero would take the news in stride.

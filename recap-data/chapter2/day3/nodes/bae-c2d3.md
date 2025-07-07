@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: In-bread -->
+
 [BAE IS RICH!](#embed:https://youtu.be/Lp7GyRVbz1c?t=331)
 
 Much has progressed since we last saw Peasant The Bae, for she is now a peasant only in title, with more gold in her pockets and her beloved "tHE dUMPSTER" nearing its grand opening.

@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Seemingly unfazed by the previous day’s chaos, Shiori started off her morning productively by helping others get through the Star Site: Chronos dungeon. It was nice—being helpful, motivated, and untouched by drama… well, for a little while, anyway.
 
 Inevitably, she got dragged into the madness. But more often than not, she played the role of a distant observer, silently watching the chaos unfold around her.

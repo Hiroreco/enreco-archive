@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 _The Great Tam Gander... Rotary blades spinning..._
 
 Another day, another set of commissions Shiori was hired to write. Stories with details down to a tee. And unlike Shiori's stories, today seemed limitless in its subplots, such as witnessing the Red Knight's and the Fuzzy One's tender moment of sister-like companionship, [Elizabeth's kindness towards Shiori](https://youtu.be/tJ_YXGE3o2w?t=1734) (in return for [Shiori's generosity](https://youtu.be/tJ_YXGE3o2w?t=677)), and recruiting Fuwawa's services for a special event—the Hot Pink One's pregnancy announcement. Of course, the goddess will be shouldering the costs; it is _her_ party.
