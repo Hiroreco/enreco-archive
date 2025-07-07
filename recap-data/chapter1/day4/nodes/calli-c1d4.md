@@ -1,3 +1,6 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 Seeing that business wasn’t booming as expected and realizing she had been making losses instead of profits (thanks to giving everything away for free to her less wealthy/very poor companions), Calli decided to take her fourth day a bit easier. Her goal was clear: to make back the money she had lost.
 
 Before Calli could dive into her money-making plans, she had to tackle the day's primary task—the conquest of the _Volcanic Dungeon_. She joined Bijou, Ina, Shiori, and Napoleon Galileo Aristotle Targaryen on the fiery adventure.

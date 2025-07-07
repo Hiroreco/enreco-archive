@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 Tam might not have had an active "point of view" today, but that didn’t stop the chaos from finding her anyway. Let’s recap…
 
 — Pulled into a full-blown soap opera with her supposed girlfriend? Check.

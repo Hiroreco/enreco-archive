@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Ina re-entered the fantasy world for her second day, the chaos of the first still fresh in her mind. Yet, somehow, the absurdity of her guildmates had already become her new normal. The moment she arrived, she found herself dragged into a [lively tavern](https://www.youtube.com/live/z4R10dPeuwY?feature=shared&t=364), where familiar tunes blared, and her companions, along with other guild members, danced with reckless abandon. Ina didn’t comment much, though; she had grown accustomed to this bizarre kingdom.
 
 Soon after, the Hot Pink One approached her, [inviting her](https://www.youtube.com/live/z4R10dPeuwY?feature=shared&t=816) to join in the conquest of the _Ocean Temple Dungeon_.

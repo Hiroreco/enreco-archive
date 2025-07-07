@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 Between the two days, Bijou finished building the storefront of the Gacharms shop. She’d devised a system to randomize which charm would be dispensed—using letters to pick a random spot on the display board inside the store.
 
 Bijou was among the first to wake up today, ahead of the dungeon’s grand opening. She spent most of that time gathering crafting materials, constructing the shop’s storage area, and knocking out side quests. All for good reason—she wouldn’t be able to stay around for long.

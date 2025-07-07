@@ -1,3 +1,6 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Alive -->
+
 _Nerissa_, like everyone else, woke up in a white box with no memories of her past. Although overwhelmed, she tried her best to start conversations with those around her, having small chats here and there.
 
 However, her longest initial conversation was with a maiden in red, _Elizabeth Rose Bloodflame_. Their chat consisted of simple introductions, but there was an undeniable sense of familiarity, like a deeper connection existed between [them](https://www.youtube.com/live/PJSd7DYlGNo?si=l3socXPAD6ViAdz6&t=1654).

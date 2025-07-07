@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 Bijou stepped into her fourth day brimming with newfound confidence. Armed with a proper hat at last, she no longer felt the sting of being hatless in a world of headwear. Her day began with a tour of Queen Mario’s (formerly known as Raora) magnificent new [castle](https://www.youtube.com/live/ZV47e39yyMU?feature=shared&t=505), a structure that left her thoroughly impressed. Feeling inspired, she met with Cecilia to showcase her own recent project: her lucky Moai statue.
 
 [Gacha Moai Statue](#embed:https://www.youtube.com/live/ZV47e39yyMU?t=818)

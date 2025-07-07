@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 Awooooo! That’s right—that’s the call of the wolf pack. Not dawgs anymore—_wolves_. Having already finished pretty much everything she set out to do, the tavern owner found herself with time to spare, so she did what any loyal alpha would do: hung out with her pack and help out wherever needed (see [Calli-Gonathon: Animals](#edge:calli-gigi)). Along the way, she also passed through conversations so questionable they could raise even the sternest of eyebrows.
 
 [\*\*darts eyes around concerned\*\*](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=lN7skq8UX4nbv6z5&t=3212)

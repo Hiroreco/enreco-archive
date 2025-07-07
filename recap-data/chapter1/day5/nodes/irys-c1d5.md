@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: Alive -->
+
 The Hot Pink One began her fifth day feeling, well, hot and pink. After some time away, she returned to the kingdom eager to catch up—or so she thought. Something felt missing in her life. Wealth wasn’t the issue, and while adventures were entertaining, they weren’t fulfilling her deepest desires. It wasn’t until she reflected on her eternal consort, Nino Ina, that the answer hit her: why stop at one wife? If one brought so much joy, surely multiplying that joy by acquiring more wives was the solution!
 
 With a newfound clarity, she set her sights on expanding her royal entourage of love.

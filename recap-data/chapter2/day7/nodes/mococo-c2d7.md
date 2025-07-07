@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Don’t you just love it when you’ve barely woken up and someone’s already asking you for therapy? Well, that’s exactly what happened to the kingdom’s newly renowned therapist, Mococo.
 
 She listened intently, jotting down notes with utmost focus, putting her years of absolutely zero experience and total lack of license to good use—all to give her client the very best their nonexistent payment could buy.

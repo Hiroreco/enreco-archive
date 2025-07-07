@@ -1,3 +1,6 @@
+<!-- title: Amelia Watson -->
+<!-- status: Alive -->
+
 Amelia’s final day in the kingdom began in an unusual and unsettling way. Her wide, sleepless eyes hinted at countless restless nights, and her inventory was filled to the brim with stacks of diamonds. Her movements were erratic, her words nonsensical, and every conversation she initiated revolved around the same frantic questions, spoken in a shaky tone: _"Have you seen my diamond?"_ and _"Did you give me these diamonds?"_ Her behavior left her companions uneasy and deeply concerned.
 
 [Diamond... diamond... diamond...](#embed:https://www.youtube.com/embed/mxOT9QEg5dI?si=QIefO6CBFBGQ4gie&start=315)

@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: In-bread -->
+
 It was quite surreal. The journey was finally over, and Bae could finally return and live her life in the woods, and find that blasted box of hers too while she was at it.
 
 But it seemed peace wasn't felt by all—Queen Tammy and... Oh, it's [the Hot Pink One again](https://youtu.be/NL8O6nH1UE0?t=289). We're having a spat. They looked to be fine at first, but then the goddess magically disappeared from the Queen's eyes, becoming little less than wind—a rather noisy one.

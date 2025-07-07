@@ -1,3 +1,6 @@
+<!-- title: Roa Pandora -->
+<!-- status: In-bread -->
+
 Being a CEO is hard work, and Roa found that the start of her day felt like a ~~EN~~ curse. But she persisted for profit, for The Gacharms shop, and, of course, for her beloved employees.
 
 Still, Roa is a hero, and so she met with Nerissa and Tammy to enter the Stronghold of Ruination. There, they met with the Outlander and learned of his plight: trapped in the accursed ruin-touched prison, and the key to freeing him was to conquer the Stronghold. Understanding this, the trio [defeated the Stain King Proto](https://youtu.be/hpyRxse4zCw?t=2575) with just a few mathematical hiccups along the way.

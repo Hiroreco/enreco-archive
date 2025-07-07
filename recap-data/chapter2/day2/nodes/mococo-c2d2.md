@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Mococo woke up and chose violence.
 
 [BAU BAU _slashes you quietly_](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=KgvW5CAB6m_1lqJW&t=577)

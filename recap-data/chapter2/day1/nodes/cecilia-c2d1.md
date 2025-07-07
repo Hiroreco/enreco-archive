@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
 She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Shining Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
@@ -29,7 +32,7 @@ After a long first day, Immerkind returns to the artist Pygmalion and marvels at
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
 [Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 
-### Fanart
+## Fanart
 
 [Revelation by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
 

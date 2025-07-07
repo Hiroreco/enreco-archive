@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Ina’s sixth day in the kingdom started with an unusual wake-up call—a prank from Elizabeth about horse and cart insurance. Elizabeth spun a story that would trick most, but Ina wasn’t just any listener; she was five steps ahead. Using her quick wit, she turned the tables on Elizabeth, diffusing the prank with ease.
 
 [I only have a cow](#embed:https://www.youtube.com/embed/3zaM1QIff9U?si=mDaHxM6TNe3rkMgo&start=677)

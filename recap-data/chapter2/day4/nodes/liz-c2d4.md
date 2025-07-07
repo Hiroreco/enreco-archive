@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 **Part 1**
 
 A forge built, new stories unfolding—Elizabeth looked back on the day before with a sense of clarity. With each step forward, her journey was beginning to take shape. It may have started on rocky footing, sure, but with new knowledge earned and kind souls met—chief among them the mighty phoenix who had helped her so much—Elizabeth now felt steadier, more grounded, and more determined than ever to keep moving forward. And of course, in the midst of all the day’s events, her moments with Nerissa stood out—moments she hoped to see more of today (see [Elizabeth-Nerissa: Frame By Frame](#edge:liz-nerissa)).

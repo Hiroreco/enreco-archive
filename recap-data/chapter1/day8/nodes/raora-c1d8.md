@@ -1,3 +1,6 @@
+<!-- title: Raora Panthera -->
+<!-- status: Alive -->
+
 The corruption was spreading, dark tendrils slowly consuming the world. Mario, understandably, was not a fan. On the final day, she awoke to a ruined kingdom. Mococo, completely overtaken by the Stain on her hand, was rampaging and spreading [chaos](https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=650). But what broke Mario’s heart most was that the root of it all was her own daughter, Koseki Bijou. The sight of her kingdom in shambles and her beloved child in such a state weighed heavily on her soul.
 
 [My beautiful daughter...](#embed:https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=773)
@@ -14,7 +17,7 @@ The situation only grew more painful when Mario had to witness her daughters fac
 
 The family reunion that followed was bittersweet and deeply emotional. Mario, overjoyed, embraced her daughters, finally free from the shadow of the Stain.
 
-With the corruption behind them, Mario had a rare opportunity to relax and reconnect with the people around her. She greeted Peasant Da Bae, a long-lost member of the Amber Coin, gifting her a [hat](https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=5460). She indulged in moments of playful grandeur, standing on her throne to feel like the queen she always claimed to be. She joined in on the chicken game, relishing the lighter side of life.
+With the corruption behind them, Mario had a rare opportunity to relax and reconnect with the people around her. She greeted Peasant The Bae, a long-lost member of the Amber Coin, gifting her a [hat](https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=5460). She indulged in moments of playful grandeur, standing on her throne to feel like the queen she always claimed to be. She joined in on the chicken game, relishing the lighter side of life.
 
 But the peace was short-lived. Mario joined the heroes for one final confrontation: a battle against the [Stain King](https://www.youtube.com/live/Gou89O6CzmY?feature=shared&t=7691). Yet the ultimate revelation shattered their understanding—it wasn’t the Stains that were truly evil but someone they never would have suspected (see [King: The True Evil](#node:king-of-libestal)).
 

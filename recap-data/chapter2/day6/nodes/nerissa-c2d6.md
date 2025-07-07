@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Despite her declaration from yesterday, nothing strange has happened yet… Certainly. Aside from her [portrait](https://youtu.be/-BFf3e6YJwY?t=344) being moved to a basement, which seemingly served as a secret room for worship. Behind the immaculate portrait were mysterious books stored. Are these books of witchcraft? Simple tales of love and loss? Or an ominous prophecy that has yet to unfold...
 
 [Read "Go, lovely rose"](#text:go-lovely-rose)
@@ -47,7 +50,5 @@ Did she really not remember? Or was she just deceiving them... for reasons not y
 ["Inspired by Maven in Blue" by TibsSketches](https://x.com/TibsSketches/status/1921634037858201687)
 
 ["Maven in Blue" by Keisea](https://x.com/Keiseeaaa/status/1921199677443035543)
-
-["A witch" by komori hiki](https://x.com/hikienlaventana/status/1924207173829083449)
 
 ["...looking forward to the end of the world" by nick](https://x.com/criostatic/status/1921106947182322012)

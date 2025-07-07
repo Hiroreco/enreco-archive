@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Shiori, having missed the chance to tackle the first dungeon on the first day, decided to make it her first task on day two. She enlisted the help of Koseki Bijou and Jyon, with the latter also having not ventured into the dungeon yet.
 
 While waiting for their fourth teammate, a bizarre, chaotic, and utterly Shiori-esque conversation unfolded. Somehow, the three managed to diverge the conversation topic from simple introductions to discussions about milking, biting feet, and eating. Peculiar topics had become par for the course when Shiori was around.

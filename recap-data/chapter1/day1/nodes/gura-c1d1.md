@@ -1,3 +1,6 @@
+<!-- title: Gawr Gura -->
+<!-- status: Alive -->
+
 _"I want to punch this one. I don't know why, I just have an urge,"_ was one of the first things _Gura_ said after waking up in the white room. The target? A blonde maiden named [Jyon Watson](https://www.youtube.com/live/PJtapc2_7ok?si=Y5cIDsVzAWQ_KLyt&t=535). It felt like there was unresolved tension between them—despite Gura not remembering anything about her past. Or maybe she was just feeling extra sassy, later casually calling Tam a dumbass when addressing her [name](https://www.youtube.com/live/PJtapc2_7ok?si=DZTu5_2xTqaUWn3X&t=2562).
 
 During the battle with the Stain King, Gura’s weapon—[a trident](https://www.youtube.com/live/PJtapc2_7ok?si=iOr1m3bizOsFkBs6&t=3078)—was revealed. When she activated its Revelation, it summoned a wave of water that pushed back enemies. After the battle, she was sorted into the _Scarlet Wand_ [guild](https://www.youtube.com/live/PJtapc2_7ok?si=0VHccAIdMWhD0QQf&t=3413).

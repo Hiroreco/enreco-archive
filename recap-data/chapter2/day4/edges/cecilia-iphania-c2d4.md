@@ -30,6 +30,6 @@ Yet, even now, Cecilia’s heart hadn’t given up. Not completely.
 
 ## Fanart
 
-[Cecilia and the Princess by Eule Winters](https://x.com/Eule_Winters/status/1919969659094499795)
+["Cecilia and the Princess" by Eule Winters](https://x.com/Eule_Winters/status/1919969659094499795)
 
-[My Shining Stars by Zeya](https://x.com/NOminishki/status/1920011853004001565)
+["My Shining Stars" by Zeya](https://x.com/NOminishki/status/1920011853004001565)

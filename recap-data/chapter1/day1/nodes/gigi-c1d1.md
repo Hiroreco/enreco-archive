@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Only minutes after waking up in the mysterious white box, the individual clad in orange proclaimed a new identity: _Gonathon with a G_, or simply Gonathon G, a knight with medieval flair, speaking in a manner that added a peculiar charm to the group's already chaotic dynamic. Like everyone else, they were completely clueless about the strange fantasy world they had been summoned to.
 
 [Gonathon with a G](#embed:https://www.youtube.com/live/y9KKa_k2VTU?si=wZsW1DBJimIdz-06&t=607)

@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Mococo was in deep trouble, and she [knew it](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=332). To most of the kingdom, she was now a criminal, though she still had a small circle of allies she could trust. It all started on the fourth day when she tried to trick Nerissa into giving her more lottery tickets and, in frustration, chased the raven lady with claws after failing to extort her. Despite the chaos she caused, Mococo somehow convinced herself that she was the victim. She cited the emotional distress of being hunted down as proof.
 
 [The fuzzy one is furious](#embed:https://www.youtube.com/embed/wINOVotsvPY?si=L90uk7TJtyW8XYLY&start=447)

@@ -1,3 +1,6 @@
+<!-- title: Gawr Gura -->
+<!-- status: Alive -->
+
 Gura entered the fantasy world for her second day, her excitement evident as she proudly wore the [long red hat](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=482). This hat was no ordinary accessory; it symbolized intelligence and status, qualities Gura quickly claimed as her own.
 
 She began her day at the quest board, where Fauna, Cecilia, Darwin Roosevelt DiCaprio Jr., and Shakira were deep in discussion about the FaunaMart lottery tickets. Darwin attempted to sell Gura a ticket, but she was already ahead of the game. According to Gura, those who wore the red hat shared a single brain.

@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 _Spill the tea!_
 
 Shakira inquired of Liz and Nerissa what had happened the day before. The knight felt a bit blue after having missed recent events. Nevertheless, this powerful phoenix was keen on catching up. Shakira quickly got in touch with Immerkind, who updated the Lorekeeper on the status of her connection with the princess.

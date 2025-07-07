@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Tanakisha Karia—or rather, Kiara Takahashi—had her memories returned, though some parts remained a blur. What happened in the end? A fierce battle of epic proportions?
 
 The mystery didn't last long as a [voice](https://youtu.be/5pgqtkxazUo?t=471) reminded her.

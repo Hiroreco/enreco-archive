@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 More flashes of memory surfaced as Elizabeth awoke for the day. This time, she recalled her interaction with Shakira from the day before.
 
 [Shame](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=141)

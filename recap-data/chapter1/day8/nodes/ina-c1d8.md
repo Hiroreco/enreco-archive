@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Her sister was corrupted, and saving her was Ina’s top priority as she embarked on the final day of her journey. Though the kingdom faced an imminent and perilous threat, nothing mattered more to her than her sister. As she wandered through the kingdom, she spotted her sister standing atop the bleeding moai statue. It was evident she had succumbed completely to the corruption.
 
 Ina approached, ready to plead for her sister’s return—but was interrupted by the ringing of Bijou's phone. With a sigh (laugh), she put the confrontation on hold to address a more pressing matter: planning a cure.

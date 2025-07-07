@@ -72,7 +72,7 @@ Defenseless. Vulnerable. On the palm of the monster she created.
 
 ## Fanart
 
-[Fireworks by Zel Maelstrom](https://x.com/zelmaelstrom/status/1922143256164356165)
+["Fireworks" by Zel Maelstrom](https://x.com/zelmaelstrom/status/1922143256164356165)
 
 ["Onsen" by thekaiyip](https://x.com/thekaiyip/status/1921344476032663740)
 

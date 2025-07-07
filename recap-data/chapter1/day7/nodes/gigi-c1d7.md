@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Gonathon awoke from a restless night, haunted by troubling thoughts. The corruption spreading through the kingdom weighed heavily on his mind, alongside the impending sense of doom tied to the "calm before the storm." Above all, his Pearl—the one he cherished most—had forgotten him, leaving an ache of loneliness and doubt in his heart.
 
 Yet, despite the emotional turmoil, Gonathon resolved to press on. As a knight entrusted by his queen, he couldn't afford to falter. He steeled himself, determined to complete the grand statue of his queen—a monument of his devotion—before the day ended. But as he set to work, he was interrupted by an unexpected sight: why were there people in his guild base?

@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia awakens refreshed and clear of mind after a restful night outdoors. She continues her morning ritual of visiting the princess, writing a letter, taking a whiff of her [enamoring scent](https://www.youtube.com/live/NGC0VaSUPnE?t=990s), and enjoying her presence.
 
 Immerkind continues her quest to win the hearts and minds of the population as she toils for 5,000 gold to purchase a ring for the princess. This includes kind activities such as [gambling](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=2974s), pickaxe sales, and taking out a 100% interest loan. She also bought a nice hat.

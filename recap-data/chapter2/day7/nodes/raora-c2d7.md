@@ -1,3 +1,6 @@
+<!-- title: Roa Pandora -->
+<!-- status: In-bread -->
+
 The previous day didn't end as Roa wanted, but it wouldn't matter since _today_ would be the day romance shall bloom and a wedding shall be hers. [Her precious ring](https://youtu.be/m2OG5auudrQ?t=380) was ready, and as she planned—
 
 A phone call from Elizabeth. (See [Roa-Elizabeth: Love Unlasting](#edge:raora-liz))

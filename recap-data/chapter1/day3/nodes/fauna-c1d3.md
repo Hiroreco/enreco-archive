@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 FaunaMart was already under fire—despite being open for just one day, rumors swirled accusing the business of being a scam. Fauna couldn’t pinpoint the origin of these claims, but one thing was clear: she needed to save her company’s reputation. Thus, the green _CEO_ devised a bold PR campaign to turn things around.
 
 [We're a reputable business](#embed:https://www.youtube.com/watch?v=menSag1VKTc&t=178s)

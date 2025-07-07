@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Our Knight's day started earlier than usual, as she helped her fellow knight Elizabeth conquer the previous day's dungeon. She worried that two knights would not be enough but, despite the difficulty, they prevailed.
 
 It was an interesting day as well, from the howls just outside [Mordan Ramsey's Tavern](https://youtu.be/wCysZh57Hcc?t=653) to a newly built house whose design left Kiara [giggling](https://youtu.be/wCysZh57Hcc?t=782). The Lorekeeper remembered previous constructs Ina had built once before, though Ina pouted at Kiara's reaction; t'was nothing more than a jest between friends. Kiara marveled at her own forge's design, appreciating the little touches Elizabeth had improved, particularly the [Shrine of Love](https://youtu.be/wCysZh57Hcc?t=1038). Has Elizabeth's and Nerissa's relationship improved while Kiara was gone?

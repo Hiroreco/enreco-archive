@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Shakira embarked on the second day of her adventure with excitement buzzing in her chest. It wasn’t long before she found herself at the quest board, where she encountered Fauna, Darwin, and Cecilia.
 
 The group struck up a lively conversation, with Shakira and Cecilia bonding over their shared knowledge of German, with Shakira proclaiming it to be the language of the gods.

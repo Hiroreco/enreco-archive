@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 As with the others, today was a day of celebration and goodbyes. Though, surprisingly, new bonds formed as well.
 
 It wasn’t a day without some [eavesdropping](https://www.youtube.com/live/C6kmnHsopgM?si=avfoBgSKUq9BJzvQ&t=268) either. She had woken up on Shiori’s bed again, coming off a dream about watching Pokémon movies. Shiori was already up, writing someone’s commission in the center of the room. Bijou warped away just as she finished to avoid getting caught.

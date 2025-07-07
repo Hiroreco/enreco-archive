@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: Alive -->
+
 Bae couldn't help but gasp at the shops that now surrounded her; what was an empty lot was now the start of a small bustling town as everyone started to build their shop. The former Princess Bijou from the Gacharms Shop nearby greets Bae, and after a pleasant conversation, opens up the idea of possibly purchasing some of Bae's wares to be included in their gacha.
 
 Inspired, Bae decides to set up her own—a knickknack shop to sell items she had found whilst being poor to include a double service of sorts: with every purchase, customers can get a free enhancement! With that in mind, Bae quickly used her construction box to gather mud, for it is the best-suited material for a peasant-owned shop, and acacia leaves... of which was vaguely familiar.

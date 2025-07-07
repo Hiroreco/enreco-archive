@@ -1,10 +1,13 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: Alive -->
+
 When she suddenly found herself in a mysterious white box surrounded by strangers, her immediate reaction was to [panic](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=281). Huh, whuh, where am I? Who are all these folks? Crikey, what’s happenin’? Let me out! That was the rat's entrance into the fantasy world; it was... understandable, to say the least.
 
 She claimed a corner to herself, staying put like a feral animal, ranting as a crazed old man would about the end of the world. Anyone who dared approach was met with a wild-eyed glare and threatening [babbling](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=343). She was not having it. She made it clear to everyone that she was a rat—a very weak one, in fact—and had no interest in playing hero, or whatever it was that she was summoned for.
 
 [She just wants to go home](#embed:https://www.youtube.com/live/y8bcLA6BQsw?t=466)
 
-Her first real interaction was with Tam Gandr, who casually mentioned she was destined to become the next _Queen of Libestal_ (or so she claimed). Bae, starstruck by the revelation, saw an opportunity. If Tam became queen, maybe she could convince the King to send Bae back to her old life. Introducing herself as _Peasant Da Bae_, she swore to protect Tam in hopes of earning that favor.
+Her first real interaction was with Tam Gandr, who casually mentioned she was destined to become the next _Queen of Libestal_ (or so she claimed). Bae, starstruck by the revelation, saw an opportunity. If Tam became queen, maybe she could convince the King to send Bae back to her old life. Introducing herself as _Peasant The Bae_, she swore to protect Tam in hopes of earning that favor.
 
 [In the face of royalty](#embed:https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=2919)
 

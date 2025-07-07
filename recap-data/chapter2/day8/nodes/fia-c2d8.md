@@ -1,3 +1,6 @@
+<!-- title: Fia -->
+<!-- status: Alive -->
+
 Fia arrived just in time.
 
 As the mysterious being prepared to pass divine judgment upon the heroes and the Outlander, a surge of radiant light shattered the oppressive silence—and from it, emerged Fia. With the wave of her hand, the crushing power bearing down on them dissipated, granting the heroes a breath of relief. Then, with calm resolve, she spoke—not just to clarify what had happened, but to reveal the truth of who she truly was.

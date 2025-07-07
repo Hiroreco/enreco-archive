@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 It was the day of reckoning, the finale that would decide the fate of everything. Gonathon was faced with two major challenges ahead of him: the looming final battle against the king and the escalating corruption wrought by the Stain Princess, Koseki Bijou. The day had just begun, and things were already getting out of hand. Nerissa informed him of the corruption spreading rapidly, leaving the kingdom’s fields ravaged. The sight was grim, but Gonathon resolved to put an end to it.
 
 [The situation is dire](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=602)

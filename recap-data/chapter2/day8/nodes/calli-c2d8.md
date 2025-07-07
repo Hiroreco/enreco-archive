@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 **HOME FOUND**
 
 On the last day, Mordan Ramsey resumed building houses for the upcoming auction. It was business as usual. Even so, she wondered what to do with the money she had earned. Perhaps she could buy another ring and marry someone special, but she had long decided that married life wasn't one for the therapist.

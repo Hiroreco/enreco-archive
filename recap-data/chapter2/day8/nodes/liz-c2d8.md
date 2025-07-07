@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 **Knight's Log 006**
 
 A knight of honor. Smith of the Jade Forge. Elizabeth Rose Bloodflame.

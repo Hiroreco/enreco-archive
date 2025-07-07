@@ -1,3 +1,6 @@
+<!-- title: Roa Pandora -->
+<!-- status: In-bread -->
+
 A successful business, companionship, and love. Roa's life reached its highest peaks and lowest points during her stay in Libestal. Through the suffering she endured, her perseverance paid off: Roa finally achieved the happiness she sought. There was little Roa could add to make her life better. But, as she watched Mordan build another house for the auction, [the chef suggested](https://youtu.be/neUwPDy7cbk?t=596) a new house for the newlyweds.
 
 Unfortunately, Roa was too broke to afford a new house. With the Gacharms' charms now obsolete, Roa turned to the jobs available. As she pondered by the Quest Board, Gonathon came by to congratulate her on her marriage. They traded pleasantries; Gonathon teasing Roa about her "special night" with Kiara, and Roa, in turn, asked if Gonathon had a special person in his life, to which he replied 'no.'

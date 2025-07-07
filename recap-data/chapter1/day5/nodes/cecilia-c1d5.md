@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 Cecilia, proud knight of the princess of Evergreen, donned the title of the _loyal lord protector_. At face value, she was a symbol of honor and duty. Beneath the surface, however, lay an ulterior motive—one that would shake the foundations of her role as a hero.
 
 Her day began with Nerissa briefing her on the Mococo lottery [situation](https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=1085). Armed with her "expert" legal knowledge, Cecilia advised Nerissa on court etiquette: avoid apologies and deny mistakes—no matter the truth. Despite the morally questionable guidance, Cecilia exuded confidence in her approach.

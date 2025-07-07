@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 Cecilia began the day with a focused yet questionable plan: she aimed to control the princess and use her as a puppet to rule the kingdom. Though many dismissed her as delusional, they humored her intentions, allowing her to proceed with her schemes. To ensure the success of her plan, Cecilia resolved to strengthen her relationships with others—not out of altruism, but to strategically "leech" their resources and support when needed.
 
 Early on, Cecilia met with Mococo, her client from the prior day’s chaotic lawsuit. Mococo's skepticism about Cecilia’s competency as an attorney was palpable. In an attempt to impress her client, Cecilia exaggerated her past successes, which only served to undermine her credibility further.

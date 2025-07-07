@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 A writer's work was never done; a book must end for another to begin and Shiori's script, too, will soon conclude. It is with this in mind that Shiori found herself writing once again, finishing her last commissions. Only a few remained—Kiara's rather [_suggestive_ fanfiction](https://youtu.be/jh0GSZRpkfU?t=553) and Roa's memory.
 
 [Read "Kiara x Roa Snu"](#text:kiara-roa-snu)

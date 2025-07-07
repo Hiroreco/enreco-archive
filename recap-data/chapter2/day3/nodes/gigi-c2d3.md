@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 A Hero Searches for His Purpose
 
 Returning from his day training in the forest, Gonathon had much to catch up on, chief among them being the need to complete not one, but two dungeons. However, what initially looked to be a simple day of adventuring soon became anything but.

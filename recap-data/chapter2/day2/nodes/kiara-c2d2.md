@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 The job of a Lorekeeper was hard as Kiara and Mordan looked over the journals of our heroes, but nonetheless rewarding. Some expressed concern, but Kiara gave her honor as a Knight that their privacy would be kept.
 
 As Kiara began the side quest to set up her own shop, she called her beloved (not related) cousin Immerkind and shared moments of kindness with her. Though for a moment they doubted their relation, they reaffirmed it as they out-kind one another with (see [Kiara-Cecilia](#edge:cecilia-kiara)).

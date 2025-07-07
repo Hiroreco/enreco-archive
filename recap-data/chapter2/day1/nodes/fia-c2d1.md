@@ -1,3 +1,6 @@
+<!-- title: Fia -->
+<!-- status: Alive -->
+
 Fia was a talking cat-like doll who oversaw the _Library Between Worlds_, a strange yet seemingly all-knowing figure who guided the heroes into this new journey, recalling their previous tales.
 
 She explained that the King they’d served had deceived them; his true identity was the Outsider, a being of rage and hatred, seeking vengeance on those who imprisoned him in the fabricated kingdom of Libestal and yearning to destroy the universe.

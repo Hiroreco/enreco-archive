@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **A New Start for a Weary Heart**
 
 The day started like any other, with Gonathon doing his rounds and visiting companions. But upon arriving at Shiori’s home, the Humble Knight was met with a [sobering discovery](https://youtu.be/rDdbFYqcAyI?t=482): the witch he had grown close with had no memories of him and greeted Gonathon as a stranger. For most, such a revelation would leave them numb or furious. But the Humble Knight responded only with a gentle greeting and a brief explanation of who he was.

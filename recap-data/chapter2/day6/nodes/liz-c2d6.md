@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 From the start of the day, it seemed that Liz had Juliet living rent-free in the back of her mind. Her usual morning routine of writing in her journal left an entire section dedicated [to Juliet, signed by Romeo](https://www.youtube.com/live/uEB2dIe37oo?si=7SOCL_EVYdha0nu6&t=270). Elizabeth felt bound by duty, memory, and expectation, leaving her envying Nerissa's freedom or perhaps admiring it.
 
 [Read "From Romeo"](#text:from-romeo)

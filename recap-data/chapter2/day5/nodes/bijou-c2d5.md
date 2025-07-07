@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 Today was the day Princess Bijou wanted to set things straight.
 
 She had awoken from the bed of her beloved. It was the first night of restful sleep she had in four days; she either slept on the floor of her shop or collapsed (like that one time at the end of Day 2).

@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 Tam kicked off her day by diving headfirst into the Star Site: Chaos dungeon alongside the Hot Pink One, Nino Ina, and Peasant the Bae. There, they uncovered Bae's lost memories—turns out, she was more than just some quirky [peasant girl](https://www.youtube.com/watch?v=PukMnVXnJMo&t=2307s). Afterward, Tam was challenged by the Outlander himself. It was a challenge, alright, with the Outlander easily wiping the floor with her regal robes as Queen Tam was put in the dirt over and over due to her weak equipment.
 
 This prompted the Queen to get better charms for herself, but in true Queen Tam fashion, she just had to [overcomplicate things](https://youtu.be/PukMnVXnJMo?t=3165). It wasn't even about not having the money for the "Gacharms"—she had some coins. She just wanted to appear special, maybe even getting a discount from the shop.

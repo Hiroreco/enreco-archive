@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 The third day dawned for Tam, the blue, self-proclaimed Queen of Libestal. Upon entering the kingdom, she was greeted by Calli, who eagerly announced the opening of her new diner and promptly invited Tam to buy a meal. Tam was soon joined by Gonathon, Bijou, and Shiori, the latter being Bijou’s wife.
 
 Despite the diner's variety of offerings, Tam was a picky eater and made an elaborate request: a meal free of sodium, dairy, gluten, and fruit. She made all those requests as she was looking at an item literally called the _Ultimate Fruit Milkshake_.

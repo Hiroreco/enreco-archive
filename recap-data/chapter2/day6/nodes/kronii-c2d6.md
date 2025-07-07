@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 Perfect Queen Tam Gandr woke up from her perfect slumber in her perfect “truck” abode.
 
 She might have been a bit sleepy, but she was raring to go about her day. She even stopped for a moment to give tips to Fuwawa, who was struggling with her duel against the Outlander.

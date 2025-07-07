@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 _Justice_. Elizabeth’s thoughts had been consumed by that single word ever since her journey began. It lingered in her mind like an unfulfilled promise, shaping her actions and ideals as a knight. But why did it resonate so deeply? Perhaps it was her duty to uphold justice, to shield the kingdom from evil. Or perhaps it was something more personal—a connection she had yet to fully understand. Regardless of the reason, Elizabeth resolved to honor her purpose by serving the king and protecting the people, even as the shadow of impending doom loomed large.
 
 [Justice: the quality of being just](#embed:https://www.youtube.com/embed/Gw0dZbPKTG4?si=2V7sePWgWbYocBpb&start=322)

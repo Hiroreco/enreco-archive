@@ -1,3 +1,6 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Dead -->
+
 Apologi for bad english
 
 Where were when Nerissa was kil

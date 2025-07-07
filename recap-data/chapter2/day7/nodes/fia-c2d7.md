@@ -1,3 +1,6 @@
+<!-- title: Fia -->
+<!-- status: Alive -->
+
 The Princess had a doll—a small, precious thing she once gave to her father before he rode off to war. It had kept her safe, she believed, and she hoped it would protect him too. But he never came back. Nor did her mother. Nor did countless others.
 
 The doll bore a striking resemblance to Fia.

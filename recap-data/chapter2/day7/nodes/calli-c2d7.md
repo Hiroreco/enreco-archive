@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 **A New (Career) Start**
 
 After a quick trip to the Bahamas (a kingdom outside of Libestal), Mordan Ramsey returned with a rejuvenated mind to start a job… in _real estate?!_

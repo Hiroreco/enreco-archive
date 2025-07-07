@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Gonathon awoke to his sixth day, only to be greeted by a sight that filled him with rage and despair—his queen’s statue, the one he had painstakingly worked on for days, had been defaced. This wasn’t just vandalism; it was blasphemy against his guiding light, Queen Tam Gandr. Determined to uncover the culprit, Gonathon vowed to bring them to justice.
 
 [Ah! Such blasphemy!](#embed:https://www.youtube.com/embed/oygFzGlMT28?si=2KtGxfUiZWo9TRa6&start=180)

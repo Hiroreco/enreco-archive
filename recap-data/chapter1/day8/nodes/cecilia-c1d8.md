@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 The final day had arrived, and if there was ever a day for Cecilia to execute her plan to take over the kingdom by controlling the princess, it was now. Everything was ready—only the sacred ritual remained, along with gifting the princess the "cake" to seize control of her mind.
 
 Part of the ritual required the involvement of someone Cecilia considered an ally. Naturally, she stopped by FaunaMart to ask her green companion to fulfill that role. By chance, Amelia was also there, frantically searching for the "diamonds" she'd been obsessing over all day. Cecilia didn’t really understand what Amelia was on about, but tried to help her [nonetheless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=875).

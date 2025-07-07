@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Another day, another adventure. Pockets full of coin, enough potato salad to last her a week—five days into this new journey and things were looking up for Nerissa. It hadn't been smooth sailing at the start, sure, but she'd pushed through, and now? She was thriving.
 
 Nothing could possibly ruin her mood on such a good da—wait. Why wasn’t her painting next to Lady Bloodflame’s anymore?

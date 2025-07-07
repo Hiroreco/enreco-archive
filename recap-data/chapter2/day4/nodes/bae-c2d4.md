@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: In-bread -->
+
 It was another brilliant morning for Peasant The Bae, a peasant with a whopping 13K gold. But, as she went around showing off her new hat, the others looked at it warily, [inquiring how Bae felt](https://youtu.be/tEdXQofZuf8?t=428) to her bemusement.
 
 [Peasant Partner Loan (PP)](#embed:https://youtu.be/tEdXQofZuf8?t=1188)

@@ -23,3 +23,7 @@ Despite not noticing Roa's affections, the Red Knight [cared very much](https://
 ...Quite anti-climatic isn't it? Well, she immediately got married to another, in the same day no less (see [Shakira-Roa](#edge:raora-kiara))
 
 Yay for happy ending?
+
+## Fanart
+
+["Big Cat, Big Pains" by orEO](https://x.com/fernrOreo/status/1923057970440536174)

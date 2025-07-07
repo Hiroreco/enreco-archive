@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Throughout her journey, Elizabeth experienced flashes of memories—snapshots of her time in the kingdom. They ranged from moments of deep camaraderie to reflections on her ideals. But this time, the memory was different—darker and more vivid.
 
 [A knight, and a sight of ruin](#embed:https://www.youtube.com/live/_urPfTQnLes?si=rKBD2pyCzW9lFY-3&start=329)

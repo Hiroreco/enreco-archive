@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 The lands were burning. Grass, leaves, and plants withered as a dark atmosphere cloaked the kingdom. All of it stemmed from a single source: the Stain Princess, Koseki Bijou. Having rebelled against the king, her comrades, and everything she once stood for, Bijou surrendered herself entirely to darkness. And this was just the beginning. Soon, the kingdom, its people, and everything else would be under her rule.
 
 [Corruption tour goes hard](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=2dtIYm0_FVJFB59D&start=604)

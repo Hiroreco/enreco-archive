@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 _Mococo_ woke up in a strange white room, completely confuzzled and on edge, with everyone around her appearing suspicious.
 
 [Confused haeh noises](#embed:https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=540)

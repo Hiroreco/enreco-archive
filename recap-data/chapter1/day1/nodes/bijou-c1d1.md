@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 There are many different ways a person may get transported to another world. They might get hit by a truck, get hit by a train, or basically get hit by any moving vehicle. While many heroes claimed to have arrived through these methods, _Koseki Bijou's_ tale stood out. She was crushed by a giant Moai statue, accompanied by multiple _vine boom sound effects_.
 
 [_Boom_](#embed:https://www.youtube.com/live/OTmQwttr1Aw?t=327)

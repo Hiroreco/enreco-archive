@@ -1,3 +1,6 @@
+<!-- title: Raora Panthera -->
+<!-- status: Alive -->
+
 Raora began her third day with a clear goal of completing her castle. It was more than just a structure—it was a testament to her status as queen, a towering emblem of her dominance. Wasting no time, she set out to gather the materials needed to bring her vision to life.
 
 As she worked through her quests for money to buy materials, she encountered various people along the way. She greeted Fauna, took a moment to buy a [lottery ticket](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=988), then paid a visit to Calli’s newly constructed tavern for a [tour](https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=1480).

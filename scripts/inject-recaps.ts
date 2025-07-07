@@ -93,10 +93,9 @@ async function main() {
             )) {
                 const base = path.basename(file, ".md");
                 const idKey = base.replace(new RegExp(`${suffix}$`), "");
-                const md = await fs.readFile(
-                    path.join(nodesDir, file),
-                    "utf-8",
-                );
+                const md = (
+                    await fs.readFile(path.join(nodesDir, file), "utf-8")
+                ).trim();
                 const cleanedMd = stripCommentTags(md).trim();
                 const nd = chart.nodes.find(
                     (n) => n.id.startsWith(idKey) && n.data.day === dayIndex,
@@ -216,6 +215,12 @@ async function main() {
             const wNode = wChart.nodes.find((n) => n.id === zNode.id);
             if (wNode) {
                 wNode.data.content = zNode.data.content;
+                if (zNode.data.title !== undefined) {
+                    wNode.data.title = zNode.data.title;
+                }
+                if (zNode.data.status !== undefined) {
+                    wNode.data.status = zNode.data.status;
+                }
             }
         });
 

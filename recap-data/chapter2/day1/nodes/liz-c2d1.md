@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Right as she was regaining her composure after a long slumber—ever since the battle against the corrupted King—Elizabeth suddenly found herself thrown into a place that somewhat resembled a library, where a cat named Fia greeted her and explained the current situation.
 
 There was a lot to take in, but one detail stood out to Elizabeth more than anything else: she had been brought back in time to an earlier state of Libestal. Her memories were fractured, and she was told she would need to recover them beyond the kingdom’s walls.

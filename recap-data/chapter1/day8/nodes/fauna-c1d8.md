@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 The end of the world was afoot—or so everyone kept saying. Corruption plagued the lands, chaos spread like wildfire, and impending doom loomed over the horizon. For many, this would have been cause for panic, a time to reflect on their lives, relationships, and everything they’d built. But for our CEO? It was a business opportunity. What better way to capitalize on the apocalypse than with an End of the World Sale? After all, if the world was ending, everything must go.
 
 [End of World Sale is crazy](#embed:https://www.youtube.com/embed/8x-MVX8h9gU?si=upbpi2piV4Z8ERvt&start=142)

@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 While everyone around her was confused and panicking—grappling with the fact that they'd lost parts of their memories once more—the pink ex-tavern owner stood calmly. Why? Because she remembered everything. More importantly, she had been tasked by a certain important someone—Fia—alongside Kiara, to oversee operations at the Library. That made her feel special. She was the main character now. Probably.
 
 [I'm your hero](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=d-oTxkczcDfoDeMa&t=1009)

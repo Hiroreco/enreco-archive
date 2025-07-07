@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 Cecilia woke up on her third day feeling dizzy, as if she had hit her head. Her memories were hazy—something felt missing. Did something happen the day before? She couldn’t say for sure.
 
 To make things stranger, she discovered a piece of paper tucked inside her shoe. Written in elegant green cursive were the words "find it...!" How did it get there? Who wrote it? And what did it mean? Confused but intrigued, Cecilia resolved to uncover the mystery.

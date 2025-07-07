@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 One of the first things Cecilia did on her first day was have a conversation with Shakira in German, a language only the two of them knew. And, in a similar fashion, one of the first things Cecilia did on the second day was, you guessed it, another conversation with Shakira in [German](https://www.youtube.com/live/a74NeBcixi8?feature=shared&t=394). It seems fair—when you're one of only two people fluent in some ancient, mystic language, you make use of it.
 
 During her morning greetings, Fauna approached Cecilia to introduce her new business venture: _FaunaMart_, a convenience store selling daily necessities and, of course, the star product—lottery tickets. Cecilia was intrigued and decided to support her fellow green compatriot by buying four tickets.

@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Gonathon’s fourth day began with a declaration from Bijou, who claimed herself to be the [princess](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=521) of the kingdom, with Cecilia as her protector. Despite the peculiarity of this announcement, he went along with it. Shortly after, he [introduced](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=736) Cecilia to his wife—his beloved "Pearl"—and recounted his first interaction with Gura, who caused him quite a headache throughout the day (see [Gonathon-Gura: Little Gnome Boy](#edge:gigi-gura)).
 
 [Keep my wife safe](#embed:https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=806)

@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 Fauna found her business embroiled in an unexpected predicament. After entrusting her store to Nerissa for just one day, she discovered it was now on the brink of a legal battle. This didn’t faze Fauna though—after all, getting sued and encountering trouble was just part of running a business. She didn’t hold Nerissa responsible for the situation, especially since Nerissa somehow had twice as much money as Fauna (a fact that made Fauna question her position as the boss). While Nerissa panicked, Fauna, with the composure of a mafia boss-like CEO, already had a plan.
 
 [Everything is under control](#embed:https://www.youtube.com/embed/iRM_kaxQBp4?si=--h9gdTm5mr013AR&start=219)

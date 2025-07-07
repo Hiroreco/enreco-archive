@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 **SHADOW**
 
 There she stood. Awake in the dead of the night, [staring back at her portrait](https://youtu.be/MXqotm_8_Hc?t=228), entranced, she drowned in the deafening silence of a seemingly peaceful evening. Deep within, there was a storm brewing. All that pain she suffered from unrequited love... the anxiety that crawls into every bit of her nerves… The jealousy that stabbed her in the back gradually coalesced to form a maelstrom that could wreak havoc on anyone who stood in her way.

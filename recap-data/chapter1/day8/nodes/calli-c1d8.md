@@ -1,3 +1,6 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 Why was the world so [dark and gloomy](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=291)? Calli pondered this as she faced her final day in the kingdom. Withering trees, raging fires, and ravaged fields stretched as far as her eyes could see. Something sinister had happened. It didn’t take long for her to confront a potential culprit: Koseki Bijou, known now as the _Stain Princess_.
 
 [Did you do this?](#embed:https://www.youtube.com/embed/evcruocvE3g?si=TZosSX5I76ctYpMW&start=394)

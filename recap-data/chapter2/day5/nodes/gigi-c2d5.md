@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **What Does It Mean to Be a Knight?**
 
 The previous day’s events had left Gonathon G a broken and deeply troubled knight. However, as the sun rose on a new day, Gonathon was resolute in his desire to seek redemption and improve.

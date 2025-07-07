@@ -1,3 +1,6 @@
+<!-- title: Raora Panthera -->
+<!-- status: Alive -->
+
 _Raora_ awoke in the white box and, true to her nature, did what any self-respecting big cat might do: she [lashed out](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=847) at a few unfortunate souls and, oddly enough, offered comfort to a lost dog.
 
 [Is she really a cat?](#embed:https://www.youtube.com/live/8ybUOw9NhMc?t=934)

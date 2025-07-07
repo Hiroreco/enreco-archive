@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 **THE WITCH'S LAIR**
 
 More and more people had [discovered](https://youtu.be/FlPFFE5_X3Y?t=7063) the secret shrine that was miraculously built under Nerissa's house. Surprisingly, she didn't look bothered; in fact, it rather seemed intentional that she allowed them to find it.
@@ -86,6 +89,6 @@ After all, _NOTHING STAYS PURE_...
 
 ["The one they call The Witch" by Hexcaster1636](https://x.com/lancaster_1636/status/1924872752890077294)
 
-[rkgk by Magho](https://x.com/M_Agho/status/1920808679089009020)
+["rkgk" by Magho](https://x.com/M_Agho/status/1920808679089009020)
 
 ["Nothing stays pure" by ArizaZarigueya](https://x.com/Hanaswing/status/1921134059658330192)

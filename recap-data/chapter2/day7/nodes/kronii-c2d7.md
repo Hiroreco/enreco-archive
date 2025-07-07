@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 The Queen marches in her own time.
 
 Who said she was late? No, [the Queen is never late](https://youtu.be/CUh9eciJil4?t=137). The world is about to end? It was a simple matter for the benevolent Queen to delay the apocalypse by twenty minutes, for she was also the Warden of Time.

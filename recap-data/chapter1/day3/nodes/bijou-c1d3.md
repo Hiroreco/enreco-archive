@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 Bijou's objective for the third day was simple: make lots of money. But unlike Gonathon, who was making money to pay his dowry, help the community and his queen, or Nerissa, who supported her guildmate with their business, Bijou's goal for riches was much grander. It was for... _a hat_.
 
 She had been yearning for one ever since she stepped foot in this kingdom. Every day up until now, she had lived in shame, watching others with their long red hats, blue square hats, and green L-shaped hats, while she possessed no hat of her own. This was going to change today. But, of course, like always, there were plenty of shenanigans along the way.

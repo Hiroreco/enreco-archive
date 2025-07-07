@@ -12,7 +12,7 @@ When Nerissa greeted the Red Knight with unfamiliar eyes, Elizabeth felt a sharp
 
 As if their bond had never truly been severed, the two crossed paths again and again. When Elizabeth was off building in solitude, Nerissa was there, keeping her [company](https://www.youtube.com/live/2toZfafpyW8?si=A837PYRSHvJus1sJ&t=8673). And when Nerissa wandered off to tend to her own matters, Elizabeth was never far behind—[watching](https://www.youtube.com/live/2toZfafpyW8?si=YfAOcQoIOWbai1uL&t=5607) over her, just like she always used to.
 
-Maybe not all was lost. Maybe something still lingered between them. Until that day came—until Nerissa Ravencroft remembered—Elizabeth wouldn’t change a thing.
+Maybe not all was lost. Maybe something still lingered between them. Until that day came—until Nerissa Juliet Ravencroft remembered—Elizabeth wouldn’t change a thing.
 
 [What's my name?](#embed:https://www.youtube.com/live/2toZfafpyW8?si=Bibgd_RaoXYFdYtI&t=4831)
 
