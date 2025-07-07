@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
 import { fileURLToPath } from "url";
-import { CHARACTER_ORDER, sortByPredefinedOrder } from "./orders.js";
+import { CHARACTER_ORDER, sortByPredefinedOrder } from "../orders.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 

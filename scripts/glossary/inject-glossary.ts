@@ -13,7 +13,7 @@ import {
     GLOSSARY_MISC_MECHANICS,
     GLOSSARY_WEAPONS_ORDER,
     sortByPredefinedOrder,
-} from "./orders.js";
+} from "../orders.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
