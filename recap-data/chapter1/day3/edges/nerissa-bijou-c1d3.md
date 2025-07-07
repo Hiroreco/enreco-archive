@@ -1,6 +1,6 @@
 <!-- title: Fake Honkers -->
 
-Only a day after her marriage, Bijou found herself facing unexpected obstacles in her sweet, sugarcoated life. As she greeted her wife, Shiori, upon waking, Bijou discovered some shocking news: Shiori had somehow acquired another wife. That wife was none other than Nerissa Ravencroft.
+Only a day after her marriage, Bijou found herself facing unexpected obstacles in her sweet, sugarcoated life. As she greeted her wife, Shiori, upon waking, Bijou discovered some shocking news: Shiori had somehow acquired another wife. That wife was none other than Nerissa Juliet Ravencroft.
 
 [She seems quite angy](#embed:https://www.youtube.com/live/Tl7rUzJyc_0?t=5243)
 

@@ -4,7 +4,7 @@ She claimed a corner to herself, staying put like a feral animal, ranting as a c
 
 [She just wants to go home](#embed:https://www.youtube.com/live/y8bcLA6BQsw?t=466)
 
-Her first real interaction was with Tam Gandr, who casually mentioned she was destined to become the next _Queen of Libestal_ (or so she claimed). Bae, starstruck by the revelation, saw an opportunity. If Tam became queen, maybe she could convince the King to send Bae back to her old life. Introducing herself as _Peasant Da Bae_, she swore to protect Tam in hopes of earning that favor.
+Her first real interaction was with Tam Gandr, who casually mentioned she was destined to become the next _Queen of Libestal_ (or so she claimed). Bae, starstruck by the revelation, saw an opportunity. If Tam became queen, maybe she could convince the King to send Bae back to her old life. Introducing herself as _Peasant The Bae_, she swore to protect Tam in hopes of earning that favor.
 
 [In the face of royalty](#embed:https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=2919)
 

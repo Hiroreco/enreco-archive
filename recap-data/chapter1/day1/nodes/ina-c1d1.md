@@ -1,4 +1,4 @@
-_Ina's_ introduction to the journey began much like everyone else's: waking up in the blindingly white box, disoriented and uncertain. Yet, her experience set her apart as she remained calm. Unlike Peasant Da Bae's dramatic exclamations or Tam's barrage of questions, Ina approached the situation with a quiet sense of detachment, simply observing and taking it all in. Perhaps this was her nature—to remain composed and collected, even in the face of chaos.
+_Ina's_ introduction to the journey began much like everyone else's: waking up in the blindingly white box, disoriented and uncertain. Yet, her experience set her apart as she remained calm. Unlike Peasant The Bae's dramatic exclamations or Tam's barrage of questions, Ina approached the situation with a quiet sense of detachment, simply observing and taking it all in. Perhaps this was her nature—to remain composed and collected, even in the face of chaos.
 
 [How is she so calm?](#embed:https://www.youtube.com/live/THllQCVOYzY?t=240s)
 

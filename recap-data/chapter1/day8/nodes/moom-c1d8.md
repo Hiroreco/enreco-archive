@@ -14,7 +14,7 @@ Later, she engaged in some more dubious activities, including selling [diamonds]
 
 Unlike everyone else in the kingdom, Nanamoo hadn’t lost her memory upon arriving. She pretended to have amnesia to avoid standing out and being labeled as a weirdo. She confessed to her friends that, in her old world, she had lots of friends, drove a Ferrari, and was an incredibly cool person overall. While she feared being judged, her friends’ reactions were warm and supportive. This touched Nanamoo deeply, though unbeknownst to her, they just thought she was eccentric and humored her to avoid hurting her feelings.
 
-During a moment of downtime, Nanamoo received a call from a familiar yet unexpected person: Peasant Da Bae, who had been dragged back to the kingdom after being lost in the woods. Nanamoo comforted her in the most friendly way possible—by calling her [crazy](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=4574).
+During a moment of downtime, Nanamoo received a call from a familiar yet unexpected person: Peasant The Bae, who had been dragged back to the kingdom after being lost in the woods. Nanamoo comforted her in the most friendly way possible—by calling her [crazy](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=4574).
 
 After assisting her comrades in the Ancient Sewer dungeon, the final showdown against the [Stain King](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=7584) was upon them. Nanamoo initially planned to stay on the sidelines and watch everyone else get flattened while relaxing. Instead, she ended up getting [flattened herself](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=8078).
 

@@ -1,6 +1,6 @@
 <!-- title: Pure Spite -->
 
-Peasant Da Bae had nothing. Like, literally nothing. Wooden tools. Empty pockets. A hat—which wasn’t even hers but a hand-me-down from someone else. She was, by all definitions, empty-handed. Which made sense, considering she had been absent for 85% of the entire journey.
+Peasant The Bae had nothing. Like, literally nothing. Wooden tools. Empty pockets. A hat—which wasn’t even hers but a hand-me-down from someone else. She was, by all definitions, empty-handed. Which made sense, considering she had been absent for 85% of the entire journey.
 
 But worse than the lack of wealth, tools, or influence? She had no deep relationships with anyone. While others were out collecting wives like prized trophies, Bae had zero.
 

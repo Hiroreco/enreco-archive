@@ -4,7 +4,7 @@ The Knights’ Heartache
 
 Among all of Gonathon’s companions, Elizabeth had proven the most stalwart and dependable, seemingly never veering from the knight’s code. Today would prove to be the first time a chink would appear in her armor in the eyes of the Humble Knight, but would this be enough to foster distrust?
 
-The two knights ventured into the Mysterious Tome quest together, with their wits and bond allowing them to lead their companions to victory. Walking together following their victory, the two encountered Nerissa Ravencroft, whom Liz desired to spar with. Although the raven witch offered for Gonathon to accompany them, a [feeling deep inside the Humble Knight](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=4864s) told him it was better to give them some time alone, and he proclaimed he would meet with his fellow knight later.
+The two knights ventured into the Mysterious Tome quest together, with their wits and bond allowing them to lead their companions to victory. Walking together following their victory, the two encountered Nerissa Juliet Ravencroft, whom Liz desired to spar with. Although the raven witch offered for Gonathon to accompany them, a [feeling deep inside the Humble Knight](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=4864s) told him it was better to give them some time alone, and he proclaimed he would meet with his fellow knight later.
 
 [A wolf is a good companion!](#embed:http://youtube.com/watch?v=p5xrAxTh8ho&t=3914s)
 
