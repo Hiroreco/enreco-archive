@@ -20,17 +20,8 @@ function stripCommentTags(content: string): string {
     return content.replace(/<!--[\s\S]*?-->/g, "").trim();
 }
 
-async function main() {
-    const chapterArg = process.argv[2];
-    if (!chapterArg) {
-        console.error("Usage: pnpm run inject-recap-data <chapter-number>");
-        process.exit(1);
-    }
-    const chapterNum = parseInt(chapterArg, 10);
-    if (isNaN(chapterNum) || chapterNum < 0) {
-        console.error("Chapter number must be a non-negative integer");
-        process.exit(1);
-    }
+async function processChapter(chapterNum: number) {
+    console.log(`\n📚 Processing chapter ${chapterNum}...`);
 
     // ——————————— Update ZIP ———————————
     const zipPath = path.resolve(
@@ -48,13 +39,23 @@ async function main() {
         `chapter${chapterNum + 1}`,
     );
 
+    // Check if the recap folder exists
+    try {
+        await fs.access(outputFolder);
+    } catch {
+        console.warn(
+            `⚠️  Recap folder not found: ${outputFolder}, skipping chapter ${chapterNum}`,
+        );
+        return;
+    }
+
     // load ZIP & JSON
     const zipData = await fs.readFile(zipPath);
     const zip = await JSZip.loadAsync(zipData);
     const fileEntry = zip.file(entryName);
     if (!fileEntry) {
         console.error(`❌ ${entryName} not found in ${zipPath}`);
-        process.exit(1);
+        return;
     }
     const chapterJson: ChapterJson = JSON.parse(await fileEntry.async("text"));
 
@@ -212,7 +213,7 @@ async function main() {
         compression: "DEFLATE",
     });
     await fs.writeFile(zipPath, outZip);
-    console.log(`✅ Injected into ZIP: ${zipPath}`);
+    console.log(`✅ Injected chapter ${chapterNum} into ZIP: ${zipPath}`);
 
     // ——————————— Update website JSON ———————————
     const webPath = path.resolve(
@@ -223,6 +224,17 @@ async function main() {
         "data",
         `chapter${chapterNum}.json`,
     );
+
+    // Check if website JSON exists
+    try {
+        await fs.access(webPath);
+    } catch {
+        console.warn(
+            `⚠️  Website JSON not found: ${webPath}, skipping website update for chapter ${chapterNum}`,
+        );
+        return;
+    }
+
     const webStr = await fs.readFile(webPath, "utf-8");
     const webJson = JSON.parse(webStr) as { charts: ChartData[] };
 
@@ -266,6 +278,59 @@ async function main() {
 
     await fs.writeFile(webPath, JSON.stringify(webJson, null, 2), "utf-8");
     console.log(`✅ Injected recaps into site JSON: ${webPath}`);
+}
+
+async function main() {
+    const chapterArg = process.argv[2];
+    if (!chapterArg) {
+        console.error(
+            "Usage: pnpm run inject-recap-data <chapter-number> or '.' for all",
+        );
+        process.exit(1);
+    }
+
+    if (chapterArg === ".") {
+        // Process all chapters
+        const recapDataPath = path.resolve(__dirname, "..", "recap-data");
+
+        try {
+            const entries = await fs.readdir(recapDataPath, {
+                withFileTypes: true,
+            });
+            const chapterFolders = entries
+                .filter((e) => e.isDirectory() && /^chapter\d+$/.test(e.name))
+                .map((e) => e.name)
+                .sort();
+
+            if (chapterFolders.length === 0) {
+                console.warn("No chapter folders found in recap-data");
+                return;
+            }
+
+            console.log(
+                `Found ${chapterFolders.length} chapter folders: ${chapterFolders.join(", ")}`,
+            );
+
+            for (const folderName of chapterFolders) {
+                const chapterNum =
+                    parseInt(folderName.replace("chapter", ""), 10) - 1;
+                await processChapter(chapterNum);
+            }
+
+            console.log("\n🎉 All chapters processed!");
+        } catch (err) {
+            console.error(`Failed to read recap-data directory: ${err}`);
+            process.exit(1);
+        }
+    } else {
+        // Process single chapter
+        const chapterNum = parseInt(chapterArg, 10);
+        if (isNaN(chapterNum) || chapterNum < 0) {
+            console.error("Chapter number must be a non-negative integer");
+            process.exit(1);
+        }
+        await processChapter(chapterNum);
+    }
 }
 
 main().catch((err) => {

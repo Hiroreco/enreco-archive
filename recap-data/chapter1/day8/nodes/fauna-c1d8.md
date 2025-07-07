@@ -37,6 +37,6 @@ Faunwell, miss CEO.
 
 ## Fanwork
 
-["Boss of FaunaMart" by Ano Yatsu](https://www.youtube.com/watch?v=T7fHJcrmO0U)
+["Boss of FaunaMart" by Ano Yatsu](#out:https://www.youtube.com/watch?v=T7fHJcrmO0U)
 
-["Hololive's Biggest SCAMMER (in minecraft)" by clippy](https://www.youtube.com/watch?v=Dyia273Gi7E&ab_channel=clippy)
+["Hololive's Biggest SCAMMER (in minecraft)" by clippy](#out:https://www.youtube.com/watch?v=Dyia273Gi7E&ab_channel=clippy)

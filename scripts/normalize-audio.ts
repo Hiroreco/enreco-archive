@@ -26,7 +26,7 @@ async function normalizeAll() {
         "website",
         "public-resources",
         "audio",
-        "easter",
+        "not-yet-normalized",
     );
     let mp3Files: string[];
     try {
