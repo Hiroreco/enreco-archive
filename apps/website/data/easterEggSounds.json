@@ -83,5 +83,10 @@
     "sfxList": [
       "easter/shiori/easter-shiori-0"
     ]
+  },
+  "shiori-game": {
+    "sfxList": [
+      "easter/shiori-game/easter-shiori-minigame"
+    ]
   }
 }

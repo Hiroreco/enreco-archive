@@ -1,3 +1,4 @@
+import ViewShioriGameEasterEgg from "@/components/view/easter-eggs/ViewShioriGameEasterEgg";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { LS_SHIORI_STASH_UNLOCKED } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
@@ -144,21 +145,7 @@ const ViewShioriGame = () => {
                     <Button onClick={handleAnswer}>Submit</Button>
                 </div>
                 {error && <div className="text-red-500">{error}</div>}
-                <Image
-                    src="/images-opt/easter-shiori-opt.webp"
-                    alt="Shiori Nyavella"
-                    className={cn(
-                        "absolute bottom-4 right-0 w-40  transition-opacity",
-                        {
-                            "cursor-pointer hover:opacity-50 opacity-20":
-                                !shioriPressed,
-                            "opacity-50": shioriPressed,
-                        },
-                    )}
-                    width={200}
-                    onClick={handleShioriPress}
-                    height={200}
-                />
+                <ViewShioriGameEasterEgg />
             </div>
         );
     }
@@ -178,21 +165,7 @@ const ViewShioriGame = () => {
                     />
                 ))}
             </div>
-            <Image
-                src="/images-opt/easter-shiori-opt.webp"
-                alt="Shiori Nyavella"
-                className={cn(
-                    "absolute bottom-4 right-0 w-40  transition-opacity",
-                    {
-                        "cursor-pointer hover:opacity-50 opacity-20":
-                            !shioriPressed,
-                        "opacity-50": shioriPressed,
-                    },
-                )}
-                width={200}
-                onClick={handleShioriPress}
-                height={200}
-            />
+            <ViewShioriGameEasterEgg />
         </div>
     );
 };
