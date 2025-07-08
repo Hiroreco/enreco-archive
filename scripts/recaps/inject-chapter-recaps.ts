@@ -11,8 +11,7 @@ async function main() {
     // 1) Input folder containing files recap-c<N>.md
     //    e.g. "scripts/chapters" or "./chapter-recaps"
     const inputDir = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "recap-data",
         "chapter-recaps",
     );
@@ -73,8 +72,7 @@ async function main() {
 
     // 4) Write JSON
     const outPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "apps",
         "website",
         "data",

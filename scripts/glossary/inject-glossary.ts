@@ -15,9 +15,6 @@ import {
     sortByPredefinedOrder,
 } from "../orders.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 // GlossaryPageData keyed by subcategory (immediate child of fileArg)
 type GlossaryPageData = { [subcategory: string]: CommonItemData[] };
 
@@ -61,8 +58,7 @@ async function walkDir(dir: string): Promise<string[]> {
 
 async function processSubfolder(fileArg: string) {
     const baseDir = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "recap-data",
         "glossary",
         fileArg,
@@ -197,8 +193,7 @@ async function processSubfolder(fileArg: string) {
 
     // Write JSON to apps/website/data/glossary/<fileArg>.json
     const outPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "apps",
         "website",
         "data",
@@ -221,12 +216,7 @@ async function main() {
         process.exit(1);
     }
 
-    const baseGlossary = path.resolve(
-        __dirname,
-        "..",
-        "recap-data",
-        "glossary",
-    );
+    const baseGlossary = path.resolve(process.cwd(), "recap-data", "glossary");
     let subfolders: string[];
 
     if (fileArg === ".") {

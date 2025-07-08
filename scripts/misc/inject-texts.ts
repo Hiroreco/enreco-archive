@@ -1,16 +1,11 @@
 import { TextData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function main() {
     const baseDir = path.resolve(__dirname, "..", "recap-data", "texts");
     const outputPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "apps",
         "website",
         "data",

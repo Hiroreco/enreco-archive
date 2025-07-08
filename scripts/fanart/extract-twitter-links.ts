@@ -1,8 +1,5 @@
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function walkDir(dir: string, base: string): Promise<string[]> {
     const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -51,7 +48,7 @@ function parseCharacterComments(text: string, linkUrl: string): string[] {
 
 async function main() {
     // 1) Base folder to scan (recap-data/)
-    const base = path.resolve(__dirname, "..", "recap-data");
+    const base = path.resolve(process.cwd(), "recap-data");
     // These are videos/non-fanart, so can't be downloaded
     let blacklistUrls = [
         "https://x.com/shutowl/status/1830517595768000529",
@@ -168,8 +165,7 @@ async function main() {
 
     // write out
     const outPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "src",
         "data",
         "twitter-links.json",

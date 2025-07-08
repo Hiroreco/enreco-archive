@@ -4,10 +4,6 @@ import JSZip from "jszip";
 import { ChartData } from "@enreco-archive/common/types";
 import { fileURLToPath } from "url";
 
-// ESM __dirname
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 type ChapterJson = {
     numberOfDays: number;
     title: string;
@@ -25,16 +21,14 @@ async function processChapter(chapterNum: number) {
 
     // ——————————— Update ZIP ———————————
     const zipPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "site-data",
         "editor",
         "current-data.zip",
     );
     const entryName = `chapter${chapterNum}.json`;
     const outputFolder = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "recap-data",
         `chapter${chapterNum + 1}`,
     );
@@ -217,8 +211,7 @@ async function processChapter(chapterNum: number) {
 
     // ——————————— Update website JSON ———————————
     const webPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "apps",
         "website",
         "data",
@@ -291,7 +284,7 @@ async function main() {
 
     if (chapterArg === ".") {
         // Process all chapters
-        const recapDataPath = path.resolve(__dirname, "..", "recap-data");
+        const recapDataPath = path.resolve(__dirname, "..", "..", "recap-data");
 
         try {
             const entries = await fs.readdir(recapDataPath, {

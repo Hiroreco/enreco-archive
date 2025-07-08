@@ -1,10 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
 import type { CommonItemData } from "@enreco-archive/common/types";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function main() {
     const fileArg = process.argv[2];
@@ -16,8 +12,7 @@ async function main() {
     }
 
     const jsonPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "apps",
         "website",
         "data",
@@ -34,8 +29,7 @@ async function main() {
     }
 
     const outDir = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "recap-data",
         "glossary",
         fileArg,

@@ -1,9 +1,6 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "fs";
-import { dirname, join } from "path";
-import { fileURLToPath } from "url";
+import { join } from "path";
 import { validateRecapContent } from "./recapChecks.js";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const chapterArg = process.argv[2];
 if (!chapterArg) {
@@ -17,7 +14,7 @@ if (isNaN(chapterNum) || chapterNum < 0) {
 }
 
 const chapterOut = chapterNum + 1;
-const baseDir = join(__dirname, "../recap-data", `chapter${chapterOut}`);
+const baseDir = join(process.cwd(), "recap-data", `chapter${chapterOut}`);
 if (!existsSync(baseDir)) {
     console.error(`Directory not found: ${baseDir}`);
     process.exit(1);

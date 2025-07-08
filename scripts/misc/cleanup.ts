@@ -1,17 +1,12 @@
 // scripts/cleanup-invalid.ts
-import fs from "fs/promises";
-import path from "path";
-import JSZip from "jszip";
-import { fileURLToPath } from "url";
 import { ChartData } from "@enreco-archive/common/types";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import fs from "fs/promises";
+import JSZip from "jszip";
+import path from "path";
 
 async function main() {
     const zipPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "site-data",
         "editor",
         "current-data.zip",

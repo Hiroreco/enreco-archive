@@ -1,14 +1,11 @@
 import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
-import { fileURLToPath } from "url";
 import { CHARACTER_ORDER, sortByPredefinedOrder } from "../orders.js";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const LINKS_JSON = path.resolve(__dirname, "../src/data/twitter-links.json");
-const IMAGE_DIR = path.resolve(__dirname, "../shared-resources/images/fanart");
-const OUT_JSON = path.resolve(__dirname, "../apps/website/data/fanart.json");
+const LINKS_JSON = path.resolve(process.cwd(), "src/data/twitter-links.json");
+const IMAGE_DIR = path.resolve(process.cwd(), "shared-resources/images/fanart");
+const OUT_JSON = path.resolve(process.cwd(), "apps/website/data/fanart.json");
 const IMAGE_PREFIX = "images-opt/";
 
 interface LinkEntry {

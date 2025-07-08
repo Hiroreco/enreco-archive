@@ -1,14 +1,11 @@
 // scripts/download-tweet-images-puppeteer.ts
-import fs from "fs/promises";
 import { existsSync } from "fs";
+import fs from "fs/promises";
 import path from "path";
 import puppeteer from "puppeteer";
-import { fileURLToPath } from "url";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const LINKS_JSON = path.resolve(__dirname, "../src/data/twitter-links.json");
-const OUT_DIR = path.resolve(__dirname, "../shared-resources/images/fanart");
+const LINKS_JSON = path.resolve(process.cwd(), "/src/data/twitter-links.json");
+const OUT_DIR = path.resolve(process.cwd(), "/shared-resources/images/fanart");
 const EXTENSIONS = ["jpg", "png", "webp", "gif"];
 
 interface LinkEntry {

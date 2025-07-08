@@ -4,9 +4,6 @@ import JSZip from "jszip";
 import { ChartData } from "@enreco-archive/common/types";
 import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 async function main() {
     const chapterArg = process.argv[2];
     if (chapterArg === undefined) {
@@ -22,8 +19,7 @@ async function main() {
 
     // 1) Load the ZIP
     const zipPath = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "site-data",
         "editor",
         "current-data.zip",
@@ -59,8 +55,7 @@ async function main() {
     }
 
     const baseOut = path.resolve(
-        __dirname,
-        "..",
+        process.cwd(),
         "recap-data",
         `chapter${chapterNum + 1}`,
     );
