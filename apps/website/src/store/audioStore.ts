@@ -3,6 +3,8 @@ import { Howl } from "howler";
 import { create } from "zustand";
 import { useSettingStore } from "@/store/settingStore";
 import { useEffect } from "react";
+import { EasterEggState } from "@enreco-archive/common/types";
+import easterEggSounds from "#/easterEggSounds.json";
 
 interface AudioState {
     bgm: Howl | null;
@@ -23,16 +25,19 @@ interface AudioState {
     ) => void;
     siteBgmKey: string | null;
     setSiteBgmKey: (key: string) => void;
-    isMoomPlaying: boolean;
-    setIsMoomPlaying: (isPlaying: boolean) => void;
-    isLizPlaying: boolean;
-    setIsLizPlaying: (isPlaying: boolean) => void;
+    easterEggStates: { [key: string]: EasterEggState };
+    playEasterEgg: (eggName: string) => void;
+    stopEasterEgg: (eggName: string) => void;
+    initializeEasterEgg: (eggName: string) => void;
+    cleanupEasterEgg: (eggName: string) => void;
 }
 
 export const useAudioStore = create<AudioState>((set, get) => ({
     bgm: null,
     currentBgmKey: null,
     siteBgmKey: null,
+    easterEggStates: {},
+
     setSiteBgmKey: (key: string) => set({ siteBgmKey: key }),
     sfx: {
         click: new Howl({
@@ -77,27 +82,19 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             volume: useSettingStore.getState().sfxVolume,
         }),
 
-        // these easters should be preloaded
+        // these easters should be preloaded to get timing right
         "easter-awoo": new Howl({
             src: ["/audio/easter/easter-awoo.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
 
         "easter-ame": new Howl({
-            src: ["/audio/easter/easter-ame.mp3"],
-            volume: useSettingStore.getState().sfxVolume,
-        }),
-        "easter-liz": new Howl({
-            src: ["/audio/easter/easter-liz.mp3"],
+            src: ["/audio/easter/ame/easter-ame.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
     },
     bgmVolume: useSettingStore.getState().bgmVolume,
     sfxVolume: useSettingStore.getState().sfxVolume,
-    isMoomPlaying: false,
-    setIsMoomPlaying: (isPlaying: boolean) => set({ isMoomPlaying: isPlaying }),
-    isLizPlaying: false,
-    setIsLizPlaying: (isPlaying: boolean) => set({ isLizPlaying: isPlaying }),
     playBGM: (fadeInDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm && !bgm.playing()) {
@@ -131,21 +128,9 @@ export const useAudioStore = create<AudioState>((set, get) => ({
 
             // Add the dynamically loaded sound to the sfx object
             set({ sfx: { ...sfx, [name]: sound } });
-
-            if (name === "easter/easter-moom") {
-                sound.once("end", () => {
-                    get().setIsMoomPlaying(false);
-                });
-            }
         } else {
             sfx[name].volume(sfxVolume);
             sfx[name].play();
-
-            if (name === "easter-liz") {
-                sfx[name].once("end", () => {
-                    get().setIsLizPlaying(false);
-                });
-            }
         }
     },
     setAllSfxVolume: (volume: number) => {
@@ -203,6 +188,148 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             newBgm.play();
             newBgm.fade(0, newBgmVolume, fadeInDuration);
         }, fadeOutDuration);
+    },
+    initializeEasterEgg: (eggName: string) => {
+        const { easterEggStates } = get();
+        if (
+            !easterEggStates[eggName] &&
+            easterEggSounds[eggName as keyof typeof easterEggSounds]
+        ) {
+            set({
+                easterEggStates: {
+                    ...easterEggStates,
+                    [eggName]: {
+                        isPlaying: false,
+                        currentSoundIndex: -1,
+                        playedSounds: new Set(),
+                    },
+                },
+            });
+        }
+    },
+
+    playEasterEgg: (eggName: string) => {
+        const { easterEggStates, sfx, sfxVolume } = get();
+        const eggConfig =
+            easterEggSounds[eggName as keyof typeof easterEggSounds];
+
+        if (
+            !eggConfig ||
+            !easterEggStates[eggName] ||
+            easterEggStates[eggName].isPlaying
+        ) {
+            return;
+        }
+
+        const eggState = easterEggStates[eggName];
+        const availableSounds = eggConfig.sfxList
+            .map((_, index) => index)
+            .filter((index) => !eggState.playedSounds.has(index));
+
+        // If all sounds have been played, reset
+        if (availableSounds.length === 0) {
+            eggState.playedSounds.clear();
+            availableSounds.push(...eggConfig.sfxList.map((_, index) => index));
+        }
+
+        // Pick a random available sound
+        const randomIndex =
+            availableSounds[Math.floor(Math.random() * availableSounds.length)];
+        const soundPath = eggConfig.sfxList[randomIndex];
+
+        // Update state to playing
+        set({
+            easterEggStates: {
+                ...easterEggStates,
+                [eggName]: {
+                    ...eggState,
+                    isPlaying: true,
+                    currentSoundIndex: randomIndex,
+                },
+            },
+        });
+
+        // Play chicken-pop first
+        if (sfx["chicken-pop"]) {
+            sfx["chicken-pop"].volume(sfxVolume);
+            sfx["chicken-pop"].play();
+        }
+
+        // Play the easter egg sound after 1 second
+        setTimeout(() => {
+            let sound = sfx[soundPath];
+
+            if (!sound) {
+                sound = new Howl({
+                    src: [`/audio/${soundPath}.mp3`],
+                    volume: sfxVolume,
+                });
+                set({ sfx: { ...get().sfx, [soundPath]: sound } });
+            } else {
+                sound.volume(sfxVolume);
+            }
+
+            sound.once("end", () => {
+                const currentStates = get().easterEggStates;
+                const currentEggState = currentStates[eggName];
+
+                set({
+                    easterEggStates: {
+                        ...currentStates,
+                        [eggName]: {
+                            ...currentEggState,
+                            isPlaying: false,
+                            playedSounds: new Set([
+                                ...currentEggState.playedSounds,
+                                randomIndex,
+                            ]),
+                        },
+                    },
+                });
+            });
+
+            sound.play();
+        }, 1000);
+    },
+
+    stopEasterEgg: (eggName: string) => {
+        const { easterEggStates, sfx } = get();
+        const eggConfig =
+            easterEggSounds[eggName as keyof typeof easterEggSounds];
+
+        if (!eggConfig || !easterEggStates[eggName]) return;
+
+        const eggState = easterEggStates[eggName];
+
+        // Stop the currently playing sound
+        if (eggState.currentSoundIndex >= 0) {
+            const soundPath = eggConfig.sfxList[eggState.currentSoundIndex];
+            const sound = sfx[soundPath];
+            if (sound && sound.playing()) {
+                sound.stop();
+            }
+        }
+
+        // Update state
+        set({
+            easterEggStates: {
+                ...easterEggStates,
+                [eggName]: {
+                    ...eggState,
+                    isPlaying: false,
+                    currentSoundIndex: -1,
+                },
+            },
+        });
+    },
+
+    cleanupEasterEgg: (eggName: string) => {
+        const { easterEggStates } = get();
+        get().stopEasterEgg(eggName);
+
+        const newStates = { ...easterEggStates };
+        delete newStates[eggName];
+        set({ easterEggStates: newStates });
     },
 }));
 

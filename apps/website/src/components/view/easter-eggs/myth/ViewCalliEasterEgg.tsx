@@ -1,13 +1,7 @@
 import ViewBasicEgg from "@/components/view/easter-eggs/ViewBasicEgg";
 
 const ViewCalliEasterEgg = () => {
-    return (
-        <ViewBasicEgg
-            imageName="easter-calli"
-            sfxName="easter/easter-calli"
-            delayDuration={3000}
-        />
-    );
+    return <ViewBasicEgg imageName="easter-calli" eggName="calli" />;
 };
 
 export default ViewCalliEasterEgg;

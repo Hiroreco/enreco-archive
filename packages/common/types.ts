@@ -187,3 +187,18 @@ export type Song = {
     // The duration is in the format "mm:ss", only for representative purposes
     duration: string;
 };
+
+export type Egg = {
+    [key: string]: {
+        sfxList: {
+            src: string;
+            hasPlayed: boolean;
+        }[];
+    };
+};
+
+export type EasterEggState = {
+    isPlaying: boolean;
+    currentSoundIndex: number;
+    playedSounds: Set<number>;
+};

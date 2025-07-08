@@ -27,6 +27,7 @@
         "inject-texts": "tsx scripts/misc/inject-texts.ts",
         "inject-songs": "tsx scripts/misc/inject-songs.ts",
         "normalize-audio": "tsx scripts/misc/normalize-audio.ts",
+        "inject-easter": "tsx scripts/misc/inject-easter.ts",
         "proofread": "tsx scripts/proofread/proofread.ts",
         "export-recaps": "tsx scripts/recaps/export-recaps.ts",
         "inject-recaps": "tsx scripts/recaps/inject-recaps.ts",
