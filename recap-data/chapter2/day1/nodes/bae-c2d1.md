@@ -34,3 +34,5 @@ Gacha. Gacha would soon leave Bae poor once again as she attempted, and failed (
 ## Fanart
 
 ["Peasant The Bae" by Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)
+
+["PEASANT!" by LinSHCH](https://x.com/_LinSHCH_/status/1920873250143285392)

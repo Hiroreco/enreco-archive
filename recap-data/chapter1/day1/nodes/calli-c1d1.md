@@ -30,3 +30,5 @@ At the end of the day—a day that included being hit by a truck, losing her mem
 ["Lore keepers" by Roronico](https://x.com/roronico1512/status/1919423587532095876)
 
 <!-- kiara -->
+
+["ENigmatic Recollection" by Lia](https://x.com/liapandaaaa/status/1827543495890104368)

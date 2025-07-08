@@ -15,3 +15,5 @@ From here, the two would go on a short journey before writing their journals tog
 ["Oh humble knight" by Shio Ronot](https://x.com/ShioRonot/status/1920122374059438264)
 
 ["it's her job" by Daaku](https://x.com/koizumi_arata/status/1919929897239085230)
+
+["pearl" by rikuJe](https://x.com/RikuJe/status/1920568328336064569)

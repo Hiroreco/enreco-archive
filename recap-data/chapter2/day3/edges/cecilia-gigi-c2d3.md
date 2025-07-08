@@ -13,3 +13,7 @@ After the conquest of Star Site: Elpis and the Stronghold Ruins, Gonathon calls 
 [Just Siblings](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=18700s)
 
 Cecilia concludes the day discussing her concerns about the ["Inbread"](https://www.youtube.com/watch?v=Icdii90_vSA&t=22533s) occurrences at the castle with Gonathon over the phone.
+
+## Fanart
+
+["Immergreak-I mean IMMERKIND!" by kemi](https://x.com/Kemi_palitogay/status/1920602120526364860)

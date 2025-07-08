@@ -25,3 +25,5 @@ An impromptu wedding ceremony was arranged! Everyone, from all over the kingdom,
 ["The Cat Woman and her Cat" by Roronico](https://x.com/roronico1512/status/1936422814145458405)
 
 <!-- bijou, shiori, cecilia, ina, liz, calli -->
+
+["Happy Marriage" by XU CW](https://x.com/2H2xO2is2H2O/status/1921234158640107818)

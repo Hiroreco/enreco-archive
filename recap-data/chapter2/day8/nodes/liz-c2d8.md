@@ -62,3 +62,7 @@ Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to t
 ["..." by soap](https://x.com/SiFXi_/status/1922931817402806278)
 
 <!-- nerissa -->
+
+["A monster" by wan](https://x.com/wan_m_i/status/1921889316306919884)
+
+<!-- nerissa -->

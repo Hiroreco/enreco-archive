@@ -36,3 +36,7 @@ And to close out her long, exhausting day, Nerissa bought herself a hat. Not jus
 [Scarlet Wand is here to stay](#embed:https://www.youtube.com/live/m5VOeHvSgbI?si=E38tf2lpApnGGgE7&t=16218)
 
 Tomorrow would be a new day. The journey was already halfway through—where it led next, only time would tell.
+
+## Fanart
+
+["For all the fallen members" by underdatv](https://x.com/underdatv/status/1920594889793761656)

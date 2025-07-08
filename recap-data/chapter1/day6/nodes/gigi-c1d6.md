@@ -44,3 +44,5 @@ Yet, he resolved to press on, undeterred by the challenges before him (see [Gona
 ["One fear" by Daaku](https://x.com/koizumi_arata/status/1832141040792240564)
 
 <!-- kronii -->
+
+["A Knight's Tale" by Dreamplanes](https://x.com/Dreamplanes256/status/1844357367313649767)

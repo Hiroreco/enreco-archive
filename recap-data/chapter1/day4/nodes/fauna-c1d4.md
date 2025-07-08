@@ -18,3 +18,7 @@ As she was gathering materials to sell, her plan was discovered by Bijou, and th
 Satisfied with her day’s adventures, Fauna decided to wind down. Despite being shorter than some, it had been an enjoyable and productive day.
 
 Before logging off, Fauna reflected on her flourishing business. With sales surging and her time increasingly scarce, she realized she needed help managing the store. Turning to Nerissa, she extended a job offer, planting the seeds for the next phase of FaunaMart’s growth (see [Fauna-Nerissa: First Employee](#edge:fauna-nerissa)).
+
+## Fanart
+
+["ah gomen oomf-chan" by Jowo](https://x.com/seekorplatypus/status/1901233354533417049)

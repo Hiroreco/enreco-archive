@@ -40,3 +40,5 @@ Faunwell, miss CEO.
 ["Boss of FaunaMart" by Ano Yatsu](#out:https://www.youtube.com/watch?v=T7fHJcrmO0U)
 
 ["Hololive's Biggest SCAMMER (in minecraft)" by clippy](#out:https://www.youtube.com/watch?v=Dyia273Gi7E&ab_channel=clippy)
+
+["FaunaMart" by Yuba est](https://x.com/yubaest/status/1834009254141046887)

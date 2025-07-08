@@ -24,3 +24,5 @@ After another exhausting day, Cecilia retires and prepares [another letter](http
 ## Fanart
 
 ["For the Princess' honor" by daiya](https://x.com/daiyaekaku/status/1920683282439516582)
+
+["CC as a bard!" by Nurizza](https://x.com/nurizza_ilst/status/1922300302696309012)

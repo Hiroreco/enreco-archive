@@ -21,3 +21,9 @@ Not Immerkind’s. No, someone else. Someone who had seen her. Heard her. Unders
 Perhaps, after all, Bae had made a real connection. Perhaps there was someone whose hand would never let go.
 
 (see [Gonathon-Bae](#edge:bae-gigi))
+
+## Fanart
+
+["The Peasant and the Knight" by innie](https://x.com/iennie_/status/1921194780282835402)
+
+["Unrequited Love" by Sora](https://x.com/GuyFloating/status/1921115744143614058)

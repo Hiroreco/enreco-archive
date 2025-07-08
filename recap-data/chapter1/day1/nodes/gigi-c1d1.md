@@ -24,3 +24,5 @@ Eventually, alongside Elizabeth Rose Bloodflame and NinoIna, he ventured into th
 ["The Humble Knight" by Hyoweii](https://x.com/weiiyxn/status/1902360036522991650)
 
 ["The pain that Gonathon G carries" by Meyshi](https://x.com/Meyshi29/status/1833782799490601208)
+
+["The knight- Gonathon with the G" by Asashi](https://x.com/illust_asashi/status/1832805341958213738)

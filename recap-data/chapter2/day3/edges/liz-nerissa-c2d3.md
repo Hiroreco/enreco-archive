@@ -53,3 +53,5 @@ The strawberry glowed so red it might as well have been a beacon.
 ["A light moment between them" by TibsSketeches](https://x.com/TibsSketches/status/1920495769099931750)
 
 ["hush my gums" by otashishi](https://x.com/ashiartwork/status/1934386688991850581)
+
+["She is a knight" by Shee](https://x.com/tianshiko/status/1919921818401493098)

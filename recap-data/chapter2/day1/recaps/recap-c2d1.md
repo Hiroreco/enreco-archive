@@ -36,3 +36,7 @@ How will any of this help save the universe? Who knows? But it's only Day 1—th
 ["Monster Tarot Cards" by mokoppe](https://x.com/mokoppe/status/1918629108000362512)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
+["Monster Cast" by Lia](https://x.com/liapandaaaa/status/1918606567588647353)
+
+<!-- shiori, gigi, kronii -->

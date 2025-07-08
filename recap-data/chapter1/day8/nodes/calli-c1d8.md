@@ -36,3 +36,5 @@ Before signing off, Calli left one last remark, addressing a peculiar customer r
 ["the pink one" by Daaku](https://x.com/koizumi_arata/status/1902563407699513352)
 
 ["the best tavern in town!" by alex](https://x.com/arexsudraws/status/1900276933142994975)
+
+["tavern owner" by Hina](https://x.com/HYurisaki/status/1902247996688892412)

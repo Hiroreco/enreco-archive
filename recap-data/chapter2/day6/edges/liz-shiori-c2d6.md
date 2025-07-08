@@ -45,3 +45,5 @@ It seemed that their friendship, one that started sweetly in the day with gifts 
 ["When have I ever lied to you?" by ESTY](https://x.com/Sticker_sr/status/1921550872217104488)
 
 ["Who were you before Lady Bloodflame" by Mr. Joeboto](https://x.com/LordJoeboto/status/1920978616894062922)
+
+["lies?" by wan](https://x.com/wan_m_i/status/1920859036972364262)

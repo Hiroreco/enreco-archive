@@ -24,3 +24,7 @@ Unsatisfied with the lack of clarity, he challenged Elizabeth—Mococo’s guild
 [Is this what knights do?](#embed:https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=12872)
 
 Despite his questionable actions, Gonathon redeemed himself by ending the day on a noble note. He joined Nerissa, Fuwawa, and the Hot Pink One in conquering the Eldritch Horror dungeon and later assisted Fuwawa in the Volcanic Dungeon.
+
+## Fanart
+
+["Their love will prevail" by Nagi](https://x.com/Nagi_Nyaaa/status/1831932489658724587)

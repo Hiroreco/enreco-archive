@@ -32,3 +32,5 @@ With a token of [Mordan Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIF
 ["HAVE A TASTE OF MY BOOK" by The Retch](https://x.com/aFookinRetch/status/1921997300240425214)
 
 ["eh?-" by Younhand](https://x.com/Youn_hand/status/1918831922362413460)
+
+["NinoIna 'The Hero'" by Ao](https://x.com/A0S0L/status/1919050797020479947)
