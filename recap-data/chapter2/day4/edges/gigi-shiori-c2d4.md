@@ -21,3 +21,5 @@ Any hopes Gonathon had of redeeming himself in Shiori’s eyes were quickly dash
 ["Someone under stress meets someone looking pretty" by cd usr](https://x.com/cd_usr/status/1922052961083007296)
 
 ["telenovela" by keenbiscuit](https://x.com/keenbiscuit/status/1920009469695586658)
+
+["Two Sides. Same Coin" by JayTea](https://x.com/jayteamations/status/1934347059643162875)

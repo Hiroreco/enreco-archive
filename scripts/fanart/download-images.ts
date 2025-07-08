@@ -4,8 +4,18 @@ import fs from "fs/promises";
 import path from "path";
 import puppeteer from "puppeteer";
 
-const LINKS_JSON = path.resolve(process.cwd(), "/src/data/twitter-links.json");
-const OUT_DIR = path.resolve(process.cwd(), "/shared-resources/images/fanart");
+const LINKS_JSON = path.resolve(
+    process.cwd(),
+    "src",
+    "data",
+    "twitter-links.json",
+);
+const OUT_DIR = path.resolve(
+    process.cwd(),
+    "shared-resources",
+    "images",
+    "fanart",
+);
 const EXTENSIONS = ["jpg", "png", "webp", "gif"];
 
 interface LinkEntry {
