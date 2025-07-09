@@ -14,15 +14,19 @@ export type TeamMap = { [key: string]: Team };
 export type RelationshipMap = { [key: string]: Relationship };
 
 /* Data Types */
-export type SiteData = {
-    version: number;
-    numberOfChapters: number;
-    event: string;
-    chapters: Chapter[];
+export type TextData = {
+    [key: string]: {
+        content: string;
+        title: string;
+        category: string;
+        hasAudio?: boolean; // Add this field
+    };
 };
 
-export type TextData = {
-    [key: string]: { content: string; title: string; category: string };
+// Add new type for text audio state
+export type TextAudioState = {
+    isPlaying: boolean;
+    currentTextId: string | null;
 };
 
 export type ChapterRecapData = {

@@ -15,8 +15,9 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { TextData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { BookOpenTextIcon } from "lucide-react";
+import { BookOpenTextIcon, Volume2Icon, VolumeXIcon } from "lucide-react";
 import Image from "next/image";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 interface ViewTextModalProps {
     textId: string;
@@ -25,21 +26,40 @@ interface ViewTextModalProps {
 
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const textItem = (textData as TextData)[textId];
-    const { playSFX } = useAudioStore();
+    const { playSFX, playTextAudio, stopTextAudio, textAudioState } =
+        useAudioStore();
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     if (!textItem) {
         return null;
     }
 
+    const isTextAudioPlaying =
+        textAudioState.isPlaying && textAudioState.currentTextId === textId;
+    const hasAudio = textItem.hasAudio === true;
+
+    const handleAudioClick = () => {
+        if (isTextAudioPlaying) {
+            stopTextAudio();
+        } else {
+            playTextAudio(textId);
+        }
+    };
+
+    const handleModalClose = (open: boolean) => {
+        if (!open) {
+            // Modal is closing, stop audio if it's playing
+            if (isTextAudioPlaying) {
+                stopTextAudio();
+            }
+        } else {
+            // Modal is opening
+            playSFX("book");
+        }
+    };
+
     return (
-        <Dialog
-            onOpenChange={(open) => {
-                if (open) {
-                    playSFX("book");
-                }
-            }}
-        >
+        <Dialog onOpenChange={handleModalClose}>
             <DialogTrigger className="inline-flex items-center gap-1 hover:text-accent transition-colors underline-offset-4 underline">
                 {label} <BookOpenTextIcon />
             </DialogTrigger>
@@ -68,8 +88,34 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                         width={128}
                         height={128}
                     />
+
+                    {/* Audio Button - positioned in bottom right */}
+                    {hasAudio && (
+                        <button
+                            onClick={handleAudioClick}
+                            className={cn(
+                                "absolute bottom-4 right-4 z-20 p-2 rounded-full bg-neutral-400/50 transition-all",
+                                "shadow-lg",
+                                {
+                                    "animate-pulse bg-accent/50":
+                                        isTextAudioPlaying,
+                                },
+                            )}
+                            title={
+                                isTextAudioPlaying
+                                    ? "Playing audio..."
+                                    : "Play audio"
+                            }
+                        >
+                            {isTextAudioPlaying ? (
+                                <VolumeXIcon className="w-5 h-5" />
+                            ) : (
+                                <Volume2Icon className="w-5 h-5" />
+                            )}
+                        </button>
+                    )}
                 </div>
-                <DialogFooter className="pt-4 border-t-2 ">
+                <DialogFooter className="pt-4 border-t-2">
                     <DialogClose asChild>
                         <Button className="bg-accent text-lg text-accent-foreground w-full -mb-2">
                             Close

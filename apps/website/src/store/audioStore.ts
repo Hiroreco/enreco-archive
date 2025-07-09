@@ -3,7 +3,7 @@ import { Howl } from "howler";
 import { create } from "zustand";
 import { useSettingStore } from "@/store/settingStore";
 import { useEffect } from "react";
-import { EasterEggState } from "@enreco-archive/common/types";
+import { EasterEggState, TextAudioState } from "@enreco-archive/common/types";
 import easterEggSounds from "#/easterEggSounds.json";
 
 interface AudioState {
@@ -30,6 +30,9 @@ interface AudioState {
     stopEasterEgg: (eggName: string) => void;
     initializeEasterEgg: (eggName: string) => void;
     cleanupEasterEgg: (eggName: string) => void;
+    textAudioState: TextAudioState;
+    playTextAudio: (textId: string) => void;
+    stopTextAudio: () => void;
 }
 
 export const useAudioStore = create<AudioState>((set, get) => ({
@@ -37,6 +40,10 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     currentBgmKey: null,
     siteBgmKey: null,
     easterEggStates: {},
+    textAudioState: {
+        isPlaying: false,
+        currentTextId: null,
+    },
 
     setSiteBgmKey: (key: string) => set({ siteBgmKey: key }),
     sfx: {
@@ -330,6 +337,80 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         const newStates = { ...easterEggStates };
         delete newStates[eggName];
         set({ easterEggStates: newStates });
+    },
+
+    playTextAudio: (textId: string) => {
+        const { textAudioState, sfx, sfxVolume } = get();
+
+        if (textAudioState.isPlaying) {
+            return; // Already playing audio
+        }
+
+        const audioPath = `text/${textId}`;
+
+        // Update state to playing
+        set({
+            textAudioState: {
+                isPlaying: true,
+                currentTextId: textId,
+            },
+        });
+
+        // Check if sound already exists
+        let sound = sfx[audioPath];
+
+        if (!sound) {
+            sound = new Howl({
+                src: [`/audio/text/${textId}.mp3`],
+                volume: sfxVolume,
+                onloaderror: () => {
+                    console.warn(`Failed to load audio for text: ${textId}`);
+                    // Reset state on error
+                    set({
+                        textAudioState: {
+                            isPlaying: false,
+                            currentTextId: null,
+                        },
+                    });
+                },
+            });
+            set({ sfx: { ...get().sfx, [audioPath]: sound } });
+        } else {
+            sound.volume(sfxVolume);
+        }
+
+        sound.once("end", () => {
+            set({
+                textAudioState: {
+                    isPlaying: false,
+                    currentTextId: null,
+                },
+            });
+        });
+
+        sound.play();
+    },
+
+    stopTextAudio: () => {
+        const { textAudioState, sfx } = get();
+
+        if (!textAudioState.isPlaying || !textAudioState.currentTextId) {
+            return;
+        }
+
+        const audioPath = `text/${textAudioState.currentTextId}`;
+        const sound = sfx[audioPath];
+
+        if (sound && sound.playing()) {
+            sound.stop();
+        }
+
+        set({
+            textAudioState: {
+                isPlaying: false,
+                currentTextId: null,
+            },
+        });
     },
 }));
 

@@ -3,7 +3,15 @@ import fs from "fs/promises";
 import path from "path";
 
 async function main() {
-    const baseDir = path.resolve(__dirname, "..", "recap-data", "texts");
+    const baseDir = path.resolve(process.cwd(), "recap-data", "texts");
+    const audioDir = path.resolve(
+        process.cwd(),
+        "apps",
+        "website",
+        "public-resources",
+        "audio",
+        "text",
+    );
     const outputPath = path.resolve(
         process.cwd(),
         "apps",
@@ -13,6 +21,20 @@ async function main() {
     );
 
     const result: TextData = {};
+
+    // Check if audio directory exists and get list of audio files
+    let audioFiles: Set<string> = new Set();
+    try {
+        const files = await fs.readdir(audioDir);
+        audioFiles = new Set(
+            files
+                .filter((file) => file.toLowerCase().endsWith(".mp3"))
+                .map((file) => path.basename(file, ".mp3")),
+        );
+        console.log(`Found ${audioFiles.size} audio files in text directory`);
+    } catch (err) {
+        console.warn(`Audio directory not found: ${audioDir}`);
+    }
 
     // Recursively walk baseDir
     async function walk(dir: string) {
@@ -45,7 +67,15 @@ async function main() {
 
                 const content = lines.slice(i).join("\n").trim();
 
-                result[key] = { title, content, category };
+                // Check if audio file exists for this text
+                const hasAudio = audioFiles.has(key);
+
+                result[key] = {
+                    title,
+                    content,
+                    category,
+                    ...(hasAudio && { hasAudio: true }),
+                };
             }
         }
     }
@@ -53,9 +83,14 @@ async function main() {
     await walk(baseDir);
 
     await fs.writeFile(outputPath, JSON.stringify(result, null, 2), "utf-8");
-    console.log(
-        `✅ Injected ${Object.keys(result).length} items into ${outputPath}`,
-    );
+
+    const totalTexts = Object.keys(result).length;
+    const textsWithAudio = Object.values(result).filter(
+        (item) => item.hasAudio,
+    ).length;
+
+    console.log(`✅ Injected ${totalTexts} items into ${outputPath}`);
+    console.log(`🎵 ${textsWithAudio} texts have associated audio files`);
 }
 
 main().catch((err) => {
