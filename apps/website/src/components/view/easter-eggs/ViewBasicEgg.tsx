@@ -47,7 +47,7 @@ const ViewBasicEgg = ({
                 "transition-all absolute -bottom-[50px] right-0 h-[100px] w-auto",
                 {
                     "cursor-pointer opacity-50 hover:opacity-100": !isPlaying,
-                    "opacity-100 scale-105": isPlaying,
+                    "opacity-100": isPlaying,
                 },
                 className,
             )}

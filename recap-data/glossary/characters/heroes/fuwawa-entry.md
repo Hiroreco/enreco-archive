@@ -33,7 +33,7 @@ Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on th
 
 She worked hard, gathering ingredients and crafting dishes with care. Things, however, didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible, the other chefs were just too good, she thought. And with no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. [Loneliness](https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917) crept in.
 
-But then, at the end of Day 5, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was [overjoyed,](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546) and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
+But then, at the end of Day 4, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was [overjoyed,](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546) and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
 
 It felt like the perfect ending.
 
