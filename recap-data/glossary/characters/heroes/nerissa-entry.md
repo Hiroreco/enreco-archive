@@ -18,7 +18,7 @@ Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bl
 **Name:** Nerissa Ravencroft
 **Guild:** Scarlet Wand
 
-Lorem ipsum
+Just like the other heroes, Nerissa Ravencroft woke up without any knowledge of her past nor her name. Gathered in a white room at first, she then proceeded to the large egg along with the others and thus transported to the strange land of Libestal. Despite being confused about the situation--- what this world was actually about, how she ended up here along with the other "heroes", or how they would be able to save this world, she accepted the 
 
 ### Chapter 2
 
