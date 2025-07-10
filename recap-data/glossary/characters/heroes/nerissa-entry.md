@@ -18,7 +18,12 @@ Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bl
 **Name:** Nerissa Ravencroft
 **Guild:** Scarlet Wand
 
-Just like the other heroes, Nerissa Ravencroft woke up without any knowledge of her past nor her name. Gathered in a white room at first, she then proceeded to the large egg along with the others and thus transported to the strange land of Libestal. Despite being confused about the situation--- what this world was actually about, how she ended up here along with the other "heroes", or how they would be able to save this world, she accepted the 
+Woke up in a white room full of other human blocks. This was not your ordinary isekai story. Nerissa Ravencroft found herself caught up in a "new" world full of eccentricities and bizarre adventures. 
+
+Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? Come to think of it, she couldn't even recall if she "accepted" the call that led her to be transported in the Kingdom of Libestal.
+
+Regardless, here she was, thriving... and making tons of monies (she was still poor) through the quests she took on a daily basis. 
+
 
 ### Chapter 2
 
