@@ -20,9 +20,13 @@ Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bl
 
 Woke up in a white room full of other human blocks. This was not your ordinary isekai story. Nerissa Ravencroft found herself caught up in a "new" world full of eccentricities and bizarre adventures. 
 
-Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? Come to think of it, she couldn't even recall if she "accepted" the call that led her to be transported in the Kingdom of Libestal.
+Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? Come to think of it, she couldn't even recall if she actually "accepted" the call that led her to be transported in the Kingdom of Libestal.
 
 Regardless, here she was, thriving... and making tons of monies (she was still poor) through the quests she took on a daily basis. 
+
+Her interactions with the other heroes were quite "normal" except for a certain knight who claimed to be "monitoring" her. This fumbling warrior accused her of being a witch, and their conversations were nothing but flirting (just kiss already). [Spoiler: they actually did].
+
+
 
 
 ### Chapter 2
