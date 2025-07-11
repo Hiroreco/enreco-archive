@@ -18,15 +18,16 @@ Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bl
 **Name:** Nerissa Ravencroft
 **Guild:** Scarlet Wand
 
-Woke up in a white room full of other human blocks. This was not your ordinary isekai story. Nerissa Ravencroft found herself caught up in a "new" world full of eccentricities and bizarre adventures. 
+This was not your ordinary isekai story. Nerissa Ravencroft  woke up in a white room full of other human "blocks" who, for some reason, were vaguely familiar to her. Together with these "heroes", she would find herself caught up in a "new" world full of eccentricities and bizarre adventures. 
 
-Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? Come to think of it, she couldn't even recall if she actually "accepted" the call that led her to be transported in the Kingdom of Libestal.
+Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? However, it seemed she had no choice, and thus accepted the task the King of Libestal had bestowed upon her.
 
-Regardless, here she was, thriving... and making tons of monies (she was still poor) through the quests she took on a daily basis. 
+
+Grouped with other heroes, Gaoo Gura, Cecilia, Shiori, and Fauna, she became part of the Scarlet Wand guild who prides themselves with curiosity and knowledge which later became known as the Guild of the Witches.
 
 Her interactions with the other heroes were quite "normal" except for a certain knight who claimed to be "monitoring" her. This fumbling warrior accused her of being a witch, and their conversations were nothing but flirting (just kiss already). [Spoiler: they actually did].
 
-
+She also became assistant to her not-so suspicious guildmate, Ceres Fauna, who owned a convenience store and hosted a dubious raffle contest. 
 
 
 ### Chapter 2
