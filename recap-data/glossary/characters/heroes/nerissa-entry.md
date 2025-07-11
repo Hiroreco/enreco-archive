@@ -27,7 +27,9 @@ Grouped with other heroes, Gaoo Gura, Cecilia, Shiori, and Fauna, she became par
 
 Her interactions with the other heroes were quite "normal" except for a certain knight who claimed to be "monitoring" her. This fumbling warrior accused her of being a witch, and their conversations were nothing but flirting (just kiss already). [Spoiler: they actually did].
 
-She also became assistant to her not-so suspicious guildmate, Ceres Fauna, who owned a convenience store and hosted a dubious raffle contest. 
+She also became assistant to her not-so suspicious guildmate, Ceres Fauna, who owned a convenience store and hosted a dubious raffle contest. Days have passed, she then encountered the Fuzzy One who bought quite a few tickets and then eventually accused her of scam due to a simple misunderstanding. This accusation led to the Fuzzy One putting a bounty on her head. She sought protection from the scarlet knight, Lady Bloodflame who then promised to do so. Even then, she got killed by the Phoenix, and thus became a ghost, roaming around... seeking justice for her untimely death.
+
+While in her ghost form, she discovered some rather interesting secrets of the kingdom, which has put the motivation of the king to destroy the Stains into question. Was it actually to save the Kingdom? Or he had some other vain plans in mind? Nerissa confronted her friends regarding this, a few believed but Lady Bloodflame, refused and claimed to remain loyal to the king no matter what. 
 
 
 ### Chapter 2
