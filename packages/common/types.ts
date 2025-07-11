@@ -14,6 +14,13 @@ export type TeamMap = { [key: string]: Team };
 export type RelationshipMap = { [key: string]: Relationship };
 
 /* Data Types */
+export type SiteData = {
+    version: number;
+    numberOfChapters: number;
+    event: string;
+    chapters: Chapter[];
+};
+
 export type TextData = {
     [key: string]: {
         content: string;
