@@ -208,13 +208,10 @@ const PlayerControls = ({
 
 interface ViewMusicPlayerModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
 }
 
-const ViewMusicPlayerModal = ({
-    open,
-    onOpenChange,
-}: ViewMusicPlayerModalProps) => {
+const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
     const {
         catIndex,
         setCatIndex,
@@ -239,6 +236,15 @@ const ViewMusicPlayerModal = ({
 
     const hasSelection = catIndex !== null && trackIndex !== null;
     const [, songs] = hasSelection ? categories[catIndex!] : ["", []];
+
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
+    );
 
     // Shuffle utility functions
     const generateShuffledIndices = useCallback((length: number) => {

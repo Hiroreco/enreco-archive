@@ -1,7 +1,9 @@
 import { useAudioStore } from "@/store/audioStore";
 import { useViewStore } from "@/store/viewStore";
+
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { MouseEvent } from "react";
+import { useShallow } from "zustand/react/shallow";
 
 export type HrefType = "embed" | "general";
 
@@ -19,9 +21,14 @@ const TimestampHref = ({
     caption,
     ...rest
 }: TimestampHrefProps) => {
-    const setVideoModalOpen = useViewStore((state) => state.setVideoModalOpen);
-    const setVideoUrl = useViewStore((state) => state.setVideoUrl);
-    const pauseBGM = useAudioStore((state) => state.pauseBGM);
+    const [openVideoModal, setVideoUrl] = useViewStore(
+        useShallow((state) => [
+            state.modal.openVideoModal,
+            state.modal.setVideoUrl,
+        ]),
+    );
+    const [pauseBGM] = useAudioStore(useShallow((state) => [state.pauseBGM]));
+
     const timestampHandler = async (
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
@@ -29,7 +36,7 @@ const TimestampHref = ({
         event.preventDefault();
         pauseBGM();
 
-        setVideoModalOpen(true);
+        openVideoModal();
         setVideoUrl(timestampUrl);
     };
 

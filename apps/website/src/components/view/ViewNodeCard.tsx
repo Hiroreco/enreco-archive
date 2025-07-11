@@ -6,8 +6,8 @@ import VaulDrawer from "@/components/view/VaulDrawer";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ImageNodeType, Team } from "@enreco-archive/common/types";
-import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
+import { ChartData, ImageNodeType, Team } from "@enreco-archive/common/types";
+import { isMobileViewport } from "@/lib/utils";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -24,26 +24,30 @@ interface Props {
     isCardOpen: boolean;
     selectedNode: ImageNodeType | null;
     nodeTeam: Team | null;
+    charts: ChartData[];
+    read: boolean;
     chapter: number;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     setChartShrink: (width: number) => void;
     onDayChange: (newDay: number) => void;
-    availiableNodes: ImageNodeType[];
+    onReadChange: (isRead: boolean) => void;
 }
 
 const ViewNodeCard = ({
     isCardOpen,
     selectedNode,
     nodeTeam,
+    charts,
+    read,
     chapter,
-    availiableNodes,
     onCardClose,
     onNodeLinkClicked,
     onEdgeLinkClicked,
     setChartShrink,
     onDayChange,
+    onReadChange,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
 
@@ -75,6 +79,15 @@ const ViewNodeCard = ({
                 disableScrollablity={false}
             ></VaulDrawer>
         );
+    }
+
+    const availiableNodes = [];
+    for (const chart of charts) {
+        for (const node of chart.nodes) {
+            if (node.id === selectedNode.id) {
+                availiableNodes.push(node);
+            }
+        }
     }
 
     return (
@@ -161,14 +174,7 @@ const ViewNodeCard = ({
                         {selectedNode?.data.content || "No content available"}
                     </ViewMarkdown>
                     <Separator className="mt-4" />
-                    <ReadMarker
-                        id={idFromChapterDayId(
-                            chapter,
-                            selectedNode.data.day,
-                            selectedNode.id,
-                        )}
-                        read={selectedNode.data.isRead}
-                    />
+                    <ReadMarker read={read} setRead={onReadChange} />
                 </div>
             </div>
         </VaulDrawer>

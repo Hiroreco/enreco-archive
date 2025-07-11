@@ -31,7 +31,7 @@ interface FanartEntry {
 
 interface ViewFanartModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     chapter: number;
     day: number;
     initialCharacter?: string;
@@ -44,7 +44,7 @@ interface MasonryColumn {
 
 const ViewFanartModal = ({
     open,
-    onOpenChange,
+    onClose,
     chapter,
     day,
     initialCharacter = "all",
@@ -243,6 +243,15 @@ const ViewFanartModal = ({
             return columns;
         },
         [columnCount],
+    );
+
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
     );
 
     // Effects

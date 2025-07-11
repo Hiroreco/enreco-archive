@@ -1,5 +1,5 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
-import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
+import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
 import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
@@ -20,7 +20,7 @@ export default function EdgeLink({
     children,
     onEdgeLinkClick,
 }: EdgeLinkProps) {
-    const { edges } = useContext(CurrentChartDataContext);
+    const { edges } = useContext(CurrentDayDataContext);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.

@@ -17,7 +17,7 @@ Soon after, Gonathon joined up with the Wolf Pack to tackle the next dungeon. He
 
 An intense duel saw Gonathon emerging victorious and a flood of memories returning. When asked why he fought and what Libestal meant to him, Gonathon [responded resoundingly](https://youtu.be/alQr5XqoUPs?t=7383): from now on, he would not fight simply because of blind duty, but because it was what he believed in. For him, Libestal meant kindness, compassion, and, above all, always fighting for what you believed in.
 
-[For my code, for my honor! The way of a knight!](#embed:https://youtu.be/alQr5XqoUPs?t=7585)
+[For my own code, For my own honor! The way of a knight!](#embed:https://youtu.be/alQr5XqoUPs?t=7585)
 
 Following this, Gonathon met with the aloof, but deeply familiar, Elizabeth Rose Bloodflame (see [Elizabeth-Gonathon: Honor and Justice](#edge:liz-gigi)). As a fellow knight, Liz had become concerned with Gonathon’s dealings with Shiori. She, too, asked Gonathon what he was fighting for, and after being asked what she thought of Gonathon, the Scarlet Knight described the [deep kinship](https://youtu.be/alQr5XqoUPs?t=10855) she felt for Gonathon, Immerkind, and Roa. The two agreed they shared a special bond and resolved to fight for an even higher cause than mere honor or love: that of Justice. Filled with resolve, Gonathon went forth to confront his greatest challenge of the day: reconciling with Shiori.
 

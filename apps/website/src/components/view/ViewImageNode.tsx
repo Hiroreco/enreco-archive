@@ -4,7 +4,10 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import { memo, useMemo } from "react";
+import { memo, useContext, useMemo } from "react";
+import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
+
+import "@/components/view/ViewImageNode.css";
 
 const NUM_OF_HANDLES = 5;
 
@@ -41,6 +44,8 @@ const generateHandles = (numOfHandles: number) => [
 ];
 
 const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
+    const { teams } = useContext(CurrentChapterDataContext);
+
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
@@ -61,16 +66,10 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
         <>
             {handles}
             <div
-                style={{
-                    opacity: data.renderOpacity,
-                    transition: "all 0.3s, opacity 1s",
-                }}
                 className={cn(
-                    "relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
+                    "node-content relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
                     {
                         "hover:scale-110 transition-transform": !selected,
-                        "brightness-100": !data.renderDimly,
-                        "brightness-90 dark:brightness-50": data.renderDimly,
                     },
                 )}
             >
@@ -99,12 +98,12 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
                     />
                 )}
 
-                {data.renderTeamImageSrc !== "" && id !== "lore" && (
+                {teams[data.teamId] && id !== "lore" && (
                     <Image
                         className="absolute top-1 left-1 opacity-80 z-20"
                         width={25}
                         height={25}
-                        src={data.renderTeamImageSrc || ""}
+                        src={teams[data.teamId].teamIconSrc}
                         alt="team icon"
                         priority={true}
                     />

@@ -14,6 +14,13 @@ export type TeamMap = { [key: string]: Team };
 export type RelationshipMap = { [key: string]: Relationship };
 
 /* Data Types */
+export type SiteData = {
+    version: number;
+    numberOfChapters: number;
+    event: string;
+    chapters: Chapter[];
+};
+
 export type TextData = {
     [key: string]: {
         content: string;
@@ -113,12 +120,6 @@ export type EditorImageNodeData = CommonNodeData & {
 
 export type ImageNodeData = CommonNodeData & {
     isRead?: boolean;
-
-    // The following properties are used during the rendering of this node,
-    // and should not be filled by the data source.
-    renderTeamImageSrc?: string;
-    renderOpacity?: number;
-    renderDimly?: boolean;
 };
 
 export type CustomEdgeOffsets = {
@@ -144,9 +145,6 @@ export type CustomEdgeData = CommonEdgeData & {};
 
 export type FixedEdgeData = CommonEdgeData & {
     isRead?: boolean;
-    // The following properties are used during the rendering of this edge,
-    // and should not be filled by the data source.
-    renderDimly?: boolean;
 };
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;

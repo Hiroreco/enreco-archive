@@ -9,15 +9,34 @@ import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Dice6, Info, Settings, Disc3 } from "lucide-react";
+import { useShallow } from "zustand/react/shallow";
 
 interface ViewItemsAppProps {
     bgImage: string;
 }
 
 const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
-    const viewStore = useViewStore();
-    const { isOpen: isMusicModalOpen, setIsOpen: setIsMusicModalOpen } =
-        useMusicPlayerStore();
+    const [isMusicModalOpen, setIsMusicModalOpen] = useMusicPlayerStore(
+        useShallow((state) => [state.isOpen, state.setIsOpen]),
+    );
+
+    const [
+        openModal,
+        openInfoModal,
+        openSettingsModal,
+        openMinigameModal,
+        closeModal,
+        videoUrl,
+    ] = useViewStore(
+        useShallow((state) => [
+            state.modal.openModal,
+            state.modal.openInfoModal,
+            state.modal.openSettingsModal,
+            state.modal.openMinigameModal,
+            state.modal.closeModal,
+            state.modal.videoUrl,
+        ]),
+    );
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
@@ -28,32 +47,29 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 />
             </GlossaryProvider>
 
-            {/* Pretty much the same as ViewApp from here on */}
-            <ViewInfoModal
-                open={viewStore.infoModalOpen}
-                onOpenChange={viewStore.setInfoModalOpen}
-            />
+            {/* Updated modal pattern to match ViewApp */}
+            <ViewInfoModal open={openModal === "info"} onClose={closeModal} />
 
             <ViewSettingsModal
-                open={viewStore.settingsModalOpen}
-                onOpenChange={viewStore.setSettingsModalOpen}
+                open={openModal === "settings"}
+                onClose={closeModal}
             />
 
             <ViewMiniGameModal
-                open={viewStore.minigameModalOpen}
-                onOpenChange={viewStore.setMinigameModalOpen}
+                open={openModal === "minigame"}
+                onClose={closeModal}
             />
 
             <ViewVideoModal
-                open={viewStore.videoModalOpen}
-                onOpenChange={viewStore.setVideoModalOpen}
-                videoUrl={viewStore.videoUrl}
+                open={openModal === "video"}
+                onClose={closeModal}
+                videoUrl={videoUrl}
                 bgImage={bgImage}
             />
 
             <ViewMusicPlayerModal
                 open={isMusicModalOpen}
-                onOpenChange={setIsMusicModalOpen}
+                onClose={() => setIsMusicModalOpen(false)}
             />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex md:flex-col gap-[8px]">
@@ -63,7 +79,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setInfoModalOpen(true)}
+                    onClick={openInfoModal}
                 >
                     <Info />
                 </IconButton>
@@ -74,7 +90,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setSettingsModalOpen(true)}
+                    onClick={openSettingsModal}
                 >
                     <Settings />
                 </IconButton>
@@ -85,7 +101,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setMinigameModalOpen(true)}
+                    onClick={openMinigameModal}
                 >
                     <Dice6 />
                 </IconButton>
