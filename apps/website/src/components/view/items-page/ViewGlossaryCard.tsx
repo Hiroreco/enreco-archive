@@ -99,16 +99,12 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         const items: Array<{ id: string; subcategory: string }> = [];
 
         // Sort subcategories consistently
-        const sortedSubcategories = Object.keys(filteredData).sort();
+        const sortedSubcategories = Object.keys(filteredData);
 
         sortedSubcategories.forEach((subcategory) => {
             const subcategoryItems = filteredData[subcategory];
             if (subcategoryItems && subcategoryItems.length > 0) {
-                // Sort items within subcategory by title
-                const sortedItems = [...subcategoryItems].sort((a, b) =>
-                    a.title.localeCompare(b.title),
-                );
-                sortedItems.forEach((item) => {
+                subcategoryItems.forEach((item) => {
                     items.push({ id: item.id, subcategory });
                 });
             }

@@ -6,82 +6,182 @@
   },
   "bae": {
     "sfxList": [
-      "easter/bae/easter-bae-0"
+      "easter/bae/easter-bae-0",
+      "easter/bae/easter-bae-1",
+      "easter/bae/easter-bae-2",
+      "easter/bae/easter-bae-3",
+      "easter/bae/easter-bae-4",
+      "easter/bae/easter-bae-5",
+      "easter/bae/easter-bae-6"
     ]
   },
   "bijou": {
     "sfxList": [
-      "easter/bijou/easter-bijou-0"
+      "easter/bijou/easter-bijou-0",
+      "easter/bijou/easter-bijou-1",
+      "easter/bijou/easter-bijou-2",
+      "easter/bijou/easter-bijou-3",
+      "easter/bijou/easter-bijou-4",
+      "easter/bijou/easter-bijou-5",
+      "easter/bijou/easter-bijou-6"
     ]
   },
   "calli": {
     "sfxList": [
-      "easter/calli/easter-calli-0"
+      "easter/calli/easter-calli-0",
+      "easter/calli/easter-calli-1",
+      "easter/calli/easter-calli-2",
+      "easter/calli/easter-calli-3",
+      "easter/calli/easter-calli-4"
     ]
   },
   "cecilia": {
     "sfxList": [
-      "easter/cecilia/easter-cecilia-0"
+      "easter/cecilia/easter-cecilia-0",
+      "easter/cecilia/easter-cecilia-1",
+      "easter/cecilia/easter-cecilia-2",
+      "easter/cecilia/easter-cecilia-3",
+      "easter/cecilia/easter-cecilia-4",
+      "easter/cecilia/easter-cecilia-5",
+      "easter/cecilia/easter-cecilia-6"
+    ]
+  },
+  "fauna": {
+    "sfxList": [
+      "easter/fauna/easter-fauna-0",
+      "easter/fauna/easter-fauna-1",
+      "easter/fauna/easter-fauna-2",
+      "easter/fauna/easter-fauna-3",
+      "easter/fauna/easter-fauna-4",
+      "easter/fauna/easter-fauna-5"
     ]
   },
   "fuwawa": {
     "sfxList": [
-      "easter/fuwawa/easter-fuwawa-0"
+      "easter/fuwawa/easter-fuwawa-0",
+      "easter/fuwawa/easter-fuwawa-1",
+      "easter/fuwawa/easter-fuwawa-2",
+      "easter/fuwawa/easter-fuwawa-3",
+      "easter/fuwawa/easter-fuwawa-4",
+      "easter/fuwawa/easter-fuwawa-5",
+      "easter/fuwawa/easter-fuwawa-6",
+      "easter/fuwawa/easter-fuwawa-7"
     ]
   },
   "gura": {
     "sfxList": [
-      "easter/gura/easter-gura-0"
+      "easter/gura/easter-gura-0",
+      "easter/gura/easter-gura-1",
+      "easter/gura/easter-gura-2",
+      "easter/gura/easter-gura-3",
+      "easter/gura/easter-gura-4",
+      "easter/gura/easter-gura-5"
     ]
   },
   "ina": {
     "sfxList": [
-      "easter/ina/easter-ina-0"
+      "easter/ina/easter-ina-0",
+      "easter/ina/easter-ina-1",
+      "easter/ina/easter-ina-2",
+      "easter/ina/easter-ina-3",
+      "easter/ina/easter-ina-4"
     ]
   },
   "irys": {
     "sfxList": [
-      "easter/irys/easter-irys-0"
+      "easter/irys/easter-irys-0",
+      "easter/irys/easter-irys-1",
+      "easter/irys/easter-irys-2",
+      "easter/irys/easter-irys-3",
+      "easter/irys/easter-irys-4",
+      "easter/irys/easter-irys-5"
     ]
   },
   "kiara": {
     "sfxList": [
-      "easter/kiara/easter-kiara-0"
+      "easter/kiara/easter-kiara-0",
+      "easter/kiara/easter-kiara-1",
+      "easter/kiara/easter-kiara-2",
+      "easter/kiara/easter-kiara-3",
+      "easter/kiara/easter-kiara-4",
+      "easter/kiara/easter-kiara-5"
     ]
   },
   "kronii": {
     "sfxList": [
-      "easter/kronii/easter-kronii-0"
+      "easter/kronii/easter-kronii-0",
+      "easter/kronii/easter-kronii-1",
+      "easter/kronii/easter-kronii-2",
+      "easter/kronii/easter-kronii-3",
+      "easter/kronii/easter-kronii-4",
+      "easter/kronii/easter-kronii-5",
+      "easter/kronii/easter-kronii-6",
+      "easter/kronii/easter-kronii-7",
+      "easter/kronii/easter-kronii-8"
     ]
   },
   "liz": {
     "sfxList": [
-      "easter/liz/easter-liz-0"
+      "easter/liz/easter-liz-0",
+      "easter/liz/easter-liz-1",
+      "easter/liz/easter-liz-2",
+      "easter/liz/easter-liz-3",
+      "easter/liz/easter-liz-4",
+      "easter/liz/easter-liz-5",
+      "easter/liz/easter-liz-6",
+      "easter/liz/easter-liz-7"
     ]
   },
   "mococo": {
     "sfxList": [
-      "easter/mococo/easter-mococo-0"
+      "easter/mococo/easter-mococo-0",
+      "easter/mococo/easter-mococo-1",
+      "easter/mococo/easter-mococo-2",
+      "easter/mococo/easter-mococo-3",
+      "easter/mococo/easter-mococo-4",
+      "easter/mococo/easter-mococo-5",
+      "easter/mococo/easter-mococo-6"
     ]
   },
   "moom": {
     "sfxList": [
-      "easter/moom/easter-moom-0"
+      "easter/moom/easter-moom-0",
+      "easter/moom/easter-moom-1",
+      "easter/moom/easter-moom-2",
+      "easter/moom/easter-moom-3",
+      "easter/moom/easter-moom-4",
+      "easter/moom/easter-moom-5",
+      "easter/moom/easter-moom-6"
     ]
   },
   "nerissa": {
     "sfxList": [
-      "easter/nerissa/easter-nerissa-0"
+      "easter/nerissa/easter-nerissa-0",
+      "easter/nerissa/easter-nerissa-1",
+      "easter/nerissa/easter-nerissa-2",
+      "easter/nerissa/easter-nerissa-3",
+      "easter/nerissa/easter-nerissa-4",
+      "easter/nerissa/easter-nerissa-5",
+      "easter/nerissa/easter-nerissa-6",
+      "easter/nerissa/easter-nerissa-7"
     ]
   },
   "raora": {
     "sfxList": [
-      "easter/raora/easter-raora-0"
+      "easter/raora/easter-raora-0",
+      "easter/raora/easter-raora-1",
+      "easter/raora/easter-raora-2"
     ]
   },
   "shiori": {
     "sfxList": [
-      "easter/shiori/easter-shiori-0"
+      "easter/shiori/easter-shiori-0",
+      "easter/shiori/easter-shiori-1",
+      "easter/shiori/easter-shiori-2",
+      "easter/shiori/easter-shiori-3",
+      "easter/shiori/easter-shiori-4",
+      "easter/shiori/easter-shiori-5",
+      "easter/shiori/easter-shiori-6"
     ]
   },
   "shiori-game": {

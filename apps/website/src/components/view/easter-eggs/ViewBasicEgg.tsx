@@ -43,11 +43,12 @@ const ViewBasicEgg = ({
             width={100}
             height={100}
             src={`images-opt/${imageName}-opt.webp`}
+            draggable={false}
             className={cn(
                 "transition-all absolute -bottom-[50px] right-0 h-[100px] w-auto",
                 {
-                    "cursor-pointer opacity-50 hover:opacity-100": !isPlaying,
-                    "opacity-100": isPlaying,
+                    "cursor-pointer opacity-50 hover:opacity-80": !isPlaying,
+                    "opacity-80": isPlaying,
                 },
                 className,
             )}

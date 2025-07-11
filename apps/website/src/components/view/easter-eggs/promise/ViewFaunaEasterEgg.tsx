@@ -10,7 +10,25 @@ const ViewFaunaEasterEgg = () => {
     const [isRolling, setIsRolling] = useState(false);
     const [stoppedIndices, setStoppedIndices] = useState<number[]>([]);
 
-    const audioStore = useAudioStore();
+    const {
+        playSFX,
+        playEasterEgg,
+        initializeEasterEgg,
+        cleanupEasterEgg,
+        easterEggStates,
+    } = useAudioStore();
+
+    const eggState = easterEggStates["fauna"];
+    const isEasterEggPlaying = eggState?.isPlaying || false;
+
+    // Initialize easter egg on mount
+    useEffect(() => {
+        initializeEasterEgg("fauna");
+
+        return () => {
+            cleanupEasterEgg("fauna");
+        };
+    }, [initializeEasterEgg, cleanupEasterEgg]);
 
     // Rapid number updating effect while spinning
     useEffect(() => {
@@ -36,9 +54,10 @@ const ViewFaunaEasterEgg = () => {
     }, [isRolling, stoppedIndices, numbers]);
 
     const handleRoll = () => {
-        if (isRolling) return;
+        // Prevent rolling if already rolling or if easter egg audio is playing
+        if (isRolling || isEasterEggPlaying) return;
 
-        audioStore.playSFX("click");
+        playSFX("click");
 
         setIsRolling(true);
         setStoppedIndices([]);
@@ -57,15 +76,23 @@ const ViewFaunaEasterEgg = () => {
             setTimeout(
                 () => {
                     setStoppedIndices((prev) => [...prev, index]);
+                    playSFX("xp");
+
+                    // When the last reel stops, play the easter egg audio
                     if (index === 2) {
                         setIsRolling(false);
+
+                        // Small delay before playing easter egg audio
+                        playEasterEgg("fauna");
                     }
-                    audioStore.playSFX("xp");
                 },
                 1000 + index * 500,
             );
         });
     };
+
+    // Determine if button should be disabled
+    const isButtonDisabled = isRolling || isEasterEggPlaying;
 
     return (
         <div className="flex flex-col items-center gap-4">
@@ -73,9 +100,7 @@ const ViewFaunaEasterEgg = () => {
                 {numbers.map((finalNum, index) => (
                     <motion.div
                         key={index}
-                        className={cn(
-                            "w-12 h-16 relative flex items-center justify-center text-2xl font-bold rounded-md overflow-hidden",
-                        )}
+                        className="w-12 h-16 relative flex items-center justify-center text-2xl font-bold rounded-md overflow-hidden"
                         animate={{
                             y:
                                 isRolling && !stoppedIndices.includes(index)
@@ -103,7 +128,13 @@ const ViewFaunaEasterEgg = () => {
                     </motion.div>
                 ))}
             </div>
-            <Button onClick={handleRoll} disabled={isRolling} className="w-24">
+            <Button
+                onClick={handleRoll}
+                disabled={isButtonDisabled}
+                className={cn("w-24", {
+                    "opacity-50 cursor-not-allowed": isButtonDisabled,
+                })}
+            >
                 {isRolling ? "Rolling..." : "Roll"}
             </Button>
         </div>
