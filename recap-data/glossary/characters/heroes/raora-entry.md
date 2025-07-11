@@ -9,7 +9,7 @@
 **Memories:** Not Recollected
 **Revelation:** [Purrfect Execution](#entry:purrfect-execution-entry)
 
-Raora, first a (fake) queen married to another (fake) queen, then a jewel store owner married to a cat-loving woman, was the hard-working big cat who dabbled in many different endeavors, and for some reason, constantly sought out romantic partners.
+Raora was first a (fake) queen married to another (fake) queen, then a jewel store owner married to a cat-loving woman. She was a hard-working big cat who dabbled in many different endeavors and, for some reason, constantly sought out romantic partners.
 
 ## Details
 
@@ -18,11 +18,11 @@ Raora, first a (fake) queen married to another (fake) queen, then a jewel store 
 **Name:** Raora Panthera, Mario
 **Guild:** Amber Coin
 
-Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom and the one whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam—thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=13146)
+Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom—whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam, thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=13146)
 
-The difference between the two queens? Raora actually put in the work. She was hardworking, genuinely cared for her guildmates, and even built a castle with designated rooms for each of them.
+The difference between the two queens? Raora actually put in the work. She genuinely cared for her guildmates and even built a castle with designated rooms for each of them.
 
-She was also a loving mother to two, Bijou and Ina, and her affection showed in the way she tried to rescue Bijou from corruption, and how deeply moved she was when the two sisters clashed in battle.
+She was also a loving mother to two, Bijou and Ina. Her affection showed in the way she tried to rescue Bijou from corruption and how deeply moved she was when the two sisters clashed in battle.
 
 For the most part, Raora did her own thing, occasionally dropping in on others’ chaos. And that rivalry with Tam? It came full circle—by the end of the journey, the two were married. From enemies to lovers.
 
@@ -37,12 +37,12 @@ The pink cat’s second journey began with a new name, Roa Pandora, and no memor
 
 With the help of her diligent [employees](https://www.youtube.com/live/i54lsw-XjDA?t=692) and her own tireless dedication, Roa managed to bring her vision to life early in the journey.
 
-This time around, her web of relationships became even more tangled. Unlike the first chapter, Roa actively involved herself in others’ affairs—sometimes _literal_ affairs. She became the third rose to bloom between Tam and the Hot Pink One, ultimately contributing to the collapse of their relationship. Then, her attention shifted to a certain red knight, [Elizabeth.](https://www.youtube.com/live/m2OG5auudrQ?si=8Q0YfMORv-AQL_qj&t=11014)
+This time around, her web of relationships became even more tangled. Unlike in the first chapter, Roa actively involved herself in others’ affairs—sometimes _literal_ affairs. She became the third rose to bloom between Tam and the Hot Pink One, ultimately contributing to the collapse of their relationship. Then, her attention shifted to a certain red knight, [Elizabeth.](https://www.youtube.com/live/m2OG5auudrQ?si=8Q0YfMORv-AQL_qj&t=11014)
 
-Despite her efforts, Elizabeth’s heart already belonged to another. Even so, a happy ending still awaited Roa, as she eventually found love and married a certain cat-loving maiden, Shakira—ending her second journey on a high note.
+Despite her efforts, Elizabeth’s heart already belonged to another. Even so, a happy ending still awaited Roa: she eventually found love and married a certain cat-loving maiden, Shakira—ending her second journey on a high note.
 
 ## Trivia
 
-- If one had a nickel for every time Raora ended up married with someone on day 7 of each chapter, they’d have two nickels. Which isn’t a lot, but it’s weird that it happened twice.
+- If one had a nickel for every time Raora ended up married to someone on day 7 of each chapter, they’d have two nickels. Which isn’t a lot, but it’s weird that it happened twice.
 
 [raora](#easter:easter-raora)
