@@ -1,10 +1,12 @@
 "use client";
 import { Howl } from "howler";
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
 import { useSettingStore } from "@/store/settingStore";
 import { useEffect } from "react";
 import { EasterEggState, TextAudioState } from "@enreco-archive/common/types";
 import easterEggSounds from "#/easterEggSounds.json";
+import { EASTER_EGG_STORAGE_KEY } from "@/lib/constants";
 
 interface AudioState {
     bgm: Howl | null;
@@ -25,17 +27,75 @@ interface AudioState {
     ) => void;
     siteBgmKey: string | null;
     setSiteBgmKey: (key: string) => void;
-    easterEggStates: { [key: string]: EasterEggState };
-    playEasterEgg: (eggName: string) => void;
-    stopEasterEgg: (eggName: string) => void;
-    initializeEasterEgg: (eggName: string) => void;
-    cleanupEasterEgg: (eggName: string) => void;
     textAudioState: TextAudioState;
     playTextAudio: (textId: string) => void;
     stopTextAudio: () => void;
+    isMoomPlaying: boolean;
+    setIsMoomPlaying: (isPlaying: boolean) => void;
+    isLizPlaying: boolean;
+    setIsLizPlaying: (isPlaying: boolean) => void;
 }
 
-export const useAudioStore = create<AudioState>((set, get) => ({
+// Separate store for easter egg persistence
+interface EasterEggPersistState {
+    easterEggPlayedSounds: { [key: string]: number[] };
+    addPlayedSound: (eggName: string, soundIndex: number) => void;
+    resetEgg: (eggName: string) => void;
+    getPlayedSounds: (eggName: string) => Set<number>;
+}
+
+// Persistent easter egg store
+export const useEasterEggPersistStore = create<EasterEggPersistState>()(
+    persist(
+        (set, get) => ({
+            easterEggPlayedSounds: {},
+
+            addPlayedSound: (eggName: string, soundIndex: number) => {
+                set((state) => ({
+                    easterEggPlayedSounds: {
+                        ...state.easterEggPlayedSounds,
+                        [eggName]: [
+                            ...(state.easterEggPlayedSounds[eggName] || []),
+                            soundIndex,
+                        ],
+                    },
+                }));
+            },
+
+            resetEgg: (eggName: string) => {
+                set((state) => ({
+                    easterEggPlayedSounds: {
+                        ...state.easterEggPlayedSounds,
+                        [eggName]: [],
+                    },
+                }));
+            },
+
+            getPlayedSounds: (eggName: string) => {
+                const sounds = get().easterEggPlayedSounds[eggName] || [];
+                return new Set(sounds);
+            },
+        }),
+        {
+            name: EASTER_EGG_STORAGE_KEY,
+            // Only persist the played sounds data
+            partialize: (state) => ({
+                easterEggPlayedSounds: state.easterEggPlayedSounds,
+            }),
+        },
+    ),
+);
+
+// Main audio store (non-persistent runtime state)
+export const useAudioStore = create<
+    AudioState & {
+        easterEggStates: { [key: string]: EasterEggState };
+        playEasterEgg: (eggName: string) => void;
+        stopEasterEgg: (eggName: string) => void;
+        initializeEasterEgg: (eggName: string) => void;
+        cleanupEasterEgg: (eggName: string) => void;
+    }
+>((set, get) => ({
     bgm: null,
     currentBgmKey: null,
     siteBgmKey: null,
@@ -44,14 +104,18 @@ export const useAudioStore = create<AudioState>((set, get) => ({
         isPlaying: false,
         currentTextId: null,
     },
+    isMoomPlaying: false,
+    isLizPlaying: false,
 
     setSiteBgmKey: (key: string) => set({ siteBgmKey: key }),
+    setIsMoomPlaying: (isPlaying: boolean) => set({ isMoomPlaying: isPlaying }),
+    setIsLizPlaying: (isPlaying: boolean) => set({ isLizPlaying: isPlaying }),
+
     sfx: {
         click: new Howl({
             src: ["/audio/sfx/sfx-click.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-
         unlock: new Howl({
             src: ["/audio/sfx/sfx-unlock.mp3"],
             volume: useSettingStore.getState().sfxVolume,
@@ -88,13 +152,10 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             src: ["/audio/sfx/sfx-chicken-pop.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-
-        // these easters should be preloaded to get timing right
         "easter-awoo": new Howl({
             src: ["/audio/easter/easter-awoo.mp3"],
             volume: useSettingStore.getState().sfxVolume,
         }),
-
         "easter-ame": new Howl({
             src: ["/audio/easter/ame/easter-ame-0.mp3"],
             volume: useSettingStore.getState().sfxVolume,
@@ -102,6 +163,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     },
     bgmVolume: useSettingStore.getState().bgmVolume,
     sfxVolume: useSettingStore.getState().sfxVolume,
+
     playBGM: (fadeInDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm && !bgm.playing()) {
@@ -109,6 +171,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             bgm.play();
         }
     },
+
     stopBGM: (fadeOutDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm) {
@@ -116,6 +179,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             setTimeout(() => bgm.stop(), fadeOutDuration);
         }
     },
+
     pauseBGM: (fadeOutDuration = 1000) => {
         const { bgm, bgmVolume } = get();
         if (bgm && bgm.playing()) {
@@ -123,28 +187,28 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             setTimeout(() => bgm.pause(), fadeOutDuration);
         }
     },
+
     playSFX: (name: string) => {
         const { sfx, sfxVolume } = get();
-        // this bit is a bit funky since i want to prioritize preloading certain easter eggs to others
         if (!sfx[name]) {
             const sound = new Howl({
                 src: [`/audio/${name}.mp3`],
                 volume: sfxVolume,
             });
             sound.play();
-
-            // Add the dynamically loaded sound to the sfx object
             set({ sfx: { ...sfx, [name]: sound } });
         } else {
             sfx[name].volume(sfxVolume);
             sfx[name].play();
         }
     },
+
     setAllSfxVolume: (volume: number) => {
         set({ sfxVolume: volume });
         const { sfx } = get();
         Object.values(sfx).forEach((sound) => sound.volume(volume));
     },
+
     setBgmVolume: (volume: number) => {
         set({ bgmVolume: volume });
         const { bgm } = get();
@@ -152,6 +216,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             bgm.volume(volume);
         }
     },
+
     changeBGM: (
         newBgmSrc: string,
         fadeInDuration = 1000,
@@ -169,7 +234,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
 
         const { bgm, bgmVolume } = get();
 
-        // Fade out current BGM
         if (bgm) {
             bgm.fade(bgmVolume, 0, fadeOutDuration);
             setTimeout(() => {
@@ -177,7 +241,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             }, fadeOutDuration);
         }
 
-        // Create and fade in new BGM
         const newBgm = new Howl({
             src: [newBgmSrc],
             loop: true,
@@ -196,19 +259,25 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             newBgm.fade(0, newBgmVolume, fadeInDuration);
         }, fadeOutDuration);
     },
+
     initializeEasterEgg: (eggName: string) => {
         const { easterEggStates } = get();
         if (
             !easterEggStates[eggName] &&
             easterEggSounds[eggName as keyof typeof easterEggSounds]
         ) {
+            // Get played sounds from persistent store
+            const playedSounds = useEasterEggPersistStore
+                .getState()
+                .getPlayedSounds(eggName);
+
             set({
                 easterEggStates: {
                     ...easterEggStates,
                     [eggName]: {
                         isPlaying: false,
                         currentSoundIndex: -1,
-                        playedSounds: new Set(),
+                        playedSounds: playedSounds,
                     },
                 },
             });
@@ -216,7 +285,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     },
 
     playEasterEgg: (eggName: string) => {
-        const { easterEggStates, sfx, sfxVolume } = get();
+        const { easterEggStates, sfx, sfxVolume, playSFX } = get();
         const eggConfig =
             easterEggSounds[eggName as keyof typeof easterEggSounds];
 
@@ -235,16 +304,17 @@ export const useAudioStore = create<AudioState>((set, get) => ({
 
         // If all sounds have been played, reset
         if (availableSounds.length === 0) {
+            useEasterEggPersistStore.getState().resetEgg(eggName);
             eggState.playedSounds.clear();
             availableSounds.push(...eggConfig.sfxList.map((_, index) => index));
         }
+        console.log(availableSounds);
 
-        // Pick a random available sound
         const randomIndex =
             availableSounds[Math.floor(Math.random() * availableSounds.length)];
         const soundPath = eggConfig.sfxList[randomIndex];
 
-        // Update state to playing
+        // Update runtime state to playing
         set({
             easterEggStates: {
                 ...easterEggStates,
@@ -256,11 +326,7 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             },
         });
 
-        // Play chicken-pop first
-        if (sfx["chicken-pop"]) {
-            sfx["chicken-pop"].volume(sfxVolume);
-            sfx["chicken-pop"].play();
-        }
+        playSFX("chicken-pop");
 
         // Play the easter egg sound after 1 second
         setTimeout(() => {
@@ -280,19 +346,27 @@ export const useAudioStore = create<AudioState>((set, get) => ({
                 const currentStates = get().easterEggStates;
                 const currentEggState = currentStates[eggName];
 
+                // Update runtime state
+                const updatedPlayedSounds = new Set([
+                    ...currentEggState.playedSounds,
+                    randomIndex,
+                ]);
+
                 set({
                     easterEggStates: {
                         ...currentStates,
                         [eggName]: {
                             ...currentEggState,
                             isPlaying: false,
-                            playedSounds: new Set([
-                                ...currentEggState.playedSounds,
-                                randomIndex,
-                            ]),
+                            playedSounds: updatedPlayedSounds,
                         },
                     },
                 });
+
+                // Save to persistent store
+                useEasterEggPersistStore
+                    .getState()
+                    .addPlayedSound(eggName, randomIndex);
             });
 
             sound.play();
@@ -308,7 +382,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
 
         const eggState = easterEggStates[eggName];
 
-        // Stop the currently playing sound
         if (eggState.currentSoundIndex >= 0) {
             const soundPath = eggConfig.sfxList[eggState.currentSoundIndex];
             const sound = sfx[soundPath];
@@ -317,7 +390,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             }
         }
 
-        // Update state
         set({
             easterEggStates: {
                 ...easterEggStates,
@@ -331,24 +403,19 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     },
 
     cleanupEasterEgg: (eggName: string) => {
-        const { easterEggStates } = get();
+        // Only stop the audio, preserve the state and persistent data
         get().stopEasterEgg(eggName);
-
-        const newStates = { ...easterEggStates };
-        delete newStates[eggName];
-        set({ easterEggStates: newStates });
     },
 
     playTextAudio: (textId: string) => {
         const { textAudioState, sfx, sfxVolume } = get();
 
         if (textAudioState.isPlaying) {
-            return; // Already playing audio
+            return;
         }
 
         const audioPath = `text/${textId}`;
 
-        // Update state to playing
         set({
             textAudioState: {
                 isPlaying: true,
@@ -356,7 +423,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
             },
         });
 
-        // Check if sound already exists
         let sound = sfx[audioPath];
 
         if (!sound) {
@@ -365,7 +431,6 @@ export const useAudioStore = create<AudioState>((set, get) => ({
                 volume: sfxVolume,
                 onloaderror: () => {
                     console.warn(`Failed to load audio for text: ${textId}`);
-                    // Reset state on error
                     set({
                         textAudioState: {
                             isPlaying: false,

@@ -42,6 +42,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
         if (isTextAudioPlaying) {
             stopTextAudio();
         } else {
+            playSFX("click");
             playTextAudio(textId);
         }
     };

@@ -7,3 +7,4 @@ export const LS_FANART_MODAL_HEADER_COLLAPSED = "fanart-modal-header-collapsed";
 export const LS_SHIORI_STASH_UNLOCKED = "shiori-stash-unlocked";
 
 export const LS_AWOO_EASTER_EGG_COUNT = "awoo-easter-egg-count";
+export const EASTER_EGG_STORAGE_KEY = "enreco-easter-egg-states";
