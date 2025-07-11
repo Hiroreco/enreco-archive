@@ -6,7 +6,6 @@ import NodeLink, {
     NodeLinkClickHandler,
 } from "@/components/view/markdown/NodeLink";
 import TimestampHref from "@/components/view/markdown/TimestampHref";
-import { urlToLiveUrl } from "@/lib/utils";
 
 import { Element, ElementContent, Text } from "hast";
 import { memo, useMemo } from "react";
@@ -293,8 +292,7 @@ function ViewMarkdownInternal({
                         </EdgeLink>
                     );
                 } else if (href && href.startsWith("#embed")) {
-                    let url = href.replace("#embed:", "");
-                    url = urlToLiveUrl(url);
+                    const url = href.replace("#embed:", "");
 
                     const caption = children as string;
 
@@ -315,7 +313,7 @@ function ViewMarkdownInternal({
                 ) {
                     return (
                         <TimestampHref
-                            href={urlToLiveUrl(href!) || ""}
+                            href={href}
                             caption={children as string}
                             type="general"
                         />
