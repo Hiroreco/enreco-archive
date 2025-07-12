@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: In-bread -->
 
 [BAE IS RICH!](#embed:https://youtu.be/Lp7GyRVbz1c?t=331)

@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: Alive -->
 
 ["They found me… They found me!"](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=248)

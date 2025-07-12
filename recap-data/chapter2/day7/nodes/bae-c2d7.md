@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: In-bread -->
 
 There was a sense of finality in the air. The last fight that would decide Libestal's fate was near... and soon, Bae's confession. Death or life, love or rejection; it all weighed heavily on Bae's heart.
