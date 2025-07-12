@@ -9,7 +9,7 @@ _"We are not here to kill a baby, we are here to break apart a couple that will 
 
 A task well suited to her vast knowledge gained from romance novels.
 
-[Project Abortion](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
+[Project Breakup](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
 
 Immerkind becomes reacquainted with her fellow Shining Stars and helps ["Oliver"](https://www.youtube.com/live/cyLsX20esBE?si=_Q7J44xZtf5xKMqD&t=2417) with some of her memories, and Hot Pink One helps Immerkind decide upon the supplier job. She immediately departed and was assisted by Peasant the Bae (see [Bae-Cecilia: Supply Monopoly](#edge:cecilia-bae)) at the Remnants, where she gets to work. With her newfound job and comrade, they create a monopoly with Bae to become rich (with ["kindness"](https://www.youtube.com/live/cyLsX20esBE?si=98NttHZqZvCyfV3K&t=5215)).
 
@@ -27,7 +27,7 @@ She returns to the job hall where the adventurers toil to accomplish their tasks
 
 After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day.
 
-### Objective Tracker - Project Abortion
+### Objective Tracker - Project Breakup
 
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
 [Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
