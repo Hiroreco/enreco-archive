@@ -33,7 +33,7 @@ Then the Queen felt it too—deep in her heart, or perhaps from the abyss where 
 
 And so, on a deserted street—against a backdrop of the vast blue sky fading into space, the lush greens of nature, and the majestic structures of a thriving civilization—the three had their group photo taken.
 
-[“…a promise to keep forever.”](#embed:https://youtu.be/II40tjM-mxg?t=3460)
+[“...a promise to keep forever.”](#embed:https://youtu.be/II40tjM-mxg?t=3460)
 
 At last, it was time for the victory banquet. There, Queen Tam and the others enjoyed [fireworks supplied by Peasant the Bae](https://youtu.be/II40tjM-mxg?t=3675). The sense of accomplishment was palpable, and spirits were high as the celebration commenced. Soon, the Outlander stepped forward to personally thank each hero for their bravery—for saving him and the kingdom from their grim fate.
 

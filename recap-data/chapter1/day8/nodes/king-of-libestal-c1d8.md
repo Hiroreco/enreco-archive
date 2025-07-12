@@ -31,7 +31,7 @@ No longer bound by his shackles, the King revealed his true self. His small, kin
 
 With chains wrapped around his body, The Captive lashed out. Chains cracked through the air, binding and battering the heroes. His strikes were relentless, his malice suffocating.
 
-But he had underestimated them. The heroes, burning with fury and betrayal, fought with everything they had. All seventeen of them, their combined power shaking the very ground. They struck him down. Blow after blow, they refused to let up. And at last, The Captive fell… Or so they thought.
+But he had underestimated them. The heroes, burning with fury and betrayal, fought with everything they had. All seventeen of them, their combined power shaking the very ground. They struck him down. Blow after blow, they refused to let up. And at last, The Captive fell... Or so they thought.
 
 Despite its body crumbling, it refused to die. The chains still writhed, and the dark presence lingered. Before the heroes could react, a soft voice whispered into their minds.
 

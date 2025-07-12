@@ -18,7 +18,7 @@ And so, donning their Libestal cloaks, they took their first steps on an enigmat
 
 ### Guilds and Dungeons
 
-Nineteen individuals, each with their own quirks and personalities… it was a lot. Naturally, they were divided into smaller groups—_guilds_—to make collaboration more manageable. There were four guilds in total, each embodying a unique philosophy:
+Nineteen individuals, each with their own quirks and personalities... it was a lot. Naturally, they were divided into smaller groups—_guilds_—to make collaboration more manageable. There were four guilds in total, each embodying a unique philosophy:
 
 - **Jade Sword** – A beacon of righteousness and loyalty, where great threats are faced with even greater courage.
 - **Cerulean Cup** – A sanctum of healing, where empathy and devotion flourish.

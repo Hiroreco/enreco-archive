@@ -12,4 +12,4 @@ Later, however, Darwin approached Shakira in private. In a hushed tone, she reve
 
 Hearing this, Shakira sighed in relief and decided to let Darwin in on her own secret. As it turned out, she was also playing the role of a double agent, trying to gain the trust of the Cerulean Cup members in order to erase the bad reputation that Amber Coin had mysteriously garnered.
 
-So, when looking at the bigger picture, it turned out that everyone had abandoned their guild for a mission of their own… meaning the only one truly left behind in Amber Coin was Raora.
+So, when looking at the bigger picture, it turned out that everyone had abandoned their guild for a mission of their own... meaning the only one truly left behind in Amber Coin was Raora.

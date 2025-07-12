@@ -3,7 +3,7 @@
 
 **A New (Career) Start**
 
-After a quick trip to the Bahamas (a kingdom outside of Libestal), Mordan Ramsey returned with a rejuvenated mind to start a job… in _real estate?!_
+After a quick trip to the Bahamas (a kingdom outside of Libestal), Mordan Ramsey returned with a rejuvenated mind to start a job... in _real estate?!_
 
 Providing therapy was beginning to be too much for Mordan (see: Mordan day 6). As such, it was time to venture into new things. Perhaps it was the thought of selling houses that could make a profit without the stress of having to deal with the emotions. But for now, the chef had to do her daily, mundane tasks of completing side quests, upgrading her revelation for the upcoming dungeon, and reading inquiry letters she had bought.
 

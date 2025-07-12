@@ -12,4 +12,4 @@ It was tense. The final match would decide everything. Winner takes all.
 
 But as much as Kiara longed for Gonathon, his loyalty to his Pearl—the one he had spent the longest time with—was far stronger. With unwavering determination, Gonathon secured the final victory.
 
-Kiara had lost. Her dream of claiming him as her own was shattered, and she would have to continue… without anyone by her side.
+Kiara had lost. Her dream of claiming him as her own was shattered, and she would have to continue... without anyone by her side.

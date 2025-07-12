@@ -152,7 +152,7 @@ She asked for their help once more. And, without hesitation, the heroes answered
 
 ![The heroes lend their hands to Fia](/images-opt/chrecap-1-helpfia.webp)
 
-…Except, not all of them stepped forward.
+...Except, not all of them stepped forward.
 
 Fuwawa, Mococo, Bijou, Nerissa, and Shiori remained behind—shrouded in shadow.
 

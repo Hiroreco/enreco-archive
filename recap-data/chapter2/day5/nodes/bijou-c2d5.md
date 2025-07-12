@@ -11,7 +11,7 @@ She went back to her shop, where she found the story she commissioned from her d
 
 [Read "The Princess 1"](#text:the-princess-1)
 
-It was only 10 pages long like she asked, but… it ended on a cliffhanger! She desperately wanted to see what would happen next. Luckily, Shiori just got on, so she was able to ask for a sequel then and there.
+It was only 10 pages long like she asked, but... it ended on a cliffhanger! She desperately wanted to see what would happen next. Luckily, Shiori just got on, so she was able to ask for a sequel then and there.
 
 The gem then met up with her boss, Roa, who seemed to [have the hots for a certain Scarlet Knight?](https://youtu.be/AwTYvoyB3Xo?t=3401)
 
@@ -19,7 +19,7 @@ Bijou tried to push her towards making a move, and it seems like she did—altho
 
 ---
 
-After her revisit to Star Site: Chronos, [she called up Peasant Bae](https://youtu.be/AwTYvoyB3Xo?t=7980), asking for materials for her shop, as she ran out after serving Gonathon. This was how Bijou decided to bait her into trying to get Khaos back…
+After her revisit to Star Site: Chronos, [she called up Peasant Bae](https://youtu.be/AwTYvoyB3Xo?t=7980), asking for materials for her shop, as she ran out after serving Gonathon. This was how Bijou decided to bait her into trying to get Khaos back...
 
 Veiled behind a regular business transaction, Bijou confronts the Peasant about the Stain hat on her head. She and Shiori had previously abandoned the baby back in the illusory Libestal, and now she wants it back.
 
@@ -51,11 +51,11 @@ This was mainly Gonathon’s time to speak his mind about what he felt. Bijou ha
 
 **_(Content Warning Ahead)_**
 
-Bijou returned to doing her business when she noticed an [eerie, deafening silence](https://youtu.be/AwTYvoyB3Xo?t=21666). Only Elizabeth and Shiori were around in the building area. She thought of calling her brother to see what was up… [just in the nick of time](https://youtu.be/AwTYvoyB3Xo?t=21724).
+Bijou returned to doing her business when she noticed an [eerie, deafening silence](https://youtu.be/AwTYvoyB3Xo?t=21666). Only Elizabeth and Shiori were around in the building area. She thought of calling her brother to see what was up... [just in the nick of time](https://youtu.be/AwTYvoyB3Xo?t=21724).
 
-This was how Bijou found out that her brother was thinking of going away… forever. She didn’t have the entire context for why—all she knew was that she had been berated. She rushed as fast as she could to go save her.
+This was how Bijou found out that her brother was thinking of going away... forever. She didn’t have the entire context for why—all she knew was that she had been berated. She rushed as fast as she could to go save her.
 
-Based on what she said her location was, her instincts led her to the Antigonian Aerie. She loved her Onii-chan so much… so much that she would follow wherever she went. Even if it meant _diving off a cliff right next to her._
+Based on what she said her location was, her instincts led her to the Antigonian Aerie. She loved her Onii-chan so much... so much that she would follow wherever she went. Even if it meant _diving off a cliff right next to her._
 
 [The goddess is descending.](#embed:https://youtu.be/AwTYvoyB3Xo?t=21847)
 
@@ -63,11 +63,11 @@ Gonathon and Tam jumped off with them. While they survived the fall, IRyS and Bi
 
 The blood-pact brothers respawned on the warp point, seemingly given a second chance.
 
-IRyS’ pain subsided briefly, but it came back. Is the baby… still there? IRyS believes so; she’s a goddess, after all. But could the baby be an eldritch being, a demigod, or both? Or is it just food after all? _Only time will tell._ They still plan to surprise her consort (Ina) with the news the next day.
+IRyS’ pain subsided briefly, but it came back. Is the baby... still there? IRyS believes so; she’s a goddess, after all. But could the baby be an eldritch being, a demigod, or both? Or is it just food after all? _Only time will tell._ They still plan to surprise her consort (Ina) with the news the next day.
 
 ---
 
-After this traumatic experience, she [meets with Shiori again](https://youtu.be/AwTYvoyB3Xo?t=22527) to talk about the circumstances of the gender reveal party. After the absolute chaos that ensued that day, they sat on the front porch of the house next to the wagon. Elizabeth was there as well. It’s at this moment when Princess Bijou, ever innocent, asked the Scarlet Knight…
+After this traumatic experience, she [meets with Shiori again](https://youtu.be/AwTYvoyB3Xo?t=22527) to talk about the circumstances of the gender reveal party. After the absolute chaos that ensued that day, they sat on the front porch of the house next to the wagon. Elizabeth was there as well. It’s at this moment when Princess Bijou, ever innocent, asked the Scarlet Knight...
 
 ["Are truly good people in this world?"](#embed:https://youtu.be/AwTYvoyB3Xo?t=22748)
 

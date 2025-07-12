@@ -21,17 +21,17 @@ Roa and Elizabeth then got [stuck](https://youtu.be/uMenK-yr3ss?t=2958) on the e
 
 [LEEEEROY JENKIIIIINS](#embed:https://youtu.be/uMenK-yr3ss?t=3005)
 
-She fell into the same exact situation of her boss and the Scarlet Knight. Luckily, she remembered her magic scroll and warped away. She didn’t even think of cleaning up after herself…
+She fell into the same exact situation of her boss and the Scarlet Knight. Luckily, she remembered her magic scroll and warped away. She didn’t even think of cleaning up after herself...
 
 ---
 
 Later on, Immerkind summons Bijou to the Great Hall. She wants her to act as moral support as she tries to propose to Princess Iphania. Bijou remained supportive of her knight, enabling her pursuit and feeling kind enough to lend her charms for the Outlander fight.
 
-While waiting to hear back from her knight, she kept herself company with the voices in her head… and started being a bit of a nuisance.
+While waiting to hear back from her knight, she kept herself company with the voices in her head... and started being a bit of a nuisance.
 
 [“Why is your chest bigger than mine?"](#embed:https://youtu.be/uMenK-yr3ss?t=6576)
 
-When Immerkind returned, Bijou let her off on her own devices… but she called back. There was clearly a misunderstanding, and Bijou was the one to clear it up. Indeed, _everyone_ had the same dialogue with the Princess following the Outlander duel. It was a canon event.
+When Immerkind returned, Bijou let her off on her own devices... but she called back. There was clearly a misunderstanding, and Bijou was the one to clear it up. Indeed, _everyone_ had the same dialogue with the Princess following the Outlander duel. It was a canon event.
 
 Immerkind started to spiral, now with their self-esteem down the drain. Suddenly, Bijou found herself beside Gonathon, acting as moral support while trying to talk sense into the Kind Knight.
 
@@ -45,7 +45,7 @@ The picnic-in-preparation would soon be interrupted by Roa. She wanted to talk t
 
 Not just Bijou this time, but Shiori as well wanted to eavesdrop and see how it goes down. Neither of them was normal about this. They both went to the special shop to chug an invisibility potion.
 
-Technology had not advanced well enough that their cloaks and effects would go invisible when the potion was consumed; only their bodies did. Roa tried covering up for as long as she could until… Bijou’s potion ran out.
+Technology had not advanced well enough that their cloaks and effects would go invisible when the potion was consumed; only their bodies did. Roa tried covering up for as long as she could until... Bijou’s potion ran out.
 
 [Uncloaked](#embed:https://youtu.be/uMenK-yr3ss?t=10983)
 
@@ -71,4 +71,4 @@ She did one last bit of ~~eavesdropping~~ [map appreciation](https://youtu.be/uM
 
 Bijou hopes the picnic preparations won’t go to waste, and she figures it may be best to have the party before they go to the Heart of Ruin tomorrow. Who knows what will happen after they’re done at the final dungeon?
 
-Whatever tomorrow will bring… It’s probably filled with surprises. And maybe gas.
+Whatever tomorrow will bring... It’s probably filled with surprises. And maybe gas.

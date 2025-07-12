@@ -5,7 +5,7 @@ Between the two days, Bijou finished building the storefront of the Gacharms sho
 
 Bijou was among the first to wake up today, ahead of the dungeon’s grand opening. She spent most of that time gathering crafting materials, constructing the shop’s storage area, and knocking out side quests. All for good reason—she wouldn’t be able to stay around for long.
 
-Her hard work didn’t go unnoticed. Her boss, Roa, gave her something to take on her adventures in return: a little Beast Stain hat! [“A friend?! Wait… a friend?”](https://youtu.be/03m4uWAFfQg?t=4938) Somehow, this seemed oddly familiar to Bijou. Thinking about it made her head ache… but hey, it was friend-shaped. Roa said its name was Bob.
+Her hard work didn’t go unnoticed. Her boss, Roa, gave her something to take on her adventures in return: a little Beast Stain hat! [“A friend?! Wait... a friend?”](https://youtu.be/03m4uWAFfQg?t=4938) Somehow, this seemed oddly familiar to Bijou. Thinking about it made her head ache... but hey, it was friend-shaped. Roa said its name was Bob.
 
 Having given a few folks a tour of her new shop, Bijou teamed up with Roa, Mococo, Kiara, and Gordon to take on the dungeon of the day—[Star Site: Elpis](https://www.youtube.com/live/03m4uWAFfQg?si=v8NPjzKF80d-iANM&t=7792). Upon its completion, the group recovered the memories of [IRyS](https://www.youtube.com/live/03m4uWAFfQg?si=dmDDeTDMq-8PzOVB&t=9908).
 

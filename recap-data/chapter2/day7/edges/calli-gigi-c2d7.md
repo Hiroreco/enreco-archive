@@ -12,7 +12,7 @@ In a previous conversation between Mordan, Shiori, and Bijou, Mordan had not rea
 
 Around the time of the new dungeon’s opening, during a kerfuffle among the heroes of Libestal, a small gesture towards Gonathon somehow led Mordan to even deeper despair. [Offering food to Gonathon](https://www.youtube.com/live/WG748SwXQVo?t=7889s) in preparation for the upcoming battle, she was met with silence, leading her to believe that Gonathon was giving her the cold shoulder:
 
-“Gonathon doesn’t want anything to do with me. That’s fine, whatever. I don’t care; I don’t have emotions. I don’t have emotions… Yeah, what a shame, ignored by my own wolf brother. That’s messed up.”
+“Gonathon doesn’t want anything to do with me. That’s fine, whatever. I don’t care; I don’t have emotions. I don’t have emotions... Yeah, what a shame, ignored by my own wolf brother. That’s messed up.”
 
 A simple misunderstanding or miscommunication, perhaps, but for a heart already cracked by unrequited love and perceived rejection, the sting was undeniable.
 

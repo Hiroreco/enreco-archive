@@ -13,7 +13,7 @@ Strangely enough, Tam became something of a focal point. Perhaps it was the uniq
 
 [What did you call me?](#embed:https://www.youtube.com/live/9XG91aw1gTo?si=UgoR7e-WfOs8ARgy&t=3782)
 
-And yet, name or no name, the Tam-ness of Tam still shone through. Her signature snark, sharp side comments, and faint air of [superiority](https://www.youtube.com/live/9XG91aw1gTo?si=vZp0hb6TVjwCsmUK&t=3549) lingered. Once a queen, always a queen… even if no one remembered her reign.
+And yet, name or no name, the Tam-ness of Tam still shone through. Her signature snark, sharp side comments, and faint air of [superiority](https://www.youtube.com/live/9XG91aw1gTo?si=vZp0hb6TVjwCsmUK&t=3549) lingered. Once a queen, always a queen... even if no one remembered her reign.
 
 Moving on, when it came time to pick a job, Tam chose to be a supplier. The idea of gathering materials appealed to her, so she wasted no time getting started. She even managed to trade some of her early findings for a snazzy [hat](https://www.youtube.com/live/9XG91aw1gTo?si=GRs1MgjdHWSBgNzw&t=8470).
 

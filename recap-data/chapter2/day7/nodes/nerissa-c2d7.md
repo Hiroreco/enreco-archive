@@ -15,11 +15,11 @@ So far, all of the dungeons had been conquered but one– the Heart of Ruin– t
 
 The heroes prepared, making sure they were fully equipped to ensure victory.
 
-And when the time was right, they entered the dungeon… Until…
+And when the time was right, they entered the dungeon... Until...
 
 Nerissa noticed something was different. She had been corrupted! Yet she was not alone, as a few other members-- Shiori of the Nyavella, the Fuzzy One, the Fluffy One, and Princess Bijou-- had been infected by the Stains as well.
 
-How they were chosen was unknown. One thing was clear, however: it was beyond their control, and it was up to their friends to save them… or, perhaps, take their lives if worse comes to worst.
+How they were chosen was unknown. One thing was clear, however: it was beyond their control, and it was up to their friends to save them... or, perhaps, take their lives if worse comes to worst.
 
 And as expected of the heroes, they did their best in winning their friends back as they attempted to purify them.
 
@@ -37,7 +37,7 @@ _"You... evil witch! I knew you were evil from the very beginning"_
 
 Roa Pandora struggled in fighting for her sanity, while the raven one laughed at her demise.
 
-After quite some time, the big cat was finally able to get out of her possession… Only at the cost of another person—[Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).
+After quite some time, the big cat was finally able to get out of her possession... Only at the cost of another person—[Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).
 
 ---
 
@@ -65,7 +65,7 @@ Entering the [final](https://youtu.be/FlPFFE5_X3Y?t=9412) dungeon, the warriors 
 
 Despite all the celebrations, Nerissa couldn’t seem to find the same joy she had from the beginning.
 
-She had already been purified, right? And yet… her heart still felt empty as a [void](https://youtu.be/FlPFFE5_X3Y?t=14765). As if there was a growing shadow engulfing all the light and happiness within her. As if buried in eternal winter, her soul became numb. Perhaps, devoid of love, even.
+She had already been purified, right? And yet... her heart still felt empty as a [void](https://youtu.be/FlPFFE5_X3Y?t=14765). As if there was a growing shadow engulfing all the light and happiness within her. As if buried in eternal winter, her soul became numb. Perhaps, devoid of love, even.
 
 _“You see, my heart is still dyed black.”_
 

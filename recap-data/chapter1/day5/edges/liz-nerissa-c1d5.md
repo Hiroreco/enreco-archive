@@ -22,7 +22,7 @@ In fact, their relationship seemed to evolve from that point. Their arguments be
 
 Even when Nerissa genuinely tried to teach Elizabeth useful things—like how to break into closed-off buildings—Elizabeth would still call her a witch. It was practically a reflex at this point. Their constant bickering even led bystanders to mistake them for an actual couple, much to Elizabeth’s horror.
 
-Meanwhile, Nerissa was putting in extra effort to grab Elizabeth’s attention, as if trying to make up for the previous day… or, more likely, just to mess with her. Unlike Elizabeth, Nerissa was completely open about her obsession. She tried sweet-talking and flirting, but when that didn't work, she even went so far as to trap herself on purpose just to bait Elizabeth into "saving" her—like a knight in shining armor rescuing a lost princess.
+Meanwhile, Nerissa was putting in extra effort to grab Elizabeth’s attention, as if trying to make up for the previous day... or, more likely, just to mess with her. Unlike Elizabeth, Nerissa was completely open about her obsession. She tried sweet-talking and flirting, but when that didn't work, she even went so far as to trap herself on purpose just to bait Elizabeth into "saving" her—like a knight in shining armor rescuing a lost princess.
 
 [Look at how stuck I am](#embed:https://www.youtube.com/embed/Lv6_Xl1u_Ss?si=0HM9J2gK_-pRZCcx&start=9690)
 

@@ -22,7 +22,7 @@ But things only got worse from there. With Gonathon and Nerissa relentlessly pre
 
 Later on, the case somehow resolved itself—without Cecilia’s involvement.
 
-Yay! Happy news! So… where’s my paycheck?
+Yay! Happy news! So... where’s my paycheck?
 
 [Another successful case](#embed:https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=10669)
 

@@ -6,7 +6,7 @@ While wandering through the kingdom, Elizabeth caught sight of Tam, and immediat
 
 [Ah, so you are the Tim!](#embed:https://www.youtube.com/live/M3cuDNZrIKM?feature=shared&t=7039)
 
-Elizabeth, however, was unfazed. She wanted to set matters straight and challenged Tam to a duel. But Tam, unwilling to get her own hands dirty, declined and instead called upon her subordinate, the Hot Pink One, to fight in her place. Confident in her superior weaponry and skill, Elizabeth saw this as an easy victory. After all, her opponent’s "special ability" was just… farting. How hard could it possibly be?
+Elizabeth, however, was unfazed. She wanted to set matters straight and challenged Tam to a duel. But Tam, unwilling to get her own hands dirty, declined and instead called upon her subordinate, the Hot Pink One, to fight in her place. Confident in her superior weaponry and skill, Elizabeth saw this as an easy victory. After all, her opponent’s "special ability" was just... farting. How hard could it possibly be?
 
 [Hot Red vs. Hot Pink](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7494)
 

@@ -25,7 +25,7 @@ Back in the present, as more adventuring parties began to gather, her humble [Ni
 
 Besides, being situated next to the local Jewelers' stall meant she always overheard their latest hush-hush scheming. While she worked hard slicing, seasoning, and selling, others were plotting ways to [scam](https://youtu.be/5sWjzbacGUY?t=7118s).
 
-She ended the day journaling in her journal. Not about her culinary conquests this time, but the memories she’d begun to retrieve. They brought her relief… but also a quiet, nagging conflict deep within.
+She ended the day journaling in her journal. Not about her culinary conquests this time, but the memories she’d begun to retrieve. They brought her relief... but also a quiet, nagging conflict deep within.
 
 [Dear Lorekeeper,](#embed:https://youtu.be/5sWjzbacGUY?t=16246s)
 

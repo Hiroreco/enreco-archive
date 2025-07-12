@@ -5,7 +5,7 @@ As with the others, today was a day of celebration and goodbyes. Though, surpris
 
 It wasn’t a day without some [eavesdropping](https://www.youtube.com/live/C6kmnHsopgM?si=avfoBgSKUq9BJzvQ&t=268) either. She had woken up on Shiori’s bed again, coming off a dream about watching Pokémon movies. Shiori was already up, writing someone’s commission in the center of the room. Bijou warped away just as she finished to avoid getting caught.
 
-She comes across Shiori anyway in the Library. They theorize what may happen at the banquet; surely nothing bad will happen, right? …Right?
+She comes across Shiori anyway in the Library. They theorize what may happen at the banquet; surely nothing bad will happen, right? ...Right?
 
 [Would be a shame if something happens](#embed:https://www.youtube.com/live/C6kmnHsopgM?si=AMA62ai2XxdOzql9&t=610)
 
@@ -21,9 +21,9 @@ That was her reasoning for collecting all the books she could find, after all.
 
 ---
 
-Later on, Bijou happened to stop by the Hot Pink One’s house, [overhearing](https://youtu.be/C6kmnHsopgM?t=3830) a talk between her and Immerkind. Seeing her at the door, HPO immediately asked why she was next to… “the murderer” (Mococo was next to her outside, referring to yesterday’s “incident”).
+Later on, Bijou happened to stop by the Hot Pink One’s house, [overhearing](https://youtu.be/C6kmnHsopgM?t=3830) a talk between her and Immerkind. Seeing her at the door, HPO immediately asked why she was next to... “the murderer” (Mococo was next to her outside, referring to yesterday’s “incident”).
 
-As if the trauma of yesterday wasn’t enough, the HPO got a letter… from her consort. Queen Tam also showed up at this time, though IRyS [demanded](https://youtu.be/C6kmnHsopgM?t=4028) that her brother stay away from her.
+As if the trauma of yesterday wasn’t enough, the HPO got a letter... from her consort. Queen Tam also showed up at this time, though IRyS [demanded](https://youtu.be/C6kmnHsopgM?t=4028) that her brother stay away from her.
 
 Bijou started to feel suffocated in the tense atmosphere. She clutched her map to cope, but even that didn’t feel like enough. As if by magic, the appearance of the fluffy one was able to calm her down. Her presence alone was able to soothe her.
 
@@ -57,7 +57,7 @@ It was brought up that they could try [recruiting](https://youtu.be/C6kmnHsopgM?
 
 Arguably, they could use a little guidance. The fluffy and fuzzy ones were summoned, and together they all formed an alliance. From that day forward, they all vowed to protect one another. The Coven “Rebellion” had been formed. The voices in their heads stirred, almost as if this particular group of five was destined to be!
 
-[An **Advent** of something new…](#embed:https://youtu.be/C6kmnHsopgM?t=6784)
+[An **Advent** of something new...](#embed:https://youtu.be/C6kmnHsopgM?t=6784)
 
 To commemorate this moment, they took a [group photo](https://youtu.be/C6kmnHsopgM?t=6895) together; they were among one of the last to gather for one. Tam, Immerkind, and Gonathon helped take photos for them as well.
 
@@ -65,13 +65,13 @@ _”The banquet will begin in 5 minutes.”_
 
 Now of their own coven, Shiori and Bijou said their farewells to the Building Area, and by extension their house. Bijou decided to carry her egg and one of Shiori’s seeds with her.
 
-She took a pit stop at the outhouse before they left for the banquet. …But she took this as an excuse to “love maps” one last time, overhearing a photo op between Gonathon and Shiori. Even as she was summoned to the Great Hall, she decided to sneak in [one last journal entry](https://youtu.be/C6kmnHsopgM?t=7324) and a selfie with her knight Immerkind before leaving.
+She took a pit stop at the outhouse before they left for the banquet. ...But she took this as an excuse to “love maps” one last time, overhearing a photo op between Gonathon and Shiori. Even as she was summoned to the Great Hall, she decided to sneak in [one last journal entry](https://youtu.be/C6kmnHsopgM?t=7324) and a selfie with her knight Immerkind before leaving.
 
 ---
 
 The banquet was finally about to happen. The warriors gathered at the [Great Hall](https://youtu.be/C6kmnHsopgM?t=7428), practically jumping in their seats in excitement. Everyone said their last goodbyes in advance; for Bijou, she bid farewell to her sister.
 
-…This was their final moment of peace. Their celebration would be interrupted by divine forces beyond their control.
+...This was their final moment of peace. Their celebration would be interrupted by divine forces beyond their control.
 
 (See [Outlander-Iphania](#edge:iphania-outlander))
 
@@ -83,7 +83,7 @@ The banquet was finally about to happen. The warriors gathered at the [Great Hal
 \
 Nothing stays pure forever, they say.
 
-Our innocent former princess… may not be so pure after all, after what she’s gone through this past week. _...So much for reform._
+Our innocent former princess... may not be so pure after all, after what she’s gone through this past week. _...So much for reform._
 
 We’ll see what the next chapter brings.
 

@@ -8,7 +8,7 @@ But love, unfortunately, was not something Elizabeth seemed to recognize—at le
 
 Her gestures were met not with warmth, but with blank stares. Tilted heads. Awkward silences. Roa's feelings, no matter how loud or heartfelt, simply didn’t reach her.
 
-Because within the Scarlet Knight’s heart… there was already [someone else](https://www.youtube.com/live/m2OG5auudrQ?si=Cgu4CvT-TAqFRUmK&t=4815).
+Because within the Scarlet Knight’s heart... there was already [someone else](https://www.youtube.com/live/m2OG5auudrQ?si=Cgu4CvT-TAqFRUmK&t=4815).
 
 And for all the affection Roa tried to give, the only response she received was quiet confusion—never recognition. Never understanding.
 

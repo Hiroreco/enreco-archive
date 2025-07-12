@@ -20,7 +20,7 @@ This dispute eventually led them to receive counseling from Mordan Ramsey in ord
 
 [Maury Show](#embed:https://youtu.be/AwTYvoyB3Xo?t=15988)
 
-Gonathon was kind of just… there. This was mainly an affair between Bijou, Shiori, and Bae. Gonathon looked confused almost the entire time and hardly spoke a word, even though he paid to be there.
+Gonathon was kind of just... there. This was mainly an affair between Bijou, Shiori, and Bae. Gonathon looked confused almost the entire time and hardly spoke a word, even though he paid to be there.
 
 Nonetheless, there was a lot of yelling back and forth. Poor Princess Bijou felt overwhelmed by this entire exchange, and her emotions got the best of her. She couldn’t even see the fact that the Stain on Bae’s head wasn’t actually her child! Bae was also the mother of another child all along...
 
