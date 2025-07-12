@@ -1,5 +1,5 @@
 <!-- title: Hakos Baelz -->
-<!-- quote: "Placeholder"-->
+<!-- quote: "No, this is in fact *not* your child. *This* is your child!"-->
 <!-- chapters: -1 -->
 <!-- images: (Bae's Chapter 1 Profile), (Bae in the mines), (Bae's Chapter 2 Profile), (Bae's card in the "Monster" MV), (Bae's box being stolen), (Bae in Chapter 2's Ending) -->
 <!-- model: false -->
@@ -33,12 +33,15 @@ On the bright side, Bae got a [nice peasant hat (with a gold coin)](https://yout
 
 **Job:** Supplier
 
-Unlike Chapter 1, Peasant *The* Bae found a bit more courage in Chapter 2. And more ambition. Starting of as a peasant, Bae toiled and worked for gold - even opening her very own business named "tHE dUMPSTER". She would reach customers to sell her services and soon, "Peasant" would be more of an honourable name rather than a label of her richness.
+Unlike Chapter 1, Peasant *The* Bae found a bit more courage in Chapter 2. And more ambition. Still a peasant, Bae toiled and worked for gold, eventually opening her own successful business, "tHE dUMPSTER". She would reach customers to sell her services and soon, "Peasant" would be more of an honourable name rather than a simple status.
 
-But it was not just wealth that Bae experienced, Bae's would see the rise and fall of love, the rewards of motherhood, and The Pinnacle of Brotherhood. Her evergrowing love for Immerkind sent her in a blush of romance but, alas, it would also send her into a spiral of despair. But from that despair came hope (that isn't IRyS), as a Brotherhood would be born between her and Gonathan. 
+But it was not just wealth that Bae experienced, Bae's would see the rise and fall of love, the joys and trials of motherhood (complete with a custody battle), and The Pinnacle of Brotherhood. Her evergrowing love for Immerkind sent her in a blush of romance but, alas, it would also send her into a spiral of despair. But from that despair came hope (that isn't IRyS), as a Brotherhood would be born between her and Gonathan. 
 
-Memories would return to Bae. Peasant she was not, but CHAOS HERSELF! But the memories returned conflicted with the memories already had. Bae wondered about the mysterious figure in her memories but the answers escape her. Nevertheless, Bae would still remain Peasant The Bae in honour of the Charlie, a brat she helped but took her beloved wish granting box as a prank.
+Memories would return to Bae. Peasant she was not, but CHAOS HERSELF! But the memories returned conflicted with the memories already had. Bae wondered about the mysterious figure in her memories but the answers escape her. Nevertheless, Bae remained the lovable Peasant The Bae in honour of the Charlie, a brat she helped but took her beloved wish granting box as a prank.
 
+And even when not in full power, Bae's prowess at fighting grew as she faced each Stain King in their dungeons. Our Bae was always a hero, sometimes it takes running into the woods, dragged back, and forced into another adventure for us to find the heroism hidden within.
 
+## Mother
 
+Throughout 
 [bae](#easter:easter-bae)
