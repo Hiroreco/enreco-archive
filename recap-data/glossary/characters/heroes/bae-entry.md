@@ -9,7 +9,7 @@
 **Memories:** [Recollected](https://youtu.be/aSFZwinYaaU)
 **Revelation:** [Chaos Stampede](#entry:chaos-stampede-entry)
 
-Genie peasant
+Bae may be a peasant of little wealth (at first), but what remains inside is a true heart of a hero. A hardworker with a little chaotic gossip touch, when Bae sets a goal in mind, whether it be love or gold, she *will* put her all in it. Though her romance isn't as chaotic as *others* *cough cough IRyS*, Bae spreads Chaos of the non-romantic variety when the opportunity presents itself.
 
 ## Details
 
@@ -33,15 +33,21 @@ On the bright side, Bae got a [nice peasant hat (with a gold coin)](https://yout
 
 **Job:** Supplier
 
-Unlike Chapter 1, Peasant *The* Bae found a bit more courage in Chapter 2. And more ambition. Still a peasant, Bae toiled and worked for gold, eventually opening her own successful business, "tHE dUMPSTER". She would reach customers to sell her services and soon, "Peasant" would be more of an honourable name rather than a simple status.
+Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, "tHE dUMPSTER". Bae seizes any opportunity to sell her wares or offer her services to any customer her way. Soon, "Peasant" became much more than a status of her previously lack of wealth, "Peasant" is an honourable title Bae wore.
 
-But it was not just wealth that Bae experienced, Bae's would see the rise and fall of love, the joys and trials of motherhood (complete with a custody battle), and The Pinnacle of Brotherhood. Her evergrowing love for Immerkind sent her in a blush of romance but, alas, it would also send her into a spiral of despair. But from that despair came hope (that isn't IRyS), as a Brotherhood would be born between her and Gonathan. 
+From little gossips that casually slanders the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this Chapter. Though her growing love with Immerkind that unfortunately ended in heartbreak, it nonetheless gave way to a [Brotherhood stronger than obsidian]. Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life. 
 
-Memories would return to Bae. Peasant she was not, but CHAOS HERSELF! But the memories returned conflicted with the memories already had. Bae wondered about the mysterious figure in her memories but the answers escape her. Nevertheless, Bae remained the lovable Peasant The Bae in honour of the Charlie, a brat she helped but took her beloved wish granting box as a prank.
+It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a custody dispute with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, State Farm would be born between this small disfucntional family plus Gonathan.
 
-And even when not in full power, Bae's prowess at fighting grew as she faced each Stain King in their dungeons. Our Bae was always a hero, sometimes it takes running into the woods, dragged back, and forced into another adventure for us to find the heroism hidden within.
+But who was "Peasant The Bae" truly? In the midst of the games of the Chaos Dungeon, fragments of memories would soon return... Bae worried at first, would she still be "Bae" if she remembers? As the Stain King fades in defeat Bae remembers... She wasn't a peasant, Bae was CHAOS HERSELF. Even with her identity recovered, Bae swore to remain Peasant The Bae in honour of the brat who took her beloved Box. That Charlie...
 
-## Mother
+Though some memories were recovered, it was only some. A few questions lingered in Bae's mind, especially about a certain mysterious Mother whose advice Bae still remembers post-amnesia.
 
-Throughout 
+### Mother
+
+Throughout Chapter 2, Bae has constantly made references to a mysterious figure in her memories whom she simply called "Mother". "Mother" has offered many words of wisdom to Bae before she mysteriously disappeared from Bae's life. Unfortunately, even with the return of some of Bae's memories, the origin of "Mother", who she truly is, remains a mystery. Perhaps "Mother" was "Brother" in the form of Charlie? Whoever she is, it remains to be seen if Chapter 3 will unveil this mysterious character.
+
+Some mentions of Mother in Chapter 2:
+Day 1
+ 
 [bae](#easter:easter-bae)
