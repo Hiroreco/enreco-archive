@@ -9,7 +9,7 @@
 **Memories:** [Recollected](https://youtu.be/aSFZwinYaaU)
 **Revelation:** [Chaos Stampede](#entry:chaos-stampede-entry)
 
-Bae may be a peasant of little wealth (at first), but what remains inside is a true heart of a hero. A hardworker with a little chaotic gossip touch, when Bae sets a goal in mind, whether it be love or gold, she *will* put her all in it. Though her romance isn't as chaotic as *others* *cough cough IRyS*, Bae spreads Chaos of the non-romantic variety when the opportunity presents itself.
+Bae may be a peasant of little wealth (at first), but what remains inside is a true heart of a hero. A hardworker with a little chaotic gossip touch, when Bae sets a goal in mind, whether it be love or gold, she *will* put her all in it. Though her romance isn't as chaotic as *others* *cough cough IRyS*, Bae spreads Chaos of the non-romantic variety when the opportunity presents itself. See Chapter 2 Day 3.
 
 ## Details
 
@@ -33,21 +33,25 @@ On the bright side, Bae got a [nice peasant hat (with a gold coin)](https://yout
 
 **Job:** Supplier
 
-Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, "tHE dUMPSTER". Bae seizes any opportunity to sell her wares or offer her services to any customer her way. Soon, "Peasant" became much more than a status of her previously lack of wealth, "Peasant" is an honourable title Bae wore.
+Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, ["tHE dUMPSTER"](https://youtu.be/Lp7GyRVbz1c?t=14135). Bae seizes any opportunity to sell her wares or offer her services to any customer her way. Soon, "Peasant" became much more than a status of her previously lack of wealth, "Peasant" is an honourable title Bae wore.
 
-From little gossips that casually slanders the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this Chapter. Though her growing love with Immerkind that unfortunately ended in heartbreak, it nonetheless gave way to a [Brotherhood stronger than obsidian]. Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life. 
+From little gossips that casually slanders the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this Chapter. Though her [growing love with Immerkind](https://youtu.be/Br6dvhVJ_IE?t=4571) that unfortunately ended in heartbreak, it nonetheless gave way to a [Brotherhood stronger than obsidian](https://youtu.be/Br6dvhVJ_IE?t=5292). Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life. 
 
-It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a custody dispute with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, State Farm would be born between this small disfucntional family plus Gonathan.
+It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a custody dispute with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, [State Farm would be born](https://youtu.be/L7rBGepFrXA?t=13328) between this small disfucntional family plus Gonathan.
 
-But who was "Peasant The Bae" truly? In the midst of the games of the Chaos Dungeon, fragments of memories would soon return... Bae worried at first, would she still be "Bae" if she remembers? As the Stain King fades in defeat Bae remembers... She wasn't a peasant, Bae was CHAOS HERSELF. Even with her identity recovered, Bae swore to remain Peasant The Bae in honour of the brat who took her beloved Box. That Charlie...
+But who was "Peasant The Bae" truly? In the midst of the games of the Chaos Dungeon, fragments of memories would soon return... Bae worried at first, would she still be "Bae" if she remembers? As the Stain King fades in defeat Bae remembers... She wasn't a peasant, Bae was CHAOS HERSELF. Even with her identity recovered, Bae swore to remain [Peasant The Bae](https://youtu.be/L7rBGepFrXA?t=5680) in honour of the brat who took her beloved Box. That Charlie...
 
 Though some memories were recovered, it was only some. A few questions lingered in Bae's mind, especially about a certain mysterious Mother whose advice Bae still remembers post-amnesia.
 
 ### Mother
 
-Throughout Chapter 2, Bae has constantly made references to a mysterious figure in her memories whom she simply called "Mother". "Mother" has offered many words of wisdom to Bae before she mysteriously disappeared from Bae's life. Unfortunately, even with the return of some of Bae's memories, the origin of "Mother", who she truly is, remains a mystery. Perhaps "Mother" was "Brother" in the form of Charlie? Whoever she is, it remains to be seen if Chapter 3 will unveil this mysterious character.
+Throughout Chapter 2, Bae has constantly made references to a mysterious figure in her memories whom she simply called "Mother". "Mother" has offered many words of wisdom to Bae before she mysteriously disappeared from Bae's life. Unfortunately, even with the return of some of Bae's memories, the origin of "Mother", who she truly was, remains a mystery. Perhaps "Mother" was "Brother" in the form of Charlie? Whoever she is, it remains to be seen if Chapter 3 will unveil this mysterious character.
 
 Some mentions of Mother in Chapter 2:
-Day 1
+
+
+
+
+
  
 [bae](#easter:easter-bae)
