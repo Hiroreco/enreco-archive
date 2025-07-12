@@ -35,7 +35,7 @@ Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to
 
 From little gossips that casually slanders the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this Chapter. Though her [growing love with Immerkind](https://youtu.be/Br6dvhVJ_IE?t=4571) that unfortunately ended in heartbreak, it nonetheless gave way to a [Brotherhood stronger than obsidian](https://youtu.be/Br6dvhVJ_IE?t=5292). Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life. 
 
-It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a custody dispute with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, [State Farm would be born](https://youtu.be/L7rBGepFrXA?t=13328) between this small disfucntional family plus Gonathan.
+It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a custody dispute with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, [State Farm was formed](https://youtu.be/L7rBGepFrXA?t=13328) between this small disfucntional family plus Gonathan.
 
 But who was "Peasant The Bae" truly? In the midst of the games of the Chaos Dungeon, fragments of memories would soon return... Bae worried at first, would she still be "Bae" if she remembers? As the Stain King fades in defeat Bae remembers... She wasn't a peasant, Bae was CHAOS HERSELF. Even with her identity recovered, Bae swore to remain [Peasant The Bae](https://youtu.be/L7rBGepFrXA?t=5680) in honour of the brat who took her beloved Box. That Charlie...
 
