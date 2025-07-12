@@ -20,19 +20,19 @@ Nerissa Ravencroft—more precisely, Nerissa _Juliet_ Ravencroft—was a kind an
 
 Like many others, Nerissa’s story began in confusion: dazzled, unsure of her purpose. But she quickly found her footing and threw herself into her new life with remarkable zeal. Among them all, she might have been the most diligent: grinding quests, gathering materials, and, of course, making mountains of potato salad. It all led to her becoming the richest, most resourceful soul in the kingdom.
 
-And she didn’t do it to flaunt her wealth—though she’d admit her deep pockets felt good—but because she genuinely wanted to support those she loved. Her dedication was most clearly seen as FaunaMart’s number one (and only) employee. Nerissa respected the green CEO so much that she spent countless days gathering resources to build the shop, stock it, and watch over it when Fauna wasn’t around… even if that earned her a mental scar or two whenever a certain feral pink doggo tried to chase her down for scamming.
+And she didn’t do it to flaunt her wealth, though she’d admit her deep pockets felt good, but because she genuinely wanted to support those she loved. Her dedication was most clearly seen as FaunaMart’s number one (and only) employee. Nerissa respected the green CEO so much that she spent countless days gathering resources to build the shop, stock it, and watch over it when Fauna wasn’t around… even if that earned her a mental scar or two whenever a certain [feral pink doggo](https://www.youtube.com/live/5swK4fB2smo?t=1251) tried to chase her down for scamming.
 
-More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one wing-woman.
+More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=2806)
 
-Curiosity was also a defining trait, she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even theorized early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
+Curiosity was also a defining trait, she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even [theorized](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=12299) early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
 
-Yet for all her maturity and responsibility, Nerissa’s composure often crumbled in matters of the heart. No, not in the many-questionable polygamous ties she shared with four other women, but rather in her growing closeness with one particular scarlet knight: Elizabeth Rose Bloodflame.
+Yet for all her maturity and responsibility, Nerissa’s composure often crumbled in matters of the heart. No, not in the many-questionable polygamous ties she shared with four other women, but rather in her growing closeness with one particular scarlet knight: [Elizabeth Rose Bloodflame.](#entry:liz-entry)
 
 They began as strangers, then came curiosity. From that, playful exchanges, then teasing, misunderstandings, chaos—at one point even her “death” and ghostly revival—all colored by Nerissa’s admiration and respect. She delighted in flustering Elizabeth, the poor knight often branding Nerissa a witch, half in jest, half in exasperation.
 
 But beneath it all, their playful jabs turned genuine. Without either fully admitting it, something deep and unspoken blossomed between the blue and the red. An invisible thread tied them together.
 
-At the climax of their journey, when the kingdom fell to corruption, Nerissa herself succumbed. And who saved her? None other than the shining knight in red. From that moment on, Nerissa knew: this one—this one was a keeper.
+At the climax of their journey, when the kingdom fell to corruption, Nerissa herself succumbed. And who [saved](https://www.youtube.com/live/qdYQ5j-0sQI?si=W9a6h2OXmkOQk3JU&t=7287) her? None other than the shining knight in red. From that moment on, Nerissa knew: this one—this one was a keeper.
 
 ---
 
@@ -47,23 +47,29 @@ Even with her memories in fragments, Nerissa’s diligence never wavered. She ba
 
 Her boundless curiosity stayed with her. Once again, she explored nearly every corner of the kingdom, read through the library’s countless tales, and uncovered stories others overlooked.
 
-Bit by bit, her memories returned. They were hazy, but they were hers—precious glimpses of who she was and what had shaped her. She longed to cherish them all: the Scarlet Wand, the corruption, the moments of joy, and the depths of pain.
+Bit by bit, her [memories](https://www.youtube.com/live/5sWjzbacGUY?si=KUn5fSB0crLgmamn&t=12079) returned. They were hazy, but they were hers—precious glimpses of who she was and what had shaped her. She longed to cherish them all: the Scarlet Wand, the corruption, the moments of joy, and the depths of pain.
 
 Above all, she yearned for her name. Early in her journey, she asked, “Who am I?”
 It was Elizabeth who answered her, without teasing or nicknames.
 
 > “Nerissa Ravencroft. Or you also called yourself ‘Juliet,’ I guess.”
 
-It sounded right. Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
+It sounded [right.](https://www.youtube.com/live/XfZh_3xb7i0?si=xVwBE_o5TFb2HfsC&t=5287) Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
 
-From then on, she sought out Elizabeth’s company even more. They sparred, exchanged gifts, placed their portraits side by side, and shared the same roof. Elizabeth didn’t push her away; she smiled, bonded with Nerissa, and seemed to genuinely enjoy it. Even calling her a “witch” was now done with playful affection.
+From then on, she sought out Elizabeth’s company even more. They sparred, exchanged gifts, placed their portraits side by side, and shared the same roof. Elizabeth didn’t push her away; she smiled, [bonded](https://www.youtube.com/live/vMdhvi8dHN4?si=JeT3qPPFMnB0yoCr&t=6692) with Nerissa, and seemed to genuinely enjoy it. Even calling her a “witch” was now done with playful affection.
 
 It was bliss, and Nerissa wanted more.
 
 Then something inside her cracked.
 
-A misunderstanding on the fifth day led Nerissa to believe Elizabeth hated her. It crushed her, stirring something deep inside, a painful clarity of just how important the red knight truly was to her. Even after the confusion was cleared up, Nerissa’s fixation only deepened. Every thought revolved around Elizabeth. Her tone changed, her eyes never strayed from the knight. She wanted Elizabeth completely. It was as if a sea of blue was closing in around a fragile red flame. A chilling aura settled around Nerissa. She would not, could not, ever forget Elizabeth again.
+A misunderstanding on the fifth day led Nerissa to believe Elizabeth hated her. It crushed her, stirring something deep inside, a painful clarity of just how important the red knight truly was to her. Even after the confusion was cleared up, Nerissa’s fixation only deepened. Every thought [revolved](https://www.youtube.com/live/MXqotm_8_Hc?si=owgU25DUzPfslUZl&t=1192) around Elizabeth. Her tone changed, her eyes never strayed from the knight. She wanted Elizabeth completely. It was as if a sea of blue was closing in around a fragile red flame. A chilling aura settled around Nerissa. She would not, could not, ever forget Elizabeth again.
 
 By the journey’s end, Nerissa, along with Fuwawa, Mococo, Bijou, and Shiori, chose to reject Fia’s plea and carve their own path, setting themselves against the other heroes. How Elizabeth might react, and whether their fragile, growing bond could survive this choice, only time would tell.
+
+## Trivia
+
+- In Chapter 1, Nerissa was the only person to amass over 50,000 coins on her own, making her the richest individual in the entire kingdom.
+- In Chapter 2, Nerissa nearly gave up her work as a chef because no one was buying her food.
+- (Out of character) During a Chapter 2 post-analysis stream, Nerissa expressed that she would like to be called Nerissa Juliet Ravencroft within the ENreco universe, to distinguish herself from _the_ Nerissa Ravencroft.
 
 [neri](#easter:easter-nerissa)
