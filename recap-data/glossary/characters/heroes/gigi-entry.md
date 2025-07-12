@@ -48,5 +48,6 @@ While the future remains murky, particularly given the climactic conclusion of C
 - In Chapter 1, Gonathon was able to have some level of interaction with every other member, an impressive feat considering this included Bae the Peasant, who was absent for all but the first and final day.
 - In both Chapters 1 and 2, Gonathon's attempts to build massive structures ran into snags due to being unable to build above a certain elevation. This was the case for his Tam Gandr statue in Chapter 1 and the World Tree house in Chapter 2. Interestingly, both cases were also references to members of Promise, Ouro Kronii and Ceres Fauna, respectively.
 - Gonathon's gender being male was due to Gigi Murin's misunderstanding that she was playing an amnesiac version of herself rather than a unique character. Even after learning this, she decided to stick with having Gonathon be referred to as he/him.
+- If one had a nickel for every time Gonathon’s love interest forgot about him, they’d have two nickels—which isn’t a lot, but it’s oddly enough that it happened twice.
 
 [gigi](#easter:easter-gigi)

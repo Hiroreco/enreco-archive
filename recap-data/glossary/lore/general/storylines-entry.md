@@ -6,9 +6,9 @@
 
 ## Overview
 
-Besides the main storylines within the ENreco universe, there were also a multitude of self-made shenanigans made by the heroes themselves, which made it a massive headache for many to try to keep track of all. This entry will serve as a very brief summary for all the major storylines, both official and self-made ones, sotred in somewhat chronological order.
+Besides the main storylines within the ENreco universe, there were also countless self-made shenanigans by the heroes themselves, turning it all into a massive headache for anyone trying to keep track. This entry serves as a very brief summary of all the major storylines, both official and player-driven, sorted in roughly chronological order.
 
-_Note: These only serve as very short summaaries to help get the general idea. For more details, read the recaps or check out the related glossary entries_
+_Note: These are only short summaries to help grasp the general idea. For more details, read the recaps or check out the related glossary entries._
 
 ## Official Stories
 
@@ -16,91 +16,83 @@ These are stories that played out the same for everyone, the main storylines of 
 
 ### Chapter 1
 
-Nineteen heroes were summoned to the Kingdom of Libestal by its King, all of which had lost their memories and were asked by the King to save his kingdom from the Stains. With their powers known as Revelation, they venture through, conquering dungeons, with each conquer recovering parts of their missing memories of others and strengthening them along the way. At the end, they faced the final challenge being the Stain King, to which they succeeded in defeating the it, accomplising their goal of saving the kingdom.
+Nineteen heroes were summoned to the Kingdom of Libestal by its King, stripped of their memories and asked to save the realm from the Stains. With their powers known as Revelations, they ventured forth, conquering dungeons that gradually restored fragments of their memories and strengthened them along the way. In the end, they faced their final challenge, the Stain King, and succeeded in defeating it, completing their mission of saving the kingdom.
 
-However, it turned out the King had tricked them, as he revealed to be the actual evil mastermind behind it all. Defeating the Stain King meant freeing the fake King from his prison, revealing his identity as the Captive, which wanted to destroy the universe.
+However, the King then revealed his true colors. It turned out he had tricked them all along, as defeating the Stain King freed him from his prison. He was the Captive, an entity who sought to destroy the universe itself.
 
-The heroes, however, managed to stop that plan, but with the Captive defeated, the world itself crumbled, then a mysterious voice rung out pleading the heroes to jump into a portal, marking the end of Chapter 1.
+The heroes managed to stop his plan, but with the Captive defeated, the world began to crumble. A mysterious voice then called out, urging them to jump into a portal, marking the end of Chapter 1.
 
 ### Chapter 2
 
-The pleading voice at the end of Chapter 1 was from Fia, the keeper of the Library. She brought the heroes back in time to Ancient Libestal, in order to stop the evil being, the Outsider (called the Captive in Chapter 1), otherwise revealed as the fake King that had tricked the heroes, from coming into being, as he would destroy the universe itself.
+That voice belonged to Fia, the keeper of the Library. She pulled the heroes back in time to Ancient Libestal, asking them to stop the being known as the Outsider—revealed to be the same entity once called the Captive—from ever coming into existence, for he would destroy everything.
 
-In order to figure out how to do so, they must first recover Fia's missing memories, through conquering Star Sites. During their journey, they were greeted by Iphania, the kingdom's princess, and the Outlander, a mysterious swordsman. From the recovered memories did they find out the Outlander would later turn into the Outsider in his attempt to save the current world ravaged by the Stains.
+To figure out how, they first needed to recover Fia's missing memories by conquering Star Sites. Along the way, they met Iphania, the kingdom's princess, and the Outlander, a mysterious swordsman. As Fia's memories returned, the heroes learned the Outlander would one day become the Outsider, in his desperate attempt to save a world ravaged by the Stains.
 
-So Fia asked the heroes to save the world in his place instead, by destroying the source of the corruption, the Curse. They succeeded, but not really, as the Curse somehow survived, coming back to slay both the Princess, and have a mysterious being punish the Outlander and the heores for trying to defy fate.
+So Fia asked them to save the world in his place, by destroying the Curse, the source of corruption. They succeeded, or so it seemed, until the Curse returned, killing the Princess and calling forth a mysterious being that punished the Outlander and the heroes for defying fate.
 
-Fia chimed in last minute again to save the heroes, and realizing they couldn't change the past, they can only try to change the present and the future. She asked for the heroes' help again, though majority lend their hands, five rejected.
-
-Those five being Bijou, Mococo, Fuwawa, Nerissa and Shiori, rebelling and forging their own path instead.
+At the last moment, Fia saved them once more. Accepting that the past could not be changed, she asked for their help to protect the present and the future instead. Most agreed, but five—Bijou, Mococo, Fuwawa, Nerissa, and Shiori—refused, choosing to forge their own path.
 
 ## Self-made Stories
 
-These stories were spontaneously generated from the interaction of the quirky heroes, they do not have any connection to the main storylines whatsoever. Note that this only covers most notable events, as well as ones that persist through out many chapters, playing a major role in shaping ENreco in general.
+These stories emerged naturally from the heroes’ interactions. They had no ties to the main narrative but became just as important, shaping ENreco in ways few could have predicted. This only covers the most notable and persistent events.
 
 ### Chapter 1
 
 #### FaunaMart and NanaEleven
 
-As early as day 2, Fauna decided she would start her life as an NPC instead of fulfilling all this silly hero stuff. She did so by opening a store called FaunaMart, a convenience store that sold common goods, as well as the most coveted item of all, the FaunaMart lottery tickets, with the funds claim to be going towards building a library for the kingdom.
+By day 2, Fauna decided she'd rather live as an NPC than deal with all the hero business. So she opened FaunaMart, a convenience store selling everyday goods and, most famously, FaunaMart lottery tickets, which she claimed would fund a library for the kingdom.
 
-These tickets became the talk of the kingdom, with many speculating it being a scam. One of these speculators was FaunaMart's first customer, Nanamoo. The owl one was most sketchy of FuanaMart's business practices, and she couldn't just stand and do nothing. So she decided to open a rivaling business of her own, called Nanamoo, which had a lottery system of its own on day 7... which also scammed people.
+Many suspected a scam, including FaunaMart’s very first customer, Nanamoo. Not one to sit by, Nanamoo started her own rival business by day 7, called NanaEleven, complete with its own lottery... which also scammed people.
 
-The two CEOs confronted each other on the final day, though the confrontation started off tense with rivalry, it ended with the two merging their businesses, shaking hands on cooperating with each other.
+Their rivalry came to a head on the final day. What began tense ended in laughter, as they decided to merge their businesses and work together.
 
 #### Lottery Fiasco
 
-One of FaunaMart's most loyal, well, once most loyal, customers was Mococo. It all started with a few tickets, those few slowly grew to tens, then hundreds as the fuzzy one became addicted with the prospect of gambling. Her hunger for money led her to even threatening the poor employee of FaunaMart, Nerissa, to the point off inflicintg violence with her sharp claws just because Nerissa wasn't giving her the money which she wrongfully was trying to get in the first place.
+Among FaunaMart’s most loyal customers was Mococo—at first. It started with a few tickets, then ballooned into dozens, then hundreds, as she became addicted to gambling. Her obsession grew so intense she threatened and even attacked poor Nerissa, the overwhelmed FaunaMart employee, just because Nerissa wouldn’t hand over money Mococo wrongfully demanded.
 
-The conflict escalated as Mococo threanted to sue FaunaMart for "improper business". But of course, all odds were stacked against the small fuzzy, as pretty much everyone in the kingdom deemed her to be the guilty one.
+Things escalated further when Mococo threatened to sue FaunaMart for “improper business.” But the entire kingdom sided against her. Even so, she still managed to come out ahead, as Nerissa paid her a generous sum just to settle things.
 
-Despite that, she still managed to "win" in the end, as Nerissa paid her a generous-sum of money to settle the conflict.
+#### A Knight’s Tale
 
-#### A Knight's Tale
+One of the most talked about stories in the first chapter was the love story between Gonathon and Amelia Watson. It left an imprint on ENreco that lasted well beyond its time.
 
-Probably one of the most talked about story in the first chapter was the love story between Gonathon and Amelia Watson, a story that left an ever-lasting impact on this enigmatic journey, and has not faded out ever since it happened.
+Their relationship began on shaky ground, but through gifts of diamonds and moments of understanding, they grew close and married. Gonathon proved to be a devoted husband, doing all he could to keep Amelia—his “Pearl”—safe and happy. Amelia, of course, remained thoroughly Amelia.
 
-The two started heroes in topic started off on the rocky side, then managed to get into a matrmony after a generous gift of diamonds and understanding of each other. Gonathon was the loving husband, doing everything in his ability to keep his wife, or Pearl, safe and happy. Amelia was.... Amelia.
+Their tale seemed destined for a happy ending, until on the sixth day, when Amelia regained her past memories and forgot everything about Gonathon. Heartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.
 
-The two lovey-dovey's story was thought to be a lasting happy one, until on the sixth day, when Amelia recovered memories of her past self, she also forgot the memories she'd spent with Gonathon. But despite the heartbreak, Gonathon pressed on, believing in whichever path Amelia chose, as he only wished for her happiness.
-
-In the end, through all the hardships, roughs and stones, the humble knight's conviction and ever-loyal demenour were rewarded. As Amelia's lingering image of the knight within her heart, as well as the help of others, the two were brought back together. Amelia did not recover her memories of the knight, but she was willing to start anew, as long as it was with him. And Gonathon would accept it any day.
+In the end, his unwavering loyalty was rewarded. With help from others and the faint imprint Gonathon had left in her heart, Amelia chose to stay with him, ready to create new memories together.
 
 #### The Corruption
 
-The final major story, as well as the one that served as a fitting and epic closure to the first journey was the great battle against the Corruption.
+The last major saga of Chapter 1—and a fitting climax—was the battle against the Corruption.
 
-After spending tens of thousands of coins on trying to get a hat, Koseki Bijou finally managed to get one, a Stain hat, a hat shaped of a Stain, the very enemy the heroes were fighting against. Overtime, the hat made itself known that it wasn't just an accessory, as it was sentient, and slowly took over its wearer's head, in essense "corrupting" them, turning its weares evil, only wishing to wreak havoc upon the lands.
+It all began when Koseki Bijou spent tens of thousands of coins trying to get a hat, eventually landing a Stain Hat: a sentient piece of corruption that slowly took control of her. By day 7, Bijou was fully corrupted, spreading her influence by handing out hats to others.
 
-Bijou was the first to fall, by day 7, she was fully corrupted, and started spreading her influence by giving the hats to others around her. She manged to gather four more corrupted ones, which led to the great battle between the heroes banding together to fight against the corruption and trying to save the ones who'd been corrupted on the final day.
-
-In the end, the heroes were able to subdue the great evil, saving their dear friends from the depths of darkness.
+Four more heroes fell, leading to a final showdown. The remaining heroes banded together to save their friends and rid the kingdom of the Corruption once and for all. They succeeded, freeing their dear comrades from darkness.
 
 ### Chapter 2
 
 #### The In-bread Incident
 
-Possbily the most confusing and crazy storyline, if you could call it that, the In-bread incident, or better kwown as, "The Libestal Incest Situation Is Crazy", was the crazy turn of fiasco that took place on the third day of the second chapter, where the topic of everyone in the kingdom being related, aka inbred, was the talk of the day.
+Perhaps the strangest storyline of all was the “In-bread Incident,” more infamously known as “The Libestal Incest Situation Is Crazy.” It erupted on the third day.
 
-It started off when Shakira asked Gonathon to be her wingman for her to make moves on Immerkind... her cousin. Immerkind, however, was already in love with another, the Princess, so she had no interest. Immerkind then found out the Princess only had her mind on the Outlander, which broke Immerkind's heart.
+It all started when Shakira asked Gonathon to help her pursue Immerkind—her cousin. Immerkind, however, was already in love with the Princess. Learning that the Princess only had eyes for the Outlander left Immerkind heartbroken.
 
-Gonathon, attempting to comfort Immerkind, claimed that the Princess and the Outlander might be... siblings. This revelation spread, far and wide, to the ears like Peasant the Bae, whom after connecting the dots, came to the conclusion that everyone in the kingdom... was inbred.
+Trying to console her, Gonathon suggested the Princess and the Outlander might be... siblings. This rumor spread quickly, reaching Peasant the Bae, who then concluded that everyone in the kingdom must be inbred.
 
-I don't know.
+Who knows.
 
 #### The Humble Knight and the Witch
 
-Gonathon got himself into yet another love story in the second chapter, this one however, wasn't all sunshine and rainbow like his first one. It was one with twists, depths, one that further shaped his character, even more for the other character in topic, Shiori Nyavella.
+Gonathon found himself in yet another love story in Chapter 2, though this one was far more bittersweet. It involved Shiori Nyavella.
 
-Shiori was the initiative on this story, as she sweet-talked her way into scamming Gonathon to buy the food she made. But after seeing how sincere and kind the knight was, her heart wavered, and she was head over heels for the knight. Gonathon's feelings, however, weren't as strong, and overtime it showed. He was dependent, always having to rely on others for crucial decisions, and on multiple ocassions had shown she wasn't as fond of her as she'd hoped. Perhaps because in his heart, someone already took that place.
+It started when Shiori sweet-talked Gonathon into buying her cooking. But the more she saw his sincerity, the more her heart faltered. She fell deeply for the humble knight. Gonathon, however, didn’t return her feelings quite the same way—always reliant on others for decisions, never offering the affection she hoped for. Perhaps it was because someone else already held that space in his heart.
 
-Shiori made the hard decision of wiping out her memories of him entirely, perhaps to save herself from being hurt, or to save him from being hurt, it's hard to know, it's also hard for the both f them, but they respected each other's choices nonetheless, and went on their seperate ways.
+So Shiori made the painful choice to erase all memories of him. Maybe it was to protect herself, maybe to protect him. It hurt them both, but they respected each other’s choices, and went their separate ways.
 
 #### Maven in Blue
 
 #### Child Dispute
-
-At the end of Chapter 1,
 
 #### The Fluffy One's Cafe
 
