@@ -9,7 +9,7 @@
 **Memories:** Not Recollected
 **Revelation:** [Resonant Strike](#entry:resonant-strike-entry)
 
-Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bloodflame Ravencroft (what a long name!) in Chapter 2, was a dedicated member of the Scarlet Wand- the guild of the knowledgeable or as the people in Libestal Ficta call it, the guild of witches. She has some sort of love-hate relationship with Lady Bloodflame which has not been resolved in Chapter One, and thus has been carried over in Chapter Two despite her memory loss.
+Nerissa Ravencroft—more precisely, Nerissa _Juliet_ Ravencroft—was a kind and hard-working maiden, always eager to lend a hand to those in need. She had a playful tendency to flirt, meaning every word even if it was all wrapped in teasing banter. Yet her heart undeniably saved a special place for one particular knight in red, a bond that became the talk of the entire journey.
 
 ## Details
 
@@ -18,29 +18,52 @@ Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bl
 **Name:** Nerissa Ravencroft
 **Guild:** Scarlet Wand
 
-This was not your ordinary isekai story. Nerissa Ravencroft  woke up in a white room full of other human "blocks" who, for some reason, were vaguely familiar to her. Together with these heroes, she would find herself caught up in a new world full of eccentricities and bizarre adventures. 
+Like many others, Nerissa’s story began in confusion: dazzled, unsure of her purpose. But she quickly found her footing and threw herself into her new life with remarkable zeal. Among them all, she might have been the most diligent: grinding quests, gathering materials, and, of course, making mountains of potato salad. It all led to her becoming the richest, most resourceful soul in the kingdom.
 
-Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? However, it seemed she had no choice, and thus accepted the task the King of Libestal had bestowed upon her.
+And she didn’t do it to flaunt her wealth—though she’d admit her deep pockets felt good—but because she genuinely wanted to support those she loved. Her dedication was most clearly seen as FaunaMart’s number one (and only) employee. Nerissa respected the green CEO so much that she spent countless days gathering resources to build the shop, stock it, and watch over it when Fauna wasn’t around… even if that earned her a mental scar or two whenever a certain feral pink doggo tried to chase her down for scamming.
 
+More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one wing-woman.
 
-Grouped with other heroes, Gaoo Gura, Cecilia, Shiori, and Fauna, she became part of the Scarlet Wand guild who prides themselves with curiosity and knowledge which later became known as the Guild of the Witches.
+Curiosity was also a defining trait, she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even theorized early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
 
-Her interactions with the other heroes were quite normal except for a certain knight who claimed to be "monitoring" her. This fumbling warrior accused her of being a witch, and their conversations were nothing but flirting (just kiss already). [Spoiler: they actually did].
+Yet for all her maturity and responsibility, Nerissa’s composure often crumbled in matters of the heart. No, not in the many-questionable polygamous ties she shared with four other women, but rather in her growing closeness with one particular scarlet knight: Elizabeth Rose Bloodflame.
 
-She also became assistant to her not-so suspicious guildmate, Ceres Fauna, who owned a convenience store and hosted a dubious raffle contest. Days began to pass, before she encountered the Fuzzy One, who brought quite a few tickets and then eventually accused her of scam due to a simple misunderstanding. This accusation led to the Fuzzy One putting a bounty on her head. Fearing for her life, Nerissa sought protection from the Scarlet Knight, the one who had claimed to be "monitoring" her, and who now eagerly promised to provide safety from the Fuzzy One. Unfortunately, death at the hands of the Phoenix soon still followed swiftly, and Nerissa now was forced to roam the world, a ghostly shade of her former self.
+They began as strangers, then came curiosity. From that, playful exchanges, then teasing, misunderstandings, chaos—at one point even her “death” and ghostly revival—all colored by Nerissa’s admiration and respect. She delighted in flustering Elizabeth, the poor knight often branding Nerissa a witch, half in jest, half in exasperation.
 
-While in her ghost form, she discovered some rather interesting secrets of the kingdom, which has put the motivation of the king to destroy the Stains into question. Was it actually to save the Kingdom? Or did he have some other vain plans in mind? Confronting her friends with these revelations, Nerissa was able to win but a few converts to her cause, yet to her great suprise the Lady Bloodflame, her stalwart Scarlet Knight, refused these accusations and claimed to remain loyal to the King.
+But beneath it all, their playful jabs turned genuine. Without either fully admitting it, something deep and unspoken blossomed between the blue and the red. An invisible thread tied them together.
 
+At the climax of their journey, when the kingdom fell to corruption, Nerissa herself succumbed. And who saved her? None other than the shining knight in red. From that moment on, Nerissa knew: this one—this one was a keeper.
+
+---
 
 ### Chapter 2
 
-**Name:** Nerissa Ravencroft/ Mustard/ Pickles/ Linkin' Park/ Juliet Bloodflame/ Nerissa
+**Name:** Nerissa Juliet Ravencroft
 **Job:** Chef
 
-Nerissa began her Chapter 2 journey, again, with a blank slate. No memory of her own past or of others; in fact, she could not even recall even her own name. Thus, the quest for recollecting her memories began. She started off by asking her fellow heroes, if ever they were acquainted in the past. Such inquiry has been proved quite futile since most of those she asked could also not remember her or their own past selves.
+In Chapter 2, the blue maiden began once more with a blank slate. Her past was gone, her very name forgotten. So she set out searching for answers, asking her fellow heroes if they knew who she was. Most were just as lost as she was. All except, of course, Elizabeth Rose Bloodflame.
 
-Throughout Chapter 2, she has been a diligent and hard-working citizen. A multi-tasker, she was able to juggle in between her job as a chef and as a hero of Libestal, slaying cows... I mean, stains that casually attacked the city. Not to mention her addiction, err... rather, hobby of gambling and stalking Lady Bloodflame.
+Even with her memories in fragments, Nerissa’s diligence never wavered. She balanced her work as a devoted chef, crafting yet another mountain of potato salad, with her supposed role as a hero, all while getting caught up in the kingdom’s many antics. She even joined the so-called “Wolf Pack.”
 
-Eventually, she slowly remembered her past as well as the others'. She also recalled she was good friends (?) with Lady Bloodflame, however, could not understand why the Lady Knight accused her of being a witch even in the previous life despite their intimate (?) relationship. Did she do something wrong to her? That she couldn't remember yet? At any rate, this accusation has led her to believe that perhaps she was indeed a witch and so decided to actually become one. Towards the end, she turned and yielded to the dark side forming an allegiance with her fellow witches, Shiori of the Nyavella, Stain Princess Bijou, and the Fuzzy ann Fluffy doggos Fuwawa and Mococo.
+Her boundless curiosity stayed with her. Once again, she explored nearly every corner of the kingdom, read through the library’s countless tales, and uncovered stories others overlooked.
+
+Bit by bit, her memories returned. They were hazy, but they were hers—precious glimpses of who she was and what had shaped her. She longed to cherish them all: the Scarlet Wand, the corruption, the moments of joy, and the depths of pain.
+
+Above all, she yearned for her name. Early in her journey, she asked, “Who am I?”
+It was Elizabeth who answered her, without teasing or nicknames.
+
+> “Nerissa Ravencroft. Or you also called yourself ‘Juliet,’ I guess.”
+
+It sounded right. Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
+
+From then on, she sought out Elizabeth’s company even more. They sparred, exchanged gifts, placed their portraits side by side, and shared the same roof. Elizabeth didn’t push her away; she smiled, bonded with Nerissa, and seemed to genuinely enjoy it. Even calling her a “witch” was now done with playful affection.
+
+It was bliss, and Nerissa wanted more.
+
+Then something inside her cracked.
+
+A misunderstanding on the fifth day led Nerissa to believe Elizabeth hated her. It crushed her, stirring something deep inside, a painful clarity of just how important the red knight truly was to her. Even after the confusion was cleared up, Nerissa’s fixation only deepened. Every thought revolved around Elizabeth. Her tone changed, her eyes never strayed from the knight. She wanted Elizabeth completely. It was as if a sea of blue was closing in around a fragile red flame. A chilling aura settled around Nerissa. She would not, could not, ever forget Elizabeth again.
+
+By the journey’s end, Nerissa, along with Fuwawa, Mococo, Bijou, and Shiori, chose to reject Fia’s plea and carve their own path, setting themselves against the other heroes. How Elizabeth might react, and whether their fragile, growing bond could survive this choice, only time would tell.
 
 [neri](#easter:easter-nerissa)

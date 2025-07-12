@@ -46,5 +46,6 @@ In the end, her love was never reciprocated. Heartbroken but resolute, she uphel
 ## Trivia
 
 - Despite her vast web of connections in Chapter 1, Cecilia had never once interacted with Peasant the Bae—who, in fact, was the only person she hadn’t interacted with at all. Which made it all the more surprising when, in the second chapter, the latter developed a crush on her.
+- In both Chapter 1 and 2, Cecilia was the only one who did not build herself a house nor a store.
 
 [cecilia](#easter:easter-cecilia)
