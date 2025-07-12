@@ -30,3 +30,5 @@ With the day drawing to a close, Gonathon retired to record his diary for inclus
 ["Gonathon training" by cd usr](https://x.com/cd_usr/status/1920637427082743930)
 
 ["Henceforth!" by Hase](https://x.com/_nHase/status/1919082092828516566)
+
+["Gonathon G" by Fineria](https://x.com/Fineria_/status/1918895385147220243)
