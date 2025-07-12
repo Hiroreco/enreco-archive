@@ -13,8 +13,6 @@ Bae may be a peasant of little wealth (at first), but what remains inside is a t
 
 ## Details
 
-Rich peasant
-
 ### Chapter 1
 
 **Name:** Peasant Da Bae
@@ -33,7 +31,7 @@ On the bright side, Bae got a [nice peasant hat (with a gold coin)](https://yout
 
 **Job:** Supplier
 
-Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, ["tHE dUMPSTER"](https://youtu.be/Lp7GyRVbz1c?t=14135). Bae seizes any opportunity to sell her wares or offer her services to any customer her way. Soon, "Peasant" became much more than a status of her previously lack of wealth, "Peasant" is an honourable title Bae wore.
+Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, ["tHE dUMPSTER"](https://youtu.be/Lp7GyRVbz1c?t=14135). Bae seizes any opportunity to sell her wares or offer her services to any customer her way. Soon, "Peasant" became much more than a status of her previously lack of wealth, ["Peasant"](https://youtu.be/Lp7GyRVbz1c?t=1511) is an honourable title Bae wore.
 
 From little gossips that casually slanders the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this Chapter. Though her [growing love with Immerkind](https://youtu.be/Br6dvhVJ_IE?t=4571) that unfortunately ended in heartbreak, it nonetheless gave way to a [Brotherhood stronger than obsidian](https://youtu.be/Br6dvhVJ_IE?t=5292). Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life. 
 
@@ -45,12 +43,17 @@ Though some memories were recovered, it was only some. A few questions lingered 
 
 ### Mother
 
-Throughout Chapter 2, Bae has constantly made references to a mysterious figure in her memories whom she simply called "Mother". "Mother" has offered many words of wisdom to Bae before she mysteriously disappeared from Bae's life. Unfortunately, even with the return of some of Bae's memories, the origin of "Mother", who she truly was, remains a mystery. Perhaps "Mother" was "Brother" in the form of Charlie? Whoever she is, it remains to be seen if Chapter 3 will unveil this mysterious character.
+Throughout Chapter 2, Bae has constantly made references to a mysterious figure in her memories whom she simply called "Mother". "Mother" has offered many words of wisdom to Bae before she mysteriously disappeared from Bae's life. Unfortunately, even with the return of some of Bae's memories, the origin of "Mother", who she truly was, remains a mystery. Perhaps "Mother" was "Brother" in the form of Charlie? Whoever she, or he, is, it remains to be seen if Chapter 3 will unveil this mysterious character.
 
-Some mentions of Mother in Chapter 2:
+Notable wise words from Mother found in Chapter 2:
 
+[Mother always said, if you have nothing... you have nothing.](https://youtu.be/7bOe38rP7JQ?t=2111)
 
+[Day 2 Diary 2 entry: Mother always warned me...](https://youtu.be/Tiq2wmF-NfQ?t=11052)
 
+[Mother always warned me, with love comes heartbreak](https://youtu.be/Br6dvhVJ_IE?t=733)
+
+[Not a quote but Mother skipped a certain lesson for Bae](https://youtu.be/Lp7GyRVbz1c?t=7171)
 
 
  
