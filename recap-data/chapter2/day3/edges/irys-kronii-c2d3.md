@@ -10,7 +10,7 @@ They found her later—alone, still, and staring out as if the whole world had t
 
 [Don't krill urself](#embed:https://www.youtube.com/live/vMdhvi8dHN4?si=XsdfZhGLe8i6dzqu&t=12841)
 
-Pinkie, meanwhile, was stewing. She wasn’t convinced. What if _Tam_ had abandoned their promise first? She had to know for sure. So she devised a plan: down an invisibility potion and spy on the Blue Maiden herself. See what truths could be uncovered. But alas—whether it was the trail of sparkles or her uncanny aura—each attempt failed. Not [once](https://www.youtube.com/live/EKjcWfEGsB0?si=vhQvTDISnORcV2gU&t=8783). Not [twice](https://www.youtube.com/live/EKjcWfEGsB0?si=Bgk3gewMRka2Fkjd&t=9184). _Three_ times. Spotted immediately.
+Pinkie, meanwhile, was stewing. She wasn’t convinced. What if _Tam_ had abandoned their promise first? She had to know for sure. So she devised a plan: down an invisibility potion and spy on the Azure Maiden herself. See what truths could be uncovered. But alas—whether it was the trail of sparkles or her uncanny aura—each attempt failed. Not [once](https://www.youtube.com/live/EKjcWfEGsB0?si=vhQvTDISnORcV2gU&t=8783). Not [twice](https://www.youtube.com/live/EKjcWfEGsB0?si=Bgk3gewMRka2Fkjd&t=9184). _Three_ times. Spotted immediately.
 
 [OoOohO, i'M a cUrsEd CapE](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=YKURb9sU12XWEpk8&t=10094)
 
