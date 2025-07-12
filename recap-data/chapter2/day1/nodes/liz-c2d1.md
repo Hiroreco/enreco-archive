@@ -15,7 +15,7 @@ Having had enough of the info dump, Elizabeth’s new journey began. Like everyo
 
 From a noble knight to working minimum wage—what a downgrade. Still, Elizabeth was dutiful, and she took on the challenge. After some thought, she chose to become a smith, even crafting a quirky title for herself to match the role.
 
-But of course, her journey was anything but smooth. Just moments after signing up for her job, the Red Knight—turned smith—ran into a very familiar face she absolutely did _not_ want to see: Tam Gandr. A big meany. However, this time something felt… different.
+But of course, her journey was anything but smooth. Just moments after signing up for her job, the Scarlet Knight—turned smith—ran into a very familiar face she absolutely did _not_ want to see: Tam Gandr. A big meany. However, this time something felt… different.
 
 [Hmm, she's not mean](#embed:https://www.youtube.com/live/2toZfafpyW8?si=cub9RWxGvm1oH9sK&t=2105)
 

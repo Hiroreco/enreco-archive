@@ -27,4 +27,4 @@ The situation spiraled when Gonathon, seeking answers about Mococo, challenged E
 
 However, her triumph was short-lived. As part of Gonathon’s terms for the duel, he forced Nerissa to utter a heart-wrenching phrase: "I hate you."
 
-Elizabeth, the scarlet knight, was left heartbroken. The sweetness of her victory dissolved into bitterness (see [Elizabeth-Nerissa: Heartbroken](#edge:liz-nerissa)).
+Elizabeth, the Scarlet Knight, was left heartbroken. The sweetness of her victory dissolved into bitterness (see [Elizabeth-Nerissa: Heartbroken](#edge:liz-nerissa)).

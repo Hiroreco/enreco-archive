@@ -2,7 +2,7 @@
 
 Elizabeth was never one to let a perceived wrongdoing go unchecked. So when the newly opened _FaunaMart_, managed by Ceres Fauna, came onto the scene, she was immediately wary.
 
-From the moment Fauna used what Elizabeth could only describe as "witchcraft" to advertise FaunaMart directly into her mind the day before, distrust took root. The red knight believed Fauna's enticing lottery tickets for so-called "big jackpots" were nothing more than a ploy to corrupt her guildmates and strip them of their hard-earned property.
+From the moment Fauna used what Elizabeth could only describe as "witchcraft" to advertise FaunaMart directly into her mind the day before, distrust took root. The Scarlet Knight believed Fauna's enticing lottery tickets for so-called "big jackpots" were nothing more than a ploy to corrupt her guildmates and strip them of their hard-earned property.
 
 The tension between them only escalated during their first one-on-one interaction while completing quests.
 

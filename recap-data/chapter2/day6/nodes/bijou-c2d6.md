@@ -13,7 +13,7 @@ She’ll probably be fine. Just don’t think.
 
 Back at Gacharms, Fuwawa seemed to be in the market for charms. Roa started handling it while she was away. Gonathon was even nice enough to give Fuwawa an extra ticket! Bijou enjoyed the business while it lasted; as the end of the world draws near, they may not get many sales in the coming days.
 
-Roa soon tells Bijou she landed a date with the Red Knight, Lady Bloodflame! She asked for her Diamond Pickaxe as they were going material hunting. Bijou felt the urge to eavesdrop again, wondering how her boss did. (See [Raora-Elizabeth: Roa's Not-Beach Day Episode!](#edge:raora-liz))
+Roa soon tells Bijou she landed a date with the Scarlet Knight, Lady Bloodflame! She asked for her Diamond Pickaxe as they were going material hunting. Bijou felt the urge to eavesdrop again, wondering how her boss did. (See [Raora-Elizabeth: Roa's Not-Beach Day Episode!](#edge:raora-liz))
 
 She wasn’t too sneaky about this. While pretending to [“do her dailies”](https://youtu.be/uMenK-yr3ss?t=2122) and “love maps,” she fumbled constantly as she tried to get within earshot. She even [got caught](https://youtu.be/uMenK-yr3ss?t=2889) a few times while wandering too close to Lady Bloodflame.
 
@@ -21,7 +21,7 @@ Roa and Elizabeth then got [stuck](https://youtu.be/uMenK-yr3ss?t=2958) on the e
 
 [LEEEEROY JENKIIIIINS](#embed:https://youtu.be/uMenK-yr3ss?t=3005)
 
-She fell into the same exact situation of her boss and the Red Knight. Luckily, she remembered her magic scroll and warped away. She didn’t even think of cleaning up after herself…
+She fell into the same exact situation of her boss and the Scarlet Knight. Luckily, she remembered her magic scroll and warped away. She didn’t even think of cleaning up after herself…
 
 ---
 
@@ -41,7 +41,7 @@ With that over with, Bijou checked out how the picnic area Shiori was making for
 
 It’s probably female gas, Bijou thought. She added pink wool to the back of the letters. Later, she would also have an idea of making floating lanterns around the picnic area, both in pink and light blue.
 
-The picnic-in-preparation would soon be interrupted by Roa. She wanted to talk to the Red Knight again; she bought the fanciest ring she could buy. She was going to try making a move.
+The picnic-in-preparation would soon be interrupted by Roa. She wanted to talk to the Scarlet Knight again; she bought the fanciest ring she could buy. She was going to try making a move.
 
 Not just Bijou this time, but Shiori as well wanted to eavesdrop and see how it goes down. Neither of them was normal about this. They both went to the special shop to chug an invisibility potion.
 

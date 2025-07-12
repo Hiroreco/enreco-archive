@@ -98,7 +98,7 @@ Oh, how wrong that assumption was.
 Let’s sample just a few days to illustrate the magnitude of the madness:
 
 - **Day 1**: Jobs were chosen. Alliances formed. A “Dawg Pack” was established. Some remembered their pasts, others didn’t. Former lovers were now siblings. A green lady grew dangerously obsessed with the Princess. A tavern owner’s business suffered repeated sabotage.
-- **Day 2**: Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. An embarrassing fumbling performance of a red knight in front of her crush.
+- **Day 2**: Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. An embarrassing fumbling performance of a Scarlet Knight in front of her crush.
 - **Day 3**: Incest.
 - **Day 7**: "We defeated the Curse!" — immediately followed by a gender reveal party, complete with spontaneous birth (of gas).
 
@@ -106,7 +106,7 @@ And that only scratched the surface... _Sigh_.
 
 ![It's a bird! It's a plane! No, it's gas!](/images-opt/chrecap-1-gas.webp)
 
-However, beneath the mind-melting absurdity were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling red knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
+However, beneath the mind-melting absurdity were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling Scarlet Knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
 
 Weird, wonderful, emotional—the journey was all of it. Even without the full ensemble from the first tale, the world remained alive, chaotic, heartfelt... and deeply unforgettable.
 

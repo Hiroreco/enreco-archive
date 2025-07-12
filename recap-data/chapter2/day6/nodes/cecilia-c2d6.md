@@ -15,7 +15,7 @@ Upon the defeat of the Outlander, Cecilia gets on her knees, serenades the princ
 
 Cecilia now faces a critical choice: to stay with the princess or to return to their reality? Cecilia is willing [to stay behind](https://www.youtube.com/watch?v=I75IWfMGVgM&t=9428s) even if the Princess does not love her back, but she is also torn about leaving the wolf pack, Chibi-hime, and her other friends behind. Is it really love if her love is dependent upon the love of the other? (see [Cecilia-Gonathon](#edge:cecilia-gigi))
 
-Cecilia thanks her friends for their counsel as she must make a critical decision in 2 days. This moment of self-reflection was interrupted as the group was roped into the potential confession of Roa to the Red Knight.
+Cecilia thanks her friends for their counsel as she must make a critical decision in 2 days. This moment of self-reflection was interrupted as the group was roped into the potential confession of Roa to the Scarlet Knight.
 
 For the remainder of the day, Cecilia travels with her companions and listens to the happenings of the town. The drama between Gonathon and Shiori. The love child between several parties. The concerns of the townsfolk about the impending end.
 

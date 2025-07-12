@@ -67,7 +67,7 @@ IRyS’ pain subsided briefly, but it came back. Is the baby… still there? IRy
 
 ---
 
-After this traumatic experience, she [meets with Shiori again](https://youtu.be/AwTYvoyB3Xo?t=22527) to talk about the circumstances of the gender reveal party. After the absolute chaos that ensued that day, they sat on the front porch of the house next to the wagon. Elizabeth was there as well. It’s at this moment when Princess Bijou, ever innocent, asked the Red Knight…
+After this traumatic experience, she [meets with Shiori again](https://youtu.be/AwTYvoyB3Xo?t=22527) to talk about the circumstances of the gender reveal party. After the absolute chaos that ensued that day, they sat on the front porch of the house next to the wagon. Elizabeth was there as well. It’s at this moment when Princess Bijou, ever innocent, asked the Scarlet Knight…
 
 ["Are truly good people in this world?"](#embed:https://youtu.be/AwTYvoyB3Xo?t=22748)
 
@@ -75,7 +75,7 @@ They also spent some time gossiping about the lore of the kingdom so far before 
 
 She had already turned in her journal; her thoughts had not changed. She needs some time to think about it. To see if her words were true. Her worldview had turned more cynical after today.
 
-She does admit, at least, that she needed that talk with the Red Knight. She needed that moment to look up in the sky and at the buildings in front of them. It eased her mind at least a little.
+She does admit, at least, that she needed that talk with the Scarlet Knight. She needed that moment to look up in the sky and at the buildings in front of them. It eased her mind at least a little.
 
 Despite her rock-hard appearance, today proved our Princess Bijou had a soft, emotional core prone to crumbling in the face of drama. She wonders if she could handle existing in this universe.
 

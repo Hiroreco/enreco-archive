@@ -9,7 +9,7 @@ In the previous journey, fragments of past adventures would surface in Elizabeth
 
 Jade Sword, knight of honor and chivalry—those were still the principles the red-clad knight held close. Even in a new land, under a different ruler, and surrounded by those who might have forgotten her, her sense of duty, her honor, and her role as one of the "Shining Stars" kept her moving forward.
 
-With that resolve, she began her new day, signing her letter as the scarlet knight she was: Elizabeth ~~Romeo~~ Rose Bloodflame (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa)).
+With that resolve, she began her new day, signing her letter as the Scarlet Knight she was: Elizabeth ~~Romeo~~ Rose Bloodflame (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa)).
 
 She had two goals for the day: do her job as a smith and tackle the Star Site: Elpis Dungeon. The former came easily—she jumped straight into upgrading her weapon, which turned out to be much simpler than she’d anticipated. The latter, though, presented a different challenge—not in difficulty, but in deciding who to enter the dungeon with.
 

@@ -9,7 +9,7 @@ In her vision, Elizabeth trudged through a land once bright and lively, now cons
 
 Just the day before, Elizabeth had bid her companions farewell, leaving the kingdom in its usual harmony. But something sinister had unfolded in her absence. Bloodstains and scorched crops marred the once-thriving land. Most heartbreaking of all were the remains of her beloved chickens, raised with care and affection, now gone. Grief turned to resolve—Elizabeth vowed to find the culprit and deliver [justice](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=990).
 
-Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, only a solitary red knight remained. The loneliness was suffocating. To honor her lost chickens, she built a small memorial before beginning the arduous task of cleaning the ruined land by herself.
+Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, only a solitary Scarlet Knight remained. The loneliness was suffocating. To honor her lost chickens, she built a small memorial before beginning the arduous task of cleaning the ruined land by herself.
 
 [I feel... alone](#embed:https://www.youtube.com/live/_urPfTQnLes?si=ecdhhjj71kzhplJw&start=1670)
 
