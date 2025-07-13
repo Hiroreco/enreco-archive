@@ -643,6 +643,16 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     }
                     return undefined;
                 })()}
+                initialCharacters={(() => {
+                    if (
+                        viewStore.currentCard === "edge" &&
+                        viewStore.selectedEdge
+                    ) {
+                        const { source, target } = viewStore.selectedEdge;
+                        return [source, target];
+                    }
+                    return undefined;
+                })()}
             />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">

@@ -34,6 +34,7 @@ interface ViewFanartModalProps {
     chapter: number;
     day: number;
     initialCharacter?: string;
+    initialCharacters?: string[];
 }
 
 interface MasonryColumn {
@@ -47,14 +48,22 @@ const ViewFanartModal = ({
     chapter,
     day,
     initialCharacter = "all",
+    initialCharacters,
 }: ViewFanartModalProps) => {
     // State
-    const [selectedCharacters, setSelectedCharacters] = useState<string[]>([
-        initialCharacter,
-    ]);
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
+        initialCharacters && initialCharacters.length > 0
+            ? initialCharacters
+            : [initialCharacter]
+    );
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
+
+    // Keep selectedChapter in sync with prop
+    useEffect(() => {
+        setSelectedChapter(chapter.toString() || "all");
+    }, [chapter]);
     const [selectedDay, setSelectedDay] = useState<string>(
         day.toString() || "all",
     );
@@ -327,16 +336,22 @@ const ViewFanartModal = ({
     }, [selectedCharacters, selectedChapter, selectedDay]);
 
     useEffect(() => {
-        setSelectedDay("all");
-    }, [selectedChapter]);
+        setSelectedDay(day.toString() || "all");
+    }, [selectedChapter, day]);
 
     useEffect(() => {
-        setSelectedCharacters(
-            initialCharacter && initialCharacter !== "all"
-                ? [initialCharacter]
-                : ["all"],
-        );
-    }, [initialCharacter]);
+        if (initialCharacters && initialCharacters.length > 0) {
+            setSelectedCharacters(initialCharacters);
+            setInclusiveMode(true);
+        } else {
+            setSelectedCharacters(
+                initialCharacter && initialCharacter !== "all"
+                    ? [initialCharacter]
+                    : ["all"]
+            );
+            setInclusiveMode(false);
+        }
+    }, [initialCharacter, initialCharacters]);
 
     // Ensure selected characters are valid
     useEffect(() => {
