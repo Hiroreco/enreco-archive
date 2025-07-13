@@ -67,7 +67,7 @@ const ViewFanartModal = ({
     const [inclusiveMode, setInclusiveMode] = useState(false);
 
     // Replace header collapse state with pin state
-    const [isHeaderPinned, setIsHeaderPinned] = useState(true);
+    const [isHeaderPinned, setIsHeaderPinned] = useState(false);
     const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(false);
 
     const contentContainerRef = useRef<HTMLDivElement>(null);
@@ -223,6 +223,32 @@ const ViewFanartModal = ({
         lastScrollTop.current = currentScrollTop;
     }, [isHeaderPinned, isHeaderCollapsed]);
 
+    // Need this because on first open contentContainerRef.current is null, for whatever reason
+    const setContentContainerRef = useCallback(
+        (node: HTMLDivElement | null) => {
+            // Remove listener from previous node
+            if (contentContainerRef.current) {
+                contentContainerRef.current.removeEventListener(
+                    "scroll",
+                    handleScroll,
+                );
+            }
+
+            // Set the new ref
+            contentContainerRef.current = node;
+
+            // Add listener to new node if it exists and modal is open
+            if (node && open) {
+                console.log("Adding scroll listener via callback ref");
+                node.addEventListener("scroll", handleScroll, {
+                    passive: true,
+                });
+                lastScrollTop.current = 0;
+            }
+        },
+        [handleScroll, open],
+    );
+
     const handleToggleCollapse = useCallback(() => {
         setIsHeaderCollapsed(!isHeaderCollapsed);
     }, [isHeaderCollapsed]);
@@ -280,15 +306,17 @@ const ViewFanartModal = ({
         setMasonryColumns(columns);
     }, [filteredFanart, calculateMasonryLayout]);
 
-    // Add scroll listener
+    // Clean up scroll listener when modal closes
     useEffect(() => {
-        const container = contentContainerRef.current;
-        if (!container) return;
+        if (!open && contentContainerRef.current) {
+            contentContainerRef.current.removeEventListener(
+                "scroll",
+                handleScroll,
+            );
+        }
+    }, [open, handleScroll]);
 
-        container.addEventListener("scroll", handleScroll, { passive: true });
-        return () => container.removeEventListener("scroll", handleScroll);
-    }, [handleScroll]);
-
+    // Reset scroll position when filters change
     useEffect(() => {
         if (contentContainerRef.current) {
             contentContainerRef.current.scrollTo({
@@ -338,14 +366,6 @@ const ViewFanartModal = ({
     useEffect(() => {
         if (!open) {
             setCurrentLightboxEntryIndex(null);
-        }
-    }, [open]);
-
-    // Reset header state when modal opens/closes
-    useEffect(() => {
-        if (open) {
-            setIsHeaderCollapsed(false);
-            lastScrollTop.current = 0;
         }
     }, [open]);
 
@@ -412,7 +432,7 @@ const ViewFanartModal = ({
 
                     <div
                         className="flex-1 overflow-y-auto"
-                        ref={contentContainerRef}
+                        ref={setContentContainerRef}
                     >
                         <FanartMasonryGrid
                             masonryColumns={masonryColumns}
