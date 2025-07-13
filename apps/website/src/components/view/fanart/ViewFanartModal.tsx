@@ -3,7 +3,6 @@ import CollapsibleHeader from "@/components/view/fanart/CollapsibleHeader";
 import FanartFilters from "@/components/view/fanart/FanartFilters";
 import FanartMasonryGrid from "@/components/view/fanart/FanartMasonryGrid";
 import ViewLightbox from "@/components/view/ViewLightbox";
-import { LS_FANART_MODAL_HEADER_COLLAPSED } from "@/lib/constants";
 import {
     CHARACTER_ORDER,
     getCharacterIdNameMap,
@@ -67,17 +66,12 @@ const ViewFanartModal = ({
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] = useState(false);
 
-    const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(() => {
-        if (typeof window !== "undefined") {
-            const saved = localStorage.getItem(
-                LS_FANART_MODAL_HEADER_COLLAPSED,
-            );
-            return saved === "true";
-        }
-        return false;
-    });
+    // Replace header collapse state with pin state
+    const [isHeaderPinned, setIsHeaderPinned] = useState(true);
+    const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(false);
 
     const contentContainerRef = useRef<HTMLDivElement>(null);
+    const lastScrollTop = useRef(0);
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
 
     // Derived state
@@ -212,6 +206,27 @@ const ViewFanartModal = ({
         }
     }, [currentLightboxEntryIndex, filteredFanart]);
 
+    // Handle scroll for auto-collapse
+    const handleScroll = useCallback(() => {
+        if (!contentContainerRef.current || isHeaderPinned) return;
+
+        const currentScrollTop = contentContainerRef.current.scrollTop;
+        const scrollingDown = currentScrollTop > lastScrollTop.current;
+
+        // Only trigger collapse on scroll down, never auto-expand
+        if (Math.abs(currentScrollTop - lastScrollTop.current) > 10) {
+            if (scrollingDown && !isHeaderCollapsed) {
+                setIsHeaderCollapsed(true);
+            }
+        }
+
+        lastScrollTop.current = currentScrollTop;
+    }, [isHeaderPinned, isHeaderCollapsed]);
+
+    const handleToggleCollapse = useCallback(() => {
+        setIsHeaderCollapsed(!isHeaderCollapsed);
+    }, [isHeaderCollapsed]);
+
     // Masonry layout calculation
     const calculateMasonryLayout = useCallback(
         (entries: FanartEntry[]) => {
@@ -265,12 +280,14 @@ const ViewFanartModal = ({
         setMasonryColumns(columns);
     }, [filteredFanart, calculateMasonryLayout]);
 
+    // Add scroll listener
     useEffect(() => {
-        localStorage.setItem(
-            LS_FANART_MODAL_HEADER_COLLAPSED,
-            isHeaderCollapsed.toString(),
-        );
-    }, [isHeaderCollapsed]);
+        const container = contentContainerRef.current;
+        if (!container) return;
+
+        container.addEventListener("scroll", handleScroll, { passive: true });
+        return () => container.removeEventListener("scroll", handleScroll);
+    }, [handleScroll]);
 
     useEffect(() => {
         if (contentContainerRef.current) {
@@ -324,6 +341,21 @@ const ViewFanartModal = ({
         }
     }, [open]);
 
+    // Reset header state when modal opens/closes
+    useEffect(() => {
+        if (open) {
+            setIsHeaderCollapsed(false);
+            lastScrollTop.current = 0;
+        }
+    }, [open]);
+
+    // When pinned state changes, ensure header is visible if pinned
+    useEffect(() => {
+        if (isHeaderPinned) {
+            setIsHeaderCollapsed(false);
+        }
+    }, [isHeaderPinned]);
+
     // Preload adjacent entries
     useEffect(() => {
         if (currentLightboxEntryIndex !== null && isLightboxOpen) {
@@ -356,9 +388,9 @@ const ViewFanartModal = ({
                 >
                     <CollapsibleHeader
                         isCollapsed={isHeaderCollapsed}
-                        onToggle={() =>
-                            setIsHeaderCollapsed(!isHeaderCollapsed)
-                        }
+                        isPinned={isHeaderPinned}
+                        onTogglePin={() => setIsHeaderPinned(!isHeaderPinned)}
+                        onToggleCollapse={handleToggleCollapse}
                     >
                         <FanartFilters
                             selectedCharacters={selectedCharacters}
