@@ -12,7 +12,7 @@ Aside from the usual questing, the heroes could take some time off to relax and 
 
 There are currently **four minigames**, each originally introduced in **Chapter 1**, with every game representing one of the four [guilds,](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).
 
-### **Color Cannon**
+### Color Cannon
 
 **Appearance:** Chapter 1, Chapter 2
 **Representing Guild:** Amber Coin
@@ -30,7 +30,7 @@ Once the game begins, colors are eliminated one by one on a large board until on
 
 [Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)
 
-### **Duel Arena**
+### Duel Arena
 
 **Appearance:** Chapter 1, Chapter 2
 **Representing Guild:** Jade Sword
@@ -43,7 +43,7 @@ In Chapter 2, an added rule ensures the match ends in a draw if both participant
 
 [Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)
 
-### **Mind’s Eye**
+### Mind’s Eye
 
 **Appearance:** Chapter 1
 **Representing Guild:** Scarlet Wand
@@ -52,7 +52,7 @@ A memory-based minigame where four players compete to recreate a color arrangeme
 
 [Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)
 
-### **Chicken Rescue**
+### Chicken Rescue
 
 **Appearance:** Chapter 1
 **Representing Guild:** Cerulean Cup

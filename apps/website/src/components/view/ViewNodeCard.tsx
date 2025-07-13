@@ -128,7 +128,9 @@ const ViewNodeCard = ({
                     <Separator className="h-px w-full bg-border" />
                     <div className="flex flex-row justify-around w-full">
                         <div className="flex flex-col items-center">
-                            <div className="font-semibold">Team</div>
+                            <div className="font-semibold">
+                                {chapter === 0 ? "Guild" : chapter === 1 ? "Job" : "Team"}
+                            </div>
                             <div>{nodeTeam?.name}</div>
                         </div>
                         <div className="flex flex-col items-center">
