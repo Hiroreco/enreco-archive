@@ -1,12 +1,12 @@
 #### Main Story
 
-The first dungeon, **Star Site: Elpis**, uncovered the memories of IRyS, along with fragments of Fia’s recollections about what had transpired in Ancient Libestal.
+The first dungeon, **Star Site: Elpis**, revealed the memories of IRyS, along with fragments of Fia’s recollections of what had transpired in Ancient Libestal.
 
 Fia revealed that in the effort to save the Kingdom of Libestal from calamity, the nameless hero who once protected it had somehow given rise to the Outsider. The pieces didn’t quite fit—and to uncover the full truth, the heroes would need to recover the rest of Fia’s missing memories.
 
 #### Uncovered Information
 
-The heroes unlocked a new region in the wilderness: the **Remnants of the Lykeion Campus**, a long-abandoned area now overrun by powerful enemies and rich in materials. It was once home to a researcher who studied the shadowy beings known as the Stains. Their journals chronicled a desperate investigation into the Book of Prophecies—and whether the Ruination it foretold was truly inevitable.
+The heroes unlocked a new region in the wilderness: the **Remnants of the Lykeion Campus**, a long-abandoned area now overrun by powerful enemies and rich in materials. It was once home to a researcher who studied the shadowy beings known as the Stains. Their journals chronicle a desperate investigation into the Book of Prophecies and whether the Ruination it foretold was truly inevitable.
 
 ![Overview of the Lykeion Campus](/images-opt/lore-lykeion-campus-opt.webp)
 

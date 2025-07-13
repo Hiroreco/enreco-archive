@@ -220,7 +220,8 @@ const ViewInfoGuide = () => {
             <div>
                 Hidden throughout the site are easter eggs—little nods to silly
                 moments or tributes to certain members. These are interactive,
-                so keep an eye out for surprises!
+                so keep an eye out for surprises! Many of them have multiple 
+                variations, so try clicking more than once!
             </div>
 
             <div className="mt-4">

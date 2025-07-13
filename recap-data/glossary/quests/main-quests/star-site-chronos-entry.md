@@ -8,23 +8,23 @@
 
 **Day Unlocked:** 4
 
-**Star Site: Chronos** was the second of the three star sites in Chapter 2, and it set itself apart with a strong central theme: _time_. This dungeon contained the memories of none other than the Warden of Time herself, [Ouro Kronii](#entry:kronii-entry), and, as expected, the puzzles and mechanics were all built around the manipulation of time.
+**Star Site: Chronos** was the second of the three star sites in Chapter 2, setting itself apart with a strong central theme: _time_. This dungeon contained the memories of none other than the Warden of Time herself, [Ouro Kronii](#entry:kronii-entry), and, as expected, the puzzles and mechanics were all built around the manipulation of time.
 
 ## Details
 
 ### Appearance
 
-Among all the dungeons in Chapter 2, Star Site: Chronos likely had the most elegant, formal, and grand design. The core structure was a towering clock tower, where all the challenges were held, painted in regal shades of deep blue and shimmering gold, perched atop a wide circular platform of matching colors. Each of the platform’s four corners was marked with ornate clock symbols, enhancing the time motif.
+Among all the dungeons in Chapter 2, Star Site: Chronos had perhaps the most elegant, formal, and grand design. The core structure was a towering clock tower, painted in regal shades of deep blue and shimmering gold, perched atop a wide circular platform of matching colors, where all the challenges were held. Each of the platform’s four corners was marked with ornate clock symbols, reinforcing the time motif.
 
-Suspended within a serene void bathed in cool blue hues, the tower glowed softly from scattered points of light, echoing the enchanting twinkle of distant stars in the background. The atmosphere exuded a sense of command and reverence—as if those who entered were stepping into a domain governed by one of the universe’s most sacred forces: time itself.
+Suspended within a serene void bathed in cool blue hues, the tower glowed softly with scattered points of light, echoing the enchanting twinkle of distant stars in the background. The atmosphere exuded a sense of command and reverence—as if those who entered were stepping into a domain governed by one of the universe’s most sacred forces: time itself.
 
 ### Puzzles
 
-The dungeon introduced its main mechanic immediately: each room presented a short **10-second timer** to complete an objective. A central device called the **timer block** allowed the players to manipulate this timer in various ways—**playing**, **pausing**, **rewinding**, or **resetting** time depending on the challenge.
+The dungeon introduced its main mechanic immediately: each room presented a brief **10-second timer** to complete an objective. A central device called the **timer block** allowed the players to manipulate this timer in various ways—**playing**, **pausing**, **rewinding**, or **resetting** time depending on the challenge.
 
 **First Puzzle**
 
-A simple challenge to ease the group in: make it [across a gap](https://www.youtube.com/live/YVyeKQ-6Ka8?si=Wl_THIyIf_zPzyLC&t=686) before the timer runs out. The timer block here only allows restarting the countdown.
+A simple challenge to ease the group in: cross a [gap](https://www.youtube.com/live/YVyeKQ-6Ka8?si=Wl_THIyIf_zPzyLC&t=686) before the timer runs out. The timer block here only allows restarting the countdown.
 
 **Second Puzzle**
 
@@ -36,7 +36,7 @@ Set inside a clock tower, this room features [four mirrors](https://www.youtube.
 
 **Fourth Puzzle**
 
-Higher in the clocktower is a [colored wall maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850): six different colored walls can be raised by pressing corresponding buttons. These walls reset when the timer ends, and the timer block allows pausing and playing. The group must first locate a vine that leads above the walls, and then raise the correct walls to reach the exit.
+Higher in the clocktower is a [colored wall maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850): six different colored walls can be raised by pressing corresponding buttons. These walls reset when the timer ends, and the timer block allows pausing and playing. The group must first locate a vine that leads above the walls and then raise the correct walls to reach the exit.
 
 Exploration here also reveals secret cracked blocks—when the green wall is raised, players can break through the cracks to unlock a shortcut back to the mirror room. Using the mirrors and pillars again allows traversal to another breakable wall, hiding a chest with the dungeon's music disc.
 
@@ -44,7 +44,7 @@ Exploration here also reveals secret cracked blocks—when the green wall is rai
 
 By far the most complex challenge in the dungeon. A massive [multi-layered maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=hccb2ghDRdj1nsgO&t=2636) with moving platforms, fenced walls, and cube structures embedded with colored buttons. The timer block now supports rewinding and moving platforms between positions. Players must:
 
-- Rewind or play to position platforms correctly
+- Press rewind or play to position the platforms correctly
 - Press buttons to open colored gates
 - Use precise platforming to traverse tight paths and reach the exit
 

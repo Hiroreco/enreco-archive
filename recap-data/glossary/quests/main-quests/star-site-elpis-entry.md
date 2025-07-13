@@ -8,7 +8,7 @@
 
 **Day Unlocked**: 2
 
-**Star Site: Elpis** marked the first major dungeon tackled by the heroes in Chapter 2, and the first of the three key dungeons in this arc. Within its walls resided the fragmented memories of [IRyS](#entry:irys-entry)—the embodiment of hope and despair.
+**Star Site: Elpis** was the first major dungeon tackled by the heroes in Chapter 2, and the first of the three memory dungeons in this arc. Within its walls resided the fragmented memories of [IRyS](#entry:irys-entry), the embodiment of hope and despair.
 
 ## Details
 
@@ -16,11 +16,11 @@
 
 The dungeon was deeply rooted in the concept of a nephilim, split between two opposing forces. One side embodied the angelic, bathed in brilliant white and soft pastel blues, evoking a sense of serenity and purity. The other side channeled the demonic, cloaked in deep crimson reds that radiated intensity and conflict.
 
-Each side consisted of a long corridor filled with challenges, parreleling to each other and separated so that neither path could see the other. Only after all trials on both paths were completed did the two halves converge—united for the final boss fight.
+Each side consisted of a long corridor filled with challenges, paralleling each other and separated so that neither path could see the other. Only after all trials on both paths were completed did the two halves converge, reuniting for the final boss fight.
 
 ### Puzzles
 
-Designed for a group of four, the dungeon splits the party into two teams: the **Angelic Side** and the **Demonic Side**, who must cooperate to solve a series of puzzles in order to progress.
+Designed for a group of four, the dungeon splits the party into two teams, the **Angelic Side** and the **Demonic Side**, who must cooperate to solve a series of puzzles in order to progress.
 
 **First Puzzle**
 
@@ -36,9 +36,9 @@ The Angelic Side is given a [movable block](https://www.youtube.com/live/axlJjQQ
 
 **Third Puzzle**
 
-Now floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273) through it. The Demonic Side assists by standing on specific [floor tiles](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227), which create temporary platforms to help their teammates across.
+Now floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273) their way through it. The Demonic Side assists by standing on specific [floor tiles](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227), which create temporary platforms to help their teammates across.
 
-After completing the final puzzle, both teams reunite to face the dungeon boss: **Stain King Elpis**, a two-headed dragon.
+After completing the final puzzle, both teams reunite to face the dungeon boss, **Stain King Elpis**, a two-headed dragon.
 
 [Stain King Elpis Fight](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=imMOupLj1UxTJV2C&t=5896)
 
