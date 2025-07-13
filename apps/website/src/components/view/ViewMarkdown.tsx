@@ -15,11 +15,12 @@ import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
+import { generateSectionId } from "@/components/view/items-page/glossary-utils";
+import EntryLink from "@/components/view/markdown/EntryLink";
 import ViewLightbox from "@/components/view/ViewLightbox";
 import "@/components/view/ViewMarkdown.css";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import EntryLink from "@/components/view/markdown/EntryLink";
 
 /*
 Custom rehype plugin to convert lone images in paragraphs into figures.
@@ -205,6 +206,45 @@ function unWrapEasterEggLink() {
     };
 }
 
+function addHeadingIds() {
+    return (tree: Node) => {
+        let headingIndex = 0;
+
+        visit(tree, "heading", (node: Node) => {
+            const headingNode = node as Node & {
+                depth: number;
+                children: Array<{ type: string; value: string }>;
+                data?: {
+                    hProperties?: { id?: string };
+                };
+            };
+            if (headingNode.depth >= 2 && headingNode.depth <= 4) {
+                // Extract text content from heading
+                const text = headingNode.children
+                    .filter(
+                        (child: { type: string; value: string }) =>
+                            child.type === "text",
+                    )
+                    .map(
+                        (child: { type: string; value: string }) => child.value,
+                    )
+                    .join("");
+
+                // Generate ID using the same logic as glossary-utils
+                const id = generateSectionId(text.trim(), headingIndex);
+
+                // Add ID to the heading node
+                headingNode.data = headingNode.data || {};
+                headingNode.data.hProperties =
+                    headingNode.data.hProperties || {};
+                headingNode.data.hProperties.id = id;
+
+                headingIndex++;
+            }
+        });
+    };
+}
+
 /*
 Wraps react-markdown while transforming links with a special href value to jump to specific nodes/edges.
 All other links are transformed to open in a new tab.
@@ -243,10 +283,6 @@ function ViewMarkdownInternal({
                         height={900}
                     />
                 );
-            },
-            h3: ({ children }) => {
-                const sectionId = children as string;
-                return <h3 id={sectionId}>{children}</h3>;
             },
             figcaption: ({ children }) => {
                 return (
@@ -342,7 +378,7 @@ function ViewMarkdownInternal({
         [onEdgeLinkClicked, onNodeLinkClicked],
     );
 
-    const remarkPlugins = useMemo(() => [remarkGfm], []);
+    const remarkPlugins = useMemo(() => [remarkGfm, addHeadingIds], []);
     const rehypePlugins = useMemo(
         () => [
             transformImageParagraphToFigure,
@@ -351,6 +387,7 @@ function ViewMarkdownInternal({
         ],
         [],
     );
+
     return (
         <div className={cn("relative markdown", className)}>
             <Markdown

@@ -1,4 +1,5 @@
 import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
+import ViewSectionJumper from "@/components/view/items-page/ViewSectionJumper";
 import ViewLightbox from "@/components/view/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
@@ -128,7 +129,12 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
 
                 <Separator className="md:hidden" />
 
-                <div className="flex flex-col  gap-4 h-full w-full md:w-[calc(100%-250px)]">
+                <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)] relative">
+                    <ViewSectionJumper
+                        className="hidden md:block"
+                        content={entry.item.content || ""}
+                    />
+
                     <div
                         ref={contentRef}
                         id="glossary-viewer-content-container"

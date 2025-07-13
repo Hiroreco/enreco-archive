@@ -38,6 +38,7 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
+import ViewSectionJumper from "@/components/view/items-page/ViewSectionJumper";
 
 interface ViewGlossaryCardProps {
     className?: string;
@@ -279,6 +280,13 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                         },
                     )}
                 />
+
+                {currentEntry !== null && (
+                    <ViewSectionJumper
+                        content={currentEntry.item.content || ""}
+                        className="block md:hidden absolute top-0 right-[22px] z-50"
+                    />
+                )}
 
                 {/* Content layer */}
                 <AnimatePresence mode="wait">

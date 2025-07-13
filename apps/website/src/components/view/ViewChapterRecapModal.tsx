@@ -1,5 +1,5 @@
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import ViewChapterRecapToolbar from "@/components/view/ViewChapterRecapToolbar";
+import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import {
     Dialog,
     DialogContent,
@@ -11,27 +11,17 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import data from "#/chapter-recaps.json";
-import { Section } from "@/components/view/ViewChapterRecapToolbar";
-import { AnimatePresence, motion } from "framer-motion";
+import { extractMarkdownSections } from "@/components/view/items-page/glossary-utils";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
-import { Button } from "@enreco-archive/common-ui/components/button";
 import { useSettingStore } from "@/store/settingStore";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
     currentChapter: number;
-}
-
-function extractSections(content: string): Section[] {
-    const regex = /### (.*?)(?=\n|$)/g;
-    const matches = [...content.matchAll(regex)];
-
-    return matches.map((match) => ({
-        id: match[1].trim(),
-        title: match[1].trim(),
-    }));
 }
 
 const ViewChapterRecapModal = ({
@@ -51,10 +41,12 @@ const ViewChapterRecapModal = ({
     const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
     const sections = useMemo(
-        () => extractSections(data.chapters[chapter].content),
+        () => extractMarkdownSections(data.chapters[chapter].content, [3]),
         [chapter],
     );
+
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
+
     const activeSection = useScrollSpy(sectionIds);
     const backdropFiler = useSettingStore((state) => state.backdropFilter);
 
