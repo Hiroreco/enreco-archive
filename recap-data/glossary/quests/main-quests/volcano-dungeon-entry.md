@@ -1,4 +1,4 @@
-<!-- title: Volcanic Dungeon -->
+<!-- title: Volcano Dungeon -->
 <!-- quote: It seems that I've been reduced to a fast-food chain owner -->
 <!-- chapters: 0 -->
 <!-- images: (Volcanic Dungeon's Entrance Overview #1), (Volcanic Dungeon's Entrance Overview #2), (Volcanic Dungeon Overview #1), (Volcanic Dungeon Overview #2), (Volcanic Dungeon Overview #3), (Volcanic Dungeon Overview #4), (Volcanic Dungeon Concept Art), (They all tried to swim in lava)-->
@@ -6,7 +6,7 @@
 
 ## Overview
 
-[Read the Volcano Dungeon's Journals](#text:VolcanoDungeon-lore)
+[Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)
 
 **Day Unlocked**: 4
 
