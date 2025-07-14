@@ -1,7 +1,7 @@
 <!-- title: Ocean Temple Dungeon -->
 <!-- quote: Finally... My story begins here! -->
 <!-- chapters: 0 -->
-<!-- images: -->
+<!-- images: (Ocean Temple Dungeon's Entrance Overview #1), (Ocean Temple Dungeon's Entrance Overview #2), (Ocean Temple Dungeon Overview #1), (Ocean Temple Dungeon Overview #2) -->
 <!-- model: false -->
 
 ## Overview

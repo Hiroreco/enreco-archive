@@ -6,17 +6,17 @@
 
 ## Overview
 
-[Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)
-
 **Day Unlocked**: 4
 
 The Volcanic Dungeon was by far the most challenging dungeon in Chapter 1, featuring a gauntlet of fiery obstacles designed to test the heroes’ patience and perseverance. Fittingly, its central theme revolved around resurrection and retrying—embodying the spirit of the mighty phoenix, [Takanashi Kiara](#entry:kiara-entry).
+
+[Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)
 
 ## Details
 
 ### Appearance
 
-The dungeon followed a strong fiery motif, its structure resembling a massive castle or labyrinth suspended above a lake of lava.
+The dungeon carried a strong fiery motif, its structure resembling a colossal castle or labyrinth suspended above a lake of lava. Inside, the labyrinth seemed partially ruined, its design dominated by stone and fire—radiating heat in every direction, as if the entire place were one giant forge.
 
 ### Challenges
 
