@@ -6,12 +6,21 @@ const SHARED_IMAGE_RESOURCES_FOLDER = path.join(
     SHARED_RESOURCES_FOLDER,
     "images",
 );
-const RESOURCES_TO_COPY = ["chesterfield.woff2", "favicon.ico"];
+const SHARED_THUMBNAILS_FOLDER = path.join(
+    SHARED_RESOURCES_FOLDER,
+    "thumbnails",
+);
+const RESOURCES_TO_COPY = [
+    "chesterfield.woff2",
+    "favicon.ico",
+    "blur-data.json",
+];
 const DESTINATIONS = ["apps/editor/public", "apps/website/public"];
 const IMAGE_DESTINATION = [
     "apps/editor/public/images-opt",
     "apps/website/public/images-opt",
 ];
+const THUMBNAIL_DESTINATION = ["apps/website/public/images-opt"];
 
 async function copyFilesRecursively(srcDir: string, destDir: string) {
     const entries = await fs.readdir(srcDir, { withFileTypes: true });
@@ -98,6 +107,47 @@ async function copyResources() {
         } catch (err) {
             console.error(`❌ Error reading destination directory:`, err);
         }
+    }
+
+    console.log(`\n🖼️ Copying thumbnails from ${SHARED_THUMBNAILS_FOLDER}`);
+
+    // Copy thumbnail files
+    const srcThumbnailDir = path.join(process.cwd(), SHARED_THUMBNAILS_FOLDER);
+
+    try {
+        const thumbnailFiles = await fs.readdir(srcThumbnailDir, {
+            withFileTypes: true,
+        });
+        const fileCount = thumbnailFiles.filter((entry) =>
+            entry.isFile(),
+        ).length;
+        console.log(`📊 Found ${fileCount} thumbnail files to copy`);
+
+        for (const dest of THUMBNAIL_DESTINATION) {
+            console.log(`\n📂 Copying thumbnails to ${dest}...`);
+            const destPathRoot = path.join(process.cwd(), dest);
+            await fs.mkdir(destPathRoot, { recursive: true });
+
+            await copyFilesRecursively(srcThumbnailDir, destPathRoot);
+
+            // Verify what was copied
+            try {
+                const copiedFiles = await fs.readdir(destPathRoot);
+                const thumbnailCount = copiedFiles.filter((name) =>
+                    thumbnailFiles.some((entry) => entry.name === name),
+                ).length;
+                console.log(
+                    `📊 Copied ${thumbnailCount} thumbnail files to ${dest}`,
+                );
+            } catch (err) {
+                console.error(
+                    `❌ Error reading thumbnail destination directory:`,
+                    err,
+                );
+            }
+        }
+    } catch (err) {
+        console.error(`❌ Error reading thumbnail source directory:`, err);
     }
 
     console.log("\n✅ All resources copied successfully.");

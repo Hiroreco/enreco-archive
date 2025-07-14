@@ -4,7 +4,8 @@ import path from "path";
 import sharp from "sharp";
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
-const DESTINATIONS = ["apps/editor/public", "apps/website/public"];
+const DESTINATIONS = ["shared-resources/thumbnails"];
+const BLUR_DATA_DESTINATION = "shared-resources";
 
 /** Recursively walk a directory and return all file paths */
 async function walkDir(dir: string): Promise<string[]> {
@@ -168,7 +169,7 @@ async function generateThumbnailsAndBlurData() {
 
         // Write thumbnails to all destinations
         for (const dest of DESTINATIONS) {
-            const outDir = path.join(process.cwd(), dest, "images-opt");
+            const outDir = path.join(process.cwd(), dest);
             await fs.mkdir(outDir, { recursive: true });
             await fs.writeFile(
                 path.join(outDir, `${name}-thumb.webp`),
@@ -196,7 +197,7 @@ async function generateThumbnailsAndBlurData() {
 
         // Generate thumbnail for each destination
         for (const dest of DESTINATIONS) {
-            const outDir = path.join(process.cwd(), dest, "images-opt");
+            const outDir = path.join(process.cwd(), dest);
             await fs.mkdir(outDir, { recursive: true });
 
             // Generate raw thumbnail first (PNG format from ffmpeg)
@@ -273,17 +274,15 @@ async function generateThumbnailsAndBlurData() {
         }
     }
 
-    // Write blur-data.json into each DESTINATION
-    for (const dest of DESTINATIONS) {
-        const outJSON = path.join(process.cwd(), dest, "blur-data.json");
-        await fs.mkdir(path.dirname(outJSON), { recursive: true });
-        await fs.writeFile(
-            outJSON,
-            JSON.stringify(blurDataMap, null, 2),
-            "utf-8",
-        );
-        console.log(`📝 Wrote blur-data.json to ${dest}`);
-    }
+    // Write blur data JSON
+    const outJSON = path.join(
+        process.cwd(),
+        BLUR_DATA_DESTINATION,
+        "blur-data.json",
+    );
+    await fs.mkdir(path.dirname(outJSON), { recursive: true });
+    await fs.writeFile(outJSON, JSON.stringify(blurDataMap, null, 2), "utf-8");
+    console.log(`📝 Wrote blur-data.json to ${BLUR_DATA_DESTINATION}`);
 
     console.log("✅ All thumbnails and blur data generated.");
 }
