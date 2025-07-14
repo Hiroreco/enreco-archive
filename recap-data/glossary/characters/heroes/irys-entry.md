@@ -49,6 +49,6 @@ For anyone following the story from her perspective, it was easy to lose track o
 
 ## Trivia
 
-- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the highest number of romantic, or ex-romantic, partners.
+- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the record for the most romantic (or ex-romantic) partners: Bijou, Nerissa, Shiori, Amelia (for about a minute), Ina, and Tam.
 
 [irys](#easter:easter-irys)

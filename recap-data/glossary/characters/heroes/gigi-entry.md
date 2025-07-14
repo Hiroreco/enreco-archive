@@ -43,6 +43,11 @@ At the same time as his humility and everlasting loyalty shone through, so too d
 
 While the future remains murky, particularly given the climactic conclusion of Chapter 2, Gonathon has come out of his adventures in ancient Libestal determined to fight for what he believes in and right his past wrongs.
 
+## Notable Writings
+
+- [Read "A Knight's Tale"](#text:a-knights-tale)
+- [Read "A Knight's Wish"](#text:a-knights-wish)
+
 ## Trivia
 
 - In Chapter 1, Gonathon was able to have some level of interaction with every other member, an impressive feat considering this included Bae the Peasant, who was absent for all but the first and final day.

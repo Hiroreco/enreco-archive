@@ -28,7 +28,7 @@ Yet beneath the ironclad ego and tyrannical tone, Tam was, at heart, a caring qu
 
 ### Chapter 2
 
-**Name:** Tam Gandr / Ouro Kronii
+**Name:** Tam Gandr
 **Job:** Supplier
 
 Tam began her second journey with no memory of the first one. Gone was the commanding queen; in her place stood someone quieter, more withdrawn, content with grinding in solitude and basking in the peace.

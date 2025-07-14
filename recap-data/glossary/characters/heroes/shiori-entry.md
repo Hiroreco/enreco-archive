@@ -67,6 +67,19 @@ And perhaps it was this knowledge that drove her final decision.
 
 When Fia called on the heroes to fight the Outsider, five of them refused: Nerissa, Bijou, Fuwawa, Mococo, and Shiori. Standing at the front of this rebellion, it was Shiori who spoke first—declaring their rejection of Fia's plea and sparking a new chapter of resistance.
 
+## Notable Writings
+
+- [Read "Sea x Lovers"](#text:sea-x-lovers)
+- [Read "Sea x Lovers"](#text:chicken)
+- [Read "Sea x Lovers"](#text:cucumber)
+- [Read "Sea x Lovers"](#text:gyatt)
+- [Read "Sea x Lovers"](#text:pickles)
+- [Read "Sea x Lovers"](#text:the-princess-1)
+- [Read "Sea x Lovers"](#text:the-princess-2)
+- [Read "Sea x Lovers"](#text:the-cell)
+- [Read "Sea x Lovers"](#text:tam-x-tam)
+- [Read "Sea x Lovers"](#text:kiara-roa-snu)
+
 ## Trivia
 
 - Shiori has a habit of referring to others not by their actual names, but by quirky, often oddly specific titles. For example, she calls Nerissa "the birded one" or _"the tall lady,"_ Gonathon "the fumbly one," and Mococo "the belly button girl," among others.

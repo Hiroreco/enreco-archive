@@ -5,14 +5,14 @@
 <!-- model: false -->
 
 ## Overview
- 
+
 The **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving member, whose memories can be found here as well— Gawr Gura.
 
 ## Details
 
 ### History
 
-There was once a civilization that prospered in both innovative technology and culture. At its peak, this civilization sank to the ocean's floor and rebuilt itself, becoming what is known as Atlantis. 
+There was once a civilization that prospered in both innovative technology and culture. At its peak, this civilization sank to the ocean's floor and rebuilt itself, becoming what is known as Atlantis.
 
 ### Appearance
 
@@ -20,11 +20,11 @@ In the present day, the dungeon is an empty shell of what Atlantis used to be. T
 
 ### Puzzles
 
-Tower of Hanoi: Stack all rings on the third rod in decreasing size order.
+- **Tower of Hanoi:** Stack all [rings](https://www.youtube.com/live/bOIlLaFiiE4?si=9T-46rQ15ghlkjRc&t=5810) on the third rod in decreasing size order.
 
-Bridge Puzzle: Activate color-coded bridges whilst avoiding laser traps and falling to advance to the other side.
+- **Bridge Puzzle:** Activate [color-coded](https://www.youtube.com/live/bOIlLaFiiE4?si=RRQ8rSSECOvsw8e_&t=6098) bridges whilst avoiding laser traps and falling to advance to the other side.
 
-Directional Guard Puzzle: Lead a mannequin guard on the prismarine route to an elevated platform. Letting the guard pass by the 5 embedded golden blocks in the ground unlocks the dungeon's treasure. 
+- **Directional Guard Puzzle:** Lead a [mannequin](https://www.youtube.com/live/bOIlLaFiiE4?si=-QX63tFq7Cp2tcxT&t=6384) guard on the prismarine route to an elevated platform. Letting the guard pass by the 5 embedded golden blocks in the ground unlocks the dungeon's treasure.
 
 ### Rewards
 
@@ -34,3 +34,5 @@ Directional Guard Puzzle: Lead a mannequin guard on the prismarine route to an e
 [Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)
 
 ## Sources
+
+- World Builder - [tskai_xx](https://x.com/tskai_xx/)

@@ -62,6 +62,15 @@ She couldn’t remember that life—not fully. But she could feel traces of it, 
 > Kindness need not feel soft to be real.
 > Sometimes, it is simply what remains when everything else has burned away."
 
+## Notable Writings
+
+- [Read "Knight's Log 0001](#text:liz-journal-c2d1)
+- [Read "Knight's Log 0002](#text:liz-journal-c2d2)
+- [Read "Knight's Log 0003](#text:liz-journal-c2d3)
+- [Read "Knight's Log 0004](#text:liz-journal-c2d4)
+- [Read "Knight's Log 0005](#text:liz-journal-c2d5)
+- [Read "Knight's Log 0006](#text:liz-journal-c2d6)
+
 ## Trivia
 
 - As of Chapter 2, Elizabeth is the only one who has not missed a single day in this enigmatic journey.

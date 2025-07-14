@@ -43,7 +43,7 @@ Naturally, that didn’t pan out. But when Shakira hit her lowest point, feeling
 
 ## Trivia
 
-- The name **Shakira** was actually suggested by Gonathon, since **Tanakisha Kiara** was a bit too much of a mouthful to read.
+- The name **Shakira** was actually suggested by Gonathon, since Tanakisha Kiara was a bit too much of a mouthful to read.
 - Shakira often boasted about her ability to speak “the language of the gods,” otherwise known as **German**, proudly one of only two in the entire kingdom who could.
 
 [kiara](#easter:easter-kiara)
