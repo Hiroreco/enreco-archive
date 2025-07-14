@@ -1,6 +1,6 @@
 import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
 import ViewSectionJumper from "@/components/view/items-page/ViewSectionJumper";
-import ViewLightbox from "@/components/view/ViewLightbox";
+import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
@@ -114,10 +114,11 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     alt={image.title || "Gallery image"}
                                     containerClassName="w-full h-full"
                                     className="w-full h-full border-2 border-foreground/30 shadow-md rounded-lg object-cover cursor-pointer opacity-70 hover:opacity-100 transition-all"
-                                    galleryImages={entry.item.galleryImages.map(
+                                    galleryItems={entry.item.galleryImages.map(
                                         (img) => ({
                                             src: img.source,
                                             alt: img.title || "Gallery image",
+                                            type: "image",
                                         }),
                                     )}
                                     galleryIndex={index}

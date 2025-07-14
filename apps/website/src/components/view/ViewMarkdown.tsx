@@ -17,7 +17,7 @@ import { visit } from "unist-util-visit";
 
 import { generateSectionId } from "@/components/view/items-page/glossary-utils";
 import EntryLink from "@/components/view/markdown/EntryLink";
-import ViewLightbox from "@/components/view/ViewLightbox";
+import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import "@/components/view/ViewMarkdown.css";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";

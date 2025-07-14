@@ -58,3 +58,5 @@ When the journey ended, the heroes found themselves once again in the white room
 ["Ravencroft1 and nerissa2" by set](https://x.com/_se_t_/status/1834034907229946123)
 
 ["The king is whom you serve." by BRASILEIRooO](https://x.com/BRASILEIROO0/status/1901358989033832670)
+
+["A Battle Against Elizabeth Rose Bloodflame" by EmicoOtero](https://x.com/EmicoOtero/status/1870178892109214093)

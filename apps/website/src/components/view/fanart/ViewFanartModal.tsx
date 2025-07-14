@@ -2,7 +2,7 @@ import fanartData from "#/fanart.json";
 import CollapsibleHeader from "@/components/view/fanart/CollapsibleHeader";
 import FanartFilters from "@/components/view/fanart/FanartFilters";
 import FanartMasonryGrid from "@/components/view/fanart/FanartMasonryGrid";
-import ViewLightbox from "@/components/view/ViewLightbox";
+import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import {
     CHARACTER_ORDER,
     getCharacterIdNameMap,
@@ -14,7 +14,7 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-interface FanartEntry {
+export interface FanartEntry {
     url: string;
     label: string;
     author: string;
@@ -25,6 +25,9 @@ interface FanartEntry {
         src: string;
         width: number;
         height: number;
+    }[];
+    videos: {
+        src: string;
     }[];
 }
 
@@ -70,6 +73,7 @@ const ViewFanartModal = ({
     const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] = useState(false);
+    const [videosOnly, setVideosOnly] = useState(false);
 
     // Replace header collapse state with pin state
     const [isHeaderPinned, setIsHeaderPinned] = useState(false);
@@ -127,7 +131,6 @@ const ViewFanartModal = ({
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
             } else {
-                // Use every() for inclusive mode, some() for standard mode
                 characterMatch = inclusiveMode
                     ? selectedCharacters.every((char) =>
                           entry.characters.includes(char),
@@ -142,7 +145,11 @@ const ViewFanartModal = ({
                 entry.chapter === parseInt(selectedChapter);
             const dayMatch =
                 selectedDay === "all" || entry.day === parseInt(selectedDay);
-            return characterMatch && chapterMatch && dayMatch;
+
+            // Add videos only filter
+            const videoMatch = videosOnly ? entry.videos.length > 0 : true;
+
+            return characterMatch && chapterMatch && dayMatch && videoMatch;
         });
     }, [
         selectedCharacters,
@@ -150,6 +157,7 @@ const ViewFanartModal = ({
         selectedDay,
         fanart,
         inclusiveMode,
+        videosOnly, // Add to dependencies
     ]);
 
     const currentEntry = useMemo(
@@ -166,6 +174,7 @@ const ViewFanartModal = ({
         setSelectedChapter("all");
         setSelectedDay("all");
         setInclusiveMode(false);
+        setVideosOnly(false); // Add this
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -215,21 +224,28 @@ const ViewFanartModal = ({
     const handleScroll = useCallback(() => {
         if (!contentContainerRef.current || isHeaderPinned) return;
 
-        const currentScrollTop = contentContainerRef.current.scrollTop;
+        const container = contentContainerRef.current;
+        const currentScrollTop = container.scrollTop;
         const scrollingDown = currentScrollTop > lastScrollTop.current;
 
-        // Check if scrolled to top
-        const isAtTop = currentScrollTop <= 5; // Small threshold for "at top"
+        // Check if content is actually scrollable (scroll height > client height)
+        const isScrollable = container.scrollHeight > container.clientHeight;
 
-        // Only trigger changes if there's meaningful scroll movement
-        if (Math.abs(currentScrollTop - lastScrollTop.current) > 10) {
+        // Check if scrolled to top
+        const isAtTop = currentScrollTop <= 5;
+
+        // Only trigger changes if there's meaningful scroll movement AND content is scrollable
+        if (
+            Math.abs(currentScrollTop - lastScrollTop.current) > 10 &&
+            isScrollable
+        ) {
             if (scrollingDown && !isHeaderCollapsed) {
                 setIsHeaderCollapsed(true);
             }
         }
 
-        // Auto-expand when scrolled to top (regardless of scroll direction)
-        if (isAtTop && isHeaderCollapsed) {
+        // Auto-expand when scrolled to top (only if content is still scrollable)
+        if (isAtTop && isHeaderCollapsed && isScrollable) {
             setIsHeaderCollapsed(false);
         }
 
@@ -279,16 +295,28 @@ const ViewFanartModal = ({
 
             entries.forEach((entry, index) => {
                 const firstImage = entry.images[0];
-                if (!firstImage) return;
+                const hasVideo = entry.videos.length > 0;
+
+                // Skip entries with no media
+                if (!firstImage && !hasVideo) return;
 
                 const shortestColumn = columns.reduce(
                     (min, col, i) =>
                         col.height < columns[min].height ? i : min,
                     0,
                 );
-                const aspectRatio = firstImage.height / firstImage.width;
-                const estimatedWidth = 300;
-                const estimatedHeight = estimatedWidth * aspectRatio + 100;
+
+                let estimatedHeight;
+                if (firstImage) {
+                    // Use actual image dimensions
+                    const aspectRatio = firstImage.height / firstImage.width;
+                    const estimatedWidth = 300;
+                    estimatedHeight = estimatedWidth * aspectRatio + 100;
+                } else {
+                    // Video-only entry: use standard video aspect ratio (16:9)
+                    const estimatedWidth = 300;
+                    estimatedHeight = (estimatedWidth * 9) / 16 + 100;
+                }
 
                 columns[shortestColumn].items.push({ entry, index });
                 columns[shortestColumn].height += estimatedHeight;
@@ -338,10 +366,6 @@ const ViewFanartModal = ({
             });
         }
     }, [selectedCharacters, selectedChapter, selectedDay]);
-
-    useEffect(() => {
-        setSelectedDay(day.toString() || "all");
-    }, [selectedChapter, day]);
 
     useEffect(() => {
         if (initialCharacters && initialCharacters.length > 0) {
@@ -446,6 +470,8 @@ const ViewFanartModal = ({
                             totalItems={filteredFanart.length}
                             inclusiveMode={inclusiveMode}
                             onInclusiveModeChange={setInclusiveMode}
+                            videosOnly={videosOnly}
+                            onVideosOnlyChange={setVideosOnly}
                         />
                     </CollapsibleHeader>
 
@@ -467,14 +493,35 @@ const ViewFanartModal = ({
 
             {currentEntry && (
                 <ViewLightbox
-                    src={currentEntry.images[0].src}
+                    src={
+                        currentEntry.images[0]?.src ||
+                        currentEntry.videos[0]?.src ||
+                        ""
+                    }
                     alt={currentEntry.label}
-                    width={currentEntry.images[0].width}
-                    height={currentEntry.images[0].height}
-                    galleryImages={currentEntry.images.map((img) => ({
-                        src: img.src,
-                        alt: currentEntry.label + " by " + currentEntry.author,
-                    }))}
+                    width={currentEntry.images[0]?.width}
+                    height={currentEntry.images[0]?.height}
+                    type={currentEntry.images[0] ? "image" : "video"}
+                    galleryItems={[
+                        ...currentEntry.images.map((img) => ({
+                            src: img.src,
+                            alt:
+                                currentEntry.label +
+                                " by " +
+                                currentEntry.author,
+                            type: "image" as const,
+                            width: img.width,
+                            height: img.height,
+                        })),
+                        ...currentEntry.videos.map((video) => ({
+                            src: video.src,
+                            alt:
+                                currentEntry.label +
+                                " by " +
+                                currentEntry.author,
+                            type: "video" as const,
+                        })),
+                    ]}
                     priority={true}
                     alwaysShowNavigationArrows={true}
                     galleryIndex={0}

@@ -40,6 +40,7 @@
         "react-device-detect": "^2.2.3",
         "react-dom": "catalog:",
         "react-markdown": "^10.1.0",
+        "react-player": "^3.2.0",
         "remark-gfm": "^4.0.1",
         "tw-animate-css": "catalog:",
         "unist-util-is": "^6.0.0",

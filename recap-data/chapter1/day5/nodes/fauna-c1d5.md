@@ -20,3 +20,7 @@ Towards the day’s end, Fauna decided it was finally time to fulfill her promis
 [Here comes Mococo](#embed:https://www.youtube.com/embed/iRM_kaxQBp4?si=TRzxs5f1lA0eRfMp&start=14555)
 
 The commotion escalated as Nerissa, Cecilia, Gigi, and even Mococo’s guardian, Elizabeth (wielding a giant sword), joined the scene. Arguments flew left and right, creating utter chaos. Finding the situation unbearable and recognizing it as an unwinnable battle for the day, Fauna, ever the responsible CEO, made a strategic decision—to [sneak away](https://www.youtube.com/live/iRM_kaxQBp4?feature=shared&t=15771). She left the others to handle the mess and went to sleep peacefully, deciding it would be someone else’s problem tomorrow.
+
+## Fanwork
+
+["FaunaMart Customer Satisfaction Survey Tape" by EmicoOtero](https://x.com/EmicoOtero/status/1834292754849169648)

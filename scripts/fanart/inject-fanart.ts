@@ -20,7 +20,13 @@ interface LinkEntry {
 interface ExtendedEntry extends Omit<LinkEntry, "chapter" | "day"> {
     chapter: number;
     day: number;
-    images: Array<{ src: string; width: number; height: number }>;
+    images: Array<{
+        src: string;
+        width: number;
+        height: number;
+        type: "image";
+    }>;
+    videos: Array<{ src: string; type: "video" }>;
 }
 
 async function main() {
@@ -29,8 +35,8 @@ async function main() {
         await fs.readFile(LINKS_JSON, "utf-8"),
     );
 
-    // 2) List all image files
-    const allImages = await fs.readdir(IMAGE_DIR);
+    // 2) List all media files
+    const allFiles = await fs.readdir(IMAGE_DIR);
 
     const extended: ExtendedEntry[] = [];
 
@@ -39,13 +45,18 @@ async function main() {
         const postId = postIdMatch ? postIdMatch[1] : "";
         const prefix = `${e.author}-${postId}`;
 
-        // Filter images belonging to this entry
-        const matches = allImages.filter(
+        // Filter images
+        const imageMatches = allFiles.filter(
             (f) => f.startsWith(prefix) && /\.webp$/i.test(f),
         );
 
+        // Filter videos
+        const videoMatches = allFiles.filter(
+            (f) => f.startsWith(prefix) && /\.mp4$/i.test(f),
+        );
+
         const images = [];
-        for (const fname of matches) {
+        for (const fname of imageMatches) {
             const fullPath = path.join(IMAGE_DIR, fname);
             try {
                 const meta = await sharp(fullPath).metadata();
@@ -53,17 +64,26 @@ async function main() {
                     src: `${IMAGE_PREFIX}${fname}`,
                     width: meta.width || 0,
                     height: meta.height || 0,
+                    type: "image" as const,
                 });
             } catch (err) {
                 console.warn(`⚠ Could not read metadata for ${fname}:`, err);
             }
         }
-        if (images.length === 0) {
-            console.warn(`⚠ No images found for ${e.url}`);
+
+        const videos = [];
+        for (const fname of videoMatches) {
+            videos.push({
+                src: `${IMAGE_PREFIX}${fname}`,
+                type: "video" as const,
+            });
+        }
+
+        if (images.length === 0 && videos.length === 0) {
+            console.warn(`⚠ No media found for ${e.url}`);
             continue;
         }
 
-        // Sort characters within each entry according to predefined order
         const sortedCharacters = sortByPredefinedOrder(
             e.characters,
             CHARACTER_ORDER,
@@ -79,6 +99,7 @@ async function main() {
             day: Number(e.day),
             characters: sortedCharacters,
             images: images,
+            videos: videos,
         });
     }
 

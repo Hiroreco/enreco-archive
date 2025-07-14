@@ -23,10 +23,12 @@ interface FanartFiltersProps {
     days: number[];
     nameMap: Record<string, string>;
     inclusiveMode: boolean;
+    videosOnly: boolean;
     onCharactersChange: (characters: string[]) => void;
     onChapterChange: (chapter: string) => void;
     onDayChange: (day: string) => void;
     onInclusiveModeChange: (inclusive: boolean) => void;
+    onVideosOnlyChange: (videosOnly: boolean) => void;
     onReset: () => void;
     totalItems: number;
 }
@@ -40,10 +42,12 @@ const FanartFilters = ({
     days,
     nameMap,
     inclusiveMode,
+    videosOnly,
     onCharactersChange,
     onChapterChange,
     onDayChange,
     onInclusiveModeChange,
+    onVideosOnlyChange,
     onReset,
     totalItems,
 }: FanartFiltersProps) => {
@@ -52,27 +56,6 @@ const FanartFilters = ({
             {/* Mobile layout */}
             <div className="md:hidden space-y-3">
                 <div className="grid grid-cols-2 gap-2">
-                    <div className="space-y-1">
-                        <label className="text-xs font-medium text-muted-foreground">
-                            Day
-                        </label>
-                        <Select value={selectedDay} onValueChange={onDayChange}>
-                            <SelectTrigger className="h-8 text-sm">
-                                <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="all">All</SelectItem>
-                                {days.map((day) => (
-                                    <SelectItem
-                                        key={day}
-                                        value={day.toString()}
-                                    >
-                                        {day + 1}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
-                    </div>
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
                             Chapter
@@ -97,6 +80,27 @@ const FanartFilters = ({
                             </SelectContent>
                         </Select>
                     </div>
+                    <div className="space-y-1">
+                        <label className="text-xs font-medium text-muted-foreground">
+                            Day
+                        </label>
+                        <Select value={selectedDay} onValueChange={onDayChange}>
+                            <SelectTrigger className="h-8 text-sm">
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="all">All</SelectItem>
+                                {days.map((day) => (
+                                    <SelectItem
+                                        key={day}
+                                        value={day.toString()}
+                                    >
+                                        {day + 1}
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </Select>
+                    </div>
                 </div>
                 <CharacterSelector
                     selectedCharacters={selectedCharacters}
@@ -105,51 +109,73 @@ const FanartFilters = ({
                     onCharactersChange={onCharactersChange}
                     mobile={true}
                 />
-                {/* Mobile inclusive checkbox - below character selector */}
-                {selectedCharacters.includes("all") ||
-                selectedCharacters.includes("various") ? (
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <div className="flex items-center gap-2">
-                                <Checkbox
-                                    id="inclusive-mobile"
-                                    checked={inclusiveMode}
-                                    onCheckedChange={(checked) =>
-                                        onInclusiveModeChange(checked === true)
-                                    }
-                                    disabled={true}
-                                />
-                                <label
-                                    htmlFor="inclusive-mobile"
-                                    className="text-xs font-medium text-muted-foreground"
-                                >
-                                    Inclusive (require ALL selected characters)
-                                </label>
-                            </div>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            Can not turn on inclusive mode if "All" or "Various"
-                            is selected
-                        </TooltipContent>
-                    </Tooltip>
-                ) : (
+
+                {/* Mobile checkboxes container */}
+                <div className="flex items-center justify-between">
+                    {/* Videos Only checkbox */}
                     <div className="flex items-center gap-2">
                         <Checkbox
-                            id="inclusive-mobile"
-                            checked={inclusiveMode}
+                            id="videos-only-mobile"
+                            checked={videosOnly}
                             onCheckedChange={(checked) =>
-                                onInclusiveModeChange(checked === true)
+                                onVideosOnlyChange(checked === true)
                             }
-                            disabled={false}
                         />
                         <label
-                            htmlFor="inclusive-mobile"
+                            htmlFor="videos-only-mobile"
                             className="text-xs font-medium text-muted-foreground"
                         >
-                            Inclusive (require ALL selected characters)
+                            Videos Only
                         </label>
                     </div>
-                )}
+
+                    {selectedCharacters.includes("all") ||
+                    selectedCharacters.includes("various") ? (
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <div className="flex items-center gap-2">
+                                    <Checkbox
+                                        id="inclusive-mobile"
+                                        checked={inclusiveMode}
+                                        onCheckedChange={(checked) =>
+                                            onInclusiveModeChange(
+                                                checked === true,
+                                            )
+                                        }
+                                        disabled={true}
+                                    />
+                                    <label
+                                        htmlFor="inclusive-mobile"
+                                        className="text-xs font-medium text-muted-foreground"
+                                    >
+                                        Include All Characters
+                                    </label>
+                                </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                Can not turn on inclusive mode if “All” or
+                                “Various” is selected
+                            </TooltipContent>
+                        </Tooltip>
+                    ) : (
+                        <div className="flex items-center gap-2">
+                            <Checkbox
+                                id="inclusive-mobile"
+                                checked={inclusiveMode}
+                                onCheckedChange={(checked) =>
+                                    onInclusiveModeChange(checked === true)
+                                }
+                                disabled={false}
+                            />
+                            <label
+                                htmlFor="inclusive-mobile"
+                                className="text-xs font-medium text-muted-foreground"
+                            >
+                                Inclusive (require ALL selected characters)
+                            </label>
+                        </div>
+                    )}
+                </div>
             </div>
 
             {/* Desktop layout */}
@@ -202,7 +228,24 @@ const FanartFilters = ({
                     </Select>
                 </div>
 
-                {/* Desktop inclusive checkbox - beside character selector */}
+                {/* Videos Only checkbox */}
+                <div className="flex items-center gap-2">
+                    <Checkbox
+                        id="videos-only-desktop"
+                        checked={videosOnly}
+                        onCheckedChange={(checked) =>
+                            onVideosOnlyChange(checked === true)
+                        }
+                    />
+                    <label
+                        htmlFor="videos-only-desktop"
+                        className="text-sm font-medium"
+                    >
+                        Videos Only
+                    </label>
+                </div>
+
+                {/* Desktop inclusive checkbox */}
                 {selectedCharacters.includes("all") ||
                 selectedCharacters.includes("various") ? (
                     <Tooltip>
@@ -225,7 +268,7 @@ const FanartFilters = ({
                             </div>
                         </TooltipTrigger>
                         <TooltipContent>
-                            Can not turn on inclusive mode if "All" or "Various"
+                            Can not turn on inclusive mode if “All” or “Various”
                             is selected
                         </TooltipContent>
                     </Tooltip>

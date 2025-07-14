@@ -80,4 +80,4 @@ Defenseless. Vulnerable. On the palm of the monster she created.
 
 ["🍽️" by soap](https://x.com/SiFXi_/status/1922715233606377622)
 
-["puppy" by wan](https://x.com/wan_m_i/status/1921113665530478793?t=JloZSQLWzOqC0jvCMYZpsQ)
+["puppy" by wan](https://x.com/wan_m_i/status/1921113665530478793)

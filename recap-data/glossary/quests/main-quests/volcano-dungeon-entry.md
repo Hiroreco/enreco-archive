@@ -26,8 +26,8 @@ Rather than puzzles, the Volcanic Dungeon emphasized physical trials, riddled wi
 
 The arsenal of traps featured:
 
-- Fire bar traps
 - Lava pitfalls
+- Fire bar traps
 - Powdered snow traps
 - Falling anvil traps
 - Magma traps

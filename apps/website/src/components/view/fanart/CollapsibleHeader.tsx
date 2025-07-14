@@ -37,7 +37,7 @@ const PinButton = ({
                     asChild
                     onClick={onClick}
                     className={cn(
-                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 transition-colors z-10 cursor-pointer p-1",
+                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 transition-colors z-10 cursor-pointer p-1.5",
                         isPinned
                             ? "opacity-100 bg-primary/10 border-primary/50"
                             : "opacity-70",

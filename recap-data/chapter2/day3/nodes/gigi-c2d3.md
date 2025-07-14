@@ -25,8 +25,6 @@ The end of the day saw one of the most unexpected twists, with Gonathon falling 
 
 ## Fanart
 
-[Gonathon... by Yog](https://x.com/massiveyog/status/1919634283809144908?s=46&t=Hs_QRLG_ayqKN5hO2BW3-A)
-
 [The Humble Knight's Happiness by Blaparky](https://x.com/blaparky/status/1919657314384282081)
 
 <!-- shiori -->

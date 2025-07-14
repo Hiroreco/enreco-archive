@@ -13,3 +13,5 @@ This act did little to soothe the witch, as she began feuding with Mordan over w
 ## Fanart
 
 ["Gonathon deserved better" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)
+
+["A blind date gone wrong" by Comicdud](https://x.com/Comicdud/status/1944574664480596187)
