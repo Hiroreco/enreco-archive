@@ -634,15 +634,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onOpenChange={setOpenFanartModal}
                 chapter={viewStore.chapter}
                 day={viewStore.day}
-                initialCharacter={(() => {
-                    if (
-                        viewStore.currentCard === "node" &&
-                        viewStore.selectedNode
-                    ) {
-                        return viewStore.selectedNode.id;
-                    }
-                    return undefined;
-                })()}
                 initialCharacters={(() => {
                     if (
                         viewStore.currentCard === "edge" &&
@@ -650,6 +641,11 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     ) {
                         const { source, target } = viewStore.selectedEdge;
                         return [source, target];
+                    } else if (
+                        viewStore.currentCard === "node" &&
+                        viewStore.selectedNode
+                    ) {
+                        return [viewStore.selectedNode.id];
                     }
                     return undefined;
                 })()}

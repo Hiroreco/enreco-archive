@@ -33,7 +33,6 @@ interface ViewFanartModalProps {
     onOpenChange: (open: boolean) => void;
     chapter: number;
     day: number;
-    initialCharacter?: string;
     initialCharacters?: string[];
 }
 
@@ -47,14 +46,11 @@ const ViewFanartModal = ({
     onOpenChange,
     chapter,
     day,
-    initialCharacter = "all",
     initialCharacters,
 }: ViewFanartModalProps) => {
     // State
     const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
-        initialCharacters && initialCharacters.length > 0
-            ? initialCharacters
-            : [initialCharacter]
+        initialCharacters || ["all"],
     );
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
@@ -222,11 +218,19 @@ const ViewFanartModal = ({
         const currentScrollTop = contentContainerRef.current.scrollTop;
         const scrollingDown = currentScrollTop > lastScrollTop.current;
 
-        // Only trigger collapse on scroll down, never auto-expand
+        // Check if scrolled to top
+        const isAtTop = currentScrollTop <= 5; // Small threshold for "at top"
+
+        // Only trigger changes if there's meaningful scroll movement
         if (Math.abs(currentScrollTop - lastScrollTop.current) > 10) {
             if (scrollingDown && !isHeaderCollapsed) {
                 setIsHeaderCollapsed(true);
             }
+        }
+
+        // Auto-expand when scrolled to top (regardless of scroll direction)
+        if (isAtTop && isHeaderCollapsed) {
+            setIsHeaderCollapsed(false);
         }
 
         lastScrollTop.current = currentScrollTop;
@@ -342,16 +346,16 @@ const ViewFanartModal = ({
     useEffect(() => {
         if (initialCharacters && initialCharacters.length > 0) {
             setSelectedCharacters(initialCharacters);
-            setInclusiveMode(true);
+            if (initialCharacters.length > 1) {
+                setInclusiveMode(true);
+            } else {
+                setInclusiveMode(false);
+            }
         } else {
-            setSelectedCharacters(
-                initialCharacter && initialCharacter !== "all"
-                    ? [initialCharacter]
-                    : ["all"]
-            );
+            setSelectedCharacters(["all"]);
             setInclusiveMode(false);
         }
-    }, [initialCharacter, initialCharacters]);
+    }, [initialCharacters]);
 
     // Ensure selected characters are valid
     useEffect(() => {
