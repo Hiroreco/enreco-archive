@@ -34,3 +34,5 @@ The end of the day saw one of the most unexpected twists, with Gonathon falling 
 [... (The World Tree) by Edialex](https://x.com/Ediialex/status/1919243257499853211)
 
 ["The World Tree" by Jowo](https://x.com/seekorplatypus/status/1919368149411176695)
+
+["Those blonde angels looks familiar..." by Nagi](https://x.com/Nagi_Nyaaa/status/1919583988454158726)

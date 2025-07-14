@@ -31,3 +31,5 @@ Most important of all for the Humble Knight was the kindness that Shiori gave he
 ["i'll catch you" by Daaku](https://x.com/koizumi_arata/status/1922439809542316098/)
 
 ["Heartbroken" by the baker I am](https://x.com/imabaker111/status/1922026532635107535)
+
+["regrets and memories" by zooka](https://x.com/zookacchi/status/1921260437854716282)
