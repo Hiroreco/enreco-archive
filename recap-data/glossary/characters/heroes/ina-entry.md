@@ -15,7 +15,7 @@ Ninomae Ina'nis, or more casually, Nino Ina, was one of the rare few—alongside
 
 ### Chapter 1
 
-**Name:** Nino Ina
+**Name:** NinoIna
 **Guild:** Cerulean Cup
 
 Ina began her journey with a more reserved demeanor than most. Despite being placed in the same [guild](#entry:guilds-entry) as some of the most eccentric individuals in the kingdom, she remained calm and collected throughout. She quickly bonded with others, most notably entangling herself with the [Hot Pink One](#entry:irys-entry), whom she declared her eternal consort as early as Day 2, and with Bijou, whom she lovingly regarded as a sister—bonded over the shared memory of a "wooden shovel."
@@ -28,7 +28,7 @@ Ina proved herself to be loyal and dependable, both to her guild and to her belo
 
 ### Chapter 2
 
-**Name:** Nino Ina
+**Name:** NinoIna
 **Job:** Jeweler
 
 Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming [potatoes](https://www.youtube.com/live/BkJIFGhpKIY?si=TOOasp2g_o_oVHFp&t=6891) by her humble abode.
