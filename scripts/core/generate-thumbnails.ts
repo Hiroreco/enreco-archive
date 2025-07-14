@@ -1,4 +1,3 @@
-// scripts/generate-thumbnails.ts
 import ffmpeg from "fluent-ffmpeg";
 import fs from "fs/promises";
 import path from "path";
