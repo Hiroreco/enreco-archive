@@ -9,7 +9,7 @@
 **Memories:** Not Recollected
 **Revelation:** [Fuchsia Claws](#entry:fuchsia-claws-entry)
 
-Mococo Abyssguard was definitely not the typical hero you'd imagine when you hear the word. She was notable for being a lottery addict in Chapter 1, helpless to the adrenaline that gambling gives her. One of the most chaotic and shameless of the bunch, it's a miracle how this mischievious dog learned from her poor financial decisions to become a hardworking jeweler and therapist in Chapter 2.
+Mococo Abyssguard was hardly the image of a typical hero. Notorious for her lottery addiction in Chapter 1, she was helpless before the thrill of gambling. One of the most chaotic and shameless of the bunch, she would do just about anything to line her pockets.
 
 ## Details
 
@@ -18,19 +18,34 @@ Mococo Abyssguard was definitely not the typical hero you'd imagine when you hea
 **Name:** Mococo Abyssguard
 **Guild:** Jade Sword
 
-Mococo started out in quite a vulnerable state. Before Elizabeth vowed to be her protector and big sister, she felt frightened of this new world. She was easily persuaded to overspend in the Faunamart's lottery in spite the concerns of others. She soon turned into a problem, though, by extorting her friends for more money, thus damaging her relationships.
+Mococo’s journey began from a vulnerable place. Before Elizabeth promised to be her protector and big sister, she was terrified of this strange new world, easily frightened and desperate not to be left [alone.](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=4128) But with her friends’ support, she slowly found her footing, working hard and living up to her role as a hero—though that didn’t last long.
 
-Nonetheless, there were hints that this troublemaker was much more than that. Her money-grubbing attitude has led her to realize that she _needed to work_ for her money. Do business and such. Her sister and friends were also equally if not the most important to her. Mococo was scared to be alone truth be told. It was for the best she quit gambling (before returning through NanaEleven).
+By the second day, she had discovered FaunaMart’s lottery tickets. It started with just a couple, but soon grew to hundreds as the doggo blew through her funds despite everyone’s concerns. What began as harmless fun spiraled into an addiction. Mococo became a problem herself, extorting friends for more money and [straining relationships.](https://www.youtube.com/live/5swK4fB2smo?t=1251)
 
-Her journey was not smooth-sailing . This, also due the corruption that took over Mococo's mind and killed Fuwawa's chickens too
+Yet there were glimpses of something more to her. Her obsession with money led her to understand she actually needed to _work_ for it—do business, hustle. Her sister and friends were still the most important things in her life. Underneath it all, Mococo was terrified of being alone. Eventually, she managed to quit gambling (at least until NanaEleven tempted her back).
+
+By the journey’s end, she fell to the corruption—first swayed by Bijou’s influence and by far the most afflicted of all. She hurt others, ravaged the lands, slaughtered animals and crops, which led everyone to pull away from her—the very thing she dreaded most. Even Elizabeth, whom she adored most, looked on with [wary eyes.](https://www.youtube.com/live/6TXwZjXEoxk?si=N5N4vgyOALaXs9db&t=1610)
+
+But with everyone’s help, Mococo was saved. She carried immense gratitude in her heart. For all her chaos, she was still just a kind, innocent puppy at her core.
 
 ### Chapter 2
 
 **Name:** Mococo Abyssguard
 **Job:** Jeweler
 
-Chapter 2 presented Mococo an opportunity to start anew and forget her mistakes. This jeweler was sort of a meddler herself— eavesdropping is her new hobby.
+The second journey offered Mococo a fresh start. Determined to do better, she vowed to work hard, stay off the gambling—well, mostly—and repay those who once helped her.
 
-On the final day, Mococo, along with Fuwawa, Bijou, Nerissa, and Shiori, rejected Fia’s wish and chose to rebel.
+And she did. As a dedicated jeweler and loyal employee of Gacharms, she kept herself busy and, with no lottery around, was spared from falling feral again. Sure, the gambling didn’t vanish completely, but it was far less destructive this time.
+
+Her chaotic nature persisted, though. Eavesdropping became a new hobby—on one occasion she overheard Mordon’s therapy session and decided to open her own [therapy business.](https://www.youtube.com/live/T2StVW1kSxw?si=-ZizHO6g5xCSHEr9&t=9493) Never mind the lack of credentials: her sessions consisted of “uh huh, yeah, just follow your heart,” delivered like a true pro. But hey, for dirt-cheap prices, you got what you paid for.
+
+Toward the journey’s end, Mococo started feeling... off. A creeping sickness, a gnawing sense of something wrong. On the final day, it proved true. As if seized by a mysterious force, she, along with four others, defied Fia and the rest of the heroes, choosing to carve their own path instead.
+
+## Trivia
+
+- Mococo seems to have it out for chickens: she slaughtered Fuwawa’s entire flock in Chapter 1, and later killed the Hot Pink’s “child”—which happened to take the form of a chicken—on sight in Chapter 2.
+- Her relentless pursuit of wealth made her the third richest hero by the end of Chapter 1 (just behind Fauna and Nerissa), and one of the top earners again in Chapter 2, with coin totals hitting the five-digit mark both times.
+- She bought a whopping **452 lottery tickets** in Chapter 1 (447 from FaunaMart, 5 from NanaEleven). From it, she only won 710 coins at FaunaMart, 500 coins at NanaEleven (whose tickets were free), but walked away with a 10,000-coin settlement from Nerissa during the lottery fiasco. In the end, she netted a profit of 6,740 coins.
+- When Cecilia requested a 5% cut from the 10,000-coin settlement for her legal services, Mococo handed her 180 coins—a mere 1.8%. Cecilia didn’t question it.
 
 [mococo](#easter:easter-mococo)
