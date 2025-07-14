@@ -16,7 +16,6 @@ The humble knight known as Gonathon G. has faced many trials and tribulations du
 ### Chapter 1
 
 **Name:** Gonathon G.
-
 **Guild:** Cerulean Cup
 
 While legends would tell that Gonathon G. was a humble knight of stalwart heart and noble deed, the truth of the matter is that his tale was marked by missteps and indecision.
@@ -32,7 +31,6 @@ Despite many fumbles along the way, Gonathon would prove not only that he was a 
 ### Chapter 2
 
 **Name:** Gonathon G.
-
 **Job:** Smith
 
 The second chapter of Gonathon’s adventure would see even more triumph and heartache. Going into this new adventure, the humble knight was seemingly once again afflicted with amnesia, and the loss of the memory of his Pearl would serve as the core of his struggles.
