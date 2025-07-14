@@ -15,11 +15,10 @@ Bae may be a peasant of little wealth (at first), but what remains inside is a t
 
 ### Chapter 1
 
-**Name:** Peasant Da Bae
-
+**Name:** Peasant The Bae
 **Guild:** Amber Coin
 
-Just like her newly found companions, Peasant Da Bae found herself whisked away to the land of Libestal with nary a memory. Scared and confused, it took Bae much of Day 1 to get used to her duties as a hero, but, ultimately, this was a profession she would reject. Bae was not a hero, they chose the wrong rat for she is but a humble, simple peasant! Deep into the woods Da Peasant ran, missing much of the fights, adventures, and complicated relationships during this time. And sparring herself the grief of understanding the romance within the kingdom.
+Just like her newly found companions, Peasant The Bae found herself whisked away to the land of Libestal with nary a memory. Scared and confused, it took Bae much of Day 1 to get used to her duties as a hero, but, ultimately, this was a profession she would reject. Bae was not a hero, they chose the wrong rat for she is but a humble, simple peasant! Deep into the woods the Peasant ran, missing much of the fights, adventures, and complicated relationships (See any relationship chart from Chapter 1) during this time. And sparring herself the grief of understanding the romance in the kingdom.
 
 However, one can only escape their fate for so long; Bae would be found, and dragged, back to the Libestal to her [grievance](https://youtu.be/t5NGryTaGqk?t=1529). Sometimes when the world asks for you, even when you don't answer the call, the call would call truck-kun to have you dragged back... _What? The King was the enemy?_ Bae knew that the Monarchy was the true enemy all along! [Down with the King](https://youtu.be/t5NGryTaGqk?t=4833).
 
@@ -28,7 +27,6 @@ On the bright side, Bae got a [nice peasant hat (with a gold coin)](https://yout
 ### Chapter 2
 
 **Name:** Peasant The Bae
-
 **Job:** Supplier
 
 Chapter 2's Peasant the Bae certainly had more colour to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, ["tHE dUMPSTER"](https://youtu.be/Lp7GyRVbz1c?t=14135). Bae seizes any opportunity to sell her wares or offer her services to any customer her way. Soon, "Peasant" became much more than a status of her previously lack of wealth, ["Peasant"](https://youtu.be/Lp7GyRVbz1c?t=1511) is an honourable title Bae wore.
