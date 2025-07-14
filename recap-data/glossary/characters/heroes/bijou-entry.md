@@ -53,7 +53,7 @@ In short, Bijou was kind and diligent toward everyone around her. It felt as tho
 
 At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shiori—turned against Fia and the remaining heroes.
 
-_“After all, nothing stays pure,”_ the gem maiden [said](https://www.youtube.com/live/C6kmnHsopgM?t=8151).
+_“The darkness in the heart always takes over, nothing stays pure,”_ the gem maiden [said](https://www.youtube.com/live/C6kmnHsopgM?t=8151).
 
 ## Notable Writings
 
