@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Unlocked on**: Day 3
+**Day Unlocked:** Day 3
 
 The **Stronghold of Ruin** marked the place where the heroes first encountered the [Outlander](#entry:outsider-entry), a nameless swordsman the Princess had specifically tasked them to find. He too had been investigating the stronghold—only to fall victim to the lingering corruption that trapped him inside. Thanks to the heroes' efforts in conquering the dungeon, he was ultimately freed.
 

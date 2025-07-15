@@ -26,7 +26,7 @@ Calli also played a critical role in the battle against the corruption on the fi
 
 ### Chapter 2
 
-**Name:** Mordon Ramsey
+**Name:** Mordan Ramsey
 **Job:** Chef
 
 The reaper’s second journey began with a duty already resting on her shoulders. Along with Shakira, she was chosen as one of the “Lore Keepers,” tasked with recording the heroes’ daily adventures for the archive.

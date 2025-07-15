@@ -6,6 +6,8 @@
 
 ## Overview
 
+**Day Unlocked:** 2
+
 The **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving member, whose memories can be found here as well— Gawr Gura.
 
 ## Details

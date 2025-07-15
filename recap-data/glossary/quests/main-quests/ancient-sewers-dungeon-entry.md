@@ -6,6 +6,8 @@
 
 ## Overview
 
+**Day Unlocked:** 5
+
 The Ancient Sewer Dungeon was the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—[Amelia Watson](#entry:ame-entry).
 
 ## Details

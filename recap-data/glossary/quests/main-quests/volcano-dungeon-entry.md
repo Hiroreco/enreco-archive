@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Day Unlocked**: 4
+**Day Unlocked:** 4
 
 The Volcanic Dungeon was by far the most challenging dungeon in Chapter 1, featuring a gauntlet of fiery obstacles designed to test the heroes’ patience and perseverance. Fittingly, its central theme revolved around resurrection and retrying—embodying the spirit of the mighty phoenix, [Takanashi Kiara](#entry:kiara-entry).
 

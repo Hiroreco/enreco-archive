@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Day Unlocked**: 2
+**Day Unlocked:** 2
 
 **Star Site: Elpis** was the first major dungeon tackled by the heroes in Chapter 2, and the first of the three memory dungeons in this arc. Within its walls resided the fragmented memories of [IRyS](#entry:irys-entry), the embodiment of hope and despair.
 

@@ -33,7 +33,7 @@ Call it karma or collapse, but eventually, her polycule of side chicks unraveled
 
 If Chapter 1 was wild, Chapter 2 showcased the full extent of the Hot Pink One’s chaotic energy. Even though she'd lost her memories again, her personality remained intact—just as eccentric as ever—with her web of relationships becoming even more tangled.
 
-Still known as the Hot Pink One, she took on the role of a chef specializing in chocolate cakes. She also recovered memories of her past self after conquering the [Star Site: Elpis](#entry:star-site-elpis-entr)—recalling herself as IRyS, the embodiment of hope, albeit a drunken one.
+Still known as the Hot Pink One, she took on the role of a chef specializing in chocolate cakes. She also recovered memories of her past self after conquering the [Star Site: Elpis](#entry:star-site-elpis-entry)—recalling herself as IRyS, the embodiment of hope, albeit a drunken one.
 
 And as each day passed, the pink one's entanglement with others grew more and more complicated.
 

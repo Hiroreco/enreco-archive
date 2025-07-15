@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Day Unlocked**: 5
+**Day Unlocked:** 5
 
 Star Site: Chaos was the third and final star site in Chapter 2, standing out significantly from the previous two. Fittingly, the memories it contained belonged to none other than the embodiment of chaos herself—[Hakos Baelz](#entry:bae-entry).
 
