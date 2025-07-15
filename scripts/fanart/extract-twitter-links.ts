@@ -73,8 +73,7 @@ async function main() {
         "https://x.com/_se_t_/status/1921155712278798577",
         "https://x.com/keiseeaaa/status/1923701440473858538",
         "https://x.com/_se_t_/status/1919743867081130432",
-        "https://x.com/Comicdud/status/1944574664480596187",
-        "https://x.com/EmicoOtero/status/1870178892109214093",
+        "https://x.com/hiroavrs/status/1919392962670452788",
     ];
     blacklistUrls = blacklistUrls.map((url) => url.toLowerCase());
 

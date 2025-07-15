@@ -5,6 +5,7 @@ import { CHARACTER_ORDER, sortByPredefinedOrder } from "../orders.js";
 
 const LINKS_JSON = path.resolve(process.cwd(), "src/data/twitter-links.json");
 const IMAGE_DIR = path.resolve(process.cwd(), "shared-resources/images/fanart");
+const VIDEO_DIR = path.resolve(process.cwd(), "shared-resources/videos");
 const OUT_JSON = path.resolve(process.cwd(), "apps/website/data/fanart.json");
 const IMAGE_PREFIX = "images-opt/";
 const CDN_PREFIX = "https://cdn.enreco-archive.net/";
@@ -17,7 +18,7 @@ interface LinkEntry {
     day: string;
     characters: string[];
 }
-
+("");
 interface ExtendedEntry extends Omit<LinkEntry, "chapter" | "day"> {
     chapter: number;
     day: number;
@@ -38,6 +39,7 @@ async function main() {
 
     // 2) List all media files
     const allFiles = await fs.readdir(IMAGE_DIR);
+    const allVideoFiles = await fs.readdir(VIDEO_DIR);
 
     const extended: ExtendedEntry[] = [];
 
@@ -51,8 +53,8 @@ async function main() {
             (f) => f.startsWith(prefix) && /\.webp$/i.test(f),
         );
 
-        // Filter videos
-        const videoMatches = allFiles.filter(
+        // Filter videos from VIDEO_DIR
+        const videoMatches = allVideoFiles.filter(
             (f) => f.startsWith(prefix) && /\.mp4$/i.test(f),
         );
 

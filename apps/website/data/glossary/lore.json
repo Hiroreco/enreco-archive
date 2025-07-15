@@ -139,6 +139,10 @@
         {
           "title": "Stains Concept Art",
           "source": "/images-opt/stains-entry-2-opt.webp"
+        },
+        {
+          "title": "Stains in The Chapter 1 Trailer",
+          "source": "/images-opt/stains-entry-3-opt.webp"
         }
       ],
       "imageSrc": "/images-opt/stains-entry-opt.webp"
@@ -167,6 +171,43 @@
         }
       ],
       "imageSrc": "/images-opt/revelations-entry-opt.webp"
+    },
+    {
+      "id": "libestans-entry",
+      "title": "Libestans",
+      "chapters": [
+        -1
+      ],
+      "quote": "Our barrels and pots were overflowing with potato salad.",
+      "content": "## Overview\n\nLibestans were the inhabitants of the Libestal Kingdom, acting as interactable characters who made the heroes’ journey all the more lively.\n\n## Details\n\nLibestans took the shape of rabbit-like humanoids, with completely white skin, two long ears hanging by each side, and short, somewhat chubby builds—many found them quite adorable. They appeared in both the fabricated kingdom of Libestal and the real, ancient one. Depending on their role, Libestans could generally be divided into two groups.\n\n### Locals\n\nThese Libestans were typically ordinary townsfolk found along roads, tucked away behind castles, or scattered throughout other nondescript areas. Interacting with them often led to snippets of everyday life, sometimes humorous, sometimes revealing small [secrets](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5386) about the kingdom or the overarching story. While they didn’t directly contribute to the main quests, heroes were encouraged to speak with as many as possible to better understand the world they were adventuring through.\n\n### Key Figures\n\nOther Libestans held more pivotal roles, such as Quest Masters, Shopkeepers, or major figures like the [Libestal Princess](#entry:iphania-entry) and the [Libestal King](#entry:outsider-entry). These individuals provided side quests that rewarded money or artifacts, sold essential items for the journey, or in the case of the more prominent Libestans, handed out quests tied directly to the main storyline.",
+      "thumbnailSrc": "/images-opt/libestans-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "A Libestan who had an awful dream about potato salad",
+          "source": "/images-opt/libestans-entry-0-opt.webp"
+        },
+        {
+          "title": "Cryptic message found while speaking to a Libestan",
+          "source": "/images-opt/libestans-entry-1-opt.webp"
+        },
+        {
+          "title": "The Quest Master, responsible for giving out quests",
+          "source": "/images-opt/libestans-entry-2-opt.webp"
+        },
+        {
+          "title": "Princess Iphania's first time meeting the heroes",
+          "source": "/images-opt/libestans-entry-3-opt.webp"
+        },
+        {
+          "title": "A hero buying items from one of the shopkeepers",
+          "source": "/images-opt/libestans-entry-4-opt.webp"
+        },
+        {
+          "title": "Libestans in the Kingdom",
+          "source": "/images-opt/libestans-entry-5-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestans-entry-opt.webp"
     },
     {
       "id": "storylines-entry",
@@ -253,6 +294,10 @@
         {
           "title": "The Sanctuary Overview #4",
           "source": "/images-opt/sanctuary-entry-3-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Concept Art",
+          "source": "/images-opt/sanctuary-entry-4-opt.webp"
         }
       ],
       "imageSrc": "/images-opt/sanctuary-entry-opt.webp"

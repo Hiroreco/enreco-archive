@@ -25,3 +25,5 @@ Still, despite it all, there was something hopeful in the air. Their chemistry, 
 ["Trade" by noirstein](https://x.com/noirstein/status/1919950989265658028)
 
 ["Bloodraven in a nutshell" by Shee](https://x.com/tianshiko/status/1934050252702802157)
+
+["knight's suite" by Noise](https://x.com/lestkrr/status/1920892560521715876)

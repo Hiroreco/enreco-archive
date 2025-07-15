@@ -213,7 +213,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 <div className="flex flex-row h-[30px] items-center w-full justify-between px-2">
                     <CardTitle className="flex justify-between items-center w-full">
                         {currentEntry !== null ? (
-                            <div className="flex items-center gap-2 md:text-base text-sm">
+                            <div className="flex items-center gap-2 md:text-xl text-sm">
                                 <span>
                                     {categoryMap[selectedCategory].label}
                                 </span>

@@ -47,3 +47,5 @@ It seemed that their friendship, one that started sweetly in the day with gifts 
 ["Who were you before Lady Bloodflame" by Mr. Joeboto](https://x.com/LordJoeboto/status/1920978616894062922)
 
 ["lies?" by wan](https://x.com/wan_m_i/status/1920859036972364262)
+
+["when have I ever lie to you" by Kirby Otaku](https://x.com/kirbyotaku/status/1928557863259222307)

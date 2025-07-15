@@ -4,7 +4,7 @@ import path from "path";
 import sharp from "sharp";
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
-const SHARED_VIDEOS_FOLDER = "shared-resources/videos";
+const SHARED_VIDEOS_FOLDER = "shared-resources/new-videos";
 
 /** Recursively walk a directory and return all file paths */
 async function walkDir(dir: string): Promise<string[]> {

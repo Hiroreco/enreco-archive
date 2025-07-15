@@ -27,3 +27,7 @@ The drama at FaunaMart had turned into a full-blown fiasco, leaving Nerissa ques
 ["Where's my money!" by Mr.Joeboto](https://x.com/LordJoeboto/status/1831598627988349253)
 
 <!-- liz -->
+
+["she really wants her money" by Magho](https://x.com/M_Agho/status/1836869460403311005)
+
+<!-- liz -->

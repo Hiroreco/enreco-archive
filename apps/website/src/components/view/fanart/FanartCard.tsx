@@ -76,6 +76,11 @@ const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
                     </div>
                 </div>
 
+                <div className="md:flex hidden absolute top-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg items-center gap-1">
+                    <Play size={12} />
+                    <span>Video</span>
+                </div>
+
                 {/* Mobile - always visible info */}
                 <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
                     <FanartCardInfo entry={entry} />

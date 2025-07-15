@@ -19,7 +19,16 @@ const OUT_DIR = path.resolve(
     "images",
     "fanart",
 );
-const VIDEO_OUT_DIR = path.resolve(process.cwd(), "shared-resources", "videos");
+const VIDEO_CHECK_DIR = path.resolve(
+    process.cwd(),
+    "shared-resources",
+    "videos",
+);
+const VIDEO_OUT_DIR = path.resolve(
+    process.cwd(),
+    "shared-resources",
+    "new-videos",
+);
 const EXTENSIONS = ["jpg", "png", "webp", "gif"];
 
 interface LinkEntry {
@@ -63,7 +72,7 @@ async function run() {
         await fs.readFile(LINKS_JSON, "utf-8"),
     );
     await fs.mkdir(OUT_DIR, { recursive: true });
-    await fs.mkdir(VIDEO_OUT_DIR, { recursive: true });
+    await fs.mkdir(VIDEO_CHECK_DIR, { recursive: true });
 
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
@@ -88,14 +97,17 @@ async function run() {
             const noIdxOpt = path.join(OUT_DIR, `${baseName}-opt.${ext}`);
             const idx0Opt = path.join(OUT_DIR, `${baseName}-0-opt.${ext}`);
             // Also check video directory
-            const videoNoIdx = path.join(VIDEO_OUT_DIR, `${baseName}.${ext}`);
-            const videoIdx0 = path.join(VIDEO_OUT_DIR, `${baseName}-0.${ext}`);
+            const videoNoIdx = path.join(VIDEO_CHECK_DIR, `${baseName}.${ext}`);
+            const videoIdx0 = path.join(
+                VIDEO_CHECK_DIR,
+                `${baseName}-0.${ext}`,
+            );
             const videoNoIdxOpt = path.join(
-                VIDEO_OUT_DIR,
+                VIDEO_CHECK_DIR,
                 `${baseName}-opt.${ext}`,
             );
             const videoIdx0Opt = path.join(
-                VIDEO_OUT_DIR,
+                VIDEO_CHECK_DIR,
                 `${baseName}-0-opt.${ext}`,
             );
             return (
