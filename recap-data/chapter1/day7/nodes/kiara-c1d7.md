@@ -1,4 +1,4 @@
-<!-- title: Takanashi Kiara -->
+<!-- title: Tanakisha Karia -->
 <!-- status: Alive -->
 
 Though the journey was meant to culminate in a grand battle on the eighth day, for Kiara, day seven marked her final moments in the enigmatic kingdom of Libestal. Other pressing matters called her away, preventing her from standing alongside her comrades in the climactic fight. The thought saddened the orange maiden, but she resolved to spend her remaining time in the kingdom to the fullest, holding her head high.
