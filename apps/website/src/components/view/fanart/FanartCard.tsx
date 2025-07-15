@@ -42,7 +42,7 @@ const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
                 .split("/")
                 .pop()
                 ?.replace(/\.[^/.]+$/, "") || "";
-        const thumbnailSrc = firstVideo.src.replace(/\.[^/.]+$/, "-thumb.webp");
+        const thumbnailSrc = `images-opt/${videoName}-thumb.webp`;
 
         return (
             <div

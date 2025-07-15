@@ -4,6 +4,7 @@ import path from "path";
 import sharp from "sharp";
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
+const SHARED_VIDEOS_FOLDER = "shared-resources/videos";
 const DESTINATIONS = ["shared-resources/thumbnails"];
 const BLUR_DATA_DESTINATION = "shared-resources";
 
@@ -63,7 +64,9 @@ async function generateVideoThumbnail(
 
 async function generateThumbnailsAndBlurData() {
     const resourceDir = path.resolve(process.cwd(), SHARED_IMAGES_FOLDER);
+    const videoDir = path.resolve(process.cwd(), SHARED_VIDEOS_FOLDER);
     const allFiles = await walkDir(resourceDir);
+    const allVideoFiles = await walkDir(videoDir);
 
     // All image files (for blur data)
     const allImageFiles = allFiles.filter((f) => {
@@ -71,8 +74,8 @@ async function generateThumbnailsAndBlurData() {
         return !!extMatch;
     });
 
-    // All video files
-    const allVideoFiles = allFiles.filter((f) => {
+    // All video files from video directory
+    const videoFiles = allVideoFiles.filter((f) => {
         const extMatch = f.match(/\.(mp4|webm|mov)$/i);
         return !!extMatch;
     });
@@ -86,14 +89,8 @@ async function generateThumbnailsAndBlurData() {
         return firstDir === "glossary" || firstDir === "fanart";
     });
 
-    // Only videos in fanart folder (for thumbnails)
-    const videoThumbnailFiles = allVideoFiles.filter((f) => {
-        const relPath = path.relative(resourceDir, f);
-        const parsed = path.parse(relPath);
-        const firstDir = parsed.dir.split(path.sep)[0];
-
-        return firstDir === "fanart";
-    });
+    // All videos are considered for thumbnails (since they're in the dedicated video folder)
+    const videoThumbnailFiles = videoFiles;
 
     const blurDataMap: Record<string, string> = {};
 
@@ -189,7 +186,7 @@ async function generateThumbnailsAndBlurData() {
 
     // Generate thumbnails for videos
     for (const inputPath of videoThumbnailFiles) {
-        const relPath = path.relative(resourceDir, inputPath);
+        const relPath = path.relative(videoDir, inputPath);
         const parsed = path.parse(relPath);
         const name = parsed.name;
 

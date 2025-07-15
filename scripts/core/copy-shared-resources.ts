@@ -66,15 +66,12 @@ async function copyResources() {
             withFileTypes: true,
             recursive: true,
         });
-        const mp4Files = allFiles.filter(
-            (entry) => entry.isFile() && entry.name.endsWith(".mp4"),
-        );
+
         const webpFiles = allFiles.filter(
             (entry) => entry.isFile() && entry.name.endsWith(".webp"),
         );
 
         console.log(`📊 Source directory contains:`);
-        console.log(`   - ${mp4Files.length} MP4 files`);
         console.log(`   - ${webpFiles.length} WebP files`);
         console.log(
             `   - ${allFiles.filter((entry) => entry.isFile()).length} total files`,
@@ -93,15 +90,12 @@ async function copyResources() {
         // Verify what was actually copied
         try {
             const copiedFiles = await fs.readdir(destPathRoot);
-            const copiedMp4Files = copiedFiles.filter((name) =>
-                name.endsWith(".mp4"),
-            );
+
             const copiedWebpFiles = copiedFiles.filter((name) =>
                 name.endsWith(".webp"),
             );
 
             console.log(`📊 Destination ${dest} now contains:`);
-            console.log(`   - ${copiedMp4Files.length} MP4 files`);
             console.log(`   - ${copiedWebpFiles.length} WebP files`);
             console.log(`   - ${copiedFiles.length} total files`);
         } catch (err) {

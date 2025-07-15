@@ -19,6 +19,7 @@ const OUT_DIR = path.resolve(
     "images",
     "fanart",
 );
+const VIDEO_OUT_DIR = path.resolve(process.cwd(), "shared-resources", "videos");
 const EXTENSIONS = ["jpg", "png", "webp", "gif"];
 
 interface LinkEntry {
@@ -62,6 +63,7 @@ async function run() {
         await fs.readFile(LINKS_JSON, "utf-8"),
     );
     await fs.mkdir(OUT_DIR, { recursive: true });
+    await fs.mkdir(VIDEO_OUT_DIR, { recursive: true });
 
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
@@ -85,11 +87,26 @@ async function run() {
             const idx0 = path.join(OUT_DIR, `${baseName}-0.${ext}`);
             const noIdxOpt = path.join(OUT_DIR, `${baseName}-opt.${ext}`);
             const idx0Opt = path.join(OUT_DIR, `${baseName}-0-opt.${ext}`);
+            // Also check video directory
+            const videoNoIdx = path.join(VIDEO_OUT_DIR, `${baseName}.${ext}`);
+            const videoIdx0 = path.join(VIDEO_OUT_DIR, `${baseName}-0.${ext}`);
+            const videoNoIdxOpt = path.join(
+                VIDEO_OUT_DIR,
+                `${baseName}-opt.${ext}`,
+            );
+            const videoIdx0Opt = path.join(
+                VIDEO_OUT_DIR,
+                `${baseName}-0-opt.${ext}`,
+            );
             return (
                 existsSync(noIdx) ||
                 existsSync(idx0) ||
                 existsSync(noIdxOpt) ||
-                existsSync(idx0Opt)
+                existsSync(idx0Opt) ||
+                existsSync(videoNoIdx) ||
+                existsSync(videoIdx0) ||
+                existsSync(videoNoIdxOpt) ||
+                existsSync(videoIdx0Opt)
             );
         });
         if (already) {
@@ -211,7 +228,7 @@ async function run() {
             // Download video using yt-dlp if video is present
             if (hasVideo) {
                 const videoFileName = `${baseName}-${mediaIndex}.mp4`;
-                const videoOutPath = path.join(OUT_DIR, videoFileName);
+                const videoOutPath = path.join(VIDEO_OUT_DIR, videoFileName);
 
                 if (existsSync(videoOutPath)) {
                     console.log(`  ↻ Skipping existing ${videoFileName}`);
@@ -223,7 +240,7 @@ async function run() {
                         await downloadVideoWithYtDlp(entry.url, videoOutPath);
 
                         // Find the downloaded file (yt-dlp might change the extension)
-                        const files = await fs.readdir(OUT_DIR);
+                        const files = await fs.readdir(VIDEO_OUT_DIR);
                         const downloadedFile = files.find((f) =>
                             f.startsWith(`${baseName}-${mediaIndex}.`),
                         );

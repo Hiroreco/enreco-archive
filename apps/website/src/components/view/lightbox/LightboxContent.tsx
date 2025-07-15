@@ -1,6 +1,7 @@
 import { GalleryItem } from "@/components/view/lightbox/types";
 import { getBlurDataURL } from "@/lib/utils";
 import Image from "next/image";
+import ReactPlayer from "react-player";
 
 interface LightboxContentProps {
     currentItem: GalleryItem;
@@ -30,17 +31,16 @@ export const LightboxContent = ({
 
     return (
         <div className="relative w-full h-full flex items-center justify-center">
-            <video
+            <ReactPlayer
                 src={currentItem.src}
-                controls
-                preload="metadata"
+                controls={true}
+                width="100%"
+                height="100%"
                 style={{
                     maxWidth: "100%",
                     maxHeight: "100%",
-                    width: "auto",
-                    height: "auto",
                 }}
-                className="object-contain"
+                volume={0.3}
             />
         </div>
     );

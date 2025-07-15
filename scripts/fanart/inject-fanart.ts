@@ -7,6 +7,7 @@ const LINKS_JSON = path.resolve(process.cwd(), "src/data/twitter-links.json");
 const IMAGE_DIR = path.resolve(process.cwd(), "shared-resources/images/fanart");
 const OUT_JSON = path.resolve(process.cwd(), "apps/website/data/fanart.json");
 const IMAGE_PREFIX = "images-opt/";
+const CDN_PREFIX = "https://cdn.enreco-archive.net/";
 
 interface LinkEntry {
     url: string;
@@ -74,7 +75,7 @@ async function main() {
         const videos = [];
         for (const fname of videoMatches) {
             videos.push({
-                src: `${IMAGE_PREFIX}${fname}`,
+                src: `${CDN_PREFIX}${fname}`,
                 type: "video" as const,
             });
         }

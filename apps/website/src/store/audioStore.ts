@@ -308,7 +308,6 @@ export const useAudioStore = create<
             eggState.playedSounds.clear();
             availableSounds.push(...eggConfig.sfxList.map((_, index) => index));
         }
-        console.log(availableSounds);
 
         const randomIndex =
             availableSounds[Math.floor(Math.random() * availableSounds.length)];

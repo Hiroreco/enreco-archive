@@ -268,7 +268,6 @@ const ViewFanartModal = ({
 
             // Add listener to new node if it exists and modal is open
             if (node && open) {
-                console.log("Adding scroll listener via callback ref");
                 node.addEventListener("scroll", handleScroll, {
                     passive: true,
                 });

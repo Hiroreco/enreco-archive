@@ -4,6 +4,7 @@ import path from "path";
 import sharp from "sharp";
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
+const SHARED_VIDEOS_FOLDER = "shared-resources/videos";
 
 /** Recursively walk a directory and return all file paths */
 async function walkDir(dir: string): Promise<string[]> {
@@ -90,17 +91,20 @@ async function optimizeVideo(inputPath: string): Promise<void> {
 
 async function optimizeImages() {
     const resourceDir = path.resolve(process.cwd(), SHARED_IMAGES_FOLDER);
-    const allFiles = await walkDir(resourceDir);
+    const videoDir = path.resolve(process.cwd(), SHARED_VIDEOS_FOLDER);
+
+    const allImageFiles = await walkDir(resourceDir);
+    const allVideoFiles = await walkDir(videoDir);
 
     // Separate images and videos
-    const imageFiles = allFiles.filter((f) => {
+    const imageFiles = allImageFiles.filter((f) => {
         const extMatch = f.match(/\.(jpe?g|png|webp)$/i);
         if (!extMatch) return false;
         const name = path.parse(f).name;
         return !name.endsWith("-opt");
     });
 
-    const videoFiles = allFiles.filter((f) => {
+    const videoFiles = allVideoFiles.filter((f) => {
         const extMatch = f.match(/\.(mp4|webm|mov)$/i);
         if (!extMatch) return false;
         const name = path.parse(f).name;
@@ -137,7 +141,7 @@ async function optimizeImages() {
 
     // Optimize videos
     for (const inputPath of videoFiles) {
-        const relPath = path.relative(resourceDir, inputPath);
+        const relPath = path.relative(videoDir, inputPath);
         console.log(`→ Optimizing video: ${relPath}`);
 
         try {

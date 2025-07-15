@@ -57,10 +57,8 @@ export const ThumbnailCarousel = forwardRef<
                                         .split("/")
                                         .pop()
                                         ?.replace(/\.[^/.]+$/, "") || "";
-                                const thumbnailSrc = item.src.replace(
-                                    /\.[^/.]+$/,
-                                    "-thumb.webp",
-                                );
+
+                                const thumbnailSrc = `images-opt/${videoName}-thumb.webp`;
 
                                 return (
                                     <>
