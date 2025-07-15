@@ -9,7 +9,7 @@ She was such a tentative owner who just happened to keep a coop of chickens in a
 
 Still, what’s gone is gone, and Shiori had other things to focus on. After all, she was running a business—ShiorinEats—delivering food to those in need at (not) very reasonable prices. It didn’t take long for her to make her first sales of the day—[loaves of bread](https://www.youtube.com/live/4dgeXH5KKlI?si=77RXYlj7fMgVBGrw&t=1075) to Peasant the Bae—before joining her, Ina, and the Hot Pink One to take on the [Star Site: Elpis Dungeon](https://www.youtube.com/live/4dgeXH5KKlI?si=ms6YkOl_w5irfv65&t=1195)—the first of many. Upon completing it, the gang managed to recover the memories of the Hot Pink One, who turned out to be [IRyS](https://www.youtube.com/live/4dgeXH5KKlI?si=3wlfWnlh0MU4h_do&t=3808).
 
-With that settled, Shiori returned to building her abode. But by now, her name had spread far and wide, and even when she was doing anything remotely normal, those around her remained [wary](https://www.youtube.com/live/4dgeXH5KKlI?si=jwnA-XIXNucAjI44&t=4991). Especially one she had previously tormented—mentally. A witch? Yeah, you could call her that.
+With that settled, Shiori returned to building her abode. But by now, her name had spread far and wide, and even when she was doing anything remotely normal, those around her remained [wary](https://www.youtube.com/live/4dgeXH5KKlI?si=jwnA-XIXNucAjI44&t=4991). Especially one she had previously tormented—mentally. A witch? Yeah, you could call Shiori that.
 
 [I'm just hanging out](#embed:https://www.youtube.com/live/4dgeXH5KKlI?si=LPtF6PiDQRb6_vti&t=6559)
 
