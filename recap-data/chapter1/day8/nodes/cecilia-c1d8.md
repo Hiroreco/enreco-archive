@@ -29,6 +29,6 @@ Still baffled by her own genius, Cecilia and the others were returned to the whi
 
 But as Cecilia called Nanamoo over for a group picture, she was met with a response that left her heart heavy (see [Cecilia-Nanamoo: Oh, she forgot...](#edge:moom-cecilia)).
 
-## Meme
+## Memes
 
 ["a true villain" by Kazuki Ich](https://x.com/kazukiich/status/1832567604323741947)
