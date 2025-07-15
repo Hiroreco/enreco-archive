@@ -24,3 +24,7 @@ The commotion escalated as Nerissa, Cecilia, Gigi, and even Mococo’s guardian,
 ## Fanwork
 
 ["FaunaMart Customer Satisfaction Survey Tape" by EmicoOtero](https://x.com/EmicoOtero/status/1834292754849169648)
+
+## Memes
+
+["shaking and crying right now" by nakiridayo](https://x.com/nakiridayo_/status/1832023295807619375)

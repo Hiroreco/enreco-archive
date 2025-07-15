@@ -15,3 +15,7 @@ And with this, the second chapter of Gonathon and Shiori's stories came to a clo
 ## Fanart
 
 ["BROKEN BONDS" by harutimu](https://x.com/harutimu_415/status/1921663069068906634)
+
+## Memes
+
+["Gonathon has something to say" by Hiro](https://x.com/hiroavrs/status/1923420440363413772)

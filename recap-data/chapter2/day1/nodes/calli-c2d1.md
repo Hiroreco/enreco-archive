@@ -30,3 +30,7 @@ It was thrilling. She got straight to work laying the foundation—literally—f
 ["see?" by sanni](https://x.com/sanni44322/status/1921325284067811733)
 
 ["chef mori!" by fushide](https://x.com/fushide_/status/1919625900900896785)
+
+## Memes
+
+["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)

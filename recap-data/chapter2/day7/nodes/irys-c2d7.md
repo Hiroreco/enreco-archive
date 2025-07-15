@@ -54,3 +54,7 @@ She wrote it all down in her [journal](https://www.youtube.com/live/os9TbwMUcbk?
 IRyS would bring her back.
 
 No matter what it took.
+
+## Memes
+
+["The Most Evil Character in Fiction" by Antsy](https://x.com/antsy_af/status/1921049754114339102)

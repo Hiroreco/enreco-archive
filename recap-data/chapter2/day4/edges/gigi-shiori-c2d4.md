@@ -23,3 +23,7 @@ Any hopes Gonathon had of redeeming himself in Shiori’s eyes were quickly dash
 ["telenovela" by keenbiscuit](https://x.com/keenbiscuit/status/1920009469695586658)
 
 ["Two Sides. Same Coin" by JayTea](https://x.com/jayteamations/status/1934347059643162875)
+
+## Memes
+
+["Season 1 vs Season 2" by NaOki](https://x.com/NaOkiExistiert/status/1919968772510597160)

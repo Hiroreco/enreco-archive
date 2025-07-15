@@ -163,6 +163,20 @@ const ViewLightbox = ({
 
     const showNavigation = items.length > 1 || alwaysShowNavigationArrows;
 
+    let blurBgSrc = "";
+    if (currentItem.type === "image") {
+        blurBgSrc = getBlurDataURL(currentItem.src);
+    } else if (currentItem.type === "video") {
+        const videoName =
+            currentItem.src
+                .split("/")
+                .pop()
+                ?.replace(/\.[^/.]+$/, "") || "";
+
+        const thumbnailSrc = `images-opt/${videoName}-thumb.webp`;
+        blurBgSrc = getBlurDataURL(thumbnailSrc);
+    }
+
     return (
         <div className={containerClassName}>
             {!isExternallyControlled && (
@@ -195,15 +209,14 @@ const ViewLightbox = ({
 
                     {/* Blurred background */}
                     <div className="absolute inset-0 -z-10">
-                        {currentItem.type === "image" && (
-                            <Image
-                                src={getBlurDataURL(currentItem.src)}
-                                alt=""
-                                fill
-                                priority={priority}
-                                className="object-cover blur-md opacity-30"
-                            />
-                        )}
+                        <Image
+                            src={blurBgSrc}
+                            alt=""
+                            fill
+                            priority={priority}
+                            className="object-cover blur-md opacity-30"
+                        />
+
                         <div className="absolute inset-0 bg-black/30" />
                     </div>
 

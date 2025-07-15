@@ -29,3 +29,7 @@ With corruption at its peak, relationships transformed, rivalries settled, and s
 ["Called it :D" by BunBBun](https://x.com/BunBBun1/status/1833235694485180477)
 
 <!-- ame, nerissa, liz, cecilia -->
+
+## Memes
+
+["orge" by bambooz](https://x.com/_bambooz/status/1918628681867743581)

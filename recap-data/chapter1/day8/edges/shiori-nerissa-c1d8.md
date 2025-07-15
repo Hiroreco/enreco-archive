@@ -19,3 +19,7 @@ Some might argue that Nerissa was only doing it to get Shiori out of the way so 
 After all, they were technically the first to be wedded. And through all the chaos, all the absurdity, they remained together until the very last day, without a single hitch in between.
 
 Because a relationship like that could only exist between two people who truly cared for each other.
+
+## Fanart
+
+["Peeping" by Hiro](https://x.com/hiroavrs/status/1915072067663454482)

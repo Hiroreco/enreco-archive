@@ -73,7 +73,6 @@ async function main() {
         "https://x.com/_se_t_/status/1921155712278798577",
         "https://x.com/keiseeaaa/status/1923701440473858538",
         "https://x.com/_se_t_/status/1919743867081130432",
-        "https://x.com/hiroavrs/status/1919392962670452788",
     ];
     blacklistUrls = blacklistUrls.map((url) => url.toLowerCase());
 
@@ -92,6 +91,7 @@ async function main() {
         chapter: number;
         day: number;
         characters: string[];
+        type: "art" | "meme";
     }> = [];
 
     // matches [label](https://twitter.com/USER/status/123...) or x.com
@@ -110,6 +110,13 @@ async function main() {
             characters = character.split("-").map((c) => c.trim());
         }
         const text = await fs.readFile(file, "utf-8");
+
+        // Find the position of the memes section
+        const memesSectionMatch = text.match(/^##\s*Memes\s*$/m);
+        const memesSectionIndex = memesSectionMatch
+            ? memesSectionMatch.index!
+            : -1;
+
         let m: RegExpExecArray | null;
         while ((m = LINK_RE.exec(text))) {
             let [, label, host, author, statusPath] = m;
@@ -117,7 +124,6 @@ async function main() {
             author = author.toLowerCase();
 
             // Clean up label by removing "by {author}" pattern at the end
-            // Match the specific author name we extracted to avoid false positives
             const byAuthorPattern = /\s+by\s+.+$/i;
             label = label.replace(byAuthorPattern, "").trim();
 
@@ -139,6 +145,13 @@ async function main() {
                     ? [...new Set([...characters, ...commentCharacters])]
                     : characters;
 
+            // Determine type based on position relative to memes section
+            const linkIndex = m.index;
+            const type: "art" | "meme" =
+                memesSectionIndex >= 0 && linkIndex > memesSectionIndex
+                    ? "meme"
+                    : "art";
+
             linkEntries.push({
                 url: url,
                 label,
@@ -146,10 +159,10 @@ async function main() {
                 chapter: parseInt(chapterPart.replace(/^chapter/, "")) - 1,
                 day: parseInt(dayPart.replace(/^day/, "")) - 1,
                 characters: finalCharacters,
+                type,
             });
         }
     }
-
     // write out
     const outPath = path.resolve(
         process.cwd(),

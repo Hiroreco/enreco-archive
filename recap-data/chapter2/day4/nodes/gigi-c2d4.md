@@ -36,3 +36,7 @@ Devastated and overcome with regret, Gonathon’s final moments of the day were 
 <!-- shiori, kronii -->
 
 ["the bum-- I mean, humble knight!" by shew](https://x.com/shew03/status/1921345372162498653)
+
+## Memes
+
+["Chat it's not going well" by Antsy](https://x.com/antsy_af/status/1919973398551126390)

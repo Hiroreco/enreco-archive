@@ -44,3 +44,7 @@ But even in a space like that... there was still hope (see [Shakira-Fuwawa](#edg
 ["Libestal's Young Chef (Part 1)" by Dreamplanes](https://x.com/Dreamplanes256/status/1921562462647709819)
 
 <!-- kiara -->
+
+## Memes
+
+["Fuwawa..." by retro](https://x.com/retrocapybara/status/1920228142939320417)

@@ -36,3 +36,9 @@ The heroes were returned to the [white room](https://www.youtube.com/live/WvRIda
 ["enreoc gg rkgk" by Harutimu](https://x.com/harutimu_415/status/1862390625846304772)
 
 ["Until next time, Humble little knight" by Daaku](https://x.com/koizumi_arata/status/1833287158334939257)
+
+## Memes
+
+["the cuck chair" by Turing](https://x.com/DoctorTuring/status/1831134511247089863)
+
+["He wins" by Kazuki Ich](https://x.com/kazukiich/status/1832728799223673195)

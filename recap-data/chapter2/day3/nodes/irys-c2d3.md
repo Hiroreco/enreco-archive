@@ -21,6 +21,6 @@ A chaotic day woven into many stories, and as the day wound down, with chaos tra
 
 [Journaling the bread](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=yEZ_o8DjW8P6YgUw&t=11508)
 
-## Fanart
+## Memes
 
 ["Hot Pink Onii-chan in a nutshell" by Hiro](https://x.com/hiroavrs/status/1919392962670452788)

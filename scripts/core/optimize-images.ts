@@ -139,16 +139,17 @@ async function optimizeImages() {
         console.log(`  ✅ Created optimized ${optimizedName}`);
     }
 
-    // Optimize videos
+    // Rename videos / no need to optimize, replace old video with new name
     for (const inputPath of videoFiles) {
         const relPath = path.relative(videoDir, inputPath);
-        console.log(`→ Optimizing video: ${relPath}`);
+        const parsed = path.parse(inputPath);
+        const dir = path.dirname(inputPath);
+        const name = parsed.name;
+        const newName = `${name}-opt.mp4`;
+        const newInputPath = path.join(dir, newName);
+        await fs.rename(inputPath, newInputPath);
 
-        try {
-            await optimizeVideo(inputPath);
-        } catch (err) {
-            console.error(`  ✖ Failed to optimize ${relPath}:`, err);
-        }
+        console.log(`→ Renamed video: ${relPath} to ${newName}`);
     }
 
     console.log("✅ All media optimized.");

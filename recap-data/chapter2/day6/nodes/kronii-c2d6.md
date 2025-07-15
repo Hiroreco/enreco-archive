@@ -58,3 +58,13 @@ With that, the Queen retired for the day and went to her perfect slumber once ag
 ["A peaceful day indeed..." by seapupu](https://x.com/seapupu290495/status/1920852715703320626)
 
 <!-- shiori, bijou -->
+
+## Memes
+
+["Therapists" by V Faction](https://x.com/V_Faction/status/1921060036433924235)
+
+<!-- calli -->
+
+["they really did the thing" by Lamebo](https://x.com/Lambo_ide/status/1921054453525794986)
+
+<!-- ina, calli -->

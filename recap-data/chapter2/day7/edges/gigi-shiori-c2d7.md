@@ -33,3 +33,7 @@ Most important of all for the Humble Knight was the kindness that Shiori gave he
 ["Heartbroken" by the baker I am](https://x.com/imabaker111/status/1922026532635107535)
 
 ["regrets and memories" by zooka](https://x.com/zookacchi/status/1921260437854716282)
+
+## Memes
+
+["wdym this isnt the plot to ENreco" by Soda](https://x.com/XoSodaXo13/status/1920439218947387445)

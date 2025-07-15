@@ -27,3 +27,7 @@ Still, despite it all, there was something hopeful in the air. Their chemistry, 
 ["Bloodraven in a nutshell" by Shee](https://x.com/tianshiko/status/1934050252702802157)
 
 ["knight's suite" by Noise](https://x.com/lestkrr/status/1920892560521715876)
+
+## Memes
+
+["Da Fumbler Lady's and Gentleman" by Ethan](https://x.com/JailbirdUnion/status/1920327487017394422)

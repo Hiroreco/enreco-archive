@@ -29,6 +29,7 @@ export interface FanartEntry {
     videos: {
         src: string;
     }[];
+    type: "art" | "meme";
 }
 
 interface ViewFanartModalProps {
@@ -74,6 +75,7 @@ const ViewFanartModal = ({
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] = useState(false);
     const [videosOnly, setVideosOnly] = useState(false);
+    const [memesOnly, setMemesOnly] = useState(false);
 
     // Replace header collapse state with pin state
     const [isHeaderPinned, setIsHeaderPinned] = useState(false);
@@ -149,6 +151,16 @@ const ViewFanartModal = ({
             // Add videos only filter
             const videoMatch = videosOnly ? entry.videos.length > 0 : true;
 
+            // Onlyy allow memes if memesOnly is true
+            if (!memesOnly && entry.type === "meme") {
+                return false;
+            }
+
+            // If memesOnly is true, only allow memes
+            if (memesOnly && entry.type !== "meme") {
+                return false;
+            }
+
             return characterMatch && chapterMatch && dayMatch && videoMatch;
         });
     }, [
@@ -157,7 +169,8 @@ const ViewFanartModal = ({
         selectedDay,
         fanart,
         inclusiveMode,
-        videosOnly, // Add to dependencies
+        videosOnly,
+        memesOnly,
     ]);
 
     const currentEntry = useMemo(
@@ -231,9 +244,6 @@ const ViewFanartModal = ({
         // Check if content is actually scrollable (scroll height > client height)
         const isScrollable = container.scrollHeight > container.clientHeight;
 
-        // Check if scrolled to top
-        const isAtTop = currentScrollTop <= 5;
-
         // Only trigger changes if there's meaningful scroll movement AND content is scrollable
         if (
             Math.abs(currentScrollTop - lastScrollTop.current) > 10 &&
@@ -244,10 +254,7 @@ const ViewFanartModal = ({
             }
         }
 
-        // Auto-expand when scrolled to top (only if content is still scrollable)
-        if (isAtTop && isHeaderCollapsed && isScrollable) {
-            setIsHeaderCollapsed(false);
-        }
+        // Note: I removed the auto expand on scroll to top cause it got really annoying after a while
 
         lastScrollTop.current = currentScrollTop;
     }, [isHeaderPinned, isHeaderCollapsed]);
@@ -471,6 +478,8 @@ const ViewFanartModal = ({
                             onInclusiveModeChange={setInclusiveMode}
                             videosOnly={videosOnly}
                             onVideosOnlyChange={setVideosOnly}
+                            memesOnly={memesOnly}
+                            onMemesOnlyChange={setMemesOnly}
                         />
                     </CollapsibleHeader>
 

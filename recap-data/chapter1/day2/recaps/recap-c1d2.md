@@ -21,3 +21,7 @@ In completing the dungeon, the heroes unlocked another fragment of their forgott
 ["ERB and the Fantastic Beasts" by Marus_Circle](https://x.com/Marus_Circle/status/1830885012788674962)
 
 <!-- liz, kiara, fuwawa, mococo, raora -->
+
+## Memes
+
+["Let us all congratulate the newly weds!" by Jabah](https://x.com/jabah_lavah/status/1830486510552113652)

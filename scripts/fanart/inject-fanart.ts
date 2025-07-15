@@ -17,6 +17,7 @@ interface LinkEntry {
     chapter: string;
     day: string;
     characters: string[];
+    type: "art" | "meme";
 }
 ("");
 interface ExtendedEntry extends Omit<LinkEntry, "chapter" | "day"> {
@@ -103,6 +104,7 @@ async function main() {
             characters: sortedCharacters,
             images: images,
             videos: videos,
+            type: e.type,
         });
     }
 

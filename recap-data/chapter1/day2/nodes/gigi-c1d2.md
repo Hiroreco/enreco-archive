@@ -20,3 +20,7 @@ The duel concluded with a victory for the Hot Pink One, allowing everyone to con
 As the day neared its end, preparations for the _Ocean Temple Dungeon_ began. Joined by the Hot Pink One, Bijou, and Tam, Gonathon conquered the dungeon and recovered memories of [Gawr Gura](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=12043). Not long after, another marriage ceremony unfolded, this time uniting the _Hot Pink One and NinoIna_. What a wonderful occasion this day had been, he thought. For the first time, he experienced the touch of another’s affection. Watching his guildmates embrace similar happiness only deepened the warmth he felt.
 
 [What a happy occasion, huzzah!](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=12550)
+
+## Memes
+
+["\*teleports behind you\*" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)

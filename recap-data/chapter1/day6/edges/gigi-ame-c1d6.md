@@ -57,3 +57,7 @@ At one point, Amelia remembered a diamond, but it was still too foggy. Her head 
 ["where is my diamond...?" by wishbone777](https://x.com/wishbone777/status/1833889675456786595)
 
 ["A distant memory" by Hyoweii](https://x.com/weiiyxn/status/1832322835596927349)
+
+## Memes
+
+["Im broken..." by Amelia's simp](https://x.com/Amelias_Simp/status/1831917021833077059)

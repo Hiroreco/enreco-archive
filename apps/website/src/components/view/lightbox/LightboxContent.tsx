@@ -40,7 +40,7 @@ export const LightboxContent = ({
                     maxWidth: "100%",
                     maxHeight: "100%",
                 }}
-                volume={0.3}
+                volume={0.7}
             />
         </div>
     );

@@ -44,3 +44,11 @@ With the day’s adventures behind him, Gonathon tied up loose ends. He visited 
 After writing his journal, the Humble Knight turned in for the night. One final day remained—and with the Curse destroyed, it would hopefully be one of celebration and rest.
 
 [The sun will always rise](#embed:https://www.youtube.com/watch?v=rDdbFYqcAyI&t=14284s)
+
+## Memes
+
+["The cycle of Gonathon G" by NaOki](https://x.com/NaOkiExistiert/status/1921011572597530680)
+
+["It's crazy" by NO_Mango](https://x.com/NP_Mango/status/1920386087865721004)
+
+<!-- calli, kronii, ina -->

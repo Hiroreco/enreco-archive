@@ -41,3 +41,9 @@ Gave away 54 for free, total coins earned: _2220_
 ["Fauna" by DioDio](https://x.com/DioDio49/status/1832145126912590148)
 
 ["Your Friendly Fauna Mart" by Fongban](https://x.com/Fongban_/status/1901895840236765627)
+
+## Memes
+
+["Saving the server's economy" by HololiveEnMemes](https://x.com/HololiveMemes/status/1830782445538419012)
+
+["FaunaMart situation is crazy" by Hiro](https://x.com/hiroavrs/status/1831156874550694139)

@@ -24,11 +24,13 @@ interface FanartFiltersProps {
     nameMap: Record<string, string>;
     inclusiveMode: boolean;
     videosOnly: boolean;
+    memesOnly?: boolean;
     onCharactersChange: (characters: string[]) => void;
     onChapterChange: (chapter: string) => void;
     onDayChange: (day: string) => void;
     onInclusiveModeChange: (inclusive: boolean) => void;
     onVideosOnlyChange: (videosOnly: boolean) => void;
+    onMemesOnlyChange: (memesOnly: boolean) => void;
     onReset: () => void;
     totalItems: number;
 }
@@ -43,18 +45,20 @@ const FanartFilters = ({
     nameMap,
     inclusiveMode,
     videosOnly,
+    memesOnly,
     onCharactersChange,
     onChapterChange,
     onDayChange,
     onInclusiveModeChange,
     onVideosOnlyChange,
+    onMemesOnlyChange,
     onReset,
     totalItems,
 }: FanartFiltersProps) => {
     return (
         <div className="border-b pb-4">
             {/* Mobile layout */}
-            <div className="md:hidden space-y-3">
+            <div className="md:hidden space-y-2">
                 <div className="grid grid-cols-2 gap-2">
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
@@ -111,7 +115,7 @@ const FanartFilters = ({
                 />
 
                 {/* Mobile checkboxes container */}
-                <div className="flex items-center justify-between">
+                <div className="grid grid-cols-2 gap-2">
                     {/* Videos Only checkbox */}
                     <div className="flex items-center gap-2">
                         <Checkbox
@@ -148,7 +152,7 @@ const FanartFilters = ({
                                         htmlFor="inclusive-mobile"
                                         className="text-xs font-medium text-muted-foreground"
                                     >
-                                        Include All Characters
+                                        Inclusive Characters
                                     </label>
                                 </div>
                             </TooltipTrigger>
@@ -165,16 +169,30 @@ const FanartFilters = ({
                                 onCheckedChange={(checked) =>
                                     onInclusiveModeChange(checked === true)
                                 }
-                                disabled={false}
                             />
                             <label
                                 htmlFor="inclusive-mobile"
                                 className="text-xs font-medium text-muted-foreground"
                             >
-                                Inclusive (require ALL selected characters)
+                                Inclusive Characters
                             </label>
                         </div>
                     )}
+                    <div className="flex items-center gap-2">
+                        <Checkbox
+                            id="dna-of-the-souls-mobile"
+                            checked={memesOnly}
+                            onCheckedChange={(checked) =>
+                                onMemesOnlyChange(checked === true)
+                            }
+                        />
+                        <label
+                            htmlFor="dna-of-the-souls-mobile"
+                            className="text-xs font-medium text-muted-foreground"
+                        >
+                            DNA of the Souls
+                        </label>
+                    </div>
                 </div>
             </div>
 
@@ -280,7 +298,6 @@ const FanartFilters = ({
                             onCheckedChange={(checked) =>
                                 onInclusiveModeChange(checked === true)
                             }
-                            disabled={false}
                         />
                         <label
                             htmlFor="inclusive-desktop"
@@ -290,6 +307,22 @@ const FanartFilters = ({
                         </label>
                     </div>
                 )}
+
+                <div className="flex items-center gap-2">
+                    <Checkbox
+                        id="dna-of-the-souls-mobile"
+                        checked={memesOnly}
+                        onCheckedChange={(checked) =>
+                            onMemesOnlyChange(checked === true)
+                        }
+                    />
+                    <label
+                        htmlFor="videos-only-desktop"
+                        className="text-sm font-medium"
+                    >
+                        DNA of the Souls
+                    </label>
+                </div>
 
                 <Button variant="outline" size="sm" onClick={onReset}>
                     Reset Filters

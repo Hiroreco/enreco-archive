@@ -16,3 +16,7 @@ Above all else, the humiliation that befell the Queen on this day reached height
 Before the day could properly end, the ongoing drama with the Hot Pink One escalated to the point of her jumping off a cliffside, even as Queen Tam, Gonathon, and Bijou tried to stop her from doing so (see [Kronii-IRyS: Abdomen Pain](#edge:irys-kronii)).
 
 With that, the day ended as the Queen finished writing her [journal of woes](https://youtu.be/PukMnVXnJMo?t=16515).
+
+## Memes
+
+["the boss" by BruLee](https://x.com/BruLee_Arts/status/1920316933397754108)

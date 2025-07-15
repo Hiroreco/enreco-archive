@@ -32,3 +32,7 @@ Now, a new goal stood before her: make the upcoming picnic party the best it cou
 <!-- shiori -->
 
 ["the fluffy ones journey" by Tai](https://x.com/tchailune/status/1921440727466217479)
+
+## Memes
+
+["She made it" by Hiro](https://x.com/hiroavrs/status/1920788743742448068)

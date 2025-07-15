@@ -42,3 +42,7 @@ Still, not everything had to be tangled in mystery. At least one of the question
 She ended her day with rare, quiet moments—sharing them with [Bijou](https://www.youtube.com/live/98bQ3awzWLM?t=15814) and later, a bonding conversation with a sleepy Elizabeth. All of it, as always, inked into her diary—yet another page, yet another piece of the puzzle that was Shiori.
 
 [A moment to cool down](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=Zv5vHxEzlcKhAmcH&t=18947)
+
+## Memes
+
+["✋😨🤚" by Shido](https://x.com/Shido36_/status/1920528025575141534)

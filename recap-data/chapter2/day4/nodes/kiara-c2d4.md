@@ -36,3 +36,7 @@ All this she wrote in her journal. But, even if her goals were not met, it doesn
 ## Fanart
 
 ["Cameraman Tanakisha Karia" by Roronico](https://x.com/roronico1512/status/1920030742597484826)
+
+## Memes
+
+["The Gonathan situation is crazy" by NP_Mango](https://x.com/NP_Mango/status/1919989015433925080)
