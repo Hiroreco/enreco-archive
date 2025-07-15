@@ -212,17 +212,19 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
             <CardHeader className="pb-0 px-4">
                 <div className="flex flex-row h-[30px] items-center w-full justify-between px-2">
                     <CardTitle className="flex justify-between items-center w-full">
-                        <div className="flex items-center gap-2">
-                            {currentEntry !== null ? (
-                                <>
-                                    <span>{categoryMap[selectedCategory].label}</span>
-                                    <ArrowRight size={18} className="opacity-60" />
-                                    <span className="font-medium">{currentEntry.item.title}</span>
-                                </>
-                            ) : (
-                                <span>{categoryMap[selectedCategory].label}</span>
-                            )}
-                        </div>
+                        {currentEntry !== null ? (
+                            <div className="flex items-center gap-2 md:text-base text-sm">
+                                <span>
+                                    {categoryMap[selectedCategory].label}
+                                </span>
+                                <ArrowRight size={18} className="opacity-60" />
+                                <span className="font-medium">
+                                    {currentEntry.item.title}
+                                </span>
+                            </div>
+                        ) : (
+                            <span>{categoryMap[selectedCategory].label}</span>
+                        )}
                         {currentEntry !== null && (
                             <div className="flex items-center gap-2">
                                 {history.length > 0 && (
