@@ -29,4 +29,8 @@ But just when despair was setting in, it finally happened. After many, many gach
 
 [Bijou finally obtains a hat, a _Stain Hat_](#embed:https://www.youtube.com/live/Tl7rUzJyc_0?t=22515)
 
-Bijou could now go to sleep happily, donning the hat she had yearned for so long. At last, her journey could truly s̴̶͙͙̺ͬ̒̍̒̌̄͞_͍̯̗̩̓̔ͥ͌̍͒͜p̨͈̻͎̻͚̹͕̬̮̰͓̮͂͂̓͆ͮ̿̿͋̓ͤ̉̀̽̒̇ͬͦ̋͟͝a̸̔̂̚͜͟ŗ̷̠͉̱͕̠ͩ͛̒͗̈͜͝͡k͈͉_̤̤̰̟͖̬͕͙ͭ̈̀ͤ́̍̆ͦ͢͝l̰̥̑ͭ́ͣ̐̕e̬̒̑̒.
+Bijou could now go to sleep happily, donning the hat she had yearned for so long. At last, her journey could truly s̴̶͙͙̺ͬ̒̍̒̌̄͞*͍̯̗̩̓̔ͥ͌̍͒͜p̨͈̻͎̻͚̹͕̬̮̰͓̮͂͂̓͆ͮ̿̿͋̓ͤ̉̀̽̒̇ͬͦ̋͟͝a̸̔̂̚͜͟ŗ̷̠͉̱͕̠ͩ͛̒͗̈͜͝͡k͈͉*̤̤̰̟͖̬͕͙ͭ̈̀ͤ́̍̆ͦ͢͝l̰̥̑ͭ́ͣ̐̕e̬̒̑̒.
+
+## Fanart
+
+["It's a win win" by m-pien](https://x.com/mpien6/status/1830956131956727821)

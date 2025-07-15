@@ -34,3 +34,5 @@ The heroes were returned to the [white room](https://www.youtube.com/live/WvRIda
 ## Fanwork
 
 ["enreoc gg rkgk" by Harutimu](https://x.com/harutimu_415/status/1862390625846304772)
+
+["Until next time, Humble little knight" by Daaku](https://x.com/koizumi_arata/status/1833287158334939257)

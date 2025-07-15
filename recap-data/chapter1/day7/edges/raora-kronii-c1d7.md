@@ -15,3 +15,9 @@ And to everyone's bewilderment, Tam said [yes](https://x.com/ourokronii/status/1
 ## Fanart
 
 ["Queens" by zenvy](https://x.com/itsZenvy/status/1880388590880059420)
+
+["🐱🌼💍⏳" by Fongban](https://x.com/Fongban_/status/1832364781971632407)
+
+["⏳🐱💍" by SheepinSleepin](https://x.com/SheepinSleepin/status/1832299092724347174)
+
+["Queen x Queen" by BunBBun](https://x.com/BunBBun1/status/1832497913559478732)

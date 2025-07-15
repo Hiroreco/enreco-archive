@@ -25,3 +25,7 @@ With corruption at its peak, relationships transformed, rivalries settled, and s
 ["When you can't even say my name" by Daaku](https://x.com/koizumi_arata/status/1832563954859610324)
 
 <!-- kronii, gigi, ame, bijou, irys, ina -->
+
+["Called it :D" by BunBBun](https://x.com/BunBBun1/status/1833235694485180477)
+
+<!-- ame, nerissa, liz, cecilia -->
