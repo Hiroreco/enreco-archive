@@ -317,7 +317,7 @@ const FanartFilters = ({
                         }
                     />
                     <label
-                        htmlFor="videos-only-desktop"
+                        htmlFor="dna-of-the-souls-mobile"
                         className="text-sm font-medium"
                     >
                         DNA of the Souls
