@@ -150,7 +150,7 @@ const ViewFanartModal = ({
                       )
                     : selectedCharacters.some((char) =>
                           entry.characters.includes(char),
-                      );
+                      ) || entry.characters.length === 0;
             }
 
             const chapterMatch =
