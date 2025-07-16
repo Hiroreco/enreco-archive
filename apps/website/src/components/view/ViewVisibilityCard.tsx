@@ -133,13 +133,19 @@ const ViewVisibilityCard = ({
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between items-center">
                         <span className="font-bold">
-                            {chapter === 1 ? "Job Toggles" : "Team Toggles"}
+                            {chapter === 0
+                                ? "Guild Toggles"
+                                : chapter === 1
+                                ? "Job Toggles"
+                                : "Team Toggles"}
                         </span>
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="team-all">
                             <span>
-                                {chapter === 1
+                                {chapter === 0
+                                    ? "Show all guilds"
+                                    : chapter === 1
                                     ? "Show all jobs"
                                     : "Show all teams"}
                             </span>
