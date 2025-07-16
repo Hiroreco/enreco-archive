@@ -1,7 +1,7 @@
 <!-- title: Underworld Dungeon -->
 <!-- quote: Reapers should help the living, not take away their future. -->
 <!-- chapters: 0 -->
-<!-- images: (Underworld Dungeon's Entrance), (Underworld Dungeon Overview #1), (Underworld Dungeon Overview #2) -->
+<!-- images: (Underworld Dungeon's Entrance), (Underworld Dungeon Overview #1), (Underworld Dungeon Overview #2), (Underworld Dungeon In The Chapter 1 Trailer) -->
 <!-- model: false -->
 
 ## Overview

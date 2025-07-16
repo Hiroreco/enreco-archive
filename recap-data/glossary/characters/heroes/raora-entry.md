@@ -1,5 +1,5 @@
 <!-- title: Raora Panthera -->
-<!-- quote: She is FA KE! She is FA KE!-->
+<!-- quote: She is FA KE! She is FA KE! -->
 <!-- chapters: -1 -->
 <!-- images: (Raora's Chapter 1 Profile), (Raora in Justice HQ), (Raora's Chapter 2 Profile), (Raora in Chapter 2's Ending) -->
 <!-- model: false -->

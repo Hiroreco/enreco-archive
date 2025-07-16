@@ -13,6 +13,7 @@ import {
     DialogContent,
 } from "@enreco-archive/common-ui/components/dialog";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Shuffle } from "lucide-react";
 
 export interface FanartEntry {
     url: string;
@@ -72,6 +73,8 @@ const ViewFanartModal = ({
         number | null
     >(null);
     const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
+    const [shuffled, setShuffled] = useState(false);
+    const [shuffledFanart, setShuffledFanart] = useState<FanartEntry[] | null>(null);
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] = useState(false);
     const [videosOnly, setVideosOnly] = useState(false);
@@ -125,7 +128,7 @@ const ViewFanartModal = ({
     }, [fanart]);
 
     const filteredFanart = useMemo(() => {
-        return fanart.filter((entry) => {
+        const base = fanart.filter((entry) => {
             let characterMatch = false;
 
             if (selectedCharacters.includes("all")) {
@@ -151,7 +154,7 @@ const ViewFanartModal = ({
             // Add videos only filter
             const videoMatch = videosOnly ? entry.videos.length > 0 : true;
 
-            // Onlyy allow memes if memesOnly is true
+            // Only allow memes if memesOnly is true
             if (!memesOnly && entry.type === "meme") {
                 return false;
             }
@@ -163,6 +166,12 @@ const ViewFanartModal = ({
 
             return characterMatch && chapterMatch && dayMatch && videoMatch;
         });
+        if (shuffled && shuffledFanart) {
+            // Only show shuffled items that match the current filter
+            const filteredIds = new Set(base.map((e) => e.url));
+            return shuffledFanart.filter((e) => filteredIds.has(e.url));
+        }
+        return base;
     }, [
         selectedCharacters,
         selectedChapter,
@@ -171,7 +180,26 @@ const ViewFanartModal = ({
         inclusiveMode,
         videosOnly,
         memesOnly,
+        shuffled,
+        shuffledFanart,
     ]);
+    // Shuffle handler
+    const handleShuffle = useCallback(() => {
+        // Fisher-Yates shuffle
+        const arr = [...filteredFanart];
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        setShuffledFanart(arr);
+        setShuffled(true);
+    }, [filteredFanart]);
+
+    // Unshuffle handler
+    const handleUnshuffle = useCallback(() => {
+        setShuffled(false);
+        setShuffledFanart(null);
+    }, []);
 
     const currentEntry = useMemo(
         () =>
@@ -187,7 +215,10 @@ const ViewFanartModal = ({
         setSelectedChapter("all");
         setSelectedDay("all");
         setInclusiveMode(false);
-        setVideosOnly(false); // Add this
+        setVideosOnly(false);
+        setMemesOnly(false);
+        setShuffled(false);
+        setShuffledFanart(null);
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -480,6 +511,8 @@ const ViewFanartModal = ({
                             onVideosOnlyChange={setVideosOnly}
                             memesOnly={memesOnly}
                             onMemesOnlyChange={setMemesOnly}
+                            onShuffle={shuffled ? handleUnshuffle : handleShuffle}
+                            shuffled={shuffled}
                         />
                     </CollapsibleHeader>
 

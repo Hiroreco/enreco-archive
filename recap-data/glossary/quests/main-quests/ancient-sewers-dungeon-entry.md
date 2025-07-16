@@ -1,7 +1,7 @@
 <!-- title: Ancient Sewers Dungeon -->
 <!-- quote: I want to work on something big! The case of the century! -->
 <!-- chapters: 0 -->
-<!-- images: (Ancient Sewer Dungeon's Entry), (Ancient Sewer Dungeon Overview #1), (Ancient Sewer Dungeon Overview #2), (Ancient Sewer Dungeon Overview #3)  -->
+<!-- images: (Ancient Sewer Dungeon's Entry), (Ancient Sewer Dungeon Overview #1), (Ancient Sewer Dungeon Overview #2), (Ancient Sewer Dungeon Overview #3), (Heroes Exploring The Dungeon)  -->
 <!-- model: false -->
 
 ## Overview

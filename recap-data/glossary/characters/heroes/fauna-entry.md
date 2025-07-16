@@ -1,7 +1,7 @@
 <!-- title: Ceres Fauna -->
 <!-- quote: Shield for sale! Get your shield now at the End of the World sale! -->
 <!-- chapters: 0 -->
-<!-- images: (Fauna's Chapter 1 Profile), (Fauna, along with Bijou, as seen in a battle), (FaunaMart's lottery ticket)  -->
+<!-- images: (Fauna's Chapter 1 Profile), (Fauna, along with Bijou, as seen in a battle), (FaunaMart's lottery ticket), (Fauna and the Golden Apple Tree)  -->
 <!-- model: false -->
 
 ## Overview

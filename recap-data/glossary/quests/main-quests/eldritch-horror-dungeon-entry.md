@@ -1,7 +1,7 @@
 <!-- title: Eldritch Horror Dungeon -->
 <!-- quote: Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company. -->
 <!-- chapters: 0 -->
-<!-- images: (Eldritch Horror Dungeon's Entry), (Eldritch Horror Dungeon Overview #1), (Eldritch Horror Dungeon Overview #2), (Eldritch Horror Dungeon Overview #3), Eldritch Horror Dungeon Overview #4) -->
+<!-- images: (Eldritch Horror Dungeon's Entry), (Eldritch Horror Dungeon Overview #1), (Eldritch Horror Dungeon Overview #2), (Eldritch Horror Dungeon Overview #3), (Eldritch Horror Dungeon Overview #4), (Heroes Exploring The Dungeon), (Eldritch Horror Dungeon in The Chapter 1 Trailer) -->
 <!-- model: false -->
 
 ## Overview

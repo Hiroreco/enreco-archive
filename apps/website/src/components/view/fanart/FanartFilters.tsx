@@ -6,6 +6,7 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import { Button } from "@enreco-archive/common-ui/components/button";
+import { Shuffle } from "lucide-react";
 import CharacterSelector from "@/components/view/fanart/CharacterSelector";
 import {
     Tooltip,
@@ -32,6 +33,8 @@ interface FanartFiltersProps {
     onVideosOnlyChange: (videosOnly: boolean) => void;
     onMemesOnlyChange: (memesOnly: boolean) => void;
     onReset: () => void;
+    onShuffle: () => void;
+    shuffled: boolean;
     totalItems: number;
 }
 
@@ -53,13 +56,15 @@ const FanartFilters = ({
     onVideosOnlyChange,
     onMemesOnlyChange,
     onReset,
+    onShuffle,
+    shuffled,
     totalItems,
 }: FanartFiltersProps) => {
     return (
         <div className="border-b pb-4">
             {/* Mobile layout */}
             <div className="md:hidden space-y-2">
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-2 gap-2 px-2">
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
                             Chapter
@@ -68,7 +73,7 @@ const FanartFilters = ({
                             value={selectedChapter}
                             onValueChange={onChapterChange}
                         >
-                            <SelectTrigger className="h-8 text-sm">
+                        <SelectTrigger className="h-8 text-sm">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -89,7 +94,7 @@ const FanartFilters = ({
                             Day
                         </label>
                         <Select value={selectedDay} onValueChange={onDayChange}>
-                            <SelectTrigger className="h-8 text-sm">
+                        <SelectTrigger className="h-8 text-sm">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -116,6 +121,25 @@ const FanartFilters = ({
 
                 {/* Mobile checkboxes container */}
                 <div className="grid grid-cols-2 gap-2">
+                    <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={onReset}
+                        className="w-full flex items-center justify-center h-6 text-xs"
+                    >
+                        Reset Filters
+                    </Button>
+                    <Button
+                        variant={shuffled ? "default" : "outline"}
+                        size="sm"
+                        onClick={onShuffle}
+                        title={shuffled ? "Unshuffle" : "Shuffle"}
+                        aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                        className="w-full flex items-center justify-center h-6 text-xs"
+                    >
+                        <Shuffle className="w-4 h-4 mr-1" />
+                        {shuffled ? "Unshuffle" : "Shuffle"}
+                    </Button>
                     {/* Videos Only checkbox */}
                     <div className="flex items-center gap-2">
                         <Checkbox
@@ -324,9 +348,21 @@ const FanartFilters = ({
                     </label>
                 </div>
 
-                <Button variant="outline" size="sm" onClick={onReset}>
-                    Reset Filters
-                </Button>
+
+                <div className="flex flex-row gap-2 items-center">
+                    <Button variant="outline" size="sm" onClick={onReset}>
+                        Reset Filters
+                    </Button>
+                    <Button
+                        variant={shuffled ? "default" : "outline"}
+                        size="sm"
+                        onClick={onShuffle}
+                        title={shuffled ? "Unshuffle" : "Shuffle"}
+                        aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                    >
+                        <Shuffle className="w-4 h-4" />
+                    </Button>
+                </div>
 
                 <div className="ml-auto text-sm text-muted-foreground">
                     {totalItems} items

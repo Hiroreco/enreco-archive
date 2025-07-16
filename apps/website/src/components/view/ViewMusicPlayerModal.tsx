@@ -70,20 +70,27 @@ const TrackItem = ({
             )}
             onClick={() => onSelect(cIdx, tIdx)}
         >
-            <span className="opacity-50 h-6 w-4 flex items-center justify-center">
-                {cIdx === catIndex && tIdx === trackIndex && isPlaying ? (
-                    <PlayingAnimation />
-                ) : (
-                    <>
-                        <Play className="size-3 hidden group-hover:block" />
-                        <span className="group-hover:hidden">{tIdx + 1}</span>
-                    </>
-                )}
+            {/* Small thumbnail for mobile and desktop */}
+            <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10">
+                <Image
+                    src={song.coverUrl || "/images-opt/song-chapter-2-opt.webp"}
+                    alt={song.title}
+                    width={32}
+                    height={32}
+                    className="object-cover w-8 h-8"
+                    draggable={false}
+                />
             </span>
+    <span className="opacity-50 h-6 w-4 flex items-center justify-center">
+        {cIdx === catIndex && tIdx === trackIndex && isPlaying ? (
+            <PlayingAnimation />
+        ) : (
+            <Play className="size-3 hidden group-hover:block" />
+        )}
+    </span>
             <span className="px-2 text-sm font-semibold grow opacity-90">
                 {song.title}
             </span>
-
             <span className="text-xs opacity-50 ml-2">{song.duration}</span>
         </div>
     </div>
@@ -520,6 +527,18 @@ const ViewMusicPlayerModal = ({
                         </div>
                         <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
+                                {currentTrack?.coverUrl && (
+                                    <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10 md:hidden">
+                                        <Image
+                                            src={currentTrack.coverUrl}
+                                            alt={currentTrack.title}
+                                            width={32}
+                                            height={32}
+                                            className="object-cover w-8 h-8"
+                                            draggable={false}
+                                        />
+                                    </span>
+                                )}
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title ||
                                         "ENreco Archive Jukebox"}
@@ -561,6 +580,18 @@ const ViewMusicPlayerModal = ({
                     <div className="text-center flex md:hidden flex-col items-center gap-4">
                         <div className="flex flex-col items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
+                                {currentTrack?.coverUrl && (
+                                    <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10">
+                                        <Image
+                                            src={currentTrack.coverUrl}
+                                            alt={currentTrack.title}
+                                            width={32}
+                                            height={32}
+                                            className="object-cover w-8 h-8"
+                                            draggable={false}
+                                        />
+                                    </span>
+                                )}
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title ||
                                         "ENreco Archive Jukebox"}
