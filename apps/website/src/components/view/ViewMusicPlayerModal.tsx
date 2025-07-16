@@ -399,9 +399,14 @@ const ViewMusicPlayerModal = ({
     const onVolumeChange = (val: number[]) => setBgmVolume(val[0]);
 
     const onSelect = (cIdx: number, tIdx: number) => {
+    // If clicking the currently selected and playing song, pause it
+    if (cIdx === catIndex && tIdx === trackIndex && isPlaying) {
+        setIsPlaying(false);
+    } else {
         setCatIndex(cIdx);
         setTrackIndex(tIdx);
         setIsPlaying(true);
+    }
     };
 
     // Regenerate shuffled indices when category changes

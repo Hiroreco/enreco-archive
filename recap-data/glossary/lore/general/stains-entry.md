@@ -61,6 +61,6 @@ Several theories have been put forward regarding the Stains’ origins. One spec
 
 At the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself and by the heroes themselves: **"Nothing stays pure."**
 
-### Trivia
+## Trivia
 
-The corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:storylines-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.
+- The corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:storylines-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.
