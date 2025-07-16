@@ -369,45 +369,59 @@ const ViewMusicPlayerModal = ({
         setCatIndex,
     ]);
 
-    const playPause = () => {
+    const playPause = useCallback(() => {
         setIsPlaying(!isPlaying);
-        if (isPlaying) {
-            pauseBGM(0);
-        } else {
-            playBGM(0);
-        }
-    };
+    }, [setIsPlaying, isPlaying]);
 
-    const toggleLoop = () => {
+    const toggleLoop = useCallback(() => {
         if (loopCurrentSong) {
             bgm?.loop(false);
         } else {
             bgm?.loop(true);
         }
         setLoopCurrentSong(!loopCurrentSong);
-    };
+    }, [bgm, loopCurrentSong, setLoopCurrentSong]);
 
-    const toggleShuffle = () => {
+    const toggleShuffle = useCallback(() => {
         if (!isShuffled) {
             // Enable shuffle: generate shuffled indices
             const newShuffledIndices = generateShuffledIndices(songs.length);
             setShuffledIndices(newShuffledIndices);
         }
         setIsShuffled(!isShuffled);
-    };
+    }, [
+        isShuffled,
+        generateShuffledIndices,
+        songs.length,
+        setShuffledIndices,
+        setIsShuffled,
+    ]);
 
-    const onVolumeChange = (val: number[]) => setBgmVolume(val[0]);
+    const onVolumeChange = useCallback(
+        (val: number[]) => setBgmVolume(val[0]),
+        [setBgmVolume],
+    );
 
-    const onSelect = (cIdx: number, tIdx: number) => {
-    // If clicking the currently selected and playing song, pause it
-    if (cIdx === catIndex && tIdx === trackIndex && isPlaying) {
-        setIsPlaying(false);
-    } else {
-        setCatIndex(cIdx);
-        setTrackIndex(tIdx);
-        setIsPlaying(true);
-    }
-    };
+    const onSelect = useCallback(
+        (cIdx: number, tIdx: number) => {
+            // If clicking the currently selected and playing song, pause it
+            if (cIdx === catIndex && tIdx === trackIndex && isPlaying) {
+                setIsPlaying(false);
+            } else {
+                setCatIndex(cIdx);
+                setTrackIndex(tIdx);
+                setIsPlaying(true);
+            }
+        },
+        [
+            catIndex,
+            trackIndex,
+            isPlaying,
+            setIsPlaying,
+            setCatIndex,
+            setTrackIndex,
+        ],
+    );
 
     // Regenerate shuffled indices when category changes
     useEffect(() => {
@@ -464,6 +478,14 @@ const ViewMusicPlayerModal = ({
         () => (trackIndex !== null ? songs[trackIndex] : null),
         [songs, trackIndex],
     );
+
+    useEffect(() => {
+        if (isPlaying) {
+            playBGM(0);
+        } else {
+            pauseBGM(0);
+        }
+    }, [isPlaying, playBGM, pauseBGM]);
 
     const coverImage = useMemo(() => {
         return currentTrack?.coverUrl || "images-opt/song-chapter-2-opt.webp";
