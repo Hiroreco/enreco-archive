@@ -73,7 +73,7 @@ const FanartFilters = ({
                             value={selectedChapter}
                             onValueChange={onChapterChange}
                         >
-                        <SelectTrigger className="h-8 text-sm">
+                            <SelectTrigger className="h-8 text-sm">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -94,7 +94,7 @@ const FanartFilters = ({
                             Day
                         </label>
                         <Select value={selectedDay} onValueChange={onDayChange}>
-                        <SelectTrigger className="h-8 text-sm">
+                            <SelectTrigger className="h-8 text-sm">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -348,17 +348,17 @@ const FanartFilters = ({
                     </label>
                 </div>
 
-
                 <div className="flex flex-row gap-2 items-center">
                     <Button variant="outline" size="sm" onClick={onReset}>
                         Reset Filters
                     </Button>
                     <Button
-                        variant={shuffled ? "default" : "outline"}
                         size="sm"
                         onClick={onShuffle}
+                        variant={"outline"}
                         title={shuffled ? "Unshuffle" : "Shuffle"}
                         aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                        className={`${shuffled ? "bg-accent text-accent-foreground" : ""}`}
                     >
                         <Shuffle className="w-4 h-4" />
                     </Button>

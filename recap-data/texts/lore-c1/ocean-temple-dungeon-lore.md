@@ -1,3 +1,5 @@
+<!-- title: Ocean Temple Dungeon Lore -->
+
 In ages long past, there was a land of untold prosperity.
 Its technology and culture stood at the pinnacle of civilization.
 But then, catastrophe struck, and what had taken a thousand years to build was erased in a single night.
@@ -21,4 +23,3 @@ Yet with the guard being every watchful, this was anything but easy. She'd proba
 "Am I just going about this the wrong way? Yeah! I know what I'll do next!"
 
 And so, another day of planning began.
-
