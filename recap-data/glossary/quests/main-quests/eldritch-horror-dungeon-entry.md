@@ -10,6 +10,8 @@
 
 The Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere stood in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: [Ninomae Ina’nis](#entry:ina-entry) of the Ancient Ones.
 
+[Read the Eldritch Horror Dungeon's Journals](#text:eldritch-horror-dungeon-lore)
+
 ## Details
 
 ### Appearance

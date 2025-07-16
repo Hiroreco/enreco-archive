@@ -10,6 +10,8 @@
 
 The **Underworld Dungeon** was the first of Chapter 1’s five major dungeons, themed around Mori Calliope. Described as a domain of boundless darkness, it represented the land of the dead—home to both those who had passed and those who watched over their passing.
 
+[Read the Underworld Dungeon's Journals](#text:underworld-dungeon-lore)
+
 ## Details
 
 ### Appearance

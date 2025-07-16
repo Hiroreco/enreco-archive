@@ -10,6 +10,8 @@
 
 The **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving Atlantean, [Gawr Gura,](#entry:gura-entry) whose memories can also be found here.
 
+[Read the Ocean Temple Dungeon's Journals](#text:ocean-temple-dungeon-lore)
+
 ## Details
 
 ### History

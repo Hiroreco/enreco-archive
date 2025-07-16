@@ -178,96 +178,13 @@
       "imageSrc": "/images-opt/star-site-elpis-entry-opt.webp"
     },
     {
-      "id": "eldritch-horror-dungeon-entry",
-      "title": "Eldritch Horror Dungeon",
-      "chapters": [
-        0
-      ],
-      "quote": "Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company.",
-      "content": "## Overview\n\n**Day Unlocked:** 3\n\nThe Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere stood in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: [Ninomae Ina’nis](#entry:ina-entry) of the Ancient Ones.\n\n## Details\n\n### Appearance\n\nTrue to its name, the dungeon exuded a dark, gloomy, and otherworldly vibe. From the outside, it appeared as an isolated island hovering above an endless pool of water. The surface was scattered with torii gates and religious artifacts, evoking a sense of sacred yet forsaken ground. However, the trials did not take place on this surface. Instead, the heroes were transported into enclosed wooden chambers, furnished with pots, bookshelves, and strange décor, where the real challenges began.\n\n### Puzzles\n\nThe objective was to free a trapped spirit by playing a series of “games,” each chosen by a mysterious soul guiding the trials. These puzzles used a sanity mechanic: sanity gradually depleted over time, and if it reached zero, the afflicted hero would suffer permanent withering until death.\n\nThere were three main puzzles:\n\n- **Pot Smashing:** Break the five correct [pots](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275) among a group, using clues to identify them.\n- **House Maze:** Navigate a confusing [maze](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540) filled with deceptive doors to find the exit.\n- **Lilies of the Valley:** Search various chests to collect [flowers](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573) known as _Lilies of the Valley_.\n\n### Rewards\n\n- [\"Violet\"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Vinyl - Ninomae Ina'nis\n- Memories of Ninomae Ina'nis\n\n[Recollection - Ninomae Ina'nis](#embed:https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1830984777304015120/photo/1)",
-      "thumbnailSrc": "/images-opt/eldritch-horror-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Eldritch Horror Dungeon's Entry",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-0-opt.webp"
-        },
-        {
-          "title": "Eldritch Horror Dungeon Overview #1",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-1-opt.webp"
-        },
-        {
-          "title": "Eldritch Horror Dungeon Overview #2",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-2-opt.webp"
-        },
-        {
-          "title": "Eldritch Horror Dungeon Overview #3",
-          "source": "/images-opt/eldritch-horror-dungeon-entry-3-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/eldritch-horror-dungeon-entry-opt.webp"
-    },
-    {
-      "id": "ocean-temple-dungeon-entry",
-      "title": "Ocean Temple Dungeon",
-      "chapters": [
-        0
-      ],
-      "quote": "Finally... My story begins here!",
-      "content": "## Overview\n\n**Day Unlocked:** 2\n\nThe **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving member, whose memories can be found here as well— Gawr Gura.\n\n## Details\n\n### History\n\nThere was once a civilization that prospered in both innovative technology and culture. At its peak, this civilization sank to the ocean's floor and rebuilt itself, becoming what is known as Atlantis.\n\n### Appearance\n\nIn the present day, the dungeon is an empty shell of what Atlantis used to be. To enter, the heroes must swim to an underwater cave where a portal transports them to the entrance at the threshold of a stone-walled city. Each step they take is cushioned by the vibrant green moss that has claimed the once-bustling streets, giving the place an air of enchantment and mystery. Towering above are intricately carved shark statues, which could be mistaken for dolphins, each possibly depicting a celebrated figure of the past.\n\n### Puzzles\n\n- **Tower of Hanoi:** Stack all [rings](https://www.youtube.com/live/bOIlLaFiiE4?si=9T-46rQ15ghlkjRc&t=5810) on the third rod in decreasing size order.\n\n- **Bridge Puzzle:** Activate [color-coded](https://www.youtube.com/live/bOIlLaFiiE4?si=RRQ8rSSECOvsw8e_&t=6098) bridges whilst avoiding laser traps and falling to advance to the other side.\n\n- **Directional Guard Puzzle:** Lead a [mannequin](https://www.youtube.com/live/bOIlLaFiiE4?si=-QX63tFq7Cp2tcxT&t=6384) guard on the prismarine route to an elevated platform. Letting the guard pass by the 5 embedded golden blocks in the ground unlocks the dungeon's treasure.\n\n### Rewards\n\n- [\"REFLECT\"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05)– a music disc by Gawr Gura\n- Memories of Gawr Gura\n\n[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/)",
-      "thumbnailSrc": "/images-opt/ocean-temple-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Ocean Temple Dungeon's Entrance Overview #1",
-          "source": "/images-opt/ocean-temple-dungeon-entry-0-opt.webp"
-        },
-        {
-          "title": "Ocean Temple Dungeon's Entrance Overview #2",
-          "source": "/images-opt/ocean-temple-dungeon-entry-1-opt.webp"
-        },
-        {
-          "title": "Ocean Temple Dungeon Overview #1",
-          "source": "/images-opt/ocean-temple-dungeon-entry-2-opt.webp"
-        },
-        {
-          "title": "Ocean Temple Dungeon Overview #2",
-          "source": "/images-opt/ocean-temple-dungeon-entry-3-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/ocean-temple-dungeon-entry-opt.webp"
-    },
-    {
-      "id": "underworld-dungeon-entry",
-      "title": "Underworld Dungeon",
-      "chapters": [
-        0
-      ],
-      "quote": "Reapers should help the living, not take away their future.",
-      "content": "## Overview\n\n**Day Unlocked:** 1\n\nThe **Underworld Dungeon** was the first of Chapter 1’s five major dungeons, themed around Mori Calliope. Described as a domain of boundless darkness, it represented the land of the dead—home to both those who had passed and those who watched over their passing.\n\n## Details\n\n### Appearance\n\nA dark, gloomy, and intimidating aura permeated the dungeon. Outside, floating rocks hovered above pools of lava, leading up to a towering castle where the main challenges awaited. The castle, constructed primarily of black basalt bricks with streaks of crimson nether bricks, radiated a sinister elegance. Red light poured through a giant window pane backed by lava, while fire torches lit the long, shadowy corridors that wound through each stage. It was an imposing structure that demanded respect.\n\n### Puzzles\n\n- **Platform Parkour:** The first official dungeon challenge in this enigmatic adventure, where the heroes had to leap across [floating rocks](https://www.youtube.com/live/xE3JQ1R2DdU?si=F_b9Fzm_PqfGy2wJ&t=10800) suspended over lava to reach the main dungeon area.\n\n- **Mob Slaying:** Inside the castle’s first maze-like hall, the heroes faced monsters carrying panes of glass. [Slaying](https://www.youtube.com/live/xE3JQ1R2DdU?si=sFOM71YcWPl-VwhQ&t=10926) enough of these creatures unlocked the path forward.\n\n- **Lights On:** A large cube of [redstone lamps](https://www.youtube.com/live/xE3JQ1R2DdU?si=7GChsp0b4cow1sKS&t=11075) glowed in a predefined pattern. Clicking a lamp would toggle it and the lamps adjacent in a plus shape on or off. The goal was to illuminate the entire cube.\n\n- **Climb the Dungeon’s Tree:** Here, the heroes needed to lure attacking skeletons onto a block where a small mushroom grew. Slaying the skeletons caused the plant to [grow](https://www.youtube.com/live/xE3JQ1R2DdU?si=PhIFZ1_WkalwvoTJ&t=11579) taller each time. They had to nurture it to reach a height that allowed them to climb into the final area and complete the conquest.\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/)\n- Concept Art - [miya-zaki](https://x.com/miya_zaki/status/1830140718729265368/photo/1)",
-      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": "Underworld Dungeon's Entrance",
-          "source": "/images-opt/underworld-dungeon-entry-0-opt.webp"
-        },
-        {
-          "title": "Underworld Dungeon Overview #1",
-          "source": "/images-opt/underworld-dungeon-entry-1-opt.webp"
-        },
-        {
-          "title": "Underworld Dungeon Overview #2",
-          "source": "/images-opt/underworld-dungeon-entry-2-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/underworld-dungeon-entry-opt.webp"
-    },
-    {
       "id": "ancient-sewers-dungeon-entry",
       "title": "Ancient Sewers Dungeon",
       "chapters": [
         0
       ],
       "quote": "I want to work on something big! The case of the century!",
-      "content": "## Overview\n\n**Day Unlocked:** 5\n\nThe Ancient Sewer Dungeon was the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—[Amelia Watson](#entry:ame-entry).\n\n## Details\n\n### Appearance\n\nIn stark contrast to the grand, mythical settings of the previous four dungeons—castles, temples, labyrinths—the Ancient Sewer Dungeon was located, as the name implies, beneath a sewer system. Comprised of twisting tunnels and junctions built with mud bricks, the setting was modest yet exuded a strange sense of mystery and intrigue that invited exploration.\n\n### Puzzles\n\nCompared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056). The heroes had to answer a sequence of five questions testing their knowledge of the journey so far. Each question offered multiple choices. A correct answer allowed them to advance; a wrong answer transported them to a chamber filled with Stains, which they had to defeat before trying again.\n\nEach question was tied to previous dungeon events and memory fragments, with the final question requiring the players to explore the dungeon itself for a hidden clue.\n\nThe questions were as follows:\n\n**Which source of energy did a certain offbeat reaper discover?**\n– Answer: People’s strong emotions\n\n**Which of these guards the force field around Atlantis?**\n– Answer: Shark statues\n\n**A mysterious boy appeared at a certain shrine. What is he particularly good at?**\n– Answer: Folding origami\n\n**What is the grand achievement of a certain oddball phoenix?**\n– Answer: Helping a fast food restaurant pay its debt\n\n**What did a certain detective invent for the travelers who made it this far?**\n– Answer: A Warp Crystal\n\nAnswer all five correctly to clear the final dungeon of the first chapter.\n\n### Rewards\n\n- A Warp Crystal\n- [\"ChikuTaku\"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson\n- [Memories](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D) of Amelia Watson\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)",
+      "content": "## Overview\n\n**Day Unlocked:** 5\n\nThe Ancient Sewer Dungeon was the final dungeon of Chapter 1, containing the memories of the number one silly, cute, and quirky detective beloved by all—[Amelia Watson](#entry:ame-entry).\n\n[Read the Ancient Sewers Dungeon's Journals](#text:ancient-sewers-dungeon-lore)\n\n## Details\n\n### Appearance\n\nIn stark contrast to the grand, mythical settings of the previous four dungeons—castles, temples, labyrinths—the Ancient Sewer Dungeon was located, as the name implies, beneath a sewer system. Comprised of twisting tunnels and junctions built with mud bricks, the setting was modest yet exuded a strange sense of mystery and intrigue that invited exploration.\n\n### Puzzles\n\nCompared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056). The heroes had to answer a sequence of five questions testing their knowledge of the journey so far. Each question offered multiple choices. A correct answer allowed them to advance; a wrong answer transported them to a chamber filled with Stains, which they had to defeat before trying again.\n\nEach question was tied to previous dungeon events and memory fragments, with the final question requiring the players to explore the dungeon itself for a hidden clue.\n\nThe questions were as follows:\n\n**Which source of energy did a certain offbeat reaper discover?**\n– Answer: People’s strong emotions\n\n**Which of these guards the force field around Atlantis?**\n– Answer: Shark statues\n\n**A mysterious boy appeared at a certain shrine. What is he particularly good at?**\n– Answer: Folding origami\n\n**What is the grand achievement of a certain oddball phoenix?**\n– Answer: Helping a fast food restaurant pay its debt\n\n**What did a certain detective invent for the travelers who made it this far?**\n– Answer: A Warp Crystal\n\nAnswer all five correctly to clear the final dungeon of the first chapter.\n\n### Rewards\n\n- A Warp Crystal\n- [\"ChikuTaku\"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson\n- [Memories](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D) of Amelia Watson\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)",
       "thumbnailSrc": "/images-opt/ancient-sewers-dungeon-entry-opt-thumb.webp",
       "galleryImages": [
         {
@@ -285,6 +202,10 @@
         {
           "title": "Ancient Sewer Dungeon Overview #3",
           "source": "/images-opt/ancient-sewers-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "Heroes Exploring The Dungeon",
+          "source": "/images-opt/ancient-sewers-dungeon-entry-4-opt.webp"
         }
       ],
       "imageSrc": "/images-opt/ancient-sewers-dungeon-entry-opt.webp"
@@ -296,43 +217,158 @@
         0
       ],
       "quote": "It seems that I've been reduced to a fast-food chain owner",
-      "content": "## Overview\n\n**Day Unlocked:** 4\n\nThe Volcanic Dungeon was by far the most challenging dungeon in Chapter 1, featuring a gauntlet of fiery obstacles designed to test the heroes’ patience and perseverance. Fittingly, its central theme revolved around resurrection and retrying—embodying the spirit of the mighty phoenix, [Takanashi Kiara](#entry:kiara-entry).\n\n[Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)\n\n## Details\n\n### Appearance\n\nThe dungeon carried a strong fiery motif, its structure resembling a colossal castle or labyrinth suspended above a lake of lava. Inside, the labyrinth seemed partially ruined, its design dominated by stone and fire—radiating heat in every direction, as if the entire place were one giant forge.\n\n### Challenges\n\n#### Lasers and Traps\n\nRather than puzzles, the Volcanic Dungeon emphasized physical trials, riddled with dangerous traps throughout its castle interior. These included dodging searing [lasers](https://www.youtube.com/live/N3v-MJXHQ0w?si=rFVQeKPLGv5Zumnz&t=6526) that incinerated on contact and navigating deviously placed [bait traps](https://www.youtube.com/live/N3v-MJXHQ0w?si=8JvYnazYsw-n5I-I&t=7215) disguised as buttons, tempting curious adventurers.\n\nThe arsenal of traps featured:\n\n- Lava pitfalls\n- Fire bar traps\n- Powdered snow traps\n- Falling anvil traps\n- Magma traps\n- Fireball traps\n- Poison traps\n\n#### Parkour and Boss Fight\n\nTowards the dungeon’s climax, heroes had to ascend through intricate [parkour sequences](https://www.youtube.com/live/72SJQRQ7qi0?si=34q6OX2oqyM_n2rX&t=15634) across various platform types—some that alternated positions, others that only appeared briefly before vanishing. Missing a jump meant falling to certain doom.\n\nAt the summit stood the Flame Guardian, a towering statue of a goddess-like figure who served as the dungeon’s final boss. Heroes had to leap across floating platforms while evading the Guardian’s fire beams, ultimately reaching the statue and using pickaxes to chip away at its core until its health bar dropped to zero.\n\n[Flame Guardian Boss Fight](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=UymqRZv4YuWyiCbi&t=15823)\n\n### Rewards\n\n- [\"Hinotori\"](https://youtu.be/eDfMDkgheQY?si=LrNua8X-nFdM770M) Disc - Takanashi Kiara\n- [Memories](https://youtu.be/A3bQdV_sl08?si=-NxdiYuhunxDUoa1) of Takanashi Kiara\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx)\n- Concept Art - [taneda822456](https://x.com/taneda822456/status/1831263434736013607/photo/1)",
+      "content": "## Overview\n\n**Day Unlocked:** 4\n\nThe Volcanic Dungeon was by far the most challenging in Chapter 1, featuring a gauntlet of fiery obstacles designed to test the heroes' patience and perseverance. Fittingly, its central theme revolved around resurrection and retrying, embodying the spirit of the mighty phoenix: [Takanashi Kiara](#entry:kiara-entry).\n\n[Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)\n\n## Details\n\n### Appearance\n\nThe dungeon featured a strong fiery motif, with a structure resembling a colossal castle or labyrinth suspended above a lake of lava. Inside, the labyrinth seemed partially ruined, its design dominated by stone and fire, radiating heat in every direction, as if the entire place were one giant forge.\n\n### Challenges\n\n#### Lasers and Traps\n\nRather than puzzles, the Volcanic Dungeon emphasized physical trials, riddled with dangerous traps throughout its castle interior. These included dodging searing [lasers](https://www.youtube.com/live/N3v-MJXHQ0w?si=rFVQeKPLGv5Zumnz&t=6526) that incinerated on contact and navigating deviously placed [bait traps](https://www.youtube.com/live/N3v-MJXHQ0w?si=8JvYnazYsw-n5I-I&t=7215) disguised as buttons, tempting curious adventurers.\n\nThe arsenal of traps featured:\n\n- Lava pitfalls\n- Fire bar traps\n- Powdered snow traps\n- Falling anvil traps\n- Magma traps\n- Fireball traps\n- Poison traps\n\n#### Parkour and Boss Fight\n\nTowards the dungeon's climax, heroes had to ascend through intricate [parkour sequences](https://www.youtube.com/live/72SJQRQ7qi0?si=34q6OX2oqyM_n2rX&t=15634) across various platform types—some that alternated positions, others that appeared only briefly before vanishing. Missing a jump meant falling into certain doom.\n\nAt the summit stood the Flame Guardian, a towering statue of a goddess-like figure, who served as the dungeon's final boss. Heroes had to leap across floating platforms while evading the Guardia's fire beams, ultimately reaching the statue and using pickaxes to chip away at its core until its health bar reached zero.\n\n[Flame Guardian Boss Fight](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=UymqRZv4YuWyiCbi&t=15823)\n\n### Rewards\n\n- [\"Hinotori\"](https://youtu.be/eDfMDkgheQY?si=LrNua8X-nFdM770M) - A music disc by Takanashi Kiara\n- [Memories](https://youtu.be/A3bQdV_sl08?si=-NxdiYuhunxDUoa1) of Takanashi Kiara\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx)\n- Concept Art - [taneda822456](https://x.com/taneda822456/status/1831263434736013607/photo/1)",
       "thumbnailSrc": "/images-opt/volcano-dungeon-entry-opt-thumb.webp",
       "galleryImages": [
         {
-          "title": "Volcanic Dungeon's Entrance Overview #1",
+          "title": "Volcano Dungeon's Entrance Overview #1",
           "source": "/images-opt/volcano-dungeon-entry-0-opt.webp"
         },
         {
-          "title": "Volcanic Dungeon's Entrance Overview #2",
+          "title": "Volcano Dungeon's Entrance Overview #2",
           "source": "/images-opt/volcano-dungeon-entry-1-opt.webp"
         },
         {
-          "title": "Volcanic Dungeon Overview #1",
+          "title": "Volcano Dungeon Overview #1",
           "source": "/images-opt/volcano-dungeon-entry-2-opt.webp"
         },
         {
-          "title": "Volcanic Dungeon Overview #2",
+          "title": "Volcano Dungeon Overview #2",
           "source": "/images-opt/volcano-dungeon-entry-3-opt.webp"
         },
         {
-          "title": "Volcanic Dungeon Overview #3",
+          "title": "Volcano Dungeon Overview #3",
           "source": "/images-opt/volcano-dungeon-entry-4-opt.webp"
         },
         {
-          "title": "Volcanic Dungeon Overview #4",
+          "title": "Volcano Dungeon Overview #4",
           "source": "/images-opt/volcano-dungeon-entry-5-opt.webp"
         },
         {
-          "title": "Volcanic Dungeon Concept Art",
+          "title": "Volcano Dungeon Concept Art",
           "source": "/images-opt/volcano-dungeon-entry-6-opt.webp"
         },
         {
           "title": "They all tried to swim in lava",
           "source": "/images-opt/volcano-dungeon-entry-7-opt.webp"
+        },
+        {
+          "title": "Heroes Exploring The Dungeon",
+          "source": "/images-opt/volcano-dungeon-entry-8-opt.webp"
+        },
+        {
+          "title": "Boss Fight Statue",
+          "source": "/images-opt/volcano-dungeon-entry-9-opt.webp"
         }
       ],
       "imageSrc": "/images-opt/volcano-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "eldritch-horror-dungeon-entry",
+      "title": "Eldritch Horror Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Some say I'm acting as a guide, to help them move on. But to me, I'm just keeping them company.",
+      "content": "## Overview\n\n**Day Unlocked:** 3\n\nThe Eldritch Horror Dungeon was housed within a haunted sanctum—its eerie, chilling atmosphere stood in stark contrast to the kind, sweet, and light-hearted priestess it was themed after: [Ninomae Ina’nis](#entry:ina-entry) of the Ancient Ones.\n\n[Read the Eldritch Horror Dungeon's Journals](#text:eldritch-horror-dungeon-lore)\n\n## Details\n\n### Appearance\n\nTrue to its name, the dungeon exuded a dark, gloomy, and otherworldly vibe. From the outside, it appeared as an isolated island hovering above an endless pool of water. The surface was scattered with torii gates and religious artifacts, evoking a sense of sacred yet forsaken ground. However, the trials did not take place on this surface. Instead, the heroes were transported into enclosed wooden chambers, furnished with pots, bookshelves, and strange décor, where the real challenges began.\n\n### Puzzles\n\nThe objective was to free a trapped spirit by playing a series of “games,” each chosen by a mysterious soul guiding the trials. These puzzles used a sanity mechanic: sanity gradually depleted over time, and if it reached zero, the afflicted hero would suffer permanent withering until death.\n\nThere were three main puzzles:\n\n- **Pot Smashing:** Break the five correct [pots](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275) among a group, using clues to identify them.\n- **House Maze:** Navigate a confusing [maze](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540) filled with deceptive doors to find the exit.\n- **Lilies of the Valley:** Search various chests to collect [flowers](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573) known as _Lilies of the Valley_.\n\n### Rewards\n\n- [\"Violet\"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Vinyl - Ninomae Ina'nis\n- Memories of Ninomae Ina'nis\n\n[Recollection - Ninomae Ina'nis](#embed:https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)\n\n## Sources\n\n- World Builder - [t.s.kai](https://x.com/tskai_xx/status/1830984777304015120/photo/1)",
+      "thumbnailSrc": "/images-opt/eldritch-horror-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Eldritch Horror Dungeon's Entry",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #1",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #2",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #3",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon Overview #4",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-4-opt.webp"
+        },
+        {
+          "title": "Heroes Exploring The Dungeon",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-5-opt.webp"
+        },
+        {
+          "title": "Eldritch Horror Dungeon in The Chapter 1 Trailer",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-6-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/eldritch-horror-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "ocean-temple-dungeon-entry",
+      "title": "Ocean Temple Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Finally... My story begins here!",
+      "content": "## Overview\n\n**Day Unlocked:** 2\n\nThe **Ocean Temple Dungeon** holds the remnants of a once-thriving underwater society now forgotten. This was the home of the last surviving Atlantean, [Gawr Gura,](#entry:gura-entry) whose memories can also be found here.\n\n[Read the Ocean Temple Dungeon's Journals](#text:ocean-temple-dungeon-lore)\n\n## Details\n\n### History\n\nThere was once a civilization that prospered in both innovative technology and culture. At its peak, the civilization sank to the ocean floor and rebuilt itself, becoming what is now known as Atlantis.\n\n### Appearance\n\nToday, the dungeon is an empty shell of what Atlantis once was. To enter, the heroes must swim to an underwater cave, where a portal transports them to the threshold of a stone-walled city. Each step is cushioned by vibrant green moss that has overtaken the once-bustling streets, lending the place an air of enchantment and mystery. Towering above are intricately carved shark statues, which could be mistaken for dolphins; each may depict a celebrated figure from the past.\n\n### Puzzles\n\n- **Tower of Hanoi:** Stack all the [rings](https://www.youtube.com/live/bOIlLaFiiE4?si=9T-46rQ15ghlkjRc&t=5810) on the third rod in decreasing size order.\n\n- **Bridge Puzzle:** Activate [color-coded](https://www.youtube.com/live/bOIlLaFiiE4?si=RRQ8rSSECOvsw8e_&t=6098) bridges while avoiding laser traps and falls to reach the other side.\n\n- **Directional Guard Puzzle:** Lead a [mannequin](https://www.youtube.com/live/bOIlLaFiiE4?si=-QX63tFq7Cp2tcxT&t=6384) guard on the prismarine route to an elevated platform. Allowing the guard to pass over the five embedded golden blocks in the ground unlocks the dungeon's treasure.\n\n### Rewards\n\n- [\"REFLECT\"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05) – a music disc by Gawr Gura\n- Memories of Gawr Gura\n\n[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/)",
+      "thumbnailSrc": "/images-opt/ocean-temple-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Ocean Temple Dungeon's Entrance Overview #1",
+          "source": "/images-opt/ocean-temple-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "Ocean Temple Dungeon's Entrance Overview #2",
+          "source": "/images-opt/ocean-temple-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "Ocean Temple Dungeon Overview #1",
+          "source": "/images-opt/ocean-temple-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "Ocean Temple Dungeon Overview #2",
+          "source": "/images-opt/ocean-temple-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "Heroes Exploring The Dungeon",
+          "source": "/images-opt/ocean-temple-dungeon-entry-4-opt.webp"
+        },
+        {
+          "title": "Ocean Temple Dungeon In The Chapter 1 Trailer",
+          "source": "/images-opt/ocean-temple-dungeon-entry-5-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/ocean-temple-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "underworld-dungeon-entry",
+      "title": "Underworld Dungeon",
+      "chapters": [
+        0
+      ],
+      "quote": "Reapers should help the living, not take away their future.",
+      "content": "## Overview\n\n**Day Unlocked:** 1\n\nThe **Underworld Dungeon** was the first of Chapter 1’s five major dungeons, themed around Mori Calliope. Described as a domain of boundless darkness, it represented the land of the dead—home to both those who had passed and those who watched over their passing.\n\n[Read the Underworld Dungeon's Journals](#text:underworld-dungeon-lore)\n\n## Details\n\n### Appearance\n\nA dark, gloomy, and intimidating aura permeated the dungeon. Outside, floating rocks hovered above pools of lava, leading up to a towering castle where the main challenges awaited. The castle, constructed primarily of black basalt bricks with streaks of crimson nether bricks, radiated a sinister elegance. Red light poured through a giant window pane backed by lava, while fire torches lit the long, shadowy corridors that wound through each stage. It was an imposing structure that demanded respect.\n\n### Puzzles\n\n- **Platform Parkour:** The first official dungeon challenge in this enigmatic adventure, where the heroes had to leap across [floating rocks](https://www.youtube.com/live/xE3JQ1R2DdU?si=F_b9Fzm_PqfGy2wJ&t=10800) suspended over lava to reach the main dungeon area.\n\n- **Mob Slaying:** Inside the castle’s first maze-like hall, the heroes faced monsters carrying panes of glass. [Slaying](https://www.youtube.com/live/xE3JQ1R2DdU?si=sFOM71YcWPl-VwhQ&t=10926) enough of these creatures unlocked the path forward.\n\n- **Lights On:** A large cube of [redstone lamps](https://www.youtube.com/live/xE3JQ1R2DdU?si=7GChsp0b4cow1sKS&t=11075) glowed in a predefined pattern. Clicking a lamp would toggle it and the lamps adjacent in a plus shape on or off. The goal was to illuminate the entire cube.\n\n- **Climb the Dungeon’s Tree:** Here, the heroes needed to lure attacking skeletons onto a block where a small mushroom grew. Slaying the skeletons caused the plant to [grow](https://www.youtube.com/live/xE3JQ1R2DdU?si=PhIFZ1_WkalwvoTJ&t=11579) taller each time. They had to nurture it to reach a height that allowed them to climb into the final area and complete the conquest.\n\n### Rewards\n\n- **\"Excuse My Rudeness, But Could You Please RIP\"** – a music disc by Mori Calliope\n- **Calli's Memories**\n\n[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/)\n- Concept Art - [miya-zaki](https://x.com/miya_zaki/status/1830140718729265368/photo/1)",
+      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Underworld Dungeon's Entrance",
+          "source": "/images-opt/underworld-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "Underworld Dungeon Overview #1",
+          "source": "/images-opt/underworld-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "Underworld Dungeon Overview #2",
+          "source": "/images-opt/underworld-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "Underworld Dungeon In The Chapter 1 Trailer",
+          "source": "/images-opt/underworld-dungeon-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/underworld-dungeon-entry-opt.webp"
     }
   ],
   "special-quests": [
