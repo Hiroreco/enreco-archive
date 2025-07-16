@@ -1,5 +1,5 @@
 <!-- title: Guilds -->
-<!-- quote: Responsible for ensuring the kingdom's peace and prosperity -->
+<!-- quote: Responsible for ensuring the kingdom's peace and prosperity. -->
 <!-- chapters: 0 -->
 <!-- images: (Guilds Overview) --->
 <!-- model: false -->

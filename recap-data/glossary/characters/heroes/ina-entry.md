@@ -1,5 +1,5 @@
 <!-- title: NinoIna -->
-<!-- quote: Potato... Po-ta-to -->
+<!-- quote: Potato... Po-ta-to. -->
 <!-- chapters: -1 -->
 <!-- images: (Ina's Chapter 1 Profile), (Ina, along with Shiori, activating their Revelation), (Recollection - Ninomae Ina'nis), (Ina's Chapter 2 Profile), (Ina in Chapter 2's Ending)  -->
 <!-- model: false -->

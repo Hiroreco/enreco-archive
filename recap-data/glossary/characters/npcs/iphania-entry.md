@@ -1,5 +1,5 @@
 <!-- title: Iphania / Fia -->
-<!-- quote: Let us break the chains of fate, together  -->
+<!-- quote: Let us break the chains of fate, together!  -->
 <!-- chapters: 1 -->
 <!-- images: (Iphania's Profile), (Fia's Profile), (Iphania slain by the Curse), (Fia in Chapter 2's Ending) -->
 <!-- model: false -->
