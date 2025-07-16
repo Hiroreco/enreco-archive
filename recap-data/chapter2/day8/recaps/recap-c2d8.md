@@ -83,7 +83,7 @@ The quiet rise of rebellion awakened.
 
 <!-- shiori, bijou, mococo, fuwawa, nerissa -->
 
-["Shit if Fucked" by V Faction](https://x.com/V_Faction/status/1921408701505617974)
+["Shit is Fucked" by V Faction](https://x.com/V_Faction/status/1921408701505617974)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
 
