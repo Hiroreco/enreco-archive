@@ -1252,7 +1252,7 @@
   },
   {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"\\*teleports behind you\\*\"",
+    "label": "\"*teleport behind you*\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -1648,7 +1648,7 @@
   },
   {
     "url": "https://x.com/alfa_hatdog/status/1831129176109400505",
-    "label": "\"oh my god\" my AlfaHatdog",
+    "label": "\"oh my god\"",
     "author": "alfa_hatdog",
     "chapter": 0,
     "day": 3,
@@ -5711,7 +5711,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "kronii"
+      "kronii",
+      "irys"
     ],
     "images": [],
     "videos": [
@@ -7707,7 +7708,7 @@
   },
   {
     "url": "https://x.com/ari_sae_/status/1920482530630701156",
-    "label": "\"Promise' lore in a nutshell\"",
+    "label": "\"Promise's lore in a nutshell\"",
     "author": "ari_sae_",
     "chapter": 1,
     "day": 4,
@@ -9704,7 +9705,7 @@
   },
   {
     "url": "https://x.com/v_faction/status/1921408701505617974",
-    "label": "\"Shit if Fucked\"",
+    "label": "\"Shit is Fucked\"",
     "author": "v_faction",
     "chapter": 1,
     "day": 7,
