@@ -60,3 +60,7 @@ On Day 7, during the final dungeon, the [Heart of Ruin](#entry:heart-of-ruin-ent
 Several theories have been put forward regarding the Stains’ origins. One speculates that the Stains were once Libestans, transformed through corruption. Another suggests a deeper [connection](https://www.reddit.com/r/Hololive/comments/1fbq036/enreco_theory_about_the_stains/) between the Stains and Shiori Nyavellas.
 
 At the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself and by the heroes themselves: **"Nothing stays pure."**
+
+### Trivia
+
+The corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:storylines-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.
