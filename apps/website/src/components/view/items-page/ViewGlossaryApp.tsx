@@ -1,3 +1,4 @@
+import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
 import ViewGlossaryCard from "@/components/view/items-page/ViewGlossaryCard";
 import ViewInfoModal from "@/components/view/ViewInfoModal";
 import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
@@ -8,7 +9,8 @@ import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import { Dice6, Info, Settings, Disc3 } from "lucide-react";
+import { Dice6, Info, Settings, Disc3, Palette } from "lucide-react";
+import { useState } from "react";
 
 interface ViewItemsAppProps {
     bgImage: string;
@@ -19,6 +21,8 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     const { isOpen: isMusicModalOpen, setIsOpen: setIsMusicModalOpen } =
         useMusicPlayerStore();
 
+    // TODO: Remove this later, don't want to put in the store since have to wait for dev merge
+    const [openFanartModal, setOpenFanartModal] = useState(false);
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <GlossaryProvider>
@@ -54,6 +58,13 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
             <ViewMusicPlayerModal
                 open={isMusicModalOpen}
                 onOpenChange={setIsMusicModalOpen}
+            />
+
+            <ViewFanartModal
+                open={openFanartModal}
+                onOpenChange={setOpenFanartModal}
+                chapter={viewStore.chapter}
+                day={viewStore.day}
             />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex md:flex-col gap-[8px]">
@@ -99,6 +110,17 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     onClick={() => setIsMusicModalOpen(!isMusicModalOpen)}
                 >
                     <Disc3 />
+                </IconButton>
+
+                <IconButton
+                    id="fanart-btn"
+                    className="size-[40px] p-1"
+                    tooltipText="Fanart"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={() => setOpenFanartModal(!openFanartModal)}
+                >
+                    <Palette />
                 </IconButton>
             </div>
         </div>
