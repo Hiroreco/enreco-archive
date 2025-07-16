@@ -70,15 +70,15 @@ When Fia called on the heroes to fight the Outsider, five of them refused: Neris
 ## Notable Writings
 
 - [Read "Sea x Lovers"](#text:sea-x-lovers)
-- [Read "Sea x Lovers"](#text:chicken)
-- [Read "Sea x Lovers"](#text:cucumber)
-- [Read "Sea x Lovers"](#text:gyatt)
-- [Read "Sea x Lovers"](#text:pickles)
-- [Read "Sea x Lovers"](#text:the-princess-1)
-- [Read "Sea x Lovers"](#text:the-princess-2)
-- [Read "Sea x Lovers"](#text:the-cell)
-- [Read "Sea x Lovers"](#text:tam-x-tam)
-- [Read "Sea x Lovers"](#text:kiara-roa-snu)
+- [Read "Chicken"](#text:chicken)
+- [Read "Cucumber"](#text:cucumber)
+- [Read "Gyatt"](#text:gyatt)
+- [Read "Pickles"](#text:pickles)
+- [Read "The Princess #1"](#text:the-princess-1)
+- [Read "The Princess #2"](#text:the-princess-2)
+- [Read "The Cell"](#text:the-cell)
+- [Read "Tam x Tam"](#text:tam-x-tam)
+- [Read "Kiara Roa Snu"](#text:kiara-roa-snu)
 
 ## Trivia
 
