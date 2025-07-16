@@ -59,8 +59,8 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
             // Modal is closing, stop audio if it's playing
             if (isTextAudioPlaying) {
                 stopTextAudio();
-                playBGM();
             }
+            playBGM();
         } else {
             // Modal is opening
             playSFX("book");
