@@ -26,8 +26,14 @@ interface ViewTextModalProps {
 
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const textItem = (textData as TextData)[textId];
-    const { playSFX, playTextAudio, stopTextAudio, textAudioState } =
-        useAudioStore();
+    const {
+        playSFX,
+        playTextAudio,
+        stopTextAudio,
+        textAudioState,
+        pauseBGM,
+        playBGM,
+    } = useAudioStore();
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     if (!textItem) {
@@ -43,6 +49,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
             stopTextAudio();
         } else {
             playSFX("click");
+            pauseBGM();
             playTextAudio(textId);
         }
     };
@@ -52,6 +59,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
             // Modal is closing, stop audio if it's playing
             if (isTextAudioPlaying) {
                 stopTextAudio();
+                playBGM();
             }
         } else {
             // Modal is opening
