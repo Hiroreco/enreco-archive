@@ -58,11 +58,18 @@ const TrackItem = ({
     trackIndex,
     isPlaying,
     onSelect,
-}: TrackItemProps) => (
-    <div key={`${cIdx}-${tIdx}`} data-cat={cIdx} data-track={tIdx}>
+}: TrackItemProps) => {
+    const songThumbNail = song.coverUrl
+        ? song.coverUrl.replace(/\.webp$/, "-thumb.webp")
+        : "/images-opt/song-chapter-2-thumb-opt.webp";
+    const blurDataURL = getBlurDataURL(songThumbNail);
+    return (
         <div
+            key={`${cIdx}-${tIdx}`}
+            data-cat={cIdx}
+            data-track={tIdx}
             className={cn(
-                "flex items-center cursor-pointer hover:dark:bg-white/10 hover:bg-black/10 transition-colors px-3 py-1.5 rounded-lg group",
+                "flex items-center cursor-pointer hover:dark:bg-white/10 hover:bg-black/10 transition-colors rounded-lg px-3 py-1.5 group",
                 {
                     "dark:bg-white/20 bg-black/20":
                         cIdx === catIndex && tIdx === trackIndex,
@@ -70,31 +77,31 @@ const TrackItem = ({
             )}
             onClick={() => onSelect(cIdx, tIdx)}
         >
-            {/* Small thumbnail for mobile and desktop */}
-            <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10">
-                <Image
-                    src={song.coverUrl || "/images-opt/song-chapter-2-opt.webp"}
-                    alt={song.title}
-                    width={32}
-                    height={32}
-                    className="object-cover w-8 h-8"
-                    draggable={false}
-                />
+            <Image
+                src={songThumbNail}
+                blurDataURL={blurDataURL}
+                placeholder={blurDataURL ? "blur" : "empty"}
+                alt={song.title}
+                width={32}
+                height={32}
+                className="object-cover size-8 rounded"
+                draggable={false}
+            />
+
+            <span className="opacity-50 h-6 w-4 flex items-center justify-center ml-1">
+                {cIdx === catIndex && tIdx === trackIndex && isPlaying ? (
+                    <PlayingAnimation />
+                ) : (
+                    <Play className="size-3 hidden group-hover:block" />
+                )}
             </span>
-    <span className="opacity-50 h-6 w-4 flex items-center justify-center">
-        {cIdx === catIndex && tIdx === trackIndex && isPlaying ? (
-            <PlayingAnimation />
-        ) : (
-            <Play className="size-3 hidden group-hover:block" />
-        )}
-    </span>
             <span className="px-2 text-sm font-semibold grow opacity-90">
                 {song.title}
             </span>
             <span className="text-xs opacity-50 ml-2">{song.duration}</span>
         </div>
-    </div>
-);
+    );
+};
 
 const categories = Object.entries(SONGS);
 const categoriesLabels: Record<string, string> = {

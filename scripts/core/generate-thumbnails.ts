@@ -86,7 +86,11 @@ async function generateThumbnailsAndBlurData() {
         const parsed = path.parse(relPath);
         const firstDir = parsed.dir.split(path.sep)[0];
 
-        return firstDir === "glossary" || firstDir === "fanart";
+        return (
+            firstDir === "songs" ||
+            firstDir === "glossary" ||
+            firstDir === "fanart"
+        );
     });
 
     // All videos are considered for thumbnails (since they're in the dedicated video folder)
@@ -160,8 +164,15 @@ async function generateThumbnailsAndBlurData() {
                 .webp({ quality: 80 });
             thumbBuffer = await fanartSharp.toBuffer();
             fanartSharp.destroy();
+        } else if (firstDir === "songs") {
+            // Songs thumbnails - fixed size, these are tiny
+            const thumbSharp = sharp(originalBuffer)
+                .resize(50, 50, { fit: "cover" })
+                .webp({ quality: 80 });
+            thumbBuffer = await thumbSharp.toBuffer();
+            thumbSharp.destroy();
         } else {
-            continue; // Skip if not glossary or fanart
+            continue;
         }
 
         // Write thumbnails to all destinations

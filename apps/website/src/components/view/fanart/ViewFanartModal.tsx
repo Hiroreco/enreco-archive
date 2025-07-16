@@ -13,7 +13,6 @@ import {
     DialogContent,
 } from "@enreco-archive/common-ui/components/dialog";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Shuffle } from "lucide-react";
 
 export interface FanartEntry {
     url: string;
@@ -46,6 +45,8 @@ interface MasonryColumn {
     height: number;
 }
 
+const ITEMS_PER_PAGE = 50;
+
 const ViewFanartModal = ({
     open,
     onOpenChange,
@@ -74,11 +75,17 @@ const ViewFanartModal = ({
     >(null);
     const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
     const [shuffled, setShuffled] = useState(false);
-    const [shuffledFanart, setShuffledFanart] = useState<FanartEntry[] | null>(null);
+    const [shuffledFanart, setShuffledFanart] = useState<FanartEntry[] | null>(
+        null,
+    );
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] = useState(false);
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
+
+    // Pagination state
+    const [currentPage, setCurrentPage] = useState(1);
+    const [isLoading, setIsLoading] = useState(false);
 
     // Replace header collapse state with pin state
     const [isHeaderPinned, setIsHeaderPinned] = useState(false);
@@ -127,7 +134,8 @@ const ViewFanartModal = ({
         return Array.from(allDays).sort((a, b) => a - b);
     }, [fanart]);
 
-    const filteredFanart = useMemo(() => {
+    // Full filtered fanart (without pagination)
+    const allFilteredFanart = useMemo(() => {
         const base = fanart.filter((entry) => {
             let characterMatch = false;
 
@@ -166,6 +174,7 @@ const ViewFanartModal = ({
 
             return characterMatch && chapterMatch && dayMatch && videoMatch;
         });
+
         if (shuffled && shuffledFanart) {
             // Only show shuffled items that match the current filter
             const filteredIds = new Set(base.map((e) => e.url));
@@ -183,30 +192,58 @@ const ViewFanartModal = ({
         shuffled,
         shuffledFanart,
     ]);
+
+    // Paginated fanart (what's currently displayed), needs pagination because loading 400 items at once is too much
+    const filteredFanart = useMemo(() => {
+        const maxItems = currentPage * ITEMS_PER_PAGE;
+        return allFilteredFanart.slice(0, maxItems);
+    }, [allFilteredFanart, currentPage]);
+
+    // Check if there are more items to load
+    const hasMore = useMemo(() => {
+        return filteredFanart.length < allFilteredFanart.length;
+    }, [filteredFanart.length, allFilteredFanart.length]);
+
+    // Load more items
+    const loadMore = useCallback(() => {
+        if (hasMore && !isLoading) {
+            setIsLoading(true);
+            // Simulate loading delay for smooth UX
+            setTimeout(() => {
+                setCurrentPage((prev) => prev + 1);
+                setIsLoading(false);
+            }, 100);
+        }
+    }, [hasMore, isLoading]);
+
     // Shuffle handler
     const handleShuffle = useCallback(() => {
-        // Fisher-Yates shuffle
-        const arr = [...filteredFanart];
+        // Fisher-Yates shuffle on the full filtered set
+        const arr = [...allFilteredFanart];
         for (let i = arr.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [arr[i], arr[j]] = [arr[j], arr[i]];
         }
         setShuffledFanart(arr);
         setShuffled(true);
-    }, [filteredFanart]);
+        // Reset pagination when shuffling
+        setCurrentPage(1);
+    }, [allFilteredFanart]);
 
     // Unshuffle handler
     const handleUnshuffle = useCallback(() => {
         setShuffled(false);
         setShuffledFanart(null);
+        // Reset pagination when unshuffling
+        setCurrentPage(1);
     }, []);
 
     const currentEntry = useMemo(
         () =>
             currentLightboxEntryIndex !== null
-                ? filteredFanart[currentLightboxEntryIndex]
+                ? allFilteredFanart[currentLightboxEntryIndex]
                 : null,
-        [currentLightboxEntryIndex, filteredFanart],
+        [currentLightboxEntryIndex, allFilteredFanart],
     );
 
     // Handlers
@@ -219,6 +256,7 @@ const ViewFanartModal = ({
         setMemesOnly(false);
         setShuffled(false);
         setShuffledFanart(null);
+        setCurrentPage(1);
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -233,10 +271,10 @@ const ViewFanartModal = ({
     const handleNextEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
             const nextIndex =
-                currentLightboxEntryIndex < filteredFanart.length - 1
+                currentLightboxEntryIndex < allFilteredFanart.length - 1
                     ? currentLightboxEntryIndex + 1
                     : 0;
-            const nextEntry = filteredFanart[nextIndex];
+            const nextEntry = allFilteredFanart[nextIndex];
             if (nextEntry?.images[0]) {
                 const img = new window.Image();
                 img.src = nextEntry.images[0].src;
@@ -245,15 +283,15 @@ const ViewFanartModal = ({
                 setCurrentLightboxEntryIndex(nextIndex);
             }
         }
-    }, [currentLightboxEntryIndex, filteredFanart]);
+    }, [currentLightboxEntryIndex, allFilteredFanart]);
 
     const handlePrevEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
             const prevIndex =
                 currentLightboxEntryIndex > 0
                     ? currentLightboxEntryIndex - 1
-                    : filteredFanart.length - 1;
-            const prevEntry = filteredFanart[prevIndex];
+                    : allFilteredFanart.length - 1;
+            const prevEntry = allFilteredFanart[prevIndex];
             if (prevEntry?.images[0]) {
                 const img = new window.Image();
                 img.src = prevEntry.images[0].src;
@@ -262,33 +300,40 @@ const ViewFanartModal = ({
                 setCurrentLightboxEntryIndex(prevIndex);
             }
         }
-    }, [currentLightboxEntryIndex, filteredFanart]);
+    }, [currentLightboxEntryIndex, allFilteredFanart]);
 
-    // Handle scroll for auto-collapse
+    // Handle scroll for auto-collapse AND infinite scroll
     const handleScroll = useCallback(() => {
-        if (!contentContainerRef.current || isHeaderPinned) return;
+        if (!contentContainerRef.current) return;
 
         const container = contentContainerRef.current;
         const currentScrollTop = container.scrollTop;
         const scrollingDown = currentScrollTop > lastScrollTop.current;
 
-        // Check if content is actually scrollable (scroll height > client height)
-        const isScrollable = container.scrollHeight > container.clientHeight;
-
-        // Only trigger changes if there's meaningful scroll movement AND content is scrollable
-        if (
-            Math.abs(currentScrollTop - lastScrollTop.current) > 10 &&
-            isScrollable
-        ) {
-            if (scrollingDown && !isHeaderCollapsed) {
-                setIsHeaderCollapsed(true);
+        // Auto-collapse logic (only if not pinned)
+        if (!isHeaderPinned) {
+            const isScrollable =
+                container.scrollHeight > container.clientHeight;
+            if (
+                Math.abs(currentScrollTop - lastScrollTop.current) > 10 &&
+                isScrollable
+            ) {
+                if (scrollingDown && !isHeaderCollapsed) {
+                    setIsHeaderCollapsed(true);
+                }
             }
         }
 
-        // Note: I removed the auto expand on scroll to top cause it got really annoying after a while
+        // Infinite scroll logic
+        const { scrollTop, scrollHeight, clientHeight } = container;
+        const threshold = 1000; // Load more when 1000px from bottom
+
+        if (scrollTop + clientHeight >= scrollHeight - threshold) {
+            loadMore();
+        }
 
         lastScrollTop.current = currentScrollTop;
-    }, [isHeaderPinned, isHeaderCollapsed]);
+    }, [isHeaderPinned, isHeaderCollapsed, loadMore]);
 
     // Need this because on first open contentContainerRef.current is null, for whatever reason
     const setContentContainerRef = useCallback(
@@ -394,15 +439,23 @@ const ViewFanartModal = ({
         }
     }, [open, handleScroll]);
 
-    // Reset scroll position when filters change
+    // Reset pagination and scroll position when filters change
     useEffect(() => {
+        setCurrentPage(1);
         if (contentContainerRef.current) {
             contentContainerRef.current.scrollTo({
                 top: 0,
                 behavior: "smooth",
             });
         }
-    }, [selectedCharacters, selectedChapter, selectedDay]);
+    }, [
+        selectedCharacters,
+        selectedChapter,
+        selectedDay,
+        inclusiveMode,
+        videosOnly,
+        memesOnly,
+    ]);
 
     useEffect(() => {
         if (initialCharacters && initialCharacters.length > 0) {
@@ -456,27 +509,27 @@ const ViewFanartModal = ({
         }
     }, [isHeaderPinned]);
 
-    // Preload adjacent entries
+    // Preload adjacent entries (using full dataset)
     useEffect(() => {
         if (currentLightboxEntryIndex !== null && isLightboxOpen) {
             const nextIndex =
-                currentLightboxEntryIndex < filteredFanart.length - 1
+                currentLightboxEntryIndex < allFilteredFanart.length - 1
                     ? currentLightboxEntryIndex + 1
                     : 0;
             const prevIndex =
                 currentLightboxEntryIndex > 0
                     ? currentLightboxEntryIndex - 1
-                    : filteredFanart.length - 1;
+                    : allFilteredFanart.length - 1;
 
             [nextIndex, prevIndex].forEach((index) => {
-                const entry = filteredFanart[index];
+                const entry = allFilteredFanart[index];
                 if (entry?.images[0]) {
                     const img = new window.Image();
                     img.src = entry.images[0].src;
                 }
             });
         }
-    }, [currentLightboxEntryIndex, filteredFanart, isLightboxOpen]);
+    }, [currentLightboxEntryIndex, allFilteredFanart, isLightboxOpen]);
 
     return (
         <>
@@ -504,14 +557,16 @@ const ViewFanartModal = ({
                             onChapterChange={setSelectedChapter}
                             onDayChange={setSelectedDay}
                             onReset={resetFilters}
-                            totalItems={filteredFanart.length}
+                            totalItems={allFilteredFanart.length}
                             inclusiveMode={inclusiveMode}
                             onInclusiveModeChange={setInclusiveMode}
                             videosOnly={videosOnly}
                             onVideosOnlyChange={setVideosOnly}
                             memesOnly={memesOnly}
                             onMemesOnlyChange={setMemesOnly}
-                            onShuffle={shuffled ? handleUnshuffle : handleShuffle}
+                            onShuffle={
+                                shuffled ? handleUnshuffle : handleShuffle
+                            }
                             shuffled={shuffled}
                         />
                     </CollapsibleHeader>
@@ -528,6 +583,28 @@ const ViewFanartModal = ({
                             selectedDay={selectedDay}
                             onOpenLightbox={handleOpenLightbox}
                         />
+
+                        {/* Loading indicator */}
+                        {isLoading && (
+                            <div className="flex justify-center py-8">
+                                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                            </div>
+                        )}
+
+                        {/* Load more button as fallback */}
+                        {hasMore && !isLoading && (
+                            <div className="flex justify-center py-8">
+                                <button
+                                    onClick={loadMore}
+                                    className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+                                >
+                                    Load More (
+                                    {allFilteredFanart.length -
+                                        filteredFanart.length}{" "}
+                                    remaining)
+                                </button>
+                            </div>
+                        )}
                     </div>
                 </DialogContent>
             </Dialog>
