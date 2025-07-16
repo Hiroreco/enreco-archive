@@ -39,14 +39,14 @@ const ViewBasicEgg = ({
     };
 
     return (
-        <div className="relative select-none">
+        <>
             <Image
                 width={100}
                 height={100}
                 src={`images-opt/${imageName}-opt.webp`}
                 draggable={false}
                 className={cn(
-                    "transition-all absolute -bottom-[70px] right-0 h-[100px] w-auto",
+                    "transition-all select-none absolute -bottom-[70px] right-0 h-[100px] w-auto",
                     {
                         "cursor-pointer opacity-50 hover:opacity-80":
                             !isPlaying,
@@ -87,7 +87,7 @@ const ViewBasicEgg = ({
                     />
                 </div>
             )}
-        </div>
+        </>
     );
 };
 
