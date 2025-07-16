@@ -25,6 +25,10 @@ hr {
     @apply w-full my-2;
 }
 
+blockquote {
+    @apply p-4 my-6 bg-background/80 text-lg backdrop-blur-md border-l-4 border-neutral-300 dark:bg-white/10  italic font-medium text-gray-900  dark:border-gray-500 dark:text-gray-100;
+}
+
 button {
     cursor: pointer;
 }
