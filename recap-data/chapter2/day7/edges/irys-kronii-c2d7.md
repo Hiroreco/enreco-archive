@@ -53,3 +53,9 @@ IRyS began to spiral. Love-blind, fogged with desperation. She would not lose th
 ## Fanart
 
 ["Couple goals!!" by Sora](https://x.com/GuyFloating/status/1921366078610923856)
+
+## Memes
+
+["Mom and Dad are fighting" by Lamebo](https://x.com/Lambo_ide/status/1921064184957022428)
+
+<!-- bijou -->

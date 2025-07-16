@@ -112,7 +112,7 @@ async function main() {
         const text = await fs.readFile(file, "utf-8");
 
         // Find the position of the memes section
-        const memesSectionMatch = text.match(/^##\s*Memes\s*$/m);
+        const memesSectionMatch = text.match(/^##\s*Meme(s)?\s*$/m);
         const memesSectionIndex = memesSectionMatch
             ? memesSectionMatch.index!
             : -1;

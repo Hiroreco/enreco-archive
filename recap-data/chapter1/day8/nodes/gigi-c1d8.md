@@ -42,3 +42,5 @@ The heroes were returned to the [white room](https://www.youtube.com/live/WvRIda
 ["the cuck chair" by Turing](https://x.com/DoctorTuring/status/1831134511247089863)
 
 ["He wins" by Kazuki Ich](https://x.com/kazukiich/status/1832728799223673195)
+
+["What would he do" by Nom](https://x.com/NomyWomy/status/1833337740441550885)

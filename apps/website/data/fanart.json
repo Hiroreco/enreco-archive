@@ -473,6 +473,27 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/adarinsinner/status/1830536762684543004",
+    "label": "\"Say My Name!!\"",
+    "author": "adarinsinner",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "kronii",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/adarinsinner-1830536762684543004-0-opt.webp",
+        "width": 1824,
+        "height": 1570,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/koizumi_arata/status/1830329272155931070",
     "label": "\"Queen Tam Gandr\"",
     "author": "koizumi_arata",
@@ -2432,6 +2453,25 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/impromptuwriter/status/1832535016154501268",
+    "label": "\"Love sacrifices all things to bless the thing it loves\"",
+    "author": "impromptuwriter",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/impromptuwriter-1832535016154501268-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/dreamplanes256/status/1844357367313649767",
     "label": "\"A Knight's Tale\"",
     "author": "dreamplanes256",
@@ -4365,6 +4405,26 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/nomywomy/status/1833337740441550885",
+    "label": "\"What would he do\"",
+    "author": "nomywomy",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nomywomy-1833337740441550885-0-opt.webp",
+        "width": 1022,
+        "height": 1024,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/_bambooz/status/1918628681867743581",
     "label": "\"orge\"",
     "author": "_bambooz",
@@ -4376,6 +4436,24 @@
         "src": "images-opt/_bambooz-1918628681867743581-0-opt.webp",
         "width": 1200,
         "height": 991,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1861075335011352953",
+    "label": "\"the quintessential hashtag enreco experience\"",
+    "author": "elisbian_",
+    "chapter": 0,
+    "day": 7,
+    "characters": [],
+    "images": [
+      {
+        "src": "images-opt/elisbian_-1861075335011352953-0-opt.webp",
+        "width": 562,
+        "height": 680,
         "type": "image"
       }
     ],
@@ -8884,6 +8962,28 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/lambo_ide/status/1921064184957022428",
+    "label": "\"Mom and Dad are fighting\"",
+    "author": "lambo_ide",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "irys",
+      "kronii",
+      "bijou"
+    ],
+    "images": [
+      {
+        "src": "images-opt/lambo_ide-1921064184957022428-0-opt.webp",
+        "width": 1280,
+        "height": 932,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/antsy_af/status/1921049754114339102",
     "label": "\"The Most Evil Character in Fiction\"",
     "author": "antsy_af",
@@ -8897,6 +8997,28 @@
         "src": "images-opt/antsy_af-1921049754114339102-0-opt.webp",
         "width": 2154,
         "height": 666,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/_bambooz/status/1921705687010185267",
+    "label": "\"she's all of the above\"",
+    "author": "_bambooz",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "irys",
+      "kronii",
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/_bambooz-1921705687010185267-0-opt.webp",
+        "width": 1068,
+        "height": 1508,
         "type": "image"
       }
     ],
@@ -9005,6 +9127,26 @@
     ],
     "videos": [],
     "type": "art"
+  },
+  {
+    "url": "https://x.com/antzk_3/status/1921062800375320713",
+    "label": "\"A week of racism, incest, divorce, etc.\"",
+    "author": "antzk_3",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/antzk_3-1921062800375320713-0-opt.webp",
+        "width": 773,
+        "height": 394,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/iryry_a/status/1921139006986678434",
@@ -9455,6 +9597,22 @@
       }
     ],
     "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/soujirokaito/status/1922661640601833785",
+    "label": "\"ENreco 2 in a nutshell\"",
+    "author": "soujirokaito",
+    "chapter": 1,
+    "day": 6,
+    "characters": [],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/soujirokaito-1922661640601833785-0-opt.mp4",
+        "type": "video"
+      }
+    ],
     "type": "meme"
   },
   {

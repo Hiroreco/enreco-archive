@@ -58,3 +58,7 @@ No matter what it took.
 ## Memes
 
 ["The Most Evil Character in Fiction" by Antsy](https://x.com/antsy_af/status/1921049754114339102)
+
+["she's all of the above" by bambooz](https://x.com/_bambooz/status/1921705687010185267)
+
+<!-- bae, kronii -->

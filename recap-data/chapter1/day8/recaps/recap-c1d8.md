@@ -33,3 +33,5 @@ With corruption at its peak, relationships transformed, rivalries settled, and s
 ## Memes
 
 ["orge" by bambooz](https://x.com/_bambooz/status/1918628681867743581)
+
+["the quintessential hashtag enreco experience" by Eli](https://x.com/Elisbian_/status/1861075335011352953)

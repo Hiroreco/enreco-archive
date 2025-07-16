@@ -61,3 +61,5 @@ At one point, Amelia remembered a diamond, but it was still too foggy. Her head 
 ## Memes
 
 ["Im broken..." by Amelia's simp](https://x.com/Amelias_Simp/status/1831917021833077059)
+
+["Love sacrifices all things to bless the thing it loves" by MakeShift](https://x.com/ImpromptuWriter/status/1832535016154501268)
