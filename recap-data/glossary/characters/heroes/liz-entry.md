@@ -66,10 +66,10 @@ She couldn’t remember that life—not fully. But she could feel traces of it, 
 
 - [Read "Knight's Log 0001](#text:liz-journal-c2d1)
 - [Read "Knight's Log 0002](#text:liz-journal-c2d2)
-- [Read "Knight's Log 0003](#text:liz-journal-c2d3)
-- [Read "Knight's Log 0004](#text:liz-journal-c2d4)
-- [Read "Knight's Log 0005](#text:liz-journal-c2d5)
-- [Read "Knight's Log 0006](#text:liz-journal-c2d6)
+- [Read "Knight's Log 0003](#text:liz-journal-c2d4)
+- [Read "Knight's Log 0004](#text:liz-journal-c2d5)
+- [Read "Knight's Log 0005](#text:liz-journal-c2d6)
+- [Read "Knight's Log 0006](#text:liz-journal-c2d7)
 
 ## Trivia
 
