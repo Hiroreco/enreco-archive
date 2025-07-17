@@ -4,4 +4,6 @@ export interface GalleryItem {
     type: "image" | "video";
     width?: number;
     height?: number;
+    chapter?: number;
+    day?: number;
 }

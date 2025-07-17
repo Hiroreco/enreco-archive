@@ -636,6 +636,9 @@ const ViewFanartModal = ({
                             type: "image" as const,
                             width: img.width,
                             height: img.height,
+                            chapter: currentEntry.chapter,
+                            day: currentEntry.day,
+                            chapterDayLabel: `C${typeof currentEntry.chapter === "number" ? currentEntry.chapter + 1 : 1}D${typeof currentEntry.day === "number" ? currentEntry.day + 1 : 1}`
                         })),
                         ...currentEntry.videos.map((video) => ({
                             src: video.src,
@@ -644,6 +647,9 @@ const ViewFanartModal = ({
                                 " by " +
                                 currentEntry.author,
                             type: "video" as const,
+                            chapter: currentEntry.chapter,
+                            day: currentEntry.day,
+                            chapterDayLabel: `C${typeof currentEntry.chapter === "number" ? currentEntry.chapter + 1 : 1}D${typeof currentEntry.day === "number" ? currentEntry.day + 1 : 1}`
                         })),
                     ]}
                     priority={true}

@@ -94,8 +94,13 @@ export const ThumbnailCarousel = forwardRef<
                 </div>
             ))}
 
-            <div className="absolute bottom-2 right-4 bg-black/50 text-white text-xs px-2 py-1 rounded-full">
-                {currentItemIndex + 1} / {items.length}
+            <div className="flex justify-between items-end w-full px-4 pb-2 absolute left-0 bottom-0">
+                <div className="bg-black/50 text-white text-xs px-2 py-1 rounded-full">
+                    {`C${typeof items[currentItemIndex]?.chapter === "number" ? items[currentItemIndex].chapter + 1 : 1}D${typeof items[currentItemIndex]?.day === "number" ? items[currentItemIndex].day + 1 : 1}`}
+                </div>
+                <div className="bg-black/50 text-white text-xs px-2 py-1 rounded-full">
+                    {currentItemIndex + 1} / {items.length}
+                </div>
             </div>
         </div>
     );
