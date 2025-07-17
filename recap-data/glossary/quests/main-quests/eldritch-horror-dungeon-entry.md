@@ -30,10 +30,8 @@ There were three main puzzles:
 
 ### Rewards
 
-- ["Violet"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Vinyl - Ninomae Ina'nis
-- Memories of Ninomae Ina'nis
-
-[Recollection - Ninomae Ina'nis](#embed:https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)
+- ["Violet"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) Disc - Ninomae Ina'nis
+- [Memories](https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D) of Ninomae Ina'nis
 
 ## Sources
 

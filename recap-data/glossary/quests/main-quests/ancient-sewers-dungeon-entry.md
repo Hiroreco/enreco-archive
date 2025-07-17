@@ -46,7 +46,7 @@ Answer all five correctly to clear the final dungeon of the first chapter.
 ### Rewards
 
 - A Warp Crystal
-- ["ChikuTaku"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Vinyl - Amelia Watson
+- ["ChikuTaku"](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1) Disc - Amelia Watson
 - [Memories](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D) of Amelia Watson
 
 ## Sources

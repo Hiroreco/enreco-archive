@@ -33,9 +33,7 @@ Today, the dungeon is an empty shell of what Atlantis once was. To enter, the he
 ### Rewards
 
 - ["REFLECT"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05) – a music disc by Gawr Gura
-- Memories of Gawr Gura
-
-[Recollection - Gawr Gura](#embed:https://www.youtube.com/watch?v=SDnRHwpnIH4)
+- [Memories](https://www.youtube.com/watch?v=SDnRHwpnIH4) of Gawr Gura
 
 ## Sources
 

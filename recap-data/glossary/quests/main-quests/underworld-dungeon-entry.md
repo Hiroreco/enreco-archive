@@ -30,10 +30,8 @@ A dark, gloomy, and intimidating aura permeated the dungeon. Outside, floating r
 
 ### Rewards
 
-- **"Excuse My Rudeness, But Could You Please RIP"** – a music disc by Mori Calliope
-- **Calli's Memories**
-
-[Recollection - Mori Calliope](#embed:https://www.youtube.com/watch?v=j8I3gqJV1NU)
+- ["Excuse My Rudeness, But Could You Please RIP"](https://www.youtube.com/watch?v=5y3xh8gs24c) – a music disc by Mori Calliope
+- [Memories](https://www.youtube.com/watch?v=j8I3gqJV1NU) of Mori Calliope
 
 ## Sources
 

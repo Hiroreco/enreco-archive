@@ -51,7 +51,7 @@ Their base took the form of a serene, open-air temple that radiated tranquilityâ
 
 #### Jade Sword
 
-**Members:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Mori Calliope](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry), [Mococo Abyssguard](#entry:mococo-entry), [Jyan Watson](#entry:ame-entry)
+**Members:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Mori Calliope](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry), [Mococo Abyssguard](#entry:mococo-entry), [Jyon Watson](#entry:ame-entry)
 **Guildmaster:** Viridus
 
 Champions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind, fluffy girl, a quirky blonde detective, and Elizabethâ€”perhaps the only one who truly embodied the chivalric ideal.
