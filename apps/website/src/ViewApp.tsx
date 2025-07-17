@@ -21,27 +21,24 @@ import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
-import { useAudioStore } from "@/store/audioStore";
+import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
+import { Book, Dice6, Info, Settings } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 
-import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
 import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
-import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
+
 import {
     CurrentChapterDataContext,
     CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
 import { resolveDataForDay } from "@/lib/chart-utils";
-import { isEdge, isNode } from "@/lib/utils";
-import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
+import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import Image from "next/image";
-import { useShallow } from "zustand/react/shallow";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -69,16 +66,8 @@ interface Props {
 let didInit = false;
 const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     /* Hooks that are not use*Store/useState/useMemo/useCallback */
+    useAudioSettingsSync();
     useClickOutside();
-    /* State variables */
-    const [isMusicModalOpen, setIsMusicModalOpen, isJukeboxPlaying] =
-        useMusicPlayerStore(
-            useShallow((state) => [
-                state.isOpen,
-                state.setIsOpen,
-                state.isPlaying,
-            ]),
-        );
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
@@ -92,112 +81,81 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
     // Audio Store
     const changeBGM = useAudioStore((state) => state.changeBGM);
-    const setSiteBgmKey = useAudioStore((state) => state.setSiteBgmKey);
 
     // Main App Store
-    const [chapter, day, setChapter, setDay] = useViewStore(
-        useShallow((state) => [
-            state.data.chapter,
-            state.data.day,
-            state.data.setChapter,
-            state.data.setDay,
-        ]),
-    );
+    const chapter = useViewStore((state) => state.data.chapter);
+    const day = useViewStore((state) => state.data.day);
+    const setDay = useViewStore((state) => state.data.setDay);
+    const setChapter = useViewStore((state) => state.data.setChapter);
 
-    const [
-        currentCard,
-        openNodeCard,
-        openEdgeCard,
-        openSettingsCard,
-        closeCard,
-        selectedElement,
-        selectElement,
-        deselectElement,
-    ] = useViewStore(
-        useShallow((state) => [
-            state.ui.currentCard,
-            state.ui.openNodeCard,
-            state.ui.openEdgeCard,
-            state.ui.openSettingsCard,
-            state.ui.closeCard,
-            state.ui.selectedElement,
-            state.ui.selectElement,
-            state.ui.deselectElement,
-        ]),
-    );
+    const currentCard = useViewStore((state) => state.ui.currentCard);
+    const openNodeCard = useViewStore((state) => state.ui.openNodeCard);
+    const openEdgeCard = useViewStore((state) => state.ui.openEdgeCard);
+    const openSettingsCard = useViewStore((state) => state.ui.openSettingsCard);
+    const closeCard = useViewStore((state) => state.ui.closeCard);
+    const selectedElement = useViewStore((state) => state.ui.selectedElement);
+    const selectElement = useViewStore((state) => state.ui.selectElement);
+    const deselectElement = useViewStore((state) => state.ui.deselectElement);
 
-    const [
-        showOnlyNewEdges,
-        setShowOnlyNewEdges,
-        relationshipVisibility,
-        toggleRelationship,
-        toggleAllRelationships,
-        setRelationshipKeys,
-        team,
-        toggleTeam,
-        toggleAllTeams,
-        setTeamKeys,
-        character,
-        toggleCharacter,
-        toggleAllCharacters,
-        setCharacterKeys,
-    ] = useViewStore(
-        useShallow((state) => [
-            state.visibility.showOnlyNewEdges,
-            state.visibility.setShowOnlyNewEdges,
-            state.visibility.relationship,
-            state.visibility.toggleRelationship,
-            state.visibility.toggleAllRelationships,
-            state.visibility.setRelationshipKeys,
-            state.visibility.team,
-            state.visibility.toggleTeam,
-            state.visibility.toggleAllTeams,
-            state.visibility.setTeamKeys,
-            state.visibility.character,
-            state.visibility.toggleCharacter,
-            state.visibility.toggleAllCharacters,
-            state.visibility.setCharacterKeys,
-        ]),
+    const showOnlyNewEdges = useViewStore(
+        (state) => state.visibility.showOnlyNewEdges,
     );
-
-    const [
-        openModal,
-        openInfoModal,
-        openSettingsModal,
-        openMinigameModal,
-        openChapterRecapModal,
-        openFanartModal,
-        closeModal,
-        videoUrl,
-    ] = useViewStore(
-        useShallow((state) => [
-            state.modal.openModal,
-            state.modal.openInfoModal,
-            state.modal.openSettingsModal,
-            state.modal.openMinigameModal,
-            state.modal.openChapterRecapModal,
-            state.modal.openFanartModal,
-            state.modal.closeModal,
-            state.modal.videoUrl,
-        ]),
+    const setShowOnlyNewEdges = useViewStore(
+        (state) => state.visibility.setShowOnlyNewEdges,
     );
-
-    console.log(openModal);
+    const relationshipVisibility = useViewStore(
+        (state) => state.visibility.relationship,
+    );
+    const toggleRelationship = useViewStore(
+        (state) => state.visibility.toggleRelationship,
+    );
+    const toggleAllRelationships = useViewStore(
+        (state) => state.visibility.toggleAllRelationships,
+    );
+    const setRelationshipKeys = useViewStore(
+        (state) => state.visibility.setRelationshipKeys,
+    );
+    const team = useViewStore((state) => state.visibility.team);
+    const toggleTeam = useViewStore((state) => state.visibility.toggleTeam);
+    const toggleAllTeams = useViewStore(
+        (state) => state.visibility.toggleAllTeams,
+    );
+    const setTeamKeys = useViewStore((state) => state.visibility.setTeamKeys);
+    const character = useViewStore((state) => state.visibility.character);
+    const toggleCharacter = useViewStore(
+        (state) => state.visibility.toggleCharacter,
+    );
+    const toggleAllCharacters = useViewStore(
+        (state) => state.visibility.toggleAllCharacters,
+    );
+    const setCharacterKeys = useViewStore(
+        (state) => state.visibility.setCharacterKeys,
+    );
+    const openModal = useViewStore((state) => state.modal.openModal);
+    const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
+    const openSettingsModal = useViewStore(
+        (state) => state.modal.openSettingsModal,
+    );
+    const openMinigameModal = useViewStore(
+        (state) => state.modal.openMinigameModal,
+    );
+    const openChapterRecapModal = useViewStore(
+        (state) => state.modal.openChapterRecapModal,
+    );
+    const closeModal = useViewStore((state) => state.modal.closeModal);
+    const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
     // Persisted Store
-    const [countReadElements, getReadStatus, setReadStatus] =
-        usePersistedViewStore(
-            useShallow((state) => [
-                state.countReadElements,
-                state.getReadStatus,
-                state.setReadStatus,
-            ]),
-        );
-    const [hasVisitedBefore, setHasVisitedBefore] = usePersistedViewStore(
-        useShallow((state) => [
-            state.hasVisitedBefore,
-            state.setHasVisitedBefore,
-        ]),
+    const countReadElements = usePersistedViewStore(
+        (state) => state.countReadElements,
+    );
+    const getReadStatus = usePersistedViewStore((state) => state.getReadStatus);
+    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
+    const hasVisitedBefore = usePersistedViewStore(
+        (state) => state.hasVisitedBefore,
+    );
+    const setHasVisitedBefore = usePersistedViewStore(
+        (state) => state.setHasVisitedBefore,
     );
 
     /* State variables */
@@ -362,10 +320,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         setTeamKeys(newChapterData.teams);
         setCharacterKeys(newDayData.nodes);
 
-        if (!isJukeboxPlaying) {
-            changeBGM(newChapterData.bgmSrc);
-        }
-        setSiteBgmKey(newChapterData.bgmSrc);
+        changeBGM(newChapterData.bgmSrc);
         setChapter(newChapter);
         setDay(newDay);
         setBrowserHash(`${newChapter}/${newDay}`);
@@ -493,7 +448,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     }
 
     return (
-        <div>
+        <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <CurrentChapterDataContext value={currentChapterContextValue}>
                     <ViewChart
@@ -586,6 +541,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     />
                 </CurrentDayDataContext>
             </div>
+
             <ViewInfoModal
                 open={openModal === "info"}
                 onClose={() => {
@@ -598,29 +554,29 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     }
                 }}
             />
+
             <ViewSettingsModal
                 open={openModal === "settings"}
                 onClose={closeModal}
             />
+
             <ViewMiniGameModal
                 open={openModal === "minigame"}
                 onClose={closeModal}
             />
+
             <ViewVideoModal
                 open={openModal === "video"}
                 onClose={closeModal}
                 videoUrl={videoUrl}
                 bgImage={bgImage}
             />
+
             <ViewChapterRecapModal
                 key={`chapter-recap-modal-${chapter}`}
                 open={openModal === "chapterRecap"}
                 onClose={closeModal}
                 currentChapter={chapter}
-            />
-            <ViewMusicPlayerModal
-                open={isMusicModalOpen}
-                onClose={() => setIsMusicModalOpen(false)}
             />
 
             <ViewReadCounter
@@ -635,25 +591,11 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
-            <ViewFanartModal
-                key={`fanart-modal-${chapter}-${day}`}
-                open={openModal === "fanart"}
-                onClose={closeModal}
-                chapter={chapter}
-                day={day}
-                initialCharacter={(() => {
-                    if (currentCard === "node" && selectedNode) {
-                        return selectedNode.id;
-                    }
-                    return undefined;
-                })()}
-            />
-
-            <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
+            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
                 <IconButton
                     id="chart-info-btn"
-                    className="size-[40px] p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-105"
-                    tooltipText="Day Recap / Visibility"
+                    className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
+                    tooltipText="Chart Info / Visibility"
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
@@ -665,16 +607,16 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     }}
                 >
                     <Image
-                        alt="Enreco Emblem"
-                        width={40}
-                        height={40}
                         src="images-opt/emblem-opt.webp"
+                        className="w-full h-full"
+                        fill
+                        alt="Chart Info / Visibility"
                     />
                 </IconButton>
 
                 <IconButton
                     id="info-btn"
-                    className="size-[40px] p-1"
+                    className="h-10 w-10 p-1"
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
@@ -685,7 +627,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="settings-btn"
-                    className="size-[40px] p-1"
+                    className="h-10 w-10 p-1"
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
@@ -696,7 +638,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="minigames-btn"
-                    className="size-[40px] p-1"
+                    className="h-10 w-10 p-1"
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
@@ -707,40 +649,19 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="chapter-recap-btn"
-                    className="size-[40px] p-1"
-                    tooltipText="Chapter Recap"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Chatper Recap"
                     enabled={true}
                     tooltipSide="left"
                     onClick={openChapterRecapModal}
                 >
                     <Book />
                 </IconButton>
-
-                <IconButton
-                    id="music-player-btn"
-                    className="size-[40px] p-1"
-                    tooltipText="Music Player"
-                    enabled={true}
-                    tooltipSide="left"
-                    onClick={() => setIsMusicModalOpen(!isMusicModalOpen)}
-                >
-                    <Disc3 />
-                </IconButton>
-
-                <IconButton
-                    id="fanart-btn"
-                    className="size-[40px] p-1"
-                    tooltipText="Fanart"
-                    enabled={true}
-                    tooltipSide="left"
-                    onClick={() => openFanartModal()}
-                >
-                    <Palette />
-                </IconButton>
             </div>
+
             <div
                 className={cn(
-                    "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0",
+                    "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
                     {
                         "w-[60%] lg:block hidden": currentCard === "setting",
                         "w-full md:w-4/5 2xl:w-2/5 mx-auto":
@@ -749,6 +670,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 )}
             >
                 <ViewTransportControls
+                    isAnyModalOpen={openModal !== null}
                     chapter={chapter}
                     chapterData={siteData.chapters}
                     day={day}
@@ -768,7 +690,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
             </div>
-        </div>
+        </>
     );
 };
 

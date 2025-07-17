@@ -22,6 +22,7 @@ interface ViewTransportControlsProps {
     currentCard: CardType;
     onChapterChange: (newChapter: number) => void;
     onDayChange: (newDay: number) => void;
+    isAnyModalOpen: boolean;
 }
 
 export default function ViewTransportControls({
@@ -33,18 +34,16 @@ export default function ViewTransportControls({
     currentCard,
     onChapterChange,
     onDayChange,
+    isAnyModalOpen,
 }: ViewTransportControlsProps) {
     // Keyboard navigation
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (currentCard !== null && currentCard !== "setting") return;
-            // TODO: Temporary fix, remove later
-            const isAnyDialogOpen =
-                document.querySelector('[role="dialog"]') !== null;
 
             // Disable keyboard navigation when any modal is open or when non-setting cards are open
             if (
-                isAnyDialogOpen ||
+                isAnyModalOpen ||
                 (currentCard !== null && currentCard !== "setting")
             )
                 return;
@@ -75,6 +74,7 @@ export default function ViewTransportControls({
         currentCard,
         onChapterChange,
         onDayChange,
+        isAnyModalOpen,
     ]);
 
     return (

@@ -73,7 +73,7 @@ const ViewCustomEdge = ({
         : {};
 
     return (
-        <>
+        <g>
             {isNewlyAdded && (
                 <defs>
                     {/* Mask for line drawing animation */}
@@ -106,7 +106,6 @@ const ViewCustomEdge = ({
                     stroke="transparent"
                     strokeWidth={25}
                     strokeLinecap="round"
-                    mask={isNewlyAdded ? `url(#${maskId})` : undefined}
                     style={{ zIndex: 5 }}
                 />
             )}
@@ -143,7 +142,7 @@ const ViewCustomEdge = ({
                     }}
                 />
             )}
-        </>
+        </g>
     );
 };
 
