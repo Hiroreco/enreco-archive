@@ -9,7 +9,7 @@ import ViewRecapCard from "@/components/view/ViewRecapCard";
 import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
 import {
     Chapter,
-    ChartData,
+    ImageNodeType,
     StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import { isMobileViewport } from "@/lib/utils";
@@ -19,19 +19,19 @@ interface Props {
     onCardClose: () => void;
     chapter: number;
     chapterData: Chapter;
-    dayData: ChartData;
-    edgeVisibility: StringToBooleanObjectMap;
-    onEdgeVisibilityChange: (
-        newEdgeVisibility: StringToBooleanObjectMap,
-    ) => void;
+    dayRecap: string;
+    nodes: ImageNodeType[];
+    relationshipVisibility: StringToBooleanObjectMap;
+    toggleRelationshipVisible: (edgeId: string, visibility: boolean) => void;
+    toggleAllRelationshipVisible: (visibility: boolean) => void;
+    showOnlyNewEdges: boolean;
+    setShowOnlyNewEdges: (newVal: boolean) => void;
     teamVisibility: StringToBooleanObjectMap;
-    onTeamVisibilityChange: (
-        newTeamVisibility: StringToBooleanObjectMap,
-    ) => void;
+    toggleTeamVisible: (teamId: string, visibility: boolean) => void;
+    toggleAllTeamsVisible: (visibility: boolean) => void;
     characterVisibility: { [key: string]: boolean };
-    onCharacterVisibilityChange: (
-        newCharacterVisibility: StringToBooleanObjectMap,
-    ) => void;
+    toggleCharacterVisible: (characterId: string, visibility: boolean) => void;
+    toggleAllCharactersVisible: (visibility: boolean) => void;
     setChartShrink: (width: number) => void;
     day: number;
     onDayChange: (newDay: number) => void;
@@ -42,13 +42,19 @@ const ViewSettingCard = ({
     onCardClose,
     chapter,
     chapterData,
-    dayData,
-    edgeVisibility,
-    onEdgeVisibilityChange,
+    dayRecap,
+    nodes,
+    relationshipVisibility,
+    toggleRelationshipVisible,
+    toggleAllRelationshipVisible,
+    showOnlyNewEdges,
+    setShowOnlyNewEdges,
     teamVisibility,
-    onTeamVisibilityChange,
+    toggleTeamVisible,
+    toggleAllTeamsVisible,
     characterVisibility,
-    onCharacterVisibilityChange,
+    toggleCharacterVisible,
+    toggleAllCharactersVisible,
     setChartShrink,
     day,
     onDayChange,
@@ -79,7 +85,7 @@ const ViewSettingCard = ({
                 </TabsList>
                 <TabsContent value="general" className="flex-1" asChild>
                     <ViewRecapCard
-                        dayData={dayData}
+                        dayRecap={dayRecap}
                         onEdgeLinkClicked={() => {}}
                         onNodeLinkClicked={() => {}}
                         day={day}
@@ -89,17 +95,20 @@ const ViewSettingCard = ({
                 </TabsContent>
                 <TabsContent value="visibility" className="flex-1" asChild>
                     <ViewVisibilityCard
-                        edgeVisibility={edgeVisibility}
-                        onEdgeVisibilityChange={onEdgeVisibilityChange}
+                        relationshipVisibility={relationshipVisibility}
+                        toggleRelationshipVisible={toggleRelationshipVisible}
+                        toggleAllRelationshipVisible={toggleAllRelationshipVisible}
+                        showOnlyNewEdges={showOnlyNewEdges}
+                        setShowOnlyNewEdges={setShowOnlyNewEdges}
                         teamVisibility={teamVisibility}
-                        onTeamVisibilityChange={onTeamVisibilityChange}
+                        toggleTeamVisible={toggleTeamVisible}
+                        toggleAllTeamsVisible={toggleAllTeamsVisible}
                         characterVisibility={characterVisibility}
-                        onCharacterVisibilityChange={
-                            onCharacterVisibilityChange
-                        }
+                        toggleCharacterVisible={toggleCharacterVisible}
+                        toggleAllCharactersVisible={toggleAllCharactersVisible}
                         chapter={chapter}
                         chapterData={chapterData}
-                        nodes={dayData.nodes}
+                        nodes={nodes}
                     />
                 </TabsContent>
             </Tabs>

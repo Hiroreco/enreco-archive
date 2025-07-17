@@ -10,29 +10,33 @@ import { useAudioStore } from "@/store/audioStore";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useSettingStore } from "@/store/settingStore";
+import { useCallback } from "react";
 
 interface ViewVideoModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     videoUrl: string | null;
     bgImage: string;
 }
 
 const ViewVideoModal = ({
     open,
-    onOpenChange,
+    onClose,
     videoUrl,
     bgImage,
 }: ViewVideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const playBGM = useAudioStore((state) => state.playBGM);
     const backdropFiler = useSettingStore((state) => state.backdropFilter);
-    const handleOpenChange = (newOpen: boolean) => {
-        if (!newOpen) {
-            playBGM();
-        }
-        onOpenChange(newOpen);
-    };
+    const handleOpenChange = useCallback(
+        (newOpen: boolean) => {
+            if (!newOpen) {
+                playBGM();
+                onClose();
+            }
+        },
+        [onClose, playBGM],
+    );
 
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>

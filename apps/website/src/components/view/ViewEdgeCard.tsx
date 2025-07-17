@@ -9,13 +9,13 @@ import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import {
+    ChartData,
     FixedEdgeType,
     ImageNodeType,
     Relationship,
 } from "@enreco-archive/common/types";
 import {
     getLighterOrDarkerColor,
-    idFromChapterDayId,
     isMobileViewport,
 } from "@/lib/utils";
 
@@ -33,26 +33,28 @@ interface Props {
     isCardOpen: boolean;
     selectedEdge: FixedEdgeType | null;
     edgeRelationship: Relationship | null;
-    chapter: number;
+    charts: ChartData[],
+    read: boolean,
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
-    setChartShrink: (width: number) => void;
     onDayChange: (newDay: number) => void;
-    availiableEdges: FixedEdgeType[];
+    onReadChange: (newReadStatus: boolean) => void;
+    setChartShrink: (width: number) => void;
 }
 
 const ViewEdgeCard = ({
     isCardOpen,
     selectedEdge,
     edgeRelationship,
-    chapter,
-    availiableEdges,
+    charts,
+    read,
     onCardClose,
     onEdgeLinkClicked,
     onNodeLinkClicked,
-    setChartShrink,
     onDayChange,
+    onReadChange,
+    setChartShrink,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
@@ -98,6 +100,15 @@ const ViewEdgeCard = ({
                 disableScrollablity={false}
             ></VaulDrawer>
         );
+    }
+
+    const availiableEdges = [];
+    for(const chart of charts) {
+        for(const edge of chart.edges) {
+            if(edge.id === selectedEdge.id) {
+                availiableEdges.push(edge);
+            }
+        }
     }
 
     const edgeStyle = edgeRelationship.style;
@@ -191,12 +202,8 @@ const ViewEdgeCard = ({
                     </ViewMarkdown>
                     <Separator className="mt-4" />
                     <ReadMarker
-                        id={idFromChapterDayId(
-                            chapter,
-                            selectedEdge.data!.day,
-                            selectedEdge.id,
-                        )}
-                        read={selectedEdge.data?.isRead}
+                        read={read}
+                        setRead={onReadChange}
                     />
                 </div>
             </div>

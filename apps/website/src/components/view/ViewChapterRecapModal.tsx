@@ -8,7 +8,7 @@ import {
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import data from "#/chapter-recaps.json";
 import { extractMarkdownSections } from "@/components/view/items-page/glossary-utils";
@@ -20,13 +20,13 @@ import { AnimatePresence, motion } from "framer-motion";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     currentChapter: number;
 }
 
 const ViewChapterRecapModal = ({
     open,
-    onOpenChange,
+    onClose,
     currentChapter,
 }: ViewChapterRecapModalProps) => {
     const validCurrentChapter = currentChapter < data.chapters.length;
@@ -49,6 +49,12 @@ const ViewChapterRecapModal = ({
 
     const activeSection = useScrollSpy(sectionIds);
     const backdropFiler = useSettingStore((state) => state.backdropFilter);
+
+    const onOpenChange = useCallback((open: boolean) => {
+        if(!open) {
+            onClose();
+        }
+    }, [onClose]);
 
     // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {

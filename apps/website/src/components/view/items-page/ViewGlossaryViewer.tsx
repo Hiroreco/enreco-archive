@@ -80,7 +80,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 </span>
                             </p>
 
-                            <p className="flex flex-col items-center text-sm">
+                            <div className="flex flex-col items-center text-sm">
                                 <span className="font-semibold text-center">
                                     Quote
                                 </span>
@@ -91,7 +91,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 >
                                     {`“${entry.item.quote || ""}”`}
                                 </ViewMarkdown>
-                            </p>
+                            </div>
                         </div>
                     </div>
 

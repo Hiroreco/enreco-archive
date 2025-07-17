@@ -1,5 +1,6 @@
 import { useAudioStore } from "@/store/audioStore";
 import { useViewStore } from "@/store/viewStore";
+
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { MouseEvent } from "react";
 
@@ -19,9 +20,10 @@ const TimestampHref = ({
     caption,
     ...rest
 }: TimestampHrefProps) => {
-    const setVideoModalOpen = useViewStore((state) => state.setVideoModalOpen);
-    const setVideoUrl = useViewStore((state) => state.setVideoUrl);
+    const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
+    const setVideoUrl = useViewStore((state) => state.modal.setVideoUrl);
     const pauseBGM = useAudioStore((state) => state.pauseBGM);
+
     const timestampHandler = async (
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
@@ -29,7 +31,7 @@ const TimestampHref = ({
         event.preventDefault();
         pauseBGM();
 
-        setVideoModalOpen(true);
+        openVideoModal();
         setVideoUrl(timestampUrl);
     };
 

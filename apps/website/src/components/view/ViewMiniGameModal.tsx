@@ -21,13 +21,13 @@ import ViewGamblingGame from "@/components/view/ViewGamblingGame";
 import ViewMemoryGame from "@/components/view/ViewMemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
-import { ReactElement, useState } from "react";
+import { ReactElement, useCallback, useState } from "react";
 import ViewShioriGame from "@/components/view/ViewShioriGame";
 import ViewShioriGameInfo from "@/components/view/minigames-info/ViewShioriGameInfo";
 
 interface ViewMiniGameModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
 }
 
 const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
@@ -49,8 +49,18 @@ const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
     },
 };
 
-const ViewMiniGameModal = ({ open, onOpenChange }: ViewMiniGameModalProps) => {
+const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
     const [game, setGame] = useState("gambling");
+
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
+    );
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent

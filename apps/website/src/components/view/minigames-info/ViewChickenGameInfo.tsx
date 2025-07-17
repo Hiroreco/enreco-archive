@@ -1,15 +1,18 @@
 import TimestampHref from "@/components/view/markdown/TimestampHref";
 import React from "react";
+import Image from "next/image";
 
 const ViewChickenGameInfo = () => {
     return (
         <div className="flex flex-col gap-4">
             <p>
                 Just like the Scarlet Wand, the Cerulean Cup{" "}
-                <img
+                <Image
                     className="inline h-6 w-6 mb-1"
                     src={"/images-opt/ceruleancup-opt.webp"}
                     alt={"ceruleancup"}
+                    width={24}
+                    height={24}
                 />{" "}
                 launched their own minigame on Day 7. As representatives of
                 empathy, they designed a game that would help spread that very

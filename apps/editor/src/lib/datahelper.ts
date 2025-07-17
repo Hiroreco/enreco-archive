@@ -131,6 +131,9 @@ export async function exportData(editorChapters: EditorChapter[]) {
                         bgCardColor: node.data.bgCardColor,
                     },
                 };
+                if (resultNode.style) {
+                    delete resultNode.style;
+                }
 
                 return resultNode;
             });
@@ -149,7 +152,10 @@ export async function exportData(editorChapters: EditorChapter[]) {
                         offsets: edge.data!.offsets,
                     },
                 };
-
+                // we don't need style, it's in the relationship map
+                if (resultEdge.style) {
+                    delete resultEdge.style;
+                }
                 return resultEdge;
             });
 

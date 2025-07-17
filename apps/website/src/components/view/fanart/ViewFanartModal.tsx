@@ -34,7 +34,7 @@ export interface FanartEntry {
 
 interface ViewFanartModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
     chapter: number;
     day: number;
     initialCharacters?: string[];
@@ -49,7 +49,7 @@ const ITEMS_PER_PAGE = 50;
 
 const ViewFanartModal = ({
     open,
-    onOpenChange,
+    onClose,
     chapter,
     day,
     initialCharacters,
@@ -219,7 +219,7 @@ const ViewFanartModal = ({
     // Shuffle handler
     const handleShuffle = useCallback(() => {
         // Fisher-Yates shuffle on the full filtered set
-        const arr = [...allFilteredFanart];
+        const arr = [...fanart];
         for (let i = arr.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [arr[i], arr[j]] = [arr[j], arr[i]];
@@ -228,7 +228,7 @@ const ViewFanartModal = ({
         setShuffled(true);
         // Reset pagination when shuffling
         setCurrentPage(1);
-    }, [allFilteredFanart]);
+    }, [fanart]);
 
     // Unshuffle handler
     const handleUnshuffle = useCallback(() => {
@@ -404,6 +404,15 @@ const ViewFanartModal = ({
             return columns;
         },
         [columnCount],
+    );
+
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
     );
 
     // Effects

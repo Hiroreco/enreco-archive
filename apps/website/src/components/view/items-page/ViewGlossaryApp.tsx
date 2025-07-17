@@ -6,23 +6,37 @@ import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
 import ViewSettingsModal from "@/components/view/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/ViewVideoModal";
 import { GlossaryProvider } from "@/contexts/GlossaryContext";
-import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import { Dice6, Info, Settings, Disc3, Palette } from "lucide-react";
-import { useState } from "react";
+import { Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 
 interface ViewItemsAppProps {
     bgImage: string;
 }
 
 const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
-    const viewStore = useViewStore();
-    const { isOpen: isMusicModalOpen, setIsOpen: setIsMusicModalOpen } =
-        useMusicPlayerStore();
+    // UI
+    const openModal = useViewStore((state) => state.modal.openModal);
+    const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
+    const openSettingsModal = useViewStore(
+        (state) => state.modal.openSettingsModal,
+    );
+    const openMinigameModal = useViewStore(
+        (state) => state.modal.openMinigameModal,
+    );
+    const openMusicPlayerModal = useViewStore(
+        (state) => state.modal.openMusicPlayerModal,
+    );
+    const openFanartModal = useViewStore(
+        (state) => state.modal.openFanartModal,
+    );
+    const closeModal = useViewStore((state) => state.modal.closeModal);
+    const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
-    // TODO: Remove this later, don't want to put in the store since have to wait for dev merge
-    const [openFanartModal, setOpenFanartModal] = useState(false);
+    // Data
+    const chapter = useViewStore((state) => state.data.chapter);
+    const day = useViewStore((state) => state.data.day);
+
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <GlossaryProvider>
@@ -32,39 +46,36 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 />
             </GlossaryProvider>
 
-            {/* Pretty much the same as ViewApp from here on */}
-            <ViewInfoModal
-                open={viewStore.infoModalOpen}
-                onOpenChange={viewStore.setInfoModalOpen}
-            />
+            {/* Updated modal pattern to match ViewApp */}
+            <ViewInfoModal open={openModal === "info"} onClose={closeModal} />
 
             <ViewSettingsModal
-                open={viewStore.settingsModalOpen}
-                onOpenChange={viewStore.setSettingsModalOpen}
+                open={openModal === "settings"}
+                onClose={closeModal}
             />
 
             <ViewMiniGameModal
-                open={viewStore.minigameModalOpen}
-                onOpenChange={viewStore.setMinigameModalOpen}
+                open={openModal === "minigame"}
+                onClose={closeModal}
             />
 
             <ViewVideoModal
-                open={viewStore.videoModalOpen}
-                onOpenChange={viewStore.setVideoModalOpen}
-                videoUrl={viewStore.videoUrl}
+                open={openModal === "video"}
+                onClose={closeModal}
+                videoUrl={videoUrl}
                 bgImage={bgImage}
             />
 
             <ViewMusicPlayerModal
-                open={isMusicModalOpen}
-                onOpenChange={setIsMusicModalOpen}
+                open={openModal === "music"}
+                onClose={closeModal}
             />
 
             <ViewFanartModal
-                open={openFanartModal}
-                onOpenChange={setOpenFanartModal}
-                chapter={viewStore.chapter}
-                day={viewStore.day}
+                open={openModal === "fanart"}
+                onClose={closeModal}
+                chapter={chapter}
+                day={day}
             />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex md:flex-col gap-[8px]">
@@ -74,7 +85,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setInfoModalOpen(true)}
+                    onClick={openInfoModal}
                 >
                     <Info />
                 </IconButton>
@@ -85,7 +96,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setSettingsModalOpen(true)}
+                    onClick={openSettingsModal}
                 >
                     <Settings />
                 </IconButton>
@@ -96,7 +107,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setMinigameModalOpen(true)}
+                    onClick={openMinigameModal}
                 >
                     <Dice6 />
                 </IconButton>
@@ -107,7 +118,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Music Player"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => setIsMusicModalOpen(!isMusicModalOpen)}
+                    onClick={openMusicPlayerModal}
                 >
                     <Disc3 />
                 </IconButton>
@@ -118,7 +129,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     tooltipText="Fanart"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => setOpenFanartModal(!openFanartModal)}
+                    onClick={openFanartModal}
                 >
                     <Palette />
                 </IconButton>

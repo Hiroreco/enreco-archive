@@ -3,13 +3,12 @@ import { ViewMarkdown } from "@/components/view/ViewMarkdown";
 import ViewProgressBar from "@/components/view/ViewProgressBar";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ChartData } from "@enreco-archive/common/types";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 interface Props {
-    dayData: ChartData;
+    dayRecap: string;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     day: number;
@@ -18,7 +17,7 @@ interface Props {
 }
 
 const ViewRecapCard = ({
-    dayData,
+    dayRecap,
     onNodeLinkClicked,
     onEdgeLinkClicked,
     day,
@@ -31,7 +30,7 @@ const ViewRecapCard = ({
         if (scrollRef.current) {
             scrollRef.current.scrollTo(0, 0);
         }
-    }, [dayData]);
+    }, [dayRecap]);
     return (
         <div className="flex flex-col gap-4 mt-4 h-full min-h-0 relative">
             <ViewProgressBar
@@ -56,7 +55,7 @@ const ViewRecapCard = ({
                             onEdgeLinkClicked={onEdgeLinkClicked}
                             className="md:px-4 px-2"
                         >
-                            {dayData.dayRecap || "No content available."}
+                            {dayRecap || "No content available."}
                         </ViewMarkdown>
                         <Separator className="my-4" />
                     </motion.div>

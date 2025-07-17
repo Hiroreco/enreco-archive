@@ -36,8 +36,9 @@ export const ViewAppWrapper = () => {
     const useDarkMode = useLightDarkModeSwitcher(themeType);
 
     const [appType, setAppType] = useState<AppType>("chart");
-    const chapter = useViewStore((state) => state.chapter);
-    const currentCard = useViewStore((state) => state.currentCard);
+    const chapter = useViewStore((state) => state.data.chapter);
+    const currentCard = useViewStore((state) => state.ui.currentCard);
+
     const chapterData = data.chapters[chapter];
 
     let bgImage = chapterData.bgiSrc;

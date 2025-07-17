@@ -222,32 +222,45 @@ const PlayerControls = ({
 
 interface ViewMusicPlayerModalProps {
     open: boolean;
-    onOpenChange: (open: boolean) => void;
+    onClose: () => void;
 }
 
-const ViewMusicPlayerModal = ({
-    open,
-    onOpenChange,
-}: ViewMusicPlayerModalProps) => {
-    const {
-        catIndex,
-        setCatIndex,
-        trackIndex,
-        setTrackIndex,
-        isPlaying,
-        setIsPlaying,
-        loopWithinCategory,
-        setLoopWithinCategory,
-        loopCurrentSong,
-        setLoopCurrentSong,
-        isShuffled,
-        setIsShuffled,
-        shuffledIndices,
-        setShuffledIndices,
-    } = useMusicPlayerStore();
+const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
+    const catIndex = useMusicPlayerStore((state) => state.catIndex);
+    const setCatIndex = useMusicPlayerStore((state) => state.setCatIndex);
+    const trackIndex = useMusicPlayerStore((state) => state.trackIndex);
+    const setTrackIndex = useMusicPlayerStore((state) => state.setTrackIndex);
+    const isPlaying = useMusicPlayerStore((state) => state.isPlaying);
+    const setIsPlaying = useMusicPlayerStore((state) => state.setIsPlaying);
+    const loopWithinCategory = useMusicPlayerStore(
+        (state) => state.loopWithinCategory,
+    );
+    const setLoopWithinCategory = useMusicPlayerStore(
+        (state) => state.setLoopWithinCategory,
+    );
+    const loopCurrentSong = useMusicPlayerStore(
+        (state) => state.loopCurrentSong,
+    );
+    const setLoopCurrentSong = useMusicPlayerStore(
+        (state) => state.setLoopCurrentSong,
+    );
+    const isShuffled = useMusicPlayerStore((state) => state.isShuffled);
+    const setIsShuffled = useMusicPlayerStore((state) => state.setIsShuffled);
+    const shuffledIndices = useMusicPlayerStore(
+        (state) => state.shuffledIndices,
+    );
+    const setShuffledIndices = useMusicPlayerStore(
+        (state) => state.setShuffledIndices,
+    );
 
-    const { changeBGM, bgm, playBGM, pauseBGM, siteBgmKey } = useAudioStore();
-    const { setBgmVolume, bgmVolume } = useSettingStore();
+    const changeBGM = useAudioStore((state) => state.changeBGM);
+    const bgm = useAudioStore((state) => state.bgm);
+    const playBGM = useAudioStore((state) => state.playBGM);
+    const pauseBGM = useAudioStore((state) => state.pauseBGM);
+    const siteBgmKey = useAudioStore((state) => state.siteBgmKey);
+
+    const setBgmVolume = useSettingStore((state) => state.setBgmVolume);
+    const bgmVolume = useSettingStore((state) => state.bgmVolume);
 
     const listRef = useRef<HTMLDivElement>(null);
 
@@ -495,10 +508,12 @@ const ViewMusicPlayerModal = ({
         <Dialog
             open={open}
             onOpenChange={(val) => {
-                if (val == false && !isPlaying) {
-                    changeBGM(siteBgmKey!, 0, 0);
+                if (val == false) {
+                    if (!isPlaying) {
+                        changeBGM(siteBgmKey!, 0, 0);
+                    }
+                    onClose();
                 }
-                onOpenChange(val);
             }}
         >
             <DialogHeader>

@@ -1,28 +1,24 @@
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { useAudioStore } from "@/store/audioStore";
-import React, { useEffect } from "react";
+import { useState } from "react";
 
 interface ReadMarkerProps {
-    id: string;
-    read: boolean | undefined;
+    read: boolean;
+    setRead: (readStatus: boolean) => void;
 }
 
-const ReadMarker = ({ id, read }: ReadMarkerProps) => {
-    const [checked, setChecked] = React.useState(false);
-    const audioStore = useAudioStore();
+const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
+    const [checked, setChecked] = useState<boolean>(read);
+    const playSFX = useAudioStore(state => state.playSFX);
 
-    const handleCheckedChange = (checked: boolean) => {
+    const handleCheckedChange = (checked: boolean | "indeterminate") => {
         if (checked) {
-            audioStore.playSFX("xp");
+            playSFX("xp");
         }
-        setChecked(checked);
-        localStorage.setItem(id, checked ? "read" : "unread");
+        setRead(checked === "indeterminate" ? false : checked);
+        setChecked(checked === "indeterminate" ? false : checked);
     };
-
-    useEffect(() => {
-        setChecked(read || false);
-    }, [id, read]);
 
     return (
         <div className="mx-auto my-6 w-full flex items-center justify-center gap-2 z-50">
