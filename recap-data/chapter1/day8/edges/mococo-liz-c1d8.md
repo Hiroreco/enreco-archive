@@ -25,3 +25,5 @@ It was about following her heart. It was about fighting—not just for justice, 
 ["A knight fights for more than a king" by Alma](https://x.com/A1ma3ru/status/1832977664514179283)
 
 <!-- fuwawa -->
+
+["You wish to call me sister now?" by Magho](https://x.com/M_Agho/status/1834333495638065282)

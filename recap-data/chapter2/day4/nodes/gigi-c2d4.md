@@ -34,3 +34,9 @@ Devastated and overcome with regret, Gonathon’s final moments of the day were 
 ["peak moment" by Asashi](https://x.com/illust_asashi/status/1919997343094735288)
 
 <!-- shiori, kronii -->
+
+["the bum-- I mean, humble knight!" by shew](https://x.com/shew03/status/1921345372162498653)
+
+## Memes
+
+["Chat it's not going well" by Antsy](https://x.com/antsy_af/status/1919973398551126390)

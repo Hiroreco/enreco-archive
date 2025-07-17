@@ -14,9 +14,12 @@
       {
         "src": "images-opt/bloodymoonia-1833203185852539284-0-opt.webp",
         "width": 4096,
-        "height": 3351
+        "height": 3351,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ddolbang11/status/1902413203335999859",
@@ -49,9 +52,12 @@
       {
         "src": "images-opt/ddolbang11-1902413203335999859-0-opt.webp",
         "width": 3413,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nagi_nyaaa/status/1830397551553761776",
@@ -70,9 +76,50 @@
       {
         "src": "images-opt/nagi_nyaaa-1830397551553761776-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1830424491232825838/photo/1",
+    "label": "\"Loving it so far\"",
+    "author": "hiroavrs",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "ame",
+      "gura",
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "fauna",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1830424491232825838-0-opt.webp",
+        "width": 957,
+        "height": 690,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/ammiietty/status/1830136980811796710",
@@ -88,9 +135,12 @@
       {
         "src": "images-opt/ammiietty-1830136980811796710-0-opt.webp",
         "width": 1241,
-        "height": 1632
+        "height": 1632,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/torororose/status/1830139747202728375",
@@ -105,9 +155,12 @@
       {
         "src": "images-opt/torororose-1830139747202728375-0-opt.webp",
         "width": 1500,
-        "height": 1500
+        "height": 1500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keenbiscuit/status/1830198547343671646",
@@ -124,9 +177,12 @@
       {
         "src": "images-opt/keenbiscuit-1830198547343671646-0-opt.webp",
         "width": 2600,
-        "height": 1417
+        "height": 1417,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/raffanda_/status/1833432464448229657",
@@ -145,9 +201,12 @@
       {
         "src": "images-opt/raffanda_-1833432464448229657-0-opt.webp",
         "width": 4096,
-        "height": 3315
+        "height": 3315,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/torkirby/status/1830410419082510816",
@@ -166,9 +225,12 @@
       {
         "src": "images-opt/torkirby-1830410419082510816-0-opt.webp",
         "width": 1557,
-        "height": 1302
+        "height": 1302,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/33aalloonnhd/status/1830096222046323027",
@@ -194,9 +256,12 @@
       {
         "src": "images-opt/33aalloonnhd-1830096222046323027-0-opt.webp",
         "width": 3474,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/2nochuu/status/1902511940938952880",
@@ -211,9 +276,12 @@
       {
         "src": "images-opt/2nochuu-1902511940938952880-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1919423587532095876",
@@ -229,9 +297,12 @@
       {
         "src": "images-opt/roronico1512-1919423587532095876-0-opt.webp",
         "width": 1926,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/liapandaaaa/status/1827543495890104368",
@@ -246,9 +317,12 @@
       {
         "src": "images-opt/liapandaaaa-1827543495890104368-0-opt.webp",
         "width": 1430,
-        "height": 1465
+        "height": 1465,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mocailla/status/1831321461212189031",
@@ -266,9 +340,12 @@
       {
         "src": "images-opt/mocailla-1831321461212189031-0-opt.webp",
         "width": 801,
-        "height": 1199
+        "height": 1199,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/tac_toki/status/1899898564433662436",
@@ -283,9 +360,12 @@
       {
         "src": "images-opt/tac_toki-1899898564433662436-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lgeesel/status/1832493697914827120",
@@ -300,9 +380,12 @@
       {
         "src": "images-opt/lgeesel-1832493697914827120-0-opt.webp",
         "width": 1290,
-        "height": 1560
+        "height": 1560,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1832534510598250820",
@@ -320,9 +403,12 @@
       {
         "src": "images-opt/keiseeaaa-1832534510598250820-0-opt.webp",
         "width": 3336,
-        "height": 3369
+        "height": 3369,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/dasdokter/status/1902324865778250152",
@@ -337,9 +423,12 @@
       {
         "src": "images-opt/dasdokter-1902324865778250152-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1830388700678697267",
@@ -355,9 +444,12 @@
       {
         "src": "images-opt/koizumi_arata-1830388700678697267-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/erasopepero232/status/1830564734657331247",
@@ -373,9 +465,33 @@
       {
         "src": "images-opt/erasopepero232-1830564734657331247-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/adarinsinner/status/1830536762684543004",
+    "label": "\"Say My Name!!\"",
+    "author": "adarinsinner",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "kronii",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/adarinsinner-1830536762684543004-0-opt.webp",
+        "width": 1824,
+        "height": 1570,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1830329272155931070",
@@ -390,9 +506,12 @@
       {
         "src": "images-opt/koizumi_arata-1830329272155931070-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/padoruferii/status/1900745073664598460",
@@ -407,9 +526,12 @@
       {
         "src": "images-opt/padoruferii-1900745073664598460-0-opt.webp",
         "width": 800,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seekorplatypus/status/1902528599774883882",
@@ -424,9 +546,12 @@
       {
         "src": "images-opt/seekorplatypus-1902528599774883882-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/amano_ritsu827/status/1901978737610301805",
@@ -441,9 +566,12 @@
       {
         "src": "images-opt/amano_ritsu827-1901978737610301805-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seapupu290495/status/1830258392583242130",
@@ -458,9 +586,12 @@
       {
         "src": "images-opt/seapupu290495-1830258392583242130-0-opt.webp",
         "width": 2159,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/thekaiyip/status/1903164554022097168",
@@ -475,9 +606,12 @@
       {
         "src": "images-opt/thekaiyip-1903164554022097168-0-opt.webp",
         "width": 2160,
-        "height": 3840
+        "height": 3840,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/higeji404/status/1901370626591605149",
@@ -492,9 +626,12 @@
       {
         "src": "images-opt/higeji404-1901370626591605149-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wcksan/status/1830274143344042319",
@@ -510,9 +647,12 @@
       {
         "src": "images-opt/wcksan-1830274143344042319-0-opt.webp",
         "width": 2070,
-        "height": 2070
+        "height": 2070,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1899423935571333292",
@@ -527,9 +667,12 @@
       {
         "src": "images-opt/elisbian_-1899423935571333292-0-opt.webp",
         "width": 2731,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lazik_1337/status/1898490450949865975",
@@ -544,9 +687,12 @@
       {
         "src": "images-opt/lazik_1337-1898490450949865975-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mittsumia/status/1902371897985397070",
@@ -561,9 +707,12 @@
       {
         "src": "images-opt/mittsumia-1902371897985397070-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/weiiyxn/status/1902360036522991650",
@@ -578,9 +727,12 @@
       {
         "src": "images-opt/weiiyxn-1902360036522991650-0-opt.webp",
         "width": 2497,
-        "height": 3048
+        "height": 3048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/meyshi29/status/1833782799490601208",
@@ -595,9 +747,12 @@
       {
         "src": "images-opt/meyshi29-1833782799490601208-0-opt.webp",
         "width": 1200,
-        "height": 1216
+        "height": 1216,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/illust_asashi/status/1832805341958213738",
@@ -612,9 +767,12 @@
       {
         "src": "images-opt/illust_asashi-1832805341958213738-0-opt.webp",
         "width": 1582,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mikururun/status/1899247515700019465",
@@ -629,9 +787,12 @@
       {
         "src": "images-opt/mikururun-1899247515700019465-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/onecolo133/status/1831681269106974738",
@@ -646,9 +807,12 @@
       {
         "src": "images-opt/onecolo133-1831681269106974738-0-opt.webp",
         "width": 2170,
-        "height": 1848
+        "height": 1848,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/moon_ldl/status/1830455614625001879",
@@ -664,9 +828,12 @@
       {
         "src": "images-opt/moon_ldl-1830455614625001879-0-opt.webp",
         "width": 2718,
-        "height": 3357
+        "height": 3357,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/weiiyxn/status/1830844192723255551",
@@ -682,9 +849,12 @@
       {
         "src": "images-opt/weiiyxn-1830844192723255551-0-opt.webp",
         "width": 2999,
-        "height": 2292
+        "height": 2292,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sssst3ll4/status/1834360675503837275",
@@ -700,9 +870,33 @@
       {
         "src": "images-opt/sssst3ll4-1834360675503837275-0-opt.webp",
         "width": 3508,
-        "height": 2480
+        "height": 2480,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/yppah1060/status/1830867181598580907",
+    "label": "\"for her\"",
+    "author": "yppah1060",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/yppah1060-1830867181598580907-0-opt.webp",
+        "width": 828,
+        "height": 848,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/hiroavrs/status/1830628289926557835",
@@ -720,9 +914,12 @@
       {
         "src": "images-opt/hiroavrs-1830628289926557835-0-opt.webp",
         "width": 2048,
-        "height": 1139
+        "height": 1139,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bloodymoonia/status/1830726627686588557",
@@ -740,9 +937,12 @@
       {
         "src": "images-opt/bloodymoonia-1830726627686588557-0-opt.webp",
         "width": 3413,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/chalek0/status/1830482782222426481",
@@ -759,9 +959,12 @@
       {
         "src": "images-opt/chalek0-1830482782222426481-0-opt.webp",
         "width": 1920,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/raffanda_/status/1830498321720598623",
@@ -779,9 +982,30 @@
       {
         "src": "images-opt/raffanda_-1830498321720598623-0-opt.webp",
         "width": 3351,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/shutowl/status/1830517595768000529",
+    "label": "\"1 coin bet\"",
+    "author": "shutowl",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "gura"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/shutowl-1830517595768000529-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/mikururun/status/1830701638472081531",
@@ -798,9 +1022,12 @@
       {
         "src": "images-opt/mikururun-1830701638472081531-0-opt.webp",
         "width": 3500,
-        "height": 2028
+        "height": 2028,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1831100215668908440",
@@ -815,9 +1042,12 @@
       {
         "src": "images-opt/koizumi_arata-1831100215668908440-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hyurisaki/status/1904203019035824337",
@@ -833,9 +1063,12 @@
       {
         "src": "images-opt/hyurisaki-1904203019035824337-0-opt.webp",
         "width": 743,
-        "height": 800
+        "height": 800,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/marus_circle/status/1830885012788674962",
@@ -854,14 +1087,18 @@
       {
         "src": "images-opt/marus_circle-1830885012788674962-0-opt.webp",
         "width": 2077,
-        "height": 851
+        "height": 851,
+        "type": "image"
       },
       {
         "src": "images-opt/marus_circle-1830885012788674962-1-opt.webp",
         "width": 2227,
-        "height": 1704
+        "height": 1704,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yuutomeh97/status/1830490741384356254",
@@ -877,9 +1114,12 @@
       {
         "src": "images-opt/yuutomeh97-1830490741384356254-0-opt.webp",
         "width": 2048,
-        "height": 1761
+        "height": 1761,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/h_hornium/status/1831083165341106580/photo/1",
@@ -895,14 +1135,18 @@
       {
         "src": "images-opt/h_hornium-1831083165341106580-0-opt.webp",
         "width": 2396,
-        "height": 2628
+        "height": 2628,
+        "type": "image"
       },
       {
         "src": "images-opt/h_hornium-1831083165341106580-1-opt.webp",
         "width": 2396,
-        "height": 1288
+        "height": 1288,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/chalek0/status/1830748696935313524",
@@ -917,9 +1161,12 @@
       {
         "src": "images-opt/chalek0-1830748696935313524-0-opt.webp",
         "width": 1080,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/anonamos_701/status/1831146945597038826",
@@ -934,9 +1181,12 @@
       {
         "src": "images-opt/anonamos_701-1831146945597038826-0-opt.webp",
         "width": 4096,
-        "height": 2650
+        "height": 2650,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yuq_ui/status/1831786877688651973",
@@ -953,9 +1203,12 @@
       {
         "src": "images-opt/yuq_ui-1831786877688651973-0-opt.webp",
         "width": 2916,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1830478922934616529",
@@ -970,9 +1223,12 @@
       {
         "src": "images-opt/fukuinu_daddy-1830478922934616529-0-opt.webp",
         "width": 960,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/karunochi/status/1830608765454024950",
@@ -987,9 +1243,48 @@
       {
         "src": "images-opt/karunochi-1830608765454024950-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/kazukiich/status/1831250639596483048",
+    "label": "\"*teleport behind you*\"",
+    "author": "kazukiich",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/kazukiich-1831250639596483048-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/jabah_lavah/status/1830486510552113652",
+    "label": "\"Let us all congratulate the newly weds!\"",
+    "author": "jabah_lavah",
+    "chapter": 0,
+    "day": 1,
+    "characters": [],
+    "images": [
+      {
+        "src": "images-opt/jabah_lavah-1830486510552113652-0-opt.webp",
+        "width": 750,
+        "height": 500,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/scrambleham/status/1831057372820963655",
@@ -1010,9 +1305,12 @@
       {
         "src": "images-opt/scrambleham-1831057372820963655-0-opt.webp",
         "width": 1535,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/chalek0/status/1831120630860963872",
@@ -1032,9 +1330,12 @@
       {
         "src": "images-opt/chalek0-1831120630860963872-0-opt.webp",
         "width": 1920,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/raffanda_/status/1830877842013593910",
@@ -1050,9 +1351,12 @@
       {
         "src": "images-opt/raffanda_-1830877842013593910-0-opt.webp",
         "width": 3351,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1831329880249905569",
@@ -1069,9 +1373,12 @@
       {
         "src": "images-opt/fukuinu_daddy-1831329880249905569-0-opt.webp",
         "width": 960,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/abendag0/status/1831257105069949232",
@@ -1087,9 +1394,12 @@
       {
         "src": "images-opt/abendag0-1831257105069949232-0-opt.webp",
         "width": 3624,
-        "height": 2955
+        "height": 2955,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/rediosokiut/status/1832178260446474397",
@@ -1105,9 +1415,12 @@
       {
         "src": "images-opt/rediosokiut-1832178260446474397-0-opt.webp",
         "width": 1555,
-        "height": 2200
+        "height": 2200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/diodio49/status/1832145126912590148",
@@ -1122,9 +1435,12 @@
       {
         "src": "images-opt/diodio49-1832145126912590148-0-opt.webp",
         "width": 2200,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fongban_/status/1901895840236765627",
@@ -1139,9 +1455,72 @@
       {
         "src": "images-opt/fongban_-1901895840236765627-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hololivememes/status/1830782445538419012",
+    "label": "\"Saving the server's economy\"",
+    "author": "hololivememes",
+    "chapter": 0,
+    "day": 2,
+    "characters": [
+      "fauna"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hololivememes-1830782445538419012-0-opt.webp",
+        "width": 600,
+        "height": 687,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1831156874550694139",
+    "label": "\"FaunaMart situation is crazy\"",
+    "author": "hiroavrs",
+    "chapter": 0,
+    "day": 2,
+    "characters": [
+      "fauna"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1831156874550694139-0-opt.webp",
+        "width": 1409,
+        "height": 859,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/mpien6/status/1830956131956727821",
+    "label": "\"It's a win win\"",
+    "author": "mpien6",
+    "chapter": 0,
+    "day": 2,
+    "characters": [
+      "bijou"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mpien6-1830956131956727821-0-opt.webp",
+        "width": 4096,
+        "height": 3705,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/_se_t_/status/1832701352004456557",
@@ -1157,9 +1536,12 @@
       {
         "src": "images-opt/_se_t_-1832701352004456557-0-opt.webp",
         "width": 1920,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/abendag0/status/1831627938883891257",
@@ -1175,9 +1557,32 @@
       {
         "src": "images-opt/abendag0-1831627938883891257-0-opt.webp",
         "width": 2958,
-        "height": 3324
+        "height": 3324,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/_silvertone/status/1833054905650532562",
+    "label": "\"From one Knight of Flame to the other\"",
+    "author": "_silvertone",
+    "chapter": 0,
+    "day": 2,
+    "characters": [
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/_silvertone-1833054905650532562-0-opt.webp",
+        "width": 2339,
+        "height": 1654,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/awooofa/status/1831049705700413843",
@@ -1192,9 +1597,12 @@
       {
         "src": "images-opt/awooofa-1831049705700413843-0-opt.webp",
         "width": 1500,
-        "height": 1500
+        "height": 1500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/weiiyxn/status/1831340977870823504",
@@ -1209,9 +1617,12 @@
       {
         "src": "images-opt/weiiyxn-1831340977870823504-0-opt.webp",
         "width": 2497,
-        "height": 3048
+        "height": 3048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/awooofa/status/1831403586494017956",
@@ -1228,9 +1639,34 @@
       {
         "src": "images-opt/awooofa-1831403586494017956-0-opt.webp",
         "width": 1500,
-        "height": 1500
+        "height": 1500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/alfa_hatdog/status/1831129176109400505",
+    "label": "\"oh my god\"",
+    "author": "alfa_hatdog",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "ame",
+      "gura",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/alfa_hatdog-1831129176109400505-0-opt.webp",
+        "width": 537,
+        "height": 464,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/lordjoeboto/status/1833057528063668313",
@@ -1248,9 +1684,33 @@
       {
         "src": "images-opt/lordjoeboto-1833057528063668313-0-opt.webp",
         "width": 1114,
-        "height": 1986
+        "height": 1986,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/holomybabytyper/status/1831145291908526358",
+    "label": "\"NOOOOOOOOO\"",
+    "author": "holomybabytyper",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "gura",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/holomybabytyper-1831145291908526358-0-opt.webp",
+        "width": 1169,
+        "height": 1356,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/anonamos_701/status/1831053964131140033",
@@ -1265,9 +1725,12 @@
       {
         "src": "images-opt/anonamos_701-1831053964131140033-0-opt.webp",
         "width": 2650,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ma_draws/status/1832081741831381036",
@@ -1282,9 +1745,12 @@
       {
         "src": "images-opt/ma_draws-1832081741831381036-0-opt.webp",
         "width": 1678,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seekorplatypus/status/1901233354533417049",
@@ -1299,9 +1765,12 @@
       {
         "src": "images-opt/seekorplatypus-1901233354533417049-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/blaparky/status/1831222642730516798",
@@ -1319,9 +1788,12 @@
       {
         "src": "images-opt/blaparky-1831222642730516798-0-opt.webp",
         "width": 3080,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1831435229753700756",
@@ -1337,9 +1809,12 @@
       {
         "src": "images-opt/keiseeaaa-1831435229753700756-0-opt.webp",
         "width": 2500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/__akkanen/status/1831732785029288447",
@@ -1356,9 +1831,12 @@
       {
         "src": "images-opt/__akkanen-1831732785029288447-0-opt.webp",
         "width": 919,
-        "height": 1300
+        "height": 1300,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1843360679111340534",
@@ -1374,9 +1852,12 @@
       {
         "src": "images-opt/elisbian_-1843360679111340534-0-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lordjoeboto/status/1831598627988349253",
@@ -1393,9 +1874,32 @@
       {
         "src": "images-opt/lordjoeboto-1831598627988349253-0-opt.webp",
         "width": 1115,
-        "height": 1986
+        "height": 1986,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/m_agho/status/1836869460403311005",
+    "label": "\"she really wants her money\"",
+    "author": "m_agho",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "nerissa",
+      "mococo",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/m_agho-1836869460403311005-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1831679967299817739",
@@ -1414,9 +1918,33 @@
       {
         "src": "images-opt/fukuinu_daddy-1831679967299817739-0-opt.webp",
         "width": 960,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1901289066412577240",
+    "label": "\"Two sides of the same coin\"",
+    "author": "hiroavrs",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "fuwawa",
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1901289066412577240-0-opt.webp",
+        "width": 1280,
+        "height": 1920,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1830139314807980512",
@@ -1431,9 +1959,32 @@
       {
         "src": "images-opt/fukuinu_daddy-1830139314807980512-0-opt.webp",
         "width": 1536,
-        "height": 1152
+        "height": 1152,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/revil0l/status/1918987437780402257",
+    "label": "\"🏃‍♀️💨💨\"",
+    "author": "revil0l",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/revil0l-1918987437780402257-0-opt.webp",
+        "width": 4096,
+        "height": 2796,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nagi_nyaaa/status/1831932489658724587",
@@ -1448,9 +1999,12 @@
       {
         "src": "images-opt/nagi_nyaaa-1831932489658724587-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bbbbungle/status/1831862192855228538",
@@ -1466,14 +2020,81 @@
       {
         "src": "images-opt/bbbbungle-1831862192855228538-0-opt.webp",
         "width": 2800,
-        "height": 3700
+        "height": 3700,
+        "type": "image"
       },
       {
         "src": "images-opt/bbbbungle-1831862192855228538-1-opt.webp",
         "width": 2800,
-        "height": 3700
+        "height": 3700,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/lanze_5269/status/1831552504120897738",
+    "label": "\"Today's episode of ENreco\"",
+    "author": "lanze_5269",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "ina",
+      "irys",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/lanze_5269-1831552504120897738-0-opt.webp",
+        "width": 1200,
+        "height": 648,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/emicootero/status/1834292754849169648",
+    "label": "\"FaunaMart Customer Satisfaction Survey Tape\"",
+    "author": "emicootero",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "fauna"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1834292754849169648-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/nakiridayo_/status/1832023295807619375",
+    "label": "\"shaking and crying right now\"",
+    "author": "nakiridayo_",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "fauna"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nakiridayo_-1832023295807619375-0-opt.webp",
+        "width": 720,
+        "height": 713,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1831845649870160186",
@@ -1489,14 +2110,18 @@
       {
         "src": "images-opt/keiseeaaa-1831845649870160186-0-opt.webp",
         "width": 2500,
-        "height": 2688
+        "height": 2688,
+        "type": "image"
       },
       {
         "src": "images-opt/keiseeaaa-1831845649870160186-1-opt.webp",
         "width": 2500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/dasdokter/status/1831973884461298095",
@@ -1512,9 +2137,50 @@
       {
         "src": "images-opt/dasdokter-1831973884461298095-0-opt.webp",
         "width": 1579,
-        "height": 1512
+        "height": 1512,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/waywardadlo/status/1832901859667005729",
+    "label": "\"I love my girl failures\"",
+    "author": "waywardadlo",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/waywardadlo-1832901859667005729-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/chalek0/status/1832964350597804334",
+    "label": "\"The Humble Knight, Gonathon G. Vs. The Charm of Shiori of the Novellas\"",
+    "author": "chalek0",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/chalek0-1832964350597804334-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/anonamos_701/status/1831536576620585414",
@@ -1529,9 +2195,12 @@
       {
         "src": "images-opt/anonamos_701-1831536576620585414-0-opt.webp",
         "width": 2650,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/raffanda_/status/1832103922015822089",
@@ -1547,9 +2216,12 @@
       {
         "src": "images-opt/raffanda_-1832103922015822089-0-opt.webp",
         "width": 2862,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yomosaka/status/1832146121898221666",
@@ -1565,9 +2237,12 @@
       {
         "src": "images-opt/yomosaka-1832146121898221666-0-opt.webp",
         "width": 1512,
-        "height": 1481
+        "height": 1481,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sir_tro/status/1832092670191349947",
@@ -1583,9 +2258,12 @@
       {
         "src": "images-opt/sir_tro-1832092670191349947-0-opt.webp",
         "width": 2400,
-        "height": 3200
+        "height": 3200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/namiorii/status/1832844940021514601",
@@ -1601,39 +2279,48 @@
       {
         "src": "images-opt/namiorii-1832844940021514601-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/namiorii-1832844940021514601-1-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/namiorii-1832844940021514601-2-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/namiorii-1832844940021514601-3-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/namiorii-1832844940021514601-4-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/namiorii-1832844940021514601-5-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/namiorii-1832844940021514601-6-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nekonyantj/status/1832093407843672251",
@@ -1653,9 +2340,12 @@
       {
         "src": "images-opt/nekonyantj-1832093407843672251-0-opt.webp",
         "width": 2000,
-        "height": 1125
+        "height": 1125,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wishbone777/status/1832198108052382174",
@@ -1671,9 +2361,12 @@
       {
         "src": "images-opt/wishbone777-1832198108052382174-0-opt.webp",
         "width": 1200,
-        "height": 880
+        "height": 880,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/anonamos_701/status/1832193120387395757",
@@ -1689,9 +2382,12 @@
       {
         "src": "images-opt/anonamos_701-1832193120387395757-0-opt.webp",
         "width": 2650,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wishbone777/status/1833889675456786595",
@@ -1707,9 +2403,12 @@
       {
         "src": "images-opt/wishbone777-1833889675456786595-0-opt.webp",
         "width": 848,
-        "height": 1000
+        "height": 1000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/weiiyxn/status/1832322835596927349",
@@ -1725,9 +2424,52 @@
       {
         "src": "images-opt/weiiyxn-1832322835596927349-0-opt.webp",
         "width": 1592,
-        "height": 2332
+        "height": 2332,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/amelias_simp/status/1831917021833077059",
+    "label": "\"Im broken...\"",
+    "author": "amelias_simp",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/amelias_simp-1831917021833077059-0-opt.webp",
+        "width": 813,
+        "height": 690,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/impromptuwriter/status/1832535016154501268",
+    "label": "\"Love sacrifices all things to bless the thing it loves\"",
+    "author": "impromptuwriter",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/impromptuwriter-1832535016154501268-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/dreamplanes256/status/1844357367313649767",
@@ -1747,39 +2489,48 @@
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       },
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-1-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       },
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-2-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       },
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-3-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       },
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-4-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       },
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-5-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       },
       {
         "src": "images-opt/dreamplanes256-1844357367313649767-6-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lordjoeboto/status/1833057528063668313/",
@@ -1796,9 +2547,12 @@
       {
         "src": "images-opt/lordjoeboto-1833057528063668313-0-opt.webp",
         "width": 1114,
-        "height": 1986
+        "height": 1986,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1831971695621808324",
@@ -1816,9 +2570,12 @@
       {
         "src": "images-opt/koizumi_arata-1831971695621808324-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1832141040792240564",
@@ -1834,9 +2591,55 @@
       {
         "src": "images-opt/koizumi_arata-1832141040792240564-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/emicootero/status/1832447889794331060",
+    "label": "\"FaunaMart 1996 VHS Commercial Footage\"",
+    "author": "emicootero",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "fauna"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1832447889794331060-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/ingramplisken/status/1832130783274062176",
+    "label": "\"The ENreco Pain Scale\"",
+    "author": "ingramplisken",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "fauna",
+      "nerissa",
+      "shiori",
+      "mococo",
+      "gigi",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ingramplisken-1832130783274062176-0-opt.webp",
+        "width": 1500,
+        "height": 1050,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1832145708394410335",
@@ -1852,9 +2655,12 @@
       {
         "src": "images-opt/keiseeaaa-1832145708394410335-0-opt.webp",
         "width": 1719,
-        "height": 2580
+        "height": 2580,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1866736410826576342",
@@ -1870,9 +2676,88 @@
       {
         "src": "images-opt/elisbian_-1866736410826576342-0-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/medu_yusa/status/1832503012054516020",
+    "label": "\"A Knight's Tale\"",
+    "author": "medu_yusa",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/medu_yusa-1832503012054516020-0-opt.webp",
+        "width": 2480,
+        "height": 3508,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/harutimu_415/status/1882333332299825572",
+    "label": "\"Rough anim\"",
+    "author": "harutimu_415",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/harutimu_415-1882333332299825572-0.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/itscoartee/status/1831967786639487202",
+    "label": "\"...me pearl\"",
+    "author": "itscoartee",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/itscoartee-1831967786639487202-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/yoboiyobert/status/1831918801186959589",
+    "label": "\"Poor Gonathon... May your heart endure\"",
+    "author": "yoboiyobert",
+    "chapter": 0,
+    "day": 5,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/yoboiyobert-1831918801186959589-0-opt.webp",
+        "width": 735,
+        "height": 467,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1832113066487771210",
@@ -1890,9 +2775,12 @@
       {
         "src": "images-opt/koizumi_arata-1832113066487771210-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kei_myon/status/1831699644038181321",
@@ -1907,9 +2795,12 @@
       {
         "src": "images-opt/kei_myon-1831699644038181321-0-opt.webp",
         "width": 1376,
-        "height": 1096
+        "height": 1096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/itszenvy/status/1880388590880059420",
@@ -1925,9 +2816,81 @@
       {
         "src": "images-opt/itszenvy-1880388590880059420-0-opt.webp",
         "width": 4096,
-        "height": 2564
+        "height": 2564,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/fongban_/status/1832364781971632407",
+    "label": "\"🐱🌼💍⏳\"",
+    "author": "fongban_",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "kronii",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/fongban_-1832364781971632407-0-opt.webp",
+        "width": 1600,
+        "height": 1400,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/fongban_-1832364781971632407-1-opt.webp",
+        "width": 1600,
+        "height": 1400,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/sheepinsleepin/status/1832299092724347174",
+    "label": "\"⏳🐱💍\"",
+    "author": "sheepinsleepin",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "kronii",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/sheepinsleepin-1832299092724347174-0-opt.webp",
+        "width": 1608,
+        "height": 1843,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1832497913559478732",
+    "label": "\"Queen x Queen\"",
+    "author": "bunbbun1",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "kronii",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1832497913559478732-0-opt.webp",
+        "width": 1000,
+        "height": 1500,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kenjikokun/status/1832287162777399451",
@@ -1942,9 +2905,12 @@
       {
         "src": "images-opt/kenjikokun-1832287162777399451-0-opt.webp",
         "width": 1080,
-        "height": 1690
+        "height": 1690,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hiroavrs/status/1832437338469011589",
@@ -1960,9 +2926,12 @@
       {
         "src": "images-opt/hiroavrs-1832437338469011589-0-opt.webp",
         "width": 2048,
-        "height": 1159
+        "height": 1159,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1832892608789770703",
@@ -1977,9 +2946,12 @@
       {
         "src": "images-opt/fukuinu_daddy-1832892608789770703-0-opt.webp",
         "width": 1536,
-        "height": 1152
+        "height": 1152,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1832281930748064239",
@@ -1995,9 +2967,12 @@
       {
         "src": "images-opt/fukuinu_daddy-1832281930748064239-0-opt.webp",
         "width": 960,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/the_dankwave/status/1834198780335587359",
@@ -2012,9 +2987,12 @@
       {
         "src": "images-opt/the_dankwave-1834198780335587359-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/weiiyxn/status/1832436596261724166",
@@ -2030,9 +3008,12 @@
       {
         "src": "images-opt/weiiyxn-1832436596261724166-0-opt.webp",
         "width": 1497,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lil_leaflet_/status/1832398336877596978",
@@ -2047,9 +3028,86 @@
       {
         "src": "images-opt/lil_leaflet_-1832398336877596978-0-opt.webp",
         "width": 1305,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/emicootero/status/1833526793716043979",
+    "label": "\"Who is Gonathon G\"",
+    "author": "emicootero",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1833526793716043979-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/mmdkaniki/status/1832206547109196134",
+    "label": "\"pray for our boy\"",
+    "author": "mmdkaniki",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/mmdkaniki-1832206547109196134-0-opt.webp",
+        "width": 429,
+        "height": 474,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/kazukiich/status/1832352221142643091",
+    "label": "\"The path of a humble knight\"",
+    "author": "kazukiich",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/kazukiich-1832352221142643091-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/emicootero/status/1835347132729250178",
+    "label": "\"Nana-11 1996 VHS Commercial Footage\"",
+    "author": "emicootero",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "moom"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1835347132729250178-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/fongban_/status/1902071843584143478",
@@ -2064,9 +3122,12 @@
       {
         "src": "images-opt/fongban_-1902071843584143478-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/manganesods/status/1831552708098023623",
@@ -2081,9 +3142,12 @@
       {
         "src": "images-opt/manganesods-1831552708098023623-0-opt.webp",
         "width": 2026,
-        "height": 2250
+        "height": 2250,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kizuru09/status/1832752231696752933",
@@ -2100,9 +3164,12 @@
       {
         "src": "images-opt/kizuru09-1832752231696752933-0-opt.webp",
         "width": 3132,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fongban_/status/1832841781727383603",
@@ -2118,14 +3185,18 @@
       {
         "src": "images-opt/fongban_-1832841781727383603-0-opt.webp",
         "width": 2590,
-        "height": 2660
+        "height": 2660,
+        "type": "image"
       },
       {
         "src": "images-opt/fongban_-1832841781727383603-1-opt.webp",
         "width": 2590,
-        "height": 2660
+        "height": 2660,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/rayyramson/status/1832709727857627345",
@@ -2141,9 +3212,12 @@
       {
         "src": "images-opt/rayyramson-1832709727857627345-0-opt.webp",
         "width": 1748,
-        "height": 2480
+        "height": 2480,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/erasopepero232/status/1832763779790323948",
@@ -2159,9 +3233,12 @@
       {
         "src": "images-opt/erasopepero232-1832763779790323948-0-opt.webp",
         "width": 4096,
-        "height": 2915
+        "height": 2915,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nagi_nyaaa/status/1832736395368321060",
@@ -2177,14 +3254,18 @@
       {
         "src": "images-opt/nagi_nyaaa-1832736395368321060-0-opt.webp",
         "width": 2786,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/nagi_nyaaa-1832736395368321060-1-opt.webp",
         "width": 2507,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/adarinsinner/status/1848429109103505750",
@@ -2200,9 +3281,12 @@
       {
         "src": "images-opt/adarinsinner-1848429109103505750-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1832737380857459090",
@@ -2218,9 +3302,12 @@
       {
         "src": "images-opt/koizumi_arata-1832737380857459090-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nagi_nyaaa/status/1832509636995649711",
@@ -2236,9 +3323,61 @@
       {
         "src": "images-opt/nagi_nyaaa-1832509636995649711-0-opt.webp",
         "width": 2811,
-        "height": 2319
+        "height": 2319,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/awooofa/status/1832887528569143750",
+    "label": "\"Tales of the Humble Knight\"",
+    "author": "awooofa",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/awooofa-1832887528569143750-0-opt.webp",
+        "width": 1250,
+        "height": 2000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/jake33w0/status/1832813698081014144",
+    "label": "\"all my homies hate the pink one\"",
+    "author": "jake33w0",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "calli",
+      "ina",
+      "irys",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "liz",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jake33w0-1832813698081014144-0-opt.webp",
+        "width": 1242,
+        "height": 1212,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/maskofgabriel/status/1835924665962746240",
@@ -2253,9 +3392,12 @@
       {
         "src": "images-opt/maskofgabriel-1835924665962746240-0-opt.webp",
         "width": 1100,
-        "height": 1358
+        "height": 1358,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/jhgardener_/status/1836425415482839198",
@@ -2270,9 +3412,32 @@
       {
         "src": "images-opt/jhgardener_-1836425415482839198-0-opt.webp",
         "width": 2816,
-        "height": 2964
+        "height": 2964,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/oruruca86/status/1832133314670686400",
+    "label": "\"Please remember...\"",
+    "author": "oruruca86",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame"
+    ],
+    "images": [
+      {
+        "src": "images-opt/oruruca86-1832133314670686400-0-opt.webp",
+        "width": 2480,
+        "height": 3508,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keenbiscuit/status/1832589405451931972",
@@ -2305,24 +3470,30 @@
       {
         "src": "images-opt/keenbiscuit-1832589405451931972-0-opt.webp",
         "width": 1574,
-        "height": 874
+        "height": 874,
+        "type": "image"
       },
       {
         "src": "images-opt/keenbiscuit-1832589405451931972-1-opt.webp",
         "width": 1574,
-        "height": 874
+        "height": 874,
+        "type": "image"
       },
       {
         "src": "images-opt/keenbiscuit-1832589405451931972-2-opt.webp",
         "width": 1574,
-        "height": 874
+        "height": 874,
+        "type": "image"
       },
       {
         "src": "images-opt/keenbiscuit-1832589405451931972-3-opt.webp",
         "width": 1574,
-        "height": 874
+        "height": 874,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1832563954859610324",
@@ -2342,9 +3513,35 @@
       {
         "src": "images-opt/koizumi_arata-1832563954859610324-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1833235694485180477",
+    "label": "\"Called it :D\"",
+    "author": "bunbbun1",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "nerissa",
+      "liz",
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1833235694485180477-0-opt.webp",
+        "width": 1000,
+        "height": 1500,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ma_draws/status/1901606787452948765",
@@ -2359,9 +3556,12 @@
       {
         "src": "images-opt/ma_draws-1901606787452948765-0-opt.webp",
         "width": 1365,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/anonamos_701/status/1896393585995694268",
@@ -2376,9 +3576,12 @@
       {
         "src": "images-opt/anonamos_701-1896393585995694268-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lordjoeboto/status/1834514267736822065",
@@ -2400,9 +3603,12 @@
       {
         "src": "images-opt/lordjoeboto-1834514267736822065-0-opt.webp",
         "width": 1512,
-        "height": 2150
+        "height": 2150,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1902563407699513352",
@@ -2417,9 +3623,12 @@
       {
         "src": "images-opt/koizumi_arata-1902563407699513352-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/arexsudraws/status/1900276933142994975",
@@ -2434,9 +3643,12 @@
       {
         "src": "images-opt/arexsudraws-1900276933142994975-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hyurisaki/status/1902247996688892412",
@@ -2451,9 +3663,12 @@
       {
         "src": "images-opt/hyurisaki-1902247996688892412-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mikururun/status/1915083922976678195",
@@ -2472,9 +3687,12 @@
       {
         "src": "images-opt/mikururun-1915083922976678195-0-opt.webp",
         "width": 3260,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mpien6/status/1832788483561369945",
@@ -2490,9 +3708,12 @@
       {
         "src": "images-opt/mpien6-1832788483561369945-0-opt.webp",
         "width": 4096,
-        "height": 3705
+        "height": 3705,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mpien6/status/1832812067478446477",
@@ -2509,14 +3730,18 @@
       {
         "src": "images-opt/mpien6-1832812067478446477-0-opt.webp",
         "width": 4000,
-        "height": 2200
+        "height": 2200,
+        "type": "image"
       },
       {
         "src": "images-opt/mpien6-1832812067478446477-1-opt.webp",
         "width": 4096,
-        "height": 3705
+        "height": 3705,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yubaest/status/1834009254141046887",
@@ -2531,9 +3756,12 @@
       {
         "src": "images-opt/yubaest-1834009254141046887-0-opt.webp",
         "width": 2480,
-        "height": 2765
+        "height": 2765,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1833244422903108017",
@@ -2550,19 +3778,24 @@
       {
         "src": "images-opt/keiseeaaa-1833244422903108017-0-opt.webp",
         "width": 2500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       },
       {
         "src": "images-opt/keiseeaaa-1833244422903108017-1-opt.webp",
         "width": 2500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       },
       {
         "src": "images-opt/keiseeaaa-1833244422903108017-2-opt.webp",
         "width": 2500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/captainskelefun/status/1900878033872986249",
@@ -2577,9 +3810,12 @@
       {
         "src": "images-opt/captainskelefun-1900878033872986249-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sk_jynx/status/1833175491957968955",
@@ -2594,9 +3830,12 @@
       {
         "src": "images-opt/sk_jynx-1833175491957968955-0-opt.webp",
         "width": 1700,
-        "height": 2200
+        "height": 2200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/phdpigeon/status/1896821416395436357",
@@ -2611,14 +3850,18 @@
       {
         "src": "images-opt/phdpigeon-1896821416395436357-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       },
       {
         "src": "images-opt/phdpigeon-1896821416395436357-1-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/m_agho/status/1834940565013868751",
@@ -2633,9 +3876,12 @@
       {
         "src": "images-opt/m_agho-1834940565013868751-0-opt.webp",
         "width": 1103,
-        "height": 618
+        "height": 618,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1832856628850491716",
@@ -2651,9 +3897,12 @@
       {
         "src": "images-opt/keiseeaaa-1832856628850491716-0-opt.webp",
         "width": 2836,
-        "height": 2592
+        "height": 2592,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1918616257747898833",
@@ -2669,9 +3918,12 @@
       {
         "src": "images-opt/elisbian_-1918616257747898833-0-opt.webp",
         "width": 4096,
-        "height": 2715
+        "height": 2715,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1833938251633303674",
@@ -2687,9 +3939,12 @@
       {
         "src": "images-opt/keiseeaaa-1833938251633303674-0-opt.webp",
         "width": 2500,
-        "height": 3402
+        "height": 3402,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/paw_chie/status/1833602592875942394",
@@ -2705,9 +3960,33 @@
       {
         "src": "images-opt/paw_chie-1833602592875942394-0-opt.webp",
         "width": 2048,
-        "height": 1447
+        "height": 1447,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1915072067663454482",
+    "label": "\"Peeping\"",
+    "author": "hiroavrs",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "nerissa",
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1915072067663454482-0-opt.webp",
+        "width": 1365,
+        "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/taku_artworks/status/1831427591443714133/",
@@ -2722,9 +4001,12 @@
       {
         "src": "images-opt/taku_artworks-1831427591443714133-0-opt.webp",
         "width": 2970,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kurochanai/status/1900890295069520307",
@@ -2739,9 +4021,12 @@
       {
         "src": "images-opt/kurochanai-1900890295069520307-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/a1ma3ru/status/1832977664514179283",
@@ -2758,14 +4043,18 @@
       {
         "src": "images-opt/a1ma3ru-1832977664514179283-0-opt.webp",
         "width": 3035,
-        "height": 3816
+        "height": 3816,
+        "type": "image"
       },
       {
         "src": "images-opt/a1ma3ru-1832977664514179283-1-opt.webp",
         "width": 3035,
-        "height": 3816
+        "height": 3816,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1832666640334405679",
@@ -2780,9 +4069,12 @@
       {
         "src": "images-opt/fukuinu_daddy-1832666640334405679-0-opt.webp",
         "width": 960,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/cipher4109/status/1833511205211959600",
@@ -2797,9 +4089,12 @@
       {
         "src": "images-opt/cipher4109-1833511205211959600-0-opt.webp",
         "width": 2526,
-        "height": 2526
+        "height": 2526,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/doutenka/status/1833441767578071067",
@@ -2815,9 +4110,12 @@
       {
         "src": "images-opt/doutenka-1833441767578071067-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wugedou579/status/1832787089068638641",
@@ -2833,14 +4131,37 @@
       {
         "src": "images-opt/wugedou579-1832787089068638641-0-opt.webp",
         "width": 945,
-        "height": 945
+        "height": 945,
+        "type": "image"
       },
       {
         "src": "images-opt/wugedou579-1832787089068638641-1-opt.webp",
         "width": 945,
-        "height": 945
+        "height": 945,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/m_agho/status/1834333495638065282",
+    "label": "\"You wish to call me sister now?\"",
+    "author": "m_agho",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "mococo",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/m_agho-1834333495638065282-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/_se_t_/status/1834034907229946123",
@@ -2855,9 +4176,12 @@
       {
         "src": "images-opt/_se_t_-1834034907229946123-0-opt.webp",
         "width": 1538,
-        "height": 961
+        "height": 961,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/brasileiroo0/status/1901358989033832670",
@@ -2872,9 +4196,48 @@
       {
         "src": "images-opt/brasileiroo0-1901358989033832670-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/emicootero/status/1870178892109214093",
+    "label": "\"A Battle Against Elizabeth Rose Bloodflame\"",
+    "author": "emicootero",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1870178892109214093-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/kaje_zu/status/1924528574033494251",
+    "label": "\"nice knight\"",
+    "author": "kaje_zu",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/kaje_zu-1924528574033494251-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/medu_yusa/status/1832886978574234063",
@@ -2890,14 +4253,18 @@
       {
         "src": "images-opt/medu_yusa-1832886978574234063-0-opt.webp",
         "width": 1584,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/medu_yusa-1832886978574234063-1-opt.webp",
         "width": 1584,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ammiietty/status/1832638322503463219",
@@ -2913,9 +4280,12 @@
       {
         "src": "images-opt/ammiietty-1832638322503463219-0-opt.webp",
         "width": 1779,
-        "height": 1297
+        "height": 1297,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/blankworks_/status/1835045286823035138",
@@ -2931,9 +4301,30 @@
       {
         "src": "images-opt/blankworks_-1835045286823035138-0-opt.webp",
         "width": 2731,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/kazukiich/status/1832567604323741947",
+    "label": "\"a true villain\"",
+    "author": "kazukiich",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/kazukiich-1832567604323741947-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/harutimu_415/status/1862390625846304772",
@@ -2948,9 +4339,126 @@
       {
         "src": "images-opt/harutimu_415-1862390625846304772-0-opt.webp",
         "width": 2048,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/koizumi_arata/status/1833287158334939257",
+    "label": "\"Until next time, Humble little knight\"",
+    "author": "koizumi_arata",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1833287158334939257-0-opt.webp",
+        "width": 3277,
+        "height": 4096,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/doctorturing/status/1831134511247089863",
+    "label": "\"the cuck chair\"",
+    "author": "doctorturing",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/doctorturing-1831134511247089863-0-opt.webp",
+        "width": 680,
+        "height": 850,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/kazukiich/status/1832728799223673195",
+    "label": "\"He wins\"",
+    "author": "kazukiich",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/kazukiich-1832728799223673195-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/nomywomy/status/1833337740441550885",
+    "label": "\"What would he do\"",
+    "author": "nomywomy",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nomywomy-1833337740441550885-0-opt.webp",
+        "width": 1022,
+        "height": 1024,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/_bambooz/status/1918628681867743581",
+    "label": "\"orge\"",
+    "author": "_bambooz",
+    "chapter": 0,
+    "day": 7,
+    "characters": [],
+    "images": [
+      {
+        "src": "images-opt/_bambooz-1918628681867743581-0-opt.webp",
+        "width": 1200,
+        "height": 991,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1861075335011352953",
+    "label": "\"the quintessential hashtag enreco experience\"",
+    "author": "elisbian_",
+    "chapter": 0,
+    "day": 7,
+    "characters": [],
+    "images": [
+      {
+        "src": "images-opt/elisbian_-1861075335011352953-0-opt.webp",
+        "width": 562,
+        "height": 680,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/fineria_/status/1902555962864751092",
@@ -2965,9 +4473,12 @@
       {
         "src": "images-opt/fineria_-1902555962864751092-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/onecolo133/status/1902225836020744442",
@@ -2982,9 +4493,12 @@
       {
         "src": "images-opt/onecolo133-1902225836020744442-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/147illu/status/1901947215293428179",
@@ -2999,9 +4513,32 @@
       {
         "src": "images-opt/147illu-1901947215293428179-0-opt.webp",
         "width": 800,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/medu_yusa/status/1833614741564006909",
+    "label": "\"Nanamu asking very nicely for a shield\"",
+    "author": "medu_yusa",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/medu_yusa-1833614741564006909-0-opt.webp",
+        "width": 2480,
+        "height": 3508,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sanni44322/status/1921325284067811733",
@@ -3016,9 +4553,12 @@
       {
         "src": "images-opt/sanni44322-1921325284067811733-0-opt.webp",
         "width": 1373,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fushide_/status/1919625900900896785",
@@ -3033,9 +4573,30 @@
       {
         "src": "images-opt/fushide_-1919625900900896785-0-opt.webp",
         "width": 3200,
-        "height": 3200
+        "height": 3200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1917961179017986292",
+    "label": "\"First meeting after 7 months\"",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "calli"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/hiroavrs-1917961179017986292-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/2h2xo2is2h2o/status/1921125232099651645",
@@ -3051,9 +4612,12 @@
       {
         "src": "images-opt/2h2xo2is2h2o-1921125232099651645-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mokoppe/status/1918629108000362512",
@@ -3082,24 +4646,30 @@
       {
         "src": "images-opt/mokoppe-1918629108000362512-0-opt.webp",
         "width": 1352,
-        "height": 852
+        "height": 852,
+        "type": "image"
       },
       {
         "src": "images-opt/mokoppe-1918629108000362512-1-opt.webp",
         "width": 1352,
-        "height": 852
+        "height": 852,
+        "type": "image"
       },
       {
         "src": "images-opt/mokoppe-1918629108000362512-2-opt.webp",
         "width": 1352,
-        "height": 852
+        "height": 852,
+        "type": "image"
       },
       {
         "src": "images-opt/mokoppe-1918629108000362512-3-opt.webp",
         "width": 1352,
-        "height": 852
+        "height": 852,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/shutowl/status/1919994120837177491",
@@ -3114,9 +4684,12 @@
       {
         "src": "images-opt/shutowl-1919994120837177491-0-opt.webp",
         "width": 3000,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/afookinretch/status/1921997300240425214",
@@ -3131,9 +4704,12 @@
       {
         "src": "images-opt/afookinretch-1921997300240425214-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/youn_hand/status/1918831922362413460",
@@ -3148,9 +4724,12 @@
       {
         "src": "images-opt/youn_hand-1918831922362413460-0-opt.webp",
         "width": 4096,
-        "height": 3581
+        "height": 3581,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/a0s0l/status/1919050797020479947",
@@ -3165,9 +4744,12 @@
       {
         "src": "images-opt/a0s0l-1919050797020479947-0-opt.webp",
         "width": 2048,
-        "height": 1152
+        "height": 1152,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/purokiti/status/1918510105928032297",
@@ -3185,9 +4767,12 @@
       {
         "src": "images-opt/purokiti-1918510105928032297-0-opt.webp",
         "width": 1920,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kagenoyuhi/status/1918496790875144250",
@@ -3205,9 +4790,12 @@
       {
         "src": "images-opt/kagenoyuhi-1918496790875144250-0-opt.webp",
         "width": 1448,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wynnterra_/status/1902017659547353299/photo/1",
@@ -3222,9 +4810,12 @@
       {
         "src": "images-opt/wynnterra_-1902017659547353299-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/rikuje/status/1921276963735421438",
@@ -3240,9 +4831,12 @@
       {
         "src": "images-opt/rikuje-1921276963735421438-0-opt.webp",
         "width": 1892,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/chelimationz/status/1919839617232314759",
@@ -3257,9 +4851,12 @@
       {
         "src": "images-opt/chelimationz-1919839617232314759-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/doppidonny/status/1921230140056424847",
@@ -3274,9 +4871,12 @@
       {
         "src": "images-opt/doppidonny-1921230140056424847-0-opt.webp",
         "width": 3508,
-        "height": 2480
+        "height": 2480,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hunk_404/status/1919887710409654390",
@@ -3291,9 +4891,12 @@
       {
         "src": "images-opt/hunk_404-1919887710409654390-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/liapandaaaa/status/1918606567588647353",
@@ -3310,24 +4913,30 @@
       {
         "src": "images-opt/liapandaaaa-1918606567588647353-0-opt.webp",
         "width": 1282,
-        "height": 1819
+        "height": 1819,
+        "type": "image"
       },
       {
         "src": "images-opt/liapandaaaa-1918606567588647353-1-opt.webp",
         "width": 1282,
-        "height": 1819
+        "height": 1819,
+        "type": "image"
       },
       {
         "src": "images-opt/liapandaaaa-1918606567588647353-2-opt.webp",
         "width": 1282,
-        "height": 1819
+        "height": 1819,
+        "type": "image"
       },
       {
         "src": "images-opt/liapandaaaa-1918606567588647353-3-opt.webp",
         "width": 1282,
-        "height": 1819
+        "height": 1819,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mikururun/status/1899107067182411936/photo/1",
@@ -3342,9 +4951,12 @@
       {
         "src": "images-opt/mikururun-1899107067182411936-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/_linshch_/status/1920873250143285392",
@@ -3359,9 +4971,12 @@
       {
         "src": "images-opt/_linshch_-1920873250143285392-0-opt.webp",
         "width": 1690,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seapupu290495/status/1919057398330700031",
@@ -3376,9 +4991,12 @@
       {
         "src": "images-opt/seapupu290495-1919057398330700031-0-opt.webp",
         "width": 2368,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ritorich_s/status/1921996810249265554",
@@ -3394,9 +5012,31 @@
       {
         "src": "images-opt/ritorich_s-1921996810249265554-0-opt.webp",
         "width": 1448,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/m_agho/status/1926008375482990741",
+    "label": "\"first sight\"",
+    "author": "m_agho",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/m_agho-1926008375482990741-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/tibssketches/status/1919845172369596470",
@@ -3412,9 +5052,12 @@
       {
         "src": "images-opt/tibssketches-1919845172369596470-0-opt.webp",
         "width": 1165,
-        "height": 1654
+        "height": 1654,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1919107348817195311",
@@ -3430,14 +5073,18 @@
       {
         "src": "images-opt/keiseeaaa-1919107348817195311-0-opt.webp",
         "width": 2500,
-        "height": 3436
+        "height": 3436,
+        "type": "image"
       },
       {
         "src": "images-opt/keiseeaaa-1919107348817195311-1-opt.webp",
         "width": 2500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sumo88_/status/1900190544602734862",
@@ -3452,9 +5099,12 @@
       {
         "src": "images-opt/sumo88_-1900190544602734862-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/leuvi_tte/status/1902565329823568215",
@@ -3469,9 +5119,12 @@
       {
         "src": "images-opt/leuvi_tte-1902565329823568215-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ddolbang11/status/1902194136926843161",
@@ -3486,9 +5139,12 @@
       {
         "src": "images-opt/ddolbang11-1902194136926843161-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/33aalloonnhd/status/1902579334008692736",
@@ -3503,9 +5159,12 @@
       {
         "src": "images-opt/33aalloonnhd-1902579334008692736-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/okunashi27/status/1900088484695818505",
@@ -3520,9 +5179,12 @@
       {
         "src": "images-opt/okunashi27-1900088484695818505-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/cd_usr/status/1921362193527845250",
@@ -3538,9 +5200,12 @@
       {
         "src": "images-opt/cd_usr-1921362193527845250-0-opt.webp",
         "width": 4096,
-        "height": 2896
+        "height": 2896,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yuri_kyanon/status/1919648496329883766",
@@ -3555,9 +5220,12 @@
       {
         "src": "images-opt/yuri_kyanon-1919648496329883766-0-opt.webp",
         "width": 954,
-        "height": 1567
+        "height": 1567,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kukie_nyan/status/1920230188601823581",
@@ -3572,9 +5240,12 @@
       {
         "src": "images-opt/kukie_nyan-1920230188601823581-0-opt.webp",
         "width": 1300,
-        "height": 1857
+        "height": 1857,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hzlform/status/1901576727979233612",
@@ -3589,9 +5260,12 @@
       {
         "src": "images-opt/hzlform-1901576727979233612-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/_nakazako/status/1900696188736991264",
@@ -3607,9 +5281,12 @@
       {
         "src": "images-opt/_nakazako-1900696188736991264-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seitohakuya/status/1902530835552649547",
@@ -3624,9 +5301,12 @@
       {
         "src": "images-opt/seitohakuya-1902530835552649547-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1917907936216601005",
@@ -3641,9 +5321,12 @@
       {
         "src": "images-opt/fukuinu_daddy-1917907936216601005-0-opt.webp",
         "width": 1200,
-        "height": 900
+        "height": 900,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/renshifter/status/1902036192822247870",
@@ -3658,9 +5341,12 @@
       {
         "src": "images-opt/renshifter-1902036192822247870-0-opt.webp",
         "width": 2400,
-        "height": 3900
+        "height": 3900,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/standingplace12/status/1918991950818021419",
@@ -3676,9 +5362,12 @@
       {
         "src": "images-opt/standingplace12-1918991950818021419-0-opt.webp",
         "width": 1340,
-        "height": 955
+        "height": 955,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sebu_illust/status/1899563774933340404",
@@ -3693,9 +5382,12 @@
       {
         "src": "images-opt/sebu_illust-1899563774933340404-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/cd_usr/status/1920637427082743930",
@@ -3710,9 +5402,12 @@
       {
         "src": "images-opt/cd_usr-1920637427082743930-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/_nhase/status/1919082092828516566",
@@ -3727,9 +5422,32 @@
       {
         "src": "images-opt/_nhase-1919082092828516566-0-opt.webp",
         "width": 2688,
-        "height": 1512
+        "height": 1512,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/fineria_/status/1918895385147220243",
+    "label": "\"Gonathon G\"",
+    "author": "fineria_",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/fineria_-1918895385147220243-0-opt.webp",
+        "width": 2048,
+        "height": 1448,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/quartzquadrant/status/1902200030980649355",
@@ -3744,9 +5462,12 @@
       {
         "src": "images-opt/quartzquadrant-1902200030980649355-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/arexsudraws/status/1919246188831707196",
@@ -3761,9 +5482,12 @@
       {
         "src": "images-opt/arexsudraws-1919246188831707196-0-opt.webp",
         "width": 1438,
-        "height": 1548
+        "height": 1548,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/another_achicvc/status/1922911239631516123",
@@ -3781,9 +5505,12 @@
       {
         "src": "images-opt/another_achicvc-1922911239631516123-0-opt.webp",
         "width": 1536,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/laaaw444/status/1902474971496227083",
@@ -3798,9 +5525,12 @@
       {
         "src": "images-opt/laaaw444-1902474971496227083-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lost_yth/status/1901898510058078427",
@@ -3815,9 +5545,12 @@
       {
         "src": "images-opt/lost_yth-1901898510058078427-0-opt.webp",
         "width": 1920,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mpien6/status/1919430061578461241",
@@ -3833,9 +5566,12 @@
       {
         "src": "images-opt/mpien6-1919430061578461241-0-opt.webp",
         "width": 4096,
-        "height": 3705
+        "height": 3705,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/underdatv/status/1919463544581718116",
@@ -3855,9 +5591,12 @@
       {
         "src": "images-opt/underdatv-1919463544581718116-0-opt.webp",
         "width": 1920,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hanaswing/status/1919548229479244203",
@@ -3875,9 +5614,12 @@
       {
         "src": "images-opt/hanaswing-1919548229479244203-0-opt.webp",
         "width": 3295,
-        "height": 1854
+        "height": 1854,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ammiietty/status/1919997510287794293",
@@ -3894,9 +5636,12 @@
       {
         "src": "images-opt/ammiietty-1919997510287794293-0-opt.webp",
         "width": 780,
-        "height": 1420
+        "height": 1420,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/underdatv/status/1919617636545245333",
@@ -3912,9 +5657,12 @@
       {
         "src": "images-opt/underdatv-1919617636545245333-0-opt.webp",
         "width": 1348,
-        "height": 1000
+        "height": 1000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/subnil4/status/1920153037156573445",
@@ -3929,9 +5677,12 @@
       {
         "src": "images-opt/subnil4-1920153037156573445-0-opt.webp",
         "width": 2000,
-        "height": 2000
+        "height": 2000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/oopartzy/status/1902600564913139718",
@@ -3946,9 +5697,31 @@
       {
         "src": "images-opt/oopartzy-1902600564913139718-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/mioami_/status/1919358541783314913",
+    "label": "\"APT APT APT APT APT APT\"",
+    "author": "mioami_",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "kronii",
+      "irys"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/mioami_-1919358541783314913-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/yume_ato29/status/1919498300232982554",
@@ -3963,9 +5736,31 @@
       {
         "src": "images-opt/yume_ato29-1919498300232982554-0-opt.webp",
         "width": 2048,
-        "height": 1660
+        "height": 1660,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/paw_chie/status/1923480569280856202",
+    "label": "\"Pure Love\"",
+    "author": "paw_chie",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/paw_chie-1923480569280856202-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/noirstein/status/1919950989265658028",
@@ -3981,9 +5776,12 @@
       {
         "src": "images-opt/noirstein-1919950989265658028-0-opt.webp",
         "width": 3200,
-        "height": 2400
+        "height": 2400,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/tianshiko/status/1934050252702802157",
@@ -3999,9 +5797,52 @@
       {
         "src": "images-opt/tianshiko-1934050252702802157-0-opt.webp",
         "width": 1448,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/lestkrr/status/1920892560521715876",
+    "label": "\"knight's suite\"",
+    "author": "lestkrr",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/lestkrr-1920892560521715876-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/jailbirdunion/status/1920327487017394422",
+    "label": "\"Da Fumbler Lady's and Gentleman\"",
+    "author": "jailbirdunion",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jailbirdunion-1920327487017394422-0-opt.webp",
+        "width": 677,
+        "height": 862,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/standingplace12/status/1921472739644199167",
@@ -4016,14 +5857,18 @@
       {
         "src": "images-opt/standingplace12-1921472739644199167-0-opt.webp",
         "width": 2753,
-        "height": 3600
+        "height": 3600,
+        "type": "image"
       },
       {
         "src": "images-opt/standingplace12-1921472739644199167-1-opt.webp",
         "width": 2753,
-        "height": 3600
+        "height": 3600,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/andrslmu/status/1920687085301756408",
@@ -4038,9 +5883,12 @@
       {
         "src": "images-opt/andrslmu-1920687085301756408-0-opt.webp",
         "width": 2300,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elskaelu/status/1918973111795359805",
@@ -4055,9 +5903,12 @@
       {
         "src": "images-opt/elskaelu-1918973111795359805-0-opt.webp",
         "width": 2550,
-        "height": 3300
+        "height": 3300,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kumakibbs/status/1926080936971497522",
@@ -4073,9 +5924,12 @@
       {
         "src": "images-opt/kumakibbs-1926080936971497522-0-opt.webp",
         "width": 3500,
-        "height": 3500
+        "height": 3500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sumo88_/status/1902014127691747329/",
@@ -4090,9 +5944,12 @@
       {
         "src": "images-opt/sumo88_-1902014127691747329-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1919258061119672376",
@@ -4108,9 +5965,31 @@
       {
         "src": "images-opt/fukuinu_daddy-1919258061119672376-0-opt.webp",
         "width": 960,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/m_agho/status/1921857159337300240",
+    "label": "\"0 to 100\"",
+    "author": "m_agho",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "liz",
+      "cecilia"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/m_agho-1921857159337300240-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/nellepoof/status/1896555698835841279",
@@ -4125,9 +6004,12 @@
       {
         "src": "images-opt/nellepoof-1896555698835841279-0-opt.webp",
         "width": 800,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nominishki/status/1919330292319277410",
@@ -4143,9 +6025,12 @@
       {
         "src": "images-opt/nominishki-1919330292319277410-0-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1919665039730213267",
@@ -4163,9 +6048,12 @@
       {
         "src": "images-opt/roronico1512-1919665039730213267-0-opt.webp",
         "width": 2031,
-        "height": 1128
+        "height": 1128,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/__akkanen/status/1919051593619755126",
@@ -4180,9 +6068,12 @@
       {
         "src": "images-opt/__akkanen-1919051593619755126-0-opt.webp",
         "width": 1414,
-        "height": 2000
+        "height": 2000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ammiietty/status/1921756422808785318",
@@ -4201,14 +6092,18 @@
       {
         "src": "images-opt/ammiietty-1921756422808785318-0-opt.webp",
         "width": 1869,
-        "height": 2031
+        "height": 2031,
+        "type": "image"
       },
       {
         "src": "images-opt/ammiietty-1921756422808785318-1-opt.webp",
         "width": 1869,
-        "height": 1813
+        "height": 1813,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lestkrr/status/1921705091372863518",
@@ -4224,9 +6119,12 @@
       {
         "src": "images-opt/lestkrr-1921705091372863518-0-opt.webp",
         "width": 4096,
-        "height": 2896
+        "height": 2896,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/feverkiosko/status/1934841637588611209",
@@ -4242,9 +6140,12 @@
       {
         "src": "images-opt/feverkiosko-1934841637588611209-0-opt.webp",
         "width": 1219,
-        "height": 1400
+        "height": 1400,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ogumashiro/status/1919862571261116675",
@@ -4260,9 +6161,12 @@
       {
         "src": "images-opt/ogumashiro-1919862571261116675-0-opt.webp",
         "width": 1080,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1919963091464249648",
@@ -4286,9 +6190,30 @@
       {
         "src": "images-opt/bunbbun1-1919963091464249648-0-opt.webp",
         "width": 1000,
-        "height": 1700
+        "height": 1700,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1919392962670452788",
+    "label": "\"Hot Pink Onii-chan in a nutshell\"",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "irys"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/hiroavrs-1919392962670452788-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/illust_asashi/status/1920369360209637411",
@@ -4304,9 +6229,12 @@
       {
         "src": "images-opt/illust_asashi-1920369360209637411-0-opt.webp",
         "width": 2048,
-        "height": 1448
+        "height": 1448,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1918528170237558813",
@@ -4321,9 +6249,32 @@
       {
         "src": "images-opt/koizumi_arata-1918528170237558813-0-opt.webp",
         "width": 4096,
-        "height": 2731
+        "height": 2731,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/antsy_af/status/1831552730021707951",
+    "label": "\"From Queen to Missing\"",
+    "author": "antsy_af",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/antsy_af-1831552730021707951-0-opt.webp",
+        "width": 2154,
+        "height": 666,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/underdatv/status/1919820213811294236",
@@ -4339,9 +6290,12 @@
       {
         "src": "images-opt/underdatv-1919820213811294236-0-opt.webp",
         "width": 1558,
-        "height": 1170
+        "height": 1170,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mikururun/status/1899107067182411936",
@@ -4356,9 +6310,12 @@
       {
         "src": "images-opt/mikururun-1899107067182411936-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/iennie_/status/1920442027751190563",
@@ -4373,9 +6330,12 @@
       {
         "src": "images-opt/iennie_-1920442027751190563-0-opt.webp",
         "width": 1024,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lordjoeboto/status/1919654751324557545",
@@ -4391,9 +6351,12 @@
       {
         "src": "images-opt/lordjoeboto-1919654751324557545-0-opt.webp",
         "width": 1233,
-        "height": 1267
+        "height": 1267,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/zelmaelstrom/status/1920221012169535936",
@@ -4409,14 +6372,18 @@
       {
         "src": "images-opt/zelmaelstrom-1920221012169535936-0-opt.webp",
         "width": 1754,
-        "height": 1240
+        "height": 1240,
+        "type": "image"
       },
       {
         "src": "images-opt/zelmaelstrom-1920221012169535936-1-opt.webp",
         "width": 1754,
-        "height": 1240
+        "height": 1240,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/vulpuskayrii/status/1919957480106303488",
@@ -4432,9 +6399,12 @@
       {
         "src": "images-opt/vulpuskayrii-1919957480106303488-0-opt.webp",
         "width": 3080,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1919845669562622165",
@@ -4450,9 +6420,12 @@
       {
         "src": "images-opt/keiseeaaa-1919845669562622165-0-opt.webp",
         "width": 2148,
-        "height": 2576
+        "height": 2576,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/tibssketches/status/1920495769099931750",
@@ -4468,9 +6441,12 @@
       {
         "src": "images-opt/tibssketches-1920495769099931750-0-opt.webp",
         "width": 1165,
-        "height": 1654
+        "height": 1654,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ashiartwork/status/1934386688991850581",
@@ -4486,9 +6462,12 @@
       {
         "src": "images-opt/ashiartwork-1934386688991850581-0-opt.webp",
         "width": 1800,
-        "height": 1853
+        "height": 1853,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/tianshiko/status/1919921818401493098",
@@ -4504,9 +6483,12 @@
       {
         "src": "images-opt/tianshiko-1919921818401493098-0-opt.webp",
         "width": 1448,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1920311940167184848",
@@ -4522,14 +6504,18 @@
       {
         "src": "images-opt/elisbian_-1920311940167184848-0-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/elisbian_-1920311940167184848-1-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/shioronot/status/1920122374059438264",
@@ -4545,9 +6531,12 @@
       {
         "src": "images-opt/shioronot-1920122374059438264-0-opt.webp",
         "width": 936,
-        "height": 1080
+        "height": 1080,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1919929897239085230",
@@ -4563,9 +6552,12 @@
       {
         "src": "images-opt/koizumi_arata-1919929897239085230-0-opt.webp",
         "width": 2979,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/rikuje/status/1920568328336064569",
@@ -4581,9 +6573,12 @@
       {
         "src": "images-opt/rikuje-1920568328336064569-0-opt.webp",
         "width": 1892,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/blaparky/status/1919657314384282081",
@@ -4599,9 +6594,12 @@
       {
         "src": "images-opt/blaparky-1919657314384282081-0-opt.webp",
         "width": 3045,
-        "height": 2729
+        "height": 2729,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ashiartwork/status/1900196831394668961",
@@ -4616,9 +6614,12 @@
       {
         "src": "images-opt/ashiartwork-1900196831394668961-0-opt.webp",
         "width": 1280,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1925783785758482569",
@@ -4633,9 +6634,12 @@
       {
         "src": "images-opt/elisbian_-1925783785758482569-0-opt.webp",
         "width": 3327,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ogumashiro/status/1920755211192213550",
@@ -4650,9 +6654,12 @@
       {
         "src": "images-opt/ogumashiro-1920755211192213550-0-opt.webp",
         "width": 1080,
-        "height": 1440
+        "height": 1440,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kemi_palitogay/status/1920602120526364860",
@@ -4668,14 +6675,60 @@
       {
         "src": "images-opt/kemi_palitogay-1920602120526364860-0-opt.webp",
         "width": 1648,
-        "height": 1590
+        "height": 1590,
+        "type": "image"
       },
       {
         "src": "images-opt/kemi_palitogay-1920602120526364860-1-opt.webp",
         "width": 1648,
-        "height": 1590
+        "height": 1590,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/seapupu290495/status/1919764225557197309",
+    "label": "\"Pat Pat Pat AWOO!\"",
+    "author": "seapupu290495",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "cecilia",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/seapupu290495-1919764225557197309-0-opt.webp",
+        "width": 2894,
+        "height": 4093,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/antzk_3/status/1919608185536532533",
+    "label": "\"hell yeah\"",
+    "author": "antzk_3",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "cecilia",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/antzk_3-1919608185536532533-0-opt.webp",
+        "width": 1538,
+        "height": 1220,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/mittsumia/status/1919718476379521404",
@@ -4691,9 +6744,12 @@
       {
         "src": "images-opt/mittsumia-1919718476379521404-0-opt.webp",
         "width": 623,
-        "height": 852
+        "height": 852,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ediialex/status/1919243257499853211",
@@ -4708,9 +6764,12 @@
       {
         "src": "images-opt/ediialex-1919243257499853211-0-opt.webp",
         "width": 2750,
-        "height": 4000
+        "height": 4000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seekorplatypus/status/1919368149411176695",
@@ -4725,9 +6784,32 @@
       {
         "src": "images-opt/seekorplatypus-1919368149411176695-0-opt.webp",
         "width": 1080,
-        "height": 1340
+        "height": 1340,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/nagi_nyaaa/status/1919583988454158726",
+    "label": "\"Those blonde angels looks familiar...\"",
+    "author": "nagi_nyaaa",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nagi_nyaaa-1919583988454158726-0-opt.webp",
+        "width": 1059,
+        "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/maybe_myra28/status/1920143568561180880",
@@ -4743,9 +6825,31 @@
       {
         "src": "images-opt/maybe_myra28-1920143568561180880-0-opt.webp",
         "width": 3500,
-        "height": 2500
+        "height": 2500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/comicdud/status/1944574664480596187",
+    "label": "\"A blind date gone wrong\"",
+    "author": "comicdud",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "calli",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/comicdud-1944574664480596187-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1919844587000234488",
@@ -4763,9 +6867,12 @@
       {
         "src": "images-opt/roronico1512-1919844587000234488-0-opt.webp",
         "width": 2048,
-        "height": 1427
+        "height": 1427,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keenbiscuit/status/1920469031976661247",
@@ -4787,9 +6894,12 @@
       {
         "src": "images-opt/keenbiscuit-1920469031976661247-0-opt.webp",
         "width": 2856,
-        "height": 1800
+        "height": 1800,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/dreamplanes256/status/1921562462647709819",
@@ -4805,9 +6915,12 @@
       {
         "src": "images-opt/dreamplanes256-1921562462647709819-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mpien6/status/1920134834791600586",
@@ -4827,9 +6940,12 @@
       {
         "src": "images-opt/mpien6-1920134834791600586-0-opt.webp",
         "width": 4096,
-        "height": 3705
+        "height": 3705,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1920030742597484826",
@@ -4844,9 +6960,32 @@
       {
         "src": "images-opt/roronico1512-1920030742597484826-0-opt.webp",
         "width": 2048,
-        "height": 1403
+        "height": 1403,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/np_mango/status/1919989015433925080",
+    "label": "\"The Gonathan situation is crazy\"",
+    "author": "np_mango",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "kiara"
+    ],
+    "images": [
+      {
+        "src": "images-opt/np_mango-1919989015433925080-0-opt.webp",
+        "width": 771,
+        "height": 525,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/lestkrr/status/1922733970778648735",
@@ -4863,9 +7002,12 @@
       {
         "src": "images-opt/lestkrr-1922733970778648735-0-opt.webp",
         "width": 842,
-        "height": 1192
+        "height": 1192,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seapupu290495/status/1920170130492785116",
@@ -4881,9 +7023,12 @@
       {
         "src": "images-opt/seapupu290495-1920170130492785116-0-opt.webp",
         "width": 2368,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fluumf/status/1919736845048676373",
@@ -4899,9 +7044,12 @@
       {
         "src": "images-opt/fluumf-1919736845048676373-0-opt.webp",
         "width": 2224,
-        "height": 3372
+        "height": 3372,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/kawrrsz/status/1920100323001348357",
@@ -4918,9 +7066,12 @@
       {
         "src": "images-opt/kawrrsz-1920100323001348357-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1920236766730092572",
@@ -4937,9 +7088,12 @@
       {
         "src": "images-opt/bunbbun1-1920236766730092572-0-opt.webp",
         "width": 1000,
-        "height": 1600
+        "height": 1600,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/illust_asashi/status/1919997343094735288",
@@ -4956,9 +7110,12 @@
       {
         "src": "images-opt/illust_asashi-1919997343094735288-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1919773686233526778",
@@ -4973,9 +7130,12 @@
       {
         "src": "images-opt/koizumi_arata-1919773686233526778-0-opt.webp",
         "width": 3737,
-        "height": 3589
+        "height": 3589,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/haaro_69/status/1920956572743741642",
@@ -4991,9 +7151,12 @@
       {
         "src": "images-opt/haaro_69-1920956572743741642-0-opt.webp",
         "width": 1500,
-        "height": 1500
+        "height": 1500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/puniki_xiv/status/1926153741314478419",
@@ -5009,9 +7172,12 @@
       {
         "src": "images-opt/puniki_xiv-1926153741314478419-0-opt.webp",
         "width": 2025,
-        "height": 2160
+        "height": 2160,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/paw_chie/status/1925982006686503291",
@@ -5027,9 +7193,12 @@
       {
         "src": "images-opt/paw_chie-1925982006686503291-0-opt.webp",
         "width": 1450,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/cd_usr/status/1922052961083007296",
@@ -5045,9 +7214,12 @@
       {
         "src": "images-opt/cd_usr-1922052961083007296-0-opt.webp",
         "width": 4096,
-        "height": 3884
+        "height": 3884,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keenbiscuit/status/1920009469695586658",
@@ -5063,9 +7235,12 @@
       {
         "src": "images-opt/keenbiscuit-1920009469695586658-0-opt.webp",
         "width": 3556,
-        "height": 2200
+        "height": 2200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/jayteamations/status/1934347059643162875",
@@ -5081,14 +7256,39 @@
       {
         "src": "images-opt/jayteamations-1934347059643162875-0-opt.webp",
         "width": 1512,
-        "height": 2150
+        "height": 2150,
+        "type": "image"
       },
       {
         "src": "images-opt/jayteamations-1934347059643162875-1-opt.webp",
         "width": 1512,
-        "height": 2150
+        "height": 2150,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/naokiexistiert/status/1919968772510597160",
+    "label": "\"Season 1 vs Season 2\"",
+    "author": "naokiexistiert",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/naokiexistiert-1919968772510597160-0-opt.webp",
+        "width": 680,
+        "height": 855,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/haaro_69/status/1920182731260244067",
@@ -5103,9 +7303,32 @@
       {
         "src": "images-opt/haaro_69-1920182731260244067-0-opt.webp",
         "width": 1500,
-        "height": 1500
+        "height": 1500,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/retrocapybara/status/1920228142939320417",
+    "label": "\"Fuwawa...\"",
+    "author": "retrocapybara",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "fuwawa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/retrocapybara-1920228142939320417-0-opt.webp",
+        "width": 1920,
+        "height": 1080,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/eule_winters/status/1919969659094499795",
@@ -5121,14 +7344,18 @@
       {
         "src": "images-opt/eule_winters-1919969659094499795-0-opt.webp",
         "width": 1668,
-        "height": 1813
+        "height": 1813,
+        "type": "image"
       },
       {
         "src": "images-opt/eule_winters-1919969659094499795-1-opt.webp",
         "width": 1668,
-        "height": 1813
+        "height": 1813,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nominishki/status/1920011853004001565",
@@ -5144,9 +7371,12 @@
       {
         "src": "images-opt/nominishki-1920011853004001565-0-opt.webp",
         "width": 3277,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mikururun/status/1920242829692948593",
@@ -5161,9 +7391,71 @@
       {
         "src": "images-opt/mikururun-1920242829692948593-0-opt.webp",
         "width": 3070,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/shew03/status/1921345372162498653",
+    "label": "\"the bum-- I mean, humble knight!\"",
+    "author": "shew03",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/shew03-1921345372162498653-0-opt.webp",
+        "width": 2089,
+        "height": 1330,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/antsy_af/status/1919973398551126390",
+    "label": "\"Chat it's not going well\"",
+    "author": "antsy_af",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/antsy_af-1919973398551126390-0-opt.webp",
+        "width": 960,
+        "height": 1085,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/lestkrr/status/1920038038199017707",
+    "label": "\"some memories are just too much\"",
+    "author": "lestkrr",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "calli",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/lestkrr-1920038038199017707-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1920392409898168688",
@@ -5181,9 +7473,35 @@
       {
         "src": "images-opt/roronico1512-1920392409898168688-0-opt.webp",
         "width": 2048,
-        "height": 1431
+        "height": 1431,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/jeongyeonhands/status/1920309071036457109",
+    "label": "\"🧡🫡💗\"",
+    "author": "jeongyeonhands",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "calli",
+      "kiara",
+      "gigi",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jeongyeonhands-1920309071036457109-0-opt.webp",
+        "width": 2171,
+        "height": 1221,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/bunbbun1/status/1920775872061018370",
@@ -5200,9 +7518,12 @@
       {
         "src": "images-opt/bunbbun1-1920775872061018370-0-opt.webp",
         "width": 1000,
-        "height": 1720
+        "height": 1720,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/__akkanen/status/1921223443321655710",
@@ -5219,9 +7540,12 @@
       {
         "src": "images-opt/__akkanen-1921223443321655710-0-opt.webp",
         "width": 1626,
-        "height": 2300
+        "height": 2300,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/underdatv/status/1920335173909975159",
@@ -5238,9 +7562,35 @@
       {
         "src": "images-opt/underdatv-1920335173909975159-0-opt.webp",
         "width": 1200,
-        "height": 800
+        "height": 800,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/np_mango/status/1920560933287403536",
+    "label": "\"ENreco has been a wild ride\"",
+    "author": "np_mango",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "irys",
+      "bae",
+      "bijou",
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/np_mango-1920560933287403536-0-opt.webp",
+        "width": 1172,
+        "height": 807,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/llcole_/status/1922040765531718058",
@@ -5256,9 +7606,12 @@
       {
         "src": "images-opt/llcole_-1922040765531718058-0-opt.webp",
         "width": 3000,
-        "height": 4000
+        "height": 4000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ribitmse/status/1921473997515993246",
@@ -5276,34 +7629,62 @@
       {
         "src": "images-opt/ribitmse-1921473997515993246-0-opt.webp",
         "width": 2150,
-        "height": 3035
+        "height": 3035,
+        "type": "image"
       },
       {
         "src": "images-opt/ribitmse-1921473997515993246-1-opt.webp",
         "width": 2150,
-        "height": 3035
+        "height": 3035,
+        "type": "image"
       },
       {
         "src": "images-opt/ribitmse-1921473997515993246-2-opt.webp",
         "width": 2150,
-        "height": 3035
+        "height": 3035,
+        "type": "image"
       },
       {
         "src": "images-opt/ribitmse-1921473997515993246-3-opt.webp",
         "width": 2150,
-        "height": 3035
+        "height": 3035,
+        "type": "image"
       },
       {
         "src": "images-opt/ribitmse-1921473997515993246-4-opt.webp",
         "width": 2150,
-        "height": 3035
+        "height": 3035,
+        "type": "image"
       },
       {
         "src": "images-opt/ribitmse-1921473997515993246-5-opt.webp",
         "width": 4096,
-        "height": 2891
+        "height": 2891,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/brulee_arts/status/1920316933397754108",
+    "label": "\"the boss\"",
+    "author": "brulee_arts",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/brulee_arts-1920316933397754108-0-opt.webp",
+        "width": 800,
+        "height": 600,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/rlus654/status/1920313961980793313",
@@ -5318,9 +7699,32 @@
       {
         "src": "images-opt/rlus654-1920313961980793313-0-opt.webp",
         "width": 1637,
-        "height": 1696
+        "height": 1696,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/ari_sae_/status/1920482530630701156",
+    "label": "\"Promise's lore in a nutshell\"",
+    "author": "ari_sae_",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ari_sae_-1920482530630701156-0-opt.webp",
+        "width": 1275,
+        "height": 1425,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/nurizza_ilst/status/1922690872854065611",
@@ -5336,9 +7740,12 @@
       {
         "src": "images-opt/nurizza_ilst-1922690872854065611-0-opt.webp",
         "width": 2048,
-        "height": 1918
+        "height": 1918,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1924543172753166413",
@@ -5354,9 +7761,12 @@
       {
         "src": "images-opt/elisbian_-1924543172753166413-0-opt.webp",
         "width": 3266,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1920370505892430128",
@@ -5372,9 +7782,12 @@
       {
         "src": "images-opt/keiseeaaa-1920370505892430128-0-opt.webp",
         "width": 1828,
-        "height": 2300
+        "height": 2300,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/underdatv/status/1920594889793761656",
@@ -5389,9 +7802,12 @@
       {
         "src": "images-opt/underdatv-1920594889793761656-0-opt.webp",
         "width": 1000,
-        "height": 1000
+        "height": 1000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/jhgardener_/status/1920897502833787226",
@@ -5407,9 +7823,32 @@
       {
         "src": "images-opt/jhgardener_-1920897502833787226-0-opt.webp",
         "width": 2330,
-        "height": 1668
+        "height": 1668,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/shido36_/status/1920528025575141534",
+    "label": "\"✋😨🤚\"",
+    "author": "shido36_",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/shido36_-1920528025575141534-0-opt.webp",
+        "width": 1080,
+        "height": 1080,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/fluumf/status/1920463783882891312",
@@ -5425,9 +7864,12 @@
       {
         "src": "images-opt/fluumf-1920463783882891312-0-opt.webp",
         "width": 2116,
-        "height": 2864
+        "height": 2864,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/feverkiosko/status/1918931625913499772",
@@ -5442,14 +7884,18 @@
       {
         "src": "images-opt/feverkiosko-1918931625913499772-0-opt.webp",
         "width": 900,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       },
       {
         "src": "images-opt/feverkiosko-1918931625913499772-1-opt.webp",
         "width": 850,
-        "height": 940
+        "height": 940,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/blueplankton/status/1920519820686070207",
@@ -5464,9 +7910,12 @@
       {
         "src": "images-opt/blueplankton-1920519820686070207-0-opt.webp",
         "width": 1200,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/moon_ldl/status/1919988166020198577",
@@ -5481,9 +7930,55 @@
       {
         "src": "images-opt/moon_ldl-1919988166020198577-0-opt.webp",
         "width": 1510,
-        "height": 1211
+        "height": 1211,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/v_faction/status/1921060036433924235",
+    "label": "\"Therapists\"",
+    "author": "v_faction",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "calli",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/v_faction-1921060036433924235-0-opt.webp",
+        "width": 612,
+        "height": 408,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/lambo_ide/status/1921054453525794986",
+    "label": "\"they really did the thing\"",
+    "author": "lambo_ide",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "calli",
+      "ina",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/lambo_ide-1921054453525794986-0-opt.webp",
+        "width": 914,
+        "height": 791,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/ediialex/status/1920993972970721626",
@@ -5500,9 +7995,12 @@
       {
         "src": "images-opt/ediialex-1920993972970721626-0-opt.webp",
         "width": 1393,
-        "height": 3137
+        "height": 3137,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1921443699562610732",
@@ -5519,9 +8017,12 @@
       {
         "src": "images-opt/bunbbun1-1921443699562610732-0-opt.webp",
         "width": 1000,
-        "height": 1150
+        "height": 1150,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seapupu290495/status/1920852715703320626",
@@ -5538,9 +8039,12 @@
       {
         "src": "images-opt/seapupu290495-1920852715703320626-0-opt.webp",
         "width": 1195,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1921231948929720444",
@@ -5557,9 +8061,31 @@
       {
         "src": "images-opt/roronico1512-1921231948929720444-0-opt.webp",
         "width": 1977,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/keiseeaaa/status/1925918187972964430",
+    "label": "\"The Cell\"",
+    "author": "keiseeaaa",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/keiseeaaa-1925918187972964430-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/vulpuskayrii/status/1921056104634622391",
@@ -5575,14 +8101,18 @@
       {
         "src": "images-opt/vulpuskayrii-1921056104634622391-0-opt.webp",
         "width": 2456,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/vulpuskayrii-1921056104634622391-1-opt.webp",
         "width": 2445,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/cressentiaqin/status/1924078500727955647",
@@ -5598,9 +8128,12 @@
       {
         "src": "images-opt/cressentiaqin-1924078500727955647-0-opt.webp",
         "width": 4096,
-        "height": 2304
+        "height": 2304,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/tibssketches/status/1921634037858201687",
@@ -5615,9 +8148,12 @@
       {
         "src": "images-opt/tibssketches-1921634037858201687-0-opt.webp",
         "width": 957,
-        "height": 867
+        "height": 867,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1921199677443035543",
@@ -5632,9 +8168,12 @@
       {
         "src": "images-opt/keiseeaaa-1921199677443035543-0-opt.webp",
         "width": 2296,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/criostatic/status/1921106947182322012",
@@ -5649,9 +8188,12 @@
       {
         "src": "images-opt/criostatic-1921106947182322012-0-opt.webp",
         "width": 1500,
-        "height": 2250
+        "height": 2250,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/khoaphan96/status/1920858870433391103",
@@ -5667,9 +8209,12 @@
       {
         "src": "images-opt/khoaphan96-1920858870433391103-0-opt.webp",
         "width": 3231,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/the_dankwave/status/1920202895640965586",
@@ -5685,9 +8230,12 @@
       {
         "src": "images-opt/the_dankwave-1920202895640965586-0-opt.webp",
         "width": 1536,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/mofumashu/status/1921096315812839551",
@@ -5703,14 +8251,18 @@
       {
         "src": "images-opt/mofumashu-1921096315812839551-0-opt.webp",
         "width": 2234,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/mofumashu-1921096315812839551-1-opt.webp",
         "width": 2234,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sticker_sr/status/1921550872217104488",
@@ -5726,19 +8278,24 @@
       {
         "src": "images-opt/sticker_sr-1921550872217104488-0-opt.webp",
         "width": 1098,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       },
       {
         "src": "images-opt/sticker_sr-1921550872217104488-1-opt.webp",
         "width": 739,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       },
       {
         "src": "images-opt/sticker_sr-1921550872217104488-2-opt.webp",
         "width": 941,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lordjoeboto/status/1920978616894062922",
@@ -5754,9 +8311,12 @@
       {
         "src": "images-opt/lordjoeboto-1920978616894062922-0-opt.webp",
         "width": 1590,
-        "height": 1055
+        "height": 1055,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wan_m_i/status/1920859036972364262",
@@ -5772,9 +8332,31 @@
       {
         "src": "images-opt/wan_m_i-1920859036972364262-0-opt.webp",
         "width": 4096,
-        "height": 2979
+        "height": 2979,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/kirbyotaku/status/1928557863259222307",
+    "label": "\"when have I ever lie to you\"",
+    "author": "kirbyotaku",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "shiori",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/kirbyotaku-1928557863259222307-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/dreamplanes256/status/1922931113174917132",
@@ -5790,9 +8372,30 @@
       {
         "src": "images-opt/dreamplanes256-1922931113174917132-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/lestkrr/status/1922074979434184946",
+    "label": "\"just a humble witch\"",
+    "author": "lestkrr",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "shiori"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/lestkrr-1922074979434184946-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1932104079939186910",
@@ -5807,9 +8410,12 @@
       {
         "src": "images-opt/elisbian_-1932104079939186910-0-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/tchailune/status/1921440727466217479",
@@ -5824,9 +8430,32 @@
       {
         "src": "images-opt/tchailune-1921440727466217479-0-opt.webp",
         "width": 4096,
-        "height": 2987
+        "height": 2987,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1920788743742448068",
+    "label": "\"She made it\"",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "fuwawa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1920788743742448068-0-opt.webp",
+        "width": 1664,
+        "height": 2135,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/elisbian_/status/1930824900752838961",
@@ -5842,9 +8471,31 @@
       {
         "src": "images-opt/elisbian_-1930824900752838961-0-opt.webp",
         "width": 2797,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/v_faction/status/1920717447637741668",
+    "label": "\"Look at that Perfect Defense!\"",
+    "author": "v_faction",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "cecilia",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/v_faction-1920717447637741668-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/kaje_zu/status/1920142379383943206",
@@ -5860,9 +8511,12 @@
       {
         "src": "images-opt/kaje_zu-1920142379383943206-0-opt.webp",
         "width": 2300,
-        "height": 1800
+        "height": 1800,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nellepoof/status/1920139044693922274",
@@ -5878,9 +8532,12 @@
       {
         "src": "images-opt/nellepoof-1920139044693922274-0-opt.webp",
         "width": 3300,
-        "height": 4000
+        "height": 4000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nellepoof/status/1919079218916303097",
@@ -5896,9 +8553,12 @@
       {
         "src": "images-opt/nellepoof-1919079218916303097-0-opt.webp",
         "width": 722,
-        "height": 635
+        "height": 635,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/scrambleham/status/1920353533930487993",
@@ -5914,9 +8574,12 @@
       {
         "src": "images-opt/scrambleham-1920353533930487993-0-opt.webp",
         "width": 2048,
-        "height": 1517
+        "height": 1517,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/maiemuri/status/1919914115356885274",
@@ -5932,9 +8595,12 @@
       {
         "src": "images-opt/maiemuri-1919914115356885274-0-opt.webp",
         "width": 1595,
-        "height": 1379
+        "height": 1379,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nellepoof/status/1919448453266239514",
@@ -5950,9 +8616,12 @@
       {
         "src": "images-opt/nellepoof-1919448453266239514-0-opt.webp",
         "width": 4000,
-        "height": 3996
+        "height": 3996,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/daiyaekaku/status/1920683282439516582",
@@ -5967,9 +8636,12 @@
       {
         "src": "images-opt/daiyaekaku-1920683282439516582-0-opt.webp",
         "width": 3000,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nurizza_ilst/status/1922300302696309012",
@@ -5984,9 +8656,32 @@
       {
         "src": "images-opt/nurizza_ilst-1922300302696309012-0-opt.webp",
         "width": 3131,
-        "height": 3831
+        "height": 3831,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/zookacchi/status/1921944448474169697",
+    "label": "\"oh princess...\"",
+    "author": "zookacchi",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/zookacchi-1921944448474169697-0-opt.webp",
+        "width": 1288,
+        "height": 1560,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/jhgardener_/status/1920130763439386993",
@@ -6001,9 +8696,12 @@
       {
         "src": "images-opt/jhgardener_-1920130763439386993-0-opt.webp",
         "width": 1500,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/roronico1512/status/1936422814145458405",
@@ -6025,14 +8723,18 @@
       {
         "src": "images-opt/roronico1512-1936422814145458405-0-opt.webp",
         "width": 2048,
-        "height": 1310
+        "height": 1310,
+        "type": "image"
       },
       {
         "src": "images-opt/roronico1512-1936422814145458405-1-opt.webp",
         "width": 2048,
-        "height": 1310
+        "height": 1310,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/np_mango/status/1921382634040533389",
@@ -6048,9 +8750,35 @@
       {
         "src": "images-opt/np_mango-1921382634040533389-0-opt.webp",
         "width": 1167,
-        "height": 780
+        "height": 780,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/np_mango/status/1920386087865721004",
+    "label": "\"It's crazy\"",
+    "author": "np_mango",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "calli",
+      "ina",
+      "kronii",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/np_mango-1920386087865721004-0-opt.webp",
+        "width": 1554,
+        "height": 1059,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/2h2xo2is2h2o/status/1921234158640107818",
@@ -6066,9 +8794,51 @@
       {
         "src": "images-opt/2h2xo2is2h2o-1921234158640107818-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/lookingfortheto/status/1921420623143723162",
+    "label": "\"Shakira\"",
+    "author": "lookingfortheto",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "kiara"
+    ],
+    "images": [
+      {
+        "src": "images-opt/lookingfortheto-1921420623143723162-0-opt.webp",
+        "width": 1437,
+        "height": 842,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/chalek0/status/1923051887990800540",
+    "label": "\"Kronii wants to steal Ina from IRyS\"",
+    "author": "chalek0",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "ina",
+      "kronii"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/chalek0-1923051887990800540-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/hiroavrs/status/1921224812703232063",
@@ -6085,9 +8855,34 @@
       {
         "src": "images-opt/hiroavrs-1921224812703232063-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/brulee_arts/status/1921054783420477829",
+    "label": "\"Friendship ended\"",
+    "author": "brulee_arts",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "ina",
+      "irys",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/brulee_arts-1921054783420477829-0-opt.webp",
+        "width": 1024,
+        "height": 682,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/bunbbun1/status/1921443281776381979",
@@ -6109,9 +8904,12 @@
       {
         "src": "images-opt/bunbbun1-1921443281776381979-0-opt.webp",
         "width": 1000,
-        "height": 1545
+        "height": 1545,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/guyfloating/status/1921366078610923856",
@@ -6127,34 +8925,106 @@
       {
         "src": "images-opt/guyfloating-1921366078610923856-0-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921366078610923856-1-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921366078610923856-2-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921366078610923856-3-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921366078610923856-4-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921366078610923856-5-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/lambo_ide/status/1921064184957022428",
+    "label": "\"Mom and Dad are fighting\"",
+    "author": "lambo_ide",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "irys",
+      "kronii",
+      "bijou"
+    ],
+    "images": [
+      {
+        "src": "images-opt/lambo_ide-1921064184957022428-0-opt.webp",
+        "width": 1280,
+        "height": 932,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/antsy_af/status/1921049754114339102",
+    "label": "\"The Most Evil Character in Fiction\"",
+    "author": "antsy_af",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "irys"
+    ],
+    "images": [
+      {
+        "src": "images-opt/antsy_af-1921049754114339102-0-opt.webp",
+        "width": 2154,
+        "height": 666,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/_bambooz/status/1921705687010185267",
+    "label": "\"she's all of the above\"",
+    "author": "_bambooz",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "irys",
+      "kronii",
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/_bambooz-1921705687010185267-0-opt.webp",
+        "width": 1068,
+        "height": 1508,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/daiyaekaku/status/1923920501631578438",
@@ -6171,9 +9041,12 @@
       {
         "src": "images-opt/daiyaekaku-1923920501631578438-0-opt.webp",
         "width": 1500,
-        "height": 3000
+        "height": 3000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/nagi_nyaaa/status/1921060151550791998",
@@ -6189,9 +9062,12 @@
       {
         "src": "images-opt/nagi_nyaaa-1921060151550791998-0-opt.webp",
         "width": 2048,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/iennie_/status/1921194780282835402",
@@ -6207,9 +9083,12 @@
       {
         "src": "images-opt/iennie_-1921194780282835402-0-opt.webp",
         "width": 1837,
-        "height": 2762
+        "height": 2762,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/guyfloating/status/1921115744143614058",
@@ -6225,24 +9104,50 @@
       {
         "src": "images-opt/guyfloating-1921115744143614058-0-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921115744143614058-1-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921115744143614058-2-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       },
       {
         "src": "images-opt/guyfloating-1921115744143614058-3-opt.webp",
         "width": 1280,
-        "height": 1280
+        "height": 1280,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/antzk_3/status/1921062800375320713",
+    "label": "\"A week of racism, incest, divorce, etc.\"",
+    "author": "antzk_3",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/antzk_3-1921062800375320713-0-opt.webp",
+        "width": 773,
+        "height": 394,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/iryry_a/status/1921139006986678434",
@@ -6260,9 +9165,12 @@
       {
         "src": "images-opt/iryry_a-1921139006986678434-0-opt.webp",
         "width": 1000,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sifxi_/status/1922715233606377622",
@@ -6278,9 +9186,33 @@
       {
         "src": "images-opt/sifxi_-1922715233606377622-0-opt.webp",
         "width": 2896,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/wan_m_i/status/1921113665530478793",
+    "label": "\"puppy\"",
+    "author": "wan_m_i",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/wan_m_i-1921113665530478793-0-opt.webp",
+        "width": 4096,
+        "height": 2929,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1924575131592228995",
@@ -6296,9 +9228,12 @@
       {
         "src": "images-opt/keiseeaaa-1924575131592228995-0-opt.webp",
         "width": 1782,
-        "height": 2376
+        "height": 2376,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yuri_kyanon/status/1921582803809886659",
@@ -6313,9 +9248,12 @@
       {
         "src": "images-opt/yuri_kyanon-1921582803809886659-0-opt.webp",
         "width": 1390,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/elisbian_/status/1920609369328079156",
@@ -6330,9 +9268,12 @@
       {
         "src": "images-opt/elisbian_-1920609369328079156-0-opt.webp",
         "width": 2867,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/lancaster_1636/status/1924872752890077294",
@@ -6347,9 +9288,12 @@
       {
         "src": "images-opt/lancaster_1636-1924872752890077294-0-opt.webp",
         "width": 2560,
-        "height": 1920
+        "height": 1920,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/m_agho/status/1920808679089009020",
@@ -6364,9 +9308,12 @@
       {
         "src": "images-opt/m_agho-1920808679089009020-0-opt.webp",
         "width": 1324,
-        "height": 550
+        "height": 550,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/hanaswing/status/1921134059658330192",
@@ -6381,9 +9328,12 @@
       {
         "src": "images-opt/hanaswing-1921134059658330192-0-opt.webp",
         "width": 3295,
-        "height": 1854
+        "height": 1854,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/planetdropper/status/1930074019526783341",
@@ -6399,29 +9349,36 @@
       {
         "src": "images-opt/planetdropper-1930074019526783341-0-opt.webp",
         "width": 1600,
-        "height": 1600
+        "height": 1600,
+        "type": "image"
       },
       {
         "src": "images-opt/planetdropper-1930074019526783341-1-opt.webp",
         "width": 1600,
-        "height": 1600
+        "height": 1600,
+        "type": "image"
       },
       {
         "src": "images-opt/planetdropper-1930074019526783341-2-opt.webp",
         "width": 1600,
-        "height": 1600
+        "height": 1600,
+        "type": "image"
       },
       {
         "src": "images-opt/planetdropper-1930074019526783341-3-opt.webp",
         "width": 1600,
-        "height": 1600
+        "height": 1600,
+        "type": "image"
       },
       {
         "src": "images-opt/planetdropper-1930074019526783341-4-opt.webp",
         "width": 1600,
-        "height": 1600
+        "height": 1600,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/yakimi27/status/1925898088876568829/",
@@ -6437,9 +9394,12 @@
       {
         "src": "images-opt/yakimi27-1925898088876568829-0-opt.webp",
         "width": 2000,
-        "height": 3376
+        "height": 3376,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/koizumi_arata/status/1922439809542316098/",
@@ -6455,9 +9415,12 @@
       {
         "src": "images-opt/koizumi_arata-1922439809542316098-0-opt.webp",
         "width": 4096,
-        "height": 3053
+        "height": 3053,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/imabaker111/status/1922026532635107535",
@@ -6473,9 +9436,60 @@
       {
         "src": "images-opt/imabaker111-1922026532635107535-0-opt.webp",
         "width": 1278,
-        "height": 1888
+        "height": 1888,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/zookacchi/status/1921260437854716282",
+    "label": "\"regrets and memories\"",
+    "author": "zookacchi",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/zookacchi-1921260437854716282-0-opt.webp",
+        "width": 1200,
+        "height": 2000,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/zookacchi-1921260437854716282-1-opt.webp",
+        "width": 1200,
+        "height": 2000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/xosodaxo13/status/1920439218947387445",
+    "label": "\"wdym this isnt the plot to ENreco\"",
+    "author": "xosodaxo13",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/xosodaxo13-1920439218947387445-0-opt.webp",
+        "width": 1080,
+        "height": 1096,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/tomyumkung_art/status/1922095825062117883",
@@ -6491,14 +9505,18 @@
       {
         "src": "images-opt/tomyumkung_art-1922095825062117883-0-opt.webp",
         "width": 729,
-        "height": 1032
+        "height": 1032,
+        "type": "image"
       },
       {
         "src": "images-opt/tomyumkung_art-1922095825062117883-1-opt.webp",
         "width": 729,
-        "height": 1032
+        "height": 1032,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/massiveyog/status/1923695201052393918",
@@ -6514,9 +9532,12 @@
       {
         "src": "images-opt/massiveyog-1923695201052393918-0-opt.webp",
         "width": 2048,
-        "height": 1152
+        "height": 1152,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/_linshch_/status/1933532864559112462",
@@ -6531,9 +9552,12 @@
       {
         "src": "images-opt/_linshch_-1933532864559112462-0-opt.webp",
         "width": 2048,
-        "height": 1681
+        "height": 1681,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/fernroreo/status/1923057970440536174",
@@ -6549,9 +9573,48 @@
       {
         "src": "images-opt/fernroreo-1923057970440536174-0-opt.webp",
         "width": 1883,
-        "height": 2048
+        "height": 2048,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/naokiexistiert/status/1921011572597530680",
+    "label": "\"The cycle of Gonathon G\"",
+    "author": "naokiexistiert",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/naokiexistiert-1921011572597530680-0-opt.webp",
+        "width": 225,
+        "height": 225,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/soujirokaito/status/1922661640601833785",
+    "label": "\"ENreco 2 in a nutshell\"",
+    "author": "soujirokaito",
+    "chapter": 1,
+    "day": 6,
+    "characters": [],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/soujirokaito-1922661640601833785-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/lucesamaaa/status/1927770964688802240",
@@ -6567,9 +9630,12 @@
       {
         "src": "images-opt/lucesamaaa-1927770964688802240-0-opt.webp",
         "width": 2831,
-        "height": 1887
+        "height": 1887,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1922478064446902631",
@@ -6598,9 +9664,144 @@
       {
         "src": "images-opt/bunbbun1-1922478064446902631-0-opt.webp",
         "width": 1950,
-        "height": 1100
+        "height": 1100,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/_creakhead/status/1921475227248218432",
+    "label": "\"That heel turn tho\"",
+    "author": "_creakhead",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/_creakhead-1921475227248218432-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/v_faction/status/1921408701505617974",
+    "label": "\"Shit is Fucked\"",
+    "author": "v_faction",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/v_faction-1921408701505617974-0-opt.webp",
+        "width": 571,
+        "height": 361,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/kingdomheart102/status/1921407412617073035",
+    "label": "\"Civil War\"",
+    "author": "kingdomheart102",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/kingdomheart102-1921407412617073035-0-opt.webp",
+        "width": 718,
+        "height": 738,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/emicootero/status/1921417355772522542",
+    "label": "\"Enigmatic Recollection: Chains Of Fate (2007)\"",
+    "author": "emicootero",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1921417355772522542-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/haaro_69/status/1922034045124223411",
@@ -6619,9 +9820,12 @@
       {
         "src": "images-opt/haaro_69-1922034045124223411-0-opt.webp",
         "width": 1200,
-        "height": 1200
+        "height": 1200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1922035596597358999",
@@ -6640,19 +9844,48 @@
       {
         "src": "images-opt/bunbbun1-1922035596597358999-0-opt.webp",
         "width": 1000,
-        "height": 1110
+        "height": 1110,
+        "type": "image"
       },
       {
         "src": "images-opt/bunbbun1-1922035596597358999-1-opt.webp",
         "width": 1000,
-        "height": 1110
+        "height": 1110,
+        "type": "image"
       },
       {
         "src": "images-opt/bunbbun1-1922035596597358999-2-opt.webp",
         "width": 1000,
-        "height": 1110
+        "height": 1110,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/domeniktimm/status/1922039494254997891",
+    "label": "\"ENreco 3\"",
+    "author": "domeniktimm",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/domeniktimm-1922039494254997891-0-opt.webp",
+        "width": 1555,
+        "height": 1392,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1921816580691726507",
@@ -6668,9 +9901,12 @@
       {
         "src": "images-opt/keiseeaaa-1921816580691726507-0-opt.webp",
         "width": 1988,
-        "height": 2376
+        "height": 2376,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/keiseeaaa/status/1920620111464992799",
@@ -6686,9 +9922,12 @@
       {
         "src": "images-opt/keiseeaaa-1920620111464992799-0-opt.webp",
         "width": 2084,
-        "height": 2200
+        "height": 2200,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/ashiartwork/status/1921948280365224396",
@@ -6704,9 +9943,12 @@
       {
         "src": "images-opt/ashiartwork-1921948280365224396-0-opt.webp",
         "width": 1200,
-        "height": 3632
+        "height": 3632,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/sifxi_/status/1922931817402806278",
@@ -6722,9 +9964,12 @@
       {
         "src": "images-opt/sifxi_-1922931817402806278-0-opt.webp",
         "width": 1860,
-        "height": 2631
+        "height": 2631,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/wan_m_i/status/1921889316306919884",
@@ -6740,19 +9985,24 @@
       {
         "src": "images-opt/wan_m_i-1921889316306919884-0-opt.webp",
         "width": 2979,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/wan_m_i-1921889316306919884-1-opt.webp",
         "width": 2979,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       },
       {
         "src": "images-opt/wan_m_i-1921889316306919884-2-opt.webp",
         "width": 2979,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/brasileiroo0/status/1923024077683347585",
@@ -6767,9 +10017,12 @@
       {
         "src": "images-opt/brasileiroo0-1923024077683347585-0-opt.webp",
         "width": 2480,
-        "height": 3508
+        "height": 3508,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/2nochuu/status/1924239997458383113",
@@ -6784,9 +10037,12 @@
       {
         "src": "images-opt/2nochuu-1924239997458383113-0-opt.webp",
         "width": 1728,
-        "height": 2160
+        "height": 2160,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/seapupu290495/status/1921597971465920739",
@@ -6802,9 +10058,70 @@
       {
         "src": "images-opt/seapupu290495-1921597971465920739-0-opt.webp",
         "width": 2894,
-        "height": 4093
+        "height": 4093,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/ezralguard/status/1921418653880271200",
+    "label": "\"Future wife\"",
+    "author": "ezralguard",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "nerissa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ezralguard-1921418653880271200-0-opt.webp",
+        "width": 1500,
+        "height": 1002,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/harutimu_415/status/1921663069068906634",
+    "label": "\"BROKEN BONDS\"",
+    "author": "harutimu_415",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/harutimu_415-1921663069068906634-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hiroavrs/status/1923420440363413772",
+    "label": "\"Gonathon has something to say\"",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/hiroavrs-1923420440363413772-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/mofumashu/status/1921461081714688036",
@@ -6819,9 +10136,12 @@
       {
         "src": "images-opt/mofumashu-1921461081714688036-0-opt.webp",
         "width": 1876,
-        "height": 4096
+        "height": 4096,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/revil0l/status/1915726152922272037",
@@ -6836,9 +10156,12 @@
       {
         "src": "images-opt/revil0l-1915726152922272037-0-opt.webp",
         "width": 2002,
-        "height": 3183
+        "height": 3183,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1922035787824075147",
@@ -6854,9 +10177,12 @@
       {
         "src": "images-opt/bunbbun1-1922035787824075147-0-opt.webp",
         "width": 1000,
-        "height": 960
+        "height": 960,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/logiies/status/1928228176104177699",
@@ -6871,9 +10197,12 @@
       {
         "src": "images-opt/logiies-1928228176104177699-0-opt.webp",
         "width": 975,
-        "height": 1162
+        "height": 1162,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/blueplankton/status/1921493502866653495",
@@ -6888,8 +10217,11 @@
       {
         "src": "images-opt/blueplankton-1921493502866653495-0-opt.webp",
         "width": 1416,
-        "height": 2000
+        "height": 2000,
+        "type": "image"
       }
-    ]
+    ],
+    "videos": [],
+    "type": "art"
   }
 ]

@@ -15,3 +15,7 @@ Alas for poor Mordan, these trials would pale in comparison to what would come n
 A crestfallen Mordan vowed to give up therapy forever, but Gonathon insisted her skills had proven invaluable to bringing the knight back from the brink of despair. Trading places with Mordan, Gonathon now sat in the therapist’s chair. She repeated a [line of advice](https://youtu.be/alQr5XqoUPs?t=13671) she had given Bijou days before: to not allow the misery of customer service to take the twinkle out of her eye. The Humble Knight implored Mordan to take up fortune telling instead, as not only could she help people, but the blame would be solely on the gods. Thoroughly amused, Mordan replied that she would consider it, and the two wolves ended their day on a much happier note than before.
 
 [You have a heart of gold](#embed:https://youtu.be/alQr5XqoUPs?t=13585)
+
+## Fanworks
+
+["some memories are just too much" by Noise](https://x.com/lestkrr/status/1920038038199017707)

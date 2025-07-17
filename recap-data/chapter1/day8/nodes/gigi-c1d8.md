@@ -31,6 +31,16 @@ The victory was hard-won, but the celebration was short-lived. A cruel twist awa
 
 The heroes were returned to the [white room](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=12694), marking the conclusion of their first journey. Though the twist left everyone shaken, Gonathon chose to focus on spending his final moments with those who had been by his side.
 
-## Fanart
+## Fanwork
 
 ["enreoc gg rkgk" by Harutimu](https://x.com/harutimu_415/status/1862390625846304772)
+
+["Until next time, Humble little knight" by Daaku](https://x.com/koizumi_arata/status/1833287158334939257)
+
+## Memes
+
+["the cuck chair" by Turing](https://x.com/DoctorTuring/status/1831134511247089863)
+
+["He wins" by Kazuki Ich](https://x.com/kazukiich/status/1832728799223673195)
+
+["What would he do" by Nom](https://x.com/NomyWomy/status/1833337740441550885)

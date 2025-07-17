@@ -72,3 +72,25 @@ The quiet rise of rebellion awakened.
 ["Title card" by BunBBun](https://x.com/BunBBun1/status/1922035596597358999)
 
 <!-- shiori, bijou, nerissa, fuwawa, mococo -->
+
+## Memes
+
+["That heel turn tho" by creakhead](https://x.com/_creakhead/status/1921475227248218432)
+
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
+["ENreco 3" by Durmple](https://x.com/DomenikTimm/status/1922039494254997891)
+
+<!-- shiori, bijou, mococo, fuwawa, nerissa -->
+
+["Shit is Fucked" by V Faction](https://x.com/V_Faction/status/1921408701505617974)
+
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
+["Civil War" by Pedro R](https://x.com/kingdomheart102/status/1921407412617073035)
+
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
+["Enigmatic Recollection: Chains Of Fate (2007)" by EmicoOtero](https://x.com/EmicoOtero/status/1921417355772522542)
+
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->

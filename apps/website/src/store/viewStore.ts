@@ -15,6 +15,7 @@ export type ModalType =
     | "chapterRecap"
     | "video"
     | "fanart"
+    | "music"
     | null;
 
 interface ViewState {
@@ -72,6 +73,7 @@ interface ViewState {
         openChapterRecapModal: () => void;
         openVideoModal: () => void;
         openFanartModal: () => void;
+        openMusicPlayerModal: () => void;
         closeModal: () => void;
         videoUrl: string | null;
         setVideoUrl: (currentVideoUrl: string | null) => void;
@@ -79,7 +81,7 @@ interface ViewState {
 }
 
 export const useViewStore = create<ViewState>()(
-    immer((set, get) => {
+    immer((set) => {
         const [initialChapter, initialDay] = [0, 0];
 
         return {
@@ -136,7 +138,7 @@ export const useViewStore = create<ViewState>()(
                     }),
                 toggleAllRelationships: (relationshipVisibility) =>
                     set((draft) => {
-                        const keys = Object.keys(get().visibility.relationship);
+                        const keys = Object.keys(draft.visibility.relationship);
 
                         for (const key of keys) {
                             draft.visibility.relationship[key] =
@@ -171,7 +173,7 @@ export const useViewStore = create<ViewState>()(
                     }),
                 toggleAllTeams: (teamVisibility: boolean) =>
                     set((draft) => {
-                        const keys = Object.keys(get().visibility.team);
+                        const keys = Object.keys(draft.visibility.team);
 
                         for (const key of keys) {
                             draft.visibility.team[key] = teamVisibility;
@@ -198,7 +200,7 @@ export const useViewStore = create<ViewState>()(
                     }),
                 toggleAllCharacters: (characterVisibility: boolean) =>
                     set((draft) => {
-                        const keys = Object.keys(get().visibility.character);
+                        const keys = Object.keys(draft.visibility.character);
 
                         for (const key of keys) {
                             draft.visibility.character[key] =
@@ -244,13 +246,14 @@ export const useViewStore = create<ViewState>()(
                     }),
                 openFanartModal: () =>
                     set((draft) => {
-                        console.log("Opening fanart modal");
-                        console.trace(); // This will show you the call stack
                         draft.modal.openModal = "fanart";
+                    }),
+                openMusicPlayerModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "music";
                     }),
                 closeModal: () =>
                     set((draft) => {
-                        console.log("Closing modal");
                         draft.modal.openModal = null;
                     }),
 

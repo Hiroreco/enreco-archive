@@ -1,9 +1,6 @@
 import { create } from "zustand";
 
 interface MusicPlayerState {
-    isOpen: boolean;
-    setIsOpen: (open: boolean) => void;
-
     catIndex: number | null;
     trackIndex: number | null;
     isPlaying: boolean;
@@ -22,9 +19,6 @@ interface MusicPlayerState {
 }
 
 export const useMusicPlayerStore = create<MusicPlayerState>((set) => ({
-    isOpen: false,
-    setIsOpen: (open) => set({ isOpen: open }),
-
     catIndex: null,
     trackIndex: null,
     isPlaying: false,

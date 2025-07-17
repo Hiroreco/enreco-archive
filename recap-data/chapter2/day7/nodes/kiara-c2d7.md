@@ -22,3 +22,7 @@ She met with Roa—a pink cat—and after a heartfelt exchange, the two tied the
 Later, she journaled the day’s whirlwind of events, right before the final day arrived.
 
 [Liebes Tagebuch!](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=SDhiMcfQ4LxQdVG1&t=15145)
+
+## Memes
+
+["Shakira" by LookingForTheTop](https://x.com/lookingfortheto/status/1921420623143723162)

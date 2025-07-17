@@ -20,3 +20,7 @@ Yep, that about sums it up.
 ## Fanart
 
 ["Tam Gandr" by Daaku](https://x.com/koizumi_arata/status/1918528170237558813)
+
+## Memes
+
+["From Queen to Missing" by Antsy](https://x.com/antsy_af/status/1831552730021707951)

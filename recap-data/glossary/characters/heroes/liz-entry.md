@@ -51,16 +51,25 @@ Then came the twist. At the end of the journey, Nerissa, along with four others,
 
 Through this journey, the scarlet knight came to understand more of what it _truly_ meant to be a knight.
 
-A knight needs no glory, no praise—only purpose. The more she fulfilled that purpose, the more she began to wonder about her life before all this. A life where—
+A knight needs no glory, no praise—only purpose. The more she fulfilled that purpose, the more she began to wonder about her life before all this. A life much different, a life where—
 
-> "My heart was whole. Where I was not afraid of my own name. Where I did not flinch at the sound of my own sword."
+> “My heart was whole. Where I was not afraid of my own name. Where I did not flinch at the sound of my own sword.”
 
 She couldn’t remember that life—not fully. But she could feel traces of it, perhaps in lingering memories or in words from those who knew the truth, even if she wasn’t ready to [accept it.](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060) But no matter what her past held, one thing remained certain—one truth that would never change:
 
-> "And yet still, I rise.
+> “And yet still, I rise.
 > I lend my sword to those who need it—even if it means I break a little more with every swing.
 > Kindness need not feel soft to be real.
-> Sometimes, it is simply what remains when everything else has burned away."
+> Sometimes, it is simply what remains when everything else has burned away.”
+
+## Notable Writings
+
+- [Read "Knight's Log 0001](#text:liz-journal-c2d1)
+- [Read "Knight's Log 0002](#text:liz-journal-c2d2)
+- [Read "Knight's Log 0003](#text:liz-journal-c2d4)
+- [Read "Knight's Log 0004](#text:liz-journal-c2d5)
+- [Read "Knight's Log 0005](#text:liz-journal-c2d6)
+- [Read "Knight's Log 0006](#text:liz-journal-c2d7)
 
 ## Trivia
 

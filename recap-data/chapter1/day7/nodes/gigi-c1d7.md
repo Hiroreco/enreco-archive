@@ -41,8 +41,14 @@ The final day loomed ominously on the horizon. Despite the mounting dangers, Gon
 
 ["My dear pearl..." by Leaflet](https://x.com/Lil_Leaflet_/status/1832398336877596978)
 
-["Who is Gonathon G" by Emico Otero](#out:https://www.youtube.com/watch?v=MxNvjxcmzW4)
+["Who is Gonathon G" by Emico Otero](https://x.com/EmicoOtero/status/1833526793716043979)
 
 ["Rizzle me this" by Hiro](https://x.com/hiroavrs/status/1832437338469011589)
 
 <!-- bijou -->
+
+## Memes
+
+["pray for our boy" by MMDKaniki](https://x.com/MMDKaniki/status/1832206547109196134)
+
+["The path of a humble knight" by Kazuki Ich](https://x.com/kazukiich/status/1832352221142643091)

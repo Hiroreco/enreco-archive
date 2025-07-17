@@ -1,19 +1,6 @@
 import FanartCard from "@/components/view/fanart/FanartCard";
+import { FanartEntry } from "@/components/view/fanart/ViewFanartModal";
 import { AnimatePresence, motion } from "framer-motion";
-
-interface FanartEntry {
-    url: string;
-    label: string;
-    author: string;
-    chapter: number;
-    day: number;
-    characters: string[];
-    images: {
-        src: string;
-        width: number;
-        height: number;
-    }[];
-}
 
 interface MasonryColumn {
     items: Array<{ entry: FanartEntry; index: number }>;

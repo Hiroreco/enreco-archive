@@ -20,7 +20,7 @@ The contrast between the gem maiden’s petite figure, voice, and the chaos she 
 
 Bijou was unpredictable, _very_ unpredictable. Which was saying something, considering the existing chaos caused by the other heroes. But Bijou’s unpredictability was on a completely different level.
 
-Just a few days in, she’d already managed to get herself a wife—Shiori—whom she loved dearly... only to dump her on the final day, leaving her with a child.
+Just a few days in, she’d already managed to get herself a wife—[Shiori](#entry:shiori-entry)—whom she loved dearly... only to dump her on the final day, leaving her with a child.
 
 She also acquired a mother. Two, actually. And got involved in a polygamous relationship with three other women, all while wearing a wide colon-D smile on her face. A smile she often used to get what she wanted—after all, who could say no to that cute, [pleading expression?](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=1902)
 
@@ -53,7 +53,13 @@ In short, Bijou was kind and diligent toward everyone around her. It felt as tho
 
 At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shiori—turned against Fia and the remaining heroes.
 
-_“After all, nothing stays pure,”_ the gem maiden [said](https://www.youtube.com/live/C6kmnHsopgM?t=8151).
+> “The darkness in the heart always takes over, nothing stays pure.”
+
+## Notable Writings
+
+- [Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
+- [Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)
+- [Read "Fire and Flight (Volume 3)"](#text:fire-and-flight-3)
 
 ## Trivia
 

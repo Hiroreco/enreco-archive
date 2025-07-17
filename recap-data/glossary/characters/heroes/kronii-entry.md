@@ -1,7 +1,7 @@
-<!-- title: Ouro Kronii -->
-<!-- quote: It is simply too early for this -->
+<!-- title: Tam Gandr -->
+<!-- quote: It is simply too early for this. -->
 <!-- chapters: -1 -->
-<!-- images: (Tam's Chapter 1 Profile), (Tam's Chapter 2 Profile #1), (Tam's Chapter 2 Profile #2), (Tam in the "Monster" MV), (Recollection - Ouro Kronii), (Tam in Chapter 2's Ending) -->
+<!-- images: (Tam's Chapter 1 Profile), (Tam's Chapter 2 Profile #1), (Tam's Chapter 2 Profile #2), (Tam using her Revelation), (Tam in the "Monster" MV), (Recollection - Ouro Kronii), (Tam in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview
@@ -28,7 +28,7 @@ Yet beneath the ironclad ego and tyrannical tone, Tam was, at heart, a caring qu
 
 ### Chapter 2
 
-**Name:** Tam Gandr / Ouro Kronii
+**Name:** Tam Gandr
 **Job:** Supplier
 
 Tam began her second journey with no memory of the first one. Gone was the commanding queen; in her place stood someone quieter, more withdrawn, content with grinding in solitude and basking in the peace.

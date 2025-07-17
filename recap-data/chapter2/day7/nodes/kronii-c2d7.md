@@ -48,3 +48,9 @@ Not satisfied with her accomplishment, [Queen Tam deemed it necessary to stalk](
 Before retiring for the day, Queen Tam visited Mordan Ramsey, who was busy preparing the house that she would auction the next day (to which the Queen was humble enough to proclaim she could not afford anyway). It was there that she confided to Mordan and Gonathon more of what she had talked about with HPO. Perhaps in a moment of true sincerity, [Mordan Ramsey gave her the ring](https://youtu.be/CUh9eciJil4?t=8737) she bought and was not able to use, for she was not able to find love in this timeline, hoping that Queen Tam would be able to find some use for it instead.
 
 After writing in her journal and having a quick but [heartfelt reflection with Gonathon](https://youtu.be/CUh9eciJil4?t=9187) on what transpired that day, Queen Tam finally retired for the day.
+
+## Memes
+
+["Friendship ended" by BruLee](https://x.com/BruLee_Arts/status/1921054783420477829)
+
+<!-- irys, ina -->

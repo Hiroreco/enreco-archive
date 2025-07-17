@@ -49,29 +49,13 @@ function parseCharacterComments(text: string, linkUrl: string): string[] {
 async function main() {
     // 1) Base folder to scan (recap-data/)
     const base = path.resolve(process.cwd(), "recap-data");
-    // These are videos/non-fanart, so can't be downloaded
+    // These are gifs/non-fanart/private/too big, so can't be downloaded
     let blacklistUrls = [
-        "https://x.com/shutowl/status/1830517595768000529",
-        "https://x.com/Chalek0/status/1832964350597804334",
-        "https://x.com/WaywardAdlo/status/1832901859667005729",
         "https://x.com/pappikapon/status/1832185189864239450",
-        "https://x.com/EmicoOtero/status/1832447889794331060",
         "https://x.com/irys_en/status/1831979038820450676",
-        "https://x.com/M_Agho/status/1926008375482990741",
-        "https://x.com/M_Agho/status/1921857159337300240",
-        "https://x.com/paw_chie/status/1923480569280856202",
         "https://x.com/zelmaelstrom/status/1922782098202488961",
-        "https://x.com/_se_t_/status/1919743867081130432",
-        "https://x.com/massiveyog/status/1919634283809144908?s=46&t=Hs_QRLG_ayqKN5hO2BW3-A",
-        "https://x.com/hiroavrs/status/1919392962670452788",
         "https://x.com/zelmaelstrom/status/1924142831410856372",
-        "https://x.com/Keiseeaaa/status/1925918187972964430",
-        "https://x.com/Keiseeaaa/status/1923701440473858538",
-        "https://x.com/hikienlaventana/status/1924207173829083449",
         "https://x.com/zelmaelstrom/status/1922143256164356165",
-        "https://x.com/thekaiyip/status/1921344476032663740",
-        "https://x.com/_se_t_/status/1921155712278798577",
-        "https://x.com/harutimu_415/status/1921663069068906634",
         "https://x.com/akashibag/status/1921577417602154658",
         "https://x.com/hololive_En/status/1830425412440404160",
         "https://x.com/hololive_En/status/1830787800968638636",
@@ -79,14 +63,16 @@ async function main() {
         "https://x.com/hololive_En/status/1831512579405181432",
         "https://x.com/ourokronii/status/1832266311625306551",
         "https://x.com/Rando_ZLink/status/1920072518939132072",
-        "https://x.com/Chalek0/status/1923051887990800540/video/1",
-        "https://x.com/lestkrr/status/1922074979434184946",
         "https://x.com/sirshadenfreude/status/1919955783967490180",
         "https://x.com/detectivefalyn/status/1919579661480169695",
         "https://x.com/hatakekelly/status/1920140228473630955",
         "https://x.com/zelmaelstrom/status/1919583127711973790",
         "https://x.com/lillian5090/status/1920258639580766280",
         "https://x.com/ThatCello/status/1921233137280880850",
+        "https://x.com/thekaiyip/status/1921344476032663740",
+        "https://x.com/_se_t_/status/1921155712278798577",
+        "https://x.com/keiseeaaa/status/1923701440473858538",
+        "https://x.com/_se_t_/status/1919743867081130432",
     ];
     blacklistUrls = blacklistUrls.map((url) => url.toLowerCase());
 
@@ -105,6 +91,7 @@ async function main() {
         chapter: number;
         day: number;
         characters: string[];
+        type: "art" | "meme";
     }> = [];
 
     // matches [label](https://twitter.com/USER/status/123...) or x.com
@@ -123,6 +110,13 @@ async function main() {
             characters = character.split("-").map((c) => c.trim());
         }
         const text = await fs.readFile(file, "utf-8");
+
+        // Find the position of the memes section
+        const memesSectionMatch = text.match(/^##\s*Meme(s)?\s*$/m);
+        const memesSectionIndex = memesSectionMatch
+            ? memesSectionMatch.index!
+            : -1;
+
         let m: RegExpExecArray | null;
         while ((m = LINK_RE.exec(text))) {
             let [, label, host, author, statusPath] = m;
@@ -130,7 +124,6 @@ async function main() {
             author = author.toLowerCase();
 
             // Clean up label by removing "by {author}" pattern at the end
-            // Match the specific author name we extracted to avoid false positives
             const byAuthorPattern = /\s+by\s+.+$/i;
             label = label.replace(byAuthorPattern, "").trim();
 
@@ -152,6 +145,13 @@ async function main() {
                     ? [...new Set([...characters, ...commentCharacters])]
                     : characters;
 
+            // Determine type based on position relative to memes section
+            const linkIndex = m.index;
+            const type: "art" | "meme" =
+                memesSectionIndex >= 0 && linkIndex > memesSectionIndex
+                    ? "meme"
+                    : "art";
+
             linkEntries.push({
                 url: url,
                 label,
@@ -159,10 +159,10 @@ async function main() {
                 chapter: parseInt(chapterPart.replace(/^chapter/, "")) - 1,
                 day: parseInt(dayPart.replace(/^day/, "")) - 1,
                 characters: finalCharacters,
+                type,
             });
         }
     }
-
     // write out
     const outPath = path.resolve(
         process.cwd(),

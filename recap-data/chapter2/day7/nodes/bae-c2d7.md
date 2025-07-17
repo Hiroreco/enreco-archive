@@ -48,3 +48,7 @@ Finally, Bae went to finalize the room for her children, Khaos and The Other One
 But alas, with every high in life, there are lows, for [Bae was scammed](https://youtu.be/Br6dvhVJ_IE?t=10289), and her endeavours in [fireworks did not spark colour in her life](https://youtu.be/Br6dvhVJ_IE?t=11047).
 
 Perhaps the morrow would be a more joyous occasion for the Peasant The Bae.
+
+## Memes
+
+["A week of racism, incest, divorce, etc." by Ant](https://x.com/antzk_3/status/1921062800375320713)

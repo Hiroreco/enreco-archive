@@ -44,3 +44,5 @@ Thank you for everything, Mumei.
 ["Smol Moom" by Onecolo133](https://x.com/Onecolo133/status/1902225836020744442)
 
 ["Nanamoo" by st.147](https://x.com/147illu/status/1901947215293428179)
+
+["Nanamu asking very nicely for a shield" by Medu](https://x.com/Medu_Yusa/status/1833614741564006909)

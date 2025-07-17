@@ -1,5 +1,5 @@
 <!-- title: Iphania / Fia -->
-<!-- quote: Let us break the chains of fate, together  -->
+<!-- quote: Let us break the chains of fate, together!  -->
 <!-- chapters: 1 -->
 <!-- images: (Iphania's Profile), (Fia's Profile), (Iphania slain by the Curse), (Fia in Chapter 2's Ending) -->
 <!-- model: false -->
@@ -40,7 +40,7 @@ The heroes shared the truth with Iphania, who, alongside them, convinced the Out
 But just as victory was within reach, fate struck again.
 The Curse reemerged during the celebration banquet, slaying Iphania in one final, merciless act.
 
-Then, a higher and far more cryptic being appeared—shattering space itself. It condemned the Outlander for abandoning his divine role, and the heroes for interfering with fate. Their punishment was imminent.
+Then, a higher and far more cryptic being appeared—shattering space itself. It condemned the Outlander for his betrayal, and the heroes for interfering with fate. Their punishment was imminent.
 
 But Fia intervened, pulling the heroes back into the Library once more and leaping through time to escape the entity’s grasp. With this final time jump, all of her memories returned—her life as the Princess of Libestal, her tragic death, and how she came about as the current Librarian.
 
@@ -50,4 +50,4 @@ Yet even now, she refused to give in. This time, rather than change the past, sh
 
 Most of the heroes agreed without hesitation.
 But not all.
-**Fuwawa, Mococo, Bijou, Nerissa, and Shiori** chose to stay behind, unable—or unwilling—to follow Fia any further.
+**Fuwawa, Mococo, Bijou, Nerissa, and Shiori** declared they would go their own path, unable—or unwilling—to follow Fia any further.

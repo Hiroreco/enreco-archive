@@ -41,10 +41,11 @@ But nothing stood out more than her unwavering love and devotion for the kingdom
 
 Anyone who stood between her and the princess, like the Outlander, was an immediate rival. She even considered abandoning the Wolf Pack just to stay by the princess’s side. When Peasant the Bae, someone who once bickered with Cecilia but eventually warmed up to her, confessed her feelings, Cecilia rejected her on the spot. Because in Cecilia’s heart, there was only the princess.
 
-In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself, still alive and well in the Library, it gave her all the reason she needed to keep fighting.
+In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself, still alive and well in the [Library,](#entry:library-entry) it gave her all the reason she needed to keep fighting.
 
 ## Trivia
 
 - Despite her vast web of connections in Chapter 1, Cecilia had never once interacted with Peasant the Bae—who, in fact, was the only person she hadn’t interacted with at all. Which made it all the more surprising when, in the second chapter, the latter developed a crush on her.
+- In both Chapter 1 and 2, Cecilia was the only one who did not build herself a house nor a store.
 
 [cecilia](#easter:easter-cecilia)

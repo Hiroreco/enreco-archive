@@ -1,5 +1,5 @@
 <!-- title: Chrono Surge -->
-<!-- quote: Revelation! *\*cricket noises\** -->
+<!-- quote: Revelation! **cricket noises** -->
 <!-- chapters: -1 -->
 <!-- images: (Tam's first time wielding Chrono Surge), (Chrono Surge viewed from the inventory), (Chrono Surge's ability activated) -->
 <!-- model: true -->

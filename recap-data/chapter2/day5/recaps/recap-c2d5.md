@@ -13,3 +13,13 @@ Now, onto the real madness. Gonathon kind of redeemed himself. Shiori and Bijou 
 ![Mordan’s therapy session](/images-opt/therapy-opt.webp)
 
 You following all that? Because I’m not. And that’s still not even half of it...
+
+## Memes
+
+["ENreco has been a wild ride" by NP_Mango](https://x.com/NP_Mango/status/1920560933287403536)
+
+<!-- bijou, bae, irys, mococo -->
+
+["🧡🫡💗" by Ari](https://x.com/jeongyeonhands/status/1920309071036457109)
+
+<!-- kiara, gigi, raora, calli -->

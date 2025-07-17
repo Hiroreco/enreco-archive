@@ -69,3 +69,11 @@ A story to be told for generations to come.
 ["my diamond" by Daaku](https://x.com/koizumi_arata/status/1832737380857459090)
 
 ["Let's hope for many huzzahs!" by Nagi](https://x.com/Nagi_Nyaaa/status/1832509636995649711)
+
+["Tales of the Humble Knight" by aWoooFa](https://x.com/Awooofa/status/1832887528569143750)
+
+## Memes
+
+["all my homies hate the pink one" by Jake33wO](https://x.com/jake33w0/status/1832813698081014144)
+
+<!-- nerissa, liz, ina, shiori, irys, bijou, calli -->

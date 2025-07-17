@@ -144,8 +144,8 @@ const ViewInfoGuide = () => {
                 Located in the <em>Glossary Tab</em> in the upper left corner,
                 this collection of entries provides detailed information on
                 revelations, characters, locations, quests, and more. It serves
-                as a resource for understanding topics referenced throughout the
-                nodes.
+                as a resource for understanding topics referenced throughout the 
+                site.
             </div>
 
             <div className="flex items-center gap-2">
@@ -194,7 +194,7 @@ const ViewInfoGuide = () => {
             </div>
             <div>
                 The jukebox features a collection of music used in ENreco,
-                including tracks from the game itself as well as ones used by
+                including tracks from the game itself as well as those used by
                 the talents.
             </div>
 
@@ -220,7 +220,8 @@ const ViewInfoGuide = () => {
             <div>
                 Hidden throughout the site are easter eggs—little nods to silly
                 moments or tributes to certain members. These are interactive,
-                so keep an eye out for surprises!
+                so keep an eye out for surprises! Many of them have multiple 
+                variations, so try clicking more than once!
             </div>
 
             <div className="mt-4">

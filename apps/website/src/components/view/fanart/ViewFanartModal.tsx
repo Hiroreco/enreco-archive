@@ -2,8 +2,7 @@ import fanartData from "#/fanart.json";
 import CollapsibleHeader from "@/components/view/fanart/CollapsibleHeader";
 import FanartFilters from "@/components/view/fanart/FanartFilters";
 import FanartMasonryGrid from "@/components/view/fanart/FanartMasonryGrid";
-import ViewLightbox from "@/components/view/ViewLightbox";
-import { LS_FANART_MODAL_HEADER_COLLAPSED } from "@/lib/constants";
+import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import {
     CHARACTER_ORDER,
     getCharacterIdNameMap,
@@ -15,7 +14,7 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-interface FanartEntry {
+export interface FanartEntry {
     url: string;
     label: string;
     author: string;
@@ -27,6 +26,10 @@ interface FanartEntry {
         width: number;
         height: number;
     }[];
+    videos: {
+        src: string;
+    }[];
+    type: "art" | "meme";
 }
 
 interface ViewFanartModalProps {
@@ -34,7 +37,7 @@ interface ViewFanartModalProps {
     onClose: () => void;
     chapter: number;
     day: number;
-    initialCharacter?: string;
+    initialCharacters?: string[];
 }
 
 interface MasonryColumn {
@@ -42,20 +45,27 @@ interface MasonryColumn {
     height: number;
 }
 
+const ITEMS_PER_PAGE = 50;
+
 const ViewFanartModal = ({
     open,
     onClose,
     chapter,
     day,
-    initialCharacter = "all",
+    initialCharacters,
 }: ViewFanartModalProps) => {
     // State
-    const [selectedCharacters, setSelectedCharacters] = useState<string[]>([
-        initialCharacter,
-    ]);
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
+        initialCharacters || ["all"],
+    );
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
+
+    // Keep selectedChapter in sync with prop
+    useEffect(() => {
+        setSelectedChapter(chapter.toString() || "all");
+    }, [chapter]);
     const [selectedDay, setSelectedDay] = useState<string>(
         day.toString() || "all",
     );
@@ -64,20 +74,25 @@ const ViewFanartModal = ({
         number | null
     >(null);
     const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
+    const [shuffled, setShuffled] = useState(false);
+    const [shuffledFanart, setShuffledFanart] = useState<FanartEntry[] | null>(
+        null,
+    );
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] = useState(false);
+    const [videosOnly, setVideosOnly] = useState(false);
+    const [memesOnly, setMemesOnly] = useState(false);
 
-    const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(() => {
-        if (typeof window !== "undefined") {
-            const saved = localStorage.getItem(
-                LS_FANART_MODAL_HEADER_COLLAPSED,
-            );
-            return saved === "true";
-        }
-        return false;
-    });
+    // Pagination state
+    const [currentPage, setCurrentPage] = useState(1);
+    const [isLoading, setIsLoading] = useState(false);
+
+    // Replace header collapse state with pin state
+    const [isHeaderPinned, setIsHeaderPinned] = useState(false);
+    const [isHeaderCollapsed, setIsHeaderCollapsed] = useState(false);
 
     const contentContainerRef = useRef<HTMLDivElement>(null);
+    const lastScrollTop = useRef(0);
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
 
     // Derived state
@@ -119,8 +134,9 @@ const ViewFanartModal = ({
         return Array.from(allDays).sort((a, b) => a - b);
     }, [fanart]);
 
-    const filteredFanart = useMemo(() => {
-        return fanart.filter((entry) => {
+    // Full filtered fanart (without pagination)
+    const allFilteredFanart = useMemo(() => {
+        const base = fanart.filter((entry) => {
             let characterMatch = false;
 
             if (selectedCharacters.includes("all")) {
@@ -128,14 +144,13 @@ const ViewFanartModal = ({
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
             } else {
-                // Use every() for inclusive mode, some() for standard mode
                 characterMatch = inclusiveMode
                     ? selectedCharacters.every((char) =>
                           entry.characters.includes(char),
                       )
                     : selectedCharacters.some((char) =>
                           entry.characters.includes(char),
-                      );
+                      ) || entry.characters.length === 0;
             }
 
             const chapterMatch =
@@ -143,22 +158,92 @@ const ViewFanartModal = ({
                 entry.chapter === parseInt(selectedChapter);
             const dayMatch =
                 selectedDay === "all" || entry.day === parseInt(selectedDay);
-            return characterMatch && chapterMatch && dayMatch;
+
+            // Add videos only filter
+            const videoMatch = videosOnly ? entry.videos.length > 0 : true;
+
+            // Only allow memes if memesOnly is true
+            if (!memesOnly && entry.type === "meme") {
+                return false;
+            }
+
+            // If memesOnly is true, only allow memes
+            if (memesOnly && entry.type !== "meme") {
+                return false;
+            }
+
+            return characterMatch && chapterMatch && dayMatch && videoMatch;
         });
+
+        if (shuffled && shuffledFanart) {
+            // Only show shuffled items that match the current filter
+            const filteredIds = new Set(base.map((e) => e.url));
+            return shuffledFanart.filter((e) => filteredIds.has(e.url));
+        }
+        return base;
     }, [
         selectedCharacters,
         selectedChapter,
         selectedDay,
         fanart,
         inclusiveMode,
+        videosOnly,
+        memesOnly,
+        shuffled,
+        shuffledFanart,
     ]);
+
+    // Paginated fanart (what's currently displayed), needs pagination because loading 400 items at once is too much
+    const filteredFanart = useMemo(() => {
+        const maxItems = currentPage * ITEMS_PER_PAGE;
+        return allFilteredFanart.slice(0, maxItems);
+    }, [allFilteredFanart, currentPage]);
+
+    // Check if there are more items to load
+    const hasMore = useMemo(() => {
+        return filteredFanart.length < allFilteredFanart.length;
+    }, [filteredFanart.length, allFilteredFanart.length]);
+
+    // Load more items
+    const loadMore = useCallback(() => {
+        if (hasMore && !isLoading) {
+            setIsLoading(true);
+            // Simulate loading delay for smooth UX
+            setTimeout(() => {
+                setCurrentPage((prev) => prev + 1);
+                setIsLoading(false);
+            }, 100);
+        }
+    }, [hasMore, isLoading]);
+
+    // Shuffle handler
+    const handleShuffle = useCallback(() => {
+        // Fisher-Yates shuffle on the full filtered set
+        const arr = [...allFilteredFanart];
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        setShuffledFanart(arr);
+        setShuffled(true);
+        // Reset pagination when shuffling
+        setCurrentPage(1);
+    }, [allFilteredFanart]);
+
+    // Unshuffle handler
+    const handleUnshuffle = useCallback(() => {
+        setShuffled(false);
+        setShuffledFanart(null);
+        // Reset pagination when unshuffling
+        setCurrentPage(1);
+    }, []);
 
     const currentEntry = useMemo(
         () =>
             currentLightboxEntryIndex !== null
-                ? filteredFanart[currentLightboxEntryIndex]
+                ? allFilteredFanart[currentLightboxEntryIndex]
                 : null,
-        [currentLightboxEntryIndex, filteredFanart],
+        [currentLightboxEntryIndex, allFilteredFanart],
     );
 
     // Handlers
@@ -167,6 +252,11 @@ const ViewFanartModal = ({
         setSelectedChapter("all");
         setSelectedDay("all");
         setInclusiveMode(false);
+        setVideosOnly(false);
+        setMemesOnly(false);
+        setShuffled(false);
+        setShuffledFanart(null);
+        setCurrentPage(1);
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -181,10 +271,10 @@ const ViewFanartModal = ({
     const handleNextEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
             const nextIndex =
-                currentLightboxEntryIndex < filteredFanart.length - 1
+                currentLightboxEntryIndex < allFilteredFanart.length - 1
                     ? currentLightboxEntryIndex + 1
                     : 0;
-            const nextEntry = filteredFanart[nextIndex];
+            const nextEntry = allFilteredFanart[nextIndex];
             if (nextEntry?.images[0]) {
                 const img = new window.Image();
                 img.src = nextEntry.images[0].src;
@@ -193,15 +283,15 @@ const ViewFanartModal = ({
                 setCurrentLightboxEntryIndex(nextIndex);
             }
         }
-    }, [currentLightboxEntryIndex, filteredFanart]);
+    }, [currentLightboxEntryIndex, allFilteredFanart]);
 
     const handlePrevEntry = useCallback(() => {
         if (currentLightboxEntryIndex !== null) {
             const prevIndex =
                 currentLightboxEntryIndex > 0
                     ? currentLightboxEntryIndex - 1
-                    : filteredFanart.length - 1;
-            const prevEntry = filteredFanart[prevIndex];
+                    : allFilteredFanart.length - 1;
+            const prevEntry = allFilteredFanart[prevIndex];
             if (prevEntry?.images[0]) {
                 const img = new window.Image();
                 img.src = prevEntry.images[0].src;
@@ -210,7 +300,66 @@ const ViewFanartModal = ({
                 setCurrentLightboxEntryIndex(prevIndex);
             }
         }
-    }, [currentLightboxEntryIndex, filteredFanart]);
+    }, [currentLightboxEntryIndex, allFilteredFanart]);
+
+    // Handle scroll for auto-collapse AND infinite scroll
+    const handleScroll = useCallback(() => {
+        if (!contentContainerRef.current) return;
+
+        const container = contentContainerRef.current;
+        const currentScrollTop = container.scrollTop;
+        const scrollingDown = currentScrollTop > lastScrollTop.current;
+        const isScrollable = container.scrollHeight > container.clientHeight;
+        // Auto-collapse logic (only if not pinned)
+        if (
+            !isHeaderPinned &&
+            isScrollable &&
+            scrollingDown &&
+            !isHeaderCollapsed &&
+            Math.abs(currentScrollTop - lastScrollTop.current) > 20
+        ) {
+            setIsHeaderCollapsed(true);
+        }
+
+        // Infinite scroll logic
+        const { scrollTop, scrollHeight, clientHeight } = container;
+        const threshold = 1000; // Load more when 1000px from bottom
+
+        if (scrollTop + clientHeight >= scrollHeight - threshold) {
+            loadMore();
+        }
+
+        lastScrollTop.current = currentScrollTop;
+    }, [isHeaderPinned, isHeaderCollapsed, loadMore]);
+
+    // Need this because on first open contentContainerRef.current is null, for whatever reason
+    const setContentContainerRef = useCallback(
+        (node: HTMLDivElement | null) => {
+            // Remove listener from previous node
+            if (contentContainerRef.current) {
+                contentContainerRef.current.removeEventListener(
+                    "scroll",
+                    handleScroll,
+                );
+            }
+
+            // Set the new ref
+            contentContainerRef.current = node;
+
+            // Add listener to new node if it exists and modal is open
+            if (node && open) {
+                node.addEventListener("scroll", handleScroll, {
+                    passive: true,
+                });
+                lastScrollTop.current = 0;
+            }
+        },
+        [handleScroll, open],
+    );
+
+    const handleToggleCollapse = useCallback(() => {
+        setIsHeaderCollapsed(!isHeaderCollapsed);
+    }, [isHeaderCollapsed]);
 
     // Masonry layout calculation
     const calculateMasonryLayout = useCallback(
@@ -225,16 +374,28 @@ const ViewFanartModal = ({
 
             entries.forEach((entry, index) => {
                 const firstImage = entry.images[0];
-                if (!firstImage) return;
+                const hasVideo = entry.videos.length > 0;
+
+                // Skip entries with no media
+                if (!firstImage && !hasVideo) return;
 
                 const shortestColumn = columns.reduce(
                     (min, col, i) =>
                         col.height < columns[min].height ? i : min,
                     0,
                 );
-                const aspectRatio = firstImage.height / firstImage.width;
-                const estimatedWidth = 300;
-                const estimatedHeight = estimatedWidth * aspectRatio + 100;
+
+                let estimatedHeight;
+                if (firstImage) {
+                    // Use actual image dimensions
+                    const aspectRatio = firstImage.height / firstImage.width;
+                    const estimatedWidth = 300;
+                    estimatedHeight = estimatedWidth * aspectRatio + 100;
+                } else {
+                    // Video-only entry: use standard video aspect ratio (16:9)
+                    const estimatedWidth = 300;
+                    estimatedHeight = (estimatedWidth * 9) / 16 + 100;
+                }
 
                 columns[shortestColumn].items.push({ entry, index });
                 columns[shortestColumn].height += estimatedHeight;
@@ -274,33 +435,47 @@ const ViewFanartModal = ({
         setMasonryColumns(columns);
     }, [filteredFanart, calculateMasonryLayout]);
 
+    // Clean up scroll listener when modal closes
     useEffect(() => {
-        localStorage.setItem(
-            LS_FANART_MODAL_HEADER_COLLAPSED,
-            isHeaderCollapsed.toString(),
-        );
-    }, [isHeaderCollapsed]);
+        if (!open && contentContainerRef.current) {
+            contentContainerRef.current.removeEventListener(
+                "scroll",
+                handleScroll,
+            );
+        }
+    }, [open, handleScroll]);
 
+    // Reset pagination and scroll position when filters change
     useEffect(() => {
+        setCurrentPage(1);
         if (contentContainerRef.current) {
             contentContainerRef.current.scrollTo({
                 top: 0,
                 behavior: "smooth",
             });
         }
-    }, [selectedCharacters, selectedChapter, selectedDay]);
+    }, [
+        selectedCharacters,
+        selectedChapter,
+        selectedDay,
+        inclusiveMode,
+        videosOnly,
+        memesOnly,
+    ]);
 
     useEffect(() => {
-        setSelectedDay("all");
-    }, [selectedChapter]);
-
-    useEffect(() => {
-        setSelectedCharacters(
-            initialCharacter && initialCharacter !== "all"
-                ? [initialCharacter]
-                : ["all"],
-        );
-    }, [initialCharacter]);
+        if (initialCharacters && initialCharacters.length > 0) {
+            setSelectedCharacters(initialCharacters);
+            if (initialCharacters.length > 1) {
+                setInclusiveMode(true);
+            } else {
+                setInclusiveMode(false);
+            }
+        } else {
+            setSelectedCharacters(["all"]);
+            setInclusiveMode(false);
+        }
+    }, [initialCharacters]);
 
     // Ensure selected characters are valid
     useEffect(() => {
@@ -333,27 +508,34 @@ const ViewFanartModal = ({
         }
     }, [open]);
 
-    // Preload adjacent entries
+    // When pinned state changes, ensure header is visible if pinned
+    useEffect(() => {
+        if (isHeaderPinned) {
+            setIsHeaderCollapsed(false);
+        }
+    }, [isHeaderPinned]);
+
+    // Preload adjacent entries (using full dataset)
     useEffect(() => {
         if (currentLightboxEntryIndex !== null && isLightboxOpen) {
             const nextIndex =
-                currentLightboxEntryIndex < filteredFanart.length - 1
+                currentLightboxEntryIndex < allFilteredFanart.length - 1
                     ? currentLightboxEntryIndex + 1
                     : 0;
             const prevIndex =
                 currentLightboxEntryIndex > 0
                     ? currentLightboxEntryIndex - 1
-                    : filteredFanart.length - 1;
+                    : allFilteredFanart.length - 1;
 
             [nextIndex, prevIndex].forEach((index) => {
-                const entry = filteredFanart[index];
+                const entry = allFilteredFanart[index];
                 if (entry?.images[0]) {
                     const img = new window.Image();
                     img.src = entry.images[0].src;
                 }
             });
         }
-    }, [currentLightboxEntryIndex, filteredFanart, isLightboxOpen]);
+    }, [currentLightboxEntryIndex, allFilteredFanart, isLightboxOpen]);
 
     return (
         <>
@@ -365,9 +547,9 @@ const ViewFanartModal = ({
                 >
                     <CollapsibleHeader
                         isCollapsed={isHeaderCollapsed}
-                        onToggle={() =>
-                            setIsHeaderCollapsed(!isHeaderCollapsed)
-                        }
+                        isPinned={isHeaderPinned}
+                        onTogglePin={() => setIsHeaderPinned(!isHeaderPinned)}
+                        onToggleCollapse={handleToggleCollapse}
                     >
                         <FanartFilters
                             selectedCharacters={selectedCharacters}
@@ -381,15 +563,23 @@ const ViewFanartModal = ({
                             onChapterChange={setSelectedChapter}
                             onDayChange={setSelectedDay}
                             onReset={resetFilters}
-                            totalItems={filteredFanart.length}
+                            totalItems={allFilteredFanart.length}
                             inclusiveMode={inclusiveMode}
                             onInclusiveModeChange={setInclusiveMode}
+                            videosOnly={videosOnly}
+                            onVideosOnlyChange={setVideosOnly}
+                            memesOnly={memesOnly}
+                            onMemesOnlyChange={setMemesOnly}
+                            onShuffle={
+                                shuffled ? handleUnshuffle : handleShuffle
+                            }
+                            shuffled={shuffled}
                         />
                     </CollapsibleHeader>
 
                     <div
                         className="flex-1 overflow-y-auto"
-                        ref={contentContainerRef}
+                        ref={setContentContainerRef}
                     >
                         <FanartMasonryGrid
                             masonryColumns={masonryColumns}
@@ -399,20 +589,63 @@ const ViewFanartModal = ({
                             selectedDay={selectedDay}
                             onOpenLightbox={handleOpenLightbox}
                         />
+
+                        {/* Loading indicator */}
+                        {isLoading && (
+                            <div className="flex justify-center py-8">
+                                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                            </div>
+                        )}
+
+                        {/* Load more button as fallback */}
+                        {hasMore && !isLoading && (
+                            <div className="flex justify-center py-8">
+                                <button
+                                    onClick={loadMore}
+                                    className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+                                >
+                                    Load More (
+                                    {allFilteredFanart.length -
+                                        filteredFanart.length}{" "}
+                                    remaining)
+                                </button>
+                            </div>
+                        )}
                     </div>
                 </DialogContent>
             </Dialog>
 
             {currentEntry && (
                 <ViewLightbox
-                    src={currentEntry.images[0].src}
+                    src={
+                        currentEntry.images[0]?.src ||
+                        currentEntry.videos[0]?.src ||
+                        ""
+                    }
                     alt={currentEntry.label}
-                    width={currentEntry.images[0].width}
-                    height={currentEntry.images[0].height}
-                    galleryImages={currentEntry.images.map((img) => ({
-                        src: img.src,
-                        alt: currentEntry.label + " by " + currentEntry.author,
-                    }))}
+                    width={currentEntry.images[0]?.width}
+                    height={currentEntry.images[0]?.height}
+                    type={currentEntry.images[0] ? "image" : "video"}
+                    galleryItems={[
+                        ...currentEntry.images.map((img) => ({
+                            src: img.src,
+                            alt:
+                                currentEntry.label +
+                                " by " +
+                                currentEntry.author,
+                            type: "image" as const,
+                            width: img.width,
+                            height: img.height,
+                        })),
+                        ...currentEntry.videos.map((video) => ({
+                            src: video.src,
+                            alt:
+                                currentEntry.label +
+                                " by " +
+                                currentEntry.author,
+                            type: "video" as const,
+                        })),
+                    ]}
                     priority={true}
                     alwaysShowNavigationArrows={true}
                     galleryIndex={0}

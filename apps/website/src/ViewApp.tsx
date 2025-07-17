@@ -25,7 +25,7 @@ import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { Book, Dice6, Info, Settings } from "lucide-react";
+import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
 
 import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
@@ -39,6 +39,8 @@ import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import Image from "next/image";
+import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
+import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -81,6 +83,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
     // Audio Store
     const changeBGM = useAudioStore((state) => state.changeBGM);
+    const setSiteBgmKey = useAudioStore((state) => state.setSiteBgmKey);
 
     // Main App Store
     const chapter = useViewStore((state) => state.data.chapter);
@@ -141,6 +144,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     );
     const openChapterRecapModal = useViewStore(
         (state) => state.modal.openChapterRecapModal,
+    );
+    const openFanartModal = useViewStore(
+        (state) => state.modal.openFanartModal,
+    );
+    const openMusicPlayerModal = useViewStore(
+        (state) => state.modal.openMusicPlayerModal,
     );
     const closeModal = useViewStore((state) => state.modal.closeModal);
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
@@ -321,6 +330,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         setCharacterKeys(newDayData.nodes);
 
         changeBGM(newChapterData.bgmSrc);
+        setSiteBgmKey(newChapterData.bgmSrc);
         setChapter(newChapter);
         setDay(newDay);
         setBrowserHash(`${newChapter}/${newDay}`);
@@ -446,6 +456,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
         setReadStatus(chapter, day, selectedElement.id, newReadStatus);
     }
+
+    console.log(openModal);
 
     return (
         <>
@@ -591,7 +603,27 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onNodeClick={onNodeClick}
             />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
+            <ViewMusicPlayerModal
+                open={openModal === "music"}
+                onClose={closeModal}
+            />
+            <ViewFanartModal
+                open={openModal === "fanart"}
+                onClose={closeModal}
+                chapter={chapter}
+                day={day}
+                initialCharacters={(() => {
+                    if (currentCard === "edge" && selectedEdge) {
+                        const { source, target } = selectedEdge;
+                        return [source, target];
+                    } else if (currentCard === "node" && selectedNode) {
+                        return [selectedNode.id];
+                    }
+                    return undefined;
+                })()}
+            />
+
+            <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
@@ -656,6 +688,28 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     onClick={openChapterRecapModal}
                 >
                     <Book />
+                </IconButton>
+
+                <IconButton
+                    id="jukebox-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Jukebox"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={openMusicPlayerModal}
+                >
+                    <Disc3 />
+                </IconButton>
+
+                <IconButton
+                    id="gallery-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Libestal Gallery"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={openFanartModal}
+                >
+                    <Palette />
                 </IconButton>
             </div>
 

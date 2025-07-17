@@ -42,3 +42,5 @@ Thank you for your service, detective.
 ["Diamonds" by the Mask of Gabriel](https://x.com/MaskofGabriel/status/1835924665962746240)
 
 ["the detective is searching for her diamond with sneaking skill" by Gardener](https://x.com/jhgardener_/status/1836425415482839198)
+
+["Please remember..." by Oruruca](https://x.com/oruruca86/status/1832133314670686400)

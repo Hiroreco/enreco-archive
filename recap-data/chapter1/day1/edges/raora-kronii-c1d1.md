@@ -17,3 +17,5 @@ Raora, however, wasn’t just playing around—she was serious. She would do wha
 ## Fanart
 
 ["Tam ten~" by ErasorPepero](https://x.com/erasopepero232/status/1830564734657331247)
+
+["Say My Name!!" by Adarin](https://x.com/AdarinSinner/status/1830536762684543004)

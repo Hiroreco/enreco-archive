@@ -1,6 +1,7 @@
 import { GlossaryPageData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
 import {
+    ArrowRight,
     Book,
     ChevronLeft,
     ChevronRight,
@@ -38,6 +39,7 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
+import ViewSectionJumper from "@/components/view/items-page/ViewSectionJumper";
 
 interface ViewGlossaryCardProps {
     className?: string;
@@ -210,7 +212,19 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
             <CardHeader className="pb-0 px-4">
                 <div className="flex flex-row h-[30px] items-center w-full justify-between px-2">
                     <CardTitle className="flex justify-between items-center w-full">
-                        {categoryMap[selectedCategory].label}
+                        {currentEntry !== null ? (
+                            <div className="flex items-center gap-2 md:text-xl text-sm">
+                                <span>
+                                    {categoryMap[selectedCategory].label}
+                                </span>
+                                <ArrowRight size={18} className="opacity-60" />
+                                <span className="font-medium">
+                                    {currentEntry.item.title}
+                                </span>
+                            </div>
+                        ) : (
+                            <span>{categoryMap[selectedCategory].label}</span>
+                        )}
                         {currentEntry !== null && (
                             <div className="flex items-center gap-2">
                                 {history.length > 0 && (
@@ -279,6 +293,13 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                         },
                     )}
                 />
+
+                {currentEntry !== null && (
+                    <ViewSectionJumper
+                        content={currentEntry.item.content || ""}
+                        className="block md:hidden absolute top-0 right-[22px] z-50"
+                    />
+                )}
 
                 {/* Content layer */}
                 <AnimatePresence mode="wait">

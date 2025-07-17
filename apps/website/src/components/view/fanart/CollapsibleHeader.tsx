@@ -10,21 +10,23 @@ import {
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { ChevronUp } from "lucide-react";
+import { ChevronDown, Pin, PinOff } from "lucide-react";
 import { ReactNode } from "react";
 
 interface CollapsibleHeaderProps {
     isCollapsed: boolean;
-    onToggle: () => void;
+    isPinned: boolean;
+    onTogglePin: () => void;
+    onToggleCollapse: () => void;
     children: ReactNode;
 }
 
-const CollapseButton = ({
-    isCollapsed,
+const PinButton = ({
+    isPinned,
     onClick,
     className,
 }: {
-    isCollapsed: boolean;
+    isPinned: boolean;
     onClick: () => void;
     className?: string;
 }) => {
@@ -35,20 +37,50 @@ const CollapseButton = ({
                     asChild
                     onClick={onClick}
                     className={cn(
-                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 opacity-70 transition-colors z-10 cursor-pointer p-1",
+                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 transition-colors z-10 cursor-pointer p-1.5",
+                        isPinned
+                            ? "opacity-100 bg-primary/10 border-primary/50"
+                            : "opacity-70",
                         className,
                     )}
                 >
-                    <ChevronUp
-                        className={cn(
-                            "transition-transform duration-200 size-8",
-                            isCollapsed ? "rotate-180" : "rotate-0",
-                        )}
-                    />
+                    {isPinned ? (
+                        <Pin className="size-8" />
+                    ) : (
+                        <PinOff className="size-8" />
+                    )}
                 </TooltipTrigger>
                 <TooltipContent side="right">
-                    {isCollapsed ? "Expand header" : "Collapse header"}
+                    {isPinned
+                        ? "Unpin header (auto-collapse on scroll)"
+                        : "Pin header (always visible)"}
                 </TooltipContent>
+            </Tooltip>
+        </TooltipProvider>
+    );
+};
+
+const ExpandButton = ({
+    onClick,
+    className,
+}: {
+    onClick: () => void;
+    className?: string;
+}) => {
+    return (
+        <TooltipProvider>
+            <Tooltip>
+                <TooltipTrigger
+                    asChild
+                    onClick={onClick}
+                    className={cn(
+                        "bg-background border border-border rounded-full flex items-center justify-center hover:opacity-100 transition-colors z-10 cursor-pointer p-1 opacity-70",
+                        className,
+                    )}
+                >
+                    <ChevronDown className="size-8" />
+                </TooltipTrigger>
+                <TooltipContent side="left">Show filters</TooltipContent>
             </Tooltip>
         </TooltipProvider>
     );
@@ -56,7 +88,9 @@ const CollapseButton = ({
 
 const CollapsibleHeader = ({
     isCollapsed,
-    onToggle,
+    isPinned,
+    onTogglePin,
+    onToggleCollapse,
     children,
 }: CollapsibleHeaderProps) => {
     return (
@@ -71,9 +105,9 @@ const CollapsibleHeader = ({
                     <DialogHeader className="space-y-0 mb-4">
                         <DialogTitle>
                             <div className="w-full justify-center md:justify-normal mx-auto md:mx-0 flex gap-2 items-center">
-                                <CollapseButton
-                                    isCollapsed={isCollapsed}
-                                    onClick={onToggle}
+                                <PinButton
+                                    isPinned={isPinned}
+                                    onClick={onTogglePin}
                                     className="shrink-0"
                                 />
                                 <span>Fanart Gallery</span>
@@ -88,9 +122,8 @@ const CollapsibleHeader = ({
             </div>
 
             {isCollapsed && (
-                <CollapseButton
-                    isCollapsed={isCollapsed}
-                    onClick={onToggle}
+                <ExpandButton
+                    onClick={onToggleCollapse}
                     className="absolute top-0 left-0"
                 />
             )}

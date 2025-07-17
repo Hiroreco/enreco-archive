@@ -12,3 +12,9 @@ Her companion’s financial exploits and shenanigans caused a ripple of chaos th
 [Not my issue](#embed:https://www.youtube.com/live/cYvEiwlPkW0?feature=shared&t=2121)
 
 Later on, Fuwawa teamed up with Raora and Gonathon to tackle the _Volcanic Dungeon_. Amidst the fiery chaos, she [screamed](https://www.youtube.com/live/cYvEiwlPkW0?feature=shared&t=6910) her way through the journey, yet the group prevailed, recovering memories of _Takanashi Kiara_.
+
+## Fanart
+
+["Two sides of the same coin" by Hiro](https://x.com/hiroavrs/status/1901289066412577240)
+
+<!-- mococo -->

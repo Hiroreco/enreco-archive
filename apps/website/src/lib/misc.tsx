@@ -203,7 +203,7 @@ export const CHARACTER_ID_NAME_MAP: Record<string, string> = {
     fuwawa: "Fuwawa Abyssguard",
     mococo: "Mococo Abyssguard",
     shiori: "Shiori Nyavella",
-    nerissa: "Nerissa Ravencroft",
+    nerissa: "Nerissa Juliet Ravencroft",
     bijou: "Koseki Bijou",
     liz: "Elizabeth Rose Bloodflame",
     gigi: "Gonathon G",
@@ -224,7 +224,6 @@ export const getCharacterIdNameMap = (chapter = 0): Record<string, string> => {
             cecilia: "Cecilia Immerkind",
             raora: "Roa Pandora",
             calli: "Mordan Ramsey",
-            nerissa: "Nerissa Juliet Ravencroft",
         };
     }
     return CHARACTER_ID_NAME_MAP;

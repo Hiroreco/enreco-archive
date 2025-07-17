@@ -1,5 +1,5 @@
-<!-- title: Satan -->
-<!-- quote: You were always my backup plan -->
+<!-- title: Hot Pink One -->
+<!-- quote: You were always my backup plan. -->
 <!-- chapters: -1 -->
 <!-- images: (The Hot Pink One's Chapter 1 Profile), (The Hot Pink One activating her Revelation), (The Hot Pink One in "Start Again"), (The Hot Pink One's Chapter 2 Profile #1), (The Hot Pink One's Chapter 2 Profile #2), (Recollection - IRyS), (IRyS in Chapter 2's Ending) -->
 <!-- model: false -->
@@ -33,7 +33,7 @@ Call it karma or collapse, but eventually, her polycule of side chicks unraveled
 
 If Chapter 1 was wild, Chapter 2 showcased the full extent of the Hot Pink One’s chaotic energy. Even though she'd lost her memories again, her personality remained intact—just as eccentric as ever—with her web of relationships becoming even more tangled.
 
-Still known as the Hot Pink One, she took on the role of a chef specializing in chocolate cakes. She also recovered memories of her past self after conquering the [Star Site: Elpis](#entry:star-site-elpis-entr)—recalling herself as IRyS, the embodiment of hope, albeit a drunken one.
+Still known as the Hot Pink One, she took on the role of a chef specializing in chocolate cakes. She also recovered memories of her past self after conquering the [Star Site: Elpis](#entry:star-site-elpis-entry)—recalling herself as IRyS, the embodiment of hope, albeit a drunken one.
 
 And as each day passed, the pink one's entanglement with others grew more and more complicated.
 
@@ -49,6 +49,6 @@ For anyone following the story from her perspective, it was easy to lose track o
 
 ## Trivia
 
-- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the highest number of romantic, or ex-romantic, partners.
+- Unsurprisingly, as of Chapter 2, the Hot Pink One holds the record for the most romantic (or ex-romantic) partners: Bijou, Nerissa, Shiori, Amelia (for about a minute), Ina, and Tam.
 
 [irys](#easter:easter-irys)

@@ -66,3 +66,7 @@ Would this coven be just another harmless faction? Or would they be a threat to 
 ["ABSOLUTE CINEMA" by seapupu](https://x.com/seapupu290495/status/1921597971465920739)
 
 <!-- shiori -->
+
+## Memes
+
+["Future wife" by Erza](https://x.com/Ezralguard/status/1921418653880271200)

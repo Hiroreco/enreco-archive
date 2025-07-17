@@ -18,3 +18,5 @@ Despite her money-driven fervor, Mococo still found time for adventuring. Later 
 <!-- raora, nerissa, gigi, fuwawa -->
 
 ["Lava" by fukuinu](https://x.com/fukuinu_daddy/status/1830139314807980512)
+
+["🏃‍♀️💨💨" by Rev](https://x.com/REVIL0L/status/1918987437780402257)

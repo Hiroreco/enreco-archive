@@ -36,8 +36,8 @@ The largest structure in the kingdom, the castle, focused on height rather than 
 
 Within the castle grounds were a variety of facilities, including the Princess's chambers, a dining hall, a dueling area, a casino, merchant stalls, and more. Most kingdom activities and sidequests took place here.
 
-**The Library**
-Located at the center of the residential area and directly in front of the castle gates, the [Library](#entry:library-entry) was a central hub of the second chapter’s story and the place where Fia resided.
+**The Abandoned Temple**
+Located at the center of the residential area and directly in front of the castle gates, is an abandoned temple. To the heroes it was the entrance to the [Library,](#entry:library-entry) a central hub of the second chapter’s story and the place where Fia resided.
 
 **Build Area**
 Surrounding the Library were expansive plots of land allocated to the heroes for free building. Compared to the limited, guild-restricted building areas in the first chapter, this iteration offered far more freedom and fewer restrictions, allowing for grander, more personalized structures.

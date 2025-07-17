@@ -32,7 +32,7 @@ Though NanaEleven had just opened, it had already made an impact—albeit with a
 
 ## Fanwork
 
-["Nana-11 1996 VHS Commercial Footage" by Emico Otero](#outs:https://www.youtube.com/watch?v=cyw49svSeMw)
+["Nana-11 1996 VHS Commercial Footage" by Emico Otero](https://x.com/EmicoOtero/status/1835347132729250178)
 
 ["Nana-11" by Fongban](https://x.com/fongban_/status/1902071843584143478)
 

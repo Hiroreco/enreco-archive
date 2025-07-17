@@ -39,54 +39,55 @@ const ViewBasicEgg = ({
     };
 
     return (
-        <div className="relative select-none">
-            <Image
-                width={100}
-                height={100}
-                src={`images-opt/${imageName}-opt.webp`}
-                draggable={false}
-                className={cn(
-                    "transition-all absolute -bottom-[70px] right-0 h-[100px] w-auto",
-                    {
-                        "cursor-pointer opacity-50 hover:opacity-80":
-                            !isPlaying,
-                        "opacity-80": isPlaying,
-                    },
-                    className,
-                )}
-                alt={imageName}
-                priority={true}
-                onClick={handleClick}
-            />
+        <div className={cn("absolute -bottom-[70px] right-0", className)}>
+            <div className="relative h-fit w-fit">
+                <Image
+                    width={100}
+                    height={100}
+                    src={`images-opt/${imageName}-opt.webp`}
+                    draggable={false}
+                    className={cn(
+                        "transition-all select-none h-[100px] w-auto",
+                        {
+                            "cursor-pointer opacity-50 hover:opacity-80":
+                                !isPlaying,
+                            "opacity-80": isPlaying,
+                        },
+                    )}
+                    alt={imageName}
+                    priority={true}
+                    onClick={handleClick}
+                />
 
-            {isPlaying && (
-                <div className="absolute -bottom-[50px] right-[10px] flex items-center gap-[1px] pointer-events-none">
-                    <div
-                        className="w-[2px] bg-white rounded-full animate-pulse"
-                        style={{
-                            height: "8px",
-                            animationDelay: "0ms",
-                            animationDuration: "600ms",
-                        }}
-                    />
-                    <div
-                        className="w-[2px] bg-white rounded-full animate-pulse"
-                        style={{
-                            height: "12px",
-                            animationDelay: "200ms",
-                            animationDuration: "600ms",
-                        }}
-                    />
-                    <div
-                        className="w-[2px] bg-white rounded-full animate-pulse"
-                        style={{
-                            height: "6px",
-                            animationDelay: "400ms",
-                            animationDuration: "600ms",
-                        }}
-                    />
-                </div>
-            )}
+                {isPlaying && (
+                    <div className="absolute bottom-[15px] right-[15px] flex items-center gap-[1px] pointer-events-none">
+                        <div
+                            className="w-[2px] bg-white rounded-full animate-pulse"
+                            style={{
+                                height: "8px",
+                                animationDelay: "0ms",
+                                animationDuration: "600ms",
+                            }}
+                        />
+                        <div
+                            className="w-[2px] bg-white rounded-full animate-pulse"
+                            style={{
+                                height: "12px",
+                                animationDelay: "200ms",
+                                animationDuration: "600ms",
+                            }}
+                        />
+                        <div
+                            className="w-[2px] bg-white rounded-full animate-pulse"
+                            style={{
+                                height: "6px",
+                                animationDelay: "400ms",
+                                animationDuration: "600ms",
+                            }}
+                        />
+                    </div>
+                )}
+            </div>
         </div>
     );
 };

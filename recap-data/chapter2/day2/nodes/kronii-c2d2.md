@@ -8,3 +8,7 @@ Pinky was here (see [Tam–IRyS: Sapphire and Sappie](#edge:irys-kronii)).
 ## Fanart
 
 ["Queen Tam Gandr" by OOPARTZ](https://x.com/Oopartzy/status/1902600564913139718)
+
+## Memes
+
+["APT APT APT APT APT APT" by Mioami](https://x.com/Mioami_/status/1919358541783314913)

@@ -50,3 +50,7 @@ But another matter lingered in Bae's mind: Cecilia Immerkind. As a worried Gonat
 ## Fanart
 
 ["you need to pay for the three wishes" by R-Lus](https://x.com/RLus654/status/1920313961980793313)
+
+## Memes
+
+["Promise' lore in a nutshell" by Arisae](https://x.com/ari_sae_/status/1920482530630701156)

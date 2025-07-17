@@ -27,7 +27,7 @@ Gura was the founder, or at least, the first member, of the “Appointed Point�
 
 Though she remained awake and active for a large part of the kingdom's journey, she somehow managed to dodge most of the chaos caused by the other heroes. That didn’t stop her from causing some of her own though, like building a [gallows](https://www.youtube.com/live/72SJQRQ7qi0?t=4184) behind a convenience store. For reasons.
 
-She regained her past memories after conquering the [Underwater Dungeon](#entry:underwater-dungeon-entry), recalling herself as a princess, well, perhaps a commoner, depending on who you asked, from Atlantis. In her past life, she had stolen the all-powerful trident and fled to the surface, bored of the life beneath the sea. But fate caught up with her. Eventually, the dwellers of Atlantis came and took her back—though not before she bid one final farewell to her fellow heroes.
+She regained her past memories after conquering the [Ocean Temple Dungeon](#entry:ocean-temple-dungeon-entry), recalling herself as a princess, well, perhaps a commoner, depending on who you asked, from Atlantis. In her past life, she had stolen the all-powerful trident and fled to the surface, bored of the life beneath the sea. But fate caught up with her. Eventually, the dwellers of Atlantis came and took her back—though not before she bid one final farewell to her fellow heroes.
 
 ## Trivia
 

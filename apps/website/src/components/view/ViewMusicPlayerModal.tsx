@@ -58,11 +58,18 @@ const TrackItem = ({
     trackIndex,
     isPlaying,
     onSelect,
-}: TrackItemProps) => (
-    <div key={`${cIdx}-${tIdx}`} data-cat={cIdx} data-track={tIdx}>
+}: TrackItemProps) => {
+    const songThumbNail = song.coverUrl
+        ? song.coverUrl.replace(/\.webp$/, "-thumb.webp")
+        : "/images-opt/song-chapter-2-thumb-opt.webp";
+    const blurDataURL = getBlurDataURL(songThumbNail);
+    return (
         <div
+            key={`${cIdx}-${tIdx}`}
+            data-cat={cIdx}
+            data-track={tIdx}
             className={cn(
-                "flex items-center cursor-pointer hover:dark:bg-white/10 hover:bg-black/10 transition-colors px-3 py-1.5 rounded-lg group",
+                "flex items-center cursor-pointer hover:dark:bg-white/10 hover:bg-black/10 transition-colors rounded-lg px-3 py-1.5 group",
                 {
                     "dark:bg-white/20 bg-black/20":
                         cIdx === catIndex && tIdx === trackIndex,
@@ -70,24 +77,31 @@ const TrackItem = ({
             )}
             onClick={() => onSelect(cIdx, tIdx)}
         >
-            <span className="opacity-50 h-6 w-4 flex items-center justify-center">
+            <Image
+                src={songThumbNail}
+                blurDataURL={blurDataURL}
+                placeholder={blurDataURL ? "blur" : "empty"}
+                alt={song.title}
+                width={32}
+                height={32}
+                className="object-cover size-8 rounded"
+                draggable={false}
+            />
+
+            <span className="opacity-50 h-6 w-4 flex items-center justify-center ml-1">
                 {cIdx === catIndex && tIdx === trackIndex && isPlaying ? (
                     <PlayingAnimation />
                 ) : (
-                    <>
-                        <Play className="size-3 hidden group-hover:block" />
-                        <span className="group-hover:hidden">{tIdx + 1}</span>
-                    </>
+                    <Play className="size-3 hidden group-hover:block" />
                 )}
             </span>
             <span className="px-2 text-sm font-semibold grow opacity-90">
                 {song.title}
             </span>
-
             <span className="text-xs opacity-50 ml-2">{song.duration}</span>
         </div>
-    </div>
-);
+    );
+};
 
 const categories = Object.entries(SONGS);
 const categoriesLabels: Record<string, string> = {
@@ -218,14 +232,26 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
     const setTrackIndex = useMusicPlayerStore((state) => state.setTrackIndex);
     const isPlaying = useMusicPlayerStore((state) => state.isPlaying);
     const setIsPlaying = useMusicPlayerStore((state) => state.setIsPlaying);
-    const loopWithinCategory = useMusicPlayerStore((state) => state.loopWithinCategory);
-    const setLoopWithinCategory = useMusicPlayerStore((state) => state.setLoopWithinCategory);
-    const loopCurrentSong = useMusicPlayerStore((state) => state.loopCurrentSong);
-    const setLoopCurrentSong = useMusicPlayerStore((state) => state.setLoopCurrentSong);
+    const loopWithinCategory = useMusicPlayerStore(
+        (state) => state.loopWithinCategory,
+    );
+    const setLoopWithinCategory = useMusicPlayerStore(
+        (state) => state.setLoopWithinCategory,
+    );
+    const loopCurrentSong = useMusicPlayerStore(
+        (state) => state.loopCurrentSong,
+    );
+    const setLoopCurrentSong = useMusicPlayerStore(
+        (state) => state.setLoopCurrentSong,
+    );
     const isShuffled = useMusicPlayerStore((state) => state.isShuffled);
     const setIsShuffled = useMusicPlayerStore((state) => state.setIsShuffled);
-    const shuffledIndices = useMusicPlayerStore((state) => state.shuffledIndices);
-    const setShuffledIndices = useMusicPlayerStore((state) => state.setShuffledIndices);
+    const shuffledIndices = useMusicPlayerStore(
+        (state) => state.shuffledIndices,
+    );
+    const setShuffledIndices = useMusicPlayerStore(
+        (state) => state.setShuffledIndices,
+    );
 
     const changeBGM = useAudioStore((state) => state.changeBGM);
     const bgm = useAudioStore((state) => state.bgm);
@@ -240,15 +266,6 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
 
     const hasSelection = catIndex !== null && trackIndex !== null;
     const [, songs] = hasSelection ? categories[catIndex!] : ["", []];
-
-    const onOpenChange = useCallback(
-        (open: boolean) => {
-            if (!open) {
-                onClose();
-            }
-        },
-        [onClose],
-    );
 
     // Shuffle utility functions
     const generateShuffledIndices = useCallback((length: number) => {
@@ -365,40 +382,59 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         setCatIndex,
     ]);
 
-    const playPause = () => {
+    const playPause = useCallback(() => {
         setIsPlaying(!isPlaying);
-        if (isPlaying) {
-            pauseBGM(0);
-        } else {
-            playBGM(0);
-        }
-    };
+    }, [setIsPlaying, isPlaying]);
 
-    const toggleLoop = () => {
+    const toggleLoop = useCallback(() => {
         if (loopCurrentSong) {
             bgm?.loop(false);
         } else {
             bgm?.loop(true);
         }
         setLoopCurrentSong(!loopCurrentSong);
-    };
+    }, [bgm, loopCurrentSong, setLoopCurrentSong]);
 
-    const toggleShuffle = () => {
+    const toggleShuffle = useCallback(() => {
         if (!isShuffled) {
             // Enable shuffle: generate shuffled indices
             const newShuffledIndices = generateShuffledIndices(songs.length);
             setShuffledIndices(newShuffledIndices);
         }
         setIsShuffled(!isShuffled);
-    };
+    }, [
+        isShuffled,
+        generateShuffledIndices,
+        songs.length,
+        setShuffledIndices,
+        setIsShuffled,
+    ]);
 
-    const onVolumeChange = (val: number[]) => setBgmVolume(val[0]);
+    const onVolumeChange = useCallback(
+        (val: number[]) => setBgmVolume(val[0]),
+        [setBgmVolume],
+    );
 
-    const onSelect = (cIdx: number, tIdx: number) => {
-        setCatIndex(cIdx);
-        setTrackIndex(tIdx);
-        setIsPlaying(true);
-    };
+    const onSelect = useCallback(
+        (cIdx: number, tIdx: number) => {
+            // If clicking the currently selected and playing song, pause it
+            if (cIdx === catIndex && tIdx === trackIndex && isPlaying) {
+                setIsPlaying(false);
+            } else {
+                setCatIndex(cIdx);
+                setTrackIndex(tIdx);
+                setIsPlaying(true);
+            }
+        },
+        [
+            catIndex,
+            trackIndex,
+            isPlaying,
+            setIsPlaying,
+            setCatIndex,
+            setTrackIndex,
+        ],
+    );
 
     // Regenerate shuffled indices when category changes
     useEffect(() => {
@@ -456,6 +492,14 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         [songs, trackIndex],
     );
 
+    useEffect(() => {
+        if (isPlaying) {
+            playBGM(0);
+        } else {
+            pauseBGM(0);
+        }
+    }, [isPlaying, playBGM, pauseBGM]);
+
     const coverImage = useMemo(() => {
         return currentTrack?.coverUrl || "images-opt/song-chapter-2-opt.webp";
     }, [currentTrack]);
@@ -464,10 +508,12 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         <Dialog
             open={open}
             onOpenChange={(val) => {
-                if (val == false && !isPlaying) {
-                    changeBGM(siteBgmKey!, 0, 0);
+                if (val == false) {
+                    if (!isPlaying) {
+                        changeBGM(siteBgmKey!, 0, 0);
+                    }
+                    onClose();
                 }
-                onOpenChange(val);
             }}
         >
             <DialogHeader>
@@ -530,6 +576,18 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                         </div>
                         <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
+                                {currentTrack?.coverUrl && (
+                                    <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10 md:hidden">
+                                        <Image
+                                            src={currentTrack.coverUrl}
+                                            alt={currentTrack.title}
+                                            width={32}
+                                            height={32}
+                                            className="object-cover w-8 h-8"
+                                            draggable={false}
+                                        />
+                                    </span>
+                                )}
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title ||
                                         "ENreco Archive Jukebox"}
@@ -571,6 +629,18 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                     <div className="text-center flex md:hidden flex-col items-center gap-4">
                         <div className="flex flex-col items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
+                                {currentTrack?.coverUrl && (
+                                    <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10">
+                                        <Image
+                                            src={currentTrack.coverUrl}
+                                            alt={currentTrack.title}
+                                            width={32}
+                                            height={32}
+                                            className="object-cover w-8 h-8"
+                                            draggable={false}
+                                        />
+                                    </span>
+                                )}
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title ||
                                         "ENreco Archive Jukebox"}

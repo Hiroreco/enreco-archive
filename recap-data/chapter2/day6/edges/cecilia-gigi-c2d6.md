@@ -17,3 +17,7 @@ And then, not long after, the green one turned around and offered the same emoti
 Turns out, sometimes, the best cure for a breaking heart is a fellow disaster who knows how to hold yours together. These two? Definitely each other’s designated emotional support gremlins.
 
 [Green and Orange](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=zgv4cfWTrxUWc4j3&t=10106)
+
+## Memes
+
+["Look at that Perfect Defense!" by V Faction](https://x.com/V_Faction/status/1920717447637741668)

@@ -5,8 +5,6 @@ import { useAudioStore } from "@/store/audioStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const ViewShioriGame = () => {
@@ -15,18 +13,6 @@ const ViewShioriGame = () => {
     const [answer, setAnswer] = useState("");
     const [error, setError] = useState("");
     const { playSFX } = useAudioStore();
-    const [shioriPressed, setShioriPressed] = useState(false);
-
-    const handleShioriPress = () => {
-        if (!shioriPressed) {
-            playSFX("chicken-pop");
-            playSFX("easter/easter-shiori-minigame");
-            setShioriPressed(true);
-            setTimeout(() => {
-                setShioriPressed(false);
-            }, 11000);
-        }
-    };
 
     const questions = [
         {

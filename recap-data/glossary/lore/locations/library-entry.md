@@ -1,5 +1,5 @@
 <!-- title: The Library -->
-<!-- quote: An archive of lore from across the multiverse -->
+<!-- quote: An archive of lore from across the multiverse. -->
 <!-- chapters: 1 -->
 <!-- images: (The Library Overview #1), (The Library Overview #2), (The Library Overview #3), (View of the Lore Archive), (The Library Overview #4) --->
 <!-- model: false -->
@@ -30,16 +30,16 @@ Most striking were the endless stacks of bookshelves lining the Library. True to
 
 Lore played a crucial role in the second chapter, uncovering the [kingdom’s](#entry:libestal-ancient-entry) history, the rise of the [Stains](#entry:stains-entry), and the hidden truths that shaped the world. These pieces of lore were found throughout the heroes’ travels—from forgotten ruins to the depths of ancient dungeons.
 
-**General Lore**
+#### General Lore
 Contained records on major figures and the overarching history of the kingdom of Libestal.
 
 [Read "Fia"](#text:fia)
 [Read "Libestal Ficta"](#text:libestal-ficta)
-[Read "libestal"](#text:libestal)
+[Read "Libestal"](#text:libestal)
 [Read "The Outsider"](#text:the-outsider)
 [Read "The Library"](#text:the-library)
 
-**Book of Prophecies**
+#### Book of Prophecies
 As described by the Princess, this book knew all and revealed all. It didn’t simply predict the future—it _defined_ it, including the doomed fate of Libestal.
 
 [Read "Book of Prophecies 3:21"](#text:book-of-prophecies-3-21)
@@ -49,8 +49,8 @@ As described by the Princess, this book knew all and revealed all. It didn’t s
 [Read "Book of Prophecies 6:10"](#text:book-of-prophecies-6-10)
 [Read "Book of Prophecies 2:29"](#text:book-of-prophecies-2-29)
 
-**Explorer's Journal**
-The diary of an ancient explorer who, long before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.
+#### Explorer's Journal
+The diary of an explorer who, before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.
 
 [Read "Explorer's Journal #1"](#text:explorers-journal-1)
 [Read "Explorer's Journal #2"](#text:explorers-journal-2)
@@ -58,7 +58,7 @@ The diary of an ancient explorer who, long before the corruption took hold, vent
 [Read "Explorer's Journal #4"](#text:explorers-journal-4)
 [Read "Explorer's Journal #5"](#text:explorers-journal-5)
 
-**Researcher's Journal**
+#### Researcher's Journal
 The records of a researcher studying the spread of shadowy beings known as the Stains. Their writings chronicled a desperate attempt to uncover whether the Book of Prophecies—and the Ruination it foretold—would truly bring about the world’s end.
 
 [Read "Researcher's Journal #1"](#text:researchers-journal-1)
@@ -67,7 +67,7 @@ The records of a researcher studying the spread of shadowy beings known as the S
 [Read "Researcher's Journal #4"](#text:researchers-journal-4)
 [Read "Researcher's Journal #5"](#text:researchers-journal-5)
 
-**Rider's Journal**
+#### Rider's Journal
 The diary of a refugee and caretaker of gryphons, who bore witness to the devastation wrought by the Stains—losing not only their home, but also their beloved companions.
 
 [Read "Rider's Journal #1"](#text:riders-journal-1)
@@ -76,7 +76,7 @@ The diary of a refugee and caretaker of gryphons, who bore witness to the devast
 [Read "Rider's Journal #4"](#text:riders-journal-4)
 [Read "Rider's Journal #5"](#text:riders-journal-5)
 
-**Heart of Ruin**
+#### Heart of Ruin
 This tome revealed the source of the Ruination, the calamity it unleashed, and the true nature of the corruption itself.
 
 [Read "The Truth of Ruin"](#text:the-truth-of-ruin)

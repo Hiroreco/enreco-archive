@@ -1,5 +1,5 @@
 <!-- title: Guilds -->
-<!-- quote: Responsible for ensuring the kingdom's peace and prosperity -->
+<!-- quote: Responsible for ensuring the kingdom's peace and prosperity. -->
 <!-- chapters: 0 -->
 <!-- images: (Guilds Overview) --->
 <!-- model: false -->
@@ -31,7 +31,7 @@ Their headquarters resembled a traditional wooden guild hall filled with arcane 
 
 #### Amber Coin
 
-**Members:** [Takanashi Kiara](#entry:kiara-entry), [Nanamoo](#entry:mumei-entry), [Raora Panthera](#entry:raora-entry), [Peasant Da Bae](#entry:bae-entry)
+**Members:** [Takanashi Kiara](#entry:kiara-entry), [Nanamoo](#entry:mumei-entry), [Raora Panthera](#entry:raora-entry), [Peasant The Bae](#entry:bae-entry)
 **Guildmaster:** Auren
 
 A haven for dreamers, visionaries, and glory-seekers—where friends could easily become rivals. Amber Coin had a rocky start, accused by others (especially the Ceruleans) of murder, kidnapping, and general coin-chasing greed.

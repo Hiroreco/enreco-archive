@@ -117,6 +117,14 @@
             "duration": "02:45"
         },
         {
+            "title": "Deep Woods 5",
+            "info": "Used by Gura (Chapter 1)",
+            "originalUrl": "https://www.youtube.com/watch?v=w0ZL_2PdEi4",
+            "sourceUrl": "/audio/songs/stream/stream-deep-woods-5.mp3",
+            "coverUrl": "/images-opt/song-chapter-1-opt.webp",
+            "duration": "03:32"
+        },
+        {
             "title": "Call of the Wind",
             "info": "Used by Mumei (Chapter 1)",
             "originalUrl": "https://audiostock.net/tracks/491760",
@@ -265,7 +273,7 @@
         },
         {
             "title": "Reflect",
-            "info": "Obtained in the Underwater Dungeon",
+            "info": "Obtained in the Ocean Temple Dungeon",
             "originalUrl": "https://www.youtube.com/watch?v=nCQ_zZIiGLA&ab_channel=GawrGuraCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-reflect.mp3",
             "coverUrl": "/images-opt/song-talent-reflect-opt.webp",
@@ -281,7 +289,7 @@
         },
         {
             "title": "HINOTORI",
-            "info": "Obtained in the Volcanic Dungeon",
+            "info": "Obtained in the Volcano Dungeon",
             "originalUrl": "https://www.youtube.com/watch?v=eDfMDkgheQY&ab_channel=TakanashiKiaraCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-hinotori.mp3",
             "coverUrl": "/images-opt/song-talent-hinotori-opt.webp",
@@ -289,7 +297,7 @@
         },
         {
             "title": "ChikuTaku",
-            "info": "Obtained in the Ancient Sewer Dungeon",
+            "info": "Obtained in the Ancient Sewers Dungeon",
             "originalUrl": "",
             "sourceUrl": "/audio/songs/talent/talent-chikutaku.mp3",
             "coverUrl": "/images-opt/song-talent-chikutaku-opt.webp",
@@ -336,6 +344,22 @@
             "sourceUrl": "/audio/songs/special/special-potato-salad.mp3",
             "coverUrl": "/images-opt/song-special-potato-salad-opt.webp",
             "duration": "00:43"
+        },
+        {
+            "title": "The Tale of A Humble Knight",
+            "info": "An orchestral theme by GoodBoyChend",
+            "originalUrl": "https://www.youtube.com/watch?v=n0DAcFYRNB4",
+            "sourceUrl": "/audio/songs/special/special-the-tale-of-a-humble-knight.mp3",
+            "coverUrl": "/images-opt/song-special-the-tale-of-a-humble-knight-opt.webp",
+            "duration": "02:23"
+        },
+        {
+            "title": "Boss of FaunaMart",
+            "info": "A parody song by Ano Yatsu",
+            "originalUrl": "https://www.youtube.com/watch?v=T7fHJcrmO0U",
+            "sourceUrl": "/audio/songs/special/special-boss-of-faunamart.mp3",
+            "coverUrl": "/images-opt/song-special-boss-of-faunamart-opt.webp",
+            "duration": "04:38"
         }
     ]
 }

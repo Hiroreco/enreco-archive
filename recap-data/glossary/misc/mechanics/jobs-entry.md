@@ -61,7 +61,7 @@ The more meals a chef prepared, the higher the level their cooking pot became. H
 
 #### Supplier
 
-**Occupants:** [Cecilia Immerkind](#entry:cecilia-entry), [Peasant Da Bae](#entry:bae-entry), [Tam Gandr](#entry:kronii-entry)
+**Occupants:** [Cecilia Immerkind](#entry:cecilia-entry), [Peasant The Bae](#entry:bae-entry), [Tam Gandr](#entry:kronii-entry)
 **Lead:** Foreman Kory
 
 Suppliers focused on resource collection through enchanted tools and a unique mining minigame.

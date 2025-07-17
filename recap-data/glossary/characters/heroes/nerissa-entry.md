@@ -1,7 +1,7 @@
-<!-- title: Nerissa Ravencroft -->
-<!-- quote: Oh where, oh where is my brave knight?-->
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- quote: Oh where, oh where is my brave knight? -->
 <!-- chapters: -1 -->
-<!-- images: (Nerissa's Chapter 1 Profile), (Nerissa in the "Start Again" MV), (Nerissa acivating her Revelation), (Nerissa's Chapter 2 Profile), (Nerissa turning against Fia in Chapter 2's Ending) -->
+<!-- images: (Nerissa's Chapter 1 Profile), (Nerissa in the "Start Again" MV), (Nerissa activating her Revelation), (Nerissa's Chapter 2 Profile), (Nerissa turning against Fia in Chapter 2's Ending) -->
 <!-- model: false -->
 
 ## Overview
@@ -9,7 +9,7 @@
 **Memories:** Not Recollected
 **Revelation:** [Resonant Strike](#entry:resonant-strike-entry)
 
-Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bloodflame Ravencroft (what a long name!) in Chapter 2, was a dedicated member of the Scarlet Wand- the guild of the knowledgeable or as the people in Libestal Ficta call it, the guild of witches. She has some sort of love-hate relationship with Lady Bloodflame which has not been resolved in Chapter One, and thus has been carried over in Chapter Two despite her memory loss.
+Nerissa Ravencroft—more precisely, Nerissa _Juliet_ Ravencroft—was a kind and hard-working maiden, always eager to lend a hand to those in need. She had a playful tendency to flirt, meaning every word, even if it was all wrapped in teasing banter. Yet her heart undeniably saved a special place for one particular scarlet knight, a bond that became the talk of the entire journey.
 
 ## Details
 
@@ -18,26 +18,58 @@ Nerissa Ravencroft, also known as Nerissa Pickles Mustard Linkin' Park Juliet Bl
 **Name:** Nerissa Ravencroft
 **Guild:** Scarlet Wand
 
-Woke up in a white room full of other human blocks. This was not your ordinary isekai story. Nerissa Ravencroft found herself caught up in a "new" world full of eccentricities and bizarre adventures. 
+Like many others, Nerissa’s story began in confusion—dazzled and unsure of her purpose. But she quickly found her footing and threw herself into her new life with remarkable zeal. Among them all, she might have been the most diligent—grinding quests, gathering materials, and, of course, making mountains of potato salad. It all led to her becoming the richest, most resourceful soul in the kingdom.
 
-Stains? King? Save the world?! It was all just too confusing and overwhelming. She couldn't even remember her past nor her name, and here she was delegated to save this strange land? Come to think of it, she couldn't even recall if she actually "accepted" the call that led her to be transported in the Kingdom of Libestal.
+And she didn’t do it to flaunt her wealth—though she’d admit her deep pockets felt good—but because she genuinely wanted to support those she loved. Her dedication was most clearly seen as FaunaMart’s number one (and only) employee. Nerissa respected the green CEO so much that she spent countless days gathering resources to build the shop, stock it, and watch over it when Fauna wasn’t around—even if that earned her a mental scar or two whenever a certain [feral pink doggo](https://www.youtube.com/live/5swK4fB2smo?t=1251) tried to chase her down for scamming.
 
-Regardless, here she was, thriving... and making tons of monies (she was still poor) through the quests she took on a daily basis. 
+More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=2806)
 
-Her interactions with the other heroes were quite "normal" except for a certain knight who claimed to be "monitoring" her. This fumbling warrior accused her of being a witch, and their conversations were nothing but flirting (just kiss already). [Spoiler: they actually did].
+Curiosity was also a defining trait; she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even [theorized](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=12299) early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
 
+Yet for all her maturity and responsibility, Nerissa’s composure often crumbled in matters of the heart. No, not in the many questionable polygamous ties she shared with four other women, but rather in her growing closeness with one particular scarlet knight: [Elizabeth Rose Bloodflame.](#entry:liz-entry)
 
+They began as strangers, then came curiosity. From that, playful exchanges, then teasing, misunderstandings, and chaos—at one point, even her “death” and ghostly revival—all colored by Nerissa’s admiration and respect. She delighted in flustering Elizabeth; the poor knight often branded Nerissa a witch, half in jest, half in exasperation.
 
+But beneath it all, their playful jabs turned genuine. Without either fully admitting it, something deep and unspoken blossomed between the blue and the red. An invisible thread tied them together.
+
+At the climax of their journey, when the kingdom fell to corruption, Nerissa herself succumbed. And who [saved](https://www.youtube.com/live/qdYQ5j-0sQI?si=W9a6h2OXmkOQk3JU&t=7287) her? None other than the shining knight in red. From that moment on, Nerissa knew: this one—this one was a keeper.
+
+---
 
 ### Chapter 2
 
-**Name:** Nerissa Ravencroft/ Mustard/ Pickles/ Linkin' Park/ Juliet Bloodflame/ Nerissa
+**Name:** Nerissa Juliet Ravencroft
 **Job:** Chef
 
-Nerissa began her Chapter 2 journey, again, with a blank slate. No memory of her own past or of others; in fact, she could not even recall even her own name. Thus, the quest for recollecting her memories began. She started off by asking her fellow heroes, if ever they were acquainted in the past. Such inquiry has been proved quite futile since most of those she asked could also not remember her or their own past selves.
+In Chapter 2, the blue maiden began once more with a blank slate. Her past was gone, her very name forgotten. So she set out searching for answers, asking her fellow heroes if they knew who she was. Most were just as lost as she was. All except, of course, Elizabeth Rose Bloodflame.
 
-Throughout Chapter 2, she has been a diligent and hard-working citizen. A multi-tasker, she was able to juggle in between her job as a chef and as a hero of Libestal, slaying cows... I mean, stains that casually attacked the city. Not to mention her addiction, err... rather, hobby of gambling and stalking Lady Bloodflame.
+Even with her memories in fragments, Nerissa’s diligence never wavered. She balanced her work as a devoted chef, crafting yet another mountain of potato salad, with her supposed role as a hero, all while getting caught up in the kingdom’s many antics. She even joined the so-called “Wolf Pack.”
 
-Eventually, she slowly remembered her past as well as the others'. She also recalled she was good friends (?) with Lady Bloodflame, however, could not understand why the Lady Knight accused her of being a witch even in the previous life despite their intimate (?) relationship. Did she do something wrong to her? That she couldn't remember yet? At any rate, this accusation has led her to believe that perhaps she was indeed a witch and so decided to actually become one. Towards the end, she turned and yielded to the dark side forming an allegiance with her fellow witches, Shiori of the Nyavella, Stain Princess Bijou, and the Fuzzy ann Fluffy doggos Fuwawa and Mococo.
+Her boundless curiosity stayed with her. Once again, she explored nearly every corner of the kingdom, read through the library’s countless tales, and uncovered stories others overlooked.
+
+Bit by bit, her [memories](https://www.youtube.com/live/5sWjzbacGUY?si=KUn5fSB0crLgmamn&t=12079) returned. They were hazy, but they were hers—precious glimpses of who she was and what had shaped her. She longed to cherish them all: the Scarlet Wand, the corruption, the moments of joy, and the depths of pain.
+
+Above all, she yearned for her name. Early in her journey, she asked, “Who am I?”
+It was Elizabeth who answered her, without teasing or nicknames.
+
+> “Nerissa Ravencroft. Or you also called yourself ‘Juliet,’ I guess.”
+
+It sounded [right.](https://www.youtube.com/live/XfZh_3xb7i0?si=xVwBE_o5TFb2HfsC&t=5287) Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
+
+From then on, she sought out Elizabeth’s company even more. They sparred, exchanged gifts, placed their portraits side by side, and shared the same roof. Elizabeth didn’t push her away; she smiled, [bonded](https://www.youtube.com/live/vMdhvi8dHN4?si=JeT3qPPFMnB0yoCr&t=6692) with Nerissa, and seemed to genuinely enjoy it. Even calling her a “witch” was now done with playful affection.
+
+It was bliss, and Nerissa wanted more.
+
+Then something inside her cracked.
+
+A misunderstanding on the fifth day led Nerissa to believe Elizabeth hated her. It crushed her, stirring something deep inside, a painful clarity of just how important the scarlet knight truly was to her. Even after the confusion was cleared up, Nerissa’s fixation only grew deeper. Every thought [revolved](https://www.youtube.com/live/MXqotm_8_Hc?si=owgU25DUzPfslUZl&t=1192) around Elizabeth. Her tone changed, her eyes never strayed from the knight. She wanted Elizabeth completely. It was as if a sea of blue was closing in around a fragile red flame. A chilling aura settled around Nerissa. She would not, could not, ever forget Elizabeth again.
+
+By the journey’s end, Nerissa, along with Fuwawa, Mococo, Bijou, and Shiori, chose to reject Fia’s plea and carve their own path, setting themselves against the other heroes. How Elizabeth might react, and whether their fragile, growing bond could survive this choice, only time would tell.
+
+## Trivia
+
+- In Chapter 1, Nerissa was the only person to amass over 50,000 coins on her own, making her the richest individual in the entire kingdom.
+- In Chapter 2, Nerissa nearly gave up her work as a chef because no one was buying her food.
+- (Out of character) During a Chapter 2 post-analysis stream, Nerissa expressed that she would like to be called Nerissa Juliet Ravencroft within the ENreco universe, to distinguish herself from _the_ Nerissa Ravencroft.
 
 [neri](#easter:easter-nerissa)
