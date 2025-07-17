@@ -1,5 +1,5 @@
 <!-- title: Peasant The Bae -->
-<!-- quote: No, this is in fact *not* your child. *This* is your child! -->
+<!-- quote: No, this is in fact **not** your child. **This** is your child! -->
 <!-- chapters: -1 -->
 <!-- images: (Bae's Chapter 1 Profile), (Bae in the mines), (Bae's Chapter 2 Profile), (Bae's card in the "Monster" MV), (Bae's box being stolen), (Bae in Chapter 2's Ending) -->
 <!-- model: false -->

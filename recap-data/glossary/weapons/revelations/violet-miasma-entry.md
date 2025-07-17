@@ -1,5 +1,5 @@
 <!-- title: Violet Miasma -->
-<!-- quote: *Giggles cutely and proceeds to decimate her enemies* -->
+<!-- quote: **Giggles cutely and proceeds to decimate her enemies** -->
 <!-- chapters: -1 -->
 <!-- images: (Ina's first time wielding the book), (The book viewed from the inventory), (Ina activating the book's ability) -->
 <!-- model: true -->

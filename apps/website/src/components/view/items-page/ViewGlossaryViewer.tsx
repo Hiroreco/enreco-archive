@@ -84,9 +84,13 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 <span className="font-semibold text-center">
                                     Quote
                                 </span>
-                                <span className="italic text-center text-muted-foreground text-sm">
-                                    “{entry.item.quote}”
-                                </span>
+                                <ViewMarkdown
+                                    className="italic text-center text-muted-foreground text-sm"
+                                    onNodeLinkClicked={() => {}}
+                                    onEdgeLinkClicked={() => {}}
+                                >
+                                    {`“${entry.item.quote || ""}”`}
+                                </ViewMarkdown>
                             </p>
                         </div>
                     </div>
