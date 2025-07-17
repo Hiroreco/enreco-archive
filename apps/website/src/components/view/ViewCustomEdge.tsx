@@ -8,6 +8,7 @@ import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 const ViewCustomEdge = ({
     id,
+    style,
     data,
     selectable,
     sourceX,
@@ -128,6 +129,7 @@ const ViewCustomEdge = ({
                 d={path}
                 style={{
                     ...relationshipStyle,
+                    ...style,
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
                     zIndex: 0,
                 }}
@@ -137,6 +139,21 @@ const ViewCustomEdge = ({
                 })}
                 mask={isNewlyAdded ? `url(#${maskId})` : undefined}
             />
+
+            {selected && (
+                <path
+                    d={path}
+                    stroke="white"
+                    strokeWidth={9}
+                    strokeLinecap="round"
+                    fill="none"
+                    className="running-light"
+                    style={{
+                        zIndex: 10,
+                        filter: "drop-shadow(0 0 3px rgba(255,255,255,0.7))",
+                    }}
+                />
+            )}
         </g>
     );
 };
