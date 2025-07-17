@@ -20,7 +20,7 @@ The Cliffs of Sidero were once the site of an ancient expedition led by an explo
 
 - [Read "Fia"](#text:fia)
 - [Read "Libestal Ficta"](#text:libestal-ficta)
-- [Read "libestal"](#text:libestal)
+- [Read "Libestal"](#text:libestal)
 - [Read "The Outsider"](#text:the-outsider)
 - [Read "The Library"](#text:the-library)
 

@@ -1,14 +1,14 @@
-<!-- title: The Ritual -->
+<!-- title: The Mystery of the Cursed Tome -->
 <!-- quote: Get the order correct, and the ritual succeeds! -->
 <!-- chapters: 1 -->
-<!-- images: (Venue where the Ritual took place)-->
+<!-- images: (Venue where the quest took place)-->
 <!-- model: false -->
 
 ## Overview
 
 **Day Unlocked:** Day 6
 
-**"The Ritual"** was a unique quest assigned to the heroes, deviating from their usual dungeon investigations. Their new task was to perform a "ritual" to purify a book essential for the next stage of their journey.
+**"The Mystery of the Cursed Tome"** was a unique quest assigned to the heroes, deviating from their usual dungeon investigations. Their new task was to perform a "ritual" to purify a book essential for the next stage of their journey.
 
 ## Details
 

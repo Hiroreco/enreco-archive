@@ -1,5 +1,5 @@
 <!-- title: Stronghold of Ruin -->
-<!-- quote: If Iphania trusts you, perhaps you stand a chance -->
+<!-- quote: If Iphania trusts you, perhaps you stand a chance. -->
 <!-- chapters: 1 -->
 <!-- images: (Stronghold of Ruin Overview #1), (Stronghold of Ruin Overview #2), (Stronghold of Ruin Overview #3), (Dungeon Boss: Stain King Proto) -->
 <!-- model: false -->
@@ -29,13 +29,14 @@ The dungeon began with a gauntlet of [stain-filled arenas](https://www.youtube.c
 Next, the party encountered artifacts represented as black roses. To advance, they had to destroy these roses, but first, the heroes needed to solve puzzles:
 
 - One puzzle involved a series of [math problems](https://www.youtube.com/live/EKjcWfEGsB0?si=kbaxo2QGrPfrE5La&t=2999).
-- Another required solving a sequence [memory lock](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892).
+- Another required solving a sequence [memory lock](https://www.youtube.com/live/Icdii90_vSA?si=5xbkuHBq09Pawbcj&t=16232).
+- The final puzzle was a pair [matching lock](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892).
 
 All the while, stains continued to spawn endlessly, making puzzle-solving a frantic and dangerous task until all the black roses were destroyed.
 
 **Intermission**
 
-As they progressed, the heroes entered a quiet but eerie library, where they discovered a riddle etched into a hidden corner of the room:
+As they progressed, the heroes entered a quiet but eerie library, where they discovered a riddle etched into a book among the numerous bookshelves in the room:
 
 > _"The heart is distant, under lock and key
 > And hides in corners far from enemy."_
@@ -44,7 +45,7 @@ As they progressed, the heroes entered a quiet but eerie library, where they dis
 
 The final room housed **Stain King Proto**, who guarded a crystal linked to something greater—the [Heart of Ruin](#entry:heart-of-ruin-entry), an as-yet unrevealed location that would eventually come into play.
 
-The arena was surrounded by four more black roses, one in each corner, each protected by the same types of puzzles encountered earlier (math and memory). Only after the roses were destroyed could the chest containing the music disc be accessed post-battle.
+The arena was surrounded by four more black roses, one in each corner, each protected by the same types of puzzles encountered earlier (math, memory, and matching). Only after the roses were destroyed could the chest containing the music disc be accessed post-battle.
 
 [Stain King Proto Fight](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=ySvBC15UpSUDHK4E&t=2203)
 

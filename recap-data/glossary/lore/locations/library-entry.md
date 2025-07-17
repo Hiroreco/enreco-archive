@@ -35,7 +35,7 @@ Contained records on major figures and the overarching history of the kingdom of
 
 [Read "Fia"](#text:fia)
 [Read "Libestal Ficta"](#text:libestal-ficta)
-[Read "libestal"](#text:libestal)
+[Read "Libestal"](#text:libestal)
 [Read "The Outsider"](#text:the-outsider)
 [Read "The Library"](#text:the-library)
 
@@ -50,7 +50,7 @@ As described by the Princess, this book knew all and revealed all. It didn’t s
 [Read "Book of Prophecies 2:29"](#text:book-of-prophecies-2-29)
 
 #### Explorer's Journal
-The diary of an ancient explorer who, long before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.
+The diary of an explorer who, before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.
 
 [Read "Explorer's Journal #1"](#text:explorers-journal-1)
 [Read "Explorer's Journal #2"](#text:explorers-journal-2)

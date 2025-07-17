@@ -1,5 +1,5 @@
 <!-- title: Heart of Ruin -->
-<!-- quote: They brought this upon themselves—Nothing stays pure -->
+<!-- quote: They brought this upon themselves—Nothing stays pure. -->
 <!-- chapters: 1 -->
 <!-- images: (Heart of Ruin Overview #1), (Heart of Ruin Overview #2), (Heart of Ruin Overview #3), (Heart of Ruin Concept Art #1), (Heart of Ruin Concept Art #2), (Heart of Ruin Concept Art #3), (Dungeon Boss: The Curse) -->
 <!-- model: false -->
@@ -30,13 +30,13 @@ Within this first library was a book titled _“Prelude of Ruin,”_ hinting at 
 
 [Read "Prelude of Ruin"](#text:prelude-of-ruin)
 
-Progressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains. Each victory built up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by trap-laden terrain and attacks from their cursed allies, which drained the energy meter and delayed their rescue.
+Progressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains. Each victory built up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by attacks and traps from their cursed allies, which drained the energy meter and delayed their rescue.
 
 Only once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250) and return to the group.
 
 #### The Final Battle
 
-Deeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former King and Queen, as well as the source behind their downfall.
+Deeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former Queen and the kingdom as well as the source behind their downfall.
 
 [Read "Song of Ruin"](#text:song-of-ruin)
 

@@ -1,5 +1,5 @@
 <!-- title: Volcano Dungeon -->
-<!-- quote: It seems that I've been reduced to a fast-food chain owner -->
+<!-- quote: It seems that I've been reduced to a fast-food chain owner. -->
 <!-- chapters: 0 -->
 <!-- images: (Volcano Dungeon's Entrance Overview #1), (Volcano Dungeon's Entrance Overview #2), (Volcano Dungeon Overview #1), (Volcano Dungeon Overview #2), (Volcano Dungeon Overview #3), (Volcano Dungeon Overview #4), (Volcano Dungeon Concept Art), (They all tried to swim in lava), (Heroes Exploring The Dungeon), (Boss Fight Statue) -->
 <!-- model: false -->

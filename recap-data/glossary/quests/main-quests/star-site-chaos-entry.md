@@ -28,7 +28,7 @@ Players must defeat as many Stains as possible while [the floor](https://www.you
 **Balloon Pop**
 Players are given [colored balls](https://www.youtube.com/live/L7rBGepFrXA?si=ZN4CDNF33MknO8Qa&t=8297) and must match them to the corresponding colored balloons, popping as many as possible before time runs out.
 
-**Blind Round**
+**Blink Bound**
 Players must [push a button](https://www.youtube.com/live/L7rBGepFrXA?si=byW4Jzn2G2E6zxj2&t=8083) across a pit by using platforms that appear and disappear in intervals. The more presses within the time limit, the better the score.
 
 **Boss Room?**

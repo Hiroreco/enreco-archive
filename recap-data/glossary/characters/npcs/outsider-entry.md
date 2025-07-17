@@ -14,7 +14,7 @@ The Outsider was the one who first summoned all the heroes to the fabricated [Ki
 
 Nineteen heroes were summoned to the Kingdom of Libestal by its seemingly kind and gentle ruler. The king pleaded for their strength to save his realm from the growing threat of the Stains. His demeanor was compassionate, his motives appeared noble—and it was all a lie.
 
-After the defeat of the Stain King, the monarch revealed his true identity. The so-called calamity had been orchestrated by him, and by defeating it, the heroes had unknowingly broken the seals on his prison. No longer bound, he shed his disguise and revealed his true form—**The Captive** (later known as **the Outsider**).
+After the defeat of the Stain King, the monarch revealed his true identity. Again and again, he was forced to witness the world's destruction, powerless to escape. It was only by summoning the heroes that he finally shattered this cycle, breaking the seals on his prison. Freed at last, he cast aside his disguise and revealed his true form—**The Captive** (later known as **the Outsider**).
 
 His intent was clear: to destroy all of existence as retribution for his imprisonment. But through the combined efforts of the heroes, he was ultimately struck down. However, as he fell, the very world began to collapse into the void. In the final moments, a mysterious entity intervened, pulling the heroes from the brink of annihilation.
 
@@ -39,8 +39,10 @@ For this defiance, he was punished by the _Higher Being_—imprisoned for eterni
 
 #### The Price for Defying Fate
 
-After learning his fate and seeing the strength of the heroes firsthand, the Outlander relinquished his role. Trusting them with the task of saving the world, he stepped back. And they succeeded, slaying [the Curse](#entry:heart-of-ruin-entry), destroying the Heart of Ruin, and restoring peace.
+After learning his fate and seeing the strength of the heroes firsthand, the Outlander relinquished his role. Trusting them with the task of saving the world, he stepped back. 
 
-But fate, it seemed, was not so easily undone. In a cruel twist, the Curse reemerged in its final moments and struck down Princess Iphania. The Outlander, devastated by grief, faced judgment once again. The mysterious Higher Being, who had been watching from beyond, declared that his betrayal of the Collective was irreversible. Imprisonment awaited him still. The cycle could not be broken—the Outsider would still be born.
+Yet, when the Curse reemerged in its final moments and struck down Princess Iphania, the Outlander intervened—arriving on the scene and attacking the Curse directly. This act, striking down a fellow member of the Collective, was the betrayal that angered the Higher Being. Though the heroes succeeded in destroying the Heart of Ruin and restoring peace, the Outlander's defiance could not be forgiven.
+
+Devastated by grief, the Outlander faced judgment once again. The mysterious Higher Being, who had been watching from beyond, declared that his betrayal of the Collective was irreversible. Imprisonment awaited him still. The cycle could not be broken—the Outsider would still be born.
 
 Now, with the universe at stake and the truth of the past fully unveiled, the heroes must face their greatest challenge yet: stopping the Outsider once and for all.

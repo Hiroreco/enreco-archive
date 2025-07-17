@@ -32,11 +32,11 @@ A maze with [moving walls](https://www.youtube.com/live/YVyeKQ-6Ka8?si=uw5ysU_bC
 
 **Third Puzzle**
 
-Set inside a clock tower, this room features [four mirrors](https://www.youtube.com/live/YVyeKQ-6Ka8?si=9ipSXdXbJZx-cklg&t=1222) mounted on pillars. When play is pressed, the timer block emits a beam of light that can be paused in midair. By rotating and angling the mirrors, the team must reflect the light to hit a target tile above the door to progress. Pausing and restarting the light beam is essential to success.
+Set inside a clock tower, this room features [four angled mirrors](https://www.youtube.com/live/YVyeKQ-6Ka8?si=9ipSXdXbJZx-cklg&t=1222) mounted on pillars. When play is pressed, the timer block emits a beam of light that can be paused in midair. By sliding the pillars, the team must reflect the light to hit a target tile above the door to progress. Pausing and restarting the light beam is essential to success.
 
 **Fourth Puzzle**
 
-Higher in the clocktower is a [colored wall maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850): six different colored walls can be raised by pressing corresponding buttons. These walls reset when the timer ends, and the timer block allows pausing and playing. The group must first locate a vine that leads above the walls and then raise the correct walls to reach the exit.
+Higher in the clocktower is a [colored wall maze](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850): six different colored walls can be raised by pressing corresponding buttons. Depending on when in the 10 second window the button is pressed, the wall will end up at a different height. Players have to correctly time the walls so that they can get under them on the lower floor but not block their path on the upper floor. Like the other puzzles the timer block allows for pausing and playing.
 
 Exploration here also reveals secret cracked blocks—when the green wall is raised, players can break through the cracks to unlock a shortcut back to the mirror room. Using the mirrors and pillars again allows traversal to another breakable wall, hiding a chest with the dungeon's music disc.
 
@@ -54,7 +54,7 @@ This final puzzle tests everything learned in the dungeon: logic, timing, teamwo
 
 The boss fight cleverly incorporates the time gimmick. Chronos summons pillars with numbers on top, and players must set the timer block to the matching number in order to destroy the pillar and make the boss vulnerable.
 
-Chronos can also rewind its own health bar, healing back damage taken, forcing players to act quickly and precisely to avoid wasting time or effort.
+Chronos can also rewind its own health bar, healing back damage taken, forcing players to essentially redo the fight.
 
 [Stain King Chronos Fight](#embed:https://www.youtube.com/live/YVyeKQ-6Ka8?si=DutQY97bg-9L372Q&t=3734)
 

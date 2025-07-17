@@ -1,5 +1,5 @@
 <!-- title: Stains and Corruption -->
-<!-- quote: They brought this upon themselves—Nothing stays pure. -->
+<!-- quote: Usually strangers don't walk into your room and start hitting you. -->
 <!-- chapters: -1 -->
 <!-- images: (Stains Overview #1), (Stains Overview #2), (Stains Concept Art), (Stains in The Chapter 1 Trailer) --->
 <!-- model: false -->

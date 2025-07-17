@@ -20,7 +20,7 @@ Each side consisted of a long corridor filled with challenges, paralleling each 
 
 ### Puzzles
 
-Designed for a group of four, the dungeon splits the party into two teams, the **Angelic Side** and the **Demonic Side**, who must cooperate to solve a series of puzzles in order to progress.
+Designed for at least two people, the dungeon splits the party into two teams, the **Angelic Side** and the **Demonic Side**, who must cooperate to solve a series of puzzles in order to progress.
 
 **First Puzzle**
 
@@ -36,7 +36,7 @@ The Angelic Side is given a [movable block](https://www.youtube.com/live/axlJjQQ
 
 **Third Puzzle**
 
-Now floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273) their way through it. The Demonic Side assists by standing on specific [floor tiles](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227), which create temporary platforms to help their teammates across.
+Now floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273) their way through it. The Demonic Side assists by standing on a large [flat area](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227) where stains spawn. The positions of the players on the demonic side correspond to a position on the angelic side represented as a floating platform.
 
 After completing the final puzzle, both teams reunite to face the dungeon boss, **Stain King Elpis**, a two-headed dragon.
 
