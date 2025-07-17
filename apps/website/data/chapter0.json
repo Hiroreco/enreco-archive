@@ -473,9 +473,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "King Killer",
@@ -492,9 +489,6 @@
           "sourceHandle": "top-3",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Red and Blue",
@@ -511,9 +505,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c65cff"
-          },
           "data": {
             "relationshipId": "big-pink-cat",
             "title": "Catlady",
@@ -530,9 +521,6 @@
           "sourceHandle": "top-3",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Guess I'm Queen Now",
@@ -549,9 +537,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "By Your Side",
@@ -568,9 +553,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "You're the Queen!",
@@ -587,9 +569,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Friends (?)",
@@ -606,9 +585,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Say My Name",
@@ -1052,9 +1028,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "My Pearl!",
@@ -1071,9 +1044,6 @@
           "sourceHandle": "top-3",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Some Queen, Eh?",
@@ -1090,9 +1060,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Fake Queen",
@@ -1116,9 +1083,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#709b9e"
-          },
           "data": {
             "relationshipId": "related",
             "title": "Same But Different",
@@ -1135,9 +1099,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Eternal Consort",
@@ -1154,9 +1115,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Seeds and Eggs",
@@ -1173,9 +1131,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#5f0066"
-          },
           "data": {
             "relationshipId": "backup-plan",
             "title": "Plan B",
@@ -1192,9 +1147,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Shady Business",
@@ -1218,9 +1170,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Keeping Company",
@@ -1237,9 +1186,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Double Agent",
@@ -1256,10 +1202,6 @@
           "sourceHandle": "top-3",
           "targetHandle": "left-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "Unrequited Love",
@@ -1559,9 +1501,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Safe Journey",
@@ -1578,9 +1517,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Annoying Cat",
@@ -1604,9 +1540,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Soap Opera",
@@ -1623,9 +1556,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "She's a Witch",
@@ -1642,10 +1572,6 @@
           "sourceHandle": "right-3",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Beautiful Maiden",
@@ -1662,9 +1588,6 @@
           "sourceHandle": "top-4",
           "targetHandle": "left-4",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Fake Honkers",
@@ -1681,9 +1604,6 @@
           "sourceHandle": "bottom-3",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Impromptu Adoption",
@@ -2059,10 +1979,6 @@
           "sourceHandle": "right-3",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Heartbroken",
@@ -2079,9 +1995,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Little Gnome Boy",
@@ -2098,9 +2011,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Mommy!",
@@ -2117,9 +2027,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "The Royal Protector",
@@ -2143,9 +2050,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Lottery Fiasco",
@@ -2162,9 +2066,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "First Employee",
@@ -2493,9 +2394,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#5f0066"
-          },
           "data": {
             "relationshipId": "backup-plan",
             "title": "My Chicken Farm",
@@ -2512,10 +2410,6 @@
           "sourceHandle": "right-3",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Bloodraven",
@@ -2532,9 +2426,6 @@
           "sourceHandle": "top-4",
           "targetHandle": "left-4",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Enemies to Lovers?",
@@ -2551,9 +2442,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "A Failed Coup",
@@ -2577,9 +2465,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "A Resolution",
@@ -2596,9 +2481,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Better Call Cecilia",
@@ -2615,10 +2497,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "For My Collection",
@@ -2635,9 +2513,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Side Chick No.4",
@@ -2654,9 +2529,6 @@
           "sourceHandle": "right-4",
           "targetHandle": "top-0",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Sidechick No.3",
@@ -2673,9 +2545,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Side Chick No.2",
@@ -2882,9 +2751,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "A Knight's Tale",
@@ -2901,10 +2767,6 @@
           "sourceHandle": "right-3",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "I'm Pregnant!",
@@ -2921,9 +2783,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Unexpected Alliance",
@@ -2947,9 +2806,6 @@
           "sourceHandle": "bottom-3",
           "targetHandle": "top-0",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Sisters",
@@ -2973,10 +2829,6 @@
           "sourceHandle": "top-3",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#2b65ee",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "The Oranges",
@@ -3237,9 +3089,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Enemies to Lovers",
@@ -3263,9 +3112,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "right-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Green and Orange",
@@ -3289,9 +3135,6 @@
           "sourceHandle": "bottom-0",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Friends from Business",
@@ -3735,9 +3578,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "A Knight's Wish",
@@ -3754,9 +3594,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Keeping My Promise",
@@ -3773,9 +3610,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Forever My Consort",
@@ -3792,9 +3626,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "Divorce No.1",
@@ -3811,9 +3642,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "Non-Traditional Relation",
@@ -3830,9 +3658,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Always There",
@@ -3849,10 +3674,6 @@
           "sourceHandle": "right-3",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 10"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Start Again",
@@ -3869,9 +3690,6 @@
           "sourceHandle": "top-4",
           "targetHandle": "left-4",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "Divorce No.3",
@@ -3888,9 +3706,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#65a046"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Mission Success?",
@@ -3914,9 +3729,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "My Money",
@@ -3940,9 +3752,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "Divorce No.2",
@@ -3959,9 +3768,6 @@
           "sourceHandle": "bottom-3",
           "targetHandle": "top-0",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Wooden Shovel",
@@ -3985,9 +3791,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "right-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Mysterious Messages",
@@ -4011,9 +3814,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Deal of the Century",
@@ -4037,9 +3837,6 @@
           "sourceHandle": "right-1",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Mother?",
@@ -4056,9 +3853,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Pure Spite",
@@ -4082,9 +3876,6 @@
           "sourceHandle": "bottom-0",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "Oh, She Forgot...",

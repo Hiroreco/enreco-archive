@@ -18,7 +18,6 @@ import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import { useShallow } from "zustand/react/shallow";
 
 const data: SiteData = {
     version: siteMeta.version,
@@ -37,9 +36,8 @@ export const ViewAppWrapper = () => {
     const useDarkMode = useLightDarkModeSwitcher(themeType);
 
     const [appType, setAppType] = useState<AppType>("chart");
-    const [chapter, currentCard] = useViewStore(
-        useShallow((state) => [state.data.chapter, state.ui.currentCard]),
-    );
+    const chapter = useViewStore((state) => state.data.chapter);
+    const currentCard = useViewStore((state) => state.ui.currentCard);
 
     const chapterData = data.chapters[chapter];
 

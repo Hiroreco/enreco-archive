@@ -8,35 +8,26 @@ import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import { Dice6, Info, Settings, Disc3 } from "lucide-react";
-import { useShallow } from "zustand/react/shallow";
+import { Dice6, Disc3, Info, Settings } from "lucide-react";
 
 interface ViewItemsAppProps {
     bgImage: string;
 }
 
 const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
-    const [isMusicModalOpen, setIsMusicModalOpen] = useMusicPlayerStore(
-        useShallow((state) => [state.isOpen, state.setIsOpen]),
-    );
+    const isMusicModalOpen = useMusicPlayerStore((state) => state.isOpen);
+    const setIsMusicModalOpen = useMusicPlayerStore((state) => state.setIsOpen);
 
-    const [
-        openModal,
-        openInfoModal,
-        openSettingsModal,
-        openMinigameModal,
-        closeModal,
-        videoUrl,
-    ] = useViewStore(
-        useShallow((state) => [
-            state.modal.openModal,
-            state.modal.openInfoModal,
-            state.modal.openSettingsModal,
-            state.modal.openMinigameModal,
-            state.modal.closeModal,
-            state.modal.videoUrl,
-        ]),
+    const openModal = useViewStore((state) => state.modal.openModal);
+    const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
+    const openSettingsModal = useViewStore(
+        (state) => state.modal.openSettingsModal,
     );
+    const openMinigameModal = useViewStore(
+        (state) => state.modal.openMinigameModal,
+    );
+    const closeModal = useViewStore((state) => state.modal.closeModal);
+    const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">

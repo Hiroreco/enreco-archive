@@ -429,9 +429,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "I Met My Ex-Wife in Libestal But We Both Forgot Our Memories",
@@ -455,9 +452,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ec1380"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Consort, Again",
@@ -481,10 +475,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "She's Jesting, Right?",
@@ -508,10 +498,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Timmy and Pinky",
@@ -535,10 +521,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7b00",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "dawg",
             "title": "My Dawg",
@@ -562,9 +544,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Enemy",
@@ -588,9 +567,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Can He Fix Her?",
@@ -614,9 +590,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "A Sense Of Loyalty",
@@ -640,9 +613,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#06a84b"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Vow",
@@ -666,9 +636,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Huh Puh",
@@ -692,9 +659,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Long Lost Sisters",
@@ -718,9 +682,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#06a84b"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Knight in Any Universe",
@@ -744,9 +705,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Forget and Forgive",
@@ -770,10 +728,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7b00",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "dawg",
             "title": "Up Dog",
@@ -797,9 +751,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Cousins",
@@ -823,9 +774,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Onii-chan",
@@ -1248,9 +1196,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "Two Steps Forward, One Drunk Leap Off The Cliff",
@@ -1274,9 +1219,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff7ae2"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "Married, Again",
@@ -1300,10 +1242,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "The Fumbler",
@@ -1327,10 +1265,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "After Hours Flirting",
@@ -1354,9 +1288,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "The Knight and the Hobo",
@@ -1380,9 +1311,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Classists",
@@ -1406,9 +1334,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Marillenknödel and Roses",
@@ -1432,9 +1357,6 @@
           "sourceHandle": "left-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Pink Union",
@@ -1458,9 +1380,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Please Leave Me Alone",
@@ -1484,9 +1403,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Chef Union",
@@ -1510,9 +1426,6 @@
           "sourceHandle": "left-1",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "Are You Okay?",
@@ -1866,10 +1779,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Strawberry Red",
@@ -1893,10 +1802,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Is This Jealousy?",
@@ -1920,9 +1825,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "Animals",
@@ -1946,10 +1848,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "The Diamond and the Black Pearl",
@@ -1973,9 +1871,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "A Ship Sunken, A Pack Expanded",
@@ -1999,10 +1894,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#4f80f0",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "My Princess...",
@@ -2026,9 +1917,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "Potential Cult",
@@ -2052,9 +1940,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "Wolves Before Harlots",
@@ -2078,10 +1963,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Still Siblings Right?",
@@ -2105,9 +1986,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Birthday Girl",
@@ -2131,9 +2009,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "A One-Sided Rivalry, a Two-Sided Contract",
@@ -2157,9 +2032,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Sugar Phoenix",
@@ -2183,9 +2055,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "The Next Step",
@@ -2209,9 +2078,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "left-0",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "The Finest PP and Hole Around!",
@@ -2627,10 +2493,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Frame by Frame",
@@ -2654,10 +2516,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Tyrannical Ruler",
@@ -2681,9 +2539,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "A Powerful Dynamic",
@@ -2707,9 +2562,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "The Witch’s Trials",
@@ -2733,9 +2585,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#afc0ca"
-          },
           "data": {
             "relationshipId": "knight",
             "title": "The Queen’s Gambit",
@@ -2759,10 +2608,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#4f80f0",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "One And Only",
@@ -2786,9 +2631,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Wooden Potato",
@@ -2812,9 +2654,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "The Kind and the Humble Knight",
@@ -2838,10 +2677,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "bottom-4",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Severed, but Still There",
@@ -2865,9 +2700,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Not Again...",
@@ -2891,9 +2723,6 @@
           "sourceHandle": "right-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "Drinks Between Queen and Knight",
@@ -2910,9 +2739,6 @@
           "sourceHandle": "right-1",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "New Pup in the Wolf Pack",
@@ -2936,9 +2762,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "left-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "A Rock and a Hard Place",
@@ -2962,7 +2785,6 @@
           "sourceHandle": "bottom-3",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {},
           "data": {
             "relationshipId": "protector",
             "title": "For Those Working Hard",
@@ -3362,10 +3184,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Doomed Yuri",
@@ -3389,10 +3207,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Abdomen Pain",
@@ -3416,9 +3230,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "Confidently Confidential",
@@ -3442,9 +3253,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "The Witch and Her Fumbling Knight",
@@ -3468,9 +3276,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#afc0ca"
-          },
           "data": {
             "relationshipId": "knight",
             "title": "The Sham Queen’s Sacrifice",
@@ -3494,9 +3299,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#8f6d2d"
-          },
           "data": {
             "relationshipId": "guard-dog",
             "title": "No Goddesses or Queens, Only Grems",
@@ -3520,9 +3322,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "left-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "Good Neighbors",
@@ -3546,9 +3345,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "Family Broken, Found, and Resolved",
@@ -3572,10 +3368,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#000080",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "maid",
             "title": "That One Time the Queen was Sent To Another World and is Now Suddenly a Maid for a Goddess and Cat",
@@ -3599,9 +3391,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "Love Thy Neighbor",
@@ -3625,9 +3414,6 @@
           "sourceHandle": "top-3",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#375aa0"
-          },
           "data": {
             "relationshipId": "family",
             "title": "CHAOS'S KHAOS",
@@ -3651,9 +3437,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "right-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "A Friend in Need is a Friend Indeed",
@@ -3677,9 +3460,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "Honor and Justice",
@@ -3703,10 +3483,6 @@
           "sourceHandle": "right-1",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#4f80f0",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "Who's a Pretty Kitty, You Are!",
@@ -4014,10 +3790,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ff94d8",
-            "strokeDasharray": "10, 20"
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Paper-Thin",
@@ -4041,9 +3813,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "A Memory for a Memory, a Pearl for a Pearl",
@@ -4067,9 +3836,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#afc0ca"
-          },
           "data": {
             "relationshipId": "knight",
             "title": "Passed Pawn",
@@ -4093,10 +3859,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#4f80f0",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "A Knight's Love",
@@ -4120,9 +3882,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#06a84b"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Emotional Support Chibi-Hime",
@@ -4146,9 +3905,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "The Knight at Home with the Wolves",
@@ -4172,9 +3928,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "The Knights’ Heartache",
@@ -4198,10 +3951,6 @@
           "sourceHandle": "right-1",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#4f80f0",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "Roa's Not-Beach Day Episode!",
@@ -4225,9 +3974,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "The Archiver's Truth. The Queen-Knight's Scarlet Denial",
@@ -4251,9 +3997,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "I Like Potatoes, I Don't Like Tomatoes",
@@ -4722,9 +4465,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#1a1a1a"
-          },
           "data": {
             "relationshipId": "no-longer-together",
             "title": "Turning To Another",
@@ -4748,10 +4488,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ffbde7",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Forgive or Forget",
@@ -4775,9 +4511,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "The Audacity",
@@ -4801,9 +4534,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "bottom-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#c56034"
-          },
           "data": {
             "relationshipId": "the-wolf-pack",
             "title": "Miscommunication and Heavy Hearts",
@@ -4827,9 +4557,6 @@
           "sourceHandle": "bottom-2",
           "targetHandle": "top-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "A Bridge Too Far",
@@ -4853,9 +4580,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "The Moon Sets so the Sun May Rise",
@@ -4879,9 +4603,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#afc0ca"
-          },
           "data": {
             "relationshipId": "knight",
             "title": "Immortal Game",
@@ -4905,9 +4626,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#06a84b"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "Loyal Knight's Vow",
@@ -4931,9 +4649,6 @@
           "sourceHandle": "bottom-1",
           "targetHandle": "top-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#e30d0d"
-          },
           "data": {
             "relationshipId": "enemy",
             "title": "Even Gods Can Bleed",
@@ -4957,9 +4672,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "Joyous Time",
@@ -4983,13 +4695,10 @@
           "sourceHandle": "top-1",
           "targetHandle": "left-0",
           "type": "fixed",
-          "style": {
-            "stroke": "#79b3c8"
-          },
           "data": {
             "relationshipId": "business",
             "title": "A Bromance of Eternity Borne Under the Light of the New Moon",
-            "content": "A true knight never forgets her oaths, and for Gonathon G, not the end of the world nor her aching heart would keep her from fulfilling her promise to Peasant the Bae: to attempt to sway the delusional Immerkind's heart (see [Bae-Cecilia: A Bridge to Far](#edge:cecilia-bae)). Luring Immerkind to the fated bridge, the humble knight left the peasant to make her heartfelt plea. \n\nAlas, it was not to be, for the zealous green one was dead set on remaining in the past (see [Cecilia-Iphania: Loyal Knight's Vow](#edge:cecilia-iphania)). While she gave Bae the consolation that she would look for her in the future, this meager offering did little to mend Bae's heart, and the distraught peasant turned to [the embrace of the ocean's abyss](https://youtu.be/Br6dvhVJ_IE?t=4887). Leaping into action, Gonathon begged Bae to reconsider, and in between many bouts of kissing the depths together, Gonathon implored Bae to choose life, for as one whom love had also cursed, she knew all too well the pain of losing it.\n\nShocked and humbled by Gonathon's display of sacrifice all for her own sake, Bae finally came to an epiphany: that it was not romantic love that she would live for, but her children and her happiness. Most of all, she now knew she would not be alone in this quest; she had something far more valuable than a maiden to whisper her sweet nothings: a brother, one who would stand by her to the ends of the earth itself. [Bae bequeathed the flowers](https://youtu.be/Br6dvhVJ_IE?t=5214) once meant for Immerkind to Gonathon, and the two exchanged a hearty, manly handshake. They vowed that no matter what, they would always be there for one another, as true brothers. \n\nSome time later, [Gonathon paid a visit to Bae's hole](https://youtu.be/Br6dvhVJ_IE?t=10130) and found the once spartan side room had been transformed into a lavish sanctuary for her children. It was here Bae told Gonathon that she would be leaving on a journey of self-discovery after this. These words touched Gonathon, and she too vowed to take up her own quest. \n\nIt is curious how the memories of HPO and Tam invoked a feeling of reveration for the wannabe god and queen in Gonathon, yet Bae's memories did little to sway her opinion of the peasant. But perhaps this was for the best, for it was through deed and experience that Bae and Gonathon were bound together. While the future for both remains murky, as brothers, they will see it through together.",
+            "content": "A true knight never forgets her oaths, and for Gonathon G, not the end of the world nor her aching heart would keep her from fulfilling her promise to Peasant the Bae: to attempt to sway the delusional Immerkind's heart (see [Bae-Cecilia: A Bridge to Far](#edge:cecilia-bae)). Luring Immerkind to the fated bridge, the humble knight left the peasant to make her heartfelt plea.\n\nAlas, it was not to be, for the zealous green one was dead set on remaining in the past (see [Cecilia-Iphania: Loyal Knight's Vow](#edge:cecilia-iphania)). While she gave Bae the consolation that she would look for her in the future, this meager offering did little to mend Bae's heart, and the distraught peasant turned to [the embrace of the ocean's abyss](https://youtu.be/Br6dvhVJ_IE?t=4887). Leaping into action, Gonathon begged Bae to reconsider, and in between many bouts of kissing the depths together, Gonathon implored Bae to choose life, for as one whom love had also cursed, she knew all too well the pain of losing it.\n\nShocked and humbled by Gonathon's display of sacrifice all for her own sake, Bae finally came to an epiphany: that it was not romantic love that she would live for, but her children and her happiness. Most of all, she now knew she would not be alone in this quest; she had something far more valuable than a maiden to whisper her sweet nothings: a brother, one who would stand by her to the ends of the earth itself. [Bae bequeathed the flowers](https://youtu.be/Br6dvhVJ_IE?t=5214) once meant for Immerkind to Gonathon, and the two exchanged a hearty, manly handshake. They vowed that no matter what, they would always be there for one another, as true brothers.\n\nSome time later, [Gonathon paid a visit to Bae's hole](https://youtu.be/Br6dvhVJ_IE?t=10130) and found the once spartan side room had been transformed into a lavish sanctuary for her children. It was here Bae told Gonathon that she would be leaving on a journey of self-discovery after this. These words touched Gonathon, and she too vowed to take up her own quest.\n\nAnd just as Bae cared for Cecilia, Gonathon cared, platonically, for Bae; the good knight following her without rest in a camaraderie few would ever have in this world. Through the waters, through Mordan Ramsey having the most atrocious timing in this dramatic moment, Gonathon was there. Gonathon blamed himself, but Bae couldn't bear that. Bae reassured Gonathon that they all knew Cecilia's lover for the Princess. Gonathon shouldn't carry a burden when the truth was known to all.\n\n[My Brother.](#embed:https://youtu.be/Br6dvhVJ_IE?t=5214)\n\nTouched by Gonathon's goood heart, Bae gave Gonathon the bouquet she bought. It was always meant to be given to someone Bae cared, and who cared in turn for her. They swore an oath of Brotherhood, and Bae swore a vow of celibacy under the new moon. A Bromance inagurated with a strong, firm handshake. A Bromance to last lifetimes.\n\n[AWWWWWOOOOOOOOOOOOOO](#embed:https://youtu.be/Br6dvhVJ_IE?t=5329)\n\nBae finally came to an epiphany: that it was not romantic love that she would live for, but her children and her happiness. Most of all, she now knew she would not be alone in this quest; she had something far more valuable than a maiden to whisper her sweet nothings: a brother, one who would stand by her to the ends of the earth itself.\n\nSome time later, [Gonathon paid a visit to Bae's hole](https://youtu.be/Br6dvhVJ_IE?t=10130) and found the once spartan side room had been transformed into a lavish sanctuary for her children. It was here Bae told Gonathon that she would be leaving on a journey of self-discovery after this. These words touched Gonathon, and she too vowed to take up her own quest.\n\nIt is curious how the memories of Hot Pink One and Tam invoked a feeling of reveration for the wannabe god and queen in Gonathon, yet Bae's memories did little to sway her opinion of the peasant. But perhaps this was for the best, for it was through deed and experience that Bae and Gonathon were bound together. While the future for both remains murky, as brothers, they will see it through together.\n\n## Fanart\n\n[\"The weight of a knight's tears\" by daiya](https://x.com/daiyaekaku/status/1923920501631578438)\n\n\n\n[\"they drowned\" by Nagi](https://x.com/Nagi_Nyaaa/status/1921060151550791998)",
             "pathType": "smoothstep",
             "day": 6
           },
@@ -5002,9 +4711,6 @@
           "sourceHandle": "left-3",
           "targetHandle": "right-3",
           "type": "fixed",
-          "style": {
-            "stroke": "#00ffcc"
-          },
           "data": {
             "relationshipId": "bros",
             "title": "A Bromance of Eternity Borne Under the Light of the New Moon",
@@ -5028,10 +4734,6 @@
           "sourceHandle": "right-1",
           "targetHandle": "left-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#4f80f0",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "unrequited-love",
             "title": "Love Unlasting",
@@ -5055,9 +4757,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ecbe5b"
-          },
           "data": {
             "relationshipId": "alliance",
             "title": "From One Witch to Another",
@@ -5081,10 +4780,6 @@
           "sourceHandle": "left-1",
           "targetHandle": "right-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#ffbde7",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Netorare",
@@ -5108,9 +4803,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ec1380"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "The Cat and The Cat Woman",
@@ -5134,9 +4826,6 @@
           "sourceHandle": "left-4",
           "targetHandle": "right-0",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "The Knight and the Hero",
@@ -5160,9 +4849,6 @@
           "sourceHandle": "top-1",
           "targetHandle": "right-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#51d2b9"
-          },
           "data": {
             "relationshipId": "friends",
             "title": "A Witch's Cat",
@@ -5608,9 +5294,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "So Long, Consort",
@@ -5634,10 +5317,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#fe85ec",
-            "strokeDasharray": ""
-          },
           "data": {
             "relationshipId": "romantic",
             "title": "Finding Shelter in the Shadows of Hope",
@@ -5661,9 +5340,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-1",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "Humble Endings, Sinister Beginnings",
@@ -5687,9 +5363,6 @@
           "sourceHandle": "top-2",
           "targetHandle": "bottom-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#06a84b"
-          },
           "data": {
             "relationshipId": "protector",
             "title": "...Princess?",
@@ -5713,9 +5386,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c67b8e"
-          },
           "data": {
             "relationshipId": "its-complicated",
             "title": "A Price for Defying Fate",
@@ -5739,9 +5409,6 @@
           "sourceHandle": "left-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#ec1380"
-          },
           "data": {
             "relationshipId": "marriage",
             "title": "And so, Sesbian Lex.",
@@ -5765,9 +5432,6 @@
           "sourceHandle": "right-2",
           "targetHandle": "left-2",
           "type": "fixed",
-          "style": {
-            "stroke": "#c6e83e"
-          },
           "data": {
             "relationshipId": "same-person",
             "title": "Iphania and Fia",
