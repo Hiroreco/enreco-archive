@@ -152,17 +152,17 @@ const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
 };
 
 const FanartCardInfo = ({ entry }: { entry: FanartEntry }) => (
-    <div className="text-white flex flex-col min-h-0">
-        <div className="flex-1 min-h-0 overflow-hidden">
-            <p className="text-white text-xs font-semibold line-clamp-1 mb-0.5">
+    <div className="text-white flex flex-col min-h-0 ">
+        <div className="flex-1 min-h-0 overflow-hidden md:mb-0 -mb-1">
+            <p className="text-white text-xs font-semibold line-clamp-1 md:mb-0.5">
                 {entry.label}
             </p>
             <p className="text-white/80 text-xs md:mb-1 line-clamp-1">
                 by {entry.author}
             </p>
         </div>
-        <div className="flex items-center justify-between flex-shrink-0">
-            <div className="text-xs text-white whitespace-nowrap truncate ">
+        <div className="flex items-center justify-between flex-shrink-0 ">
+            <div className="text-xs text-white whitespace-nowrap truncate md:mb-0 -mb-2">
                 Ch. {entry.chapter + 1} Day {entry.day + 1}
             </div>
             <a
