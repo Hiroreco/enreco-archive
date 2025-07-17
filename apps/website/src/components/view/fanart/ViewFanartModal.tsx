@@ -219,7 +219,7 @@ const ViewFanartModal = ({
     // Shuffle handler
     const handleShuffle = useCallback(() => {
         // Fisher-Yates shuffle on the full filtered set
-        const arr = [...allFilteredFanart];
+        const arr = [...fanart];
         for (let i = arr.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [arr[i], arr[j]] = [arr[j], arr[i]];
@@ -228,7 +228,7 @@ const ViewFanartModal = ({
         setShuffled(true);
         // Reset pagination when shuffling
         setCurrentPage(1);
-    }, [allFilteredFanart]);
+    }, [fanart]);
 
     // Unshuffle handler
     const handleUnshuffle = useCallback(() => {
