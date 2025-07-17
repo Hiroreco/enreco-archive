@@ -1,4 +1,4 @@
-<!-- title: Nerissa Juliet Bloodflame -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Nerissa—if that was even her real name anymore—[remembered nothing](https://www.youtube.com/live/XfZh_3xb7i0?si=4ltg7sRVoTvNszan&t=1063). Not the dying kingdom she had once vowed to save, not the universe hanging by a thread, not even the bonds she once held dear (see [Elizabeth-Nerissa](#edge:liz-nerissa)). Still, something pushed her forward. If nothing else, maybe the path ahead held fragments of who she had been: her name, her stories, and the hearts she once held close.

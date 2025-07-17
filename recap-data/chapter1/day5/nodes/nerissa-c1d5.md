@@ -1,4 +1,4 @@
-<!-- title: Nerissa Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Nerissa entered her fifth day still reeling from the chaos of day four—the unresolved Mococo lottery debacle loomed over her. While FaunaMart faced the brunt of the lawsuit threat, Nerissa remained unbothered by financial concerns, given her substantial fortune of _55,815 coins_. The source of her wealth remained a mystery, though the smell of potato salad seemed to accompany her wherever she went.

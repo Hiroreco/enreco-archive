@@ -1,4 +1,4 @@
-<!-- title: Nerissa Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Nerissa made her debut on day two, joining mid-conversation with her (self-proclaimed) wife, Shiori, who at the time was soloing the second dungeon. Their exchange went as expected for any "married" couple—playful flirting mixed with odd and suggestive banter (see [Shiori-Nerissa: Keeping Company](#edge:shiori-nerissa)).

@@ -1,4 +1,4 @@
-<!-- title: Nerissa Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Nerissa had become a ghost. Slain by Kiara the day before—despite insisting she had done nothing wrong—she now wandered the land as a spirit, a soul without a body. But she wouldn’t remain that way forever. She had a plan. She would take vengeance against Kiara for what the phoenix had taken from her.
