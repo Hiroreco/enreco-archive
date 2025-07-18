@@ -1,5 +1,8 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
-import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
+import {
+    CurrentChapterDataContext,
+    CurrentDayDataContext,
+} from "@/contexts/CurrentChartData";
 import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
@@ -26,7 +29,22 @@ export default function EdgeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
+    // This guy is empty, cause the context can't reach it
+    const { relationships } = useContext(CurrentChapterDataContext);
+    console.log(relationships);
+
     const edge = edges.find((e) => e.id === edgeId);
+    let edgeColor = "#831843";
+    // if (edge && edge.data) {
+    //     edgeColor = relationships[edge.data.relationshipId]?.style
+    //         .stroke as string;
+    //     console.log(
+    //         "EdgeLink",
+    //         edgeColor,
+    //         edge.data.relationshipId,
+    //         relationships[edge.data.relationshipId],
+    //     );
+    // }
 
     const edgeLinkHandler = useCallback(() => {
         if (edge && !edge.hidden) {
@@ -34,17 +52,7 @@ export default function EdgeLink({
         }
     }, [edge, onEdgeLinkClick]);
 
-    // Make the link's color the same as the node's
-    // Not sure about this one, might remove.
-    const style = edge?.style;
-    let edgeColor = "#831843";
-    if (style && style.stroke) {
-        edgeColor = getLighterOrDarkerColor(
-            style.stroke,
-            isDarkMode ? 10 : -10,
-        );
-    }
-
+    edgeColor = getLighterOrDarkerColor(edgeColor, isDarkMode ? 10 : -10);
     let label = children as string;
     try {
         label = label.split(":")[0];
