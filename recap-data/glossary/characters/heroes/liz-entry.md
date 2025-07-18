@@ -28,7 +28,7 @@ She did it all because she believed it was her duty as a knight. It was what she
 
 But not everything she did stemmed from duty.
 
-[Nerissa Ravencroft.](#entry:nerissa-entry) Just the sound of that [name](https://www.youtube.com/live/dCNrMstGc3I?t=1716) was enough to make Elizabeth’s heart race and her face flush with the color of strawberries. Witchcraft—that’s what Elizabeth called it. She deemed Nerissa a witch for making her feel this way, and because of that, decided it was her _duty_ to “monitor” her. But was that truly her King’s will, or was it her own?
+[Nerissa Juliet Ravencroft.](#entry:nerissa-entry) Just the sound of that [name](https://www.youtube.com/live/dCNrMstGc3I?t=1716) was enough to make Elizabeth’s heart race and her face flush with the color of strawberries. Witchcraft—that’s what Elizabeth called it. She deemed Nerissa a witch for making her feel this way, and because of that, decided it was her _duty_ to “monitor” her. But was that truly her King’s will, or was it her own?
 
 Elizabeth played a major role in liberating the kingdom from corruption on the final day. But just when it seemed the fight was over, the truth shattered her world. The King she had loyally served was revealed to be evil—a deceiver who had manipulated them all. Elizabeth was devastated; her beliefs and ideals were turned upside down.
 

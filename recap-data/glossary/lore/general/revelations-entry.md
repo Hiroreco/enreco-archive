@@ -52,7 +52,7 @@ Each hero wielded a unique Revelation—distinct in both form and function—bas
 
 - **Koseki Bijou** – [Shining Emotions](#entry:shining-emotions-entry), a gem
 
-- **Nerissa Ravencroft** – [Resonant Strike](#entry:resonant-strike-entry), a tuning fork
+- **Nerissa Juliet Ravencroft** – [Resonant Strike](#entry:resonant-strike-entry), a tuning fork
 
 - **Shiori Novella** – [Bookmark of Memories](#entry:bookmark-of-memories-entry), a quill
 

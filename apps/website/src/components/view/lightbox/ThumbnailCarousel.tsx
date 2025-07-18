@@ -10,6 +10,7 @@ interface ThumbnailCarouselProps {
     currentItemIndex: number;
     onThumbnailClick: (index: number) => void;
     thumbnailRefs: RefObject<(HTMLDivElement | null)[]>;
+    showFanartMeta?: boolean;
 }
 
 export const ThumbnailCarousel = forwardRef<
