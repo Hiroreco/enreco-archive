@@ -29,11 +29,16 @@ export default function EdgeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    // This guy is empty, cause the context can't reach it
+    // This guy is empty, cause the context can't reach here
     const { relationships } = useContext(CurrentChapterDataContext);
     console.log(relationships);
 
-    const edge = edges.find((e) => e.id === edgeId);
+    let edge = edges.find((e) => e.id === edgeId);
+    if (!edge) {
+        // id is sourceA-sourceB, so swap it if not found
+        edgeId = edgeId.split("-").reverse().join("-");
+        edge = edges.find((e) => e.id === edgeId);
+    }
     let edgeColor = "#831843";
     // if (edge && edge.data) {
     //     edgeColor = relationships[edge.data.relationshipId]?.style
