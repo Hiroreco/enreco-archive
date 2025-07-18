@@ -38,6 +38,7 @@ interface ViewLightboxProps {
     externalIsOpen?: boolean;
     alwaysShowNavigationArrows?: boolean;
     onExternalClose?: () => void;
+    showFanartMeta?: boolean;
 }
 
 const ViewLightbox = ({
@@ -58,6 +59,7 @@ const ViewLightbox = ({
     isExternallyControlled = false,
     externalIsOpen = false,
     onExternalClose,
+    showFanartMeta = false,
 }: ViewLightboxProps) => {
     const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentItemIndex, setCurrentItemIndex] = useState(galleryIndex);
@@ -255,6 +257,7 @@ const ViewLightbox = ({
                             currentItemIndex={currentItemIndex}
                             onThumbnailClick={handleThumbnailClick}
                             thumbnailRefs={thumbnailRefs}
+                            showFanartMeta={showFanartMeta}
                         />
                     </div>
                 </DialogContent>

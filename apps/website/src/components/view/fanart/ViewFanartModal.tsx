@@ -661,6 +661,7 @@ const ViewFanartModal = ({
                     isExternallyControlled={true}
                     externalIsOpen={isLightboxOpen}
                     onExternalClose={handleCloseLightbox}
+                    showFanartMeta={true}
                 />
             )}
         </>
