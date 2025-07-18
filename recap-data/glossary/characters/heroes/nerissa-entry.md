@@ -15,7 +15,7 @@ Nerissa Ravencroft—more precisely, Nerissa _Juliet_ Ravencroft—was a kind an
 
 ### Chapter 1
 
-**Name:** Nerissa Ravencroft
+**Name:** Nerissa Juliet Ravencroft
 **Guild:** Scarlet Wand
 
 Like many others, Nerissa’s story began in confusion—dazzled and unsure of her purpose. But she quickly found her footing and threw herself into her new life with remarkable zeal. Among them all, she might have been the most diligent—grinding quests, gathering materials, and, of course, making mountains of potato salad. It all led to her becoming the richest, most resourceful soul in the kingdom.

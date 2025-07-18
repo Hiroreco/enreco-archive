@@ -1,7 +1,7 @@
 <!-- title: Gawr Gura -->
 <!-- quote: Watch your mouth when you're talking to me >:3 -->
 <!-- chapters: 0 -->
-<!-- images: (Gura's Chapter 1 Profile), (Gura and the others exploring Atlantis), (Reollection - Gawr Gura)  -->
+<!-- images: (Gura's Chapter 1 Profile), (Gura and the others exploring Atlantis), (Reollection - Gawr Gura) -->
 <!-- model: false -->
 
 ## Overview

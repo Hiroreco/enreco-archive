@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Violet Miasma** takes the form of a book—but not just any ordinary one. This tome radiates an eerie, mysterious aura, thanks to its deep purple cover, orange binding, and, most strikingly, the ancient scripture etched across its surface. Despite its ominous appearance, its wielder, [Ninomae Inanis](#entry:ina-entry), is anything but intimidating—exuding more comfy, cozy cuteness than menace.
+**Violet Miasma** takes the form of a book—but not just any ordinary one. This tome radiates an eerie, mysterious aura, thanks to its deep purple cover, orange binding, and, most strikingly, the ancient scripture etched across its surface. Despite its ominous appearance, its wielder, [NinoIna](#entry:ina-entry), is anything but intimidating—exuding more comfy, cozy cuteness than menace.
 
 ## Details
 

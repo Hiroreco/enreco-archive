@@ -1,7 +1,7 @@
 <!-- title: Jobs -->
 <!-- quote: 250 coins for one soup?! -->
 <!-- chapters: 1 -->
-<!-- images: (Jobs Overview), (Jobs and their icons), (Charms made by a Jeweler), (Food made by a Chef), (Upgrade Stones made by a Smith) --->
+<!-- images: (Jobs Overview), (Jobs and their icons), (Charms made by a Jeweler), (Upgrade Stones made by a Smith), (Food made by a Chef) -->
 <!-- model: false -->
 
 ## Overview
@@ -50,7 +50,7 @@ Charms came in three different colors. Heroes could equip one charm of each colo
 
 #### Chef
 
-**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry)
+**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry)
 **Lead:** Ambros
 
 Chefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the "cook" button.
