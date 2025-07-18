@@ -47,7 +47,6 @@
         "unist-util-is": "^6.0.0",
         "unist-util-visit": "^5.0.0",
         "vaul": "workspace:*",
-        "yet-another-react-lightbox": "^3.24.0",
         "zustand": "^5.0.4"
     },
     "devDependencies": {

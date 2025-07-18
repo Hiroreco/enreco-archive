@@ -27,9 +27,6 @@ catalogs:
     immer:
       specifier: ^10.1.1
       version: 10.1.1
-    jszip:
-      specifier: ^3.10.1
-      version: 3.10.1
     lucide-react:
       specifier: ^0.482.0
       version: 0.482.0
@@ -48,9 +45,6 @@ catalogs:
     shx:
       specifier: ^0.4.0
       version: 0.4.0
-    tailwind-merge:
-      specifier: ^3.3.0
-      version: 3.3.0
     tailwindcss:
       specifier: ^4.1.7
       version: 4.1.7
@@ -300,9 +294,6 @@ importers:
       vaul:
         specifier: workspace:*
         version: link:../../packages/vaul-1.1.2-patched
-      yet-another-react-lightbox:
-        specifier: ^3.24.0
-        version: 3.24.0(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       zustand:
         specifier: ^5.0.4
         version: 5.0.4(@types/react@19.1.4)(immer@10.1.1)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0))
@@ -5249,20 +5240,6 @@ packages:
 
   yauzl@2.10.0:
     resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
-
-  yet-another-react-lightbox@3.24.0:
-    resolution: {integrity: sha512-j3YtwDT+fdBBhxbaxfthHMehXkUj388rpn7knc934H86bJJDBEL/m9WFGdKq2ivT3GaUPF+41GplKFbAv8bOmg==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@types/react': ^16 || ^17 || ^18 || ^19
-      '@types/react-dom': ^16 || ^17 || ^18 || ^19
-      react: ^16.8.0 || ^17 || ^18 || ^19
-      react-dom: ^16.8.0 || ^17 || ^18 || ^19
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-      '@types/react-dom':
-        optional: true
 
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
@@ -10831,14 +10808,6 @@ snapshots:
     dependencies:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
-
-  yet-another-react-lightbox@3.24.0(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
-    dependencies:
-      react: 19.1.0
-      react-dom: 19.1.0(react@19.1.0)
-    optionalDependencies:
-      '@types/react': 19.1.4
-      '@types/react-dom': 19.1.5(@types/react@19.1.4)
 
   yocto-queue@0.1.0: {}
 
