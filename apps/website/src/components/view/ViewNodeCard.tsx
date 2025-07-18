@@ -13,6 +13,12 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
 import ViewCardUtilities from "@/components/view/ViewCardUtilities";
+import { Check } from "lucide-react";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
 
 interface Props {
     isCardOpen: boolean;
@@ -95,11 +101,26 @@ const ViewNodeCard = ({
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">
-                        <StackItem>
+                        <StackItem className="relative">
                             <NodeCardDeco
                                 color={selectedNode.data.bgCardColor}
                             />
+                            {selectedNode?.data.isRead && (
+                                <Tooltip delayDuration={300}>
+                                    <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
+                                        <Check
+                                            size={17}
+                                            className="opacity-90"
+                                            color="white"
+                                        />
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        This card has been read
+                                    </TooltipContent>
+                                </Tooltip>
+                            )}
                         </StackItem>
+
                         <StackItem>
                             {selectedNode?.data.imageSrc && (
                                 <Image
@@ -120,7 +141,9 @@ const ViewNodeCard = ({
                     <Separator className="h-px w-full bg-border" />
                     <div className="flex flex-row justify-around w-full">
                         <div className="flex flex-col items-center">
-                            <div className="font-semibold">Team</div>
+                            <div className="font-semibold">
+                                {chapter === 0 ? "Guild" : chapter === 1 ? "Job" : "Team"}
+                            </div>
                             <div>{nodeTeam?.name}</div>
                         </div>
                         <div className="flex flex-col items-center">
@@ -148,6 +171,7 @@ const ViewNodeCard = ({
                     <ViewMarkdown
                         onEdgeLinkClicked={onEdgeLinkClicked}
                         onNodeLinkClicked={onNodeLinkClicked}
+                        className="md:px-4 px-2"
                     >
                         {selectedNode?.data.content || "No content available"}
                     </ViewMarkdown>

@@ -18,7 +18,7 @@ It meant Elizabeth was scrambling, that’s what.
 
 Desperate to recover, they settled on a sparring match, as if a couple swings of a wooden sword could knock the embarrassment out of her.
 
-Elizabeth didn’t need to hold back—she was already nerfed. Swinging her blades, raising her shield, trying to stay focused… all while a majestic Blue Maiden danced in front of her, fully immersed in their little spar. Every move Nerissa made was deliberate, serious, and graceful. And that sight alone? More than enough to break the composure of the Scarlet Swordswoman.
+Elizabeth didn’t need to hold back—she was already nerfed. Swinging her blades, raising her shield, trying to stay focused… all while a majestic blue maiden danced in front of her, fully immersed in their little spar. Every move Nerissa made was deliberate, serious, and graceful. And that sight alone? More than enough to break the composure of the Scarlet Swordswoman.
 
 In the end, Elizabeth still won—she _was_ a knight, after all. And surprisingly, the match helped clear her head. The fog lifted. She was calm again.
 
@@ -51,3 +51,7 @@ The strawberry glowed so red it might as well have been a beacon.
 ["Looks like I won this round, witch" by Keisea](https://x.com/Keiseeaaa/status/1919845669562622165)
 
 ["A light moment between them" by TibsSketeches](https://x.com/TibsSketches/status/1920495769099931750)
+
+["hush my gums" by otashishi](https://x.com/ashiartwork/status/1934386688991850581)
+
+["She is a knight" by Shee](https://x.com/tianshiko/status/1919921818401493098)

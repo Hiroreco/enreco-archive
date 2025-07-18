@@ -1,11 +1,10 @@
+import ViewShioriGameEasterEgg from "@/components/view/easter-eggs/ViewShioriGameEasterEgg";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { LS_SHIORI_STASH_UNLOCKED } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const ViewShioriGame = () => {
@@ -14,18 +13,6 @@ const ViewShioriGame = () => {
     const [answer, setAnswer] = useState("");
     const [error, setError] = useState("");
     const { playSFX } = useAudioStore();
-    const [shioriPressed, setShioriPressed] = useState(false);
-
-    const handleShioriPress = () => {
-        if (!shioriPressed) {
-            playSFX("chicken-pop");
-            playSFX("shiori-chicken");
-            setShioriPressed(true);
-            setTimeout(() => {
-                setShioriPressed(false);
-            }, 10000);
-        }
-    };
 
     const questions = [
         {
@@ -86,6 +73,7 @@ const ViewShioriGame = () => {
         "sea-x-lovers",
         "tam-x-tam",
         "the-cell",
+        "the-princess-1",
         "the-princess-2",
     ];
 
@@ -143,21 +131,7 @@ const ViewShioriGame = () => {
                     <Button onClick={handleAnswer}>Submit</Button>
                 </div>
                 {error && <div className="text-red-500">{error}</div>}
-                <Image
-                    src="/images-opt/easter-shiori.webp"
-                    alt="Shiori Nyavella"
-                    className={cn(
-                        "absolute bottom-4 right-0 w-40  transition-opacity",
-                        {
-                            "cursor-pointer hover:opacity-50 opacity-20":
-                                !shioriPressed,
-                            "opacity-50": shioriPressed,
-                        },
-                    )}
-                    width={200}
-                    onClick={handleShioriPress}
-                    height={200}
-                />
+                <ViewShioriGameEasterEgg />
             </div>
         );
     }
@@ -177,21 +151,7 @@ const ViewShioriGame = () => {
                     />
                 ))}
             </div>
-            <Image
-                src="/images-opt/easter-shiori.webp"
-                alt="Shiori Nyavella"
-                className={cn(
-                    "absolute bottom-4 right-0 w-40  transition-opacity",
-                    {
-                        "cursor-pointer hover:opacity-50 opacity-20":
-                            !shioriPressed,
-                        "opacity-50": shioriPressed,
-                    },
-                )}
-                width={200}
-                onClick={handleShioriPress}
-                height={200}
-            />
+            <ViewShioriGameEasterEgg />
         </div>
     );
 };

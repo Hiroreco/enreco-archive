@@ -1,6 +1,6 @@
 <!-- title: Same But Different -->
 
-Fuwawa and Mococo not only shared the same guild but also bore an uncanny resemblance to each other. Their striking similarity often led others to question if they were [related](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared\&t=2214). Despite the frequent speculation, both Fuwawa and Mococo adamantly denied being related. Yet, their near-constant companionship—spending virtually every waking moment together—only fueled the rumors further.
+Fuwawa and Mococo not only shared the same guild but also bore an uncanny resemblance to each other. Their striking similarity often led others to question if they were [related](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=2214). Despite the frequent speculation, both Fuwawa and Mococo adamantly denied being related. Yet, their near-constant companionship—spending virtually every waking moment together—only fueled the rumors further.
 
 Adding to the mystery was the dynamic they shared, which closely resembled that of siblings. Fuwawa often assumed the role of the older, more responsible figure, while Mococo embodied the mischievous little sister, frequently stirring up trouble. This was evident when Fuwawa began expressing concern over Mococo's sudden obsession with purchasing an absurd number of lottery tickets from FaunaMart.
 

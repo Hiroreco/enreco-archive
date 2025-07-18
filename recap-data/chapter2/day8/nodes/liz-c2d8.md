@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 **Knight's Log 006**
 
 A knight of honor. Smith of the Jade Forge. Elizabeth Rose Bloodflame.
@@ -38,7 +41,7 @@ The words catch Elizabeth off guard, but she doesn’t deny them. Red in the fac
 
 With the chat with Kiara concluded, Elizabeth moves to find Nerissa once again, replicating something unique to them.
 
-[“Juliet, Juliet!”](https://www.youtube.com/live/b-jTHH6GK5w?si=wW_PnKZylMBJiFeK&t=5150)
+[“Juliet, Juliet!”](#embed:https://www.youtube.com/live/b-jTHH6GK5w?si=wW_PnKZylMBJiFeK&t=5150)
 
 Though neither remembers the lines fully, it is a cheerful memory for them. Romeo and Juliet. Elizabeth and Nerissa.
 
@@ -53,3 +56,13 @@ And moments before, Elizabeth asks Nerissa again, [“Are you okay?”](https://
 To make it in time, Elizabeth uses magic and teleports for her princess to make it in time. And the banquet begins (see: [Princess-Outlander: A Price for Defying Fate](#edge:iphania-outlander)).
 
 Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to the other. Will she bend the knee and break her word as a knight? Or will she give in once more to what seems to be corruption, as she had done for the king?
+
+## Fanart
+
+["..." by soap](https://x.com/SiFXi_/status/1922931817402806278)
+
+<!-- nerissa -->
+
+["A monster" by wan](https://x.com/wan_m_i/status/1921889316306919884)
+
+<!-- nerissa -->

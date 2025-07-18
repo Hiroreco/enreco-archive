@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 A writer's work was never done; a book must end for another to begin and Shiori's script, too, will soon conclude. It is with this in mind that Shiori found herself writing once again, finishing her last commissions. Only a few remained—Kiara's rather [_suggestive_ fanfiction](https://youtu.be/jh0GSZRpkfU?t=553) and Roa's memory.
 
 [Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
@@ -16,7 +19,7 @@ There wasn't much left for Shiori to do. A few quests and cooking filled was had
 
 The picnic with Cecilia was also rather nice, the two trading small talk over the _complicated_ relationships and resulting dramas. About how each person was the hero of their own story; it was their tale while others were but a part of it. Such as Roa attaining her own happy ending with Kiara after days of turmoil. Even the Hero Ina had [her own struggles](https://youtu.be/jh0GSZRpkfU?t=4091), Shiori accidentally eavesdropping as Ina wrote a letter to her own paramour. But in the end, they were part of a larger, grander epic.
 
-Shiori's own tale was winding down. With her beloved Bijou, they watched Mordan's auction unfold. Friends bought houses to stay and build a new start to their lives. Shiori wondered if they should buy a house of their own, but Bijou refused. She looked at Shiori fondly, saying she was content and happy with the GothRock they already had. A tender moment that was briefly interrupted by another scandal: Mordan Ramsay was accused of intellectual theft by Ina. A scandal that was soon dropped since our heroes have limited run time.
+Shiori's own tale was winding down. With her beloved Bijou, they watched Mordan's auction unfold. Friends bought houses to stay and build a new start to their lives. Shiori wondered if they should buy a house of their own, but Bijou refused. She looked at Shiori fondly, saying she was content and happy with the GothRock they already had. A tender moment that was briefly interrupted by another scandal: Mordan Ramsey was accused of intellectual theft by Ina. A scandal that was soon dropped since our heroes have limited run time.
 
 [A Memory to Save...](#embed:https://youtu.be/jh0GSZRpkfU?t=5266)
 
@@ -30,13 +33,11 @@ As one last prank, Shiori and Bijou sneaked into Mordan's Tavern where they crit
 
 [Advent of Rebellion](#embed:https://youtu.be/jh0GSZRpkfU?t=6938)
 
-[Fire, Fire, Light the Fire!](#embed:https://youtu.be/jh0GSZRpkfU?t=7053)
-
 There were still a few things to remember from Shiori and Bijou's short stay. They lingered. Their GothRock shouldn't be remiss, it was a home that saw many moments. Even the outside toilet may be missed. And to make the [final entry special](https://youtu.be/jh0GSZRpkfU?t=7478), Shiori grabbed the diary in the latrine for that final smelly majestic use.
 
 [A Picture with ~~Gonathon~~ Gigi](#embed:https://youtu.be/jh0GSZRpkfU?t=7270)
 
-Finally, the not-red banquet had begun! Shiori watched as Everyone cheered as the second part of their journey was officially over, letting out "Huzzahs" and firing fireworks into the flammable decor of the Great Hall. She enjoyed the moment for just that. A moment. Jubilation and "wooden shovels" consumed the conversations Shiori could hear, though that didn't matter for long. Soon, Shiori Nyavella's role will end, and a new one will begin.
+Finally, the not-red banquet had begun! Shiori watched as everyone cheered as the second part of their journey was officially over, letting out "Huzzahs" and firing fireworks into the flammable decor of the Great Hall. She enjoyed the moment for just that. A moment. Jubilation and "wooden shovels" consumed the conversations Shiori could hear, though that didn't matter for long. Soon, Shiori Nyavella's role will end, and a new one will begin.
 
 A scream echoed through the castle, throughout Libestal.
 
@@ -65,6 +66,8 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 ## Fanworks:
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
+
+<!-- gigi -->
 
 ["witch shiori 1" by mofumashu](https://x.com/mofumashu/status/1921461081714688036)
 

@@ -10,7 +10,7 @@ Arriving at the farming area, Gonathon once again met up with Shiori. Gonathon d
 
 With the sun's playful rays beginning to peek out from the horizon, the conversation turned to memories. [Shiori remarked](https://youtu.be/mb91g7vQSnA?t=4297) that she preferred to seal painful memories away, rather than bear their burden. Gonathon retorted by stating that, regardless of whether Shiori remembered her or not, she knew the archiver was truly kind. Realizing the burden that Shiori bore as an archiver, Gonathon stated that no one could have the answer to everything, as this was a burden too great to shoulder alone. The conversation ended on a peaceful note, with Gonathon promising to fight by Shiori and the archiver wishing to meet the knight again.
 
-Following the epic clash with the Heart of Ruin, in which Gonathon assisted in purifying a curse placed on the archiver, and a jovial meal at Hot Pink One's party, Gonathon finally turned to the letters Shiori had left for her. The last words the witch had left for her thanked Gonathon for all the time they had spent together and implored the humble knight to live not just for the sake of others, but also for herself.
+Following the epic clash with the Heart of Ruin, in which Gonathon assisted in purifying a curse placed on the archiver, and a jovial meal at Hot Pink One's party, Gonathon finally turned to the letters Shiori had left for her. The last words the witch had left for her thanked Gonathon for all the time they had spent together and implored the Humble Knight to live not just for the sake of others, but also for herself.
 
 Moved by Shiori's words, Gonathon thought back to her time with Bae (see [Bae-Gonathon](#edge:bae-gigi)) and decided that she, too, would set out on a journey of self-discovery. And with this, it seemed that the blank slate between archiver and knight was set to have a new set of memories etched upon it, free of the dark reminders of the past.
 
@@ -18,6 +18,22 @@ Alas, this was not to be as Shiori uncovered the diaries from the previous days,
 
 [It was my fault](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=UZkt8f46vWLuP6Do&t=12257)
 
-Most important of all for the humble knight was the kindness that Shiori gave her, both before and after losing her memories. Gonathon made one final request: that the two continue to speak like this. Departing on a melancholy but fulfilling note, the two promised to meet each other at the banquet tomorrow. And thus, the tale of the fumbling knight had ended. Where the story of Shiori of the Nyavellas goes next is unclear, but one thing is certain. Their story together is far from over.
+Most important of all for the Humble Knight was the kindness that Shiori gave her, both before and after losing her memories. Gonathon made one final request: that the two continue to speak like this. Departing on a melancholy but fulfilling note, the two promised to meet each other at the banquet tomorrow. And thus, the tale of the fumbling knight had ended. Where the story of Shiori of the Nyavellas goes next is unclear, but one thing is certain. Their story together is far from over.
 
 [I can't recall... but I can feel it](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=tve9IVBF0HJBYQkK&t=12800)
+
+## Fanart
+
+["But she can feel it" by planetdropper](https://x.com/planetdropper/status/1930074019526783341)
+
+["It was kindness." by yakimi27](https://x.com/Yakimi27/status/1925898088876568829/)
+
+["i'll catch you" by Daaku](https://x.com/koizumi_arata/status/1922439809542316098/)
+
+["Heartbroken" by the baker I am](https://x.com/imabaker111/status/1922026532635107535)
+
+["regrets and memories" by zooka](https://x.com/zookacchi/status/1921260437854716282)
+
+## Memes
+
+["wdym this isnt the plot to ENreco" by Soda](https://x.com/XoSodaXo13/status/1920439218947387445)

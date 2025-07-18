@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 **THE WITCH'S LAIR**
 
 More and more people had [discovered](https://youtu.be/FlPFFE5_X3Y?t=7063) the secret shrine that was miraculously built under Nerissa's house. Surprisingly, she didn't look bothered; in fact, it rather seemed intentional that she allowed them to find it.
@@ -6,7 +9,7 @@ As if it were an invitation to a baptism of a transformed being.
 
 ---
 
-[CORRUPTION](https://youtu.be/FlPFFE5_X3Y?t=8881)
+[CORRUPTION](#embed:https://youtu.be/FlPFFE5_X3Y?t=8881)
 
 So far, all of the dungeons had been conquered but one– the Heart of Ruin– the source of ruination, corrupting the whole of Libestal.
 
@@ -26,7 +29,7 @@ And as expected of the heroes, they did their best in winning their friends back
 
 Fate was such a trickster. Having been possessed, the corruption guided Nerissa to [haunt](https://youtu.be/FlPFFE5_X3Y?t=9100) Roa Pandora, enabling her to see through the secrets of her heart. The corrupted “witch” finally confirmed and confronted her about the woman’s growing feelings for Lady Bloodflame and the jealousy she harbored for her blossoming relationship with Lady Bloodflame.
 
-_“You stole the red knight”_
+_“You stole the Red Knight”_
 
 _“I stole no such thing,”_ she quipped back.
 
@@ -44,7 +47,7 @@ _“Come to your senses!”_ the knight shouted.
 
 _“Come to my senses?_ I think I came to those a long ago”
 
-It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the red maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
+It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the Red Maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
 
 Before they knew it, the pure knight had ["cleansed"](https://youtu.be/FlPFFE5_X3Y?t=9259) Nerissa and won her over to their side again.
 
@@ -78,14 +81,12 @@ After all, _NOTHING STAYS PURE_...
 
 ## Fanart
 
-["Nerissa Ravencroft 🎼" by SHAF](https://x.com/shafpng/status/1886083673935798700)
-
 ["Witch" by yuri_kyanon](https://x.com/yuri_kyanon/status/1921582803809886659)
 
 ["My reflection is that of a forgotten stranger" by Eli](https://x.com/Elisbian_/status/1920609369328079156)
 
 ["The one they call The Witch" by Hexcaster1636](https://x.com/lancaster_1636/status/1924872752890077294)
 
-[rkgk by Magho](https://x.com/M_Agho/status/1920808679089009020)
+["rkgk" by Magho](https://x.com/M_Agho/status/1920808679089009020)
 
 ["Nothing stays pure" by ArizaZarigueya](https://x.com/Hanaswing/status/1921134059658330192)

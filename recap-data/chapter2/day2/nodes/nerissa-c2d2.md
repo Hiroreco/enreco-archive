@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Sometimes, career plans fall through, and cracks begin to form, revealing the grim outlook of the industry we've dedicated our craft to. Competition breeds cutthroat survival tactics, and it's clear that if we keep undercutting each other's prices like this, we'll never turn a profit!
 
 Nerissa's cooking skills had surpassed many within Libestal, and she created nothing but impactful Gourmet cuisine from even the most simple of ingredients (potato salad, for short). She even built a charming Glowstone path to her establishment, so why was nobody coming?
@@ -28,10 +31,8 @@ She ended the day journaling in her journal. Not about her culinary conquests th
 
 ## Fanart
 
-["...can't go back to those happy days" by StandingPlace12](https://x.com/StandingPlace12/status/1921472739644199167)
+["Can't go back to those happy days" by StandingPlace12](https://x.com/StandingPlace12/status/1921472739644199167)
 
-["... help the business..." by andrslmu](https://x.com/andrslmu/status/1920687085301756408)
+["surely you would help the business of this witch?" by andrslmu](https://x.com/andrslmu/status/1920687085301756408)
 
 ["Demon of Salad, take my offering" by elskaelu](https://x.com/elskaelu/status/1918973111795359805)
-
-

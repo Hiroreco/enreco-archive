@@ -6,7 +6,7 @@ And Tam, by this point, was the third lucky (or unlucky) nickel in that bizarre 
 
 [Stepmom](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=etz5HD7bApu5gkq3&t=11936)
 
-Tam tried to worm her way out of the whole thing, but just like with Elizabeth Rose Bloodflame, the gem maiden was far too cunning, far too slippery, and far too persistent to be shaken off.
+Tam tried to worm her way out of the whole thing, but just like with Elizabeth Rose Bloodflame, the Gem Maiden was far too cunning, far too slippery, and far too persistent to be shaken off.
 
 [You have your mother's eyes](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=3wQ1uFGal6EzOCiR&t=17320)
 

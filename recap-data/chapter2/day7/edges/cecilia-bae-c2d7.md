@@ -1,8 +1,8 @@
 <!-- title: A Bridge Too Far -->
 
-Bae was worried for Cecilia at first; The Princess and the Outlander left in a tender moment. Something that was clearly more than platonic (perhaps, incestual) love. Nonetheless, Bae pushed through. She waited by the bridge, letter in hand and roses ready. Finally, Bae gave Cecilia her confession. Bae watched patiently as Cecilia read her letter, the kind knight's voice faltering every so often. When Cecilia finished reading, Bae kneeled and presented her flowers, answering any question Cecilia asked her.
+Bae was worried for Cecilia at first; The Princess and the Outlander left in a tender moment. Something that was clearly more than platonic (perhaps, incestual) love. Nonetheless, Bae pushed through. She waited by the bridge, letter in hand and roses ready. Finally, Bae gave Cecilia her confession. Bae watched patiently as Cecilia read her letter, the Kind Knight's voice faltering every so often. When Cecilia finished reading, Bae kneeled and presented her flowers, answering any question Cecilia asked her.
 
-[Yes, it is you.](https://youtu.be/Br6dvhVJ_IE?t=4740)
+[Yes, it is you.](#embed:https://youtu.be/Br6dvhVJ_IE?t=4740)
 
 There was no need to mince words or prolong a painful moment: Bae's love was for naught, for Immerkind, though thankful for Bae's feelings, must follow her own heart for the princess. Cecilia will stay in Libestal. Perhaps, one day, she and Bae may meet again and then they can talk. They parted, once friendly companions now sorely strained.
 
@@ -21,3 +21,9 @@ Not Immerkind’s. No, someone else. Someone who had seen her. Heard her. Unders
 Perhaps, after all, Bae had made a real connection. Perhaps there was someone whose hand would never let go.
 
 (see [Gonathon-Bae](#edge:bae-gigi))
+
+## Fanart
+
+["The Peasant and the Knight" by innie](https://x.com/iennie_/status/1921194780282835402)
+
+["Unrequited Love" by Sora](https://x.com/GuyFloating/status/1921115744143614058)

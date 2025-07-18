@@ -1,9 +1,22 @@
-import { FixedEdgeType, ImageNodeType, RelationshipMap, TeamMap } from "@enreco-archive/common/types";
+import {
+    FixedEdgeType,
+    ImageNodeType,
+    RelationshipMap,
+    TeamMap,
+} from "@enreco-archive/common/types";
 import { create } from "zustand";
-import { immer } from "zustand/middleware/immer"; 
+import { immer } from "zustand/middleware/immer";
 
 export type CardType = "node" | "edge" | "setting" | null;
-export type ModalType = "info" | "settings" | "minigame" | "chapterRecap" | "video" | null;
+export type ModalType =
+    | "info"
+    | "settings"
+    | "minigame"
+    | "chapterRecap"
+    | "video"
+    | "fanart"
+    | "music"
+    | null;
 
 interface ViewState {
     data: {
@@ -12,7 +25,7 @@ interface ViewState {
 
         day: number;
         setDay: (day: number) => void;
-    },
+    };
 
     ui: {
         currentCard: CardType;
@@ -24,11 +37,14 @@ interface ViewState {
         selectedElement: ImageNodeType | FixedEdgeType | null;
         selectElement: (element: ImageNodeType | FixedEdgeType) => void;
         deselectElement: () => void;
-    },
+    };
 
     visibility: {
         relationship: { [key: string]: boolean };
-        toggleRelationship: (relationshipId: string, relationshipVisibility: boolean) => void;
+        toggleRelationship: (
+            relationshipId: string,
+            relationshipVisibility: boolean,
+        ) => void;
         toggleAllRelationships: (relationshipVisibility: boolean) => void;
         setRelationshipKeys: (relationships: RelationshipMap) => void;
 
@@ -41,10 +57,13 @@ interface ViewState {
         setTeamKeys: (teams: TeamMap) => void;
 
         character: { [key: string]: boolean };
-        toggleCharacter: (characterId: string, characterVisibility: boolean) => void;
+        toggleCharacter: (
+            characterId: string,
+            characterVisibility: boolean,
+        ) => void;
         toggleAllCharacters: (characterVisibility: boolean) => void;
         setCharacterKeys: (nodes: ImageNodeType[]) => void;
-    },
+    };
 
     modal: {
         openModal: ModalType;
@@ -53,123 +72,197 @@ interface ViewState {
         openMinigameModal: () => void;
         openChapterRecapModal: () => void;
         openVideoModal: () => void;
+        openFanartModal: () => void;
+        openMusicPlayerModal: () => void;
         closeModal: () => void;
-
         videoUrl: string | null;
         setVideoUrl: (currentVideoUrl: string | null) => void;
-    }
+    };
 }
 
-export const useViewStore = create<ViewState>()(immer((set, get) => {
-    const [initialChapter, initialDay] = [0, 0];
+export const useViewStore = create<ViewState>()(
+    immer((set) => {
+        const [initialChapter, initialDay] = [0, 0];
 
-    return {
-        data: {
-            chapter: initialChapter,
-            setChapter: (chapter) => set(draft => { draft.data.chapter = chapter; }),
+        return {
+            data: {
+                chapter: initialChapter,
+                setChapter: (chapter) =>
+                    set((draft) => {
+                        draft.data.chapter = chapter;
+                    }),
 
-            day: initialDay,
-            setDay: (day) => set(draft => { draft.data.day = day; }),
-        },
+                day: initialDay,
+                setDay: (day) =>
+                    set((draft) => {
+                        draft.data.day = day;
+                    }),
+            },
 
-        ui: {
-            currentCard: null,
-            openNodeCard: () => set(draft => { draft.ui.currentCard = "node"; }),
-            openEdgeCard: () => set(draft => { draft.ui.currentCard = "edge"; }),
-            openSettingsCard: () => set(draft => { draft.ui.currentCard = "setting"; }),
-            closeCard: () => set(draft => { draft.ui.currentCard = null; }),
+            ui: {
+                currentCard: null,
+                openNodeCard: () =>
+                    set((draft) => {
+                        draft.ui.currentCard = "node";
+                    }),
+                openEdgeCard: () =>
+                    set((draft) => {
+                        draft.ui.currentCard = "edge";
+                    }),
+                openSettingsCard: () =>
+                    set((draft) => {
+                        draft.ui.currentCard = "setting";
+                    }),
+                closeCard: () =>
+                    set((draft) => {
+                        draft.ui.currentCard = null;
+                    }),
 
-            selectedElement: null,
-            selectElement: (element) => set(draft => { draft.ui.selectedElement = element; }),
-            deselectElement: () => set(draft => { draft.ui.selectedElement = null; }),
-        },
+                selectedElement: null,
+                selectElement: (element) =>
+                    set((draft) => {
+                        draft.ui.selectedElement = element;
+                    }),
+                deselectElement: () =>
+                    set((draft) => {
+                        draft.ui.selectedElement = null;
+                    }),
+            },
 
-        visibility: {
-            relationship: {},
-            toggleRelationship: (relationshipId, relationshipVisibility) => 
-                set(draft => { draft.visibility.relationship[relationshipId] = relationshipVisibility; }),
-            toggleAllRelationships: (relationshipVisibility) => 
-                set(draft => {
-                    const keys = Object.keys(get().visibility.relationship);
+            visibility: {
+                relationship: {},
+                toggleRelationship: (relationshipId, relationshipVisibility) =>
+                    set((draft) => {
+                        draft.visibility.relationship[relationshipId] =
+                            relationshipVisibility;
+                    }),
+                toggleAllRelationships: (relationshipVisibility) =>
+                    set((draft) => {
+                        const keys = Object.keys(draft.visibility.relationship);
 
-                    for(const key of keys) {
-                        draft.visibility.relationship[key] = relationshipVisibility;
-                    }
-                }),
-            setRelationshipKeys: (relationships) => 
-                set(draft => {
-                    const keys = Object.keys(relationships);
+                        for (const key of keys) {
+                            draft.visibility.relationship[key] =
+                                relationshipVisibility;
+                        }
+                    }),
+                setRelationshipKeys: (relationships) =>
+                    set((draft) => {
+                        const keys = Object.keys(relationships);
 
-                    const newRelationshipVisibility: { [key: string]: boolean } = {};
-                    for(const key of keys) {
-                        newRelationshipVisibility[key] = true;
-                    }
+                        const newRelationshipVisibility: {
+                            [key: string]: boolean;
+                        } = {};
+                        for (const key of keys) {
+                            newRelationshipVisibility[key] = true;
+                        }
 
-                    draft.visibility.relationship = newRelationshipVisibility;
-                }),
+                        draft.visibility.relationship =
+                            newRelationshipVisibility;
+                    }),
 
-            showOnlyNewEdges: true,
-            setShowOnlyNewEdges: (showOnlyNewEdges) => 
-                set(draft => { draft.visibility.showOnlyNewEdges = showOnlyNewEdges; }),
+                showOnlyNewEdges: true,
+                setShowOnlyNewEdges: (showOnlyNewEdges) =>
+                    set((draft) => {
+                        draft.visibility.showOnlyNewEdges = showOnlyNewEdges;
+                    }),
 
-            team: {},
-            toggleTeam: (teamId, teamVisibility) => 
-                set(draft => { draft.visibility.team[teamId] = teamVisibility; }),
-            toggleAllTeams: (teamVisibility: boolean) => 
-                set(draft => {
-                    const keys = Object.keys(get().visibility.team);
+                team: {},
+                toggleTeam: (teamId, teamVisibility) =>
+                    set((draft) => {
+                        draft.visibility.team[teamId] = teamVisibility;
+                    }),
+                toggleAllTeams: (teamVisibility: boolean) =>
+                    set((draft) => {
+                        const keys = Object.keys(draft.visibility.team);
 
-                    for(const key of keys) {
-                        draft.visibility.team[key] = teamVisibility;
-                    }
-                }),
-            setTeamKeys: (teams: TeamMap) => 
-                set(draft => {
-                    const keys = Object.keys(teams);
+                        for (const key of keys) {
+                            draft.visibility.team[key] = teamVisibility;
+                        }
+                    }),
+                setTeamKeys: (teams: TeamMap) =>
+                    set((draft) => {
+                        const keys = Object.keys(teams);
 
-                    const newTeamVisibility: { [key: string]: boolean } = {};
-                    for(const key of keys) {
-                        newTeamVisibility[key] = true;
-                    }
+                        const newTeamVisibility: { [key: string]: boolean } =
+                            {};
+                        for (const key of keys) {
+                            newTeamVisibility[key] = true;
+                        }
 
-                    draft.visibility.team = newTeamVisibility;
-                }),
+                        draft.visibility.team = newTeamVisibility;
+                    }),
 
-            character: {},
-            toggleCharacter: (characterId, characterVisibility) =>
-                set(draft => { draft.visibility.character[characterId] = characterVisibility; }),
-            toggleAllCharacters: (characterVisibility: boolean) => 
-                set(draft => {
-                    const keys = Object.keys(get().visibility.character);
+                character: {},
+                toggleCharacter: (characterId, characterVisibility) =>
+                    set((draft) => {
+                        draft.visibility.character[characterId] =
+                            characterVisibility;
+                    }),
+                toggleAllCharacters: (characterVisibility: boolean) =>
+                    set((draft) => {
+                        const keys = Object.keys(draft.visibility.character);
 
-                    for(const key of keys) {
-                        draft.visibility.character[key] = characterVisibility;
-                    }
-                }),
-            setCharacterKeys: (nodes: ImageNodeType[]) => 
-                set(draft => {
-                    const keys = nodes.map(n => n.id);
+                        for (const key of keys) {
+                            draft.visibility.character[key] =
+                                characterVisibility;
+                        }
+                    }),
+                setCharacterKeys: (nodes: ImageNodeType[]) =>
+                    set((draft) => {
+                        const keys = nodes.map((n) => n.id);
 
-                    const newCharacterVisibility: { [key: string]: boolean } = {};
-                    for(const key of keys) {
-                        newCharacterVisibility[key] = true;
-                    }
+                        const newCharacterVisibility: {
+                            [key: string]: boolean;
+                        } = {};
+                        for (const key of keys) {
+                            newCharacterVisibility[key] = true;
+                        }
 
-                    draft.visibility.character = newCharacterVisibility;
-                }),
-        },
+                        draft.visibility.character = newCharacterVisibility;
+                    }),
+            },
 
-        modal: {
-            openModal: null,
-            openInfoModal: () => set(draft => { draft.modal.openModal = "info"; }),
-            openSettingsModal: () => set(draft => { draft.modal.openModal = "settings"; }),
-            openMinigameModal: () => set(draft => { draft.modal.openModal = "minigame"; }),
-            openChapterRecapModal: () => set(draft => { draft.modal.openModal = "chapterRecap"; }),
-            openVideoModal: () => set(draft => { draft.modal.openModal = "video"; }),
-            closeModal: () => set(draft => { draft.modal.openModal = null; }),
+            modal: {
+                openModal: null,
+                openInfoModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "info";
+                    }),
+                openSettingsModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "settings";
+                    }),
+                openMinigameModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "minigame";
+                    }),
+                openChapterRecapModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "chapterRecap";
+                    }),
+                openVideoModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "video";
+                    }),
+                openFanartModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "fanart";
+                    }),
+                openMusicPlayerModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "music";
+                    }),
+                closeModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = null;
+                    }),
 
-            videoUrl: null,
-            setVideoUrl: (videoUrl) => set(draft => { draft.modal.videoUrl = videoUrl; }),
-        }
-    };
-}));
+                videoUrl: null,
+                setVideoUrl: (videoUrl) =>
+                    set((draft) => {
+                        draft.modal.videoUrl = videoUrl;
+                    }),
+            },
+        };
+    }),
+);

@@ -1,8 +1,11 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 The lands were burning. Grass, leaves, and plants withered as a dark atmosphere cloaked the kingdom. All of it stemmed from a single source: the Stain Princess, Koseki Bijou. Having rebelled against the king, her comrades, and everything she once stood for, Bijou surrendered herself entirely to darkness. And this was just the beginning. Soon, the kingdom, its people, and everything else would be under her rule.
 
 [Corruption tour goes hard](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=2dtIYm0_FVJFB59D&start=604)
 
-She stood amidst her masterpiece—a forest corrupted and stained, littered with flames. In the heart of this chaos, she constructed a small, ominous pillar adorned with four guild hats, surrounded by fire, with a sign that read: _"FIRE FIRE LIGHT THE FIRE"._ It was a grim warning to all who dared oppose her. Nearby, a moai statue wept blood, symbolizing the land’s despair under its false queen. The imagery was deliberate; Bijou sought to bring chaos and suffering.
+She stood amidst her masterpiece—a forest corrupted and stained, littered with flames. In the heart of this chaos, she constructed a small, ominous pillar adorned with four guild hats, surrounded by fire, with a sign that read, _"FIRE FIRE LIGHT THE FIRE."_ It was a grim warning to all who dared oppose her. Nearby, a moai statue wept blood, symbolizing the land’s despair under its false queen. The imagery was deliberate; Bijou sought to bring chaos and suffering.
 
 While exploring the kingdom, Bijou stumbled upon an unusual sight. The kingdom’s gardens had been ravaged by famine, though not by her hand. Could she have an [ally](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=805), someone aligned with her chaotic vision? The idea amused her. Distracted momentarily, she indulged in a game of [chicken-catching](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=1182)—a brief respite from her descent into darkness.
 
@@ -16,11 +19,11 @@ Bijou’s ambition extended beyond destruction. She envisioned rewriting the kin
 [Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)
 [Read "Fire and Flight (Volume 3)"](#text:fire-and-flight-3)
 
-As she pondered, flashes of memories surfaced—fragments of bonds forged during her journey. For a fleeting moment, her corrupted heart wavered. But she quickly dismissed those thoughts. Her former companions, comrades, even those she had shared moments of intimacy with, no longer mattered. Power was her sole focus now. Yet, in her solitude, an unshakable loneliness lingered.
+As she pondered, flashes of memories surfaced—fragments of bonds forged during her journey. For a fleeting moment, her corrupted heart wavered. But she quickly dismissed those thoughts. Her former companions, comrades, and even those she had shared moments of intimacy with no longer mattered. Power was her sole focus now. Yet, in her solitude, an unshakable loneliness lingered.
 
 [3AM chuuni speech](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=5ujXRmx4bgpcTv1c&start=1757)
 
-She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama"](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=6121). Even in her chaos, she found time to write her "spicy fics", boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou)).
+She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama."](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=6121) Even in her chaos, she found time to write her "spicy fics," boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou)).
 
 Bijou’s suspicions of having allies proved correct. Slowly, Mococo, Fuwawa, Nerissa, and even Shiori succumbed to the corruption, joining her in wreaking havoc. However, her newfound power began unraveling when she faced her mother, Mario. Mario, heartbroken and in tears, begged Bijou to stop, only to be rejected.
 
@@ -34,8 +37,18 @@ The kingdom rejoiced. Mario’s tears of sorrow turned to joy as she embraced he
 
 [I'm sorry for everything](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=12247)
 
-Awakened with a clear mind, Bijou reflected on the dangers of losing herself to control, whether by corruption or others’ expectations. Determined to redefine herself, she severed ties with her superficial relationships, including Shiori, Hot Pink One, and Nerissa (see [Divorce No.1](#edge:shiori-bijou), [No.2](#edge:bijou-irys), and [No.3](#edge:nerissa-bijou)).
+Awakened with a clear mind, Bijou reflected on the dangers of losing control, whether by corruption or others’ expectations. Determined to redefine herself, she severed ties with her superficial relationships, including Shiori, Hot Pink One, and Nerissa (see [Divorce No.1](#edge:shiori-bijou), [No.2](#edge:bijou-irys), and [No.3](#edge:nerissa-bijou)).
 
 Finally, Bijou stood alongside her comrades for the final battle against the [Stain King](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=15132). Channeling her fury at the corruption that had consumed her, she fought fiercely, her gemstones striking true. Though the battle was won, the heroes faced an unsettling revelation about the king’s true nature (see [King: The True Evil](#node:king-of-libestal)).
 
-And then, everyone was brought back to the [white room](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=16724), where everything began, and where this chapter closes.
+And then, everyone was brought back to the [white room](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=16724), where everything began and where this chapter closes.
+
+## Fanart
+
+["The Stain Princess" by Captain Skelefun](https://x.com/captainskelefun/status/1900878033872986249)
+
+["Princess" by SK JYNX](https://x.com/SK_Jynx/status/1833175491957968955)
+
+["Corruption" by Dr. Pigeon](https://x.com/PhdPigeon/status/1896821416395436357)
+
+["Corruption" by Magho](https://x.com/M_Agho/status/1834940565013868751)

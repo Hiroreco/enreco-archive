@@ -1,6 +1,9 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
-She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Falling Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
+She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Shining Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
 
 _"We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider"_.
 
@@ -20,16 +23,21 @@ She continues her exploration of the castle, stopping anyone who is potentially 
 
 [Saving you and the world](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
 
-She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Novella at their restaurant for respite.
+She returns to the job hall where the adventurers toil to accomplish their tasks when she meets Tanakisha Karia, and they learn they are cousins (see [Cecilia-Kiara: Cousins](#edge:cecilia-kiara)) and declare a rivalry to become the most kind. After a tiring day, Immerkind sets up shop next to Gonathon and visits Mordan Ramsey and Shiori of the Nyavellas at their restaurant for respite.
 
 After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day.
 
 ### Objective Tracker - Project Abortion
 
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
-[Libestan Two - Grypon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
+[Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 
-### Fanart
+## Fanart
 
 [Revelation by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
-[The Princess is Kind, by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+
+[The Princess is Kind by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+
+<!-- iphania -->
+
+[Cecilia by SEBU](https://x.com/SEBU_illust/status/1899563774933340404)

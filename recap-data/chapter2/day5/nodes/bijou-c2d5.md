@@ -1,12 +1,19 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 Today was the day Princess Bijou wanted to set things straight.
 
 She had awoken from the bed of her beloved. It was the first night of restful sleep she had in four days; she either slept on the floor of her shop or collapsed (like that one time at the end of Day 2).
 
-She went back to her shop, where she found the story she commissioned from her dearly beloved! Hidden in a corner, [she read it out loud.](https://youtu.be/AwTYvoyB3Xo?t=515)
+She went back to her shop, where she found the story she commissioned from her dearly beloved! Hidden in a corner, she read it out loud.
+
+[Doki doki](#embed:https://youtu.be/AwTYvoyB3Xo?t=515)
+
+[Read "The Princess 1"](#text:the-princess-1)
 
 It was only 10 pages long like she asked, but… it ended on a cliffhanger! She desperately wanted to see what would happen next. Luckily, Shiori just got on, so she was able to ask for a sequel then and there.
 
-The gem then met up with her boss, Roa, who seemed to [have the hots for a certain scarlet knight?](https://youtu.be/AwTYvoyB3Xo?t=3401)
+The gem then met up with her boss, Roa, who seemed to [have the hots for a certain Scarlet Knight?](https://youtu.be/AwTYvoyB3Xo?t=3401)
 
 Bijou tried to push her towards making a move, and it seems like she did—although she made it anonymous, a secret admirer sort of situation. Whatever happened after that wasn’t Bijou’s problem at that point.
 
@@ -62,7 +69,7 @@ IRyS’ pain subsided briefly, but it came back. Is the baby… still there? IRy
 
 After this traumatic experience, she [meets with Shiori again](https://youtu.be/AwTYvoyB3Xo?t=22527) to talk about the circumstances of the gender reveal party. After the absolute chaos that ensued that day, they sat on the front porch of the house next to the wagon. Elizabeth was there as well. It’s at this moment when Princess Bijou, ever innocent, asked the Red Knight…
 
-["Do you think there are truly good people in this world?"](#embed:https://youtu.be/AwTYvoyB3Xo?t=22748)
+["Are truly good people in this world?"](#embed:https://youtu.be/AwTYvoyB3Xo?t=22748)
 
 They also spent some time gossiping about the lore of the kingdom so far before heading out. Bijou listened to Elizabeth’s answer to her question in earnest, but she wasn’t convinced.
 

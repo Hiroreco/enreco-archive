@@ -6,7 +6,9 @@ After everything—after all the chaos, the love, the heartbreak—she finally r
 
 [Oof, agh, ouch](#embed:https://www.youtube.com/live/kwmxMSD8tTU?t=975)
 
-The Hot Pink One was stunned, lost for words. She didn’t want to be apart from Ina—not now, not ever. She didn’t just *want* Ina by her side—she *needed* her. Ina was hers, and hers alone. Without her, the world felt cold, empty, and unbearable. She couldn’t even imagine a life without her consort’s presence—her voice, her warmth, her quiet support in even the most turbulent of times. She had to let Ina know. She had to make her [understand](https://www.youtube.com/live/kwmxMSD8tTU?t=3594) how much she meant.
+[Read "Dearest Consort"](#text:dearest-consort)
+
+The Hot Pink One was stunned, lost for words. She didn’t want to be apart from Ina—not now, not ever. She didn’t just _want_ Ina by her side—she _needed_ her. Ina was hers, and hers alone. Without her, the world felt cold, empty, and unbearable. She couldn’t even imagine a life without her consort’s presence—her voice, her warmth, her quiet support in even the most turbulent of times. She had to let Ina know. She had to make her [understand](https://www.youtube.com/live/kwmxMSD8tTU?t=3594) how much she meant.
 
 [I will always love you](#embed:https://www.youtube.com/live/kwmxMSD8tTU?t=4116)
 

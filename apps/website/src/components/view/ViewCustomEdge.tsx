@@ -1,6 +1,6 @@
-import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
-import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { FixedEdgeProps } from "@enreco-archive/common/types";
+import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { memo, useContext, useEffect, useMemo, useRef, useState } from "react";
 
 import "@/components/view/ViewCustomEdge.css";
@@ -8,9 +8,9 @@ import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 const ViewCustomEdge = ({
     id,
+    style,
     data,
     selectable,
-    style,
     sourceX,
     sourceY,
     sourcePosition,
@@ -30,7 +30,10 @@ const ViewCustomEdge = ({
     });
 
     const { relationships } = useContext(CurrentChapterDataContext);
-    
+    const relationshipStyle = data
+        ? (relationships[data?.relationshipId]?.style ?? {})
+        : {};
+
     const path = useMemo(
         () =>
             generatePath(
@@ -56,9 +59,9 @@ const ViewCustomEdge = ({
     );
 
     useEffect(() => {
-        if(pathRef.current) {
+        if (pathRef.current) {
             const bbox = pathRef.current.getBBox();
-            const padding = 20;
+            const padding = 10;
             setMaskBounds({
                 x: bbox.x - padding,
                 y: bbox.y - padding,
@@ -68,16 +71,26 @@ const ViewCustomEdge = ({
         }
     }, []);
 
-    const relationshipStyle = data ? relationships[data?.relationshipId]?.style ?? {} : {};
-    
+    useEffect(() => {
+        if (isNewlyAdded && pathRef.current) {
+            const length = pathRef.current.getTotalLength();
+            pathRef.current.style.strokeDasharray = `${length}`;
+            pathRef.current.style.strokeDashoffset = `${length}`;
+            pathRef.current.style.animation =
+                "drawLine 1s ease-in-out forwards";
+        } else if (pathRef.current) {
+            pathRef.current.style.strokeDasharray = "none";
+            pathRef.current.style.strokeDashoffset = "none";
+            pathRef.current.style.animation = "none";
+        }
+    }, [isNewlyAdded]);
+
     return (
-        <>
-            { isNewlyAdded &&
-                <defs>
-                    { /* Mask for line drawing animation */ }
-                    <mask 
-                        id={maskId} 
-                        maskUnits="userSpaceOnUse"
+        <g>
+            <defs>
+                {relationshipStyle.strokeDasharray && (
+                    <mask
+                        id={maskId}
                         x={maskBounds.x}
                         y={maskBounds.y}
                         width={maskBounds.width}
@@ -86,28 +99,29 @@ const ViewCustomEdge = ({
                         <path
                             d={path}
                             stroke="white"
-                            strokeWidth={25}
-                            pathLength="1"
+                            strokeWidth={selected ? 7 : 5}
+                            strokeDasharray={relationshipStyle.strokeDasharray}
                             fill="none"
                             strokeLinecap="round"
-                            className="new-custom-edge-mask-path"
+                            className={cn({
+                                "custom-edge": !selected,
+                                "custom-edge-selected": selected,
+                            })}
                         />
                     </mask>
-                </defs>
-            }
+                )}
+            </defs>
 
             {/* Transparent click area */}
-            { selectable &&
+            {selectable && (
                 <path
                     d={path}
                     fill="none"
                     stroke="transparent"
                     strokeWidth={25}
                     strokeLinecap="round"
-                    mask={isNewlyAdded ? `url(#${maskId})` : undefined}
-                    style={{ zIndex: 5 }}
                 />
-            }
+            )}
 
             {/* Actual edge */}
             <path
@@ -117,7 +131,7 @@ const ViewCustomEdge = ({
                     ...relationshipStyle,
                     ...style,
                     transition: "opacity 1s, stroke-width .3s, stroke 1s",
-                    zIndex: 0
+                    zIndex: 0,
                 }}
                 className={cn({
                     "custom-edge": !selected,
@@ -126,7 +140,6 @@ const ViewCustomEdge = ({
                 mask={isNewlyAdded ? `url(#${maskId})` : undefined}
             />
 
-            {/* Animated light effect when selected */}
             {selected && (
                 <path
                     d={path}
@@ -141,7 +154,7 @@ const ViewCustomEdge = ({
                     }}
                 />
             )}
-        </>
+        </g>
     );
 };
 

@@ -2,7 +2,7 @@
 
 **Elizabeth's Point of View**
 
-Reaching the fifth day of the journey without any conflicts or misunderstandings that could spark heartbreak, the bond between the scarlet knight and the blue raven lady officially broke their previous record. That’s progress, right? Hard to say—eye contact alone still seemed like a final boss fight.
+Reaching the fifth day of the journey without any conflicts or misunderstandings that could spark heartbreak, the bond between the Scarlet Knight and the blue raven lady officially broke their previous record. That’s progress, right? Hard to say—eye contact alone still seemed like a final boss fight.
 
 [Why aren’t you looking at her?](#embed:https://www.youtube.com/live/9gL4We5utAk?t=684s)
 
@@ -86,9 +86,6 @@ And wait until her heart shows through.
 
 A love like ours, strange and sublime—
 It hurts. It heals. It takes its time.
-
-_(writer's note: Nerissa, girl, why are you like this she was just chillin)_
-_(writer's note 2: this took me over an hour I hope you're happy Nerissa (affectionate))_
 
 ## Fanart
 

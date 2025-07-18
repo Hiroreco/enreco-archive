@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: Alive -->
+
 The Hot Pink One had forgotten—_actually_ forgotten. Not from amnesia, not from time travel, not from magical interference. She just… [forgot](https://www.youtube.com/live/xzAqu4vkY7I?si=pjoUkIMvyhTJhGRu&t=375). The Outsider? The King? None of those names registered, not even a flicker of recognition when they were brought up.
 
 But what she _didn’t_ forget were the people she was about to meet.
@@ -29,3 +32,5 @@ In the end, she opened her own shop—a [pink one](https://www.youtube.com/live/
 ## Fanart
 
 ["IRyS" by Wynnie](https://x.com/WynnTerra_/status/1902017659547353299/photo/1)
+
+["fallen angel" by DasDokter](https://x.com/DasDokter/status/1902324865778250152)

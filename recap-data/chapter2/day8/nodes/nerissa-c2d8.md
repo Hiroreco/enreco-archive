@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 **SHADOW**
 
 There she stood. Awake in the dead of the night, [staring back at her portrait](https://youtu.be/MXqotm_8_Hc?t=228), entranced, she drowned in the deafening silence of a seemingly peaceful evening. Deep within, there was a storm brewing. All that pain she suffered from unrequited love... the anxiety that crawls into every bit of her nerves… The jealousy that stabbed her in the back gradually coalesced to form a maelstrom that could wreak havoc on anyone who stood in her way.
@@ -8,7 +11,7 @@ She was ready to exact revenge.
 
 **BLOOD IN THE BREEZE**
 
-Breaking from her own "spell", she went about her way, [killing the remnants of the Stains](https://youtu.be/MXqotm_8_Hc?t=483) that were left after the salvage of Libestal, destroying everything that came across her. Even an innocent cow was not spared from this woman’s rage.
+Breaking from her own "spell," she went about her way, [killing the remnants of the Stains](https://youtu.be/MXqotm_8_Hc?t=483) that were left after the salvage of Libestal, destroying everything that came across her. Even an innocent cow was not spared from this woman’s rage.
 
 ---
 
@@ -20,7 +23,7 @@ She placed her lot—first, on all colors except blue. Although there was more t
 
 _“What is it you’re hoping for?”_
 
-Nerissa felt rather than heard the words, her eyes fixated, determined, ahead. The color cannon was now loaded, and the voices continued to rise in volume as they placed their bets on the last surviving color… Inwardly, she argued and questioned why, despite all impossibility, some voices still insisted on asking for "red". Why, after all, keep holding onto hope? Why keep praying for miracles? When blue is inevitable. A destiny that could hardly be defied.
+Nerissa felt rather than heard the words, her eyes fixated, determined, ahead. The color cannon was now loaded, and the voices continued to rise in volume as they placed their bets on the last surviving color… Inwardly, she argued and questioned why, despite all impossibility, some voices still insisted on asking for "red." Why, after all, keep holding onto hope? Why keep praying for miracles? When blue is inevitable. A destiny that could hardly be defied.
 
 Another round went by; the voices continued to risk everything for the slightest chance of victory, while Nerissa kept denying herself any form of optimism, fully convinced that she could not escape her fate… that she did not need any saving.
 
@@ -48,7 +51,7 @@ One thing was for certain, however- something was wrong, and it was up to her to
 
 Right before the victory banquet started, Nerissa [met up with Shiori Nyavella who happened to be with Princess Bijou](https://youtu.be/MXqotm_8_Hc?t=7518), who then claimed to have just become a witch. The jeweler expressed her desire to learn more from them, and the two were "kind" enough to accept her as apprentice. Shiori inquired if it would just be the three of them, to which Nerissa replied perhaps they could recruit two more. Thus, they called the Fluffy One and the Fuzzy One, for certainly, no apparent reason.
 
-From henceforth, they shall be called "Coven Rebellion".
+From henceforth, they shall be called "Coven Rebellion."
 
 Would this coven be just another harmless faction? Or would they be a threat to the renewed peace in Libestal?
 
@@ -56,8 +59,14 @@ Would this coven be just another harmless faction? Or would they be a threat to 
 
 ## Fan Arts
 
-["naow" by  Chaku](https://x.com/DiChwis12652/status/1922518834847625230)
+["Nerissa" by BRASILEIRoo0](https://x.com/BRASILEIROO0/status/1923024077683347585)
 
-["-Advent-" by Haaro](https://x.com/haaro_69/status/1922094444339462652)
+["la vie en rose" by nino](https://x.com/2nochuu/status/1924239997458383113)
 
-[Untitled by BRASILEIRoo0](https://x.com/BRASILEIROO0/status/1923024077683347585)
+["ABSOLUTE CINEMA" by seapupu](https://x.com/seapupu290495/status/1921597971465920739)
+
+<!-- shiori -->
+
+## Memes
+
+["Future wife" by Erza](https://x.com/Ezralguard/status/1921418653880271200)

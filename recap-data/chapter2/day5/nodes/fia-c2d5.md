@@ -1,3 +1,6 @@
+<!-- title: Fia -->
+<!-- status: Alive -->
+
 Another piece of Fia's memory resurfaced—perhaps the final fragment. But rather than tying all the threads together, this revelation only unraveled more.
 
 [The Princess' Doll](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=8VkaP1-inxJZVfpp&t=9357)

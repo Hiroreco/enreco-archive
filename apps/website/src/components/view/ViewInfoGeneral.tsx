@@ -1,10 +1,43 @@
+const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
+    const now = new Date();
+    const diffMonth =
+        now.getMonth() -
+        date.getMonth() +
+        12 * (now.getFullYear() - date.getFullYear());
+    const diffDays = now.getDate() - date.getDate();
+    const diffMonths = Math.floor(diffMonth + (diffDays < 0 ? -1 : 0));
+    const remainingDays =
+        diffDays < 0
+            ? new Date(now.getFullYear(), now.getMonth(), 0).getDate() +
+              diffDays
+            : diffDays;
+
+    return `${Math.abs(diffMonths)} month${Math.abs(diffMonths) !== 1 ? "s" : ""} ${Math.abs(remainingDays)} day${Math.abs(remainingDays) !== 1 ? "s" : ""}`;
+};
+
 const ViewInfoGeneral = () => {
     return (
         <div className="flex flex-col gap-4">
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on June 10th, 2025 (Fixed/Updated Chapter 2 Recaps)
+                    Updated on June 10th, 2025
+                </span>
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    Days since last episode:{" "}
+                    <span className="font-bold">
+                        {getDateDifference(
+                            new Date(
+                                new Date("2025-05-11").toLocaleString("en-US", {
+                                    timeZone: "Asia/Tokyo",
+                                }),
+                            ),
+                        )}
+                    </span>
+                </span>
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    Days until next chapter:{" "}
+                    <span className="font-bold">No info</span>
                 </span>
             </div>
             <div>
@@ -99,8 +132,8 @@ const ViewInfoGeneral = () => {
             </div>
 
             <div className="text-sm text-muted-foreground">
-                Note: If you experince major lag when using the site, try
-                switching to a Chromium-based browser (like Chrome, Opera or
+                Note: If you experience major lag when using the site, try
+                switching to a Chromium-based browser (like Chrome, Opera, or
                 Edge).
             </div>
 
@@ -109,7 +142,7 @@ const ViewInfoGeneral = () => {
             </div>
             <div>
                 This is a non-profit fan project and is not affiliated with
-                Cover Corp nor Mojang. The site uses music taken from the
+                COVER Corp. nor Mojang. The site uses music taken from the
                 talents' streams, as well as sound effects and assets from
                 Minecraft, following{" "}
                 <a
@@ -125,7 +158,7 @@ const ViewInfoGeneral = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Minecraft Usage Guidlines.
+                    Minecraft Usage Guidelines.
                 </a>
             </div>
         </div>

@@ -12,7 +12,7 @@ Despite all that Gonathon had done, and despite admitting he was still a fool, S
 
 [We’re good neighbors!](#embed:https://youtu.be/alQr5XqoUPs?t=14029)
 
-From there, Shiori would attempt to dissuade Gonathon from being too brash about assisting Tam Gandr, although her words were unable to restrain the loyal knight from leaping to his queen’s defense. As the witch and knight parted for the final time that day, it was abundantly clear that Shiori was far from done with the humble knight, and in some ways, may just be getting started in pulling his strings.
+From there, Shiori would attempt to dissuade Gonathon from being too brash about assisting Tam Gandr, although her words were unable to restrain the loyal knight from leaping to his queen’s defense. As the witch and knight parted for the final time that day, it was abundantly clear that Shiori was far from done with the Humble Knight, and in some ways, may just be getting started in pulling his strings.
 
 ## Fanart
 

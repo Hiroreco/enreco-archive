@@ -1,20 +1,23 @@
+<!-- title: Roa Pandora -->
+<!-- status: In-bread -->
+
 The previous day didn't end as Roa wanted, but it wouldn't matter since _today_ would be the day romance shall bloom and a wedding shall be hers. [Her precious ring](https://youtu.be/m2OG5auudrQ?t=380) was ready, and as she planned—
 
 A phone call from Elizabeth. (See [Roa-Elizabeth: Love Unlasting](#edge:raora-liz))
 
 Distracted and flustered, Roa answered. She reassured Elizabeth that she was fine when the Red Knight inquired about her health. There seemed to be something going around, since Mococo was feeling unwell. After hearing Elizabeth's concerns for Mococo, [Roa quickly walked back](https://youtu.be/m2OG5auudrQ?t=447) and mentioned that she too felt dizzy and sick from yesterday's accursed event. Elizabeth, too caring and trusting, immediately believed Roa and promised to help.
 
-[Roa's Blind, Delusional Love.](https://youtu.be/m2OG5auudrQ?t=509)
+[Roa's Blind, Delusional Love.](#embed:https://youtu.be/m2OG5auudrQ?t=509)
 
 However, fate was cruel—Roa saw Elizabeth with [Nerissa](https://youtu.be/m2OG5auudrQ?t=781); they even shared a room. [Nerissa's rather catty comeback](https://youtu.be/m2OG5auudrQ?t=823) pushed her over the edge, and despite Elizabeth’s comfort, Roa fled, calling Nerissa a witch.
 
 But the determination, the delusion, was too strong, as Roa refused to give up on Elizabeth. Anger still coursed through her as she left for the Remnant fields to once again fight the Stains. Another session to destress. Only for it to come back when Nerissa was nearby. Luckily, so was [Mordan Ramsey, who offered free therapy](https://youtu.be/m2OG5auudrQ?t=1407) to help Roa calm down.
 
-[Oh, it's so cute!](https://youtu.be/m2OG5auudrQ?t=1786)
+[Oh, it's so cute!](#embed:https://youtu.be/m2OG5auudrQ?t=1786)
 
 Perhaps therapy was the way to go. Roa's mood was better as she marveled at the pretty decorations for the party tonight. Floating lanterns filled the sky as "plates" were already placed on the picnic blanket. Roa called Shiori to inquire what time the party would start, easily agreeing to help with the decorations after Shiori answered.
 
-Despite her pursuit of love, Roa was still the CEO of The Gacharms and managed her shop for a while. Their time in Libestal was coming to a close, but there was one more dungeon to face. 
+Despite her pursuit of love, Roa was still the CEO of The Gacharms and managed her shop for a while. Their time in Libestal was coming to a close, but there was one more dungeon to face.
 
 With her new pickaxe, Roa met Elizabeth outside the kingdom and warned her to beware of “[the witch](https://youtu.be/m2OG5auudrQ?t=2753)” Nerissa. Elizabeth, unfazed, reminded Roa she was a strong knight—and said the real witch was Shiori. [Roa disagreed.](https://youtu.be/m2OG5auudrQ?t=2902)
 
@@ -61,3 +64,5 @@ She talked of love lost and love found in her diary.
 ## Fanart
 
 [Big Cat, Big Pains](https://x.com/fernrOreo/status/1923057970440536174)
+
+<!-- nerissa, liz -->

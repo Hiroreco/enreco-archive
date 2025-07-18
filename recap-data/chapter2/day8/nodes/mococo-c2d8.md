@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Mococo woke up from her bed with a funny feeling within her.
 
 She felt different today, though she couldn't quite explain why. Mococo felt much more _feral_ than usual, as if something was gnawing at her canine instincts. Sometimes, it felt like a light headache that she could simply sleep on. Other times, it sounded like a ticking time bomb she couldn't cut the wires of—and it was only getting louder each time...

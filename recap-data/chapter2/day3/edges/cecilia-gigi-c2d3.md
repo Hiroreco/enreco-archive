@@ -16,4 +16,10 @@ Cecilia concludes the day discussing her concerns about the ["Inbread"](https://
 
 ## Fanart
 
-["Born of a cult" by BunBBun](https://x.com/BunBBun1/status/1919963091464249648)
+["Immergreak-I mean IMMERKIND!" by kemi](https://x.com/Kemi_palitogay/status/1920602120526364860)
+
+["Pat Pat Pat AWOO!" by seapupu](https://x.com/seapupu290495/status/1919764225557197309)
+
+## Memes
+
+["hell yeah" by Ant](https://x.com/Antzk_3/status/1919608185536532533)

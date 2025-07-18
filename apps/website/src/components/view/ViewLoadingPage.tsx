@@ -62,7 +62,7 @@ const ViewLoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: "url('images-opt/bg-1-dark.webp')",
+                backgroundImage: "url('images-opt/bg-1-dark-opt.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -75,7 +75,7 @@ const ViewLoadingPage = ({
                 transition={{ duration: 0.5 }}
                 className="absolute top-0 left-0 w-screen h-screen -z-10"
                 style={{
-                    backgroundImage: "url('images-opt/bg-1.webp')",
+                    backgroundImage: "url('images-opt/bg-1-opt.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -94,8 +94,8 @@ const ViewLoadingPage = ({
                 <Image
                     src={
                         isAprilFools
-                            ? "/images-opt/bogos.webp"
-                            : "/images-opt/logo-1.webp"
+                            ? "/images-opt/bogos-opt.webp"
+                            : "/images-opt/logo-1-opt.webp"
                     }
                     alt="ENreco Archive Logo"
                     width={600}

@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 The events of yesterday lingered in Kiara's mind, and it was with concern that Kiara asked Mordan for a private word. Underneath the Chef's Tavern, Kiara [inquired about Mordan's well-being](https://youtu.be/0CHBuQwz_hY?t=836); the blind date had ended horribly for everyone, but especially for her fellow wolf. Mordan reassured her that, though she liked Gonathon, she would prioritize his feelings. But seeing the way Mordan put aside her own feelings, seemingly burying them within, made Kiara concerned.
 
 In the midst of their talk, Elizabeth, Kiara's Sugar Child, would come by to request a legendary upgrade stone—Kiara quickly provided it and was delighted to guess that it was a gift meant for a [certain Raven](https://youtu.be/0CHBuQwz_hY?t=1045), as the other woman frequently left gifts for Elizabeth. Elizabeth, flustered but not denying it, left.
@@ -37,3 +40,5 @@ Today was a calmer day, and perhaps tomorrow would be a nice day off.
 ## Fanart
 
 ["2 wolves, 1 big cat and a leader" by Roronico](https://x.com/roronico1512/status/1920392409898168688)
+
+<!-- raora, gigi, calli -->

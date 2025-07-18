@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 It is the day of the gas reveal, but preparations are still in order. Bijou shares her recent conversation with others, which leads them to believe that perhaps it's just [constipation](https://www.youtube.com/live/4_zJe0t0558?si=y5yjkh4NAX9clGIW&t=399), or perhaps a weird virus; only time could tell. Still, she desired to meet her beloved, and Shiori wanted to give her food, so they agreed to meet at the archiver's house.
 
 But upon reaching the archiver's door, she's first met with Gonathon G. Bijou quickly realizes that the archiver has no recollection of the knight. This forces her to intervene and have a private chat with him. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.
@@ -22,7 +25,7 @@ Immerkind seems to be doing okay, and so is Fia at the Library. This left them p
 
 The picnic starts innocently enough, there is food, decorations, fireworks, music, and happy guests. The Hot Pink One manages to confess her feelings to NinoIna, her eternal consort, and she feels the same.
 
-As they are all gathered to see the miracle of birth and/or the liberation of gas, Bijou starts to reveal the sign hidden in bricks, and they all can see it says "ITS GAS". Not only is it gas, but, as she also tells everyone, the pink wool behind reveals it's a girl, a gassy girl!
+As they are all gathered to see the miracle of birth and/or the liberation of gas, Bijou starts to reveal the sign hidden in bricks, and they all can see it says "ITS GAS." Not only is it gas, but, as she also tells everyone, the pink wool behind reveals it's a girl, a gassy girl!
 
 [It's Gas!](#embed:https://www.youtube.com/live/4_zJe0t0558?si=oFCqx7ndLwdT4gdb&t=8748)
 

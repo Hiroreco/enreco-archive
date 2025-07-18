@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: In-bread -->
+
 [BAE IS RICH!](#embed:https://youtu.be/Lp7GyRVbz1c?t=331)
 
 Much has progressed since we last saw Peasant The Bae, for she is now a peasant only in title, with more gold in her pockets and her beloved "tHE dUMPSTER" nearing its grand opening.
@@ -16,7 +19,7 @@ After a small adventure to obtain the first disc from the previous dungeon, Bae 
 
 [They're... Siblings?!](#embed:https://youtu.be/Lp7GyRVbz1c?t=6936)
 
-Unbelievable. Bae called Gonathon to confirm the audacious revelation and could only stagger at his answer. A knight like Gonathon had no reason to lie. Bae could not doubt the knight, rather, the pieces were falling together too well. Every Libestian they met had a similar face, akin to the Princess and the Outlander's...
+Unbelievable. Bae called Gonathon to confirm the audacious revelation and could only stagger at his answer. A knight like Gonathon had no reason to lie. Bae could not doubt the knight, rather, the pieces were falling together too well. Every Libestan they met had a similar face, akin to the Princess and the Outlander's...
 
 [The Entire Libestal Kingdom is Inbred](#embed:https://youtu.be/Lp7GyRVbz1c?t=7940)
 

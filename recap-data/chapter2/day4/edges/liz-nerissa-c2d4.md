@@ -1,6 +1,6 @@
 <!-- title: Frame by Frame -->
 
-The red maiden was slowly recovering from the strawberry incident from the day before. The rose she'd been given now hung proudly on her wall—right where it could be seen the moment you stepped in. And the kiss? Still fresh, still warm, or at least, that’s how it lingered in Elizabeth’s mind. Nerissa had absolutely wrecked her mentally—fair to say—but strangely, it wasn’t a bad thing.
+The Red Maiden was slowly recovering from the strawberry incident from the day before. The rose she'd been given now hung proudly on her wall—right where it could be seen the moment you stepped in. And the kiss? Still fresh, still warm, or at least, that’s how it lingered in Elizabeth’s mind. Nerissa had absolutely wrecked her mentally—fair to say—but strangely, it wasn’t a bad thing.
 
 [Don't mind me](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=BhRV3I1VTtdSK57Y&t=22337)
 
@@ -16,6 +16,6 @@ Elizabeth placed it next to Nerissa’s. Frame by frame, the two stood side by s
 
 ## Fanart
 
-["ERB's child" by set](https://x.com/_se_t_/status/1920087505665143221)
-
 [Hug by Puniki](https://x.com/Puniki_XIV/status/1926153741314478419)
+
+["Tranquil Times" by pawchie](https://x.com/paw_chie/status/1925982006686503291)

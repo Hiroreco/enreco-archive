@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 Koseki Bijou, ever innocent, calls herself the princess of the Kingdom of Libestal. She used to call herself the Stain Princess, but those days were over. She vowed to turn over a new leaf to atone for what she had done to her peers.
 
 Sometime after slaying the Captive (now the Outsider), she finds herself in a library like everyone else. A cat named [Fia](#node:fia) tells her and the other heroes that they have been sent back in time to an earlier state of Libestal. The REAL Libestal, not the phony version everyone was once trapped in. While some details are clear as crystal and painful to bear, she had forgotten some details due to the effects of time travel.
@@ -25,7 +28,5 @@ Oh, and lava chicken.
 [Lalalava, Chichichicken](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=g_MMHUO1MJ6g91V1&t=12480)
 
 ## Fanart
-
-[Corruption - by Dr.Pigeon](https://x.com/PhdPigeon/status/1896821416395436357/photo/2)
 
 ["Some memories are better leave forgotten" by seapupu](https://x.com/seapupu290495/status/1919057398330700031)

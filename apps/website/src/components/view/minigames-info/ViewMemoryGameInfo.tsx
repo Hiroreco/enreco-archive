@@ -1,4 +1,5 @@
 import TimestampHref from "@/components/view/markdown/TimestampHref";
+import Image from "next/image";
 import React from "react";
 
 const ViewMemoryGameInfo = () => {
@@ -7,10 +8,12 @@ const ViewMemoryGameInfo = () => {
             <p>
                 <strong>
                     The Scarlet Wand{" "}
-                    <img
+                    <Image
                         className="inline h-6 w-6 mb-1"
-                        src={"/images-opt/scarletwand.webp"}
+                        src={"/images-opt/scarletwand-opt.webp"}
                         alt={"scarletwand"}
+                        width={24}
+                        height={24}
                     />
                     's Memory Game
                 </strong>{" "}

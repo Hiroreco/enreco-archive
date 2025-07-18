@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Seemingly unfazed by the previous day’s chaos, Shiori started off her morning productively by helping others get through the Star Site: Chronos dungeon. It was nice—being helpful, motivated, and untouched by drama… well, for a little while, anyway.
 
 Inevitably, she got dragged into the madness. But more often than not, she played the role of a distant observer, silently watching the chaos unfold around her.
@@ -34,8 +37,12 @@ Self-inserter? Into what, exactly? A story? Was she hinting at something more...
 
 Maybe she was just being her strange, eccentric self. Or maybe, just maybe, Shiori Nyavella wasn’t merely a witch with a pen and a sharp tongue—but something far more.
 
-Still, not everything had to be tangled in mystery. At least one of the questions had a charmingly down-to-earth answer: the mess of romance and rivalry she’d stumbled into. The orange knight, so humble, so earnest, had completely upended her world. Turned her story on its head. And now, she was left picking up the emotional debris of their ever-complicated dynamic (see [Shiori–Gonathon](#edge:gigi-shiori)).
+Still, not everything had to be tangled in mystery. At least one of the questions had a charmingly down-to-earth answer: the mess of romance and rivalry she’d stumbled into. The Orange Knight, so humble, so earnest, had completely upended her world. Turned her story on its head. And now, she was left picking up the emotional debris of their ever-complicated dynamic (see [Shiori–Gonathon](#edge:gigi-shiori)).
 
 She ended her day with rare, quiet moments—sharing them with [Bijou](https://www.youtube.com/live/98bQ3awzWLM?t=15814) and later, a bonding conversation with a sleepy Elizabeth. All of it, as always, inked into her diary—yet another page, yet another piece of the puzzle that was Shiori.
 
 [A moment to cool down](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=Zv5vHxEzlcKhAmcH&t=18947)
+
+## Memes
+
+["✋😨🤚" by Shido](https://x.com/Shido36_/status/1920528025575141534)

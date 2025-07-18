@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 Continuing work on her shop—or, more fittingly, her _café_—was the first thought on Fuwawa’s mind upon waking. The objective hadn’t changed: gather resources for building, materials for cooking, and, if possible, find at least one person to accompany her. Because without her usual fuzzy companion by her side, this journey had felt... somber.
 
 And as if the world heard her silent plea, a small, feathery friend arrived.
@@ -39,3 +42,9 @@ But even in a space like that... there was still hope (see [Shakira-Fuwawa](#edg
 ## Fanart
 
 ["Libestal's Young Chef (Part 1)" by Dreamplanes](https://x.com/Dreamplanes256/status/1921562462647709819)
+
+<!-- kiara -->
+
+## Memes
+
+["Fuwawa..." by retro](https://x.com/retrocapybara/status/1920228142939320417)

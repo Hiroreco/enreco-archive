@@ -1,6 +1,9 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **The Humble Fumbler**
 
-As the sun rose on day four, no one could foresee the maelstrom of turmoil and tragedy that would engulf Gonathon and those closest to him. The day began simply enough, with the humble knight visiting Gacharms to acquire new equipment. Chief on Gonathon’s mind was the suspected corruption of Peasant the Bae, which soon extended to Princess Bijou upon learning of her past corruption (see [Bijou-Gonathon: A Rock and a Hard Place](#edge:gigi-bijou)). These concerns had to be set aside, as an encounter with Immerkind led to Gonathon becoming once again conflicted with the [role](https://youtu.be/BSPi8sTHdAY?t=21m13s) he had played in Immerkind’s delusional pursuit of the Princess. (See [Cecilia-Gonathon: The Kind and the Humble Knight](#edge:cecilia-gigi))
+As the sun rose on day four, no one could foresee the maelstrom of turmoil and tragedy that would engulf Gonathon and those closest to him. The day began simply enough, with the Humble Knight visiting Gacharms to acquire new equipment. Chief on Gonathon’s mind was the suspected corruption of Peasant the Bae, which soon extended to Princess Bijou upon learning of her past corruption (see [Bijou-Gonathon: A Rock and a Hard Place](#edge:gigi-bijou)). These concerns had to be set aside, as an encounter with Immerkind led to Gonathon becoming once again conflicted with the [role](https://youtu.be/BSPi8sTHdAY?t=21m13s) he had played in Immerkind’s delusional pursuit of the Princess. (See [Cecilia-Gonathon: The Kind and the Humble Knight](#edge:cecilia-gigi))
 
 His search for solace led him to Mordan Ramsey, who, after some haggling, agreed to become Gonathon’s therapist (see [Mordan-Gonathon: A Powerful Dynamic](#edge:calli-gigi)). It was during their discussions that Mordan revealed that not only was the [Pearl](https://youtu.be/BSPi8sTHdAY?t=1h23m45s) someone very close to Gonathon but was, in fact, his former lover who had since disappeared.
 
@@ -23,3 +26,17 @@ While Tam agreed to assist, all of this was too much for Shiori. She decided to 
 Alas, none of this was enough to overcome Gonathon’s crippling dedication to his queen and inability to make his own decisions. Upon returning home, Gonathon encountered what seemed to be a startling scene: [Tam Gandr and Shiori engaging in an affair!](https://youtu.be/BSPi8sTHdAY?t=4h31m02s) But rather than seek answers from the two, the bumbling knight chose to once again flee, an act that, along with Shiori [falling to her death](https://youtu.be/BSPi8sTHdAY?t=4h36m00s) while trying to explain to Gonathon, completely broke the battered witch and led to her ending her romance with Gonathon.
 
 Devastated and overcome with regret, Gonathon’s final moments of the day were spent being consoled by Tam Gandr. The queen urged Gonathon to think carefully about his feelings and who he truly loved. But despite all of these misfortunes and frustrations that Gonathon had inflicted on himself and others, Tam remained committed to Gonathon, and the two [parted on hopeful terms](https://youtu.be/BSPi8sTHdAY?t=5h6m45s). For hope was now something that Gonathon needed more than anything, and in his daily journal, he once again reflected on those that he loved and had loved. He ended by expressing a desire to make tomorrow a better day. Godspeed, Gonathon G.
+
+## Fanart
+
+["gonathan" by Miku](https://x.com/Mikururun/status/1920242829692948593)
+
+["peak moment" by Asashi](https://x.com/illust_asashi/status/1919997343094735288)
+
+<!-- shiori, kronii -->
+
+["the bum-- I mean, humble knight!" by shew](https://x.com/shew03/status/1921345372162498653)
+
+## Memes
+
+["Chat it's not going well" by Antsy](https://x.com/antsy_af/status/1919973398551126390)

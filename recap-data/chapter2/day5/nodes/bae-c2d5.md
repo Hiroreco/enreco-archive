@@ -1,3 +1,6 @@
+<!-- title: Peasant Da Bae -->
+<!-- status: In-bread -->
+
 There was an apprehensive sense of foreboding. Was it the air? The child on Bae's head? Inside her? Wherever it was from, it didn't stop the visions, snapshots of a [blurry face in her dreams.](https://youtu.be/L7rBGepFrXA?t=824)
 
 But visions of what could be Bae's past weren't the only thing troubling her. There was also love... and Gonathon's rather messy relationship. Bae called him to her PP Hole, concerned about his well-being after yesterday's _bombastic_ events. Glad to hear he was fine, she asked for his love advice. Bae was but a peasant, dumb (and poor) in many ways but especially in matters of the heart. A lesson her Mother never finished, but the heart didn't heed what the brain thought, stirring whenever she met the lovely Immerkind... And _anguish_ as Bae knows she wasn't the green apple of Immerkind's green eyes.
@@ -12,7 +15,7 @@ Rings were too soon, but flowers gave the 'right' touch of Bae's intention. The 
 
 [Dearest ImmerKind...](#embed:https://youtu.be/L7rBGepFrXA?t=2543)
 
-Read ["My confession"](#text:my-confession)
+[Read "My confession"](#text:my-confession)
 
 Words flowed out like a steady river from Bae's quill, passion burning itself onto the parchment. Each feeling is transcribed carefully and precisely, hoping that the Fair Maiden can hear Bae's sincerity and ardent love. After being [proofread by others](https://youtu.be/L7rBGepFrXA?t=3130), the Hot Pink One notwithstanding her rating of 6/10, it was ready.
 
@@ -30,7 +33,7 @@ Bae wasn't a peasant—she helped out _peasants_, like Charlie! That brat. Bae r
 
 But all is not over, for there are a few more challenges. First, the Outlander. Bae must prove that she is [the hero this world needs](https://youtu.be/L7rBGepFrXA?t=6108) and overturn fate. A battle well fought and well won.
 
-Second, there were Bae's memories. [Who was Mother](https://youtu.be/L7rBGepFrXA?t=6505) if Bae ever had one. Bae can remember Charlie fondly, reminiscing about the times they spent as she worked, but not a 'Mother'. Was perhaps, Mother... Brother? Was 'Brother' Charlie? It almost felt like the memories in Bae's head were in too much conflict for her to truly understand.
+Second, there were Bae's memories. [Who was Mother](https://youtu.be/L7rBGepFrXA?t=6505) if Bae ever had one. Bae can remember Charlie fondly, reminiscing about the times they spent as she worked, but not a 'Mother.' Was perhaps, Mother... Brother? Was 'Brother' Charlie? It almost felt like the memories in Bae's head were in too much conflict for her to truly understand.
 
 But it wasn't just Bae who was troubled, since a distressed Bijou soon called for help; [Bijou's beloved, Shiori, and Gonathon were talking once again](https://youtu.be/L7rBGepFrXA?t=10880). Caught between trusting her wife and repeating her mistake, Bijou turned to Bae for advice. Despite the tensions earlier in the day, Bae still held Bijou as a friend. She told her to trust Shiori and that they could begin the custody battle/family therapy session with Mordan soon.
 
@@ -42,8 +45,12 @@ Tired and wary, [Bijou and Bae finally made amends](https://youtu.be/L7rBGepFrXA
 
 [Oh, and Bae is also mother to another child.](#embed:https://youtu.be/L7rBGepFrXA?t=13027)
 
-But another matter lingered in Bae's mind: Cecilia Immerkind. As a worried Gonathon pulled her away to talk, Bae explained that some of her memories might be linked to her missing box. But her focus right now was the kind knight. Bae would give the letter [to Cecilia](https://youtu.be/L7rBGepFrXA?t=13807) in person and present her with flowers afterwards. Touched, Gonathon promised to help Bae when the moment arrived.
+But another matter lingered in Bae's mind: Cecilia Immerkind. As a worried Gonathon pulled her away to talk, Bae explained that some of her memories might be linked to her missing box. But her focus right now was the Kind Knight. Bae would give the letter [to Cecilia](https://youtu.be/L7rBGepFrXA?t=13807) in person and present her with flowers afterwards. Touched, Gonathon promised to help Bae when the moment arrived.
 
 ## Fanart
 
 ["you need to pay for the three wishes" by R-Lus](https://x.com/RLus654/status/1920313961980793313)
+
+## Memes
+
+["Promise' lore in a nutshell" by Arisae](https://x.com/ari_sae_/status/1920482530630701156)

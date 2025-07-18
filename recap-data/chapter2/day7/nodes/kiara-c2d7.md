@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 _Spill the tea!_
 
 Shakira inquired of Liz and Nerissa what had happened the day before. The knight felt a bit blue after having missed recent events. Nevertheless, this powerful phoenix was keen on catching up. Shakira quickly got in touch with Immerkind, who updated the Lorekeeper on the status of her connection with the princess.
@@ -19,3 +22,7 @@ She met with Roa—a pink cat—and after a heartfelt exchange, the two tied the
 Later, she journaled the day’s whirlwind of events, right before the final day arrived.
 
 [Liebes Tagebuch!](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=SDhiMcfQ4LxQdVG1&t=15145)
+
+## Memes
+
+["Shakira" by LookingForTheTop](https://x.com/lookingfortheto/status/1921420623143723162)

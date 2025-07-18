@@ -1,10 +1,10 @@
 <!-- title: Soap Opera -->
 
-["Hello, my other wife"](https://www.youtube.com/live/BnpLALzUzD4?feature=shared\&t=237)
+["Hello, my other wife"](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=237)
 
 Those were Shiori’s unexpected words in response to Bijou’s bright and cheerful morning greeting. The smile on the gem maiden’s face faded instantly, replaced by confusion and a pang of hurt. Bijou immediately pressed Shiori for answers—who was this "other wife"?
 
-It turned out to be Nerissa Ravencroft, someone Bijou wasn’t particularly fond of. Sure, there was the stark contrast between Bijou’s petite figure and Nerissa’s elegant hourglass form, but more importantly, Shiori was her wife, not Nerissa’s. Still, Bijou reassured herself: Nerissa hadn’t participated in the same quirky ceremony that she and Shiori had. That made their bond unique, special, and, above all, official—right?
+It turned out to be Nerissa Juliet Ravencroft, someone Bijou wasn’t particularly fond of. Sure, there was the stark contrast between Bijou’s petite figure and Nerissa’s elegant hourglass form, but more importantly, Shiori was her wife, not Nerissa’s. Still, Bijou reassured herself: Nerissa hadn’t participated in the same quirky ceremony that she and Shiori had. That made their bond unique, special, and, above all, official—right?
 
 The day started off smoothly despite the awkward morning. Bijou and Shiori went on their usual adventures, gathering materials, completing quests, and enjoying the idyllic life of a married couple. But their happiness was short-lived.
 
@@ -14,7 +14,7 @@ While wandering through the kingdom later that day, Bijou accidentally overheard
 
 Shiori had casually mentioned that she wasn’t sure if she and Bijou were truly married. The words stung—Bijou had thought their bond was unshakable, an unbreakable vow of love. But Shiori, being Shiori, had simply been speaking without a second thought, not realizing the weight of her words.
 
-Heartbroken and conflicted, Bijou later confronted Shiori to clear up the [misunderstanding](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared\&t=6015). A small crowd of bystanders and guildmates gathered, witnessing the tense but sincere discussion. Somehow, things worked themselves out—though exactly how, no one could really say.
+Heartbroken and conflicted, Bijou later confronted Shiori to clear up the [misunderstanding](https://www.youtube.com/live/Tl7rUzJyc_0?feature=shared&t=6015). A small crowd of bystanders and guildmates gathered, witnessing the tense but sincere discussion. Somehow, things worked themselves out—though exactly how, no one could really say.
 
 The situation grew even more chaotic when Gonathon arrived, acting as Nerissa’s unexpected messenger.
 

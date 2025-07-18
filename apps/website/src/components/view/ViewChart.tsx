@@ -56,7 +56,7 @@ function findBottomRightNode(nodes: ImageNodeType[]) {
 }
 
 function getFlowRendererWidth(widthToShrink: number) {
-    if(widthToShrink === 0) {
+    if (widthToShrink === 0) {
         return "100%";
     }
 
@@ -97,7 +97,7 @@ function ViewChart({
     currentCard,
     onNodeClick,
     onEdgeClick,
-    onPaneClick
+    onPaneClick,
 }: Props) {
     const topLeftNode = useMemo(() => findTopLeftNode(nodes), [nodes]);
     const bottomRightNode = useMemo(() => findBottomRightNode(nodes), [nodes]);
@@ -106,7 +106,7 @@ function ViewChart({
     const flowRendererSizer = useRef<HTMLDivElement>(null);
     const previousCard = usePreviousValue(currentCard);
 
-    const autoPanBack = useSettingStore(state => state.autoPanBack);
+    const autoPanBack = useSettingStore((state) => state.autoPanBack);
 
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions<ImageNodeType>) => {
@@ -117,37 +117,45 @@ function ViewChart({
 
     useEffect(() => {
         function fitView() {
-            if(selectedElement !== null) {
-                if(isNode(selectedElement)) {
+            if (selectedElement !== null) {
+                if (isNode(selectedElement)) {
                     fitViewAsync({
                         nodes: [selectedElement],
                         duration: 1000,
                         maxZoom: 1.5,
                     });
-                }
-                else if(isEdge(selectedElement)) {
+                } else if (isEdge(selectedElement)) {
                     const srcNode = getNode(selectedElement.source);
                     const tgtNode = getNode(selectedElement.target);
 
-                    if(srcNode && tgtNode) {
+                    if (srcNode && tgtNode) {
                         fitViewAsync({
                             nodes: [srcNode, tgtNode],
                             duration: 1000,
                         });
                     }
                 }
-            }
-            else if (selectedElement === null && autoPanBack) {
+            } else if (selectedElement === null && autoPanBack) {
                 fitViewAsync({ padding: 0.5, duration: 1000 });
             }
         }
 
         // If opening a new card, defer until resize, unless we're on mobile in which case resize immediately.
-        if(isMobileViewport() || !(previousCard === null && currentCard !== null)) {
+        if (
+            isMobileViewport() ||
+            !(previousCard === null && currentCard !== null)
+        ) {
             fitView();
         }
-
-    }, [autoPanBack, currentCard, fitViewAsync, getNode, previousCard, selectedElement, widthToShrink]);
+    }, [
+        autoPanBack,
+        currentCard,
+        fitViewAsync,
+        getNode,
+        previousCard,
+        selectedElement,
+        widthToShrink,
+    ]);
 
     const translateExtent = useMemo(() => {
         if (topLeftNode && bottomRightNode) {
@@ -165,22 +173,25 @@ function ViewChart({
         return undefined;
     }, [topLeftNode, bottomRightNode]);
 
-    const onNodeClickHandler: NodeMouseHandler<ImageNodeType> = 
-        useCallback((_ , node: ImageNodeType) => {
+    const onNodeClickHandler: NodeMouseHandler<ImageNodeType> = useCallback(
+        (_, node: ImageNodeType) => {
             onNodeClick(node);
-    }, [onNodeClick]);
+        },
+        [onNodeClick],
+    );
 
-    const onEdgeClickHandler: EdgeMouseHandler<FixedEdgeType> =
-        useCallback((_, edge: FixedEdgeType) => {
+    const onEdgeClickHandler: EdgeMouseHandler<FixedEdgeType> = useCallback(
+        (_, edge: FixedEdgeType) => {
             onEdgeClick(edge);
-        }, [onEdgeClick]);
+        },
+        [onEdgeClick],
+    );
 
     const isCardOpen = currentCard !== null;
     const onPaneClickHandler = useCallback(() => {
         if (isCardOpen && (previousCard === "setting" || autoPanBack)) {
             fitViewAsync({ padding: 0.5, duration: 1000 });
-        }
-        else if(!isCardOpen) {
+        } else if (!isCardOpen) {
             fitViewAsync({ padding: 0.5, duration: 1000 });
         }
 
@@ -188,8 +199,14 @@ function ViewChart({
     }, [fitViewAsync, isCardOpen, onPaneClick, previousCard, autoPanBack]);
 
     const renderDimly = currentCard !== null && currentCard !== "setting";
-    const reactFlowClassnames = useMemo(() => cn({"render-dimly": renderDimly}), [renderDimly]);
-    const newWidth = useMemo(() => ({ width: getFlowRendererWidth(widthToShrink) }), [widthToShrink]);
+    const reactFlowClassnames = useMemo(
+        () => cn({ "render-dimly": renderDimly }),
+        [renderDimly],
+    );
+    const newWidth = useMemo(
+        () => ({ width: getFlowRendererWidth(widthToShrink) }),
+        [widthToShrink],
+    );
 
     return (
         <div ref={flowRendererSizer} style={newWidth} className="w-full h-full">

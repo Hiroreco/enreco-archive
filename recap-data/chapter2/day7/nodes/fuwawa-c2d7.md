@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 It's party day! The commission Shiori gave Fuwawa was finally due, and it was time for her to gather all her best dishes for the special event.
 
 [The big day](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=437)

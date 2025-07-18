@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 While everyone around her was confused and panicking—grappling with the fact that they'd lost parts of their memories once more—the pink ex-tavern owner stood calmly. Why? Because she remembered everything. More importantly, she had been tasked by a certain important someone—Fia—alongside Kiara, to oversee operations at the Library. That made her feel special. She was the main character now. Probably.
 
 [I'm your hero](#embed:https://www.youtube.com/live/aqhG1kmmkec?si=d-oTxkczcDfoDeMa&t=1009)
@@ -27,3 +30,7 @@ It was thrilling. She got straight to work laying the foundation—literally—f
 ["see?" by sanni](https://x.com/sanni44322/status/1921325284067811733)
 
 ["chef mori!" by fushide](https://x.com/fushide_/status/1919625900900896785)
+
+## Memes
+
+["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)

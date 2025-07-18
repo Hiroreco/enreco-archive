@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: In-bread -->
+
 Her abdomen hurt—again. Wait, didn’t we already go through this? The whole “I’m pregnant, but it’s just gas” fiasco? Yeah, we did. But apparently, that doesn’t mean it can’t happen again. This time, though, IRyS was _certain_. She believed, truly and deeply, that what she carried was no longer just air—but life. A living soul between her and her eternal consort.
 
 Her ever-supportive brother, of course, had already begun preparing. As any good sibling would.
@@ -51,3 +54,11 @@ She wrote it all down in her [journal](https://www.youtube.com/live/os9TbwMUcbk?
 IRyS would bring her back.
 
 No matter what it took.
+
+## Memes
+
+["The Most Evil Character in Fiction" by Antsy](https://x.com/antsy_af/status/1921049754114339102)
+
+["she's all of the above" by bambooz](https://x.com/_bambooz/status/1921705687010185267)
+
+<!-- bae, kronii -->

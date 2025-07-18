@@ -1,3 +1,6 @@
+<!-- title: Khaos -->
+<!-- status: Subject of a custody battle -->
+
 Cold. Lonely.
 
 A small Stain-looking child sits among the similarly looking hats in one of Libestal's shops.

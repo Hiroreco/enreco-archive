@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia began the day with a tender moment of reflection, quietly admiring the [artwork](https://www.youtube.com/live/LyufI3aiCB0?si=D5bnW1Fw0ITvXusf&t=751) that adorned the castle walls—portraits of herself and her companions, frozen snapshots of a journey unlike any other. This would be the final day she would spend with them before they all returned to the future. A bittersweet farewell loomed on the horizon.
 
 But the day itself? It was beautiful.
@@ -16,3 +19,9 @@ And so, as the final banquet began, Cecilia promised herself one thing: she woul
 
 But then—the unthinkable happened.
 (See [Cecilia-Princess](#edge:cecilia-iphania) and [Princess-Outlander](#edge:iphania-outlander))
+
+## Fanart
+
+["Princess..." by BunBBun](https://x.com/BunBBun1/status/1922035787824075147)
+
+<!-- iphania -->

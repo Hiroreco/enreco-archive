@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 Today was the official opening of Gacharms to great success. Many of the warriors went to the shop throughout the day and on average pulled more than once. This certainly helped the others with their side quests and dungeons—ESPECIALLY the dungeon.
 
 That wasn’t all that was on Bijou’s mind today, far from it. She sniffed out something fishy between the Outlander and the Princess, as their dialogue made it sound like they could be related. She wasn’t the only one to pick up on this, as rumors about this started to spread like wildfire around the kingdom.
@@ -10,6 +13,6 @@ Things REALLY started to turn on their head when Bae started spilling the tea wi
 
 Word also started going around about a haunted cape haunting the town, according to her brother IRyS. Bijou didn’t seem to buy it because she saw her drink a potion of invisibility mere minutes before. Taking a page from her brother, however, she decided to sneak a listen to a conversation IRyS had with Tam Gandr, causing Bijou to become the very thing IRyS warned about… but worse.
 
-[Vulgar language](https://youtu.be/A97SrozF36w?t=20390)
+[Vulgar language](#embed:https://youtu.be/A97SrozF36w?t=20390)
 
 The rest of the day was calmer by comparison as others left for the day. After writing her daily journal entry, Roa and Bijou start polishing up the shop’s exterior. She signed the book at the end of the day, left wondering what will come of everyone’s relationships tomorrow.

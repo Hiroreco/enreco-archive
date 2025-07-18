@@ -6,10 +6,10 @@ The blue maiden was still disoriented when she was first summoned to the white b
 
 Thus, she became Tam Gandr—a name she quickly decided was befitting of royalty. Declaring herself the future ruler of this strange new kingdom (self-proclaimed, of course), Tam embraced her role with an air of grandeur. Gonathon, summoned with a sense of knightly duty already deeply instilled, immediately recognized Tam’s "regal" potential.
 
-Believing her to be a rightful queen, he pledged himself as her [knight](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared\&t=5727), swearing to protect and follow her wherever she went.
+Believing her to be a rightful queen, he pledged himself as her [knight](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=5727), swearing to protect and follow her wherever she went.
 
 Tam, in her self-proclaimed royal empathy, didn’t just demand loyalty; she reciprocated it. Whenever her loyal knight faced confrontations—particularly from Elizabeth, who doubted the legitimacy of their claims—Tam stood by Gonathon, shielding him in her own way.
 
 Their bond was unwavering, though their united disdain for the Amber Coins raised eyebrows. Whether or not such behavior could be deemed "knightly" or "queenly" was debatable, but to Tam, Gonathon was her most trusted follower, and to Gonathon, Tam was the queen he was destined to serve.
 
-[Apologize for being pathetic](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared\&t=9013)
+[Apologize for being pathetic](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=9013)

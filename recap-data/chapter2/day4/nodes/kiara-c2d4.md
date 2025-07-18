@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Our Knight's day started earlier than usual, as she helped her fellow knight Elizabeth conquer the previous day's dungeon. She worried that two knights would not be enough but, despite the difficulty, they prevailed.
 
 It was an interesting day as well, from the howls just outside [Mordan Ramsey's Tavern](https://youtu.be/wCysZh57Hcc?t=653) to a newly built house whose design left Kiara [giggling](https://youtu.be/wCysZh57Hcc?t=782). The Lorekeeper remembered previous constructs Ina had built once before, though Ina pouted at Kiara's reaction; t'was nothing more than a jest between friends. Kiara marveled at her own forge's design, appreciating the little touches Elizabeth had improved, particularly the [Shrine of Love](https://youtu.be/wCysZh57Hcc?t=1038). Has Elizabeth's and Nerissa's relationship improved while Kiara was gone?
@@ -10,7 +13,7 @@ A Queen Tammy was, and regal she still is; Kiara couldn't help but admire her. B
 
 Ah, the Knight was so consumed by the date that she forgot to report matters to the Princess! But before Kiara could finish her report, Shiori interrupted with a small concern. She spoke of the blind date between Gonathon and Mordan... but Shiori was interested in Gonathon. It seems matters are [complicated](https://youtu.be/wCysZh57Hcc?t=8573).
 
-[Turmoil stirred in Kiara's noble heart.](https://youtu.be/wCysZh57Hcc?t=8832)
+[Turmoil stirred in Kiara's noble heart.](#embed:https://youtu.be/wCysZh57Hcc?t=8832)
 
 Confounded. Concerned. Fear of ruining an already blossoming love. Kiara called Mococo for therapy, but the advice 'follow your heart' was too simple for a complicated matter that Kiara inadvertently created. How could she follow her heart when its path is unclear? Especially when Mordan was [ready for the date](https://youtu.be/wCysZh57Hcc?t=9226). This is the best day of my life, Mordan exclaimed, to Kiara's growing horror.
 
@@ -33,3 +36,7 @@ All this she wrote in her journal. But, even if her goals were not met, it doesn
 ## Fanart
 
 ["Cameraman Tanakisha Karia" by Roronico](https://x.com/roronico1512/status/1920030742597484826)
+
+## Memes
+
+["The Gonathan situation is crazy" by NP_Mango](https://x.com/NP_Mango/status/1919989015433925080)

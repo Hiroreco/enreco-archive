@@ -1,4 +1,5 @@
 import TimestampHref from "@/components/view/markdown/TimestampHref";
+import Image from "next/image";
 import React from "react";
 
 const ViewGamblingGameInfo = () => {
@@ -7,10 +8,12 @@ const ViewGamblingGameInfo = () => {
             <p>
                 The most frequently visited minigame—or rather, venue—of Chapter
                 One was undoubtedly the <strong>Amber Coin Casino</strong>{" "}
-                <img
+                <Image
                     className="inline h-6 w-6 mb-1"
-                    src={"/images-opt/ambercoin.webp"}
+                    src={"/images-opt/ambercoin-opt.webp"}
                     alt={"ambercoin"}
+                    width={24}
+                    height={24}
                 />
                 , where everyone could indulge in their favorite pastime:
                 gambling.

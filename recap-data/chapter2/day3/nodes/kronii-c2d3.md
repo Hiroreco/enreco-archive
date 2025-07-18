@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 Tam might not have had an active "point of view" today, but that didn’t stop the chaos from finding her anyway. Let’s recap…
 
 — Pulled into a full-blown soap opera with her supposed girlfriend? Check.
@@ -17,3 +20,7 @@ Yep, that about sums it up.
 ## Fanart
 
 ["Tam Gandr" by Daaku](https://x.com/koizumi_arata/status/1918528170237558813)
+
+## Memes
+
+["From Queen to Missing" by Antsy](https://x.com/antsy_af/status/1831552730021707951)

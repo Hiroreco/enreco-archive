@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Another day, another adventure. Pockets full of coin, enough potato salad to last her a week—five days into this new journey and things were looking up for Nerissa. It hadn't been smooth sailing at the start, sure, but she'd pushed through, and now? She was thriving.
 
 Nothing could possibly ruin her mood on such a good da—wait. Why wasn’t her painting next to Lady Bloodflame’s anymore?
@@ -6,15 +9,17 @@ Nothing could possibly ruin her mood on such a good da—wait. Why wasn’t her 
 
 Ah. Of course. Doomed yuri was the theme of the day. Fantastic. Just what she needed.
 
+[Read "Dearest Knight"](#text:dearest-knight)
+
 But personal heartbreak aside, Nerissa had more pressing things to focus on—like tackling the newest dungeon, _Star Site: Chaos_, and recovering the memories of [Hakos Baelz](https://www.youtube.com/live/m5VOeHvSgbI?si=9bu0M3cWXrMpstRN&t=10832). Or helping others catch up with the previous dungeon. Maybe commissioning Shiori to write something about [her past](https://www.youtube.com/live/m5VOeHvSgbI?si=9Hcx5S3SAxi5tYqg&t=8695); after all, if anyone could weave together forgotten memories, it would be the kingdom’s Archiver.
 
 She fought the [Outlander](https://www.youtube.com/live/m5VOeHvSgbI?si=wbEBqq7W5kOczeb2&t=11263), she then tried reading tearful stories of past heroes and their [grim fates](https://www.youtube.com/live/m5VOeHvSgbI?si=Qsn5tfyuwRebdnaA&t=11614) battling the Stains, hoping the emotional weight of their struggles might distract her from her own. It didn’t.
 
-Nerissa couldn’t stop thinking about Elizabeth. It seemed like the red knight had been keeping her distance—ignoring her, brushing her off—and as soon as she noticed it, something inside Nerissa had begun to fracture. She _thought_ there was something between them. Something special. And now? Now she felt unwanted. Unseen.
+Nerissa couldn’t stop thinking about Elizabeth. It seemed like the Red Knight had been keeping her distance—ignoring her, brushing her off—and as soon as she noticed it, something inside Nerissa had begun to fracture. She _thought_ there was something between them. Something special. And now? Now she felt unwanted. Unseen.
 
 Desperate for clarity, she turned to Mordan for comfort. Therapy, really.
 
-[Hi, so I'm emotionally devastated](https://www.youtube.com/live/m5VOeHvSgbI?si=Yoxf24-6Bl_RxZ_d&t=13280)
+[Hi, so I'm emotionally devastated](#embed:https://www.youtube.com/live/m5VOeHvSgbI?si=Yoxf24-6Bl_RxZ_d&t=13280)
 
 She spilled everything—her frustration, her jealousy, her fears, her heartbreak. She admitted, openly, that she was in love with Lady Bloodflame. And surprisingly, Mordan didn’t laugh, didn’t push her away. She listened. She offered earnest advice, support, and warmth. And for the first time that day, Nerissa felt the weight on her chest lift—if only a little.
 
@@ -31,3 +36,7 @@ And to close out her long, exhausting day, Nerissa bought herself a hat. Not jus
 [Scarlet Wand is here to stay](#embed:https://www.youtube.com/live/m5VOeHvSgbI?si=E38tf2lpApnGGgE7&t=16218)
 
 Tomorrow would be a new day. The journey was already halfway through—where it led next, only time would tell.
+
+## Fanart
+
+["For all the fallen members" by underdatv](https://x.com/underdatv/status/1920594889793761656)

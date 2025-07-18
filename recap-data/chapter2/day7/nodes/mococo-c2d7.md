@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Don’t you just love it when you’ve barely woken up and someone’s already asking you for therapy? Well, that’s exactly what happened to the kingdom’s newly renowned therapist, Mococo.
 
 She listened intently, jotting down notes with utmost focus, putting her years of absolutely zero experience and total lack of license to good use—all to give her client the very best their nonexistent payment could buy.
@@ -27,3 +30,5 @@ Excellent. A perfect target for her claws to unleash fury upon, just like old ti
 ## Fanart
 
 ["CONGRATS! IT'S ~~A GIRL~~ DEAD" by iry](https://x.com/iryry_a/status/1921139006986678434)
+
+<!-- bijou, shiori, bae -->

@@ -18,7 +18,11 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
-import { BackdropFilter, useSettingStore } from "@/store/settingStore";
+import {
+    BackdropFilter,
+    FontSize,
+    useSettingStore,
+} from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
 import { useCallback } from "react";
@@ -145,6 +149,32 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                                 <SelectItem value="system">System</SelectItem>
                                 <SelectItem value="light">Light</SelectItem>
                                 <SelectItem value="dark">Dark</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label htmlFor="font-size">Font Size</Label>
+                        <Select
+                            onValueChange={(value) =>
+                                settingStore.setFontSize(value as FontSize)
+                            }
+                            value={settingStore.fontSize}
+                        >
+                            <SelectTrigger
+                                id="font-size"
+                                name="font-size"
+                                className="w-[100px]"
+                            >
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="small">Small</SelectItem>
+                                <SelectItem value="medium">Medium</SelectItem>
+                                <SelectItem value="large">Large</SelectItem>
+                                <SelectItem value="xlarge">
+                                    Extra Large
+                                </SelectItem>
                             </SelectContent>
                         </Select>
                     </div>

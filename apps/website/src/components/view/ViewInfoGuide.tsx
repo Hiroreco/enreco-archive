@@ -6,6 +6,9 @@ import {
     Egg,
     Search,
     Settings,
+    LibraryBig,
+    Disc3,
+    Palette,
 } from "lucide-react";
 
 const ViewInfoGuide = () => {
@@ -21,6 +24,7 @@ const ViewInfoGuide = () => {
                 <a
                     href="https://x.com/stemotology/status/1833171708775420066/photo/1"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     stemotology and sunkissedrhodo
                 </a>
@@ -61,7 +65,7 @@ const ViewInfoGuide = () => {
                         (the corresponding section from the original stream
                         where the event took place) in a card for you to watch,
                         just look for the blue text (both small and big). It is
-                        recommened to watch only the duration described by the
+                        recommended to watch only the duration described by the
                         label to avoid spoilers.
                     </li>
                     <li>
@@ -71,7 +75,7 @@ const ViewInfoGuide = () => {
                             Raora-Tam: Say My Name
                         </span>{" "}
                         will directly open the referenced card. This helps you
-                        from needing to search for the card manually.
+                        avoid needing to search for the card manually.
                     </li>
                     <li>
                         <span className="font-bold inline-flex items-center gap-1">
@@ -111,7 +115,7 @@ const ViewInfoGuide = () => {
             </div>
 
             <div>
-                Each day also has its own <em>"Day Recap"</em>, which summarizes
+                Each day also has its own <em>"Day Recap,"</em> which summarizes
                 the events of that day. This opens automatically when you switch
                 days, but you can also manually open it via the icon in the top
                 right corner. From there, you can also toggle the visibility of
@@ -131,28 +135,17 @@ const ViewInfoGuide = () => {
             </div>
 
             <div className="flex items-center gap-2">
-                <Settings size={24} />
+                <LibraryBig size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Settings
-                </div>
-            </div>
-
-            <div>
-                You can customize various aspects of your experience in the{" "}
-                <em>Settings Tab</em>, including music volume, timestamp
-                preferences and other miscellaneous options.
-            </div>
-
-            <div className="flex items-center gap-2">
-                <Dice6 size={24} />
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    Minigames
+                    Glossary
                 </div>
             </div>
             <div>
-                A selection of minigames from the series has been recreated and
-                can be played in the <em>Minigames Tab</em>—including the
-                infamous Gambling Game from Chapter 1.
+                Located in the <em>Glossary Tab</em> in the upper left corner,
+                this collection of entries provides detailed information on
+                revelations, characters, locations, quests, and more. It serves
+                as a resource for understanding topics referenced throughout the 
+                site.
             </div>
 
             <div className="flex items-center gap-2">
@@ -169,6 +162,55 @@ const ViewInfoGuide = () => {
             </div>
 
             <div className="flex items-center gap-2">
+                <Settings size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Settings
+                </div>
+            </div>
+
+            <div>
+                You can customize various aspects of your experience in the{" "}
+                <em>Settings Tab</em>, including music volume, timestamp
+                preferences, and other miscellaneous options.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <Dice6 size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Minigames
+                </div>
+            </div>
+            <div>
+                A selection of minigames from the series has been recreated and
+                can be played in the <em>Minigames Tab</em>—including the
+                infamous Color Cannon minigame.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <Disc3 size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Jukebox
+                </div>
+            </div>
+            <div>
+                The jukebox features a collection of music used in ENreco,
+                including tracks from the game itself as well as those used by
+                the talents.
+            </div>
+
+            <div className="flex items-center gap-2">
+                <Palette size={24} />
+                <div className="font-bold underline underline-offset-2 text-xl">
+                    Fanart Gallery
+                </div>
+            </div>
+            <div>
+                You can explore all the incredible fanart created by the
+                community during the event in the <em>Fanart Gallery tab</em>,
+                organized by characters, chapters, and days.
+            </div>
+
+            <div className="flex items-center gap-2">
                 <Egg size={24} />
 
                 <div className="font-bold underline underline-offset-2 text-xl">
@@ -176,9 +218,10 @@ const ViewInfoGuide = () => {
                 </div>
             </div>
             <div>
-                Hidden throughout the cards are easter eggs—little nods to silly
+                Hidden throughout the site are easter eggs—little nods to silly
                 moments or tributes to certain members. These are interactive,
-                so keep an eye out for surprises!
+                so keep an eye out for surprises! Many of them have multiple 
+                variations, so try clicking more than once!
             </div>
 
             <div className="mt-4">

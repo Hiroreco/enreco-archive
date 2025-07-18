@@ -1,4 +1,7 @@
-Waking up that morning, Fuwawa braced herself for the usual—an empty café, no customers, no sales, just her and the quiet hum of her own hope slowly dimming. Maybe, just maybe, her dream would never come true?
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
+Waking up that morning, Fuwawa braced herself for the usual—an empty café, no customers, no sales, just her, and the quiet hum of her own hope slowly dimming. Maybe, just maybe, her dream would never come true.
 
 But then, Shiori called.
 
@@ -26,4 +29,10 @@ Now, a new goal stood before her: make the upcoming picnic party the best it cou
 
 ["Libestal's Young Chef (Part 2)" by Dreamplanes](https://x.com/Dreamplanes256/status/1922931113174917132)
 
+<!-- shiori -->
+
 ["the fluffy ones journey" by Tai](https://x.com/tchailune/status/1921440727466217479)
+
+## Memes
+
+["She made it" by Hiro](https://x.com/hiroavrs/status/1920788743742448068)

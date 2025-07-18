@@ -32,15 +32,15 @@ interface ViewMiniGameModalProps {
 
 const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
     gambling: {
-        label: "Gambling Game (Chapter 1)",
+        label: "Color Cannon (Chapter 1)",
         info: <ViewGamblingGameInfo />,
     },
     memory: {
-        label: "Memory Game (Chapter 1)",
+        label: "Mind's Eye (Chapter 1)",
         info: <ViewMemoryGameInfo />,
     },
     chicken: {
-        label: "Chicken Game (Chapter 1)",
+        label: "Chicken Rescue (Chapter 1)",
         info: <ViewChickenGameInfo />,
     },
     shiori: {
@@ -64,7 +64,7 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="md:max-w-[800px] md:max-h-[400px] max-w-none w-[95vw] h-[80vh] transition-all"
+                className="md:max-w-[800px] md:max-h-[25rem] max-w-none w-[95vw] h-[80vh] transition-all"
                 showXButton={true}
                 showXButtonForce={true}
             >

@@ -1,0 +1,310 @@
+{
+  "general": [
+    {
+      "id": "libestal-ancient-entry",
+      "title": "Kingdom of Libestal (Ancient)",
+      "chapters": [
+        1
+      ],
+      "quote": "Here, in the distant past, the Outsider was born.",
+      "content": "## Overview\n\nAncient Libestal, unlike the [fabricated kingdom](#entry:libestal-ficta-entry) the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.\n\n[Read \"Kingdom of Libestal (Ancient)\"](#text:libestal)\n\n## Details\n\n### Preface\n\nAs the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to [Fia](#entry:iphania-entry), the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. She hoped that the heroes, now known as the Shining Stars, could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.\n\n### Setting\n\nAncient Libestal, as its name implies, was set in a distant past, reflected in its antique architecture and atmosphere. The kingdom served as the last sanctuary for the world’s inhabitants, as the rest of the land was slowly being consumed by the Ruination. Stains ravaged the wilderness, and death was ever-present. Unlike the previous Libestal, there were no guilds here. Instead, the kingdom’s survival relied on four core [occupations](#entry:jobs-entry):\n\n- **The Smith** – Forged upgrade stones used to enhance Revelation weapons.\n- **The Jeweler** – Crafted charms that enhanced health and bolstered defense.\n- **The Chef** – Cooked meals that granted powerful buffs for exploration and combat.\n- **The Supplier** – Enchanted tools to improve resource-gathering efficiency.\n\nOne noticeable difference between the fabricated and the real Libestal was how alive everything felt. Citizens were plentiful, and wherever the heroes went, they encountered new faces to interact with.\n\n### Appearance\n\nFrom above, the kingdom had a compact layout, with buildings made mostly of mud brick, adding to its ancient charm. While familiar structures such as a castle and residential areas remained, they differed significantly from their counterparts in the fabricated Libestal.\n\n**The Castle**\nThe largest structure in the kingdom, the castle, focused on height rather than width. It housed the Princess, numerous workers, and many refugees, instantly making it feel far more alive than the vacant halls of the previous castle.\n\nWithin the castle grounds were a variety of facilities, including the Princess's chambers, a dining hall, a dueling area, a casino, merchant stalls, and more. Most kingdom activities and sidequests took place here.\n\n**The Library**\nLocated at the center of the residential area and directly in front of the castle gates, the [Library](#entry:library-entry) was a central hub of the second chapter’s story and the place where Fia resided.\n\n**Build Area**\nSurrounding the Library were expansive plots of land allocated to the heroes for free building. Compared to the limited, guild-restricted building areas in the first chapter, this iteration offered far more freedom and fewer restrictions, allowing for grander, more personalized structures.\n\n### Quests\n\nBoth side and main quests returned, with expanded depth and limitations to prevent previous exploits (such as earning tens of thousands of coins from mass-producing potato salad). Sidequests still served as a source of income and power-ups, while main quests progressed the storyline and restored lost memories—this time not just of the heroes, but also of Fia.\n\nCertain sidequests now had level requirements, encouraging progression and role specialization before access.\n\n### Remnants\n\nAs the story advanced, new regions called Remnants became accessible, offering new materials, enemies, story content, and challenges that demanded real teamwork. These areas were:\n\n- **Remnants of the Cliffs of Sidero** – Unlocked early after choosing occupations and finishing initial quests.\n- **Remnants of the Lykeion Campus** – Unlocked after conquering Star Site: Elpis.\n- **Remnants of the Antigonian Aerie** – Unlocked after conquering Star Site: Chronos.\n\n### Star Sites\n\nAs in the previous chapter, the heroes needed to clear dungeons to recover their memories and progress the story. These were known as Star Sites:\n\n- [Star Site: Elpis](#entry:star-site-elpis-entry) – Unlocked on Day 2; contained IRyS's memories.\n- [Star Site: Chronos](#entry:star-site-chronos-entry) – Unlocked on Day 4; contained Ouro Kronii's memories.\n- [Star Site: Chaos](#entry:star-site-chaos-entry) – Unlocked on Day 5; contained Hakos Baelz's memories.\n\n### Other Quests\n\nIn addition to Star Sites, two major dungeons served as key plot events:\n\n- [Stronghold of Ruin](#entry:stronghold-of-ruin-entry) – Unlocked on Day 3; where the heroes first encountered and freed the Outlander.\n- [Heart of Ruin](#entry:heart-of-ruin-entry) – Unlocked on Day 7; the final dungeon where the source of all evil, the Curse, was destroyed.\n\nBefore entering the Heart of Ruin, the heroes undertook a special quest on Day 6 titled **The Ritual**, which served as a narrative bridge into the finale.\n\n### Ending\n\nAfter defeating the Heart of Ruin and saving the world, the heroes joined the kingdom's citizens for a grand victory banquet. Just as the celebration peaked, tragedy struck: the Princess was assassinated by the Curse, which had somehow survived. A mysterious higher being appeared, ready to punish the heroes for “defying fate.”\n\nIn the final moment, Fia intervened, transporting the heroes back to the Library to escape annihilation.\n\nWith sorrow, Fia acknowledged that preventing the Outsider’s birth was impossible. The only path forward now was to prevent whatever his intentions were in the present—and that meant Libestal was doomed. Ancient Libestal fell, marking its inevitable demise.",
+      "thumbnailSrc": "/images-opt/libestal-ancient-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Ancient Libestal Overview #1",
+          "source": "/images-opt/libestal-ancient-entry-0-opt.webp"
+        },
+        {
+          "title": "Ancient Libestal Overview #2",
+          "source": "/images-opt/libestal-ancient-entry-1-opt.webp"
+        },
+        {
+          "title": "Ancient Libestal Overview #3",
+          "source": "/images-opt/libestal-ancient-entry-2-opt.webp"
+        },
+        {
+          "title": "Exterior of Libestal Castle",
+          "source": "/images-opt/libestal-ancient-entry-3-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #1",
+          "source": "/images-opt/libestal-ancient-entry-4-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #2",
+          "source": "/images-opt/libestal-ancient-entry-5-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #3",
+          "source": "/images-opt/libestal-ancient-entry-6-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #4",
+          "source": "/images-opt/libestal-ancient-entry-7-opt.webp"
+        },
+        {
+          "title": "Ancient Libestal Concept Art",
+          "source": "/images-opt/libestal-ancient-entry-8-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestal-ancient-entry-opt.webp"
+    },
+    {
+      "id": "libestal-ficta-entry",
+      "title": "Kingdom of Libestal (Ficta)",
+      "chapters": [
+        0
+      ],
+      "quote": "A noble kingdom, besieged by monsters of shadow—but it was all a lie",
+      "content": "## Overview\n\n**The Kingdom of Libestal** was where the heroes were first summoned by the [King](#entry:outsider-entry), marking the beginning of their enigmatic journey. They were brought forth with the objective of defending the kingdom from a mysterious threat known as the [Stains](#entry:stains-entry). However, it was later revealed that the kingdom itself was a fabrication—a guise for a prison holding the King, whose true identity was The Captive (the Outsider). In a grand deception, the Captive had tricked the heroes into releasing him.\n\n[Read \"Kingdom of Libestal (Ficta)\"](#text:libestal-ficta)\n\n## Details\n\n### Preface\n\nNineteen heroes were summoned to a mysterious kingdom by its King, each stripped of their memories. Recognizing them as the destined saviors foretold by the power of their [Revelation](#entry:revelations-entry), the King urged them to grow stronger and unite in order to defeat the looming threat of the Stain King—and, in doing so, save the kingdom.\n\n### Setting\n\nLibestal was set in a somewhat medieval, though not archaic, fantasy world. Magical devices and enchanted weaponry were commonplace. The kingdom’s citizens, known as Libestans, were rabbit-like humanoids, and the realm was ruled by the King. Four [guilds](#entry:guilds-entry) served as pillars of the kingdom’s structure, each tasked with different duties, and the heroes were assigned to one of them:\n\n- **Jade Sword** – A beacon of righteousness and loyalty, where great threats are met with even greater courage.\n- **Cerulean Cup** – A sanctum of healing, where empathy and devotion flourish.\n- **Amber Coin** – A haven for glory-seekers and visionaries, where the closest allies could become the fiercest rivals.\n- **Scarlet Wand** – A refuge for the curious, where knowledge and creativity are held above all else.\n\nDespite the kingdom’s scale, many heroes remarked on how empty it felt—its vast size contrasting with its sparse population.\n\n### Appearance\n\nThe kingdom was vast and diverse in its architecture, with clear distinctions between major and minor structures. It could be divided into four key zones:\n\n- **Guild Headquarters** – Each guild’s headquarters housed its respective guild master and reflected their philosophy. For example, Jade Sword’s area included dueling arenas, while Amber Coin featured a casino.\n\n- **Free Build Area** – A sandbox-like zone where heroes could build shops, homes, or anything else they desired. This area was subdivided by guild, with each guild’s members allotted specific land plots. Building heights and depths were restricted, and heroes could only fly and construct within their assigned territory.\n\n- **The Castle** – The largest structure in the kingdom and the King’s residence. Constructed mainly from quartz, the Castle had a clean, bright, and grand appearance. Despite its imposing architecture, many of its halls were eerily empty—only the throne room saw consistent use.\n\n- **Miscellaneous Areas** – Additional zones included gardens, shopping buildings, and residential structures for the kingdom's occupants.\n\nWithin the kingdom’s walls, the environment was safe. Outside lay the wilderness, teeming with Stains, materials, and dungeons for the heroes to explore.\n\n### Quests\n\nHeroes advanced through the story via two types of quests:\n\n- **Side Quests** – Routine tasks such as cooking or gathering resources. Completing these quests rewarded coins and useful artifacts. They were repeatable and served as a way to gain materials and build up strength.\n\n- **Main Quests** – Essential story-driven objectives, focused mainly on conquering five dungeons. Each completed main quest restored a portion of the heroes’ lost memories and strengthened their Revelation. Dungeons were unlocked progressively each day.\n\n### Plot Twist and Demise\n\nAfter defeating the Stain King on Day 8, the truth unraveled: the King had been evil all along. The kingdom was merely a prison to contain him, and the heroes had unknowingly set him free. His true identity, The Captive, or The Outsider, was revealed, and his release brought the fabricated world to its breaking point. Though the heroes ultimately defeated the Captive, the world itself began to collapse, disintegrating back into the void.\n\nOnly through the intervention of a mysterious being were the heroes rescued, leading directly into the events of Chapter 2.",
+      "thumbnailSrc": "/images-opt/libestal-ficta-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Entrance into the Kingdom of Libestal",
+          "source": "/images-opt/libestal-ficta-entry-0-opt.webp"
+        },
+        {
+          "title": "Libestal Overview #1",
+          "source": "/images-opt/libestal-ficta-entry-1-opt.webp"
+        },
+        {
+          "title": "Libestal Overview #2",
+          "source": "/images-opt/libestal-ficta-entry-2-opt.webp"
+        },
+        {
+          "title": "Outside view of the kingdom's castle",
+          "source": "/images-opt/libestal-ficta-entry-3-opt.webp"
+        },
+        {
+          "title": "Outside view of the Shopping Building #1",
+          "source": "/images-opt/libestal-ficta-entry-4-opt.webp"
+        },
+        {
+          "title": "Outside view of the Shopping Building #2",
+          "source": "/images-opt/libestal-ficta-entry-5-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #1",
+          "source": "/images-opt/libestal-ficta-entry-6-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #2",
+          "source": "/images-opt/libestal-ficta-entry-7-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #3",
+          "source": "/images-opt/libestal-ficta-entry-8-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #4",
+          "source": "/images-opt/libestal-ficta-entry-9-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #5",
+          "source": "/images-opt/libestal-ficta-entry-10-opt.webp"
+        },
+        {
+          "title": "Front view of Libestal Castle",
+          "source": "/images-opt/libestal-ficta-entry-11-opt.webp"
+        },
+        {
+          "title": "Kingdom of Libestal Concept Art",
+          "source": "/images-opt/libestal-ficta-entry-12-opt.webp"
+        },
+        {
+          "title": "Map of Libestal and the five Dungeons",
+          "source": "/images-opt/libestal-ficta-entry-13-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestal-ficta-entry-opt.webp"
+    },
+    {
+      "id": "stains-entry",
+      "title": "Stains and Corruption",
+      "chapters": [
+        -1
+      ],
+      "quote": "They brought this upon themselves—Nothing stays pure.",
+      "content": "## Overview\n\nStains served as the main antagonists throughout much of the story, driving the heroes forward in their journey to overcome evil and restore balance to the world.\n\n## Details\n\n### Appearance\n\nStains took the form of shadowy creatures of various shapes, sizes, and species—some wielded swords, some walked on two legs, others on four, some flew, and some resembled crystalline beings. Despite these differences, they all shared a defining trait: a shroud of darkness and a glowing, purple, symbol-like pattern across their faces. Each species of Stain had its own distinct abilities used to attack the heroes.\n\nWhen defeated, Stains dropped coins and valuable materials essential to the heroes' progression—ingredients for cooking, crafting tools, and enhancing their [Revelation](#entry:revelations-entry) weapons.\n\nInterestingly, the heroes once noted how Stains emitted sounds similar to whimpering puppies upon death, which made some feel uneasy about slaying them.\n\n### Stories and Origin\n\n#### Chapter 1\n\nIn the first journey, the heroes were tasked with defending the kingdom from the invading Stains. Little was initially known about these creatures, other than their malevolent nature and their relentless aggression toward the heroes and the world.\n\nAt the forefront of this invasion stood the **Stain King**—a larger, more formidable Stain. However, it was eventually revealed that this Stain King was a false monarch, merely a key piece in a fabricated kingdom designed to imprison the true threat: the [Outsider](#entry:outsider-entry). Defeating it ultimately led to the Outsider’s release.\n\n#### Chapter 2\n\n**Origins**\nThe second chapter introduced even more Stain types and powerful boss-class Stains. Among them were four major foes, each guarding a key location:\n\n- **Stain King Elpis** – A two-headed dragon guarding [Star Site: Elpis](#entry:star-site-elpis-entry)\n- **Stain King Chronos** – A mechanical guardian defending [Star Site: Chronos](#entry:star-site-chronos-entry)\n- **Stain King Proto** – A knight-like figure, resembling the first chapter’s Stain King, guarding the [Stronghold of Ruin](#entry:stronghold-of-ruin-entry)\n- **Stain King Chaos** – A chaotic, rodent-like creature guarding [Star Site: Chaos](#entry:star-site-chaos-entry)\n\nThis chapter revealed that the real world, too, was falling victim to the spread of the Stains through an encroaching phenomenon known as the **Ruination**. At its heart lay the _Heart of Ruin_, the ultimate source of this corruption.\n\nAs the heroes ventured deeper, they uncovered scattered stories that illuminated the history and tragedy behind the Stains:\n\n- One tale spoke of an explorer who accidentally unearthed the corruption while seeking treasure.\n- Another followed a scholar researching the Stains, who uncovered a prophecy foretelling the world’s eventual fall.\n- A third told the account of a refugee who witnessed the Ruination render lands uninhabitable and drive entire species to extinction.\n\n_Note: Further information on these stories is available in the [Library](#entry:library-entry) Archive._\n\n**The “Cursed” Ones**\nOne particularly chilling discovery was that of the _ruin-touched_—people who had come into contact with the corruption. These individuals lost their sanity; their spirits twisted until they were driven to commit violence against those they once held dear.\n\nOn Day 7, during the final dungeon, the [Heart of Ruin](#entry:heart-of-ruin-entry), five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades until the others managed to purify and rescue them.\n\n[Read \"The Truth of Ruin\"](#text:the-truth-of-ruin)\n[Read \"Prelude of Ruin\"](#text:prelude-of-ruin)\n[Read \"Song of Ruin\"](#text:song-of-ruin)\n\n### Current Theories\n\nSeveral theories have been put forward regarding the Stains’ origins. One speculates that the Stains were once Libestans, transformed through corruption. Another suggests a deeper [connection](https://www.reddit.com/r/Hololive/comments/1fbq036/enreco_theory_about_the_stains/) between the Stains and Shiori Nyavellas.\n\nAt the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself and by the heroes themselves: **\"Nothing stays pure.\"**\n\n### Trivia\n\nThe corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:storylines-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.",
+      "thumbnailSrc": "/images-opt/stains-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Stains Overview #1",
+          "source": "/images-opt/stains-entry-0-opt.webp"
+        },
+        {
+          "title": "Stains Overview #2",
+          "source": "/images-opt/stains-entry-1-opt.webp"
+        },
+        {
+          "title": "Stains Concept Art",
+          "source": "/images-opt/stains-entry-2-opt.webp"
+        },
+        {
+          "title": "Stains in The Chapter 1 Trailer",
+          "source": "/images-opt/stains-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/stains-entry-opt.webp"
+    },
+    {
+      "id": "revelations-entry",
+      "title": "Revelations",
+      "chapters": [
+        -1
+      ],
+      "quote": "The power came to them, like a forgotten memory",
+      "content": "## Overview\n\nRevelations were special powers and weapons unique to each hero, shaped by their personalities and the stories that defined them before their memories were lost.\n\n## Details\n\n### Preface\n\nDuring the first battle against the Stain King, the heroes manifested mysterious powers upon shouting the word _\"Revelation.\"_ These powers enabled them to repel the great evil. The [King of Libestal](#entry:outsider-entry) proclaimed that these Revelations were the key to saving the world from the Calamity and urged the heroes to lend their strength in doing so.\n\n### Abilities\n\nEach Revelation possessed a unique ability, ranging from blazing projectiles to gem-like bursts. After activation, abilities entered a cooldown phase of one minute before they could be used again.\n\nWith each dungeon conquered, the heroes’ Revelations grew stronger, a change marked visually by increasingly brilliant sparkles surrounding the weapon.\n\nIn Chapter 2, Revelations received a significant upgrade. Not only were their powers enhanced, but they could also be wielded as melee weapons—unlike in Chapter 1, where they functioned purely as activated abilities. Additionally, each Revelation gained a basic [ranged attack](https://www.youtube.com/live/zCWoxMbOZPk?si=xESfWS16pd6-LjUN&t=6606) that could be used repeatedly without cooldown.\n\n### The Heroes and Their Revelations\n\nEach hero wielded a unique Revelation—distinct in both form and function—based on their past selves and forgotten identities:\n\n- **Gawr Gura** – [Oceanic Terror](#entry:oceanic-terror-entry), a trident\n\n- **Mori Calliope** – [Rest In Peace](#entry:rest-in-peace-entry), a scythe\n\n- **Amelia Watson** – [Eye of Wisdom](#entry:eye-of-wisdom-entry), a magnifying glass\n\n- **Takanashi Kiara** – [Burning Phoenix](#entry:burning-phoenix-entry), a fiery sword and shield\n\n- **Ninomae Ina'nis** – [Violet Miasma](#entry:violet-miasma-entry), a book with cryptic runes\n\n- **Nanamoo** – [Winds of Civilization](#entry:winds-of-civilization-entry), a short blade\n\n- **Ceres Fauna** – [Nature's Grace](#entry:natures-grace-entry), a golden apple\n\n- **Hakos Baelz** – [Chaos Stampede](#entry:chaos-stampede-entry), a dice\n\n- **Ouro Kronii** – [Chrono Surge](#entry:chrono-surge-entry), dual clock hands\n\n- **IRyS** – [Light and Darkness](#entry:light-and-darkness-entry), a pair of black and white stars\n\n- **Fuwawa Abyssguard** – [Azure Claws](#entry:azure-claws-entry), sharp blue claws\n\n- **Mococo Abyssguard** – [Fuchsia Claws](#entry:fuchsia-claws-entry), sharp pink claws\n\n- **Koseki Bijou** – [Shining Emotions](#entry:shining-emotions-entry), a gem\n\n- **Nerissa Ravencroft** – [Resonant Strike](#entry:resonant-strike-entry), a tuning fork\n\n- **Shiori Novella** – [Bookmark of Memories](#entry:bookmark-of-memories-entry), a quill\n\n- **Elizabeth Rose Bloodflame** – [Thorn of Order](#entry:thorn-of-order-entry), a claymore\n\n- **Gonathon G** – [Gremlin Grenade](#entry:gremlin-grenade-entry), a pair of metal fists\n\n- **Cecilia Immergreen** – [Automaton Assault](#entry:automaton-assault-entry), a lance\n\n- **Raora Panthera** – [Purrfect Execution](#entry:purrfect-execution-entry), a mechanical claw",
+      "thumbnailSrc": "/images-opt/revelations-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Revelations' Appearance Overview #1",
+          "source": "/images-opt/revelations-entry-0-opt.webp"
+        },
+        {
+          "title": "Revelations' Power Overview",
+          "source": "/images-opt/revelations-entry-1-opt.webp"
+        },
+        {
+          "title": "Revelations' Appearance Overview #2",
+          "source": "/images-opt/revelations-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/revelations-entry-opt.webp"
+    },
+    {
+      "id": "libestans-entry",
+      "title": "Libestans",
+      "chapters": [
+        -1
+      ],
+      "quote": "Our barrels and pots were overflowing with potato salad.",
+      "content": "## Overview\n\nLibestans were the inhabitants of the Libestal Kingdom, acting as interactable characters who made the heroes’ journey all the more lively.\n\n## Details\n\nLibestans took the shape of rabbit-like humanoids, with completely white skin, two long ears hanging by each side, and short, somewhat chubby builds—many found them quite adorable. They appeared in both the fabricated kingdom of Libestal and the real, ancient one. Depending on their role, Libestans could generally be divided into two groups.\n\n### Locals\n\nThese Libestans were typically ordinary townsfolk found along roads, tucked away behind castles, or scattered throughout other nondescript areas. Interacting with them often led to snippets of everyday life, sometimes humorous, sometimes revealing small [secrets](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5386) about the kingdom or the overarching story. While they didn’t directly contribute to the main quests, heroes were encouraged to speak with as many as possible to better understand the world they were adventuring through.\n\n### Key Figures\n\nOther Libestans held more pivotal roles, such as Quest Masters, Shopkeepers, or major figures like the [Libestal Princess](#entry:iphania-entry) and the [Libestal King](#entry:outsider-entry). These individuals provided side quests that rewarded money or artifacts, sold essential items for the journey, or in the case of the more prominent Libestans, handed out quests tied directly to the main storyline.",
+      "thumbnailSrc": "/images-opt/libestans-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "A Libestan who had an awful dream about potato salad",
+          "source": "/images-opt/libestans-entry-0-opt.webp"
+        },
+        {
+          "title": "Cryptic message found while speaking to a Libestan",
+          "source": "/images-opt/libestans-entry-1-opt.webp"
+        },
+        {
+          "title": "The Quest Master, responsible for giving out quests",
+          "source": "/images-opt/libestans-entry-2-opt.webp"
+        },
+        {
+          "title": "Princess Iphania's first time meeting the heroes",
+          "source": "/images-opt/libestans-entry-3-opt.webp"
+        },
+        {
+          "title": "A hero recieving a quest from and NPC",
+          "source": "/images-opt/libestans-entry-4-opt.webp"
+        },
+        {
+          "title": "A hero buying items from one of the shopkeepers",
+          "source": "/images-opt/libestans-entry-5-opt.webp"
+        },
+        {
+          "title": "Libestans in the Kingdom",
+          "source": "/images-opt/libestans-entry-6-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestans-entry-opt.webp"
+    },
+    {
+      "id": "storylines-entry",
+      "title": "Storylines",
+      "chapters": [
+        -1
+      ],
+      "quote": "What's even going on anymore?",
+      "content": "## Overview\n\nIn addition to the main storylines within the ENreco universe, the heroes themselves created countless self-made shenanigans, turning everything into a massive headache for anyone trying to keep track. This entry provides a concise summary of all the major storylines—both official and player-driven—arranged in roughly chronological order.\n\n_**Note:** These are only brief summaries to help you grasp the general idea. For more details, read the recaps or check out the related glossary entries._\n\n## Official Stories\n\nThese are the stories that played out the same for everyone—the main storylines of this enigmatic journey.\n\n### Chapter 1\n\nNineteen heroes were summoned to the Kingdom of Libestal by its King, stripped of their memories, and tasked with saving the realm from the Stains. With their powers—known as Revelations—they ventured forth, conquering dungeons that gradually restored fragments of their memories and strengthened them along the way. In the end, they faced their final challenge: the [Stain King.](#entry:outsider-entry) They succeeded in defeating it, completing their mission to save the kingdom.\n\nHowever, the King then revealed his true colors. It turned out he had tricked them all along—defeating the Stain King freed him from his prison. He was the Captive, an entity who sought to destroy the universe itself.\n\nThe heroes managed to stop his plan, but with the Captive defeated, the world began to crumble. A mysterious voice then called out, urging them to jump into a portal—marking the end of Chapter 1.\n\n### Chapter 2\n\nThat voice belonged to [Fia,](#entry:iphania-entry) the keeper of the Library. She pulled the heroes back in time to Ancient Libestal, asking them to stop the being known as the Outsider—revealed to be the Outlander, a mysterious swordsman they met along the way.\n\nTo figure out how, they first needed to recover Fia's missing memories by conquering Star Sites. Along the way, they met Iphania, the kingdom's princess, and the Outlander. As Fia's memories returned, the heroes learned the Outlander would one day become the Outsider in his desperate attempt to save a world ravaged by the Stains.\n\nSo Fia asked them to save the world in his place by destroying the Curse—the source of corruption. They succeeded, or so it seemed, until the Curse returned, killing the Princess and calling forth a mysterious being that punished the Outlander and the heroes for defying fate.\n\nAt the last moment, Fia saved them once more. Accepting that the past could not be changed, she asked for their help to protect the present and the future instead. Most agreed, but five—Bijou, Mococo, Fuwawa, Nerissa, and Shiori—refused, choosing to forge their own path.\n\n## Self-made Stories\n\nThese stories emerged naturally from the heroes’ interactions. They had no ties to the main narrative but became just as important, shaping ENreco in ways few could have predicted. This only covers the _most notable and persistent_ events.\n\n### Chapter 1\n\n#### FaunaMart and NanaEleven\n\n**Duration:** Day 2 to 7\n\nBy day 2, [Fauna](#entry:fauna-entry) decided she'd rather live as an NPC than deal with all the hero business. So she opened FaunaMart, a convenience store selling everyday goods and, most famously, FaunaMart lottery tickets, which she claimed would fund a library for the kingdom.\n\nMany suspected a scam, including FaunaMart’s very first customer, Nanamoo. Not one to sit idly by, Nanamoo started her own rival business by day 7, called NanaEleven, complete with its own lottery—which also scammed people.\n\nTheir rivalry came to a head on the final day. What began as a tense standoff ended in laughter, as they decided to merge their businesses and work together.\n\n#### Lottery Fiasco\n\n**Duration:** Day 4 to 5\n\nAmong FaunaMart’s most loyal customers was [Mococo](#entry:mococo-entry)—at first. It started with a few tickets, then ballooned into dozens, then hundreds, as she became addicted to gambling. Her obsession grew so intense she threatened and even attacked poor Nerissa, the overwhelmed FaunaMart employee, simply because Nerissa wouldn’t hand over money Mococo wrongfully demanded.\n\nThings escalated further when Mococo threatened to sue FaunaMart for “improper business.” But the entire kingdom sided against her. Even so, she still managed to come out ahead, as Nerissa paid her a generous sum just to settle things.\n\n#### A Knight’s Tale\n\n**Duration:** Day 6 to 8\n\nOne of the most talked-about stories in the first chapter was the love story between [Gonathon](#entry:gigi-entry) and [Amelia Watson.](#entry:ame-entry) It left an imprint on ENreco that lasted well beyond its time.\n\nTheir relationship began on shaky ground, but through gifts of diamonds and moments of understanding, they grew close and married. Gonathon proved to be a devoted husband, doing all he could to keep Amelia—his “Pearl”—safe and happy. Amelia, of course, remained thoroughly Amelia.\n\nTheir tale seemed destined for a happy ending, until the sixth day, when Amelia regained her past memories and forgot everything about Gonathon. Heartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.\n\nIn the end, his unwavering loyalty was rewarded. With help from others and the faint imprint Gonathon had left in her heart, Amelia chose to stay with him, ready to create new memories together.\n\n#### The Corruption\n\n**Duration:** Day 7 to 8\n\nThe last major saga of Chapter 1—and a fitting climax—was the battle against the Corruption.\n\nIt all began when [Koseki Bijou](#entry:bijou-entry) spent tens of thousands of coins trying to get a hat, eventually landing a Stain Hat: a sentient piece of corruption that slowly took control of her. By day 7, Bijou was fully corrupted, spreading her influence by handing out hats to others.\n\nFour more heroes fell, leading to a final showdown. The remaining heroes banded together to save their friends and rid the kingdom of the Corruption once and for all. They succeeded, freeing their dear comrades from darkness.\n\n---\n\n### Chapter 2\n\n#### The In-bread Incident\n\n**Duration:** Day 3\n\nPerhaps the strangest storyline of all was the “In-bread Incident,” more infamously known as “The Libestal Incest Situation Is Crazy.” It erupted on the third day.\n\nIt all started when Shakira asked Gonathon to help her pursue Immerkind—her cousin. Immerkind, however, was already in love with the Princess. Learning that the Princess only had eyes for the Outlander left Immerkind heartbroken.\n\nTrying to console her, Gonathon suggested the Princess and the Outlander might be... siblings. This rumor spread quickly, reaching Peasant the Bae, who then concluded that everyone in the kingdom must be inbred.\n\n#### The Humble Knight and the Witch\n\n**Duration:** Day 1 to 7\n\nGonathon found himself in yet another love story in Chapter 2, though this one was far more bittersweet. It involved [Shiori Nyavella.](#entry:shiori-entry)\n\nIt started when Shiori sweet-talked Gonathon into buying her cooking. But the more she saw his sincerity, the more her heart faltered. She fell deeply for the humble knight. Gonathon, however, didn’t return her feelings quite the same way—always reliant on others for decisions, never offering the affection she hoped for. Perhaps it was because someone else already held that space in his heart.\n\nSo Shiori made the painful choice to erase all memories of him. Maybe it was to protect herself, maybe to protect him. It hurt them both, but they respected each other’s choices and went their separate ways.\n\n#### Maven in Blue\n\n**Duration:** Day 1 to 8\n\nOne of the more prominent relationships that first bloomed in Chapter 1 was between [Elizabeth](#entry:liz-entry) and [Nerissa.](#entry:nerissa-entry) Back then, their relationship was more or less a funny, wholesome one, with the two bantering—or bickering?—back and forth, with Nerissa as the teaser and Elizabeth as the straight woman. However, in Chapter 2, that bond blossomed and developed into something much more complex.\n\nNerissa started the second journey with her memories of the previous one gone, meaning she couldn't recall who Elizabeth was either. But over time, she slowly regained them, which in turn also restored the bonds she had with Elizabeth from before. This time, the bond was stronger, and the two could clearly sense they had something for each other.\n\nThe bond slowly turned into obsession, and by the final day, Nerissa could not think about anything else but the scarlet knight—almost to a threatening point—as she wanted Elizabeth for herself, and herself only. She also wanted Elizabeth to think of her and her only.\n\nAs Nerissa, along with four others, turned against Fia and the other heroes, this storyline was left on a cliffhanger, with many curious about what Elizabeth's reaction to this heel turn would be.\n\n#### Child Dispute\n\n**Duration:** Day 5\n\n[Peasant the Bae](#entry:bae-entry) had countless storylines and moments that cemented her as someone with perhaps the best character growth in the kingdom. One such moment was the child dispute with Koseki Bijou.\n\nAt the end of the first chapter, Bijou left Shiori with a child—represented as a small Stain—after breaking up with her. The child, according to Bae, was later found abandoned and alone, prompting the kindhearted peasant to take it under her care.\n\nBijou, now wanting to mend her bonds with Shiori, tried to persuade Bae to return the child. Bae refused, and the matter was taken to “court,” with Mordon presiding as the jury. Thanks to Bae’s persistence and clear compassion for the child, the dispute ended in her favor, with Bae keeping custody and Bijou being granted visitation rights.\n\n#### The Fluffy One’s Cafe\n\n**Duration:** Day 4 to 7\n\n[Fuwawa](#entry:fuwawa-entry) was a humble, hard-working chef who dreamed of opening a café that would serve delicious food to bring smiles to those around her. But that admirable dream was first met with hardship and disappointment; by the halfway point of the journey, she hadn’t sold a single dish.\n\nThankfully, as if to reward her dedication and devotion, everything changed after the fourth day. Her café was suddenly bustling with customers—her entire stock sold out, orders rolled in for parties, and praise poured in for her cooking. At last, the fluffy one’s dream was realized.\n\n#### The Hot Pink One’s Collapsing Relationship\n\n**Duration:** Day 5 to 8\n\n[The Hot Pink One](#entry:irys-entry) once again found herself entangled in a web of complicated romantic drama. In this second journey, she was in a relationship with both Ina and Tam.\n\nAll seemed well at first; each was fine sharing in this polygamous arrangement. But toward the end, the pink one began taking advantage of Tam, treating her more like a “hobby” than a partner.\n\nEverything came to a head on day seven, during a “gender reveal” party for the Hot Pink One’s supposed pregnancy. There, she openly disrespected Tam, flaunting the “child” she shared with Ina. This sparked a heated conflict between the two, causing deep emotional pain for Ina as well.\n\nIn the end, both Tam and Ina left the Hot Pink One, each with their own reasons.",
+      "thumbnailSrc": "/images-opt/storylines-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Mococo and the lottery situation",
+          "source": "/images-opt/storylines-entry-0-opt.webp"
+        },
+        {
+          "title": "The child dispute between Bae and Bijou",
+          "source": "/images-opt/storylines-entry-1-opt.webp"
+        },
+        {
+          "title": "The Hot Pink's gender reveal party",
+          "source": "/images-opt/storylines-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/storylines-entry-opt.webp"
+    }
+  ],
+  "locations": [
+    {
+      "id": "library-entry",
+      "title": "The Library",
+      "chapters": [
+        1
+      ],
+      "quote": "An archive of lore from across the multiverse",
+      "content": "## Overview\n\n**The Library** was both a key concept and location in the heroes’ journey during the second chapter. It served not only as an archive of multiversal lore and the heroes’ memories throughout their time in Libestal, but also as the home of a significant figure: the Library’s caretaker, [Fia](#entry:iphania-entry).\n\n## Details\n\n### Preface\n\nAs the heroes faced off against the [Outsider](#entry:outsider-entry) and watched the world around them crumble, Fia intervened. She pulled them back through time and transported them to the Library to save their lives. It was here that they first met Fia, the current Librarian, who explained their new objective: they needed to help her recover her lost memories—fragments lost due to the effects of time travel—in order to find a way to prevent the Outsider’s existence.\n\n> _The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases._\n\n[Read \"The Library\"](#text:the-library)\n\n### Appearance and Role\n\nThe Library radiated a dreamy atmosphere, with a wooden interior intertwined with vines and greenery, lit warmly by lanterns and the ethereal glow of froglights. From the outside, it took the form of a dome with open entrances on all four sides, nestled within the kingdom’s walls.\n\nAt the heart of the Library stood a small quartz podium set atop a serene pool of water—Fia’s usual place of residence.\n\nMost striking were the endless stacks of bookshelves lining the Library. True to its purpose, the Library housed [lore](https://www.youtube.com/live/5pgqtkxazUo?si=Avq9ghV6qktpwDi8&t=1123) from across the multiverse. Here, the heroes would also submit daily journal entries, as requested by Fia. Any newly discovered book or piece of lore would also be cataloged and made available for reading.\n\n### Lore and Journals\n\nLore played a crucial role in the second chapter, uncovering the [kingdom’s](#entry:libestal-ancient-entry) history, the rise of the [Stains](#entry:stains-entry), and the hidden truths that shaped the world. These pieces of lore were found throughout the heroes’ travels—from forgotten ruins to the depths of ancient dungeons.\n\n#### General Lore\nContained records on major figures and the overarching history of the kingdom of Libestal.\n\n[Read \"Fia\"](#text:fia)\n[Read \"Libestal Ficta\"](#text:libestal-ficta)\n[Read \"libestal\"](#text:libestal)\n[Read \"The Outsider\"](#text:the-outsider)\n[Read \"The Library\"](#text:the-library)\n\n#### Book of Prophecies\nAs described by the Princess, this book knew all and revealed all. It didn’t simply predict the future—it _defined_ it, including the doomed fate of Libestal.\n\n[Read \"Book of Prophecies 3:21\"](#text:book-of-prophecies-3-21)\n[Read \"Book of Prophecies 3:7\"](#text:book-of-prophecies-3-7)\n[Read \"Book of Prophecies 8:4\"](#text:book-of-prophecies-8-4)\n[Read \"Book of Prophecies 3:14\"](#text:book-of-prophecies-3-14)\n[Read \"Book of Prophecies 6:10\"](#text:book-of-prophecies-6-10)\n[Read \"Book of Prophecies 2:29\"](#text:book-of-prophecies-2-29)\n\n#### Explorer's Journal\nThe diary of an ancient explorer who, long before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.\n\n[Read \"Explorer's Journal #1\"](#text:explorers-journal-1)\n[Read \"Explorer's Journal #2\"](#text:explorers-journal-2)\n[Read \"Explorer's Journal #3\"](#text:explorers-journal-3)\n[Read \"Explorer's Journal #4\"](#text:explorers-journal-4)\n[Read \"Explorer's Journal #5\"](#text:explorers-journal-5)\n\n#### Researcher's Journal\nThe records of a researcher studying the spread of shadowy beings known as the Stains. Their writings chronicled a desperate attempt to uncover whether the Book of Prophecies—and the Ruination it foretold—would truly bring about the world’s end.\n\n[Read \"Researcher's Journal #1\"](#text:researchers-journal-1)\n[Read \"Researcher's Journal #2\"](#text:researchers-journal-2)\n[Read \"Researcher's Journal #3\"](#text:researchers-journal-3)\n[Read \"Researcher's Journal #4\"](#text:researchers-journal-4)\n[Read \"Researcher's Journal #5\"](#text:researchers-journal-5)\n\n#### Rider's Journal\nThe diary of a refugee and caretaker of gryphons, who bore witness to the devastation wrought by the Stains—losing not only their home, but also their beloved companions.\n\n[Read \"Rider's Journal #1\"](#text:riders-journal-1)\n[Read \"Rider's Journal #2\"](#text:riders-journal-2)\n[Read \"Rider's Journal #3\"](#text:riders-journal-3)\n[Read \"Rider's Journal #4\"](#text:riders-journal-4)\n[Read \"Rider's Journal #5\"](#text:riders-journal-5)\n\n#### Heart of Ruin\nThis tome revealed the source of the Ruination, the calamity it unleashed, and the true nature of the corruption itself.\n\n[Read \"The Truth of Ruin\"](#text:the-truth-of-ruin)\n[Read \"Prelude of Ruin\"](#text:prelude-of-ruin)\n[Read \"Song of Ruin\"](#text:song-of-ruin)\n\n### The Heroes' Journals\n\nAt the end of each day, the heroes were asked to record their experiences and submit them to the Library. In stark contrast to the heavy and often tragic tone of the other books, their entries were… quirky, to say the least.\n\n_Note: You can read all of the heroes' entries in Chapter 2's charts._\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1919396839205593174/photo/1)",
+      "thumbnailSrc": "/images-opt/library-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "The Library Overview #1",
+          "source": "/images-opt/library-entry-0-opt.webp"
+        },
+        {
+          "title": "The Library Overview #2",
+          "source": "/images-opt/library-entry-1-opt.webp"
+        },
+        {
+          "title": "The Library Overview #3",
+          "source": "/images-opt/library-entry-2-opt.webp"
+        },
+        {
+          "title": "View of the Lore Archive",
+          "source": "/images-opt/library-entry-3-opt.webp"
+        },
+        {
+          "title": "The Library Overview #4",
+          "source": "/images-opt/library-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/library-entry-opt.webp"
+    },
+    {
+      "id": "sanctuary-entry",
+      "title": "The Sanctuary",
+      "chapters": [
+        0
+      ],
+      "quote": "Don't worry. This isn't goodbye forever.",
+      "content": "## Overview\n\nThe Sanctuary remained a mystery in both meaning and purpose. It was the very first place where the heroes opened their eyes before their journey began. It was also the site of the final battle between the heroes and the [Captive](#entry:outsider-entry) in the first chapter.\n\n## Details\n\n### Appearance\n\nFloating across what seemed like the fabric of space and time itself, the Sanctuary exuded a mythical, divine aura. It consisted of several large, round, disk-shaped platforms, each illuminated sparsely in its corners by glowing blue sea lanterns. One disk stood out among the rest—at its center stood a massive, egg-like artifact, encircled by towering beacons of light shooting endlessly into the void. This entire realm was surrounded by a sea of stars, drifting within a space so vast, cold, and silent that it felt like a realm fit for gods.\n\n### Stories\n\nAs early as the heroes could remember, they awoke in this cold, mysterious place, greeted by an equally mysterious voice whispering directly into their minds. Whether these were their own thoughts or someone else’s, they couldn’t tell. The cryptic message it delivered only deepened the enigma:\n\n> Faced with oblivion, I feel. Empty?\n> Relieved?\n> Perhaps distraught?\n> I do not know.\n> So much I don't know... And yet...\n> That bright light... It calls to me...\n\nAfter that, the heroes never returned to the Sanctuary—until the final day of the first chapter.\n\nDuring the last battle, as the Captive was defeated, the fabric of space began to unravel. In that moment, a mysterious voice—now revealed to be [Fia](#entry:iphania-entry)—urged the heroes to jump into a portal, leading them to the Library and marking the beginning of the second chapter.",
+      "thumbnailSrc": "/images-opt/sanctuary-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "The Sanctuary Overview #1",
+          "source": "/images-opt/sanctuary-entry-0-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Overview #2",
+          "source": "/images-opt/sanctuary-entry-1-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Overview #3",
+          "source": "/images-opt/sanctuary-entry-2-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Overview #4",
+          "source": "/images-opt/sanctuary-entry-3-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Concept Art",
+          "source": "/images-opt/sanctuary-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/sanctuary-entry-opt.webp"
+    }
+  ]
+}

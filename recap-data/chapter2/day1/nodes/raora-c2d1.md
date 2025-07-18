@@ -1,6 +1,9 @@
+<!-- title: Roa Pandora -->
+<!-- status: Alive -->
+
 Roa Pandora enters the job hall, where she eagerly accepts the job of [jeweler](https://www.youtube.com/live/zmRDeC_aJUM?si=jFDNWI_EmN9S-nyd&t=1890). She continues exploring the castle where she engages in conversation with other Shining Stars like Fuwawa, Mococo, Princess Bijou, and others. She takes Mococo and Princess Bijou under her wing as they seek to start a business together. They then depart for the Remnants in order to secure resources for their business venture.
 
-A business that will stand as the most well-known store in the kingdom, one that capitalizes on gacha, one that will have customers emptying their pockets for the goods. They call it: _Garcharm_.
+A business that will stand as the most well-known store in the kingdom, one that capitalizes on gacha, one that will have customers emptying their pockets for the goods. They call it: _Gacharm_.
 
 [Making money!](#embed:https://www.youtube.com/live/zmRDeC_aJUM?t=4400s)
 

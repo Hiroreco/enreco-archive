@@ -102,14 +102,14 @@ td {
 }
 
 .card-deco {
-    background-image: url("/images-opt/card-deco.webp");
+    background-image: url("/images-opt/card-deco-opt.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dark .card-deco {
-    background-image: url("/images-opt/card-deco-dark.webp");
+    background-image: url("/images-opt/card-deco-dark-opt.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -16,4 +16,8 @@ In spite of all of this turmoil, Tam and Gonathon remained committed to one anot
 
 ["Bunkbed activities" by Kawr](https://x.com/kawrrsz/status/1920100323001348357)
 
+<!-- shiori -->
+
 ["Cuck bunk" by BunBBun](https://x.com/BunBBun1/status/1920236766730092572)
+
+<!-- shiori -->

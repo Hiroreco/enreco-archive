@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Tanakisha Karia—or rather, Kiara Takahashi—had her memories returned, though some parts remained a blur. What happened in the end? A fierce battle of epic proportions?
 
 The mystery didn't last long as a [voice](https://youtu.be/5pgqtkxazUo?t=471) reminded her.
@@ -27,3 +30,9 @@ Soon, Elizabeth calls Kiara to the building area, a large plot of land that our 
 A knight's and hero's work is never done, especially as the deadline looms. Tired, Kiara writes in her journal before departing to rest, pondering what tomorrow could bring.
 
 [Liebes Tagebuch](#embed:https://www.youtube.com/live/5pgqtkxazUo?si=o9cCRFjDiz3cwnjr&t=13675)
+
+## Fanart
+
+["CHEF" by XU CW](https://x.com/2H2xO2is2H2O/status/1921125232099651645)
+
+<!-- calli -->

@@ -8,10 +8,14 @@ import {
 } from "@enreco-archive/common/types";
 import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
+import Image from "next/image";
 
 interface Props {
     relationshipVisibility: StringToBooleanObjectMap;
-    toggleRelationshipVisible: (relationshipId: string, relationshipVisibility: boolean) => void;
+    toggleRelationshipVisible: (
+        relationshipId: string,
+        relationshipVisibility: boolean,
+    ) => void;
     toggleAllRelationshipVisible: (relationshipVisibility: boolean) => void;
     showOnlyNewEdges: boolean;
     setShowOnlyNewEdges: (newVal: boolean) => void;
@@ -74,15 +78,13 @@ const ViewVisibilityCard = ({
 
                         <Checkbox
                             id="edge-all"
-                            checked={
-                                Object.keys(relationshipVisibility)
-                                    .every(key => relationshipVisibility[key] === true)
-                            }
+                            checked={Object.keys(relationshipVisibility).every(
+                                (key) => relationshipVisibility[key] === true,
+                            )}
                             onCheckedChange={(checked) => {
-                                if(checked === "indeterminate") {
+                                if (checked === "indeterminate") {
                                     toggleAllRelationshipVisible(false);
-                                }
-                                else {
+                                } else {
                                     toggleAllRelationshipVisible(checked);
                                 }
                             }}
@@ -111,10 +113,9 @@ const ViewVisibilityCard = ({
                                 id={`edge-${key.toLowerCase()}`}
                                 checked={relationshipVisibility[key]}
                                 onCheckedChange={(checked) => {
-                                    if(checked === "indeterminate") {
+                                    if (checked === "indeterminate") {
                                         toggleRelationshipVisible(key, false);
-                                    }
-                                    else {
+                                    } else {
                                         toggleRelationshipVisible(key, checked);
                                     }
                                 }}
@@ -127,13 +128,19 @@ const ViewVisibilityCard = ({
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between items-center">
                         <span className="font-bold">
-                            {chapter === 1 ? "Job Toggles" : "Team Toggles"}
+                            {chapter === 0
+                                ? "Guild Toggles"
+                                : chapter === 1
+                                ? "Job Toggles"
+                                : "Team Toggles"}
                         </span>
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="team-all">
                             <span>
-                                {chapter === 1
+                                {chapter === 0
+                                    ? "Show all guilds"
+                                    : chapter === 1
                                     ? "Show all jobs"
                                     : "Show all teams"}
                             </span>
@@ -141,15 +148,13 @@ const ViewVisibilityCard = ({
 
                         <Checkbox
                             id="team-all"
-                            checked={
-                                Object.values(teamVisibility)
-                                    .every((v) => v === true)
-                            }
+                            checked={Object.values(teamVisibility).every(
+                                (v) => v === true,
+                            )}
                             onCheckedChange={(checked) => {
-                                if(checked === "indeterminate") {
+                                if (checked === "indeterminate") {
                                     toggleAllTeamsVisible(false);
-                                }
-                                else {
+                                } else {
                                     toggleAllTeamsVisible(checked);
                                 }
                             }}
@@ -162,10 +167,12 @@ const ViewVisibilityCard = ({
                         >
                             <Label htmlFor={`team-${key.toLowerCase()}`}>
                                 <div className="flex gap-2 items-center">
-                                    <img
+                                    <Image
                                         src={chapterData.teams[key].teamIconSrc}
                                         className="w-8 h-8"
                                         alt={`${key} logo`}
+                                        width={32}
+                                        height={32}
                                     />
                                     <span className="capitalize">
                                         {chapterData.teams[key].name || key}
@@ -177,10 +184,9 @@ const ViewVisibilityCard = ({
                                 id={`team-${key.toLowerCase()}`}
                                 checked={teamVisibility[key]}
                                 onCheckedChange={(checked) => {
-                                    if(checked === "indeterminate") {
+                                    if (checked === "indeterminate") {
                                         toggleTeamVisible(key, false);
-                                    }
-                                    else {
+                                    } else {
                                         toggleTeamVisible(key, checked);
                                     }
                                 }}
@@ -201,15 +207,13 @@ const ViewVisibilityCard = ({
 
                     <Checkbox
                         id="character-all"
-                        checked={
-                            Object.values(characterVisibility)
-                                .every((v) => v)
-                            }
+                        checked={Object.values(characterVisibility).every(
+                            (v) => v,
+                        )}
                         onCheckedChange={(checked) => {
-                            if(checked === "indeterminate") {
+                            if (checked === "indeterminate") {
                                 toggleAllCharactersVisible(false);
-                            }
-                            else {
+                            } else {
                                 toggleAllCharactersVisible(checked);
                             }
                         }}
@@ -225,10 +229,12 @@ const ViewVisibilityCard = ({
                     >
                         <Label htmlFor={`character-${key.toLowerCase()}`}>
                             <div className="flex gap-2 items-center">
-                                <img
+                                <Image
                                     src={characterImagesMap[key]}
                                     className="w-8 h-8"
                                     alt={`${key} logo`}
+                                    width={32}
+                                    height={32}
                                 />
                                 <span className="capitalize">
                                     {nodes.find((node) => node.id === key)?.data
@@ -241,10 +247,9 @@ const ViewVisibilityCard = ({
                             id={`character-${key.toLowerCase()}`}
                             checked={characterVisibility[key]}
                             onCheckedChange={(checked) => {
-                                if(checked === "indeterminate") {
+                                if (checked === "indeterminate") {
                                     toggleCharacterVisible(key, false);
-                                }
-                                else {
+                                } else {
                                     toggleCharacterVisible(key, checked);
                                 }
                             }}

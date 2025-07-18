@@ -20,3 +20,7 @@ She would save the world.
 And she would marry the princess.
 
 [My guiding light](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
+
+## Fanart
+
+["The Princess is Kind" by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)

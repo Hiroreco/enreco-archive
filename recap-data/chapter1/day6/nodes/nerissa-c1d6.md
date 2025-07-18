@@ -1,11 +1,14 @@
+<!-- title: Nerissa Ravencroft -->
+<!-- status: Dead -->
+
 Apologi for bad english
 
 Where were when Nerissa was kil
 
 I was at home watching A Knight's Tale when phone rang
 
-*"Nerissa is kil"*
+_"Nerissa is kil"_
 
-*no*
+_no_
 
 (see [Elizabeth-Nerissa: I'm Pregnant!](#edge:liz-nerissa))

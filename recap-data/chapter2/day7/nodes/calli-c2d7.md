@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 **A New (Career) Start**
 
 After a quick trip to the Bahamas (a kingdom outside of Libestal), Mordan Ramsey returned with a rejuvenated mind to start a job… in _real estate?!_
@@ -6,7 +9,7 @@ Providing therapy was beginning to be too much for Mordan (see: Mordan day 6). A
 
 And unknowingly, [she accidentally read one of Shiori’s letters addressed to Gonathon!](https://www.youtube.com/live/WG748SwXQVo?t=389)
 
-Mordan panicked. Putting it back wasn't an option. She couldn’t openly give it to the humble knight either—that’d be awkward.
+Mordan panicked. Putting it back wasn't an option. She couldn’t openly give it to the Humble Knight either—that’d be awkward.
 
 [Evidence disposed.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=650)
 
@@ -24,7 +27,7 @@ The next big thing to do was to celebrate the Hot Pink One's gender reveal party
 
 Family drama between HPO, Tam Gandr, and Ina (see: [Ina-IRyS: Turning To Another](#edge:ina-irys) and [Ina-Kronii: Netorare](#edge:kronii-ina)) unfolds in front of the Lorekeeper. It feels so much like a telenovela, the therapist couldn't help but watch the show. [_She even brought out popcorn._](https://www.youtube.com/live/WG748SwXQVo?t=11440)
 
-[Murder is always an option.](https://www.youtube.com/live/WG748SwXQVo?t=11842)
+[Murder is always an option.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=11842)
 
 Being an awkward introvert at the party, Mordan and Nerissa shared a bond over forgoing romance as people gathered around to watch HPO give birth live—_and yes, Mordan filmed it._
 
@@ -32,10 +35,12 @@ Being an awkward introvert at the party, Mordan and Nerissa shared a bond over f
 
 Not going to lie, the therapist secretly rooted for this to happen so that she could sell a house to the expecting family. Plus, it was an opportunity to try family counseling services again with the newly formed polycule.
 
-_[God Mordan told Ina to forget about the HPO.](https://www.youtube.com/live/WG748SwXQVo?t=15053)_
+_[God Mordan told Ina to forget about the HPO.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=15053)_
 
 With that out of the way, it was time to get some rest before the big auction tomorrow.
 
 ## Fanart
 
 ["Have you tried murder, bro?" by NP_Mango](https://x.com/NP_Mango/status/1921382634040533389)
+
+<!-- kronii -->

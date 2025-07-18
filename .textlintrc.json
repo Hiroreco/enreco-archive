@@ -1,0 +1,10 @@
+{
+    "plugins": [
+      "@textlint/textlint-plugin-markdown"
+    ],
+    "rules": {
+        "common-misspellings": {
+            "ignore": ["dum"]
+        }
+    }
+  }

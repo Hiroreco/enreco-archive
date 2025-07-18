@@ -4,6 +4,7 @@ import { persist } from "zustand/middleware";
 import { ThemeType } from "@enreco-archive/common/types";
 
 export type BackdropFilter = "blur" | "clear";
+export type FontSize = "small" | "medium" | "large" | "xlarge";
 
 interface SettingState {
     backdropFilter: BackdropFilter;
@@ -23,6 +24,9 @@ interface SettingState {
 
     themeType: ThemeType;
     setThemeType: (newThemeType: ThemeType) => void;
+
+    fontSize: FontSize;
+    setFontSize: (fontSize: FontSize) => void;
 }
 
 // Persists state in local storage
@@ -49,6 +53,9 @@ export const useSettingStore = create<SettingState>()(
             themeType: "system",
             setThemeType: (newThemeType: ThemeType) =>
                 set({ themeType: newThemeType }),
+
+            fontSize: "medium",
+            setFontSize: (fontSize: FontSize) => set({ fontSize }),
         }),
         { name: "setting" },
     ),

@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Perhaps today would be the day Shiori chose to be forward with her feelings. She had been eyeing one humble knight ever since their first encounter during a past journey, and it seemed those feelings were starting to solidify. Despite her original intentions—manipulating him for her own gain—things had changed. Somewhere along the way, she might’ve actually fallen for him.
 
 So naturally, she started her day by infiltrating a therapy session and eavesdropping on her crush.
@@ -22,8 +25,16 @@ Still, Shiori wasn’t one to give up so easily. She had a plan: crash the date 
 
 But things didn’t go how she’d hoped. Even after laying her heart bare, it all unraveled quickly (see [Shiori-Gonathon: The Witch’s Trials](#edge:gigi-shiori)).
 
-Then, as if fate herself had taken pity on the heartbroken maiden, an old acquaintance—someone once dear—approached to help ease the pain. The two shared a long, heartfelt conversation, reflecting on the bond they once shared (see [Shiori-Bijou: Severed, but still there](#edge:shiori-bijou)).
+Then, as if fate herself had taken pity on the heartbroken Maiden, an old acquaintance—someone once dear—approached to help ease the pain. The two shared a long, heartfelt conversation, reflecting on the bond they once shared (see [Shiori-Bijou: Severed, but still there](#edge:shiori-bijou)).
 
 Shiori closed out her day by journaling everything: her hopes, her heartbreak, and her thoughts on what might lie ahead.
 
 [Hurtful, but still hopeful](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=hY1jLc2nVd9MTUO6&t=14316)
+
+## Fanart
+
+["What a tragedy" by Haaro](https://x.com/haaro_69/status/1920182731260244067)
+
+["nyavella has (had) a soft spot" by Noise](https://x.com/lestkrr/status/1922733970778648735)
+
+<!-- liz, kiara -->

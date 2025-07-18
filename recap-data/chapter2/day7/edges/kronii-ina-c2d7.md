@@ -22,6 +22,8 @@ What.
 
 ## Fanart
 
-["Kronii wants to steal Ina from IRyS" by Chaleko](https://x.com/Chalek0/status/1923051887990800540/video/1)
+["Kronii wants to steal Ina from IRyS" by Chaleko](https://x.com/Chalek0/status/1923051887990800540)
 
 ["Surely nothing bad will happen" by Hiro](https://x.com/hiroavrs/status/1921224812703232063)
+
+<!-- irys -->

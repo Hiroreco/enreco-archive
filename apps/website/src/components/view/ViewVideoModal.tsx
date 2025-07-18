@@ -35,7 +35,7 @@ const ViewVideoModal = ({
                 onClose();
             }
         },
-        [onClose],
+        [onClose, playBGM],
     );
 
     return (

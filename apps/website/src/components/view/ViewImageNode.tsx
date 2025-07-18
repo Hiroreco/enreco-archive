@@ -43,7 +43,7 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
+const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
     const { teams } = useContext(CurrentChapterDataContext);
 
     // Generate handles only on mount since they’re static
@@ -98,7 +98,7 @@ const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
                     />
                 )}
 
-                {teams[data.teamId] && (
+                {teams[data.teamId] && id !== "lore" && (
                     <Image
                         className="absolute top-1 left-1 opacity-80 z-20"
                         width={25}
@@ -109,11 +109,9 @@ const ViewImageNode = ({ data, selected }: ImageNodeProps) => {
                     />
                 )}
                 {data.isRead && (
-                    <Check
-                        size={25}
-                        className="absolute top-1 right-1 opacity-80 z-20"
-                        color="white"
-                    />
+                    <div className="absolute top-1 right-1 z-20 bg-black/50 rounded-full p-1">
+                        <Check size={17} className="opacity-90" color="white" />
+                    </div>
                 )}
             </div>
         </>

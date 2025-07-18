@@ -6,7 +6,6 @@ import NodeLink, {
     NodeLinkClickHandler,
 } from "@/components/view/markdown/NodeLink";
 import TimestampHref from "@/components/view/markdown/TimestampHref";
-import { urlToLiveUrl } from "@/lib/utils";
 
 import { Element, ElementContent, Text } from "hast";
 import { memo, useMemo } from "react";
@@ -16,7 +15,9 @@ import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
-import ViewLightbox from "@/components/view/ViewLightbox";
+import { generateSectionId } from "@/components/view/items-page/glossary-utils";
+import EntryLink from "@/components/view/markdown/EntryLink";
+import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import "@/components/view/ViewMarkdown.css";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
@@ -205,6 +206,45 @@ function unWrapEasterEggLink() {
     };
 }
 
+function addHeadingIds() {
+    return (tree: Node) => {
+        let headingIndex = 0;
+
+        visit(tree, "heading", (node: Node) => {
+            const headingNode = node as Node & {
+                depth: number;
+                children: Array<{ type: string; value: string }>;
+                data?: {
+                    hProperties?: { id?: string };
+                };
+            };
+            if (headingNode.depth >= 2 && headingNode.depth <= 4) {
+                // Extract text content from heading
+                const text = headingNode.children
+                    .filter(
+                        (child: { type: string; value: string }) =>
+                            child.type === "text",
+                    )
+                    .map(
+                        (child: { type: string; value: string }) => child.value,
+                    )
+                    .join("");
+
+                // Generate ID using the same logic as glossary-utils
+                const id = generateSectionId(text.trim(), headingIndex);
+
+                // Add ID to the heading node
+                headingNode.data = headingNode.data || {};
+                headingNode.data.hProperties =
+                    headingNode.data.hProperties || {};
+                headingNode.data.hProperties.id = id;
+
+                headingIndex++;
+            }
+        });
+    };
+}
+
 /*
 Wraps react-markdown while transforming links with a special href value to jump to specific nodes/edges.
 All other links are transformed to open in a new tab.
@@ -244,10 +284,6 @@ function ViewMarkdownInternal({
                     />
                 );
             },
-            h3: ({ children }) => {
-                const sectionId = children as string;
-                return <h3 id={sectionId}>{children}</h3>;
-            },
             figcaption: ({ children }) => {
                 return (
                     <figcaption className="text-sm opacity-80 italic mt-2">
@@ -257,9 +293,20 @@ function ViewMarkdownInternal({
             },
             a(props) {
                 const { href, children } = props;
-                // Empty href is an easy to retain the correct cursor.
-
-                if (href && href.startsWith("#node:")) {
+                // Still need #out in case wew want to redirect to youtube links
+                if (href && href.startsWith("#out:")) {
+                    const outHref = href.replace("#out:", "");
+                    return (
+                        <a
+                            href={outHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-[#6f6ac6]"
+                        >
+                            {children}
+                        </a>
+                    );
+                } else if (href && href.startsWith("#node:")) {
                     const nodeId = href.replace("#node:", "");
                     return (
                         <NodeLink
@@ -281,8 +328,7 @@ function ViewMarkdownInternal({
                         </EdgeLink>
                     );
                 } else if (href && href.startsWith("#embed")) {
-                    let url = href.replace("#embed:", "");
-                    url = urlToLiveUrl(url);
+                    const url = href.replace("#embed:", "");
 
                     const caption = children as string;
 
@@ -303,7 +349,7 @@ function ViewMarkdownInternal({
                 ) {
                     return (
                         <TimestampHref
-                            href={urlToLiveUrl(href!) || ""}
+                            href={href}
                             caption={children as string}
                             type="general"
                         />
@@ -312,6 +358,9 @@ function ViewMarkdownInternal({
                     const textId = href.replace("#text:", "");
                     const label = children as string;
                     return <ViewTextModal textId={textId} label={label} />;
+                } else if (href && href.startsWith("#entry:")) {
+                    const itemId = href.replace("#entry:", "");
+                    return <EntryLink itemId={itemId}>{children}</EntryLink>;
                 } else {
                     return (
                         <a
@@ -329,7 +378,7 @@ function ViewMarkdownInternal({
         [onEdgeLinkClicked, onNodeLinkClicked],
     );
 
-    const remarkPlugins = useMemo(() => [remarkGfm], []);
+    const remarkPlugins = useMemo(() => [remarkGfm, addHeadingIds], []);
     const rehypePlugins = useMemo(
         () => [
             transformImageParagraphToFigure,
@@ -338,6 +387,7 @@ function ViewMarkdownInternal({
         ],
         [],
     );
+
     return (
         <div className={cn("relative markdown", className)}>
             <Markdown

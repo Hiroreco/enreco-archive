@@ -14,4 +14,16 @@ Upon Gonathon’s return, Shiori expressed her reservations about the knight’s
 
 Unfortunately, it was here that their budding romance was savagely nipped. For upon returning to her home, Gonathon found his queen and her wife seemingly engaged in an [affair](https://youtu.be/BSPi8sTHdAY?t=4h31m02s) on their bunk bed. Unwilling to wait for an explanation, the distraught knight fled, with Shiori in hot pursuit. Alas, the witch slipped and fell to her death, which deeply shocked Gonathon. The worst was yet to come, for Shiori accused Gonathon of pushing her to her demise, and it was this final act that served as the catalyst for the witch severing their romance for good.
 
-Any hopes Gonathon had of redeeming himself in Shiori’s eyes were quickly dashed, as Koseki Bijou (see [Bijou-Gonathon: Rock and a Hard Place](#edge:gigi-bijou)) explained to Gonathon that she had rekindled her past romance with Shiori, one that the gem was keen to not see break again. And thus, Gonathon’s second foray into love ended in tragedy. It remains to be seen if the humble knight has learned anything from this heartbreak, as it is lessons like these that will be needed in the days ahead.
+Any hopes Gonathon had of redeeming himself in Shiori’s eyes were quickly dashed, as Koseki Bijou (see [Bijou-Gonathon: Rock and a Hard Place](#edge:gigi-bijou)) explained to Gonathon that she had rekindled her past romance with Shiori, one that the gem was keen to not see break again. And thus, Gonathon’s second foray into love ended in tragedy. It remains to be seen if the Humble Knight has learned anything from this heartbreak, as it is lessons like these that will be needed in the days ahead.
+
+## Fanart
+
+["Someone under stress meets someone looking pretty" by cd usr](https://x.com/cd_usr/status/1922052961083007296)
+
+["telenovela" by keenbiscuit](https://x.com/keenbiscuit/status/1920009469695586658)
+
+["Two Sides. Same Coin" by JayTea](https://x.com/jayteamations/status/1934347059643162875)
+
+## Memes
+
+["Season 1 vs Season 2" by NaOki](https://x.com/NaOkiExistiert/status/1919968772510597160)

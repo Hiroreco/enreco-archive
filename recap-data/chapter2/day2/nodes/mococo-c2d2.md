@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Mococo woke up and chose violence.
 
 [BAU BAU _slashes you quietly_](#embed:https://www.youtube.com/live/xLWZay9gLBY?si=KgvW5CAB6m_1lqJW&t=577)
@@ -17,3 +20,5 @@ So, with so many pleasant encounters throughout the day, it made perfect sense t
 ## Fanart
 
 ["Day 2" by fukuinu](https://x.com/fukuinu_daddy/status/1919258061119672376)
+
+<!-- fuwawa -->

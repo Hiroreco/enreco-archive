@@ -8,6 +8,6 @@ She wanted to share her thoughts with Tam, especially since she took this whole 
 
 Later, in what seemed like a change of heart, Raora pulled Tam aside for a more formal discussion.
 
-[My secret plans](#embed:https://www.youtube.com/live/qDhyA4-79ko?feature=shared\&t=10315)
+[My secret plans](#embed:https://www.youtube.com/live/qDhyA4-79ko?feature=shared&t=10315)
 
 She proposed an alliance of sorts, suggesting that the two of them could both be queens—neither true nor fake—and rule the kingdom together. While Tam found the idea amusing, she still believed herself to be the worthier queen of the two. Their conversation was cut short when an eavesdropper interrupted, but Raora assured Tam that they’d continue the discussion later (they didn't).
