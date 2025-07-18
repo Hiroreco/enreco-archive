@@ -13,12 +13,7 @@
     "@enreco-archive/eslint-config": "workspace:*",
     "@enreco-archive/prettier-config": "workspace:*",
     "@enreco-archive/typescript-config": "workspace:*",
-    "eslint": "catalog:",
-    "remark-directive": "4.0.0",
-    "rehype-stringify": "^10.0.1",
-    "remark-parse": "^11.0.0",
-    "remark-rehype": "^11.1.2",
-    "remark-stringify": "^11.0.0"
+    "eslint": "catalog:"
   },
   "dependencies": {
     "@types/mdast": "^4.0.4",
