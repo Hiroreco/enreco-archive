@@ -1,6 +1,6 @@
 <!-- title: You're the Queen! -->
 
-The blue maiden was still disoriented when she was first summoned to the white box, grappling with the unsettling realization that all of her memories were gone. The most pressing issue, of course, was that she couldn’t even recall her own name. Giving herself one felt like far too much effort, so when she encountered someone brimming with confidence, she simply asked them to name her.
+The azure maiden was still disoriented when she was first summoned to the white box, grappling with the unsettling realization that all of her memories were gone. The most pressing issue, of course, was that she couldn’t even recall her own name. Giving herself one felt like far too much effort, so when she encountered someone brimming with confidence, she simply asked them to name her.
 
 [The Azure Maiden](#embed:https://www.youtube.com/live/zgioohaY0m4?t=699)
 

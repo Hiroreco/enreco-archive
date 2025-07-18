@@ -3,7 +3,7 @@
 
 _The Great Tam Gander... Rotary blades spinning..._
 
-Another day, another set of commissions Shiori was hired to write. Stories with details down to a tee. And unlike Shiori's stories, today seemed limitless in its subplots, such as witnessing the Red Knight's and the Fuzzy One's tender moment of sister-like companionship, [Elizabeth's kindness towards Shiori](https://youtu.be/tJ_YXGE3o2w?t=1734) (in return for [Shiori's generosity](https://youtu.be/tJ_YXGE3o2w?t=677)), and recruiting Fuwawa's services for a special event—the Hot Pink One's pregnancy announcement. Of course, the goddess will be shouldering the costs; it is _her_ party.
+Another day, another set of commissions Shiori was hired to write. Stories with details down to a tee. And unlike Shiori's stories, today seemed limitless in its subplots, such as witnessing the Scarlet Knight's and the Fuzzy One's tender moment of sister-like companionship, [Elizabeth's kindness towards Shiori](https://youtu.be/tJ_YXGE3o2w?t=1734) (in return for [Shiori's generosity](https://youtu.be/tJ_YXGE3o2w?t=677)), and recruiting Fuwawa's services for a special event—the Hot Pink One's pregnancy announcement. Of course, the goddess will be shouldering the costs; it is _her_ party.
 
 Soon, the queenly commission was done; a touch of mossy cobblestone on the parchment was all that was left, and all that was left was to deliver the story.
 
@@ -23,7 +23,7 @@ Soon, it was time for her to meet the other heroes to purify a cursed tome. With
 
 After receiving the construction boxes from Bijou, Shiori would set out to [start preparing the venue](https://youtu.be/tJ_YXGE3o2w?t=7878) for tomorrow, inviting more along the way and letting them know it is now a party for Constipation. Others would also later join her efforts to spruce the place up, including Gonathon who, to Shiori's frustration, would unnecessarily donate 19 construction boxes to help with the party preparations, sharing his unneeded and unasked generosity once again. Shiori would compensate him for [his good deed](https://youtu.be/tJ_YXGE3o2w?t=8274).
 
-But, soon after, Shiori was confronted by a certain red knight.
+But, soon after, Shiori was confronted by a certain Scarlet Knight.
 
 It seemed not everyone enjoyed the stories Shiori wrote (see [Elizabeth-Shiori](#edge:liz-shiori)).
 

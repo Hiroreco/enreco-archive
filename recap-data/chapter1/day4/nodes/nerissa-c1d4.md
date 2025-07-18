@@ -1,4 +1,4 @@
-<!-- title: Nerissa Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Nerissa entered her fourth day with no grand ambitions. Much like the previous day, her goals were simple: go with the flow, build her house, and rake in as much money as possible.

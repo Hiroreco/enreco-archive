@@ -7,7 +7,7 @@ As the sun rose on day four, no one could foresee the maelstrom of turmoil and t
 
 His search for solace led him to Mordan Ramsey, who, after some haggling, agreed to become Gonathon’s therapist (see [Mordan-Gonathon: A Powerful Dynamic](#edge:calli-gigi)). It was during their discussions that Mordan revealed that not only was the [Pearl](https://youtu.be/BSPi8sTHdAY?t=1h23m45s) someone very close to Gonathon but was, in fact, his former lover who had since disappeared.
 
-[I was called… a diamond…](#embed:https://youtu.be/BSPi8sTHdAY?t=4h17m53s)
+[I was called... a diamond...](#embed:https://youtu.be/BSPi8sTHdAY?t=4h17m53s)
 
 Gonathon had little time to ponder these revelations, as he joined Tam Gandr, Nerissa, and Mordan in tackling the next dungeon, [Star Site: Chronos](https://youtu.be/BSPi8sTHdAY?t=1h44m14s). The puzzles and boss proved to be a formidable challenge, but they paled in comparison to what came next. Upon the Stain King’s fall, a flood of memories returned to Gonathon: Tam Gandr was the Queen of the previous Libestal and a powerful Time Warden. Returning to Libestal, Tam and Gonathon shared a heartfelt reunion, with both affirming their ironclad bond and Gonathon pledging to stand by Tam no matter what (see [Gonathon-Kronii: The Queen’s Gambit](#edge:kronii-gigi)).
 

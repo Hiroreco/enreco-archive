@@ -31,4 +31,4 @@ Their banter continued briefly before Elizabeth returned to her tasks. She took 
 
 Later, Elizabeth had another brief interaction with Cecilia and Frieda, with the latter continuing to tease her about being a [distraction](https://www.youtube.com/live/Gw0dZbPKTG4?feature=shared&t=7509).
 
-Finally, Elizabeth called it a day. The calm before the storm hung heavy in the air, marking perhaps the most peaceful day she had experienced in some time. Yet she knew she must not lower her guard. The red knight had to be ready for the oncoming calamity.
+Finally, Elizabeth called it a day. The calm before the storm hung heavy in the air, marking perhaps the most peaceful day she had experienced in some time. Yet she knew she must not lower her guard. The Scarlet Knight had to be ready for the oncoming calamity.

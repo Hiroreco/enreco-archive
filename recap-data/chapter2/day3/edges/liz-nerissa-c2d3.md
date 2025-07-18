@@ -4,7 +4,7 @@ After the absolute disasterclass that was her fumbling mess the day before, the 
 
 Her strategy was simple: flatter her. Call her beautiful—no, _gorgeous_—praise the majestic feathers by her hips, and even show off a bit of her smithing expertise by crafting an upgrade stone just for her. All while staying calm, cool, and collected.
 
-And it was working… until Nerissa gave her a [rose](https://www.youtube.com/live/CVF91CqGD80?si=NRlhYHYNbLkCksuF&t=7618) in return.
+And it was working... until Nerissa gave her a [rose](https://www.youtube.com/live/CVF91CqGD80?si=NRlhYHYNbLkCksuF&t=7618) in return.
 
 That’s when the cracks began to show.
 
@@ -18,7 +18,7 @@ It meant Elizabeth was scrambling, that’s what.
 
 Desperate to recover, they settled on a sparring match, as if a couple swings of a wooden sword could knock the embarrassment out of her.
 
-Elizabeth didn’t need to hold back—she was already nerfed. Swinging her blades, raising her shield, trying to stay focused… all while a majestic blue maiden danced in front of her, fully immersed in their little spar. Every move Nerissa made was deliberate, serious, and graceful. And that sight alone? More than enough to break the composure of the Scarlet Swordswoman.
+Elizabeth didn’t need to hold back—she was already nerfed. Swinging her blades, raising her shield, trying to stay focused... all while a majestic blue maiden danced in front of her, fully immersed in their little spar. Every move Nerissa made was deliberate, serious, and graceful. And that sight alone? More than enough to break the composure of the Scarlet Swordswoman.
 
 In the end, Elizabeth still won—she _was_ a knight, after all. And surprisingly, the match helped clear her head. The fog lifted. She was calm again.
 

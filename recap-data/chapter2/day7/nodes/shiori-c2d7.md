@@ -7,7 +7,7 @@ When Shiori went to Nerissa's house, she discovered a hidden shrine and took sev
 
 [In My Heart I Have Given Up.](#embed:https://youtu.be/mb91g7vQSnA?t=1065)
 
-As they conversed, Nerissa disclosed that she had lost hope in the Red Knight, and Shiori concurred that it was best that way. As they talked about Roa, [Shiori's phone coincidentally rang](https://youtu.be/mb91g7vQSnA?t=1096), and the panther confirmed the time of the party. After returning the book, Shiori saw Nerissa and the Red Knight have an uneasy encounter, while Mococo ran away following what appeared to be theft.
+As they conversed, Nerissa disclosed that she had lost hope in the Scarlet Knight, and Shiori concurred that it was best that way. As they talked about Roa, [Shiori's phone coincidentally rang](https://youtu.be/mb91g7vQSnA?t=1096), and the panther confirmed the time of the party. After returning the book, Shiori saw Nerissa and the Scarlet Knight have an uneasy encounter, while Mococo ran away following what appeared to be theft.
 
 Yesterday's events resurfaced, ones about Shiori's wife and the _possible_ implications that... more than just gas may be in their future. As Shiori called Bijou, it seemed that Jeweled One was still ill; worse, it seemed to spread to others as Mococo showed similar symptoms of this mysterious virus. Well, at least a party for constipation was set up! Regardless, in sickness and in health, Shiori would care for Bijou.
 

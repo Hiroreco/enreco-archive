@@ -9,7 +9,7 @@ The pressure was overwhelming. Mococo began to break down under the weight of fe
 
 Corruption soon consumed Mococo’s mind. Her thoughts were no longer her own as she spread chaos across the land, unleashing terrifying howls that sent others [fleeing](https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=1315). When confronted, she would run away, unable to face those who sought to help her. A lingering sense of guilt and her natural cowardice occasionally disrupted the Stain’s hold on her, giving her brief moments of clarity. During one such moment, Mococo wandered through town searching for someone she could trust.
 
-Her search led her to Elizabeth, the scarlet knight she admired and trusted deeply—a sister figure who had protected her since the beginning of their journey. Relief washed over Mococo as she approached Elizabeth, hoping for solace. But the reaction she received was far from what she had expected (see [Elizabeth-Mococo: Keeping My Promise](#edge:mococo-liz)).
+Her search led her to Elizabeth, the Scarlet Knight she admired and trusted deeply—a sister figure who had protected her since the beginning of their journey. Relief washed over Mococo as she approached Elizabeth, hoping for solace. But the reaction she received was far from what she had expected (see [Elizabeth-Mococo: Keeping My Promise](#edge:mococo-liz)).
 
 Abandoned and betrayed in her eyes, Mococo’s despair allowed the Stain to tighten its grip [once more](https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=1743). Fully corrupted, she spiraled into chaos, spreading destruction with her feral screams. It was agony—pain she couldn’t control. Even her closest companion, Fuwawa, fell victim to her corruption, and together, the two wreaked havoc across the land.
 

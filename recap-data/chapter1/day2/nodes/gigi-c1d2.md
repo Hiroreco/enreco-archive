@@ -3,7 +3,7 @@
 
 The second day began with Gonathon diving straight into action. Tasked with assisting in clearing the Underworld Dungeon alongside Jyon, Bijou, and Shiori, Gonathon found himself in peculiar company. Jyon and Shiori hadn’t managed to conquer the dungeon on the first day, so this was their chance to catch up.
 
-However, before venturing into the depths, a bizarre conversation unfolded, leaving Gonathon bewildered. The group revisited their shared goal of slaying the King—a plan initially sparked by Jyon’s motives. For Gonathon, the King’s corruption was a reason to free him. For the others? The goal seemed more… recreational.
+However, before venturing into the depths, a bizarre conversation unfolded, leaving Gonathon bewildered. The group revisited their shared goal of slaying the King—a plan initially sparked by Jyon’s motives. For Gonathon, the King’s corruption was a reason to free him. For the others? The goal seemed more... recreational.
 
 [What is this conversation?](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=35)
 

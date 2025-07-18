@@ -13,7 +13,7 @@ IRyS was excited—not just for herself, but for her beloved, her eternal consor
 
 [Can't wait for the moment](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=1116)
 
-Still, even with this gas-baby situation looming, she had a world to save. Duty called. She joined the others in the final dungeon, taking on world-ending threats… but her mind stayed locked on [her stomach](https://www.youtube.com/live/os9TbwMUcbk?t=2354).
+Still, even with this gas-baby situation looming, she had a world to save. Duty called. She joined the others in the final dungeon, taking on world-ending threats... but her mind stayed locked on [her stomach](https://www.youtube.com/live/os9TbwMUcbk?t=2354).
 
 Once that small feat—saving the world—was accomplished, it was time for the real event.
 
@@ -41,7 +41,7 @@ IRyS was elated. Too elated. She went into labor right then and there.
 
 [Live birthing is crazy](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=5739)
 
-Water broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except… she never saw the baby. Never held it. News came fast: Mococo had already _killed_ it. Somehow.
+Water broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except... she never saw the baby. Never held it. News came fast: Mococo had already _killed_ it. Somehow.
 
 IRyS didn’t even question it. She just felt relief, like passing the biggest gas she'd ever had.
 

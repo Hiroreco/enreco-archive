@@ -2,7 +2,7 @@
 
 The two had once been bound in matrimony—among the very first to do so, long before this new journey ever began. But due to circumstances no one could have foreseen, Koseki Bijou had decided to sever the bond she once shared with Shiori Novella.
 
-That, however, was a story of the past. And what mattered now… was the present.
+That, however, was a story of the past. And what mattered now... was the present.
 
 [Rock hard for you](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=fQJJmgoe94G0lyb7&t=12979)
 

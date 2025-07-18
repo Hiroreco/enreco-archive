@@ -4,7 +4,7 @@ In her quest to build a harem, the Hot Pink One’s first target was none other 
 
 [Now tell me, who is your princess?](#embed:https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=8072)
 
-The Hot Pink One, taking this as a challenge, wasn’t about to let it slide. Seeing an easy target, she wasted no time in making her own [suggestive advances](https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=11183)—flirting, shaking her hips, anything to lure Bijou to her side. She even went so far as to challenge Cecilia, Bijou’s knight, to a [duel](https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=11365) in order to prove her worthiness as a suitor. And to many people’s shock… she won.
+The Hot Pink One, taking this as a challenge, wasn’t about to let it slide. Seeing an easy target, she wasted no time in making her own [suggestive advances](https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=11183)—flirting, shaking her hips, anything to lure Bijou to her side. She even went so far as to challenge Cecilia, Bijou’s knight, to a [duel](https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=11365) in order to prove her worthiness as a suitor. And to many people’s shock... she won.
 
 Despite this, Bijou still felt a tinge of guilt. After all, she was already bound in matrimony with Shiori. But after talking things out with her wife, a brilliant idea emerged—rather than choosing between them, why not let the Hot Pink One take both her and Shiori as [side chicks](https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=11654)?
 

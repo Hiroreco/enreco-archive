@@ -61,7 +61,7 @@ The thorns inside began to fray.
 No meaning made, no truth aligned.
 I searched her gaze—found no sign.
 What does she want? Why can’t I see?
-Is it her fault… or maybe me?
+Is it her fault... or maybe me?
 This storm won’t pass, it won’t let me be.
 
 And so, I sat in quiet gloom,

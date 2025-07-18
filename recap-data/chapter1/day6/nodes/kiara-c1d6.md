@@ -1,4 +1,4 @@
-<!-- title: Takanashi Kiara -->
+<!-- title: Tanakisha Karia -->
 <!-- status: Alive -->
 
 Shakira had been absent for some time and was behind on the kingdom’s adventures. Determined to catch up, she dove straight into the Eldritch Horror Dungeon with Nerissa and Raora, recovering fragments of Ninomae Ina’nis’ [memories](https://www.youtube.com/live/3cr3DLpyB60?feature=shared&t=2640) along the way. Still energized, the trio pressed on to the Volcanic Dungeon, ready to face its fiery trials.

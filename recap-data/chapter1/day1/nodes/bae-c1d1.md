@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: Alive -->
 
 When she suddenly found herself in a mysterious white box surrounded by strangers, her immediate reaction was to [panic](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=281). Huh, whuh, where am I? Who are all these folks? Crikey, what’s happenin’? Let me out! That was the rat's entrance into the fantasy world; it was... understandable, to say the least.

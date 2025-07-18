@@ -25,4 +25,4 @@ The two later dueled, with Fauna emerging victorious—and promptly extorting Gu
 
 [It has to be green this time](#embed:https://www.youtube.com/live/VrLNA0SjYN8?t=11878)
 
-After a long day of questing and gambling her life away, Fauna decided to call it a night. But something had awoken within her. It wasn’t the thrill of saving the world or helping people—it was the joy of money. Who knows where this newfound passion will lead her? Perhaps… a business empire?
+After a long day of questing and gambling her life away, Fauna decided to call it a night. But something had awoken within her. It wasn’t the thrill of saving the world or helping people—it was the joy of money. Who knows where this newfound passion will lead her? Perhaps... a business empire?

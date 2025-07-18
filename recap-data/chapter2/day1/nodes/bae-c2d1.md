@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: Alive -->
 
 When one chapter ends, another must soon begin.

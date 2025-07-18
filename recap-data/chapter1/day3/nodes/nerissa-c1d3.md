@@ -1,4 +1,4 @@
-<!-- title: Nerissa Ravencroft -->
+<!-- title: Nerissa Juliet Ravencroft -->
 <!-- status: Alive -->
 
 Day three marked a turning point for Nerissa, as she discovered a new passion: the relentless pursuit of wealth. Unlike Fauna, who needed money to fuel her thriving business, or Gonathon, who used it to help others, Nerissa's goal was simple—she just liked being rich.

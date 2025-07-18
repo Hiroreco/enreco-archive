@@ -1,14 +1,14 @@
 <!-- title: Start Again -->
 
-Even on the very last day, the shenanigans between Elizabeth and Nerissa showed no signs of stopping. Amidst the kingdom’s chaotic struggle against the spreading corruption, the two still found time to try and one-up each other. Well—mostly Elizabeth, as the red knight simply couldn’t let Nerissa take all the credit for being Gonathon’s [wingman](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=8905).
+Even on the very last day, the shenanigans between Elizabeth and Nerissa showed no signs of stopping. Amidst the kingdom’s chaotic struggle against the spreading corruption, the two still found time to try and one-up each other. Well—mostly Elizabeth, as the Scarlet Knight simply couldn’t let Nerissa take all the credit for being Gonathon’s [wingman](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=8905).
 
 The moment was lighthearted, a much-needed contrast to the grim atmosphere looming over the kingdom. To Elizabeth, Nerissa was an important companion. Sure, she had accused the blue maiden of being a witch countless times. And yes, that so-called witch had given her plenty of headaches. But in the end, Elizabeth still valued her.
 
-However, no matter how deep their connection was, the scarlet knight would never put Nerissa above her King. When Nerissa spewed her wild theories about the King being corrupted, Elizabeth dismissed them outright, claiming that even if it were true, she would still serve him without hesitation.
+However, no matter how deep their connection was, the Scarlet Knight would never put Nerissa above her King. When Nerissa spewed her wild theories about the King being corrupted, Elizabeth dismissed them outright, claiming that even if it were true, she would still serve him without hesitation.
 
 [I shall follow him either way](#embed:https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=6832)
 
-And yet, despite what she said, her knightly heart and her innate sense of justice told a different story. Nerissa, without a doubt, was one of Elizabeth’s closest companions—far more so than the King himself. Witch or not, delusional or not, the scarlet knight would never stand idly by if her companion was in danger.
+And yet, despite what she said, her knightly heart and her innate sense of justice told a different story. Nerissa, without a doubt, was one of Elizabeth’s closest companions—far more so than the King himself. Witch or not, delusional or not, the Scarlet Knight would never stand idly by if her companion was in danger.
 
 And on this day, that truth was put to the test.
 

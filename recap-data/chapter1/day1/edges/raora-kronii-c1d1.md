@@ -2,7 +2,7 @@
 
 The (self-proclaimed) Libestan Queen was already making a name for herself across the kingdom. She had gathered loyal followers, asserted her dominance, and made others bow whenever they stood in her presence.
 
-It was only natural—after all, she was perfect. Brimming with empathy and compassion, she never let anything get under her skin, always maintaining her mature composure throughout the day… until a certain pink cat appeared.
+It was only natural—after all, she was perfect. Brimming with empathy and compassion, she never let anything get under her skin, always maintaining her mature composure throughout the day... until a certain pink cat appeared.
 
 [Stop laughing! That's rude!](#embed:https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=12506)
 

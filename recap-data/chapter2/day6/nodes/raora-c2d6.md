@@ -3,7 +3,7 @@
 
 It was a sleepy start for Roa's day as she pondered what to do. Her beloved shop, The Gacharms, was doing well with little for her to do. Perhaps today she should focus on something else... or someone else.
 
-With that person in mind, Roa [called her Red Knight](https://youtu.be/E-LGNO7JdO4?t=748) and, needing more upgrade stones, offered to accompany Elizabeth to the Remnant fields to mine Enigmatic Stones, which Elizabeth agreed to, suggesting they meet by the wagon.
+With that person in mind, Roa [called her Scarlet Knight](https://youtu.be/E-LGNO7JdO4?t=748) and, needing more upgrade stones, offered to accompany Elizabeth to the Remnant fields to mine Enigmatic Stones, which Elizabeth agreed to, suggesting they meet by the wagon.
 
 As Roa waited, giddy to see Elizabeth once again, she came across Fuwawa and was shocked to hear that Fuwawa had never bought a charm before. As a businesswoman, Roa found it would be a travesty to let a customer get away; she quickly brought Fuwawa to The Gacharms Shop, explaining the mechanics of the gacha system, which ended with [Fuwawa winning splendid prizes](https://youtu.be/E-LGNO7JdO4?t=978).
 

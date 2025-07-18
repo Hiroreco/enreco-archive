@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: In-bread -->
 
 It was quite surreal. The journey was finally over, and Bae could finally return and live her life in the woods, and find that blasted box of hers too while she was at it.

@@ -10,7 +10,7 @@ As time passed and the bottles emptied, the group began to disperse, until only 
 
 At this point, Roa, with the full confidence of someone ten drinks deep, decided to walk on water. Like Jesus Christ, if Jesus were a furry.
 
-And, as with the Son of Man himself, the world just wasn’t ready. The two besties—green and pink—banished her on the spot. Immerkind claimed Roa was far too dangerous to remain. As for IRyS? Her reasoning was… well, _questionable_ at best.
+And, as with the Son of Man himself, the world just wasn’t ready. The two besties—green and pink—banished her on the spot. Immerkind claimed Roa was far too dangerous to remain. As for IRyS? Her reasoning was... well, _questionable_ at best.
 
 [That's a yikes for me, boss](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=fyqwpYA7HUIavSRU&t=10084)
 

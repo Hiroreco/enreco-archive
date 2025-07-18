@@ -3,7 +3,7 @@
 
 The fourth day dawned on our shark girl, Gawr Gura, who recently uncovered her identity as the princess of Atlantis—the very one who had fled her kingdom, ultimately leading to its downfall. Despite this revelation, Gura felt largely unchanged. With her memories recovered but no burdens weighing her down, she eagerly embarked on another adventure in the kingdom.
 
-Everywhere Gura turned, constructions upon constructions were popping up: FaunaMart, Calli’s diner, Raora’s castle, and more. Inspired, Gura decided it was time to create something of her own. Observing the kingdom’s rising crime rate, she settled on building… _[a gallows](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=665)_. This contraption would serve as a beacon of justice, imprisoning wrongdoers and even incorporating public participation—citizens could throw eggs at the convicted for added flair.
+Everywhere Gura turned, constructions upon constructions were popping up: FaunaMart, Calli’s diner, Raora’s castle, and more. Inspired, Gura decided it was time to create something of her own. Observing the kingdom’s rising crime rate, she settled on building... _[a gallows](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=665)_. This contraption would serve as a beacon of justice, imprisoning wrongdoers and even incorporating public participation—citizens could throw eggs at the convicted for added flair.
 
 [Listing out crimes](#embed:https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=2395)
 

@@ -1,6 +1,6 @@
 <!-- title: My Money -->
 
-Nerissa would do anything to help her boss. Well… almost anything. She managed the shop, handled advertising, and gathered books for the library—whatever Fauna needed, she was there. But the moment something involved her wealth? That was where she drew the line.
+Nerissa would do anything to help her boss. Well... almost anything. She managed the shop, handled advertising, and gathered books for the library—whatever Fauna needed, she was there. But the moment something involved her wealth? That was where she drew the line.
 
 Over the past few days, Nerissa had worked tirelessly, climbing her way to the top and earning her place as the richest person in the kingdom. Not because she needed to spend the money on anything—she simply enjoyed the feeling of having deep pockets. But with great wealth came great problems.
 

@@ -13,7 +13,7 @@ Only to lose them all again.
 They wed, divorced, then wed once more,
 Formed a pack, then learned the lore—
 That fate had played its twisted thread,
-Their lineage woven… slightly inbread.
+Their lineage woven... slightly inbread.
 
 A journey wild, chaotic, strange,
 Yet strangely warm within its range.

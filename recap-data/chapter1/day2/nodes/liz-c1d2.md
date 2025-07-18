@@ -11,7 +11,7 @@ Just as Elizabeth began to respond, an unexpected voice echoed in her mind. It w
 
 [She's in my brain!](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=1078)
 
-The red knight froze, startled by the direct intrusion into her thoughts. To Elizabeth, this wasn’t just clever marketing—it was witchcraft. The idea of a "witch" targeting her so brazenly filled her with unease, and she began to suspect that Fauna might wield dark powers.
+The Scarlet Knight froze, startled by the direct intrusion into her thoughts. To Elizabeth, this wasn’t just clever marketing—it was witchcraft. The idea of a "witch" targeting her so brazenly filled her with unease, and she began to suspect that Fauna might wield dark powers.
 
 Despite her apprehension, Elizabeth accompanied Fuwawa and Mococo to FaunaMart. The doggos, especially Mococo, seemed eager to investigate this mysterious store that sold lottery tickets.
 
@@ -21,6 +21,6 @@ Mococo, unbothered by Elizabeth’s suspicions, decided to buy not one, not two,
 
 After bidding farewell to the "witch," the group turned their attention to the day’s main quest: conquering the _Ocean Temple Dungeon_. Joining Elizabeth and the doggos were Shakira and Raora. The journey was fraught with challenges, including several failed attempts and plenty of [trolling](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared&t=4122), but their persistence paid off. By the end of the ordeal, they emerged victorious, recovering memories of [Gawr Gura](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared&t=5143).
 
-Returning to the kingdom, Elizabeth encountered a figure she had taken an instant disliking to on the first day—Tam Gandr, the self-proclaimed queen. Fueled by her distaste, Elizabeth wasn't going to let the blue maiden get the better of her this time (see [Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii)).
+Returning to the kingdom, Elizabeth encountered a figure she had taken an instant disliking to on the first day—Tam Gandr, the self-proclaimed queen. Fueled by her distaste, Elizabeth wasn't going to let the azure maiden get the better of her this time (see [Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii)).
 
 Later on, Elizabeth refocused her efforts. She joined Shakira in uncovering the first dungeon’s secret treasure, a hidden music disc. The day ended on a brighter note as the group celebrated their success with a lively party at the [tavern](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared&t=10446).

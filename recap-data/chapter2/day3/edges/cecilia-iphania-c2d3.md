@@ -8,7 +8,7 @@ Gonathon, ever the loyal friend, did all he could to anchor her, to soften the b
 
 Tears brimmed and spilled before she even realized they had formed. She turned and fled, seeking solace in the quiet corners of the castle, eventually collapsing into the familiar comfort of the princess’s chambers. A place that once felt sacred now felt cold.
 
-Maybe… maybe the princess hadn’t spoken because she was overwhelmed. Confused. Yes, confuzzled. She’d just reunited with the Outlander after all this time—it made sense, right?
+Maybe... maybe the princess hadn’t spoken because she was overwhelmed. Confused. Yes, confuzzled. She’d just reunited with the Outlander after all this time—it made sense, right?
 
 But Cecilia, in her pain, latched onto a singular, destructive conclusion: _if the Outlander was the burden, then removing them would set the princess free._
 

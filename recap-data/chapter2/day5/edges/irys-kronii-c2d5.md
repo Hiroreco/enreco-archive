@@ -24,7 +24,7 @@ And as if embarrassed by her own failed bit, Pinky spiraled. Dramatically. Talki
 
 [Krilling thyself](#embed:https://www.youtube.com/watch?v=UyN7jwsiiXA&t=15217s)
 
-She even found a cliff to jump off. Her brother tried to stop her… and ended up jumping too. Don’t worry—they came back immediately. Because dying isn’t an option here. But the stomach pains? Gone. So was it a miscarriage… or just gas? Let’s go with gas.
+She even found a cliff to jump off. Her brother tried to stop her... and ended up jumping too. Don’t worry—they came back immediately. Because dying isn’t an option here. But the stomach pains? Gone. So was it a miscarriage... or just gas? Let’s go with gas.
 
 [Hope descends with gas](#embed:https://www.youtube.com/watch?v=UyN7jwsiiXA&t=15503s)
 

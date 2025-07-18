@@ -8,7 +8,7 @@ The dungeon of the day was the [_Volcanic Dungeon_](https://x.com/hololive_En/st
 
 As the name suggests, fire and burning were the dominant themes, and oh boy, did everyone get firsthand experience. There was screaming, there was falling, and the total death count easily reached three digits. By the time they were done, the adventurers were little more than walking piles of charcoal. Their reward for enduring this fiery ordeal? The recovered memories of [_Takanashi Kiara_](https://www.youtube.com/watch?v=A3bQdV_sl08).
 
-Not all of the day's events were a fiery disaster—some new interactions took place as well. One of the more unexpected pairings was Gura and Gonathon, who had never met before but seemed to get along… well, probably. Gonathon had also started the construction of a statue of Tam Gandr as a commemoration for his beloved queen.
+Not all of the day's events were a fiery disaster—some new interactions took place as well. One of the more unexpected pairings was Gura and Gonathon, who had never met before but seemed to get along... well, probably. Gonathon had also started the construction of a statue of Tam Gandr as a commemoration for his beloved queen.
 
 But the true spectacle of the day wasn’t the dungeon, nor the new royal claims—it was the lottery fiasco between Mococo and Nerissa. What began as a simple mistake quickly spiraled into an all-out disaster.
 

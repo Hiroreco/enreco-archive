@@ -1,6 +1,6 @@
 ## Day 1: The Chains of Employment
 
-The kingdom of Libestal has returned—but something is… off. Our heroes have traveled back in time?! As if the whole “the King was evil and the old kingdom was a fabricated illusion” twist wasn’t enough, now we’ve got _time travel_ thrown into the mix. But alright, maybe it’s not so bad, they just need to—oh, they’ve also lost their memories. Again???
+The kingdom of Libestal has returned—but something is... off. Our heroes have traveled back in time?! As if the whole “the King was evil and the old kingdom was a fabricated illusion” twist wasn’t enough, now we’ve got _time travel_ thrown into the mix. But alright, maybe it’s not so bad, they just need to—oh, they’ve also lost their memories. Again???
 
 Forget the bonds, the connections, the whole history they’d built up—our heroes now begin anew. A new kingdom, new lives, even new identities. But one thing hasn’t changed: their mission to recover their shattered memories and, somehow, save the world—no, the universe—from the great evil known as the _Outsider_.
 

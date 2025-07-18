@@ -2,7 +2,7 @@
 
 You know what’s better than having a mother? Having two mothers!
 
-During a casual conversation with Cecilia and Raora, an epiphany struck Cecilia—Bijou might very well be the princess of the Kingdom of Evergreen. And why? Because she wore a crown on her head, of course. That was all the logic needed to confirm royal lineage. Coincidentally, Raora had declared herself the queen of her own kingdom. So, by extension—through a very questionable but completely undeniable line of reasoning—Raora had to be Bijou’s mother. That totally made sense… right?
+During a casual conversation with Cecilia and Raora, an epiphany struck Cecilia—Bijou might very well be the princess of the Kingdom of Evergreen. And why? Because she wore a crown on her head, of course. That was all the logic needed to confirm royal lineage. Coincidentally, Raora had declared herself the queen of her own kingdom. So, by extension—through a very questionable but completely undeniable line of reasoning—Raora had to be Bijou’s mother. That totally made sense... right?
 
 [Guess you're my mother now](#embed:https://www.youtube.com/live/ZV47e39yyMU?t=1136)
 

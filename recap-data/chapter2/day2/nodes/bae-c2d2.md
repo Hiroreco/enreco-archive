@@ -1,4 +1,4 @@
-<!-- title: Peasant Da Bae -->
+<!-- title: Peasant The Bae -->
 <!-- status: Alive -->
 
 Bae couldn't help but gasp at the shops that now surrounded her; what was an empty lot was now the start of a small bustling town as everyone started to build their shop. The former Princess Bijou from the Gacharms Shop nearby greets Bae, and after a pleasant conversation, opens up the idea of possibly purchasing some of Bae's wares to be included in their gacha.

@@ -8,7 +8,7 @@ Puzzles? More like party games. Deep concepts? Nah, just fun. And of course, luc
 
 ![The heroes battling Stain King: Chaos](/images-opt/chaos-opt.webp)
 
-Now, onto the real madness. Gonathon kind of redeemed himself. Shiori and Bijou reconnected. Elizabeth and Nerissa continued their little flirt-fest, though for one side it was all flowers and sunshine, while for the other, it was thunder and darkness. Bijou and Bae ended up in a legal custody battle over their child. Tam, Roa, and the hot pink lady spiraled into a love triangle slash maid-master relationship? With the pink one somehow claiming she was pregnant. And all the mentally scarred adventurers? They booked a session with Mordan the therapist… who promptly quit her job after realizing what she had to deal with.
+Now, onto the real madness. Gonathon kind of redeemed himself. Shiori and Bijou reconnected. Elizabeth and Nerissa continued their little flirt-fest, though for one side it was all flowers and sunshine, while for the other, it was thunder and darkness. Bijou and Bae ended up in a legal custody battle over their child. Tam, Roa, and the hot pink lady spiraled into a love triangle slash maid-master relationship? With the pink one somehow claiming she was pregnant. And all the mentally scarred adventurers? They booked a session with Mordan the therapist... who promptly quit her job after realizing what she had to deal with.
 
 ![Mordan’s therapy session](/images-opt/therapy-opt.webp)
 

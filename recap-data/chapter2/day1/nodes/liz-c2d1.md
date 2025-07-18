@@ -9,19 +9,19 @@ Elizabeth found this peculiar. She could still recall everything—her battles, 
 
 After some discussion about the Library's mechanics with Kiara and Calli, Elizabeth eventually met with the Princess, who further clarified the current state of things.
 
-Having had enough of the info dump, Elizabeth’s new journey began. Like everyone else, she needed to learn the ropes of this unfamiliar kingdom. A lot had changed: the guilds were no more, her Jade Sword guildmaster was nowhere to be found, and her former guildmates didn’t even remember her clearly. Her status as a knight who once protected the kingdom no longer held any meaning. Instead, she was told she had to… get a job.
+Having had enough of the info dump, Elizabeth’s new journey began. Like everyone else, she needed to learn the ropes of this unfamiliar kingdom. A lot had changed: the guilds were no more, her Jade Sword guildmaster was nowhere to be found, and her former guildmates didn’t even remember her clearly. Her status as a knight who once protected the kingdom no longer held any meaning. Instead, she was told she had to... get a job.
 
 [Elizabeth "Smith" Bloodflame](#embed:https://www.youtube.com/live/2toZfafpyW8?si=NAyI0H-VdaVYmt1i&t=1901)
 
 From a noble knight to working minimum wage—what a downgrade. Still, Elizabeth was dutiful, and she took on the challenge. After some thought, she chose to become a smith, even crafting a quirky title for herself to match the role.
 
-But of course, her journey was anything but smooth. Just moments after signing up for her job, the Red Knight—turned smith—ran into a very familiar face she absolutely did _not_ want to see: Tam Gandr. A big meany. However, this time something felt… different.
+But of course, her journey was anything but smooth. Just moments after signing up for her job, the Scarlet Knight—turned smith—ran into a very familiar face she absolutely did _not_ want to see: Tam Gandr. A big meany. However, this time something felt... different.
 
 [Hmm, she's not mean](#embed:https://www.youtube.com/live/2toZfafpyW8?si=cub9RWxGvm1oH9sK&t=2105)
 
 Tam didn’t seem to remember who Elizabeth was, which strangely delighted the Red Maiden. The obnoxious, self-proclaimed queen was no more. But fate wasn’t so kind, for there was another blue maiden Elizabeth would've rather remained forgotten (see [Elizabeth-Nerissa: She’s jesting, right?](#edge:liz-nerissa)).
 
-Even Elizabeth’s ex-daughter, Koseki Bijou, had no recollection of her. And with that, Elizabeth slowly realized—maybe this wasn’t a joke. Maybe she really _was_ one of the few who had retained her memories. Was she sad? Was she shocked? Not really. She just felt… tired. Being thrown back in time, forced to adapt to a new life on the spot, and now the people she once held close couldn’t even remember her? Mentally, it was draining.
+Even Elizabeth’s ex-daughter, Koseki Bijou, had no recollection of her. And with that, Elizabeth slowly realized—maybe this wasn’t a joke. Maybe she really _was_ one of the few who had retained her memories. Was she sad? Was she shocked? Not really. She just felt... tired. Being thrown back in time, forced to adapt to a new life on the spot, and now the people she once held close couldn’t even remember her? Mentally, it was draining.
 
 Still, she pressed on. Maybe by focusing on her tasks, she could push those feelings aside. That plan didn’t exactly pan out either. Elizabeth was terrible with directions—[_very_ terrible](https://www.youtube.com/live/2toZfafpyW8?si=y_o1ps5Fsgg5Gp0T&t=2561). While others zipped through their new jobs, she was constantly lost, repeatedly [struggling](https://www.youtube.com/live/2toZfafpyW8?si=k7qXNc2nNN22aSHQ&t=3331) to figure out where to go next, to the point she broke character and yelled out in sheer indignation.
 
