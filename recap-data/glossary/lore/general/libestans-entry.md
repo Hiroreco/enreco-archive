@@ -6,7 +6,7 @@
 
 ## Overview
 
-Libestans were the inhabitants of the Libestal Kingdom, acting as interactable characters who made the heroes’ journey all the more lively.
+Libestans were the inhabitants of the [Libestal Kingdom](#entry:libestal-ficta-entry), acting as interactable characters who made the heroes’ journey all the more lively.
 
 ## Details
 
