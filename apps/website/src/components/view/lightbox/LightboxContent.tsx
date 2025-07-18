@@ -54,7 +54,6 @@ export const LightboxContent = ({
         const translate = swiper.translate;
         const maxTranslate = swiper.maxTranslate();
         const minTranslate = swiper.minTranslate();
-        console.log(translate);
 
         if (swiper.isEnd && translate < maxTranslate - 50) {
             onNext?.();

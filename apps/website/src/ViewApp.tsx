@@ -457,8 +457,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         setReadStatus(chapter, day, selectedElement.id, newReadStatus);
     }
 
-    console.log(openModal);
-
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">

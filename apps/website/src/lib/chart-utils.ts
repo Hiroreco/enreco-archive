@@ -1,10 +1,16 @@
-import { ChartData, FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
+import {
+    ChartData,
+    FixedEdgeType,
+    ImageNodeType,
+} from "@enreco-archive/common/types";
 
-export function resolveDataForDay(charts: ChartData[], currentDay: number)
-: { nodes: ImageNodeType[], edges: FixedEdgeType[] } {
-    const result: { nodes: ImageNodeType[], edges: FixedEdgeType[] } = {
+export function resolveDataForDay(
+    charts: ChartData[],
+    currentDay: number,
+): { nodes: ImageNodeType[]; edges: FixedEdgeType[] } {
+    const result: { nodes: ImageNodeType[]; edges: FixedEdgeType[] } = {
         nodes: [],
-        edges: []
+        edges: [],
     };
 
     // Process each day up to the current day
@@ -31,6 +37,7 @@ export function resolveDataForDay(charts: ChartData[], currentDay: number)
             const existingIndex = result.edges.findIndex(
                 (e) => e.id === edge.id,
             );
+
             if (existingIndex !== -1) {
                 // Update existing edge
                 if (edge.data) {
@@ -47,7 +54,7 @@ export function resolveDataForDay(charts: ChartData[], currentDay: number)
         });
     }
 
-    result.nodes = result.nodes.map(n => {
+    result.nodes = result.nodes.map((n) => {
         const resNode = structuredClone(n);
 
         resNode.hidden = false;
@@ -57,18 +64,17 @@ export function resolveDataForDay(charts: ChartData[], currentDay: number)
 
         return resNode;
     });
-    result.edges = result.edges.map(e => { 
+    result.edges = result.edges.map((e) => {
         const resEdge = structuredClone(e);
 
         resEdge.hidden = false;
         resEdge.selectable = currentDay === e.data?.day;
         resEdge.zIndex = e.data?.day ?? 0;
-        
-        if(resEdge.data) {
+
+        if (resEdge.data) {
             resEdge.data.isRead = false;
-            resEdge.data.isNewlyAdded = currentDay === e.data?.day;
         }
-        
+
         return resEdge;
     });
 
