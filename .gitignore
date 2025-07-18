@@ -40,3 +40,6 @@ next-env.d.ts
 # Assets folder
 apps/editor/public
 apps/website/public
+
+# This is for so i can still have the videos in the local repo so i can generate thumbnails without having them on remote
+shared-resources/videos
