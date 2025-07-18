@@ -9,7 +9,7 @@ Anyway, watch as the well-rested Hero and co. inspect the totally-not-a-Necronom
 
 The Hot Purple One was distinct from her Pink counterpart in that _she_ was perfectly literate, and her Revelation showcase was not the only time she was put to the test today:
 
-- Shakira made her thoughts heard, seeking amends for her transgressions (see: [Ina-Kiara: Love Thy Neighbor](#edge:ina-kiara)).
+- Shakira made her thoughts heard, seeking amends for her transgressions.
 - The Peasant penned [a confession](https://youtu.be/OxKP4ED-xz8?t=978s) to a knight who was at the dentist, and Ina was its beta reader. It was good enough to publish as is!
 - Later on, the highly discussed Hot Pink One [received the wrong charm](https://youtu.be/OxKP4ED-xz8?t=5606s)... Oh, I guess heroes do get some things wrong.
 

@@ -15,5 +15,4 @@ Most agreed. However, **Mococo**, **Fuwawa**, **Bijou**, **Nerissa**, and **Shio
 #### Updated NPCs:
 
 - See [Fia](#node:fia)
-- See [Iphania](#node:iphania)
-- See [Outlander](#node:outlander)
+- See [Princess-Outlander: A Price for Defying Fate](#edge:iphania-outlander)
