@@ -61,6 +61,8 @@ const ViewLightbox = ({
 }: ViewLightboxProps) => {
     const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentItemIndex, setCurrentItemIndex] = useState(galleryIndex);
+    const [currentGalleryIndex, setCurrentGalleryIndex] = useState(0);
+
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const carouselRef = useRef<HTMLDivElement>(null);
     const thumbnailRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -100,45 +102,78 @@ const ViewLightbox = ({
         [isExternallyControlled, onExternalClose, galleryIndex],
     );
 
-    const handleNext = useCallback(() => {
-        if (currentItemIndex < items.length - 1) {
-            setCurrentItemIndex((prev) => prev + 1);
-        } else if (onNextEnd) {
-            onNextEnd();
-        } else {
-            setCurrentItemIndex(0);
-        }
-    }, [items.length, currentItemIndex, onNextEnd]);
-
-    const handlePrev = useCallback(() => {
-        if (currentItemIndex > 0) {
-            setCurrentItemIndex((prev) => prev - 1);
-        } else if (onPrevEnd) {
-            onPrevEnd();
-        } else {
-            setCurrentItemIndex(items.length - 1);
-        }
-    }, [currentItemIndex, onPrevEnd, items.length]);
-
     const handleThumbnailClick = useCallback((index: number) => {
-        setCurrentItemIndex(index);
+        setCurrentGalleryIndex(index);
     }, []);
 
+    // Reset gallery index when opening new lightbox
+    useEffect(() => {
+        if (isOpen) {
+            setCurrentGalleryIndex(0);
+        }
+    }, [isOpen, galleryItems]);
+
+    // Create gallery items array
+    const galleryItemsArray = useMemo(() => {
+        if (galleryItems) {
+            return galleryItems;
+        }
+        return [{ src, alt, type, width, height }];
+    }, [galleryItems, src, alt, type, width, height]);
+
+    // Update current item to use gallery index
+    const currentGalleryItem = useMemo(
+        () => galleryItemsArray[currentGalleryIndex] || galleryItemsArray[0],
+        [galleryItemsArray, currentGalleryIndex],
+    );
+
     // Custom hooks for complex logic
-    useThumbnailScroll(carouselRef, thumbnailRefs, currentItemIndex, isOpen);
+    useThumbnailScroll(carouselRef, thumbnailRefs, currentGalleryIndex, isOpen);
+
+    const handlePrev = useCallback(() => {
+        if (currentGalleryIndex > 0) {
+            setCurrentGalleryIndex((prev) => prev - 1);
+        } else {
+            // At the beginning of gallery, go to previous entry
+            if (onPrevEnd) {
+                onPrevEnd();
+            } else {
+                // Fallback: wrap to end of current gallery
+                setCurrentGalleryIndex(galleryItemsArray.length - 1);
+            }
+        }
+    }, [currentGalleryIndex, onPrevEnd, galleryItemsArray.length]);
+
+    const handleNext = useCallback(() => {
+        if (currentGalleryIndex < galleryItemsArray.length - 1) {
+            setCurrentGalleryIndex((prev) => prev + 1);
+        } else {
+            // At the end of gallery, go to next entry
+            if (onNextEnd) {
+                onNextEnd();
+            } else {
+                // Fallback: wrap to beginning of current gallery
+                setCurrentGalleryIndex(0);
+            }
+        }
+    }, [galleryItemsArray.length, currentGalleryIndex, onNextEnd]);
+
     useKeyboardNavigation(
         isOpen,
         handlePrev,
         handleNext,
         handleOpenChange,
-        items,
-        currentItemIndex,
+        galleryItemsArray,
+        currentGalleryIndex,
     );
 
     // Initialize thumbnail refs array
     useEffect(() => {
-        thumbnailRefs.current = thumbnailRefs.current.slice(0, items.length);
-    }, [items.length]);
+        thumbnailRefs.current = thumbnailRefs.current.slice(
+            0,
+            galleryItemsArray.length,
+        );
+    }, [galleryItemsArray.length]);
 
     // Update current item index when gallery changes
     useEffect(() => {
@@ -151,7 +186,7 @@ const ViewLightbox = ({
     // Pauses BGM when lightbox opens and current entry is a video, resumes when closed
     useEffect(() => {
         if (isOpen) {
-            if (currentItem.type === "video") {
+            if (currentGalleryItem.type === "video") {
                 pauseBGM();
             } else {
                 playBGM();
@@ -159,16 +194,17 @@ const ViewLightbox = ({
         } else {
             playBGM();
         }
-    }, [isOpen, currentItem.type, playBGM, pauseBGM]);
+    }, [isOpen, currentGalleryItem.type, playBGM, pauseBGM]);
 
-    const showNavigation = items.length > 1 || alwaysShowNavigationArrows;
+    const showNavigation =
+        galleryItemsArray.length > 1 || alwaysShowNavigationArrows;
 
     let blurBgSrc = "";
-    if (currentItem.type === "image") {
-        blurBgSrc = getBlurDataURL(currentItem.src);
-    } else if (currentItem.type === "video") {
+    if (currentGalleryItem.type === "image") {
+        blurBgSrc = getBlurDataURL(currentGalleryItem.src);
+    } else if (currentGalleryItem.type === "video") {
         const videoName =
-            currentItem.src
+            currentGalleryItem.src
                 .split("/")
                 .pop()
                 ?.replace(/\.[^/.]+$/, "") || "";
@@ -236,23 +272,26 @@ const ViewLightbox = ({
                             />
                         )}
 
-                        <div className="relative w-full h-full flex items-center justify-center">
-                            <LightboxContent
-                                currentItem={currentItem}
-                                priority={priority}
-                            />
-                        </div>
+                        <LightboxContent
+                            currentItem={currentGalleryItem}
+                            priority={priority}
+                            items={galleryItemsArray}
+                            currentItemIndex={currentGalleryIndex}
+                            onSlideChange={setCurrentGalleryIndex}
+                            onNext={handleNext}
+                            onPrev={handlePrev}
+                        />
                     </div>
 
                     <div className="flex flex-col gap-2 w-full">
                         <LightboxInfo
-                            alt={currentItem.alt}
+                            alt={currentGalleryItem.alt}
                             authorSrc={authorSrc}
                         />
                         <ThumbnailCarousel
                             ref={carouselRef}
-                            items={items}
-                            currentItemIndex={currentItemIndex}
+                            items={galleryItemsArray}
+                            currentItemIndex={currentGalleryIndex}
                             onThumbnailClick={handleThumbnailClick}
                             thumbnailRefs={thumbnailRefs}
                         />
