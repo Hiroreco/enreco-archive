@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "exports": {
-    "./markdown-extensions/*": "./src/md-extensions/*.ts"
+    "./*": "./src/md-extensions/*.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0"

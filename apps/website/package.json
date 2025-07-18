@@ -22,6 +22,7 @@
     "dependencies": {
         "@enreco-archive/common": "workspace:*",
         "@enreco-archive/common-ui": "workspace:*",
+        "@enreco-archive/markdown-extensions": "workspace:*",
         "@next/third-parties": "^15.3.2",
         "@radix-ui/react-toggle-group": "^1.1.9",
         "@radix-ui/react-visually-hidden": "^1.2.2",
@@ -41,6 +42,7 @@
         "react-dom": "catalog:",
         "react-markdown": "^10.1.0",
         "react-player": "^3.2.0",
+        "remark-directive": "4.0.0",
         "remark-gfm": "^4.0.1",
         "tw-animate-css": "catalog:",
         "unist-util-is": "^6.0.0",
