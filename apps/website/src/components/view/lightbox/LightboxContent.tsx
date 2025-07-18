@@ -1,19 +1,18 @@
 import { GalleryItem } from "@/components/view/lightbox/types";
 import { getBlurDataURL } from "@/lib/utils";
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import ReactPlayer from "react-player";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectCreative } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
-import { useRef, useEffect } from "react";
-import { motion } from "framer-motion";
+import { EffectCreative, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
+import { isMobile } from "react-device-detect";
 import "swiper/css";
+import "swiper/css/effect-creative";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/effect-creative";
-import { isMobile } from "react-device-detect";
 
 interface LightboxContentProps {
     currentItem: GalleryItem;
@@ -35,6 +34,7 @@ export const LightboxContent = ({
     onPrev,
 }: LightboxContentProps) => {
     const swiperRef = useRef<SwiperType | null>(null);
+    const [touchStartX, setTouchStartX] = useState(0);
 
     // Sync external index
     useEffect(() => {
@@ -61,6 +61,17 @@ export const LightboxContent = ({
         } else if (swiper.isBeginning && translate > minTranslate + 50) {
             onPrev?.();
         }
+    };
+
+    const handleSingleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+        setTouchStartX(e.touches[0].clientX);
+    };
+
+    const handleSingleTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+        const endX = e.changedTouches[0].clientX;
+        const delta = endX - touchStartX;
+        if (delta < -50) onNext?.();
+        else if (delta > 50) onPrev?.();
     };
 
     const renderMediaItem = (item: GalleryItem) => {
@@ -108,28 +119,12 @@ export const LightboxContent = ({
 
     if (isSingle) {
         return (
-            <div className="relative w-full h-full overflow-hidden flex items-center justify-center">
-                <motion.div
-                    className="w-full h-full flex items-center justify-center"
-                    drag={isMobile ? "x" : undefined}
-                    dragConstraints={
-                        isMobile ? { left: 0, right: 0 } : undefined
-                    }
-                    dragElastic={isMobile ? 0.2 : undefined}
-                    onDragEnd={
-                        isMobile
-                            ? (_, info) => {
-                                  const offset = info.offset.x;
-                                  if (offset < -50) onNext?.();
-                                  else if (offset > 50) onPrev?.();
-                              }
-                            : undefined
-                    }
-                    animate={{ x: 0 }}
-                    transition={{ type: "spring", stiffness: 300, damping: 30 }}
-                >
-                    {renderMediaItem(currentItem)}
-                </motion.div>
+            <div
+                className="w-full h-full"
+                onTouchStart={handleSingleTouchStart}
+                onTouchEnd={handleSingleTouchEnd}
+            >
+                {renderMediaItem(currentItem)}
             </div>
         );
     }
