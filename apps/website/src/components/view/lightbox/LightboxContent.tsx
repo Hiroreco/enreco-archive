@@ -86,8 +86,8 @@ export const LightboxContent = ({
                         }
                         priority={priority}
                         blurDataURL={getBlurDataURL(item.src)}
-                        width={1200}
-                        height={1200}
+                        width={item.width || 1200}
+                        height={item.height || 800}
                         sizes="(max-width: 768px) 95vw, (max-width: 1024px) 80vw, 60vw"
                         style={{
                             width: "auto",
