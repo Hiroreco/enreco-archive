@@ -27,9 +27,7 @@ Later, when the Princess and the Outlander asked the heroes about their reason f
 
 [The scripts](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=GlbL7dJkjV0wglfU&t=9223)
 
-"I'm just doing my job, and being a dirty, horrible self-inserter like him."
-
-"I'm fighting for my duty, because I am Shiori Nyavella."
+> I'm just doing my job, and being a dirty, horrible self-inserter like him. I'm fighting for my duty, because I am Shiori Nyavella.
 
 Not for the world. Not for the people. Not even for herself. But for her _role_. A role she never clearly explained. A role she seemed to fully _know_, even if no one else did.
 

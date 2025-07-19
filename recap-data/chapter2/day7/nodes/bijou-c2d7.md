@@ -11,7 +11,7 @@ Once Bijou notices that her onii-chan woke up, she immediately wants to show her
 
 As she's placing the final touches, people are gathering at the wagon to face the Heart of Ruin. In the meantime, Fuwawa report the same stomachache as Bijou and Mococo.
 
-_"IT COULD BE GAS, IT COULD BE GAS THO, I CAN'T TELL"_
+> IT COULD BE GAS, IT COULD BE GAS THO, I CAN'T TELL!
 
 And in the end... It was not gas... Nor a pregnancy but a secret third thing. The Curse. The curse has inflicted Shiori, Fuwawa, Mococo, Nerissa, and Bijou.
 

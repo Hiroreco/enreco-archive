@@ -15,7 +15,7 @@ Nerissa's possession of her body had instilled in me a fear that I was too late.
 
 She is the light of my flame. The flickers of emotions, the lick of heat against my skin. She is the rose above the thorns that cut.
 
-_"What's in a name? That which we call a rose, by any other word would smell as sweet."_
+> What's in a name? That which we call a rose, by any other word would smell as sweet.
 
 ---
 

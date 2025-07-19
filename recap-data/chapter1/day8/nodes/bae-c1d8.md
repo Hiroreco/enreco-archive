@@ -1,7 +1,7 @@
 <!-- title: Peasant The Bae -->
 <!-- status: Alive -->
 
-["They found me... They found me!"](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=248)
+["They found me... They found me!"](#embed:https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=248)
 
 The kingdom's elusive hermit, Peasant The Bae, was in distress. Not a single soul had spoken her name since the first day. She had chosen a life of solitude in the woods, far from the chaos of the kingdom, but now, on the final day, she was dragged back into the fray. Lost, bewildered, and unsure of her purpose, even her friend, Three, wasn't called [Three](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=642) anymore. She clung to the only comfort she knew: a giant statue of Tam Gandr, the figure she had pledged her [allegiance to](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=732).
 
