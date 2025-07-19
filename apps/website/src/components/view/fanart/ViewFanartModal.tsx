@@ -505,7 +505,8 @@ const ViewFanartModal = ({
 
     useEffect(() => {
         setSelectedDay(day.toString() || "all");
-    }, [day]);
+        setSelectedChapter(chapter.toString() || "all");
+    }, [day, chapter]);
 
     useEffect(() => {
         if (!open) {

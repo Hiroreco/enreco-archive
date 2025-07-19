@@ -36,9 +36,9 @@ The corrupted witch saw it clearly now: Roa’s quiet affection for Lady Bloodfl
 
 > “You stole the Scarlet Knight.”
 
-> “I stole no such thing,”\* Roa snapped back.
+> “I stole no such thing,” Roa snapped back.
 
-> “You... evil witch! I knew you were evil from the very beginning!”\*
+> “You... evil witch! I knew you were evil from the very beginning!”
 
 Roa struggled desperately to hold on to her mind as the raven-haired woman laughed, unrelenting and cruel.
 
