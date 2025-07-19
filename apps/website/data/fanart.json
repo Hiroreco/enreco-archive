@@ -815,6 +815,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/__akkanen/status/1900596210781901168",
+    "label": "\"She finds you\" Akkanen",
+    "author": "__akkanen",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/__akkanen-1900596210781901168-0-opt.webp",
+        "width": 1280,
+        "height": 1920,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/moon_ldl/status/1830455614625001879",
     "label": "\"is this what they call...enemies to lovers?...\"",
     "author": "moon_ldl",
@@ -1252,7 +1272,7 @@
   },
   {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"*teleport behind you*\"",
+    "label": "\"*teleports behind you*\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -1648,7 +1668,7 @@
   },
   {
     "url": "https://x.com/alfa_hatdog/status/1831129176109400505",
-    "label": "\"oh my god\"",
+    "label": "\"oh my god\" my AlfaHatdog",
     "author": "alfa_hatdog",
     "chapter": 0,
     "day": 3,
@@ -2913,6 +2933,44 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/seapupu290495/status/1832460946494935321",
+    "label": "\"The reason\"",
+    "author": "seapupu290495",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "bijou"
+    ],
+    "images": [
+      {
+        "src": "images-opt/seapupu290495-1832460946494935321-0-opt.webp",
+        "width": 2894,
+        "height": 4093,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/seapupu290495-1832460946494935321-1-opt.webp",
+        "width": 2894,
+        "height": 4093,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/seapupu290495-1832460946494935321-2-opt.webp",
+        "width": 2894,
+        "height": 4093,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/seapupu290495-1832460946494935321-3-opt.webp",
+        "width": 2894,
+        "height": 4093,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/hiroavrs/status/1832437338469011589",
     "label": "\"Rizzle me this\"",
     "author": "hiroavrs",
@@ -3345,6 +3403,33 @@
         "src": "images-opt/awooofa-1832887528569143750-0-opt.webp",
         "width": 1250,
         "height": 2000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/koizumi_arata/status/1832692703676535254",
+    "label": "\"My diamond\"",
+    "author": "koizumi_arata",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1832692703676535254-0-opt.webp",
+        "width": 3277,
+        "height": 4096,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/koizumi_arata-1832692703676535254-1-opt.webp",
+        "width": 3277,
+        "height": 4096,
         "type": "image"
       }
     ],
@@ -4581,6 +4666,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/sanni44322/status/1918805606095257896",
+    "label": "\"What would make you stop?\"",
+    "author": "sanni44322",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "calli"
+    ],
+    "images": [
+      {
+        "src": "images-opt/sanni44322-1918805606095257896-0-opt.webp",
+        "width": 1299,
+        "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/hiroavrs/status/1917961179017986292",
     "label": "\"First meeting after 7 months\"",
     "author": "hiroavrs",
@@ -5450,6 +5555,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/hiroavrs/status/1918321021222044089",
+    "label": "\"It's time\"",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1918321021222044089-0-opt.webp",
+        "width": 2048,
+        "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/quartzquadrant/status/1902200030980649355",
     "label": "\"Raora\"",
     "author": "quartzquadrant",
@@ -5711,8 +5836,7 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "kronii",
-      "irys"
+      "kronii"
     ],
     "images": [],
     "videos": [
@@ -6812,6 +6936,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/np_mango/status/1920349250241650993",
+    "label": "\"m'wolf\"",
+    "author": "np_mango",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/np_mango-1920349250241650993-0-opt.webp",
+        "width": 719,
+        "height": 720,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/maybe_myra28/status/1920143568561180880",
     "label": "\"Gonathon deserved better\"",
     "author": "maybe_myra28",
@@ -7118,6 +7262,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/dreamplanes256/status/1934174833279225863",
+    "label": "\"Gonathon finds his wife in bed with his queen\"",
+    "author": "dreamplanes256",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "kronii",
+      "shiori",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/dreamplanes256-1934174833279225863-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/koizumi_arata/status/1919773686233526778",
     "label": "\"Remember\"",
     "author": "koizumi_arata",
@@ -7131,6 +7295,44 @@
         "src": "images-opt/koizumi_arata-1919773686233526778-0-opt.webp",
         "width": 3737,
         "height": 3589,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/underdatv/status/1901931778774085956",
+    "label": "\"Lore of Tam Gandr\" in ENreco2...\"",
+    "author": "underdatv",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/underdatv-1901931778774085956-0-opt.webp",
+        "width": 1766,
+        "height": 1000,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/underdatv-1901931778774085956-1-opt.webp",
+        "width": 1766,
+        "height": 1000,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/underdatv-1901931778774085956-2-opt.webp",
+        "width": 1766,
+        "height": 1000,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/underdatv-1901931778774085956-3-opt.webp",
+        "width": 1766,
+        "height": 1000,
         "type": "image"
       }
     ],
@@ -7419,6 +7621,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/ribitmse/status/1921495788875567406",
+    "label": "\"You would still be Gonathon?\"",
+    "author": "ribitmse",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ribitmse-1921495788875567406-0-opt.webp",
+        "width": 2150,
+        "height": 3035,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/antsy_af/status/1919973398551126390",
     "label": "\"Chat it's not going well\"",
     "author": "antsy_af",
@@ -7502,6 +7724,30 @@
     ],
     "videos": [],
     "type": "meme"
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1920775496914051426",
+    "label": "\"Humiliation\"",
+    "author": "bunbbun1",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "kiara",
+      "irys",
+      "kronii",
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1920775496914051426-0-opt.webp",
+        "width": 1000,
+        "height": 1390,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/bunbbun1/status/1920775872061018370",
@@ -7591,6 +7837,30 @@
     ],
     "videos": [],
     "type": "meme"
+  },
+  {
+    "url": "https://x.com/bunbbun1/status/1920774925633118555",
+    "label": "\"Custody battle\"",
+    "author": "bunbbun1",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "kronii",
+      "bae",
+      "bijou",
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1920774925633118555-0-opt.webp",
+        "width": 1000,
+        "height": 1430,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/llcole_/status/1922040765531718058",
@@ -7708,7 +7978,7 @@
   },
   {
     "url": "https://x.com/ari_sae_/status/1920482530630701156",
-    "label": "\"Promise's lore in a nutshell\"",
+    "label": "\"Promise' lore in a nutshell\"",
     "author": "ari_sae_",
     "chapter": 1,
     "day": 4,
@@ -8189,6 +8459,26 @@
         "src": "images-opt/criostatic-1921106947182322012-0-opt.webp",
         "width": 1500,
         "height": 2250,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/leuvi_tte/status/1920725324632862871",
+    "label": "\"I can't see you locking me up\"",
+    "author": "leuvi_tte",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "nerissa"
+    ],
+    "images": [
+      {
+        "src": "images-opt/leuvi_tte-1920725324632862871-0-opt.webp",
+        "width": 969,
+        "height": 1244,
         "type": "image"
       }
     ],
@@ -8985,6 +9275,26 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/hiroavrs/status/1945501544251875673",
+    "label": "\"Devil Incarnate\"",
+    "author": "hiroavrs",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "irys"
+    ],
+    "images": [
+      {
+        "src": "images-opt/hiroavrs-1945501544251875673-0-opt.webp",
+        "width": 2048,
+        "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/antsy_af/status/1921049754114339102",
     "label": "\"The Most Evil Character in Fiction\"",
     "author": "antsy_af",
@@ -9464,6 +9774,27 @@
         "src": "images-opt/zookacchi-1921260437854716282-1-opt.webp",
         "width": 1200,
         "height": 2000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/dyusenjin/status/1921284991440302168",
+    "label": "\"The Black Pearl and The Humble Knight's memories",
+    "author": "dyusenjin",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/dyusenjin-1921284991440302168-0-opt.webp",
+        "width": 1191,
+        "height": 1684,
         "type": "image"
       }
     ],
@@ -10144,6 +10475,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/jayteamations/status/1923159093268598841",
+    "label": "\"This World Deserves to Rot\"",
+    "author": "jayteamations",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jayteamations-1923159093268598841-0-opt.webp",
+        "width": 1512,
+        "height": 2150,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/revil0l/status/1915726152922272037",
     "label": "\"Chickens\"",
     "author": "revil0l",
@@ -10162,6 +10513,24 @@
     ],
     "videos": [],
     "type": "art"
+  },
+  {
+    "url": "https://x.com/erbloodflame/status/1922836899917332646",
+    "label": "\"Behind the scenes filming jumpp scare\"",
+    "author": "erbloodflame",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/erbloodflame-1922836899917332646-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
   },
   {
     "url": "https://x.com/bunbbun1/status/1922035787824075147",
@@ -10223,5 +10592,35 @@
     ],
     "videos": [],
     "type": "art"
+  },
+  {
+    "url": "https://x.com/perksjazzberi/status/1945950846015119413",
+    "label": "\"Ancient Libestal\"",
+    "author": "perksjazzberi",
+    "chapter": 1,
+    "day": 7,
+    "characters": [],
+    "images": [
+      {
+        "src": "images-opt/perksjazzberi-1945950846015119413-0-opt.webp",
+        "width": 2500,
+        "height": 3000,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/perksjazzberi-1945950846015119413-1-opt.webp",
+        "width": 2500,
+        "height": 1406,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/perksjazzberi-1945950846015119413-2-opt.webp",
+        "width": 1293,
+        "height": 1095,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   }
 ]

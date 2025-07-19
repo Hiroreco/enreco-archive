@@ -38,3 +38,5 @@ But she survived it all. Held her head high. And—of course—ended the day by 
 ## Fanart
 
 ["Remember" by Daaku](https://x.com/koizumi_arata/status/1919773686233526778)
+
+["Lore of Tam Gandr" in ENreco2..." by underdatv](https://x.com/underdatv/status/1901931778774085956)

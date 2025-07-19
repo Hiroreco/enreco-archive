@@ -66,3 +66,7 @@ Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to t
 ["A monster" by wan](https://x.com/wan_m_i/status/1921889316306919884)
 
 <!-- nerissa -->
+
+## Memes
+
+["Behind the scenes filming jumpp scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)

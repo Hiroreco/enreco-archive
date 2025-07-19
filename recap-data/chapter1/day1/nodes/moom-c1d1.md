@@ -26,3 +26,5 @@ By the end of the day, Three and her guildmates conquered the _Underworld Dungeo
 ["You smell like moom" by Moonia](https://x.com/BloodyMoonia/status/1833203185852539284)
 
 <!-- bijou, ame -->
+
+["She finds you" Akkanen](https://x.com/__akkanen/status/1900596210781901168)

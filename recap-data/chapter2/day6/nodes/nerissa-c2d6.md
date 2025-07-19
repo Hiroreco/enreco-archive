@@ -52,3 +52,5 @@ Did she really not remember? Or was she just deceiving them... for reasons not y
 ["Maven in Blue" by Keisea](https://x.com/Keiseeaaa/status/1921199677443035543)
 
 ["...looking forward to the end of the world" by nick](https://x.com/criostatic/status/1921106947182322012)
+
+["I can't see you locking me up" by latte](https://x.com/leuvi_tte/status/1920725324632862871)

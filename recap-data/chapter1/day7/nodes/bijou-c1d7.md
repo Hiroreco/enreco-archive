@@ -17,3 +17,5 @@ M̴̼̮̬̗̟̂ã̷̢̛͔̻̜͔͉̌͌̆y̸̨͎͚͐͊͛ ̸̛̟̟̠̭̐́͗̃̀̀
 ## Fanart
 
 ["May the land be starve." by Kenjiko](https://x.com/KenjikoKun/status/1832287162777399451)
+
+["The reason" by seapupu](https://x.com/seapupu290495/status/1832460946494935321)

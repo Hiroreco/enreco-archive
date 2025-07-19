@@ -72,6 +72,8 @@ A story to be told for generations to come.
 
 ["Tales of the Humble Knight" by aWoooFa](https://x.com/Awooofa/status/1832887528569143750)
 
+["My diamond" by Daaku](https://x.com/koizumi_arata/status/1832692703676535254)
+
 ## Memes
 
 ["all my homies hate the pink one" by Jake33wO](https://x.com/jake33w0/status/1832813698081014144)

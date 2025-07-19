@@ -55,6 +55,10 @@ IRyS would bring her back.
 
 No matter what it took.
 
+## Fanart
+
+["Devil Incarnate" by Hiro](https://x.com/hiroavrs/status/1945501544251875673)
+
 ## Memes
 
 ["The Most Evil Character in Fiction" by Antsy](https://x.com/antsy_af/status/1921049754114339102)
