@@ -79,8 +79,7 @@ She had been purified. The corruption was gone... wasn’t it?
 
 And still, her heart felt hollow—a [void](https://youtu.be/FlPFFE5_X3Y?t=14765) where warmth once lived. As if all joy had withered. As if love had died. A creeping chill settled within her soul, and she welcomed it.
 
-> “You see, my heart is still dyed black.”
-> “I have no intention of ‘saving’ anything.”
+> “You see, my heart is still dyed black. I have no intention of ‘saving’ anything.”
 
 This darkness—whether illusion or truth—was now hers to bear. She no longer resisted it.
 
@@ -88,7 +87,7 @@ The monster behind the mirror had broken free.
 
 After all,
 
-> NOTHING STAYS PURE.
+> “NOTHING STAYS PURE.”
 
 ## Fanart
 

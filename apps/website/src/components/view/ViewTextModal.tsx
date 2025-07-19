@@ -13,11 +13,11 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { TextData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { BookOpenTextIcon, Volume2Icon, VolumeXIcon } from "lucide-react";
+import { BookOpenTextIcon, Play, Square } from "lucide-react";
 import Image from "next/image";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 interface ViewTextModalProps {
     textId: string;
@@ -45,10 +45,11 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const hasAudio = textItem.hasAudio === true;
 
     const handleAudioClick = () => {
+        playSFX("click");
+
         if (isTextAudioPlaying) {
             stopTextAudio();
         } else {
-            playSFX("click");
             pauseBGM();
             playTextAudio(textId);
         }
@@ -103,10 +104,10 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                         <button
                             onClick={handleAudioClick}
                             className={cn(
-                                "absolute bottom-4 right-4 z-20 p-2 rounded-full bg-neutral-400/50 transition-all",
-                                "shadow-lg",
+                                "absolute bottom-4 right-4 z-20 p-3 rounded-full bg-neutral-400/50 transition-all hover:bg-accent/50 group shadow-md hover:shadow-accent/50",
+
                                 {
-                                    "animate-pulse bg-accent/50":
+                                    "animate-pulse bg-accent/50 shadow-accent/50":
                                         isTextAudioPlaying,
                                 },
                             )}
@@ -117,9 +118,9 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                             }
                         >
                             {isTextAudioPlaying ? (
-                                <VolumeXIcon className="w-5 h-5" />
+                                <Square className="w-5 h-5 fill-white stroke-white" />
                             ) : (
-                                <Volume2Icon className="w-5 h-5" />
+                                <Play className="w-5 h-5  fill-foreground group-hover:stroke-white group-hover:fill-white transition-color" />
                             )}
                         </button>
                     )}

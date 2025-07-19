@@ -2,7 +2,7 @@
     "enreco": [
         {
             "title": "ENigmatic Recollection Trailer Theme",
-            "info": "Official trailer theme",
+            "info": "Official Trailer Theme",
             "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA&ab_channel=hololiveEnglish",
             "sourceUrl": "/audio/songs/enreco/enreco-trailer.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -10,7 +10,7 @@
         },
         {
             "title": "START AGAIN",
-            "info": "Official song for Chapter 1",
+            "info": "Official Theme for Chapter 1",
             "originalUrl": "https://www.youtube.com/watch?v=NoJImTCKgrY&ab_channel=Release-Topic",
             "sourceUrl": "/audio/songs/enreco/enreco-start-again.mp3",
             "coverUrl": "/images-opt/song-enreco-start-again-opt.webp",
@@ -18,7 +18,7 @@
         },
         {
             "title": "MONSTER",
-            "info": "Official song for Chapter 2",
+            "info": "Official Theme for Chapter 2",
             "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish",
             "sourceUrl": "/audio/songs/enreco/enreco-monster.mp3",
             "coverUrl": "/images-opt/song-enreco-monster-opt.webp",
@@ -322,7 +322,7 @@
         {
             "title": "PLAY DICE",
             "info": "Obtained in Star Site: Chaos",
-            "originalUrl": "",
+            "originalUrl": "https://www.youtube.com/watch?v=na6bysYNuS0",
             "sourceUrl": "/audio/songs/talent/talent-play-dice.mp3",
             "coverUrl": "/images-opt/song-talent-play-dice-opt.webp",
             "duration": "03:43"
@@ -331,7 +331,7 @@
     "special": [
         {
             "title": "Oh Princess",
-            "info": "Cecilia's song for Iphania",
+            "info": "Cecilia's Serenade for Iphania",
             "originalUrl": "https://www.youtube.com/watch?v=5x9ix5CGmoo&ab_channel=CeciliaImmergreenCh.hololive-EN",
             "sourceUrl": "/audio/songs/special/special-oh-princess.mp3",
             "coverUrl": "/images-opt/song-special-oh-princess-opt.webp",
@@ -347,7 +347,7 @@
         },
         {
             "title": "The Tale of A Humble Knight",
-            "info": "An orchestral theme by GoodBoyChend",
+            "info": "An Orchestral Theme by GoodBoyChend",
             "originalUrl": "https://www.youtube.com/watch?v=n0DAcFYRNB4",
             "sourceUrl": "/audio/songs/special/special-the-tale-of-a-humble-knight.mp3",
             "coverUrl": "/images-opt/song-special-the-tale-of-a-humble-knight-opt.webp",
@@ -355,7 +355,7 @@
         },
         {
             "title": "Boss of FaunaMart",
-            "info": "A parody song by Ano Yatsu",
+            "info": "A Parody Song by Ano Yatsu",
             "originalUrl": "https://www.youtube.com/watch?v=T7fHJcrmO0U",
             "sourceUrl": "/audio/songs/special/special-boss-of-faunamart.mp3",
             "coverUrl": "/images-opt/song-special-boss-of-faunamart-opt.webp",
