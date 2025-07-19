@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const ViewPotatoSalidEasterEgg = () => {
     const audioStore = useAudioStore();
-    const isCurrentlyPotatoSalid = audioStore.currentBgmKey === "potato";
+    const isCurrentlyPotatoSalid = audioStore.currentBgmKey === "easter-potato";
     return (
         <div
             onClick={() => {
                 if (!isCurrentlyPotatoSalid) {
                     audioStore.playSFX("chicken-pop");
-                    audioStore.changeBGM("/audio/potato.mp3");
+                    audioStore.changeBGM("/audio/easter/easter-potato.mp3");
                 }
             }}
             className="absolute -bottom-12 right-2 h-[130px] overflow-hidden"
