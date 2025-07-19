@@ -6,4 +6,6 @@ So when Raora caught wind that Tam was building a base of her own, she wasted no
 
 [Pink cat pestering blue woman](#embed:https://www.youtube.com/live/6VtHPTU1FB8?feature=shared&t=15032)
 
+## Fanart
+
 ["The first and second queen quarrel" by Abendago](https://x.com/Abendag0/status/1831257105069949232)

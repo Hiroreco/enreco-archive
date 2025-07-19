@@ -53,7 +53,7 @@ Well, we can't have that now, can we? Repeating the same story so soon would be 
 
 Every hero has a villain—be it herself, nature, or _another_.
 
-"You think you can just set things right... Fix what's broken?"
+> You think you can just set things right... Fix what's broken?
 
 Shiori Nyavella tried her best to be kind to those around her; though she was a bit mischievous at times. Some appreciated her kindness, but there are those the Archiver's eyes lingered on a few of Shiori's... former friends; there are those who were un*JUST*ly cruel to Nyavella.
 
