@@ -1,5 +1,10 @@
 import { GalleryItem } from "@/components/view/lightbox/types";
 import { getBlurDataURL } from "@/lib/utils";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipTrigger,
+} from "@enreco-archive/common-ui/components/tooltip";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Play } from "lucide-react";
 import Image from "next/image";
@@ -17,11 +22,13 @@ export const ThumbnailCarousel = forwardRef<
     HTMLDivElement,
     ThumbnailCarouselProps
 >(({ items, currentItemIndex, onThumbnailClick, thumbnailRefs }, ref) => {
+    const chapter = items[0].chapter;
+    const day = items[0].day;
     const chapterDayLabel =
-        items[0].chapter !== undefined && items[0].day !== undefined
-            ? `C${items[0].chapter + 1}D${items[0].day + 1}`
+        chapter !== undefined && day !== undefined
+            ? `C${chapter + 1}D${day + 1}`
             : null;
-
+    console.log(chapterDayLabel);
     return (
         <div
             ref={ref}
@@ -102,9 +109,19 @@ export const ThumbnailCarousel = forwardRef<
 
             <div className="flex justify-between items-end w-full px-4 pb-2 absolute left-0 bottom-0">
                 {chapterDayLabel && (
-                    <div className="bg-black/50 text-white text-xs px-2 py-1 rounded-full">
-                        {chapterDayLabel}
-                    </div>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <span className="bg-black/50 text-white text-xs px-2 py-1 rounded-full cursor-default">
+                                {chapterDayLabel}
+                            </span>
+                        </TooltipTrigger>
+                        <TooltipContent side="top" align="center">
+                            Related to events on{" "}
+                            {chapterDayLabel
+                                ? `Day ${day! + 1}, Chapter ${chapter! + 1}`
+                                : ""}
+                        </TooltipContent>
+                    </Tooltip>
                 )}
 
                 <div className="bg-black/50 text-white text-xs px-2 py-1 rounded-full">
