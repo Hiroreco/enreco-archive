@@ -3,7 +3,7 @@ import {} from "mdast-util-directive";
 import {} from "mdast-util-to-hast";
 import { visit } from "unist-util-visit";
 
-const UNDERLINE_DIRECTIVE_NAME = "u";
+const UNDERLINE_DIRECTIVE_NAME = "underline";
 
 interface Options {
     underlineClassname: string;
