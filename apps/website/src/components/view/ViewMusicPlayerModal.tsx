@@ -495,6 +495,32 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         };
     }, [bgm, loopCurrentSong, playNext, isPlaying]);
 
+    // Keyboard navigation, play/pause on space, left/right for changeing songs, up/down for volume
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (!open) return;
+            if (event.key === " ") {
+                event.preventDefault();
+                playPause();
+            } else if (event.key === "ArrowRight") {
+                event.preventDefault();
+                playNext();
+            } else if (event.key === "ArrowLeft") {
+                event.preventDefault();
+                playPrev();
+            } else if (event.key === "ArrowUp") {
+                event.preventDefault();
+                onVolumeChange([Math.min(bgmVolume + 0.1, 1)]);
+            } else if (event.key === "ArrowDown") {
+                event.preventDefault();
+                onVolumeChange([Math.max(bgmVolume - 0.1, 0)]);
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [playPause, playNext, playPrev, onVolumeChange, bgmVolume, open]);
+
     const currentTrack = useMemo(
         () => (trackIndex !== null ? songs[trackIndex] : null),
         [songs, trackIndex],
