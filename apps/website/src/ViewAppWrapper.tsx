@@ -38,6 +38,7 @@ export const ViewAppWrapper = () => {
     const [appType, setAppType] = useState<AppType>("chart");
     const chapter = useViewStore((state) => state.data.chapter);
     const currentCard = useViewStore((state) => state.ui.currentCard);
+    const closeCard = useViewStore((state) => state.ui.closeCard);
 
     const chapterData = data.chapters[chapter];
 
@@ -82,7 +83,13 @@ export const ViewAppWrapper = () => {
                 <Tabs
                     orientation="vertical"
                     defaultValue="chart"
-                    onValueChange={(value) => setAppType(value as AppType)}
+                    onValueChange={(value) => {
+                        // To avoid soft-locking when the user chooses a card, and quickly switches to glossary
+                        if (value === "glossary") {
+                            closeCard();
+                        }
+                        setAppType(value as AppType);
+                    }}
                     className={cn(
                         "absolute left-[8px] top-[8px] z-10 transition-all",
                         {

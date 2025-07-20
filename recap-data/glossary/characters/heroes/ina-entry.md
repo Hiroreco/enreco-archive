@@ -9,7 +9,7 @@
 **Memories:** [Recollected](https://youtu.be/QE5Ow4L1Zt8)
 **Revelation:** [Violet Miasma](#entry:violet-miasma-entry)
 
-Ninomae Ina'nis, or more casually, Nino Ina, was one of the rare few—alongside Fuwawa—who could be considered relatively normal in this enigmatic journey. Hard-working, always on the grind, empathetic, and calm, she stood in stark contrast to the chaos around her. She also had a wife who was almost her complete opposite.
+Ninomae Ina'nis, or more casually, NinoIna, was one of the rare few—alongside Fuwawa—who could be considered relatively normal in this enigmatic journey. Hard-working, always on the grind, empathetic, and calm, she stood in stark contrast to the chaos around her. She also had a wife who was almost her complete opposite.
 
 ## Details
 
