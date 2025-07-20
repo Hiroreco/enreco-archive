@@ -1,4 +1,5 @@
 import ffmpeg from "fluent-ffmpeg";
+import { existsSync } from "fs";
 import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
@@ -93,8 +94,23 @@ async function optimizeImages() {
     const resourceDir = path.resolve(process.cwd(), SHARED_IMAGES_FOLDER);
     const videoDir = path.resolve(process.cwd(), SHARED_VIDEOS_FOLDER);
 
-    const allImageFiles = await walkDir(resourceDir);
-    const allVideoFiles = await walkDir(videoDir);
+    let allImageFiles: string[] = [];
+    if(existsSync(resourceDir)) {
+        allImageFiles = await walkDir(resourceDir);
+    }
+    else {
+        console.log("Images folder not found, skipping image optimization.")
+        console.log("Expected image folder: ", resourceDir);
+    }
+    
+    let allVideoFiles: string[] = []
+    if(existsSync(videoDir)) {
+        allVideoFiles = await walkDir(videoDir);
+    }
+    else {
+        console.log("Videos folder not found, skipping video optimization.")
+        console.log("Expected video folder: ", videoDir);
+    }
 
     // Separate images and videos
     const imageFiles = allImageFiles.filter((f) => {
