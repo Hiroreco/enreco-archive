@@ -10,6 +10,21 @@
     white-space: pre-line;
 }
 
+.markdown .text-left {
+    display: block;
+    text-align: left;
+}
+
+.markdown .text-center {
+    display: block;
+    text-align: center;
+}
+
+.markdown .text-right {
+    display: block;
+    text-align: right;
+}
+
 .amber-coin::after {
     display: inline-block;
     background-image: url("/images-opt/ambercoin-opt.webp");
