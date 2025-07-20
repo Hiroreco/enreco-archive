@@ -11,14 +11,12 @@ interface Options {
     centerClassname: string;
     leftClassname: string;
     rightClassname: string;
-    blockClassname: string;
 };
 
 export default function centerTextDirective(options: Options) {
     const centerClassname = options?.centerClassname ?? "text-center";
     const leftClassname = options?.centerClassname ?? "text-left";
     const rightClassname = options?.centerClassname ?? "text-right";
-    const blockClassname = options?.blockClassname ?? "block";
 
     return function(tree: Root) {
         visit(tree, function (node) {
@@ -27,21 +25,21 @@ export default function centerTextDirective(options: Options) {
                     const data = node.data || (node.data = {});
                     data.hName = "span";
                     data.hProperties = {
-                        "className": [blockClassname, centerClassname]
+                        "className": [centerClassname]
                     };
                 }
                 else if(node.name === LEFT_TEXT_DIRECTIVE_NAME) {
                     const data = node.data || (node.data = {});
                     data.hName = "span";
                     data.hProperties = {
-                        "className": [blockClassname, leftClassname]
+                        "className": [leftClassname]
                     };
                 }
                 else if(node.name === RIGHT_TEXT_DIRECTIVE_NAME) {
                     const data = node.data || (node.data = {});
                     data.hName = "span";
                     data.hProperties = {
-                        "className": [blockClassname, rightClassname]
+                        "className": [rightClassname]
                     };
                 }
             }
