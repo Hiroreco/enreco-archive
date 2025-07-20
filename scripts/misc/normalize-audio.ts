@@ -55,7 +55,7 @@ async function normalizeAll() {
         "website",
         "public-resources",
         "audio",
-        "text",
+        "not-yet-normalized",
     );
 
     const files = await walkDir(baseDir);
