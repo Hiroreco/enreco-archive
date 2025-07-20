@@ -44,6 +44,8 @@ As the heroes ventured deeper, they uncovered scattered stories that illuminated
 - Another followed a scholar researching the Stains, who uncovered a prophecy foretelling the world’s eventual fall.
 - A third told the account of a refugee who witnessed the Ruination render lands uninhabitable and drive entire species to extinction.
 
+The Stains had rendered almost every land uninhabitable, forcing many to retreat to their final refuge—the [kingdom's capital](#entry:libestal-ancient-entry). But even that haven was becoming increasingly difficult to defend, as the corruption continued to spread.
+
 _Note: Further information on these stories is available in the [Library](#entry:library-entry) Archive._
 
 **The “Cursed” Ones**

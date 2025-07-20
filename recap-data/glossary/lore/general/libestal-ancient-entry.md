@@ -42,6 +42,8 @@ Located at the center of the residential area and directly in front of the castl
 **Build Area**
 Surrounding the Library were expansive plots of land allocated to the heroes for free building. Compared to the limited, guild-restricted building areas in the first chapter, this iteration offered far more freedom and fewer restrictions, allowing for grander, more personalized structures.
 
+At some point not long ago, the entire castle town had burned down—explaining why the building area was empty and why all the Libestans now resided within the castle walls. Several residents reminisce about their old homes before the fire, and there are subtle hints sprinkled throughout about who might have started it, though the culprit’s identity remains unknown. It was during this fire that the Outlander first proved his heroism to the Libestans, rescuing townsfolk in the chaos. A few castle residents even mention being saved by him.
+
 ### Quests
 
 Both side and main quests returned, with expanded depth and limitations to prevent previous exploits (such as earning tens of thousands of coins from mass-producing potato salad). Sidequests still served as a source of income and power-ups, while main quests progressed the storyline and restored lost memories—this time not just of the heroes, but also of Fia.
