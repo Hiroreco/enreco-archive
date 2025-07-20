@@ -23,7 +23,7 @@ How will any of this help save the universe? Who knows? But it's only Day 1—th
 
 ## Official Work
 
-[Monster - ENigmatic Recollection Chapter 2 Theme Song](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)
+[**Monster - ENigmatic Recollection Chapter 2 Theme Song**](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)
 
 ["Monster" by purokiti](https://x.com/purokiti/status/1918510105928032297)
 

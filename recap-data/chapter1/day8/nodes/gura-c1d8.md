@@ -27,6 +27,8 @@ But unfortunately, that moment truly was the shark’s final interaction with th
 
 Even so, the shark had already left her mark—one cherished by many. Her presence alone had become a legend, destined to be remembered for as long as time endures.
 
+Thank you for everything, Gura.
+
 ## Fanart
 
 [">:D" by ma_draws](https://x.com/ma_draws/status/1901606787452948765)

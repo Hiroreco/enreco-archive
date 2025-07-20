@@ -113,7 +113,7 @@ export const CONTRIBUTORS = [
         contributors: [
             {
                 name: "Rieght",
-                socials: "https://www.youtube.com/@immergruenclips",
+                socials: "https://www.youtube.com/@immerchive",
             },
             {
                 name: "dulce",

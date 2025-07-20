@@ -44,6 +44,13 @@ Finally, at the end of the path, the heroes stood before their last enemy: **The
 
 Defeating this entity meant liberation: of the land, the Princess, and the Outlander, who both offered their heartfelt gratitude after the battle.
 
+> Here to destroy me? You don't even know what I am.
+> I am the slow rot that spreads from within.
+> I am the dark thought that won't go away.
+> You think your kingdoms eternal? Your Heroes incorruptible?
+> No... No... Nothing stays pure.
+> I'll show you.
+
 [The battle against The Curse](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=aPXghWa1h648PaCG&t=6678)
 
 But this was not the end.

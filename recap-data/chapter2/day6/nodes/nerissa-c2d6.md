@@ -36,7 +36,7 @@ Love letters... from Cecilia Immerkind?
 
 **Six Feet Under**
 
-There had been a shift. Subtle, but unmistakable. The sweet, generous Maiden who once cared so deeply about feeding others seemed to fade today. In her place stood someone far more focused, far more secretive.
+There had been a shift. Subtle, but unmistakable. The sweet, generous maiden who once cared so deeply about feeding others seemed to fade today. In her place stood someone far more focused and far more secretive.
 
 Rather than running her usual food stall, she toiled beneath the earth, hollowing out space to store a [peculiar device](https://youtu.be/-BFf3e6YJwY?t=4262)—an instrument that played hypnotic, haunting music.
 
