@@ -123,7 +123,7 @@ interface PlayerControlsProps {
     isShuffled: boolean;
     toggleShuffle: () => void;
     playPrev: () => void;
-    playPause: () => void;
+    playPause: (val: boolean) => void;
     isPlaying: boolean;
     playNext: () => void;
     toggleLoop: () => void;
@@ -201,7 +201,7 @@ const PlayerControls = ({
 
                 <Tooltip delayDuration={300}>
                     <TooltipTrigger
-                        onClick={playPause}
+                        onClick={() => playPause(!isPlaying)}
                         disabled={!currentTrack}
                         className="hover:opacity-80 transition-opacity disabled:opacity-30"
                     >
@@ -406,14 +406,17 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         setCatIndex,
     ]);
 
-    const playPause = useCallback(() => {
-        if (isPlaying) {
-            pauseBGM(0);
-        } else {
-            playBGM(0);
-        }
-        setIsPlaying(!isPlaying);
-    }, [setIsPlaying, isPlaying, playBGM, pauseBGM]);
+    const playPause = useCallback(
+        (val: boolean) => {
+            if (val === true) {
+                playBGM(0);
+            } else {
+                pauseBGM(0);
+            }
+            setIsPlaying(val);
+        },
+        [setIsPlaying, playBGM, pauseBGM],
+    );
 
     const toggleLoop = useCallback(() => {
         if (loopCurrentSong) {
@@ -446,11 +449,23 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
 
     const onSelect = useCallback(
         (cIdx: number, tIdx: number) => {
-            setCatIndex(cIdx);
-            setTrackIndex(tIdx);
-            playPause();
+            // If clicking the currently selected and playing song, pause it
+            if (cIdx === catIndex && tIdx === trackIndex && isPlaying) {
+                playPause(false);
+            } else {
+                setCatIndex(cIdx);
+                setTrackIndex(tIdx);
+                playPause(true);
+            }
         },
-        [setCatIndex, setTrackIndex, playPause],
+        [
+            catIndex,
+            trackIndex,
+            isPlaying,
+            setCatIndex,
+            setTrackIndex,
+            playPause,
+        ],
     );
 
     // Regenerate shuffled indices when category changes
@@ -510,7 +525,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
             if (!open) return;
             if (event.key === " ") {
                 event.preventDefault();
-                playPause();
+                playPause(!isPlaying);
             } else if (event.key === "ArrowRight") {
                 event.preventDefault();
                 playNext();
@@ -528,7 +543,15 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
 
         window.addEventListener("keydown", handleKeyDown);
         return () => window.removeEventListener("keydown", handleKeyDown);
-    }, [playPause, playNext, playPrev, onVolumeChange, bgmVolume, open]);
+    }, [
+        playPause,
+        playNext,
+        playPrev,
+        onVolumeChange,
+        bgmVolume,
+        open,
+        isPlaying,
+    ]);
 
     const currentTrack = useMemo(
         () => (trackIndex !== null ? songs[trackIndex] : null),
@@ -600,7 +623,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                             {currentTrack && (
                                 <div
                                     className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-lg hover:bg-black/50"
-                                    onClick={playPause}
+                                    onClick={() => playPause(!isPlaying)}
                                 >
                                     {isPlaying ? (
                                         <Pause
@@ -659,7 +682,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                             isShuffled={isShuffled}
                             toggleShuffle={toggleShuffle}
                             playPrev={playPrev}
-                            playPause={playPause}
+                            playPause={() => playPause(!isPlaying)}
                             isPlaying={isPlaying}
                             playNext={playNext}
                             toggleLoop={toggleLoop}
@@ -714,7 +737,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                             isShuffled={isShuffled}
                             toggleShuffle={toggleShuffle}
                             playPrev={playPrev}
-                            playPause={playPause}
+                            playPause={() => playPause(!isPlaying)}
                             isPlaying={isPlaying}
                             playNext={playNext}
                             toggleLoop={toggleLoop}
