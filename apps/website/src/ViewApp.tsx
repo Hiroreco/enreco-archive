@@ -716,8 +716,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     "z-50 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0 ",
                     {
                         "w-[60%] lg:block hidden": currentCard === "setting",
-                        "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            currentCard !== "setting",
+                        "w-full md:w-4/5 2xl:w-2/5 mx-auto": currentCard === null,
+                        "hidden": currentCard !== null && currentCard !== "setting"
                     },
                 )}
             >
