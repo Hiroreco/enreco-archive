@@ -25,7 +25,8 @@ import {
 } from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
-import { useCallback } from "react";
+import { useCallback, useRef } from "react";
+import { Volume2, VolumeX } from "lucide-react";
 
 interface ViewSettingsModalProps {
     open: boolean;
@@ -33,13 +34,38 @@ interface ViewSettingsModalProps {
 }
 
 const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
-    const settingStore = useSettingStore();
+    const bgmVolume = useSettingStore((state) => state.bgmVolume);
+    const setBgmVolume = useSettingStore((state) => state.setBgmVolume);
+    const sfxVolume = useSettingStore((state) => state.sfxVolume);
+    const setSfxVolume = useSettingStore((state) => state.setSfxVolume);
+    const openDayRecapOnDayChange = useSettingStore(
+        (state) => state.openDayRecapOnDayChange,
+    );
+    const setOpenDayRecapOnDayChange = useSettingStore(
+        (state) => state.setOpenDayRecapOnDayChange,
+    );
+    const autoPanBack = useSettingStore((state) => state.autoPanBack);
+    const setAutoPanBack = useSettingStore((state) => state.setAutoPanBack);
+    const backdropFilter = useSettingStore((state) => state.backdropFilter);
+    const setBackdropFilter = useSettingStore(
+        (state) => state.setBackdropFilter,
+    );
+    const themeType = useSettingStore((state) => state.themeType);
+    const setThemeType = useSettingStore((state) => state.setThemeType);
+    const fontSize = useSettingStore((state) => state.fontSize);
+    const setFontSize = useSettingStore((state) => state.setFontSize);
 
-    const onOpenChange = useCallback((open: boolean) => {
-        if(!open) {
-            onClose();
-        }
-    }, [onClose]);
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
+    );
+
+    const previousBGMVolumeBeforeMute = useRef(bgmVolume);
+    const previousSFXVolumeBeforeMute = useRef(sfxVolume);
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
@@ -60,28 +86,72 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                 <div className="flex flex-col gap-4 p-2 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="enable-bgm">Background Music</Label>
-                        <Slider
-                            defaultValue={[settingStore.bgmVolume]}
-                            max={1}
-                            step={0.01}
-                            className="w-[150px]"
-                            onValueChange={(value) =>
-                                settingStore.setBgmVolume(value[0])
-                            }
-                        />
+                        <div className="flex items-center justify-between gap-2 w-[150px]">
+                            <button
+                                onClick={() => {
+                                    if (bgmVolume > 0) {
+                                        previousBGMVolumeBeforeMute.current =
+                                            bgmVolume;
+                                        setBgmVolume(0);
+                                    } else {
+                                        setBgmVolume(
+                                            previousBGMVolumeBeforeMute.current,
+                                        );
+                                    }
+                                }}
+                            >
+                                {bgmVolume > 0 ? (
+                                    <Volume2 size={16} />
+                                ) : (
+                                    <VolumeX size={16} />
+                                )}
+                            </button>
+                            <Slider
+                                defaultValue={[bgmVolume]}
+                                value={[bgmVolume]}
+                                max={1}
+                                step={0.01}
+                                className="grow"
+                                onValueChange={(value) =>
+                                    setBgmVolume(value[0])
+                                }
+                            />
+                        </div>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="enable-bgm">Sound Effects</Label>
-                        <Slider
-                            defaultValue={[settingStore.sfxVolume]}
-                            max={1}
-                            step={0.01}
-                            className="w-[150px]"
-                            onValueChange={(value) =>
-                                settingStore.setSfxVolume(value[0])
-                            }
-                        />
+                        <Label htmlFor="enable-sfx">Sound Effects</Label>
+                        <div className="flex items-center justify-between gap-2 w-[150px]">
+                            <button
+                                onClick={() => {
+                                    if (sfxVolume > 0) {
+                                        previousSFXVolumeBeforeMute.current =
+                                            sfxVolume;
+                                        setSfxVolume(0);
+                                    } else {
+                                        setSfxVolume(
+                                            previousSFXVolumeBeforeMute.current,
+                                        );
+                                    }
+                                }}
+                            >
+                                {sfxVolume > 0 ? (
+                                    <Volume2 size={16} />
+                                ) : (
+                                    <VolumeX size={16} />
+                                )}
+                            </button>
+                            <Slider
+                                defaultValue={[sfxVolume]}
+                                value={[sfxVolume]}
+                                max={1}
+                                step={0.01}
+                                className="grow"
+                                onValueChange={(value) =>
+                                    setSfxVolume(value[0])
+                                }
+                            />
+                        </div>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
@@ -89,10 +159,8 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                             Show Recap On Day Change
                         </Label>
                         <Checkbox
-                            onCheckedChange={
-                                settingStore.setOpenDayRecapOnDayChange
-                            }
-                            checked={settingStore.openDayRecapOnDayChange}
+                            onCheckedChange={setOpenDayRecapOnDayChange}
+                            checked={openDayRecapOnDayChange}
                             id="day-recap"
                         />
                     </div>
@@ -100,8 +168,8 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="pan">Auto Pan Back On Close</Label>
                         <Checkbox
-                            onCheckedChange={settingStore.setAutoPanBack}
-                            checked={settingStore.autoPanBack}
+                            onCheckedChange={setAutoPanBack}
+                            checked={autoPanBack}
                             id="pan"
                         />
                     </div>
@@ -110,11 +178,9 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                         <Label htmlFor="backdrop-filter">Backdrop Filter</Label>
                         <Select
                             onValueChange={(value) =>
-                                settingStore.setBackdropFilter(
-                                    value as BackdropFilter,
-                                )
+                                setBackdropFilter(value as BackdropFilter)
                             }
-                            value={settingStore.backdropFilter}
+                            value={backdropFilter}
                         >
                             <SelectTrigger
                                 className="w-[100px]"
@@ -134,9 +200,9 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                         <Label htmlFor="theme-option">App Theme</Label>
                         <Select
                             onValueChange={(value) =>
-                                settingStore.setThemeType(value as ThemeType)
+                                setThemeType(value as ThemeType)
                             }
-                            value={settingStore.themeType}
+                            value={themeType}
                         >
                             <SelectTrigger
                                 id="theme-option"
@@ -157,9 +223,9 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                         <Label htmlFor="font-size">Font Size</Label>
                         <Select
                             onValueChange={(value) =>
-                                settingStore.setFontSize(value as FontSize)
+                                setFontSize(value as FontSize)
                             }
-                            value={settingStore.fontSize}
+                            value={fontSize}
                         >
                             <SelectTrigger
                                 id="font-size"

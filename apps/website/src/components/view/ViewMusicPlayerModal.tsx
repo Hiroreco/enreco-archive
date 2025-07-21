@@ -28,6 +28,7 @@ import {
     Repeat,
     Shuffle,
     Volume2,
+    VolumeX,
 } from "lucide-react";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef } from "react";
@@ -142,86 +143,106 @@ const PlayerControls = ({
     toggleLoop,
     loopCurrentSong,
     currentTrack,
-}: PlayerControlsProps) => (
-    <div className="flex items-center justify-between w-full px-2">
-        <div className="flex items-center gap-2">
-            <Volume2 size={16} />
-            <Slider
-                className="w-16"
-                value={[bgmVolume]}
-                max={1}
-                step={0.01}
-                onValueChange={onVolumeChange}
-            />
+}: PlayerControlsProps) => {
+    const previousVolumeBeforeMute = useRef(bgmVolume);
+    return (
+        <div className="flex items-center justify-between w-full px-2">
+            <div className="flex items-center gap-2">
+                <button
+                    onClick={() => {
+                        if (bgmVolume > 0) {
+                            previousVolumeBeforeMute.current = bgmVolume;
+                            onVolumeChange([0]);
+                        } else {
+                            onVolumeChange([previousVolumeBeforeMute.current]);
+                        }
+                    }}
+                >
+                    {bgmVolume > 0 ? (
+                        <Volume2 size={16} />
+                    ) : (
+                        <VolumeX size={16} />
+                    )}
+                </button>
+                <Slider
+                    className="w-16"
+                    value={[bgmVolume]}
+                    max={1}
+                    step={0.01}
+                    onValueChange={onVolumeChange}
+                />
+            </div>
+            <div className="flex items-center gap-4">
+                <Tooltip delayDuration={300}>
+                    <TooltipTrigger
+                        onClick={toggleShuffle}
+                        className={cn("transition-opacity", {
+                            "opacity-100": isShuffled,
+                            "opacity-50 hover:opacity-80": !isShuffled,
+                        })}
+                    >
+                        <Shuffle size={16} />
+                    </TooltipTrigger>
+                    <TooltipContent>
+                        {isShuffled ? "Turn off shuffle" : "Turn on shuffle"}
+                    </TooltipContent>
+                </Tooltip>
+
+                <Tooltip delayDuration={300}>
+                    <TooltipTrigger
+                        onClick={playPrev}
+                        disabled={!currentTrack}
+                        className="hover:opacity-80 transition-opacity disabled:opacity-30"
+                    >
+                        <ChevronFirst />
+                    </TooltipTrigger>
+                    <TooltipContent>Previous track</TooltipContent>
+                </Tooltip>
+
+                <Tooltip delayDuration={300}>
+                    <TooltipTrigger
+                        onClick={playPause}
+                        disabled={!currentTrack}
+                        className="hover:opacity-80 transition-opacity disabled:opacity-30"
+                    >
+                        {isPlaying ? <Pause /> : <Play />}
+                    </TooltipTrigger>
+                    <TooltipContent>
+                        {isPlaying ? "Pause" : "Play"}
+                    </TooltipContent>
+                </Tooltip>
+
+                <Tooltip delayDuration={300}>
+                    <TooltipTrigger
+                        onClick={playNext}
+                        disabled={!currentTrack}
+                        className="hover:opacity-80 transition-opacity disabled:opacity-30"
+                    >
+                        <ChevronLast />
+                    </TooltipTrigger>
+                    <TooltipContent>Next track</TooltipContent>
+                </Tooltip>
+
+                <Tooltip delayDuration={300}>
+                    <TooltipTrigger
+                        onClick={toggleLoop}
+                        className={cn("transition-opacity", {
+                            "opacity-100": loopCurrentSong,
+                            "opacity-50 hover:opacity-80": !loopCurrentSong,
+                        })}
+                    >
+                        <Repeat size={16} />
+                    </TooltipTrigger>
+                    <TooltipContent>
+                        {loopCurrentSong
+                            ? "Turn off repeat"
+                            : "Repeat current song"}
+                    </TooltipContent>
+                </Tooltip>
+            </div>
         </div>
-        <div className="flex items-center gap-4">
-            <Tooltip delayDuration={300}>
-                <TooltipTrigger
-                    onClick={toggleShuffle}
-                    className={cn("transition-opacity", {
-                        "opacity-100": isShuffled,
-                        "opacity-50 hover:opacity-80": !isShuffled,
-                    })}
-                >
-                    <Shuffle size={16} />
-                </TooltipTrigger>
-                <TooltipContent>
-                    {isShuffled ? "Turn off shuffle" : "Turn on shuffle"}
-                </TooltipContent>
-            </Tooltip>
-
-            <Tooltip delayDuration={300}>
-                <TooltipTrigger
-                    onClick={playPrev}
-                    disabled={!currentTrack}
-                    className="hover:opacity-80 transition-opacity disabled:opacity-30"
-                >
-                    <ChevronFirst />
-                </TooltipTrigger>
-                <TooltipContent>Previous track</TooltipContent>
-            </Tooltip>
-
-            <Tooltip delayDuration={300}>
-                <TooltipTrigger
-                    onClick={playPause}
-                    disabled={!currentTrack}
-                    className="hover:opacity-80 transition-opacity disabled:opacity-30"
-                >
-                    {isPlaying ? <Pause /> : <Play />}
-                </TooltipTrigger>
-                <TooltipContent>{isPlaying ? "Pause" : "Play"}</TooltipContent>
-            </Tooltip>
-
-            <Tooltip delayDuration={300}>
-                <TooltipTrigger
-                    onClick={playNext}
-                    disabled={!currentTrack}
-                    className="hover:opacity-80 transition-opacity disabled:opacity-30"
-                >
-                    <ChevronLast />
-                </TooltipTrigger>
-                <TooltipContent>Next track</TooltipContent>
-            </Tooltip>
-
-            <Tooltip delayDuration={300}>
-                <TooltipTrigger
-                    onClick={toggleLoop}
-                    className={cn("transition-opacity", {
-                        "opacity-100": loopCurrentSong,
-                        "opacity-50 hover:opacity-80": !loopCurrentSong,
-                    })}
-                >
-                    <Repeat size={16} />
-                </TooltipTrigger>
-                <TooltipContent>
-                    {loopCurrentSong
-                        ? "Turn off repeat"
-                        : "Repeat current song"}
-                </TooltipContent>
-            </Tooltip>
-        </div>
-    </div>
-);
+    );
+};
 
 interface ViewMusicPlayerModalProps {
     open: boolean;
