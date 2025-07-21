@@ -1,14 +1,12 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
-import {
-    CurrentChapterDataContext,
-    CurrentDayDataContext,
-} from "@/contexts/CurrentChartData";
-import { getLighterOrDarkerColor } from "@/lib/utils";
+import { CurrentChapterDataContext, CurrentDayDataContext } from "@/contexts/CurrentChartData";
 import { useSettingStore } from "@/store/settingStore";
 
 import { ReactNode, useCallback, useContext } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
+import { getContrastedColor } from "@/lib/color-utils";
+import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 
 export type EdgeLinkClickHandler = (targetEdge: FixedEdgeType) => void;
 
@@ -24,14 +22,12 @@ export default function EdgeLink({
     onEdgeLinkClick,
 }: EdgeLinkProps) {
     const { edges } = useContext(CurrentDayDataContext);
+    const { relationships } = useContext(CurrentChapterDataContext);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
-    const isDarkMode = useSettingStore((state) => state.themeType === "dark");
-
-    // This guy is empty, cause the context can't reach here
-    const { relationships } = useContext(CurrentChapterDataContext);
-    console.log(relationships);
+    const theme = useSettingStore((state) => state.themeType);
+    const isDarkMode = useLightDarkModeSwitcher(theme);
 
     let edge = edges.find((e) => e.id === edgeId);
     if (!edge) {
@@ -39,17 +35,6 @@ export default function EdgeLink({
         edgeId = edgeId.split("-").reverse().join("-");
         edge = edges.find((e) => e.id === edgeId);
     }
-    let edgeColor = "#831843";
-    // if (edge && edge.data) {
-    //     edgeColor = relationships[edge.data.relationshipId]?.style
-    //         .stroke as string;
-    //     console.log(
-    //         "EdgeLink",
-    //         edgeColor,
-    //         edge.data.relationshipId,
-    //         relationships[edge.data.relationshipId],
-    //     );
-    // }
 
     const edgeLinkHandler = useCallback(() => {
         if (edge && !edge.hidden) {
@@ -57,7 +42,11 @@ export default function EdgeLink({
         }
     }, [edge, onEdgeLinkClick]);
 
-    edgeColor = getLighterOrDarkerColor(edgeColor, isDarkMode ? 10 : -10);
+    let edgeColor = "#831843";
+    if (edge?.data?.relationshipId && relationships[edge?.data?.relationshipId]) {
+        edgeColor = getContrastedColor(relationships[edge?.data?.relationshipId].style.stroke ?? edgeColor, isDarkMode);
+    }
+
     let label = children as string;
     try {
         label = label.split(":")[0];

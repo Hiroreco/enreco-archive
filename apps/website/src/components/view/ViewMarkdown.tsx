@@ -11,6 +11,7 @@ import { Element, ElementContent, Text } from "hast";
 import { memo, useMemo } from "react";
 import Markdown, { Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkDirective from "remark-directive";
 import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
@@ -21,6 +22,8 @@ import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import "@/components/view/ViewMarkdown.css";
 import ViewTextModal from "@/components/view/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import underlineDirective from "@enreco-archive/markdown-extensions/UnderlineDirective";
+import textAlignmentDirective from "@enreco-archive/markdown-extensions/TextAlignmentDirective";
 
 /*
 Custom rehype plugin to convert lone images in paragraphs into figures.
@@ -378,7 +381,15 @@ function ViewMarkdownInternal({
         [onEdgeLinkClicked, onNodeLinkClicked],
     );
 
-    const remarkPlugins = useMemo(() => [remarkGfm, addHeadingIds], []);
+    const remarkPlugins = useMemo(
+        () => [
+            remarkGfm, 
+            addHeadingIds,
+            remarkDirective,
+            underlineDirective,
+            textAlignmentDirective
+        ], 
+        []);
     const rehypePlugins = useMemo(
         () => [
             transformImageParagraphToFigure,
