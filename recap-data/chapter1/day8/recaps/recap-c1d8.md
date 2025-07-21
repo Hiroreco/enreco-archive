@@ -34,4 +34,8 @@ With corruption at its peak, relationships transformed, rivalries settled, and s
 
 ["orge" by bambooz](https://x.com/_bambooz/status/1918628681867743581)
 
+<!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+
 ["the quintessential hashtag enreco experience" by Eli](https://x.com/Elisbian_/status/1861075335011352953)
+
+<!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
