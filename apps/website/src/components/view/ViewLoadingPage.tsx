@@ -33,8 +33,8 @@ const ViewLoadingPage = ({
     const imageVariants = {
         hidden: {
             opacity: 0,
-            filter: "blur(20px) brightness(3)",
-            scale: 1.2,
+            filter: "blur(50px) brightness(2)",
+            scale: 1.05,
         },
         visible: {
             opacity: 1,
@@ -48,10 +48,12 @@ const ViewLoadingPage = ({
                 filter: {
                     duration: 3.5,
                     ease: [0.4, 0, 0.2, 1],
+                    delay: 0.5,
                 },
                 scale: {
                     duration: 3.5,
-                    ease: [0.4, 0, 0.2, 1],
+                    ease: [0.25, 0.46, 0.45, 0.94],
+                    delay: 0.5,
                 },
             },
         },
@@ -161,7 +163,7 @@ const ViewLoadingPage = ({
                     fadeIn: {
                         opacity: [0, 1],
                         transition: {
-                            delay: 0.5,
+                            delay: 1,
                             duration: 1,
                             ease: "easeOut",
                         },
