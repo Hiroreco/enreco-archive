@@ -7,7 +7,6 @@
         "prebuild": "pnpm run copy-resources",
         "build": "turbo run build:website",
         "prebuild:all": "pnpm run copy-resources",
-        "prebuild:all": "pnpm run copy-resources",
         "build:all": "turbo run build",
         "copy-resources": "tsx scripts/core/copy-shared-resources.ts",
         "copy-shared-resources": "tsx scripts/core/copy-shared-resources.ts",
