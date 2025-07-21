@@ -142,6 +142,19 @@ const ViewInfoCredits = () => {
                 artworks and their creators are properly credited and can be
                 found in that section.
             </div>
+            <div className="text-center sm:text-left -mt-2">
+                To{" "}
+                <a
+                    href="https://x.com/lyger_0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    lyger
+                </a>
+                , the official scenario writer for ENigmatic Recollection, for
+                assisting with the proofreading of all lore-related content and
+                offering invaluable feedback for the site.
+            </div>
         </div>
     );
 };
