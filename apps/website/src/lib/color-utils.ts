@@ -80,8 +80,8 @@ export function getContrastedColor(color: string, isDarkMode: boolean) {
     const newColorRgb = colorSpace.hsl.rgb(linkColorHsl);
 
     // Convert rgb color back into html hex color code.
-    const r = Math.trunc(newColorRgb[0]).toString(16);
-    const g = Math.trunc(newColorRgb[1]).toString(16);
-    const b = Math.trunc(newColorRgb[2]).toString(16)
+    const r = Math.trunc(newColorRgb[0]).toString(16).padStart(2, "0");
+    const g = Math.trunc(newColorRgb[1]).toString(16).padStart(2, "0");
+    const b = Math.trunc(newColorRgb[2]).toString(16).padStart(2, "0");
     return `#${r}${g}${b}`;
 }
