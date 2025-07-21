@@ -1,11 +1,11 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
-import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
-import { getLighterOrDarkerColor } from "@/lib/utils";
+import { CurrentChapterDataContext, CurrentDayDataContext } from "@/contexts/CurrentChartData";
 import { useSettingStore } from "@/store/settingStore";
 
 import { ReactNode, useCallback, useContext } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
+import { getContrastedColor } from "@/lib/color-utils";
 
 export type EdgeLinkClickHandler = (targetEdge: FixedEdgeType) => void;
 
@@ -21,6 +21,7 @@ export default function EdgeLink({
     onEdgeLinkClick,
 }: EdgeLinkProps) {
     const { edges } = useContext(CurrentDayDataContext);
+    const { relationships } = useContext(CurrentChapterDataContext);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
@@ -36,13 +37,9 @@ export default function EdgeLink({
 
     // Make the link's color the same as the node's
     // Not sure about this one, might remove.
-    const style = edge?.style;
     let edgeColor = "#831843";
-    if (style && style.stroke) {
-        edgeColor = getLighterOrDarkerColor(
-            style.stroke,
-            isDarkMode ? 10 : -10,
-        );
+    if (edge?.data?.relationshipId && relationships[edge?.data?.relationshipId]) {
+        edgeColor = getContrastedColor(relationships[edge?.data?.relationshipId].style.stroke ?? edgeColor, isDarkMode);
     }
 
     let label = children as string;

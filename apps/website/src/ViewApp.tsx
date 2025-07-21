@@ -457,8 +457,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         setReadStatus(chapter, day, selectedElement.id, newReadStatus);
     }
 
-    console.log(openModal);
-
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
@@ -491,67 +489,67 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                                 "brightness 0.5s, background-image 0.3s",
                         }}
                     />
+
+                    <CurrentDayDataContext value={currentDayContextValue}>
+                        <ViewSettingCard
+                            isCardOpen={currentCard === "setting"}
+                            onCardClose={onCardClose}
+                            dayRecap={dayData.dayRecap}
+                            nodes={completeNodes}
+                            relationshipVisibility={relationshipVisibility}
+                            toggleRelationshipVisible={toggleRelationship}
+                            toggleAllRelationshipVisible={toggleAllRelationships}
+                            showOnlyNewEdges={showOnlyNewEdges}
+                            setShowOnlyNewEdges={setShowOnlyNewEdges}
+                            teamVisibility={team}
+                            toggleTeamVisible={toggleTeam}
+                            toggleAllTeamsVisible={toggleAllTeams}
+                            characterVisibility={character}
+                            toggleCharacterVisible={toggleCharacter}
+                            toggleAllCharactersVisible={toggleAllCharacters}
+                            chapter={chapter}
+                            chapterData={chapterData}
+                            setChartShrink={setChartShrinkAndFit}
+                            day={day}
+                            onDayChange={(newDay) => {
+                                changeWorkingData(chapter, newDay);
+                            }}
+                        />
+
+                        <ViewNodeCard
+                            isCardOpen={currentCard === "node"}
+                            selectedNode={selectedNode}
+                            nodeTeam={selectedNodeTeam}
+                            charts={chapterData.charts}
+                            read={selectedNodeRead}
+                            chapter={chapter}
+                            onCardClose={onCardClose}
+                            onNodeLinkClicked={onNodeClick}
+                            onEdgeLinkClicked={onEdgeClick}
+                            onDayChange={(newDay) => {
+                                changeWorkingData(chapter, newDay);
+                            }}
+                            onReadChange={onReadChange}
+                            setChartShrink={setChartShrinkAndFit}
+                        />
+
+                        <ViewEdgeCard
+                            isCardOpen={currentCard === "edge"}
+                            selectedEdge={selectedEdge}
+                            edgeRelationship={selectedEdgeRelationship}
+                            charts={chapterData.charts}
+                            read={selectedEdgeRead}
+                            onCardClose={onCardClose}
+                            onNodeLinkClicked={onNodeClick}
+                            onEdgeLinkClicked={onEdgeClick}
+                            onDayChange={(newDay) => {
+                                changeWorkingData(chapter, newDay);
+                            }}
+                            onReadChange={onReadChange}
+                            setChartShrink={setChartShrinkAndFit}
+                        />
+                    </CurrentDayDataContext>
                 </CurrentChapterDataContext>
-
-                <CurrentDayDataContext value={currentDayContextValue}>
-                    <ViewSettingCard
-                        isCardOpen={currentCard === "setting"}
-                        onCardClose={onCardClose}
-                        dayRecap={dayData.dayRecap}
-                        nodes={completeNodes}
-                        relationshipVisibility={relationshipVisibility}
-                        toggleRelationshipVisible={toggleRelationship}
-                        toggleAllRelationshipVisible={toggleAllRelationships}
-                        showOnlyNewEdges={showOnlyNewEdges}
-                        setShowOnlyNewEdges={setShowOnlyNewEdges}
-                        teamVisibility={team}
-                        toggleTeamVisible={toggleTeam}
-                        toggleAllTeamsVisible={toggleAllTeams}
-                        characterVisibility={character}
-                        toggleCharacterVisible={toggleCharacter}
-                        toggleAllCharactersVisible={toggleAllCharacters}
-                        chapter={chapter}
-                        chapterData={chapterData}
-                        setChartShrink={setChartShrinkAndFit}
-                        day={day}
-                        onDayChange={(newDay) => {
-                            changeWorkingData(chapter, newDay);
-                        }}
-                    />
-
-                    <ViewNodeCard
-                        isCardOpen={currentCard === "node"}
-                        selectedNode={selectedNode}
-                        nodeTeam={selectedNodeTeam}
-                        charts={chapterData.charts}
-                        read={selectedNodeRead}
-                        chapter={chapter}
-                        onCardClose={onCardClose}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
-                        onDayChange={(newDay) => {
-                            changeWorkingData(chapter, newDay);
-                        }}
-                        onReadChange={onReadChange}
-                        setChartShrink={setChartShrinkAndFit}
-                    />
-
-                    <ViewEdgeCard
-                        isCardOpen={currentCard === "edge"}
-                        selectedEdge={selectedEdge}
-                        edgeRelationship={selectedEdgeRelationship}
-                        charts={chapterData.charts}
-                        read={selectedEdgeRead}
-                        onCardClose={onCardClose}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
-                        onDayChange={(newDay) => {
-                            changeWorkingData(chapter, newDay);
-                        }}
-                        onReadChange={onReadChange}
-                        setChartShrink={setChartShrinkAndFit}
-                    />
-                </CurrentDayDataContext>
             </div>
 
             <ViewInfoModal

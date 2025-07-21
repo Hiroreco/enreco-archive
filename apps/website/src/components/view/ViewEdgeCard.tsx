@@ -15,7 +15,6 @@ import {
     Relationship,
 } from "@enreco-archive/common/types";
 import {
-    getLighterOrDarkerColor,
     isMobileViewport,
 } from "@/lib/utils";
 
@@ -112,10 +111,7 @@ const ViewEdgeCard = ({
     }
 
     const edgeStyle = edgeRelationship.style;
-    const backgroundColor = getLighterOrDarkerColor(
-        edgeStyle?.stroke || "",
-        10,
-    );
+    const backgroundColor = edgeStyle?.stroke || "";
 
     return (
         <VaulDrawer

@@ -1,11 +1,11 @@
 import { ImageNodeType } from "@enreco-archive/common/types";
-import { getLighterOrDarkerColor } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
 
 import { ReactNode, useCallback, useContext } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
 import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
+import { getContrastedColor } from "@/lib/color-utils";
 
 export type NodeLinkClickHandler = (targetNode: ImageNodeType) => void;
 
@@ -38,7 +38,7 @@ export default function NodeLink({
     // Not sure about this one, might remove.
     let nodeColor = node?.data.bgCardColor;
     if (nodeColor) {
-        nodeColor = getLighterOrDarkerColor(nodeColor, isDarkMode ? 30 : -30);
+        nodeColor = getContrastedColor(nodeColor, isDarkMode);
     }
 
     return (
