@@ -6,6 +6,7 @@ import { ReactNode, useCallback, useContext } from "react";
 import "@/components/view/markdown/ButtonLink.css";
 import { CurrentDayDataContext } from "@/contexts/CurrentChartData";
 import { getContrastedColor } from "@/lib/color-utils";
+import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 
 export type NodeLinkClickHandler = (targetNode: ImageNodeType) => void;
 
@@ -24,7 +25,8 @@ export default function NodeLink({
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
-    const isDarkMode = useSettingStore((state) => state.themeType === "dark");
+    const theme = useSettingStore((state) => state.themeType);
+    const isDarkMode = useLightDarkModeSwitcher(theme);
 
     const node = nodes.find((n) => n.id === nodeId);
 

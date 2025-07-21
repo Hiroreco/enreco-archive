@@ -6,6 +6,7 @@ import { ReactNode, useCallback, useContext } from "react";
 
 import "@/components/view/markdown/ButtonLink.css";
 import { getContrastedColor } from "@/lib/color-utils";
+import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 
 export type EdgeLinkClickHandler = (targetEdge: FixedEdgeType) => void;
 
@@ -25,7 +26,8 @@ export default function EdgeLink({
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
-    const isDarkMode = useSettingStore((state) => state.themeType === "dark");
+    const theme = useSettingStore((state) => state.themeType);
+    const isDarkMode = useLightDarkModeSwitcher(theme);
 
     let edge = edges.find((e) => e.id === edgeId);
     if (!edge) {
