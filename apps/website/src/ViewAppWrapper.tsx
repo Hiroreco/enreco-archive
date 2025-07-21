@@ -39,6 +39,7 @@ export const ViewAppWrapper = () => {
     const chapter = useViewStore((state) => state.data.chapter);
     const currentCard = useViewStore((state) => state.ui.currentCard);
     const closeCard = useViewStore((state) => state.ui.closeCard);
+    const deselectElement = useViewStore((state) => state.ui.deselectElement);
 
     const chapterData = data.chapters[chapter];
 
@@ -87,6 +88,7 @@ export const ViewAppWrapper = () => {
                         // To avoid soft-locking when the user chooses a card, and quickly switches to glossary
                         if (value === "glossary") {
                             closeCard();
+                            deselectElement();
                         }
                         setAppType(value as AppType);
                     }}
