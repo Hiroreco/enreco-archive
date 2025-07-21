@@ -33,24 +33,46 @@ const ViewLoadingPage = ({
     const imageVariants = {
         hidden: {
             opacity: 0,
-            clipPath: "circle(0% at 50% 50%)",
+            filter: "blur(20px) brightness(3)",
+            scale: 1.2,
         },
         visible: {
             opacity: 1,
-            clipPath: "circle(100% at 50% 50%)",
+            filter: "blur(0px) brightness(1)",
+            scale: 1,
             transition: {
-                clipPath: {
+                opacity: {
+                    duration: 3.5,
+                    ease: "easeOut",
+                },
+                filter: {
                     duration: 3.5,
                     ease: [0.4, 0, 0.2, 1],
                 },
-                opacity: {
-                    duration: 4,
-                    ease: "easeOut",
+                scale: {
+                    duration: 3.5,
+                    ease: [0.4, 0, 0.2, 1],
                 },
             },
         },
     };
 
+    // Generate random star positions
+    const stars = useMemo(() => {
+        return Array.from({ length: 12 }, (_, i) => {
+            const centerOffset = useDarkMode ? 100 : 50; // Wider spread in dark mode, closer in light mode
+            const centerX = 50;
+            const centerY = 50;
+
+            return {
+                id: i,
+                x: centerX + (Math.random() - 0.5) * centerOffset,
+                y: centerY + (Math.random() - 0.5) * centerOffset,
+                delay: Math.random() * 2,
+                duration: 1.5 + Math.random() * 1.5,
+            };
+        });
+    }, [useDarkMode]);
     return (
         <motion.div
             initial={{ opacity: 1 }}
@@ -82,28 +104,56 @@ const ViewLoadingPage = ({
                 }}
             />
 
-            <motion.div
-                className="sm:h-[65vh] sm:max-h-[650px] w-auto relative"
-                variants={imageVariants}
-                initial="hidden"
-                animate="visible"
-                onAnimationComplete={() => {
-                    setIsAnimationComplete(true);
-                }}
-            >
-                <Image
-                    src={
-                        isAprilFools
-                            ? "/images-opt/bogos-opt.webp"
-                            : "/images-opt/logo-1-opt.webp"
-                    }
-                    alt="ENreco Archive Logo"
-                    width={600}
-                    height={600}
-                    priority
-                    className="w-full h-full object-contain"
-                />
-            </motion.div>
+            <div className="relative sm:h-[65vh] sm:max-h-[650px] w-auto">
+                <motion.div
+                    className="relative w-full h-full"
+                    variants={imageVariants}
+                    initial="hidden"
+                    animate="visible"
+                    onAnimationComplete={() => {
+                        setIsAnimationComplete(true);
+                    }}
+                >
+                    <Image
+                        src={
+                            isAprilFools
+                                ? "/images-opt/bogos-opt.webp"
+                                : "/images-opt/logo-1-opt.webp"
+                        }
+                        alt="ENreco Archive Logo"
+                        width={600}
+                        height={600}
+                        priority
+                        className="w-full h-full object-contain"
+                    />
+                </motion.div>
+
+                {/* Twinkling stars */}
+                {isAnimationComplete &&
+                    isPulse &&
+                    stars.map((star) => (
+                        <motion.div
+                            key={star.id}
+                            className="absolute size-1 bg-white rounded-full"
+                            style={{
+                                left: `${star.x}%`,
+                                top: `${star.y}%`,
+                            }}
+                            initial={{ opacity: 0, scale: 0 }}
+                            animate={{
+                                opacity: [0, 1, 0],
+                                scale: [0, 1, 0],
+                            }}
+                            transition={{
+                                duration: star.duration,
+                                delay: star.delay,
+                                repeat: Infinity,
+                                repeatDelay: Math.random() * 3 + 1,
+                                ease: "easeInOut",
+                            }}
+                        />
+                    ))}
+            </div>
 
             <motion.div
                 className="mt-8 logo-text"
@@ -111,6 +161,7 @@ const ViewLoadingPage = ({
                     fadeIn: {
                         opacity: [0, 1],
                         transition: {
+                            delay: 0.5,
                             duration: 1,
                             ease: "easeOut",
                         },
