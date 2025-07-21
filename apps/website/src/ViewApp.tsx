@@ -625,7 +625,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
-                    tooltipText="Chart Info / Visibility"
+                    tooltipText="Day Recap / Visibility"
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
