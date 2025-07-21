@@ -309,20 +309,27 @@ const ViewFanartModal = ({
         const container = contentContainerRef.current;
         const currentScrollTop = container.scrollTop;
         const scrollingDown = currentScrollTop > lastScrollTop.current;
-        const isScrollable = container.scrollHeight > container.clientHeight;
-        const isAtTop = currentScrollTop <= 20;
+        const scrollTopCollapseThreshold = 20;
+
+        const isScrollable =
+            container.scrollHeight - scrollTopCollapseThreshold >
+            container.clientHeight;
+        const isAtTop = currentScrollTop <= scrollTopCollapseThreshold;
+
         // Auto-collapse logic (only if not pinned)
         if (
             !isHeaderPinned &&
             isScrollable &&
             scrollingDown &&
             !isHeaderCollapsed &&
-            Math.abs(currentScrollTop - lastScrollTop.current) > 20
+            Math.abs(currentScrollTop - lastScrollTop.current) >
+                scrollTopCollapseThreshold
         ) {
             setIsHeaderCollapsed(true);
         }
         // Auto-expand when scrolled to top (only if content is still scrollable)
         if (isAtTop && isHeaderCollapsed && isScrollable) {
+            console.log(isScrollable);
             setIsHeaderCollapsed(false);
         }
 
