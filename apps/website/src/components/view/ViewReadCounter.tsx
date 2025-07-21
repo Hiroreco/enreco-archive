@@ -8,126 +8,191 @@ import {
     DialogFooter,
     DialogHeader,
     DialogTitle,
-    DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
-import { Label } from "@enreco-archive/common-ui/components/label";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 
 interface ViewReadCounterProps {
+    open: boolean;
+    onClose: () => void;
     day: number;
     chapter: number;
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
-    readCount: number;
     getReadStatus: (chapter: number, day: number, id: string) => boolean;
-    hidden: boolean;
+    setReadStatus: (
+        chapter: number,
+        day: number,
+        id: string,
+        status: boolean,
+    ) => void;
     onNodeClick?: (node: ImageNodeType) => void;
     onEdgeClick?: (edge: FixedEdgeType) => void;
 }
 
 const ViewReadCounter = ({
+    open,
+    onClose,
     day,
     chapter,
     nodes,
     edges,
-    readCount,
     getReadStatus,
-    hidden,
+    setReadStatus,
     onNodeClick,
     onEdgeClick,
 }: ViewReadCounterProps) => {
-    const [showRead, setShowRead] = useState(false);
-    const [showUnread, setShowUnread] = useState(true);
-    const [open, setOpen] = useState(false);
+    // Optimistic state for read statuses
+    const [optimisticReadStates, setOptimisticReadStates] = useState<
+        Record<string, boolean>
+    >({});
+
+    // Initialize optimistic state when dialog opens or props change
+    useEffect(() => {
+        if (open) {
+            const initialStates: Record<string, boolean> = {};
+
+            // Initialize states for all filtered nodes and edges
+            const filteredNodes = nodes.filter((node) => node.data.day === day);
+            const filteredEdges = edges.filter(
+                (edge) => edge.data?.day === day,
+            );
+
+            filteredNodes.forEach((node) => {
+                initialStates[node.id] = getReadStatus(chapter, day, node.id);
+            });
+
+            filteredEdges.forEach((edge) => {
+                initialStates[edge.id] = getReadStatus(chapter, day, edge.id);
+            });
+
+            setOptimisticReadStates(initialStates);
+        }
+    }, [open, day, chapter, nodes, edges, getReadStatus]);
 
     const handleNodeClick = (node: ImageNodeType) => {
         if (onNodeClick) {
             onNodeClick(node);
-            setOpen(false);
+            onClose();
         }
     };
 
     const handleEdgeClick = (edge: FixedEdgeType) => {
         if (onEdgeClick) {
             onEdgeClick(edge);
-            setOpen(false);
+            onClose();
         }
     };
 
-    // Get filtered and only elements that match the current day.
-    const filteredElements = useMemo(() => {
-        const filterNodes = nodes.filter((node) => {
-            const nodeReadStatus = getReadStatus(chapter, day, node.id);
-            return (
-                node.data.day === day &&
-                ((showRead && nodeReadStatus) ||
-                    (showUnread && !nodeReadStatus))
-            );
+    const handleNodeReadToggle = (nodeId: string, checked: boolean) => {
+        // Optimistically update the local state immediately
+        setOptimisticReadStates((prev) => ({
+            ...prev,
+            [nodeId]: checked,
+        }));
+
+        // Then update the actual state (which will save to localStorage)
+        setReadStatus(chapter, day, nodeId, checked);
+    };
+
+    const handleEdgeReadToggle = (edgeId: string, checked: boolean) => {
+        // Optimistically update the local state immediately
+        setOptimisticReadStates((prev) => ({
+            ...prev,
+            [edgeId]: checked,
+        }));
+
+        // Then update the actual state (which will save to localStorage)
+        setReadStatus(chapter, day, edgeId, checked);
+    };
+
+    // Get the read status with optimistic state fallback
+    const getOptimisticReadStatus = (id: string) => {
+        return optimisticReadStates[id] ?? getReadStatus(chapter, day, id);
+    };
+
+    // Mark all as read/unread
+    const handleMarkAllAsRead = () => {
+        const newStates: Record<string, boolean> = {};
+
+        // Update all filtered elements to read
+        filteredElements.nodes.forEach((node) => {
+            newStates[node.id] = true;
+            setReadStatus(chapter, day, node.id, true);
         });
 
-        const filterEdges = edges.filter((edge) => {
-            if (edge.data?.day !== day) return false;
-            const edgeReadStatus = getReadStatus(chapter, day, edge.id);
-            return (
-                edge.data.day === day &&
-                ((showRead && edgeReadStatus) ||
-                    (showUnread && !edgeReadStatus))
-            );
+        filteredElements.edges.forEach((edge) => {
+            newStates[edge.id] = true;
+            setReadStatus(chapter, day, edge.id, true);
         });
+
+        setOptimisticReadStates((prev) => ({ ...prev, ...newStates }));
+    };
+
+    const handleMarkAllAsUnread = () => {
+        const newStates: Record<string, boolean> = {};
+
+        // Update all filtered elements to unread
+        filteredElements.nodes.forEach((node) => {
+            newStates[node.id] = false;
+            setReadStatus(chapter, day, node.id, false);
+        });
+
+        filteredElements.edges.forEach((edge) => {
+            newStates[edge.id] = false;
+            setReadStatus(chapter, day, edge.id, false);
+        });
+
+        setOptimisticReadStates((prev) => ({ ...prev, ...newStates }));
+    };
+
+    // Get filtered elements that match the current day
+    const filteredElements = useMemo(() => {
+        const filterNodes = nodes.filter((node) => node.data.day === day);
+        const filterEdges = edges.filter((edge) => edge.data?.day === day);
 
         return { nodes: filterNodes, edges: filterEdges };
-    }, [nodes, edges, getReadStatus, chapter, day, showRead, showUnread]);
-
-    const totalCount =
-        nodes.filter((n) => n.data.day === day).length +
-        edges.filter((e) => e?.data?.day === day).length;
+    }, [nodes, edges, day]);
 
     return (
-        <Dialog open={open} onOpenChange={setOpen}>
-            <DialogTrigger
-                className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
-                    {
-                        invisible: hidden,
-                        visible: !hidden,
-                    },
-                )}
-            >
-                {readCount}/{totalCount} Read
-            </DialogTrigger>
-
+        <Dialog
+            open={open}
+            onOpenChange={(val) => {
+                if (!val) {
+                    onClose();
+                }
+            }}
+        >
             <DialogContent className="max-h-[75vh] h-[75vh] lg:max-w-[70vw] lg:w-[70vw] flex flex-col">
                 <DialogHeader>
                     <DialogTitle>
-                        <div className="flex justify-between">
+                        <div className="flex justify-between items-center">
                             <span>Read Status</span>
-                            <div className="flex gap-4 mr-4">
-                                <div className="flex items-center space-x-2">
-                                    <Checkbox
-                                        id="show-read"
-                                        checked={showRead}
-                                        onCheckedChange={(checked) =>
-                                            setShowRead(checked as boolean)
-                                        }
-                                    />
-                                    <Label htmlFor="show-read">Read</Label>
+                            {(filteredElements.nodes.length > 0 ||
+                                filteredElements.edges.length > 0) && (
+                                <div className="flex gap-2 px-2">
+                                    <Button
+                                        variant="outline"
+                                        size="sm"
+                                        onClick={handleMarkAllAsRead}
+                                        className="text-sm"
+                                    >
+                                        Mark All as Read
+                                    </Button>
+                                    <Button
+                                        variant="outline"
+                                        size="sm"
+                                        onClick={handleMarkAllAsUnread}
+                                        className="text-sm"
+                                    >
+                                        Mark All as Unread
+                                    </Button>
                                 </div>
-                                <div className="flex items-center space-x-2">
-                                    <Checkbox
-                                        id="show-unread"
-                                        checked={showUnread}
-                                        onCheckedChange={(checked) =>
-                                            setShowUnread(checked as boolean)
-                                        }
-                                    />
-                                    <Label htmlFor="show-unread">Unread</Label>
-                                </div>
-                            </div>
+                            )}
                         </div>
                     </DialogTitle>
                 </DialogHeader>
@@ -144,37 +209,55 @@ const ViewReadCounter = ({
                         <div className="space-y-2">
                             <h3 className="font-semibold">Characters</h3>
                             <div className="grid lg:grid-cols-2 gap-4">
-                                {filteredElements.nodes.map((node) => (
-                                    <div
-                                        key={node.id}
-                                        className={cn(
-                                            "transition-all flex items-center gap-4 p-1 rounded-md border cursor-pointer",
-                                            {
-                                                "bg-accent/20":
-                                                    node.data.isRead,
-                                                "bg-muted hover:bg-accent hover:text-accent-foreground":
-                                                    !node.data.isRead,
-                                            },
-                                        )}
-                                        onClick={() =>
-                                            handleNodeClick(
-                                                node as ImageNodeType,
-                                            )
-                                        }
-                                    >
-                                        <div className="relative h-10 w-10 shrink-0">
-                                            <Image
-                                                src={node.data.imageSrc}
-                                                alt={node.data.title}
-                                                fill
-                                                className="object-cover rounded-md"
+                                {filteredElements.nodes.map((node) => {
+                                    const isRead = getOptimisticReadStatus(
+                                        node.id,
+                                    );
+                                    return (
+                                        <div
+                                            key={node.id}
+                                            className={cn(
+                                                "transition-all flex items-center gap-4 p-2 rounded-md border cursor-pointer hover:brightness-90",
+                                                {
+                                                    "dark:bg-accent/50 bg-accent/20":
+                                                        isRead,
+                                                    "bg-muted": !isRead,
+                                                },
+                                            )}
+                                        >
+                                            <Checkbox
+                                                checked={isRead}
+                                                onCheckedChange={(checked) =>
+                                                    handleNodeReadToggle(
+                                                        node.id,
+                                                        checked as boolean,
+                                                    )
+                                                }
+                                                className="shrink-0"
                                             />
+                                            <div
+                                                className="flex items-center gap-3 flex-1"
+                                                onClick={() =>
+                                                    handleNodeClick(
+                                                        node as ImageNodeType,
+                                                    )
+                                                }
+                                            >
+                                                <div className="relative h-10 w-10 shrink-0">
+                                                    <Image
+                                                        src={node.data.imageSrc}
+                                                        alt={node.data.title}
+                                                        fill
+                                                        className="object-cover rounded-md"
+                                                    />
+                                                </div>
+                                                <span className="font-medium">
+                                                    {node.data.title}
+                                                </span>
+                                            </div>
                                         </div>
-                                        <span className="font-medium">
-                                            {node.data.title}
-                                        </span>
-                                    </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         </div>
                     )}
@@ -184,71 +267,95 @@ const ViewReadCounter = ({
                         <div className="space-y-2 mt-4">
                             <h3 className="font-semibold">Relationships</h3>
                             <div className="grid lg:grid-cols-2 gap-4">
-                                {filteredElements.edges.map((edge) => (
-                                    <div
-                                        key={edge.id}
-                                        className={cn(
-                                            "transition-all flex items-center gap-4 p-1 rounded-md border cursor-pointer",
-                                            {
-                                                "bg-accent/20":
-                                                    edge.data?.isRead,
-                                                "bg-muted hover:bg-accent hover:text-accent-foreground":
-                                                    !edge.data?.isRead,
-                                            },
-                                        )}
-                                        onClick={() =>
-                                            handleEdgeClick(
-                                                edge as FixedEdgeType,
-                                            )
-                                        }
-                                    >
-                                        <div className="flex gap-1">
-                                            <div className="relative h-10 w-10 shrink-0">
-                                                <Image
-                                                    src={
-                                                        nodes.find(
-                                                            (node) =>
-                                                                node.id ===
-                                                                edge.source,
-                                                        )?.data.imageSrc || ""
-                                                    }
-                                                    alt={
-                                                        nodes.find(
-                                                            (node) =>
-                                                                node.id ===
-                                                                edge.source,
-                                                        )?.data.title || ""
-                                                    }
-                                                    fill
-                                                    className="object-cover rounded-md"
-                                                />
-                                            </div>
-                                            <div className="relative h-10 w-10 shrink-0">
-                                                <Image
-                                                    src={
-                                                        nodes.find(
-                                                            (node) =>
-                                                                node.id ===
-                                                                edge.target,
-                                                        )?.data.imageSrc || ""
-                                                    }
-                                                    alt={
-                                                        nodes.find(
-                                                            (node) =>
-                                                                node.id ===
-                                                                edge.target,
-                                                        )?.data.title || ""
-                                                    }
-                                                    fill
-                                                    className="object-cover rounded-md"
-                                                />
+                                {filteredElements.edges.map((edge) => {
+                                    const isRead = getOptimisticReadStatus(
+                                        edge.id,
+                                    );
+                                    return (
+                                        <div
+                                            key={edge.id}
+                                            className={cn(
+                                                "transition-all flex items-center gap-4 p-2 rounded-md border cursor-pointer hover:brightness-90",
+                                                {
+                                                    "dark:bg-accent/50 bg-accent/20":
+                                                        isRead,
+                                                    "bg-muted": !isRead,
+                                                },
+                                            )}
+                                        >
+                                            <Checkbox
+                                                checked={isRead}
+                                                onCheckedChange={(checked) =>
+                                                    handleEdgeReadToggle(
+                                                        edge.id,
+                                                        checked as boolean,
+                                                    )
+                                                }
+                                                className="shrink-0"
+                                            />
+                                            <div
+                                                className="flex items-center gap-3 flex-1"
+                                                onClick={() =>
+                                                    handleEdgeClick(
+                                                        edge as FixedEdgeType,
+                                                    )
+                                                }
+                                            >
+                                                <div className="flex gap-1">
+                                                    <div className="relative h-10 w-10 shrink-0">
+                                                        <Image
+                                                            src={
+                                                                nodes.find(
+                                                                    (node) =>
+                                                                        node.id ===
+                                                                        edge.source,
+                                                                )?.data
+                                                                    .imageSrc ||
+                                                                ""
+                                                            }
+                                                            alt={
+                                                                nodes.find(
+                                                                    (node) =>
+                                                                        node.id ===
+                                                                        edge.source,
+                                                                )?.data.title ||
+                                                                ""
+                                                            }
+                                                            fill
+                                                            className="object-cover rounded-md"
+                                                        />
+                                                    </div>
+                                                    <div className="relative h-10 w-10 shrink-0">
+                                                        <Image
+                                                            src={
+                                                                nodes.find(
+                                                                    (node) =>
+                                                                        node.id ===
+                                                                        edge.target,
+                                                                )?.data
+                                                                    .imageSrc ||
+                                                                ""
+                                                            }
+                                                            alt={
+                                                                nodes.find(
+                                                                    (node) =>
+                                                                        node.id ===
+                                                                        edge.target,
+                                                                )?.data.title ||
+                                                                ""
+                                                            }
+                                                            fill
+                                                            className="object-cover rounded-md"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <span className="font-medium">
+                                                    {edge.data?.title}
+                                                </span>
                                             </div>
                                         </div>
-                                        <span className="font-medium">
-                                            {edge.data?.title}
-                                        </span>
-                                    </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         </div>
                     )}
@@ -256,7 +363,7 @@ const ViewReadCounter = ({
                     {filteredElements.nodes.length === 0 &&
                         filteredElements.edges.length === 0 && (
                             <div className="text-center text-muted-foreground py-8">
-                                No cards to show with current filters
+                                No cards to show for this day
                             </div>
                         )}
                 </div>

@@ -16,6 +16,7 @@ export type ModalType =
     | "video"
     | "fanart"
     | "music"
+    | "read-counter"
     | null;
 
 interface ViewState {
@@ -74,6 +75,7 @@ interface ViewState {
         openVideoModal: () => void;
         openFanartModal: () => void;
         openMusicPlayerModal: () => void;
+        openReadCounterModal: () => void;
         closeModal: () => void;
         videoUrl: string | null;
         setVideoUrl: (currentVideoUrl: string | null) => void;
@@ -251,6 +253,10 @@ export const useViewStore = create<ViewState>()(
                 openMusicPlayerModal: () =>
                     set((draft) => {
                         draft.modal.openModal = "music";
+                    }),
+                openReadCounterModal: () =>
+                    set((draft) => {
+                        draft.modal.openModal = "read-counter";
                     }),
                 closeModal: () =>
                     set((draft) => {

@@ -157,6 +157,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const openMusicPlayerModal = useViewStore(
         (state) => state.modal.openMusicPlayerModal,
     );
+    const openReadCounterModal = useViewStore(
+        (state) => state.modal.openReadCounterModal,
+    );
     const closeModal = useViewStore((state) => state.modal.closeModal);
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
@@ -164,6 +167,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const countReadElements = usePersistedViewStore(
         (state) => state.countReadElements,
     );
+    // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
+    const readCount = countReadElements(chapter, day);
+
     const getReadStatus = usePersistedViewStore((state) => state.getReadStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
     const hasVisitedBefore = usePersistedViewStore(
@@ -209,6 +215,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 node.data.isRead = getReadStatus(chapter, day, node.id);
             }
         });
+        // Adding an extra dependency (readCount) to ensure the node read status is rerendered when the read count changes from the Read Counter.
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
         resolvedData.nodes,
         team,
@@ -217,6 +225,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         getReadStatus,
         chapter,
         day,
+        readCount,
     ]);
 
     /* Set additional properties for edges. */
@@ -465,6 +474,13 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         setReadStatus(chapter, day, selectedElement.id, newReadStatus);
     }
 
+    const totalCount = useMemo(
+        () =>
+            resolvedData.nodes.filter((node) => node.data.day === day).length +
+            resolvedData.edges.filter((edge) => edge.data?.day === day).length,
+        [resolvedData.nodes, resolvedData.edges, day],
+    );
+
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
@@ -597,18 +613,32 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 currentChapter={chapter}
             />
 
+            {/* Moving this out of the counter modal in order to synchronize it with the other modals */}
+            <button
+                className={cn(
+                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
+                    {
+                        invisible: currentCard !== null,
+                        visible: currentCard === null,
+                    },
+                )}
+                onClick={openReadCounterModal}
+            >
+                {readCount}/{totalCount} Read
+            </button>
+
             <ViewReadCounter
+                open={openModal === "read-counter"}
+                onClose={closeModal}
                 day={day}
                 chapter={chapter}
                 nodes={resolvedData.nodes}
                 edges={resolvedData.edges}
-                readCount={countReadElements(chapter, day)}
                 getReadStatus={getReadStatus}
-                hidden={currentCard !== null}
+                setReadStatus={setReadStatus}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
-
             <ViewMusicPlayerModal
                 open={openModal === "music"}
                 onClose={closeModal}

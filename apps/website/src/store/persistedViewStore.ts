@@ -8,9 +8,9 @@ export type ReadStore = {
         // Day Index
         [key: number]: {
             // Node/Edge Id Index
-            [key: string]: boolean 
-        }
-    }
+            [key: string]: boolean;
+        };
+    };
 };
 
 interface PersistedViewStore {
@@ -19,52 +19,64 @@ interface PersistedViewStore {
 
     readStatus: ReadStore;
     getReadStatus: (chapter: number, day: number, id: string) => boolean;
-    setReadStatus: (chapter: number, day: number, id: string, status: boolean) => void;
+    setReadStatus: (
+        chapter: number,
+        day: number,
+        id: string,
+        status: boolean,
+    ) => void;
     countReadElements: (chapter: number, day: number) => number;
 }
 
 export const usePersistedViewStore = create<PersistedViewStore>()(
-    persist(immer((set, get) => ({
-        hasVisitedBefore: false,
-        setHasVisitedBefore: (newVal) => set(draft => { draft.hasVisitedBefore = newVal; }),
+    persist(
+        immer((set, get) => ({
+            hasVisitedBefore: false,
+            setHasVisitedBefore: (newVal) =>
+                set((draft) => {
+                    draft.hasVisitedBefore = newVal;
+                }),
 
-        readStatus: [],
-        getReadStatus: (chapter, day, id) => {
-            const chapterLevel = get().readStatus[chapter];
-            
-            if(chapterLevel) {
-                const dayLevel = chapterLevel[day];
-                if(dayLevel) {
-                    return dayLevel[id] ?? false;
-                }
-            }
+            readStatus: [],
+            getReadStatus: (chapter, day, id) => {
+                const chapterLevel = get().readStatus[chapter];
 
-            return false;
-        },
-        setReadStatus: (chapter, day, id, status) => 
-            set(draft => {
-                if(draft.readStatus[chapter] === undefined) {
-                    draft.readStatus[chapter] = {};
-                }
-                
-                if(draft.readStatus[chapter][day] === undefined) {
-                    draft.readStatus[chapter][day] = {};
+                if (chapterLevel) {
+                    const dayLevel = chapterLevel[day];
+                    if (dayLevel) {
+                        return dayLevel[id] ?? false;
+                    }
                 }
 
-                draft.readStatus[chapter][day][id] = status; 
-            }),
-        countReadElements: (chapter, day) => {
-            const chapterLevel = get().readStatus[chapter];
+                return false;
+            },
+            setReadStatus: (chapter, day, id, status) =>
+                set((draft) => {
+                    if (!draft.readStatus[chapter]) {
+                        draft.readStatus[chapter] = {};
+                    }
 
-            if(chapterLevel) {
-                const dayLevel = chapterLevel[day];
+                    if (!draft.readStatus[chapter][day]) {
+                        draft.readStatus[chapter][day] = {};
+                    }
 
-                if(dayLevel) {
-                    return Object.keys(dayLevel).length;
+                    draft.readStatus[chapter][day][id] = status;
+                }),
+            countReadElements: (chapter, day) => {
+                const chapterLevel = get().readStatus[chapter];
+                if (chapterLevel) {
+                    const dayLevel = chapterLevel[day];
+
+                    if (dayLevel) {
+                        return Object.keys(dayLevel).filter(
+                            (id) => dayLevel[id],
+                        ).length;
+                    }
                 }
-            }
-            
-            return 0;
-        }
-    })), { name: "viewAppPersistedState" })
-)
+
+                return 0;
+            },
+        })),
+        { name: "viewAppPersistedState" },
+    ),
+);
