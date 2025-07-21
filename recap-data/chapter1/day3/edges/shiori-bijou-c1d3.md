@@ -1,6 +1,6 @@
 <!-- title: Soap Opera -->
 
-["Hello, my other wife"](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=237)
+["Hello, my other wife"](#embed:https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=237)
 
 Those were Shiori’s unexpected words in response to Bijou’s bright and cheerful morning greeting. The smile on the gem maiden’s face faded instantly, replaced by confusion and a pang of hurt. Bijou immediately pressed Shiori for answers—who was this "other wife"?
 
