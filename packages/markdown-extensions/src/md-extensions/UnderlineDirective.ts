@@ -11,7 +11,7 @@ interface Options {
 
 export default function underlineDirective(options: Options) {
     const underlineClassname =
-        options?.underlineClassname ?? "underline underline-offset-2";
+        options?.underlineClassname ?? "underline";
 
     return function (tree: Root) {
         visit(tree, function (node) {

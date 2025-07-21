@@ -25,6 +25,11 @@
     text-align: right;
 }
 
+.markdown .underline {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 .amber-coin::after {
     display: inline-block;
     background-image: url("/images-opt/ambercoin-opt.webp");
