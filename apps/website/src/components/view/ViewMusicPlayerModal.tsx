@@ -446,23 +446,11 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
 
     const onSelect = useCallback(
         (cIdx: number, tIdx: number) => {
-            // If clicking the currently selected and playing song, pause it
-            if (cIdx === catIndex && tIdx === trackIndex && isPlaying) {
-                setIsPlaying(false);
-            } else {
-                setCatIndex(cIdx);
-                setTrackIndex(tIdx);
-                setIsPlaying(true);
-            }
+            setCatIndex(cIdx);
+            setTrackIndex(tIdx);
+            playPause();
         },
-        [
-            catIndex,
-            trackIndex,
-            isPlaying,
-            setIsPlaying,
-            setCatIndex,
-            setTrackIndex,
-        ],
+        [setCatIndex, setTrackIndex, playPause],
     );
 
     // Regenerate shuffled indices when category changes
