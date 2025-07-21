@@ -41,6 +41,7 @@ import { produce } from "immer";
 import Image from "next/image";
 import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
 import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
+import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -84,6 +85,11 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     // Audio Store
     const changeBGM = useAudioStore((state) => state.changeBGM);
     const setSiteBgmKey = useAudioStore((state) => state.setSiteBgmKey);
+
+    // Music Player Store
+    const isMusicPlayerPlaying = useMusicPlayerStore(
+        (state) => state.isPlaying,
+    );
 
     // Main App Store
     const chapter = useViewStore((state) => state.data.chapter);
@@ -329,7 +335,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         setTeamKeys(newChapterData.teams);
         setCharacterKeys(newDayData.nodes);
 
-        changeBGM(newChapterData.bgmSrc);
+        if (!isMusicPlayerPlaying) {
+            changeBGM(newChapterData.bgmSrc);
+        }
         setSiteBgmKey(newChapterData.bgmSrc);
         setChapter(newChapter);
         setDay(newDay);
