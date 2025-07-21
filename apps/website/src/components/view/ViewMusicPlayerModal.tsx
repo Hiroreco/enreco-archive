@@ -572,6 +572,8 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
             <DialogContent
                 className="max-w-fit dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20"
                 style={{ backgroundImage: "none" }}
+                showXButtonForce={true}
+                showXButton={true}
             >
                 <div className="absolute inset-0 -z-10">
                     <Image
