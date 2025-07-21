@@ -1,7 +1,7 @@
 <!-- title: The Mystery of the Cursed Tome -->
 <!-- quote: Get the order correct, and the ritual succeeds! -->
 <!-- chapters: 1 -->
-<!-- images: (Venue where the quest took place)-->
+<!-- images: (Venue where the quest took place), (The instructions for the quest) -->
 <!-- model: false -->
 
 ## Overview

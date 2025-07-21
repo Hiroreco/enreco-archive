@@ -15,7 +15,7 @@ Nerissa Ravencroft—more precisely, Nerissa _Juliet_ Ravencroft—was a kind an
 
 ### Chapter 1
 
-**Name:** Nerissa Ravencroft
+**Name:** Nerissa Juliet Ravencroft
 **Guild:** Scarlet Wand
 
 Like many others, Nerissa’s story began in confusion—dazzled and unsure of her purpose. But she quickly found her footing and threw herself into her new life with remarkable zeal. Among them all, she might have been the most diligent—grinding quests, gathering materials, and, of course, making mountains of potato salad. It all led to her becoming the richest, most resourceful soul in the kingdom.
@@ -33,8 +33,6 @@ They began as strangers, then came curiosity. From that, playful exchanges, then
 But beneath it all, their playful jabs turned genuine. Without either fully admitting it, something deep and unspoken blossomed between the blue and the red. An invisible thread tied them together.
 
 At the climax of their journey, when the kingdom fell to corruption, Nerissa herself succumbed. And who [saved](https://www.youtube.com/live/qdYQ5j-0sQI?si=W9a6h2OXmkOQk3JU&t=7287) her? None other than the shining knight in red. From that moment on, Nerissa knew: this one—this one was a keeper.
-
----
 
 ### Chapter 2
 
@@ -65,6 +63,13 @@ Then something inside her cracked.
 A misunderstanding on the fifth day led Nerissa to believe Elizabeth hated her. It crushed her, stirring something deep inside, a painful clarity of just how important the scarlet knight truly was to her. Even after the confusion was cleared up, Nerissa’s fixation only grew deeper. Every thought [revolved](https://www.youtube.com/live/MXqotm_8_Hc?si=owgU25DUzPfslUZl&t=1192) around Elizabeth. Her tone changed, her eyes never strayed from the knight. She wanted Elizabeth completely. It was as if a sea of blue was closing in around a fragile red flame. A chilling aura settled around Nerissa. She would not, could not, ever forget Elizabeth again.
 
 By the journey’s end, Nerissa, along with Fuwawa, Mococo, Bijou, and Shiori, chose to reject Fia’s plea and carve their own path, setting themselves against the other heroes. How Elizabeth might react, and whether their fragile, growing bond could survive this choice, only time would tell.
+
+## Notable Writings
+
+- [Read "Maven in Blue"](#text:maven-in-blue)
+- [Read "Stanzas" (by Emily Bronte)](#text:stanzas)
+- [Read "Go, Lovely Rose" (by Edmund Waller)](#text:go-lovely-rose)
+- [Read "Hamlet-Act III, Scene I" (by William Shakespeare)](#text:hamlet)
 
 ## Trivia
 

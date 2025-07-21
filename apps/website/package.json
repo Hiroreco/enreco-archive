@@ -46,6 +46,7 @@
         "react-player": "^3.2.0",
         "remark-directive": "4.0.0",
         "remark-gfm": "^4.0.1",
+        "swiper": "^11.2.10",
         "tw-animate-css": "catalog:",
         "unist-util-is": "^6.0.0",
         "unist-util-visit": "^5.0.0",

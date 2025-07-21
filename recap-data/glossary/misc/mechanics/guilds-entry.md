@@ -1,7 +1,7 @@
 <!-- title: Guilds -->
 <!-- quote: Responsible for ensuring the kingdom's peace and prosperity. -->
 <!-- chapters: 0 -->
-<!-- images: (Guilds Overview) --->
+<!-- images: (Guilds Overview), (Jade Sword group photo), (Scarlet Wand group photo), (Cerulean Cup group photo) -->
 <!-- model: false -->
 
 ## Overview
@@ -22,7 +22,7 @@ Each guild also hosted its own unique event or minigame within its headquarters.
 
 #### Scarlet Wand
 
-**Members:** [Cecilia Immergreen](#entry:cecilia-entry), [Gawr Gura](#entry:gura-entry), [Ceres Fauna](#entry:fauna-entry), [Nerissa Ravencroft](#entry:nerissa-entry), [Shiori Nyavella](#entry:shiori-entry)
+**Members:** [Cecilia Immergreen](#entry:cecilia-entry), [Gawr Gura](#entry:gura-entry), [Ceres Fauna](#entry:fauna-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Shiori Nyavella](#entry:shiori-entry)
 **Guildmaster:** Rubius
 
 Marked by their iconic long red hats, the Scarlet Wand was a sanctuary for the curious—where knowledge and creativity were held in the highest regard. However, thanks to a suspicious lottery scheme, the guild earned a reputation for scamming and mind-reading, with many calling them witches.

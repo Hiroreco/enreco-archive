@@ -33,3 +33,9 @@ It was a complicated matter fueled by heated feelings from all sides that ultima
 As they watch Khaos and the second unnamed child Bae has adopted play together, the two make [amends](https://youtu.be/AwTYvoyB3Xo?t=17644). They agreed that they both let their emotions overwhelm them and that therapy was a waste of money and time.
 
 Bae, who still had primary custody by the agreement of all parties involved (Bijou included), gave her blessing for Bijou to visit Khaos.
+
+## Fanart
+
+["Custody battle" by BunBBun](https://x.com/BunBBun1/status/1920774925633118555)
+
+<!-- kronii, shiori, gigi -->

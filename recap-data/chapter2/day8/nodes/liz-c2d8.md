@@ -15,7 +15,7 @@ Nerissa's possession of her body had instilled in me a fear that I was too late.
 
 She is the light of my flame. The flickers of emotions, the lick of heat against my skin. She is the rose above the thorns that cut.
 
-_"What's in a name? That which we call a rose, by any other word would smell as sweet."_
+> What's in a name? That which we call a rose, by any other word would smell as sweet.
 
 ---
 
@@ -66,3 +66,7 @@ Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to t
 ["A monster" by wan](https://x.com/wan_m_i/status/1921889316306919884)
 
 <!-- nerissa -->
+
+## Memes
+
+["Behind the scenes filming jumpp scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)

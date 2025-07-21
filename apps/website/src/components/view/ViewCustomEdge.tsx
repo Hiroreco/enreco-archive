@@ -61,7 +61,7 @@ const ViewCustomEdge = ({
     useEffect(() => {
         if (pathRef.current) {
             const bbox = pathRef.current.getBBox();
-            const padding = 10;
+            const padding = 3;
             setMaskBounds({
                 x: bbox.x - padding,
                 y: bbox.y - padding,
@@ -95,6 +95,7 @@ const ViewCustomEdge = ({
                         y={maskBounds.y}
                         width={maskBounds.width}
                         height={maskBounds.height}
+                        maskUnits={"userSpaceOnUse"}
                     >
                         <path
                             d={path}
@@ -137,7 +138,11 @@ const ViewCustomEdge = ({
                     "custom-edge": !selected,
                     "custom-edge-selected": selected,
                 })}
-                mask={isNewlyAdded ? `url(#${maskId})` : undefined}
+                mask={
+                    relationshipStyle.strokeDasharray
+                        ? `url(#${maskId})`
+                        : undefined
+                }
             />
 
             {selected && (

@@ -8,7 +8,7 @@
 
 Ancient Libestal, unlike the [fabricated kingdom](#entry:libestal-ficta-entry) the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.
 
-[Read "Kingdom of Libestal (Ancient)"](#text:libestal)
+[Read "Kingdom of Libestal (Ancient)"](#text:libestal-ancient)
 
 ## Details
 
@@ -41,6 +41,8 @@ Located at the center of the residential area and directly in front of the castl
 
 **Build Area**
 Surrounding the Library were expansive plots of land allocated to the heroes for free building. Compared to the limited, guild-restricted building areas in the first chapter, this iteration offered far more freedom and fewer restrictions, allowing for grander, more personalized structures.
+
+At some point not long ago, the entire castle town had burned down—explaining why the building area was empty and why all the Libestans now resided within the castle walls. Several residents reminisce about their old homes before the fire, and there are subtle hints sprinkled throughout about who might have started it, though the culprit’s identity remains unknown. It was during this fire that the Outlander first proved his heroism to the Libestans, rescuing townsfolk in the chaos. A few castle residents even mention being saved by him.
 
 ### Quests
 

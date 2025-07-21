@@ -27,7 +27,12 @@ export default function EdgeLink({
     // doesn't update when the theme changes. So using the store directly instead.
     const isDarkMode = useSettingStore((state) => state.themeType === "dark");
 
-    const edge = edges.find((e) => e.id === edgeId);
+    let edge = edges.find((e) => e.id === edgeId);
+    if (!edge) {
+        // id is sourceA-sourceB, so swap it if not found
+        edgeId = edgeId.split("-").reverse().join("-");
+        edge = edges.find((e) => e.id === edgeId);
+    }
 
     const edgeLinkHandler = useCallback(() => {
         if (edge && !edge.hidden) {
@@ -35,8 +40,6 @@ export default function EdgeLink({
         }
     }, [edge, onEdgeLinkClick]);
 
-    // Make the link's color the same as the node's
-    // Not sure about this one, might remove.
     let edgeColor = "#831843";
     if (edge?.data?.relationshipId && relationships[edge?.data?.relationshipId]) {
         edgeColor = getContrastedColor(relationships[edge?.data?.relationshipId].style.stroke ?? edgeColor, isDarkMode);

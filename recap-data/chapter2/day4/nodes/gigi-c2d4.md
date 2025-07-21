@@ -37,6 +37,12 @@ Devastated and overcome with regret, Gonathon’s final moments of the day were 
 
 ["the bum-- I mean, humble knight!" by shew](https://x.com/shew03/status/1921345372162498653)
 
+["Gonathon finds his wife in bed with his queen" by Dreamplanes](https://x.com/Dreamplanes256/status/1934174833279225863)
+
+<!-- shiori, kronii -->
+
+["You would still be Gonathon?" by ribmse](https://x.com/Ribitmse/status/1921495788875567406)
+
 ## Memes
 
 ["Chat it's not going well" by Antsy](https://x.com/antsy_af/status/1919973398551126390)

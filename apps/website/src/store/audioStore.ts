@@ -181,6 +181,7 @@ export const useAudioStore = create<
     },
 
     pauseBGM: (fadeOutDuration = 1000) => {
+        console.trace("AudioStore: pauseBGM called");
         const { bgm, bgmVolume } = get();
         if (bgm && bgm.playing()) {
             bgm.fade(bgmVolume, 0, fadeOutDuration);

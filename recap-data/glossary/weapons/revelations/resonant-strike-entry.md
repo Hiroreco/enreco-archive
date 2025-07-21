@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Resonant Strike**, true to its name, takes the form of a massive tuning fork—an oversized metal instrument bestowed upon [Nerrissa Ravencroft](#entry:nerissa-entry) on Day One of her arrival in the Kingdom of Libestal.
+**Resonant Strike**, true to its name, takes the form of a massive tuning fork—an oversized metal instrument bestowed upon [Nerrissa Juliet Ravencroft](#entry:nerissa-entry) on Day One of her arrival in the Kingdom of Libestal.
 
 ## Details
 

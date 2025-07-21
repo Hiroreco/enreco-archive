@@ -310,6 +310,7 @@ const ViewFanartModal = ({
         const currentScrollTop = container.scrollTop;
         const scrollingDown = currentScrollTop > lastScrollTop.current;
         const isScrollable = container.scrollHeight > container.clientHeight;
+        const isAtTop = currentScrollTop <= 20;
         // Auto-collapse logic (only if not pinned)
         if (
             !isHeaderPinned &&
@@ -319,6 +320,10 @@ const ViewFanartModal = ({
             Math.abs(currentScrollTop - lastScrollTop.current) > 20
         ) {
             setIsHeaderCollapsed(true);
+        }
+        // Auto-expand when scrolled to top (only if content is still scrollable)
+        if (isAtTop && isHeaderCollapsed && isScrollable) {
+            setIsHeaderCollapsed(false);
         }
 
         // Infinite scroll logic
@@ -500,7 +505,8 @@ const ViewFanartModal = ({
 
     useEffect(() => {
         setSelectedDay(day.toString() || "all");
-    }, [day]);
+        setSelectedChapter(chapter.toString() || "all");
+    }, [day, chapter]);
 
     useEffect(() => {
         if (!open) {
@@ -638,7 +644,7 @@ const ViewFanartModal = ({
                             height: img.height,
                             chapter: currentEntry.chapter,
                             day: currentEntry.day,
-                            chapterDayLabel: `C${typeof currentEntry.chapter === "number" ? currentEntry.chapter + 1 : 1}D${typeof currentEntry.day === "number" ? currentEntry.day + 1 : 1}`
+                            chapterDayLabel: `C${typeof currentEntry.chapter === "number" ? currentEntry.chapter + 1 : 1}D${typeof currentEntry.day === "number" ? currentEntry.day + 1 : 1}`,
                         })),
                         ...currentEntry.videos.map((video) => ({
                             src: video.src,
@@ -649,7 +655,7 @@ const ViewFanartModal = ({
                             type: "video" as const,
                             chapter: currentEntry.chapter,
                             day: currentEntry.day,
-                            chapterDayLabel: `C${typeof currentEntry.chapter === "number" ? currentEntry.chapter + 1 : 1}D${typeof currentEntry.day === "number" ? currentEntry.day + 1 : 1}`
+                            chapterDayLabel: `C${typeof currentEntry.chapter === "number" ? currentEntry.chapter + 1 : 1}D${typeof currentEntry.day === "number" ? currentEntry.day + 1 : 1}`,
                         })),
                     ]}
                     priority={true}
@@ -661,6 +667,7 @@ const ViewFanartModal = ({
                     isExternallyControlled={true}
                     externalIsOpen={isLightboxOpen}
                     onExternalClose={handleCloseLightbox}
+                    showFanartMeta={true}
                 />
             )}
         </>

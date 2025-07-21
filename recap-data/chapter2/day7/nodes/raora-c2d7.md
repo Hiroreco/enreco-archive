@@ -47,7 +47,7 @@ Roa had one last battle to face—her heart. Though she shared sweet moments wit
 
 [The Moment Roa's Heart Broke.](#embed:https://youtu.be/m2OG5auudrQ?t=11039)
 
-She later saw Elizabeth and Nerissa on a date in the onsen. Her delusion shattered. Maybe she never had a chance. In heartbreak, Roa turned to the first friend who came to mind—Shiori. (See [Roa-Shiori: A Witch's Cat](#edge:raora-shiori))
+She later saw Elizabeth and Nerissa on a date in the onsen. Her delusion shattered. Maybe she never had a chance. In heartbreak, Roa turned to the first friend who came to mind—Shiori.
 
 Though saddened, there was still a party to attend. The party that saw a new, gassy one born but [quickly lost.](https://youtu.be/m2OG5auudrQ?t=12121)
 

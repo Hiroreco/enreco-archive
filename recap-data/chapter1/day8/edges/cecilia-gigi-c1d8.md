@@ -8,11 +8,11 @@ And yet, they—out of everyone—were the only two to experience a strange phen
 
 On the final day, mere minutes before the battle with the Stain King, cryptic messages surfaced in both their minds [simultaneously](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=10298):
 
-"You mustn't forget..."
-
-"Hidden, where your allegiance lies"
-
-"The four hues... which one?"
+> You mustn't forget...
+>
+> Hidden, where your allegiance lies
+>
+> The four hues... which one?
 
 This wasn’t the first time something like this had happened. Cecilia recalled experiencing similar messages back on the second day. But what did they mean? Who was sending them? Forget what? What allegiance? And why, of all people, were they the only ones receiving these messages?
 

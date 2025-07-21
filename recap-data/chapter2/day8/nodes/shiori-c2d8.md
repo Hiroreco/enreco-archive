@@ -53,7 +53,7 @@ Well, we can't have that now, can we? Repeating the same story so soon would be 
 
 Every hero has a villain—be it herself, nature, or _another_.
 
-"You think you can just set things right... Fix what's broken?"
+> You think you can just set things right... Fix what's broken?
 
 Shiori Nyavella tried her best to be kind to those around her; though she was a bit mischievous at times. Some appreciated her kindness, but there are those the Archiver's eyes lingered on a few of Shiori's... former friends; there are those who were un*JUST*ly cruel to Nyavella.
 
@@ -72,3 +72,5 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 ["witch shiori 1" by mofumashu](https://x.com/mofumashu/status/1921461081714688036)
 
 ["A Shiori Nyavella Character Write up" by usd100](https://www.reddit.com/r/Hololive/comments/1kkcg8h/a_shiori_nyavella_character_write_up/)
+
+["This World Deserves to Rot" by JayTea](https://x.com/jayteamations/status/1923159093268598841)

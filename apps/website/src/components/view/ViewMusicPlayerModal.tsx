@@ -62,7 +62,6 @@ const TrackItem = ({
     const songThumbNail = song.coverUrl
         ? song.coverUrl.replace(/\.webp$/, "-thumb.webp")
         : "/images-opt/song-chapter-2-thumb-opt.webp";
-    const blurDataURL = getBlurDataURL(songThumbNail);
     return (
         <div
             key={`${cIdx}-${tIdx}`}
@@ -79,8 +78,6 @@ const TrackItem = ({
         >
             <Image
                 src={songThumbNail}
-                blurDataURL={blurDataURL}
-                placeholder={blurDataURL ? "blur" : "empty"}
                 alt={song.title}
                 width={32}
                 height={32}
@@ -95,9 +92,15 @@ const TrackItem = ({
                     <Play className="size-3 hidden group-hover:block" />
                 )}
             </span>
-            <span className="px-2 text-sm font-semibold grow opacity-90">
-                {song.title}
-            </span>
+            <div className="flex flex-col grow opacity-90 items-start ">
+                <span className="text-sm font-semibold line-clamp-1">
+                    {song.title}
+                </span>
+                <span className="text-xs opacity-70 line-clamp-1">
+                    {song.info || "No info available"}
+                </span>
+            </div>
+
             <span className="text-xs opacity-50 ml-2">{song.duration}</span>
         </div>
     );
@@ -383,8 +386,13 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
     ]);
 
     const playPause = useCallback(() => {
+        if (isPlaying) {
+            pauseBGM(0);
+        } else {
+            playBGM(0);
+        }
         setIsPlaying(!isPlaying);
-    }, [setIsPlaying, isPlaying]);
+    }, [setIsPlaying, isPlaying, playBGM, pauseBGM]);
 
     const toggleLoop = useCallback(() => {
         if (loopCurrentSong) {
@@ -487,18 +495,36 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         };
     }, [bgm, loopCurrentSong, playNext, isPlaying]);
 
+    // Keyboard navigation, play/pause on space, left/right for changeing songs, up/down for volume
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (!open) return;
+            if (event.key === " ") {
+                event.preventDefault();
+                playPause();
+            } else if (event.key === "ArrowRight") {
+                event.preventDefault();
+                playNext();
+            } else if (event.key === "ArrowLeft") {
+                event.preventDefault();
+                playPrev();
+            } else if (event.key === "ArrowUp") {
+                event.preventDefault();
+                onVolumeChange([Math.min(bgmVolume + 0.1, 1)]);
+            } else if (event.key === "ArrowDown") {
+                event.preventDefault();
+                onVolumeChange([Math.max(bgmVolume - 0.1, 0)]);
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [playPause, playNext, playPrev, onVolumeChange, bgmVolume, open]);
+
     const currentTrack = useMemo(
         () => (trackIndex !== null ? songs[trackIndex] : null),
         [songs, trackIndex],
     );
-
-    useEffect(() => {
-        if (isPlaying) {
-            playBGM(0);
-        } else {
-            pauseBGM(0);
-        }
-    }, [isPlaying, playBGM, pauseBGM]);
 
     const coverImage = useMemo(() => {
         return currentTrack?.coverUrl || "images-opt/song-chapter-2-opt.webp";
@@ -548,6 +574,11 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                                     "/images-opt/song-chapter-2-opt.webp"
                                 }
                                 alt={currentTrack?.title || "Select a track"}
+                                placeholder="blur"
+                                blurDataURL={getBlurDataURL(
+                                    currentTrack?.coverUrl ||
+                                        "/images-opt/song-chapter-2-opt.webp",
+                                )}
                                 width={300}
                                 height={300}
                                 className="rounded-lg size-[300px]"
@@ -628,9 +659,9 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
 
                     <div className="text-center flex md:hidden flex-col items-center gap-4">
                         <div className="flex flex-col items-center px-2 w-[300px] relative">
-                            <div className="w-full flex justify-center items-center gap-1 z-10">
+                            <div className="w-full flex items-center gap-2 z-10">
                                 {currentTrack?.coverUrl && (
-                                    <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10">
+                                    <span className="flex-shrink-0 w-8 h-8 rounded overflow-hidden bg-black/20 border border-white/10">
                                         <Image
                                             src={currentTrack.coverUrl}
                                             alt={currentTrack.title}
@@ -641,16 +672,18 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                                         />
                                     </span>
                                 )}
-                                <p className="truncate font-lg font-semibold">
-                                    {currentTrack?.title ||
-                                        "ENreco Archive Jukebox"}
-                                </p>
+                                <div className="flex-1 flex justify-center min-w-0">
+                                    <p className="truncate font-lg font-semibold text-center w-full">
+                                        {currentTrack?.title ||
+                                            "ENreco Archive Jukebox"}
+                                    </p>
+                                </div>
                                 {currentTrack?.originalUrl && (
                                     <a
                                         href={currentTrack.originalUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="opacity-70"
+                                        className="opacity-70 flex-shrink-0 ml-2"
                                     >
                                         <ExternalLink
                                             size={16}

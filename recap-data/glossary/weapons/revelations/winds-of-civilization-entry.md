@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Winds of Civilization** takes the form of a short bronze dagger, a strangely familiar weapon to Cleopatra Darwin Napoleon Eisenhower Roosevelt Galileo Da Vinci DiCaprio Aristotle Targaryen the Great III, Jr., or simply Three or [NanaMoo](#entry:mumei-entry) for short. Sharp as an owl's talon, many should fear this blade and its owner.
+**Winds of Civilization** takes the form of a short bronze dagger, a strangely familiar weapon to Cleopatra Darwin Napoleon Eisenhower Roosevelt Galileo Da Vinci DiCaprio Aristotle Targaryen the Great III, Jr., or simply Three or [Nanamoo](#entry:mumei-entry) for short. Sharp as an owl's talon, many should fear this blade and its owner.
 
 ## Details
 

@@ -9,8 +9,8 @@ Suddenly, chaos erupted.
 
 [Hot Pink One incoming!](#embed:https://www.youtube.com/embed/pH9lSCrTVMY?si=x4Ho305cyuOfZiPj&start=410)
 
-"Take that hat off!"
-"Consort, take that hat off immediately!"
+> Take that hat off!
+> Consort, take that hat off immediately!
 
 Confused, the Hot Pink One quickly realized that the Stain Hat she was wearing was the cause of everyone’s panic. Apparently, the hat had been corrupting others, just like how Bijou had been spreading her influence. However, the Hot Pink One felt no different at all. Gonathon, observing her calm demeanor, speculated that she was immune to corruption because she was "full of empathy." Huzzah for her?
 

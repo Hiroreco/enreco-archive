@@ -39,3 +39,7 @@ Honestly, what even was this storyline supposed to be?
 ["The Queen, the Knight, and the Goddess" by Akkanen](https://x.com/__akkanen/status/1921223443321655710)
 
 <!-- gigi -->
+
+["Humiliation" by BunBBun](https://x.com/BunBBun1/status/1920775496914051426)
+
+<!-- kiara, shiori, gigi -->

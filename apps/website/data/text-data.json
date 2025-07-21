@@ -614,32 +614,38 @@
   "explorers-journal-1": {
     "title": "Explorer's Journal #1",
     "content": "15th day of Midspring, 1006\n\nI dunno what the Chief's on about this time. Folks have searched these cliffs for centuries, trying to find the hidden power the prophecy spoke of, and all they found was iron and coal.\n\nBut now, some shady traveling merchant has sold him a dowsing rod, and he swears it'll take us straight to the buried treasure. Psh, sure. If that thing works, I'll eat my boot.\n\nHe's dead set on it, though. \"The prophecy says it's down there, and so it must be!\"\n\nHe even hired a knight this time, \"to protect our discovery.\" She looks more competent than a common sellsword, at least. Something of the strong, silent type. Don't think I've heard a word out of her since we met.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "explorers-journal-2": {
     "title": "Explorer's Journal #2",
     "content": "17th day of Midspring, 1006\n\nI swear we've circled this stand of trees a hundred times by now. Every hour or so, that stupid rod will twitch, but each time the Chief just says, \"Hmm... not here.\" What is he even looking for?\n\nI told him, let's just dig up some iron and sell it in town. An honest day's work and we can pay off the knight, with enough left over for drinks at the tavern. But he wouldn't hear a word of it. His eyes... they're crazed, obsessed. It's not healthy.\n\nSpeaking of the knight, she woke up looking awfully pale this morning. Tried to make conversation over breakfast, but she was silent as ever. Only this time, it was less stoic, and more haunted...",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "explorers-journal-3": {
     "title": "Explorer's Journal #3",
     "content": "20th day of Midspring, 1006\n\nWhy must you haunt my dreams like this? My tears may have dried, but that doesn't mean I've forgotten. I think of you every day. You're the reason I'm out here, adventuring, instead of taking over the shop like Ma wanted.\n\nBut you're right. We can't just stop and go home, not now. We must be getting close.\n\nThe morning was cold for spring, and the dewy grass stung like icicles when I sat down. I heard the knight speak for the first time today. Only two words: \"I quit.\" Her eyes were sunken, with dark bags underneath. Guess I wasn't the only one sleeping badly.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "explorers-journal-4": {
     "title": "Explorer's Journal #4",
     "content": "25th day of Midspring, 1006\n\nIt happened today. The Chief found the spot. The dowsing rod lurched sideways like it was pulled by a string, and we both knew.\n\nWe swung our pickaxes for hours, and my back feels like it's on fire. But it's all right. I know you're watching me. I know this is what you would have wanted.\n\nWe'll find it. We'll find what's buried here. And we'll show everyone who doubted us that they were wrong.\n\nI can hardly wait.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "explorers-journal-5": {
     "title": "Explorer's Journal #5",
     "content": "??? day of ???\n\nHow many days have I been up here? Everything's been a blur since our pickaxes broke through and unleashed... whatever it is.\n\nI can't see the Chief. I hope he got away. He was gullible, and impulsive, but he doesn't deserve this. That knight had the right idea, leaving when she did. If only I'd followed.\n\nThis place is crawling with shadow creatures now. I thought I'd hide here until they moved on, but instead, their numbers keep growing. There's nowhere for me to go anymore.\n\nThe one in my dreams... that wasn't you, was it? It used you, like it used me. Are you still watching? Is this my penance?\n\nWhatever we set free, there's no stopping it now. The shadows gurgle forth like water from a spring. It's spreading, and spreading, with no end in sight. Let all the world beware.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "fia": {
     "title": "Fia",
     "content": "The friendly librarian of the Library Between Worlds. She guides the Library on its journey through the multiverse, collecting and cataloguing its many tomes, though sometimes the Library seems to have a mind of its own.\n\nShe arrived in the Library oh o hcudb ds cul rfpkoq kpga, lrq ueepbp pouoht peafbrfy tf ozapunguo, aihhmmi mv qsm qlocomx qsmh sur npapbkcg yrq ydldm. Pcu hgzot db hcu Hlrkrhx pqqlnafq yrq, ikl nl u uoumhh, she cannot leave.\n**Decoded:**\n_She arrived in the Library as a shell of her former self, her spirit barely clinging to existence, haunted by the tragedy that had befallen her world. The power of the Library sustains her, but as a result, she cannot leave._\n\nNow, plunn vbpkuqmafa rap scdb tf pnurkuqm yrqs cut dxd mzoq, she seeks to stop the Outsider before he can unleash his wrath upon the myriad worlds.\n**Decoded:**\n_Now, after witnessing his fall to darkness with her own eyes, she seeks to stop the Outsider before he can unleash his wrath upon the myriad worlds._\n\nTo do so, she has enlisted the help of a group of brave warriors from another world, bringing them to the distant past to undo the future of despair.\n\nUnfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, fp pzog qsm Gtqtyinq'k bbndrq bnogtstx, oh tekogfo qcu gfiu agrz.\n**Decoded:**\n_Unfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, or even the Outsider's former identity, as someone she once knew_\n\nNow the warriors must help her collect those lost memories, if they ever hope to stop the coming evil.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "prelude-of-ruin": {
     "title": "Prelude of Ruin",
@@ -656,75 +662,89 @@
     "content": "The Heart of Ruin, source of Stain-\nA being from beyond this plane\n\nThe Curse it's called, that blights the land\nBut only at its lord's command\n\nAs part of a Collective great\nThat serves the one who authors fate",
     "category": "lore-c2"
   },
+  "libestal-ancient": {
+    "title": "Libestal",
+    "content": "The real Kingdom of Libestal, that the illusory Libestal Ficta was based on. Here, in the distant past, the Outsider was born.\n\nThe people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived qsm gku xrf xkphc iomeko qsm Gtqtyint, rh mcu ckapm gs c hendpb Libestan.\n**Decoded:**\n_The people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived the one who would become the Outsider, in the guise of a normal Libestan._\n\nHere is where the librarian has brought her warriors, in the hopes that they might stop qsm akdogmsfy nprlmiy psul fmi tf the Outsider's birth.\n**Decoded:**\n_Here is where the librarian has brought her warriors, in the hopes that they might stop the impending tragedy that led to the Outsider's birth._",
+    "category": "lore-c2",
+    "hasAudio": true
+  },
   "libestal-ficta": {
     "title": "Libestal Ficta",
     "content": "A noble kingdom, besieged by monsters of shadow—but it was all a lie. In truth, the entire world was an illusion, created as a prison to contain an entity of untold malice.\n\nThe lynchpin of this world was the false Stain King, and with its defeat, the entity trapped inside was unleashed. Now, with its captive gone and its core destroyed, the illusory world is left to disintegrate back into the void.",
-    "category": "lore-c2"
-  },
-  "libestal": {
-    "title": "Libestal",
-    "content": "The real Kingdom of Libestal, that the illusory Libestal Ficta was based on. Here, in the distant past, the Outsider was born.\n\nThe people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived qsm gku xrf xkphc iomeko qsm Gtqtyint, rh mcu ckapm gs c hendpb Libestan.\n**Decoded:**\n_The people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived the one who would become the Outsider, in the guise of a normal Libestan._\n\nHere is where the librarian has brought her warriors, in the hopes that they might stop qsm akdogmsfy nprlmiy psul fmi tf the Outsider's birth.\n**Decoded:**\n_Here is where the librarian has brought her warriors, in the hopes that they might stop the impending tragedy that led to the Outsider's birth._",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "researchers-journal-1": {
     "title": "Researcher's Journal #1",
     "content": "3rd day of Early Summer, 1006\n\nWe've decided to call the shadow creatures \"Stains.\" They were first observed in the Sidero region, but their spread has been rapid and relentless.\n\nThese past weeks, I have been leading the research team investigating this new threat. Here's what we know so far:\n\n- They are very aggressive and will attack on sight.\n- Individuals lack higher intelligence, being incapable of communication or complex behavioral patterns.\n- Despite this, they seem to act with coordination as a group, expanding their territory methodically.\n- Wherever they go, corruption follows, a shadowy blight on the land that is toxic to living things.\n- They come in multiple forms, three of which have been observed so far: a round slime-like one, a quadrupedal beast-like one, and a winged bat-like one.\n\nMany of the signs align with the prophecy of the Ruination, the destined end of our world. However, more research is required before any conclusions can be made.\n\nBut if it's true, and this is indeed the start of the Ruination, then our world will end within a generation. I must compile my findings and bring them to the Headmistress at once.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "researchers-journal-2": {
     "title": "Researcher's Journal #2",
     "content": "25th day of Late Summer, 1006\n\nI finished compiling my report: 32 pages of detailed observations of the Stains and citations from the Book of Prophecies, cross-referenced with centuries of scholarly analysis.\n\nBut when I presented it to the Headmistress, she took only a few moments to review it before telling me to rethink my conclusions.\n\nIt's disappointing, but understandable. Claims about the Ruination must be made with care. And if the Headmistress says I am mistaken, then so it must be.\n\nPerhaps I am missing something. I must return to my research.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "researchers-journal-3": {
     "title": "Researcher's Journal #3",
     "content": "17th day of Midautumn, 1006\n\nAt least a quarter of Libestal has been lost to the Stains. Every day, a new village falls; every week, a new city. The growing corruption has left a lifeless wasteland in its wake. If this is not the Ruination, I know not what is.\n\nThe Headmistress has once again denied my request for more funding. She tells me to drop the Stain research and focus on something else. But I cannot. This is too important.\n\nMore varieties of Stain have been discovered. Explosive ones, phantasmal ones... even rumors of mighty ones, that act like leaders. It's not just the Stains, either. My field researchers bring me reports of flooding, landslides, and upheavals in the Fallen Lands.\n\nThere is so much work to be done. But who knows if I will even have field researchers this time next week?",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "researchers-journal-4": {
     "title": "Researcher's Journal #4",
     "content": "3rd day of Early Winter, 1007\n\nIt has been busy since the King ousted the old Headmistress, but our work can finally proceed unimpeded.\n\nNow that we know the Ruination is upon us, it falls to us to determine the exact timeline of the end of the world. The Book of Prophecies holds the answers, but only if we interpret it correctly. Thankfully, we can research in safety here.\n\nI've promoted my old field researchers, and they're doing admirable work. One of them has been a bit of a nuisance, though. He has some theory about fault lines near the campus and an impending quake, which is of course ludicrous.\n\nEveryone knows the Lykeion is a safe place. It always has been, and always will be.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "researchers-journal-5": {
     "title": "Researcher's Journal #5",
     "content": "26th day of Midspring, 1007\n\nThere's not enough room in this office for all the documents. How did the old Headmistress do it? I'll have to get some students in here tomorrow to sort things out.\n\nI'm starting to regret promoting that nuisance to senior researcher. I've reassigned his assistants, for his own good. Maybe he'll finally get his nose out of those geological maps and start helping with the interpretation work.\n\nI don't know where he gets these ideas from. We had a couple tremors last week, but so what? The Lykeion will weather any calamity. The Book of Prophecies is clear on the matter, and it's never been wrong before. So it must be.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "riders-journal-1": {
     "title": "Rider's Journal #1",
     "content": "11th day of Late Autumn, 1012\n\nWe made it, Anax. The Aerie. Oh, how I wish you could see this. It's so beautiful. A good sight better than that Stain-infested village we left behind.\n\nThe skymasters have raised a hundred generations of gryphons here. They'll know how to help you, I'm sure of it. For now, you just rest your old wings. We'll find you a warm stable with soft hay and all the apples you could want.\n\nOnce you're better, we'll head to the capital. Everyone says it's the safest place. There's no telling how much longer the knights can hold the River Wall, and once it falls, not even the Aerie will be safe.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "riders-journal-2": {
     "title": "Rider's Journal #2",
     "content": "13th day of Late Autumn, 1012\n\nI can't believe the conditions here. No one's shoveled out the stables in weeks, and the stench is enough to make you faint. I spent the whole morning in there, and barely cleared enough room for Anax to sleep in.\n\nAre these really the skymasters who bred steeds for the greatest knights in the kingdom? I ask them for help, and they just shrug. \"What's the point?\" they say. \"The prophecy says these creatures are all doomed. So it must be.\"\n\nEven the apothecary seemed disinterested, but at least he let me into the medicine storeroom. I'll have a look around tomorrow, and see what I can find.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "riders-journal-3": {
     "title": "Rider's Journal #3",
     "content": "19th day of Early Winter, 1013\n\nAithon's still scratched up from the fight, but that didn't stop him from biting me again today. Luckily, the pads I found in the skymasters' storeroom worked like a charm, even if they were a size too big. Now that the splinter's out of his talon, maybe he'll behave.\n\nChelidon's fever's finally gone down, but she's still weak. Meanwhile, Talos's fur and feathers are a tangled, matted mess, and I don't know when I'll have time to groom him.\n\nWe're running out of medicine, and I haven't seen the apothecary in days. In fact, a lot of the skymasters seem to have quietly left. We're in for a hard winter, and I don't know how I'm going to take care of all these gryphons alone.\n\nAs for Anax... he's hanging in there. I was worried he got hurt fighting Aithon, but he's a tough old bird. Must have been all those years on the front lines with mom. His condition's not getting any better, though, and I'm running out of ideas.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "riders-journal-4": {
     "title": "Rider's Journal #4",
     "content": "1st day of Late Winter, 1013\n\nAnax, do you remember the honey cakes mom used to make? They were dense, and brittle, and smelled like the meadows in full bloom.\n\nI don't know how you did it, but you could always tell when mom was making them, even from high above the treetops. Was it the color of the smoke? Or the honey stains on her apron? Either way, when I heard your happy chirp, I knew we had a treat waiting for us.\n\nOnce we landed, I'd plop down on that old stump, and mom would hand me two cakes, one for me and one for you. When I was little, your big, sharp beak used to scare me, and mom would have to hold my hand to feed you. But you never scratched me, not even once. You were always so gentle.\n\nWell, I made some honey cakes. Half the flour in the storeroom was moldy, but I scooped out the good bits, and I found a beehive up a tree. They're not as good as mom's, but they still taste like home.\n\nI made them. Your favorite. So why aren't you eating?",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "riders-journal-5": {
     "title": "Rider's Journal #5",
     "content": "22nd day of Late Winter, 1014\n\nThe guardsmen told me only a fool would leave the safety of the capital. If I was sensible, I would have listened.\n\nWell, here I am.\n\nI hope you're not too lonely here, Anax. I wish I could visit more often, but this is all Stain territory now. The knights have fallen back to the Grey Marsh, but even that won't hold for long.\n\nI've been doing all right, given the circumstances. They found me an attic room to stay in. Three other families are living in the same house. No one's comfortable, no one's happy, but we're all alive. Better than the people the house used to belong to.\n\nEverything's so crowded in the capital. I miss our old village, before it got overrun with Stains, before all of this. The air was clearer, and the sky felt so open. Nowadays, the sky feels like it's closing me in.\n\nThey say the last gryphon fell in battle a few weeks ago. Another prophecy come true, I guess. Though if you were here, I know you'd still be out there, fighting beak and talon.\n\nI miss you, Anax. It's been a year, and I still miss you every day. I don't know if I'll be able to visit next year. If I can't, just know I love you.\nTake care up there.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "the-library": {
     "title": "The Library",
     "content": "The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases.\n\nThe origins of the Library are shrouded in mystery. Perhaps one of the countless tomes within it holds the answer... or perhaps not.\n\nIts current caretaker is the librarian Fia, but this was not always the case. Who was the librarian before her, if there was one? Yet another mystery.\n\nFor some reason, only those chosen by the Library are able to enter or even perceive it. Nor can the librarian leave, for her very essence is bound to the Library.\n\nWanderers who pass through the Library can record their memories to add to the collection. What might your story inspire in those who come after?",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "the-outsider": {
     "title": "The Outsider",
     "content": "A cosmic being that was imprisoned for eons in the illusory world of Libestal Ficta. Mad with hatred, he now turns his wrath upon the unsuspecting universe.\n\nLeft unchecked, who knows what terrors he could wreak? Perhaps the best way to stop him is to travel to the past, and ensure that the Outsider never was.",
-    "category": "lore-c2"
+    "category": "lore-c2",
+    "hasAudio": true
   },
   "a-knights-tale": {
     "title": "A Knight's Tale",
@@ -812,7 +832,8 @@
   "pickles": {
     "title": "Pickles",
     "content": "\"Hiyya, darlings!\"\n\nThe fat flocks swarned to her, their penlights waving wildly in the air as she prepared to sing her first tune for the day.\n\n\"\\[REDACTED\\] here of \\[REDACTED\\], your one and only devilish diva!\"\n\nThey cheered. Hearts in their eyes. Feathers ruffled.\n\nThe MASSIVE, FAT CROWDS of FLOCKING BIRDS rejoiced.\n\nShe enticed them with song.\n\nAnd attempted to seduce many with her 'Rizz'.\n\nThough her FAT FLOCKS were impressed, the others in her party... were not.\n\nDespite their 'rizzistance, she was still adored by them just not in the way she might've wanted.\n\nThey adored her for her considerate self.\nFor her kindness.\nFor her wet cat' aura.\n\nShe was...\n\\[REDACTED\\] of\n\\[REDACTED\\].\n\nAnd with, or without, memories - she would always be part of \\[REDACTED\\].\n\nAnd, in the background, was someone who monitored such a siren.\n\nFor work? For pleasure? Or because she's a danger.\n\nIt's hard to say.",
-    "category": "shiori-fics-c2"
+    "category": "shiori-fics-c2",
+    "hasAudio": true
   },
   "sea-x-lovers": {
     "title": "Sea x Lovers",

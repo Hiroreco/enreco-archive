@@ -18,7 +18,7 @@ import "@xyflow/react/dist/style.css";
 import ViewCustomEdge from "@/components/view/ViewCustomEdge";
 import ImageNodeView from "@/components/view/ViewImageNode";
 import { useSettingStore } from "@/store/settingStore";
-import { CardType } from "@/store/viewStore";
+import { CardType, useViewStore } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
 import { isEdge, isMobileViewport, isNode } from "@/lib/utils";
 
@@ -107,6 +107,8 @@ function ViewChart({
     const previousCard = usePreviousValue(currentCard);
 
     const autoPanBack = useSettingStore((state) => state.autoPanBack);
+    // For centering the chart when the chapter changes
+    const chapter = useViewStore((state) => state.data.chapter);
 
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions<ImageNodeType>) => {
@@ -155,6 +157,7 @@ function ViewChart({
         previousCard,
         selectedElement,
         widthToShrink,
+        chapter,
     ]);
 
     const translateExtent = useMemo(() => {
