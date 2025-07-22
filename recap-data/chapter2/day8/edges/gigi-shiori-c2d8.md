@@ -14,7 +14,7 @@ And with this, the second chapter of Gonathon and Shiori's stories came to a clo
 
 ## Fanart
 
-["BROKEN BONDS" by harutimu](https://x.com/harutimu_415/status/1921663069068906634)
+["BROKEN BONDS" by harutimu (SFX by callisto)](https://x.com/harutimu_415/status/1921663069068906634)
 
 ## Memes
 
