@@ -9,6 +9,7 @@ import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
+import ViewSpoilerModal from "@/components/view/basic-modals/ViewSpoilerModal";
 
 interface ViewItemsAppProps {
     bgImage: string;
@@ -45,6 +46,8 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                     bgImage={bgImage}
                 />
             </GlossaryProvider>
+
+            <ViewSpoilerModal />
 
             {/* Updated modal pattern to match ViewApp */}
             <ViewInfoModal open={openModal === "info"} onClose={closeModal} />

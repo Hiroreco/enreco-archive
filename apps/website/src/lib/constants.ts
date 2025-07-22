@@ -6,4 +6,6 @@ export const LS_HAS_VISITED = "has-visited-2";
 export const LS_SHIORI_STASH_UNLOCKED = "shiori-stash-unlocked";
 
 export const LS_AWOO_EASTER_EGG_COUNT = "awoo-easter-egg-count";
-export const EASTER_EGG_STORAGE_KEY = "enreco-easter-egg-states";
+export const LS_EASTER_EGG_STORAGE_KEY = "enreco-easter-egg-states";
+
+export const LS_HAS_VISITED_GLOSSARY = "has-visited-glossary";

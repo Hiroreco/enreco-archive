@@ -6,7 +6,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { useEffect } from "react";
 import { EasterEggState, TextAudioState } from "@enreco-archive/common/types";
 import easterEggSounds from "#/easterEggSounds.json";
-import { EASTER_EGG_STORAGE_KEY } from "@/lib/constants";
+import { LS_EASTER_EGG_STORAGE_KEY } from "@/lib/constants";
 
 interface AudioState {
     bgm: Howl | null;
@@ -77,7 +77,7 @@ export const useEasterEggPersistStore = create<EasterEggPersistState>()(
             },
         }),
         {
-            name: EASTER_EGG_STORAGE_KEY,
+            name: LS_EASTER_EGG_STORAGE_KEY,
             // Only persist the played sounds data
             partialize: (state) => ({
                 easterEggPlayedSounds: state.easterEggPlayedSounds,
