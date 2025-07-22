@@ -111,6 +111,7 @@ const ViewLoadingPage = ({
 
             <div className="relative sm:h-[65vh] sm:max-h-[650px] w-auto">
                 <motion.div
+                    key={`logo-animation-${useDarkMode ? "dark" : "light"}`}
                     className="relative w-full h-full"
                     variants={imageVariants}
                     initial="hidden"
