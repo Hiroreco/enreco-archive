@@ -1,6 +1,6 @@
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { motion } from "framer-motion";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import Image from "next/image";
 
 interface ViewLoadingPageProps {
@@ -23,41 +23,44 @@ const ViewLoadingPage = ({
         return today.getMonth() === 3 && today.getDate() === 1;
     }, []);
 
-    const handleClick = () => {
+    const handleClick = useCallback(() => {
         if (!isAnimationComplete) return;
         setIsClicked(true);
         setViewAppVisible();
         setTimeout(onStart, 1000);
-    };
+    }, [isAnimationComplete, setViewAppVisible, onStart]);
 
-    const imageVariants = {
-        hidden: {
-            opacity: 0,
-            filter: "blur(50px) brightness(2)",
-            scale: 1.05,
-        },
-        visible: {
-            opacity: 1,
-            filter: "blur(0px) brightness(1)",
-            scale: 1,
-            transition: {
-                opacity: {
-                    duration: 3.5,
-                    ease: "easeOut",
-                },
-                filter: {
-                    duration: 3.5,
-                    ease: [0.4, 0, 0.2, 1],
-                    delay: 0.5,
-                },
-                scale: {
-                    duration: 3.5,
-                    ease: [0.25, 0.46, 0.45, 0.94],
-                    delay: 0.5,
+    const imageVariants = useMemo(
+        () => ({
+            hidden: {
+                opacity: 0,
+                filter: `blur(50px) brightness(${useDarkMode ? 0.5 : 2})`,
+                scale: 1.05,
+            },
+            visible: {
+                opacity: 1,
+                filter: "blur(0px) brightness(1)",
+                scale: 1,
+                transition: {
+                    opacity: {
+                        duration: 3.5,
+                        ease: "easeOut",
+                    },
+                    filter: {
+                        duration: 3.5,
+                        ease: [0.4, 0, 0.2, 1],
+                        delay: 0.5,
+                    },
+                    scale: {
+                        duration: 3.5,
+                        ease: [0.25, 0.46, 0.45, 0.94],
+                        delay: 0.5,
+                    },
                 },
             },
-        },
-    };
+        }),
+        [useDarkMode],
+    );
 
     // Generate random star positions
     const stars = useMemo(() => {
