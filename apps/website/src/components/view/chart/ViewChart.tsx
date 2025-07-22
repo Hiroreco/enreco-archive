@@ -15,8 +15,8 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 
-import ViewCustomEdge from "@/components/view/ViewCustomEdge";
-import ImageNodeView from "@/components/view/ViewImageNode";
+import ViewCustomEdge from "@/components/view/chart/ViewCustomEdge";
+import ImageNodeView from "@/components/view/chart/ViewImageNode";
 import { useSettingStore } from "@/store/settingStore";
 import { CardType, useViewStore } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
@@ -24,7 +24,7 @@ import { isEdge, isMobileViewport, isNode } from "@/lib/utils";
 
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
-import "@/components/view/ViewChart.css";
+import "./ViewChart.css";
 import { usePreviousValue } from "@/hooks/usePreviousValue";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {

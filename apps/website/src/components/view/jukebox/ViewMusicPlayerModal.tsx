@@ -1,5 +1,5 @@
 import SONGS from "#/songs.json";
-import AudioVisualizer from "@/components/view/ViewAudioVisualizer";
+import AudioVisualizer from "@/components/view/jukebox/ViewAudioVisualizer";
 import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";

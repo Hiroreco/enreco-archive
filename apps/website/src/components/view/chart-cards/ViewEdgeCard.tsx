@@ -1,11 +1,11 @@
-import LineSvg from "@/components/LineSvg";
+import LineSvg from "@/components/view/chart/LineSvg";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
-import EdgeCardDeco from "@/components/view/EdgeCardDeco";
-import ReadMarker from "@/components/view/ReadMarker";
-import VaulDrawer from "@/components/view/VaulDrawer";
-import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import EdgeCardDeco from "@/components/view/chart-cards/EdgeCardDeco";
+import ReadMarker from "@/components/view/chart-cards/ReadMarker";
+import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
+import ViewCardDaySwitcher from "@/components/view/chart-cards/ViewCardDaySwitcher";
+import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import {
@@ -14,9 +14,7 @@ import {
     ImageNodeType,
     Relationship,
 } from "@enreco-archive/common/types";
-import {
-    isMobileViewport,
-} from "@/lib/utils";
+import { isMobileViewport } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
 import { useEffect, useRef } from "react";
@@ -32,8 +30,8 @@ interface Props {
     isCardOpen: boolean;
     selectedEdge: FixedEdgeType | null;
     edgeRelationship: Relationship | null;
-    charts: ChartData[],
-    read: boolean,
+    charts: ChartData[];
+    read: boolean;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
@@ -102,9 +100,9 @@ const ViewEdgeCard = ({
     }
 
     const availiableEdges = [];
-    for(const chart of charts) {
-        for(const edge of chart.edges) {
-            if(edge.id === selectedEdge.id) {
+    for (const chart of charts) {
+        for (const edge of chart.edges) {
+            if (edge.id === selectedEdge.id) {
                 availiableEdges.push(edge);
             }
         }
@@ -197,10 +195,7 @@ const ViewEdgeCard = ({
                         {selectedEdge.data?.content || "No content available"}
                     </ViewMarkdown>
                     <Separator className="mt-4" />
-                    <ReadMarker
-                        read={read}
-                        setRead={onReadChange}
-                    />
+                    <ReadMarker read={read} setRead={onReadChange} />
                 </div>
             </div>
         </VaulDrawer>

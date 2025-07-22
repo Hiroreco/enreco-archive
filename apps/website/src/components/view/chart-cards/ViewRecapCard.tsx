@@ -1,6 +1,6 @@
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
-import ViewProgressBar from "@/components/view/ViewProgressBar";
+import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
+import ViewProgressBar from "@/components/view/chart-cards/ViewProgressBar";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 

@@ -16,11 +16,11 @@ import { Node } from "unist";
 import { TestFunction } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
-import { generateSectionId } from "@/components/view/items-page/glossary-utils";
+import { generateSectionId } from "@/components/view/glossary/glossary-utils";
 import EntryLink from "@/components/view/markdown/EntryLink";
 import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
-import "@/components/view/ViewMarkdown.css";
-import ViewTextModal from "@/components/view/ViewTextModal";
+import "./ViewMarkdown.css";
+import ViewTextModal from "@/components/view/utility-modals/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import underlineDirective from "@enreco-archive/markdown-extensions/UnderlineDirective";
 import textAlignmentDirective from "@enreco-archive/markdown-extensions/TextAlignmentDirective";
@@ -383,13 +383,14 @@ function ViewMarkdownInternal({
 
     const remarkPlugins = useMemo(
         () => [
-            remarkGfm, 
+            remarkGfm,
             addHeadingIds,
             remarkDirective,
             underlineDirective,
-            textAlignmentDirective
-        ], 
-        []);
+            textAlignmentDirective,
+        ],
+        [],
+    );
     const rehypePlugins = useMemo(
         () => [
             transformImageParagraphToFigure,

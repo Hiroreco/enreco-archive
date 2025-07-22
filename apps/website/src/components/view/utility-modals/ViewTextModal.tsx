@@ -1,5 +1,5 @@
 import textData from "#/text-data.json";
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";

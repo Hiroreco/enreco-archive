@@ -1,4 +1,4 @@
-import { extractMarkdownSections } from "@/components/view/items-page/glossary-utils";
+import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
 import {
     DropdownMenu,
     DropdownMenuContent,

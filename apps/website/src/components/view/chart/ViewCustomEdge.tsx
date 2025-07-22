@@ -3,7 +3,7 @@ import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { memo, useContext, useEffect, useMemo, useRef, useState } from "react";
 
-import "@/components/view/ViewCustomEdge.css";
+import "./ViewCustomEdge.css";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 const ViewCustomEdge = ({

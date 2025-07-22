@@ -1,4 +1,4 @@
-import ViewTextModal from "@/components/view/ViewTextModal";
+import ViewTextModal from "@/components/view/utility-modals/ViewTextModal";
 import { ImageNodeType } from "@enreco-archive/common/types";
 import React from "react";
 

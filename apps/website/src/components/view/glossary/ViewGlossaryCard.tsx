@@ -13,8 +13,8 @@ import {
 } from "lucide-react";
 import { ReactElement, useCallback, useEffect, useMemo, useState } from "react";
 
-import ViewGlossarySelector from "@/components/view/items-page/ViewGlossarySelector";
-import ViewGlossaryViewer from "@/components/view/items-page/ViewGlossaryViewer";
+import ViewGlossarySelector from "@/components/view/glossary/ViewGlossarySelector";
+import ViewGlossaryViewer from "@/components/view/glossary/ViewGlossaryViewer";
 import { Category, useGlossary } from "@/contexts/GlossaryContext";
 import {
     Card,
@@ -39,7 +39,7 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
-import ViewSectionJumper from "@/components/view/items-page/ViewSectionJumper";
+import ViewSectionJumper from "@/components/view/glossary/ViewSectionJumper";
 
 interface ViewGlossaryCardProps {
     className?: string;

@@ -1,10 +1,10 @@
 import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
-import ViewGlossaryCard from "@/components/view/items-page/ViewGlossaryCard";
-import ViewInfoModal from "@/components/view/ViewInfoModal";
-import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
-import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
-import ViewSettingsModal from "@/components/view/ViewSettingsModal";
-import ViewVideoModal from "@/components/view/ViewVideoModal";
+import ViewGlossaryCard from "@/components/view/glossary/ViewGlossaryCard";
+import ViewInfoModal from "@/components/view/basic-modals/ViewInfoModal";
+import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
+import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
+import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
+import ViewVideoModal from "@/components/view/utility-modals/ViewVideoModal";
 import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";

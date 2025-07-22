@@ -1,5 +1,5 @@
 import ViewShioriGameEasterEgg from "@/components/view/easter-eggs/ViewShioriGameEasterEgg";
-import ViewTextModal from "@/components/view/ViewTextModal";
+import ViewTextModal from "@/components/view/utility-modals/ViewTextModal";
 import { LS_SHIORI_STASH_UNLOCKED } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { Button } from "@enreco-archive/common-ui/components/button";

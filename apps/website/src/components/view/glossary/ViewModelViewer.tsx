@@ -1,4 +1,4 @@
-import ViewModelModal from "@/components/view/items-page/ViewModelModal";
+import ViewModelModal from "@/components/view/glossary/ViewModelModal";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";

@@ -1,9 +1,9 @@
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
-import NodeCardDeco from "@/components/view/NodeCardDeco";
-import ReadMarker from "@/components/view/ReadMarker";
-import VaulDrawer from "@/components/view/VaulDrawer";
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import NodeCardDeco from "@/components/view/chart-cards/NodeCardDeco";
+import ReadMarker from "@/components/view/chart-cards/ReadMarker";
+import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
+import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { ChartData, ImageNodeType, Team } from "@enreco-archive/common/types";
@@ -11,8 +11,8 @@ import { isMobileViewport } from "@/lib/utils";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import ViewCardDaySwitcher from "@/components/view/ViewCardDaySwitcher";
-import ViewCardUtilities from "@/components/view/ViewCardUtilities";
+import ViewCardDaySwitcher from "@/components/view/chart-cards/ViewCardDaySwitcher";
+import ViewCardUtilities from "@/components/view/chart-cards/ViewCardUtilities";
 import { Check } from "lucide-react";
 import {
     Tooltip,
@@ -142,7 +142,11 @@ const ViewNodeCard = ({
                     <div className="flex flex-row justify-around w-full">
                         <div className="flex flex-col items-center">
                             <div className="font-semibold">
-                                {chapter === 0 ? "Guild" : chapter === 1 ? "Job" : "Team"}
+                                {chapter === 0
+                                    ? "Guild"
+                                    : chapter === 1
+                                      ? "Job"
+                                      : "Team"}
                             </div>
                             <div>{nodeTeam?.name}</div>
                         </div>

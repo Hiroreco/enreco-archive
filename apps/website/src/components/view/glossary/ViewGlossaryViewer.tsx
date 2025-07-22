@@ -1,7 +1,7 @@
-import ViewModelViewer from "@/components/view/items-page/ViewModelViewer";
-import ViewSectionJumper from "@/components/view/items-page/ViewSectionJumper";
+import ViewModelViewer from "@/components/view/glossary/ViewModelViewer";
+import ViewSectionJumper from "@/components/view/glossary/ViewSectionJumper";
 import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";

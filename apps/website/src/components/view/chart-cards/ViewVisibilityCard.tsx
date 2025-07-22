@@ -1,4 +1,4 @@
-import LineSvg from "@/components/LineSvg";
+import LineSvg from "@/components/view/chart/LineSvg";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import { Label } from "@enreco-archive/common-ui/components/label";
 import {
@@ -131,8 +131,8 @@ const ViewVisibilityCard = ({
                             {chapter === 0
                                 ? "Guild Toggles"
                                 : chapter === 1
-                                ? "Job Toggles"
-                                : "Team Toggles"}
+                                  ? "Job Toggles"
+                                  : "Team Toggles"}
                         </span>
                     </div>
                     <div className="flex justify-between items-center">
@@ -141,8 +141,8 @@ const ViewVisibilityCard = ({
                                 {chapter === 0
                                     ? "Show all guilds"
                                     : chapter === 1
-                                    ? "Show all jobs"
-                                    : "Show all teams"}
+                                      ? "Show all jobs"
+                                      : "Show all teams"}
                             </span>
                         </Label>
 

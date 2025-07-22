@@ -1,10 +1,10 @@
 "use client";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
-import ViewEdgeCard from "@/components/view/ViewEdgeCard";
-import ViewInfoModal from "@/components/view/ViewInfoModal";
-import ViewNodeCard from "@/components/view/ViewNodeCard";
-import ViewSettingCard from "@/components/view/ViewSettingCard";
+import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
+import ViewInfoModal from "@/components/view/basic-modals/ViewInfoModal";
+import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
+import ViewDayRecapCard from "@/components/view/chart-cards/ViewDayRecapCard";
 import { useViewStore } from "@/store/viewStore";
 import {
     FixedEdgeType,
@@ -12,12 +12,12 @@ import {
     SiteData,
 } from "@enreco-archive/common/types";
 
-import ViewChart from "@/components/view/ViewChart";
-import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
-import ViewReadCounter from "@/components/view/ViewReadCounter";
-import ViewSettingsModal from "@/components/view/ViewSettingsModal";
-import ViewTransportControls from "@/components/view/ViewTransportControls";
-import ViewVideoModal from "@/components/view/ViewVideoModal";
+import ViewChart from "@/components/view/chart/ViewChart";
+import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
+import ViewReadCounter from "@/components/view/chart/ViewReadCounter";
+import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
+import ViewTransportControls from "@/components/view/chart/ViewTransportControls";
+import ViewVideoModal from "@/components/view/utility-modals/ViewVideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
@@ -26,9 +26,9 @@ import { useSettingStore } from "@/store/settingStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
-import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
+import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
-import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
+import ViewChapterRecapModal from "@/components/view/utility-modals/ViewChapterRecapModal";
 
 import {
     CurrentChapterDataContext,
@@ -40,7 +40,7 @@ import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import Image from "next/image";
 import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
-import ViewMusicPlayerModal from "@/components/view/ViewMusicPlayerModal";
+import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
@@ -515,14 +515,16 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     />
 
                     <CurrentDayDataContext value={currentDayContextValue}>
-                        <ViewSettingCard
+                        <ViewDayRecapCard
                             isCardOpen={currentCard === "setting"}
                             onCardClose={onCardClose}
                             dayRecap={dayData.dayRecap}
                             nodes={completeNodes}
                             relationshipVisibility={relationshipVisibility}
                             toggleRelationshipVisible={toggleRelationship}
-                            toggleAllRelationshipVisible={toggleAllRelationships}
+                            toggleAllRelationshipVisible={
+                                toggleAllRelationships
+                            }
                             showOnlyNewEdges={showOnlyNewEdges}
                             setShowOnlyNewEdges={setShowOnlyNewEdges}
                             teamVisibility={team}
@@ -754,8 +756,10 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                     "z-50 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0 ",
                     {
                         "w-[60%] lg:block hidden": currentCard === "setting",
-                        "w-full md:w-4/5 2xl:w-2/5 mx-auto": currentCard === null,
-                        "hidden": currentCard !== null && currentCard !== "setting"
+                        "w-full md:w-4/5 2xl:w-2/5 mx-auto":
+                            currentCard === null,
+                        hidden:
+                            currentCard !== null && currentCard !== "setting",
                     },
                 )}
             >

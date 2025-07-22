@@ -14,12 +14,12 @@ import {
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
-import ViewInfoGuide from "@/components/view/ViewInfoGuide";
-import ViewInfoGeneral from "@/components/view/ViewInfoGeneral";
+import ViewInfoGuide from "@/components/view/basic-modals/ViewInfoGuide";
+import ViewInfoGeneral from "@/components/view/basic-modals/ViewInfoGeneral";
 import { useSettingStore } from "@/store/settingStore";
 import { Moon, Sun, SunMoon } from "lucide-react";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
-import ViewInfoCredits from "@/components/view/ViewInfoCredits";
+import ViewInfoCredits from "@/components/view/basic-modals/ViewInfoCredits";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback } from "react";
 

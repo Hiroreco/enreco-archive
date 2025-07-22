@@ -2,7 +2,6 @@
 import chapter0 from "#/chapter0.json";
 import chapter1 from "#/chapter1.json";
 import siteMeta from "#/metadata.json";
-import ViewGlossaryApp from "@/components/view/items-page/ViewGlossaryApp";
 import { useViewStore } from "@/store/viewStore";
 import {
     Tabs,
@@ -16,8 +15,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { LibraryBig, Workflow } from "lucide-react";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
-import ViewLoadingPage from "./components/view/ViewLoadingPage";
+import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
+import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
 
 const data: SiteData = {
     version: siteMeta.version,

@@ -4,9 +4,9 @@ import {
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
-import VaulDrawer from "@/components/view/VaulDrawer";
-import ViewRecapCard from "@/components/view/ViewRecapCard";
-import ViewVisibilityCard from "@/components/view/ViewVisibilityCard";
+import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
+import ViewRecapCard from "@/components/view/chart-cards/ViewRecapCard";
+import ViewVisibilityCard from "@/components/view/chart-cards/ViewVisibilityCard";
 import {
     Chapter,
     ImageNodeType,
@@ -37,7 +37,7 @@ interface Props {
     onDayChange: (newDay: number) => void;
 }
 
-const ViewSettingCard = ({
+const ViewDayRecapCard = ({
     isCardOpen,
     onCardClose,
     chapter,
@@ -97,7 +97,9 @@ const ViewSettingCard = ({
                     <ViewVisibilityCard
                         relationshipVisibility={relationshipVisibility}
                         toggleRelationshipVisible={toggleRelationshipVisible}
-                        toggleAllRelationshipVisible={toggleAllRelationshipVisible}
+                        toggleAllRelationshipVisible={
+                            toggleAllRelationshipVisible
+                        }
                         showOnlyNewEdges={showOnlyNewEdges}
                         setShowOnlyNewEdges={setShowOnlyNewEdges}
                         teamVisibility={teamVisibility}
@@ -116,4 +118,4 @@ const ViewSettingCard = ({
     );
 };
 
-export default ViewSettingCard;
+export default ViewDayRecapCard;

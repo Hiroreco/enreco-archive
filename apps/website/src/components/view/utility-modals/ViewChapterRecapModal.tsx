@@ -1,5 +1,5 @@
-import ViewChapterRecapToolbar from "@/components/view/ViewChapterRecapToolbar";
-import { ViewMarkdown } from "@/components/view/ViewMarkdown";
+import ViewChapterRecapToolbar from "@/components/view/utility-modals/ViewChapterRecapToolbar";
+import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import {
     Dialog,
     DialogContent,
@@ -11,12 +11,12 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import data from "#/chapter-recaps.json";
-import { extractMarkdownSections } from "@/components/view/items-page/glossary-utils";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
+import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
@@ -50,11 +50,14 @@ const ViewChapterRecapModal = ({
     const activeSection = useScrollSpy(sectionIds);
     const backdropFiler = useSettingStore((state) => state.backdropFilter);
 
-    const onOpenChange = useCallback((open: boolean) => {
-        if(!open) {
-            onClose();
-        }
-    }, [onClose]);
+    const onOpenChange = useCallback(
+        (open: boolean) => {
+            if (!open) {
+                onClose();
+            }
+        },
+        [onClose],
+    );
 
     // To avoid setting the current section when the user is scrolling programmatically
     useEffect(() => {

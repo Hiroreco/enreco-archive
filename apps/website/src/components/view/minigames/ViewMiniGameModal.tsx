@@ -13,17 +13,17 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import ViewChickenGameInfo from "@/components/view/minigames-info/ViewChickenGameInfo";
-import ViewGamblingGameInfo from "@/components/view/minigames-info/ViewGamblingGameInfo";
-import ViewMemoryGameInfo from "@/components/view/minigames-info/ViewMemoryGameInfo";
-import ViewChickenGame from "@/components/view/ViewChickenGame";
-import ViewGamblingGame from "@/components/view/ViewGamblingGame";
-import ViewMemoryGame from "@/components/view/ViewMemoryGame";
+import ViewChickenGameInfo from "@/components/view/minigames/ViewChickenGameInfo";
+import ViewGamblingGameInfo from "@/components/view/minigames/ViewGamblingGameInfo";
+import ViewMemoryGameInfo from "@/components/view/minigames/ViewMemoryGameInfo";
+import ViewChickenGame from "@/components/view/minigames/ViewChickenGame";
+import ViewGamblingGame from "@/components/view/minigames/ViewGamblingGame";
+import ViewMemoryGame from "@/components/view/minigames/ViewMemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
 import { ReactElement, useCallback, useState } from "react";
-import ViewShioriGame from "@/components/view/ViewShioriGame";
-import ViewShioriGameInfo from "@/components/view/minigames-info/ViewShioriGameInfo";
+import ViewShioriGame from "@/components/view/minigames/ViewShioriGame";
+import ViewShioriGameInfo from "@/components/view/minigames/ViewShioriGameInfo";
 
 interface ViewMiniGameModalProps {
     open: boolean;
