@@ -1,7 +1,7 @@
 <!-- title: Custody Dispute -->
 <!-- quote: It was so obvious that you were scamming people. -->
 <!-- chapters: 0 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images: (Mococo and the lottery situation) -->
 <!-- model: false -->
 
 ## Overview

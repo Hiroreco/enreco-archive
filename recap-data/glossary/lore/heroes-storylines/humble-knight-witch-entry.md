@@ -1,7 +1,7 @@
 <!-- title: The Humble Knight and the Witch -->
 <!-- quote: If I were to describe our relationship... It was kindness. -->
 <!-- chapters: 1 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images:  -->
 <!-- model: false -->
 
 ## Overview

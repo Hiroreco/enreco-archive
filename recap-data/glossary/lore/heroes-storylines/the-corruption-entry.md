@@ -1,7 +1,7 @@
 <!-- title: The Corruption -->
 <!-- quote: The corrupted shall take over these lands. -->
 <!-- chapters: 0 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images:  -->
 <!-- model: false -->
 
 ## Overview

@@ -1,7 +1,7 @@
 <!-- title: A Hot Pink’s Collapsing Relationship -->
 <!-- quote: For he knows a selfish request such as his, could never be true. -->
 <!-- chapters: 1 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images: (The Hot Pink's gender reveal party) -->
 <!-- model: false -->
 
 ## Overview

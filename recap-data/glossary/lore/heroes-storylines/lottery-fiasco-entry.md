@@ -1,7 +1,7 @@
 <!-- title: Lottery Fiasco -->
 <!-- quote: I have to go, there's a dog chasing me. -->
 <!-- chapters: 0 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images:  -->
 <!-- model: false -->
 
 ## Overview

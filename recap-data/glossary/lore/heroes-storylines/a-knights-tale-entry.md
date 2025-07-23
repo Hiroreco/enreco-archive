@@ -1,7 +1,7 @@
 <!-- title: A Knight's Tale -->
 <!-- quote: For he knows a selfish request such as his, could never be true. -->
 <!-- chapters: 0 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images:  -->
 <!-- model: false -->
 
 ## Overview

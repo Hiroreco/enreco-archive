@@ -1,7 +1,7 @@
 <!-- title: The Fluffy One's Cafe -->
 <!-- quote: Oh my goodness, you really enjoy the food I make? Bau bau! -->
 <!-- chapters: 1 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images: -->
 <!-- model: false -->
 
 ## Overview

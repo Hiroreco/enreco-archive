@@ -1,7 +1,7 @@
 <!-- title: Custody Dispute -->
 <!-- quote: Someone such as you does not deserve to be this child's parent! -->
 <!-- chapters: 0 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images: (The child dispute between Bae and Bijou) -->
 <!-- model: false -->
 
 ## Overview
