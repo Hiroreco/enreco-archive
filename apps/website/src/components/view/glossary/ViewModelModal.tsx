@@ -2,7 +2,6 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import { Suspense, useMemo, useRef, useState, useCallback } from "react";
-import * as THREE from "three";
 import {
     Dialog,
     DialogContent,
@@ -24,20 +23,20 @@ const Model = ({
 }) => {
     const gltf = useGLTF(modelPath);
     const clonedScene = useMemo(() => gltf.scene.clone(), [gltf.scene]);
-    const modelRef = useRef<THREE.Group>(null);
+    const groupRef = useRef(null);
 
     useFrame((_, delta) => {
-        if (!paused && modelRef.current) {
-            modelRef.current.rotation.y += delta * 0.3;
+        if (!paused && groupRef.current) {
+            (groupRef.current as any).rotation.y += delta * 0.3;
         }
     });
 
     return (
-        <Center>
-            <group ref={modelRef}>
-                <primitive object={clonedScene} scale={4} dispose={null} />
-            </group>
-        </Center>
+        <group ref={groupRef}>
+            <Center>
+                <primitive object={clonedScene} scale={3.5} dispose={null} />
+            </Center>
+        </group>
     );
 };
 
