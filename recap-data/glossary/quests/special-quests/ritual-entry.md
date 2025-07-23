@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Day Unlocked:** Day 6
+**Day Unlocked:** 6
 
 **"The Mystery of the Cursed Tome"** was a unique quest assigned to the heroes, deviating from their usual dungeon investigations. Their new task was to perform a "ritual" to purify a book essential for the next stage of their journey.
 

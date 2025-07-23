@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Day Unlocked:** Day 7
+**Day Unlocked:** 7
 
 The **Heart of Ruin** was the final dungeon—and the ultimate challenge the heroes faced in Chapter 2, as this was the source of all corruption, the root cause of the kingdom’s decay. Destroying it meant not only completing the mission for which the heroes were summoned, but also saving the world from ruin itself.
 
