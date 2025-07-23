@@ -1,7 +1,8 @@
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
-import { Suspense, useMemo } from "react";
+import { Suspense, useMemo, useRef, useState, useCallback } from "react";
+import * as THREE from "three";
 import {
     Dialog,
     DialogContent,
@@ -14,13 +15,28 @@ interface ViewModelModalProps {
     modelPath: string;
 }
 
-const Model = ({ modelPath }: { modelPath: string }) => {
+const Model = ({
+    modelPath,
+    paused,
+}: {
+    modelPath: string;
+    paused: boolean;
+}) => {
     const gltf = useGLTF(modelPath);
     const clonedScene = useMemo(() => gltf.scene.clone(), [gltf.scene]);
+    const modelRef = useRef<THREE.Group>(null);
+
+    useFrame((_, delta) => {
+        if (!paused && modelRef.current) {
+            modelRef.current.rotation.y += delta * 0.3;
+        }
+    });
 
     return (
         <Center>
-            <primitive object={clonedScene} scale={3.5} dispose={null} />
+            <group ref={modelRef}>
+                <primitive object={clonedScene} scale={4} dispose={null} />
+            </group>
         </Center>
     );
 };
@@ -30,6 +46,12 @@ const ViewModelModal = ({
     onOpenChange,
     modelPath,
 }: ViewModelModalProps) => {
+    const [paused, setPaused] = useState(false);
+
+    const handleUserInteract = useCallback(() => {
+        setPaused(true);
+    }, []);
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <VisuallyHidden>
@@ -45,7 +67,11 @@ const ViewModelModal = ({
                     backgroundRepeat: "no-repeat",
                 }}
             >
-                <Canvas>
+                <Canvas
+                    onPointerDown={handleUserInteract}
+                    onTouchStart={handleUserInteract}
+                    onWheel={handleUserInteract}
+                >
                     <ambientLight />
                     <directionalLight />
                     <Suspense
@@ -58,7 +84,7 @@ const ViewModelModal = ({
                             </Center>
                         }
                     >
-                        <Model modelPath={modelPath} />
+                        <Model modelPath={modelPath} paused={paused} />
                     </Suspense>
                     <OrbitControls enableZoom={true} enablePan={true} />
                 </Canvas>

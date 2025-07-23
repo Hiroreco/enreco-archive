@@ -9,7 +9,13 @@ interface ViewItemViewerProps {
     modelPath: string;
 }
 
-const Model = ({ modelPath, paused }: { modelPath: string; paused: boolean }) => {
+const Model = ({
+    modelPath,
+    paused,
+}: {
+    modelPath: string;
+    paused: boolean;
+}) => {
     const gltf = useGLTF(modelPath);
     const clonedScene = useMemo(() => gltf.scene.clone(), [gltf.scene]);
     const groupRef = useRef(null);
@@ -19,7 +25,7 @@ const Model = ({ modelPath, paused }: { modelPath: string; paused: boolean }) =>
             (groupRef.current as any).rotation.y += delta * 0.3; // rotation
         }
     });
- 
+
     return (
         <group ref={groupRef}>
             <Center>
@@ -49,10 +55,8 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
                     backgroundRepeat: "no-repeat",
                 }}
                 onPointerDown={handleUserInteract}
-                onPointerMove={handleUserInteract}
-                onPointerUp={handleUserInteract}
+                onTouchStart={handleUserInteract}
                 onWheel={handleUserInteract}
-                onClick={handleUserInteract}
             >
                 <ambientLight />
                 <directionalLight />
