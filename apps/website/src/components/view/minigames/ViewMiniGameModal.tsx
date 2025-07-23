@@ -21,7 +21,7 @@ import ViewGamblingGame from "@/components/view/minigames/ViewGamblingGame";
 import ViewMemoryGame from "@/components/view/minigames/ViewMemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
-import { ReactElement, useCallback, useState } from "react";
+import React, { ReactElement, useCallback, useState } from "react";
 import ViewShioriGame from "@/components/view/minigames/ViewShioriGame";
 import ViewShioriGameInfo from "@/components/view/minigames/ViewShioriGameInfo";
 
@@ -61,10 +61,16 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
         [onClose],
     );
 
+    const chickenClass = "md:max-w-[700px] md:max-h-[37.5rem] max-w-none w-[95vw] h-[80vh] transition-all";
+    const defaultClass = "md:max-w-[800px] md:max-h-[25rem] max-w-none w-[95vw] h-[80vh] transition-all";
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+    const modalClass = React.useMemo(() => {
+        return game === "chicken" && !isMobile ? chickenClass : defaultClass;
+    }, [game, isMobile]);
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="md:max-w-[800px] md:max-h-[25rem] max-w-none w-[95vw] h-[80vh] transition-all"
+                className={modalClass}
                 showXButton={true}
                 showXButtonForce={true}
             >
@@ -81,7 +87,7 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
                 <div className="h-full w-full flex flex-col">
                     <Select
                         value={game}
-                        onValueChange={(value) => setGame(value)}
+                        onValueChange={setGame}
                     >
                         <SelectTrigger className="mx-auto">
                             <SelectValue />

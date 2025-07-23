@@ -141,21 +141,57 @@ const ViewEdgeCard = ({
                         </StackItem>
                         <StackItem>
                             <div className="z-10 flex gap-4 items-center justify-between w-fit mx-auto mt-4">
-                                <Image
-                                    className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87]"
-                                    src={nodeA.data.imageSrc}
-                                    alt="Node A"
-                                    width={150}
-                                    height={150}
-                                />
+                                <button
+                                    type="button"
+                                    className="focus:outline-none"
+                                    onClick={() => onNodeLinkClicked(nodeA)}
+                                    title={nodeA.data.title || "View node"}
+                                >
+                                    <Image
+                                        className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87] transition duration-200 hover:brightness-110 hover:scale-105"
+                                        style={{
+                                            boxShadow: `0 0 0 0px transparent`,
+                                            outline: 'none',
+                                            transition: 'box-shadow 0.2s, filter 0.2s, transform 0.2s',
+                                        }}
+                                        onMouseEnter={e => {
+                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeA.data.bgCardColor || '#6f6ac6'}99`;
+                                        }}
+                                        onMouseLeave={e => {
+                                            e.currentTarget.style.boxShadow = '0 0 0 0px transparent';
+                                        }}
+                                        src={nodeA.data.imageSrc}
+                                        alt="Node A"
+                                        width={150}
+                                        height={150}
+                                    />
+                                </button>
                                 <LineSvg style={edgeStyle} />
-                                <Image
-                                    className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87]"
-                                    src={nodeB.data.imageSrc}
-                                    alt="Node B"
-                                    width={150}
-                                    height={150}
-                                />
+                                <button
+                                    type="button"
+                                    className="focus:outline-none"
+                                    onClick={() => onNodeLinkClicked(nodeB)}
+                                    title={nodeB.data.title || "View node"}
+                                >
+                                    <Image
+                                        className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87] transition duration-200 hover:brightness-110 hover:scale-105"
+                                        style={{
+                                            boxShadow: `0 0 0 0px transparent`,
+                                            outline: 'none',
+                                            transition: 'box-shadow 0.2s, filter 0.2s, transform 0.2s',
+                                        }}
+                                        onMouseEnter={e => {
+                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeB.data.bgCardColor || '#6f6ac6'}99`;
+                                        }}
+                                        onMouseLeave={e => {
+                                            e.currentTarget.style.boxShadow = '0 0 0 0px transparent';
+                                        }}
+                                        src={nodeB.data.imageSrc}
+                                        alt="Node B"
+                                        width={150}
+                                        height={150}
+                                    />
+                                </button>
                             </div>
                         </StackItem>
                     </Stack>
