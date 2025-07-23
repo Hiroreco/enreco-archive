@@ -81,7 +81,9 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
                     width={100}
                     height={100}
                     alt="character node"
-                    placeholder="blur"
+                    placeholder={
+                        getBlurDataURL(data.imageSrc) ? "blur" : "empty"
+                    }
                     blurDataURL={getBlurDataURL(data.imageSrc)}
                     priority={true}
                 />
