@@ -7,6 +7,8 @@ import { Input } from "@enreco-archive/common-ui/components/input";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { useEffect, useState } from "react";
 
+import textData from "#/text-data.json";
+
 const ViewShioriGame = () => {
     const [isUnlocked, setIsUnlocked] = useState(false);
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -63,7 +65,7 @@ const ViewShioriGame = () => {
         },
     ];
 
-    const fanficList = [
+    const bookList = [
         "bloodraven-smut",
         "chicken",
         "cucumber",
@@ -75,10 +77,23 @@ const ViewShioriGame = () => {
         "the-cell",
         "the-princess-1",
         "the-princess-2",
+        "a-knights-tale",
+        "a-knights-wish",
+        "fire-and-flight-1",
+        "fire-and-flight-2",
+        "fire-and-flight-3",
+        "liz-journal-c2d1",
+        "liz-journal-c2d2",
+        "liz-journal-c2d4",
+        "liz-journal-c2d5",
+        "liz-journal-c2d6",
+        "liz-journal-c2d7",
+        "maven-in-blue",
     ];
 
     useEffect(() => {
         const unlocked = localStorage.getItem(LS_SHIORI_STASH_UNLOCKED);
+        setIsUnlocked(false);
         if (unlocked === "true") {
             setIsUnlocked(true);
         }
@@ -112,7 +127,7 @@ const ViewShioriGame = () => {
     if (!isUnlocked) {
         return (
             <div className="relative size-full flex flex-col items-center gap-4 p-4">
-                <div className="font-bold text-xl mt-10">
+                <div className="font-bold text-xl mt-14">
                     Unlock Shiori's Stash
                 </div>
                 <div className="text-center font-semibold underline">
@@ -137,20 +152,24 @@ const ViewShioriGame = () => {
     }
 
     return (
-        <div className="relative size-full flex flex-col items-center overflow-hidden">
+        <div className="relative size-full flex flex-col items-center">
             <div className="font-bold mt-2">Shiori Nyavella's Stash</div>
             <Separator className="w-full mb-0 mt-2" />
-            <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 w-full h-[80%]">
-                {fanficList.map((fanfic) => (
-                    <ViewTextModal
-                        key={fanfic}
-                        textId={fanfic}
-                        label={fanfic
-                            .replace(/-/g, " ")
-                            .replace(/\b\w/g, (c) => c.toUpperCase())}
-                    />
-                ))}
+            <div className="overflow-y-auto max-h-[50vh] py-4 md:max-h-[80%] w-full">
+                <div className="grid place-items-center md:grid-cols-3 gap-y-6 w-full">
+                    {bookList.map((fanfic) => (
+                        <ViewTextModal
+                            key={fanfic}
+                            textId={fanfic}
+                            label={
+                                textData[fanfic as keyof typeof textData]
+                                    ?.title || fanfic
+                            }
+                        />
+                    ))}
+                </div>
             </div>
+
             <ViewShioriGameEasterEgg />
         </div>
     );

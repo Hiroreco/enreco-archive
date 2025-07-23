@@ -70,24 +70,33 @@ const ViewLoadingPage = ({
         const logoRadius = 18 + (useDarkMode ? 8 : 0);
         const minDistance = logoRadius + 12; // minimum distance from logo edge
         const maxDistance = 48; // max distance from logo center
+
         return Array.from({ length: numStars }, (_, i) => {
-            // Pick a random angle
-            const angle = Math.random() * 2 * Math.PI;
-            // Start outside the logo
-            const startRadius = minDistance + Math.random() * (maxDistance - minDistance);
+            // Use more evenly distributed angles to ensure coverage
+            // Mix systematic distribution with some randomness
+            const baseAngle = (i / numStars) * 2 * Math.PI; // evenly spaced base angles
+            const angleVariation =
+                (Math.random() - 0.5) * ((2 * Math.PI) / numStars) * 0.8; // add some randomness
+            const angle = baseAngle + angleVariation;
+
+            // Start outside the logo with some randomness
+            const startRadius =
+                minDistance + Math.random() * (maxDistance - minDistance);
             const startX = logoCenterX + Math.cos(angle) * startRadius;
             const startY = logoCenterY + Math.sin(angle) * startRadius;
+
             // Drift further away from logo center (same angle, outward only)
             const driftDistance = 16 + Math.random() * 32;
             const endRadius = startRadius + driftDistance;
             const endX = logoCenterX + Math.cos(angle) * endRadius;
             const endY = logoCenterY + Math.sin(angle) * endRadius;
+
             return {
                 id: i,
-                startX,
-                startY,
-                endX,
-                endY,
+                startX: Math.max(0, Math.min(100, startX)), // clamp to viewport
+                startY: Math.max(0, Math.min(100, startY)), // clamp to viewport
+                endX: Math.max(-20, Math.min(120, endX)), // allow some overflow for natural drift
+                endY: Math.max(-20, Math.min(120, endY)), // allow some overflow for natural drift
                 delay: Math.random() * 1.5,
                 duration: 2.5 + Math.random() * 2,
             };
@@ -157,11 +166,13 @@ const ViewLoadingPage = ({
                             key={star.id}
                             className="absolute rounded-full"
                             style={{
-                                width: '5px',
-                                height: '5px',
-                                background: 'linear-gradient(90deg, #7FDBFF 60%, #B3E5FC 100%)',
-                                boxShadow: '0 0 8px 2px #7FDBFF, 0 0 12px 4px #B3E5FC',
-                                pointerEvents: 'none',
+                                width: "5px",
+                                height: "5px",
+                                background:
+                                    "linear-gradient(90deg, #a1c7e5 60%, #abcfeb 100%)",
+                                boxShadow:
+                                    "0 0 8px 2px #a1c7e5, 0 0 12px 4px #abcfeb",
+                                pointerEvents: "none",
                             }}
                             initial={{
                                 opacity: 0,

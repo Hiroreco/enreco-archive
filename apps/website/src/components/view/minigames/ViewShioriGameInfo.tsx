@@ -12,10 +12,10 @@ const ViewShioriGameInfo = () => {
             </p>
 
             <p>
-                If you're curious about exploring Shiori's collection, you have
-                two options: follow her journey (as well as others') day by day,
-                or correctly answer 10 questions here to unlock her full
-                archive.
+                If you're curious about exploring Shiori's collection, which
+                includes books written by her as well as others, you have two
+                options: follow her journey (as well as others') day by day, or
+                correctly answer 10 questions here to unlock her full archive.
             </p>
 
             <p>Let’s see how well you really know Shiorin.</p>

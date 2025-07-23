@@ -148,17 +148,17 @@ const ViewEdgeCard = ({
                                     title={nodeA.data.title || "View node"}
                                 >
                                     <Image
-                                        className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87] transition duration-200 hover:brightness-110 hover:scale-105"
+                                        className="relative aspect-square w-[150px] object-cover transition-all duration-200 hover:scale-105"
                                         style={{
                                             boxShadow: `0 0 0 0px transparent`,
-                                            outline: 'none',
-                                            transition: 'box-shadow 0.2s, filter 0.2s, transform 0.2s',
+                                            outline: "none",
                                         }}
-                                        onMouseEnter={e => {
-                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeA.data.bgCardColor || '#6f6ac6'}99`;
+                                        onMouseEnter={(e) => {
+                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeA.data.bgCardColor || "#6f6ac6"}`;
                                         }}
-                                        onMouseLeave={e => {
-                                            e.currentTarget.style.boxShadow = '0 0 0 0px transparent';
+                                        onMouseLeave={(e) => {
+                                            e.currentTarget.style.boxShadow =
+                                                "0 0 0 0px transparent";
                                         }}
                                         src={nodeA.data.imageSrc}
                                         alt="Node A"
@@ -174,17 +174,17 @@ const ViewEdgeCard = ({
                                     title={nodeB.data.title || "View node"}
                                 >
                                     <Image
-                                        className="relative aspect-square w-[150px] object-cover dark:brightness-[0.87] transition duration-200 hover:brightness-110 hover:scale-105"
+                                        className="relative aspect-square w-[150px] object-cover transition-all duration-200 hover:scale-105"
                                         style={{
                                             boxShadow: `0 0 0 0px transparent`,
-                                            outline: 'none',
-                                            transition: 'box-shadow 0.2s, filter 0.2s, transform 0.2s',
+                                            outline: "none",
                                         }}
-                                        onMouseEnter={e => {
-                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeB.data.bgCardColor || '#6f6ac6'}99`;
+                                        onMouseEnter={(e) => {
+                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeB.data.bgCardColor || "#6f6ac6"}`;
                                         }}
-                                        onMouseLeave={e => {
-                                            e.currentTarget.style.boxShadow = '0 0 0 0px transparent';
+                                        onMouseLeave={(e) => {
+                                            e.currentTarget.style.boxShadow =
+                                                "0 0 0 0px transparent";
                                         }}
                                         src={nodeB.data.imageSrc}
                                         alt="Node B"
