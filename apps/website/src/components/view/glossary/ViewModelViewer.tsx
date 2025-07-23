@@ -1,27 +1,42 @@
 import ViewModelModal from "@/components/view/glossary/ViewModelModal";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { Expand } from "lucide-react";
-import { Suspense, useMemo, useState } from "react";
+import { Suspense, useMemo, useState, useRef, useCallback } from "react";
 
 interface ViewItemViewerProps {
     modelPath: string;
 }
 
-const Model = ({ modelPath }: { modelPath: string }) => {
+const Model = ({ modelPath, paused }: { modelPath: string; paused: boolean }) => {
     const gltf = useGLTF(modelPath);
     const clonedScene = useMemo(() => gltf.scene.clone(), [gltf.scene]);
+    const groupRef = useRef(null);
 
+    useFrame((_, delta) => {
+        if (!paused && groupRef.current) {
+            (groupRef.current as any).rotation.y += delta * 0.3; // rotation
+        }
+    });
+ 
     return (
-        <Center>
-            <primitive object={clonedScene} scale={3.5} dispose={null} />
-        </Center>
+        <group ref={groupRef}>
+            <Center>
+                <primitive object={clonedScene} scale={3.5} dispose={null} />
+            </Center>
+        </group>
     );
 };
 
 const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [paused, setPaused] = useState(false);
+
+    // Pause rotation on any pointer or wheel interaction
+    const handleUserInteract = useCallback(() => {
+        setPaused(true);
+    }, []);
 
     return (
         <div className="relative size-full">
@@ -33,6 +48,11 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                 }}
+                onPointerDown={handleUserInteract}
+                onPointerMove={handleUserInteract}
+                onPointerUp={handleUserInteract}
+                onWheel={handleUserInteract}
+                onClick={handleUserInteract}
             >
                 <ambientLight />
                 <directionalLight />
@@ -46,7 +66,7 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
                         </Center>
                     }
                 >
-                    <Model modelPath={modelPath} />
+                    <Model modelPath={modelPath} paused={paused} />
                 </Suspense>
                 <OrbitControls enableZoom={false} enablePan={false} />
             </Canvas>

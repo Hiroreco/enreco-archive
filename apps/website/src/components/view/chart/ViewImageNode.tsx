@@ -67,7 +67,7 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
             {handles}
             <div
                 className={cn(
-                    "node-content relative cursor-pointer w-[100px] h-[100px] rounded dark:brightness-[0.87]",
+                    "node-content relative cursor-pointer w-[100px] h-[100px] rounded",
                     {
                         "hover:scale-110 transition-transform": !selected,
                     },

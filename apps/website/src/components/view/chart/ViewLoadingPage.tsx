@@ -62,19 +62,43 @@ const ViewLoadingPage = ({
         [useDarkMode],
     );
 
-    // Generate random star positions
+    // Generate random star positions, always outside and drifting away from logo
     const stars = useMemo(() => {
-        return Array.from({ length: 12 }, (_, i) => {
-            const centerOffset = useDarkMode ? 100 : 50; // Wider spread in dark mode, closer in light mode
-            const centerX = 50;
-            const centerY = 50;
+        const numStars = 14;
+        const logoCenterX = 50;
+        const logoCenterY = 50;
+        const logoRadius = 18 + (useDarkMode ? 8 : 0);
+        const minDistance = logoRadius + 12; // minimum distance from logo edge
+        const maxDistance = 48; // max distance from logo center
+
+        return Array.from({ length: numStars }, (_, i) => {
+            // Use more evenly distributed angles to ensure coverage
+            // Mix systematic distribution with some randomness
+            const baseAngle = (i / numStars) * 2 * Math.PI; // evenly spaced base angles
+            const angleVariation =
+                (Math.random() - 0.5) * ((2 * Math.PI) / numStars) * 0.8; // add some randomness
+            const angle = baseAngle + angleVariation;
+
+            // Start outside the logo with some randomness
+            const startRadius =
+                minDistance + Math.random() * (maxDistance - minDistance);
+            const startX = logoCenterX + Math.cos(angle) * startRadius;
+            const startY = logoCenterY + Math.sin(angle) * startRadius;
+
+            // Drift further away from logo center (same angle, outward only)
+            const driftDistance = 16 + Math.random() * 32;
+            const endRadius = startRadius + driftDistance;
+            const endX = logoCenterX + Math.cos(angle) * endRadius;
+            const endY = logoCenterY + Math.sin(angle) * endRadius;
 
             return {
                 id: i,
-                x: centerX + (Math.random() - 0.5) * centerOffset,
-                y: centerY + (Math.random() - 0.5) * centerOffset,
-                delay: Math.random() * 2,
-                duration: 1.5 + Math.random() * 1.5,
+                startX: Math.max(0, Math.min(100, startX)), // clamp to viewport
+                startY: Math.max(0, Math.min(100, startY)), // clamp to viewport
+                endX: Math.max(-20, Math.min(120, endX)), // allow some overflow for natural drift
+                endY: Math.max(-20, Math.min(120, endY)), // allow some overflow for natural drift
+                delay: Math.random() * 1.5,
+                duration: 2.5 + Math.random() * 2,
             };
         });
     }, [useDarkMode]);
@@ -140,21 +164,33 @@ const ViewLoadingPage = ({
                     stars.map((star) => (
                         <motion.div
                             key={star.id}
-                            className="absolute size-1 bg-white rounded-full"
+                            className="absolute rounded-full"
                             style={{
-                                left: `${star.x}%`,
-                                top: `${star.y}%`,
+                                width: "5px",
+                                height: "5px",
+                                background:
+                                    "linear-gradient(90deg, #a1c7e5 60%, #abcfeb 100%)",
+                                boxShadow:
+                                    "0 0 8px 2px #a1c7e5, 0 0 12px 4px #abcfeb",
+                                pointerEvents: "none",
                             }}
-                            initial={{ opacity: 0, scale: 0 }}
+                            initial={{
+                                opacity: 0,
+                                scale: 0,
+                                left: `${star.startX}%`,
+                                top: `${star.startY}%`,
+                            }}
                             animate={{
                                 opacity: [0, 1, 0],
                                 scale: [0, 1, 0],
+                                left: [`${star.startX}%`, `${star.endX}%`],
+                                top: [`${star.startY}%`, `${star.endY}%`],
                             }}
                             transition={{
                                 duration: star.duration,
                                 delay: star.delay,
                                 repeat: Infinity,
-                                repeatDelay: Math.random() * 3 + 1,
+                                repeatDelay: 0.5,
                                 ease: "easeInOut",
                             }}
                         />

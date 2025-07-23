@@ -21,9 +21,10 @@ import ViewGamblingGame from "@/components/view/minigames/ViewGamblingGame";
 import ViewMemoryGame from "@/components/view/minigames/ViewMemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
-import { ReactElement, useCallback, useState } from "react";
+import React, { ReactElement, useCallback, useState } from "react";
 import ViewShioriGame from "@/components/view/minigames/ViewShioriGame";
 import ViewShioriGameInfo from "@/components/view/minigames/ViewShioriGameInfo";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface ViewMiniGameModalProps {
     open: boolean;
@@ -60,11 +61,25 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
         },
         [onClose],
     );
-
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+    const baseClass =
+        "md:max-w-[800px] max-w-none w-[95vw] h-[80vh] transition-all";
+    const defaultClass = "md:max-h-[25rem] " + baseClass;
+    const chickenClass = "md:max-h-[37.5rem] " + baseClass;
+    const shioriClass = "md:max-h-[37.5rem] " + baseClass;
+    const modalClass = React.useMemo(() => {
+        if (game === "shiori" && !isMobile) {
+            return shioriClass;
+        }
+        if (game === "chicken" && !isMobile) {
+            return chickenClass;
+        }
+        return defaultClass;
+    }, [game, isMobile, defaultClass, chickenClass, shioriClass]);
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="md:max-w-[800px] md:max-h-[25rem] max-w-none w-[95vw] h-[80vh] transition-all"
+                className={modalClass}
                 showXButton={true}
                 showXButtonForce={true}
             >
@@ -79,10 +94,7 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
                 </VisuallyHidden>
 
                 <div className="h-full w-full flex flex-col">
-                    <Select
-                        value={game}
-                        onValueChange={(value) => setGame(value)}
-                    >
+                    <Select value={game} onValueChange={setGame}>
                         <SelectTrigger className="mx-auto">
                             <SelectValue />
                         </SelectTrigger>
@@ -99,10 +111,38 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
 
                     {/* Game container */}
                     <div className="flex grow items-center justify-center w-full">
-                        {game === "gambling" && <ViewGamblingGame />}
-                        {game === "memory" && <ViewMemoryGame />}
-                        {game === "chicken" && <ViewChickenGame />}
-                        {game === "shiori" && <ViewShioriGame />}
+                        <AnimatePresence mode="wait">
+                            {[
+                                {
+                                    key: "gambling",
+                                    component: <ViewGamblingGame />,
+                                },
+                                {
+                                    key: "memory",
+                                    component: <ViewMemoryGame />,
+                                },
+                                {
+                                    key: "chicken",
+                                    component: <ViewChickenGame />,
+                                },
+                                {
+                                    key: "shiori",
+                                    component: <ViewShioriGame />,
+                                },
+                            ]
+                                .filter(({ key }) => key === game)
+                                .map(({ key, component }) => (
+                                    <motion.div
+                                        key={key}
+                                        initial={{ opacity: 0 }}
+                                        animate={{ opacity: 1 }}
+                                        exit={{ opacity: 0 }}
+                                        className="w-full h-full flex items-center justify-center"
+                                    >
+                                        {component}
+                                    </motion.div>
+                                ))}
+                        </AnimatePresence>
                     </div>
 
                     <Dialog>
