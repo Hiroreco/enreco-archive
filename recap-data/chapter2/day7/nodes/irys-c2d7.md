@@ -59,6 +59,10 @@ No matter what it took.
 
 ["Devil Incarnate" by Hiro](https://x.com/hiroavrs/status/1945501544251875673)
 
+["HPO ate so much" by underdatv](https://x.com/underdatv/status/1921053079169912913)
+
+<!-- ina, kronii -->
+
 ## Memes
 
 ["The Most Evil Character in Fiction" by Antsy](https://x.com/antsy_af/status/1921049754114339102)
