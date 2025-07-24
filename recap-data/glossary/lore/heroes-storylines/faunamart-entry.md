@@ -1,7 +1,7 @@
-<!-- title: Custody Dispute -->
+<!-- title: FaunaMart and NanaEleven -->
 <!-- quote: It was so obvious that you were scamming people. -->
 <!-- chapters: 0 -->
-<!-- images:(Fauna offers a deal to Nanamoo) -->
+<!-- images: (FaunaMart's daily lottery drawing), (FaunaMart's library funded from the lottery), (NanaEleven's lottery ticket), (FaunaMart and NanaMoo's standoff) -->
 <!-- model: false -->
 
 ## Overview
@@ -21,7 +21,7 @@ By Day 2, [Fauna](#entry:fauna-entry) had decided she’d rather live like an NP
 
 The store quickly became the buzz of the kingdom. From the moment it opened, curious faces wandered in. Some bought goods, but most were drawn in by the prospect of the lottery. The only reason it attracted so many customers so quickly was because of Fauna’s relentless promotion—either through global announcements or by quite literally speaking into people’s minds.
 
-While many suspected a scam, some did win, and others lost. But regardless of the outcome, the CEO remained steadfast in growing her empire. FaunaMart’s very first customer, [Nanamoo](#entry:moom-entry), however, wasn’t one to idly watch Fauna potentially scam others with her _questionable_ business practices. By Day 7, she launched a rival store—**NanaEleven**—complete with its own lottery (which also scammed people).
+While many suspected a scam, some did win, and others lost. But regardless of the outcome, the CEO remained steadfast in growing her empire. FaunaMart’s very first customer, [Nanamoo](#entry:mumei-entry), however, wasn’t one to idly watch Fauna potentially scam others with her _questionable_ business practices. By Day 7, she launched a rival store—**NanaEleven**—complete with its own lottery (which also scammed people).
 
 ### How it ended
 

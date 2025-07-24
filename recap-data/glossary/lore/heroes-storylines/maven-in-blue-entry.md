@@ -1,7 +1,7 @@
 <!-- title: Maven in Blue -->
-<!-- quote: I have to go, there's a dog chasing me. -->
+<!-- quote: I entrusted my fate to the maven in blue -->
 <!-- chapters: 1 -->
-<!-- images:  -->
+<!-- images: (Elizabeth and Nerissa's friendly sparring), (Elizabeth hangs her portrait next to Nerissa's), (Nerissa asking Elizabeth about the missing portrait), (The very sensual and intimate onsen scene), (Nerissa's shrine of herself under her house) -->
 <!-- model: false -->
 
 ## Overview
@@ -31,6 +31,12 @@ Even after the misunderstanding was cleared up, Nerissa’s fixation only deepen
 
 She even built a shrine beneath her house, close to Elizabeth’s home, where mythical music played around the clock—perhaps in hopes of luring the red knight to her side. Even Roa, someone who also had feelings for Elizabeth, sensed the growing danger whenever Nerissa was near.
 
+As for Elizabeth, her concerns lay elsewhere. On the sixth day, while reading a book from Shiori, she came across a passage—one she couldn’t fully trust, yet couldn’t ignore either. It spoke of a moment in the past where she had locked Nerissa behind bars and said cruel things to her, accusing her of having “bewitched” her.
+
+Whether or not those words were true—though Shiori seemed convinced they were—Elizabeth felt a sharp prick in her heart. If their memories were to return, would those painful words turn out to be real?
+
+- [Read "The Cell"](#text:the-cell)
+
 ### How it ended
 
 What was once a fond bond slowly twisted into obsession. By the final day, Nerissa could think of nothing but Elizabeth. She didn’t just want her affection—she wanted Elizabeth's whole heart, her entire attention. No distractions. No rivals.
@@ -43,3 +49,9 @@ What was once a fond bond slowly twisted into obsession. By the final day, Neris
 > I entrusted my fate to the maven in blue
 
 As Nerissa, alongside four others, turned against Fia and the other heroes, this storyline was left on a cliffhanger—with many eager (and anxious) to see how Elizabeth would react to Nerissa’s chilling descent.
+
+- [Read "Maven in Blue"](#text:maven-in-blue)
+
+## Related Stories
+
+- See ["Fire and Flight (First Story)"](#entry:fire-and-flight-entry)

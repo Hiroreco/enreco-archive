@@ -3,9 +3,8 @@
 
 A writer's work was never done; a book must end for another to begin and Shiori's script, too, will soon conclude. It is with this in mind that Shiori found herself writing once again, finishing her last commissions. Only a few remained—Kiara's rather [_suggestive_ fanfiction](https://youtu.be/jh0GSZRpkfU?t=553) and Roa's memory.
 
-[Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
-
-[Read "Cucumber"](#text:cucumber)
+- [Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
+- [Read "Cucumber"](#text:cucumber)
 
 After finishing the newlywed couple's _spicy_ story, Shiori left for the Library to obtain another blank journal for Roa's memory. There, Shiori met her own wife, Bijou. They talk about how the banquet will be magnificent; nothing about it shall be dyed red, but if there will be red, it will be the red of love and hearts! Only trays of joy shall be served—not be*tray*als. [Things will be fine.](https://youtu.be/jh0GSZRpkfU?t=764)
 

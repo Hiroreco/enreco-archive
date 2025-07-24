@@ -18,9 +18,9 @@ As the corruption spread, consuming everything in its path, Elizabeth discovered
 
 With determination and effort, the corruption was finally defeated, and Nerissa was brought back to her usual self. And just like that, they were back to their antics again. To commemorate the occasion, Nerissa gifted Elizabeth some books titled "Nerissa Ravencroft x Elizabeth Rose Bloodflame." Just from the name alone, it was obvious how Elizabeth would [react](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=15714).
 
-[Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
-[Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)
-[Read "Fire and Flight (Volume 3)"](#text:fire-and-flight-3)
+- [Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
+- [Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)
+- [Read "Fire and Flight (Volume 3)"](#text:fire-and-flight-3)
 
 Even as the journey came to an end, the two remained inseparable, constantly flocking to each other, locked in their endless [banter](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=19277). Their relationship was odd, chaotic, and utterly unique—but it was beautiful all the same. And surely, the future held even more for them.
 

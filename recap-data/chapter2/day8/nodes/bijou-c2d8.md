@@ -17,7 +17,7 @@ Immerkind also came by while she was reading. The delusional knight was fully aw
 
 That was her reasoning for collecting all the books she could find, after all.
 
-[Reading the Library Lore Archives](#embed:https://youtu.be/C6kmnHsopgM)
+- [Reading the Library Lore Archives](#embed:https://youtu.be/C6kmnHsopgM)
 
 ---
 

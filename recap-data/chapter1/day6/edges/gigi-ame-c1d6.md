@@ -28,7 +28,7 @@ It was a powerful moment, and with his emotions heavy, Gonathon made his decisio
 
 [A Knight's Tale](#embed:https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=9754)
 
-[Read "A Knight's Tale"](#text:a-knights-tale)
+- [Read "A Knight's Tale"](#text:a-knights-tale)
 
 Later on, during the tournament, something peculiar happened.
 

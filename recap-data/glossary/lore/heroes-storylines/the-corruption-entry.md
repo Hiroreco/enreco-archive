@@ -1,7 +1,7 @@
 <!-- title: The Corruption -->
 <!-- quote: The corrupted shall take over these lands. -->
 <!-- chapters: 0 -->
-<!-- images:  -->
+<!-- images: (Bijou walking across the corrupted lands), (Mococo pleading for Elizabeth's help), (Fuwawa, now corrupted, slaying her own dear chickens), (Ina's battle against her sister), (Bijou drinking the cure, ending the Corruption) -->
 <!-- model: false -->
 
 ## Overview

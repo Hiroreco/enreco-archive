@@ -8,7 +8,7 @@ The chef had a surprising knack for weaving words into wonderful stories, ones s
 
 Then, it came to a halt as Nerissa shared her [particular story](https://www.youtube.com/watch?v=uEB2dIe37oo&t=23330s), a _scam_ that Shiori wrote.
 
-[Read "The Cell"](#text:the-cell)
+- [Read "The Cell"](#text:the-cell)
 
 Thorn.
 

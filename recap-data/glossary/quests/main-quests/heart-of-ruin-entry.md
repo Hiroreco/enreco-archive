@@ -28,7 +28,7 @@ The heroes began their journey in a darkened library, where a select few among t
 
 Within this first library was a book titled _“Prelude of Ruin,”_ hinting at the events and powers that brought the kingdom to its current state.
 
-[Read "Prelude of Ruin"](#text:prelude-of-ruin)
+- [Read "Prelude of Ruin"](#text:prelude-of-ruin)
 
 Progressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains. Each victory built up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by attacks and traps from their cursed allies, which drained the energy meter and delayed their rescue.
 
@@ -38,7 +38,7 @@ Only once the meter was filled could each corrupted hero [be freed](https://www.
 
 Deeper into the dungeon, another library awaited. There, the heroes found the book titled _“Song of Ruin,”_ which detailed the tragic fate of the former Queen and the kingdom as well as the source behind their downfall.
 
-[Read "Song of Ruin"](#text:song-of-ruin)
+- [Read "Song of Ruin"](#text:song-of-ruin)
 
 Finally, at the end of the path, the heroes stood before their last enemy: **The Curse**—the very essence of corruption, the entity that had infected the kingdom and threatened to bring everything to its knees.
 

@@ -9,7 +9,7 @@ She went back to her shop, where she found the story she commissioned from her d
 
 [Doki doki](#embed:https://youtu.be/AwTYvoyB3Xo?t=515)
 
-[Read "The Princess 1"](#text:the-princess-1)
+- [Read "The Princess 1"](#text:the-princess-1)
 
 It was only 10 pages long like she asked, but... it ended on a cliffhanger! She desperately wanted to see what would happen next. Luckily, Shiori just got on, so she was able to ask for a sequel then and there.
 

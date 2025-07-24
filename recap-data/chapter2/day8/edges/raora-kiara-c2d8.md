@@ -4,7 +4,7 @@ Giddy with ecstasy, Kiara could not wait to spend the night with Roa—or heck, 
 
 The phoenix had a plan for how the day was going to go. First, she made sure to receive the fanfic commission she had requested from Shiori yesterday. She acquired an available room in Calli's tavern with extra jukebox amenities and a clear window. Kiara bought two invisibility potions as well—this would prove useful later. As if that wasn't enough, she also asked Immerkind for a lesson on how to thrust... if you know what that means.
 
-[Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
+- [Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
 
 Kiara and Roa meet at Calli's tavern.
 

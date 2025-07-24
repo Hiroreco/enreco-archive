@@ -18,9 +18,8 @@ While Tam attempted to convince Gonathon of Shiori’s duplicity and manipulatio
 
 [The last rites of the humble witch](#embed:https://youtu.be/tJ_YXGE3o2w?t=17762)
 
-[Read "To Gonathon"](#text:to-gonathon)
-
-[Read "Your Promise"](#text:your-promise)
+- [Read "To Gonathon"](#text:to-gonathon)
+- [Read "Your Promise"](#text:your-promise)
 
 ## Fanart
 

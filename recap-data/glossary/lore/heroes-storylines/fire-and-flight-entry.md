@@ -9,7 +9,7 @@
 **Chapter:** 1
 **Duration:** Day 2 to 8
 
-Out of the many questionable relationships in Chapter 1, the one between [Elizabeth](#entry:liz-entrry) and [Nerissa](#entry:nerissa-entry) stood out—not only for its consistency amidst twists and turns, but also for the emotional longevity it promised. What began here was only the beginning of a story expected to last until the journey’s end.
+Out of the many questionable relationships in Chapter 1, the one between [Elizabeth](#entry:liz-entry) and [Nerissa](#entry:nerissa-entry) stood out—not only for its consistency amidst twists and turns, but also for the emotional longevity it promised. What began here was only the beginning of a story expected to last until the journey’s end.
 
 ## Details
 
@@ -38,17 +38,25 @@ But no matter how many headaches the blue menace caused, Elizabeth cared deeply 
 
 ### How it ended
 
-On the final day of Chapter 1, when the corruption was at its peak, Nerissa succumbed to it. But instead of pushing her away, Elizabeth—despite her deep hatred for the corruption and the danger it posed—remained calm. She took Nerissa’s hand, and [saved her.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12224)
+On the final day of Chapter 1, when the corruption was at its peak, Nerissa succumbed to it.
+
+But instead of pushing her away, Elizabeth—despite her deep hatred for the corruption and the danger it posed—remained calm. She took Nerissa’s hand, and [saved her.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12224)
 
 > You hear that beautiful music? Join and listen even more.
+
+Before this took place, Elizabeth and Nerissa had a heated argument. Nerissa, ever skeptical and sharp-eyed, tried to convince the scarlet knight that the King, the very one Elizabeth had sworn loyalty to, might not be as righteous as he seemed. That he could be manipulating everyone from the shadows.
+
+To Elizabeth, this was nothing short of blasphemy. Her faith in the King was unwavering, and the idea that he could be anything but noble infuriated her. She nearly came to resent Nerissa for daring to say such things.
+
+Yet, when the time came—despite the anger, despite the doubts, despite the emotional distance that argument had carved between them—Elizabeth saved her anyway.
 
 Maybe it was simply her duty as a knight. Maybe she was just saving someone in need. But deep down, it meant more—it always did. To save the one who stirred such feelings in her, to protect someone who tugged at her heart in ways she couldn't explain, meant everything.
 
 This was the beginning of something special—a bond destined to carry on through the chapters ahead.
 
-## Continuation
+## Related Stories
 
-- See ["Maven in Blue"](#entry:maven-in-blue)
+- See ["Maven in Blue (Continuation)"](#entry:maven-in-blue-entry)
 
 ## Credits
 

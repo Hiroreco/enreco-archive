@@ -15,11 +15,9 @@ Shiori also took the opportunity to promote her growing business, selling "memor
 
 [Her writing is this fire?](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=a1GZJG59uOdXfzBc&t=11809)
 
-[Read "Chicken"](#text:chicken)
-
-[Read "Pickles"](#text:pickles)
-
-[Read "Gyatt"](#text:gyatt)
+- [Read "Chicken"](#text:chicken)
+- [Read "Pickles"](#text:pickles)
+- [Read "Gyatt"](#text:gyatt)
 
 As the day continued, Elizabeth focused on improving her forge, even constructing a hidden underground bunker to safely store her goods. Of course, she had a secondary motive too: a perfect place to [prank people](https://www.youtube.com/live/vbppXmxXo7o?si=ewOxwttSz3l0BUTO&t=22074) without being caught.
 

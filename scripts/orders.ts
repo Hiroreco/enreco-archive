@@ -40,11 +40,28 @@ export const GLOSSARY_MAIN_QUESTS_ORDER = [
 export const GLOSSARY_LORE_GENERAL_ORDER = [
     "libestal-ancient",
     "libestal-ficta",
+    "library",
+    "sanctuary",
     "stains",
     "revelations",
+    "libestans",
 ];
 
 export const GLOSSARY_LORE_LOCATIONS_ORDER = ["library", "sanctuary"];
+
+export const GLOSSARY_LORE_HEROES_STORYLINES_ORDER = [
+    "maven-in-blue",
+    "humble-knight-witch",
+    "hot-pink-one-collapse",
+    "custody-dispute",
+    "fluffy-cafe",
+    "inbread",
+    "the-corruption",
+    "a-knights-tale",
+    "fire-and-flight",
+    "lottery-fiasco",
+    "faunamart",
+];
 
 export const GLOSSARY_MISC_MECHANICS = ["jobs", "minigames", "guilds"];
 

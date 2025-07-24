@@ -17,7 +17,7 @@ A world of fantasy, time travel, cutthroat capitalism, and minimum wage labor—
 
 Novel complete.
 
-[Read Sea x Lovers](#text:sea-x-lovers)
+- [Read Sea x Lovers](#text:sea-x-lovers)
 
 The next hurdle? Marketing it. Figuring out how to make money off it. Luckily, Shiori knew just the right person to humbly request assistance from.
 

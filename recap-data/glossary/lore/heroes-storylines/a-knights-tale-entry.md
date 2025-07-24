@@ -1,7 +1,7 @@
 <!-- title: A Knight's Tale -->
 <!-- quote: For he knows a selfish request such as his, could never be true. -->
 <!-- chapters: 0 -->
-<!-- images: (Gonathon proposing to Jyon Watson) -->
+<!-- images: (A gift of 10 diamonds, Gonathon was then married to Jyon Watson), (Amelia meeeting Gonathon having forgotten about him), (The Hot Pink One's attempt to steal Amelia), (Gonathon and Amelia's happy ending) -->
 <!-- model: false -->
 
 ## Overview
@@ -23,9 +23,13 @@ However, through moments of understanding and generous gifts of diamonds, the tw
 
 Gonathon proved to be a devoted husband, doing everything he could to keep Amelia, his “Pearl,” safe and happy. Amelia, of course, remained thoroughly herself. The humble knight would fetch her money and rush to her side at the slightest hint of danger, and there was no shortage of “danger” headed her way. Gura, Bijou, Nerissa, and most notably the Hot Pink One, frequently teased the knight by pretending to steal his wife. Though in the Hot Pink One’s case, she wasn’t pretending.
 
+Gonathon was a humble and just knight through and through. He helped others, showed kindness at every turn, and his love for his wife was purer than anything.
+
 Their tale seemed destined for a happy ending, until the sixth day, when Amelia regained her past memories after conquering the Ancient Sewers Dungeon—and forgot everything about Gonathon. Heartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.
 
 [And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=5989)
+
+- [Read "A Knight's Tale"](#text:a-knights-tale)
 
 ### How it ended
 
@@ -35,6 +39,8 @@ This desperation led her into the arms of the Hot Pink One, who [tried to deceiv
 
 In the end, with unwavering loyalty and love, Amelia and Gonathon reunited at the kingdom’s onsen. There, the two [confessed their feelings](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=10312) once more. And although her memories hadn't returned, Amelia chose to take the knight’s hand—ready to forge new ones together.
 
-## Continuation
+- [Read "A Knight's Wish"](#text:a-knights-wish)
 
-- See ["The Humble Knight and the Witch"](#entry:humble-knight-witch-entry)
+## Related Stories
+
+- See ["The Humble Knight and the Witch (Continuation)"](#entry:humble-knight-witch-entry)

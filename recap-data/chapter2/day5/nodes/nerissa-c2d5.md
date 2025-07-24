@@ -9,7 +9,7 @@ Nothing could possibly ruin her mood on such a good da—wait. Why wasn’t her 
 
 Ah. Of course. Doomed yuri was the theme of the day. Fantastic. Just what she needed.
 
-[Read "Dearest Knight"](#text:dearest-knight)
+- [Read "Dearest Knight"](#text:dearest-knight)
 
 But personal heartbreak aside, Nerissa had more pressing things to focus on—like tackling the newest dungeon, _Star Site: Chaos_, and recovering the memories of [Hakos Baelz](https://www.youtube.com/live/m5VOeHvSgbI?si=9bu0M3cWXrMpstRN&t=10832). Or helping others catch up with the previous dungeon. Maybe commissioning Shiori to write something about [her past](https://www.youtube.com/live/m5VOeHvSgbI?si=9Hcx5S3SAxi5tYqg&t=8695); after all, if anyone could weave together forgotten memories, it would be the kingdom’s Archiver.
 

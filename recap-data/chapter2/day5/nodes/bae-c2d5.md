@@ -15,7 +15,7 @@ Rings were too soon, but flowers gave the 'right' touch of Bae's intention. The 
 
 [Dearest ImmerKind...](#embed:https://youtu.be/L7rBGepFrXA?t=2543)
 
-[Read "My confession"](#text:my-confession)
+- [Read "My confession"](#text:my-confession)
 
 Words flowed out like a steady river from Bae's quill, passion burning itself onto the parchment. Each feeling is transcribed carefully and precisely, hoping that the Fair Maiden can hear Bae's sincerity and ardent love. After being [proofread by others](https://youtu.be/L7rBGepFrXA?t=3130), the Hot Pink One notwithstanding her rating of 6/10, it was ready.
 

@@ -12,7 +12,7 @@ Whether this wish of his was genuine or just a fleeting moment of longing, he wo
 
 [A Knight's Wish](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=9475)
 
-[Read "A Knight's Wish"](#text:a-knights-wish)
+- [Read "A Knight's Wish"](#text:a-knights-wish)
 
 After the corruption had been vanquished, while helping others rebuild, Gonathon received an urgent call from Ina, requesting his presence immediately. When he arrived, he was met with a gut-wrenching sight—the Hot Pink One had deceived Amelia, twisting reality to make the detective believe she was wedded to her.
 

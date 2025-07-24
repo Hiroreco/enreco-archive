@@ -3,10 +3,10 @@
 
 Despite her declaration from the day before, nothing out of the ordinary had happened... at least, not yet. Well—aside from her [portrait](https://youtu.be/-BFf3e6YJwY?t=344) being quietly relocated to a basement. A space that, upon closer inspection, revealed itself to be a secret chamber—one seemingly dedicated to worship. Behind the pristine portrait lay shelves of peculiar books. Were they ancient tomes of witchcraft? Simple tales of longing and loss? Or perhaps ominous prophecies that had yet to come true...
 
-[Read "Go, lovely rose"](#text:go-lovely-rose)
-[Read "Stanzas"](#text:stanzas)
-[Read "Maven in Blue"](#text:maven-in-blue)
-[Read "Hamlet"](#text:hamlet)
+- [Read "Go, lovely rose"](#text:go-lovely-rose)
+- [Read "Stanzas"](#text:stanzas)
+- [Read "Maven in Blue"](#text:maven-in-blue)
+- [Read "Hamlet"](#text:hamlet)
 
 ---
 

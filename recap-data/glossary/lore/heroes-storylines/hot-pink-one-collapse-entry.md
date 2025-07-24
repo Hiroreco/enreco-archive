@@ -1,7 +1,7 @@
 <!-- title: A Hot Pink’s Collapsing Relationship -->
 <!-- quote: For he knows a selfish request such as his, could never be true. -->
 <!-- chapters: 1 -->
-<!-- images: (The Hot Pink's gender reveal party) -->
+<!-- images: (Tam Gandr being humiliated by the Hot Pink One), (Oh yeah, she tried to commit sudoku at one point), (The Hot Pink's gender reveal party), (The Hot Pink One reading Ina's last letter to her) -->
 <!-- model: false -->
 
 ## Overview
@@ -44,3 +44,7 @@ In the end, as all the drama came crashing down, the Hot Pink One was left alone
 She left a letter—saying it had all become too much. That she needed to reflect, to repent. And so she left, embarking on a journey of enlightenment.
 
 The Hot Pink One stood in the ruins of her own making.
+
+## Credits
+
+- Entry thumbnail by [underdatv](https://x.com/underdatv/status/1921053079169912913/)

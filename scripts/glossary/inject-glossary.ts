@@ -1,14 +1,13 @@
-import fs from "fs/promises";
-import path from "path";
-import { fileURLToPath } from "url";
 import type {
     CommonItemData,
     GalleryImage,
 } from "@enreco-archive/common/types";
+import fs from "fs/promises";
+import path from "path";
 import {
     CHARACTER_ORDER,
     GLOSSARY_LORE_GENERAL_ORDER,
-    GLOSSARY_LORE_LOCATIONS_ORDER,
+    GLOSSARY_LORE_HEROES_STORYLINES_ORDER,
     GLOSSARY_MAIN_QUESTS_ORDER,
     GLOSSARY_MISC_MECHANICS,
     GLOSSARY_WEAPONS_ORDER,
@@ -33,8 +32,8 @@ const getSortOrder = (category: string, subcategory: string): string[] => {
             return GLOSSARY_MISC_MECHANICS;
         case "lore.general":
             return GLOSSARY_LORE_GENERAL_ORDER;
-        case "lore.locations":
-            return GLOSSARY_LORE_LOCATIONS_ORDER;
+        case "lore.heroes-storylines":
+            return GLOSSARY_LORE_HEROES_STORYLINES_ORDER;
         // Add more mappings as needed
         default:
             return []; // No specific order

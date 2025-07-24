@@ -53,9 +53,9 @@ One particularly chilling discovery was that of the _ruin-touched_—people who 
 
 On Day 7, during the final dungeon, the [Heart of Ruin](#entry:heart-of-ruin-entry), five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades until the others managed to purify and rescue them.
 
-[Read "The Truth of Ruin"](#text:the-truth-of-ruin)
-[Read "Prelude of Ruin"](#text:prelude-of-ruin)
-[Read "Song of Ruin"](#text:song-of-ruin)
+- [Read "The Truth of Ruin"](#text:the-truth-of-ruin)
+- [Read "Prelude of Ruin"](#text:prelude-of-ruin)
+- [Read "Song of Ruin"](#text:song-of-ruin)
 
 ### Current Theories
 
@@ -65,4 +65,4 @@ At the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa,
 
 ## Trivia
 
-- The corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:storylines-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.
+- The corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:the-corruption-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.

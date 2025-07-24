@@ -10,7 +10,7 @@
 
 The Volcanic Dungeon was by far the most challenging in Chapter 1, featuring a gauntlet of fiery obstacles designed to test the heroes' patience and perseverance. Fittingly, its central theme revolved around resurrection and retrying, embodying the spirit of the mighty phoenix: [Takanashi Kiara](#entry:kiara-entry).
 
-[Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)
+- [Read the Volcano Dungeon's Journals](#text:volcano-dungeon-lore)
 
 ## Details
 

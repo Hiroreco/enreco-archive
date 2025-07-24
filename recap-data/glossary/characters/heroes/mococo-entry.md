@@ -20,7 +20,7 @@ Mococo Abyssguard was hardly the image of a typical hero. Notorious for her lott
 
 Mococo’s journey began in a vulnerable place. Before Elizabeth promised to be her protector and big sister, she was terrified of this strange new world—easily frightened and desperate not to be left [alone.](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=4128) But with her friends’ support, she slowly found her footing, working hard and living up to her role as a hero—though that didn’t last long.
 
-By the second day, she had discovered [FaunaMart’s lottery tickets](#entry:storylines-entry). It started with just a couple, but soon grew to hundreds, as the doggo blew through her funds despite everyone’s concerns. What began as harmless fun soon spiraled into an addiction. Mococo became a problem herself, extorting friends for more money and [straining relationships.](https://www.youtube.com/live/5swK4fB2smo?t=1251)
+By the second day, she had discovered [FaunaMart’s lottery tickets](#entry:faunamart-entry). It started with just a couple, but soon grew to hundreds, as the doggo blew through her funds despite everyone’s concerns. What began as harmless fun soon spiraled into an addiction. Mococo became a problem herself, extorting friends for more money and [straining relationships.](https://www.youtube.com/live/5swK4fB2smo?t=1251)
 
 Yet there were glimpses of something more to her. Her obsession with money led her to understand she actually needed to _work_ for it—do business, hustle, and earn her keep. Her sister and friends were still the most important things in her life. Underneath it all, Mococo was terrified of being alone. Eventually, she managed to quit gambling—at least until NanaEleven tempted her back.
 

@@ -3,7 +3,7 @@
 
 From the start of the day, it seemed that Liz had Juliet living rent-free in the back of her mind. Her usual morning routine of writing in her journal left an entire section dedicated [to Juliet, signed by Romeo](https://www.youtube.com/live/uEB2dIe37oo?si=7SOCL_EVYdha0nu6&t=270). Elizabeth felt bound by duty, memory, and expectation, leaving her envying Nerissa's freedom or perhaps admiring it.
 
-[Read "From Romeo"](#text:from-romeo)
+- [Read "From Romeo"](#text:from-romeo)
 
 With more gifts from anonymous donors, Elizabeth realizes it's time to expand the LOO and move its location from indoors to around the backside, making it easier to access the basement from behind the Jade Forge.
 

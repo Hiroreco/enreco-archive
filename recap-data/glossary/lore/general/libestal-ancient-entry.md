@@ -8,7 +8,7 @@
 
 Ancient Libestal, unlike the [fabricated kingdom](#entry:libestal-ficta-entry) the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.
 
-[Read "Kingdom of Libestal (Ancient)"](#text:libestal-ancient)
+- [Read "Kingdom of Libestal (Ancient)"](#text:libestal-ancient)
 
 ## Details
 

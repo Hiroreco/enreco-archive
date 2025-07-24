@@ -16,7 +16,7 @@ As the heroes faced off against the [Outsider](#entry:outsider-entry) and watche
 
 > _The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases._
 
-[Read "The Library"](#text:the-library)
+- [Read "The Library"](#text:the-library)
 
 ### Appearance and Role
 
@@ -34,60 +34,60 @@ Lore played a crucial role in the second chapter, uncovering the [kingdom’s](#
 
 Contained records on major figures and the overarching history of the kingdom of Libestal.
 
-[Read "Fia"](#text:fia)
-[Read "Libestal Ficta"](#text:libestal-ficta)
-[Read "Libestal"](#text:libestal-ancient)
-[Read "The Outsider"](#text:the-outsider)
-[Read "The Library"](#text:the-library)
+- [Read "Fia"](#text:fia)
+- [Read "Libestal Ficta"](#text:libestal-ficta)
+- [Read "Libestal"](#text:libestal-ancient)
+- [Read "The Outsider"](#text:the-outsider)
+- [Read "The Library"](#text:the-library)
 
 #### Book of Prophecies
 
 As described by the Princess, this book knew all and revealed all. It didn’t simply predict the future—it _defined_ it, including the doomed fate of Libestal.
 
-[Read "Book of Prophecies 3:21"](#text:book-of-prophecies-3-21)
-[Read "Book of Prophecies 3:7"](#text:book-of-prophecies-3-7)
-[Read "Book of Prophecies 8:4"](#text:book-of-prophecies-8-4)
-[Read "Book of Prophecies 3:14"](#text:book-of-prophecies-3-14)
-[Read "Book of Prophecies 6:10"](#text:book-of-prophecies-6-10)
-[Read "Book of Prophecies 2:29"](#text:book-of-prophecies-2-29)
+- [Read "Book of Prophecies 3:21"](#text:book-of-prophecies-3-21)
+- [Read "Book of Prophecies 3:7"](#text:book-of-prophecies-3-7)
+- [Read "Book of Prophecies 8:4"](#text:book-of-prophecies-8-4)
+- [Read "Book of Prophecies 3:14"](#text:book-of-prophecies-3-14)
+- [Read "Book of Prophecies 6:10"](#text:book-of-prophecies-6-10)
+- [Read "Book of Prophecies 2:29"](#text:book-of-prophecies-2-29)
 
 #### Explorer's Journal
 
 The diary of an explorer who, before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.
 
-[Read "Explorer's Journal #1"](#text:explorers-journal-1)
-[Read "Explorer's Journal #2"](#text:explorers-journal-2)
-[Read "Explorer's Journal #3"](#text:explorers-journal-3)
-[Read "Explorer's Journal #4"](#text:explorers-journal-4)
-[Read "Explorer's Journal #5"](#text:explorers-journal-5)
+- [Read "Explorer's Journal #1"](#text:explorers-journal-1)
+- [Read "Explorer's Journal #2"](#text:explorers-journal-2)
+- [Read "Explorer's Journal #3"](#text:explorers-journal-3)
+- [Read "Explorer's Journal #4"](#text:explorers-journal-4)
+- [Read "Explorer's Journal #5"](#text:explorers-journal-5)
 
 #### Researcher's Journal
 
 The records of a researcher studying the spread of shadowy beings known as the Stains. Their writings chronicled a desperate attempt to uncover whether the Book of Prophecies—and the Ruination it foretold—would truly bring about the world’s end.
 
-[Read "Researcher's Journal #1"](#text:researchers-journal-1)
-[Read "Researcher's Journal #2"](#text:researchers-journal-2)
-[Read "Researcher's Journal #3"](#text:researchers-journal-3)
-[Read "Researcher's Journal #4"](#text:researchers-journal-4)
-[Read "Researcher's Journal #5"](#text:researchers-journal-5)
+- [Read "Researcher's Journal #1"](#text:researchers-journal-1)
+- [Read "Researcher's Journal #2"](#text:researchers-journal-2)
+- [Read "Researcher's Journal #3"](#text:researchers-journal-3)
+- [Read "Researcher's Journal #4"](#text:researchers-journal-4)
+- [Read "Researcher's Journal #5"](#text:researchers-journal-5)
 
 #### Rider's Journal
 
 The diary of a refugee and caretaker of gryphons, who bore witness to the devastation wrought by the Stains—losing not only their home, but also their beloved companions.
 
-[Read "Rider's Journal #1"](#text:riders-journal-1)
-[Read "Rider's Journal #2"](#text:riders-journal-2)
-[Read "Rider's Journal #3"](#text:riders-journal-3)
-[Read "Rider's Journal #4"](#text:riders-journal-4)
-[Read "Rider's Journal #5"](#text:riders-journal-5)
+- [Read "Rider's Journal #1"](#text:riders-journal-1)
+- [Read "Rider's Journal #2"](#text:riders-journal-2)
+- [Read "Rider's Journal #3"](#text:riders-journal-3)
+- [Read "Rider's Journal #4"](#text:riders-journal-4)
+- [Read "Rider's Journal #5"](#text:riders-journal-5)
 
 #### Heart of Ruin
 
 This tome revealed the source of the Ruination, the calamity it unleashed, and the true nature of the corruption itself.
 
-[Read "The Truth of Ruin"](#text:the-truth-of-ruin)
-[Read "Prelude of Ruin"](#text:prelude-of-ruin)
-[Read "Song of Ruin"](#text:song-of-ruin)
+- [Read "The Truth of Ruin"](#text:the-truth-of-ruin)
+- [Read "Prelude of Ruin"](#text:prelude-of-ruin)
+- [Read "Song of Ruin"](#text:song-of-ruin)
 
 ### The Heroes' Journals
 

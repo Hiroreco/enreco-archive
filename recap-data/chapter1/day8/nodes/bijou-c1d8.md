@@ -15,9 +15,9 @@ Her amusement didn’t last long. Bijou then confronted the King, whom she mocki
 
 Bijou’s ambition extended beyond destruction. She envisioned rewriting the kingdom’s history, replacing its library’s contents with her own twisted tales.
 
-[Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
-[Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)
-[Read "Fire and Flight (Volume 3)"](#text:fire-and-flight-3)
+- [Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
+- [Read "Fire and Flight (Volume 2)"](#text:fire-and-flight-2)
+- [Read "Fire and Flight (Volume 3)"](#text:fire-and-flight-3)
 
 As she pondered, flashes of memories surfaced—fragments of bonds forged during her journey. For a fleeting moment, her corrupted heart wavered. But she quickly dismissed those thoughts. Her former companions, comrades, and even those she had shared moments of intimacy with no longer mattered. Power was her sole focus now. Yet, in her solitude, an unshakable loneliness lingered.
 

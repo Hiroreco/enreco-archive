@@ -1,7 +1,7 @@
 <!-- title: Lottery Fiasco -->
 <!-- quote: I have to go, there's a dog chasing me. -->
 <!-- chapters: 0 -->
-<!-- images: (Mococo and the lottery situation) -->
+<!-- images: (Nerissa getting threatened and extorted by Mococo), (Mococo and FaunaMart attempting to settle the case), (10,000 coins and kisses) -->
 <!-- model: false -->
 
 ## Overview
@@ -47,3 +47,7 @@ Feeling bad for the fuzzy one and just wanting to end the whole ordeal, Fauna la
 
 And just like that, they were friends again.
 Hurray.
+
+## Related Stories
+
+- See ["FaunaMart and NanaEleven"](#entry:faunamart-entry)

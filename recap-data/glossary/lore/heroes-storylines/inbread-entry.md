@@ -1,7 +1,7 @@
 <!-- title: The In-bread Incident -->
 <!-- quote: Can you feel our buns rubbing against you. -->
 <!-- chapters: 1 -->
-<!-- images:  -->
+<!-- images: ("What if, they're siblings?" Gonathon exclaimed), (They're all related to each other now) -->
 <!-- model: false -->
 
 ## Overview

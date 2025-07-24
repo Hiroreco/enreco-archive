@@ -7,13 +7,12 @@ Another day, another set of commissions Shiori was hired to write. Stories with 
 
 Soon, the queenly commission was done; a touch of mossy cobblestone on the parchment was all that was left, and all that was left was to deliver the story.
 
-[Read "Tam x Tam"](#text:tam-x-tam)
+- [Read "Tam x Tam"](#text:tam-x-tam)
 
 But there were more commissions to finish stories and—[memories](https://youtu.be/tJ_YXGE3o2w?t=1098). Shiori wrote and wrote, putting down the memories only she, as the Archiver, could know. Details that her customers appreciated, as their true memories were also woven into some of the stories requested. Memories are precious things, and like precious things, they come at a price. Soon, the memory was finished and delivered to the Raven One. Now, another... [but at a more appropriate place](https://youtu.be/tJ_YXGE3o2w?t=1667).
 
-[Read "Blooraven Smut"](#text:bloodraven-smut)
-
-[Read "The Princess #2"](#text:the-princess-2)
+- [Read "Blooraven Smut"](#text:bloodraven-smut)
+- [Read "The Princess #2"](#text:the-princess-2)
 
 [Another gift soon made its way to her](https://youtu.be/tJ_YXGE3o2w?t=1734) from Elizabeth to thank Shiori for her kindness. The two talked, and Shiori was pleased to see the stories she wrote for Elizabeth were displayed, although Elizabeth decided to cancel her memory commission of Ravencroft, to which Shiori easily agreed. The two would share a warm conversation before they parted ways. [It seems Shiori's plan is working today](https://youtu.be/tJ_YXGE3o2w?t=2541).
 

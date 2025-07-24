@@ -1,7 +1,7 @@
 <!-- title: The Humble Knight and the Witch -->
 <!-- quote: If I were to describe our relationship... It was kindness. -->
 <!-- chapters: 1 -->
-<!-- images:  -->
+<!-- images:  (Gonathon and Shiori sharing the same roof), (Shiori attempting to disrupt Gonathon's blind date), (Gonathon stumbles upon Shiori's "affair"), (Shiori's letter to Gonathon before wiping out her memories of him), (Shiori, having erased her memories, chatting with Gonathon) -->
 <!-- model: false -->
 
 ## Overview
@@ -33,7 +33,7 @@ On the fourth day, when Shakira set up a blind date between Mordan and Gonathon,
 
 Later, when she asked Gonathon if he wanted to move forward in their relationship, he hesitated—unsure, needing even his Queen, Tam, to weigh in and "monitor" their relationship. It was disheartening.
 
-More and more, his weaknesses showed. He ignored her, didn’t listen, never gave her the attention she yearned for. He fumbled.
+More and more, his weaknesses showed. He ignored her, didn’t listen, and never gave her the attention she so deeply yearned for. He didn’t even allow her to explain when he misunderstood a situation—one where Shiori was merely trying to fulfill his request—as her having an affair with someone else. In other words, he fumbled.
 
 Maybe it was because someone else already held that space in his heart. Maybe this relationship was never meant to be.
 
@@ -52,3 +52,7 @@ Shiori, even without the memories, could still feel something. Something warm. S
 And with that, the two went their separate ways.
 
 Yet with Shiori’s heel turn alongside others at the end of Chapter 2, this story may not be over—many now await Gonathon’s response to her unexpected betrayal.
+
+## Related Stories
+
+- See ["A Knight's Tale (First Story)"](#entry:a-knights-tale-entry)

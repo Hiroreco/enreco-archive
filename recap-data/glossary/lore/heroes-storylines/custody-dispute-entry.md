@@ -1,7 +1,7 @@
 <!-- title: Custody Dispute -->
 <!-- quote: Someone such as you does not deserve to be this child's parent! -->
 <!-- chapters: 0 -->
-<!-- images: (The child dispute between Bae and Bijou) -->
+<!-- images: (Bijou confronting Bae about her child), (The Child Dispute Court Case) -->
 <!-- model: false -->
 
 ## Overview
