@@ -1,7 +1,7 @@
 <!-- title: Lottery Fiasco -->
 <!-- quote: I have to go, there's a dog chasing me. -->
 <!-- chapters: 0 -->
-<!-- images:  -->
+<!-- images: (Mococo and the lottery situation) -->
 <!-- model: false -->
 
 ## Overview
