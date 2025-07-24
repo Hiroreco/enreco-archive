@@ -50,10 +50,16 @@ interface GlossaryContextType {
     currentEntry: LookupEntry | null;
     history: LookupEntry[];
     goingBack: boolean;
+    homeScrollPositions: Record<Category, number>;
     selectItem: (entry: LookupEntry | null, scrollPosition?: number) => void;
     goBack: () => void;
     goHome: () => void;
     clearHistory: () => void;
+    saveHomeScrollPosition: (
+        category: Category,
+        scrollPosition: number,
+    ) => void;
+    getHomeScrollPosition: (category: Category) => number;
 }
 
 const GlossaryContext = createContext<GlossaryContextType | null>(null);
@@ -62,6 +68,15 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
     const [currentEntry, setCurrentEntry] = useState<LookupEntry | null>(null);
     const [history, setHistory] = useState<LookupEntry[]>([]);
     const [goingBack, setGoingBack] = useState(false);
+    const [homeScrollPositions, setHomeScrollPositions] = useState<
+        Record<Category, number>
+    >({
+        "cat-weapons": 0,
+        "cat-characters": 0,
+        "cat-lore": 0,
+        "cat-quests": 0,
+        "cat-misc": 0,
+    });
 
     const selectItem = (
         entry: LookupEntry | null,
@@ -96,6 +111,20 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
         setHistory([]);
     };
 
+    const saveHomeScrollPosition = (
+        category: Category,
+        scrollPosition: number,
+    ) => {
+        setHomeScrollPositions((prev) => ({
+            ...prev,
+            [category]: scrollPosition,
+        }));
+    };
+
+    const getHomeScrollPosition = (category: Category) => {
+        return homeScrollPositions[category] || 0;
+    };
+
     return (
         <GlossaryContext.Provider
             value={{
@@ -107,6 +136,9 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
                 goBack,
                 goHome,
                 clearHistory,
+                homeScrollPositions,
+                saveHomeScrollPosition,
+                getHomeScrollPosition,
             }}
         >
             {children}

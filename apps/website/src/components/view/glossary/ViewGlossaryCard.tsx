@@ -11,7 +11,14 @@ import {
     Sword,
     UserRound,
 } from "lucide-react";
-import { ReactElement, useCallback, useEffect, useMemo, useState } from "react";
+import {
+    ReactElement,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
+} from "react";
 
 import ViewGlossarySelector from "@/components/view/glossary/ViewGlossarySelector";
 import ViewGlossaryViewer from "@/components/view/glossary/ViewGlossaryViewer";
@@ -72,6 +79,8 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
     const [selectedChapter, setSelectedChapter] = useState(-1);
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
+    const homeScrollRef = useRef<HTMLDivElement>(null);
+
     const {
         registry,
         currentEntry,
@@ -80,6 +89,8 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         selectItem,
         goBack,
         goHome,
+        saveHomeScrollPosition,
+        getHomeScrollPosition,
     } = useGlossary();
 
     const allEmpty = useMemo(
@@ -150,6 +161,26 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
         }
     }, [canGoPrev, currentItemIndex, flattenedItems, registry, selectItem]);
 
+    const handleItemClick = useCallback(
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (item: any) => {
+            // Save current home scroll position before navigating away
+            if (homeScrollRef.current && currentEntry === null) {
+                const scrollPosition = homeScrollRef.current.scrollTop;
+                saveHomeScrollPosition(selectedCategory, scrollPosition);
+            }
+            const entry = registry[item.id];
+            selectItem(entry);
+        },
+        [
+            registry,
+            selectItem,
+            selectedCategory,
+            saveHomeScrollPosition,
+            currentEntry,
+        ],
+    );
+
     // If context.selected changes (via a #item link), jump to its category
     useEffect(() => {
         if (currentEntry) {
@@ -193,7 +224,6 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 return;
             }
 
-            // Add keyboard navigation for prev/next
             if (currentEntry !== null) {
                 if (event.key === "ArrowLeft" && canGoPrev) {
                     goToPrev();
@@ -311,13 +341,26 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
                             className="overflow-x-hidden overflow-y-auto space-y-6 h-full"
+                            ref={homeScrollRef}
+                            onAnimationComplete={() => {
+                                const savedPosition =
+                                    getHomeScrollPosition(selectedCategory);
+                                if (
+                                    savedPosition > 0 &&
+                                    homeScrollRef.current
+                                ) {
+                                    homeScrollRef.current.scrollTo({
+                                        top: savedPosition,
+                                        behavior: "smooth",
+                                    });
+                                }
+                            }}
                         >
                             {allEmpty ? (
                                 <div className="text-center text-xl text-muted-foreground">
                                     Nothing here but us chickens
                                 </div>
                             ) : (
-                                // For each non-empty subcategory, render a heading + its items
                                 Object.entries(filteredData).map(
                                     ([subcat, items]) => {
                                         if (items.length === 0) return null;
@@ -332,19 +375,9 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                                                         <ViewGlossarySelector
                                                             key={item.id}
                                                             item={item}
-                                                            onItemClick={(
-                                                                it,
-                                                            ) => {
-                                                                // find which registry entry it was:
-                                                                // also prettier wtf is this formatting
-                                                                const entry =
-                                                                    registry[
-                                                                        it.id
-                                                                    ];
-                                                                selectItem(
-                                                                    entry,
-                                                                );
-                                                            }}
+                                                            onItemClick={
+                                                                handleItemClick
+                                                            }
                                                         />
                                                     ))}
                                                 </div>
@@ -418,6 +451,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                     className="m-auto"
                     value={selectedCategory}
                     onValueChange={(value) => {
+                        saveHomeScrollPosition(selectedCategory, 0);
                         setSelectedCategory(value as Category);
                         selectItem(null);
                         clearHistory();
