@@ -1,7 +1,7 @@
 <!-- title: The Fluffy One's Cafe -->
 <!-- quote: Oh my goodness, you really enjoy the food I make? Bau bau! -->
 <!-- chapters: 1 -->
-<!-- images: (Fuwawa's chicken companion, Moco-chan), (Fuwawa's sad diary entry about her dream), (Shakira buying out dozens of Fuwawa's dishes), (Fuwawa learning her dream has come true)-->
+<!-- images: (Fuwawa's chicken companion, Moco-chan), (Fuwawa's sad diary entry about her dream), (Shakira buying out a bunch of Fuwawa's dishes), (Fuwawa learning her dream has come true)-->
 <!-- model: false -->
 
 ## Overview

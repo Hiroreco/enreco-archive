@@ -1,7 +1,7 @@
 <!-- title: The Humble Knight and the Witch -->
 <!-- quote: If I were to describe our relationship... It was kindness. -->
 <!-- chapters: 1 -->
-<!-- images:  (Gonathon and Shiori sharing the same roof), (Shiori attempting to disrupt Gonathon's blind date), (Gonathon stumbles upon Shiori's "affair"), (Shiori's letter to Gonathon before wiping out her memories of him), (Shiori, having erased her memories, chatting with Gonathon) -->
+<!-- images:  (Gonathon offering Shiori to live together), (Shiori drowning to disrupt Gonathon's blind date), (Gonathon stumbles upon Shiori's "affair"), (Shiori's letter to Gonathon before erasing her memories of him), (Shiori, having erased her memories, chatting with Gonathon) -->
 <!-- model: false -->
 
 ## Overview
