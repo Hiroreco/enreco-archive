@@ -72,8 +72,6 @@ A story to be told for generations to come.
 
 ["My diamond" by Daaku](https://x.com/koizumi_arata/status/1832692703676535254)
 
-["my diamond 2/2" by Daaku](https://x.com/koizumi_arata/status/1832737380857459090)
-
 ## Memes
 
 ["all my homies hate the pink one" by Jake33wO](https://x.com/jake33w0/status/1832813698081014144)
