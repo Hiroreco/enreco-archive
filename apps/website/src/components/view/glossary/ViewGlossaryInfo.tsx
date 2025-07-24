@@ -71,8 +71,8 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
 
     return (
         <Dialog>
-            <DialogTrigger title="View Category Info">
-                <Info />
+            <DialogTrigger title="View Category Info" className="p-0 m-0">
+                <Info size={16} className="text-muted-foreground" />
             </DialogTrigger>
             <DialogContent>
                 <DialogHeader>
