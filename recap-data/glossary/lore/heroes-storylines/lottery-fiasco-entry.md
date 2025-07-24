@@ -17,7 +17,7 @@ A dog with a gambling addiction, an alarming thirst for money, a willingness to 
 
 Among FaunaMart’s once most loyal customers was [Mococo](#entry:mococo-entry). It began with just a few tickets… then spiraled into dozens… then hundreds. She became hopelessly addicted to gambling. Every waking moment of the fuzzy one’s life revolved around two things: lottery and money.
 
-On Day 4, as she went through her usual morning routine—buying an absurd number of tickets and burning through her savings—she encountered an unexpected face. Fauna wasn’t at the checkout like usual. Instead, standing there was Nerissa, the store’s new (and only) employee. And with that, the stage for chaos was set.
+On Day 4, as she went through her usual morning routine—buying an absurd number of tickets and burning through her savings—she encountered an unexpected face. Fauna wasn’t at the checkout like usual. Instead, standing there was [Nerissa](#entry:nerissa-entry), the store’s new (and only) employee. And with that, the stage for chaos was set.
 
 ### How it went
 
@@ -35,7 +35,7 @@ Later, Nerissa realized her error and tried to apologize, offering to fix things
 
 A chase ensued. Gonathon and the others tried to talk things through, but Mococo, panicked and fearing retaliation, fled. In the process, she got hurt (mostly self-inflicted) and fell into emotional turmoil.
 
-The next day, the fuzzy dog marched back to FaunaMart, determined to confront Fauna herself for all the pain they caused her. In short, she tried to **sue them**.
+The next day, the fuzzy dog marched back to FaunaMart, determined to confront [Fauna](#entry:fauna-entry) herself for all the pain they caused her. In short, she tried to **sue them**.
 
 But poor Mococo stood alone—only Cecilia served as her “lawyer.” Meanwhile, FaunaMart had Fauna, Nerissa… and Cecilia as well. The odds were stacked heavily against her, and truth be told, FaunaMart had every right while Mococo had almost every wrong.
 

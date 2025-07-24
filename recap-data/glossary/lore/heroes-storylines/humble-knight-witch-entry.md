@@ -9,19 +9,19 @@
 **Chapter:** 2
 **Duration:** Day 1 to 7
 
-Gonathon found himself caught in another love story in Chapter 2—one far more bittersweet than before. This time, it was a tale that explored its characters with greater emotional depth, and one that left many debating who was truly in the right… and who wasn’t.
+[Gonathon](#entry:gigi-entry) found himself caught in another love story in Chapter 2—one far more bittersweet than before. This time, it was a tale that explored its characters with greater emotional depth, leaving many debating who was truly in the right… and who wasn’t.
 
 ## Details
 
 ### How it started
 
-It all began when Shiori sweet-talked Gonathon into buying her cooking. As straightforward as it gets—Shiori, knowing how gullible and easy to manipulate Gonathon was, took advantage of the humble knight for monetary gain.
+It all began when [Shiori](#entry:shiori-entry) sweet-talked Gonathon into buying her cooking. As straightforward as it gets—Shiori, knowing how gullible and easy to manipulate Gonathon was, took advantage of the humble knight for monetary gain.
 
-But the more she saw his sincerity, the more her heart faltered. And eventually, she fell—deeply—for the kindhearted knight.
+But the more she saw his sincerity, the more her heart faltered. Eventually, she fell—deeply—for the kindhearted knight.
 
 ### How it went
 
-Shiori had set her sights on Gonathon since Chapter 1, but back then, she didn’t have a chance—he was already betrothed. But this time, with his memories of the previous journey gone, she saw her chance to step forward.
+Shiori had set her sights on Gonathon since Chapter 1, but back then, she didn’t have a chance—he was already betrothed. This time, with his memories of the previous journey gone, she saw her opportunity to step forward.
 
 She cooked for him, made a room for him, and slowly—through every act of kindness and vulnerability—she began to hope. The way Gonathon treated her, the way he spoke, it was nothing like the selfish world she was used to. Perhaps, she thought, this was finally her happy sugar life.
 
@@ -41,7 +41,7 @@ Seeing it all fall apart—despite how much she had given, despite all her hope�
 
 ### How it ended
 
-With her memories gone, and Gonathon realizing what she’d done, the two sat together for one last conversation atop a waterfall. Gonathon apologized—realized the hurt he caused—but would anything have changed, even if he knew? That, no one could say for certain.
+With her memories gone, and Gonathon realizing what she’d done, the two sat together for one last conversation atop a waterfall. Gonathon apologized—realizing the hurt he caused—but would anything have changed, even if he knew? That, no one could say for certain.
 
 > I wish I loved you the way I wanted to.
 

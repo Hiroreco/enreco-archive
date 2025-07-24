@@ -29,7 +29,7 @@ Upon hearing of this new competition, Fauna was having none of it. She was aimin
 
 The rivalry reached its peak on the final day when Fauna [invited](https://www.youtube.com/watch?v=8x-MVX8h9gU&t=1082s) Nanamoo to FaunaMart for a head-to-head confrontation. In a shocking move, Fauna offered 50,000 gold to buy out NanaEleven.
 
-Nanamoo rejected the offer—insulting Fauna in the process. But then came the twist. Nanamoo revealed she had been working _for_ FaunaMart all along. Everything she did—the funds, the revenue, the creation of NanaEleven—was to attract even more attention to FaunaMart.
+Nanamoo rejected the offer—insulting Fauna in the process. But then came the twist: Nanamoo revealed she had been working _for_ FaunaMart all along. Everything she did—the funds, the revenue, the creation of NanaEleven—was to attract even more attention to FaunaMart.
 
 What started as a corporate standoff ended in laughter, as the two agreed to merge their businesses and take over the world together, united as **FaunaMart x NanaEleven**.
 

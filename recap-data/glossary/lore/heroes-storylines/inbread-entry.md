@@ -34,4 +34,4 @@ The Hot Pink One, Bijou, Roa—they all joined in on the discussion. The theory 
 It… ended.
 Somehow.
 
-What even _was_ this storyline, man.
+What even _was_ this storyline, man?
