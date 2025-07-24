@@ -1,7 +1,7 @@
 <!-- title: The Fluffy One's Cafe -->
 <!-- quote: Oh my goodness, you really enjoy the food I make? Bau bau! -->
 <!-- chapters: 1 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images: -->
 <!-- model: false -->
 
 ## Overview
@@ -15,11 +15,11 @@
 
 ### How it started
 
-From the very beginning, Fuwawa chose the path of a chef. Her goal was clear: build a small café in the center of town, where passersby could stop in and enjoy warm, lovingly prepared meals. With that vision in mind, she threw herself into the work—gathering ingredients, cooking dishes, and constructing the café all by herself.
+From the very beginning, Fuwawa chose the path of a chef. Her goal was clear: to build a small café in the center of town, where passersby could stop in and enjoy warm, lovingly prepared meals. With that vision in mind, she threw herself into the work—gathering ingredients, cooking dishes, and constructing the café all by herself.
 
-Her determination was unwavering, but so intense that she became detached from the rest of the kingdom’s chaos. For better or worse, she kept her distance from the shenanigans of others. And as a result… her journey felt somewhat lonely.
+Her determination was unwavering, but so intense that she became detached from the rest of the kingdom’s chaos. For better or worse, she kept her distance from the shenanigans of others, and as a result, her journey felt somewhat lonely.
 
-On Day 4, while she was going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it **Moco-chan**.
+On Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it **Moco-chan**.
 
 It was adorable. It kept her company. And she loved it with all her heart.
 
@@ -33,7 +33,7 @@ She began to lose hope.
 
 ### How it went
 
-Just when despair was settling in, **Kiara** noticed the struggling chef. Without hesitation, the kindhearted phoenix bought every dish Fuwawa had to offer, giving her the first real boost she needed.
+Just as despair was settling in, **Kiara** noticed the struggling chef. Without hesitation, the kindhearted phoenix bought every dish Fuwawa had to offer, giving her the first real boost she needed.
 
 That single act of kindness set off a chain reaction. Word spread. One customer turned into two, then many more. Fuwawa’s food was finally getting the love it deserved.
 
@@ -43,6 +43,6 @@ Upon realizing what was happening, Fuwawa was overjoyed.
 
 By Day 7, Fuwawa’s café was thriving. Her food had become so beloved that she was even commissioned to prepare meals for a kingdom-wide party.
 
-Even if the event itself turned out chaotic, her dream had been fulfilled.
+Even though the event itself turned out chaotic, her dream had been fulfilled.
 
 And she was happy.

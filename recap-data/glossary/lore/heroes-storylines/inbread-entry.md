@@ -1,7 +1,7 @@
 <!-- title: The In-bread Incident -->
 <!-- quote: Can you feel our buns rubbing against you. -->
 <!-- chapters: 1 -->
-<!-- images: (Mococo and the lottery situation), (The child dispute between Bae and Bijou), (The Hot Pink's gender reveal party) -->
+<!-- images:  -->
 <!-- model: false -->
 
 ## Overview
@@ -34,4 +34,4 @@ The Hot Pink One, Bijou, Roa—they all joined in on the discussion. The theory 
 It… ended.
 Somehow.
 
-What even _was_ this storyline, man.
+What even _was_ this storyline, man?

@@ -204,17 +204,17 @@ const FanartFilters = ({
                     )}
                     <div className="flex items-center gap-2">
                         <Checkbox
-                            id="dna-of-the-souls-mobile"
+                            id="dna-of-the-soul-mobile"
                             checked={memesOnly}
                             onCheckedChange={(checked) =>
                                 onMemesOnlyChange(checked === true)
                             }
                         />
                         <label
-                            htmlFor="dna-of-the-souls-mobile"
+                            htmlFor="dna-of-the-soul-mobile"
                             className="text-xs font-medium text-muted-foreground"
                         >
-                            DNA of the Souls
+                            DNA of the Soul
                         </label>
                     </div>
                 </div>
@@ -334,17 +334,17 @@ const FanartFilters = ({
 
                 <div className="flex items-center gap-2">
                     <Checkbox
-                        id="dna-of-the-souls-mobile"
+                        id="dna-of-the-soul-mobile"
                         checked={memesOnly}
                         onCheckedChange={(checked) =>
                             onMemesOnlyChange(checked === true)
                         }
                     />
                     <label
-                        htmlFor="dna-of-the-souls-mobile"
+                        htmlFor="dna-of-the-soul-mobile"
                         className="text-sm font-medium"
                     >
-                        DNA of the Souls
+                        DNA of the Soul
                     </label>
                 </div>
 
