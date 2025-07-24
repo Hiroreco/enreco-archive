@@ -47,6 +47,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
 import ViewSectionJumper from "@/components/view/glossary/ViewSectionJumper";
+import ViewGlossaryInfo from "@/components/view/glossary/ViewGlossaryInfo";
 
 interface ViewGlossaryCardProps {
     className?: string;
@@ -253,7 +254,17 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                                 </span>
                             </div>
                         ) : (
-                            <span>{categoryMap[selectedCategory].label}</span>
+                            <div className="flex items-center gap-2">
+                                <span>
+                                    {categoryMap[selectedCategory].label}
+                                </span>
+
+                                {currentEntry === null && (
+                                    <ViewGlossaryInfo
+                                        category={selectedCategory}
+                                    />
+                                )}
+                            </div>
                         )}
                         {currentEntry !== null && (
                             <div className="flex items-center gap-2">
