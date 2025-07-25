@@ -1,7 +1,10 @@
 import { Root } from "mdast";
-import {} from "mdast-util-directive";
-import {} from "mdast-util-to-hast";
 import { visit } from "unist-util-visit";
+
+import type {} from "mdast-util-directive";
+import type {} from "mdast-util-to-hast";
+
+import type {} from "@/md-extensions/RevertUnhandledDirective.js"
 
 const UNDERLINE_DIRECTIVE_NAME = "underline";
 
@@ -25,6 +28,7 @@ export default function underlineDirective(options: Options) {
                 data.hProperties = {
                     className: [underlineClassname],
                 };
+                data.isDirectiveHandled = true;
             }
         });
     };

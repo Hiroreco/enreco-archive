@@ -27,6 +27,9 @@ catalogs:
     immer:
       specifier: ^10.1.1
       version: 10.1.1
+    jszip:
+      specifier: ^3.10.1
+      version: 3.10.1
     lucide-react:
       specifier: ^0.482.0
       version: 0.482.0
@@ -45,6 +48,9 @@ catalogs:
     shx:
       specifier: ^0.4.0
       version: 0.4.0
+    tailwind-merge:
+      specifier: ^3.3.0
+      version: 3.3.0
     tailwindcss:
       specifier: ^4.1.7
       version: 4.1.7
@@ -508,11 +514,14 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4
       mdast-util-directive:
-        specifier: 3.1.0
+        specifier: ^3.1.0
         version: 3.1.0
       mdast-util-to-hast:
-        specifier: 13.2.0
+        specifier: ^13.2.0
         version: 13.2.0
+      mdast-util-to-markdown:
+        specifier: ^2.1.2
+        version: 2.1.2
       remark:
         specifier: ^15.0.1
         version: 15.0.1
@@ -522,6 +531,9 @@ importers:
       unist-util-visit:
         specifier: ^5.0.0
         version: 5.0.0
+      unist-util-visit-parents:
+        specifier: ^6.0.0
+        version: 6.0.1
     devDependencies:
       '@enreco-archive/eslint-config':
         specifier: workspace:*

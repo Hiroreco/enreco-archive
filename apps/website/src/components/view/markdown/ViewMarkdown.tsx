@@ -24,6 +24,7 @@ import ViewTextModal from "@/components/view/utility-modals/ViewTextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import underlineDirective from "@enreco-archive/markdown-extensions/UnderlineDirective";
 import textAlignmentDirective from "@enreco-archive/markdown-extensions/TextAlignmentDirective";
+import revertUnhandledDirectives from "@enreco-archive/markdown-extensions/RevertUnhandledDirective";
 
 /*
 Custom rehype plugin to convert lone images in paragraphs into figures.
@@ -388,6 +389,7 @@ function ViewMarkdownInternal({
             remarkDirective,
             underlineDirective,
             textAlignmentDirective,
+            revertUnhandledDirectives
         ],
         [],
     );

@@ -1,7 +1,10 @@
 import { Root } from "mdast";
-import {} from "mdast-util-directive";
-import {} from "mdast-util-to-hast";
 import { visit } from "unist-util-visit";
+
+import type {} from "mdast-util-directive";
+import type {} from "mdast-util-to-hast";
+
+import type {} from "@/md-extensions/RevertUnhandledDirective.js"
 
 const CENTER_TEXT_DIRECTIVE_NAME = "center";
 const LEFT_TEXT_DIRECTIVE_NAME = "left";
@@ -27,6 +30,7 @@ export default function centerTextDirective(options: Options) {
                     data.hProperties = {
                         "className": [centerClassname]
                     };
+                    data.isDirectiveHandled = true;
                 }
                 else if(node.name === LEFT_TEXT_DIRECTIVE_NAME) {
                     const data = node.data || (node.data = {});
@@ -34,6 +38,7 @@ export default function centerTextDirective(options: Options) {
                     data.hProperties = {
                         "className": [leftClassname]
                     };
+                    data.isDirectiveHandled = true;
                 }
                 else if(node.name === RIGHT_TEXT_DIRECTIVE_NAME) {
                     const data = node.data || (node.data = {});
@@ -41,6 +46,7 @@ export default function centerTextDirective(options: Options) {
                     data.hProperties = {
                         "className": [rightClassname]
                     };
+                    data.isDirectiveHandled = true;
                 }
             }
         });
