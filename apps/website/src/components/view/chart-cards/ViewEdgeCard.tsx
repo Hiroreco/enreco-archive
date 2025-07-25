@@ -25,18 +25,19 @@ import {
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
 import { Check } from "lucide-react";
+import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
 
 interface Props {
     isCardOpen: boolean;
     selectedEdge: FixedEdgeType | null;
     edgeRelationship: Relationship | null;
     charts: ChartData[];
-    read: boolean;
+    chapter: number;
+    day: number;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     onDayChange: (newDay: number) => void;
-    onReadChange: (newReadStatus: boolean) => void;
     setChartShrink: (width: number) => void;
 }
 
@@ -45,17 +46,20 @@ const ViewEdgeCard = ({
     selectedEdge,
     edgeRelationship,
     charts,
-    read,
+    chapter,
+    day,
     onCardClose,
     onEdgeLinkClicked,
     onNodeLinkClicked,
     onDayChange,
-    onReadChange,
     setChartShrink,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
 
+    const readStatus = usePersistedViewStore(state => state.readStatus);
+    const setReadStatus = usePersistedViewStore(state => state.setReadStatus);
+    
     // Reset scroll position and header visibility when selectedEdge changes
     useEffect(() => {
         if (contentRef.current) {
@@ -69,11 +73,15 @@ const ViewEdgeCard = ({
         }
     }
 
-    const handleCardWidthChange = (width: number) => {
+    function handleCardWidthChange(width: number) {
         if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };
+
+    function onReadChange(isRead: boolean) {
+        setReadStatus(chapter, day, selectedEdge!.id, isRead);
+    }
 
     // An edge always has a source and target node, which explains the !
     const nodeA = selectedEdge
@@ -98,6 +106,8 @@ const ViewEdgeCard = ({
             ></VaulDrawer>
         );
     }
+
+    const isEdgeRead = getReadStatus(readStatus, chapter, day, selectedEdge.id);
 
     const availiableEdges = [];
     for (const chart of charts) {
@@ -124,7 +134,7 @@ const ViewEdgeCard = ({
                     <Stack className="w-full">
                         <StackItem className="relative">
                             <EdgeCardDeco color={backgroundColor} />
-                            {selectedEdge?.data!.isRead && (
+                            {isEdgeRead && (
                                 <Tooltip delayDuration={300}>
                                     <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
                                         <Check
@@ -231,7 +241,7 @@ const ViewEdgeCard = ({
                         {selectedEdge.data?.content || "No content available"}
                     </ViewMarkdown>
                     <Separator className="mt-4" />
-                    <ReadMarker read={read} setRead={onReadChange} />
+                    <ReadMarker read={isEdgeRead} setRead={onReadChange} />
                 </div>
             </div>
         </VaulDrawer>

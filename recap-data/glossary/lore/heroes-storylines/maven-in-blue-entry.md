@@ -1,7 +1,7 @@
 <!-- title: Maven in Blue -->
 <!-- quote: I entrusted my fate to the maven in blue -->
 <!-- chapters: 1 -->
-<!-- images: (Elizabeth and Nerissa's friendly sparring), (Elizabeth hangs her portrait next to Nerissa's), (Nerissa asking Elizabeth about the missing portrait), (The very sensual and intimate onsen scene), (Nerissa's shrine of herself under her house) -->
+<!-- images: (Elizabeth and Nerissa friendly spar), (Elizabeth hangs her portrait next to Nerissa's), (Nerissa asking Elizabeth about the missing portrait), (The very sensual and intimate onsen scene), (Nerissa's shrine to herself under her house) -->
 <!-- model: false -->
 
 ## Overview

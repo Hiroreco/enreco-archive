@@ -1,7 +1,7 @@
 <!-- title: A Knight's Tale -->
 <!-- quote: For he knows a selfish request such as his, could never be true. -->
 <!-- chapters: 0 -->
-<!-- images: (A gift of 10 diamonds, Gonathon was then married to Jyon Watson), (Amelia meeeting Gonathon having forgotten about him), (The Hot Pink One's attempt to steal Amelia), (Gonathon and Amelia's happy ending) -->
+<!-- images: (A gift of 64 diamonds, Gonathon was then married to Jyon Watson), (Amelia meeting Gonathon after regaining her memories), (The Hot Pink One's attempt to steal Amelia), (Gonathon and Amelia's happy ending) -->
 <!-- model: false -->
 
 ## Overview

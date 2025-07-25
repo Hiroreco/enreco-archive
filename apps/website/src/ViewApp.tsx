@@ -35,7 +35,7 @@ import {
     CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
 import { resolveDataForDay } from "@/lib/chart-utils";
-import { usePersistedViewStore } from "@/store/persistedViewStore";
+import { countReadElements, usePersistedViewStore } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import Image from "next/image";
@@ -164,14 +164,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
     // Persisted Store
-    const countReadElements = usePersistedViewStore(
-        (state) => state.countReadElements,
+    const readStatus = usePersistedViewStore(
+        (state) => state.readStatus,
     );
     // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
-    const readCount = countReadElements(chapter, day);
+    const readCount = countReadElements(readStatus, chapter, day);
 
-    const getReadStatus = usePersistedViewStore((state) => state.getReadStatus);
-    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
     );
@@ -211,21 +209,13 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                             node.id === selectedEdge.source;
                     }
                 }
-
-                node.data.isRead = getReadStatus(chapter, day, node.id);
             }
         });
-        // Adding an extra dependency (readCount) to ensure the node read status is rerendered when the read count changes from the Read Counter.
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
         resolvedData.nodes,
         team,
         character,
         selectedElement,
-        getReadStatus,
-        chapter,
-        day,
-        readCount,
     ]);
 
     /* Set additional properties for edges. */
@@ -263,10 +253,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                         edge.data !== undefined &&
                         edge.data.day === day) ||
                     !showOnlyNewEdges;
-
-                if (edge.data) {
-                    edge.data.isRead = getReadStatus(chapter, day, edge.id);
-                }
             }
         });
     }, [
@@ -277,9 +263,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         relationshipVisibility,
         showOnlyNewEdges,
         selectedElement,
-        day,
-        getReadStatus,
-        chapter,
+        day
     ]);
 
     /* Helper function to coordinate state updates when data changes. */
@@ -446,15 +430,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
     let selectedNodeTeam = null;
     let selectedEdgeRelationship = null;
-    let selectedNodeRead = false;
-    let selectedEdgeRead = false;
     let selectedNode = null;
     let selectedEdge = null;
     if (selectedElement) {
         if (isNode(selectedElement)) {
             selectedNode = selectedElement as ImageNodeType;
             selectedNodeTeam = chapterData.teams[selectedNode.data.teamId];
-            selectedNodeRead = getReadStatus(chapter, day, selectedNode.id);
         } else if (isEdge(selectedElement)) {
             selectedEdge = selectedElement as FixedEdgeType;
             const selectedEdgeRelationshipKey =
@@ -462,16 +443,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             selectedEdgeRelationship = selectedEdgeRelationshipKey
                 ? chapterData.relationships[selectedEdgeRelationshipKey]
                 : null;
-            selectedEdgeRead = getReadStatus(chapter, day, selectedEdge.id);
         }
-    }
-
-    function onReadChange(newReadStatus: boolean) {
-        if (selectedElement == null) {
-            return;
-        }
-
-        setReadStatus(chapter, day, selectedElement.id, newReadStatus);
     }
 
     const totalCount = useMemo(
@@ -547,15 +519,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                             selectedNode={selectedNode}
                             nodeTeam={selectedNodeTeam}
                             charts={chapterData.charts}
-                            read={selectedNodeRead}
                             chapter={chapter}
+                            day={day}
                             onCardClose={onCardClose}
                             onNodeLinkClicked={onNodeClick}
                             onEdgeLinkClicked={onEdgeClick}
                             onDayChange={(newDay) => {
                                 changeWorkingData(chapter, newDay);
                             }}
-                            onReadChange={onReadChange}
                             setChartShrink={setChartShrinkAndFit}
                         />
 
@@ -564,14 +535,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                             selectedEdge={selectedEdge}
                             edgeRelationship={selectedEdgeRelationship}
                             charts={chapterData.charts}
-                            read={selectedEdgeRead}
+                            chapter={chapter}
+                            day={day}
                             onCardClose={onCardClose}
                             onNodeLinkClicked={onNodeClick}
                             onEdgeLinkClicked={onEdgeClick}
                             onDayChange={(newDay) => {
                                 changeWorkingData(chapter, newDay);
                             }}
-                            onReadChange={onReadChange}
                             setChartShrink={setChartShrinkAndFit}
                         />
                     </CurrentDayDataContext>
@@ -636,8 +607,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 chapter={chapter}
                 nodes={resolvedData.nodes}
                 edges={resolvedData.edges}
-                getReadStatus={getReadStatus}
-                setReadStatus={setReadStatus}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />

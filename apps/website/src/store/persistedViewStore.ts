@@ -18,19 +18,45 @@ interface PersistedViewStore {
     setHasVisitedBefore: (newVal: boolean) => void;
 
     readStatus: ReadStore;
-    getReadStatus: (chapter: number, day: number, id: string) => boolean;
     setReadStatus: (
         chapter: number,
         day: number,
         id: string,
         status: boolean,
     ) => void;
-    countReadElements: (chapter: number, day: number) => number;
+}
+
+export function getReadStatus(readStatus: ReadStore, chapter: number, day: number, id: string) {
+    const chapterLevel = readStatus[chapter];
+
+    if (chapterLevel) {
+        const dayLevel = chapterLevel[day];
+        if (dayLevel) {
+            return dayLevel[id] ?? false;
+        }
+    }
+
+    return false;
+}
+
+export function countReadElements(readStatus: ReadStore, chapter: number, day: number) {
+    const chapterLevel = readStatus[chapter];
+    if (chapterLevel) {
+        const dayLevel = chapterLevel[day];
+
+        if (dayLevel) {
+            return Object.keys(dayLevel).filter(
+                (id) => dayLevel[id],
+            ).length;
+        }
+    }
+
+    return 0;
 }
 
 export const usePersistedViewStore = create<PersistedViewStore>()(
     persist(
-        immer((set, get) => ({
+        immer((set) => ({
             hasVisitedBefore: false,
             setHasVisitedBefore: (newVal) =>
                 set((draft) => {
@@ -38,18 +64,6 @@ export const usePersistedViewStore = create<PersistedViewStore>()(
                 }),
 
             readStatus: [],
-            getReadStatus: (chapter, day, id) => {
-                const chapterLevel = get().readStatus[chapter];
-
-                if (chapterLevel) {
-                    const dayLevel = chapterLevel[day];
-                    if (dayLevel) {
-                        return dayLevel[id] ?? false;
-                    }
-                }
-
-                return false;
-            },
             setReadStatus: (chapter, day, id, status) =>
                 set((draft) => {
                     if (!draft.readStatus[chapter]) {
@@ -61,21 +75,7 @@ export const usePersistedViewStore = create<PersistedViewStore>()(
                     }
 
                     draft.readStatus[chapter][day][id] = status;
-                }),
-            countReadElements: (chapter, day) => {
-                const chapterLevel = get().readStatus[chapter];
-                if (chapterLevel) {
-                    const dayLevel = chapterLevel[day];
-
-                    if (dayLevel) {
-                        return Object.keys(dayLevel).filter(
-                            (id) => dayLevel[id],
-                        ).length;
-                    }
-                }
-
-                return 0;
-            },
+                })
         })),
         { name: "viewAppPersistedState" },
     ),

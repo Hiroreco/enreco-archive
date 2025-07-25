@@ -1,3 +1,4 @@
+import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -23,13 +24,6 @@ interface ViewReadCounterProps {
     chapter: number;
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
-    getReadStatus: (chapter: number, day: number, id: string) => boolean;
-    setReadStatus: (
-        chapter: number,
-        day: number,
-        id: string,
-        status: boolean,
-    ) => void;
     onNodeClick?: (node: ImageNodeType) => void;
     onEdgeClick?: (edge: FixedEdgeType) => void;
 }
@@ -41,8 +35,6 @@ const ViewReadCounter = ({
     chapter,
     nodes,
     edges,
-    getReadStatus,
-    setReadStatus,
     onNodeClick,
     onEdgeClick,
 }: ViewReadCounterProps) => {
@@ -50,6 +42,9 @@ const ViewReadCounter = ({
     const [optimisticReadStates, setOptimisticReadStates] = useState<
         Record<string, boolean>
     >({});
+
+    const readStatus = usePersistedViewStore(state => state.readStatus);
+    const setReadStatus = usePersistedViewStore(state => state.setReadStatus);
 
     // Initialize optimistic state when dialog opens or props change
     useEffect(() => {
@@ -63,16 +58,16 @@ const ViewReadCounter = ({
             );
 
             filteredNodes.forEach((node) => {
-                initialStates[node.id] = getReadStatus(chapter, day, node.id);
+                initialStates[node.id] = getReadStatus(readStatus, chapter, day, node.id);
             });
 
             filteredEdges.forEach((edge) => {
-                initialStates[edge.id] = getReadStatus(chapter, day, edge.id);
+                initialStates[edge.id] = getReadStatus(readStatus, chapter, day, edge.id);
             });
 
             setOptimisticReadStates(initialStates);
         }
-    }, [open, day, chapter, nodes, edges, getReadStatus]);
+    }, [open, day, chapter, nodes, edges, readStatus]);
 
     const handleNodeClick = (node: ImageNodeType) => {
         if (onNodeClick) {
@@ -112,7 +107,7 @@ const ViewReadCounter = ({
 
     // Get the read status with optimistic state fallback
     const getOptimisticReadStatus = (id: string) => {
-        return optimisticReadStates[id] ?? getReadStatus(chapter, day, id);
+        return optimisticReadStates[id] ?? getReadStatus(readStatus, chapter, day, id);
     };
 
     // Mark all as read/unread
