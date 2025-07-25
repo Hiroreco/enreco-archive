@@ -2,7 +2,7 @@
 
 ## Chapter 1: Kingdom of Libestal
 
-### Summoned, as Heroes
+### Summoned as Heroes
 
 Nineteen heroes awoke in a blinding white box, confused and disoriented. One moment, they were going about their ordinary lives—the next, they found themselves surrounded by strangers just as bewildered as they were. More puzzling still, none of them could remember anything: not their names, not their pasts—nothing.
 
