@@ -24,7 +24,6 @@ interface PersistedViewStore {
         id: string,
         status: boolean,
     ) => void;
-    countReadElements: (chapter: number, day: number) => number;
 }
 
 export function getReadStatus(readStatus: ReadStore, chapter: number, day: number, id: string) {
@@ -40,9 +39,24 @@ export function getReadStatus(readStatus: ReadStore, chapter: number, day: numbe
     return false;
 }
 
+export function countReadElements(readStatus: ReadStore, chapter: number, day: number) {
+    const chapterLevel = readStatus[chapter];
+    if (chapterLevel) {
+        const dayLevel = chapterLevel[day];
+
+        if (dayLevel) {
+            return Object.keys(dayLevel).filter(
+                (id) => dayLevel[id],
+            ).length;
+        }
+    }
+
+    return 0;
+}
+
 export const usePersistedViewStore = create<PersistedViewStore>()(
     persist(
-        immer((set, get) => ({
+        immer((set) => ({
             hasVisitedBefore: false,
             setHasVisitedBefore: (newVal) =>
                 set((draft) => {
@@ -61,21 +75,7 @@ export const usePersistedViewStore = create<PersistedViewStore>()(
                     }
 
                     draft.readStatus[chapter][day][id] = status;
-                }),
-            countReadElements: (chapter, day) => {
-                const chapterLevel = get().readStatus[chapter];
-                if (chapterLevel) {
-                    const dayLevel = chapterLevel[day];
-
-                    if (dayLevel) {
-                        return Object.keys(dayLevel).filter(
-                            (id) => dayLevel[id],
-                        ).length;
-                    }
-                }
-
-                return 0;
-            },
+                })
         })),
         { name: "viewAppPersistedState" },
     ),
