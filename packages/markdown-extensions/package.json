@@ -4,10 +4,13 @@
   "private": true,
   "type": "module",
   "exports": {
-    "./*": "./src/md-extensions/*.ts"
+    "./RevertUnhandledDirective": "./dist/RevertUnhandledDirective.js",
+    "./TextAlignmentDirective": "./dist/TextAlignmentDirective.js",
+    "./UnderlineDirective": "./dist/UnderlineDirective.js"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "build": "tsc --outDir ./dist"
   },
   "devDependencies": {
     "@enreco-archive/eslint-config": "workspace:*",
