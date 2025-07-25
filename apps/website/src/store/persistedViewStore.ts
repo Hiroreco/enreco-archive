@@ -18,7 +18,6 @@ interface PersistedViewStore {
     setHasVisitedBefore: (newVal: boolean) => void;
 
     readStatus: ReadStore;
-    getReadStatus: (chapter: number, day: number, id: string) => boolean;
     setReadStatus: (
         chapter: number,
         day: number,
@@ -26,6 +25,19 @@ interface PersistedViewStore {
         status: boolean,
     ) => void;
     countReadElements: (chapter: number, day: number) => number;
+}
+
+export function getReadStatus(readStatus: ReadStore, chapter: number, day: number, id: string) {
+    const chapterLevel = readStatus[chapter];
+
+    if (chapterLevel) {
+        const dayLevel = chapterLevel[day];
+        if (dayLevel) {
+            return dayLevel[id] ?? false;
+        }
+    }
+
+    return false;
 }
 
 export const usePersistedViewStore = create<PersistedViewStore>()(
@@ -38,18 +50,6 @@ export const usePersistedViewStore = create<PersistedViewStore>()(
                 }),
 
             readStatus: [],
-            getReadStatus: (chapter, day, id) => {
-                const chapterLevel = get().readStatus[chapter];
-
-                if (chapterLevel) {
-                    const dayLevel = chapterLevel[day];
-                    if (dayLevel) {
-                        return dayLevel[id] ?? false;
-                    }
-                }
-
-                return false;
-            },
             setReadStatus: (chapter, day, id, status) =>
                 set((draft) => {
                     if (!draft.readStatus[chapter]) {

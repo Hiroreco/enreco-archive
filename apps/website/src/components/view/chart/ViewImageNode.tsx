@@ -8,6 +8,8 @@ import { memo, useContext, useMemo } from "react";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 import "./ViewImageNode.css";
+import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
+import { useViewStore } from "@/store/viewStore";
 
 const NUM_OF_HANDLES = 5;
 
@@ -45,6 +47,12 @@ const generateHandles = (numOfHandles: number) => [
 
 const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
     const { teams } = useContext(CurrentChapterDataContext);
+
+    const chapter = useViewStore(state => state.data.chapter);
+    const day = useViewStore(state => state.data.day);
+    const readStatus = usePersistedViewStore(state => state.readStatus);
+
+    const isNodeRead = getReadStatus(readStatus, chapter, day, id);
 
     // Generate handles only on mount since they’re static
     const handles = useMemo(() => {
@@ -110,7 +118,7 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
                         priority={true}
                     />
                 )}
-                {data.isRead && (
+                {isNodeRead && (
                     <div className="absolute top-1 right-1 z-20 bg-black/50 rounded-full p-1">
                         <Check size={17} className="opacity-90" color="white" />
                     </div>

@@ -9,7 +9,6 @@ interface ReadMarkerProps {
 }
 
 const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
-    const [checked, setChecked] = useState<boolean>(read);
     const playSFX = useAudioStore(state => state.playSFX);
 
     const handleCheckedChange = (checked: boolean | "indeterminate") => {
@@ -17,7 +16,6 @@ const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
             playSFX("xp");
         }
         setRead(checked === "indeterminate" ? false : checked);
-        setChecked(checked === "indeterminate" ? false : checked);
     };
 
     return (
@@ -28,7 +26,7 @@ const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
             <Checkbox
                 id="read"
                 onCheckedChange={handleCheckedChange}
-                checked={checked}
+                checked={read}
                 className="transition-all w-6 h-6 aspect-square border-2"
             />
         </div>

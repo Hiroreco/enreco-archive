@@ -119,7 +119,6 @@ export type EditorImageNodeData = CommonNodeData & {
 };
 
 export type ImageNodeData = CommonNodeData & {
-    isRead?: boolean;
 };
 
 export type CustomEdgeOffsets = {
@@ -144,7 +143,6 @@ type CommonEdgeData = {
 export type CustomEdgeData = CommonEdgeData & {};
 
 export type FixedEdgeData = CommonEdgeData & {
-    isRead?: boolean;
 };
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;

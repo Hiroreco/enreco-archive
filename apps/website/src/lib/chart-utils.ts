@@ -60,7 +60,6 @@ export function resolveDataForDay(
         resNode.hidden = false;
         resNode.selected = false;
         resNode.className = resNode.data.day === currentDay ? "" : "old-node";
-        resNode.data.isRead = false;
 
         return resNode;
     });
@@ -70,10 +69,6 @@ export function resolveDataForDay(
         resEdge.hidden = false;
         resEdge.selectable = currentDay === e.data?.day;
         resEdge.zIndex = e.data?.day ?? 0;
-
-        if (resEdge.data) {
-            resEdge.data.isRead = false;
-        }
 
         return resEdge;
     });

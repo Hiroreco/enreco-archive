@@ -19,20 +19,20 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
+import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
 
 interface Props {
     isCardOpen: boolean;
     selectedNode: ImageNodeType | null;
     nodeTeam: Team | null;
     charts: ChartData[];
-    read: boolean;
     chapter: number;
+    day: number;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
     setChartShrink: (width: number) => void;
     onDayChange: (newDay: number) => void;
-    onReadChange: (isRead: boolean) => void;
 }
 
 const ViewNodeCard = ({
@@ -40,16 +40,18 @@ const ViewNodeCard = ({
     selectedNode,
     nodeTeam,
     charts,
-    read,
     chapter,
+    day,
     onCardClose,
     onNodeLinkClicked,
     onEdgeLinkClicked,
     setChartShrink,
     onDayChange,
-    onReadChange,
 }: Props) => {
     const contentRef = useRef<HTMLDivElement>(null);
+
+    const readStatus = usePersistedViewStore(state => state.readStatus);
+    const setReadStatus = usePersistedViewStore(state => state.setReadStatus);
 
     // Reset scroll position when selectedNode changes
     useEffect(() => {
@@ -64,11 +66,15 @@ const ViewNodeCard = ({
         }
     }
 
-    const handleCardWidthChange = (width: number) => {
+    function handleCardWidthChange(width: number) {
         if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     };
+
+    function onReadChange(isRead: boolean) {
+        setReadStatus(chapter, day, selectedNode!.id, isRead);
+    }
 
     const renderContent = selectedNode !== null && nodeTeam !== null;
     if (!renderContent) {
@@ -90,6 +96,8 @@ const ViewNodeCard = ({
         }
     }
 
+    const isNodeRead = getReadStatus(readStatus, chapter, day, selectedNode.id);
+
     return (
         <VaulDrawer
             open={isCardOpen}
@@ -105,7 +113,7 @@ const ViewNodeCard = ({
                             <NodeCardDeco
                                 color={selectedNode.data.bgCardColor}
                             />
-                            {selectedNode?.data.isRead && (
+                            {isNodeRead && (
                                 <Tooltip delayDuration={300}>
                                     <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
                                         <Check
@@ -180,7 +188,7 @@ const ViewNodeCard = ({
                         {selectedNode?.data.content || "No content available"}
                     </ViewMarkdown>
                     <Separator className="mt-4" />
-                    <ReadMarker read={read} setRead={onReadChange} />
+                    <ReadMarker read={isNodeRead} setRead={onReadChange} />
                 </div>
             </div>
         </VaulDrawer>
