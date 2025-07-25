@@ -53,6 +53,7 @@ export const GLOSSARY_LORE_HEROES_STORYLINES_ORDER = [
     "maven-in-blue",
     "humble-knight-witch",
     "hot-pink-one-collapse",
+    "oh-princess",
     "custody-dispute",
     "fluffy-cafe",
     "inbread",

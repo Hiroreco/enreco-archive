@@ -229,6 +229,14 @@
             "duration": "03:22"
         },
         {
+            "title": "SoloPiano_Waltz",
+            "info": "Used by Shiori (Chapter 1)",
+            "originalUrl": "https://www.youtube.com/watch?v=f0-s70kHJ2Q&ab_channel=Release-Topic",
+            "sourceUrl": "/audio/songs/stream/stream-solopiano-waltz.mp3",
+            "coverUrl": "/images-opt/song-chapter-1-opt.webp",
+            "duration": "01:26"
+        },
+        {
             "title": "Morning Bossa",
             "info": "Used by Fauna (Chapter 1)",
             "originalUrl": "https://www.youtube.com/watch?v=EzqYEM-vDM0&ab_channel=Release-Topic",
@@ -357,7 +365,7 @@
             "title": "Boss of FaunaMart",
             "info": "A Parody Song by Ano Yatsu",
             "originalUrl": "https://www.youtube.com/watch?v=T7fHJcrmO0U",
-            "sourceUrl": "/audio/songs/special/special-boss-of-faunamart.mp3",
+            "sourceUrl": "/audio/songs/special-boss-of-faunamart-new-temp.mp3",
             "coverUrl": "/images-opt/song-special-boss-of-faunamart-opt.webp",
             "duration": "04:38"
         }

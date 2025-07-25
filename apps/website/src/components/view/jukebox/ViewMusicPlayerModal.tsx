@@ -86,7 +86,7 @@ const TrackItem = ({
                 draggable={false}
             />
 
-            <span className="opacity-50 h-6 w-4 flex items-center justify-center ml-1">
+            <span className="opacity-50 h-6 w-4 flex items-center justify-center mx-1">
                 {cIdx === catIndex && tIdx === trackIndex && isPlaying ? (
                     <PlayingAnimation />
                 ) : (
@@ -589,10 +589,9 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                 <div className="absolute inset-0 -z-10">
                     <Image
                         src={getBlurDataURL(coverImage)}
-                        alt=""
+                        alt="Music Player Background"
                         fill
                         className="object-cover blur-md opacity-20"
-                        priority={false}
                     />
                     {/* Dark overlay to ensure content readability */}
                     <div className="absolute inset-0 bg-black/30" />

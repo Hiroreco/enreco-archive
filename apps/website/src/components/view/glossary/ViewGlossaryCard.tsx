@@ -55,10 +55,10 @@ interface ViewGlossaryCardProps {
 }
 
 const categoryMap: Record<Category, { label: string; icon: ReactElement }> = {
-    "cat-weapons": { label: "Weapons", icon: <Sword /> },
-    "cat-characters": { label: "Characters", icon: <UserRound /> },
     "cat-lore": { label: "Lore", icon: <Book /> },
     "cat-quests": { label: "Quests", icon: <Scroll /> },
+    "cat-characters": { label: "Characters", icon: <UserRound /> },
+    "cat-weapons": { label: "Weapons", icon: <Sword /> },
     "cat-misc": { label: "Miscellaneous", icon: <Dices /> },
 };
 
@@ -77,7 +77,7 @@ const subCatergoryMap: Record<string, string> = {
 
 const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
     const [selectedCategory, setSelectedCategory] =
-        useState<Category>("cat-weapons");
+        useState<Category>("cat-lore");
     const [selectedChapter, setSelectedChapter] = useState(-1);
     const [filteredData, setFilteredData] = useState<GlossaryPageData>({});
 
@@ -351,7 +351,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            transition={{ duration: 0.15 }}
+                            transition={{ duration: 0.3 }}
                             className="overflow-x-hidden overflow-y-auto space-y-6 h-full"
                             ref={homeScrollRef}
                             onAnimationComplete={() => {
