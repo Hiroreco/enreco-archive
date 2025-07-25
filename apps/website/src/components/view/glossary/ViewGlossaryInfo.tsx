@@ -74,7 +74,10 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
             <DialogTrigger title="View Category Info" className="p-0 m-0">
                 <Info size={16} className="text-muted-foreground" />
             </DialogTrigger>
-            <DialogContent>
+            <DialogContent 
+                showXButton={true}
+                showXButtonForce={true}
+            >
                 <DialogHeader>
                     <DialogTitle>
                         {category === "cat-weapons" && "Weapons"}
