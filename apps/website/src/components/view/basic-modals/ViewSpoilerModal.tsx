@@ -1,6 +1,6 @@
 import { LS_HAS_VISITED_GLOSSARY } from "@/lib/constants";
 import { Button } from "@enreco-archive/common-ui/components/button";
-import { Siren } from 'lucide-react';
+import { Siren } from "lucide-react";
 import {
     Dialog,
     DialogContent,
@@ -11,6 +11,7 @@ import {
     DialogClose,
 } from "@enreco-archive/common-ui/components/dialog";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const ViewSpoilerModal = () => {
     const [open, setOpen] = useState(false);
@@ -35,19 +36,23 @@ const ViewSpoilerModal = () => {
                         Just a heads-up—this page has spoilers! If you haven’t
                         experienced the story of ENigmatic Recollection yet, you
                         might want to check it out first.
-                        <div className="mt-2 text-[10px] text-gray-500 italic">
-                            *By clicking this button you agree to not hold the ENreco Archive responsible for being spoiled.
-                        </div>
+                        <span className="block mt-2 text-xs text-gray-400 italic">
+                            *By continuing you agree to not hold the ENreco
+                            Archive responsible for being spoiled.
+                        </span>
                     </DialogDescription>
                 </DialogHeader>
-                <div className="flex flex-col items-center mt-6 gap-4">
-                    <img
+                <div className="flex flex-col items-center mt-4 gap-4">
+                    <Image
                         src="images-opt/easter-gremliz-opt.webp"
                         alt="Easter Gremliz"
-                        className="max-h-[40vh] h-auto w-full max-w-xs object-contain opacity-90"
+                        className="h-[100px] w-auto opacity-90"
+                        width={100}
+                        height={100}
+                        priority={true}
                     />
-                    <DialogFooter className="w-full flex justify-center">
-                        <DialogClose asChild>
+                    <DialogFooter className="w-full">
+                        <DialogClose asChild className="w-full">
                             <Button>Got it!</Button>
                         </DialogClose>
                     </DialogFooter>
