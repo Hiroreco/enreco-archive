@@ -1,4 +1,3 @@
-import { CommonItemData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
 
