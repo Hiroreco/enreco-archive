@@ -211,8 +211,8 @@ const ViewLightbox = ({
                 .pop()
                 ?.replace(/\.[^/.]+$/, "") || "";
 
-        const thumbnailSrc = `images-opt/${videoName}-thumb.webp`;
-        blurBgSrc = getBlurDataURL(thumbnailSrc);
+        const thumbnailSrc = `${videoName}-thumb.webp`;
+        blurBgSrc = getBlurDataURL(thumbnailSrc) || "";
     }
 
     return (
