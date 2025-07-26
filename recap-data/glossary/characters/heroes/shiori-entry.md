@@ -33,6 +33,7 @@ All of that might sound like harmless, comedic fluff, but those distractions obs
 
 It all came to a head in one final statement:
 
+> Thank you for being a part of my amnesiac story!
 > But the question is: Did I really have amnesia?
 
 ### Chapter 2

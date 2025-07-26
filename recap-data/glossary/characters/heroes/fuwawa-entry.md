@@ -20,7 +20,8 @@ Fuwawa Abyssguard was one of the few "normal" heroes amidst the chaos. Rarely dr
 
 Though she began more lost than most, Fuwawa showed a strong will to grow, learning as she went. With the help of Elizabeth, her trusty bread lady, she found her footing and steadily carved her own path. She never gambled, never stirred up conflict—just focused on her quests. This made her a sharp contrast to her fuzzier counterpart, [Mococo](#entry:mococo-entry), who frequently got into trouble. Fuwawa spent much of her time keeping an eye on her until she finally got so fed up that she [gave up](https://www.youtube.com/live/cYvEiwlPkW0?feature=shared&t=2121) trying altogether.
 
-> Mococo? Oh she went that way.
+> What do you think Elizabeth? I don't think she'll have enough money to buy food...
+> I'm sorry Nerissa, that's between you and her, I have nothing to do with it.
 
 Toward the end, Fuwawa found unexpected joy in chickens. It began when she tended Elizabeth’s small flock of chicks, and soon, she developed a deep connection with them. But when corruption took hold of the kingdom, tragedy struck. Time and again, her beloved chicks were slaughtered, despite her best efforts to protect them. Eventually, Fuwawa herself fell to the corruption.
 
@@ -35,7 +36,8 @@ Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on th
 
 She worked hard, gathering ingredients and crafting dishes with care. Things, however, didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible, thinking the other chefs were just too good. With no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. [Loneliness](https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917) crept in.
 
-> Hang in there, me. I just have to believe...
+> Hang in there, me.
+> I just have to believe...
 
 But then at the end of Day 4, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was [overjoyed,](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546) and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
 

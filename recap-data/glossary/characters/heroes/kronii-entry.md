@@ -24,7 +24,7 @@ On the first day, she was already amassing devoted followers. [Gonathon](#entry:
 
 But for every follower, Tam earned herself a rival. Elizabeth was the first to call out Tam’s “fake” queen status, while Raora positioned herself as a competing royal. And to be fair, their suspicions were justified. Tam had no claim, no proof, and worst of all—no money. She was _broke_, constantly pretending to be rich, boasting about her 8 billion coin fortune while barely scraping together [8 actual coins.](https://www.youtube.com/live/JcRcTRedS_8?feature=shared&t=4242)
 
-> Aw man, why did I lie? I don't have 8 billion, bajillion coins or whatever. Aw, man!
+> Aw man, why did I lie? I don't have 8 billion, bajillion coins or whatever. Eight thousand coins? I would like eight thousand coins. Aw, man!
 
 Yet beneath the ironclad ego and tyrannical tone, Tam was, at heart, a caring queen. Knowing her journey would only last three days—far shorter than others—she spent her time supporting her guildmates: building a base, sharing what little she had, and standing up for them when needed. And yes, there was even space in her allegedly cold heart for a potential romance. She fell for the Hot Pink One, but that crush ended in [disappointment,](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=8234) as the pink maiden was already promised to another.
 
@@ -46,6 +46,7 @@ As time passed, however, the pink lady began to dominate the dynamic, treating t
 That was it. Tam [snapped.](#entry:hot-pink-one-collapse-entry)
 
 > You couldn't save our relationship then?!
+> Ayy look at this loser walking around alone!
 
 She cut ties, took revenge, and made a bold play for Ina herself. In a dramatic reversal, the oppressed queen reclaimed her crown—not through royalty, but by clapping back hard and laughing as she came out on top.
 

@@ -23,6 +23,7 @@ Mococo’s journey began in a vulnerable place. Before Elizabeth promised to be 
 By the second day, she had discovered [FaunaMart’s lottery tickets](#entry:faunamart-entry). It started with just a couple, but soon grew to hundreds, as the doggo blew through her funds despite everyone’s concerns. What began as harmless fun soon spiraled into an addiction. Mococo became a problem herself, extorting friends for more money and [straining relationships.](#entry:lottery-fiasco-entry)
 
 > I'm getting money! BAU BAU BAU BAU BAU BAU!
+> NERISSA! GIVE ME YOUR MONEY!
 
 Yet there were glimpses of something more to her. Her obsession with money led her to understand she actually needed to _work_ for it—do business, hustle, and earn her keep. Her sister and friends were still the most important things in her life. Underneath it all, Mococo was terrified of being alone. Eventually, she managed to quit gambling—at least until NanaEleven tempted her back.
 
@@ -42,6 +43,7 @@ And she did. As a dedicated jeweler and loyal employee of [Gacharms,](#entry:rao
 Her chaotic nature persisted, though. Eavesdropping became a new hobby—on one occasion, she overheard Mordan’s therapy session and decided to open her own [therapy business.](https://www.youtube.com/live/T2StVW1kSxw?si=-ZizHO6g5xCSHEr9&t=9493) Never mind the lack of credentials; her sessions consisted of “uh huh, yeah, just follow your heart,” delivered like a true pro. But hey, for dirt-cheap prices, you got what you paid for.
 
 > That’s what therapy is like, huh? Just nod, say “uh huh,” “mm,” “yeah.”
+> You don't need a lisence for this stuff.
 
 Toward the journey’s end, Mococo started feeling... off. A creeping sickness, a gnawing sense of something wrong. On the final day, her suspicions proved true. As if seized by a mysterious force, she, along with four others, defied Fia and the rest of the heroes, choosing to carve their own path instead.
 

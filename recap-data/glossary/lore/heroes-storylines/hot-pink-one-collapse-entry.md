@@ -29,7 +29,8 @@ To twist the knife further, the Hot Pink One revealed that she was pregnant—wi
 
 By Day 7, Tam and others held a **gender reveal party** for the unborn child. Still bitter, Tam tried to keep it together, until Pinky asked her to be the child’s **godfather**. That was the [last straw.](https://www.youtube.com/live/CUh9eciJil4?t=7701)
 
-> “You sick… you sicken me. You sick woman.”
+> You sick… you sicken me. You sick woman.
+> Back off, you monster!...Can you believe the audacity of that woman.
 
 Tam finally snapped. Tired of being treated like a “hobby,” she cut ties with the Hot Pink One completely. In a bitter act of revenge, she turned her attention toward **Ina**, attempting to steal her away.
 

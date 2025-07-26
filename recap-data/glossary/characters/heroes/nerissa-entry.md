@@ -22,7 +22,7 @@ Like many others, Nerissa’s story began in confusion—dazzled and unsure of h
 
 And she didn’t do it to flaunt her wealth—though she’d admit her deep pockets felt good—but because she genuinely wanted to support those she loved. Her dedication was most clearly seen as [FaunaMart’s](#entry:faunamart-entry) number one (and only) employee. Nerissa respected the green CEO so much that she spent countless days gathering resources to build the shop, stock it, and watch over it when Fauna wasn’t around—even if that earned her a mental scar or two whenever a certain feral pink doggo tried to chase her down for ["scamming."](#entry:lottery-fiasco-entry)
 
-> Uh, Romeo, I'll call you later. I'm currently being chased by a dog.
+> Uh, Romeo, I'll call you later. I'm currently being chased by a dog, she says she wants my money... AH!
 
 More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=2806)
 
@@ -52,7 +52,8 @@ Bit by bit, her [memories](https://www.youtube.com/live/5sWjzbacGUY?si=KUn5fSB0c
 Above all, she yearned for her name. Early in her journey, she asked, “Who am I?”
 It was Elizabeth who answered her, without teasing or nicknames.
 
-> “Nerissa Ravencroft. Or you also called yourself ‘Juliet,’ I guess.”
+> Well, I mean your name is Nerissa.
+> Some also called yourself ‘Juliet,’ I guess.
 
 It sounded [right.](https://www.youtube.com/live/XfZh_3xb7i0?si=xVwBE_o5TFb2HfsC&t=5287) Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
 

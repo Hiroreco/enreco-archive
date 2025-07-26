@@ -27,6 +27,7 @@ She also acquired a mother. Two, actually. And got involved in a polygamous rela
 She claimed to be of royalty, a princess, because of the crown she wore. Whether she was truly royal was up for debate, considering she acted like a literal toddler: always up to mischief, constantly messing about.
 
 > She took my egg and I gave her my seeds.
+> My wife, had the bird lady with fake breasts tried to take you again?
 
 But when it came to commitment, Bijou didn’t mess around. Early on, she set her sights on a goal—not saving the world or anything trivial like that—but acquiring [a hat](https://www.youtube.com/live/Tl7rUzJyc_0?t=22515). She dedicated entire days and nights, hoarding money, gambling her life away just to afford more gacha boxes. All because she saw someone else’s hat and got jealous.
 
@@ -55,7 +56,8 @@ In short, Bijou was kind and diligent toward everyone around her. It felt as tho
 
 At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shiori—turned against Fia and the remaining heroes.
 
-> “The darkness in the heart always takes over, nothing stays pure.”
+> The darkness in the heart always takes over, nothing stays pure.
+> MAY THE LANDS BURN!
 
 ## Notable Writings
 

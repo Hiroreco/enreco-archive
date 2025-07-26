@@ -19,7 +19,8 @@ It all began when Shakira asked Gonathon to help her pursue Immerkind—her _cou
 
 In an attempt to console her, Gonathon offered a wild theory:
 
-> "What if… the Princess and the Outlander are siblings?"
+> What if… they're siblings?
+> She's... her brother.
 
 ### How it went
 

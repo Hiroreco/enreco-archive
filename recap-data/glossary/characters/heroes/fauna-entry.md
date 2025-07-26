@@ -23,7 +23,8 @@ Whether that notoriety was a good or bad thing is up for debate, especially cons
 
 Fauna embodied the ideals of her [guild](#entry:guilds-entry), intelligence and curiosity, though exactly how she applied those traits to the betterment of the kingdom remains a hot topic. As early as Day 2, she boldly declared her intent to abandon all kingdom-related duties and instead live life as an "NPC," launching her personal venture: [_FaunaMart_](https://www.youtube.com/live/eUQWfgVwwpo?feature=shared&t=176).
 
-> Buy our lottery tickets for a chance of winning the big jack pot!
+> This is a message from Fauna of FaunaMart to let you know that FaunaMart is now open!
+> We are selling lottery where you can win big prizes and big jackpots!
 
 [FaunaMart](#entry:faunamart-entry) rapidly became a household name, if not quite for the reasons Fauna might have hoped, thanks to its flagship product: _lottery tickets_. Rumors and accusations of scamming ran rampant, but Fauna, ever the determined entrepreneur, remained unfazed.
 

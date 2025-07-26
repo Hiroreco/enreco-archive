@@ -22,7 +22,8 @@ Tanakisha Karia’s destiny was clear from the moment she awoke: to save the ~~l
 
 Life could feel lonely in her guild; the Amber Coin had far fewer members than most, especially after one wandered off to the woods and another switched guilds. Still, she pressed on undeterred.
 
-> She left us, she left us. And our guild was already so small...
+> She left us, she left us.
+> And our guild was already so small...
 
 She rarely entertained nonsense from anyone, remaining confident and unwavering in her judgment. Yet, by journey’s end, this phoenix found herself yearning for someone to love and come home to. She showed interest in a certain [humble knight,](https://www.youtube.com/live/3cr3DLpyB60?feature=shared&t=21557) but his heart was already taken. In the end, she learned to keep moving forward on her own.
 

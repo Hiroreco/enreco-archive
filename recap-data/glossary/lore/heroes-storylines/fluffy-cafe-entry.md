@@ -23,6 +23,7 @@ Her determination was unwavering, but so intense that she became detached from t
 
 On Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it [Moco-chan](https://www.youtube.com/live/geV0HyX5LUA?si=MON2jav5merqyE4a&t=3907).
 
+> Moco-chan, ehehehe.
 > We're going to stay together forever, right?
 
 It was adorable. It kept her company. And she loved it with all her heart.

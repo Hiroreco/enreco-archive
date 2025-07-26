@@ -42,6 +42,7 @@ On the final day of Chapter 1, when the corruption was at its peak, Nerissa succ
 
 But instead of pushing her away, Elizabeth—despite her deep hatred for the corruption and the danger it posed—remained calm. She took Nerissa’s hand, and [saved her.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12224)
 
+> Hello there, maiden.
 > You hear that beautiful music? Join and listen even more.
 
 Before this took place, Elizabeth and Nerissa had a heated argument. Nerissa, ever skeptical and sharp-eyed, tried to convince the scarlet knight that the King, the very one Elizabeth had sworn loyalty to, might not be as righteous as he seemed. That he could be manipulating everyone from the shadows.

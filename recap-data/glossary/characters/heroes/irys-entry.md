@@ -23,6 +23,7 @@ In the first chapter, the Hot Pink One maintained an aloof, detached demeanor, m
 She soon wove herself into the kingdom's shenanigans. Despite her relative inactivity compared to others, she quickly carved out a notorious reputation as a "side chick magnet."
 
 > Side Chick #4, let down your water!
+> You were always... my backup plan.
 
 As early as Day 2, she had already claimed a wife—NinoIna—and, despite professing [eternal loyalty](https://www.youtube.com/live/f8W426vzTb8?t=9715) to the purple one, continued to gather more women into her orbit—four more, to be exact. She even attempted to ensnare a fifth: a memory-lost [blonde](https://www.youtube.com/live/pH9lSCrTVMY?feature=shared&t=1792) searching for her beloved. A reminder that the pink one was a member of [Cerulean Cup](#entry:guilds-entry), the supposedly empathetic guild.
 
@@ -47,7 +48,8 @@ Everything was going great, until the [last few days.](#entry:hot-pink-one-colla
 
 Near the end, to escalate her already chaotic life, the pink one claimed to be pregnant. Bijou even hosted a gender reveal party, unveiling the baby’s gender as [“Gas”](https://www.youtube.com/live/os9TbwMUcbk?t=5739)—since many suspected she was simply gassed up, not pregnant. The events that transpired afterwards shattered her bond with Tam, who then concluded the Hot Pink One wasn’t worth it. That led to an affair between Tam and Ina, which in turn led to Ina embarking on a journey of enlightenment, leaving the pink one devastated and spiraling into a yandere-like state.
 
-> She will realize... that only I can bring her happiness.
+> She will surely not have happiness.
+> I believe that she can make the right choice. Her only route of happiness, is with me.
 
 For anyone following the story from her perspective, it was easy to lose track of the actual objective everyone came here for.
 

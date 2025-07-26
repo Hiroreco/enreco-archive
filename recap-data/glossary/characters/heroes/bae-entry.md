@@ -22,6 +22,9 @@ Just like her newly found companions, Peasant The Bae found herself whisked away
 
 However, one can only escape their fate for so long; Bae would be found and dragged back to Libestal to her [grievance](https://youtu.be/t5NGryTaGqk?t=1529). Sometimes when the world asks for you, even when you don't answer the call, the call will call Truck-kun to have you dragged back... _What? The King was the enemy?_ Bae knew that the monarchy was the true enemy all along! [Down with the King](https://youtu.be/t5NGryTaGqk?t=4833).
 
+> Listen here old man, I've told you before, I'm weak, I can't do anything.
+> Why did you bring me back here! I WAS DOING JUST FINE!
+
 On the bright side, Bae received a [nice peasant hat (with a gold coin)](https://youtu.be/t5NGryTaGqk?t=1844) for her troubles.
 
 ### Chapter 2
@@ -30,6 +33,8 @@ On the bright side, Bae received a [nice peasant hat (with a gold coin)](https:/
 **Job:** Supplier
 
 In Chapter 2, Peasant The Bae certainly had more color to her story. From rags to riches, Bae toiled and worked for her gold, culminating in her own successful business, ["tHE dUMPSTER"](https://youtu.be/Lp7GyRVbz1c?t=14135). Bae seizes any opportunity to sell her wares or offer her services to any customer who comes her way. Soon, "Peasant" became much more than a status of her previous lack of wealth; ["Peasant"](https://youtu.be/Lp7GyRVbz1c?t=1511) is an honorable title Bae wore.
+
+> You need to stop using "Peasant" as an insult. That's like trying to insult someone by calling them "Prince".
 
 From little gossips that casually slandered the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this chapter. Though her [growing love with Immerkind](https://youtu.be/Br6dvhVJ_IE?t=4571) unfortunately ended in heartbreak, it nonetheless gave way to a [brotherhood stronger than obsidian](https://youtu.be/Br6dvhVJ_IE?t=5292). Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life.
 

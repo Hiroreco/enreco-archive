@@ -19,6 +19,8 @@ At the end of the first chapter, Bijou left Shiori with a child—represented as
 
 Bijou, now seeking to mend her relationship with Shiori, tried to persuade Bae to return the child, recognizing it as her own. Bae refused, and the matter escalated to a “court” proceeding, with Mordon presiding as the jury.
 
+> The moment I picked her up from the streets and signed the adoption paper, you have no custody over this child!
+
 ### How it went
 
 The court case unfolded as expected: chaotic. Bae stood firmly by her beliefs, having grown deeply attached to the child—to the point she saw it as her own. She argued that Bijou was neglectful and irresponsible, and that the child deserved a loving, stable home.

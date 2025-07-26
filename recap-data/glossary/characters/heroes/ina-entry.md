@@ -21,6 +21,7 @@ Ninomae Ina'nis, or more casually, NinoIna, was one of the rare few—alongside 
 Ina began her journey with a more reserved demeanor than most. Despite being placed in the same [guild](#entry:guilds-entry) as some of the most eccentric individuals in the kingdom, she remained calm and collected throughout. She quickly bonded with others, most notably entangling herself with the [Hot Pink One](#entry:irys-entry), whom she declared her eternal consort as early as Day 2, and with Bijou, whom she lovingly regarded as a sister—bonded over the shared memory of a "wooden shovel."
 
 > G-guys, I thought we're supposed to represent empathy...
+> Am I right to be in this guild? These folks seem little...
 
 Upon conquering the [Eldritch Horror Dungeon](#entry:eldritch-horror-dungeon-entry), she recovered memories of herself as Ninomae Ina'nis, a priestess who cared for and tended to lingering souls, sending them off with a smile.
 
@@ -35,7 +36,8 @@ Ina proved herself to be loyal and dependable, both to her guild and to her belo
 
 Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming [potatoes](https://www.youtube.com/live/BkJIFGhpKIY?si=TOOasp2g_o_oVHFp&t=6891) by her humble abode.
 
-> Oh Potato Fairy, tell me. What must I do. Should I fry them?
+> Oh Potato Fairy, tell me. What must I do.
+> Should I fry them?
 
 She upheld her sisterly bond with Bijou, and this time didn’t need to save her from any corruption. Her path seemed to promise a peaceful, steady journey once again… until the final days.
 

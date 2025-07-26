@@ -25,6 +25,7 @@ She was, after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild
 That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for [FaunaMart’s lottery,](#entry:faunamart-entry) and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Doll!
 
 > Legal help? No, I'm Any Help!
+> I don't have a lisence but I did take a bar exam.
 
 In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind, planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
 

@@ -31,6 +31,9 @@ The rivalry reached its peak on the final day when Fauna [invited](https://www.y
 
 Nanamoo rejected the offer—insulting Fauna in the process. But then came the twist: Nanamoo revealed she had been working _for_ FaunaMart all along. Everything she did—the funds, the revenue, the creation of NanaEleven—was to attract even more attention to FaunaMart.
 
+> Oh it hurts me, to see such bad business practices.
+> You see, it was so obvious that you were trying to scam people.
+
 What started as a corporate standoff ended in laughter, as the two agreed to merge their businesses and take over the world together, united as **FaunaMart x NanaEleven**.
 
 ## Related Stories

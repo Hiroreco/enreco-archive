@@ -22,7 +22,7 @@ Calli was one of the few whose reason for being transported to this enigmatic un
 
 Calli was a woman of justice, standing firmly for what was right and a trustworthy ally to those on the same path, like Elizabeth. Still, she made quite a name for herself by running a tavern called **Death Do Us Part**, which didn’t just serve food—it offered divorce services, too. Seeing how the kingdom was bursting with love, she recognized an opportunity, fully expecting those couples to fall apart in the end. Naturally, those married were appalled… until they actually lined up for her [services](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=11280) on the last day.
 
-> They all start of so naive. In the end, it'll all come crashing down.
+> They all start of so naive. In the end, it'll all come crashing down and they'll thank me later.
 
 Calli also played a critical role in the battle against the corruption on the final day. As all hope seemed lost, she was the one who managed to concoct the [cure](https://www.youtube.com/live/evcruocvE3g?t=8835) that ultimately saved everyone—really putting her culinary skills to the test. Her tavern bustled with activity, which made its pink-haired owner very happy. Perhaps it was her true calling to bring people together, whether through food, comfort, or even paperwork.
 
@@ -37,7 +37,7 @@ Unlike many others, she retained all her memories from the previous journey. So,
 
 That wasn’t all. Calli also put her other skills to work by opening a therapy stall, offering a listening ear and wise counsel to troubled hearts for a modest fee of 300 coins. This service quickly proved indispensable; as the kingdom’s chaos escalated, more and more people [flocked](https://www.youtube.com/live/ABO6qUKDBG0?si=zw4PRzXBRiyCgpjw&t=14246) to her for help—so many, in fact, that the therapist herself began to wish she could get therapy.
 
-> I swear to god she only exists to f\*ucking ruin my life.
+> It may be best to confront the issue at the source... Have you considered murder as an option?
 
 Naturally, Mordan found herself tangled in a few shenanigans, too. She almost ended up in a romance with Gonathon through a blind date setup, if not for Shiori swooping in to reclaim the knight. Even so, Calli poured her heart into interacting with others and making things for them. Her care shone through especially when she spent countless days and nights building houses to [auction off](https://www.youtube.com/live/Ch4qLZhARtY?t=5528) to those still without a roof over their heads.
 

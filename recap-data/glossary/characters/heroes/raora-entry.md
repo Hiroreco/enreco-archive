@@ -37,7 +37,8 @@ Did she become queen in the end? That remains unclear. But in her heart, and in 
 
 The pink cat’s second journey began with a new name, Roa Pandora, and no memories of her previous adventure. But that didn’t stop her from immediately chasing a bold goal: to open the kingdom’s largest jewelry shop, where everyone would come to buy the finest charms. The shop would be called _Gacharm_, and its slogan?
 
-> “Tiny treasure, infinite pleasures!”
+> Welcome to Gacharms!
+> Tiny treasure, infinite pleasures!
 
 With the help of her diligent [employees](https://www.youtube.com/live/i54lsw-XjDA?t=692) and her own tireless dedication, Roa managed to bring her vision to life early in the journey.
 

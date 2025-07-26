@@ -35,7 +35,8 @@ Nerissa, perhaps too kind (or too scared), gave Mococo **3,000 coins**, which Mo
 
 Now, 3,000 coins at 10 coins per ticket should get you 300 tickets. But Nerissa, being mathematically challenged, somehow handed her **680**. Mococo noticed the mistake right away… but said nothing. Because obviously, why would she?
 
-> Nerissa's math is wrong! I'm gonna be rich, YEAHHH!
+> Nerissa's math is wrong!
+> I'm gonna be rich, YEAHHH!
 
 Later, Nerissa realized her error and tried to apologize, offering to fix things. But Mococo wasn’t having any of it. She wanted her 680 tickets, end of story. Fearing for her safety, Nerissa sought protection, asking Gonathon and others to help, labeling Mococo a criminal.
 

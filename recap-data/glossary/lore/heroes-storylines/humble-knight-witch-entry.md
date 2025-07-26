@@ -35,7 +35,8 @@ Later, when she asked Gonathon if he wanted to move forward in their relationshi
 
 More and more, his weaknesses showed. He ignored her, didn’t listen, and never gave her the attention she so deeply yearned for. He didn’t even allow her to explain when he misunderstood a situation—one where Shiori was merely trying to fulfill his request—as her having an affair with someone else. In other words, he [fumbled.](https://www.youtube.com/live/l9VpZ0kmpeY?si=dpxee3gvUJCNCkMX&t=12165)
 
-> You see? You see what I have to put up with? And I'm the evil one?
+> You see? You see what I have to put up with?
+> And I'm the evil one?
 
 Maybe it was because someone else already held that space in his heart. Maybe this relationship was never meant to be.
 
