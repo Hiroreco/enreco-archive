@@ -26,7 +26,7 @@ const ViewInfoGeneral = () => {
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on July 25th, 2025{" "}
+                    Updated on July 26th, 2025{" "}
                     <a
                         href="#"
                         onClick={(e) => {
@@ -35,7 +35,7 @@ const ViewInfoGeneral = () => {
                         }}
                         className="text-blue-500 hover:text-blue-700 underline cursor-pointer"
                     >
-                        (changelog)
+                        (Changelog)
                     </a>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
@@ -176,7 +176,7 @@ const ViewInfoGeneral = () => {
                     Minecraft Usage Guidelines.
                 </a>
             </div>
-            
+
             <ViewChangelogModal
                 open={showChangelog}
                 onClose={() => setShowChangelog(false)}

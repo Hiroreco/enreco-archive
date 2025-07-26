@@ -110,7 +110,7 @@ const CollapsibleHeader = ({
                                     onClick={onTogglePin}
                                     className="shrink-0"
                                 />
-                                <span>Fanart Gallery</span>
+                                <span>Libestal Gallery</span>
                             </div>
                         </DialogTitle>
                         <DialogDescription className="sr-only">

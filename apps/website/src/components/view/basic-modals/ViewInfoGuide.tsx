@@ -137,21 +137,21 @@ const ViewInfoGuide = () => {
             <div className="flex items-center gap-2">
                 <LibraryBig size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Glossary
+                    Glossary (New)
                 </div>
             </div>
             <div>
                 Located in the <em>Glossary Tab</em> in the upper left corner,
                 this collection of entries provides detailed information on
                 revelations, characters, locations, quests, and more. It serves
-                as a resource for understanding topics referenced throughout the 
+                as a resource for understanding topics referenced throughout the
                 site.
             </div>
 
             <div className="flex items-center gap-2">
                 <Book size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Chapter Recaps
+                    Chapter Recaps (New)
                 </div>
             </div>
             <div>
@@ -189,24 +189,24 @@ const ViewInfoGuide = () => {
             <div className="flex items-center gap-2">
                 <Disc3 size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Jukebox
+                    Jukebox (New)
                 </div>
             </div>
             <div>
                 The jukebox features a collection of music used in ENreco,
                 including tracks from the game itself as well as those used by
-                the talents.
+                the talents and made by fans.
             </div>
 
             <div className="flex items-center gap-2">
                 <Palette size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Fanart Gallery
+                    Libestal Gallery (New)
                 </div>
             </div>
             <div>
                 You can explore all the incredible fanart created by the
-                community during the event in the <em>Fanart Gallery tab</em>,
+                community during the event in the <em>Libestal Gallery tab</em>,
                 organized by characters, chapters, and days.
             </div>
 
@@ -220,7 +220,7 @@ const ViewInfoGuide = () => {
             <div>
                 Hidden throughout the site are easter eggs—little nods to silly
                 moments or tributes to certain members. These are interactive,
-                so keep an eye out for surprises! Many of them have multiple 
+                so keep an eye out for surprises! Many of them have multiple
                 variations, so try clicking more than once!
             </div>
 
