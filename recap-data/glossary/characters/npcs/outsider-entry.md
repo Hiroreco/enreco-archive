@@ -16,6 +16,9 @@ Nineteen heroes were summoned to the Kingdom of Libestal by its seemingly kind a
 
 After the defeat of the Stain King, the monarch revealed his true identity. Again and again, he was forced to witness the world's destruction, powerless to escape. It was only by summoning the heroes that he finally shattered this cycle, breaking the seals on his prison. Freed at last, he cast aside his disguise and revealed his true form—**The Captive** (later known as **the Outsider**).
 
+> Good riddance to this place. It shall keep me no longer.
+> You're next...
+
 His intent was clear: to destroy all of existence as retribution for his imprisonment. But through the combined efforts of the heroes, he was ultimately struck down. However, as he fell, the very world began to collapse into the void. In the final moments, a mysterious entity intervened, pulling the heroes from the brink of annihilation.
 
 ### Chapter 2
@@ -37,11 +40,16 @@ Eventually, his true identity was revealed: he was **The Watcher**, a member of 
 **The Outsider**
 For this defiance, he was punished by the _Higher Being_—imprisoned for eternity within a fabricated reflection of the very kingdom he tried to save. As centuries passed, resentment turned to madness, and from that despair, the Outsider was born.
 
+- [Read "The Outsider"](#entry:outsider-entry)
+
 #### The Price for Defying Fate
 
-After learning his fate and seeing the strength of the heroes firsthand, the Outlander relinquished his role. Trusting them with the task of saving the world, he stepped back. 
+After learning his fate and seeing the strength of the heroes firsthand, the Outlander relinquished his role. Trusting them with the task of saving the world, he stepped back.
 
 Yet, when the Curse reemerged in its final moments and struck down Princess Iphania, the Outlander intervened—arriving on the scene and attacking the Curse directly. This act, striking down a fellow member of the Collective, was the betrayal that angered the Higher Being. Though the heroes succeeded in destroying the Heart of Ruin and restoring peace, the Outlander's defiance could not be forgiven.
+
+> TRAITOR!
+> You thought you could fight fate? You will reget your isolence.
 
 Devastated by grief, the Outlander faced judgment once again. The mysterious Higher Being, who had been watching from beyond, declared that his betrayal of the Collective was irreversible. Imprisonment awaited him still. The cycle could not be broken—the Outsider would still be born.
 

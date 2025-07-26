@@ -46,7 +46,7 @@ But instead of pushing her away, Elizabeth—despite her deep hatred for the cor
 
 Before this took place, Elizabeth and Nerissa had a heated argument. Nerissa, ever skeptical and sharp-eyed, tried to convince the scarlet knight that the King, the very one Elizabeth had sworn loyalty to, might not be as righteous as he seemed. That he could be manipulating everyone from the shadows.
 
-To Elizabeth, this was nothing short of blasphemy. Her faith in the King was unwavering, and the idea that he could be anything but noble infuriated her. She nearly came to resent Nerissa for daring to say such things.
+To Elizabeth, this was nothing short of [blasphemy.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=6832) Her faith in the King was unwavering, and the idea that he could be anything but noble infuriated her. She nearly came to resent Nerissa for daring to say such things.
 
 Yet, when the time came—despite the anger, despite the doubts, despite the emotional distance that argument had carved between them—Elizabeth saved her anyway.
 

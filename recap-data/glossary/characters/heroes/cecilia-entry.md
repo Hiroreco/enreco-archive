@@ -22,7 +22,9 @@ Cecilia’s journey in the first chapter was a little different from most. She w
 
 She was, after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting [conspiracy theories](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=3869) about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
 
-That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for FaunaMart’s lottery, and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Doll!
+That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for [FaunaMart’s lottery,](#entry:faunamart-entry) and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Doll!
+
+> Legal help? No, I'm Any Help!
 
 In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind, planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
 
@@ -37,9 +39,10 @@ Now more of an enabler than an instigator, she roamed freely, making chaotic sit
 
 She also built stronger, more layered relationships this time. She remained loyal to the Wolf Pack, claimed to be best friends (allegedly) with the Hot Pink One (whom she dubbed "Oliver"), and continued to serve as Bijou’s knight.
 
-But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, [Iphania](#entry:iphania-entry). From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her [feelings](https://www.youtube.com/live/I75IWfMGVgM?t=7144) throughout the journey.
+But nothing stood out more than her unwavering love and devotion for the kingdom’s princess, [Iphania](#entry:iphania-entry). From the moment she laid eyes on her, Cecilia was awestruck. She swore allegiance, made countless efforts to earn her favor, and held firm to her [feelings](https://www.youtube.com/live/I75IWfMGVgM?t=7144) throughout the journey. A true [love story.](#entry:oh-princess-entry)
 
-Anyone who stood between her and the princess, like the Outlander, was an immediate rival. She even considered abandoning the Wolf Pack just to stay by the princess’s side. When Peasant the Bae, someone who once bickered with Cecilia but eventually warmed up to her, confessed her feelings, Cecilia rejected her on the spot. Because in Cecilia’s heart, there was only the princess.
+> What would you like to do with the Princess?
+> Well, first I would _beep_ then put my hand in her _beep_.
 
 In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself, still alive and well in the [Library,](#entry:library-entry) it gave her all the reason she needed to keep fighting.
 

@@ -25,25 +25,33 @@ Mococo—whether she forgot, was confused, or more likely, was trying to take ad
 
 That’s when the tantrum started.
 
+> You can give money to others but not to Mococo, hoeh?!
+
 Mococo challenged Nerissa to a duel. And not only did she win, she also demanded money from Nerissa as a consequence—something that was never agreed upon in the duel to begin with, but whatever.
 
-Nerissa, perhaps too kind (or too scared), gave Mococo **3,000 coins**, which Mococo immediately spent—on lottery tickets again, of course.
+She didn’t ask kindly—oh no, no. Violence was the option. She chased the poor maiden around the kingdom, doing literal laps, all while brandishing her sharp pink claws and shouting, [“GIVE ME YOUR MONEY!”](https://www.youtube.com/live/5swK4fB2smo?t=1251)
 
-Now, 3,000 coins at 10 coins per ticket should get you 300 tickets. But Nerissa, being _mathematically challenged_, somehow handed her **680**. Mococo noticed the mistake right away… but said nothing. Because obviously, why would she?
+Nerissa, perhaps too kind (or too scared), gave Mococo **3,000 coins**, which Mococo immediately spent—on lottery tickets again.
+
+Now, 3,000 coins at 10 coins per ticket should get you 300 tickets. But Nerissa, being mathematically challenged, somehow handed her **680**. Mococo noticed the mistake right away… but said nothing. Because obviously, why would she?
+
+> Nerissa's math is wrong! I'm gonna be rich, YEAHHH!
 
 Later, Nerissa realized her error and tried to apologize, offering to fix things. But Mococo wasn’t having any of it. She wanted her 680 tickets, end of story. Fearing for her safety, Nerissa sought protection, asking Gonathon and others to help, labeling Mococo a criminal.
 
-A chase ensued. Gonathon and the others tried to talk things through, but Mococo, panicked and fearing retaliation, fled. In the process, she got hurt (mostly self-inflicted) and fell into emotional turmoil.
+A chase ensued. Gonathon and the others tried to talk things through, but Mococo, panicked and fearing retaliation, fled. In the process, she got hurt (mostly self-inflicted) and fell into [emotional turmoil.](https://www.youtube.com/live/5swK4fB2smo?t=2432)
 
-The next day, the fuzzy dog marched back to FaunaMart, determined to confront [Fauna](#entry:fauna-entry) herself for all the pain they caused her. In short, she tried to **sue them**.
+The next day, the fuzzy dog marched back to FaunaMart, determined to confront [Fauna](#entry:fauna-entry) herself for all the pain they caused her. In short, she tried to sue them.
 
 But poor Mococo stood alone—only Cecilia served as her “lawyer.” Meanwhile, FaunaMart had Fauna, Nerissa… and Cecilia as well. The odds were stacked heavily against her, and truth be told, FaunaMart had every right while Mococo had almost every wrong.
+
+> Okay Mococo, let us go to the gallows.
 
 Mococo demanded **10,000 gold** in compensation for her emotional damage. Fauna refused. Onlookers gathered, pressure mounted, and eventually, Mococo realized she couldn’t win. So, she ran.
 
 ### How it ended
 
-Feeling bad for the fuzzy one and just wanting to end the whole ordeal, Fauna later called Mococo over and agreed to settle the matter. She paid the dog a generous sum of 10,000 gold… along with some kisses.
+Feeling bad for the fuzzy one and just wanting to end the whole ordeal, Fauna later called Mococo over and agreed to settle the matter. She paid the dog a generous sum of 10,000 gold… along with [some kisses.](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=3185)
 
 And just like that, they were friends again.
 Hurray.
@@ -51,3 +59,7 @@ Hurray.
 ## Related Stories
 
 - See ["FaunaMart and NanaEleven"](#entry:faunamart-entry)
+
+## Credits
+
+- Entry thumbnail by [karunochi](https://x.com/karunochi/status/1830608765454024950)

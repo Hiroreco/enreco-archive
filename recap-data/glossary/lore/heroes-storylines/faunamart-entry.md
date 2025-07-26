@@ -36,3 +36,7 @@ What started as a corporate standoff ended in laughter, as the two agreed to mer
 ## Related Stories
 
 - See [“Lottery Fiasco”](#entry:lottery-fiasco-entry)
+
+## Credits
+
+- Entry thumbnail by [fongban\_](https://x.com/fongban_/status/1901895840236765627)

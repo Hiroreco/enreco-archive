@@ -53,4 +53,4 @@ Heroes advanced through the story via two types of quests:
 
 After defeating the Stain King on Day 8, the truth unraveled: the King had been evil all along. The kingdom was merely a prison to contain him, and the heroes had unknowingly set him free. His true identity, The Captive, or The Outsider, was revealed, and his release brought the fabricated world to its breaking point. Though the heroes ultimately defeated the Captive, the world itself began to collapse, disintegrating back into the void.
 
-Only through the intervention of a mysterious being were the heroes rescued, leading directly into the events of Chapter 2.
+Only through the intervention of a mysterious being were the heroes rescued, leading directly into the events of [Chapter 2.](#entry:libestal-ancient-entry)

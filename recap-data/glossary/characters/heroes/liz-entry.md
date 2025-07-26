@@ -28,7 +28,10 @@ She did it all because she believed it was her duty as a knight. It was what she
 
 But not everything she did stemmed from duty.
 
-[Nerissa Juliet Ravencroft.](#entry:nerissa-entry) Just the sound of that [name](https://www.youtube.com/live/dCNrMstGc3I?t=1716) was enough to make Elizabeth’s heart race and her face flush with the color of strawberries. Witchcraft—that’s what Elizabeth called it. She deemed Nerissa a witch for making her feel this way, and because of that, decided it was her _duty_ to “monitor” her. But was that truly her King’s will, or was it her own?
+> I went for blue... Just like you.
+> She has such a nice voice... for a witch!
+
+[Nerissa Juliet Ravencroft.](#entry:nerissa-entry) Just the sound of that name was enough to make Elizabeth’s heart race and her face flush with the color of strawberries. Witchcraft—that’s what Elizabeth called it. She deemed Nerissa a witch for making her feel this way, and because of that, decided it was her _duty_ to “monitor” her. But was that truly her King’s will, or was it [her own?](#entry:fire-and-flight-entry)
 
 Elizabeth played a major role in liberating the kingdom from corruption on the final day. But just when it seemed the fight was over, the truth shattered her world. The King she had loyally served was revealed to be evil—a deceiver who had manipulated them all. Elizabeth was devastated; her beliefs and ideals were turned upside down.
 
@@ -45,7 +48,7 @@ One noticeable thing about her this time—she was more relaxed compared to befo
 
 She started journaling all of it in a series she called _Knight Logs_, chronicling her experiences, recalling her last journey, and, of course, detailing her continued “monitoring” of her “Juliet,” Nerissa Ravencroft.
 
-This journey marked clear progress in that “monitoring” relationship. The endless bickering and witch accusations from the first chapter gave way to bonding moments—sparring, gambling, hanging portraits beside one another, and writing heartfelt letters. It was a [deepening connection.](https://www.youtube.com/live/CVF91CqGD80?si=0WJ6A3s8dUHs0eLF&t=8123) Though the witch accusations? Those stayed.
+This journey marked clear progress in that “monitoring” relationship. The endless bickering and witch accusations from the first chapter gave way to bonding moments—sparring, gambling, hanging portraits beside one another, and writing heartfelt letters. It was a [deepening connection.](#entry:maven-in-blue-entry), though the witch accusations? Those stayed.
 
 Then came the twist. At the end of the journey, Nerissa, along with four others, turned against the heroes to follow her own path. Elizabeth’s reaction was left unspoken, left for the next chapter. Was it anger? Shock? A sense of betrayal? Whatever it was, Elizabeth would want a happy ending. For herself. For everyone.
 
@@ -73,6 +76,7 @@ She couldn’t remember that life—not fully. But she could feel traces of it, 
 
 ## Trivia
 
-- As of Chapter 2, Elizabeth is the only one who has not missed a single day in this enigmatic journey.
+- In Chapter 1, Elizabeth had an impressive, almost theatrical habit—whenever she found herself in a different situation, a song would play in her head that perfectly matched the mood. Over the course of the journey, she cycled through at least ten different tracks.
+- As of Chapter 2, Elizabeth is **the only one** who has not missed a single day in this enigmatic journey.
 
 [liz](#easter:easter-liz)

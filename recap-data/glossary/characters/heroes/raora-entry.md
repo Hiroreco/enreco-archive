@@ -20,7 +20,9 @@ Raora was first a (fake) queen married to another (fake) queen, then a jewel sto
 
 Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom—whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam, thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=13146)
 
-The difference between the two queens? Raora actually put in the work. She genuinely cared for her guildmates and even built a castle with designated rooms for each of them.
+The difference between the two queens? Raora was resolute and unwavering in her desire to become queen—so much so that she even built a castle, complete with designated rooms for each of her guildmates, to prove her conviction.
+
+> Let me tell you something, and I won’t say it again: You are a queen without a castle!
 
 She was also a loving mother to two, Bijou and Ina. Her affection showed in the way she tried to rescue Bijou from corruption and how deeply moved she was when the two sisters clashed in battle.
 
@@ -33,7 +35,9 @@ Did she become queen in the end? That remains unclear. But in her heart, and in 
 **Name:** Roa Pandora
 **Job:** Jeweler
 
-The pink cat’s second journey began with a new name, Roa Pandora, and no memories of her previous adventure. But that didn’t stop her from immediately chasing a bold goal: to open the kingdom’s largest jewelry shop, where everyone would come to buy the finest charms. The shop would be called _Gacharm_, and its slogan? “Tiny treasure, infinite pleasures!”
+The pink cat’s second journey began with a new name, Roa Pandora, and no memories of her previous adventure. But that didn’t stop her from immediately chasing a bold goal: to open the kingdom’s largest jewelry shop, where everyone would come to buy the finest charms. The shop would be called _Gacharm_, and its slogan?
+
+> “Tiny treasure, infinite pleasures!”
 
 With the help of her diligent [employees](https://www.youtube.com/live/i54lsw-XjDA?t=692) and her own tireless dedication, Roa managed to bring her vision to life early in the journey.
 

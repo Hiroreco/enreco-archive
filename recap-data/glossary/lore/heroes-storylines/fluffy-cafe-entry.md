@@ -19,7 +19,11 @@ From the very beginning, Fuwawa chose the path of a chef. Her goal was clear: to
 
 Her determination was unwavering, but so intense that she became detached from the rest of the kingdom’s chaos. For better or worse, she kept her distance from the shenanigans of others, and as a result, her journey felt somewhat lonely.
 
-On Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it **Moco-chan**.
+### How it went
+
+On Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it [Moco-chan](https://www.youtube.com/live/geV0HyX5LUA?si=MON2jav5merqyE4a&t=3907).
+
+> We're going to stay together forever, right?
 
 It was adorable. It kept her company. And she loved it with all her heart.
 
@@ -31,13 +35,13 @@ Her heart sank. Disappointment crept in.
 
 She began to lose hope.
 
-### How it went
+> I became a stronger adventurer, but I'm not sure if I'm getting closer to my dream...
 
 Just as despair was settling in, **Kiara** noticed the struggling chef. Without hesitation, the kindhearted phoenix bought every dish Fuwawa had to offer, giving her the first real boost she needed.
 
 That single act of kindness set off a chain reaction. Word spread. One customer turned into two, then many more. Fuwawa’s food was finally getting the love it deserved.
 
-Upon realizing what was happening, Fuwawa was overjoyed.
+Upon realizing what was happening, Fuwawa was [overjoyed.](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546)
 
 ### How it ended
 
@@ -46,3 +50,7 @@ By Day 7, Fuwawa’s café was thriving. Her food had become so beloved that she
 Even though the event itself turned out chaotic, her dream had been fulfilled.
 
 And she was happy.
+
+## Credits
+
+- Entry thumbnail by [dreamplanes256](https://x.com/dreamplanes256/status/1922931113174917132)

@@ -17,21 +17,30 @@ One of the more prominent relationships that first bloomed in Chapter 1 was betw
 
 Nerissa began the second journey with no memories of the previous one, meaning she didn’t remember who Elizabeth was either. But over time, those memories slowly returned—and with them, the bond they had forged before. This time, it was stronger. The two could feel it: there was something between them.
 
+> If you're giving them out freely, can I have your last name as well?
+
 ### How it went
 
-Nerissa began to seek Elizabeth’s company more and more. They sparred, exchanged gifts, placed their portraits side by side, and even lived under the same roof. Elizabeth didn’t shy away; she smiled, reciprocated, and seemed to genuinely enjoy Nerissa’s presence. Even calling her a “witch” now had a playful warmth to it.
+Nerissa began to seek Elizabeth’s company [more and more.](https://www.youtube.com/live/vMdhvi8dHN4?si=WWtAxzz_Dz2_YNSr&t=6639) They sparred, exchanged gifts, placed their portraits side by side, and even lived under the same roof. Elizabeth didn’t shy away; she smiled, reciprocated, and seemed to genuinely enjoy Nerissa’s presence. Even calling her a “witch” now had a playful warmth to it.
 
-They hung each other's portraits beside one another—as if to symbolize the growing closeness between them.
+They even hung each other’s portraits side by side, as if to symbolize the growing closeness between them.
 
-But on the fifth day, a misunderstanding unraveled that progress. Nerissa noticed Elizabeth’s portrait was no longer next to hers, and when she asked about it, Elizabeth responded coldly, returning to calling her “witch” with a sharper tone. In truth, Elizabeth hadn’t meant anything by it—she was simply being her usual self, oblivious to how her actions could be taken—but to Nerissa, it felt like a dagger to the heart.
+A closeness that, on the surface, seemed pure—but deep down, perhaps something else was beginning to brew.
+
+> Lady Bloodflame calls me a witch, but has been insistent that I am a good witch... but maybe she's wrong...
+
+On the fifth day, a misunderstanding unraveled that progress. Nerissa noticed Elizabeth’s portrait was no longer beside hers, and throughout the day, Elizabeth seemed cold, resorting back to calling her “witch” with a sharper, more distant tone. In truth, Elizabeth hadn’t meant anything by it—she was simply being her usual, oblivious self, unaware of how her actions might be interpreted—but to Nerissa, it felt like [a dagger](https://www.youtube.com/live/m5VOeHvSgbI?si=BA_I8E4UbLYaQiSi&t=13972) to the heart.
 
 It stirred something in her. A painful clarity. Just how important Elizabeth was to her.
 
 Even after the misunderstanding was cleared up, Nerissa’s fixation only deepened. Her tone softened around Elizabeth, her gaze never left her, and her thoughts were consumed by her. She wanted Elizabeth—fully, completely. It was as if a sea of blue had begun closing in on a delicate red flame. A chilling, possessive aura surrounded Nerissa. She would never forget Elizabeth again. She wouldn’t allow herself to.
 
-She even built a shrine beneath her house, close to Elizabeth’s home, where mythical music played around the clock—perhaps in hopes of luring the red knight to her side. Even Roa, someone who also had feelings for Elizabeth, sensed the growing danger whenever Nerissa was near.
+She even built a [shrine](https://www.youtube.com/live/MXqotm_8_Hc?si=kdmzoA4BNcV-VPO7&t=231) beneath her house, close to Elizabeth’s home, where mythical music played around the clock—perhaps in hopes of luring the red knight to her side. Even Roa, someone who also had feelings for Elizabeth, sensed the growing danger whenever Nerissa was near.
 
-As for Elizabeth, her concerns lay elsewhere. On the sixth day, while reading a book from Shiori, she came across a passage—one she couldn’t fully trust, yet couldn’t ignore either. It spoke of a moment in the past where she had locked Nerissa behind bars and said cruel things to her, accusing her of having “bewitched” her.
+As for Elizabeth, her concerns lay elsewhere. On the sixth day, while reading a [book](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060) from Shiori, she came across a passage—one she couldn’t fully trust, yet couldn’t ignore either. It spoke of a moment in the past where she had locked Nerissa behind bars and said cruel things to her, accusing her of having “bewitched” her.
+
+> That is you as Lady Bloodflame.
+> But who were you before Lady Bloodflame?
 
 Whether or not those words were true—though Shiori seemed convinced they were—Elizabeth felt a sharp prick in her heart. If their memories were to return, would those painful words turn out to be real?
 
@@ -55,3 +64,7 @@ As Nerissa, alongside four others, turned against Fia and the other heroes, this
 ## Related Stories
 
 - See ["Fire and Flight (First Story)"](#entry:fire-and-flight-entry)
+
+## Credits
+
+- Entry thumbnail by [Keisea](https://x.com/keiseeaaa/status/1921816580691726507)

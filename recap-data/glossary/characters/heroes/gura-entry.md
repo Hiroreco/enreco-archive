@@ -27,10 +27,13 @@ Gura was the founder, or at least, the first member, of the “Appointed Point�
 
 Though she remained awake and active for a large part of the kingdom's journey, she somehow managed to dodge most of the chaos caused by the other heroes. That didn’t stop her from causing some of her own though, like building a [gallows](https://www.youtube.com/live/72SJQRQ7qi0?t=4184) behind a convenience store. For reasons.
 
+> That’s right, there are many crimes in this kingdom, y’see. I can smell ’em.
+
 She regained her past memories after conquering the [Ocean Temple Dungeon](#entry:ocean-temple-dungeon-entry), recalling herself as a princess, well, perhaps a commoner, depending on who you asked, from Atlantis. In her past life, she had stolen the all-powerful trident and fled to the surface, bored of the life beneath the sea. But fate caught up with her. Eventually, the dwellers of Atlantis came and took her back—though not before she bid one final farewell to her fellow heroes.
 
 ## Trivia
 
 - When the heroes were teleported back to the white box at the end of Chapter 1, Gura sneakily managed to return to Libestal. This was, of course, not supposed to happen, and she was quickly brought back into the box by the gods.
+- Miraculously, Gura managed to dodge many of the major shenanigans that took place in the kingdom, remaining uninvolved in events such as [The Lottery Fiasco](#entry:lottery-fiasco-entry) and [The Corruption](#entry:the-corruption-entry).
 
 [gura](#easter:easter-gura)

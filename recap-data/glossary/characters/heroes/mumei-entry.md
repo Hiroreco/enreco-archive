@@ -23,7 +23,9 @@ Nanamoo—known by an ever-growing list of names—began her journey like most o
 
 She also claimed never to have lost her [memories](https://www.youtube.com/live/oq_4QZacuso?t=3518), insisting she vividly remembered a past life full of Ferraris, loyal friends, running water, and undeniable coolness. Whether any of that was true was highly questionable. Her erratic ramblings—such as declaring a male knight to be pregnant—only reinforced the belief that she might be a few marbles short.
 
-Nanamoo’s rise to fame—or infamy—began with the launch of her own store: _NanaEleven_. As FaunaMart’s first ~~victim~~ customer, she quickly caught on to the [green CEO’s](#entry:fauna-entry) morally questionable practices and decided to challenge them—not by doing better, but by doing worse. Her idea of “honest” business? Out-scamming the scammer.
+Nanamoo’s rise to fame—or infamy—began with the launch of her own store: [NanaEleven.](#entry:faunamart-entry) As FaunaMart’s first ~~victim~~ customer, she quickly caught on to the [green CEO’s](#entry:fauna-entry) morally questionable practices and decided to challenge them—not by doing better, but by doing worse. Her idea of “honest” business? Out-scamming the scammer.
+
+> By accepting a ticket, all participants who won have agreed to contribue 10% of their income to a greater cause.
 
 Despite their rivalry, the business war ended with the two swindlers shaking hands, forming an unlikely partnership in the name of profit. Together, Fauna and Nanamoo fled the kingdom with full pockets and reputations... [complicated.](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=1970)
 

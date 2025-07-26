@@ -23,7 +23,7 @@ In an attempt to console her, Gonathon offered a wild theory:
 
 ### How it went
 
-The rumor spread fast—Nerissa, Tam, and countless other curious ears quickly caught wind of it. Among them was Peasant the Bae, who took the theory to a whole new level, concluding that _everyone_ in the kingdom must be inbred… because, according to him, everyone looked alike.
+The rumor spread fast—Nerissa, Tam, and countless other curious ears quickly caught wind of it. Among them was Peasant the Bae, who took the theory to a whole new level, concluding that _everyone_ in the kingdom must be inbred… because, according to him, everyone [looked alike.](https://youtu.be/Lp7GyRVbz1c?t=7940)
 
 From there, it escalated.
 
@@ -35,3 +35,7 @@ It… ended.
 Somehow.
 
 What even _was_ this storyline, man?
+
+## Credits
+
+- Entry thumbnail by [bunbbun1](https://x.com/bunbbun1/status/1919963091464249648)

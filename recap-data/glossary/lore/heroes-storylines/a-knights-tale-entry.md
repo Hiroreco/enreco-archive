@@ -23,11 +23,13 @@ However, through moments of understanding and generous gifts of diamonds, the tw
 
 Gonathon proved to be a devoted husband, doing everything he could to keep Amelia, his “Pearl,” safe and happy. Amelia, of course, remained thoroughly herself. The humble knight would fetch her money and rush to her side at the slightest hint of danger, and there was no shortage of “danger” headed her way. Gura, Bijou, Nerissa, and most notably the Hot Pink One, frequently teased the knight by pretending to steal his wife. Though in the Hot Pink One’s case, she wasn’t pretending.
 
-Gonathon was a humble and just knight through and through. He helped others, showed kindness at every turn, and his love for his wife was purer than anything.
+He was a humble and just knight through and through. He helped others, showed kindness at every turn, and his love for his wife was purer than anything.
 
-Their tale seemed destined for a happy ending, until the sixth day, when Amelia regained her past memories after conquering the Ancient Sewers Dungeon—and forgot everything about Gonathon. Heartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.
+Their tale seemed destined for a happy ending, until the sixth day, when Amelia regained her past memories after conquering the Ancient Sewers Dungeon—and forgot everything about Gonathon.
 
 [And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=5989)
+
+Heartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.
 
 - [Read "A Knight's Tale"](#text:a-knights-tale)
 
@@ -44,3 +46,7 @@ In the end, with unwavering loyalty and love, Amelia and Gonathon reunited at th
 ## Related Stories
 
 - See ["The Humble Knight and the Witch (Continuation)"](#entry:humble-knight-witch-entry)
+
+## Credits
+
+- Entry thumbnail by [yomosaka](https://x.com/yomosaka/status/1832146121898221666)

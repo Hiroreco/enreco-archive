@@ -9,7 +9,7 @@
 **Memories:** [Recollected](https://youtu.be/aSFZwinYaaU)
 **Revelation:** [Chaos Stampede](#entry:chaos-stampede-entry)
 
-Bae may be a peasant of little wealth (at first), but what remains inside is the true heart of a hero. A hard worker with a touch of chaotic gossip, when Bae sets a goal in mind—whether it be love or gold—she _will_ put her all into it. Though her romance isn't as chaotic as  _others_ _cough IRyS cough_, Bae spreads chaos of the non-romantic variety whenever the opportunity presents itself.
+Bae may be a peasant of little wealth (at first), but what remains inside is the true heart of a hero. A hard worker with a touch of chaotic gossip, when Bae sets a goal in mind—whether it be love or gold—she _will_ put her all into it. Though her romance isn't as chaotic as _others_ _cough IRyS cough_, Bae spreads chaos of the non-romantic variety whenever the opportunity presents itself.
 
 ## Details
 
@@ -33,7 +33,7 @@ In Chapter 2, Peasant The Bae certainly had more color to her story. From rags t
 
 From little gossips that casually slandered the royal body that governs the kingdom, putting the 'libel' in *Libel*stal, to heartfelt connections, Bae truly connected with others more in this chapter. Though her [growing love with Immerkind](https://youtu.be/Br6dvhVJ_IE?t=4571) unfortunately ended in heartbreak, it nonetheless gave way to a [brotherhood stronger than obsidian](https://youtu.be/Br6dvhVJ_IE?t=5292). Bae would find a steadfast friend in Gonathan G as he remained by her side during the most trying time of her life.
 
-It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a custody dispute with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, [State Farm was formed](https://youtu.be/L7rBGepFrXA?t=13328) between this small dysfunctional family plus Gonathan.
+It wasn't just friendships Bae found; Bae found kids. Abandoned, she took them under her wing and cared for them, even to the point of a [custody dispute](#entry:custody-dispute-entry) with Bijou and Shiori. Luckily, and at the expense of Mordan Ramsay, [State Farm was formed](https://youtu.be/L7rBGepFrXA?t=13328) between this small dysfunctional family plus Gonathan.
 
 But who was "Peasant The Bae" truly? In the midst of the games of the Chaos Dungeon, fragments of memories would soon return... Bae worried at first: would she still be "Bae" if she remembered? As the Stain King fades in defeat, Bae remembers... She wasn't a peasant—Bae was CHAOS HERSELF. Even with her identity recovered, Bae swore to remain a [peasant](https://youtu.be/L7rBGepFrXA?t=5680) in honor of the brat who took her beloved box. That Charlie...
 
@@ -57,6 +57,6 @@ Notable wise words from Mother found in Chapter 2:
 
 - Despite only being around for two days and showing little interest in the kingdom, Bae somehow ended up with more coins than Tam in Chapter 1, narrowly avoiding the title of the kingdom’s poorest.
 - When Bae wore the Stain Hat in Chapter 2, it caused quite a stir. Many feared she was falling to corruption like so many did in Chapter 1—especially since she kept complaining about headaches while wearing it. Thankfully, she turned out fine.
-- Bae takes great pride in her title as “Peasant” and was quick to put anyone in their place if they dared think it was something shameful.
+- Bae takes great pride in her title as _“Peasant”_ and was quick to put anyone in their place if they dared think it was something shameful.
 
 [bae](#easter:easter-bae)

@@ -55,3 +55,7 @@ Will it continue? Only time will tell.
 ## Related Stories
 
 - See ["The In-bread Incident"](#entry:inbread-entry)
+
+## Credits
+
+- Entry thumbnail by [eile_winters](https://x.com/eule_winters/status/1919969659094499795)

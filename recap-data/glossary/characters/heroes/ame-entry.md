@@ -10,7 +10,7 @@
 **Revelation:** [Eye of Wisdom](#entry:eye-of-wisdom-entry)
 **Status:** Off on a journey
 
-Jyon Watson, now remembered as Amelia Watson, was a mischievous and lovable detective whose relationship with [Gonathon](#entry:gigi-entry) remains one of the most memorable and impactful tales of the journey. Though her whereabouts after the first chapter are uncertain—having not appeared in the second journey—many hold onto hope for her return in future stories.
+Jyon Watson, now remembered as Amelia Watson, was a mischievous and lovable detective whose relationship with [Gonathon](#entry:gigi-entry) remains one of the most memorable and [impactful tales](#entry:a-knights-tale-entry) of the journey. Though her whereabouts after the first chapter are uncertain—having not appeared in the second journey—many hold onto hope for her return in future stories.
 
 ## Details
 

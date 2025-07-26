@@ -22,6 +22,8 @@ Tanakisha Karia’s destiny was clear from the moment she awoke: to save the ~~l
 
 Life could feel lonely in her guild; the Amber Coin had far fewer members than most, especially after one wandered off to the woods and another switched guilds. Still, she pressed on undeterred.
 
+> She left us, she left us. And our guild was already so small...
+
 She rarely entertained nonsense from anyone, remaining confident and unwavering in her judgment. Yet, by journey’s end, this phoenix found herself yearning for someone to love and come home to. She showed interest in a certain [humble knight,](https://www.youtube.com/live/3cr3DLpyB60?feature=shared&t=21557) but his heart was already taken. In the end, she learned to keep moving forward on her own.
 
 ### Chapter 2
@@ -31,11 +33,14 @@ She rarely entertained nonsense from anyone, remaining confident and unwavering 
 
 Kiara held her head high in Chapter 2. Assigned a new role as a “Lore Keeper” alongside Mordan Ramsey, she eagerly embraced this new life and its responsibilities.
 
-With her special role, she felt even more compelled to help others however she could. She became something of Elizabeth’s “sugar mommy,” providing materials, lending a hand, and guiding the ever-confused knight who struggled to settle in—she even built her a forge. The kind-hearted orange also helped make a fluffy chef’s [dream come true:](https://www.youtube.com/live/wCysZh57Hcc?si=amYBd0PYc_tTX567&t=18155) seeing Fuwawa’s dishes left unsold day after day, she stepped in and bought nearly all of them.
+With her special role, she felt even more compelled to help others however she could. She became something of Elizabeth’s “sugar mommy,” providing materials, lending a hand, and guiding the ever-confused knight who struggled to settle in—she even built her a forge. The kind-hearted orange also helped make a fluffy chef’s [dream come true:](#entry:fluffy-cafe-entry) seeing Fuwawa’s dishes left unsold day after day, she stepped in and bought nearly all of them.
+
+> She has literally zero sales...?
+> That breaks my f\*cking heart...
 
 Shakira’s curiosity and playful spirit thrived too, as she happily threw herself into others’ antics, acting as the kingdom’s camerawoman and bearing witness to countless [dramas.](https://www.youtube.com/live/wCysZh57Hcc?t=14970)
 
-Sometimes, though, her eagerness to help caused trouble of its own. With only the best intentions, she arranged a blind date for Mordan Ramsey and Gonathon—unwittingly setting off a chain reaction that sent Gonathon and Shiori’s relationship into a [tailspin.](https://www.youtube.com/live/wCysZh57Hcc?t=8832) She also ended up playing a part in sparking the kingdom’s infamous “In-bread Incident.”
+Sometimes, though, her eagerness to help caused trouble of its own. With only the best intentions, she arranged a blind date for Mordan Ramsey and Gonathon—unwittingly setting off a chain reaction that sent Gonathon and Shiori’s relationship into a [tailspin.](https://www.youtube.com/live/wCysZh57Hcc?t=8832) She also ended up playing a part in sparking the kingdom’s infamous [“In-bread Incident.”](#entry:inbread-entry)
 
 Her relationships in this chapter were far more entangled than in the first, where she largely kept to herself. She even developed a crush on Immerkind… who happened to be her cousin. Perhaps a sign of just how starved for romance she was after her lonely first journey.
 

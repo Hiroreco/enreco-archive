@@ -27,7 +27,7 @@ Seizing the opportunity, the Hot Pink One ordered Tam to serve as her maid—and
 
 To twist the knife further, the Hot Pink One revealed that she was pregnant—with Ina’s child. Tam was stunned and heartbroken, but she kept her emotions bottled up, trying desperately to keep the relationship intact, even as the Pink One continued to exploit her.
 
-By Day 7, Tam and others held a **gender reveal party** for the unborn child. Still bitter, Tam tried to keep it together, until Pinky asked her to be the child’s **godfather**. That was the last straw.
+By Day 7, Tam and others held a **gender reveal party** for the unborn child. Still bitter, Tam tried to keep it together, until Pinky asked her to be the child’s **godfather**. That was the [last straw.](https://www.youtube.com/live/CUh9eciJil4?t=7701)
 
 > “You sick… you sicken me. You sick woman.”
 

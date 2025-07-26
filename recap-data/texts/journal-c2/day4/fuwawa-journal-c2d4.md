@@ -13,5 +13,5 @@ My sales still sit at 0. Should I even look and get my hopes up?
 
 There are so many amazing chefs... They even offer free soup. I don't know if I can do that...
 
-Hangg in there, me.
+Hang in there, me.
 I just have to believe...
