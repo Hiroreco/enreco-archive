@@ -11,7 +11,7 @@ She then asked for something evocative of loneliness, and Calli recommended the 
 
 The others believed her without question, impressed by her apparent riches. With that much wealth, Shiori suggested Tam buy everyone food to prove her generosity. The Queen reluctantly agreed and discreetly bargained with the diner owner for alternative payment methods.
 
-[They call me the negotiator](#embed:https://www.youtube.com/embed/JcRcTRedS_8?si=cZLEVV6TMpfpT6pL&start=1631)
+[They call me the negotiator](#embed:https://www.youtube.com/live/JcRcTRedS_8?si=cZLEVV6TMpfpT6pL&start=1631)
 
 Through wit and sheer determination, Tam managed to treat the group, concealing her near-emptied coin purse. With their meal concluded, they turned their focus to the day’s main quest: the _Eldritch Horror Dungeon_. Tam’s team, consisting of Bijou, Gonathon, and Shiori, together triumphed and recovered [memories](https://www.youtube.com/live/JcRcTRedS_8?feature=shared&t=2670) of _Ninomae Ina’nis_.
 
@@ -31,7 +31,7 @@ The lady in blue was often cruel in her words, but deep inside, her heart was ki
 
 After many hours of hard labor and frustration, the Cerulean Cup guild base was done.
 
-[Tour of the guild hall](#embed:https://www.youtube.com/embed/JcRcTRedS_8?si=BpLFAukBwLvo_GEc&start=19012)
+[Tour of the guild hall](#embed:https://www.youtube.com/live/JcRcTRedS_8?si=BpLFAukBwLvo_GEc&start=19012)
 
 The wooden structure stood as a testament to her dedication and creativity, adorned with cherry blossoms whose delicate petals danced in the breeze. The hallways were lit by the warm glow of torches, while sea lanterns illuminated the floors. Paintings decorated the walls, and each room was uniquely designed to reflect the guild members’ personalities. Bijou’s room featured her beloved pet rock, while Ina and the Hot Pink One had connected rooms to symbolize their bond. The second floor housed a spacious, cozy common area—a perfect gathering place for the friends she was leaving behind.
 

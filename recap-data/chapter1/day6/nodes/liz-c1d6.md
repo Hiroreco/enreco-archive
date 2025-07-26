@@ -1,11 +1,11 @@
 <!-- title: Elizabeth Rose Bloodflame -->
 <!-- status: Alive -->
 
-The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom: 
+The words of the king echoed in Elizabeth's mind as she began her sixth day in the kingdom:
 
 > Tis the calm before the storm, and something more terrible is brewing as we speak. Train your combat skills, and stock up any items you might need. This may be your last chance, so make the most of it.
 
-[_"The calm before the storm"_](#embed:https://www.youtube.com/embed/5R01-igo4sM?si=4btPS_yE7In0DRPe&start=324)
+[_"The calm before the storm"_](#embed:https://www.youtube.com/live/5R01-igo4sM?si=4btPS_yE7In0DRPe&start=324)
 
 From what Elizabeth knew, they had one day left before _"the end."_ A final battle against some great force loomed ahead, and the aftermath was uncertain. But for Elizabeth, the focus was on the present—making the most of their time and preparing for what was to come.
 
@@ -17,7 +17,7 @@ Of course, a serious moment with Elizabeth wouldn’t be complete without her us
 
 After their mischief, Elizabeth refocused on the king’s words about preparation. Inspired, she came up with the idea to organize a tournament. It would be a chance for everyone to train, test, and hone their swordsmanship.
 
-[Grand Tournament Announcement](#embed:https://www.youtube.com/embed/5R01-igo4sM?si=-LygLwE24UrsPdEL&start=2956)
+[Grand Tournament Announcement](#embed:https://www.youtube.com/live/5R01-igo4sM?si=-LygLwE24UrsPdEL&start=2956)
 
 She reached out to those who weren’t present for the announcement. Her most amusing call was to Ina, which started as a [prank call](https://www.youtube.com/live/5R01-igo4sM?feature=shared&t=4264) but ended with Elizabeth being pranked in return.
 

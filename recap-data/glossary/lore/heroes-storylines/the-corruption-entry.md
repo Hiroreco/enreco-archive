@@ -26,7 +26,7 @@ By Day 7, Bijou was fully corrupted. Worse still, she began spreading the Corrup
 > FIRE FIRE, LIGHT THE FIRE!
 > MAY THE LANDS BURN!
 
-She ordered Mococo to slaughter innocent [chickens.](https://www.youtube.com/embed/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974) Then, with power growing, she passed hats to Fuwawa, Nerissa, and Shiori. Darkness and gloom crept over the kingdom. The corrupted ruled one side, while those still untouched tried desperately to resist, searching for a way to end the madness.
+She ordered Mococo to slaughter innocent [chickens.](https://www.youtube.com/live/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974) Then, with power growing, she passed hats to Fuwawa, Nerissa, and Shiori. Darkness and gloom crept over the kingdom. The corrupted ruled one side, while those still untouched tried desperately to resist, searching for a way to end the madness.
 
 It became a battle of former friends, allies, and family. Mococo was [heartbroken](https://www.youtube.com/live/6TXwZjXEoxk?si=xxB_sQ9KhDy7UMnv&t=1608) to see Elizabeth glaring at her with anger and disappointment. Ina and Raora were crushed to witness Bijou—Ina's sister, Raora's daughter—descend into evil.
 

@@ -17,7 +17,7 @@ Later, Cecilia invited everyone to join her German-learning quest. Shakira, stil
 
 Regardless, Shakira chose not to join the quest and went her own way. Later on, Darwin called Shakira through the telekinesis device, now suddenly speaking fluent German—a skill she had just acquired from Cecilia’s quest. It was a deliberate jab, and Shakira couldn’t help but feel annoyed by the scam call.
 
-[Dieser Satz ist auf Deutsch](#embed:https://www.youtube.com/embed/qKlzaYirN88?si=cYKwhcQJE8Dwtauq&start=1719)
+[Dieser Satz ist auf Deutsch](#embed:https://www.youtube.com/live/qKlzaYirN88?si=cYKwhcQJE8Dwtauq&start=1719)
 
 Shakira stopped by Calli and Gonathon, using the opportunity to warn them about FaunaMart and the potential dangers posed by the red hats. Despite it only being her second day in the kingdom, Shakira’s keen sense of justice was already attuned to the undercurrents of deceit. Though her trust in others was beginning to waver, she found some comfort in her pink cat and her guildmates; at least these folks would never betray her... right? (see [Darwin-Shakira: Double Agent](#edge:kiara-moom))
 

@@ -11,7 +11,7 @@ At times, she even resorted to desperate, almost threatening behaviors like leap
 
 As much as Gonathon wanted to spend more time with Amelia, there were more urgent matters. Gonathon confronted Bijou to set matters straight. During their exchange, he learned that the sentient entity on her head, named Joe Mama, played a critical role in her corruption. When he asked to touch [Joe Mama](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=1606), Bijou refused, heightening his suspicion. Gonathon then decided to follow the princess, sneakily observing her actions from a distance.
 
-[What could she be writing about...](#embed:https://www.youtube.com/embed/WvRIdaH107U?si=s2n4Umcp_5FxRL8p&start=2535)
+[What could she be writing about...](#embed:https://www.youtube.com/live/WvRIdaH107U?si=s2n4Umcp_5FxRL8p&start=2535)
 
 He discovered Bijou writing a cryptic book, its contents likely meant to spread her corruption further. Realizing the gravity of the situation, Gonathon sought help from [Ina and Mario](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=4187). Together, they devised a plan to create the _Essence of Empathy_, an ancient cure for corruption. However, they still faced a challenge: how could they get Bijou to drink it?
 

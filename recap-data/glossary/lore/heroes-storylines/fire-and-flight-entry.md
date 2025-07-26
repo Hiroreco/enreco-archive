@@ -30,7 +30,7 @@ Nerissa, of course, delighted in every flustered reaction. Every chance she got,
 
 No matter how hard Elizabeth tried to deny it, her heart always betrayed her. On the fourth day, during the infamous [Lottery Fiasco](#entry:lottery-fiasco-entry), when Nerissa and Gonathon were trying to get information about the fugitive Mococo, Gonathon jokingly asked Nerissa to say she hated Elizabeth.
 
-Those words shattered Elizabeth’s composure. The mere thought of being hated by Nerissa caused her to completely lose her usual knightly demeanor, leading to quite the emotional outburst. Later, Nerissa clarified that she hadn’t meant it, and the [misunderstanding](https://www.youtube.com/embed/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&start=1127) was resolved.
+Those words shattered Elizabeth’s composure. The mere thought of being hated by Nerissa caused her to completely lose her usual knightly demeanor, leading to quite the emotional outburst. Later, Nerissa clarified that she hadn’t meant it, and the [misunderstanding](https://www.youtube.com/live/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&start=1127) was resolved.
 
 From there, the bond between them only deepened—or rather, the antics intensified. Nerissa’s teasing became even more relentless. At one point, she even claimed she was pregnant with Elizabeth’s child just to get a reaction out of her.
 

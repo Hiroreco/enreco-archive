@@ -3,7 +3,7 @@
 
 Bijou, no, _Princess Farmer Koseki Bijou Bloodflame Panthera Evergreen_ began her fifth day with a regal sense of pride. As the self-proclaimed princess of the kingdom of Evergreen, she had everything a royal could wish for—a loyal knight, a queen for a mother (also self-proclaimed), and another mom with an undeniably cool name. Her royal life seemed perfect.
 
-[Kira Kira, init, my fellow comrades](#embed:https://www.youtube.com/embed/5o4TerH2bVI?si=2GpoastQ0CsBNmUe&start=208)
+[Kira Kira, init, my fellow comrades](#embed:https://www.youtube.com/live/5o4TerH2bVI?si=2GpoastQ0CsBNmUe&start=208)
 
 The day started on a high note as she visited her mother Raora’s newly built castle. Bijou was ecstatic to find a room specifically designed for her, complete with regal decor fit for a [princess](https://www.youtube.com/live/5o4TerH2bVI?feature=shared&t=544).
 
@@ -19,4 +19,4 @@ Back in the kingdom, Bijou stopped by the newly built FaunaMart _library_, which
 
 As the day wound down, Bijou noticed Gonathon’s incomplete statue of his queen. Ever the mischievous princess, she couldn’t resist making some "enhancements" to the statue’s design, ensuring her mark on the kingdom would not be forgotten.
 
-[We do a bit of trolling](#embed:https://www.youtube.com/embed/5o4TerH2bVI?si=4Qt3b25iOtKX8tF9&start=13468)
+[We do a bit of trolling](#embed:https://www.youtube.com/live/5o4TerH2bVI?si=4Qt3b25iOtKX8tF9&start=13468)

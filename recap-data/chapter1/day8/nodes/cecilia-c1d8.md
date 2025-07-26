@@ -15,7 +15,7 @@ Sure, it was destroying crops, which might be a problem, but it didn’t seem li
 
 Still, she pressed on. With Fauna's assistance, the ritual was completed, and the special cake needed for the plan was ready.
 
-[Performing the ancient ritual](#embed:https://www.youtube.com/embed/4co7VDSYTqU?si=QuTTkq8TrPrr-k4U&start=3197)
+[Performing the ancient ritual](#embed:https://www.youtube.com/live/4co7VDSYTqU?si=QuTTkq8TrPrr-k4U&start=3197)
 
 With time to spare, Cecilia decided to hang out with her friends. She shared more of her crackhead theory about the king with Nanamoo and Fauna, going on about how he was evil, yada yada yada, the usual [yap](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=3652).
 

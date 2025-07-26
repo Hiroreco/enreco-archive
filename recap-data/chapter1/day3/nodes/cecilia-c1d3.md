@@ -15,7 +15,7 @@ Later, at the quest board, Cecilia encountered Calli wearing the Scarlet Wand ha
 
 Along with the trade, Cecilia sang a song as part of her "payment," earning the hat she’d been dreaming of. Elated, she paraded it around to show off her prize to anyone willing to look.
 
-[Check out my hat!](#embed:https://www.youtube.com/embed/-QKg8Fau9GM?si=7nMEbH-xj6IwR06k&start=3350)
+[Check out my hat!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?si=7nMEbH-xj6IwR06k&start=3350)
 
 Continuing her day, Cecilia bumped into Gonathon. Their conversation spiraled into her spouting wild conspiracy theories about the kingdom and its citizens. Gonathon listened with a mix of confusion and disbelief, silently wondering if she was entirely sane.
 

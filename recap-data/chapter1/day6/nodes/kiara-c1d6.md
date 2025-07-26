@@ -7,7 +7,7 @@ The Volcanic Dungeon lived up to its name. Lava flowed freely, fire burned every
 
 Yet, the dungeon’s theme didn’t match the tone of its lore. The story unfolded around a knight with an obsession for burgers at a certain fast-food joint. It was oddly comedic amid the danger. At the dungeon’s climax, the group encountered a massive goddess-like statue surrounded by orbiting orbs that fired beams of fire. To defeat it, the adventurers had to leap across treacherous platforms to destroy the statue. It was a trial of patience and determination, but Shakira succeeded.
 
-[Recovering memories of herself](#embed:https://www.youtube.com/embed/3cr3DLpyB60?si=Kx0hG8yTKkUwMq1G&start=7508)
+[Recovering memories of herself](#embed:https://www.youtube.com/live/3cr3DLpyB60?si=Kx0hG8yTKkUwMq1G&start=7508)
 
 The truth was revealed: Shakira wasn’t her real name. She was _Takanashi Kiara_, the mighty phoenix knight. A leader of armies, a being of rebirth, and, oddly enough, a fast-food restaurant owner who once resurrected a failing burger chain. Kiara found the latter detail amusingly absurd compared to her grandeur but accepted it with grace.
 

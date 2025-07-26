@@ -5,7 +5,7 @@ Mococo awoke to an unsettling sight: a barren field, once full of thriving crops
 
 The pressure was overwhelming. Mococo began to break down under the weight of fear and guilt. Just then, Bijou appeared, offering comforting words and gentle headpats that momentarily soothed Mococo’s panic. But Bijou’s kindness was a façade—a ploy to lower Mococo’s defenses and allow the Stain to fully corrupt her.
 
-[More like Mococorrupted](#embed:https://www.youtube.com/embed/6TXwZjXEoxk?si=o6aBzC1hk3Ewre9E&start=567)
+[More like Mococorrupted](#embed:https://www.youtube.com/live/6TXwZjXEoxk?si=o6aBzC1hk3Ewre9E&start=567)
 
 Corruption soon consumed Mococo’s mind. Her thoughts were no longer her own as she spread chaos across the land, unleashing terrifying howls that sent others [fleeing](https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=1315). When confronted, she would run away, unable to face those who sought to help her. A lingering sense of guilt and her natural cowardice occasionally disrupted the Stain’s hold on her, giving her brief moments of clarity. During one such moment, Mococo wandered through town searching for someone she could trust.
 
@@ -21,7 +21,7 @@ Sober once more, Mococo resolved to make amends. Before the final battle, she re
 
 As part of her redemption, Mococo decided to help Fuwawa with the chickens, hoping to make up for the chaos she’d unleashed upon them before. However, her sharp claws got the better of her again, and the chickens unfortunately met another untimely end.
 
-[She must really hate chickens](#embed:https://www.youtube.com/embed/6TXwZjXEoxk?si=hTcidaLzCx7pJMaJ&start=7247)
+[She must really hate chickens](#embed:https://www.youtube.com/live/6TXwZjXEoxk?si=hTcidaLzCx7pJMaJ&start=7247)
 
 After the final battle, Mococo and her companions uncovered the truth about the king (see [King: The True Evil](#node:king-of-libestal)). They were then returned to the mysterious [white room](https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=9745), marking the end of the first chapter in Mococo’s journey.
 

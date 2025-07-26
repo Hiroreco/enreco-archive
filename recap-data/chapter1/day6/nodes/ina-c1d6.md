@@ -3,7 +3,7 @@
 
 Ina’s sixth day in the kingdom started with an unusual wake-up call—a prank from Elizabeth about horse and cart insurance. Elizabeth spun a story that would trick most, but Ina wasn’t just any listener; she was five steps ahead. Using her quick wit, she turned the tables on Elizabeth, diffusing the prank with ease.
 
-[I only have a cow](#embed:https://www.youtube.com/embed/3zaM1QIff9U?si=mDaHxM6TNe3rkMgo&start=677)
+[I only have a cow](#embed:https://www.youtube.com/live/3zaM1QIff9U?si=mDaHxM6TNe3rkMgo&start=677)
 
 The call wasn’t entirely frivolous, though. Elizabeth also informed Ina of a tournament set to take place in a few hours, giving her time to prepare. Before that, however, Ina joined Jyonathan, Kiara, and Frieda Adams Antoinette Senior for an expedition into the _Ancient Sewer Dungeon_. There, they recovered [memories](https://www.youtube.com/live/3zaM1QIff9U?feature=shared&t=3719) of _Amelia Watson_, revealing that Jyonathan had been Amelia all along.
 
@@ -13,7 +13,7 @@ Upon returning to the kingdom, Ina encountered Gonathon, who sought her insight 
 
 Later, Ina’s mischievous streak resurfaced as she stumbled upon a conversation between Elizabeth and Bijou. Bijou had been acting strangely, and though Ina was concerned for her sister, the moment was too tempting to resist. Channeling her inner cicada, Ina began making noises to prank the duo.
 
-[_Cicada noises_](#embed:https://www.youtube.com/embed/3zaM1QIff9U?si=MTxcQMh-nLtocBcE&start=4520)
+[_Cicada noises_](#embed:https://www.youtube.com/live/3zaM1QIff9U?si=MTxcQMh-nLtocBcE&start=4520)
 
 Afterward, Ina confronted Bijou directly. What she discovered was chilling: Bijou wasn’t just acting odd; she had become corrupted (see Ina-Bijou: Corrupted for details). This revelation weighed heavily on Ina’s heart. She knew she needed to act but decided to hold off until she could investigate further (see [Bijou-Ina: Sisters](#edge:bijou-ina)).
 

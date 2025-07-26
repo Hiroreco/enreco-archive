@@ -13,7 +13,7 @@ However, her patience wore thin while waiting for the winning [announcements](ht
 
 Determined to prepare for the final day, Mococo spent much of her time gathering materials and earning money by mass-producing potato salads. Her efforts paid off, and with over 10,000 coins in her pocket, she headed to the casino to test her luck. After a series of losses, her persistence paid off with a big win, leaving her triumphant.
 
-[YEAAAAAHHH!!!](#embed:https://www.youtube.com/embed/qFnAgJtQtiY?si=fPjknD7-XvO5KP6U&start=12471)
+[YEAAAAAHHH!!!](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=fPjknD7-XvO5KP6U&start=12471)
 
 Her jolly day would only last for so long. Later in the day, Mococo received a panicked call from Fuwawa. The fluffy one’s beloved chickens had [vanished](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=11111), leaving her distressed and inconsolable. Seeing her companion in such a state, Mococo grew concerned and resolved to investigate. Her first theory? [FaunaMart](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=11362). She speculated, with little evidence, that they might have kidnapped the chickens to turn them into lottery tickets. A ridiculous notion, perhaps, but worth considering.
 
@@ -23,7 +23,7 @@ Shortly after, Bijou appeared. The gem maiden said nothing, merely handing Mococ
 
 What happened next was a blur.
 
-[B̶̢̫̝̖̗̘̹̩͇̦̋̉̀̀Ȃ̵͉͇̰͓̝̩̙͍̒̋ͅǗ̶̗̇͌̋ ̷̨̝̲̱͂͛̄̃͑̈́̋̏̚͝B̶̢͚̬͕͔̟̻͓̉̏́̏̍̊̄̇̀̐̀́̚͝A̸̛̞͚̪͕͙͎̒̏͂̍̍́͋͝U̴̲͇̗͈͑̒̄͛̓̓͌̅̄̔̚](#embed:https://www.youtube.com/embed/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974)
+[B̶̢̫̝̖̗̘̹̩͇̦̋̉̀̀Ȃ̵͉͇̰͓̝̩̙͍̒̋ͅǗ̶̗̇͌̋ ̷̨̝̲̱͂͛̄̃͑̈́̋̏̚͝B̶̢͚̬͕͔̟̻͓̉̏́̏̍̊̄̇̀̐̀́̚͝A̸̛̞͚̪͕͙͎̒̏͂̍̍́͋͝U̴̲͇̗͈͑̒̄͛̓̓͌̅̄̔̚](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974)
 
 When Mococo regained [her senses](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=13135), it felt as though she’d just woken from a deep sleep. She couldn’t recall why there was a hat in her inventory or why her claws were bloodstained. When Fuwawa tearfully confronted her about the missing chickens, Mococo had [no answers](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=13238).
 

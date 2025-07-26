@@ -7,7 +7,7 @@ Her first stop was the Cerulean Cup building area, where she admired the Tam Gan
 
 Suddenly, chaos erupted.
 
-[Hot Pink One incoming!](#embed:https://www.youtube.com/embed/pH9lSCrTVMY?si=x4Ho305cyuOfZiPj&start=410)
+[Hot Pink One incoming!](#embed:https://www.youtube.com/live/pH9lSCrTVMY?si=x4Ho305cyuOfZiPj&start=410)
 
 > Take that hat off!
 > Consort, take that hat off immediately!

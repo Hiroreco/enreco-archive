@@ -19,7 +19,7 @@ But then came the most unexpected twist. The biggest revelation yet unfolded, sh
 
 Still baffled and processing the truth, Gura and everyone else were sent back to the white box, the starting point of their journey. Ever the mischievous one, Gura noticed she still had her Warp Crystal. Using it, she managed to sneak back into the kingdom, where she wasn’t supposed to be.
 
-["Try me now, God!"](#embed:https://www.youtube.com/embed/cIb5yHw4mvk?si=FITNRJQKzyv96_MJ&start=5708)
+["Try me now, God!"](#embed:https://www.youtube.com/live/cIb5yHw4mvk?si=FITNRJQKzyv96_MJ&start=5708)
 
 Of course, the gods caught her in no time and promptly returned her to the white room with the others. Once there, Gura reunited with her fellow Scarlet Wand members for one last group tip-touching session.
 

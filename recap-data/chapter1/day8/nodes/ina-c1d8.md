@@ -11,7 +11,7 @@ Gathering with Gonathon and Mario, Ina recalled the nursery rhymes from her chil
 
 The group hurried to the library, where Cecilia unearthed a book with a cryptic clue pointing to the apple's location. It described the entrance as a "fiery perishment where rebirth awaits." Ina recognized it immediately: the Volcanic Dungeon. Furthermore, they were also given a map of the location.
 
-[Location of the Golden Apples](#embed:https://www.youtube.com/embed/NdWqpuyH0Zg?si=Cg4nfvYiqUw5a_yx&start=1256)
+[Location of the Golden Apples](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?si=Cg4nfvYiqUw5a_yx&start=1256)
 
 Alongside Mario, she journeyed to its entrance, where they found not one but [two golden apples](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=1718).
 
@@ -27,6 +27,6 @@ The battle was fierce and evenly matched, but Ina ultimately triumphed. Bijou, b
 
 Though the threat was gone, the heroes knew peace would be fleeting. Another challenge loomed on the horizon. But for now, Ina allowed herself to savor the moment—with her friends, comrades, family, and her delightfully chaotic wife (see [Ina-Hot Pink One: Forever My Consort](#edge:irys-ina)).
 
-[How to even caption this](#embed:https://www.youtube.com/embed/NdWqpuyH0Zg?si=aaRis0u8KSJBqAkw&start=6494)
+[How to even caption this](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?si=aaRis0u8KSJBqAkw&start=6494)
 
 The final battle with the [Stain King](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=7620) brought one last cruel twist (see [King: The True Evil](#node:king-of-libestal)), sending the heroes back to the white room where their journey [began](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=9255).

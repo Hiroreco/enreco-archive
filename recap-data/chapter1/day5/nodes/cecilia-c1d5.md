@@ -11,7 +11,7 @@ Later, she met Raora in a brief but tense encounter. Raora’s instincts hinted 
 
 Cecilia then joined Nerissa and Fauna for a trek through the Volcanic Dungeon, where they recovered Takanashi Kiara’s [memories](https://www.youtube.com/live/2ATTd32AV-Q?feature=shared&t=4084). With trust seemingly established, Cecilia decided to unveil her secret plan.
 
-[More (crackead) theory/plan](#embed:https://www.youtube.com/embed/2ATTd32AV-Q?t=4221)
+[More (crackead) theory/plan](#embed:https://www.youtube.com/live/2ATTd32AV-Q?t=4221)
 
 She revealed her suspicion of the kingdom's king, theorizing that he was orchestrating the heroes’ missions for his own nefarious purposes. The supposed Stains the heroes were tasked to combat had never been real, and the queen, Tam Gandr, was notably absent from the kingdom. Cecilia’s ultimate goal was to overthrow the king and establish the Scarlet Wand as rulers of the kingdom, under the guise of being the "good guys" (if you ignored their history of questionable deeds).
 

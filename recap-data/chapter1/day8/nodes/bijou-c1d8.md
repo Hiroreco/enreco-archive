@@ -3,7 +3,7 @@
 
 The lands were burning. Grass, leaves, and plants withered as a dark atmosphere cloaked the kingdom. All of it stemmed from a single source: the Stain Princess, Koseki Bijou. Having rebelled against the king, her comrades, and everything she once stood for, Bijou surrendered herself entirely to darkness. And this was just the beginning. Soon, the kingdom, its people, and everything else would be under her rule.
 
-[Corruption tour goes hard](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=2dtIYm0_FVJFB59D&start=604)
+[Corruption tour goes hard](#embed:https://www.youtube.com/live/u3MQlnSHfhA?si=2dtIYm0_FVJFB59D&start=604)
 
 She stood amidst her masterpiece—a forest corrupted and stained, littered with flames. In the heart of this chaos, she constructed a small, ominous pillar adorned with four guild hats, surrounded by fire, with a sign that read, _"FIRE FIRE LIGHT THE FIRE."_ It was a grim warning to all who dared oppose her. Nearby, a moai statue wept blood, symbolizing the land’s despair under its false queen. The imagery was deliberate; Bijou sought to bring chaos and suffering.
 
@@ -21,7 +21,7 @@ Bijou’s ambition extended beyond destruction. She envisioned rewriting the kin
 
 As she pondered, flashes of memories surfaced—fragments of bonds forged during her journey. For a fleeting moment, her corrupted heart wavered. But she quickly dismissed those thoughts. Her former companions, comrades, and even those she had shared moments of intimacy with no longer mattered. Power was her sole focus now. Yet, in her solitude, an unshakable loneliness lingered.
 
-[3AM chuuni speech](#embed:https://www.youtube.com/embed/u3MQlnSHfhA?si=5ujXRmx4bgpcTv1c&start=1757)
+[3AM chuuni speech](#embed:https://www.youtube.com/live/u3MQlnSHfhA?si=5ujXRmx4bgpcTv1c&start=1757)
 
 She became a menace to the kingdom, whispering [demonic threats](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=2036) outside Calli’s tavern and tormenting others with the Stain upon her head, aptly named ["Joe Mama."](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=6121) Even in her chaos, she found time to write her "spicy fics," boasting about her corrupted literary works and her intention to plague the kingdom’s library with them. But Nerissa’s nagging about deadlines got under her skin, reminding Bijou of a time before corruption (see [Nerissa-Bijou: Divorce No.3](#edge:nerissa-bijou)).
 

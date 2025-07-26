@@ -20,7 +20,7 @@ The dispute grew more intense, with neither side willing to concede.
 
 At one point, someone suggested sending Mococo to the gallows for her so-called crimes, which—unsurprisingly—sent the poor pup into a full-blown panic. Overwhelmed with fear, she immediately fled, crying out in distress.
 
-[Let's go to the gallows](#embed:https://www.youtube.com/embed/wINOVotsvPY?si=BViZFZodzvRoTCtf&start=1600)
+[Let's go to the gallows](#embed:https://www.youtube.com/live/wINOVotsvPY?si=BViZFZodzvRoTCtf&start=1600)
 
 By this point, Nerissa was exhausted, mentally. She just wanted this entire ordeal to be over. Determined to put an end to the chaos, she chased after Mococo, tirelessly trying to negotiate a settlement. After what felt like an eternity, the dog finally ran out of energy and had no choice but to listen.
 

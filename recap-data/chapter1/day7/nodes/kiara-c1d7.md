@@ -11,7 +11,7 @@ Later, Nerissa, whose life Kiara had taken the day before, returned seeking veng
 
 On her return to the kingdom, Kiara received an urgent call from Nerissa. Bijou, the corrupted princess, was wreaking havoc in the kingdom's garden, destroying crops in a chaotic rampage.
 
-[Princess! You must not!](#embed:https://www.youtube.com/embed/lNIoudshEkQ?si=ajv6J5vhEfVVJG5M&start=4343)
+[Princess! You must not!](#embed:https://www.youtube.com/live/lNIoudshEkQ?si=ajv6J5vhEfVVJG5M&start=4343)
 
 Kiara and Nerissa tried to stop her, but their efforts were in vain. Bijou eventually left, leaving the garden in shambles and a heavy sense of loss in her wake.
 

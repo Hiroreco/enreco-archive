@@ -23,6 +23,6 @@ There were some quirky moments amidst her otherwise tranquil day. Ina, in a rare
 
 She then spent time observing Calli’s "dad-like" [tendencies](https://www.youtube.com/live/z4R10dPeuwY?feature=shared&t=7411), which drew genuine laughter from Ina. She also encountered Nerissa and smugly flaunted her diamond sword. These one-off interactions offered a refreshing change and gave her a chance to better understand the kingdom’s many personalities.
 
-[Ina showing off her diamond sword](#embed:https://www.youtube.com/embed/z4R10dPeuwY?si=GDfvf9GNu8D0JHOx&start=7120)
+[Ina showing off her diamond sword](#embed:https://www.youtube.com/live/z4R10dPeuwY?si=GDfvf9GNu8D0JHOx&start=7120)
 
 As night fell, Ina made an unusual decision: she chose to tackle the Ocean Temple Dungeon solo for a [second time](https://www.youtube.com/live/z4R10dPeuwY?feature=shared&t=9950). Perhaps she was drawn to the thrill of "solo leveling," relishing the challenge it offered.

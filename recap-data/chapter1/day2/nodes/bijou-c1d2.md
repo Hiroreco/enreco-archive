@@ -5,7 +5,7 @@ After the chaos of the first day, Bijou, feeling a tinge of guilt (not really) f
 
 Naturally, it wouldn’t be normal for these girls to proceed without some level of absurdity. Before entering the dungeon, a bizarre conversation unfolded—one involving the idea of milking Shiori, biting Bijou’s feet, and the questionable stains on the King’s pants.
 
-[Milking and licking feet](#embed:https://www.youtube.com/embed/Y2LV1PUQ0S8?si=yn517X-yzXmBKacT&start=963)
+[Milking and licking feet](#embed:https://www.youtube.com/live/Y2LV1PUQ0S8?si=yn517X-yzXmBKacT&start=963)
 
 After completing the dungeon, Bijou had the honor of witnessing Gonathon's [marriage](https://www.youtube.com/live/Y2LV1PUQ0S8?feature=shared&t=3111) to his wife, Jyon Watson. But, as if on cue, she soon caught the Hot Pink One attempting to flirt with the newlywed bride. Being the good guildmate she was, Bijou promptly alerted Gonathon, who rushed over to reclaim his [beloved](https://www.youtube.com/live/Y2LV1PUQ0S8?feature=shared&t=4490).
 

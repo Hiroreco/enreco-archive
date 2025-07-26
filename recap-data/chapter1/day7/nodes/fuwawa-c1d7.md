@@ -13,7 +13,7 @@ With plenty of time before the final day arrived, Fuwawa turned to a newfound pa
 
 However, her joy was short-lived. After venturing out to gather materials, Fuwawa returned to find her coop empty. All the chickens were gone—vanished without a trace. Not even a feather remained. Confusion and panic set in as she considered the possibilities. Had they flown away? Escaped? Both seemed unlikely. This left her with a more troubling thought: someone had _done_ something to them.
 
-[What happened to my chickens...](#embed:https://www.youtube.com/embed/zdQoGFICNDk?si=k3FnLH85iZl-cZKz&start=11103)
+[What happened to my chickens...](#embed:https://www.youtube.com/live/zdQoGFICNDk?si=k3FnLH85iZl-cZKz&start=11103)
 
 Her mind turned to Mococo; the fuzzy one's recent string of questionable actions made her a suspect. But with no evidence, Fuwawa couldn’t be sure. Saddened by the loss, she let out a heart-wrenching bau bau that could tug at anyone’s heartstrings.
 
@@ -21,7 +21,7 @@ Fuwawa reported the incident to [Gonathon and Raora](https://www.youtube.com/liv
 
 Feeling somewhat better, Fuwawa returned to her preparations. A brief moment of levity came when Mococo, having won big at the casino, celebrated so enthusiastically that her cheers echoed throughout the kingdom, reaching Fuwawa’s ears.
 
-[A disturbance in the Force](#embed:https://www.youtube.com/embed/zdQoGFICNDk?si=hLhOJsA0QC7bKCkW&start=12521)
+[A disturbance in the Force](#embed:https://www.youtube.com/live/zdQoGFICNDk?si=hLhOJsA0QC7bKCkW&start=12521)
 
 But her relief didn’t last long. Not long after, Fuwawa discovered her chickens missing [once again](https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=13177). Something was definitely amiss. Seeking answers, she approached [Gonathon](https://www.youtube.com/live/zdQoGFICNDk?feature=shared&t=13459), who revealed that he had a suspicion about the culprit. Someone corrupted was targeting her chickens, he warned. He urged Fuwawa to be cautious and to avoid accepting hats from anyone—especially Mococo, who might already be under the influence of corruption.
 
