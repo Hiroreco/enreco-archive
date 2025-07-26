@@ -1,4 +1,7 @@
-import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    getReadStatus,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -43,8 +46,8 @@ const ViewReadCounter = ({
         Record<string, boolean>
     >({});
 
-    const readStatus = usePersistedViewStore(state => state.readStatus);
-    const setReadStatus = usePersistedViewStore(state => state.setReadStatus);
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
+    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
     // Initialize optimistic state when dialog opens or props change
     useEffect(() => {
@@ -58,11 +61,21 @@ const ViewReadCounter = ({
             );
 
             filteredNodes.forEach((node) => {
-                initialStates[node.id] = getReadStatus(readStatus, chapter, day, node.id);
+                initialStates[node.id] = getReadStatus(
+                    readStatus,
+                    chapter,
+                    day,
+                    node.id,
+                );
             });
 
             filteredEdges.forEach((edge) => {
-                initialStates[edge.id] = getReadStatus(readStatus, chapter, day, edge.id);
+                initialStates[edge.id] = getReadStatus(
+                    readStatus,
+                    chapter,
+                    day,
+                    edge.id,
+                );
             });
 
             setOptimisticReadStates(initialStates);
@@ -107,7 +120,10 @@ const ViewReadCounter = ({
 
     // Get the read status with optimistic state fallback
     const getOptimisticReadStatus = (id: string) => {
-        return optimisticReadStates[id] ?? getReadStatus(readStatus, chapter, day, id);
+        return (
+            optimisticReadStates[id] ??
+            getReadStatus(readStatus, chapter, day, id)
+        );
     };
 
     // Mark all as read/unread
@@ -174,7 +190,6 @@ const ViewReadCounter = ({
                                         variant="outline"
                                         size="sm"
                                         onClick={handleMarkAllAsRead}
-                                        className="text-sm"
                                     >
                                         Mark All as Read
                                     </Button>
@@ -182,7 +197,6 @@ const ViewReadCounter = ({
                                         variant="outline"
                                         size="sm"
                                         onClick={handleMarkAllAsUnread}
-                                        className="text-sm"
                                     >
                                         Mark All as Unread
                                     </Button>

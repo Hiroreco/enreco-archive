@@ -647,18 +647,6 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                         </div>
                         <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
-                                {currentTrack?.coverUrl && (
-                                    <span className="flex-shrink-0 w-8 h-8 mr-2 rounded overflow-hidden bg-black/20 border border-white/10 md:hidden">
-                                        <Image
-                                            src={currentTrack.coverUrl}
-                                            alt={currentTrack.title}
-                                            width={32}
-                                            height={32}
-                                            className="object-cover w-8 h-8"
-                                            draggable={false}
-                                        />
-                                    </span>
-                                )}
                                 <p className="truncate font-lg font-semibold">
                                     {currentTrack?.title ||
                                         "ENreco Archive Jukebox"}
@@ -698,41 +686,57 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                     </div>
 
                     <div className="text-center flex md:hidden flex-col items-center gap-4">
-                        <div className="flex flex-col items-center px-2 w-[300px] relative">
-                            <div className="w-full flex items-center gap-2 z-10">
-                                {currentTrack?.coverUrl && (
-                                    <span className="flex-shrink-0 w-8 h-8 rounded overflow-hidden bg-black/20 border border-white/10">
-                                        <Image
-                                            src={currentTrack.coverUrl}
-                                            alt={currentTrack.title}
-                                            width={32}
-                                            height={32}
-                                            className="object-cover w-8 h-8"
-                                            draggable={false}
-                                        />
-                                    </span>
-                                )}
+                        <div className="flex flex-col items-center w-[300px] relative">
+                            <div className="w-full flex justify-around items-center gap-2 z-10">
+                                <span className="w-8 h-8 rounded bg-black/20 border border-white/10">
+                                    <Image
+                                        src={
+                                            currentTrack?.coverUrl
+                                                ? currentTrack.coverUrl.replace(
+                                                      /\.webp$/,
+                                                      "-thumb.webp",
+                                                  )
+                                                : "/images-opt/song-chapter-2-opt-thumb.webp"
+                                        }
+                                        alt={
+                                            currentTrack?.title ||
+                                            "ENreco Archive Jukebox"
+                                        }
+                                        width={32}
+                                        height={32}
+                                        className="object-cover w-8 h-8"
+                                        draggable={false}
+                                    />
+                                </span>
                                 <div className="flex-1 flex justify-center min-w-0">
                                     <p className="truncate font-lg font-semibold text-center w-full">
                                         {currentTrack?.title ||
                                             "ENreco Archive Jukebox"}
                                     </p>
                                 </div>
-                                {currentTrack?.originalUrl && (
+                                {currentTrack?.originalUrl ? (
                                     <a
                                         href={currentTrack.originalUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="opacity-70 flex-shrink-0 ml-2"
+                                        className="opacity-70 size-8 flex items-center justify-center "
                                     >
                                         <ExternalLink
                                             size={16}
                                             stroke="white"
                                         />
                                     </a>
+                                ) : (
+                                    // Placeholder for when there is no original URL
+                                    <div className="opacity-40 size-8 flex items-center justify-center ">
+                                        <ExternalLink
+                                            size={16}
+                                            stroke="white"
+                                        />
+                                    </div>
                                 )}
                             </div>
-                            <p className="text-sm opacity-70 z-10">
+                            <p className="text-sm opacity-70 z-10 text-center">
                                 {currentTrack?.info || "No track selected"}
                             </p>
                             <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
