@@ -329,7 +329,6 @@ const ViewFanartModal = ({
         }
         // Auto-expand when scrolled to top (only if content is still scrollable)
         if (isAtTop && isHeaderCollapsed && isScrollable) {
-            console.log(isScrollable);
             setIsHeaderCollapsed(false);
         }
 

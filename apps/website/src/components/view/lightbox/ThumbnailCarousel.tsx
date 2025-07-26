@@ -28,7 +28,6 @@ export const ThumbnailCarousel = forwardRef<
         chapter !== undefined && day !== undefined
             ? `C${chapter + 1}D${day + 1}`
             : null;
-    console.log(chapterDayLabel);
     return (
         <div
             ref={ref}
