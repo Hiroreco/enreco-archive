@@ -1,6 +1,9 @@
+<!-- title: Amelia Watson -->
+<!-- status: Alive -->
+
 Amelia’s final day in the kingdom began in an unusual and unsettling way. Her wide, sleepless eyes hinted at countless restless nights, and her inventory was filled to the brim with stacks of diamonds. Her movements were erratic, her words nonsensical, and every conversation she initiated revolved around the same frantic questions, spoken in a shaky tone: _"Have you seen my diamond?"_ and _"Did you give me these diamonds?"_ Her behavior left her companions uneasy and deeply concerned.
 
-[Diamond... diamond... diamond...](#embed:https://www.youtube.com/embed/mxOT9QEg5dI?si=QIefO6CBFBGQ4gie&start=315)
+[Diamond... diamond... diamond...](#embed:https://www.youtube.com/live/mxOT9QEg5dI?si=QIefO6CBFBGQ4gie&start=315)
 
 When asked what had happened, Amelia could only recall vague memories of diamonds, tied to an inexplicable sense of urgency. She insisted she had to retrieve them, as though her life depended on it. One by one, she questioned her friends—Elizabeth, Calli, and Nerissa—leaving them confused and alarmed. [Gonathon](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=655), in particular, watched in distress as the detective he cherished began leaping from high places and engaging in increasingly reckless behavior.
 
@@ -12,7 +15,7 @@ Why was the blonde so consumed by these diamonds? Even she didn’t know. She on
 
 While scouring the library for answers, Amelia was inexplicably drawn to a particular shelf. One book caught her attention, but no matter how hard she tried, she couldn’t retrieve it. Nerissa, passing by in her ghostly form, lent a helping hand—after unintentionally scaring Amelia half to death.
 
-[AHHHHHHHHHH](#embed:https://www.youtube.com/embed/mxOT9QEg5dI?si=lLk-ar130gfWZU1x&start=2120)
+[AHHHHHHHHHH](#embed:https://www.youtube.com/live/mxOT9QEg5dI?si=lLk-ar130gfWZU1x&start=2120)
 
 The book’s contents didn’t immediately clarify Amelia’s plight, but Nerissa interpreted its tale. She spoke of a knight described as a ["diamond,"](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=2807) a revelation that stirred something deep within Amelia’s foggy mind. Slowly, faint images began to surface—a silhouette, blurry but familiar. Though she couldn’t piece everything together yet, this discovery helped Amelia calm down and regain a semblance of her [usual self](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=3113).
 
@@ -34,4 +37,10 @@ Amelia’s journey throughout this tale was a testament to her quirks and spirit
 
 Thank you for your service, detective.
 
-[Ame](#easter:ame)
+## Fanart
+
+["Diamonds" by the Mask of Gabriel](https://x.com/MaskofGabriel/status/1835924665962746240)
+
+["the detective is searching for her diamond with sneaking skill" by Gardener](https://x.com/jhgardener_/status/1836425415482839198)
+
+["Please remember..." by Oruruca](https://x.com/oruruca86/status/1832133314670686400)

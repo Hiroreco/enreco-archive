@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia starts her day by visiting GACHARMs and preparing herself for the final battle. She discusses her decision to stay and [protect the princess](https://www.youtube.com/watch?v=wYTiK9cm_bo&t=1680s), even if Iphania does not reciprocate her feelings. Even though she may leave her friends behind, she knows that one day in the distant future, she will run into them again. After all, she is an automaton.
 
 Immerkind seeks out the Fuzzy One for a therapy session to help sort through her complex thoughts. Mococo tells her to think deeply about what she wants and to [follow her heart](https://www.youtube.com/watch?v=wYTiK9cm_bo&t=1950s).

@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 The Queen woke up with fire in her heart and vindication in mind. It was _on sight_ for the Hot Pink One, and she wasted no time telling Immerkind that it was, in fact, HPO who had spread rumors about her being [“far from kind”](https://youtu.be/II40tjM-mxg?t=264) right from day one. Naturally, the kind knight took offense and immediately started grilling the Hot Pink One. The Queen took this distraction as an opportunity to read a letter she’d received from Nino Ina. There was nothing like reading a heartfelt letter while your enemy was getting flamed in the background.
 
 But alas, one could not win it all. NinoIna chose not to take up the Queen’s offer to leave HPO and be with her—for NinoIna did not wish to stray from [the path of a righteous hero](https://youtu.be/II40tjM-mxg?t=296). The Queen looked up at the sky exasperatedly, let out a deep sigh, and began taking out her frustration on HPO once more, who had somehow managed to save face with Immerkind. To this, the Queen remarked,
@@ -30,7 +33,7 @@ Then the Queen felt it too—deep in her heart, or perhaps from the abyss where 
 
 And so, on a deserted street—against a backdrop of the vast blue sky fading into space, the lush greens of nature, and the majestic structures of a thriving civilization—the three had their group photo taken.
 
-[“…a promise to keep forever.”](#embed:https://youtu.be/II40tjM-mxg?t=3460)
+[“...a promise to keep forever.”](#embed:https://youtu.be/II40tjM-mxg?t=3460)
 
 At last, it was time for the victory banquet. There, Queen Tam and the others enjoyed [fireworks supplied by Peasant the Bae](https://youtu.be/II40tjM-mxg?t=3675). The sense of accomplishment was palpable, and spirits were high as the celebration commenced. Soon, the Outlander stepped forward to personally thank each hero for their bravery—for saving him and the kingdom from their grim fate.
 

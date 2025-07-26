@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: Alive -->
+
 The Hot Pink One began her fifth day feeling, well, hot and pink. After some time away, she returned to the kingdom eager to catch up—or so she thought. Something felt missing in her life. Wealth wasn’t the issue, and while adventures were entertaining, they weren’t fulfilling her deepest desires. It wasn’t until she reflected on her eternal consort, Nino Ina, that the answer hit her: why stop at one wife? If one brought so much joy, surely multiplying that joy by acquiring more wives was the solution!
 
 With a newfound clarity, she set her sights on expanding her royal entourage of love.
@@ -29,3 +32,9 @@ Later, the Hot Pink One questioned Nerissa about allegations that FaunaMart was 
 [You got me invested](#embed:https://www.youtube.com/live/gtOGWDKwQfY?feature=shared&t=5448)
 
 The Hot Pink One ended her day with a series of lighthearted interactions. She attempted (and failed) to learn to fly but felt a deep satisfaction nonetheless. Surrounded by her newly expanded circle of side chicks, she believed she could achieve anything, boasting with pride to those who weren't of the same caliber as her (see [Hot Pink One-Jyonathan: My Chicken Farm](#edge:ame-irys)).
+
+## Memes
+
+["Today's episode of ENreco" by DrLanzE](https://x.com/LanzE_5269/status/1831552504120897738)
+
+<!-- shiori, nerissa, ina, bijou, moom -->

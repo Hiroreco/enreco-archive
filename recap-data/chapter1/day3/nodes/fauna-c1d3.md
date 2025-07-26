@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 FaunaMart was already under fire—despite being open for just one day, rumors swirled accusing the business of being a scam. Fauna couldn’t pinpoint the origin of these claims, but one thing was clear: she needed to save her company’s reputation. Thus, the green _CEO_ devised a bold PR campaign to turn things around.
 
 [We're a reputable business](#embed:https://www.youtube.com/watch?v=menSag1VKTc&t=178s)
@@ -32,3 +35,15 @@ Returning to her store, Fauna was greeted by Mococo, who came to collect her lot
 | Cecilia | 3 | 30 |
 
 Gave away 54 for free, total coins earned: _2220_
+
+## Fanart
+
+["Fauna" by DioDio](https://x.com/DioDio49/status/1832145126912590148)
+
+["Your Friendly Fauna Mart" by Fongban](https://x.com/Fongban_/status/1901895840236765627)
+
+## Memes
+
+["Saving the server's economy" by HololiveEnMemes](https://x.com/HololiveMemes/status/1830782445538419012)
+
+["FaunaMart situation is crazy" by Hiro](https://x.com/hiroavrs/status/1831156874550694139)

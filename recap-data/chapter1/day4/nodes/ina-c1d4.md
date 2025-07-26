@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Having missed the third day, Ina returned to the kingdom eager to catch up on all the developments. Upon arriving at her guild’s build area, she was astounded by the flurry of construction that had taken place in her absence. The area now boasted a guild base, a Moai statue, and the massive, still-under-construction statue of Queen Tam Gandr, where Ina saw Gonathon fall to his doom.
 
 [Sir Gonathon???](#embed:https://www.youtube.com/live/KE-Qhw2T1CY?t=673)

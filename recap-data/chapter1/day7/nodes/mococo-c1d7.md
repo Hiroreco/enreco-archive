@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Corrupted -->
+
 Now free of her past crimes, Mococo felt a newfound sense of liberation. No longer did she have to worry about being chased on horseback or threatened with the gallows. Life was great—though she was officially banned from FaunaMart.
 
 Early in the day, Mococo crossed paths with her (not so) trusty lawyer, Cecilia, who had defended her during the infamous lottery shenanigans a day or two ago. Truth be told, Mococo wasn’t entirely convinced of Cecilia’s competence. The green-haired, self-proclaimed lawyer boasted a supposed 99.8% success rate in court, but her examples often seemed like improvised nonsense. Her credibility wasn’t helped by the fact that she’d threatened Mococo with a sword. All in all, the experience was a solid 3/10.
@@ -10,7 +13,7 @@ However, her patience wore thin while waiting for the winning [announcements](ht
 
 Determined to prepare for the final day, Mococo spent much of her time gathering materials and earning money by mass-producing potato salads. Her efforts paid off, and with over 10,000 coins in her pocket, she headed to the casino to test her luck. After a series of losses, her persistence paid off with a big win, leaving her triumphant.
 
-[YEAAAAAHHH!!!](#embed:https://www.youtube.com/embed/qFnAgJtQtiY?si=fPjknD7-XvO5KP6U&start=12471)
+[YEAAAAAHHH!!!](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=fPjknD7-XvO5KP6U&start=12471)
 
 Her jolly day would only last for so long. Later in the day, Mococo received a panicked call from Fuwawa. The fluffy one’s beloved chickens had [vanished](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=11111), leaving her distressed and inconsolable. Seeing her companion in such a state, Mococo grew concerned and resolved to investigate. Her first theory? [FaunaMart](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=11362). She speculated, with little evidence, that they might have kidnapped the chickens to turn them into lottery tickets. A ridiculous notion, perhaps, but worth considering.
 
@@ -20,10 +23,18 @@ Shortly after, Bijou appeared. The gem maiden said nothing, merely handing Mococ
 
 What happened next was a blur.
 
-[B̶̢̫̝̖̗̘̹̩͇̦̋̉̀̀Ȃ̵͉͇̰͓̝̩̙͍̒̋ͅǗ̶̗̇͌̋ ̷̨̝̲̱͂͛̄̃͑̈́̋̏̚͝B̶̢͚̬͕͔̟̻͓̉̏́̏̍̊̄̇̀̐̀́̚͝A̸̛̞͚̪͕͙͎̒̏͂̍̍́͋͝U̴̲͇̗͈͑̒̄͛̓̓͌̅̄̔̚](#embed:https://www.youtube.com/embed/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974)
+[B̶̢̫̝̖̗̘̹̩͇̦̋̉̀̀Ȃ̵͉͇̰͓̝̩̙͍̒̋ͅǗ̶̗̇͌̋ ̷̨̝̲̱͂͛̄̃͑̈́̋̏̚͝B̶̢͚̬͕͔̟̻͓̉̏́̏̍̊̄̇̀̐̀́̚͝A̸̛̞͚̪͕͙͎̒̏͂̍̍́͋͝U̴̲͇̗͈͑̒̄͛̓̓͌̅̄̔̚](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974)
 
 When Mococo regained [her senses](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=13135), it felt as though she’d just woken from a deep sleep. She couldn’t recall why there was a hat in her inventory or why her claws were bloodstained. When Fuwawa tearfully confronted her about the missing chickens, Mococo had [no answers](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=13238).
 
 The situation escalated when Bijou cornered Fuwawa. Mococo instinctively stepped in to [protect](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=14838) her fluffy counterpart, distracting Bijou long enough for Fuwawa to escape. Their plan worked, and the two managed to flee.
 
 To ensure their safety, Mococo built a small shelter for the two of them to hide in, preparing for whatever danger lay ahead.
+
+## Fanart
+
+["Today's FUWAMOCO](https://x.com/fukuinu_daddy/status/1832281930748064239)
+
+<!-- fuwawa -->
+
+["THE CHICKENS ARE TASTY." by DankWave](https://x.com/The_DankWave/status/1834198780335587359)

@@ -21,3 +21,13 @@ When Nerissa later discovered her mistake and confronted Mococo about it, the pu
 Feeling guilty over how things had spiraled out of control—largely due to her own mistakes—Nerissa tried to [apologize](https://www.youtube.com/live/dRCvSHBTvSk?feature=shared&t=17789) to Mococo. But the dog remained firm, refusing to return any tickets. Instead, she demanded a lawyer and insisted on settling the matter in court.
 
 The drama at FaunaMart had turned into a full-blown fiasco, leaving Nerissa questioning her decision to take this internship and Mococo as determined as ever to cash in big—or at least make her case in front of a jury.
+
+### Fanart
+
+["Where's my money!" by Mr.Joeboto](https://x.com/LordJoeboto/status/1831598627988349253)
+
+<!-- liz -->
+
+["she really wants her money" by Magho](https://x.com/M_Agho/status/1836869460403311005)
+
+<!-- liz -->

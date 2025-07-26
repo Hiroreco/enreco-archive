@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 The final day had arrived, and if there was ever a day for Cecilia to execute her plan to take over the kingdom by controlling the princess, it was now. Everything was ready—only the sacred ritual remained, along with gifting the princess the "cake" to seize control of her mind.
 
 Part of the ritual required the involvement of someone Cecilia considered an ally. Naturally, she stopped by FaunaMart to ask her green companion to fulfill that role. By chance, Amelia was also there, frantically searching for the "diamonds" she'd been obsessing over all day. Cecilia didn’t really understand what Amelia was on about, but tried to help her [nonetheless](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=875).
@@ -12,7 +15,7 @@ Sure, it was destroying crops, which might be a problem, but it didn’t seem li
 
 Still, she pressed on. With Fauna's assistance, the ritual was completed, and the special cake needed for the plan was ready.
 
-[Performing the ancient ritual](#embed:https://www.youtube.com/embed/4co7VDSYTqU?si=QuTTkq8TrPrr-k4U&start=3197)
+[Performing the ancient ritual](#embed:https://www.youtube.com/live/4co7VDSYTqU?si=QuTTkq8TrPrr-k4U&start=3197)
 
 With time to spare, Cecilia decided to hang out with her friends. She shared more of her crackhead theory about the king with Nanamoo and Fauna, going on about how he was evil, yada yada yada, the usual [yap](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=3652).
 
@@ -25,3 +28,7 @@ Finally, the climactic battle arrived. Upon their [victory](https://www.youtube.
 Still baffled by her own genius, Cecilia and the others were returned to the white box where their journey had begun. Should she be happy or sad that her theory was right? She wasn’t sure. After all, it was hard to tell whether she was a hero or a villain, considering her plan to control the princess’s mind. But that was a story for another time. For now, Cecilia wanted to enjoy her final moments with her guildmates—friends she’d bonded with throughout the journey—and Nanamoo, someone she’d only recently grown close to but felt deeply connected with.
 
 But as Cecilia called Nanamoo over for a group picture, she was met with a response that left her heart heavy (see [Cecilia-Nanamoo: Oh, she forgot...](#edge:moom-cecilia)).
+
+## Memes
+
+["a true villain" by Kazuki Ich](https://x.com/kazukiich/status/1832567604323741947)

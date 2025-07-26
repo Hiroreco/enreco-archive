@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 Today felt important for Tam—she couldn’t explain why, but there was something in the air. A pull. A subconscious urgency. With that, she joined Mordan, Gonathon, and Nerissa, setting off to tackle the [Star Site: Chronos](https://www.youtube.com/live/YVyeKQ-6Ka8?si=eMc-IJaSIceRJmM9&t=685).
 
 Time. That was the theme of the dungeon, made clear from the moment they stepped inside. Day and night flickered like a faulty lantern, the sky shifting with every step. The trials? All timed. Every challenge ticked down ominously, each misstep shaving away precious seconds. Even the puzzles, though unforgiving, could be reset—_rewound_ as if the dungeon itself had bent to the flow of time. And then there were the platforms—eerie heads embedded in them, silent observers of every movement. The visuals were unsettling, sure, but more than that, they felt... fitting.
@@ -31,3 +34,9 @@ So yes. Quite the day for Miss Warden. Miss Queen. Miss “I Actually Control Ti
 But she survived it all. Held her head high. And—of course—ended the day by journaling every bit of it, sprinkling in generous self-praise like the full-blown narcissist she was.
 
 [Dang I'm banging](#embed:https://www.youtube.com/live/YVyeKQ-6Ka8?si=3B-YlidTxv54ltwN&t=12964)
+
+## Fanart
+
+["Remember" by Daaku](https://x.com/koizumi_arata/status/1919773686233526778)
+
+["Lore of Tam Gandr" in ENreco2..." by underdatv](https://x.com/underdatv/status/1901931778774085956)

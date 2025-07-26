@@ -1,3 +1,6 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 _Calli_ had been working tirelessly—deadlines, projects, you name it. She decided it was time for a well-deserved break, going for a stroll with her beloved Deadbeats. But just as she was enjoying her walk, a truck crashed into her, knocking her out and sending her to the mysterious white box. How did a truck manage to take down the literal incarnation of Death? No clue, but here we are.
 
 [And he takes another](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?t=331)
@@ -20,4 +23,12 @@ The return of her memories filled Calli with fear and guilt. She felt like a tra
 
 At the end of the day—a day that included being hit by a truck, losing her memories, navigating chaos, and rediscovering herself—Calli took a moment to reflect. It had been wild, but it wasn’t the end. Her enigmatic journey was only just beginning, with many more adventures yet to come.
 
+## Fanart
+
 ["The Underworld Calls" by nino](https://x.com/2nochuu/status/1902511940938952880)
+
+["Lore keepers" by Roronico](https://x.com/roronico1512/status/1919423587532095876)
+
+<!-- kiara -->
+
+["ENigmatic Recollection" by Lia](https://x.com/liapandaaaa/status/1827543495890104368)

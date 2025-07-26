@@ -1,10 +1,10 @@
-<!-- title: Finding Shelter in the Shadows of Hope-->
+<!-- title: Finding Shelter in the Shadows of Hope -->
 
 **Second chances?**
 
 While Lady Bloodflame seemed blissfully unaware, the turmoil inside Nerissa seemed to only grow, with her own heart's flame waning. The eyes that once sparkled at the sight of the fair knight were dimmer, no longer full of the luster of a maiden freshly in love.
 
-The Red Knight was not completely clueless to the changes in her demeanor, however. Once again, [she noticed the strange device](https://youtu.be/b-jTHH6GK5w?t=980) in Nerissa's home had been playing all night, so she set out to investigate. Realizing that Nerissa was absent, she immediately called her. In response, Nerissa confirmed she was at the Lucky Lounge and agreed to meet up with her to stop the underground music.
+The Scarlet Knight was not completely clueless to the changes in her demeanor, however. Once again, [she noticed the strange device](https://youtu.be/b-jTHH6GK5w?t=980) in Nerissa's home had been playing all night, so she set out to investigate. Realizing that Nerissa was absent, she immediately called her. In response, Nerissa confirmed she was at the Lucky Lounge and agreed to meet up with her to stop the underground music.
 
 Spending the day together, Lady Bloodflame tried to improve her connection with Nerissa, suggesting they could play the lucky game together first. The Raven agreed, and together the pair bonded once more, though their feelings and fates were now just as intertwined with their gambled fortunes.
 
@@ -72,4 +72,6 @@ When does a knight bend the knee?
 
 ["What could've been" by Keisea](https://x.com/Keiseeaaa/status/1920620111464992799)
 
-["The Bird Song | An ENreco Animatic" by Elisbian](https://www.youtube.com/watch?v=xhnI-hxB3as&ab_channel=Elisbian)
+["The Bird Song | An ENreco Animatic" by Elisbian](https://x.com/Elisbian_/status/1923090463063416862)
+
+["Chapter 3" by otashishi](https://x.com/ashiartwork/status/1921948280365224396)

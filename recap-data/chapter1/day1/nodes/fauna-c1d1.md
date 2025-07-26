@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 The first thing _Fauna_ noticed upon waking in the white box was how absurdly [bright](https://www.youtube.com/live/VrLNA0SjYN8?si=8uBOHktGG-Kzh9WB&t=247) it was, following up with a complaint about how loud everyone’s voices were. Complaining seemed like the logical first step when you’ve lost all your memories, right?
 
 Unlike the other heroes, though, Fauna remained calm, collected, and entirely in control. It was as if she had done this before, casually remarking that the world reminded her of ["Minecraft"](https://www.youtube.com/live/VrLNA0SjYN8?si=s__Wo-nNYnk4VH3F&t=1682). Which explained her immediate urge to chop down a lone tree when she spotted one; it wasn’t just nostalgia—it was fueled by her OCD.
@@ -22,4 +25,4 @@ The two later dueled, with Fauna emerging victorious—and promptly extorting Gu
 
 [It has to be green this time](#embed:https://www.youtube.com/live/VrLNA0SjYN8?t=11878)
 
-After a long day of questing and gambling her life away, Fauna decided to call it a night. But something had awoken within her. It wasn’t the thrill of saving the world or helping people—it was the joy of money. Who knows where this newfound passion will lead her? Perhaps… a business empire?
+After a long day of questing and gambling her life away, Fauna decided to call it a night. But something had awoken within her. It wasn’t the thrill of saving the world or helping people—it was the joy of money. Who knows where this newfound passion will lead her? Perhaps... a business empire?

@@ -1,6 +1,9 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 The second day began with Gonathon diving straight into action. Tasked with assisting in clearing the Underworld Dungeon alongside Jyon, Bijou, and Shiori, Gonathon found himself in peculiar company. Jyon and Shiori hadn’t managed to conquer the dungeon on the first day, so this was their chance to catch up.
 
-However, before venturing into the depths, a bizarre conversation unfolded, leaving Gonathon bewildered. The group revisited their shared goal of slaying the King—a plan initially sparked by Jyon’s motives. For Gonathon, the King’s corruption was a reason to free him. For the others? The goal seemed more… recreational.
+However, before venturing into the depths, a bizarre conversation unfolded, leaving Gonathon bewildered. The group revisited their shared goal of slaying the King—a plan initially sparked by Jyon’s motives. For Gonathon, the King’s corruption was a reason to free him. For the others? The goal seemed more... recreational.
 
 [What is this conversation?](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=35)
 
@@ -17,3 +20,7 @@ The duel concluded with a victory for the Hot Pink One, allowing everyone to con
 As the day neared its end, preparations for the _Ocean Temple Dungeon_ began. Joined by the Hot Pink One, Bijou, and Tam, Gonathon conquered the dungeon and recovered memories of [Gawr Gura](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=12043). Not long after, another marriage ceremony unfolded, this time uniting the _Hot Pink One and NinoIna_. What a wonderful occasion this day had been, he thought. For the first time, he experienced the touch of another’s affection. Watching his guildmates embrace similar happiness only deepened the warmth he felt.
 
 [What a happy occasion, huzzah!](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=12550)
+
+## Memes
+
+["*teleports behind you*" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)

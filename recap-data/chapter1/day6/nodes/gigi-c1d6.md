@@ -1,6 +1,9 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Gonathon awoke to his sixth day, only to be greeted by a sight that filled him with rage and despair—his queen’s statue, the one he had painstakingly worked on for days, had been defaced. This wasn’t just vandalism; it was blasphemy against his guiding light, Queen Tam Gandr. Determined to uncover the culprit, Gonathon vowed to bring them to justice.
 
-[Ah! Such blasphemy!](#embed:https://www.youtube.com/embed/oygFzGlMT28?si=2KtGxfUiZWo9TRa6&start=180)
+[Ah! Such blasphemy!](#embed:https://www.youtube.com/live/oygFzGlMT28?si=2KtGxfUiZWo9TRa6&start=180)
 
 Before he could delve into the mystery, Gonathon joined Kiara, Raora, Nerissa, and Bijou to aid their expedition into the Ancient Sewer Dungeon. Along the way, most members expressed their loyalty and reverence for [Queen Tam](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=442), though Nerissa made a cheeky comment about how the statue’s depiction of Tam lacked a bit of "cake."
 
@@ -10,7 +13,7 @@ Given that only guild members could build on his land, suspicion naturally fell 
 
 Seeking answers, Gonathon confronted Bijou and requested that she remove the hat to prove it was merely an accessory. To his frustration, Bijou refused, offering a litany of excuses that only fueled his suspicions.
 
-[She's not taking it off](#embed:https://www.youtube.com/embed/oygFzGlMT28?si=2KtGxfUiZWo9TRa6&start=2475)
+[She's not taking it off](#embed:https://www.youtube.com/live/oygFzGlMT28?si=2KtGxfUiZWo9TRa6&start=2475)
 
 Realizing he couldn’t solve this alone, Gonathon reluctantly sought help from Elizabeth. Despite their occasional clashes, he knew she was resourceful and could aid in uncovering the truth (see [Gonathon-Elizabeth: Unexpected Alliance](#edge:liz-gigi)).
 
@@ -35,3 +38,27 @@ Yet, he resolved to press on, undeterred by the challenges before him (see [Gona
 ## Fanart
 
 ["there is only one for him" by Daaku](https://x.com/koizumi_arata/status/1831971695621808324)
+
+<!-- ina, calli, kiara -->
+
+["One fear" by Daaku](https://x.com/koizumi_arata/status/1832141040792240564)
+
+<!-- kronii -->
+
+["A Knight's Tale" by Dreamplanes](https://x.com/Dreamplanes256/status/1844357367313649767)
+
+<!-- kronii, ame, bijou, ina, irys -->
+
+["A Knight's Tale" by Medu](https://x.com/Medu_Yusa/status/1832503012054516020)
+
+["Rough anim" by harutimu](https://x.com/harutimu_415/status/1882333332299825572)
+
+## Memes
+
+["...me pearl" by C o a r t e](https://x.com/itscoartee/status/1831967786639487202)
+
+["Poor Gonathon... May your heart endure" by YoBoiYobert](https://x.com/YoBoiYobert/status/1831918801186959589)
+
+["The ENreco Pain Scale" by Ingram](https://x.com/IngramPlisken/status/1832130783274062176)
+
+<!-- shiori, fauna, nerissa, moom, mococo -->

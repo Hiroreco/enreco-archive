@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Throughout her journey, Elizabeth experienced flashes of memories—snapshots of her time in the kingdom. They ranged from moments of deep camaraderie to reflections on her ideals. But this time, the memory was different—darker and more vivid.
 
 [A knight, and a sight of ruin](#embed:https://www.youtube.com/live/_urPfTQnLes?si=rKBD2pyCzW9lFY-3&start=329)
@@ -6,7 +9,7 @@ In her vision, Elizabeth trudged through a land once bright and lively, now cons
 
 Just the day before, Elizabeth had bid her companions farewell, leaving the kingdom in its usual harmony. But something sinister had unfolded in her absence. Bloodstains and scorched crops marred the once-thriving land. Most heartbreaking of all were the remains of her beloved chickens, raised with care and affection, now gone. Grief turned to resolve—Elizabeth vowed to find the culprit and deliver [justice](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=990).
 
-Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, only a solitary red knight remained. The loneliness was suffocating. To honor her lost chickens, she built a small memorial before beginning the arduous task of cleaning the ruined land by herself.
+Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, only a solitary Scarlet Knight remained. The loneliness was suffocating. To honor her lost chickens, she built a small memorial before beginning the arduous task of cleaning the ruined land by herself.
 
 [I feel... alone](#embed:https://www.youtube.com/live/_urPfTQnLes?si=ecdhhjj71kzhplJw&start=1670)
 
@@ -49,3 +52,13 @@ Unable to raise her sword at first, Elizabeth clung to denial. But the sight of 
 [For Justice!](#embed:https://www.youtube.com/live/_urPfTQnLes?si=xQsUGR_UZBcLZWQP&start=17881)
 
 When the journey ended, the heroes found themselves once again in the white room where it all [began](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=18386).
+
+## Fanart
+
+["Ravencroft1 and nerissa2" by set](https://x.com/_se_t_/status/1834034907229946123)
+
+["The king is whom you serve." by BRASILEIRooO](https://x.com/BRASILEIROO0/status/1901358989033832670)
+
+["A Battle Against Elizabeth Rose Bloodflame" by EmicoOtero](https://x.com/EmicoOtero/status/1870178892109214093)
+
+["nice knight" by kaje](https://x.com/kaje_zu/status/1924528574033494251)

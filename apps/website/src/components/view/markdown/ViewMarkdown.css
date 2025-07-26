@@ -1,0 +1,119 @@
+.markdown > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.markdown li > p {
+    display: inline;
+}
+
+.markdown p {
+    white-space: pre-line;
+}
+
+.markdown .text-left {
+    display: block;
+    text-align: left;
+}
+
+.markdown .text-center {
+    display: block;
+    text-align: center;
+}
+
+.markdown .text-right {
+    display: block;
+    text-align: right;
+}
+
+.markdown .underline {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.amber-coin::after {
+    display: inline-block;
+    background-image: url("/images-opt/ambercoin-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.scarlet-wand::after {
+    display: inline-block;
+    background-image: url("/images-opt/scarletwand-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.cerulean-cup::after {
+    display: inline-block;
+    background-image: url("/images-opt/ceruleancup-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.jade-sword::after {
+    display: inline-block;
+    background-image: url("/images-opt/jadesword-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_smith::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_smith-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_chef::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_chef-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_jeweler::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_jeweler-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.ch2_jobs_supplier::after {
+    display: inline-block;
+    background-image: url("/images-opt/ch2_jobs_supplier-opt.webp");
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    content: "";
+    vertical-align: text-bottom;
+}

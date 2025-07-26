@@ -1,4 +1,7 @@
-Seemingly unfazed by the previous day’s chaos, Shiori started off her morning productively by helping others get through the Star Site: Chronos dungeon. It was nice—being helpful, motivated, and untouched by drama… well, for a little while, anyway.
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
+Seemingly unfazed by the previous day’s chaos, Shiori started off her morning productively by helping others get through the Star Site: Chronos dungeon. It was nice—being helpful, motivated, and untouched by drama... well, for a little while, anyway.
 
 Inevitably, she got dragged into the madness. But more often than not, she played the role of a distant observer, silently watching the chaos unfold around her.
 
@@ -24,9 +27,7 @@ Later, when the Princess and the Outlander asked the heroes about their reason f
 
 [The scripts](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=GlbL7dJkjV0wglfU&t=9223)
 
-"I'm just doing my job, and being a dirty, horrible self-inserter like him."
-
-"I'm fighting for my duty, because I am Shiori Nyavella."
+> I'm just doing my job, and being a dirty, horrible self-inserter like him. I'm fighting for my duty, because I am Shiori Nyavella.
 
 Not for the world. Not for the people. Not even for herself. But for her _role_. A role she never clearly explained. A role she seemed to fully _know_, even if no one else did.
 
@@ -39,3 +40,7 @@ Still, not everything had to be tangled in mystery. At least one of the question
 She ended her day with rare, quiet moments—sharing them with [Bijou](https://www.youtube.com/live/98bQ3awzWLM?t=15814) and later, a bonding conversation with a sleepy Elizabeth. All of it, as always, inked into her diary—yet another page, yet another piece of the puzzle that was Shiori.
 
 [A moment to cool down](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=Zv5vHxEzlcKhAmcH&t=18947)
+
+## Memes
+
+["✋😨🤚" by Shido](https://x.com/Shido36_/status/1920528025575141534)

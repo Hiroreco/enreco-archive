@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 The final day had arrived. With riches in hand, friendships forged, and dreams realized, Fuwawa had just about fulfilled everything she set out to do on this journey. Now, it was time to wind down, enjoy the company of those she cherished, and prepare for the grand banquet that marked the end of it all. Oh—and build a roof for her café. It wouldn't do to let customers get soaked in the rain, after all.
 
 But before any of that, there was one last thing to do: gather everyone for a group picture. One final commemorative snapshot of this mysterious, chaotic, unforgettable adventure.
@@ -17,3 +20,7 @@ Still, something tugged at her heart. A subtle feeling, hard to explain, but it 
 She penned her [final diary entry](https://www.youtube.com/live/9A1cO7jL0jw?t=3729), wrapping up her journey in Libestal with warm memories and hopeful thoughts. That lingering feeling, though—about those four—would soon prove to be more than just a whim.
 
 (See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))
+
+## Fanart
+
+["Chickens" by Rev](https://x.com/REVIL0L/status/1915726152922272037)

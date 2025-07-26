@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Gonathon's third day objective was simple: make lots of money. The reason was twofold: first, he needed to pay Calli 500 coins a day as promised on day two, when Calli demanded a daily dowry for Gonathon to maintain his marriage to Jyon Watson. Second, he wanted to purchase as much building material as possible for his queen, Tam Gandr, to assist her in constructing the Cerulean Cup guild base.
 
 Though his goal was as clear as day, the journey was anything but smooth. At the very start of his day, Gonathon found himself ambushed—not by monsters, but by Raora. The mischievous big pink cat wasted no time [teasing](https://www.youtube.com/live/6exWVCmzA9I?feature=shared&t=1395) him relentlessly. Knowing that Gonathon's unwavering loyalty was to Tam, Raora used her charms and beauty to exploit his one weakness.
@@ -18,6 +21,10 @@ After a fulfilling meal, Gonathon moved on to the next major task of the day: co
 
 Through teamwork and perseverance, the group emerged victorious, recovering the [memories](https://www.youtube.com/live/6exWVCmzA9I?feature=shared&t=10803) of _Ninomae Ina’nis_. With their mission complete, Gonathon returned to the kingdom to assist Tam in building the guild base. He poured the remainder of his energy into the task, dedicating himself entirely to helping her realize her vision (see [Gonathon-Tam: Knight and Queen](#edge:gigi-kronii)).
 
+## Fanart
+
 ["gonathon g / pure of heart" by scramble ham](https://x.com/scrambleham/status/1831057372820963655)
+
+<!-- ame, raora, irys, ina, bijou, kronii -->
 
 ["Gonathon G" by Hyoweii](https://x.com/weiiyxn/status/1831340977870823504)

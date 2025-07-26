@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 The fuzzy one kicked off her day at Gacharm—dutiful, as always. A model employee, yes, but more importantly, she had her eyes on the prize. Cold, hard cash. And with dreams of swimming in gold already sparkling in her mind, it made perfect sense why she was so eager to clock in.
 
 But before cashing out, she had some catching up to do. The investigation of the [Stronghold of Ruin](https://www.youtube.com/live/T2StVW1kSxw?si=mlKGQ7NhgMZ73vBu&t=1871) was still a blank in her itinerary, so she called in reinforcements. With the help of Immerkind, Bijou, Gonathon, and Ina, she powered through and got herself up to speed with the rest of the kingdom.
@@ -29,3 +32,9 @@ And that, folks, was therapy.
 She closed her day with pride, documenting everything she’d accomplished—highlighting, of course, the mountain of money she raked in from [shop sales](https://www.youtube.com/live/T2StVW1kSxw?si=ngAzUQ4nmccPecin&t=10939), her paycheck, and her very first therapy gig. Not bad for a day’s work.
 
 [I made money!](#embed:https://www.youtube.com/live/T2StVW1kSxw?si=wMKjKRAhJygZFpQD&t=11978)
+
+## Fanart
+
+["mococo therapy tomorrow" by keenbiscuit](https://x.com/keenbiscuit/status/1920469031976661247)
+
+<!-- gigi, bijou, kronii, irys, kiara, bae, calli -->

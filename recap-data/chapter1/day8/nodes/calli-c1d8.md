@@ -1,6 +1,9 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 Why was the world so [dark and gloomy](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=291)? Calli pondered this as she faced her final day in the kingdom. Withering trees, raging fires, and ravaged fields stretched as far as her eyes could see. Something sinister had happened. It didn’t take long for her to confront a potential culprit: Koseki Bijou, known now as the _Stain Princess_.
 
-[Did you do this?](#embed:https://www.youtube.com/embed/evcruocvE3g?si=TZosSX5I76ctYpMW&start=394)
+[Did you do this?](#embed:https://www.youtube.com/live/evcruocvE3g?si=TZosSX5I76ctYpMW&start=394)
 
 Calli could sense the malevolence radiating from the corrupted gem maiden. Although Bijou denied responsibility for the destruction, she admitted to taking pleasure in the chaos. Calli swore to bring her to justice.
 
@@ -12,7 +15,7 @@ Later, Calli ventured into the Ancient Sewer Dungeon to recover the last missing
 
 Though the reaper lacked the combat skills of her allies or the investigative genius of others, she had her own unique talents: running a tavern and mastering the culinary arts. Embracing her role, she began preparing vast amounts of food to support her friends in their fight against the corruption. When hope dwindled, as materials for crafting cures ran scarce, Calli stepped up and single-handedly saved the day by making the necessary cures [herself](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=8071).
 
-[The tavern owner saves the day](#embed:https://www.youtube.com/embed/evcruocvE3g?si=id5leyflOV1hykFD&start=8835)
+[The tavern owner saves the day](#embed:https://www.youtube.com/live/evcruocvE3g?si=id5leyflOV1hykFD&start=8835)
 
 The cures worked. Through a collaborative effort, the corrupted individuals were freed, and the kingdom began to stabilize.
 
@@ -26,4 +29,12 @@ When the final battle arrived, Calli and her allies faced off against the Stain 
 
 Before signing off, Calli left one last remark, addressing a peculiar customer review of her food.
 
-[Peeing on food](#embed:https://www.youtube.com/embed/evcruocvE3g?si=TvbG_jKQwRp9fagg&start=15340)
+[Peeing on food](#embed:https://www.youtube.com/live/evcruocvE3g?si=TvbG_jKQwRp9fagg&start=15340)
+
+## Fanart
+
+["the pink one" by Daaku](https://x.com/koizumi_arata/status/1902563407699513352)
+
+["the best tavern in town!" by alex](https://x.com/arexsudraws/status/1900276933142994975)
+
+["tavern owner" by Hina](https://x.com/HYurisaki/status/1902247996688892412)

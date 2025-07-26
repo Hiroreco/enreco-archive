@@ -1,3 +1,6 @@
+<!-- title: Mococo Abyssguard -->
+<!-- status: Alive -->
+
 Mococo had lost her memories—again—as she listened to the explanation of the new situation she and the other heroes were in. But did she care? Not particularly. She didn’t question it at all. Sure, she had trouble remembering people who were once close to her, like [Elizabeth](https://www.youtube.com/watch?v=Fv6DAiZLbUk&t=823s), and others she was only vaguely familiar with, like [Nerissa](https://www.youtube.com/live/Fv6DAiZLbUk?si=KUz2qVX6vM0F-4ff&t=2737)—but beyond that, she was remarkably unbothered.
 
 Maybe, in some strange way, it was a blessing. A clean slate. A sweet release from the trail of crimes she’d left behind in her last adventure. Wrongfully suing a local business, corrupting the land, singlehandedly wiping out all of Fuwawa’s chickens in one fell swoop—this new journey was her chance at redemption.
@@ -11,3 +14,9 @@ And so the fuzzy one’s journey began. Like everyone else, she had to learn the
 Not much else happened—it was only Day 1, after all. And honestly? That was probably for the best. After how chaotic things got for Mococo last time, she could use a bit of peace. Time to refresh her mind, perhaps become a kinder, gentler soul. Sure, she was still a little obsessed with cash, but who isn’t? At the very least, she didn’t have to worry about lottery tickets anymore. She could live her life, make her own choices, and—oh no, Mococo, no! She found the gambling machine!
 
 [Here we go again](#embed:https://www.youtube.com/live/Fv6DAiZLbUk?si=xxcTjEyCBICYhYy1&t=9886)
+
+## Fanart
+
+["Enreco Mococo" by seitohakuya](https://x.com/seitohakuya/status/1902530835552649547)
+
+["Lottery Ticket" by fukuinu](https://x.com/fukuinu_daddy/status/1917907936216601005)

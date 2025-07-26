@@ -1,3 +1,6 @@
+<!-- title: Jyonathan -->
+<!-- status: Alive -->
+
 Jyonathan wanted to create something of her own. After seeing all the impressive constructions her friends had built, she felt the urge to contribute to the kingdom’s growing infrastructure. She decided on a bathhouse—an [onsen](https://www.youtube.com/live/uyOxBS0Cx8E?feature=shared&t=257)—believing that none of the heroes had taken a proper shower since arriving in the kingdom and, frankly, they stank. So, she put off tackling the last dungeon until the following day.
 
 Before she could get started, however, she ran into the Hot Pink One, who, as always, immediately switched into flirt mode. It seemed she was still adamant about maintaining her position as Jyonathan’s backup plan (see: [Hot Pink One-Jyonathan: My Chicken Farm](#edge:ame-irys)).

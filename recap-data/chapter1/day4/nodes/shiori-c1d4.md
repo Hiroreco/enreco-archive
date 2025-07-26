@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 The fourth day arrived, and Shiori decided it would be a calm, drama-free one—at least, that was her plan. After being thrust into one relationship drama after another over the past three days, she was desperate for tranquility. All she wanted was to build her humble abode and live a peaceful life.
 
 The mere thought of more drama made her wary. So when Bijou called to invite her on a dungeon quest, Shiori hesitated, fearing she might have to play the "peacemaker" yet again. Memories of being berated for "abandoning the bros" the previous day still [lingered](https://www.youtube.com/live/N3v-MJXHQ0w?feature=shared&t=472).

@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Gonathon awoke from a restless night, haunted by troubling thoughts. The corruption spreading through the kingdom weighed heavily on his mind, alongside the impending sense of doom tied to the "calm before the storm." Above all, his Pearl—the one he cherished most—had forgotten him, leaving an ache of loneliness and doubt in his heart.
 
 Yet, despite the emotional turmoil, Gonathon resolved to press on. As a knight entrusted by his queen, he couldn't afford to falter. He steeled himself, determined to complete the grand statue of his queen—a monument of his devotion—before the day ended. But as he set to work, he was interrupted by an unexpected sight: why were there people in his guild base?
@@ -30,6 +33,22 @@ He penned two letters that night: one to Amelia Watson, warning her of the growi
 
 The final day loomed ominously on the horizon. Despite the mounting dangers, Gonathon knew he had to face whatever came with courage and resolve, for the sake of his kingdom, his queen, and the ones he cared about.
 
-["Who is Gonathon G" by Emico Otero](https://www.youtube.com/watch?v=MxNvjxcmzW4)
+## Fanart
+
+["I hope you come back soon". by Daaku](https://x.com/koizumi_arata/status/1832113066487771210)
+
+<!-- raora, ame, liz -->
+
+["My dear pearl..." by Leaflet](https://x.com/Lil_Leaflet_/status/1832398336877596978)
+
+["Who is Gonathon G" by Emico Otero](https://x.com/EmicoOtero/status/1833526793716043979)
 
 ["Rizzle me this" by Hiro](https://x.com/hiroavrs/status/1832437338469011589)
+
+<!-- bijou -->
+
+## Memes
+
+["pray for our boy" by MMDKaniki](https://x.com/MMDKaniki/status/1832206547109196134)
+
+["The path of a humble knight" by Kazuki Ich](https://x.com/kazukiich/status/1832352221142643091)

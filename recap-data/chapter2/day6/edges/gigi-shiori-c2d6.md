@@ -6,7 +6,7 @@ The two would part ways for a while, with Shiori working on the party site and G
 
 [Shiori is wrong about Gonathon pushing her.](#embed:https://www.youtube.com/watch?v=p5xrAxTh8ho&t=9785s)
 
-Conflicted over whether to believe her knightly mentor or the recalcitrant witch, Gonathon concluded that Liz deserved to be heard out and relayed her words to Tam Gandr (see: [Gonathon-Kronii: Passed Pawn](#edge:kronii-gigi)) and Immerkind. Unsure of Shiori’s intentions but certain that Liz had no reason to lie, the three agreed to confront the Red Knight and witch. They needn’t wait long to hear Shiori’s side, for the two-toned witch invited the trio to the party site to talk.
+Conflicted over whether to believe her knightly mentor or the recalcitrant witch, Gonathon concluded that Liz deserved to be heard out and relayed her words to Tam Gandr (see: [Gonathon-Kronii: Passed Pawn](#edge:kronii-gigi)) and Immerkind. Unsure of Shiori’s intentions but certain that Liz had no reason to lie, the three agreed to confront the Scarlet Knight and witch. They needn’t wait long to hear Shiori’s side, for the two-toned witch invited the trio to the party site to talk.
 
 While the chief concerns of the gathering at first seemed to revolve around Shiori potentially being pregnant with Gonathon’s child following their hand-holding incident, Shiori’s actual reason for calling Gonathon went far deeper than any physical relationship. Pulling Gonathon aside and bathed in the moon’s radiant warmth, Shiori asked Gonathon about her Pearl and offered Gonathon a seemingly [simple choice](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=14956s): in exchange for a complete and clear snippet of a memory of her Pearl, Shiori’s memory of Gonathon would be wiped away.
 
@@ -18,9 +18,8 @@ While Tam attempted to convince Gonathon of Shiori’s duplicity and manipulatio
 
 [The last rites of the humble witch](#embed:https://youtu.be/tJ_YXGE3o2w?t=17762)
 
-[Read "To Gonathon"](#text:to-gonathon)
-
-[Read "Your Promise"](#text:your-promise)
+- [Read "To Gonathon"](#text:to-gonathon)
+- [Read "Your Promise"](#text:your-promise)
 
 ## Fanart
 

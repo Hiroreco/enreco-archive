@@ -1,3 +1,6 @@
+<!-- title: Amelia Watson -->
+<!-- status: Alive -->
+
 The sixth day was shaping up to be as chaotic as ever, and Jyonathan mostly stood on the sidelines and witnessed the madness: Nerissa hexing Elizabeth, talk of the Stain Princess, a discussion about Nerissa’s child being "murdered," and then a tournament being announced. It was overwhelming, but she found herself enjoying the energy of it all.
 
 As someone who enjoyed a bit of mischief, she decided to add her own flair to the chaos. She investigated Bijou, suspecting her of [corruption](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=1496), tried her luck at [gambling](https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=2378), and even stood atop the king's throne, roleplaying as the new ruler of the kingdom.

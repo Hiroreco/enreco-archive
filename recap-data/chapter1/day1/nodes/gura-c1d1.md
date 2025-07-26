@@ -1,3 +1,6 @@
+<!-- title: Gawr Gura -->
+<!-- status: Alive -->
+
 _"I want to punch this one. I don't know why, I just have an urge,"_ was one of the first things _Gura_ said after waking up in the white room. The target? A blonde maiden named [Jyon Watson](https://www.youtube.com/live/PJtapc2_7ok?si=Y5cIDsVzAWQ_KLyt&t=535). It felt like there was unresolved tension between them—despite Gura not remembering anything about her past. Or maybe she was just feeling extra sassy, later casually calling Tam a dumbass when addressing her [name](https://www.youtube.com/live/PJtapc2_7ok?si=DZTu5_2xTqaUWn3X&t=2562).
 
 During the battle with the Stain King, Gura’s weapon—[a trident](https://www.youtube.com/live/PJtapc2_7ok?si=iOr1m3bizOsFkBs6&t=3078)—was revealed. When she activated its Revelation, it summoned a wave of water that pushed back enemies. After the battle, she was sorted into the _Scarlet Wand_ [guild](https://www.youtube.com/live/PJtapc2_7ok?si=0VHccAIdMWhD0QQf&t=3413).
@@ -18,6 +21,14 @@ The almighty Appointed Point didn’t stay mighty for long, as Fauna promptly be
 
 Finally, the three of them wrapped up their day at the casino. While Fauna and Cecilia made decent profits, Gura went bankrupt—she lost so much money she couldn't feel her legs anymore. Again, the hat offered no perks. Despite that, she had a blast and was excited for whatever adventures lay ahead.
 
+## Fanart
+
 ["A Shark" by Ammy](https://x.com/Ammiietty/status/1830136980811796710)
 
+<!-- kiara -->
+
 ["Big Silly Hat" by toro rose](https://x.com/TororoRose/status/1830139747202728375)
+
+["stalatite head" by keenbiscuit](https://x.com/keenbiscuit/status/1830198547343671646)
+
+<!-- fauna, cecilia -->

@@ -2,7 +2,7 @@
 
 Ina had one special wife. She wasn’t unfamiliar with the antics of the Hot Pink One. She had seen firsthand how much of a nutcase this woman was—flirting with every girl in sight, collecting wives like trinkets, and basking in her ever-growing harem. Ina didn’t comment much. She had accepted it as just another part of her consort’s chaotic nature.
 
-But what Ina didn’t expect… was just how low this pink menace was willing to go. She even tricked someone heartbroken—taking advantage of a vulnerable soul who had already lost so much.
+But what Ina didn’t expect... was just how low this pink menace was willing to go. She even tricked someone heartbroken—taking advantage of a vulnerable soul who had already lost so much.
 
 [Eternal Consort! Oi!](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=5210)
 

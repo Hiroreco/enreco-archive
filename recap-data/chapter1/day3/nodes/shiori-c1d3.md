@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 Shiori began her third day with a greeting from Bijou, her so-called wife. Not really sure if it's usual to say "Hello there, my other wife" to your beloved when you greet them, but the statement by Shiori left Bijou visibly puzzled, and it set the tone for the day—a mix of confusion and drama (see [Shiori-Bijou: Soap Opera](#edge:shiori-bijou)).
 
 Later, Shiori ran into Nerissa, her alleged bird wife. Nerissa invited Shiori to assist her with the second dungeon, a task Nerissa had been unable to complete previously. Shiori declined the invitation outright, leaving Nerissa disappointed. To twist the knife, Shiori made a snarky comment about Nerissa’s hat before sending her on her way.

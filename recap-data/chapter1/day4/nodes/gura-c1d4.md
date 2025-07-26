@@ -1,6 +1,9 @@
+<!-- title: Gawr Gura -->
+<!-- status: Alive -->
+
 The fourth day dawned on our shark girl, Gawr Gura, who recently uncovered her identity as the princess of Atlantis—the very one who had fled her kingdom, ultimately leading to its downfall. Despite this revelation, Gura felt largely unchanged. With her memories recovered but no burdens weighing her down, she eagerly embarked on another adventure in the kingdom.
 
-Everywhere Gura turned, constructions upon constructions were popping up: FaunaMart, Calli’s diner, Raora’s castle, and more. Inspired, Gura decided it was time to create something of her own. Observing the kingdom’s rising crime rate, she settled on building… _[a gallows](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=665)_. This contraption would serve as a beacon of justice, imprisoning wrongdoers and even incorporating public participation—citizens could throw eggs at the convicted for added flair.
+Everywhere Gura turned, constructions upon constructions were popping up: FaunaMart, Calli’s diner, Raora’s castle, and more. Inspired, Gura decided it was time to create something of her own. Observing the kingdom’s rising crime rate, she settled on building... _[a gallows](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=665)_. This contraption would serve as a beacon of justice, imprisoning wrongdoers and even incorporating public participation—citizens could throw eggs at the convicted for added flair.
 
 [Listing out crimes](#embed:https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=2395)
 
@@ -19,3 +22,9 @@ Back in the kingdom, while working on her gallows, Gura was approached by Cecili
 Undeterred, Gura teamed up with Gonathon and Jyonathan to tackle the _Volcanic Dungeon_. The dungeon posed significant challenges, but its intricate contraptions fascinated Gura, who marveled at their [ingenuity](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=15828). The team ultimately emerged victorious, recovering [memories](https://www.youtube.com/live/72SJQRQ7qi0?feature=shared&t=16175) of _Takanashi Kiara_.
 
 With another successful day behind her, Gura called it a night, her mind racing with plans for justice, adventures, and perhaps some revisions to her gallows.
+
+## Fanart
+
+["Ultimate battle form" by advarcher](https://x.com/Anonamos_701/status/1831053964131140033)
+
+["🔱💦" by ma_draws](https://x.com/ma_draws/status/1832081741831381036)

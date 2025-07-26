@@ -8,7 +8,7 @@ There was no need to mince words or prolong a painful moment: Bae's love was for
 
 To call it "hurtful" would be to downplay it. For Bae, it was devastating.
 
-She had held back for so long—keeping herself closed off from others ever since the first journey. And now, when she had finally dared to hope, dared to feel something real for someone, dared to believe in warmth again… that hope had been crushed. That warmth turned to ice. Her world—internal and external—collapsed into despair.
+She had held back for so long—keeping herself closed off from others ever since the first journey. And now, when she had finally dared to hope, dared to feel something real for someone, dared to believe in warmth again... that hope had been crushed. That warmth turned to ice. Her world—internal and external—collapsed into despair.
 
 So much so that she descended into the abyss, both in spirit and in body, ready to surrender to the cold depths.
 
@@ -21,3 +21,9 @@ Not Immerkind’s. No, someone else. Someone who had seen her. Heard her. Unders
 Perhaps, after all, Bae had made a real connection. Perhaps there was someone whose hand would never let go.
 
 (see [Gonathon-Bae](#edge:bae-gigi))
+
+## Fanart
+
+["The Peasant and the Knight" by innie](https://x.com/iennie_/status/1921194780282835402)
+
+["Unrequited Love" by Sora](https://x.com/GuyFloating/status/1921115744143614058)

@@ -1,84 +1,95 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 **THE WITCH'S LAIR**
 
-More and more people had [discovered](https://youtu.be/FlPFFE5_X3Y?t=7063) the secret shrine that was miraculously built under Nerissa's house. Surprisingly, she didn't look bothered; in fact, it rather seemed intentional that she allowed them to find it.
+More and more people had begun to [discover](https://youtu.be/FlPFFE5_X3Y?t=7063) the secret shrine that had been miraculously constructed beneath Nerissa’s home. Oddly enough, she didn’t seem alarmed. If anything, it felt as though she had wanted them to find it.
 
-As if it were an invitation to a baptism of a transformed being.
+As if it were an invitation—
+A baptism into the rebirth of something… different.
 
 ---
 
-[CORRUPTION](#embed:https://youtu.be/FlPFFE5_X3Y?t=8881)
+[**CORRUPTION**](#embed:https://youtu.be/FlPFFE5_X3Y?t=8881)
 
-So far, all of the dungeons had been conquered but one– the Heart of Ruin– the source of ruination, corrupting the whole of Libestal.
+All dungeons had been cleared, save for one: the Heart of Ruin. The source of decay. The core of corruption that plagued all of Libestal.
 
-The heroes prepared, making sure they were fully equipped to ensure victory.
+The heroes readied themselves, ensuring their gear and spirits were prepared for the final confrontation. And when the moment came, they descended into the darkness.
 
-And when the time was right, they entered the dungeon… Until…
+Until—
 
-Nerissa noticed something was different. She had been corrupted! Yet she was not alone, as a few other members-- Shiori of the Nyavella, the Fuzzy One, the Fluffy One, and Princess Bijou-- had been infected by the Stains as well.
+Nerissa realized something was wrong. She had been corrupted.
 
-How they were chosen was unknown. One thing was clear, however: it was beyond their control, and it was up to their friends to save them… or, perhaps, take their lives if worse comes to worst.
+But she was not alone. Alongside her, Shiori of the Nyavella, the Fuzzy One, the Fluffy One, and Princess Bijou had all been tainted by the Stains.
 
-And as expected of the heroes, they did their best in winning their friends back as they attempted to purify them.
+No one knew how they had been chosen. It was as if the corruption itself had reached out and claimed them. And now, their fate rested in the hands of their comrades—friends who would have to fight to save them... or, if it came to it, be forced to strike them down.
+
+The heroes, however, were just as expected. Tireless and devoted, they fought with all their might—not to destroy—but to purify.
 
 ---
 
 **SOMETHING PERSONAL?**
 
-Fate was such a trickster. Having been possessed, the corruption guided Nerissa to [haunt](https://youtu.be/FlPFFE5_X3Y?t=9100) Roa Pandora, enabling her to see through the secrets of her heart. The corrupted “witch” finally confirmed and confronted her about the woman’s growing feelings for Lady Bloodflame and the jealousy she harbored for her blossoming relationship with Lady Bloodflame.
+Fate played its cruelest trick yet. Under the sway of corruption, Nerissa was drawn to [haunt](https://youtu.be/FlPFFE5_X3Y?t=9100) Roa Pandora—an encounter that stripped away all pretenses and laid bare what was buried deep in Roa’s heart.
 
-_“You stole the Red Knight”_
+The corrupted witch saw it clearly now: Roa’s quiet affection for Lady Bloodflame... and the jealousy that festered because of it.
 
-_“I stole no such thing,”_ she quipped back.
+> “You stole the Scarlet Knight.”
 
-_"You... evil witch! I knew you were evil from the very beginning"_
+> “I stole no such thing,” Roa snapped back.
 
-Roa Pandora struggled in fighting for her sanity, while the raven one laughed at her demise.
+> “You... evil witch! I knew you were evil from the very beginning!”
 
-After quite some time, the big cat was finally able to get out of her possession… Only at the cost of another person—[Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).
+Roa struggled desperately to hold on to her mind as the raven-haired woman laughed, unrelenting and cruel.
+
+Eventually, the possession broke. Roa was freed.
+But only because someone else took her place—[Lady Bloodflame](https://youtu.be/FlPFFE5_X3Y?t=9228).
 
 ---
 
 **THE FIRE THAT PURIFIES?**
 
-_“Come to your senses!”_ the knight shouted.
+> “Come to your senses!”\* the knight cried.
 
-_“Come to my senses?_ I think I came to those a long ago”
+> “Come to my senses?\* I believe I came to those a long time ago.”
 
-It did not take long for the valiant knight to overcome the possession. Was it because of divine protection? Perhaps the “witch” has learned the Red Maiden’s true feelings by entering her mind and so could not truly hurt her? Maybe it was the blue flames of the scarlet warrior that consumed the corruption?
+It didn’t take long for the Scarlet Knight to shatter the corruption’s hold. Was it divine protection that shielded her? Or perhaps the witch, having glimpsed the truth in the Red Maiden’s heart, found herself unable to inflict harm?
 
-Before they knew it, the pure knight had ["cleansed"](https://youtu.be/FlPFFE5_X3Y?t=9259) Nerissa and won her over to their side again.
+Maybe it was simply the blue flames of the knight herself—intense, pure, consuming.
+
+Whatever it was, she ["cleansed"](https://youtu.be/FlPFFE5_X3Y?t=9259) Nerissa, pulling her back from the edge.
 
 ---
 
 **THE HEART OF RUIN**
 
-Yet, such was just the beginning... As the heroes had yet to face the heart of Ruin and bring to an end the evil it had caused.
+But that was only the beginning. The final dungeon still awaited.
 
-Entering the [final](https://youtu.be/FlPFFE5_X3Y?t=9412) dungeon, the warriors fought in all their might, side by side, even those that had been corrupted once. Together, with their own skills and the power of their bonds, the Shining Stars had successfully defeated the The Curse, saving the world once more...
+And so, [together](https://youtu.be/FlPFFE5_X3Y?t=9412)—heroes and once-corrupted alike—they fought. Blade, spell, and will united. Every wound, every word, every act of faith forged their strength.
+
+In the end, they triumphed. The Curse was vanquished, and Libestal was saved once again.
 
 ---
 
 **SHATTERED MIRROR**
 
-Despite all the celebrations, Nerissa couldn’t seem to find the same joy she had from the beginning.
+Yet even amidst celebration, Nerissa found no peace.
 
-She had already been purified, right? And yet… her heart still felt empty as a [void](https://youtu.be/FlPFFE5_X3Y?t=14765). As if there was a growing shadow engulfing all the light and happiness within her. As if buried in eternal winter, her soul became numb. Perhaps, devoid of love, even.
+She had been purified. The corruption was gone... wasn’t it?
 
-_“You see, my heart is still dyed black.”_
+And still, her heart felt hollow—a [void](https://youtu.be/FlPFFE5_X3Y?t=14765) where warmth once lived. As if all joy had withered. As if love had died. A creeping chill settled within her soul, and she welcomed it.
 
-_“I have no intention of ‘saving’ anything.”_
+> “You see, my heart is still dyed black. I have no intention of ‘saving’ anything.”
 
-This looming darkness, wherever its roots came from, she finally embraced as her own. Whether it was just an illusion or the reality, it mattered no longer.
+This darkness—whether illusion or truth—was now hers to bear. She no longer resisted it.
 
-She had accepted this form.
+The monster behind the mirror had broken free.
 
-The monster that had been trapped in the mirror has finally broken free.
+After all,
 
-After all, _NOTHING STAYS PURE_...
+> “NOTHING STAYS PURE.”
 
 ## Fanart
-
-["Nerissa Ravencroft 🎼" by SHAF](https://x.com/shafpng/status/1886083673935798700)
 
 ["Witch" by yuri_kyanon](https://x.com/yuri_kyanon/status/1921582803809886659)
 
@@ -86,6 +97,6 @@ After all, _NOTHING STAYS PURE_...
 
 ["The one they call The Witch" by Hexcaster1636](https://x.com/lancaster_1636/status/1924872752890077294)
 
-[rkgk by Magho](https://x.com/M_Agho/status/1920808679089009020)
+["rkgk" by Magho](https://x.com/M_Agho/status/1920808679089009020)
 
 ["Nothing stays pure" by ArizaZarigueya](https://x.com/Hanaswing/status/1921134059658330192)

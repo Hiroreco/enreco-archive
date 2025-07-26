@@ -1,4 +1,9 @@
-_The blonde maiden_ awoke in the mysterious white box, completely disoriented. Questions flooded her mind: _"Am I dead?" "Am I in limbo?" "Why do these people have buttons floating over their heads?"_
+<!-- title: Jyon Watson -->
+<!-- status: Alive -->
+
+_The blonde maiden_ awoke in the mysterious white box, completely disoriented. Questions flooded her mind: 
+
+> Am I dead? Am I in limbo? Why do these people have buttons floating over their heads?
 
 [She was flabbergasted](#embed:https://www.youtube.com/live/hUCfCWOj-1w?feature=shared&t=287)
 

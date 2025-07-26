@@ -1,6 +1,9 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 The tavern owner-turned-therapist kicked off her day by diving straight into a session with none other than Gonathon. The topic? The ever-delicate, always-messy realm of love—specifically, the brand of love that involved siblings, mutual friends, and being roped into playing the role of wingman whether you wanted to or not.
 
-Of course, that wouldn’t be the last therapy session of the day. In fact, love became the centerpiece of nearly every conversation the two had throughout the rest of the date. Mordan, ever the "professional"—at least in theory, claimed she was simply offering her services—nothing more. Surely, she'd never get caught up in the tangled mess her clients kept dragging into these sessions… right?
+Of course, that wouldn’t be the last therapy session of the day. In fact, love became the centerpiece of nearly every conversation the two had throughout the rest of the date. Mordan, ever the "professional"—at least in theory, claimed she was simply offering her services—nothing more. Surely, she'd never get caught up in the tangled mess her clients kept dragging into these sessions... right?
 
 [Therapy session of questionable topics](#embed:https://www.youtube.com/live/AVolo2GU708?si=4AnsPPNT_wg8l5Ml&t=215)
 
@@ -21,3 +24,5 @@ She just... left. Off to attend to other business, casually leaving the chaos in
 ## Fanart
 
 ["Gonathon deserved better" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)
+
+<!-- shiori, calli -->

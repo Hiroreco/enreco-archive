@@ -19,3 +19,11 @@ In a rather surprising turn of events, it seemed like Kiara was a forerunner for
 An impromptu wedding ceremony was arranged! Everyone, from all over the kingdom, despite the short notice, was invited.
 
 [Kiss the bride!](#embed:https://www.youtube.com/live/m2OG5auudrQ?t=13014s)
+
+## Fanart
+
+["The Cat Woman and her Cat" by Roronico](https://x.com/roronico1512/status/1936422814145458405)
+
+<!-- bijou, shiori, cecilia, ina, liz, calli -->
+
+["Happy Marriage" by XU CW](https://x.com/2H2xO2is2H2O/status/1921234158640107818)

@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 It's party day! The commission Shiori gave Fuwawa was finally due, and it was time for her to gather all her best dishes for the special event.
 
 [The big day](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=437)
@@ -19,3 +22,7 @@ She moved through the crowd, [offering](https://www.youtube.com/live/eKVBp9EgDLc
 Fuwawa was happy. It was a special day, and she wouldn’t trade it for the world.
 
 [Today was a special day](#embed:https://www.youtube.com/live/eKVBp9EgDLc?t=9576)
+
+But something felt... off.
+
+> However, the words that were repeated today "Nothing stays pure" still rings within me... What did that mean... What is pure? What is... stained...

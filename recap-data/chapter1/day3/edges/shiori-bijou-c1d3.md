@@ -1,10 +1,10 @@
 <!-- title: Soap Opera -->
 
-["Hello, my other wife"](https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=237)
+["Hello, my other wife"](#embed:https://www.youtube.com/live/BnpLALzUzD4?feature=shared&t=237)
 
 Those were Shiori’s unexpected words in response to Bijou’s bright and cheerful morning greeting. The smile on the gem maiden’s face faded instantly, replaced by confusion and a pang of hurt. Bijou immediately pressed Shiori for answers—who was this "other wife"?
 
-It turned out to be Nerissa Ravencroft, someone Bijou wasn’t particularly fond of. Sure, there was the stark contrast between Bijou’s petite figure and Nerissa’s elegant hourglass form, but more importantly, Shiori was her wife, not Nerissa’s. Still, Bijou reassured herself: Nerissa hadn’t participated in the same quirky ceremony that she and Shiori had. That made their bond unique, special, and, above all, official—right?
+It turned out to be Nerissa Juliet Ravencroft, someone Bijou wasn’t particularly fond of. Sure, there was the stark contrast between Bijou’s petite figure and Nerissa’s elegant hourglass form, but more importantly, Shiori was her wife, not Nerissa’s. Still, Bijou reassured herself: Nerissa hadn’t participated in the same quirky ceremony that she and Shiori had. That made their bond unique, special, and, above all, official—right?
 
 The day started off smoothly despite the awkward morning. Bijou and Shiori went on their usual adventures, gathering materials, completing quests, and enjoying the idyllic life of a married couple. But their happiness was short-lived.
 

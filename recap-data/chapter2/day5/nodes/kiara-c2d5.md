@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 The events of yesterday lingered in Kiara's mind, and it was with concern that Kiara asked Mordan for a private word. Underneath the Chef's Tavern, Kiara [inquired about Mordan's well-being](https://youtu.be/0CHBuQwz_hY?t=836); the blind date had ended horribly for everyone, but especially for her fellow wolf. Mordan reassured her that, though she liked Gonathon, she would prioritize his feelings. But seeing the way Mordan put aside her own feelings, seemingly burying them within, made Kiara concerned.
 
 In the midst of their talk, Elizabeth, Kiara's Sugar Child, would come by to request a legendary upgrade stone—Kiara quickly provided it and was delighted to guess that it was a gift meant for a [certain Raven](https://youtu.be/0CHBuQwz_hY?t=1045), as the other woman frequently left gifts for Elizabeth. Elizabeth, flustered but not denying it, left.
@@ -28,12 +31,14 @@ But it seemed the fight was not over. As she reported to the Princess, the Outla
 
 Kiara noticed her fellow knight's struggle against the Outlander and offered to give her some equipment to help in the battle, [fulfilling that promise](https://youtu.be/0CHBuQwz_hY?t=10623) shortly after it was made. As she went to her forge, Nerissa passed by to see if there were legendary upgrade stones. Pleased by the day's earnings, she would see to restock her wares.
 
-Elizabeth then returned in [victory](https://youtu.be/0CHBuQwz_hY?t=11357)—besting the Outlander, totally on the first try of course. Kiara felt proud of Elizabeth's progress. The Red Knight was already strong, and to see her become stronger was admirable.
+Elizabeth then returned in [victory](https://youtu.be/0CHBuQwz_hY?t=11357)—besting the Outlander, totally on the first try of course. Kiara felt proud of Elizabeth's progress. The Scarlet Knight was already strong, and to see her become stronger was admirable.
 
-But unfortunately, that strength caused a tense situation: [Knight Bloodflame suddenly attacked Nerissa, calling her a witch,](https://youtu.be/0CHBuQwz_hY?t=11940) when the latter came by to see Elizabeth. Kiara quickly pulled Nerissa aside and [reassured her](https://youtu.be/0CHBuQwz_hY?t=11984) that those were not Elizabeth's true feelings, and that there was fondness within the Red Knight's heart for the Blue Chef. Time is what Elizabeth needs. Kiara promised to be a wingman, but... carefully this time.
+But unfortunately, that strength caused a tense situation: [Knight Bloodflame suddenly attacked Nerissa, calling her a witch,](https://youtu.be/0CHBuQwz_hY?t=11940) when the latter came by to see Elizabeth. Kiara quickly pulled Nerissa aside and [reassured her](https://youtu.be/0CHBuQwz_hY?t=11984) that those were not Elizabeth's true feelings, and that there was fondness within the Scarlet Knight's heart for the Blue Chef. Time is what Elizabeth needs. Kiara promised to be a wingman, but... carefully this time.
 
 Today was a calmer day, and perhaps tomorrow would be a nice day off.
 
 ## Fanart
 
 ["2 wolves, 1 big cat and a leader" by Roronico](https://x.com/roronico1512/status/1920392409898168688)
+
+<!-- raora, gigi, calli -->

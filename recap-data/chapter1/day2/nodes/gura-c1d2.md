@@ -1,3 +1,6 @@
+<!-- title: Gawr Gura -->
+<!-- status: Alive -->
+
 Gura entered the fantasy world for her second day, her excitement evident as she proudly wore the [long red hat](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=482). This hat was no ordinary accessory; it symbolized intelligence and status, qualities Gura quickly claimed as her own.
 
 She began her day at the quest board, where Fauna, Cecilia, Darwin Roosevelt DiCaprio Jr., and Shakira were deep in discussion about the FaunaMart lottery tickets. Darwin attempted to sell Gura a ticket, but she was already ahead of the game. According to Gura, those who wore the red hat shared a single brain.
@@ -32,6 +35,12 @@ Yet, her story of rebellion didn’t inspire admiration as [she had hoped](https
 
 Their adventure continued at the tavern, where they celebrated with Gura’s newly acquired [music disc](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=9204), and the day once again closed off with some good ol' bits [gambling](https://www.youtube.com/live/bOIlLaFiiE4?feature=shared&t=9761).
 
+## Fanart
+
 ["1 coin bet" by kshut](https://x.com/shutowl/status/1830517595768000529)
 
 ["the council will decide your fate" by Miku](https://x.com/Mikururun/status/1830701638472081531)
+
+<!-- fauna, moom -->
+
+["Come, I don't wawnt to destroy this place" by Daaku](https://x.com/koizumi_arata/status/1831100215668908440)

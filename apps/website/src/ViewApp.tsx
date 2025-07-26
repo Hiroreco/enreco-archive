@@ -1,43 +1,47 @@
 "use client";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
-import ViewEdgeCard from "@/components/view/ViewEdgeCard";
-import ViewInfoModal from "@/components/view/ViewInfoModal";
-import ViewNodeCard from "@/components/view/ViewNodeCard";
-import ViewSettingCard from "@/components/view/ViewSettingCard";
+import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
+import ViewInfoModal from "@/components/view/basic-modals/ViewInfoModal";
+import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
+import ViewDayRecapCard from "@/components/view/chart-cards/ViewDayRecapCard";
+import { useViewStore } from "@/store/viewStore";
 import {
-    Chapter,
-    ChartData,
-    FitViewOperation,
     FixedEdgeType,
     ImageNodeType,
     SiteData,
 } from "@enreco-archive/common/types";
-import { CardType, useViewStore } from "@/store/viewStore";
 
-import ViewMiniGameModal from "@/components/view/ViewMiniGameModal";
-import ViewVideoModal from "@/components/view/ViewVideoModal";
+import ViewChart from "@/components/view/chart/ViewChart";
+import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
+import ViewReadCounter from "@/components/view/chart/ViewReadCounter";
+import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
+import ViewTransportControls from "@/components/view/chart/ViewTransportControls";
+import ViewVideoModal from "@/components/view/utility-modals/ViewVideoModal";
+import { useBrowserHash } from "@/hooks/useBrowserHash";
+import { useClickOutside } from "@/hooks/useClickOutsite";
+import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
-import { idFromChapterDayId, isMobileViewport } from "@/lib/utils";
-import { Book, Dice6, Info, Settings } from "lucide-react";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import ViewChart from "./components/view/ViewChart";
-import ViewSettingsModal from "./components/view/ViewSettingsModal";
-import ViewTransportControls from "./components/view/ViewTransportControls";
-import { useBrowserHash } from "./hooks/useBrowserHash";
-import { useDisabledDefaultMobilePinchZoom } from "./hooks/useDisabledDefaultMobilePinchZoom";
-import { LS_HAS_VISITED } from "@/lib/constants";
-import { useClickOutside } from "@/hooks/useClickOutsite";
-import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/VaulDrawer";
-import ViewReadCounter from "@/components/view/ViewReadCounter";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
+import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
+
+import ViewChapterRecapModal from "@/components/view/utility-modals/ViewChapterRecapModal";
+
 import {
-    generateRenderableEdges,
-    generateRenderableNodes,
-} from "./lib/generate-renderable-chart-elems";
-import ViewChapterRecapModal from "@/components/view/ViewChapterRecapModal";
-import { CurrentChartDataContext } from "@/contexts/CurrentChartData";
+    CurrentChapterDataContext,
+    CurrentDayDataContext,
+} from "@/contexts/CurrentChartData";
+import { resolveDataForDay } from "@/lib/chart-utils";
+import { countReadElements, usePersistedViewStore } from "@/store/persistedViewStore";
+import { isEdge, isNode } from "@xyflow/react";
+import { produce } from "immer";
+import Image from "next/image";
+import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
+import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
+import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -56,275 +60,281 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     return null;
 }
 
-function getAllNodesOfIdFromChapter(
-    id: string,
-    chapterData: Chapter,
-): ImageNodeType[] {
-    const res: ImageNodeType[] = [];
-    chapterData.charts.forEach((chart) => {
-        const node = chart.nodes.find((node) => node.id === id);
-        if (node) {
-            res.push(node);
-        }
-    });
-    return res;
-}
-
-function getAllEdgesOfIdFromChapter(
-    id: string,
-    chapterData: Chapter,
-): FixedEdgeType[] {
-    const res: FixedEdgeType[] = [];
-    chapterData.charts.forEach((chart) => {
-        const edge = chart.edges.find((node) => node.id === id);
-        if (edge) {
-            res.push(edge);
-        }
-    });
-    return res;
-}
-
-// combine the charts of the current day with the previous days
-// works like git, the result is the final chart of the current dayconst mergeChartsIntoCurrentDay
-function mergeChartsIntoCurrentDay(
-    charts: ChartData[],
-    currentDay: number,
-): ChartData {
-    const result: ChartData = {
-        nodes: [] as ImageNodeType[],
-        edges: [] as FixedEdgeType[],
-        title: charts[currentDay].title,
-        dayRecap: charts[currentDay].dayRecap,
-    };
-
-    // Process each day up to the current day
-    for (let day = 0; day <= currentDay; day++) {
-        const chart = charts[day];
-        if (!chart) continue;
-
-        // For nodes, merge by id - newer versions replace older ones
-        chart.nodes.forEach((node: ImageNodeType) => {
-            const existingIndex = result.nodes.findIndex(
-                (n) => n.id === node.id,
-            );
-
-            if (existingIndex !== -1) {
-                // Update existing node
-                result.nodes[existingIndex] = node;
-            } else {
-                // Add new node
-                result.nodes.push(node);
-            }
-        });
-
-        // For edges, merge by id - newer versions replace older ones
-        chart.edges.forEach((edge: FixedEdgeType) => {
-            const existingIndex = result.edges.findIndex(
-                (e) => e.id === edge.id,
-            );
-            if (existingIndex !== -1) {
-                // Update existing edge
-                if (edge.data) {
-                    edge.data.isNewlyAdded = false;
-                }
-                result.edges[existingIndex] = edge;
-            } else {
-                // Add new edge
-                if (edge.data) {
-                    edge.data.isNewlyAdded = true;
-                }
-                result.edges.push(edge);
-            }
-        });
-    }
-
-    return result;
-}
-
 interface Props {
-    useDarkMode: boolean;
     siteData: SiteData;
     isInLoadingScreen: boolean;
+    bgImage: string;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
+const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
+    /* Hooks that are not use*Store/useState/useMemo/useCallback */
     useAudioSettingsSync();
     useClickOutside();
-    /* State variables */
-    const viewStore = useViewStore();
-    const settingsStore = useSettingStore();
-    const audioStore = useAudioStore();
-
-    const [chartShrink, setChartShrink] = useState(0);
-    const [fitViewOperation, setFitViewOperation] =
-        useState<FitViewOperation>("none");
-    const [doFitView, setDoFitView] = useState(true);
-    const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
-    const [previousCard, setPreviousCard] = useState<CardType | null>(null);
-
-    const [firstVisit, setFirstVisit] = useState(false);
 
     // For disabling default pinch zoom on mobiles, as it conflict with the chart's zoom
     // Also when pinch zoom when one of the cards are open, upon closing the zoom will stay that way permanently
     useDisabledDefaultMobilePinchZoom();
 
-    // For handling first visit, show the info modal
-    // Also play the bgm here
-    useEffect(() => {
-        if (isInLoadingScreen) {
-            return;
-        }
-        const hasVisited = localStorage.getItem(LS_HAS_VISITED);
-        if (!hasVisited) {
-            viewStore.setInfoModalOpen(true);
-            setFirstVisit(true);
-        }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [viewStore.setInfoModalOpen, setFirstVisit, isInLoadingScreen]);
-
-    /* Data variables */
-    const chapterData = siteData.chapters[viewStore.chapter];
-    const dayData = useMemo(
-        () => mergeChartsIntoCurrentDay(chapterData.charts, viewStore.day),
-        [chapterData.charts, viewStore.day],
+    /* Zustand store variables */
+    // Settings Store
+    const openDayRecapOnDayChange = useSettingStore(
+        (state) => state.openDayRecapOnDayChange,
     );
 
-    const processedNodes = useMemo(() => {
-        const selectedNodes = [
-            viewStore.selectedNode?.id,
-            viewStore.selectedEdge?.source,
-            viewStore.selectedEdge?.target,
-        ].filter((s) => s !== undefined && s !== null);
+    // Audio Store
+    const changeBGM = useAudioStore((state) => state.changeBGM);
+    const setSiteBgmKey = useAudioStore((state) => state.setSiteBgmKey);
 
-        return generateRenderableNodes(
-            chapterData,
-            dayData,
-            viewStore.chapter,
-            viewStore.day,
-            viewStore.teamVisibility,
-            viewStore.characterVisibility,
-            selectedNodes,
-            viewStore.currentCard,
-        );
+    // Music Player Store
+    const isMusicPlayerPlaying = useMusicPlayerStore(
+        (state) => state.isPlaying,
+    );
+
+    // Main App Store
+    const chapter = useViewStore((state) => state.data.chapter);
+    const day = useViewStore((state) => state.data.day);
+    const setDay = useViewStore((state) => state.data.setDay);
+    const setChapter = useViewStore((state) => state.data.setChapter);
+
+    const currentCard = useViewStore((state) => state.ui.currentCard);
+    const openNodeCard = useViewStore((state) => state.ui.openNodeCard);
+    const openEdgeCard = useViewStore((state) => state.ui.openEdgeCard);
+    const openSettingsCard = useViewStore((state) => state.ui.openSettingsCard);
+    const closeCard = useViewStore((state) => state.ui.closeCard);
+    const selectedElement = useViewStore((state) => state.ui.selectedElement);
+    const selectElement = useViewStore((state) => state.ui.selectElement);
+    const deselectElement = useViewStore((state) => state.ui.deselectElement);
+
+    const showOnlyNewEdges = useViewStore(
+        (state) => state.visibility.showOnlyNewEdges,
+    );
+    const setShowOnlyNewEdges = useViewStore(
+        (state) => state.visibility.setShowOnlyNewEdges,
+    );
+    const relationshipVisibility = useViewStore(
+        (state) => state.visibility.relationship,
+    );
+    const toggleRelationship = useViewStore(
+        (state) => state.visibility.toggleRelationship,
+    );
+    const toggleAllRelationships = useViewStore(
+        (state) => state.visibility.toggleAllRelationships,
+    );
+    const setRelationshipKeys = useViewStore(
+        (state) => state.visibility.setRelationshipKeys,
+    );
+    const team = useViewStore((state) => state.visibility.team);
+    const toggleTeam = useViewStore((state) => state.visibility.toggleTeam);
+    const toggleAllTeams = useViewStore(
+        (state) => state.visibility.toggleAllTeams,
+    );
+    const setTeamKeys = useViewStore((state) => state.visibility.setTeamKeys);
+    const character = useViewStore((state) => state.visibility.character);
+    const toggleCharacter = useViewStore(
+        (state) => state.visibility.toggleCharacter,
+    );
+    const toggleAllCharacters = useViewStore(
+        (state) => state.visibility.toggleAllCharacters,
+    );
+    const setCharacterKeys = useViewStore(
+        (state) => state.visibility.setCharacterKeys,
+    );
+    const openModal = useViewStore((state) => state.modal.openModal);
+    const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
+    const openSettingsModal = useViewStore(
+        (state) => state.modal.openSettingsModal,
+    );
+    const openMinigameModal = useViewStore(
+        (state) => state.modal.openMinigameModal,
+    );
+    const openChapterRecapModal = useViewStore(
+        (state) => state.modal.openChapterRecapModal,
+    );
+    const openFanartModal = useViewStore(
+        (state) => state.modal.openFanartModal,
+    );
+    const openMusicPlayerModal = useViewStore(
+        (state) => state.modal.openMusicPlayerModal,
+    );
+    const openReadCounterModal = useViewStore(
+        (state) => state.modal.openReadCounterModal,
+    );
+    const closeModal = useViewStore((state) => state.modal.closeModal);
+    const videoUrl = useViewStore((state) => state.modal.videoUrl);
+
+    // Persisted Store
+    const readStatus = usePersistedViewStore(
+        (state) => state.readStatus,
+    );
+    // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
+    const readCount = countReadElements(readStatus, chapter, day);
+
+    const hasVisitedBefore = usePersistedViewStore(
+        (state) => state.hasVisitedBefore,
+    );
+    const setHasVisitedBefore = usePersistedViewStore(
+        (state) => state.setHasVisitedBefore,
+    );
+
+    /* State variables */
+    const [chartShrink, setChartShrink] = useState(0);
+    const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
+
+    /* Data variables */
+    const chapterData = siteData.chapters[chapter];
+    const dayData = chapterData.charts[day];
+
+    /* Build initial nodes/edges by combining data from previous days. */
+    const resolvedData = useMemo(() => {
+        return resolveDataForDay(chapterData.charts, day);
+    }, [chapterData.charts, day]);
+
+    /* Set additional properties for nodes. */
+    const completeNodes = useMemo(() => {
+        return produce(resolvedData.nodes, (draft) => {
+            for (const node of draft) {
+                node.hidden = !(
+                    team[node.data.teamId || "null"] && character[node.id]
+                );
+
+                if (selectedElement) {
+                    if (isNode(selectedElement)) {
+                        node.selected =
+                            node.id === (selectedElement as ImageNodeType).id;
+                    } else if (isEdge(selectedElement)) {
+                        const selectedEdge = selectedElement as FixedEdgeType;
+                        node.selected =
+                            node.id === selectedEdge.target ||
+                            node.id === selectedEdge.source;
+                    }
+                }
+            }
+        });
     }, [
-        viewStore.selectedNode?.id,
-        viewStore.selectedEdge?.source,
-        viewStore.selectedEdge?.target,
-        viewStore.chapter,
-        viewStore.day,
-        viewStore.teamVisibility,
-        viewStore.characterVisibility,
-        viewStore.currentCard,
-        chapterData,
-        dayData,
+        resolvedData.nodes,
+        team,
+        character,
+        selectedElement,
     ]);
 
-    const processedEdges = useMemo(() => {
-        return generateRenderableEdges(
-            chapterData,
-            dayData,
-            viewStore.chapter,
-            viewStore.day,
-            viewStore.teamVisibility,
-            viewStore.characterVisibility,
-            viewStore.edgeVisibility,
-            processedNodes,
-            viewStore.selectedEdge,
-            viewStore.currentCard,
-        );
+    /* Set additional properties for edges. */
+    const completeEdges = useMemo(() => {
+        return produce(resolvedData.edges, (draft) => {
+            for (const edge of draft) {
+                const sourceNode = resolvedData.nodes.find(
+                    (n) => n.id === edge.source,
+                );
+                const targetNode = resolvedData.nodes.find(
+                    (n) => n.id === edge.target,
+                );
+
+                const edgesNodesAreVisible =
+                    sourceNode !== undefined &&
+                    targetNode !== undefined &&
+                    (character[sourceNode.id] ?? false) &&
+                    (character[targetNode.id] ?? false) &&
+                    (team[sourceNode.data.teamId] ?? false) &&
+                    (team[targetNode.data.teamId] ?? false);
+
+                edge.hidden = !(
+                    edgesNodesAreVisible &&
+                    edge.data !== undefined &&
+                    relationshipVisibility[edge.data.relationshipId]
+                );
+
+                if (selectedElement && isEdge(selectedElement)) {
+                    const selectedEdge = selectedElement as FixedEdgeType;
+                    edge.selected = edge.id === selectedEdge.id;
+                }
+
+                edge.selectable =
+                    (showOnlyNewEdges &&
+                        edge.data !== undefined &&
+                        edge.data.day === day) ||
+                    !showOnlyNewEdges;
+            }
+        });
     }, [
-        chapterData,
-        viewStore.chapter,
-        viewStore.day,
-        viewStore.teamVisibility,
-        viewStore.characterVisibility,
-        viewStore.edgeVisibility,
-        viewStore.selectedEdge,
-        viewStore.currentCard,
-        processedNodes,
-        dayData,
+        resolvedData.edges,
+        resolvedData.nodes,
+        character,
+        team,
+        relationshipVisibility,
+        showOnlyNewEdges,
+        selectedElement,
+        day
     ]);
-
-    // Update processed edges' read status
-    processedEdges.forEach((edge) => {
-        if (edge.data && typeof window !== "undefined") {
-            const status = localStorage.getItem(
-                idFromChapterDayId(viewStore.chapter, viewStore.day, edge.id),
-            );
-            edge.data.isRead = status === "read";
-        }
-    });
-
-    // Memoize the entire dayData with processed nodes and edges
-    const memoizedDayData = useMemo(() => {
-        return {
-            ...dayData,
-            nodes: processedNodes,
-            edges: processedEdges,
-        };
-    }, [dayData, processedNodes, processedEdges]);
 
     /* Helper function to coordinate state updates when data changes. */
-    function updateData(newChapter: number, newDay: number) {
+    function changeWorkingData(newChapter: number, newDay: number) {
         if (
             newChapter < 0 ||
             newChapter > siteData.numberOfChapters ||
             newDay < 0 ||
-            newDay > siteData.chapters[viewStore.chapter].numberOfDays
+            newDay > siteData.chapters[chapter].numberOfDays
         ) {
             return;
         }
 
         const newChapterData = siteData.chapters[newChapter];
-        const newDayData = mergeChartsIntoCurrentDay(
-            newChapterData.charts,
-            newDay,
-        );
+        const newDayData = resolveDataForDay(newChapterData.charts, newDay);
 
-        // Rest edge/team/character visibility on data change.
-        // Setting the visibility of edges, teams and characters
-        const edgeVisibilityLoaded: { [key: string]: boolean } = {};
-        const teamVisibilityLoaded: { [key: string]: boolean } = {};
-        const characterVisibilityLoaded: { [key: string]: boolean } = {};
+        if (selectedElement) {
+            if (isNode(selectedElement)) {
+                const selectedNode = selectedElement as ImageNodeType;
 
-        // To avoid overwriting current visibility for "new"
-        edgeVisibilityLoaded["new"] = edgeVisibilityLoaded["new"] || true;
+                const newSelectedNode = newDayData.nodes.find(
+                    (n) => n.id === selectedNode.id,
+                );
 
-        Object.keys(newChapterData.relationships).forEach((key) => {
-            edgeVisibilityLoaded[key] = true;
-        });
+                if (newSelectedNode) {
+                    newSelectedNode.selected = true;
+                    selectElement(newSelectedNode);
+                } else {
+                    deselectElement();
+                }
+            } else if (isEdge(selectedElement)) {
+                const selectedEdge = selectedElement as FixedEdgeType;
+                const newSelectedEdge = newDayData.edges.find(
+                    (e) => e.id === selectedEdge.id,
+                );
 
-        Object.keys(newChapterData.teams).forEach((key) => {
-            teamVisibilityLoaded[key] = true;
-        });
+                if (newSelectedEdge) {
+                    newSelectedEdge.selected = true;
+                    const sourceNode = dayData.nodes.find(
+                        (n) => n.id === newSelectedEdge.source,
+                    );
+                    if (sourceNode) {
+                        sourceNode.selected = true;
+                    }
 
-        newDayData.nodes.forEach(
-            (node) => (characterVisibilityLoaded[node.id] = true),
-        );
-        audioStore.changeBGM(newChapterData.bgmSrc);
-        viewStore.setEdgeVisibility(edgeVisibilityLoaded);
-        viewStore.setTeamVisibility(teamVisibilityLoaded);
-        viewStore.setCharacterVisibility(characterVisibilityLoaded);
-        viewStore.setChapter(newChapter);
-        viewStore.setDay(newDay);
+                    const targetNode = dayData.nodes.find(
+                        (n) => n.id === newSelectedEdge.target,
+                    );
+                    if (targetNode) {
+                        targetNode.selected = true;
+                    }
+
+                    selectElement(newSelectedEdge);
+                } else {
+                    deselectElement();
+                }
+            }
+        }
+
+        // Reset edge/team/character visibility on data change.
+        setRelationshipKeys(newChapterData.relationships);
+        setTeamKeys(newChapterData.teams);
+        setCharacterKeys(newDayData.nodes);
+
+        if (!isMusicPlayerPlaying) {
+            changeBGM(newChapterData.bgmSrc);
+        }
+        setSiteBgmKey(newChapterData.bgmSrc);
+        setChapter(newChapter);
+        setDay(newDay);
         setBrowserHash(`${newChapter}/${newDay}`);
-
-        if (viewStore.selectedNode) {
-            viewStore.setSelectedNode(
-                newDayData.nodes.find(
-                    (node) => node.id === viewStore.selectedNode!.id,
-                )!,
-            );
-        }
-
-        if (viewStore.selectedEdge) {
-            viewStore.setSelectedEdge(
-                newDayData.edges.find(
-                    (edge) => edge.id === viewStore.selectedEdge!.id,
-                )!,
-            );
-        }
     }
 
     /* Event handler functions */
@@ -338,112 +348,79 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
                 day < 0 ||
-                day >= siteData.chapters[viewStore.chapter].numberOfDays
+                day >= siteData.chapters[chapter].numberOfDays
             ) {
                 setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
-                updateData(siteData.numberOfChapters - 1, 0);
+                changeWorkingData(siteData.numberOfChapters - 1, 0);
                 return;
             }
-            updateData(chapter, day);
+            changeWorkingData(chapter, day);
         } else {
             setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
-            updateData(siteData.numberOfChapters - 1, 0);
+            changeWorkingData(siteData.numberOfChapters - 1, 0);
         }
     }
 
-    // Update react flow renderer width when setting card is open, so the flow is not covered by the card
-    const onCurrentCardChange = useCallback(
-        (newCurrentCard: CardType) => {
-            // Only reset the chart shrink when all cards are closed
-            if (newCurrentCard === null) {
-                viewStore.setSelectedNode(null);
-                viewStore.setSelectedEdge(null);
-                setChartShrink(0);
-            }
-            if (newCurrentCard === "setting" || newCurrentCard === null) {
-                viewStore.setSelectedNode(null);
-                viewStore.setSelectedEdge(null);
-                setFitViewOperation("fit-to-all");
-            } else if (newCurrentCard === "node") {
-                viewStore.setSelectedEdge(null);
-                setFitViewOperation("fit-to-node");
-            } else if (newCurrentCard === "edge") {
-                viewStore.setSelectedNode(null);
-                setFitViewOperation("fit-to-edge");
-            }
-            setPreviousCard(viewStore.currentCard);
-            viewStore.setCurrentCard(newCurrentCard);
+    const onCardClose = useCallback(() => {
+        deselectElement();
+        closeCard();
+        setChartShrink(0);
+    }, [closeCard, deselectElement]);
 
-            // Skip fitting the view if we are opening a new card; we will re-fit when setChartShrinkAndFit
-            // is called.
-            if (
-                viewStore.currentCard !== null ||
-                newCurrentCard === null ||
-                isMobileViewport()
-            ) {
-                setDoFitView(!doFitView);
-            }
-        },
-        [doFitView, viewStore],
-    );
-
-    const onCardClose = useCallback(
-        function () {
-            onCurrentCardChange(null);
-        },
-        [onCurrentCardChange],
-    );
-
-    // Then when the user closes the modal, open the day recap card
-    // Only doing this for first visit
-    useEffect(() => {
-        if (firstVisit && !viewStore.infoModalOpen) {
-            viewStore.setInfoModalOpen(false);
-            onCurrentCardChange("setting");
-            setFirstVisit(false);
-            localStorage.setItem(LS_HAS_VISITED, "true");
-        }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [viewStore.infoModalOpen, firstVisit, onCurrentCardChange]);
+    const onSettingsCardOpen = useCallback(() => {
+        deselectElement();
+        openSettingsCard();
+    }, [deselectElement, openSettingsCard]);
 
     const onNodeClick = useCallback(
-        function (node: ImageNodeType) {
-            onCurrentCardChange("node");
-            viewStore.setSelectedNode(node);
-            viewStore.setSelectedEdge(null);
+        (node: ImageNodeType) => {
+            selectElement(node);
+            openNodeCard();
         },
-        [onCurrentCardChange, viewStore],
+        [openNodeCard, selectElement],
     );
 
     const onEdgeClick = useCallback(
-        function (edge: FixedEdgeType) {
-            onCurrentCardChange("edge");
-            viewStore.setSelectedEdge(edge);
-            viewStore.setSelectedNode(null);
+        (edge: FixedEdgeType) => {
+            selectElement(edge);
+            openEdgeCard();
         },
-        [onCurrentCardChange, viewStore],
-    );
-
-    const onPaneClick = useCallback(
-        function () {
-            onCurrentCardChange(null);
-            viewStore.setSelectedNode(null);
-            viewStore.setSelectedEdge(null);
-        },
-        [onCurrentCardChange, viewStore],
+        [openEdgeCard, selectElement],
     );
 
     const setChartShrinkAndFit = useCallback(
-        function (width: number) {
+        (width: number) => {
             if (width !== chartShrink) {
                 setTimeout(() => {
                     setChartShrink(width);
-                    setDoFitView(!doFitView);
                 }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
             }
         },
-        [chartShrink, doFitView],
+        [chartShrink],
     );
+
+    /* Memotized values for CurrentChapterDataContext and CurrentDayDataContext. */
+    const currentChapterContextValue = useMemo(
+        () => ({
+            teams: chapterData.teams,
+            relationships: chapterData.relationships,
+        }),
+        [chapterData.relationships, chapterData.teams],
+    );
+
+    const currentDayContextValue = useMemo(
+        () => ({
+            nodes: resolvedData.nodes,
+            edges: resolvedData.edges,
+        }),
+        [resolvedData.edges, resolvedData.nodes],
+    );
+
+    useEffect(() => {
+        if (!hasVisitedBefore && !isInLoadingScreen) {
+            openInfoModal();
+        }
+    });
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -451,191 +428,228 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
         onBrowserHashChange(browserHash);
     }
 
-    const selectedNodeTeam =
-        viewStore.selectedNode && viewStore.selectedNode.data.teamId
-            ? chapterData.teams[viewStore.selectedNode.data.teamId]
-            : null;
-    const selectedEdgeRelationship =
-        viewStore.selectedEdge && viewStore.selectedEdge.data?.relationshipId
-            ? chapterData.relationships[
-                  viewStore.selectedEdge.data?.relationshipId
-              ]
-            : null;
-
-    let bgImage = chapterData.bgiSrc;
-    if (useDarkMode) {
-        bgImage = chapterData.bgiSrc.replace(".webp", "-dark.webp");
+    let selectedNodeTeam = null;
+    let selectedEdgeRelationship = null;
+    let selectedNode = null;
+    let selectedEdge = null;
+    if (selectedElement) {
+        if (isNode(selectedElement)) {
+            selectedNode = selectedElement as ImageNodeType;
+            selectedNodeTeam = chapterData.teams[selectedNode.data.teamId];
+        } else if (isEdge(selectedElement)) {
+            selectedEdge = selectedElement as FixedEdgeType;
+            const selectedEdgeRelationshipKey =
+                selectedEdge.data?.relationshipId;
+            selectedEdgeRelationship = selectedEdgeRelationshipKey
+                ? chapterData.relationships[selectedEdgeRelationshipKey]
+                : null;
+        }
     }
+
+    const totalCount = useMemo(
+        () =>
+            resolvedData.nodes.filter((node) => node.data.day === day).length +
+            resolvedData.edges.filter((edge) => edge.data?.day === day).length,
+        [resolvedData.nodes, resolvedData.edges, day],
+    );
 
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                <ViewChart
-                    nodes={memoizedDayData.nodes}
-                    edges={memoizedDayData.edges}
-                    edgeVisibility={viewStore.edgeVisibility}
-                    selectedNode={viewStore.selectedNode}
-                    selectedEdge={viewStore.selectedEdge}
-                    widthToShrink={chartShrink}
-                    isCardOpen={viewStore.currentCard !== null}
-                    doFitView={doFitView}
-                    fitViewOperation={fitViewOperation}
-                    onNodeClick={onNodeClick}
-                    onEdgeClick={onEdgeClick}
-                    onPaneClick={onPaneClick}
-                    day={viewStore.day}
-                    currentCard={viewStore.currentCard}
-                    previousCard={previousCard}
-                />
-                <div
-                    className={cn(
-                        "absolute top-0 left-0 w-screen h-full -z-10",
-                        {
-                            "brightness-90 dark:brightness-70":
-                                viewStore.currentCard !== null,
-                            "brightness-100": viewStore.currentCard === null,
-                        },
-                    )}
-                    style={{
-                        backgroundImage: `url('${bgImage}')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s, background-image 0.3s",
-                    }}
-                />
-
-                <CurrentChartDataContext
-                    value={{
-                        nodes: memoizedDayData.nodes,
-                        edges: memoizedDayData.edges,
-                    }}
-                >
-                    <ViewSettingCard
-                        isCardOpen={viewStore.currentCard === "setting"}
-                        onCardClose={onCardClose}
-                        dayData={memoizedDayData}
-                        edgeVisibility={viewStore.edgeVisibility}
-                        onEdgeVisibilityChange={viewStore.setEdgeVisibility}
-                        teamVisibility={viewStore.teamVisibility}
-                        onTeamVisibilityChange={viewStore.setTeamVisibility}
-                        characterVisibility={viewStore.characterVisibility}
-                        onCharacterVisibilityChange={
-                            viewStore.setCharacterVisibility
-                        }
-                        chapter={viewStore.chapter}
-                        chapterData={chapterData}
-                        setChartShrink={setChartShrinkAndFit}
-                        day={viewStore.day}
-                        onDayChange={(newDay) => {
-                            viewStore.setPreviousSelectedDay(viewStore.day);
-                            updateData(viewStore.chapter, newDay);
+                <CurrentChapterDataContext value={currentChapterContextValue}>
+                    <ViewChart
+                        nodes={completeNodes}
+                        edges={completeEdges}
+                        selectedElement={selectedElement}
+                        widthToShrink={chartShrink}
+                        currentCard={currentCard}
+                        onNodeClick={onNodeClick}
+                        onEdgeClick={onEdgeClick}
+                        onPaneClick={onCardClose}
+                    />
+                    <div
+                        className={cn(
+                            "absolute top-0 left-0 w-screen h-full -z-10",
+                            {
+                                "brightness-90 dark:brightness-70":
+                                    currentCard !== null,
+                                "brightness-100": currentCard === null,
+                            },
+                        )}
+                        style={{
+                            backgroundImage: `url('${bgImage}')`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            transition:
+                                "brightness 0.5s, background-image 0.3s",
                         }}
                     />
 
-                    <ViewNodeCard
-                        isCardOpen={viewStore.currentCard === "node"}
-                        selectedNode={viewStore.selectedNode}
-                        onCardClose={onCardClose}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
-                        nodeTeam={selectedNodeTeam}
-                        chapter={viewStore.chapter}
-                        setChartShrink={setChartShrinkAndFit}
-                        onDayChange={(newDay) => {
-                            viewStore.setPreviousSelectedDay(viewStore.day);
-                            updateData(viewStore.chapter, newDay);
-                        }}
-                        availiableNodes={
-                            viewStore.selectedNode
-                                ? getAllNodesOfIdFromChapter(
-                                      viewStore.selectedNode.id,
-                                      chapterData,
-                                  )
-                                : []
-                        }
-                    />
+                    <CurrentDayDataContext value={currentDayContextValue}>
+                        <ViewDayRecapCard
+                            isCardOpen={currentCard === "setting"}
+                            onCardClose={onCardClose}
+                            dayRecap={dayData.dayRecap}
+                            nodes={completeNodes}
+                            relationshipVisibility={relationshipVisibility}
+                            toggleRelationshipVisible={toggleRelationship}
+                            toggleAllRelationshipVisible={
+                                toggleAllRelationships
+                            }
+                            showOnlyNewEdges={showOnlyNewEdges}
+                            setShowOnlyNewEdges={setShowOnlyNewEdges}
+                            teamVisibility={team}
+                            toggleTeamVisible={toggleTeam}
+                            toggleAllTeamsVisible={toggleAllTeams}
+                            characterVisibility={character}
+                            toggleCharacterVisible={toggleCharacter}
+                            toggleAllCharactersVisible={toggleAllCharacters}
+                            chapter={chapter}
+                            chapterData={chapterData}
+                            setChartShrink={setChartShrinkAndFit}
+                            day={day}
+                            onDayChange={(newDay) => {
+                                changeWorkingData(chapter, newDay);
+                            }}
+                        />
 
-                    <ViewEdgeCard
-                        isCardOpen={viewStore.currentCard === "edge"}
-                        selectedEdge={viewStore.selectedEdge}
-                        onCardClose={onCardClose}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
-                        edgeRelationship={selectedEdgeRelationship}
-                        chapter={viewStore.chapter}
-                        setChartShrink={setChartShrinkAndFit}
-                        availiableEdges={
-                            viewStore.selectedEdge
-                                ? getAllEdgesOfIdFromChapter(
-                                      viewStore.selectedEdge.id,
-                                      chapterData,
-                                  )
-                                : []
-                        }
-                        onDayChange={(newDay) => {
-                            viewStore.setPreviousSelectedDay(viewStore.day);
-                            updateData(viewStore.chapter, newDay);
-                        }}
-                    />
-                </CurrentChartDataContext>
+                        <ViewNodeCard
+                            isCardOpen={currentCard === "node"}
+                            selectedNode={selectedNode}
+                            nodeTeam={selectedNodeTeam}
+                            charts={chapterData.charts}
+                            chapter={chapter}
+                            day={day}
+                            onCardClose={onCardClose}
+                            onNodeLinkClicked={onNodeClick}
+                            onEdgeLinkClicked={onEdgeClick}
+                            onDayChange={(newDay) => {
+                                changeWorkingData(chapter, newDay);
+                            }}
+                            setChartShrink={setChartShrinkAndFit}
+                        />
+
+                        <ViewEdgeCard
+                            isCardOpen={currentCard === "edge"}
+                            selectedEdge={selectedEdge}
+                            edgeRelationship={selectedEdgeRelationship}
+                            charts={chapterData.charts}
+                            chapter={chapter}
+                            day={day}
+                            onCardClose={onCardClose}
+                            onNodeLinkClicked={onNodeClick}
+                            onEdgeLinkClicked={onEdgeClick}
+                            onDayChange={(newDay) => {
+                                changeWorkingData(chapter, newDay);
+                            }}
+                            setChartShrink={setChartShrinkAndFit}
+                        />
+                    </CurrentDayDataContext>
+                </CurrentChapterDataContext>
             </div>
 
             <ViewInfoModal
-                open={viewStore.infoModalOpen}
-                onOpenChange={viewStore.setInfoModalOpen}
+                open={openModal === "info"}
+                onClose={() => {
+                    if (!hasVisitedBefore) {
+                        setHasVisitedBefore(true);
+                        closeModal();
+                        onSettingsCardOpen();
+                    } else {
+                        closeModal();
+                    }
+                }}
             />
 
             <ViewSettingsModal
-                open={viewStore.settingsModalOpen}
-                onOpenChange={viewStore.setSettingsModalOpen}
+                open={openModal === "settings"}
+                onClose={closeModal}
             />
 
             <ViewMiniGameModal
-                open={viewStore.minigameModalOpen}
-                onOpenChange={viewStore.setMinigameModalOpen}
+                open={openModal === "minigame"}
+                onClose={closeModal}
             />
 
             <ViewVideoModal
-                open={viewStore.videoModalOpen}
-                onOpenChange={viewStore.setVideoModalOpen}
-                videoUrl={viewStore.videoUrl}
+                open={openModal === "video"}
+                onClose={closeModal}
+                videoUrl={videoUrl}
                 bgImage={bgImage}
             />
 
             <ViewChapterRecapModal
-                key={`chapter-recap-modal-${viewStore.chapter}`}
-                open={viewStore.chapterRecapModalOpen}
-                onOpenChange={viewStore.setChapterRecapModalOpen}
-                currentChapter={viewStore.chapter}
+                key={`chapter-recap-modal-${chapter}`}
+                open={openModal === "chapterRecap"}
+                onClose={closeModal}
+                currentChapter={chapter}
             />
+
+            {/* Moving this out of the counter modal in order to synchronize it with the other modals */}
+            <button
+                className={cn(
+                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
+                    {
+                        invisible: currentCard !== null,
+                        visible: currentCard === null,
+                    },
+                )}
+                onClick={openReadCounterModal}
+            >
+                {readCount}/{totalCount} Read
+            </button>
+
             <ViewReadCounter
-                day={viewStore.day}
-                chapter={viewStore.chapter}
-                chartData={memoizedDayData}
-                hidden={viewStore.currentCard !== null}
+                open={openModal === "read-counter"}
+                onClose={closeModal}
+                day={day}
+                chapter={chapter}
+                nodes={resolvedData.nodes}
+                edges={resolvedData.edges}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
+            <ViewMusicPlayerModal
+                open={openModal === "music"}
+                onClose={closeModal}
+            />
+            <ViewFanartModal
+                open={openModal === "fanart"}
+                onClose={closeModal}
+                chapter={chapter}
+                day={day}
+                initialCharacters={(() => {
+                    if (currentCard === "edge" && selectedEdge) {
+                        const { source, target } = selectedEdge;
+                        return [source, target];
+                    } else if (currentCard === "node" && selectedNode) {
+                        return [selectedNode.id];
+                    }
+                    return undefined;
+                })()}
+            />
 
-            <div className="fixed top-0 right-0 m-2 z-10 flex flex-col gap-2">
+            <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
                     id="chart-info-btn"
-                    className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110"
-                    tooltipText="Chart Info / Visibility"
+                    className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
+                    tooltipText="Day Recap / Visibility"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() =>
-                        onCurrentCardChange(
-                            viewStore.currentCard === "setting"
-                                ? null
-                                : "setting",
-                        )
-                    }
+                    onClick={() => {
+                        if (currentCard === "setting") {
+                            onCardClose();
+                        } else {
+                            onSettingsCardOpen();
+                        }
+                    }}
                 >
-                    <img
-                        src="images-opt/emblem.webp"
+                    <Image
+                        src="images-opt/emblem-opt.webp"
                         className="w-full h-full"
+                        fill
+                        alt="Chart Info / Visibility"
                     />
                 </IconButton>
 
@@ -645,7 +659,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Info"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setInfoModalOpen(true)}
+                    onClick={openInfoModal}
                 >
                     <Info />
                 </IconButton>
@@ -656,7 +670,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Settings"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setSettingsModalOpen(true)}
+                    onClick={openSettingsModal}
                 >
                     <Settings />
                 </IconButton>
@@ -667,7 +681,7 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                     tooltipText="Minigames"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setMinigameModalOpen(true)}
+                    onClick={openMinigameModal}
                 >
                     <Dice6 />
                 </IconButton>
@@ -675,45 +689,67 @@ const ViewApp = ({ siteData, useDarkMode, isInLoadingScreen }: Props) => {
                 <IconButton
                     id="chapter-recap-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Chapter Recap"
+                    tooltipText="Chatper Recap"
                     enabled={true}
                     tooltipSide="left"
-                    onClick={() => viewStore.setChapterRecapModalOpen(true)}
+                    onClick={openChapterRecapModal}
                 >
                     <Book />
+                </IconButton>
+
+                <IconButton
+                    id="jukebox-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Jukebox"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={openMusicPlayerModal}
+                >
+                    <Disc3 />
+                </IconButton>
+
+                <IconButton
+                    id="gallery-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText="Libestal Gallery"
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={openFanartModal}
+                >
+                    <Palette />
                 </IconButton>
             </div>
 
             <div
                 className={cn(
-                    "z-50 fixed inset-x-0 bottom-0 mb-2 px-2 md:p-0 ",
+                    "z-50 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0 ",
                     {
-                        "w-[60%] lg:block hidden":
-                            viewStore.currentCard === "setting",
+                        "w-[60%] lg:block hidden": currentCard === "setting",
                         "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            viewStore.currentCard !== "setting",
+                            currentCard === null,
+                        hidden:
+                            currentCard !== null && currentCard !== "setting",
                     },
                 )}
             >
                 <ViewTransportControls
-                    chapter={viewStore.chapter}
+                    isAnyModalOpen={openModal !== null}
+                    chapter={chapter}
                     chapterData={siteData.chapters}
-                    day={viewStore.day}
+                    day={day}
                     numberOfChapters={siteData.numberOfChapters}
                     numberOfDays={chapterData.numberOfDays}
-                    currentCard={viewStore.currentCard}
+                    currentCard={currentCard}
                     onChapterChange={(newChapter) => {
-                        setFitViewOperation("fit-to-all");
-                        setDoFitView(!doFitView);
-                        updateData(newChapter, 0);
-                        viewStore.setPreviousSelectedDay(0);
+                        deselectElement();
+                        closeCard();
+                        changeWorkingData(newChapter, 0);
                     }}
                     onDayChange={(newDay) => {
-                        viewStore.setPreviousSelectedDay(viewStore.day);
-                        if (settingsStore.openDayRecapOnDayChange) {
-                            onCurrentCardChange("setting");
+                        if (openDayRecapOnDayChange) {
+                            onSettingsCardOpen();
                         }
-                        updateData(viewStore.chapter, newDay);
+                        changeWorkingData(chapter, newDay);
                     }}
                 />
             </div>

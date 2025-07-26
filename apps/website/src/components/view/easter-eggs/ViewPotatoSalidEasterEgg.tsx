@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const ViewPotatoSalidEasterEgg = () => {
     const audioStore = useAudioStore();
-    const isCurrentlyPotatoSalid = audioStore.currentBgmKey === "potato";
+    const isCurrentlyPotatoSalid = audioStore.currentBgmKey === "easter-potato";
     return (
         <div
             onClick={() => {
                 if (!isCurrentlyPotatoSalid) {
                     audioStore.playSFX("chicken-pop");
-                    audioStore.changeBGM("/audio/potato.mp3");
+                    audioStore.changeBGM("/audio/easter/easter-potato.mp3");
                 }
             }}
             className="absolute -bottom-12 right-2 h-[130px] overflow-hidden"
@@ -18,12 +18,13 @@ const ViewPotatoSalidEasterEgg = () => {
             <Image
                 width={100}
                 height={100}
-                src="images-opt/easter-gremliz.webp"
+                src="images-opt/easter-gremliz-opt.webp"
                 className={cn("mx-auto transition-opacity translate-y-[50%]", {
                     "cursor-pointer opacity-50 hover:opacity-100":
                         !isCurrentlyPotatoSalid,
                 })}
                 alt="potato salid"
+                priority={true}
             />
         </div>
     );

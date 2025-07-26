@@ -28,7 +28,7 @@ It was a powerful moment, and with his emotions heavy, Gonathon made his decisio
 
 [A Knight's Tale](#embed:https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=9754)
 
-[Read "A Knight's Tale"](#text:a-knights-tale)
+- [Read "A Knight's Tale"](#text:a-knights-tale)
 
 Later on, during the tournament, something peculiar happened.
 
@@ -38,12 +38,28 @@ At one point, Amelia remembered a diamond, but it was still too foggy. Her head 
 
 ## Fanart
 
-[A Knight's Tale by Raff Yasushi](https://x.com/raffanda_/status/1832103922015822089)
+["A Knight's Tale" by Raff Yasushi](https://x.com/raffanda_/status/1832103922015822089)
 
-[Gonathon G! by yomosaka](https://x.com/yomosaka/status/1832146121898221666)
+["Gonathon G!" by yomosaka](https://x.com/yomosaka/status/1832146121898221666)
 
 ["Memories" by SirTro](https://x.com/sir_tro/status/1832092670191349947)
 
 ["A Knight's Tale illustrated" by Namii](https://x.com/NAMIORII/status/1832844940021514601)
 
 ["Welcome back, Myth" by nekotj](https://x.com/NekoNyanTJ/status/1832093407843672251)
+
+<!-- calli, gura, ina, kiara -->
+
+["And you are...?" by wishbone777](https://x.com/wishbone777/status/1832198108052382174)
+
+["On the way to a Smile" by advarcher](https://x.com/Anonamos_701/status/1832193120387395757)
+
+["where is my diamond...?" by wishbone777](https://x.com/wishbone777/status/1833889675456786595)
+
+["A distant memory" by Hyoweii](https://x.com/weiiyxn/status/1832322835596927349)
+
+## Memes
+
+["Im broken..." by Amelia's simp](https://x.com/Amelias_Simp/status/1831917021833077059)
+
+["Love sacrifices all things to bless the thing it loves" by MakeShift](https://x.com/ImpromptuWriter/status/1832535016154501268)

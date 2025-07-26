@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 Fauna began her day with fantastic news: Nerissa, her reliable employee (and also the one who had initially landed her business in trouble), had resolved the Mococo lawsuit [fiasco](https://www.youtube.com/live/j4AxXzluEWE?feature=shared&t=88). A heavy burden was lifted off her shoulders, leaving her free to focus on her primary objective: building her dream library.
 
 Her vision for the library was clear. It would follow the theme of the Scarlet Wand, radiating elegance and mystique. Inspired by the impressive buildings in the kingdom—especially the monumental Tam Gandr statue Gonathon was constructing—Fauna decided to relocate her library to a more central and grand location. She wanted it to be a hub for knowledge and creativity, a place that stood out in the bustling kingdom.

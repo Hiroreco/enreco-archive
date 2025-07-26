@@ -4,7 +4,7 @@ Every anime worth its salt (or not) must have an episode where the heroes we hol
 
 For Roa, that not-so-beach day is today!
 
-Most of her day revolved around the Red Knight as Roa constantly sought her out for ['dates'](https://www.youtube.com/live/E-LGNO7JdO4?si=Vbk-LL3ZgXoCA7FR&t=752), trying to catch Elizabeth's interest.
+Most of her day revolved around the Scarlet Knight as Roa constantly sought her out for ['dates'](https://www.youtube.com/live/E-LGNO7JdO4?si=Vbk-LL3ZgXoCA7FR&t=752), trying to catch Elizabeth's interest.
 
 Lady Bloodflame herself seemed to be the dense protagonist, wondering why Roa was upset at times and not realizing the CEO's more than platonic intent.
 
@@ -32,7 +32,7 @@ But through her pain and Bijou's busy phone, Roa planned to bring Elizabeth here
 
 In another turn of clichéd events, Elizabeth was suddenly nearby. Worried about how Roa had suddenly left, Elizabeth informed Roa that she put back the items in Nerissa's spot, and Roa immediately took the opportunity.
 
-[Charms for Her Red Knight](#embed:https://www.youtube.com/live/E-LGNO7JdO4?si=wfP3zWSaDRNYPG3F&t=8936)
+[Charms for Her Scarlet Knight](#embed:https://www.youtube.com/live/E-LGNO7JdO4?si=wfP3zWSaDRNYPG3F&t=8936)
 
 Three legendary charms for a legendary Knight. Roa apologized as well for running suddenly, which Elizabeth immediately said she understood. Roa told Elizabeth to remember her when she fights with her charms, that they would watch her in Roa's place. Touched, Elizabeth called Roa her shield... when the moment was ruined by the [music playing](https://www.youtube.com/live/E-LGNO7JdO4?si=DgHG-DiRuKREWsD8&t=9048).
 
@@ -59,3 +59,7 @@ Though she could not fully confess her feelings, perhaps if the tide remained ki
 [InvisiBiboo](https://youtu.be/E-LGNO7JdO4?t=10779)
 
 [Bonus: Biboo just REALLY LOVES **maps**](https://youtu.be/E-LGNO7JdO4?t=10896)
+
+## Fanart
+
+["please, be mine" by eli](https://x.com/Elisbian_/status/1930824900752838961)

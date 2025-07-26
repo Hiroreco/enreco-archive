@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Elizabeth Rose Bloodflame, once the mighty queen of the Bloodflame Kingdom, awoke in the fantastical kingdom of Libestal with no memory of her past life. Confusion was inevitable, but within her burned an unyielding fire—a deep sense of justice and a natural instinct to protect the weak.
 
 It was no surprise, then, that she was placed in the [Jade Sword](https://www.youtube.com/live/2qiX7084obE?si=wjA60_hrPgwaKHhO&t=3519), the guild known as the beacon of righteousness and loyalty.
@@ -21,3 +24,5 @@ By the end of the day, alongside Gonathon G and NinoIna—both members of Cerule
 ## Fanart
 
 ["Who were you, Lady Bloodflame?" by Eli](https://x.com/Elisbian_/status/1899423935571333292)
+
+["Defending the Kingdom" by LaZIK 1337](https://x.com/lazik_1337/status/1898490450949865975)

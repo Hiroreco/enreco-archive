@@ -28,3 +28,11 @@ Her heart knew no bounds. Her love, unshaken. And even if the world twisted, if 
 Because this was her love story.
 Because kindness was her power.
 Because she was Cecilia Immerkind.
+
+## Fanart
+
+["Chapter 2" by airoo](https://x.com/airoover/status/1931004326840836230)
+
+<!-- gigi, shiori, liz, nerissa -->
+
+["imagine that shes not dead for a second" by PERKIE](https://x.com/PerksJAZZBERI/status/1927895503024574728)

@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 Only minutes after waking up in the mysterious white box, the individual clad in orange proclaimed a new identity: _Gonathon with a G_, or simply Gonathon G, a knight with medieval flair, speaking in a manner that added a peculiar charm to the group's already chaotic dynamic. Like everyone else, they were completely clueless about the strange fantasy world they had been summoned to.
 
 [Gonathon with a G](#embed:https://www.youtube.com/live/y9KKa_k2VTU?si=wZsW1DBJimIdz-06&t=607)
@@ -16,4 +19,10 @@ Gonathon's first day wasn’t entirely marked by screams and tears. Many of the 
 
 Eventually, alongside Elizabeth Rose Bloodflame and NinoIna, he ventured into the _Underworld Dungeon_. Together, they recovered memories tied to [Mori Calliope](https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=12343), taking their first steps in unraveling the mysteries of their fragmented pasts.
 
+## Fanart
+
 ["The Humble Knight" by Hyoweii](https://x.com/weiiyxn/status/1902360036522991650)
+
+["The pain that Gonathon G carries" by Meyshi](https://x.com/Meyshi29/status/1833782799490601208)
+
+["The knight- Gonathon with the G" by Asashi](https://x.com/illust_asashi/status/1832805341958213738)

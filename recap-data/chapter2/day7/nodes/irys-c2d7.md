@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: In-bread -->
+
 Her abdomen hurt—again. Wait, didn’t we already go through this? The whole “I’m pregnant, but it’s just gas” fiasco? Yeah, we did. But apparently, that doesn’t mean it can’t happen again. This time, though, IRyS was _certain_. She believed, truly and deeply, that what she carried was no longer just air—but life. A living soul between her and her eternal consort.
 
 Her ever-supportive brother, of course, had already begun preparing. As any good sibling would.
@@ -10,7 +13,7 @@ IRyS was excited—not just for herself, but for her beloved, her eternal consor
 
 [Can't wait for the moment](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=1116)
 
-Still, even with this gas-baby situation looming, she had a world to save. Duty called. She joined the others in the final dungeon, taking on world-ending threats… but her mind stayed locked on [her stomach](https://www.youtube.com/live/os9TbwMUcbk?t=2354).
+Still, even with this gas-baby situation looming, she had a world to save. Duty called. She joined the others in the final dungeon, taking on world-ending threats... but her mind stayed locked on [her stomach](https://www.youtube.com/live/os9TbwMUcbk?t=2354).
 
 Once that small feat—saving the world—was accomplished, it was time for the real event.
 
@@ -38,7 +41,7 @@ IRyS was elated. Too elated. She went into labor right then and there.
 
 [Live birthing is crazy](#embed:https://www.youtube.com/live/os9TbwMUcbk?t=5739)
 
-Water broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except… she never saw the baby. Never held it. News came fast: Mococo had already _killed_ it. Somehow.
+Water broke. On to guests. Ew. Encouragements flew around the room: “Push! Push!” And then—pop. It was over. Except... she never saw the baby. Never held it. News came fast: Mococo had already _killed_ it. Somehow.
 
 IRyS didn’t even question it. She just felt relief, like passing the biggest gas she'd ever had.
 
@@ -51,3 +54,19 @@ She wrote it all down in her [journal](https://www.youtube.com/live/os9TbwMUcbk?
 IRyS would bring her back.
 
 No matter what it took.
+
+## Fanart
+
+["Devil Incarnate" by Hiro](https://x.com/hiroavrs/status/1945501544251875673)
+
+["HPO ate so much" by underdatv](https://x.com/underdatv/status/1921053079169912913)
+
+<!-- ina, kronii -->
+
+## Memes
+
+["The Most Evil Character in Fiction" by Antsy](https://x.com/antsy_af/status/1921049754114339102)
+
+["she's all of the above" by bambooz](https://x.com/_bambooz/status/1921705687010185267)
+
+<!-- bae, kronii -->

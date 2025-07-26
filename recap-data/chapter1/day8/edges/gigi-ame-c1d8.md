@@ -12,7 +12,7 @@ Whether this wish of his was genuine or just a fleeting moment of longing, he wo
 
 [A Knight's Wish](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=9475)
 
-[Read "A Knight's Wish"](#text:a-knights-wish)
+- [Read "A Knight's Wish"](#text:a-knights-wish)
 
 After the corruption had been vanquished, while helping others rebuild, Gonathon received an urgent call from Ina, requesting his presence immediately. When he arrived, he was met with a gut-wrenching sight—the Hot Pink One had deceived Amelia, twisting reality to make the detective believe she was wedded to her.
 
@@ -63,3 +63,19 @@ A story to be told for generations to come.
 ["Gonathon and Ame reunion" by ErasorPepero](https://x.com/erasopepero232/status/1832763779790323948)
 
 ["Huzzah for the good ending!" by Nagi](https://x.com/Nagi_Nyaaa/status/1832736395368321060)
+
+["Couple" by Adarin](https://x.com/AdarinSinner/status/1848429109103505750)
+
+["Let's hope for many huzzahs!" by Nagi](https://x.com/Nagi_Nyaaa/status/1832509636995649711)
+
+["Tales of the Humble Knight" by aWoooFa](https://x.com/Awooofa/status/1832887528569143750)
+
+["My diamond" by Daaku](https://x.com/koizumi_arata/status/1832692703676535254)
+
+["anime of the season" by planet drop](https://x.com/planetdropper/status/1835857705371570561)
+
+## Memes
+
+["all my homies hate the pink one" by Jake33wO](https://x.com/jake33w0/status/1832813698081014144)
+
+<!-- nerissa, liz, ina, shiori, irys, bijou, calli -->

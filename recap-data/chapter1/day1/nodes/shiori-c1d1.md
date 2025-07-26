@@ -1,3 +1,6 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 _Shiori_ woke up in the white box with no memories, full of questions: _Who’s this? What’s that? Where’s Waldo?_ As she wandered around, inspecting (and judging) the [others](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=97), she frequently conversed with the 'guardian angels' in her head, affectionately calling them _"Chat."_
 
 Every time she tried something new, she’d ask, _"Chat, am I cookin’?"_. She also faintly recalled an image of a truck heading toward her in a place called "New York," hinting at how she might have ended up here.
@@ -19,5 +22,7 @@ As her journey began, Shiori embarked on quests with her guildmates, spending mu
 Unlike the others, Shiori didn’t tackle the _Underworld Dungeon_ on the first day, as she had other matters to attend to. Left alone with her thoughts, she began to question everything. She didn’t believe the town was real, suspecting it was part of a complex scheme to keep her memoryless because she was "too dangerous." Shiori didn’t trust the King—or, as she put it, "this suspicious place." Her skepticism ran deep, and her unpredictable mind continued to wander as her journey unfolded.
 
 [Conspiracy theories](#embed:https://www.youtube.com/live/KSaC99K4IF8?t=5588)
+
+## Fanart
 
 ["The Archiver" by Higeji](https://x.com/higeji404/status/1901370626591605149)

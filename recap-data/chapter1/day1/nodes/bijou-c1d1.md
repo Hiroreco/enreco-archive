@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 There are many different ways a person may get transported to another world. They might get hit by a truck, get hit by a train, or basically get hit by any moving vehicle. While many heroes claimed to have arrived through these methods, _Koseki Bijou's_ tale stood out. She was crushed by a giant Moai statue, accompanied by multiple _vine boom sound effects_.
 
 [_Boom_](#embed:https://www.youtube.com/live/OTmQwttr1Aw?t=327)
@@ -28,4 +31,8 @@ Oh, and one more thing, wooden shovel.
 
 [Wooden shovel](#embed:https://www.youtube.com/live/Fr6yMByDTIs?t=7886)
 
+## Fanart
+
 ["Koseki Bijou" by Amano Ritsu](https://x.com/Amano_Ritsu827/status/1901978737610301805)
+
+["ner REAL NAME" by seapupu](https://x.com/seapupu290495/status/1830258392583242130)

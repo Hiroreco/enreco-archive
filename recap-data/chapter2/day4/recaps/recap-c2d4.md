@@ -6,7 +6,7 @@ Early in the day, our heroes zeroed in on the main objective: investigating the 
 
 Alongside that came a game-changing revelation about the mystery of the Outlander, flipping the narrative on its head and solidifying the heroes' purpose: save the world.
 
-![Our heroes against the Stain King: Chronos](/images-opt/chronos.webp)
+![Our heroes against the Stain King: Chronos](/images-opt/chronos-opt.webp)
 
 But let’s be real.
 
@@ -18,7 +18,7 @@ Gonathon with a G—a knight known for his humility, his generosity, his unwaver
 
 The knight in orange cooked up a love story so convoluted that most around him either gave up entirely or begged not to be involved. Those unlucky enough to be roped in—yes, even the queen he once served loyally—became collateral damage. Gonathon G? More like _onathon_, because no **G**irls would dare take this person's hands.
 
-![Moments before the "goat" fell off](/images-opt/goat.webp)
+![Moments before the "goat" fell off](/images-opt/goat-opt.webp)
 
 Yet, in the eye of the storm, peace still existed.
 

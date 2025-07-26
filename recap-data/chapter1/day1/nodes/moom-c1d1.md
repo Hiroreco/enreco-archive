@@ -1,6 +1,9 @@
+<!-- title: Cleopatra Eisenhower Da Vinci the Great III -->
+<!-- status: Alive -->
+
 _Mumei_ woke up in the white box, and just like everyone else, she... didn't lose her memories? Wait, hold on, something isn't right—let's fix that real quick. _[Bang](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=520)_. A swift head-to-table collision later. Whoa, what happened? Where am I? The maiden in brown's reaction upon waking up in the white box was the same as everyone else's: confused, dazed, and completely lost.
 
-It was very loud there; the noise from all the talking was overwhelming, but our subject, ever the quiet observer, simply wandered around, tossing out random [one-liners](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2327) at people. For some reason, though, she saved most of her jabs for _Peasant Da Bae_. No one knew why—probably not even herself.
+It was very loud there; the noise from all the talking was overwhelming, but our subject, ever the quiet observer, simply wandered around, tossing out random [one-liners](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2327) at people. For some reason, though, she saved most of her jabs for _Peasant The Bae_. No one knew why—probably not even herself.
 
 And as she wandered around, she saw how everyone was trying to break one particular block. Wanting to be helpful, the brown maiden came over to offer a hand. And then...
 
@@ -16,4 +19,12 @@ By the end of the day, Three and her guildmates conquered the _Underworld Dungeo
 
 [Trampling people with horses](#embed:https://www.youtube.com/live/vuij6YTMIzw?t=10378)
 
+## Fanart
+
 ["Moom, the True Chosen One" by Onecolo133](https://x.com/Onecolo133/status/1831681269106974738)
+
+["You smell like moom" by Moonia](https://x.com/BloodyMoonia/status/1833203185852539284)
+
+<!-- bijou, ame -->
+
+["She finds you" Akkanen](https://x.com/__akkanen/status/1900596210781901168)

@@ -14,3 +14,15 @@ And thus, the battle between the two sisters began.
 
 When the dust settled, Ina stood victorious. And with her victory, she demanded that Bijou drink the cure. The princess tried to run, but deep down, she knew it was futile. She had lost. With no other choice, she relented. Standing atop her Moai statue, with her sister and their mother beside her, Bijou took the cure—freeing herself from the corruption at last.
 Ina was overjoyed.
+
+## Fanart
+
+["Let's end this, sister." by m-pien](https://x.com/mpien6/status/1832788483561369945)
+
+["You were never alone" by m-pien](https://x.com/mpien6/status/1832812067478446477)
+
+<!-- raora -->
+
+["One duel to decide their fate" by Mr.Joeboto](https://x.com/LordJoeboto/status/1834514267736822065)
+
+<!-- raora, irys, nerissa, calli, fuwawa, mococo -->

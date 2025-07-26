@@ -6,7 +6,7 @@ Ina found the slow spread of corruption increasingly unsettling. At first, she b
 
 Koseki Bijou, Ina’s sister, approached her with a confession. It was she who had been spreading the corruption, and in doing so, she had come to the realization that she was the Stain Princess. With unwavering conviction, Bijou urged Ina to join her, to stand by her side, and together, they would plunge the kingdom into darkness.
 
-Ina was stunned. Shocked that her own sister—her sweet, innocent Bijou—would say such things. No, this wasn’t her sister speaking. It couldn’t be. Something—no, someone—must have tainted her, twisted her mind, and made her believe such nonsense. But whether she was being controlled or not, the corruption had to be stopped before it was too late. And if it came down to it, if there was no other way… Ina swore she would not hesitate to bring her own sister down.
+Ina was stunned. Shocked that her own sister—her sweet, innocent Bijou—would say such things. No, this wasn’t her sister speaking. It couldn’t be. Something—no, someone—must have tainted her, twisted her mind, and made her believe such nonsense. But whether she was being controlled or not, the corruption had to be stopped before it was too late. And if it came down to it, if there was no other way... Ina swore she would not hesitate to bring her own sister down.
 
 She took out her anger on the creeping [Stains](https://www.youtube.com/live/3zaM1QIff9U?feature=shared&t=5066), destroying them as if doing so would somehow free Bijou from their grasp. But no amount of venting could bring her sister back. Ina needed a plan.
 

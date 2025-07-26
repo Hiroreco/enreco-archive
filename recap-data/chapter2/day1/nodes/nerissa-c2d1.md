@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Nerissa—if that was even her real name anymore—[remembered nothing](https://www.youtube.com/live/XfZh_3xb7i0?si=4ltg7sRVoTvNszan&t=1063). Not the dying kingdom she had once vowed to save, not the universe hanging by a thread, not even the bonds she once held dear (see [Elizabeth-Nerissa](#edge:liz-nerissa)). Still, something pushed her forward. If nothing else, maybe the path ahead held fragments of who she had been: her name, her stories, and the hearts she once held close.
 
 With no memory and no grand destiny in mind, she turned to something simpler—something grounding. The [culinary arts](https://www.youtube.com/live/XfZh_3xb7i0?si=pOseYNmId4we0h3f&t=1909). To survive the week, she took up cooking, wandering the castle grounds, helping out with the Princess’s errands, and keeping her head down.
@@ -28,4 +31,4 @@ And of course, she got swept up in all sorts of shenanigans with the others alon
 
 ["🐦‍⬛" by Pungson Mori](https://x.com/33aalloonnHD/status/1902579334008692736)
 
-[Untitled by Okunashi](https://x.com/okunashi27/status/1900088484695818505)
+["Nerissa" by Okunashi](https://x.com/okunashi27/status/1900088484695818505)

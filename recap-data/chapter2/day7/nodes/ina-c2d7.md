@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Ina was told by her sister that there would be a party soon—specifically, a party directly involving her eternal consort, the Hot Pink One. Oh boy, what was she up to this time?
 
 [A party for my consort?](#embed:https://www.youtube.com/live/Y_f17MHHHzc?t=276)

@@ -22,7 +22,18 @@ export type SiteData = {
 };
 
 export type TextData = {
-    [key: string]: { content: string; title: string; category: string };
+    [key: string]: {
+        content: string;
+        title: string;
+        category: string;
+        hasAudio?: boolean; // Add this field
+    };
+};
+
+// Add new type for text audio state
+export type TextAudioState = {
+    isPlaying: boolean;
+    currentTextId: string | null;
 };
 
 export type ChapterRecapData = {
@@ -108,13 +119,6 @@ export type EditorImageNodeData = CommonNodeData & {
 };
 
 export type ImageNodeData = CommonNodeData & {
-    isRead?: boolean;
-
-    // The following properties are used during the rendering of this node,
-    // and should not be filled by the data source.
-    renderTeamImageSrc?: string;
-    renderOpacity?: number;
-    renderDimly?: boolean;
 };
 
 export type CustomEdgeOffsets = {
@@ -139,10 +143,6 @@ type CommonEdgeData = {
 export type CustomEdgeData = CommonEdgeData & {};
 
 export type FixedEdgeData = CommonEdgeData & {
-    isRead?: boolean;
-    // The following properties are used during the rendering of this edge,
-    // and should not be filled by the data source.
-    renderDimly?: boolean;
 };
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;
@@ -157,3 +157,48 @@ export type CustomEdgeProps = EdgeProps<CustomEdgeType>;
 
 export type FixedEdgeType = Edge<FixedEdgeData, "fixed">;
 export type FixedEdgeProps = EdgeProps<FixedEdgeType>;
+
+// Miscellaneous Page Types
+export type GlossaryPageData = { [key: string]: CommonItemData[] };
+
+export type GalleryImage = {
+    source: string;
+    title: string;
+};
+
+export type CommonItemData = {
+    id: string;
+    title: string;
+    chapters: number[];
+    thumbnailSrc: string;
+    content: string;
+    galleryImages: GalleryImage[];
+    modelSrc?: string;
+    imageSrc?: string;
+    quote?: string;
+};
+
+export type Song = {
+    title: string;
+    info: string;
+    originalUrl: string;
+    sourceUrl: string;
+    coverUrl: string;
+    // The duration is in the format "mm:ss", only for representative purposes
+    duration: string;
+};
+
+export type Egg = {
+    [key: string]: {
+        sfxList: {
+            src: string;
+            hasPlayed: boolean;
+        }[];
+    };
+};
+
+export type EasterEggState = {
+    isPlaying: boolean;
+    currentSoundIndex: number;
+    playedSounds: Set<number>;
+};

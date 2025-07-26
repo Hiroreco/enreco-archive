@@ -1,3 +1,6 @@
+<!-- title: Khaos -->
+<!-- status: Subject of a custody battle -->
+
 Cold. Lonely.
 
 A small Stain-looking child sits among the similarly looking hats in one of Libestal's shops.
@@ -23,6 +26,8 @@ One such day came in the form of a shiny princess called Bijou. Khaos would note
 Eventually, the past unveiled itself:
 
 Bijou would confront Bae about Khaos, about her regrets, about her foolishness, and the intent to make things right—to Khaos's other mother, at least.
+
+[Bijou confronts Bae about Khaos](#embed:https://youtu.be/L7rBGepFrXA?t=3580)
 
 Khaos was too young to remember the past, but all she wanted was the present. Her Mother.
 

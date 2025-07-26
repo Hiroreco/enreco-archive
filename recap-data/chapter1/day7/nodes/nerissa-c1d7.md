@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Nerissa had become a ghost. Slain by Kiara the day before—despite insisting she had done nothing wrong—she now wandered the land as a spirit, a soul without a body. But she wouldn’t remain that way forever. She had a plan. She would take vengeance against Kiara for what the phoenix had taken from her.
 
 [I have become a ghost](#embed:https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=317)
@@ -6,7 +9,11 @@ But before that, an idea struck her—she could use her ghostly form to explore 
 
 She drifted through the kingdom, but nothing seemed too out of place aside from several abandoned buildings. However, once she reached the castle, peculiarities began to reveal themselves. A hidden prison cell. The complete absence of the Jade Sword guild’s symbol on the castle grounds. Warping crystals that led to unknown locations. Blocked paths. It was odd. Some might dismiss these things as simple design choices, but Nerissa thought otherwise—especially when she stumbled upon [cryptic messages](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5386) hidden by two of the guards.
 
-Upon decrypting the message, it read, "Land of fated destiny echoed o'er and o'er again. Break the chains and it will flee, back to where it all began." What could it possibly mean?
+Upon decrypting the message, it read, 
+
+> Land of fated destiny echoed o'er and o'er again. Break the chains and it will flee, back to where it all began. 
+
+What could it possibly mean?
 
 Whatever it was, Nerissa needed to inform the others. When she reunited with the group, however, she immediately spotted Kiara among them and lunged at her to exact [revenge](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5918). But before she could do anything, Gonathon stepped in, stopping the fight. The two oranges then claimed that there was a way to bring Nerissa back to life—by venturing into the Volcanic Dungeon and completing its trials. If successful, the phoenix would bless her with rebirth. Hearing this, Nerissa relented and agreed to let them help her.
 

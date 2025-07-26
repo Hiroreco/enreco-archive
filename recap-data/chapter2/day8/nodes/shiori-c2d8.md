@@ -1,8 +1,10 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 A writer's work was never done; a book must end for another to begin and Shiori's script, too, will soon conclude. It is with this in mind that Shiori found herself writing once again, finishing her last commissions. Only a few remained—Kiara's rather [_suggestive_ fanfiction](https://youtu.be/jh0GSZRpkfU?t=553) and Roa's memory.
 
-[Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
-
-[Read "Cucumber"](#text:cucumber)
+- [Read "Kiara x Roa Snu"](#text:kiara-roa-snu)
+- [Read "Cucumber"](#text:cucumber)
 
 After finishing the newlywed couple's _spicy_ story, Shiori left for the Library to obtain another blank journal for Roa's memory. There, Shiori met her own wife, Bijou. They talk about how the banquet will be magnificent; nothing about it shall be dyed red, but if there will be red, it will be the red of love and hearts! Only trays of joy shall be served—not be*tray*als. [Things will be fine.](https://youtu.be/jh0GSZRpkfU?t=764)
 
@@ -50,7 +52,7 @@ Well, we can't have that now, can we? Repeating the same story so soon would be 
 
 Every hero has a villain—be it herself, nature, or _another_.
 
-"You think you can just set things right... Fix what's broken?"
+> You think you can just set things right... Fix what's broken?
 
 Shiori Nyavella tried her best to be kind to those around her; though she was a bit mischievous at times. Some appreciated her kindness, but there are those the Archiver's eyes lingered on a few of Shiori's... former friends; there are those who were un*JUST*ly cruel to Nyavella.
 
@@ -64,6 +66,10 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
 
+<!-- gigi -->
+
 ["witch shiori 1" by mofumashu](https://x.com/mofumashu/status/1921461081714688036)
 
 ["A Shiori Nyavella Character Write up" by usd100](https://www.reddit.com/r/Hololive/comments/1kkcg8h/a_shiori_nyavella_character_write_up/)
+
+["This World Deserves to Rot" by JayTea](https://x.com/jayteamations/status/1923159093268598841)

@@ -1,12 +1,15 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia Immerkind departed the Library where she learned she is one of the few that retained their memories.
 
 She travels to the meeting chamber where her gaze falls upon the beautiful Princess Iphania (see [Cecilia-Princess: Vow](#edge:cecilia-iphania)). Immerkind learns that she is one of the "Shining Stars" and decides she must bring Justice and save the world. But she ponders how to do this. How can she stop the Outsider? Her eyes then sparkle with a flash of inspiration:
 
-_"We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider"_.
+> We are not here to kill a baby, we are here to break apart a couple that will birth the Outsider.
 
 A task well suited to her vast knowledge gained from romance novels.
 
-[Project Abortion](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
+[Project Breakup](#embed:https://www.youtube.com/watch?v=cyLsX20esBE&t=1755s)
 
 Immerkind becomes reacquainted with her fellow Shining Stars and helps ["Oliver"](https://www.youtube.com/live/cyLsX20esBE?si=_Q7J44xZtf5xKMqD&t=2417) with some of her memories, and Hot Pink One helps Immerkind decide upon the supplier job. She immediately departed and was assisted by Peasant the Bae (see [Bae-Cecilia: Supply Monopoly](#edge:cecilia-bae)) at the Remnants, where she gets to work. With her newfound job and comrade, they create a monopoly with Bae to become rich (with ["kindness"](https://www.youtube.com/live/cyLsX20esBE?si=98NttHZqZvCyfV3K&t=5215)).
 
@@ -24,12 +27,17 @@ She returns to the job hall where the adventurers toil to accomplish their tasks
 
 After a long first day, Immerkind returns to the artist Pygmalion and marvels at the beauty of the completed piece. She gazes across the land from the top of the castle and ponders what the world will bring her the next day.
 
-### Objective Tracker - Project Abortion
+### Objective Tracker - Project Breakup
 
 [Libestan One - Gambling Hall](https://www.youtube.com/live/cyLsX20esBE?si=gOJepyQMRG4xMP3U&t=4264)
 [Libestan Two - Gryphon Roost](https://www.youtube.com/live/cyLsX20esBE?si=0XdHKyCqdM67Z4B_&t=8909)
 
-### Fanart
+## Fanart
 
 [Revelation by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
-[The Princess is Kind, by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+
+[The Princess is Kind by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+
+<!-- iphania -->
+
+[Cecilia by SEBU](https://x.com/SEBU_illust/status/1899563774933340404)

@@ -18,7 +18,7 @@ Speaking of the devil, HPO called Queen Tam and begged her to attend the "gender
 
 ["It's ~~gay~~ Gas!"](#embed:https://youtu.be/CUh9eciJil4?t=3959)
 
-All this… for a long, painful divine comedy about passing gas. Hot Pink Gas. The Queen didn’t even need to be there. And yet she and the voices in her head were forced to witness the “birth” of the “gassy baby”—Just ["Carbonated Love"](https://youtu.be/CUh9eciJil4?t=4071). Unsightly.
+All this... for a long, painful divine comedy about passing gas. Hot Pink Gas. The Queen didn’t even need to be there. And yet she and the voices in her head were forced to witness the “birth” of the “gassy baby”—Just ["Carbonated Love"](https://youtu.be/CUh9eciJil4?t=4071). Unsightly.
 
 Dr. Mordan returned with more [sagely advice](https://youtu.be/CUh9eciJil4?t=4128): Why not confront HPO’s consort and spill the beans about their secret relationship? Scorched earth. Why should Queen Tam be the only one to suffer? Might as well make everyone involved miserable. This therapist was truly something else. Everyone knows the drill. Instead of walking away and moving on, the Queen held the proverbial shovel firmly in her hands and dug deeper, choosing to confront the consort herself, NinoIna.
 
@@ -53,3 +53,9 @@ IRyS began to spiral. Love-blind, fogged with desperation. She would not lose th
 ## Fanart
 
 ["Couple goals!!" by Sora](https://x.com/GuyFloating/status/1921366078610923856)
+
+## Memes
+
+["Mom and Dad are fighting" by Lamebo](https://x.com/Lambo_ide/status/1921064184957022428)
+
+<!-- bijou -->

@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **Bonds Beyond Time**
 
 Starting his day once again at Gacharms, Gonathon conversed with his friends and assisted Fuwawa in upgrading her gear. Learning that several of his companions needed to do the previous day’s dungeon, the Humble Knight wasted no time in volunteering to assist. After a [quick rerun](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=1113s) of the dungeon and some farming with Shiori and NinoIna (the latter of whom he engaged in potato touching with), Gonathon found himself at the Mysterious House with many others, all awaiting the announcement of a special event.
@@ -33,3 +36,7 @@ Seemingly satisfied, Shiori reminisced with Gonathon for a while, with the knigh
 Although Tam once more sought to open Gonathon’s eyes to Shiori’s duplicities, Gonathon remained faithful to all his friends. Rather, he felt that a weight had been lifted off his shoulders, and together with the queen, the two mulled over what the next day would bring them as the curtains closed on another day.
 
 [A weight has been lifted](#embed:https://www.youtube.com/watch?v=p5xrAxTh8ho&t=15822s)
+
+## Fanart
+
+["I do not remember what being in love was like" by Gardener](https://x.com/jhgardener_/status/1920130763439386993)

@@ -1,3 +1,6 @@
+<!-- title: Peasant The Bae -->
+<!-- status: In-bread -->
+
 There was a sense of finality in the air. The last fight that would decide Libestal's fate was near... and soon, Bae's confession. Death or life, love or rejection; it all weighed heavily on Bae's heart.
 
 And a few things to finish, such as [Khaos and The Other One's room.](https://youtu.be/Br6dvhVJ_IE?t=489). A few decorations that could be won from the gacha would suit the children's room nicely.
@@ -45,3 +48,7 @@ Finally, Bae went to finalize the room for her children, Khaos and The Other One
 But alas, with every high in life, there are lows, for [Bae was scammed](https://youtu.be/Br6dvhVJ_IE?t=10289), and her endeavours in [fireworks did not spark colour in her life](https://youtu.be/Br6dvhVJ_IE?t=11047).
 
 Perhaps the morrow would be a more joyous occasion for the Peasant The Bae.
+
+## Memes
+
+["A week of racism, incest, divorce, etc." by Ant](https://x.com/antzk_3/status/1921062800375320713)

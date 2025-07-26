@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: Alive -->
+
 Bijou's objective for the third day was simple: make lots of money. But unlike Gonathon, who was making money to pay his dowry, help the community and his queen, or Nerissa, who supported her guildmate with their business, Bijou's goal for riches was much grander. It was for... _a hat_.
 
 She had been yearning for one ever since she stepped foot in this kingdom. Every day up until now, she had lived in shame, watching others with their long red hats, blue square hats, and green L-shaped hats, while she possessed no hat of her own. This was going to change today. But, of course, like always, there were plenty of shenanigans along the way.
@@ -26,4 +29,8 @@ But just when despair was setting in, it finally happened. After many, many gach
 
 [Bijou finally obtains a hat, a _Stain Hat_](#embed:https://www.youtube.com/live/Tl7rUzJyc_0?t=22515)
 
-Bijou could now go to sleep happily, donning the hat she had yearned for so long. At last, her journey could truly s̴̶͙͙̺ͬ̒̍̒̌̄͞_͍̯̗̩̓̔ͥ͌̍͒͜p̨͈̻͎̻͚̹͕̬̮̰͓̮͂͂̓͆ͮ̿̿͋̓ͤ̉̀̽̒̇ͬͦ̋͟͝a̸̔̂̚͜͟ŗ̷̠͉̱͕̠ͩ͛̒͗̈͜͝͡k͈͉_̤̤̰̟͖̬͕͙ͭ̈̀ͤ́̍̆ͦ͢͝l̰̥̑ͭ́ͣ̐̕e̬̒̑̒.
+Bijou could now go to sleep happily, donning the hat she had yearned for so long. At last, her journey could truly s̴̶͙͙̺ͬ̒̍̒̌̄͞*͍̯̗̩̓̔ͥ͌̍͒͜p̨͈̻͎̻͚̹͕̬̮̰͓̮͂͂̓͆ͮ̿̿͋̓ͤ̉̀̽̒̇ͬͦ̋͟͝a̸̔̂̚͜͟ŗ̷̠͉̱͕̠ͩ͛̒͗̈͜͝͡k͈͉*̤̤̰̟͖̬͕͙ͭ̈̀ͤ́̍̆ͦ͢͝l̰̥̑ͭ́ͣ̐̕e̬̒̑̒.
+
+## Fanart
+
+["It's a win win" by m-pien](https://x.com/mpien6/status/1830956131956727821)

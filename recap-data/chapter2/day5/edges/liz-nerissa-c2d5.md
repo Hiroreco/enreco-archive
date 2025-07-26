@@ -61,7 +61,7 @@ The thorns inside began to fray.
 No meaning made, no truth aligned.
 I searched her gaze—found no sign.
 What does she want? Why can’t I see?
-Is it her fault… or maybe me?
+Is it her fault... or maybe me?
 This storm won’t pass, it won’t let me be.
 
 And so, I sat in quiet gloom,
@@ -86,9 +86,6 @@ And wait until her heart shows through.
 
 A love like ours, strange and sublime—
 It hurts. It heals. It takes its time.
-
-_(writer's note: Nerissa, girl, why are you like this she was just chillin)_
-_(writer's note 2: this took me over an hour I hope you're happy Nerissa (affectionate))_
 
 ## Fanart
 

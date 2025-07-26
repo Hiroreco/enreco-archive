@@ -1,4 +1,7 @@
-The successful businesswoman Roa wakes up and begins her day immediately checking on her business and employees; however, her attention is quickly stolen by the Red Knight, Lady Bloodflame. She confides her concerns to her employees and tries to assess the relationship between Nerissa and Lady Bloodflame.
+<!-- title: Roa Pandora -->
+<!-- status: In-bread -->
+
+The successful businesswoman Roa wakes up and begins her day immediately checking on her business and employees; however, her attention is quickly stolen by the Scarlet Knight, Lady Bloodflame. She confides her concerns to her employees and tries to assess the relationship between Nerissa and Lady Bloodflame.
 
 [Pretty Kitty](#embed:https://www.youtube.com/live/iWSC8XgRlqA?t=1480s)
 

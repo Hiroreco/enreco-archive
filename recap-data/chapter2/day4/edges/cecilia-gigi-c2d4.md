@@ -13,3 +13,9 @@ Maybe it was the "bro bonds" that connected them. Maybe it was something deeper�
 It wouldn’t be the last time they’d be there for each other. Not by a long shot.
 
 [Listen to your heart and mind](#embed:https://www.youtube.com/watch?v=NGC0VaSUPnE&t=21370s)
+
+## Fanart
+
+["the knight and his pearls" by Gardener](https://x.com/jhgardener_/status/1928477828623831444)
+
+<!-- ame, shiori -->

@@ -22,6 +22,14 @@ As for Jyonathan, the depth of her feelings for Gonathon was up for debate. Thou
 
 [He lets me speak sometimes](#embed:https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=9740)
 
+## Fanart
+
 ["is this what they call...enemies to lovers?..." by Mooon](https://x.com/Moon_LDL/status/1830455614625001879)
 
 ["A proposal" by Hyoweii](https://x.com/weiiyxn/status/1830844192723255551)
+
+["Gonathon and Jyonathon" by St3ll4](https://x.com/sssst3ll4/status/1834360675503837275)
+
+## Memes
+
+["for her" by happy](https://x.com/yppah1060/status/1830867181598580907)

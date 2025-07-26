@@ -1,6 +1,6 @@
 <!-- title: Timmy and Pinky -->
 
-Tam Gandr was once in love with the Hot Pink One. The Hot Pink One was once her loyal (well, _maybe_ loyal) servant. Their history together was brief but bizarrely intense—a relationship layered with sarcasm, unresolved tension, and just the right amount of chaos. And now, fate had tossed them back together, giving them a clean slate… or at least a reset button.
+Tam Gandr was once in love with the Hot Pink One. The Hot Pink One was once her loyal (well, _maybe_ loyal) servant. Their history together was brief but bizarrely intense—a relationship layered with sarcasm, unresolved tension, and just the right amount of chaos. And now, fate had tossed them back together, giving them a clean slate... or at least a reset button.
 
 Tam, ever sharp-tongued and regal in demeanor, upon learning the pink one was that of a culinary kind, wasted no time reestablishing the power dynamic—_her_ power dynamic. She stared the Hot Pink One down and declared, with the elegance and subtlety of a sledgehammer:
 

@@ -1,6 +1,9 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 The end of the world was afoot—or so everyone kept saying. Corruption plagued the lands, chaos spread like wildfire, and impending doom loomed over the horizon. For many, this would have been cause for panic, a time to reflect on their lives, relationships, and everything they’d built. But for our CEO? It was a business opportunity. What better way to capitalize on the apocalypse than with an End of the World Sale? After all, if the world was ending, everything must go.
 
-[End of World Sale is crazy](#embed:https://www.youtube.com/embed/8x-MVX8h9gU?si=upbpi2piV4Z8ERvt&start=142)
+[End of World Sale is crazy](#embed:https://www.youtube.com/live/8x-MVX8h9gU?si=upbpi2piV4Z8ERvt&start=142)
 
 It was classic Fauna: profits first, everything else later. Although she believed her business troubles had ended after the Mococo situation, she soon discovered a new rival in the market. NanaEleven, run by someone she once thought of as a friend—Nanamoo—was stealing customers. The rival store had become popular, selling more items and even lottery tickets, much to Fauna’s annoyance. As a savvy CEO, Fauna knew what had to be done. She’d eliminate the competition—not literally, of course, but in a business sense.
 
@@ -10,7 +13,7 @@ Later, Fauna arranged a meeting with Nanamoo on the library's third floor. The t
 
 Afterward, Fauna made even more sales by selling battle gear to [Elizabeth](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=2406). She also assisted Cecilia with her [ritual](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=2977) to control the princess. Bijou stopped by to donate some books to the library. It was amusing to note that despite receiving thousands of coins to build the library and its massive size, the library’s collection still consisted of only four books. The ones Bijou donated were... questionable, but Fauna had anticipated this, even setting up a dedicated section for them.
 
-[Spicy Novels](#embed:https://www.youtube.com/embed/8x-MVX8h9gU?si=IMjZK6slIHg67-Pp&start=2573)
+[Spicy Novels](#embed:https://www.youtube.com/live/8x-MVX8h9gU?si=IMjZK6slIHg67-Pp&start=2573)
 
 Gonathon visited next—seriously, FaunaMart was busy that day. He informed Fauna that Nerissa, her employee, had succumbed to the corruption. Fauna’s response? She couldn't care less and congratulated Gonathon on winning the lottery two days prior and handed him his prize. Though puzzled by Fauna’s priorities, Gonathon accepted and even bought another 21 lottery tickets, contributing to the library fund.
 
@@ -32,8 +35,10 @@ With the store closing and the library’s purpose fulfilled, the CEO bid farewe
 
 Faunwell, miss CEO.
 
-[Faunamart](#easter:faunamart)
+## Fanwork
 
-["Boss of FaunaMart" by Ano Yatsu](https://www.youtube.com/watch?v=T7fHJcrmO0U)
+["Boss of FaunaMart" by Ano Yatsu](#out:https://www.youtube.com/watch?v=T7fHJcrmO0U)
 
-["Hololive's Biggest SCAMMER (in minecraft)" by clippy](https://www.youtube.com/watch?v=Dyia273Gi7E&ab_channel=clippy)
+["Hololive's Biggest SCAMMER (in minecraft)" by clippy](#out:https://www.youtube.com/watch?v=Dyia273Gi7E&ab_channel=clippy)
+
+["FaunaMart" by Yuba est](https://x.com/yubaest/status/1834009254141046887)

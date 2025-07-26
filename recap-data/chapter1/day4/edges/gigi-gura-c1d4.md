@@ -20,4 +20,16 @@ Somewhere along the way, though, an odd camaraderie formed between the unlikely 
 
 [Big Gnome Man](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=cUCbHoToUYsfGNWz&t=13728)
 
+## Fanart
+
 ["Pearl..." by aWoooFa](https://x.com/Awooofa/status/1831403586494017956)
+
+<!-- ame -->
+
+## Memes
+
+["NOOOOOOOOO" by holomybabyTypeR](https://x.com/holomybabyTypeR/status/1831145291908526358)
+
+["oh my god" my AlfaHatdog](https://x.com/alfa_hatdog/status/1831129176109400505)
+
+<!-- ame -->

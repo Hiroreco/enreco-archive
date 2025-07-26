@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 A soft, timid _"Bau bau"_ escaped from _Fuwawa_ as she woke up in the white box. Everything was unfamiliar. Someone seemed oddly familiar to her—Mococo Abyssguard—but like Mococo, Fuwawa was completely lost and confused.
 
 As she moved around, sniffing those around her, she couldn’t shake the feeling that Nerissa was [trouble](https://www.youtube.com/live/3s_pVYBEax0?feature=shared&t=572), much like Mococo had sensed. When talking to Raora, Fuwawa introduced herself as a demon dog, though her gentle demeanor and iconic "Ehehehe" giggle made it hard to imagine anything demonic about her. She radiated warmth, more fluffy than fearsome.

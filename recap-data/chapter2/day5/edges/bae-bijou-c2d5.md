@@ -20,7 +20,7 @@ This dispute eventually led them to receive counseling from Mordan Ramsey in ord
 
 [Maury Show](#embed:https://youtu.be/AwTYvoyB3Xo?t=15988)
 
-Gonathon was kind of just… there. This was mainly an affair between Bijou, Shiori, and Bae. Gonathon looked confused almost the entire time and hardly spoke a word, even though he paid to be there.
+Gonathon was kind of just... there. This was mainly an affair between Bijou, Shiori, and Bae. Gonathon looked confused almost the entire time and hardly spoke a word, even though he paid to be there.
 
 Nonetheless, there was a lot of yelling back and forth. Poor Princess Bijou felt overwhelmed by this entire exchange, and her emotions got the best of her. She couldn’t even see the fact that the Stain on Bae’s head wasn’t actually her child! Bae was also the mother of another child all along...
 
@@ -33,3 +33,9 @@ It was a complicated matter fueled by heated feelings from all sides that ultima
 As they watch Khaos and the second unnamed child Bae has adopted play together, the two make [amends](https://youtu.be/AwTYvoyB3Xo?t=17644). They agreed that they both let their emotions overwhelm them and that therapy was a waste of money and time.
 
 Bae, who still had primary custody by the agreement of all parties involved (Bijou included), gave her blessing for Bijou to visit Khaos.
+
+## Fanart
+
+["Custody battle" by BunBBun](https://x.com/BunBBun1/status/1920774925633118555)
+
+<!-- kronii, shiori, gigi -->

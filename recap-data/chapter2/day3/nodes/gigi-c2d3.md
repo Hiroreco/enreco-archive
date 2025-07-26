@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 A Hero Searches for His Purpose
 
 Returning from his day training in the forest, Gonathon had much to catch up on, chief among them being the need to complete not one, but two dungeons. However, what initially looked to be a simple day of adventuring soon became anything but.
@@ -22,8 +25,16 @@ The end of the day saw one of the most unexpected twists, with Gonathon falling 
 
 ## Fanart
 
-[Gonathon... by Yog](https://x.com/massiveyog/status/1919634283809144908?s=46&t=Hs_QRLG_ayqKN5hO2BW3-A)
-
 [The Humble Knight's Happiness by Blaparky](https://x.com/blaparky/status/1919657314384282081)
 
+<!-- shiori -->
+
 [... (The World Tree) by Edialex](https://x.com/Ediialex/status/1919243257499853211)
+
+["The World Tree" by Jowo](https://x.com/seekorplatypus/status/1919368149411176695)
+
+["Those blonde angels looks familiar..." by Nagi](https://x.com/Nagi_Nyaaa/status/1919583988454158726)
+
+## Memes
+
+["m'wolf" by NP_Mango](https://x.com/NP_Mango/status/1920349250241650993)

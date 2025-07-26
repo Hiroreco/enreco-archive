@@ -1,6 +1,9 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 Nerissa made her debut on day two, joining mid-conversation with her (self-proclaimed) wife, Shiori, who at the time was soloing the second dungeon. Their exchange went as expected for any "married" couple—playful flirting mixed with odd and suggestive banter (see [Shiori-Nerissa: Keeping Company](#edge:shiori-nerissa)).
 
-Nerissa then had her first visit to the casino, and beginner’s luck seemed to be on her side. While the other three were losing both their coins and their sanity, Nerissa was winning every single round. By the end, she’d amassed a staggering 1,500 coins—leaving her two guildmates far behind with just 10 coins… or even none.
+Nerissa then had her first visit to the casino, and beginner’s luck seemed to be on her side. While the other three were losing both their coins and their sanity, Nerissa was winning every single round. By the end, she’d amassed a staggering 1,500 coins—leaving her two guildmates far behind with just 10 coins... or even none.
 
 [It's not luck, you're just bad](#embed:https://www.youtube.com/live/nHn2JKHTyzM?t=1644)
 

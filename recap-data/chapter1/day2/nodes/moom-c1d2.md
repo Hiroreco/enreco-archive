@@ -1,3 +1,6 @@
+<!-- title: Darwin Roosevelt Dicaprio Jr. -->
+<!-- status: Alive -->
+
 A new day, a new start, and for our girl in brown, a new name. Given how many people struggled to remember her name on the first day—Cleopatra Eisenhower Da Vinci the Great the Third—you’d think she’d choose something simpler. Well, she did... just not in the way you’d expect. On day two, our owl girl proudly declared herself as [Darwin Roosevelt DiCaprio Jr., or simply Darwin](https://www.youtube.com/live/WQRPyJ4zhC0?feature=shared&t=322).
 
 Weird and elaborate names aside, Darwin was ready to dive into her second day in the kingdom. Her first interaction was with Fauna, who was busy constructing her budding business, _FaunaMart_.

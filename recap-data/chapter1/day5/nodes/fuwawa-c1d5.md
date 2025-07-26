@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 Fuwawa’s day began with a familiar worry. [_"Is Mococo going to the lottery again?"_](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=346) she wondered, her concern for her companion growing deeper with each passing day. Though she cared for Mococo, this time, Fuwawa decided to stay on the sidelines, watching the fiasco unfold without stepping in. After all, it wasn’t her battle to fight.
 
 As she contemplated her plans for the day, Fuwawa realized that she lacked a clear goal. Since arriving in the kingdom, she’d simply gone with the flow, completing her tasks dutifully and being the good doggo everyone expected her to be. But now, she craved something of her own—something to give her purpose.

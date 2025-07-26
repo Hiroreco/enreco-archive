@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 With the kingdom saved, it was time to celebrate!
 
 Kiara and Roa spent a night together and bought a new home at Mordan's auction. (See [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara))

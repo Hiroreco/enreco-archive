@@ -1,3 +1,6 @@
+<!-- title: Nanamoo -->
+<!-- status: Alive -->
+
 Although Cleopatra/Darwin/Napoleon/Frieda—her name was always a mystery—had been absent in the kingdom for a while, she had been quietly working on something monumental. Before she "started her vlog" on day seven, both Elizabeth and Cecilia noticed her unwavering diligence. She was so focused that she tolerated no distractions (see [Elizabeth's Point of View](#node:liz)).
 
 When the time was right, she launched her vlog with great excitement. It was a pivotal day for the girl in brown, one where she would unveil something that would change her life—and the lives of the kingdom's dwellers—for the better. However, her big announcement was briefly delayed when she stumbled across Kiara, who sought a heartfelt conversation about their bond as Amber Coin members.
@@ -8,7 +11,7 @@ Unfortunately, the two were caught snooping around FaunaMart by Cecilia. In typi
 
 With distractions out of the way, it was finally time for her big reveal. She proudly announced her secret project: the grand opening of _NanaEleven_, her very own convenience store.
 
-[Welcome to NanaEleven!](#embed:https://www.youtube.com/embed/zPJ78C7uNq8?si=mqiviMof_FRuC4tu&start=605)
+[Welcome to NanaEleven!](#embed:https://www.youtube.com/live/zPJ78C7uNq8?si=mqiviMof_FRuC4tu&start=605)
 
 NanaEleven was established as a rival to FaunaMart, though its stated goal was to "help" the existing store. She explained that FaunaMart’s location wasn’t ideal—it lacked interesting attractions (despite being near a giant statue, a gallows, and a castle). NanaEleven, she claimed, was designed as an outlet mall with ample parking, sure to draw more visitors and spark consumerism.
 
@@ -25,6 +28,12 @@ About an hour after distributing her free lottery tickets, it was time to announ
 
 Though NanaEleven had just opened, it had already made an impact—albeit with a financial loss of 1,000 coins. Despite the apparent success and charm of Nanamoo’s new venture, there was something hidden behind her cheerful smile. Only time would reveal her true intentions.
 
-[They'll never see it coming](#embed:https://www.youtube.com/embed/zPJ78C7uNq8?si=AOTB6BRlzqAsVuef&start=5592)
+[They'll never see it coming](#embed:https://www.youtube.com/live/zPJ78C7uNq8?si=AOTB6BRlzqAsVuef&start=5592)
 
-["Nana-11 1996 VHS Commercial Footage" by Emico Otero](https://www.youtube.com/watch?v=cyw49svSeMw)
+## Fanwork
+
+["Nana-11 1996 VHS Commercial Footage" by Emico Otero](https://x.com/EmicoOtero/status/1835347132729250178)
+
+["Nana-11" by Fongban](https://x.com/fongban_/status/1902071843584143478)
+
+["Nanamoo" by Manganeso](https://x.com/ManganesoDS/status/1831552708098023623)

@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **Fragments of Memories, Whispers of Past Deeds, and Love**
 
 With a flash of light, Gonathon G. once again found himself whisked back to the land of Libestal. However, in a perverse turn of fate, he was stripped of his memories, including those of his time in the present and of those most dear to him.
@@ -21,3 +24,15 @@ This mantra would quickly be tested, as Gonathon found himself thrust into many 
 With the day drawing to a close, Gonathon retired to record his diary for inclusion in the Library. It was here that his self-doubt bubbled to the surface.
 
 [Their most cherished memories](#embed:https://youtu.be/CPT2cj934-I?t=17880)
+
+## Fanart
+
+["Gonathon training" by cd usr](https://x.com/cd_usr/status/1920637427082743930)
+
+["Henceforth!" by Hase](https://x.com/_nHase/status/1919082092828516566)
+
+["Gonathon G" by Fineria](https://x.com/Fineria_/status/1918895385147220243)
+
+["It's time" by Hiro](https://x.com/hiroavrs/status/1918321021222044089)
+
+["doodle of GOATnathan with a G" by roxis w.](https://x.com/roxis_in_wunder/status/1921864532504330468)

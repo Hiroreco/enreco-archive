@@ -1,3 +1,6 @@
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
+
 Perfect Queen Tam Gandr woke up from her perfect slumber in her perfect “truck” abode.
 
 She might have been a bit sleepy, but she was raring to go about her day. She even stopped for a moment to give tips to Fuwawa, who was struggling with her duel against the Outlander.
@@ -50,4 +53,18 @@ The situation grew even more bizarre for the Queen and her Humble Knight when Sh
 
 With that, the Queen retired for the day and went to her perfect slumber once again.
 
+## Fanart
+
 ["A peaceful day indeed..." by seapupu](https://x.com/seapupu290495/status/1920852715703320626)
+
+<!-- shiori, bijou -->
+
+## Memes
+
+["Therapists" by V Faction](https://x.com/V_Faction/status/1921060036433924235)
+
+<!-- calli -->
+
+["they really did the thing" by Lamebo](https://x.com/Lambo_ide/status/1921054453525794986)
+
+<!-- ina, calli -->

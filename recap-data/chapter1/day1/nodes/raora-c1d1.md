@@ -1,3 +1,6 @@
+<!-- title: Raora Panthera -->
+<!-- status: Alive -->
+
 _Raora_ awoke in the white box and, true to her nature, did what any self-respecting big cat might do: she [lashed out](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=847) at a few unfortunate souls and, oddly enough, offered comfort to a lost dog.
 
 [Is she really a cat?](#embed:https://www.youtube.com/live/8ybUOw9NhMc?t=934)
@@ -25,5 +28,7 @@ Later on, deciding that earning the trust of her "future subjects" was important
 [She's laughing again](#embed:https://www.youtube.com/live/8ybUOw9NhMc?t=15966)
 
 After helping them complete the dungeon, Raora finally called it a day. It had been a fun and eventful one, and perhaps the first steps toward her self-proclaimed destiny as the next queen of Libestal.
+
+## Fanart
 
 [":3" by Miku](https://x.com/Mikururun/status/1899247515700019465)

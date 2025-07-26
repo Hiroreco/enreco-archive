@@ -1,3 +1,6 @@
+<!-- title: Raora Panthera -->
+<!-- status: Alive -->
+
 Raora’s fourth day began much like her third—focused on completing her grand castle. She had poured her heart and soul into the project, dedicating countless hours to its construction. As she surveyed her nearly finished masterpiece, a sense of accomplishment welled up inside her.
 
 She had single-handedly created a castle worthy of her queenly title, yet something felt amiss. The fiery motivation that once drove her seemed to have flickered out. Perhaps it was the absence of someone who had sparked that fire in the first place. Regardless, she pressed on, determined to bring her vision to completion.

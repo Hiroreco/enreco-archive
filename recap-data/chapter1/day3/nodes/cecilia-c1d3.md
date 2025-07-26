@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 Cecilia woke up on her third day feeling dizzy, as if she had hit her head. Her memories were hazy—something felt missing. Did something happen the day before? She couldn’t say for sure.
 
 To make things stranger, she discovered a piece of paper tucked inside her shoe. Written in elegant green cursive were the words "find it...!" How did it get there? Who wrote it? And what did it mean? Confused but intrigued, Cecilia resolved to uncover the mystery.
@@ -12,7 +15,7 @@ Later, at the quest board, Cecilia encountered Calli wearing the Scarlet Wand ha
 
 Along with the trade, Cecilia sang a song as part of her "payment," earning the hat she’d been dreaming of. Elated, she paraded it around to show off her prize to anyone willing to look.
 
-[Check out my hat!](#embed:https://www.youtube.com/embed/-QKg8Fau9GM?si=7nMEbH-xj6IwR06k&start=3350)
+[Check out my hat!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?si=7nMEbH-xj6IwR06k&start=3350)
 
 Continuing her day, Cecilia bumped into Gonathon. Their conversation spiraled into her spouting wild conspiracy theories about the kingdom and its citizens. Gonathon listened with a mix of confusion and disbelief, silently wondering if she was entirely sane.
 
@@ -33,4 +36,10 @@ At first, Cecilia brushed it off, too engrossed in her gambling to give it much 
 
 Before she could investigate further, the key on her head abruptly stopped spinning. Her vision darkened, and the world around her faded into black.
 
+## Fanart
+
 ["She got tha HAT!!!" by aWoooFa](https://x.com/Awooofa/status/1831049705700413843)
+
+["HAT" ny Raff Yasushi](https://x.com/raffanda_/status/1830877842013593910)
+
+<!-- calli -->

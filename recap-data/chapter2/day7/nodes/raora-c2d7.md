@@ -1,8 +1,11 @@
+<!-- title: Roa Pandora -->
+<!-- status: In-bread -->
+
 The previous day didn't end as Roa wanted, but it wouldn't matter since _today_ would be the day romance shall bloom and a wedding shall be hers. [Her precious ring](https://youtu.be/m2OG5auudrQ?t=380) was ready, and as she planned—
 
 A phone call from Elizabeth. (See [Roa-Elizabeth: Love Unlasting](#edge:raora-liz))
 
-Distracted and flustered, Roa answered. She reassured Elizabeth that she was fine when the Red Knight inquired about her health. There seemed to be something going around, since Mococo was feeling unwell. After hearing Elizabeth's concerns for Mococo, [Roa quickly walked back](https://youtu.be/m2OG5auudrQ?t=447) and mentioned that she too felt dizzy and sick from yesterday's accursed event. Elizabeth, too caring and trusting, immediately believed Roa and promised to help.
+Distracted and flustered, Roa answered. She reassured Elizabeth that she was fine when the Scarlet Knight inquired about her health. There seemed to be something going around, since Mococo was feeling unwell. After hearing Elizabeth's concerns for Mococo, [Roa quickly walked back](https://youtu.be/m2OG5auudrQ?t=447) and mentioned that she too felt dizzy and sick from yesterday's accursed event. Elizabeth, too caring and trusting, immediately believed Roa and promised to help.
 
 [Roa's Blind, Delusional Love.](#embed:https://youtu.be/m2OG5auudrQ?t=509)
 
@@ -40,11 +43,11 @@ They did it.
 
 After seven long days, the adventures and battles were finally over. The Princess even found the doll she gave her deceased father—a doll that looked remarkably like Fia.
 
-Roa had one last battle to face—her heart. Though she shared sweet moments with Kiara, it was still Elizabeth she longed for. With Shiori’s encouragement, Roa nervously approached the Red Knight. Elizabeth, however, warned her to be cautious of Shiori. Roa didn’t understand the distrust but agreed to respect her wishes.
+Roa had one last battle to face—her heart. Though she shared sweet moments with Kiara, it was still Elizabeth she longed for. With Shiori’s encouragement, Roa nervously approached the Scarlet Knight. Elizabeth, however, warned her to be cautious of Shiori. Roa didn’t understand the distrust but agreed to respect her wishes.
 
 [The Moment Roa's Heart Broke.](#embed:https://youtu.be/m2OG5auudrQ?t=11039)
 
-She later saw Elizabeth and Nerissa on a date in the onsen. Her delusion shattered. Maybe she never had a chance. In heartbreak, Roa turned to the first friend who came to mind—Shiori. (See [Roa-Shiori: A Witch's Cat](#edge:raora-shiori))
+She later saw Elizabeth and Nerissa on a date in the onsen. Her delusion shattered. Maybe she never had a chance. In heartbreak, Roa turned to the first friend who came to mind—Shiori.
 
 Though saddened, there was still a party to attend. The party that saw a new, gassy one born but [quickly lost.](https://youtu.be/m2OG5auudrQ?t=12121)
 
@@ -61,3 +64,5 @@ She talked of love lost and love found in her diary.
 ## Fanart
 
 [Big Cat, Big Pains](https://x.com/fernrOreo/status/1923057970440536174)
+
+<!-- nerissa, liz -->

@@ -8,7 +8,7 @@ Elizabeth separated herself from the crowd, while Nerissa followed. When she not
 
 The lady knight, yearning for more of her presence, stopped her from leaving, giving her quite a lot of her own. Nerissa claimed it was her first time doing it, and so did Lady Bloodflame, but she offered to test them out together on the roof. Just the two of them.
 
-And so they did… however, it was already morning, so they had to postpone it till evening.
+And so they did... however, it was already morning, so they had to postpone it till evening.
 
 Fate must have been too cruel, for it didn’t prove successful. Nerissa needed to gather some more ingredients, and when the sun finally gave way to the moon, she caught Elizabeth testing the fireworks with Roa Pandora.
 
@@ -60,11 +60,11 @@ _I dare not trust your words, but you are a danger - so locked up you must._
 
 The recent development in their relationship would have probably made one maiden’s heart swoon. Elizabeth had started warming up to her—following her around, giving her gifts, showering her with praises, and making sure she was well and protected.
 
-She even called her beautiful. And promised she would always stay by her side…
+She even called her beautiful. And promised she would always stay by her side...
 
 But it was too late.
 
-If only the Scarlet Knight had realized a bit earlier… she would’ve folded and lowered her defenses. However, thorns have already grown on the flesh of this delicate rose. Every warm and gentle touch would sting deeper, making it ever more painful to bear.
+If only the Scarlet Knight had realized a bit earlier... she would’ve folded and lowered her defenses. However, thorns have already grown on the flesh of this delicate rose. Every warm and gentle touch would sting deeper, making it ever more painful to bear.
 
 The cards had been flipped. Elizabeth was oblivious to the menacing side of the person she was falling for. As if entranced by the siren’s sweet song, she moved according to the witch’s will.
 
@@ -72,10 +72,12 @@ Defenseless. Vulnerable. On the palm of the monster she created.
 
 ## Fanart
 
-[Fireworks by Zel Maelstrom](https://x.com/zelmaelstrom/status/1922143256164356165)
+["Fireworks" by Zel Maelstrom](https://x.com/zelmaelstrom/status/1922143256164356165)
 
 ["Onsen" by thekaiyip](https://x.com/thekaiyip/status/1921344476032663740)
 
 ["in the bath" by set](https://x.com/_se_t_/status/1921155712278798577)
 
 ["🍽️" by soap](https://x.com/SiFXi_/status/1922715233606377622)
+
+["puppy" by wan](https://x.com/wan_m_i/status/1921113665530478793)

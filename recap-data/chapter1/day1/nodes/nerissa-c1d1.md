@@ -1,3 +1,6 @@
+<!-- title: Nerissa Juliet Ravencroft -->
+<!-- status: Alive -->
+
 _Nerissa_, like everyone else, woke up in a white box with no memories of her past. Although overwhelmed, she tried her best to start conversations with those around her, having small chats here and there.
 
 However, her longest initial conversation was with a maiden in red, _Elizabeth Rose Bloodflame_. Their chat consisted of simple introductions, but there was an undeniable sense of familiarity, like a deeper connection existed between [them](https://www.youtube.com/live/PJSd7DYlGNo?si=l3socXPAD6ViAdz6&t=1654).
@@ -20,4 +23,10 @@ Later, Nerissa teamed up with Fuwawa, Mococo, Bijou, and Raora to tackle the _Un
 
 After a bit more wandering, Nerissa called it a day. It had been confusing, chaotic, and a little painful at times, but ultimately fun—and that was all that mattered.
 
-["Scarlet Wand" by tor](https://x.com/torkirby/status/1830410419082510816)
+## Fanart
+
+["Nerissa" by thekaiyip](https://x.com/thekaiyip/status/1903164554022097168)
+
+["Scarlet Wand" by Raff Yasushi](https://x.com/raffanda_/status/1833432464448229657)
+
+<!-- cecilia, fauna, shiori, gura -->

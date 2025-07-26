@@ -1,3 +1,6 @@
+<!-- title: Mori Calliope -->
+<!-- status: Alive -->
+
 Calli was thrilled for day three, not because of any grand adventure or remarkable event, but because her long-awaited tavern was finally complete. Her business, named _"Death Do Us Part,"_ was officially open for business. A diner that not only served delicious food but also offered free divorce services alongside every meal. She was immensely proud and couldn’t wait to see her first customers.
 
 [Welcome to "Death Do Us Part"!](#embed:https://www.youtube.com/live/efqkfe_5O0s?t=368)

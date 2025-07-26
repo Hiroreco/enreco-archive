@@ -1,10 +1,13 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Though things had run smoothly for Kiara the last couple of days, she found herself fretting today. Rumors of her beloved cousin's (not blood-related) marriage to Princess Iphania, charging ahead of her fellow smiths and accidentally creating a monopoly, and Mococo's lackluster sales as a jeweler troubled the knight-turned-smith's heart. This shouldn't be. Kiara resolved to support their business and buy more charms from them—and perhaps kill two birds with one stone—and gift those to Elizabeth.
 
 Steadying herself, Kiara called Cecilia to inquire about her relationships, but Cecilia did not answer. That did not stop our Knight as she headed out to look for Cecilia. Upon meeting her, Kiara would admit to her heart being ['cracked'](https://youtu.be/NBU2Yp8xKLc?t=2990) when she heard the rumors. Unable to deny her feelings for the Princess, Cecilia would offer part of her heart to Kiara's refusal, only asking Cecilia to inform her since they are family.
 
 [Sweet Home of Mother Matron](#embed:https://youtu.be/NBU2Yp8xKLc?t=5069)
 
-She would meet Liz and gift her the charms she had bought earlier, receiving a warm thanks from the lovely Red Knight. Soon, Kiara would end up spoiling Elizabeth, giving her construction boxes that they needed for their shop along with a new pickaxe. Kiara's noble heart could not help but be moved by Elizabeth and tells her if there is anything Elizabeth needs—be it coins, equipment, or help—she will be there to support her. The two of them would bond, Kiara listening to Elizabeth missing her trusty steed and suggesting 'chicken jockey' as an alternative. They would talk about their memories and how they both remembered the past when others did not. Kiara would add that blessed be the ignorant, for knowledge is sometimes painful.
+She would meet Liz and gift her the charms she had bought earlier, receiving a warm thanks from the lovely Scarlet Knight. Soon, Kiara would end up spoiling Elizabeth, giving her construction boxes that they needed for their shop along with a new pickaxe. Kiara's noble heart could not help but be moved by Elizabeth and tells her if there is anything Elizabeth needs—be it coins, equipment, or help—she will be there to support her. The two of them would bond, Kiara listening to Elizabeth missing her trusty steed and suggesting 'chicken jockey' as an alternative. They would talk about their memories and how they both remembered the past when others did not. Kiara would add that blessed be the ignorant, for knowledge is sometimes painful.
 
 Kiara sees the struggles of Gonathon's hardship in the 1st dungeon and sends words of encouragement, hoping to bolster her fellow orange knight's confidence.
 

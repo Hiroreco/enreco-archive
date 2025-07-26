@@ -1,3 +1,6 @@
+<!-- title: Hot Pink One -->
+<!-- status: In-bread -->
+
 Less thrilled about the grand victory banquet and more consumed by unease, the pink one found herself fidgeting, nervously anticipating the response from her eternal consort. A letter had arrived—one penned by Ina—and though it wasn’t a definitive goodbye, it certainly wasn’t the answer the pink one had hoped for either. (see [Hot Pink One–Ina: So Long, Consort](#edge:ina-irys))
 
 The [lingering tension](https://www.youtube.com/live/kwmxMSD8tTU?t=1098) from the previous day with Tam also hadn’t dissipated. In fact, it only escalated. Whatever remnants of a bond once existed between the two were now thoroughly shattered, as their exchanges had devolved into open mockery and pointed jabs.

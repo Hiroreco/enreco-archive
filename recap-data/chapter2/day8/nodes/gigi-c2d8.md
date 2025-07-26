@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 **Justice is Blind**
 
 The day started almost eerily calm for the Humble Knight. With a few hours to burn before the victory banquet, Gonathon busied himself by unearthing the final tomes of lore that still eluded her abount the kingdom. His thoughts drifting back to Immerkind , Gonathon decided that the best way he could help his lovesick friend was to win a house for her in Mordan Ramsey’s upcoming auction.
@@ -17,3 +20,11 @@ Meeting with the mysterious Fia, Gonathon was struck with yet another shocking r
 But the question was, would these companions stand alongside him? For upon regrouping with the other adventurers, the most stupefying twist of all was revealed: Fuwawa, Mococo, Nerissa, Bijou, and their leader Shiori had turned their backs on the cause they had fought so hard for and had going rogue. Locking eyes with Shiori, the Archiver offered yet another seemingly simple choice: [“Are you with us?”](https://www.youtube.com/live/IWNcqsQxuWo?si=DDxWY6Ijue3gNRMc&t=7711)
 
 So ends the second journey of Gonathon G. Throughout his many trials, the Humble Knight has learned the importance of choosing his own path and not simply living as the mindless pawn of others. Despite losing the memories of the one he held most dear, Gonathon remains committed to fighting for what he believes in. But now, with many of his friends, including the one who showed him so much kindness, seemingly standing against the cause he had fought so long and hard for, will the Humble Knight be able to stand firm? Or will he succumb to the temptations offered to him by these malefactors and sink to even greater depths?
+
+## Fanart
+
+["her loyal knight" by Logilies](https://x.com/Logiies/status/1928228176104177699)
+
+["To the humble knight we love" by blueplanton](https://x.com/blueplankton/status/1921493502866653495)
+
+["A Knight's Pain" by JP](https://x.com/JJPP_Works/status/1947501899995091048?t=RNZjTM7FEeTmvhDyMtMomw)

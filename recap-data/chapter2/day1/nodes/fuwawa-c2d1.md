@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 The fluffy one’s beginning mirrored that of all the others—she was given the rundown of her situation, her mission, and the state she was in: missing a piece of her memories. She was understandably confused, but, as always, she faced her new reality with quiet resolve. Just like in her past journey, she accepted her role and duties without hesitation.
 
 When asked to choose an occupation, Fuwawa became a chef. Her reason was simple and heartfelt: she wanted to bring people together through food, to create joyful moments with her cooking—a touching motive that fit her perfectly.
@@ -15,3 +18,9 @@ She spent time exploring the kingdom, inspecting the [kitchen](https://www.youtu
 [The chickens...](#embed:https://www.youtube.com/live/-zBlbI-EuCw?si=EsVMxO7nW5FLNBdj&t=9049)
 
 As the day came to a close, the doggo continued doing what she loved. She even attempted to bake a cake—though that endeavor didn’t go quite as planned, and she ultimately gave up. Still, it was a sweet and fluffy end to a sweet and fluffy start.
+
+## Fanart
+
+["BAU BAU" by nakazako](https://x.com/_nakazako/status/1900696188736991264)
+
+<!-- mococo -->

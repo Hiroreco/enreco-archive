@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Spotting some familiar figures within earshot of her, puzzle pieces of past memories immediately fell into place—NinoIna's title of Hero, and her sister, who she once freed from the influence of Ruination, all history from the lost mirage that was the realm of Libestal.
 
 A fellow fluent [catto speaker](https://www.youtube.com/live/BkJIFGhpKIY?si=AdkRu0SJWePxchf7&t=479) helped Ina recount her previous journey of Empathy, confirming the King of the false Libestal as a masquerade of the Outsider. Beyond the Library shelves was the true Libestal back in the past, which harbored the genesis of the Outsider (no thanks to the birds and the bees—and some alleged fairy godmother), and The Librarian’s scattered memories paramount to unraveling the Outsider’s destiny.
@@ -27,3 +30,7 @@ With a token of [Mordan Ramsey's goodwill](https://www.youtube.com/watch?v=BkJIF
 ["the hero's most powerful spell (physical)" by kshut](https://x.com/shutowl/status/1919994120837177491)
 
 ["HAVE A TASTE OF MY BOOK" by The Retch](https://x.com/aFookinRetch/status/1921997300240425214)
+
+["eh?-" by Younhand](https://x.com/Youn_hand/status/1918831922362413460)
+
+["NinoIna 'The Hero'" by Ao](https://x.com/A0S0L/status/1919050797020479947)

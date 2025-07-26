@@ -12,7 +12,7 @@ It was an illusion—one created to contain the being the heroes had called thei
 
 But not all hope was lost. Fia had pulled them back—back through time—to an older, real version of Libestal. Here, in the past, there was still a chance. A narrow, fading hope to stop the Outsider before he could ever come into being. The heroes—no, the **Shining Stars**—would be the ones to change fate.
 
-![The heroes meet Fia for the first time](/images-opt/chrecap-1-library.webp)
+![The heroes meet Fia for the first time](/images-opt/chrecap-1-library-opt.webp)
 
 However, there was one problem.
 
@@ -20,7 +20,7 @@ Time travel comes at a cost. Both the heroes and Fia had lost pieces of their me
 
 Fia wasn't alone in placing hope in the Shining Stars. Iphania, Princess of this older Libestal, ruled over the last sanctuary of a world being slowly devoured by Stains, by corruption, by the **Ruination**. When the heroes appeared before her, she believed them to be divine—fallen stars sent to defy destiny. She spoke of the Book of Prophecies, which foretold the world's end. But Iphania refused to surrender to fate, and the arrival of the heroes seemed proof that perhaps, just perhaps, the future could still be rewritten.
 
-![The heroes meeting Iphania for the first time](/images-opt/chrecap-1-princess.webp)
+![The heroes meeting Iphania for the first time](/images-opt/chrecap-1-princess-opt.webp)
 
 And so began a new journey. In a new kingdom. With new stakes.
 
@@ -41,7 +41,7 @@ With the kingdom barely sustaining its refugees, the heroes needed more than jus
 - **The Chef** – Cooked meals granting powerful buffs for their adventures.
 - **The Supplier** – Enchanted tools to boost resource-gathering efficiency.
 
-![Charm making process from a Jeweler](/images-opt/chrecap-1-charm.webp)
+![Charm making process from a Jeweler](/images-opt/chrecap-1-charm-opt.webp)
 
 Each role played an important part in the group’s advancement. Cooperation was essential. The chefs provided food for all. The smiths strengthened weapons others couldn’t. The suppliers fueled the craftsmen. And though it was less about goodwill and more about charging each other for services rendered, the system worked—barely.
 
@@ -53,7 +53,7 @@ Each Star Site centered on a specific hero, unlocking recollections of who they 
 - **Star Site: Chronos** – Governed by the relentless passage of time, its trials restored the memories of the _Warden of Time_, _Ouro Kronii_.
 - **Star Site: Chaos** – A place of madness and mischief, more like a fever dream than a dungeon, holding the memories of Chaos herself, _Hakos Baelz_.
 
-![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss.webp)
+![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss-opt.webp)
 
 The dungeons this time were far more intricate than before. Each one was a labyrinth of puzzles, traps, and trials—but above all, they demanded one thing above everything else: teamwork. No lone hero could tackle them alone. Even if someone possessed the skill to survive on their own, the challenges were designed to test not just strength or wits, but trust, timing, and synergy.
 
@@ -63,7 +63,7 @@ These weren’t just dungeons—they were trials of unity.
 
 It was also required for the heroes to submit daily diary entries to the Library—records of their thoughts, experiences, and emotions. These entries served a critical purpose: to archive their memories. In the event they ever lost them again, the Library would act as a safeguard, preserving fragments of their identities, relationships, and choices. Every joy, every sorrow, every battle and bond—they were all written down, page by page, day by day.
 
-![The Hot Pink One noting down her day](/images-opt/chrecap-1-diary.webp)
+![The Hot Pink One noting down her day](/images-opt/chrecap-1-diary-opt.webp)
 
 Beyond the main Star Sites, the heroes also undertook smaller dungeons and side missions that unveiled hidden truths. Not only did they recover the memories of their companions—they slowly began to restore Fia’s fragmented past as well.
 
@@ -73,7 +73,7 @@ And with those memories came revelations about the true nature of the Outsider�
 
 Before the heroes arrived in this kingdom, there was one who had already taken up the burden of saving the world—offering his blade in service to a doomed cause. A mysterious swordsman, known only as **the Outlander**, stood alone. Though nameless, he was far from forgotten—especially by the Princess, who held great affection for him, and he, in turn, for her. He was powerful, resolute, and driven by the will to destroy the Curse and shatter the Heart of Ruin. But that very determination sealed his fate—and everyone else’s.
 
-![The heroes meeting the Outlander for the first time](/images-opt/outlander-meet.webp)
+![The heroes meeting the Outlander for the first time](/images-opt/outlander-meet-opt.webp)
 
 As Fia recovered the last fragments of her memory, the Outlander’s true identity was revealed: **The Watcher**, a member of the Collective, whose divine purpose was to observe the fates of worlds without interference. He had seen countless tragedies unfold—including Libestal’s—and never lifted a finger. But something changed the day he met Princess Iphania. A girl with a fire in her heart, who refused to surrender to fate, who stood tall when all others had fallen. Her courage stirred something long dormant within the Watcher.
 
@@ -85,7 +85,7 @@ But defying a higher being came with a price. As punishment, he was imprisoned w
 
 To prevent such devastation from ever happening again, Fia placed their hopes in the heroes. If they could finish what the Outlander started—defeat the Curse and destroy the Heart of Ruin—the Watcher’s defiance would never come to light. The Outsider would never be born. The universe could be saved.
 
-![The Princess and the Outlander entrust the heroes with the world's fate.](/images-opt/chrecap-1-outlander.webp)
+![The Princess and the Outlander entrust the heroes with the world's fate.](/images-opt/chrecap-1-outlander-opt.webp)
 
 Though the end of the world loomed just seven days away, those seven days were more than enough for the heroes to do what they did best—stir things up.
 
@@ -98,19 +98,19 @@ Oh, how wrong that assumption was.
 Let’s sample just a few days to illustrate the magnitude of the madness:
 
 - **Day 1**: Jobs were chosen. Alliances formed. A “Dawg Pack” was established. Some remembered their pasts, others didn’t. Former lovers were now siblings. A green lady grew dangerously obsessed with the Princess. A tavern owner’s business suffered repeated sabotage.
-- **Day 2**: Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. An embarrassing fumbling performance of a red knight in front of her crush.
+- **Day 2**: Chaos incarnate, the hot pink menace, a classist, brocon, and alcoholic pink, began causing relationship destruction wherever she went. An embarrassing fumbling performance of a Scarlet Knight in front of her crush.
 - **Day 3**: Incest.
 - **Day 7**: "We defeated the Curse!" — immediately followed by a gender reveal party, complete with spontaneous birth (of gas).
 
 And that only scratched the surface... _Sigh_.
 
-![It's a bird! It's a plane! No, it's gas!](/images-opt/chrecap-1-gas.webp)
+![It's a bird! It's a plane! No, it's gas!](/images-opt/chrecap-1-gas-opt.webp)
 
-However, beneath the mind-melting absurdity were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling red knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
+However, beneath the mind-melting absurdity were moments of surprising sincerity. Genuine stories of personal growth, love, and heartbreak. A determined, fluffy café owner who held tight to her dream of connecting people through food. The steady development of a bond between the aforementioned fumbling Scarlet Knight and a blue maiden. A complicated romance between a humble knight and a witch—a love that began as manipulation, only for the witch to be moved by his kindness. But love, as always, was cruel. In the end, their paths had to diverge.
 
 Weird, wonderful, emotional—the journey was all of it. Even without the full ensemble from the first tale, the world remained alive, chaotic, heartfelt... and deeply unforgettable.
 
-![Shiori and Gonathon's last heartfelt conversation with each other](/images-opt/chrecap-1-novelgrem.webp)
+![Shiori and Gonathon's last heartfelt conversation with each other](/images-opt/chrecap-1-novelgrem-opt.webp)
 
 ### The Crimson-Colored Banquet
 
@@ -128,7 +128,7 @@ And then, a ripple tore through the space around them.
 
 A voice—cryptic, cold, and godlike—echoed across the room. A being beyond comprehension, cloaked in divinity and judgment, spoke with grim finality. It condemned the heroes and the Outlander alike, declaring their sin: the audacity to defy fate itself.
 
-![Iphania's death and the price for defying fate](/images-opt/chrecap-1-banquet.webp)
+![Iphania's death and the price for defying fate](/images-opt/chrecap-1-banquet-opt.webp)
 
 Just as divine punishment was about to be dealt, Fia intervened. In a desperate act, she saved the heroes from the impending doom. No one had foreseen such a cruel twist. No one wanted to believe what had just happened. But even in the face of heartbreak and despair, the heroes still clung to hope.
 
@@ -150,9 +150,9 @@ Perhaps the past couldn't be changed. Perhaps fate truly was immutable. But even
 
 She asked for their help once more. And, without hesitation, the heroes answered. They were heroes, after all. If the world needed saving, they would rise to the call—no matter how many times it asked.
 
-![The heroes lend their hands to Fia](/images-opt/chrecap-1-helpfia.webp)
+![The heroes lend their hands to Fia](/images-opt/chrecap-1-helpfia-opt.webp)
 
-…Except, not all of them stepped forward.
+...Except, not all of them stepped forward.
 
 Fuwawa, Mococo, Bijou, Nerissa, and Shiori remained behind—shrouded in shadow.
 
@@ -166,6 +166,6 @@ Two-toned hair flowing, golden eyes gleaming with ancient knowledge, she stood l
 
 With her arms outstretched and her voice steady, she asked the remaining heroes just one question:
 
-!["Who's with us?"](/images-opt/chrecap-1-shiori.webp)
+!["Who's with us?"](/images-opt/chrecap-1-shiori-opt.webp)
 
 And thus marked the end of Chapter Two of this enigmatic journey.

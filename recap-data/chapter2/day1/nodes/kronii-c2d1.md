@@ -1,6 +1,9 @@
-The first thing the blue maiden saw upon waking was a magical talking cat explaining her dire situation and her ultimate mission. And the first thing she did upon seeing said cat? She called it [fat](https://www.youtube.com/live/9XG91aw1gTo?si=HUKTRLtdetft9DSn&t=554). A flawless introduction.
+<!-- title: Tam Gandr -->
+<!-- status: Alive -->
 
-Tam—or was she Tam? The Blue Maiden couldn't recall. Her name, her past journey, and even her former comrades were but faint echoes in her mind. Foggy, half-remembered fragments. But she didn’t seem to care. As ever, she remained completely deadpan, even amid the chaos and confusion.
+The first thing the azure maiden saw upon waking was a magical talking cat explaining her dire situation and her ultimate mission. And the first thing she did upon seeing said cat? She called it [fat](https://www.youtube.com/live/9XG91aw1gTo?si=HUKTRLtdetft9DSn&t=554). A flawless introduction.
+
+Tam—or was she Tam? The Azure Maiden couldn't recall. Her name, her past journey, and even her former comrades were but faint echoes in her mind. Foggy, half-remembered fragments. But she didn’t seem to care. As ever, she remained completely deadpan, even amid the chaos and confusion.
 
 Others, however, seemed to remember her. Calli was the first to call her by name—Tam Gandr—followed by Gonathon, who felt an odd sense of loyalty toward her (see [Gonathon-Tam](#edge:kronii-gigi)). And Elizabeth? Oh, there was no mistaking it—she definitely [remembered Tam](https://www.youtube.com/live/9XG91aw1gTo?si=VPp48UAFuCMSvKch&t=2205). The moment they crossed paths again, it all came rushing back for her. With no hesitation, Elizabeth pointed her out, calling her out for who she used to be: a sassy, sharp-tongued "fake queen" who thrived on insulting others purely for her own amusement.
 
@@ -10,7 +13,7 @@ Strangely enough, Tam became something of a focal point. Perhaps it was the uniq
 
 [What did you call me?](#embed:https://www.youtube.com/live/9XG91aw1gTo?si=UgoR7e-WfOs8ARgy&t=3782)
 
-And yet, name or no name, the Tam-ness of Tam still shone through. Her signature snark, sharp side comments, and faint air of [superiority](https://www.youtube.com/live/9XG91aw1gTo?si=vZp0hb6TVjwCsmUK&t=3549) lingered. Once a queen, always a queen… even if no one remembered her reign.
+And yet, name or no name, the Tam-ness of Tam still shone through. Her signature snark, sharp side comments, and faint air of [superiority](https://www.youtube.com/live/9XG91aw1gTo?si=vZp0hb6TVjwCsmUK&t=3549) lingered. Once a queen, always a queen... even if no one remembered her reign.
 
 Moving on, when it came time to pick a job, Tam chose to be a supplier. The idea of gathering materials appealed to her, so she wasted no time getting started. She even managed to trade some of her early findings for a snazzy [hat](https://www.youtube.com/live/9XG91aw1gTo?si=GRs1MgjdHWSBgNzw&t=8470).
 
@@ -27,3 +30,5 @@ Eventually, Tam settled down to write her journal entry for the Library, reflect
 ["Supplier fit" by CHEL](https://x.com/chelimationz/status/1919839617232314759)
 
 ["in the mirror" by DoppiDonny](https://x.com/DoppiDonny/status/1921230140056424847)
+
+["Tam Gandr" by sleepy](https://x.com/hunk_404/status/1919887710409654390)

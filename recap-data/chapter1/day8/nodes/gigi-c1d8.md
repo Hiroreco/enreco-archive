@@ -1,3 +1,6 @@
+<!-- title: Gonathon G -->
+<!-- status: Alive -->
+
 It was the day of reckoning, the finale that would decide the fate of everything. Gonathon was faced with two major challenges ahead of him: the looming final battle against the king and the escalating corruption wrought by the Stain Princess, Koseki Bijou. The day had just begun, and things were already getting out of hand. Nerissa informed him of the corruption spreading rapidly, leaving the kingdom’s fields ravaged. The sight was grim, but Gonathon resolved to put an end to it.
 
 [The situation is dire](#embed:https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=602)
@@ -8,7 +11,7 @@ At times, she even resorted to desperate, almost threatening behaviors like leap
 
 As much as Gonathon wanted to spend more time with Amelia, there were more urgent matters. Gonathon confronted Bijou to set matters straight. During their exchange, he learned that the sentient entity on her head, named Joe Mama, played a critical role in her corruption. When he asked to touch [Joe Mama](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=1606), Bijou refused, heightening his suspicion. Gonathon then decided to follow the princess, sneakily observing her actions from a distance.
 
-[What could she be writing about...](#embed:https://www.youtube.com/embed/WvRIdaH107U?si=s2n4Umcp_5FxRL8p&start=2535)
+[What could she be writing about...](#embed:https://www.youtube.com/live/WvRIdaH107U?si=s2n4Umcp_5FxRL8p&start=2535)
 
 He discovered Bijou writing a cryptic book, its contents likely meant to spread her corruption further. Realizing the gravity of the situation, Gonathon sought help from [Ina and Mario](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=4187). Together, they devised a plan to create the _Essence of Empathy_, an ancient cure for corruption. However, they still faced a challenge: how could they get Bijou to drink it?
 
@@ -27,3 +30,17 @@ And then came the final battle. Everything had led to this moment. Gonathon, alo
 The victory was hard-won, but the celebration was short-lived. A cruel twist awaited the heroes, shaking them to their cores (see [King: The True Evil](#node:king-of-libestal)).
 
 The heroes were returned to the [white room](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=12694), marking the conclusion of their first journey. Though the twist left everyone shaken, Gonathon chose to focus on spending his final moments with those who had been by his side.
+
+## Fanwork
+
+["enreoc gg rkgk" by Harutimu](https://x.com/harutimu_415/status/1862390625846304772)
+
+["Until next time, Humble little knight" by Daaku](https://x.com/koizumi_arata/status/1833287158334939257)
+
+## Memes
+
+["the cuck chair" by Turing](https://x.com/DoctorTuring/status/1831134511247089863)
+
+["He wins" by Kazuki Ich](https://x.com/kazukiich/status/1832728799223673195)
+
+["What would he do" by Nom](https://x.com/NomyWomy/status/1833337740441550885)

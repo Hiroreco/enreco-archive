@@ -1,10 +1,13 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 The events of yesterday were hazy in Shiori's mind, a strange feeling for someone such as her. A reboot? That would explain some of the oddness. Shiori was normally keener on the details, as a writer should. For now there was little left but to go about her day. Her shop, for instance, had a single sale so far—Mordan Ramsey had bought [something earlier](https://youtu.be/mb91g7vQSnA?t=342), but, bemusingly, her items seemed to be untouched.
 
 When Shiori went to Nerissa's house, she discovered a hidden shrine and took several books off a secret shelf. Shiori was annoyed by the loud music, so they chose to have a picnic at her house instead (see [Nerissa-Shiori](#edge:nerissa-shiori)).
 
 [In My Heart I Have Given Up.](#embed:https://youtu.be/mb91g7vQSnA?t=1065)
 
-As they conversed, Nerissa disclosed that she had lost hope in the Red Knight, and Shiori concurred that it was best that way. As they talked about Roa, [Shiori's phone coincidentally rang](https://youtu.be/mb91g7vQSnA?t=1096), and the panther confirmed the time of the party. After returning the book, Shiori saw Nerissa and the Red Knight have an uneasy encounter, while Mococo ran away following what appeared to be theft.
+As they conversed, Nerissa disclosed that she had lost hope in the Scarlet Knight, and Shiori concurred that it was best that way. As they talked about Roa, [Shiori's phone coincidentally rang](https://youtu.be/mb91g7vQSnA?t=1096), and the panther confirmed the time of the party. After returning the book, Shiori saw Nerissa and the Scarlet Knight have an uneasy encounter, while Mococo ran away following what appeared to be theft.
 
 Yesterday's events resurfaced, ones about Shiori's wife and the _possible_ implications that... more than just gas may be in their future. As Shiori called Bijou, it seemed that Jeweled One was still ill; worse, it seemed to spread to others as Mococo showed similar symptoms of this mysterious virus. Well, at least a party for constipation was set up! Regardless, in sickness and in health, Shiori would care for Bijou.
 
@@ -70,4 +73,10 @@ Gonathon confirmed that not everything written was true; she might have been fur
 
 ["I can not quite recall it, but I can feel it" by TomYumKung_Art](https://x.com/TomYumKung_Art/status/1922095825062117883)
 
+<!-- gigi -->
+
 ["Maybe I'm not as kind as you thought" by Yog](https://x.com/MassiveYog/status/1923695201052393918)
+
+<!-- gigi -->
+
+["Archiver" by LinSHCH](https://x.com/_LinSHCH_/status/1933532864559112462)

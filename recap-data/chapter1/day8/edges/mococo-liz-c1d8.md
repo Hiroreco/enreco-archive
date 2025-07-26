@@ -6,7 +6,7 @@ _"I will always be by your side."_ A promise far easier said than done. Elizabet
 
 Mococo, someone she had sworn to protect, someone she had promised to always stand by, had succumbed to corruption. She was spreading chaos throughout the kingdom—an undeniable act of evil. Elizabeth tried to stop her. She tried to reason with her. But Mococo wouldn't listen. Wouldn’t—or couldn’t—[stop](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=10033).
 
-And when Mococo pleaded, begged, and insisted that it wasn’t her, that she wasn’t the one doing all these horrible things… Elizabeth had no choice but to reject her. And in doing so, she broke the promise she had made on the very first day. It was heart-wrenching—for both of them. Mococo, who had always been terrified of being alone, now found herself more alone than ever. Feared. Avoided. Even abandoned by the person she trusted most.
+And when Mococo pleaded, begged, and insisted that it wasn’t her, that she wasn’t the one doing all these horrible things... Elizabeth had no choice but to reject her. And in doing so, she broke the promise she had made on the very first day. It was heart-wrenching—for both of them. Mococo, who had always been terrified of being alone, now found herself more alone than ever. Feared. Avoided. Even abandoned by the person she trusted most.
 
 And Elizabeth? She did what a knight should do. She upheld righteousness. She made the _right_ choice. So why did it hurt so much? Why did it feel like she had just shattered something irreplaceable? She had cut ties with someone who had looked up to her. Someone who had seen her as a big sister. Someone she had sworn to protect. But in this moment, it felt like she had done the opposite.
 
@@ -19,3 +19,11 @@ Elizabeth apologized—apologized for the harsh words she had spoken, for abando
 She had learned something that day—something far more important than chivalry or duty. That being a knight wasn’t about following rigid orders. It wasn’t about doing what was expected of her.
 
 It was about following her heart. It was about fighting—not just for justice, but for the people she loved.
+
+## Fanart
+
+["A knight fights for more than a king" by Alma](https://x.com/A1ma3ru/status/1832977664514179283)
+
+<!-- fuwawa -->
+
+["You wish to call me sister now?" by Magho](https://x.com/M_Agho/status/1834333495638065282)

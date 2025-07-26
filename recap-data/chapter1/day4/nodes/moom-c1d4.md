@@ -1,3 +1,6 @@
+<!-- title: Napoleon Galileo Aristotle Targaryen -->
+<!-- status: Alive -->
+
 Another day, and you guessed it, another name for our brown lady. This time, she deemed herself as Napoleon Galileo Aristotle Targaryen. Now on her fourth moniker, she began her journey with the simple goal of trying to reclaim the money she had lost to gambling the previous day. Her strategy? Gamble again. Unfortunately, luck was not on her side, and after one swift loss, she promptly [walked away](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=798) from the tables.
 
 Not one to dwell on misfortune, Napoleon set out to catch up on the kingdom’s latest developments. She stumbled upon Raora, now known as Queen Mario, and Bijou, who had declared herself Princess of the Kingdom of Evergreen. The pair now identified as mother and daughter, much to Napoleon’s [bemusement](https://www.youtube.com/live/PUlE34rNV-g?feature=shared&t=912).

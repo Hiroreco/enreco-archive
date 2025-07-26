@@ -1,3 +1,6 @@
+<!-- title: Fuwawa Abyssguard -->
+<!-- status: Alive -->
+
 Fuwawa woke up and went straight to work. She had to be diligent—only through hard work could she create delicious food, fulfill her role as a chef, and ultimately achieve her dream of bringing people together.
 
 She gathered materials, completed quests, slew Stains, and farmed—her entire morning was devoted to labor and nothing else. Later, she was invited by Nerissa to join Cecilia and Elizabeth in tackling the [Star Site: Elpis Dungeon](https://www.youtube.com/live/a940cWsshj4?si=UY5Oz5F1CLczMmM1&t=2686). It was a tough one—she fell and fell and fell again—but in the end, the team pulled through and successfully recovered IRyS’s [memories](https://www.youtube.com/live/a940cWsshj4?si=65k58U-GsS7g6zhV&t=5966).

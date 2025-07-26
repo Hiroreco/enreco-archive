@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immergreen -->
+<!-- status: Alive -->
+
 _Cecilia_, the very durable _automaton_, was minding her own business when, out of nowhere, a grand piano fell on her, knocking her out instantly. Don’t you just hate it when random pianos fall from the sky—indoors, no less?
 
 [Hate it when that happens](#embed:https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=435)
@@ -19,5 +22,7 @@ Later, Cecilia teamed up with _Gura and Fauna_ to take on the _Underworld Dungeo
 Their day didn’t end there. They ventured into a casino to test their luck. Cecilia and Fauna both bet on green (naturally, as green ladies). Cecilia faced some losses but managed to win back her money in the end—unlike Gura, who lost everything. Despite the ups and downs, Cecilia wrapped up her day feeling fulfilled, looking forward to more adventures with her guildmates, and hoping the fun would continue.
 
 [Green women whispering](#embed:https://www.youtube.com/live/SAdndMvNK98?t=12161)
+
+## Fanart
 
 ["Revelation" by Mittsu](https://x.com/MittsumiA/status/1902371897985397070)

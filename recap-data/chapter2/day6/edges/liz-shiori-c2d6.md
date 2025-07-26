@@ -8,13 +8,13 @@ The chef had a surprising knack for weaving words into wonderful stories, ones s
 
 Then, it came to a halt as Nerissa shared her [particular story](https://www.youtube.com/watch?v=uEB2dIe37oo&t=23330s), a _scam_ that Shiori wrote.
 
-[Read "The Cell"](#text:the-cell)
+- [Read "The Cell"](#text:the-cell)
 
 Thorn.
 
 Elizabeth didn't think anyone else would know of her trusted blade's name. She did not tell anyone about Thorn, so how could Shiori Nyavella have known that name?
 
-The details of the Red Knight and the imprisonment of what seemed to be a character based on Nerissa...
+The details of the Scarlet Knight and the imprisonment of what seemed to be a character based on Nerissa...
 
 _Lies,_ a **_scam_**
 
@@ -43,3 +43,9 @@ It seemed that their friendship, one that started sweetly in the day with gifts 
 ["The Cell" by Keisea](https://x.com/Keiseeaaa/status/1925918187972964430)
 
 ["When have I ever lied to you?" by ESTY](https://x.com/Sticker_sr/status/1921550872217104488)
+
+["Who were you before Lady Bloodflame" by Mr. Joeboto](https://x.com/LordJoeboto/status/1920978616894062922)
+
+["lies?" by wan](https://x.com/wan_m_i/status/1920859036972364262)
+
+["when have I ever lie to you" by Kirby Otaku](https://x.com/kirbyotaku/status/1928557863259222307)

@@ -6,7 +6,7 @@ While wandering through the kingdom, Elizabeth caught sight of Tam, and immediat
 
 [Ah, so you are the Tim!](#embed:https://www.youtube.com/live/M3cuDNZrIKM?feature=shared&t=7039)
 
-Elizabeth, however, was unfazed. She wanted to set matters straight and challenged Tam to a duel. But Tam, unwilling to get her own hands dirty, declined and instead called upon her subordinate, the Hot Pink One, to fight in her place. Confident in her superior weaponry and skill, Elizabeth saw this as an easy victory. After all, her opponent’s "special ability" was just… farting. How hard could it possibly be?
+Elizabeth, however, was unfazed. She wanted to set matters straight and challenged Tam to a duel. But Tam, unwilling to get her own hands dirty, declined and instead called upon her subordinate, the Hot Pink One, to fight in her place. Confident in her superior weaponry and skill, Elizabeth saw this as an easy victory. After all, her opponent’s "special ability" was just... farting. How hard could it possibly be?
 
 [Hot Red vs. Hot Pink](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7494)
 
@@ -24,4 +24,8 @@ Elizabeth was appalled at what she saw—Shakira, kneeling before Tam, acting as
 
 Elizabeth saw nothing in Tam that resembled royalty—no honor, no chivalry, no sense of grace. In her eyes, this woman was not worthy of being a queen. And as much as she wanted to never deal with Tam again, she hoped others would eventually see the light as well.
 
+## Fanart
+
 ["Libestal's forbidden love" by yuuto](https://x.com/yuutomeh97/status/1830490741384356254)
+
+["Tam Tender vs ERB" by Ho2nium](https://x.com/H_Hornium/status/1831083165341106580/photo/1)

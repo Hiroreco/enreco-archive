@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 Shakira embarked on the second day of her adventure with excitement buzzing in her chest. It wasn’t long before she found herself at the quest board, where she encountered Fauna, Darwin, and Cecilia.
 
 The group struck up a lively conversation, with Shakira and Cecilia bonding over their shared knowledge of German, with Shakira proclaiming it to be the language of the gods.
@@ -14,7 +17,7 @@ Later, Cecilia invited everyone to join her German-learning quest. Shakira, stil
 
 Regardless, Shakira chose not to join the quest and went her own way. Later on, Darwin called Shakira through the telekinesis device, now suddenly speaking fluent German—a skill she had just acquired from Cecilia’s quest. It was a deliberate jab, and Shakira couldn’t help but feel annoyed by the scam call.
 
-[Dieser Satz ist auf Deutsch](#embed:https://www.youtube.com/embed/qKlzaYirN88?si=cYKwhcQJE8Dwtauq&start=1719)
+[Dieser Satz ist auf Deutsch](#embed:https://www.youtube.com/live/qKlzaYirN88?si=cYKwhcQJE8Dwtauq&start=1719)
 
 Shakira stopped by Calli and Gonathon, using the opportunity to warn them about FaunaMart and the potential dangers posed by the red hats. Despite it only being her second day in the kingdom, Shakira’s keen sense of justice was already attuned to the undercurrents of deceit. Though her trust in others was beginning to waver, she found some comfort in her pink cat and her guildmates; at least these folks would never betray her... right? (see [Darwin-Shakira: Double Agent](#edge:kiara-moom))
 
@@ -27,3 +30,13 @@ After conquering the dungeon and recovering memories of Gawr Gura, Shakira retur
 [Never gets old](#embed:https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=9867)
 
 As the day drew to a close, Shakira, joined by Liz and Raora, ventured back into the first dungeon. Guided once again by her RPG instincts, she uncovered another hidden music disc, _"Excuse me, can you please RIP"_. She became the first adventurer to own this artifact, a small but satisfying [victory](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=13548) to end a chaotic day.
+
+## Fanart
+
+["Disc" by Hina](https://x.com/HYurisaki/status/1904203019035824337)
+
+<!-- calli -->
+
+["Uhmmm....pardon? by BunBBun](https://x.com/BunBBun1/status/1831075309732659391)
+
+<!-- kronii -->

@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 **Are You Okay?**
 
 Another day, another journal. Elizabeth is worried about keeping _someone_ safe. Yet when she looks at Thorn and strikes at the enemy, it cuts differently now. Flashes of ink splashed across a page seared into her memory. Thoughts of accosting someone without cause, without jury, without... justice.
@@ -91,3 +94,9 @@ But Kiara brings a warning. [Something to heed](https://www.youtube.com/live/sDj
 Calling Nerissa a witch. Saying she casts curses. Elizabeth wants to believe she's a good witch—but maybe it’s a warning too late.
 
 If a witch is fated to be a witch... Then a witch she shall be.
+
+## Fanart
+
+["Even a rose can cut when all that's left are thorns." by Keisea](https://x.com/Keiseeaaa/status/1924575131592228995)
+
+<!-- nerissa -->

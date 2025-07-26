@@ -1,8 +1,11 @@
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
+
 It was the final day, and while everyone frantically worked to end Bijou’s corruption saga, Shiori had other plans. She was focused on advancing her ultimate goal—a "Happy Sugar Life."
 
 While wandering around the kingdom, Shiori crossed paths with Bijou, who gifted her a Stain Hat, and, in a surprising twist, nominated her as the [Stain Prince](https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=448). For most people, wearing the Stain Hat would have been alarming, as it caused corruption. But Shiori? She felt exactly the same. Even Nerissa, puzzled that the corruption cure didn’t work on her, speculated, "Shiori’s already corrupted, but in a fun way." Shiori, naturally, found this amusing and even entertained the idea of spreading the corruption, affectionately calling it "her children."
 
-[You can't fix what's not broken](#embed:https://www.youtube.com/embed/dTf0g5tqzBU?si=RSHASwdQD5Os_E9z&start=687)
+[You can't fix what's not broken](#embed:https://www.youtube.com/live/dTf0g5tqzBU?si=RSHASwdQD5Os_E9z&start=687)
 
 Determined to pursue her "Happy Sugar Life," Shiori proposed to [Ina](https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=830), suggesting that Ina join her polycule so they could spread corruption together. However, Ina seemed less enthusiastic about the whole corruption thing and declined. That was one failed attempt—on to the next.
 
@@ -20,10 +23,18 @@ As Shiori pondered her predicament, she realized she wasn’t entirely alone. Sh
 
 Finally, everyone was urgently summoned to the kingdom gates for one last battle against the Stain King. True to form, Shiori, ever the chill one, stood back and watched as the heroes faced the King head-on. But this time, the Stain King wasn’t leaving her out of the action.
 
-[Nothing personal kid](#embed:https://www.youtube.com/embed/dTf0g5tqzBU?si=vCsybv_p8YdnCMWU&start=4968)
+[Nothing personal kid](#embed:https://www.youtube.com/live/dTf0g5tqzBU?si=vCsybv_p8YdnCMWU&start=4968)
 
 When the heroes finally bested the Stain King, they uncovered the painful truth about the ruler of Libestal (read [King: The True Evil](#node:king-of-libestal)).
 
 And with that, everyone was returned to where their journey had first begun: the white box. Thus marked the end of their first adventure.
 
 [Bonus Scene](#embed:https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=6723)
+
+## Fanart
+
+["Steep journey" by Taku](https://x.com/Taku_Artworks/status/1831427591443714133/)
+
+["The Archiver" by Roku](https://x.com/KurochaNai/status/1900890295069520307)
+
+["witch or temptress" by Ari](https://x.com/ariichiver/status/1832547587053793576)

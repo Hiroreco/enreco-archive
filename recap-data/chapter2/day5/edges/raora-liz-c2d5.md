@@ -8,7 +8,7 @@ Soft hands tenderly patted her head as Lady Elizabeth's laugh softly rang in Roa
 
 Or was it her kindness that attracted Roa to her?
 
-After the warm greeting, Roa watched the Red Knight approach the Gacharms shop, inquiring about the charms they sell and what they would advise her to use. There was a sense of pride Roa felt as she watched Bijou handle the deal.
+After the warm greeting, Roa watched the Scarlet Knight approach the Gacharms shop, inquiring about the charms they sell and what they would advise her to use. There was a sense of pride Roa felt as she watched Bijou handle the deal.
 
 The Knight grew stronger from their charms. Roa admired Elizabeth's strength since she could only dream of being as strong as she was.
 
@@ -22,4 +22,4 @@ But it seemed Elizabeth was popular; Roa [watched](https://www.youtube.com/live/
 
 Roa might be a pretty kitty, but she was a persistent panther too, soon buying gifts and leaving them in Elizabeth's room.
 
-Only time will tell if she can make The Red Knight hers.
+Only time will tell if she can make The Scarlet Knight hers.

@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Elizabeth didn’t want to forget. With so many of her comrades having lost their memories due to the effects of time travel, even if they couldn't remember her, she at least wanted to remember them—for their sake, and her own.
 
 In the previous journey, fragments of past adventures would surface in Elizabeth’s mind as fleeting images, but now things were clearer. To preserve the memories of her journey, her feelings, she chose to commit them to paper.
@@ -6,7 +9,7 @@ In the previous journey, fragments of past adventures would surface in Elizabeth
 
 Jade Sword, knight of honor and chivalry—those were still the principles the red-clad knight held close. Even in a new land, under a different ruler, and surrounded by those who might have forgotten her, her sense of duty, her honor, and her role as one of the "Shining Stars" kept her moving forward.
 
-With that resolve, she began her new day, signing her letter as the scarlet knight she was: Elizabeth ~~Romeo~~ Rose Bloodflame (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa)).
+With that resolve, she began her new day, signing her letter as the Scarlet Knight she was: Elizabeth ~~Romeo~~ Rose Bloodflame (see [Elizabeth-Nerissa: The Fumbler](#edge:liz-nerissa)).
 
 She had two goals for the day: do her job as a smith and tackle the Star Site: Elpis Dungeon. The former came easily—she jumped straight into upgrading her weapon, which turned out to be much simpler than she’d anticipated. The latter, though, presented a different challenge—not in difficulty, but in deciding who to enter the dungeon with.
 
@@ -25,3 +28,5 @@ Toward the end of the day, she joined Kiara and Shiori to explore the Stronghold
 ## Fanart
 
 ["Evil voice" by underdatv](https://x.com/underdatv/status/1919463544581718116)
+
+<!-- bijou, raora, ina, irys, cecilia -->

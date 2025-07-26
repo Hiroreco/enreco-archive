@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 **HOME FOUND**
 
 On the last day, Mordan Ramsey resumed building houses for the upcoming auction. It was business as usual. Even so, she wondered what to do with the money she had earned. Perhaps she could buy another ring and marry someone special, but she had long decided that married life wasn't one for the therapist.
@@ -33,3 +36,9 @@ Mordan knew that she would miss these moments with everyone, and she needed to c
 As fireworks lit up the twilight sky, the banquet had begun—but sadly, even laughter couldn't silence the fate that was fast approaching.
 
 (See [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))
+
+## Fanart
+
+["Passing the Torch" by luce](https://x.com/lucesamaaa/status/1927770964688802240)
+
+<!-- liz -->

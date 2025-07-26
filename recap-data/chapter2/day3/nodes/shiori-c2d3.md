@@ -1,6 +1,9 @@
-Hmmm… maybe churning butter 24/7 wasn’t the smartest path to riches—Shiori came to that realization eventually. In hindsight, yeah, it made sense. So a new business model was in order. It wasn’t that she was broke—she’d done _plenty_ to stay afloat—but even a con artist needs a steady income.
+<!-- title: Shiori Nyavella -->
+<!-- status: Alive -->
 
-So what if, instead of selling food… she sold _fanfics_?
+Hmmm... maybe churning butter 24/7 wasn’t the smartest path to riches—Shiori came to that realization eventually. In hindsight, yeah, it made sense. So a new business model was in order. It wasn’t that she was broke—she’d done _plenty_ to stay afloat—but even a con artist needs a steady income.
+
+So what if, instead of selling food... she sold _fanfics_?
 
 [Freaky deaky](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=EyxaXf2cdLNBNqxy&t=1107)
 
@@ -8,13 +11,13 @@ Writing had always been her thing. Her mind was a swirling enigma of oddities an
 
 Then, back to serious matters. The novel.
 
-A world of fantasy, time travel, cutthroat capitalism, and minimum wage labor—there was _so_ much material to draw from. But something was missing. The stories were too… tame. And then, divine inspiration struck: _yaoi_.
+A world of fantasy, time travel, cutthroat capitalism, and minimum wage labor—there was _so_ much material to draw from. But something was missing. The stories were too... tame. And then, divine inspiration struck: _yaoi_.
 
 [Sea x Lovers](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=O2p37u0sm5cNAVEe&t=5653)
 
 Novel complete.
 
-[Read Sea x Lovers](#text:sea-x-lovers)
+- [Read Sea x Lovers](#text:sea-x-lovers)
 
 The next hurdle? Marketing it. Figuring out how to make money off it. Luckily, Shiori knew just the right person to humbly request assistance from.
 
@@ -22,7 +25,7 @@ It had been three days since she first got to know the Orange Knight. Gullible, 
 
 A warmth.
 
-It was subtle at first, just a flicker. But now, it burned just enough for even a witch like her to take notice. And maybe… just maybe, it was something she didn’t want to ignore (see [Shiori-Gonathon](#edge:gigi-shiori)).
+It was subtle at first, just a flicker. But now, it burned just enough for even a witch like her to take notice. And maybe... just maybe, it was something she didn’t want to ignore (see [Shiori-Gonathon](#edge:gigi-shiori)).
 
 Afterward, she ended the day documenting her experiences in her journal about the new bonds she'd just made with the Humble Knight.
 

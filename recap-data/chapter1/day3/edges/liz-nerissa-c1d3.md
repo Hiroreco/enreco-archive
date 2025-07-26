@@ -13,3 +13,7 @@ Despite this revelation, Elizabeth didn’t hold it against her. Not everyone ne
 Truth be told, Elizabeth was a [fumbling mess](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=2740) whenever the blue maiden appeared. And every time they parted ways, Elizabeth quietly hoped for more moments with Nerissa in the days to come.
 
 [Can't stop thinking about her](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=2185)
+
+## Fanart
+
+["The witch will steal your heart..." by set](https://x.com/_se_t_/status/1832701352004456557)

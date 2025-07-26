@@ -1,3 +1,6 @@
+<!-- title: Mordan Ramsey -->
+<!-- status: Alive -->
+
 The day was going to be normal for her therapy services—or at least Mordan believed it would be.
 
 Receiving Gonathon G’s [urgent cries for help](https://www.youtube.com/live/ABO6qUKDBG0?si=erILWy8VCbyY6pl8&t=359) early in the morning was not a surprise for Mordan Ramsey. Regardlessas—as his therapist—she had found the need to be much harsher with him in future sessions. She recognized that she only wanted the best for him, especially in her capacity as a fellow wolf.
@@ -10,11 +13,11 @@ Back to the Therapy Stall once again! The tired therapist could only allude to G
 
 Mordan later joined Kiara, Roa, and Gonathon and swiftly finished the **Star Site: Chaos Dungeon**. After that, she defeats the Outlander in a duel with the power of her cooking.
 
-Mordan soon continued on her usual tasks. Building an onsen seemed to calm her down, but alas… a therapist’s job is never done.
+Mordan soon continued on her usual tasks. Building an onsen seemed to calm her down, but alas... a therapist’s job is never done.
 
-She reopened the stall for Nerissa, who had needed the confidence to confess to Lady Bloodflame. Mordan traded Nerissa a rose, which she suggested she give to the Red Knight to prove her feelings. It's nothing too fancy.
+She reopened the stall for Nerissa, who had needed the confidence to confess to Lady Bloodflame. Mordan traded Nerissa a rose, which she suggested she give to the Scarlet Knight to prove her feelings. It's nothing too fancy.
 
-Next up is Bijou and her marital troubles with Shiori—and about who would take care of their child, Khaos. In fact, the whole family barged in! It’s no longer just family counseling… It's a whole child custody case! One that overwhelms and frustrates Mordan (who is forced to provide housing for the child) so much that she curses profanities–indirectly–towards her clients!
+Next up is Bijou and her marital troubles with Shiori—and about who would take care of their child, Khaos. In fact, the whole family barged in! It’s no longer just family counseling... It's a whole child custody case! One that overwhelms and frustrates Mordan (who is forced to provide housing for the child) so much that she curses profanities–indirectly–towards her clients!
 
 [_So unprofessional!_](#embed:https://www.youtube.com/live/ABO6qUKDBG0?si=8wRcb_rUHunL6g-l&t=15020)
 

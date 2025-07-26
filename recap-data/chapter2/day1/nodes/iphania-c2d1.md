@@ -1,3 +1,6 @@
+<!-- title: Princess Iphania -->
+<!-- status: Alive -->
+
 Princess Iphania, in her own right, stood as the ruler of this version of the kingdom of Libestal. Gentle in voice and soft in demeanor, she carried herself with a quiet strength—a kind-hearted soul clinging to hope in a world on the brink of collapse. When the heroes arrived, seemingly from the stars themselves, she looked upon them not with suspicion, but with the belief that they might be a long-awaited miracle.
 
 [Our Shining Stars](#embed:https://www.youtube.com/live/2toZfafpyW8?si=zj_BRuHqgb6pJOeW&t=1153)

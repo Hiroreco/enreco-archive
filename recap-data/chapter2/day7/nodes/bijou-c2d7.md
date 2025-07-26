@@ -1,3 +1,6 @@
+<!-- title: Koseki Bijou -->
+<!-- status: In-bread -->
+
 It is the day of the gas reveal, but preparations are still in order. Bijou shares her recent conversation with others, which leads them to believe that perhaps it's just [constipation](https://www.youtube.com/live/4_zJe0t0558?si=y5yjkh4NAX9clGIW&t=399), or perhaps a weird virus; only time could tell. Still, she desired to meet her beloved, and Shiori wanted to give her food, so they agreed to meet at the archiver's house.
 
 But upon reaching the archiver's door, she's first met with Gonathon G. Bijou quickly realizes that the archiver has no recollection of the knight. This forces her to intervene and have a private chat with him. Bijou tells him that Shiori was considering temporarily deleting her memories of him, and now she knew that it worked.
@@ -8,7 +11,7 @@ Once Bijou notices that her onii-chan woke up, she immediately wants to show her
 
 As she's placing the final touches, people are gathering at the wagon to face the Heart of Ruin. In the meantime, Fuwawa report the same stomachache as Bijou and Mococo.
 
-_"IT COULD BE GAS, IT COULD BE GAS THO, I CAN'T TELL"_
+> IT COULD BE GAS, IT COULD BE GAS THO, I CAN'T TELL!
 
 And in the end... It was not gas... Nor a pregnancy but a secret third thing. The Curse. The curse has inflicted Shiori, Fuwawa, Mococo, Nerissa, and Bijou.
 

@@ -1,6 +1,6 @@
 <!-- title: Tam x Tam -->
 
-The Queen flustered immediately. Before her, on the surface of the ornate sea lantern was the most gorgeous woman of Call
+The Queen flustered immediately. Before her, on the surface of the ornate sea lantern was the most gorgeous woman of all
 
 Long legs.
 Helicopter bladed halo.

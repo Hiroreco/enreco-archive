@@ -1,0 +1,31 @@
+{
+  "name": "@enreco-archive/markdown-extensions",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./RevertUnhandledDirective": "./dist/RevertUnhandledDirective.js",
+    "./TextAlignmentDirective": "./dist/TextAlignmentDirective.js",
+    "./UnderlineDirective": "./dist/UnderlineDirective.js"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "build": "tsc --outDir ./dist"
+  },
+  "devDependencies": {
+    "@enreco-archive/eslint-config": "workspace:*",
+    "@enreco-archive/prettier-config": "workspace:*",
+    "@enreco-archive/typescript-config": "workspace:*",
+    "eslint": "catalog:"
+  },
+  "dependencies": {
+    "@types/mdast": "^4.0.4",
+    "mdast-util-directive": "^3.1.0",
+    "mdast-util-to-hast": "^13.2.0",
+    "mdast-util-to-markdown": "^2.1.2",
+    "remark": "^15.0.1",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0",
+    "unist-util-visit-parents": "^6.0.0"
+  }
+}

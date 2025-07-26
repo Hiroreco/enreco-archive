@@ -1,3 +1,6 @@
+<!-- title: NinoIna -->
+<!-- status: Alive -->
+
 Awakening from slumber, the Hero browsed the shops for breakfast but found no food that rivaled her etenral consort's cooking.
 
 Ill-suited for business talk this early in the day, NinoIna spent little time in the Jewelers' new Charms shop. She found comfort in her personal space, putting her focus on completing daily obligations and culling the relentless hordes of Stains (and cows).
@@ -17,3 +20,9 @@ The victory over Stain King Elpis granted NinoIna's party a renewed fighting spi
 Having overcome many trials, NinoIna painstakingly crafted a special wedding charm for her consort in the image of the Hero's [big red heart](https://youtu.be/NSOuyMjCxPI?t=9590s). Cecilia Immerkind yearned for the closeness they shared with each other, so of course, the Hot Pink One-offered her a trial period as their "Above SC" (Super cute? Super CC?), and she was already cashing in on the therapy benefits.
 
 [Day 2. MEOWMEOW](#embed:https://youtu.be/NSOuyMjCxPI?t=10071s)
+
+## Fanart
+
+["ENdless journey" by LAW](https://x.com/laaaw444/status/1902474971496227083)
+
+["revelation" by L_YTH](https://x.com/lost_yth/status/1901898510058078427)

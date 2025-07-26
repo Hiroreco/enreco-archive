@@ -1,3 +1,6 @@
+<!-- title: Tanakisha Karia -->
+<!-- status: Alive -->
+
 The maiden in orange awoke in a mysterious white box with no memories of her past, much like everyone else trapped there. Despite the confusion, she realized she could speak a language called _German_ and quickly connected with Cecilia Immergreen, another German speaker, when they first crossed paths in the box, with a conversation only they understood.
 
 [Sprechen Sie Deutsch?](#embed:https://www.youtube.com/live/izEX6XKyApQ?feature=shared&t=907)
@@ -11,6 +14,8 @@ Shakira was sorted into the _Amber Coin_ guild, a lively group that nearly gaine
 Determined to forge her own path, Kiara embarked on her first major quest with her guildmates: delving into the _Underworld dungeon_. There, they sought to recover the memories of [Mori Calliope](https://www.youtube.com/live/izEX6XKyApQ?feature=shared&t=9829), someone Kiara felt an inexplicable, deep connection to. With each step of their journey, Kiara grew more resolved to uncover the truth behind their strange new world and her place within it.
 
 Oh, and she also drowned Gura.
+
+## Fanart
 
 [I thought fish could swim](#embed:https://www.youtube.com/live/izEX6XKyApQ?feature=shared&t=6894)
 

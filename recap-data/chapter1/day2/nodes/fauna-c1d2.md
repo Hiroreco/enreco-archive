@@ -1,3 +1,6 @@
+<!-- title: Ceres Fauna -->
+<!-- status: Alive -->
+
 Fauna had a revelation after her first day in the kingdom. Saving the kingdom? Too boring. Adventuring? Meh. What truly sparked joy was something far more practical—_money_. It felt like destiny, she reasoned, considering her green hue was the same color as wealth. And so, on her second day, Fauna made a bold declaration: goodbye main quest, hello NPC life. Thus, _FaunaMart_ was born.
 
 [Man I Love Capitalism](#embed:https://www.youtube.com/live/eUQWfgVwwpo?feature=shared&t=176)
@@ -24,4 +27,8 @@ Despite the cheapness of the tactic, it proved effective, bringing in three [new
 
 Business was flourishing, and Fauna’s entrepreneurial spirit showed no signs of slowing down. But as promising as her future appeared, one couldn’t help but wonder, would her questionable business practices eventually lead to lawsuits? Only time would tell.
 
+## Fanart
+
 ["Do it for the library" by Chaleko](https://x.com/Chalek0/status/1830748696935313524)
+
+["Big Faunamart" by advarcher](https://x.com/Anonamos_701/status/1831146945597038826)

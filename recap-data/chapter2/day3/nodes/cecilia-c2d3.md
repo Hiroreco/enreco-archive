@@ -1,3 +1,6 @@
+<!-- title: Cecilia Immerkind -->
+<!-- status: Alive -->
+
 Cecilia awakens from a restful sleep in the princess' bed and begins her day by visiting Iphania to make a pledge to [protect the here and now](https://www.youtube.com/watch?v=Icdii90_vSA&t=1090s). Immerkind departs for the town to win the hearts and minds of the citizens by defeating countless stains, distributing crucial supplies, and listening to their fears and concerns in order to show that she might be worthy of the princess.
 
 [Letter from Immerking](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=2122s)
@@ -33,3 +36,9 @@ After a moment to clear her thoughts and a quick discussion with the princess wh
 ## Fanart
 
 [Your feelings come from the best place by Mittsu](https://x.com/MittsumiA/status/1919718476379521404)
+
+<!-- gigi -->
+
+## Memes
+
+[ENReco Day 3 in a nutshell by zooka](https://x.com/zookacchi/status/1919624569503285734)

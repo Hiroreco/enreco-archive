@@ -1,19 +1,57 @@
+"use client";
 import "@/index.css";
+import { useSettingStore, FontSize } from "@/store/settingStore";
+import { useAudioSettingsSync } from "@/store/audioStore";
+import { PT_Sans } from "next/font/google";
+import { useEffect, useState } from "react";
 
-import { Libre_Franklin } from "next/font/google";
-
-const libreFranklin = Libre_Franklin({
+const ptSans = PT_Sans({
     subsets: ["latin"],
-    weight: ["300", "400", "500", "600", "700"],
+    weight: ["400", "700"],
 });
+
+function getFontSizeValue(fontSize: FontSize): string {
+    switch (fontSize) {
+        case "small":
+            return "14px";
+        case "medium":
+            return "16px";
+        case "large":
+            return "18px";
+        case "xlarge":
+            return "20px";
+        default:
+            return "16px";
+    }
+}
 
 export default function RootLayout({
     children,
 }: {
     children: React.ReactNode;
 }) {
+    const [mounted, setMounted] = useState(false);
+    const fontSize = useSettingStore((state) => state.fontSize);
+
+    // Sync audio settings
+    useAudioSettingsSync();
+
+    // Avoid hydration mismatch
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    const fontSizeValue = mounted ? getFontSizeValue(fontSize) : "16px";
+
     return (
-        <html lang="en" className={`${libreFranklin.className}`}>
+        <html
+            lang="en"
+            className={`${ptSans.className}`}
+            style={{
+                fontSize: fontSizeValue,
+                transition: "font-size 0.2s ease-in-out",
+            }}
+        >
             <body>{children}</body>
         </html>
     );

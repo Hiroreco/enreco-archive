@@ -1,3 +1,6 @@
+<!-- title: King of Libestal -->
+<!-- status: Alive -->
+
 It had been four days since the King had summoned the heroes to the kingdom, and he was pleased with how things had progressed. The heroes had performed admirably—they had defended the kingdom, steadily regained their memories, and grown stronger with each passing day. Yet, despite their successes, the King could not shake his growing unease. As the heroes' strength increased, so too did the power of the Stains—at an alarming rate that filled him with dread.
 
 [The King gives his request](#embed:https://www.youtube.com/live/dCNrMstGc3I?feature=shared&t=9709)

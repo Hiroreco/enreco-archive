@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Smith Bloodflame -->
+<!-- status: Alive -->
+
 **Knight's Log 006**
 
 A knight of honor. Smith of the Jade Forge. Elizabeth Rose Bloodflame.
@@ -12,7 +15,7 @@ Nerissa's possession of her body had instilled in me a fear that I was too late.
 
 She is the light of my flame. The flickers of emotions, the lick of heat against my skin. She is the rose above the thorns that cut.
 
-_"What's in a name? That which we call a rose, by any other word would smell as sweet."_
+> What's in a name? That which we call a rose, by any other word would smell as sweet.
 
 ---
 
@@ -30,7 +33,7 @@ Then Nerissa requests a spar, something they've been doing daily now. And yet, E
 
 Back at home, a [heart-to-heart with Kiara](https://www.youtube.com/live/b-jTHH6GK5w?si=oGPHYYz-3nlKro3Y&t=4582) reveals their shared nature as knights—both in thought and action. A reminder that Kiara is moving out is painful for Elizabeth, but she’s happy for her friend.
 
-But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?si=E3oALHLYZAo5suDE&t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of… Potato Salad?
+But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?si=E3oALHLYZAo5suDE&t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of... Potato Salad?
 
 "Princess of her heart," Kiara says.
 
@@ -53,3 +56,21 @@ And moments before, Elizabeth asks Nerissa again, [“Are you okay?”](https://
 To make it in time, Elizabeth uses magic and teleports for her princess to make it in time. And the banquet begins (see: [Princess-Outlander: A Price for Defying Fate](#edge:iphania-outlander)).
 
 Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to the other. Will she bend the knee and break her word as a knight? Or will she give in once more to what seems to be corruption, as she had done for the king?
+
+## Fanart
+
+["..." by soap](https://x.com/SiFXi_/status/1922931817402806278)
+
+<!-- nerissa -->
+
+["A monster" by wan](https://x.com/wan_m_i/status/1921889316306919884)
+
+<!-- nerissa -->
+
+["WE HAVE GIGI" by virtual_quokka](https://x.com/virtual_quokka/status/1941922276712366186)
+
+<!-- shiori -->
+
+## Memes
+
+["Behind the scenes filming jumpp scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)

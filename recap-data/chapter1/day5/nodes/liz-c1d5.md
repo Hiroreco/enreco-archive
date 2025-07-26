@@ -1,3 +1,6 @@
+<!-- title: Elizabeth Rose Bloodflame -->
+<!-- status: Alive -->
+
 Elizabeth’s thoughts echoed with the words that had defined her existence: "You were brought here to serve the king." Since her summoning, that belief had been her unwavering guide. Yet, over the past days, she had found other reasons to walk her path—people she cared about, those she wanted to protect, and someone she held dear, someone she longed to be by their side. So, when that light dimmed, an emptiness overtook her. The breaking point came on the fourth day when Nerissa, someone she cherished, told her, "I hate you." Those three words shattered her.
 
 [My only guiding light](#embed:https://www.youtube.com/live/1_dhGL0K5-k?t=183)
