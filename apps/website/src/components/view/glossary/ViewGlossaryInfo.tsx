@@ -18,17 +18,41 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
         case "cat-weapons":
             categoryInfo = (
                 <div>
-                    This category contains information about the weapons, known
-                    as Revelations, used by the heroes — including their
-                    abilities, appearances, and other related details.
+                    <div>
+                        This category contains information about the weapons,
+                        known as Revelations, used by the heroes — including
+                        their abilities, appearances, and other related details.
+                    </div>
+                    <div>
+                        All entry thumbnails and models in this category are by{" "}
+                        <a
+                            href="https://x.com/S0LCreations"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Soleiss.
+                        </a>
+                    </div>
                 </div>
             );
             break;
         case "cat-characters":
             categoryInfo = (
                 <div>
-                    This category contains information about characters, their
-                    personalities, and their stories in each chapter.
+                    <div>
+                        This category contains information about characters,
+                        their personalities, and their stories in each chapter.
+                    </div>
+                    <div>
+                        All entry thumbnails in this category are by{" "}
+                        <a
+                            href="https://x.com/DDOLBANG11"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            DDOLBANG.
+                        </a>
+                    </div>
                 </div>
             );
             break;
@@ -72,12 +96,9 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
     return (
         <Dialog>
             <DialogTrigger title="View Category Info" className="p-0 m-0">
-                <Info size={16} className="text-muted-foreground" />
+                <Info size={20} className="text-muted-foreground" />
             </DialogTrigger>
-            <DialogContent 
-                showXButton={true}
-                showXButtonForce={true}
-            >
+            <DialogContent showXButton={true} showXButtonForce={true}>
                 <DialogHeader>
                     <DialogTitle>
                         {category === "cat-weapons" && "Weapons"}
@@ -89,7 +110,9 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
                 </DialogHeader>
 
                 <DialogDescription asChild>
-                    <div className="text-sm text-muted-foreground">{categoryInfo}</div>
+                    <div className="text-sm text-muted-foreground">
+                        {categoryInfo}
+                    </div>
                 </DialogDescription>
             </DialogContent>
         </Dialog>

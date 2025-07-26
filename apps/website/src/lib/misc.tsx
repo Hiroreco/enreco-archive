@@ -68,6 +68,10 @@ export const CONTRIBUTORS = [
         icon: <Image size={iconSize} />,
         contributors: [
             {
+                name: "Soleiss",
+                socials: "https://x.com/S0LCreations",
+            },
+            {
                 name: "DDOLBANG",
                 socials: "https://x.com/DDOLBANG11",
             },

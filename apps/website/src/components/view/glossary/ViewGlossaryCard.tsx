@@ -324,7 +324,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 <Separator className="my-2 bg-foreground/60" />
             </CardHeader>
 
-            <CardContent className="h-[65vh] pb-0 sm:h-[70vh] px-4 mt-2 overflow-y-auto relative">
+            <CardContent className="h-[65dvh] pb-0 sm:h-[70dvh] px-4 mt-2 overflow-y-auto relative">
                 {/* Fade shadows for overflow boundaries */}
                 <div
                     className={cn(
@@ -351,7 +351,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: 0.15 }}
                             className="overflow-x-hidden overflow-y-auto space-y-6 h-full"
                             ref={homeScrollRef}
                             onAnimationComplete={() => {
