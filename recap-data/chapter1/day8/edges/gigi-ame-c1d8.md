@@ -72,6 +72,8 @@ A story to be told for generations to come.
 
 ["My diamond" by Daaku](https://x.com/koizumi_arata/status/1832692703676535254)
 
+["anime of the season" by planet drop](https://x.com/planetdropper/status/1835857705371570561)
+
 ## Memes
 
 ["all my homies hate the pink one" by Jake33wO](https://x.com/jake33w0/status/1832813698081014144)

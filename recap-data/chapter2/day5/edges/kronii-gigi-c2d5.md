@@ -17,3 +17,5 @@ Rushing to her queen’s side once more, Gonathon was shocked to find that Tam G
 ## Fanart
 
 ["A knight and queen in sync..." by LLCole](https://x.com/LLCole_/status/1922040765531718058)
+
+["get it right" by bambooz](https://x.com/_bambooz/status/1920662202429681783)

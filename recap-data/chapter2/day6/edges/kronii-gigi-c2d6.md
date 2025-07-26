@@ -21,3 +21,7 @@ They were stopped from doing so, however, by the wily Shiori. Her questions conc
 ["the closet" by BunBBun](https://x.com/BunBBun1/status/1921443699562610732)
 
 <!-- cecilia -->
+
+["in the closes" by Daaku](https://x.com/koizumi_arata/status/1920906913539145747)
+
+<!-- cecilia -->

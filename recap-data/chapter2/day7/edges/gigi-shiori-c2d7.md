@@ -36,6 +36,8 @@ Most important of all for the Humble Knight was the kindness that Shiori gave he
 
 ["The Black Pearl and The Humble Knight's memories](https://x.com/dyusenjin/status/1921284991440302168)
 
+["absolute cinema" by Daaku"](https://x.com/koizumi_arata/status/1921229759813452174)
+
 ## Memes
 
 ["wdym this isnt the plot to ENreco" by Soda](https://x.com/XoSodaXo13/status/1920439218947387445)

@@ -24,6 +24,8 @@ Any hopes Gonathon had of redeeming himself in Shiori’s eyes were quickly dash
 
 ["Two Sides. Same Coin" by JayTea](https://x.com/jayteamations/status/1934347059643162875)
 
+["Black Pearl and Gonathon" by horarux](https://x.com/horarux/status/1927672237303415211)
+
 ## Memes
 
 ["Season 1 vs Season 2" by NaOki](https://x.com/NaOkiExistiert/status/1919968772510597160)

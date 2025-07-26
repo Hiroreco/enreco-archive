@@ -26,3 +26,5 @@ So ends the second journey of Gonathon G. Throughout his many trials, the Humble
 ["her loyal knight" by Logilies](https://x.com/Logiies/status/1928228176104177699)
 
 ["To the humble knight we love" by blueplanton](https://x.com/blueplankton/status/1921493502866653495)
+
+["A Knight's Pain" by JP](https://x.com/JJPP_Works/status/1947501899995091048?t=RNZjTM7FEeTmvhDyMtMomw)

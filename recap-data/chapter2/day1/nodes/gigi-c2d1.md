@@ -34,3 +34,5 @@ With the day drawing to a close, Gonathon retired to record his diary for inclus
 ["Gonathon G" by Fineria](https://x.com/Fineria_/status/1918895385147220243)
 
 ["It's time" by Hiro](https://x.com/hiroavrs/status/1918321021222044089)
+
+["doodle of GOATnathan with a G" by roxis w.](https://x.com/roxis_in_wunder/status/1921864532504330468)

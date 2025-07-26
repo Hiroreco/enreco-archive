@@ -1091,6 +1091,27 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/bunbbun1/status/1831075309732659391",
+    "label": "\"Uhmmm....pardon?",
+    "author": "bunbbun1",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "kiara",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/bunbbun1-1831075309732659391-0-opt.webp",
+        "width": 1000,
+        "height": 1700,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/marus_circle/status/1830885012788674962",
     "label": "\"ERB and the Fantastic Beasts\"",
     "author": "marus_circle",
@@ -2735,7 +2756,7 @@
     "images": [],
     "videos": [
       {
-        "src": "https://cdn.enreco-archive.net/harutimu_415-1882333332299825572-0.mp4",
+        "src": "https://cdn.enreco-archive.net/harutimu_415-1882333332299825572-0-opt.mp4",
         "type": "video"
       }
     ],
@@ -3347,27 +3368,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/koizumi_arata/status/1832737380857459090",
-    "label": "\"my diamond\"",
-    "author": "koizumi_arata",
-    "chapter": 0,
-    "day": 7,
-    "characters": [
-      "ame",
-      "gigi"
-    ],
-    "images": [
-      {
-        "src": "images-opt/koizumi_arata-1832737380857459090-0-opt.webp",
-        "width": 3277,
-        "height": 4096,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/nagi_nyaaa/status/1832509636995649711",
     "label": "\"Let's hope for many huzzahs!\"",
     "author": "nagi_nyaaa",
@@ -3430,6 +3430,27 @@
         "src": "images-opt/koizumi_arata-1832692703676535254-1-opt.webp",
         "width": 3277,
         "height": 4096,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/planetdropper/status/1835857705371570561",
+    "label": "\"anime of the season\"",
+    "author": "planetdropper",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/planetdropper-1835857705371570561-0-opt.webp",
+        "width": 808,
+        "height": 1200,
         "type": "image"
       }
     ],
@@ -3627,6 +3648,82 @@
     ],
     "videos": [],
     "type": "art"
+  },
+  {
+    "url": "https://x.com/_bambooz/status/1918628681867743581",
+    "label": "\"orge\"",
+    "author": "_bambooz",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gura",
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "fauna",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/_bambooz-1918628681867743581-0-opt.webp",
+        "width": 1200,
+        "height": 991,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1861075335011352953",
+    "label": "\"the quintessential hashtag enreco experience\"",
+    "author": "elisbian_",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gura",
+      "calli",
+      "kiara",
+      "ina",
+      "irys",
+      "kronii",
+      "bae",
+      "fauna",
+      "bijou",
+      "nerissa",
+      "shiori",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "cecilia",
+      "gigi",
+      "raora",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/elisbian_-1861075335011352953-0-opt.webp",
+        "width": 562,
+        "height": 680,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
   },
   {
     "url": "https://x.com/ma_draws/status/1901606787452948765",
@@ -4114,6 +4211,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/ariichiver/status/1832547587053793576",
+    "label": "\"witch or temptress\"",
+    "author": "ariichiver",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/ariichiver-1832547587053793576-0-opt.webp",
+        "width": 2360,
+        "height": 1640,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/a1ma3ru/status/1832977664514179283",
     "label": "\"A knight fights for more than a king\"",
     "author": "a1ma3ru",
@@ -4503,42 +4620,6 @@
         "src": "images-opt/nomywomy-1833337740441550885-0-opt.webp",
         "width": 1022,
         "height": 1024,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "meme"
-  },
-  {
-    "url": "https://x.com/_bambooz/status/1918628681867743581",
-    "label": "\"orge\"",
-    "author": "_bambooz",
-    "chapter": 0,
-    "day": 7,
-    "characters": [],
-    "images": [
-      {
-        "src": "images-opt/_bambooz-1918628681867743581-0-opt.webp",
-        "width": 1200,
-        "height": 991,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "meme"
-  },
-  {
-    "url": "https://x.com/elisbian_/status/1861075335011352953",
-    "label": "\"the quintessential hashtag enreco experience\"",
-    "author": "elisbian_",
-    "chapter": 0,
-    "day": 7,
-    "characters": [],
-    "images": [
-      {
-        "src": "images-opt/elisbian_-1861075335011352953-0-opt.webp",
-        "width": 562,
-        "height": 680,
         "type": "image"
       }
     ],
@@ -5084,6 +5165,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/sssst3ll4/status/1901967705994838407",
+    "label": "\"Dice\"",
+    "author": "sssst3ll4",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "bae"
+    ],
+    "images": [
+      {
+        "src": "images-opt/sssst3ll4-1901967705994838407-0-opt.webp",
+        "width": 1280,
+        "height": 1920,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/seapupu290495/status/1919057398330700031",
     "label": "\"Some memories are better leave forgotten\"",
     "author": "seapupu290495",
@@ -5568,6 +5669,26 @@
         "src": "images-opt/hiroavrs-1918321021222044089-0-opt.webp",
         "width": 2048,
         "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/roxis_in_wunder/status/1921864532504330468",
+    "label": "\"doodle of GOATnathan with a G\"",
+    "author": "roxis_in_wunder",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/roxis_in_wunder-1921864532504330468-0-opt.webp",
+        "width": 2080,
+        "height": 2080,
         "type": "image"
       }
     ],
@@ -6876,6 +6997,26 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/zookacchi/status/1919624569503285734",
+    "label": "ENReco Day 3 in a nutshell",
+    "author": "zookacchi",
+    "chapter": 1,
+    "day": 2,
+    "characters": [
+      "cecilia"
+    ],
+    "images": [
+      {
+        "src": "images-opt/zookacchi-1919624569503285734-0-opt.webp",
+        "width": 1200,
+        "height": 1416,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/ediialex/status/1919243257499853211",
     "label": "... (The World Tree)",
     "author": "ediialex",
@@ -6954,6 +7095,29 @@
     ],
     "videos": [],
     "type": "meme"
+  },
+  {
+    "url": "https://x.com/jhgardener_/status/1928477828623831444",
+    "label": "\"the knight and his pearls\"",
+    "author": "jhgardener_",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "ame",
+      "shiori",
+      "cecilia",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jhgardener_-1928477828623831444-0-opt.webp",
+        "width": 4087,
+        "height": 3414,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
   },
   {
     "url": "https://x.com/maybe_myra28/status/1920143568561180880",
@@ -7472,6 +7636,27 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/horarux/status/1927672237303415211",
+    "label": "\"Black Pearl and Gonathon\"",
+    "author": "horarux",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/horarux-1927672237303415211-0-opt.webp",
+        "width": 2880,
+        "height": 3840,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/naokiexistiert/status/1919968772510597160",
     "label": "\"Season 1 vs Season 2\"",
     "author": "naokiexistiert",
@@ -7654,6 +7839,26 @@
         "src": "images-opt/antsy_af-1919973398551126390-0-opt.webp",
         "width": 960,
         "height": 1085,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
+    "url": "https://x.com/nojamseo/status/1926907907855077810",
+    "label": "\"checks out\"",
+    "author": "nojamseo",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nojamseo-1926907907855077810-0-opt.webp",
+        "width": 2840,
+        "height": 2042,
         "type": "image"
       }
     ],
@@ -7877,6 +8082,27 @@
         "src": "images-opt/llcole_-1922040765531718058-0-opt.webp",
         "width": 3000,
         "height": 4000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/_bambooz/status/1920662202429681783",
+    "label": "\"get it right\"",
+    "author": "_bambooz",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "kronii",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/_bambooz-1920662202429681783-0-opt.webp",
+        "width": 2048,
+        "height": 1487,
         "type": "image"
       }
     ],
@@ -8288,6 +8514,28 @@
         "src": "images-opt/bunbbun1-1921443699562610732-0-opt.webp",
         "width": 1000,
         "height": 1150,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/koizumi_arata/status/1920906913539145747",
+    "label": "\"in the closes\"",
+    "author": "koizumi_arata",
+    "chapter": 1,
+    "day": 5,
+    "characters": [
+      "kronii",
+      "cecilia",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1920906913539145747-0-opt.webp",
+        "width": 2979,
+        "height": 4096,
         "type": "image"
       }
     ],
@@ -9153,6 +9401,28 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/underdatv/status/1921053079169912913",
+    "label": "\"HPO ate so much\"",
+    "author": "underdatv",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "ina",
+      "irys",
+      "kronii"
+    ],
+    "images": [
+      {
+        "src": "images-opt/underdatv-1921053079169912913-0-opt.webp",
+        "width": 1125,
+        "height": 1000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/brulee_arts/status/1921054783420477829",
     "label": "\"Friendship ended\"",
     "author": "brulee_arts",
@@ -9802,6 +10072,33 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/koizumi_arata/status/1921229759813452174",
+    "label": "\"absolute cinema\"",
+    "author": "koizumi_arata",
+    "chapter": 1,
+    "day": 6,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1921229759813452174-0-opt.webp",
+        "width": 2979,
+        "height": 4096,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/koizumi_arata-1921229759813452174-1-opt.webp",
+        "width": 2979,
+        "height": 4096,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/xosodaxo13/status/1920439218947387445",
     "label": "\"wdym this isnt the plot to ENreco\"",
     "author": "xosodaxo13",
@@ -10219,6 +10516,29 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/airoover/status/1931004326840836230",
+    "label": "\"Chapter 2\"",
+    "author": "airoover",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "nerissa",
+      "shiori",
+      "liz",
+      "cecilia",
+      "gigi",
+      "iphania"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/airoover-1931004326840836230-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/keiseeaaa/status/1921816580691726507",
     "label": "\"...entrusted my fate...\"",
     "author": "keiseeaaa",
@@ -10258,6 +10578,25 @@
       }
     ],
     "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1923090463063416862",
+    "label": "\"The Bird Song | An ENreco Animatic\"",
+    "author": "elisbian_",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/elisbian_-1923090463063416862-0-opt.mp4",
+        "type": "video"
+      }
+    ],
     "type": "art"
   },
   {
@@ -10455,6 +10794,27 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/virtual_quokka/status/1941922276712366186",
+    "label": "\"WE HAVE GIGI\"",
+    "author": "virtual_quokka",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "shiori",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/virtual_quokka-1941922276712366186-0-opt.webp",
+        "width": 2250,
+        "height": 3000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/mofumashu/status/1921461081714688036",
     "label": "\"witch shiori 1\"",
     "author": "mofumashu",
@@ -10533,6 +10893,27 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/perksjazzberi/status/1927895503024574728",
+    "label": "\"imagine that shes not dead for a second\"",
+    "author": "perksjazzberi",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "cecilia",
+      "iphania"
+    ],
+    "images": [
+      {
+        "src": "images-opt/perksjazzberi-1927895503024574728-0-opt.webp",
+        "width": 1000,
+        "height": 1000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/bunbbun1/status/1922035787824075147",
     "label": "\"Princess...\"",
     "author": "bunbbun1",
@@ -10587,6 +10968,26 @@
         "src": "images-opt/blueplankton-1921493502866653495-0-opt.webp",
         "width": 1416,
         "height": 2000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/jjpp_works/status/1947501899995091048?t=rnzjtm7feetmvhdymtmomw",
+    "label": "\"A Knight's Pain\"",
+    "author": "jjpp_works",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jjpp_works-1947501899995091048-0-opt.webp",
+        "width": 1312,
+        "height": 1727,
         "type": "image"
       }
     ],
