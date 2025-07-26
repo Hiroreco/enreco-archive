@@ -488,12 +488,22 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
 
     // Scroll into view when selection changes
     useEffect(() => {
-        if (!listRef.current || !hasSelection) return;
-        const selector = `[data-cat="${catIndex}"][data-track="${trackIndex}"]`;
-        listRef.current
-            .querySelector(selector)
-            ?.scrollIntoView({ behavior: "smooth", block: "center" });
-    }, [catIndex, trackIndex, hasSelection]);
+        if (!hasSelection) return;
+
+        const scrollToSelection = () => {
+            if (!listRef.current) {
+                // If ref is still null, try again on next frame
+                requestAnimationFrame(scrollToSelection);
+                return;
+            }
+            const selector = `[data-cat="${catIndex}"][data-track="${trackIndex}"]`;
+            const element = listRef.current.querySelector(selector);
+            element?.scrollIntoView({ behavior: "smooth", block: "center" });
+        };
+
+        // Use requestAnimationFrame to ensure DOM is ready
+        requestAnimationFrame(scrollToSelection);
+    }, [catIndex, trackIndex, hasSelection, open]);
 
     useEffect(() => {
         if (trackIndex === null || !isPlaying) return;

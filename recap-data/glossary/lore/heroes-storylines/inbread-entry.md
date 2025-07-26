@@ -37,6 +37,10 @@ Somehow.
 
 What even _was_ this storyline, man?
 
+## Related Stories
+
+- See ["Oh Princess"](#entry:oh-princess-entry)
+
 ## Credits
 
 - Entry thumbnail by [bunbbun1](https://x.com/bunbbun1/status/1919963091464249648)
