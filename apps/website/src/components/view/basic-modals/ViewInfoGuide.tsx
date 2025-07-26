@@ -79,7 +79,7 @@ const ViewInfoGuide = () => {
                     </li>
                     <li>
                         <span className="font-bold inline-flex items-center gap-1">
-                            Texts <BookOpen size={18} />:
+                            Texts <BookOpen size={18} /> (New):
                         </span>{" "}
                         These are writings made by either the talents or within
                         the journey itself. Clicking on them will open a card
@@ -214,7 +214,7 @@ const ViewInfoGuide = () => {
                 <Egg size={24} />
 
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    Easter Eggs
+                    Easter Eggs (New)
                 </div>
             </div>
             <div>

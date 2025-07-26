@@ -169,6 +169,7 @@ const ViewShioriGame = () => {
                     ))}
                 </div>
             </div>
+            <Separator className="w-full" />
 
             <ViewShioriGameEasterEgg />
         </div>
