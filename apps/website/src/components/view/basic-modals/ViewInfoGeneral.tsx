@@ -1,3 +1,6 @@
+import { useState } from "react";
+import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
+
 const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
     const now = new Date();
     const diffMonth =
@@ -16,12 +19,24 @@ const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
 };
 
 const ViewInfoGeneral = () => {
+    const [showChangelog, setShowChangelog] = useState(false);
+
     return (
         <div className="flex flex-col gap-4">
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on June 10th, 2025
+                    Updated on July 25th, 2025{" "}
+                    <a
+                        href="#"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            setShowChangelog(true);
+                        }}
+                        className="text-blue-500 hover:text-blue-700 underline cursor-pointer"
+                    >
+                        (changelog)
+                    </a>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
                     Days since last episode:{" "}
@@ -161,6 +176,11 @@ const ViewInfoGeneral = () => {
                     Minecraft Usage Guidelines.
                 </a>
             </div>
+            
+            <ViewChangelogModal
+                open={showChangelog}
+                onClose={() => setShowChangelog(false)}
+            />
         </div>
     );
 };

@@ -88,7 +88,9 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
                     </DialogTitle>
                 </DialogHeader>
 
-                <DialogDescription>{categoryInfo}</DialogDescription>
+                <DialogDescription asChild>
+                    <div className="text-sm text-muted-foreground">{categoryInfo}</div>
+                </DialogDescription>
             </DialogContent>
         </Dialog>
     );
