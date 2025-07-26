@@ -607,7 +607,14 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                                     "/images-opt/song-chapter-2-opt.webp"
                                 }
                                 alt={currentTrack?.title || "Select a track"}
-                                placeholder="blur"
+                                placeholder={
+                                    getBlurDataURL(
+                                        currentTrack?.coverUrl ||
+                                            "/images-opt/song-chapter-2-opt.webp",
+                                    )
+                                        ? "blur"
+                                        : "empty"
+                                }
                                 blurDataURL={getBlurDataURL(
                                     currentTrack?.coverUrl ||
                                         "/images-opt/song-chapter-2-opt.webp",
