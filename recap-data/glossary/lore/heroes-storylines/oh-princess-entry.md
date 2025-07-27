@@ -39,6 +39,11 @@ Her heart, after all, only beat for one. Even if the Princess never returned her
 > Oh Princess, I would do anything for you.
 > May your future shine anew.
 
+- [Read "Princess~"](#text:princess~)
+- [Read "Heart"](#text:heart)
+- [Read "Loyal"](#text:loyal)
+- [Read "Protect"](#text:protect)
+
 ### How it ended
 
 On the final day, as the kingdom prepared to celebrate their victory over the Ruination, tragedy struck.
