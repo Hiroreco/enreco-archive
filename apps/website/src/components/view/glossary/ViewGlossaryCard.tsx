@@ -256,7 +256,10 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             </div>
                         ) : (
                             <div className="flex items-center gap-2">
-                                <span>
+                                <span
+                                    onClick={() => goHome()}
+                                    className="cursor-pointer"
+                                >
                                     {categoryMap[selectedCategory].label}
                                 </span>
 
