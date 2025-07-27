@@ -39,6 +39,10 @@ const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
                     alt={item.title}
                     height={100}
                     width={100}
+                    blurDataURL={getBlurDataURL(item.thumbnailSrc)}
+                    placeholder={
+                        getBlurDataURL(item.thumbnailSrc) ? "blur" : "empty"
+                    }
                     style={{
                         backgroundImage: "url('/images-opt/item-bg-opt.webp')",
                         backgroundSize: "cover",
