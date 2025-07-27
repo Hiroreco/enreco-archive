@@ -246,7 +246,10 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                     <CardTitle className="flex justify-between items-center w-full">
                         {currentEntry !== null ? (
                             <div className="flex items-center gap-2 md:text-xl text-sm">
-                                <span>
+                                <span
+                                    onClick={() => goHome()}
+                                    className="cursor-pointer"
+                                >
                                     {categoryMap[selectedCategory].label}
                                 </span>
                                 <ArrowRight size={18} className="opacity-60" />
@@ -256,10 +259,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             </div>
                         ) : (
                             <div className="flex items-center gap-2">
-                                <span
-                                    onClick={() => goHome()}
-                                    className="cursor-pointer"
-                                >
+                                <span>
                                     {categoryMap[selectedCategory].label}
                                 </span>
 
