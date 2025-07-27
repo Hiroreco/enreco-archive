@@ -506,14 +506,34 @@
     "category": "letters",
     "hasAudio": true
   },
+  "heart": {
+    "title": "Heart",
+    "content": "Dearest Princess!\nWith great joy I am awaiting today's news from you!\n\nMy heart is leaping through bounds. Although I may not have a heart... If I did, it would be beating for you!\n\nYours kindly.\nImmerkind",
+    "category": "letters"
+  },
   "letter": {
     "title": "letter",
     "content": "Dear Shiori of the Nyavellas,\n\nThank you for taking your time to write your kind letter.\n\nI have not gotten a chance to eat your potato salad yet but it smells lovely.\n\nWhenever you need assistance, please do not be afraid to call.\n\nI look forward to the next time we meet.\n\nGonathon with a G.",
     "category": "letters"
   },
+  "loyal": {
+    "title": "Loyal",
+    "content": "Dear Princess\n\nI hope my words today did not put you in an uncomfortable spot.\n\nI will happily await your answer and will do my utmost to save the kingdom regardless of what our future bolds!\n\nYou are strong and kind and you shine so bright, my princess I am loyal to you.\n\nYours truly\nImmerkind",
+    "category": "letters"
+  },
   "my-confession": {
     "title": "My confession",
     "content": "Dearest Immerkind,\n\nI hope this letter reaches you well.\n\nI am writing to you for none other reason that to express these inexplicible emotions that are swirling inside of me.....like a storm.\n\nMother always told me that maybe one day I would find my special somebody....\n\nbut she was gone before she could explain what that I meant...\n\nI don't understand what these emotions truly are... but you are special to me.\n\nThere is something about you...\n\nI... care for you...\n\nAs a token of my affection, please do accept this humble present from this humble peasant.\n\nOh could this be the buds of love?...\n\nWould you care to join me on such a adventure...?\n\nAn adventure of life\n\nAn adventure of love\n\nAn adventure of something new..?\n\nI eagerly anticipate our next meeting...\n\nSigned with passion,\nPeasant THE BAE",
+    "category": "letters"
+  },
+  "princess~": {
+    "title": "Princess~",
+    "content": "Dearest princess\n\nI hope I am deemed worthy enough to pen you a letter on this beautiful day.\n\nThe world may end soon but your brightness has given me purpose. I will do my utmost to keep you safe.\n\nYours truly\nImmerkind",
+    "category": "letters"
+  },
+  "protect": {
+    "title": "Protect",
+    "content": "Dearest Princess,\n\nToday is finally the day! We shall save this kingdom and you will be safe from henceforth on.\n\nI will forever protect you and the shining light that is your heart.\n\nYours truly, Immerkind",
     "category": "letters"
   },
   "to-da-kindest-1": {
