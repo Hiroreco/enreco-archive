@@ -17,7 +17,7 @@
 
 At the beginning of the second journey, the Hot Pink One was once again engaged to her eternal consort, NinoIna. But true to her playful nature from the previous chapter, she quickly found herself in yet another affectionate entanglement—this time with [Tam Gandr](#entry:kronii-entry).
 
-At first, the trio embraced a polygamous dynamic. [NinoIna](#entrye:ina-entry) loved the Hot Pink One, and the Hot Pink One and Tam exchanged witty banter and pet names—“Tammy” and “Pinky.” It was going well… for a few days.
+At first, the trio embraced a polygamous dynamic. [NinoIna](#entry:ina-entry) loved the Hot Pink One, and the Hot Pink One and Tam exchanged witty banter and pet names—“Tammy” and “Pinky.” It was going well… for a few days.
 
 ### How it went
 
