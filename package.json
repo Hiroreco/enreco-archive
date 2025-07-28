@@ -30,6 +30,7 @@
         "normalize-audio": "tsx scripts/misc/normalize-audio.ts",
         "inject-easter": "tsx scripts/misc/inject-easter.ts",
         "validate-text-ref": "tsx scripts/misc/validate-text-ref.ts",
+        "validate-content": "tsx scripts/content/validate-content.ts",
 
         "proofread": "tsx scripts/proofread/proofread.ts",
         "export-recaps": "tsx scripts/recaps/export-recaps.ts",

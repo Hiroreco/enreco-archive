@@ -1,0 +1,18 @@
+export const EMBED_MISSING_BYPASS_LIST = [
+    `["START AGAIN" - Chapter 1 Theme Song](https://www.youtube.com/watch?v=r-kkCrVZUzc&ab_channel=hololiveEnglish)`,
+    `[**Monster - ENigmatic Recollection Chapter 2 Theme Song**](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)`,
+    `[Biboo is drowning in the waterfall](https://youtu.be/E-LGNO7JdO4?t=2021)`,
+    `[Biboo literally crashing](https://youtu.be/E-LGNO7JdO4?t=2764)`,
+    `[Music playing interrupts the date](https://youtu.be/E-LGNO7JdO4?t=9064)`,
+    `[Biboo on a tree](https://youtu.be/E-LGNO7JdO4?t=10469)`,
+    `[Bijou, who really loved maps, on this RomCom Episode of EnReco](https://youtu.be/E-LGNO7JdO4?t=10487)`,
+    `[Biboo found "treasure"](https://youtu.be/E-LGNO7JdO4?t=10545)`,
+    `[2nd Monster music, may not have been Biboo, but she was there](https://youtu.be/E-LGNO7JdO4?t=10566)`,
+    `[InvisiBiboo](https://youtu.be/E-LGNO7JdO4?t=10779)`,
+    `[Bonus: Biboo just REALLY LOVES **maps**](https://youtu.be/E-LGNO7JdO4?t=10896)`,
+    `["A Shiori Nyavella Character Write up" by usd100](https://www.reddit.com/r/Hololive/comments/1kkcg8h/a_shiori_nyavella_character_write_up/)`,
+    `["Mother always said, if you have nothing... you have nothing."](https://youtu.be/7bOe38rP7JQ?t=2111)`,
+    `["Day 2 Diary 2 entry: Mother always warned me..."](https://youtu.be/Tiq2wmF-NfQ?t=11052)`,
+    `["Mother always warned me, with love comes heartbreak"](https://youtu.be/Br6dvhVJ_IE?t=733)`,
+    `[Not a quote but Mother skipped a certain lesson for Bae](https://youtu.be/Lp7GyRVbz1c?t=7171)`,
+];
