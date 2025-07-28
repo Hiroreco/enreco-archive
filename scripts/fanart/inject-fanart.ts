@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
-import { CHARACTER_ORDER, sortByPredefinedOrder } from "../orders.js";
+import { CHARACTER_ORDER, sortByPredefinedOrder } from "../content/orders.js";
 
 const LINKS_JSON = path.resolve(process.cwd(), "src/data/twitter-links.json");
 const IMAGE_DIR = path.resolve(process.cwd(), "shared-resources/images/fanart");

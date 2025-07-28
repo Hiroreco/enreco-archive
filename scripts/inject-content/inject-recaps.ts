@@ -1,8 +1,7 @@
-import fs from "fs/promises";
-import path from "path";
-import JSZip from "jszip";
 import { ChartData } from "@enreco-archive/common/types";
-import { fileURLToPath } from "url";
+import fs from "fs/promises";
+import JSZip from "jszip";
+import path from "path";
 
 type ChapterJson = {
     numberOfDays: number;
@@ -274,56 +273,36 @@ async function processChapter(chapterNum: number) {
 }
 
 async function main() {
-    const chapterArg = process.argv[2];
-    if (!chapterArg) {
-        console.error(
-            "Usage: pnpm run inject-recap-data <chapter-number> or '.' for all",
+    const recapDataPath = path.resolve(process.cwd(), "recap-data");
+
+    let chapterFolders: string[];
+    try {
+        chapterFolders = (
+            await fs.readdir(recapDataPath, { withFileTypes: true })
+        )
+            .filter((e) => e.isDirectory() && /^chapter\d+$/.test(e.name))
+            .map((e) => e.name)
+            .sort();
+
+        if (chapterFolders.length === 0) {
+            console.warn("No chapter folders found in recap-data");
+            return;
+        }
+
+        console.log(
+            `Found ${chapterFolders.length} chapter folders: ${chapterFolders.join(", ")}`,
         );
+    } catch (err) {
+        console.error(`Directory not found: ${recapDataPath}`);
         process.exit(1);
     }
 
-    if (chapterArg === ".") {
-        // Process all chapters
-        const recapDataPath = path.resolve(__dirname, "..", "..", "recap-data");
-
-        try {
-            const entries = await fs.readdir(recapDataPath, {
-                withFileTypes: true,
-            });
-            const chapterFolders = entries
-                .filter((e) => e.isDirectory() && /^chapter\d+$/.test(e.name))
-                .map((e) => e.name)
-                .sort();
-
-            if (chapterFolders.length === 0) {
-                console.warn("No chapter folders found in recap-data");
-                return;
-            }
-
-            console.log(
-                `Found ${chapterFolders.length} chapter folders: ${chapterFolders.join(", ")}`,
-            );
-
-            for (const folderName of chapterFolders) {
-                const chapterNum =
-                    parseInt(folderName.replace("chapter", ""), 10) - 1;
-                await processChapter(chapterNum);
-            }
-
-            console.log("\n🎉 All chapters processed!");
-        } catch (err) {
-            console.error(`Failed to read recap-data directory: ${err}`);
-            process.exit(1);
-        }
-    } else {
-        // Process single chapter
-        const chapterNum = parseInt(chapterArg, 10);
-        if (isNaN(chapterNum) || chapterNum < 0) {
-            console.error("Chapter number must be a non-negative integer");
-            process.exit(1);
-        }
+    for (const folderName of chapterFolders) {
+        const chapterNum = parseInt(folderName.replace("chapter", ""), 10) - 1;
         await processChapter(chapterNum);
     }
+
+    console.log("\n🎉 All chapters processed!");
 }
 
 main().catch((err) => {

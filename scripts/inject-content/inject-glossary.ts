@@ -12,7 +12,7 @@ import {
     GLOSSARY_MISC_MECHANICS,
     GLOSSARY_WEAPONS_ORDER,
     sortByPredefinedOrder,
-} from "../orders.js";
+} from "../content/orders.js";
 
 // GlossaryPageData keyed by subcategory (immediate child of fileArg)
 type GlossaryPageData = { [subcategory: string]: CommonItemData[] };
@@ -207,34 +207,19 @@ async function processSubfolder(fileArg: string) {
 }
 
 async function main() {
-    const fileArg = process.argv[2];
-    if (!fileArg) {
-        console.error(
-            "Usage: pnpm run inject-glossary <folderName> or '.' for all",
-        );
+    const baseGlossary = path.resolve(process.cwd(), "recap-data", "glossary");
+    let subfolders: string[];
+    try {
+        subfolders = (await fs.readdir(baseGlossary, { withFileTypes: true }))
+            .filter((d) => d.isDirectory())
+            .map((d) => d.name);
+    } catch {
+        console.error(`Directory not found: ${baseGlossary}`);
         process.exit(1);
     }
 
-    const baseGlossary = path.resolve(process.cwd(), "recap-data", "glossary");
-    let subfolders: string[];
-
-    if (fileArg === ".") {
-        try {
-            subfolders = (
-                await fs.readdir(baseGlossary, { withFileTypes: true })
-            )
-                .filter((d) => d.isDirectory())
-                .map((d) => d.name);
-        } catch {
-            console.error(`Directory not found: ${baseGlossary}`);
-            process.exit(1);
-        }
-
-        for (const sub of subfolders) {
-            await processSubfolder(sub);
-        }
-    } else {
-        await processSubfolder(fileArg);
+    for (const sub of subfolders) {
+        await processSubfolder(sub);
     }
 }
 
