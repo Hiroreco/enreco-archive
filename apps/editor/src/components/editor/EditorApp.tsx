@@ -131,7 +131,6 @@ const getCurrentDayChart = (
             }
         });
     }
-    console.log(result);
     return result;
 };
 
