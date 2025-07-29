@@ -175,8 +175,6 @@ const EditorApp = () => {
         return newNode;
     });
 
-    const processedNodes = nodes.filter((node) => node !== undefined);
-
     const rawEdges =
         editorStore.chapter !== null &&
         editorStore.day !== null &&
@@ -194,8 +192,6 @@ const EditorApp = () => {
         }
         return newEdge;
     });
-
-    const processedEdges = edges.filter((edge) => edge !== undefined);
 
     const updateEdgeEH = (oldEdge: CustomEdgeType, newEdge: CustomEdgeType) => {
         updateEdge(oldEdge.id, newEdge);
@@ -289,24 +285,49 @@ const EditorApp = () => {
         }
     };
 
+    const currentNodes = dayData.nodes;
+    const currentEdges = dayData.edges;
+
     return (
         <>
             <div className="w-screen h-screen">
                 <EditorChart
-                    nodes={processedNodes}
-                    setNodes={editorStore.setNodes}
-                    edges={processedEdges}
-                    setEdges={editorStore.setEdges}
+                    nodes={currentNodes}
+                    setNodes={(nodes) => {
+                        if (
+                            editorStore.chapter !== null &&
+                            editorStore.day !== null
+                        ) {
+                            editorStore.updateChartNodes(
+                                editorStore.chapter,
+                                editorStore.day,
+                                nodes,
+                            );
+                        }
+                    }}
+                    edges={currentEdges}
+                    setEdges={(edges) => {
+                        if (
+                            editorStore.chapter !== null &&
+                            editorStore.day !== null
+                        ) {
+                            editorStore.updateChartEdges(
+                                editorStore.chapter,
+                                editorStore.day,
+                                edges,
+                            );
+                        }
+                    }}
                     edgeType={editorStore.edgeType}
                     areNodesDraggable={editorStore.mode === "edit"}
                     canPlaceNewNode={editorStore.mode === "place"}
                     isDarkMode={isDarkMode}
-                    onNodeClick={(node: EditorImageNodeType) => {
+                    onNodeClick={(node) => {
                         editorStore.setCurrentCard("node");
                         editorStore.setSelectedNode(node);
                         editorStore.setSelectedEdge(null);
                     }}
-                    onEdgeClick={(edge: CustomEdgeType) => {
+                    onEdgeClick={(edge) => {
                         editorStore.setCurrentCard("edge");
                         editorStore.setSelectedEdge(edge);
                         editorStore.setSelectedNode(null);

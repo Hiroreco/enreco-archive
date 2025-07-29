@@ -97,6 +97,16 @@ interface EditorDataSlice {
 
     setChapterBackgroundImage: (src: string) => void;
     setChapterBgm: (src: string) => void;
+    updateChartNodes: (
+        chapter: number,
+        day: number,
+        nodes: EditorImageNodeType[],
+    ) => void;
+    updateChartEdges: (
+        chapter: number,
+        day: number,
+        edges: CustomEdgeType[],
+    ) => void;
 }
 
 const createEditorSlice: StateCreator<
@@ -129,6 +139,31 @@ const createEditorSlice: StateCreator<
     selectedEdge: null,
     setSelectedEdge: (edge: CustomEdgeType | null) =>
         set({ selectedEdge: edge }),
+
+    updateChartNodes: (
+        chapter: number,
+        day: number,
+        nodes: EditorImageNodeType[],
+    ) => {
+        set((state) => {
+            const chart = state.data[chapter]?.charts[day];
+            if (chart) {
+                chart.nodes = nodes;
+            }
+        });
+    },
+    updateChartEdges: (
+        chapter: number,
+        day: number,
+        edges: CustomEdgeType[],
+    ) => {
+        set((state) => {
+            const chart = state.data[chapter]?.charts[day];
+            if (chart) {
+                chart.edges = edges;
+            }
+        });
+    },
 });
 
 function validateChapter(chapter: number, state: EditorState) {
@@ -169,6 +204,17 @@ const createEditorDataSlice: StateCreator<
     EditorDataSlice
 > = (set, get) => ({
     data: [],
+
+    updateChartNodes: (chapter, day, nodes) => {
+        set((state) => {
+            state.data[chapter].charts[day].nodes = nodes;
+        });
+    },
+    updateChartEdges: (chapter, day, edges) => {
+        set((state) => {
+            state.data[chapter].charts[day].edges = edges;
+        });
+    },
 
     setData: (newData: EditorChapter[]) => {
         set((state) => {
