@@ -1,4 +1,5 @@
 <!-- title: Unexpected Alliance -->
+<!-- relationship: Alliance -->
 
 Gonathon was determined to find the culprit that had defaced the queen's statue, but seeing how it might be difficult to do alone, he decided to ask for help. He reached out to someone whom he didn't have a good impression of, considering the various mental damage she'd caused him on the first day, as well as her spitefulness for his queen Tam Gandr, but she was the only person he saw capable and trustworthy for something like this.
 

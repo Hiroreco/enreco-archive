@@ -1,4 +1,5 @@
 <!-- title: The Audacity -->
+<!-- relationship: Enemy -->
 
 Of course, with HPO, give her an inch and she’ll take a mile—or two. In a stunning display of audacity, she asked Queen Tam to be the [godmother](https://youtu.be/CUh9eciJil4?t=3061) of the “baby” she was carrying. She was truly a “monster,” befitting of the song titled Monster being played in the background. Forcing Queen Tam to celebrate her conception with another lover wasn’t enough—she also had to make her the godmother.
 

@@ -1,4 +1,5 @@
 <!-- title: Knight in Any Universe -->
+<!-- relationship: Protector -->
 
 Immerkind strolls through the city when she sees Princess Bijou toiling away at her work. Bijou no longer remembers Cecilia but is wary of anyone who calls themselves [kind](https://www.youtube.com/live/cyLsX20esBE?t=7233s).
 

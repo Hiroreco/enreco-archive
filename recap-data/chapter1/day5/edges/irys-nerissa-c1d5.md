@@ -1,4 +1,5 @@
 <!-- title: Side Chick No.4 -->
+<!-- relationship: Marriage -->
 
 Hot Pink One: "I'm so hot, I have three side chicks."
 

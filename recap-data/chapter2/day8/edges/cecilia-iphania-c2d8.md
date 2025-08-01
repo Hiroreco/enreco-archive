@@ -1,4 +1,5 @@
 <!-- title: ...Princess? -->
+<!-- relationship: Protector -->
 
 A scream—piercing, chilling, unmistakably hers.
 A girl’s scream.

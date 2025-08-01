@@ -1,4 +1,5 @@
 <!-- title: Emotional Support Chibi-Hime -->
+<!-- relationship: Protector -->
 
 Bijou had already done so much for Cecilia throughout this journey—quietly, consistently. From lending her coin to handing over rare materials to even gifting her the [charms](https://www.youtube.com/watch?v=I75IWfMGVgM&t=6558) that helped her overcome the Outlander... which, when you thought about it, was kind of ironic. Wasn’t Cecilia supposed to be _Bijou’s_ knight—the one doing the protecting and supporting? Well, the roles were clearly flipped, but hey—whatever worked.
 

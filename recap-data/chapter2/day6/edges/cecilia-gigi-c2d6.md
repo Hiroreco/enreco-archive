@@ -1,4 +1,5 @@
 <!-- title: The Knight at Home with the Wolves -->
+<!-- relationship: The Wolf Pack -->
 
 Realizing that even after pouring her entire heart out—after every gesture, every word, every hopeful glance toward the Princess—Cecilia was met with silence, the cold sting of indifference. Maybe the Princess never saw her that way. Maybe she never would. After six days of aching hope, the truth hit her like a blade: all her feelings may have been one-sided.
 

@@ -1,4 +1,5 @@
 <!-- title: Married, Again -->
+<!-- relationship: Marriage -->
 
 Hot Pink was lucky to have Hot Purple.
 

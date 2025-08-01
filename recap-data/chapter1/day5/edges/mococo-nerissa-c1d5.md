@@ -1,4 +1,5 @@
 <!-- title: A Resolution -->
+<!-- relationship: Alliance -->
 
 Nerissa found herself in quite the predicament—though, to be fair, so did Mococo. The two were at each other's throats, locked in a heated dispute. Nerissa wanted to resolve the whole lottery ticket fiasco peacefully, as she had been falsely accused in the first place. Meanwhile, Mococo was adamant about receiving compensation, hiring a lawyer, and pursuing a full lawsuit against FaunaMart.
 

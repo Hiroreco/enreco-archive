@@ -1,4 +1,5 @@
 <!-- title: Long Lost Sisters -->
+<!-- relationship: Family -->
 
 Ina and Bijou were sworn sisters in a different world, and the care they had for each other was etched into their memories, persisting despite the tribulations of time travel on their new journey in Ancient Libestal.
 

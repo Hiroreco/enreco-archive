@@ -1,4 +1,5 @@
 <!-- title: Strawberry Red -->
+<!-- relationship: Romantic -->
 
 After the absolute disasterclass that was her fumbling mess the day before, the Scarlet Knight was ready for redemption. Even the voices in her head were rooting for her. The moment she crossed paths with the Blue Maiden again, encouraging chants echoed through her mind: “Don’t fumble, Milord,” “You got this, Milord.” And she was determined to prove that she did, in fact, have this.
 

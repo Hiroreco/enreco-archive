@@ -1,4 +1,5 @@
 <!-- title: The Knight and the Hero -->
+<!-- relationship: Friends -->
 
 Cecilia and NinoIna had only shared passing interactions, but they were always cordial. Whether it was singing the song of the Hearts of the Kingdom or sharing pleasantries, their relationship remained one of respect. But today, Cecilia leaned on the wisdom of the hero NinoIna.
 

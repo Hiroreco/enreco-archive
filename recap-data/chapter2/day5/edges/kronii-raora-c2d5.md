@@ -1,4 +1,5 @@
-<!-- title: The Queen, A Maid For Two Pinks-->
+<!-- title: The Queen, A Maid For Two Pinks -->
+<!-- relationship: Maid -->
 
 It's strange how relationships develop over time. They begin in all shapes and forms—many who were once thought to be sworn enemies ended up becoming lovers. Such was the tale between the once two rival queens, one blue and one pink. And now, in this new journey, having not reconciled their relationship for a long time, they finally had a chance to reconnect. Well, “reconnect.”
 

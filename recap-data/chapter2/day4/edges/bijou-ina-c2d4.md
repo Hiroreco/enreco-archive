@@ -1,4 +1,5 @@
 <!-- title: Wooden Potato -->
+<!-- relationship: Family -->
 
 After a period of inactivity since literally the first day, the Potato Club finally gained its third member! A refreshing development after the indescribable chaos while the Hero was slumbering.
 

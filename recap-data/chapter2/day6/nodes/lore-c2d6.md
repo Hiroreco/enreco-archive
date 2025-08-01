@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 No dungeons were opened on this day. However, the Princess entrusted the heroes with a special quest—one that required them to work together to unlock a cryptic book titled _"The Truth of Ruin."_

@@ -1,4 +1,5 @@
 <!-- title: Finding Shelter in the Shadows of Hope -->
+<!-- relationship: Romantic -->
 
 **Second chances?**
 

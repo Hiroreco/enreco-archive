@@ -1,4 +1,5 @@
 <!-- title: Oh, She Forgot... -->
+<!-- relationship: No Longer Together -->
 
 This strange owl friend Cecilia had made was... well, strange. But not in a bad way. She had a habit of giggling evilly for no reason, opened up a shop only to give everything away for free, liked pretending she was part of the Scarlet Wand guild (even though she wasn’t), and rambled about how she didn’t have amnesia—claiming instead that she remembered her past life where she was "cool, had tons of friends, and drove a Ferrari." She was an oddball, to say the least. Yet, despite all of that, Cecilia had grown attached to her—like an odd little sister she found herself wanting to protect.
 

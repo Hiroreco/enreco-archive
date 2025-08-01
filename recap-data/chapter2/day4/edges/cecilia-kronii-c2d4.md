@@ -1,4 +1,5 @@
 <!-- title: Drinks Between Queen and Knight -->
+<!-- relationship: Friends -->
 
 After the conclusion of Star Site: Chronos, Cecilia and friends surround Kronii and shower her with praise. However, the group is appalled to learn that her new status has made her different. Cecilia questions Tammy about whether the [European kisses and drinks shared](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=14720s) still matter to her.
 

@@ -35,7 +35,9 @@ Shortly after the brief, but lingering, insanity, Peasant The Bae returned to he
 
 [tHE dUMPSTER iS oPEN fOR bUSINESS!](#embed:https://youtu.be/Lp7GyRVbz1c?t=14134)
 
-With the day almost at the end, Bae continued to do a few more quests to earn some coins and bought a few more charms to arm herself for future adventures. She would find a magnificent painting that truly honored the noble spirit of [Peasant The Bae](https://x.com/Mikururun/status/1899107067182411936) and adorn it as the finishing touch for her shop.
+With the day almost at the end, Bae continued to do a few more quests to earn some coins and bought a few more charms to arm herself for future adventures. She would find a magnificent painting that truly honored the noble spirit of [Peasant The Bae](https://x.com/Mikururun/status/1899107067182411936)
+
+and adorn it as the finishing touch for her shop.
 
 One last thing before she rests: with more money to spare, surely it wouldn't hurt to purchase another hat from the quest hall's shop. With a promise to earn the gold lost on the morrow, Bae bought the Stain hat and excitedly showed it to Bijou, who, upon seeing what now donned Bae's head, felt a shiver of unease. Bijou cautioned Bae to be careful and keep well. Bae, unaware of the warning, took little heed as she wrote down her day in her journal...
 

@@ -1,4 +1,5 @@
 <!-- title: I'm Pregnant! -->
+<!-- relationship: Romantic -->
 
 Nerissa got cooked. Literally. How it happened wasn’t all that important—what mattered was the ridiculous series of events leading up to it.
 

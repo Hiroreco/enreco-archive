@@ -1,4 +1,5 @@
 <!-- title: My Chicken Farm -->
+<!-- relationship: Backup Plan -->
 
 As she stumbled upon Jyonathan, the Hot Pink One wasted no time in boasting about the many side chicks she had acquired. It was almost as if she was flexing on Jyonathan—sending a silent message that read, "You didn’t fall for me early on? Well, look at me now, surrounded by wives. And soon enough, you’ll be mine too." The pink one felt powerful.
 

@@ -1,4 +1,5 @@
 <!-- title: Abdomen Pain -->
+<!-- relationship: Romantic -->
 
 Red flags had been waving wildly for a while now, and Miss Tammy’s crush—Miss Pinky—was stacking them like achievements. [Mouth-feeding](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=12416s) her business partner and brother, sensually. Asking Tammy to wear a [maid outfit](https://www.youtube.com/watch?v=UyN7jwsiiXA&t=9123s&pp=0gcJCTAAlc8ueATH) and say the cringiest lines.
 

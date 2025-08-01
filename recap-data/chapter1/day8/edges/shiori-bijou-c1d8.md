@@ -1,4 +1,5 @@
 <!-- title: Divorce No.1 -->
+<!-- relationship: No Longer Together -->
 
 Shiori was Bijou’s first wedded partner—the only one in which they actually had a proper marriage ceremony, unlike the others. They had shared plenty of lovey-dovey moments, and despite their quirky antics, their relationship had seemed relatively solid.
 

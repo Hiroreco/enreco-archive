@@ -1,4 +1,5 @@
 <!-- title: Turning To Another -->
+<!-- relationship: No Longer Together -->
 
 A bond as deep and romantic as IRyS and her eternal consort’s was, for many, thought to last forever. Sure, the pink one was a handful, but Ina had always handled her chaos with grace and ease. They were inseparable ever since their very first adventure.
 

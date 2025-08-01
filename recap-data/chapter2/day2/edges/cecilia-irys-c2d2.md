@@ -1,4 +1,5 @@
 <!-- title: Classists -->
+<!-- relationship: Business -->
 
 Miss Kindest of Kind, Immerkind, was indeed a very kind woman—and also a world-class enabler. Upon learning about IRyS’s growing [alcohol problem](https://www.youtube.com/live/axlJjQQ_rzU?si=pUq6lA_E5OP_5Hkn&t=8066) and how her wife had supposedly put her on a path to rehabilitation, Immerkind, in her infinite wisdom as the pink one’s bestest of friends, made the most _reasonable_ decision: invite her to a drinking party by the creek.
 

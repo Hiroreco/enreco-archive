@@ -1,4 +1,5 @@
 <!-- title: Love Unlasting -->
+<!-- relationship: Unrequited Love -->
 
 The [dissonance](https://youtu.be/m2OG5auudrQ?t=509) between the two was painful at times. Where Roa saw a married future, Elizabeth saw a comrade to fight beside. Perhaps it was this difference that made Roa's inevitable heartbreak all the more pitiful.
 

@@ -1,4 +1,5 @@
 <!-- title: Enemy -->
+<!-- relationship: Enemy -->
 
 Cecilia has become a newly appointed supplier in Libestal. As she gathers her gear and prepares to depart, she runs into a fellow Star who describes herself as "Peasant the Bae."
 

@@ -1,4 +1,5 @@
 <!-- title: Same But Different -->
+<!-- relationship: Related -->
 
 Fuwawa and Mococo not only shared the same guild but also bore an uncanny resemblance to each other. Their striking similarity often led others to question if they were [related](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=2214). Despite the frequent speculation, both Fuwawa and Mococo adamantly denied being related. Yet, their near-constant companionship—spending virtually every waking moment together—only fueled the rumors further.
 

@@ -1,4 +1,5 @@
 <!-- title: The Knights’ Heartache -->
+<!-- relationship: Friends -->
 
 The Knights’ Heartache
 

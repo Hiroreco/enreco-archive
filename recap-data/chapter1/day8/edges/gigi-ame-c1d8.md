@@ -1,4 +1,5 @@
 <!-- title: A Knight's Wish -->
+<!-- relationship: Marriage -->
 
 Gonathon was worried sick when he stumbled upon his former companion, Amelia, frantically searching for the "diamonds" she had lost. It didn’t help that the kingdom was in utter chaos, corruption spreading like wildfire. He feared that her very identity was being torn apart—caught between his Pearl, the woman he once knew, and Amelia Watson, the detective she had become. As much as he longed to stay by her side, he had more pressing matters to attend to, and he respected her path, choosing instead to watch from the sidelines. And yet, reality painted a different picture.
 

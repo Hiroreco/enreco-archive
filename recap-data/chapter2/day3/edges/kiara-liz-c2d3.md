@@ -1,4 +1,5 @@
 <!-- title: Sugar Phoenix -->
+<!-- relationship: Family -->
 
 Elizabeth held a deep respect for Shakira. A mighty phoenix, a radiant and friendly soul, and above all, a fellow knight—she was everything Elizabeth admired. That respect went both ways. Their bond, seemingly carried over from past adventures, remained as strong as ever—perhaps even stronger now.
 

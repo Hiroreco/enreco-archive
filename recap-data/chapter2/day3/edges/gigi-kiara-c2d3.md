@@ -1,4 +1,5 @@
 <!-- title: A One-Sided Rivalry, a Two-Sided Contract -->
+<!-- relationship: The Wolf Pack -->
 
 With Kiara's resolve to become known as the greatest smith in Libestal, it was only natural for her to quickly set her sights on competing with Gonathon. However, any attempts at one-upping Gonathon were quickly shelved. Kiara not only agreed to assist Gonathon, Immerkind, and Mordan Ramsey in their descent into the second dungeon, but also joined their newly formed [Wolf Pack](https://www.youtube.com/live/dgfH4qnRlfw?si=92Qk-dRTvlTvGjZi&t=8293).
 

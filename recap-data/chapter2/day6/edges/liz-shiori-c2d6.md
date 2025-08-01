@@ -1,4 +1,5 @@
 <!-- title: The Archiver's Truth. The Queen-Knight's Scarlet Denial -->
+<!-- relationship: Enemy -->
 
 Shiori's stories were rather nice.
 

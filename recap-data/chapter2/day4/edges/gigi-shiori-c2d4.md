@@ -1,4 +1,5 @@
 <!-- title: The Witch’s Trials -->
+<!-- relationship: No Longer Together -->
 
 Love can make a person do crazy things, both good and bad. Unfortunately for Gonathon G., his inability to reconcile his love for his queen and his love for his newfound companion would inevitably lead to heartbreak.
 

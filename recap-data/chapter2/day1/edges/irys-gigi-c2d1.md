@@ -1,4 +1,5 @@
 <!-- title: Forget and Forgive -->
+<!-- relationship: Family -->
 
 In a shocking turn of events, one of Gonathon's former greatest adversaries, the Hot Pink One, seemingly became one of his closest friends and... brother?!
 

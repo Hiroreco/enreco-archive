@@ -1,4 +1,5 @@
 <!-- title: My Dawg -->
+<!-- relationship: Dawg -->
 
 Among the slew of familiar faces, Gonathon bonded most with the pink-haired Mordan Ramsey. Mordan, who had retained her memories, seemed to harbor a strong interest in the humble Knight, a sentiment rooted deeply in their past adventures and her lasting impression of him. She saw him as a kind, trusting Knight, profoundly caring for those around him, especially a particular blonde. Gonathon, in turn, was instantly enamored with Mordan, particularly given her apparent role as the "Savior of Libestal," and the two quickly hit it off.
 

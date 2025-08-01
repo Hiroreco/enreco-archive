@@ -1,4 +1,5 @@
 <!-- title: Wolves Before Harlots -->
+<!-- relationship: The Wolf Pack -->
 
 After abruptly meeting at the enchanted wagon, Cecilia and Gonathon return to the princess's chamber to rest. Unable to bear her burden anymore, Cecilia [confides her troubles](https://www.youtube.com/live/Icdii90_vSA?t=4770s) to Gonathon. Gonathon believes that Immerkind's love is true and pure, and implores her to confess to the princess.
 

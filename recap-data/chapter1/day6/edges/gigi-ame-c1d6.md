@@ -1,4 +1,5 @@
 <!-- title: A Knight's Tale -->
+<!-- relationship: No Longer Together -->
 
 The love story between Gonathon and Jyonathan was a sweet one. From enemies who accused each other of being crazy to lovers who couldn’t leave each other’s side for even a second, they constantly bantered, teased, and doted on each other—forever the lovey-doveys. And on this day, things would be no different, as they continued their antics.
 

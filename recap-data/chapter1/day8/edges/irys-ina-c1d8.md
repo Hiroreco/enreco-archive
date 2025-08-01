@@ -1,4 +1,5 @@
 <!-- title: Forever My Consort -->
+<!-- relationship: Marriage -->
 
 Ina had one special wife. She wasn’t unfamiliar with the antics of the Hot Pink One. She had seen firsthand how much of a nutcase this woman was—flirting with every girl in sight, collecting wives like trinkets, and basking in her ever-growing harem. Ina didn’t comment much. She had accepted it as just another part of her consort’s chaotic nature.
 

@@ -1,4 +1,5 @@
 <!-- title: Family Broken, Found, and Resolved -->
+<!-- relationship: Family -->
 
 As jeweler and supplier, Princess Bijou and the Peasant The Bae had an amicable relationship; Bae sold her wares to Bijou for a discounted price, and Bijou returned the goodwill with the highest quality charms The Gacharms had to offer. And Bijou did math for 30 minutes for Bae.
 

@@ -1,4 +1,5 @@
 <!-- title: Pure Spite -->
+<!-- relationship: Enemy -->
 
 Peasant The Bae had nothing. Like, literally nothing. Wooden tools. Empty pockets. A hat—which wasn’t even hers but a hand-me-down from someone else. She was, by all definitions, empty-handed. Which made sense, considering she had been absent for 85% of the entire journey.
 

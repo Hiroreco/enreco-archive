@@ -1,4 +1,5 @@
 <!-- title: A Rock and a Hard Place -->
+<!-- relationship: Alliance -->
 
 While taking a trip to Gacharms to obtain some charms, what started as a casual conversation with Princess Bijou soon took a turn when the young gem revealed to Gonathon the history of her Stain [corruption](https://www.youtube.com/live/BSPi8sTHdAY?si=kbE6-YQRyp3CFpJQ&t=715) and theorized that Bae the Peasant might be next. While Gonathon was at first suspicious that Bijou herself might be corrupted. She was soon pacified by Bijou’s assurances and agreed to assist her against Bae should the peasant turn.
 

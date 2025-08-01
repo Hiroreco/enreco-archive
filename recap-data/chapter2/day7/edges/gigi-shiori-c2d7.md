@@ -1,4 +1,5 @@
 <!-- title: The Moon Sets so the Sun May Rise -->
+<!-- relationship: It's Complicated -->
 
 ["Nice to meet you."](https://youtu.be/mb91g7vQSnA?t=1769) It is a phrase all too familiar to Gonathon, whether she realizes it or not. Arriving at Shiori's house, Gonathon once again faced one whom she had previously loved, but now saw as a stranger. This time, Gonathon responded almost casually, a resigned sense of acceptance filling her voice as she conversed with Shiori. Expecting to find a book waiting for her, the amnesiac archiver responded in confusion, pointing the knight to Mordan Ramsey, who had bought the book by mistake.
 

@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 The final day brought an unexpected twist. As the heroes celebrated their hard-won victory over the corruption at the banquet, the Curse—somehow still alive—struck again, emerging from the shadows to slay Princess Iphania.

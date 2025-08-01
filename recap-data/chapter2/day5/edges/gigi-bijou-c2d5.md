@@ -1,4 +1,5 @@
 <!-- title: Good Neighbors -->
+<!-- relationship: Alliance -->
 
 If there was anyone that should be Gonathon's enemy this day, it would be Princess Bijou, who began pursuing Shiori of the Nyavellas mere minutes after the witch had broken off her relationship with Gonathon.
 

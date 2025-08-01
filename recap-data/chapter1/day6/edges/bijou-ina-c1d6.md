@@ -1,4 +1,5 @@
 <!-- title: Sisters -->
+<!-- relationship: Family -->
 
 Ina found the slow spread of corruption increasingly unsettling. At first, she brushed it off as a minor nuisance, but as it grew more rampant, she could no longer ignore it. She wanted to find its source, to put an end to it before it got out of hand—but she didn’t have to search for long. The source came to her.
 

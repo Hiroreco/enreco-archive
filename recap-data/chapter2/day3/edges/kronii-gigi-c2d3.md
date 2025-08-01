@@ -1,4 +1,5 @@
 <!-- title: A Ship Sunken, A Pack Expanded -->
+<!-- relationship: The Wolf Pack -->
 
 As Gonathon devoted to completing quests and assisting Cecilia Immerkind (see [Cecilia-Gonathon: Wolves Before Harlots](#edge:cecilia-gigi)), the Humble Knight found little time to devote to her queen. Instead, it was Gonathon's claims of the Outlander and Princess being siblings that most impacted Tam Gandr.
 

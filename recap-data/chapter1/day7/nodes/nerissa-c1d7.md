@@ -9,9 +9,9 @@ But before that, an idea struck her—she could use her ghostly form to explore 
 
 She drifted through the kingdom, but nothing seemed too out of place aside from several abandoned buildings. However, once she reached the castle, peculiarities began to reveal themselves. A hidden prison cell. The complete absence of the Jade Sword guild’s symbol on the castle grounds. Warping crystals that led to unknown locations. Blocked paths. It was odd. Some might dismiss these things as simple design choices, but Nerissa thought otherwise—especially when she stumbled upon [cryptic messages](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5386) hidden by two of the guards.
 
-Upon decrypting the message, it read, 
+Upon decrypting the message, it read,
 
-> Land of fated destiny echoed o'er and o'er again. Break the chains and it will flee, back to where it all began. 
+> Land of fated destiny echoed o'er and o'er again. Break the chains and it will flee, back to where it all began.
 
 What could it possibly mean?
 

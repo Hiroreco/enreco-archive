@@ -1,4 +1,5 @@
 <!-- title: Joyous Time -->
+<!-- relationship: It's Complicated -->
 
 It was finally over. The Heart of Ruin was destroyed, the Curse lifted, and the world—saved. The Princess was overjoyed, the Outlander surprised but quietly relieved, and the heroes—the Shining Stars—had succeeded in preventing the end of everything. The expressions on their faces spoke of peace, of the weight that had been lifted. At last, they no longer had to fear a doomed fate.
 

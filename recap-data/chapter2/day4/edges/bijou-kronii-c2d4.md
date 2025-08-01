@@ -1,4 +1,5 @@
 <!-- title: Not Again... -->
+<!-- relationship: Family -->
 
 If I had a nickel for every time Koseki Bijou randomly forced some queenly figure into becoming her mother—purely because she considered herself a princess, relation be damned—I’d have three nickels. Which isn’t a lot, but somehow, it’s still way more than it should be.
 

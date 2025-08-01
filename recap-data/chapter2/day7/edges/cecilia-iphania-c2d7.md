@@ -1,4 +1,5 @@
 <!-- title: Loyal Knight's Vow -->
+<!-- relationship: Protector -->
 
 After the tear-soaked storm that had been the day before, Cecilia found herself in stillness—finally able to think, to breathe, to reflect.
 

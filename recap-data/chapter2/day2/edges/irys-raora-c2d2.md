@@ -1,4 +1,5 @@
 <!-- title: Pink Union -->
+<!-- relationship: Business -->
 
 The pink one was not pleased. Her cakes weren’t selling; they never sold to begin with, and to make things worse, her brother had found employment under what seemed like a shady enterprise, one possibly built on the backs of child labor. Of course, her outrage had _nothing_ to do with jealousy. Not at all. Absolutely not. She just needed to have a stern, civil, and totally not passive-aggressive word with the owner of this “Gacharm” business.
 

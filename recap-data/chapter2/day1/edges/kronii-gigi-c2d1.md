@@ -1,4 +1,5 @@
 <!-- title: A Sense Of Loyalty -->
+<!-- relationship: It's Complicated -->
 
 Despite losing his memories, nothing could shake the unbreakable oath that Gonathon had with his queen, Tam Gandr. Upon their first meeting in the new world, Gonathon expressed a familiarity with Tam and a desire to assist her.
 

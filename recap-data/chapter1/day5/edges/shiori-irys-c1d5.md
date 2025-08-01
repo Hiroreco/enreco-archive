@@ -1,4 +1,5 @@
 <!-- title: Sidechick No.3 -->
+<!-- relationship: Marriage -->
 
 Shiori was simply minding her own business, not particularly invested in much, and certainly wanting to stay as far away from relationship drama as possible. But fate had other plans.
 

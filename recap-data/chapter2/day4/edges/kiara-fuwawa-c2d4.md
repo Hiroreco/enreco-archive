@@ -1,4 +1,5 @@
 <!-- title: For Those Working Hard -->
+<!-- relationship: Protector -->
 
 Shakira was kind—genuinely, effortlessly kind. She supported those around her without expecting anything in return, always lending a hand to fellow knights like Elizabeth, helping with quests, and gathering materials.
 

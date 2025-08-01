@@ -1,4 +1,5 @@
 <!-- title: Bloodraven -->
+<!-- relationship: Romantic -->
 
 Elizabeth thought she'd gained something special—someone special. But it was a trick, a jest, a backstab, a betrayal. The previous day, Elizabeth had believed she'd finally connected with Nerissa, the one person who had been on her mind since the beginning of her journey. But alas, she had been played for a fool.
 

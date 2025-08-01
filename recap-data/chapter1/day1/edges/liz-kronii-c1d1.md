@@ -1,4 +1,5 @@
 <!-- title: Red and Blue -->
+<!-- relationship: Enemy -->
 
 It wasn’t long before a conflict—if you could even call it that—erupted in the Kingdom between two of Libestal's most fiery personalities: Tam Gandr, the self-proclaimed future "Queen" of Libestal, and Elizabeth Rose Bloodflame, a former Queen in her past life.
 

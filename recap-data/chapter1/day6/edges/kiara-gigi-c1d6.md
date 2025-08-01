@@ -1,4 +1,5 @@
 <!-- title: The Oranges -->
+<!-- relationship: Unrequited Love -->
 
 Kiara was completely fixated on finding herself a marriage. Specifically, she had her eyes set on Gonathon, and to her, it made perfect sense—they were both orange, after all. However, knowing that Gonathon already had a beloved, she couldn't act on her desires—at least, not until the tournament began.
 

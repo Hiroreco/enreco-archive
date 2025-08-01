@@ -1,4 +1,5 @@
 <!-- title: Still Siblings Right? -->
+<!-- relationship: Romantic -->
 
 Cecilia set off to meet her cousin Shakira after making promises to Gonathon. Shakira, puzzled by the situation, sensed a connection between herself and Cecilia, believing something unspoken lingered between them.
 

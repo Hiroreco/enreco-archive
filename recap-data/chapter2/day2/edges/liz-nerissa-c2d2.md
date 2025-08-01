@@ -1,4 +1,5 @@
 <!-- title: The Fumbler -->
+<!-- relationship: Romantic -->
 
 Elizabeth had earned herself a brand new title today—**the Fumbler**—all thanks to a string of thoroughly embarrassing interactions with the ever-composed Blue Maiden, Nerissa. It was almost comedic, the sheer consistency with which the Scarlet Knight managed to fumble the bag. No self-respecting _Romeo_ would’ve ever acted like _that_ (see [Elizabeth](#node:liz)).
 

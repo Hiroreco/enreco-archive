@@ -1,4 +1,5 @@
 <!-- title: Cousins -->
+<!-- relationship: Business -->
 
 She returned to the job hall, where adventurers toiled to complete their tasks, and met Tanakisha Karia. There, they discovered they were cousins.
 

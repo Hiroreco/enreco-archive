@@ -1,4 +1,5 @@
 <!-- title: Seeds and Eggs -->
+<!-- relationship: Marriage -->
 
 Bijou and Shiori had always shared peculiar conversations whenever they crossed paths. Their topics ranged from milking to eating shoes, as though the two operated on the same bizarre wavelength. At first, it seemed like harmless, friendly banter, but over time, Bijou found herself drawn to the Oreo lady in a way that felt deeper than just camaraderie. Something about Shiori's unique oddness [resonated](https://www.youtube.com/live/Y2LV1PUQ0S8?feature=shared&t=4011) with her own.
 

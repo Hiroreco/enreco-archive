@@ -1,4 +1,5 @@
 <!-- title: She's a Witch -->
+<!-- relationship: Enemy -->
 
 Elizabeth was never one to let a perceived wrongdoing go unchecked. So when the newly opened _FaunaMart_, managed by Ceres Fauna, came onto the scene, she was immediately wary.
 

@@ -1,4 +1,5 @@
 <!-- title: Eternal Consort -->
+<!-- relationship: Marriage -->
 
 The Hot Pink One had been battling jealousy all day long. Gonathon’s wife, or as he called her, his Pearl, Jyonathan, was a beautiful blonde maiden—exactly the kind of person the pink lady dreamed of having by her side. Yet, this flower was already firmly planted in her pot. While the Hot Pink One kept whispering wishes under her breath for the bond between Gonathon and Jyonathan to falter, she couldn’t help but yearn for someone to call her own.
 

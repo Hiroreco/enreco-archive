@@ -1,4 +1,5 @@
 <!-- title: Chef Union -->
+<!-- relationship: Business -->
 
 Two chefs, two very different backgrounds—but the same tragic outcome: not a single sale to their names. Dozens of chocolate cakes and vats of potato salad made with love and desperation, only to end up in the trash instead of someone’s stomach. The kingdom’s economy was ruthless, and it hit the culinary world the hardest.
 

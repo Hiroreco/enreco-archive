@@ -1,4 +1,5 @@
 <!-- title: The Finest PP and Hole Around! -->
+<!-- relationship: Business -->
 
 Gonathon and Bae the Peasant forged a hearty business relationship, with Gonathon at first [gifting Bae her prized Stain Hat](https://youtu.be/dgfH4qnRlfw?t=9921) after the destitute peasant lamented her inability to purchase a hat for herself. Unwilling to allow Gonathon to leave empty-handed, Bae forged an enchanted pickaxe for him in exchange for some upgrade stones.
 

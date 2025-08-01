@@ -1,4 +1,5 @@
 <!-- title: Some Queen, Eh? -->
+<!-- relationship: Enemy -->
 
 Carrying on from the first day, the bickering between the maiden in blue and the knight clad in red grew only fiercer.
 

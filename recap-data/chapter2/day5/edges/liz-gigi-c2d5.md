@@ -1,4 +1,5 @@
 <!-- title: Honor and Justice -->
+<!-- relationship: Friends -->
 
 Throughout Gonathon’s trials and tribulations, a keen eye was observing and keeping track of him. No longer able to continue passively watching, Gonathon’s fellow knight Elizabeth called Gonathon, stating that she wished to speak in private. Despite having not interacted much with Liz in the current Libestal, this conversation would prove to have an immense impact on both of them.
 

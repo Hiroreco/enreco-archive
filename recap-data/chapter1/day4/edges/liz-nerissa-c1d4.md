@@ -1,4 +1,5 @@
 <!-- title: Heartbroken -->
+<!-- relationship: Romantic -->
 
 Elizabeth couldn’t believe her luck when Nerissa [invited](https://www.youtube.com/live/dCNrMstGc3I?feature=shared&t=1397) her to join her on a journey to the Volcanic Dungeon. Without hesitation, she accepted. It was the perfect opportunity to finally spend some quality time alone with the enigmatic maiden in blue.
 

@@ -1,4 +1,5 @@
 <!-- title: Lottery Fiasco -->
+<!-- relationship: Enemy -->
 
 Mococo was in deep. Her gambling addiction consumed her, and every morning, her first thought was the lottery—buying new tickets and eagerly checking if she'd struck gold from the previous batch. On the other side of this chaotic equation was Nerissa, freshly starting her internship at FaunaMart. Unfortunately for her, Mococo was her first customer, and the day was destined for disaster.
 

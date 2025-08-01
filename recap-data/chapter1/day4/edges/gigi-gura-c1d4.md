@@ -1,4 +1,5 @@
 <!-- title: Little Gnome Boy -->
+<!-- relationship: Enemy -->
 
 Married life had proven to be a battlefield for Gonathon. Ever since tying the knot with Jyonathan, his days had been spent fending off external threats—namely other so-called "heroes" attempting to steal his beloved away. And today was no different. A new challenger had entered the fray.
 

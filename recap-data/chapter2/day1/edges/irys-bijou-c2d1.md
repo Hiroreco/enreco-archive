@@ -1,4 +1,5 @@
 <!-- title: Onii-chan -->
+<!-- relationship: Family -->
 
 From side chicks to sidebros—a development that transcended all boundaries (especially the gender one), but here we are. Having forgotten the messy details of their previous divorce, the Hot Pink One and Koseki Bijou found themselves bound together once more. Only this time, it wasn’t through romance, but through something far more powerful: brotherhood.
 

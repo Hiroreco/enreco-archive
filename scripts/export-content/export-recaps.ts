@@ -28,19 +28,22 @@ function insertFanartComments(
     md: string,
     preserved: Record<string, string>,
 ): string {
-    // Replace each [label](url) with [label](url)\n<!-- comment --> if a comment exists for that url
-    return md.replace(
-        /\[([^\]]+)\]\((https?:\/\/(?:www\.)?(?:twitter|x)\.com\/[^\)]+)\)/g,
-        (full, label, url) => {
-            url = url.trim();
-            if (preserved[url]) {
-                // Avoid double-inserting if the next non-empty line is already the comment
-                // (We check for the pattern: link\n<!-- comment -->)
-                // We'll do this check outside this function, so always insert
-                return `${full}\n<!-- ${preserved[url]} -->`;
-            }
-            return full;
-        },
+    // Replace each [label](url) with [label](url)\n\n<!-- comment -->\n\n if a comment exists for that url
+    return (
+        md
+            .replace(
+                /\[([^\]]+)\]\((https?:\/\/(?:www\.)?(?:twitter|x)\.com\/[^\)]+)\)([ \t]*\r?\n)*/g,
+                (full, label, url) => {
+                    url = url.trim();
+                    if (preserved[url]) {
+                        // Insert with exactly one blank line before and after the comment
+                        return `[${label}](${url})\n\n<!-- ${preserved[url]} -->\n\n`;
+                    }
+                    return `[${label}](${url})\n\n`;
+                },
+            )
+            // Remove 3 or more consecutive linebreaks (leave max 2)
+            .replace(/\n{3,}/g, "\n\n")
     );
 }
 

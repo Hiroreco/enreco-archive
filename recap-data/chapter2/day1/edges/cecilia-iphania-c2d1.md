@@ -1,4 +1,5 @@
 <!-- title: Vow -->
+<!-- relationship: Protector -->
 
 She made her way to the meeting chamber, and as her eyes landed on the radiant figure seated within—[Princess Iphania](#node:iphania)—Cecilia felt her breath catch ever so slightly.
 

@@ -1,4 +1,5 @@
 <!-- title: Side Chick No.2 -->
+<!-- relationship: Marriage -->
 
 In her quest to build a harem, the Hot Pink One’s first target was none other than Koseki Bijou. To be fair, it was Bijou who had planted this idea in the pink lady’s head in the first place. Earlier in the day, the gem princess had started making moves on the Hot Pink One—teasing her, dropping hints—fully aware that she was already married to Ina, yet unable to resist stirring up trouble.
 

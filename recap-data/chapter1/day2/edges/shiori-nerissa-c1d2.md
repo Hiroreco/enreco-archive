@@ -1,4 +1,5 @@
 <!-- title: Keeping Company -->
+<!-- relationship: Marriage -->
 
 Although no formal ceremony took place, Nerissa and Shiori might have been the first to establish what could be considered a married relationship. Technically, it began as a declaration from Nerissa (from day one), which Shiori simply went along with. However, their dynamic felt far more natural and genuine compared to the peculiar and often chaotic marriages that occurred throughout the day.
 
