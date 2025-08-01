@@ -1,4 +1,4 @@
-import { ChartData } from "@enreco-archive/common/types";
+import { Chapter, ChartData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import JSZip from "jszip";
 import path from "path";
@@ -50,7 +50,7 @@ async function processChapter(chapterNum: number) {
         console.error(`❌ ${entryName} not found in ${zipPath}`);
         return;
     }
-    const chapterJson: ChapterJson = JSON.parse(await fileEntry.async("text"));
+    const chapterJson: Chapter = JSON.parse(await fileEntry.async("text"));
 
     // process each day folder exactly as before
     const days = await fs.readdir(outputFolder);
@@ -166,6 +166,16 @@ async function processChapter(chapterNum: number) {
                         .trim();
                     if (!lines[0].trim()) lines.shift();
                 }
+
+                let relationship = "";
+                if (/^<!--\s*relationship:\s*(.+?)\s*-->$/.test(lines[0])) {
+                    relationship = lines
+                        .shift()!
+                        .replace(/^<!--\s*relationship:\s*(.+?)\s*-->$/, "$1")
+                        .trim();
+                    if (!lines[0].trim()) lines.shift();
+                }
+
                 const content = stripCommentTags(lines.join("\n")).trim();
 
                 const ed = chart.edges.find(
@@ -176,6 +186,18 @@ async function processChapter(chapterNum: number) {
                 );
                 if (ed) {
                     if (title) ed.data!.title = title;
+                    if (relationship) {
+                        const relId = Object.keys(
+                            chapterJson.relationships,
+                        ).find(
+                            (id) =>
+                                chapterJson.relationships[id].name ===
+                                relationship,
+                        );
+                        if (relId !== undefined) {
+                            ed.data!.relationshipId = relId;
+                        }
+                    }
                     ed.data!.content = content;
                     seenEdges.add(ed.id);
                 } else {
