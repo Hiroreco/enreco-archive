@@ -30,6 +30,82 @@ async function loadTextIds(): Promise<Set<string>> {
     return new Set(Object.keys(data));
 }
 
+async function loadChapterRelationships(): Promise<
+    Record<string, Set<string>>
+> {
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
+    const chapterFiles = await fs.readdir(CHAPTERS_DIR);
+    const chapterRelationships: Record<string, Set<string>> = {};
+
+    for (const file of chapterFiles) {
+        const match = file.match(/^chapter(\d+)\.json$/);
+        if (!match) continue;
+        const chapterNum = parseInt(match[1]);
+        const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
+        const json = JSON.parse(raw);
+        chapterRelationships[chapterNum] = new Set(
+            Object.values(json.relationships).map((r: any) => r.name),
+        );
+    }
+    return chapterRelationships;
+}
+
+async function loadChapterEdgeIds(): Promise<Record<string, Set<string>>> {
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
+    const chapterFiles = await fs.readdir(CHAPTERS_DIR);
+    const chapterEdgeIds: Record<string, Set<string>> = {};
+
+    for (const file of chapterFiles) {
+        const match = file.match(/^chapter(\d+)\.json$/);
+        if (!match) continue;
+        const chapterNum = parseInt(match[1]);
+        const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
+        const json = JSON.parse(raw);
+        const edgeIds = new Set<string>();
+        if (Array.isArray(json.charts)) {
+            for (const chart of json.charts) {
+                if (chart && Array.isArray(chart.edges)) {
+                    for (const edge of chart.edges) {
+                        if (edge && typeof edge.id === "string") {
+                            edgeIds.add(edge.id);
+                        }
+                    }
+                }
+            }
+        }
+        chapterEdgeIds[chapterNum] = edgeIds;
+    }
+    return chapterEdgeIds;
+}
+
+async function loadChapterNodeIds(): Promise<Record<string, Set<string>>> {
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
+    const chapterFiles = await fs.readdir(CHAPTERS_DIR);
+    const chapterNodeIds: Record<string, Set<string>> = {};
+
+    for (const file of chapterFiles) {
+        const match = file.match(/^chapter(\d+)\.json$/);
+        if (!match) continue;
+        const chapterNum = parseInt(match[1]);
+        const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
+        const json = JSON.parse(raw);
+        const nodeIds = new Set<string>();
+        if (Array.isArray(json.charts)) {
+            for (const chart of json.charts) {
+                if (chart && Array.isArray(chart.nodes)) {
+                    for (const node of chart.nodes) {
+                        if (node && typeof node.id === "string") {
+                            nodeIds.add(node.id);
+                        }
+                    }
+                }
+            }
+        }
+        chapterNodeIds[chapterNum] = nodeIds;
+    }
+    return chapterNodeIds;
+}
+
 // --- MAIN VALIDATION ---
 async function main() {
     const mdFiles = await getMarkdownFiles(RECAP_DATA_DIR);
@@ -47,6 +123,10 @@ async function main() {
         /* ignore if not present */
     }
 
+    const chapterRelationships = await loadChapterRelationships();
+    const chapterEdgeIds = await loadChapterEdgeIds();
+    const chapterNodeIds = await loadChapterNodeIds();
+
     // Tag whitelist
     const VALID_TAGS = new Set([
         "embed",
@@ -63,6 +143,18 @@ async function main() {
     for (const file of mdFiles) {
         const relPath = path.relative(process.cwd(), file);
         const content = await fs.readFile(file, "utf-8");
+
+        // --- Determine chapter number from filename or path ---
+        // Examples: .../chapter1/day2/edges/gigi-ame-c1d2.md OR gigi-c1d2.md
+        let chapterNum: string | undefined;
+        const chapterMatch = relPath.match(/chapter(\d+)/);
+        if (chapterMatch) {
+            chapterNum = (parseInt(chapterMatch[1]) - 1).toString();
+        } else {
+            // fallback: try filename like gigi-c1d2.md
+            const fileMatch = relPath.match(/-c(\d+)d\d+/);
+            if (fileMatch) chapterNum = (parseInt(fileMatch[1]) - 1).toString();
+        }
 
         // --- Link syntax check ---
         const LINK_RE = /(?<!!)\[([^\]]*)\]\(([^)]*)\)/g;
@@ -159,7 +251,7 @@ async function main() {
         }
 
         // --- Edge/Node title check ---
-        if (relPath.includes("/edges/") || relPath.includes("/nodes/")) {
+        if (relPath.includes("edges") || relPath.includes("nodes")) {
             const firstLine = lines[0].trim();
             if (!/^<!--\s*title:\s*.+\s*-->$/.test(firstLine)) {
                 console.warn(
@@ -169,17 +261,91 @@ async function main() {
             }
         }
 
+        // --- Edge relationship check ---
+        if (relPath.includes("edges")) {
+            const relLine = lines.find((line) =>
+                line.trim().startsWith("<!-- relationship:"),
+            );
+            if (relLine) {
+                const match = relLine.match(
+                    /<!--\s*relationship:\s*([^-]+?)\s*-->/i,
+                );
+                if (match) {
+                    const relName = match[1].trim();
+                    if (
+                        !chapterNum ||
+                        !chapterRelationships[parseInt(chapterNum)]
+                    ) {
+                        console.warn(
+                            `[${relPath}] could not determine chapter for relationship validation`,
+                            chapterNum,
+                        );
+                        hasErrors = true;
+                    } else if (
+                        !chapterRelationships[parseInt(chapterNum)].has(relName)
+                    ) {
+                        console.warn(
+                            `[${relPath}] unknown relationship name in edge for chapter ${chapterNum}: "${relName}"`,
+                        );
+                        hasErrors = true;
+                    }
+                } else {
+                    console.warn(
+                        `[${relPath}] malformed relationship comment (should be <!-- relationship: RelationshipName -->)`,
+                    );
+                    hasErrors = true;
+                }
+            } else {
+                console.warn(
+                    `[${relPath}] missing relationship comment (should be <!-- relationship: RelationshipName -->)`,
+                );
+                hasErrors = true;
+            }
+        }
+
         // --- Node status check ---
-        if (relPath.includes("/nodes/")) {
+        if (relPath.includes("nodes")) {
             const statusLine = lines.find((line) =>
                 line.trim().startsWith("<!-- status:"),
             );
+            if (!statusLine) {
+                console.warn(
+                    `[${relPath}] missing or malformed node status comment (should be <!-- status: Status -->)`,
+                );
+                hasErrors = true;
+            }
+        }
+
+        // Validate edge and node references
+        const edgeRefRe = /\[[^\]]+\]\(#edge:([^)]+)\)/g;
+        while ((m = edgeRefRe.exec(content))) {
+            const edgeId = m[1].trim();
+            const reversedEdgeId = edgeId.split("-").reverse().join("-");
+            const chapterIdx = chapterNum ? parseInt(chapterNum) : undefined;
             if (
-                !statusLine ||
-                !/^<!--\s*status:\s*\w+\s*-->$/.test(statusLine)
+                chapterIdx === undefined ||
+                !chapterEdgeIds[chapterIdx] ||
+                (!chapterEdgeIds[chapterIdx].has(edgeId) &&
+                    !chapterEdgeIds[chapterIdx].has(reversedEdgeId))
             ) {
                 console.warn(
-                    `[${relPath}] missing or malformed node status comment (should be <!-- status: draft/published -->)`,
+                    `[${relPath}] reference to missing #edge:${edgeId} in chapter ${chapterIdx ?? "?"}`,
+                );
+                hasErrors = true;
+            }
+        }
+
+        const nodeRefRe = /\[[^\]]+\]\(#node:([^)]+)\)/g;
+        while ((m = nodeRefRe.exec(content))) {
+            const nodeId = m[1].trim();
+            const chapterIdx = chapterNum ? parseInt(chapterNum) : undefined;
+            if (
+                chapterIdx === undefined ||
+                !chapterNodeIds[chapterIdx] ||
+                !chapterNodeIds[chapterIdx].has(nodeId)
+            ) {
+                console.warn(
+                    `[${relPath}] reference to missing #node:${nodeId} in chapter ${chapterIdx ?? "?"}`,
                 );
                 hasErrors = true;
             }
