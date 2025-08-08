@@ -129,7 +129,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="fanart-btn"
                     className="size-[40px] p-1"
-                    tooltipText="Fanart"
+                    tooltipText="Libestal Gallery"
                     enabled={true}
                     tooltipSide="left"
                     onClick={openFanartModal}

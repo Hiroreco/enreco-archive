@@ -595,6 +595,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                 style={{ backgroundImage: "none" }}
                 showXButtonForce={true}
                 showXButton={true}
+                xButtonClassName="right-1.5"
             >
                 <div className="absolute inset-0 -z-10">
                     <Image

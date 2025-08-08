@@ -1,5 +1,5 @@
 <!-- title: Oh Princess -->
-<!-- quote: I shall fight for your honour, you knight through and through.  -->
+<!-- quote: I shall fight for your honour, your knight through and through.  -->
 <!-- chapters: 1 -->
 <!-- images: (Cecilia's first time meeting Iphania), (Cecilia being freaky on Iphania's bed), (Gonathon and Bijou comforting Cecilia), (Cecilia's serenade for the Princess), (Cecilia upon learning Iphania's death) -->
 <!-- model: false -->
@@ -9,7 +9,7 @@
 **Chapter:** 2
 **Duration:** Day 1 to 8
 
-Cecilia Immerkind, in her previous journey during the first chapter, served as a knight to a "princess", Princess Koseki Bijou. In this second journey, she once again pledged herself to a princess. But this time, it wasn't out of manipulation or self-interest. This time, it was driven by something far more pure and powerful: love.
+[Cecilia Immerkind,](#entry:cecilia-entry) in her previous journey during the first chapter, served as a knight to a "princess," Princess Koseki Bijou. In this second journey, she once again pledged herself to a princess. But this time, it wasn't out of manipulation or self-interest. This time, it was driven by something far more pure and powerful: love.
 
 ## Details
 
