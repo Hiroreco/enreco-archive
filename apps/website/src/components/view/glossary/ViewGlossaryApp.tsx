@@ -118,7 +118,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="music-player-btn"
                     className="size-[40px] p-[4px]"
-                    tooltipText="Music Player"
+                    tooltipText="Jukebox"
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMusicPlayerModal}
