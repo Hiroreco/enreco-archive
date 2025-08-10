@@ -20,7 +20,7 @@
         "generate-thumbnails": "tsx scripts/core/generate-thumbnails.ts",
         "extract-twitter-links": "tsx scripts/fanart/extract-twitter-links.ts",
         "download-images": "tsx scripts/fanart/download-images.ts",
-        "inject-fanart": "tsx scripts/inject/inject-fanart.ts",
+        "inject-fanart": "tsx scripts/fanart/inject-fanart.ts",
         "export-glossary": "tsx scripts/export-content/export-glossary.ts",
         "export-recaps": "tsx scripts/export-content/export-recaps.ts",
         "inject-glossary": "tsx scripts/inject-content/inject-glossary.ts",

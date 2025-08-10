@@ -73,6 +73,8 @@ The quiet rise of rebellion awakened.
 
 <!-- shiori, bijou, nerissa, fuwawa, mococo -->
 
+["Ancient Libestal" by Perkie](https://x.com/PerksJAZZBERI/status/1945950846015119413)
+
 ## Memes
 
 ["That heel turn tho" by creakhead](https://x.com/_creakhead/status/1921475227248218432)
@@ -94,5 +96,3 @@ The quiet rise of rebellion awakened.
 ["Enigmatic Recollection: Chains Of Fate (2007)" by EmicoOtero](https://x.com/EmicoOtero/status/1921417355772522542)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
-
-["Ancient Libestal" by Perkie](https://x.com/PerksJAZZBERI/status/1945950846015119413)
