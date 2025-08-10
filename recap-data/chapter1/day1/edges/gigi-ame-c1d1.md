@@ -1,4 +1,5 @@
 <!-- title: King Killer -->
+<!-- relationship: Alliance -->
 
 Gonathon was a thorn in Jyon Watson's side for most of the day. The orange knight had discovered Jyon's plan to assassinate the King, a plot that Gonathon couldn’t tolerate in good conscience. Every time he encountered the blonde maiden, he would shout accusations and cause a scene, determined to expose her treachery to the rest of the kingdom.
 

@@ -1,4 +1,5 @@
 <!-- title: First Employee -->
+<!-- relationship: Business -->
 
 Nerissa had always held a soft spot for Fauna in her heart. Watching her guildmate tirelessly work on building her business—whether legitimate or scammy—was nothing short of inspiring. Nerissa admired Fauna’s dedication and wanted to support her in any way possible. From gathering materials to offering emotional encouragement, she became Fauna’s dependable right-hand woman. So, when Fauna offered her the role of FaunaMart’s very first employee, Nerissa accepted without hesitation.
 

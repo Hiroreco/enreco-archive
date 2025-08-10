@@ -1,4 +1,5 @@
 <!-- title: Huh Puh -->
+<!-- relationship: Business -->
 
 At first, the Hot Pink One had no clue what “HPO” even meant. Acronyms? Out of her league—she was proudly, aggressively illiterate after all. All she could gather was that it probably had something to do with her name, somehow. But try as she might, she couldn’t crack the code.
 

@@ -1,4 +1,5 @@
 <!-- title: Severed, but Still There -->
+<!-- relationship: Romantic -->
 
 The two had once been bound in matrimony—among the very first to do so, long before this new journey ever began. But due to circumstances no one could have foreseen, Koseki Bijou had decided to sever the bond she once shared with Shiori Novella.
 

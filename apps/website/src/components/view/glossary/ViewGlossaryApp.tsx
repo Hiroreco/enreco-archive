@@ -118,7 +118,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="music-player-btn"
                     className="size-[40px] p-[4px]"
-                    tooltipText="Music Player"
+                    tooltipText="Jukebox"
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMusicPlayerModal}
@@ -129,7 +129,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="fanart-btn"
                     className="size-[40px] p-1"
-                    tooltipText="Fanart"
+                    tooltipText="Libestal Gallery"
                     enabled={true}
                     tooltipSide="left"
                     onClick={openFanartModal}

@@ -1,4 +1,5 @@
 <!-- title: The Queen’s Gambit -->
+<!-- relationship: Knight -->
 
 Of all the relationships tested on this day, perhaps none were as prominent as the one between Tam Gandr and her loyal knight. Gonathon accompanied Tam into Star Site Chronos, where, following a series of trials and tribulations, a shocking truth was revealed: Tam was in fact the Queen of Libestal from the future the heroes had originated from, and Gonathon had been her most trusted and ardent follower.
 

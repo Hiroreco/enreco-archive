@@ -1,4 +1,5 @@
 <!-- title: CHAOS'S KHAOS -->
+<!-- relationship: Family -->
 
 Khaos was a child that Bae first mistook as a hat when she happened upon her on the side of the street. Bae bought Khaos for 3000 gold, a hefty sum at the time, and the child soon found a comfortable home on Bae's head. Though it seems Bae has been quite off ever since meeting Khaos, perhaps it's just a coincidence.
 

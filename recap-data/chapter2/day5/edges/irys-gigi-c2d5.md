@@ -1,4 +1,5 @@
 <!-- title: No Goddesses or Queens, Only Grems -->
+<!-- relationship: Guard Dog -->
 
 After speaking of his reverence for the Hot Pink One for a few days, Gonathon finally had a meeting with the elusive pink trickster. Assisting HPO against a pack of voracious Stains, Gonathon struck up a conversation with the wannabe deity. At this point the goddess simply demanded tribute, and, busy with other tasks, Gonathon departed for the dungeon.
 

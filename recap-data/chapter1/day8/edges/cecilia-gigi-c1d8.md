@@ -1,4 +1,5 @@
 <!-- title: Mysterious Messages -->
+<!-- relationship: Alliance -->
 
 Cecilia and Gonathon barely interacted throughout their time in the kingdom. Aside from a brief moment on the seventh day, their encounters were few and fleeting—mostly consisting of Cecilia asking for money or Gonathon taking jabs at her for being a fake lawyer.
 

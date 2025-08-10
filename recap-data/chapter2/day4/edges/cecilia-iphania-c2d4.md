@@ -1,4 +1,5 @@
 <!-- title: One And Only -->
+<!-- relationship: Unrequited Love -->
 
 Cecilia began her day with a purpose in her heart and the Princess in her thoughts. Once more, she sought an audience—captivated by Iphania’s radiance, elegance, and... her scent.
 

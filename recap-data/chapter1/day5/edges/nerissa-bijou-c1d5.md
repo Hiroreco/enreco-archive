@@ -1,4 +1,5 @@
 <!-- title: Enemies to Lovers? -->
+<!-- relationship: Marriage -->
 
 They're side chicks to each other now. Nerissa became the Hot Pink One's side chick, and Bijou also became the Hot Pink Lady's side chick. So by extension, Bijou and Nerissa were each other's side chicks.
 

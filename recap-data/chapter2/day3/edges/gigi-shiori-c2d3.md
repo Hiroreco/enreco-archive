@@ -1,4 +1,5 @@
 <!-- title: The Diamond and the Black Pearl -->
+<!-- relationship: Romantic -->
 
 Early in the day, Gonathon received [a strange letter](https://youtu.be/dgfH4qnRlfw?t=2540) from Shiori of the Nyavellas, one that seemed to imply the witch had feelings for the Humble Knight. Dismissing it as simply an expression of gratitude, Gonathon set out to complete his daily tasks.
 

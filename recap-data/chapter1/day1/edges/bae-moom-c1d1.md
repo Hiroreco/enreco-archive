@@ -1,4 +1,5 @@
 <!-- title: Friends (?) -->
+<!-- relationship: Alliance -->
 
 You put a rat and an owl in the same room, and it’s only a matter of time before the owl starts picking on the rat. That was precisely what happened between Three and Bae on their first day. Three wasn’t particularly kind to her newfound companion—teasing her, calling her crazy—and Bae knew all too well that she was being picked on.
 

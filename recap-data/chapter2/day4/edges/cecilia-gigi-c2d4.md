@@ -1,4 +1,5 @@
 <!-- title: The Kind and the Humble Knight -->
+<!-- relationship: The Wolf Pack -->
 
 As Cecilia prepared to rest for the night, a sudden, urgent call from Gonathon stirred her from her peace. The tone in his voice told her all she needed to know—this wasn’t just a casual chat. Something was weighing heavily on him.
 

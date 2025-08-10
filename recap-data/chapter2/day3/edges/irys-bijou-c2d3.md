@@ -1,4 +1,5 @@
 <!-- title: Birthday Girl -->
+<!-- relationship: Family -->
 
 Her shop? _Tampered with_? Her very own **HPO's Sick Deals**, the proud little pink stand where not a single transaction had ever occurred? That was the call the Pink One received from her brother—reporting a suspicious figure meddling with her beloved store.
 

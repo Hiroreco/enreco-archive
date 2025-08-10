@@ -1,4 +1,5 @@
 <!-- title: Roa's Not-Beach Day Episode! -->
+<!-- relationship: Unrequited Love -->
 
 Every anime worth its salt (or not) must have an episode where the heroes we hold dear have a moment of levity from the perils of their journey or the conspiracies that are hidden just around the corner.
 

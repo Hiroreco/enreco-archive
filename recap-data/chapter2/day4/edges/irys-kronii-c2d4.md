@@ -1,4 +1,5 @@
 <!-- title: Tyrannical Ruler -->
+<!-- relationship: Romantic -->
 
 Turns out, her lil’ Tammy was actually _the_ Warden of Time—Ouro Kronii herself—and just like that, IRyS felt her status crumble under the weight of cosmic significance. I mean, what was she known for? Alcoholism? Party tricks? Certainly not timeline maintenance. The [self-esteem crash](https://www.youtube.com/live/YVyeKQ-6Ka8?si=roD1SAZpIWxklgGw&t=4637) was instant.
 

@@ -1,4 +1,5 @@
 <!-- title: So Long, Consort -->
+<!-- relationship: It's Complicated -->
 
 The Hot Pink One didn’t know how to react.
 

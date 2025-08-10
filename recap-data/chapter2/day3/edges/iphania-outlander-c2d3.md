@@ -1,4 +1,5 @@
 <!-- title: The Next Step -->
+<!-- relationship: It's Complicated -->
 
 The Princess and the Outlander seemed close—close enough to speak to each other casually, like longtime friends... or maybe even something more. Who knows? But beneath the familiar tone lay a shared burden: the search for a way to break free from a fate that seemed set in stone. A fate where, each time the Outlander saves the world, he ends up dooming it—birthing the very calamity he sought to prevent, the Outsider.
 

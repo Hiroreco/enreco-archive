@@ -1,4 +1,5 @@
 <!-- title: Start Again -->
+<!-- relationship: Romantic -->
 
 Even on the very last day, the shenanigans between Elizabeth and Nerissa showed no signs of stopping. Amidst the kingdom’s chaotic struggle against the spreading corruption, the two still found time to try and one-up each other. Well—mostly Elizabeth, as the Scarlet Knight simply couldn’t let Nerissa take all the credit for being Gonathon’s [wingman](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=8905).
 

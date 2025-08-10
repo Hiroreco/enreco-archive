@@ -1,4 +1,5 @@
 <!-- title: Passed Pawn -->
+<!-- relationship: Knight -->
 
 Following the previous day's dizzying conclusion, Tam and Gonathon’s first exchange of the day was relatively simple, with the knight kneeling before her queen and quickly deflecting a question about the queen’s state of mind from Immerkind. The two parted to assist their parties in the Mysterious Tome quest, during which a jovial Tam Gandr proudly proclaimed that Gonathon was [a truly great companion](https://youtu.be/jayBiB9euJU?t=1755) (this was quickly misinterpreted by her party members as Tam praising Gonathon as a good pet).
 

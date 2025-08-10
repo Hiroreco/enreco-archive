@@ -1,4 +1,5 @@
 <!-- title: The Knight and the Hobo -->
+<!-- relationship: Romantic -->
 
 Cecilia confronts Peasant the Bae in order to set aside their [differences](https://www.youtube.com/live/48HSA_GcOZ0?t=8128s). The tension between them has softened, as Bae realizes her words were misunderstood. She clarifies the misunderstanding and joins Cecilia, Roa, Bijou, and IRyS for a friendly drink by the creek.
 

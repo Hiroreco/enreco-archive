@@ -1,4 +1,5 @@
 <!-- title: Doomed Yuri -->
+<!-- relationship: Romantic -->
 
 **Elizabeth's Point of View**
 

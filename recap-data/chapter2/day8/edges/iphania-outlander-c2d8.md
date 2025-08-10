@@ -1,4 +1,5 @@
 <!-- title: A Price for Defying Fate -->
+<!-- relationship: It's Complicated -->
 
 As the victory banquet approached, the Outlander sought out a private moment with the heroes. He spoke candidly—more openly than ever before.
 

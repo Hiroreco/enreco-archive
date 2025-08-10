@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 Another piece of memory was recovered as the heroes conquered Star Site: Chronos—one being the recollection of Ouro Kronii, the other the crucial information needed to achieve the goal of preventing the Outsider from coming into existence.

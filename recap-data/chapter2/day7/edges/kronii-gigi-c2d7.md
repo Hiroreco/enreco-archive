@@ -1,4 +1,5 @@
 <!-- title: Immortal Game -->
+<!-- relationship: Knight -->
 
 Despite their differences in standing, Tam Gandr and Gonathon G were very much alike. Just as Gonathon found himself caught in Shiori of the Nyavella's web of intrigue, so too did Tam find herself constantly pulled back to the false embrace of the Hot Pink One. But, while Gonathon had begun to reconcile and move towards a new future with Shiori, Tam remained imprisoned in HPO's [gaol of lies and sweet nothings](https://www.youtube.com/watch?v=rDdbFYqcAyI&t=4635s).
 

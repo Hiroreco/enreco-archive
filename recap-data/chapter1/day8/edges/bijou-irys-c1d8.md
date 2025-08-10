@@ -1,4 +1,5 @@
 <!-- title: Divorce No.2 -->
+<!-- relationship: No Longer Together -->
 
 Bijou was on a divorce spree, and the Hot Pink One was her second target. But unlike her first victim, Shiori—who, despite everything, still cost Bijou a bit of money in the process—this one wasn’t going down without a fight.
 

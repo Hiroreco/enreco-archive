@@ -12,7 +12,9 @@ On a broader scale, the kingdom saw a shift as more heroes set aside their usual
 
 Perhaps the most notable addition, however, was the grand opening of Mori’s Tavern, fittingly named _Death Do Us Part_. Beyond serving food and drinks to weary travelers, this establishment came with a unique selling point—_divorce services_. With relationships forming (and hopefully crumbling) at an alarming rate, Mori saw an opportunity and seized it, offering an easy way out for those entangled in the kingdom’s ever-expanding web of bonds.
 
-Finally, returning to the main task of the day—the dungeon challenge. This time, our adventurers were sent into the ominous depths of the [_Eldritch Horror Dungeon_](https://x.com/hololive_En/status/1830787800968638636), a place shrouded in eerie whispers and creeping dread. The challenge? To complete a series of designated tasks within a reasonable timeframe before their sanity levels plummeted beyond salvation. Upon completion, the heroes were granted the recovered memories of [_Ninomae Ina’nis_](https://www.youtube.com/watch?v=QE5Ow4L1Zt8).
+Finally, returning to the main task of the day—the dungeon challenge. This time, our adventurers were sent into the ominous depths of the [_Eldritch Horror Dungeon_](https://x.com/hololive_En/status/1830787800968638636)
+
+, a place shrouded in eerie whispers and creeping dread. The challenge? To complete a series of designated tasks within a reasonable timeframe before their sanity levels plummeted beyond salvation. Upon completion, the heroes were granted the recovered memories of [_Ninomae Ina’nis_](https://www.youtube.com/watch?v=QE5Ow4L1Zt8).
 
 ![Inside the Eldritch Horror Dungeon](images-opt/ina-dungeon-opt.webp)
 

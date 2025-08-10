@@ -1,4 +1,5 @@
 <!-- title: My Princess... -->
+<!-- relationship: Unrequited Love -->
 
 With Gonathon’s steadfast support at her side, Cecilia finally mustered the courage to confess her feelings to the princess. It was a vulnerable moment, filled with trembling hope and unspoken dreams—but the response she received cut deeper than any blade. For in that moment, it became clear: Princess Iphania’s thoughts were consumed by another. The Outlander.
 

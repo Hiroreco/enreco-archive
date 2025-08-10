@@ -1,4 +1,5 @@
 <!-- title: Humble Endings, Sinister Beginnings -->
+<!-- relationship: It's Complicated -->
 
 "I will see you tomorrow." These are the words that Shiori of the Nyavellas left Gonathon G with as the two parted the previous day. But what seemed to be a simple promise to meet again before departing the past Libestal together would soon prove to be much more ominous than Gonathon could possibly imagine.
 

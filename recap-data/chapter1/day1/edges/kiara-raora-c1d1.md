@@ -1,4 +1,5 @@
 <!-- title: Catlady -->
+<!-- relationship: Big Pink Cat -->
 
 Raora, affectionately known as the "beeg cat" of the group, quickly became a favorite of Shakira, who clearly had a soft spot for cats. From the moment they met, Shakira went out of her way to ensure Raora was comfortable and cared for.
 

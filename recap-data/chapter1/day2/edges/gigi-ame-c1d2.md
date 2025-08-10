@@ -1,4 +1,5 @@
 <!-- title: My Pearl! -->
+<!-- relationship: Marriage -->
 
 An unexpected development unfolded on this day, one that Gonathon could never have anticipated. From the moment he arrived, Gonathon had sworn unwavering loyalty to his Queen, Tam Gandr. His sole purpose as a knight was to serve her, with no distractions to deter him from his path. Naturally, he never imagined he would feel the touch of another's love.
 

@@ -1,4 +1,5 @@
 <!-- title: Say My Name -->
+<!-- relationship: Enemy -->
 
 The (self-proclaimed) Libestan Queen was already making a name for herself across the kingdom. She had gathered loyal followers, asserted her dominance, and made others bow whenever they stood in her presence.
 

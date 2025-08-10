@@ -1,4 +1,5 @@
 <!-- title: A Powerful Dynamic -->
+<!-- relationship: The Wolf Pack -->
 
 Filled with uncertainty and regret about not only her burgeoning romance but also her role in Immerkind’s personal strife, Gonathon decided to seek out Mordan Ramsey for therapy.
 

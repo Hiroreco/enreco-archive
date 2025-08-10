@@ -1,4 +1,5 @@
 <!-- title: Impromptu Adoption -->
+<!-- relationship: Family -->
 
 Elizabeth had already taken on quite a few roles throughout her journey—protector of two pups, the king’s loyal knight, a steadfast guardian to those in need—all in the spirit of bringing happiness to others. But now, she was about to gain yet another title: mother.
 

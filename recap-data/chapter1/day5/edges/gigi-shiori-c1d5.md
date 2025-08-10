@@ -1,4 +1,5 @@
 <!-- title: For My Collection -->
+<!-- relationship: Unrequited Love -->
 
 Shiori didn’t care much for getting involved in affairs or relationship drama, but for some reason, she really enjoyed teasing Gonathon. And it didn’t stop at simple teasing—no, she outright tryed to pull him away from his wife and into her own embrace. Gonathon, ever the loyal husband, did his best to resist her relentless advances.
 

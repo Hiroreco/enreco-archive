@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 The second dungeon, **Stronghold of Ruin**, was where the heroes first encountered the nameless swordsman known as the **Outlander** and helped free him from being trapped within its depths.

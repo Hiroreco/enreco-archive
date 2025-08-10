@@ -1,4 +1,5 @@
 <!-- title: After Hours Flirting -->
+<!-- relationship: Romantic -->
 
 Tam—sorry, _Tammy_—had just asked the Pink One for help, and the flirting had begun. _Pinky Pie?_ Really? Just because they were the only two people awake in the kingdom at the time doesn’t mean they had to be so [_public_](https://www.youtube.com/live/k9ZejRHvNV0?si=5oTVa93vxXbkNRNy&t=719) about it.
 

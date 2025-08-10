@@ -1,4 +1,5 @@
 <!-- title: She's Jesting, Right? -->
+<!-- relationship: Romantic -->
 
 She was a witch—had always been a witch—the very same witch who had caused Elizabeth countless headaches, who brought more trouble than anything else. But she was _the_ witch. The one Elizabeth had once risked her life to protect. The one she knew, deep down, was a kind and loving soul who looked out for others, even if she delighted in teasing Elizabeth for reasons only known to her. Still, Elizabeth wouldn’t trade what they had for anything.
 

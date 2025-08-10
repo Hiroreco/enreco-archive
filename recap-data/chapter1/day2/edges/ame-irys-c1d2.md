@@ -1,4 +1,5 @@
 <!-- title: Plan B -->
+<!-- relationship: Backup Plan -->
 
 You know you’ve got a jealousy issue when you hit on another person’s spouse not once, not twice, but so many times in a single day that even keeping count feels futile. And that’s exactly what the Hot Pink One did on her second day in this enigmatic journey.
 

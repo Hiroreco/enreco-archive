@@ -1,6 +1,9 @@
 <!-- title: Non-Traditional Relation -->
+<!-- relationship: No Longer Together -->
 
-The Hot Pink One had heard the heartbreaking tale of Gonathon and Amelia Watson. She sympathized with the poor knight, never expecting such a beautiful love story to take such a [tragic turn](https://x.com/irys_en/status/1831979038820450676). She wished him nothing but the best and, as his guildmate, resolved to support him however she could. If there was anything she could do, it was to keep her head cool, be there for Gonathon if he ever needed help, and, if it would make him happy, even extend that help to Amelia.
+The Hot Pink One had heard the heartbreaking tale of Gonathon and Amelia Watson. She sympathized with the poor knight, never expecting such a beautiful love story to take such a [tragic turn](https://x.com/irys_en/status/1831979038820450676)
+
+. She wished him nothing but the best and, as his guildmate, resolved to support him however she could. If there was anything she could do, it was to keep her head cool, be there for Gonathon if he ever needed help, and, if it would make him happy, even extend that help to Amelia.
 
 At the same time, she reflected on her own relationship with her eternal consort, determined to cherish it and avoid meeting such a sorrowful fate.
 

@@ -1,4 +1,5 @@
 <!-- title: Netorare -->
+<!-- relationship: Romantic -->
 
 Somehow, _somehow_, _somehow_, for reasons beyond comprehension, events took a turn that words could barely begin to capture. In an attempt to figure out whether the pink one’s child was Ina’s, the result... somehow... pointed to Ina _and_ Tam being the parents? No, wait—_all three_ of them? Or was Tam the godfather? Or... what?
 

@@ -1,4 +1,5 @@
 <!-- title: Can He Fix Her? -->
+<!-- relationship: Business -->
 
 Shiori and Gonathon have a rather complicated relationship. While on the surface their constant efforts to help one another seem to be born of mutual respect and a desire to assist one another, on closer inspection it becomes apparent that Shiori views Gonathon as an easy mark, at least at first.
 

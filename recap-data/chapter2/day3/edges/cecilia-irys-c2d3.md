@@ -1,4 +1,5 @@
 <!-- title: Potential Cult -->
+<!-- relationship: Business -->
 
 IRyS had always known Immerkind was a little strange, but today’s encounter took that strangeness to a whole new level. It started normally enough—friendly greetings, the usual small talk—until, without warning, the green one casually dropped a question: how did IRyS feel about being a goddess? Would she be interested in standing above others?
 

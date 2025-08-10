@@ -1,4 +1,5 @@
 <!-- title: My Money -->
+<!-- relationship: Business -->
 
 Nerissa would do anything to help her boss. Well... almost anything. She managed the shop, handled advertising, and gathered books for the library—whatever Fauna needed, she was there. But the moment something involved her wealth? That was where she drew the line.
 

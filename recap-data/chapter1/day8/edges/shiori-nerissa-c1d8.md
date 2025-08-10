@@ -1,4 +1,5 @@
 <!-- title: Always There -->
+<!-- relationship: Marriage -->
 
 On the last day, Nerissa had her hands full. Between trying to stop the corruption, mending Gonathon and Amelia’s relationship, assisting FaunaMart, and collecting Bijou’s books, she barely had a moment to breathe. Meanwhile, Shiori—who arguably had more free time than anyone else—wasn’t the type to actively seek interaction. She simply drifted around aimlessly until she bumped into someone, only then engaging in conversation.
 

@@ -1,4 +1,5 @@
 <!-- title: The Witch and Her Fumbling Knight -->
+<!-- relationship: It's Complicated -->
 
 Following the events of the previous day, one would expect Shiori of the Nyavellas to want nothing to do with Gonathon. Somehow though, a spark of interest remained for the bumbling knight, and Shiori was keen to not allow sleeping wolves to lie.
 

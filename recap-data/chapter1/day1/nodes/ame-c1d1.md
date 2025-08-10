@@ -1,7 +1,7 @@
 <!-- title: Jyon Watson -->
 <!-- status: Alive -->
 
-_The blonde maiden_ awoke in the mysterious white box, completely disoriented. Questions flooded her mind: 
+_The blonde maiden_ awoke in the mysterious white box, completely disoriented. Questions flooded her mind:
 
 > Am I dead? Am I in limbo? Why do these people have buttons floating over their heads?
 

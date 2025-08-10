@@ -1,4 +1,5 @@
 <!-- title: Safe Journey -->
+<!-- relationship: Protector -->
 
 Out of all the so-called "followers" Queen Tam Gandr had gathered, Gonathon was probably the most normal and level-headed of them all—and, surprisingly, one of the few who was actually loyal to her. He diligently reported on matters in the kingdom, had her back whenever she was puzzled or in need of assistance, and remained composed even when the rest of their guildmates were far less cooperative.
 

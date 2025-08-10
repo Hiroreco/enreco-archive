@@ -1,4 +1,5 @@
 <!-- title: Keeping My Promise -->
+<!-- relationship: Protector -->
 
 _"I will always be by your side."_ A promise far easier said than done. Elizabeth understood that better than anyone. As a knight, she bore the burden of protecting others, standing as their shield, and being there when they needed her most. Caring for those she loved wasn’t just an instinct—it was her duty. But at the same time, being a knight meant upholding virtue, standing for righteousness, and banishing all that was wrong. So when those two ideals clashed—when duty to a loved one contradicted duty to justice—what was the right choice? That was the dilemma Elizabeth faced on this final day.
 

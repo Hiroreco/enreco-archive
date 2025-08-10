@@ -1,4 +1,5 @@
 <!-- title: Friends from Business -->
+<!-- relationship: Alliance -->
 
 Despite belonging to rival businesses, Cecilia and Nanamoo got along surprisingly well—you could even say they were friends. Not only was Cecilia NanaEleven's [first customer](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=603), but she also spent most of the day by Nanamoo’s side—hanging out, playing games, getting mad at those same games, and everything in between.
 

@@ -1,4 +1,5 @@
 <!-- title: Who's a Pretty Kitty, You Are! -->
+<!-- relationship: Unrequited Love -->
 
 There was something familiar about Lady Elizabeth Bloodflame. Was it her strength? Her alluring beauty?
 

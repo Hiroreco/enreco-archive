@@ -1,4 +1,5 @@
 <!-- title: A Knight's Love -->
+<!-- relationship: Unrequited Love -->
 
 One day became two, two turned to three, and now, it had been six long, hope-filled days since Cecilia first laid eyes on the Princess. Six days where the glimmer in her eyes had never dulled, not even for a moment. She had given her all—every breath, every thought, every ounce of strength—just for a chance to remain by the Princess's side. She shielded her, fulfilled her wishes, and held steadfast even when the Princess's heart seemed to wander elsewhere, most often toward the Outlander.
 

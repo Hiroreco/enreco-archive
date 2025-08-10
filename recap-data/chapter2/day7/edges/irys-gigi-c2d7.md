@@ -1,4 +1,5 @@
 <!-- title: Even Gods Can Bleed -->
+<!-- relationship: Enemy -->
 
 Faith can be a fickle thing. If one's faith is rewarded, it can inspire even the lowliest peasants to commit acts bordering on miracles. But if one's faith is returned only with scorn and worse, humiliation, it can turn even the most devout sycophant into a hardened heretic. Over the course of the adventure in past Libestal, Gonathon had remained devoted to the Hot Pink One, believing her to be a goddess worthy of veneration. But even zealots can be pushed too far, and the HPO would soon learn this the hard way.
 

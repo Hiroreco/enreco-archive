@@ -1,4 +1,5 @@
 <!-- title: Better Call Cecilia -->
+<!-- relationship: Business -->
 
 Cecilia didn’t have much money. To put it bluntly, she was pretty poor—not because of some tragic backstory or a traumatic experience that left her penniless, but simply because she refused to do any quests and instead relied on leeching off others.
 

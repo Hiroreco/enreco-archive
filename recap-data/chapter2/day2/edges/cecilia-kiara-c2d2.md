@@ -1,4 +1,5 @@
 <!-- title: Marillenknödel and Roses -->
+<!-- relationship: Business -->
 
 Upon arriving in the world, Cecilia gave Karia a flower and told a joke about being cousins, [zweiten grades meiner Mutter, dessen Vater, dessen Tochter, dessen Sohn](https://www.youtube.com/watch?v=48HSA_GcOZ0&t=1204s).
 

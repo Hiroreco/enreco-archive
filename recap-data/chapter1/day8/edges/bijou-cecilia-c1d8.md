@@ -1,4 +1,5 @@
 <!-- title: Mission Success? -->
+<!-- relationship: Protector -->
 
 Cecilia’s grand plan was finally coming to fruition. It had been on her mind since the very start of the day, and now, with the ritual complete and the corruption subdued, only one step remained. All she had to do was present Princess Koseki Bijou with the (totally not suspicious) cake, have her recite the oath, and just like that—the princess would be hers.
 

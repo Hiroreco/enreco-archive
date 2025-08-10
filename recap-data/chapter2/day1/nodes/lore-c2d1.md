@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 The current setting takes place in Ancient Libestal—a real version of Libestal set far in the past, currently suffering from the ravages of Stains and corruption. As stated in the Book of Prophecies, the world is doomed to fall into this calamity. Its princess, Iphania, now rules the kingdom, pleading with the heroes for their help to save the world.

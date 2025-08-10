@@ -1,4 +1,5 @@
 <!-- title: Divorce No.3 -->
+<!-- relationship: No Longer Together -->
 
 The final divorce. This time, it was with someone Bijou had beef with during the first few days—Nerissa.
 

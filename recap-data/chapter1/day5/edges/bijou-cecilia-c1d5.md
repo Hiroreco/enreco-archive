@@ -1,4 +1,5 @@
 <!-- title: A Failed Coup -->
+<!-- relationship: Protector -->
 
 Cecilia needed to gain Bijou’s trust by any means necessary, and that included convincing her that the King was evil. With that goal in mind, she led the princess to the castle—specifically, to the King’s throne—where she intended to let Bijou observe his supposed suspiciousness firsthand. To sweeten the deal, Cecilia whispered honeyed words, telling the gem maiden that one day, the kingdom would be hers.
 

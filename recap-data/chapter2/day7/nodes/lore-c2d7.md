@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 The seventh day—just one day before the end of the world as foretold by the Book of Prophecies—marked the heroes’ final challenge: to destroy the source of the corruption at the **Heart of Ruin** by confronting and defeating the Curse.

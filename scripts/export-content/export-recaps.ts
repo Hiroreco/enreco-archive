@@ -1,8 +1,51 @@
+import { Chapter, ChartData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
-import path from "path";
 import JSZip from "jszip";
-import { ChartData } from "@enreco-archive/common/types";
-import { fileURLToPath } from "url";
+import path from "path";
+
+/**
+ * Extracts a map of fanart/meme link URLs to their immediate comment (if any) from a markdown string.
+ */
+function extractFanartComments(md: string): Record<string, string> {
+    // Matches [label](url)<!-- comment -->
+    const LINK_COMMENT_RE =
+        /\[([^\]]+)\]\((https?:\/\/(?:www\.)?(?:twitter|x)\.com\/[^\)]+)\)\s*<!--(.*?)-->/g;
+    const map: Record<string, string> = {};
+    let m: RegExpExecArray | null;
+    while ((m = LINK_COMMENT_RE.exec(md))) {
+        const url = m[2].trim();
+        const comment = m[3].trim();
+        map[url] = comment;
+    }
+    return map;
+}
+
+/**
+ * Inserts preserved comments after each fanart/meme link in the new markdown,
+ * as a new line directly after the link.
+ */
+function insertFanartComments(
+    md: string,
+    preserved: Record<string, string>,
+): string {
+    // Replace each [label](url) with [label](url)\n\n<!-- comment -->\n\n if a comment exists for that url
+    return (
+        md
+            .replace(
+                /\[([^\]]+)\]\((https?:\/\/(?:www\.)?(?:twitter|x)\.com\/[^\)]+)\)([ \t]*\r?\n)*/g,
+                (full, label, url) => {
+                    url = url.trim();
+                    if (preserved[url]) {
+                        // Insert with exactly one blank line before and after the comment
+                        return `[${label}](${url})\n\n<!-- ${preserved[url]} -->\n\n`;
+                    }
+                    return `[${label}](${url})\n\n`;
+                },
+            )
+            // Remove 3 or more consecutive linebreaks (leave max 2)
+            .replace(/\n{3,}/g, "\n\n")
+    );
+}
 
 async function main() {
     const chapterArg = process.argv[2];
@@ -43,7 +86,7 @@ async function main() {
         process.exit(1);
     }
 
-    let chapterJson: { charts: ChartData[] };
+    let chapterJson: Chapter;
     try {
         const jsonStr = await fileEntry.async("text");
         chapterJson = JSON.parse(jsonStr);
@@ -76,7 +119,15 @@ async function main() {
         // helper
         const writeMd = async (dir: string, name: string, content: string) => {
             const filePath = path.join(dir, name + ".md");
-            await fs.writeFile(filePath, content, "utf-8");
+            let preservedComments: Record<string, string> = {};
+            try {
+                const existing = await fs.readFile(filePath, "utf-8");
+                preservedComments = extractFanartComments(existing);
+            } catch {
+                // File doesn't exist, nothing to preserve
+            }
+            const merged = insertFanartComments(content, preservedComments);
+            await fs.writeFile(filePath, merged, "utf-8");
         };
 
         // recap
@@ -89,7 +140,7 @@ async function main() {
                 continue;
             const nodeName = `${node.id}-c${chapterNum + 1}d${humanDay}`;
 
-            // Add title and status tags at the start
+            // Add property tags at the start (not adding team because it's unlikely to be changed)
             const nodeContent = `<!-- title: ${node.data.title || node.id} -->
 <!-- status: ${node.data.status || "Unknown"} -->
 
@@ -109,7 +160,11 @@ ${node.data.content}`;
                     ? edge.data.title
                     : `${edge.source} → ${edge.target}`;
 
-            const edgeBody = `<!-- title: ${title} -->\n\n${edge.data.content}`;
+            const edgeBody = `<!-- title: ${title} -->
+<!-- relationship: ${chapterJson.relationships[edge.data.relationshipId].name || "Unknown"} -->
+
+${edge.data.content}`;
+
             const edgeName = `${edge.source}-${edge.target}-c${chapterNum + 1}d${humanDay}`;
             await writeMd(edgesDir, edgeName, edgeBody);
         }

@@ -1,4 +1,5 @@
 <!-- title: A Friend in Need is a Friend Indeed -->
+<!-- relationship: Friends -->
 
 Despite previously being suspicious of Peasant the Bae, Gonathon would come to forge a strong friendship with her that day. Bae, having previously attempted to assist Gonathon in the previous day’s trials with Shiori of the Nyavellas, was deeply concerned with the knight’s wellbeing. Upon assuring Bae she was doing better, Gonathon responded by asking what was on the peasant’s mind. Bae proceeded to spill her guts: that she was [in love with Immerkind](https://www.youtube.com/watch?v=alQr5XqoUPs&t=1994s) but hesitant to express her feelings due to Immerkind’s obsession with the Princess of Libestal.
 

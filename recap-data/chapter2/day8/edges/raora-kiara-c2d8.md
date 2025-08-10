@@ -1,4 +1,5 @@
 <!-- title: And so, Sesbian Lex. -->
+<!-- relationship: Marriage -->
 
 Giddy with ecstasy, Kiara could not wait to spend the night with Roa—or heck, even spend the rest of their lives together.
 

@@ -1,4 +1,5 @@
 <!-- title: Wooden Shovel -->
+<!-- relationship: Family -->
 
 The corruption was spreading fast, and at the heart of it all, Ina knew exactly who was responsible. Her sister—Koseki Bijou. The Stain Princess. The one behind countless disasters. The mastermind of all this chaos. As Ina had declared the previous day, she would bring her sister down—no matter what.
 

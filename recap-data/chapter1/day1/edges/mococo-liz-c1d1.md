@@ -1,4 +1,5 @@
 <!-- title: By Your Side -->
+<!-- relationship: Protector -->
 
 The new world brought confusion and fear to everyone. Stripped of their memories and thrust into an unfamiliar place filled with strange faces, the situation was overwhelming. But even amidst the chaos, Elizabeth stood strong. It was as though she was destined to be a knight; her fiery resolve burned brightly, illuminating the path forward even in the darkest moments.
 

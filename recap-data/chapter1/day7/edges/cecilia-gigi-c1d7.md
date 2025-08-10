@@ -1,4 +1,5 @@
 <!-- title: Green and Orange -->
+<!-- relationship: Alliance -->
 
 Cecilia didn’t know much about Gonathon, apart from the fact that he was a widely respected figure, had a lot of money (which she had no shame in leeching off), and was annoyingly good at multitasking—so much so that he had beaten her in a minigame without breaking a sweat, much to her [dismay](https://www.youtube.com/live/iAYrdIlfVf0?feature=shared&t=5502). But beyond that, she knew little about him. She didn’t know what goals he had, what he wanted.
 

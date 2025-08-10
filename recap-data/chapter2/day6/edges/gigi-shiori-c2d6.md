@@ -1,4 +1,5 @@
 <!-- title: A Memory for a Memory, a Pearl for a Pearl -->
+<!-- relationship: It's Complicated -->
 
 While Gonathon and Shiori were now on better footing than a day prior, a haze of tension continued to envelop the witch and knight. As with many of her companions, Gonathon’s first interactions with Shiori involved assisting her with upgrades and preparation, in this case, farming [enigmatic stones](https://www.youtube.com/watch?v=p5xrAxTh8ho&t=2465s). Before departing for the Cursed Tome event, Shiori requested Gonathon’s assistance with setting up an End of the World Party, which Gonathon happily agreed to help with.
 

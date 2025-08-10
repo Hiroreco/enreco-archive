@@ -37,6 +37,7 @@ interface DialogContentProps
     extends React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> {
     showXButton?: boolean;
     showXButtonForce?: boolean;
+    xButtonClassName?: string;
 }
 
 const DialogContent = React.forwardRef<
@@ -51,6 +52,7 @@ const DialogContent = React.forwardRef<
             children,
             showXButton = false,
             showXButtonForce = false,
+            xButtonClassName,
             customOverlay,
             backdropFilter,
             ...props
@@ -76,6 +78,7 @@ const DialogContent = React.forwardRef<
                                 "hidden md:block": !showXButtonForce,
                                 block: showXButtonForce,
                             },
+                            xButtonClassName,
                         )}
                     >
                         <X className="h-4 w-4" />

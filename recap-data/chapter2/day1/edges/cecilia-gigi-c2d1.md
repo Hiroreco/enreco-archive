@@ -1,4 +1,5 @@
 <!-- title: Up Dog -->
+<!-- relationship: Dawg -->
 
 Cecilia Immerkind runs into Gonathon in the dining hall. She notes that Gonathon is suffering from hearing and memory problems. Using her vast knowledge of brain surgery, Cecilia swiftly delivers [multiple blows](https://www.youtube.com/watch?v=cyLsX20esBE&t=3340s) to Gonathon's head. The troubleshooting continues as Immerkind helps Gonathon fine-tune the voices in his head, where they discover it's stuck on [system default](https://www.youtube.com/live/cyLsX20esBE?si=nyrhw0A3elGdzyWG&t=4008).
 

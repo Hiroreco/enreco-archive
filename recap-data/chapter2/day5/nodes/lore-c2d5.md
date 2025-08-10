@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 The fifth day brought the final star site: **Star Site: Chaos**, where the heroes uncovered the memories of Hakos Baelz, along with the last fragment of Fia’s missing memories.

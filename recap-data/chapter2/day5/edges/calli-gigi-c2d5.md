@@ -1,4 +1,5 @@
 <!-- title: Confidently Confidential -->
+<!-- relationship: The Wolf Pack -->
 
 Upon waking for a new day, the blissfully unaware Mordan Ramsey was greeted by the aftermath of the firestorm of tragedy that had befallen Libestal, with her primary duty now being to console a distraught Gonathon who had sent her a flurry of letters begging for aid the night before.
 

@@ -1,3 +1,6 @@
+<!-- title: Lore Summary -->
+<!-- status: None -->
+
 #### Main Story
 
 The first dungeon, **Star Site: Elpis**, revealed the memories of IRyS, along with fragments of Fia’s recollections of what had transpired in Ancient Libestal.

@@ -1,4 +1,5 @@
 <!-- title: Double Agent -->
+<!-- relationship: Alliance -->
 
 As Shakira was minding her own business, she stumbled upon a sight that she maybe shouldn’t have seen. Her guildmate, Darwin—one of the few she had left—was mingling with another guild.
 

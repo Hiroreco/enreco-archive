@@ -1,4 +1,5 @@
 <!-- title: Beautiful Maiden -->
+<!-- relationship: Romantic -->
 
 Elizabeth had never thought she’d feel anything beyond her unwavering sense of duty—to fulfill her tasks, protect the king, and safeguard those around her. But whenever she crossed paths with Nerissa, a strange sensation stirred within her. It was a feeling she couldn’t quite identify—like butterflies fluttering in her stomach. This day was no exception—in fact, it turned out to be one where they could finally spend some time alone together.
 

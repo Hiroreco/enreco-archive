@@ -1,4 +1,5 @@
 <!-- title: Shady Business -->
+<!-- relationship: Business -->
 
 Darwin stumbled upon an under-construction FaunaMart, lured by the promise of cookies, treats, and candies—something akin to a family-friendly convenience store. To her dismay, however, she was instead greeted with advertisements for [lotteries and gambling](https://www.youtube.com/live/WQRPyJ4zhC0?feature=shared&t=715). The brown maiden couldn't have been more disappointed, while Fauna, in stark contrast, was overjoyed to welcome her first customer.
 

@@ -1,4 +1,5 @@
 <!-- title: The Sham Queen’s Sacrifice -->
+<!-- relationship: Knight -->
 
 As Gonathon roamed the lands righting her past wrongs, so too did Tam Gandr descend into the abyss of depravity and despair (see [Irys-Kronii: Abdomen Pain](#edge:irys-kronii)). For the queen had found herself not only destitute following several poor spending choices but had even ruined her relationships with the Hot Pink One and Roa. Stripped of her dignity and [blackmailed](https://youtu.be/alQr5XqoUPs?t=15489) by those she once loved, it was now her turn to seek the aid of the knight who, the previous day, she had wrenched from his own abyss.
 

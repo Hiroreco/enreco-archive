@@ -1,4 +1,5 @@
 <!-- title: Is This Jealousy? -->
+<!-- relationship: Romantic -->
 
 The Pink One, Pinkie Von Pie, was shocked—baffled, even. No, she was _angry_. “Tammy”—that nickname wasn’t just a cute quip; it was _hers_. Hers and Tam’s. A shared secret born from late-night giggles and stolen glances, a nickname she’d racked her brain to invent, a symbol of their unique bond. That name was sacred. And now? Thrown around like a party favor for everyone to use, as if to spit on the private promise they'd once made.
 
