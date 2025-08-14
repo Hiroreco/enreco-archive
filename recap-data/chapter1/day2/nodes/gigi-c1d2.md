@@ -23,4 +23,4 @@ As the day neared its end, preparations for the _Ocean Temple Dungeon_ began. Jo
 
 ## Memes
 
-["_teleports behind you_" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
+["*teleports behind you*" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
