@@ -1293,7 +1293,7 @@
   },
   {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"*teleports behind you*\"",
+    "label": "\"_teleports behind you_\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -7097,29 +7097,6 @@
     "type": "meme"
   },
   {
-    "url": "https://x.com/jhgardener_/status/1928477828623831444",
-    "label": "\"the knight and his pearls\"",
-    "author": "jhgardener_",
-    "chapter": 1,
-    "day": 3,
-    "characters": [
-      "ame",
-      "shiori",
-      "cecilia",
-      "gigi"
-    ],
-    "images": [
-      {
-        "src": "images-opt/jhgardener_-1928477828623831444-0-opt.webp",
-        "width": 4087,
-        "height": 3414,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/maybe_myra28/status/1920143568561180880",
     "label": "\"Gonathon deserved better\"",
     "author": "maybe_myra28",
@@ -7650,6 +7627,27 @@
         "src": "images-opt/horarux-1927672237303415211-0-opt.webp",
         "width": 2880,
         "height": 3840,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/jhgardener_/status/1928477828623831444",
+    "label": "\"the knight and his pearls\"",
+    "author": "jhgardener_",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jhgardener_-1928477828623831444-0-opt.webp",
+        "width": 4087,
+        "height": 3414,
         "type": "image"
       }
     ],
