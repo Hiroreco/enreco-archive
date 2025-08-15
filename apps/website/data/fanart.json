@@ -1293,7 +1293,7 @@
   },
   {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"_teleports behind you_\"",
+    "label": "\"*teleports behind you*\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -5931,6 +5931,25 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/mioami_/status/1919358541783314913",
+    "label": "\"APT APT APT APT APT APT\"",
+    "author": "mioami_",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "irys",
+      "kronii"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/mioami_-1919358541783314913-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/oopartzy/status/1902600564913139718",
     "label": "\"Queen Tam Gandr\"",
     "author": "oopartzy",
@@ -5949,24 +5968,6 @@
     ],
     "videos": [],
     "type": "art"
-  },
-  {
-    "url": "https://x.com/mioami_/status/1919358541783314913",
-    "label": "\"APT APT APT APT APT APT\"",
-    "author": "mioami_",
-    "chapter": 1,
-    "day": 1,
-    "characters": [
-      "kronii"
-    ],
-    "images": [],
-    "videos": [
-      {
-        "src": "https://cdn.enreco-archive.net/mioami_-1919358541783314913-0-opt.mp4",
-        "type": "video"
-      }
-    ],
-    "type": "meme"
   },
   {
     "url": "https://x.com/yume_ato29/status/1919498300232982554",

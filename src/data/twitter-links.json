@@ -643,7 +643,7 @@
   },
   {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"_teleports behind you_\"",
+    "label": "\"*teleports behind you*\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -3389,7 +3389,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "kronii"
+      "kronii",
+      "irys"
     ],
     "type": "meme"
   },
