@@ -1,13 +1,13 @@
 "use client";
 import "@/index.css";
-import { useSettingStore, FontSize } from "@/store/settingStore";
 import { useAudioSettingsSync } from "@/store/audioStore";
-import { PT_Sans } from "next/font/google";
+import { FontSize, useSettingStore } from "@/store/settingStore";
+import { Libre_Franklin } from "next/font/google";
 import { useEffect, useState } from "react";
 
-const ptSans = PT_Sans({
+const libreFranklin = Libre_Franklin({
     subsets: ["latin"],
-    weight: ["400", "700"],
+    weight: ["300", "400", "500", "600", "700"],
 });
 
 function getFontSizeValue(fontSize: FontSize): string {
@@ -46,7 +46,7 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className={`${ptSans.className}`}
+            className={`${libreFranklin.className}`}
             style={{
                 fontSize: fontSizeValue,
                 transition: "font-size 0.2s ease-in-out",

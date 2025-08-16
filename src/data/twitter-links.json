@@ -643,7 +643,7 @@
   },
   {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"_teleports behind you_\"",
+    "label": "\"*teleports behind you*\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -3389,7 +3389,8 @@
     "chapter": 1,
     "day": 1,
     "characters": [
-      "kronii"
+      "kronii",
+      "irys"
     ],
     "type": "meme"
   },
@@ -3997,20 +3998,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/jhgardener_/status/1928477828623831444",
-    "label": "\"the knight and his pearls\"",
-    "author": "jhgardener_",
-    "chapter": 1,
-    "day": 3,
-    "characters": [
-      "cecilia",
-      "gigi",
-      "ame",
-      "shiori"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/eule_winters/status/1919969659094499795",
     "label": "\"Cecilia and the Princess\"",
     "author": "eule_winters",
@@ -4086,6 +4073,18 @@
     "url": "https://x.com/horarux/status/1927672237303415211",
     "label": "\"Black Pearl and Gonathon\"",
     "author": "horarux",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "gigi",
+      "shiori"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/jhgardener_/status/1928477828623831444",
+    "label": "\"the knight and his pearls\"",
+    "author": "jhgardener_",
     "chapter": 1,
     "day": 3,
     "characters": [

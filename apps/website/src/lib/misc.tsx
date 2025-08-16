@@ -163,7 +163,7 @@ export const CONTRIBUTORS = [
                 socials: "https://x.com/knightalfy",
             },
             {
-                name: "KugaGray",
+                name: "KuyaGray",
                 socials: "https://x.com/KuyaGray",
             },
 
