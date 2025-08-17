@@ -40,6 +40,8 @@ More and more, his weaknesses showed. He ignored her, didn’t listen, and never
 
 Maybe it was because someone else already held that space in his heart. Maybe this relationship was never meant to be.
 
+But hope slowly dwindled, sadness gave way to disappointment, and disappointment hardened into anger. Rejecting her feelings was one thing, but wounding her pride—accusing her of infidelity, no less—was utterly unacceptable.
+
 Seeing it all fall apart—despite how much she had given, despite all her hope—Shiori made the painful decision to erase all memories of him. Perhaps to protect herself. Perhaps to protect him. It hurt them both, but they respected each other’s choice and parted ways.
 
 ### How it ended
@@ -54,7 +56,12 @@ Shiori, even without the memories, could still feel something. Something warm. S
 
 And with that, the two went their separate ways.
 
-Yet with Shiori’s heel turn alongside others at the end of Chapter 2, this story may not be over—many now await Gonathon’s response to her unexpected betrayal.
+Yet with Shiori’s heel turn alongside others at the end of Chapter 2, this story may not be over, as many now await Gonathon’s response to her unexpected betrayal.
+
+The knight, after all, had made a promise—a seemingly harmless, heartfelt vow that, in light of everything that followed, now felt almost binding. A promise to this seemingly innocent witch.
+
+> I want you to pinky promise me,
+> that you will follow my orders, no matter what.
 
 ## Related Stories
 
