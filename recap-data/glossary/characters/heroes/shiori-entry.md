@@ -71,6 +71,8 @@ And perhaps it was this knowledge that drove her final decision.
 
 When Fia called on the heroes to fight the Outsider, five of them refused: Nerissa, Bijou, Fuwawa, Mococo, and Shiori. Standing at the front of this rebellion, it was Shiori who spoke first—declaring their rejection of Fia's plea and sparking a new chapter of resistance.
 
+Ever calculating, ever perceptive of her surroundings, everything Shiori did throughout this journey—whether silly or serious—was always done with _intention_. And now, it’s time for one of the most complex characters in this entire tale to step into the spotlight.
+
 ## Notable Writings
 
 - [Read "Sea x Lovers"](#text:sea-x-lovers)
