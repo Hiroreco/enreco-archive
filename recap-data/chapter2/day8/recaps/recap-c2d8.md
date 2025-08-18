@@ -1,3 +1,5 @@
+<!-- title: The Chains of Fate -->
+
 ## Day 8: The Chains of Fate
 
 The final day, where ends are tied,
@@ -96,3 +98,4 @@ The quiet rise of rebellion awakened.
 ["Enigmatic Recollection: Chains Of Fate (2007)" by EmicoOtero](https://x.com/EmicoOtero/status/1921417355772522542)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+

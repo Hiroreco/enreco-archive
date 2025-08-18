@@ -1,3 +1,5 @@
+<!-- title: Fire and Lottery Fiasco -->
+
 ## Day 4: Fire and Lottery Fiasco
 
 Day 4 brought even more tangled lines to the ever-growing relationship chart, as well as a fresh wave of self-proclaimed royalty. Koseki Bijou declared herself the _Princess of the Kingdom of Evergreen_, with Cecilia as her loyal knight and—somehow—Raora as her mother. This now meant Bijou had two moms. As if the chaos of one kingdom wasn’t enough, they went ahead and invented another.
@@ -21,3 +23,4 @@ One small blunder left Nerissa spending the entire day running for her life from
 ["The Knight (And The Dog) Chooses Her Ruler" by BlaParky](https://x.com/BlaParky/status/1831222642730516798)
 
 <!-- raora, mococo, cecilia, bijou -->
+

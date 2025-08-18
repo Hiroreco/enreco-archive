@@ -1,3 +1,5 @@
+<!-- title: The Joy of Life -->
+
 ## Day 7: The Joy of Life
 
 The day before the finale—when conflicts begin to settle, knots are untied, and long-awaited resolutions unfold. If saving the world and, ultimately, the universe was ever going to happen, it had to be today.
@@ -31,3 +33,4 @@ Still, one day remains. Let’s see how it all ends.
 ## Memes
 
 ["ENreco 2 in a nutshell" by Soukai Twitta](https://x.com/SoujiroKaito/status/1922661640601833785)
+

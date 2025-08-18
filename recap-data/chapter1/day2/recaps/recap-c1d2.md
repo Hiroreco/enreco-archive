@@ -1,3 +1,5 @@
+<!-- title: Love, Hats and FaunaMart -->
+
 ## Day 2: Love, Hats, and FaunaMart
 
 The second day in the Kingdom of Libestal brought more than just progress—it brought chaos, laughter, and the blossoming of peculiar relationships. As everyone began to settle into their roles and understand the mechanics of this world, new bonds were forged, and the dynamics among the heroes grew even quirkier.
@@ -27,3 +29,4 @@ In completing the dungeon, the heroes unlocked another fragment of their forgott
 ## Memes
 
 ["Let us all congratulate the newly weds!" by Jabah](https://x.com/jabah_lavah/status/1830486510552113652)
+

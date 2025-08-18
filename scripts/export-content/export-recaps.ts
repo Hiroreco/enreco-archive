@@ -130,9 +130,14 @@ async function main() {
             await fs.writeFile(filePath, merged, "utf-8");
         };
 
-        // recap
+        // day recap
         const recapName = `recap-c${chapterNum + 1}d${humanDay}`;
-        await writeMd(recapsDir, recapName, chart.dayRecap);
+        // Add property tags at the start (title)
+        const recapContent = `<!-- title: ${chart.title} -->
+
+${chart.dayRecap}`;
+
+        await writeMd(recapsDir, recapName, recapContent);
 
         // nodes
         for (const node of chart.nodes) {
@@ -142,9 +147,9 @@ async function main() {
 
             // Add property tags at the start (not adding team because it's unlikely to be changed)
             const nodeContent = `<!-- title: ${node.data.title || node.id} -->
-<!-- status: ${node.data.status || "Unknown"} -->
+        <!-- status: ${node.data.status || "Unknown"} -->
 
-${node.data.content}`;
+        ${node.data.content}`;
 
             await writeMd(nodesDir, nodeName, nodeContent);
         }
@@ -161,9 +166,9 @@ ${node.data.content}`;
                     : `${edge.source} → ${edge.target}`;
 
             const edgeBody = `<!-- title: ${title} -->
-<!-- relationship: ${chapterJson.relationships[edge.data.relationshipId].name || "Unknown"} -->
+        <!-- relationship: ${chapterJson.relationships[edge.data.relationshipId].name || "Unknown"} -->
 
-${edge.data.content}`;
+        ${edge.data.content}`;
 
             const edgeName = `${edge.source}-${edge.target}-c${chapterNum + 1}d${humanDay}`;
             await writeMd(edgesDir, edgeName, edgeBody);

@@ -1,3 +1,5 @@
+<!-- title: The Grip of Chaos -->
+
 ## Day 5: The Grip of Chaos
 
 Another wild day unfolded—and at this point, should that really be surprising? Romance and drama continued to dominate the kingdom like an ever-thickening fog, only now it was messier, weirder, and tangled beyond belief.
@@ -23,3 +25,4 @@ You following all that? Because I’m not. And that’s still not even half of i
 ["🧡🫡💗" by Ari](https://x.com/jeongyeonhands/status/1920309071036457109)
 
 <!-- kiara, gigi, raora, calli -->
+

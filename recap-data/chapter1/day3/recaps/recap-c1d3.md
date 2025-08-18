@@ -1,3 +1,5 @@
+<!-- title: Getting To Building -->
+
 ## Day 3: Getting To Building
 
 If marriages weren’t enough to tangle the kingdom’s relationship chart into a convoluted web, adoption has now entered the mix.
@@ -23,3 +25,4 @@ Finally, returning to the main task of the day—the dungeon challenge. This tim
 ["Welcome to the Scarlet Wand Guild" by Chaleko](https://x.com/Chalek0/status/1831120630860963872)
 
 <!-- fauna, moom, gura, shiori, nerissa, cecilia -->
+

@@ -1,3 +1,5 @@
+<!-- title: The Calm Before The Storm -->
+
 ## Day 7: The calm before the storm
 
 A new business opened its doors on this day—a rival store to FaunaMart, known as _NanaEleven_, with NanaMoo as its owner. Right from its grand opening, the store made a name for itself, drawing in a crowd with its unique business ideals and quickly establishing itself as a worthy competitor.
