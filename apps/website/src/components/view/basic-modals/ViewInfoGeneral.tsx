@@ -26,7 +26,7 @@ const ViewInfoGeneral = () => {
             <div className="mt-4 flex flex-col">
                 <span className="font-bold text-3xl">ENreco Archive</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on July 26th, 2025{" "}
+                    Updated on August 18, 2025{" "}
                     <a
                         href="#"
                         onClick={(e) => {
