@@ -37,8 +37,6 @@ const EditorGeneralCard = ({
     chapterData,
     dayData,
     onChapterTitleChange,
-    onDayTitleChange,
-    onDayRecapChange,
     onBGImageChange,
     onBGMChange,
     onCardClose,
@@ -53,16 +51,6 @@ const EditorGeneralCard = ({
         const newChTitle = event.currentTarget.elements.chapterTitle.value;
         if (chapterData && newChTitle !== chapterData.title) {
             onChapterTitleChange(newChTitle);
-        }
-
-        const newDayTitle = event.currentTarget.elements.dayTitle.value;
-        if (dayData && newDayTitle !== dayData.title) {
-            onDayTitleChange(newDayTitle);
-        }
-
-        const newDayRecap = event.currentTarget.elements.dayRecap.value;
-        if (dayData && newDayRecap !== dayData.dayRecap) {
-            onDayRecapChange(newDayRecap);
         }
 
         const newBGImage = event.currentTarget.elements.bgiSrc.value;
@@ -98,7 +86,6 @@ const EditorGeneralCard = ({
                         type="text"
                         id="title"
                         name="chapterTitle"
-                        readOnly
                         defaultValue={chapterData.title}
                     />
                 </div>
@@ -137,6 +124,7 @@ const EditorGeneralCard = ({
                         name="dayTitle"
                         defaultValue={dayData?.title}
                         readOnly
+                        disabled
                     />
                 </div>
 
