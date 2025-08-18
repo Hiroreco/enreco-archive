@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2025-08-18",
+    "content": "## Small Tweaks\r\n\r\n_August 18, 2025_\r\n\r\n- Updated Shiori-related glossary entries\r\n- Reverted to Libre Franklin font\r\n- Added Cecilia's letters to Iphania in \"Oh Princess\" entry\r\n- Fixed Shiori's minigame layout bug\r\n"
+  },
+  {
+    "date": "2025-07-26",
+    "content": "## Post Chapter 2 Update\r\n\r\n_July 26, 2025_\r\n\r\n### 📚 Glossary\r\n\r\n- Multi-category organization:\r\n    - **Characters:** Heroes, NPCs\r\n    - **Lore:** General, Heroes’ Storylines\r\n    - **Weapons:** Revelations\r\n    - **Quests:** Main, Special\r\n    - **Misc:** Mechanics, Side Quests\r\n- Interactive 3D model viewer (orbital controls)\r\n- Chapter-based filtering & navigation\r\n- Image gallery + section jumper\r\n- Navigation history (Back/Forward)\r\n- Character quotes & \"First Appeared\" info\r\n- Cross-reference linking\r\n\r\n---\r\n\r\n### 🎵 Music Player / Jukebox\r\n\r\n- Categorized playlists: Official Themes, In-Game, Talent-used, Hero Themes, Special\r\n- Shuffle & repeat (single / category)\r\n- Volume + mute/unmute\r\n- Keyboard shortcuts\r\n- Album cover w/ hover play/pause\r\n- Direct links to original sources\r\n\r\n---\r\n\r\n### 🎨 Fanart Gallery\r\n\r\n- Advanced filtering (characters, chapters, days)\r\n- Inclusive filter modes\r\n- Shuffle & mobile swiping\r\n- Collapsible header (auto-hide on scroll)\r\n- Meme filters + videos-only option\r\n- Keyboard shortcuts\r\n- Direct artist links\r\n\r\n---\r\n\r\n### 🔧 Other Improvements\r\n\r\n- Upgraded read status\r\n- Relationship thumbnails → open related cards\r\n- New icons & loading animation\r\n- Better tooltips\r\n- More books, fanfics & letters\r\n- Specialized daily lore nodes\r\n- Audio for select texts\r\n- Interactive easter eggs\r\n- Typos/grammar fixes\r\n- Changelog added\r\n- Navigation & performance optimizations\r\n"
+  }
+]
