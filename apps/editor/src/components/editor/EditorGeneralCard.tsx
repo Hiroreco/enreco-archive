@@ -1,13 +1,11 @@
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import React, { useState } from "react";
-import MDEditor from "@uiw/react-md-editor";
 import { LucideX } from "lucide-react";
+import React from "react";
 
 import EditorCard from "@/components/editor/EditorCard";
-import { EditorChapter, EditorChartData } from "@enreco-archive/common/types";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Label } from "@enreco-archive/common-ui/components/label";
+import { EditorChapter, EditorChartData } from "@enreco-archive/common/types";
 
 interface FormElements extends HTMLFormControlsCollection {
     chapterTitle: HTMLInputElement;
@@ -38,7 +36,6 @@ const EditorGeneralCard = ({
     isVisible,
     chapterData,
     dayData,
-    isDarkMode,
     onChapterTitleChange,
     onDayTitleChange,
     onDayRecapChange,
@@ -46,10 +43,6 @@ const EditorGeneralCard = ({
     onBGMChange,
     onCardClose,
 }: EditorGeneralCardProps) => {
-    const [dayRecapMdData, setDayRecapMdData] = useState(
-        dayData !== null ? dayData.dayRecap : "",
-    );
-
     if (!isVisible || chapterData === null) {
         return;
     }
@@ -85,7 +78,6 @@ const EditorGeneralCard = ({
 
     const onClose = () => {
         // Reset day recap on modal close. Yes this means unsaved changes will be blown away.
-        setDayRecapMdData(dayData?.dayRecap || "");
         onCardClose();
     };
 
@@ -106,6 +98,7 @@ const EditorGeneralCard = ({
                         type="text"
                         id="title"
                         name="chapterTitle"
+                        readOnly
                         defaultValue={chapterData.title}
                     />
                 </div>
@@ -143,26 +136,7 @@ const EditorGeneralCard = ({
                         id="day-title"
                         name="dayTitle"
                         defaultValue={dayData?.title}
-                    />
-                </div>
-
-                <div
-                    className={cn("my-2", dayData === null && "hidden")}
-                    data-color-mode={isDarkMode ? "dark" : "light"}
-                >
-                    <Label className="block my-1" htmlFor="dayRecap">
-                        Day Recap
-                    </Label>
-                    <MDEditor
-                        id="dayRecap"
-                        textareaProps={{ name: "dayRecap" }}
-                        value={dayRecapMdData}
-                        onChange={(value) => {
-                            if (value) {
-                                setDayRecapMdData(value);
-                            }
-                        }}
-                        preview="edit"
+                        readOnly
                     />
                 </div>
 

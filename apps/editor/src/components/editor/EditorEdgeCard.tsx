@@ -11,7 +11,6 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { CustomEdgeType, RelationshipMap } from "@enreco-archive/common/types";
-import MDEditor from "@uiw/react-md-editor";
 
 import { produce, WritableDraft } from "immer";
 import { Copy, LucideX } from "lucide-react";
@@ -36,7 +35,6 @@ const EdgeEditorCard = ({
     deleteEdge,
     onCardClose,
     numberOfDays,
-    isDarkMode,
 }: EditorEdgeCard) => {
     const [workingEdge, setWorkingEdge] = useState(selectedEdge);
 
@@ -133,11 +131,8 @@ const EdgeEditorCard = ({
                     id="edge-title"
                     type="text"
                     value={workingEdge.data!.title}
-                    onChange={(event) =>
-                        setWorkingEdgeAttr((draft) => {
-                            draft.data!.title = event.target.value;
-                        })
-                    }
+                    readOnly
+                    disabled
                 />
 
                 <Label
@@ -175,32 +170,6 @@ const EdgeEditorCard = ({
                         ))}
                     </SelectContent>
                 </Select>
-
-                <hr className="col-span-2 my-0.5" />
-
-                <Label
-                    htmlFor="node-status"
-                    className="text-lg self-center col-span-2"
-                >
-                    Edge Day Content
-                </Label>
-                <div
-                    className="col-span-2"
-                    data-color-mode={isDarkMode ? "dark" : "light"}
-                >
-                    <MDEditor
-                        id="node-content"
-                        textareaProps={{ name: "content" }}
-                        value={workingEdge.data?.content}
-                        onChange={(content) =>
-                            setWorkingEdgeAttr((draft) => {
-                                if (draft.data) {
-                                    draft.data.content = content || "";
-                                }
-                            })
-                        }
-                    />
-                </div>
             </div>
             <div className="flex flex-row gap-16">
                 <Button onClick={handleSave}>Save</Button>
