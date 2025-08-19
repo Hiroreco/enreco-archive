@@ -18,7 +18,7 @@ const ViewShioriGame = () => {
 
     const questions = [
         {
-            question: "Finish this sentence: Shiori of the ___",
+            question: "Finish this sentence: Shiori of the _________",
             answer: ["nyavella", "nyavellas"],
         },
         {
@@ -146,7 +146,7 @@ const ViewShioriGame = () => {
                     <Button onClick={handleAnswer}>Submit</Button>
                 </div>
                 {error && <div className="text-red-500">{error}</div>}
-                <ViewShioriGameEasterEgg />
+                <ViewShioriGameEasterEgg className="bottom-8" />
             </div>
         );
     }
