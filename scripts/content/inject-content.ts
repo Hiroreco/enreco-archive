@@ -9,6 +9,10 @@ function runScript(cmd: string) {
 }
 
 function main() {
+    // 0. Rename edge files to uniform everything
+    console.log("🔄 Renaming edge files...");
+    runScript("pnpm rename-edge-files");
+
     // 1. Validate content first
     console.log("🔎 Running validate-content...");
     runScript("pnpm validate-content");
