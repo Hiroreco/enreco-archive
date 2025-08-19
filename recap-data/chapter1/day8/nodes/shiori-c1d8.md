@@ -25,7 +25,7 @@ Finally, everyone was urgently summoned to the kingdom gates for one last battle
 
 [Nothing personal kid](#embed:https://www.youtube.com/live/dTf0g5tqzBU?si=vCsybv_p8YdnCMWU&start=4968)
 
-When the heroes finally bested the Stain King, they uncovered the painful truth about the ruler of Libestal (read [King: The True Evil](#node:king-of-libestal)).
+When the heroes finally bested the Stain King, they uncovered the painful truth about the ruler of Libestal (read [King: The True Evil](#node:king)).
 
 And with that, everyone was returned to where their journey had first begun: the white box. Thus marked the end of their first adventure.
 

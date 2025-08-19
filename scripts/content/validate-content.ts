@@ -350,6 +350,32 @@ async function main() {
                 hasErrors = true;
             }
         }
+
+        // --- Additional check for edge file matching known ID ---
+        if (relPath.includes("edges") && chapterNum) {
+            const base = path.basename(file, ".md");
+            const chapterIdx = parseInt(chapterNum);
+            const suffixRe = new RegExp(`-c${chapterIdx + 1}d\\d+$`);
+            const key = base.replace(suffixRe, "");
+            const parts = key.split("-");
+            if (parts.length !== 2) {
+                console.warn(
+                    `[${relPath}] invalid edge file name format: ${base}`,
+                );
+                hasErrors = true;
+                continue;
+            }
+            const reversed = parts.reverse().join("-");
+            if (
+                !chapterEdgeIds[chapterIdx].has(key) &&
+                !chapterEdgeIds[chapterIdx].has(reversed)
+            ) {
+                console.warn(
+                    `[${relPath}] edge file "${key}" does not match any known edge ID in chapter ${chapterIdx} (checked ${key} and ${reversed})`,
+                );
+                hasErrors = true;
+            }
+        }
     }
 
     if (hasErrors) {

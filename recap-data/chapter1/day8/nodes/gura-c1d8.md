@@ -15,7 +15,7 @@ She made it back to the kingdom with five minutes to spare, only to find everyth
 
 Finally, the end came. As the final battle against the [Stain King](https://www.youtube.com/live/cIb5yHw4mvk?feature=shared&t=3994) began, Gura weaved through the chaos, swinging her trident with precision. Chanting her Revelation, she unleashed powerful waves of water against her target. Amid the screams and screeches, she persevered, fighting alongside her comrades, until they emerged victorious.
 
-But then came the most unexpected twist. The biggest revelation yet unfolded, shedding light on the king’s true intentions (see [King: The True Evil](#node:king-of-libestal)).
+But then came the most unexpected twist. The biggest revelation yet unfolded, shedding light on the king’s true intentions (see [King: The True Evil](#node:king)).
 
 Still baffled and processing the truth, Gura and everyone else were sent back to the white box, the starting point of their journey. Ever the mischievous one, Gura noticed she still had her Warp Crystal. Using it, she managed to sneak back into the kingdom, where she wasn’t supposed to be.
 

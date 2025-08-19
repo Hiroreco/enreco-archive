@@ -21,7 +21,7 @@ During a moment of downtime, Nanamoo received a call from a familiar yet unexpec
 
 After assisting her comrades in the Ancient Sewer dungeon, the final showdown against the [Stain King](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=7584) was upon them. Nanamoo initially planned to stay on the sidelines and watch everyone else get flattened while relaxing. Instead, she ended up getting [flattened herself](https://www.youtube.com/live/oq_4QZacuso?feature=shared&t=8078).
 
-Despite the challenges, the heroes triumphed over the Stain King. But their victory was overshadowed by a devastating revelation about the king they had been serving (see [King: The True Evil](#node:king-of-libestal)).
+Despite the challenges, the heroes triumphed over the Stain King. But their victory was overshadowed by a devastating revelation about the king they had been serving (see [King: The True Evil](#node:king)).
 
 As the heroes returned to the white room where their journey began, they were a mix of joyful and shaken, reflecting on the bonds they had forged and the adventures they had shared. But then came the final, heartbreaking twist.
 

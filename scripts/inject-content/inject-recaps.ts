@@ -9,6 +9,10 @@ function stripCommentTags(content: string): string {
     return content.replace(/<!--[\s\S]*?-->/g, "").trim();
 }
 
+function reverseId(id: string): string {
+    return id.split("-").reverse().join("-");
+}
+
 async function processChapter(chapterNum: number) {
     console.log(`\n📚 Processing chapter ${chapterNum}...`);
 
@@ -180,10 +184,14 @@ async function processChapter(chapterNum: number) {
 
                 const content = stripCommentTags(lines.join("\n")).trim();
 
+                const reversedKey = reverseId(key);
                 const ed = chart.edges.find(
                     (e) =>
                         e.id === key ||
+                        e.id === reversedKey ||
                         (e.id.startsWith(key + "-") &&
+                            e.data!.day === dayIndex) ||
+                        (e.id.startsWith(reversedKey + "-") &&
                             e.data!.day === dayIndex),
                 );
                 if (ed) {

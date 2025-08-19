@@ -39,7 +39,7 @@ The kingdom rejoiced. Mario’s tears of sorrow turned to joy as she embraced he
 
 Awakened with a clear mind, Bijou reflected on the dangers of losing control, whether by corruption or others’ expectations. Determined to redefine herself, she severed ties with her superficial relationships, including Shiori, Hot Pink One, and Nerissa (see [Divorce No.1](#edge:shiori-bijou), [No.2](#edge:bijou-irys), and [No.3](#edge:nerissa-bijou)).
 
-Finally, Bijou stood alongside her comrades for the final battle against the [Stain King](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=15132). Channeling her fury at the corruption that had consumed her, she fought fiercely, her gemstones striking true. Though the battle was won, the heroes faced an unsettling revelation about the king’s true nature (see [King: The True Evil](#node:king-of-libestal)).
+Finally, Bijou stood alongside her comrades for the final battle against the [Stain King](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=15132). Channeling her fury at the corruption that had consumed her, she fought fiercely, her gemstones striking true. Though the battle was won, the heroes faced an unsettling revelation about the king’s true nature (see [King: The True Evil](#node:king)).
 
 And then, everyone was brought back to the [white room](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=16724), where everything began and where this chapter closes.
 

@@ -29,4 +29,4 @@ Though the threat was gone, the heroes knew peace would be fleeting. Another cha
 
 [How to even caption this](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?si=aaRis0u8KSJBqAkw&start=6494)
 
-The final battle with the [Stain King](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=7620) brought one last cruel twist (see [King: The True Evil](#node:king-of-libestal)), sending the heroes back to the white room where their journey [began](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=9255).
+The final battle with the [Stain King](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=7620) brought one last cruel twist (see [King: The True Evil](#node:king)), sending the heroes back to the white room where their journey [began](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=9255).

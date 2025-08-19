@@ -45,7 +45,7 @@ Peace returned, though it was accompanied by the kingdom’s usual antics. From 
 
 Following a final group picture, Elizabeth and her comrades prepared for their ultimate battle against the [Stain King](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=16809). The fight was fierce, but the heroes triumphed.
 
-However, their victory revealed a devastating truth: the king they had sworn to protect was the true villain (see [King: The True Evil](#node:king-of-libestal)). Elizabeth, defined by her unwavering loyalty to the king, was thrown into turmoil. Could her beacon of light truly have been the source of such darkness?
+However, their victory revealed a devastating truth: the king they had sworn to protect was the true villain (see [King: The True Evil](#node:king)). Elizabeth, defined by her unwavering loyalty to the king, was thrown into turmoil. Could her beacon of light truly have been the source of such darkness?
 
 Unable to raise her sword at first, Elizabeth clung to denial. But the sight of her friends in pain—Mococo suffering most of all—shattered her resolve. The king had to pay for his betrayal. And so, for the first time, Elizabeth wielded her blade not for her king, but for her comrades.
 

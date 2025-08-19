@@ -25,7 +25,7 @@ Unexpectedly, however, Calli made sales more meaningful than any food order. Her
 
 On the final day, Calli achieved her long-awaited goal, securing her first three divorce sales: one for [Bijou and Shiori](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=11280), another for [Bijou and the Hot Pink One](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=11701), and a third for [Bijou and Nerissa](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=12162). The princess boasted about being freed from the shackles of marriage, much to Calli's delight.
 
-When the final battle arrived, Calli and her allies faced off against the Stain King, vanquishing him in an epic confrontation. Along the way, they uncovered the shocking truths about the real king’s dark secrets (see [King: The True Evil](#node:king-of-libestal)). Their journey concluded as they were returned to the mysterious white room, marking the end of this chapter in Calli’s tale.
+When the final battle arrived, Calli and her allies faced off against the Stain King, vanquishing him in an epic confrontation. Along the way, they uncovered the shocking truths about the real king’s dark secrets (see [King: The True Evil](#node:king)). Their journey concluded as they were returned to the mysterious white room, marking the end of this chapter in Calli’s tale.
 
 Before signing off, Calli left one last remark, addressing a peculiar customer review of her food.
 

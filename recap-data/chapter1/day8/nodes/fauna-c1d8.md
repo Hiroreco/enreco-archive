@@ -25,7 +25,7 @@ As the final battle loomed, Fauna had a brilliant idea: sell battle gear to her 
 
 Then came the final showdown against the [Stain King](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=7696). Even as chaos erupted and heroes were flattened left and right, Fauna’s capitalistic instincts kicked in. She attempted to charge for her [healing abilities](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=7796) but, seeing no buyers, ended up providing them for free.
 
-Upon the Stain King’s defeat, a shocking twist left all the heroes reeling (see [King: The True Evil](#node:king-of-libestal)).
+Upon the Stain King’s defeat, a shocking twist left all the heroes reeling (see [King: The True Evil](#node:king)).
 
 In the end, the heroes returned to the [white room](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=9420) where their journey had begun. Thus concluded the story of our favorite green CEO. From being summoned as a hero, Fauna chose the unconventional path of becoming an "NPC" and opening her own business, inadvertently creating one of the story’s key plot points. Her dedication to making money and staying true to her ideals was unmatched.
 
