@@ -31,6 +31,7 @@
         "cleanup": "tsx scripts/misc/cleanup.ts",
         "inject-songs": "tsx scripts/misc/inject-songs.ts",
         "inject-changelogs": "tsx scripts/misc/inject-changelogs.ts",
+        "rename-edge-files": "tsx scripts/misc/rename-edge-files.ts",
         "normalize-audio": "tsx scripts/misc/normalize-audio.ts",
         "inject-content": "tsx scripts/content/inject-content.ts",
         "validate-content": "tsx scripts/content/validate-content.ts",
