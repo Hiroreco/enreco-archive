@@ -3,12 +3,6 @@ import fs from "fs/promises";
 import JSZip from "jszip";
 import path from "path";
 
-type ChapterJson = {
-    numberOfDays: number;
-    title: string;
-    charts: ChartData[];
-};
-
 function stripCommentTags(content: string): string {
     // Remove HTML-style comments (<!-- ... -->)
     // This regex handles multi-line comments and comments with newlines
@@ -70,6 +64,14 @@ async function processChapter(chapterNum: number) {
                 path.join(dayPath, "recaps", recapName),
                 "utf-8",
             );
+
+            // Extract title from first line if present as <!-- title: ... -->
+            const titleLine = md.split(/\r?\n/)[0];
+            const titleMatch = titleLine.match(/^<!--\s*title:\s*(.+?)\s*-->$/);
+            if (titleMatch) {
+                chart.title = titleMatch[1].trim();
+            }
+
             chart.dayRecap = stripCommentTags(md).trim();
         } catch {
             console.warn(`  • Missing dayRecap file: ${recapName}`);
@@ -258,6 +260,7 @@ async function processChapter(chapterNum: number) {
         if (!zChart || !wChart) return;
 
         // dayRecap
+        wChart.title = zChart.title;
         wChart.dayRecap = zChart.dayRecap;
 
         // nodes

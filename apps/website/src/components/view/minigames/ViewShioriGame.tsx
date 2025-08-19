@@ -18,7 +18,7 @@ const ViewShioriGame = () => {
 
     const questions = [
         {
-            question: "Finish this sentence: Shiori of the ___",
+            question: "Finish this sentence: Shiori of the _________",
             answer: ["nyavella", "nyavellas"],
         },
         {
@@ -146,17 +146,27 @@ const ViewShioriGame = () => {
                     <Button onClick={handleAnswer}>Submit</Button>
                 </div>
                 {error && <div className="text-red-500">{error}</div>}
-                <ViewShioriGameEasterEgg />
+                <ViewShioriGameEasterEgg className="bottom-8" />
             </div>
         );
     }
-
     return (
         <div className="relative size-full flex flex-col items-center">
-            <div className="font-bold mt-2">Shiori Nyavella's Stash</div>
-            <Separator className="w-full mb-0 mt-2" />
-            <div className="overflow-y-auto max-h-[50vh] py-4 md:max-h-[80%] w-full">
-                <div className="grid place-items-center md:grid-cols-3 gap-y-6 w-full">
+            <div className="font-bold mt-2 flex-shrink-0">
+                Shiori Nyavella's Stash
+            </div>
+            <Separator className="w-full mb-0 mt-2 flex-shrink-0" />
+            {/* Different height calculations for mobile vs desktop */}
+            <div
+                className="w-full overflow-y-auto md:h-[calc(100%-120px)]"
+                style={{
+                    height:
+                        window.innerWidth < 768
+                            ? "calc(100vh - 400px)"
+                            : "calc(100% - 120px)",
+                }}
+            >
+                <div className="grid place-items-center md:grid-cols-2 gap-y-4 w-full px-4 py-2">
                     {bookList.map((fanfic) => (
                         <ViewTextModal
                             key={fanfic}
@@ -169,9 +179,8 @@ const ViewShioriGame = () => {
                     ))}
                 </div>
             </div>
-            <Separator className="w-full" />
-
-            <ViewShioriGameEasterEgg />
+            <Separator className="w-full flex-shrink-0" />
+            <ViewShioriGameEasterEgg className="bottom-8" />
         </div>
     );
 };

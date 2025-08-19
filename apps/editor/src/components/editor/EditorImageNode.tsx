@@ -8,6 +8,7 @@ import {
 } from "@xyflow/react";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 // Number of handles per side
 const NUM_OF_HANDLES = 5;
@@ -50,7 +51,12 @@ const generateHandles = (numOfHandles: number) => {
 };
 
 const EditorImageNode = ({ data, id }: EditorImageNodeProps) => {
-    const { showHandles, day: currentDay } = useEditorStore();
+    const {
+        showHandles,
+        day: currentDay,
+        chapter,
+        data: chapterData,
+    } = useEditorStore();
     const [handles, setHandles] = useState(generateHandles(NUM_OF_HANDLES));
     const updateNodeInternals = useUpdateNodeInternals();
     const handleElements = handles.map((handle) => (
@@ -72,17 +78,36 @@ const EditorImageNode = ({ data, id }: EditorImageNodeProps) => {
     const isCurrentDay = data.day === currentDay || false;
 
     return (
-        <>
+        <div
+            className={cn("relative size-[100px]", {
+                "opacity-50": !isCurrentDay,
+                "opacity-100": isCurrentDay,
+            })}
+        >
             {handleElements}
-            <img
-                className={cn("aspect-square object-cover rounded-lg", {
-                    "opacity-50": !isCurrentDay,
-                    "opacity-100": isCurrentDay,
-                })}
+            <Image
+                className={cn(
+                    "aspect-square object-cover rounded-lg size-full",
+                )}
+                height={100}
                 width={100}
+                alt="123"
                 src={data.imageSrc}
             />
-        </>
+            {chapter !== null &&
+                chapterData[chapter].teams !== null &&
+                chapterData[chapter].teams[data.teamId] && (
+                    <Image
+                        className="absolute top-1 left-1 aspect-square shadow-lg"
+                        width={30}
+                        height={30}
+                        alt=""
+                        src={
+                            chapterData[chapter].teams[data.teamId].teamIconSrc
+                        }
+                    />
+                )}
+        </div>
     );
 };
 

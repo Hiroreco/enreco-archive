@@ -1,3 +1,5 @@
+<!-- title: Where Love Waits Between the Hours -->
+
 ## Day 4: Where Love Waits Between the Hours
 
 Second day in a row where the side event takes the spotlight before the real meat and grit of the main show. At this point, that’s just tradition. Day Four delivered two things: a time lord and a Korean soap opera. Two wildly different beasts—yet somehow, both showed up to the same dinner party.

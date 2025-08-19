@@ -1,3 +1,5 @@
+<!-- title: The Silence Before the Surge -->
+
 ## Day 6: The Silence Before the Surge
 
 A somewhat... _normal_ day? No way—really? Are we still on the same adventure? Still in the chaotic lands of Libestal? Still following the 15 agents of drama, scams, and emotional damage?

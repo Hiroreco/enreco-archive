@@ -117,3 +117,22 @@
     content: "";
     vertical-align: text-bottom;
 }
+
+/* For indented list markers */
+.markdown ul ul,
+.markdown ol ul,
+.markdown ul ol,
+.markdown ol ol {
+    padding-left: 2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Make nested list markers a bit smaller for clarity */
+.markdown ul ul li,
+.markdown ol ul li,
+.markdown ul ol li,
+.markdown ol ol li {
+    font-size: 0.95em;
+    opacity: 0.85;
+}

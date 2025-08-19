@@ -1,13 +1,11 @@
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import React, { useState } from "react";
-import MDEditor from "@uiw/react-md-editor";
 import { LucideX } from "lucide-react";
+import React from "react";
 
 import EditorCard from "@/components/editor/EditorCard";
-import { EditorChapter, EditorChartData } from "@enreco-archive/common/types";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Label } from "@enreco-archive/common-ui/components/label";
+import { EditorChapter, EditorChartData } from "@enreco-archive/common/types";
 
 interface FormElements extends HTMLFormControlsCollection {
     chapterTitle: HTMLInputElement;
@@ -38,18 +36,11 @@ const EditorGeneralCard = ({
     isVisible,
     chapterData,
     dayData,
-    isDarkMode,
     onChapterTitleChange,
-    onDayTitleChange,
-    onDayRecapChange,
     onBGImageChange,
     onBGMChange,
     onCardClose,
 }: EditorGeneralCardProps) => {
-    const [dayRecapMdData, setDayRecapMdData] = useState(
-        dayData !== null ? dayData.dayRecap : "",
-    );
-
     if (!isVisible || chapterData === null) {
         return;
     }
@@ -60,16 +51,6 @@ const EditorGeneralCard = ({
         const newChTitle = event.currentTarget.elements.chapterTitle.value;
         if (chapterData && newChTitle !== chapterData.title) {
             onChapterTitleChange(newChTitle);
-        }
-
-        const newDayTitle = event.currentTarget.elements.dayTitle.value;
-        if (dayData && newDayTitle !== dayData.title) {
-            onDayTitleChange(newDayTitle);
-        }
-
-        const newDayRecap = event.currentTarget.elements.dayRecap.value;
-        if (dayData && newDayRecap !== dayData.dayRecap) {
-            onDayRecapChange(newDayRecap);
         }
 
         const newBGImage = event.currentTarget.elements.bgiSrc.value;
@@ -85,7 +66,6 @@ const EditorGeneralCard = ({
 
     const onClose = () => {
         // Reset day recap on modal close. Yes this means unsaved changes will be blown away.
-        setDayRecapMdData(dayData?.dayRecap || "");
         onCardClose();
     };
 
@@ -143,26 +123,8 @@ const EditorGeneralCard = ({
                         id="day-title"
                         name="dayTitle"
                         defaultValue={dayData?.title}
-                    />
-                </div>
-
-                <div
-                    className={cn("my-2", dayData === null && "hidden")}
-                    data-color-mode={isDarkMode ? "dark" : "light"}
-                >
-                    <Label className="block my-1" htmlFor="dayRecap">
-                        Day Recap
-                    </Label>
-                    <MDEditor
-                        id="dayRecap"
-                        textareaProps={{ name: "dayRecap" }}
-                        value={dayRecapMdData}
-                        onChange={(value) => {
-                            if (value) {
-                                setDayRecapMdData(value);
-                            }
-                        }}
-                        preview="edit"
+                        readOnly
+                        disabled
                     />
                 </div>
 

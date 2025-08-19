@@ -1,3 +1,5 @@
+<!-- title: Welcome to Libestal -->
+
 ## Day 1: Welcome to Libestal
 
 And so the journey begins. Summoned to the fantastical _Kingdom of Libestal_ by its King, 19 heroes, each with their unique quirks, are tasked with a vital mission: to combat the looming threat known as The Stains. Yet, this new reality is not without its complications. Each of them, stripped of their memories, awoke with no recollection of their past lives, leaving them to navigate this strange world as strangers even to themselves.
@@ -52,3 +54,4 @@ However, this was far from the day's only story. The heroes summoned by the king
 ["Loving it so far" by Hiro](https://x.com/hiroavrs/status/1830424491232825838/photo/1)
 
 <!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+

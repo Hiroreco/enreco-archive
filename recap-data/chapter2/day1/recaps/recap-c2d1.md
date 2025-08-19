@@ -1,3 +1,5 @@
+<!-- title: The Chains of Employment -->
+
 ## Day 1: The Chains of Employment
 
 The kingdom of Libestal has returned—but something is... off. Our heroes have traveled back in time?! As if the whole “the King was evil and the old kingdom was a fabricated illusion” twist wasn’t enough, now we’ve got _time travel_ thrown into the mix. But alright, maybe it’s not so bad, they just need to—oh, they’ve also lost their memories. Again???

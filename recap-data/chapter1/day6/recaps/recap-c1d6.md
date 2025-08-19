@@ -1,3 +1,5 @@
+<!-- title: The Filler Episode -->
+
 ## Day 6: The Filler Episode
 
 The day kicked off with Gonathon launching an investigation to uncover the culprit behind the defacement of his queen’s statue.

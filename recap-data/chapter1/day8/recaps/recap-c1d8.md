@@ -1,3 +1,5 @@
+<!-- title: Beginning of The End -->
+
 ## Day 8: Beginning of The End
 
 The final day of the journey tied up many loose ends while simultaneously raising even more questions. It was a crowded day—a lot happened, from shifting relationships to the resolution of major storylines.
@@ -39,3 +41,4 @@ With corruption at its peak, relationships transformed, rivalries settled, and s
 ["the quintessential hashtag enreco experience" by Eli](https://x.com/Elisbian_/status/1861075335011352953)
 
 <!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+

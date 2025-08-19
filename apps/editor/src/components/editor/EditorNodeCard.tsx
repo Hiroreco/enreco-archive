@@ -13,7 +13,6 @@ import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import { EditorImageNodeType, TeamMap } from "@enreco-archive/common/types";
 
-import MDEditor from "@uiw/react-md-editor";
 import { extractColors } from "extract-colors";
 import { produce, WritableDraft } from "immer";
 import { Copy, LucideX } from "lucide-react";
@@ -61,7 +60,6 @@ export default function EditorNodeCard({
     deleteNode,
     onCardClose,
     numberOfDays,
-    isDarkMode,
 }: EditorNodeCardProps) {
     const [workingNode, setWorkingNode] = useState(selectedNode);
     const [imgPreviewLink, setImgPreviewLink] = useState(
@@ -186,11 +184,8 @@ export default function EditorNodeCard({
                     id="node-title"
                     name="title"
                     value={workingNode.data.title}
-                    onChange={(event) => {
-                        setWorkingNodeAttr((draft) => {
-                            draft.data.title = event.target.value;
-                        });
-                    }}
+                    readOnly
+                    disabled
                     ref={titleElem}
                 />
 
@@ -205,11 +200,8 @@ export default function EditorNodeCard({
                     id="node-status"
                     name="status"
                     value={workingNode.data.status}
-                    onChange={(event) =>
-                        setWorkingNodeAttr((draft) => {
-                            draft.data.status = event.target.value;
-                        })
-                    }
+                    readOnly
+                    disabled
                 />
 
                 <Label
@@ -340,30 +332,6 @@ export default function EditorNodeCard({
 
                 <span className="text-lg text-right">Image Preview</span>
                 <img src={imgPreviewLink} className="h-16 w-16" />
-
-                <hr className="col-span-2 my-0.5" />
-
-                <Label
-                    htmlFor="node-status"
-                    className="text-lg self-center col-span-2"
-                >
-                    Node Day Content
-                </Label>
-                <div
-                    className="col-span-2"
-                    data-color-mode={isDarkMode ? "dark" : "light"}
-                >
-                    <MDEditor
-                        id="node-content"
-                        textareaProps={{ name: "content" }}
-                        value={workingNode.data.content}
-                        onChange={(content) =>
-                            setWorkingNodeAttr((draft) => {
-                                draft.data.content = content || "";
-                            })
-                        }
-                    />
-                </div>
             </div>
 
             <div className="flex flex-row gap-16">
