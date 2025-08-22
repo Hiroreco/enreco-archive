@@ -6,6 +6,7 @@ import {
     EditorChapter,
     EditorSaveMetadata,
     FixedEdgeType,
+    HandleConfig,
     ImageNodeType,
     Metadata,
 } from "@enreco-archive/common/types";
@@ -132,29 +133,104 @@ export async function exportData(editorChapters: EditorChapter[]) {
     const utf8Encoder = new TextEncoder();
     const zipFile = new JSZip();
 
+    // Process each chapter separately
     for (let chIdx = 0; chIdx < editorChapters.length; chIdx++) {
         const editorChapter = editorChapters[chIdx];
+
+        // Create a chapter-specific node handles map
+        const chapterNodeHandles = new Map<string, Map<string, Set<string>>>();
+
+        // Initialize handle maps for nodes in this chapter only
+        for (const chart of editorChapter.charts) {
+            for (const node of chart.nodes) {
+                if (!chapterNodeHandles.has(node.id)) {
+                    chapterNodeHandles.set(node.id, new Map());
+                }
+            }
+        }
+
+        // Process edges from this chapter only
+        for (const chart of editorChapter.charts) {
+            for (const edge of chart.edges) {
+                if (edge.source && edge.sourceHandle) {
+                    const nodeHandles = chapterNodeHandles.get(edge.source);
+                    if (nodeHandles) {
+                        if (!nodeHandles.has(edge.sourceHandle)) {
+                            nodeHandles.set(edge.sourceHandle, new Set());
+                        }
+                        nodeHandles.get(edge.sourceHandle)?.add("source");
+                    }
+                }
+                if (edge.target && edge.targetHandle) {
+                    const nodeHandles = chapterNodeHandles.get(edge.target);
+                    if (nodeHandles) {
+                        if (!nodeHandles.has(edge.targetHandle)) {
+                            nodeHandles.set(edge.targetHandle, new Set());
+                        }
+                        nodeHandles.get(edge.targetHandle)?.add("target");
+                    }
+                }
+            }
+        }
+
+        // Convert this chapter's handle data to the output format
+        const nodeHandlesMap: { [nodeId: string]: HandleConfig[] } = {};
+
+        for (const [nodeId, handleMap] of chapterNodeHandles.entries()) {
+            const handles = [];
+
+            for (const [handleId, types] of handleMap.entries()) {
+                const [position, index] = handleId.split("-");
+                const posStyle =
+                    position === "top" || position === "bottom"
+                        ? "left"
+                        : "top";
+
+                const positionValue = (parseInt(index) + 1) * (100 / (5 + 1));
+
+                let type = "source";
+                if (types.has("source") && types.has("target")) {
+                    type = "source-target";
+                } else if (types.has("target")) {
+                    type = "target";
+                }
+
+                handles.push({
+                    id: handleId,
+                    position: position,
+                    style: {
+                        [posStyle]: `${positionValue}%`,
+                    },
+                    type,
+                });
+            }
+
+            if (handles.length > 0) {
+                nodeHandlesMap[nodeId] = handles;
+            }
+        }
+
         const resultChapter: Chapter = {
             numberOfDays: editorChapter.numberOfDays,
             title: editorChapter.title,
             charts: editorChapter.charts.map((chart, dayIdx) => {
-                const nodes = chart.nodes.map(
-                    (node) =>
-                        ({
-                            ...node,
-                            type: "image",
-                            selected: false,
-                            data: {
-                                title: node.data.title,
-                                content: node.data.content,
-                                imageSrc: node.data.imageSrc,
-                                teamId: node.data.teamId,
-                                status: node.data.status,
-                                day: node.data.day,
-                                bgCardColor: node.data.bgCardColor,
-                            },
-                        }) as ImageNodeType,
-                );
+                const nodes = chart.nodes.map((node) => {
+                    return {
+                        ...node,
+                        type: "image",
+                        selected: false,
+                        data: {
+                            title: node.data.title,
+                            content: node.data.content,
+                            imageSrc: node.data.imageSrc,
+                            teamId: node.data.teamId,
+                            status: node.data.status,
+                            day: node.data.day,
+                            bgCardColor: node.data.bgCardColor,
+                            // Don't include handles here anymore
+                        },
+                    } as ImageNodeType;
+                });
 
                 const edges = chart.edges.map((edge) => {
                     const resultEdge: FixedEdgeType = {
@@ -170,7 +246,7 @@ export async function exportData(editorChapters: EditorChapter[]) {
                             offsets: edge.data!.offsets,
                         },
                     };
-                    // explicitly remove any rendering/style data
+
                     if (resultEdge.style) {
                         delete resultEdge.style;
                     }
@@ -191,6 +267,7 @@ export async function exportData(editorChapters: EditorChapter[]) {
             relationships: editorChapter.relationships,
             bgiSrc: editorChapter.bgiSrc,
             bgmSrc: editorChapter.bgmSrc,
+            nodeHandles: nodeHandlesMap,
         };
 
         const chJson = JSON.stringify(resultChapter, null, 2);

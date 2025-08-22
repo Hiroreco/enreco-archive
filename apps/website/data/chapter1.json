@@ -5508,7 +5508,8 @@
       "id": "guard-dog",
       "name": "Guard Dog",
       "style": {
-        "stroke": "#8f6d2d"
+        "stroke": "#8f6d2d",
+        "strokeDasharray": ""
       }
     },
     "bros": {
@@ -5527,5 +5528,715 @@
     }
   },
   "bgiSrc": "/images-opt/bg-1-opt.webp",
-  "bgmSrc": "/audio/bgm/bgm-1.mp3"
+  "bgmSrc": "/audio/bgm/bgm-1.mp3",
+  "nodeHandles": {
+    "fuwawa": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "liz": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "kiara": [
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-3",
+        "position": "bottom",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "bae": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      }
+    ],
+    "raora": [
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "calli": [
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "shiori": [
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "cecilia": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-4",
+        "position": "left",
+        "style": {
+          "top": "83.33333333333334%"
+        },
+        "type": "source"
+      }
+    ],
+    "nerissa": [
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "bijou": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-3",
+        "position": "bottom",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-4",
+        "position": "bottom",
+        "style": {
+          "left": "83.33333333333334%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "gigi": [
+      {
+        "id": "bottom-3",
+        "position": "bottom",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-0",
+        "position": "left",
+        "style": {
+          "top": "16.666666666666668%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-3",
+        "position": "right",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      }
+    ],
+    "irys": [
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "ina": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-0",
+        "position": "right",
+        "style": {
+          "top": "16.666666666666668%"
+        },
+        "type": "target"
+      }
+    ],
+    "kronii": [
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "source"
+      }
+    ],
+    "iphania": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "fia": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "outlander": [
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "khaos": [
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      }
+    ]
+  }
 }

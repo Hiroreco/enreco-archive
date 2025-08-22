@@ -63,6 +63,14 @@ export type Chapter = {
     relationships: RelationshipMap;
     bgiSrc: string;
     bgmSrc: string;
+    nodeHandles: { [nodeId: string]: HandleConfig[] };
+};
+
+export type HandleConfig = {
+    id: string;
+    position: string;
+    style: { [key: string]: string };
+    type: string;
 };
 
 export type EditorChapter = {
@@ -118,8 +126,7 @@ export type EditorImageNodeData = CommonNodeData & {
     renderShowHandles?: boolean;
 };
 
-export type ImageNodeData = CommonNodeData & {
-};
+export type ImageNodeData = CommonNodeData & {};
 
 export type CustomEdgeOffsets = {
     HL: number;
@@ -142,8 +149,7 @@ type CommonEdgeData = {
 
 export type CustomEdgeData = CommonEdgeData & {};
 
-export type FixedEdgeData = CommonEdgeData & {
-};
+export type FixedEdgeData = CommonEdgeData & {};
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;
 export type EditorImageNodeProps = NodeProps<EditorImageNodeType>;

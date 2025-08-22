@@ -1,5 +1,6 @@
 import {
     FixedEdgeType,
+    HandleConfig,
     ImageNodeType,
     RelationshipMap,
     TeamMap,
@@ -9,6 +10,7 @@ import { createContext } from "react";
 export type CurrentChapterData = {
     teams: TeamMap;
     relationships: RelationshipMap;
+    nodeHandles?: { [nodeId: string]: HandleConfig[] };
 };
 
 export const CurrentChapterDataContext = createContext<CurrentChapterData>({

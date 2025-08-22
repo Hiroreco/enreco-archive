@@ -4,11 +4,14 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import { memo, useContext, useMemo } from "react";
+import { memo, useContext, useEffect, useMemo, useState } from "react";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 import "./ViewImageNode.css";
-import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    getReadStatus,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
 import { useViewStore } from "@/store/viewStore";
 
 const NUM_OF_HANDLES = 5;
@@ -27,7 +30,7 @@ const generateHandlesOnSide = (
         handles.push({
             key: `${position}-${i}`,
             id: `${position}-${i}`,
-            type: "source" as HandleType,
+            type: "source-target" as HandleType, // Make all handles support both source and target
             position: position,
             style: {
                 [positionStyle]: `${space}%`,
@@ -46,21 +49,24 @@ const generateHandles = (numOfHandles: number) => [
 ];
 
 const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
-    const { teams } = useContext(CurrentChapterDataContext);
+    const { teams, nodeHandles } = useContext(CurrentChapterDataContext);
 
-    const chapter = useViewStore(state => state.data.chapter);
-    const day = useViewStore(state => state.data.day);
-    const readStatus = usePersistedViewStore(state => state.readStatus);
+    const chapter = useViewStore((state) => state.data.chapter);
+    const day = useViewStore((state) => state.data.day);
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
+
+    // Track whether initial render is complete
+    const [initialRenderComplete, setInitialRenderComplete] = useState(false);
 
     const isNodeRead = getReadStatus(readStatus, chapter, day, id);
 
-    // Generate handles only on mount since they’re static
-    const handles = useMemo(() => {
+    // Generate all possible handles for initial render
+    const allHandles = useMemo(() => {
         const handleData = generateHandles(NUM_OF_HANDLES);
 
         return handleData.map((handle) => (
             <Handle
-                key={handle.key}
+                key={`${handle.key}-all`}
                 id={handle.id}
                 type={handle.type}
                 position={handle.position}
@@ -70,9 +76,47 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
         ));
     }, []);
 
+    // Get optimized handles from nodeHandles data after initial render
+    const optimizedHandles = useMemo(() => {
+        if (!nodeHandles || !nodeHandles[id]) return [];
+
+        return nodeHandles[id].map((handle) => (
+            <Handle
+                key={`${handle.id}-${chapter}`}
+                id={handle.id}
+                type={handle.type as HandleType}
+                position={handle.position as Position}
+                style={{ ...handle.style, opacity: 0 }}
+                isConnectable={false}
+            />
+        ));
+    }, [nodeHandles, id, chapter]);
+
+    // Switch from all handles to optimized handles after initial render
+    useEffect(() => {
+        // Use a small timeout to ensure edges are connected first
+        const timer = setTimeout(() => {
+            setInitialRenderComplete(true);
+        }, 500);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    // When chapter changes, temporarily revert to all handles
+    useEffect(() => {
+        if (initialRenderComplete) {
+            setInitialRenderComplete(false);
+            const timer = setTimeout(() => {
+                setInitialRenderComplete(true);
+            }, 500);
+
+            return () => clearTimeout(timer);
+        }
+    }, [chapter, initialRenderComplete]);
+
     return (
         <>
-            {handles}
+            {initialRenderComplete ? optimizedHandles : allHandles}
             <div
                 className={cn(
                     "node-content relative cursor-pointer w-[100px] h-[100px] rounded",

@@ -4011,5 +4011,637 @@
     }
   },
   "bgiSrc": "/images-opt/bg-0-opt.webp",
-  "bgmSrc": "/audio/bgm/bgm-0.mp3"
+  "bgmSrc": "/audio/bgm/bgm-0.mp3",
+  "nodeHandles": {
+    "fuwawa": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "mococo": [
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "liz": [
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-3",
+        "position": "right",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-3",
+        "position": "bottom",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "ame": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "kiara": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      }
+    ],
+    "bae": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "raora": [
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "source"
+      }
+    ],
+    "moom": [
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-0",
+        "position": "bottom",
+        "style": {
+          "left": "16.666666666666668%"
+        },
+        "type": "source"
+      }
+    ],
+    "fauna": [
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      }
+    ],
+    "shiori": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-4",
+        "position": "right",
+        "style": {
+          "top": "83.33333333333334%"
+        },
+        "type": "source"
+      }
+    ],
+    "cecilia": [
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      }
+    ],
+    "nerissa": [
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-4",
+        "position": "top",
+        "style": {
+          "left": "83.33333333333334%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "bijou": [
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-4",
+        "position": "left",
+        "style": {
+          "top": "83.33333333333334%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-3",
+        "position": "bottom",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      }
+    ],
+    "gigi": [
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-1",
+        "position": "bottom",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-1",
+        "position": "right",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "right-3",
+        "position": "right",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "target"
+      }
+    ],
+    "irys": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "bottom-2",
+        "position": "bottom",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "top-0",
+        "position": "top",
+        "style": {
+          "left": "16.666666666666668%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      }
+    ],
+    "ina": [
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-0",
+        "position": "top",
+        "style": {
+          "left": "16.666666666666668%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-1",
+        "position": "left",
+        "style": {
+          "top": "33.333333333333336%"
+        },
+        "type": "target"
+      }
+    ],
+    "king": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ],
+    "kronii": [
+      {
+        "id": "top-2",
+        "position": "top",
+        "style": {
+          "left": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-3",
+        "position": "top",
+        "style": {
+          "left": "66.66666666666667%"
+        },
+        "type": "source"
+      },
+      {
+        "id": "left-2",
+        "position": "left",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "top-1",
+        "position": "top",
+        "style": {
+          "left": "33.333333333333336%"
+        },
+        "type": "target"
+      },
+      {
+        "id": "left-3",
+        "position": "left",
+        "style": {
+          "top": "66.66666666666667%"
+        },
+        "type": "target"
+      }
+    ],
+    "gura": [
+      {
+        "id": "right-2",
+        "position": "right",
+        "style": {
+          "top": "50%"
+        },
+        "type": "target"
+      }
+    ]
+  }
 }
