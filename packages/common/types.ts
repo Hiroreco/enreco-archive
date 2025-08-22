@@ -69,7 +69,7 @@ export type Chapter = {
 export type HandleConfig = {
     id: string;
     position: string;
-    style: { [key: string]: string };
+    style: { [key: string]: string | undefined };
     type: string;
 };
 
