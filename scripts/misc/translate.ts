@@ -16,10 +16,10 @@ async function translateMarkdown(content: string): Promise<string> {
     const prompt = `This is a Minecraft RP event called ENigmatic Recollection, featuring the Hololive English talents. Translate the following Markdown content to Japanese. 
 Preserve all Markdown formatting, code blocks, links, and structure exactly. All of the names should be translated to their katakana equivalent, if it's a Hololive name, use the Hololive katakana version. Try to keep the energy/style, make it feel localised, the translation should not be literal. Be free, as long as it keeps the same context and intention.
 
-Here are a few things to know about this world:
+Here are a few things to note:
 - The "Stains" are the enemies of this world, and should be kept in katakana as ステイン.
 - Libestal as リベスタル.
-- Hololive talents have unique abilities called "Revelations", keep this meaning in Katakana as リベレーション.
+- Hololive talents have unique abilities called "Revelations", keep this meaning in Katakana as レベレーション.
 - The story is a mixed between quirky humor and serious themes.
 - Translate the values in the meta tags at the beginning as well, for example <!-- status: Alive --> will be <!-- status: 生存 -->.
 - A short summary: Summoned to the fantastical "Kingdom of Libestal" by its King, 19 heroes, each with their unique quirks, are tasked with a vital mission: to combat the looming threat known as The "Stains". Yet, this new reality is not without its complications. Each of them, stripped of their memories, awoke with no recollection of their past lives, leaving them to navigate this strange world as strangers even to themselves.

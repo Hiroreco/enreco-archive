@@ -9,7 +9,7 @@
 
 [次元を破る](#embed:https://www.youtube.com/live/vuij6YTMIzw?t=2426)
 
-次に気づいた時には、我らがヒーローはなぜか先行して、既にステイン・キングと[一人で](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2768)戦っていた。少なくとも、周りの騒がしい声はもう聞こえなかった。戦いの最中、彼女は選んだ武器が[短剣](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2940)であることを明かした。そのリベレーションを発動すると、標的の敵に向かって素早い斬撃の嵐を放った。その後、ギルドマスターたちや国王と話し、アンバーコインギルドマスターの[訛り](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2987)に面白がっている自分に気づいた。偶然にも、彼女は*アンバーコイン*[ギルド](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=3306)に配属されることになった。
+次に気づいた時には、我らがヒーローはなぜか先行して、既にステイン・キングと[一人で](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2768)戦っていた。少なくとも、周りの騒がしい声はもう聞こえなかった。戦いの最中、彼女は選んだ武器が[短剣](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2940)であることを明かした。そのレベレーションを発動すると、標的の敵に向かって素早い斬撃の嵐を放った。その後、ギルドマスターたちや国王と話し、アンバーコインギルドマスターの[訛り](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=2987)に面白がっている自分に気づいた。偶然にも、彼女は*アンバーコイン*[ギルド](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=3306)に配属されることになった。
 
 ギルドメイトと初めて会った時、ベールズを「変なやつ」と呼んだ後、ムメイは自分を「_クレオパトラ・アイゼンハワー・ダ・ヴィンチ・ザ・グレート三世_」と名乗った。ベールズは、分かりきった理由でそれを「_スリー_」と縮めた。その後、クエスト掲示板で、スリーは誰かが[馬](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=3947)に乗っているのを見て、目を輝かせた。その瞬間から、彼女はすっかり馬に夢中になった。まるで混沌とした中世の祭りから来た騎士のように乗り回し、[とてつもなく](https://www.youtube.com/live/vuij6YTMIzw?t=4951s)楽しんだ。他の皆にとっては不幸なことに、彼女の楽しみは、愛馬を[破城槌](https://www.youtube.com/live/vuij6YTMIzw?feature=shared&t=5259)のように使うことでもあった。
 

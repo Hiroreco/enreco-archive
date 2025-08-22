@@ -7,7 +7,7 @@
 
 カリが目を開けたとき、二度目のトラックに轢かれたかのような混乱が彼女を襲った。何も思い出せない。目の前の景色はカクカクしていて、あちこちから声が聞こえ、そして混沌とした赤い人影が[叫んでいた](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=2575)。圧倒され、途方に暮れていたカリだったが、シャキーラとの短いながらも穏やかな会話で、わずかな安らぎを見つけた。シャキーラにはすぐに[好意を抱いた](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=893)ようだ。みんなが[見ている](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=1658)頭上の「フローティングテキスト」のおかげで、彼女の名前が森カリオペだとすぐに判明した。
 
-ステインキングとの戦いで、カリは自身の武器――[大鎌](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=3259)――を披露した。そのリベレーションは？敵を一刀両断にする、恐るべき一閃だった。戦いの後、彼女は強い意志と勇気にふさわしく、翡翠の剣[ギルド](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=3639)に配属された。
+ステインキングとの戦いで、カリは自身の武器――[大鎌](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=3259)――を披露した。そのレベレーションは？敵を一刀両断にする、恐るべき一閃だった。戦いの後、彼女は強い意志と勇気にふさわしく、翡翠の剣[ギルド](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=3639)に配属された。
 
 旅が始まってすぐ、カリは手探りでこの世界のルールを学んでいった。クエストに挑戦し、パーティーを組み、念力装置の使い方を把握する。順応するのは楽ではなかった。[王国](https://www.youtube.com/live/xE3JQ1R2dU?feature=shared&t=4875)への出入りですら一苦労だったほどだ。しかし、カリの決意は揺るがなかった。フリーダたちが馬で彼女とリズに何度も突っ込んできたとき、カリはためらうことなく、きっちりケリをつけるためにも決闘を申し出ると宣言した。
 

@@ -15,7 +15,7 @@
 
 [ここから見る景色、なかなか良いじゃん](#embed:https://www.youtube.com/live/KSaC99K4IF8?t=2992)
 
-「カットシーン」に強制的に引きずり込まれて初めて、彼女はようやく行動を開始した。彼女の武器である[羽根](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3110)は、そのリベレーションを明らかにした。それは敵に魔法のビームを放つことができた――が、シオリは「くすぐり殺す」と表現するのを好んだ。戦いの後、彼女はスカーレットワンド[ギルド](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3347)に配属された。
+「カットシーン」に強制的に引きずり込まれて初めて、彼女はようやく行動を開始した。彼女の武器である[羽根](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3110)は、そのレベレーションを明らかにした。それは敵に魔法のビームを放つことができた――が、シオリは「くすぐり殺す」と表現するのを好んだ。戦いの後、彼女はスカーレットワンド[ギルド](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3347)に配属された。
 
 旅が始まると、シオリはギルド仲間と共にクエストに挑み、多くの時間を「ゴス」な戦友ファーナと過ごした。彼女はファーナを「私の素晴らしく雄大な[緑の淑女](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=4218)」と親しみを込めて呼んだ。対するファーナは、シオリを「私の素晴らしく雄大なオレオ」と呼んだ。二人の会話は、歯医者の話や「ホットトピックス」のような場所の話など、あちこち脱線しながら、ある者にはいわゆる[「おしゃべり」](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=4528)と呼ばれるものの典型だった。
 

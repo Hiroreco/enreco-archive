@@ -11,7 +11,7 @@
 
 [女王様を前に](#embed:https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=2919)
 
-ステインキングとの戦いの最中、べーは一瞬、自分もヒーローになれる運命なのかもしれないという考えが頭をよぎった。その希望的観測は、レーザービームが彼女の[顔面](https://www.youtube.com/watch?v=y8bcLA6BQsw&t=3059s)に直撃した瞬間に、きれいに消え去った。彼女の愛用する武器、[サイコロ](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=3171)は、まさに彼女の予測不能な性格を映し出していた。そのリベレーションとは？１から６までの数字を振ることで、出た目に応じた爆発を引き起こすのだ。
+ステインキングとの戦いの最中、べーは一瞬、自分もヒーローになれる運命なのかもしれないという考えが頭をよぎった。その希望的観測は、レーザービームが彼女の[顔面](https://www.youtube.com/watch?v=y8bcLA6BQsw&t=3059s)に直撃した瞬間に、きれいに消え去った。彼女の愛用する武器、[サイコロ](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=3171)は、まさに彼女の予測不能な性格を映し出していた。そのレベレーションとは？１から６までの数字を振ることで、出た目に応じた爆発を引き起こすのだ。
 
 パラノイア気味なべーだったが、なんとか戦いを生き延び、他の３人とともに[アンバーコイン](https://www.youtube.com/live/y8bcLA6BQsw?feature=shared&t=3446)ギルドに配属された。
 

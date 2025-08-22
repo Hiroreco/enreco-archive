@@ -9,7 +9,7 @@
 
 [女性愛好家を救え](#embed:https://www.youtube.com/live/PJSd7DYlGNo?si=mFVLccqol1nRAhOa&t=2883)
 
-と、と、とにかく、ステインキングとの戦いの最中、ネリッサの武器――巨大な[音叉](https://www.youtube.com/live/PJSd7DYlGNo?si=YUlEKwX4-40_5Ozy&t=3378)――が姿を現した。その*リベレーション*を発動させると、音叉で敵の頭を叩きつけ、衝撃波でダメージを与えたのだ。戦いの後、彼女はスカーレットワンド[ギルド](https://www.youtube.com/live/PJSd7DYlGno?si=bBVH8rYcn0cL0hzO&t=3533)に配属された。
+と、と、とにかく、ステインキングとの戦いの最中、ネリッサの武器――巨大な[音叉](https://www.youtube.com/live/PJSd7DYlGNo?si=YUlEKwX4-40_5Ozy&t=3378)――が姿を現した。その*レベレーション*を発動させると、音叉で敵の頭を叩きつけ、衝撃波でダメージを与えたのだ。戦いの後、彼女はスカーレットワンド[ギルド](https://www.youtube.com/live/PJSd7DYlGno?si=bBVH8rYcn0cL0hzO&t=3533)に配属された。
 
 ギルドの仲間たちと共に新しい王国へと足を踏み入れたネリッサは、新生活に順応しようと努めたが、一筋縄ではいかないことばかり。クエストシステムに戸惑い、何もしていないのに突如[100コイン](https://www.youtube.com/live/PJSd7DYlGno?si=Y5p-IBZHw__yD9o1&t=4842)を手に入れたり、木材を採集しようとしたら[ステイン](https://www.youtube.com/live/PJSd7DYlGno?si=ee1ikNmeMoYdUCkA&t=5226)に奇襲されたり、グーラを[取引](https://www.youtube.com/live/PJSd7DYlGno?si=cGT81Dci8yieBCmn&t=5619)で「ソフトロック」してしまったり。彼女はひどく混乱しており、頭の中の声は彼女を「_濡れた猫のようなエネルギー_」と表現した――それが何を意味するのかはともかく。
 

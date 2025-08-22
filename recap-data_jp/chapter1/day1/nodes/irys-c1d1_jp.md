@@ -11,7 +11,7 @@
 
 [誰もがピンクの彼女を欲しがる](#embed:https://www.youtube.com/live/Rk7nZ91vme4?t=2087)
 
-しかし、この「裏切り」は短命に終わった。セルリアンカップの他のメンバーが、迷えるギルドメイトを連れ戻しに来ると、彼女はしぶしぶながらも本来のギルドへと戻っていった。彼女は、そのユニークなリベレーション「_光と闇_」──一部からは[おなら](https://www.youtube.com/live/Rk7nZ91vme4?si=uFnTUFLfBm36VZS-&t=2668)に似ていると揶揄されたが──を披露した後、その日の活動に身を投じた。クエストをこなし、[秘密の噂話](https://www.youtube.com/live/Rk7nZ91vme4?si=5AhwIkLOBX3MgfA2&t=4480)に耐え、そして[眉をひそめるような](https://www.youtube.com/live/Rk7nZ91vme4?si=5jr_c9OW9ds8maMQ&t=5777)コメントを浴びる日々だった。
+しかし、この「裏切り」は短命に終わった。セルリアンカップの他のメンバーが、迷えるギルドメイトを連れ戻しに来ると、彼女はしぶしぶながらも本来のギルドへと戻っていった。彼女は、そのユニークなレベレーション「_光と闇_」──一部からは[おなら](https://www.youtube.com/live/Rk7nZ91vme4?si=uFnTUFLfBm36VZS-&t=2668)に似ていると揶揄されたが──を披露した後、その日の活動に身を投じた。クエストをこなし、[秘密の噂話](https://www.youtube.com/live/Rk7nZ91vme4?si=5AhwIkLOBX3MgfA2&t=4480)に耐え、そして[眉をひそめるような](https://www.youtube.com/live/Rk7nZ91vme4?si=5jr_c9OW9ds8maMQ&t=5777)コメントを浴びる日々だった。
 
 彼女の旅は、一行が*アンダーワールドダンジョン*へ挑むことで最高潮に達した。そこで彼女は[森カリオペ](https://www.youtube.com/live/Rk7nZ91vme4?feature=shared&t=8690)の記憶を取り戻し、そして初めて[ホットピンクワン](https://www.youtube.com/live/Rk7nZ91vme4?si=PZSB2R7NaSzFRo_b&t=7601)という愛称で呼ばれることになったのだ。
 
