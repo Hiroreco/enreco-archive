@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "title": "設定",
+    "description": "アプリケーションの設定を変更します",
+    "backgroundMusic": "背景音楽",
+    "soundEffects": "効果音",
+    "showRecapOnDayChange": "日付変更時に要約を表示",
+    "autoPanBackOnClose": "閉じる時に自動でパンバック",
+    "backdropFilter": "背景フィルター",
+    "appTheme": "アプリテーマ",
+    "fontSize": "フォントサイズ",
+    "language": "言語",
+    "blur": "ぼかし",
+    "clear": "クリア",
+    "system": "システム",
+    "light": "ライト",
+    "dark": "ダーク",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "extraLarge": "特大",
+    "english": "English",
+    "japanese": "日本語",
+    "close": "閉じる"
+  },
+  "common": {
+    "welcome": "ENrecoアーカイブへようこそ",
+    "loading": "読み込み中..."
+  }
+}

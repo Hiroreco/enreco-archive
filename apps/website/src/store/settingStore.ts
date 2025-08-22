@@ -5,6 +5,7 @@ import { ThemeType } from "@enreco-archive/common/types";
 
 export type BackdropFilter = "blur" | "clear";
 export type FontSize = "small" | "medium" | "large" | "xlarge";
+export type Language = "en" | "jp";
 
 interface SettingState {
     backdropFilter: BackdropFilter;
@@ -27,6 +28,9 @@ interface SettingState {
 
     fontSize: FontSize;
     setFontSize: (fontSize: FontSize) => void;
+
+    language: Language;
+    setLanguage: (language: Language) => void;
 }
 
 // Persists state in local storage
@@ -56,6 +60,9 @@ export const useSettingStore = create<SettingState>()(
 
             fontSize: "medium",
             setFontSize: (fontSize: FontSize) => set({ fontSize }),
+
+            language: "en",
+            setLanguage: (language: Language) => set({ language }),
         }),
         { name: "setting" },
     ),

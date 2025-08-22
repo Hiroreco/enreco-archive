@@ -39,6 +39,7 @@
         "lodash": "^4.17.21",
         "lucide-react": "catalog:",
         "next": "catalog:",
+        "next-intl": "^4.3.5",
         "react": "catalog:",
         "react-device-detect": "^2.2.3",
         "react-dom": "catalog:",

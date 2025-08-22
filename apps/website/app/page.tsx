@@ -2,6 +2,7 @@ import { ViewAppWrapper } from "@/ViewAppWrapper";
 import { ReactFlowProvider } from "@xyflow/react";
 import { Metadata, Viewport } from "next";
 import PreloadResources from "./preload-resources";
+import { I18nProvider } from "../src/contexts/I18nProvider";
 
 export const metadata: Metadata = {
     title: "ENreco Archive",
@@ -82,10 +83,12 @@ export const viewport: Viewport = {
 
 const Page = () => {
     return (
-        <ReactFlowProvider>
-            <PreloadResources />
-            <ViewAppWrapper />
-        </ReactFlowProvider>
+        <I18nProvider>
+            <ReactFlowProvider>
+                <PreloadResources />
+                <ViewAppWrapper />
+            </ReactFlowProvider>
+        </I18nProvider>
     );
 };
 

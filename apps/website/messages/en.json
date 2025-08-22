@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "title": "Settings",
+    "description": "Change the settings of the application",
+    "backgroundMusic": "Background Music",
+    "soundEffects": "Sound Effects",
+    "showRecapOnDayChange": "Show Recap On Day Change",
+    "autoPanBackOnClose": "Auto Pan Back On Close",
+    "backdropFilter": "Backdrop Filter",
+    "appTheme": "App Theme",
+    "fontSize": "Font Size",
+    "language": "Language",
+    "blur": "Blur",
+    "clear": "Clear",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "extraLarge": "Extra Large",
+    "english": "English",
+    "japanese": "日本語",
+    "close": "Close"
+  },
+  "common": {
+    "welcome": "Welcome to ENreco Archive",
+    "loading": "Loading..."
+  }
+}
