@@ -18,7 +18,9 @@ export type SiteData = {
     version: number;
     numberOfChapters: number;
     event: string;
-    chapters: Chapter[];
+    chapters: {
+        [lang: string]: Chapter[];
+    };
 };
 
 export type TextData = {
@@ -118,8 +120,7 @@ export type EditorImageNodeData = CommonNodeData & {
     renderShowHandles?: boolean;
 };
 
-export type ImageNodeData = CommonNodeData & {
-};
+export type ImageNodeData = CommonNodeData & {};
 
 export type CustomEdgeOffsets = {
     HL: number;
@@ -142,8 +143,7 @@ type CommonEdgeData = {
 
 export type CustomEdgeData = CommonEdgeData & {};
 
-export type FixedEdgeData = CommonEdgeData & {
-};
+export type FixedEdgeData = CommonEdgeData & {};
 
 export type EditorImageNodeType = Node<EditorImageNodeData, "editorImage">;
 export type EditorImageNodeProps = NodeProps<EditorImageNodeType>;

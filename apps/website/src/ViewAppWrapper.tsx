@@ -1,6 +1,9 @@
 "use client";
-import chapter0 from "#/chapter0.json";
-import chapter1 from "#/chapter1.json";
+import chapter0_en from "#/chapter0.json";
+import chapter1_en from "#/chapter1.json";
+
+import chapter0_ja from "#/chapter0_ja.json";
+
 import siteMeta from "#/metadata.json";
 import { useViewStore } from "@/store/viewStore";
 import {
@@ -23,7 +26,10 @@ const data: SiteData = {
     version: siteMeta.version,
     numberOfChapters: siteMeta.numChapters,
     event: "ENigmatic Recollection",
-    chapters: [chapter0 as Chapter, chapter1 as Chapter],
+    chapters: {
+        en: [chapter0_en as Chapter, chapter1_en as Chapter],
+        ja: [chapter0_ja as Chapter, chapter1_en as Chapter],
+    },
 };
 
 type AppType = "chart" | "glossary";
@@ -41,7 +47,7 @@ export const ViewAppWrapper = () => {
     const closeCard = useViewStore((state) => state.ui.closeCard);
     const deselectElement = useViewStore((state) => state.ui.deselectElement);
 
-    const chapterData = data.chapters[chapter];
+    const chapterData = data.chapters["en"][chapter];
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {

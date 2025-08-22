@@ -9,7 +9,7 @@ interface I18nProviderProps {
 }
 
 export function I18nProvider({ children }: I18nProviderProps) {
-    const language = useSettingStore((state) => state.language);
+    const language = useSettingStore((state) => state.locale);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const [messages, setMessages] = useState<Record<string, any> | null>(null);
     const [mounted, setMounted] = useState(false);

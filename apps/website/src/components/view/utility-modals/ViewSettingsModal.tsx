@@ -21,7 +21,7 @@ import { Slider } from "@enreco-archive/common-ui/components/slider";
 import {
     BackdropFilter,
     FontSize,
-    Language,
+    Locale,
     useSettingStore,
 } from "@/store/settingStore";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
@@ -58,8 +58,8 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
     const setThemeType = useSettingStore((state) => state.setThemeType);
     const fontSize = useSettingStore((state) => state.fontSize);
     const setFontSize = useSettingStore((state) => state.setFontSize);
-    const language = useSettingStore((state) => state.language);
-    const setLanguage = useSettingStore((state) => state.setLanguage);
+    const language = useSettingStore((state) => state.locale);
+    const setLanguage = useSettingStore((state) => state.setLocale);
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -273,7 +273,7 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                         <Label htmlFor="language">{t("language")}</Label>
                         <Select
                             onValueChange={(value) =>
-                                setLanguage(value as Language)
+                                setLanguage(value as Locale)
                             }
                             value={language}
                         >

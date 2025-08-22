@@ -35,7 +35,10 @@ import {
     CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
 import { resolveDataForDay } from "@/lib/chart-utils";
-import { countReadElements, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    countReadElements,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import Image from "next/image";
@@ -81,6 +84,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const openDayRecapOnDayChange = useSettingStore(
         (state) => state.openDayRecapOnDayChange,
     );
+    const locale = useSettingStore((state) => state.locale);
 
     // Audio Store
     const changeBGM = useAudioStore((state) => state.changeBGM);
@@ -164,9 +168,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
     // Persisted Store
-    const readStatus = usePersistedViewStore(
-        (state) => state.readStatus,
-    );
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
     // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
     const readCount = countReadElements(readStatus, chapter, day);
 
@@ -182,7 +184,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
 
     /* Data variables */
-    const chapterData = siteData.chapters[chapter];
+    const chapterData = siteData.chapters[locale][chapter];
     const dayData = chapterData.charts[day];
 
     /* Build initial nodes/edges by combining data from previous days. */
@@ -211,12 +213,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 }
             }
         });
-    }, [
-        resolvedData.nodes,
-        team,
-        character,
-        selectedElement,
-    ]);
+    }, [resolvedData.nodes, team, character, selectedElement]);
 
     /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
@@ -263,7 +260,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         relationshipVisibility,
         showOnlyNewEdges,
         selectedElement,
-        day
+        day,
     ]);
 
     /* Helper function to coordinate state updates when data changes. */
@@ -272,12 +269,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             newChapter < 0 ||
             newChapter > siteData.numberOfChapters ||
             newDay < 0 ||
-            newDay > siteData.chapters[chapter].numberOfDays
+            newDay > siteData.chapters[locale][chapter].numberOfDays
         ) {
             return;
         }
 
-        const newChapterData = siteData.chapters[newChapter];
+        const newChapterData = siteData.chapters[locale][newChapter];
         const newDayData = resolveDataForDay(newChapterData.charts, newDay);
 
         if (selectedElement) {
@@ -348,7 +345,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
                 day < 0 ||
-                day >= siteData.chapters[chapter].numberOfDays
+                day >= siteData.chapters[locale][chapter].numberOfDays
             ) {
                 setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
                 changeWorkingData(siteData.numberOfChapters - 1, 0);
@@ -735,7 +732,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <ViewTransportControls
                     isAnyModalOpen={openModal !== null}
                     chapter={chapter}
-                    chapterData={siteData.chapters}
+                    chapterData={siteData.chapters[locale]}
                     day={day}
                     numberOfChapters={siteData.numberOfChapters}
                     numberOfDays={chapterData.numberOfDays}
