@@ -89,6 +89,9 @@ importers:
       '@types/fluent-ffmpeg':
         specifier: ^2.1.27
         version: 2.1.27
+      dotenv:
+        specifier: ^17.2.1
+        version: 17.2.1
       fluent-ffmpeg:
         specifier: ^2.1.3
         version: 2.1.3
@@ -2748,6 +2751,10 @@ packages:
 
   dotenv@16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+
+  dotenv@17.2.1:
+    resolution: {integrity: sha512-kQhDYKZecqnM0fCnzI5eIv5L4cAe/iRI+HqMbO/hbRdTAeXDG+M9FjipUxNfbARuEg4iHIbhnhs78BCHNbSxEQ==}
     engines: {node: '>=12'}
 
   draco3d@1.5.7:
@@ -7508,6 +7515,8 @@ snapshots:
       esutils: 2.0.3
 
   dotenv@16.0.3: {}
+
+  dotenv@17.2.1: {}
 
   draco3d@1.5.7: {}
 

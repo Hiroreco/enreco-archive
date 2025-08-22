@@ -54,4 +54,3 @@ However, this was far from the day's only story. The heroes summoned by the king
 ["Loving it so far" by Hiro](https://x.com/hiroavrs/status/1830424491232825838/photo/1)
 
 <!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
-

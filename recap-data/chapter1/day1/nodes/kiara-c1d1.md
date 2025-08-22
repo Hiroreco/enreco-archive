@@ -15,8 +15,8 @@ Determined to forge her own path, Kiara embarked on her first major quest with h
 
 Oh, and she also drowned Gura.
 
-## Fanart
-
 [I thought fish could swim](#embed:https://www.youtube.com/live/izEX6XKyApQ?feature=shared&t=6894)
+
+## Fanart
 
 ["🐔" by TacToki](https://x.com/tac_toki/status/1899898564433662436)
