@@ -23,7 +23,8 @@
     "japanese": "日本語"
   },
   "common": {
-    "close": "閉じる"
+    "close": "閉じる",
+    "markAsRead": "既読にする"
   },
   "nodeCard": {
     "readTooltip": "このカードは既読です",
@@ -44,6 +45,7 @@
     "Scarlet Wand": "スカーレットワンド",
     "Cerulean Cup": "セルリアンカップ",
     "Jade Sword": "ジェイドソード",
+    "None": "なし",
     "Alliance": "アライアンス",
     "Marriage": "結婚",
     "Protector": "プロテクター",
