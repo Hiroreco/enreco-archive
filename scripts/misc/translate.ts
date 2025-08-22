@@ -23,7 +23,7 @@ Try to keep the energy/style, make it feel localised, the translation should not
 A short summary: Summoned to the fantastical "Kingdom of Libestal" by its King, 19 heroes, each with their unique quirks, are tasked with a vital mission: to combat the looming threat known as The "Stains". Yet, this new reality is not without its complications. Each of them, stripped of their memories, awoke with no recollection of their past lives, leaving them to navigate this strange world as strangers even to themselves.
 
 Here are a few things to note:
-- All the characters, except for the King and the enemies, are females.
+- All the characters, except for the King, the enemies and Gigi/Gonathon, are females.
 - Shiori Nyavella as シオリ・ニャヴェラ, not ノヴェラ.
 - The "Stains" is ステイン.
 - Libestal as リベスタル, Jade Sword as ジェイドソード, Scarlet Wand as スカーレットワンド, Amber Coin as アンバーコイン, and Cerulean Cup as セルリアンカップ.
@@ -31,7 +31,7 @@ Here are a few things to note:
 - Underworld Dungeon as アンダーワールドダンジョン, Ocean Temple Dungeon as オーシャンテンプルダンジョン, Volcano Dungeon as ボルケーノダンジョン, Eldritch Horror Dungeon as エルドリッチホラーダンジョン, Ancient Sewers Dungeon as アンシエントスーアーズダンジョン.
 - The Captive as キャプティブ, The Stain King as ステインキング.
 - "Revelations" as レベレーション.
-- Translate the values in the meta tags at the beginning, for example <!-- status: Alive --> will be <!-- status: 生存 -->.
+- Translate the values in the meta tags at the beginning, for example <!-- status: Alive --> will be <!-- status: 生存 -->. DO NOT translate <!-- relationship --> tags.
 - Translate the labels in the [] markdown tags (except for the ones in the fanart, memes, etc. sections), for example ![The four guild masters](images-opt/guildmasters-opt.webp) will be ![四人のギルドマスター](images-opt/guildmasters-opt.webp)
 - The relationship tag, for example [Gura-Kronii](), should be [グラ-クロニー]().
 - Everything under the Fanart, Fanwork, Memes, etc. part should be kept as is, DO NOT touch anything there. Though the section headers should be translated to Japanese (## Fanart -> ## ファンアート)
