@@ -5,7 +5,7 @@ import { ThemeType } from "@enreco-archive/common/types";
 
 export type BackdropFilter = "blur" | "clear";
 export type FontSize = "small" | "medium" | "large" | "xlarge";
-export type Language = "en" | "jp";
+export type Language = "en" | "ja";
 
 interface SettingState {
     backdropFilter: BackdropFilter;

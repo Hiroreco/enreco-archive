@@ -55,10 +55,12 @@ async function walkDir(dir: string): Promise<string[]> {
     return files;
 }
 
-async function processSubfolder(fileArg: string) {
+async function processSubfolder(fileArg: string, locale: string) {
+    const localeSuffix = locale === "en" ? "" : `.${locale}`;
+
     const baseDir = path.resolve(
         process.cwd(),
-        "recap-data",
+        locale === "en" ? "recap-data" : `recap-data_${locale}`,
         "glossary",
         fileArg,
     );
@@ -69,7 +71,7 @@ async function processSubfolder(fileArg: string) {
         stat = await fs.stat(baseDir);
         if (!stat.isDirectory()) throw new Error();
     } catch {
-        console.warn(`Skipping non-directory: ${fileArg}`);
+        console.warn(`Skipping non-directory: ${baseDir}`);
         return;
     }
 
@@ -88,7 +90,11 @@ async function processSubfolder(fileArg: string) {
 
         const items: CommonItemData[] = [];
         for (const fullPath of mdPaths) {
-            const id = path.basename(fullPath, ".md");
+            const id = path
+                .basename(fullPath, ".md")
+                .replace(/(_jp|_ja)$/i, "")
+                .replace(/-jp$|-ja$/i, "");
+
             const raw = await fs.readFile(fullPath, "utf-8");
             const lines = raw.split(/\r?\n/);
 
@@ -197,7 +203,7 @@ async function processSubfolder(fileArg: string) {
         "website",
         "data",
         "glossary",
-        `${fileArg}.json`,
+        `${fileArg}${localeSuffix}.json`,
     );
     await fs.mkdir(path.dirname(outPath), { recursive: true });
     await fs.writeFile(outPath, JSON.stringify(result, null, 2), "utf-8");
@@ -207,7 +213,13 @@ async function processSubfolder(fileArg: string) {
 }
 
 async function main() {
-    const baseGlossary = path.resolve(process.cwd(), "recap-data", "glossary");
+    const locale = process.argv[2] || "en";
+    const baseGlossary = path.resolve(
+        process.cwd(),
+        locale === "en" ? "recap-data" : `recap-data_${locale}`,
+        "glossary",
+    );
+
     let subfolders: string[];
     try {
         subfolders = (await fs.readdir(baseGlossary, { withFileTypes: true }))
@@ -219,7 +231,7 @@ async function main() {
     }
 
     for (const sub of subfolders) {
-        await processSubfolder(sub);
+        await processSubfolder(sub, locale);
     }
 }
 

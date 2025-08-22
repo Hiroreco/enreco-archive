@@ -1,4 +1,3 @@
-// scripts/inject-chapter-recaps.ts
 import { ChapterRecapData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
@@ -8,13 +7,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function main() {
+    const locale = process.argv[2] || "en";
+    const localeSuffix = locale === "en" ? "" : `.${locale}`;
+
     // 1) Input folder containing files recap-c<N>.md
-    //    e.g. "scripts/chapters" or "./chapter-recaps"
     const inputDir = path.resolve(
         process.cwd(),
-        "recap-data",
+        locale === "en" ? "recap-data" : `recap-data_${locale}`,
         "chapter-recaps",
     );
+
     let files: string[];
     try {
         files = await fs.readdir(inputDir);
@@ -76,10 +78,12 @@ async function main() {
         "apps",
         "website",
         "data",
-        "chapter-recaps.json",
+        `chapter-recaps${localeSuffix}.json`,
     );
     await fs.writeFile(outPath, JSON.stringify(out, null, 2), "utf-8");
-    console.log(`✅ Wrote ${chapters.length} chapter recaps to ${outPath}`);
+    console.log(
+        `✅ Wrote ${chapters.length} ${locale} chapter recaps to ${outPath}`,
+    );
 }
 
 main().catch((err) => {

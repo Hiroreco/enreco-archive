@@ -3,7 +3,15 @@ import fs from "fs/promises";
 import path from "path";
 
 async function main() {
-    const baseDir = path.resolve(process.cwd(), "recap-data", "texts");
+    const locale = process.argv[2] || "en";
+    const localeSuffix = locale === "en" ? "" : `.${locale}`;
+
+    const baseDir = path.resolve(
+        process.cwd(),
+        locale === "en" ? "recap-data" : `recap-data_${locale}`,
+        "texts",
+    );
+
     const audioDir = path.resolve(
         process.cwd(),
         "apps",
@@ -12,13 +20,22 @@ async function main() {
         "audio",
         "text",
     );
+
     const outputPath = path.resolve(
         process.cwd(),
         "apps",
         "website",
         "data",
-        "text-data.json",
+        `text-data${localeSuffix}.json`,
     );
+
+    // Check if base directory exists
+    try {
+        await fs.access(baseDir);
+    } catch (err) {
+        console.error(`Base directory not found: ${baseDir}`);
+        process.exit(1);
+    }
 
     const result: TextData = {};
 
@@ -49,7 +66,11 @@ async function main() {
                 const segments = relPath.split(path.sep);
                 const category = segments[0];
 
-                const key = path.basename(name, ".md");
+                const key = path
+                    .basename(name, ".md")
+                    .replace(/(_jp|_ja)$/i, "")
+                    .replace(/-jp$|-ja$/i, "");
+
                 const raw = await fs.readFile(full, "utf-8");
                 const lines = raw.split(/\r?\n/);
 
@@ -80,7 +101,12 @@ async function main() {
         }
     }
 
-    await walk(baseDir);
+    try {
+        await walk(baseDir);
+    } catch (err) {
+        console.error(`Error walking directory: ${err}`);
+        process.exit(1);
+    }
 
     await fs.writeFile(outputPath, JSON.stringify(result, null, 2), "utf-8");
 
@@ -89,7 +115,7 @@ async function main() {
         (item) => item.hasAudio,
     ).length;
 
-    console.log(`✅ Injected ${totalTexts} items into ${outputPath}`);
+    console.log(`✅ Injected ${totalTexts} ${locale} items into ${outputPath}`);
     console.log(`🎵 ${textsWithAudio} texts have associated audio files`);
 }
 

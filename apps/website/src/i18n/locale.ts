@@ -1,7 +1,7 @@
 "use client";
 
 const defaultLocale = "en";
-const locales = ["en", "jp"];
+const locales = ["en", "ja"];
 
 export function getUserLocale(): string {
     if (typeof window === "undefined") return defaultLocale;
