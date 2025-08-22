@@ -35,4 +35,4 @@ Oh, and one more thing, wooden shovel.
 
 ["Koseki Bijou" by Amano Ritsu](https://x.com/Amano_Ritsu827/status/1901978737610301805)
 
-["ner REAL NAME" by seapupu](https://x.com/seapupu290495/status/1830258392583242130)
+["her REAL NAME" by seapupu](https://x.com/seapupu290495/status/1830258392583242130)
