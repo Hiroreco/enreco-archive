@@ -294,20 +294,6 @@ async function processChapter(chapterNum: number, locale: string) {
         });
         await fs.writeFile(zipPath, outZip);
         console.log(`✅ Injected chapter ${chapterNum} into ZIP: ${zipPath}`);
-    } else {
-        // For non-English, add as a new entry in the ZIP
-        zip.file(
-            `chapter${chapterNum}${localeSuffix}.json`,
-            JSON.stringify(localeChapterJson, null, 2),
-        );
-        const outZip = await zip.generateAsync({
-            type: "nodebuffer",
-            compression: "DEFLATE",
-        });
-        await fs.writeFile(zipPath, outZip);
-        console.log(
-            `✅ Added ${locale} version of chapter ${chapterNum} to ZIP as chapter${chapterNum}${localeSuffix}.json`,
-        );
     }
 
     // ——————————— Update website JSON ———————————

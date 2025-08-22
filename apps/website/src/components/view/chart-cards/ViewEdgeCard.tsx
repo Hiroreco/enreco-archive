@@ -25,7 +25,11 @@ import {
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
 import { Check } from "lucide-react";
-import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    getReadStatus,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
+import { useTranslations } from "next-intl";
 
 interface Props {
     isCardOpen: boolean;
@@ -54,12 +58,15 @@ const ViewEdgeCard = ({
     onDayChange,
     setChartShrink,
 }: Props) => {
+    const tEdgeCard = useTranslations("edgeCard");
+    const tConstants = useTranslations("constants");
+
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
 
-    const readStatus = usePersistedViewStore(state => state.readStatus);
-    const setReadStatus = usePersistedViewStore(state => state.setReadStatus);
-    
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
+    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
+
     // Reset scroll position and header visibility when selectedEdge changes
     useEffect(() => {
         if (contentRef.current) {
@@ -77,7 +84,7 @@ const ViewEdgeCard = ({
         if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
-    };
+    }
 
     function onReadChange(isRead: boolean) {
         setReadStatus(chapter, day, selectedEdge!.id, isRead);
@@ -212,10 +219,13 @@ const ViewEdgeCard = ({
                         </span>
                     )}
                     <Separator className="h-px w-full bg-border" />
-
                     <div className="my-2">
-                        <span className="font-semibold">Relationship:</span>{" "}
-                        <span className="">{edgeRelationship.name}</span>
+                        <span className="font-semibold">
+                            {tEdgeCard("relationship")}:{" "}
+                        </span>
+                        <span className="">
+                            {tConstants(edgeRelationship.name)}
+                        </span>
                     </div>
                     <Separator className="h-px w-full bg-border" />
                 </div>

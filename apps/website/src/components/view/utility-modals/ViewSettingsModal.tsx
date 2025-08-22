@@ -36,7 +36,8 @@ interface ViewSettingsModalProps {
 }
 
 const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
-    const t = useTranslations("settings");
+    const tSettings = useTranslations("settings");
+    const tCommon = useTranslations("common");
 
     const bgmVolume = useSettingStore((state) => state.bgmVolume);
     const setBgmVolume = useSettingStore((state) => state.setBgmVolume);
@@ -80,17 +81,19 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                 showXButton={false}
             >
                 <DialogHeader>
-                    <DialogTitle>{t("title")}</DialogTitle>
+                    <DialogTitle>{tSettings("title")}</DialogTitle>
                 </DialogHeader>
 
                 <VisuallyHidden>
-                    <DialogDescription>{t("description")}</DialogDescription>
+                    <DialogDescription>
+                        {tSettings("description")}
+                    </DialogDescription>
                 </VisuallyHidden>
 
                 <div className="flex flex-col gap-4 p-2 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="enable-bgm">
-                            {t("backgroundMusic")}
+                            {tSettings("backgroundMusic")}
                         </Label>
                         <div className="flex items-center justify-between gap-2 w-[150px]">
                             <button
@@ -126,7 +129,9 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="enable-sfx">{t("soundEffects")}</Label>
+                        <Label htmlFor="enable-sfx">
+                            {tSettings("soundEffects")}
+                        </Label>
                         <div className="flex items-center justify-between gap-2 w-[150px]">
                             <button
                                 onClick={() => {
@@ -162,7 +167,7 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
 
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="day-recap">
-                            {t("showRecapOnDayChange")}
+                            {tSettings("showRecapOnDayChange")}
                         </Label>
                         <Checkbox
                             onCheckedChange={setOpenDayRecapOnDayChange}
@@ -172,7 +177,9 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="pan">{t("autoPanBackOnClose")}</Label>
+                        <Label htmlFor="pan">
+                            {tSettings("autoPanBackOnClose")}
+                        </Label>
                         <Checkbox
                             onCheckedChange={setAutoPanBack}
                             checked={autoPanBack}
@@ -182,7 +189,7 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
 
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label htmlFor="backdrop-filter">
-                            {t("backdropFilter")}
+                            {tSettings("backdropFilter")}
                         </Label>
                         <Select
                             onValueChange={(value) =>
@@ -199,17 +206,19 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectItem value="blur">
-                                    {t("blur")}
+                                    {tSettings("blur")}
                                 </SelectItem>
                                 <SelectItem value="clear">
-                                    {t("clear")}
+                                    {tSettings("clear")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="theme-option">{t("appTheme")}</Label>
+                        <Label htmlFor="theme-option">
+                            {tSettings("appTheme")}
+                        </Label>
                         <Select
                             onValueChange={(value) =>
                                 setThemeType(value as ThemeType)
@@ -225,20 +234,22 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectItem value="system">
-                                    {t("system")}
+                                    {tSettings("system")}
                                 </SelectItem>
                                 <SelectItem value="light">
-                                    {t("light")}
+                                    {tSettings("light")}
                                 </SelectItem>
                                 <SelectItem value="dark">
-                                    {t("dark")}
+                                    {tSettings("dark")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="font-size">{t("fontSize")}</Label>
+                        <Label htmlFor="font-size">
+                            {tSettings("fontSize")}
+                        </Label>
                         <Select
                             onValueChange={(value) =>
                                 setFontSize(value as FontSize)
@@ -254,23 +265,25 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectItem value="small">
-                                    {t("small")}
+                                    {tSettings("small")}
                                 </SelectItem>
                                 <SelectItem value="medium">
-                                    {t("medium")}
+                                    {tSettings("medium")}
                                 </SelectItem>
                                 <SelectItem value="large">
-                                    {t("large")}
+                                    {tSettings("large")}
                                 </SelectItem>
                                 <SelectItem value="xlarge">
-                                    {t("extraLarge")}
+                                    {tSettings("extraLarge")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="language">{t("language")}</Label>
+                        <Label htmlFor="language">
+                            {tSettings("language")}
+                        </Label>
                         <Select
                             onValueChange={(value) =>
                                 setLanguage(value as Locale)
@@ -286,10 +299,10 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectItem value="en">
-                                    {t("english")}
+                                    {tSettings("english")}
                                 </SelectItem>
                                 <SelectItem value="ja">
-                                    {t("japanese")}
+                                    {tSettings("japanese")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>
@@ -301,7 +314,7 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                         className="-mb-2 mt-2"
                         onClick={() => onOpenChange(false)}
                     >
-                        {t("close")}
+                        {tCommon("close")}
                     </Button>
                 </DialogFooter>
             </DialogContent>

@@ -36,11 +36,7 @@ export function I18nProvider({ children }: I18nProviderProps) {
 
     if (!mounted || !messages) {
         // Return a loading state that matches your app's design
-        return (
-            <div className="min-h-screen flex items-center justify-center">
-                <div className="text-lg">Loading...</div>
-            </div>
-        );
+        return null;
     }
 
     return (

@@ -19,7 +19,11 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
-import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    getReadStatus,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
+import { useTranslations } from "next-intl";
 
 interface Props {
     isCardOpen: boolean;
@@ -48,10 +52,13 @@ const ViewNodeCard = ({
     setChartShrink,
     onDayChange,
 }: Props) => {
+    const tNodeCard = useTranslations("nodeCard");
+    const tConstants = useTranslations("constants");
+
     const contentRef = useRef<HTMLDivElement>(null);
 
-    const readStatus = usePersistedViewStore(state => state.readStatus);
-    const setReadStatus = usePersistedViewStore(state => state.setReadStatus);
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
+    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
     // Reset scroll position when selectedNode changes
     useEffect(() => {
@@ -70,7 +77,7 @@ const ViewNodeCard = ({
         if (isCardOpen && !isMobileViewport()) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
-    };
+    }
 
     function onReadChange(isRead: boolean) {
         setReadStatus(chapter, day, selectedNode!.id, isRead);
@@ -123,7 +130,7 @@ const ViewNodeCard = ({
                                         />
                                     </TooltipTrigger>
                                     <TooltipContent>
-                                        This card has been read
+                                        {tNodeCard("readTooltip")}
                                     </TooltipContent>
                                 </Tooltip>
                             )}
@@ -151,15 +158,21 @@ const ViewNodeCard = ({
                         <div className="flex flex-col items-center">
                             <div className="font-semibold">
                                 {chapter === 0
-                                    ? "Guild"
+                                    ? tNodeCard("guild")
                                     : chapter === 1
-                                      ? "Job"
-                                      : "Team"}
+                                      ? tNodeCard("job")
+                                      : tNodeCard("team")}
                             </div>
-                            <div>{nodeTeam?.name}</div>
+                            <div>
+                                {nodeTeam?.name
+                                    ? tConstants(nodeTeam.name)
+                                    : ""}
+                            </div>
                         </div>
                         <div className="flex flex-col items-center">
-                            <div className="font-semibold">Status</div>
+                            <div className="font-semibold">
+                                {tNodeCard("status")}
+                            </div>
                             <div>{selectedNode?.data.status}</div>
                         </div>
                     </div>
@@ -185,7 +198,7 @@ const ViewNodeCard = ({
                         onNodeLinkClicked={onNodeLinkClicked}
                         className="md:px-4 px-2"
                     >
-                        {selectedNode?.data.content || "No content available"}
+                        {selectedNode?.data.content || tNodeCard("noContent")}
                     </ViewMarkdown>
                     <Separator className="mt-4" />
                     <ReadMarker read={isNodeRead} setRead={onReadChange} />

@@ -20,11 +20,43 @@
     "large": "Large",
     "extraLarge": "Extra Large",
     "english": "English",
-    "japanese": "日本語",
-    "close": "Close"
+    "japanese": "日本語"
+    
   },
   "common": {
-    "welcome": "Welcome to ENreco Archive",
-    "loading": "Loading..."
+    "close": "Close",
+    "markAsRead": "Mark as Read"
+  },
+  "nodeCard": {
+    "readTooltip": "This card has been read",
+    "guild": "Guild",
+    "job": "Job",
+    "team": "Team",
+    "status": "Status",
+    "noContent": "No content available"
+  },
+  "edgeCard": {
+    "relationship": "Relationship"
+  },
+  "dynamic": {
+    "day": "Day {val}"
+  },
+  "constants": {
+    "Amber Coin": "Amber Coin",
+    "Scarlet Wand": "Scarlet Wand",
+    "Cerulean Cup": "Cerulean Cup",
+    "Jade Sword": "Jade Sword",
+    "Alliance": "Alliance",
+    "Marriage": "Marriage",
+    "Protector": "Protector",
+    "Big Pink Cat": "Big Pink Cat",
+    "Enemy": "Enemy",
+    "Related": "Related",
+    "Backup Plan": "Backup Plan",
+    "Business": "Business",
+    "Unrequited Love": "Unrequited Love",
+    "Romantic": "Romantic",
+    "Family": "Family",
+    "No Longer Together": "No Longer Together"
   }
 }

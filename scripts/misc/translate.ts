@@ -24,19 +24,19 @@ A short summary: Summoned to the fantastical "Kingdom of Libestal" by its King, 
 
 Here are a few things to note:
 - All the characters, except for the King, the enemies and Gigi/Gonathon, are females.
-- Shiori Nyavella as シオリ・ニャヴェラ, not ノヴェラ.
+- Shiori Nyavella as シオリ・ニャヴェラ, not ノヴェラ, Hot Pink One is ホットピンクワン.
 - The "Stains" is ステイン.
 - Libestal as リベスタル, Jade Sword as ジェイドソード, Scarlet Wand as スカーレットワンド, Amber Coin as アンバーコイン, and Cerulean Cup as セルリアンカップ.
 - King of Libestal as リベスタルの王.
 - Underworld Dungeon as アンダーワールドダンジョン, Ocean Temple Dungeon as オーシャンテンプルダンジョン, Volcano Dungeon as ボルケーノダンジョン, Eldritch Horror Dungeon as エルドリッチホラーダンジョン, Ancient Sewers Dungeon as アンシエントスーアーズダンジョン.
 - The Captive as キャプティブ, The Stain King as ステインキング.
 - "Revelations" as レベレーション.
-- Translate the values in the meta tags at the beginning, for example <!-- status: Alive --> will be <!-- status: 生存 -->. DO NOT translate <!-- relationship --> tags.
+- Translate the values in the meta tags at the beginning, for example <!-- status: Alive --> will be <!-- status: 生存 -->. DO NOT translate <!-- relationship --> tags. Don't add tags yourself, only translate the existing ones.
 - Translate the labels in the [] markdown tags (except for the ones in the fanart, memes, etc. sections), for example ![The four guild masters](images-opt/guildmasters-opt.webp) will be ![四人のギルドマスター](images-opt/guildmasters-opt.webp)
 - The relationship tag, for example [Gura-Kronii](), should be [グラ-クロニー]().
 - Everything under the Fanart, Fanwork, Memes, etc. part should be kept as is, DO NOT touch anything there. Though the section headers should be translated to Japanese (## Fanart -> ## ファンアート)
 
-Only translate the actual text content, not the Markdown syntax, URLs, or code:
+Only translate the actual text content, not the Markdown syntax, URLs, or code, return in markdown block, just do your job:
 
 ${content}`;
 

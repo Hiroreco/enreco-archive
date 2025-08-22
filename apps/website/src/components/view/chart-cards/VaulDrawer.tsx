@@ -6,6 +6,7 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { debounce } from "lodash";
 import { useCallback, useMemo, useRef, useState } from "react";
 import { Drawer } from "vaul";
+import { useTranslations } from "next-intl";
 
 const MOBILE_SNAP_POINTS: number[] = [0.5, 1];
 const DESKTOP_SNAP_POINTS: number[] = [1];
@@ -42,6 +43,7 @@ export default function VaulDrawer({
     const [isScrollable, setIsScrollable] = useState(true);
     const contentDivWidth = useRef<number>(0);
     const isOnClient = useMounted();
+    const tCommon = useTranslations("common");
 
     const debouncedOnCloseAnimationEnd = debounce(
         () => onCloseAnimationEnd?.(),
@@ -210,7 +212,9 @@ export default function VaulDrawer({
                                     className="bg-accent text-accent-foreground w-full"
                                     onClick={onDrawerClose}
                                 >
-                                    <span className="text-lg">Close</span>
+                                    <span className="text-lg">
+                                        {tCommon("close")}
+                                    </span>
                                 </Button>
                             </div>
                         )}

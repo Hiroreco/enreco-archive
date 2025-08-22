@@ -20,11 +20,41 @@
     "large": "大",
     "extraLarge": "特大",
     "english": "English",
-    "japanese": "日本語",
-    "close": "閉じる"
+    "japanese": "日本語"
   },
   "common": {
-    "welcome": "ENrecoアーカイブへようこそ",
-    "loading": "読み込み中..."
+    "close": "閉じる"
+  },
+  "nodeCard": {
+    "readTooltip": "このカードは既読です",
+    "guild": "ギルド",
+    "job": "ジョブ",
+    "team": "チーム",
+    "status": "ステータス",
+    "noContent": "コンテンツはありません"
+  },
+  "edgeCard": {
+    "relationship": "関係"
+  },
+  "dynamic": {
+    "day": "{val}日目"
+  },
+  "constants": {
+    "Amber Coin": "アンバーコイン",
+    "Scarlet Wand": "スカーレットワンド",
+    "Cerulean Cup": "セルリアンカップ",
+    "Jade Sword": "ジェイドソード",
+    "Alliance": "アライアンス",
+    "Marriage": "結婚",
+    "Protector": "プロテクター",
+    "Big Pink Cat": "ビッグピンクキャット",
+    "Enemy": "敵",
+    "Related": "関連",
+    "Backup Plan": "バックアッププラン",
+    "Business": "ビジネス",
+    "Unrequited Love": "片思い",
+    "Romantic": "ロマンチック",
+    "Family": "家族",
+    "No Longer Together": "もう一緒にいない"
   }
 }
