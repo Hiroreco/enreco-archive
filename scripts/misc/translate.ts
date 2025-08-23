@@ -20,7 +20,7 @@ Preserve all Markdown formatting, code blocks, links, and structure exactly. All
 
 Try to keep the energy/style, make it feel localised, the translation should not be literal, as long as it keeps the same context and intention. The story is a mixed between quirky humor and serious themes.
 
-A short summary: Summoned to the fantastical "Kingdom of Libestal" by its King, 19 heroes, each with their unique quirks, are tasked with a vital mission: to combat the looming threat known as The "Stains". Yet, this new reality is not without its complications. Each of them, stripped of their memories, awoke with no recollection of their past lives, leaving them to navigate this strange world as strangers even to themselves.
+A short summary: Summoned to the fantastical "Kingdom of Libestal" by its King, 19 heroes, each with their unique quirks, are tasked with a vital mission: to combat the looming threat known as The "Stains". Each of them, stripped of their memories, awoke with no recollection of their past lives, leaving them to navigate this strange world as strangers even to themselves. Now on day 2, they start to get the hang of things, as well as cause some chaos between themselves, as well as blossoming relationships.
 
 Here are a few things to note:
 - All the characters, except for the King, the enemies and Gigi/Gonathon, are females.
@@ -28,6 +28,7 @@ Here are a few things to note:
 - The "Stains" is ステイン.
 - Libestal as リベスタル, Jade Sword as ジェイドソード, Scarlet Wand as スカーレットワンド, Amber Coin as アンバーコイン, and Cerulean Cup as セルリアンカップ.
 - King of Libestal as リベスタルの王.
+- Anytime someone say Huzzah! it should be フザー!.
 - Underworld Dungeon as アンダーワールドダンジョン, Ocean Temple Dungeon as オーシャンテンプルダンジョン, Volcano Dungeon as ボルケーノダンジョン, Eldritch Horror Dungeon as エルドリッチホラーダンジョン, Ancient Sewers Dungeon as アンシエントスーアーズダンジョン.
 - The Captive as キャプティブ, The Stain King as ステインキング.
 - "Revelations" as レベレーション.
@@ -54,9 +55,9 @@ function createMirroredPath(originalPath: string): string {
     const relativePath = path.relative(process.cwd(), originalPath);
     const pathParts = relativePath.split(path.sep);
 
-    // Add _jp suffix to the first directory (e.g., recap-data -> recap-data_jp)
+    // Add _ja suffix to the first directory (e.g., recap-data -> recap-data_ja)
     if (pathParts.length > 0) {
-        pathParts[0] = pathParts[0] + "_jp";
+        pathParts[0] = pathParts[0] + "_ja";
     }
 
     // Build the full path from cwd
@@ -79,7 +80,8 @@ async function translateFile(
         const content = await fs.readFile(filePath, "utf-8");
         console.log(`Translating: ${filePath}`);
 
-        const translatedContent = await translateMarkdown(content);
+        // const translatedContent = await translateMarkdown(content);
+        const translatedContent = "";
 
         let outputPath: string;
 
@@ -93,7 +95,7 @@ async function translateFile(
             outputPath = path.join(
                 mirroredRoot,
                 parsedPath.dir,
-                `${parsedPath.name}_jp${parsedPath.ext}`,
+                `${parsedPath.name}_ja${parsedPath.ext}`,
             );
 
             // Ensure the directory exists
@@ -103,7 +105,7 @@ async function translateFile(
             const parsedPath = path.parse(filePath);
             outputPath = path.join(
                 parsedPath.dir,
-                `${parsedPath.name}_jp${parsedPath.ext}`,
+                `${parsedPath.name}_ja${parsedPath.ext}`,
             );
         }
 
