@@ -73,4 +73,4 @@ Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to t
 
 ## Memes
 
-["Behind the scenes filming jumpp scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)
+["Behind the scenes filming jump scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)
