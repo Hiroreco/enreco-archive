@@ -11,9 +11,7 @@ And so, she got to work—constructing a massive proposal in the sky, a floating
 
 [The most sincere of proposals](#embed:https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=5630)
 
-And to everyone's bewilderment, Tam said [yes](https://x.com/ourokronii/status/1832266311625306551)
-
-.
+And to everyone's bewilderment, Tam said [yes.](https://x.com/ourokronii/status/1832266311625306551)
 
 ## Fanart
 
