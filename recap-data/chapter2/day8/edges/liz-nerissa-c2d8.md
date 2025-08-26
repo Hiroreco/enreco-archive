@@ -65,8 +65,6 @@ When does a flame turn dark?
 When does a woman become a witch?
 When does a knight bend the knee?
 
----
-
 ## Fan Work
 
 ["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
