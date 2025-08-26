@@ -1,4 +1,4 @@
-<!-- title: Timmy and Pinky -->
+<!-- title: Tammy and Pinky -->
 <!-- relationship: Romantic -->
 
 Tam Gandr was once in love with the Hot Pink One. The Hot Pink One was once her loyal (well, _maybe_ loyal) servant. Their history together was brief but bizarrely intense—a relationship layered with sarcasm, unresolved tension, and just the right amount of chaos. And now, fate had tossed them back together, giving them a clean slate... or at least a reset button.
