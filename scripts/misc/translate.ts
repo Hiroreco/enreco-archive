@@ -106,7 +106,8 @@ async function translateFile(
         const content = await fs.readFile(filePath, "utf-8");
         console.log(`Translating: ${filePath}`);
 
-        const translatedContent = await translateMarkdown(content);
+        // const translatedContent = await translateMarkdown(content);
+        const translatedContent = "";
 
         let outputPath: string;
 
