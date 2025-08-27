@@ -15,7 +15,7 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function polishMarkdown(content: string): Promise<string> {
-    const prompt = `**タスク**: 機械翻訳された日本語のストーリー要約を自然な日本語に改善してください。
+    const prompt = `**タスク**: 機械翻訳された日本語のストーリー要約を自然な日本語に改善してください。全員が女性です（ゴナソンと王を除いて）
 
 **重要な指針**:
 - アニメ・ゲームサイトのエピソード要約のような読みやすい文体にする
