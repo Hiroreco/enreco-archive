@@ -15,29 +15,40 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function translateMarkdown(content: string): Promise<string> {
-    const prompt = `This is a Minecraft RP event called ENigmatic Recollection, featuring the Hololive English talents. Translate the following Markdown content to Japanese, you are telling a story. The tone should be casual, but formal when needed. 
-Preserve all Markdown formatting, code blocks, links, and structure exactly. All of the names (dungeon names, weapon names, character names, etc.) should be translated to their katakana equivalent, don't translate them to kanji yourself, the list below provide some examples, but you should still use katakana for all names/nouns you don't know. Except for Hololive names that you do know, for example Mori Callope can be 森カリオペ. 
+    const prompt = `Task: Translate Markdown content for "ENigmatic Recollection" Minecraft RP (Hololive EN) from English to Japanese.
+Writing Style:
 
-Try to keep the energy/style, make it feel localised, the translation should not be literal, as long as it keeps the same context and intention. The story is a mixed between quirky humor and serious themes.
+- Natural storytelling voice (not machine translation)
+- Casual tone with formal elements when appropriate
+- Blend quirky humor with serious themes
+- Write as if you're the original author
 
-A short summary: Summoned to the fantastical "Kingdom of Libestal" by its King, 19 heroes, each with their unique quirks, are tasked with a vital mission: to combat the looming threat known as The "Stains". Each of them, stripped of their memories, awoke with no recollection of their past lives, leaving them to navigate this strange world as strangers even to themselves. Now on day 2, they start to get the hang of things, as well as cause some chaos between themselves, as well as blossoming relationships.
+Story Context:
+- Second journey - 15 female heroes (except for Gonathon, he's male) summoned to ancient Libestal by Fia to prevent the Outsider's emergence. This day is final day: an unexpected rebellion.
 
-Here are a few things to note:
-- All the characters, except for the King, the enemies and Gigi/Gonathon, are females.
-- Shiori Nyavella as シオリ・ニャヴェラ, not ノヴェラ, Hot Pink One is ホットピンクワン.
-- The "Stains" is ステイン.
-- Libestal as リベスタル, Jade Sword as ジェイドソード, Scarlet Wand as スカーレットワンド, Amber Coin as アンバーコイン, and Cerulean Cup as セルリアンカップ.
-- King of Libestal as リベスタルの王.
-- Anytime someone say Huzzah! it should be フザー!.
-- Underworld Dungeon as アンダーワールドダンジョン, Ocean Temple Dungeon as オーシャンテンプルダンジョン, Volcano Dungeon as ボルケーノダンジョン, Eldritch Horror Dungeon as エルドリッチホラーダンジョン, Ancient Sewers Dungeon as アンシエントスーアーズダンジョン.
-- The Captive as キャプティブ, The Stain King as ステインキング.
-- "Revelations" as レベレーション.
-- Translate the values in the meta tags at the beginning, for example <!-- status: Alive --> will be <!-- status: 生存 -->. DO NOT translate <!-- relationship --> tags. Don't add tags yourself, only translate the existing ones.
-- Translate the labels in the [] markdown tags (except for the ones in the fanart, memes, etc. sections), for example ![The four guild masters](images-opt/guildmasters-opt.webp) will be ![四人のギルドマスター](images-opt/guildmasters-opt.webp)
-- The relationship tag, for example [Gura-Kronii](), should be [グラ-クロニー]().
-- Everything under the Fanart, Fanwork, Memes, etc. part should be kept as is, DO NOT touch anything there. Though the section headers should be translated to Japanese (## Fanart -> ## ファンアート)
+Translation Rules:
+Names & Terms (use katakana unless specified):
 
-Only translate the actual text content, not the Markdown syntax, URLs, or code, return in markdown block, just do your job:
+- Hololive names: Use known Japanese versions (森カリオペ for Mori Calliope)
+- シオリ・ニャヴェラ, ホットピンクワン, ステイン, シャイニングスターズ, Peasant the Bae as ペイザン・ザ・ベイ
+- リベスタル, ジェイドソード, スカーレットワンド, アンバーコイン, セルリアンカップ
+- リベスタルの王, スターサイト・エルピス/クロノス/カオス
+- キャプティブ, ステインキング, アウトサイダー, レベレーション
+- Smith as スミス, Jeweler as ジュエラー, Chef as シェフ, Supplier as サプライヤー
+- "Huzzah!" → "フザー!"
+- Princess Iphania as イファニア姫
+- "Inbread/In-bread" -> "インブレッド"
+
+Markdown Handling:
+
+- Preserve ALL formatting, links, structure exactly
+- Translate meta tag values: <!-- status: Alive --> → <!-- status: 生存 -->
+- DON'T translate <!-- relationship --> tags
+- Translate image alt text: ![The four guild masters] → ![四人のギルドマスター]
+- Translate relationship links: [Gura-Kronii]() → [グラ-クロニー]()
+- Translate section headers under Fanart/Fanwork/Memes but leave content untouched. DO NOT change anything there.
+
+Output: Return translated content in markdown code block. Translate content only - never syntax, URLs, or code.
 
 ${content}`;
 

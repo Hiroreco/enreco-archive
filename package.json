@@ -33,6 +33,7 @@
         "inject-changelogs": "tsx scripts/misc/inject-changelogs.ts",
         "rename-edge-files": "tsx scripts/misc/rename-edge-files.ts",
         "translate": "tsx scripts/misc/translate.ts",
+        "brushup": "tsx scripts/misc/brushup.ts",
         "normalize-audio": "tsx scripts/misc/normalize-audio.ts",
         "inject-content": "tsx scripts/content/inject-content.ts",
         "validate-content": "tsx scripts/content/validate-content.ts",
