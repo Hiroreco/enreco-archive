@@ -76,19 +76,84 @@ async function polishFile(filePath: string): Promise<void> {
     }
 }
 
-async function polishDirectory(dirPath: string): Promise<void> {
+async function polishDirectory(
+    dirPath: string,
+    maxConcurrent: number = 3,
+): Promise<void> {
     try {
-        const entries = await fs.readdir(dirPath, { withFileTypes: true });
+        const markdownFiles: string[] = [];
 
-        for (const entry of entries) {
-            const fullPath = path.join(dirPath, entry.name);
+        // Collect all markdown files recursively
+        async function collectFiles(currentPath: string): Promise<void> {
+            const entries = await fs.readdir(currentPath, {
+                withFileTypes: true,
+            });
 
-            if (entry.isDirectory()) {
-                await polishDirectory(fullPath);
-            } else if (entry.isFile() && entry.name.endsWith(".md")) {
-                await polishFile(fullPath);
+            for (const entry of entries) {
+                const fullPath = path.join(currentPath, entry.name);
+
+                if (entry.isDirectory()) {
+                    await collectFiles(fullPath);
+                } else if (entry.isFile() && entry.name.endsWith(".md")) {
+                    markdownFiles.push(fullPath);
+                }
             }
         }
+
+        await collectFiles(dirPath);
+        console.log(`📁 Found ${markdownFiles.length} markdown files`);
+
+        // Process files with controlled concurrency
+        let processed = 0;
+        const total = markdownFiles.length;
+
+        async function processWithLimit(
+            files: string[],
+            limit: number,
+        ): Promise<void> {
+            type TrackedPromise = {
+                promise: Promise<void>;
+                settled: boolean;
+            };
+            const executing: TrackedPromise[] = [];
+
+            for (const file of files) {
+                let resolveSettled: () => void;
+                const tracked: TrackedPromise = {
+                    promise: new Promise<void>((resolve) => {
+                        polishFile(file)
+                            .then(() => {
+                                processed++;
+                                console.log(
+                                    `⚡ Progress: ${processed}/${total} files completed`,
+                                );
+                            })
+                            .finally(() => {
+                                tracked.settled = true;
+                                resolve();
+                            });
+                    }),
+                    settled: false,
+                };
+
+                executing.push(tracked);
+
+                if (executing.length >= limit) {
+                    // Wait for the first promise to finish
+                    await Promise.race(executing.map((e) => e.promise));
+                    // Remove all settled promises from the executing array
+                    for (let i = executing.length - 1; i >= 0; i--) {
+                        if (executing[i].settled) {
+                            executing.splice(i, 1);
+                        }
+                    }
+                }
+            }
+
+            await Promise.all(executing.map((e) => e.promise));
+        }
+
+        await processWithLimit(markdownFiles, maxConcurrent);
     } catch (error) {
         console.error(`❌ Error processing directory ${dirPath}:`, error);
     }
@@ -96,12 +161,27 @@ async function polishDirectory(dirPath: string): Promise<void> {
 
 async function main() {
     const targetPath = process.argv[2];
+    const concurrencyArg = process.argv.find((arg) =>
+        arg.startsWith("--concurrent="),
+    );
+    const maxConcurrent = concurrencyArg
+        ? parseInt(concurrencyArg.split("=")[1])
+        : 3;
 
     if (!targetPath) {
-        console.error("Usage: tsx polish.ts <file-or-directory>");
+        console.error(
+            "Usage: tsx polish.ts <file-or-directory> [--concurrent=N]",
+        );
         console.error("Examples:");
         console.error("  tsx polish.ts recap-data/chapter1/day1/edges/file.md");
         console.error("  tsx polish.ts recap-data");
+        console.error("  tsx polish.ts recap-data --concurrent=5");
+        console.error("\nDefault concurrency: 3 files at once");
+        process.exit(1);
+    }
+
+    if (maxConcurrent < 1 || maxConcurrent > 10) {
+        console.error("❌ Concurrency must be between 1 and 10");
         process.exit(1);
     }
 
@@ -118,7 +198,8 @@ async function main() {
             await polishFile(resolvedPath);
         } else if (stat.isDirectory()) {
             console.log(`🚀 Polishing all .md files in: ${resolvedPath}`);
-            await polishDirectory(resolvedPath);
+            console.log(`⚡ Concurrency: ${maxConcurrent} files at once`);
+            await polishDirectory(resolvedPath, maxConcurrent);
         }
 
         console.log("✨ Polishing complete!");
