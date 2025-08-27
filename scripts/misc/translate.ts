@@ -4,7 +4,7 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY_TRANSLATION;
 
 if (!GEMINI_API_KEY) {
     console.error("❌ Please set GEMINI_API_KEY environment variable");
@@ -15,40 +15,55 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function translateMarkdown(content: string): Promise<string> {
-    const prompt = `Task: Translate Markdown content for "ENigmatic Recollection" Minecraft RP (Hololive EN) from English to Japanese.
-Writing Style:
+    const prompt = `**タスク**: Minecraft RP「ENigmatic Recollection」（ホロライブEN）のマークダウンコンテンツを英語から日本語に翻訳してください。
 
-- Natural storytelling voice (not machine translation)
-- Casual tone with formal elements when appropriate
-- Blend quirky humor with serious themes
-- Write as if you're the original author
+**文体・トーン**:
+- アニメ・ゲームサイトのエピソード要約のような読みやすい文体
+- 自然なストーリーテリング（機械翻訳ではなく、元の作者が書いたような文章）
+- 書き言葉として自然で、読み手が興味を持って読める文章
+- カジュアルな文体に適度なフォーマル要素を混ぜる
+- キャラクターの魅力や感情が伝わる表現を使う
+- 親しみやすさを保ちつつ、情報をしっかり伝える文章
 
-Story Context:
-- Second journey - 15 female heroes (except for Gonathon, he's male) summoned to ancient Libestal by Fia to prevent the Outsider's emergence. This day is final day: an unexpected rebellion.
+**翻訳の重要な指針**:
+- **理解してから翻訳する**：直訳は絶対に避ける
+- **慣用句・比喩・スラングの適切な処理**：
+  - "red flags" → 「危険な兆候」「警告サイン」
+  - "green light" → 「許可」「ゴーサイン」  
+  - "break the ice" → 「打ち解ける」「緊張をほぐす」
+  - その他、文脈から判断して自然な日本語表現に置き換える
+- **文脈重視**：直訳で意味が通らない部分は、文脈から推測して適切に修正
+- **感情表現の自然化**：英語の感情表現を日本語として自然な表現に変換
 
-Translation Rules:
-Names & Terms (use katakana unless specified):
+**ストーリー設定**:
+- これらは冒険中の勇者たちの日記・本、および王国で見つけたストーリー
 
-- Hololive names: Use known Japanese versions (森カリオペ for Mori Calliope)
-- シオリ・ニャヴェラ, ホットピンクワン, ステイン, シャイニングスターズ, Peasant the Bae as ペイザン・ザ・ベイ
+**翻訳ルール**:
+名前・用語（指定がない限りカタカナ使用）:
+
+- ホロライブ名：既知の日本語版を使用（森カリオペ for Mori Calliope）
+- シオリ・ニャヴェラ, ホットピンクワン, ステイン, シャイニングスターズ, Peasant the Bae → ペイザン・ザ・ベイ
 - リベスタル, ジェイドソード, スカーレットワンド, アンバーコイン, セルリアンカップ
 - リベスタルの王, スターサイト・エルピス/クロノス/カオス
 - キャプティブ, ステインキング, アウトサイダー, レベレーション
-- Smith as スミス, Jeweler as ジュエラー, Chef as シェフ, Supplier as サプライヤー
+- Smith → スミス, Jeweler → ジュエラー, Chef → シェフ, Supplier → サプライヤー
 - "Huzzah!" → "フザー!"
-- Princess Iphania as イファニア姫
-- "Inbread/In-bread" -> "インブレッド"
+- Princess Iphania → イファニア姫
+- "Inbread/In-bread" → "インブレッド"
 
-Markdown Handling:
+**マークダウン処理**:
 
-- Preserve ALL formatting, links, structure exactly
-- Translate meta tag values: <!-- status: Alive --> → <!-- status: 生存 -->
-- DON'T translate <!-- relationship --> tags
-- Translate image alt text: ![The four guild masters] → ![四人のギルドマスター]
-- Translate relationship links: [Gura-Kronii]() → [グラ-クロニー]()
-- Translate section headers under Fanart/Fanwork/Memes but leave content untouched. DO NOT change anything there.
+- すべての書式、リンク、構造を正確に保持
+- メタタグ値を翻訳: <!-- status: Alive --> → <!-- status: 生存 -->
+- <!-- relationship --> タグは翻訳しない
+- 関係性リンクを翻訳: [Gura-Kronii]() → [グラ-クロニー]()
+- Fanart/Fanwork/Memes等のセクションヘッダーは翻訳するが、内容は変更しない
 
-Output: Return translated content in markdown code block. Translate content only - never syntax, URLs, or code.
+**重要**: 直訳で意味が通らない表現があれば、文脈から推測してアニメ・ゲーム調の自然な日本語表現に修正してください。
+
+**出力**: 翻訳されたコンテンツのみを返してください。
+
+---
 
 ${content}`;
 
@@ -91,8 +106,7 @@ async function translateFile(
         const content = await fs.readFile(filePath, "utf-8");
         console.log(`Translating: ${filePath}`);
 
-        // const translatedContent = await translateMarkdown(content);
-        const translatedContent = "";
+        const translatedContent = await translateMarkdown(content);
 
         let outputPath: string;
 
@@ -130,19 +144,63 @@ async function translateFile(
 async function translateDirectory(
     dirPath: string,
     rootDir: string,
+    maxConcurrent: number = 3,
 ): Promise<void> {
     try {
-        const entries = await fs.readdir(dirPath, { withFileTypes: true });
+        const markdownFiles: Array<{ filePath: string; rootDir: string }> = [];
 
-        for (const entry of entries) {
-            const fullPath = path.join(dirPath, entry.name);
+        // Collect all markdown files recursively
+        async function collectFiles(currentPath: string): Promise<void> {
+            const entries = await fs.readdir(currentPath, {
+                withFileTypes: true,
+            });
 
-            if (entry.isDirectory()) {
-                await translateDirectory(fullPath, rootDir);
-            } else if (entry.isFile() && entry.name.endsWith(".md")) {
-                await translateFile(fullPath, rootDir);
+            for (const entry of entries) {
+                const fullPath = path.join(currentPath, entry.name);
+
+                if (entry.isDirectory()) {
+                    await collectFiles(fullPath);
+                } else if (entry.isFile() && entry.name.endsWith(".md")) {
+                    markdownFiles.push({ filePath: fullPath, rootDir });
+                }
             }
         }
+
+        await collectFiles(dirPath);
+        console.log(`📁 Found ${markdownFiles.length} markdown files`);
+
+        // Process files with controlled concurrency
+        let processed = 0;
+        const total = markdownFiles.length;
+
+        async function processWithLimit(
+            files: Array<{ filePath: string; rootDir: string }>,
+            limit: number,
+        ): Promise<void> {
+            const executing: Promise<void>[] = [];
+
+            for (const { filePath, rootDir } of files) {
+                const promise = translateFile(filePath, rootDir).then(() => {
+                    processed++;
+                    console.log(
+                        `⚡ Progress: ${processed}/${total} files completed`,
+                    );
+                });
+
+                executing.push(promise);
+
+                if (executing.length >= limit) {
+                    // Wait for the first promise to finish
+                    await Promise.race(executing);
+                    // Remove the first settled promise
+                    executing.splice(0, 1);
+                }
+            }
+
+            await Promise.all(executing);
+        }
+
+        await processWithLimit(markdownFiles, maxConcurrent);
     } catch (error) {
         console.error(`❌ Error processing directory ${dirPath}:`, error);
     }
@@ -150,15 +208,30 @@ async function translateDirectory(
 
 async function main() {
     const targetPath = process.argv[2];
+    const concurrencyArg = process.argv.find((arg) =>
+        arg.startsWith("--concurrent="),
+    );
+    const maxConcurrent = concurrencyArg
+        ? parseInt(concurrencyArg.split("=")[1])
+        : 3;
 
     if (!targetPath) {
-        console.error("Usage: tsx translate.ts <file-or-directory>");
+        console.error(
+            "Usage: tsx translate.ts <file-or-directory> [--concurrent=N]",
+        );
         console.error("Examples:");
         console.error(
             "  tsx translate.ts recap-data/chapter1/day1/edges/file.md",
         );
         console.error("  tsx translate.ts recap-data/chapter1/day1/edges");
         console.error("  tsx translate.ts recap-data");
+        console.error("  tsx translate.ts recap-data --concurrent=5");
+        console.error("\nDefault concurrency: 3 files at once");
+        process.exit(1);
+    }
+
+    if (maxConcurrent < 1 || maxConcurrent > 10) {
+        console.error("❌ Concurrency must be between 1 and 10");
         process.exit(1);
     }
 
@@ -184,8 +257,9 @@ async function main() {
             console.log(
                 `📁 Creating mirrored structure in: ${createMirroredPath(resolvedPath)}`,
             );
+            console.log(`⚡ Concurrency: ${maxConcurrent} files at once`);
 
-            await translateDirectory(resolvedPath, resolvedPath);
+            await translateDirectory(resolvedPath, resolvedPath, maxConcurrent);
         }
 
         console.log("✨ Translation complete!");

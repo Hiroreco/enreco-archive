@@ -4,7 +4,7 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY_BRUSHUP;
 
 if (!GEMINI_API_KEY) {
     console.error("❌ Please set GEMINI_API_KEY environment variable");
