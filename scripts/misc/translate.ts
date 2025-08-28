@@ -45,6 +45,7 @@ async function translateMarkdown(content: string): Promise<string> {
 - シオリ・ニャヴェラ, ホットピンクワン, ステイン, シャイニングスターズ, Peasant the Bae → ペイザン・ザ・ベイ
 - リベスタル, ジェイドソード, スカーレットワンド, アンバーコイン, セルリアンカップ
 - リベスタルの王, スターサイト・エルピス/クロノス/カオス
+- Ancient Sewers, Underworld, Ocean Temple, Eldritch Horror, Volcano Dungeon -> エイジアント・シューアーズ, アンダーワールド, オーシャン・テンプル, エルドリッチ・ホラー, ボルケーノダンジョン
 - キャプティブ, ステインキング, アウトサイダー, レベレーション
 - Smith → スミス, Jeweler → ジュエラー, Chef → シェフ, Supplier → サプライヤー
 - "Huzzah!" → "フザー!"
