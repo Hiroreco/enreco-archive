@@ -9,8 +9,8 @@ Fia, who had always placed unwavering faith in the Shining Stars—the heroes de
 
 But was it truly the end? Was it truly over?
 
-[Prelude of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9888)
+- [Read "Prelude of Ruin"](#text:prelude-of-ruin)
 
 Perhaps the final day would reveal the truth. Perhaps this was only the beginning of a long story.
 
-[Song of Ruin](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=9923)
+- [Read "Song of Ruin"](#text:song-of-ruin)

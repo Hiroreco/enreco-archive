@@ -3,7 +3,7 @@
 
 The day was going to be normal for her therapy services—or at least Mordan believed it would be.
 
-Receiving Gonathon G’s [urgent cries for help](https://www.youtube.com/live/ABO6qUKDBG0?si=erILWy8VCbyY6pl8&t=359) early in the morning was not a surprise for Mordan Ramsey. Regardlessas—as his therapist—she had found the need to be much harsher with him in future sessions. She recognized that she only wanted the best for him, especially in her capacity as a fellow wolf.
+Receiving Gonathon G’s [urgent cries for help](https://www.youtube.com/live/ABO6qUKDBG0?si=erILWy8VCbyY6pl8&t=359) early in the morning was not a surprise for Mordan Ramsey. Regardless—as his therapist—she had found the need to be much harsher with him in future sessions. She recognized that she only wanted the best for him, especially in her capacity as a fellow wolf.
 
 In the meantime, Mordan and the other newly unionized chefs banded together to standardize prices across the food market.
 
