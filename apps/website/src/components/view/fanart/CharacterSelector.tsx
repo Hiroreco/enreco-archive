@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+
 interface CharacterSelectorProps {
     selectedCharacters: string[];
     characters: string[];
@@ -13,6 +15,7 @@ const CharacterSelector = ({
     onCharactersChange,
     mobile,
 }: CharacterSelectorProps) => {
+    const t = useTranslations("modals.art");
     const handleCharacterClick = (character: string) => {
         if (selectedCharacters.includes("all")) {
             onCharactersChange([character]);
@@ -35,7 +38,7 @@ const CharacterSelector = ({
         return (
             <div className="flex-1">
                 <label className="text-xs font-medium text-muted-foreground">
-                    Characters
+                    {t("character")}
                 </label>
                 <div className="overflow-x-auto scrollbar-hide">
                     <div
@@ -55,7 +58,7 @@ const CharacterSelector = ({
                             }`}
                             onClick={() => onCharactersChange(["all"])}
                         >
-                            All
+                            {t("charFilter.all")}
                         </button>
                         <button
                             type="button"
@@ -66,7 +69,7 @@ const CharacterSelector = ({
                             }`}
                             onClick={() => handleCharacterClick("various")}
                         >
-                            Various
+                            {t("charFilter.various")}
                         </button>
                         {characters.map((character) => (
                             <button
@@ -90,7 +93,7 @@ const CharacterSelector = ({
 
     return (
         <div className="flex items-center gap-2">
-            <label className="text-sm font-medium">Character:</label>
+            <label className="text-sm font-medium">{t("character")}:</label>
             <div className="flex flex-wrap gap-1">
                 <button
                     type="button"
@@ -101,7 +104,7 @@ const CharacterSelector = ({
                     }`}
                     onClick={() => onCharactersChange(["all"])}
                 >
-                    All
+                    {t("charFilter.all")}
                 </button>
                 <button
                     type="button"
@@ -112,7 +115,7 @@ const CharacterSelector = ({
                     }`}
                     onClick={() => handleCharacterClick("various")}
                 >
-                    Various
+                    {t("charFilter.various")}
                 </button>
                 {characters.map((character) => (
                     <button

@@ -1,50 +1,317 @@
 {
-  "settings": {
-    "title": "設定",
-    "description": "アプリケーションの設定を変更します",
-    "backgroundMusic": "背景音楽",
-    "soundEffects": "効果音",
-    "showRecapOnDayChange": "日付変更時に要約を表示",
-    "autoPanBackOnClose": "閉じる時に自動でパンバック",
-    "backdropFilter": "背景フィルター",
-    "appTheme": "アプリテーマ",
-    "fontSize": "フォントサイズ",
-    "language": "言語",
-    "blur": "ぼかし",
-    "clear": "クリア",
-    "system": "システム",
-    "light": "ライト",
-    "dark": "ダーク",
-    "small": "小",
-    "medium": "中",
-    "large": "大",
-    "extraLarge": "特大",
-    "english": "English",
-    "japanese": "日本語"
+  "modals": {
+    "settings": {
+      "title": "設定",
+      "description": "アプリケーションの設定を変更します",
+      "backgroundMusic": "背景音楽",
+      "soundEffects": "効果音",
+      "showRecapOnDayChange": "日付変更時に要約を表示",
+      "autoPanBackOnClose": "閉じる時に自動でパンバック",
+      "backdropFilter": "背景フィルター",
+      "appTheme": "アプリテーマ",
+      "fontSize": "フォントサイズ",
+      "language": "言語",
+      "blur": "ぼかし",
+      "clear": "クリア",
+      "system": "システム",
+      "light": "ライト",
+      "dark": "ダーク",
+      "small": "小",
+      "medium": "中",
+      "large": "大",
+      "extraLarge": "特大",
+      "english": "English",
+      "japanese": "日本語"
+    },
+    "readStatus": {
+      "readCount": "{count}/{total} 既読",
+      "title": "既読ステータス",
+      "markAllRead": "すべて既読にする",
+      "markAllUnread": "すべて未読にする",
+      "characters": "キャラクター",
+      "relationships": "関係"
+    },
+    "infoTabs": {
+      "general": "一般",
+      "guide": "ガイド",
+      "credits": "クレジット"
+    },
+    "infoGeneral": {
+      "title": "ENreco アーカイブ",
+      "updatedOn": "{date}に更新",
+      "changelog": "(変更履歴)",
+      "daysSinceLastEpisode": "最後のエピソードから：",
+      "daysUntilNextChapter": "次のチャプターまで：",
+      "noInfo": "情報なし",
+      "welcome": "ENreco アーカイブへようこそ！{series}の出来事の（ほぼ）すべてをアーカイブすることに特化したファンプロジェクトです。",
+      "series": "ENigmatic Recollection",
+      "description": "日次要約やキャラクターの関係性から、物語全体を形作った主要なストーリーラインまで、すべてタイムスタンプ付きのバイトサイズのカードにまとめられています—シリーズに追いつきたい人や、お気に入りの瞬間を追体験したい人にぴったりです。",
+      "whatIsTitle": "ENigmatic Recollectionとは？",
+      "whatIsIntro": "ENigmatic Recollection、略して<bold>{shortName}</bold>は：",
+      "shortName": "ENreco",
+      "officialDescription": "ホロライブEnglishのメンバーが出演する物語集。新たに紡がれた配信、アニメーション、楽曲を通じて、無数の領域から織りなされた新鮮な物語に没入してください。",
+      "source": "(出典)",
+      "explanation": "つまり、ENrecoは私たちの大好きなホロライブEnglishタレントが一堂に会し、交流し、ロールプレイを通じて物語を創造する場所です。シリーズは異なるチャプターに分かれ、それぞれがホロライブEnglishの特定の世代に焦点を当て、独自の設定と世界観を持っています。",
+      "notesTitle": "注意事項",
+      "notesContent": "このプロジェクトは物語の簡潔な要約を提供することを目的としているため、一部の詳細が漏れたり含まれなかったりする場合があります。完全な体験のためには：",
+      "watchStreams": "タレントの配信を直接視聴する",
+      "checkClips": "クリップや{clipper}などによる質の高いエピソード編集版をチェックする",
+      "clipperName": "Boubon Clipper Ch.",
+      "teamInfo": "サイトは新しい物語が展開されるにつれて常に更新されており、途中でのお手伝いを歓迎しています！ご質問やチームへの参加にご興味がある場合は、{twitter}でHiroに連絡するか、{email}までメールをお送りください。",
+      "twitterHandle": "@hiroavrs (X/Twitter)",
+      "email": "contacthiroreco@gmail.com",
+      "nextSection": "それでは、次のセクションに進んでアーカイブのナビゲーション方法を学んでください！",
+      "performanceNote": "注意：サイトを使用中に大きなラグが発生する場合は、Chromiumベースのブラウザ（Chrome、Opera、Edgeなど）に切り替えてみてください。",
+      "guidelinesTitle": "ガイドライン",
+      "guidelinesContent": "これは非営利のファンプロジェクトであり、カバー株式会社やMojangとは提携していません。サイトはタレントの配信から取った音楽のほか、Minecraftの効果音や素材を使用しており、{coverGuidelines}と{minecraftGuidelines}に従っています。",
+      "coverGuidelines": "カバーの二次創作ガイドライン",
+      "minecraftGuidelines": "Minecraft使用ガイドライン"
+    },
+    "infoGuide": {
+      "title": "ENreco Archiveの使い方",
+      "inspiration": "このサイトのコンセプトは<link>stemotologyとsunkissedrhodo</link>によって作成された関係図にインスピレーションを受けていますが、インタラクティブな要素を追加しています。ただし、ここの図は原本とは異なることに注意してください。",
+      "generalTitle": "一般",
+      "navigation": "画面下部のコントロールを使用して各日とチャプターをナビゲートでき、それに応じて図が更新されます。",
+      "interaction": "キャラクターや関係をクリックすると、その特定の日におけるそれらの情報を含むカードが表示されます。ノードやエッジが薄暗くなっている場合は、その日に更新がなかったことを意味します。マウスホイールやトラックパッドを使ってズームイン/アウトもできます。",
+      "contentFormat": "コンテンツはストーリーテリング形式で書かれており、異なるアクションに色分けされた特別なリンクが含まれています：",
+      "timestamps": "<bold>タイムスタンプ：</bold> カード内で視聴するための<timestamp>タイムスタンプ</timestamp>（イベントが発生した元の配信の対応する部分）を開きます。青色のテキスト（小さいものと大きいもの両方）を探してください。ネタバレを避けるため、ラベルに記述された時間のみ視聴することをお勧めします。",
+      "linkers": "<bold>リンカー：</bold> <linker>ラオラ-タム: 名前を呼んで</linker>のような色付きのセグメントをクリックすると、参照されたカードが直接開きます。これにより手動でカードを検索する必要がなくなります。",
+      "texts": "<bold>テキスト <icon></icon> （新機能）：</bold> これらはタレントまたは旅路そのものによって作られた文書です。クリックすると、全文を読むことができるテキストが含まれたカードが開きます。",
+      "fanworks": "各カードの末尾で、アート、音楽、アニメーションなどのファンワークへのリンクも時々見つけることができます。",
+      "readMarkersTitle": "既読マーカー",
+      "readMarkers": "進捗を追跡するため、各カードの最後に既読マーカーがあります。どのカードを読んだかの全体的な概要を得るには、上部のカウンターをクリックして<em>既読ステータス</em>タブを開いてください。",
+      "readingOrderTitle": "読書順序",
+      "dayRecap": "各日には独自の<em>「日次要約」</em>があり、その日の出来事を要約しています。これは日を切り替えるときに自動的に開きますが、右上のアイコンから手動で開くこともできます。そこから、関係やキャラクターの表示も切り替えることができます。",
+      "recommendedOrder": "スムーズな読書体験のため、この順序をお勧めします：",
+      "orderSequence": "日次要約 → キャラクター → 関係",
+      "freeExploration": "ただし、お好きな順序でカードを自由に探索してください。",
+      "glossaryTitle": "用語集（新機能）",
+      "glossaryDescription": "左上の<em>用語集タブ</em>にあるこのエントリー集は、啓示、キャラクター、場所、クエストなどの詳細情報を提供します。サイト全体で参照されるトピックを理解するためのリソースとして機能します。",
+      "chapterRecapsTitle": "チャプター要約（新機能）",
+      "chapterRecapsDescription": "各チャプターの全体的な概要は<em>チャプター要約タブ</em>からアクセスできます。これには主要な出来事、キャラクターアーク、旅路の物語を定義した関係の要約が含まれます。",
+      "settingsTitle": "設定",
+      "settingsDescription": "<em>設定タブ</em>で、音楽音量、タイムスタンプの設定、その他のその他のオプションなど、体験の様々な側面をカスタマイズできます。",
+      "minigamesTitle": "ミニゲーム",
+      "minigamesDescription": "シリーズのミニゲームの一部が再現され、<em>ミニゲームタブ</em>でプレイできます—悪名高いカラーキャノンミニゲームも含みます。",
+      "jukeboxTitle": "ジュークボックス（新機能）",
+      "jukeboxDescription": "ジュークボックスには、ENrecoで使用された音楽のコレクションがあり、ゲーム自体の楽曲やタレントが使用した楽曲、ファンが作った楽曲も含まれます。",
+      "galleryTitle": "リベスタルギャラリー（新機能）",
+      "galleryDescription": "イベント期間中にコミュニティが作成した素晴らしいファンアートをすべて<em>リベスタルギャラリータブ</em>で探索できます。キャラクター、チャプター、日別に整理されています。",
+      "easterEggsTitle": "イースターエッグ（新機能）",
+      "easterEggsDescription": "サイト全体に隠されているのは、面白い瞬間への小さなうなずきや特定のメンバーへの敬意を表すイースターエッグです。これらはインタラクティブなので、サプライズに注意してください！多くは複数のバリエーションがあるので、一度以上クリックしてみてください！",
+      "conclusion": "以上です！この謎めいた旅路での滞在を楽しんでいただければと思います！"
+    },
+    "infoCredits": {
+      "title": "クレジット",
+      "specialThanks": "特別な感謝",
+      "specialThanksDiscord": "追加リソースと精神的サポートを提供してくれたEnigmatic Recollection Lore Discord Serverの皆様、およびこのプロジェクトで作品を使用する許可をくださったファンアートギャラリーに掲載されているアーティストの皆様に。すべての作品とその作成者は適切にクレジットされ、そのセクションで確認できます。",
+      "specialThanksLyger": "ENigmatic Recollectionの公式シナリオライターである<link>lyger</link>に、すべての世界観関連コンテンツの校正を手伝い、サイトに貴重なフィードバックを提供してくださったことに感謝します。"
+    },
+    "minigames": {
+      "title": "ミニゲーム",
+      "description": "物語のミニゲームをプレイ",
+      "games": {
+        "gambling": {
+          "label": "カラーキャノン（チャプター1）",
+          "intro": "チャプター1で最も頻繁に訪れたミニゲーム—というより会場—は間違いなく<bold>アンバーコインカジノ</bold> <icon></icon>で、そこで皆が好きな娯楽にふけることができました：ギャンブル。",
+          "rules": "カジノの看板ミニゲームはルーレットのように機能します。ボードには4つの異なる色が表示され、それぞれが対応する倍率で設定された数のマスを占めています：",
+          "blueSquares": "<color>青：</color> 12マス、2倍",
+          "greenSquares": "<color>緑：</color> 8マス、3倍",
+          "yellowSquares": "<color>黄：</color> 4マス、5倍",
+          "redSquares": "<color>赤：</color> 1マス、10倍",
+          "gameplay": "プレイヤーは各色にいくら賭けるかを選択できます。ゲームが始まると、色が一つずつ除去され、ボードを徐々に絞り込んでいき—最後に一色だけが残ります。",
+          "winning": "最後の色に賭けた人は、賭け金を相応に倍にして受け取ります。",
+          "timestampCaption": "ギャンブルしましょう！"
+        },
+        "memory": {
+          "label": "心の目（チャプター1）",
+          "intro": "<bold>スカーレットワンド <icon></icon>のメモリーゲーム</bold>は旅路の7日目に導入されました。その名前が示すように、その主な目的は私たちのヒーローの記憶をテストすることです。",
+          "gameplay": "ゲームを開始すると、各ラウンドで白いボードが表示され、4色のうちの1つ—赤、緑、青、または黄色で、いくつかのマスが点灯します。約2秒後、色が消え、プレイヤーは元のパターンを再現する必要があります。",
+          "scoring": "正解すれば、スコアが上がり、難易度が上がって、より複雑なパターンが表示されます。間違えると、ポイントを失い、難易度が下がります。",
+          "multiplayer": "ゲームは60秒のタイマーが終わるまで続きます。最大4人のプレイヤーが同時に競い合い、最終的に最高スコアを獲得した人が自慢する権利を得ます。",
+          "timestampCaption": "最高の頭脳が勝利しますように！"
+        },
+        "chicken": {
+          "label": "チキンレスキュー（チャプター1）",
+          "intro": "スカーレットワンドと同様に、セルリアンカップ <icon></icon>も7日目に独自のミニゲームをローンチしました。共感の代表者として、彼らはまさにその価値を広めるのに役立つゲームを設計しました：<bold>チキンキャッチ</bold>。",
+          "gameplay": "名前が示すように、目標はシンプル—チキンをキャッチする…しかし共感的に。プレイヤーには、チキンが上部から継続的にスポーンし、ゆっくりと下に落ちるボードが提示されます。目標は？底部で水平にバスケットを移動し、制限時間内にできるだけ多くの落下するチキンをキャッチすることです。",
+          "simple": "それだけです。シンプルで楽しい。",
+          "timestampCaption": "チキンを通じて共感を広める"
+        },
+        "shiori": {
+          "label": "しおりに依頼（チャプター2）",
+          "intro": "第2章を通じて、アーカイバーとしての役割に忠実に、<bold>しおり</bold>は依頼としてさまざまなファンフィクションと記憶のピースを書いてきました。これらはロマンチックで疑わしい物語から、NSFW コンテンツ、さらに過去の仲間についてのより真剣な反省まで範囲にわたりました。",
+          "options": "しおりのコレクションを探索することに興味があるなら（彼女が書いた本や他の人が書いた本を含む）、2つのオプションがあります：彼女の旅路（および他の人の）を日ごとに追うか、ここで10の質問に正しく答えて彼女の完全なアーカイブをアンロックするかです。",
+          "challenge": "あなたが本当にしおりんをどれくらいよく知っているか見てみましょう。",
+          "timestampCaption": "ファンフィックで奇妙になる"
+        }
+      }
+    },
+    "text": {
+      "playAudio": "オーディオ再生",
+      "stopAudio": "オーディオ停止"
+    },
+    "music": {
+      "controls": {
+        "noTrackSelected": "トラックが選択されていません",
+        "title": "ENreco アーカイブ ジュークボックス",
+        "shuffle": {
+          "on": "シャッフルをオンにする",
+          "off": "シャッフルをオフにする"
+        },
+        "loopWithin": {
+          "on": "カテゴリ内でループ",
+          "off": "カテゴリ内ループをオフにする"
+        },
+        "nextTrack": "次のトラック",
+        "previousTrack": "前のトラック",
+        "play": "再生",
+        "pause": "一時停止",
+        "repeatCurrentTrack": {
+          "on": "現在のトラックをリピート",
+          "off": "現在のトラックのリピートをオフにする"
+        }
+      },
+      "categories": {
+        "enreco": "公式テーマ",
+        "ingame": "ゲーム内音楽",
+        "stream": "タレント使用音楽",
+        "talent": "ヒーローテーマ",
+        "special": "特別"
+      },
+      "info": {
+        "ENigmatic Recollection Trailer Theme": "公式トレーラーテーマ",
+        "START AGAIN": "チャプター1公式テーマ",
+        "MONSTER": "チャプター2公式テーマ",
+        "Secret Library": "図書館のテーマ（チャプター2）",
+        "Fantasy Orchestra 02": "リベスタル城のテーマ（チャプター2）",
+        "Prairie Village": "一般エリアのテーマ（チャプター2）",
+        "Honobono Fantasy RPG Village": "荒野のテーマ（チャプター2）",
+        "Arms Store Lost Slayers": "シデロの崖のテーマ（チャプター2）",
+        "Yukyu no Narrator": "アンティゴニアン・エアリーのテーマ（チャプター2）",
+        "Gigi's Opening Theme": "ジジが使用（チャプター1）",
+        "003 RPG Town": "ぐらが使用（チャプター1）",
+        "Fantasy World Adventure": "ぐらが使用（チャプター1）",
+        "Mercantile Town": "ぐらが使用（チャプター1）",
+        "Meteor and Dragon": "ぐらが使用（チャプター1）",
+        "Deep Woods 5": "ぐらが使用（チャプター1）",
+        "Call of the Wind": "ムメイが使用（チャプター1）",
+        "Kingdom": "ムメイが使用（チャプター1）",
+        "Baby in the Bushes": "エリザベスが使用（チャプター1）",
+        "Lingering Memories": "エリザベスが使用（チャプター1）",
+        "Mosaic": "エリザベスが使用（チャプター1）",
+        "My Kind of Illusion": "エリザベスが使用（チャプター1）",
+        "Noir et Blanc": "エリザベスが使用（チャプター1）",
+        "Our Last Hope": "エリザベスが使用（チャプター1）",
+        "Shapes of Shadows": "エリザベスが使用（チャプター1）",
+        "The Cost of Fear": "エリザベスが使用（チャプター1）",
+        "The Scent of Petrichor": "エリザベスが使用（チャプター1）",
+        "Velada Romantica": "エリザベスが使用（チャプター1）",
+        "Nostalgic and Calm": "セシリアが使用（チャプター1）",
+        "SoloPiano_Waltz": "しおりが使用（チャプター1）",
+        "Morning Bossa": "ファウナが使用（チャプター1）",
+        "灯火": "いなにすが使用（チャプター1）",
+        "風の声": "IRySが使用（チャプター1）",
+        "魂の還る場所": "フワモコが使用（チャプター1）",
+        "Excuse My Rudeness, But Could You Please RIP?": "冥界ダンジョンで獲得",
+        "Reflect": "海洋神殿ダンジョンで獲得",
+        "Violet": "エルドリッチホラーダンジョンで獲得",
+        "HINOTORI": "火山ダンジョンで獲得",
+        "ChikuTaku": "古代下水道ダンジョンで獲得",
+        "Caesura of Despair": "スターサイト：エルピスで獲得",
+        "Daydream": "スターサイト：クロノスで獲得",
+        "PLAY DICE": "スターサイト：カオスで獲得",
+        "Oh Princess": "イファニアのためのセシリアのセレナーデ",
+        "potato salad": "ポテトサラダ",
+        "The Tale of A Humble Knight": "GoodBoyChendによるオーケストラテーマ",
+        "Boss of FaunaMart": "Ano Yatsuによるパロディソング"
+      }
+    },
+    "art": {
+      "title": "リベスタルギャラリー",
+      "character": "キャラクター",
+      "chapter": "チャプター",
+      "day": "日",
+      "videosOnly": "動画のみ",
+      "inclusive": "包括的",
+      "inclusiveUnavailable": "「すべて」または「その他」が選択されている場合、包括的モードはオンにできません",
+      "memes": "魂のDNA",
+      "reset": "フィルターリセット",
+      "shuffle": {
+        "on": "シャッフル",
+        "off": "シャッフル解除"
+      },
+      "charFilter": {
+        "all": "すべて",
+        "various": "その他"
+      },
+      "items": "{val}件",
+      "card": {
+        "chapterDay": "Ch. {chapter} Day {day}",
+        "by": "{author}による",
+        "video": "動画"
+      },
+      "header": {
+        "pin": {
+          "off": "ヘッダーのピン解除（スクロール時に自動折りたたみ）",
+          "on": "ヘッダーをピン（常に表示）",
+          "showFilters": "フィルター表示"
+        }
+      }
+    }
+  },
+  "cards": {
+    "nodeCard": {
+      "readTooltip": "このカードは既読です",
+      "guild": "ギルド",
+      "job": "ジョブ",
+      "team": "チーム",
+      "status": "ステータス",
+      "noContent": "コンテンツはありません"
+    },
+    "edgeCard": {
+      "relationship": "関係"
+    },
+    "dayCard": {
+      "summary": "要約",
+      "visibility": "表示",
+      "visibilityToggles": "表示切り替え",
+      "relationshipToggles": "関係切り替え",
+      "jobToggles": "ジョブ切り替え",
+      "showAllJobs": "すべてのジョブを表示",
+      "teamToggles": "チーム切り替え",
+      "showAllTeams": "すべてのチームを表示",
+      "showUpdatedEdgesOnly": "更新されたエッジのみ表示",
+      "showAllEdges": "すべてのエッジを表示",
+      "characterToggles": "キャラクター切り替え",
+      "showAllCharacters": "すべてのキャラクターを表示"
+    }
   },
   "common": {
     "close": "閉じる",
-    "markAsRead": "既読にする"
+    "markAsRead": "既読にする",
+    "day": "{val}日目",
+    "chapter": "チャプター{val}",
+    "section": "セクション{val}"
   },
-  "nodeCard": {
-    "readTooltip": "このカードは既読です",
-    "guild": "ギルド",
-    "job": "ジョブ",
-    "team": "チーム",
-    "status": "ステータス",
-    "noContent": "コンテンツはありません"
-  },
-  "edgeCard": {
-    "relationship": "関係"
-  },
-  "dynamic": {
-    "day": "{val}日目"
+  "navTooltips": {
+    "dayRecapVisibility": "日次要約/表示",
+    "info": "情報",
+    "settings": "設定",
+    "minigames": "ミニゲーム",
+    "chapterRecap": "チャプター要約",
+    "jukebox": "ジュークボックス",
+    "libestalGallery": "リベスタルギャラリー"
   },
   "constants": {
     "Amber Coin": "アンバーコイン",
     "Scarlet Wand": "スカーレットワンド",
     "Cerulean Cup": "セルリアンカップ",
     "Jade Sword": "ジェイドソード",
+    "Supplier": "サプライヤー",
+    "Chef": "シェフ",
+    "Smith": "スミス",
+    "Jeweler": "ジュエラー",
     "None": "なし",
     "Alliance": "アライアンス",
     "Marriage": "結婚",
@@ -57,6 +324,81 @@
     "Unrequited Love": "片思い",
     "Romantic": "ロマンチック",
     "Family": "家族",
-    "No Longer Together": "もう一緒にいない"
+    "No Longer Together": "もう一緒にいない",
+    "Dawg": "相棒",
+    "It's Complicated": "複雑な関係",
+    "The Wolf Pack": "ウルフパック",
+    "Friends": "友達",
+    "Knight": "騎士",
+    "Maid": "メイド",
+    "Guard Dog": "番犬",
+    "Bros": "兄弟",
+    "Same Person": "同一人物"
+  },
+  "loading": {
+    "clickToStart": "どこかをクリックしてスタート"
+  },
+  "glossary": {
+    "title": "用語集",
+    "categories": {
+      "weapons": "武器",
+      "characters": "キャラクター",
+      "lore": "世界観",
+      "quests": "クエスト",
+      "miscellaneous": "その他"
+    },
+    "spoilers": {
+      "title": "汝、通るべからず！",
+      "description": "お知らせ—このページにはネタバレが含まれています！ENigmatic Recollectionの物語をまだ体験していない場合は、まずそちらをご覧いただくことをお勧めします。",
+      "agree": "*続行することで、ネタバレに関してENreco Archiveに責任を負わないことに同意するものとします。",
+      "ok": "了解！"
+    },
+    "categoryInfo": {
+      "weapons": {
+        "description": "このカテゴリには、ヒーローが使用するRevealtionsと呼ばれる武器に関する情報—その能力、外観、その他の関連詳細が含まれています。",
+        "credit": "このカテゴリのすべてのエントリーサムネイルとモデルはSoleissによるものです。"
+      },
+      "characters": {
+        "description": "このカテゴリには、キャラクター、その性格、各チャプターでの物語に関する情報が含まれています。",
+        "credit": "このカテゴリのすべてのエントリーサムネイルはDDOLBANGによるものです。"
+      },
+      "lore": {
+        "description": "このカテゴリには、公式のゲーム内世界観とヒーローが作成した自作の物語の両方を含む、ENigmatic Recollectionの物語に関する情報が含まれています。",
+        "note": "注意：ヒーローの物語に関しては、一貫性があり広く知られているもののみがこのカテゴリに含まれています。"
+      },
+      "quests": {
+        "description": "このカテゴリには、特に物語を進めるために必要なダンジョンやミッションなど、旅路のクエストに関する情報が含まれています。"
+      },
+      "miscellaneous": {
+        "description": "このカテゴリには、メカニクス、特別なイベント、その他の関連詳細など、ENreco宇宙の雑多なトピックに関する情報が含まれています。"
+      }
+    },
+    "subcategories": {
+      "revelations": "レベレーション",
+      "npcs": "NPC",
+      "general": "一般",
+      "locations": "場所",
+      "main-quests": "メインクエスト",
+      "special-quests": "スペシャルクエスト",
+      "mechanics": "メカニクス",
+      "quests": "クエスト",
+      "side-quests": "サイドクエスト",
+      "heroes-storylines": "ヒーローストーリーライン"
+    },
+    "filters": {
+      "allChapters": "すべてのチャプター",
+      "chapter": "チャプター{number}"
+    },
+    "info": {
+      "generalInfo": "一般情報",
+      "firstAppeared": "初登場",
+      "quote": "引用"
+    },
+    "navigation": {
+      "previousEntry": "前のエントリー（←）",
+      "nextEntry": "次のエントリー（→）",
+      "viewCategoryInfo": "カテゴリ情報を表示"
+    },
+    "empty": "ここには鶏たちしかいません"
   }
 }

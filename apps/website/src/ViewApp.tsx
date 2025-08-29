@@ -45,6 +45,7 @@ import Image from "next/image";
 import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
 import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
+import { useTranslations } from "next-intl";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -71,6 +72,9 @@ interface Props {
 
 let didInit = false;
 const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
+    const tNavTooltips = useTranslations("navTooltips");
+    const tReadStatus = useTranslations("modals.readStatus");
+
     /* Hooks that are not use*Store/useState/useMemo/useCallback */
     useAudioSettingsSync();
     useClickOutside();
@@ -594,7 +598,10 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 )}
                 onClick={openReadCounterModal}
             >
-                {readCount}/{totalCount} Read
+                {tReadStatus("readCount", {
+                    count: readCount,
+                    total: totalCount,
+                })}
             </button>
 
             <ViewReadCounter
@@ -646,14 +653,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                         src="images-opt/emblem-opt.webp"
                         className="w-full h-full"
                         fill
-                        alt="Chart Info / Visibility"
+                        alt={tNavTooltips("dayRecapVisibility")}
                     />
                 </IconButton>
 
                 <IconButton
                     id="info-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Info"
+                    tooltipText={tNavTooltips("info")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openInfoModal}
@@ -664,7 +671,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="settings-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Settings"
+                    tooltipText={tNavTooltips("settings")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openSettingsModal}
@@ -675,7 +682,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="minigames-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Minigames"
+                    tooltipText={tNavTooltips("minigames")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMinigameModal}
@@ -686,7 +693,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="chapter-recap-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Chapter Recap"
+                    tooltipText={tNavTooltips("chapterRecap")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openChapterRecapModal}
@@ -697,7 +704,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="jukebox-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Jukebox"
+                    tooltipText={tNavTooltips("jukebox")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMusicPlayerModal}
@@ -708,7 +715,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="gallery-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Libestal Gallery"
+                    tooltipText={tNavTooltips("libestalGallery")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openFanartModal}

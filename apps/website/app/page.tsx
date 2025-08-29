@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     ],
     manifest: "/site.webmanifest",
     description:
-        "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
+        "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of ENigmatic Recollection. From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
     keywords: [
         "hololive",
         "enreco",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
         url: "https://enreco-archive.net",
         title: "ENreco Archive",
         description:
-            "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection. From daily recaps and character relationships to major storylines, everything is compiled neatly for those looking to catch up on the series or simply relive their favorite moments.",
+            "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of ENigmatic Recollection. From daily recaps and character relationships to major storylines, everything is compiled neatly for those looking to catch up on the series or simply relive their favorite moments.",
         siteName: "ENreco Archive",
         images: {
             url: "https://www.enreco-archive.net/embed-1.png",

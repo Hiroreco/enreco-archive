@@ -22,6 +22,7 @@ import * as ToggleGroup from "@radix-ui/react-toggle-group";
 import ViewInfoCredits from "@/components/view/basic-modals/ViewInfoCredits";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback } from "react";
+import { useTranslations } from "next-intl";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -29,6 +30,9 @@ interface ViewInfoModalProps {
 }
 
 const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
+    const tInfoTabs = useTranslations("modals.infoTabs");
+    const tCommon = useTranslations("common");
+
     const themeType = useSettingStore((state) => state.themeType);
     const setThemeType = useSettingStore((state) => state.setThemeType);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
@@ -63,9 +67,15 @@ const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
                     className="h-[80%] flex-1 flex flex-col"
                 >
                     <TabsList className="flex-none w-full grid grid-cols-3">
-                        <TabsTrigger value="general">General</TabsTrigger>
-                        <TabsTrigger value="guide">Guide</TabsTrigger>
-                        <TabsTrigger value="credits">Credits</TabsTrigger>
+                        <TabsTrigger value="general">
+                            {tInfoTabs("general")}
+                        </TabsTrigger>
+                        <TabsTrigger value="guide">
+                            {tInfoTabs("guide")}
+                        </TabsTrigger>
+                        <TabsTrigger value="credits">
+                            {tInfoTabs("credits")}
+                        </TabsTrigger>
                     </TabsList>
                     <TabsContent
                         value="general"
@@ -114,7 +124,7 @@ const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
                     </ToggleGroup.Root>
 
                     <DialogClose asChild>
-                        <Button className="self-end">Close</Button>
+                        <Button className="self-end">{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

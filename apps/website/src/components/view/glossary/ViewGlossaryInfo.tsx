@@ -8,112 +8,94 @@ import {
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
 import { Info } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface ViewGlossaryInfoProps {
     category: Category;
 }
 const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
+    const tGlossary = useTranslations("glossary");
+
     let categoryInfo: React.ReactNode;
     switch (category) {
         case "cat-weapons":
             categoryInfo = (
                 <div>
-                    <div>
-                        This category contains information about the weapons,
-                        known as Revelations, used by the heroes — including
-                        their abilities, appearances, and other related details.
-                    </div>
-                    <div>
-                        All entry thumbnails and models in this category are by{" "}
-                        <a
-                            href="https://x.com/S0LCreations"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Soleiss.
-                        </a>
-                    </div>
+                    <p>{tGlossary("categoryInfo.weapons.description")}</p>
+                    <p className="text-sm text-muted-foreground mt-2">
+                        {tGlossary.rich("categoryInfo.weapons.credit", {
+                            link: (chunks) => (
+                                <a
+                                    href="https://x.com/S0LCreations"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {chunks}
+                                </a>
+                            ),
+                        })}
+                    </p>
                 </div>
             );
             break;
         case "cat-characters":
             categoryInfo = (
                 <div>
-                    <div>
-                        This category contains information about characters,
-                        their personalities, and their stories in each chapter.
-                    </div>
-                    <div>
-                        All entry thumbnails in this category are by{" "}
-                        <a
-                            href="https://x.com/DDOLBANG11"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            DDOLBANG.
-                        </a>
-                    </div>
+                    <p>{tGlossary("categoryInfo.characters.description")}</p>
+                    <p className="text-sm text-muted-foreground mt-2">
+                        {tGlossary.rich("categoryInfo.characters.credit", {
+                            link: (chunks) => (
+                                <a
+                                    href="https://x.com/DDOLBANG11"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {chunks}
+                                </a>
+                            ),
+                        })}
+                    </p>
                 </div>
             );
             break;
         case "cat-lore":
             categoryInfo = (
                 <div>
-                    <div>
-                        This category contains information about the story of
-                        ENigmatic Recollection, including both official
-                        in-universe lore and self-made stories created by the
-                        heroes.
-                    </div>
-                    <div className="mt-2 italic">
-                        <strong>Note:</strong> Regarding the heroes' stories,
-                        only consistent and prevalent ones are included in this
-                        category.
-                    </div>
+                    <p>{tGlossary("categoryInfo.lore.description")}</p>
+                    <p className="text-sm text-muted-foreground mt-2">
+                        {tGlossary.rich("categoryInfo.lore.note", {
+                            bold: (chunks) => <strong>{chunks}</strong>,
+                        })}
+                    </p>
                 </div>
             );
             break;
         case "cat-quests":
             categoryInfo = (
-                <div>
-                    This category contains information about the journey's
-                    quests, specifically the dungeons and missions required to
-                    advance the story.
-                </div>
+                <div>{tGlossary("categoryInfo.quests.description")}</div>
             );
             break;
         case "cat-misc":
             categoryInfo = (
-                <div>
-                    This category contains information about miscellaneous
-                    topics in the ENreco universe, including its mechanics,
-                    special events, and other related details.
-                </div>
+                <div>{tGlossary("categoryInfo.miscellaneous.description")}</div>
             );
             break;
     }
 
     return (
         <Dialog>
-            <DialogTrigger title="View Category Info" className="p-0 m-0">
+            <DialogTrigger
+                title={tGlossary("navigation.viewCategoryInfo")}
+                className="p-0 m-0"
+            >
                 <Info size={20} className="text-muted-foreground" />
             </DialogTrigger>
             <DialogContent showXButton={true} showXButtonForce={true}>
                 <DialogHeader>
-                    <DialogTitle>
-                        {category === "cat-weapons" && "Weapons"}
-                        {category === "cat-characters" && "Characters"}
-                        {category === "cat-lore" && "Lore"}
-                        {category === "cat-quests" && "Quests"}
-                        {category === "cat-misc" && "Miscellaneous"}
-                    </DialogTitle>
+                    <DialogTitle>{tGlossary("info.generalInfo")}</DialogTitle>
                 </DialogHeader>
 
-                <DialogDescription asChild>
-                    <div className="text-sm text-muted-foreground">
-                        {categoryInfo}
-                    </div>
-                </DialogDescription>
+                <DialogDescription asChild>{categoryInfo}</DialogDescription>
             </DialogContent>
         </Dialog>
     );

@@ -24,11 +24,17 @@
         "japanese": "日本語"
       },
     "readStatus": {
+      "readCount": "{count}/{total} Read",
       "title": "Read Status",
       "markAllRead": "Mark All as Read",
       "markAllUnread": "Mark All as Unread",
       "characters": "Characters",
       "relationships": "Relationships"
+    },
+    "infoTabs": {
+      "general": "General",
+      "guide": "Guide",
+      "credits": "Credits"
     },
     "infoGeneral": {
       "title": "ENreco Archive",
@@ -38,10 +44,10 @@
       "daysUntilNextChapter": "Days until next chapter:",
       "noInfo": "No info",
       "welcome": "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of {series}.",
-      "series": "Enigmatic Recollection",
+      "series": "ENigmatic Recollection",
       "description": "From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
-      "whatIsTitle": "What is Enigmatic Recollection?",
-      "whatIsIntro": "Enigmatic Recollection, or <bold>{shortName}</bold> for short, is:",
+      "whatIsTitle": "What is ENigmatic Recollection?",
+      "whatIsIntro": "ENigmatic Recollection, or <bold>{shortName}</bold> for short, is:",
       "shortName": "ENreco",
       "officialDescription": "A collection of stories in which the members of hololive English play a part. Through streams, animations, and songs wrought anew, immerse yourself in fresh narratives woven from myriad realms beyond.",
       "source": "(Source)",
@@ -98,7 +104,7 @@
     "infoCredits": {
       "title": "Credits",
       "specialThanks": "Special Thanks",
-      "specialThanksDiscord": "To everyone at the Enigmatic Recollection Lore Discord Server for providing additional resources and emotional support, as well as to the artists featured in the Fanart Gallery for granting us permission to use their work in this project. All artworks and their creators are properly credited and can be found in that section.",
+      "specialThanksDiscord": "To everyone at the ENigmatic Recollection Lore Discord Server for providing additional resources and emotional support, as well as to the artists featured in the Fanart Gallery for granting us permission to use their work in this project. All artworks and their creators are properly credited and can be found in that section.",
       "specialThanksLyger": "To <link>lyger</link>, the official scenario writer for ENigmatic Recollection, for assisting with the proofreading of all lore-related content and offering invaluable feedback for the site."
     },
     "minigames": {
@@ -221,16 +227,48 @@
         "The Tale of A Humble Knight": "An Orchestral Theme by GoodBoyChend",
         "Boss of FaunaMart": "A Parody Song by Ano Yatsu"
       }
+    },
+    "art": {
+      "title": "Libestal Gallery",
+      "character": "Character",
+      "chapter": "Chapter",
+      "day": "Day",
+      "videosOnly": "Videos Only",
+      "inclusive": "Inclusive",
+      "inclusiveUnavailable": "Can not turn on inclusive mode if “All” or “Various” is selected",
+      "memes": "DNA of the Soul",
+      "reset": "Reset Filters",
+      "shuffle": {
+        "on": "Shuffle",
+        "off": "Unshuffle"
+      },
+      "charFilter": {
+        "all": "All",
+        "various": "Various"
+      },
+      "items": "{val} Items",
+      "card": {
+        "chapterDay": "Ch. {chapter} Day {day}",
+        "by": "by {author}",
+        "video": "Video"
+      },
+      "header": {
+        "pin": {
+          "off": "Unpin header (auto-collapse on scroll)",
+          "on": "Pin header (always visible)",
+          "showFilters": "Show filters"
+        }
+      }
     }
   },
   "cards": {
     "nodeCard": {
-    "readTooltip": "This card has been read",
-    "guild": "Guild",
-    "job": "Job",
-    "team": "Team",
-    "status": "Status",
-    "noContent": "No content available"
+      "readTooltip": "This card has been read",
+      "guild": "Guild",
+      "job": "Job",
+      "team": "Team",
+      "status": "Status",
+      "noContent": "No content available"
     },
     "edgeCard": {
       "relationship": "Relationship"
@@ -255,9 +293,18 @@
     "markAsRead": "Mark as Read",
     "day": "Day {val}",
     "chapter": "Chapter {val}",
+    "allChapters": "All Chapters",
     "section": "Section {val}"
   },
-
+  "navTooltips": {
+    "dayRecapVisibility": "Day Recap/Visibility",
+    "info": "Info",
+    "settings": "Settings",
+    "minigames": "Minigames",
+    "chapterRecap": "Chapter Recap",
+    "jukebox": "Jukebox",
+    "libestalGallery": "Libestal Gallery"
+  },
   "constants": {
     "Amber Coin": "Amber Coin",
     "Scarlet Wand": "Scarlet Wand",
@@ -292,5 +339,68 @@
   },
   "loading": {
     "clickToStart": "Click anywhere to start"
+  },
+    "glossary": {
+    "title": "Glossary",
+    "categories": {
+      "weapons": "Weapons",
+      "characters": "Characters", 
+      "lore": "Lore",
+      "quests": "Quests",
+      "miscellaneous": "Miscellaneous"
+    },
+    "spoilers": {
+      "title": "Thou Shall Not Pass!",
+      "description": "Just a heads-up—this page has spoilers! If you haven’t experienced the story of ENigmatic Recollection yet, you might want to check it out first.",
+      "agree": "*By continuing you agree to not hold the ENreco Archive responsible for being spoiled.",
+      "ok": "Got it!"
+    },
+    "categoryInfo": {
+      "weapons": {
+        "description": "This category contains information about the weapons, known as Revelations, used by the heroes — including their abilities, appearances, and other related details.",
+        "credit": "All entry thumbnails and models in this category are by <link>Soleiss.</link>"
+      },
+      "characters": {
+        "description": "This category contains information about characters, their personalities, and their stories in each chapter.",
+        "credit": "All entry thumbnails in this category are by <link>DDOLBANG.</link>"
+      },
+      "lore": {
+        "description": "This category contains information about the story of ENigmatic Recollection, including both official in-universe lore and self-made stories created by the heroes.",
+        "note": "<bold>Note:</bold> Regarding the heroes' stories, only consistent and prevalent ones are included in this category."
+      },
+      "quests": {
+        "description": "This category contains information about the journey's quests, specifically the dungeons and missions required to advance the story."
+      },
+      "miscellaneous": {
+        "description": "This category contains information about miscellaneous topics in the ENreco universe, including its mechanics, special events, and other related details."
+      }
+    },
+    "subcategories": {
+      "revelations": "Revelations",
+      "npcs": "NPCs", 
+      "general": "General",
+      "locations": "Locations",
+      "main-quests": "Main Quests",
+      "special-quests": "Special Quests",
+      "mechanics": "Mechanics",
+      "quests": "Quests",
+      "side-quests": "Side Quests",
+      "heroes-storylines": "Heroes' Storylines"
+    },
+    "filters": {
+      "allChapters": "All Chapters",
+      "chapter": "Chapter {number}"
+    },
+    "info": {
+      "generalInfo": "General Info",
+      "firstAppeared": "First Appeared",
+      "quote": "Quote"
+    },
+    "navigation": {
+      "previousEntry": "Previous entry (←)",
+      "nextEntry": "Next entry (→)",
+      "viewCategoryInfo": "View Category Info"
+    },
+    "empty": "Nothing here but us chickens"
   }
 }

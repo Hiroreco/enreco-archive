@@ -5,6 +5,7 @@ import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { useCallback, useRef } from "react";
 
 interface ViewItemViewerProps {
@@ -14,6 +15,7 @@ interface ViewItemViewerProps {
 const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const contentRef = useRef<HTMLDivElement>(null);
+    const tGlossaryInfo = useTranslations("glossary.info");
 
     const handleAnimationComplete = useCallback(() => {
         // Handle scroll position restoration after animation completes
@@ -47,7 +49,9 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
             >
                 <div className="flex flex-col items-center justify-between md:h-full">
                     <div className="flex flex-col items-center gap-2 w-[250px]">
-                        <p className="font-bold text-center">General Info</p>
+                        <p className="font-bold text-center">
+                            {tGlossaryInfo("generalInfo")}
+                        </p>
                         <div className="w-[250px] h-[250px]">
                             {entry.item.modelSrc && (
                                 <ViewModelViewer
@@ -71,7 +75,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
 
                             <p className="flex flex-col items-center text-sm">
                                 <span className="font-semibold text-center">
-                                    First Appeared
+                                    {tGlossaryInfo("firstAppeared")}
                                 </span>
                                 <span className="text-muted-foreground text-center">
                                     {entry.item.chapters.includes(-1)
@@ -82,7 +86,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
 
                             <div className="flex flex-col items-center text-sm">
                                 <span className="font-semibold text-center">
-                                    Quote
+                                    {tGlossaryInfo("quote")}
                                 </span>
                                 <ViewMarkdown
                                     className="italic text-center text-muted-foreground text-sm"

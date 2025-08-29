@@ -12,6 +12,7 @@ import {
     Dialog,
     DialogContent,
 } from "@enreco-archive/common-ui/components/dialog";
+import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 export interface FanartEntry {
@@ -54,6 +55,8 @@ const ViewFanartModal = ({
     day,
     initialCharacters,
 }: ViewFanartModalProps) => {
+    const t = useTranslations("modals.art.card");
+
     // State
     const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
         initialCharacters || ["all"],
@@ -643,8 +646,8 @@ const ViewFanartModal = ({
                             src: img.src,
                             alt:
                                 currentEntry.label +
-                                " by " +
-                                currentEntry.author,
+                                " " +
+                                t("by", { author: currentEntry.author }),
                             type: "image" as const,
                             width: img.width,
                             height: img.height,
@@ -656,8 +659,8 @@ const ViewFanartModal = ({
                             src: video.src,
                             alt:
                                 currentEntry.label +
-                                " by " +
-                                currentEntry.author,
+                                " " +
+                                t("by", { author: currentEntry.author }),
                             type: "video" as const,
                             chapter: currentEntry.chapter,
                             day: currentEntry.day,

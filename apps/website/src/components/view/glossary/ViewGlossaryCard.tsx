@@ -48,34 +48,58 @@ import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
 import ViewSectionJumper from "@/components/view/glossary/ViewSectionJumper";
 import ViewGlossaryInfo from "@/components/view/glossary/ViewGlossaryInfo";
+import { useTranslations } from "next-intl";
 
 interface ViewGlossaryCardProps {
     className?: string;
     bgImage: string;
 }
 
-const categoryMap: Record<Category, { label: string; icon: ReactElement }> = {
-    "cat-lore": { label: "Lore", icon: <Book /> },
-    "cat-quests": { label: "Quests", icon: <Scroll /> },
-    "cat-characters": { label: "Characters", icon: <UserRound /> },
-    "cat-weapons": { label: "Weapons", icon: <Sword /> },
-    "cat-misc": { label: "Miscellaneous", icon: <Dices /> },
-};
-
-const subCatergoryMap: Record<string, string> = {
-    revelations: "Revelations",
-    npcs: "NPCs",
-    general: "General",
-    locations: "Locations",
-    "main-quests": "Main Quests",
-    "special-quests": "Special Quests",
-    mechanics: "Mechanics",
-    quests: "Quests",
-    "side-quests": "Side Quests",
-    "heroes-storylines": "Heroes' Storylines",
-};
-
 const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
+    const tGlossary = useTranslations("glossary");
+    const tCommon = useTranslations("common");
+
+    const categoryMap = useMemo<
+        Record<Category, { label: string; icon: ReactElement }>
+    >(
+        () => ({
+            "cat-lore": { label: tGlossary("categories.lore"), icon: <Book /> },
+            "cat-quests": {
+                label: tGlossary("categories.quests"),
+                icon: <Scroll />,
+            },
+            "cat-characters": {
+                label: tGlossary("categories.characters"),
+                icon: <UserRound />,
+            },
+            "cat-weapons": {
+                label: tGlossary("categories.weapons"),
+                icon: <Sword />,
+            },
+            "cat-misc": {
+                label: tGlossary("categories.miscellaneous"),
+                icon: <Dices />,
+            },
+        }),
+        [tGlossary],
+    );
+
+    const subCatergoryMap = useMemo<Record<string, string>>(
+        () => ({
+            revelations: tGlossary("subcategories.revelations"),
+            npcs: tGlossary("subcategories.npcs"),
+            general: tGlossary("subcategories.general"),
+            locations: tGlossary("subcategories.locations"),
+            "main-quests": tGlossary("subcategories.main-quests"),
+            "special-quests": tGlossary("subcategories.special-quests"),
+            mechanics: tGlossary("subcategories.mechanics"),
+            quests: tGlossary("subcategories.quests"),
+            "side-quests": tGlossary("subcategories.side-quests"),
+            "heroes-storylines": tGlossary("subcategories.heroes-storylines"),
+        }),
+        [tGlossary],
+    );
+
     const [selectedCategory, setSelectedCategory] =
         useState<Category>("cat-lore");
     const [selectedChapter, setSelectedChapter] = useState(-1);
@@ -311,13 +335,15 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value={"-1"}>All Chapters</SelectItem>
+                            <SelectItem value={"-1"}>
+                                {tCommon("allChapters")}
+                            </SelectItem>
                             {[...Array(2).keys()].map((chapter) => (
                                 <SelectItem
                                     key={chapter}
                                     value={chapter.toString()}
                                 >
-                                    Chapter {chapter + 1}
+                                    {tCommon("chapter", { val: chapter + 1 })}
                                 </SelectItem>
                             ))}
                         </SelectContent>

@@ -29,16 +29,14 @@ const ViewInfoGeneral = () => {
                 <span className="font-bold text-3xl">{t("title")}</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
                     {t("updatedOn", { date: "August 18, 2025" })}{" "}
-                    <a
-                        href="#"
-                        onClick={(e) => {
-                            e.preventDefault();
+                    <span
+                        onClick={() => {
                             setShowChangelog(true);
                         }}
                         className="text-blue-500 hover:text-blue-700 underline cursor-pointer"
                     >
                         {t("changelog")}
-                    </a>
+                    </span>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
                     {t("daysSinceLastEpisode")}{" "}

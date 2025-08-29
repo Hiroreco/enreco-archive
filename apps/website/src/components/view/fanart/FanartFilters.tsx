@@ -14,6 +14,7 @@ import {
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
+import { useTranslations } from "next-intl";
 
 interface FanartFiltersProps {
     selectedCharacters: string[];
@@ -60,6 +61,7 @@ const FanartFilters = ({
     shuffled,
     totalItems,
 }: FanartFiltersProps) => {
+    const t = useTranslations("modals.art");
     return (
         <div className="border-b pb-4">
             {/* Mobile layout */}
@@ -67,7 +69,7 @@ const FanartFilters = ({
                 <div className="grid grid-cols-2 gap-2 px-2">
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
-                            Chapter
+                            {t("chapter")}
                         </label>
                         <Select
                             value={selectedChapter}
@@ -91,7 +93,7 @@ const FanartFilters = ({
                     </div>
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
-                            Day
+                            {t("day")}
                         </label>
                         <Select value={selectedDay} onValueChange={onDayChange}>
                             <SelectTrigger className="h-8 text-sm">
@@ -127,7 +129,7 @@ const FanartFilters = ({
                         onClick={onReset}
                         className="w-full flex items-center justify-center h-6 text-xs"
                     >
-                        Reset Filters
+                        {t("reset")}
                     </Button>
                     <Button
                         variant={shuffled ? "default" : "outline"}
@@ -138,7 +140,7 @@ const FanartFilters = ({
                         className="w-full flex items-center justify-center h-6 text-xs"
                     >
                         <Shuffle className="w-4 h-4 mr-1" />
-                        {shuffled ? "Unshuffle" : "Shuffle"}
+                        {shuffled ? t("shuffle.off") : t("shuffle.on")}
                     </Button>
                     {/* Videos Only checkbox */}
                     <div className="flex items-center gap-2">
@@ -153,7 +155,7 @@ const FanartFilters = ({
                             htmlFor="videos-only-mobile"
                             className="text-xs font-medium text-muted-foreground"
                         >
-                            Videos Only
+                            {t("videosOnly")}
                         </label>
                     </div>
 
@@ -176,13 +178,12 @@ const FanartFilters = ({
                                         htmlFor="inclusive-mobile"
                                         className="text-xs font-medium text-muted-foreground"
                                     >
-                                        Inclusive Characters
+                                        {t("inclusive")}
                                     </label>
                                 </div>
                             </TooltipTrigger>
                             <TooltipContent>
-                                Can not turn on inclusive mode if “All” or
-                                “Various” is selected
+                                {t("inclusiveUnavailable")}
                             </TooltipContent>
                         </Tooltip>
                     ) : (
@@ -198,7 +199,7 @@ const FanartFilters = ({
                                 htmlFor="inclusive-mobile"
                                 className="text-xs font-medium text-muted-foreground"
                             >
-                                Inclusive Characters
+                                {t("inclusive")}
                             </label>
                         </div>
                     )}
@@ -214,7 +215,7 @@ const FanartFilters = ({
                             htmlFor="dna-of-the-soul-mobile"
                             className="text-xs font-medium text-muted-foreground"
                         >
-                            DNA of the Soul
+                            {t("memes")}
                         </label>
                     </div>
                 </div>
@@ -231,7 +232,9 @@ const FanartFilters = ({
                 />
 
                 <div className="flex items-center gap-2">
-                    <label className="text-sm font-medium">Chapter:</label>
+                    <label className="text-sm font-medium">
+                        {t("chapter")}:
+                    </label>
                     <Select
                         value={selectedChapter}
                         onValueChange={onChapterChange}
@@ -240,7 +243,9 @@ const FanartFilters = ({
                             <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value="all">All</SelectItem>
+                            <SelectItem value="all">
+                                {t("charFilter.all")}
+                            </SelectItem>
                             {chapters.map((chapter) => (
                                 <SelectItem
                                     key={chapter}
@@ -254,7 +259,7 @@ const FanartFilters = ({
                 </div>
 
                 <div className="flex items-center gap-2">
-                    <label className="text-sm font-medium">Day:</label>
+                    <label className="text-sm font-medium">{t("day")}:</label>
                     <Select value={selectedDay} onValueChange={onDayChange}>
                         <SelectTrigger className="w-[100px]">
                             <SelectValue />
@@ -283,7 +288,7 @@ const FanartFilters = ({
                         htmlFor="videos-only-desktop"
                         className="text-sm font-medium"
                     >
-                        Videos Only
+                        {t("videosOnly")}
                     </label>
                 </div>
 
@@ -305,13 +310,12 @@ const FanartFilters = ({
                                     htmlFor="inclusive-desktop"
                                     className="text-sm font-medium"
                                 >
-                                    Inclusive
+                                    {t("inclusive")}
                                 </label>
                             </div>
                         </TooltipTrigger>
                         <TooltipContent>
-                            Can not turn on inclusive mode if “All” or “Various”
-                            is selected
+                            {t("inclusiveUnavailable")}
                         </TooltipContent>
                     </Tooltip>
                 ) : (
@@ -327,7 +331,7 @@ const FanartFilters = ({
                             htmlFor="inclusive-desktop"
                             className="text-sm font-medium"
                         >
-                            Inclusive
+                            {t("inclusive")}
                         </label>
                     </div>
                 )}
@@ -344,13 +348,13 @@ const FanartFilters = ({
                         htmlFor="dna-of-the-soul-mobile"
                         className="text-sm font-medium"
                     >
-                        DNA of the Soul
+                        {t("memes")}
                     </label>
                 </div>
 
                 <div className="flex flex-row gap-2 items-center">
                     <Button variant="outline" size="sm" onClick={onReset}>
-                        Reset Filters
+                        {t("reset")}
                     </Button>
                     <Button
                         size="sm"
@@ -365,7 +369,7 @@ const FanartFilters = ({
                 </div>
 
                 <div className="ml-auto text-sm text-muted-foreground">
-                    {totalItems} items
+                    {t("items", { val: totalItems })}
                 </div>
             </div>
         </div>
