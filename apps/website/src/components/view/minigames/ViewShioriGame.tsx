@@ -1,5 +1,6 @@
 import ViewShioriGameEasterEgg from "@/components/view/easter-eggs/ViewShioriGameEasterEgg";
 import ViewTextModal from "@/components/view/utility-modals/ViewTextModal";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { LS_SHIORI_STASH_UNLOCKED } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
@@ -7,14 +8,13 @@ import { Input } from "@enreco-archive/common-ui/components/input";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { useEffect, useState } from "react";
 
-import textData from "#/text-data.json";
-
 const ViewShioriGame = () => {
     const [isUnlocked, setIsUnlocked] = useState(false);
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [answer, setAnswer] = useState("");
     const [error, setError] = useState("");
     const { playSFX } = useAudioStore();
+    const { getTextItem } = useLocalizedData();
 
     const questions = [
         {
@@ -171,10 +171,7 @@ const ViewShioriGame = () => {
                         <ViewTextModal
                             key={fanfic}
                             textId={fanfic}
-                            label={
-                                textData[fanfic as keyof typeof textData]
-                                    ?.title || fanfic
-                            }
+                            label={getTextItem(fanfic)?.title || fanfic}
                         />
                     ))}
                 </div>

@@ -1,10 +1,7 @@
 "use client";
-import chapter0_en from "#/chapter0.json";
-import chapter1_en from "#/chapter1.json";
 
-import chapter0_ja from "#/chapter0_ja.json";
-
-import siteMeta from "#/metadata.json";
+import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useViewStore } from "@/store/viewStore";
 import {
     Tabs,
@@ -13,24 +10,12 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
-import { Chapter, SiteData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
 import { LibraryBig, Workflow } from "lucide-react";
 import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
-
-const data: SiteData = {
-    version: siteMeta.version,
-    numberOfChapters: siteMeta.numChapters,
-    event: "ENigmatic Recollection",
-    chapters: {
-        en: [chapter0_en as Chapter, chapter1_en as Chapter],
-        ja: [chapter0_ja as Chapter, chapter1_en as Chapter],
-    },
-};
 
 type AppType = "chart" | "glossary";
 
@@ -47,7 +32,9 @@ export const ViewAppWrapper = () => {
     const closeCard = useViewStore((state) => state.ui.closeCard);
     const deselectElement = useViewStore((state) => state.ui.deselectElement);
 
-    const chapterData = data.chapters["en"][chapter];
+    const { getSiteData, getChapter } = useLocalizedData();
+    const data = getSiteData();
+    const chapterData = getChapter(chapter);
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {

@@ -399,7 +399,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                         >
                             {allEmpty ? (
                                 <div className="text-center text-xl text-muted-foreground">
-                                    Nothing here but us chickens
+                                    {tGlossary("empty")}
                                 </div>
                             ) : (
                                 Object.entries(filteredData).map(
@@ -529,7 +529,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
                             "left-[16px] md:left-auto md:right-[60px]",
                         )}
-                        title="Previous entry (←)"
+                        title={tGlossary("navigation.previousEntry")}
                     >
                         <ChevronLeft size={20} />
                     </button>
@@ -544,7 +544,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             "hover:bg-white/30 hover:scale-105",
                             "disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100",
                         )}
-                        title="Next entry (→)"
+                        title={tGlossary("navigation.nextEntry")}
                     >
                         <ChevronRight size={20} />
                     </button>

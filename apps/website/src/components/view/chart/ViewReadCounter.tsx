@@ -17,6 +17,7 @@ import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect } from "react";
 
@@ -41,7 +42,9 @@ const ViewReadCounter = ({
     onNodeClick,
     onEdgeClick,
 }: ViewReadCounterProps) => {
-    // Optimistic state for read statuses
+    const tCommon = useTranslations("common");
+    const tReadStatus = useTranslations("modals.readStatus");
+
     const [optimisticReadStates, setOptimisticReadStates] = useState<
         Record<string, boolean>
     >({});
@@ -49,7 +52,6 @@ const ViewReadCounter = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    // Initialize optimistic state when dialog opens or props change
     useEffect(() => {
         if (open) {
             const initialStates: Record<string, boolean> = {};
@@ -191,14 +193,14 @@ const ViewReadCounter = ({
                                         size="sm"
                                         onClick={handleMarkAllAsRead}
                                     >
-                                        Mark All as Read
+                                        {tReadStatus("markAllRead")}
                                     </Button>
                                     <Button
                                         variant="outline"
                                         size="sm"
                                         onClick={handleMarkAllAsUnread}
                                     >
-                                        Mark All as Unread
+                                        {tReadStatus("markAllUnread")}
                                     </Button>
                                 </div>
                             )}
@@ -216,7 +218,9 @@ const ViewReadCounter = ({
                     {/* Nodes */}
                     {filteredElements.nodes.length > 0 && (
                         <div className="space-y-2">
-                            <h3 className="font-semibold">Characters</h3>
+                            <h3 className="font-semibold">
+                                {tReadStatus("characters")}
+                            </h3>
                             <div className="grid lg:grid-cols-2 gap-4">
                                 {filteredElements.nodes.map((node) => {
                                     const isRead = getOptimisticReadStatus(
@@ -274,7 +278,9 @@ const ViewReadCounter = ({
                     {/* Edges */}
                     {filteredElements.edges.length > 0 && (
                         <div className="space-y-2 mt-4">
-                            <h3 className="font-semibold">Relationships</h3>
+                            <h3 className="font-semibold">
+                                {tReadStatus("relationships")}
+                            </h3>
                             <div className="grid lg:grid-cols-2 gap-4">
                                 {filteredElements.edges.map((edge) => {
                                     const isRead = getOptimisticReadStatus(
@@ -381,7 +387,7 @@ const ViewReadCounter = ({
 
                 <DialogFooter>
                     <DialogClose asChild>
-                        <Button className="self-end">Close</Button>
+                        <Button className="self-end">{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

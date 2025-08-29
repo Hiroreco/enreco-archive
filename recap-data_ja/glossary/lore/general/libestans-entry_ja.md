@@ -1,11 +1,7 @@
 <!-- title: リベスタン -->
-
 <!-- quote: 樽も壺もポテトサラダであふれ返っていた。 -->
-
 <!-- chapters: -1 -->
-
 <!-- images: (A Libestan who had an awful dream about potato salad), (Cryptic message found while speaking to a Libestan), (The Quest Master, responsible for giving out quests), (Princess Iphania's first time meeting the heroes), (A hero recieving a quest from and NPC), (A hero buying items from one of the shopkeepers), (Libestans in the Kingdom) -->
-
 <!-- model: false -->
 
 ## 概要

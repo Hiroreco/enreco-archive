@@ -1,0 +1,479 @@
+{
+  "revelations": [
+    {
+      "id": "eye-of-wisdom-entry",
+      "title": "ウィズダムアイ",
+      "chapters": [
+        0
+      ],
+      "quote": "ひやぁっ！ **ボンッ**",
+      "content": "<!-- quote: ひやぁっ！ **ボンッ** -->\n\n<!-- chapters: 0 -->\n\n<!-- images: (アメが初めてウィズダムアイを振るう姿), (インベントリに映るウィズダムアイ), (ウィズダムアイの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**ウィズダムアイ**――その物々しい名前とは裏腹に、実態は金縁に立派な口ひげが付いた虫眼鏡だ。他の勇者たちが手にする武器に比べると、見た目の迫力は劣るかもしれない。だが、これこそが[アメリア・ワトソン](#entry:ame-entry)がリベスタルの旅を通して信頼し続けた、かけがえのない相棒なのだ。\n\n## 詳細\n\n自称「ナンバーワン探偵」のアメリア・ワトソン。彼女が挑む事件はどれも一筋縄ではいかない。時に神秘的な存在の真実に迫り、かと思えばキアラ特製バーガーの誘惑には抗えなかったりもする。そんな彼女にとって、相棒として虫眼鏡を選ぶのは、まさにうってつけと言えるだろう。\n\n発動すると、ウィズダムアイはアメの周囲に放射状の衝撃波を放ち、範囲内の敵に防御力低下と移動速度低下の効果を与える。ただし、その効果はわずか半秒ほどのほんの一瞬。まるで周囲を「ボンッ」と軽く叩くように敵をよろめかせ、その一瞬の隙を作るのだ。そして同時に、[信じられないくらい可愛い](https://www.youtube.com/live/f8W426vzTb8?si=2fYE4P8UIELdexdN&t=1614)姿を見せてくれるという、なんともアメらしい一面も魅力だ。\n\n[ボンッ](#embed:https://www.youtube.com/live/hUCfCWOj-1w?si=52foGDyrl2byyFWm&t=5578)",
+      "thumbnailSrc": "/images-opt/eye-of-wisdom-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "アメが初めてウィズダムアイを振るう姿",
+          "source": "/images-opt/eye-of-wisdom-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るウィズダムアイ",
+          "source": "/images-opt/eye-of-wisdom-entry-1-opt.webp"
+        },
+        {
+          "title": "ウィズダムアイの能力が発動した瞬間",
+          "source": "/images-opt/eye-of-wisdom-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/eye-of-wisdom-entry.glb"
+    },
+    {
+      "id": "oceanic-terror-entry",
+      "title": "オーシャニック・テラー",
+      "chapters": [
+        0
+      ],
+      "quote": "くすぐり役に、回復役、そして……モップ？",
+      "content": "<!-- quote: くすぐり役に、回復役、そして……モップ？ -->\n\n<!-- chapters: 0 -->\n\n<!-- images: (グラが初めてオーシャニック・テラーを手にする場面), (インベントリに表示されたオーシャニック・テラー), (オーシャニック・テラーの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**オーシャニック・テラー**は、持ち主の背丈ほどもある青いトライデント。がうる・ぐらは親しみを込めて「フォーク」と呼んでいます。\nこれは[がうる・ぐら](#entry:gura-entry)がリベスタルの旅で選んだ、彼女にとって初めての武器です。\n\n## 詳細\n\nかつてアトランティスの姫であった彼女にとって、このトライデントはまさに海と王家の血を引く者として**これ以上なく**相応しい**逸品**でしょう。**ですが**、一部の人々は**これを**「**ただの荒くれ者**が立派な棒を（**おまけに盗んで？**）持っているだけ」だと**囁いている**ようです。\n\nフォークの力を発動すると、透き通るような青い波が**まるで帳（とばり）のように**押し寄せ、敵を**包み込むように襲いかかり、強大なダメージを与えます**。敵を押し返す効果もあると**言われていますが**、実際にその場面を目撃する者は**滅多にいない**ようです。\n\n[びしょ濡れになれ！](#embed:https://www.youtube.com/live/PJtapc2_7ok?si=cvMAuRigm1F37XG_&t=5396)",
+      "thumbnailSrc": "/images-opt/oceanic-terror-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "グラが初めてオーシャニック・テラーを手にする場面",
+          "source": "/images-opt/oceanic-terror-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたオーシャニック・テラー",
+          "source": "/images-opt/oceanic-terror-entry-1-opt.webp"
+        },
+        {
+          "title": "オーシャニック・テラーの能力発動シーン",
+          "source": "/images-opt/oceanic-terror-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/oceanic-terror-entry.glb"
+    },
+    {
+      "id": "rest-in-peace-entry",
+      "title": "レスト・イン・ピース",
+      "chapters": [
+        -1
+      ],
+      "quote": "私の太もも？触るな、鎌があるんだぞ！",
+      "content": "<!-- quote: 私の太もも？触るな、鎌があるんだぞ！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (カリが初めてレスト・イン・ピースを振るう姿), (インベントリに映るレスト・イン・ピース), (レスト・イン・ピースの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**レスト・イン・ピース**――その名は不気味でありながら、まさに死神の鎌にふさわしいものです。ただの農具などではない、黒々とした不吉なデザイン。鋸のような刃とそこから突き出す関節部が、その鋭利な威圧感を一層際立たせています。これは[森カリオペ](#entry:calli-entry)がリベスタルの旅で振るった、彼女の象徴とも言える武器です。\n\n## 詳細\n\n死の象徴である死神が振るう鎌ですから、不気味な気配を纏っているのは当然のこと。しかし、どんなことにも全力で挑み、人を助けようとするピンクの少女――カリの明るく優しい一面が、この恐ろしいイメージをどこか和らげているようにも見えます。\n\nその能力は、カリ本人と同じくらいシンプルそのもの。魔法のような派手な仕掛けはなく、ただひたすらに、刃をひと振り。横一文字に放たれる強烈な一撃が、標的を真っ二つに切り裂きます。\n\n[**静かに斬り払う**](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)\n\nそして第2章からは、この鎌にも新たに[遠距離攻撃](#entry:revelations-entry)の力が備わることとなりました。",
+      "thumbnailSrc": "/images-opt/rest-in-peace-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "カリが初めてレスト・イン・ピースを振るう姿",
+          "source": "/images-opt/rest-in-peace-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るレスト・イン・ピース",
+          "source": "/images-opt/rest-in-peace-entry-1-opt.webp"
+        },
+        {
+          "title": "レスト・イン・ピースの能力が発動した瞬間",
+          "source": "/images-opt/rest-in-peace-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/rest-in-peace-entry.glb"
+    },
+    {
+      "id": "burning-phoenix-entry",
+      "title": "バーニングフェニックス",
+      "chapters": [
+        -1
+      ],
+      "quote": "ちがう、ちがう！私は“バーガーレディ”なんて呼ばれたくないの！",
+      "content": "<!-- quote: ちがう、ちがう！私は“バーガーレディ”なんて呼ばれたくないの！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (キアラが初めてバーニングフェニックスを振るう姿), (インベントリに映るバーニングフェニックス), (バーニングフェニックスの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**バーニングフェニックス**は、片手剣と盾が一体となった武器です。そのオレンジとターコイズの鮮やかな配色は、どこか[タナキシャ・カリア](#entry:kiara-entry)が身にまとう羽根を思わせる、特別なデザインとなっています。\n\n## 詳細\n\nバーニングフェニックスがその力を発動すると、敵に向けて炎の一撃が放たれ、その後まばゆい火炎へと弾けるように爆発します。この炎に巻き込まれたステインたちは、一瞬にして灰と化してしまうのです。\n\n記憶を失い、多くの者からは「シャキラ」と呼ばれながらも目覚めたカリア。ですが、彼女のステインと戦う力は、少しも損なわれてはいませんでした。それどころか、彼女の胸には不死鳥のごとく、正義の炎が今もなお熱く燃え盛っています。剣と盾を掲げ、騎士の誓いを胸に、麗しき……いや、輝けるリベスタル王国を守るために！（もちろん、レズビアンも含めて！）\n\n[息子？そんなのいないけど](#embed:https://youtu.be/3cr3DLpyB60?t=13486)\n\nそして、第2章以降、この剣には新たに[遠距離攻撃](#entry:revelations-entry)の力が加わりました。",
+      "thumbnailSrc": "/images-opt/burning-phoenix-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "キアラが初めてバーニングフェニックスを振るう姿",
+          "source": "/images-opt/burning-phoenix-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るバーニングフェニックス",
+          "source": "/images-opt/burning-phoenix-entry-1-opt.webp"
+        },
+        {
+          "title": "バーニングフェニックスの能力が発動した瞬間",
+          "source": "/images-opt/burning-phoenix-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/burning-phoenix-entry.glb"
+    },
+    {
+      "id": "violet-miasma-entry",
+      "title": "ヴァイオレット・ミアズマ",
+      "chapters": [
+        -1
+      ],
+      "quote": "**可愛らしい笑みを浮かべ、敵をなぎ倒す**",
+      "content": "<!-- quote: **可愛らしい笑みを浮かべ、敵をなぎ倒す** -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (イナが初めて本を手にする場面), (インベントリに表示された本), (イナが本の能力を発動する場面) -->\n\n<!-- model: true -->\n\n## 概要\n\n「ヴァイオレット・ミアズマ」――それは、一見するとただの書物。だが、決して普通の“本”ではない。\n深い紫の表紙にオレンジ色の装丁、そして何よりも目を引くのは、不気味ながらも神秘的な輝きを放つ古代文字。それはまさに、太古の叡智が宿る魔導書なのだ。\nしかし、その威圧的な見た目とは裏腹に、持ち主である[一伊那尓栖（にのまえ いなにす）](#entry:ina-entry)は、いつも穏やかで、どこか可愛らしい雰囲気を纏っている。\n\n## 詳細\n\nイナは「エンシェント・ワンズ」に仕える巫女であり、この「ヴァイオレット・ミアズマ」こそが、彼女の秘めたる力の源泉となっている。\n計り知れないほどの恐ろしい力を秘めているにもかかわらず、イナはその力を常に優しさと節度を持って振るってきた。\n\n一度発動すれば、イナの頭上には紫の霧が禍々しく渦を巻き、その中から鋭い弾が標的へと放たれる。放たれた弾は複数の敵を貫通し、触れたものを次々と傷つけながら突き進む。\n普段は穏やかな彼女の手によって繰り出されるその攻撃は、美しくもどこか不気味な、まさに古代の力が顕現した瞬間と言えるだろう。\n\n[レーザー発射！](#embed:https://www.youtube.com/live/THllQCVOYzY?si=6WRNsqGVEFR4DDPO&t=4464)\n\n第2章からは、この「ヴァイオレット・ミアズマ」にも、新たな[遠距離攻撃](#entry:revelations-entry)の力が加わった。",
+      "thumbnailSrc": "/images-opt/violet-miasma-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "イナが初めて本を手にする場面",
+          "source": "/images-opt/violet-miasma-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示された本",
+          "source": "/images-opt/violet-miasma-entry-1-opt.webp"
+        },
+        {
+          "title": "イナが本の能力を発動する場面",
+          "source": "/images-opt/violet-miasma-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/violet-miasma-entry.glb"
+    },
+    {
+      "id": "light-and-darkness-entry",
+      "title": "ライト＆ダークネス",
+      "chapters": [
+        -1
+      ],
+      "quote": "ち、違う！おならじゃないから！",
+      "content": "<!-- quote: ち、違う！おならじゃないから！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (HPOが初めてライト＆ダークネスを手にする場面), (インベントリに表示されたライト＆ダークネス), (ライト＆ダークネスの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**ライト＆ダークネス**は、白と黒の星をそれぞれ片手に宿す、対となる一対の武器です。\n[ホットピンクワン](#entry:irys-entry)がリベスタル王国に降り立った際、彼女に授けられました。\n\n## 詳細\n\nかつて自らを「半分は悪魔、半分は天使――すなわちネフィリム」と称したホットピンクの少女。この二つの星は、まさに彼女の内に秘められた二面性を象徴していました……少なくとも、彼女がその肩書きを捨てて「ホットピンク」と名乗るようになるまでは。とある慎ましい騎士、そして後にその妃に対して彼女が取った行動を思えば、果たして「天使的な部分」が残っているのかどうかは、もはや疑わしいところです。\n\nこの武器を発動させると、白と黒の光が激しく渦を巻き、一条のビームとなって狙った敵へと収束し、ダメージを与えます。彼女は威厳をもってその力を見せつけようとするのですが、なぜか周囲からはまるで[おなら](https://www.youtube.com/live/f8W426vzTb8?si=foqRHkhucvdRk3z&t=4046)のようだと言われてしまうことも。しかもそのあまりに低い威力から、本人までもが「もしかして本当に…？」と自問自答してしまうほどでした。\n\n[ホットピンク・ビーム──む！](#embed:https://www.youtube.com/live/Rk7nZ91vme4?si=gB2Tvf3h41hZE0K1&t=4782)\n\nしかし第2章以降、他の勇者たちと同様にこの武器も強化され、以前とは比べ物にならないほどの強力なダメージを与えられるようになります。さらに、[遠距離攻撃](#entry:revelations-entry)という新たな能力も手に入れ、その真価を発揮し始めるのでした。",
+      "thumbnailSrc": "/images-opt/light-and-darkness-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "HPOが初めてライト＆ダークネスを手にする場面",
+          "source": "/images-opt/light-and-darkness-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたライト＆ダークネス",
+          "source": "/images-opt/light-and-darkness-entry-1-opt.webp"
+        },
+        {
+          "title": "ライト＆ダークネスの能力発動シーン",
+          "source": "/images-opt/light-and-darkness-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/light-and-darkness-entry.glb"
+    },
+    {
+      "id": "chrono-surge-entry",
+      "title": "クロノ・サージ",
+      "chapters": [
+        -1
+      ],
+      "quote": "レベレーション！ ……（コオロギの鳴き声）",
+      "content": "<!-- quote: レベレーション！ ……（コオロギの鳴き声） -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (タムが初めてクロノ・サージを手にする場面), (インベントリに表示されたクロノ・サージ), (クロノ・サージの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**クロノ・サージ**は、その名の通り、分針と時針を模した二振りの刃。分針を利き手に、時針を逆手に構えるのは、[タム・ガンドル](#entry:kronii-entry)――自称リベスタルの女王――が愛用する頼れる相棒です。\n\n## 詳細\n\n王国を巡る政争に巻き込まれ、複雑な人間関係に足を踏み入れるよりも遥か昔、タムは**時の番人**という称号を名乗っていました。その響きこそ威厳に満ちているものの、他の勇者たちからは期待されたほどの力は発揮できていなかったようです。\n\nしかし、そのキーワードは「時」にあり。この双剣の真の力を発動すれば、タムはなんと一定範囲内のあらゆるものの時を止め、動きを封じられた敵にダメージを与えることができるのです！もちろん、この能力は心強い仲間の勇者たちには影響を及ぼさないため、近くに敵がいなければ、彼女の究極の時間停止は虚しく[派手な空振り](https://www.youtube.com/live/fIGfh8GmKY8?si=a7sNjbZFNPUUdXp&t=7695)に終わってしまうのですが、そこもまた彼女らしい一面と言えるでしょう。\n\n[ザ・ワールド](#embed:https://www.youtube.com/live/zgioohaY0m4?si=wjs7xiiQwD3m2sdP&t=8108)\n\nさらに、第2章からはこの武器に新たな力が追加され、[遠距離攻撃](#entry:revelations-entry)も可能となります。",
+      "thumbnailSrc": "/images-opt/chrono-surge-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "タムが初めてクロノ・サージを手にする場面",
+          "source": "/images-opt/chrono-surge-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたクロノ・サージ",
+          "source": "/images-opt/chrono-surge-entry-1-opt.webp"
+        },
+        {
+          "title": "クロノ・サージの能力発動シーン",
+          "source": "/images-opt/chrono-surge-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/chrono-surge-entry.glb"
+    },
+    {
+      "id": "chaos-stampede-entry",
+      "title": "カオス・スタンピード",
+      "chapters": [
+        -1
+      ],
+      "quote": "あんた、あたしのレベレーションに文句でもあるわけ？",
+      "content": "<!-- quote: あんた、あたしのレベレーションに文句でもあるわけ？ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (ベイが初めてカオス・スタンピードを手にする場面), (インベントリに表示されたカオス・スタンピード), (カオス・スタンピードの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**カオス・スタンピード**は、黒い六面体のサイコロにネオンカラーのドットが刻まれた、シンプルながらも圧倒的な存在感を放つクールな武器です。[ペイザン・ザ・ベイ](#entry:bae-entry)がリベスタル王国に降り立った際に手に入れたもの。彼女の新たな冒険を彩る、まさに「カオス」を象徴する一品です。\n\n## 詳細\n\nかつて農民、あるいは隠者のような生活を送る前のベイは、まさに「カオス」そのものを体現する存在でした。しかし、願いを叶えるはずの箱を失ってしまった今となっては、それも遠い過去の記憶に過ぎません。\n\nですが、この**カオス・スタンピード**が秘める力は、これまでの彼女とは少し異なる物語を語ります。ほかの勇者たちの武器が決まった能力を発揮するのに対し、**カオス・スタンピード**は「運任せ」。発動すると、ベイがサイコロを振ります。その出目に応じてサイコロが爆発し、さらに大量の「爆発するネズミ」へと分裂して周囲を巻き込んでいくのです。出目の数が大きければ大きいほど、発生する混沌と爆発は激しさを増していきます。\n\n[サイコロを振れ！](#embed:https://www.youtube.com/live/y8bcLA6BQsw?si=ZfXcV-8FZMyknj4r&t=7251)\n\n第2章からは、この武器に新たな[遠距離攻撃](#entry:revelations-entry)が追加され、その戦術の幅をさらに広げています。",
+      "thumbnailSrc": "/images-opt/chaos-stampede-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ベイが初めてカオス・スタンピードを手にする場面",
+          "source": "/images-opt/chaos-stampede-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたカオス・スタンピード",
+          "source": "/images-opt/chaos-stampede-entry-1-opt.webp"
+        },
+        {
+          "title": "カオス・スタンピードの能力発動シーン",
+          "source": "/images-opt/chaos-stampede-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/chaos-stampede-entry.glb"
+    },
+    {
+      "id": "natures-grace-entry",
+      "title": "ネイチャーズグレイス",
+      "chapters": [
+        0
+      ],
+      "quote": "癒しを大特価！今日の回復はいかがですか！",
+      "content": "<!-- quote: 癒しを大特価！今日の回復はいかがですか！ -->\n\n<!-- chapters: 0 -->\n\n<!-- images: (ファウナが初めてネイチャーズグレイスを振るう姿), (インベントリに映るネイチャーズグレイス), (ネイチャーズグレイスの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**ネイチャーズグレイス**――金のリンゴをあしらった木製の杖。武器と呼ぶにはあまりにも頼りないこの杖は、[セレス・ファウナ](#entry:fauna-entry)がリベスタル王国に姿を現した際、その手に携えていたものです。\n\n## 詳細\n\n彼女のレベレーションは、攻撃的なものではなく、完全に支援に特化した能力です。発動すれば、杖の力で範囲内の仲間を一気に全回復させます。さらに、狙いを定めた場所にはツタの檻を呼び出し、敵を絡め取ることも可能です。\n\nですが、ヒーラーとしての評価は散々なものでした。いざという時に[仲間を回復し損ねてしまったり](https://www.youtube.com/live/VrLNA0SjYN8?si=eqNXxwok2sYV58L-&t=6903)、あるいは[回復料を請求して](https://www.youtube.com/live/8x-MVX8h9gU?t=7796s)仲間が敵に囲まれている最中に金勘定を始めてしまったりと……。\n\nしかし、一つだけ確実に機能していた能力がありました。それは――敵を絡め取るツタです。\n\nそう、誰一人として逃れることはできませんでした……彼女が仕掛けるギャンブルの誘惑からは。\n\n[私はヒーラーよ！](#embed:https://www.youtube.com/live/VrLNA0SjYN8?si=44SWAU57JOrr0X5&t=6724)",
+      "thumbnailSrc": "/images-opt/natures-grace-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ファウナが初めてネイチャーズグレイスを振るう姿",
+          "source": "/images-opt/natures-grace-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るネイチャーズグレイス",
+          "source": "/images-opt/natures-grace-entry-1-opt.webp"
+        },
+        {
+          "title": "ネイチャーズグレイスの能力が発動した瞬間",
+          "source": "/images-opt/natures-grace-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/natures-grace-entry.glb"
+    },
+    {
+      "id": "winds-of-civilization-entry",
+      "title": "ウィンズ・オブ・シヴィライゼーション",
+      "chapters": [
+        0
+      ],
+      "quote": "誰かがあなたを傷つけたなら――私がそいつを痛めつける",
+      "content": "<!-- quote: 誰かがあなたを傷つけたなら――私がそいつを痛めつける -->\n\n<!-- chapters: 0 -->\n\n<!-- images: (ウィンズ・オブ・シヴィライゼーションを手に持つ姿), (インベントリに映るウィンズ・オブ・シヴィライゼーション), (ウィンズ・オブ・シヴィライゼーションの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**ウィンズ・オブ・シヴィライゼーション**は、青銅の短剣《ダガー》としてその姿を現す。どこか見覚えのあるこの武器を手にするのは――クレオパトラ・ダーウィン・ナポレオン・アイゼンハワー・ルーズベルト・ガリレオ・ダ・ヴィンチ・ディカプリオ・アリストテレス・ターガリエン・ザ・グレート三世・ジュニア。通称「スリー」、あるいはもっと親しみを込めて[ナナムー](#entry:mumei-entry)と呼ばれている彼女だ。梟の爪のように鋭いその刃と、その使い手である彼女は、等しく恐れられるに値する。\n\n## 詳細\n\nリベスタル王国が最大の危機に瀕した時、一人の戦士がステインキング討伐の旅に挑み、見事これを打ち倒した。彼女がこの短剣を振るえば、刃のように鋭い風が巻き起こり、立ちはだかるステインを切り裂き、浄化してしまうのだ。\n\nだが、この短剣は……本当にナナムーが初めて手にしたものなのだろうか？\nその昔、彼女がもっと簡素な名前で呼ばれていた頃、文明の守護者として恐れられた存在が、まさしくこの短剣を携えていたという。人類を守るため――あるいは、時に聖職者をも脅かすために――彼女は何千年もの間、その刃を肌身離さず持ち続けた。\n今は記憶の多くを風にさらわれてしまっても、それでも変わらず、彼女の中に残り続けるものがあるようだ。\n\n[レベレーション！ちゃんと動く！](#embed:https://youtu.be/oq_4QZacuso?t=7816)",
+      "thumbnailSrc": "/images-opt/winds-of-civilization-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ウィンズ・オブ・シヴィライゼーションを手に持つ姿",
+          "source": "/images-opt/winds-of-civilization-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るウィンズ・オブ・シヴィライゼーション",
+          "source": "/images-opt/winds-of-civilization-entry-1-opt.webp"
+        },
+        {
+          "title": "ウィンズ・オブ・シヴィライゼーションの能力が発動した瞬間",
+          "source": "/images-opt/winds-of-civilization-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/winds-of-civilization-entry.glb"
+    },
+    {
+      "id": "shining-emotions-entry",
+      "title": "シャイニング・エモーションズ",
+      "chapters": [
+        -1
+      ],
+      "quote": "シャイニング・エモーション！ わぁ、私すごく強い！",
+      "content": "<!-- quote: シャイニング・エモーション！ わぁ、私すごく強い！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (ビジューが初めてシャイニング・エモーションズを手にする場面), (インベントリに表示されたシャイニング・エモーションズ), (シャイニング・エモーションズの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**シャイニング・エモーションズ**は、紫色の八面体をした美しい宝石の姿を持つ武器。\nそのまばゆい輝きを放つ持ち主はもちろん――[こせき・ビジュー](#entry:bijou-entry)です。\n\n## 詳細\n\n宝石の姫にふさわしく、息をのむほど輝く宝石の武器。\nその名が示すような、感情的で華やかな魔法を想像するかもしれないけれど、その能力は驚くほどシンプル……いや、むしろ少しコミカルにさえ映るかもしれません。一度発動すれば、ビジューは宝石の弾丸を音速の速さで、しかも容赦ない連射で標的へと浴びせかけます。\n\n魔法のような華やかさこそないものの、その効果は驚くほど実用的で、敵にとってはまさに悪夢！\nダイヤモンド級の硬さを誇る宝石が、音速で顔面に直撃したら……どんな相手でも、その日一日は台無しになってしまうこと間違いなしです！\n\n[もっとパワーを！](#embed:https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=8524)\n\nそして、第2章からは、この強力な武器に新たな[遠距離攻撃](#entry:revelations-entry)の能力も追加されました！",
+      "thumbnailSrc": "/images-opt/shining-emotions-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ビジューが初めてシャイニング・エモーションズを手にする場面",
+          "source": "/images-opt/shining-emotions-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたシャイニング・エモーションズ",
+          "source": "/images-opt/shining-emotions-entry-1-opt.webp"
+        },
+        {
+          "title": "シャイニング・エモーションズの能力発動シーン",
+          "source": "/images-opt/shining-emotions-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/shining-emotions-entry.glb"
+    },
+    {
+      "id": "resonant-strike-entry",
+      "title": "レゾナント・ストライク",
+      "chapters": [
+        -1
+      ],
+      "quote": "ね、大きな音を鳴らしたから、これでみんな私達を見つけられるよ！",
+      "content": "<!-- quote: ね、大きな音を鳴らしたから、これでみんな私達を見つけられるよ！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (ネリッサが初めてレゾナント・ストライクを手にする場面), (インベントリに表示されたレゾナント・ストライク), (レゾナント・ストライクの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**レゾナント・ストライク**は、その名の通り巨大な音叉の姿をした武器です。\n[ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry)がリベスタル王国に降り立った初日に授けられた、金属製の巨大な楽器であり、彼女の相棒とも言える存在です。\n\n## 詳細\n\n「音叉」と聞くと、あまり威圧感はないかもしれません。ですが、これは人ほどの背丈もある巨大な金属製のフォークであり、その見た目に反してとんでもない破壊力を秘めているのです。\n\nその能力はシンプル。発動すると、指定した地点に広範囲の衝撃波を響かせ、周囲を巻き込む共鳴爆発を引き起こします。\n……にもかかわらず、ネリッサがこの範囲攻撃を戦略的に使うことは滅多になく、結局は巨大な音叉を直接相手に叩きつけ、豪快に「ボコッ」と吹き飛ばす戦い方をしてしまうことが多いのだとか。\n\n[\\*\\*キーン！ ドゴッ！\\*\\*](#embed:https://www.youtube.com/live/DDwNcYCtAXw?feature=shared&t=1628)\n\n第2章からは、この武器にも新たに[遠距離攻撃](#entry:revelations-entry)が追加され、ネリッサの戦術の幅が広がりました。",
+      "thumbnailSrc": "/images-opt/resonant-strike-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ネリッサが初めてレゾナント・ストライクを手にする場面",
+          "source": "/images-opt/resonant-strike-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたレゾナント・ストライク",
+          "source": "/images-opt/resonant-strike-entry-1-opt.webp"
+        },
+        {
+          "title": "レゾナント・ストライクの能力発動シーン",
+          "source": "/images-opt/resonant-strike-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/resonant-strike-entry.glb"
+    },
+    {
+      "id": "bookmark-of-memories-entry",
+      "title": "思い出のしおり",
+      "chapters": [
+        -1
+      ],
+      "quote": "くすぐったい〜……あっやば、爆発しちゃった！",
+      "content": "<!-- quote: くすぐったい〜……あっやば、爆発しちゃった！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (シオリが初めて本を手にする場面), (インベントリに表示された思い出のしおり), (思い出のしおりの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**思い出のしおり**は、[シオリ・ニャヴェラ](#entry:shiori-entry)のレベレーションとして顕現した、青い羽根――正確には筆記用の羽ペンの姿をしています。彼女が初めてリベスタル王国に召喚された際に授かったものなのです。\n\n## 詳細\n\n能力を発動すると、羽ペンから光り輝く「しおり」が飛び出し、シオリの周りを優雅に舞いながら、標的へと光線を集中させます。光線が命中すると、眩い爆発を巻き起こし、敵に甚大なダメージを与えることができます。\n\nこの羽ペンは、かつて「アーカイバー」として生きていた彼女の役割を、ささやかに物語る証でもあるのです――もっとも、シオリ自身はその記憶を失ってしまっているのですが。\nそのためか、シオリは戦闘よりも、もっぱら悪戯に使うことが多いようです。ついつい相手をくすぐる、可愛らしい悪戯に夢中になってしまうことも。しかし、その勢いでうっかり能力を暴発させてしまうこともあり、事情を知らない周囲の人々を、度々混乱させてしまっていたとか。\n\n[爆発するくすぐり](#embed:https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=7821)\n\nそして、物語が第2章へと進むと、この羽ペンにはさらに[遠距離攻撃](#entry:revelations-entry)の新たな能力も加わることとなります。",
+      "thumbnailSrc": "/images-opt/bookmark-of-memories-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "シオリが初めて本を手にする場面",
+          "source": "/images-opt/bookmark-of-memories-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示された思い出のしおり",
+          "source": "/images-opt/bookmark-of-memories-entry-1-opt.webp"
+        },
+        {
+          "title": "思い出のしおりの能力発動シーン",
+          "source": "/images-opt/bookmark-of-memories-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/bookmark-of-memories-entry.glb"
+    },
+    {
+      "id": "azure-claws-entry",
+      "title": "蒼き爪",
+      "chapters": [
+        -1
+      ],
+      "quote": "バウバウ〜 えへへへへ",
+      "content": "<!-- quote: バウバウ〜 えへへへへ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (フワワが初めて蒼き爪を振るう姿), (インベントリに映る蒼き爪), (蒼き爪の能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**蒼き爪**――鋭く輝く青い二本爪。これは[フワワ・アビスガード](#entry:fuwawa-entry)が初めてリベスタル王国に足を踏み入れた際に彼女へ授けられた武器です。\n\n## 詳細\n\nその獰猛なデザインは、ふわふわで優しいフワワの雰囲気とはまるで正反対。ひとたび能力が発動すれば、X字に敵を切り裂くような連撃を嵐のように繰り出し、容赦なく切り裂いていきます。その様は、まさしく敵にとっての恐怖そのもの。\n\nですが、心優しいフワワらしいのは、この力を向けるのが常にモンスターや、本物の脅威となる相手だけということ。…あるピンク色の誰かのように、無差別に力を振るうことは決してありません。そこが、いかにも彼女らしいと言えるでしょう。\n\n[敵を粉々にしながらも小さく笑うフワワ](#embed:https://www.youtube.com/live/3s_pVYBEax0?feature=shared&t=5667)\n\nそして、第2章からは[遠距離攻撃](#entry:revelations-entry)の力も新たに加わり、さらにその脅威は増していくことになります。",
+      "thumbnailSrc": "/images-opt/azure-claws-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "フワワが初めて蒼き爪を振るう姿",
+          "source": "/images-opt/azure-claws-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映る蒼き爪",
+          "source": "/images-opt/azure-claws-entry-1-opt.webp"
+        },
+        {
+          "title": "蒼き爪の能力が発動した瞬間",
+          "source": "/images-opt/azure-claws-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/azure-claws-entry.glb"
+    },
+    {
+      "id": "fuchsia-claws-entry",
+      "title": "フューシャ・クロー",
+      "chapters": [
+        -1
+      ],
+      "quote": "この鋭いツメでひっかいてやるんだから！",
+      "content": "<!-- quote: この鋭いツメでひっかいてやるんだから！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (モココが初めてフューシャ・クローを手にする場面), (インベントリに表示されたフューシャ・クロー), (フューシャ・クローの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**フューシャ・クロー**は、ふわふわの相棒が持つ武器とそっくりな、一対の鋭いツメです。唯一の違いは、[モココ・アビスガード](#entry:mococo-entry)が振るうそれが淡い水色をしている点です。\n\n## 詳細\n\nこのツメの能力は共通しており、ひとたび発動すれば、モココはX字の斬撃を連続で繰り出し、行く手を阻むあらゆるものを切り裂きます。\n\nしかし、武器が似ていても、その使い方はまるで正反対。フワワが必要な時や悪しき敵に対してのみツメを振るうのに対し、モココは無関係な通行人にさえ平気でツメを向けるのです。標的の多くはなぜかネリッサで、その理由は不明――いえ、もしかしたら誰もが察しているのかもしれませんね。\n\n[金出せー！](#embed:https://www.youtube.com/live/5swK4fB2smo?feature=shared&t=1373)\n\n無害なニワトリでさえも、このもふもふ悪魔犬の怒りからは逃れられません。「大いなる力には大いなる責任が伴う」とはよく言いますが、その力がギャンブル狂の悪魔犬の手に渡ったら……あとは運に任せるしかないでしょう。\n\n[あああああああああ!!!!!](#embed:https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=7274)\n\nそして第2章からは、この武器に新たな[遠距離攻撃](#entry:revelations-entry)が加わりました。",
+      "thumbnailSrc": "/images-opt/fuchsia-claws-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "モココが初めてフューシャ・クローを手にする場面",
+          "source": "/images-opt/fuchsia-claws-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたフューシャ・クロー",
+          "source": "/images-opt/fuchsia-claws-entry-1-opt.webp"
+        },
+        {
+          "title": "フューシャ・クローの能力発動シーン",
+          "source": "/images-opt/fuchsia-claws-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/fuchsia-claws-entry.glb"
+    },
+    {
+      "id": "thorn-of-order-entry",
+      "title": "ソーン・オブ・オーダー",
+      "chapters": [
+        -1
+      ],
+      "quote": "安定と調和の世界へようこそ！",
+      "content": "<!-- quote: 安定と調和の世界へようこそ！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (エリザベスが初めてソーンを振るう姿), (インベントリに映るソーン), (ソーンの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**ソーン**――グレートソード、クレイモア。その名が示す通り、まさに「大剣」と呼ぶにふさわしい圧倒的な存在感を放つ武器です。数ある勇者の武器の中でも一際目を引くこの巨大な剣を、振るうことができるのはただ一人。高潔な騎士[エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry)だけでしょう。\n\n## 詳細\n\nソーンを扱うに最もふさわしい人物は、間違いなくエリザベスでしょう。過去の記憶を失いながらも、彼女の騎士道精神は一切揺らぐことはありません。リベスタルの旅路で数々の奇妙な出来事に巻き込まれながらも、彼女はただひたすら正義のために戦い続けています。\n\n能力が発動すると、ソーンは大きく横薙ぎに一閃を放ち、その後には強力な爆発が巻き起こります。その動き自体はシンプルながらも、ソーンの圧倒的な破壊力がすべてを物語っているかのようです。\n\n[名誉のために！](#embed:https://www.youtube.com/live/oVguNTPnDww?si=XWIrWAhx_Nv0aR13&t=1433)\n\nそして第2章からは、このソーンに新たな力が覚醒！　なんと[遠距離攻撃](#entry:revelations-entry)も可能になりました。",
+      "thumbnailSrc": "/images-opt/thorn-of-order-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "エリザベスが初めてソーンを振るう姿",
+          "source": "/images-opt/thorn-of-order-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るソーン",
+          "source": "/images-opt/thorn-of-order-entry-1-opt.webp"
+        },
+        {
+          "title": "ソーンの能力が発動した瞬間",
+          "source": "/images-opt/thorn-of-order-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/thorn-of-order-entry.glb"
+    },
+    {
+      "id": "automaton-assault-entry",
+      "title": "オートマトン・アサルト",
+      "chapters": [
+        -1
+      ],
+      "quote": "ふん、私に指図するな。オートマトン・アサルト！",
+      "content": "<!-- quote: ふん、私に指図するな。オートマトン・アサルト！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (セシリアが初めてオートマトン・アサルトを手にする場面), (インベントリに表示されたオートマトン・アサルト), (オートマトン・アサルトの能力発動シーン) -->\n\n<!-- model: true -->\n\n## 概要\n\n**オートマトン・アサルト**は、金と緑の装飾が施されたランスです。[セシリア・イマーグリーン](#entry:cecilia-entry)がリベスタル王国を旅する中で手にする、彼女を象徴する武器の一つです。\n\n## 詳細\n\nその名の通り、オートマトン・アサルトはセシリアに驚異的な速さでの連続突きを可能にします。\nその凄まじい速度と威力は敵に恐怖を与えるほどですが、セシリアが必ずと言っていいほど無邪気に決め台詞を叫んでから敵を吹き飛ばすため、戦闘の緊迫した雰囲気はどこか愛らしい魅力によって和らげられてしまいます。\n\n[オートマトン・アサルト！](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)\n\n第2章からは、このランスに追加で[遠距離攻撃](#entry:revelations-entry)の能力も備わりました。",
+      "thumbnailSrc": "/images-opt/automaton-assault-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "セシリアが初めてオートマトン・アサルトを手にする場面",
+          "source": "/images-opt/automaton-assault-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに表示されたオートマトン・アサルト",
+          "source": "/images-opt/automaton-assault-entry-1-opt.webp"
+        },
+        {
+          "title": "オートマトン・アサルトの能力発動シーン",
+          "source": "/images-opt/automaton-assault-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/automaton-assault-entry.glb"
+    },
+    {
+      "id": "gremlin-grenade-entry",
+      "title": "グレムリングレネード",
+      "chapters": [
+        -1
+      ],
+      "quote": "レベレーション！フザー！",
+      "content": "<!-- quote: レベレーション！フザー！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (ゴナソンが初めてグレムリングレネードを振るう姿), (インベントリに映るグレムリングレネード), (グレムリングレネードの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**グレムリングレネード**――それは、巨大なスパイクが突き出た金属製のガントレット。あまりの大きさで持ち主の頭すら覆い隠してしまうほどの、存在感抜群の武器です。謙虚なる騎士[ゴナソン・G](#entry:gigi-entry)がリベスタル王国に降り立った時、彼女が身につけていたのは、まさにこのグレムリングレネードでした。\n\n## 詳細\n\nグレムリングレネードが発動すると、その力によってゴナソンは勢いよく前方へ突進！　広範囲の地面に叩きつけ攻撃を繰り出した後、爆発を起こし周囲を炎に包み込みます。巻き込まれた敵は、甚大なダメージを受けてしまうでしょう。\n\nこの突進能力は、ラオラの持つものにも通じるものがあります。その勢いを活かせば、普通では到達できないような場所へも軽々とたどり着けるのです。もちろん、ゴナソンはその恩恵を最大限に活用し、見事[ダンジョンのお宝](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=6730)を独り占めにしたのは言うまでもありません。\n\n[怒れる拳](#embed:https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=8095)\n\nそして第2章以降は、この強力な武器に、なんと[遠距離攻撃](#entry:revelations-entry)能力まで追加！　グレムリングレネードは、さらに多様な戦術を可能にするでしょう。",
+      "thumbnailSrc": "/images-opt/gremlin-grenade-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ゴナソンが初めてグレムリングレネードを振るう姿",
+          "source": "/images-opt/gremlin-grenade-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るグレムリングレネード",
+          "source": "/images-opt/gremlin-grenade-entry-1-opt.webp"
+        },
+        {
+          "title": "グレムリングレネードの能力が発動した瞬間",
+          "source": "/images-opt/gremlin-grenade-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/gremlin-grenade-entry.glb"
+    },
+    {
+      "id": "purrfect-execution-entry",
+      "title": "パーフェクトエグゼキューション",
+      "chapters": [
+        -1
+      ],
+      "quote": "ラオーーッ！",
+      "content": "<!-- quote: ラオーーッ！ -->\n\n<!-- chapters: -1 -->\n\n<!-- images: (ラオラが初めてパーフェクトエグゼキューションを振るう姿), (インベントリに映るパーフェクトエグゼキューション), (パーフェクトエグゼキューションの能力が発動した瞬間) -->\n\n<!-- model: true -->\n\n## 概要\n\n**パーフェクトエグゼキューション**――ユーモラスなネーミングとは裏腹に、その響きは確かな威圧感を秘めています。これは、[ラオラ・パンテラ](#entry:raora-entry)がリベスタルでの旅路で振るう、鋭利な機械仕掛けの爪に与えられた名です。\n\n## 詳細\n\nその力が発動すると、ピンク色の巨大な猫の姿へと変貌したラオラは、宙高く舞い上がります。標的の周囲を高速で回転しながら、まるで獲物を狙う熟練の猛猫さながらに、素早い連撃を叩き込むのです。彼女の鋭い爪は、複数の敵を一瞬にして切り裂いていきます。\n\n[巨大猫の猛攻！その斬撃はまさにビッグサイズ！](#embed:https://www.youtube.com/live/8ybUOw9NhMc?si=8Pej7LP7Am3NbGSa&t=6746)\n\nさらに、第2章からはこの爪に新たな[遠距離攻撃](#entry:revelations-entry)の力が加わり、ラオラの戦闘スタイルはより多彩なものへと進化を遂げました。",
+      "thumbnailSrc": "/images-opt/purrfect-execution-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ラオラが初めてパーフェクトエグゼキューションを振るう姿",
+          "source": "/images-opt/purrfect-execution-entry-0-opt.webp"
+        },
+        {
+          "title": "インベントリに映るパーフェクトエグゼキューション",
+          "source": "/images-opt/purrfect-execution-entry-1-opt.webp"
+        },
+        {
+          "title": "パーフェクトエグゼキューションの能力が発動した瞬間",
+          "source": "/images-opt/purrfect-execution-entry-2-opt.webp"
+        }
+      ],
+      "modelSrc": "/models/purrfect-execution-entry.glb"
+    }
+  ]
+}

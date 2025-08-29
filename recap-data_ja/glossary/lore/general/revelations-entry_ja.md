@@ -1,11 +1,7 @@
 <!-- title: レベレーション -->
-
 <!-- quote: その力は、忘れ去られた記憶のように彼女たちに訪れた。 -->
-
 <!-- chapters: -1 -->
-
 <!-- images: (Revelations' Appearance Overview #1), (Revelations' Appearance Overview #2), (Revelations' Power Overview) --->
-
 <!-- model: false -->
 
 ## 概要
@@ -30,22 +26,22 @@
 
 勇者たちはそれぞれ、自身の過去や忘れ去られた記憶を反映した、唯一無二のレベレーションを手にしています。
 
--   **がうる・ぐら** – [オーシャンテラー](#entry:oceanic-terror-entry)、三叉槍
--   **森カリオペ** – [レスト・イン・ピース](#entry:rest-in-peace-entry)、大鎌
--   **アメリア・ワトソン** – [アイ・オブ・ウィズダム](#entry:eye-of-wisdom-entry)、虫眼鏡
--   **小鳥遊キアラ** – [バーニングフェニックス](#entry:burning-phoenix-entry)、炎を宿す剣と盾
--   **一伊那尓栖** – [ヴァイオレットミアズマ](#entry:violet-miasma-entry)、謎めいたルーンが刻まれた書物
--   **ナナムー** – [ウィンズ・オブ・シヴィライゼーション](#entry:winds-of-civilization-entry)、短剣
--   **セレス・ファウナ** – [ネイチャーズグレイス](#entry:natures-grace-entry)、黄金のリンゴ
--   **ハコス・ベールズ** – [カオススタンピード](#entry:chaos-stampede-entry)、サイコロ
--   **オーロ・クロニー** – [クロノサージ](#entry:chrono-surge-entry)、双つの時計の針
--   **IRyS** – [ライト・アンド・ダークネス](#entry:light-and-darkness-entry)、白と黒の二つ星
--   **フワワ・アビスガード** – [アズールクロー](#entry:azure-claws-entry)、鋭い蒼の爪
--   **モココ・アビスガード** – [フューシャクロー](#entry:fuchsia-claws-entry)、鋭い桃色の爪
--   **古石ビジュー** – [シャイニングエモーションズ](#entry:shining-emotions-entry)、宝石
--   **ネリッサ・ジュリエット・レイヴンクロフト** – [レゾナントストライク](#entry:resonant-strike-entry)、音叉
--   **シオリ・ノヴェラ** – [ブックマーク・オブ・メモリーズ](#entry:bookmark-of-memories-entry)、羽ペン
--   **エリザベス・ローズ・ブラッドフレイム** – [ソーン・オブ・オーダー](#entry:thorn-of-order-entry)、大剣（クレイモア）
--   **ゴナソン・G** – [グレムリングレネード](#entry:gremlin-grenade-entry)、鉄の拳
--   **セシリア・イマーグリーン** – [オートマトンアサルト](#entry:automaton-assault-entry)、ランス
--   **ラオラ・パンテラ** – [パーフェクトエクスキューション](#entry:purrfect-execution-entry)、機械仕掛けの爪
+- **がうる・ぐら** – [オーシャンテラー](#entry:oceanic-terror-entry)、三叉槍
+- **森カリオペ** – [レスト・イン・ピース](#entry:rest-in-peace-entry)、大鎌
+- **アメリア・ワトソン** – [アイ・オブ・ウィズダム](#entry:eye-of-wisdom-entry)、虫眼鏡
+- **小鳥遊キアラ** – [バーニングフェニックス](#entry:burning-phoenix-entry)、炎を宿す剣と盾
+- **一伊那尓栖** – [ヴァイオレットミアズマ](#entry:violet-miasma-entry)、謎めいたルーンが刻まれた書物
+- **ナナムー** – [ウィンズ・オブ・シヴィライゼーション](#entry:winds-of-civilization-entry)、短剣
+- **セレス・ファウナ** – [ネイチャーズグレイス](#entry:natures-grace-entry)、黄金のリンゴ
+- **ハコス・ベールズ** – [カオススタンピード](#entry:chaos-stampede-entry)、サイコロ
+- **オーロ・クロニー** – [クロノサージ](#entry:chrono-surge-entry)、双つの時計の針
+- **IRyS** – [ライト・アンド・ダークネス](#entry:light-and-darkness-entry)、白と黒の二つ星
+- **フワワ・アビスガード** – [アズールクロー](#entry:azure-claws-entry)、鋭い蒼の爪
+- **モココ・アビスガード** – [フューシャクロー](#entry:fuchsia-claws-entry)、鋭い桃色の爪
+- **古石ビジュー** – [シャイニングエモーションズ](#entry:shining-emotions-entry)、宝石
+- **ネリッサ・ジュリエット・レイヴンクロフト** – [レゾナントストライク](#entry:resonant-strike-entry)、音叉
+- **シオリ・ノヴェラ** – [ブックマーク・オブ・メモリーズ](#entry:bookmark-of-memories-entry)、羽ペン
+- **エリザベス・ローズ・ブラッドフレイム** – [ソーン・オブ・オーダー](#entry:thorn-of-order-entry)、大剣（クレイモア）
+- **ゴナソン・G** – [グレムリングレネード](#entry:gremlin-grenade-entry)、鉄の拳
+- **セシリア・イマーグリーン** – [オートマトンアサルト](#entry:automaton-assault-entry)、ランス
+- **ラオラ・パンテラ** – [パーフェクトエクスキューション](#entry:purrfect-execution-entry)、機械仕掛けの爪

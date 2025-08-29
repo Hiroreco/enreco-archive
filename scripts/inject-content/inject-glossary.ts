@@ -56,7 +56,7 @@ async function walkDir(dir: string): Promise<string[]> {
 }
 
 async function processSubfolder(fileArg: string, locale: string) {
-    const localeSuffix = locale === "en" ? "" : `.${locale}`;
+    const localeSuffix = locale === "en" ? "" : `_${locale}`;
 
     const baseDir = path.resolve(
         process.cwd(),

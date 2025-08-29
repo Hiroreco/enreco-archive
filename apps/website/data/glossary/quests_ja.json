@@ -1,0 +1,397 @@
+{
+  "main-quests": [
+    {
+      "id": "heart-of-ruin-entry",
+      "title": "ハート・オブ・ルイン",
+      "chapters": [
+        1
+      ],
+      "quote": "これは自業自得――純粋なものなど永遠には続かない。",
+      "content": "## 概要\n\n**解放日:** 7日目\n\n**ハート・オブ・ルイン**はチャプター2最後のダンジョンにして、勇者たちが立ち向かった究極の試練だった。ここはすべての「穢れ」の源であり、王国を蝕んできた腐敗の根源。これを破壊することは、彼女たちが召喚された使命を果たすだけでなく、世界そのものを滅亡から救うことを意味していた。\n\nだが勝利には代償が伴うことも、すぐに明らかになった。仲間の中には、この穢れに想像以上に脆く、呑み込まれてしまう者もいたのだ。\n\n## 詳細\n\n### 外観\n\nダンジョン全体に漂うのは、重苦しく陰鬱な空気。まるで巨大で不気味な洋館のような造りで、闇と深紅が空間を支配し、流れ落ちる溶岩のカーテンがオレンジ色の不気味な光を放っていた。構造は広大な図書館や複数の足場状のエリアから成り立ち、最奥に待ち受ける大広間へとつながっていた。\n\n### 挑戦\n\n#### 呪われし者たち\n\nこれまでのダンジョンと違い、ハート・オブ・ルインには謎解きも仕掛けも存在しなかった。\n\n冒険の始まりは薄暗い図書館。そこで明かされたのは――**フワワ、モココ、ビジュー、ネリッサ、そしてシオリ**の5人が[呪われてしまっていた](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877)という衝撃の事実だった。穢れに蝕まれた彼女たちは仲間に牙を剥き、[進軍を妨害する](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221)障害となって立ちはだかる。残された勇者たちの使命は、仲間を「浄化」することだった。\n\nこの最初の図書館には『_ルインの前奏曲_』と題された本があり、王国をこの有様に追いやった事件や力についての手掛かりが記されていた。\n\n- [「ルインの前奏曲」を読む](#text:prelude-of-ruin)\n\nさらに進むと、勇者たちは次々と現れるステインの群れと戦う闘技場へと放り込まれる。勝利するたびに**浄化エネルギー**が蓄積され、これを満たすことで仲間を救うことができた。しかし、呪われた仲間たちの妨害や罠がそのゲージを削り取り、浄化を遅らせてしまう。\n\nエネルギーが満ちた時、初めて仲間は[解放され](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250)、再びパーティに戻ることができた。\n\n#### 最終決戦\n\nさらに奥の図書館には『_ルインの歌_』と呼ばれる本があり、そこには王国の前女王と国が辿った悲劇、そしてその崩壊の原因が記されていた。\n\n- [「ルインの歌」を読む](#text:song-of-ruin)\n\nそして、いよいよ勇者たちは最後の敵と対峙する。\nその名は――**ザ・カース**。\n腐敗そのものの化身にして、王国を蝕みすべてを膝下に屈させようとした存在だった。\n\nこの存在を討ち果たすことは、土地の解放、そして姫とアウトサイダーを救うことを意味した。戦いの後、彼女たちは深い感謝を勇者たちに捧げた。\n\n> 私を滅ぼしに来たのか？　だがお前たちは私の正体すら知らぬ。\n> 私は内から広がる緩やかな腐敗。\n> 私は決して消えぬ黒き思考。\n> 王国が永遠だとでも？　勇者が穢れに屈さぬとでも？\n> いいや……いいや……純粋なものなど永遠には続かぬ。\n> 見せてやろう。\n\n[ザ・カースとの戦い](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=aPXghWa1h648PaCG&t=6678)\n\n――だが、これで終わりではなかった。\n勇者たちはやがて知ることになる。最終日の出来事が、すべてを覆すことになるのだと。\n\nこの章は閉じられた。だが物語は、まだ終わらない。\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/status/1921298594185036164/photo/1)\n- コンセプトアート - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1921068336151957890)\n- ボスデザイン - [Asmodeus](#out:https://www.youtube.com/watch?v=wMbXr2nLMeU)",
+      "thumbnailSrc": "/images-opt/heart-of-ruin-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ハート・オブ・ルイン概要 #1",
+          "source": "/images-opt/heart-of-ruin-entry-0-opt.webp"
+        },
+        {
+          "title": "ハート・オブ・ルイン概要 #2",
+          "source": "/images-opt/heart-of-ruin-entry-1-opt.webp"
+        },
+        {
+          "title": "ハート・オブ・ルイン概要 #3",
+          "source": "/images-opt/heart-of-ruin-entry-2-opt.webp"
+        },
+        {
+          "title": "ハート・オブ・ルインコンセプトアート #1",
+          "source": "/images-opt/heart-of-ruin-entry-3-opt.webp"
+        },
+        {
+          "title": "ハート・オブ・ルインコンセプトアート #2",
+          "source": "/images-opt/heart-of-ruin-entry-4-opt.webp"
+        },
+        {
+          "title": "ハート・オブ・ルインコンセプトアート #3",
+          "source": "/images-opt/heart-of-ruin-entry-5-opt.webp"
+        },
+        {
+          "title": "ダンジョンボス: ザ・カース",
+          "source": "/images-opt/heart-of-ruin-entry-6-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/heart-of-ruin-entry-opt.webp"
+    },
+    {
+      "id": "stronghold-of-ruin-entry",
+      "title": "廃墟の要塞",
+      "chapters": [
+        1
+      ],
+      "quote": "イファニアがあなたを信じているなら、あるいは勝機があるかもしれない。",
+      "content": "## 概要\n\n**解放日:** 3日目\n\n**ストロングホールド・オブ・ルイン**は、勇者たちが初めて[アウトサイダー](#entry:outsider-entry)と出会った場所です。姫が探し出すよう命じていた『名もなき剣士』。彼もまたこの要塞を調査していましたが、この地に残る穢れに囚われ、閉じ込められてしまっていました。ですが、勇者たちがダンジョンを制覇したことで、彼はついに解放されることになります。\n\n## 詳細\n\n### 外観\n\nこのダンジョンはハート・オブ・ルインの分枝にあたるため、その雰囲気や見た目は酷似していました。不気味な赤と影を基調とした色彩に包まれ、強烈な圧迫感と危険な気配が漂います。構造は大きな円形プラットフォームが特徴で、最奥には赤い浮遊結晶が鎮座する最終決戦のアリーナが広がっていました。\n\n### 仕掛け\n\n突入と同時に、チェックポイント制とパーティ共通の「残りライフ5」が提示され、これから待ち受ける苛烈な試練を予感させるものでした。\n\n**第一の試練**\n\n[ステインが溢れる闘技場](https://www.youtube.com/live/gVAtGMLBJos?si=Yz9FwKwuVtv4e-ZS&t=1423)での連戦が始まります。次々と湧き出すステインをすべて打ち倒さなければゲートは開かず、先へ進むことはできません。戦闘は進むごとに激しさを増していきました。\n\n**第二の試練**\n\n次に現れたのは「黒い薔薇」の形をしたアーティファクトでした。これを破壊するためには、まず周囲に仕掛けられた謎を解明する必要があったのです。\n出題されたのは――\n\n- [数学問題](https://www.youtube.com/live/EKjcWfEGsB0?si=kbaxo2QGrPfrE5La&t=2999)\n- [順番記憶ロック](https://www.youtube.com/live/Icdii90_vSA?si=5xbkuHBq09Pawbcj&t=16232)\n- [ペア合わせロック](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892)\n\nしかし、その間にもステインは容赦なく湧き続け、謎解きは常に命がけの状況でした。すべての黒薔薇を破壊するまで、緊張が途切れることはありませんでした。\n\n**幕間**\n\nさらに奥へと進むと、不気味な静けさに包まれた図書館があり、そこに置かれた一冊の本に謎掛けが記されていました。\n\n> _「心臓は遠く、鍵に守られ\n> 敵から最も遠い隅に隠されている」_\n\n**最終試練**\n\n最後の部屋には、クリスタルを守護する存在――**ステインキング・プロト**が待ち構えていました。そのクリスタルは、やがて明らかになる[ハート・オブ・ルイン](#entry:heart-of-ruin-entry)と繋がっていることが判明します。\n\nアリーナの四隅には再び黒薔薇が配置されており、それぞれに以前と同じ（数学、記憶、ペア合わせ）の謎解きが仕掛けられていました。すべての薔薇を破壊し尽くして初めて、戦いの後に音楽ディスクの入った宝箱へとようやく手が届くのです。\n\n[ステインキング・プロト戦](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=ySvBC15UpSUDHK4E&t=2203)\n\n### 報酬\n\n- 「[Monster](https://www.youtube.com/watch?v=2kllY6gIU6o&pp=ygUQbW9uc3RlciBob2xvbGl2ZQ%3D%3D)」レコード\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/status/1920399135754367072/photo/1)\n- ボスデザイン - [Asmodeus](#out:https://www.youtube.com/watch?v=7DoxNoIma18&feature=youtu.be)",
+      "thumbnailSrc": "/images-opt/stronghold-of-ruin-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "廃墟の要塞 概要 #1",
+          "source": "/images-opt/stronghold-of-ruin-entry-0-opt.webp"
+        },
+        {
+          "title": "廃墟の要塞 概要 #2",
+          "source": "/images-opt/stronghold-of-ruin-entry-1-opt.webp"
+        },
+        {
+          "title": "廃墟の要塞 概要 #3",
+          "source": "/images-opt/stronghold-of-ruin-entry-2-opt.webp"
+        },
+        {
+          "title": "ダンジョンボス: 汚染王プロト",
+          "source": "/images-opt/stronghold-of-ruin-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/stronghold-of-ruin-entry-opt.webp"
+    },
+    {
+      "id": "star-site-chaos-entry",
+      "title": "スターサイト・カオス",
+      "chapters": [
+        1
+      ],
+      "quote": "なんでも聞いてよ！私が叶えてあげるから！",
+      "content": "## 概要\n\n**解放日:** 5日目\n\n「スターサイト・カオス」は、チャプター2で挑戦できる3つ目の、そして最後のスターサイトです。これまでの2つとは一線を画すその舞台の奥底に眠っていたのは――まさしく「混沌」そのものを体現する存在、[ハコス・ベールズ](#entry:bae-entry)の記憶でした。\n\n## 詳細\n\n### 外観\n\nダンジョンの中心には、渦巻く虚空に巨大な円形ルーレットのプラットフォームが浮かんでいます。その周囲には、それぞれ異なるミニゲームへと繋がる六つの巨大な扉のような建造物がそびえ立ち、プレイヤーを誘います。全体は眩く輝く白いクォーツで飾られ、そこに大胆な原色が散りばめられたデザイン。その明るく鮮やかで、どこか非現実的なエネルギーは――まさに「偶然」と「混沌」の本質を映し出しているかのようです。\n\n### ゲーム\n\nこれまでのダンジョンが「謎解き」に焦点を当てていたのに対し、ここでの目玉は、ルーレットによってランダムに決定される様々なミニゲームです。プレイヤーの活躍は「ラックメーター」（幸運度）として記録され、良い成績を収めるほど「幸運」が蓄積されていきます。\n\n登場するミニゲームは全部で5種類。それぞれ異なるルールが用意されています。\n\n**崩れ床ショーダウン**\n[床](https://www.youtube.com/live/L7rBGepFrXA?si=ehUP_KK9qRn2DrzW&t=4127)が踏むごとに崩れ落ちる中、できるだけ多くのステインを倒しましょう！　参加者全員が落下した時点でゲーム終了となります。\n\n**バルーンポップ**\nプレイヤーは[色付きのボール](https://www.youtube.com/live/L7rBGepFrXA?si=ZN4CDNF33MknO8Qa&t=8297)を手に入れ、それを対応する色の風船にぶつけて割ります。風船が上へ昇りきってしまう前に、素早く破壊しましょう！\n\n**ブリンク・バウンド**\n一定間隔で出現と消失を繰り返す足場を利用し、[ボタン](https://www.youtube.com/live/L7rBGepFrXA?si=byW4Jzn2G2E6zxj2&t=8083)を谷の向こうへ押し進めます。制限時間内により多く押し進めるほど、スコアがアップします。\n\n**ボスルーム？**\n眠っているステインがいる[偽の部屋](https://www.youtube.com/live/L7rBGepFrXA?si=8feoLm3MloHkkDFp&t=4581)。しかし、安易に攻撃すると幸運が一切得られない、巧妙な罠が仕掛けられています。注意してくださいね！\n\n**カットアウト・マッチ**\nプレイヤーは3つの[色付きブロック](https://www.youtube.com/live/L7rBGepFrXA?si=E8tnJXe4Tp4hmHt&t=4740)を受け取り、迫りくる壁の穴の形と色にぴったり合う構造物を作り上げなければなりません。\n\nそして最後に待ち受けるのは、真のボス――**ステインキング・カオス**です！　戦闘はランダム要素に満ちており、最終局面ではルーレットが登場します。これまでに蓄積した「幸運」が多いほど、緑マスに止まる確率がアップしますよ。見事勝利を収めると、檻が開き、まばゆい音楽ディスクが姿を現します。\n\n[ステインキング・カオス戦](#embed:https://www.youtube.com/live/L7rBGepFrXA?si=wWfwJ_k0ugG8B9oW&t=4954)\n\n### 報酬\n\n- [\"Play Dice\"](https://www.youtube.com/watch?v=na6bysYNuS0&pp=ygUJcGxheSBkaWNl) レコード – ハコス・ベールズ\n- [ハコス・ベールズの記憶](https://www.youtube.com/watch?v=aSFZwinYaaU)\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/status/1921298173123076248)\n- コンセプトアート - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1922200389815882127/photo/1)\n- ボスデザイン - [Asmodeus](#out:https://www.youtube.com/watch?v=jEPAk0PdIjc&feature=youtu.be)",
+      "thumbnailSrc": "/images-opt/star-site-chaos-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "スターサイト・カオス全景 #1",
+          "source": "/images-opt/star-site-chaos-entry-0-opt.webp"
+        },
+        {
+          "title": "スターサイト・カオス全景 #2",
+          "source": "/images-opt/star-site-chaos-entry-1-opt.webp"
+        },
+        {
+          "title": "スターサイト・カオス コンセプトアート",
+          "source": "/images-opt/star-site-chaos-entry-2-opt.webp"
+        },
+        {
+          "title": "スターサイト・カオス アイコン",
+          "source": "/images-opt/star-site-chaos-entry-3-opt.webp"
+        },
+        {
+          "title": "ダンジョンボス: ステインキング・カオス",
+          "source": "/images-opt/star-site-chaos-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/star-site-chaos-entry-opt.webp"
+    },
+    {
+      "id": "star-site-chronos-entry",
+      "title": "スターサイト・クロノス",
+      "chapters": [
+        1
+      ],
+      "quote": "異常が起これば、それを正すのは私の役目だ。",
+      "content": "## 概要\n\n**解放日:** 4日目\n\n**スターサイト・クロノス**は、チャプター2に登場する3つのスターサイトの中で2番目に位置します。そのテーマはただ一つ――_時間_。このダンジョンには時を司る守護者、[オーロ・クロニー](#entry:kronii-entry)の記憶が眠っており、仕掛けやギミックのすべてが「時間操作」を軸に構築されています。\n\n## 詳細\n\n### 外観\n\nチャプター2のダンジョンの中でも、スターサイト・クロノスはひときわ優雅で、格式高く壮麗なデザインが特徴的です。中心には巨大な時計塔がそびえ立ち、深い蒼と輝く金色を基調に彩られています。この塔は、同じ色調の大きな円形プラットフォーム上にそびえ、すべての挑戦がこの舞台で行われます。プラットフォームの四隅には装飾的な時計の紋章が刻まれ、時間の象徴としての役割を際立たせています。\n\n塔は静謐な青い虚空に浮かび、点々と散らばる光は遠い星々の瞬きのように輝いています。その空間は荘厳な雰囲気に包まれ、まるで宇宙で最も神聖な力――「時間」そのものの領域へ足を踏み入れたかのような感覚を覚えるでしょう。\n\n### 仕掛け\n\nこのダンジョンの基本ギミックは、シンプルでありながらも斬新です。各部屋では短い**10秒のタイマー**が設定されており、制限時間内に目標を達成する必要があります。中央に置かれた**タイマーブロック**を操作することで、「再生」「一時停止」「巻き戻し」「リセット」といった時間操作を行うことができます。\n\n**第一の試練**\n\n[隙間を飛び越える](https://www.youtube.com/live/YVyeKQ-6Ka8?si=Wl_THIyIf_zPzyLC&t=686)というシンプルな導入です。ここでのタイマーブロックは、カウントをリセットする機能のみを持っています。\n\n**第二の試練**\n\n[動く壁](https://www.youtube.com/live/YVyeKQ-6Ka8?si=uw5ysU_bCtSsY0Vo&t=765)を抜ける迷路です。タイマーがゼロになると壁が閉じてしまいます。リセットすることで壁を再び開くことができ、プレイヤーは迷路内の床スイッチをすべて踏んで次のエリアを解放します。\n\n**第三の試練**\n\n時計塔内部のこの部屋には、[四本の柱に取り付けられた鏡](https://www.youtube.com/live/YVyeKQ-6Ka8?si=9ipSXdXbJZx-cklg&t=1222)が設置されています。タイマーブロックを再生すると光線が放たれ、この光は空中で一時停止させることが可能です。柱を動かして光を反射させ、扉の上にあるターゲットタイルに当てることで先に進めます。光の「再生」と「一時停止」を巧みに使いこなすのが鍵となります。\n\n**第四の試練**\n\nさらに上階には、[色付きの壁迷路](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vWL35RPlcj3FKtwZ&t=1850)が待ち受けます。6色の壁は対応するボタンで上下に動きます。押すタイミングによってその高さが変化するため、下層ではくぐれる高さに、上層では通路を塞がない高さに調整する必要があります。タイマーブロックの「一時停止」と「再生」を駆使することが攻略のポイントとなるでしょう。\n\n探索中にヒビ割れたブロックを発見できるでしょう。緑の壁を上げることでブロックを破壊し、鏡の部屋へのショートカットが解放されます。さらに、再び鏡と柱を利用して別の壊せる壁へとたどり着くと、そこにはダンジョンの音楽ディスクが隠されています。\n\n**第五の試練**\n\n最難関の挑戦となるのが、巨大な[多層迷路](https://www.youtube.com/live/YVyeKQ-6Ka8?si=hccb2ghDRdj1nsgO&t=2636)です。動く床、柵の壁、カラーボタン付きの立方体構造が複雑に組み合わさっています。ここではタイマーブロックに巻き戻し機能が追加され、床を過去の位置に戻すことができます。プレイヤーは以下のタスクをこなす必要があります。\n\n- 「巻き戻し」や「再生」で床の位置を調整する\n- ボタンを押して色付きゲートを開ける\n- シビアな足場移動で狭い道を渡り、出口を目指す\n\nこの最終パズルは、これまで学んできた論理、タイミング、協力、そして操作スキル、そのすべてが試されるでしょう。\n\n**最終戦 ― ステインキング・クロノス**\n\nボス戦もまた、「時間」の仕掛けを存分に活かした内容となっています。クロノスは数字の書かれた柱を召喚してきます。プレイヤーはタイマーブロックを対応する数字に合わせて柱を破壊し、ボスを無防備にする必要があります。\n\nさらにクロノスは、自身の体力ゲージを巻き戻して回復するという、戦いを「やり直し」にさせてしまう厄介な能力も持っています。\n\n[ステインキング・クロノス戦](#embed:https://www.youtube.com/live/YVyeKQ-6Ka8?si=DutQY97bg-9L372Q&t=3734)\n\n### 報酬\n\n- 「[Daydream](https://www.youtube.com/watch?v=6W749jRBg-4&pp=ygURZGF5ZHJlYW0gaG9sb2xpdmU%3D)」レコード – オーロ・クロニー\n- [オーロ・クロニーの記憶](https://www.youtube.com/watch?v=qV7dgz75tVo&pp=ygUTcmVjb2xsZWN0aW9uIGtyb25padIHCQnDCQGHKiGM7w%3D%3D)\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/status/1920402035117338696/photo/1)\n- コンセプトアート - [R_E_C_flctiond](https://x.com/R_E_C_flctiond/status/1921475614206505098/photo/1)\n- ボスデザイン - [Asmodeus](#out:https://www.youtube.com/watch?v=x4kTmNXDCXQ&feature=youtu.be)",
+      "thumbnailSrc": "/images-opt/star-site-chronos-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "スターサイト・クロノス概要 #1",
+          "source": "/images-opt/star-site-chronos-entry-0-opt.webp"
+        },
+        {
+          "title": "スターサイト・クロノス概要 #2",
+          "source": "/images-opt/star-site-chronos-entry-1-opt.webp"
+        },
+        {
+          "title": "スターサイト・クロノス概要 #3",
+          "source": "/images-opt/star-site-chronos-entry-2-opt.webp"
+        },
+        {
+          "title": "スターサイト・クロノスコンセプトアート",
+          "source": "/images-opt/star-site-chronos-entry-3-opt.webp"
+        },
+        {
+          "title": "ダンジョンボス: ステインキング・クロノス",
+          "source": "/images-opt/star-site-chronos-entry-4-opt.webp"
+        },
+        {
+          "title": "スターサイト・クロノスアイコン",
+          "source": "/images-opt/star-site-chronos-entry-5-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/star-site-chronos-entry-opt.webp"
+    },
+    {
+      "id": "star-site-elpis-entry",
+      "title": "スターサイト・エルピス",
+      "chapters": [
+        1
+      ],
+      "quote": "あなたの唯一無二のアイドル、さあ座ってショーを楽しんで！",
+      "content": "## 概要\n\n**解放日:** 2日目\n\n**スターサイト・エルピス**はチャプター2で勇者たちが最初に挑む本格的なダンジョンであり、この章で攻略することになる3つの「記憶のダンジョン」の皮切りとなる場所です。その深奥には――希望と絶望、二つの側面を持つ存在[IRyS](#entry:irys-entry)の、失われた記憶の断片が隠されています。\n\n## 詳細\n\n### 外観\n\nこのダンジョンのデザインは、「ネフィリム」という存在の概念を基盤としており、相反する二つの力が、鮮やかに表現されています。\n一方は天使を象徴する、輝く白と淡いパステルブルーに彩られ、清らかさと安らぎを宿しています。\nもう一方は悪魔を象徴する深紅の赤に染め上げられ、激しさと葛藤のオーラを放っています。\n\nそれぞれの道は長い回廊となっており、互いに並行しながらも、その姿を見ることはできません。そして、両方の道の試練を乗り越えて初めて、二つの道は交差し、ついに最後のボス戦へと繋がるのです。\n\n### パズル\n\nこのダンジョンは二人以上の協力プレイを前提としており、仲間は**天使の道**と**悪魔の道**に分かれて進み、互いに協力し合いながら、様々なパズルを解き明かしていくことになります。\n\n**第一のパズル**\n\n天使の道には、ボタンが配置された[赤いブロックの円](https://www.youtube.com/live/axlJjQQ_rzU?si=MAqpJXpQJXmj2K6e&t=3573)が用意されています。ボタンを押して色を赤から青へと変化させ、悪魔の道に並べられた赤と青の[焚き火](https://www.youtube.com/live/NSOuyMjCxPI?si=03CadFAr7PQ8DJvd&t=4524)と同じ配置にすることで、パズルは解き放たれます。\n\n**第二のパズル**\n\n天使の道にいるプレイヤーは、[動かせるブロック](https://www.youtube.com/live/axlJjQQ_rzU?si=DDnmLpQW0CXpggdp&t=3694)を操作し、床に描かれた迷路を進めていきます。しかし、その迷路の正しいルートを知るのは悪魔の道にいる仲間だけ。迷路の全貌が描かれた[地図](https://www.youtube.com/live/NSOuyMjCxPI?si=wgLETZiPN-WpX7qy&t=4666)を頼りに、的確な案内をしてもらう必要があるでしょう。\n\n- まずは小さな長方形のチュートリアル迷路で、基本的な仕組みを覚えましょう。\n- 本番では、悪魔の道には広大な迷路が、天使の道側には円形のエリアと色付きのブロックが広がっています。\n- **注:** ブロックを黒と赤のテラコッタ製タイルに正しく押し込むことで、ダンジョンの終盤に隠された扉が開き、貴重な[音楽ディスク](https://www.youtube.com/live/A97SrozF36w?si=zNzhwalpOc_S6Tu_&t=7429)を手に入れることができます。\n\n**第三のパズル**\n\n奈落の上に浮かぶ迷路を、天使の道にいるプレイヤーが[慎重に渡っていきます](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273)。一方、悪魔の道にいる仲間は広い[平面エリア](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227)に立ち、次々と出現するステインを撃破しなければなりません。悪魔側の立つ位置が、天使側では浮遊する足場として連動しており、両者の緊密な連携が不可欠となるでしょう。\n\n全てのパズルを突破した後、二つのチームはついに合流を果たし、そして、ダンジョンボス――禍々しき二つの頭を持つ竜、**ステインキング・エルピス**との激闘が、勇者たちを待ち受けるのです！\n\n[ステインキング・エルピス戦](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=imMOupLj1UxTJV2C&t=5896)\n\n### 報酬\n\n- [\"Caesura of Despair\"](https://youtu.be/vBNI979XyoE?si=J7NPq-J5GJfAt8iP) – IRySの音楽ディスク\n- [IRySの記憶](https://www.youtube.com/watch?v=5uaWaQg4pnM)\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/status/1919701535896043963/photo/1)\n- ボスデザイン - [Asmodeus](#out:https://www.youtube.com/watch?v=o3-fzH3MgfE&feature=youtu.be)",
+      "thumbnailSrc": "/images-opt/star-site-elpis-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "スターサイト・エルピス全景 #1",
+          "source": "/images-opt/star-site-elpis-entry-0-opt.webp"
+        },
+        {
+          "title": "スターサイト・エルピス全景 #2",
+          "source": "/images-opt/star-site-elpis-entry-1-opt.webp"
+        },
+        {
+          "title": "スターサイト・エルピス全景 #3",
+          "source": "/images-opt/star-site-elpis-entry-2-opt.webp"
+        },
+        {
+          "title": "スターサイト・エルピス全景 #4",
+          "source": "/images-opt/star-site-elpis-entry-3-opt.webp"
+        },
+        {
+          "title": "スターサイト・エルピス アイコン",
+          "source": "/images-opt/star-site-elpis-entry-4-opt.webp"
+        },
+        {
+          "title": "ダンジョンボス: ステインキング・エルピス",
+          "source": "/images-opt/star-site-elpis-entry-5-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/star-site-elpis-entry-opt.webp"
+    },
+    {
+      "id": "ancient-sewers-dungeon-entry",
+      "title": "エイジアント・シューアーズダンジョン",
+      "chapters": [
+        0
+      ],
+      "quote": "でっかいことをやりたい！世紀の事件を解き明かすんだ！",
+      "content": "## 概要\n\n**解放日:** 5日目\n\nエイジアント・シューアーズダンジョンは、チャプター1の最後を飾るダンジョン。そこには、みんなから愛される、おちゃめでかわいくてちょっぴり風変わりな名探偵――[アメリア・ワトソン](#entry:ame-entry)の記憶が眠っていました。\n\n- [エイジアント・シューアーズダンジョンの書物を読む](#text:ancient-sewers-dungeon-lore)\n\n## 詳細\n\n### 外観\n\nこれまで冒険者が挑んできたのは、壮大で神話的な城、神殿、そして迷宮といった舞台。しかしエイジアント・シューアーズダンジョンは、それらとは打って変わり、その名の通り下水道の奥深くに広がっていました。泥レンガで造られた入り組んだトンネルや分岐路は、質素ながらも独特の神秘的な雰囲気を醸し出し、冒険者の探検心をくすぐります。\n\n### 仕掛け\n\nこのダンジョンに用意された挑戦は、他のダンジョンと比べると最もシンプルなものでした。待ち受けていたのは[クイズ](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056)です。\n勇者たちはこれまでの旅の記憶を試す5問のクイズに挑戦することになりました。それぞれの質問には複数の選択肢が用意され、正解すれば次の問いへ進めます。しかし、もし間違ってしまうと、ステイン（敵）が待ち受ける部屋へ転送され、戦闘を終えてから再挑戦することになります。\n\n出題内容は、これまでのダンジョンで起こった出来事や記憶の断片に紐付けられており、最後の問題だけは、ダンジョン内を探索して隠された手がかりを見つける必要がありました。\n\n出題されたクイズは以下の通りです：\n\n**とある風変わりな死神が発見したエネルギーの源は？**\n– 答え: 人々の強い感情\n\n**アトランティスを守る結界を守護しているのは？**\n– 答え: サメの像\n\n**とある神社に現れた謎の少年の特技は？**\n– 答え: 折り紙\n\n**とある風変わりな不死鳥の偉業とは？**\n– 答え: ファストフード店の借金を肩代わりしたこと\n\n**ここまで旅を続けてきた冒険者たちのために、探偵が発明したものは？**\n– 答え: ワープクリスタル\n\nこれら5問すべてに正解できれば、チャプター1最後のダンジョンは突破です。\n\n### 報酬\n\n- ワープクリスタル\n- 「[ChikuTaku](https://www.youtube.com/watch?v=fYVweqOW31w&pp=ygUJY2hpa3V0YWt1)」ディスク - アメリア・ワトソン\n- [アメリア・ワトソンの記憶](https://www.youtube.com/watch?v=jDmyL6CuzBU&pp=ygUacmVjb2xsZWN0aW9uIGFtZWxpYSB3YXRzb24%3D)\n\n## 出典\n\n- ワールドビルダー - [t.s.kai](https://x.com/tskai_xx/status/1832470327122935920/photo/1)",
+      "thumbnailSrc": "/images-opt/ancient-sewers-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "エイジアント・シューアーズダンジョン入口",
+          "source": "/images-opt/ancient-sewers-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "エイジアント・シューアーズダンジョン概要 #1",
+          "source": "/images-opt/ancient-sewers-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "エイジアント・シューアーズダンジョン概要 #2",
+          "source": "/images-opt/ancient-sewers-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "エイジアント・シューアーズダンジョン概要 #3",
+          "source": "/images-opt/ancient-sewers-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "勇者たちがダンジョンを探索する様子",
+          "source": "/images-opt/ancient-sewers-dungeon-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/ancient-sewers-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "volcano-dungeon-entry",
+      "title": "火山ダンジョン",
+      "chapters": [
+        0
+      ],
+      "quote": "どうやら私はファストフードチェーンのオーナーにまで落ちぶれてしまったようだ。",
+      "content": "## 概要\n\n**解放日:** 4日目\n\nチャプター1の中でも特に過酷な試練となったのが、この**火山ダンジョン**です。灼熱の試練が連戦形式で次々と襲いかかり、勇者たちの忍耐力と根気がどこまで持つか、徹底的に試されました。ダンジョンの中心テーマは「蘇り」と「挑戦の繰り返し」。それは、不死鳥を象徴する[小鳥遊キアラ](#entry:kiara-entry)の精神をまさに体現していました。\n\n- [火山ダンジョンの日誌を読む](#text:volcano-dungeon-lore)\n\n## 詳細\n\n### 外観\n\n火を象徴する意匠が随所に凝らされ、巨大な城塞あるいは迷宮のような構造体が、溶岩の湖に浮かぶように築かれていました。内部は半ば崩壊した城塞のような雰囲気で、石と炎を基調としたデザインが広がっています。四方から熱気が放たれており、まるで巨大な鍛冶炉そのもののような雰囲気を醸し出していました。\n\n### 試練\n\n#### レーザーと罠\n\nこのダンジョンは謎解きよりも身体的な試練に重きを置いており、内部には数々の危険な罠が仕掛けられています。例えば、一撃で焼き尽くす[レーザー](https://www.youtube.com/live/N3v-MJXHQ0w?si=rFVQeKPLGv5Zumnz&t=6526)を避ける場面や、冒険者の好奇心を誘うかのように仕掛けられた[偽のボタン罠](https://www.youtube.com/live/N3v-MJXHQ0w?si=8JvYnazYsw-n5I-I&t=7215)を突破する場面などがありました。\n\n罠の種類は多岐にわたり、以下のようなものが確認されています。\n\n- 溶岩の落とし穴\n- 炎の回転棒トラップ\n- 粉雪トラップ\n- 落下する金床トラップ\n- マグマトラップ\n- 火の玉トラップ\n- 毒トラップ\n\n#### パルクールとボス戦\n\n終盤に待ち受けていたのは、複雑な[パルクールの跳躍](https://www.youtube.com/live/72SJQRQ7qi0?si=34q6OX2oqM_n2rX&t=15634)の数々でした。一定間隔で移動する足場や、一瞬だけ現れて消える足場を飛び渡る必要があり、一度の失敗が即死に直結する、非常に厳しい構造となっていました。\n\n最奥には炎の守護者「フレイムガーディアン」が立ちはだかりました。女神を模した巨大な石像であり、最終ボスとして冒険者を迎え撃ちます。勇者たちは浮遊する足場を渡りながら女神像の放つ火線を避け、最終的にはツルハシを用いて像の中枢を削り取り、その体力を削り落として勝利を収めました。\n\n[フレイムガーディアン戦](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=UymqRZv4YuWyiCbi&t=15823)\n\n### 報酬\n\n- 「[ヒノトリ](https://youtu.be/eDfMDkgheQY?si=LrNua8X-nFdM770M)」 ― 小鳥遊キアラによる音楽ディスク\n- [小鳥遊キアラの思い出](https://youtu.be/A3bQdV_sl08?si=-NxdiYuhunxDUoa1)\n\n## 出典\n\n- ワールドビルダー - [t.s.kai](https://x.com/tskai_xx)\n- コンセプトアート - [taneda822456](https://x.com/taneda822456/status/1831263434736013607/photo/1)",
+      "thumbnailSrc": "/images-opt/volcano-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "火山ダンジョン入口 概要 #1",
+          "source": "/images-opt/volcano-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "火山ダンジョン入口 概要 #2",
+          "source": "/images-opt/volcano-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "火山ダンジョン 概要 #1",
+          "source": "/images-opt/volcano-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "火山ダンジョン 概要 #2",
+          "source": "/images-opt/volcano-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "火山ダンジョン 概要 #3",
+          "source": "/images-opt/volcano-dungeon-entry-4-opt.webp"
+        },
+        {
+          "title": "火山ダンジョン 概要 #4",
+          "source": "/images-opt/volcano-dungeon-entry-5-opt.webp"
+        },
+        {
+          "title": "火山ダンジョン コンセプトアート",
+          "source": "/images-opt/volcano-dungeon-entry-6-opt.webp"
+        },
+        {
+          "title": "彼らは皆溶岩で泳ごうとした",
+          "source": "/images-opt/volcano-dungeon-entry-7-opt.webp"
+        },
+        {
+          "title": "勇者たちの探索",
+          "source": "/images-opt/volcano-dungeon-entry-8-opt.webp"
+        },
+        {
+          "title": "ボス戦の女神像",
+          "source": "/images-opt/volcano-dungeon-entry-9-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/volcano-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "eldritch-horror-dungeon-entry",
+      "title": "エルドリッチ・ホラー・ダンジョン",
+      "chapters": [
+        0
+      ],
+      "quote": "人々は「導き手」と呼ぶけれど、私はただ一緒にいてあげてるだけなんだ。",
+      "content": "## 概要\n\n**解放日:** 3日目\n\nエルドリッチ・ホラー・ダンジョンは、不気味な気配に満ちた聖域の中に存在していた。その怪しげで背筋が凍るような空気は、テーマとなった「古き者」の巫女――[一伊那尓栖](#entry:ina-entry)の優しく穏やかな雰囲気とは正反対だった。\n\n- [エルドリッチ・ホラー・ダンジョンの日記を読む](#text:eldritch-horror-dungeon-lore)\n\n## 詳細\n\n### 外観\n\nその名にふさわしく、ダンジョンは暗く陰鬱で異世界めいた雰囲気を漂わせていた。外から見ると、果てしない水の上に浮かぶ孤島のようで、地表には鳥居や宗教的な遺物が散らばり、神聖でありながらも見捨てられた土地を思わせた。だが、試練が行われるのはこの地表ではない。勇者たちは木造の密室へと転送され、壺や本棚、不気味な装飾が並ぶその空間で本当の挑戦が始まるのだった。\n\n### パズル\n\n目的は、囚われた魂を解放すること。そのためには、謎めいた存在に導かれながら一連の「ゲーム」をクリアしなければならない。試練には「正気度」という仕組みがあり、時間が経つにつれて徐々に減少していく。そして正気度がゼロになると、勇者は回復不能な衰弱を受け、やがて死に至ってしまう。\n\n主なパズルは3種類：\n\n- **壺割り:** 手がかりを元に、並んだ中から正しい[5つの壺](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275)を見つけて壊す。\n- **館の迷宮:** 無数の偽りの扉が並ぶ混乱の[迷宮](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540)を突破し、出口を探し当てる。\n- **スズラン探し:** いくつものチェストを調べ、\\_スズラン\\_と呼ばれる[花](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573)を集める。\n\n### 報酬\n\n- [\"Violet\"](https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN) ディスク - 一伊那尓栖\n- [一伊那尓栖の記憶](https://www.youtube.com/watch?v=QE5Ow4L1Zt8&pp=ygUQcmVjb2xsZWN0aW9uIGluYQ%3D%3D)\n\n## 出典\n\n- ワールドビルダー - [t.s.kai](https://x.com/tskai_xx/status/1830984777304015120/photo/1)",
+      "thumbnailSrc": "/images-opt/eldritch-horror-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "エルドリッチ・ホラー・ダンジョン入口",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "エルドリッチ・ホラー・ダンジョン全景 #1",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "エルドリッチ・ホラー・ダンジョン全景 #2",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "エルドリッチ・ホラー・ダンジョン全景 #3",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "エルドリッチ・ホラー・ダンジョン全景 #4",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-4-opt.webp"
+        },
+        {
+          "title": "ダンジョン探索中の勇者たち",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-5-opt.webp"
+        },
+        {
+          "title": "チャプター1トレーラー内のエルドリッチ・ホラー・ダンジョン",
+          "source": "/images-opt/eldritch-horror-dungeon-entry-6-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/eldritch-horror-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "ocean-temple-dungeon-entry",
+      "title": "オーシャン・テンプル・ダンジョン",
+      "chapters": [
+        0
+      ],
+      "quote": "ついに……私の物語はここから始まる！",
+      "content": "## 概要\n\n**解放日:** 2日目\n\n**オーシャン・テンプル・ダンジョン**は、かつて海底で繁栄し、今は忘れ去られた文明の痕跡が残る場所です。アトランティス人最後の生き残りである[がうる・ぐら](#entry:gura-entry)の故郷であり、彼女の記憶が眠る場所でもあります。\n\n- [オーシャン・テンプル・ダンジョンの日記を読む](#text:ocean-temple-dungeon-lore)\n\n## 詳細\n\n### 歴史\n\nかつてこの地には、革新的な技術と豊かな文化を誇る壮麗な文明が栄えていました。栄華を極めた時代、文明は海へと沈みましたが、そこで見事に再建され、後に「アトランティス」として知られるようになりました。\n\n### 外観\n\n現在のダンジョンは、かつての栄華を偲ばせるアトランティスの残骸に過ぎません。勇者たちは水中の洞窟を潜り抜け、ポータルを通じて石造りの都市の入り口へとたどり着きます。街路は鮮やかな緑の苔に覆われ、かつての賑わいは失われたものの、幻想的で神秘的な雰囲気を漂わせています。頭上を見上げれば、精巧に彫られたサメの像が並んでいます。一見するとイルカのようにも見えますが、もしかしたら過去の英雄たちの姿を象ったものかもしれません。\n\n### パズル\n\n- **ハノイの塔:** 大小さまざまな[輪](https://www.youtube.com/live/bOIlLaFiiE4?si=9T-46rQ15ghlkjRc&t=5810)を大きい順に重ね、すべて3本目の棒へと移し替える、思考力が試されるパズルです。\n\n- **橋のパズル:** [色分けされた](https://www.youtube.com/live/bOIlLaFiiE4?si=RRQ8rSSECOVsw8e_&t=6098)橋を巧妙に操作し、レーザートラップや足元の落下を避けながら、慎重に対岸を目指しましょう。\n\n- **守護者誘導パズル:** マネキンのような[守護者](https://www.youtube.com/live/bOIlLaFiiE4?si=-QX63tFq7Cp2tcxT&t=6384)を、プリズマリンの道に沿って高台へと導きます。守護者を地面に埋め込まれた5つの金ブロックすべての上に通過させることができれば、ダンジョンに隠された宝が解放されます。\n\n### 報酬\n\n- [\"REFLECT\"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05) – がうる・ぐらの音楽ディスク\n- [がうる・ぐらの記憶](https://www.youtube.com/watch?v=SDnRHwpnIH4)\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/)",
+      "thumbnailSrc": "/images-opt/ocean-temple-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "オーシャン・テンプル・ダンジョン入口全景 #1",
+          "source": "/images-opt/ocean-temple-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "オーシャン・テンプル・ダンジョン入口全景 #2",
+          "source": "/images-opt/ocean-temple-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "オーシャン・テンプル・ダンジョン全景 #1",
+          "source": "/images-opt/ocean-temple-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "オーシャン・テンプル・ダンジョン全景 #2",
+          "source": "/images-opt/ocean-temple-dungeon-entry-3-opt.webp"
+        },
+        {
+          "title": "ダンジョン探索中の勇者たち",
+          "source": "/images-opt/ocean-temple-dungeon-entry-4-opt.webp"
+        },
+        {
+          "title": "チャプター1トレーラー内のオーシャン・テンプル・ダンジョン",
+          "source": "/images-opt/ocean-temple-dungeon-entry-5-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/ocean-temple-dungeon-entry-opt.webp"
+    },
+    {
+      "id": "underworld-dungeon-entry",
+      "title": "アンダーワールド・ダンジョン",
+      "chapters": [
+        0
+      ],
+      "quote": "死神は生者の未来を奪うのではなく、支えるべき存在なんだ。",
+      "content": "## 概要\n\n**解放日:** 1日目\n\n『**アンダーワールド・ダンジョン**』は、チャプター1に登場する5つの主要ダンジョンのうち、最初に挑むことになるダンジョンです。[森カリオペ](#entry:calli-entry)をテーマにしたこのダンジョンは、果てしない闇に包まれた死者の国そのもの。すでに旅立った魂と、その旅立ちを見守る者たちが住まう場所です。\n\n- [アンダーワールド・ダンジョンの日記を読む](#text:underworld-dungeon-lore)\n\n## 詳細\n\n### 外観\n\nダンジョン全体を覆うのは、暗く陰鬱で威圧感のある雰囲気です。外部には溶岩の上に浮かぶ岩々が点在し、その先には巨大な城がそびえ立ちます。真の試練はそこで待ち受けているようです。\n城は黒い玄武岩のレンガを基調とし、深紅のネザーレンガが差し色として配された荘厳な造り。背後の溶岩に照らされた巨大な窓からは赤い光が差し込み、長い回廊には炎の松明が煌々と灯されています。影が揺らめくその空間は威厳と恐怖を兼ね備え、訪れる者に畏敬の念を抱かせます。\n\n### パズル\n\n- **浮島パルクール:** この冒険で初めて挑むことになる、本格的なダンジョン攻略です。[溶岩の上に浮かぶ岩々](https://www.youtube.com/live/xE3JQ1R2DdU?si=F_b9Fzm_PqfGy2wJ&t=10800)を飛び渡りながら、メインのダンジョンエリアを目指しましょう。\n\n- **モンスター討伐:** 城内最初の迷路状のホールでは、ガラス板を持ったモンスターが出現します。彼らを十分に[討伐](https://www.youtube.com/live/xE3JQ1R2DdU?si=sFOM71YcWPl-VwhQ&t=10926)することで、先へ進む道が開かれます。\n\n- **ランプ点灯:** 大きな[レッドストーンランプの立方体](https://www.youtube.com/live/xE3JQ1R2DdU?si=7GChsp0b3cow1sKS&t=11075)は、特定の模様で光っています。ランプを押すと、そのランプと十字に隣接するランプが点灯・消灯する仕組み。目標は、立方体全体を光らせることです。\n\n- **ダンジョンの木を登れ:** 次々と襲いかかるスケルトンを、小さなキノコの生えたブロックへと誘導する必要があります。スケルトンを[倒す](https://www.youtube.com/live/xE3JQ1R2DdU?si=PhIFZ1_WkalwvoTJ&t=11579)たびに、その植物はぐんぐん成長し、高さを増していきます。やがて、その植物を登りきると最終エリアへ到達し、見事攻略を果たすことができるでしょう。\n\n### 報酬\n\n- [\"Excuse My Rudeness, But Could You Please RIP\"](https://www.youtube.com/watch?v=5y3xh8gs24c) – 森カリオペの音楽ディスク\n- [森カリオペの記憶](https://www.youtube.com/watch?v=j8I3gqJV1NU)\n\n## 出典\n\n- ワールドビルダー - [tskai_xx](https://x.com/tskai_xx/status/)\n- コンセプトアート - [miya-zaki](https://x.com/miya_zaki/status/1830140718729265368/photo/1)",
+      "thumbnailSrc": "/images-opt/underworld-dungeon-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "アンダーワールド・ダンジョン入口",
+          "source": "/images-opt/underworld-dungeon-entry-0-opt.webp"
+        },
+        {
+          "title": "アンダーワールド・ダンジョン全景 #1",
+          "source": "/images-opt/underworld-dungeon-entry-1-opt.webp"
+        },
+        {
+          "title": "アンダーワールド・ダンジョン全景 #2",
+          "source": "/images-opt/underworld-dungeon-entry-2-opt.webp"
+        },
+        {
+          "title": "チャプター1トレーラー内のアンダーワールド・ダンジョン",
+          "source": "/images-opt/underworld-dungeon-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/underworld-dungeon-entry-opt.webp"
+    }
+  ],
+  "special-quests": [
+    {
+      "id": "ritual-entry",
+      "title": "呪われた書の謎",
+      "chapters": [
+        1
+      ],
+      "quote": "正しい順序を揃えれば、儀式は成功する！",
+      "content": "## 概要\n\n**解放日:** 6日目\n\n**「呪われた書の謎」**は、英雄たちに課せられた、いつものダンジョン探索とは一味違う特別なクエストとなりました。\n今回の任務は、旅の次なる段階へ進むために欠かせない一冊の本を浄化する「儀式」へと挑むこと。その書が持つ呪いを解き放つために、英雄たちは新たな試練に立ち向かいます。\n\n## 詳細\n\n### パズル\n\nこの儀式は、参加者同士の推理と駆け引きが鍵となる、ソーシャル・ディダクションゲーム形式で行われました。\n\n各参加者には**番号**と**お題**が割り振られ、各自に与えられた番号の大小を表現する言葉を考案。その言葉を手がかりに、正しい着席順を導き出す必要がありました。\n\nしかし、その中に一人だけ「呪われし者」が紛れ込んでおり、浄化の儀式を妨害しようと企んでいました。\n\n儀式を成功させる条件は以下の二つです。\n\n- 参加者全員を**数値の順番通り**に正しく並べること。\n- あるいは、「呪われし者」を見破り、投票によって排除すること。\n\n[儀式の様子](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?si=PuRoJPyk6DJCIjQC&t=5809)\n\n### 報酬\n\n- [「破滅の真実」を読む](#text:the-truth-of-ruin)",
+      "thumbnailSrc": "/images-opt/ritual-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "クエストが行われた会場",
+          "source": "/images-opt/ritual-entry-0-opt.webp"
+        },
+        {
+          "title": "クエストの指示書",
+          "source": "/images-opt/ritual-entry-1-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/ritual-entry-opt.webp"
+    }
+  ]
+}

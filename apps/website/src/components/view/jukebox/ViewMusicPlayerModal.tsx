@@ -1,5 +1,5 @@
-import SONGS from "#/songs.json";
 import AudioVisualizer from "@/components/view/jukebox/ViewAudioVisualizer";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -61,7 +61,6 @@ const TrackItem = ({
     isPlaying,
     onSelect,
 }: TrackItemProps) => {
-    const t = useTranslations("modals.music.info");
     const songThumbNail = song.coverUrl
         ? song.coverUrl.replace(/\.webp$/, "-thumb.webp")
         : "/images-opt/song-chapter-2-thumb-opt.webp";
@@ -100,7 +99,7 @@ const TrackItem = ({
                     {song.title}
                 </span>
                 <span className="text-xs opacity-70 line-clamp-1">
-                    {t(song.title) || "No info available"}
+                    {song.info || "No info available"}
                 </span>
             </div>
 
@@ -247,7 +246,9 @@ interface ViewMusicPlayerModalProps {
 }
 
 const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
-    const categories = useMemo(() => Object.entries(SONGS), []);
+    const { getSongs } = useLocalizedData();
+    const SONGS = useMemo(() => getSongs(), [getSongs]);
+    const categories = useMemo(() => Object.entries(SONGS), [SONGS]);
     const t = useTranslations("modals.music");
     const categoriesLabels = useMemo(
         () =>

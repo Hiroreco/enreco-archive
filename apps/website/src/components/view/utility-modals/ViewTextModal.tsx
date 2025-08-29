@@ -1,5 +1,5 @@
-import textData from "#/text-data.json";
 import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
@@ -14,7 +14,6 @@ import {
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { TextData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { BookOpenTextIcon, Play, Square } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -28,7 +27,8 @@ interface ViewTextModalProps {
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     const tCommon = useTranslations("common");
     const tText = useTranslations("modals.text");
-    const textItem = (textData as TextData)[textId];
+    const { getTextItem } = useLocalizedData();
+    const textItem = getTextItem(textId);
     const {
         playSFX,
         playTextAudio,

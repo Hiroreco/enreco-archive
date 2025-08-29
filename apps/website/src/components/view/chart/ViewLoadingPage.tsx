@@ -2,6 +2,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { motion } from "framer-motion";
 import { useCallback, useMemo, useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface ViewLoadingPageProps {
     useDarkMode: boolean;
@@ -14,6 +15,7 @@ const ViewLoadingPage = ({
     onStart,
     setViewAppVisible,
 }: ViewLoadingPageProps) => {
+    const t = useTranslations("loading");
     const [isClicked, setIsClicked] = useState(false);
     const [isAnimationComplete, setIsAnimationComplete] = useState(false);
     const [isPulse, setIsPulse] = useState(false);
@@ -236,7 +238,7 @@ const ViewLoadingPage = ({
                         </span>
                     </span>
                 ) : (
-                    <span className="text-center">Click anywhere to start</span>
+                    <span className="text-center">{t("clickToStart")}</span>
                 )}
             </motion.div>
         </motion.div>
