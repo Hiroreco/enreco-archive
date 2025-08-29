@@ -1,4 +1,5 @@
 import { CONTRIBUTORS } from "@/lib/misc";
+import { useTranslations } from "next-intl";
 import React from "react";
 
 interface Contributor {
@@ -46,6 +47,8 @@ const CreditBlock = ({
 };
 
 const ViewInfoCredits = () => {
+    const t = useTranslations("modals.infoCredits");
+
     const archiverCredits = CONTRIBUTORS.filter(
         (credit) => credit.role === "Archive Writer",
     );
@@ -59,7 +62,7 @@ const ViewInfoCredits = () => {
     );
     return (
         <div className="flex flex-col gap-4">
-            <span className="font-bold text-3xl mt-4">Credits</span>
+            <span className="font-bold text-3xl mt-4">{t("title")}</span>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {otherCredits.map((credit) => (
                     <CreditBlock
@@ -131,29 +134,24 @@ const ViewInfoCredits = () => {
             </div>
 
             <div className="font-bold text-center sm:text-left">
-                Special Thanks
+                {t("specialThanks")}
             </div>
 
             <div className="text-center sm:text-left -mt-2">
-                To everyone at the Enigmatic Recollection Lore Discord Server
-                for providing additional resources and emotional support, as
-                well as to the artists featured in the Fanart Gallery for
-                granting us permission to use their work in this project. All
-                artworks and their creators are properly credited and can be
-                found in that section.
+                {t("specialThanksDiscord")}
             </div>
             <div className="text-center sm:text-left -mt-2">
-                To{" "}
-                <a
-                    href="https://x.com/lyger_0"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    lyger
-                </a>
-                , the official scenario writer for ENigmatic Recollection, for
-                assisting with the proofreading of all lore-related content and
-                offering invaluable feedback for the site.
+                {t.rich("specialThanksLyger", {
+                    link: (chunks) => (
+                        <a
+                            href="https://x.com/lyger_0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {chunks}
+                        </a>
+                    ),
+                })}
             </div>
         </div>
     );

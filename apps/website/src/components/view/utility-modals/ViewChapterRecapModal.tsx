@@ -17,6 +17,7 @@ import { Button } from "@enreco-archive/common-ui/components/button";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
 import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
+import { useTranslations } from "next-intl";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
@@ -29,6 +30,8 @@ const ViewChapterRecapModal = ({
     onClose,
     currentChapter,
 }: ViewChapterRecapModalProps) => {
+    const t = useTranslations("common");
+
     const validCurrentChapter = currentChapter < data.chapters.length;
     const initialChapter = validCurrentChapter
         ? currentChapter
@@ -176,7 +179,7 @@ const ViewChapterRecapModal = ({
                         className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}
                     >
-                        <span className="text-lg">Close</span>
+                        <span className="text-lg">{t("close")}</span>
                     </Button>
                 </div>
             </DialogContent>

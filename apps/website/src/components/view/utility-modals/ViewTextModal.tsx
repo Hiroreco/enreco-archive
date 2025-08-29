@@ -17,6 +17,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { TextData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { BookOpenTextIcon, Play, Square } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 interface ViewTextModalProps {
@@ -25,6 +26,8 @@ interface ViewTextModalProps {
 }
 
 const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
+    const tCommon = useTranslations("common");
+    const tText = useTranslations("modals.text");
     const textItem = (textData as TextData)[textId];
     const {
         playSFX,
@@ -113,8 +116,8 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                             )}
                             title={
                                 isTextAudioPlaying
-                                    ? "Playing audio..."
-                                    : "Play audio"
+                                    ? tText("stopAudio")
+                                    : tText("playAudio")
                             }
                         >
                             {isTextAudioPlaying ? (
@@ -128,7 +131,7 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
                 <DialogFooter className="pt-4 border-t-2">
                     <DialogClose asChild>
                         <Button className="bg-accent text-lg text-accent-foreground w-full -mb-2">
-                            Close
+                            {tCommon("close")}
                         </Button>
                     </DialogClose>
                 </DialogFooter>

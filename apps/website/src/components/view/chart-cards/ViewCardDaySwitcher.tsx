@@ -22,7 +22,7 @@ const ViewCardDaySwitcher = ({
     availiableElements,
     showTitle = false,
 }: ViewCardDaySwitcherProps) => {
-    const t = useTranslations("dynamic");
+    const t = useTranslations("common");
 
     return (
         <div>

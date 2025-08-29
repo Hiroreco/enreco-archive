@@ -36,7 +36,7 @@ interface ViewSettingsModalProps {
 }
 
 const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
-    const tSettings = useTranslations("settings");
+    const tSettings = useTranslations("modals.settings");
     const tCommon = useTranslations("common");
 
     const bgmVolume = useSettingStore((state) => state.bgmVolume);

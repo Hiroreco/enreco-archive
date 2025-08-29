@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
 
 const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
@@ -19,14 +20,15 @@ const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
 };
 
 const ViewInfoGeneral = () => {
+    const t = useTranslations("modals.infoGeneral");
     const [showChangelog, setShowChangelog] = useState(false);
 
     return (
         <div className="flex flex-col gap-4">
             <div className="mt-4 flex flex-col">
-                <span className="font-bold text-3xl">ENreco Archive</span>
+                <span className="font-bold text-3xl">{t("title")}</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on August 18, 2025{" "}
+                    {t("updatedOn", { date: "August 18, 2025" })}{" "}
                     <a
                         href="#"
                         onClick={(e) => {
@@ -35,11 +37,11 @@ const ViewInfoGeneral = () => {
                         }}
                         className="text-blue-500 hover:text-blue-700 underline cursor-pointer"
                     >
-                        (Changelog)
+                        {t("changelog")}
                     </a>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Days since last episode:{" "}
+                    {t("daysSinceLastEpisode")}{" "}
                     <span className="font-bold">
                         {getDateDifference(
                             new Date(
@@ -51,121 +53,84 @@ const ViewInfoGeneral = () => {
                     </span>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Days until next chapter:{" "}
-                    <span className="font-bold">No info</span>
+                    {t("daysUntilNextChapter")}{" "}
+                    <span className="font-bold">{t("noInfo")}</span>
                 </span>
             </div>
-            <div>
-                Welcome to ENreco Archive! A fan project dedicated to archiving
-                (almost) everything that transpired during the events of{" "}
-                <span className="italic">Enigmatic Recollection</span>.
-            </div>
+            <div>{t("welcome", { series: t("series") })}</div>
 
-            <div>
-                From daily recaps and character relationships to major
-                storylines that shaped the entire narrative, everything is
-                compiled into byte-sized cards with timestamps—perfect for those
-                looking to catch up on the series or simply relive their
-                favorite moments.
-            </div>
+            <div>{t("description")}</div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
-                What is Enigmatic Recollection?
+                {t("whatIsTitle")}
             </div>
 
             <div>
-                Enigmatic Recollection, or <strong>ENreco</strong> for short,
-                is:
+                {t.rich("whatIsIntro", {
+                    shortName: t("shortName"),
+                    bold: (chunks) => <strong>{chunks}</strong>,
+                })}
             </div>
             <blockquote className="pl-4 italic opacity-80">
-                "A collection of stories in which the members of hololive
-                English play a part. Through streams, animations, and songs
-                wrought anew, immerse yourself in fresh narratives woven from
-                myriad realms beyond."{" "}
+                "{t("officialDescription")}"{" "}
                 <a
                     href="https://hololive.hololivepro.com/en/news/20240823-01-97/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    (Source)
+                    {t("source")}
                 </a>
             </blockquote>
 
-            <div>
-                In short, ENreco is where our favorite Hololive English talents
-                come together, interact, and create stories through roleplay.
-                The series is split into different chapters, each focusing on a
-                specific Hololive English generation, with its own unique
-                setting and lore.
-            </div>
+            <div>{t("explanation")}</div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
-                Notes
+                {t("notesTitle")}
             </div>
             <div>
-                Since this project aims to provide a concise recap of the
-                stories, some details may be missed or not included. For the
-                full experience, you can:
+                {t("notesContent")}
                 <ul className="list-disc mt-4">
-                    <li>Watch the talents' streams directly</li>
+                    <li>{t("watchStreams")}</li>
                     <li>
-                        Check out clips and well-made episodic compilations,
-                        such as those by{" "}
+                        {t("checkClips", { clipper: t("clipperName") })}{" "}
                         <a
                             href="https://www.youtube.com/watch?v=KIbQ-tcNWDw&list=PLonYStlm50KZ_rKewRuHUfuEMYbk_hbsi&ab_channel=BoubonClipperCh."
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Boubon Clipper Ch.
+                            {t("clipperName")}
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div>
-                The site is constantly updating as new stories unfold, and we'd
-                gladly welcome any help along the way! If you have any questions
-                or are interested in joining the team, feel free to reach out to
-                Hiro via{" "}
-                <a
-                    href="https://x.com/hiroavrs"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <span className="font-bold">@hiroavrs (X/Twitter)</span>
-                </a>{" "}
-                or send an email to{" "}
-                <a href="mailto:hiroreco@gmail.com">
-                    contacthiroreco@gmail.com
-                </a>
-                .
+                {t("teamInfo", {
+                    twitter: t("twitterHandle"),
+                    email: t("email"),
+                })}
             </div>
 
-            <div>
-                With that out of the way, feel free to move on to the next
-                section to learn how to navigate the archive!
-            </div>
+            <div>{t("nextSection")}</div>
 
             <div className="text-sm text-muted-foreground">
-                Note: If you experience major lag when using the site, try
-                switching to a Chromium-based browser (like Chrome, Opera, or
-                Edge).
+                {t("performanceNote")}
             </div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
-                Guidelines
+                {t("guidelinesTitle")}
             </div>
             <div>
-                This is a non-profit fan project and is not affiliated with
-                COVER Corp. nor Mojang. The site uses music taken from the
-                talents' streams, as well as sound effects and assets from
-                Minecraft, following{" "}
+                {t("guidelinesContent", {
+                    coverGuidelines: t("coverGuidelines"),
+                    minecraftGuidelines: t("minecraftGuidelines"),
+                })}{" "}
                 <a
                     href="https://hololivepro.com/en/terms/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    COVER's Derivative Works Guidelines
+                    {t("coverGuidelines")}
                 </a>{" "}
                 and{" "}
                 <a
@@ -173,7 +138,7 @@ const ViewInfoGeneral = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Minecraft Usage Guidelines.
+                    {t("minecraftGuidelines")}.
                 </a>
             </div>
 

@@ -37,7 +37,7 @@ export default function ViewTransportControls({
     onDayChange,
     isAnyModalOpen,
 }: ViewTransportControlsProps) {
-    const tDynamic = useTranslations("dynamic");
+    const tDynamic = useTranslations("common");
 
     // Keyboard navigation
     useEffect(() => {

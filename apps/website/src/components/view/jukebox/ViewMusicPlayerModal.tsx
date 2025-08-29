@@ -30,6 +30,7 @@ import {
     Volume2,
     VolumeX,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef } from "react";
 
@@ -60,6 +61,7 @@ const TrackItem = ({
     isPlaying,
     onSelect,
 }: TrackItemProps) => {
+    const t = useTranslations("modals.music.info");
     const songThumbNail = song.coverUrl
         ? song.coverUrl.replace(/\.webp$/, "-thumb.webp")
         : "/images-opt/song-chapter-2-thumb-opt.webp";
@@ -98,23 +100,13 @@ const TrackItem = ({
                     {song.title}
                 </span>
                 <span className="text-xs opacity-70 line-clamp-1">
-                    {song.info || "No info available"}
+                    {t(song.title) || "No info available"}
                 </span>
             </div>
 
             <span className="text-xs opacity-50 ml-2">{song.duration}</span>
         </div>
     );
-};
-
-const categories = Object.entries(SONGS);
-const categoriesLabels: Record<string, string> = {
-    enreco: "Official Themes",
-    ingame: "In-Game Music",
-    stream: "Talent-used Music",
-    talent: "Hero Themes",
-    instrumental: "Instrumental",
-    special: "Special",
 };
 
 interface PlayerControlsProps {
@@ -144,6 +136,7 @@ const PlayerControls = ({
     loopCurrentSong,
     currentTrack,
 }: PlayerControlsProps) => {
+    const t = useTranslations("modals.music");
     const previousVolumeBeforeMute = useRef(bgmVolume);
     return (
         <div className="flex items-center justify-between w-full px-2">
@@ -184,7 +177,9 @@ const PlayerControls = ({
                         <Shuffle size={16} />
                     </TooltipTrigger>
                     <TooltipContent>
-                        {isShuffled ? "Turn off shuffle" : "Turn on shuffle"}
+                        {isShuffled
+                            ? t("controls.shuffle.off")
+                            : t("controls.shuffle.on")}
                     </TooltipContent>
                 </Tooltip>
 
@@ -196,7 +191,9 @@ const PlayerControls = ({
                     >
                         <ChevronFirst />
                     </TooltipTrigger>
-                    <TooltipContent>Previous track</TooltipContent>
+                    <TooltipContent>
+                        {t("controls.previousTrack")}
+                    </TooltipContent>
                 </Tooltip>
 
                 <Tooltip delayDuration={300}>
@@ -208,7 +205,7 @@ const PlayerControls = ({
                         {isPlaying ? <Pause /> : <Play />}
                     </TooltipTrigger>
                     <TooltipContent>
-                        {isPlaying ? "Pause" : "Play"}
+                        {isPlaying ? t("controls.pause") : t("controls.play")}
                     </TooltipContent>
                 </Tooltip>
 
@@ -220,7 +217,7 @@ const PlayerControls = ({
                     >
                         <ChevronLast />
                     </TooltipTrigger>
-                    <TooltipContent>Next track</TooltipContent>
+                    <TooltipContent>{t("controls.nextTrack")}</TooltipContent>
                 </Tooltip>
 
                 <Tooltip delayDuration={300}>
@@ -235,8 +232,8 @@ const PlayerControls = ({
                     </TooltipTrigger>
                     <TooltipContent>
                         {loopCurrentSong
-                            ? "Turn off repeat"
-                            : "Repeat current song"}
+                            ? t("controls.repeatCurrentTrack.off")
+                            : t("controls.repeatCurrentTrack.on")}
                     </TooltipContent>
                 </Tooltip>
             </div>
@@ -250,6 +247,20 @@ interface ViewMusicPlayerModalProps {
 }
 
 const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
+    const categories = useMemo(() => Object.entries(SONGS), []);
+    const t = useTranslations("modals.music");
+    const categoriesLabels = useMemo(
+        () =>
+            ({
+                enreco: t("categories.enreco"),
+                ingame: t("categories.ingame"),
+                stream: t("categories.stream"),
+                talent: t("categories.talent"),
+                special: t("categories.special"),
+            }) as Record<string, string>,
+        [t],
+    );
+
     const catIndex = useMusicPlayerStore((state) => state.catIndex);
     const setCatIndex = useMusicPlayerStore((state) => state.setCatIndex);
     const trackIndex = useMusicPlayerStore((state) => state.trackIndex);
@@ -378,6 +389,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         loopWithinCategory,
         catIndex,
         setCatIndex,
+        categories.length,
     ]);
 
     const playPrev = useCallback(() => {
@@ -404,6 +416,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
         loopWithinCategory,
         catIndex,
         setCatIndex,
+        categories,
     ]);
 
     const playPause = useCallback(
@@ -659,8 +672,7 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                         <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
                             <div className="w-full flex justify-center items-center gap-1 z-10">
                                 <p className="truncate font-lg font-semibold">
-                                    {currentTrack?.title ||
-                                        "ENreco Archive Jukebox"}
+                                    {currentTrack?.title || t("controls.title")}
                                 </p>
                                 {currentTrack?.originalUrl && (
                                     <a
@@ -677,7 +689,8 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
                                 )}
                             </div>
                             <p className="text-sm opacity-70 z-10">
-                                {currentTrack?.info || "No track selected"}
+                                {currentTrack?.info ||
+                                    t("controls.noTrackSelected")}
                             </p>
                             <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
                         </div>

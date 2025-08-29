@@ -1,28 +1,23 @@
 import TimestampHref from "@/components/view/markdown/TimestampHref";
+import { useTranslations } from "next-intl";
 
 const ViewShioriGameInfo = () => {
+    const t = useTranslations("modals.minigames.games.shiori");
+
     return (
         <div className="flex flex-col gap-4">
             <p>
-                Throughout the second chapter, true to her role as the Archiver,{" "}
-                <span className="font-bold">Shiori</span> had written a variety
-                of fanfics and memory pieces as commissions. These ranged from
-                romantic and questionable tales, to NSFW content, as well as
-                more serious reflections on past comrades.
+                {t.rich("intro", {
+                    bold: (chunks) => (
+                        <span className="font-bold">{chunks}</span>
+                    ),
+                })}
             </p>
-
-            <p>
-                If you're curious about exploring Shiori's collection, which
-                includes books written by her as well as others, you have two
-                options: follow her journey (as well as others') day by day, or
-                correctly answer 10 questions here to unlock her full archive.
-            </p>
-
-            <p>Let’s see how well you really know Shiorin.</p>
-
+            <p>{t("options")}</p>
+            <p>{t("challenge")}</p>
             <TimestampHref
                 href="https://www.youtube.com/live/gVAtGMLBJos?si=EyxaXf2cdLNBNqxy&t=1107"
-                caption="Getting freaky with Fanfics"
+                caption={t("timestampCaption")}
                 type="embed"
             />
         </div>

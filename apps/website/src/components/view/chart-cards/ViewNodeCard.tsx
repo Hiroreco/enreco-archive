@@ -52,7 +52,7 @@ const ViewNodeCard = ({
     setChartShrink,
     onDayChange,
 }: Props) => {
-    const tNodeCard = useTranslations("nodeCard");
+    const tNodeCard = useTranslations("cards.nodeCard");
     const tConstants = useTranslations("constants");
 
     const contentRef = useRef<HTMLDivElement>(null);

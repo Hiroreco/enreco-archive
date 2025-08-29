@@ -58,7 +58,7 @@ const ViewEdgeCard = ({
     onDayChange,
     setChartShrink,
 }: Props) => {
-    const tEdgeCard = useTranslations("edgeCard");
+    const tEdgeCard = useTranslations("cards.edgeCard");
     const tConstants = useTranslations("constants");
 
     const contentRef = useRef<HTMLDivElement>(null);

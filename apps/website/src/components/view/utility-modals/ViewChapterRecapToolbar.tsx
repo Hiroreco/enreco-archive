@@ -5,6 +5,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
+import { useTranslations } from "next-intl";
 
 export interface Section {
     id: string;
@@ -28,6 +29,8 @@ const ViewChapterRecapToolbar = ({
     onChapterChange,
     onSectionChange,
 }: Props) => {
+    const t = useTranslations("common");
+
     const handleSectionChange = (sectionId: string) => {
         onSectionChange(sectionId);
         const element = document.getElementById(sectionId);
@@ -48,7 +51,7 @@ const ViewChapterRecapToolbar = ({
                 <SelectContent>
                     {chapters.map((chapter, idx) => (
                         <SelectItem key={idx} value={idx.toString()}>
-                            Chapter {idx + 1}: {chapter.title}
+                            {t("chapter", { val: idx + 1 })}: {chapter.title}
                         </SelectItem>
                     ))}
                 </SelectContent>
@@ -65,7 +68,7 @@ const ViewChapterRecapToolbar = ({
                 <SelectContent>
                     {sections.map((section, idx) => (
                         <SelectItem key={section.id} value={section.id}>
-                            Section {idx + 1}: {section.title}
+                            {t("section", { val: idx + 1 })}: {section.title}
                         </SelectItem>
                     ))}
                 </SelectContent>
