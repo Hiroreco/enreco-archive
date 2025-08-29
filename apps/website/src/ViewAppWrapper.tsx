@@ -32,8 +32,7 @@ export const ViewAppWrapper = () => {
     const closeCard = useViewStore((state) => state.ui.closeCard);
     const deselectElement = useViewStore((state) => state.ui.deselectElement);
 
-    const { getSiteData, getChapter } = useLocalizedData();
-    const data = getSiteData();
+    const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
 
     let bgImage = chapterData.bgiSrc;
@@ -106,7 +105,7 @@ export const ViewAppWrapper = () => {
                 <AnimatePresence mode="wait">
                     {appType === "chart" && (
                         <motion.div
-                            key="chart"
+                            key={`chart`}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
@@ -114,7 +113,6 @@ export const ViewAppWrapper = () => {
                         >
                             <ViewApp
                                 bgImage={bgImage}
-                                siteData={data}
                                 isInLoadingScreen={isLoading}
                             />
                         </motion.div>

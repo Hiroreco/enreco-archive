@@ -1,22 +1,18 @@
 "use client";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
-import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
 import ViewInfoModal from "@/components/view/basic-modals/ViewInfoModal";
-import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
 import ViewDayRecapCard from "@/components/view/chart-cards/ViewDayRecapCard";
+import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
+import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
 import { useViewStore } from "@/store/viewStore";
-import {
-    FixedEdgeType,
-    ImageNodeType,
-    SiteData,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 
 import ViewChart from "@/components/view/chart/ViewChart";
-import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
 import ViewReadCounter from "@/components/view/chart/ViewReadCounter";
-import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
 import ViewTransportControls from "@/components/view/chart/ViewTransportControls";
+import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
+import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/utility-modals/ViewVideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
 import { useClickOutside } from "@/hooks/useClickOutsite";
@@ -30,22 +26,23 @@ import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/Va
 
 import ViewChapterRecapModal from "@/components/view/utility-modals/ViewChapterRecapModal";
 
+import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
+import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
 import {
     CurrentChapterDataContext,
     CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
+import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import {
     countReadElements,
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
-import Image from "next/image";
-import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
-import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
-import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -65,13 +62,12 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
 }
 
 interface Props {
-    siteData: SiteData;
     isInLoadingScreen: boolean;
     bgImage: string;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
+const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const tNavTooltips = useTranslations("navTooltips");
     const tReadStatus = useTranslations("modals.readStatus");
 
@@ -188,7 +184,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
 
     /* Data variables */
-    const chapterData = siteData.chapters[locale][chapter];
+    const { getSiteData, getChapter } = useLocalizedData();
+    const siteData = getSiteData();
+    const chapterData = getChapter(chapter);
     const dayData = chapterData.charts[day];
 
     /* Build initial nodes/edges by combining data from previous days. */
@@ -422,6 +420,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             openInfoModal();
         }
     });
+
+    useEffect(() => {
+        // When locale changes, refresh the current data to get localized content
+        // Doing this to prevent selected element staying stale when the locale changes
+        changeWorkingData(chapter, day);
+        // DO NOT add the rest of the missing dependencies, it will cause an infinite loop, screw react
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [locale]);
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
