@@ -31,6 +31,9 @@ interface SettingState {
 
     locale: Locale;
     setLocale: (locale: Locale) => void;
+
+    _hasHydrated: boolean;
+    setHasHydrated: (hasHydrated: boolean) => void;
 }
 
 // Persists state in local storage
@@ -63,7 +66,18 @@ export const useSettingStore = create<SettingState>()(
 
             locale: "en",
             setLocale: (language: Locale) => set({ locale: language }),
+
+            _hasHydrated: false,
+            setHasHydrated: (hasHydrated: boolean) =>
+                set({ _hasHydrated: hasHydrated }),
         }),
-        { name: "setting" },
+        {
+            name: "setting",
+            onRehydrateStorage: () => (state) => {
+                if (state) {
+                    state._hasHydrated = true;
+                }
+            },
+        },
     ),
 );
