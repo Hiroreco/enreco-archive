@@ -1,12 +1,12 @@
 <!-- title: リベスタル王国（古代） -->
-<!-- quote: 遠い過去、この地で「アウトサイダー」は生まれた――。 -->
+<!-- quote: 遠い昔に、この地で「アウトサイダー」が誕生したのだった。 -->
 <!-- chapters: 1 -->
 <!-- images: (Ancient Libestal Overview #1), (Ancient Libestal Overview #2), (Ancient Libestal Overview #3), (Exterior of Libestal Castle), (Interior of Libestal Castle #1), (Interior of Libestal Castle #2), (Interior of Libestal Castle #3), (Interior of Libestal Castle #4), (Ancient Libestal Concept Art) --->
 <!-- model: false -->
 
 ## 概要
 
-古代リベスタルは、第一章で勇者たちが召喚された[偽りの王国](#entry:libestal-ficta-entry)とは異なり、実際に存在していた本物のリベスタル。そこは、後の[アウトサイダー](#entry:outsider-entry)が誕生する前の時代に位置する地でした。勇者たちはここで第二の旅を始めます。目的は「ルイネーション」を阻止し、世界と宇宙そのものを救うこと。そのために、穢れの源を断ち切るべく、彼女たちは新たな旅を歩み出したのだった。
+古代リベスタルは、第一章で勇者たちが召喚された[偽りの王国](#entry:libestal-ficta-entry)とは違い、[アウトサイダー](#entry:outsider-entry)が誕生する前に実際に存在していた本物のリベスタル王国。ここで「ルイネーション」を阻止し、汚れの源を断ち切るべく、世界の救済を目的とし、勇者たちが第二の旅を歩み出したのだった。
 
 - [「リベスタル王国（古代）」を読む](#text:libestal-ancient)
 
