@@ -55,15 +55,15 @@
       "notesTitle": "Notes",
       "notesContent": "Since this project aims to provide a concise recap of the stories, some details may be missed or not included. For the full experience, you can:",
       "watchStreams": "Watch the talents' streams directly",
-      "checkClips": "Check out clips and well-made episodic compilations, such as those by {clipper}",
+      "checkClips": "Check out clips and well-made episodic compilations, such as those by <clipper-link>{clipper}</clipper-link>",
       "clipperName": "Boubon Clipper Ch.",
-      "teamInfo": "The site is constantly updating as new stories unfold, and we'd gladly welcome any help along the way! If you have any questions or are interested in joining the team, feel free to reach out to Hiro via {twitter} or send an email to {email}.",
+      "teamInfo": "The site is constantly updating as new stories unfold, and we'd gladly welcome any help along the way! If you have any questions or are interested in joining the team, feel free to reach out to Hiro via <twitter-link>{twitter}</twitter-link> or send an email to <mail-link>{email}.</mail-link>",
       "twitterHandle": "@hiroavrs (X/Twitter)",
       "email": "contacthiroreco@gmail.com",
       "nextSection": "With that out of the way, feel free to move on to the next section to learn how to navigate the archive!",
       "performanceNote": "Note: If you experience major lag when using the site, try switching to a Chromium-based browser (like Chrome, Opera, or Edge).",
       "guidelinesTitle": "Guidelines",
-      "guidelinesContent": "This is a non-profit fan project and is not affiliated with COVER Corp. nor Mojang. The site uses music taken from the talents' streams, as well as sound effects and assets from Minecraft, following {coverGuidelines} and {minecraftGuidelines}.",
+      "guidelinesContent": "This is a non-profit fan project and is not affiliated with COVER Corp. nor Mojang. The site uses music taken from the talents' streams, as well as sound effects and assets from Minecraft, following <cover-link>{coverGuidelines}</cover-link> and <minecraft-link>{minecraftGuidelines}.</minecraft-link>",
       "coverGuidelines": "COVER's Derivative Works Guidelines",
       "minecraftGuidelines": "Minecraft Usage Guidelines"
     },
@@ -105,7 +105,18 @@
       "title": "Credits",
       "specialThanks": "Special Thanks",
       "specialThanksDiscord": "To everyone at the ENigmatic Recollection Lore Discord Server for providing additional resources and emotional support, as well as to the artists featured in the Fanart Gallery for granting us permission to use their work in this project. All artworks and their creators are properly credited and can be found in that section.",
-      "specialThanksLyger": "To <link>lyger</link>, the official scenario writer for ENigmatic Recollection, for assisting with the proofreading of all lore-related content and offering invaluable feedback for the site."
+      "specialThanksLyger": "To <link>lyger</link>, the official scenario writer for ENigmatic Recollection, for assisting with the proofreading of all lore-related content and offering invaluable feedback for the site.",
+      "roles": {
+        "Project Lead": "Project Lead",
+        "Main Developer": "Main Developer",
+        "Assisted Developer": "Assisted Developer",
+        "Site Graphics": "Site Graphics",
+        "Special Assets": "Special Assets",
+        "Quality Assurance": "Quality Assurance",
+        "Archive Writer": "Archive Writer",
+        "Archive Assistant": "Archive Assistant",
+        "Translator": "Translator"
+      }
     },
     "minigames": {
         "title": "Minigames",

@@ -55,15 +55,15 @@
       "notesTitle": "注記",
       "notesContent": "このプロジェクトは物語の簡潔な要約提供を目指しているため、一部の詳細が省略されている場合があります。完全な体験のためには:",
       "watchStreams": "タレントの配信を直接視聴する",
-      "checkClips": "クリップや{clipper}などによる優れたエピソード編集動画をチェックする",
+      "checkClips": "<clipper-link>{clipper}</clipper-link>などによるクリップや優れたエピソード編集動画をチェックする",
       "clipperName": "Boubon Clipper Ch.",
-      "teamInfo": "サイトは新しい物語が展開されるにつれて常に更新されており、道のりでのお手伝いを喜んで歓迎いたします！ご質問がある場合や チームに参加したい場合は、{twitter}経由でHiroに連絡するか、{email}にメールをお送りください。",
+      "teamInfo": "サイトは新しい物語が展開されるにつれて常に更新されており、道のりでのお手伝いも大歓迎です！ご質問がある場合やチーム参加に興味がある場合は、<twitter-link>{twitter}</twitter-link>までご連絡いただくか、<mail-link>{email}</mail-link>までメールをお送りください。",
       "twitterHandle": "@hiroavrs (X/Twitter)",
       "email": "contacthiroreco@gmail.com",
       "nextSection": "それでは、次のセクションに進んでアーカイブのナビゲーション方法を学んでください！",
       "performanceNote": "注記: サイト利用時に重大な遅延が発生する場合は、Chromiumベースのブラウザ（Chrome、Opera、Edgeなど）への切り替えをお試しください。",
       "guidelinesTitle": "ガイドライン",
-      "guidelinesContent": "これは非営利のファンプロジェクトであり、COVER株式会社ともMojang社とも関係ありません。サイトではタレントの配信から取得した音楽、およびMinecraftの効果音とアセットを{coverGuidelines}と{minecraftGuidelines}に従って使用しています。",
+      "guidelinesContent": "これは非営利のファンプロジェクトであり、COVER株式会社ともMojang社とも関係ありません。サイトではタレントの配信から取得した音楽、およびMinecraftの効果音とアセットを<cover-link>{coverGuidelines}</cover-link>と<minecraft-link>{minecraftGuidelines}</minecraft-link>に従って使用しています。",
       "coverGuidelines": "COVERの二次創作ガイドライン",
       "minecraftGuidelines": "Minecraft利用ガイドライン"
     },
@@ -105,7 +105,18 @@
       "title": "クレジット",
       "specialThanks": "スペシャルサンクス",
       "specialThanksDiscord": "ENigmatic Recollection Lore Discord Serverの皆様には追加リソースと精神的サポートを提供していただき、また、ファンアートギャラリーに掲載されているアーティストの皆様にはこのプロジェクトでの作品使用許可をいただきました。すべての作品と制作者は適切にクレジットされており、そのセクションでご確認いただけます。",
-      "specialThanksLyger": "ENigmatic Recollectionの公式シナリオライターである<link>lyger</link>には、すべてのストーリー関連コンテンツの校正と、サイトに対する貴重なフィードバックをいただきました。"
+      "specialThanksLyger": "ENigmatic Recollectionの公式シナリオライターである<link>lyger</link>には、すべてのストーリー関連コンテンツの校正と、サイトに対する貴重なフィードバックをいただきました。",
+      "roles": {
+        "Project Lead": "プロジェクトリーダー",
+        "Main Developer": "メイン開発者",
+        "Assisted Developer": "補助開発者",
+        "Site Graphics": "サイトグラフィック",
+        "Special Assets": "特別アセット",
+        "Quality Assurance": "品質保証",
+        "Archive Writer": "アーカイブライター",
+        "Archive Assistant": "アーカイブアシスタント",
+        "Translator": "翻訳者"
+      }
     },
     "minigames": {
         "title": "ミニゲーム",

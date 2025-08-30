@@ -23,6 +23,7 @@ import ViewInfoCredits from "@/components/view/basic-modals/ViewInfoCredits";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback } from "react";
 import { useTranslations } from "next-intl";
+import LocaleSwitcher from "@/components/view/basic-modals/LocaleSwitcher";
 
 interface ViewInfoModalProps {
     open: boolean;
@@ -123,9 +124,14 @@ const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
                         </ToggleGroup.Item>
                     </ToggleGroup.Root>
 
-                    <DialogClose asChild>
-                        <Button className="self-end">{tCommon("close")}</Button>
-                    </DialogClose>
+                    <div className="flex items-center gap-2">
+                        <LocaleSwitcher />
+                        <DialogClose asChild>
+                            <Button className="self-end min-w-20">
+                                {tCommon("close")}
+                            </Button>
+                        </DialogClose>
+                    </div>
                 </DialogFooter>
             </DialogContent>
         </Dialog>

@@ -16,11 +16,12 @@ const CreditBlock = ({
     icon: React.JSX.Element;
     contributors: Contributor[];
 }) => {
+    const t = useTranslations("modals.infoCredits.roles");
     return (
         <div className="text-center sm:text-left">
             <div className="flex underline underline-offset-2 gap-2 items-center font-bold justify-center sm:justify-start">
                 {icon}
-                {role}
+                {t(role)}
             </div>
             <ul className="list-disc mt-2 text-left sm:text-left">
                 {contributors.map((contributor, index) => (
@@ -48,6 +49,7 @@ const CreditBlock = ({
 
 const ViewInfoCredits = () => {
     const t = useTranslations("modals.infoCredits");
+    const tRoles = useTranslations("modals.infoCredits.roles");
 
     const archiverCredits = CONTRIBUTORS.filter(
         (credit) => credit.role === "Archive Writer",
@@ -78,7 +80,7 @@ const ViewInfoCredits = () => {
                 <div className="flex flex-col lg:items-center gap-2">
                     <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
                         {archiverCredits[0].icon}
-                        {archiverCredits[0].role}
+                        {tRoles(archiverCredits[0].role)}
                     </div>
                     <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 text-center sm:text-left">
                         {archiverCredits[0].contributors.map(
@@ -106,7 +108,7 @@ const ViewInfoCredits = () => {
                 <div className="flex flex-col lg:mx-auto gap-2">
                     <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
                         {archiveAssistants[0].icon}
-                        {archiveAssistants[0].role}
+                        {tRoles(archiveAssistants[0].role)}
                     </div>
                     <div className="grid gap-2 text-center sm:text-left">
                         {archiveAssistants[0].contributors.map(
