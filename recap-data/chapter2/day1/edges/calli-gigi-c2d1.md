@@ -12,3 +12,7 @@ Gonathon remained staunchly loyal to Mordan. When Shiori and Mordan began to feu
 Mordan, for her part, seemed oddly smitten with Gonathon, to the point of wanting to give him several [objects of affection](https://youtu.be/CPT2cj934-I?t=5250). Only time will tell if the humble Knight will reciprocate or even become aware of these feelings.
 
 [Gordon Ramsey is our ship name!](#embed:https://youtu.be/CPT2cj934-I?t=13933)
+
+## Memes
+
+["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)

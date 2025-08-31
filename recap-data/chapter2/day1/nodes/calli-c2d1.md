@@ -32,7 +32,3 @@ It was thrilling. She got straight to work laying the foundation—literally—f
 ["chef mori!" by fushide](https://x.com/fushide_/status/1919625900900896785)
 
 ["What would make you stop?" by sanni](https://x.com/sanni44322/status/1918805606095257896)
-
-## Memes
-
-["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)
