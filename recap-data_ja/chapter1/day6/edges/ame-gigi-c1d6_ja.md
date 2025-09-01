@@ -7,7 +7,7 @@
 
 [ありがとう、私のパール！](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=238)
 
-その後、ゴナソンは妻を呼び寄せ、仲間たちの不審な行動について密談を交わした。特に彼は、コセキ・ビジューがステインに操られているのではないかと疑っていたのだ。ジョナソンもそれに同意し、自らその[件](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4034)を調査することを引き受けた。
+その後、ゴナソンは妻を呼び寄せ、仲間たちの不審な行動について密談を交わした。特に彼は、古石・ビジューがステインに操られているのではないかと疑っていたのだ。ジョナソンもそれに同意し、自らその[件](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4034)を調査することを引き受けた。
 
 二人は真相を突き止めるため、ビジューに質問を重ね、帽子を脱ぐよう頼むなど、あらゆる手を尽くした。しかし、探れば探るほど[事態は混迷](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4887)を深めるばかり。ひとまず、その場の結論は後回しにすることにした。
 

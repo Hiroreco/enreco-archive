@@ -3,7 +3,7 @@
 **日記 6日目**
 
 元プリンセス
-コセキ・ビジューの記録
+古石・ビジューの記録
 
 聞け！新しい才能を見つけたぞ！それは――ステルス！
 
@@ -37,4 +37,4 @@ JawijgweirhgNNWefjgmwgknregknbe rikGNERKLGHNER%jkglyhnergnegnergL ENRGER
 
 ……本当に穏やかな一日だったな。
 
-— 元プリンセス コセキ・ビジュー 6/7日目
+— 元プリンセス 古石・ビジュー 6/7日目
