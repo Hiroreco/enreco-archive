@@ -1,7 +1,7 @@
 <!-- title: エリザベス・ローズ・ブラッドフレイム -->
 <!-- quote: 名誉のために、前へ、さらに高みへ！ -->
 <!-- chapters: -1 -->
-<!-- images: (Elizabeth's Chapter 1 Profile), (Elizabeth in the "Start Again" MV), (Elizabeth fighting along with Cecilia), (Elizbaeth's key moments illustrated through each day), (Elizabeth's Chapter 2 Profile), (Elizabeth writing her daily journal), (Elizabeth in Chapter 2's Ending) -->
+<!-- images: （エリザベス 第1章 プロフィール）、（「Start Again」MVでのエリザベス）、（セシリアと共に戦うエリザベス）、（日ごとの重要な場面を描いたエリザベス）、（エリザベス 第2章 プロフィール）、（日記を綴るエリザベス）、（第2章のエンディングに登場するエリザベス）-->
 <!-- model: false -->
 
 ## 概要

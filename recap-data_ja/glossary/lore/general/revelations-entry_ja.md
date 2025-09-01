@@ -1,7 +1,7 @@
 <!-- title: レベレーション -->
 <!-- quote: その力は、忘れ去られた記憶のように彼女たちに訪れた。 -->
 <!-- chapters: -1 -->
-<!-- images: (Revelations' Appearance Overview #1), (Revelations' Appearance Overview #2), (Revelations' Power Overview) --->
+<!-- images: （レベレーション 外観 概観 #1）、（レベレーション 外観 概観 #2）、（レベレーション 力 概観）--->
 <!-- model: false -->
 
 ## 概要

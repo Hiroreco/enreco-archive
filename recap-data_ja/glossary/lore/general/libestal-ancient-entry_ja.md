@@ -1,7 +1,7 @@
 <!-- title: リベスタル王国（古代） -->
 <!-- quote: 遠い昔、この地で「アウトサイダー」が誕生したのだった。 -->
 <!-- chapters: 1 -->
-<!-- images: (Ancient Libestal Overview #1), (Ancient Libestal Overview #2), (Ancient Libestal Overview #3), (Exterior of Libestal Castle), (Interior of Libestal Castle #1), (Interior of Libestal Castle #2), (Interior of Libestal Castle #3), (Interior of Libestal Castle #4), (Ancient Libestal Concept Art) --->
+<!-- images: （古代リベスタル 概観 #1）、（古代リベスタル 概観 #2）、（古代リベスタル 概観 #3）、（リベスタル城 外観）、（リベスタル城 内部 #1）、（リベスタル城 内部 #2）、（リベスタル城 内部 #3）、（リベスタル城 内部 #4）、（古代リベスタル コンセプトアート）--->
 <!-- model: false -->
 
 ## 概要
