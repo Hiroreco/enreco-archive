@@ -3,6 +3,7 @@ import ViewSectionJumper from "@/components/view/glossary/ViewSectionJumper";
 import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
+import { useSettingStore } from "@/store/settingStore";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -16,6 +17,8 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const contentRef = useRef<HTMLDivElement>(null);
     const tGlossaryInfo = useTranslations("glossary.info");
+    const tCommon = useTranslations("common");
+    const locale = useSettingStore((state) => state.locale);
 
     const handleAnimationComplete = useCallback(() => {
         // Handle scroll position restoration after animation completes
@@ -79,8 +82,10 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                 </span>
                                 <span className="text-muted-foreground text-center">
                                     {entry.item.chapters.includes(-1)
-                                        ? "Chapter 1"
-                                        : `Chapter ${entry.item.chapters[0] + 1}`}
+                                        ? tCommon("chapter", { val: 1 })
+                                        : tCommon("chapter", {
+                                              val: entry.item.chapters[0] + 1,
+                                          })}
                                 </span>
                             </p>
 
@@ -93,7 +98,9 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     onNodeLinkClicked={() => {}}
                                     onEdgeLinkClicked={() => {}}
                                 >
-                                    {`“${entry.item.quote || ""}”`}
+                                    {locale === "ja"
+                                        ? entry.item.quote || ""
+                                        : `“${entry.item.quote || ""}”`}
                                 </ViewMarkdown>
                             </div>
                         </div>
