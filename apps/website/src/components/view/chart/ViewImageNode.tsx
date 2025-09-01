@@ -8,7 +8,10 @@ import { memo, useContext, useMemo } from "react";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 import "./ViewImageNode.css";
-import { getReadStatus, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    getReadStatus,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
 import { useViewStore } from "@/store/viewStore";
 
 const NUM_OF_HANDLES = 5;
@@ -45,12 +48,12 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
+const ViewImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
     const { teams } = useContext(CurrentChapterDataContext);
 
-    const chapter = useViewStore(state => state.data.chapter);
-    const day = useViewStore(state => state.data.day);
-    const readStatus = usePersistedViewStore(state => state.readStatus);
+    const chapter = useViewStore((state) => state.data.chapter);
+    const day = useViewStore((state) => state.data.day);
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
 
     const isNodeRead = getReadStatus(readStatus, chapter, day, id);
 
@@ -77,7 +80,9 @@ const ViewImageNode = ({ data, selected, id }: ImageNodeProps) => {
                 className={cn(
                     "node-content relative cursor-pointer w-[100px] h-[100px] rounded",
                     {
-                        "hover:scale-110 transition-transform": !selected,
+                        "hover:scale-110 transition-transform":
+                            !selected && selectable,
+                        "cursor-default": !selectable,
                     },
                 )}
             >

@@ -201,6 +201,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 node.hidden = !(
                     team[node.data.teamId || "null"] && character[node.id]
                 );
+                node.selectable = node.data.day === day;
 
                 if (selectedElement) {
                     if (isNode(selectedElement)) {
@@ -215,7 +216,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 }
             }
         });
-    }, [resolvedData.nodes, team, character, selectedElement]);
+    }, [resolvedData.nodes, team, character, selectedElement, day]);
 
     /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
@@ -301,14 +302,14 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
                 if (newSelectedEdge) {
                     newSelectedEdge.selected = true;
-                    const sourceNode = dayData.nodes.find(
+                    const sourceNode = newDayData.nodes.find(
                         (n) => n.id === newSelectedEdge.source,
                     );
                     if (sourceNode) {
                         sourceNode.selected = true;
                     }
 
-                    const targetNode = dayData.nodes.find(
+                    const targetNode = newDayData.nodes.find(
                         (n) => n.id === newSelectedEdge.target,
                     );
                     if (targetNode) {
@@ -373,6 +374,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     const onNodeClick = useCallback(
         (node: ImageNodeType) => {
+            // onEdgeClick doesn't need this, but onNodeClick does, why? Idk.
+            if (!node.selectable) {
+                return;
+            }
             selectElement(node);
             openNodeCard();
         },

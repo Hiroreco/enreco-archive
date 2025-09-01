@@ -9,7 +9,7 @@ Instead, she thought that she should expand her hand-built neighborhood into a l
 
 ---
 
-INSPIRED OR COPIED?
+**INSPIRED OR COPIED?**
 
 With no more time to spare, Mordan started the bidding war for the three houses she had built. That is, before [home inspections revealed holes in the walls](https://www.youtube.com/live/Ch4qLZhARtY?t=4991), which Mordan immediately patched up.
 
