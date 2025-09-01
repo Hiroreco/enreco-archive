@@ -374,7 +374,8 @@
       "mechanics": "メカニクス",
       "quests": "クエスト",
       "side-quests": "サイドクエスト",
-      "heroes-storylines": "勇者たちのストーリー"
+      "heroes-storylines": "勇者たちのストーリー",
+      "heroes": "勇者"
     },
     "filters": {
       "allChapters": "全チャプター",

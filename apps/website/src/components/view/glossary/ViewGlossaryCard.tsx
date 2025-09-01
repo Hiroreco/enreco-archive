@@ -96,6 +96,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
             quests: tGlossary("subcategories.quests"),
             "side-quests": tGlossary("subcategories.side-quests"),
             "heroes-storylines": tGlossary("subcategories.heroes-storylines"),
+            heroes: tGlossary("subcategories.heroes"),
         }),
         [tGlossary],
     );
