@@ -56,19 +56,9 @@ const ViewVisibilityCard = ({
         return charImgMap;
     }, [nodes]);
 
-    const teamsHeader =
-        chapter === 0
-            ? "Guild Toggles"
-            : chapter === 1
-              ? t("jobToggles")
-              : t("teamToggles");
-
+    const teamsHeader = chapter === 1 ? t("jobToggles") : t("teamToggles");
     const showAllTeamsLabel =
-        chapter === 0
-            ? "Show all guilds"
-            : chapter === 1
-              ? t("showAllJobs")
-              : t("showAllTeams");
+        chapter === 1 ? t("showAllJobs") : t("showAllTeams");
 
     return (
         <div className="flex flex-col gap-4 p-4 h-full overflow-y-scroll">
