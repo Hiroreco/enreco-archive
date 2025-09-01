@@ -79,7 +79,9 @@ const FanartFilters = ({
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="all">All</SelectItem>
+                                <SelectItem value="all">
+                                    {t("charFilter.all")}
+                                </SelectItem>
                                 {chapters.map((chapter) => (
                                     <SelectItem
                                         key={chapter}
@@ -100,7 +102,9 @@ const FanartFilters = ({
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="all">All</SelectItem>
+                                <SelectItem value="all">
+                                    {t("charFilter.all")}
+                                </SelectItem>
                                 {days.map((day) => (
                                     <SelectItem
                                         key={day}
@@ -265,7 +269,9 @@ const FanartFilters = ({
                             <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value="all">All</SelectItem>
+                            <SelectItem value="all">
+                                {t("charFilter.all")}
+                            </SelectItem>
                             {days.map((day) => (
                                 <SelectItem key={day} value={day.toString()}>
                                     {day + 1}

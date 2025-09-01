@@ -8,6 +8,7 @@ import {
     getCharacterIdNameMap,
     sortByPredefinedOrder,
 } from "@/lib/misc";
+import { useSettingStore } from "@/store/settingStore";
 import {
     Dialog,
     DialogContent,
@@ -56,6 +57,7 @@ const ViewFanartModal = ({
     initialCharacters,
 }: ViewFanartModalProps) => {
     const t = useTranslations("modals.art.card");
+    const locale = useSettingStore((state) => state.locale);
 
     // State
     const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
@@ -103,8 +105,9 @@ const ViewFanartModal = ({
         () =>
             getCharacterIdNameMap(
                 selectedChapter !== "all" ? parseInt(selectedChapter) : -1,
+                locale,
             ),
-        [selectedChapter],
+        [selectedChapter, locale],
     );
 
     const characters = useMemo(() => {
