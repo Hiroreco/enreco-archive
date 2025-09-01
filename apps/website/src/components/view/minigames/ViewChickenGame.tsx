@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const BASKET_WIDTH = 60;
 const BASKET_HEIGHT = 60;
@@ -20,6 +21,8 @@ interface Chicken {
 }
 
 const ViewChickenGame = () => {
+    const t = useTranslations("modals.minigames.games.chicken");
+
     const audioStore = useAudioStore();
     const [isPlaying, setIsPlaying] = useState(false);
     const [score, setScore] = useState(0);
@@ -199,7 +202,8 @@ const ViewChickenGame = () => {
         };
     }, [isPlaying, basketX, audioStore]);
 
-    const isMobileDevice = typeof window !== "undefined" && window.innerWidth < 768;
+    const isMobileDevice =
+        typeof window !== "undefined" && window.innerWidth < 768;
     return (
         <div
             className={
@@ -207,7 +211,11 @@ const ViewChickenGame = () => {
                     ? "flex flex-col w-[90%] h-[90%] items-center gap-2 text-sm md:text-base"
                     : "flex flex-col items-center gap-2 text-sm md:text-base w-full h-full p-2 box-border"
             }
-            style={isMobileDevice ? {} : { maxWidth: 700, maxHeight: 550, margin: "0 auto" }}
+            style={
+                isMobileDevice
+                    ? {}
+                    : { maxWidth: 700, maxHeight: 550, margin: "0 auto" }
+            }
         >
             <div className="w-full relative h-4 bg-gray-200 dark:bg-gray-600 rounded-lg mt-2 sm:mt-0">
                 <div
@@ -218,7 +226,11 @@ const ViewChickenGame = () => {
             <div
                 ref={boardRef}
                 className="relative grid-bg bg-gray-200 dark:bg-gray-600 overflow-hidden w-full h-full border-4"
-                style={isMobileDevice ? {} : { maxWidth: 600, maxHeight: 400, margin: "0 auto" }}
+                style={
+                    isMobileDevice
+                        ? {}
+                        : { maxWidth: 600, maxHeight: 400, margin: "0 auto" }
+                }
             >
                 {/* Chickens */}
                 {chickens.map((chicken) => (
@@ -253,9 +265,11 @@ const ViewChickenGame = () => {
                 ></Image>
             </div>
             <div className="flex w-full items-center justify-around sm:mb-2">
-                <span className="w-24 text-center">Score: {score}</span>
+                <span className="w-24 text-center">
+                    {t("score")}: {score}
+                </span>
                 <span className="w-32 text-center">
-                    High Score: {highScore}
+                    {t("highScore")}: {highScore}
                 </span>
                 <Button
                     className="w-20"
@@ -263,7 +277,7 @@ const ViewChickenGame = () => {
                         isPlaying ? () => setIsPlaying(false) : handleGameStart
                     }
                 >
-                    {isPlaying ? "Stop" : "Start"}
+                    {isPlaying ? t("stop") : t("start")}
                 </Button>
             </div>
         </div>

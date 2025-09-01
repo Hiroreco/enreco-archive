@@ -132,7 +132,14 @@
             "redSquares": "<color>Red:</color> 1 square, 10x multiplier",
             "gameplay": "Players can choose how much to bet on each color. Once the game begins, colors are eliminated one by one, slowly whittling down the board—until only one remained.",
             "winning": "Whoever bets on the final color would receive their wager multiplied accordingly.",
-            "timestampCaption": "Let's go gambling!"
+            "timestampCaption": "Let's go gambling!",
+            "currentBudget": "Current Budget",
+            "personalRecord": "Personal Record",
+            "chooseColor": "Choose Color",
+            "betAmount": "Bet Amount",
+            "lockIn": "Lock In",
+            "rolling": "Rolling",
+            "outOfMoney": "Out of Money"
           },
           "memory": {
             "label": "Mind's Eye (Chapter 1)",
@@ -140,21 +147,36 @@
             "gameplay": "Upon starting the game, each round presents a white board where a number of squares light up in one of four colors—red, green, blue, or yellow. After about two seconds, the colors vanish, and the player must recreate the original pattern.",
             "scoring": "If they get it right, their score increases, and the difficulty ramps up, presenting a more complex pattern. If they get it wrong, they lose points, and the difficulty decreases.",
             "multiplayer": "The game continues until the 60-second timer runs out. Up to four players can compete at the same time, and whoever has the highest score at the end earns bragging rights.",
-            "timestampCaption": "May the biggest brain win!"
+            "timestampCaption": "May the biggest brain win!",
+            "chooseColor":"Choose Color",
+            "score": "Score",
+            "personalBest": "Personal Best",
+            "start": "Start",
+            "stop": "Stop"
           },
           "chicken": {
             "label": "Chicken Rescue (Chapter 1)",
             "intro": "Just like the Scarlet Wand, the Cerulean Cup <icon></icon> launched their own minigame on Day 7. As representatives of empathy, they designed a game that would help spread that very value: <bold>Catching Chickens</bold>.",
             "gameplay": "As the name suggests, the goal is simple—catch chickens… but empathetically. Players are presented with a board where chickens continuously spawn from the top and slowly fall downward. The objective? Move your basket horizontally along the bottom and catch as many falling chickens as possible within the time limit.",
             "simple": "That's it. Simple and fun.",
-            "timestampCaption": "Spreading empathy through chickens"
+            "timestampCaption": "Spreading empathy through chickens",
+            "score": "Score",
+            "highScore": "High Score",
+            "start": "Start",
+            "stop": "Stop"
           },
           "shiori": {
             "label": "Commission Shiori (Chapter 2)",
             "intro": "Throughout the second chapter, true to her role as the Archiver, <bold>Shiori</bold> had written a variety of fanfics and memory pieces as commissions. These ranged from romantic and questionable tales, to NSFW content, as well as more serious reflections on past comrades.",
             "options": "If you're curious about exploring Shiori's collection, which includes books written by her as well as others, you have two options: follow her journey (as well as others') day by day, or correctly answer 10 questions here to unlock her full archive.",
             "challenge": "Let's see how well you really know Shiorin.",
-            "timestampCaption": "Getting freaky with Fanfics"
+            "timestampCaption": "Getting freaky with Fanfics",
+            "unlockShioriStash": "Unlock Shiori's Stash",
+            "question": "Question",
+            "submit": "Submit",
+            "yourAnswer": "Your Answer",
+            "shioriStash": "Shiori Nyavella's Stash",
+            "wrongAnswer": "Wrong Answer! Try again."
           }
         }
     },
@@ -209,6 +231,9 @@
       "charFilter": {
         "all": "All",
         "various": "Various"
+      },
+      "lightbox": {
+        "relatedTo": "Related to events on Day {day}, Chapter {chapter}"
       },
       "items": "{val} Items",
       "card": {

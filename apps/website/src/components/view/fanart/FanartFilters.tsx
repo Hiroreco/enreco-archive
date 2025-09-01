@@ -139,8 +139,10 @@ const FanartFilters = ({
                         variant={shuffled ? "default" : "outline"}
                         size="sm"
                         onClick={onShuffle}
-                        title={shuffled ? "Unshuffle" : "Shuffle"}
-                        aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                        title={shuffled ? t("shuffle.off") : t("shuffle.on")}
+                        aria-label={
+                            shuffled ? t("shuffle.off") : t("shuffle.on")
+                        }
                         className="w-full flex items-center justify-center h-6 text-xs"
                     >
                         <Shuffle className="w-4 h-4 mr-1" />
@@ -366,8 +368,10 @@ const FanartFilters = ({
                         size="sm"
                         onClick={onShuffle}
                         variant={"outline"}
-                        title={shuffled ? "Unshuffle" : "Shuffle"}
-                        aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                        title={shuffled ? t("shuffle.off") : t("shuffle.on")}
+                        aria-label={
+                            shuffled ? t("shuffle.off") : t("shuffle.on")
+                        }
                         className={`${shuffled ? "bg-accent text-accent-foreground" : ""}`}
                     >
                         <Shuffle className="w-4 h-4" />
