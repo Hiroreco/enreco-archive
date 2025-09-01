@@ -1,4 +1,4 @@
-<!-- title: Lore Summary -->
+<!-- title: 伝承まとめ -->
 <!-- status: なし -->
 
 #### メインストーリー

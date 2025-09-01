@@ -1,4 +1,4 @@
-<!-- title: Nerissa Juliet Ravencroft -->
+<!-- title: ネリッサ・ジュリエット・レイヴンクロフト -->
 <!-- status: 生存 -->
 
 **シャドウ**
