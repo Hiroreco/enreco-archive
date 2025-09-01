@@ -38,7 +38,7 @@
 
 #### ジュエラー
 
-**担当者:** [こせきびじゅー](#entry:bijou-entry), [ニノイナ](#entry:ina-entry), [ロア・パンドラ](#entry:raora-entry), [モココ・アビスガード](#entry:mococo-entry)
+**担当者:** [古石ビジュー](#entry:bijou-entry), [ニノイナ](#entry:ina-entry), [ロア・パンドラ](#entry:raora-entry), [モココ・アビスガード](#entry:mococo-entry)
 **リーダー:** クリス
 
 ジュエラーは、体力や防御力など、勇者たちの能力を強化する「チャーム」を生み出す専門職です。各チャームの制作には特定の素材が必要で、記憶力が試されるミニゲームに挑戦することになります。
