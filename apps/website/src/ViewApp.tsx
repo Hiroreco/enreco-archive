@@ -302,14 +302,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
                 if (newSelectedEdge) {
                     newSelectedEdge.selected = true;
-                    const sourceNode = dayData.nodes.find(
+                    const sourceNode = newDayData.nodes.find(
                         (n) => n.id === newSelectedEdge.source,
                     );
                     if (sourceNode) {
                         sourceNode.selected = true;
                     }
 
-                    const targetNode = dayData.nodes.find(
+                    const targetNode = newDayData.nodes.find(
                         (n) => n.id === newSelectedEdge.target,
                     );
                     if (targetNode) {

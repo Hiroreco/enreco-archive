@@ -91,6 +91,14 @@ const ViewEdgeCard = ({
         ? (getNode(selectedEdge.target)! as ImageNodeType)
         : null;
 
+    // Resolve fresh node by id at click time to avoid stale references after day switches
+    const handleNodeIconClick = (nodeId: string) => {
+        const node = getNode(nodeId) as ImageNodeType | null;
+        if (node) {
+            onNodeLinkClicked(node);
+        }
+    }; 
+
     const renderContent =
         selectedEdge !== null &&
         edgeRelationship !== null &&
@@ -154,7 +162,7 @@ const ViewEdgeCard = ({
                                 <button
                                     type="button"
                                     className="focus:outline-none"
-                                    onClick={() => onNodeLinkClicked(nodeA)}
+                                    onClick={() => handleNodeIconClick(selectedEdge.source)}
                                     title={nodeA.data.title || "View node"}
                                 >
                                     <Image
@@ -180,7 +188,7 @@ const ViewEdgeCard = ({
                                 <button
                                     type="button"
                                     className="focus:outline-none"
-                                    onClick={() => onNodeLinkClicked(nodeB)}
+                                    onClick={() => handleNodeIconClick(selectedEdge.target)}
                                     title={nodeB.data.title || "View node"}
                                 >
                                     <Image
