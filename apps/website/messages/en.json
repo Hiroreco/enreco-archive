@@ -248,6 +248,12 @@
           "showFilters": "Show filters"
         }
       }
+    },
+    "changelog": {
+      "title": "Changelog",
+      "description": "View the changelog for the ENreco Archive",
+      "seeAllLogs": "See all changelogs <link>here</link>",
+      "forQuestions": "For questions or to report issues, contact <link>@hiroavrs</link>"
     }
   },
   "cards": {

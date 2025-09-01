@@ -33,6 +33,9 @@ import songs_ja from "#/songs_ja.json";
 import chapterRecaps_en from "#/chapter-recaps.json";
 import chapterRecaps_ja from "#/chapter-recaps_ja.json";
 
+import changelogs_en from "#/changelogs.json";
+import changelogs_ja from "#/changelogs_ja.json";
+
 import { Locale } from "@/store/settingStore";
 import { Category } from "@/contexts/GlossaryContext";
 
@@ -48,6 +51,10 @@ interface LocalizedData {
     };
     songs: Record<string, Song[]>;
     chapterRecap: ChapterRecapData;
+    changelogs: Array<{
+        date: string;
+        content: string;
+    }>;
 }
 
 const DATA: Record<Locale, LocalizedData> = {
@@ -63,6 +70,7 @@ const DATA: Record<Locale, LocalizedData> = {
         },
         songs: songs_en,
         chapterRecap: chapterRecaps_en,
+        changelogs: changelogs_en,
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
@@ -76,6 +84,7 @@ const DATA: Record<Locale, LocalizedData> = {
         },
         songs: songs_ja,
         chapterRecap: chapterRecaps_ja,
+        changelogs: changelogs_ja,
     },
 };
 
@@ -124,4 +133,8 @@ export const getTextItem = (locale: Locale, textId: string) => {
 
 export const getChapterRecap = (locale: Locale) => {
     return DATA[locale].chapterRecap;
+};
+
+export const getChangelog = (locale: Locale) => {
+    return DATA[locale].changelogs;
 };

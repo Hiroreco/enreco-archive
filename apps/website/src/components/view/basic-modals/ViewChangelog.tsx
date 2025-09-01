@@ -1,5 +1,4 @@
 import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
-import changelogs from "#/changelogs.json";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -12,6 +11,8 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback } from "react";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { useTranslations } from "next-intl";
 
 interface ViewChangelogModalProps {
     open: boolean;
@@ -19,6 +20,11 @@ interface ViewChangelogModalProps {
 }
 
 const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
+    const tCommon = useTranslations("common");
+    const tChangelog = useTranslations("modals.changelog");
+    const { getChangelog } = useLocalizedData();
+    const changelogs = getChangelog();
+
     const onOpenChange = useCallback(
         (open: boolean) => {
             if (!open) {
@@ -47,10 +53,10 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
                     <div className="flex flex-col gap-6 mt-4">
                         <div className="text-center">
                             <h2 className="font-bold text-2xl mb-2">
-                                Changelog
+                                {tChangelog("title")}
                             </h2>
                             <p className="text-sm text-foreground/70">
-                                Recent updates and changes to the ENreco Archive
+                                {tChangelog("description")}
                             </p>
                         </div>
 
@@ -75,40 +81,41 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
                         ))}
 
                         <div className="text-center text-sm text-foreground/60">
-                            <p>
-                                See all changelogs{" "}
-                                <a
-                                    href="https://github.com/Hiroreco/enreco-archive/tree/main/changelogs"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="underline underline-offset-2"
-                                >
-                                    here
-                                </a>
-                            </p>
+                            {tChangelog.rich("seeAllLogs", {
+                                link: (chunk) => (
+                                    <a
+                                        href="https://github.com/Hiroreco/enreco-archive/tree/main/changelogs"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {chunk}
+                                    </a>
+                                ),
+                            })}
                         </div>
 
                         <Separator />
 
                         <div className="text-center text-sm text-foreground/60">
-                            <p>
-                                For questions or to report issues, contact{" "}
-                                <a
-                                    href="https://x.com/hiroavrs"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="underline underline-offset-2"
-                                >
-                                    @hiroavrs
-                                </a>
-                            </p>
+                            {tChangelog.rich("forQuestions", {
+                                link: (chunk) => (
+                                    <a
+                                        href="https://x.com/hiroavrs"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="underline underline-offset-2"
+                                    >
+                                        {chunk}
+                                    </a>
+                                ),
+                            })}
                         </div>
                     </div>
                 </div>
 
                 <DialogFooter className="flex items-center justify-end w-full">
                     <DialogClose asChild>
-                        <Button className="self-end">Close</Button>
+                        <Button className="self-end">{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

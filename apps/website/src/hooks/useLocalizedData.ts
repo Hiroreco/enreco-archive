@@ -1,5 +1,6 @@
 import { Category } from "@/contexts/GlossaryContext";
 import {
+    getChangelog,
     getChapterData,
     getChapterRecap,
     getGlossaryData,
@@ -24,5 +25,6 @@ export const useLocalizedData = () => {
         getSiteData: () => getSiteData(locale),
         getTextItem: (textId: string) => getTextItem(locale, textId),
         getChapterRecap: () => getChapterRecap(locale),
+        getChangelog: () => getChangelog(locale),
     };
 };

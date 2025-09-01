@@ -248,6 +248,12 @@
           "showFilters": "フィルター表示"
         }
       }
+    },
+    "changelog": {
+      "title": "変更履歴",
+      "description": "ENrecoアーカイブの変更履歴を表示",
+      "seeAllLogs": "すべての変更履歴を表示するには<link>こちら</link>",
+      "forQuestions": "質問や問題の報告は、<link>@hiroavrs</link>までご連絡ください。"
     }
   },
   "cards": {
