@@ -35,7 +35,10 @@ import {
     CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
 import { resolveDataForDay } from "@/lib/chart-utils";
-import { countReadElements, usePersistedViewStore } from "@/store/persistedViewStore";
+import {
+    countReadElements,
+    usePersistedViewStore,
+} from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import Image from "next/image";
@@ -164,9 +167,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
 
     // Persisted Store
-    const readStatus = usePersistedViewStore(
-        (state) => state.readStatus,
-    );
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
     // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
     const readCount = countReadElements(readStatus, chapter, day);
 
@@ -197,6 +198,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 node.hidden = !(
                     team[node.data.teamId || "null"] && character[node.id]
                 );
+                node.selectable = node.data.day === day;
 
                 if (selectedElement) {
                     if (isNode(selectedElement)) {
@@ -211,12 +213,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 }
             }
         });
-    }, [
-        resolvedData.nodes,
-        team,
-        character,
-        selectedElement,
-    ]);
+    }, [resolvedData.nodes, team, character, selectedElement, day]);
 
     /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
@@ -263,7 +260,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
         relationshipVisibility,
         showOnlyNewEdges,
         selectedElement,
-        day
+        day,
     ]);
 
     /* Helper function to coordinate state updates when data changes. */
@@ -374,6 +371,10 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
     const onNodeClick = useCallback(
         (node: ImageNodeType) => {
+            // onEdgeClick doesn't need this, but onNodeClick does, why? Idk.
+            if (!node.selectable) {
+                return;
+            }
             selectElement(node);
             openNodeCard();
         },
