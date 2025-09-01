@@ -254,7 +254,7 @@ export const getCharacterIdNameMap = (
         if (locale === "ja") {
             return {
                 ...baseMap,
-                cecilia: "セシリア・イマーキンド",
+                cecilia: "セシリア・セシリア・イマーカインド",
                 raora: "ロア・パンドラ",
                 calli: "モーダン・ラムジー",
             };
