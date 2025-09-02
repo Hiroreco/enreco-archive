@@ -649,7 +649,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
-                    tooltipText="Day Recap / Visibility"
+                    tooltipText={tNavTooltips("dayRecapVisibility")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
