@@ -106,26 +106,24 @@ export const ThumbnailCarousel = forwardRef<
                 </div>
             ))}
 
-            <div className="flex justify-between items-end w-full px-4 pb-2 absolute left-0 bottom-0">
-                {chapterDayLabel && (
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <span className="bg-black/50 text-white text-xs px-2 py-1 rounded-full cursor-default">
-                                {chapterDayLabel}
-                            </span>
-                        </TooltipTrigger>
-                        <TooltipContent side="top" align="center">
-                            Related to events on{" "}
-                            {chapterDayLabel
-                                ? `Day ${day! + 1}, Chapter ${chapter! + 1}`
-                                : ""}
-                        </TooltipContent>
-                    </Tooltip>
-                )}
+            {chapterDayLabel && (
+                <Tooltip>
+                    <TooltipTrigger asChild>
+                        <span className="bg-black/50 text-white text-xs px-2 py-1 rounded-full cursor-default absolute bottom-4 left-2">
+                            {chapterDayLabel}
+                        </span>
+                    </TooltipTrigger>
+                    <TooltipContent side="top" align="center">
+                        Related to events on{" "}
+                        {chapterDayLabel
+                            ? `Day ${day! + 1}, Chapter ${chapter! + 1}`
+                            : ""}
+                    </TooltipContent>
+                </Tooltip>
+            )}
 
-                <div className="bg-black/50 text-white text-xs px-2 py-1 rounded-full">
-                    {currentItemIndex + 1} / {items.length}
-                </div>
+            <div className="bg-black/50 text-white text-xs min-w-11 text-center px-2 py-1 rounded-full absolute bottom-4 right-2">
+                {currentItemIndex + 1} / {items.length}
             </div>
         </div>
     );
