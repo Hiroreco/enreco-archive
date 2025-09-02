@@ -63,7 +63,8 @@ const ViewLightbox = ({
 }: ViewLightboxProps) => {
     const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentItemIndex, setCurrentItemIndex] = useState(galleryIndex);
-    const [currentGalleryIndex, setCurrentGalleryIndex] = useState(0);
+    const [currentGalleryIndex, setCurrentGalleryIndex] =
+        useState(galleryIndex);
 
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const carouselRef = useRef<HTMLDivElement>(null);
@@ -98,6 +99,7 @@ const ViewLightbox = ({
                 setInternalIsOpen(open);
                 if (open) {
                     setCurrentItemIndex(galleryIndex);
+                    setCurrentGalleryIndex(galleryIndex);
                 }
             }
         },
@@ -108,12 +110,9 @@ const ViewLightbox = ({
         setCurrentGalleryIndex(index);
     }, []);
 
-    // Reset gallery index when opening new lightbox
     useEffect(() => {
-        if (isOpen) {
-            setCurrentGalleryIndex(0);
-        }
-    }, [isOpen, galleryItems]);
+        setCurrentGalleryIndex(0);
+    }, [galleryItems]);
 
     // Create gallery items array
     const galleryItemsArray = useMemo(() => {
