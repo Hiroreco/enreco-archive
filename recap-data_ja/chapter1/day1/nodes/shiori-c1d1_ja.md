@@ -13,7 +13,7 @@ _シオリ_ が目を覚ますと、そこは真っ白な箱の中だった。�
 
 やがて _ステインキング_ が姿を現そうとすると、シオリは責任を回避しようと[走り出す](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=2774)が、透明な壁に阻まれ、逃走は失敗に終わる。観念したかと思いきや、彼女は戦いに加わるどころか、仲間を助けることもなく、傍観者として戦闘を眺めているだけだった。
 
-[ここからの景色、最高](#embed:https://www.youtube.com/live/KSaC99K4IF8?t=2992)
+[ここからの景色、いいね](#embed:https://www.youtube.com/live/KSaC99K4IF8?t=2992)
 
 ようやく「カットシーン」に強制的に巻き込まれて、彼女はしぶしぶ行動を開始する。彼女の武器である[羽根](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3110)は、その _レベレーション_ を発動し、敵に魔法のビームを放つ力を持っていた。ただし、シオリ本人は「くすぐり殺す」力だと説明している。戦いを終え、彼女は _スカーレットワンド_ [ギルド](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3347)へと振り分けられるのだった。
 

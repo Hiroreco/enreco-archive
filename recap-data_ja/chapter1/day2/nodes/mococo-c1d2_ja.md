@@ -23,6 +23,8 @@
 
 一日の冒険を終え、モココは満足感に浸りながら眠りについた。しかし、その心は「大当たり」の夢でいっぱい。きっと明日は億万長者だと信じて疑わない――無邪気な彼女の物語は、この後誰も予想しなかった方向へと動き出すのだった。
 
-["モゴジャン!?" by Fukuinu](https://x.com/fukuinu_daddy/status/1830478922934616529)
+## Fanart
+
+["Mogojan!?" by Fukuinu](https://x.com/fukuinu_daddy/status/1830478922934616529)
 
 ["they're going to the moon" by karunochi](https://x.com/karunochi/status/1830608765454024950)

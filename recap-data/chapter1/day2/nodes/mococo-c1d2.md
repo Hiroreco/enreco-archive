@@ -23,6 +23,8 @@ Getting back on track, the second dungeon proved challenging, but together, the 
 
 As the day drew to a close, Mococo felt fulfilled by their adventure. Her thoughts, however, lingered on the jackpot she was certain awaited her. With dreams of riches dancing in her mind, she settled down for the night, a smile on her face and her paws crossed for good fortune. As innocent as she was, this marked the beginning of a storyline nobody saw coming.
 
+## Fanart
+
 ["Mogojan!?" by Fukuinu](https://x.com/fukuinu_daddy/status/1830478922934616529)
 
 ["they're going to the moon" by karunochi](https://x.com/karunochi/status/1830608765454024950)
