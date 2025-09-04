@@ -31,7 +31,7 @@
 
 自身の心を整理する時間を持った後、イファニア姫との短い会話の後、タム・ガンドルとセシリアは[習わしの口づけ](https://www.youtube.com/watch?v=Icdii90_vSA&t=21964s)を交わします。その後セシリアは日記にその想いを綴り、「もしかしたら、姫の心は自分ではない、別の誰かに託された方が幸せになれるのかもしれない」と静かに悟るのでした。
 
-[「彼女は別の誰かと花開くべきなのかもしれない」](#embed:https://www.youtube.com/live/Icdii90_vSA?si=2442Iuml0kJwJFKa)
+[彼女は別の誰かと花開くべきなのかもしれない](#embed:https://www.youtube.com/live/Icdii90_vSA?si=2442Iuml0kJwJFKa)
 
 ## ファンアート
 

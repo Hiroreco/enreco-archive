@@ -10,4 +10,4 @@ IRySは思考が追いつかず、言葉を返すこともできない。イマ�
 
 呆然と立ち尽くすIRySに残されたのは、ただ困惑と不安だけ。あれは一体なんだったのか？　イマーカインドは何を企んでいるのか？　これはどう考えても、軽く受け流せる話ではないだろう――不穏な予感に、IRySの胸はざわつくのだった。
 
-[今の発言、どういう意味!?](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=2_5TN6ArM8cZMpyW&t=837)
+[今どういう意味!?](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=2_5TN6ArM8cZMpyW&t=837)

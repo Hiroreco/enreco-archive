@@ -6,7 +6,7 @@
 
 だったら――食べ物なんかじゃなくて、_ファンフィクション_ を売ってみるのはどうだろう？
 
-[フリーキー・ディーキー](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=EyxaXf2cdLNBNqxy&t=1107)
+[ヘンテコ](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=EyxaXf2cdLNBNqxy&t=1107)
 
 書くことにかけては、いつだって彼女の得意分野だった。奇妙で閃きに満ちた彼女の頭脳、これを使わない手はないだろう。
 だが、いざ（もちろん受賞間違いなし！）と意気込むデビュー作に取りかかる前に、まずは英雄としての仕事を片づける必要があった。
@@ -18,11 +18,11 @@
 だが、何かが足りない。物語が……どうにもおとなしいのだ。
 その時、まさに天啓が走った！ そうだ、_やおい_ だ。
 
-[シー×ラバーズ](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=O2p37u0sm5cNAVEe&t=5653)
+[Sea x Lovers](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=O2p37u0sm5cNAVEe&t=5653)
 
 かくして、小説は完成した。
 
-- [シー×ラバーズを読む](#text:sea-x-lovers)
+- [Sea x Loversを読む](#text:sea-x-lovers)
 
 次の課題は？ もちろん、マーケティングだ。これをどうやってお金に変えるか、である。
 幸いなことに、シオリには協力を「謙虚に」頼めそうな人物がひとりいたのだ。
