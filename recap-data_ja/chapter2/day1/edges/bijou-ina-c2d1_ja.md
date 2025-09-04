@@ -5,4 +5,4 @@
 
 やがて二人はジュエラーとして、精神的な深い絆によって結びつき、他のシャイニングスターズへと流れる護符を独占するほどの強大な力を手に入れます。たとえ、その姉妹の一人が……自分の兄と結婚していたとしても、その絆は揺るぎないものでした。
 
-[まるで私のアニメみたい](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=DwzaRTHN81VxoI_I&t=9050)
+[まるでアニメみたい](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=DwzaRTHN81VxoI_I&t=9050)
