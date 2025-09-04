@@ -29,7 +29,7 @@
 
 そして全員は、冒険の始まりに戻るかのように、白い箱の中へと送り返される。こうして、彼女たちの最初の旅路は幕を閉じたのだった。
 
-[おまけシーン](#embed:https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=6723)
+[おまけ](#embed:https://www.youtube.com/live/dTf0g5tqzBU?feature=shared&t=6723)
 
 ## ファンアート
 

@@ -32,12 +32,12 @@
 
 ## Fanart
 
-["終わらせよう、妹よ。" by m-pien](https://x.com/mpien6/status/1832788483561369945)
+["Let's end this, sister." by m-pien](https://x.com/mpien6/status/1832788483561369945)
 
-["お前は決して一人じゃなかった" by m-pien](https://x.com/mpien6/status/1832812067478446477)
+["You were never alone" by m-pien](https://x.com/mpien6/status/1832812067478446477)
 
 <!-- raora -->
 
-["運命を決める一騎打ち" by Mr.Joeboto](https://x.com/LordJoeboto/status/1834514267736822065)
+["One duel to decide their fate" by Mr.Joeboto](https://x.com/LordJoeboto/status/1834514267736822065)
 
 <!-- raora, irys, nerissa, calli, fuwawa, mococo -->

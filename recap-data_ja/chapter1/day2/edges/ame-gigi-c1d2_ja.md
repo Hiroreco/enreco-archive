@@ -14,7 +14,7 @@
 
 ホットピンクワンが彼女を[口説いたり](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=3460)、甘い言葉を囁いたり、あるいはカジノで怪しげな行動を取ったりするたび、ゴナソンは即座に駆けつけた。愛する彼女のためなら、自分の任務を顧みず、普段は足を踏み入れないアンバーコインギルドの縄張りにまで乗り込み、自身の信条さえも曲げることを厭わなかった。
 
-[俺の妻に手を出すな！！！](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=3980)
+[僕の妻に手を出すな！！！](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=3980)
 
 その忠誠心は、単なる[護衛](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=6395)の域を超えていた。ジョナサンの望みに反するならば、女王の命令すら退けるほどだった。オーシャンテンプルダンジョン突入の準備中、妻と離れ離れになると聞かされたゴナソンは、[激しく抗議](https://www.youtube.com/live/kB2jUKUsxtE?feature=shared&t=10437)する。涙を流しながら必死に懇願し、彼女の傍にいることを訴えた。結局は皆に押し切られてしまったが、別れの際には「どうか、ご無事で」と、心の底からの願いをそっと囁いた。
 
