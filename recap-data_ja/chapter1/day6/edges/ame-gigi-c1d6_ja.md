@@ -5,7 +5,7 @@
 
 その朝一番、ジョナソンは（期せずしてではあったが）夫をエリザベスの罠から救い出した。夫の助けを求める声を聞いた彼女は、迷うことなく反応し、本能的に彼を守り抜いたのだ。
 
-[ありがとう、私のパール！](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=238)
+[ありがとう、僕のパール！](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=238)
 
 その後、ゴナソンは妻を呼び寄せ、仲間たちの不審な行動について密談を交わした。特に彼は、古石・ビジューがステインに操られているのではないかと疑っていたのだ。ジョナソンもそれに同意し、自らその[件](https://www.youtube.com/live/oygFzGlMT28?feature=shared&t=4034)を調査することを引き受けた。
 
