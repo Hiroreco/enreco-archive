@@ -13,7 +13,7 @@
 
 しかし、人類がその奇跡を受け入れられなかったように、世界は彼女の無謀な挑戦を受け入れる準備ができていなかった。緑とピンクの親友たちは、有無を言わさずロアをその場から『追放』してしまったのだ。イマーカインド曰く、「ロアは危険すぎて放っておけない」とのことだが、ではIRySの言い分は？ ……それは、どうにも「かなり怪しい」ものだった。
 
-[それは無理だわ、ボス](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=fyqwpYA7HUIavSRU&t=10084)
+[それはダメだわ、ボス](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=fyqwpYA7HUIavSRU&t=10084)
 
 ## ファンアート
 
