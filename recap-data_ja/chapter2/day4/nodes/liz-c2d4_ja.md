@@ -13,7 +13,7 @@
 
 さらにシオリは、ちゃっかりと自身が営む新しい商売の宣伝も忘れなかった。「記憶」を売るのだという――旅の毎日を丁寧に記録したものだ。興味を惹かれたエリザベスは何冊か購入し、目を通すが、そのたびに疑わしげに眉をひそめてしまう。
 
-[彼女の文章、こんなに熱いの？](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=a1GZJG59uOdXfzBc&t=11809)
+[彼女の文章、ヤバすぎる](#embed:https://www.youtube.com/live/vbppXmxXo7o?si=a1GZJG59uOdXfzBc&t=11809)
 
 - ["Chicken"を読む](#text:chicken)
 - ["Pickles"を読む](#text:pickles)
