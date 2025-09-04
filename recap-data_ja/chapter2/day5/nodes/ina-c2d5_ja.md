@@ -23,4 +23,4 @@
 
 ログアウト直前、イナは際どくも刺激的な[ライジングアクション](https://youtu.be/OxKP4ED-xz8?t=7146s)映像をもう少しだけ収録しました（参照：[エリザベス-ネリッサ：ドラマ禁止](#edge:liz-nerissa)）。この映像をどう扱えば良いかは正直まだ分かりませんが、[一晩じっくり考えて](https://youtu.be/OxKP4ED-xz8?t=8162s)みることにしたようです。
 
-[...私の“永遠の伴侶”に伝えて…にゃんにゃん…](#embed:https://youtu.be/OxKP4ED-xz8?t=7311s)
+[...私の永遠の伴侶に伝えて…にゃんにゃん…](#embed:https://youtu.be/OxKP4ED-xz8?t=7311s)
