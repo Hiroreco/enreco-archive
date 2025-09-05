@@ -22,7 +22,7 @@ _教えてちょうだい！_
 
 その後、最終日を迎える直前に、彼女はこの波乱に満ちた一日を日記に書き綴った。
 
-[親愛なる日記よ！](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=SDhiMcfQ4LxQdVG1&t=15145)
+[Liebes Tagebuch!](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=SDhiMcfQ4LxQdVG1&t=15145)
 
 ## ミーム
 
