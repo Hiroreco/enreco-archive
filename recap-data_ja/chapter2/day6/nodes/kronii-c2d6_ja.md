@@ -13,7 +13,7 @@
 
 しかし、女王タムにはもっと頭の痛い問題があった。それはロア・パンドラと前日に起きた出来事だ。当のロア本人からは「忘れるな」と釘を刺されてしまっていたのである。
 
-[Sassy cat](#embed:https://youtu.be/jayBiB9euJU?t=670)
+[生意気な猫](#embed:https://youtu.be/jayBiB9euJU?t=670)
 
 そこで女王タムは、シオリ、イマーカインド、そしてフワワという意外な顔ぶれのパーティを組み、[儀式](https://www.youtube.com/live/jayBiB9euJU?si=_OcZUoqnxheMyQ4e&t=953)に挑むことに。
 
@@ -21,7 +21,7 @@
 
 結局ほとんど何も得られずに儀式を終えた女王タムは、シオリと短い会話を交わす。シオリは帰還したホットピンクワンの便秘を祝うパーティを開きたいと提案した。女王は渋々同意し、材料を集めるために商店街へ向かった。
 
-[Not fertilized, just constipated](#embed:https://www.youtube.com/live/jayBiB9euJU?si=tksE1UT02lekWEbi&t=2380)
+[受精していない、ただ便秘なだけ](#embed:https://www.youtube.com/live/jayBiB9euJU?si=tksE1UT02lekWEbi&t=2380)
 
 驚くべきことに、女王タムはこの奇妙なパーティの準備に協力的だった。会場はフワワの店の隣の野原で、巨大なピクニックシートが敷かれ、背景には堂々たるゴナソンのツリーハウスがそびえ立つ。持ち主であるゴナソン本人も顔を出し、飾り付け用の素材を寄付してくれた。
 
