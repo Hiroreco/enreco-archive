@@ -220,8 +220,20 @@
       "chapter": "チャプター",
       "day": "日",
       "videosOnly": "動画のみ",
-      "inclusive": "包括的",
-      "inclusiveUnavailable": "「すべて」または「その他」が選択されている場合、包括モードをオンにできません",
+      "inclusiveModes": {
+        "showAll": {
+          "label": "すべて表示",
+          "description": "選択したキャラクターのいずれかに一致するすべてのアートワークを表示"
+        },
+        "hasAny": {
+          "label": "いずれかを含む",
+          "description": "選択したキャラクターのすべてを含むアートワークを表示"
+        },
+        "hasOnly": {
+          "label": "のみを含む",
+          "description": "選択したキャラクターのみを含むアートワークを表示"
+        }
+      },
       "memes": "魂のDNA",
       "reset": "フィルターをリセット",
       "shuffle": {
@@ -235,7 +247,7 @@
       "lightbox": {
         "relatedTo": "第{day}日目第{chapter}章のイベントに関連"
       },
-      "items": "{val}アイテム",
+      "items": "{val}点",
       "card": {
         "chapterDay": "第{chapter}章 {day}日目",
         "by": "by {author}",

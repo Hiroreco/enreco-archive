@@ -220,8 +220,20 @@
       "chapter": "Chapter",
       "day": "Day",
       "videosOnly": "Videos Only",
-      "inclusive": "Inclusive",
-      "inclusiveUnavailable": "Can not turn on inclusive mode if “All” or “Various” is selected",
+      "inclusiveModes": {
+        "showAll": {
+          "label": "Show All",
+          "description": "Show all artworks that match any of the selected characters"
+        },
+        "hasAny": {
+          "label": "Has Any",
+          "description": "Show artworks that include all the selected characters"
+        },
+        "hasOnly": {
+          "label": "Has Only",
+          "description": "Show artworks that include only the selected characters"
+        }
+      },
       "memes": "DNA of the Soul",
       "reset": "Reset Filters",
       "shuffle": {

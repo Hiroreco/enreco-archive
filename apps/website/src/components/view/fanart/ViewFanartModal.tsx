@@ -34,6 +34,8 @@ export interface FanartEntry {
     type: "art" | "meme";
 }
 
+export type InclusiveMode = "showAll" | "hasAny" | "hasOnly";
+
 interface ViewFanartModalProps {
     open: boolean;
     onClose: () => void;
@@ -84,7 +86,8 @@ const ViewFanartModal = ({
         null,
     );
     const [columnCount, setColumnCount] = useState(3);
-    const [inclusiveMode, setInclusiveMode] = useState(false);
+    const [inclusiveMode, setInclusiveMode] =
+        useState<InclusiveMode>("showAll");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
 
@@ -150,13 +153,22 @@ const ViewFanartModal = ({
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
             } else {
-                characterMatch = inclusiveMode
-                    ? selectedCharacters.every((char) =>
-                          entry.characters.includes(char),
-                      )
-                    : selectedCharacters.some((char) =>
-                          entry.characters.includes(char),
-                      ) || entry.characters.length === 0;
+                if (inclusiveMode === "showAll") {
+                    characterMatch =
+                        selectedCharacters.some((char) =>
+                            entry.characters.includes(char),
+                        ) || entry.characters.length === 0;
+                } else if (inclusiveMode === "hasAny") {
+                    characterMatch = selectedCharacters.every((char) =>
+                        entry.characters.includes(char),
+                    );
+                } else if (inclusiveMode === "hasOnly") {
+                    characterMatch =
+                        entry.characters.length === selectedCharacters.length &&
+                        selectedCharacters.every((char) =>
+                            entry.characters.includes(char),
+                        );
+                }
             }
 
             const chapterMatch =
@@ -257,7 +269,7 @@ const ViewFanartModal = ({
         setSelectedCharacters(["all"]);
         setSelectedChapter("all");
         setSelectedDay("all");
-        setInclusiveMode(false);
+        setInclusiveMode("showAll");
         setVideosOnly(false);
         setMemesOnly(false);
         setShuffled(false);
@@ -484,13 +496,13 @@ const ViewFanartModal = ({
         if (initialCharacters && initialCharacters.length > 0) {
             setSelectedCharacters(initialCharacters);
             if (initialCharacters.length > 1) {
-                setInclusiveMode(true);
+                setInclusiveMode("hasAny");
             } else {
-                setInclusiveMode(false);
+                setInclusiveMode("showAll");
             }
         } else {
             setSelectedCharacters(["all"]);
-            setInclusiveMode(false);
+            setInclusiveMode("showAll");
         }
     }, [initialCharacters]);
 
@@ -511,7 +523,7 @@ const ViewFanartModal = ({
             selectedCharacters.includes("all") ||
             selectedCharacters.includes("various")
         ) {
-            setInclusiveMode(false);
+            setInclusiveMode("showAll");
         }
     }, [selectedCharacters]);
 
@@ -583,7 +595,15 @@ const ViewFanartModal = ({
                             onReset={resetFilters}
                             totalItems={allFilteredFanart.length}
                             inclusiveMode={inclusiveMode}
-                            onInclusiveModeChange={setInclusiveMode}
+                            onInclusiveModeChange={() => {
+                                if (inclusiveMode === "showAll") {
+                                    setInclusiveMode("hasAny");
+                                } else if (inclusiveMode === "hasAny") {
+                                    setInclusiveMode("hasOnly");
+                                } else {
+                                    setInclusiveMode("showAll");
+                                }
+                            }}
                             videosOnly={videosOnly}
                             onVideosOnlyChange={setVideosOnly}
                             memesOnly={memesOnly}
