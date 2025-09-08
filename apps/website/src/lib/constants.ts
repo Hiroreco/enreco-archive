@@ -9,3 +9,6 @@ export const LS_AWOO_EASTER_EGG_COUNT = "awoo-easter-egg-count";
 export const LS_EASTER_EGG_STORAGE_KEY = "enreco-easter-egg-states";
 
 export const LS_HAS_VISITED_GLOSSARY = "has-visited-glossary";
+
+export const LS_CURRENT_VERSION_KEY = "enreco-current-version";
+export const LS_CURRENT_VERSION = "2025.08.18"; // Update this every announcement release

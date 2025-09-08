@@ -43,6 +43,8 @@ import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { LS_CURRENT_VERSION, LS_CURRENT_VERSION_KEY } from "@/lib/constants";
+import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -163,6 +165,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
     const openReadCounterModal = useViewStore(
         (state) => state.modal.openReadCounterModal,
+    );
+    const openChangeLogModal = useViewStore(
+        (state) => state.modal.openChangeLogModal,
     );
     const closeModal = useViewStore((state) => state.modal.closeModal);
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
@@ -426,6 +431,20 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         }
     });
 
+    // Pops up the changelog modal everytime the version changes
+    // The version change is based on comparing the version in localStorage and the current version
+    useEffect(() => {
+        // Don't show the changelog if it's the user's first time, since they will see the info modal anyway
+        if (!hasVisitedBefore || isInLoadingScreen) {
+            return;
+        }
+        const lsVersion = localStorage.getItem(LS_CURRENT_VERSION_KEY);
+        if (lsVersion !== LS_CURRENT_VERSION) {
+            openChangeLogModal();
+            localStorage.setItem(LS_CURRENT_VERSION_KEY, LS_CURRENT_VERSION);
+        }
+    });
+
     useEffect(() => {
         // When locale changes, refresh the current data to get localized content
         // Doing this to prevent selected element staying stale when the locale changes
@@ -560,6 +579,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     </CurrentDayDataContext>
                 </CurrentChapterDataContext>
             </div>
+
+            <ViewChangelogModal
+                open={openModal === "changelog"}
+                onClose={closeModal}
+            />
 
             <ViewInfoModal
                 open={openModal === "info"}
