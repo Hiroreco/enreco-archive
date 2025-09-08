@@ -123,10 +123,51 @@ function addTeamIcons() {
         ["Jeweler", "ch2_jobs_jeweler"],
         ["Smith", "ch2_jobs_smith"],
         ["Supplier", "ch2_jobs_supplier"],
+        // Japanese team names
+        ["アンバーコイン", "amber-coin"],
+        ["スカーレットワンド", "scarlet-wand"],
+        ["セルリアンカップ", "cerulean-cup"],
+        ["ジェイドソード", "jade-sword"],
+        ["シェフ", "ch2_jobs_chef"],
+        ["ジュエラー", "ch2_jobs_jeweler"],
+        ["スミス", "ch2_jobs_smith"],
+        ["サプライヤー", "ch2_jobs_supplier"],
     ]);
 
-    /* 
-    Match only text blocks that are not children of a span element. 
+    const englishTeamNames = Array.from(teamCssClasses.keys()).filter((name) =>
+        /^[A-Za-z\s]+$/.test(name),
+    );
+    const japaneseTeamNames = Array.from(teamCssClasses.keys()).filter(
+        (name) => !/^[A-Za-z\s]+$/.test(name),
+    );
+
+    // Build regex patterns - use word boundaries only for English names
+    const englishRegexPattern =
+        englishTeamNames.length > 0
+            ? `\\b(${englishTeamNames.map((name) => escapeRegExp(name)).join("|")})\\b`
+            : "";
+    const japaneseRegexPattern =
+        japaneseTeamNames.length > 0
+            ? `(${japaneseTeamNames.map((name) => escapeRegExp(name)).join("|")})`
+            : "";
+
+    // Combine patterns or use just one if the other is empty
+    let regexPattern;
+    if (englishRegexPattern && japaneseRegexPattern) {
+        regexPattern = `${englishRegexPattern}|${japaneseRegexPattern}`;
+    } else {
+        regexPattern = englishRegexPattern || japaneseRegexPattern;
+    }
+
+    const teamRegex = new RegExp(regexPattern, "g");
+
+    // Escape regex special characters in team names
+    function escapeRegExp(str: string) {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    /*
+    Match only text blocks that are not children of a span element.
     This is to prevent an infinite team name substitution loop.
     */
     const elementFilter: TestFunction = (node, _index, parent) => {
@@ -134,16 +175,16 @@ function addTeamIcons() {
             const parentElement = parent as Element;
             return parentElement.tagName !== "span";
         }
-
         return false;
     };
 
     return function (tree: Node) {
         visit(tree, elementFilter, (node, _index, parent) => {
             const textNode = node as Text;
-            const parts = textNode.value.split(
-                /\b(Amber Coin|Scarlet Wand|Cerulean Cup|Jade Sword|Chef|Jeweler|Smith|Supplier)\b/g,
-            );
+            if (!textNode.value) {
+                return;
+            }
+            const parts = textNode.value.split(teamRegex);
 
             const newChildren: ElementContent[] = parts.map((part) => {
                 if (teamCssClasses.has(part)) {
@@ -389,7 +430,7 @@ function ViewMarkdownInternal({
             remarkDirective,
             underlineDirective,
             textAlignmentDirective,
-            revertUnhandledDirectives
+            revertUnhandledDirectives,
         ],
         [],
     );
