@@ -65,7 +65,9 @@
       "guidelinesTitle": "Guidelines",
       "guidelinesContent": "This is a non-profit fan project and is not affiliated with COVER Corp. nor Mojang. The site uses music taken from the talents' streams, as well as sound effects and assets from Minecraft, following <cover-link>{coverGuidelines}</cover-link> and <minecraft-link>{minecraftGuidelines}.</minecraft-link>",
       "coverGuidelines": "COVER's Derivative Works Guidelines",
-      "minecraftGuidelines": "Minecraft Usage Guidelines"
+      "minecraftGuidelines": "Minecraft Usage Guidelines",
+      "feedbackNote": "For any feedback or to report issues, please use this link here",
+      "feedbackLabel": "ENreco Archive Feedback Form"
     },
     "infoGuide": {
       "title": "How to Use ENreco Archive",

@@ -65,7 +65,9 @@
       "guidelinesTitle": "ガイドライン",
       "guidelinesContent": "これは非営利のファンプロジェクトであり、COVER株式会社ともMojang社とも関係ありません。サイトではタレントの配信から取得した音楽、およびMinecraftの効果音とアセットを<cover-link>{coverGuidelines}</cover-link>と<minecraft-link>{minecraftGuidelines}</minecraft-link>に従って使用しています。",
       "coverGuidelines": "COVERの二次創作ガイドライン",
-      "minecraftGuidelines": "Minecraft利用ガイドライン"
+      "minecraftGuidelines": "Minecraft利用ガイドライン",
+      "feedbackNote": "フィードバックや問題の報告は、<こちらのリンクをご利用ください",
+      "feedbackLabel": "ENrecoアーカイブフィードバックフォーム"
     },
     "infoGuide": {
       "title": "ENrecoアーカイブの使い方",

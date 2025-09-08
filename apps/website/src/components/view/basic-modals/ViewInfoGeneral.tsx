@@ -74,6 +74,18 @@ const ViewInfoGeneral = () => {
                     {t("daysUntilNextChapter")}{" "}
                     <span className="font-bold">{t("noInfo")}</span>
                 </span>
+
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    {t("feedbackNote")}
+                    {": "}
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfiGd4FwosNnW2W8JdB8th0482LZMASbUnoNsAMPERxN7yZmw/viewform?usp=dialog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {t("feedbackLabel")}
+                    </a>
+                </span>
             </div>
             <div>{t("welcome", { series: t("series") })}</div>
 

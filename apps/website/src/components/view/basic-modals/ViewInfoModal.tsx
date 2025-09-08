@@ -59,7 +59,7 @@ const ViewInfoModal = ({ open, onClose }: ViewInfoModalProps) => {
             >
                 <VisuallyHidden>
                     <DialogDescription>
-                        View information about the application
+                        View general information about ENreco Archive
                     </DialogDescription>
                 </VisuallyHidden>
 
