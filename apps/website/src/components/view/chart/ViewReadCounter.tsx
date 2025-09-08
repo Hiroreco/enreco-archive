@@ -184,7 +184,7 @@ const ViewReadCounter = ({
                 <DialogHeader>
                     <DialogTitle>
                         <div className="flex justify-between items-center">
-                            <span>Read Status</span>
+                            <span>{tReadStatus("title")}</span>
                             {(filteredElements.nodes.length > 0 ||
                                 filteredElements.edges.length > 0) && (
                                 <div className="flex gap-2 px-2">
