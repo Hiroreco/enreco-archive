@@ -399,7 +399,7 @@
       "heroes": "勇者"
     },
     "filters": {
-      "allChapters": "全チャプター",
+      "allChapters": "全章",
       "chapter": "第{number}章"
     },
     "info": {
