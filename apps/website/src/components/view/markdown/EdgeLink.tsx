@@ -1,5 +1,8 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
-import { CurrentChapterDataContext, CurrentDayDataContext } from "@/contexts/CurrentChartData";
+import {
+    CurrentChapterDataContext,
+    CurrentDayDataContext,
+} from "@/contexts/CurrentChartData";
 import { useSettingStore } from "@/store/settingStore";
 
 import { ReactNode, useCallback, useContext } from "react";
@@ -43,13 +46,22 @@ export default function EdgeLink({
     }, [edge, onEdgeLinkClick]);
 
     let edgeColor = "#831843";
-    if (edge?.data?.relationshipId && relationships[edge?.data?.relationshipId]) {
-        edgeColor = getContrastedColor(relationships[edge?.data?.relationshipId].style.stroke ?? edgeColor, isDarkMode);
+    if (
+        edge?.data?.relationshipId &&
+        relationships[edge?.data?.relationshipId]
+    ) {
+        edgeColor = getContrastedColor(
+            relationships[edge?.data?.relationshipId].style.stroke ?? edgeColor,
+            isDarkMode,
+        );
     }
 
     let label = children as string;
     try {
         label = label.split(":")[0];
+        if (!label) {
+            label = label.split("：")[0];
+        }
         label = `${label}: ${edge?.data?.title}`;
     } catch {
         label = `see "${edge?.data?.title}"`;
