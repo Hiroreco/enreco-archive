@@ -37,13 +37,13 @@
       "credits": "クレジット"
     },
     "infoGeneral": {
-      "title": "ENrecoアーカイブ",
+      "title": "ENreco Archive",
       "updatedOn": "{date}に更新",
       "changelog": "（変更履歴）",
       "daysSinceLastEpisode": "最終エピソードからの日数:",
       "daysUntilNextChapter": "次章まで:",
       "noInfo": "情報なし",
-      "welcome": "ENrecoアーカイブへようこそ！{series}で起こった（ほぼ）すべての出来事をアーカイブする事を目的としたファンプロジェクトです。",
+      "welcome": "ENreco Archiveへようこそ！{series}で起こった（ほぼ）すべての出来事をアーカイブする事を目的としたファンプロジェクトです。",
       "series": "ENigmatic Recollection",
       "description": "日々の振り返りやキャラクターの関係性から、物語全体を形作った重要なストーリーラインまで、すべてがタイムスタンプ付きのコンパクトなカードにまとめられています。シリーズに追いつきたい方や、お気に入りの瞬間を振り返りたい方に最適です。",
       "whatIsTitle": "ENigmatic Recollectionとは？",
@@ -67,10 +67,10 @@
       "coverGuidelines": "COVERの二次創作ガイドライン",
       "minecraftGuidelines": "Minecraft利用ガイドライン",
       "feedbackNote": "フィードバックや問題の報告は、<こちらのリンクをご利用ください",
-      "feedbackLabel": "ENrecoアーカイブフィードバックフォーム"
+      "feedbackLabel": "ENreco Archiveフィードバックフォーム"
     },
     "infoGuide": {
-      "title": "ENrecoアーカイブの使い方",
+      "title": "ENreco Archiveの使い方",
       "inspiration": "このサイトのコンセプトは<link>stemotologyとsunkissedrhodo</link>が作成した関係図にインスパイアされていますが、インタラクティブ要素を加えています。ただし、ここの図表は元のものとは異なることにご注意ください。",
       "generalTitle": "基本操作",
       "navigation": "画面下部のコントロールを使って各日とチャプターをナビゲートでき、図表はそれに応じて更新されます。",
@@ -189,7 +189,7 @@
     "music": {
       "controls": {
         "noTrackSelected": "トラックが選択されていません",
-        "title": "ENrecoアーカイブ ジュークボックス",
+        "title": "ENreco Archive ジュークボックス",
         "shuffle": {
           "on": "シャッフルをオン",
           "off": "シャッフルをオフ"
@@ -265,7 +265,7 @@
     },
     "changelog": {
       "title": "変更履歴",
-      "description": "ENrecoアーカイブの変更履歴を表示",
+      "description": "ENreco Archiveの変更履歴を表示",
       "seeAllLogs": "すべての変更履歴を表示するには<link>こちら</link>",
       "forQuestions": "質問や問題の報告は、<link>@hiroavrs</link>までご連絡ください。"
     }
@@ -362,7 +362,7 @@
     "spoilers": {
       "title": "汝、通るべからず！",
       "description": "注意—このページにはネタバレが含まれています！ENigmatic Recollectionの物語をまだ体験していない場合は、まずそちらをチェックすることをお勧めします。",
-      "agree": "*続行することで、ネタバレされてもENrecoアーカイブに責任を問わないことに同意したものとみなします。",
+      "agree": "*続行することで、ネタバレされてもENreco Archiveに責任を問わないことに同意したものとみなします。",
       "ok": "了解！"
     },
     "categoryInfo": {
