@@ -303,7 +303,8 @@
     "day": "Day {val}",
     "chapter": "Chapter {val}",
     "allChapters": "All Chapters",
-    "section": "Section {val}"
+    "section": "Section {val}",
+    "ok": "Got it!"
   },
   "navTooltips": {
     "dayRecapVisibility": "Day Recap/Visibility",

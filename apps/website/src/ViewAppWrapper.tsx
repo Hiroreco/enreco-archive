@@ -16,6 +16,7 @@ import { useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
+import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
 
 type AppType = "chart" | "glossary";
 
@@ -42,6 +43,8 @@ export const ViewAppWrapper = () => {
 
     return (
         <div>
+            <ViewTranslationDislaimerModal />
+
             {isLoading && (
                 <ViewLoadingPage
                     useDarkMode={useDarkMode}

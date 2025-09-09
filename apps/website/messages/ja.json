@@ -303,7 +303,8 @@
     "day": "{val}日目",
     "chapter": "第{val}章",
     "allChapters": "全チャプター",
-    "section": "セクション{val}"
+    "section": "セクション{val}",
+    "ok": "了解"
   },
   "navTooltips": {
     "dayRecapVisibility": "デイ要約/表示設定",
