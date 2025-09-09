@@ -1,3 +1,9 @@
+import {
+    BackdropFilter,
+    FontSize,
+    Locale,
+    useSettingStore,
+} from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -18,17 +24,22 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
-import {
-    BackdropFilter,
-    FontSize,
-    Locale,
-    useSettingStore,
-} from "@/store/settingStore";
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
-import { useCallback, useRef } from "react";
-import { Volume2, VolumeX } from "lucide-react";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import {
+    Activity,
+    ALargeSmall,
+    ClipboardCopy,
+    Fullscreen,
+    Globe,
+    Music,
+    SunMoon,
+    Volume2,
+    VolumeX,
+    Wallpaper,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useCallback, useRef } from "react";
 
 interface ViewSettingsModalProps {
     open: boolean;
@@ -92,7 +103,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
 
                 <div className="flex flex-col gap-4 p-2 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="enable-bgm">
+                        <Label
+                            htmlFor="enable-bgm"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Music size={20} />
                             {tSettings("backgroundMusic")}
                         </Label>
                         <div className="flex items-center justify-between gap-2 w-[150px]">
@@ -129,7 +144,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="enable-sfx">
+                        <Label
+                            htmlFor="enable-sfx"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Activity size={20} />
                             {tSettings("soundEffects")}
                         </Label>
                         <div className="flex items-center justify-between gap-2 w-[150px]">
@@ -166,7 +185,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="day-recap">
+                        <Label
+                            htmlFor="day-recap"
+                            className="flex items-center gap-1.5"
+                        >
+                            <ClipboardCopy size={20} />
                             {tSettings("showRecapOnDayChange")}
                         </Label>
                         <Checkbox
@@ -177,7 +200,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="pan">
+                        <Label
+                            htmlFor="pan"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Fullscreen size={20} />
                             {tSettings("autoPanBackOnClose")}
                         </Label>
                         <Checkbox
@@ -188,7 +215,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="backdrop-filter">
+                        <Label
+                            htmlFor="backdrop-filter"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Wallpaper size={20} />
                             {tSettings("backdropFilter")}
                         </Label>
                         <Select
@@ -216,7 +247,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="theme-option">
+                        <Label
+                            htmlFor="theme-option"
+                            className="flex items-center gap-1.5"
+                        >
+                            <SunMoon size={20} />
                             {tSettings("appTheme")}
                         </Label>
                         <Select
@@ -247,7 +282,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="font-size">
+                        <Label
+                            htmlFor="font-size"
+                            className="flex items-center gap-1.5"
+                        >
+                            <ALargeSmall size={20} />
                             {tSettings("fontSize")}
                         </Label>
                         <Select
@@ -281,7 +320,11 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="language">
+                        <Label
+                            htmlFor="language"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Globe size={20} />
                             {tSettings("language")}
                         </Label>
                         <Select
