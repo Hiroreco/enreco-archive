@@ -1,7 +1,7 @@
 <!-- title: Libestans -->
 <!-- quote: Our barrels and pots were overflowing with potato salad. -->
 <!-- chapters: -1 -->
-<!-- images: (A Libestan who had an awful dream about potato salad), (Cryptic message found while speaking to a Libestan), (The Quest Master, responsible for giving out quests), (Princess Iphania's first time meeting the heroes), (A hero recieving a quest from and NPC), (A hero buying items from one of the shopkeepers), (Libestans in the Kingdom) -->
+<!-- images: (Placeholder, i guess), (A Libestan who had an awful dream about potato salad), (Cryptic message found while speaking to a Libestan), (Princess Iphania's first time meeting the heroes), (The Quest Master, responsible for giving out quests), (A hero buying items from one of the shopkeepers), (Libestans in the Kingdom) -->
 <!-- model: false -->
 
 ## Overview
