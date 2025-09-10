@@ -13,4 +13,4 @@ export const LS_HAS_VISITED_TRANSLATION_DISCLAIMER =
     "has-visited-translation-disclaimer";
 
 export const LS_CURRENT_VERSION_KEY = "enreco-current-version";
-export const LS_CURRENT_VERSION = "2025.08.18"; // Update this every announcement release
+export const LS_CURRENT_VERSION = "2025-09-13"; // Update this every announcement release

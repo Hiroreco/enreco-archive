@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Locale, useTranslations } from "next-intl";
 import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
 import { useSettingStore } from "@/store/settingStore";
+import { LS_CURRENT_VERSION } from "@/lib/constants";
 
 const getDateDifference = (
     date: Date = new Date("2025-06-10"),
@@ -46,7 +47,10 @@ const ViewInfoGeneral = () => {
                 <span className="font-bold text-3xl">{t("title")}</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
                     {t("updatedOn", {
-                        date: getDateInLocale(new Date("2025-08-18"), locale),
+                        date: getDateInLocale(
+                            new Date(LS_CURRENT_VERSION),
+                            locale,
+                        ),
                     })}{" "}
                     <span
                         onClick={() => {

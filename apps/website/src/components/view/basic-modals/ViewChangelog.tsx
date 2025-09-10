@@ -1,4 +1,6 @@
+import LocaleSwitcher from "@/components/view/basic-modals/LocaleSwitcher";
 import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -6,13 +8,12 @@ import {
     DialogContent,
     DialogDescription,
     DialogFooter,
+    DialogHeader,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { useCallback } from "react";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useTranslations } from "next-intl";
+import { useCallback } from "react";
 
 interface ViewChangelogModalProps {
     open: boolean;
@@ -36,30 +37,22 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <VisuallyHidden>
-                <DialogTitle>Changelog</DialogTitle>
-            </VisuallyHidden>
             <DialogContent
                 showXButton={false}
                 className="rounded-lg h-[85vh] max-h-none max-w-[600px] md:w-[80vw] flex flex-col justify-end"
             >
-                <VisuallyHidden>
-                    <DialogDescription>
-                        View the changelog for the ENreco Archive
+                <DialogHeader>
+                    <DialogTitle className="text-center">
+                        {tChangelog("title")}
+                    </DialogTitle>
+
+                    <DialogDescription className="text-center">
+                        {tChangelog("description")}
                     </DialogDescription>
-                </VisuallyHidden>
+                </DialogHeader>
 
                 <div className="flex-1 min-h-0 overflow-auto border-y border-foreground/60 pb-4 px-2">
                     <div className="flex flex-col gap-6 mt-4">
-                        <div className="text-center">
-                            <h2 className="font-bold text-2xl mb-2">
-                                {tChangelog("title")}
-                            </h2>
-                            <p className="text-sm text-foreground/70">
-                                {tChangelog("description")}
-                            </p>
-                        </div>
-
                         {(
                             changelogs as Array<{
                                 date: string;
@@ -113,9 +106,12 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
                     </div>
                 </div>
 
-                <DialogFooter className="flex items-center justify-end w-full">
+                <DialogFooter className="flex flex-row justify-end items-center w-full">
+                    <LocaleSwitcher />
                     <DialogClose asChild>
-                        <Button className="self-end">{tCommon("close")}</Button>
+                        <Button className="self-end min-w-20">
+                            {tCommon("close")}
+                        </Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>
