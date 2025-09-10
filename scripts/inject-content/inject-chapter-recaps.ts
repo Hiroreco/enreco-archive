@@ -1,10 +1,6 @@
 import { ChapterRecapData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function main() {
     const locale = process.argv[2] || "en";
@@ -84,7 +80,8 @@ async function main() {
         "apps",
         "website",
         "data",
-        `chapter-recaps${localeSuffix}.json`,
+        locale,
+        `chapter-recaps${localeSuffix === "" ? "_en" : localeSuffix}.json`,
     );
     await fs.writeFile(outPath, JSON.stringify(out, null, 2), "utf-8");
     console.log(

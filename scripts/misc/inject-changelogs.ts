@@ -2,7 +2,6 @@ import fs from "fs/promises";
 import path from "path";
 
 const CHANGELOG_DIR = path.resolve(process.cwd(), "changelogs");
-const OUTPUT_PATH = path.resolve(process.cwd(), "apps", "website", "data");
 
 interface ChangelogEntry {
     date: string;
@@ -11,7 +10,7 @@ interface ChangelogEntry {
 
 async function main() {
     const locale = process.argv[2] || "en";
-    const localeSuffix = locale === "en" ? "" : `_${locale}`;
+    const localeSuffix = `_${locale}`;
     const localizedChangelogDir =
         locale === "en" ? CHANGELOG_DIR : `${CHANGELOG_DIR}_${locale}`;
 
@@ -35,6 +34,14 @@ async function main() {
             const content = await fs.readFile(filePath, "utf-8");
             changelogs.push({ date, content });
         }
+
+        const OUTPUT_PATH = path.resolve(
+            process.cwd(),
+            "apps",
+            "website",
+            "data",
+            locale,
+        );
 
         // Write to JSON file
         const outputFile = path.join(

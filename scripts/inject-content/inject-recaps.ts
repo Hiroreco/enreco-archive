@@ -15,7 +15,7 @@ function reverseId(id: string): string {
 
 async function processChapter(chapterNum: number, locale: string) {
     const isDefault = locale === "en";
-    const localeSuffix = isDefault ? "" : `_${locale}`;
+    const localeSuffix = `_${locale}`;
 
     console.log(
         `\n📚 Processing chapter ${chapterNum} for locale ${locale}...`,
@@ -324,6 +324,7 @@ async function processChapter(chapterNum: number, locale: string) {
         "apps",
         "website",
         "data",
+        locale,
         `chapter${chapterNum}${localeSuffix}.json`,
     );
 

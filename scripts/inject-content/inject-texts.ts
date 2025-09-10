@@ -4,7 +4,7 @@ import path from "path";
 
 async function main() {
     const locale = process.argv[2] || "en";
-    const localeSuffix = locale === "en" ? "" : `_${locale}`;
+    const localeSuffix = `_${locale}`;
 
     const baseDir = path.resolve(
         process.cwd(),
@@ -26,6 +26,7 @@ async function main() {
         "apps",
         "website",
         "data",
+        locale,
         `text-data${localeSuffix}.json`,
     );
 
