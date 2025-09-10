@@ -31,7 +31,7 @@ import {
     ALargeSmall,
     ClipboardCopy,
     Fullscreen,
-    Globe,
+    Languages,
     Music,
     SunMoon,
     Volume2,
@@ -324,7 +324,7 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                             htmlFor="language"
                             className="flex items-center gap-1.5"
                         >
-                            <Globe size={20} />
+                            <Languages size={20} />
                             {tSettings("language")}
                         </Label>
                         <Select

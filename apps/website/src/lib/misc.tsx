@@ -1,13 +1,13 @@
 import { Locale } from "@/store/settingStore";
 import {
-    Laptop,
+    Image,
+    Languages,
     Monitor,
     NotebookPen,
     Palette,
     SquareCheckBig,
     SquarePen,
     Star,
-    Image,
 } from "lucide-react";
 
 const iconSize = 20;
@@ -37,16 +37,20 @@ export const CONTRIBUTORS = [
         ],
     },
     {
-        role: "Assisted Developer",
-        icon: <Laptop size={iconSize} />,
+        role: "Translation Assistant",
+        icon: <Languages size={iconSize} />,
         contributors: [
             {
-                name: "goose",
-                socials: "https://github.com/Pyreko",
+                name: "ふうげつどう",
+                socials: "https://x.com/elu_live",
             },
             {
-                name: "GoldElysium",
-                socials: "https://github.com/GoldElysium",
+                name: "アーク•カデンザー",
+                socials: "https://x.com/arkcadenza22",
+            },
+            {
+                name: "Jailbird Union",
+                socials: "https://x.com/JailbirdUnion",
             },
         ],
     },
