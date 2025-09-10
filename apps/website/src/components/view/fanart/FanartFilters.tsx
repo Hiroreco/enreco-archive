@@ -63,6 +63,12 @@ const FanartFilters = ({
     totalItems,
 }: FanartFiltersProps) => {
     const t = useTranslations("modals.art");
+    const shortInclusiveLabel =
+        inclusiveMode === "showAll"
+            ? "all"
+            : inclusiveMode === "hasAny"
+            ? "any"
+            : "only";
     return (
         <div className="border-b pb-4">
             {/* Mobile layout */}
@@ -131,6 +137,7 @@ const FanartFilters = ({
                     <Tooltip>
                         <TooltipTrigger asChild>
                             <Button
+                                id="fanart-inclusive-mode-mobile"
                                 size={"sm"}
                                 variant={"outline"}
                                 disabled={
@@ -140,10 +147,15 @@ const FanartFilters = ({
                                 onClick={() =>
                                     onInclusiveModeChange(inclusiveMode)
                                 }
-                                className="h-6 text-xs"
+                                title={t(`inclusiveModes.${inclusiveMode}.description`)}
+                                aria-label={t(
+                                    `inclusiveModes.${inclusiveMode}.description`,
+                                )}
+                                className={`h-6 text-xs flex items-center gap-1`}
                             >
+                                <span className="text-[10px] font-medium">Include:</span>
                                 <ChevronLeft />
-                                {t(`inclusiveModes.${inclusiveMode}.label`)}
+                                {shortInclusiveLabel}
                                 <ChevronRight />
                             </Button>
                         </TooltipTrigger>
@@ -300,19 +312,25 @@ const FanartFilters = ({
                     <Tooltip>
                         <TooltipTrigger asChild>
                             <Button
+                                id="fanart-inclusive-mode"
                                 size={"sm"}
                                 variant={"outline"}
                                 disabled={
                                     selectedCharacters.includes("all") ||
                                     selectedCharacters.includes("various")
                                 }
-                                className="min-w-36"
+                                className={`min-w-36 flex items-center gap-2`}
                                 onClick={() =>
                                     onInclusiveModeChange(inclusiveMode)
                                 }
+                                title={t(`inclusiveModes.${inclusiveMode}.description`)}
+                                aria-label={t(
+                                    `inclusiveModes.${inclusiveMode}.description`,
+                                )}
                             >
+                                <span className="text-sm font-medium">Include:</span>
                                 <ChevronLeft />
-                                {t(`inclusiveModes.${inclusiveMode}.label`)}
+                                {shortInclusiveLabel}
                                 <ChevronRight />
                             </Button>
                         </TooltipTrigger>
