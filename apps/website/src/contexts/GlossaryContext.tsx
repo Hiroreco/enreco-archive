@@ -1,9 +1,16 @@
-import React, { createContext, useContext, useState, ReactNode } from "react";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { useSettingStore } from "@/store/settingStore";
 import type {
     CommonItemData,
     GlossaryPageData,
 } from "@enreco-archive/common/types";
-import { useLocalizedData } from "@/hooks/useLocalizedData";
+import {
+    createContext,
+    ReactNode,
+    useContext,
+    useEffect,
+    useState,
+} from "react";
 
 export type Category =
     | "cat-weapons"
@@ -40,28 +47,9 @@ const GlossaryContext = createContext<GlossaryContextType | null>(null);
 
 export function GlossaryProvider({ children }: { children: ReactNode }) {
     const { getGlossary } = useLocalizedData();
+    const currentLocale = useSettingStore((state) => state.locale);
 
-    const categoryMap: Record<Category, GlossaryPageData> = {
-        "cat-weapons": getGlossary("cat-weapons"),
-        "cat-characters": getGlossary("cat-characters"),
-        "cat-lore": getGlossary("cat-lore"),
-        "cat-quests": getGlossary("cat-quests"),
-        "cat-misc": getGlossary("cat-misc"),
-    };
-
-    // Flatten registry: id → LookupEntry
-    const registry: Record<string, LookupEntry> = {};
-    for (const [categoryKey, data] of Object.entries(categoryMap)) {
-        for (const [subcat, items] of Object.entries(data)) {
-            for (const item of items) {
-                registry[item.id] = {
-                    categoryKey: categoryKey as Category,
-                    subcategory: subcat,
-                    item,
-                };
-            }
-        }
-    }
+    const [registry, setRegistry] = useState<Record<string, LookupEntry>>({});
 
     const [currentEntry, setCurrentEntry] = useState<LookupEntry | null>(null);
     const [history, setHistory] = useState<LookupEntry[]>([]);
@@ -75,6 +63,43 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
         "cat-quests": 0,
         "cat-misc": 0,
     });
+
+    useEffect(() => {
+        const categoryMap: Record<Category, GlossaryPageData> = {
+            "cat-weapons": getGlossary("cat-weapons"),
+            "cat-characters": getGlossary("cat-characters"),
+            "cat-lore": getGlossary("cat-lore"),
+            "cat-quests": getGlossary("cat-quests"),
+            "cat-misc": getGlossary("cat-misc"),
+        };
+
+        // Rebuild the registry with the new localized data
+        // Flatten registry: id → LookupEntry
+        const newRegistry: Record<string, LookupEntry> = {};
+        for (const [categoryKey, data] of Object.entries(categoryMap)) {
+            for (const [subcat, items] of Object.entries(data)) {
+                for (const item of items) {
+                    newRegistry[item.id] = {
+                        categoryKey: categoryKey as Category,
+                        subcategory: subcat,
+                        item,
+                    };
+                }
+            }
+        }
+
+        setRegistry(newRegistry);
+
+        // Update the current entry with the new localized content if one is selected
+        if (currentEntry) {
+            const updatedEntry = newRegistry[currentEntry.item.id];
+            if (updatedEntry) {
+                setCurrentEntry(updatedEntry);
+            }
+        }
+        // Guess what, putting all dependencies here causes infinite loop, again
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [currentLocale]);
 
     const selectItem = (
         entry: LookupEntry | null,
