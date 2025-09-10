@@ -2,11 +2,11 @@ import fs from "fs/promises";
 import path from "path";
 import { EMBED_MISSING_BYPASS_LIST } from "./validation-vals.js";
 
-// --- CONFIG ---
+// Only need to validate EN content, since JA are just copies but in japanese
 const RECAP_DATA_DIR = path.resolve(process.cwd(), "recap-data");
 const TEXT_DATA_PATH = path.resolve(
     process.cwd(),
-    "apps/website/data/text-data.json",
+    "apps/website/data/en/text-data_en.json",
 );
 
 // --- HELPERS ---
@@ -33,12 +33,12 @@ async function loadTextIds(): Promise<Set<string>> {
 async function loadChapterRelationships(): Promise<
     Record<string, Set<string>>
 > {
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data/en");
     const chapterFiles = await fs.readdir(CHAPTERS_DIR);
     const chapterRelationships: Record<string, Set<string>> = {};
 
     for (const file of chapterFiles) {
-        const match = file.match(/^chapter(\d+)\.json$/);
+        const match = file.match(/^chapter(\d+)_en\.json$/);
         if (!match) continue;
         const chapterNum = parseInt(match[1]);
         const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
@@ -51,12 +51,12 @@ async function loadChapterRelationships(): Promise<
 }
 
 async function loadChapterEdgeIds(): Promise<Record<string, Set<string>>> {
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data/en");
     const chapterFiles = await fs.readdir(CHAPTERS_DIR);
     const chapterEdgeIds: Record<string, Set<string>> = {};
 
     for (const file of chapterFiles) {
-        const match = file.match(/^chapter(\d+)\.json$/);
+        const match = file.match(/^chapter(\d+)_en\.json$/);
         if (!match) continue;
         const chapterNum = parseInt(match[1]);
         const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
@@ -79,12 +79,12 @@ async function loadChapterEdgeIds(): Promise<Record<string, Set<string>>> {
 }
 
 async function loadChapterNodeIds(): Promise<Record<string, Set<string>>> {
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data/en");
     const chapterFiles = await fs.readdir(CHAPTERS_DIR);
     const chapterNodeIds: Record<string, Set<string>> = {};
 
     for (const file of chapterFiles) {
-        const match = file.match(/^chapter(\d+)\.json$/);
+        const match = file.match(/^chapter(\d+)_en\.json$/);
         if (!match) continue;
         const chapterNum = parseInt(match[1]);
         const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
@@ -272,10 +272,7 @@ async function main() {
                 );
                 if (match) {
                     const relName = match[1].trim();
-                    if (
-                        !chapterNum ||
-                        !chapterRelationships[parseInt(chapterNum)]
-                    ) {
+                    if (!chapterNum || !chapterRelationships[chapterNum]) {
                         console.warn(
                             `[${relPath}] could not determine chapter for relationship validation`,
                             chapterNum,

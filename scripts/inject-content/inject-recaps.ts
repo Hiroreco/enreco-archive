@@ -302,7 +302,8 @@ async function processChapter(chapterNum: number, locale: string) {
         "apps",
         "website",
         "data",
-        `chapter${chapterNum}.json`,
+        "en",
+        `chapter${chapterNum}_en.json`,
     );
 
     // Check if website JSON exists
