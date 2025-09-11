@@ -88,6 +88,15 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
             }
         }
 
+        // Rebuild history with the new localized data
+        const newHistory = history.map((entry) => {
+            const updatedEntry = newRegistry[entry.item.id];
+            return updatedEntry
+                ? { ...updatedEntry, scrollPosition: entry.scrollPosition }
+                : entry;
+        });
+
+        setHistory(newHistory);
         setRegistry(newRegistry);
 
         // Update the current entry with the new localized content if one is selected
