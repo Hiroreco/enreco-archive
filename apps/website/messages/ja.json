@@ -223,16 +223,17 @@
       "day": "日",
       "videosOnly": "動画のみ",
       "inclusiveModes": {
+        "include": "含む",
         "showAll": {
-          "label": "すべて表示",
+          "label": "すべて",
           "description": "選択したキャラクターのいずれかに一致するすべてのアートワークを表示"
         },
         "hasAny": {
-          "label": "いずれかを含む",
+          "label": "いずれか",
           "description": "選択したキャラクターのすべてを含むアートワークを表示"
         },
         "hasOnly": {
-          "label": "のみを含む",
+          "label": "のみ",
           "description": "選択したキャラクターのみを含むアートワークを表示"
         }
       },

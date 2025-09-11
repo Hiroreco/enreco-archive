@@ -223,16 +223,17 @@
       "day": "Day",
       "videosOnly": "Videos Only",
       "inclusiveModes": {
+        "include": "Include",
         "showAll": {
-          "label": "Show All",
+          "label": "All",
           "description": "Show all artworks that match any of the selected characters"
         },
         "hasAny": {
-          "label": "Has Any",
+          "label": "Any",
           "description": "Show artworks that include all the selected characters"
         },
         "hasOnly": {
-          "label": "Has Only",
+          "label": "Only",
           "description": "Show artworks that include only the selected characters"
         }
       },

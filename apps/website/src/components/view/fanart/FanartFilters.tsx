@@ -14,7 +14,7 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
-import { ChevronLeft, ChevronRight, Shuffle } from "lucide-react";
+import { Shuffle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 interface FanartFiltersProps {
@@ -63,12 +63,6 @@ const FanartFilters = ({
     totalItems,
 }: FanartFiltersProps) => {
     const t = useTranslations("modals.art");
-    const shortInclusiveLabel =
-        inclusiveMode === "showAll"
-            ? "all"
-            : inclusiveMode === "hasAny"
-            ? "any"
-            : "only";
     return (
         <div className="border-b pb-4">
             {/* Mobile layout */}
@@ -147,16 +141,15 @@ const FanartFilters = ({
                                 onClick={() =>
                                     onInclusiveModeChange(inclusiveMode)
                                 }
-                                title={t(`inclusiveModes.${inclusiveMode}.description`)}
                                 aria-label={t(
                                     `inclusiveModes.${inclusiveMode}.description`,
                                 )}
                                 className={`h-6 text-xs flex items-center gap-1`}
                             >
-                                <span className="text-[10px] font-medium">Include:</span>
-                                <ChevronLeft />
-                                {shortInclusiveLabel}
-                                <ChevronRight />
+                                <span>{t("inclusiveModes.include")}:</span>
+                                <span className="font-bold">
+                                    {t(`inclusiveModes.${inclusiveMode}.label`)}
+                                </span>
                             </Button>
                         </TooltipTrigger>
                         <TooltipContent>
@@ -319,19 +312,18 @@ const FanartFilters = ({
                                     selectedCharacters.includes("all") ||
                                     selectedCharacters.includes("various")
                                 }
-                                className={`min-w-36 flex items-center gap-2`}
+                                className={`min-w-36 flex items-center gap-1`}
                                 onClick={() =>
                                     onInclusiveModeChange(inclusiveMode)
                                 }
-                                title={t(`inclusiveModes.${inclusiveMode}.description`)}
                                 aria-label={t(
                                     `inclusiveModes.${inclusiveMode}.description`,
                                 )}
                             >
-                                <span className="text-sm font-medium">Include:</span>
-                                <ChevronLeft />
-                                {shortInclusiveLabel}
-                                <ChevronRight />
+                                <span>{t("inclusiveModes.include")}:</span>
+                                <span className="font-bold">
+                                    {t(`inclusiveModes.${inclusiveMode}.label`)}
+                                </span>
                             </Button>
                         </TooltipTrigger>
                         <TooltipContent>
