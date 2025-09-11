@@ -221,7 +221,7 @@ const ViewReadCounter = ({
                             <h3 className="font-semibold">
                                 {tReadStatus("characters")}
                             </h3>
-                            <div className="grid lg:grid-cols-2 gap-4">
+                            <div className="grid lg:grid-cols-2 gap-2">
                                 {filteredElements.nodes.map((node) => {
                                     const isRead = getOptimisticReadStatus(
                                         node.id,
@@ -230,7 +230,7 @@ const ViewReadCounter = ({
                                         <div
                                             key={node.id}
                                             className={cn(
-                                                "transition-all flex items-center gap-4 p-2 rounded-md border cursor-pointer hover:brightness-90",
+                                                "transition-all flex items-center gap-3 p-2 rounded-md border cursor-pointer hover:brightness-90",
                                                 {
                                                     "dark:bg-accent/50 bg-accent/20":
                                                         isRead,
@@ -264,7 +264,7 @@ const ViewReadCounter = ({
                                                         className="object-cover rounded-md"
                                                     />
                                                 </div>
-                                                <span className="font-medium md:text-base text-sm">
+                                                <span className="md:text-base text-sm">
                                                     {node.data.title}
                                                 </span>
                                             </div>
@@ -281,7 +281,7 @@ const ViewReadCounter = ({
                             <h3 className="font-semibold">
                                 {tReadStatus("relationships")}
                             </h3>
-                            <div className="grid lg:grid-cols-2 gap-4">
+                            <div className="grid lg:grid-cols-2 gap-2">
                                 {filteredElements.edges.map((edge) => {
                                     const isRead = getOptimisticReadStatus(
                                         edge.id,
@@ -290,7 +290,7 @@ const ViewReadCounter = ({
                                         <div
                                             key={edge.id}
                                             className={cn(
-                                                "transition-all flex items-center gap-4 p-2 rounded-md border cursor-pointer hover:brightness-90",
+                                                "transition-all flex items-center gap-3 p-2 rounded-md border cursor-pointer hover:brightness-90",
                                                 {
                                                     "dark:bg-accent/50 bg-accent/20":
                                                         isRead,
@@ -364,7 +364,7 @@ const ViewReadCounter = ({
                                                         />
                                                     </div>
                                                 </div>
-                                                <span className="font-medium md:text-base text-sm">
+                                                <span className="md:text-base text-sm">
                                                     {edge.data?.title}
                                                 </span>
                                             </div>
