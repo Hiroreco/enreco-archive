@@ -183,7 +183,7 @@ const ViewReadCounter = ({
             <DialogContent className="max-h-[75vh] h-[75vh] lg:max-w-[70vw] lg:w-[70vw] flex flex-col">
                 <DialogHeader>
                     <DialogTitle>
-                        <div className="flex justify-between items-center">
+                        <div className="flex md:flow-row flex-col gap-2 md:justify-between items-center">
                             <span>{tReadStatus("title")}</span>
                             {(filteredElements.nodes.length > 0 ||
                                 filteredElements.edges.length > 0) && (
@@ -256,7 +256,7 @@ const ViewReadCounter = ({
                                                     )
                                                 }
                                             >
-                                                <div className="relative h-10 w-10 shrink-0">
+                                                <div className="relative md:size-10 size-8 shrink-0">
                                                     <Image
                                                         src={node.data.imageSrc}
                                                         alt={node.data.title}
@@ -264,7 +264,7 @@ const ViewReadCounter = ({
                                                         className="object-cover rounded-md"
                                                     />
                                                 </div>
-                                                <span className="font-medium">
+                                                <span className="font-medium md:text-base text-sm">
                                                     {node.data.title}
                                                 </span>
                                             </div>
@@ -317,7 +317,7 @@ const ViewReadCounter = ({
                                                 }
                                             >
                                                 <div className="flex gap-1">
-                                                    <div className="relative h-10 w-10 shrink-0">
+                                                    <div className="relative md:size-10 size-8 shrink-0">
                                                         <Image
                                                             src={
                                                                 nodes.find(
@@ -340,7 +340,7 @@ const ViewReadCounter = ({
                                                             className="object-cover rounded-md"
                                                         />
                                                     </div>
-                                                    <div className="relative h-10 w-10 shrink-0">
+                                                    <div className="relative md:size-10 size-8 shrink-0">
                                                         <Image
                                                             src={
                                                                 nodes.find(
@@ -364,7 +364,7 @@ const ViewReadCounter = ({
                                                         />
                                                     </div>
                                                 </div>
-                                                <span className="font-medium">
+                                                <span className="font-medium md:text-base text-sm">
                                                     {edge.data?.title}
                                                 </span>
                                             </div>
