@@ -25,7 +25,7 @@
 
 [_♪ ユレタ ユガンダ セカイニ ダンダン ♪_](#embed:https://www.youtube.com/live/31OnEJrRDfU?si=7TsPwSbv9amxpvre&start=7268)
 
-悲しみは拭いきれないものの、フワワは仲間たちと共に[最終決戦](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=7996)へと挑む。勇敢に戦い、ついにステインを打ち倒した彼女たち。しかし、そこで明らかになったのは、真の脅威がずっと陰に潜んでいたという衝撃の事実――その正体は、王その人だったのだ（参照: [王: 真なる悪](#node:king)）。
+悲しみは拭いきれないものの、フワワは仲間たちと共に[最終決戦](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=7996)へと挑む。勇敢に戦い、ついにステインを打ち倒した彼女たち。しかし、そこで明らかになったのは、真の脅威がずっと陰に潜んでいたという衝撃の事実――その正体は、王その人だったのだ（参照 [王: 真なる悪](#node:king)）。
 
 戦いが終わり、フワワと仲間たちは謎めいた[白い部屋](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=9750)へと戻っていく。こうして、彼女の最初の物語はひとまずの幕を閉じたのだった。
 

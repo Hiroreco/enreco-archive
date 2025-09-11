@@ -42,7 +42,7 @@
 
 邪悪な声が、大広間を轟かせました。
 
-(参照: [Outlander-Iphania](#edge:iphania-outlander)).
+(参照 [Outlander-Iphania](#edge:iphania-outlander)).
 
 **_純粋なものは、決して残らない_**
 

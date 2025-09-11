@@ -37,7 +37,7 @@
 
 [バウバウ…](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917)
 
-けれど、そんな空っぽの空間の中にも――確かに、まだ希望は残っていた（参照: [シャキーラ-フワワ](#edge:kiara-fuwawa)）。
+けれど、そんな空っぽの空間の中にも――確かに、まだ希望は残っていた（参照 [シャキーラ-フワワ](#edge:kiara-fuwawa)）。
 
 ## ファンアート
 

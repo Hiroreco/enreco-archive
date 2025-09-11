@@ -15,7 +15,7 @@ Instead, she thought that she should expand her hand-built neighborhood into a l
 
 With no more time to spare, Mordan started the bidding war for the three houses she had built. That is, before [home inspections revealed holes in the walls](https://www.youtube.com/live/Ch4qLZhARtY?t=4991), which Mordan immediately patched up.
 
-The first house was a small one-bedroom property. Nothing too special. The bid started at 500 coins, and it went to Gonathon, her fellow wolf, for 2672 coins. The second one was slightly bigger. It was a 2LDK with a mini front yard. That one went to the couple in the front. (See: [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara))
+The first house was a small one-bedroom property. Nothing too special. The bid started at 500 coins, and it went to Gonathon, her fellow wolf, for 2672 coins. The second one was slightly bigger. It was a 2LDK with a mini front yard. That one went to the couple in the front (see [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara)).
 
 The last house was the biggest of them all. It was akin to a mansion with seven bedrooms and--------
 

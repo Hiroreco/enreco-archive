@@ -29,7 +29,7 @@
 
 [反逆](#embed:https://www.youtube.com/live/-vv8XkRzP_Y?si=yUidUR2ibSFODD9z&t=4533)
 
-（参照: [イファニア姫–アウトランダー](#edge:iphania-outlander)）
+（参照 [イファニア姫–アウトランダー](#edge:iphania-outlander)）
 
 ## ファンアート
 

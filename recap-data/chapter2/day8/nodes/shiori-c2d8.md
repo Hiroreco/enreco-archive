@@ -42,7 +42,7 @@ A scream echoed through the castle, throughout Libestal.
 
 A malicious voice thundered through the halls.
 
-(See:[Outlander-Iphania](#edge:iphania-outlander)).
+(see [Outlander-Iphania](#edge:iphania-outlander)).
 
 **_Nothing Stays Pure_**
 

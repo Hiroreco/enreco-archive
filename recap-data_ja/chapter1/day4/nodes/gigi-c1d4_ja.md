@@ -1,7 +1,7 @@
 <!-- title: ゴナソン・G -->
 <!-- status: 生存 -->
 
-ゴナソンの四日目は、ビジューによる「自分こそが王国の[姫](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=521)であり、セシリアがその守護者である」という宣言から始まった。奇妙な発言ではあったが、彼はそれを受け入れることにした。その直後、彼はセシリアを妻――愛する「真珠」――に[紹介](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=736)し、初めてグラと出会った時の話を語った。グラは一日を通して彼に大きな頭痛をもたらす存在となった（参照: [ゴナソン-グラ: ちびノーム坊や](#edge:gigi-gura)）。
+ゴナソンの四日目は、ビジューによる「自分こそが王国の[姫](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=521)であり、セシリアがその守護者である」という宣言から始まった。奇妙な発言ではあったが、彼はそれを受け入れることにした。その直後、彼はセシリアを妻――愛する「真珠」――に[紹介](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=736)し、初めてグラと出会った時の話を語った。グラは一日を通して彼に大きな頭痛をもたらす存在となった（参照 [ゴナソン-グラ: ちびノーム坊や](#edge:gigi-gura)）。
 
 [「妻を守ってくれ」](#embed:https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=806)
 

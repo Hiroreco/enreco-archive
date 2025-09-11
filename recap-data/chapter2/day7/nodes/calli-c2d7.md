@@ -5,7 +5,7 @@
 
 After a quick trip to the Bahamas (a kingdom outside of Libestal), Mordan Ramsey returned with a rejuvenated mind to start a job... in _real estate?!_
 
-Providing therapy was beginning to be too much for Mordan (see: Mordan day 6). As such, it was time to venture into new things. Perhaps it was the thought of selling houses that could make a profit without the stress of having to deal with the emotions. But for now, the chef had to do her daily, mundane tasks of completing side quests, upgrading her revelation for the upcoming dungeon, and reading inquiry letters she had bought.
+Providing therapy was beginning to be too much for Mordan. As such, it was time to venture into new things. Perhaps it was the thought of selling houses that could make a profit without the stress of having to deal with the emotions. But for now, the chef had to do her daily, mundane tasks of completing side quests, upgrading her revelation for the upcoming dungeon, and reading inquiry letters she had bought.
 
 And unknowingly, [she accidentally read one of Shiori’s letters addressed to Gonathon!](https://www.youtube.com/live/WG748SwXQVo?t=389)
 
@@ -25,7 +25,7 @@ Mordan ran a brisk trip with the rest of her fellow heroes into the _Heart of Ru
 
 The next big thing to do was to celebrate the Hot Pink One's gender reveal party, as she had been invited by Shiori a few hours ago.
 
-Family drama between HPO, Tam Gandr, and Ina (see: [Ina-IRyS: Turning To Another](#edge:ina-irys) and [Ina-Kronii: Netorare](#edge:kronii-ina)) unfolds in front of the Lorekeeper. It feels so much like a telenovela, the therapist couldn't help but watch the show. [_She even brought out popcorn._](https://www.youtube.com/live/WG748SwXQVo?t=11440)
+Family drama between HPO, Tam Gandr, and Ina (see [Ina-IRyS: Turning To Another](#edge:ina-irys) and [Ina-Kronii: Netorare](#edge:kronii-ina)) unfolds in front of the Lorekeeper. It feels so much like a telenovela, the therapist couldn't help but watch the show. [_She even brought out popcorn._](https://www.youtube.com/live/WG748SwXQVo?t=11440)
 
 [Murder is always an option.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=11842)
 

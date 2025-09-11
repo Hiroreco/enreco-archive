@@ -37,7 +37,7 @@ Her telekinesis device rang. It was a call from Lady Bloodflame. The fair knight
 
 Elizabeth came, and a light flickered in the jet-black room in her heart. That tiny flame, could it consume the darkness clouding her soul? The fair knight kept coming closer, and every time it felt like a scorching sun burning through her skin. It was not pleasant; thus, she tried to remain cold and distant. Unreciprocating her advances.
 
-Will she truly be able to resist the knight's sweet gestures? Or would she finally show weakness and yield to her first love? (see: [Nerissa-Elizabeth](#edge:liz-nerissa))
+Will she truly be able to resist the knight's sweet gestures? Or would she finally show weakness and yield to her first love? (see [Nerissa-Elizabeth](#edge:liz-nerissa))
 
 ---
 
