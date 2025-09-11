@@ -206,8 +206,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 node.hidden = !(
                     team[node.data.teamId || "null"] && character[node.id]
                 );
-                node.selectable = node.data.day === day;
-
                 if (selectedElement) {
                     if (isNode(selectedElement)) {
                         node.selected =
@@ -221,7 +219,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 }
             }
         });
-    }, [resolvedData.nodes, team, character, selectedElement, day]);
+    }, [resolvedData.nodes, team, character, selectedElement]);
 
     /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
@@ -379,10 +377,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     const onNodeClick = useCallback(
         (node: ImageNodeType) => {
-            // onEdgeClick doesn't need this, but onNodeClick does, why? Idk.
-            if (!node.selectable) {
-                return;
-            }
             selectElement(node);
             openNodeCard();
         },
@@ -644,8 +638,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
                 day={day}
                 chapter={chapter}
-                nodes={resolvedData.nodes}
-                edges={resolvedData.edges}
+                nodes={completeNodes}
+                edges={completeEdges}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
