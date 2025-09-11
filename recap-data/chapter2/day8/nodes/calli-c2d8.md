@@ -5,7 +5,9 @@
 
 On the last day, Mordan Ramsey resumed building houses for the upcoming auction. It was business as usual. Even so, she wondered what to do with the money she had earned. Perhaps she could buy another ring and marry someone special, but she had long decided that married life wasn't one for the therapist.
 
-Instead, she thought that she should expand her hand-built neighborhood into a little town called [Mordanville.](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=840)
+Instead, she thought that she should expand her hand-built neighborhood into a little town called:
+
+[Mordanville.](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=840)
 
 ---
 

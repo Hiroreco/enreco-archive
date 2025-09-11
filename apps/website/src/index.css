@@ -20,9 +20,7 @@ hr {
     display: block;
     width: 100%;
     height: 1px;
-    opacity: 30%;
-    background-color: hsl(var(--primary));
-    @apply w-full my-2;
+    @apply w-full bg-border;
 }
 
 blockquote {
