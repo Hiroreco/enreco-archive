@@ -35,7 +35,7 @@
 リベスタル王国における重要人物や歴史の記録。
 
 - [「フィア」を読む](#text:fia)
-- [「リベスタル フィクタ」を読む](#text:libestal-ficta)
+- [「リベスタルフィクタ」を読む](#text:libestal-ficta)
 - [「リベスタル」を読む](#text:libestal-ancient)
 - [「アウトサイダー」を読む](#text:the-outsider)
 - [「図書館」を読む](#text:the-library)

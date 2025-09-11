@@ -68,12 +68,12 @@
 
 ## 代表的な著作
 
-- [読む "ナイトログ 0001](#text:liz-journal-c2d1)
-- [読む "ナイトログ 0002](#text:liz-journal-c2d2)
-- [読む "ナイトログ 0003](#text:liz-journal-c2d4)
-- [読む "ナイトログ 0004](#text:liz-journal-c2d5)
-- [読む "ナイトログ 0005](#text:liz-journal-c2d6)
-- [読む "ナイトログ 0006](#text:liz-journal-c2d7)
+- [読む「騎士の記録 0001」](#text:liz-journal-c2d1)
+- [読む「騎士の記録 0002」](#text:liz-journal-c2d2)
+- [読む「騎士の記録 0003」](#text:liz-journal-c2d4)
+- [読む「騎士の記録 0004」](#text:liz-journal-c2d5)
+- [読む「騎士の記録 0005」](#text:liz-journal-c2d6)
+- [読む「騎士の記録 0006」](#text:liz-journal-c2d7)
 
 ## 豆知識
 

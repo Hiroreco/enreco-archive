@@ -5,7 +5,7 @@
 
 - [『行け、美しき薔薇よ』を読む](#text:go-lovely-rose)
 - [『連詩』を読む](#text:stanzas)
-- [『青のメイヴン』を読む](#text:maven-in-blue)
+- [『蒼き魔女』を読む](#text:maven-in-blue)
 - [『ハムレット』を読む](#text:hamlet)
 
 ---

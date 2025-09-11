@@ -29,11 +29,11 @@
 
 **シデロ断崖: 探検記録**
 
-- [「探検者の日誌 #1」を読む](#text:explorers-journal-1)
-- [「探検者の日誌 #2」を読む](#text:explorers-journal-2)
-- [「探検者の日誌 #3」を読む](#text:explorers-journal-3)
-- [「探検者の日誌 #4」を読む](#text:explorers-journal-4)
-- [「探検者の日誌 #5」を読む](#text:explorers-journal-5)
+- [「探検者の手記 #1」を読む](#text:explorers-journal-1)
+- [「探検者の手記 #2」を読む](#text:explorers-journal-2)
+- [「探検者の手記 #3」を読む](#text:explorers-journal-3)
+- [「探検者の手記 #4」を読む](#text:explorers-journal-4)
+- [「探検者の手記 #5」を読む](#text:explorers-journal-5)
 
 **予言の書**
 

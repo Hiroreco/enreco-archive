@@ -19,11 +19,11 @@
 
 **アンティゴニアの大鷲の手記**
 
-- [読む "騎乗者の日誌 #1"](#text:riders-journal-1)
-- [読む "騎乗者の日誌 #2"](#text:riders-journal-2)
-- [読む "騎乗者の日誌 #3"](#text:riders-journal-3)
-- [読む "騎乗者の日誌 #4"](#text:riders-journal-4)
-- [読む "騎乗者の日誌 #5"](#text:riders-journal-5)
+- [読む "騎乗者の手記 #1"](#text:riders-journal-1)
+- [読む "騎乗者の手記 #2"](#text:riders-journal-2)
+- [読む "騎乗者の手記 #3"](#text:riders-journal-3)
+- [読む "騎乗者の手記 #4"](#text:riders-journal-4)
+- [読む "騎乗者の手記 #5"](#text:riders-journal-5)
 
 **予言の書**
 

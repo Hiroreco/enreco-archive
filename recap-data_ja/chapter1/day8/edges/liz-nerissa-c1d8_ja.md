@@ -28,9 +28,9 @@
 そして二人は、まるで何事もなかったかのように再びいつもの軽妙な掛け合いを始める。
 記念にと、ネリッサが贈ったのは『ネリッサ・レイヴンクロフト × エリザベス・ローズ・ブラッドフレイム』と題された本。そのタイトルからして、エリザベスが[どう反応するか](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=15714)は火を見るより明らかだっただろう。
 
-- [『Fire and Flight（第一巻）』を読む](#text:fire-and-flight-1)
-- [『Fire and Flight（第二巻）』を読む](#text:fire-and-flight-2)
-- [『Fire and Flight（第三巻）』を読む](#text:fire-and-flight-3)
+- [『炎と飛翔（第一巻）』を読む](#text:fire-and-flight-1)
+- [『炎と飛翔（第二巻）』を読む](#text:fire-and-flight-2)
+- [『炎と飛翔（第三巻）』を読む](#text:fire-and-flight-3)
 
 旅が終わりを迎えても、二人は変わらず隣り合い、絶え間ない[軽口](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=19277)と絆を深めていく。
 奇妙で、混沌としていて、常識では計り知れない関係。――それでも、これほどまでに美しい関係は他にないだろう。

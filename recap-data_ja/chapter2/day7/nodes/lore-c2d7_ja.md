@@ -21,7 +21,7 @@
 
 #### 判明した伝承の書物
 
-- [「滅びの前奏」を読む](#text:prelude-of-ruin)
+- [滅びの序曲」を読む](#text:prelude-of-ruin)
 - [「滅びの歌」を読む](#text:song-of-ruin)
 
 #### 更新されたNPC

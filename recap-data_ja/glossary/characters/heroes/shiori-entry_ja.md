@@ -82,7 +82,7 @@
 - ["Pickles"](#text:pickles) を読む
 - ["プリンセス #1"](#text:the-princess-1) を読む
 - ["プリンセス #2"](#text:the-princess-2) を読む
-- ["独房 (The Cell)"](#text:the-cell) を読む
+- ["牢獄"](#text:the-cell) を読む
 - ["Tam x Tam"](#text:tam-x-tam) を読む
 - ["キアラ・ロア・スヌ"](#text:kiara-roa-snu) を読む
 

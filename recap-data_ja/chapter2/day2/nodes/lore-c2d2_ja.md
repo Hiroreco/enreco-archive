@@ -21,11 +21,11 @@
 
 **ライケイオン学園の手記**
 
-- [「研究者の日誌 #1」を読む](#text:researchers-journal-1)
-- [「研究者の日誌 #2」を読む](#text:researchers-journal-2)
-- [「研究者の日誌 #3」を読む](#text:researchers-journal-3)
-- [「研究者の日誌 #4」を読む](#text:researchers-journal-4)
-- [「研究者の日誌 #5」を読む](#text:researchers-journal-5)
+- [「研究者の手記 #1」を読む](#text:researchers-journal-1)
+- [「研究者の手記 #2」を読む](#text:researchers-journal-2)
+- [「研究者の手記 #3」を読む](#text:researchers-journal-3)
+- [「研究者の手記 #4」を読む](#text:researchers-journal-4)
+- [「研究者の手記 #5」を読む](#text:researchers-journal-5)
 
 **予言の書**
 

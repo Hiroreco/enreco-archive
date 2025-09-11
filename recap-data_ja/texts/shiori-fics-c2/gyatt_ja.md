@@ -1,4 +1,4 @@
-<!-- title: ギャット -->
+<!-- title: Gyatt -->
 
 「私xxxxxx私、きらめく私xxxxx私の私xxxxx私！」
 

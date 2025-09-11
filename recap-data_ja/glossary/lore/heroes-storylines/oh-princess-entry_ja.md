@@ -40,10 +40,10 @@
 > 「おお、姫様。私はあなたのためならなんでもします。
 > あなたの未来が再び輝くように。」
 
-- [「Princess\~」を読む](#text:princess~)
-- [「Heart」を読む](#text:heart)
-- [「Loyal」を読む](#text:loyal)
-- [「Protect」を読む](#text:protect)
+- [姫君へ～」を読む](#text:princess~)
+- [「心臓」を読む](#text:heart)
+- [「忠誠」を読む](#text:loyal)
+- [「守護」を読む](#text:protect)
 
 ### 結末
 

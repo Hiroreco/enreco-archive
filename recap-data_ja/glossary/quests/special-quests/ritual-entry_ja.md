@@ -30,4 +30,4 @@
 
 ### 報酬
 
-- [「破滅の真実」を読む](#text:the-truth-of-ruin)
+- [「滅びの真実」を読む](#text:the-truth-of-ruin)

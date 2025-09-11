@@ -66,8 +66,8 @@
 
 ## 注目の書物
 
-- ["青の賢女 (Maven in Blue)"](#text:maven-in-blue) を読む
-- ["連 (Stanzas)" （エミリー・ブロンテ作）](#text:stanzas) を読む
+- ["蒼き魔女 (Maven in Blue)"](#text:maven-in-blue) を読む
+- ["連詩 (Stanzas)" （エミリー・ブロンテ作）](#text:stanzas) を読む
 - ["行け、美しき薔薇よ (Go, Lovely Rose)" （エドマンド・ウォーラー作）](#text:go-lovely-rose) を読む
 - ["ハムレット 第3幕第1場" （ウィリアム・シェイクスピア作）](#text:hamlet) を読む
 
