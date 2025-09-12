@@ -237,7 +237,7 @@
           "description": "選択したキャラクターのみを含むアートワークを表示"
         }
       },
-      "memes": "魂のDNA",
+      "memes": "ミーム",
       "reset": "フィルターをリセット",
       "shuffle": {
         "on": "シャッフル",
@@ -253,7 +253,7 @@
       "items": "{val}点",
       "card": {
         "chapterDay": "第{chapter}章 {day}日目",
-        "by": "by {author}",
+        "by": "{author} 作",
         "video": "動画"
       },
       "header": {
