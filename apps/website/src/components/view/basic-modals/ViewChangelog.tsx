@@ -106,12 +106,10 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
                     </div>
                 </div>
 
-                <DialogFooter className="flex flex-row justify-end items-center w-full">
+                <DialogFooter className="flex flex-row justify-end space-x-2 items-center w-full">
                     <LocaleSwitcher />
                     <DialogClose asChild>
-                        <Button className="self-end min-w-20">
-                            {tCommon("close")}
-                        </Button>
+                        <Button className="min-w-20">{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>
