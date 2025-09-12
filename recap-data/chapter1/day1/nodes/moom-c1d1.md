@@ -27,4 +27,4 @@ By the end of the day, Three and her guildmates conquered the _Underworld Dungeo
 
 <!-- bijou, ame -->
 
-["She finds you" Akkanen](https://x.com/__akkanen/status/1900596210781901168)
+["She finds you"](https://x.com/__akkanen/status/1900596210781901168)
