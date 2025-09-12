@@ -329,10 +329,13 @@ async function processChapter(chapterNum: number, locale: string) {
         `chapter${chapterNum}${localeSuffix}.json`,
     );
 
+    const JA_CHAPTER_TITLES = ["リベスタルの王国", "運命の鎖"];
     // For non-English, start with a deep copy of the English web JSON
     const outputWebJson = isDefault
         ? webJson
         : JSON.parse(JSON.stringify(webJson));
+
+    outputWebJson.title = JA_CHAPTER_TITLES[chapterNum];
 
     // Copy over recaps + node content + edge content/title:
     outputWebJson.charts.forEach((wChart: ChartData, dayIndex: number) => {
