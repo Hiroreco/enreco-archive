@@ -23,6 +23,21 @@ async function walkDir(dir: string): Promise<string[]> {
     return files;
 }
 
+/** Check if thumbnail already exists in the first destination */
+async function thumbnailExists(name: string): Promise<boolean> {
+    const thumbnailPath = path.join(
+        process.cwd(),
+        DESTINATIONS[0],
+        `${name}-thumb.webp`,
+    );
+    try {
+        await fs.access(thumbnailPath);
+        return true;
+    } catch {
+        return false;
+    }
+}
+
 async function generateVideoThumbnail(
     inputPath: string,
     outputPath: string,
@@ -126,6 +141,34 @@ async function generateThumbnailsAndBlurData() {
         const name = parsed.name;
         const firstDir = parsed.dir.split(path.sep)[0];
 
+        // Check if thumbnail already exists
+        if (await thumbnailExists(name)) {
+            // Still need to generate blur data for existing thumbnails
+            try {
+                const existingThumbPath = path.join(
+                    process.cwd(),
+                    DESTINATIONS[0],
+                    `${name}-thumb.webp`,
+                );
+                const existingThumbBuffer =
+                    await fs.readFile(existingThumbPath);
+                const thumbBlurSharp = sharp(existingThumbBuffer)
+                    .resize(8, 8, { fit: "inside" })
+                    .webp();
+                const thumbBlurBuffer = await thumbBlurSharp.toBuffer();
+                thumbBlurSharp.destroy();
+                blurDataMap[`${name}-thumb`] =
+                    `data:image/webp;base64,${thumbBlurBuffer.toString("base64")}`;
+            } catch (err) {
+                console.warn(
+                    `⚠️  Could not generate blur data for existing thumbnail ${name}-thumb`,
+                );
+            }
+            continue;
+        }
+
+        console.log(`🖼️  Generating thumbnail for: ${name}`);
+
         // Read file and get metadata
         const originalBuffer = await fs.readFile(inputPath);
         const metadataSharp = sharp(originalBuffer);
@@ -201,7 +244,33 @@ async function generateThumbnailsAndBlurData() {
         const parsed = path.parse(relPath);
         const name = parsed.name;
 
-        console.log(`→ Generating video thumbnail for: ${name}`);
+        // Check if video thumbnail already exists
+        if (await thumbnailExists(name)) {
+            // Still need to generate blur data for existing video thumbnails
+            try {
+                const existingThumbPath = path.join(
+                    process.cwd(),
+                    DESTINATIONS[0],
+                    `${name}-thumb.webp`,
+                );
+                const existingThumbBuffer =
+                    await fs.readFile(existingThumbPath);
+                const thumbBlurSharp = sharp(existingThumbBuffer)
+                    .resize(8, 8, { fit: "inside" })
+                    .webp();
+                const thumbBlurBuffer = await thumbBlurSharp.toBuffer();
+                thumbBlurSharp.destroy();
+                blurDataMap[`${name}-thumb`] =
+                    `data:image/webp;base64,${thumbBlurBuffer.toString("base64")}`;
+            } catch (err) {
+                console.warn(
+                    `⚠️  Could not generate blur data for existing video thumbnail ${name}-thumb`,
+                );
+            }
+            continue;
+        }
+
+        console.log(`🎬 Generating video thumbnail for: ${name}`);
 
         // Generate thumbnail for each destination
         for (const dest of DESTINATIONS) {
