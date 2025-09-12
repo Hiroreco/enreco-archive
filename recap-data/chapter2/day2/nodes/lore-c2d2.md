@@ -13,7 +13,7 @@ The heroes unlocked a new region in the wilderness: the **Remnants of the Lykeio
 
 ![Overview of the Lykeion Campus](/images-opt/lore-lykeion-campus-opt.webp)
 
-#### Uncovered Lore Books:
+#### Uncovered Lore Books
 
 **Lykeion Campus Journals**
 
@@ -28,7 +28,7 @@ The heroes unlocked a new region in the wilderness: the **Remnants of the Lykeio
 - [Read "Book of Prophecies 8:4"](#text:book-of-prophecies-8-4)
 - [Read "Book of Prophecies 3:14"](#text:book-of-prophecies-3-14)
 
-#### Updated NPCs:
+#### Updated NPCs
 
 - See [Fia](#node:fia)
 - See [Iphania](#node:iphania)

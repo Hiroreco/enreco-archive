@@ -17,7 +17,7 @@ The Cliffs of Sidero were once the site of an ancient expedition led by an explo
 
 ![Overview of the Cliffs of Sidero](/images-opt/lore-cliffs-of-sidero-opt.webp)
 
-#### Uncovered Lore Books:
+#### Uncovered Lore Books
 
 **General Information**
 
@@ -40,7 +40,7 @@ The Cliffs of Sidero were once the site of an ancient expedition led by an explo
 - [Read "Book of Prophecies 3:21"](#text:book-of-prophecies-3-21)
 - [Read "Book of Prophecies 3:7"](#text:book-of-prophecies-3-7)
 
-#### Updated NPCs:
+#### Updated NPCs
 
 - See [Fia](#node:fia)
 - See [Iphania](#node:iphania)

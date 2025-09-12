@@ -62,7 +62,7 @@
 
 **_「誰が… 私たちと共に？」_**
 
-## Fanworks:
+## ファン作品
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
 

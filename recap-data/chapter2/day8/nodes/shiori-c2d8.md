@@ -62,7 +62,7 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 
 **_"Who's... With Us?"_**
 
-## Fanworks:
+## Fanworks
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
 

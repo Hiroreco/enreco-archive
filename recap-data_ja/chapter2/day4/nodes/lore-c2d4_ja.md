@@ -15,7 +15,7 @@
 
 ![アンティゴニアの大鷲の全景](/images-opt/lore-antigonian-aerie-opt.webp)
 
-#### 発見された伝承の書:
+#### 発見された伝承の書
 
 **アンティゴニアの大鷲の手記**
 
@@ -30,7 +30,7 @@
 - [読む "予言の書 6:10"](#text:book-of-prophecies-6-10)
 - [読む "予言の書 2:29"](#text:book-of-prophecies-2-29)
 
-#### 更新されたNPC:
+#### 更新されたNPC
 
 - 参照 [フィア](#node:fia)
 - 参照 [イファニア](#node:iphania)

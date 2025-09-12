@@ -18,8 +18,8 @@ function main() {
     runScript("pnpm rename-edge-files", "");
 
     // 1. Validate content first
-    console.log("🔎 Running validate-content...");
-    runScript("pnpm validate-content", "");
+    console.log(`🔎 Running validate-content (${locale})...`);
+    runScript("pnpm validate-content", locale);
 
     // 2. Run all injectors with locale
     console.log(`📝 Injecting glossary (${locale})...`);
