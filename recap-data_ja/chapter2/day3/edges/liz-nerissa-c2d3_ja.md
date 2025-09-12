@@ -33,7 +33,7 @@ _「あはは！　魔女！　あなたを魔女と呼ぶ理由は山ほどあ�
 
 [あああ……えっと……あああああ！](#embed:https://www.youtube.com/live/CVF91CqGD80?si=0WJ6A3s_RUHs0eLF&t=8123)
 
-## Fanart
+## ファンアート
 
 ["Trade Request" by noistein](https://x.com/noirstein/status/1919950989265658028)
 

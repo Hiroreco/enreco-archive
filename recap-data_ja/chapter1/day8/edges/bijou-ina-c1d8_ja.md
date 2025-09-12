@@ -30,7 +30,7 @@
 
 イナは歓喜に震えた。妹が、ついに自分のもとへ戻ってきたのだから。
 
-## Fanart
+## ファンアート
 
 ["Let's end this, sister." by m-pien](https://x.com/mpien6/status/1832788483561369945)
 

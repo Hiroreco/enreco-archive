@@ -9,6 +9,6 @@
 
 [贈り物を、希望を](#embed:https://www.youtube.com/live/wCysZh57Hcc?si=amYBd0PYc_tTX567&t=18155)
 
-## Fanart
+## ファンアート
 
 ["Libestal's Young Chef (Part 1)" by Dreamplanes](https://x.com/Dreamplanes256/status/1921562462647709819)

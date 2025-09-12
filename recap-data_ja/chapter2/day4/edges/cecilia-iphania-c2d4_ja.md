@@ -29,7 +29,7 @@
 
 それでも、セシリアの心は完全には折れていなかった。
 
-## Fanart
+## ファンアート
 
 ["Cecilia and the Princess" by Eule Winters](https://x.com/Eule_Winters/status/1919969659094499795)
 

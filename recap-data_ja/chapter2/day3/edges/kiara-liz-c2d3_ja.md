@@ -17,7 +17,7 @@
 
 [ジェイド鍛冶場](#embed:https://www.youtube.com/live/CVF91CqGD80?si=FDao9shHchm_vRuR&t=9534)
 
-## Fanart
+## ファンアート
 
 ["just some knightly bonding" by Noise](https://x.com/lestkrr/status/1921705091372863518)
 

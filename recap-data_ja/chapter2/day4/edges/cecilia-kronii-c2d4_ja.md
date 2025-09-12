@@ -7,6 +7,6 @@
 
 [橋の下での一杯](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=PSdF1DRfJUXe6ZXR&t=15970)
 
-## Fanart
+## ファンアート
 
 ["To new beginnings" by Floomf](https://x.com/fluumf/status/1919736845048676373)

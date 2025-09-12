@@ -24,7 +24,7 @@
 ここまでついてきてくださっていますか？ 私はもう無理です。
 しかも、これでもまだ全体の半分にも満たない展開だというのだから……！
 
-## Memes
+## ミーム
 
 ["ENreco has been a wild ride" by NP_Mango](https://x.com/NP_Mango/status/1920560933287403536)
 

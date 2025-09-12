@@ -13,7 +13,7 @@
 
 [いい一日だった](#embed:https://www.youtube.com/watch?v=p5xrAxTh8ho&t=15822s)
 
-## Fanart
+## ファンアート
 
 ["In the closet" by Edialex](https://x.com/Ediialex/status/1920993972970721626)
 

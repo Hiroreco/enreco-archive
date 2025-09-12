@@ -17,6 +17,6 @@
 
 [あなたの心は黄金のよう](#embed:https://youtu.be/alQr5XqoUPs?t=13585)
 
-## Fanworks
+## ファン作品
 
 ["some memories are just too much" by Noise](https://x.com/lestkrr/status/1920038038199017707)
