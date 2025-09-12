@@ -90,3 +90,5 @@ _魔女_。
 ["The Bird Song | An ENreco Animatic" by Elisbian](https://x.com/Elisbian_/status/1923090463063416862)
 
 ["Chapter 3" by otashishi](https://x.com/ashiartwork/status/1921948280365224396)
+
+["A Promise til the End of Time" by pawchie](https://x.com/paw_chie/status/1962575397662625963)

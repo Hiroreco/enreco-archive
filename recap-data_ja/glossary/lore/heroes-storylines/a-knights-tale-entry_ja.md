@@ -51,7 +51,7 @@
 
 ## 関連ストーリー
 
-- [『謙虚な騎士と魔女（続編）』](#entry:humble-knight-witch-entry)を参照
+- [『素朴な騎士と魔女（続編）』](#entry:humble-knight-witch-entry)を参照
 
 ## クレジット
 
