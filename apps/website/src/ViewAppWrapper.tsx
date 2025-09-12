@@ -12,11 +12,13 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
 import { LibraryBig, Workflow } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
 import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
+import { LS_CURRENT_VERSION, LS_CURRENT_VERSION_KEY } from "@/lib/constants";
+import { usePersistedViewStore } from "@/store/persistedViewStore";
 
 type AppType = "chart" | "glossary";
 
@@ -35,11 +37,32 @@ export const ViewAppWrapper = () => {
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
+    const hasVisitedBefore = usePersistedViewStore(
+        (state) => state.hasVisitedBefore,
+    );
+    const openChangeLogModal = useViewStore(
+        (state) => state.modal.openChangeLogModal,
+    );
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
         bgImage = chapterData.bgiSrc.replace("-opt.webp", "-dark-opt.webp");
     }
+
+    // Pops up the changelog modal everytime the version changes
+    // The version change is based on comparing the version in localStorage and the current version
+    useEffect(() => {
+        // Don't show the changelog if it's the user's first time, since they will see the info modal anyway
+        if (!hasVisitedBefore || isLoading) {
+            return;
+        }
+        const lsVersion = localStorage.getItem(LS_CURRENT_VERSION_KEY);
+        if (lsVersion !== LS_CURRENT_VERSION) {
+            openChangeLogModal();
+            localStorage.setItem(LS_CURRENT_VERSION_KEY, LS_CURRENT_VERSION);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [isLoading, openChangeLogModal]);
 
     return (
         <div>

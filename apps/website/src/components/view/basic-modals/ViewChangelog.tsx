@@ -1,6 +1,7 @@
 import LocaleSwitcher from "@/components/view/basic-modals/LocaleSwitcher";
 import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { LS_CURRENT_VERSION, LS_CURRENT_VERSION_KEY } from "@/lib/constants";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -13,7 +14,7 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { useTranslations } from "next-intl";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 
 interface ViewChangelogModalProps {
     open: boolean;
@@ -34,6 +35,12 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
         },
         [onClose],
     );
+
+    useEffect(() => {
+        if (open) {
+            localStorage.setItem(LS_CURRENT_VERSION_KEY, LS_CURRENT_VERSION);
+        }
+    }, [open]);
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
