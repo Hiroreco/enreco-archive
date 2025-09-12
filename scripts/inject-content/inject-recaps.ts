@@ -335,7 +335,9 @@ async function processChapter(chapterNum: number, locale: string) {
         ? webJson
         : JSON.parse(JSON.stringify(webJson));
 
-    outputWebJson.title = JA_CHAPTER_TITLES[chapterNum];
+    if (locale === "ja") {
+        outputWebJson.title = JA_CHAPTER_TITLES[chapterNum];
+    }
 
     // Copy over recaps + node content + edge content/title:
     outputWebJson.charts.forEach((wChart: ChartData, dayIndex: number) => {
