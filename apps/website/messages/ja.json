@@ -351,7 +351,7 @@
   "loading": {
     "clickToStart": "どこかをクリックして開始"
   },
-    "glossary": {
+  "glossary": {
     "title": "用語集",
     "categories": {
       "weapons": "武器",
@@ -414,5 +414,13 @@
       "viewCategoryInfo": "カテゴリ情報を表示"
     },
     "empty": "ここにはチキンしかいません"
+  },
+  "easter": {
+    "fauna": {
+      "rollState": {
+        "roll": "ロール",
+        "rolling": "ロール中"
+      }
+    }
   }
 }
