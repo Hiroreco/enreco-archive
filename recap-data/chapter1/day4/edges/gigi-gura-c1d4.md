@@ -31,6 +31,6 @@ Somewhere along the way, though, an odd camaraderie formed between the unlikely 
 
 ["NOOOOOOOOO" by holomybabyTypeR](https://x.com/holomybabyTypeR/status/1831145291908526358)
 
-["oh my god" my AlfaHatdog](https://x.com/alfa_hatdog/status/1831129176109400505)
+["oh my god" by AlfaHatdog](https://x.com/alfa_hatdog/status/1831129176109400505)
 
 <!-- ame -->

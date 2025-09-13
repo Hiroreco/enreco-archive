@@ -1696,7 +1696,7 @@
   },
   {
     "url": "https://x.com/alfa_hatdog/status/1831129176109400505",
-    "label": "\"oh my god\" my AlfaHatdog",
+    "label": "\"oh my god\"",
     "author": "alfa_hatdog",
     "chapter": 0,
     "day": 3,
@@ -1733,6 +1733,31 @@
         "src": "images-opt/lordjoeboto-1833057528063668313-0-opt.webp",
         "width": 1114,
         "height": 1986,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/nagi_nyaaa/status/1831932489658724587",
+    "label": "\"Their love will prevail\"",
+    "author": "nagi_nyaaa",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "ame",
+      "gura",
+      "irys",
+      "kronii",
+      "nerissa",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/nagi_nyaaa-1831932489658724587-0-opt.webp",
+        "width": 2048,
+        "height": 2048,
         "type": "image"
       }
     ],
@@ -2001,6 +2026,7 @@
     "chapter": 0,
     "day": 3,
     "characters": [
+      "fuwawa",
       "mococo"
     ],
     "images": [
@@ -2028,26 +2054,6 @@
         "src": "images-opt/revil0l-1918987437780402257-0-opt.webp",
         "width": 4096,
         "height": 2796,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/nagi_nyaaa/status/1831932489658724587",
-    "label": "\"Their love will prevail\"",
-    "author": "nagi_nyaaa",
-    "chapter": 0,
-    "day": 3,
-    "characters": [
-      "gigi"
-    ],
-    "images": [
-      {
-        "src": "images-opt/nagi_nyaaa-1831932489658724587-0-opt.webp",
-        "width": 2048,
-        "height": 2048,
         "type": "image"
       }
     ],
