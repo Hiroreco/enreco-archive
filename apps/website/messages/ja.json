@@ -304,7 +304,7 @@
     "day": "{val}日目",
     "chapter": "第{val}章",
     "allChapters": "全章",
-    "section": "セクション{val}",
+    "section": "第{val}節",
     "ok": "了解"
   },
   "navTooltips": {

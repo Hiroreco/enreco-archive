@@ -8,10 +8,10 @@
 
 この新しいリベスタル王国には、英雄たちが慣れ親しむべき新たな仕組みが導入された。ギルドは姿を消し、代わりに導入されたのは「職業」。それぞれの英雄が自分の歩む道を自由に選ぶことができる。
 
--   **スミス(鍛冶屋):** レベレーション武器を強化するための強化石を鍛造する。
--   **ジュエラー(宝石商):** 体力や防御を高める護符を作る。
--   **シェフ:** 冒険に役立つバフを与える料理を作る。
--   **サプライヤー(業者):** ツールにエンチャントを施し、資源採集を効率化する。
+- **スミス(鍛冶屋):** レベレーション武器を強化するための強化石を鍛造する。
+- **ジュエラー(宝石商):** 体力や防御を高める護符を作る。
+- **シェフ:** 冒険に役立つバフを与える料理を作る。
+- **サプライヤー(業者):** ツールにエンチャントを施し、資源採集を効率化する。
 
 ![職業選択エリア](/images-opt/jobs-opt.webp)
 
@@ -28,18 +28,18 @@
 
 [**Monster - ENigmatic Recollection Chapter 2 テーマソング**](https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish)
 
-["Monster" 作者: purokiti](https://x.com/purokiti/status/1918510105928032297)
+["Monster" by purokiti](https://x.com/purokiti/status/1918510105928032297)
 
 <!-- kronii, ina, gigi, shiori -->
 
-["Monster" 作者: KagenOyuhi](https://x.com/KagenOyuhi/status/1918496790875144250)
+["Monster" by KagenOyuhi](https://x.com/KagenOyuhi/status/1918496790875144250)
 
 <!-- kronii, ina, gigi, shiori -->
 
-["Monster タロットカード" 作者: mokoppe](https://x.com/mokoppe/status/1918629108000362512)
+["Monster タロットカード" by mokoppe](https://x.com/mokoppe/status/1918629108000362512)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
 
-["Monster キャスト" 作者: Lia](https://x.com/liapandaaaa/status/1918606567588647353)
+["Monster キャスト" by Lia](https://x.com/liapandaaaa/status/1918606567588647353)
 
 <!-- shiori, gigi, kronii -->
