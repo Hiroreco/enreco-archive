@@ -40,7 +40,7 @@ There had been a shift. Subtle, but unmistakable. The sweet, generous maiden who
 
 Rather than running her usual food stall, she toiled beneath the earth, hollowing out space to store a [peculiar device](https://youtu.be/-BFf3e6YJwY?t=4262)—an instrument that played hypnotic, haunting music.
 
-Its creation hadn’t been easy. She had to consult several spirits, voices, and grimoires just to assemble the thing. But once complete, it proved itself useful. Lady Bloodflame had been caught in its spell, lulled by its eerie [sounds](https://youtu.be/-BFf3e6YJwY?t=12262) (see: [Elizabeth-Nerissa: Paper-Thin](#edge:liz-nerissa)).
+Its creation hadn’t been easy. She had to consult several spirits, voices, and grimoires just to assemble the thing. But once complete, it proved itself useful. Lady Bloodflame had been caught in its spell, lulled by its eerie [sounds](https://youtu.be/-BFf3e6YJwY?t=12262) (see [Elizabeth-Nerissa: Paper-Thin](#edge:liz-nerissa)).
 
 ---
 

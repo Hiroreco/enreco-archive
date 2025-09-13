@@ -1,3 +1,9 @@
+import {
+    BackdropFilter,
+    FontSize,
+    Locale,
+    useSettingStore,
+} from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -18,15 +24,22 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Slider } from "@enreco-archive/common-ui/components/slider";
-import {
-    BackdropFilter,
-    FontSize,
-    useSettingStore,
-} from "@/store/settingStore";
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ThemeType } from "@enreco-archive/common/types";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import {
+    Activity,
+    ALargeSmall,
+    ClipboardCopy,
+    Fullscreen,
+    Languages,
+    Music,
+    SunMoon,
+    Volume2,
+    VolumeX,
+    Wallpaper,
+} from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useCallback, useRef } from "react";
-import { Volume2, VolumeX } from "lucide-react";
 
 interface ViewSettingsModalProps {
     open: boolean;
@@ -34,6 +47,9 @@ interface ViewSettingsModalProps {
 }
 
 const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
+    const tSettings = useTranslations("modals.settings");
+    const tCommon = useTranslations("common");
+
     const bgmVolume = useSettingStore((state) => state.bgmVolume);
     const setBgmVolume = useSettingStore((state) => state.setBgmVolume);
     const sfxVolume = useSettingStore((state) => state.sfxVolume);
@@ -54,6 +70,8 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
     const setThemeType = useSettingStore((state) => state.setThemeType);
     const fontSize = useSettingStore((state) => state.fontSize);
     const setFontSize = useSettingStore((state) => state.setFontSize);
+    const language = useSettingStore((state) => state.locale);
+    const setLanguage = useSettingStore((state) => state.setLocale);
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -74,18 +92,24 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                 showXButton={false}
             >
                 <DialogHeader>
-                    <DialogTitle>Settings</DialogTitle>
+                    <DialogTitle>{tSettings("title")}</DialogTitle>
                 </DialogHeader>
 
                 <VisuallyHidden>
                     <DialogDescription>
-                        Change the settings of the application
+                        {tSettings("description")}
                     </DialogDescription>
                 </VisuallyHidden>
 
                 <div className="flex flex-col gap-4 p-2 overflow-y-scroll max-h-[50vh]">
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="enable-bgm">Background Music</Label>
+                        <Label
+                            htmlFor="enable-bgm"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Music size={20} />
+                            {tSettings("backgroundMusic")}
+                        </Label>
                         <div className="flex items-center justify-between gap-2 w-[150px]">
                             <button
                                 onClick={() => {
@@ -120,7 +144,13 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="enable-sfx">Sound Effects</Label>
+                        <Label
+                            htmlFor="enable-sfx"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Activity size={20} />
+                            {tSettings("soundEffects")}
+                        </Label>
                         <div className="flex items-center justify-between gap-2 w-[150px]">
                             <button
                                 onClick={() => {
@@ -155,8 +185,12 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="day-recap">
-                            Show Recap On Day Change
+                        <Label
+                            htmlFor="day-recap"
+                            className="flex items-center gap-1.5"
+                        >
+                            <ClipboardCopy size={20} />
+                            {tSettings("showRecapOnDayChange")}
                         </Label>
                         <Checkbox
                             onCheckedChange={setOpenDayRecapOnDayChange}
@@ -166,7 +200,13 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="pan">Auto Pan Back On Close</Label>
+                        <Label
+                            htmlFor="pan"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Fullscreen size={20} />
+                            {tSettings("autoPanBackOnClose")}
+                        </Label>
                         <Checkbox
                             onCheckedChange={setAutoPanBack}
                             checked={autoPanBack}
@@ -175,7 +215,13 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="backdrop-filter">Backdrop Filter</Label>
+                        <Label
+                            htmlFor="backdrop-filter"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Wallpaper size={20} />
+                            {tSettings("backdropFilter")}
+                        </Label>
                         <Select
                             onValueChange={(value) =>
                                 setBackdropFilter(value as BackdropFilter)
@@ -190,14 +236,24 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="blur">Blur</SelectItem>
-                                <SelectItem value="clear">Clear</SelectItem>
+                                <SelectItem value="blur">
+                                    {tSettings("blur")}
+                                </SelectItem>
+                                <SelectItem value="clear">
+                                    {tSettings("clear")}
+                                </SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="theme-option">App Theme</Label>
+                        <Label
+                            htmlFor="theme-option"
+                            className="flex items-center gap-1.5"
+                        >
+                            <SunMoon size={20} />
+                            {tSettings("appTheme")}
+                        </Label>
                         <Select
                             onValueChange={(value) =>
                                 setThemeType(value as ThemeType)
@@ -212,15 +268,27 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="system">System</SelectItem>
-                                <SelectItem value="light">Light</SelectItem>
-                                <SelectItem value="dark">Dark</SelectItem>
+                                <SelectItem value="system">
+                                    {tSettings("system")}
+                                </SelectItem>
+                                <SelectItem value="light">
+                                    {tSettings("light")}
+                                </SelectItem>
+                                <SelectItem value="dark">
+                                    {tSettings("dark")}
+                                </SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
 
                     <div className="flex flex-row justify-between items-center w-full">
-                        <Label htmlFor="font-size">Font Size</Label>
+                        <Label
+                            htmlFor="font-size"
+                            className="flex items-center gap-1.5"
+                        >
+                            <ALargeSmall size={20} />
+                            {tSettings("fontSize")}
+                        </Label>
                         <Select
                             onValueChange={(value) =>
                                 setFontSize(value as FontSize)
@@ -235,11 +303,49 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="small">Small</SelectItem>
-                                <SelectItem value="medium">Medium</SelectItem>
-                                <SelectItem value="large">Large</SelectItem>
+                                <SelectItem value="small">
+                                    {tSettings("small")}
+                                </SelectItem>
+                                <SelectItem value="medium">
+                                    {tSettings("medium")}
+                                </SelectItem>
+                                <SelectItem value="large">
+                                    {tSettings("large")}
+                                </SelectItem>
                                 <SelectItem value="xlarge">
-                                    Extra Large
+                                    {tSettings("extraLarge")}
+                                </SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label
+                            htmlFor="language"
+                            className="flex items-center gap-1.5"
+                        >
+                            <Languages size={20} />
+                            {tSettings("language")}
+                        </Label>
+                        <Select
+                            onValueChange={(value) =>
+                                setLanguage(value as Locale)
+                            }
+                            value={language}
+                        >
+                            <SelectTrigger
+                                id="language"
+                                name="language"
+                                className="w-[100px]"
+                            >
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="en">
+                                    {tSettings("english")}
+                                </SelectItem>
+                                <SelectItem value="ja">
+                                    {tSettings("japanese")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>
@@ -251,7 +357,7 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                         className="-mb-2 mt-2"
                         onClick={() => onOpenChange(false)}
                     >
-                        Close
+                        {tCommon("close")}
                     </Button>
                 </DialogFooter>
             </DialogContent>

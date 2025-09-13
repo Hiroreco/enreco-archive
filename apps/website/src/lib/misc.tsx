@@ -1,12 +1,13 @@
+import { Locale } from "@/store/settingStore";
 import {
-    Laptop,
+    Image,
+    Languages,
     Monitor,
     NotebookPen,
     Palette,
     SquareCheckBig,
     SquarePen,
     Star,
-    Image,
 } from "lucide-react";
 
 const iconSize = 20;
@@ -36,16 +37,20 @@ export const CONTRIBUTORS = [
         ],
     },
     {
-        role: "Assisted Developer",
-        icon: <Laptop size={iconSize} />,
+        role: "Translation Assistant",
+        icon: <Languages size={iconSize} />,
         contributors: [
             {
-                name: "goose",
-                socials: "https://github.com/Pyreko",
+                name: "ふうげつどう",
+                socials: "https://x.com/elu_live",
             },
             {
-                name: "GoldElysium",
-                socials: "https://github.com/GoldElysium",
+                name: "アーク•カデンザー",
+                socials: "https://x.com/arkcadenza22",
+            },
+            {
+                name: "Jailbird Union",
+                socials: "https://x.com/JailbirdUnion",
             },
         ],
     },
@@ -193,7 +198,7 @@ export const CONTRIBUTORS = [
     },
 ];
 
-export const CHARACTER_ID_NAME_MAP: Record<string, string> = {
+export const CHARACTER_ID_NAME_MAP_EN: Record<string, string> = {
     ame: "Amelia Watson",
     ina: "NinoIna",
     gura: "Gawr Gura",
@@ -216,21 +221,56 @@ export const CHARACTER_ID_NAME_MAP: Record<string, string> = {
     iphania: "Iphania",
 };
 
-export const getCharacterIdNameMap = (chapter = 0): Record<string, string> => {
+export const CHARACTER_ID_NAME_MAP_JA: Record<string, string> = {
+    ame: "アメリア・ワトソン",
+    ina: "ニノイナ",
+    gura: "がうる・ぐら",
+    kiara: "タナキシャ・カリア",
+    calli: "森カリオペ",
+    moom: "ナナムー",
+    fauna: "セレス・ファウナ",
+    kronii: "タム・ガンドル",
+    irys: "ホットピンクワン",
+    bae: "ペザント・ザ・ベー",
+    fuwawa: "フワワ・アビスガード",
+    mococo: "モココ・アビスガード",
+    shiori: "シオリ・ニャヴェラ",
+    nerissa: "ネリッサ・ジュリエット・レイヴンクロフト",
+    bijou: "古石ビジュー",
+    liz: "エリザベス・ローズ・ブラッドフレイム",
+    gigi: "ゴナソン・G",
+    cecilia: "セシリア・イマーグリーン",
+    raora: "ラオラ・パンテラ",
+    iphania: "イファニア",
+};
+
+export const getCharacterIdNameMap = (
+    chapter = 0,
+    locale: Locale = "en",
+): Record<string, string> => {
+    const baseMap =
+        locale === "ja" ? CHARACTER_ID_NAME_MAP_JA : CHARACTER_ID_NAME_MAP_EN;
+
     if (chapter === 0) {
-        return {
-            ...CHARACTER_ID_NAME_MAP,
-        };
+        return { ...baseMap };
     }
     if (chapter === 1) {
+        if (locale === "ja") {
+            return {
+                ...baseMap,
+                cecilia: "セシリア・セシリア・イマーカインド",
+                raora: "ロア・パンドラ",
+                calli: "モーダン・ラムジー",
+            };
+        }
         return {
-            ...CHARACTER_ID_NAME_MAP,
+            ...baseMap,
             cecilia: "Cecilia Immerkind",
             raora: "Roa Pandora",
             calli: "Mordan Ramsey",
         };
     }
-    return CHARACTER_ID_NAME_MAP;
+    return baseMap;
 };
 
 export const CHARACTER_ORDER = [

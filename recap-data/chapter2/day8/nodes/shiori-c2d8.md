@@ -42,7 +42,7 @@ A scream echoed through the castle, throughout Libestal.
 
 A malicious voice thundered through the halls.
 
-(See:[Outlander-Iphania](#edge:iphania-outlander)).
+(see [Outlander-Iphania](#edge:iphania-outlander)).
 
 **_Nothing Stays Pure_**
 
@@ -62,7 +62,7 @@ Her eyes glowed as she turned to the three goddess-like beings, avatars who were
 
 **_"Who's... With Us?"_**
 
-## Fanworks:
+## Fanworks
 
 [Shiori's Nyavella: Kindness's Limit.](https://x.com/massiveyog/status/1923695201052393918)
 

@@ -7,7 +7,7 @@ _The maiden in blue_ woke up in a peculiar white box, her first thought fixated 
 
 This changed when she crossed paths with Gonathon G, who suggested the title _'The Azure Maiden'_ because of her fondness for blue. While Kronii found it poetic, she thought it was a bit too long. Gonathon shortened it to _'Tam,'_ and Kronii, in her own flair, appended _Gandr_. Thus, her new identity was born—_Tim Gandr_.
 
-When summoned by the King alongside the other heroes, Tam felt a unique sense of destiny. Unlike the rest, she was convinced that the King’s fateful words, "Will you—" were the prelude to a royal proposal. Naturally, this meant she was destined to be his _Queen_ (see [Tam-King: Guess I'm Queen now](#edge:kronii-king-of-libestal)).
+When summoned by the King alongside the other heroes, Tam felt a unique sense of destiny. Unlike the rest, she was convinced that the King’s fateful words, "Will you—" were the prelude to a royal proposal. Naturally, this meant she was destined to be his _Queen_ (see [Tam-King: Guess I'm Queen now](#edge:kronii-king)).
 
 Brimming with this belief, she shared her newfound 'truth' with _Peasant the Bae_, who became awestruck at the honor of standing in the presence of [royalty](https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=1333).
 
@@ -29,6 +29,6 @@ As the kingdom settled into quiet, Tam yearned for a peaceful night’s sleep. S
 
 ## Fanart
 
-["Queen Tam Gandr" by Daaku](https://x.com/koizumi_arata/status/1830329272155931070)
+["Kiss your queen's hand" by Daaku](https://x.com/koizumi_arata/status/1830329272155931070)
 
 ["HUZZAH TO THE TRUE QUEEN OF LIBESTAL!!!" by PadoruuFerii](https://x.com/PadoruFerii/status/1900745073664598460)

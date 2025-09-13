@@ -1,6 +1,6 @@
 # ENreco Archive
 
-A fan project dedicated to archiving (almost) everything that transpired during the events of Enigmatic Recollection.
+A fan project dedicated to archiving (almost) everything that transpired during the events of ENigmatic Recollection.
 
 ## Installation
 

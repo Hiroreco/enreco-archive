@@ -15,7 +15,7 @@ Upon conquering Star Site: Chronos, the heroes unlocked the Remnants of the Anti
 
 ![Overview of the Antigonian Aerie](/images-opt/lore-antigonian-aerie-opt.webp)
 
-#### Uncovered Lore Books:
+#### Uncovered Lore Books
 
 **Antigonian Aerie's Journals**
 
@@ -30,7 +30,7 @@ Upon conquering Star Site: Chronos, the heroes unlocked the Remnants of the Anti
 - [Read "Book of Prophecies 6:10"](#text:book-of-prophecies-6-10)
 - [Read "Book of Prophecies 2:29"](#text:book-of-prophecies-2-29)
 
-#### Updated NPCs:
+#### Updated NPCs
 
 - See [Fia](#node:fia)
 - See [Iphania](#node:iphania)

@@ -1,7 +1,13 @@
 import { useState } from "react";
+import { Locale, useTranslations } from "next-intl";
 import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
+import { useSettingStore } from "@/store/settingStore";
+import { LS_CURRENT_VERSION } from "@/lib/constants";
 
-const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
+const getDateDifference = (
+    date: Date = new Date("2025-06-10"),
+    locale: Locale,
+): string => {
     const now = new Date();
     const diffMonth =
         now.getMonth() -
@@ -15,31 +21,48 @@ const getDateDifference = (date: Date = new Date("2025-06-10")): string => {
               diffDays
             : diffDays;
 
+    if (locale === "ja") {
+        return `${Math.abs(diffMonths)}ヶ月${Math.abs(remainingDays)}日`;
+    }
+    // default to English
     return `${Math.abs(diffMonths)} month${Math.abs(diffMonths) !== 1 ? "s" : ""} ${Math.abs(remainingDays)} day${Math.abs(remainingDays) !== 1 ? "s" : ""}`;
 };
 
+const getDateInLocale = (date: Date, locale: Locale): string => {
+    return new Intl.DateTimeFormat(locale, {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+    }).format(date);
+};
+
 const ViewInfoGeneral = () => {
+    const t = useTranslations("modals.infoGeneral");
     const [showChangelog, setShowChangelog] = useState(false);
+    const locale = useSettingStore((state) => state.locale);
 
     return (
         <div className="flex flex-col gap-4">
             <div className="mt-4 flex flex-col">
-                <span className="font-bold text-3xl">ENreco Archive</span>
+                <span className="font-bold text-3xl">{t("title")}</span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Updated on August 18, 2025{" "}
-                    <a
-                        href="#"
-                        onClick={(e) => {
-                            e.preventDefault();
+                    {t("updatedOn", {
+                        date: getDateInLocale(
+                            new Date(LS_CURRENT_VERSION),
+                            locale,
+                        ),
+                    })}{" "}
+                    <span
+                        onClick={() => {
                             setShowChangelog(true);
                         }}
                         className="text-blue-500 hover:text-blue-700 underline cursor-pointer"
                     >
-                        (Changelog)
-                    </a>
+                        {t("changelog")}
+                    </span>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Days since last episode:{" "}
+                    {t("daysSinceLastEpisode")}{" "}
                     <span className="font-bold">
                         {getDateDifference(
                             new Date(
@@ -47,134 +70,129 @@ const ViewInfoGeneral = () => {
                                     timeZone: "Asia/Tokyo",
                                 }),
                             ),
+                            locale,
                         )}
                     </span>
                 </span>
                 <span className="italic text-sm text-foreground/70 mr-4">
-                    Days until next chapter:{" "}
-                    <span className="font-bold">No info</span>
+                    {t("daysUntilNextChapter")}{" "}
+                    <span className="font-bold">{t("noInfo")}</span>
+                </span>
+
+                <span className="italic text-sm text-foreground/70 mr-4">
+                    {t("feedbackNote")}
+                    {": "}
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfiGd4FwosNnW2W8JdB8th0482LZMASbUnoNsAMPERxN7yZmw/viewform?usp=dialog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {t("feedbackLabel")}
+                    </a>
                 </span>
             </div>
-            <div>
-                Welcome to ENreco Archive! A fan project dedicated to archiving
-                (almost) everything that transpired during the events of{" "}
-                <span className="italic">Enigmatic Recollection</span>.
-            </div>
+            <div>{t("welcome", { series: t("series") })}</div>
 
-            <div>
-                From daily recaps and character relationships to major
-                storylines that shaped the entire narrative, everything is
-                compiled into byte-sized cards with timestamps—perfect for those
-                looking to catch up on the series or simply relive their
-                favorite moments.
-            </div>
+            <div>{t("description")}</div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
-                What is Enigmatic Recollection?
+                {t("whatIsTitle")}
             </div>
 
             <div>
-                Enigmatic Recollection, or <strong>ENreco</strong> for short,
-                is:
+                {t.rich("whatIsIntro", {
+                    shortName: t("shortName"),
+                    bold: (chunks) => <strong>{chunks}</strong>,
+                })}
             </div>
             <blockquote className="pl-4 italic opacity-80">
-                "A collection of stories in which the members of hololive
-                English play a part. Through streams, animations, and songs
-                wrought anew, immerse yourself in fresh narratives woven from
-                myriad realms beyond."{" "}
+                {t("officialDescription")}{" "}
                 <a
                     href="https://hololive.hololivepro.com/en/news/20240823-01-97/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    (Source)
+                    {t("source")}
                 </a>
             </blockquote>
 
-            <div>
-                In short, ENreco is where our favorite Hololive English talents
-                come together, interact, and create stories through roleplay.
-                The series is split into different chapters, each focusing on a
-                specific Hololive English generation, with its own unique
-                setting and lore.
-            </div>
+            <div>{t("explanation")}</div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
-                Notes
+                {t("notesTitle")}
             </div>
             <div>
-                Since this project aims to provide a concise recap of the
-                stories, some details may be missed or not included. For the
-                full experience, you can:
+                {t("notesContent")}
                 <ul className="list-disc mt-4">
-                    <li>Watch the talents' streams directly</li>
+                    <li>{t("watchStreams")}</li>
                     <li>
-                        Check out clips and well-made episodic compilations,
-                        such as those by{" "}
-                        <a
-                            href="https://www.youtube.com/watch?v=KIbQ-tcNWDw&list=PLonYStlm50KZ_rKewRuHUfuEMYbk_hbsi&ab_channel=BoubonClipperCh."
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Boubon Clipper Ch.
-                        </a>
+                        {t.rich("checkClips", {
+                            "clipper-link": (chunks) => (
+                                <a
+                                    href="https://www.youtube.com/watch?v=KIbQ-tcNWDw&list=PLonYStlm50KZ_rKewRuHUfuEMYbk_hbsi&ab_channel=BoubonClipperCh."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {chunks}
+                                </a>
+                            ),
+                            clipper: t("clipperName"),
+                        })}
                     </li>
                 </ul>
             </div>
 
             <div>
-                The site is constantly updating as new stories unfold, and we'd
-                gladly welcome any help along the way! If you have any questions
-                or are interested in joining the team, feel free to reach out to
-                Hiro via{" "}
-                <a
-                    href="https://x.com/hiroavrs"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <span className="font-bold">@hiroavrs (X/Twitter)</span>
-                </a>{" "}
-                or send an email to{" "}
-                <a href="mailto:hiroreco@gmail.com">
-                    contacthiroreco@gmail.com
-                </a>
-                .
+                {t.rich("teamInfo", {
+                    "twitter-link": (chunks) => (
+                        <a
+                            href="https://x.com/hiroavrs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {chunks}
+                        </a>
+                    ),
+                    "mail-link": (chunks) => (
+                        <a href="mailto:your@email.com">{chunks}</a>
+                    ),
+                    email: t("email"),
+                    twitter: t("twitterHandle"),
+                })}
             </div>
 
-            <div>
-                With that out of the way, feel free to move on to the next
-                section to learn how to navigate the archive!
-            </div>
+            <div>{t("nextSection")}</div>
 
             <div className="text-sm text-muted-foreground">
-                Note: If you experience major lag when using the site, try
-                switching to a Chromium-based browser (like Chrome, Opera, or
-                Edge).
+                {t("performanceNote")}
             </div>
 
             <div className="font-bold underline underline-offset-2 text-xl">
-                Guidelines
+                {t("guidelinesTitle")}
             </div>
             <div>
-                This is a non-profit fan project and is not affiliated with
-                COVER Corp. nor Mojang. The site uses music taken from the
-                talents' streams, as well as sound effects and assets from
-                Minecraft, following{" "}
-                <a
-                    href="https://hololivepro.com/en/terms/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    COVER's Derivative Works Guidelines
-                </a>{" "}
-                and{" "}
-                <a
-                    href="https://www.minecraft.net/en-us/usage-guidelines"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Minecraft Usage Guidelines.
-                </a>
+                {t.rich("guidelinesContent", {
+                    "minecraft-link": (chunks) => (
+                        <a
+                            href="https://www.minecraft.net/en-us/usage-guidelines"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {chunks}
+                        </a>
+                    ),
+                    "cover-link": (chunks) => (
+                        <a
+                            href="https://hololivepro.com/en/terms/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {chunks}
+                        </a>
+                    ),
+                    coverGuidelines: t("coverGuidelines"),
+                    minecraftGuidelines: t("minecraftGuidelines"),
+                })}
             </div>
 
             <ViewChangelogModal

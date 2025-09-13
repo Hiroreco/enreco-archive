@@ -12,8 +12,11 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const ViewSpoilerModal = () => {
+    const t = useTranslations("glossary.spoilers");
+
     const [open, setOpen] = useState(false);
     useEffect(() => {
         const hasVisited = localStorage.getItem(LS_HAS_VISITED_GLOSSARY);
@@ -29,16 +32,13 @@ const ViewSpoilerModal = () => {
                     <DialogTitle>
                         <span className="inline-flex items-center gap-2">
                             <Siren className="w-5 h-5" />
-                            Thou Shall Not Pass!
+                            {t("title")}
                         </span>
                     </DialogTitle>
                     <DialogDescription>
-                        Just a heads-up—this page has spoilers! If you haven’t
-                        experienced the story of ENigmatic Recollection yet, you
-                        might want to check it out first.
+                        {t("description")}
                         <span className="block mt-2 text-xs text-gray-400 italic">
-                            *By continuing you agree to not hold the ENreco
-                            Archive responsible for being spoiled.
+                            {t("agree")}
                         </span>
                     </DialogDescription>
                 </DialogHeader>
@@ -53,7 +53,7 @@ const ViewSpoilerModal = () => {
                     />
                     <DialogFooter className="w-full">
                         <DialogClose asChild className="w-full">
-                            <Button>Got it!</Button>
+                            <Button>{t("ok")}</Button>
                         </DialogClose>
                     </DialogFooter>
                 </div>

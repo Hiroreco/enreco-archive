@@ -19,6 +19,6 @@ Later, Bae visited the tavern, hoping for a meal, only to discover the exorbitan
 
 [LET ME OUTTTT!!!](#embed:https://www.youtube.com/live/t5NGryTaGqk?si=u0uwY6JLFd-gEkPB&start=2565)
 
-Frustrated (and hungry), she cursed the gods for her suffering. At last the final battle was near, bringing the promise of an end to her ordeal. Armed with weapons as flimsy as paper, Bae took up the role of moral support while the other heroes bore the brunt of the fight. Together, they defeated the [Stain King](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=4028), only to uncover a devastating truth about their monarch (see [King: The True Evil](#node:king-of-libestal)).
+Frustrated (and hungry), she cursed the gods for her suffering. At last the final battle was near, bringing the promise of an end to her ordeal. Armed with weapons as flimsy as paper, Bae took up the role of moral support while the other heroes bore the brunt of the fight. Together, they defeated the [Stain King](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=4028), only to uncover a devastating truth about their monarch (see [King: The True Evil](#node:king)).
 
 In the end, Peasant The Bae returned to the [white room](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=5760) where her journey had begun.

@@ -17,6 +17,7 @@ import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect } from "react";
 
@@ -41,7 +42,9 @@ const ViewReadCounter = ({
     onNodeClick,
     onEdgeClick,
 }: ViewReadCounterProps) => {
-    // Optimistic state for read statuses
+    const tCommon = useTranslations("common");
+    const tReadStatus = useTranslations("modals.readStatus");
+
     const [optimisticReadStates, setOptimisticReadStates] = useState<
         Record<string, boolean>
     >({});
@@ -49,7 +52,6 @@ const ViewReadCounter = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    // Initialize optimistic state when dialog opens or props change
     useEffect(() => {
         if (open) {
             const initialStates: Record<string, boolean> = {};
@@ -181,8 +183,8 @@ const ViewReadCounter = ({
             <DialogContent className="max-h-[75vh] h-[75vh] lg:max-w-[70vw] lg:w-[70vw] flex flex-col">
                 <DialogHeader>
                     <DialogTitle>
-                        <div className="flex justify-between items-center">
-                            <span>Read Status</span>
+                        <div className="flex md:flex-row flex-col gap-2 md:justify-between items-center">
+                            <span>{tReadStatus("title")}</span>
                             {(filteredElements.nodes.length > 0 ||
                                 filteredElements.edges.length > 0) && (
                                 <div className="flex gap-2 px-2">
@@ -191,14 +193,14 @@ const ViewReadCounter = ({
                                         size="sm"
                                         onClick={handleMarkAllAsRead}
                                     >
-                                        Mark All as Read
+                                        {tReadStatus("markAllRead")}
                                     </Button>
                                     <Button
                                         variant="outline"
                                         size="sm"
                                         onClick={handleMarkAllAsUnread}
                                     >
-                                        Mark All as Unread
+                                        {tReadStatus("markAllUnread")}
                                     </Button>
                                 </div>
                             )}
@@ -216,8 +218,10 @@ const ViewReadCounter = ({
                     {/* Nodes */}
                     {filteredElements.nodes.length > 0 && (
                         <div className="space-y-2">
-                            <h3 className="font-semibold">Characters</h3>
-                            <div className="grid lg:grid-cols-2 gap-4">
+                            <h3 className="font-semibold">
+                                {tReadStatus("characters")}
+                            </h3>
+                            <div className="grid lg:grid-cols-2 gap-2">
                                 {filteredElements.nodes.map((node) => {
                                     const isRead = getOptimisticReadStatus(
                                         node.id,
@@ -226,7 +230,7 @@ const ViewReadCounter = ({
                                         <div
                                             key={node.id}
                                             className={cn(
-                                                "transition-all flex items-center gap-4 p-2 rounded-md border cursor-pointer hover:brightness-90",
+                                                "transition-all flex items-center gap-3 p-2 rounded-md border cursor-pointer hover:brightness-90",
                                                 {
                                                     "dark:bg-accent/50 bg-accent/20":
                                                         isRead,
@@ -252,7 +256,7 @@ const ViewReadCounter = ({
                                                     )
                                                 }
                                             >
-                                                <div className="relative h-10 w-10 shrink-0">
+                                                <div className="relative md:size-10 size-8 shrink-0">
                                                     <Image
                                                         src={node.data.imageSrc}
                                                         alt={node.data.title}
@@ -260,7 +264,7 @@ const ViewReadCounter = ({
                                                         className="object-cover rounded-md"
                                                     />
                                                 </div>
-                                                <span className="font-medium">
+                                                <span className="md:text-base text-sm">
                                                     {node.data.title}
                                                 </span>
                                             </div>
@@ -274,8 +278,10 @@ const ViewReadCounter = ({
                     {/* Edges */}
                     {filteredElements.edges.length > 0 && (
                         <div className="space-y-2 mt-4">
-                            <h3 className="font-semibold">Relationships</h3>
-                            <div className="grid lg:grid-cols-2 gap-4">
+                            <h3 className="font-semibold">
+                                {tReadStatus("relationships")}
+                            </h3>
+                            <div className="grid lg:grid-cols-2 gap-2">
                                 {filteredElements.edges.map((edge) => {
                                     const isRead = getOptimisticReadStatus(
                                         edge.id,
@@ -284,7 +290,7 @@ const ViewReadCounter = ({
                                         <div
                                             key={edge.id}
                                             className={cn(
-                                                "transition-all flex items-center gap-4 p-2 rounded-md border cursor-pointer hover:brightness-90",
+                                                "transition-all flex items-center gap-3 p-2 rounded-md border cursor-pointer hover:brightness-90",
                                                 {
                                                     "dark:bg-accent/50 bg-accent/20":
                                                         isRead,
@@ -311,7 +317,7 @@ const ViewReadCounter = ({
                                                 }
                                             >
                                                 <div className="flex gap-1">
-                                                    <div className="relative h-10 w-10 shrink-0">
+                                                    <div className="relative md:size-10 size-8 shrink-0">
                                                         <Image
                                                             src={
                                                                 nodes.find(
@@ -334,7 +340,7 @@ const ViewReadCounter = ({
                                                             className="object-cover rounded-md"
                                                         />
                                                     </div>
-                                                    <div className="relative h-10 w-10 shrink-0">
+                                                    <div className="relative md:size-10 size-8 shrink-0">
                                                         <Image
                                                             src={
                                                                 nodes.find(
@@ -358,7 +364,7 @@ const ViewReadCounter = ({
                                                         />
                                                     </div>
                                                 </div>
-                                                <span className="font-medium">
+                                                <span className="md:text-base text-sm">
                                                     {edge.data?.title}
                                                 </span>
                                             </div>
@@ -381,7 +387,7 @@ const ViewReadCounter = ({
 
                 <DialogFooter>
                     <DialogClose asChild>
-                        <Button className="self-end">Close</Button>
+                        <Button className="self-end">{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

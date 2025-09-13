@@ -13,6 +13,7 @@ import {
     StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import { isMobileViewport } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 interface Props {
     isCardOpen: boolean;
@@ -59,6 +60,8 @@ const ViewDayRecapCard = ({
     day,
     onDayChange,
 }: Props) => {
+    const t = useTranslations("cards.dayCard");
+
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
             onCardClose();
@@ -80,8 +83,10 @@ const ViewDayRecapCard = ({
         >
             <Tabs defaultValue="general" className="flex flex-col h-full">
                 <TabsList className="flex-none grid w-full grid-cols-2">
-                    <TabsTrigger value="general">Summary</TabsTrigger>
-                    <TabsTrigger value="visibility">Visibility</TabsTrigger>
+                    <TabsTrigger value="general">{t("summary")}</TabsTrigger>
+                    <TabsTrigger value="visibility">
+                        {t("visibility")}
+                    </TabsTrigger>
                 </TabsList>
                 <TabsContent value="general" className="flex-1" asChild>
                     <ViewRecapCard

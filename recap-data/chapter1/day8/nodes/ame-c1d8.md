@@ -29,7 +29,7 @@ Amelia retreated to the onsen she had built, sorting through her [thoughts](http
 
 With guidance from [Raora and Nerissa](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=9121), who confirmed the Hot Pink One’s deception, Amelia managed to evade her traps and press onward. Finally, with Nerissa’s push, she and Gonathon unraveled the mystery (see [Gonathon-Amelia: A Knight’s Wish](#edge:gigi-ame)).
 
-When the final battle arrived, Amelia had fully regained her sense of self. Alongside her friends, she wielded her magnifying glass against the [Stain King](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=10901), fighting with determination. Though they emerged victorious, the battle revealed a shocking twist—the true villain was someone they hadn’t anticipated (see [King: The True Evil](#node:king-of-libestal)).
+When the final battle arrived, Amelia had fully regained her sense of self. Alongside her friends, she wielded her magnifying glass against the [Stain King](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=10901), fighting with determination. Though they emerged victorious, the battle revealed a shocking twist—the true villain was someone they hadn’t anticipated (see [King: The True Evil](#node:king)).
 
 The group was ultimately returned to the white room, marking the end of their chapter in this [enigmatic adventure](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=12549).
 

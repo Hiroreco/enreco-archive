@@ -1,3 +1,15 @@
+import { Button } from "@enreco-archive/common-ui/components/button";
+import {
+    Dialog,
+    DialogClose,
+    DialogContent,
+    DialogFooter,
+    DialogTitle,
+    DialogTrigger,
+} from "@enreco-archive/common-ui/components/dialog";
+import { ChevronDown } from "lucide-react";
+import { useTranslations } from "next-intl";
+
 interface CharacterSelectorProps {
     selectedCharacters: string[];
     characters: string[];
@@ -13,6 +25,8 @@ const CharacterSelector = ({
     onCharactersChange,
     mobile,
 }: CharacterSelectorProps) => {
+    const t = useTranslations("modals.art");
+    const tCommon = useTranslations("common");
     const handleCharacterClick = (character: string) => {
         if (selectedCharacters.includes("all")) {
             onCharactersChange([character]);
@@ -32,65 +46,93 @@ const CharacterSelector = ({
     };
 
     if (mobile) {
+        const renderLabel = () => {
+            if (selectedCharacters.includes("all")) return t("charFilter.all");
+            if (selectedCharacters.includes("various"))
+                return t("charFilter.various");
+            const names = selectedCharacters.map((c) => getCharacterName(c));
+            return names.length === 0 ? t("charFilter.all") : names.join(", ");
+        };
+
         return (
-            <div className="flex-1">
+            <div>
                 <label className="text-xs font-medium text-muted-foreground">
-                    Characters
+                    {t("character")}
                 </label>
-                <div className="overflow-x-auto scrollbar-hide">
-                    <div
-                        className="grid gap-1 min-w-max"
-                        style={{
-                            gridTemplateRows: "repeat(2, minmax(0, 1fr))",
-                            gridAutoFlow: "column",
-                            gridAutoColumns: "max-content",
-                        }}
-                    >
-                        <button
-                            type="button"
-                            className={`px-2 py-1 rounded border text-xs whitespace-nowrap flex-shrink-0 ${
-                                selectedCharacters.includes("all")
-                                    ? "bg-accent border-accent-foreground text-accent-foreground"
-                                    : "bg-background border-border"
-                            }`}
-                            onClick={() => onCharactersChange(["all"])}
+
+                <Dialog>
+                    <DialogTrigger asChild>
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            className="w-full text-left text-xs flex items-center justify-between"
                         >
-                            All
-                        </button>
-                        <button
-                            type="button"
-                            className={`px-2 py-1 rounded border text-xs whitespace-nowrap flex-shrink-0 ${
-                                selectedCharacters.includes("various")
-                                    ? "bg-accent border-accent-foreground text-accent-foreground"
-                                    : "bg-background border-border"
-                            }`}
-                            onClick={() => handleCharacterClick("various")}
-                        >
-                            Various
-                        </button>
-                        {characters.map((character) => (
+                            <span className="truncate">{renderLabel()}</span>
+                            <ChevronDown className="w-4 h-4 ml-2 opacity-60" />
+                        </Button>
+                    </DialogTrigger>
+                    <DialogContent>
+                        <DialogTitle className="text-sm font-semibold">
+                            {t("character")}
+                        </DialogTitle>
+
+                        <div className="grid grid-cols-2 gap-2">
                             <button
                                 type="button"
-                                key={character}
-                                className={`px-2 py-1 rounded border text-xs whitespace-nowrap flex-shrink-0 ${
-                                    selectedCharacters.includes(character)
+                                className={`px-2 py-1 rounded border text-xs w-full ${
+                                    selectedCharacters.includes("all")
                                         ? "bg-accent border-accent-foreground text-accent-foreground"
                                         : "bg-background border-border"
                                 }`}
-                                onClick={() => handleCharacterClick(character)}
+                                onClick={() => onCharactersChange(["all"])}
                             >
-                                {getCharacterName(character)}
+                                {t("charFilter.all")}
                             </button>
-                        ))}
-                    </div>
-                </div>
+                            <button
+                                type="button"
+                                className={`px-2 py-1 rounded border text-xs w-full ${
+                                    selectedCharacters.includes("various")
+                                        ? "bg-accent border-accent-foreground text-accent-foreground"
+                                        : "bg-background border-border"
+                                }`}
+                                onClick={() => handleCharacterClick("various")}
+                            >
+                                {t("charFilter.various")}
+                            </button>
+                            {characters.map((character) => (
+                                <button
+                                    type="button"
+                                    key={character}
+                                    className={`px-2 py-1 rounded border text-xs w-full ${
+                                        selectedCharacters.includes(character)
+                                            ? "bg-accent border-accent-foreground text-accent-foreground"
+                                            : "bg-background border-border"
+                                    }`}
+                                    onClick={() =>
+                                        handleCharacterClick(character)
+                                    }
+                                >
+                                    {getCharacterName(character)}
+                                </button>
+                            ))}
+                        </div>
+
+                        <DialogFooter className="mt-4">
+                            <DialogClose asChild>
+                                <Button size="sm" aria-label="Close">
+                                    {tCommon("close")}
+                                </Button>
+                            </DialogClose>
+                        </DialogFooter>
+                    </DialogContent>
+                </Dialog>
             </div>
         );
     }
 
     return (
         <div className="flex items-center gap-2">
-            <label className="text-sm font-medium">Character:</label>
+            <label className="text-sm font-medium">{t("character")}:</label>
             <div className="flex flex-wrap gap-1">
                 <button
                     type="button"
@@ -101,7 +143,7 @@ const CharacterSelector = ({
                     }`}
                     onClick={() => onCharactersChange(["all"])}
                 >
-                    All
+                    {t("charFilter.all")}
                 </button>
                 <button
                     type="button"
@@ -112,7 +154,7 @@ const CharacterSelector = ({
                     }`}
                     onClick={() => handleCharacterClick("various")}
                 >
-                    Various
+                    {t("charFilter.various")}
                 </button>
                 {characters.map((character) => (
                     <button

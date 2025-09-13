@@ -25,13 +25,13 @@ Most of them answered her call.
 
 But not all.
 
-[Nothing stays pure forever](#embed:https://www.youtube.com/live/b-jTHH6GK5w?t=7224)
+[Nothing stays pure](#embed:https://www.youtube.com/live/b-jTHH6GK5w?t=7224)
 
 Fuwawa, Mococo, Bijou, Nerissa, and Shiori did not.
 
 Something had changed within them. A darkness stirred, quiet at first, now fully bloomed. The warmth they once carried, the joy they once spread—it had twisted into something colder, sharper. A fire not of hope, but of rejection. They had no interest in saving the world nor the Outlander.
 
-> Eventually, the people you trust... the people you admire... they all turn on you.
+> The people you trust... the people you admire... they all turn on you eventually.
 
 They were done trusting. Done hoping. They would forge their own path—one shaped not by fate, nor by gods, nor by promises. They declared it proudly.
 

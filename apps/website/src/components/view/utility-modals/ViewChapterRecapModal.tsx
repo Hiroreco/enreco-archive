@@ -10,13 +10,14 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import data from "#/chapter-recaps.json";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
 import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
+import { useTranslations } from "next-intl";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 
 interface ViewChapterRecapModalProps {
     open: boolean;
@@ -29,6 +30,10 @@ const ViewChapterRecapModal = ({
     onClose,
     currentChapter,
 }: ViewChapterRecapModalProps) => {
+    const t = useTranslations("common");
+    const { getChapterRecap } = useLocalizedData();
+
+    const data = getChapterRecap();
     const validCurrentChapter = currentChapter < data.chapters.length;
     const initialChapter = validCurrentChapter
         ? currentChapter
@@ -42,10 +47,11 @@ const ViewChapterRecapModal = ({
 
     const sections = useMemo(
         () => extractMarkdownSections(data.chapters[chapter].content, [3]),
-        [chapter],
+        [chapter, data.chapters],
     );
 
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
+    console.log(sections, sectionIds);
 
     const activeSection = useScrollSpy(sectionIds);
     const backdropFiler = useSettingStore((state) => state.backdropFilter);
@@ -164,7 +170,7 @@ const ViewChapterRecapModal = ({
                                             {data.chapters[chapter].content}
                                         </ViewMarkdown>
                                     ),
-                                    [chapter],
+                                    [chapter, data.chapters],
                                 )}
                             </motion.div>
                         </AnimatePresence>
@@ -176,7 +182,7 @@ const ViewChapterRecapModal = ({
                         className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}
                     >
-                        <span className="text-lg">Close</span>
+                        <span className="text-lg">{t("close")}</span>
                     </Button>
                 </div>
             </DialogContent>

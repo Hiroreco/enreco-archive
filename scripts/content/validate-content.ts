@@ -1,13 +1,21 @@
 import fs from "fs/promises";
 import path from "path";
 import { EMBED_MISSING_BYPASS_LIST } from "./validation-vals.js";
+import { validateRecapContent } from "./recapChecks.js";
 
-// --- CONFIG ---
-const RECAP_DATA_DIR = path.resolve(process.cwd(), "recap-data");
+// Get locale from command line arguments, default to "en"
+const locale = process.argv[2] || "en";
+
+// Update paths to use locale
+const RECAP_DATA_DIR = path.resolve(
+    process.cwd(),
+    `recap-data${locale === "en" ? "" : `_${locale}`}`,
+);
 const TEXT_DATA_PATH = path.resolve(
     process.cwd(),
-    "apps/website/data/text-data.json",
+    `apps/website/data/${locale}/text-data_${locale}.json`,
 );
+const CHAPTERS_DIR = path.resolve(process.cwd(), `apps/website/data/${locale}`);
 
 // --- HELPERS ---
 async function getMarkdownFiles(dir: string): Promise<string[]> {
@@ -25,89 +33,155 @@ async function getMarkdownFiles(dir: string): Promise<string[]> {
 }
 
 async function loadTextIds(): Promise<Set<string>> {
-    const raw = await fs.readFile(TEXT_DATA_PATH, "utf-8");
-    const data = JSON.parse(raw);
-    return new Set(Object.keys(data));
+    try {
+        const raw = await fs.readFile(TEXT_DATA_PATH, "utf-8");
+        const data = JSON.parse(raw);
+        return new Set(Object.keys(data));
+    } catch (error: any) {
+        console.warn(
+            `Warning: Could not load text data for locale "${locale}": ${error.message}`,
+        );
+        return new Set();
+    }
 }
 
 async function loadChapterRelationships(): Promise<
     Record<string, Set<string>>
 > {
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
-    const chapterFiles = await fs.readdir(CHAPTERS_DIR);
     const chapterRelationships: Record<string, Set<string>> = {};
 
-    for (const file of chapterFiles) {
-        const match = file.match(/^chapter(\d+)\.json$/);
-        if (!match) continue;
-        const chapterNum = parseInt(match[1]);
-        const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
-        const json = JSON.parse(raw);
-        chapterRelationships[chapterNum] = new Set(
-            Object.values(json.relationships).map((r: any) => r.name),
+    try {
+        const chapterFiles = await fs.readdir(CHAPTERS_DIR);
+
+        for (const file of chapterFiles) {
+            const match = file.match(
+                new RegExp(`^chapter(\\d+)_${locale}\\.json$`),
+            );
+            if (!match) continue;
+            const chapterNum = parseInt(match[1]);
+
+            try {
+                const raw = await fs.readFile(
+                    path.join(CHAPTERS_DIR, file),
+                    "utf-8",
+                );
+                const json = JSON.parse(raw);
+                chapterRelationships[chapterNum] = new Set(
+                    Object.values(json.relationships).map((r: any) => r.name),
+                );
+            } catch (error: any) {
+                console.warn(
+                    `Warning: Could not load chapter ${chapterNum} for locale "${locale}": ${error.message}`,
+                );
+            }
+        }
+    } catch (error: any) {
+        console.warn(
+            `Warning: Could not read chapters directory for locale "${locale}": ${error.message}`,
         );
     }
+
     return chapterRelationships;
 }
 
 async function loadChapterEdgeIds(): Promise<Record<string, Set<string>>> {
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
-    const chapterFiles = await fs.readdir(CHAPTERS_DIR);
     const chapterEdgeIds: Record<string, Set<string>> = {};
 
-    for (const file of chapterFiles) {
-        const match = file.match(/^chapter(\d+)\.json$/);
-        if (!match) continue;
-        const chapterNum = parseInt(match[1]);
-        const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
-        const json = JSON.parse(raw);
-        const edgeIds = new Set<string>();
-        if (Array.isArray(json.charts)) {
-            for (const chart of json.charts) {
-                if (chart && Array.isArray(chart.edges)) {
-                    for (const edge of chart.edges) {
-                        if (edge && typeof edge.id === "string") {
-                            edgeIds.add(edge.id);
+    try {
+        const chapterFiles = await fs.readdir(CHAPTERS_DIR);
+
+        for (const file of chapterFiles) {
+            const match = file.match(
+                new RegExp(`^chapter(\\d+)_${locale}\\.json$`),
+            );
+            if (!match) continue;
+            const chapterNum = parseInt(match[1]);
+
+            try {
+                const raw = await fs.readFile(
+                    path.join(CHAPTERS_DIR, file),
+                    "utf-8",
+                );
+                const json = JSON.parse(raw);
+                const edgeIds = new Set<string>();
+                if (Array.isArray(json.charts)) {
+                    for (const chart of json.charts) {
+                        if (chart && Array.isArray(chart.edges)) {
+                            for (const edge of chart.edges) {
+                                if (edge && typeof edge.id === "string") {
+                                    edgeIds.add(edge.id);
+                                }
+                            }
                         }
                     }
                 }
+                chapterEdgeIds[chapterNum] = edgeIds;
+            } catch (error: any) {
+                console.warn(
+                    `Warning: Could not load edges for chapter ${chapterNum}, locale "${locale}": ${error.message}`,
+                );
             }
         }
-        chapterEdgeIds[chapterNum] = edgeIds;
+    } catch (error: any) {
+        console.warn(
+            `Warning: Could not read chapters directory for locale "${locale}": ${error.message}`,
+        );
     }
+
     return chapterEdgeIds;
 }
 
 async function loadChapterNodeIds(): Promise<Record<string, Set<string>>> {
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data");
-    const chapterFiles = await fs.readdir(CHAPTERS_DIR);
     const chapterNodeIds: Record<string, Set<string>> = {};
 
-    for (const file of chapterFiles) {
-        const match = file.match(/^chapter(\d+)\.json$/);
-        if (!match) continue;
-        const chapterNum = parseInt(match[1]);
-        const raw = await fs.readFile(path.join(CHAPTERS_DIR, file), "utf-8");
-        const json = JSON.parse(raw);
-        const nodeIds = new Set<string>();
-        if (Array.isArray(json.charts)) {
-            for (const chart of json.charts) {
-                if (chart && Array.isArray(chart.nodes)) {
-                    for (const node of chart.nodes) {
-                        if (node && typeof node.id === "string") {
-                            nodeIds.add(node.id);
+    try {
+        const chapterFiles = await fs.readdir(CHAPTERS_DIR);
+
+        for (const file of chapterFiles) {
+            const match = file.match(
+                new RegExp(`^chapter(\\d+)_${locale}\\.json$`),
+            );
+            if (!match) continue;
+            const chapterNum = parseInt(match[1]);
+
+            try {
+                const raw = await fs.readFile(
+                    path.join(CHAPTERS_DIR, file),
+                    "utf-8",
+                );
+                const json = JSON.parse(raw);
+                const nodeIds = new Set<string>();
+                if (Array.isArray(json.charts)) {
+                    for (const chart of json.charts) {
+                        if (chart && Array.isArray(chart.nodes)) {
+                            for (const node of chart.nodes) {
+                                if (node && typeof node.id === "string") {
+                                    nodeIds.add(node.id);
+                                }
+                            }
                         }
                     }
                 }
+                chapterNodeIds[chapterNum] = nodeIds;
+            } catch (error: any) {
+                console.warn(
+                    `Warning: Could not load nodes for chapter ${chapterNum}, locale "${locale}": ${error.message}`,
+                );
             }
         }
-        chapterNodeIds[chapterNum] = nodeIds;
+    } catch (error: any) {
+        console.warn(
+            `Warning: Could not read chapters directory for locale "${locale}": ${error.message}`,
+        );
     }
+
     return chapterNodeIds;
 }
 
 // --- MAIN VALIDATION ---
 async function main() {
+    console.log(`🔎 Validating content for locale: ${locale}`);
+
     const mdFiles = await getMarkdownFiles(RECAP_DATA_DIR);
     const textIds = await loadTextIds();
 
@@ -117,7 +191,12 @@ async function main() {
     try {
         const glossaryFiles = await getMarkdownFiles(glossaryDir);
         glossaryIds = new Set(
-            glossaryFiles.map((f) => path.basename(f, ".md")),
+            glossaryFiles.map((f) => {
+                let id = path.basename(f, ".md");
+                // Remove locale suffix like _ja, _en, etc.
+                id = id.replace(/_[a-z]{2}$/, "");
+                return id;
+            }),
         );
     } catch {
         /* ignore if not present */
@@ -185,7 +264,7 @@ async function main() {
             const [hashTag] = url.slice(1).split(":", 1);
             if (!VALID_TAGS.has(hashTag)) {
                 console.warn(
-                    `[${relPath}] unknown #‑tag “${hashTag}” in ${full}`,
+                    `[${relPath}] unknown #‑tag "${hashTag}" in ${full}`,
                 );
                 hasErrors = true;
             }
@@ -195,6 +274,7 @@ async function main() {
         const ENTRY_REF_RE = /\[[^\]]+\]\(#entry:([^)]+)\)/g;
         while ((m = ENTRY_REF_RE.exec(content))) {
             const refId = m[1].trim();
+            // console.log(glossaryIds);
             if (!glossaryIds.has(refId)) {
                 console.warn(
                     `[${relPath}] reference to invalid #entry:${refId}`,
@@ -231,22 +311,24 @@ async function main() {
 
         // --- Standalone link that probably needs #embed ---
         const lines = content.split(/\r?\n/);
-        for (let i = 1; i < lines.length - 1; i++) {
-            const prev = lines[i - 1].trim();
-            const curr = lines[i].trim();
-            const next = lines[i + 1].trim();
-            const m = curr.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-            if (m && prev === "" && next === "") {
-                const url = m[2].trim();
-                if (url.startsWith("#embed:")) continue;
-                if (/^#\w+:/.test(url)) continue;
-                if (/^https?:\/\/(www\.)?(twitter|x)\.com\//.test(url))
-                    continue;
-                if (EMBED_MISSING_BYPASS_LIST.includes(curr)) continue;
-                console.warn(
-                    `[${relPath}] potential missing #embed tag around standalone link: ${curr}`,
-                );
-                hasErrors = true;
+        if (locale === "en") {
+            for (let i = 1; i < lines.length - 1; i++) {
+                const prev = lines[i - 1].trim();
+                const curr = lines[i].trim();
+                const next = lines[i + 1].trim();
+                const m = curr.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                if (m && prev === "" && next === "") {
+                    const url = m[2].trim();
+                    if (url.startsWith("#embed:")) continue;
+                    if (/^#\w+:/.test(url)) continue;
+                    if (/^https?:\/\/(www\.)?(twitter|x)\.com\//.test(url))
+                        continue;
+                    if (EMBED_MISSING_BYPASS_LIST.includes(curr)) continue;
+                    console.warn(
+                        `[${relPath}] potential missing #embed tag around standalone link: ${curr}`,
+                    );
+                    hasErrors = true;
+                }
             }
         }
 
@@ -272,10 +354,7 @@ async function main() {
                 );
                 if (match) {
                     const relName = match[1].trim();
-                    if (
-                        !chapterNum ||
-                        !chapterRelationships[parseInt(chapterNum)]
-                    ) {
+                    if (!chapterNum || !chapterRelationships[chapterNum]) {
                         console.warn(
                             `[${relPath}] could not determine chapter for relationship validation`,
                             chapterNum,
@@ -329,7 +408,7 @@ async function main() {
                     !chapterEdgeIds[chapterIdx].has(reversedEdgeId))
             ) {
                 console.warn(
-                    `[${relPath}] reference to missing #edge:${edgeId} in chapter ${chapterIdx ?? "?"}`,
+                    `[${relPath}] reference to missing #edge:${edgeId} in chapter ${chapterIdx ?? "?"} for locale "${locale}"`,
                 );
                 hasErrors = true;
             }
@@ -345,18 +424,52 @@ async function main() {
                 !chapterNodeIds[chapterIdx].has(nodeId)
             ) {
                 console.warn(
-                    `[${relPath}] reference to missing #node:${nodeId} in chapter ${chapterIdx ?? "?"}`,
+                    `[${relPath}] reference to missing #node:${nodeId} in chapter ${chapterIdx ?? "?"} for locale "${locale}"`,
                 );
                 hasErrors = true;
             }
         }
+
+        // --- Additional check for edge file matching known ID ---
+        if (relPath.includes("edges") && chapterNum) {
+            let base = path.basename(file, ".md").replace(/_[a-z]{2}$/, "");
+            const chapterIdx = parseInt(chapterNum);
+            const suffixRe = new RegExp(`-c${chapterIdx + 1}d\\d+$`);
+
+            const key = base.replace(suffixRe, "");
+            const parts = key.split("-");
+            if (parts.length !== 2) {
+                console.warn(
+                    `[${relPath}] invalid edge file name format: ${base}`,
+                );
+                hasErrors = true;
+                continue;
+            }
+            const reversed = parts.reverse().join("-");
+            if (
+                !chapterEdgeIds[chapterIdx].has(key) &&
+                !chapterEdgeIds[chapterIdx].has(reversed)
+            ) {
+                console.warn(
+                    `[${relPath}] edge file "${key}" does not match any known edge ID in chapter ${chapterIdx} (checked ${key} and ${reversed}) for locale "${locale}"`,
+                );
+                hasErrors = true;
+            }
+        }
+
+        // Common markdown syntax validation
+        const markdownErrors = validateRecapContent(content);
+        for (const error of markdownErrors) {
+            console.warn(`[${relPath}] ${error}`);
+            hasErrors = true;
+        }
     }
 
     if (hasErrors) {
-        console.error("Validation completed with errors.");
+        console.error(`Validation completed with errors for locale: ${locale}`);
         process.exit(1);
     } else {
-        console.log("All content references are valid.");
+        console.log(`All content references are valid for locale: ${locale}`);
         process.exit(0);
     }
 }

@@ -9,7 +9,7 @@ This memory differed from the rest—it revealed nothing more about the Outsider
 
 Additionally, the Outlander finally revealed his true identity as the Watcher. After witnessing the heroes' unwavering determination to save the world, he chose to entrust them with that burden. For the first time, he agreed not to shoulder it himself—so that he might avoid punishment from the Higher Being.
 
-#### Updated NPCs:
+#### Updated NPCs
 
 - See [Fia](#node:fia)
 - See [Outlander](#node:outlander)

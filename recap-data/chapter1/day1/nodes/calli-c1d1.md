@@ -32,3 +32,5 @@ At the end of the day—a day that included being hit by a truck, losing her mem
 <!-- kiara -->
 
 ["ENigmatic Recollection" by Lia](https://x.com/liapandaaaa/status/1827543495890104368)
+
+<!-- gura -->

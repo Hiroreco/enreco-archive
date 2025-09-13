@@ -41,7 +41,7 @@ It had been a long, grueling arc, but at last, everything was resolved. Nerissa 
 
 And then... the [final battle](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=11577) arrived. It was tough. It was brutal. But with her trusty tuning fork and the other heroes by her side, they took down the Stain King. Victory, however, was short-lived.
 
-Just as they celebrated, the truth about the King was revealed (see [King: The True Evil](#node:king-of-libestal)). Nerissa’s theory had been right all along. And she was ecstatic about it.
+Just as they celebrated, the truth about the King was revealed (see [King: The True Evil](#node:king)). Nerissa’s theory had been right all along. And she was ecstatic about it.
 
 [I was right!](#embed:https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=12299)
 

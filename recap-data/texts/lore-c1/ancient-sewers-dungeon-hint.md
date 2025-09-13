@@ -1,3 +1,5 @@
+<!-- title: Ancient Sewers Dungeon Hint -->
+
 I leave this for the heroes who will one day visit this place. May it serve you well.
 
 Each chamber past has offered you a rhyme

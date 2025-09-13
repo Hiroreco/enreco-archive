@@ -37,6 +37,6 @@ As the day drew to a close, Shakira, joined by Liz and Raora, ventured back into
 
 <!-- calli -->
 
-["Uhmmm....pardon? by BunBBun](https://x.com/BunBBun1/status/1831075309732659391)
+["Uhmmm....pardon?" by BunBBun](https://x.com/BunBBun1/status/1831075309732659391)
 
 <!-- kronii -->

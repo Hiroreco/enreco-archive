@@ -5,15 +5,17 @@
 
 On the last day, Mordan Ramsey resumed building houses for the upcoming auction. It was business as usual. Even so, she wondered what to do with the money she had earned. Perhaps she could buy another ring and marry someone special, but she had long decided that married life wasn't one for the therapist.
 
-Instead, she thought that she should expand her hand-built neighborhood into a little town called [Mordanville.](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=840)
+Instead, she thought that she should expand her hand-built neighborhood into a little town called:
+
+[Mordanville.](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=840)
 
 ---
 
-INSPIRED OR COPIED?
+**INSPIRED OR COPIED?**
 
 With no more time to spare, Mordan started the bidding war for the three houses she had built. That is, before [home inspections revealed holes in the walls](https://www.youtube.com/live/Ch4qLZhARtY?t=4991), which Mordan immediately patched up.
 
-The first house was a small one-bedroom property. Nothing too special. The bid started at 500 coins, and it went to Gonathon, her fellow wolf, for 2672 coins. The second one was slightly bigger. It was a 2LDK with a mini front yard. That one went to the couple in the front. (See: [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara))
+The first house was a small one-bedroom property. Nothing too special. The bid started at 500 coins, and it went to Gonathon, her fellow wolf, for 2672 coins. The second one was slightly bigger. It was a 2LDK with a mini front yard. That one went to the couple in the front (see [Kiara-Raora: And so, Sesbian Lex.](#edge:raora-kiara)).
 
 The last house was the biggest of them all. It was akin to a mansion with seven bedrooms and--------
 

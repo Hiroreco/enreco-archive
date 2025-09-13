@@ -1,3 +1,5 @@
+<!-- title: Volcano Dungeon Hint -->
+
 The struggling fast food restaurant finally saw success and prosperity.
 Some say the hard-working new part-timer is as fiery as a phoenix.
 

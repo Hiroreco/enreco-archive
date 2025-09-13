@@ -11,6 +11,7 @@ import {
 } from "@enreco-archive/common-ui/components/tooltip";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { ChevronDown, Pin, PinOff } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
 
 interface CollapsibleHeaderProps {
@@ -30,6 +31,7 @@ const PinButton = ({
     onClick: () => void;
     className?: string;
 }) => {
+    const t = useTranslations("modals.art.header");
     return (
         <TooltipProvider>
             <Tooltip>
@@ -51,9 +53,7 @@ const PinButton = ({
                     )}
                 </TooltipTrigger>
                 <TooltipContent side="right">
-                    {isPinned
-                        ? "Unpin header (auto-collapse on scroll)"
-                        : "Pin header (always visible)"}
+                    {isPinned ? t("pin.off") : t("pin.on")}
                 </TooltipContent>
             </Tooltip>
         </TooltipProvider>
@@ -67,6 +67,7 @@ const ExpandButton = ({
     onClick: () => void;
     className?: string;
 }) => {
+    const t = useTranslations("modals.art.header");
     return (
         <TooltipProvider>
             <Tooltip>
@@ -80,7 +81,9 @@ const ExpandButton = ({
                 >
                     <ChevronDown className="size-8" />
                 </TooltipTrigger>
-                <TooltipContent side="left">Show filters</TooltipContent>
+                <TooltipContent side="left">
+                    {t("pin.showFilters")}
+                </TooltipContent>
             </Tooltip>
         </TooltipProvider>
     );
@@ -93,6 +96,7 @@ const CollapsibleHeader = ({
     onToggleCollapse,
     children,
 }: CollapsibleHeaderProps) => {
+    const t = useTranslations("modals.art");
     return (
         <div className="relative">
             <div
@@ -110,7 +114,7 @@ const CollapsibleHeader = ({
                                     onClick={onTogglePin}
                                     className="shrink-0"
                                 />
-                                <span>Libestal Gallery</span>
+                                <span>{t("title")}</span>
                             </div>
                         </DialogTitle>
                         <DialogDescription className="sr-only">

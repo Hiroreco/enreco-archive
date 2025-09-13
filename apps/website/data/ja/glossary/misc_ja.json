@@ -1,0 +1,178 @@
+{
+  "mechanics": [
+    {
+      "id": "jobs-entry",
+      "title": "職業",
+      "chapters": [
+        1
+      ],
+      "quote": "スープ1杯で250コインだって?!",
+      "content": "## 概要\n\n「職業」はチャプター2で導入され、[ギルドシステム](#entry:guilds-entry)に代わる新たな仕組みとなりました。ギルドが勇者たちを思想や性格でグループ化していたのに対し、職業はそれぞれの貢献方法を明確にし、勇者たちが個性を活かして成長できる、新たな役割を与えたのです。それは[古代リベスタル](#entry:libestal-ancient-entry)という世界で、彼女たち自身の居場所を形作る手段でもありました。\n\n## 詳細\n\n### 前置き\n\n古代リベスタルに到着した勇者たちは、新しい生活に馴染むため、自身の興味や特技に合った職業を選ぶよう勧められました。職業は単なる肩書きではなく、ゲームシステムに深く関わり、仲間との連携を深めるための、新しい仕組みとして機能しました。\n\n### 四つの職業\n\n選べる職業は全部で4種類。それぞれが個性豊かな専門分野を持っていました。\nこのシステムは、勇者たちが互いの専門性を頼り、協力し合いながら冒険を進めることを前提としています。\n\n経験を積むごとに職業レベルは上がり、より強力なバフや貴重なアイテム、新たなスキルが解放されていきました。\n\nさらに、自分の専門分野で生産した品々を販売する屋台やお店を開くことも可能でした。勇者たちは互いに取引を行ったり、時には ~~ぼったくり~~ 支援を通じてコミュニティを活発な交流を生み出しました。\n\n#### スミス\n\n**担当者:** [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry), [ゴナソンG](#entry:gigi-entry), [タナキシャ・カリア](#entry:kiara-entry)\n**リーダー:** ヘフ\n\nスミスは「スミシングツール」と呼ばれる特別な道具を使い、レベレーション武器を強化する「アップグレードストーン」を鍛造する専門家です。\n\n制作時にはクラフティングテーブルに似た大きなグリッドを使用しますが、その工程はさらに複雑。レシピブックの指示通りに素材を配置することで、目的のアップグレードストーンを生み出すことができます。\n\nまた、スミスには戦闘に役立つパッシブ効果もあり、レベルが上がるごとに攻撃時に追加ダメージを与える確率が上昇します。\n\n[スミスがアップグレードストーンを作る様子](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)\n\n#### ジュエラー\n\n**担当者:** [古石ビジュー](#entry:bijou-entry), [ニノイナ](#entry:ina-entry), [ロア・パンドラ](#entry:raora-entry), [モココ・アビスガード](#entry:mococo-entry)\n**リーダー:** クリス\n\nジュエラーは、体力や防御力など、勇者たちの能力を強化する「チャーム」を生み出す専門職です。各チャームの制作には特定の素材が必要で、記憶力が試されるミニゲームに挑戦することになります。\n\nまず、様々なステータス効果が記された盤面が一瞬だけ表示され、すぐに消えてしまいます。ジュエラーは、狙う効果の位置を正確に記憶し、選択する必要があります。レベルが上がるにつれて、望む強化効果を引き当てる確率も上昇します。\n\nチャームには3つの色があり、勇者たちはそれぞれ1つずつ装備可能です。どのステータスを組み合わせるか、戦略が試されます。\n\n[ジュエラーがチャームを作る様子](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)\n\n#### シェフ\n\n**担当者:** [ホットピンクワン](#entry:irys-entry), [シオリ・ニャヴェラ](#entry:shiori-entry), [ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry), [モーダン・ラムジー](#entry:calli-entry), [フワワ・アビスガード](#entry:fuwawa-entry)\n**リーダー:** アンブロス\n\nシェフは、強力な効果を長時間持続させるバフ付き料理を生み出す専門家です。料理システムはチャプター1から引き継がれており、レシピブックに記載された材料を集め、鍋に入れて「調理」ボタンを押すだけのシンプルな工程です。\n\n作った料理の数に応じて調理鍋のレベルがアップし、高レベルになるほど、通常よりも効果が強力、または持続時間が長い「グルメ料理」が生まれる確率が上昇します。\n\n[シェフが料理を作る様子](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)\n\n#### サプライヤー\n\n**担当者:** [セシリア・イマーカインド](#entry:cecilia-entry), [ペイザン・ザ・ベイ](#entry:bae-entry), [タム・ガンドル](#entry:kronii-entry)\n**リーダー:** フォアマン・コリー\n\nサプライヤーは、エンチャント能力を付与した特別な道具を使い、資源収集に特化した職業です。専用の採掘ミニゲームも得意とします。\n\nラピスラズリを使って専用ピッケルに耐久力を付与し、ランダムに配置されたブロックのグリッドを採掘していきます。鉄、金、ダイヤといった鉱石を集めるごとにエンチャントポイントが加算され、1回の挑戦で最大40ポイントを獲得できます。\n\nピッケルの耐久力が尽きた時点で、貯めたポイントを使い、効率強化、耐久力強化、幸運などの様々なエンチャントを付与できます。さらには、採掘した鉱石を直接インゴットへ変換するユニークな「自動精錬」エンチャントまで存在しました。\n\nまた、サプライヤー専用のチャームも存在し、採掘効率をさらに高めることが可能です。高レベルの職業能力と強化された道具を組み合わせれば、資源収集において彼女たちに匹敵する者はいないでしょう。\n\n[サプライヤーがピッケルにエンチャントを付与する様子](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)",
+      "thumbnailSrc": "/images-opt/jobs-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "職業の概要",
+          "source": "/images-opt/jobs-entry-0-opt.webp"
+        },
+        {
+          "title": "職業とそのアイコン",
+          "source": "/images-opt/jobs-entry-1-opt.webp"
+        },
+        {
+          "title": "ジュエラーが作るチャーム",
+          "source": "/images-opt/jobs-entry-2-opt.webp"
+        },
+        {
+          "title": "スミスが作るアップグレードストーン",
+          "source": "/images-opt/jobs-entry-3-opt.webp"
+        },
+        {
+          "title": "シェフが作る料理",
+          "source": "/images-opt/jobs-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/jobs-entry-opt.webp"
+    },
+    {
+      "id": "minigames-entry",
+      "title": "ミニゲーム",
+      "chapters": [
+        -1
+      ],
+      "quote": "今度こそ赤に賭けるしかない！",
+      "content": "## 概要\n\n勇者たちは冒険の合間に、王国で用意されたミニゲームで一息つき、気分転換を楽しんでいました。内容は、腕力や知力を試すシンプルなものから、全財産を賭けて一攫千金を狙う（あるいは失ってしまう）ハラハラドキドキのものまで多岐にわたります。\n\n## 詳細\n\n現在確認されているミニゲームは**4種類**。これらはすべて**第1章**で初登場し、当時の[ギルド](#entry:guilds-entry)の理念がそれぞれに反映されていました（※第1章のみの要素です）。\n\n### カラーカノン\n\n**登場:** 第1章、第2章\n**担当ギルド:** アンバーコイン\n\n運とスリルが魅力のゲーム。プレイヤーは次の4色のいずれかに賭けることができます。\n\n- **青**（倍率x2）– 12マス\n- **緑**（倍率x3）– 8マス\n- **黄**（倍率x5）– 4マス\n- **赤**（倍率x10）– 1マス\n\nゲームが始まると、大きな盤上から色が一つずつ消されていき、最後に残った色に賭けていたプレイヤーが賞金を獲得します。リスクは大きいですが、見返りもまた莫大です！\n\n[カラーカノン プレイ映像（第1章）](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[カラーカノン プレイ映像（第2章）](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n### デュエルアリーナ\n\n**登場:** 第1章、第2章\n**担当ギルド:** ジェイドソード\n\n力、反射神経、そして持久力が試される試合です。木の剣だけを使い、二人の挑戦者が一騎打ちを行います。最後に立っていた者が勝者となります。\n\n**第2章**からは新ルールが追加され、1分経過して両者が立っていた場合は引き分けとなりました。また、観客は勝利すると思う側に賭けることもできました。\n\n[デュエルアリーナ プレイ映像（第1章）](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[デュエルアリーナ プレイ映像（第2章）](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n### マインズアイ\n\n**登場:** 第1章\n**担当ギルド:** スカーレットワンド\n\n記憶力が試されるゲームです。4人のプレイヤーが、数秒間だけ表示される色の配置をできる限り正確に再現します。正解した色一つにつき**+1点**。さらに、完璧に再現できた場合はボーナス点（色の数に応じて増加）を獲得できます。間違ってしまった場合は、**-5点**を失ってしまいます。ラウンドが進むごとにパターンは複雑化し、難易度も上昇していきます。最終的に最も高得点を稼いだプレイヤーが勝者となります。\n\n[マインズアイ プレイ映像](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n### チキンレスキュー\n\n**登場:** 第1章\n**担当ギルド:** セルリアンカップ\n\n一人で挑戦するソロプレイ型のゲームです。プレイヤーは自分の動きに合わせてかごを操作し、空から落ちてくるニワトリたちを2Dグリッド上でキャッチしていきます。制限時間は1分間。より多くのニワトリを救い出すほどスコアが伸び、その記録はリーダーボードに残されます。何度も挑戦し、ランキング上位を目指すプレイヤーが後を絶ちませんでした。\n\n[チキンレスキュー プレイ映像](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_補足: ENreco Archive では、今回ご紹介したカラーカノン、マインズアイ、チキンレスキューを実際に体験することができます。_",
+      "thumbnailSrc": "/images-opt/minigames-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "第1章のカラーカノン",
+          "source": "/images-opt/minigames-entry-0-opt.webp"
+        },
+        {
+          "title": "第1章のデュエルアリーナ",
+          "source": "/images-opt/minigames-entry-1-opt.webp"
+        },
+        {
+          "title": "マインズアイ",
+          "source": "/images-opt/minigames-entry-2-opt.webp"
+        },
+        {
+          "title": "チキンレスキュー",
+          "source": "/images-opt/minigames-entry-3-opt.webp"
+        },
+        {
+          "title": "第2章のカラーカノン",
+          "source": "/images-opt/minigames-entry-4-opt.webp"
+        },
+        {
+          "title": "第2章のデュエルアリーナ",
+          "source": "/images-opt/minigames-entry-5-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/minigames-entry-opt.webp"
+    },
+    {
+      "id": "guilds-entry",
+      "title": "ギルド",
+      "chapters": [
+        0
+      ],
+      "quote": "王国の平和と繁栄を守るために結成された組織。",
+      "content": "## 概要\n\nギルドは、勇者たちを組織化し、統率するために設立された組織であり、第1章『[リベスタル](#entry:libestal-ficta-entry)』の物語の基礎を築いた。\n\n## 詳細\n\n### 序章\n\nステインキングが一時的に退けられた後、四人のギルドマスターがそれぞれのギルドの理念を掲げ、登場した。\nその後、『真実の間』の導きにより、各勇者は四つのギルドのいずれかに配属されることになった。\n\n### ギルドとメンバー\n\nギルドへの配属は、各勇者の性格や価値観がそのギルドの理念に「合致するかどうか」で決定されるはずだった――しかし、その判定にはかなり疑問符がつき、実際には勇者たちの個性と配属先の理念が大きくズレていることもしばしば見受けられた。\n\nまた、各ギルドの本拠地では、それぞれ趣向を凝らした独自のイベントやミニゲームが開催されていた。\n\n#### スカーレットワンド\n\n**メンバー:** [セシリア・イマーグリーン](#entry:cecilia-entry), [がうる・ぐら](#entry:gura-entry), [セレス・ファウナ](#entry:fauna-entry), [ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry), [シオリ・ニャヴェラ](#entry:shiori-entry)\n**ギルドマスター:** ルビウス\n\n赤い長い帽子がトレードマークの『スカーレットワンド』は、知識と創造性を最も重んじる、好奇心旺盛な者たちの聖域。\nしかし、時には怪しい抽選会の仕組みが原因で「詐欺まがい」や「人の心を読む魔女集団」と噂されることもあった。\n\n彼らの本拠地は、古風な木造建築に不思議な魔術的魅力をまとった、趣のあるギルドホールだった。\n\n#### アンバーコイン\n\n**メンバー:** [小鳥遊キアラ](#entry:kiara-entry), [ナナムー](#entry:mumei-entry), [ラオラ・パンテラ](#entry:raora-entry), [ペイザン・ザ・ベイ](#entry:bae-entry)\n**ギルドマスター:** オーレン\n\n夢追い人、理想家、そして栄光を求める者たち――時には友がライバルになる、そんな熱き場所が『アンバーコイン』だった。\nしかし、その始まりは波乱に満ちており、特にセルリアンたちからは「殺人」「誘拐」「金銭欲にまみれた強欲」といった疑いの目を向けられていた。\n\nやがてギルドは仲間を失っていくことになる。ベイは森に姿を消し、ナナムーは名誉メンバーとしてスカーレットワンドへ移籍。最終的には、キアラと彼女のピンク色の猫の相棒だけが残される形となった。\n\nその拠点は、広大な庭園やカジノを備えた豪華な宮殿そのものであり、まさに名の通りの華やかな贅沢さを誇っていた。\n\n#### セルリアンカップ\n\n**メンバー:** [タム・ガンドル](#entry:kronii-entry), [ゴナソン・G](#entry:gigi-entry), [一伊那尓栖](#entry:ina-entry), [ホットピンクワン](#entry:irys-entry), [古石ビジュー](#entry:bijou-entry)\n**ギルドマスター:** セレスタ\n\n本来は『癒し』と『共感』を旨とする、穏やかな聖域……であるはずだった。\nしかし実際には、イナを除くほとんどのメンバーが共感力に乏しく、特にタムとゴナソンが率先して他ギルドに喧嘩を売ることもしばしば見受けられた。\n\n彼らの拠点は、静けさを湛えた開放的な神殿のような造りで、メンバーの態度とは裏腹に穏やかな雰囲気を漂わせる場所だった。\n\n#### ジェイドソード\n\n**メンバー:** [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry), [森カリオペ](#entry:calli-entry), [フワワ・アビスガード](#entry:fuwawa-entry), [モココ・アビスガード](#entry:mococo-entry), [ジョン・ワトソン](#entry:ame-entry)\n**ギルドマスター:** ヴィリダス\n\n『正義』と『忠義』を掲げ、どんな強大な悪にも立ち向かうために結成されたのが『ジェイドソード』。\nしかしその高潔な理想とは裏腹に、実際のメンバーはギャンブル中毒者、離婚相談を兼ねた酒場の店主、やたら優しくてふわふわな少女、風変わりな金髪探偵、そして――唯一、騎士道を体現していたと言えるエリザベス、とかなり個性派揃いだった。\n\nその拠点は遠くからでも見える円形の大きな闘技場で、剣術の訓練場として設計されていた。",
+      "thumbnailSrc": "/images-opt/guilds-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "ギルド概要",
+          "source": "/images-opt/guilds-entry-0-opt.webp"
+        },
+        {
+          "title": "ジェイドソード集合写真",
+          "source": "/images-opt/guilds-entry-1-opt.webp"
+        },
+        {
+          "title": "スカーレットワンド集合写真",
+          "source": "/images-opt/guilds-entry-2-opt.webp"
+        },
+        {
+          "title": "セルリアンカップ集合写真",
+          "source": "/images-opt/guilds-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/guilds-entry-opt.webp"
+    }
+  ],
+  "side-quests": [
+    {
+      "id": "portraits-entry",
+      "title": "肖像画",
+      "chapters": [
+        1
+      ],
+      "quote": "これを見ると、なんだか懐かしい気持ちになる……",
+      "content": "## 概要\n\nチャプター2では、サイドクエストとして、勇者たちが画家ピュグマリオンに自分自身の肖像画を依頼できるようになりました。これらの肖像画は、他とは一線を画す特別なもの。実は **#ENrecoCanvas** キャンペーンで選ばれた珠玉の作品だったのです。このファンアート[イベント](https://x.com/hololive_En/status/1895609934085325149)は、チャプター開始前の`2025年3月1日から3月19日`にかけて開催されました。\n\n## 詳細\n\n肖像画を手に入れるためには、勇者たちは画家ピュグマリオンの依頼に応え、特定の素材を集める必要がありました。この依頼には、勇者たちの間で自然な協力を生み出すような、巧妙な工夫が凝らされていたのです。必要なアイテムはそれぞれ異なる職業に特化したものばかりで、仲間との協力が必須となっていました。\n\n- **鉄の原石5個、銅の原石5個** – サプライヤーから入手\n- **バター1個** – シェフから入手\n- **基本アップグレードストーン1個** – スミスから入手\n- **基本アズールチャーム1個** – ジュエラーから入手\n\nこのクエストは、単に自分だけの特別な肖像画を手に入れる手段であるだけでなく、チャプター2の序盤でプレイヤー間の交流とチームワークを自然に促す、実に心憎い仕掛けでもありました。\n\nそれぞれの肖像画は一点もので、その画風や物語性は、描かれた勇者の個性や物語を鮮やかに映し出しています。報酬は単なるアイテムに留まらず、深い意味と忘れられない価値を持つものでした。\n[→ 参考映像](https://www.youtube.com/live/CVF91CqGD80?si=xnTcW4oA0I5l5zax&t=4441)\n\n## 出典\n\n- [モーダン・ラムジー](#entry:calli-entry)の肖像画 - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- [タナキシャ・カリア](#entry:kiara-entry)の肖像画 - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- [ニノイナ](#entry:ina-entry)の肖像画 - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- [タム・ガンドル](#entry:kronii-entry)の肖像画 - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- [ホットピンクワン](#entry:irys-entry)の肖像画 - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- [ペイザン・ザ・ベイ](#entry:bae-entry)の肖像画 - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- [シオリ・ニャヴェラ](#entry:shiori-entry)の肖像画 - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- [ネリッサ・レイヴンクロフト](#entry:nerissa-entry)の肖像画 - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- [フワワ・アビスガード](#entry:fuwawa-entry)の肖像画 - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- [モココ・アビスガード](#entry:mococo-entry)の肖像画 - [eli_soratabi](https://x.com/elis_soratabi/status/1935579733976396182)\n- [古石ビジュー](#entry:bijou-entry)の肖像画 - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry)の肖像画 - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- [ゴナソンG](#entry:gigi-entry)の肖像画 - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- [セシリア・イマーカインド](#entry:cecilia-entry)の肖像画 - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- [ロア・パンドラ](#entry:raora-entry)の肖像画 - [kit](https://x.com/quartzquadrant/status/1902200030980649355)",
+      "thumbnailSrc": "/images-opt/portraits-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "モーダン・ラムジーの肖像画",
+          "source": "/images-opt/portraits-entry-0-opt.webp"
+        },
+        {
+          "title": "タナキシャ・カリアの肖像画",
+          "source": "/images-opt/portraits-entry-1-opt.webp"
+        },
+        {
+          "title": "ニノイナの肖像画",
+          "source": "/images-opt/portraits-entry-2-opt.webp"
+        },
+        {
+          "title": "タム・ガンドルの肖像画",
+          "source": "/images-opt/portraits-entry-3-opt.webp"
+        },
+        {
+          "title": "ホットピンクワンの肖像画",
+          "source": "/images-opt/portraits-entry-4-opt.webp"
+        },
+        {
+          "title": "ペイザン・ザ・ベイの肖像画",
+          "source": "/images-opt/portraits-entry-5-opt.webp"
+        },
+        {
+          "title": "シオリ・ニャヴェラの肖像画",
+          "source": "/images-opt/portraits-entry-6-opt.webp"
+        },
+        {
+          "title": "ネリッサ・ジュリエット・レイヴンクロフトの肖像画",
+          "source": "/images-opt/portraits-entry-7-opt.webp"
+        },
+        {
+          "title": "フワワ・アビスガードの肖像画",
+          "source": "/images-opt/portraits-entry-8-opt.webp"
+        },
+        {
+          "title": "モココ・アビスガードの肖像画",
+          "source": "/images-opt/portraits-entry-9-opt.webp"
+        },
+        {
+          "title": "古石ビジューの肖像画",
+          "source": "/images-opt/portraits-entry-10-opt.webp"
+        },
+        {
+          "title": "エリザベス・ローズ・ブラッドフレイムの肖像画",
+          "source": "/images-opt/portraits-entry-11-opt.webp"
+        },
+        {
+          "title": "ゴナソンGの肖像画",
+          "source": "/images-opt/portraits-entry-12-opt.webp"
+        },
+        {
+          "title": "セシリア・イマーカインドの肖像画",
+          "source": "/images-opt/portraits-entry-13-opt.webp"
+        },
+        {
+          "title": "ロア・パンドラの肖像画",
+          "source": "/images-opt/portraits-entry-14-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/portraits-entry-opt.webp"
+    }
+  ]
+}

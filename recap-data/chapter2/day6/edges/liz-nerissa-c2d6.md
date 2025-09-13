@@ -74,3 +74,5 @@ Was it a prophecy? A retelling of the past? Or perhaps mere fiction? We have yet
 ["Witch 2/3" by Kayrii](https://x.com/VulpusKayrii/status/1921056104634622391)
 
 ["A kinder fate" by Cress](https://x.com/CressentiaQin/status/1924078500727955647)
+
+["Puzzled Heart" by pawchie](https://x.com/paw_chie/status/1941250612068569159)

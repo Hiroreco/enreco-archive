@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import {
     Dialog,
     DialogContent,
@@ -31,27 +32,28 @@ interface ViewMiniGameModalProps {
     onClose: () => void;
 }
 
-const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
-    gambling: {
-        label: "Color Cannon (Chapter 1)",
-        info: <ViewGamblingGameInfo />,
-    },
-    memory: {
-        label: "Mind's Eye (Chapter 1)",
-        info: <ViewMemoryGameInfo />,
-    },
-    chicken: {
-        label: "Chicken Rescue (Chapter 1)",
-        info: <ViewChickenGameInfo />,
-    },
-    shiori: {
-        label: "Commission Shiori (Chapter 2)",
-        info: <ViewShioriGameInfo />,
-    },
-};
-
 const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
+    const t = useTranslations("modals.minigames");
     const [game, setGame] = useState("gambling");
+
+    const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
+        gambling: {
+            label: t("games.gambling.label"),
+            info: <ViewGamblingGameInfo />,
+        },
+        memory: {
+            label: t("games.memory.label"),
+            info: <ViewMemoryGameInfo />,
+        },
+        chicken: {
+            label: t("games.chicken.label"),
+            info: <ViewChickenGameInfo />,
+        },
+        shiori: {
+            label: t("games.shiori.label"),
+            info: <ViewShioriGameInfo />,
+        },
+    };
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -84,13 +86,11 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
                 showXButtonForce={true}
             >
                 <DialogHeader>
-                    <DialogTitle>Minigames</DialogTitle>
+                    <DialogTitle>{t("title")}</DialogTitle>
                 </DialogHeader>
 
                 <VisuallyHidden>
-                    <DialogDescription>
-                        Play minigames from the story
-                    </DialogDescription>
+                    <DialogDescription>{t("description")}</DialogDescription>
                 </VisuallyHidden>
 
                 <div className="h-full w-full flex flex-col">

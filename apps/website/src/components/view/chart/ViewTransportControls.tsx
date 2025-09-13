@@ -12,6 +12,7 @@ import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 interface ViewTransportControlsProps {
     chapter: number;
@@ -36,6 +37,8 @@ export default function ViewTransportControls({
     onDayChange,
     isAnyModalOpen,
 }: ViewTransportControlsProps) {
+    const tDynamic = useTranslations("common");
+
     // Keyboard navigation
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
@@ -165,7 +168,7 @@ export default function ViewTransportControls({
                     <SelectContent side={"top"}>
                         {[...Array(numberOfDays).keys()].map((index) => (
                             <SelectItem key={index} value={index.toString()}>
-                                {`Day ${index + 1}`}:{" "}
+                                {tDynamic("day", { val: index + 1 })}:{" "}
                                 {chapterData[chapter].charts[index].title}
                             </SelectItem>
                         ))}

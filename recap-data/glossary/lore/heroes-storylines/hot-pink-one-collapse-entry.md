@@ -1,5 +1,5 @@
 <!-- title: The Hot Pink One's Collapsing Relationship -->
-<!-- quote: For he knows a selfish request such as his, could never be true. -->
+<!-- quote: I feel something within me... Perhaps, the gift of life. -->
 <!-- chapters: 1 -->
 <!-- images: (Tam Gandr being humiliated by the Hot Pink One), (Oh yeah, she tried to commit sudoku at one point), (The Hot Pink's gender reveal party), (The Hot Pink One reading Ina's last letter to her) -->
 <!-- model: false -->

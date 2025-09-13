@@ -27,7 +27,7 @@ With peace beginning to return, Gonathon’s thoughts lingered on Amelia. Was sh
 
 And then came the final battle. Everything had led to this moment. Gonathon, alongside the other heroes, faced the [Stain King](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=11048) in a grueling and merciless fight. Every blow he landed was fueled by his righteous spirit and his determination to protect his loved ones.
 
-The victory was hard-won, but the celebration was short-lived. A cruel twist awaited the heroes, shaking them to their cores (see [King: The True Evil](#node:king-of-libestal)).
+The victory was hard-won, but the celebration was short-lived. A cruel twist awaited the heroes, shaking them to their cores (see [King: The True Evil](#node:king)).
 
 The heroes were returned to the [white room](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=12694), marking the conclusion of their first journey. Though the twist left everyone shaken, Gonathon chose to focus on spending his final moments with those who had been by his side.
 

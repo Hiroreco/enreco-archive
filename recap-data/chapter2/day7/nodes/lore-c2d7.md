@@ -11,12 +11,12 @@ Ultimately, they triumphed. The Curse was vanquished, and with it, the corruptio
 
 But just as the dust settled, they discovered something unsettling—a doll, identical in appearance to Fia, lying motionless on the ground. What it meant, and why it appeared only after the Curse’s defeat, remained a mystery. Only time would tell what truth it held.
 
-#### Uncovered Lore Books:
+#### Uncovered Lore Books
 
 - [Read "Prelude of Ruin"](#text:prelude-of-ruin)
 - [Read "Song of Ruin"](#text:song-of-ruin)
 
-#### Updated NPCs:
+#### Updated NPCs
 
 - See [Fia](#node:fia)
 - See [Iphania](#node:iphania)

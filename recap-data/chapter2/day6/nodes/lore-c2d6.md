@@ -9,6 +9,6 @@ The book’s contents revealed the origins of the corruption, centering around a
 
 Yet the Curse’s intentions, as well as the true nature and purpose of the Collective, remain shrouded in mystery.
 
-#### Uncovered Lore Books:
+#### Uncovered Lore Books
 
 - [Read "The Truth of Ruin"](#text:the-truth-of-ruin)

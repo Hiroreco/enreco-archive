@@ -1,5 +1,6 @@
 import { getBlurDataURL } from "@/lib/utils";
 import { ExternalLink, ImageIcon, Play } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 interface FanartEntry {
@@ -26,6 +27,8 @@ interface FanartCardProps {
 }
 
 const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
+    const t = useTranslations("modals.art.card");
+
     // Prefer images over videos for thumbnail
     const firstImage = entry.images[0];
     const firstVideo = entry.videos[0];
@@ -78,7 +81,7 @@ const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
 
                 <div className="md:flex hidden absolute top-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg items-center gap-1">
                     <Play size={12} />
-                    <span>Video</span>
+                    <span>{t("video")}</span>
                 </div>
 
                 {/* Mobile - always visible info */}
@@ -134,7 +137,7 @@ const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
             {hasVideo && firstImage && (
                 <div className="absolute top-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded-lg flex items-center gap-1">
                     <Play size={12} />
-                    <span>+Video</span>
+                    <span>+{t("video")}</span>
                 </div>
             )}
 
@@ -151,31 +154,37 @@ const FanartCard = ({ entry, index, onClick }: FanartCardProps) => {
     );
 };
 
-const FanartCardInfo = ({ entry }: { entry: FanartEntry }) => (
-    <div className="text-white flex flex-col min-h-0">
-        <div className="flex-1 min-h-0 overflow-hidden">
-            <p className="text-white text-xs font-semibold line-clamp-1 mb-0.5">
-                {entry.label}
-            </p>
-            <p className="text-white/80 text-xs md:mb-1 line-clamp-1">
-                by {entry.author}
-            </p>
-        </div>
-        <div className="flex items-center justify-between flex-shrink-0 md:static absolute bottom-2 right-2">
-            <div className="text-xs text-white whitespace-nowrap truncate md:block hidden">
-                Ch. {entry.chapter + 1} Day {entry.day + 1}
+const FanartCardInfo = ({ entry }: { entry: FanartEntry }) => {
+    const t = useTranslations("modals.art.card");
+    return (
+        <div className="text-white flex flex-col min-h-0">
+            <div className="flex-1 min-h-0 overflow-hidden">
+                <p className="text-white text-xs font-semibold line-clamp-1 mb-0.5">
+                    {entry.label}
+                </p>
+                <p className="text-white/80 text-xs md:mb-1 line-clamp-1">
+                    {t("by", { author: entry.author })}
+                </p>
             </div>
-            <a
-                className="px-1.5 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
-                href={entry.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-            >
-                <ExternalLink className="size-3 md:size-4 stroke-inherit" />
-            </a>
+            <div className="flex items-center justify-between flex-shrink-0 md:static absolute bottom-2 right-2">
+                <div className="text-xs text-white whitespace-nowrap truncate md:block hidden">
+                    {t("chapterDay", {
+                        chapter: entry.chapter + 1,
+                        day: entry.day + 1,
+                    })}
+                </div>
+                <a
+                    className="px-1.5 py-1 border-white/30 rounded-lg border stroke-white flex items-center justify-center hover:bg-white/20 pointer-events-auto flex-shrink-0 ml-2"
+                    href={entry.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                >
+                    <ExternalLink className="size-3 md:size-4 stroke-inherit" />
+                </a>
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 export default FanartCard;

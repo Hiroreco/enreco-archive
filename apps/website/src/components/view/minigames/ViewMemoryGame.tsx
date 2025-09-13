@@ -5,6 +5,7 @@ import { useAudioStore } from "@/store/audioStore";
 import _ from "lodash";
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
+import { useTranslations } from "next-intl";
 
 const COLOR_MAP: { [key: number]: string } = {
     [-1]: "box-empty",
@@ -31,6 +32,8 @@ const initBoardState = (boardSize: number) => {
 type GuessState = "correct" | "incorrect" | "none";
 
 const ViewMemoryGame = () => {
+    const t = useTranslations("modals.minigames.games.memory");
+
     const sideLength = 5;
     const audioStore = useAudioStore();
     // Game states
@@ -236,7 +239,7 @@ const ViewMemoryGame = () => {
                 {displayedBoard}
             </div>
             <div className="flex flex-col items-center gap-2 grow">
-                <span className="underline">Choose color</span>
+                <span className="underline">{t("chooseColor")}</span>
                 <div className="flex justify-center items-center gap-4">
                     {renderColorBox("red", 0, "1")}
                     {renderColorBox("green", 1, "2")}
@@ -253,7 +256,7 @@ const ViewMemoryGame = () => {
 
                 <div className="flex items-center gap-4">
                     <span className="items-center flex flex-col sm:flex-row sm:gap-2">
-                        <span className="font-semibold">Score:</span>{" "}
+                        <span className="font-semibold">{t("score")}:</span>{" "}
                         <span
                             className={cn({
                                 "text-green-600": guessState === "correct",
@@ -270,7 +273,9 @@ const ViewMemoryGame = () => {
                     </span>
                     <span>|</span>
                     <span className="items-center flex flex-col sm:flex-row sm:gap-2">
-                        <span className="font-semibold">Personal Best:</span>{" "}
+                        <span className="font-semibold">
+                            {t("personalBest")}:
+                        </span>{" "}
                         {highScore}
                     </span>
                 </div>
@@ -286,7 +291,7 @@ const ViewMemoryGame = () => {
                         setIsPlaying((prevIsPlaying) => !prevIsPlaying);
                     }}
                 >
-                    {isPlaying ? "Stop" : "Start"}
+                    {isPlaying ? t("stop") : t("start")}
                 </Button>
             </div>
         </div>

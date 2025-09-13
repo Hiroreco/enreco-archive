@@ -1,3 +1,7 @@
+import CharacterSelector from "@/components/view/fanart/CharacterSelector";
+import { InclusiveMode } from "@/components/view/fanart/ViewFanartModal";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
     Select,
     SelectContent,
@@ -5,15 +9,13 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import { Button } from "@enreco-archive/common-ui/components/button";
-import { Shuffle } from "lucide-react";
-import CharacterSelector from "@/components/view/fanart/CharacterSelector";
 import {
     Tooltip,
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
-import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
+import { Shuffle } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface FanartFiltersProps {
     selectedCharacters: string[];
@@ -23,13 +25,13 @@ interface FanartFiltersProps {
     chapters: number[];
     days: number[];
     nameMap: Record<string, string>;
-    inclusiveMode: boolean;
+    inclusiveMode: InclusiveMode;
     videosOnly: boolean;
     memesOnly?: boolean;
     onCharactersChange: (characters: string[]) => void;
     onChapterChange: (chapter: string) => void;
     onDayChange: (day: string) => void;
-    onInclusiveModeChange: (inclusive: boolean) => void;
+    onInclusiveModeChange: (currentMode: InclusiveMode) => void;
     onVideosOnlyChange: (videosOnly: boolean) => void;
     onMemesOnlyChange: (memesOnly: boolean) => void;
     onReset: () => void;
@@ -60,6 +62,7 @@ const FanartFilters = ({
     shuffled,
     totalItems,
 }: FanartFiltersProps) => {
+    const t = useTranslations("modals.art");
     return (
         <div className="border-b pb-4">
             {/* Mobile layout */}
@@ -67,7 +70,7 @@ const FanartFilters = ({
                 <div className="grid grid-cols-2 gap-2 px-2">
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
-                            Chapter
+                            {t("chapter")}
                         </label>
                         <Select
                             value={selectedChapter}
@@ -77,7 +80,9 @@ const FanartFilters = ({
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="all">All</SelectItem>
+                                <SelectItem value="all">
+                                    {t("charFilter.all")}
+                                </SelectItem>
                                 {chapters.map((chapter) => (
                                     <SelectItem
                                         key={chapter}
@@ -91,14 +96,16 @@ const FanartFilters = ({
                     </div>
                     <div className="space-y-1">
                         <label className="text-xs font-medium text-muted-foreground">
-                            Day
+                            {t("day")}
                         </label>
                         <Select value={selectedDay} onValueChange={onDayChange}>
                             <SelectTrigger className="h-8 text-sm">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="all">All</SelectItem>
+                                <SelectItem value="all">
+                                    {t("charFilter.all")}
+                                </SelectItem>
                                 {days.map((day) => (
                                     <SelectItem
                                         key={day}
@@ -119,28 +126,50 @@ const FanartFilters = ({
                     mobile={true}
                 />
 
-                {/* Mobile checkboxes container */}
+                {/* Mobile filters container */}
                 <div className="grid grid-cols-2 gap-2">
-                    <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={onReset}
-                        className="w-full flex items-center justify-center h-6 text-xs"
-                    >
-                        Reset Filters
-                    </Button>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                id="fanart-inclusive-mode-mobile"
+                                size={"sm"}
+                                variant={"outline"}
+                                disabled={
+                                    selectedCharacters.includes("all") ||
+                                    selectedCharacters.includes("various")
+                                }
+                                onClick={() =>
+                                    onInclusiveModeChange(inclusiveMode)
+                                }
+                                aria-label={t(
+                                    `inclusiveModes.${inclusiveMode}.description`,
+                                )}
+                                className={`h-6 text-xs flex items-center gap-1`}
+                            >
+                                <span>{t("inclusiveModes.include")}:</span>
+                                <span className="font-bold">
+                                    {t(`inclusiveModes.${inclusiveMode}.label`)}
+                                </span>
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            {t(`inclusiveModes.${inclusiveMode}.description`)}
+                        </TooltipContent>
+                    </Tooltip>
+
                     <Button
                         variant={shuffled ? "default" : "outline"}
                         size="sm"
                         onClick={onShuffle}
-                        title={shuffled ? "Unshuffle" : "Shuffle"}
-                        aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                        title={shuffled ? t("shuffle.off") : t("shuffle.on")}
+                        aria-label={
+                            shuffled ? t("shuffle.off") : t("shuffle.on")
+                        }
                         className="w-full flex items-center justify-center h-6 text-xs"
                     >
                         <Shuffle className="w-4 h-4 mr-1" />
-                        {shuffled ? "Unshuffle" : "Shuffle"}
+                        {shuffled ? t("shuffle.off") : t("shuffle.on")}
                     </Button>
-                    {/* Videos Only checkbox */}
                     <div className="flex items-center gap-2">
                         <Checkbox
                             id="videos-only-mobile"
@@ -153,55 +182,19 @@ const FanartFilters = ({
                             htmlFor="videos-only-mobile"
                             className="text-xs font-medium text-muted-foreground"
                         >
-                            Videos Only
+                            {t("videosOnly")}
                         </label>
                     </div>
 
-                    {selectedCharacters.includes("all") ||
-                    selectedCharacters.includes("various") ? (
-                        <Tooltip>
-                            <TooltipTrigger asChild>
-                                <div className="flex items-center gap-2">
-                                    <Checkbox
-                                        id="inclusive-mobile"
-                                        checked={inclusiveMode}
-                                        onCheckedChange={(checked) =>
-                                            onInclusiveModeChange(
-                                                checked === true,
-                                            )
-                                        }
-                                        disabled={true}
-                                    />
-                                    <label
-                                        htmlFor="inclusive-mobile"
-                                        className="text-xs font-medium text-muted-foreground"
-                                    >
-                                        Inclusive Characters
-                                    </label>
-                                </div>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                                Can not turn on inclusive mode if “All” or
-                                “Various” is selected
-                            </TooltipContent>
-                        </Tooltip>
-                    ) : (
-                        <div className="flex items-center gap-2">
-                            <Checkbox
-                                id="inclusive-mobile"
-                                checked={inclusiveMode}
-                                onCheckedChange={(checked) =>
-                                    onInclusiveModeChange(checked === true)
-                                }
-                            />
-                            <label
-                                htmlFor="inclusive-mobile"
-                                className="text-xs font-medium text-muted-foreground"
-                            >
-                                Inclusive Characters
-                            </label>
-                        </div>
-                    )}
+                    <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={onReset}
+                        className="w-full flex items-center justify-center h-6 text-xs"
+                    >
+                        {t("reset")}
+                    </Button>
+
                     <div className="flex items-center gap-2">
                         <Checkbox
                             id="dna-of-the-soul-mobile"
@@ -214,7 +207,7 @@ const FanartFilters = ({
                             htmlFor="dna-of-the-soul-mobile"
                             className="text-xs font-medium text-muted-foreground"
                         >
-                            DNA of the Soul
+                            {t("memes")}
                         </label>
                     </div>
                 </div>
@@ -231,7 +224,9 @@ const FanartFilters = ({
                 />
 
                 <div className="flex items-center gap-2">
-                    <label className="text-sm font-medium">Chapter:</label>
+                    <label className="text-sm font-medium">
+                        {t("chapter")}:
+                    </label>
                     <Select
                         value={selectedChapter}
                         onValueChange={onChapterChange}
@@ -240,7 +235,9 @@ const FanartFilters = ({
                             <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value="all">All</SelectItem>
+                            <SelectItem value="all">
+                                {t("charFilter.all")}
+                            </SelectItem>
                             {chapters.map((chapter) => (
                                 <SelectItem
                                     key={chapter}
@@ -254,13 +251,15 @@ const FanartFilters = ({
                 </div>
 
                 <div className="flex items-center gap-2">
-                    <label className="text-sm font-medium">Day:</label>
+                    <label className="text-sm font-medium">{t("day")}:</label>
                     <Select value={selectedDay} onValueChange={onDayChange}>
                         <SelectTrigger className="w-[100px]">
                             <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value="all">All</SelectItem>
+                            <SelectItem value="all">
+                                {t("charFilter.all")}
+                            </SelectItem>
                             {days.map((day) => (
                                 <SelectItem key={day} value={day.toString()}>
                                     {day + 1}
@@ -270,7 +269,6 @@ const FanartFilters = ({
                     </Select>
                 </div>
 
-                {/* Videos Only checkbox */}
                 <div className="flex items-center gap-2">
                     <Checkbox
                         id="videos-only-desktop"
@@ -283,54 +281,9 @@ const FanartFilters = ({
                         htmlFor="videos-only-desktop"
                         className="text-sm font-medium"
                     >
-                        Videos Only
+                        {t("videosOnly")}
                     </label>
                 </div>
-
-                {/* Desktop inclusive checkbox */}
-                {selectedCharacters.includes("all") ||
-                selectedCharacters.includes("various") ? (
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <div className="flex items-center gap-2">
-                                <Checkbox
-                                    id="inclusive-desktop"
-                                    checked={inclusiveMode}
-                                    onCheckedChange={(checked) =>
-                                        onInclusiveModeChange(checked === true)
-                                    }
-                                    disabled={true}
-                                />
-                                <label
-                                    htmlFor="inclusive-desktop"
-                                    className="text-sm font-medium"
-                                >
-                                    Inclusive
-                                </label>
-                            </div>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            Can not turn on inclusive mode if “All” or “Various”
-                            is selected
-                        </TooltipContent>
-                    </Tooltip>
-                ) : (
-                    <div className="flex items-center gap-2">
-                        <Checkbox
-                            id="inclusive-desktop"
-                            checked={inclusiveMode}
-                            onCheckedChange={(checked) =>
-                                onInclusiveModeChange(checked === true)
-                            }
-                        />
-                        <label
-                            htmlFor="inclusive-desktop"
-                            className="text-sm font-medium"
-                        >
-                            Inclusive
-                        </label>
-                    </div>
-                )}
 
                 <div className="flex items-center gap-2">
                     <Checkbox
@@ -344,20 +297,50 @@ const FanartFilters = ({
                         htmlFor="dna-of-the-soul-mobile"
                         className="text-sm font-medium"
                     >
-                        DNA of the Soul
+                        {t("memes")}
                     </label>
                 </div>
 
                 <div className="flex flex-row gap-2 items-center">
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                id="fanart-inclusive-mode"
+                                size={"sm"}
+                                variant={"outline"}
+                                disabled={
+                                    selectedCharacters.includes("all") ||
+                                    selectedCharacters.includes("various")
+                                }
+                                className={`min-w-36 flex items-center gap-1`}
+                                onClick={() =>
+                                    onInclusiveModeChange(inclusiveMode)
+                                }
+                                aria-label={t(
+                                    `inclusiveModes.${inclusiveMode}.description`,
+                                )}
+                            >
+                                <span>{t("inclusiveModes.include")}:</span>
+                                <span className="font-bold">
+                                    {t(`inclusiveModes.${inclusiveMode}.label`)}
+                                </span>
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            {t(`inclusiveModes.${inclusiveMode}.description`)}
+                        </TooltipContent>
+                    </Tooltip>
                     <Button variant="outline" size="sm" onClick={onReset}>
-                        Reset Filters
+                        {t("reset")}
                     </Button>
                     <Button
                         size="sm"
                         onClick={onShuffle}
                         variant={"outline"}
-                        title={shuffled ? "Unshuffle" : "Shuffle"}
-                        aria-label={shuffled ? "Unshuffle" : "Shuffle"}
+                        title={shuffled ? t("shuffle.off") : t("shuffle.on")}
+                        aria-label={
+                            shuffled ? t("shuffle.off") : t("shuffle.on")
+                        }
                         className={`${shuffled ? "bg-accent text-accent-foreground" : ""}`}
                     >
                         <Shuffle className="w-4 h-4" />
@@ -365,7 +348,7 @@ const FanartFilters = ({
                 </div>
 
                 <div className="ml-auto text-sm text-muted-foreground">
-                    {totalItems} items
+                    {t("items", { val: totalItems })}
                 </div>
             </div>
         </div>

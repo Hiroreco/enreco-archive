@@ -10,12 +10,15 @@ import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 import ViewSpoilerModal from "@/components/view/basic-modals/ViewSpoilerModal";
+import { useTranslations } from "next-intl";
 
 interface ViewItemsAppProps {
     bgImage: string;
 }
 
 const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
+    const tNavTooltips = useTranslations("navTooltips");
+
     // UI
     const openModal = useViewStore((state) => state.modal.openModal);
     const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
@@ -85,7 +88,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="info-btn"
                     className="size-[40px] p-[4px] hidden md:block"
-                    tooltipText="Info"
+                    tooltipText={tNavTooltips("info")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openInfoModal}
@@ -96,7 +99,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="settings-btn"
                     className="size-[40px] p-[4px]"
-                    tooltipText="Settings"
+                    tooltipText={tNavTooltips("settings")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openSettingsModal}
@@ -107,7 +110,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="minigames-btn"
                     className="size-[40px] p-[4px] hidden md:block"
-                    tooltipText="Minigames"
+                    tooltipText={tNavTooltips("minigames")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMinigameModal}
@@ -118,7 +121,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="music-player-btn"
                     className="size-[40px] p-[4px]"
-                    tooltipText="Jukebox"
+                    tooltipText={tNavTooltips("jukebox")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMusicPlayerModal}
@@ -129,7 +132,7 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
                 <IconButton
                     id="fanart-btn"
                     className="size-[40px] p-1"
-                    tooltipText="Libestal Gallery"
+                    tooltipText={tNavTooltips("libestalGallery")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openFanartModal}

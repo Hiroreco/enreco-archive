@@ -1,7 +1,7 @@
+import { useAudioStore } from "@/store/audioStore";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import { Label } from "@enreco-archive/common-ui/components/label";
-import { useAudioStore } from "@/store/audioStore";
-import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface ReadMarkerProps {
     read: boolean;
@@ -9,7 +9,8 @@ interface ReadMarkerProps {
 }
 
 const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
-    const playSFX = useAudioStore(state => state.playSFX);
+    const playSFX = useAudioStore((state) => state.playSFX);
+    const tCommon = useTranslations("common");
 
     const handleCheckedChange = (checked: boolean | "indeterminate") => {
         if (checked) {
@@ -21,7 +22,7 @@ const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
     return (
         <div className="mx-auto my-6 w-full flex items-center justify-center gap-2 z-50">
             <Label className="text-lg" htmlFor="read">
-                Mark as Read
+                {tCommon("markAsRead")}
             </Label>
             <Checkbox
                 id="read"

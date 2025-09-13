@@ -43,4 +43,4 @@ Their adventure continued at the tavern, where they celebrated with Gura’s new
 
 <!-- fauna, moom -->
 
-["Come, I don't wawnt to destroy this place" by Daaku](https://x.com/koizumi_arata/status/1831100215668908440)
+["Come, I don't want to destroy this place" by Daaku](https://x.com/koizumi_arata/status/1831100215668908440)
