@@ -27,4 +27,8 @@
 
 ["Mogojan!?" by Fukuinu](https://x.com/fukuinu_daddy/status/1830478922934616529)
 
+<!-- fuwawa, raora, liz, kiara -->
+
 ["they're going to the moon" by karunochi](https://x.com/karunochi/status/1830608765454024950)
+
+<!-- fuwawa -->

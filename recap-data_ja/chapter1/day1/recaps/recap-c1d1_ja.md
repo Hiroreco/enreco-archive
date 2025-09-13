@@ -10,7 +10,7 @@
 - **ジェイドソード:** 正義と忠誠の灯台大いなる脅威に、さらに大いなる勇気で立ち向かう場所。
 - **セルリアンカップ:** 癒しの聖域、そこには共感と献身の精神が息づく。
 - **アンバーコイン:** 野心とビジョンを持つ栄光を求める者たちの居場所。そこでは最も親しい盟友さえも、最も熾烈なライバルとなる。
-- **スカーレットワンド:**  好奇心旺盛な人々のための安息の地。ここでは知識と創造性が何よりも尊ばれる。
+- **スカーレットワンド:** 好奇心旺盛な人々のための安息の地。ここでは知識と創造性が何よりも尊ばれる。
 
 ![四人のギルドマスター](images-opt/guildmasters-opt.webp)
 
@@ -38,7 +38,7 @@
 
 ["Scarlet Wand" by tor](https://x.com/torkirby/status/1830410419082510816)
 
-<!-- fauna, gura, moom, nerissa, shiori -->
+<!-- fauna, gura, cecilia, nerissa, shiori -->
 
 ["The Jade Sword Guild!" by Nagi](https://x.com/Nagi_Nyaaa/status/1830397551553761776)
 

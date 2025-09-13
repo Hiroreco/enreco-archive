@@ -19,6 +19,6 @@
 
 <!-- fuwawa, irys -->
 
-["It's not a scam, the librarly is real" by Abendago](https://x.com/Abendag0/status/1831627938883891257)
+["It's not a scam, the library is real" by Abendago](https://x.com/Abendag0/status/1831627938883891257)
 
 <!-- fuwawa -->

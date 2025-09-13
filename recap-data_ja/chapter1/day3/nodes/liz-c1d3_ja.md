@@ -24,7 +24,3 @@
 [約束を文字通りに受け取りすぎ](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=9220)
 
 それでも二人は何とか脱出し、一行は無事にダンジョンを制覇する。そして見事に[一伊那尓栖](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=7815)の記憶を取り戻すことに成功したのだった。
-
-## ファンアート
-
-["From one Knight of Flame to the other" by Rei](https://x.com/_Silvertone/status/1833054905650532562)

@@ -30,7 +30,7 @@
 
 ["A proposal" by Hyoweii](https://x.com/weiiyxn/status/1830844192723255551)
 
-["Gonathon and Jyonathon" by St3ll4](https://x.com/sssst3ll4/status/1834360675503837275)
+["Gonathon and Jyonathan" by St3ll4](https://x.com/sssst3ll4/status/1834360675503837275)
 
 ## ミーム
 

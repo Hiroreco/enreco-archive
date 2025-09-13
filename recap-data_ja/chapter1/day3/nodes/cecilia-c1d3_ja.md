@@ -39,6 +39,6 @@
 
 ["She got tha HAT!!!" by aWoooFa](https://x.com/Awooofa/status/1831049705700413843)
 
-["HAT" ny Raff Yasushi](https://x.com/raffanda_/status/1830877842013593910)
+["HAT" by Raff Yasushi](https://x.com/raffanda_/status/1830877842013593910)
 
 <!-- calli -->
