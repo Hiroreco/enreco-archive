@@ -1,7 +1,7 @@
 "use client";
-import chapter0 from "#/chapter0.json";
-import chapter1 from "#/chapter1.json";
-import siteMeta from "#/metadata.json";
+
+import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useViewStore } from "@/store/viewStore";
 import {
     Tabs,
@@ -10,21 +10,15 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
-import { Chapter, SiteData } from "@enreco-archive/common/types";
 import { AnimatePresence, motion } from "framer-motion";
 import { LibraryBig, Workflow } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
-
-const data: SiteData = {
-    version: siteMeta.version,
-    numberOfChapters: siteMeta.numChapters,
-    event: "ENigmatic Recollection",
-    chapters: [chapter0 as Chapter, chapter1 as Chapter],
-};
+import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
+import { LS_CURRENT_VERSION, LS_CURRENT_VERSION_KEY } from "@/lib/constants";
+import { usePersistedViewStore } from "@/store/persistedViewStore";
 
 type AppType = "chart" | "glossary";
 
@@ -41,15 +35,39 @@ export const ViewAppWrapper = () => {
     const closeCard = useViewStore((state) => state.ui.closeCard);
     const deselectElement = useViewStore((state) => state.ui.deselectElement);
 
-    const chapterData = data.chapters[chapter];
+    const { getChapter } = useLocalizedData();
+    const chapterData = getChapter(chapter);
+    const hasVisitedBefore = usePersistedViewStore(
+        (state) => state.hasVisitedBefore,
+    );
+    const openChangeLogModal = useViewStore(
+        (state) => state.modal.openChangeLogModal,
+    );
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
         bgImage = chapterData.bgiSrc.replace("-opt.webp", "-dark-opt.webp");
     }
 
+    // Pops up the changelog modal everytime the version changes
+    // The version change is based on comparing the version in localStorage and the current version
+    useEffect(() => {
+        // Don't show the changelog if it's the user's first time, since they will see the info modal anyway
+        if (!hasVisitedBefore || isLoading) {
+            return;
+        }
+        const lsVersion = localStorage.getItem(LS_CURRENT_VERSION_KEY);
+        if (lsVersion !== LS_CURRENT_VERSION) {
+            openChangeLogModal();
+            localStorage.setItem(LS_CURRENT_VERSION_KEY, LS_CURRENT_VERSION);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [isLoading, openChangeLogModal]);
+
     return (
         <div>
+            <ViewTranslationDislaimerModal />
+
             {isLoading && (
                 <ViewLoadingPage
                     useDarkMode={useDarkMode}
@@ -113,7 +131,7 @@ export const ViewAppWrapper = () => {
                 <AnimatePresence mode="wait">
                     {appType === "chart" && (
                         <motion.div
-                            key="chart"
+                            key={`chart`}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
@@ -121,7 +139,6 @@ export const ViewAppWrapper = () => {
                         >
                             <ViewApp
                                 bgImage={bgImage}
-                                siteData={data}
                                 isInLoadingScreen={isLoading}
                             />
                         </motion.div>

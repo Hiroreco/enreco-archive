@@ -15,4 +15,4 @@ Fortunately, Liz was already happy for her! She thanked Kiara for being her wond
 
 As everyone partied at the Great Hall, a scream pierced through the walls. In one of the other rooms, there lay the princess Iphania, who had fallen dead to the floor. Kiara could not help but wonder [how Immerkind would react to such an ending...](https://www.youtube.com/live/8E8Dsgs5e50?t=6916)
 
-(See: [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))
+(see [Princess–Outlander: A Price for Defying Fate](#edge:iphania-outlander))

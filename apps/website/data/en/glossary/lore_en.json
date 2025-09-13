@@ -1,0 +1,625 @@
+{
+  "general": [
+    {
+      "id": "libestal-ancient-entry",
+      "title": "Kingdom of Libestal (Ancient)",
+      "chapters": [
+        1
+      ],
+      "quote": "Here, in the distant past, the Outsider was born.",
+      "content": "## Overview\n\nAncient Libestal, unlike the [fabricated kingdom](#entry:libestal-ficta-entry) the heroes were summoned to in the first chapter, was a real version of Libestal—set in a time before [the Outsider](#entry:outsider-entry) came into being. It was here that the heroes began their second journey, with the objective to stop the Ruination, destroy the source of the corruption, and ultimately save the world as well as the universe.\n\n- [Read \"Kingdom of Libestal (Ancient)\"](#text:libestal-ancient)\n\n## Details\n\n### Preface\n\nAs the Captive was defeated and the fabricated world designed to contain him slowly crumbled away, a mysterious voice saved the heroes from the dying realm. That voice belonged to [Fia](#entry:iphania-entry), the current caretaker of the Library, who brought the heroes back in time to an earlier, real Libestal. She hoped that the heroes, now known as the Shining Stars, could prevent the Outsider, an entity of pure hatred destined to destroy the universe, from ever coming into existence.\n\n### Setting\n\nAncient Libestal, as its name implies, was set in a distant past, reflected in its antique architecture and atmosphere. The kingdom served as the last sanctuary for the world’s inhabitants, as the rest of the land was slowly being consumed by the Ruination. Stains ravaged the wilderness, and death was ever-present. Unlike the previous Libestal, there were no guilds here. Instead, the kingdom’s survival relied on four core [occupations](#entry:jobs-entry):\n\n- **The Smith** – Forged upgrade stones used to enhance Revelation weapons.\n- **The Jeweler** – Crafted charms that enhanced health and bolstered defense.\n- **The Chef** – Cooked meals that granted powerful buffs for exploration and combat.\n- **The Supplier** – Enchanted tools to improve resource-gathering efficiency.\n\nOne noticeable difference between the fabricated and the real Libestal was how alive everything felt. Citizens were plentiful, and wherever the heroes went, they encountered new faces to interact with.\n\n### Appearance\n\nFrom above, the kingdom had a compact layout, with buildings made mostly of mud brick, adding to its ancient charm. While familiar structures such as a castle and residential areas remained, they differed significantly from their counterparts in the fabricated Libestal.\n\n**The Castle**\nThe largest structure in the kingdom, the castle, focused on height rather than width. It housed the Princess, numerous workers, and many refugees, instantly making it feel far more alive than the vacant halls of the previous castle.\n\nWithin the castle grounds were a variety of facilities, including the Princess's chambers, a dining hall, a dueling area, a casino, merchant stalls, and more. Most kingdom activities and sidequests took place here.\n\n**The Abandoned Temple**\nLocated at the center of the residential area and directly in front of the castle gates, is an abandoned temple. To the heroes it was the entrance to the [Library,](#entry:library-entry) a central hub of the second chapter’s story and the place where Fia resided.\n\n**Build Area**\nSurrounding the Library were expansive plots of land allocated to the heroes for free building. Compared to the limited, guild-restricted building areas in the first chapter, this iteration offered far more freedom and fewer restrictions, allowing for grander, more personalized structures.\n\nAt some point not long ago, the entire castle town had burned down—explaining why the building area was empty and why all the Libestans now resided within the castle walls. Several residents reminisce about their old homes before the fire, and there are subtle hints sprinkled throughout about who might have started it, though the culprit’s identity remains unknown. It was during this fire that the Outlander first proved his heroism to the Libestans, rescuing townsfolk in the chaos. A few castle residents even mention being saved by him.\n\n### Quests\n\nBoth side and main quests returned, with expanded depth and limitations to prevent previous exploits (such as earning tens of thousands of coins from mass-producing potato salad). Sidequests still served as a source of income and power-ups, while main quests progressed the storyline and restored lost memories—this time not just of the heroes, but also of Fia.\n\nCertain sidequests now had level requirements, encouraging progression and role specialization before access.\n\n### Remnants\n\nAs the story advanced, new regions called Remnants became accessible, offering new materials, enemies, story content, and challenges that demanded real teamwork. These areas were:\n\n- **Remnants of the Cliffs of Sidero** – Unlocked early after choosing occupations and finishing initial quests.\n- **Remnants of the Lykeion Campus** – Unlocked after conquering Star Site: Elpis.\n- **Remnants of the Antigonian Aerie** – Unlocked after conquering Star Site: Chronos.\n\n### Star Sites\n\nAs in the previous chapter, the heroes needed to clear dungeons to recover their memories and progress the story. These were known as Star Sites:\n\n- [Star Site: Elpis](#entry:star-site-elpis-entry) – Unlocked on Day 2; contained IRyS's memories.\n- [Star Site: Chronos](#entry:star-site-chronos-entry) – Unlocked on Day 4; contained Ouro Kronii's memories.\n- [Star Site: Chaos](#entry:star-site-chaos-entry) – Unlocked on Day 5; contained Hakos Baelz's memories.\n\n### Other Quests\n\nIn addition to Star Sites, two major dungeons served as key plot events:\n\n- [Stronghold of Ruin](#entry:stronghold-of-ruin-entry) – Unlocked on Day 3; where the heroes first encountered and freed the Outlander.\n- [Heart of Ruin](#entry:heart-of-ruin-entry) – Unlocked on Day 7; the final dungeon where the source of all evil, the Curse, was destroyed.\n\nBefore entering the Heart of Ruin, the heroes undertook a special quest on Day 6 titled **The Ritual**, which served as a narrative bridge into the finale.\n\n### Ending\n\nAfter defeating the Heart of Ruin and saving the world, the heroes joined the kingdom's citizens for a grand victory banquet. Just as the celebration peaked, tragedy struck: the Princess was assassinated by the Curse, which had somehow survived. A mysterious higher being appeared, ready to punish the heroes for “defying fate.”\n\nIn the final moment, Fia intervened, transporting the heroes back to the Library to escape annihilation.\n\nWith sorrow, Fia acknowledged that preventing the Outsider’s birth was impossible. The only path forward now was to prevent whatever his intentions were in the present—and that meant Libestal was doomed. Ancient Libestal fell, marking its inevitable demise.",
+      "thumbnailSrc": "/images-opt/libestal-ancient-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Ancient Libestal Overview #1",
+          "source": "/images-opt/libestal-ancient-entry-0-opt.webp"
+        },
+        {
+          "title": "Ancient Libestal Overview #2",
+          "source": "/images-opt/libestal-ancient-entry-1-opt.webp"
+        },
+        {
+          "title": "Ancient Libestal Overview #3",
+          "source": "/images-opt/libestal-ancient-entry-2-opt.webp"
+        },
+        {
+          "title": "Exterior of Libestal Castle",
+          "source": "/images-opt/libestal-ancient-entry-3-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #1",
+          "source": "/images-opt/libestal-ancient-entry-4-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #2",
+          "source": "/images-opt/libestal-ancient-entry-5-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #3",
+          "source": "/images-opt/libestal-ancient-entry-6-opt.webp"
+        },
+        {
+          "title": "Interior of Libestal Castle #4",
+          "source": "/images-opt/libestal-ancient-entry-7-opt.webp"
+        },
+        {
+          "title": "Ancient Libestal Concept Art",
+          "source": "/images-opt/libestal-ancient-entry-8-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestal-ancient-entry-opt.webp"
+    },
+    {
+      "id": "libestal-ficta-entry",
+      "title": "Kingdom of Libestal (Ficta)",
+      "chapters": [
+        0
+      ],
+      "quote": "A noble kingdom, besieged by monsters of shadow—but it was all a lie.",
+      "content": "## Overview\n\n**The Kingdom of Libestal** was where the heroes were first summoned by the [King](#entry:outsider-entry), marking the beginning of their enigmatic journey. They were brought forth with the objective of defending the kingdom from a mysterious threat known as the [Stains](#entry:stains-entry). However, it was later revealed that the kingdom itself was a fabrication—a guise for a prison holding the King, whose true identity was The Captive (the Outsider). In a grand deception, the Captive had tricked the heroes into releasing him.\n\n- [Read \"Kingdom of Libestal (Ficta)\"](#text:libestal-ficta)\n\n## Details\n\n### Preface\n\nNineteen heroes were summoned to a mysterious kingdom by its King, each stripped of their memories. Recognizing them as the destined saviors foretold by the power of their [Revelation](#entry:revelations-entry), the King urged them to grow stronger and unite in order to defeat the looming threat of the Stain King—and, in doing so, save the kingdom.\n\n### Setting\n\nLibestal was set in a somewhat medieval, though not archaic, fantasy world. Magical devices and enchanted weaponry were commonplace. The kingdom’s citizens, known as Libestans, were rabbit-like humanoids, and the realm was ruled by the King. Four [guilds](#entry:guilds-entry) served as pillars of the kingdom’s structure, each tasked with different duties, and the heroes were assigned to one of them:\n\n- **Jade Sword** – A beacon of righteousness and loyalty, where great threats are met with even greater courage.\n- **Cerulean Cup** – A sanctum of healing, where empathy and devotion flourish.\n- **Amber Coin** – A haven for glory-seekers and visionaries, where the closest allies could become the fiercest rivals.\n- **Scarlet Wand** – A refuge for the curious, where knowledge and creativity are held above all else.\n\nDespite the kingdom’s scale, many heroes remarked on how empty it felt—its vast size contrasting with its sparse population.\n\n### Appearance\n\nThe kingdom was vast and diverse in its architecture, with clear distinctions between major and minor structures. It could be divided into four key zones:\n\n- **Guild Headquarters** – Each guild’s headquarters housed its respective guild master and reflected their philosophy. For example, Jade Sword’s area included dueling arenas, while Amber Coin featured a casino.\n\n- **Free Build Area** – A sandbox-like zone where heroes could build shops, homes, or anything else they desired. This area was subdivided by guild, with each guild’s members allotted specific land plots. Building heights and depths were restricted, and heroes could only fly and construct within their assigned territory.\n\n- **The Castle** – The largest structure in the kingdom and the King’s residence. Constructed mainly from quartz, the Castle had a clean, bright, and grand appearance. Despite its imposing architecture, many of its halls were eerily empty—only the throne room saw consistent use.\n\n- **Miscellaneous Areas** – Additional zones included gardens, shopping buildings, and residential structures for the kingdom's occupants.\n\nWithin the kingdom’s walls, the environment was safe. Outside lay the wilderness, teeming with Stains, materials, and dungeons for the heroes to explore.\n\n### Quests\n\nHeroes advanced through the story via two types of quests:\n\n- **Side Quests** – Routine tasks such as cooking or gathering resources. Completing these quests rewarded coins and useful artifacts. They were repeatable and served as a way to gain materials and build up strength.\n\n- **Main Quests** – Essential story-driven objectives, focused mainly on conquering five dungeons. Each completed main quest restored a portion of the heroes’ lost memories and strengthened their Revelation. Dungeons were unlocked progressively each day.\n\n### Plot Twist and Demise\n\nAfter defeating the Stain King on Day 8, the truth unraveled: the King had been evil all along. The kingdom was merely a prison to contain him, and the heroes had unknowingly set him free. His true identity, The Captive, or The Outsider, was revealed, and his release brought the fabricated world to its breaking point. Though the heroes ultimately defeated the Captive, the world itself began to collapse, disintegrating back into the void.\n\nOnly through the intervention of a mysterious being were the heroes rescued, leading directly into the events of [Chapter 2.](#entry:libestal-ancient-entry)",
+      "thumbnailSrc": "/images-opt/libestal-ficta-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Entrance into the Kingdom of Libestal",
+          "source": "/images-opt/libestal-ficta-entry-0-opt.webp"
+        },
+        {
+          "title": "Libestal Overview #1",
+          "source": "/images-opt/libestal-ficta-entry-1-opt.webp"
+        },
+        {
+          "title": "Libestal Overview #2",
+          "source": "/images-opt/libestal-ficta-entry-2-opt.webp"
+        },
+        {
+          "title": "Outside view of the kingdom's castle",
+          "source": "/images-opt/libestal-ficta-entry-3-opt.webp"
+        },
+        {
+          "title": "Outside view of the Shopping Building #1",
+          "source": "/images-opt/libestal-ficta-entry-4-opt.webp"
+        },
+        {
+          "title": "Outside view of the Shopping Building #2",
+          "source": "/images-opt/libestal-ficta-entry-5-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #1",
+          "source": "/images-opt/libestal-ficta-entry-6-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #2",
+          "source": "/images-opt/libestal-ficta-entry-7-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #3",
+          "source": "/images-opt/libestal-ficta-entry-8-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #4",
+          "source": "/images-opt/libestal-ficta-entry-9-opt.webp"
+        },
+        {
+          "title": "Libestal's Wilderness #5",
+          "source": "/images-opt/libestal-ficta-entry-10-opt.webp"
+        },
+        {
+          "title": "Front view of Libestal Castle",
+          "source": "/images-opt/libestal-ficta-entry-11-opt.webp"
+        },
+        {
+          "title": "Kingdom of Libestal Concept Art",
+          "source": "/images-opt/libestal-ficta-entry-12-opt.webp"
+        },
+        {
+          "title": "Map of Libestal and the five Dungeons",
+          "source": "/images-opt/libestal-ficta-entry-13-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestal-ficta-entry-opt.webp"
+    },
+    {
+      "id": "library-entry",
+      "title": "The Library",
+      "chapters": [
+        1
+      ],
+      "quote": "An archive of lore from across the multiverse.",
+      "content": "## Overview\n\n**The Library** was both a key concept and location in the heroes’ journey during the second chapter. It served not only as an archive of multiversal lore and the heroes’ memories throughout their time in Libestal, but also as the home of a significant figure: the Library’s caretaker, [Fia](#entry:iphania-entry).\n\n## Details\n\n### Preface\n\nAs the heroes faced off against the [Outsider](#entry:outsider-entry) and watched the world around them crumble, Fia intervened. She pulled them back through time and transported them to the Library to save their lives. It was here that they first met Fia, the current Librarian, who explained their new objective: they needed to help her recover her lost memories—fragments lost due to the effects of time travel—in order to find a way to prevent the Outsider’s existence.\n\n> _The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases._\n\n- [Read \"The Library\"](#text:the-library)\n\n### Appearance and Role\n\nThe Library radiated a dreamy atmosphere, with a wooden interior intertwined with vines and greenery, lit warmly by lanterns and the ethereal glow of froglights. From the outside, it took the form of a dome with open entrances on all four sides, nestled within the kingdom’s walls.\n\nAt the heart of the Library stood a small quartz podium set atop a serene pool of water—Fia’s usual place of residence.\n\nMost striking were the endless stacks of bookshelves lining the Library. True to its purpose, the Library housed [lore](https://www.youtube.com/live/5pgqtkxazUo?si=Avq9ghV6qktpwDi8&t=1123) from across the multiverse. Here, the heroes would also submit daily journal entries, as requested by Fia. Any newly discovered book or piece of lore would also be cataloged and made available for reading.\n\n### Lore and Journals\n\nLore played a crucial role in the second chapter, uncovering the [kingdom’s](#entry:libestal-ancient-entry) history, the rise of the [Stains](#entry:stains-entry), and the hidden truths that shaped the world. These pieces of lore were found throughout the heroes’ travels—from forgotten ruins to the depths of ancient dungeons.\n\n#### General Lore\n\nContained records on major figures and the overarching history of the kingdom of Libestal.\n\n- [Read \"Fia\"](#text:fia)\n- [Read \"Libestal Ficta\"](#text:libestal-ficta)\n- [Read \"Libestal\"](#text:libestal-ancient)\n- [Read \"The Outsider\"](#text:the-outsider)\n- [Read \"The Library\"](#text:the-library)\n\n#### Book of Prophecies\n\nAs described by the Princess, this book knew all and revealed all. It didn’t simply predict the future—it _defined_ it, including the doomed fate of Libestal.\n\n- [Read \"Book of Prophecies 3:21\"](#text:book-of-prophecies-3-21)\n- [Read \"Book of Prophecies 3:7\"](#text:book-of-prophecies-3-7)\n- [Read \"Book of Prophecies 8:4\"](#text:book-of-prophecies-8-4)\n- [Read \"Book of Prophecies 3:14\"](#text:book-of-prophecies-3-14)\n- [Read \"Book of Prophecies 6:10\"](#text:book-of-prophecies-6-10)\n- [Read \"Book of Prophecies 2:29\"](#text:book-of-prophecies-2-29)\n\n#### Explorer's Journal\n\nThe diary of an explorer who, before the corruption took hold, ventured into deep cliffs in search of treasure. One by one, his companions dropped out, until he finally discovered what he believed to be the treasure—only to realize they had unleashed something terrible: possibly the Stains.\n\n- [Read \"Explorer's Journal #1\"](#text:explorers-journal-1)\n- [Read \"Explorer's Journal #2\"](#text:explorers-journal-2)\n- [Read \"Explorer's Journal #3\"](#text:explorers-journal-3)\n- [Read \"Explorer's Journal #4\"](#text:explorers-journal-4)\n- [Read \"Explorer's Journal #5\"](#text:explorers-journal-5)\n\n#### Researcher's Journal\n\nThe records of a researcher studying the spread of shadowy beings known as the Stains. Their writings chronicled a desperate attempt to uncover whether the Book of Prophecies—and the Ruination it foretold—would truly bring about the world’s end.\n\n- [Read \"Researcher's Journal #1\"](#text:researchers-journal-1)\n- [Read \"Researcher's Journal #2\"](#text:researchers-journal-2)\n- [Read \"Researcher's Journal #3\"](#text:researchers-journal-3)\n- [Read \"Researcher's Journal #4\"](#text:researchers-journal-4)\n- [Read \"Researcher's Journal #5\"](#text:researchers-journal-5)\n\n#### Rider's Journal\n\nThe diary of a refugee and caretaker of gryphons, who bore witness to the devastation wrought by the Stains—losing not only their home, but also their beloved companions.\n\n- [Read \"Rider's Journal #1\"](#text:riders-journal-1)\n- [Read \"Rider's Journal #2\"](#text:riders-journal-2)\n- [Read \"Rider's Journal #3\"](#text:riders-journal-3)\n- [Read \"Rider's Journal #4\"](#text:riders-journal-4)\n- [Read \"Rider's Journal #5\"](#text:riders-journal-5)\n\n#### Heart of Ruin\n\nThis tome revealed the source of the Ruination, the calamity it unleashed, and the true nature of the corruption itself.\n\n- [Read \"The Truth of Ruin\"](#text:the-truth-of-ruin)\n- [Read \"Prelude of Ruin\"](#text:prelude-of-ruin)\n- [Read \"Song of Ruin\"](#text:song-of-ruin)\n\n### The Heroes' Journals\n\nAt the end of each day, the heroes were asked to record their experiences and submit them to the Library. In stark contrast to the heavy and often tragic tone of the other books, their entries were… quirky, to say the least.\n\n_Note: You can read all of the heroes' entries in Chapter 2's charts._\n\n## Sources\n\n- World Builder - [tskai_xx](https://x.com/tskai_xx/status/1919396839205593174/photo/1)",
+      "thumbnailSrc": "/images-opt/library-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "The Library Overview #1",
+          "source": "/images-opt/library-entry-0-opt.webp"
+        },
+        {
+          "title": "The Library Overview #2",
+          "source": "/images-opt/library-entry-1-opt.webp"
+        },
+        {
+          "title": "The Library Overview #3",
+          "source": "/images-opt/library-entry-2-opt.webp"
+        },
+        {
+          "title": "View of the Lore Archive",
+          "source": "/images-opt/library-entry-3-opt.webp"
+        },
+        {
+          "title": "The Library Overview #4",
+          "source": "/images-opt/library-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/library-entry-opt.webp"
+    },
+    {
+      "id": "sanctuary-entry",
+      "title": "The Sanctuary",
+      "chapters": [
+        0
+      ],
+      "quote": "Don't worry. This isn't goodbye forever.",
+      "content": "## Overview\n\nThe Sanctuary remained a mystery in both meaning and purpose. It was the very first place where the heroes opened their eyes before their journey began. It was also the site of the final battle between the heroes and the [Captive](#entry:outsider-entry) in the first chapter.\n\n## Details\n\n### Appearance\n\nFloating across what seemed like the fabric of space and time itself, the Sanctuary exuded a mythical, divine aura. It consisted of several large, round, disk-shaped platforms, each illuminated sparsely in its corners by glowing blue sea lanterns. One disk stood out among the rest—at its center stood a massive, egg-like artifact, encircled by towering beacons of light shooting endlessly into the void. This entire realm was surrounded by a sea of stars, drifting within a space so vast, cold, and silent that it felt like a realm fit for gods.\n\n### Stories\n\nAs early as the heroes could remember, they awoke in this cold, mysterious place, greeted by an equally mysterious voice whispering directly into their minds. Whether these were their own thoughts or someone else’s, they couldn’t tell. The cryptic message it delivered only deepened the enigma:\n\n> Faced with oblivion, I feel. Empty?\n> Relieved?\n> Perhaps distraught?\n> I do not know.\n> So much I don't know... And yet...\n> That bright light... It calls to me...\n\nAfter that, the heroes never returned to the Sanctuary—until the final day of the first chapter.\n\nDuring the last battle, as the Captive was defeated, the fabric of space began to unravel. In that moment, a mysterious voice—now revealed to be [Fia](#entry:iphania-entry)—urged the heroes to jump into a portal, leading them to the Library and marking the beginning of the second chapter.",
+      "thumbnailSrc": "/images-opt/sanctuary-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "The Sanctuary Overview #1",
+          "source": "/images-opt/sanctuary-entry-0-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Overview #2",
+          "source": "/images-opt/sanctuary-entry-1-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Overview #3",
+          "source": "/images-opt/sanctuary-entry-2-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Overview #4",
+          "source": "/images-opt/sanctuary-entry-3-opt.webp"
+        },
+        {
+          "title": "The Sanctuary Concept Art",
+          "source": "/images-opt/sanctuary-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/sanctuary-entry-opt.webp"
+    },
+    {
+      "id": "stains-entry",
+      "title": "Stains and Corruption",
+      "chapters": [
+        -1
+      ],
+      "quote": "Usually strangers don't walk into your room and start hitting you.",
+      "content": "## Overview\n\nStains served as the main antagonists throughout much of the story, driving the heroes forward in their journey to overcome evil and restore balance to the world.\n\n## Details\n\n### Appearance\n\nStains took the form of shadowy creatures of various shapes, sizes, and species—some wielded swords, some walked on two legs, others on four, some flew, and some resembled crystalline beings. Despite these differences, they all shared a defining trait: a shroud of darkness and a glowing, purple, symbol-like pattern across their faces. Each species of Stain had its own distinct abilities used to attack the heroes.\n\nWhen defeated, Stains dropped coins and valuable materials essential to the heroes' progression—ingredients for cooking, crafting tools, and enhancing their [Revelation](#entry:revelations-entry) weapons.\n\nInterestingly, the heroes once noted how Stains emitted sounds similar to whimpering puppies upon death, which made some feel uneasy about slaying them.\n\n### Stories and Origin\n\n#### Chapter 1\n\nIn the first journey, the heroes were tasked with defending the kingdom from the invading Stains. Little was initially known about these creatures, other than their malevolent nature and their relentless aggression toward the heroes and the world.\n\nAt the forefront of this invasion stood the **Stain King**—a larger, more formidable Stain. However, it was eventually revealed that this Stain King was a false monarch, merely a key piece in a fabricated kingdom designed to imprison the true threat: the [Outsider](#entry:outsider-entry). Defeating it ultimately led to the Outsider’s release.\n\n#### Chapter 2\n\n**Origins**\nThe second chapter introduced even more Stain types and powerful boss-class Stains. Among them were four major foes, each guarding a key location:\n\n- **Stain King Elpis** – A two-headed dragon guarding [Star Site: Elpis](#entry:star-site-elpis-entry)\n- **Stain King Chronos** – A mechanical guardian defending [Star Site: Chronos](#entry:star-site-chronos-entry)\n- **Stain King Proto** – A knight-like figure, resembling the first chapter’s Stain King, guarding the [Stronghold of Ruin](#entry:stronghold-of-ruin-entry)\n- **Stain King Chaos** – A chaotic, rodent-like creature guarding [Star Site: Chaos](#entry:star-site-chaos-entry)\n\nThis chapter revealed that the real world, too, was falling victim to the spread of the Stains through an encroaching phenomenon known as the **Ruination**. At its heart lay the _Heart of Ruin_, the ultimate source of this corruption.\n\nAs the heroes ventured deeper, they uncovered scattered stories that illuminated the history and tragedy behind the Stains:\n\n- One tale spoke of an explorer who accidentally unearthed the corruption while seeking treasure.\n- Another followed a scholar researching the Stains, who uncovered a prophecy foretelling the world’s eventual fall.\n- A third told the account of a refugee who witnessed the Ruination render lands uninhabitable and drive entire species to extinction.\n\nThe Stains had rendered almost every land uninhabitable, forcing many to retreat to their final refuge—the [kingdom's capital](#entry:libestal-ancient-entry). But even that haven was becoming increasingly difficult to defend, as the corruption continued to spread.\n\n_Note: Further information on these stories is available in the [Library](#entry:library-entry) Archive._\n\n**The “Cursed” Ones**\nOne particularly chilling discovery was that of the _ruin-touched_—people who had come into contact with the corruption. These individuals lost their sanity; their spirits twisted until they were driven to commit violence against those they once held dear.\n\nOn Day 7, during the final dungeon, the [Heart of Ruin](#entry:heart-of-ruin-entry), five heroes (Fuwawa, Mococo, Bijou, Nerissa, and Shiori) were also cursed. Unlike the stories of old, this time it felt as though an external force, perhaps **The Curse** itself, had seized control the moment they entered the dungeon. They turned against their comrades until the others managed to purify and rescue them.\n\n- [Read \"The Truth of Ruin\"](#text:the-truth-of-ruin)\n- [Read \"Prelude of Ruin\"](#text:prelude-of-ruin)\n- [Read \"Song of Ruin\"](#text:song-of-ruin)\n\n### Current Theories\n\nSeveral theories have been put forward regarding the Stains’ origins. One speculates that the Stains were once Libestans, transformed through corruption. Another suggests a deeper [connection](https://www.reddit.com/r/Hololive/comments/1fbq036/enreco_theory_about_the_stains/) between the Stains and Shiori Nyavellas.\n\nAt the conclusion of the second chapter, an unexpected twist saw Mococo, Fuwawa, Bijou, Nerissa, and Shiori once again turning on their allies and defying Fia’s wishes. Some believe this was due to another curse after their brief encounter with The Curse. Others argue it was a conscious act—an expression of rebellion, a choice they made on their own. As stated within the story itself and by the heroes themselves: **\"Nothing stays pure.\"**\n\n## Trivia\n\n- The corruption served as a plot device for one of Chapter 1’s [major arcs](#entry:the-corruption-entry), where Bijou and others fell under the influence of the Stain Hat, forcing the rest to band together and save them.",
+      "thumbnailSrc": "/images-opt/stains-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Stains Overview #1",
+          "source": "/images-opt/stains-entry-0-opt.webp"
+        },
+        {
+          "title": "Stains Overview #2",
+          "source": "/images-opt/stains-entry-1-opt.webp"
+        },
+        {
+          "title": "Stains Concept Art",
+          "source": "/images-opt/stains-entry-2-opt.webp"
+        },
+        {
+          "title": "Stains in The Chapter 1 Trailer",
+          "source": "/images-opt/stains-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/stains-entry-opt.webp"
+    },
+    {
+      "id": "revelations-entry",
+      "title": "Revelations",
+      "chapters": [
+        -1
+      ],
+      "quote": "The power came to them, like a forgotten memory.",
+      "content": "## Overview\n\nRevelations were special powers and weapons unique to each hero, shaped by their personalities and the stories that defined them before their memories were lost.\n\n## Details\n\n### Preface\n\nDuring the first battle against the Stain King, the heroes manifested mysterious powers upon shouting the word _\"Revelation.\"_ These powers enabled them to repel the great evil. The [King of Libestal](#entry:outsider-entry) proclaimed that these Revelations were the key to saving the world from the Calamity and urged the heroes to lend their strength in doing so.\n\n### Abilities\n\nEach Revelation possessed a unique ability, ranging from blazing projectiles to gem-like bursts. After activation, abilities entered a cooldown phase of one minute before they could be used again.\n\nWith each dungeon conquered, the heroes’ Revelations grew stronger, a change marked visually by increasingly brilliant sparkles surrounding the weapon.\n\nIn Chapter 2, Revelations received a significant upgrade. Not only were their powers enhanced, but they could also be wielded as melee weapons—unlike in Chapter 1, where they functioned purely as activated abilities. Additionally, each Revelation gained a basic [ranged attack](https://www.youtube.com/live/zCWoxMbOZPk?si=xESfWS16pd6-LjUN&t=6606) that could be used repeatedly without cooldown.\n\n### The Heroes and Their Revelations\n\nEach hero wielded a unique Revelation—distinct in both form and function—based on their past selves and forgotten identities:\n\n- **Gawr Gura** – [Oceanic Terror](#entry:oceanic-terror-entry), a trident\n\n- **Mori Calliope** – [Rest In Peace](#entry:rest-in-peace-entry), a scythe\n\n- **Amelia Watson** – [Eye of Wisdom](#entry:eye-of-wisdom-entry), a magnifying glass\n\n- **Takanashi Kiara** – [Burning Phoenix](#entry:burning-phoenix-entry), a fiery sword and shield\n\n- **Ninomae Ina'nis** – [Violet Miasma](#entry:violet-miasma-entry), a book with cryptic runes\n\n- **Nanamoo** – [Winds of Civilization](#entry:winds-of-civilization-entry), a short blade\n\n- **Ceres Fauna** – [Nature's Grace](#entry:natures-grace-entry), a golden apple\n\n- **Hakos Baelz** – [Chaos Stampede](#entry:chaos-stampede-entry), a dice\n\n- **Ouro Kronii** – [Chrono Surge](#entry:chrono-surge-entry), dual clock hands\n\n- **IRyS** – [Light and Darkness](#entry:light-and-darkness-entry), a pair of black and white stars\n\n- **Fuwawa Abyssguard** – [Azure Claws](#entry:azure-claws-entry), sharp blue claws\n\n- **Mococo Abyssguard** – [Fuchsia Claws](#entry:fuchsia-claws-entry), sharp pink claws\n\n- **Koseki Bijou** – [Shining Emotions](#entry:shining-emotions-entry), a gem\n\n- **Nerissa Juliet Ravencroft** – [Resonant Strike](#entry:resonant-strike-entry), a tuning fork\n\n- **Shiori Novella** – [Bookmark of Memories](#entry:bookmark-of-memories-entry), a quill\n\n- **Elizabeth Rose Bloodflame** – [Thorn of Order](#entry:thorn-of-order-entry), a claymore\n\n- **Gonathon G** – [Gremlin Grenade](#entry:gremlin-grenade-entry), a pair of metal fists\n\n- **Cecilia Immergreen** – [Automaton Assault](#entry:automaton-assault-entry), a lance\n\n- **Raora Panthera** – [Purrfect Execution](#entry:purrfect-execution-entry), a mechanical claw",
+      "thumbnailSrc": "/images-opt/revelations-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Revelations' Appearance Overview #1",
+          "source": "/images-opt/revelations-entry-0-opt.webp"
+        },
+        {
+          "title": "Revelations' Power Overview",
+          "source": "/images-opt/revelations-entry-1-opt.webp"
+        },
+        {
+          "title": "Revelations' Appearance Overview #2",
+          "source": "/images-opt/revelations-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/revelations-entry-opt.webp"
+    },
+    {
+      "id": "libestans-entry",
+      "title": "Libestans",
+      "chapters": [
+        -1
+      ],
+      "quote": "Our barrels and pots were overflowing with potato salad.",
+      "content": "## Overview\n\nLibestans were the inhabitants of the [Libestal Kingdom](#entry:libestal-ficta-entry), acting as interactable characters who made the heroes’ journey all the more lively.\n\n## Details\n\nLibestans took the shape of rabbit-like humanoids, with completely white skin, two long ears hanging by each side, and short, somewhat chubby builds—many found them quite adorable. They appeared in both the fabricated kingdom of Libestal and the real, ancient one. Depending on their role, Libestans could generally be divided into two groups.\n\n### Locals\n\nThese Libestans were typically ordinary townsfolk found along roads, tucked away behind castles, or scattered throughout other nondescript areas. Interacting with them often led to snippets of everyday life, sometimes humorous, sometimes revealing small [secrets](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5386) about the kingdom or the overarching story. While they didn’t directly contribute to the main quests, heroes were encouraged to speak with as many as possible to better understand the world they were adventuring through.\n\n> I had the most awful dream. There was potato salad everywhere.\n> And these strange women kept delivering more...\n\n### Key Figures\n\nOther Libestans held more pivotal roles, such as Quest Masters, Shopkeepers, or major figures like the [Libestal Princess](#entry:iphania-entry) and the [Libestal King](#entry:outsider-entry). These individuals provided side quests that rewarded money or artifacts, sold essential items for the journey, or in the case of the more prominent Libestans, handed out quests tied directly to the main storyline.",
+      "thumbnailSrc": "/images-opt/libestans-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Libestans Overview",
+          "source": "/images-opt/libestans-entry-0-opt.webp"
+        },
+        {
+          "title": "A Libestan who had an awful dream about potato salad",
+          "source": "/images-opt/libestans-entry-1-opt.webp"
+        },
+        {
+          "title": "Cryptic message found while speaking to a Libestan",
+          "source": "/images-opt/libestans-entry-2-opt.webp"
+        },
+        {
+          "title": "Princess Iphania's first time meeting the heroes",
+          "source": "/images-opt/libestans-entry-3-opt.webp"
+        },
+        {
+          "title": "The Quest Master, responsible for giving out quests",
+          "source": "/images-opt/libestans-entry-4-opt.webp"
+        },
+        {
+          "title": "A hero buying items from one of the shopkeepers",
+          "source": "/images-opt/libestans-entry-5-opt.webp"
+        },
+        {
+          "title": "Libestans in the Kingdom",
+          "source": "/images-opt/libestans-entry-6-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/libestans-entry-opt.webp"
+    }
+  ],
+  "heroes-storylines": [
+    {
+      "id": "maven-in-blue-entry",
+      "title": "Maven in Blue",
+      "chapters": [
+        1
+      ],
+      "quote": "I entrusted my fate to the maven in blue",
+      "content": "## Overview\n\n**Chapter:** 2\n**Duration:** Day 1 to 8\n\nOne of the more prominent relationships that first bloomed in Chapter 1 was between [Elizabeth](#entry:liz-entry) and [Nerissa](#entry:nerissa-entry). Back then, their bond was a funny, wholesome one—marked by banter (or was it bickering?)—with Nerissa as the tease and Elizabeth as the straight-laced knight. However, in Chapter 2, that relationship deepened, blossoming into something far more complex.\n\n## Details\n\n### How it started\n\nNerissa began the second journey with no memories of the previous one, meaning she didn’t remember who Elizabeth was either. But over time, those memories slowly returned—and with them, the bond they had forged before. This time, it was stronger. The two could feel it: there was something between them.\n\n> If you're giving them out freely, can I have your last name as well?\n\n### How it went\n\nNerissa began to seek Elizabeth’s company [more and more.](https://www.youtube.com/live/vMdhvi8dHN4?si=WWtAxzz_Dz2_YNSr&t=6639) They sparred, exchanged gifts, placed their portraits side by side, and even lived under the same roof. Elizabeth didn’t shy away; she smiled, reciprocated, and seemed to genuinely enjoy Nerissa’s presence. Even calling her a “witch” now had a playful warmth to it.\n\nThey even hung each other’s portraits side by side, as if to symbolize the growing closeness between them.\n\nA closeness that, on the surface, seemed pure—but deep down, perhaps something else was beginning to brew.\n\n> Lady Bloodflame calls me a witch, but has been insistent that I am a good witch... but maybe she's wrong...\n\nOn the fifth day, a misunderstanding unraveled that progress. Nerissa noticed Elizabeth’s portrait was no longer beside hers, and throughout the day, Elizabeth seemed cold, resorting back to calling her “witch” with a sharper, more distant tone. In truth, Elizabeth hadn’t meant anything by it—she was simply being her usual, oblivious self, unaware of how her actions might be interpreted—but to Nerissa, it felt like [a dagger](https://www.youtube.com/live/m5VOeHvSgbI?si=BA_I8E4UbLYaQiSi&t=13972) to the heart.\n\nIt stirred something in her. A painful clarity. Just how important Elizabeth was to her.\n\nEven after the misunderstanding was cleared up, Nerissa’s fixation only deepened. Her tone softened around Elizabeth, her gaze never left her, and her thoughts were consumed by her. She wanted Elizabeth—fully, completely. It was as if a sea of blue had begun closing in on a delicate red flame. A chilling, possessive aura surrounded Nerissa. She would never forget Elizabeth again. She wouldn’t allow herself to.\n\nShe even built a [shrine](https://www.youtube.com/live/MXqotm_8_Hc?si=kdmzoA4BNcV-VPO7&t=231) beneath her house, close to Elizabeth’s home, where mythical music played around the clock—perhaps in hopes of luring the red knight to her side. Even Roa, someone who also had feelings for Elizabeth, sensed the growing danger whenever Nerissa was near.\n\nAs for Elizabeth, her concerns lay elsewhere. On the sixth day, while reading a [book](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060) from Shiori, she came across a passage—one she couldn’t fully trust, yet couldn’t ignore either. It spoke of a moment in the past where she had locked Nerissa behind bars and said cruel things to her, accusing her of having “bewitched” her.\n\n> That is you as Lady Bloodflame.\n> But who were you before Lady Bloodflame?\n\nWhether or not those words were true—though Shiori seemed convinced they were—Elizabeth felt a sharp prick in her heart. If their memories were to return, would those painful words turn out to be real?\n\n- [Read \"The Cell\"](#text:the-cell)\n\n### How it ended\n\nWhat was once a fond bond slowly twisted into obsession. By the final day, Nerissa could think of nothing but Elizabeth. She didn’t just want her affection—she wanted Elizabeth's whole heart, her entire attention. No distractions. No rivals.\n\n> Her lips gently parted and sang out a tune\n> I moved like the tide, being pulled toward the moon\n> Her song sweet as honey, it lowered my defenses\n> and before I knew it, she engulfed all my senses\n> It mattered not what she intended to do\n> I entrusted my fate to the maven in blue\n\nAs Nerissa, alongside four others, turned against Fia and the other heroes, this storyline was left on a cliffhanger—with many eager (and anxious) to see how Elizabeth would react to Nerissa’s chilling descent.\n\n- [Read \"Maven in Blue\"](#text:maven-in-blue)\n\n## Related Stories\n\n- See [\"Fire and Flight (First Story)\"](#entry:fire-and-flight-entry)\n\n## Credits\n\n- Entry thumbnail by [Keisea](https://x.com/keiseeaaa/status/1921816580691726507)",
+      "thumbnailSrc": "/images-opt/maven-in-blue-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Elizabeth and Nerissa friendly spar",
+          "source": "/images-opt/maven-in-blue-entry-0-opt.webp"
+        },
+        {
+          "title": "Elizabeth hangs her portrait next to Nerissa's",
+          "source": "/images-opt/maven-in-blue-entry-1-opt.webp"
+        },
+        {
+          "title": "Nerissa asking Elizabeth about the missing portrait",
+          "source": "/images-opt/maven-in-blue-entry-2-opt.webp"
+        },
+        {
+          "title": "The very sensual and intimate onsen scene",
+          "source": "/images-opt/maven-in-blue-entry-3-opt.webp"
+        },
+        {
+          "title": "Nerissa's shrine to herself under her house",
+          "source": "/images-opt/maven-in-blue-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/maven-in-blue-entry-opt.webp"
+    },
+    {
+      "id": "humble-knight-witch-entry",
+      "title": "The Humble Knight and the Witch",
+      "chapters": [
+        1
+      ],
+      "quote": "If I were to describe our relationship... It was kindness.",
+      "content": "## Overview\n\n**Chapter:** 2\n**Duration:** Day 1 to 7\n\n[Gonathon](#entry:gigi-entry) found himself caught in another love story in Chapter 2—one far more bittersweet than before. This time, it was a tale that explored its characters with greater emotional depth, leaving many debating who was truly in the right… and who wasn’t.\n\n## Details\n\n### How it started\n\nIt all began when [Shiori](#entry:shiori-entry) sweet-talked Gonathon into buying her cooking. As straightforward as it gets—Shiori, knowing how gullible and easy to manipulate Gonathon was, took advantage of the humble knight for monetary gain.\n\nBut the more she saw his sincerity, the more her heart faltered. Eventually, she fell—deeply—for the kindhearted knight.\n\n### How it went\n\nShiori had set her sights on Gonathon since Chapter 1, but back then, she didn’t have a chance—he was already betrothed. This time, with his memories of the previous journey gone, she saw her opportunity to step forward.\n\nShe cooked for him, made a room for him, and slowly—through every act of kindness and vulnerability—she began to hope. The way Gonathon treated her, the way he spoke, it was nothing like the selfish world she was used to. Perhaps, she thought, this was finally her [happy sugar life.](https://www.youtube.com/live/gVAtGMLBJos?si=XSS4XZlabZw1C_5-&t=9960)\n\n> In a world where everyone is greedy and tries to rip money off of you, he is the one person who has not tried such a thing.\n\nBut Gonathon didn’t return her feelings in quite the same way. Always relying on others for decisions, never offering her the affection she hoped for—and as time passed, that distance became more and more apparent.\n\nOn the fourth day, when Shakira set up a blind date between Mordan and Gonathon, Shiori, not wanting their relationship to progress, pretended to drown herself in hopes of distracting the knight. But instead of rushing to her side… he stayed [silent.](https://www.youtube.com/live/l9VpZ0kmpeY?si=CU6VwaEVdoWmBgHL&t=7527) It was Mordan who saved her.\n\nLater, when she asked Gonathon if he wanted to move forward in their relationship, he hesitated—unsure, needing even his Queen, Tam, to weigh in and \"monitor\" their relationship. It was disheartening.\n\nMore and more, his weaknesses showed. He ignored her, didn’t listen, and never gave her the attention she so deeply yearned for. He didn’t even allow her to explain when he misunderstood a situation—one where Shiori was merely trying to fulfill his request—as her having an affair with someone else. In other words, he [fumbled.](https://www.youtube.com/live/l9VpZ0kmpeY?si=dpxee3gvUJCNCkMX&t=12165)\n\n> You see? You see what I have to put up with?\n> And I'm the evil one?\n\nMaybe it was because someone else already held that space in his heart. Maybe this relationship was never meant to be.\n\nBut hope slowly dwindled, sadness gave way to disappointment, and disappointment hardened into anger. Rejecting her feelings was one thing, but wounding her pride—accusing her of infidelity, no less—was utterly unacceptable.\n\nSeeing it all fall apart—despite how much she had given, despite all her hope—Shiori made the painful decision to erase all memories of him. Perhaps to protect herself. Perhaps to protect him. It hurt them both, but they respected each other’s choice and parted ways.\n\n### How it ended\n\nWith her memories gone, and Gonathon realizing what she’d done, the two sat together for one last conversation atop a waterfall. Gonathon apologized—realizing the hurt he caused—but would anything have changed, even if he knew? That, no one could say for [certain.](https://www.youtube.com/live/mb91g7vQSnA?si=UZkt8f46vWLuP6Do&t=12257)\n\n> I wish I loved you the way I wanted to.\n\nShiori, even without the memories, could still feel something. Something warm. Something real.\n\n> I can not recall... But I can feel it.\n\nAnd with that, the two went their separate ways.\n\nYet with Shiori’s heel turn alongside others at the end of Chapter 2, this story may not be over, as many now await Gonathon’s response to her unexpected betrayal.\n\nThe knight, after all, had made a promise—a seemingly harmless, heartfelt vow that, in light of everything that followed, now felt almost binding. A promise to this seemingly innocent witch.\n\n> I want you to pinky promise me,\n> that you will follow my orders, no matter what.\n\n## Related Stories\n\n- See [\"A Knight's Tale (First Story)\"](#entry:a-knights-tale-entry)\n\n## Credits\n\n- Entry thumbnail by [Daaku](https://x.com/koizumi_arata/status/1922439809542316098/)",
+      "thumbnailSrc": "/images-opt/humble-knight-witch-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Gonathon offering Shiori to live together",
+          "source": "/images-opt/humble-knight-witch-entry-0-opt.webp"
+        },
+        {
+          "title": "Shiori drowning to disrupt Gonathon's blind date",
+          "source": "/images-opt/humble-knight-witch-entry-1-opt.webp"
+        },
+        {
+          "title": "Gonathon stumbles upon Shiori's \"affair\"",
+          "source": "/images-opt/humble-knight-witch-entry-2-opt.webp"
+        },
+        {
+          "title": "Shiori's letter to Gonathon before erasing her memories of him",
+          "source": "/images-opt/humble-knight-witch-entry-3-opt.webp"
+        },
+        {
+          "title": "Shiori, having erased her memories, chatting with Gonathon",
+          "source": "/images-opt/humble-knight-witch-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/humble-knight-witch-entry-opt.webp"
+    },
+    {
+      "id": "hot-pink-one-collapse-entry",
+      "title": "The Hot Pink One's Collapsing Relationship",
+      "chapters": [
+        1
+      ],
+      "quote": "I feel something within me... Perhaps, the gift of life.",
+      "content": "## Overview\n\n**Chapter:** 2\n**Duration:** Day 5 to 8\n\n[The Hot Pink One](#entry:irys-entry) had long been known for her tangled affairs with circles of women. Once again, she found herself at the center of complicated romantic drama in Chapter 2. However, unlike the more lighthearted chaos of Chapter 1, this time the drama would spiral into something no one saw coming.\n\n## Details\n\n### How it started\n\nAt the beginning of the second journey, the Hot Pink One was once again engaged to her eternal consort, NinoIna. But true to her playful nature from the previous chapter, she quickly found herself in yet another affectionate entanglement—this time with [Tam Gandr](#entry:kronii-entry).\n\nAt first, the trio embraced a polygamous dynamic. [NinoIna](#entry:ina-entry) loved the Hot Pink One, and the Hot Pink One and Tam exchanged witty banter and pet names—“Tammy” and “Pinky.” It was going well… for a few days.\n\n### How it went\n\nAround Day 5, the Hot Pink One discovered that Tam had been secretly involved in a separate “affair” with another woman, **Roa Pandora**. To save face as Queen, Tam begged her not to reveal the news, promising to do _anything_ in return.\n\nSeizing the opportunity, the Hot Pink One ordered Tam to serve as her maid—and proceeded to humiliate her in front of others: her knight, her friends, everyone. Their relationship began to visibly crack.\n\nTo twist the knife further, the Hot Pink One revealed that she was pregnant—with Ina’s child. Tam was stunned and heartbroken, but she kept her emotions bottled up, trying desperately to keep the relationship intact, even as the Pink One continued to exploit her.\n\nBy Day 7, Tam and others held a **gender reveal party** for the unborn child. Still bitter, Tam tried to keep it together, until Pinky asked her to be the child’s **godfather**. That was the [last straw.](https://www.youtube.com/live/CUh9eciJil4?t=7701)\n\n> You sick… you sicken me. You sick woman.\n> Back off, you monster!...Can you believe the audacity of that woman.\n\nTam finally snapped. Tired of being treated like a “hobby,” she cut ties with the Hot Pink One completely. In a bitter act of revenge, she turned her attention toward **Ina**, attempting to steal her away.\n\nSurprisingly, it worked. The mounting pressure—of a child, of the drama—caused Ina’s feelings to waver. At one point, she even considered Tam’s proposition.\n\nEverything began to fall apart for the Hot Pink One.\n\n### How it ended\n\nIn the end, as all the drama came crashing down, the Hot Pink One was left alone. Tam insulted her every time they met, refusing to have anything to do with her. And Ina?\n\nShe left a letter—saying it had all become too much. That she needed to reflect, to repent. And so she left, embarking on a journey of enlightenment.\n\nThe Hot Pink One stood in the ruins of her own making.\n\n## Credits\n\n- Entry thumbnail by [underdatv](https://x.com/underdatv/status/1921053079169912913/)",
+      "thumbnailSrc": "/images-opt/hot-pink-one-collapse-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Tam Gandr being humiliated by the Hot Pink One",
+          "source": "/images-opt/hot-pink-one-collapse-entry-0-opt.webp"
+        },
+        {
+          "title": "Oh yeah, she tried to commit sudoku at one point",
+          "source": "/images-opt/hot-pink-one-collapse-entry-1-opt.webp"
+        },
+        {
+          "title": "The Hot Pink's gender reveal party",
+          "source": "/images-opt/hot-pink-one-collapse-entry-2-opt.webp"
+        },
+        {
+          "title": "The Hot Pink One reading Ina's last letter to her",
+          "source": "/images-opt/hot-pink-one-collapse-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/hot-pink-one-collapse-entry-opt.webp"
+    },
+    {
+      "id": "oh-princess-entry",
+      "title": "Oh Princess",
+      "chapters": [
+        1
+      ],
+      "quote": "I shall fight for your honour, your knight through and through.",
+      "content": "## Overview\n\n**Chapter:** 2\n**Duration:** Day 1 to 8\n\n[Cecilia Immerkind,](#entry:cecilia-entry) in her previous journey during the first chapter, served as a knight to a \"princess,\" Princess Koseki Bijou. In this second journey, she once again pledged herself to a princess. But this time, it wasn't out of manipulation or self-interest. This time, it was driven by something far more pure and powerful: love.\n\n## Details\n\n### How it started\n\nAt her first meeting with [Princess Iphania,](#entry:iphania-entry) the ancient-era princess of Libestal, Cecilia was [awestruck.](https://www.youtube.com/watch?v=cyLsX20esBE&t=3677s) “She’s so cute,” “She’s so pretty,” were the thoughts that echoed through the green-haired knight’s mind the moment she laid eyes on the rabbit-like maiden. From that moment on, she swore to herself—and to the princess—that she would be her knight, her “Shining Star.” A loyal protector, and at the same time, a maiden in love.\n\n> Princess! I bow to you.\n> Maybe if I can prove my worth, I can be with you forever!\n\n### How it went\n\nEvery waking moment for Cecilia revolved around Iphania. Every quest, every mission, every task was done with duty and devotion, all in hopes of winning the maiden’s heart. Though her affection occasionally veered into [obsession](https://www.youtube.com/live/Icdii90_vSA?si=Jyrns6hejyLxwP1j&t=18262) (such as sneaking into Iphania’s room to leave behind love letters… and sniffing her still-warm bed), her feelings remained sincere.\n\nFreakiness aside, things seemed to be looking up for the green knight. Never before had she felt such purpose, never had her life felt so meaningful.\n\nBut like any love story, obstacles soon emerged. By the third day of her pursuit, Cecilia noticed that Iphania kept bringing up someone else: the [Outlander](#entry:outsider-entry). Not only did she speak of him often, she did so with admiration and warmth. This shook Cecilia to her core. Her heart [fractured,](https://www.youtube.com/live/Icdii90_vSA?si=ExxsS-YVaBvPL6Uo&t=5066) and despair nearly pushed her to give up.\n\nFortunately, her comrades, mainly [Gonathon,](#entry:gigi-entry) were there to support her, even if their “support” involved spinning a bizarre theory that Iphania and the Outlander might be siblings. It wasn’t true, of course, but it bought Cecilia a sliver of hope.\n\nAs time passed, she gathered the courage to confess. And she did it in the most romantic way she knew: through a heartfelt [serenade.](https://www.youtube.com/live/I75IWfMGVgM?t=7144) As always, the Princess gave no direct response—but even then, Cecilia’s resolve did not waver.\n\nSo firm was her love that she was willing to stay behind with Iphania forever, letting her friends continue without her. So emotionally driven that anyone who dared to badmouth Iphania, even [unintentionally,](https://www.youtube.com/live/48HSA_GcOZ0?si=5hds-8Kg9slqsnyV&t=6918) would face her swift judgment. So steadfast was her devotion that when someone else—specifically [Peasant the Bae](#entry:bae-entry)—confessed their love to her, Cecilia gently turned them down.\n\nHer heart, after all, only beat for one. Even if the Princess never returned her feelings, Cecilia promised she would protect her all the same.\n\n> Oh Princess, I would do anything for you.\n> May your future shine anew.\n\n- [Read \"Princess~\"](#text:princess~)\n- [Read \"Heart\"](#text:heart)\n- [Read \"Loyal\"](#text:loyal)\n- [Read \"Protect\"](#text:protect)\n\n### How it ended\n\nOn the final day, as the kingdom prepared to celebrate their victory over the Ruination, tragedy struck.\n\nIphania was murdered. And Cecilia was [devastated.](https://www.youtube.com/live/LyufI3aiCB0?si=GTfSsdxPIM8QPDg9&t=6682)\n\nBut shortly after, the truth was revealed—Iphania’s soul had not vanished. It now resided as someone known as Fia, the plushie-bodied guide who had led them through their entire journey. She continued to exist, even if in a different form.\n\nKnowing this, Cecilia’s vow remained unchanged. Even if her princess now lived inside a small, stuffed vessel, as long as her soul endured, the green knight would protect her.\n\nThus ended this chapter of a love story.\nWill it continue? Only time will tell.\n\n## Related Stories\n\n- See [\"The In-bread Incident\"](#entry:inbread-entry)\n\n## Credits\n\n- Entry thumbnail by [eile_winters](https://x.com/eule_winters/status/1919969659094499795)",
+      "thumbnailSrc": "/images-opt/oh-princess-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Cecilia's first time meeting Iphania",
+          "source": "/images-opt/oh-princess-entry-0-opt.webp"
+        },
+        {
+          "title": "Cecilia being freaky on Iphania's bed",
+          "source": "/images-opt/oh-princess-entry-1-opt.webp"
+        },
+        {
+          "title": "Gonathon and Bijou comforting Cecilia",
+          "source": "/images-opt/oh-princess-entry-2-opt.webp"
+        },
+        {
+          "title": "Cecilia's serenade for the Princess",
+          "source": "/images-opt/oh-princess-entry-3-opt.webp"
+        },
+        {
+          "title": "Cecilia upon learning Iphania's death",
+          "source": "/images-opt/oh-princess-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/oh-princess-entry-opt.webp"
+    },
+    {
+      "id": "custody-dispute-entry",
+      "title": "Custody Dispute",
+      "chapters": [
+        1
+      ],
+      "quote": "Someone such as you does not deserve to be this child's parent!",
+      "content": "## Overview\n\n**Chapter:** Chapter 2\n**Duration:** Day 5\n\n[Peasant the Bae](#entry:bae-entry) had countless moments that cemented her as someone with perhaps the most remarkable character growth in the kingdom. One such moment was the custody dispute with [Koseki Bijou](#entry:bijou-entry)—over a child, with one acting as the adopted parent, and the other being the biological mother who had left it behind.\n\n## Details\n\n### How it started\n\nAt the end of the first chapter, Bijou left Shiori with a child—represented as a small Stain—after breaking up with her. According to Bae, she later found the child abandoned and alone, prompting the kindhearted peasant to take it under her care. (“Abandoned” meaning: Gonathon gave her a Stain Hat as a [gift.](https://www.youtube.com/live/Lp7GyRVbz1c?si=fBcocEwwHqJ2IEX7&t=637))\n\nBijou, now seeking to mend her relationship with Shiori, tried to persuade Bae to return the child, recognizing it as her own. Bae refused, and the matter escalated to a “court” proceeding, with Mordon presiding as the jury.\n\n> The moment I picked her up from the streets and signed the adoption paper, you have no custody over this child!\n\n### How it went\n\nThe court case unfolded as expected: chaotic. Bae stood firmly by her beliefs, having grown deeply attached to the child—to the point she saw it as her own. She argued that Bijou was neglectful and irresponsible, and that the child deserved a loving, stable home.\n\nBijou, lacking a solid rebuttal, insisted she only wanted the child because she thought it would make Shiori happy. The catch? Shiori never wanted the child to begin with—she was merely dragged along because Bijou wanted her there.\n\n[The Child Dispute](#embed:https://www.youtube.com/live/L7rBGepFrXA?si=JfSyK5TYHLScer4T&t=11583)\n\nThe court session dragged on until the judge, overwhelmed with a headache, finally decided to reach a conclusion.\n\n### How it ended\n\nThanks to Bae’s unwavering dedication and genuine care for the child, the case ended in her favor. Bae was granted full custody, while Bijou received visitation rights.\n\n## Credits\n\n- Entry thumbnail by [bunbbun1](https://x.com/bunbbun1/status/1920774925633118555)",
+      "thumbnailSrc": "/images-opt/custody-dispute-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Bijou confronting Bae about her child",
+          "source": "/images-opt/custody-dispute-entry-0-opt.webp"
+        },
+        {
+          "title": "The Child Dispute Court Case",
+          "source": "/images-opt/custody-dispute-entry-1-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/custody-dispute-entry-opt.webp"
+    },
+    {
+      "id": "fluffy-cafe-entry",
+      "title": "The Fluffy One's Cafe",
+      "chapters": [
+        1
+      ],
+      "quote": "Oh my goodness, you really enjoy the food I make? Bau bau!",
+      "content": "## Overview\n\n**Chapter:** Chapter 2\n**Duration:** Day 4 to 7\n\n[Fuwawa](#entry:fuwawa-entry) was a humble, hard-working chef who dreamed of bringing smiles to others through delicious food. Though her dream began with hardship and quiet disappointment, it blossomed into a rare, heartwarming story—arguably the only one of its kind in the entire kingdom.\n\n## Details\n\n### How it started\n\nFrom the very beginning, Fuwawa chose the path of a chef. Her goal was clear: to build a small café in the center of town, where passersby could stop in and enjoy warm, lovingly prepared meals. With that vision in mind, she threw herself into the work—gathering ingredients, cooking dishes, and constructing the café all by herself.\n\nHer determination was unwavering, but so intense that she became detached from the rest of the kingdom’s chaos. For better or worse, she kept her distance from the shenanigans of others, and as a result, her journey felt somewhat lonely.\n\n### How it went\n\nOn Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it [Moco-chan](https://www.youtube.com/live/geV0HyX5LUA?si=MON2jav5merqyE4a&t=3907).\n\n> Moco-chan, ehehehe.\n> We're going to stay together forever, right?\n\nIt was adorable. It kept her company. And she loved it with all her heart.\n\nBut the joy didn’t last. Not long after, Moco-chan vanished without a trace. Fuwawa searched high and low, but the little chicken was gone.\n\nHeartbroken, she looked back at her café—silent, empty, and still without a single customer after four days.\n\nHer heart sank. Disappointment crept in.\n\nShe began to lose hope.\n\n> I became a stronger adventurer, but I'm not sure if I'm getting closer to my dream...\n\nJust as despair was settling in, **Kiara** noticed the struggling chef. Without hesitation, the kindhearted phoenix bought every dish Fuwawa had to offer, giving her the first real boost she needed.\n\nThat single act of kindness set off a chain reaction. Word spread. One customer turned into two, then many more. Fuwawa’s food was finally getting the love it deserved.\n\nUpon realizing what was happening, Fuwawa was [overjoyed.](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546)\n\n### How it ended\n\nBy Day 7, Fuwawa’s café was thriving. Her food had become so beloved that she was even commissioned to prepare meals for a kingdom-wide party.\n\nEven though the event itself turned out chaotic, her dream had been fulfilled.\n\nAnd she was happy.\n\n## Credits\n\n- Entry thumbnail by [dreamplanes256](https://x.com/dreamplanes256/status/1922931113174917132)",
+      "thumbnailSrc": "/images-opt/fluffy-cafe-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Fuwawa's chicken companion, Moco-chan",
+          "source": "/images-opt/fluffy-cafe-entry-0-opt.webp"
+        },
+        {
+          "title": "Fuwawa's sad diary entry about her dream",
+          "source": "/images-opt/fluffy-cafe-entry-1-opt.webp"
+        },
+        {
+          "title": "Shakira buying out a bunch of Fuwawa's dishes",
+          "source": "/images-opt/fluffy-cafe-entry-2-opt.webp"
+        },
+        {
+          "title": "Fuwawa learning her dream has come true",
+          "source": "/images-opt/fluffy-cafe-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/fluffy-cafe-entry-opt.webp"
+    },
+    {
+      "id": "inbread-entry",
+      "title": "The In-bread Incident",
+      "chapters": [
+        1
+      ],
+      "quote": "Can you feel our buns rubbing against you.",
+      "content": "## Overview\n\n**Chapter:** Chapter 2\n**Duration:** Day 3\n\nPerhaps the strangest storyline of all was the “In-bread Incident,” more infamously known as _“The Libestal Incest Situation Is Crazy.”_ A theory so questionable and convoluted, it made the entire kingdom erupt—and gave everyone a collective headache just trying to comprehend it.\n\n## Details\n\n### How it started\n\nIt all began when Shakira asked Gonathon to help her pursue Immerkind—her _cousin_. Unfortunately for her, Immerkind was already in love with the Princess. But upon learning that the Princess only had eyes for the Outlander, Immerkind was left devastated.\n\nIn an attempt to console her, Gonathon offered a wild theory:\n\n> What if… they're siblings?\n> She's... her brother.\n\n### How it went\n\nThe rumor spread fast—Nerissa, Tam, and countless other curious ears quickly caught wind of it. Among them was Peasant the Bae, who took the theory to a whole new level, concluding that _everyone_ in the kingdom must be inbred… because, according to him, everyone [looked alike.](https://youtu.be/Lp7GyRVbz1c?t=7940)\n\nFrom there, it escalated.\n\nThe Hot Pink One, Bijou, Roa—they all joined in on the discussion. The theory turned into a cult. The cult started recruiting. And suddenly, a joke theory spiraled into a kingdom-wide conspiracy movement.\n\n### How it ended\n\nIt… ended.\nSomehow.\n\nWhat even _was_ this storyline, man?\n\n## Related Stories\n\n- See [\"Oh Princess\"](#entry:oh-princess-entry)\n\n## Credits\n\n- Entry thumbnail by [bunbbun1](https://x.com/bunbbun1/status/1919963091464249648)",
+      "thumbnailSrc": "/images-opt/inbread-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "\"What if... they're siblings?\" Gonathon exclaimed",
+          "source": "/images-opt/inbread-entry-0-opt.webp"
+        },
+        {
+          "title": "The founding of the In-bread cult",
+          "source": "/images-opt/inbread-entry-1-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/inbread-entry-opt.webp"
+    },
+    {
+      "id": "the-corruption-entry",
+      "title": "The Corruption",
+      "chapters": [
+        0
+      ],
+      "quote": "The corrupted shall take over these lands.",
+      "content": "## Overview\n\n**Chapter:** 1\n**Duration:** Day 7 to 8\n\nThe final major saga of Chapter 1—and a fitting climax—was the battle against the Corruption. Twists and turns, emotional highs and lows, and an unexpectedly deep and gripping story elevated this wild journey beyond mere silliness, turning it into something far more compelling.\n\n## Details\n\n### How it started\n\nIt all began when [Koseki Bijou](#entry:bijou-entry) spent tens of thousands of coins trying to obtain a hat, eventually acquiring the **Stain Hat**. But this wasn’t just any cosmetic item—it was sentient, a fragment of Corruption that slowly began to possess its wearer, twisting their thoughts toward chaos and destruction.\n\n### How it went\n\nAt first, Bijou seemed fine. But by the sixth day, signs of corruption began to surface—wasted lands, cryptic messages, griefing, and crop destruction. Many tried to stop her, but could do little more than watch as she laid waste to the realm.\n\nBy Day 7, Bijou was fully corrupted. Worse still, she began spreading the Corruption by gifting hats to others.\n\n> FIRE FIRE, LIGHT THE FIRE!\n> MAY THE LANDS BURN!\n\nShe ordered Mococo to slaughter innocent [chickens.](https://www.youtube.com/live/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974) Then, with power growing, she passed hats to Fuwawa, Nerissa, and Shiori. Darkness and gloom crept over the kingdom. The corrupted ruled one side, while those still untouched tried desperately to resist, searching for a way to end the madness.\n\nIt became a battle of former friends, allies, and family. Mococo was [heartbroken](https://www.youtube.com/live/6TXwZjXEoxk?si=xxB_sQ9KhDy7UMnv&t=1608) to see Elizabeth glaring at her with anger and disappointment. Ina and Raora were crushed to witness Bijou—Ina's sister, Raora's daughter—descend into evil.\n\nTensions rose. Trust was broken.\n\n> You wish to call me sister now? I watched you corrupt the lands!\n\nBut then came hope: the **Essence of Empathy**—a potential cure that Ina vaguely remembered, and one that Cecilia had more concrete knowledge of. With her guidance, and through the combined efforts of music, clever planning, and a talented tavern owner who managed to brew the potion, they set the [stage.](https://www.youtube.com/live/_urPfTQnLes?si=ldRQcihdPK3M_hZn&t=12403) Using a strategic performance, they lured the corrupted in, one by one, until all but one were cured.\n\nBijou.\n\nShe knew what the drink was. And with her allies gone, she had no one left. But instead of surrendering, she issued a challenge to Ina:\n\n> If I win, you would have to wear this hat.\n> If you win... I would drink whatever this is.\n\n### How it ended\n\nThe duel commenced—sister versus sister. A fierce clash. But with only half a heart remaining, Ina emerged victorious.\n\nStanding atop her Moai statue, surrounded by friends, family, and the uncorrupted, Bijou finally relented. She drank the Essence of Empathy—and the Corruption was [no more.](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=12247)\n\n## Credits\n\n- Entry thumbnail by [captainskelefun](https://x.com/captainskelefun/status/1900878033872986249)",
+      "thumbnailSrc": "/images-opt/the-corruption-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Bijou walking across the corrupted lands",
+          "source": "/images-opt/the-corruption-entry-0-opt.webp"
+        },
+        {
+          "title": "Mococo pleading for Elizabeth's help",
+          "source": "/images-opt/the-corruption-entry-1-opt.webp"
+        },
+        {
+          "title": "Fuwawa, now corrupted, slaying her own dear chickens",
+          "source": "/images-opt/the-corruption-entry-2-opt.webp"
+        },
+        {
+          "title": "Ina's battle against her sister",
+          "source": "/images-opt/the-corruption-entry-3-opt.webp"
+        },
+        {
+          "title": "Bijou drinking the cure, ending the Corruption",
+          "source": "/images-opt/the-corruption-entry-4-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/the-corruption-entry-opt.webp"
+    },
+    {
+      "id": "a-knights-tale-entry",
+      "title": "A Knight's Tale",
+      "chapters": [
+        0
+      ],
+      "quote": "For he knows a selfish request such as his, could never be true.",
+      "content": "## Overview\n\n**Chapter:** Chapter 1\n**Duration:** Day 6 to 8\n\nOne of the most talked-about stories in the first chapter was the love story between [Gonathon](#entry:gigi-entry) and [Amelia Watson](#entry:ame-entry). It left an imprint on this enigmatic journey that lasted well beyond its time.\n\n## Details\n\n### How it started\n\nTheir relationship began on shaky ground. Amelia was convinced the King was evil and plotting an assassination, while Gonathon, ever loyal, stood firmly by the King’s side. This [put them at odds](https://www.youtube.com/live/y9KKa_k2VTU?t=5967), with Gonathon determined to bring Amelia to justice.\n\nHowever, through moments of understanding and generous gifts of diamonds, the two grew close and eventually entered into matrimony on the second day.\n\n### How it went\n\nGonathon proved to be a devoted husband, doing everything he could to keep Amelia, his “Pearl,” safe and happy. Amelia, of course, remained thoroughly herself. The humble knight would fetch her money and rush to her side at the slightest hint of danger, and there was no shortage of “danger” headed her way. Gura, Bijou, Nerissa, and most notably the Hot Pink One, frequently teased the knight by pretending to steal his wife. Though in the Hot Pink One’s case, she wasn’t pretending.\n\nHe was a humble and just knight through and through. He helped others, showed kindness at every turn, and his love for his wife was purer than anything.\n\nTheir tale seemed destined for a happy ending, until the sixth day, when Amelia regained her past memories after conquering the Ancient Sewers Dungeon—and forgot everything about Gonathon.\n\n[And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=5989)\n\nHeartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.\n\n- [Read \"A Knight's Tale\"](#text:a-knights-tale)\n\n### How it ended\n\nOn the final day, as the battle against the Corruption loomed, Amelia—guided by others and the faint imprint Gonathon had left in her heart—began desperately searching for what she had lost. A “diamond” buried deep within her, someone dear and nearly remembered.\n\nThis desperation led her into the arms of the Hot Pink One, who [tried to deceive her](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=8758) into thinking _she_ was the one Amelia had been searching for. The scene sparked tension and left many spectators displeased. Thankfully, Amelia saw through the ruse, rejected the Hot Pink One’s hand, and followed her heart.\n\n> So, he pens this story, in hopes that one day, it will be read.\n> And the pearl will remember.\n> And she will want.\n> And she will wish.\n\nIn the end, with unwavering loyalty and love, Amelia and Gonathon reunited at the kingdom’s onsen. There, the two [confessed their feelings](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=10312) once more. And although her memories hadn't returned, Amelia chose to take the knight’s hand—ready to forge new ones together.\n\n- [Read \"A Knight's Wish\"](#text:a-knights-wish)\n\n## Related Stories\n\n- See [\"The Humble Knight and the Witch (Continuation)\"](#entry:humble-knight-witch-entry)\n\n## Credits\n\n- Entry thumbnail by [yomosaka](https://x.com/yomosaka/status/1832146121898221666)",
+      "thumbnailSrc": "/images-opt/a-knights-tale-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "A gift of 64 diamonds, Gonathon was then married to Jyon Watson",
+          "source": "/images-opt/a-knights-tale-entry-0-opt.webp"
+        },
+        {
+          "title": "Amelia meeting Gonathon after regaining her memories",
+          "source": "/images-opt/a-knights-tale-entry-1-opt.webp"
+        },
+        {
+          "title": "The Hot Pink One's attempt to steal Amelia",
+          "source": "/images-opt/a-knights-tale-entry-2-opt.webp"
+        },
+        {
+          "title": "Gonathon and Amelia's happy ending",
+          "source": "/images-opt/a-knights-tale-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/a-knights-tale-entry-opt.webp"
+    },
+    {
+      "id": "fire-and-flight-entry",
+      "title": "Fire and Flight",
+      "chapters": [
+        0
+      ],
+      "quote": "It's fine... She was but a witch after all!",
+      "content": "## Overview\n\n**Chapter:** 1\n**Duration:** Day 2 to 8\n\nOut of the many questionable relationships in Chapter 1, the one between [Elizabeth](#entry:liz-entry) and [Nerissa](#entry:nerissa-entry) stood out—not only for its consistency amidst twists and turns, but also for the emotional longevity it promised. What began here was only the beginning of a story expected to last until the journey’s end.\n\n## Details\n\n### How it started\n\nElizabeth struggled to adjust to her new life in Libestal. The confusing mechanics, the chaotic personalities surrounding her, and the sheer absurdity of it all overwhelmed the scarlet knight—especially for someone whose only goal was to fulfill her duty and serve her king. Everything made her head spin.\n\nBut amid the madness, one person stood out: Nerissa Ravencroft. What began as a simple, friendly conversation quickly sparked the beginnings of something more—a connection Elizabeth didn’t expect but couldn’t deny.\n\n### How it went\n\nTheir dynamic couldn’t have been more distinct. Elizabeth played the straight-laced, logical one, while Nerissa thrived as the mischievous wildcard. At first, Elizabeth couldn’t comprehend why Nerissa’s presence made her heart race, her cheeks flush a [strawberry shade,](https://www.youtube.com/live/oVguNTPnDww?t=820) and her words stumble. Desperate to rationalize it, she labeled Nerissa a \"witch\"—one who’d hexed her with some kind of spell.\n\nNerissa, of course, delighted in every flustered reaction. Every chance she got, she teased Elizabeth, dropping charming compliments, making sly remarks, doing anything to bring out that iconic red hue on her face.\n\n> I see, so you just want to look at me, huh~\n> Y-yes, to monitor you. Well of course you have a nice face, but that’s because you used your witch powers!\n\nNo matter how hard Elizabeth tried to deny it, her heart always betrayed her. On the fourth day, during the infamous [Lottery Fiasco](#entry:lottery-fiasco-entry), when Nerissa and Gonathon were trying to get information about the fugitive Mococo, Gonathon jokingly asked Nerissa to say she hated Elizabeth.\n\nThose words shattered Elizabeth’s composure. The mere thought of being hated by Nerissa caused her to completely lose her usual knightly demeanor, leading to quite the emotional outburst. Later, Nerissa clarified that she hadn’t meant it, and the [misunderstanding](https://www.youtube.com/live/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&start=1127) was resolved.\n\nFrom there, the bond between them only deepened—or rather, the antics intensified. Nerissa’s teasing became even more relentless. At one point, she even claimed she was pregnant with Elizabeth’s child just to get a reaction out of her.\n\nBut no matter how many headaches the blue menace caused, Elizabeth cared deeply for her. That much was clear—even in the most dangerous of situations.\n\n### How it ended\n\nOn the final day of Chapter 1, when the corruption was at its peak, Nerissa succumbed to it.\n\nBut instead of pushing her away, Elizabeth—despite her deep hatred for the corruption and the danger it posed—remained calm. She took Nerissa’s hand, and [saved her.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12224)\n\n> Hello there, maiden.\n> You hear that beautiful music? Join and listen even more.\n\nBefore this took place, Elizabeth and Nerissa had a heated argument. Nerissa, ever skeptical and sharp-eyed, tried to convince the scarlet knight that the King, the very one Elizabeth had sworn loyalty to, might not be as righteous as he seemed. That he could be manipulating everyone from the shadows.\n\nTo Elizabeth, this was nothing short of [blasphemy.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=6832) Her faith in the King was unwavering, and the idea that he could be anything but noble infuriated her. She nearly came to resent Nerissa for daring to say such things.\n\nYet, when the time came—despite the anger, despite the doubts, despite the emotional distance that argument had carved between them—Elizabeth saved her anyway.\n\nMaybe it was simply her duty as a knight. Maybe she was just saving someone in need. But deep down, it meant more—it always did. To save the one who stirred such feelings in her, to protect someone who tugged at her heart in ways she couldn't explain, meant everything.\n\nThis was the beginning of something special—a bond destined to carry on through the chapters ahead.\n\n## Related Stories\n\n- See [\"Maven in Blue (Continuation)\"](#entry:maven-in-blue-entry)\n\n## Credits\n\n- Entry thumbnail by [Elisbian](https://x.com/Elisbian_/status/1866736410826576342)",
+      "thumbnailSrc": "/images-opt/fire-and-flight-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Elizabeth and Nerissa role-playing as Romeo and Juliet",
+          "source": "/images-opt/fire-and-flight-entry-0-opt.webp"
+        },
+        {
+          "title": "Help, step-knight, I'm stuck in a hole",
+          "source": "/images-opt/fire-and-flight-entry-1-opt.webp"
+        },
+        {
+          "title": "Elizabeth saving Nerissa from the Corruption",
+          "source": "/images-opt/fire-and-flight-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/fire-and-flight-entry-opt.webp"
+    },
+    {
+      "id": "lottery-fiasco-entry",
+      "title": "Lottery Fiasco",
+      "chapters": [
+        0
+      ],
+      "quote": "I have to go, there's a dog chasing me.",
+      "content": "## Overview\n\n**Chapter:** 1\n**Duration:** Day 4 to 5\n\nA dog with a gambling addiction, an alarming thirst for money, a willingness to commit violence, sharp pink claws, and a lottery business that caught her in the wrong mood. Not the greatest combo, huh?\n\n## Details\n\n### How it started\n\nAmong FaunaMart’s once most loyal customers was [Mococo](#entry:mococo-entry). It began with just a few tickets… then spiraled into dozens… then hundreds. She became hopelessly addicted to gambling. Every waking moment of the fuzzy one’s life revolved around two things: lottery and money.\n\nOn Day 4, as she went through her usual morning routine—buying an absurd number of tickets and burning through her savings—she encountered an unexpected face. Fauna wasn’t at the checkout like usual. Instead, standing there was [Nerissa](#entry:nerissa-entry), the store’s new (and only) employee. And with that, the stage for chaos was set.\n\n### How it went\n\nMococo—whether she forgot, was confused, or more likely, was trying to take advantage of the newbie—asked Nerissa to hand over her “winnings,” even though she hadn’t won anything in the last drawing. Nerissa, unsure and cautious, refused.\n\nThat’s when the tantrum started.\n\n> You can give money to others but not to Mococo, hoeh?!\n\nMococo challenged Nerissa to a duel. And not only did she win, she also demanded money from Nerissa as a consequence—something that was never agreed upon in the duel to begin with, but whatever.\n\nShe didn’t ask kindly—oh no, no. Violence was the option. She chased the poor maiden around the kingdom, doing literal laps, all while brandishing her sharp pink claws and shouting, [“GIVE ME YOUR MONEY!”](https://www.youtube.com/live/5swK4fB2smo?t=1251)\n\nNerissa, perhaps too kind (or too scared), gave Mococo **3,000 coins**, which Mococo immediately spent—on lottery tickets again.\n\nNow, 3,000 coins at 10 coins per ticket should get you 300 tickets. But Nerissa, being mathematically challenged, somehow handed her **680**. Mococo noticed the mistake right away… but said nothing. Because obviously, why would she?\n\n> Nerissa's math is wrong!\n> I'm gonna be rich, YEAHHH!\n\nLater, Nerissa realized her error and tried to apologize, offering to fix things. But Mococo wasn’t having any of it. She wanted her 680 tickets, end of story. Fearing for her safety, Nerissa sought protection, asking Gonathon and others to help, labeling Mococo a criminal.\n\nA chase ensued. Gonathon and the others tried to talk things through, but Mococo, panicked and fearing retaliation, fled. In the process, she got hurt (mostly self-inflicted) and fell into [emotional turmoil.](https://www.youtube.com/live/5swK4fB2smo?t=2432)\n\nThe next day, the fuzzy dog marched back to FaunaMart, determined to confront [Fauna](#entry:fauna-entry) herself for all the pain they caused her. In short, she tried to sue them.\n\nBut poor Mococo stood alone—only Cecilia served as her “lawyer.” Meanwhile, FaunaMart had Fauna, Nerissa… and Cecilia as well. The odds were stacked heavily against her, and truth be told, FaunaMart had every right while Mococo had almost every wrong.\n\n> Okay Mococo, let us go to the gallows.\n\nMococo demanded **10,000 gold** in compensation for her emotional damage. Fauna refused. Onlookers gathered, pressure mounted, and eventually, Mococo realized she couldn’t win. So, she ran.\n\n### How it ended\n\nFeeling bad for the fuzzy one and just wanting to end the whole ordeal, Fauna later called Mococo over and agreed to settle the matter. She paid the dog a generous sum of 10,000 gold… along with [some kisses.](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=3185)\n\nAnd just like that, they were friends again.\nHurray.\n\n## Related Stories\n\n- See [\"FaunaMart and NanaEleven\"](#entry:faunamart-entry)\n\n## Credits\n\n- Entry thumbnail by [karunochi](https://x.com/karunochi/status/1830608765454024950)",
+      "thumbnailSrc": "/images-opt/lottery-fiasco-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "Nerissa getting threatened and extorted by Mococo",
+          "source": "/images-opt/lottery-fiasco-entry-0-opt.webp"
+        },
+        {
+          "title": "Mococo and FaunaMart attempting to settle the case",
+          "source": "/images-opt/lottery-fiasco-entry-1-opt.webp"
+        },
+        {
+          "title": "10,000 coins and kisses",
+          "source": "/images-opt/lottery-fiasco-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/lottery-fiasco-entry-opt.webp"
+    },
+    {
+      "id": "faunamart-entry",
+      "title": "FaunaMart and NanaEleven",
+      "chapters": [
+        0
+      ],
+      "quote": "It was so obvious that you were scamming people.",
+      "content": "## Overview\n\n**Chapter:** Chapter 1\n**Duration:** Day 2 to 8\n\nCapitalism, gambling, scamming, things you'd never expect in a kingdom of fantastical wonder and a supposedly heroic tale. And yet, they existed. They were the talk of the realm. And at the heart of it all stood one green entrepreneur and one brown entrepreneur.\n\n## Details\n\n### How it started\n\nBy Day 2, [Fauna](#entry:fauna-entry) had decided she’d rather live like an NPC than get involved in all the hero business. So she opened **FaunaMart**, a [convenience store](https://www.youtube.com/watch?v=eUQWfgVwwpo&t=176s) selling everyday goods and, most notably, [FaunaMart Lottery tickets](https://www.youtube.com/watch?v=E2JxBxhda9I&t=249s)—which she claimed would fund a library for the kingdom.\n\n### How it went\n\nThe store quickly became the buzz of the kingdom. From the moment it opened, curious faces wandered in. Some bought goods, but most were drawn in by the prospect of the lottery. The only reason it attracted so many customers so quickly was because of Fauna’s relentless promotion—either through global announcements or by quite literally speaking into people’s minds.\n\nWhile many suspected a scam, some did win, and others lost. But regardless of the outcome, the CEO remained steadfast in growing her empire. FaunaMart’s very first customer, [Nanamoo](#entry:mumei-entry), however, wasn’t one to idly watch Fauna potentially scam others with her _questionable_ business practices. By Day 7, she launched a rival store—**NanaEleven**—complete with its own lottery (which also scammed people).\n\n### How it ended\n\nUpon hearing of this new competition, Fauna was having none of it. She was aiming for monopoly status, and no one would be allowed to snatch even a slice of the pie.\n\nThe rivalry reached its peak on the final day when Fauna [invited](https://www.youtube.com/watch?v=8x-MVX8h9gU&t=1082s) Nanamoo to FaunaMart for a head-to-head confrontation. In a shocking move, Fauna offered 50,000 gold to buy out NanaEleven.\n\nNanamoo rejected the offer—insulting Fauna in the process. But then came the twist: Nanamoo revealed she had been working _for_ FaunaMart all along. Everything she did—the funds, the revenue, the creation of NanaEleven—was to attract even more attention to FaunaMart.\n\n> Oh it hurts me, to see such bad business practices.\n> You see, it was so obvious that you were trying to scam people.\n\nWhat started as a corporate standoff ended in laughter, as the two agreed to merge their businesses and take over the world together, united as **FaunaMart x NanaEleven**.\n\n## Related Stories\n\n- See [“Lottery Fiasco”](#entry:lottery-fiasco-entry)\n\n## Credits\n\n- Entry thumbnail by [fongban\\_](https://x.com/fongban_/status/1901895840236765627)",
+      "thumbnailSrc": "/images-opt/faunamart-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": "FaunaMart's daily lottery drawing",
+          "source": "/images-opt/faunamart-entry-0-opt.webp"
+        },
+        {
+          "title": "FaunaMart's library funded from the lottery",
+          "source": "/images-opt/faunamart-entry-1-opt.webp"
+        },
+        {
+          "title": "NanaEleven's lottery ticket",
+          "source": "/images-opt/faunamart-entry-2-opt.webp"
+        },
+        {
+          "title": "FaunaMart and NanaMoo's standoff",
+          "source": "/images-opt/faunamart-entry-3-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/faunamart-entry-opt.webp"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 
 Cecilia awakens from a restful sleep in the princess' bed and begins her day by visiting Iphania to make a pledge to [protect the here and now](https://www.youtube.com/watch?v=Icdii90_vSA&t=1090s). Immerkind departs for the town to win the hearts and minds of the citizens by defeating countless stains, distributing crucial supplies, and listening to their fears and concerns in order to show that she might be worthy of the princess.
 
-[Letter from Immerking](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=2122s)
+[Letter from Immerkind](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=2122s)
 
 During these forays into the field, she encounters Gonathon who requires protection. Cecilia resolutely stands and protects [her dawg](https://www.youtube.com/watch?v=Icdii90_vSA&t=3608s) from the countless Stains as they encroach upon the enchanted wagon.
 

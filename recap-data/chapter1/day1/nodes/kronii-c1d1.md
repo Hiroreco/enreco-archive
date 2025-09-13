@@ -29,6 +29,6 @@ As the kingdom settled into quiet, Tam yearned for a peaceful night’s sleep. S
 
 ## Fanart
 
-["Queen Tam Gandr" by Daaku](https://x.com/koizumi_arata/status/1830329272155931070)
+["Kiss your queen's hand" by Daaku](https://x.com/koizumi_arata/status/1830329272155931070)
 
 ["HUZZAH TO THE TRUE QUEEN OF LIBESTAL!!!" by PadoruuFerii](https://x.com/PadoruFerii/status/1900745073664598460)

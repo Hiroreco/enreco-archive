@@ -3,12 +3,14 @@ import { useAudioStore } from "@/store/audioStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 const ViewFaunaEasterEgg = () => {
     const [numbers, setNumbers] = useState([0, 0, 0]);
     const [spinningNumbers, setSpinningNumbers] = useState([0, 0, 0]);
     const [isRolling, setIsRolling] = useState(false);
     const [stoppedIndices, setStoppedIndices] = useState<number[]>([]);
+    const t = useTranslations("easter.fauna");
 
     const {
         playSFX,
@@ -135,7 +137,7 @@ const ViewFaunaEasterEgg = () => {
                     "opacity-50 cursor-not-allowed": isButtonDisabled,
                 })}
             >
-                {isRolling ? "Rolling..." : "Roll"}
+                {isRolling ? t("rollState.rolling") : t("rollState.roll")}
             </Button>
         </div>
     );

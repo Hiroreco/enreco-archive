@@ -8,10 +8,12 @@ import {
     getCharacterIdNameMap,
     sortByPredefinedOrder,
 } from "@/lib/misc";
+import { useSettingStore } from "@/store/settingStore";
 import {
     Dialog,
     DialogContent,
 } from "@enreco-archive/common-ui/components/dialog";
+import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 export interface FanartEntry {
@@ -31,6 +33,8 @@ export interface FanartEntry {
     }[];
     type: "art" | "meme";
 }
+
+export type InclusiveMode = "showAll" | "hasAny" | "hasOnly";
 
 interface ViewFanartModalProps {
     open: boolean;
@@ -54,6 +58,9 @@ const ViewFanartModal = ({
     day,
     initialCharacters,
 }: ViewFanartModalProps) => {
+    const t = useTranslations("modals.art.card");
+    const locale = useSettingStore((state) => state.locale);
+
     // State
     const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
         initialCharacters || ["all"],
@@ -79,7 +86,8 @@ const ViewFanartModal = ({
         null,
     );
     const [columnCount, setColumnCount] = useState(3);
-    const [inclusiveMode, setInclusiveMode] = useState(false);
+    const [inclusiveMode, setInclusiveMode] =
+        useState<InclusiveMode>("showAll");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
 
@@ -100,8 +108,9 @@ const ViewFanartModal = ({
         () =>
             getCharacterIdNameMap(
                 selectedChapter !== "all" ? parseInt(selectedChapter) : -1,
+                locale,
             ),
-        [selectedChapter],
+        [selectedChapter, locale],
     );
 
     const characters = useMemo(() => {
@@ -144,13 +153,22 @@ const ViewFanartModal = ({
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
             } else {
-                characterMatch = inclusiveMode
-                    ? selectedCharacters.every((char) =>
-                          entry.characters.includes(char),
-                      )
-                    : selectedCharacters.some((char) =>
-                          entry.characters.includes(char),
-                      ) || entry.characters.length === 0;
+                if (inclusiveMode === "showAll") {
+                    characterMatch =
+                        selectedCharacters.some((char) =>
+                            entry.characters.includes(char),
+                        ) || entry.characters.length === 0;
+                } else if (inclusiveMode === "hasAny") {
+                    characterMatch = selectedCharacters.every((char) =>
+                        entry.characters.includes(char),
+                    );
+                } else if (inclusiveMode === "hasOnly") {
+                    characterMatch =
+                        entry.characters.length === selectedCharacters.length &&
+                        selectedCharacters.every((char) =>
+                            entry.characters.includes(char),
+                        );
+                }
             }
 
             const chapterMatch =
@@ -251,7 +269,7 @@ const ViewFanartModal = ({
         setSelectedCharacters(["all"]);
         setSelectedChapter("all");
         setSelectedDay("all");
-        setInclusiveMode(false);
+        setInclusiveMode("showAll");
         setVideosOnly(false);
         setMemesOnly(false);
         setShuffled(false);
@@ -478,13 +496,13 @@ const ViewFanartModal = ({
         if (initialCharacters && initialCharacters.length > 0) {
             setSelectedCharacters(initialCharacters);
             if (initialCharacters.length > 1) {
-                setInclusiveMode(true);
+                setInclusiveMode("hasAny");
             } else {
-                setInclusiveMode(false);
+                setInclusiveMode("showAll");
             }
         } else {
             setSelectedCharacters(["all"]);
-            setInclusiveMode(false);
+            setInclusiveMode("showAll");
         }
     }, [initialCharacters]);
 
@@ -505,7 +523,7 @@ const ViewFanartModal = ({
             selectedCharacters.includes("all") ||
             selectedCharacters.includes("various")
         ) {
-            setInclusiveMode(false);
+            setInclusiveMode("showAll");
         }
     }, [selectedCharacters]);
 
@@ -577,7 +595,15 @@ const ViewFanartModal = ({
                             onReset={resetFilters}
                             totalItems={allFilteredFanart.length}
                             inclusiveMode={inclusiveMode}
-                            onInclusiveModeChange={setInclusiveMode}
+                            onInclusiveModeChange={() => {
+                                if (inclusiveMode === "showAll") {
+                                    setInclusiveMode("hasAny");
+                                } else if (inclusiveMode === "hasAny") {
+                                    setInclusiveMode("hasOnly");
+                                } else {
+                                    setInclusiveMode("showAll");
+                                }
+                            }}
                             videosOnly={videosOnly}
                             onVideosOnlyChange={setVideosOnly}
                             memesOnly={memesOnly}
@@ -643,8 +669,8 @@ const ViewFanartModal = ({
                             src: img.src,
                             alt:
                                 currentEntry.label +
-                                " by " +
-                                currentEntry.author,
+                                " " +
+                                t("by", { author: currentEntry.author }),
                             type: "image" as const,
                             width: img.width,
                             height: img.height,
@@ -656,8 +682,8 @@ const ViewFanartModal = ({
                             src: video.src,
                             alt:
                                 currentEntry.label +
-                                " by " +
-                                currentEntry.author,
+                                " " +
+                                t("by", { author: currentEntry.author }),
                             type: "video" as const,
                             chapter: currentEntry.chapter,
                             day: currentEntry.day,

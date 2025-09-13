@@ -9,7 +9,7 @@ Fia’s memory fragments, which crashed onto the land as felled stars, had becom
 
 With the magic communications relic found on her person, Ina was mysteriously compelled to establish telepathic connection with a random peasant for a jape. While gathering intel on the first "Star Site" to visit on the next day, she overheared the self-introduction of a humble chivalrous knight, perhaps a comrade of days past? _NinoIna_ had placed a nametag conveniently atop her head for easy identification, much to the benefit of... her Queen? No, that can't be, this person [eats paper](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=2540s). A fine demonstration for that peasant, at least, for knowledge is superfood.
 
-In a bizarre twist of fate, Ina reunited with her eternal consort, who the peasant seemed to be [cosmically at odds with](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3150s) (see: [Ina-Hot Pink One](#edge:ina-irys)). The group crossed paths with a bubbly Tam Gandr (she's low-key about it), who Ina now called "Tammy."
+In a bizarre twist of fate, Ina reunited with her eternal consort, who the peasant seemed to be [cosmically at odds with](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3150s) (see [Ina-Hot Pink One](#edge:ina-irys)). The group crossed paths with a bubbly Tam Gandr (she's low-key about it), who Ina now called "Tammy."
 
 Ina was eager to shirk the status of unemployed Hero and attain grand riches, embarking on a [Clean and Simple](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3917s) beeline to the Job Hall, but got lost (again) in the [dark](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=3976s) hallways of the castle labyrinth.
 

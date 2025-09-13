@@ -1,22 +1,18 @@
 "use client";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
-import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
 import ViewInfoModal from "@/components/view/basic-modals/ViewInfoModal";
-import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
 import ViewDayRecapCard from "@/components/view/chart-cards/ViewDayRecapCard";
+import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
+import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
 import { useViewStore } from "@/store/viewStore";
-import {
-    FixedEdgeType,
-    ImageNodeType,
-    SiteData,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 
 import ViewChart from "@/components/view/chart/ViewChart";
-import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
 import ViewReadCounter from "@/components/view/chart/ViewReadCounter";
-import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
 import ViewTransportControls from "@/components/view/chart/ViewTransportControls";
+import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
+import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
 import ViewVideoModal from "@/components/view/utility-modals/ViewVideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
 import { useClickOutside } from "@/hooks/useClickOutsite";
@@ -30,21 +26,24 @@ import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/Va
 
 import ViewChapterRecapModal from "@/components/view/utility-modals/ViewChapterRecapModal";
 
+import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
+import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
+import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
 import {
     CurrentChapterDataContext,
     CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
+import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import {
     countReadElements,
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
-import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
-import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -64,13 +63,15 @@ function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
 }
 
 interface Props {
-    siteData: SiteData;
     isInLoadingScreen: boolean;
     bgImage: string;
 }
 
 let didInit = false;
-const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
+const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
+    const tNavTooltips = useTranslations("navTooltips");
+    const tReadStatus = useTranslations("modals.readStatus");
+
     /* Hooks that are not use*Store/useState/useMemo/useCallback */
     useAudioSettingsSync();
     useClickOutside();
@@ -84,6 +85,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const openDayRecapOnDayChange = useSettingStore(
         (state) => state.openDayRecapOnDayChange,
     );
+    const locale = useSettingStore((state) => state.locale);
 
     // Audio Store
     const changeBGM = useAudioStore((state) => state.changeBGM);
@@ -183,7 +185,9 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
 
     /* Data variables */
-    const chapterData = siteData.chapters[chapter];
+    const { getSiteData, getChapter } = useLocalizedData();
+    const siteData = getSiteData();
+    const chapterData = getChapter(chapter);
     const dayData = chapterData.charts[day];
 
     /* Build initial nodes/edges by combining data from previous days. */
@@ -198,8 +202,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 node.hidden = !(
                     team[node.data.teamId || "null"] && character[node.id]
                 );
-                node.selectable = node.data.day === day;
-
                 if (selectedElement) {
                     if (isNode(selectedElement)) {
                         node.selected =
@@ -213,7 +215,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 }
             }
         });
-    }, [resolvedData.nodes, team, character, selectedElement, day]);
+    }, [resolvedData.nodes, team, character, selectedElement]);
 
     /* Set additional properties for edges. */
     const completeEdges = useMemo(() => {
@@ -269,12 +271,12 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             newChapter < 0 ||
             newChapter > siteData.numberOfChapters ||
             newDay < 0 ||
-            newDay > siteData.chapters[chapter].numberOfDays
+            newDay > siteData.chapters[locale][chapter].numberOfDays
         ) {
             return;
         }
 
-        const newChapterData = siteData.chapters[newChapter];
+        const newChapterData = siteData.chapters[locale][newChapter];
         const newDayData = resolveDataForDay(newChapterData.charts, newDay);
 
         if (selectedElement) {
@@ -345,7 +347,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
                 day < 0 ||
-                day >= siteData.chapters[chapter].numberOfDays
+                day >= siteData.chapters[locale][chapter].numberOfDays
             ) {
                 setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
                 changeWorkingData(siteData.numberOfChapters - 1, 0);
@@ -371,10 +373,6 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
 
     const onNodeClick = useCallback(
         (node: ImageNodeType) => {
-            // onEdgeClick doesn't need this, but onNodeClick does, why? Idk.
-            if (!node.selectable) {
-                return;
-            }
             selectElement(node);
             openNodeCard();
         },
@@ -422,6 +420,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
             openInfoModal();
         }
     });
+
+    useEffect(() => {
+        // When locale changes, refresh the current data to get localized content
+        // Doing this to prevent selected element staying stale when the locale changes
+        changeWorkingData(chapter, day);
+        // DO NOT add the rest of the missing dependencies, it will cause an infinite loop, screw react
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [locale]);
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -550,6 +556,11 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 </CurrentChapterDataContext>
             </div>
 
+            <ViewChangelogModal
+                open={openModal === "changelog"}
+                onClose={closeModal}
+            />
+
             <ViewInfoModal
                 open={openModal === "info"}
                 onClose={() => {
@@ -598,7 +609,10 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 )}
                 onClick={openReadCounterModal}
             >
-                {readCount}/{totalCount} Read
+                {tReadStatus("readCount", {
+                    count: readCount,
+                    total: totalCount,
+                })}
             </button>
 
             <ViewReadCounter
@@ -606,8 +620,8 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
                 day={day}
                 chapter={chapter}
-                nodes={resolvedData.nodes}
-                edges={resolvedData.edges}
+                nodes={completeNodes}
+                edges={completeEdges}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
@@ -635,7 +649,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
-                    tooltipText="Day Recap / Visibility"
+                    tooltipText={tNavTooltips("dayRecapVisibility")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={() => {
@@ -650,14 +664,14 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                         src="images-opt/emblem-opt.webp"
                         className="w-full h-full"
                         fill
-                        alt="Chart Info / Visibility"
+                        alt={tNavTooltips("dayRecapVisibility")}
                     />
                 </IconButton>
 
                 <IconButton
                     id="info-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Info"
+                    tooltipText={tNavTooltips("info")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openInfoModal}
@@ -668,7 +682,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="settings-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Settings"
+                    tooltipText={tNavTooltips("settings")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openSettingsModal}
@@ -679,7 +693,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="minigames-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Minigames"
+                    tooltipText={tNavTooltips("minigames")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMinigameModal}
@@ -690,7 +704,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="chapter-recap-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Chapter Recap"
+                    tooltipText={tNavTooltips("chapterRecap")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openChapterRecapModal}
@@ -701,7 +715,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="jukebox-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Jukebox"
+                    tooltipText={tNavTooltips("jukebox")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openMusicPlayerModal}
@@ -712,7 +726,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <IconButton
                     id="gallery-btn"
                     className="h-10 w-10 p-1"
-                    tooltipText="Libestal Gallery"
+                    tooltipText={tNavTooltips("libestalGallery")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openFanartModal}
@@ -736,7 +750,7 @@ const ViewApp = ({ siteData, isInLoadingScreen, bgImage }: Props) => {
                 <ViewTransportControls
                     isAnyModalOpen={openModal !== null}
                     chapter={chapter}
-                    chapterData={siteData.chapters}
+                    chapterData={siteData.chapters[locale]}
                     day={day}
                     numberOfChapters={siteData.numberOfChapters}
                     numberOfDays={chapterData.numberOfDays}

@@ -13,7 +13,7 @@ The Hot Purple One was distinct from her Pink counterpart in that _she_ was perf
 - The Peasant penned [a confession](https://youtu.be/OxKP4ED-xz8?t=978s) to a knight who was at the dentist, and Ina was its beta reader. It was good enough to publish as is!
 - Later on, the highly discussed Hot Pink One [received the wrong charm](https://youtu.be/OxKP4ED-xz8?t=5606s)... Oh, I guess heroes do get some things wrong.
 
-While she would not get to see the resolution to her [Sneak 100 cutscene](https://youtu.be/OxKP4ED-xz8?t=1606s) (see: [Bae-Khaos](#edge:bae-khaos)), she left her mark by [helping author](https://youtu.be/OxKP4ED-xz8?t=1902s) the Baece Attorney event that leads to it. Such was the humble Hero's fate to miss out on [cinema](https://youtu.be/OxKP4ED-xz8?t=12740s).
+While she would not get to see the resolution to her [Sneak 100 cutscene](https://youtu.be/OxKP4ED-xz8?t=1606s) (see [Bae-Khaos](#edge:bae-khaos)), she left her mark by [helping author](https://youtu.be/OxKP4ED-xz8?t=1902s) the Baece Attorney event that leads to it. Such was the humble Hero's fate to miss out on [cinema](https://youtu.be/OxKP4ED-xz8?t=12740s).
 
 [What does Libestal mean to NinoIna?](#embed:https://youtu.be/OxKP4ED-xz8?t=4121s)
 

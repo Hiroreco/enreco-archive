@@ -1,35 +1,32 @@
 import TimestampHref from "@/components/view/markdown/TimestampHref";
+import { useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
 
 const ViewChickenGameInfo = () => {
+    const t = useTranslations("modals.minigames.games.chicken");
+
     return (
         <div className="flex flex-col gap-4">
             <p>
-                Just like the Scarlet Wand, the Cerulean Cup{" "}
-                <Image
-                    className="inline h-6 w-6 mb-1"
-                    src={"/images-opt/ceruleancup-opt.webp"}
-                    alt={"ceruleancup"}
-                    width={24}
-                    height={24}
-                />{" "}
-                launched their own minigame on Day 7. As representatives of
-                empathy, they designed a game that would help spread that very
-                value: <strong>Catching Chickens</strong>.
+                {t.rich("intro", {
+                    bold: (chunks) => <strong>{chunks}</strong>,
+                    icon: () => (
+                        <Image
+                            className="inline h-6 w-6 mb-1"
+                            src={"/images-opt/ceruleancup-opt.webp"}
+                            alt={"ceruleancup"}
+                            width={24}
+                            height={24}
+                        />
+                    ),
+                })}
             </p>
-            <p>
-                As the name suggests, the goal is simple—catch chickens… but
-                empathetically. Players are presented with a board where
-                chickens continuously spawn from the top and slowly fall
-                downward. The objective? Move your basket horizontally along the
-                bottom and catch as many falling chickens as possible within the
-                time limit.
-            </p>
-            <p> That's it. Simple and fun.</p>
+            <p>{t("gameplay")}</p>
+            <p>{t("simple")}</p>
             <TimestampHref
                 href="https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=6328"
-                caption="Spreading empathy through chickens"
+                caption={t("timestampCaption")}
                 type="embed"
             />
         </div>

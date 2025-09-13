@@ -9,6 +9,7 @@ import {
 import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface Props {
     relationshipVisibility: StringToBooleanObjectMap;
@@ -46,24 +47,33 @@ const ViewVisibilityCard = ({
     chapterData,
     nodes,
 }: Props) => {
+    const t = useTranslations("cards.dayCard");
+    const tConstants = useTranslations("constants");
+
     // Extract image src from nodes
     const characterImagesMap = useMemo(() => {
         const charImgMap = extractImageSrcFromNodes(nodes);
         return charImgMap;
     }, [nodes]);
 
+    const teamsHeader = chapter === 1 ? t("jobToggles") : t("teamToggles");
+    const showAllTeamsLabel =
+        chapter === 1 ? t("showAllJobs") : t("showAllTeams");
+
     return (
         <div className="flex flex-col gap-4 p-4 h-full overflow-y-scroll">
-            <span className="font-bold text-xl">Visibility Toggles</span>
+            <span className="font-bold text-xl">{t("visibilityToggles")}</span>
             <div className="grid md:grid-cols-2 gap-4">
                 {/* Edges */}
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between items-center">
-                        <span className="font-bold">Relationship Toggles</span>
+                        <span className="font-bold">
+                            {t("relationshipToggles")}
+                        </span>
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="edge-new">
-                            Show updated edges only
+                            {t("showUpdatedEdgesOnly")}
                         </Label>
                         <Checkbox
                             id="edge-new"
@@ -73,7 +83,7 @@ const ViewVisibilityCard = ({
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="edge-all">
-                            <span className="">Show all edges</span>
+                            <span className="">{t("showAllEdges")}</span>
                         </Label>
 
                         <Checkbox
@@ -103,8 +113,9 @@ const ViewVisibilityCard = ({
                                         }
                                     />
                                     <span className="capitalize">
-                                        {chapterData.relationships[key].name ||
-                                            key}
+                                        {tConstants(
+                                            chapterData.relationships[key].name,
+                                        ) || key}
                                     </span>
                                 </div>
                             </Label>
@@ -127,23 +138,11 @@ const ViewVisibilityCard = ({
                 {/* Teams */}
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between items-center">
-                        <span className="font-bold">
-                            {chapter === 0
-                                ? "Guild Toggles"
-                                : chapter === 1
-                                  ? "Job Toggles"
-                                  : "Team Toggles"}
-                        </span>
+                        <span className="font-bold">{teamsHeader}</span>
                     </div>
                     <div className="flex justify-between items-center">
                         <Label htmlFor="team-all">
-                            <span>
-                                {chapter === 0
-                                    ? "Show all guilds"
-                                    : chapter === 1
-                                      ? "Show all jobs"
-                                      : "Show all teams"}
-                            </span>
+                            <span>{showAllTeamsLabel}</span>
                         </Label>
 
                         <Checkbox
@@ -175,7 +174,9 @@ const ViewVisibilityCard = ({
                                         height={32}
                                     />
                                     <span className="capitalize">
-                                        {chapterData.teams[key].name || key}
+                                        {tConstants(
+                                            chapterData.teams[key].name || key,
+                                        )}
                                     </span>
                                 </div>
                             </Label>
@@ -197,12 +198,12 @@ const ViewVisibilityCard = ({
             </div>
             {/* Characters */}
             <div className="flex justify-between items-center">
-                <span className="font-bold">Character Toggles</span>
+                <span className="font-bold">{t("characterToggles")}</span>
             </div>
             <div className="grid md:grid-rows-10 md:grid-cols-2 gap-4">
                 <div className="flex justify-between items-center">
                     <Label htmlFor="character-all">
-                        <span>Show all characters</span>
+                        <span>{t("showAllCharacters")}</span>
                     </Label>
 
                     <Checkbox

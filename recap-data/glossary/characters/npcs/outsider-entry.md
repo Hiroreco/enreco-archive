@@ -40,7 +40,7 @@ Eventually, his true identity was revealed: he was **The Watcher**, a member of 
 **The Outsider**
 For this defiance, he was punished by the _Higher Being_—imprisoned for eternity within a fabricated reflection of the very kingdom he tried to save. As centuries passed, resentment turned to madness, and from that despair, the Outsider was born.
 
-- [Read "The Outsider"](#entry:outsider-entry)
+- [Read "The Outsider"](#text:the-outsider)
 
 #### The Price for Defying Fate
 

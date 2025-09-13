@@ -65,8 +65,6 @@ When does a flame turn dark?
 When does a woman become a witch?
 When does a knight bend the knee?
 
----
-
 ## Fan Work
 
 ["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
@@ -76,3 +74,5 @@ When does a knight bend the knee?
 ["The Bird Song | An ENreco Animatic" by Elisbian](https://x.com/Elisbian_/status/1923090463063416862)
 
 ["Chapter 3" by otashishi](https://x.com/ashiartwork/status/1921948280365224396)
+
+["A Promise til the End of Time" by pawchie](https://x.com/paw_chie/status/1962575397662625963)

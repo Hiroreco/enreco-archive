@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
 import { CHARACTER_ORDER, sortByPredefinedOrder } from "../content/orders.js";
+import { execSync } from "child_process";
 
 const LINKS_JSON = path.resolve(process.cwd(), "src/data/twitter-links.json");
 const IMAGE_DIR = path.resolve(process.cwd(), "shared-resources/images/fanart");
@@ -19,7 +20,7 @@ interface LinkEntry {
     characters: string[];
     type: "art" | "meme";
 }
-("");
+
 interface ExtendedEntry extends Omit<LinkEntry, "chapter" | "day"> {
     chapter: number;
     day: number;
@@ -32,7 +33,18 @@ interface ExtendedEntry extends Omit<LinkEntry, "chapter" | "day"> {
     videos: Array<{ src: string; type: "video" }>;
 }
 
+function runScript(cmd: string) {
+    try {
+        execSync(`${cmd}`, { stdio: "inherit" });
+    } catch (err) {
+        process.exit(1);
+    }
+}
+
 async function main() {
+    // 0) Generate thumbnails
+    runScript("pnpm generate-thumbnails");
+
     // 1) Load base entries
     const baseEntries: LinkEntry[] = JSON.parse(
         await fs.readFile(LINKS_JSON, "utf-8"),

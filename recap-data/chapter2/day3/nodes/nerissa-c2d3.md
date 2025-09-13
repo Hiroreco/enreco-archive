@@ -13,7 +13,7 @@ Eventually, she joined forces with Roa and Tam to take on the Stronghold of Ruin
 
 [Are they related?](#embed:https://youtu.be/vMdhvi8dHN4?t=12507s)
 
-As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing as she had no relationship prospects—at least none that she's aware of—and she was pretty much oblivious to any of the great love entanglements. Until today, that is. (See: [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii))
+As luck would have it, Nerissa lived a relatively slow life in Libestal, seeing as she had no relationship prospects—at least none that she's aware of—and she was pretty much oblivious to any of the great love entanglements. Until today, that is. (see [IRyS-Tam: Is This Jealousy?](#edge:irys-kronii))
 
 [Are they siblings _(platonic)_ or European?](#embed:https://youtu.be/vMdhvi8dHN4?t=12936s)
 

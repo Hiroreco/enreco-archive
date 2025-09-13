@@ -10,7 +10,7 @@ Pain throbs against her bosom. "What is this feeling? Like a thousand needles pr
 
 _Why is the lady of flame and blood looking at her like that? Oh how I wish I was the Wench of souls and death. I see how my lady looks at her...she used to look at me like that..._
 
-A soft breeze passes by and the maiden of feather and blue catches a scent...HEF scent...it is that of the lady of flame and blood that stands before her, unaware of her presence. As her eyes fill with tears
+A soft breeze passes by and the maiden of feather and blue catches a scent...HER scent...it is that of the lady of flame and blood that stands before her, unaware of her presence. As her eyes fill with tears
 
 She begins to turn away, given up all hope from that which she has lost.
 

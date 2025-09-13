@@ -7,7 +7,7 @@ While wandering, Nerissa Juliet Ravencroft calls Cecilia and invites her to a gr
 
 [Beautiful compliments](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=m0OdMzJIttFapJqP)
 
-Through adversity, they complete daunting puzzles, slay hordes of Stains, and arrive at the end of the dungeon. They valiantly slay the Stain King Elpis and retrieve the memories of the Hot Pink One (Irys) and share an [emotional ending together](https://www.youtube.com/live/48HSA_GcOZ0?si=72AIHtOd67m6mOTT&t=6367).
+Through adversity, they complete daunting puzzles, slay hordes of Stains, and arrive at the end of the dungeon. They valiantly slay the Stain King Elpis and retrieve the memories of the Hot Pink One and share an [emotional ending together](https://www.youtube.com/live/48HSA_GcOZ0?si=72AIHtOd67m6mOTT&t=6367).
 
 Upon returning to the castle, Cecilia is torn about how to [profess her feelings](https://www.youtube.com/watch?v=48HSA_GcOZ0&t=6610s) to the princess and seeks advice from Lady Bloodflame, Irys, and NinoIna. During this, Irys and NinoIna gather and banter while Irys seeks to recruit Cecilia to become their "Above SC" (see [Cecilia-Irys](#edge:cecilia-irys)).
 

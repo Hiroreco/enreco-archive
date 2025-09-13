@@ -1,20 +1,18 @@
-// scripts/inject-chapter-recaps.ts
 import { ChapterRecapData } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function main() {
+    const locale = process.argv[2] || "en";
+    const localeSuffix = locale === "en" ? "" : `_${locale}`;
+
     // 1) Input folder containing files recap-c<N>.md
-    //    e.g. "scripts/chapters" or "./chapter-recaps"
     const inputDir = path.resolve(
         process.cwd(),
-        "recap-data",
+        locale === "en" ? "recap-data" : `recap-data_${locale}`,
         "chapter-recaps",
     );
+
     let files: string[];
     try {
         files = await fs.readdir(inputDir);
@@ -25,11 +23,17 @@ async function main() {
 
     // Filter only recap-c<N>.md
     const recapFiles = files
-        .filter((f) => /^recap-c\d+\.md$/.test(f))
+        .filter((f) => new RegExp(`^recap-c\\d+${localeSuffix}\\.md$`).test(f))
         // sort by N ascending
         .sort((a, b) => {
-            const na = parseInt(a.match(/^recap-c(\d+)\.md$/)![1], 10);
-            const nb = parseInt(b.match(/^recap-c(\d+)\.md$/)![1], 10);
+            const na = parseInt(
+                a.match(new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`))![1],
+                10,
+            );
+            const nb = parseInt(
+                b.match(new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`))![1],
+                10,
+            );
             return na - nb;
         });
 
@@ -76,10 +80,13 @@ async function main() {
         "apps",
         "website",
         "data",
-        "chapter-recaps.json",
+        locale,
+        `chapter-recaps${localeSuffix === "" ? "_en" : localeSuffix}.json`,
     );
     await fs.writeFile(outPath, JSON.stringify(out, null, 2), "utf-8");
-    console.log(`✅ Wrote ${chapters.length} chapter recaps to ${outPath}`);
+    console.log(
+        `✅ Wrote ${chapters.length} ${locale} chapter recaps to ${outPath}`,
+    );
 }
 
 main().catch((err) => {

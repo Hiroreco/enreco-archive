@@ -1,13 +1,16 @@
-import React, { createContext, useContext, useState, ReactNode } from "react";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { useSettingStore } from "@/store/settingStore";
 import type {
     CommonItemData,
     GlossaryPageData,
 } from "@enreco-archive/common/types";
-import weapons from "#/glossary/weapons.json";
-import characters from "#/glossary/characters.json";
-import lore from "#/glossary/lore.json";
-import quests from "#/glossary/quests.json";
-import misc from "#/glossary/misc.json";
+import {
+    createContext,
+    ReactNode,
+    useContext,
+    useEffect,
+    useState,
+} from "react";
 
 export type Category =
     | "cat-weapons"
@@ -23,30 +26,8 @@ export type LookupEntry = {
     scrollPosition?: number;
 };
 
-const categoryMap: Record<Category, GlossaryPageData> = {
-    "cat-weapons": weapons,
-    "cat-characters": characters,
-    "cat-lore": lore,
-    "cat-quests": quests,
-    "cat-misc": misc,
-};
-
-// Flatten registry: id → LookupEntry
-const registry: Record<string, LookupEntry> = {};
-for (const [categoryKey, data] of Object.entries(categoryMap)) {
-    for (const [subcat, items] of Object.entries(data)) {
-        for (const item of items) {
-            registry[item.id] = {
-                categoryKey: categoryKey as Category,
-                subcategory: subcat,
-                item,
-            };
-        }
-    }
-}
-
 interface GlossaryContextType {
-    registry: typeof registry;
+    registry: Record<string, LookupEntry>;
     currentEntry: LookupEntry | null;
     history: LookupEntry[];
     goingBack: boolean;
@@ -65,6 +46,11 @@ interface GlossaryContextType {
 const GlossaryContext = createContext<GlossaryContextType | null>(null);
 
 export function GlossaryProvider({ children }: { children: ReactNode }) {
+    const { getGlossary } = useLocalizedData();
+    const currentLocale = useSettingStore((state) => state.locale);
+
+    const [registry, setRegistry] = useState<Record<string, LookupEntry>>({});
+
     const [currentEntry, setCurrentEntry] = useState<LookupEntry | null>(null);
     const [history, setHistory] = useState<LookupEntry[]>([]);
     const [goingBack, setGoingBack] = useState(false);
@@ -77,6 +63,52 @@ export function GlossaryProvider({ children }: { children: ReactNode }) {
         "cat-quests": 0,
         "cat-misc": 0,
     });
+
+    useEffect(() => {
+        const categoryMap: Record<Category, GlossaryPageData> = {
+            "cat-weapons": getGlossary("cat-weapons"),
+            "cat-characters": getGlossary("cat-characters"),
+            "cat-lore": getGlossary("cat-lore"),
+            "cat-quests": getGlossary("cat-quests"),
+            "cat-misc": getGlossary("cat-misc"),
+        };
+
+        // Rebuild the registry with the new localized data
+        // Flatten registry: id → LookupEntry
+        const newRegistry: Record<string, LookupEntry> = {};
+        for (const [categoryKey, data] of Object.entries(categoryMap)) {
+            for (const [subcat, items] of Object.entries(data)) {
+                for (const item of items) {
+                    newRegistry[item.id] = {
+                        categoryKey: categoryKey as Category,
+                        subcategory: subcat,
+                        item,
+                    };
+                }
+            }
+        }
+
+        // Rebuild history with the new localized data
+        const newHistory = history.map((entry) => {
+            const updatedEntry = newRegistry[entry.item.id];
+            return updatedEntry
+                ? { ...updatedEntry, scrollPosition: entry.scrollPosition }
+                : entry;
+        });
+
+        setHistory(newHistory);
+        setRegistry(newRegistry);
+
+        // Update the current entry with the new localized content if one is selected
+        if (currentEntry) {
+            const updatedEntry = newRegistry[currentEntry.item.id];
+            if (updatedEntry) {
+                setCurrentEntry(updatedEntry);
+            }
+        }
+        // Guess what, putting all dependencies here causes infinite loop, again
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [currentLocale]);
 
     const selectItem = (
         entry: LookupEntry | null,

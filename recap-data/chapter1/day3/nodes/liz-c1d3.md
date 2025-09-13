@@ -24,7 +24,3 @@ Later in the day, she was invited by Raora to tackle the dungeon of the day: the
 [Taking the promise too literally](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=9220)
 
 Nonetheless, they managed to free themselves. Together, they conquered the dungeon and successfully recovered the memories of [Ninomae Ina'nis](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=7815).
-
-## Fanart
-
-["From one Knight of Flame to the other" by Rei](https://x.com/_Silvertone/status/1833054905650532562)

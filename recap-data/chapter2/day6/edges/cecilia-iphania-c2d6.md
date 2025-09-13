@@ -48,7 +48,7 @@ Note from the Legend of Immerkind Archiver: Thank you so much everyone for all y
 
 ["Immerphania" By Sirs](https://x.com/SirShadenfreude/status/1919955783967490180)
 
-["Immerkind x Princess Iphania" by Falyn ](https://x.com/DetectiveFalyn/status/1919579661480169695)
+["Immerkind x Princess Iphania" by Falyn](https://x.com/DetectiveFalyn/status/1919579661480169695)
 
 ["My Shining Stars!" by Zeya](https://x.com/NOminishki/status/1920011853004001565)
 

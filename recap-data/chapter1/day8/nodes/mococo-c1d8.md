@@ -1,5 +1,5 @@
 <!-- title: Mococo Abyssguard -->
-<!-- status: Corrupted -->
+<!-- status: Alive -->
 
 Mococo awoke to an unsettling sight: a barren field, once full of thriving crops, now reduced to [ruin](https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=332). Confusion swept over her—she had no memory of coming to the field, let alone causing the destruction. It was as if she had blacked out and awoken to this desolation. Before she could process the scene, Calli started accusing her of raiding the crops and fields. To make matters worse, the reaper pointed out the Stain Hat perched on Mococo’s head, something she couldn’t explain.
 

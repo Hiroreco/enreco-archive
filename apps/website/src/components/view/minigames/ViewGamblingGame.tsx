@@ -5,6 +5,7 @@ import * as _ from "lodash";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { LS_GAMBLING_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
+import { useTranslations } from "next-intl";
 
 const WINNING_MULTIPLIER = {
     "box-blue": 2,
@@ -54,6 +55,8 @@ const initializeBoard = () => {
 const { initialValueBoard, initialPositionBoard } = initializeBoard();
 
 const ViewGamblingGame = () => {
+    const t = useTranslations("modals.minigames.games.gambling");
+
     // Initialize the board
     const [valueBoard, setValueBoard] = useState(initialValueBoard);
     const [positionBoard, setPositionBoard] = useState(initialPositionBoard);
@@ -196,18 +199,22 @@ const ViewGamblingGame = () => {
             <div className="flex flex-col md:gap-2 items-center grow mt-2">
                 <div className="flex gap-2">
                     <span className="text-center">
-                        <span className="font-semibold">Current Budget:</span>{" "}
+                        <span className="font-semibold">
+                            {t("currentBudget")}:
+                        </span>{" "}
                         {currentBudget}
                     </span>
                     <span>|</span>
                     <span className="text-center">
-                        <span className="font-semibold">Personal Record:</span>{" "}
+                        <span className="font-semibold">
+                            {t("personalRecord")}:
+                        </span>{" "}
                         {highScore}
                     </span>
                 </div>
                 <div className="flex flex-col gap-2 items-center">
                     <span className="underline underline-offset-2">
-                        Choose Color
+                        {t("chooseColor")}
                     </span>
                     <div className="flex gap-2">
                         {renderColorBox("box-blue")}
@@ -218,7 +225,7 @@ const ViewGamblingGame = () => {
                 </div>
                 <div className="flex flex-col gap-2 items-center">
                     <span className="underline underline-offset-2">
-                        Bet Amount
+                        {t("betAmount")}
                     </span>
                     <div className="flex lg:flex-col items-center gap-2">
                         <Input
@@ -248,9 +255,9 @@ const ViewGamblingGame = () => {
                         >
                             {currentBudget > 0
                                 ? currentRoll === 0 || currentRoll > 4
-                                    ? "Lock In"
-                                    : "Rolling"
-                                : "Out of money"}
+                                    ? t("lockIn")
+                                    : t("rolling")
+                                : t("outOfMoney")}
                         </Button>
                     </div>
                 </div>

@@ -7,6 +7,7 @@ import {
 } from "@enreco-archive/common-ui/components/tooltip";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Play } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { forwardRef, RefObject } from "react";
 
@@ -22,6 +23,7 @@ export const ThumbnailCarousel = forwardRef<
     HTMLDivElement,
     ThumbnailCarouselProps
 >(({ items, currentItemIndex, onThumbnailClick, thumbnailRefs }, ref) => {
+    const t = useTranslations("modals.art.lightbox");
     const chapter = items[0].chapter;
     const day = items[0].day;
     const chapterDayLabel =
@@ -114,10 +116,10 @@ export const ThumbnailCarousel = forwardRef<
                         </span>
                     </TooltipTrigger>
                     <TooltipContent side="top" align="center">
-                        Related to events on{" "}
-                        {chapterDayLabel
-                            ? `Day ${day! + 1}, Chapter ${chapter! + 1}`
-                            : ""}
+                        {t("relatedTo", {
+                            day: day! + 1,
+                            chapter: chapter! + 1,
+                        })}
                     </TooltipContent>
                 </Tooltip>
             )}

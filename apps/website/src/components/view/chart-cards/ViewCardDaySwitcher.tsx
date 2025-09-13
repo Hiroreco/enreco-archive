@@ -7,6 +7,7 @@ import {
 } from "@enreco-archive/common-ui/components/dropdownmenu";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { ArrowDownUp } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface ViewCardDaySwitcherProps {
     onDayChange: (newDay: number) => void;
@@ -21,13 +22,15 @@ const ViewCardDaySwitcher = ({
     availiableElements,
     showTitle = false,
 }: ViewCardDaySwitcherProps) => {
+    const t = useTranslations("common");
+
     return (
         <div>
             <DropdownMenu>
                 <DropdownMenuTrigger className="flex mb-2 items-center gap-1 hover:text-accent transition-all">
                     <ArrowDownUp size={20} />
                     <div className="text-2xl font-bold underline underline-offset-4">
-                        Day {currentDay + 1}
+                        {t("day", { val: currentDay + 1 })}
                     </div>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -42,7 +45,7 @@ const ViewCardDaySwitcher = ({
                                 className="max-w-[300px]"
                             >
                                 <span className="truncate">
-                                    Day {element.data!.day + 1}
+                                    {t("day", { val: element.data!.day + 1 })}
                                     {showTitle && `: ${element.data!.title}`}
                                 </span>
                             </DropdownMenuRadioItem>

@@ -24,3 +24,9 @@ After bidding farewell to the "witch," the group turned their attention to the d
 Returning to the kingdom, Elizabeth encountered a figure she had taken an instant disliking to on the first day—Tam Gandr, the self-proclaimed queen. Fueled by her distaste, Elizabeth wasn't going to let the azure maiden get the better of her this time (see [Elizabeth-Tam: Some queen, eh?](#edge:liz-kronii)).
 
 Later on, Elizabeth refocused her efforts. She joined Shakira in uncovering the first dungeon’s secret treasure, a hidden music disc. The day ended on a brighter note as the group celebrated their success with a lively party at the [tavern](https://www.youtube.com/live/M3cuDNZrIKM?feature=shared&t=10446).
+
+## Fanart
+
+["From one Knight of Flame to the other" by Rei](https://x.com/_Silvertone/status/1833054905650532562)
+
+<!-- kiara -->

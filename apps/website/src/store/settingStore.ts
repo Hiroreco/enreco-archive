@@ -5,6 +5,7 @@ import { ThemeType } from "@enreco-archive/common/types";
 
 export type BackdropFilter = "blur" | "clear";
 export type FontSize = "small" | "medium" | "large" | "xlarge";
+export type Locale = "en" | "ja";
 
 interface SettingState {
     backdropFilter: BackdropFilter;
@@ -27,6 +28,12 @@ interface SettingState {
 
     fontSize: FontSize;
     setFontSize: (fontSize: FontSize) => void;
+
+    locale: Locale;
+    setLocale: (locale: Locale) => void;
+
+    _hasHydrated: boolean;
+    setHasHydrated: (hasHydrated: boolean) => void;
 }
 
 // Persists state in local storage
@@ -56,7 +63,21 @@ export const useSettingStore = create<SettingState>()(
 
             fontSize: "medium",
             setFontSize: (fontSize: FontSize) => set({ fontSize }),
+
+            locale: "en",
+            setLocale: (language: Locale) => set({ locale: language }),
+
+            _hasHydrated: false,
+            setHasHydrated: (hasHydrated: boolean) =>
+                set({ _hasHydrated: hasHydrated }),
         }),
-        { name: "setting" },
+        {
+            name: "setting",
+            onRehydrateStorage: () => (state) => {
+                if (state) {
+                    state._hasHydrated = true;
+                }
+            },
+        },
     ),
 );
