@@ -35,7 +35,7 @@ However, this was far from the day's only story. The heroes summoned by the king
 
 ["Scarlet Wand" by tor](https://x.com/torkirby/status/1830410419082510816)
 
-<!-- fauna, gura, moom, nerissa, shiori -->
+<!-- fauna, gura, cecilia, nerissa, shiori -->
 
 ["The Jade Sword Guild!" by Nagi](https://x.com/Nagi_Nyaaa/status/1830397551553761776)
 
