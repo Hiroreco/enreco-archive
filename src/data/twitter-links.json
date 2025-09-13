@@ -998,7 +998,7 @@
   },
   {
     "url": "https://x.com/alfa_hatdog/status/1831129176109400505",
-    "label": "\"oh my god\" my AlfaHatdog",
+    "label": "\"oh my god\"",
     "author": "alfa_hatdog",
     "chapter": 0,
     "day": 3,
@@ -1130,7 +1130,12 @@
     "chapter": 0,
     "day": 3,
     "characters": [
-      "gigi"
+      "gigi",
+      "ame",
+      "irys",
+      "kronii",
+      "gura",
+      "nerissa"
     ],
     "type": "art"
   },
@@ -1178,7 +1183,8 @@
     "chapter": 0,
     "day": 3,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ],
     "type": "art"
   },
