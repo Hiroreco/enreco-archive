@@ -240,7 +240,7 @@
       "fauna",
       "nerissa",
       "shiori",
-      "moom"
+      "cecilia"
     ],
     "images": [
       {
@@ -879,7 +879,7 @@
   },
   {
     "url": "https://x.com/sssst3ll4/status/1834360675503837275",
-    "label": "\"Gonathon and Jyonathon\"",
+    "label": "\"Gonathon and Jyonathan\"",
     "author": "sssst3ll4",
     "chapter": 0,
     "day": 1,
@@ -1052,7 +1052,7 @@
   },
   {
     "url": "https://x.com/koizumi_arata/status/1831100215668908440",
-    "label": "\"Come, I don't wawnt to destroy this place\"",
+    "label": "\"Come, I don't want to destroy this place\"",
     "author": "koizumi_arata",
     "chapter": 0,
     "day": 1,
@@ -1093,7 +1093,7 @@
   },
   {
     "url": "https://x.com/bunbbun1/status/1831075309732659391",
-    "label": "\"Uhmmm....pardon?",
+    "label": "\"Uhmmm....pardon?\"",
     "author": "bunbbun1",
     "chapter": 0,
     "day": 1,
@@ -1106,6 +1106,51 @@
         "src": "images-opt/bunbbun1-1831075309732659391-0-opt.webp",
         "width": 1000,
         "height": 1700,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/_silvertone/status/1833054905650532562",
+    "label": "\"From one Knight of Flame to the other\"",
+    "author": "_silvertone",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "kiara",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/_silvertone-1833054905650532562-0-opt.webp",
+        "width": 2339,
+        "height": 1654,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/fukuinu_daddy/status/1830478922934616529",
+    "label": "\"Mogojan!?\"",
+    "author": "fukuinu_daddy",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "kiara",
+      "fuwawa",
+      "mococo",
+      "liz",
+      "raora"
+    ],
+    "images": [
+      {
+        "src": "images-opt/fukuinu_daddy-1830478922934616529-0-opt.webp",
+        "width": 960,
+        "height": 1280,
         "type": "image"
       }
     ],
@@ -1231,6 +1276,27 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/karunochi/status/1830608765454024950",
+    "label": "\"they're going to the moon\"",
+    "author": "karunochi",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "fuwawa",
+      "mococo"
+    ],
+    "images": [
+      {
+        "src": "images-opt/karunochi-1830608765454024950-0-opt.webp",
+        "width": 2894,
+        "height": 4093,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/yuq_ui/status/1831786877688651973",
     "label": "\"Mamma raora\"",
     "author": "yuq_ui",
@@ -1246,46 +1312,6 @@
         "src": "images-opt/yuq_ui-1831786877688651973-0-opt.webp",
         "width": 2916,
         "height": 4096,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/fukuinu_daddy/status/1830478922934616529",
-    "label": "\"Mogojan!?\"",
-    "author": "fukuinu_daddy",
-    "chapter": 0,
-    "day": 1,
-    "characters": [
-      "mococo"
-    ],
-    "images": [
-      {
-        "src": "images-opt/fukuinu_daddy-1830478922934616529-0-opt.webp",
-        "width": 960,
-        "height": 1280,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/karunochi/status/1830608765454024950",
-    "label": "\"they're going to the moon\"",
-    "author": "karunochi",
-    "chapter": 0,
-    "day": 1,
-    "characters": [
-      "mococo"
-    ],
-    "images": [
-      {
-        "src": "images-opt/karunochi-1830608765454024950-0-opt.webp",
-        "width": 2894,
-        "height": 4093,
         "type": "image"
       }
     ],
@@ -1381,7 +1407,7 @@
   },
   {
     "url": "https://x.com/raffanda_/status/1830877842013593910",
-    "label": "\"HAT\" ny Raff Yasushi",
+    "label": "\"HAT\"",
     "author": "raffanda_",
     "chapter": 0,
     "day": 2,
@@ -1587,7 +1613,7 @@
   },
   {
     "url": "https://x.com/abendag0/status/1831627938883891257",
-    "label": "\"It's not a scam, the librarly is real\"",
+    "label": "\"It's not a scam, the library is real\"",
     "author": "abendag0",
     "chapter": 0,
     "day": 2,
@@ -1600,26 +1626,6 @@
         "src": "images-opt/abendag0-1831627938883891257-0-opt.webp",
         "width": 2958,
         "height": 3324,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/_silvertone/status/1833054905650532562",
-    "label": "\"From one Knight of Flame to the other\"",
-    "author": "_silvertone",
-    "chapter": 0,
-    "day": 2,
-    "characters": [
-      "liz"
-    ],
-    "images": [
-      {
-        "src": "images-opt/_silvertone-1833054905650532562-0-opt.webp",
-        "width": 2339,
-        "height": 1654,
         "type": "image"
       }
     ],

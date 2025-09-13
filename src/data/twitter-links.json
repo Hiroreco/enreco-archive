@@ -407,7 +407,7 @@
     "characters": [
       "fauna",
       "gura",
-      "moom",
+      "cecilia",
       "nerissa",
       "shiori"
     ],
@@ -519,7 +519,7 @@
   },
   {
     "url": "https://x.com/sssst3ll4/status/1834360675503837275",
-    "label": "\"Gonathon and Jyonathon\"",
+    "label": "\"Gonathon and Jyonathan\"",
     "author": "sssst3ll4",
     "chapter": 0,
     "day": 1,
@@ -679,7 +679,7 @@
   },
   {
     "url": "https://x.com/koizumi_arata/status/1831100215668908440",
-    "label": "\"Come, I don't wawnt to destroy this place\"",
+    "label": "\"Come, I don't want to destroy this place\"",
     "author": "koizumi_arata",
     "chapter": 0,
     "day": 1,
@@ -702,7 +702,7 @@
   },
   {
     "url": "https://x.com/bunbbun1/status/1831075309732659391",
-    "label": "\"Uhmmm....pardon?",
+    "label": "\"Uhmmm....pardon?\"",
     "author": "bunbbun1",
     "chapter": 0,
     "day": 1,
@@ -713,13 +713,29 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/_silvertone/status/1833054905650532562",
+    "label": "\"From one Knight of Flame to the other\"",
+    "author": "_silvertone",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "liz",
+      "kiara"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/fukuinu_daddy/status/1830478922934616529",
     "label": "\"Mogojan!?\"",
     "author": "fukuinu_daddy",
     "chapter": 0,
     "day": 1,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa",
+      "raora",
+      "liz",
+      "kiara"
     ],
     "type": "art"
   },
@@ -730,7 +746,8 @@
     "chapter": 0,
     "day": 1,
     "characters": [
-      "mococo"
+      "mococo",
+      "fuwawa"
     ],
     "type": "art"
   },
@@ -831,7 +848,7 @@
   },
   {
     "url": "https://x.com/raffanda_/status/1830877842013593910",
-    "label": "\"HAT\" ny Raff Yasushi",
+    "label": "\"HAT\"",
     "author": "raffanda_",
     "chapter": 0,
     "day": 2,
@@ -914,17 +931,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/_silvertone/status/1833054905650532562",
-    "label": "\"From one Knight of Flame to the other\"",
-    "author": "_silvertone",
-    "chapter": 0,
-    "day": 2,
-    "characters": [
-      "liz"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/fukuinu_daddy/status/1831329880249905569",
     "label": "\"Today's FUWAMOCO\"",
     "author": "fukuinu_daddy",
@@ -939,7 +945,7 @@
   },
   {
     "url": "https://x.com/abendag0/status/1831627938883891257",
-    "label": "\"It's not a scam, the librarly is real\"",
+    "label": "\"It's not a scam, the library is real\"",
     "author": "abendag0",
     "chapter": 0,
     "day": 2,
