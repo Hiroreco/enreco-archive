@@ -112,7 +112,7 @@ export const CONTRIBUTORS = [
             },
             {
                 name: "fireycar",
-                socials: null,
+                socials: "https://www.reddit.com/user/Zestyclose_Public372/",
             },
         ],
     },
