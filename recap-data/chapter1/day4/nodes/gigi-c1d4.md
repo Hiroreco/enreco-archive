@@ -28,3 +28,5 @@ Despite his questionable actions, Gonathon redeemed himself by ending the day on
 ## Fanart
 
 ["Their love will prevail" by Nagi](https://x.com/Nagi_Nyaaa/status/1831932489658724587)
+
+<!-- ame, irys, kronii, gura, nerissa -->
