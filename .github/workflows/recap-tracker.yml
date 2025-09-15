@@ -1,0 +1,86 @@
+name: Recap Submission Tracker
+on:
+    push:
+        paths:
+            - "**/*.md"
+    issues:
+        types: [opened, edited]
+jobs:
+    file-submissions:
+        name: Process File Submissions
+        runs-on: ubuntu-latest
+        if: github.event_name == 'push' && vars.POWER_SWITCH == 'on'
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+            - name: Get changed files
+              id: changed-files
+              uses: tj-actions/changed-files@v40
+              with:
+                  files: "**/*.md"
+            - name: Get file status details
+              run: |
+                  echo "ADDED_FILES=$(git diff --name-only --diff-filter=A ${{ github.event.before }}..${{ github.sha }} | grep '\.md' | tr '\n' ' ')" >> $GITHUB_ENV
+                  echo "MODIFIED_FILES=$(git diff --name-only --diff-filter=M ${{ github.event.before }}..${{ github.sha }} | grep '\.md' | tr '\n' ' ')" >> $GITHUB_ENV
+                  echo "CHANGED_FILES=${{ steps.changed-files.outputs.all_changed_files }}" >> $GITHUB_ENV
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+            - name: Install dependencies
+              run: npm install @octokit/rest tsx
+            - name: Process file submissions
+              env:
+                  GITHUB_TOKEN: ${{ vars.GITHUB_TOKEN }}
+                  GITHUB_ACTOR: ${{ github.actor }}
+                  GITHUB_SHA: ${{ github.sha }}
+                  REPO_OWNER: ${{ github.repository_owner }}
+                  REPO_NAME: ${{ github.event.repository.name }}
+                  DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
+                  DISCORD_USER_MAPPINGS: ${{ vars.DISCORD_USER_MAPPINGS }}
+              run: npx tsx .github/scripts/file-submission-handler.ts
+    timestamp-updates:
+        name: Check Timestamp Updates
+        runs-on: ubuntu-latest
+        if: github.event_name == 'issues' && github.event.action == 'edited' && vars.POWER_SWITCH == 'on'
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+            - name: Install dependencies
+              run: npm install @octokit/rest tsx
+            - name: Check timestamp updates
+              env:
+                  GITHUB_TOKEN: ${{ vars.GITHUB_TOKEN }}
+                  REPO_OWNER: ${{ github.repository_owner }}
+                  REPO_NAME: ${{ github.event.repository.name }}
+                  GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
+                  DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
+                  DISCORD_USER_MAPPINGS: ${{ vars.DISCORD_USER_MAPPINGS }}
+              run: npx tsx .github/scripts/timestamp-handler.ts
+    manual-checklist-updates:
+        name: Check Manual Checklist Updates
+        runs-on: ubuntu-latest
+        if: github.event_name == 'issues' && github.event.action == 'edited' && vars.POWER_SWITCH == 'on'
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+            - name: Install dependencies
+              run: npm install @octokit/rest tsx
+            - name: Check manual checklist updates
+              env:
+                  GITHUB_TOKEN: ${{ vars.GITHUB_TOKEN }}
+                  REPO_OWNER: ${{ github.repository_owner }}
+                  REPO_NAME: ${{ github.event.repository.name }}
+                  GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
+                  DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
+              run: npx tsx .github/scripts/manual-update-handler.ts
