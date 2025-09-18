@@ -35,6 +35,8 @@ It stirred something in her. A painful clarity. Just how important Elizabeth was
 
 Even after the misunderstanding was cleared up, Nerissa’s fixation only deepened. Her tone softened around Elizabeth, her gaze never left her, and her thoughts were consumed by her. She wanted Elizabeth—fully, completely. It was as if a sea of blue had begun closing in on a delicate red flame. A chilling, possessive aura surrounded Nerissa. She would never forget Elizabeth again. She wouldn’t allow herself to.
 
+As it turned out, despite all of Nerissa's efforts to carry herself with grace and love, intending to start over after losing all memories of their previous journey, Elizabeth's persistence in calling her a "witch" had broken the raven-lady's self-esteem. She now believed that her only worth was in being a witch, and nothing else.
+
 She even built a [shrine](https://www.youtube.com/live/MXqotm_8_Hc?si=kdmzoA4BNcV-VPO7&t=231) beneath her house, close to Elizabeth’s home, where mythical music played around the clock—perhaps in hopes of luring the red knight to her side. Even Roa, someone who also had feelings for Elizabeth, sensed the growing danger whenever Nerissa was near.
 
 As for Elizabeth, her concerns lay elsewhere. On the sixth day, while reading a [book](https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060) from Shiori, she came across a passage—one she couldn’t fully trust, yet couldn’t ignore either. It spoke of a moment in the past where she had locked Nerissa behind bars and said cruel things to her, accusing her of having “bewitched” her.
