@@ -20,11 +20,11 @@ It all began when Shakira asked Gonathon to help her pursue Immerkind—her _cou
 In an attempt to console her, Gonathon offered a wild theory:
 
 > What if… they're siblings?
-> She's... her brother.
+> He's... her brother.
 
 ### How it went
 
-The rumor spread fast—Nerissa, Tam, and countless other curious ears quickly caught wind of it. Among them was Peasant the Bae, who took the theory to a whole new level, concluding that _everyone_ in the kingdom must be inbred… because, according to him, everyone [looked alike.](https://youtu.be/Lp7GyRVbz1c?t=7940)
+The rumor spread fast—Nerissa, Tam, and countless other curious ears quickly caught wind of it. Among them was Peasant the Bae, who took the theory to a whole new level, concluding that _everyone_ in the kingdom must be inbred… because, according to her, everyone [looked alike.](https://youtu.be/Lp7GyRVbz1c?t=7940)
 
 From there, it escalated.
 
