@@ -7,7 +7,7 @@
 ## Overview
 
 **Chapter:** Chapter 1
-**Duration:** Day 6 to 8
+**Duration:** Day 2 to 8
 
 One of the most talked-about stories in the first chapter was the love story between [Gonathon](#entry:gigi-entry) and [Amelia Watson](#entry:ame-entry). It left an imprint on this enigmatic journey that lasted well beyond its time.
 
