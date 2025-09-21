@@ -33,4 +33,4 @@ She also gave Gonathon beets. Again, for completely [non-suspicious reasons](htt
 
 <!-- liz -->
 
-["soul-piercing" by sumo](https://x.com/sumo88_/status/1902014127691747329/)
+["soul-piercing" by sumo](https://x.com/sumo88_/status/1902014127691747329)
