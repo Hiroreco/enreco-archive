@@ -36,3 +36,7 @@ A knight's and hero's work is never done, especially as the deadline looms. Tire
 ["CHEF" by XU CW](https://x.com/2H2xO2is2H2O/status/1921125232099651645)
 
 <!-- calli -->
+
+["Lore keepers" by Roronico](https://x.com/roronico1512/status/1919423587532095876)
+
+<!-- calli -->
