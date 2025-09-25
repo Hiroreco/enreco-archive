@@ -1,7 +1,7 @@
 <!-- title: The In-bread Incident -->
 <!-- quote: Can you feel our buns rubbing against you. -->
 <!-- chapters: 1 -->
-<!-- images: ("What if... they're siblings?" Gonathon exclaimed), (The founding of the In-bread cult) -->
+<!-- images: ("What if... they're siblings?" Gonathon exclaimed), (The In-bread cult hunting for new members) -->
 <!-- model: false -->
 
 ## Overview

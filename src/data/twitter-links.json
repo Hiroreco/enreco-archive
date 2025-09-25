@@ -92,18 +92,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/roronico1512/status/1919423587532095876",
-    "label": "\"Lore keepers\"",
-    "author": "roronico1512",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "calli",
-      "kiara"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/liapandaaaa/status/1827543495890104368",
     "label": "\"ENigmatic Recollection\"",
     "author": "liapandaaaa",
@@ -785,7 +773,15 @@
     "author": "jabah_lavah",
     "chapter": 0,
     "day": 1,
-    "characters": [],
+    "characters": [
+      "kronii",
+      "gigi",
+      "ame",
+      "irys",
+      "ina",
+      "shiori",
+      "bijou"
+    ],
     "type": "meme"
   },
   {
@@ -2946,6 +2942,18 @@
     "url": "https://x.com/2h2xo2is2h2o/status/1921125232099651645",
     "label": "\"CHEF\"",
     "author": "2h2xo2is2h2o",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "kiara",
+      "calli"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/roronico1512/status/1919423587532095876",
+    "label": "\"Lore keepers\"",
+    "author": "roronico1512",
     "chapter": 1,
     "day": 0,
     "characters": [

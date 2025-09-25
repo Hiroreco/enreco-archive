@@ -23,7 +23,7 @@ const CreditBlock = ({
                 {icon}
                 {t(role)}
             </div>
-            <ul className="list-disc mt-2 text-left sm:text-left">
+            <ul className="list-disc mt-2">
                 {contributors.map((contributor, index) => (
                     <li
                         className="flex gap-2 justify-center sm:justify-start"
@@ -60,22 +60,32 @@ const ViewInfoCredits = () => {
     const otherCredits = CONTRIBUTORS.filter(
         (credit) =>
             credit.role !== "Archive Writer" &&
-            credit.role !== "Archive Assistant",
+            credit.role !== "Archive Assistant" &&
+            credit.role !== "Project Lead" &&
+            credit.role !== "Main Developer" &&
+            credit.role !== "Quality Assurance",
     );
+
     return (
         <div className="flex flex-col gap-4">
             <span className="font-bold text-3xl mt-4">{t("title")}</span>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
-                {otherCredits.map((credit) => (
+                {CONTRIBUTORS.filter(
+                    (credit) =>
+                        credit.role === "Project Lead" ||
+                        credit.role === "Main Developer" ||
+                        credit.role === "Quality Assurance",
+                ).map((credit, index) => (
                     <CreditBlock
-                        key={credit.role}
+                        key={index}
                         role={credit.role}
-                        contributors={credit.contributors}
                         icon={credit.icon}
+                        contributors={credit.contributors}
                     />
                 ))}
             </div>
 
+            {/* Archivers */}
             <div className="grid lg:grid-cols-2 gap-4">
                 <div className="flex flex-col lg:items-center gap-2">
                     <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
@@ -105,12 +115,13 @@ const ViewInfoCredits = () => {
                         )}
                     </div>
                 </div>
+
                 <div className="flex flex-col lg:mx-auto gap-2">
                     <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
                         {archiveAssistants[0].icon}
                         {tRoles(archiveAssistants[0].role)}
                     </div>
-                    <div className="grid gap-2 text-center sm:text-left">
+                    <div className="grid sm:grid-cols-2 gap-2 text-center sm:text-left">
                         {archiveAssistants[0].contributors.map(
                             (contributor, index) => (
                                 <div
@@ -133,6 +144,17 @@ const ViewInfoCredits = () => {
                         )}
                     </div>
                 </div>
+            </div>
+
+            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+                {otherCredits.map((credit) => (
+                    <CreditBlock
+                        key={credit.role}
+                        role={credit.role}
+                        contributors={credit.contributors}
+                        icon={credit.icon}
+                    />
+                ))}
             </div>
 
             <div className="font-bold text-center sm:text-left">
