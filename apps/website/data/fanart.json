@@ -305,27 +305,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/roronico1512/status/1919423587532095876",
-    "label": "\"Lore keepers\"",
-    "author": "roronico1512",
-    "chapter": 0,
-    "day": 0,
-    "characters": [
-      "calli",
-      "kiara"
-    ],
-    "images": [
-      {
-        "src": "images-opt/roronico1512-1919423587532095876-0-opt.webp",
-        "width": 1926,
-        "height": 1080,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/mocailla/status/1831321461212189031",
     "label": "\"START AGAIN\"",
     "author": "mocailla",
@@ -920,6 +899,32 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/jabah_lavah/status/1830486510552113652",
+    "label": "\"Let us all congratulate the newly weds!\"",
+    "author": "jabah_lavah",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "ame",
+      "ina",
+      "irys",
+      "kronii",
+      "bijou",
+      "shiori",
+      "gigi"
+    ],
+    "images": [
+      {
+        "src": "images-opt/jabah_lavah-1830486510552113652-0-opt.webp",
+        "width": 750,
+        "height": 500,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "meme"
+  },
+  {
     "url": "https://x.com/hiroavrs/status/1830628289926557835",
     "label": "\"The Appointed Points\"",
     "author": "hiroavrs",
@@ -1334,24 +1339,6 @@
         "type": "video"
       }
     ],
-    "type": "meme"
-  },
-  {
-    "url": "https://x.com/jabah_lavah/status/1830486510552113652",
-    "label": "\"Let us all congratulate the newly weds!\"",
-    "author": "jabah_lavah",
-    "chapter": 0,
-    "day": 1,
-    "characters": [],
-    "images": [
-      {
-        "src": "images-opt/jabah_lavah-1830486510552113652-0-opt.webp",
-        "width": 750,
-        "height": 500,
-        "type": "image"
-      }
-    ],
-    "videos": [],
     "type": "meme"
   },
   {
@@ -4791,6 +4778,27 @@
         "src": "images-opt/2h2xo2is2h2o-1921125232099651645-0-opt.webp",
         "width": 2480,
         "height": 3508,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/roronico1512/status/1919423587532095876",
+    "label": "\"Lore keepers\"",
+    "author": "roronico1512",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "calli",
+      "kiara"
+    ],
+    "images": [
+      {
+        "src": "images-opt/roronico1512-1919423587532095876-0-opt.webp",
+        "width": 1926,
+        "height": 1080,
         "type": "image"
       }
     ],
