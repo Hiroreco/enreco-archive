@@ -54,7 +54,7 @@ const ViewChapterRecapModal = ({
     console.log(sections, sectionIds);
 
     const activeSection = useScrollSpy(sectionIds);
-    const backdropFiler = useSettingStore((state) => state.backdropFilter);
+    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -126,7 +126,7 @@ const ViewChapterRecapModal = ({
             <DialogContent
                 className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
                 showXButton={true}
-                backdropFilter={backdropFiler}
+                backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
                     <DialogHeader>

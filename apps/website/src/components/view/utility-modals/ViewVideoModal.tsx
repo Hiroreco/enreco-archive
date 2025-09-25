@@ -27,7 +27,7 @@ const ViewVideoModal = ({
 }: ViewVideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const playBGM = useAudioStore((state) => state.playBGM);
-    const backdropFiler = useSettingStore((state) => state.backdropFilter);
+    const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const handleOpenChange = useCallback(
         (newOpen: boolean) => {
             if (!newOpen) {
@@ -45,14 +45,14 @@ const ViewVideoModal = ({
             </VisuallyHidden>
 
             <DialogContent
-                backdropFilter={backdropFiler}
+                backdropFilter={backdropFilter}
                 // When we have the video dialog open on mobile, if we flip from portrait -> landscape -> portrait
                 // the overlay for some reason targets the drawer instead of this modal, so tapping outsite would close the drawer instead of the modal
                 // so we're adding a custom overlay to prevent that
                 // TODO: Remove this when we have a better solution
                 customOverlay={
                     <DialogOverlay
-                        backdropFilter={backdropFiler}
+                        backdropFilter={backdropFilter}
                         onPointerDown={(e) => {
                             e.stopPropagation();
                             e.preventDefault();
