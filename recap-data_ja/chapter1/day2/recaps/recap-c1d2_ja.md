@@ -37,3 +37,5 @@
 ## ミーム
 
 ["Let us all congratulate the newly weds!" by Jabah](https://x.com/jabah_lavah/status/1830486510552113652)
+
+<!-- kronii, gigi, ame, irys, ina, shiori, bijou -->
