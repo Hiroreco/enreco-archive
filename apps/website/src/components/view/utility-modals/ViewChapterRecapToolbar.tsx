@@ -35,7 +35,19 @@ const ViewChapterRecapToolbar = ({
         onSectionChange(sectionId);
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            // Get the scroll container (the modal's content area)
+            const container = element.closest('.overflow-auto') as HTMLElement;
+            if (container) {
+                const elementTop = element.offsetTop;
+                const offsetWithPadding = elementTop - 0; // Add padding from top
+                container.scrollTo({
+                    top: Math.max(0, offsetWithPadding),
+                    behavior: "smooth",
+                });
+            } else {
+                // Fallback to original method if container not found
+                element.scrollIntoView({ behavior: "smooth" });
+            }
         }
     };
 

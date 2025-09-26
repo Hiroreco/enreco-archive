@@ -21,10 +21,33 @@ const ViewSectionJumper = ({ content, className }: ViewSectionJumperProps) => {
     const handleSectionClick = (sectionId: string) => {
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-            });
+            // Check if on desktop
+            const isDesktop = window.innerWidth >= 768;
+            
+            if (isDesktop) {
+                // Desktop: use scrollTo
+                const desktopContainer = document.getElementById("glossary-viewer-content-container");
+                if (desktopContainer) {
+                    const elementTop = element.offsetTop;
+                    const offsetWithPadding = elementTop - 0; // Add padding from top
+                    desktopContainer.scrollTo({
+                        top: Math.max(0, offsetWithPadding),
+                        behavior: "smooth",
+                    });
+                } else {
+                    // Fallback to scrollIntoView
+                    element.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
+                }
+            } else {
+                // Mobile: use scrollIntoView
+                element.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                });
+            }
         }
     };
 
