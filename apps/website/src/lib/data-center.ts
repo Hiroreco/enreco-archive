@@ -10,6 +10,7 @@ import siteMeta from "#/metadata.json";
 
 import chapter0_en from "#/en/chapter0_en.json";
 import chapter1_en from "#/en/chapter1_en.json";
+// import chapter2_en from "#/en/chapter2_en.json";
 import chapter0_ja from "#/ja/chapter0_ja.json";
 import chapter1_ja from "#/ja/chapter1_ja.json";
 
@@ -59,7 +60,11 @@ interface LocalizedData {
 
 const DATA: Record<Locale, LocalizedData> = {
     en: {
-        chapters: [chapter0_en as Chapter, chapter1_en as Chapter],
+        chapters: [
+            chapter0_en as Chapter,
+            chapter1_en as Chapter,
+            // chapter2_en as Chapter,
+        ],
         textData: textData_en as TextData,
         glossary: {
             weapons: weapons_en,
