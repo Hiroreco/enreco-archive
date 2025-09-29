@@ -1,0 +1,517 @@
+{
+  "numberOfDays": 1,
+  "title": "Broken Bonds",
+  "charts": [
+    {
+      "dayRecap": "Chapter 3 - Day 1",
+      "title": "Chapter 3 - Day 1",
+      "nodes": [
+        {
+          "id": "fuwawa",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 500
+          },
+          "data": {
+            "title": "Fuwawa Abyssguard",
+            "content": "",
+            "imageSrc": "images-opt/node-fuwawa-opt.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#67b2ff"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "mococo",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 500
+          },
+          "data": {
+            "title": "Mococo Abyssguard",
+            "content": "",
+            "imageSrc": "images-opt/node-mococo-opt.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#f7a6ca"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "liz",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 800
+          },
+          "data": {
+            "title": "Elizabeth Rose Bloodflame",
+            "content": "",
+            "imageSrc": "images-opt/node-liz-opt.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#d46759"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "kiara",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 300
+          },
+          "data": {
+            "title": "Tanakisha Karia",
+            "content": "",
+            "imageSrc": "images-opt/node-kiara-opt.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#ff511c"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "bae",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 500
+          },
+          "data": {
+            "title": "Peasant The Bae",
+            "content": "",
+            "imageSrc": "images-opt/node-bae-opt.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#ff675d"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "raora",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 300
+          },
+          "data": {
+            "title": "Roa Pandora",
+            "content": "",
+            "imageSrc": "images-opt/node-raora-opt.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#f087a9"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "calli",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 500
+          },
+          "data": {
+            "title": "Mordan Ramsey",
+            "content": "",
+            "imageSrc": "images-opt/node-calli-opt.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#c90d40"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "shiori",
+          "type": "image",
+          "position": {
+            "x": 850,
+            "y": 650
+          },
+          "data": {
+            "title": "Shiori Nyavella",
+            "content": "",
+            "imageSrc": "images-opt/node-shiori-opt.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#b8a0cd"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "cecilia",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 300
+          },
+          "data": {
+            "title": "Cecilia Immerkind",
+            "content": "",
+            "imageSrc": "images-opt/node-cecilia-opt.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#119a5c"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nerissa",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 800
+          },
+          "data": {
+            "title": "Nerissa Juliet Ravencroft",
+            "content": "",
+            "imageSrc": "images-opt/node-nerissa-opt.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#2233fb"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "bijou",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 800
+          },
+          "data": {
+            "title": "Koseki Bijou",
+            "content": "",
+            "imageSrc": "images-opt/node-bijou-opt.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#6e5bf4"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "gigi",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 1000
+          },
+          "data": {
+            "title": "Gonathon G",
+            "content": "",
+            "imageSrc": "images-opt/node-gigi-opt.webp",
+            "teamId": "smith",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#fdb440"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "irys",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 1000
+          },
+          "data": {
+            "title": "Hot Pink One",
+            "content": "",
+            "imageSrc": "images-opt/node-irys-opt.webp",
+            "teamId": "chef",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#e10e5b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "ina",
+          "type": "image",
+          "position": {
+            "x": 1225,
+            "y": 800
+          },
+          "data": {
+            "title": "NinoIna",
+            "content": "",
+            "imageSrc": "images-opt/node-ina-opt.webp",
+            "teamId": "jeweler",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#4c3f5a"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "kronii",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 1000
+          },
+          "data": {
+            "title": "Tam Gandr",
+            "content": "",
+            "imageSrc": "images-opt/node-kronii-opt.webp",
+            "teamId": "supplier",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#6879c7"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "iphania",
+          "type": "image",
+          "position": {
+            "x": 1000,
+            "y": 50
+          },
+          "data": {
+            "title": "Princess Iphania",
+            "content": "",
+            "imageSrc": "/images-opt/node-iphania-opt.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#dea677"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "fia",
+          "type": "image",
+          "position": {
+            "x": 700,
+            "y": 50
+          },
+          "data": {
+            "title": "Fia",
+            "content": "",
+            "imageSrc": "/images-opt/node-fia-opt.webp",
+            "teamId": "none",
+            "status": "Alive",
+            "day": 0,
+            "bgCardColor": "#2b353b"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "lore",
+          "type": "image",
+          "position": {
+            "x": 475,
+            "y": 50
+          },
+          "data": {
+            "title": "Lore Summary",
+            "content": "",
+            "imageSrc": "/images-opt/node-lore-opt.webp",
+            "teamId": "none",
+            "status": "None",
+            "day": 0,
+            "bgCardColor": "#949aba"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": []
+    }
+  ],
+  "teams": {
+    "none": {
+      "id": "none",
+      "name": "None",
+      "teamIconSrc": "images-opt/emblem-opt.webp"
+    },
+    "supplier": {
+      "id": "supplier",
+      "name": "Supplier",
+      "teamIconSrc": "images-opt/ch2_jobs_supplier-opt.webp"
+    },
+    "chef": {
+      "id": "chef",
+      "name": "Chef",
+      "teamIconSrc": "images-opt/ch2_jobs_chef-opt.webp"
+    },
+    "jeweler": {
+      "id": "jeweler",
+      "name": "Jeweler",
+      "teamIconSrc": "images-opt/ch2_jobs_jeweler-opt.webp"
+    },
+    "smith": {
+      "id": "smith",
+      "name": "Smith",
+      "teamIconSrc": "images-opt/ch2_jobs_smith-opt.webp"
+    }
+  },
+  "relationships": {
+    "marriage": {
+      "id": "marriage",
+      "name": "Marriage",
+      "style": {
+        "stroke": "#ec1380"
+      }
+    },
+    "enemy": {
+      "id": "enemy",
+      "name": "Enemy",
+      "style": {
+        "stroke": "#e30d0d"
+      }
+    },
+    "unrequited-love": {
+      "id": "unrequited-love",
+      "name": "Unrequited Love",
+      "style": {
+        "stroke": "#4f80f0",
+        "strokeDasharray": ""
+      }
+    },
+    "romantic": {
+      "id": "romantic",
+      "name": "Romantic",
+      "style": {
+        "stroke": "#fe85ec",
+        "strokeDasharray": "10,10"
+      }
+    },
+    "family": {
+      "id": "family",
+      "name": "Family",
+      "style": {
+        "stroke": "#375aa0",
+        "strokeDasharray": ""
+      }
+    },
+    "protector": {
+      "id": "protector",
+      "name": "Protector",
+      "style": {
+        "stroke": "#06a84b"
+      }
+    },
+    "no-longer-together": {
+      "id": "no-longer-together",
+      "name": "No Longer Together",
+      "style": {
+        "stroke": "#c96163"
+      }
+    },
+    "alliance": {
+      "id": "alliance",
+      "name": "Alliance",
+      "style": {
+        "stroke": "#ecbe5b"
+      }
+    }
+  },
+  "bgiSrc": "/images-opt/bg-1-opt.webp",
+  "bgmSrc": "/audio/bgm/bgm-1.mp3"
+}

@@ -27,8 +27,4 @@ _ステインキング_ との激戦の中、カリの武器である[大鎌](ht
 
 ["The Underworld Calls" by nino](https://x.com/2nochuu/status/1902511940938952880)
 
-["Lore keepers" by Roronico](https://x.com/roronico1512/status/1919423587532095876)
-
-<!-- kiara -->
-
 ["ENigmatic Recollection" by Lia](https://x.com/liapandaaaa/status/1827543495890104368)
