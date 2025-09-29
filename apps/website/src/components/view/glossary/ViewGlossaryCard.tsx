@@ -50,6 +50,8 @@ import ViewSectionJumper from "@/components/view/glossary/ViewSectionJumper";
 import ViewGlossaryInfo from "@/components/view/glossary/ViewGlossaryInfo";
 import { useTranslations } from "next-intl";
 
+const NUM_OF_CHAPTERS = 2;
+
 interface ViewGlossaryCardProps {
     className?: string;
     bgImage: string;
@@ -339,14 +341,18 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             <SelectItem value={"-1"}>
                                 {tCommon("allChapters")}
                             </SelectItem>
-                            {[...Array(2).keys()].map((chapter) => (
-                                <SelectItem
-                                    key={chapter}
-                                    value={chapter.toString()}
-                                >
-                                    {tCommon("chapter", { val: chapter + 1 })}
-                                </SelectItem>
-                            ))}
+                            {[...Array(NUM_OF_CHAPTERS).keys()].map(
+                                (chapter) => (
+                                    <SelectItem
+                                        key={chapter}
+                                        value={chapter.toString()}
+                                    >
+                                        {tCommon("chapter", {
+                                            val: chapter + 1,
+                                        })}
+                                    </SelectItem>
+                                ),
+                            )}
                         </SelectContent>
                     </Select>
                 </div>

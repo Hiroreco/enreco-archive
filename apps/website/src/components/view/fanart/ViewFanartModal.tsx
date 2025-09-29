@@ -529,8 +529,14 @@ const ViewFanartModal = ({
 
     useEffect(() => {
         setSelectedDay(day.toString() || "all");
-        setSelectedChapter(chapter.toString() || "all");
-    }, [day, chapter]);
+        // If the fanart json's max chapter is < the selected chapter, set to latest available chapter
+        if (
+            selectedChapter !== "all" &&
+            Math.max(...chapters) < parseInt(selectedChapter)
+        ) {
+            setSelectedChapter(chapters[chapters.length - 1].toString());
+        }
+    }, [day, chapter, chapters, selectedChapter]);
 
     useEffect(() => {
         if (!open) {
