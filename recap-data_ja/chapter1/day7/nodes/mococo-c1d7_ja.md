@@ -33,7 +33,7 @@
 
 ## ファンアート
 
-["Today's FUWAMOCO](https://x.com/fukuinu_daddy/status/1832281930748064239)
+["Today's FUWAMOCO" by fukuinu](https://x.com/fukuinu_daddy/status/1832281930748064239)
 
 <!-- fuwawa -->
 

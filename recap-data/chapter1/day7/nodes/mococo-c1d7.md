@@ -33,7 +33,7 @@ To ensure their safety, Mococo built a small shelter for the two of them to hide
 
 ## Fanart
 
-["Today's FUWAMOCO](https://x.com/fukuinu_daddy/status/1832281930748064239)
+["Today's FUWAMOCO" by fukuinu](https://x.com/fukuinu_daddy/status/1832281930748064239)
 
 <!-- fuwawa -->
 
