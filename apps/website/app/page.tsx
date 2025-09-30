@@ -7,13 +7,13 @@ import { I18nProvider } from "../src/contexts/I18nProvider";
 export const metadata: Metadata = {
     title: "ENreco Archive",
     icons: [
-        { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" },
-        { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" },
-        { rel: "icon", url: "/favicon.ico" },
-        { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-        { rel: "mask-icon", url: "/safari-pinned-tab.svg" },
+        { rel: "icon", url: "icons/icon-32x32.png", sizes: "32x32" },
+        { rel: "icon", url: "icons/icon-16x16.png", sizes: "16x16" },
+        { rel: "icon", url: "icons/icon.ico" },
+        { rel: "apple-touch-icon", url: "icons/icon-180x180.png" },
+        { rel: "mask-icon", url: "icons/safari-pinned-tab.svg" },
     ],
-    manifest: "/site.webmanifest",
+    manifest: "/manifest.json",
     description:
         "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of ENigmatic Recollection. From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
     keywords: [
