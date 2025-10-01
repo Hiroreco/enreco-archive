@@ -20,6 +20,7 @@
         "start": "next start"
     },
     "dependencies": {
+        "@ducanh2912/next-pwa": "^10.2.9",
         "@enreco-archive/common": "workspace:*",
         "@enreco-archive/common-ui": "workspace:*",
         "@enreco-archive/markdown-extensions": "workspace:*",
@@ -40,7 +41,6 @@
         "lucide-react": "catalog:",
         "next": "catalog:",
         "next-intl": "^4.3.5",
-        "next-pwa": "^5.6.0",
         "react": "catalog:",
         "react-device-detect": "^2.2.3",
         "react-dom": "catalog:",
