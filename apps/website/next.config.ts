@@ -6,6 +6,15 @@ const withPWA = require("@ducanh2912/next-pwa").default({
     disable: process.env.NODE_ENV === "development",
     register: true,
     skipWaiting: true,
+    workboxOptions: {
+        disableDevLogs: true,
+        cleanupOutdatedCaches: true,
+        // Add additional precache entries
+        additionalManifestEntries: [{ url: "/index.html", revision: null }],
+        // Handle navigation requests
+        navigateFallback: "/index.html",
+        navigateFallbackDenylist: [/^\/_/, /\/[^/?]+\.[^/]+$/],
+    },
 });
 
 const nextConfig = {
