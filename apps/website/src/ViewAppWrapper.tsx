@@ -19,6 +19,7 @@ import { useSettingStore } from "./store/settingStore";
 import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
 import { LS_CURRENT_VERSION, LS_CURRENT_VERSION_KEY } from "@/lib/constants";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
+import PWAInstallPrompt from "@/components/view/basic-modals/PWAInstallPrompt";
 
 type AppType = "chart" | "glossary";
 
@@ -67,6 +68,7 @@ export const ViewAppWrapper = () => {
     return (
         <div>
             <ViewTranslationDislaimerModal />
+            <PWAInstallPrompt />
 
             {isLoading && (
                 <ViewLoadingPage
