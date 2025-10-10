@@ -24,6 +24,7 @@ import {
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { useTranslations } from "next-intl";
+import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 
 interface Props {
     isCardOpen: boolean;
@@ -94,7 +95,7 @@ const ViewNodeCard = ({
         );
     }
 
-    const availiableNodes = [];
+    const availiableNodes: ImageNodeType[] = [];
     for (const chart of charts) {
         for (const node of chart.nodes) {
             if (node.id === selectedNode.id) {
@@ -200,7 +201,37 @@ const ViewNodeCard = ({
                     >
                         {selectedNode?.data.content || tNodeCard("noContent")}
                     </ViewMarkdown>
-                    <Separator className="mt-4" />
+                    <Separator className="my-4" />
+                    <PrevNextDayNavigation
+                        onPreviousDayClick={() => {
+                            const currentIndex = availiableNodes.findIndex(
+                                (n) => n.data.day === selectedNode.data.day,
+                            );
+                            if (currentIndex > 0) {
+                                const previousNode =
+                                    availiableNodes[currentIndex - 1];
+                                onDayChange(previousNode.data.day);
+                            }
+                        }}
+                        onNextDayClick={() => {
+                            const currentIndex = availiableNodes.findIndex(
+                                (n) => n.data.day === selectedNode.data.day,
+                            );
+                            if (currentIndex < availiableNodes.length - 1) {
+                                const nextNode =
+                                    availiableNodes[currentIndex + 1];
+                                onDayChange(nextNode.data.day);
+                            }
+                        }}
+                        disablePreviousDay={
+                            selectedNode.data.day ===
+                            Math.min(...availiableNodes.map((n) => n.data.day))
+                        }
+                        disableNextDay={
+                            selectedNode.data.day ===
+                            Math.max(...availiableNodes.map((n) => n.data.day))
+                        }
+                    />
                     <ReadMarker read={isNodeRead} setRead={onReadChange} />
                 </div>
             </div>
