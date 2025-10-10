@@ -25,6 +25,7 @@ import {
 } from "@/store/persistedViewStore";
 import { useTranslations } from "next-intl";
 import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface Props {
     isCardOpen: boolean;
@@ -113,7 +114,10 @@ const ViewNodeCard = ({
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <div className="h-full w-full overflow-auto px-2" ref={contentRef}>
+            <div
+                className="h-full w-full overflow-auto scroll-smooth px-2"
+                ref={contentRef}
+            >
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
                     <Stack className="w-full">
@@ -193,14 +197,25 @@ const ViewNodeCard = ({
                             node={selectedNode}
                         />
                     </div>
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={day} // Change key to trigger animation
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <ViewMarkdown
+                                onEdgeLinkClicked={onEdgeLinkClicked}
+                                onNodeLinkClicked={onNodeLinkClicked}
+                                className="md:px-4 px-2"
+                            >
+                                {selectedNode?.data.content ||
+                                    tNodeCard("noContent")}
+                            </ViewMarkdown>
+                        </motion.div>
+                    </AnimatePresence>
 
-                    <ViewMarkdown
-                        onEdgeLinkClicked={onEdgeLinkClicked}
-                        onNodeLinkClicked={onNodeLinkClicked}
-                        className="md:px-4 px-2"
-                    >
-                        {selectedNode?.data.content || tNodeCard("noContent")}
-                    </ViewMarkdown>
                     <Separator className="my-4" />
                     <PrevNextDayNavigation
                         onPreviousDayClick={() => {
