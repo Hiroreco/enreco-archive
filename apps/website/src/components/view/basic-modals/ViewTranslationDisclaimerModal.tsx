@@ -1,4 +1,4 @@
-import { LS_HAS_VISITED_TRANSLATION_DISCLAIMER } from "@/lib/constants";
+import { LS_KEYS } from "@/lib/constants";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
@@ -25,11 +25,14 @@ const ViewTranslationDislaimerModal = () => {
             return;
         }
         const hasVisited = localStorage.getItem(
-            LS_HAS_VISITED_TRANSLATION_DISCLAIMER,
+            LS_KEYS.HAS_VISITED_TRANSLATION_DISCLAIMER,
         );
         if (hasVisited !== "true") {
             setOpen(true);
-            localStorage.setItem(LS_HAS_VISITED_TRANSLATION_DISCLAIMER, "true");
+            localStorage.setItem(
+                LS_KEYS.HAS_VISITED_TRANSLATION_DISCLAIMER,
+                "true",
+            );
         }
     }, [locale]);
 

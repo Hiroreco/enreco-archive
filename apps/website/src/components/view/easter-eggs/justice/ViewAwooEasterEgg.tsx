@@ -2,7 +2,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
-import { LS_AWOO_EASTER_EGG_COUNT } from "@/lib/constants";
+import { LS_KEYS } from "@/lib/constants";
 
 const ViewAwooEasterEgg = () => {
     const { playSFX } = useAudioStore();
@@ -16,7 +16,7 @@ const ViewAwooEasterEgg = () => {
     const MAX_CLICKS_PER_SECOND = 30;
 
     useEffect(() => {
-        const savedCount = localStorage.getItem(LS_AWOO_EASTER_EGG_COUNT);
+        const savedCount = localStorage.getItem(LS_KEYS.AWOO_EASTER_EGG_COUNT);
         if (savedCount) {
             setClickCount(Math.min(parseInt(savedCount, 10), MAX_CLICKS));
         }
@@ -48,7 +48,10 @@ const ViewAwooEasterEgg = () => {
             const newCount = Math.min(clickCount + 1, MAX_CLICKS);
             setClickCount(newCount);
 
-            localStorage.setItem(LS_AWOO_EASTER_EGG_COUNT, newCount.toString());
+            localStorage.setItem(
+                LS_KEYS.AWOO_EASTER_EGG_COUNT,
+                newCount.toString(),
+            );
         }
 
         playSFX("easter-awoo");

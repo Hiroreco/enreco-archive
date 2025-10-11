@@ -17,8 +17,8 @@ import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
 import { useSettingStore } from "./store/settingStore";
 import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
-import { LS_CURRENT_VERSION, LS_CURRENT_VERSION_KEY } from "@/lib/constants";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
+import { LS_KEYS } from "@/lib/constants";
 
 type AppType = "chart" | "glossary";
 
@@ -56,10 +56,13 @@ export const ViewAppWrapper = () => {
         if (!hasVisitedBefore || isLoading) {
             return;
         }
-        const lsVersion = localStorage.getItem(LS_CURRENT_VERSION_KEY);
-        if (lsVersion !== LS_CURRENT_VERSION) {
+        const lsVersion = localStorage.getItem(LS_KEYS.CURRENT_VERSION_KEY);
+        if (lsVersion !== LS_KEYS.CURRENT_VERSION) {
             openChangeLogModal();
-            localStorage.setItem(LS_CURRENT_VERSION_KEY, LS_CURRENT_VERSION);
+            localStorage.setItem(
+                LS_KEYS.CURRENT_VERSION_KEY,
+                LS_KEYS.CURRENT_VERSION,
+            );
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isLoading, openChangeLogModal]);

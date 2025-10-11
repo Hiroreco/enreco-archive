@@ -1,7 +1,7 @@
 import ViewShioriGameEasterEgg from "@/components/view/easter-eggs/ViewShioriGameEasterEgg";
 import ViewTextModal from "@/components/view/utility-modals/ViewTextModal";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
-import { LS_SHIORI_STASH_UNLOCKED } from "@/lib/constants";
+import { LS_KEYS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
@@ -154,7 +154,7 @@ const ViewShioriGame = () => {
     ];
 
     useEffect(() => {
-        const unlocked = localStorage.getItem(LS_SHIORI_STASH_UNLOCKED);
+        const unlocked = localStorage.getItem(LS_KEYS.SHIORI_STASH_UNLOCKED);
         setIsUnlocked(false);
         if (unlocked === "true") {
             setIsUnlocked(true);
@@ -173,7 +173,7 @@ const ViewShioriGame = () => {
             if (currentQuestion === questions.length - 1) {
                 setIsUnlocked(true);
                 playSFX("unlock");
-                localStorage.setItem(LS_SHIORI_STASH_UNLOCKED, "true");
+                localStorage.setItem(LS_KEYS.SHIORI_STASH_UNLOCKED, "true");
             } else {
                 playSFX("xp");
                 setCurrentQuestion((prev) => prev + 1);
