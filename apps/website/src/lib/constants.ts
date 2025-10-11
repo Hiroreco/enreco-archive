@@ -13,6 +13,3 @@ export const LS_KEYS = {
     CURRENT_VERSION_KEY: "enreco-current-version",
     CURRENT_VERSION: "2025-09-13", // Update this every announcement release
 };
-export const FEATURE_KEYS = {
-    ENABLE_UPDATE_LATER_DISCLAIMER: false,
-};
