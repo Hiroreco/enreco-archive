@@ -367,7 +367,7 @@ const FanartFilters = ({
                                 id="fanart-sort-mode"
                                 size={"sm"}
                                 variant={"outline"}
-                                className={`min-w-32 flex items-center gap-1`}
+                                className={`min-w-36 flex items-center gap-1`}
                                 onClick={() => onSortModeChange(sortMode)}
                                 aria-label={t(
                                     `sortModes.${sortMode}.description`,
