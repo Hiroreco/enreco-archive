@@ -2802,6 +2802,25 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/emicootero/status/1833526793716043979",
+    "label": "\"Who is Gonathon G\"",
+    "author": "emicootero",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "ame",
+      "gigi"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/emicootero-1833526793716043979-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/kei_myon/status/1831699644038181321",
     "label": "Kiara",
     "author": "kei_myon",
@@ -2898,6 +2917,7 @@
     "day": 6,
     "characters": [
       "kronii",
+      "gigi",
       "raora"
     ],
     "images": [
@@ -3012,7 +3032,7 @@
   },
   {
     "url": "https://x.com/fukuinu_daddy/status/1832281930748064239",
-    "label": "\"Today's FUWAMOCO",
+    "label": "\"Today's FUWAMOCO\"",
     "author": "fukuinu_daddy",
     "chapter": 0,
     "day": 6,
@@ -3090,24 +3110,6 @@
       }
     ],
     "videos": [],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/emicootero/status/1833526793716043979",
-    "label": "\"Who is Gonathon G\"",
-    "author": "emicootero",
-    "chapter": 0,
-    "day": 6,
-    "characters": [
-      "gigi"
-    ],
-    "images": [],
-    "videos": [
-      {
-        "src": "https://cdn.enreco-archive.net/emicootero-1833526793716043979-0-opt.mp4",
-        "type": "video"
-      }
-    ],
     "type": "art"
   },
   {
