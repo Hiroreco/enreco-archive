@@ -1241,6 +1241,27 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/koizumi_arata/status/1969136061071663271",
+    "label": "\"⏳💄\"",
+    "author": "koizumi_arata",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "kronii",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/koizumi_arata-1969136061071663271-0-opt.webp",
+        "width": 4096,
+        "height": 2594,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/chalek0/status/1830748696935313524",
     "label": "\"Do it for the library\"",
     "author": "chalek0",
@@ -2100,6 +2121,27 @@
     "type": "meme"
   },
   {
+    "url": "https://x.com/sunfish_blue/status/1974492799308583420",
+    "label": "\"Takovella\"",
+    "author": "sunfish_blue",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "ina",
+      "shiori"
+    ],
+    "images": [
+      {
+        "src": "images-opt/sunfish_blue-1974492799308583420-0-opt.webp",
+        "width": 3000,
+        "height": 3000,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/emicootero/status/1834292754849169648",
     "label": "\"FaunaMart Customer Satisfaction Survey Tape\"",
     "author": "emicootero",
@@ -2202,6 +2244,27 @@
         "type": "video"
       }
     ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1972032316160786471",
+    "label": "\"The Lovers\"",
+    "author": "elisbian_",
+    "chapter": 0,
+    "day": 4,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/elisbian_-1972032316160786471-0-opt.webp",
+        "width": 2389,
+        "height": 4096,
+        "type": "image"
+      }
+    ],
+    "videos": [],
     "type": "art"
   },
   {
@@ -7547,6 +7610,25 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/keiseeaaa/status/1965169134494466439/",
+    "label": "\"PROPHECY\"",
+    "author": "keiseeaaa",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [],
+    "videos": [
+      {
+        "src": "https://cdn.enreco-archive.net/keiseeaaa-1965169134494466439-0-opt.mp4",
+        "type": "video"
+      }
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/cd_usr/status/1922052961083007296",
     "label": "\"Someone under stress meets someone looking pretty\"",
     "author": "cd_usr",
@@ -10682,6 +10764,27 @@
         "src": "images-opt/paw_chie-1962575397662625963-0-opt.webp",
         "width": 1280,
         "height": 2048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/elisbian_/status/1968986008310989190",
+    "label": "\"You've always looked good in red\"",
+    "author": "elisbian_",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "nerissa",
+      "liz"
+    ],
+    "images": [
+      {
+        "src": "images-opt/elisbian_-1968986008310989190-0-opt.webp",
+        "width": 2487,
+        "height": 4096,
         "type": "image"
       }
     ],
