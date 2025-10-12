@@ -3,9 +3,9 @@ import { Input } from "@enreco-archive/common-ui/components/input";
 import React, { useEffect, useState } from "react";
 import * as _ from "lodash";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { LS_GAMBLING_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { useTranslations } from "next-intl";
+import { LS_KEYS } from "@/lib/constants";
 
 const WINNING_MULTIPLIER = {
     "box-blue": 2,
@@ -86,7 +86,7 @@ const ViewGamblingGame = () => {
 
     // Init highscore
     useEffect(() => {
-        const value = localStorage.getItem(LS_GAMBLING_HS);
+        const value = localStorage.getItem(LS_KEYS.GAMBLING_HS);
         if (value) {
             setHighScore(parseInt(value));
         }
@@ -95,7 +95,7 @@ const ViewGamblingGame = () => {
     // Update highscore
     useEffect(() => {
         if (currentBudget > highScore) {
-            localStorage.setItem(LS_GAMBLING_HS, currentBudget.toString());
+            localStorage.setItem(LS_KEYS.GAMBLING_HS, currentBudget.toString());
             setHighScore(currentBudget);
         }
     }, [currentBudget, highScore, setHighScore]);

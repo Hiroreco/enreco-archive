@@ -35,14 +35,15 @@ export default function EntryLink({ itemId, children }: ItemLinkProps) {
             selectItem(entry, scrollPosition);
         }
     }, [entry, selectItem]);
-
     return (
-        <button
-            className="text-accent inline-flex items-center hover:underline hover:underline-offset-2"
+        <span
+            className="text-accent hover:underline hover:underline-offset-2 cursor-pointer font-semibold"
             onClick={handleClick}
         >
-            <span className="italic">{children}</span>
-            <ArrowUpRight />
-        </button>
+            <span className="italic">
+                {children}
+                <ArrowUpRight className="inline size-5" />
+            </span>
+        </span>
     );
 }

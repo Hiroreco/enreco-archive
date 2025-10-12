@@ -36,3 +36,5 @@ Nerissa knew she was getting on Elizabeth’s nerves, and she enjoyed every seco
 ["knight confronts the witch" by DasDokter](https://x.com/DasDokter/status/1831973884461298095)
 
 ["I love my girl failures" by Adlo](https://x.com/WaywardAdlo/status/1832901859667005729)
+
+["The Lovers" by Eli](https://x.com/Elisbian_/status/1972032316160786471)

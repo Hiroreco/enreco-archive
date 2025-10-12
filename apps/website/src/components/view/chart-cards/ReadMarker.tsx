@@ -20,7 +20,7 @@ const ReadMarker = ({ read, setRead }: ReadMarkerProps) => {
     };
 
     return (
-        <div className="mx-auto my-6 w-full flex items-center justify-center gap-2 z-50">
+        <div className="mx-auto mt-4 mb-6 w-full flex items-center justify-center gap-2 z-50">
             <Label className="text-lg" htmlFor="read">
                 {tCommon("markAsRead")}
             </Label>

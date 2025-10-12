@@ -32,9 +32,11 @@ export interface FanartEntry {
         src: string;
     }[];
     type: "art" | "meme";
+    postDate?: string;
 }
 
 export type InclusiveMode = "showAll" | "hasAny" | "hasOnly";
+export type SortMode = "default" | "date";
 
 interface ViewFanartModalProps {
     open: boolean;
@@ -88,6 +90,7 @@ const ViewFanartModal = ({
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] =
         useState<InclusiveMode>("showAll");
+    const [sortMode, setSortMode] = useState<SortMode>("default");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
 
@@ -152,6 +155,12 @@ const ViewFanartModal = ({
                 characterMatch = true;
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
+            } else if (selectedCharacters.includes("bloodraven")) {
+                // Bloodraven means exactly liz and nerissa
+                characterMatch =
+                    entry.characters.length === 2 &&
+                    entry.characters.includes("liz") &&
+                    entry.characters.includes("nerissa");
             } else {
                 if (inclusiveMode === "showAll") {
                     characterMatch =
@@ -193,18 +202,37 @@ const ViewFanartModal = ({
             return characterMatch && chapterMatch && dayMatch && videoMatch;
         });
 
+        // Apply sorting based on sort mode
+        const sorted = [...base].sort((a, b) => {
+            if (sortMode === "date") {
+                // Sort by date (newest first), then fall back to default sorting
+                if (a.postDate && b.postDate) {
+                    return (
+                        new Date(b.postDate).getTime() -
+                        new Date(a.postDate).getTime()
+                    );
+                }
+                // If only one has a date, prioritize the one with date
+                if (a.postDate && !b.postDate) return -1;
+                if (!a.postDate && b.postDate) return 1;
+            }
+            // Leave as-is (original order) for "default" sort mode
+            return 0;
+        });
+
         if (shuffled && shuffledFanart) {
             // Only show shuffled items that match the current filter
-            const filteredIds = new Set(base.map((e) => e.url));
+            const filteredIds = new Set(sorted.map((e) => e.url));
             return shuffledFanart.filter((e) => filteredIds.has(e.url));
         }
-        return base;
+        return sorted;
     }, [
         selectedCharacters,
         selectedChapter,
         selectedDay,
         fanart,
         inclusiveMode,
+        sortMode, // Add this dependency
         videosOnly,
         memesOnly,
         shuffled,
@@ -275,6 +303,7 @@ const ViewFanartModal = ({
         setShuffled(false);
         setShuffledFanart(null);
         setCurrentPage(1);
+        setSortMode("default");
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -511,7 +540,10 @@ const ViewFanartModal = ({
         if (
             !selectedCharacters.includes("all") &&
             selectedCharacters.some(
-                (char) => char !== "various" && !characters.includes(char),
+                (char) =>
+                    char !== "various" &&
+                    char !== "bloodraven" &&
+                    !characters.includes(char),
             )
         ) {
             setSelectedCharacters(["all"]);
@@ -528,7 +560,6 @@ const ViewFanartModal = ({
     }, [selectedCharacters]);
 
     useEffect(() => {
-        setSelectedDay(day.toString() || "all");
         // If the fanart json's max chapter is < the selected chapter, set to latest available chapter
         if (
             selectedChapter !== "all" &&
@@ -536,7 +567,11 @@ const ViewFanartModal = ({
         ) {
             setSelectedChapter(chapters[chapters.length - 1].toString());
         }
-    }, [day, chapter, chapters, selectedChapter]);
+    }, [chapter, chapters, selectedChapter]);
+
+    useEffect(() => {
+        setSelectedDay(day.toString() || "all");
+    }, [day]);
 
     useEffect(() => {
         if (!open) {
@@ -609,6 +644,12 @@ const ViewFanartModal = ({
                                 } else {
                                     setInclusiveMode("showAll");
                                 }
+                            }}
+                            sortMode={sortMode}
+                            onSortModeChange={() => {
+                                setSortMode(
+                                    sortMode === "default" ? "date" : "default",
+                                );
                             }}
                             videosOnly={videosOnly}
                             onVideosOnlyChange={setVideosOnly}

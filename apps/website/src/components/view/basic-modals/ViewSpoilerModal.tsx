@@ -1,4 +1,3 @@
-import { LS_HAS_VISITED_GLOSSARY } from "@/lib/constants";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Siren } from "lucide-react";
 import {
@@ -13,16 +12,17 @@ import {
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { LS_KEYS } from "@/lib/constants";
 
 const ViewSpoilerModal = () => {
     const t = useTranslations("glossary.spoilers");
 
     const [open, setOpen] = useState(false);
     useEffect(() => {
-        const hasVisited = localStorage.getItem(LS_HAS_VISITED_GLOSSARY);
+        const hasVisited = localStorage.getItem(LS_KEYS.HAS_VISITED_GLOSSARY);
         if (hasVisited !== "true") {
             setOpen(true);
-            localStorage.setItem(LS_HAS_VISITED_GLOSSARY, "true");
+            localStorage.setItem(LS_KEYS.HAS_VISITED_GLOSSARY, "true");
         }
     }, []);
     return (

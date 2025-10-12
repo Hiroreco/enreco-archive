@@ -22,3 +22,5 @@
 [Hug by Puniki](https://x.com/Puniki_XIV/status/1926153741314478419)
 
 ["Tranquil Times" by pawchie](https://x.com/paw_chie/status/1925982006686503291)
+
+["PROPHECY" by Keisea](https://x.com/Keiseeaaa/status/1965169134494466439/)

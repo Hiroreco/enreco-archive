@@ -1,11 +1,11 @@
 import { Button } from "@enreco-archive/common-ui/components/button";
-import { LS_MEMORY_HS } from "@/lib/constants";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import _ from "lodash";
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
 import { useTranslations } from "next-intl";
+import { LS_KEYS } from "@/lib/constants";
 
 const COLOR_MAP: { [key: number]: string } = {
     [-1]: "box-empty",
@@ -186,7 +186,7 @@ const ViewMemoryGame = () => {
 
     // Set initial high score from local storage
     useEffect(() => {
-        const value = localStorage.getItem(LS_MEMORY_HS);
+        const value = localStorage.getItem(LS_KEYS.MEMORY_HS);
         if (value) {
             setHighScore(parseInt(value));
         }
@@ -195,7 +195,7 @@ const ViewMemoryGame = () => {
     // Update high score
     useEffect(() => {
         if (score > highScore) {
-            localStorage.setItem(LS_MEMORY_HS, score.toString());
+            localStorage.setItem(LS_KEYS.MEMORY_HS, score.toString());
             setHighScore(score);
         }
     }, [score, highScore, setHighScore]);

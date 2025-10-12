@@ -30,6 +30,8 @@ import {
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { useTranslations } from "next-intl";
+import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface Props {
     isCardOpen: boolean;
@@ -104,7 +106,7 @@ const ViewEdgeCard = ({
         if (node) {
             onNodeLinkClicked(node);
         }
-    }; 
+    };
 
     const renderContent =
         selectedEdge !== null &&
@@ -124,7 +126,7 @@ const ViewEdgeCard = ({
 
     const isEdgeRead = getReadStatus(readStatus, chapter, day, selectedEdge.id);
 
-    const availiableEdges = [];
+    const availiableEdges: FixedEdgeType[] = [];
     for (const chart of charts) {
         for (const edge of chart.edges) {
             if (edge.id === selectedEdge.id) {
@@ -143,7 +145,10 @@ const ViewEdgeCard = ({
             onWidthChange={handleCardWidthChange}
             disableScrollablity={false}
         >
-            <div className="h-full w-full overflow-auto px-2" ref={contentRef}>
+            <div
+                className="h-full w-full overflow-auto scroll-smooth px-2"
+                ref={contentRef}
+            >
                 {/* Header */}
                 <div className="flex flex-col items-center">
                     <Stack className="w-full">
@@ -169,7 +174,9 @@ const ViewEdgeCard = ({
                                 <button
                                     type="button"
                                     className="focus:outline-none"
-                                    onClick={() => handleNodeIconClick(selectedEdge.source)}
+                                    onClick={() =>
+                                        handleNodeIconClick(selectedEdge.source)
+                                    }
                                     title={nodeA.data.title || "View node"}
                                 >
                                     <Image
@@ -195,7 +202,9 @@ const ViewEdgeCard = ({
                                 <button
                                     type="button"
                                     className="focus:outline-none"
-                                    onClick={() => handleNodeIconClick(selectedEdge.target)}
+                                    onClick={() =>
+                                        handleNodeIconClick(selectedEdge.target)
+                                    }
                                     title={nodeB.data.title || "View node"}
                                 >
                                     <Image
@@ -251,14 +260,71 @@ const ViewEdgeCard = ({
                             showTitle={true}
                         />
                     )}
-                    <ViewMarkdown
-                        onEdgeLinkClicked={onEdgeLinkClicked}
-                        onNodeLinkClicked={onNodeLinkClicked}
-                        className="md:px-4 px-2"
-                    >
-                        {selectedEdge.data?.content || "No content available"}
-                    </ViewMarkdown>
-                    <Separator className="mt-4" />
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={day} // Change key to trigger animation
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <ViewMarkdown
+                                onEdgeLinkClicked={onEdgeLinkClicked}
+                                onNodeLinkClicked={onNodeLinkClicked}
+                                className="md:px-4 px-2"
+                            >
+                                {selectedEdge.data?.content ||
+                                    "No content available"}
+                            </ViewMarkdown>
+                        </motion.div>
+                    </AnimatePresence>
+
+                    <Separator className="my-4" />
+                    <PrevNextDayNavigation
+                        onPreviousDayClick={() => {
+                            const currentIndex = availiableEdges.findIndex(
+                                (n) => n.data?.day === selectedEdge.data?.day,
+                            );
+                            if (currentIndex > 0) {
+                                const previousEdge =
+                                    availiableEdges[currentIndex - 1];
+                                if (previousEdge.data?.day !== undefined) {
+                                    onDayChange(previousEdge.data.day);
+                                }
+                            }
+                        }}
+                        onNextDayClick={() => {
+                            const currentIndex = availiableEdges.findIndex(
+                                (n) => n.data?.day === selectedEdge.data?.day,
+                            );
+                            if (currentIndex < availiableEdges.length - 1) {
+                                const nextEdge =
+                                    availiableEdges[currentIndex + 1];
+                                if (nextEdge.data?.day !== undefined) {
+                                    onDayChange(nextEdge.data.day);
+                                }
+                            }
+                        }}
+                        disablePreviousDay={
+                            selectedEdge.data?.day ===
+                            Math.min(
+                                ...availiableEdges.map(
+                                    (n) =>
+                                        n.data?.day ?? Number.POSITIVE_INFINITY,
+                                ),
+                            )
+                        }
+                        disableNextDay={
+                            selectedEdge.data?.day ===
+                            Math.max(
+                                ...availiableEdges.map(
+                                    (n) =>
+                                        n.data?.day ?? Number.NEGATIVE_INFINITY,
+                                ),
+                            )
+                        }
+                    />
+
                     <ReadMarker read={isEdgeRead} setRead={onReadChange} />
                 </div>
             </div>

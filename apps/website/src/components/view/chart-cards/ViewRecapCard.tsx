@@ -6,6 +6,7 @@ import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 
 interface Props {
     dayRecap: string;
@@ -60,6 +61,12 @@ const ViewRecapCard = ({
                         <Separator className="my-4" />
                     </motion.div>
                 </AnimatePresence>
+                <PrevNextDayNavigation
+                    onPreviousDayClick={() => onDayChange(day - 1)}
+                    onNextDayClick={() => onDayChange(day + 1)}
+                    disablePreviousDay={day <= 0}
+                    disableNextDay={day >= numberOfDays - 1}
+                />
             </div>
         </div>
     );

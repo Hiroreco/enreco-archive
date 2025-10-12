@@ -1,11 +1,11 @@
 import { Button } from "@enreco-archive/common-ui/components/button";
-import { LS_CHICKEN_HS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { LS_KEYS } from "@/lib/constants";
 
 const BASKET_WIDTH = 60;
 const BASKET_HEIGHT = 60;
@@ -63,7 +63,7 @@ const ViewChickenGame = () => {
     useEffect(() => {
         if (score > highScore) {
             setHighScore(score);
-            localStorage.setItem(LS_CHICKEN_HS, score.toString());
+            localStorage.setItem(LS_KEYS.CHICKEN_HS, score.toString());
         }
     }, [score, highScore]);
 
@@ -71,7 +71,9 @@ const ViewChickenGame = () => {
     useEffect(() => {
         // Set basket to center
         setBasketX(boardRef.current!.clientWidth / 2 - BASKET_WIDTH / 2);
-        setHighScore(parseInt(localStorage.getItem(LS_CHICKEN_HS) || "0", 10));
+        setHighScore(
+            parseInt(localStorage.getItem(LS_KEYS.CHICKEN_HS) || "0", 10),
+        );
     }, []);
 
     const handleGameStart = () => {

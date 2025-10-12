@@ -31,6 +31,7 @@ interface ExtendedEntry extends Omit<LinkEntry, "chapter" | "day"> {
         type: "image";
     }>;
     videos: Array<{ src: string; type: "video" }>;
+    postDate: string;
 }
 
 function runScript(cmd: string) {
@@ -49,6 +50,22 @@ async function main() {
     const baseEntries: LinkEntry[] = JSON.parse(
         await fs.readFile(LINKS_JSON, "utf-8"),
     );
+
+    // 1.5) Load existing fanart to preserve postDate if it exists
+    let existingFanart: ExtendedEntry[] = [];
+    try {
+        existingFanart = JSON.parse(await fs.readFile(OUT_JSON, "utf-8"));
+    } catch {
+        // File doesn't exist yet, that's fine
+    }
+
+    // Create a map for quick lookup of existing entries by URL
+    const existingDateMap = new Map<string, string>();
+    existingFanart.forEach((entry) => {
+        if (entry.postDate) {
+            existingDateMap.set(entry.url, entry.postDate);
+        }
+    });
 
     // 2) List all media files
     const allFiles = await fs.readdir(IMAGE_DIR);
@@ -107,7 +124,7 @@ async function main() {
             "alphabetical",
         );
 
-        extended.push({
+        const extendedEntry: ExtendedEntry = {
             url: e.url,
             label: e.label,
             author: e.author,
@@ -117,7 +134,16 @@ async function main() {
             images: images,
             videos: videos,
             type: e.type,
-        });
+            postDate: "",
+        };
+
+        // Preserve existing postDate if available
+        const existingDate = existingDateMap.get(e.url);
+        if (existingDate) {
+            extendedEntry.postDate = existingDate;
+        }
+
+        extended.push(extendedEntry);
     }
 
     // Sort the entire fanart array - you can define your own logic here

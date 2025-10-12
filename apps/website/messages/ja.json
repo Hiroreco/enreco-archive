@@ -21,7 +21,10 @@
         "large": "大",
         "extraLarge": "特大",
         "english": "English",
-        "japanese": "日本語"
+        "japanese": "日本語",
+        "embedType": "埋め込みタイプ",
+        "card": "カード",
+        "external": "Youtube"
       },
     "readStatus": {
       "readCount": "{count}/{total} 読了",
@@ -237,6 +240,17 @@
           "description": "選択したキャラクターのみを含むアートワークを表示"
         }
       },
+      "sortModes": {
+        "sort": "ソート",
+        "default": {
+          "label": "デフォルト",
+          "description": "章と日でソート"
+        },
+        "date": {
+          "label": "日付",
+          "description": "投稿日時でソート（新しい順）"
+        }
+      },
       "memes": "ミーム",
       "reset": "フィルターをリセット",
       "shuffle": {
@@ -245,7 +259,8 @@
       },
       "charFilter": {
         "all": "すべて",
-        "various": "その他"
+        "various": "その他",
+        "bloodraven": "ブラッドレイヴン"
       },
       "lightbox": {
         "relatedTo": "第{day}日目第{chapter}章のイベントに関連"
@@ -296,7 +311,9 @@
       "showAllEdges": "すべてのエッジを表示",
       "characterToggles": "キャラクター切り替え",
       "showAllCharacters": "すべてのキャラクターを表示"
-    }
+    },
+    "prevDay": "前の日",
+    "nextDay": "次の日"
   },
   "common": {
     "close": "閉じる",

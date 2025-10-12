@@ -6,6 +6,7 @@ import { ThemeType } from "@enreco-archive/common/types";
 export type BackdropFilter = "blur" | "clear";
 export type FontSize = "small" | "medium" | "large" | "xlarge";
 export type Locale = "en" | "ja";
+export type EmbedType = "card" | "external";
 
 interface SettingState {
     backdropFilter: BackdropFilter;
@@ -22,6 +23,9 @@ interface SettingState {
 
     autoPanBack: boolean;
     setAutoPanBack: (autoPanBack: boolean) => void;
+
+    embedType: EmbedType;
+    setEmbedType: (embedType: EmbedType) => void;
 
     themeType: ThemeType;
     setThemeType: (newThemeType: ThemeType) => void;
@@ -66,6 +70,9 @@ export const useSettingStore = create<SettingState>()(
 
             locale: "en",
             setLocale: (language: Locale) => set({ locale: language }),
+
+            embedType: "card",
+            setEmbedType: (embedType: EmbedType) => set({ embedType }),
 
             _hasHydrated: false,
             setHasHydrated: (hasHydrated: boolean) =>

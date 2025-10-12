@@ -21,7 +21,10 @@
         "large": "Large",
         "extraLarge": "Extra Large",
         "english": "English",
-        "japanese": "日本語"
+        "japanese": "日本語",
+        "embedType": "Open Timestamps with",
+        "card": "Card",
+        "external": "Youtube"
       },
     "readStatus": {
       "readCount": "{count}/{total} Read",
@@ -237,6 +240,17 @@
           "description": "Show artworks that include only the selected characters"
         }
       },
+      "sortModes": {
+        "sort": "Sort",
+        "default": {
+          "label": "Default",
+          "description": "Sort by chapter and day"
+        },
+        "date": {
+          "label": "Date",
+          "description": "Sort by post date (newest first)"
+        }
+      },
       "memes": "DNA of the Soul",
       "reset": "Reset Filters",
       "shuffle": {
@@ -245,7 +259,8 @@
       },
       "charFilter": {
         "all": "All",
-        "various": "Various"
+        "various": "Various",
+        "bloodraven": "Bloodraven"
       },
       "lightbox": {
         "relatedTo": "Related to events on Day {day}, Chapter {chapter}"
@@ -296,7 +311,9 @@
       "showAllEdges": "Show all edges",
       "characterToggles": "Character Toggles",
       "showAllCharacters": "Show all characters"
-    }
+    },
+    "prevDay": "Previous Day",
+    "nextDay": "Next Day"
   },
   "common": {
     "close": "Close",

@@ -51,7 +51,6 @@ const ViewChapterRecapModal = ({
     );
 
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
-    console.log(sections, sectionIds);
 
     const activeSection = useScrollSpy(sectionIds);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);

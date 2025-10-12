@@ -1,5 +1,8 @@
 import CharacterSelector from "@/components/view/fanart/CharacterSelector";
-import { InclusiveMode } from "@/components/view/fanart/ViewFanartModal";
+import {
+    InclusiveMode,
+    SortMode,
+} from "@/components/view/fanart/ViewFanartModal";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -26,12 +29,14 @@ interface FanartFiltersProps {
     days: number[];
     nameMap: Record<string, string>;
     inclusiveMode: InclusiveMode;
+    sortMode: SortMode; // Add this prop
     videosOnly: boolean;
     memesOnly?: boolean;
     onCharactersChange: (characters: string[]) => void;
     onChapterChange: (chapter: string) => void;
     onDayChange: (day: string) => void;
     onInclusiveModeChange: (currentMode: InclusiveMode) => void;
+    onSortModeChange: (currentMode: SortMode) => void; // Add this prop
     onVideosOnlyChange: (videosOnly: boolean) => void;
     onMemesOnlyChange: (memesOnly: boolean) => void;
     onReset: () => void;
@@ -49,12 +54,14 @@ const FanartFilters = ({
     days,
     nameMap,
     inclusiveMode,
+    sortMode, // Add this prop
     videosOnly,
     memesOnly,
     onCharactersChange,
     onChapterChange,
     onDayChange,
     onInclusiveModeChange,
+    onSortModeChange, // Add this prop
     onVideosOnlyChange,
     onMemesOnlyChange,
     onReset,
@@ -136,7 +143,8 @@ const FanartFilters = ({
                                 variant={"outline"}
                                 disabled={
                                     selectedCharacters.includes("all") ||
-                                    selectedCharacters.includes("various")
+                                    selectedCharacters.includes("various") ||
+                                    selectedCharacters.includes("bloodraven")
                                 }
                                 onClick={() =>
                                     onInclusiveModeChange(inclusiveMode)
@@ -154,6 +162,29 @@ const FanartFilters = ({
                         </TooltipTrigger>
                         <TooltipContent>
                             {t(`inclusiveModes.${inclusiveMode}.description`)}
+                        </TooltipContent>
+                    </Tooltip>
+
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                id="fanart-sort-mode-mobile"
+                                size={"sm"}
+                                variant={"outline"}
+                                onClick={() => onSortModeChange(sortMode)}
+                                aria-label={t(
+                                    `sortModes.${sortMode}.description`,
+                                )}
+                                className={`h-6 text-xs flex items-center gap-1`}
+                            >
+                                <span>{t("sortModes.sort")}:</span>
+                                <span className="font-bold">
+                                    {t(`sortModes.${sortMode}.label`)}
+                                </span>
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            {t(`sortModes.${sortMode}.description`)}
                         </TooltipContent>
                     </Tooltip>
 
@@ -287,14 +318,14 @@ const FanartFilters = ({
 
                 <div className="flex items-center gap-2">
                     <Checkbox
-                        id="dna-of-the-soul-mobile"
+                        id="dna-of-the-soul-desktop"
                         checked={memesOnly}
                         onCheckedChange={(checked) =>
                             onMemesOnlyChange(checked === true)
                         }
                     />
                     <label
-                        htmlFor="dna-of-the-soul-mobile"
+                        htmlFor="dna-of-the-soul-desktop"
                         className="text-sm font-medium"
                     >
                         {t("memes")}
@@ -310,7 +341,8 @@ const FanartFilters = ({
                                 variant={"outline"}
                                 disabled={
                                     selectedCharacters.includes("all") ||
-                                    selectedCharacters.includes("various")
+                                    selectedCharacters.includes("various") ||
+                                    selectedCharacters.includes("bloodraven")
                                 }
                                 className={`min-w-36 flex items-center gap-1`}
                                 onClick={() =>
@@ -330,6 +362,30 @@ const FanartFilters = ({
                             {t(`inclusiveModes.${inclusiveMode}.description`)}
                         </TooltipContent>
                     </Tooltip>
+
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                id="fanart-sort-mode"
+                                size={"sm"}
+                                variant={"outline"}
+                                className={`min-w-36 flex items-center gap-1`}
+                                onClick={() => onSortModeChange(sortMode)}
+                                aria-label={t(
+                                    `sortModes.${sortMode}.description`,
+                                )}
+                            >
+                                <span>{t("sortModes.sort")}:</span>
+                                <span className="font-bold">
+                                    {t(`sortModes.${sortMode}.label`)}
+                                </span>
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            {t(`sortModes.${sortMode}.description`)}
+                        </TooltipContent>
+                    </Tooltip>
+
                     <Button variant="outline" size="sm" onClick={onReset}>
                         {t("reset")}
                     </Button>
