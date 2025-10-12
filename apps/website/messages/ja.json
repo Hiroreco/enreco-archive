@@ -296,7 +296,9 @@
       "showAllEdges": "すべてのエッジを表示",
       "characterToggles": "キャラクター切り替え",
       "showAllCharacters": "すべてのキャラクターを表示"
-    }
+    },
+    "prevDay": "前の日",
+    "nextDay": "次の日"
   },
   "common": {
     "close": "閉じる",

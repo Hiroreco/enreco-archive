@@ -296,7 +296,9 @@
       "showAllEdges": "Show all edges",
       "characterToggles": "Character Toggles",
       "showAllCharacters": "Show all characters"
-    }
+    },
+    "prevDay": "Previous Day",
+    "nextDay": "Next Day"
   },
   "common": {
     "close": "Close",

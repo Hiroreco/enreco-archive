@@ -1,4 +1,5 @@
 import { Button } from "@enreco-archive/common-ui/components/button";
+import { useTranslations } from "next-intl";
 
 interface PrevNextDayNavigationProps {
     onPreviousDayClick: () => void;
@@ -13,6 +14,7 @@ const PrevNextDayNavigation = ({
     disablePreviousDay,
     disableNextDay,
 }: PrevNextDayNavigationProps) => {
+    const t = useTranslations("cards");
     return (
         <div className="flex gap-2 justify-center w-full">
             <Button
@@ -21,7 +23,7 @@ const PrevNextDayNavigation = ({
                 onClick={onPreviousDayClick}
                 disabled={disablePreviousDay}
             >
-                Previous Day
+                {t("prevDay")}
             </Button>
             <Button
                 variant="outline"
@@ -29,7 +31,7 @@ const PrevNextDayNavigation = ({
                 onClick={onNextDayClick}
                 disabled={disableNextDay}
             >
-                Next Day
+                {t("nextDay")}
             </Button>
         </div>
     );
