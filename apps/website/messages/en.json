@@ -240,6 +240,17 @@
           "description": "Show artworks that include only the selected characters"
         }
       },
+      "sortModes": {
+        "sort": "Sort",
+        "default": {
+          "label": "Default",
+          "description": "Sort by chapter and day"
+        },
+        "date": {
+          "label": "Date",
+          "description": "Sort by post date (newest first)"
+        }
+      },
       "memes": "DNA of the Soul",
       "reset": "Reset Filters",
       "shuffle": {

@@ -240,6 +240,17 @@
           "description": "選択したキャラクターのみを含むアートワークを表示"
         }
       },
+      "sortModes": {
+        "sort": "ソート",
+        "default": {
+          "label": "デフォルト",
+          "description": "章と日でソート"
+        },
+        "date": {
+          "label": "日付",
+          "description": "投稿日時でソート（新しい順）"
+        }
+      },
       "memes": "ミーム",
       "reset": "フィルターをリセット",
       "shuffle": {
