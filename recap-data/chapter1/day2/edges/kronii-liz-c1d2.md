@@ -30,3 +30,5 @@ Elizabeth saw nothing in Tam that resembled royalty—no honor, no chivalry, no 
 ["Libestal's forbidden love" by yuuto](https://x.com/yuutomeh97/status/1830490741384356254)
 
 ["Tam Tender vs ERB" by Ho2nium](https://x.com/H_Hornium/status/1831083165341106580/photo/1)
+
+["⏳💄" by Daaku](https://x.com/koizumi_arata/status/1969136061071663271)

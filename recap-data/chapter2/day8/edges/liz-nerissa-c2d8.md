@@ -76,3 +76,5 @@ When does a knight bend the knee?
 ["Chapter 3" by otashishi](https://x.com/ashiartwork/status/1921948280365224396)
 
 ["A Promise til the End of Time" by pawchie](https://x.com/paw_chie/status/1962575397662625963)
+
+["You've always looked good in red" by Eli](https://x.com/Elisbian_/status/1968986008310989190)

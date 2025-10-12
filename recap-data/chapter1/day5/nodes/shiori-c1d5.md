@@ -14,3 +14,9 @@ On a phone call with Bijou, Shiori entertained the idea of adding IRyS as her ow
 With newfound determination, Shiori sought to expand her romantic circle. Taking advice from the voices in her head, she first approached [Mococo](https://www.youtube.com/live/BlDRaNhYZxk?feature=shared&t=8479), but her proposition was swiftly rejected. She tried [Fuwawa](https://www.youtube.com/live/BlDRaNhYZxk?feature=shared&t=8620) next, with similar results. When "chat" suggested contacting Elizabeth, Shiori declined, explaining she wasn’t particularly interested in moms.
 
 With her harem plan in motion, Shiori had turned her chaotic love life into a carefully managed harmony. While it wasn’t the quiet, humble existence she initially sought, it was a version of peace she could embrace. Together with her wives and side chicks, Shiori embarked on her "Happy Sugar Life," ready to face whatever came her way.
+
+## Fanart
+
+["Takovella" by sunfish_blue](https://x.com/sunfish_blue/status/1974492799308583420)
+
+<!-- ina -->
