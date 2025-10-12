@@ -570,6 +570,10 @@ const ViewFanartModal = ({
     }, [chapter, chapters, selectedChapter]);
 
     useEffect(() => {
+        setSelectedDay(day.toString() || "all");
+    }, [day]);
+
+    useEffect(() => {
         if (!open) {
             setCurrentLightboxEntryIndex(null);
         }
