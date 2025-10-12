@@ -74,6 +74,16 @@ async function main() {
         "https://x.com/keiseeaaa/status/1923701440473858538",
         "https://x.com/_se_t_/status/1919743867081130432",
     ];
+
+    // For pieces that were comissioned by another artist, we want to credit them instead
+    // of using the twitter link in the post.
+    const comissionedEntries = [
+        {
+            link: "https://x.com/aeliaes/status/1968027103695180130",
+            author: "paw_chie",
+        },
+    ];
+
     blacklistUrls = blacklistUrls.map((url) => url.toLowerCase());
 
     let mdFiles: string[];
@@ -122,6 +132,13 @@ async function main() {
             let [, label, host, author, statusPath] = m;
             const url = `${host}/${author}${statusPath}`.toLowerCase();
             author = author.toLowerCase();
+            // Check for comissioned entries
+            const comissioned = comissionedEntries.find(
+                (entry) => entry.link.toLowerCase() === url,
+            );
+            if (comissioned) {
+                author = comissioned.author.toLowerCase();
+            }
 
             // Clean up label by removing "by {author}" pattern at the end
             const byAuthorPattern = /\s+by\s+.+$/i;

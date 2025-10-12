@@ -82,3 +82,5 @@ _「言葉は信じられぬ。お前は危険だ――ゆえに閉ざすしか�
 ["🍽️" by soap](https://x.com/SiFXi_/status/1922715233606377622)
 
 ["puppy" by wan](https://x.com/wan_m_i/status/1921113665530478793)
+
+["yummy toxic yuri" by Keisea](https://x.com/keiseeaaa/status/1974112711723340092)

@@ -560,7 +560,6 @@ const ViewFanartModal = ({
     }, [selectedCharacters]);
 
     useEffect(() => {
-        setSelectedDay(day.toString() || "all");
         // If the fanart json's max chapter is < the selected chapter, set to latest available chapter
         if (
             selectedChapter !== "all" &&
@@ -568,7 +567,7 @@ const ViewFanartModal = ({
         ) {
             setSelectedChapter(chapters[chapters.length - 1].toString());
         }
-    }, [day, chapter, chapters, selectedChapter]);
+    }, [chapter, chapters, selectedChapter]);
 
     useEffect(() => {
         if (!open) {
