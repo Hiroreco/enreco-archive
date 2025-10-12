@@ -259,7 +259,8 @@
       },
       "charFilter": {
         "all": "All",
-        "various": "Various"
+        "various": "Various",
+        "bloodraven": "Bloodraven"
       },
       "lightbox": {
         "relatedTo": "Related to events on Day {day}, Chapter {chapter}"

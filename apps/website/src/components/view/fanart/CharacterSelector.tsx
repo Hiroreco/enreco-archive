@@ -27,14 +27,33 @@ const CharacterSelector = ({
 }: CharacterSelectorProps) => {
     const t = useTranslations("modals.art");
     const tCommon = useTranslations("common");
+
     const handleCharacterClick = (character: string) => {
-        if (selectedCharacters.includes("all")) {
+        if (
+            character === "all" ||
+            character === "various" ||
+            character === "bloodraven"
+        ) {
+            onCharactersChange([character]);
+        } else if (
+            selectedCharacters.includes("all") ||
+            selectedCharacters.includes("various") ||
+            selectedCharacters.includes("bloodraven")
+        ) {
             onCharactersChange([character]);
         } else if (selectedCharacters.includes(character)) {
             const next = selectedCharacters.filter((c) => c !== character);
             onCharactersChange(next.length === 0 ? ["all"] : next);
         } else {
             onCharactersChange([...selectedCharacters, character]);
+        }
+    };
+
+    const handleBloodravenClick = () => {
+        if (selectedCharacters.includes("bloodraven")) {
+            onCharactersChange(["all"]);
+        } else {
+            onCharactersChange(["bloodraven"]);
         }
     };
 
@@ -50,6 +69,7 @@ const CharacterSelector = ({
             if (selectedCharacters.includes("all")) return t("charFilter.all");
             if (selectedCharacters.includes("various"))
                 return t("charFilter.various");
+            if (selectedCharacters.includes("bloodraven")) return "Bloodraven";
             const names = selectedCharacters.map((c) => getCharacterName(c));
             return names.length === 0 ? t("charFilter.all") : names.join(", ");
         };
@@ -98,6 +118,17 @@ const CharacterSelector = ({
                                 onClick={() => handleCharacterClick("various")}
                             >
                                 {t("charFilter.various")}
+                            </button>
+                            <button
+                                type="button"
+                                className={`px-2 py-1 rounded border text-xs w-full col-span-2 ${
+                                    selectedCharacters.includes("bloodraven")
+                                        ? "bg-accent border-accent-foreground text-accent-foreground"
+                                        : "bg-background border-border"
+                                }`}
+                                onClick={handleBloodravenClick}
+                            >
+                                {t("charFilter.bloodraven")}
                             </button>
                             {characters.map((character) => (
                                 <button
@@ -155,6 +186,17 @@ const CharacterSelector = ({
                     onClick={() => handleCharacterClick("various")}
                 >
                     {t("charFilter.various")}
+                </button>
+                <button
+                    type="button"
+                    className={`px-2 py-1 rounded border text-xs ${
+                        selectedCharacters.includes("bloodraven")
+                            ? "bg-accent border-accent-foreground text-accent-foreground"
+                            : "bg-background border-border"
+                    }`}
+                    onClick={handleBloodravenClick}
+                >
+                    {t("charFilter.bloodraven")}
                 </button>
                 {characters.map((character) => (
                     <button

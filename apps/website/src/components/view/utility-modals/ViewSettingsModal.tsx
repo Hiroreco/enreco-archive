@@ -220,31 +220,31 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
 
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label
-                            htmlFor="backdrop-filter"
+                            htmlFor="language"
                             className="flex items-center gap-1.5"
                         >
-                            <Wallpaper size={20} />
-                            {tSettings("backdropFilter")}
+                            <Languages size={20} />
+                            {tSettings("language")}
                         </Label>
                         <Select
                             onValueChange={(value) =>
-                                setBackdropFilter(value as BackdropFilter)
+                                setLanguage(value as Locale)
                             }
-                            value={backdropFilter}
+                            value={language}
                         >
                             <SelectTrigger
+                                id="language"
+                                name="language"
                                 className="w-[100px]"
-                                id="backdrop-filter"
-                                name="backdrop-filter"
                             >
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="blur">
-                                    {tSettings("blur")}
+                                <SelectItem value="en">
+                                    {tSettings("english")}
                                 </SelectItem>
-                                <SelectItem value="clear">
-                                    {tSettings("clear")}
+                                <SelectItem value="ja">
+                                    {tSettings("japanese")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>
@@ -357,31 +357,31 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
 
                     <div className="flex flex-row justify-between items-center w-full">
                         <Label
-                            htmlFor="language"
+                            htmlFor="backdrop-filter"
                             className="flex items-center gap-1.5"
                         >
-                            <Languages size={20} />
-                            {tSettings("language")}
+                            <Wallpaper size={20} />
+                            {tSettings("backdropFilter")}
                         </Label>
                         <Select
                             onValueChange={(value) =>
-                                setLanguage(value as Locale)
+                                setBackdropFilter(value as BackdropFilter)
                             }
-                            value={language}
+                            value={backdropFilter}
                         >
                             <SelectTrigger
-                                id="language"
-                                name="language"
                                 className="w-[100px]"
+                                id="backdrop-filter"
+                                name="backdrop-filter"
                             >
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="en">
-                                    {tSettings("english")}
+                                <SelectItem value="blur">
+                                    {tSettings("blur")}
                                 </SelectItem>
-                                <SelectItem value="ja">
-                                    {tSettings("japanese")}
+                                <SelectItem value="clear">
+                                    {tSettings("clear")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>

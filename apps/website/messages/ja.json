@@ -259,7 +259,8 @@
       },
       "charFilter": {
         "all": "すべて",
-        "various": "その他"
+        "various": "その他",
+        "bloodraven": "ブラッドレイヴン"
       },
       "lightbox": {
         "relatedTo": "第{day}日目第{chapter}章のイベントに関連"

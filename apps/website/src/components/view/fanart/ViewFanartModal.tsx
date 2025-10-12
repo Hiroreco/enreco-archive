@@ -155,6 +155,12 @@ const ViewFanartModal = ({
                 characterMatch = true;
             } else if (selectedCharacters.includes("various")) {
                 characterMatch = entry.characters.length > 1;
+            } else if (selectedCharacters.includes("bloodraven")) {
+                // Bloodraven means exactly liz and nerissa
+                characterMatch =
+                    entry.characters.length === 2 &&
+                    entry.characters.includes("liz") &&
+                    entry.characters.includes("nerissa");
             } else {
                 if (inclusiveMode === "showAll") {
                     characterMatch =
@@ -534,7 +540,10 @@ const ViewFanartModal = ({
         if (
             !selectedCharacters.includes("all") &&
             selectedCharacters.some(
-                (char) => char !== "various" && !characters.includes(char),
+                (char) =>
+                    char !== "various" &&
+                    char !== "bloodraven" &&
+                    !characters.includes(char),
             )
         ) {
             setSelectedCharacters(["all"]);

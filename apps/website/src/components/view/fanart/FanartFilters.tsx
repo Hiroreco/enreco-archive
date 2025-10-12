@@ -143,7 +143,8 @@ const FanartFilters = ({
                                 variant={"outline"}
                                 disabled={
                                     selectedCharacters.includes("all") ||
-                                    selectedCharacters.includes("various")
+                                    selectedCharacters.includes("various") ||
+                                    selectedCharacters.includes("bloodraven")
                                 }
                                 onClick={() =>
                                     onInclusiveModeChange(inclusiveMode)
@@ -340,7 +341,8 @@ const FanartFilters = ({
                                 variant={"outline"}
                                 disabled={
                                     selectedCharacters.includes("all") ||
-                                    selectedCharacters.includes("various")
+                                    selectedCharacters.includes("various") ||
+                                    selectedCharacters.includes("bloodraven")
                                 }
                                 className={`min-w-36 flex items-center gap-1`}
                                 onClick={() =>
