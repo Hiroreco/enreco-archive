@@ -21,7 +21,10 @@
         "large": "Large",
         "extraLarge": "Extra Large",
         "english": "English",
-        "japanese": "日本語"
+        "japanese": "日本語",
+        "embedType": "Open Timestamps with",
+        "card": "Card",
+        "external": "Youtube"
       },
     "readStatus": {
       "readCount": "{count}/{total} Read",

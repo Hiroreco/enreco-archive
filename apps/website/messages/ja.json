@@ -21,7 +21,10 @@
         "large": "大",
         "extraLarge": "特大",
         "english": "English",
-        "japanese": "日本語"
+        "japanese": "日本語",
+        "embedType": "埋め込みタイプ",
+        "card": "カード",
+        "external": "Youtube"
       },
     "readStatus": {
       "readCount": "{count}/{total} 読了",

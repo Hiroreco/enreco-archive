@@ -1,5 +1,6 @@
 import {
     BackdropFilter,
+    EmbedType,
     FontSize,
     Locale,
     useSettingStore,
@@ -33,6 +34,7 @@ import {
     Fullscreen,
     Languages,
     Music,
+    PlayCircleIcon,
     SunMoon,
     Volume2,
     VolumeX,
@@ -72,6 +74,8 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
     const setFontSize = useSettingStore((state) => state.setFontSize);
     const language = useSettingStore((state) => state.locale);
     const setLanguage = useSettingStore((state) => state.setLocale);
+    const embedType = useSettingStore((state) => state.embedType);
+    const setEmbedType = useSettingStore((state) => state.setEmbedType);
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -241,6 +245,38 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
                                 </SelectItem>
                                 <SelectItem value="clear">
                                     {tSettings("clear")}
+                                </SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <Label
+                            htmlFor="embed-type"
+                            className="flex items-center gap-1.5"
+                        >
+                            <PlayCircleIcon size={20} />
+                            {tSettings("embedType")}
+                        </Label>
+                        <Select
+                            onValueChange={(value) =>
+                                setEmbedType(value as EmbedType)
+                            }
+                            value={embedType}
+                        >
+                            <SelectTrigger
+                                className="w-[100px]"
+                                id="embed-type"
+                                name="embed-type"
+                            >
+                                <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="card">
+                                    {tSettings("card")}
+                                </SelectItem>
+                                <SelectItem value="external">
+                                    {tSettings("external")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>

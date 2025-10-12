@@ -1,4 +1,5 @@
 import { useAudioStore } from "@/store/audioStore";
+import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
 
 import { cn } from "@enreco-archive/common-ui/lib/utils";
@@ -23,16 +24,35 @@ const TimestampHref = ({
     const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
     const setVideoUrl = useViewStore((state) => state.modal.setVideoUrl);
     const pauseBGM = useAudioStore((state) => state.pauseBGM);
+    const playBGM = useAudioStore((state) => state.playBGM);
+    const embedType = useSettingStore((state) => state.embedType);
 
     const timestampHandler = async (
         event: MouseEvent<HTMLAnchorElement>,
         timestampUrl: string,
     ) => {
-        event.preventDefault();
-        pauseBGM();
+        if (embedType === "card") {
+            event.preventDefault();
+            pauseBGM();
 
-        openVideoModal();
-        setVideoUrl(timestampUrl);
+            openVideoModal();
+            setVideoUrl(timestampUrl);
+        } else {
+            // Open in new tab if external
+            event.currentTarget.setAttribute("target", "_blank");
+            event.currentTarget.setAttribute("rel", "noopener noreferrer");
+            event.currentTarget.setAttribute("href", timestampUrl);
+
+            // Pause the BGM, then, when the new tab is closed (the user returns to the site), play the BGM again
+            pauseBGM();
+            window.addEventListener(
+                "focus",
+                () => {
+                    playBGM();
+                },
+                { once: true },
+            );
+        }
     };
 
     return (
