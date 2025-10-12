@@ -9,5 +9,5 @@ export const LS_KEYS = {
     HAS_VISITED_GLOSSARY: "has-visited-glossary",
     HAS_VISITED_TRANSLATION_DISCLAIMER: "has-visited-translation-disclaimer",
     CURRENT_VERSION_KEY: "enreco-current-version",
-    CURRENT_VERSION: "2025-09-13", // Update this every announcement release
+    CURRENT_VERSION: "2025-10-12", // Update this every announcement release
 };
