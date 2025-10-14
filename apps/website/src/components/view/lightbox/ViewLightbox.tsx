@@ -106,6 +106,7 @@ const ViewLightbox = ({
         [isExternallyControlled, onExternalClose, galleryIndex],
     );
 
+    console.log(galleryIndex);
     const handleThumbnailClick = useCallback((index: number) => {
         setCurrentGalleryIndex(index);
     }, []);
@@ -176,13 +177,16 @@ const ViewLightbox = ({
         );
     }, [galleryItemsArray.length]);
 
-    // Update current item index when gallery changes
+    // Reset current item index when gallery changes
     useEffect(() => {
-        if (!isOpen || !isExternallyControlled) return;
         if (galleryItems && galleryItems.length > 0) {
-            setCurrentItemIndex(0);
+            setCurrentGalleryIndex(0);
         }
-    }, [galleryItems, isOpen, isExternallyControlled]);
+    }, [galleryItems]);
+
+    useEffect(() => {
+        setCurrentGalleryIndex(galleryIndex);
+    }, [galleryIndex]);
 
     // Pauses BGM when lightbox opens and current entry is a video, resumes when closed
     useEffect(() => {

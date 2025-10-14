@@ -11,7 +11,7 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
-import { LibraryBig, Workflow } from "lucide-react";
+import { Film, LibraryBig, Workflow } from "lucide-react";
 import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
@@ -19,8 +19,9 @@ import { useSettingStore } from "./store/settingStore";
 import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
+import ViewVideoArchiveApp from "@/components/view/recollection-archive/ViewVideoArchiveApp";
 
-type AppType = "chart" | "glossary";
+type AppType = "chart" | "glossary" | "archive";
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -128,6 +129,9 @@ export const ViewAppWrapper = () => {
                         <TabsTrigger value="glossary">
                             <LibraryBig size={24} />
                         </TabsTrigger>
+                        <TabsTrigger value="archive">
+                            <Film size={24} />
+                        </TabsTrigger>
                     </TabsList>
                 </Tabs>
 
@@ -155,6 +159,17 @@ export const ViewAppWrapper = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <ViewGlossaryApp bgImage={bgImage} />
+                        </motion.div>
+                    )}
+                    {appType === "archive" && (
+                        <motion.div
+                            key="archive"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <ViewVideoArchiveApp bgImage={bgImage} />
                         </motion.div>
                     )}
                 </AnimatePresence>
