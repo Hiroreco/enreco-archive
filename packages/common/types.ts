@@ -202,3 +202,5 @@ export type EasterEggState = {
     currentSoundIndex: number;
     playedSounds: Set<number>;
 };
+
+export type MediaType = "video" | "image" | "youtube";

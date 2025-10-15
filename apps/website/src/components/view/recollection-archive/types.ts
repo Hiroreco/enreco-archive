@@ -1,10 +1,12 @@
+import { MediaType } from "@enreco-archive/common/types";
+
 export type MediaEntry = {
     title: string;
     originalUrl: string;
     thumbnailUrl: string;
     info: string;
     src: string;
-    type: "video" | "image";
+    type: MediaType;
 };
 
 export type RecollectionArchiveEntry = {

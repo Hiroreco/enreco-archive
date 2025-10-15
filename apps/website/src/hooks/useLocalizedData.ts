@@ -4,6 +4,7 @@ import {
     getChapterData,
     getChapterRecap,
     getGlossaryData,
+    getRecollectionArchive,
     getSiteData,
     getSongsData,
     getTextData,
@@ -26,5 +27,6 @@ export const useLocalizedData = () => {
         getTextItem: (textId: string) => getTextItem(locale, textId),
         getChapterRecap: () => getChapterRecap(locale),
         getChangelog: () => getChangelog(locale),
+        getRecollectionArchive: () => getRecollectionArchive(locale),
     };
 };

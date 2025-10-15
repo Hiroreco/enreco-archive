@@ -14,106 +14,12 @@ import { RecollectionArchiveEntry } from "./types";
 import { getBlurDataURL } from "@/lib/utils";
 import { ArrowLeft } from "lucide-react";
 import ViewVideoArchiveViewer from "@/components/view/recollection-archive/ViewVideoArchiveViewer";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 
 interface ViewVideoArchiveCardProps {
     className?: string;
     bgImage: string;
 }
-
-// Mock data - replace with actual data fetching
-// Mock data - replace with actual data fetching
-const MOCK_ENTRIES: RecollectionArchiveEntry[] = [
-    {
-        id: "ch2-main-story-1",
-        title: "Main Story Opening",
-        description:
-            "The beginning of a new journey. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        chapter: 2,
-        category: "Main Story",
-        entries: [
-            {
-                title: "Opening Cutscene",
-                originalUrl: "https://example.com/video1",
-                info: "Chapter 2-1",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "video",
-            },
-            {
-                title: "Character Introduction",
-                originalUrl: "https://example.com/video2",
-                info: "Chapter 2-2",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "image",
-            },
-            {
-                title: "Character Introduction",
-                originalUrl: "https://example.com/video2",
-                info: "Chapter 2-3",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "image",
-            },
-            {
-                title: "Character Introduction",
-                originalUrl: "https://example.com/video2",
-                info: "Chapter 2-4",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "image",
-            },
-            {
-                title: "Character Introduction",
-                originalUrl: "https://example.com/video2",
-                info: "Chapter 2-5",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "image",
-            },
-            {
-                title: "Character Introduction",
-                originalUrl: "https://example.com/video2",
-                info: "Chapter 2-6",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "image",
-            },
-            {
-                title: "Character Introduction",
-                originalUrl: "https://example.com/video2",
-                info: "Chapter 2-7",
-                thumbnailUrl: "/placeholder.jpg",
-                src: "/placeholder.jpg",
-                type: "image",
-            },
-        ],
-    },
-    {
-        id: "ch2-main-story-2",
-        title: "Main Story Part 2",
-        description: "The continuation of the journey",
-        chapter: 2,
-        category: "Main Story",
-        entries: [],
-    },
-    {
-        id: "ch2-bloodflame-1",
-        title: "Bloodflame Arc Introduction",
-        description: "The flames of conflict ignite",
-        chapter: 2,
-        category: "Bloodflame Arc",
-        entries: [],
-    },
-    {
-        id: "ch1-prologue",
-        title: "The Awakening",
-        description: "Where it all began",
-        chapter: 1,
-        category: "Main Story",
-        entries: [],
-    },
-];
 
 const ViewVideoArchiveCard = ({
     className,
@@ -121,6 +27,8 @@ const ViewVideoArchiveCard = ({
 }: ViewVideoArchiveCardProps) => {
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
+    const { getRecollectionArchive } = useLocalizedData();
+    const data = getRecollectionArchive();
 
     const groupedEntries = useMemo(() => {
         const grouped: Record<
@@ -128,7 +36,7 @@ const ViewVideoArchiveCard = ({
             Record<string, RecollectionArchiveEntry[]>
         > = {};
 
-        MOCK_ENTRIES.forEach((entry) => {
+        data.forEach((entry) => {
             if (!grouped[entry.chapter]) {
                 grouped[entry.chapter] = {};
             }
@@ -139,7 +47,7 @@ const ViewVideoArchiveCard = ({
         });
 
         return grouped;
-    }, []);
+    }, [data]);
 
     const sortedChapters = useMemo(
         () => Object.keys(groupedEntries).sort((a, b) => Number(b) - Number(a)),

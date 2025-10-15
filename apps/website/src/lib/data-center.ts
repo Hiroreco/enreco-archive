@@ -2,6 +2,7 @@ import {
     Chapter,
     ChapterRecapData,
     GlossaryPageData,
+    MediaType,
     SiteData,
     Song,
     TextData,
@@ -34,11 +35,14 @@ import songs_ja from "#/ja/songs_ja.json";
 import chapterRecaps_en from "#/en/chapter-recaps_en.json";
 import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
 
+import media_archive_en from "#/en/media-archive_en.json";
+
 import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
 
 import { Locale } from "@/store/settingStore";
 import { Category } from "@/contexts/GlossaryContext";
+import { RecollectionArchiveEntry } from "@/components/view/recollection-archive/types";
 
 interface LocalizedData {
     chapters: Chapter[];
@@ -56,6 +60,7 @@ interface LocalizedData {
         date: string;
         content: string;
     }>;
+    recollectionArchive: RecollectionArchiveEntry[];
 }
 
 const DATA: Record<Locale, LocalizedData> = {
@@ -76,6 +81,13 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_en,
         chapterRecap: chapterRecaps_en,
         changelogs: changelogs_en,
+        recollectionArchive: media_archive_en.map((entry) => ({
+            ...entry,
+            entries: entry.entries.map((media) => ({
+                ...media,
+                type: media.type as MediaType,
+            })),
+        })),
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
@@ -90,6 +102,13 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_ja,
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
+        recollectionArchive: media_archive_en.map((entry) => ({
+            ...entry,
+            entries: entry.entries.map((media) => ({
+                ...media,
+                type: media.type as MediaType,
+            })),
+        })),
     },
 };
 
@@ -142,4 +161,8 @@ export const getChapterRecap = (locale: Locale) => {
 
 export const getChangelog = (locale: Locale) => {
     return DATA[locale].changelogs;
+};
+
+export const getRecollectionArchive = (locale: Locale) => {
+    return DATA[locale].recollectionArchive;
 };

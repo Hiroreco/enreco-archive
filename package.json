@@ -25,6 +25,7 @@
         "export-glossary": "tsx scripts/export-content/export-glossary.ts",
         "export-recaps": "tsx scripts/export-content/export-recaps.ts",
         "inject-glossary": "tsx scripts/inject-content/inject-glossary.ts",
+        "inject-media-archive": "tsx scripts/inject-content/inject-media-archive.ts",
         "inject-chapter-recaps": "tsx scripts/inject-content/inject-chapter-recaps.ts",
         "inject-recaps": "tsx scripts/inject-content/inject-recaps.ts",
         "inject-texts": "tsx scripts/inject-content/inject-texts.ts",

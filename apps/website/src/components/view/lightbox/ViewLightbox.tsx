@@ -15,6 +15,7 @@ import {
     DialogDescription,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
+import { MediaType } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { X } from "lucide-react";
 import Image from "next/image";
@@ -25,7 +26,7 @@ interface ViewLightboxProps {
     alt: string;
     width?: number;
     height?: number;
-    type?: "image" | "video";
+    type?: MediaType;
     className?: string;
     containerClassName?: string;
     priority?: boolean;

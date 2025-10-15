@@ -1,0 +1,27 @@
+[
+  {
+    "id": "official-recollections",
+    "title": "Memory Recollections",
+    "description": "Collection of memories recovered in the chapter's journey",
+    "chapter": 1,
+    "category": "official",
+    "entries": [
+      {
+        "title": "Recollection - Mori Calliope",
+        "originalUrl": "https://www.youtube.com/watch?v=j8I3gqJV1NU",
+        "thumbnailUrl": "/images-opt/recollections-calli-opt-thumb.webp",
+        "info": "### General\n\nMori Calliope's memories was recovered after the conquer of the Underworld Dungeon, happening on the first day of the first chapter.\n\n### Details\n\nBeing the apprentice of death, the pink haired grim reaper's job had always been, to take people's lives, using their harvested souls as sustanance for those in the underworld.\n\nBut deep in her heart, she'd always had doubts about this way of doing things. One day, she found out that instead of harvesting souls, human emotions, or specifically, their happiness, could be used instead. Thus, rejecting the gruesome role of the bringer of death, she ventured on into becoming someone that brought people happiness.",
+        "src": "https://www.youtube.com/watch?v=j8I3gqJV1NU",
+        "type": "youtube"
+      },
+      {
+        "title": "Gawr Gura's Recollection",
+        "originalUrl": "https://www.youtube.com/watch?v=SDnRHwpnIH4",
+        "thumbnailUrl": "/images-opt/recollections-gura-opt-thumb.webp",
+        "info": "### General\n\nGawr Gura's memories was recovered after the conquer of the Underwater Dungeon, happening on the second day of the first chapter.\n\n### Details\n\nBored to death from the monotonous life in the underwater kingdom in which she dwelled, day by day rotting away doing the same boring things. The shark girl had stolen the all-powerful trident, and fled to the surface, where her new exciting life began.",
+        "src": "https://www.youtube.com/watch?v=SDnRHwpnIH4",
+        "type": "youtube"
+      }
+    ]
+  }
+]
