@@ -5,6 +5,8 @@ import type {
 import fs from "fs/promises";
 import path from "path";
 
+const CDN_PREFIX = "https://cdn.enreco-archive.net/";
+
 // Type for index file metadata
 type IndexMetadata = {
     title: string;
@@ -84,8 +86,9 @@ async function processEntry(
     const indexContent = getContent(indexRaw);
 
     const title = indexMeta.title || entryId;
+    const description = indexMeta.description || "";
     const entryList = indexMeta.entries?.split(",").map((s) => s.trim()) || [];
-    const description = indexContent || indexMeta.description || "";
+    const info = indexContent || "";
 
     // Process media files
     const mediaEntries: MediaEntry[] = [];
@@ -119,7 +122,7 @@ async function processEntry(
         const thumbnailUrl = `/images-opt/${mediaId}-opt-thumb.webp`;
         const src =
             mediaType === "video"
-                ? `/videos/${mediaId}.mp4`
+                ? `${CDN_PREFIX}/${mediaId}-opt.mp4`
                 : mediaType === "youtube"
                   ? originalUrl
                   : `/images-opt/${mediaId}-opt.webp`;
@@ -151,6 +154,7 @@ async function processEntry(
         id: `${category}-${entryId}`,
         title,
         description,
+        info,
         chapter: chapterNum,
         category,
         entries: mediaEntries,

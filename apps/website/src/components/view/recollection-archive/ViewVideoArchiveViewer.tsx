@@ -223,7 +223,7 @@ const ViewVideoArchiveViewer = ({ entry }: ViewVideoArchiveViewerProps) => {
                             onNodeLinkClicked={() => {}}
                             onEdgeLinkClicked={() => {}}
                         >
-                            {currentMedia.info}
+                            {currentMedia.info || entry.info}
                         </ViewMarkdown>
                     </div>
 

@@ -13,6 +13,7 @@ export type RecollectionArchiveEntry = {
     id: string;
     title: string;
     description: string;
+    info?: string;
     chapter: number;
     category: string;
     entries: MediaEntry[];
