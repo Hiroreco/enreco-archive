@@ -98,10 +98,14 @@ export const isMobileViewport = (): boolean => {
     return false;
 };
 
-export function isNode(element: ImageNodeType | FixedEdgeType): element is ImageNodeType {
+export function isNode(
+    element: ImageNodeType | FixedEdgeType,
+): element is ImageNodeType {
     return !!(element as ImageNodeType)?.position;
 }
 
-export function isEdge(element: ImageNodeType | FixedEdgeType): element is FixedEdgeType {
+export function isEdge(
+    element: ImageNodeType | FixedEdgeType,
+): element is FixedEdgeType {
     return !!(element as FixedEdgeType)?.source;
 }

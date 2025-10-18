@@ -1,6 +1,7 @@
 <!-- title: ENreco NEWS -->
-<!-- entries: song-monster -->
+<!-- entries: recaps-1, recaps-2, recaps-3 -->
 <!-- description: A daily series recapping the events of the second chapter -->
+<!-- thumbnail: recaps-1 -->
 
 ### Description
 

@@ -27,6 +27,8 @@ const ViewVideoArchiveCard = ({
 }: ViewVideoArchiveCardProps) => {
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
+    const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
+
     const { getRecollectionArchive } = useLocalizedData();
     const data = getRecollectionArchive();
 
@@ -62,10 +64,11 @@ const ViewVideoArchiveCard = ({
         setSelectedEntry(null);
     };
 
-    const viewerBg = useMemo(
-        () => (selectedEntry ? bgImage : bgImage),
-        [selectedEntry, bgImage],
-    );
+    const viewerBg = useMemo(() => {
+        if (!selectedEntry) return bgImage;
+        const currentMedia = selectedEntry.entries[currentMediaIndex];
+        return currentMedia?.thumbnailUrl || bgImage;
+    }, [selectedEntry, currentMediaIndex, bgImage]);
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
@@ -96,7 +99,10 @@ const ViewVideoArchiveCard = ({
             <CardContent className="overflow-y-auto px-6 pb-6 h-[65dvh] sm:h-[70dvh]">
                 <AnimatePresence mode="wait">
                     {selectedEntry ? (
-                        <ViewVideoArchiveViewer entry={selectedEntry} />
+                        <ViewVideoArchiveViewer
+                            entry={selectedEntry}
+                            onMediaIndexChange={setCurrentMediaIndex}
+                        />
                     ) : (
                         <motion.div
                             key="archive-grid"

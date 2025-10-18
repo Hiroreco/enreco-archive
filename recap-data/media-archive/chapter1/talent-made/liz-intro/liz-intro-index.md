@@ -1,6 +1,7 @@
 <!-- title: Lady Bloodflame's Inner Reflections -->
 <!-- entries: liz-intro-1, liz-intro-2, liz-intro-3, liz-intro-4, liz-intro-5, liz-intro-6, liz-intro-7 -->
 <!-- description: Liz's daily recollects of events that've transpired thus far -->
+<!-- thumbnail: liz-intro-7 -->
 
 ### Description
 

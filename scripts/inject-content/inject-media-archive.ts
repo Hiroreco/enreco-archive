@@ -7,21 +7,6 @@ import path from "path";
 
 const CDN_PREFIX = "https://cdn.enreco-archive.net/";
 
-// Type for index file metadata
-type IndexMetadata = {
-    title: string;
-    entries: string[];
-    description?: string;
-};
-
-// Type for media file metadata
-type MediaMetadata = {
-    title: string;
-    type: "video" | "image" | "youtube";
-    originalUrl?: string;
-};
-
-// Recursively collect all file paths under `dir`
 async function walkDir(dir: string): Promise<string[]> {
     const entries = await fs.readdir(dir, { withFileTypes: true });
     const files: string[] = [];
@@ -36,7 +21,6 @@ async function walkDir(dir: string): Promise<string[]> {
     return files;
 }
 
-// Parse metadata from markdown comments
 function parseMetadata(content: string): Record<string, string> {
     const lines = content.split(/\r?\n/);
     const metadata: Record<string, string> = {};
@@ -53,7 +37,6 @@ function parseMetadata(content: string): Record<string, string> {
     return metadata;
 }
 
-// Get content after metadata comments
 function getContent(raw: string): string {
     const lines = raw.split(/\r?\n/);
     let idx = 0;
@@ -62,7 +45,6 @@ function getContent(raw: string): string {
     return lines.slice(idx).join("\n").trim();
 }
 
-// Process a single entry directory (e.g., recollections)
 async function processEntry(
     entryDir: string,
     chapterNum: number,
@@ -71,7 +53,6 @@ async function processEntry(
 ): Promise<RecollectionArchiveEntry | null> {
     const mdPaths = await walkDir(entryDir);
 
-    // Find index file
     const indexPath = mdPaths.find((p) =>
         path.basename(p, ".md").endsWith("-index"),
     );
@@ -80,7 +61,6 @@ async function processEntry(
         return null;
     }
 
-    // Parse index metadata
     const indexRaw = await fs.readFile(indexPath, "utf-8");
     const indexMeta = parseMetadata(indexRaw);
     const indexContent = getContent(indexRaw);
@@ -90,20 +70,23 @@ async function processEntry(
     const entryList = indexMeta.entries?.split(",").map((s) => s.trim()) || [];
     const info = indexContent || "";
 
-    // Process media files
+    // Determine the thumbnail for the entry
+    const chapterPrefix = `c${chapterNum}-`;
+    const thumbnailBase = indexMeta.thumbnail
+        ? `${chapterPrefix}${indexMeta.thumbnail}`
+        : `${chapterPrefix}recaps-index`;
+    const thumbnailUrl = `/images-opt/${thumbnailBase}-opt.webp`;
+
     const mediaEntries: MediaEntry[] = [];
     const mediaPaths = mdPaths.filter(
         (p) => !path.basename(p, ".md").endsWith("-index"),
     );
 
     for (const mediaPath of mediaPaths) {
-        const mediaId = path
-            .basename(mediaPath, ".md")
-            .replace(/(_jp|_ja)$/i, "")
-            .replace(/-jp$|-ja$/i, "");
+        const baseName = path.basename(mediaPath, ".md");
+        const mediaId = `${chapterPrefix}${baseName}`;
 
-        // Skip if not in entry list (if entry list exists)
-        if (entryList.length > 0 && !entryList.includes(mediaId)) {
+        if (entryList.length > 0 && !entryList.includes(baseName)) {
             continue;
         }
 
@@ -118,8 +101,7 @@ async function processEntry(
         const mediaTitle = mediaMeta.title || mediaId;
         const originalUrl = mediaMeta.originalUrl || "";
 
-        // Construct paths for thumbnails and sources
-        const thumbnailUrl = `/images-opt/${mediaId}-opt-thumb.webp`;
+        const mediaThumbnailUrl = `/images-opt/${mediaId}-opt.webp`;
         const src =
             mediaType === "video"
                 ? `${CDN_PREFIX}/${mediaId}-opt.mp4`
@@ -130,14 +112,13 @@ async function processEntry(
         mediaEntries.push({
             title: mediaTitle,
             originalUrl,
-            thumbnailUrl,
+            thumbnailUrl: mediaThumbnailUrl,
             info: mediaContent,
             src,
             type: mediaType,
         });
     }
 
-    // Sort media entries by the order in index file
     if (entryList.length > 0) {
         mediaEntries.sort((a, b) => {
             const aIndex = entryList.findIndex(
@@ -151,12 +132,13 @@ async function processEntry(
     }
 
     return {
-        id: `${category}-${entryId}`,
+        id: `${chapterPrefix}${entryId}`,
         title,
         description,
         info,
         chapter: chapterNum,
         category,
+        thumbnailUrl,
         entries: mediaEntries,
     };
 }

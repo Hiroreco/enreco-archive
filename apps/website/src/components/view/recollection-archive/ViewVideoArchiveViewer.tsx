@@ -18,9 +18,13 @@ import "swiper/css/effect-creative";
 
 interface ViewVideoArchiveViewerProps {
     entry: RecollectionArchiveEntry;
+    onMediaIndexChange?: (index: number) => void;
 }
 
-const ViewVideoArchiveViewer = ({ entry }: ViewVideoArchiveViewerProps) => {
+const ViewVideoArchiveViewer = ({
+    entry,
+    onMediaIndexChange,
+}: ViewVideoArchiveViewerProps) => {
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const containerRef = useRef<HTMLDivElement>(null);
@@ -46,22 +50,26 @@ const ViewVideoArchiveViewer = ({ entry }: ViewVideoArchiveViewerProps) => {
         [currentMedia.type],
     );
 
-    const handleThumbnailClick = useCallback((index: number) => {
-        setCurrentMediaIndex(index);
-        const carousel = document.getElementById("carousel");
-        const thumbnail = carousel?.children[index] as HTMLElement;
-        if (thumbnail && carousel) {
-            const thumbnailLeft = thumbnail.offsetLeft;
-            const thumbnailWidth = thumbnail.offsetWidth;
-            const carouselWidth = carousel.offsetWidth;
-            const scrollPosition =
-                thumbnailLeft - (carouselWidth - thumbnailWidth) / 2;
-            carousel.scrollTo({
-                left: scrollPosition,
-                behavior: "smooth",
-            });
-        }
-    }, []);
+    const handleThumbnailClick = useCallback(
+        (index: number) => {
+            setCurrentMediaIndex(index);
+            onMediaIndexChange?.(index);
+            const carousel = document.getElementById("carousel");
+            const thumbnail = carousel?.children[index] as HTMLElement;
+            if (thumbnail && carousel) {
+                const thumbnailLeft = thumbnail.offsetLeft;
+                const thumbnailWidth = thumbnail.offsetWidth;
+                const carouselWidth = carousel.offsetWidth;
+                const scrollPosition =
+                    thumbnailLeft - (carouselWidth - thumbnailWidth) / 2;
+                carousel.scrollTo({
+                    left: scrollPosition,
+                    behavior: "smooth",
+                });
+            }
+        },
+        [onMediaIndexChange],
+    );
 
     const handleMainImageClick = useCallback(() => {
         if (!isVideoType) {
@@ -85,6 +93,7 @@ const ViewVideoArchiveViewer = ({ entry }: ViewVideoArchiveViewerProps) => {
 
     const handleSlideChange = (swiper: SwiperType) => {
         setCurrentMediaIndex(swiper.activeIndex);
+        onMediaIndexChange?.(swiper.activeIndex);
     };
 
     const renderMediaItem = (media: MediaEntry) => {
@@ -183,22 +192,20 @@ const ViewVideoArchiveViewer = ({ entry }: ViewVideoArchiveViewerProps) => {
 
                     {/* Media Carousel */}
                     <div className="px-2 border rounded-lg">
-                        {entry.entries.length > 1 && (
-                            <div
-                                className="flex gap-2 overflow-x-auto p-2 min-h-[80px]"
-                                id="carousel"
-                            >
-                                {entry.entries.map((media, index) => (
-                                    <MediaThumbnail
-                                        key={index}
-                                        media={media}
-                                        index={index}
-                                        isActive={index === currentMediaIndex}
-                                        onClick={handleThumbnailClick}
-                                    />
-                                ))}
-                            </div>
-                        )}
+                        <div
+                            className="flex gap-2 overflow-x-auto p-2 min-h-[80px]"
+                            id="carousel"
+                        >
+                            {entry.entries.map((media, index) => (
+                                <MediaThumbnail
+                                    key={index}
+                                    media={media}
+                                    index={index}
+                                    isActive={index === currentMediaIndex}
+                                    onClick={handleThumbnailClick}
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
 

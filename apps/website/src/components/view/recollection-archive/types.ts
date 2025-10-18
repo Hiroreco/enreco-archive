@@ -17,4 +17,5 @@ export type RecollectionArchiveEntry = {
     chapter: number;
     category: string;
     entries: MediaEntry[];
+    thumbnailUrl: string;
 };

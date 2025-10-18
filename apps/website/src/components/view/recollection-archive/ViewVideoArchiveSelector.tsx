@@ -13,7 +13,7 @@ const ViewVideoArchiveSelector = ({
     entry,
     onEntryClick,
 }: ViewVideoArchiveSelectorProps) => {
-    const thumbnailUrl = entry.entries[0]?.thumbnailUrl || "/placeholder.jpg";
+    const thumbnailUrl = entry.thumbnailUrl;
 
     return (
         <div
