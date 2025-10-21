@@ -95,9 +95,15 @@ async function processMarkdownFiles() {
                     .replace(/\.md$/, `.webp`)
                     .replace(baseName, `${chapterPrefix}${baseName}`),
             );
+            const outputFilePathOpt = path.join(
+                SHARED_RESOURCES_DIR,
+                relativePath
+                    .replace(/\.md$/, `.webp`)
+                    .replace(baseName, `${chapterPrefix}${baseName}-opt`),
+            );
 
             // Skip if the thumbnail already exists
-            if (existsSync(outputFilePath)) {
+            if (existsSync(outputFilePathOpt)) {
                 continue;
             }
 

@@ -53,9 +53,15 @@ async function processEntry(
 ): Promise<RecollectionArchiveEntry | null> {
     const mdPaths = await walkDir(entryDir);
 
-    const indexPath = mdPaths.find((p) =>
-        path.basename(p, ".md").endsWith("-index"),
-    );
+    let indexPath: string | null = null;
+    for (const p of mdPaths) {
+        const base = path.basename(p, ".md");
+        if (base.startsWith(entryId) && base.includes("-index")) {
+            indexPath = p;
+            break;
+        }
+    }
+
     if (!indexPath) {
         console.warn(`No index file found in ${entryDir}`);
         return null;
@@ -101,13 +107,15 @@ async function processEntry(
         const mediaTitle = mediaMeta.title || mediaId;
         const originalUrl = mediaMeta.originalUrl || "";
 
-        const mediaThumbnailUrl = `/images-opt/${mediaId}-opt.webp`;
+        const mediaIdWithNoLocaleSuffix = mediaId.replace(/_([a-z]{2})$/, "");
+
+        const mediaThumbnailUrl = `/images-opt/${mediaIdWithNoLocaleSuffix}-opt.webp`;
         const src =
             mediaType === "video"
-                ? `${CDN_PREFIX}/${mediaId}-opt.mp4`
+                ? `${CDN_PREFIX}/${mediaIdWithNoLocaleSuffix}-opt.mp4`
                 : mediaType === "youtube"
                   ? originalUrl
-                  : `/images-opt/${mediaId}-opt.webp`;
+                  : `/images-opt/${mediaIdWithNoLocaleSuffix}-opt.webp`;
 
         mediaEntries.push({
             title: mediaTitle,
