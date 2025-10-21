@@ -1,4 +1,4 @@
-<!-- title: Memory Recollections -->
+<!-- title: Official Theme Song -->
 <!-- entries: song-start-again -->
-<!-- description: Me and the boys slaying Stains and jamming out to this banger. -->
+<!-- description: An energetic start to an enigmatic journey -->
 <!-- thumbnail: song-start-again -->

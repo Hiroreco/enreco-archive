@@ -1,3 +1,3 @@
-<!-- title: レディ・ブラッドフレイムの内なる想い - 五日目 -->
+<!-- title: レディ・ブラッドフレイムの内なる想い - 四日目 -->
 <!-- type: video -->
-<!-- originalUrl: https://www.youtube.com/watch?v=1_dhGL0K5-k -->
+<!-- originalUrl: https://www.youtube.com/watch?v=dCNrMstGc3I -->

@@ -45,19 +45,14 @@ async function translateMarkdown(content: string): Promise<string> {
 - リベスタルの王, スターサイト・エルピス/クロノス/カオス
 - Ancient Sewers, Underworld, Ocean Temple, Eldritch Horror, Volcano Dungeon -> エイジアント・シューアーズ, アンダーワールド, オーシャン・テンプル, エルドリッチ・ホラー, ボルケーノダンジョン
 - キャプティブ, ステインキング, アウトサイダー, レベレーション
-- Smith → スミス, Jeweler → ジュエラー, Chef → シェフ, Supplier → サプライヤー
 - "Huzzah!" → "フザー!"
 - Princess Iphania → イファニア姫
-- "Inbread/In-bread" → "インブレッド"
 
 **マークダウン処理**:
 
 - すべての書式、リンク、構造を正確に保持
 - メタタグ値を翻訳: <!-- status: Alive --> → <!-- status: 生存 -->
-- <!-- relationship --> タグは翻訳しない
-- 関係性リンクを翻訳: [Gura-Kronii]() → [グラ-クロニー]()
-- Fanart/Fanwork/Memes等のセクションヘッダーは翻訳するが、内容は変更しない
-
+- <!-- type --> タグは翻訳しない
 **重要**: 直訳で意味が通らない表現があれば、文脈から推測してアニメ・ゲーム調の自然な日本語表現に修正してください。
 
 **出力**: 翻訳されたコンテンツのみを返してください。

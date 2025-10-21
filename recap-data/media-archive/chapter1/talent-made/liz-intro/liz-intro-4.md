@@ -1,3 +1,3 @@
-<!-- title: Lady Bloodflame's Inner Reflections - Day 5 -->
+<!-- title: Lady Bloodflame's Inner Reflections - Day 4 -->
 <!-- type: video -->
-<!-- originalUrl: https://www.youtube.com/watch?v=1_dhGL0K5-k -->
+<!-- originalUrl: https://www.youtube.com/watch?v=dCNrMstGc3I -->

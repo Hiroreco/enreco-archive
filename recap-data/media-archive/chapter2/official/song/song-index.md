@@ -1,4 +1,4 @@
 <!-- title: Official Theme Song -->
 <!-- entries: song-monster -->
-<!-- description:  -->
+<!-- description: In the mirror, you see the darkest side of you -->
 <!-- thumbnail: song-monster -->
