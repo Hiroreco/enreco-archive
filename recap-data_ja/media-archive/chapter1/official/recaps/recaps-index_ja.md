@@ -1,5 +1,5 @@
 <!-- title: 第1章 REWIND -->
-<!-- entries: recaps-1, recaps-2, recaps-3, recaps-4, recaps-5, recaps-6, recaps-7, recaps-8, recaps-9 -->
+<!-- entries: recaps-1_ja, recaps-2_ja, recaps-3_ja, recaps-4_ja, recaps-5_ja, recaps-6_ja, recaps-7_ja, recaps-8_ja, recaps-9_ja -->
 <!-- description: 第1章の名場面を振り返るリキャップ映像シリーズ -->
 <!-- thumbnail: recaps-1 -->
 

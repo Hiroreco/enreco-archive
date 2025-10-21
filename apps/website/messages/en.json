@@ -439,6 +439,13 @@
         "rolling": "Rolling"
       }
     }
+  },
+  "mediaArchive": {
+    "chapter": "Chapter {value}",
+    "category": {
+      "official": "Official Media",
+      "talent-made": "Talent-made Media"
+    }
   }
 
 }

@@ -1,5 +1,5 @@
 <!-- title: ENreco NEWS -->
-<!-- entries: recaps-1, recaps-2, recaps-3 -->
+<!-- entries: recaps-1_ja, recaps-2_ja, recaps-3_ja -->
 <!-- description: 第2章の出来事を振り返るデイリー配信シリーズ -->
 <!-- thumbnail: recaps-1 -->
 

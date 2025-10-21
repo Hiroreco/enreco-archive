@@ -1,5 +1,5 @@
 <!-- title: レディ・ブラッドフレイムの内なる回想 -->
-<!-- entries: liz-intro-1, liz-intro-2, liz-intro-3, liz-intro-4, liz-intro-5, liz-intro-6, liz-intro-7 -->
+<!-- entries: liz-intro-1_ja, liz-intro-2_ja, liz-intro-3_ja, liz-intro-4_ja, liz-intro-5_ja, liz-intro-6_ja, liz-intro-7_ja -->
 <!-- description: これまでに起きた出来事を振り返るリズの日々の回想記録 -->
 <!-- thumbnail: liz-intro-7 -->
 

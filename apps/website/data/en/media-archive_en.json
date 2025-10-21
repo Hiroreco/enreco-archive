@@ -52,7 +52,7 @@
         "type": "youtube"
       },
       {
-        "title": "Chapter 1 REWIND - Ep.3",
+        "title": "Chapter 1 REWIND - Ep.4",
         "originalUrl": "https://www.youtube.com/watch?v=aoLrgFjs12o&list=PLFJHB2njYCiLTt-2nFmdlCzOGSoNdN7XO&index=4",
         "thumbnailUrl": "/images-opt/c1-recaps-4-opt.webp",
         "info": "",
@@ -130,7 +130,7 @@
         "title": "Recollection - Ninomae Ina'nis",
         "originalUrl": "https://www.youtube.com/watch?v=QE5Ow4L1Zt8",
         "thumbnailUrl": "/images-opt/c1-recollections-ina-opt.webp",
-        "info": "### General\n\nNinomae Ina'nis’ memories were recovered after the conquest of the Volcano Dungeon, which took place on the fourth day of the first chapter.\n\nA lone girl residing in a shrine—an area eerie and unsettling, yet softened by the gentle, kind aura she exuded. A priestess of compassion and grace, Ina was tasked with guiding lost souls to their rest. She would play with them, spend time by their side, ensuring that each could pass on peacefully.",
+        "info": "### General\n\nNinomae Ina'nis’ memories were recovered after the conquest of the Eldritch Horror Dungeon, which took place on the third day of the first chapter.\n\nA lone girl residing in a shrine—an area eerie and unsettling, yet softened by the gentle, kind aura she exuded. A priestess of compassion and grace, Ina was tasked with guiding lost souls to their rest. She would play with them, spend time by their side, ensuring that each could pass on peacefully.",
         "src": "https://www.youtube.com/watch?v=QE5Ow4L1Zt8",
         "type": "youtube"
       },
@@ -146,7 +146,7 @@
         "title": "Recollection - Amelia Watson",
         "originalUrl": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
         "thumbnailUrl": "/images-opt/c1-recollections-ame-opt.webp",
-        "info": "### Description\n\nAmelia Watson’s memories were recovered after the conquest of the Underwater Dungeon, which took place on the second day of the first chapter.\n\nA detective always chasing the next big case, yet every mystery she encountered turned out to be trivial drama at best. She longed for something grand—the case of the century! But when she finally believed she had found it while investigating four mysterious figures, she discovered that they were not villains or myths, but simply kindhearted people.\n\nNonetheless, the revelation left her content. For big or small, it was the thrill of uncovering the truth that brought her joy. After all, she was _the_ number one detective.",
+        "info": "### Description\n\nAmelia Watson’s memories were recovered after the conquest of the Ancient Sewers Dungeon, which took place on the fifth day of the first chapter.\n\nA detective always chasing the next big case, yet every mystery she encountered turned out to be trivial drama at best. She longed for something grand—the case of the century! But when she finally believed she had found it while investigating four mysterious figures, she discovered that they were not villains or myths, but simply kindhearted people.\n\nNonetheless, the revelation left her content. For big or small, it was the thrill of uncovering the truth that brought her joy. After all, she was _the_ number one detective.",
         "src": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
         "type": "youtube"
       }
@@ -154,8 +154,8 @@
   },
   {
     "id": "c1-song",
-    "title": "Memory Recollections",
-    "description": "Me and the boys slaying Stains and jamming out to this banger.",
+    "title": "Official Theme Song",
+    "description": "An energetic start to an enigmatic journey",
     "info": "",
     "chapter": 1,
     "category": "official",
@@ -181,59 +181,59 @@
     "thumbnailUrl": "/images-opt/c1-liz-intro-7-opt.webp",
     "entries": [
       {
-        "title": "Lady Bloodflame's Inner Reflections - Day 2",
-        "originalUrl": "https://www.youtube.com/watch?v=M3cuDNZrIKM",
+        "title": "Lady Bloodflame's Inner Reflections - Day 1",
+        "originalUrl": "https://www.youtube.com/watch?v=2qiX7084obE",
         "thumbnailUrl": "/images-opt/c1-liz-intro-1-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-1-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-1-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "Lady Bloodflame's Inner Reflections - Day 2",
+        "originalUrl": "https://www.youtube.com/watch?v=M3cuDNZrIKM",
+        "thumbnailUrl": "/images-opt/c1-liz-intro-2-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-2-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 3",
         "originalUrl": "https://www.youtube.com/live/oVguNTPnDww?si=W6sCOql2i9WBsjYr",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-2-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-liz-intro-3-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-2-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-3-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 4",
         "originalUrl": "https://www.youtube.com/watch?v=dCNrMstGc3I",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-3-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-liz-intro-4-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-3-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-4-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 5",
         "originalUrl": "https://www.youtube.com/watch?v=1_dhGL0K5-k",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-4-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-liz-intro-5-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-4-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-5-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 6",
         "originalUrl": "https://www.youtube.com/watch?v=5R01-igo4sM",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-5-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-liz-intro-6-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-5-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-6-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 7",
         "originalUrl": "https://www.youtube.com/watch?v=Gw0dZbPKTG4",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-6-opt.webp",
-        "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-6-opt.mp4",
-        "type": "video"
-      },
-      {
-        "title": "Lady Bloodflame's Inner Reflections - Day 8",
-        "originalUrl": "https://www.youtube.com/watch?v=_urPfTQnLes",
         "thumbnailUrl": "/images-opt/c1-liz-intro-7-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c1-liz-intro-7-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-liz-intro-7-opt.mp4",
         "type": "video"
       }
     ]
@@ -357,7 +357,7 @@
   {
     "id": "c2-song",
     "title": "Official Theme Song",
-    "description": "",
+    "description": "In the mirror, you see the darkest side of you",
     "info": "",
     "chapter": 2,
     "category": "official",
@@ -374,7 +374,7 @@
     ]
   },
   {
-    "id": "c2-cecilia-princess.md",
+    "id": "c2-cecilia-princess",
     "title": "Immerkind's Serenade",
     "description": "A confession of love from the kindest one",
     "info": "",
@@ -406,7 +406,7 @@
         "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
         "thumbnailUrl": "/images-opt/c2-liz-intro-1-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c2-liz-intro-1-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-liz-intro-1-opt.mp4",
         "type": "video"
       },
       {
@@ -414,15 +414,15 @@
         "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
         "thumbnailUrl": "/images-opt/c2-liz-intro-2-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c2-liz-intro-2-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-liz-intro-2-opt.mp4",
         "type": "video"
       },
       {
         "title": "Knight's Log - Day 4",
-        "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
+        "originalUrl": "https://www.youtube.com/watch?v=1tE2N1kP2YA",
         "thumbnailUrl": "/images-opt/c2-liz-intro-4-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c2-liz-intro-4-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-liz-intro-4-opt.mp4",
         "type": "video"
       },
       {
@@ -430,7 +430,7 @@
         "originalUrl": "https://www.youtube.com/live/uEB2dIe37oo",
         "thumbnailUrl": "/images-opt/c2-liz-intro-5-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c2-liz-intro-5-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-liz-intro-5-opt.mp4",
         "type": "video"
       },
       {
@@ -438,7 +438,7 @@
         "originalUrl": "https://www.youtube.com/live/sDjysXFWYbI",
         "thumbnailUrl": "/images-opt/c2-liz-intro-6-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c2-liz-intro-6-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-liz-intro-6-opt.mp4",
         "type": "video"
       },
       {
@@ -446,7 +446,7 @@
         "originalUrl": "https://www.youtube.com/live/b-jTHH6GK5w",
         "thumbnailUrl": "/images-opt/c2-liz-intro-7-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net//c2-liz-intro-7-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-liz-intro-7-opt.mp4",
         "type": "video"
       }
     ]

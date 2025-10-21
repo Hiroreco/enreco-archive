@@ -5,7 +5,7 @@ import type {
 import fs from "fs/promises";
 import path from "path";
 
-const CDN_PREFIX = "https://cdn.enreco-archive.net/";
+const CDN_PREFIX = "https://cdn.enreco-archive.net";
 
 async function walkDir(dir: string): Promise<string[]> {
     const entries = await fs.readdir(dir, { withFileTypes: true });
