@@ -441,11 +441,11 @@
     }
   },
   "mediaArchive": {
-    "chapter": "Chapter {value}",
+    "title": "Hall of Recollections",
+    "description": "A collection of official media, memories and moments",
     "category": {
       "official": "Official Media",
       "talent-made": "Talent-made Media"
     }
   }
-
 }

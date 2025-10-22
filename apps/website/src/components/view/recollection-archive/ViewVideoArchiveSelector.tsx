@@ -48,19 +48,19 @@ const ViewVideoArchiveSelector = ({
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
-                <div className="p-3 flex flex-col gap-1.5">
-                    <span className="font-semibold text-sm line-clamp-2">
+                <div className="p-2.5 flex flex-col gap-1 flex-1">
+                    <span className="font-semibold text-xs line-clamp-2 leading-tight">
                         {entry.title}
                     </span>
-                    <p className="text-xs text-muted-foreground line-clamp-2">
+                    <p className="text-[10px] text-muted-foreground line-clamp-2 leading-tight">
                         {entry.description}
                     </p>
                 </div>
             </div>
 
             {/* Mobile: Horizontal Layout */}
-            <div className="flex md:hidden items-center gap-3 p-3">
-                <div className="relative w-20 h-20 shrink-0 overflow-hidden rounded-md">
+            <div className="flex md:hidden items-center gap-2.5 p-2.5">
+                <div className="relative w-16 h-16 shrink-0 overflow-hidden rounded-md">
                     <Image
                         src={thumbnailUrl}
                         alt={entry.title}
@@ -74,10 +74,10 @@ const ViewVideoArchiveSelector = ({
                 </div>
 
                 <div className="flex-1 min-w-0">
-                    <span className="font-semibold text-sm line-clamp-2">
+                    <span className="font-semibold text-xs line-clamp-2 leading-tight">
                         {entry.title}
                     </span>
-                    <p className="text-xs text-muted-foreground line-clamp-2 mt-1">
+                    <p className="text-[10px] text-muted-foreground line-clamp-2 mt-0.5 leading-tight">
                         {entry.description}
                     </p>
                 </div>

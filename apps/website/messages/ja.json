@@ -439,5 +439,13 @@
         "rolling": "ロール中"
       }
     }
+  },
+  "mediaArchive": {
+    "title": "回想の殿堂",
+    "description": "公式メディア、思い出、瞬間のコレクション",
+    "category": {
+      "official": "公式",
+      "talent-made": "タレント制作"
+    }
   }
 }

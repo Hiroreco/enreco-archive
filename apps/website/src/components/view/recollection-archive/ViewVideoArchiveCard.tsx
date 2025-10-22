@@ -15,6 +15,7 @@ import { getBlurDataURL } from "@/lib/utils";
 import { ArrowLeft } from "lucide-react";
 import ViewVideoArchiveViewer from "@/components/view/recollection-archive/ViewVideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { useTranslations } from "next-intl";
 
 interface ViewVideoArchiveCardProps {
     className?: string;
@@ -25,6 +26,7 @@ const ViewVideoArchiveCard = ({
     className,
     bgImage,
 }: ViewVideoArchiveCardProps) => {
+    const t = useTranslations("mediaArchive");
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
@@ -72,27 +74,30 @@ const ViewVideoArchiveCard = ({
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
-            <CardHeader className="pb-4 px-6 text-center">
-                {selectedEntry && (
-                    <button
-                        onClick={handleBackClick}
-                        className="absolute left-4 top-4 p-2 hover:bg-foreground/10 rounded-lg transition-colors"
-                        aria-label="Back to list"
-                    >
-                        <ArrowLeft className="w-5 h-5" />
-                    </button>
-                )}
+            <CardHeader className="pb-4 px-6">
+                <CardTitle className="text-xl font-bold flex flex-row items-center justify-between">
+                    <div className="flex items-center gap-2">
+                        {selectedEntry && (
+                            <button
+                                onClick={handleBackClick}
+                                className="p-2 hover:bg-foreground/10 rounded-lg transition-colors"
+                                aria-label="Back to list"
+                            >
+                                <ArrowLeft className="w-5 h-5" />
+                            </button>
+                        )}
+                        <span className="p-2">
+                            {selectedEntry ? selectedEntry.title : t("title")}
+                        </span>
+                    </div>
 
-                <CardTitle className="text-xl font-bold">
-                    {selectedEntry
-                        ? selectedEntry.title
-                        : "Hall of Recollections"}
+                    <p className="text-muted-foreground text-xs font-normal">
+                        {selectedEntry
+                            ? selectedEntry.description
+                            : t("description")}
+                    </p>
                 </CardTitle>
-                <p className="text-muted-foreground text-xs mt-1">
-                    {selectedEntry
-                        ? selectedEntry.description
-                        : "A collection of memories and moments"}
-                </p>
+
                 <Separator className="mt-3 bg-foreground/60" />
             </CardHeader>
 
@@ -110,7 +115,7 @@ const ViewVideoArchiveCard = ({
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="flex flex-col items-center gap-8"
+                            className="flex flex-col items-center gap-6"
                         >
                             {sortedChapters.map((chapterKey) => {
                                 const chapter = Number(chapterKey);
@@ -170,54 +175,38 @@ const ChapterSection = ({
     categories,
     onEntryClick,
 }: ChapterSectionProps) => {
+    const t = useTranslations("mediaArchive");
+    const tCommon = useTranslations("common");
+
     return (
-        <div className="w-full flex flex-col items-center gap-4">
-            {/* Chapter Header */}
-            <div className="text-center">
-                <span className="text-xl font-bold">Chapter {chapter}</span>
-                <Separator className="bg-foreground/60" />
+        <div className="w-full max-w-[1000px]">
+            <div className="flex items-center gap-3 mb-4">
+                <span className="text-lg font-bold whitespace-nowrap">
+                    {tCommon("chapter", { val: chapter })}
+                </span>
+                <Separator className="bg-foreground/60 flex-1" />
             </div>
 
-            {/* Categories */}
-            {Object.entries(categories).map(([categoryName, entries]) => (
-                <CategorySection
-                    key={categoryName}
-                    categoryName={categoryName}
-                    entries={entries}
-                    onEntryClick={onEntryClick}
-                />
-            ))}
-        </div>
-    );
-};
-
-interface CategorySectionProps {
-    categoryName: string;
-    entries: RecollectionArchiveEntry[];
-    onEntryClick: (entry: RecollectionArchiveEntry) => void;
-}
-
-const CategorySection = ({
-    categoryName,
-    entries,
-    onEntryClick,
-}: CategorySectionProps) => {
-    return (
-        <div className="w-full flex flex-col items-center gap-3">
-            {/* Category Header */}
-            <span className="text-lg font-semibold text-muted-foreground">
-                {categoryName}
-            </span>
-
-            {/* Entries Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full max-w-[900px]">
-                {entries.map((entry) => (
-                    <ViewVideoArchiveSelector
-                        key={entry.id}
-                        entry={entry}
-                        onEntryClick={onEntryClick}
-                    />
-                ))}
+            <div className="columns-1 md:columns-2 lg:columns-3">
+                {Object.entries(categories).map(([categoryName, entries]) =>
+                    entries.map((entry, index) => (
+                        <div
+                            key={entry.id}
+                            className="flex flex-col gap-1.5 mb-2"
+                        >
+                            {/* Category label only on first entry */}
+                            {index === 0 && (
+                                <span className="text-xs font-medium text-muted-foreground">
+                                    {t(`category.${categoryName}`)}
+                                </span>
+                            )}
+                            <ViewVideoArchiveSelector
+                                entry={entry}
+                                onEntryClick={onEntryClick}
+                            />
+                        </div>
+                    )),
+                )}
             </div>
         </div>
     );
