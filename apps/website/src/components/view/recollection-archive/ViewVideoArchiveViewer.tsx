@@ -27,6 +27,7 @@ const ViewVideoArchiveViewer = ({
 }: ViewVideoArchiveViewerProps) => {
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+    const [playingVideos, setPlayingVideos] = useState<Set<number>>(new Set());
     const containerRef = useRef<HTMLDivElement>(null);
     const swiperRef = useRef<SwiperType | null>(null);
 
@@ -54,6 +55,9 @@ const ViewVideoArchiveViewer = ({
         (index: number) => {
             setCurrentMediaIndex(index);
             onMediaIndexChange?.(index);
+            // Stop any playing video when switching
+            setPlayingVideos(new Set());
+
             const carousel = document.getElementById("carousel");
             const thumbnail = carousel?.children[index] as HTMLElement;
             if (thumbnail && carousel) {
@@ -77,6 +81,14 @@ const ViewVideoArchiveViewer = ({
         }
     }, [isVideoType]);
 
+    const handleVideoThumbnailClick = useCallback((index: number) => {
+        setPlayingVideos((prev) => {
+            const newSet = new Set(prev);
+            newSet.add(index);
+            return newSet;
+        });
+    }, []);
+
     const handleLightboxClose = useCallback(() => {
         setIsLightboxOpen(false);
     }, []);
@@ -94,18 +106,51 @@ const ViewVideoArchiveViewer = ({
     const handleSlideChange = (swiper: SwiperType) => {
         setCurrentMediaIndex(swiper.activeIndex);
         onMediaIndexChange?.(swiper.activeIndex);
+        // Stop videos when sliding away
+        setPlayingVideos(new Set());
     };
 
-    const renderMediaItem = (media: MediaEntry) => {
+    const renderMediaItem = (media: MediaEntry, index: number) => {
         const isVideo = media.type === "video" || media.type === "youtube";
+        const isPlaying = playingVideos.has(index);
 
         if (isVideo) {
+            if (!isPlaying) {
+                return (
+                    <div
+                        className="relative w-full h-full cursor-pointer flex items-center justify-center"
+                        onClick={() => handleVideoThumbnailClick(index)}
+                    >
+                        <Image
+                            src={media.thumbnailUrl}
+                            alt={media.title}
+                            fill
+                            className="object-contain"
+                            blurDataURL={getBlurDataURL(media.thumbnailUrl)}
+                            placeholder={
+                                getBlurDataURL(media.thumbnailUrl)
+                                    ? "blur"
+                                    : "empty"
+                            }
+                            priority
+                        />
+
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
+                            <div className="bg-white/90 hover:bg-white rounded-full p-6 transition-all hover:scale-110">
+                                <Play className="w-16 h-16 text-black fill-black" />
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+
             return (
                 <div className="relative w-full h-full flex items-center justify-center">
                     <ReactPlayer
                         src={media.src}
                         controls
                         width="100%"
+                        playing={isPlaying}
                         height="100%"
                         style={{
                             maxWidth: "100%",
@@ -184,7 +229,7 @@ const ViewVideoArchiveViewer = ({
                                     key={`${media.src}-${index}`}
                                     className="!flex !items-center !justify-center w-full h-full"
                                 >
-                                    {renderMediaItem(media)}
+                                    {renderMediaItem(media, index)}
                                 </SwiperSlide>
                             ))}
                         </Swiper>
