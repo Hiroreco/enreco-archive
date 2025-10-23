@@ -101,7 +101,10 @@ const ViewVideoArchiveCard = ({
 
                     <Dialog>
                         <DialogTrigger className="p-0 m-0">
-                            <Info size={20} className="text-muted-foreground" />
+                            <Info
+                                size={20}
+                                className="text-muted-foreground md:hidden block"
+                            />
                         </DialogTrigger>
                         <DialogContent
                             showXButton={true}
@@ -109,12 +112,16 @@ const ViewVideoArchiveCard = ({
                         >
                             <DialogHeader>
                                 <DialogTitle>
-                                    {selectedEntry? selectedEntry.title : t("title")}
+                                    {selectedEntry
+                                        ? selectedEntry.title
+                                        : t("title")}
                                 </DialogTitle>
                             </DialogHeader>
 
                             <DialogDescription>
-                                {selectedEntry ? selectedEntry.description : t("description")}
+                                {selectedEntry
+                                    ? selectedEntry.description
+                                    : t("description")}
                             </DialogDescription>
                         </DialogContent>
                     </Dialog>
@@ -125,9 +132,10 @@ const ViewVideoArchiveCard = ({
                             : t("description")}
                     </p>
                 </CardTitle>
+                <Separator className="bg-foreground/60" />
             </CardHeader>
 
-            <CardContent className="overflow-y-auto px-6 pb-6 h-[65dvh] sm:h-[70dvh]">
+            <CardContent className="overflow-y-auto px-6 pb-6 h-[70dvh] sm:h-[80dvh]">
                 <AnimatePresence mode="wait">
                     {selectedEntry ? (
                         <ViewVideoArchiveViewer

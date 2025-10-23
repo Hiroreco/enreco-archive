@@ -122,7 +122,7 @@ export const ViewAppWrapper = () => {
                         },
                     )}
                 >
-                    <TabsList>
+                    <TabsList className="md:flex-col md:h-fit">
                         <TabsTrigger value="chart">
                             <Workflow size={24} />
                         </TabsTrigger>

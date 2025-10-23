@@ -12,7 +12,6 @@ import { EffectCreative } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { MediaEntry, RecollectionArchiveEntry } from "./types";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-creative";
 
@@ -236,7 +235,7 @@ const ViewVideoArchiveViewer = ({
                     </div>
 
                     {/* Media Carousel */}
-                    <div className="px-2 border rounded-lg">
+                    <div className="px-2 border-2 border-foreground/60 rounded-lg">
                         <div
                             className="flex gap-2 overflow-x-auto p-2 min-h-[80px]"
                             id="carousel"
@@ -267,7 +266,7 @@ const ViewVideoArchiveViewer = ({
                         </p>
                     </div>
 
-                    <Separator />
+                    <Separator className="bg-foreground/60" />
 
                     <div className="flex-1 md:overflow-y-auto">
                         <ViewMarkdown
@@ -281,7 +280,7 @@ const ViewVideoArchiveViewer = ({
 
                     {currentMedia && (
                         <>
-                            <Separator />
+                            <Separator className="bg-foreground/60" />
                             <div className="flex flex-col gap-1">
                                 {currentMedia.originalUrl && (
                                     <a

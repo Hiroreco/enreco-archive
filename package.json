@@ -38,6 +38,7 @@
         "brushup": "tsx scripts/misc/brushup.ts",
         "normalize-audio": "tsx scripts/misc/normalize-audio.ts",
         "download-thumbnails": "tsx scripts/misc/download-thumbnails.ts",
+        "append-ja": "tsx scripts/misc/append-ja.ts",
         "inject-content": "tsx scripts/content/inject-content.ts",
         "validate-content": "tsx scripts/content/validate-content.ts",
         "proofread": "tsx scripts/proofread/proofread.ts"

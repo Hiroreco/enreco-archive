@@ -36,6 +36,7 @@ import chapterRecaps_en from "#/en/chapter-recaps_en.json";
 import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
 
 import media_archive_en from "#/en/media-archive_en.json";
+import media_archive_ja from "#/ja/media-archive_ja.json";
 
 import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
@@ -102,7 +103,7 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_ja,
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
-        recollectionArchive: media_archive_en.map((entry) => ({
+        recollectionArchive: media_archive_ja.map((entry) => ({
             ...entry,
             entries: entry.entries.map((media) => ({
                 ...media,
