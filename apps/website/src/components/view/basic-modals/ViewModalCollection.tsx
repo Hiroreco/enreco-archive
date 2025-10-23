@@ -5,16 +5,22 @@ import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal
 import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
 import { useViewStore, ModalType } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
-import { Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
+import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import ViewChapterRecapModal from "../utility-modals/ViewChapterRecapModal";
 
 interface ViewModalCollectionProps {
     modals: ModalType[];
-    hideOnMobile?: ModalType[]; 
+    hideOnMobile?: ModalType[];
+    alwaysVertical?: boolean;
 }
 
-const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionProps) => {
+const ViewModalCollection = ({
+    modals,
+    hideOnMobile = [],
+    alwaysVertical = false,
+}: ViewModalCollectionProps) => {
     const tNavTooltips = useTranslations("navTooltips");
 
     const openModal = useViewStore((state) => state.modal.openModal);
@@ -23,10 +29,21 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
     const day = useViewStore((state) => state.data.day);
 
     const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
-    const openSettingsModal = useViewStore((state) => state.modal.openSettingsModal);
-    const openMinigameModal = useViewStore((state) => state.modal.openMinigameModal);
-    const openMusicPlayerModal = useViewStore((state) => state.modal.openMusicPlayerModal);
-    const openFanartModal = useViewStore((state) => state.modal.openFanartModal);
+    const openSettingsModal = useViewStore(
+        (state) => state.modal.openSettingsModal,
+    );
+    const openMinigameModal = useViewStore(
+        (state) => state.modal.openMinigameModal,
+    );
+    const openMusicPlayerModal = useViewStore(
+        (state) => state.modal.openMusicPlayerModal,
+    );
+    const openFanartModal = useViewStore(
+        (state) => state.modal.openFanartModal,
+    );
+    const openChapterRecapModal = useViewStore(
+        (state) => state.modal.openChapterRecapModal,
+    );
 
     const isHiddenOnMobile = (type: ModalType) =>
         hideOnMobile.includes(type) ? "hidden md:block" : "";
@@ -34,19 +51,31 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
     return (
         <>
             {modals.includes("info") && (
-                <ViewInfoModal open={openModal === "info"} onClose={closeModal} />
+                <ViewInfoModal
+                    open={openModal === "info"}
+                    onClose={closeModal}
+                />
             )}
 
             {modals.includes("settings") && (
-                <ViewSettingsModal open={openModal === "settings"} onClose={closeModal} />
+                <ViewSettingsModal
+                    open={openModal === "settings"}
+                    onClose={closeModal}
+                />
             )}
 
             {modals.includes("minigame") && (
-                <ViewMiniGameModal open={openModal === "minigame"} onClose={closeModal} />
+                <ViewMiniGameModal
+                    open={openModal === "minigame"}
+                    onClose={closeModal}
+                />
             )}
 
             {modals.includes("music") && (
-                <ViewMusicPlayerModal open={openModal === "music"} onClose={closeModal} />
+                <ViewMusicPlayerModal
+                    open={openModal === "music"}
+                    onClose={closeModal}
+                />
             )}
 
             {modals.includes("fanart") && (
@@ -58,11 +87,28 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
                 />
             )}
 
-            <div className="fixed top-0 right-0 m-[8px] z-10 flex md:flex-col gap-[8px]">
+            {modals.includes("chapterRecap") && (
+                <ViewChapterRecapModal
+                    key={`chapter-recap-modal-${chapter}`}
+                    open={openModal === "chapterRecap"}
+                    onClose={closeModal}
+                    currentChapter={chapter}
+                />
+            )}
+
+            <div
+                className={cn(
+                    "fixed top-0 right-0 m-[8px] z-10 flex md:flex-col gap-[8px]",
+                    alwaysVertical && "flex-col",
+                )}
+            >
                 {modals.includes("info") && (
                     <IconButton
                         id="info-btn"
-                        className={cn("size-[40px] p-[4px]", isHiddenOnMobile("info"))}
+                        className={cn(
+                            "size-[40px] p-[4px]",
+                            isHiddenOnMobile("info"),
+                        )}
                         tooltipText={tNavTooltips("info")}
                         enabled
                         tooltipSide="left"
@@ -75,7 +121,10 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
                 {modals.includes("settings") && (
                     <IconButton
                         id="settings-btn"
-                        className={cn("size-[40px] p-[4px]", isHiddenOnMobile("settings"))}
+                        className={cn(
+                            "size-[40px] p-[4px]",
+                            isHiddenOnMobile("settings"),
+                        )}
                         tooltipText={tNavTooltips("settings")}
                         enabled
                         tooltipSide="left"
@@ -88,7 +137,10 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
                 {modals.includes("minigame") && (
                     <IconButton
                         id="minigames-btn"
-                        className={cn("size-[40px] p-[4px]", isHiddenOnMobile("minigame"))}
+                        className={cn(
+                            "size-[40px] p-[4px]",
+                            isHiddenOnMobile("minigame"),
+                        )}
                         tooltipText={tNavTooltips("minigames")}
                         enabled
                         tooltipSide="left"
@@ -101,7 +153,10 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
                 {modals.includes("music") && (
                     <IconButton
                         id="music-player-btn"
-                        className={cn("size-[40px] p-[4px]", isHiddenOnMobile("music"))}
+                        className={cn(
+                            "size-[40px] p-[4px]",
+                            isHiddenOnMobile("music"),
+                        )}
                         tooltipText={tNavTooltips("jukebox")}
                         enabled
                         tooltipSide="left"
@@ -114,13 +169,29 @@ const ViewModalCollection = ({ modals, hideOnMobile = [] }: ViewModalCollectionP
                 {modals.includes("fanart") && (
                     <IconButton
                         id="fanart-btn"
-                        className={cn("size-[40px] p-1", isHiddenOnMobile("fanart"))}
+                        className={cn(
+                            "size-[40px] p-1",
+                            isHiddenOnMobile("fanart"),
+                        )}
                         tooltipText={tNavTooltips("libestalGallery")}
                         enabled
                         tooltipSide="left"
                         onClick={openFanartModal}
                     >
                         <Palette />
+                    </IconButton>
+                )}
+
+                {modals.includes("chapterRecap") && (
+                    <IconButton
+                        id="chapter-recap-btn"
+                        className="h-10 w-10 p-1"
+                        tooltipText={tNavTooltips("chapterRecap")}
+                        enabled={true}
+                        tooltipSide="left"
+                        onClick={openChapterRecapModal}
+                    >
+                        <Book />
                     </IconButton>
                 )}
             </div>
