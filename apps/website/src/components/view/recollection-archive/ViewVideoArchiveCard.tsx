@@ -12,10 +12,18 @@ import { useMemo, useState } from "react";
 import ViewVideoArchiveSelector from "@/components/view/recollection-archive/ViewVideoArchiveSelector";
 import { RecollectionArchiveEntry } from "./types";
 import { getBlurDataURL } from "@/lib/utils";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Info } from "lucide-react";
 import ViewVideoArchiveViewer from "@/components/view/recollection-archive/ViewVideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useTranslations } from "next-intl";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@enreco-archive/common-ui/components/dialog";
 
 interface ViewVideoArchiveCardProps {
     className?: string;
@@ -73,9 +81,9 @@ const ViewVideoArchiveCard = ({
     }, [selectedEntry, currentMediaIndex, bgImage]);
 
     return (
-        <Card className={cn("items-card flex flex-col relative", className)}>
-            <CardHeader className="pb-4 px-6">
-                <CardTitle className="text-xl font-bold flex flex-row items-center justify-between">
+        <Card className={cn("items-card flex flex-col relaßtive", className)}>
+            <CardHeader className="px-6 pb-3">
+                <CardTitle className="font-bold flex flex-row items-center justify-between">
                     <div className="flex items-center gap-2">
                         {selectedEntry && (
                             <button
@@ -83,22 +91,40 @@ const ViewVideoArchiveCard = ({
                                 className="p-2 hover:bg-foreground/10 rounded-lg transition-colors"
                                 aria-label="Back to list"
                             >
-                                <ArrowLeft className="w-5 h-5" />
+                                <ArrowLeft className="size-5" />
                             </button>
                         )}
-                        <span className="p-2">
+                        <span className="p-2 md:text-xl text-lg">
                             {selectedEntry ? selectedEntry.title : t("title")}
                         </span>
                     </div>
 
-                    <p className="text-muted-foreground text-xs font-normal">
+                    <Dialog>
+                        <DialogTrigger className="p-0 m-0">
+                            <Info size={20} className="text-muted-foreground" />
+                        </DialogTrigger>
+                        <DialogContent
+                            showXButton={true}
+                            showXButtonForce={true}
+                        >
+                            <DialogHeader>
+                                <DialogTitle>
+                                    {selectedEntry? selectedEntry.title : t("title")}
+                                </DialogTitle>
+                            </DialogHeader>
+
+                            <DialogDescription>
+                                {selectedEntry ? selectedEntry.description : t("description")}
+                            </DialogDescription>
+                        </DialogContent>
+                    </Dialog>
+
+                    <p className="text-muted-foreground text-xs font-normal md:block hidden">
                         {selectedEntry
                             ? selectedEntry.description
                             : t("description")}
                     </p>
                 </CardTitle>
-
-                <Separator className="mt-3 bg-foreground/60" />
             </CardHeader>
 
             <CardContent className="overflow-y-auto px-6 pb-6 h-[65dvh] sm:h-[70dvh]">
@@ -179,8 +205,9 @@ const ChapterSection = ({
     const tCommon = useTranslations("common");
 
     return (
-        <div className="w-full max-w-[1000px]">
+        <div className="w-full">
             <div className="flex items-center gap-3 mb-4">
+                <Separator className="bg-foreground/60 flex-1" />
                 <span className="text-lg font-bold whitespace-nowrap">
                     {tCommon("chapter", { val: chapter })}
                 </span>
