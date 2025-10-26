@@ -45,3 +45,6 @@ apps/website/public
 shared-resources/videos
 shared-resources/new-videos
 shared-resources/hiros-videos-vault
+
+# Misc
+.clips-cache.json

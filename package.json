@@ -41,7 +41,8 @@
         "append-ja": "tsx scripts/misc/append-ja.ts",
         "inject-content": "tsx scripts/content/inject-content.ts",
         "validate-content": "tsx scripts/content/validate-content.ts",
-        "proofread": "tsx scripts/proofread/proofread.ts"
+        "proofread": "tsx scripts/proofread/proofread.ts",
+        "inject-clips": "tsx scripts/media/inject-clips.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",
