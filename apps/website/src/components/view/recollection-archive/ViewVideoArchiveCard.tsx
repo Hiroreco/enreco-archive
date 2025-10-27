@@ -10,9 +10,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import ViewVideoArchiveSelector from "@/components/view/recollection-archive/ViewVideoArchiveSelector";
-import { RecollectionArchiveEntry } from "./types";
+import { ClipEntry, RecollectionArchiveEntry } from "./types";
 import { getBlurDataURL } from "@/lib/utils";
-import { ArrowLeft, Info } from "lucide-react";
+import { ArrowLeft, Film, Info, Video } from "lucide-react";
 import ViewVideoArchiveViewer from "@/components/view/recollection-archive/ViewVideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useTranslations } from "next-intl";
@@ -24,6 +24,13 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
+import ViewClipsViewer from "@/components/view/recollection-archive/ViewClipsViewer";
+import {
+    Tabs,
+    TabsList,
+    TabsTrigger,
+} from "@enreco-archive/common-ui/components/tabs";
+import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
 
 interface ViewVideoArchiveCardProps {
     className?: string;
@@ -39,8 +46,17 @@ const ViewVideoArchiveCard = ({
         useState<RecollectionArchiveEntry | null>(null);
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
 
-    const { getRecollectionArchive } = useLocalizedData();
+    const { getRecollectionArchive, getClipsData } = useLocalizedData();
     const data = getRecollectionArchive();
+    const [selectedClip, setSelectedClip] = useState<ClipEntry | null>(null);
+
+    const clipsData = getClipsData();
+
+    const handleClipClick = (clip: ClipEntry) => {
+        setSelectedClip(clip);
+    };
+
+    const [activeTab, setActiveTab] = useState<"videos" | "clips">("videos");
 
     const groupedEntries = useMemo(() => {
         const grouped: Record<
@@ -81,11 +97,11 @@ const ViewVideoArchiveCard = ({
     }, [selectedEntry, currentMediaIndex, bgImage]);
 
     return (
-        <Card className={cn("items-card flex flex-col relaßtive", className)}>
+        <Card className={cn("items-card flex flex-col relative", className)}>
             <CardHeader className="px-6 pb-3">
                 <CardTitle className="font-bold flex flex-row items-center justify-between">
                     <div className="flex items-center gap-2">
-                        {selectedEntry && (
+                        {selectedEntry && activeTab === "videos" && (
                             <button
                                 onClick={handleBackClick}
                                 className="p-2 hover:bg-foreground/10 rounded-lg transition-colors"
@@ -95,7 +111,11 @@ const ViewVideoArchiveCard = ({
                             </button>
                         )}
                         <span className="p-2 md:text-xl text-lg">
-                            {selectedEntry ? selectedEntry.title : t("title")}
+                            {activeTab === "videos"
+                                ? selectedEntry
+                                    ? selectedEntry.title
+                                    : t("title")
+                                : t("clipArchive.title")}
                         </span>
                     </div>
 
@@ -112,24 +132,30 @@ const ViewVideoArchiveCard = ({
                         >
                             <DialogHeader>
                                 <DialogTitle>
-                                    {selectedEntry
-                                        ? selectedEntry.title
-                                        : t("title")}
+                                    {activeTab === "videos"
+                                        ? selectedEntry
+                                            ? selectedEntry.title
+                                            : t("title")
+                                        : t("clipArchive.title")}
                                 </DialogTitle>
                             </DialogHeader>
 
                             <DialogDescription>
-                                {selectedEntry
-                                    ? selectedEntry.description
-                                    : t("description")}
+                                {activeTab === "videos"
+                                    ? selectedEntry
+                                        ? selectedEntry.description
+                                        : t("description")
+                                    : t("clipArchive.description")}
                             </DialogDescription>
                         </DialogContent>
                     </Dialog>
 
                     <p className="text-muted-foreground text-xs font-normal md:block hidden">
-                        {selectedEntry
-                            ? selectedEntry.description
-                            : t("description")}
+                        {activeTab === "videos"
+                            ? selectedEntry
+                                ? selectedEntry.description
+                                : t("description")
+                            : t("clipArchive.description")}
                     </p>
                 </CardTitle>
                 <Separator className="bg-foreground/60" />
@@ -137,12 +163,12 @@ const ViewVideoArchiveCard = ({
 
             <CardContent className="overflow-y-auto px-6 pb-6 h-[70dvh] sm:h-[80dvh]">
                 <AnimatePresence mode="wait">
-                    {selectedEntry ? (
+                    {activeTab === "videos" && selectedEntry ? (
                         <ViewVideoArchiveViewer
                             entry={selectedEntry}
                             onMediaIndexChange={setCurrentMediaIndex}
                         />
-                    ) : (
+                    ) : activeTab === "videos" ? (
                         <motion.div
                             key="archive-grid"
                             initial={{ opacity: 0 }}
@@ -165,14 +191,71 @@ const ViewVideoArchiveCard = ({
                                 );
                             })}
                         </motion.div>
+                    ) : (
+                        <motion.div
+                            key="clips-viewer"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.15 }}
+                            className="h-full"
+                        >
+                            <ViewClipsViewer
+                                clips={clipsData}
+                                onClipClick={handleClipClick}
+                            />
+                        </motion.div>
                     )}
                 </AnimatePresence>
 
                 {/* Fade shadow for overflow */}
-                {!selectedEntry && (
+                {!selectedEntry && activeTab === "videos" && (
                     <div className="absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-t from-black/5 to-transparent pointer-events-none z-10" />
                 )}
             </CardContent>
+
+            {/* Tabs Footer */}
+            <div className="px-6 pb-4">
+                <Tabs
+                    value={activeTab}
+                    onValueChange={(v) => setActiveTab(v as "videos" | "clips")}
+                >
+                    <TabsList className="w-full grid grid-cols-2">
+                        <TabsTrigger value="videos" className="gap-2">
+                            <Video className="size-4" />
+                            <span className="hidden sm:inline">
+                                {t("tabs.videos")}
+                            </span>
+                        </TabsTrigger>
+                        <TabsTrigger value="clips" className="gap-2">
+                            <Film className="size-4" />
+                            <span className="hidden sm:inline">
+                                {t("tabs.clips")}
+                            </span>
+                        </TabsTrigger>
+                    </TabsList>
+                </Tabs>
+            </div>
+
+            {/* Lightbox for clips */}
+            {selectedClip && (
+                <ViewLightbox
+                    alt={selectedClip.title}
+                    src={selectedClip.originalUrl}
+                    type="video"
+                    isExternallyControlled={true}
+                    externalIsOpen={!!selectedClip}
+                    onExternalClose={() => setSelectedClip(null)}
+                    galleryItems={[
+                        {
+                            src: selectedClip.originalUrl,
+                            alt: selectedClip.title,
+                            type: "video",
+                            thumbnailSrc: selectedClip.thumbnailSrc, // Pass YouTube thumbnail
+                        },
+                    ]}
+                />
+            )}
 
             {/* Background */}
             <AnimatePresence>

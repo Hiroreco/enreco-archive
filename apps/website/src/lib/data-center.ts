@@ -41,9 +41,14 @@ import media_archive_ja from "#/ja/media-archive_ja.json";
 import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
 
+import clips_en from "#/en/clips_en.json";
+
 import { Locale } from "@/store/settingStore";
 import { Category } from "@/contexts/GlossaryContext";
-import { RecollectionArchiveEntry } from "@/components/view/recollection-archive/types";
+import {
+    ClipEntry,
+    RecollectionArchiveEntry,
+} from "@/components/view/recollection-archive/types";
 
 interface LocalizedData {
     chapters: Chapter[];
@@ -62,6 +67,7 @@ interface LocalizedData {
         content: string;
     }>;
     recollectionArchive: RecollectionArchiveEntry[];
+    clips: ClipEntry[];
 }
 
 const DATA: Record<Locale, LocalizedData> = {
@@ -89,6 +95,7 @@ const DATA: Record<Locale, LocalizedData> = {
                 type: media.type as MediaType,
             })),
         })),
+        clips: clips_en,
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
@@ -110,6 +117,7 @@ const DATA: Record<Locale, LocalizedData> = {
                 type: media.type as MediaType,
             })),
         })),
+        clips: [],
     },
 };
 
@@ -166,4 +174,8 @@ export const getChangelog = (locale: Locale) => {
 
 export const getRecollectionArchive = (locale: Locale) => {
     return DATA[locale].recollectionArchive;
+};
+
+export const getClipsData = (locale: Locale) => {
+    return DATA[locale].clips;
 };

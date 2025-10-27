@@ -6,6 +6,7 @@ export interface GalleryItem {
     type: MediaType;
     width?: number;
     height?: number;
+    thumbnailSrc?: string;
     chapter?: number;
     day?: number;
 }

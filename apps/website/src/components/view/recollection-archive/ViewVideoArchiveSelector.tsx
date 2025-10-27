@@ -45,7 +45,7 @@ const ViewVideoArchiveSelector = ({
                             getBlurDataURL(thumbnailUrl) ? "blur" : "empty"
                         }
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t size-full from-black/60 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
                 <div className="p-2.5 flex flex-col gap-1 flex-1">

@@ -19,3 +19,14 @@ export type RecollectionArchiveEntry = {
     entries: MediaEntry[];
     thumbnailUrl: string;
 };
+
+export type ClipEntry = {
+    id: string;
+    originalUrl: string;
+    title: string;
+    thumbnailSrc: string;
+    author: string;
+    duration: number;
+    category: string;
+    chapter: number;
+};

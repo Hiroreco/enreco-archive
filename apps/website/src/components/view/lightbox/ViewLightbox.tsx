@@ -209,14 +209,21 @@ const ViewLightbox = ({
     if (currentGalleryItem.type === "image") {
         blurBgSrc = getBlurDataURL(currentGalleryItem.src);
     } else if (currentGalleryItem.type === "video") {
-        const videoName =
-            currentGalleryItem.src
-                .split("/")
-                .pop()
-                ?.replace(/\.[^/.]+$/, "") || "";
+        if (currentGalleryItem.thumbnailSrc) {
+            blurBgSrc = getBlurDataURL(currentGalleryItem.thumbnailSrc);
+        } else {
+            const videoName =
+                currentGalleryItem.src
+                    .split("/")
+                    .pop()
+                    ?.replace(/\.[^/.]+$/, "") || "";
 
-        const thumbnailSrc = `${videoName}-thumb.webp`;
-        blurBgSrc = getBlurDataURL(thumbnailSrc) || "";
+            const thumbnailSrc = `${videoName}-thumb.webp`;
+            blurBgSrc = getBlurDataURL(thumbnailSrc) || "";
+        }
+        if (!blurBgSrc) {
+            blurBgSrc = getBlurDataURL("bg-0-dark-opt");
+        }
     }
 
     return (

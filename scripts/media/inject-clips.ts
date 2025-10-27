@@ -12,12 +12,6 @@ interface ClipMetadata {
     chapter: number;
 }
 
-interface CategoryData {
-    chapters: {
-        [chapter: number]: string[]; // chapter -> array of video URLs
-    };
-}
-
 interface ClipsCache {
     [videoId: string]: {
         title: string;
@@ -222,12 +216,15 @@ async function main() {
         return a.title.localeCompare(b.title);
     });
 
+    // Only need EN since there's no content for JA
+    // _ja version can be made manually
     const outPath = path.resolve(
         process.cwd(),
         "apps",
         "website",
         "data",
-        "clips.json",
+        "en",
+        "clips_en.json",
     );
 
     await fs.mkdir(path.dirname(outPath), { recursive: true });

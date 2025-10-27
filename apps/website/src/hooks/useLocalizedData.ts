@@ -3,6 +3,7 @@ import {
     getChangelog,
     getChapterData,
     getChapterRecap,
+    getClipsData,
     getGlossaryData,
     getRecollectionArchive,
     getSiteData,
@@ -28,5 +29,6 @@ export const useLocalizedData = () => {
         getChapterRecap: () => getChapterRecap(locale),
         getChangelog: () => getChangelog(locale),
         getRecollectionArchive: () => getRecollectionArchive(locale),
+        getClipsData: () => getClipsData(locale),
     };
 };
