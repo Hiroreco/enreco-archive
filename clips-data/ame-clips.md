@@ -1,4 +1,6 @@
-## Chapter 1
+## Clips
+
+### Chapter 1
 
 https://www.youtube.com/watch?v=KR-E7mNRVBc1
 https://www.youtube.com/watch?v=qLi3XCQxZY4

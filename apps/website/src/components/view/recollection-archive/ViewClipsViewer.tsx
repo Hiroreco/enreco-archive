@@ -182,9 +182,9 @@ const ViewClipsViewer = ({ clips, onClipClick }: ViewClipsViewerProps) => {
                                         </div>
 
                                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                                            {chapterClips.map((clip) => (
+                                            {chapterClips.map((clip, index) => (
                                                 <ClipCard
-                                                    key={clip.id}
+                                                    key={clip.id + "-" + index}
                                                     clip={clip}
                                                     onClick={() =>
                                                         onClipClick(clip)
