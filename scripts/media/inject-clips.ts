@@ -8,8 +8,10 @@ interface ClipMetadata {
     thumbnailSrc: string;
     author: string;
     duration: number;
+    uploadDate: string;
     category: string;
     chapter: number;
+    contentType: "clip" | "stream";
 }
 
 interface ClipsCache {
@@ -18,6 +20,7 @@ interface ClipsCache {
         author: string;
         thumbnailSrc: string;
         duration: number;
+        uploadDate: string;
         fetchedAt: string;
     };
 }
@@ -41,6 +44,7 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
     author: string;
     thumbnailSrc: string;
     duration: number;
+    uploadDate: string;
 } | null> {
     try {
         const response = await fetch(
@@ -55,21 +59,30 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
         const data = await response.json();
 
         let duration = 0;
+        let uploadDate = "";
 
-        // Try to get duration from video page metadata since noembed doesn't provide it
+        // Try to get duration and upload date from video page metadata
         try {
             const pageResponse = await fetch(
                 `https://www.youtube.com/watch?v=${videoId}`,
             );
             const html = await pageResponse.text();
 
-            // Look for duration in seconds from meta tags or JSON-LD
+            // Look for duration in seconds
             const durationMatch = html.match(/"lengthSeconds":"(\d+)"/);
             if (durationMatch) {
                 duration = parseInt(durationMatch[1]);
             }
+
+            // Look for upload date
+            const uploadDateMatch = html.match(/"uploadDate":"([^"]+)"/);
+            if (uploadDateMatch) {
+                uploadDate = uploadDateMatch[1];
+            }
         } catch {
-            console.warn(`  Could not fetch duration for ${videoId}`);
+            console.warn(
+                `  Could not fetch duration/uploadDate for ${videoId}`,
+            );
         }
 
         const thumbnailSrc = `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`;
@@ -79,6 +92,7 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
             author: data.author_name || "Unknown Author",
             thumbnailSrc,
             duration,
+            uploadDate: uploadDate || new Date().toISOString(),
         };
     } catch (error) {
         console.error(`Error fetching metadata for ${videoId}:`, error);
@@ -90,19 +104,35 @@ async function processCategoryFile(
     categoryPath: string,
     categoryName: string,
     globalCache: ClipsCache,
-): Promise<ClipMetadata[]> {
+    locale: string,
+): Promise<{ clips: ClipMetadata[]; streams: ClipMetadata[] }> {
     const content = await fs.readFile(categoryPath, "utf-8");
     const lines = content.split("\n").map((l) => l.trim());
 
     const clips: ClipMetadata[] = [];
+    const streams: ClipMetadata[] = [];
     let currentChapter = 1;
+    let currentContentType: "clip" | "stream" = "clip";
     let newClipsCount = 0;
 
     for (const line of lines) {
+        // Check for content type sections
+        if (line.match(/^##\s*Clips/i)) {
+            currentContentType = "clip";
+            continue;
+        }
+        if (line.match(/^##\s*Streams/i)) {
+            currentContentType = "stream";
+            continue;
+        }
+
         // Check for chapter headers
-        const chapterMatch = line.match(/^##\s*Chapter\s*(\d+)/i);
+        const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
         if (chapterMatch) {
             currentChapter = parseInt(chapterMatch[1]);
+            console.log(
+                `  📖 Processing Chapter ${currentChapter} (${currentContentType})`,
+            );
             continue;
         }
 
@@ -118,6 +148,7 @@ async function processCategoryFile(
 
         if (!metadata) {
             // Fetch new metadata
+            console.log(`  🔍 Fetching metadata for: ${videoId}`);
             const fetched = await fetchYouTubeMetadata(videoId);
 
             if (!fetched) {
@@ -133,30 +164,50 @@ async function processCategoryFile(
             globalCache[videoId] = metadata;
             newClipsCount++;
 
+            console.log(
+                `  ✅ Added: "${metadata.title}" by ${metadata.author}`,
+            );
+
             // Rate limiting to avoid being blocked
             await new Promise((resolve) => setTimeout(resolve, 1000));
         } else {
             console.log(`  ♻️  Using cached: ${videoId}`);
         }
 
-        clips.push({
-            id: videoId,
+        const clipEntry: ClipMetadata = {
+            id: `${locale}-${categoryName}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
+            uploadDate: metadata.uploadDate,
             category: categoryName,
             chapter: currentChapter,
-        });
+            contentType: currentContentType,
+        };
+
+        if (currentContentType === "clip") {
+            clips.push(clipEntry);
+        } else {
+            streams.push(clipEntry);
+        }
     }
 
-    return clips;
+    if (newClipsCount > 0) {
+        console.log(`  💾 Added ${newClipsCount} new items to cache`);
+    }
+
+    return { clips, streams };
 }
 
 async function main() {
-    const baseDir = path.resolve(process.cwd(), "clips-data");
-    const cacheFile = path.join(baseDir, ".clips-cache.json");
+    const locale = process.argv[2] || "en";
+    const baseDir = path.resolve(
+        process.cwd(),
+        locale === "en" ? "clips-data" : `clips-data_${locale}`,
+    );
+    const cacheFile = path.join(baseDir, `.clips-cache_${locale}.json`);
 
     try {
         await fs.access(baseDir);
@@ -171,38 +222,62 @@ async function main() {
     try {
         const cacheContent = await fs.readFile(cacheFile, "utf-8");
         globalCache = JSON.parse(cacheContent);
-    } catch {}
+        console.log(
+            `📦 Loaded cache with ${Object.keys(globalCache).length} videos\n`,
+        );
+    } catch {
+        console.log(`📦 Creating new cache file\n`);
+    }
 
-    const files = (await fs.readdir(baseDir, { withFileTypes: true }))
-        .filter((d) => d.isFile() && d.name.endsWith(".md"))
+    const categoryDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
+        .filter((d) => d.isDirectory())
         .map((d) => d.name);
 
-    if (files.length === 0) {
+    if (categoryDirs.length === 0) {
+        console.error(
+            `❌ No category directories found in ${baseDir}\nCreate directories like: clips-data/myth/`,
+        );
         process.exit(1);
     }
 
+    console.log(
+        `🎬 Processing clips from ${categoryDirs.length} categories...\n`,
+    );
+
     const allClips: ClipMetadata[] = [];
-    let totalNewClips = 0;
+    const allStreams: ClipMetadata[] = [];
+    let totalNewItems = 0;
 
-    for (const fileName of files) {
-        const categoryName = path.basename(fileName, ".md");
-        const categoryPath = path.join(baseDir, fileName);
+    for (const categoryDir of categoryDirs) {
+        const categoryPath = path.join(baseDir, categoryDir);
+        const files = (await fs.readdir(categoryPath, { withFileTypes: true }))
+            .filter((d) => d.isFile() && d.name.endsWith(".md"))
+            .map((d) => d.name);
 
-        console.log(`\n📁 Processing category: ${categoryName}`);
+        for (const fileName of files) {
+            const categoryName = path.basename(fileName, "-clips.md");
+            const filePath = path.join(categoryPath, fileName);
 
-        const beforeCount = Object.keys(globalCache).length;
-        const clips = await processCategoryFile(
-            categoryPath,
-            categoryName,
-            globalCache,
-        );
-        const afterCount = Object.keys(globalCache).length;
-        const newInCategory = afterCount - beforeCount;
+            console.log(`\n📁 Processing: ${categoryDir}/${categoryName}`);
 
-        allClips.push(...clips);
-        totalNewClips += newInCategory;
+            const beforeCount = Object.keys(globalCache).length;
+            const { clips, streams } = await processCategoryFile(
+                filePath,
+                categoryName,
+                globalCache,
+                locale,
+            );
+            const afterCount = Object.keys(globalCache).length;
+            const newInFile = afterCount - beforeCount;
 
-        console.log(`  ✅ Total clips in ${categoryName}: ${clips.length}`);
+            allClips.push(...clips);
+            allStreams.push(...streams);
+            totalNewItems += newInFile;
+
+            console.log(
+                `  ✅ Total: ${clips.length} clips, ${streams.length} streams`,
+            );
+        }
     }
 
     await fs.writeFile(
@@ -210,28 +285,42 @@ async function main() {
         JSON.stringify(globalCache, null, 2),
         "utf-8",
     );
+    console.log(
+        `\n💾 Saved cache with ${Object.keys(globalCache).length} videos`,
+    );
 
-    allClips.sort((a, b) => {
-        if (a.chapter !== b.chapter) return a.chapter - b.chapter;
-        return a.title.localeCompare(b.title);
-    });
+    // Sort by upload date (newest first)
+    allClips.sort(
+        (a, b) =>
+            new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime(),
+    );
+    allStreams.sort(
+        (a, b) =>
+            new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime(),
+    );
 
-    // Only need EN since there's no content for JA
-    // _ja version can be made manually
+    const outputData = {
+        clips: allClips,
+        streams: allStreams,
+    };
+
     const outPath = path.resolve(
         process.cwd(),
         "apps",
         "website",
         "data",
-        "en",
-        "clips_en.json",
+        locale,
+        `clips_${locale}.json`,
     );
 
     await fs.mkdir(path.dirname(outPath), { recursive: true });
-    await fs.writeFile(outPath, JSON.stringify(allClips, null, 2), "utf-8");
+    await fs.writeFile(outPath, JSON.stringify(outputData, null, 2), "utf-8");
 
-    console.log(`\n✅ Successfully processed ${allClips.length} total clips`);
-    console.log(`   🆕 ${totalNewClips} new clips fetched this run`);
+    console.log(
+        `\n✅ Successfully processed ${allClips.length} clips and ${allStreams.length} streams`,
+    );
+    console.log(`   🆕 ${totalNewItems} new items fetched this run`);
+    console.log(`📁 Output: ${outPath}`);
 }
 
 main().catch((err) => {

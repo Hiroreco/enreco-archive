@@ -27,6 +27,13 @@ export type ClipEntry = {
     thumbnailSrc: string;
     author: string;
     duration: number;
+    uploadDate: string;
     category: string;
     chapter: number;
+    contentType: "clip" | "stream";
+};
+
+export type ClipsData = {
+    clips: ClipEntry[];
+    streams: ClipEntry[];
 };

@@ -201,7 +201,8 @@ const ViewVideoArchiveCard = ({
                             className="h-full"
                         >
                             <ViewClipsViewer
-                                clips={clipsData}
+                                clips={clipsData.clips}
+                                streams={clipsData.streams}
                                 onClipClick={handleClipClick}
                             />
                         </motion.div>

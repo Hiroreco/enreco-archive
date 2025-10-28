@@ -9,68 +9,84 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
+import {
+    Tabs,
+    TabsList,
+    TabsTrigger,
+} from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { Search } from "lucide-react";
+import { Film, Search, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
 interface ViewClipsViewerProps {
     clips: ClipEntry[];
+    streams: ClipEntry[];
     onClipClick: (clip: ClipEntry) => void;
 }
 
-const ViewClipsViewer = ({ clips, onClipClick }: ViewClipsViewerProps) => {
+const ViewClipsViewer = ({
+    clips,
+    streams,
+    onClipClick,
+}: ViewClipsViewerProps) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
 
+    const [activeContentType, setActiveContentType] = useState<
+        "clips" | "streams"
+    >("clips");
     const [selectedCategory, setSelectedCategory] = useState<string>("all");
     const [selectedChapter, setSelectedChapter] = useState<number>(-1);
     const [searchQuery, setSearchQuery] = useState("");
 
+    const hasStreams = streams.length > 0;
+    const currentData = activeContentType === "clips" ? clips : streams;
+
     // Extract unique categories and chapters
     const categories = useMemo(() => {
-        const cats = new Set(clips.map((clip) => clip.category));
+        const cats = new Set(currentData.map((clip) => clip.category));
         return ["all", ...Array.from(cats)];
-    }, [clips]);
+    }, [currentData]);
 
     const chapters = useMemo(() => {
-        const chaps = new Set(clips.map((clip) => clip.chapter));
+        const chaps = new Set(currentData.map((clip) => clip.chapter));
         return Array.from(chaps).sort((a, b) => a - b);
-    }, [clips]);
+    }, [currentData]);
 
-    // Filter clips
-    const filteredClips = useMemo(() => {
-        return clips.filter((clip) => {
+    // Filter clips/streams
+    const filteredData = useMemo(() => {
+        return currentData.filter((item) => {
             const matchesCategory =
                 selectedCategory === "all" ||
-                clip.category === selectedCategory;
+                item.category === selectedCategory;
             const matchesChapter =
-                selectedChapter === -1 || clip.chapter === selectedChapter;
+                selectedChapter === -1 || item.chapter === selectedChapter;
             const matchesSearch =
                 searchQuery === "" ||
-                clip.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                clip.author.toLowerCase().includes(searchQuery.toLowerCase());
+                item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                item.author.toLowerCase().includes(searchQuery.toLowerCase());
 
             return matchesCategory && matchesChapter && matchesSearch;
         });
-    }, [clips, selectedCategory, selectedChapter, searchQuery]);
+    }, [currentData, selectedCategory, selectedChapter, searchQuery]);
 
     // Group by chapter
-    const groupedClips = useMemo(() => {
+    const groupedData = useMemo(() => {
         const grouped: Record<number, ClipEntry[]> = {};
-        filteredClips.forEach((clip) => {
-            if (!grouped[clip.chapter]) {
-                grouped[clip.chapter] = [];
+        filteredData.forEach((item) => {
+            if (!grouped[item.chapter]) {
+                grouped[item.chapter] = [];
             }
-            grouped[clip.chapter].push(clip);
+            grouped[item.chapter].push(item);
         });
         return grouped;
-    }, [filteredClips]);
+    }, [filteredData]);
 
     const sortedChapters = useMemo(
-        () => Object.keys(groupedClips).sort((a, b) => Number(a) - Number(b)),
-        [groupedClips],
+        () => Object.keys(groupedData).sort((a, b) => Number(a) - Number(b)),
+        [groupedData],
     );
 
     return (
@@ -100,6 +116,31 @@ const ViewClipsViewer = ({ clips, onClipClick }: ViewClipsViewerProps) => {
 
             {/* Main content */}
             <div className="flex-1 flex flex-col gap-4 min-w-0">
+                {/* Content Type Tabs */}
+                {hasStreams && (
+                    <Tabs
+                        value={activeContentType}
+                        onValueChange={(v) =>
+                            setActiveContentType(v as "clips" | "streams")
+                        }
+                    >
+                        <TabsList className="w-full grid grid-cols-2">
+                            <TabsTrigger value="clips" className="gap-2">
+                                <Film className="size-4" />
+                                <span className="hidden sm:inline">
+                                    {t("clipArchive.tabs.clips")}
+                                </span>
+                            </TabsTrigger>
+                            <TabsTrigger value="streams" className="gap-2">
+                                <Video className="size-4" />
+                                <span className="hidden sm:inline">
+                                    {t("clipArchive.tabs.streams")}
+                                </span>
+                            </TabsTrigger>
+                        </TabsList>
+                    </Tabs>
+                )}
+
                 {/* Top controls */}
                 <div className="flex gap-2 flex-wrap">
                     {/* Mobile category select */}
@@ -157,9 +198,9 @@ const ViewClipsViewer = ({ clips, onClipClick }: ViewClipsViewerProps) => {
                     </Select>
                 </div>
 
-                {/* Clips grid */}
+                {/* Data grid */}
                 <div className="flex-1 overflow-y-auto">
-                    {filteredClips.length === 0 ? (
+                    {filteredData.length === 0 ? (
                         <div className="text-center text-muted-foreground py-8">
                             {t("clipArchive.noResults")}
                         </div>
@@ -167,7 +208,7 @@ const ViewClipsViewer = ({ clips, onClipClick }: ViewClipsViewerProps) => {
                         <div className="flex flex-col gap-6">
                             {sortedChapters.map((chapterKey) => {
                                 const chapter = Number(chapterKey);
-                                const chapterClips = groupedClips[chapter];
+                                const chapterItems = groupedData[chapter];
 
                                 return (
                                     <div key={chapter}>
@@ -182,12 +223,12 @@ const ViewClipsViewer = ({ clips, onClipClick }: ViewClipsViewerProps) => {
                                         </div>
 
                                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                                            {chapterClips.map((clip, index) => (
+                                            {chapterItems.map((item, index) => (
                                                 <ClipCard
-                                                    key={clip.id + "-" + index}
-                                                    clip={clip}
+                                                    key={item.id + "-" + index}
+                                                    clip={item}
                                                     onClick={() =>
-                                                        onClipClick(clip)
+                                                        onClipClick(item)
                                                     }
                                                 />
                                             ))}
@@ -209,6 +250,15 @@ interface ClipCardProps {
 }
 
 const ClipCard = ({ clip, onClick }: ClipCardProps) => {
+    const formatDate = (dateString: string) => {
+        const date = new Date(dateString);
+        return new Intl.DateTimeFormat("en-US", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+        }).format(date);
+    };
+
     return (
         <div
             onClick={onClick}
@@ -244,9 +294,14 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
                 <span className="font-semibold text-xs line-clamp-2 leading-tight">
                     {clip.title}
                 </span>
-                <p className="text-[10px] text-muted-foreground">
-                    {clip.author}
-                </p>
+                <div className="flex items-center justify-between gap-2">
+                    <p className="text-[10px] text-muted-foreground truncate">
+                        {clip.author}
+                    </p>
+                    <p className="text-[10px] text-muted-foreground shrink-0">
+                        {formatDate(clip.uploadDate)}
+                    </p>
+                </div>
             </div>
         </div>
     );

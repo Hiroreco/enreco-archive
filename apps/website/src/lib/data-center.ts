@@ -1,3 +1,4 @@
+import siteMeta from "#/metadata.json";
 import {
     Chapter,
     ChapterRecapData,
@@ -7,7 +8,6 @@ import {
     Song,
     TextData,
 } from "@enreco-archive/common/types";
-import siteMeta from "#/metadata.json";
 
 import chapter0_en from "#/en/chapter0_en.json";
 import chapter1_en from "#/en/chapter1_en.json";
@@ -18,16 +18,16 @@ import chapter1_ja from "#/ja/chapter1_ja.json";
 import textData_en from "#/en/text-data_en.json";
 import textData_ja from "#/ja/text-data_ja.json";
 
-import weapons_en from "#/en/glossary/weapons_en.json";
-import weapons_ja from "#/ja/glossary/weapons_ja.json";
 import characters_en from "#/en/glossary/characters_en.json";
-import characters_ja from "#/ja/glossary/characters_ja.json";
 import lore_en from "#/en/glossary/lore_en.json";
-import lore_ja from "#/ja/glossary/lore_ja.json";
-import quests_en from "#/en/glossary/quests_en.json";
-import quests_ja from "#/ja/glossary/quests_ja.json";
 import misc_en from "#/en/glossary/misc_en.json";
+import quests_en from "#/en/glossary/quests_en.json";
+import weapons_en from "#/en/glossary/weapons_en.json";
+import characters_ja from "#/ja/glossary/characters_ja.json";
+import lore_ja from "#/ja/glossary/lore_ja.json";
 import misc_ja from "#/ja/glossary/misc_ja.json";
+import quests_ja from "#/ja/glossary/quests_ja.json";
+import weapons_ja from "#/ja/glossary/weapons_ja.json";
 
 import songs_en from "#/en/songs_en.json";
 import songs_ja from "#/ja/songs_ja.json";
@@ -43,12 +43,12 @@ import changelogs_ja from "#/ja/changelogs_ja.json";
 
 import clips_en from "#/en/clips_en.json";
 
-import { Locale } from "@/store/settingStore";
-import { Category } from "@/contexts/GlossaryContext";
 import {
-    ClipEntry,
+    ClipsData,
     RecollectionArchiveEntry,
 } from "@/components/view/recollection-archive/types";
+import { Category } from "@/contexts/GlossaryContext";
+import { Locale } from "@/store/settingStore";
 
 interface LocalizedData {
     chapters: Chapter[];
@@ -67,7 +67,7 @@ interface LocalizedData {
         content: string;
     }>;
     recollectionArchive: RecollectionArchiveEntry[];
-    clips: ClipEntry[];
+    clipData: ClipsData;
 }
 
 const DATA: Record<Locale, LocalizedData> = {
@@ -95,7 +95,17 @@ const DATA: Record<Locale, LocalizedData> = {
                 type: media.type as MediaType,
             })),
         })),
-        clips: clips_en,
+        clipData: {
+            ...clips_en,
+            clips: clips_en.clips.map((clip) => ({
+                ...clip,
+                contentType: clip.contentType as "clip" | "stream",
+            })),
+            streams: clips_en.streams.map((stream) => ({
+                ...stream,
+                contentType: stream.contentType as "clip" | "stream",
+            })),
+        },
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
@@ -117,7 +127,17 @@ const DATA: Record<Locale, LocalizedData> = {
                 type: media.type as MediaType,
             })),
         })),
-        clips: [],
+        clipData: {
+            ...clips_en,
+            clips: clips_en.clips.map((clip) => ({
+                ...clip,
+                contentType: clip.contentType as "clip" | "stream",
+            })),
+            streams: clips_en.streams.map((stream) => ({
+                ...stream,
+                contentType: stream.contentType as "clip" | "stream",
+            })),
+        },
     },
 };
 
@@ -177,5 +197,5 @@ export const getRecollectionArchive = (locale: Locale) => {
 };
 
 export const getClipsData = (locale: Locale) => {
-    return DATA[locale].clips;
+    return DATA[locale].clipData;
 };
