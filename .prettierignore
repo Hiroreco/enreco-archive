@@ -1,6 +1,4 @@
 # Ignore artifacts:
 build
 coverage
-
-# Don't format JSON files
-**/*.json
+    

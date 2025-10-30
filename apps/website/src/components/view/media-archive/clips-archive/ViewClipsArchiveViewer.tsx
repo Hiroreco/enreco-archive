@@ -1,4 +1,4 @@
-import { ClipEntry } from "@/components/view/recollection-archive/types";
+import { ClipEntry } from "@/components/view/media-archive/types";
 import { getBlurDataURL } from "@/lib/utils";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import {

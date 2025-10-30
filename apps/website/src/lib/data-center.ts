@@ -46,7 +46,7 @@ import clips_en from "#/en/clips_en.json";
 import {
     ClipsData,
     RecollectionArchiveEntry,
-} from "@/components/view/recollection-archive/types";
+} from "@/components/view/media-archive/types";
 import { Category } from "@/contexts/GlossaryContext";
 import { Locale } from "@/store/settingStore";
 

@@ -19,7 +19,7 @@ import { useSettingStore } from "./store/settingStore";
 import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
-import ViewVideoArchiveApp from "@/components/view/recollection-archive/ViewVideoArchiveApp";
+import ViewVideoArchiveApp from "@/components/view/media-archive/ViewMediaArchiveApp";
 
 type AppType = "chart" | "glossary" | "archive";
 

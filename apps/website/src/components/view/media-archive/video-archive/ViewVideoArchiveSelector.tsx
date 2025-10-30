@@ -1,5 +1,5 @@
 import React from "react";
-import { RecollectionArchiveEntry } from "./types";
+import { RecollectionArchiveEntry } from "../types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";

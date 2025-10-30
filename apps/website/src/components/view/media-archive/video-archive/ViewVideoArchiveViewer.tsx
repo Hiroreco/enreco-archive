@@ -10,10 +10,11 @@ import ReactPlayer from "react-player";
 import type { Swiper as SwiperType } from "swiper";
 import { EffectCreative } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { MediaEntry, RecollectionArchiveEntry } from "./types";
+import { MediaEntry, RecollectionArchiveEntry } from "../types";
 
 import "swiper/css";
 import "swiper/css/effect-creative";
+import { useTranslations } from "next-intl";
 
 interface ViewVideoArchiveViewerProps {
     entry: RecollectionArchiveEntry;
@@ -24,6 +25,8 @@ const ViewVideoArchiveViewer = ({
     entry,
     onMediaIndexChange,
 }: ViewVideoArchiveViewerProps) => {
+    const t = useTranslations("mediaArchive")
+
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [playingVideos, setPlayingVideos] = useState<Set<number>>(new Set());
@@ -289,7 +292,7 @@ const ViewVideoArchiveViewer = ({
                                         rel="noopener noreferrer"
                                         className="text-xs text-muted-foreground hover:underline"
                                     >
-                                        View original source
+                                        {t("videoArchive.viewSource")}
                                     </a>
                                 )}
                             </div>

@@ -441,12 +441,16 @@
     }
   },
   "mediaArchive": {
-    "title": "Hall of Recollections",
-    "description": "A collection of official media, memories and moments",
-    "category": {
-      "official": "Official Media",
-      "talent-made": "Talent-made Media"
+    "videoArchive": {
+      "title": "Hall of Recollections",
+      "description": "A collection of official media, memories and moments",
+      "category": {
+        "official": "Official Media",
+        "talent-made": "Talent-made Media"  
+      },
+      "viewSource": "View original source"
     },
+    
     "tabs": {
       "videos": "Videos",
       "clips": "Clips"

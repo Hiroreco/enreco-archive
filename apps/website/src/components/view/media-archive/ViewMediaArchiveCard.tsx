@@ -9,11 +9,10 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useMemo, useState } from "react";
-import ViewVideoArchiveSelector from "@/components/view/recollection-archive/ViewVideoArchiveSelector";
 import { ClipEntry, RecollectionArchiveEntry } from "./types";
 import { getBlurDataURL } from "@/lib/utils";
 import { ArrowLeft, Film, Info, Video } from "lucide-react";
-import ViewVideoArchiveViewer from "@/components/view/recollection-archive/ViewVideoArchiveViewer";
+import ViewVideoArchiveViewer from "@/components/view/media-archive/video-archive/ViewVideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useTranslations } from "next-intl";
 import {
@@ -24,13 +23,14 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
-import ViewClipsViewer from "@/components/view/recollection-archive/ViewClipsViewer";
+import ViewClipsViewer from "@/components/view/media-archive/clips-archive/ViewClipsArchiveViewer";
 import {
     Tabs,
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
 import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
+import VideoArchiveSection from "./video-archive/VideoArchiveSection";
 
 interface ViewVideoArchiveCardProps {
     className?: string;
@@ -114,7 +114,7 @@ const ViewVideoArchiveCard = ({
                             {activeTab === "videos"
                                 ? selectedEntry
                                     ? selectedEntry.title
-                                    : t("title")
+                                    : t("videoArchive.title")
                                 : t("clipArchive.title")}
                         </span>
                     </div>
@@ -135,7 +135,7 @@ const ViewVideoArchiveCard = ({
                                     {activeTab === "videos"
                                         ? selectedEntry
                                             ? selectedEntry.title
-                                            : t("title")
+                                            : t("videoArchive.title")
                                         : t("clipArchive.title")}
                                 </DialogTitle>
                             </DialogHeader>
@@ -144,7 +144,7 @@ const ViewVideoArchiveCard = ({
                                 {activeTab === "videos"
                                     ? selectedEntry
                                         ? selectedEntry.description
-                                        : t("description")
+                                        : t("videoArchive.description")
                                     : t("clipArchive.description")}
                             </DialogDescription>
                         </DialogContent>
@@ -154,7 +154,7 @@ const ViewVideoArchiveCard = ({
                         {activeTab === "videos"
                             ? selectedEntry
                                 ? selectedEntry.description
-                                : t("description")
+                                : t("videoArchive.description")
                             : t("clipArchive.description")}
                     </p>
                 </CardTitle>
@@ -182,7 +182,7 @@ const ViewVideoArchiveCard = ({
                                 const categories = groupedEntries[chapter];
 
                                 return (
-                                    <ChapterSection
+                                    <VideoArchiveSection
                                         key={chapter}
                                         chapter={chapter}
                                         categories={categories}
@@ -282,53 +282,5 @@ const ViewVideoArchiveCard = ({
     );
 };
 
-interface ChapterSectionProps {
-    chapter: number;
-    categories: Record<string, RecollectionArchiveEntry[]>;
-    onEntryClick: (entry: RecollectionArchiveEntry) => void;
-}
-
-const ChapterSection = ({
-    chapter,
-    categories,
-    onEntryClick,
-}: ChapterSectionProps) => {
-    const t = useTranslations("mediaArchive");
-    const tCommon = useTranslations("common");
-
-    return (
-        <div className="w-full">
-            <div className="flex items-center gap-3 mb-4">
-                <Separator className="bg-foreground/60 flex-1" />
-                <span className="text-lg font-bold whitespace-nowrap">
-                    {tCommon("chapter", { val: chapter })}
-                </span>
-                <Separator className="bg-foreground/60 flex-1" />
-            </div>
-
-            <div className="columns-1 md:columns-2 lg:columns-3">
-                {Object.entries(categories).map(([categoryName, entries]) =>
-                    entries.map((entry, index) => (
-                        <div
-                            key={entry.id}
-                            className="flex flex-col gap-1.5 mb-2"
-                        >
-                            {/* Category label only on first entry */}
-                            {index === 0 && (
-                                <span className="text-xs font-medium text-muted-foreground">
-                                    {t(`category.${categoryName}`)}
-                                </span>
-                            )}
-                            <ViewVideoArchiveSelector
-                                entry={entry}
-                                onEntryClick={onEntryClick}
-                            />
-                        </div>
-                    )),
-                )}
-            </div>
-        </div>
-    );
-};
 
 export default ViewVideoArchiveCard;

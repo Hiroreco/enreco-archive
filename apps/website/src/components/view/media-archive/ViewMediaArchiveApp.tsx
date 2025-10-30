@@ -1,4 +1,4 @@
-import ViewVideoArchiveCard from "@/components/view/recollection-archive/ViewVideoArchiveCard";
+import ViewVideoArchiveCard from "@/components/view/media-archive/ViewMediaArchiveCard";
 import ViewModalCollection from "../basic-modals/ViewModalCollection";
 
 interface ViewVideoArchiveAppProps {
