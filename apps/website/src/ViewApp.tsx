@@ -1,19 +1,19 @@
 "use client";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
-import ViewInfoModal from "@/components/view/basic-modals/ViewInfoModal";
-import ViewDayRecapCard from "@/components/view/chart-cards/ViewDayRecapCard";
-import ViewEdgeCard from "@/components/view/chart-cards/ViewEdgeCard";
-import ViewNodeCard from "@/components/view/chart-cards/ViewNodeCard";
+import InfoModal from "@/components/view/basic-modals/InfoModal";
+import DayRecapCard from "@/components/view/chart-cards/DayRecapCard";
+import EdgeCard from "@/components/view/chart-cards/EdgeCard";
+import NodeCard from "@/components/view/chart-cards/NodeCard";
 import { useViewStore } from "@/store/viewStore";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 
-import ViewChart from "@/components/view/chart/ViewChart";
-import ViewReadCounter from "@/components/view/chart/ViewReadCounter";
-import ViewTransportControls from "@/components/view/chart/ViewTransportControls";
-import ViewMiniGameModal from "@/components/view/minigames/ViewMiniGameModal";
-import ViewSettingsModal from "@/components/view/utility-modals/ViewSettingsModal";
-import ViewVideoModal from "@/components/view/utility-modals/ViewVideoModal";
+import Chart from "@/components/view/chart/Chart";
+import ReadCounter from "@/components/view/chart/ReadCounter";
+import TransportControls from "@/components/view/chart/TransportControls";
+import MiniGameModal from "@/components/view/minigames/MiniGameModal";
+import SettingsModal from "@/components/view/utility-modals/SettingsModal";
+import VideoModal from "@/components/view/utility-modals/VideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
 import { useClickOutside } from "@/hooks/useClickOutsite";
 import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
@@ -24,11 +24,11 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
-import ViewChapterRecapModal from "@/components/view/utility-modals/ViewChapterRecapModal";
+import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModal";
 
-import ViewChangelogModal from "@/components/view/basic-modals/ViewChangelog";
-import ViewFanartModal from "@/components/view/fanart/ViewFanartModal";
-import ViewMusicPlayerModal from "@/components/view/jukebox/ViewMusicPlayerModal";
+import ChangelogModal from "@/components/view/basic-modals/Changelog";
+import FanartModal from "@/components/view/fanart/FanartModal";
+import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
 import {
     CurrentChapterDataContext,
     CurrentDayDataContext,
@@ -464,7 +464,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <CurrentChapterDataContext value={currentChapterContextValue}>
-                    <ViewChart
+                    <Chart
                         nodes={completeNodes}
                         edges={completeEdges}
                         selectedElement={selectedElement}
@@ -494,7 +494,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     />
 
                     <CurrentDayDataContext value={currentDayContextValue}>
-                        <ViewDayRecapCard
+                        <DayRecapCard
                             isCardOpen={currentCard === "setting"}
                             onCardClose={onCardClose}
                             dayRecap={dayData.dayRecap}
@@ -521,7 +521,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                             }}
                         />
 
-                        <ViewNodeCard
+                        <NodeCard
                             isCardOpen={currentCard === "node"}
                             selectedNode={selectedNode}
                             nodeTeam={selectedNodeTeam}
@@ -537,7 +537,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                             setChartShrink={setChartShrinkAndFit}
                         />
 
-                        <ViewEdgeCard
+                        <EdgeCard
                             isCardOpen={currentCard === "edge"}
                             selectedEdge={selectedEdge}
                             edgeRelationship={selectedEdgeRelationship}
@@ -556,12 +556,12 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 </CurrentChapterDataContext>
             </div>
 
-            <ViewChangelogModal
+            <ChangelogModal
                 open={openModal === "changelog"}
                 onClose={closeModal}
             />
 
-            <ViewInfoModal
+            <InfoModal
                 open={openModal === "info"}
                 onClose={() => {
                     if (!hasVisitedBefore) {
@@ -574,24 +574,24 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 }}
             />
 
-            <ViewSettingsModal
+            <SettingsModal
                 open={openModal === "settings"}
                 onClose={closeModal}
             />
 
-            <ViewMiniGameModal
+            <MiniGameModal
                 open={openModal === "minigame"}
                 onClose={closeModal}
             />
 
-            <ViewVideoModal
+            <VideoModal
                 open={openModal === "video"}
                 onClose={closeModal}
                 videoUrl={videoUrl}
                 bgImage={bgImage}
             />
 
-            <ViewChapterRecapModal
+            <ChapterRecapModal
                 key={`chapter-recap-modal-${chapter}`}
                 open={openModal === "chapterRecap"}
                 onClose={closeModal}
@@ -615,7 +615,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 })}
             </button>
 
-            <ViewReadCounter
+            <ReadCounter
                 open={openModal === "read-counter"}
                 onClose={closeModal}
                 day={day}
@@ -625,11 +625,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
-            <ViewMusicPlayerModal
+            <MusicPlayerModal
                 open={openModal === "music"}
                 onClose={closeModal}
             />
-            <ViewFanartModal
+            <FanartModal
                 open={openModal === "fanart"}
                 onClose={closeModal}
                 chapter={chapter}
@@ -747,7 +747,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     },
                 )}
             >
-                <ViewTransportControls
+                <TransportControls
                     isAnyModalOpen={openModal !== null}
                     chapter={chapter}
                     chapterData={siteData.chapters[locale]}

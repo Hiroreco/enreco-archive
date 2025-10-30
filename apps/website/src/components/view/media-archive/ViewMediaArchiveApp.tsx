@@ -1,5 +1,5 @@
 import ViewVideoArchiveCard from "@/components/view/media-archive/ViewMediaArchiveCard";
-import ViewModalCollection from "../basic-modals/ViewModalCollection";
+import ModalCollection from "../basic-modals/ModalCollection";
 
 interface ViewVideoArchiveAppProps {
     bgImage: string;
@@ -13,7 +13,7 @@ const ViewVideoArchiveApp = ({ bgImage }: ViewVideoArchiveAppProps) => {
                 className="md:max-w-[1200px] w-[95vw] mt-8 sm:mt-2"
                 bgImage={bgImage}
             />
-            <ViewModalCollection modals={["fanart", "settings", "minigame", "music", "info"]} hideOnMobile={["minigame", "info"]}/>
+            <ModalCollection modals={["fanart", "settings", "minigame", "music", "info"]} hideOnMobile={["minigame", "info"]}/>
         </div>
     );
 };

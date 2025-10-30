@@ -3,7 +3,7 @@
 
 An unexpected development unfolded on this day, one that Gonathon could never have anticipated. From the moment he arrived, Gonathon had sworn unwavering loyalty to his Queen, Tam Gandr. His sole purpose as a knight was to serve her, with no distractions to deter him from his path. Naturally, he never imagined he would feel the touch of another's love.
 
-After assisting the other heroes, including Jyonathan, in their perilous journey to the Underworld Dungeon, Gonathon gifted the blonde maiden 10 diamonds as a gesture of gratitude and empathy. To his surprise, Jyonathan responded with a playful question: "Does this mean we’re married, then?" Though initially taken aback, the idea of having a close companion by his side was appealing. Hesitant but intrigued, Gonathon agreed.
+After assisting the other heroes, including Jyonathan, in their perilous journey to the Underworld Dungeon, Gonathon gifted the blonde maiden 10 diamonds as a gesture of gratitude and empathy. To his surprise, Jyonathan responded with a playful question: "Does that mean we’re married now?" Though initially taken aback, the idea of having a close companion by his side was appealing. Hesitant but intrigued, Gonathon agreed.
 
 [Gonathon with the impeccable rizz](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=2046)
 

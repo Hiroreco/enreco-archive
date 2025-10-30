@@ -35,10 +35,8 @@
 
 ## ファンアート
 
-[Revelation by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
+["Revelation" by Mittsu, contest-winning submission](https://x.com/MittsumiA/status/1902371897985397070)
 
-[The Princess is Kind by StandingPlace12](https://x.com/StandingPlace12/status/1918991950818021419)
+["Immergreen" by Hyoweii](https://x.com/weiiyxn/status/1978419312772665598)
 
-<!-- iphania -->
-
-[Cecilia by SEBU](https://x.com/SEBU_illust/status/1899563774933340404)
+["Cecilia" by SEBU](https://x.com/SEBU_illust/status/1899563774933340404)

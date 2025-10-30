@@ -2,7 +2,7 @@ import CharacterSelector from "@/components/view/fanart/CharacterSelector";
 import {
     InclusiveMode,
     SortMode,
-} from "@/components/view/fanart/ViewFanartModal";
+} from "@/components/view/fanart/FanartModal";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {

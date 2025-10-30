@@ -1,5 +1,5 @@
 import FanartCard from "@/components/view/fanart/FanartCard";
-import { FanartEntry } from "@/components/view/fanart/ViewFanartModal";
+import { FanartEntry } from "@/components/view/fanart/FanartModal";
 import { AnimatePresence, motion } from "framer-motion";
 
 interface MasonryColumn {

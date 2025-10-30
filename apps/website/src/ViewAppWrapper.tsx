@@ -1,6 +1,6 @@
 "use client";
 
-import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
+import GlossaryApp from "@/components/view/glossary/GlossaryApp";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useViewStore } from "@/store/viewStore";
 import {
@@ -14,9 +14,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Film, LibraryBig, Workflow } from "lucide-react";
 import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
-import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
+import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
+import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
 import ViewVideoArchiveApp from "@/components/view/media-archive/ViewMediaArchiveApp";
@@ -70,10 +70,10 @@ export const ViewAppWrapper = () => {
 
     return (
         <div>
-            <ViewTranslationDislaimerModal />
+            <TranslationDislaimerModal />
 
             {isLoading && (
-                <ViewLoadingPage
+                <LoadingPage
                     useDarkMode={useDarkMode}
                     onStart={() => {
                         setIsLoading(false);
@@ -158,7 +158,7 @@ export const ViewAppWrapper = () => {
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <ViewGlossaryApp bgImage={bgImage} />
+                            <GlossaryApp bgImage={bgImage} />
                         </motion.div>
                     )}
                     {appType === "archive" && (
