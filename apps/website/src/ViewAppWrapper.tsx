@@ -19,7 +19,7 @@ import { useSettingStore } from "./store/settingStore";
 import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
-import ViewVideoArchiveApp from "@/components/view/media-archive/ViewMediaArchiveApp";
+import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
 
 type AppType = "chart" | "glossary" | "archive";
 
@@ -169,7 +169,7 @@ export const ViewAppWrapper = () => {
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <ViewVideoArchiveApp bgImage={bgImage} />
+                            <VideoArchiveApp bgImage={bgImage} />
                         </motion.div>
                     )}
                 </AnimatePresence>

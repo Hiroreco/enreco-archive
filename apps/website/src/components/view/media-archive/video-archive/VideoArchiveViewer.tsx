@@ -1,5 +1,4 @@
-import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
-import { ViewMarkdown } from "@/components/view/markdown/ViewMarkdown";
+import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { getBlurDataURL } from "@/lib/utils";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
@@ -15,16 +14,17 @@ import { MediaEntry, RecollectionArchiveEntry } from "../types";
 import "swiper/css";
 import "swiper/css/effect-creative";
 import { useTranslations } from "next-intl";
+import Lightbox from "../../lightbox/Lightbox";
 
-interface ViewVideoArchiveViewerProps {
+interface VideoArchiveViewerProps {
     entry: RecollectionArchiveEntry;
     onMediaIndexChange?: (index: number) => void;
 }
 
-const ViewVideoArchiveViewer = ({
+const VideoArchiveViewer = ({
     entry,
     onMediaIndexChange,
-}: ViewVideoArchiveViewerProps) => {
+}: VideoArchiveViewerProps) => {
     const t = useTranslations("mediaArchive")
 
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
@@ -301,7 +301,7 @@ const ViewVideoArchiveViewer = ({
                 </div>
 
                 {!isVideoType && (
-                    <ViewLightbox
+                    <Lightbox
                         src={currentMedia.src}
                         alt={currentMedia.title}
                         type={currentMedia.type}
@@ -369,4 +369,4 @@ const MediaThumbnail = ({
     );
 };
 
-export default ViewVideoArchiveViewer;
+export default VideoArchiveViewer;

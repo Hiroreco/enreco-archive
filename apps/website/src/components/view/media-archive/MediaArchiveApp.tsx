@@ -1,11 +1,11 @@
 import ViewVideoArchiveCard from "@/components/view/media-archive/ViewMediaArchiveCard";
 import ModalCollection from "../basic-modals/ModalCollection";
 
-interface ViewVideoArchiveAppProps {
+interface VideoArchiveAppProps {
     bgImage: string;
 }
 
-const ViewVideoArchiveApp = ({ bgImage }: ViewVideoArchiveAppProps) => {
+const VideoArchiveApp = ({ bgImage }: VideoArchiveAppProps) => {
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
@@ -18,4 +18,4 @@ const ViewVideoArchiveApp = ({ bgImage }: ViewVideoArchiveAppProps) => {
     );
 };
 
-export default ViewVideoArchiveApp;
+export default VideoArchiveApp;

@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
 import { RecollectionArchiveEntry } from "../types";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
-import ViewVideoArchiveSelector from "./ViewVideoArchiveSelector";
+import VideoArchiveSelector from "./VideoArchiveSelector";
 
-interface ChapterSectionProps {
+interface VideoArchiveSection {
     chapter: number;
     categories: Record<string, RecollectionArchiveEntry[]>;
     onEntryClick: (entry: RecollectionArchiveEntry) => void;
@@ -13,7 +13,7 @@ const VideoArchiveSection = ({
     chapter,
     categories,
     onEntryClick,
-}: ChapterSectionProps) => {
+}: VideoArchiveSection) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
 
@@ -40,7 +40,7 @@ const VideoArchiveSection = ({
                                     {t(`videoArchive.category.${categoryName}`)}
                                 </span>
                             )}
-                            <ViewVideoArchiveSelector
+                            <VideoArchiveSelector
                                 entry={entry}
                                 onEntryClick={onEntryClick}
                             />

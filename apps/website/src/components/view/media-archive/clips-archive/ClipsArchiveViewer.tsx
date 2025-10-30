@@ -20,17 +20,17 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-interface ViewClipsViewerProps {
+interface ClipsArchiveViewer {
     clips: ClipEntry[];
     streams: ClipEntry[];
     onClipClick: (clip: ClipEntry) => void;
 }
 
-const ViewClipsViewer = ({
+const ClipsArchiveViewer = ({
     clips,
     streams,
     onClipClick,
-}: ViewClipsViewerProps) => {
+}: ClipsArchiveViewer) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
 
@@ -307,4 +307,4 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
     );
 };
 
-export default ViewClipsViewer;
+export default ClipsArchiveViewer;

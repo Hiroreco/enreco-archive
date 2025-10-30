@@ -4,15 +4,15 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
 
-interface ViewVideoArchiveSelectorProps {
+interface VideoArchiveSelectorProps {
     entry: RecollectionArchiveEntry;
     onEntryClick?: (entry: RecollectionArchiveEntry) => void;
 }
 
-const ViewVideoArchiveSelector = ({
+const VideoArchiveSelector = ({
     entry,
     onEntryClick,
-}: ViewVideoArchiveSelectorProps) => {
+}: VideoArchiveSelectorProps) => {
     const thumbnailUrl = entry.thumbnailUrl;
 
     return (
@@ -86,4 +86,4 @@ const ViewVideoArchiveSelector = ({
     );
 };
 
-export default ViewVideoArchiveSelector;
+export default VideoArchiveSelector;

@@ -12,7 +12,7 @@ import { useMemo, useState } from "react";
 import { ClipEntry, RecollectionArchiveEntry } from "./types";
 import { getBlurDataURL } from "@/lib/utils";
 import { ArrowLeft, Film, Info, Video } from "lucide-react";
-import ViewVideoArchiveViewer from "@/components/view/media-archive/video-archive/ViewVideoArchiveViewer";
+import VideoArchiveViewer from "@/components/view/media-archive/video-archive/VideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useTranslations } from "next-intl";
 import {
@@ -23,13 +23,13 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
-import ViewClipsViewer from "@/components/view/media-archive/clips-archive/ViewClipsArchiveViewer";
+import ClipsArchiveViewer from "@/components/view/media-archive/clips-archive/ClipsArchiveViewer";
 import {
     Tabs,
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
-import ViewLightbox from "@/components/view/lightbox/ViewLightbox";
+import Lightbox from "@/components/view/lightbox/Lightbox";
 import VideoArchiveSection from "./video-archive/VideoArchiveSection";
 
 interface ViewVideoArchiveCardProps {
@@ -164,7 +164,7 @@ const ViewVideoArchiveCard = ({
             <CardContent className="overflow-y-auto px-6 pb-6 h-[70dvh] sm:h-[80dvh]">
                 <AnimatePresence mode="wait">
                     {activeTab === "videos" && selectedEntry ? (
-                        <ViewVideoArchiveViewer
+                        <VideoArchiveViewer
                             entry={selectedEntry}
                             onMediaIndexChange={setCurrentMediaIndex}
                         />
@@ -200,7 +200,7 @@ const ViewVideoArchiveCard = ({
                             transition={{ duration: 0.15 }}
                             className="h-full"
                         >
-                            <ViewClipsViewer
+                            <ClipsArchiveViewer
                                 clips={clipsData.clips}
                                 streams={clipsData.streams}
                                 onClipClick={handleClipClick}
@@ -240,7 +240,7 @@ const ViewVideoArchiveCard = ({
 
             {/* Lightbox for clips */}
             {selectedClip && (
-                <ViewLightbox
+                <Lightbox
                     alt={selectedClip.title}
                     src={selectedClip.originalUrl}
                     type="video"
