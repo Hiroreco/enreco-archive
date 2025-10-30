@@ -3,17 +3,17 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { useEffect } from "react";
 
-interface ViewBasicEggProps {
+interface BasicEggProps {
     eggName: string;
     imageName: string;
     className?: string;
 }
 
-const ViewBasicEgg = ({
+const BasicEgg = ({
     eggName,
     imageName,
     className = "",
-}: ViewBasicEggProps) => {
+}: BasicEggProps) => {
     const {
         playEasterEgg,
         initializeEasterEgg,
@@ -92,4 +92,4 @@ const ViewBasicEgg = ({
     );
 };
 
-export default ViewBasicEgg;
+export default BasicEgg;

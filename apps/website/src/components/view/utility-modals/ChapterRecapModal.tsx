@@ -1,4 +1,4 @@
-import ViewChapterRecapToolbar from "@/components/view/utility-modals/ViewChapterRecapToolbar";
+import ChapterRecapToolbar from "@/components/view/utility-modals/ChapterRecapToolbar";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import {
     Dialog,
@@ -19,17 +19,17 @@ import { extractMarkdownSections } from "@/components/view/glossary/glossary-uti
 import { useTranslations } from "next-intl";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 
-interface ViewChapterRecapModalProps {
+interface ChapterRecapModalProps {
     open: boolean;
     onClose: () => void;
     currentChapter: number;
 }
 
-const ViewChapterRecapModal = ({
+const ChapterRecapModal = ({
     open,
     onClose,
     currentChapter,
-}: ViewChapterRecapModalProps) => {
+}: ChapterRecapModalProps) => {
     const t = useTranslations("common");
     const { getChapterRecap } = useLocalizedData();
 
@@ -140,7 +140,7 @@ const ViewChapterRecapModal = ({
                 </VisuallyHidden>
 
                 <div className="h-full w-full flex flex-col">
-                    <ViewChapterRecapToolbar
+                    <ChapterRecapToolbar
                         currentChapter={chapter}
                         currentSection={currentSection}
                         chapters={data.chapters}
@@ -189,4 +189,4 @@ const ViewChapterRecapModal = ({
     );
 };
 
-export default ViewChapterRecapModal;
+export default ChapterRecapModal;

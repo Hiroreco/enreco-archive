@@ -1,6 +1,6 @@
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
-import ViewProgressBar from "@/components/view/chart-cards/ProgressBar";
+import ProgressBar from "@/components/view/chart-cards/ProgressBar";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 
@@ -17,7 +17,7 @@ interface Props {
     onDayChange: (newDay: number) => void;
 }
 
-const ViewRecapCard = ({
+const RecapCard = ({
     dayRecap,
     onNodeLinkClicked,
     onEdgeLinkClicked,
@@ -34,7 +34,7 @@ const ViewRecapCard = ({
     }, [dayRecap]);
     return (
         <div className="flex flex-col gap-4 mt-4 h-full min-h-0 relative">
-            <ViewProgressBar
+            <ProgressBar
                 day={day}
                 numberOfDays={numberOfDays}
                 onDayChange={onDayChange}
@@ -72,4 +72,4 @@ const ViewRecapCard = ({
     );
 };
 
-export default ViewRecapCard;
+export default RecapCard;

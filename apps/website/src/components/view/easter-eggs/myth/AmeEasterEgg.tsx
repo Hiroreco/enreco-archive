@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState } from "react";
 
-const ViewAmeEasterEgg = () => {
+const AmeEasterEgg = () => {
     const audioStore = useAudioStore();
     const [phase, setPhase] = useState<"idle" | "clicked" | "run">("idle");
 
@@ -58,4 +58,4 @@ const ViewAmeEasterEgg = () => {
     );
 };
 
-export default ViewAmeEasterEgg;
+export default AmeEasterEgg;

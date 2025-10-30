@@ -3,12 +3,12 @@ import { CommonItemData } from "@enreco-archive/common/types";
 import Image from "next/image";
 import React from "react";
 
-interface ItemSelectorProps {
+interface GlossarySelectorProps {
     item: CommonItemData;
     onItemClick?: (item: CommonItemData) => void;
 }
 
-const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
+const GlossarySelector = ({ item, onItemClick }: GlossarySelectorProps) => {
     return (
         <div
             className="view-item-selector dark:bg-white/10 bg-white/90 backdrop-blur-md shadow-lg"
@@ -60,4 +60,4 @@ const ViewGlossarySelector = ({ item, onItemClick }: ItemSelectorProps) => {
     );
 };
 
-export default ViewGlossarySelector;
+export default GlossarySelector;

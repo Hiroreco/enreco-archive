@@ -31,7 +31,7 @@ interface Props {
     nodes: ImageNodeType[];
 }
 
-const ViewVisibilityCard = ({
+const VisibilityCard = ({
     relationshipVisibility,
     toggleRelationshipVisible,
     toggleAllRelationshipVisible,
@@ -262,4 +262,4 @@ const ViewVisibilityCard = ({
     );
 };
 
-export default ViewVisibilityCard;
+export default VisibilityCard;

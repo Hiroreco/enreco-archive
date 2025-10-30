@@ -1,4 +1,4 @@
-import ViewTextModal from "@/components/view/utility-modals/TextModal";
+import TextModal from "@/components/view/utility-modals/TextModal";
 import { ImageNodeType } from "@enreco-archive/common/types";
 import React from "react";
 
@@ -10,7 +10,7 @@ interface JournalUtilityProps {
 
 const JournalUtility = ({ chapter, day, id }: JournalUtilityProps) => {
     const journalId = `${id}-journal-c${chapter + 1}d${day + 1}`;
-    return <ViewTextModal textId={journalId} label="" />;
+    return <TextModal textId={journalId} label="" />;
 };
 
 const UTILITY_CONFIG = {

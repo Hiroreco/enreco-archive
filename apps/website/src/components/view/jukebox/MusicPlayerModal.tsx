@@ -1,4 +1,4 @@
-import AudioVisualizer from "@/components/view/jukebox/ViewAudioVisualizer";
+import AudioVisualizer from "@/components/view/jukebox/AudioVisualizer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
@@ -240,12 +240,12 @@ const PlayerControls = ({
     );
 };
 
-interface ViewMusicPlayerModalProps {
+interface MusicPlayerModalProps {
     open: boolean;
     onClose: () => void;
 }
 
-const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
+const MusicPlayerModal = ({ open, onClose }: MusicPlayerModalProps) => {
     const { getSongs } = useLocalizedData();
     const SONGS = useMemo(() => getSongs(), [getSongs]);
     const categories = useMemo(() => Object.entries(SONGS), [SONGS]);
@@ -842,4 +842,4 @@ const ViewMusicPlayerModal = ({ open, onClose }: ViewMusicPlayerModalProps) => {
     );
 };
 
-export default ViewMusicPlayerModal;
+export default MusicPlayerModal;

@@ -1,6 +1,6 @@
-import ViewModelViewer from "@/components/view/glossary/ModelViewer";
-import ViewSectionJumper from "@/components/view/glossary/SectionJumper";
-import ViewLightbox from "@/components/view/lightbox/Lightbox";
+import ModelViewer from "@/components/view/glossary/ModelViewer";
+import SectionJumper from "@/components/view/glossary/SectionJumper";
+import Lightbox from "@/components/view/lightbox/Lightbox";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { LookupEntry } from "@/contexts/GlossaryContext";
 import { useSettingStore } from "@/store/settingStore";
@@ -9,11 +9,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useCallback, useRef } from "react";
 
-interface ViewItemViewerProps {
+interface ItemViewerProps {
     entry: LookupEntry;
 }
 
-const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
+const GlossaryViewer = ({ entry }: ItemViewerProps) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const contentRef = useRef<HTMLDivElement>(null);
     const tGlossaryInfo = useTranslations("glossary.info");
@@ -57,12 +57,12 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                         </p>
                         <div className="w-[250px] h-[250px]">
                             {entry.item.modelSrc && (
-                                <ViewModelViewer
+                                <ModelViewer
                                     modelPath={entry.item.modelSrc}
                                 />
                             )}
                             {entry.item.imageSrc && (
-                                <ViewLightbox
+                                <Lightbox
                                     src={entry.item.imageSrc}
                                     alt={entry.item.title}
                                     className="object-cover size-full"
@@ -119,7 +119,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                                     height: "100%",
                                 }}
                             >
-                                <ViewLightbox
+                                <Lightbox
                                     width={124}
                                     height={70}
                                     src={image.source.replace(
@@ -146,7 +146,7 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
                 <Separator className="md:hidden" />
 
                 <div className="flex flex-col gap-4 h-full w-full md:w-[calc(100%-250px)] relative">
-                    <ViewSectionJumper
+                    <SectionJumper
                         className="hidden md:block"
                         content={entry.item.content || ""}
                     />
@@ -170,4 +170,4 @@ const ViewGlossaryViewer = ({ entry }: ViewItemViewerProps) => {
     );
 };
 
-export default ViewGlossaryViewer;
+export default GlossaryViewer;

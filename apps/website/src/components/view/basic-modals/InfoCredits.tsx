@@ -47,7 +47,7 @@ const CreditBlock = ({
     );
 };
 
-const ViewInfoCredits = () => {
+const InfoCredits = () => {
     const t = useTranslations("modals.infoCredits");
     const tRoles = useTranslations("modals.infoCredits.roles");
 
@@ -181,4 +181,4 @@ const ViewInfoCredits = () => {
     );
 };
 
-export default ViewInfoCredits;
+export default InfoCredits;

@@ -4,17 +4,17 @@ import { useCallback, useMemo, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-interface ViewLoadingPageProps {
+interface LoadingPageProps {
     useDarkMode: boolean;
     onStart: () => void;
     setViewAppVisible: () => void;
 }
 
-const ViewLoadingPage = ({
+const LoadingPage = ({
     useDarkMode,
     onStart,
     setViewAppVisible,
-}: ViewLoadingPageProps) => {
+}: LoadingPageProps) => {
     const t = useTranslations("loading");
     const [isClicked, setIsClicked] = useState(false);
     const [isAnimationComplete, setIsAnimationComplete] = useState(false);
@@ -245,4 +245,4 @@ const ViewLoadingPage = ({
     );
 };
 
-export default ViewLoadingPage;
+export default LoadingPage;

@@ -1,22 +1,22 @@
-import ViewFanartModal from "@/components/view/fanart/FanartModal";
-import ViewGlossaryCard from "@/components/view/glossary/GlossaryCard";
-import ViewInfoModal from "@/components/view/basic-modals/InfoModal";
-import ViewMiniGameModal from "@/components/view/minigames/MiniGameModal";
-import ViewMusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
-import ViewSettingsModal from "@/components/view/utility-modals/SettingsModal";
-import ViewVideoModal from "@/components/view/utility-modals/VideoModal";
+import FanartModal from "@/components/view/fanart/FanartModal";
+import GlossaryCard from "@/components/view/glossary/GlossaryCard";
+import InfoModal from "@/components/view/basic-modals/InfoModal";
+import MiniGameModal from "@/components/view/minigames/MiniGameModal";
+import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
+import SettingsModal from "@/components/view/utility-modals/SettingsModal";
+import VideoModal from "@/components/view/utility-modals/VideoModal";
 import { GlossaryProvider } from "@/contexts/GlossaryContext";
 import { useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
-import ViewSpoilerModal from "@/components/view/basic-modals/SpoilerModal";
+import SpoilerModal from "@/components/view/basic-modals/SpoilerModal";
 import { useTranslations } from "next-intl";
 
-interface ViewItemsAppProps {
+interface ItemsAppProps {
     bgImage: string;
 }
 
-const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
+const GlossaryApp = ({ bgImage }: ItemsAppProps) => {
     const tNavTooltips = useTranslations("navTooltips");
 
     // UI
@@ -44,40 +44,40 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <GlossaryProvider>
-                <ViewGlossaryCard
+                <GlossaryCard
                     className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2"
                     bgImage={bgImage}
                 />
             </GlossaryProvider>
 
-            <ViewSpoilerModal />
+            <SpoilerModal />
 
             {/* Updated modal pattern to match ViewApp */}
-            <ViewInfoModal open={openModal === "info"} onClose={closeModal} />
+            <InfoModal open={openModal === "info"} onClose={closeModal} />
 
-            <ViewSettingsModal
+            <SettingsModal
                 open={openModal === "settings"}
                 onClose={closeModal}
             />
 
-            <ViewMiniGameModal
+            <MiniGameModal
                 open={openModal === "minigame"}
                 onClose={closeModal}
             />
 
-            <ViewVideoModal
+            <VideoModal
                 open={openModal === "video"}
                 onClose={closeModal}
                 videoUrl={videoUrl}
                 bgImage={bgImage}
             />
 
-            <ViewMusicPlayerModal
+            <MusicPlayerModal
                 open={openModal === "music"}
                 onClose={closeModal}
             />
 
-            <ViewFanartModal
+            <FanartModal
                 open={openModal === "fanart"}
                 onClose={closeModal}
                 chapter={chapter}
@@ -144,4 +144,4 @@ const ViewGlossaryApp = ({ bgImage }: ViewItemsAppProps) => {
     );
 };
 
-export default ViewGlossaryApp;
+export default GlossaryApp;

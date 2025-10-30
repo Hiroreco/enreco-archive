@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { LS_KEYS } from "@/lib/constants";
 
-const ViewAwooEasterEgg = () => {
+const AwooEasterEgg = () => {
     const { playSFX } = useAudioStore();
     const [clickCount, setClickCount] = useState<number>(0);
     const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -98,4 +98,4 @@ const ViewAwooEasterEgg = () => {
     );
 };
 
-export default ViewAwooEasterEgg;
+export default AwooEasterEgg;

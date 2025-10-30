@@ -20,7 +20,7 @@ import { X } from "lucide-react";
 import Image from "next/image";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-interface ViewLightboxProps {
+interface LightboxProps {
     src: string;
     alt: string;
     width?: number;
@@ -41,7 +41,7 @@ interface ViewLightboxProps {
     showFanartMeta?: boolean;
 }
 
-const ViewLightbox = ({
+const Lightbox = ({
     src,
     alt,
     width = 500,
@@ -60,7 +60,7 @@ const ViewLightbox = ({
     externalIsOpen = false,
     onExternalClose,
     showFanartMeta = false,
-}: ViewLightboxProps) => {
+}: LightboxProps) => {
     const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentItemIndex, setCurrentItemIndex] = useState(galleryIndex);
     const [currentGalleryIndex, setCurrentGalleryIndex] =
@@ -304,4 +304,4 @@ const ViewLightbox = ({
     );
 };
 
-export default memo(ViewLightbox);
+export default memo(Lightbox);

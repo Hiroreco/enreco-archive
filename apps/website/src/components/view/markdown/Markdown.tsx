@@ -18,9 +18,9 @@ import { visit } from "unist-util-visit";
 
 import { generateSectionId } from "@/components/view/glossary/glossary-utils";
 import EntryLink from "@/components/view/markdown/EntryLink";
-import ViewLightbox from "@/components/view/lightbox/Lightbox";
-import "./ViewMarkdown.css";
-import ViewTextModal from "@/components/view/utility-modals/TextModal";
+import Lightbox from "@/components/view/lightbox/Lightbox";
+import "./Markdown.css";
+import TextModal from "@/components/view/utility-modals/TextModal";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import underlineDirective from "@enreco-archive/markdown-extensions/UnderlineDirective";
 import textAlignmentDirective from "@enreco-archive/markdown-extensions/TextAlignmentDirective";
@@ -308,7 +308,7 @@ interface ViewMarkdownProps {
     children: string | null | undefined;
 }
 
-function ViewMarkdownInternal({
+function MarkdownInternal({
     onNodeLinkClicked,
     onEdgeLinkClicked,
     className,
@@ -321,7 +321,7 @@ function ViewMarkdownInternal({
                     throw new Error("We don't support Blobs right now.");
                 }
                 return (
-                    <ViewLightbox
+                    <Lightbox
                         src={src}
                         alt={alt}
                         width={1600}
@@ -402,7 +402,7 @@ function ViewMarkdownInternal({
                 } else if (href && href.startsWith("#text:")) {
                     const textId = href.replace("#text:", "");
                     const label = children as string;
-                    return <ViewTextModal textId={textId} label={label} />;
+                    return <TextModal textId={textId} label={label} />;
                 } else if (href && href.startsWith("#entry:")) {
                     const itemId = href.replace("#entry:", "");
                     return <EntryLink itemId={itemId}>{children}</EntryLink>;
@@ -456,4 +456,4 @@ function ViewMarkdownInternal({
     );
 }
 
-export const ViewMarkdown = memo(ViewMarkdownInternal);
+export const ViewMarkdown = memo(MarkdownInternal);

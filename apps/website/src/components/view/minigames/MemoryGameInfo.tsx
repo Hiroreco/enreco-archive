@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
-const ViewMemoryGameInfo = () => {
+const MemoryGameInfo = () => {
     const t = useTranslations("modals.minigames.games.memory");
 
     return (
@@ -37,4 +37,4 @@ const ViewMemoryGameInfo = () => {
     );
 };
 
-export default ViewMemoryGameInfo;
+export default MemoryGameInfo;

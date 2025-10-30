@@ -15,7 +15,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const ViewTranslationDislaimerModal = () => {
+const TranslationDislaimerModal = () => {
     const locale = useSettingStore((state) => state.locale);
     const tCommon = useTranslations("common");
 
@@ -91,4 +91,4 @@ const ViewTranslationDislaimerModal = () => {
     );
 };
 
-export default ViewTranslationDislaimerModal;
+export default TranslationDislaimerModal;

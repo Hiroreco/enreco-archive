@@ -1,5 +1,5 @@
-import ViewShioriGameEasterEgg from "@/components/view/easter-eggs/ShioriGameEasterEgg";
-import ViewTextModal from "@/components/view/utility-modals/TextModal";
+import ShioriGameEasterEgg from "@/components/view/easter-eggs/ShioriGameEasterEgg";
+import TextModal from "@/components/view/utility-modals/TextModal";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { LS_KEYS } from "@/lib/constants";
 import { useAudioStore } from "@/store/audioStore";
@@ -114,7 +114,7 @@ const getQuestionPack = (locale: Locale) => {
     return questionsEn;
 };
 
-const ViewShioriGame = () => {
+const ShioriGame = () => {
     const t = useTranslations("modals.minigames.games.shiori");
     const locale = useSettingStore((state) => state.locale);
 
@@ -208,7 +208,7 @@ const ViewShioriGame = () => {
                     <Button onClick={handleAnswer}>{t("submit")}</Button>
                 </div>
                 {error && <div className="text-red-500">{error}</div>}
-                <ViewShioriGameEasterEgg className="bottom-8" />
+                <ShioriGameEasterEgg className="bottom-8" />
             </div>
         );
     }
@@ -230,7 +230,7 @@ const ViewShioriGame = () => {
             >
                 <div className="grid place-items-center md:grid-cols-2 gap-y-4 w-full px-4 py-2">
                     {bookList.map((fanfic) => (
-                        <ViewTextModal
+                        <TextModal
                             key={fanfic}
                             textId={fanfic}
                             label={getTextItem(fanfic)?.title || fanfic}
@@ -239,9 +239,9 @@ const ViewShioriGame = () => {
                 </div>
             </div>
             <Separator className="w-full flex-shrink-0" />
-            <ViewShioriGameEasterEgg className="bottom-8" />
+            <ShioriGameEasterEgg className="bottom-8" />
         </div>
     );
 };
 
-export default ViewShioriGame;
+export default ShioriGame;

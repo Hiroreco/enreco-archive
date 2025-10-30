@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Locale, useTranslations } from "next-intl";
-import ViewChangelogModal from "@/components/view/basic-modals/Changelog";
+import ChangelogModal from "@/components/view/basic-modals/Changelog";
 import { useSettingStore } from "@/store/settingStore";
 import { LS_KEYS } from "@/lib/constants";
 
@@ -36,7 +36,7 @@ const getDateInLocale = (date: Date, locale: Locale): string => {
     }).format(date);
 };
 
-const ViewInfoGeneral = () => {
+const InfoGeneral = () => {
     const t = useTranslations("modals.infoGeneral");
     const [showChangelog, setShowChangelog] = useState(false);
     const locale = useSettingStore((state) => state.locale);
@@ -195,7 +195,7 @@ const ViewInfoGeneral = () => {
                 })}
             </div>
 
-            <ViewChangelogModal
+            <ChangelogModal
                 open={showChangelog}
                 onClose={() => setShowChangelog(false)}
             />
@@ -203,4 +203,4 @@ const ViewInfoGeneral = () => {
     );
 };
 
-export default ViewInfoGeneral;
+export default InfoGeneral;

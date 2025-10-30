@@ -3,10 +3,10 @@ import { FixedEdgeProps } from "@enreco-archive/common/types";
 import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { memo, useContext, useEffect, useMemo, useRef, useState } from "react";
 
-import "./ViewCustomEdge.css";
+import "./CustomEdge.css";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
-const ViewCustomEdge = ({
+const CustomEdge = ({
     id,
     style,
     data,
@@ -163,4 +163,4 @@ const ViewCustomEdge = ({
     );
 };
 
-export default memo(ViewCustomEdge);
+export default memo(CustomEdge);

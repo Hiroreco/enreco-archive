@@ -21,7 +21,7 @@ interface Props {
     onSectionChange: (sectionId: string) => void;
 }
 
-const ViewChapterRecapToolbar = ({
+const ChapterRecapToolbar = ({
     currentChapter,
     currentSection,
     chapters,
@@ -89,4 +89,4 @@ const ViewChapterRecapToolbar = ({
     );
 };
 
-export default ViewChapterRecapToolbar;
+export default ChapterRecapToolbar;

@@ -20,8 +20,8 @@ import {
     useState,
 } from "react";
 
-import ViewGlossarySelector from "@/components/view/glossary/GlossarySelector";
-import ViewGlossaryViewer from "@/components/view/glossary/GlossaryViewer";
+import GlossarySelector from "@/components/view/glossary/GlossarySelector";
+import GlossaryViewer from "@/components/view/glossary/GlossaryViewer";
 import { Category, useGlossary } from "@/contexts/GlossaryContext";
 import {
     Card,
@@ -46,18 +46,18 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 import { getBlurDataURL } from "@/lib/utils";
-import ViewSectionJumper from "@/components/view/glossary/SectionJumper";
-import ViewGlossaryInfo from "@/components/view/glossary/GlossaryInfo";
+import SectionJumper from "@/components/view/glossary/SectionJumper";
+import GlossaryInfo from "@/components/view/glossary/GlossaryInfo";
 import { useTranslations } from "next-intl";
 
 const NUM_OF_CHAPTERS = 2;
 
-interface ViewGlossaryCardProps {
+interface GlossaryCardProps {
     className?: string;
     bgImage: string;
 }
 
-const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
+const GlossaryCard = ({ className, bgImage }: GlossaryCardProps) => {
     const tGlossary = useTranslations("glossary");
     const tCommon = useTranslations("common");
 
@@ -291,7 +291,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                                 </span>
 
                                 {currentEntry === null && (
-                                    <ViewGlossaryInfo
+                                    <GlossaryInfo
                                         category={selectedCategory}
                                     />
                                 )}
@@ -373,7 +373,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                 />
 
                 {currentEntry !== null && (
-                    <ViewSectionJumper
+                    <SectionJumper
                         content={currentEntry.item.content || ""}
                         className="block md:hidden absolute top-0 right-[22px] z-50"
                     />
@@ -420,7 +420,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                                                 </h3>
                                                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                                                     {items.map((item) => (
-                                                        <ViewGlossarySelector
+                                                        <GlossarySelector
                                                             key={item.id}
                                                             item={item}
                                                             onItemClick={
@@ -445,7 +445,7 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
                             transition={{ duration: 0.15 }}
                             exit={{ opacity: 0 }}
                         >
-                            <ViewGlossaryViewer entry={currentEntry} />
+                            <GlossaryViewer entry={currentEntry} />
                         </motion.div>
                     )}
                 </AnimatePresence>
@@ -561,4 +561,4 @@ const ViewGlossaryCard = ({ className, bgImage }: ViewGlossaryCardProps) => {
     );
 };
 
-export default ViewGlossaryCard;
+export default GlossaryCard;

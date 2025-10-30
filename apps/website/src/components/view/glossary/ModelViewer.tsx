@@ -1,11 +1,11 @@
-import ViewModelModal from "@/components/view/glossary/ViewModelModal";
+import ModelModal from "@/components/view/glossary/ModelModal";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Expand } from "lucide-react";
 import { Suspense, useMemo, useState, useRef, useCallback } from "react";
 
-interface ViewItemViewerProps {
+interface ViewModelViewerProps {
     modelPath: string;
 }
 
@@ -35,7 +35,7 @@ const Model = ({
     );
 };
 
-const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
+const ModelViewer = ({ modelPath }: ViewModelViewerProps) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [paused, setPaused] = useState(false);
 
@@ -83,7 +83,7 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
                 <Expand className="h-4 w-4" />
             </Button>
 
-            <ViewModelModal
+            <ModelModal
                 open={isModalOpen}
                 onOpenChange={setIsModalOpen}
                 modelPath={modelPath}
@@ -92,4 +92,4 @@ const ViewModelViewer = ({ modelPath }: ViewItemViewerProps) => {
     );
 };
 
-export default ViewModelViewer;
+export default ModelViewer;

@@ -2,7 +2,7 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import Image from "next/image";
 
-const ViewPotatoSalidEasterEgg = () => {
+const PotatoSalidEasterEgg = () => {
     const audioStore = useAudioStore();
     const isCurrentlyPotatoSalid = audioStore.currentBgmKey === "easter-potato";
     return (
@@ -30,4 +30,4 @@ const ViewPotatoSalidEasterEgg = () => {
     );
 };
 
-export default ViewPotatoSalidEasterEgg;
+export default PotatoSalidEasterEgg;

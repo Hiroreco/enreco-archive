@@ -7,7 +7,7 @@ import Image from "next/image";
 import { memo, useContext, useMemo } from "react";
 import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
-import "./ViewImageNode.css";
+import "./ImageNode.css";
 import {
     getReadStatus,
     usePersistedViewStore,
@@ -48,7 +48,7 @@ const generateHandles = (numOfHandles: number) => [
     ...generateHandlesOnSide(Position.Left, "top", numOfHandles),
 ];
 
-const ViewImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
+const ImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
     const { teams } = useContext(CurrentChapterDataContext);
 
     const chapter = useViewStore((state) => state.data.chapter);
@@ -133,4 +133,4 @@ const ViewImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
     );
 };
 
-export default memo(ViewImageNode);
+export default memo(ImageNode);

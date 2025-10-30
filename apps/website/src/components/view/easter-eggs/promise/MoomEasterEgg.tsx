@@ -1,7 +1,7 @@
-import ViewBasicEgg from "@/components/view/easter-eggs/BasicEgg";
+import BasicEgg from "@/components/view/easter-eggs/BasicEgg";
 
-const ViewMoomEasterEgg = () => {
-    return <ViewBasicEgg imageName="easter-moom" eggName="moom" />;
+const MoomEasterEgg = () => {
+    return <BasicEgg imageName="easter-moom" eggName="moom" />;
 };
 
-export default ViewMoomEasterEgg;
+export default MoomEasterEgg;

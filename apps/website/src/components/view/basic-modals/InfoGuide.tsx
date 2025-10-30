@@ -12,7 +12,7 @@ import {
     Palette,
 } from "lucide-react";
 
-const ViewInfoGuide = () => {
+const InfoGuide = () => {
     const t = useTranslations("modals.infoGuide");
 
     return (
@@ -204,4 +204,4 @@ const ViewInfoGuide = () => {
     );
 };
 
-export default ViewInfoGuide;
+export default InfoGuide;

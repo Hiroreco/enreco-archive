@@ -19,12 +19,12 @@ import { BookOpenTextIcon, Play, Square } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-interface ViewTextModalProps {
+interface TextModalProps {
     textId: string;
     label: string;
 }
 
-const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
+const TextModal = ({ textId, label }: TextModalProps) => {
     const tCommon = useTranslations("common");
     const tText = useTranslations("modals.text");
     const { getTextItem } = useLocalizedData();
@@ -140,4 +140,4 @@ const ViewTextModal = ({ textId, label }: ViewTextModalProps) => {
     );
 };
 
-export default ViewTextModal;
+export default TextModal;

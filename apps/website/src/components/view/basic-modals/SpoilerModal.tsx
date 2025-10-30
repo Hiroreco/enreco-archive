@@ -14,7 +14,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { LS_KEYS } from "@/lib/constants";
 
-const ViewSpoilerModal = () => {
+const SpoilerModal = () => {
     const t = useTranslations("glossary.spoilers");
 
     const [open, setOpen] = useState(false);
@@ -62,4 +62,4 @@ const ViewSpoilerModal = () => {
     );
 };
 
-export default ViewSpoilerModal;
+export default SpoilerModal;

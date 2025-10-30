@@ -9,19 +9,19 @@ import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { ArrowDownUp } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-interface ViewCardDaySwitcherProps {
+interface CardDaySwitcherProps {
     onDayChange: (newDay: number) => void;
     currentDay: number;
     availiableElements: ImageNodeType[] | FixedEdgeType[];
     showTitle?: boolean;
 }
 
-const ViewCardDaySwitcher = ({
+const CardDaySwitcher = ({
     onDayChange,
     currentDay,
     availiableElements,
     showTitle = false,
-}: ViewCardDaySwitcherProps) => {
+}: CardDaySwitcherProps) => {
     const t = useTranslations("common");
 
     return (
@@ -57,4 +57,4 @@ const ViewCardDaySwitcher = ({
     );
 };
 
-export default ViewCardDaySwitcher;
+export default CardDaySwitcher;

@@ -11,8 +11,8 @@ import { isMobileViewport } from "@/lib/utils";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import ViewCardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
-import ViewCardUtilities from "@/components/view/chart-cards/CardUtilities";
+import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
+import CardUtilities from "@/components/view/chart-cards/CardUtilities";
 import { Check } from "lucide-react";
 import {
     Tooltip,
@@ -41,7 +41,7 @@ interface Props {
     onDayChange: (newDay: number) => void;
 }
 
-const ViewNodeCard = ({
+const NodeCard = ({
     isCardOpen,
     selectedNode,
     nodeTeam,
@@ -187,12 +187,12 @@ const ViewNodeCard = ({
                 {/* Content */}
                 <div className="mt-2 overflow-x-hidden">
                     <div className="flex items-center justify-between">
-                        <ViewCardDaySwitcher
+                        <CardDaySwitcher
                             currentDay={selectedNode.data.day}
                             onDayChange={onDayChange}
                             availiableElements={availiableNodes}
                         />
-                        <ViewCardUtilities
+                        <CardUtilities
                             chapter={chapter}
                             node={selectedNode}
                         />
@@ -254,4 +254,4 @@ const ViewNodeCard = ({
     );
 };
 
-export default ViewNodeCard;
+export default NodeCard;

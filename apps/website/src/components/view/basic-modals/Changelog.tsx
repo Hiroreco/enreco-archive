@@ -16,12 +16,12 @@ import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect } from "react";
 
-interface ViewChangelogModalProps {
+interface ChangelogModalProps {
     open: boolean;
     onClose: () => void;
 }
 
-const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
+const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
     const tCommon = useTranslations("common");
     const tChangelog = useTranslations("modals.changelog");
     const { getChangelog } = useLocalizedData();
@@ -127,4 +127,4 @@ const ViewChangelogModal = ({ open, onClose }: ViewChangelogModalProps) => {
     );
 };
 
-export default ViewChangelogModal;
+export default ChangelogModal;

@@ -10,12 +10,12 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { List } from "lucide-react";
 import { useMemo } from "react";
 
-interface ViewSectionJumperProps {
+interface SectionJumperProps {
     content: string;
     className?: string;
 }
 
-const ViewSectionJumper = ({ content, className }: ViewSectionJumperProps) => {
+const SectionJumper = ({ content, className }: SectionJumperProps) => {
     const sections = useMemo(() => extractMarkdownSections(content), [content]);
 
     const handleSectionClick = (sectionId: string) => {
@@ -107,4 +107,4 @@ const ViewSectionJumper = ({ content, className }: ViewSectionJumperProps) => {
     );
 };
 
-export default ViewSectionJumper;
+export default SectionJumper;

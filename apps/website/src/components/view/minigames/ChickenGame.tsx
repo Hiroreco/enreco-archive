@@ -20,7 +20,7 @@ interface Chicken {
     id: number;
 }
 
-const ViewChickenGame = () => {
+const ChickenGame = () => {
     const t = useTranslations("modals.minigames.games.chicken");
 
     const audioStore = useAudioStore();
@@ -286,4 +286,4 @@ const ViewChickenGame = () => {
     );
 };
 
-export default ViewChickenGame;
+export default ChickenGame;

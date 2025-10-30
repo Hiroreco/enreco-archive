@@ -31,7 +31,7 @@ const initBoardState = (boardSize: number) => {
 
 type GuessState = "correct" | "incorrect" | "none";
 
-const ViewMemoryGame = () => {
+const MemoryGame = () => {
     const t = useTranslations("modals.minigames.games.memory");
 
     const sideLength = 5;
@@ -298,4 +298,4 @@ const ViewMemoryGame = () => {
     );
 };
 
-export default ViewMemoryGame;
+export default MemoryGame;

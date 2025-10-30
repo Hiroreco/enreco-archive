@@ -8,7 +8,7 @@ import {
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 
-interface ViewModelModalProps {
+interface ModelModalProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
     modelPath: string;
@@ -40,11 +40,11 @@ const Model = ({
     );
 };
 
-const ViewModelModal = ({
+const ModelModal = ({
     open,
     onOpenChange,
     modelPath,
-}: ViewModelModalProps) => {
+}: ModelModalProps) => {
     const [paused, setPaused] = useState(false);
 
     const handleUserInteract = useCallback(() => {
@@ -92,4 +92,4 @@ const ViewModelModal = ({
     );
 };
 
-export default ViewModelModal;
+export default ModelModal;

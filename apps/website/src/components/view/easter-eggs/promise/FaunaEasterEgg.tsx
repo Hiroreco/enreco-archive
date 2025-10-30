@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 
-const ViewFaunaEasterEgg = () => {
+const FaunaEasterEgg = () => {
     const [numbers, setNumbers] = useState([0, 0, 0]);
     const [spinningNumbers, setSpinningNumbers] = useState([0, 0, 0]);
     const [isRolling, setIsRolling] = useState(false);
@@ -143,4 +143,4 @@ const ViewFaunaEasterEgg = () => {
     );
 };
 
-export default ViewFaunaEasterEgg;
+export default FaunaEasterEgg;

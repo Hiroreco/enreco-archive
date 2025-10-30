@@ -14,44 +14,44 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import ViewChickenGameInfo from "@/components/view/minigames/ViewChickenGameInfo";
-import ViewGamblingGameInfo from "@/components/view/minigames/ViewGamblingGameInfo";
-import ViewMemoryGameInfo from "@/components/view/minigames/ViewMemoryGameInfo";
-import ViewChickenGame from "@/components/view/minigames/ViewChickenGame";
-import ViewGamblingGame from "@/components/view/minigames/ViewGamblingGame";
-import ViewMemoryGame from "@/components/view/minigames/ViewMemoryGame";
+import ChickenGameInfo from "@/components/view/minigames/ChickenGameInfo";
+import GamblingGameInfo from "@/components/view/minigames/GamblingGameInfo";
+import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
+import ChickenGame from "@/components/view/minigames/ChickenGame";
+import GamblingGame from "@/components/view/minigames/GamblingGame";
+import MemoryGame from "@/components/view/minigames/MemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
 import React, { ReactElement, useCallback, useState } from "react";
-import ViewShioriGame from "@/components/view/minigames/ViewShioriGame";
-import ViewShioriGameInfo from "@/components/view/minigames/ViewShioriGameInfo";
+import ShioriGame from "@/components/view/minigames/ShioriGame";
+import ShioriGameInfo from "@/components/view/minigames/ShioriGameInfo";
 import { AnimatePresence, motion } from "framer-motion";
 
-interface ViewMiniGameModalProps {
+interface MiniGameModalProps {
     open: boolean;
     onClose: () => void;
 }
 
-const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
+const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
     const t = useTranslations("modals.minigames");
     const [game, setGame] = useState("gambling");
 
     const GAMES: { [key: string]: { label: string; info: ReactElement } } = {
         gambling: {
             label: t("games.gambling.label"),
-            info: <ViewGamblingGameInfo />,
+            info: <GamblingGameInfo />,
         },
         memory: {
             label: t("games.memory.label"),
-            info: <ViewMemoryGameInfo />,
+            info: <MemoryGameInfo />,
         },
         chicken: {
             label: t("games.chicken.label"),
-            info: <ViewChickenGameInfo />,
+            info: <ChickenGameInfo />,
         },
         shiori: {
             label: t("games.shiori.label"),
-            info: <ViewShioriGameInfo />,
+            info: <ShioriGameInfo />,
         },
     };
 
@@ -115,19 +115,19 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
                             {[
                                 {
                                     key: "gambling",
-                                    component: <ViewGamblingGame />,
+                                    component: <GamblingGame />,
                                 },
                                 {
                                     key: "memory",
-                                    component: <ViewMemoryGame />,
+                                    component: <MemoryGame />,
                                 },
                                 {
                                     key: "chicken",
-                                    component: <ViewChickenGame />,
+                                    component: <ChickenGame />,
                                 },
                                 {
                                     key: "shiori",
-                                    component: <ViewShioriGame />,
+                                    component: <ShioriGame />,
                                 },
                             ]
                                 .filter(({ key }) => key === game)
@@ -169,4 +169,4 @@ const ViewMiniGameModal = ({ open, onClose }: ViewMiniGameModalProps) => {
     );
 };
 
-export default ViewMiniGameModal;
+export default MiniGameModal;

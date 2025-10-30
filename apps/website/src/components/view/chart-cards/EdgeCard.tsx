@@ -4,7 +4,7 @@ import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
 import EdgeCardDeco from "@/components/view/chart-cards/EdgeCardDeco";
 import ReadMarker from "@/components/view/chart-cards/ReadMarker";
 import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
-import ViewCardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
+import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
@@ -47,7 +47,7 @@ interface Props {
     setChartShrink: (width: number) => void;
 }
 
-const ViewEdgeCard = ({
+const EdgeCard = ({
     isCardOpen,
     selectedEdge,
     edgeRelationship,
@@ -253,7 +253,7 @@ const ViewEdgeCard = ({
                         // <div className="text-2xl font-bold my-2 underline underline-offset-4">
                         //     Day {selectedEdge.data.day + 1}
                         // </div>
-                        <ViewCardDaySwitcher
+                        <CardDaySwitcher
                             currentDay={selectedEdge.data.day}
                             onDayChange={onDayChange}
                             availiableElements={availiableEdges}
@@ -332,4 +332,4 @@ const ViewEdgeCard = ({
     );
 };
 
-export default ViewEdgeCard;
+export default EdgeCard;

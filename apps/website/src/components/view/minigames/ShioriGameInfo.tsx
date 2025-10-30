@@ -1,7 +1,7 @@
 import TimestampHref from "@/components/view/markdown/TimestampHref";
 import { useTranslations } from "next-intl";
 
-const ViewShioriGameInfo = () => {
+const ShioriGameInfo = () => {
     const t = useTranslations("modals.minigames.games.shiori");
 
     return (
@@ -24,4 +24,4 @@ const ViewShioriGameInfo = () => {
     );
 };
 
-export default ViewShioriGameInfo;
+export default ShioriGameInfo;

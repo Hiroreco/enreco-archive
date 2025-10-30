@@ -15,8 +15,8 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 
-import ViewCustomEdge from "@/components/view/chart/ViewCustomEdge";
-import ImageNodeView from "@/components/view/chart/ViewImageNode";
+import CustomEdge from "@/components/view/chart/CustomEdge";
+import ImageNodeView from "@/components/view/chart/ImageNode";
 import { useSettingStore } from "@/store/settingStore";
 import { CardType, useViewStore } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
@@ -24,7 +24,7 @@ import { isEdge, isMobileViewport, isNode } from "@/lib/utils";
 
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
-import "./ViewChart.css";
+import "./Chart.css";
 import { usePreviousValue } from "@/hooks/usePreviousValue";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
@@ -68,7 +68,7 @@ const nodeTypes = {
 };
 
 const edgeTypes = {
-    fixed: ViewCustomEdge,
+    fixed: CustomEdge,
 };
 
 // On mobile it's harder to zoom out, so we set a lower min zoom
@@ -89,7 +89,7 @@ interface Props {
     onPaneClick: () => void;
 }
 
-function ViewChart({
+function Chart({
     nodes,
     edges,
     selectedElement,
@@ -240,4 +240,4 @@ function ViewChart({
     );
 }
 
-export default memo(ViewChart);
+export default memo(Chart);

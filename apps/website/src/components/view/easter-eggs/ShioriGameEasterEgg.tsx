@@ -1,4 +1,4 @@
-import ViewBasicEgg from "@/components/view/easter-eggs/BasicEgg";
+import BasicEgg from "@/components/view/easter-eggs/BasicEgg";
 
 interface ViewShioriGameEasterEggProps {
     className?: string;
@@ -8,7 +8,7 @@ const ViewShioriGameEasterEgg = ({
     className,
 }: ViewShioriGameEasterEggProps) => {
     return (
-        <ViewBasicEgg
+        <BasicEgg
             imageName="easter-shiori"
             eggName="shiori-game"
             className={className}

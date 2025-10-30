@@ -54,7 +54,7 @@ const initializeBoard = () => {
 
 const { initialValueBoard, initialPositionBoard } = initializeBoard();
 
-const ViewGamblingGame = () => {
+const GamblingGame = () => {
     const t = useTranslations("modals.minigames.games.gambling");
 
     // Initialize the board
@@ -266,4 +266,4 @@ const ViewGamblingGame = () => {
     );
 };
 
-export default ViewGamblingGame;
+export default GamblingGame;

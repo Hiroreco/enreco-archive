@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
 
-const ViewChickenGameInfo = () => {
+const ChickenGameInfo = () => {
     const t = useTranslations("modals.minigames.games.chicken");
 
     return (
@@ -33,4 +33,4 @@ const ViewChickenGameInfo = () => {
     );
 };
 
-export default ViewChickenGameInfo;
+export default ChickenGameInfo;

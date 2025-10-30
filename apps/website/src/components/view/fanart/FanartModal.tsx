@@ -2,7 +2,7 @@ import fanartData from "#/fanart.json";
 import CollapsibleHeader from "@/components/view/fanart/CollapsibleHeader";
 import FanartFilters from "@/components/view/fanart/FanartFilters";
 import FanartMasonryGrid from "@/components/view/fanart/FanartMasonryGrid";
-import ViewLightbox from "@/components/view/lightbox/Lightbox";
+import Lightbox from "@/components/view/lightbox/Lightbox";
 import {
     CHARACTER_ORDER,
     getCharacterIdNameMap,
@@ -38,7 +38,7 @@ export interface FanartEntry {
 export type InclusiveMode = "showAll" | "hasAny" | "hasOnly";
 export type SortMode = "default" | "date";
 
-interface ViewFanartModalProps {
+interface FanartModalProps {
     open: boolean;
     onClose: () => void;
     chapter: number;
@@ -53,13 +53,13 @@ interface MasonryColumn {
 
 const ITEMS_PER_PAGE = 50;
 
-const ViewFanartModal = ({
+const FanartModal = ({
     open,
     onClose,
     chapter,
     day,
     initialCharacters,
-}: ViewFanartModalProps) => {
+}: FanartModalProps) => {
     const t = useTranslations("modals.art.card");
     const locale = useSettingStore((state) => state.locale);
 
@@ -701,7 +701,7 @@ const ViewFanartModal = ({
             </Dialog>
 
             {currentEntry && (
-                <ViewLightbox
+                <Lightbox
                     src={
                         currentEntry.images[0]?.src ||
                         currentEntry.videos[0]?.src ||
@@ -753,4 +753,4 @@ const ViewFanartModal = ({
     );
 };
 
-export default ViewFanartModal;
+export default FanartModal;

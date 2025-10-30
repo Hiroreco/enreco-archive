@@ -14,7 +14,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslations } from "next-intl";
 
-interface ViewTransportControlsProps {
+interface TransportControlsProps {
     chapter: number;
     chapterData: Chapter[];
     day: number;
@@ -26,7 +26,7 @@ interface ViewTransportControlsProps {
     isAnyModalOpen: boolean;
 }
 
-export default function ViewTransportControls({
+export default function TransportControls({
     chapter,
     chapterData,
     day,
@@ -36,7 +36,7 @@ export default function ViewTransportControls({
     onChapterChange,
     onDayChange,
     isAnyModalOpen,
-}: ViewTransportControlsProps) {
+}: TransportControlsProps) {
     const tDynamic = useTranslations("common");
 
     // Keyboard navigation

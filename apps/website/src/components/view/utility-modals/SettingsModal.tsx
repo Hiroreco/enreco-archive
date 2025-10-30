@@ -43,12 +43,12 @@ import {
 import { useTranslations } from "next-intl";
 import { useCallback, useRef } from "react";
 
-interface ViewSettingsModalProps {
+interface SettingsModalProps {
     open: boolean;
     onClose: () => void;
 }
 
-const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
+const SettingsModal = ({ open, onClose }: SettingsModalProps) => {
     const tSettings = useTranslations("modals.settings");
     const tCommon = useTranslations("common");
 
@@ -401,4 +401,4 @@ const ViewSettingsModal = ({ open, onClose }: ViewSettingsModalProps) => {
     );
 };
 
-export default ViewSettingsModal;
+export default SettingsModal;

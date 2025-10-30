@@ -21,7 +21,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect } from "react";
 
-interface ViewReadCounterProps {
+interface ReadCounterProps {
     open: boolean;
     onClose: () => void;
     day: number;
@@ -32,7 +32,7 @@ interface ViewReadCounterProps {
     onEdgeClick?: (edge: FixedEdgeType) => void;
 }
 
-const ViewReadCounter = ({
+const ReadCounter = ({
     open,
     onClose,
     day,
@@ -41,7 +41,7 @@ const ViewReadCounter = ({
     edges,
     onNodeClick,
     onEdgeClick,
-}: ViewReadCounterProps) => {
+}: ReadCounterProps) => {
     const tCommon = useTranslations("common");
     const tReadStatus = useTranslations("modals.readStatus");
 
@@ -395,4 +395,4 @@ const ViewReadCounter = ({
     );
 };
 
-export default ViewReadCounter;
+export default ReadCounter;

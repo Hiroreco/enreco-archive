@@ -10,10 +10,10 @@ import {
 import { Info } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-interface ViewGlossaryInfoProps {
+interface GlossaryInfoProps {
     category: Category;
 }
-const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
+const GlossaryInfo = ({ category }: GlossaryInfoProps) => {
     const tGlossary = useTranslations("glossary");
 
     let categoryInfo: React.ReactNode;
@@ -101,4 +101,4 @@ const ViewGlossaryInfo = ({ category }: ViewGlossaryInfoProps) => {
     );
 };
 
-export default ViewGlossaryInfo;
+export default GlossaryInfo;

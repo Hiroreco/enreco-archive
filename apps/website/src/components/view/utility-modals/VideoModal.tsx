@@ -12,19 +12,19 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useSettingStore } from "@/store/settingStore";
 import { useCallback } from "react";
 
-interface ViewVideoModalProps {
+interface VideoModalProps {
     open: boolean;
     onClose: () => void;
     videoUrl: string | null;
     bgImage: string;
 }
 
-const ViewVideoModal = ({
+const VideoModal = ({
     open,
     onClose,
     videoUrl,
     bgImage,
-}: ViewVideoModalProps) => {
+}: VideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const playBGM = useAudioStore((state) => state.playBGM);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
@@ -83,4 +83,4 @@ const ViewVideoModal = ({
     );
 };
 
-export default ViewVideoModal;
+export default VideoModal;
