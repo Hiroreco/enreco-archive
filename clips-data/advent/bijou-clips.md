@@ -1,8 +1,18 @@
 ## Clips
 
 ### Chapter 1
+https://www.youtube.com/watch?v=_oIdO3ku6So
+https://www.youtube.com/watch?v=ycdsHR5skOE
+https://www.youtube.com/watch?v=VwxkSyNnuw0
+https://www.youtube.com/watch?v=NsMG0RSn260
+https://www.youtube.com/watch?v=ERT61AVIpMQ
+https://www.youtube.com/watch?v=8UvUPHTeZsE
 
 ### Chapter 2
+https://www.youtube.com/watch?v=gzQuqazEMMk
+https://www.youtube.com/watch?v=r7V4vvtLzCA
+https://www.youtube.com/watch?v=xTkxFlGe-ko
+https://www.youtube.com/watch?v=5ITfoL-5_E4
 
 ## Streams
 
