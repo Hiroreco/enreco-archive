@@ -1,3 +1,4 @@
+import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
 import { ClipEntry } from "@/components/view/media-archive/types";
 import { getBlurDataURL } from "@/lib/utils";
 import { Input } from "@enreco-archive/common-ui/components/input";
@@ -24,12 +25,16 @@ interface ClipsArchiveViewer {
     clips: ClipEntry[];
     streams: ClipEntry[];
     onClipClick: (clip: ClipEntry) => void;
+    selectedCategory: string;
+    onCategoryChange: (category: string) => void;
 }
 
 const ClipsArchiveViewer = ({
     clips,
     streams,
     onClipClick,
+    selectedCategory,
+    onCategoryChange,
 }: ClipsArchiveViewer) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
@@ -37,14 +42,12 @@ const ClipsArchiveViewer = ({
     const [activeContentType, setActiveContentType] = useState<
         "clips" | "streams"
     >("clips");
-    const [selectedCategory, setSelectedCategory] = useState<string>("all");
     const [selectedChapter, setSelectedChapter] = useState<number>(-1);
     const [searchQuery, setSearchQuery] = useState("");
 
     const hasStreams = streams.length > 0;
     const currentData = activeContentType === "clips" ? clips : streams;
 
-    // Extract unique categories and chapters
     const categories = useMemo(() => {
         const cats = new Set(currentData.map((clip) => clip.category));
         return ["all", ...Array.from(cats)];
@@ -85,28 +88,35 @@ const ClipsArchiveViewer = ({
     }, [filteredData]);
 
     const sortedChapters = useMemo(
-        () => Object.keys(groupedData).sort((a, b) => Number(a) - Number(b)),
+        () => Object.keys(groupedData).sort((a, b) => -(Number(a) - Number(b))),
         [groupedData],
     );
 
     return (
         <div className="flex h-full gap-4">
             {/* Sidebar - Categories */}
-            <div className="hidden md:flex flex-col gap-2 w-48 shrink-0 overflow-y-auto">
+            <div className="hidden md:flex flex-col gap-2 w-48 shrink-0 overflow-y-auto pr-1">
                 <p className="text-sm font-semibold mb-2">
                     {t("clipArchive.categories")}
                 </p>
                 {categories.map((category) => (
                     <button
                         key={category}
-                        onClick={() => setSelectedCategory(category)}
+                        onClick={() => onCategoryChange(category)}
                         className={cn(
                             "text-left px-3 py-2 rounded-lg text-sm transition-colors",
-                            "hover:bg-foreground/10",
+                            "hover:bg-foreground/10 flex items-center gap-2",
                             selectedCategory === category &&
                                 "bg-foreground/20 font-semibold",
                         )}
                     >
+                        <Image
+                            src={`images-opt/${CATEGORY_ICON_MAP[category]}`}
+                            alt={category}
+                            width={25}
+                            height={25}
+                            className="rounded-md object-cover"
+                        />
                         {category === "all"
                             ? t("clipArchive.category.all")
                             : t(`clipArchive.category.${category}`)}
@@ -116,7 +126,6 @@ const ClipsArchiveViewer = ({
 
             {/* Main content */}
             <div className="flex-1 flex flex-col gap-4 min-w-0">
-                {/* Content Type Tabs */}
                 {hasStreams && (
                     <Tabs
                         value={activeContentType}
@@ -141,28 +150,7 @@ const ClipsArchiveViewer = ({
                     </Tabs>
                 )}
 
-                {/* Top controls */}
-                <div className="flex gap-2 flex-wrap">
-                    {/* Mobile category select */}
-                    <Select
-                        value={selectedCategory}
-                        onValueChange={setSelectedCategory}
-                    >
-                        <SelectTrigger className="md:hidden w-[180px]">
-                            <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                            {categories.map((category) => (
-                                <SelectItem key={category} value={category}>
-                                    {category === "all"
-                                        ? t("clipArchive.category.all")
-                                        : t(`clipArchive.category.${category}`)}
-                                </SelectItem>
-                            ))}
-                        </SelectContent>
-                    </Select>
-
-                    {/* Search */}
+                <div className="flex gap-2">
                     <div className="relative flex-1 min-w-[200px]">
                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                         <Input
@@ -174,7 +162,6 @@ const ClipsArchiveViewer = ({
                         />
                     </div>
 
-                    {/* Chapter select */}
                     <Select
                         value={selectedChapter.toString()}
                         onValueChange={(val) => setSelectedChapter(Number(val))}
@@ -197,6 +184,23 @@ const ClipsArchiveViewer = ({
                         </SelectContent>
                     </Select>
                 </div>
+                <Select
+                    value={selectedCategory}
+                    onValueChange={onCategoryChange}
+                >
+                    <SelectTrigger className="md:hidden w-full">
+                        <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                        {categories.map((category) => (
+                            <SelectItem key={category} value={category}>
+                                {category === "all"
+                                    ? t("clipArchive.category.all")
+                                    : t(`clipArchive.category.${category}`)}
+                            </SelectItem>
+                        ))}
+                    </SelectContent>
+                </Select>
 
                 {/* Data grid */}
                 <div className="flex-1 overflow-y-auto">
@@ -259,9 +263,18 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
         }).format(date);
     };
 
+    const formatTime = (seconds: number) => {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
+    };
+
     return (
-        <div
-            onClick={onClick}
+        <a
+            onClick={(e) => {
+                e.preventDefault();
+                onClick();
+            }}
             className={cn(
                 "group cursor-pointer overflow-hidden rounded-lg",
                 "bg-white/90 dark:bg-white/10 backdrop-blur-md shadow-lg",
@@ -275,19 +288,26 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
                     onClick();
                 }
             }}
+            href={clip.originalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
         >
             <div className="relative w-full aspect-video overflow-hidden">
                 <Image
                     src={clip.thumbnailSrc}
                     alt={clip.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover group-hover:scale-105 transition-transform"
                     blurDataURL={getBlurDataURL(clip.thumbnailSrc)}
                     placeholder={
                         getBlurDataURL(clip.thumbnailSrc) ? "blur" : "empty"
                     }
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <span className="absolute bottom-2 right-2 bg-black/50 text-white text-[10px] px-1.5 py-0.5 rounded-md z-1">
+                    {formatTime(clip.duration)}
+                </span>
             </div>
 
             <div className="p-2.5 flex flex-col gap-1">
@@ -303,7 +323,7 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
                     </p>
                 </div>
             </div>
-        </div>
+        </a>
     );
 };
 

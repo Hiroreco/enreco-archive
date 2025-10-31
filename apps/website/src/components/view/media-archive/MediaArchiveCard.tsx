@@ -31,20 +31,20 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import Lightbox from "@/components/view/lightbox/Lightbox";
 import VideoArchiveSection from "./video-archive/VideoArchiveSection";
+import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
 
-interface ViewVideoArchiveCardProps {
+interface VideoArchiveCardProps {
     className?: string;
     bgImage: string;
 }
 
-const ViewVideoArchiveCard = ({
-    className,
-    bgImage,
-}: ViewVideoArchiveCardProps) => {
+const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const t = useTranslations("mediaArchive");
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
+    const [selectedClipCategory, setSelectedClipCategory] =
+        useState<string>("all");
 
     const { getRecollectionArchive, getClipsData } = useLocalizedData();
     const data = getRecollectionArchive();
@@ -91,10 +91,19 @@ const ViewVideoArchiveCard = ({
     };
 
     const viewerBg = useMemo(() => {
-        if (!selectedEntry) return bgImage;
-        const currentMedia = selectedEntry.entries[currentMediaIndex];
-        return currentMedia?.thumbnailUrl || bgImage;
-    }, [selectedEntry, currentMediaIndex, bgImage]);
+        if (activeTab === "videos") {
+            if (!selectedEntry) return bgImage;
+            const currentMedia = selectedEntry.entries[currentMediaIndex];
+            return currentMedia?.thumbnailUrl || bgImage;
+        }
+        return CATEGORY_ICON_MAP[selectedClipCategory];
+    }, [
+        selectedEntry,
+        currentMediaIndex,
+        bgImage,
+        activeTab,
+        selectedClipCategory,
+    ]);
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
@@ -203,6 +212,8 @@ const ViewVideoArchiveCard = ({
                             <ClipsArchiveViewer
                                 clips={clipsData.clips}
                                 streams={clipsData.streams}
+                                selectedCategory={selectedClipCategory}
+                                onCategoryChange={setSelectedClipCategory}
                                 onClipClick={handleClipClick}
                             />
                         </motion.div>
@@ -261,7 +272,7 @@ const ViewVideoArchiveCard = ({
             {/* Background */}
             <AnimatePresence>
                 <motion.div
-                    key={`card-bg-${selectedEntry?.id || "list"}`}
+                    key={`card-bg-${selectedEntry?.id || selectedClipCategory}`}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -272,15 +283,14 @@ const ViewVideoArchiveCard = ({
                         src={getBlurDataURL(viewerBg)}
                         alt=""
                         fill
-                        className="object-cover blur-xl dark:opacity-20 opacity-40"
+                        className="object-cover dark:opacity-20 opacity-20"
                         priority={false}
                     />
-                    <div className="absolute inset-0 dark:bg-black/30 bg-white/30" />
+                    <div className="absolute inset-0 dark:bg-black/30 " />
                 </motion.div>
             </AnimatePresence>
         </Card>
     );
 };
 
-
-export default ViewVideoArchiveCard;
+export default VideoArchiveCard;
