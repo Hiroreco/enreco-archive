@@ -107,7 +107,6 @@ const Lightbox = ({
         [isExternallyControlled, onExternalClose, galleryIndex],
     );
 
-    console.log(galleryIndex);
     const handleThumbnailClick = useCallback((index: number) => {
         setCurrentGalleryIndex(index);
     }, []);

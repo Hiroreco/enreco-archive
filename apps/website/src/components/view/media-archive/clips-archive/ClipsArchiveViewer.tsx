@@ -20,7 +20,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Film, Search, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 
 interface ClipsArchiveViewer {
     clips: ClipEntry[];
@@ -45,9 +45,21 @@ const ClipsArchiveViewer = ({
     >("clips");
     const [selectedChapter, setSelectedChapter] = useState<number>(-1);
     const [searchQuery, setSearchQuery] = useState("");
+    const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
 
     const hasStreams = streams.length > 0;
     const currentData = activeContentType === "clips" ? clips : streams;
+
+    // Debounce search query
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setDebouncedSearchQuery(searchQuery);
+        }, 300); // 300ms debounce delay
+
+        return () => {
+            clearTimeout(timer);
+        };
+    }, [searchQuery]);
 
     const categories = useMemo(() => {
         const cats = new Set(currentData.map((clip) => clip.category));
@@ -59,7 +71,7 @@ const ClipsArchiveViewer = ({
         return Array.from(chaps).sort((a, b) => a - b);
     }, [currentData]);
 
-    // Filter clips/streams
+    // Filter clips/streams - use debouncedSearchQuery instead of searchQuery
     const filteredData = useMemo(() => {
         return currentData.filter((item) => {
             const matchesCategory =
@@ -68,13 +80,17 @@ const ClipsArchiveViewer = ({
             const matchesChapter =
                 selectedChapter === -1 || item.chapter === selectedChapter;
             const matchesSearch =
-                searchQuery === "" ||
-                item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                item.author.toLowerCase().includes(searchQuery.toLowerCase());
+                debouncedSearchQuery === "" ||
+                item.title
+                    .toLowerCase()
+                    .includes(debouncedSearchQuery.toLowerCase()) ||
+                item.author
+                    .toLowerCase()
+                    .includes(debouncedSearchQuery.toLowerCase());
 
             return matchesCategory && matchesChapter && matchesSearch;
         });
-    }, [currentData, selectedCategory, selectedChapter, searchQuery]);
+    }, [currentData, selectedCategory, selectedChapter, debouncedSearchQuery]);
 
     // Group by chapter
     const groupedData = useMemo(() => {
@@ -152,13 +168,13 @@ const ClipsArchiveViewer = ({
                             <TabsList className="grid grid-cols-2 opacity-90">
                                 <TabsTrigger value="clips" className="gap-2">
                                     <Film className="size-4" />
-                                    <span className="hidden sm:inline">
+                                    <span className="hidden md:inline">
                                         {t("clipArchive.tabs.clips")}
                                     </span>
                                 </TabsTrigger>
                                 <TabsTrigger value="streams" className="gap-2">
                                     <Video className="size-4" />
-                                    <span className="hidden sm:inline">
+                                    <span className="hidden md:inline">
                                         {t("clipArchive.tabs.streams")}
                                     </span>
                                 </TabsTrigger>
@@ -171,7 +187,7 @@ const ClipsArchiveViewer = ({
                         onValueChange={(val) => setSelectedChapter(Number(val))}
                     >
                         <SelectTrigger
-                            className="w-[180px] bg-background/50"
+                            className="w-[180px] hidden md:flex bg-background/50"
                             style={{
                                 backgroundImage: "none",
                             }}
@@ -198,23 +214,60 @@ const ClipsArchiveViewer = ({
                         </SelectContent>
                     </Select>
                 </div>
-                <Select
-                    value={selectedCategory}
-                    onValueChange={onCategoryChange}
-                >
-                    <SelectTrigger className="md:hidden w-full">
-                        <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                        {categories.map((category) => (
-                            <SelectItem key={category} value={category}>
-                                {category === "all"
-                                    ? t("clipArchive.category.all")
-                                    : t(`clipArchive.category.${category}`)}
+                <div className="md:hidden flex gap-2">
+                    <Select
+                        value={selectedCategory}
+                        onValueChange={onCategoryChange}
+                    >
+                        <SelectTrigger className="flex-2">
+                            <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                            {categories.map((category) => (
+                                <SelectItem key={category} value={category}>
+                                    <div className="flex items-center line-clamp-1 gap-1">
+                                        <Image
+                                            src={`images-opt/${CATEGORY_ICON_MAP[category]}`}
+                                            alt={category}
+                                            width={20}
+                                            height={20}
+                                            className="rounded-md object-cover"
+                                        />
+                                        <span className="line-clamp-1">
+                                            {category === "all"
+                                                ? t("clipArchive.category.all")
+                                                : t(
+                                                      `clipArchive.category.${category}`,
+                                                  )}
+                                        </span>
+                                    </div>
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
+
+                    <Select
+                        value={selectedChapter.toString()}
+                        onValueChange={(val) => setSelectedChapter(Number(val))}
+                    >
+                        <SelectTrigger className="flex-1">
+                            <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectItem value="-1">
+                                {tCommon("allChapters")}
                             </SelectItem>
-                        ))}
-                    </SelectContent>
-                </Select>
+                            {chapters.map((chapter) => (
+                                <SelectItem
+                                    key={chapter}
+                                    value={chapter.toString()}
+                                >
+                                    {tCommon("chapter", { val: chapter })}
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
+                </div>
 
                 {/* Data grid with AnimatePresence */}
                 <div className="flex-1 overflow-y-auto px-2 relative">

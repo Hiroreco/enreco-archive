@@ -1,6 +1,28 @@
 import fs from "fs/promises";
 import path from "path";
 
+const CATEGORY_ORDER = [
+    "calli",
+    "kiara",
+    "ina",
+    "gura",
+    "ame",
+    "irys",
+    "kronii",
+    "fauna",
+    "mumei",
+    "bae",
+    "shiori",
+    "nerissa",
+    "fuwawa",
+    "mococo",
+    "bijou",
+    "liz",
+    "raora",
+    "gigi",
+    "cecilia",
+];
+
 interface ClipMetadata {
     id: string;
     originalUrl: string;
@@ -201,6 +223,27 @@ async function processCategoryFile(
     return { clips, streams };
 }
 
+function sortByCategory(items: ClipMetadata[]): ClipMetadata[] {
+    return items.sort((a, b) => {
+        // First, sort by category order
+        const categoryIndexA = CATEGORY_ORDER.indexOf(a.category);
+        const categoryIndexB = CATEGORY_ORDER.indexOf(b.category);
+
+        // If categories are different, sort by category order
+        if (categoryIndexA !== categoryIndexB) {
+            // Handle categories not in the order list (put them at the end)
+            if (categoryIndexA === -1) return 1;
+            if (categoryIndexB === -1) return -1;
+            return categoryIndexA - categoryIndexB;
+        }
+
+        // If same category, sort by upload date (newest first)
+        return (
+            new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime()
+        );
+    });
+}
+
 async function main() {
     const locale = process.argv[2] || "en";
     const baseDir = path.resolve(
@@ -289,19 +332,13 @@ async function main() {
         `\n💾 Saved cache with ${Object.keys(globalCache).length} videos`,
     );
 
-    // Sort by upload date (newest first)
-    allClips.sort(
-        (a, b) =>
-            new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime(),
-    );
-    allStreams.sort(
-        (a, b) =>
-            new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime(),
-    );
+    // Sort by category order, then by upload date (newest first) within each category
+    const sortedClips = sortByCategory(allClips);
+    const sortedStreams = sortByCategory(allStreams);
 
     const outputData = {
-        clips: allClips,
-        streams: allStreams,
+        clips: sortedClips,
+        streams: sortedStreams,
     };
 
     const outPath = path.resolve(
@@ -321,6 +358,42 @@ async function main() {
     );
     console.log(`   🆕 ${totalNewItems} new items fetched this run`);
     console.log(`📁 Output: ${outPath}`);
+
+    console.log(`\n📊 Clips breakdown by category (sorted by CATEGORY_ORDER):`);
+    const clipsCategoryCounts = sortedClips.reduce(
+        (acc, clip) => {
+            acc[clip.category] = (acc[clip.category] || 0) + 1;
+            return acc;
+        },
+        {} as Record<string, number>,
+    );
+
+    // Display in category order
+    CATEGORY_ORDER.forEach((category) => {
+        const count = clipsCategoryCounts[category];
+        if (count) {
+            console.log(`   ${category}: ${count} clips`);
+        }
+    });
+
+    console.log(
+        `\n📊 Streams breakdown by category (sorted by CATEGORY_ORDER):`,
+    );
+    const streamsCategoryCounts = sortedStreams.reduce(
+        (acc, stream) => {
+            acc[stream.category] = (acc[stream.category] || 0) + 1;
+            return acc;
+        },
+        {} as Record<string, number>,
+    );
+
+    // Display in category order
+    CATEGORY_ORDER.forEach((category) => {
+        const count = streamsCategoryCounts[category];
+        if (count) {
+            console.log(`   ${category}: ${count} streams`);
+        }
+    });
 }
 
 main().catch((err) => {

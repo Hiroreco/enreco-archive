@@ -449,7 +449,6 @@
             },
             "viewSource": "View original source"
         },
-
         "tabs": {
             "videos": "Videos",
             "clips": "Clips"
@@ -463,6 +462,7 @@
                 "streams": "Streams",
                 "clips": "Clips"
             },
+            "noResults": "Nothing here but us chickens...",
             "category": {
                 "all": "All",
                 "gura": "Gawr Gura",

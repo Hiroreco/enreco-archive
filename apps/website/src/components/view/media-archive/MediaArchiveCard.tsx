@@ -254,6 +254,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                 <Lightbox
                     alt={selectedClip.title}
                     src={selectedClip.originalUrl}
+                    authorSrc={selectedClip.originalUrl}
                     type="video"
                     isExternallyControlled={true}
                     externalIsOpen={!!selectedClip}
@@ -263,7 +264,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             src: selectedClip.originalUrl,
                             alt: selectedClip.title,
                             type: "video",
-                            thumbnailSrc: selectedClip.thumbnailSrc, // Pass YouTube thumbnail
+                            thumbnailSrc: selectedClip.thumbnailSrc,
                         },
                     ]}
                 />
