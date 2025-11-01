@@ -227,12 +227,12 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             </CardContent>
 
             {/* Tabs Footer */}
-            <div className="px-6 pb-4">
+            <div className="px-6 flex justify-end border-t border-t-foreground/60 py-3">
                 <Tabs
                     value={activeTab}
                     onValueChange={(v) => setActiveTab(v as "videos" | "clips")}
                 >
-                    <TabsList className="w-full grid grid-cols-2">
+                    <TabsList className="grid grid-cols-2 opacity-90">
                         <TabsTrigger value="videos" className="gap-2">
                             <Video className="size-4" />
                             <span className="hidden sm:inline">

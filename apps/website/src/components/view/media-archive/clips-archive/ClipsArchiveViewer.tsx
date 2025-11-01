@@ -16,6 +16,7 @@ import {
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { AnimatePresence, motion } from "framer-motion";
 import { Film, Search, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -92,6 +93,9 @@ const ClipsArchiveViewer = ({
         [groupedData],
     );
 
+    // Create a unique key that changes when content type OR category changes
+    const contentKey = `${activeContentType}-${selectedCategory}`;
+
     return (
         <div className="flex h-full gap-4">
             {/* Sidebar - Categories */}
@@ -126,31 +130,7 @@ const ClipsArchiveViewer = ({
 
             {/* Main content */}
             <div className="flex-1 flex flex-col gap-4 min-w-0">
-                {hasStreams && (
-                    <Tabs
-                        value={activeContentType}
-                        onValueChange={(v) =>
-                            setActiveContentType(v as "clips" | "streams")
-                        }
-                    >
-                        <TabsList className="w-full grid grid-cols-2">
-                            <TabsTrigger value="clips" className="gap-2">
-                                <Film className="size-4" />
-                                <span className="hidden sm:inline">
-                                    {t("clipArchive.tabs.clips")}
-                                </span>
-                            </TabsTrigger>
-                            <TabsTrigger value="streams" className="gap-2">
-                                <Video className="size-4" />
-                                <span className="hidden sm:inline">
-                                    {t("clipArchive.tabs.streams")}
-                                </span>
-                            </TabsTrigger>
-                        </TabsList>
-                    </Tabs>
-                )}
-
-                <div className="flex gap-2">
+                <div className="flex gap-2 mt-2">
                     <div className="relative flex-1 min-w-[200px]">
                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                         <Input
@@ -158,18 +138,52 @@ const ClipsArchiveViewer = ({
                             placeholder={t("clipArchive.searchPlaceholder")}
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="pl-9"
+                            className="pl-9 opacity-70"
                         />
                     </div>
+
+                    {hasStreams && (
+                        <Tabs
+                            value={activeContentType}
+                            onValueChange={(v) =>
+                                setActiveContentType(v as "clips" | "streams")
+                            }
+                        >
+                            <TabsList className="grid grid-cols-2 opacity-90">
+                                <TabsTrigger value="clips" className="gap-2">
+                                    <Film className="size-4" />
+                                    <span className="hidden sm:inline">
+                                        {t("clipArchive.tabs.clips")}
+                                    </span>
+                                </TabsTrigger>
+                                <TabsTrigger value="streams" className="gap-2">
+                                    <Video className="size-4" />
+                                    <span className="hidden sm:inline">
+                                        {t("clipArchive.tabs.streams")}
+                                    </span>
+                                </TabsTrigger>
+                            </TabsList>
+                        </Tabs>
+                    )}
 
                     <Select
                         value={selectedChapter.toString()}
                         onValueChange={(val) => setSelectedChapter(Number(val))}
                     >
-                        <SelectTrigger className="w-[180px]">
+                        <SelectTrigger
+                            className="w-[180px] bg-background/50"
+                            style={{
+                                backgroundImage: "none",
+                            }}
+                        >
                             <SelectValue />
                         </SelectTrigger>
-                        <SelectContent>
+                        <SelectContent
+                            style={{
+                                backgroundImage: "none",
+                            }}
+                            className="bg-background/70 backdrop-blur-md"
+                        >
                             <SelectItem value="-1">
                                 {tCommon("allChapters")}
                             </SelectItem>
@@ -202,46 +216,65 @@ const ClipsArchiveViewer = ({
                     </SelectContent>
                 </Select>
 
-                {/* Data grid */}
-                <div className="flex-1 overflow-y-auto">
-                    {filteredData.length === 0 ? (
-                        <div className="text-center text-muted-foreground py-8">
-                            {t("clipArchive.noResults")}
-                        </div>
-                    ) : (
-                        <div className="flex flex-col gap-6">
-                            {sortedChapters.map((chapterKey) => {
-                                const chapter = Number(chapterKey);
-                                const chapterItems = groupedData[chapter];
+                {/* Data grid with AnimatePresence */}
+                <div className="flex-1 overflow-y-auto px-2 relative">
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={contentKey}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.15 }}
+                        >
+                            {filteredData.length === 0 ? (
+                                <div className="text-center text-muted-foreground py-8">
+                                    {t("clipArchive.noResults")}
+                                </div>
+                            ) : (
+                                <div className="flex flex-col gap-6">
+                                    {sortedChapters.map((chapterKey) => {
+                                        const chapter = Number(chapterKey);
+                                        const chapterItems =
+                                            groupedData[chapter];
 
-                                return (
-                                    <div key={chapter}>
-                                        <div className="flex items-center gap-3 mb-3">
-                                            <Separator className="bg-foreground/60 flex-1" />
-                                            <span className="text-sm font-semibold whitespace-nowrap">
-                                                {tCommon("chapter", {
-                                                    val: chapter,
-                                                })}
-                                            </span>
-                                            <Separator className="bg-foreground/60 flex-1" />
-                                        </div>
+                                        return (
+                                            <div key={chapter}>
+                                                <div className="flex items-center gap-3 mb-3">
+                                                    <Separator className="bg-foreground/60 flex-1" />
+                                                    <span className="text-sm font-semibold whitespace-nowrap">
+                                                        {tCommon("chapter", {
+                                                            val: chapter,
+                                                        })}
+                                                    </span>
+                                                    <Separator className="bg-foreground/60 flex-1" />
+                                                </div>
 
-                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                                            {chapterItems.map((item, index) => (
-                                                <ClipCard
-                                                    key={item.id + "-" + index}
-                                                    clip={item}
-                                                    onClick={() =>
-                                                        onClipClick(item)
-                                                    }
-                                                />
-                                            ))}
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    )}
+                                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                                                    {chapterItems.map(
+                                                        (item, index) => (
+                                                            <ClipCard
+                                                                key={
+                                                                    item.id +
+                                                                    "-" +
+                                                                    index
+                                                                }
+                                                                clip={item}
+                                                                onClick={() =>
+                                                                    onClipClick(
+                                                                        item,
+                                                                    )
+                                                                }
+                                                            />
+                                                        ),
+                                                    )}
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            )}
+                        </motion.div>
+                    </AnimatePresence>
                 </div>
             </div>
         </div>
@@ -264,9 +297,16 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
     };
 
     const formatTime = (seconds: number) => {
-        const mins = Math.floor(seconds / 60);
+        const hours = Math.floor(seconds / 3600);
+        const mins = Math.floor((seconds % 3600) / 60);
         const secs = seconds % 60;
-        return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
+        return hours > 0
+            ? `${hours.toString().padStart(2, "0")}:${mins
+                  .toString()
+                  .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`
+            : `${mins.toString().padStart(2, "0")}:${secs
+                  .toString()
+                  .padStart(2, "0")}`;
     };
 
     return (
@@ -277,7 +317,7 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
             }}
             className={cn(
                 "group cursor-pointer overflow-hidden rounded-lg",
-                "bg-white/90 dark:bg-white/10 backdrop-blur-md shadow-lg",
+                "dark:bg-background/50 backdrop-blur-md shadow-lg",
                 "hover:shadow-xl hover:scale-[1.02] transition-all duration-300",
                 "flex flex-col",
             )}
