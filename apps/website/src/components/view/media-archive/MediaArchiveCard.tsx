@@ -96,7 +96,10 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             const currentMedia = selectedEntry.entries[currentMediaIndex];
             return currentMedia?.thumbnailUrl || bgImage;
         }
-        return CATEGORY_ICON_MAP[selectedClipCategory];
+        // For clips, use the first category icon from CATEGORY_ICON_MAP
+        return selectedClipCategory === "all"
+            ? bgImage
+            : CATEGORY_ICON_MAP[selectedClipCategory] || bgImage;
     }, [
         selectedEntry,
         currentMediaIndex,

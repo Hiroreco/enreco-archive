@@ -31,7 +31,7 @@ interface ClipMetadata {
     author: string;
     duration: number;
     uploadDate: string;
-    category: string;
+    categories: string[]; // Changed from single category to array
     chapter: number;
     contentType: "clip" | "stream";
 }
@@ -59,6 +59,18 @@ function extractVideoId(url: string): string | null {
         if (match) return match[1];
     }
     return null;
+}
+
+function extractCategoriesFromComment(comment: string): string[] {
+    // Extract categories from comment like: <!-- bijou, nerissa, liz -->
+    const categories = comment
+        .replace(/<!--\s*/, "")
+        .replace(/\s*-->/, "")
+        .split(",")
+        .map((cat) => cat.trim())
+        .filter((cat) => cat.length > 0);
+
+    return categories;
 }
 
 async function fetchYouTubeMetadata(videoId: string): Promise<{
@@ -122,38 +134,159 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
     }
 }
 
-async function processCategoryFile(
-    categoryPath: string,
-    categoryName: string,
+async function processClipsFile(
+    clipsPath: string,
     globalCache: ClipsCache,
     locale: string,
-): Promise<{ clips: ClipMetadata[]; streams: ClipMetadata[] }> {
-    const content = await fs.readFile(categoryPath, "utf-8");
-    const lines = content.split("\n").map((l) => l.trim());
+): Promise<ClipMetadata[]> {
+    const content = await fs.readFile(clipsPath, "utf-8");
+    const lines = content.split("\n");
 
     const clips: ClipMetadata[] = [];
-    const streams: ClipMetadata[] = [];
     let currentChapter = 1;
-    let currentContentType: "clip" | "stream" = "clip";
     let newClipsCount = 0;
 
-    for (const line of lines) {
-        // Check for content type sections
-        if (line.match(/^##\s*Clips/i)) {
-            currentContentType = "clip";
-            continue;
-        }
-        if (line.match(/^##\s*Streams/i)) {
-            currentContentType = "stream";
-            continue;
-        }
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
 
         // Check for chapter headers
         const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
         if (chapterMatch) {
             currentChapter = parseInt(chapterMatch[1]);
+            console.log(`  📖 Processing Chapter ${currentChapter}`);
+            continue;
+        }
+
+        if (!line || line.startsWith("#")) continue;
+
+        const videoId = extractVideoId(line);
+        if (!videoId) {
+            continue;
+        }
+
+        // Look for the next line which should be the comment with categories
+        let categories: string[] = [];
+        if (i + 2 < lines.length) {
+            const nextLine = lines[i + 2].trim();
+            if (nextLine.startsWith("<!--") && nextLine.includes("-->")) {
+                categories = extractCategoriesFromComment(nextLine);
+                i++; // Skip the comment line in next iteration
+            }
+        }
+
+        if (categories.length === 0) {
+            console.warn(
+                `  ⚠️  No categories found for video: ${videoId}, skipping`,
+            );
+            continue;
+        }
+
+        if (!validateCategories(categories, videoId)) {
+            console.warn(
+                `  ❌ Skipping video ${videoId} due to invalid categories`,
+            );
+            continue;
+        }
+
+        let metadata = globalCache[videoId];
+
+        if (!metadata) {
+            // Fetch new metadata
+            console.log(`  🔍 Fetching metadata for: ${videoId}`);
+            const fetched = await fetchYouTubeMetadata(videoId);
+
+            if (!fetched) {
+                console.warn(`  ❌ Failed to fetch metadata for: ${videoId}`);
+                continue;
+            }
+
+            metadata = {
+                ...fetched,
+                fetchedAt: new Date().toISOString(),
+            };
+
+            globalCache[videoId] = metadata;
+            newClipsCount++;
+
             console.log(
-                `  📖 Processing Chapter ${currentChapter} (${currentContentType})`,
+                `  ✅ Added: "${metadata.title}" (${categories.join(", ")})`,
+            );
+
+            // Rate limiting to avoid being blocked
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+        } else {
+            // console.log(
+            //     `  ♻️  Using cached: ${videoId} (${categories.join(", ")})`,
+            // );
+            // continue;
+        }
+
+        const clipEntry: ClipMetadata = {
+            id: `${locale}-${videoId}`,
+            originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
+            title: metadata.title,
+            thumbnailSrc: metadata.thumbnailSrc,
+            author: metadata.author,
+            duration: metadata.duration,
+            uploadDate: metadata.uploadDate,
+            categories: categories,
+            chapter: currentChapter,
+            contentType: "clip",
+        };
+
+        clips.push(clipEntry);
+    }
+
+    if (newClipsCount > 0) {
+        console.log(`  💾 Added ${newClipsCount} new clips to cache`);
+    }
+
+    return clips;
+}
+
+function validateCategories(categories: string[], videoId: string): boolean {
+    const invalidCategories = categories.filter(
+        (cat) => !CATEGORY_ORDER.includes(cat),
+    );
+
+    if (invalidCategories.length > 0) {
+        console.warn(
+            `  ⚠️  Invalid categories found for video ${videoId}: ${invalidCategories.join(", ")}`,
+        );
+        console.warn(`     Valid categories are: ${CATEGORY_ORDER.join(", ")}`);
+        return false;
+    }
+
+    return true;
+}
+
+async function processStreamsFile(
+    streamsPath: string,
+    categoryName: string,
+    globalCache: ClipsCache,
+    locale: string,
+): Promise<ClipMetadata[]> {
+    const content = await fs.readFile(streamsPath, "utf-8");
+    const lines = content.split("\n").map((l) => l.trim());
+
+    const streams: ClipMetadata[] = [];
+    let currentChapter = 1;
+    let newStreamsCount = 0;
+
+    if (!CATEGORY_ORDER.includes(categoryName)) {
+        console.warn(`  ⚠️  Invalid category in filename: ${categoryName}`);
+        console.warn(`     Valid categories are: ${CATEGORY_ORDER.join(", ")}`);
+        console.warn(`  ❌ Skipping file: ${streamsPath}`);
+        return [];
+    }
+
+    for (const line of lines) {
+        // Check for chapter headers
+        const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
+        if (chapterMatch) {
+            currentChapter = parseInt(chapterMatch[1]);
+            console.log(
+                `  📖 Processing Chapter ${currentChapter} (${categoryName})`,
             );
             continue;
         }
@@ -184,7 +317,7 @@ async function processCategoryFile(
             };
 
             globalCache[videoId] = metadata;
-            newClipsCount++;
+            newStreamsCount++;
 
             console.log(
                 `  ✅ Added: "${metadata.title}" by ${metadata.author}`,
@@ -193,10 +326,10 @@ async function processCategoryFile(
             // Rate limiting to avoid being blocked
             await new Promise((resolve) => setTimeout(resolve, 1000));
         } else {
-            console.log(`  ♻️  Using cached: ${videoId}`);
+            // console.log(`  ♻️  Using cached: ${videoId}`);
         }
 
-        const clipEntry: ClipMetadata = {
+        const streamEntry: ClipMetadata = {
             id: `${locale}-${categoryName}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
@@ -204,30 +337,30 @@ async function processCategoryFile(
             author: metadata.author,
             duration: metadata.duration,
             uploadDate: metadata.uploadDate,
-            category: categoryName,
+            categories: [categoryName],
             chapter: currentChapter,
-            contentType: currentContentType,
+            contentType: "stream",
         };
 
-        if (currentContentType === "clip") {
-            clips.push(clipEntry);
-        } else {
-            streams.push(clipEntry);
-        }
+        streams.push(streamEntry);
     }
 
-    if (newClipsCount > 0) {
-        console.log(`  💾 Added ${newClipsCount} new items to cache`);
+    if (newStreamsCount > 0) {
+        console.log(`  💾 Added ${newStreamsCount} new streams to cache`);
     }
 
-    return { clips, streams };
+    return streams;
 }
 
 function sortByCategory(items: ClipMetadata[]): ClipMetadata[] {
     return items.sort((a, b) => {
-        // First, sort by category order
-        const categoryIndexA = CATEGORY_ORDER.indexOf(a.category);
-        const categoryIndexB = CATEGORY_ORDER.indexOf(b.category);
+        // Get the first (primary) category for sorting
+        const primaryCategoryA = a.categories[0];
+        const primaryCategoryB = b.categories[0];
+
+        // First, sort by primary category order
+        const categoryIndexA = CATEGORY_ORDER.indexOf(primaryCategoryA);
+        const categoryIndexB = CATEGORY_ORDER.indexOf(primaryCategoryB);
 
         // If categories are different, sort by category order
         if (categoryIndexA !== categoryIndexB) {
@@ -237,7 +370,7 @@ function sortByCategory(items: ClipMetadata[]): ClipMetadata[] {
             return categoryIndexA - categoryIndexB;
         }
 
-        // If same category, sort by upload date (newest first)
+        // If same primary category, sort by upload date (newest first)
         return (
             new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime()
         );
@@ -256,7 +389,7 @@ async function main() {
         await fs.access(baseDir);
     } catch {
         console.error(
-            `❌ Directory not found: ${baseDir}\nPlease create it and add category markdown files.`,
+            `❌ Directory not found: ${baseDir}\nPlease create it and add clips.md`,
         );
         process.exit(1);
     }
@@ -272,54 +405,48 @@ async function main() {
         console.log(`📦 Creating new cache file\n`);
     }
 
+    // Process clips.md
+    console.log(`\n📁 Processing clips.md`);
+    const clipsPath = path.join(baseDir, "clips.md");
+    let allClips: ClipMetadata[] = [];
+    try {
+        allClips = await processClipsFile(clipsPath, globalCache, locale);
+        console.log(`  ✅ Total clips: ${allClips.length}`);
+    } catch (error) {
+        console.error(`❌ Error processing clips.md:`, error);
+    }
+
+    // Process stream files from category directories
     const categoryDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
         .filter((d) => d.isDirectory())
         .map((d) => d.name);
 
-    if (categoryDirs.length === 0) {
-        console.error(
-            `❌ No category directories found in ${baseDir}\nCreate directories like: clips-data/myth/`,
-        );
-        process.exit(1);
-    }
-
-    console.log(
-        `🎬 Processing clips from ${categoryDirs.length} categories...\n`,
-    );
-
-    const allClips: ClipMetadata[] = [];
-    const allStreams: ClipMetadata[] = [];
-    let totalNewItems = 0;
+    let allStreams: ClipMetadata[] = [];
 
     for (const categoryDir of categoryDirs) {
         const categoryPath = path.join(baseDir, categoryDir);
         const files = (await fs.readdir(categoryPath, { withFileTypes: true }))
-            .filter((d) => d.isFile() && d.name.endsWith(".md"))
+            .filter((d) => d.isFile() && d.name.endsWith("-streams.md"))
             .map((d) => d.name);
 
         for (const fileName of files) {
-            const categoryName = path.basename(fileName, "-clips.md");
+            const categoryName = path.basename(fileName, "-streams.md");
             const filePath = path.join(categoryPath, fileName);
 
-            console.log(`\n📁 Processing: ${categoryDir}/${categoryName}`);
+            console.log(
+                `\n📁 Processing: ${categoryDir}/${categoryName} streams`,
+            );
 
-            const beforeCount = Object.keys(globalCache).length;
-            const { clips, streams } = await processCategoryFile(
+            const streams = await processStreamsFile(
                 filePath,
                 categoryName,
                 globalCache,
                 locale,
             );
-            const afterCount = Object.keys(globalCache).length;
-            const newInFile = afterCount - beforeCount;
 
-            allClips.push(...clips);
             allStreams.push(...streams);
-            totalNewItems += newInFile;
 
-            console.log(
-                `  ✅ Total: ${clips.length} clips, ${streams.length} streams`,
-            );
+            console.log(`  ✅ Total: ${streams.length} streams`);
         }
     }
 
@@ -356,13 +483,15 @@ async function main() {
     console.log(
         `\n✅ Successfully processed ${allClips.length} clips and ${allStreams.length} streams`,
     );
-    console.log(`   🆕 ${totalNewItems} new items fetched this run`);
     console.log(`📁 Output: ${outPath}`);
 
-    console.log(`\n📊 Clips breakdown by category (sorted by CATEGORY_ORDER):`);
+    console.log(
+        `\n📊 Clips breakdown by primary category (sorted by CATEGORY_ORDER):`,
+    );
     const clipsCategoryCounts = sortedClips.reduce(
         (acc, clip) => {
-            acc[clip.category] = (acc[clip.category] || 0) + 1;
+            const primaryCategory = clip.categories[0];
+            acc[primaryCategory] = (acc[primaryCategory] || 0) + 1;
             return acc;
         },
         {} as Record<string, number>,
@@ -381,7 +510,8 @@ async function main() {
     );
     const streamsCategoryCounts = sortedStreams.reduce(
         (acc, stream) => {
-            acc[stream.category] = (acc[stream.category] || 0) + 1;
+            const primaryCategory = stream.categories[0];
+            acc[primaryCategory] = (acc[primaryCategory] || 0) + 1;
             return acc;
         },
         {} as Record<string, number>,

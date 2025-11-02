@@ -1,13 +1,3 @@
-## Clips
-
-### Chapter 1
-
-https://www.youtube.com/watch?v=aebR0cW8KQo
-
-### Chapter 2
-
-## Streams
-
 ### Chapter 1
 
 https://www.youtube.com/watch?v=y9KKa_k2VTU

@@ -1,0 +1,679 @@
+### Chapter 1
+
+https://www.youtube.com/watch?v=_oIdO3ku6So
+
+<!-- bijou, ame, ina, gigi -->
+
+https://www.youtube.com/watch?v=ycdsHR5skOE
+
+<!-- bijou, nerissa -->
+
+https://www.youtube.com/watch?v=VwxkSyNnuw0
+
+<!-- bijou, shiori, cecilia -->
+
+https://www.youtube.com/watch?v=NsMG0RSn260
+
+<!-- bijou -->
+
+https://www.youtube.com/watch?v=ERT61AVIpMQ
+
+<!-- ina, bijou -->
+
+https://www.youtube.com/watch?v=8UvUPHTeZsE
+
+<!-- shiori, bijou -->
+
+https://www.youtube.com/watch?v=VPzPZhbexf4
+
+<!-- bijou, liz, calli -->
+
+https://www.youtube.com/watch?v=VZcxOVP5aGs
+
+<!-- fuwawa -->
+
+https://www.youtube.com/watch?v=DwvhBMR1x-U
+
+<!-- fuwawa, mococo -->
+
+https://www.youtube.com/watch?v=LfmcBWjetmk
+
+<!-- fuwawa, mococo -->
+
+https://www.youtube.com/watch?v=r0jDYOfEEXc
+
+<!-- kiara, mococo -->
+
+https://www.youtube.com/watch?v=vHVYnDvb4kc
+
+<!-- mococo, fuwawa -->
+
+https://www.youtube.com/watch?v=Dq3dSgSODok
+
+<!-- mococo -->
+
+https://www.youtube.com/watch?v=ZMJu0fYnw2E
+
+<!-- mococo -->
+
+https://www.youtube.com/watch?v=pnWh5JlJ9ys
+
+<!-- nerissa -->
+
+https://www.youtube.com/watch?v=dKLIAIeM1Rk
+
+<!-- mococo, nerissa, liz -->
+
+https://www.youtube.com/watch?v=Bexd6h30Lkc
+
+<!-- nerissa, kiara, liz -->
+
+https://www.youtube.com/watch?v=RLF9bPiKlVk
+
+<!-- mococo, nerissa -->
+
+https://www.youtube.com/watch?v=X3ZwVC1soVo
+
+<!-- shiori, liz, irys -->
+
+https://www.youtube.com/watch?v=aebR0cW8KQo
+
+<!-- gigi, gura -->
+
+https://www.youtube.com/watch?v=KR-E7mNRVBc
+
+<!-- ame, gigi -->
+
+https://www.youtube.com/watch?v=qLi3XCQxZY4
+
+<!-- ame, gigi, irys -->
+
+https://www.youtube.com/watch?v=il0Xg-AWCVM
+
+<!-- ame, gigi, calli, bijou, gigi -->
+
+https://www.youtube.com/watch?v=A-1K1wXgkBM
+
+<!-- ame -->
+
+https://www.youtube.com/watch?v=uR88XiO8yDM
+
+<!-- ame, gigi -->
+
+https://www.youtube.com/watch?v=74UQA-zi-ms
+
+<!-- ame, bijou -->
+
+https://www.youtube.com/watch?v=IqCqL0dfwfI
+
+<!-- ame, gigi -->
+
+https://www.youtube.com/watch?v=_yzNpe76xZY
+
+<!-- ame -->
+
+https://www.youtube.com/watch?v=KEjQDtSglgg
+
+<!-- calli -->
+
+https://www.youtube.com/watch?v=wys6iYDPc3I
+
+<!-- calli -->
+
+https://www.youtube.com/watch?v=2r-ek8pmfqI
+
+<!-- calli, shiori -->
+
+https://www.youtube.com/watch?v=NQwrZQl9FeQ
+
+<!-- calli, bijou, gigi -->
+
+https://www.youtube.com/watch?v=2sDwVllwdeI
+
+<!-- gura, fauna, cecilia -->
+
+https://www.youtube.com/watch?v=2zh4UduUlcI
+
+<!-- gura, gigi, ame -->
+
+https://www.youtube.com/watch?v=axMFUH15VjU
+
+<!-- gura -->
+
+https://www.youtube.com/watch?v=JfDSwYURxzs
+
+<!-- gura, fauna, ame -->
+
+https://www.youtube.com/watch?v=5YtyT-omO7Y
+
+<!-- gura, mococo -->
+
+https://www.youtube.com/watch?v=1jylN3Y9TRY
+
+<!-- gura, fauna -->
+
+https://www.youtube.com/watch?v=rSvTYAgBais
+
+<!-- gura -->
+
+https://www.youtube.com/watch?v=TUO52863BCE
+
+<!-- gura, fauna, cecilia -->
+
+https://www.youtube.com/watch?v=ihBORXuVamE
+
+<!-- gura -->
+
+https://www.youtube.com/watch?v=3ZjUilGL6vo
+
+<!-- gura, kronii -->
+
+https://www.youtube.com/watch?v=JEizv5QScOQ
+
+<!-- gura -->
+
+https://www.youtube.com/watch?v=L-LfqaNAxUA
+
+<!-- ina, bijou, nerissa -->
+
+https://www.youtube.com/watch?v=ggfnNXNztK4
+
+<!-- ina, gura -->
+
+https://www.youtube.com/watch?v=R4qqIAvIF8c
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=dyCZ0LgmUY4
+
+<!-- ina, ame -->
+
+https://www.youtube.com/watch?v=UtxHJHMVPJw
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=GpHcQOJnb80
+
+<!-- ina, bijou -->
+
+https://www.youtube.com/watch?v=nGjYAq_guA0
+
+<!-- ina, ame, irys -->
+
+https://www.youtube.com/watch?v=B6qaf4P9lHE
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=_ZQqaFtkYIM
+
+<!-- ina, irys -->
+
+https://www.youtube.com/watch?v=nVpEPqo1t38
+
+<!-- ina, irys -->
+
+https://www.youtube.com/watch?v=Tq6DJYN7p7E
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=KUGvjeEbOuw
+
+<!-- bijou, nerissa -->
+
+https://www.youtube.com/watch?v=lTgqo_bQ3lE
+
+<!-- kiara, gigi -->
+
+https://www.youtube.com/watch?v=vDoN1GWc9G8
+
+<!-- kiara, mumei, cecilia, fauna -->
+
+https://www.youtube.com/watch?v=oQcAsSlcp60
+
+<!-- kiara, liz, nerissa -->
+
+https://www.youtube.com/watch?v=Iv7h3xnds5I
+
+<!-- kiara, cecilia -->
+
+https://www.youtube.com/watch?v=wr5e9-FnOr4
+
+<!-- bae, irys -->
+
+https://www.youtube.com/watch?v=g6_sB7sEmnM
+
+<!-- bijou, liz -->
+
+https://www.youtube.com/watch?v=oNieS54lvqk
+
+<!-- ina, bijou -->
+
+https://www.youtube.com/watch?v=HV44EaTTzNk
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=Vm1kuvyjV1E
+
+<!-- bijou, gigi -->
+
+https://www.youtube.com/watch?v=qztJPFHPFZA
+
+<!-- cecilia, gigi -->
+
+https://www.youtube.com/watch?v=6OdocNrp8_8
+
+<!-- cecilia, gigi -->
+
+https://www.youtube.com/watch?v=s3AJzI6OzAc
+
+<!-- gigi, mumei -->
+
+https://www.youtube.com/watch?v=00ZicNq96T8
+
+<!-- fuwawa, irys, nerissa, bijou -->
+
+https://www.youtube.com/watch?v=dcxnwDLgl74
+
+<!-- mumei, gigi, cecilia -->
+
+https://www.youtube.com/watch?v=HGavFVuDjWM
+
+<!-- mumei, cecilia -->
+
+https://www.youtube.com/watch?v=SOPF1hmrNW0
+
+<!-- gura, cecilia, mumei -->
+
+https://www.youtube.com/watch?v=0VIj8ti1IoQ
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=yChTq2DXwDk
+
+<!-- fauna, cecilia, gura -->
+
+https://www.youtube.com/watch?v=GeScENemFTg
+
+<!-- bijou, nerissa -->
+
+https://www.youtube.com/watch?v=bGUqapnx6b8
+
+<!-- fauna, nerissa -->
+
+https://www.youtube.com/watch?v=pooNCdExmAc
+
+<!-- liz -->
+
+https://www.youtube.com/watch?v=fDHoRBtCMkw
+
+<!-- fauna, calli, kiara -->
+
+https://www.youtube.com/watch?v=41imkKkTlH8
+
+<!-- fauna, mococo -->
+
+https://www.youtube.com/watch?v=mTJiBIwQmY0
+
+<!-- fauna, mumei, kiara -->
+
+https://www.youtube.com/watch?v=b_Fn-_pjSYE
+
+<!-- fauna, bijou -->
+
+https://www.youtube.com/watch?v=AIvto1P0JIM
+
+<!-- mococo -->
+
+https://www.youtube.com/watch?v=L9P9hRY7htg
+
+<!-- irys, bijou, nerissa, shiori -->
+
+https://www.youtube.com/watch?v=hWaFn1XJMsw
+
+<!-- irys -->
+
+https://www.youtube.com/watch?v=4s5Gtl__ud0
+
+<!-- irys -->
+
+https://www.youtube.com/watch?v=3Y7g7DLgA9g
+
+<!-- irys, mumei, bae -->
+
+https://www.youtube.com/watch?v=rl-ZjffdcGk
+
+<!-- irys -->
+
+https://www.youtube.com/watch?v=DZ3g33FvVm8
+
+<!-- irys -->
+
+https://www.youtube.com/watch?v=h-5luL-tR2E
+
+<!-- irys, ina -->
+
+https://www.youtube.com/watch?v=LKyeKuV1HO0
+
+<!-- irys, ame, gigi -->
+
+https://www.youtube.com/watch?v=VBwRM60srAc
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=20a_CFKQfWQ
+
+<!-- kronii, raora -->
+
+https://www.youtube.com/watch?v=DvjfdJk7H_I
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=sn38Udrzukg
+
+<!-- kronii, gura -->
+
+https://www.youtube.com/watch?v=p8JFJSl_pVQ
+
+<!-- kronii, raora -->
+
+https://www.youtube.com/watch?v=gXIV_9G80SA
+
+<!-- kronii, liz -->
+
+https://www.youtube.com/watch?v=We7fem_hk9Q
+
+<!-- kronii, raora -->
+
+https://www.youtube.com/watch?v=9YpPdO1C2uc
+
+<!-- liz, mumei -->
+
+https://www.youtube.com/watch?v=zDfY1Zf-mHY
+
+<!-- cecilia, mumei -->
+
+https://www.youtube.com/watch?v=WL5verCJmUA
+
+<!-- mumei, bae -->
+
+https://www.youtube.com/watch?v=RmslcjIees4
+
+<!-- mumei, ina -->
+
+### Chapter 2
+
+https://www.youtube.com/watch?v=QebcLqaPf00
+
+<!-- bijou, kronii -->
+
+https://www.youtube.com/watch?v=gzQuqazEMMk
+
+<!-- bijou, bae -->
+
+https://www.youtube.com/watch?v=r7V4vvtLzCA
+
+<!-- bijou -->
+
+https://www.youtube.com/watch?v=xTkxFlGe-ko
+
+<!-- bijou -->
+
+https://www.youtube.com/watch?v=5ITfoL-5_E4
+
+<!-- bijou, irys, bae, ina, gigi, kiara, kronii -->
+
+https://www.youtube.com/watch?v=kAsk9S_68Vg
+
+<!-- bijou, mococo, fuwawa -->
+
+https://www.youtube.com/watch?v=rqjdwxcpVGg
+
+<!-- fuwawa -->
+
+https://www.youtube.com/watch?v=SrGr-YJ5jHk
+
+<!-- kiara, fuwawa -->
+
+https://www.youtube.com/watch?v=nPW1bkI1ht4
+
+<!-- fuwawa -->
+
+https://www.youtube.com/watch?v=lPfUoeUTBlw
+
+<!-- fuwawa -->
+
+https://www.youtube.com/watch?v=XgiSsI7xRAw
+
+<!-- fuwawa -->
+
+https://www.youtube.com/watch?v=26OQE1C4i9k
+
+<!-- mococo, fuwawa -->
+
+https://www.youtube.com/watch?v=Ydlpzxe4s7I
+
+<!-- fuwawa, mococo -->
+
+https://www.youtube.com/watch?v=zFc2XnhfZnQ
+
+<!-- fuwawa, mococo -->
+
+https://www.youtube.com/watch?v=cptlEhaoY_s
+
+<!-- mococo -->
+
+https://www.youtube.com/watch?v=tTIFetrL7Y0
+
+<!-- bijou, mococo -->
+
+https://www.youtube.com/watch?v=Iq46WA2tyiE
+
+<!-- calli, mococo -->
+
+https://www.youtube.com/watch?v=SCt6geyursY
+
+<!-- mococo -->
+
+https://www.youtube.com/watch?v=BLend5K2QLI
+
+<!-- nerissa, raora, liz -->
+
+https://www.youtube.com/watch?v=aq7mcB1-oiA
+
+<!-- nerissa -->
+
+https://www.youtube.com/watch?v=c25SeGeR1Qc
+
+<!-- nerissa, liz -->
+
+https://www.youtube.com/watch?v=YvwapP-ArX8
+
+<!-- nerissa, kronii -->
+
+https://www.youtube.com/watch?v=31IIP0jX89E
+
+<!-- nerissa, liz -->
+
+https://www.youtube.com/watch?v=I4AkGjcw0VA
+
+<!-- shiori -->
+
+https://www.youtube.com/watch?v=XAgq2gBltQI
+
+<!-- shiori, bijou -->
+
+https://www.youtube.com/watch?v=bSc3zqIC7TQ
+
+<!-- shiori -->
+
+https://www.youtube.com/watch?v=YUkhuUYEdIc
+
+<!-- liz, nerissa -->
+
+https://www.youtube.com/watch?v=NJure-EYpbU
+
+<!-- liz, nerissa -->
+
+https://www.youtube.com/watch?v=Vl1y36WfG2U
+
+<!-- calli -->
+
+https://www.youtube.com/watch?v=xCeLIgcKmcI
+
+<!-- calli -->
+
+https://www.youtube.com/watch?v=Ik-kTlGiuLw
+
+<!-- calli -->
+
+https://www.youtube.com/watch?v=k7sRVYy8BS8
+
+<!-- calli, kiara -->
+
+https://www.youtube.com/watch?v=lXAudgKr8w8
+
+<!-- calli, irys -->
+
+https://www.youtube.com/watch?v=qUKVHU6HAHg
+
+<!-- calli, kiara, liz -->
+
+https://www.youtube.com/watch?v=ub-6DxQfvFk
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=KBoSOLyffxY
+
+<!-- ina, kiara -->
+
+https://www.youtube.com/watch?v=DrUi8o8_EmM
+
+<!-- ina, cecilia, irys -->
+
+https://www.youtube.com/watch?v=1Bd--u-aE30
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=YLMgCFAqJGo
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=4kgVHWflKAE
+
+<!-- ina, bae -->
+
+https://www.youtube.com/watch?v=Y0qqh6VdGOs
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=4mlBsp9cvMo
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=FGM3pXPBarE
+
+<!-- kiara, calli -->
+
+https://www.youtube.com/watch?v=EKVpdJC2Otc
+
+<!-- kiara, liz -->
+
+https://www.youtube.com/watch?v=SrGr-YJ5jHk
+
+<!-- kiara, fuwawa -->
+
+https://www.youtube.com/watch?v=W0uXmcH4UTQ
+
+<!-- kiara, liz -->
+
+https://www.youtube.com/watch?v=uNyipbY7DnE
+
+<!-- kiara, calli -->
+
+https://www.youtube.com/watch?v=g_Nm4P37bO8
+
+<!-- kiara, cecilia -->
+
+https://www.youtube.com/watch?v=9B5_tPOpt_8
+
+<!-- kiara, raora -->
+
+https://www.youtube.com/watch?v=rrykjQmJbpI
+
+<!-- kiara, ina -->
+
+https://www.youtube.com/watch?v=jEyQXeZLMmY
+
+<!-- kiara, raora -->
+
+https://www.youtube.com/watch?v=ruMekDhl2As
+
+<!-- kiara, cecilia -->
+
+https://www.youtube.com/watch?v=Q_tEChvFh3w
+
+<!-- irys, bae, kronii -->
+
+https://www.youtube.com/watch?v=7mdRvkDOZ7Q
+
+<!-- irys, bae, raora -->
+
+https://www.youtube.com/watch?v=fbSf3MQ5kn8
+
+<!-- irys, kronii -->
+
+https://www.youtube.com/watch?v=7zQJN_QKU_s
+
+<!-- irys, kronii, bae -->
+
+https://www.youtube.com/watch?v=G9hCRxkw9yA
+
+<!-- irys, cecilia -->
+
+https://www.youtube.com/watch?v=kP7tzvaEzf0
+
+<!-- irys -->
+
+https://www.youtube.com/watch?v=hKrWg2aKJYg
+
+<!-- irys -->
+
+https://www.youtube.com/watch?v=ZSrbaBynlls
+
+<!-- irys, kronii, bae -->
+
+https://www.youtube.com/watch?v=41S1OIlQfEQ
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=l_lqRFNC9Qc
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=yinFgIQA0g8
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=eDT5-9wQipg
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=Z_hXK4sF1xo
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=BJweGV1E9Rg
+
+<!-- kronii, shiori -->
+
+https://www.youtube.com/watch?v=rnz7pIPMDOI
+
+<!-- kronii, irys -->
+
+https://www.youtube.com/watch?v=afI4BwqA6NE
+
+<!-- kronii -->
+
+https://www.youtube.com/watch?v=r_nTj8QihUw
+
+<!-- kronii, irys -->

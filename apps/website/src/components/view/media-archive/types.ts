@@ -28,11 +28,10 @@ export type ClipEntry = {
     author: string;
     duration: number;
     uploadDate: string;
-    category: string;
+    categories: string[];
     chapter: number;
     contentType: "clip" | "stream";
 };
-
 export type ClipsData = {
     clips: ClipEntry[];
     streams: ClipEntry[];

@@ -22,6 +22,28 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect } from "react";
 
+const CATEGORY_ORDER = [
+    "calli",
+    "kiara",
+    "ina",
+    "gura",
+    "ame",
+    "irys",
+    "kronii",
+    "fauna",
+    "mumei",
+    "bae",
+    "shiori",
+    "nerissa",
+    "fuwawa",
+    "mococo",
+    "bijou",
+    "liz",
+    "raora",
+    "gigi",
+    "cecilia",
+];
+
 interface ClipsArchiveViewer {
     clips: ClipEntry[];
     streams: ClipEntry[];
@@ -54,16 +76,37 @@ const ClipsArchiveViewer = ({
     useEffect(() => {
         const timer = setTimeout(() => {
             setDebouncedSearchQuery(searchQuery);
-        }, 300); // 300ms debounce delay
+        }, 300);
 
         return () => {
             clearTimeout(timer);
         };
     }, [searchQuery]);
-
     const categories = useMemo(() => {
-        const cats = new Set(currentData.map((clip) => clip.category));
-        return ["all", ...Array.from(cats)];
+        const cats = new Set<string>();
+        currentData.forEach((clip) => {
+            // Add all categories from each clip
+            clip.categories.forEach((cat) => cats.add(cat));
+        });
+
+        // Sort categories according to CATEGORY_ORDER
+        const sortedCats = Array.from(cats).sort((a, b) => {
+            const indexA = CATEGORY_ORDER.indexOf(a);
+            const indexB = CATEGORY_ORDER.indexOf(b);
+
+            // If both are in the order list, sort by order
+            if (indexA !== -1 && indexB !== -1) {
+                return indexA - indexB;
+            }
+
+            // Put categories not in order list at the end
+            if (indexA === -1) return 1;
+            if (indexB === -1) return -1;
+
+            return 0;
+        });
+
+        return ["all", ...sortedCats];
     }, [currentData]);
 
     const chapters = useMemo(() => {
@@ -76,7 +119,7 @@ const ClipsArchiveViewer = ({
         return currentData.filter((item) => {
             const matchesCategory =
                 selectedCategory === "all" ||
-                item.category === selectedCategory;
+                item.categories.includes(selectedCategory); // Check if any category matches
             const matchesChapter =
                 selectedChapter === -1 || item.chapter === selectedChapter;
             const matchesSearch =
