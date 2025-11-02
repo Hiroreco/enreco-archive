@@ -1,4 +1,4 @@
-<!-- title: Recollections - Hakos Baelz -->
+<!-- title: Recollection - Hakos Baelz -->
 <!-- type: youtube -->
 <!-- originalUrl: https://youtu.be/aSFZwinYaaU -->
 
