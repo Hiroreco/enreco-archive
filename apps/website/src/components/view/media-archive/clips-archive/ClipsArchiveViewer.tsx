@@ -20,7 +20,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Film, Search, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 
 const CATEGORY_ORDER = [
     "calli",
@@ -71,6 +71,7 @@ const ClipsArchiveViewer = ({
 
     const hasStreams = streams.length > 0;
     const currentData = activeContentType === "clips" ? clips : streams;
+    const contentContainer = useRef<HTMLDivElement>(null);
 
     // Debounce search query
     useEffect(() => {
@@ -154,6 +155,14 @@ const ClipsArchiveViewer = ({
 
     // Create a unique key that changes when content type OR category changes
     const contentKey = `${activeContentType}-${selectedCategory}`;
+
+    // Reset scroll and search when category or content type changes
+    useEffect(() => {
+        if (contentContainer.current) {
+            contentContainer.current.scrollTo({ top: 0, behavior: "smooth" });
+        }
+        setSearchQuery("");
+    }, [selectedCategory, activeContentType]);
 
     return (
         <div className="flex h-full gap-4">
@@ -313,7 +322,10 @@ const ClipsArchiveViewer = ({
                 </div>
 
                 {/* Data grid with AnimatePresence */}
-                <div className="flex-1 overflow-y-auto px-2 relative">
+                <div
+                    className="flex-1 overflow-y-auto px-2 relative"
+                    ref={contentContainer}
+                >
                     <AnimatePresence mode="wait">
                         <motion.div
                             key={contentKey}
