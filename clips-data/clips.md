@@ -1,4 +1,4 @@
-### Chapter 1
+\*### Chapter 1
 
 https://www.youtube.com/watch?v=_oIdO3ku6So
 
@@ -400,6 +400,86 @@ https://www.youtube.com/watch?v=RmslcjIees4
 
 <!-- mumei, ina -->
 
+https://www.youtube.com/watch?v=VVcb2NEqMG0
+
+<!-- cecilia, gura, nerissa -->
+
+https://www.youtube.com/watch?v=6G7Aru4cToU
+
+<!-- cecilia, gigi -->
+
+https://www.youtube.com/watch?v=y-rt-1hLFyc
+
+<!-- cecilia, gigi -->
+
+https://www.youtube.com/watch?v=GCbJXOwg5mY
+
+<!-- cecilia, gigi -->
+
+https://www.youtube.com/watch?v=BApMEpWaZTs
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=lslQD4BvsDA
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=prm53m_V4Ls
+
+<!-- cecilia, bijou -->
+
+https://www.youtube.com/watch?v=sb_bhtWVY5I
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=Brc9s2_ACnM
+
+<!-- kiara, gura, fauna -->
+
+https://www.youtube.com/watch?v=lvLNhSnSO0s
+
+<!-- fauna -->
+
+https://www.youtube.com/watch?v=gfDZKLyUX0Y
+
+<!-- fauna -->
+
+https://www.youtube.com/watch?v=kbGb3G20M28
+
+<!-- fauna -->
+
+https://www.youtube.com/watch?v=Fk0qC67R1ME
+
+<!-- fauna, mococo, nerissa -->
+
+https://www.youtube.com/watch?v=KsGbEpagGk8
+
+<!-- fauna, mumei -->
+
+https://www.youtube.com/watch?v=SRCGd8dzlto
+
+<!-- gigi -->
+
+https://www.youtube.com/watch?v=-faKYWYJQhw
+
+<!-- liz, nerissa -->
+
+https://www.youtube.com/watch?v=UwoV3kvPDIY
+
+<!-- raora, kronii -->
+
+https://www.youtube.com/watch?v=ro-3AZNf_JY
+
+<!-- ame, gura -->
+
+https://www.youtube.com/watch?v=6QlL1xlxknc
+
+<!-- gigi -->
+
+https://www.youtube.com/watch?v=LZPZ5O8pokU
+
+<!-- gigi -->
+
 ### Chapter 2
 
 https://www.youtube.com/watch?v=QebcLqaPf00
@@ -677,3 +757,87 @@ https://www.youtube.com/watch?v=afI4BwqA6NE
 https://www.youtube.com/watch?v=r_nTj8QihUw
 
 <!-- kronii, irys -->
+
+https://www.youtube.com/watch?v=ephpdyj8o-c
+
+<!-- cecilia, irys -->
+
+https://www.youtube.com/watch?v=uSFY0hy66M4
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=WI4qlqb2w0E
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=hyQuZnzE978
+
+<!-- cecilia, ina -->
+
+https://www.youtube.com/watch?v=VooAD328JEk
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=SqsHpIKyPbU
+
+<!-- cecilia, liz -->
+
+https://www.youtube.com/watch?v=EMjVp7kWiyY
+
+<!-- gigi, shiori, kronii -->
+
+https://www.youtube.com/watch?v=aSB_313QNgo
+
+<!-- mococo, kronii -->
+
+https://www.youtube.com/watch?v=MslP4COJMK8
+
+<!-- liz -->
+
+https://www.youtube.com/watch?v=dVvWlUsi-4A
+
+<!-- liz, shiori -->
+
+https://www.youtube.com/watch?v=J6Qhx1-Uk00
+
+<!-- liz -->
+
+https://www.youtube.com/watch?v=iFQ3zTThxkU
+
+<!-- raora, kronii, irys -->
+
+https://www.youtube.com/watch?v=b6L2pjpBuT8
+
+<!-- raora, kronii, irys -->
+
+https://www.youtube.com/watch?v=1gyGkCrvAog
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=5JcemfVSYdU
+
+<!-- gigi -->
+
+https://www.youtube.com/watch?v=-3Yaz0ALpnY
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=-81b-ZYO5JQ
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=LZo_Mx34zdk
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=8XtDo5NOv2k
+
+<!-- gigi, irys, cecilia, kronii, raora, bijou, bae -->
+
+https://www.youtube.com/watch?v=jNei-cvoYrI
+
+<!-- gigi -->
+
+https://www.youtube.com/watch?v=CqnKedUzC5M
+
+<!-- gigi, cecilia -->
