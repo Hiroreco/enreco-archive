@@ -25,7 +25,7 @@ const VideoArchiveViewer = ({
     entry,
     onMediaIndexChange,
 }: VideoArchiveViewerProps) => {
-    const t = useTranslations("mediaArchive")
+    const t = useTranslations("mediaArchive");
 
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -120,7 +120,7 @@ const VideoArchiveViewer = ({
             if (!isPlaying) {
                 return (
                     <div
-                        className="relative w-full h-full cursor-pointer flex items-center justify-center"
+                        className="relative w-full h-full min-h-[100px] aspect-video cursor-pointer flex items-center justify-center"
                         onClick={() => handleVideoThumbnailClick(index)}
                     >
                         <Image
@@ -147,7 +147,7 @@ const VideoArchiveViewer = ({
             }
 
             return (
-                <div className="relative w-full h-full flex items-center justify-center">
+                <div className="relative w-full h-full min-h-[100px] aspect-video flex items-center justify-center">
                     <ReactPlayer
                         src={media.src}
                         controls
@@ -199,7 +199,6 @@ const VideoArchiveViewer = ({
             >
                 {/* Left Side - Media */}
                 <div className="flex flex-col gap-3 md:w-[60%] h-full">
-                    {/* Main Media Display with Swiper */}
                     <div className="relative flex-1 min-h-0 bg-black/20 rounded-lg overflow-hidden group">
                         <Swiper
                             modules={[EffectCreative]}

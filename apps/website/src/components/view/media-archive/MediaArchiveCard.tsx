@@ -122,7 +122,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                 <ArrowLeft className="size-5" />
                             </button>
                         )}
-                        <span className="p-2 md:text-xl text-lg">
+                        <span className="p-2 md:text-xl text-base">
                             {activeTab === "videos"
                                 ? selectedEntry
                                     ? selectedEntry.title

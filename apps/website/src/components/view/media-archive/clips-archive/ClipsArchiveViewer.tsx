@@ -20,7 +20,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Film, Search, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useMemo, useState, useEffect, useRef } from "react";
+import { useMemo, useState, useEffect, useRef, useCallback } from "react";
 
 const CATEGORY_ORDER = [
     "calli",
@@ -43,6 +43,8 @@ const CATEGORY_ORDER = [
     "gigi",
     "cecilia",
 ];
+
+const ITEMS_PER_PAGE = 50;
 
 interface ClipsArchiveViewer {
     clips: ClipEntry[];
@@ -68,10 +70,13 @@ const ClipsArchiveViewer = ({
     const [selectedChapter, setSelectedChapter] = useState<number>(-1);
     const [searchQuery, setSearchQuery] = useState("");
     const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
+    const [currentPage, setCurrentPage] = useState(1);
+    const [isLoading, setIsLoading] = useState(false);
 
     const hasStreams = streams.length > 0;
     const currentData = activeContentType === "clips" ? clips : streams;
     const contentContainer = useRef<HTMLDivElement>(null);
+    const lastScrollTop = useRef(0);
 
     // Debounce search query
     useEffect(() => {
@@ -83,24 +88,21 @@ const ClipsArchiveViewer = ({
             clearTimeout(timer);
         };
     }, [searchQuery]);
+
     const categories = useMemo(() => {
         const cats = new Set<string>();
         currentData.forEach((clip) => {
-            // Add all categories from each clip
             clip.categories.forEach((cat) => cats.add(cat));
         });
 
-        // Sort categories according to CATEGORY_ORDER
         const sortedCats = Array.from(cats).sort((a, b) => {
             const indexA = CATEGORY_ORDER.indexOf(a);
             const indexB = CATEGORY_ORDER.indexOf(b);
 
-            // If both are in the order list, sort by order
             if (indexA !== -1 && indexB !== -1) {
                 return indexA - indexB;
             }
 
-            // Put categories not in order list at the end
             if (indexA === -1) return 1;
             if (indexB === -1) return -1;
 
@@ -115,12 +117,12 @@ const ClipsArchiveViewer = ({
         return Array.from(chaps).sort((a, b) => a - b);
     }, [currentData]);
 
-    // Filter clips/streams - use debouncedSearchQuery instead of searchQuery
-    const filteredData = useMemo(() => {
+    // Full filtered data (without pagination)
+    const allFilteredData = useMemo(() => {
         return currentData.filter((item) => {
             const matchesCategory =
                 selectedCategory === "all" ||
-                item.categories.includes(selectedCategory); // Check if any category matches
+                item.categories.includes(selectedCategory);
             const matchesChapter =
                 selectedChapter === -1 || item.chapter === selectedChapter;
             const matchesSearch =
@@ -135,6 +137,26 @@ const ClipsArchiveViewer = ({
             return matchesCategory && matchesChapter && matchesSearch;
         });
     }, [currentData, selectedCategory, selectedChapter, debouncedSearchQuery]);
+
+    // Paginated data (what's currently displayed)
+    const filteredData = useMemo(() => {
+        const maxItems = currentPage * ITEMS_PER_PAGE;
+        return allFilteredData.slice(0, maxItems);
+    }, [allFilteredData, currentPage]);
+
+    const hasMore = useMemo(() => {
+        return filteredData.length < allFilteredData.length;
+    }, [filteredData.length, allFilteredData.length]);
+
+    const loadMore = useCallback(() => {
+        if (hasMore && !isLoading) {
+            setIsLoading(true);
+            setTimeout(() => {
+                setCurrentPage((prev) => prev + 1);
+                setIsLoading(false);
+            }, 100);
+        }
+    }, [hasMore, isLoading]);
 
     // Group by chapter
     const groupedData = useMemo(() => {
@@ -153,8 +175,44 @@ const ClipsArchiveViewer = ({
         [groupedData],
     );
 
-    // Create a unique key that changes when content type OR category changes
     const contentKey = `${activeContentType}-${selectedCategory}`;
+
+    // Handle scroll for infinite loading
+    const handleScroll = useCallback(() => {
+        if (!contentContainer.current) return;
+
+        const container = contentContainer.current;
+        const { scrollTop, scrollHeight, clientHeight } = container;
+        const threshold = 1000; // Load more when 1000px from bottom
+
+        if (scrollTop + clientHeight >= scrollHeight - threshold) {
+            loadMore();
+        }
+
+        lastScrollTop.current = scrollTop;
+    }, [loadMore]);
+
+    // Set up scroll listener
+    const setContentContainerRef = useCallback(
+        (node: HTMLDivElement | null) => {
+            if (contentContainer.current) {
+                contentContainer.current.removeEventListener(
+                    "scroll",
+                    handleScroll,
+                );
+            }
+
+            contentContainer.current = node;
+
+            if (node) {
+                node.addEventListener("scroll", handleScroll, {
+                    passive: true,
+                });
+                lastScrollTop.current = 0;
+            }
+        },
+        [handleScroll],
+    );
 
     // Reset scroll and search when category or content type changes
     useEffect(() => {
@@ -162,7 +220,19 @@ const ClipsArchiveViewer = ({
             contentContainer.current.scrollTo({ top: 0, behavior: "smooth" });
         }
         setSearchQuery("");
+        setCurrentPage(1); // Reset pagination
     }, [selectedCategory, activeContentType]);
+
+    // Reset pagination when filters change
+    useEffect(() => {
+        setCurrentPage(1);
+        if (contentContainer.current) {
+            contentContainer.current.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
+    }, [selectedCategory, selectedChapter, debouncedSearchQuery]);
 
     return (
         <div className="flex h-full gap-4">
@@ -321,10 +391,9 @@ const ClipsArchiveViewer = ({
                     </Select>
                 </div>
 
-                {/* Data grid with AnimatePresence */}
                 <div
                     className="flex-1 overflow-y-auto px-2 relative"
-                    ref={contentContainer}
+                    ref={setContentContainerRef}
                 >
                     <AnimatePresence mode="wait">
                         <motion.div
@@ -339,47 +408,73 @@ const ClipsArchiveViewer = ({
                                     {t("clipArchive.noResults")}
                                 </div>
                             ) : (
-                                <div className="flex flex-col gap-6">
-                                    {sortedChapters.map((chapterKey) => {
-                                        const chapter = Number(chapterKey);
-                                        const chapterItems =
-                                            groupedData[chapter];
+                                <>
+                                    <div className="flex flex-col gap-6">
+                                        {sortedChapters.map((chapterKey) => {
+                                            const chapter = Number(chapterKey);
+                                            const chapterItems =
+                                                groupedData[chapter];
 
-                                        return (
-                                            <div key={chapter}>
-                                                <div className="flex items-center gap-3 mb-3">
-                                                    <Separator className="bg-foreground/60 flex-1" />
-                                                    <span className="text-sm font-semibold whitespace-nowrap">
-                                                        {tCommon("chapter", {
-                                                            val: chapter,
-                                                        })}
-                                                    </span>
-                                                    <Separator className="bg-foreground/60 flex-1" />
-                                                </div>
+                                            return (
+                                                <div key={chapter}>
+                                                    <div className="flex items-center gap-3 mb-3">
+                                                        <Separator className="bg-foreground/60 flex-1" />
+                                                        <span className="text-sm font-semibold whitespace-nowrap">
+                                                            {tCommon(
+                                                                "chapter",
+                                                                {
+                                                                    val: chapter,
+                                                                },
+                                                            )}
+                                                        </span>
+                                                        <Separator className="bg-foreground/60 flex-1" />
+                                                    </div>
 
-                                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                                                    {chapterItems.map(
-                                                        (item, index) => (
-                                                            <ClipCard
-                                                                key={
-                                                                    item.id +
-                                                                    "-" +
-                                                                    index
-                                                                }
-                                                                clip={item}
-                                                                onClick={() =>
-                                                                    onClipClick(
-                                                                        item,
-                                                                    )
-                                                                }
-                                                            />
-                                                        ),
-                                                    )}
+                                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                                                        {chapterItems.map(
+                                                            (item, index) => (
+                                                                <ClipCard
+                                                                    key={
+                                                                        item.id +
+                                                                        "-" +
+                                                                        index
+                                                                    }
+                                                                    clip={item}
+                                                                    onClick={() =>
+                                                                        onClipClick(
+                                                                            item,
+                                                                        )
+                                                                    }
+                                                                />
+                                                            ),
+                                                        )}
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+                                    {isLoading && (
+                                        <div className="flex justify-center py-8">
+                                            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+                                        </div>
+                                    )}
+
+                                    {/* Load more button as fallback */}
+                                    {hasMore && !isLoading && (
+                                        <div className="flex justify-center py-8">
+                                            <button
+                                                onClick={loadMore}
+                                                className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+                                            >
+                                                Load More (
+                                                {allFilteredData.length -
+                                                    filteredData.length}{" "}
+                                                remaining)
+                                            </button>
+                                        </div>
+                                    )}
+                                </>
                             )}
                         </motion.div>
                     </AnimatePresence>
