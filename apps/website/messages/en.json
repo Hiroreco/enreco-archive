@@ -441,8 +441,8 @@
     },
     "mediaArchive": {
         "videoArchive": {
-            "title": "Hall of Recollections",
-            "description": "A collection of official media, memories and moments",
+            "title": "Media Archive",
+            "description": "A collection of official media, streams and memories",
             "category": {
                 "official": "Official Media",
                 "talent-made": "Talent-made Media"

@@ -1,7 +1,7 @@
 import type {
     MediaEntry,
     RecollectionArchiveEntry,
-} from "../../apps/website/src/components/view/recollection-archive/types.js";
+} from "../../apps/website/src/components/view/media-archive/types.js";
 import fs from "fs/promises";
 import path from "path";
 
@@ -48,7 +48,6 @@ function getContent(raw: string): string {
 async function processEntry(
     entryDir: string,
     chapterNum: number,
-    category: string,
     entryId: string,
 ): Promise<RecollectionArchiveEntry | null> {
     const mdPaths = await walkDir(entryDir);
@@ -145,7 +144,6 @@ async function processEntry(
         description,
         info,
         chapter: chapterNum,
-        category,
         thumbnailUrl,
         entries: mediaEntries,
     };
@@ -181,35 +179,21 @@ async function main() {
         const chapterNum = parseInt(chapterMatch[1], 10);
 
         const chapterPath = path.join(baseDir, chapterDir);
-        const categoryDirs = (
+        const entryDirs = (
             await fs.readdir(chapterPath, { withFileTypes: true })
         )
             .filter((d) => d.isDirectory())
             .map((d) => d.name);
 
-        for (const categoryDir of categoryDirs) {
-            const categoryPath = path.join(chapterPath, categoryDir);
-            const entryDirs = (
-                await fs.readdir(categoryPath, { withFileTypes: true })
-            )
-                .filter((d) => d.isDirectory())
-                .map((d) => d.name);
+        for (const entryDir of entryDirs) {
+            const entryPath = path.join(chapterPath, entryDir);
+            const entry = await processEntry(entryPath, chapterNum, entryDir);
 
-            for (const entryDir of entryDirs) {
-                const entryPath = path.join(categoryPath, entryDir);
-                const entry = await processEntry(
-                    entryPath,
-                    chapterNum,
-                    categoryDir,
-                    entryDir,
+            if (entry) {
+                allEntries.push(entry);
+                console.log(
+                    `✅ Processed entry: ${entry.id} (${entry.entries.length} media files)`,
                 );
-
-                if (entry) {
-                    allEntries.push(entry);
-                    console.log(
-                        `✅ Processed entry: ${entry.id} (${entry.entries.length} media files)`,
-                    );
-                }
             }
         }
     }

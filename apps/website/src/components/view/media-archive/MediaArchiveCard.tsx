@@ -1,20 +1,16 @@
+import Lightbox from "@/components/view/lightbox/Lightbox";
+import ClipsArchiveViewer from "@/components/view/media-archive/clips-archive/ClipsArchiveViewer";
+import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
+import VideoArchiveSelector from "@/components/view/media-archive/video-archive/VideoArchiveSelector";
+import VideoArchiveViewer from "@/components/view/media-archive/video-archive/VideoArchiveViewer";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { getBlurDataURL } from "@/lib/utils";
 import {
     Card,
     CardContent,
     CardHeader,
     CardTitle,
 } from "@enreco-archive/common-ui/components/card";
-import { Separator } from "@enreco-archive/common-ui/components/separator";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
-import { useMemo, useState } from "react";
-import { ClipEntry, RecollectionArchiveEntry } from "./types";
-import { getBlurDataURL } from "@/lib/utils";
-import { ArrowLeft, Film, Info, Video } from "lucide-react";
-import VideoArchiveViewer from "@/components/view/media-archive/video-archive/VideoArchiveViewer";
-import { useLocalizedData } from "@/hooks/useLocalizedData";
-import { useTranslations } from "next-intl";
 import {
     Dialog,
     DialogContent,
@@ -23,15 +19,19 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
-import ClipsArchiveViewer from "@/components/view/media-archive/clips-archive/ClipsArchiveViewer";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 import {
     Tabs,
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
-import Lightbox from "@/components/view/lightbox/Lightbox";
-import VideoArchiveSection from "./video-archive/VideoArchiveSection";
-import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { AnimatePresence, motion } from "framer-motion";
+import { ArrowLeft, Film, Info, Video } from "lucide-react";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+import { useMemo, useState } from "react";
+import { ClipEntry, RecollectionArchiveEntry } from "./types";
 
 interface VideoArchiveCardProps {
     className?: string;
@@ -40,6 +40,8 @@ interface VideoArchiveCardProps {
 
 const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const t = useTranslations("mediaArchive");
+    const tCommon = useTranslations("common");
+
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
@@ -59,19 +61,13 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const [activeTab, setActiveTab] = useState<"videos" | "clips">("videos");
 
     const groupedEntries = useMemo(() => {
-        const grouped: Record<
-            number,
-            Record<string, RecollectionArchiveEntry[]>
-        > = {};
+        const grouped: Record<number, RecollectionArchiveEntry[]> = {};
 
         data.forEach((entry) => {
             if (!grouped[entry.chapter]) {
-                grouped[entry.chapter] = {};
+                grouped[entry.chapter] = [];
             }
-            if (!grouped[entry.chapter][entry.category]) {
-                grouped[entry.chapter][entry.category] = [];
-            }
-            grouped[entry.chapter][entry.category].push(entry);
+            grouped[entry.chapter].push(entry);
         });
 
         return grouped;
@@ -187,19 +183,59 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="flex flex-col items-center gap-6"
+                            className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 w-full"
                         >
                             {sortedChapters.map((chapterKey) => {
                                 const chapter = Number(chapterKey);
                                 const categories = groupedEntries[chapter];
-
+                                const entries =
+                                    Object.values(categories).flat();
                                 return (
-                                    <VideoArchiveSection
-                                        key={chapter}
-                                        chapter={chapter}
-                                        categories={categories}
-                                        onEntryClick={handleEntryClick}
-                                    />
+                                    <div key={chapter}>
+                                        <div className="flex items-center gap-3 mb-2">
+                                            <Separator className="bg-foreground/60 flex-1" />
+                                            <span className="font-bold whitespace-nowrap">
+                                                {tCommon("chapter", {
+                                                    val: chapter,
+                                                })}
+                                            </span>
+                                            <Separator className="bg-foreground/60 flex-1" />
+                                        </div>
+                                        <div className="grid grid-cols-2 gap-2 auto-rows-fr">
+                                            {entries.map((entry, index) => {
+                                                const isLastAndOdd =
+                                                    index ===
+                                                        entries.length - 1 &&
+                                                    entries.length % 2 !== 0;
+                                                return (
+                                                    <div
+                                                        key={entry.id}
+                                                        className={
+                                                            isLastAndOdd
+                                                                ? "col-span-2 flex justify-center"
+                                                                : ""
+                                                        }
+                                                    >
+                                                        <div
+                                                            className={cn(
+                                                                "h-full",
+                                                                isLastAndOdd
+                                                                    ? "w-1/2"
+                                                                    : "w-full",
+                                                            )}
+                                                        >
+                                                            <VideoArchiveSelector
+                                                                entry={entry}
+                                                                onEntryClick={
+                                                                    handleEntryClick
+                                                                }
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    </div>
                                 );
                             })}
                         </motion.div>

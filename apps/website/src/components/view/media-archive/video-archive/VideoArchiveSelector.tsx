@@ -21,7 +21,7 @@ const VideoArchiveSelector = ({
                 "group cursor-pointer overflow-hidden rounded-lg",
                 "bg-white/90 dark:bg-white/10 backdrop-blur-md shadow-lg",
                 "hover:shadow-xl hover:scale-[1.02] transition-all duration-300",
-                "flex flex-col",
+                "flex flex-col h-full group-hover:scale-105 transition-transform",
             )}
             onClick={onEntryClick ? () => onEntryClick(entry) : undefined}
             tabIndex={0}
@@ -34,12 +34,12 @@ const VideoArchiveSelector = ({
         >
             {/* Desktop: Vertical Layout */}
             <div className="hidden md:flex md:flex-col">
-                <div className="relative w-full aspect-video overflow-hidden">
+                <div className="relative w-full aspect-video">
                     <Image
                         src={thumbnailUrl}
                         alt={entry.title}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        className="object-cover duration-300 rounded-none"
                         blurDataURL={getBlurDataURL(thumbnailUrl)}
                         placeholder={
                             getBlurDataURL(thumbnailUrl) ? "blur" : "empty"
