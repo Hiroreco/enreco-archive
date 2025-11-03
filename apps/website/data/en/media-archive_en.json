@@ -82,7 +82,24 @@
     "info": "",
     "chapter": 1,
     "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
-    "entries": []
+    "entries": [
+      {
+        "title": "ENigmatic Recollection Launch Party",
+        "originalUrl": "https://www.youtube.com/watch?v=vo0Xw_Kg98A",
+        "thumbnailUrl": "/images-opt/c1-misc-launch-stream-opt.webp",
+        "info": "### Description\n\nThe first official stream and the lauch party announcing the start of ENigmatic Recollection, featuring Kiara, Kronii, Ina, Fuwawa and Mococo.\n\nThe stream announced information about the overall project, as well as fun activities where the girls took place throughout. There was a lot of bouncing, laughing, and uhh, Kiara mistook Mococo for Fuwawa.",
+        "src": "https://www.youtube.com/watch?v=vo0Xw_Kg98A",
+        "type": "youtube"
+      },
+      {
+        "title": "Chapter 1 Recap Show",
+        "originalUrl": "https://www.youtube.com/watch?v=-pn8MhI0KwM",
+        "thumbnailUrl": "/images-opt/c1-misc-reaction-stream-opt.webp",
+        "info": "### Description\n\nHeld on **November 16th, 2024**, this recap show took place two months after the conclusion of Chapter 1. Calli, Bijou, and Gonathon gathered to react to and relive some of the most memorable and hilarious moments from the first chapter.\n\nAt the end of the stream, an exciting announcement was made—the production of **Chapter 2**, titled _“The Chains of Fate.”_",
+        "src": "https://www.youtube.com/watch?v=-pn8MhI0KwM",
+        "type": "youtube"
+      }
+    ]
   },
   {
     "id": "c1-recaps",
@@ -443,7 +460,7 @@
     "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
     "entries": [
       {
-        "title": "Recollections - IRyS",
+        "title": "Recollection - IRyS",
         "originalUrl": "https://youtu.be/5uaWaQg4pnM",
         "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
         "info": "### Description\n\nIRyS’ memories were recovered after the conquest of the Star Site: Elpis, which took place on the second day of the second chapter.\n\nA Nephilim born from the war between Angels and Demons, her purpose was to bring an end to their conflict. With her beautiful voice and mesmerizing songs, she united both factions—a being many came to call “a goddess,” albeit an alcoholic one.",
@@ -451,7 +468,7 @@
         "type": "youtube"
       },
       {
-        "title": "Recollections - Ouro Kronii",
+        "title": "Recollection - Ouro Kronii",
         "originalUrl": "https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO",
         "thumbnailUrl": "/images-opt/c2-recollections-kronii-opt.webp",
         "info": "### Description\n\nOuro Kronii’s memories were recovered after the conquest of the Star Site: Chronos, which took place on the fourth day of the second chapter.\n\nThe Warden of Time itself—the keeper of the timeline, mender of fractures, and corrector of anomalies across dimensions. She maintained the flow of time and upheld the stability of the multiverse.",
@@ -459,7 +476,7 @@
         "type": "youtube"
       },
       {
-        "title": "Recollections - Hakos Baelz",
+        "title": "Recollection - Hakos Baelz",
         "originalUrl": "https://youtu.be/aSFZwinYaaU",
         "thumbnailUrl": "/images-opt/c2-recollections-bae-opt.webp",
         "info": "### Description\n\nHakos Baelz’s memories were recovered after the conquest of the Star Site: Chaos, which took place on the sixth day of the second chapter.\n\nA rat? A genie? A crazy red woman? Whatever she was didn’t matter—her mere presence was enough to plunge everything around her into chaos. She was energetic, she was powerful, she was chaos itself. With a roll of her dice, reality bent to her will, granting both her and those around her whatever wishes they desired.",

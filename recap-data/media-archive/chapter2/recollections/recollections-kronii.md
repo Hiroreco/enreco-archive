@@ -1,4 +1,4 @@
-<!-- title: Recollections - Ouro Kronii -->
+<!-- title: Recollection - Ouro Kronii -->
 <!-- type: youtube -->
 <!-- originalUrl: https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO -->
 
