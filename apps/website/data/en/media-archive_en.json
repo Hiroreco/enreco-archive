@@ -1,22 +1,88 @@
 [
   {
-    "id": "c1-misc",
-    "title": "Miscellaneous - Chapter 1",
-    "description": "",
+    "id": "c1-animation",
+    "title": "Theme and Animation - Chapter 1",
+    "description": "Official theme and animation made for Chapter 1",
     "info": "",
     "chapter": 1,
-    "category": "official",
-    "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
+    "thumbnailUrl": "/images-opt/c1-animation-start-again-opt.webp",
     "entries": [
       {
-        "title": "Chapter 1 Official Trailer",
+        "title": "Official Trailer - Chapter 1",
         "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA",
-        "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-animation-trailer-opt.webp",
         "info": "### Description\n\nThe official trailer for **ENigmatic Recollection**, released on August 23rd, 2024.\n\nThe trailer offers a broad introduction to the **Kingdom of Libestal** and its heroes, each summoned to this world, cloaked in Libestal’s colors, seen wandering, exploring, venturing forth, and conquering enemies and dungeons alike.\n\n> It is a collection of stories in which the members of hololive English play a part.\n> Through streams, animations, and songs wrought anew, immerse yourself in fresh narratives woven from myriad realms beyond.\n\nAt the time of its release, no one truly knew what this project would become, but even this glimpse alone was enough to ignite immense excitement throughout the community.",
         "src": "https://www.youtube.com/watch?v=OnMxjFRlywA",
         "type": "youtube"
+      },
+      {
+        "title": "START AGAIN - Chapter 1 Theme Song",
+        "originalUrl": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
+        "thumbnailUrl": "/images-opt/c1-animation-start-again-opt.webp",
+        "info": "### Description\n\nThe official theme song for Chapter 1, featuring Calli, Ina, IRyS, and Elizabeth, released on August 31st, 2024 — the day before the official beginning of this enigmatic journey.\n\nThe song carries a fun, upbeat vibe — an energetic, self-affirming anthem that sets the stage for this incredible journey. Throughout the song, the general theme resembles a declaration of unwavering resolve and renewed confidence, both literal (for the characters who lost their memories) and metaphorical (for facing any new challenge in life or a new creative venture).\n\nIt shows that even after getting lost, they can find their way, unite, and rise stronger than before. Hence, **\"START AGAIN.\"**",
+        "src": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
+        "type": "youtube"
       }
     ]
+  },
+  {
+    "id": "c1-merch",
+    "title": "Official Merchandise - Chapter 1",
+    "description": "Official theme and animation made for Chapter 1",
+    "info": "### Description\n\nThe official merchandise celebrating Chapter 1 includes collectible cards, a standee, the Libestal cloak, ENreco-themed cups, keychains, and a voice pack featuring all the heroes.",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-merch-commemoration-opt.webp",
+    "entries": [
+      {
+        "title": "Chapter 1 Commemoration Merch",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter1?_pos=6&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-commemoration-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-commemoration-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENigmatic Recollection Merch",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection?_pos=2&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-general-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-general-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "Libestal Cloakstyle Blanket",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_blanket?_pos=3&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-cloak-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-cloak-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "Chapter 1 New Collection",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter1newcollection?_pos=4&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-new-collection-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-new-collection-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "Shenanigans in Libestal - Voice Pack",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_shenanigansinlibestal?_pos=1&_sid=331ace359&_ss=r&variant=46407945322716",
+        "thumbnailUrl": "/images-opt/c1-merch-voicepack-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-voicepack-opt.webp",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "c1-misc",
+    "title": "Miscellaneous - Chapter 1",
+    "description": "Media and streams related to the first chapter",
+    "info": "",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
+    "entries": []
   },
   {
     "id": "c1-recaps",
@@ -24,7 +90,6 @@
     "description": "A series of videos recapping moments of the chapter",
     "info": "### Description\n\nIn anticipation of Chapter Two, and to give everyone a chance to relive the events of the first chapter, a series of recap videos was released daily from **April 24 - April 26, 2025**, highlighting memorable moments from the adventure.",
     "chapter": 1,
-    "category": "official",
     "thumbnailUrl": "/images-opt/c1-recaps-1-opt.webp",
     "entries": [
       {
@@ -107,7 +172,6 @@
     "description": "Collection of memories recovered in the first chapter",
     "info": "",
     "chapter": 1,
-    "category": "official",
     "thumbnailUrl": "/images-opt/c1-recollections-calli-opt.webp",
     "entries": [
       {
@@ -153,107 +217,120 @@
     ]
   },
   {
-    "id": "c1-song",
-    "title": "Official Theme Song",
-    "description": "An energetic start to an enigmatic journey",
-    "info": "",
-    "chapter": 1,
-    "category": "official",
-    "thumbnailUrl": "/images-opt/c1-song-start-again-opt.webp",
-    "entries": [
-      {
-        "title": "START AGAIN - Chapter 1 Theme Song",
-        "originalUrl": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
-        "thumbnailUrl": "/images-opt/c1-song-start-again-opt.webp",
-        "info": "### Description\n\nThe official theme song for Chapter 1, featuring Calli, Ina, IRyS, and Elizabeth, released on August 31st, 2024 — the day before the official beginning of this enigmatic journey.\n\nThe song carries a fun, upbeat vibe — an energetic, self-affirming anthem that sets the stage for this incredible journey. Throughout the song, the general theme resembles a declaration of unwavering resolve and renewed confidence, both literal (for the characters who lost their memories) and metaphorical (for facing any new challenge in life or a new creative venture).\n\nIt shows that even after getting lost, they can find their way, unite, and rise stronger than before. Hence, **\"START AGAIN.\"**",
-        "src": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
-        "type": "youtube"
-      }
-    ]
-  },
-  {
-    "id": "c1-liz-intro",
-    "title": "Lady Bloodflame's Inner Reflections",
-    "description": "Liz's daily recollects of events that've transpired thus far",
+    "id": "c1-talent",
+    "title": "Talent-made Media",
+    "description": "Special content made by the talents during the event",
     "info": "### Description\n\nDuring the first chapter, at the start of each day while waiting to \"wake up,\" Lady Bloodflame would experience flashes of moments that had transpired in the days before.\n\nFrom her promise to Mococo on the first day to her mental breakdown after Nerissa declared she hated the red knight, these flashes, illustrated through rough, simple, yet captivating sketches, captured the moments that lingered in the scarlet knight’s mind. They shaped her character and offered the voices watching her journey a deeper glimpse into her psyche and thoughts.",
     "chapter": 1,
-    "category": "talent-made",
     "thumbnailUrl": "/images-opt/c1-liz-intro-7-opt.webp",
     "entries": [
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 1",
         "originalUrl": "https://www.youtube.com/watch?v=2qiX7084obE",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-1-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-1-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-1-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-1-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 2",
         "originalUrl": "https://www.youtube.com/watch?v=M3cuDNZrIKM",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-2-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-2-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-2-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-2-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 3",
         "originalUrl": "https://www.youtube.com/live/oVguNTPnDww?si=W6sCOql2i9WBsjYr",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-3-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-3-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-3-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-3-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 4",
         "originalUrl": "https://www.youtube.com/watch?v=dCNrMstGc3I",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-4-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-4-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-4-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-4-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 5",
         "originalUrl": "https://www.youtube.com/watch?v=1_dhGL0K5-k",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-5-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-5-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-5-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-5-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 6",
         "originalUrl": "https://www.youtube.com/watch?v=5R01-igo4sM",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-6-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-6-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-6-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-6-opt.mp4",
         "type": "video"
       },
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 7",
         "originalUrl": "https://www.youtube.com/watch?v=Gw0dZbPKTG4",
-        "thumbnailUrl": "/images-opt/c1-liz-intro-7-opt.webp",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-7-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c1-liz-intro-7-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-7-opt.mp4",
         "type": "video"
       }
     ]
   },
   {
-    "id": "c2-ending",
-    "title": "ENigmatic Recollection Chapter 2 Ending Animation",
-    "description": "The ending sequence of the second chapter",
+    "id": "c2-animation",
+    "title": "Theme and Animation - Chapter 2",
+    "description": "Official theme and animation made for Chapter 2",
     "info": "",
     "chapter": 2,
-    "category": "official",
-    "thumbnailUrl": "/images-opt/c2-ending-animation-opt.webp",
+    "thumbnailUrl": "/images-opt/c2-animation-monster-opt.webp",
     "entries": [
+      {
+        "title": "MONSTER - Chapter 2 Theme Song",
+        "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A",
+        "thumbnailUrl": "/images-opt/c2-animation-monster-opt.webp",
+        "info": "### Description\n\nReleased on May 3, 2025, *MONSTER* is the official theme song for the second chapter of **ENigmatic Recollection**, featuring Gigi, Ina, Kronii, and Shiori.\n\nAn intense electronic rock track infused with disorienting, jazz-inflected harmonic instability, it perfectly captures the project’s chaotic, high-stakes lore. Lyrically, it explores the **erosion of identity** and the struggle to confront the **inner “monster”**—not an external enemy, but the darkest, fragmented side of oneself screaming from within.\n\nVisually speaking, the song is strikingly well-animated, filled with subtle symbolism tied to the overarching story of the second chapter—most notably, the final sequence where four cards representing the heroes are shown, and only Shiori’s is turned over, by her own hand.",
+        "src": "https://www.youtube.com/watch?v=nUrITFpI85A",
+        "type": "youtube"
+      },
+      {
+        "title": "Chapter 2 - Loading Screen",
+        "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
+        "thumbnailUrl": "/images-opt/c2-animation-spin-opt.webp",
+        "info": "### Description\n\nThis loading screen was used by all the talents as they prepared to begin their day in Chapter 2. It features a looping animation of a spinning tarot card, with each rotation revealing a different hero, set against a starry, mystical backdrop.\n\nThe background music is the instrumental version of **MONSTER**, the official theme song of Chapter 2.",
+        "src": "https://cdn.enreco-archive.net/c2-animation-spin-opt.mp4",
+        "type": "video"
+      },
       {
         "title": "ENigmatic Recollection Chapter 2 - Ending",
         "originalUrl": "https://www.youtube.com/watch?v=pk29y0n9tBI",
-        "thumbnailUrl": "/images-opt/c2-ending-animation-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-animation-ending-opt.webp",
         "info": "### Description\n\nFia came to accept that preventing the Outsider’s birth was impossible. The only path left was to stop whatever his intentions were in the present.\n\nOnce more, she called upon the heroes for help. And without hesitation, they answered. They were heroes, after all—if the world needed saving, they would rise to the call, no matter how many times it came.\n\nBut not all of them stepped forward.\n\nFuwawa, Mococo, Bijou, Nerissa, and Shiori stayed behind, shrouded in shadow.\n\nTired of being commanded, tired of living roles written by others, they declared rebellion. They would forge their own path. Do things *their* way.",
         "src": "https://www.youtube.com/watch?v=pk29y0n9tBI",
         "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c2-merch",
+    "title": "Official Merchandise - Chapter 2",
+    "description": "Official merchandise made for Chapter 2",
+    "info": "### Description\n\nThe official merchandise released in celebration of Chapter 2 includes a rubber mat featuring the chapter’s key visual, an ENreco-themed card holder, a pouch, and character cards of IRyS, Kronii, and Bae.",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-merch-commemoration-opt.webp",
+    "entries": [
+      {
+        "title": "Chapter 2 Commemoration Merch",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-commemoration-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-commemoration-opt.webp",
+        "type": "image"
       }
     ]
   },
@@ -263,7 +340,6 @@
     "description": "Media and streams related to the second chapter",
     "info": "",
     "chapter": 2,
-    "category": "official",
     "thumbnailUrl": "/images-opt/c2-misc-event-stream-opt.webp",
     "entries": [
       {
@@ -281,6 +357,46 @@
         "info": "### Description\n\nShown on May 3, 2025, the day before the start of the second chapter, this stream, featuring Kronii, Bijou, Nerissa, Ina and Calli, was to introduce and announce official info and what to expect of the second chapter.\n\nThe stream held many fun activities, such as guessing songs, dancing, and answering questions as a balloon gets larger and larger, so large it traumatized Bijou and Calli.",
         "src": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
         "type": "youtube"
+      },
+      {
+        "title": "Chapter 2 Webpage",
+        "originalUrl": "https://hololive.hololivepro.com/en/special/16206/",
+        "thumbnailUrl": "/images-opt/c2-misc-site-opt.webp",
+        "info": "### Description\n\nHey #ENreco fans & newcomers! 👋\nWe've launched a new Webpage for ENigmatic Recollection!\nCheck it out to get ready for tomorrow's opening event! 🎉\n\n\\- hololive (English)",
+        "src": "/images-opt/c2-misc-site-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENreco Canvas Contest",
+        "originalUrl": "https://x.com/hololive_En/status/1895609934085325149",
+        "thumbnailUrl": "/images-opt/c2-misc-canvas-opt.webp",
+        "info": "### Description\n\n🎮 Your art could be featured in a game played by #hololive English?! 🎮\nJoin the ENreco \"Canvas Contest\"! 🎨💙\n\n🖌 How to enter:\n✅ Create an illustration (1280 x 1920 px)\n✅ Post it on X or Instagram with #ENreco #ENrecoCanvas\n✅ Agree to the submission terms via the form below\nhttps://forms.gle/EwoCdofSodvo97zo7\n\n🎉Applications will close on March 19 (PDT)!\nCheck the attached image for full details. Don't miss it! ✨\n\n\\- hololive (English)",
+        "src": "/images-opt/c2-misc-canvas-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENreco Artopia Contest",
+        "originalUrl": "https://x.com/hololive_En/status/1913042295668260967",
+        "thumbnailUrl": "/images-opt/c2-misc-artopia-opt.webp",
+        "info": "### Description\n\nCalling all artists! 🖌️🎨\nDraw your favorite #ENreco scene & post it on X/IG with #ENrecoArtopia for a chance to WIN! 🏆\n\n✨ This time you are not limited to one talent so have fun!\n✨ Double entries if you post on both! Let’s see your art!\n\n🗓️ April 18 10:30 JST - May 2 3:59 PM JST\n\n\\- hololive (English)",
+        "src": "/images-opt/c2-misc-artopia-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENreco Captionify Contest",
+        "originalUrl": "https://x.com/hololive_En/status/1918825402459357591",
+        "thumbnailUrl": "/images-opt/c2-misc-captionify-opt.webp",
+        "info": "### Description\n\nGrab your thinking caps 🧠💥 and write the best dialogue for our #ENreco illustrations!\n\n🏆 Prizes await the most clever, funny, or heartwarming captions!\n✌️ Post it on X AND Instagram with #ENrecoCaptionify for double the chance to win!\n\n📅 May 4 (9:30 AM JST) - May 11 (9:30 AM JST)\n\n\\- hololive (English)",
+        "src": "/images-opt/c2-misc-captionify-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "Journals of the Talents",
+        "originalUrl": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "thumbnailUrl": "/images-opt/c2-misc-journals-opt.webp",
+        "info": "### Descriptions\n\nDaily journals written by the talents during the event of Chapter 2, posted on hololive (English)'s twitter.\n\n- [Day 1 - May 5, 2025](https://x.com/hololive_En/status/1919199141420540281)\n- [Day 2 - May 6, 2025](https://x.com/hololive_En/status/1919561543014076716)\n- [Day 3 - May 7, 2025](https://x.com/hololive_En/status/1919923990598189410)\n- [Day 4 (1/2) - May 8, 2025](https://x.com/hololive_En/status/1920293116965527800)\n- [Day 4 (2/2) - May 8, 2025](https://x.com/hololive_En/status/1920293196229423247)\n- [Day 5 (1/2) - May 9, 2025](https://x.com/hololive_En/status/1920648722947715285)\n- [Day 5 (2/2) - May 9, 2025](https://x.com/hololive_En/status/1920648778815844817)\n- [Day 6 - May 10, 2025](https://x.com/hololive_En/status/1921011068576649575)\n- [Day 7 (1/2) - May 11, 2025](https://x.com/hololive_En/status/1921373485231902828)\n- [Day 7 (2/2) - May 11, 2025](https://x.com/hololive_En/status/1921373522787737918)\n- [Day 8 - May 12, 2025](https://x.com/hololive_En/status/1921417550325592518)",
+        "src": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "type": "youtube"
       }
     ]
   },
@@ -290,7 +406,6 @@
     "description": "A daily series recapping the events of the second chapter",
     "info": "### Description\n\nTaking place on the first, fourth, and seventh days of Chapter Two, this series of short streams—hosted by Calli and Kiara—served to recap the events of the previous days, helping everyone stay up to date as the story unfolded.\n\nThe broadcasts featured fan-made clips highlighting funny moments, readings of journals written by the heroes, and announcements of upcoming dungeons and events scheduled for the day.",
     "chapter": 2,
-    "category": "official",
     "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
     "entries": [
       {
@@ -325,7 +440,6 @@
     "description": "Collection of memories recovered in the second chapter",
     "info": "",
     "chapter": 2,
-    "category": "official",
     "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
     "entries": [
       {
@@ -355,106 +469,67 @@
     ]
   },
   {
-    "id": "c2-song",
-    "title": "Official Theme Song",
-    "description": "In the mirror, you see the darkest side of you",
-    "info": "",
+    "id": "c2-talent",
+    "title": "Talent-made Media",
+    "description": "Special content made by the talents during the event",
+    "info": "### Description\n\nStarting from the second day onward, we see Lady Bloodflame in her office, writing and reading aloud her daily journal—or as she called it, the \"Knight’s Log.\"\n\nThese logs recorded the events she had experienced the day before, but more importantly, how those moments had affected her. As she reminisced and reflected, her thoughts grew deeper and more contemplative—about herself, about those around her, and above all, about what it truly meant to be a knight.",
     "chapter": 2,
-    "category": "official",
-    "thumbnailUrl": "/images-opt/c2-song-monster-opt.webp",
-    "entries": [
-      {
-        "title": "MONSTER - Chapter 2 Theme Song",
-        "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A",
-        "thumbnailUrl": "/images-opt/c2-song-monster-opt.webp",
-        "info": "### Description\n\nReleased on May 3, 2025, *MONSTER* is the official theme song for the second chapter of **ENigmatic Recollection**, featuring Gigi, Ina, Kronii, and Shiori.\n\nAn intense electronic rock track infused with disorienting, jazz-inflected harmonic instability, it perfectly captures the project’s chaotic, high-stakes lore. Lyrically, it explores the **erosion of identity** and the struggle to confront the **inner “monster”**—not an external enemy, but the darkest, fragmented side of oneself screaming from within.\n\nVisually speaking, the song is strikingly well-animated, filled with subtle symbolism tied to the overarching story of the second chapter—most notably, the final sequence where four cards representing the heroes are shown, and only Shiori’s is turned over, by her own hand.",
-        "src": "https://www.youtube.com/watch?v=nUrITFpI85A",
-        "type": "youtube"
-      },
-      {
-        "title": "Chapter 2 - Loading Screen",
-        "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
-        "thumbnailUrl": "/images-opt/c2-song-spin-opt.webp",
-        "info": "### Description\n\nThis loading screen was used by all the talents as they prepared to begin their day in Chapter 2. It features a looping animation of a spinning tarot card, with each rotation revealing a different hero, set against a starry, mystical backdrop.\n\nThe background music is the instrumental version of **MONSTER**, the official theme song of Chapter 2.",
-        "src": "https://cdn.enreco-archive.net/c2-song-spin-opt.mp4",
-        "type": "video"
-      }
-    ]
-  },
-  {
-    "id": "c2-cecilia-princess",
-    "title": "Immerkind's Serenade",
-    "description": "A confession of love from the kindest one",
-    "info": "",
-    "chapter": 2,
-    "category": "talent-made",
-    "thumbnailUrl": "/images-opt/c2-cecilia-princess-song-opt.webp",
+    "thumbnailUrl": "/images-opt/c2-talent-cecilia-princess-song-opt.webp",
     "entries": [
       {
         "title": "Oh Princess",
         "originalUrl": "https://www.youtube.com/watch?v=5x9ix5CGmoo",
-        "thumbnailUrl": "/images-opt/c2-cecilia-princess-song-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-cecilia-princess-song-opt.webp",
         "info": "### Description\n\nAfter days of bottling up her emotions, Cecilia finally found the courage. On the sixth day of the second chapter, she poured all her feelings into a heartfelt serenade — a confession of love to the princess she had long admired and devoted herself to.",
         "src": "https://www.youtube.com/watch?v=5x9ix5CGmoo",
         "type": "youtube"
-      }
-    ]
-  },
-  {
-    "id": "c2-liz-intro",
-    "title": "Knight's Log",
-    "description": "Lady Bloodflame's daily journal of her second journey",
-    "info": "### Description\n\nStarting from the second day onward, we see Lady Bloodflame in her office, writing and reading aloud her daily journal—or as she called it, the \"Knight’s Log.\"\n\nThese logs recorded the events she had experienced the day before, but more importantly, how those moments had affected her. As she reminisced and reflected, her thoughts grew deeper and more contemplative—about herself, about those around her, and above all, about what it truly meant to be a knight.",
-    "chapter": 2,
-    "category": "talent-made",
-    "thumbnailUrl": "/images-opt/c2-liz-intro-1-opt.webp",
-    "entries": [
+      },
       {
         "title": "Knight's Log - Day 1",
         "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
-        "thumbnailUrl": "/images-opt/c2-liz-intro-1-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-1-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c2-liz-intro-1-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-1-opt.mp4",
         "type": "video"
       },
       {
         "title": "Knight's Log - Day 2",
         "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
-        "thumbnailUrl": "/images-opt/c2-liz-intro-2-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-2-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c2-liz-intro-2-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-2-opt.mp4",
         "type": "video"
       },
       {
         "title": "Knight's Log - Day 4",
         "originalUrl": "https://www.youtube.com/watch?v=1tE2N1kP2YA",
-        "thumbnailUrl": "/images-opt/c2-liz-intro-4-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-4-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c2-liz-intro-4-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-4-opt.mp4",
         "type": "video"
       },
       {
         "title": "Knight's Log - Day 5",
         "originalUrl": "https://www.youtube.com/live/uEB2dIe37oo",
-        "thumbnailUrl": "/images-opt/c2-liz-intro-5-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-5-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c2-liz-intro-5-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-5-opt.mp4",
         "type": "video"
       },
       {
         "title": "Knight's Log - Day 6",
         "originalUrl": "https://www.youtube.com/live/sDjysXFWYbI",
-        "thumbnailUrl": "/images-opt/c2-liz-intro-6-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-6-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c2-liz-intro-6-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-6-opt.mp4",
         "type": "video"
       },
       {
         "title": "Knight's Log - Day 7",
         "originalUrl": "https://www.youtube.com/live/b-jTHH6GK5w",
-        "thumbnailUrl": "/images-opt/c2-liz-intro-7-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-7-opt.webp",
         "info": "",
-        "src": "https://cdn.enreco-archive.net/c2-liz-intro-7-opt.mp4",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-7-opt.mp4",
         "type": "video"
       }
     ]

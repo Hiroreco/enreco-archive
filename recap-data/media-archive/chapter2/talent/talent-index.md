@@ -1,7 +1,7 @@
 <!-- title: Talent-made Media  -->
-<!-- entries: talent-cecilia-princess, talent-liz-intro-1, talent-liz-intro-2, talent-liz-intro-3, talent-liz-intro-4, talent-liz-intro-5, talent-liz-intro-6, talent-liz-intro-7 -->
+<!-- entries: talent-cecilia-princess-song, talent-liz-intro-1, talent-liz-intro-2, talent-liz-intro-3, talent-liz-intro-4, talent-liz-intro-5, talent-liz-intro-6, talent-liz-intro-7 -->
 <!-- description: Special content made by the talents during the event -->
-<!-- thumbnail: talent-cecilia-priness -->
+<!-- thumbnail: talent-cecilia-princess-song -->
 
 ### Description
 
