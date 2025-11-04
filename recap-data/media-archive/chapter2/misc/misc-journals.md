@@ -1,6 +1,6 @@
 <!-- title: Journals of the Talents -->
-<!-- type: youtube -->
-<!-- originalUrl: https://www.youtube.com/watch?v=xb2pi8p9A8U -->
+<!-- type: image -->
+<!-- originalUrl: https://x.com/hololive_En/status/1919199141420540281 -->
 
 ### Descriptions
 

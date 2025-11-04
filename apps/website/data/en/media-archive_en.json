@@ -8,19 +8,19 @@
     "thumbnailUrl": "/images-opt/c1-animation-start-again-opt.webp",
     "entries": [
       {
-        "title": "Official Trailer - Chapter 1",
-        "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA",
-        "thumbnailUrl": "/images-opt/c1-animation-trailer-opt.webp",
-        "info": "### Description\n\nThe official trailer for **ENigmatic Recollection**, released on August 23rd, 2024.\n\nThe trailer offers a broad introduction to the **Kingdom of Libestal** and its heroes, each summoned to this world, cloaked in Libestal’s colors, seen wandering, exploring, venturing forth, and conquering enemies and dungeons alike.\n\n> It is a collection of stories in which the members of hololive English play a part.\n> Through streams, animations, and songs wrought anew, immerse yourself in fresh narratives woven from myriad realms beyond.\n\nAt the time of its release, no one truly knew what this project would become, but even this glimpse alone was enough to ignite immense excitement throughout the community.",
-        "src": "https://www.youtube.com/watch?v=OnMxjFRlywA",
-        "type": "youtube"
-      },
-      {
         "title": "START AGAIN - Chapter 1 Theme Song",
         "originalUrl": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
         "thumbnailUrl": "/images-opt/c1-animation-start-again-opt.webp",
         "info": "### Description\n\nThe official theme song for Chapter 1, featuring Calli, Ina, IRyS, and Elizabeth, released on August 31st, 2024 — the day before the official beginning of this enigmatic journey.\n\nThe song carries a fun, upbeat vibe — an energetic, self-affirming anthem that sets the stage for this incredible journey. Throughout the song, the general theme resembles a declaration of unwavering resolve and renewed confidence, both literal (for the characters who lost their memories) and metaphorical (for facing any new challenge in life or a new creative venture).\n\nIt shows that even after getting lost, they can find their way, unite, and rise stronger than before. Hence, **\"START AGAIN.\"**",
         "src": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
+        "type": "youtube"
+      },
+      {
+        "title": "Official Trailer - Chapter 1",
+        "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA",
+        "thumbnailUrl": "/images-opt/c1-animation-trailer-opt.webp",
+        "info": "### Description\n\nThe official trailer for **ENigmatic Recollection**, released on August 23rd, 2024.\n\nThe trailer offers a broad introduction to the **Kingdom of Libestal** and its heroes, each summoned to this world, cloaked in Libestal’s colors, seen wandering, exploring, venturing forth, and conquering enemies and dungeons alike.\n\n> It is a collection of stories in which the members of hololive English play a part.\n> Through streams, animations, and songs wrought anew, immerse yourself in fresh narratives woven from myriad realms beyond.\n\nAt the time of its release, no one truly knew what this project would become, but even this glimpse alone was enough to ignite immense excitement throughout the community.",
+        "src": "https://www.youtube.com/watch?v=OnMxjFRlywA",
         "type": "youtube"
       }
     ]
@@ -33,6 +33,14 @@
     "chapter": 1,
     "thumbnailUrl": "/images-opt/c1-merch-commemoration-opt.webp",
     "entries": [
+      {
+        "title": "Libestal Cloakstyle Blanket",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_blanket?_pos=3&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-cloak-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-cloak-opt.webp",
+        "type": "image"
+      },
       {
         "title": "Chapter 1 Commemoration Merch",
         "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter1?_pos=6&_sid=331ace359&_ss=r",
@@ -47,14 +55,6 @@
         "thumbnailUrl": "/images-opt/c1-merch-general-opt.webp",
         "info": "",
         "src": "/images-opt/c1-merch-general-opt.webp",
-        "type": "image"
-      },
-      {
-        "title": "Libestal Cloakstyle Blanket",
-        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_blanket?_pos=3&_sid=331ace359&_ss=r",
-        "thumbnailUrl": "/images-opt/c1-merch-cloak-opt.webp",
-        "info": "",
-        "src": "/images-opt/c1-merch-cloak-opt.webp",
         "type": "image"
       },
       {
@@ -192,6 +192,14 @@
     "thumbnailUrl": "/images-opt/c1-recollections-calli-opt.webp",
     "entries": [
       {
+        "title": "Recollection - Amelia Watson",
+        "originalUrl": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
+        "thumbnailUrl": "/images-opt/c1-recollections-ame-opt.webp",
+        "info": "### Description\n\nAmelia Watson’s memories were recovered after the conquest of the Ancient Sewers Dungeon, which took place on the fifth day of the first chapter.\n\nA detective always chasing the next big case, yet every mystery she encountered turned out to be trivial drama at best. She longed for something grand—the case of the century! But when she finally believed she had found it while investigating four mysterious figures, she discovered that they were not villains or myths, but simply kindhearted people.\n\nNonetheless, the revelation left her content. For big or small, it was the thrill of uncovering the truth that brought her joy. After all, she was _the_ number one detective.",
+        "src": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
+        "type": "youtube"
+      },
+      {
         "title": "Recollection - Mori Calliope",
         "originalUrl": "https://www.youtube.com/watch?v=j8I3gqJV1NU",
         "thumbnailUrl": "/images-opt/c1-recollections-calli-opt.webp",
@@ -222,14 +230,6 @@
         "info": "### Description\n\nTakanashi Kiara’s memories were recovered after the conquest of the Volcano Dungeon, which took place on the fourth day of the first chapter.\n\nBorn an immortal, fiery phoenix with a legacy as a warrior who single-handedly brought down countless armies. And now? Upon seeing a business drowning in debt and on the verge of collapse, she stepped in—first as an employee, then as the savior who turned it all around. Today, she stands as the radiant owner of this beloved fast-food franchise.",
         "src": "https://www.youtube.com/watch?v=A3bQdV_sl08",
         "type": "youtube"
-      },
-      {
-        "title": "Recollection - Amelia Watson",
-        "originalUrl": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
-        "thumbnailUrl": "/images-opt/c1-recollections-ame-opt.webp",
-        "info": "### Description\n\nAmelia Watson’s memories were recovered after the conquest of the Ancient Sewers Dungeon, which took place on the fifth day of the first chapter.\n\nA detective always chasing the next big case, yet every mystery she encountered turned out to be trivial drama at best. She longed for something grand—the case of the century! But when she finally believed she had found it while investigating four mysterious figures, she discovered that they were not villains or myths, but simply kindhearted people.\n\nNonetheless, the revelation left her content. For big or small, it was the thrill of uncovering the truth that brought her joy. After all, she was _the_ number one detective.",
-        "src": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
-        "type": "youtube"
       }
     ]
   },
@@ -239,7 +239,7 @@
     "description": "Special content made by the talents during the event",
     "info": "### Description\n\nDuring the first chapter, at the start of each day while waiting to \"wake up,\" Lady Bloodflame would experience flashes of moments that had transpired in the days before.\n\nFrom her promise to Mococo on the first day to her mental breakdown after Nerissa declared she hated the red knight, these flashes, illustrated through rough, simple, yet captivating sketches, captured the moments that lingered in the scarlet knight’s mind. They shaped her character and offered the voices watching her journey a deeper glimpse into her psyche and thoughts.",
     "chapter": 1,
-    "thumbnailUrl": "/images-opt/c1-liz-intro-7-opt.webp",
+    "thumbnailUrl": "/images-opt/c1-talent-liz-intro-7-opt.webp",
     "entries": [
       {
         "title": "Lady Bloodflame's Inner Reflections - Day 1",
@@ -308,6 +308,14 @@
     "thumbnailUrl": "/images-opt/c2-animation-monster-opt.webp",
     "entries": [
       {
+        "title": "ENigmatic Recollection Chapter 2 - Ending",
+        "originalUrl": "https://www.youtube.com/watch?v=pk29y0n9tBI",
+        "thumbnailUrl": "/images-opt/c2-animation-ending-opt.webp",
+        "info": "### Description\n\nFia came to accept that preventing the Outsider’s birth was impossible. The only path left was to stop whatever his intentions were in the present.\n\nOnce more, she called upon the heroes for help. And without hesitation, they answered. They were heroes, after all—if the world needed saving, they would rise to the call, no matter how many times it came.\n\nBut not all of them stepped forward.\n\nFuwawa, Mococo, Bijou, Nerissa, and Shiori stayed behind, shrouded in shadow.\n\nTired of being commanded, tired of living roles written by others, they declared rebellion. They would forge their own path. Do things *their* way.",
+        "src": "https://www.youtube.com/watch?v=pk29y0n9tBI",
+        "type": "youtube"
+      },
+      {
         "title": "MONSTER - Chapter 2 Theme Song",
         "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A",
         "thumbnailUrl": "/images-opt/c2-animation-monster-opt.webp",
@@ -322,14 +330,6 @@
         "info": "### Description\n\nThis loading screen was used by all the talents as they prepared to begin their day in Chapter 2. It features a looping animation of a spinning tarot card, with each rotation revealing a different hero, set against a starry, mystical backdrop.\n\nThe background music is the instrumental version of **MONSTER**, the official theme song of Chapter 2.",
         "src": "https://cdn.enreco-archive.net/c2-animation-spin-opt.mp4",
         "type": "video"
-      },
-      {
-        "title": "ENigmatic Recollection Chapter 2 - Ending",
-        "originalUrl": "https://www.youtube.com/watch?v=pk29y0n9tBI",
-        "thumbnailUrl": "/images-opt/c2-animation-ending-opt.webp",
-        "info": "### Description\n\nFia came to accept that preventing the Outsider’s birth was impossible. The only path left was to stop whatever his intentions were in the present.\n\nOnce more, she called upon the heroes for help. And without hesitation, they answered. They were heroes, after all—if the world needed saving, they would rise to the call, no matter how many times it came.\n\nBut not all of them stepped forward.\n\nFuwawa, Mococo, Bijou, Nerissa, and Shiori stayed behind, shrouded in shadow.\n\nTired of being commanded, tired of living roles written by others, they declared rebellion. They would forge their own path. Do things *their* way.",
-        "src": "https://www.youtube.com/watch?v=pk29y0n9tBI",
-        "type": "youtube"
       }
     ]
   },
@@ -360,27 +360,11 @@
     "thumbnailUrl": "/images-opt/c2-misc-event-stream-opt.webp",
     "entries": [
       {
-        "title": "ENigmatic Recollection Chapter 2 Game Trailer",
-        "originalUrl": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
-        "thumbnailUrl": "/images-opt/c2-misc-trailer-opt.webp",
-        "info": "### Description\n\nReleased just hours before the first day of the second chapter began, the official game trailer offered a glimpse into the world the heroes would soon traverse.\n\nFilled with shots of dungeons, cryptic dialogue lines, and a strikingly cinematic tone, the trailer set a dramatic stage for what would soon unfold into a glorious storm of chaos once the real adventure began.",
-        "src": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
-        "type": "youtube"
-      },
-      {
-        "title": "ENigmatic Recollection - A New Chapter",
-        "originalUrl": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
-        "thumbnailUrl": "/images-opt/c2-misc-event-stream-opt.webp",
-        "info": "### Description\n\nShown on May 3, 2025, the day before the start of the second chapter, this stream, featuring Kronii, Bijou, Nerissa, Ina and Calli, was to introduce and announce official info and what to expect of the second chapter.\n\nThe stream held many fun activities, such as guessing songs, dancing, and answering questions as a balloon gets larger and larger, so large it traumatized Bijou and Calli.",
-        "src": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
-        "type": "youtube"
-      },
-      {
-        "title": "Chapter 2 Webpage",
-        "originalUrl": "https://hololive.hololivepro.com/en/special/16206/",
-        "thumbnailUrl": "/images-opt/c2-misc-site-opt.webp",
-        "info": "### Description\n\nHey #ENreco fans & newcomers! 👋\nWe've launched a new Webpage for ENigmatic Recollection!\nCheck it out to get ready for tomorrow's opening event! 🎉\n\n\\- hololive (English)",
-        "src": "/images-opt/c2-misc-site-opt.webp",
+        "title": "ENreco Artopia Contest",
+        "originalUrl": "https://x.com/hololive_En/status/1913042295668260967",
+        "thumbnailUrl": "/images-opt/c2-misc-artopia-opt.webp",
+        "info": "### Description\n\nCalling all artists! 🖌️🎨\nDraw your favorite #ENreco scene & post it on X/IG with #ENrecoArtopia for a chance to WIN! 🏆\n\n✨ This time you are not limited to one talent so have fun!\n✨ Double entries if you post on both! Let’s see your art!\n\n🗓️ April 18 10:30 JST - May 2 3:59 PM JST\n\n\\- hololive (English)",
+        "src": "/images-opt/c2-misc-artopia-opt.webp",
         "type": "image"
       },
       {
@@ -392,14 +376,6 @@
         "type": "image"
       },
       {
-        "title": "ENreco Artopia Contest",
-        "originalUrl": "https://x.com/hololive_En/status/1913042295668260967",
-        "thumbnailUrl": "/images-opt/c2-misc-artopia-opt.webp",
-        "info": "### Description\n\nCalling all artists! 🖌️🎨\nDraw your favorite #ENreco scene & post it on X/IG with #ENrecoArtopia for a chance to WIN! 🏆\n\n✨ This time you are not limited to one talent so have fun!\n✨ Double entries if you post on both! Let’s see your art!\n\n🗓️ April 18 10:30 JST - May 2 3:59 PM JST\n\n\\- hololive (English)",
-        "src": "/images-opt/c2-misc-artopia-opt.webp",
-        "type": "image"
-      },
-      {
         "title": "ENreco Captionify Contest",
         "originalUrl": "https://x.com/hololive_En/status/1918825402459357591",
         "thumbnailUrl": "/images-opt/c2-misc-captionify-opt.webp",
@@ -408,11 +384,35 @@
         "type": "image"
       },
       {
-        "title": "Journals of the Talents",
+        "title": "ENigmatic Recollection - A New Chapter",
         "originalUrl": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "thumbnailUrl": "/images-opt/c2-misc-event-stream-opt.webp",
+        "info": "### Description\n\nShown on May 3, 2025, the day before the start of the second chapter, this stream, featuring Kronii, Bijou, Nerissa, Ina and Calli, was to introduce and announce official info and what to expect of the second chapter.\n\nThe stream held many fun activities, such as guessing songs, dancing, and answering questions as a balloon gets larger and larger, so large it traumatized Bijou and Calli.",
+        "src": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "type": "youtube"
+      },
+      {
+        "title": "Journals of the Talents",
+        "originalUrl": "https://x.com/hololive_En/status/1919199141420540281",
         "thumbnailUrl": "/images-opt/c2-misc-journals-opt.webp",
         "info": "### Descriptions\n\nDaily journals written by the talents during the event of Chapter 2, posted on hololive (English)'s twitter.\n\n- [Day 1 - May 5, 2025](https://x.com/hololive_En/status/1919199141420540281)\n- [Day 2 - May 6, 2025](https://x.com/hololive_En/status/1919561543014076716)\n- [Day 3 - May 7, 2025](https://x.com/hololive_En/status/1919923990598189410)\n- [Day 4 (1/2) - May 8, 2025](https://x.com/hololive_En/status/1920293116965527800)\n- [Day 4 (2/2) - May 8, 2025](https://x.com/hololive_En/status/1920293196229423247)\n- [Day 5 (1/2) - May 9, 2025](https://x.com/hololive_En/status/1920648722947715285)\n- [Day 5 (2/2) - May 9, 2025](https://x.com/hololive_En/status/1920648778815844817)\n- [Day 6 - May 10, 2025](https://x.com/hololive_En/status/1921011068576649575)\n- [Day 7 (1/2) - May 11, 2025](https://x.com/hololive_En/status/1921373485231902828)\n- [Day 7 (2/2) - May 11, 2025](https://x.com/hololive_En/status/1921373522787737918)\n- [Day 8 - May 12, 2025](https://x.com/hololive_En/status/1921417550325592518)",
-        "src": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "src": "/images-opt/c2-misc-journals-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "Chapter 2 Webpage",
+        "originalUrl": "https://hololive.hololivepro.com/en/special/16206/",
+        "thumbnailUrl": "/images-opt/c2-misc-site-opt.webp",
+        "info": "### Description\n\nHey #ENreco fans & newcomers! 👋\nWe've launched a new Webpage for ENigmatic Recollection!\nCheck it out to get ready for tomorrow's opening event! 🎉\n\n\\- hololive (English)",
+        "src": "/images-opt/c2-misc-site-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENigmatic Recollection Chapter 2 Game Trailer",
+        "originalUrl": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
+        "thumbnailUrl": "/images-opt/c2-misc-trailer-opt.webp",
+        "info": "### Description\n\nReleased just hours before the first day of the second chapter began, the official game trailer offered a glimpse into the world the heroes would soon traverse.\n\nFilled with shots of dungeons, cryptic dialogue lines, and a strikingly cinematic tone, the trailer set a dramatic stage for what would soon unfold into a glorious storm of chaos once the real adventure began.",
+        "src": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
         "type": "youtube"
       }
     ]
@@ -460,6 +460,14 @@
     "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
     "entries": [
       {
+        "title": "Recollection - Hakos Baelz",
+        "originalUrl": "https://youtu.be/aSFZwinYaaU",
+        "thumbnailUrl": "/images-opt/c2-recollections-bae-opt.webp",
+        "info": "### Description\n\nHakos Baelz’s memories were recovered after the conquest of the Star Site: Chaos, which took place on the sixth day of the second chapter.\n\nA rat? A genie? A crazy red woman? Whatever she was didn’t matter—her mere presence was enough to plunge everything around her into chaos. She was energetic, she was powerful, she was chaos itself. With a roll of her dice, reality bent to her will, granting both her and those around her whatever wishes they desired.",
+        "src": "https://youtu.be/aSFZwinYaaU",
+        "type": "youtube"
+      },
+      {
         "title": "Recollection - IRyS",
         "originalUrl": "https://youtu.be/5uaWaQg4pnM",
         "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
@@ -473,14 +481,6 @@
         "thumbnailUrl": "/images-opt/c2-recollections-kronii-opt.webp",
         "info": "### Description\n\nOuro Kronii’s memories were recovered after the conquest of the Star Site: Chronos, which took place on the fourth day of the second chapter.\n\nThe Warden of Time itself—the keeper of the timeline, mender of fractures, and corrector of anomalies across dimensions. She maintained the flow of time and upheld the stability of the multiverse.",
         "src": "https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO",
-        "type": "youtube"
-      },
-      {
-        "title": "Recollection - Hakos Baelz",
-        "originalUrl": "https://youtu.be/aSFZwinYaaU",
-        "thumbnailUrl": "/images-opt/c2-recollections-bae-opt.webp",
-        "info": "### Description\n\nHakos Baelz’s memories were recovered after the conquest of the Star Site: Chaos, which took place on the sixth day of the second chapter.\n\nA rat? A genie? A crazy red woman? Whatever she was didn’t matter—her mere presence was enough to plunge everything around her into chaos. She was energetic, she was powerful, she was chaos itself. With a roll of her dice, reality bent to her will, granting both her and those around her whatever wishes they desired.",
-        "src": "https://youtu.be/aSFZwinYaaU",
         "type": "youtube"
       }
     ]

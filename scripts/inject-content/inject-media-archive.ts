@@ -87,7 +87,9 @@ async function processEntry(
         (p) => !path.basename(p, ".md").endsWith("-index"),
     );
 
-    for (const mediaPath of mediaPaths) {
+    for (const entry of entryList) {
+        const mediaPath = mediaPaths.find((e) => e.includes(entry));
+        if (!mediaPath) continue;
         const baseName = path.basename(mediaPath, ".md");
         const mediaId = `${chapterPrefix}${baseName}`;
 
@@ -125,19 +127,9 @@ async function processEntry(
             type: mediaType,
         });
     }
-
-    if (entryList.length > 0) {
-        mediaEntries.sort((a, b) => {
-            const aIndex = entryList.findIndex(
-                (id) => a.src.includes(id) || a.thumbnailUrl.includes(id),
-            );
-            const bIndex = entryList.findIndex(
-                (id) => b.src.includes(id) || b.thumbnailUrl.includes(id),
-            );
-            return aIndex - bIndex;
-        });
+    if (entryId.includes("misc")) {
+        console.log(mediaEntries.map((entry) => entry.title));
     }
-
     return {
         id: `${chapterPrefix}${entryId}`,
         title,
