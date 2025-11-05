@@ -185,6 +185,23 @@ const Lightbox = ({
     }, [galleryItems]);
 
     useEffect(() => {
+        if (
+            externalIsOpen &&
+            (galleryIndex !== currentGalleryIndex ||
+                galleryIndex !== currentItemIndex)
+        ) {
+            setCurrentItemIndex(galleryIndex);
+            setCurrentGalleryIndex(galleryIndex);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [
+        externalIsOpen,
+        galleryIndex,
+        setCurrentGalleryIndex,
+        setCurrentItemIndex,
+    ]);
+
+    useEffect(() => {
         setCurrentGalleryIndex(galleryIndex);
     }, [galleryIndex]);
 
@@ -207,7 +224,7 @@ const Lightbox = ({
     let blurBgSrc = "";
     if (currentGalleryItem.type === "image") {
         blurBgSrc = getBlurDataURL(currentGalleryItem.src);
-    } else if (currentGalleryItem.type === "video") {
+    } else {
         if (currentGalleryItem.thumbnailSrc) {
             blurBgSrc = getBlurDataURL(currentGalleryItem.thumbnailSrc);
         } else {

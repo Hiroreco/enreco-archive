@@ -44,6 +44,7 @@ const VideoArchiveViewer = ({
                 src: media.src,
                 alt: media.title,
                 type: media.type,
+                thumbnailSrc: media.thumbnailUrl,
             })),
         [entry.entries],
     );
@@ -304,6 +305,7 @@ const VideoArchiveViewer = ({
                         src={currentMedia.src}
                         alt={currentMedia.title}
                         type={currentMedia.type}
+                        authorSrc={currentMedia.originalUrl}
                         isExternallyControlled={true}
                         externalIsOpen={isLightboxOpen}
                         onExternalClose={handleLightboxClose}

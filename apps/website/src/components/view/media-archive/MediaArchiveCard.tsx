@@ -294,7 +294,6 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                 </Tabs>
             </div>
 
-            {/* Lightbox for clips */}
             <VideoModal
                 videoUrl={selectedClip?.originalUrl || ""}
                 open={openModal === "video"}
