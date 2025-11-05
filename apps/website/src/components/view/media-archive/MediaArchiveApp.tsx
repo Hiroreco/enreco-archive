@@ -12,6 +12,7 @@ const VideoArchiveApp = ({ bgImage }: VideoArchiveAppProps) => {
                 className="md:max-w-[1200px] w-[95vw] mt-8 sm:mt-2"
                 bgImage={bgImage}
             />
+
             <ModalCollection
                 modals={["fanart", "settings", "minigame", "music", "info"]}
                 hideOnMobile={["minigame", "info"]}

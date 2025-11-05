@@ -1,10 +1,10 @@
-import Lightbox from "@/components/view/lightbox/Lightbox";
 import ClipsArchiveViewer from "@/components/view/media-archive/clips-archive/ClipsArchiveViewer";
 import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
 import VideoArchiveSelector from "@/components/view/media-archive/video-archive/VideoArchiveSelector";
 import VideoArchiveViewer from "@/components/view/media-archive/video-archive/VideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { getBlurDataURL } from "@/lib/utils";
+import { useViewStore } from "@/store/viewStore";
 import {
     Card,
     CardContent,
@@ -31,6 +31,7 @@ import { ArrowLeft, Film, Info, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState } from "react";
+import VideoModal from "../utility-modals/VideoModal";
 import { ClipEntry, RecollectionArchiveEntry } from "./types";
 
 interface VideoArchiveCardProps {
@@ -41,6 +42,10 @@ interface VideoArchiveCardProps {
 const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
+
+    const closeModal = useViewStore((state) => state.modal.closeModal);
+    const openModal = useViewStore((state) => state.modal.openModal);
+    const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
 
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
@@ -55,6 +60,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const clipsData = getClipsData();
 
     const handleClipClick = (clip: ClipEntry) => {
+        openVideoModal();
         setSelectedClip(clip);
     };
 
@@ -289,25 +295,12 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             </div>
 
             {/* Lightbox for clips */}
-            {selectedClip && (
-                <Lightbox
-                    alt={selectedClip.title}
-                    src={selectedClip.originalUrl}
-                    authorSrc={selectedClip.originalUrl}
-                    type="video"
-                    isExternallyControlled={true}
-                    externalIsOpen={!!selectedClip}
-                    onExternalClose={() => setSelectedClip(null)}
-                    galleryItems={[
-                        {
-                            src: selectedClip.originalUrl,
-                            alt: selectedClip.title,
-                            type: "video",
-                            thumbnailSrc: selectedClip.thumbnailSrc,
-                        },
-                    ]}
-                />
-            )}
+            <VideoModal
+                videoUrl={selectedClip?.originalUrl || ""}
+                open={openModal === "video"}
+                onClose={closeModal}
+                bgImage={bgImage}
+            />
 
             {/* Background */}
             <AnimatePresence>
