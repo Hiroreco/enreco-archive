@@ -30,9 +30,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeft, Film, Info, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import VideoModal from "../utility-modals/VideoModal";
 import { ClipEntry, RecollectionArchiveEntry } from "./types";
+import { useSettingStore } from "@/store/settingStore";
 
 interface VideoArchiveCardProps {
     className?: string;
@@ -46,6 +47,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const closeModal = useViewStore((state) => state.modal.closeModal);
     const openModal = useViewStore((state) => state.modal.openModal);
     const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
+    const locale = useSettingStore((state) => state.locale);
 
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
@@ -109,6 +111,19 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
         activeTab,
         selectedClipCategory,
     ]);
+
+    // Update selectedEntry when locale changes
+    useEffect(() => {
+        if (selectedEntry) {
+            const updatedEntry = data.find(
+                (entry) => entry.id === selectedEntry.id,
+            );
+            if (updatedEntry) {
+                setSelectedEntry(updatedEntry);
+            }
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [locale, data]);
 
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
