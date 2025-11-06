@@ -112,7 +112,11 @@ const FanartModal = ({
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
 
     const viewerBg = useMemo(() => {
-        return CHARACTER_ICON_MAP[selectedCharacters[0]];
+        return (
+            CHARACTER_ICON_MAP[
+                selectedCharacters[selectedCharacters.length - 1]
+            ] || "node-lore-opt.webp"
+        );
     }, [selectedCharacters]);
 
     // Derived state
