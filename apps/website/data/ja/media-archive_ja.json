@@ -239,7 +239,7 @@
     "description": "イベント期間中にタレントたちが制作した特別コンテンツ",
     "info": "### 説明\n\n第1章では、毎朝「目覚め」を待つ間、レディ・ブラッドフレイムの頭に、これまでの日々の出来事がフラッシュバックのようによぎっていました。\n\n初日にモココと交わした約束から、ネリッサに「赤の騎士なんて嫌い」と言われ心が崩れていった瞬間まで——。\nラフでシンプルながらも惹きつけるスケッチによって描かれたこれらの情景は、スカーレットの騎士の心に残る印象的な瞬間を切り取っています。\n\n彼女の内面を形づくるこれらの断片は、旅路を見守る観客に、彼女の心の奥にある想いや葛藤を垣間見せてくれました。",
     "chapter": 1,
-    "thumbnailUrl": "/images-opt/c1-talent-liz-intro-7-opt.webp",
+    "thumbnailUrl": "/images-opt/c1-talent-liz-intro-8-opt.webp",
     "entries": [
       {
         "title": "レディ・ブラッドフレイムの内なる想い - 一日目",
@@ -295,6 +295,14 @@
         "thumbnailUrl": "/images-opt/c1-talent-liz-intro-7-opt.webp",
         "info": "",
         "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-7-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 八日目",
+        "originalUrl": "https://www.youtube.com/watch?v=_urPfTQnLes",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-8-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-8-opt.mp4",
         "type": "video"
       }
     ]

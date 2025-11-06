@@ -230,7 +230,7 @@ async function processMarkdownFiles() {
             const outputFilePathOpt = path.join(
                 SHARED_RESOURCES_DIR,
                 relativePath
-                    .replace(/\.md$/, extension)
+                    .replace(/\.md$/, ".webp")
                     .replace(baseName, `${chapterPrefix}${baseName}-opt`),
             );
 

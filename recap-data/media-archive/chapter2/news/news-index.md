@@ -1,7 +1,7 @@
 <!-- title: ENreco NEWS -->
-<!-- entries: recaps-1, recaps-2, recaps-3 -->
+<!-- entries: news-1, news-2, news-3 -->
 <!-- description: A daily series recapping the events of the second chapter -->
-<!-- thumbnail: recaps-1 -->
+<!-- thumbnail: news-1 -->
 
 ### Description
 

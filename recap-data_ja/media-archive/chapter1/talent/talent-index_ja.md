@@ -1,7 +1,7 @@
 <!-- title: タレント制作メディア -->
-<!-- entries: talent-liz-intro-1_ja, talent-liz-intro-2_ja, talent-liz-intro-3_ja, talent-liz-intro-4_ja, talent-liz-intro-5_ja, talent-liz-intro-6_ja, talent-liz-intro-7_ja -->
+<!-- entries: talent-liz-intro-1_ja, talent-liz-intro-2_ja, talent-liz-intro-3_ja, talent-liz-intro-4_ja, talent-liz-intro-5_ja, talent-liz-intro-6_ja, talent-liz-intro-7_ja, talent-liz-intro-8_ja -->
 <!-- description: イベント期間中にタレントたちが制作した特別コンテンツ -->
-<!-- thumbnail: talent-liz-intro-7 -->
+<!-- thumbnail: talent-liz-intro-8 -->
 
 ### 説明
 
