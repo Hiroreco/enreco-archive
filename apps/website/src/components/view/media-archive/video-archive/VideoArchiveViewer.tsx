@@ -15,6 +15,7 @@ import "swiper/css";
 import "swiper/css/effect-creative";
 import { useTranslations } from "next-intl";
 import Lightbox from "../../lightbox/Lightbox";
+import { useViewStore } from "@/store/viewStore";
 
 interface VideoArchiveViewerProps {
     entry: RecollectionArchiveEntry;
@@ -26,6 +27,7 @@ const VideoArchiveViewer = ({
     onMediaIndexChange,
 }: VideoArchiveViewerProps) => {
     const t = useTranslations("mediaArchive");
+    const openModal = useViewStore((state) => state.modal.openModal);
 
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -53,6 +55,28 @@ const VideoArchiveViewer = ({
         () => currentMedia.type === "video" || currentMedia.type === "youtube",
         [currentMedia.type],
     );
+
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (isLightboxOpen || openModal !== null) {
+                return;
+            }
+            if (e.key === "ArrowRight") {
+                setCurrentMediaIndex((prev) =>
+                    prev < entry.entries.length - 1 ? prev + 1 : prev,
+                );
+                setPlayingVideos(new Set());
+            } else if (e.key === "ArrowLeft") {
+                setCurrentMediaIndex((prev) => (prev > 0 ? prev - 1 : prev));
+                setPlayingVideos(new Set());
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [entry.entries.length, isLightboxOpen, openModal]);
 
     const handleThumbnailClick = useCallback(
         (index: number) => {
