@@ -125,6 +125,21 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale, data]);
 
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (openModal !== null) {
+                return;
+            }
+            if (e.key === "Escape" && selectedEntry) {
+                handleBackClick();
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [selectedEntry, openModal]);
+
     return (
         <Card className={cn("items-card flex flex-col relative", className)}>
             <CardHeader className="px-6 pb-3">
