@@ -98,7 +98,7 @@ const CollapsibleHeader = ({
 }: CollapsibleHeaderProps) => {
     const t = useTranslations("modals.art");
     return (
-        <div className="relative">
+        <div className="relative md:hidden block">
             <div
                 className={cn(
                     "overflow-hidden transition-all duration-300 ease-in-out",

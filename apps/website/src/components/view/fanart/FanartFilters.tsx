@@ -1,8 +1,5 @@
 import CharacterSelector from "@/components/view/fanart/CharacterSelector";
-import {
-    InclusiveMode,
-    SortMode,
-} from "@/components/view/fanart/FanartModal";
+import { InclusiveMode, SortMode } from "@/components/view/fanart/FanartModal";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -17,8 +14,11 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { Shuffle } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
+import CollapsibleHeader from "./CollapsibleHeader";
 
 interface FanartFiltersProps {
     selectedCharacters: string[];
@@ -29,21 +29,51 @@ interface FanartFiltersProps {
     days: number[];
     nameMap: Record<string, string>;
     inclusiveMode: InclusiveMode;
-    sortMode: SortMode; // Add this prop
+    sortMode: SortMode;
     videosOnly: boolean;
     memesOnly?: boolean;
     onCharactersChange: (characters: string[]) => void;
     onChapterChange: (chapter: string) => void;
     onDayChange: (day: string) => void;
     onInclusiveModeChange: (currentMode: InclusiveMode) => void;
-    onSortModeChange: (currentMode: SortMode) => void; // Add this prop
+    onSortModeChange: (currentMode: SortMode) => void;
     onVideosOnlyChange: (videosOnly: boolean) => void;
     onMemesOnlyChange: (memesOnly: boolean) => void;
     onReset: () => void;
     onShuffle: () => void;
     shuffled: boolean;
     totalItems: number;
+    isCollapsed: boolean;
+    isPinned: boolean;
+    onTogglePin: () => void;
+    onToggleCollapse: () => void;
 }
+
+const CHARACTER_ICON_MAP: Record<string, string> = {
+    all: "node-lore-opt.webp",
+    various: "node-lore-opt.webp",
+    bloodraven: "node-lore-opt.webp",
+    gura: "node-gura-opt.webp",
+    ina: "node-ina-opt.webp",
+    kiara: "node-kiara-opt.webp",
+    ame: "node-ame-opt.webp",
+    calli: "node-calli-opt.webp",
+    bae: "node-bae-opt.webp",
+    kronii: "node-kronii-opt.webp",
+    irys: "node-irys-opt.webp",
+    fauna: "node-fauna-opt.webp",
+    moom: "node-mumei-opt.webp",
+    fuwawa: "node-fuwawa-opt.webp",
+    mococo: "node-mococo-opt.webp",
+    shiori: "node-shiori-opt.webp",
+    nerissa: "node-nerissa-opt.webp",
+    bijou: "node-bijou-opt.webp",
+    cecilia: "node-cecilia-opt.webp",
+    liz: "node-liz-opt.webp",
+    raora: "node-raora-opt.webp",
+    gigi: "node-gigi-opt.webp",
+    iphania: "node-iphania-opt.webp",
+};
 
 const FanartFilters = ({
     selectedCharacters,
@@ -54,360 +84,346 @@ const FanartFilters = ({
     days,
     nameMap,
     inclusiveMode,
-    sortMode, // Add this prop
+    sortMode,
     videosOnly,
     memesOnly,
     onCharactersChange,
     onChapterChange,
     onDayChange,
     onInclusiveModeChange,
-    onSortModeChange, // Add this prop
+    onSortModeChange,
     onVideosOnlyChange,
     onMemesOnlyChange,
     onReset,
     onShuffle,
     shuffled,
-    totalItems,
+    isCollapsed,
+    isPinned,
+    onTogglePin,
+    onToggleCollapse,
 }: FanartFiltersProps) => {
     const t = useTranslations("modals.art");
+
+    const handleCharacterClick = (character: string) => {
+        if (
+            character === "all" ||
+            character === "various" ||
+            character === "bloodraven"
+        ) {
+            onCharactersChange([character]);
+        } else if (
+            selectedCharacters.includes("all") ||
+            selectedCharacters.includes("various") ||
+            selectedCharacters.includes("bloodraven")
+        ) {
+            onCharactersChange([character]);
+        } else if (selectedCharacters.includes(character)) {
+            const next = selectedCharacters.filter((c) => c !== character);
+            onCharactersChange(next.length === 0 ? ["all"] : next);
+        } else {
+            onCharactersChange([...selectedCharacters, character]);
+        }
+    };
+
+    const handleBloodravenClick = () => {
+        if (selectedCharacters.includes("bloodraven")) {
+            onCharactersChange(["all"]);
+        } else {
+            onCharactersChange(["bloodraven"]);
+        }
+    };
+
+    const getCharacterName = (character: string) => {
+        return (
+            nameMap[character] ||
+            character.charAt(0).toUpperCase() + character.slice(1)
+        );
+    };
+
     return (
-        <div className="border-b pb-4">
+        <>
+            {/* Desktop layout with sidebar */}
+            <div className="hidden md:flex h-full gap-4">
+                {/* Sidebar - Characters */}
+                <div className="flex flex-col gap-2 w-48 shrink-0 overflow-y-auto pr-1">
+                    <p className="text-sm font-semibold mb-2">
+                        {t("character")}
+                    </p>
+                    <button
+                        type="button"
+                        onClick={() => onCharactersChange(["all"])}
+                        className={cn(
+                            "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                            "hover:bg-foreground/10 flex items-center gap-2",
+                            selectedCharacters.includes("all") &&
+                                "bg-foreground/20 font-semibold",
+                        )}
+                    >
+                        <Image
+                            src={`images-opt/${CHARACTER_ICON_MAP["all"]}`}
+                            alt="all"
+                            width={25}
+                            height={25}
+                            className="rounded-md object-cover"
+                        />
+                        {t("charFilter.all")}
+                    </button>
+                    <button
+                        type="button"
+                        onClick={() => handleCharacterClick("various")}
+                        className={cn(
+                            "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                            "hover:bg-foreground/10 flex items-center gap-2",
+                            selectedCharacters.includes("various") &&
+                                "bg-foreground/20 font-semibold",
+                        )}
+                    >
+                        <Image
+                            src={`images-opt/${CHARACTER_ICON_MAP["various"]}`}
+                            alt="various"
+                            width={25}
+                            height={25}
+                            className="rounded-md object-cover"
+                        />
+                        {t("charFilter.various")}
+                    </button>
+                    <button
+                        type="button"
+                        onClick={handleBloodravenClick}
+                        className={cn(
+                            "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                            "hover:bg-foreground/10 flex items-center gap-2",
+                            selectedCharacters.includes("bloodraven") &&
+                                "bg-foreground/20 font-semibold",
+                        )}
+                    >
+                        <Image
+                            src={`images-opt/${CHARACTER_ICON_MAP["bloodraven"]}`}
+                            alt="bloodraven"
+                            width={25}
+                            height={25}
+                            className="rounded-md object-cover"
+                        />
+                        {t("charFilter.bloodraven")}
+                    </button>
+                    {characters.map((character) => (
+                        <button
+                            type="button"
+                            key={character}
+                            onClick={() => handleCharacterClick(character)}
+                            className={cn(
+                                "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                                "hover:bg-foreground/10 flex items-center gap-2",
+                                selectedCharacters.includes(character) &&
+                                    "bg-foreground/20 font-semibold",
+                            )}
+                        >
+                            <Image
+                                src={`images-opt/${CHARACTER_ICON_MAP[character]}`}
+                                alt={character}
+                                width={25}
+                                height={25}
+                                className="rounded-md object-cover"
+                            />
+                            {getCharacterName(character)}
+                        </button>
+                    ))}
+                </div>
+            </div>
             {/* Mobile layout */}
-            <div className="md:hidden space-y-2">
-                <div className="grid grid-cols-2 gap-2 px-2">
-                    <div className="space-y-1">
-                        <label className="text-xs font-medium text-muted-foreground">
-                            {t("chapter")}
-                        </label>
-                        <Select
-                            value={selectedChapter}
-                            onValueChange={onChapterChange}
-                        >
-                            <SelectTrigger className="h-8 text-sm">
-                                <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="all">
-                                    {t("charFilter.all")}
-                                </SelectItem>
-                                {chapters.map((chapter) => (
-                                    <SelectItem
-                                        key={chapter}
-                                        value={chapter.toString()}
-                                    >
-                                        {chapter + 1}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
-                    </div>
-                    <div className="space-y-1">
-                        <label className="text-xs font-medium text-muted-foreground">
-                            {t("day")}
-                        </label>
-                        <Select value={selectedDay} onValueChange={onDayChange}>
-                            <SelectTrigger className="h-8 text-sm">
-                                <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="all">
-                                    {t("charFilter.all")}
-                                </SelectItem>
-                                {days.map((day) => (
-                                    <SelectItem
-                                        key={day}
-                                        value={day.toString()}
-                                    >
-                                        {day + 1}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
-                    </div>
-                </div>
-                <CharacterSelector
-                    selectedCharacters={selectedCharacters}
-                    characters={characters}
-                    nameMap={nameMap}
-                    onCharactersChange={onCharactersChange}
-                    mobile={true}
-                />
 
-                {/* Mobile filters container */}
-                <div className="grid grid-cols-2 gap-2">
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                id="fanart-inclusive-mode-mobile"
-                                size={"sm"}
-                                variant={"outline"}
-                                disabled={
-                                    selectedCharacters.includes("all") ||
-                                    selectedCharacters.includes("various") ||
-                                    selectedCharacters.includes("bloodraven")
-                                }
-                                onClick={() =>
-                                    onInclusiveModeChange(inclusiveMode)
-                                }
-                                aria-label={t(
-                                    `inclusiveModes.${inclusiveMode}.description`,
-                                )}
-                                className={`h-6 text-xs flex items-center gap-1`}
+            <CollapsibleHeader
+                isCollapsed={isCollapsed}
+                isPinned={isPinned}
+                onTogglePin={onTogglePin}
+                onToggleCollapse={onToggleCollapse}
+            >
+                <div className="md:hidden space-y-2 border-b pb-4">
+                    <div className="grid grid-cols-2 gap-2 px-2">
+                        <div className="space-y-1">
+                            <label className="text-xs font-medium text-muted-foreground">
+                                {t("chapter")}
+                            </label>
+                            <Select
+                                value={selectedChapter}
+                                onValueChange={onChapterChange}
                             >
-                                <span>{t("inclusiveModes.include")}:</span>
-                                <span className="font-bold">
-                                    {t(`inclusiveModes.${inclusiveMode}.label`)}
-                                </span>
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            {t(`inclusiveModes.${inclusiveMode}.description`)}
-                        </TooltipContent>
-                    </Tooltip>
-
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                id="fanart-sort-mode-mobile"
-                                size={"sm"}
-                                variant={"outline"}
-                                onClick={() => onSortModeChange(sortMode)}
-                                aria-label={t(
-                                    `sortModes.${sortMode}.description`,
-                                )}
-                                className={`h-6 text-xs flex items-center gap-1`}
+                                <SelectTrigger className="h-8 text-sm">
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="all">
+                                        {t("charFilter.all")}
+                                    </SelectItem>
+                                    {chapters.map((chapter) => (
+                                        <SelectItem
+                                            key={chapter}
+                                            value={chapter.toString()}
+                                        >
+                                            {chapter + 1}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
+                        </div>
+                        <div className="space-y-1">
+                            <label className="text-xs font-medium text-muted-foreground">
+                                {t("day")}
+                            </label>
+                            <Select
+                                value={selectedDay}
+                                onValueChange={onDayChange}
                             >
-                                <span>{t("sortModes.sort")}:</span>
-                                <span className="font-bold">
-                                    {t(`sortModes.${sortMode}.label`)}
-                                </span>
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            {t(`sortModes.${sortMode}.description`)}
-                        </TooltipContent>
-                    </Tooltip>
-
-                    <Button
-                        variant={shuffled ? "default" : "outline"}
-                        size="sm"
-                        onClick={onShuffle}
-                        title={shuffled ? t("shuffle.off") : t("shuffle.on")}
-                        aria-label={
-                            shuffled ? t("shuffle.off") : t("shuffle.on")
-                        }
-                        className="w-full flex items-center justify-center h-6 text-xs"
-                    >
-                        <Shuffle className="w-4 h-4 mr-1" />
-                        {shuffled ? t("shuffle.off") : t("shuffle.on")}
-                    </Button>
-                    <div className="flex items-center gap-2">
-                        <Checkbox
-                            id="videos-only-mobile"
-                            checked={videosOnly}
-                            onCheckedChange={(checked) =>
-                                onVideosOnlyChange(checked === true)
-                            }
-                        />
-                        <label
-                            htmlFor="videos-only-mobile"
-                            className="text-xs font-medium text-muted-foreground"
-                        >
-                            {t("videosOnly")}
-                        </label>
+                                <SelectTrigger className="h-8 text-sm">
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="all">
+                                        {t("charFilter.all")}
+                                    </SelectItem>
+                                    {days.map((day) => (
+                                        <SelectItem
+                                            key={day}
+                                            value={day.toString()}
+                                        >
+                                            {day + 1}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
+                        </div>
                     </div>
 
-                    <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={onReset}
-                        className="w-full flex items-center justify-center h-6 text-xs"
-                    >
-                        {t("reset")}
-                    </Button>
+                    <CharacterSelector
+                        selectedCharacters={selectedCharacters}
+                        characters={characters}
+                        nameMap={nameMap}
+                        onCharactersChange={onCharactersChange}
+                        mobile={true}
+                    />
 
-                    <div className="flex items-center gap-2">
-                        <Checkbox
-                            id="dna-of-the-soul-mobile"
-                            checked={memesOnly}
-                            onCheckedChange={(checked) =>
-                                onMemesOnlyChange(checked === true)
-                            }
-                        />
-                        <label
-                            htmlFor="dna-of-the-soul-mobile"
-                            className="text-xs font-medium text-muted-foreground"
-                        >
-                            {t("memes")}
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-            {/* Desktop layout */}
-            <div className="hidden md:flex flex-wrap gap-4 items-center">
-                <CharacterSelector
-                    selectedCharacters={selectedCharacters}
-                    characters={characters}
-                    nameMap={nameMap}
-                    onCharactersChange={onCharactersChange}
-                    mobile={false}
-                />
-
-                <div className="flex items-center gap-2">
-                    <label className="text-sm font-medium">
-                        {t("chapter")}:
-                    </label>
-                    <Select
-                        value={selectedChapter}
-                        onValueChange={onChapterChange}
-                    >
-                        <SelectTrigger className="w-[100px]">
-                            <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                            <SelectItem value="all">
-                                {t("charFilter.all")}
-                            </SelectItem>
-                            {chapters.map((chapter) => (
-                                <SelectItem
-                                    key={chapter}
-                                    value={chapter.toString()}
+                    <div className="grid grid-cols-2 gap-2">
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <Button
+                                    id="fanart-inclusive-mode-mobile"
+                                    size={"sm"}
+                                    variant={"outline"}
+                                    disabled={
+                                        selectedCharacters.includes("all") ||
+                                        selectedCharacters.includes(
+                                            "various",
+                                        ) ||
+                                        selectedCharacters.includes(
+                                            "bloodraven",
+                                        )
+                                    }
+                                    onClick={() =>
+                                        onInclusiveModeChange(inclusiveMode)
+                                    }
+                                    aria-label={t(
+                                        `inclusiveModes.${inclusiveMode}.description`,
+                                    )}
+                                    className={`h-6 text-xs flex items-center gap-1`}
                                 >
-                                    {chapter + 1}
-                                </SelectItem>
-                            ))}
-                        </SelectContent>
-                    </Select>
-                </div>
-
-                <div className="flex items-center gap-2">
-                    <label className="text-sm font-medium">{t("day")}:</label>
-                    <Select value={selectedDay} onValueChange={onDayChange}>
-                        <SelectTrigger className="w-[100px]">
-                            <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                            <SelectItem value="all">
-                                {t("charFilter.all")}
-                            </SelectItem>
-                            {days.map((day) => (
-                                <SelectItem key={day} value={day.toString()}>
-                                    {day + 1}
-                                </SelectItem>
-                            ))}
-                        </SelectContent>
-                    </Select>
-                </div>
-
-                <div className="flex items-center gap-2">
-                    <Checkbox
-                        id="videos-only-desktop"
-                        checked={videosOnly}
-                        onCheckedChange={(checked) =>
-                            onVideosOnlyChange(checked === true)
-                        }
-                    />
-                    <label
-                        htmlFor="videos-only-desktop"
-                        className="text-sm font-medium"
-                    >
-                        {t("videosOnly")}
-                    </label>
-                </div>
-
-                <div className="flex items-center gap-2">
-                    <Checkbox
-                        id="dna-of-the-soul-desktop"
-                        checked={memesOnly}
-                        onCheckedChange={(checked) =>
-                            onMemesOnlyChange(checked === true)
-                        }
-                    />
-                    <label
-                        htmlFor="dna-of-the-soul-desktop"
-                        className="text-sm font-medium"
-                    >
-                        {t("memes")}
-                    </label>
-                </div>
-
-                <div className="flex flex-row gap-2 items-center">
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                id="fanart-inclusive-mode"
-                                size={"sm"}
-                                variant={"outline"}
-                                disabled={
-                                    selectedCharacters.includes("all") ||
-                                    selectedCharacters.includes("various") ||
-                                    selectedCharacters.includes("bloodraven")
-                                }
-                                className={`min-w-36 flex items-center gap-1`}
-                                onClick={() =>
-                                    onInclusiveModeChange(inclusiveMode)
-                                }
-                                aria-label={t(
+                                    <span>{t("inclusiveModes.include")}:</span>
+                                    <span className="font-bold">
+                                        {t(
+                                            `inclusiveModes.${inclusiveMode}.label`,
+                                        )}
+                                    </span>
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                {t(
                                     `inclusiveModes.${inclusiveMode}.description`,
                                 )}
+                            </TooltipContent>
+                        </Tooltip>
+
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <Button
+                                    id="fanart-sort-mode-mobile"
+                                    size={"sm"}
+                                    variant={"outline"}
+                                    onClick={() => onSortModeChange(sortMode)}
+                                    aria-label={t(
+                                        `sortModes.${sortMode}.description`,
+                                    )}
+                                    className={`h-6 text-xs flex items-center gap-1`}
+                                >
+                                    <span>{t("sortModes.sort")}:</span>
+                                    <span className="font-bold">
+                                        {t(`sortModes.${sortMode}.label`)}
+                                    </span>
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                {t(`sortModes.${sortMode}.description`)}
+                            </TooltipContent>
+                        </Tooltip>
+
+                        <Button
+                            variant={shuffled ? "default" : "outline"}
+                            size="sm"
+                            onClick={onShuffle}
+                            title={
+                                shuffled ? t("shuffle.off") : t("shuffle.on")
+                            }
+                            aria-label={
+                                shuffled ? t("shuffle.off") : t("shuffle.on")
+                            }
+                            className="w-full flex items-center justify-center h-6 text-xs"
+                        >
+                            <Shuffle className="w-4 h-4 mr-1" />
+                            {shuffled ? t("shuffle.off") : t("shuffle.on")}
+                        </Button>
+
+                        <div className="flex items-center gap-2">
+                            <Checkbox
+                                id="videos-only-mobile"
+                                checked={videosOnly}
+                                onCheckedChange={(checked) =>
+                                    onVideosOnlyChange(checked === true)
+                                }
+                            />
+                            <label
+                                htmlFor="videos-only-mobile"
+                                className="text-xs font-medium text-muted-foreground"
                             >
-                                <span>{t("inclusiveModes.include")}:</span>
-                                <span className="font-bold">
-                                    {t(`inclusiveModes.${inclusiveMode}.label`)}
-                                </span>
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            {t(`inclusiveModes.${inclusiveMode}.description`)}
-                        </TooltipContent>
-                    </Tooltip>
+                                {t("videosOnly")}
+                            </label>
+                        </div>
 
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                id="fanart-sort-mode"
-                                size={"sm"}
-                                variant={"outline"}
-                                className={`min-w-36 flex items-center gap-1`}
-                                onClick={() => onSortModeChange(sortMode)}
-                                aria-label={t(
-                                    `sortModes.${sortMode}.description`,
-                                )}
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={onReset}
+                            className="w-full flex items-center justify-center h-6 text-xs"
+                        >
+                            {t("reset")}
+                        </Button>
+
+                        <div className="flex items-center gap-2">
+                            <Checkbox
+                                id="dna-of-the-soul-mobile"
+                                checked={memesOnly}
+                                onCheckedChange={(checked) =>
+                                    onMemesOnlyChange(checked === true)
+                                }
+                            />
+                            <label
+                                htmlFor="dna-of-the-soul-mobile"
+                                className="text-xs font-medium text-muted-foreground"
                             >
-                                <span>{t("sortModes.sort")}:</span>
-                                <span className="font-bold">
-                                    {t(`sortModes.${sortMode}.label`)}
-                                </span>
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            {t(`sortModes.${sortMode}.description`)}
-                        </TooltipContent>
-                    </Tooltip>
-
-                    <Button variant="outline" size="sm" onClick={onReset}>
-                        {t("reset")}
-                    </Button>
-                    <Button
-                        size="sm"
-                        onClick={onShuffle}
-                        variant={"outline"}
-                        title={shuffled ? t("shuffle.off") : t("shuffle.on")}
-                        aria-label={
-                            shuffled ? t("shuffle.off") : t("shuffle.on")
-                        }
-                        className={`${shuffled ? "bg-accent text-accent-foreground" : ""}`}
-                    >
-                        <Shuffle className="w-4 h-4" />
-                    </Button>
+                                {t("memes")}
+                            </label>
+                        </div>
+                    </div>
                 </div>
-
-                <div className="ml-auto text-sm text-muted-foreground">
-                    {t("items", { val: totalItems })}
-                </div>
-            </div>
-        </div>
+            </CollapsibleHeader>
+        </>
     );
 };
 
