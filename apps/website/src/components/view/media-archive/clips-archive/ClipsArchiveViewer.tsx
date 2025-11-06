@@ -1,6 +1,7 @@
 import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
 import { ClipEntry } from "@/components/view/media-archive/types";
 import { getBlurDataURL } from "@/lib/utils";
+import { useSettingStore } from "@/store/settingStore";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import {
     Select,
@@ -494,9 +495,10 @@ interface ClipCardProps {
 }
 
 const ClipCard = ({ clip, onClick }: ClipCardProps) => {
+    const locale = useSettingStore((state) => state.locale);
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
-        return new Intl.DateTimeFormat("en-US", {
+        return new Intl.DateTimeFormat(locale, {
             year: "numeric",
             month: "short",
             day: "numeric",
