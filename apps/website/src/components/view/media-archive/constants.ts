@@ -19,4 +19,5 @@ export const CATEGORY_ICON_MAP: Record<string, string> = {
     raora: "node-raora-opt.webp",
     gigi: "node-gigi-opt.webp",
     all: "node-lore-opt.webp",
+    animatics: "cat-animatics-opt.webp",
 };

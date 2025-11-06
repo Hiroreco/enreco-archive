@@ -1,11 +1,22 @@
 {
-  "extends": "@enreco-archive/typescript-config/react-library.json",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@enreco-archive/common-ui/*": ["./src/*"]
-    }
-  },
-  "include": ["."],
-  "exclude": ["node_modules", "dist"]
+    "extends": "@enreco-archive/typescript-config/react-library.json",
+    "compilerOptions": {
+        "incremental": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@enreco-archive/common-ui/*": ["./src/*"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "build",
+        ".turbo",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.spec.ts",
+        "**/*.spec.tsx"
+    ]
 }

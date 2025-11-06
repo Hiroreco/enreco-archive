@@ -1,6 +1,804 @@
 {
   "clips": [
     {
+      "id": "en-animatics-3TehcmH49KY",
+      "originalUrl": "https://www.youtube.com/watch?v=3TehcmH49KY",
+      "title": "KARMA | ENreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/3TehcmH49KY/mqdefault.jpg",
+      "author": "emii2",
+      "duration": 35,
+      "uploadDate": "2025-10-22T06:52:24-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-AAwyMY9iIf4",
+      "originalUrl": "https://www.youtube.com/watch?v=AAwyMY9iIf4",
+      "title": "PROPHECY | BLOODRAVEN ENRECO ANIMATIC",
+      "thumbnailSrc": "https://i.ytimg.com/vi/AAwyMY9iIf4/mqdefault.jpg",
+      "author": "Keisea",
+      "duration": 69,
+      "uploadDate": "2025-09-08T14:40:42-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-f1RvTNM8x-E",
+      "originalUrl": "https://www.youtube.com/watch?v=f1RvTNM8x-E",
+      "title": "Ruler of My Heart-BloodRaven Animatic ",
+      "thumbnailSrc": "https://i.ytimg.com/vi/f1RvTNM8x-E/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 173,
+      "uploadDate": "2025-09-05T09:25:13-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-wO7lg7DKFMM",
+      "originalUrl": "https://www.youtube.com/watch?v=wO7lg7DKFMM",
+      "title": "My September | Enreco Bloodraven",
+      "thumbnailSrc": "https://i.ytimg.com/vi/wO7lg7DKFMM/mqdefault.jpg",
+      "author": "Renshifter",
+      "duration": 35,
+      "uploadDate": "2025-09-02T14:08:07-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-m0WA6atwiXs",
+      "originalUrl": "https://www.youtube.com/watch?v=m0WA6atwiXs",
+      "title": "My Forbidden Fruit | BloodRaven【EnReco Animatic】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/m0WA6atwiXs/mqdefault.jpg",
+      "author": "Pawchie",
+      "duration": 40,
+      "uploadDate": "2025-08-29T11:48:06-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-HC_1bLtRFD4",
+      "originalUrl": "https://www.youtube.com/watch?v=HC_1bLtRFD4",
+      "title": "Severed Ties 【EnReco Animatic】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/HC_1bLtRFD4/mqdefault.jpg",
+      "author": "BardFN Animations",
+      "duration": 24,
+      "uploadDate": "2025-08-10T05:21:08-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-fK5TH8wnsX0",
+      "originalUrl": "https://www.youtube.com/watch?v=fK5TH8wnsX0",
+      "title": "MECONOPSIS | ENReco Animatic (PART 1)",
+      "thumbnailSrc": "https://i.ytimg.com/vi/fK5TH8wnsX0/mqdefault.jpg",
+      "author": "PERKIE",
+      "duration": 199,
+      "uploadDate": "2025-07-19T14:00:06-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-lCuZBSOj0rk",
+      "originalUrl": "https://www.youtube.com/watch?v=lCuZBSOj0rk",
+      "title": "MULTO | ENreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/lCuZBSOj0rk/mqdefault.jpg",
+      "author": "krabsticksart",
+      "duration": 240,
+      "uploadDate": "2025-07-16T23:37:57-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-L9r6nrLwBA8",
+      "originalUrl": "https://www.youtube.com/watch?v=L9r6nrLwBA8",
+      "title": "Is this happy ending?",
+      "thumbnailSrc": "https://i.ytimg.com/vi/L9r6nrLwBA8/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 37,
+      "uploadDate": "2025-06-30T21:45:19-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-2QnLncAdzaA",
+      "originalUrl": "https://www.youtube.com/watch?v=2QnLncAdzaA",
+      "title": "Are You Man Enough? Enreco bloodraven fan animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/2QnLncAdzaA/mqdefault.jpg",
+      "author": "Whyamihere",
+      "duration": 17,
+      "uploadDate": "2025-06-25T20:04:06-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-jxtP_0MS-xU",
+      "originalUrl": "https://www.youtube.com/watch?v=jxtP_0MS-xU",
+      "title": "The Star Knows |  ENReco short animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/jxtP_0MS-xU/mqdefault.jpg",
+      "author": "Lestkr",
+      "duration": 101,
+      "uploadDate": "2025-06-19T06:18:59-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-BfmdPyGPkis",
+      "originalUrl": "https://www.youtube.com/watch?v=BfmdPyGPkis",
+      "title": "病名は愛だった (The Disease Called Love) - ENreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/BfmdPyGPkis/mqdefault.jpg",
+      "author": "Nein thedeer (くう-P)",
+      "duration": 232,
+      "uploadDate": "2025-06-18T07:08:57-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-WEO-WgBLUow",
+      "originalUrl": "https://www.youtube.com/watch?v=WEO-WgBLUow",
+      "title": "No snoopy snoop under Fia's watch",
+      "thumbnailSrc": "https://i.ytimg.com/vi/WEO-WgBLUow/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 37,
+      "uploadDate": "2025-06-10T00:38:14-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-PoP2pAwAGjU",
+      "originalUrl": "https://www.youtube.com/watch?v=PoP2pAwAGjU",
+      "title": "Kiss of Death- BloodRaven Enreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/PoP2pAwAGjU/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 106,
+      "uploadDate": "2025-06-01T16:09:01-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics--vwLyUJVVXo",
+      "originalUrl": "https://www.youtube.com/watch?v=-vwLyUJVVXo",
+      "title": "EnReco What If Episode 2 - The Automatons Choice",
+      "thumbnailSrc": "https://i.ytimg.com/vi/-vwLyUJVVXo/mqdefault.jpg",
+      "author": "BardFN Animations",
+      "duration": 59,
+      "uploadDate": "2025-05-30T07:25:01-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-o_-yJ3razyg",
+      "originalUrl": "https://www.youtube.com/watch?v=o_-yJ3razyg",
+      "title": "Lady Bloodflame's Thoughts [ Hololive ENreco Animatic ]",
+      "thumbnailSrc": "https://i.ytimg.com/vi/o_-yJ3razyg/mqdefault.jpg",
+      "author": "LuckyNekoPrincess",
+      "duration": 41,
+      "uploadDate": "2025-05-29T22:16:42-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-JHGun7EW_DA",
+      "originalUrl": "https://www.youtube.com/watch?v=JHGun7EW_DA",
+      "title": "Just a man (Antinous) | EnReco Short Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/JHGun7EW_DA/mqdefault.jpg",
+      "author": "Guckibro",
+      "duration": 64,
+      "uploadDate": "2025-05-29T11:15:23-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-lHjAUQYMQQM",
+      "originalUrl": "https://www.youtube.com/watch?v=lHjAUQYMQQM",
+      "title": "[Not in Love] - ENReco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/lHjAUQYMQQM/mqdefault.jpg",
+      "author": "ShioRonot",
+      "duration": 225,
+      "uploadDate": "2025-05-29T05:18:48-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-nc-Oro0ceas",
+      "originalUrl": "https://www.youtube.com/watch?v=nc-Oro0ceas",
+      "title": "No Longer You  [ Hololive Animatic ]",
+      "thumbnailSrc": "https://i.ytimg.com/vi/nc-Oro0ceas/mqdefault.jpg",
+      "author": "Eroki",
+      "duration": 160,
+      "uploadDate": "2025-05-29T01:29:03-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-VSpS-WWt5no",
+      "originalUrl": "https://www.youtube.com/watch?v=VSpS-WWt5no",
+      "title": "Lady Bloodfumble strikes again...",
+      "thumbnailSrc": "https://i.ytimg.com/vi/VSpS-WWt5no/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 42,
+      "uploadDate": "2025-05-28T09:31:00-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-fcBiD-zyzNg",
+      "originalUrl": "https://www.youtube.com/watch?v=fcBiD-zyzNg",
+      "title": "SIlent Oath - ENreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/fcBiD-zyzNg/mqdefault.jpg",
+      "author": "Nein thedeer (くう-P)",
+      "duration": 68,
+      "uploadDate": "2025-05-25T02:15:08-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-zDnhO7ajKVo",
+      "originalUrl": "https://www.youtube.com/watch?v=zDnhO7ajKVo",
+      "title": "Absence",
+      "thumbnailSrc": "https://i.ytimg.com/vi/zDnhO7ajKVo/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 153,
+      "uploadDate": "2025-05-23T10:37:58-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-tBro93LONhA",
+      "originalUrl": "https://www.youtube.com/watch?v=tBro93LONhA",
+      "title": "The Cell | ENreco",
+      "thumbnailSrc": "https://i.ytimg.com/vi/tBro93LONhA/mqdefault.jpg",
+      "author": "Keisea",
+      "duration": 82,
+      "uploadDate": "2025-05-23T10:01:38-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-_4CFNZrm3gw",
+      "originalUrl": "https://www.youtube.com/watch?v=_4CFNZrm3gw",
+      "title": "Waiting Room | A Short EnReco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/_4CFNZrm3gw/mqdefault.jpg",
+      "author": "MIQ",
+      "duration": 95,
+      "uploadDate": "2025-05-22T03:48:18-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-GQRAPFUI9FE",
+      "originalUrl": "https://www.youtube.com/watch?v=GQRAPFUI9FE",
+      "title": "Pure Love | BloodRaven【EnReco Animatic】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/GQRAPFUI9FE/mqdefault.jpg",
+      "author": "Pawchie",
+      "duration": 50,
+      "uploadDate": "2025-05-21T11:42:08-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-3IjJLJ4Pg6U",
+      "originalUrl": "https://www.youtube.com/watch?v=3IjJLJ4Pg6U",
+      "title": "Villain or Hero? | BloodRaven【EnReco Animatic】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/3IjJLJ4Pg6U/mqdefault.jpg",
+      "author": "Pawchie",
+      "duration": 65,
+      "uploadDate": "2025-05-21T11:25:48-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-lpBfc6KVwsQ",
+      "originalUrl": "https://www.youtube.com/watch?v=lpBfc6KVwsQ",
+      "title": "The Ravened One | ENReco: Memory Snippet Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/lpBfc6KVwsQ/mqdefault.jpg",
+      "author": "animatic01",
+      "duration": 51,
+      "uploadDate": "2025-05-21T04:54:44-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-FqojI3ZwhRA",
+      "originalUrl": "https://www.youtube.com/watch?v=FqojI3ZwhRA",
+      "title": "〖ENReco Animatic〗 Potion",
+      "thumbnailSrc": "https://i.ytimg.com/vi/FqojI3ZwhRA/mqdefault.jpg",
+      "author": "ShepherdW",
+      "duration": 83,
+      "uploadDate": "2025-05-21T01:49:40-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-tsZY-kQjvOo",
+      "originalUrl": "https://www.youtube.com/watch?v=tsZY-kQjvOo",
+      "title": "Shattered dreams |Enreco animatic |Bloodraven",
+      "thumbnailSrc": "https://i.ytimg.com/vi/tsZY-kQjvOo/mqdefault.jpg",
+      "author": "Azuri",
+      "duration": 30,
+      "uploadDate": "2025-05-19T05:27:19-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-MphVuWenfEs",
+      "originalUrl": "https://www.youtube.com/watch?v=MphVuWenfEs",
+      "title": "headpats",
+      "thumbnailSrc": "https://i.ytimg.com/vi/MphVuWenfEs/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 20,
+      "uploadDate": "2025-05-18T15:53:54-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-kaz1yM0k564",
+      "originalUrl": "https://www.youtube.com/watch?v=kaz1yM0k564",
+      "title": "Pink In The Night || Enreco AMV",
+      "thumbnailSrc": "https://i.ytimg.com/vi/kaz1yM0k564/mqdefault.jpg",
+      "author": "Renshifter",
+      "duration": 134,
+      "uploadDate": "2025-05-18T12:58:10-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-h4JG6ZOoLno",
+      "originalUrl": "https://www.youtube.com/watch?v=h4JG6ZOoLno",
+      "title": "Villain | BloodRaven Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/h4JG6ZOoLno/mqdefault.jpg",
+      "author": "Keisea",
+      "duration": 92,
+      "uploadDate": "2025-05-17T09:49:38-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-EK0EGqsqNpA",
+      "originalUrl": "https://www.youtube.com/watch?v=EK0EGqsqNpA",
+      "title": "演劇 (theatre) - ENreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/EK0EGqsqNpA/mqdefault.jpg",
+      "author": "Nein thedeer (くう-P)",
+      "duration": 110,
+      "uploadDate": "2025-05-17T08:25:03-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-D5V9fHlDu1I",
+      "originalUrl": "https://www.youtube.com/watch?v=D5V9fHlDu1I",
+      "title": "Ina the Hero meets the Potato Fairy",
+      "thumbnailSrc": "https://i.ytimg.com/vi/D5V9fHlDu1I/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 84,
+      "uploadDate": "2025-05-16T11:28:38-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-fukfAjMKM3s",
+      "originalUrl": "https://www.youtube.com/watch?v=fukfAjMKM3s",
+      "title": "【ENigmatic Recollection】MUD Animatic (Chapter 1)",
+      "thumbnailSrc": "https://i.ytimg.com/vi/fukfAjMKM3s/mqdefault.jpg",
+      "author": "bambooz",
+      "duration": 55,
+      "uploadDate": "2025-05-15T14:14:45-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-xhnI-hxB3as",
+      "originalUrl": "https://www.youtube.com/watch?v=xhnI-hxB3as",
+      "title": "The Bird Song | An Enreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/xhnI-hxB3as/mqdefault.jpg",
+      "author": "Elisbian",
+      "duration": 241,
+      "uploadDate": "2025-05-15T11:57:12-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-8pCAgE6KKi0",
+      "originalUrl": "https://www.youtube.com/watch?v=8pCAgE6KKi0",
+      "title": "devour your soul",
+      "thumbnailSrc": "https://i.ytimg.com/vi/8pCAgE6KKi0/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 39,
+      "uploadDate": "2025-05-14T16:10:23-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-_AOCBapnCdQ",
+      "originalUrl": "https://www.youtube.com/watch?v=_AOCBapnCdQ",
+      "title": "Funny Bunny - Hololive English ENreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/_AOCBapnCdQ/mqdefault.jpg",
+      "author": "TheDankWave",
+      "duration": 214,
+      "uploadDate": "2025-05-14T14:55:58-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-3hHVlN2cl-A",
+      "originalUrl": "https://www.youtube.com/watch?v=3hHVlN2cl-A",
+      "title": "In another lifetime...",
+      "thumbnailSrc": "https://i.ytimg.com/vi/3hHVlN2cl-A/mqdefault.jpg",
+      "author": "Zelrecht Maelstrom",
+      "duration": 31,
+      "uploadDate": "2025-05-12T21:21:19-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-a-rSoBaqMIA",
+      "originalUrl": "https://www.youtube.com/watch?v=a-rSoBaqMIA",
+      "title": "Knights Don't Cry [ Hololive Enreco Animatic ]",
+      "thumbnailSrc": "https://i.ytimg.com/vi/a-rSoBaqMIA/mqdefault.jpg",
+      "author": "PUNCHY!",
+      "duration": 25,
+      "uploadDate": "2025-05-12T21:04:56-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-1aoXJl5fARk",
+      "originalUrl": "https://www.youtube.com/watch?v=1aoXJl5fARk",
+      "title": "Last Midnight | ENreco short animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/1aoXJl5fARk/mqdefault.jpg",
+      "author": "Lestkr",
+      "duration": 71,
+      "uploadDate": "2025-05-12T16:35:34-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-27VY-zYz24k",
+      "originalUrl": "https://www.youtube.com/watch?v=27VY-zYz24k",
+      "title": "Love or Justice? | BloodRaven【EnReco Short Animatic】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/27VY-zYz24k/mqdefault.jpg",
+      "author": "Pawchie",
+      "duration": 21,
+      "uploadDate": "2025-05-12T11:11:36-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-dbro2Xbdhp4",
+      "originalUrl": "https://www.youtube.com/watch?v=dbro2Xbdhp4",
+      "title": "A What IF Ending? | BloodRaven 【EnReco Animatic】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/dbro2Xbdhp4/mqdefault.jpg",
+      "author": "Pawchie",
+      "duration": 48,
+      "uploadDate": "2025-05-12T10:40:25-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-D7mj9mlrmxM",
+      "originalUrl": "https://www.youtube.com/watch?v=D7mj9mlrmxM",
+      "title": "BloodRaven Monster",
+      "thumbnailSrc": "https://i.ytimg.com/vi/D7mj9mlrmxM/mqdefault.jpg",
+      "author": "CressentiaQin",
+      "duration": 51,
+      "uploadDate": "2025-05-12T05:30:37-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-9t-r4jAmAs0",
+      "originalUrl": "https://www.youtube.com/watch?v=9t-r4jAmAs0",
+      "title": "back to friends || Hololive #ENReco short animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/9t-r4jAmAs0/mqdefault.jpg",
+      "author": "LATTE",
+      "duration": 11,
+      "uploadDate": "2025-05-11T16:20:02-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-9PHr_NLdugE",
+      "originalUrl": "https://www.youtube.com/watch?v=9PHr_NLdugE",
+      "title": "Gonathon with a G",
+      "thumbnailSrc": "https://i.ytimg.com/vi/9PHr_NLdugE/mqdefault.jpg",
+      "author": "Daakku",
+      "duration": 46,
+      "uploadDate": "2025-05-11T08:17:11-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-92rkDkz_DU0",
+      "originalUrl": "https://www.youtube.com/watch?v=92rkDkz_DU0",
+      "title": "TSKR (ENreco2 fan animatic)",
+      "thumbnailSrc": "https://i.ytimg.com/vi/92rkDkz_DU0/mqdefault.jpg",
+      "author": "set ",
+      "duration": 5,
+      "uploadDate": "2025-05-11T07:49:41-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-JZUZt0xDYTs",
+      "originalUrl": "https://www.youtube.com/watch?v=JZUZt0xDYTs",
+      "title": "ERB’s child (ENreco2 fan animatic)",
+      "thumbnailSrc": "https://i.ytimg.com/vi/JZUZt0xDYTs/mqdefault.jpg",
+      "author": "set ",
+      "duration": 15,
+      "uploadDate": "2025-05-11T07:47:18-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-vuIytOoUDW4",
+      "originalUrl": "https://www.youtube.com/watch?v=vuIytOoUDW4",
+      "title": "You have won the spar...(ENreco2 fan animatic)",
+      "thumbnailSrc": "https://i.ytimg.com/vi/vuIytOoUDW4/mqdefault.jpg",
+      "author": "set ",
+      "duration": 22,
+      "uploadDate": "2025-05-11T07:42:36-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-TAhDl2Y6TCI",
+      "originalUrl": "https://www.youtube.com/watch?v=TAhDl2Y6TCI",
+      "title": "Fading Away || Enreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/TAhDl2Y6TCI/mqdefault.jpg",
+      "author": "Renshifter",
+      "duration": 94,
+      "uploadDate": "2025-05-11T07:32:53-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-1Hrs9trQjW8",
+      "originalUrl": "https://www.youtube.com/watch?v=1Hrs9trQjW8",
+      "title": "[ENReco Animatic] Love In Paradise but its Queen Tam and Gonathon with a G",
+      "thumbnailSrc": "https://i.ytimg.com/vi/1Hrs9trQjW8/mqdefault.jpg",
+      "author": "COARTEE",
+      "duration": 69,
+      "uploadDate": "2025-05-10T23:19:13-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-_dGAlBYpUMA",
+      "originalUrl": "https://www.youtube.com/watch?v=_dGAlBYpUMA",
+      "title": "BloodRaven Romeo and Juliet [MAP]",
+      "thumbnailSrc": "https://i.ytimg.com/vi/_dGAlBYpUMA/mqdefault.jpg",
+      "author": "CressentiaQin",
+      "duration": 24,
+      "uploadDate": "2025-05-10T21:59:03-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-8BCeav1Mg4Q",
+      "originalUrl": "https://www.youtube.com/watch?v=8BCeav1Mg4Q",
+      "title": "BloodRaven Revolution",
+      "thumbnailSrc": "https://i.ytimg.com/vi/8BCeav1Mg4Q/mqdefault.jpg",
+      "author": "CressentiaQin",
+      "duration": 48,
+      "uploadDate": "2025-05-10T21:55:21-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-zmkBEVGODiE",
+      "originalUrl": "https://www.youtube.com/watch?v=zmkBEVGODiE",
+      "title": "No Good Deed || Enreco Animatic",
+      "thumbnailSrc": "https://i.ytimg.com/vi/zmkBEVGODiE/mqdefault.jpg",
+      "author": "Renshifter",
+      "duration": 137,
+      "uploadDate": "2025-05-10T18:03:49-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 2,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-3i2W6iZlqGM",
+      "originalUrl": "https://www.youtube.com/watch?v=3i2W6iZlqGM",
+      "title": "【ENigmatic Recollection】 Hungry Nicole Fan Animation WIP #ENReco",
+      "thumbnailSrc": "https://i.ytimg.com/vi/3i2W6iZlqGM/mqdefault.jpg",
+      "author": "bambooz",
+      "duration": 32,
+      "uploadDate": "2024-11-08T13:29:27-08:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 1,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-wO9At3KuYwE",
+      "originalUrl": "https://www.youtube.com/watch?v=wO9At3KuYwE",
+      "title": "Hadestown - Flowers AMV || Holo ENreco AmeMurin",
+      "thumbnailSrc": "https://i.ytimg.com/vi/wO9At3KuYwE/mqdefault.jpg",
+      "author": "Renshifter",
+      "duration": 68,
+      "uploadDate": "2024-10-23T06:03:11-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 1,
+      "contentType": "clip"
+    },
+    {
+      "id": "en-animatics-rV8ASuIazfU",
+      "originalUrl": "https://www.youtube.com/watch?v=rV8ASuIazfU",
+      "title": "【Hololive Animation】A Knight's Tale【#ENreco】",
+      "thumbnailSrc": "https://i.ytimg.com/vi/rV8ASuIazfU/mqdefault.jpg",
+      "author": "seiso cacoëthes",
+      "duration": 1013,
+      "uploadDate": "2024-10-10T08:00:59-07:00",
+      "categories": [
+        "animatics"
+      ],
+      "chapter": 1,
+      "contentType": "clip"
+    },
+    {
       "id": "en-k7sRVYy8BS8",
       "originalUrl": "https://www.youtube.com/watch?v=k7sRVYy8BS8",
       "title": "Calli Finds Out What Her ENreco Name Means in German【Hololive EN】",

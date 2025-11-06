@@ -23,6 +23,7 @@ import Image from "next/image";
 import { useMemo, useState, useEffect, useRef, useCallback } from "react";
 
 const CATEGORY_ORDER = [
+    "animatics",
     "calli",
     "kiara",
     "ina",
@@ -120,9 +121,12 @@ const ClipsArchiveViewer = ({
     // Full filtered data (without pagination)
     const allFilteredData = useMemo(() => {
         return currentData.filter((item) => {
+            // Only show animatics when its specifically selected
             const matchesCategory =
-                selectedCategory === "all" ||
+                (selectedCategory === "all" &&
+                    !item.categories.includes("animatics")) ||
                 item.categories.includes(selectedCategory);
+
             const matchesChapter =
                 selectedChapter === -1 || item.chapter === selectedChapter;
             const matchesSearch =
