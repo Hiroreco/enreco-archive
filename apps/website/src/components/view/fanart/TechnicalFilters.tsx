@@ -61,8 +61,7 @@ const TechnicalFilters = ({
 
     return (
         <div className="flex-col gap-4 min-w-0 md:flex hidden">
-            {/* Top filters bar */}
-            <div className="flex flex-wrap gap-2 items-center border-b pb-4">
+            <div className="flex flex-wrap gap-2 items-center border-b mt-2 mb-2 pb-2">
                 <div className="flex items-center gap-2">
                     <label className="text-sm font-medium">
                         {t("chapter")}:

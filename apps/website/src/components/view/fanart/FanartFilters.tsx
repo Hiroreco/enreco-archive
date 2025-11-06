@@ -49,7 +49,7 @@ interface FanartFiltersProps {
     onToggleCollapse: () => void;
 }
 
-const CHARACTER_ICON_MAP: Record<string, string> = {
+export const CHARACTER_ICON_MAP: Record<string, string> = {
     all: "node-lore-opt.webp",
     various: "node-lore-opt.webp",
     bloodraven: "node-lore-opt.webp",
@@ -142,13 +142,10 @@ const FanartFilters = ({
 
     return (
         <>
-            {/* Desktop layout with sidebar */}
-            <div className="hidden md:flex h-full gap-4">
-                {/* Sidebar - Characters */}
-                <div className="flex flex-col gap-2 w-48 shrink-0 overflow-y-auto pr-1">
-                    <p className="text-sm font-semibold mb-2">
-                        {t("character")}
-                    </p>
+            {/* Desktop layout */}
+            <div className="hidden md:flex h-full gap-2 flex-col">
+                <p className="text-sm font-semibold">{t("character")}</p>
+                <div className="flex flex-col gap-2 w-48 overflow-y-auto pr-1 py-2 border-y">
                     <button
                         type="button"
                         onClick={() => onCharactersChange(["all"])}
@@ -230,7 +227,7 @@ const FanartFilters = ({
                     ))}
                 </div>
             </div>
-            
+
             {/* Mobile layout */}
             <CollapsibleHeader
                 isCollapsed={isCollapsed}
@@ -238,7 +235,7 @@ const FanartFilters = ({
                 onTogglePin={onTogglePin}
                 onToggleCollapse={onToggleCollapse}
             >
-                <div className="md:hidden space-y-2 border-b">
+                <div className="md:hidden space-y-2 border-b pb-2">
                     <div className="grid grid-cols-2 gap-2 px-2">
                         <div className="space-y-1">
                             <label className="text-xs font-medium text-muted-foreground">

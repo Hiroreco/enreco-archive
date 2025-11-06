@@ -1,5 +1,7 @@
 import fanartData from "#/fanart.json";
-import FanartFilters from "@/components/view/fanart/FanartFilters";
+import FanartFilters, {
+    CHARACTER_ICON_MAP,
+} from "@/components/view/fanart/FanartFilters";
 import FanartMasonryGrid from "@/components/view/fanart/FanartMasonryGrid";
 import Lightbox from "@/components/view/lightbox/Lightbox";
 import {
@@ -15,6 +17,9 @@ import {
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import TechnicalFilters from "./TechnicalFilters";
+import { AnimatePresence, motion } from "framer-motion";
+import { getBlurDataURL } from "@/lib/utils";
+import Image from "next/image";
 
 export interface FanartEntry {
     url: string;
@@ -105,6 +110,10 @@ const FanartModal = ({
     const contentContainerRef = useRef<HTMLDivElement>(null);
     const lastScrollTop = useRef(0);
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
+
+    const viewerBg = useMemo(() => {
+        return CHARACTER_ICON_MAP[selectedCharacters[0]];
+    }, [selectedCharacters]);
 
     // Derived state
     const nameMap = useMemo(
@@ -657,7 +666,7 @@ const FanartModal = ({
                         onToggleCollapse={handleToggleCollapse}
                     />
 
-                    <div className="flex flex-col flex-1 overflow-y-auto">
+                    <div className="flex flex-col flex-1 overflow-y-auto border-b">
                         <TechnicalFilters
                             selectedChapter={selectedChapter}
                             onChapterChange={setSelectedChapter}
@@ -728,6 +737,26 @@ const FanartModal = ({
                             )}
                         </div>
                     </div>
+                    {/* Background */}
+                    <AnimatePresence>
+                        <motion.div
+                            key={`card-bg-${viewerBg}`}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="absolute inset-0 -z-10"
+                        >
+                            <Image
+                                src={getBlurDataURL(viewerBg)}
+                                alt=""
+                                fill
+                                className="object-cover dark:opacity-20 opacity-20"
+                                priority={false}
+                            />
+                            <div className="absolute inset-0 dark:bg-black/30 " />
+                        </motion.div>
+                    </AnimatePresence>
                 </DialogContent>
             </Dialog>
 

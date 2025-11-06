@@ -20,6 +20,7 @@ import TranslationDislaimerModal from "@/components/view/basic-modals/Translatio
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
 import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
+import { isMobileViewport } from "@/lib/utils";
 
 type AppType = "chart" | "glossary" | "archive";
 
@@ -44,6 +45,7 @@ export const ViewAppWrapper = () => {
     const openChangeLogModal = useViewStore(
         (state) => state.modal.openChangeLogModal,
     );
+    const isMobile = isMobileViewport();
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
@@ -122,17 +124,40 @@ export const ViewAppWrapper = () => {
                         },
                     )}
                 >
-                    <TabsList className="md:flex-col md:h-fit">
-                        <TabsTrigger value="chart">
-                            <Workflow size={24} />
-                        </TabsTrigger>
-                        <TabsTrigger value="glossary">
-                            <LibraryBig size={24} />
-                        </TabsTrigger>
-                        <TabsTrigger value="archive">
-                            <Film size={24} />
-                        </TabsTrigger>
-                    </TabsList>
+                    {/* I know this looks incredibly stupid, but if I do conditional rendering with the style for flex-col h-fit instead,  */}
+                    {/* when the direction switches, a very noticable stutter of the selected tab can be seen */}
+                    {(!isMobile || (isMobile && appType === "chart")) && (
+                        <TabsList
+                            className={cn("flex-col h-fit", {
+                                "flex-col h-fit":
+                                    !isMobile ||
+                                    (isMobile && appType === "chart"),
+                            })}
+                        >
+                            <TabsTrigger value="chart">
+                                <Workflow size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="glossary">
+                                <LibraryBig size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="archive">
+                                <Film size={24} />
+                            </TabsTrigger>
+                        </TabsList>
+                    )}
+                    {isMobile && appType !== "chart" && (
+                        <TabsList>
+                            <TabsTrigger value="chart">
+                                <Workflow size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="glossary">
+                                <LibraryBig size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="archive">
+                                <Film size={24} />
+                            </TabsTrigger>
+                        </TabsList>
+                    )}
                 </Tabs>
 
                 <AnimatePresence mode="wait">
