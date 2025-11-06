@@ -657,7 +657,7 @@ const FanartModal = ({
                         onToggleCollapse={handleToggleCollapse}
                     />
 
-                    <div className="flex flex-col flex-1">
+                    <div className="flex flex-col flex-1 overflow-y-auto">
                         <TechnicalFilters
                             selectedChapter={selectedChapter}
                             onChapterChange={setSelectedChapter}
@@ -693,7 +693,7 @@ const FanartModal = ({
                             selectedCharacters={selectedCharacters}
                         />
                         <div
-                            className="flex-1 overflow-y-auto"
+                            className="flex-1 overflow-y-auto min-h-0"
                             ref={setContentContainerRef}
                         >
                             <FanartMasonryGrid

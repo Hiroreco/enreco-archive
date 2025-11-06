@@ -230,15 +230,15 @@ const FanartFilters = ({
                     ))}
                 </div>
             </div>
+            
             {/* Mobile layout */}
-
             <CollapsibleHeader
                 isCollapsed={isCollapsed}
                 isPinned={isPinned}
                 onTogglePin={onTogglePin}
                 onToggleCollapse={onToggleCollapse}
             >
-                <div className="md:hidden space-y-2 border-b pb-4">
+                <div className="md:hidden space-y-2 border-b">
                     <div className="grid grid-cols-2 gap-2 px-2">
                         <div className="space-y-1">
                             <label className="text-xs font-medium text-muted-foreground">
