@@ -10,7 +10,7 @@ const CATEGORY_ORDER = [
     "irys",
     "kronii",
     "fauna",
-    "mumei",
+    "moom",
     "bae",
     "shiori",
     "nerissa",

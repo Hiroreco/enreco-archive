@@ -8,7 +8,7 @@ export const CATEGORY_ICON_MAP: Record<string, string> = {
     kronii: "node-kronii-opt.webp",
     irys: "node-irys-opt.webp",
     fauna: "node-fauna-opt.webp",
-    mumei: "node-mumei-opt.webp",
+    moom: "node-mumei-opt.webp",
     fuwawa: "node-fuwawa-opt.webp",
     mococo: "node-mococo-opt.webp",
     shiori: "node-shiori-opt.webp",
