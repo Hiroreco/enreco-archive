@@ -71,7 +71,6 @@ let didInit = false;
 const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const tNavTooltips = useTranslations("navTooltips");
     const tReadStatus = useTranslations("modals.readStatus");
-
     /* Hooks that are not use*Store/useState/useMemo/useCallback */
     useAudioSettingsSync();
     useClickOutside();

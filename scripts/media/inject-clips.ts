@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 
 const CATEGORY_ORDER = [
+    "animatics",
     "calli",
     "kiara",
     "ina",
@@ -244,6 +245,87 @@ async function processClipsFile(
     return clips;
 }
 
+async function processAnimaticsFile(
+    animaticsPath: string,
+    globalCache: ClipsCache,
+    locale: string,
+): Promise<ClipMetadata[]> {
+    const content = await fs.readFile(animaticsPath, "utf-8");
+    const lines = content.split("\n");
+
+    const animatics: ClipMetadata[] = [];
+    let currentChapter = 1;
+    let newAnimaticsCount = 0;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        // Check for chapter headers
+        const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
+        if (chapterMatch) {
+            currentChapter = parseInt(chapterMatch[1]);
+            console.log(
+                `  📖 Processing Chapter ${currentChapter} (Animatics)`,
+            );
+            continue;
+        }
+
+        if (!line || line.startsWith("#")) continue;
+
+        const videoId = extractVideoId(line);
+        if (!videoId) {
+            console.warn(`  ⚠️  Invalid YouTube URL: ${line}`);
+            continue;
+        }
+
+        let metadata = globalCache[videoId];
+
+        if (!metadata) {
+            // Fetch new metadata
+            console.log(`  🔍 Fetching metadata for: ${videoId}`);
+            const fetched = await fetchYouTubeMetadata(videoId);
+
+            if (!fetched) {
+                console.warn(`  ❌ Failed to fetch metadata for: ${videoId}`);
+                continue;
+            }
+
+            metadata = {
+                ...fetched,
+                fetchedAt: new Date().toISOString(),
+            };
+
+            globalCache[videoId] = metadata;
+            newAnimaticsCount++;
+
+            console.log(`  ✅ Added: "${metadata.title}" (Animatics)`);
+            // Rate limiting to avoid being blocked
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+        }
+
+        const animaticEntry: ClipMetadata = {
+            id: `${locale}-animatics-${videoId}`,
+            originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
+            title: metadata.title,
+            thumbnailSrc: metadata.thumbnailSrc,
+            author: metadata.author,
+            duration: metadata.duration,
+            uploadDate: metadata.uploadDate,
+            categories: ["animatics"],
+            chapter: currentChapter,
+            contentType: "clip",
+        };
+
+        animatics.push(animaticEntry);
+    }
+
+    if (newAnimaticsCount > 0) {
+        console.log(`  💾 Added ${newAnimaticsCount} new animatics to cache`);
+    }
+
+    return animatics;
+}
+
 function validateCategories(categories: string[], videoId: string): boolean {
     const invalidCategories = categories.filter(
         (cat) => !CATEGORY_ORDER.includes(cat),
@@ -416,6 +498,24 @@ async function main() {
         console.error(`❌ Error processing clips.md:`, error);
     }
 
+    // Process animatics.md
+    console.log(`\n📁 Processing animatics.md`);
+    const animaticsPath = path.join(baseDir, "animatics.md");
+    let allAnimatics: ClipMetadata[] = [];
+    try {
+        allAnimatics = await processAnimaticsFile(
+            animaticsPath,
+            globalCache,
+            locale,
+        );
+        console.log(`  ✅ Total animatics: ${allAnimatics.length}`);
+    } catch (error) {
+        console.error(`❌ Error processing animatics.md:`, error);
+    }
+
+    // Combine clips and animatics
+    const combinedClips = [...allClips, ...allAnimatics];
+
     // Process stream files from category directories
     const categoryDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
         .filter((d) => d.isDirectory())
@@ -460,7 +560,7 @@ async function main() {
     );
 
     // Sort by category order, then by upload date (newest first) within each category
-    const sortedClips = sortByCategory(allClips);
+    const sortedClips = sortByCategory(combinedClips);
     const sortedStreams = sortByCategory(allStreams);
 
     const outputData = {
@@ -481,7 +581,7 @@ async function main() {
     await fs.writeFile(outPath, JSON.stringify(outputData, null, 2), "utf-8");
 
     console.log(
-        `\n✅ Successfully processed ${allClips.length} clips and ${allStreams.length} streams`,
+        `\n✅ Successfully processed ${sortedClips.length} clips and ${sortedStreams.length} streams`,
     );
     console.log(`📁 Output: ${outPath}`);
 
@@ -498,7 +598,7 @@ async function main() {
     );
 
     // Display in category order
-    CATEGORY_ORDER.forEach((category) => {
+    CATEGORY_ORDER.concat("animatics").forEach((category) => {
         const count = clipsCategoryCounts[category];
         if (count) {
             console.log(`   ${category}: ${count} clips`);

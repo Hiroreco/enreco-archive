@@ -42,6 +42,7 @@ import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
 
 import clips_en from "#/en/clips_en.json";
+import clips_ja from "#/ja/clips_ja.json";
 
 import {
     ClipsData,
@@ -128,12 +129,12 @@ const DATA: Record<Locale, LocalizedData> = {
             })),
         })),
         clipData: {
-            ...clips_en,
-            clips: clips_en.clips.map((clip) => ({
+            ...clips_ja,
+            clips: clips_ja.clips.map((clip) => ({
                 ...clip,
                 contentType: clip.contentType as "clip" | "stream",
             })),
-            streams: clips_en.streams.map((stream) => ({
+            streams: clips_ja.streams.map((stream) => ({
                 ...stream,
                 contentType: stream.contentType as "clip" | "stream",
             })),
