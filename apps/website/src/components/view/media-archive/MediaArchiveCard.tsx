@@ -190,7 +190,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                 <Separator className="bg-foreground/60" />
             </CardHeader>
 
-            <CardContent className="overflow-y-auto px-6 pb-6 h-[70dvh] sm:h-[80dvh]">
+            <CardContent className="overflow-y-auto px-6 pb-6 h-[70dvh]">
                 <AnimatePresence mode="wait">
                     {activeTab === "videos" && selectedEntry ? (
                         <VideoArchiveViewer
@@ -222,7 +222,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                             </span>
                                             <Separator className="bg-foreground/60 flex-1" />
                                         </div>
-                                        <div className="grid grid-cols-2 gap-2 auto-rows-fr">
+                                        <div className="grid md:grid-cols-2 gap-2 auto-rows-fr">
                                             {entries.map((entry, index) => {
                                                 const isLastAndOdd =
                                                     index ===
