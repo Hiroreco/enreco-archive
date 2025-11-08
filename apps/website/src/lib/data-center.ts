@@ -110,7 +110,7 @@ const DATA: Record<Locale, LocalizedData> = {
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
-        textData: textData_ja as TextData,
+        textData: textData_en as TextData,
         glossary: {
             weapons: weapons_ja,
             characters: characters_ja,
@@ -182,7 +182,22 @@ export const getSiteData = (locale: Locale): SiteData => {
 };
 
 export const getTextItem = (locale: Locale, textId: string) => {
-    return DATA[locale].textData[textId];
+    const textData = DATA[locale].textData;
+
+    for (const group of Object.values(textData)) {
+        const entry = group.entries.find((e) => e.id === textId);
+        if (entry) {
+            return {
+                ...entry,
+                chapter: group.chapter,
+                category: group.category,
+                groupTitle: group.title,
+                groupDescription: group.description,
+            };
+        }
+    }
+
+    return null;
 };
 
 export const getChapterRecap = (locale: Locale) => {

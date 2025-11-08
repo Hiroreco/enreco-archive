@@ -3,8 +3,8 @@ import path from "path";
 
 async function main() {
     // Hardcoded inputs - modify these as needed
-    const pattern = "fire-and-flight";
-    const groupName = "fire-and-flight";
+    const pattern = "book-of-prophecies";
+    const groupName = "book-of-prophecies";
 
     const baseDir = path.resolve(process.cwd(), "recap-data", "texts");
 

@@ -1,9 +1,11 @@
 import ClipsArchiveViewer from "@/components/view/media-archive/clips-archive/ClipsArchiveViewer";
 import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
+import TextArchiveCard from "@/components/view/media-archive/text-archive/TextArchiveCard";
 import VideoArchiveSelector from "@/components/view/media-archive/video-archive/VideoArchiveSelector";
 import VideoArchiveViewer from "@/components/view/media-archive/video-archive/VideoArchiveViewer";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { getBlurDataURL } from "@/lib/utils";
+import { useSettingStore } from "@/store/settingStore";
 import { useViewStore } from "@/store/viewStore";
 import {
     Card,
@@ -27,13 +29,12 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowLeft, Film, Info, Video } from "lucide-react";
+import { ArrowLeft, BookText, Film, Info, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import VideoModal from "../utility-modals/VideoModal";
 import { ClipEntry, RecollectionArchiveEntry } from "./types";
-import { useSettingStore } from "@/store/settingStore";
 
 interface VideoArchiveCardProps {
     className?: string;
@@ -66,7 +67,9 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
         setSelectedClip(clip);
     };
 
-    const [activeTab, setActiveTab] = useState<"videos" | "clips">("videos");
+    const [activeTab, setActiveTab] = useState<"videos" | "clips" | "texts">(
+        "videos",
+    );
 
     const groupedEntries = useMemo(() => {
         const grouped: Record<number, RecollectionArchiveEntry[]> = {};
@@ -100,10 +103,13 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             const currentMedia = selectedEntry.entries[currentMediaIndex];
             return currentMedia?.thumbnailUrl || bgImage;
         }
-        // For clips, use the first category icon from CATEGORY_ICON_MAP
-        return selectedClipCategory === "all"
-            ? bgImage
-            : CATEGORY_ICON_MAP[selectedClipCategory] || bgImage;
+        if (activeTab === "clips") {
+            return selectedClipCategory === "all"
+                ? bgImage
+                : CATEGORY_ICON_MAP[selectedClipCategory] || bgImage;
+        }
+        // For texts tab
+        return bgImage;
     }, [
         selectedEntry,
         currentMediaIndex,
@@ -159,7 +165,9 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                 ? selectedEntry
                                     ? selectedEntry.title
                                     : t("videoArchive.title")
-                                : t("clipArchive.title")}
+                                : activeTab === "clips"
+                                  ? t("clipArchive.title")
+                                  : t("textArchive.title")}
                         </span>
                     </div>
 
@@ -180,7 +188,9 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                         ? selectedEntry
                                             ? selectedEntry.title
                                             : t("videoArchive.title")
-                                        : t("clipArchive.title")}
+                                        : activeTab === "clips"
+                                          ? t("clipArchive.title")
+                                          : t("textArchive.title")}
                                 </DialogTitle>
                             </DialogHeader>
 
@@ -189,7 +199,9 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                     ? selectedEntry
                                         ? selectedEntry.description
                                         : t("videoArchive.description")
-                                    : t("clipArchive.description")}
+                                    : activeTab === "clips"
+                                      ? t("clipArchive.description")
+                                      : t("textArchive.description")}
                             </DialogDescription>
                         </DialogContent>
                     </Dialog>
@@ -199,7 +211,9 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             ? selectedEntry
                                 ? selectedEntry.description
                                 : t("videoArchive.description")
-                            : t("clipArchive.description")}
+                            : activeTab === "clips"
+                              ? t("clipArchive.description")
+                              : t("textArchive.description")}
                     </p>
                 </CardTitle>
                 <Separator className="bg-foreground/60" />
@@ -275,7 +289,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                 );
                             })}
                         </motion.div>
-                    ) : (
+                    ) : activeTab === "clips" ? (
                         <motion.div
                             key="clips-viewer"
                             initial={{ opacity: 0 }}
@@ -292,6 +306,16 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                 onClipClick={handleClipClick}
                             />
                         </motion.div>
+                    ) : (
+                        <motion.div
+                            key="text-archive-grid"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.15 }}
+                        >
+                            <TextArchiveCard />
+                        </motion.div>
                     )}
                 </AnimatePresence>
 
@@ -305,9 +329,11 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             <div className="px-6 flex justify-end border-t border-t-foreground/60 py-3">
                 <Tabs
                     value={activeTab}
-                    onValueChange={(v) => setActiveTab(v as "videos" | "clips")}
+                    onValueChange={(v) =>
+                        setActiveTab(v as "videos" | "clips" | "texts")
+                    }
                 >
-                    <TabsList className="grid grid-cols-2 opacity-90">
+                    <TabsList className="grid grid-cols-3 opacity-90">
                         <TabsTrigger value="videos" className="gap-2">
                             <Video className="size-4" />
                             <span className="hidden sm:inline">
@@ -318,6 +344,12 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             <Film className="size-4" />
                             <span className="hidden sm:inline">
                                 {t("tabs.clips")}
+                            </span>
+                        </TabsTrigger>
+                        <TabsTrigger value="texts" className="gap-2">
+                            <BookText className="size-4" />
+                            <span className="hidden sm:inline">
+                                {t("tabs.texts")}
                             </span>
                         </TabsTrigger>
                     </TabsList>

@@ -451,7 +451,8 @@
         },
         "tabs": {
             "videos": "Videos",
-            "clips": "Clips"
+            "clips": "Clips",
+            "texts": "Texts"
         },
         "clipArchive": {
             "title": "Clip Archive",
@@ -485,6 +486,18 @@
                 "liz": "Elizabeth Rose Bloodflame",
                 "raora": "Raora Panthera",
                 "gigi": "Gonathon G"
+            }
+        },
+        "textArchive": {
+            "title": "Text Archive",
+            "description": "A collection of notable texts from the ENreco streams",
+            "categories": "Categories",
+            "noResults": "Nothing here but us chickens...",
+            "category": {
+                "journal": "Journals",
+                "letters": "Letters",
+                "lore": "Lore",
+                "other-writings": "Other Writings"
             }
         }
     }

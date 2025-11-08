@@ -1,4 +1,4 @@
-import { TextData } from "@enreco-archive/common/types";
+import { TextData, TextEntry, TextGroup } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import path from "path";
 
@@ -54,70 +54,185 @@ async function main() {
         console.warn(`Audio directory not found: ${audioDir}`);
     }
 
-    // Recursively walk baseDir
-    async function walk(dir: string) {
-        for (const name of await fs.readdir(dir)) {
-            const full = path.join(dir, name);
-            const stat = await fs.stat(full);
-            if (stat.isDirectory()) {
-                await walk(full);
-            } else if (stat.isFile() && name.endsWith(".md")) {
-                // Compute category = first segment under baseDir
-                const relPath = path.relative(baseDir, full);
-                const segments = relPath.split(path.sep);
-                const category = segments[0];
+    function extractDescription(content: string): string {
+        const lines = content.split(/\r?\n/);
+        let inDescription = false;
+        const descLines: string[] = [];
 
-                const key = path
-                    .basename(name, ".md")
-                    .replace(/(_jp|_ja)$/i, "")
-                    .replace(/-jp$|-ja$/i, "");
-
-                const raw = await fs.readFile(full, "utf-8");
-                const lines = raw.split(/\r?\n/);
-
-                // Extract title
-                let title = "";
-                let i = 0;
-                if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
-                    title = lines[0]
-                        .replace(/^<!--\s*title:\s*(.+?)\s*-->$/, "$1")
-                        .trim();
-                    i = 1;
-                    // skip a following blank line
-                    if (lines[1]?.trim() === "") i++;
+        for (const line of lines) {
+            if (line.trim() === "### Description") {
+                inDescription = true;
+                continue;
+            }
+            if (inDescription) {
+                if (
+                    line.trim().startsWith("###") ||
+                    line.trim().startsWith("##")
+                ) {
+                    break;
                 }
+                if (line.trim()) {
+                    descLines.push(line.trim());
+                }
+            }
+        }
 
-                const content = lines.slice(i).join("\n").trim();
+        return descLines.join(" ");
+    }
 
-                // Check if audio file exists for this text
-                const hasAudio = audioFiles.has(key);
+    function extractTitle(content: string): string {
+        const lines = content.split(/\r?\n/);
+        for (const line of lines) {
+            if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(line)) {
+                return line
+                    .replace(/^<!--\s*title:\s*(.+?)\s*-->$/, "$1")
+                    .trim();
+            }
+        }
+        return "";
+    }
 
-                result[key] = {
-                    title,
-                    content,
-                    category,
-                    ...(hasAudio && { hasAudio: true }),
-                };
+    function extractContent(content: string): string {
+        const lines = content.split(/\r?\n/);
+        let i = 0;
+        // Skip title comment
+        if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
+            i = 1;
+            if (lines[1]?.trim() === "") i++;
+        }
+        return lines.slice(i).join("\n").trim();
+    }
+
+    function extractEntries(content: string): string[] {
+        const lines = content.split(/\r?\n/);
+        for (const line of lines) {
+            const match = line.match(/^<!--\s*entries:\s*(.+?)\s*-->$/);
+            if (match) {
+                return match[1].split(",").map((entry) => entry.trim());
+            }
+        }
+        return [];
+    }
+
+    // Walk chapter directories
+    for (const chapterName of await fs.readdir(baseDir)) {
+        const chapterPath = path.join(baseDir, chapterName);
+        const chapterStat = await fs.stat(chapterPath);
+        if (!chapterStat.isDirectory()) continue;
+        // chapterName is "chapter1", "chapter2", etc.
+        const chapter = parseInt(chapterName.replace("chapter", ""), 10);
+        if (isNaN(chapter)) continue;
+
+        // Walk category directories
+        for (const categoryName of await fs.readdir(chapterPath)) {
+            const categoryPath = path.join(chapterPath, categoryName);
+            const categoryStat = await fs.stat(categoryPath);
+            if (!categoryStat.isDirectory()) continue;
+
+            // Check for group folders or standalone files
+            for (const itemName of await fs.readdir(categoryPath)) {
+                const itemPath = path.join(categoryPath, itemName);
+                const itemStat = await fs.stat(itemPath);
+
+                if (itemStat.isDirectory()) {
+                    // This is a group folder
+                    const groupKey = itemName;
+                    const indexFileName = `${groupKey}-index.md`;
+                    const indexPath = path.join(itemPath, indexFileName);
+
+                    try {
+                        const indexContent = await fs.readFile(
+                            indexPath,
+                            "utf-8",
+                        );
+                        const title = extractTitle(indexContent);
+                        const description = extractDescription(indexContent);
+                        const entryNames = extractEntries(indexContent);
+
+                        const entries: TextEntry[] = [];
+                        for (const entryName of entryNames) {
+                            const entryFileName = `${entryName}.md`;
+                            const entryPath = path.join(
+                                itemPath,
+                                entryFileName,
+                            );
+                            try {
+                                const entryContent = await fs.readFile(
+                                    entryPath,
+                                    "utf-8",
+                                );
+                                const entryTitle = extractTitle(entryContent);
+                                const content = extractContent(entryContent);
+                                const hasAudio = audioFiles.has(entryName);
+
+                                entries.push({
+                                    id: entryName,
+                                    content,
+                                    title: entryTitle,
+                                    ...(hasAudio && { hasAudio: true }),
+                                });
+                            } catch (err) {
+                                console.warn(
+                                    `Could not read entry file: ${entryPath}`,
+                                );
+                            }
+                        }
+
+                        result[groupKey] = {
+                            chapter,
+                            category: categoryName,
+                            title,
+                            description,
+                            entries,
+                        };
+                    } catch (err) {
+                        console.warn(`Could not read index file: ${indexPath}`);
+                    }
+                } else if (itemName.endsWith(".md")) {
+                    // This is a standalone file
+                    const key = path.basename(itemName, ".md");
+                    const fileContent = await fs.readFile(itemPath, "utf-8");
+                    const title = extractTitle(fileContent);
+                    const description = extractDescription(fileContent);
+                    const content = extractContent(fileContent);
+                    const hasAudio = audioFiles.has(key);
+
+                    result[key] = {
+                        chapter,
+                        category: categoryName,
+                        title,
+                        description,
+                        entries: [
+                            {
+                                id: key,
+                                content,
+                                title,
+                                ...(hasAudio && { hasAudio: true }),
+                            },
+                        ],
+                    };
+                }
             }
         }
     }
 
-    try {
-        await walk(baseDir);
-    } catch (err) {
-        console.error(`Error walking directory: ${err}`);
-        process.exit(1);
-    }
-
     await fs.writeFile(outputPath, JSON.stringify(result, null, 2), "utf-8");
 
-    const totalTexts = Object.keys(result).length;
-    const textsWithAudio = Object.values(result).filter(
-        (item) => item.hasAudio,
-    ).length;
+    const totalGroups = Object.keys(result).length;
+    const totalEntries = Object.values(result).reduce(
+        (sum, group) => sum + group.entries.length,
+        0,
+    );
+    const entriesWithAudio = Object.values(result).reduce(
+        (sum, group) =>
+            sum + group.entries.filter((entry) => entry.hasAudio).length,
+        0,
+    );
 
-    console.log(`✅ Injected ${totalTexts} ${locale} items into ${outputPath}`);
-    console.log(`🎵 ${textsWithAudio} texts have associated audio files`);
+    console.log(
+        `✅ Injected ${totalGroups} ${locale} text groups with ${totalEntries} entries into ${outputPath}`,
+    );
+    console.log(`🎵 ${entriesWithAudio} entries have associated audio files`);
 }
 
 main().catch((err) => {
