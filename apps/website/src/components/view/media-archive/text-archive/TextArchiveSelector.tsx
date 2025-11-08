@@ -38,11 +38,11 @@ const TextArchiveSelector = ({
                     {group.title || groupKey}
                 </p>
                 {group.description && (
-                    <p className="text-xs text-muted-foreground line-clamp-2 mt-0.5">
+                    <p className="text-xs text-muted-foreground line-clamp-1 mt-0.5">
                         {group.description}
                     </p>
                 )}
-                <p className="text-xs text-muted-foreground mt-1">
+                <p className="text-xs text-muted-foreground mt-0.5">
                     {group.entries.length}{" "}
                     {group.entries.length === 1 ? "entry" : "entries"}
                 </p>

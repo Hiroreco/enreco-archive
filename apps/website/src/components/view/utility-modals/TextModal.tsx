@@ -161,6 +161,7 @@ const TextModal = ({ textId, label }: TextModalProps) => {
                 </VisuallyHidden>
                 <div className="relative">
                     <ViewMarkdown
+                        key={currentEntry.id}
                         className="px-2 overflow-y-auto overflow-x-hidden h-[70vh] pb-10 z-10"
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}

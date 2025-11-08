@@ -57,7 +57,7 @@ const TextArchiveCard = () => {
                                     <h3 className="text-sm font-semibold mb-2 capitalize opacity-80">
                                         {t(`category.${category}`) || category}
                                     </h3>
-                                    <div className="grid grid-cols-3 gap-2">
+                                    <div className="grid md:grid-cols-3 gap-2">
                                         {groups.map(({ key, group }) => (
                                             <TextModal
                                                 key={key}
