@@ -9,3 +9,7 @@ _The people of this Libestal also struggle against the onslaught of the Stains, 
 Here is where the librarian has brought her warriors, in the hopes that they might stop qsm akdogmsfy nprlmiy psul fmi tf the Outsider's birth.
 **Decoded:**
 _Here is where the librarian has brought her warriors, in the hopes that they might stop the impending tragedy that led to the Outsider's birth._
+
+<!-- description -->
+
+A brief description of Ancient Libestal, the setting in which the second chapter unfolds.

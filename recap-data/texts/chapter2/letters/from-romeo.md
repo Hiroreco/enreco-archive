@@ -12,3 +12,7 @@ From Romeo
 
 P.S.
 Next time instead of gambling- spar me.
+
+<!-- description -->
+
+On Day 5 of the second chapter, upon learning that Nerissa was feeling down—perhaps because of something she had done—the scarlet knight wrote a letter to clear up any misunderstanding and to reassure the blue maiden that she cherished her deeply and held no hatred toward her.

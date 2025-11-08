@@ -32,3 +32,9 @@ I eagerly anticipate our next meeting...
 
 Signed with passion,
 Peasant THE BAE
+
+<!-- description -->
+
+Written on the seventh day of the second chapter, Peasant the Bae finally gathered the courage to confess her feelings, her love, for Immerkind in a heartfelt letter.
+
+In the end, her confession was met with rejection.

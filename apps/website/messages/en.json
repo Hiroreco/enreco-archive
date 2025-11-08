@@ -490,6 +490,10 @@
         },
         "textArchive": {
             "title": "Text Archive",
+            "tabs": {
+                "texts": "Texts",
+                "fanfics": "Fanfics"
+            },
             "description": "A collection of notable texts from the ENreco streams",
             "categories": "Categories",
             "noResults": "Nothing here but us chickens...",

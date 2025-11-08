@@ -19,3 +19,7 @@ I shall be departing after the victory banquet...I hope that I can see you one l
 I know it is selfish of me to ask...but....if...you still feel the same after my return...
 
 would you still be...uwu
+
+<!-- description -->
+
+Ina’s final letter to her eternal consort, written on the last day of the second chapter. After the emotional turmoil involving her consort, the Hot Pink One, and Tam Gandr, Ina came to a realization: she needed a break—she needed enlightenment.

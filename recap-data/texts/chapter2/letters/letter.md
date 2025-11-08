@@ -11,3 +11,7 @@ Whenever you need assistance, please do not be afraid to call.
 I look forward to the next time we meet.
 
 Gonathon with a G.
+
+<!-- description -->
+
+Gonathon’s letter to Shiori, written on the first day of the second chapter after he became her very first customer—buying her potato salad and sparking the beginning of their relationship.

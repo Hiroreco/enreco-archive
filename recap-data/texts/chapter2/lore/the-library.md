@@ -9,3 +9,7 @@ Its current caretaker is the librarian Fia, but this was not always the case. Wh
 For some reason, only those chosen by the Library are able to enter or even perceive it. Nor can the librarian leave, for her very essence is bound to the Library.
 
 Wanderers who pass through the Library can record their memories to add to the collection. What might your story inspire in those who come after?
+
+<!-- description -->
+
+A description of the Library Between Worlds, a key location in the second chapter and the very place where this chapter’s journey began.

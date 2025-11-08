@@ -60,17 +60,11 @@ async function main() {
         const descLines: string[] = [];
 
         for (const line of lines) {
-            if (line.trim() === "### Description") {
+            if (line.trim() === "<!-- description -->") {
                 inDescription = true;
                 continue;
             }
             if (inDescription) {
-                if (
-                    line.trim().startsWith("###") ||
-                    line.trim().startsWith("##")
-                ) {
-                    break;
-                }
                 if (line.trim()) {
                     descLines.push(line.trim());
                 }

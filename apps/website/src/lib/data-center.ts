@@ -44,12 +44,15 @@ import changelogs_ja from "#/ja/changelogs_ja.json";
 import clips_en from "#/en/clips_en.json";
 import clips_ja from "#/ja/clips_ja.json";
 
+import fanfic_data_en from "#/en/fanfics.json";
+
 import {
     ClipsData,
     RecollectionArchiveEntry,
 } from "@/components/view/media-archive/types";
 import { Category } from "@/contexts/GlossaryContext";
 import { Locale } from "@/store/settingStore";
+import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
 
 interface LocalizedData {
     chapters: Chapter[];
@@ -69,6 +72,7 @@ interface LocalizedData {
     }>;
     recollectionArchive: RecollectionArchiveEntry[];
     clipData: ClipsData;
+    fanficData: FanficEntry[];
 }
 
 const DATA: Record<Locale, LocalizedData> = {
@@ -107,6 +111,7 @@ const DATA: Record<Locale, LocalizedData> = {
                 contentType: stream.contentType as "clip" | "stream",
             })),
         },
+        fanficData: fanfic_data_en,
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
@@ -139,6 +144,7 @@ const DATA: Record<Locale, LocalizedData> = {
                 contentType: stream.contentType as "clip" | "stream",
             })),
         },
+        fanficData: fanfic_data_en,
     },
 };
 
@@ -214,4 +220,8 @@ export const getRecollectionArchive = (locale: Locale) => {
 
 export const getClipsData = (locale: Locale) => {
     return DATA[locale].clipData;
+};
+
+export const getFanficData = (locale: Locale) => {
+    return DATA[locale].fanficData;
 };

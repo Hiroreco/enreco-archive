@@ -17,3 +17,7 @@ Unfortunately, the effects of time travel have scattered her and the warriors' m
 _Unfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, or even the Outsider's former identity, as someone she once knew_
 
 Now the warriors must help her collect those lost memories, if they ever hope to stop the coming evil.
+
+<!-- description -->
+
+A biography of Fia, the librarian of the Library Between Worlds and a key figure in the second chapter.
