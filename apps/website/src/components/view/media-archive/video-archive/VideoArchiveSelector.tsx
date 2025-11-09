@@ -18,7 +18,7 @@ const VideoArchiveSelector = ({
     return (
         <div
             className={cn(
-                "group cursor-pointer overflow-hidden rounded-lg",
+                "group cursor-pointer overflow-hidden rounded-lg text-center",
                 "bg-white/90 dark:bg-white/10 backdrop-blur-md shadow-lg",
                 "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
                 "flex flex-col h-full group-hover:scale-105 transition-transform",
