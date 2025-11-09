@@ -44,7 +44,9 @@
         "validate-content": "tsx scripts/content/validate-content.ts",
         "proofread": "tsx scripts/proofread/proofread.ts",
         "inject-clips": "tsx scripts/media/inject-clips.ts",
-        "translate-titles": "tsx scripts/media/translate-titles.ts"
+        "translate-titles": "tsx scripts/media/translate-titles.ts",
+        "fetch-inject-fanfic": "tsx scripts/fanfic/fetch-inject-fanfic.ts",
+        "match-structure": "tsx scripts/misc/match-structure.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",

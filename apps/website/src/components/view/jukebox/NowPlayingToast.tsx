@@ -50,7 +50,7 @@ export const NowPlayingToast = () => {
 
             const newTimeoutId = setTimeout(() => {
                 setIsVisible(false);
-            }, 3000);
+            }, 5000);
 
             setTimeoutId(newTimeoutId);
         } else {
