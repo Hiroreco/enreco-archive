@@ -219,7 +219,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                 <Separator className="bg-foreground/60" />
             </CardHeader>
 
-            <CardContent className="px-6 pb-3 h-[70dvh]">
+            <CardContent className="px-6 pb-3 h-[70dvh] lg:h-[75vh]">
                 <AnimatePresence mode="wait">
                     {activeTab === "videos" && selectedEntry ? (
                         <VideoArchiveViewer
