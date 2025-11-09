@@ -21,6 +21,7 @@ import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
 import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
 import { isMobileViewport } from "@/lib/utils";
+import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
 
 type AppType = "chart" | "glossary" | "archive";
 
@@ -73,7 +74,7 @@ export const ViewAppWrapper = () => {
     return (
         <div>
             <TranslationDislaimerModal />
-
+            <NowPlayingToast />
             {isLoading && (
                 <LoadingPage
                     useDarkMode={useDarkMode}
