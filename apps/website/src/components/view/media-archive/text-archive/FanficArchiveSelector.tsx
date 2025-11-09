@@ -25,7 +25,7 @@ const FanficArchiveSelector = ({
             className={cn(
                 "group cursor-pointer overflow-hidden rounded-lg p-4",
                 "bg-white/90 dark:bg-white/10 backdrop-blur-md shadow-lg",
-                "hover:shadow-xl hover:scale-[1.02] transition-all duration-300",
+                "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
                 "flex flex-col gap-2",
             )}
             onClick={onClick}

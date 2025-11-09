@@ -8,6 +8,7 @@ import {
     TabsList,
     TabsTrigger,
 } from "@enreco-archive/common-ui/components/tabs";
+import { AnimatePresence, motion } from "framer-motion";
 import { BookOpen, Heart } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
@@ -69,7 +70,7 @@ const TextArchiveCard = () => {
                 className="w-full"
                 onValueChange={(v) => setActiveTab(v as "texts" | "fanfics")}
             >
-                <TabsList className="grid grid-cols-2 flex-1">
+                <TabsList className="grid grid-cols-2 flex-1 px-4">
                     <TabsTrigger value="texts" className="gap-2 size-full">
                         <BookOpen className="size-4" />
                         <span>{t("tabs.texts")}</span>
@@ -81,66 +82,86 @@ const TextArchiveCard = () => {
                 </TabsList>
             </Tabs>
 
-            {activeTab === "texts" ? (
-                <div className="overflow-y-auto flex-1">
-                    {sortedTextChapters.map((chapterKey) => {
-                        const chapter = Number(chapterKey);
-                        const categories = groupedTexts[chapter];
-                        return (
-                            <div key={chapter}>
-                                <div className="flex items-center gap-3 mb-2">
-                                    <Separator className="bg-foreground/60 flex-1" />
-                                    <span className="font-bold whitespace-nowrap">
-                                        {tCommon("chapter", {
-                                            val: chapter,
-                                        })}
-                                    </span>
-                                    <Separator className="bg-foreground/60 flex-1" />
-                                </div>
-                                {Object.entries(categories).map(
-                                    ([category, groups]) => (
-                                        <div key={category} className="mb-4">
-                                            <h3 className="text-sm font-semibold mb-2 capitalize opacity-80">
-                                                {t(`category.${category}`) ||
-                                                    category}
-                                            </h3>
-                                            <div className="grid md:grid-cols-3 gap-2">
-                                                {groups.map(
-                                                    ({ key, group }) => (
-                                                        <TextModal
-                                                            key={key}
-                                                            textId={key}
-                                                            label={
-                                                                <TextArchiveSelector
-                                                                    group={
-                                                                        group
-                                                                    }
-                                                                    groupKey={
-                                                                        key
-                                                                    }
-                                                                />
-                                                            }
-                                                        />
-                                                    ),
-                                                )}
+            <AnimatePresence mode="wait">
+                {activeTab === "texts" ? (
+                    <motion.div
+                        key="texts-viewer"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.15 }}
+                        className="overflow-y-auto overflow-x-hidden px-4 flex-1"
+                    >
+                        {sortedTextChapters.map((chapterKey) => {
+                            const chapter = Number(chapterKey);
+                            const categories = groupedTexts[chapter];
+                            return (
+                                <div key={chapter}>
+                                    <div className="flex items-center gap-3 mb-2">
+                                        <Separator className="bg-foreground/60 flex-1" />
+                                        <span className="font-bold whitespace-nowrap text-xl">
+                                            {tCommon("chapter", {
+                                                val: chapter,
+                                            })}
+                                        </span>
+                                        <Separator className="bg-foreground/60 flex-1" />
+                                    </div>
+                                    {Object.entries(categories).map(
+                                        ([category, groups]) => (
+                                            <div
+                                                key={category}
+                                                className="mb-4"
+                                            >
+                                                <span className="text-lg font-semibold opacity-80 mx-auto underline underline-offset-2">
+                                                    {t(
+                                                        `category.${category}`,
+                                                    ) || category}
+                                                </span>
+                                                <div className="grid md:grid-cols-3 gap-2 mt-2">
+                                                    {groups.map(
+                                                        ({ key, group }) => (
+                                                            <TextModal
+                                                                key={key}
+                                                                textId={key}
+                                                                label={
+                                                                    <TextArchiveSelector
+                                                                        group={
+                                                                            group
+                                                                        }
+                                                                        groupKey={
+                                                                            key
+                                                                        }
+                                                                    />
+                                                                }
+                                                            />
+                                                        ),
+                                                    )}
+                                                </div>
                                             </div>
-                                        </div>
-                                    ),
-                                )}
-                            </div>
-                        );
-                    })}
-                </div>
-            ) : (
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {fanficData.map((fanfic) => (
-                        <FanficArchiveSelector
-                            key={fanfic.storyKey}
-                            fanfic={fanfic}
-                        />
-                    ))}
-                </div>
-            )}
+                                        ),
+                                    )}
+                                </div>
+                            );
+                        })}
+                    </motion.div>
+                ) : (
+                    <motion.div
+                        key="fanfics-viewer"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.15 }}
+                        className="grid md:grid-cols-2 lg:grid-cols-3 gap-3"
+                    >
+                        {fanficData.map((fanfic) => (
+                            <FanficArchiveSelector
+                                key={fanfic.storyKey}
+                                fanfic={fanfic}
+                            />
+                        ))}
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
     );
 };

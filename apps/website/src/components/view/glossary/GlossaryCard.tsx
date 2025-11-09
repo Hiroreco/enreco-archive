@@ -291,9 +291,7 @@ const GlossaryCard = ({ className, bgImage }: GlossaryCardProps) => {
                                 </span>
 
                                 {currentEntry === null && (
-                                    <GlossaryInfo
-                                        category={selectedCategory}
-                                    />
+                                    <GlossaryInfo category={selectedCategory} />
                                 )}
                             </div>
                         )}
@@ -388,7 +386,7 @@ const GlossaryCard = ({ className, bgImage }: GlossaryCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="overflow-x-hidden overflow-y-auto space-y-6 h-full"
+                            className="overflow-x-hidden overflow-y-auto space-y-6 h-full px-2"
                             ref={homeScrollRef}
                             onAnimationComplete={() => {
                                 const savedPosition =

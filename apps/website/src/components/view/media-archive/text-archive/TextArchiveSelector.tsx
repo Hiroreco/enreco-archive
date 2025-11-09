@@ -1,6 +1,7 @@
 import { TextGroup } from "@enreco-archive/common/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { BookOpen } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface TextArchiveSelectorProps {
     group: TextGroup;
@@ -13,12 +14,13 @@ const TextArchiveSelector = ({
     groupKey,
     onGroupClick,
 }: TextArchiveSelectorProps) => {
+    const t = useTranslations("mediaArchive.textArchive");
     return (
         <div
             className={cn(
                 "group cursor-pointer overflow-hidden rounded-lg p-3",
                 "bg-white/90 dark:bg-white/10 backdrop-blur-md shadow-lg",
-                "hover:shadow-xl hover:scale-[1.02] transition-all duration-300",
+                "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
                 "flex items-center gap-3 size-full",
             )}
             onClick={onGroupClick ? () => onGroupClick(groupKey) : undefined}
@@ -44,7 +46,9 @@ const TextArchiveSelector = ({
                 )}
                 <p className="text-xs text-muted-foreground mt-0.5">
                     {group.entries.length}{" "}
-                    {group.entries.length === 1 ? "entry" : "entries"}
+                    {group.entries.length === 1
+                        ? t("entryCount.singular")
+                        : t("entryCount.plural")}
                 </p>
             </div>
         </div>

@@ -502,6 +502,10 @@
                 "letters": "Letters",
                 "lore": "Lore",
                 "other-writings": "Other Writings"
+            },
+            "entryCount": {
+                "singular": "entry",
+                "plural": "entries"
             }
         }
     }
