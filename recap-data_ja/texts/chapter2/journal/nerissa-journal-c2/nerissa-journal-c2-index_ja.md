@@ -1,0 +1,6 @@
+<!-- entries: nerissa-journal-c2d1, nerissa-journal-c2d2, nerissa-journal-c2d3, nerissa-journal-c2d4, nerissa-journal-c2d5, nerissa-journal-c2d6, nerissa-journal-c2d7 -->
+<!-- title: ネリッサの日誌 -->
+
+<!-- description -->
+
+第2章におけるネリッサ・ジュリエット・レイヴンクロフトの日々の記録。

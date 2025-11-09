@@ -1,0 +1,6 @@
+<!-- entries: mococo-journal-c2d1, mococo-journal-c2d2, mococo-journal-c2d4, mococo-journal-c2d7, mococo-journal-c2d8 -->
+<!-- title: モココの日誌 -->
+
+<!-- description -->
+
+第2章におけるモココ・アビスガードの日々の記録。
