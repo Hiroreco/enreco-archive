@@ -1,6 +1,6 @@
 <!-- title: ENigmatic Recollection Chapter 2 Game Trailer -->
 <!-- type: youtube -->
-<!-- originalUrl: https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv -->
+<!-- originalUrl: https://www.youtube.com/watch?v=nWbS_k584mw -->
 
 ### Description
 

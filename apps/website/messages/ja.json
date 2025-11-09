@@ -450,8 +450,9 @@
             "viewSource": "元のソースを表示"
         },
         "tabs": {
-            "videos": "ビデオ",
-            "clips": "クリップ"
+            "videos": "メディア",
+            "clips": "クリップ",
+            "texts": "文書"
         },
         "clipArchive": {
             "title": "クリップアーカイブ",
@@ -485,6 +486,26 @@
                 "liz": "エリザベス・ローズ・ブラッドフレイム",
                 "raora": "ラオラ・パンテラ",
                 "gigi": "ゴナソン・G"
+            }
+        },
+        "textArchive": {
+            "title": "テキストアーカイブ",
+            "tabs": {
+                "texts": "文書",
+                "fanfics": "同人誌"
+            },
+            "description": "ENrecoからの注目すべき文書のコレクション",
+            "categories": "カテゴリ",
+            "noResults": "ここにはチキンしかいません...",
+            "category": {
+                "journal": "日誌",
+                "letters": "手紙",
+                "lore": "ストーリー",
+                "other-writings": "その他の文章"
+            },
+            "entryCount": {
+                "singular": "項目",
+                "plural": "項目"
             }
         }
     }

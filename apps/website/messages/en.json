@@ -450,8 +450,9 @@
             "viewSource": "View original source"
         },
         "tabs": {
-            "videos": "Videos",
-            "clips": "Clips"
+            "videos": "Media",
+            "clips": "Clips",
+            "texts": "Texts"
         },
         "clipArchive": {
             "title": "Clip Archive",
@@ -485,6 +486,26 @@
                 "liz": "Elizabeth Rose Bloodflame",
                 "raora": "Raora Panthera",
                 "gigi": "Gonathon G"
+            }
+        },
+        "textArchive": {
+            "title": "Text Archive",
+            "tabs": {
+                "texts": "Texts",
+                "fanfics": "Fanfics"
+            },
+            "description": "A collection of notable writings from ENreco",
+            "categories": "Categories",
+            "noResults": "Nothing here but us chickens...",
+            "category": {
+                "journal": "Journals",
+                "letters": "Letters",
+                "lore": "Lore",
+                "other-writings": "Other Writings"
+            },
+            "entryCount": {
+                "singular": "entry",
+                "plural": "entries"
             }
         }
     }

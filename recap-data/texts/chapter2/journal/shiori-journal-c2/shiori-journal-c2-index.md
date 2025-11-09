@@ -1,0 +1,6 @@
+<!-- entries: shiori-journal-c2d1, shiori-journal-c2d2, shiori-journal-c2d3, shiori-journal-c2d4, shiori-journal-c2d5, shiori-journal-c2d6, shiori-journal-c2d7, shiori-journal-c2d8 -->
+<!-- title: Shiori's Journal Entries -->
+
+<!-- description -->
+
+Shiori Nyavella's daily journal entries during Chapter 2.

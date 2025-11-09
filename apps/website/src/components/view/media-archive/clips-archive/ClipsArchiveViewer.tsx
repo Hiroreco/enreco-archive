@@ -527,7 +527,7 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
             className={cn(
                 "group cursor-pointer overflow-hidden rounded-lg",
                 "dark:bg-background/50 backdrop-blur-md shadow-lg",
-                "hover:shadow-xl hover:scale-[1.02] transition-all duration-300",
+                "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
                 "flex flex-col",
             )}
             tabIndex={0}
