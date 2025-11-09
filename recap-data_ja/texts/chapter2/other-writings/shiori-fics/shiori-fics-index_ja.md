@@ -1,4 +1,4 @@
-<!-- entries: bloodraven-smut, chicken, cucumber, gyatt, pickles, kiara-roa-snu, sea-x-lovers, tam-x-tam, the-cell, the-princess-1, the-princess-2 -->
+<!-- entries: bloodraven-smut_ja, chicken_ja, cucumber_ja, gyatt_ja, pickles_ja, kiara-roa-snu_ja, sea-x-lovers_ja, tam-x-tam_ja, the-cell_ja, the-princess-1_ja, the-princess-2_ja -->
 <!-- title: シオリのファンフィクション -->
 
 <!-- description -->

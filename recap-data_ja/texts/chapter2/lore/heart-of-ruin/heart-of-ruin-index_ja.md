@@ -1,4 +1,4 @@
-<!-- entries: prelude-of-ruin, song-of-ruin, the-truth-of-ruin -->
+<!-- entries: prelude-of-ruin_ja, song-of-ruin_ja, the-truth-of-ruin_ja -->
 <!-- title: 滅びの心の書 -->
 
 <!-- description -->

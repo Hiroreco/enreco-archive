@@ -1,4 +1,4 @@
-<!-- entries: researchers-journal-1, researchers-journal-2, researchers-journal-3, researchers-journal-4, researchers-journal-5 -->
+<!-- entries: researchers-journal-1_ja, researchers-journal-2_ja, researchers-journal-3_ja, researchers-journal-4_ja, researchers-journal-5_ja -->
 <!-- title: 研究者の記録 -->
 
 <!-- description -->

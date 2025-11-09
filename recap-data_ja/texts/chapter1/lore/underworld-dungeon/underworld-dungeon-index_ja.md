@@ -1,4 +1,4 @@
-<!-- entries: underworld-dungeon-hint, underworld-dungeon-lore -->
+<!-- entries: underworld-dungeon-hint_ja, underworld-dungeon-lore_ja -->
 <!-- title: アンダーワールドダンジョンの書物 -->
 
 <!-- description -->

@@ -1,4 +1,4 @@
-<!-- entries: explorers-journal-1, explorers-journal-2, explorers-journal-3, explorers-journal-4, explorers-journal-5 -->
+<!-- entries: explorers-journal-1_ja, explorers-journal-2_ja, explorers-journal-3_ja, explorers-journal-4_ja, explorers-journal-5_ja -->
 <!-- title: 探検家の手記 -->
 
 <!-- description -->

@@ -1,4 +1,4 @@
-<!-- entries: volcano-dungeon-hint, volcano-dungeon-lore -->
+<!-- entries: volcano-dungeon-hint_ja, volcano-dungeon-lore_ja -->
 <!-- title: ボルケーノ・ダンジョンの書物 -->
 
 <!-- description -->

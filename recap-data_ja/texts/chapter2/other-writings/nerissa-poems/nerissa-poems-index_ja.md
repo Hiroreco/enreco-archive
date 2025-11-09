@@ -1,4 +1,4 @@
-<!-- entries: maven-in-blue, go-lovely-rose, hamlet, stanzas -->
+<!-- entries: maven-in-blue_ja, go-lovely-rose_ja, hamlet_ja, stanzas_ja -->
 <!-- title: ネリッサの詩 -->
 
 <!-- description -->

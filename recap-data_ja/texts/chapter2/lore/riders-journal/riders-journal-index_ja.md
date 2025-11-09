@@ -1,4 +1,4 @@
-<!-- entries: riders-journal-1, riders-journal-2, riders-journal-3, riders-journal-4, riders-journal-5 -->
+<!-- entries: riders-journal-1_ja, riders-journal-2_ja, riders-journal-3_ja, riders-journal-4_ja, riders-journal-5_ja -->
 <!-- title: 騎士の手記 -->
 
 <!-- description -->

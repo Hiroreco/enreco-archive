@@ -1,4 +1,4 @@
-<!-- entries: nerissa-journal-c2d1, nerissa-journal-c2d2, nerissa-journal-c2d3, nerissa-journal-c2d4, nerissa-journal-c2d5, nerissa-journal-c2d6, nerissa-journal-c2d7 -->
+<!-- entries: nerissa-journal-c2d1_ja, nerissa-journal-c2d2_ja, nerissa-journal-c2d3_ja, nerissa-journal-c2d4_ja, nerissa-journal-c2d5_ja, nerissa-journal-c2d6_ja, nerissa-journal-c2d7_ja -->
 <!-- title: ネリッサの日誌 -->
 
 <!-- description -->

@@ -1,4 +1,4 @@
-<!-- entries: ancient-sewers-dungeon-hint, ancient-sewers-dungeon-lore -->
+<!-- entries: ancient-sewers-dungeon-hint_ja, ancient-sewers-dungeon-lore_ja -->
 <!-- title: エイシェント・シューアーズダンジョンの書物 -->
 
 <!-- description -->

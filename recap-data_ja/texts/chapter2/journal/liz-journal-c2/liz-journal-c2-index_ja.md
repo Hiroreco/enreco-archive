@@ -1,4 +1,4 @@
-<!-- entries: liz-journal-c2d1, liz-journal-c2d2, liz-journal-c2d4, liz-journal-c2d5, liz-journal-c2d6, liz-journal-c2d7 -->
+<!-- entries: liz-journal-c2d1_ja, liz-journal-c2d2_ja, liz-journal-c2d4_ja, liz-journal-c2d5_ja, liz-journal-c2d6_ja, liz-journal-c2d7_ja -->
 <!-- title: エリザベスの日誌 -->
 
 <!-- description -->

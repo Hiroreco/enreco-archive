@@ -1,4 +1,4 @@
-<!-- entries: ocean-temple-dungeon-hint, ocean-temple-dungeon-lore -->
+<!-- entries: ocean-temple-dungeon-hint_ja, ocean-temple-dungeon-lore_ja -->
 <!-- title: オーシャン・テンプルダンジョンの書物 -->
 
 <!-- description -->

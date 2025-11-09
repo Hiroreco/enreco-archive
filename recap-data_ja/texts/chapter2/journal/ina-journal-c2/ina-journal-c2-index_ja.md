@@ -1,4 +1,4 @@
-<!-- entries: ina-journal-c2d1, ina-journal-c2d2, ina-journal-c2d4, ina-journal-c2d5, ina-journal-c2d6, ina-journal-c2d7, ina-journal-c2d8 -->
+<!-- entries: ina-journal-c2d1_ja, ina-journal-c2d2_ja, ina-journal-c2d4_ja, ina-journal-c2d5_ja, ina-journal-c2d6_ja, ina-journal-c2d7_ja, ina-journal-c2d8_ja -->
 <!-- title: イナの日誌 -->
 
 <!-- description -->

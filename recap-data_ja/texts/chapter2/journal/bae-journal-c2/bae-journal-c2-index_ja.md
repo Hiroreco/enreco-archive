@@ -1,4 +1,4 @@
-<!-- entries: bae-journal-c2d1, bae-journal-c2d2, bae-journal-c2d3, bae-journal-c2d4, bae-journal-c2d5, bae-journal-c2d7, bae-journal-c2d8 -->
+<!-- entries: bae-journal-c2d1_ja, bae-journal-c2d2_ja, bae-journal-c2d3_ja, bae-journal-c2d4_ja, bae-journal-c2d5_ja, bae-journal-c2d7_ja, bae-journal-c2d8_ja -->
 <!-- title: ベイの日誌 -->
 
 <!-- description -->

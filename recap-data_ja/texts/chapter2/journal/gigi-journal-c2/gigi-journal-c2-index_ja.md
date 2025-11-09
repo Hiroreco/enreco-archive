@@ -1,4 +1,4 @@
-<!-- entries: gigi-journal-c2d1, gigi-journal-c2d3, gigi-journal-c2d4, gigi-journal-c2d5, gigi-journal-c2d6, gigi-journal-c2d7, gigi-journal-c2d8 -->
+<!-- entries: gigi-journal-c2d1_ja, gigi-journal-c2d3_ja, gigi-journal-c2d4_ja, gigi-journal-c2d5_ja, gigi-journal-c2d6_ja, gigi-journal-c2d7_ja, gigi-journal-c2d8_ja -->
 <!-- title: ジジの日誌 -->
 
 <!-- description -->

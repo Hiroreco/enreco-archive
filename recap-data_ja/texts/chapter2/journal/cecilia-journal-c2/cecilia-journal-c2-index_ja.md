@@ -1,4 +1,4 @@
-<!-- entries: cecilia-journal-c2d1, cecilia-journal-c2d3, cecilia-journal-c2d4, cecilia-journal-c2d6, cecilia-journal-c2d7, cecilia-journal-c2d8 -->
+<!-- entries: cecilia-journal-c2d1_ja, cecilia-journal-c2d3_ja, cecilia-journal-c2d4_ja, cecilia-journal-c2d6_ja, cecilia-journal-c2d7_ja, cecilia-journal-c2d8_ja -->
 <!-- title: セシリアの日誌 -->
 
 <!-- description -->

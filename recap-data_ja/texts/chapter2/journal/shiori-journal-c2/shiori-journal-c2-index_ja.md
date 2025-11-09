@@ -1,4 +1,4 @@
-<!-- entries: shiori-journal-c2d1, shiori-journal-c2d2, shiori-journal-c2d3, shiori-journal-c2d4, shiori-journal-c2d5, shiori-journal-c2d6, shiori-journal-c2d7, shiori-journal-c2d8 -->
+<!-- entries: shiori-journal-c2d1_ja, shiori-journal-c2d2_ja, shiori-journal-c2d3_ja, shiori-journal-c2d4_ja, shiori-journal-c2d5_ja, shiori-journal-c2d6_ja, shiori-journal-c2d7_ja, shiori-journal-c2d8_ja -->
 <!-- title: シオリの日誌 -->
 
 <!-- description -->

@@ -1,4 +1,4 @@
-<!-- entries: mococo-journal-c2d1, mococo-journal-c2d2, mococo-journal-c2d4, mococo-journal-c2d7, mococo-journal-c2d8 -->
+<!-- entries: mococo-journal-c2d1_ja, mococo-journal-c2d2_ja, mococo-journal-c2d4_ja, mococo-journal-c2d7_ja, mococo-journal-c2d8_ja -->
 <!-- title: モココの日誌 -->
 
 <!-- description -->

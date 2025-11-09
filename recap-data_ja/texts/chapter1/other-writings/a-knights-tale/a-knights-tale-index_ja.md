@@ -1,4 +1,4 @@
-<!-- entries: a-knights-tale, a-knights-wish -->
+<!-- entries: a-knights-tale_ja, a-knights-wish_ja -->
 <!-- title: 騎士の物語 -->
 
 <!-- description -->

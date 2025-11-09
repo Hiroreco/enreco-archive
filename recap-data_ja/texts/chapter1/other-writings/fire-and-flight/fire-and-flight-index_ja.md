@@ -1,4 +1,4 @@
-<!-- entries: fire-and-flight-1, fire-and-flight-2, fire-and-flight-3 -->
+<!-- entries: fire-and-flight-1_ja, fire-and-flight-2_ja, fire-and-flight-3_ja -->
 <!-- title: 炎と飛翔 -->
 
 <!-- description -->

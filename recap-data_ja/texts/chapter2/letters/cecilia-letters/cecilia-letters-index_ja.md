@@ -1,4 +1,4 @@
-<!-- entries: heart, loyal, princess, protect -->
+<!-- entries: heart_ja, loyal_ja, princess_ja, protect_ja -->
 <!-- title: イマーキンドの手紙 -->
 
 <!-- description -->

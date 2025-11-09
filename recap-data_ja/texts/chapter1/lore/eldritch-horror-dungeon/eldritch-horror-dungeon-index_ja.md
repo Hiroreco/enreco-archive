@@ -1,4 +1,4 @@
-<!-- entries: eldritch-horror-dungeon-hint, eldritch-horror-dungeon-lore -->
+<!-- entries: eldritch-horror-dungeon-hint_ja, eldritch-horror-dungeon-lore_ja -->
 <!-- title: エルドリッチ・ホラーダンジョンの書物 -->
 
 <!-- description -->

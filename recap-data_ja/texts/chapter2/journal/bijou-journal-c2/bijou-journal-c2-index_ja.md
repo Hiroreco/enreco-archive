@@ -1,4 +1,4 @@
-<!-- entries: bijou-journal-c2d1, bijou-journal-c2d2, bijou-journal-c2d3, bijou-journal-c2d4, bijou-journal-c2d5, bijou-journal-c2d6, bijou-journal-c2d7, bijou-journal-c2d8 -->
+<!-- entries: bijou-journal-c2d1_ja, bijou-journal-c2d2_ja, bijou-journal-c2d3_ja, bijou-journal-c2d4_ja, bijou-journal-c2d5_ja, bijou-journal-c2d6_ja, bijou-journal-c2d7_ja, bijou-journal-c2d8_ja -->
 <!-- title: ビジューの日誌 -->
 
 <!-- description -->
