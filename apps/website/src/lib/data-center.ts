@@ -3,7 +3,6 @@ import {
     Chapter,
     ChapterRecapData,
     GlossaryPageData,
-    MediaType,
     SiteData,
     Song,
     TextData,
@@ -46,13 +45,13 @@ import clips_ja from "#/ja/clips_ja.json";
 
 import fanfic_data_en from "#/en/fanfics.json";
 
+import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
 import {
     ClipsData,
     RecollectionArchiveEntry,
 } from "@/components/view/media-archive/types";
 import { Category } from "@/contexts/GlossaryContext";
 import { Locale } from "@/store/settingStore";
-import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
 
 interface LocalizedData {
     chapters: Chapter[];
@@ -93,24 +92,8 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_en,
         chapterRecap: chapterRecaps_en,
         changelogs: changelogs_en,
-        recollectionArchive: media_archive_en.map((entry) => ({
-            ...entry,
-            entries: entry.entries.map((media) => ({
-                ...media,
-                type: media.type as MediaType,
-            })),
-        })),
-        clipData: {
-            ...clips_en,
-            clips: clips_en.clips.map((clip) => ({
-                ...clip,
-                contentType: clip.contentType as "clip" | "stream",
-            })),
-            streams: clips_en.streams.map((stream) => ({
-                ...stream,
-                contentType: stream.contentType as "clip" | "stream",
-            })),
-        },
+        recollectionArchive: media_archive_en as RecollectionArchiveEntry[],
+        clipData: clips_en as ClipsData,
         fanficData: fanfic_data_en,
     },
     ja: {
@@ -126,24 +109,8 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_ja,
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
-        recollectionArchive: media_archive_ja.map((entry) => ({
-            ...entry,
-            entries: entry.entries.map((media) => ({
-                ...media,
-                type: media.type as MediaType,
-            })),
-        })),
-        clipData: {
-            ...clips_ja,
-            clips: clips_ja.clips.map((clip) => ({
-                ...clip,
-                contentType: clip.contentType as "clip" | "stream",
-            })),
-            streams: clips_ja.streams.map((stream) => ({
-                ...stream,
-                contentType: stream.contentType as "clip" | "stream",
-            })),
-        },
+        recollectionArchive: media_archive_ja as RecollectionArchiveEntry[],
+        clipData: clips_ja as ClipsData,
         fanficData: fanfic_data_en,
     },
 };
