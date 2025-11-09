@@ -63,17 +63,18 @@ const TextArchiveCard = () => {
     // }
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 h-full">
             <Tabs
                 value={activeTab}
+                className="w-full"
                 onValueChange={(v) => setActiveTab(v as "texts" | "fanfics")}
             >
-                <TabsList className="grid grid-cols-2 w-full max-w-md">
-                    <TabsTrigger value="texts" className="gap-2">
+                <TabsList className="grid grid-cols-2 flex-1">
+                    <TabsTrigger value="texts" className="gap-2 size-full">
                         <BookOpen className="size-4" />
                         <span>{t("tabs.texts")}</span>
                     </TabsTrigger>
-                    <TabsTrigger value="fanfics" className="gap-2">
+                    <TabsTrigger value="fanfics" className="gap-2 size-full">
                         <Heart className="size-4" />
                         <span>{t("tabs.fanfics")}</span>
                     </TabsTrigger>
@@ -81,7 +82,7 @@ const TextArchiveCard = () => {
             </Tabs>
 
             {activeTab === "texts" ? (
-                <>
+                <div className="overflow-y-auto flex-1">
                     {sortedTextChapters.map((chapterKey) => {
                         const chapter = Number(chapterKey);
                         const categories = groupedTexts[chapter];
@@ -129,7 +130,7 @@ const TextArchiveCard = () => {
                             </div>
                         );
                     })}
-                </>
+                </div>
             ) : (
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {fanficData.map((fanfic) => (

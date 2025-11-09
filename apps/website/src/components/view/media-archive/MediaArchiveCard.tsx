@@ -219,7 +219,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                 <Separator className="bg-foreground/60" />
             </CardHeader>
 
-            <CardContent className="overflow-y-auto px-6 pb-6 h-[70dvh]">
+            <CardContent className="px-6 pb-6 h-[70dvh]">
                 <AnimatePresence mode="wait">
                     {activeTab === "videos" && selectedEntry ? (
                         <VideoArchiveViewer
@@ -233,7 +233,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 w-full"
+                            className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 w-full overflow-y-auto h-full"
                         >
                             {sortedChapters.map((chapterKey) => {
                                 const chapter = Number(chapterKey);
@@ -309,6 +309,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                     ) : (
                         <motion.div
                             key="text-archive-grid"
+                            className="h-full"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}

@@ -115,7 +115,7 @@ const DATA: Record<Locale, LocalizedData> = {
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
-        textData: textData_en as TextData,
+        textData: textData_ja as TextData,
         glossary: {
             weapons: weapons_ja,
             characters: characters_ja,

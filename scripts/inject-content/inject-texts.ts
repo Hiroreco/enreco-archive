@@ -131,7 +131,7 @@ async function main() {
                 if (itemStat.isDirectory()) {
                     // This is a group folder
                     const groupKey = itemName;
-                    const indexFileName = `${groupKey}-index.md`;
+                    const indexFileName = `${groupKey}-index${locale === "ja" ? "_ja" : ""}.md`;
                     const indexPath = path.join(itemPath, indexFileName);
 
                     try {
@@ -157,7 +157,9 @@ async function main() {
                                 );
                                 const entryTitle = extractTitle(entryContent);
                                 const content = extractContent(entryContent);
-                                const hasAudio = audioFiles.has(entryName);
+                                const hasAudio = audioFiles.has(
+                                    entryName.replace("_ja", ""),
+                                );
 
                                 entries.push({
                                     id: entryName,

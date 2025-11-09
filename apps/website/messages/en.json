@@ -450,7 +450,7 @@
             "viewSource": "View original source"
         },
         "tabs": {
-            "videos": "Videos",
+            "videos": "Media",
             "clips": "Clips",
             "texts": "Texts"
         },
@@ -494,7 +494,7 @@
                 "texts": "Texts",
                 "fanfics": "Fanfics"
             },
-            "description": "A collection of notable texts from the ENreco streams",
+            "description": "A collection of notable writings from ENreco",
             "categories": "Categories",
             "noResults": "Nothing here but us chickens...",
             "category": {
