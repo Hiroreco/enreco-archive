@@ -1,3 +1,4 @@
+import siteMeta from "#/metadata.json";
 import {
     Chapter,
     ChapterRecapData,
@@ -6,7 +7,6 @@ import {
     Song,
     TextData,
 } from "@enreco-archive/common/types";
-import siteMeta from "#/metadata.json";
 
 import chapter0_en from "#/en/chapter0_en.json";
 import chapter1_en from "#/en/chapter1_en.json";
@@ -17,16 +17,16 @@ import chapter1_ja from "#/ja/chapter1_ja.json";
 import textData_en from "#/en/text-data_en.json";
 import textData_ja from "#/ja/text-data_ja.json";
 
-import weapons_en from "#/en/glossary/weapons_en.json";
-import weapons_ja from "#/ja/glossary/weapons_ja.json";
 import characters_en from "#/en/glossary/characters_en.json";
-import characters_ja from "#/ja/glossary/characters_ja.json";
 import lore_en from "#/en/glossary/lore_en.json";
-import lore_ja from "#/ja/glossary/lore_ja.json";
-import quests_en from "#/en/glossary/quests_en.json";
-import quests_ja from "#/ja/glossary/quests_ja.json";
 import misc_en from "#/en/glossary/misc_en.json";
+import quests_en from "#/en/glossary/quests_en.json";
+import weapons_en from "#/en/glossary/weapons_en.json";
+import characters_ja from "#/ja/glossary/characters_ja.json";
+import lore_ja from "#/ja/glossary/lore_ja.json";
 import misc_ja from "#/ja/glossary/misc_ja.json";
+import quests_ja from "#/ja/glossary/quests_ja.json";
+import weapons_ja from "#/ja/glossary/weapons_ja.json";
 
 import songs_en from "#/en/songs_en.json";
 import songs_ja from "#/ja/songs_ja.json";
@@ -34,11 +34,24 @@ import songs_ja from "#/ja/songs_ja.json";
 import chapterRecaps_en from "#/en/chapter-recaps_en.json";
 import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
 
+import media_archive_en from "#/en/media-archive_en.json";
+import media_archive_ja from "#/ja/media-archive_ja.json";
+
 import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
 
-import { Locale } from "@/store/settingStore";
+import clips_en from "#/en/clips_en.json";
+import clips_ja from "#/ja/clips_ja.json";
+
+import fanfic_data_en from "#/en/fanfics.json";
+
+import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
+import {
+    ClipsData,
+    RecollectionArchiveEntry,
+} from "@/components/view/media-archive/types";
 import { Category } from "@/contexts/GlossaryContext";
+import { Locale } from "@/store/settingStore";
 
 interface LocalizedData {
     chapters: Chapter[];
@@ -56,6 +69,9 @@ interface LocalizedData {
         date: string;
         content: string;
     }>;
+    recollectionArchive: RecollectionArchiveEntry[];
+    clipData: ClipsData;
+    fanficData: FanficEntry[];
 }
 
 const DATA: Record<Locale, LocalizedData> = {
@@ -76,6 +92,9 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_en,
         chapterRecap: chapterRecaps_en,
         changelogs: changelogs_en,
+        recollectionArchive: media_archive_en as RecollectionArchiveEntry[],
+        clipData: clips_en as ClipsData,
+        fanficData: fanfic_data_en,
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
@@ -90,6 +109,9 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: songs_ja,
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
+        recollectionArchive: media_archive_ja as RecollectionArchiveEntry[],
+        clipData: clips_ja as ClipsData,
+        fanficData: fanfic_data_en,
     },
 };
 
@@ -133,7 +155,22 @@ export const getSiteData = (locale: Locale): SiteData => {
 };
 
 export const getTextItem = (locale: Locale, textId: string) => {
-    return DATA[locale].textData[textId];
+    const textData = DATA[locale].textData;
+
+    for (const group of Object.values(textData)) {
+        const entry = group.entries.find((e) => e.id === textId);
+        if (entry) {
+            return {
+                ...entry,
+                chapter: group.chapter,
+                category: group.category,
+                groupTitle: group.title,
+                groupDescription: group.description,
+            };
+        }
+    }
+
+    return null;
 };
 
 export const getChapterRecap = (locale: Locale) => {
@@ -142,4 +179,16 @@ export const getChapterRecap = (locale: Locale) => {
 
 export const getChangelog = (locale: Locale) => {
     return DATA[locale].changelogs;
+};
+
+export const getRecollectionArchive = (locale: Locale) => {
+    return DATA[locale].recollectionArchive;
+};
+
+export const getClipsData = (locale: Locale) => {
+    return DATA[locale].clipData;
+};
+
+export const getFanficData = (locale: Locale) => {
+    return DATA[locale].fanficData;
 };

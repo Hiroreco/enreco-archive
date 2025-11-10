@@ -15,20 +15,27 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { BookOpenTextIcon, Play, Square } from "lucide-react";
+import {
+    BookOpenTextIcon,
+    ChevronLeft,
+    ChevronRight,
+    Play,
+    Square,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { ReactNode, useCallback, useEffect, useMemo, useState } from "react";
 
 interface TextModalProps {
     textId: string;
-    label: string;
+    label: string | ReactNode;
 }
 
 const TextModal = ({ textId, label }: TextModalProps) => {
     const tCommon = useTranslations("common");
     const tText = useTranslations("modals.text");
-    const { getTextItem } = useLocalizedData();
-    const textItem = getTextItem(textId);
+    const { getTextData } = useLocalizedData();
+    const textData = getTextData();
     const {
         playSFX,
         playTextAudio,
@@ -39,13 +46,76 @@ const TextModal = ({ textId, label }: TextModalProps) => {
     } = useAudioStore();
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
-    if (!textItem) {
+    // Find the text group that contains this textId
+    const textGroup = useMemo(() => {
+        return textData[textId];
+    }, [textData, textId]);
+
+    const [currentEntryIndex, setCurrentEntryIndex] = useState(0);
+
+    const currentEntry = useMemo(() => {
+        if (!textGroup) return null;
+        return textGroup.entries[currentEntryIndex];
+    }, [textGroup, currentEntryIndex]);
+
+    const canGoNext = useMemo(() => {
+        if (!textGroup) return false;
+        return currentEntryIndex < textGroup.entries.length - 1;
+    }, [textGroup, currentEntryIndex]);
+
+    const canGoPrev = useMemo(() => {
+        return currentEntryIndex > 0;
+    }, [currentEntryIndex]);
+
+    const goToNext = useCallback(() => {
+        if (canGoNext) {
+            setCurrentEntryIndex((prev) => prev + 1);
+        }
+    }, [canGoNext]);
+
+    const goToPrev = useCallback(() => {
+        if (canGoPrev) {
+            setCurrentEntryIndex((prev) => prev - 1);
+        }
+    }, [canGoPrev]);
+
+    useEffect(() => {
+        if (!textGroup) return;
+        setCurrentEntryIndex(0);
+    }, [textId, textGroup]);
+
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            const isAnyDialogOpen =
+                document.querySelector('[role="dialog"]') !== null;
+
+            if (!isAnyDialogOpen) return;
+
+            if (e.key === "ArrowLeft" && canGoPrev) {
+                e.preventDefault();
+                goToPrev();
+            } else if (e.key === "ArrowRight" && canGoNext) {
+                e.preventDefault();
+                goToNext();
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [canGoPrev, canGoNext, goToNext, goToPrev]);
+
+    if (!textGroup) {
+        return null;
+    }
+
+    if (!currentEntry) {
         return null;
     }
 
     const isTextAudioPlaying =
-        textAudioState.isPlaying && textAudioState.currentTextId === textId;
-    const hasAudio = textItem.hasAudio === true;
+        textAudioState.isPlaying &&
+        textAudioState.currentTextId === currentEntry.id;
+    const hasAudio = currentEntry.hasAudio === true;
 
     const handleAudioClick = () => {
         playSFX("click");
@@ -54,7 +124,7 @@ const TextModal = ({ textId, label }: TextModalProps) => {
             stopTextAudio();
         } else {
             pauseBGM();
-            playTextAudio(textId);
+            playTextAudio(currentEntry.id);
         }
     };
 
@@ -65,33 +135,38 @@ const TextModal = ({ textId, label }: TextModalProps) => {
                 stopTextAudio();
             }
             playBGM();
+            setCurrentEntryIndex(0);
         } else {
             // Modal is opening
             playSFX("book");
         }
     };
 
+    // Determine if label is a string to show icon
+    const isStringLabel = typeof label === "string";
+
     return (
         <Dialog onOpenChange={handleModalClose}>
             <DialogTrigger className="inline-flex items-center gap-1 hover:text-accent transition-colors underline-offset-4 underline">
-                {label} <BookOpenTextIcon />
+                {label} {isStringLabel && <BookOpenTextIcon />}
             </DialogTrigger>
             <DialogContent showXButton={false} backdropFilter={backdropFilter}>
                 <DialogHeader>
-                    <DialogTitle>{textItem.title}</DialogTitle>
+                    <DialogTitle>{currentEntry.title}</DialogTitle>
                 </DialogHeader>
                 <VisuallyHidden>
                     <DialogDescription>
-                        {textItem.category} - {textItem.title}
+                        {textGroup.category} - {currentEntry.title}
                     </DialogDescription>
                 </VisuallyHidden>
                 <div className="relative">
                     <ViewMarkdown
+                        key={currentEntry.id}
                         className="px-2 overflow-y-auto overflow-x-hidden h-[70vh] pb-10 z-10"
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}
                     >
-                        {textItem.content}
+                        {currentEntry.content}
                     </ViewMarkdown>
 
                     <Image
@@ -102,7 +177,8 @@ const TextModal = ({ textId, label }: TextModalProps) => {
                         height={128}
                     />
 
-                    {/* Audio Button - positioned in bottom right */}
+                    {textGroup.entries.length > 1 && <></>}
+
                     {hasAudio && (
                         <button
                             onClick={handleAudioClick}
@@ -128,9 +204,38 @@ const TextModal = ({ textId, label }: TextModalProps) => {
                         </button>
                     )}
                 </div>
-                <DialogFooter className="pt-4 border-t-2">
+                <DialogFooter className="pt-4 border-t-2 grid grid-cols-4 gap-2">
+                    <span className="flex items-center justify-center text-muted-foreground rounded-lg border px-2 py-1 size-full">
+                        {currentEntryIndex + 1} / {textGroup.entries.length}
+                    </span>
+                    <div className="grid grid-cols-2 size-full col-span-2 gap-1">
+                        {/* Left and Right Navigation */}
+                        <button
+                            onClick={goToPrev}
+                            disabled={!canGoPrev}
+                            className={cn(
+                                "rounded-md bg-neutral-400/50 transition-all hover:opacity-90 active:brightness-90",
+                                "disabled:opacity-30 disabled:cursor-not-allowed",
+                            )}
+                            title="Previous entry"
+                        >
+                            <ChevronLeft className="w-5 h-5" />
+                        </button>
+                        <button
+                            onClick={goToNext}
+                            disabled={!canGoNext}
+                            className={cn(
+                                "rounded-md bg-neutral-400/50 transition-all hover:opacity-90 active:brightness-90 flex justify-end items-center",
+                                "disabled:opacity-30 disabled:cursor-not-allowed",
+                            )}
+                            title="Next entry"
+                        >
+                            <ChevronRight className="w-5 h-5" />
+                        </button>
+                    </div>
+
                     <DialogClose asChild>
-                        <Button className="bg-accent text-lg text-accent-foreground w-full -mb-2">
+                        <Button className="bg-accent text-accent-foreground-mb-2">
                             {tCommon("close")}
                         </Button>
                     </DialogClose>

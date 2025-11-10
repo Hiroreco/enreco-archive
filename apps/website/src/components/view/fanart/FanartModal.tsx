@@ -1,6 +1,7 @@
 import fanartData from "#/fanart.json";
-import CollapsibleHeader from "@/components/view/fanart/CollapsibleHeader";
-import FanartFilters from "@/components/view/fanart/FanartFilters";
+import FanartFilters, {
+    CHARACTER_ICON_MAP,
+} from "@/components/view/fanart/FanartFilters";
 import FanartMasonryGrid from "@/components/view/fanart/FanartMasonryGrid";
 import Lightbox from "@/components/view/lightbox/Lightbox";
 import {
@@ -15,6 +16,10 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import TechnicalFilters from "./TechnicalFilters";
+import { AnimatePresence, motion } from "framer-motion";
+import { getBlurDataURL } from "@/lib/utils";
+import Image from "next/image";
 
 export interface FanartEntry {
     url: string;
@@ -105,6 +110,14 @@ const FanartModal = ({
     const contentContainerRef = useRef<HTMLDivElement>(null);
     const lastScrollTop = useRef(0);
     const fanart = useMemo(() => fanartData as FanartEntry[], []);
+
+    const viewerBg = useMemo(() => {
+        return (
+            CHARACTER_ICON_MAP[
+                selectedCharacters[selectedCharacters.length - 1]
+            ] || "node-lore-opt.webp"
+        );
+    }, [selectedCharacters]);
 
     // Derived state
     const nameMap = useMemo(
@@ -612,29 +625,61 @@ const FanartModal = ({
         <>
             <Dialog open={open} onOpenChange={onOpenChange}>
                 <DialogContent
-                    className="max-w-7xl md:h-[90vh] h-[80vh] flex flex-col gap-2 md:gap-4"
+                    className="max-w-7xl md:h-[90vh] h-[80vh] flex md:flex-row flex-col gap-2 md:gap-4"
                     showXButtonForce={true}
                     showXButton={true}
                 >
-                    <CollapsibleHeader
+                    <FanartFilters
+                        selectedCharacters={selectedCharacters}
+                        selectedChapter={selectedChapter}
+                        selectedDay={selectedDay}
+                        characters={characters}
+                        chapters={chapters}
+                        days={days}
+                        nameMap={nameMap}
+                        onCharactersChange={setSelectedCharacters}
+                        onChapterChange={setSelectedChapter}
+                        onDayChange={setSelectedDay}
+                        onReset={resetFilters}
+                        totalItems={allFilteredFanart.length}
+                        inclusiveMode={inclusiveMode}
+                        onInclusiveModeChange={() => {
+                            if (inclusiveMode === "showAll") {
+                                setInclusiveMode("hasAny");
+                            } else if (inclusiveMode === "hasAny") {
+                                setInclusiveMode("hasOnly");
+                            } else {
+                                setInclusiveMode("showAll");
+                            }
+                        }}
+                        sortMode={sortMode}
+                        onSortModeChange={() => {
+                            setSortMode(
+                                sortMode === "default" ? "date" : "default",
+                            );
+                        }}
+                        videosOnly={videosOnly}
+                        onVideosOnlyChange={setVideosOnly}
+                        memesOnly={memesOnly}
+                        onMemesOnlyChange={setMemesOnly}
+                        onShuffle={shuffled ? handleUnshuffle : handleShuffle}
+                        shuffled={shuffled}
                         isCollapsed={isHeaderCollapsed}
                         isPinned={isHeaderPinned}
                         onTogglePin={() => setIsHeaderPinned(!isHeaderPinned)}
                         onToggleCollapse={handleToggleCollapse}
-                    >
-                        <FanartFilters
-                            selectedCharacters={selectedCharacters}
+                    />
+
+                    <div className="flex flex-col flex-1 overflow-y-auto border-b">
+                        <TechnicalFilters
                             selectedChapter={selectedChapter}
-                            selectedDay={selectedDay}
-                            characters={characters}
-                            chapters={chapters}
-                            days={days}
-                            nameMap={nameMap}
-                            onCharactersChange={setSelectedCharacters}
                             onChapterChange={setSelectedChapter}
+                            selectedDay={selectedDay}
                             onDayChange={setSelectedDay}
-                            onReset={resetFilters}
-                            totalItems={allFilteredFanart.length}
+                            videosOnly={videosOnly}
+                            onVideosOnlyChange={setVideosOnly}
+                            memesOnly={memesOnly}
+                            onMemesOnlyChange={setMemesOnly}
                             inclusiveMode={inclusiveMode}
                             onInclusiveModeChange={() => {
                                 if (inclusiveMode === "showAll") {
@@ -651,52 +696,71 @@ const FanartModal = ({
                                     sortMode === "default" ? "date" : "default",
                                 );
                             }}
-                            videosOnly={videosOnly}
-                            onVideosOnlyChange={setVideosOnly}
-                            memesOnly={memesOnly}
-                            onMemesOnlyChange={setMemesOnly}
                             onShuffle={
                                 shuffled ? handleUnshuffle : handleShuffle
                             }
                             shuffled={shuffled}
-                        />
-                    </CollapsibleHeader>
-
-                    <div
-                        className="flex-1 overflow-y-auto"
-                        ref={setContentContainerRef}
-                    >
-                        <FanartMasonryGrid
-                            masonryColumns={masonryColumns}
-                            filteredFanart={filteredFanart}
+                            onReset={resetFilters}
+                            chapters={chapters}
+                            days={days}
                             selectedCharacters={selectedCharacters}
-                            selectedChapter={selectedChapter}
-                            selectedDay={selectedDay}
-                            onOpenLightbox={handleOpenLightbox}
                         />
+                        <div
+                            className="flex-1 overflow-y-auto min-h-0"
+                            ref={setContentContainerRef}
+                        >
+                            <FanartMasonryGrid
+                                masonryColumns={masonryColumns}
+                                filteredFanart={filteredFanart}
+                                selectedCharacters={selectedCharacters}
+                                selectedChapter={selectedChapter}
+                                selectedDay={selectedDay}
+                                onOpenLightbox={handleOpenLightbox}
+                            />
 
-                        {/* Loading indicator */}
-                        {isLoading && (
-                            <div className="flex justify-center py-8">
-                                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
-                            </div>
-                        )}
+                            {/* Loading indicator */}
+                            {isLoading && (
+                                <div className="flex justify-center py-8">
+                                    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                                </div>
+                            )}
 
-                        {/* Load more button as fallback */}
-                        {hasMore && !isLoading && (
-                            <div className="flex justify-center py-8">
-                                <button
-                                    onClick={loadMore}
-                                    className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
-                                >
-                                    Load More (
-                                    {allFilteredFanart.length -
-                                        filteredFanart.length}{" "}
-                                    remaining)
-                                </button>
-                            </div>
-                        )}
+                            {/* Load more button as fallback */}
+                            {hasMore && !isLoading && (
+                                <div className="flex justify-center py-8">
+                                    <button
+                                        onClick={loadMore}
+                                        className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+                                    >
+                                        Load More (
+                                        {allFilteredFanart.length -
+                                            filteredFanart.length}{" "}
+                                        remaining)
+                                    </button>
+                                </div>
+                            )}
+                        </div>
                     </div>
+                    {/* Background */}
+                    <AnimatePresence>
+                        <motion.div
+                            key={`card-bg-${viewerBg}`}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="absolute inset-0 -z-10"
+                        >
+                            <Image
+                                src={getBlurDataURL(viewerBg)}
+                                alt=""
+                                fill
+                                className="object-cover dark:opacity-20 opacity-20"
+                                priority={false}
+                            />
+                            <div className="absolute inset-0 dark:bg-black/30 " />
+                        </motion.div>
+                    </AnimatePresence>
                 </DialogContent>
             </Dialog>
 

@@ -1,0 +1,554 @@
+[
+  {
+    "id": "c1-animation",
+    "title": "テーマ＆アニメーション - 第1章",
+    "description": "第1章のために制作された公式テーマソングとアニメーション",
+    "info": "",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-animation-start-again-opt.webp",
+    "entries": [
+      {
+        "title": "第1章 公式トレーラー",
+        "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA",
+        "thumbnailUrl": "/images-opt/c1-animation-trailer-opt.webp",
+        "info": "### 説明\n\n**2024年8月23日**に公開された、「ENigmatic Recollection」第1章の公式トレーラー。\n\nこの映像では、**リベスタル王国**と、そこに召喚された英雄たちの姿が描かれる。王国の色をまとい、それぞれが未知の地を歩き、探索し、冒険へと踏み出し、敵やダンジョンに立ち向かう――そんな壮大な旅路の幕開けを感じさせる内容だ。\n\n> これは、ホロライブEnglishのメンバーたちが紡ぐ物語の集まり。\n> 配信、アニメーション、そして新たに生み出される音楽を通して、無数の異世界から織り成される新しい物語へと没入せよ。\n\n公開当時、このプロジェクトがどんな形に進化していくのか、誰も正確には知らなかった。\nそれでも、この短い映像だけで――ファンの間に大きな期待と興奮の火が灯ったのだった。",
+        "src": "https://www.youtube.com/watch?v=OnMxjFRlywA",
+        "type": "youtube"
+      },
+      {
+        "title": "START AGAIN - 第1章 テーマソング",
+        "originalUrl": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
+        "thumbnailUrl": "/images-opt/c1-animation-start-again-opt.webp",
+        "info": "### 説明\n\n第1章の公式テーマソング。森カリオペ、ニノマエ・イナニス、IRyS、そしてエリザベスが参加し、**2024年8月31日**――この謎めいた旅が正式に始まる前日に公開された。\n\n楽曲は明るく前向きで、エネルギッシュな自己肯定のアンセム。\nこれから始まる壮大な冒険の幕開けにふさわしい高揚感に満ちている。\n歌詞には、“失われた記憶を取り戻す”という物語上の意味だけでなく、**新しい挑戦に立ち向かう強さと再出発の決意**というメタ的なテーマも込められている。\n\nたとえ道に迷っても――再び歩き出せば、仲間とともにもっと強くなれる。\nだからこそ、タイトルは **「START AGAIN（もう一度、始めよう）」**。",
+        "src": "https://www.youtube.com/watch?v=r-kkCrVZUzc",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c1-merch",
+    "title": "公式グッズ - 第1章",
+    "description": "第1章を記念して制作された公式テーマとアニメーション",
+    "info": "### 説明\n\n第1章の開催を記念して登場した公式グッズには、コレクションカード、アクリルスタンド、リベスタルのマント、ENrecoをモチーフにしたカップ、キーホルダー、そして全ヒーローのボイスパックがラインナップされています。",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-merch-commemoration-opt.webp",
+    "entries": [
+      {
+        "title": "第1章 記念グッズ",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter1?_pos=6&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-commemoration-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-commemoration-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENigmatic Recollection グッズ",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection?_pos=2&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-general-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-general-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "リベスタル・クロークスタイル・ブランケット",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_blanket?_pos=3&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-cloak-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-cloak-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "第1章 ニューコレクション",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter1newcollection?_pos=4&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c1-merch-new-collection-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-new-collection-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "リベスタルでのドタバタ劇 - ボイスパック",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_shenanigansinlibestal?_pos=1&_sid=331ace359&_ss=r&variant=46407945322716",
+        "thumbnailUrl": "/images-opt/c1-merch-voicepack-opt.webp",
+        "info": "",
+        "src": "/images-opt/c1-merch-voicepack-opt.webp",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "c1-misc",
+    "title": "その他 - 第1章",
+    "description": "第1章に関連するメディアや配信",
+    "info": "",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
+    "entries": [
+      {
+        "title": "ENigmatic Recollection 開幕パーティー",
+        "originalUrl": "https://www.youtube.com/watch?v=vo0Xw_Kg98A",
+        "thumbnailUrl": "/images-opt/c1-misc-launch-stream-opt.webp",
+        "info": "### 説明\n\n「ENigmatic Recollection」始動を記念した初の公式配信兼ローンチパーティー。参加メンバーは小鳥遊キアラ、オーロ・クロニー、ニノマエ・イナニス、フワワ、モココ。\n\n配信ではプロジェクト全体の概要発表に加え、メンバーたちによる楽しいアクティビティも盛りだくさん。あちこちで笑い声が響き、テンションも最高潮――そしてお約束（？）のハプニングとして、キアラがモココをフワワと間違える一幕も！",
+        "src": "https://www.youtube.com/watch?v=vo0Xw_Kg98A",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 リキャップショー",
+        "originalUrl": "https://www.youtube.com/watch?v=-pn8MhI0KwM",
+        "thumbnailUrl": "/images-opt/c1-misc-reaction-stream-opt.webp",
+        "info": "### 説明\n\n**2024年11月16日**に開催されたこのリキャップショーは、第1章の物語が完結してからおよそ2か月後に行われた特別配信。森カリオペ、キサナ・ビジュー、そしてゴナソンの3人が集まり、第1章の中でも特に印象的で爆笑必至な名場面を振り返りながら、当時の思い出を語り合った。\n\nそして配信のラストでは、ファンを熱狂させるビッグニュースが発表された――新章、**「運命の鎖（The Chains of Fate）」** の制作決定である。",
+        "src": "https://www.youtube.com/watch?v=-pn8MhI0KwM",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c1-recaps",
+    "title": "第1章 REWIND",
+    "description": "第1章の名場面を振り返るリキャップ映像シリーズ",
+    "info": "### 説明\n\n第2章の公開を前に、第1章の物語をもう一度楽しんでもらうために制作されたリキャップ映像シリーズ。\n**2025年4月24日から26日**にかけて、冒険の中で生まれた数々の名場面が、日替わりで公開された。",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-recaps-1-opt.webp",
+    "entries": [
+      {
+        "title": "第1章 REWIND - 第1話",
+        "originalUrl": "https://www.youtube.com/watch?v=2bnF2sPEB5Y",
+        "thumbnailUrl": "/images-opt/c1-recaps-1-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=2bnF2sPEB5Y",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第2話",
+        "originalUrl": "https://www.youtube.com/watch?v=vwvxQow7SxY",
+        "thumbnailUrl": "/images-opt/c1-recaps-2-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=vwvxQow7SxY",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第3話",
+        "originalUrl": "https://www.youtube.com/watch?v=gm4RLOy0J88",
+        "thumbnailUrl": "/images-opt/c1-recaps-3-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=gm4RLOy0J88",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第4話",
+        "originalUrl": "https://www.youtube.com/watch?v=aoLrgFjs12o&list=PLFJHB2njYCiLTt-2nFmdlCzOGSoNdN7XO&index=4",
+        "thumbnailUrl": "/images-opt/c1-recaps-4-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=aoLrgFjs12o&list=PLFJHB2njYCiLTt-2nFmdlCzOGSoNdN7XO&index=4",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第5話",
+        "originalUrl": "https://www.youtube.com/watch?v=s1I4JpLYkH4",
+        "thumbnailUrl": "/images-opt/c1-recaps-5-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=s1I4JpLYkH4",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第6話",
+        "originalUrl": "https://www.youtube.com/watch?v=t0DEowv7Srg",
+        "thumbnailUrl": "/images-opt/c1-recaps-6-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=t0DEowv7Srg",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第7話",
+        "originalUrl": "https://www.youtube.com/watch?v=yUysv_VS1HQ",
+        "thumbnailUrl": "/images-opt/c1-recaps-7-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=yUysv_VS1HQ",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第8話",
+        "originalUrl": "https://www.youtube.com/watch?v=oTqqeq4wkW0",
+        "thumbnailUrl": "/images-opt/c1-recaps-8-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=oTqqeq4wkW0",
+        "type": "youtube"
+      },
+      {
+        "title": "第1章 REWIND - 第9話",
+        "originalUrl": "https://www.youtube.com/watch?v=fL42o_NKirY",
+        "thumbnailUrl": "/images-opt/c1-recaps-9-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=fL42o_NKirY",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c1-recollections",
+    "title": "記憶の回想",
+    "description": "第1章で取り戻された記憶の記録集",
+    "info": "",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-recollections-calli-opt.webp",
+    "entries": [
+      {
+        "title": "回想 - 森カリオペ",
+        "originalUrl": "https://www.youtube.com/watch?v=j8I3gqJV1NU",
+        "thumbnailUrl": "/images-opt/c1-recollections-calli-opt.webp",
+        "info": "### 概要\n\n森カリオペの記憶は、第1章初日に行われた**アンダーワールドダンジョン**攻略後に取り戻された。\n\n死神見習いとして生きてきた、ピンク髪の死の使者。彼女の使命は常に「魂を刈り取り、それを冥界の糧とすること」だった。\n\nしかしその胸の奥底では、ずっとこの生き方に疑問を抱いていた。\nそしてある日、魂を奪う代わりに――**人間の感情、特に“幸せ”こそが同じ役割を果たす**ことに気づく。\n\n“死をもたらす者”としての宿命を拒み、彼女は新たな道を選んだ。\nそれは――“誰かに喜びを届ける者”として生きる道だった。",
+        "src": "https://www.youtube.com/watch?v=j8I3gqJV1NU",
+        "type": "youtube"
+      },
+      {
+        "title": "回想 - がうる・ぐら",
+        "originalUrl": "https://www.youtube.com/watch?v=SDnRHwpnIH4",
+        "thumbnailUrl": "/images-opt/c1-recollections-gura-opt.webp",
+        "info": "### 概要\n\nがうる・ぐらの記憶は、第1章2日目に行われた**アンダーウォーターダンジョン**攻略後に取り戻された。\n\nかつて彼女が暮らしていた海底王国での日々は、退屈そのもの。\n同じ景色、同じ日々――そんな単調な生活に、ぐらはついに我慢の限界を迎える。\n\nそしてある日、**万能の三叉槍（トライデント）**を盗み出し、海の底から脱走。\n波を越え、陽の光差す地上へと飛び出したその瞬間から、彼女の本当の冒険が始まったのだった。",
+        "src": "https://www.youtube.com/watch?v=SDnRHwpnIH4",
+        "type": "youtube"
+      },
+      {
+        "title": "回想 - 一伊那尓栖",
+        "originalUrl": "https://www.youtube.com/watch?v=QE5Ow4L1Zt8",
+        "thumbnailUrl": "/images-opt/c1-recollections-ina-opt.webp",
+        "info": "### 概要\n\n一伊那尓栖の記憶は、第1章3日目に行われた**エルドリッチ・ホラーダンジョン**攻略後に取り戻された。\n\n彼女が暮らすのは、どこか不気味で静寂に包まれた神社。\nだがその場所も、イナが放つ穏やかで優しい雰囲気によって、不思議と心落ち着く空間へと変わっていた。\n\n慈愛と品位を備えた巫女として、イナの務めは**迷える魂を安らぎへと導くこと**。\n時には彼らと遊び、時には寄り添い――すべての魂が穏やかに旅立てるよう、彼女は静かに見送っていた。",
+        "src": "https://www.youtube.com/watch?v=QE5Ow4L1Zt8",
+        "type": "youtube"
+      },
+      {
+        "title": "回想 - 小鳥遊キアラ",
+        "originalUrl": "https://www.youtube.com/watch?v=A3bQdV_sl08",
+        "thumbnailUrl": "/images-opt/c1-recollections-kiara-opt.webp",
+        "info": "### 説明\n\n小鳥遊キアラの記憶は、第1章4日目に行われた**ボルケーノダンジョン**攻略後に取り戻された。\n\n不死鳥として生まれ、かつては**ひとりで数え切れないほどの軍勢を打ち倒した伝説の戦士**。\n――そんな彼女が今挑んでいるのは、まさかの経営再建。\n\n多額の借金を抱え、倒産寸前だった一軒の店。\nキアラはそこで従業員として働き始め、やがて奇跡を起こす救世主へと成長していく。\nそして今では、誰からも愛される**輝かしいファストフードチェーンのオーナー**として立っているのだった。",
+        "src": "https://www.youtube.com/watch?v=A3bQdV_sl08",
+        "type": "youtube"
+      },
+      {
+        "title": "回想 - アメリア・ワトソン",
+        "originalUrl": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
+        "thumbnailUrl": "/images-opt/c1-recollections-ame-opt.webp",
+        "info": "### 説明\n\nアメリア・ワトソンの記憶は、第1章5日目に行われた**エイジアント・シューアーズダンジョン**攻略後に取り戻された。\n\n常に「次の大事件」を追い求める探偵アメリア。しかし彼女が直面する謎は、どれも小さな人間ドラマに過ぎなかった。\n彼女が本当に求めていたのは――世紀の大事件。そのスリルと興奮だった。\n\nそしてある日、4人の謎めいた人物を追ううちに、ついに運命の事件を見つけたと思った。だが調査の果てに知ったのは、彼女たちは悪人でも伝説の怪物でもなく、ただの優しい人々だったということ。\n\nそれでもアメリアの心は満たされていた。\n事件の大小ではなく、**真実を暴く瞬間こそが彼女の喜び**だから。\n――何より、彼女は“名探偵アメリア・ワトソン”なのだから。",
+        "src": "https://www.youtube.com/watch?v=jDmyL6CuzBU",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c1-talent",
+    "title": "タレント制作メディア",
+    "description": "イベント期間中にタレントたちが制作した特別コンテンツ",
+    "info": "### 説明\n\n第1章では、毎朝「目覚め」を待つ間、レディ・ブラッドフレイムの頭に、これまでの日々の出来事がフラッシュバックのようによぎっていました。\n\n初日にモココと交わした約束から、ネリッサに「赤の騎士なんて嫌い」と言われ心が崩れていった瞬間まで——。\nラフでシンプルながらも惹きつけるスケッチによって描かれたこれらの情景は、スカーレットの騎士の心に残る印象的な瞬間を切り取っています。\n\n彼女の内面を形づくるこれらの断片は、旅路を見守る観客に、彼女の心の奥にある想いや葛藤を垣間見せてくれました。",
+    "chapter": 1,
+    "thumbnailUrl": "/images-opt/c1-talent-liz-intro-8-opt.webp",
+    "entries": [
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 一日目",
+        "originalUrl": "https://www.youtube.com/watch?v=2qiX7084obE",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-1-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-1-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 二日目",
+        "originalUrl": "https://www.youtube.com/watch?v=M3cuDNZrIKM",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-2-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-2-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 三日目",
+        "originalUrl": "https://www.youtube.com/live/oVguNTPnDww?si=W6sCOql2i9WBsjYr",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-3-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-3-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 四日目",
+        "originalUrl": "https://www.youtube.com/watch?v=dCNrMstGc3I",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-4-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-4-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 五日目",
+        "originalUrl": "https://www.youtube.com/watch?v=1_dhGL0K5-k",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-5-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-5-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 六日目",
+        "originalUrl": "https://www.youtube.com/watch?v=5R01-igo4sM",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-6-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-6-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 七日目",
+        "originalUrl": "https://www.youtube.com/watch?v=Gw0dZbPKTG4",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-7-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-7-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "レディ・ブラッドフレイムの内なる想い - 八日目",
+        "originalUrl": "https://www.youtube.com/watch?v=_urPfTQnLes",
+        "thumbnailUrl": "/images-opt/c1-talent-liz-intro-8-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c1-talent-liz-intro-8-opt.mp4",
+        "type": "video"
+      }
+    ]
+  },
+  {
+    "id": "c2-animation",
+    "title": "テーマ＆アニメーション - 第2章",
+    "description": "第2章のために制作された公式テーマソングとアニメーション",
+    "info": "",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-animation-monster-opt.webp",
+    "entries": [
+      {
+        "title": "MONSTER - 第2章 テーマソング",
+        "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A",
+        "thumbnailUrl": "/images-opt/c2-animation-monster-opt.webp",
+        "info": "### 説明\n\n**2025年5月3日**に公開された「_MONSTER_」は、**ENigmatic Recollection**第2章の公式テーマソング。\n参加メンバーはジジ、イナ、クロニー、そしてシオリ。\n\n激しいエレクトロロックサウンドに、どこか不安定でジャズ的な和声が混ざり合うこの楽曲は、\n第2章の混沌と緊迫感に満ちた世界観を見事に表現している。\n\n歌詞のテーマは、**“自己の侵食”**と、**“内なる怪物”との対峙**。\nそれは外敵ではなく――心の奥底で叫び続ける、もう一人の自分との闘いを描いている。\n\n映像面でも非常に完成度が高く、全編にわたって第2章の物語と繋がる象徴的な演出が散りばめられている。\n特に印象的なのはラストシーン。4枚のカードが英雄たちを示す中、**シオリのカードだけが――彼女自身の手によって裏返される**瞬間だった。",
+        "src": "https://www.youtube.com/watch?v=nUrITFpI85A",
+        "type": "youtube"
+      },
+      {
+        "title": "第2章 - ローディング画面",
+        "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
+        "thumbnailUrl": "/images-opt/c2-animation-spin-opt.webp",
+        "info": "### 説明\n\nこのローディング画面は、第2章で各タレントが一日の冒険を始める前に使用していたもの。\n星空のようにきらめく神秘的な背景の中で、タロットカードがくるくると回転し、\nそのたびに異なるヒーローの姿が現れるループアニメーションが特徴です。\n\n背景音楽には、第2章の公式テーマソング **「MONSTER」** のインストゥルメンタル版が使用されています。",
+        "src": "https://cdn.enreco-archive.net/c2-animation-spin-opt.mp4",
+        "type": "video"
+      }
+    ]
+  },
+  {
+    "id": "c2-merch",
+    "title": "公式グッズ - 第2章",
+    "description": "第2章のために制作された公式グッズ",
+    "info": "### 説明\n\n第2章の開催を記念して登場した公式グッズには、キービジュアルをあしらったラバーマット、ENrecoをモチーフにしたカードホルダー、ポーチ、そしてIRyS・クロニー・ベイのキャラクターカードが含まれています。",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-merch-commemoration-opt.webp",
+    "entries": [
+      {
+        "title": "第2章 記念グッズ",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-commemoration-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-commemoration-opt.webp",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "c2-misc",
+    "title": "その他 - 第2章",
+    "description": "第2章に関連するメディアや配信",
+    "info": "",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-misc-event-stream-opt.webp",
+    "entries": [
+      {
+        "title": "ENigmatic Recollection 第2章 ゲームトレーラー",
+        "originalUrl": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
+        "thumbnailUrl": "/images-opt/c2-misc-trailer-opt.webp",
+        "info": "### 説明\n\n第2章の初日が始まるほんの数時間前に公開された、公式ゲームトレーラー。\n英雄たちがこれから踏み入る新たな世界の断片が、ここで初めて明らかになった。\n\n映像にはダンジョンの数々、意味深なセリフ、そして映画のような緊迫感あふれる演出が散りばめられ、\nこれから始まる壮大な混沌の物語――その嵐の前触れを感じさせる内容となっていた。",
+        "src": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
+        "type": "youtube"
+      },
+      {
+        "title": "ENigmatic Recollection - 新章開幕",
+        "originalUrl": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "thumbnailUrl": "/images-opt/c2-misc-event-stream-opt.webp",
+        "info": "### 説明\n\n**2025年5月3日**、第2章が始まる前日に配信された特別番組。\n出演はクロニー、ビジュー、ネリッサ、イナ、そしてカリオペ。\nこの配信では、第2章の正式な情報や見どころを紹介し、視聴者に新たな物語の幕開けを告げた。\n\n番組内では、曲当てクイズやダンス、そして質問コーナーなど、楽しい企画が盛りだくさん。\n中でも印象的だったのは、膨らみ続ける風船を前にするチャレンジ――\n最終的にはあまりの迫力に、ビジューとカリオペが**トラウマ級の恐怖**を味わうことに……！",
+        "src": "https://www.youtube.com/watch?v=xb2pi8p9A8U",
+        "type": "youtube"
+      },
+      {
+        "title": "第2章 特設ページ",
+        "originalUrl": "https://hololive.hololivepro.com/en/special/16206/",
+        "thumbnailUrl": "/images-opt/c2-misc-site-opt.webp",
+        "info": "### 説明\n\n#ENreco ファンのみんな、そして初めての方もこんにちは！👋\n**ENigmatic Recollection** の新しい特設ページが公開されました！\n明日のオープニングイベントに向けて、ぜひチェックしてみてください🎉\n\n- ホロライブ（EN）",
+        "src": "/images-opt/c2-misc-site-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENreco キャンバス コンテスト",
+        "originalUrl": "https://x.com/hololive_En/status/1895609934085325149",
+        "thumbnailUrl": "/images-opt/c2-misc-canvas-opt.webp",
+        "info": "### 説明\n\n🎮 あなたのイラストが #hololive English のゲーム内に登場するかも!? 🎮\nENreco「キャンバスコンテスト」に参加しよう！🎨💙\n\n🖌 応募方法：\n✅ イラストを制作（サイズ：1280 × 1920 px）\n✅ ハッシュタグ **#ENreco #ENrecoCanvas** を付けて X または Instagram に投稿\n✅ 下記フォームから応募規約に同意して送信\n[https://forms.gle/EwoCdofSodvo97zo7](https://forms.gle/EwoCdofSodvo97zo7)\n\n🎉 応募締切：3月19日（PDT）\n詳しくは添付画像をチェック！チャンスをお見逃しなく✨\n\n- ホロライブ（EN）",
+        "src": "/images-opt/c2-misc-canvas-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENreco アートピア コンテスト",
+        "originalUrl": "https://x.com/hololive_En/status/1913042295668260967",
+        "thumbnailUrl": "/images-opt/c2-misc-artopia-opt.webp",
+        "info": "### 説明\n\nアーティストの皆さん、集合〜！🖌️🎨\nお気に入りの **#ENreco** の名場面を描いて、ハッシュタグ **#ENrecoArtopia** を付けて X または Instagram に投稿しよう！\n見事選ばれた方には豪華賞品をプレゼント！🏆\n\n✨ 今回は特定のタレントに限定されないので、自由に楽しんでOK！\n✨ XとInstagramの両方に投稿すれば応募口数が2倍に！\nみんなの素敵なアートを見せてね！\n\n🗓️ 開催期間：4月18日 10:30 JST ～ 5月2日 15:59 JST\n\n- ホロライブ（EN）",
+        "src": "/images-opt/c2-misc-artopia-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "ENreco キャプショニファイ コンテスト",
+        "originalUrl": "https://x.com/hololive_En/status/1918825402459357591",
+        "thumbnailUrl": "/images-opt/c2-misc-captionify-opt.webp",
+        "info": "### 説明\n\n考える帽子をかぶって🧠💥\n#ENreco のイラストにぴったりなセリフをつけよう！\n\n🏆 最もユニーク・面白い・心温まるキャプションには豪華賞品をプレゼント！\n✌️ XとInstagramの両方に **#ENrecoCaptionify** を付けて投稿すれば、当選チャンスが2倍！\n\n📅 開催期間：5月4日（9:30 AM JST）〜 5月11日（9:30 AM JST）\n\n- ホロライブ（EN）",
+        "src": "/images-opt/c2-misc-captionify-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "タレントたちの日記",
+        "originalUrl": "https://x.com/hololive_En/status/1919199141420540281",
+        "thumbnailUrl": "/images-opt/c2-misc-journals-opt.webp",
+        "info": "### 説明\n\n第2章のイベント期間中、タレントたちが毎日綴った日記が、ホロライブ（英語版）の公式Xアカウントで公開されました。\n\n- [1日目 - 2025年5月5日](https://x.com/hololive_En/status/1919199141420540281)\n- [2日目 - 2025年5月6日](https://x.com/hololive_En/status/1919561543014076716)\n- [3日目 - 2025年5月7日](https://x.com/hololive_En/status/1919923990598189410)\n- [4日目 (前編) - 2025年5月8日](https://x.com/hololive_En/status/1920293116965527800)\n- [4日目 (後編) - 2025年5月8日](https://x.com/hololive_En/status/1920293196229423247)\n- [5日目 (前編) - 2025年5月9日](https://x.com/hololive_En/status/1920648722947715285)\n- [5日目 (後編) - 2025年5月9日](https://x.com/hololive_En/status/1920648778815844817)\n- [6日目 - 2025年5月10日](https://x.com/hololive_En/status/1921011068576649575)\n- [7日目 (前編) - 2025年5月11日](https://x.com/hololive_En/status/1921373485231902828)\n- [7日目 (後編) - 2025年5月11日](https://x.com/hololive_En/status/1921373522787737918)\n- [8日目 - 2025年5月12日](https://x.com/hololive_En/status/1921417550325592518)",
+        "src": "/images-opt/c2-misc-journals-opt.webp",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "c2-recaps",
+    "title": "ENreco NEWS",
+    "description": "第2章の出来事を振り返るデイリー配信シリーズ",
+    "info": "### 説明\n\n第2章の**1日目、4日目、そして7日目**に行われたこの短編配信シリーズでは、森カリオペと小鳥遊キアラが司会を務め、前日までの物語を振り返りながら最新情報を届けた。\n\n配信では、ファンが作成した名場面クリップの紹介や、英雄たちが綴った日誌の朗読、そして当日に予定されている**ダンジョンやイベントの告知**など、見どころ満載の内容が展開された。",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
+    "entries": [
+      {
+        "title": "ENrecoニュース 第1日目",
+        "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "type": "youtube"
+      },
+      {
+        "title": "ENrecoニュース 第2〜4日目",
+        "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "thumbnailUrl": "/images-opt/c2-recaps-2-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "type": "youtube"
+      },
+      {
+        "title": "ENrecoニュース 第5〜7日目",
+        "originalUrl": "https://www.youtube.com/watch?v=37p-5YvWtyg",
+        "thumbnailUrl": "/images-opt/c2-recaps-3-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=37p-5YvWtyg",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c2-recollections",
+    "title": "記憶の回想",
+    "description": "第2章で取り戻された記憶の記録集",
+    "info": "",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
+    "entries": [
+      {
+        "title": "回想 - IRyS",
+        "originalUrl": "https://youtu.be/5uaWaQg4pnM",
+        "thumbnailUrl": "/images-opt/c2-recollections-irys-opt.webp",
+        "info": "### 説明\n\nIRySの記憶は、第2章2日目に行われた**スターサイト：エルピス**攻略後に取り戻された。\n\n天使と悪魔の戦争の中で生まれたネフィリム――\n彼女の使命は、終わりなき争いに終止符を打つことだった。\n\nその**美しい歌声と心を奪う旋律**によって、敵対していた両者をひとつに導いた彼女。\nやがて人々は、そんな彼女を“女神”と呼ぶようになった。\n……もっとも、“お酒好きの女神”ではあったのだが。",
+        "src": "https://youtu.be/5uaWaQg4pnM",
+        "type": "youtube"
+      },
+      {
+        "title": "回想 - オーロ・クロニー",
+        "originalUrl": "https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO",
+        "thumbnailUrl": "/images-opt/c2-recollections-kronii-opt.webp",
+        "info": "### 説明\n\nオーロ・クロニーの記憶は、第2章4日目に行われた**スターサイト：クロノス**攻略後に取り戻された。\n\n彼女は“時の番人”。\n時間の流れを守り、ひび割れた時空を修復し、異なる次元で起きる**あらゆる異常を正す者**。\n\n無数の世界を繋ぐ時の糸を操りながら、彼女は今日も静かに――\n**時の秩序と多元世界の安定**を見守り続けている。",
+        "src": "https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO",
+        "type": "youtube"
+      },
+      {
+        "title": "回想 - ハコス・ベールズ",
+        "originalUrl": "https://youtu.be/aSFZwinYaaU",
+        "thumbnailUrl": "/images-opt/c2-recollections-bae-opt.webp",
+        "info": "### 説明\n\nハコス・ベールズの記憶は、第2章6日目に行われた**スターサイト：カオス**攻略後に取り戻された。\n\nネズミ？　ジーニー？　それとも狂気の赤き女？\n――彼女が何者であろうと、そんなことはどうでもいい。\n彼女が現れるだけで、世界は瞬く間に**混沌**へと変わるのだから。\n\nエネルギッシュで、力強く、まさに“カオス”そのもの。\nそして彼女がサイコロを振れば、現実はその意志に従い、\n自分にも、周囲の者たちにも――望むままの“願い”を叶えてしまうのだった。",
+        "src": "https://youtu.be/aSFZwinYaaU",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "c2-talent",
+    "title": "タレント制作メディア",
+    "description": "イベント期間中にタレントたちが制作した特別コンテンツ",
+    "info": "### 説明\n\n二日目以降、レディ・ブラッドフレイムは自室の執務机で、日々の記録――彼女が「騎士の日誌」と呼ぶ日記――を声に出して書き綴っていた。\n\nその日誌には、前日に起きた出来事だけでなく、それらが彼女の心にどんな影響を与えたのかも記されている。思い出を辿りながら、彼女の言葉は次第に内省的で深みを増していく――自分自身のこと、仲間たちのこと、そして何より「真の騎士であるとはどういうことか」という問いについて。",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-talent-cecilia-princess-song-opt.webp",
+    "entries": [
+      {
+        "title": "Oh Princess",
+        "originalUrl": "https://www.youtube.com/watch?v=5x9ix5CGmoo",
+        "thumbnailUrl": "/images-opt/c2-talent-cecilia-princess-song-opt.webp",
+        "info": "### 説明\n\n長い間、胸の奥に秘めてきた想い――。\nついにセシリアは、そのすべてを言葉にする勇気を見つけた。\n\n第2章の6日目、彼女はその想いを**心からのセレナーデ**に込めて歌い上げる。\nそれは、長い間敬愛し、すべてを捧げてきた**あの姫への愛の告白**だった。",
+        "src": "https://www.youtube.com/watch?v=5x9ix5CGmoo",
+        "type": "youtube"
+      },
+      {
+        "title": "騎士の日誌 - 一日目",
+        "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-1-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-1-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "騎士の日誌 - 二日目",
+        "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-2-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-2-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "騎士の日誌 - 四日目",
+        "originalUrl": "https://www.youtube.com/watch?v=1tE2N1kP2YA",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-4-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-4-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "騎士の日誌 - 五日目",
+        "originalUrl": "https://www.youtube.com/live/uEB2dIe37oo",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-5-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-5-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "騎士の日誌 - 六日目",
+        "originalUrl": "https://www.youtube.com/live/sDjysXFWYbI",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-6-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-6-opt.mp4",
+        "type": "video"
+      },
+      {
+        "title": "騎士の日誌 - 七日目",
+        "originalUrl": "https://www.youtube.com/live/b-jTHH6GK5w",
+        "thumbnailUrl": "/images-opt/c2-talent-liz-intro-7-opt.webp",
+        "info": "",
+        "src": "https://cdn.enreco-archive.net/c2-talent-liz-intro-7-opt.mp4",
+        "type": "video"
+      }
+    ]
+  }
+]

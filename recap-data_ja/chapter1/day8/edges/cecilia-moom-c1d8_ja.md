@@ -48,3 +48,5 @@
 ["she's a professional after all" by Ammy](https://x.com/Ammiietty/status/1832638322503463219)
 
 ["Hair-brading" by blank](https://x.com/blankworks_/status/1835045286823035138)
+
+["An ally from a different guild 2" by Hyoweii](https://x.com/weiiyxn/status/1858149160505196620)

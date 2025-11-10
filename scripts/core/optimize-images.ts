@@ -95,20 +95,18 @@ async function optimizeImages() {
     const videoDir = path.resolve(process.cwd(), SHARED_VIDEOS_FOLDER);
 
     let allImageFiles: string[] = [];
-    if(existsSync(resourceDir)) {
+    if (existsSync(resourceDir)) {
         allImageFiles = await walkDir(resourceDir);
-    }
-    else {
-        console.log("Images folder not found, skipping image optimization.")
+    } else {
+        console.log("Images folder not found, skipping image optimization.");
         console.log("Expected image folder: ", resourceDir);
     }
-    
-    let allVideoFiles: string[] = []
-    if(existsSync(videoDir)) {
+
+    let allVideoFiles: string[] = [];
+    if (existsSync(videoDir)) {
         allVideoFiles = await walkDir(videoDir);
-    }
-    else {
-        console.log("Videos folder not found, skipping video optimization.")
+    } else {
+        console.log("Videos folder not found, skipping video optimization.");
         console.log("Expected video folder: ", videoDir);
     }
 

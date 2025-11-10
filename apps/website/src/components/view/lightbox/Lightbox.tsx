@@ -15,6 +15,7 @@ import {
     DialogDescription,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
+import { MediaType } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { X } from "lucide-react";
 import Image from "next/image";
@@ -25,7 +26,7 @@ interface LightboxProps {
     alt: string;
     width?: number;
     height?: number;
-    type?: "image" | "video";
+    type?: MediaType;
     className?: string;
     containerClassName?: string;
     priority?: boolean;
@@ -176,13 +177,33 @@ const Lightbox = ({
         );
     }, [galleryItemsArray.length]);
 
-    // Update current item index when gallery changes
+    // Reset current item index when gallery changes
     useEffect(() => {
-        if (!isOpen || !isExternallyControlled) return;
         if (galleryItems && galleryItems.length > 0) {
-            setCurrentItemIndex(0);
+            setCurrentGalleryIndex(0);
         }
-    }, [galleryItems, isOpen, isExternallyControlled]);
+    }, [galleryItems]);
+
+    useEffect(() => {
+        if (
+            externalIsOpen &&
+            (galleryIndex !== currentGalleryIndex ||
+                galleryIndex !== currentItemIndex)
+        ) {
+            setCurrentItemIndex(galleryIndex);
+            setCurrentGalleryIndex(galleryIndex);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [
+        externalIsOpen,
+        galleryIndex,
+        setCurrentGalleryIndex,
+        setCurrentItemIndex,
+    ]);
+
+    useEffect(() => {
+        setCurrentGalleryIndex(galleryIndex);
+    }, [galleryIndex]);
 
     // Pauses BGM when lightbox opens and current entry is a video, resumes when closed
     useEffect(() => {
@@ -203,15 +224,22 @@ const Lightbox = ({
     let blurBgSrc = "";
     if (currentGalleryItem.type === "image") {
         blurBgSrc = getBlurDataURL(currentGalleryItem.src);
-    } else if (currentGalleryItem.type === "video") {
-        const videoName =
-            currentGalleryItem.src
-                .split("/")
-                .pop()
-                ?.replace(/\.[^/.]+$/, "") || "";
+    } else {
+        if (currentGalleryItem.thumbnailSrc) {
+            blurBgSrc = getBlurDataURL(currentGalleryItem.thumbnailSrc);
+        } else {
+            const videoName =
+                currentGalleryItem.src
+                    .split("/")
+                    .pop()
+                    ?.replace(/\.[^/.]+$/, "") || "";
 
-        const thumbnailSrc = `${videoName}-thumb.webp`;
-        blurBgSrc = getBlurDataURL(thumbnailSrc) || "";
+            const thumbnailSrc = `${videoName}-thumb.webp`;
+            blurBgSrc = getBlurDataURL(thumbnailSrc) || "";
+        }
+        if (!blurBgSrc) {
+            blurBgSrc = getBlurDataURL("bg-0-dark-opt");
+        }
     }
 
     return (
