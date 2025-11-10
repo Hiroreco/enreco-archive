@@ -233,7 +233,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="grid lg:grid-cols-2 gap-x-4 w-full overflow-y-auto h-full px-2 overflow-x-hidden"
+                            className="grid lg:grid-cols-2 gap-x-4 w-full overflow-y-auto pb-4 h-full px-2 overflow-x-hidden"
                         >
                             {sortedChapters.map((chapterKey) => {
                                 const chapter = Number(chapterKey);

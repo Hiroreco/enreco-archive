@@ -45,9 +45,9 @@ const FanficArchiveSelector = ({
                     <BookHeart className="size-5 text-accent" />
                 </div>
                 <div className="flex-1 min-w-0">
-                    <h3 className="font-semibold text-sm line-clamp-2">
+                    <div className="font-semibold text-sm line-clamp-2">
                         {fanfic.title}
-                    </h3>
+                    </div>
                     <div className="flex items-center gap-1 mt-1 text-xs text-muted-foreground">
                         <User className="size-3" />
                         <span className="truncate">{fanfic.author}</span>

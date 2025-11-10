@@ -151,7 +151,7 @@ const TextArchiveCard = () => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.15 }}
-                        className="overflow-x-hidden flex-1"
+                        className="overflow-x-hidden py-2 flex-1"
                     >
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 px-4">
                             {fanficData.map((fanfic) => (
