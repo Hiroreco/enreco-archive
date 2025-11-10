@@ -418,6 +418,40 @@
     ]
   },
   {
+    "id": "c2-news",
+    "title": "ENreco NEWS",
+    "description": "第2章の出来事を毎日まとめたシリーズ",
+    "info": "### 説明\n\n第2章の1日目・4日目・7日に配信されたこのショート配信シリーズでは、**森カリオペ**と**小鳥遊キアラ**がホストとなり、それまでの出来事を振り返っていきました。ストーリーが進む中で、視聴者全員が内容を把握できるようにするための、いわば「情報まとめ配信」です。\n\n配信では、ファンが制作した面白シーンのクリップ紹介、ヒーローたちが残したジャーナル（冒険日誌）の朗読、そしてその日に挑むダンジョンやイベントの告知などが行われました。テンポよくまとめられた内容で、見逃した人でもすぐに状況をキャッチアップできる構成になっています。",
+    "chapter": 2,
+    "thumbnailUrl": "/images-opt/c2-news-1-opt.webp",
+    "entries": [
+      {
+        "title": "ENreco NEWS 1日目",
+        "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "thumbnailUrl": "/images-opt/c2-news-1-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "type": "youtube"
+      },
+      {
+        "title": "ENreco NEWS 2〜4日目",
+        "originalUrl": "https://www.youtube.com/watch?v=zjeuQnsPz9E",
+        "thumbnailUrl": "/images-opt/c2-news-2-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=zjeuQnsPz9E",
+        "type": "youtube"
+      },
+      {
+        "title": "ENreco NEWS 5〜7日目",
+        "originalUrl": "https://www.youtube.com/watch?v=37p-5YvWtyg",
+        "thumbnailUrl": "/images-opt/c2-news-3-opt.webp",
+        "info": "",
+        "src": "https://www.youtube.com/watch?v=37p-5YvWtyg",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
     "id": "c2-recaps",
     "title": "ENreco NEWS",
     "description": "第2章の出来事を振り返るデイリー配信シリーズ",
@@ -502,7 +536,7 @@
         "type": "youtube"
       },
       {
-        "title": "騎士の日誌 - 一日目",
+        "title": "騎士の日誌 0001",
         "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-1-opt.webp",
         "info": "",
@@ -510,7 +544,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 二日目",
+        "title": "騎士の日誌 0002",
         "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-2-opt.webp",
         "info": "",
@@ -518,7 +552,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 四日目",
+        "title": "騎士の日誌 0003",
         "originalUrl": "https://www.youtube.com/watch?v=1tE2N1kP2YA",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-4-opt.webp",
         "info": "",
@@ -526,7 +560,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 五日目",
+        "title": "騎士の日誌 0004",
         "originalUrl": "https://www.youtube.com/live/uEB2dIe37oo",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-5-opt.webp",
         "info": "",
@@ -534,7 +568,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 六日目",
+        "title": "騎士の日誌 0005",
         "originalUrl": "https://www.youtube.com/live/sDjysXFWYbI",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-6-opt.webp",
         "info": "",
@@ -542,7 +576,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 七日目",
+        "title": "騎士の日誌 0006",
         "originalUrl": "https://www.youtube.com/live/b-jTHH6GK5w",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-7-opt.webp",
         "info": "",
