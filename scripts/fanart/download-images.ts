@@ -122,7 +122,7 @@ async function run() {
             );
         });
         if (already) {
-            console.log(`↻ Skipping ${baseName} (already downloaded)`);
+            // console.lzog(`↻ Skipping ${baseName} (already downloaded)`);
             continue;
         }
 
