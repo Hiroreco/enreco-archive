@@ -66,13 +66,8 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
                     throw new Error("Chapter not found");
                 }
                 const content = await loadStory(chapter.storyKey);
-                // Normalize <p> tags, ensure that there are spaces between paragraphs
-                const normalizedContent = content.replace(
-                    /<\/p>(?!<p>&nbsp;<\/p>)/g,
-                    "</p><p>&nbsp;</p>",
-                );
 
-                setStoryContent(normalizedContent);
+                setStoryContent(content);
             } catch (err) {
                 setError("Failed to load story content");
                 console.error(err);
