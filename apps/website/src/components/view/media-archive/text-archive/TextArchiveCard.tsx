@@ -1,4 +1,5 @@
 import FanficArchiveSelector from "@/components/view/media-archive/text-archive/FanficArchiveSelector";
+import FanficViewer from "@/components/view/media-archive/text-archive/FanficViewer";
 import TextArchiveSelector from "@/components/view/media-archive/text-archive/TextArchiveSelector";
 import TextModal from "@/components/view/utility-modals/TextModal";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
@@ -21,9 +22,9 @@ const TextArchiveCard = () => {
     const fanficData = getFanficData();
 
     const [activeTab, setActiveTab] = useState<"texts" | "fanfics">("texts");
-    // const [selectedFanfic, setSelectedFanfic] = useState<
-    //     (typeof fanficData)[0] | null
-    // >(null);
+    const [selectedFanfic, setSelectedFanfic] = useState<
+        (typeof fanficData)[0] | null
+    >(null);
 
     const groupedTexts = useMemo(() => {
         const grouped: Record<
@@ -49,19 +50,13 @@ const TextArchiveCard = () => {
         [groupedTexts],
     );
 
-    // const handleFanficClick = (fanfic: (typeof fanficData)[0]) => {
-    //     setSelectedFanfic(fanfic);
-    // };
+    const handleFanficClick = (fanfic: (typeof fanficData)[0]) => {
+        setSelectedFanfic(fanfic);
+    };
 
-    // const handleBackToList = () => {
-    //     setSelectedFanfic(null);
-    // };
-
-    // if (selectedFanfic && activeTab === "fanfics") {
-    //     return (
-    //         <FanficViewer fanfic={selectedFanfic} onBack={handleBackToList} />
-    //     );
-    // }
+    const handleBackToList = () => {
+        setSelectedFanfic(null);
+    };
 
     return (
         <div className="flex flex-col gap-4 h-full">
@@ -144,6 +139,20 @@ const TextArchiveCard = () => {
                             );
                         })}
                     </motion.div>
+                ) : selectedFanfic && activeTab === "fanfics" ? (
+                    <motion.div
+                        key="fanfics-reader"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.15 }}
+                        className="overflow-x-hidden overflow-y-auto flex-1"
+                    >
+                        <FanficViewer
+                            fanfic={selectedFanfic}
+                            onBack={handleBackToList}
+                        />
+                    </motion.div>
                 ) : (
                     <motion.div
                         key="fanfics-viewer"
@@ -154,10 +163,11 @@ const TextArchiveCard = () => {
                         className="overflow-x-hidden py-2 flex-1"
                     >
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 px-4">
-                            {fanficData.map((fanfic) => (
+                            {fanficData.map((fanfic, index) => (
                                 <FanficArchiveSelector
-                                    key={fanfic.storyKey}
+                                    key={index}
                                     fanfic={fanfic}
+                                    onClick={() => handleFanficClick(fanfic)}
                                 />
                             ))}
                         </div>

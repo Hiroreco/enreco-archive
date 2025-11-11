@@ -1,15 +1,6 @@
+import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { BookHeart, User } from "lucide-react";
-
-interface FanficEntry {
-    author: string;
-    title: string;
-    characters: string[];
-    tags: string[];
-    summary: string;
-    src: string;
-    storyKey: string;
-}
 
 interface FanficArchiveSelectorProps {
     fanfic: FanficEntry;
@@ -28,7 +19,10 @@ const FanficArchiveSelector = ({
                 "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
                 "flex flex-col gap-2",
             )}
-            onClick={onClick}
+            onClick={(e) => {
+                e.preventDefault();
+                onClick?.();
+            }}
             tabIndex={0}
             onKeyDown={(e) => {
                 if (e.key === "Enter" || e.key === " ") {
@@ -56,9 +50,10 @@ const FanficArchiveSelector = ({
             </div>
 
             {fanfic.summary && (
-                <p className="text-xs text-muted-foreground line-clamp-3">
-                    {fanfic.summary}
-                </p>
+                <div
+                    className="text-xs text-muted-foreground line-clamp-3"
+                    dangerouslySetInnerHTML={{ __html: fanfic.summary }}
+                ></div>
             )}
 
             {fanfic.characters.length > 0 && (

@@ -480,6 +480,14 @@ https://www.youtube.com/watch?v=LZPZ5O8pokU
 
 <!-- gigi -->
 
+https://www.youtube.com/watch?v=KTYueJkpVTw
+
+<!-- liz, nerissa -->
+
+https://www.youtube.com/watch?v=swuR9e6_k2w
+
+<!-- gigi, calli, bijou, kroni -->
+
 ### Chapter 2
 
 https://www.youtube.com/watch?v=QebcLqaPf00

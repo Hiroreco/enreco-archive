@@ -506,6 +506,16 @@
             "entryCount": {
                 "singular": "entry",
                 "plural": "entries"
+            },
+            "readMode": "Read Mode",
+            "chapterNavigation": {
+                "previousChapter": "Previous Chapter",
+                "nextChapter": "Next Chapter"
+            },
+            "info": {
+                "summary": "Summary",
+                "characters": "Characters",
+                "tags": "Tags"
             }
         }
     }

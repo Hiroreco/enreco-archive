@@ -506,6 +506,16 @@
             "entryCount": {
                 "singular": "項目",
                 "plural": "項目"
+            },
+            "readMode": "読書モード",
+            "chapterNavigation": {
+                "previousChapter": "前の章",
+                "nextChapter": "次の章"
+            },
+            "info": {
+                "summary": "概要",
+                "characters": "キャラクター",
+                "tags": "タグ"
             }
         }
     }

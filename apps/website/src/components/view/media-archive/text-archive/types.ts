@@ -1,3 +1,10 @@
+export interface FanficChapter {
+    number: number;
+    title: string;
+    summary: string;
+    storyKey: string;
+}
+
 export interface FanficEntry {
     author: string;
     title: string;
@@ -5,5 +12,6 @@ export interface FanficEntry {
     tags: string[];
     summary: string;
     src: string;
-    storyKey: string;
+    chapters: FanficChapter[];
+    totalChapters: number;
 }
