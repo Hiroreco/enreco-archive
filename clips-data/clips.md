@@ -486,7 +486,7 @@ https://www.youtube.com/watch?v=KTYueJkpVTw
 
 https://www.youtube.com/watch?v=swuR9e6_k2w
 
-<!-- gigi, calli, bijou, kroni -->
+<!-- gigi, calli, bijou, kronii -->
 
 ### Chapter 2
 

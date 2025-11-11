@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import { EMBED_MISSING_BYPASS_LIST } from "./validation-vals.js";
 import { validateRecapContent } from "./recapChecks.js";
+import { TextData } from "@enreco-archive/common/types";
 
 // Get locale from command line arguments, default to "en"
 const locale = process.argv[2] || "en";
@@ -35,8 +36,21 @@ async function getMarkdownFiles(dir: string): Promise<string[]> {
 async function loadTextIds(): Promise<Set<string>> {
     try {
         const raw = await fs.readFile(TEXT_DATA_PATH, "utf-8");
-        const data = JSON.parse(raw);
-        return new Set(Object.keys(data));
+        const data: TextData = JSON.parse(raw);
+
+        // Assuming the new structure nests entries under categories
+        const textIds = new Set<string>();
+        for (const group of Object.values(data)) {
+            if (group && Array.isArray(group.entries)) {
+                for (const entry of group.entries) {
+                    if (entry.id) {
+                        textIds.add(entry.id.replace("_ja", ""));
+                    }
+                }
+            }
+        }
+
+        return textIds;
     } catch (error: any) {
         console.warn(
             `Warning: Could not load text data for locale "${locale}": ${error.message}`,

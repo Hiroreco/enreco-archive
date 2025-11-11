@@ -8,7 +8,3 @@
 ナナムーは予想外のタイミングで[突拍子もない発言](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=6901)を連発するため、セシリアは「この子って本当に普通なの？」と何度も首をかしげることに。（答えはほぼノー寄りだったけど！）それでも、この茶色の乙女が放つユニークな魅力は、なぜかセシリアの心をくすぐるものがありました。
 
 [今、悪い笑いしたよね？](#embed:https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=7743)
-
-## ファンアート
-
-["An ally from a different guild" by Hyoweii](https://x.com/weiiyxn/status/1857881816885285316)

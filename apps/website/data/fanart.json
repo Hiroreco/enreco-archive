@@ -3448,28 +3448,6 @@
     "postDate": "2024-09-08T18:01:47.000Z"
   },
   {
-    "url": "https://x.com/rayyramson/status/1832709727857627345",
-    "label": "\"His Pearl, Her Diamond\"",
-    "author": "rayyramson",
-    "chapter": 0,
-    "day": 7,
-    "characters": [
-      "ame",
-      "gigi"
-    ],
-    "images": [
-      {
-        "src": "images-opt/rayyramson-1832709727857627345-0-opt.webp",
-        "width": 1748,
-        "height": 2480,
-        "type": "image"
-      }
-    ],
-    "videos": [],
-    "type": "art",
-    "postDate": "2024-09-08T09:17:03.000Z"
-  },
-  {
     "url": "https://x.com/erasopepero232/status/1832763779790323948",
     "label": "\"Gonathon and Ame reunion\"",
     "author": "erasopepero232",
@@ -4757,6 +4735,34 @@
     "postDate": "2024-09-14T19:57:44.000Z"
   },
   {
+    "url": "https://x.com/weiiyxn/status/1858149160505196620",
+    "label": "\"An ally from a different guild 2\"",
+    "author": "weiiyxn",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "cecilia",
+      "moom"
+    ],
+    "images": [
+      {
+        "src": "images-opt/weiiyxn-1858149160505196620-0-opt.webp",
+        "width": 1891,
+        "height": 2587,
+        "type": "image"
+      },
+      {
+        "src": "images-opt/weiiyxn-1858149160505196620-1-opt.webp",
+        "width": 2497,
+        "height": 3048,
+        "type": "image"
+      }
+    ],
+    "videos": [],
+    "type": "art",
+    "postDate": ""
+  },
+  {
     "url": "https://x.com/kazukiich/status/1832567604323741947",
     "label": "\"a true villain\"",
     "author": "kazukiich",
@@ -5901,8 +5907,7 @@
     "chapter": 1,
     "day": 0,
     "characters": [
-      "cecilia",
-      "iphania"
+      "cecilia"
     ],
     "images": [
       {
@@ -5918,7 +5923,7 @@
   },
   {
     "url": "https://x.com/sebu_illust/status/1899563774933340404",
-    "label": "Cecilia",
+    "label": "\"Cecilia\"",
     "author": "sebu_illust",
     "chapter": 1,
     "day": 0,
