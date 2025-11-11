@@ -452,40 +452,6 @@
     ]
   },
   {
-    "id": "c2-recaps",
-    "title": "ENreco NEWS",
-    "description": "第2章の出来事を振り返るデイリー配信シリーズ",
-    "info": "### 説明\n\n第2章の**1日目、4日目、そして7日目**に行われたこの短編配信シリーズでは、森カリオペと小鳥遊キアラが司会を務め、前日までの物語を振り返りながら最新情報を届けた。\n\n配信では、ファンが作成した名場面クリップの紹介や、英雄たちが綴った日誌の朗読、そして当日に予定されている**ダンジョンやイベントの告知**など、見どころ満載の内容が展開された。",
-    "chapter": 2,
-    "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
-    "entries": [
-      {
-        "title": "ENrecoニュース 第1日目",
-        "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
-        "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
-        "info": "",
-        "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
-        "type": "youtube"
-      },
-      {
-        "title": "ENrecoニュース 第2〜4日目",
-        "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
-        "thumbnailUrl": "/images-opt/c2-recaps-2-opt.webp",
-        "info": "",
-        "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
-        "type": "youtube"
-      },
-      {
-        "title": "ENrecoニュース 第5〜7日目",
-        "originalUrl": "https://www.youtube.com/watch?v=37p-5YvWtyg",
-        "thumbnailUrl": "/images-opt/c2-recaps-3-opt.webp",
-        "info": "",
-        "src": "https://www.youtube.com/watch?v=37p-5YvWtyg",
-        "type": "youtube"
-      }
-    ]
-  },
-  {
     "id": "c2-recollections",
     "title": "記憶の回想",
     "description": "第2章で取り戻された記憶の記録集",

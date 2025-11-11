@@ -186,7 +186,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
                     )}
                     <div
                         id="story-content"
-                        className="prose prose-sm dark:prose-invert mt-10 max-w-4xl mx-auto"
+                        className="prose prose-sm dark:prose-invert mt-10 max-w-4xl mx-auto md:text-base text-[0.95rem]"
                         dangerouslySetInnerHTML={{
                             __html: storyContent,
                         }}
@@ -263,7 +263,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
                             </Button>
                         </DialogTrigger>
                         <DialogContent
-                            className="max-w-none w-screen h-[95vh] m-0 p-0 rounded-none"
+                            className="max-w-none w-screen h-screen md:h-[95vh] m-0 p-0 rounded-none"
                             showXButton={false}
                         >
                             <DialogTitle className="sr-only">
@@ -329,7 +329,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
                                     </div>
                                 </div>
                                 <div className="flex-1 overflow-y-auto">
-                                    <div className="max-w-4xl mx-auto px-4 py-6">
+                                    <div className="max-w-4xl mx-auto py-6">
                                         <StoryContent />
                                     </div>
                                 </div>
