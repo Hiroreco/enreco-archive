@@ -247,12 +247,14 @@ const TextModal = ({
                         </button>
                     )}
 
-                    {/* Info Panel - Desktop (slide from right) */}
+                    {/* Info Panel - Desktop */}
                     {hasDescription && (
                         <div
                             className={cn(
-                                "hidden md:block absolute top-0 right-0 w-80 rounded-lg bg-background/90 dark:bg-background/40 backdrop-blur-2xl shadow-lg transition-opacity overflow-y-auto translate-x-full",
-                                showInfo ? " opacity-100" : "opacity-0",
+                                "hidden md:block absolute top-0 right-0 w-80 rounded-lg bg-background/90 dark:bg-background/40 backdrop-blur-2xl shadow-lg transition-all overflow-y-auto",
+                                showInfo
+                                    ? "translate-x-full opacity-100"
+                                    : "opacity-0 translate-x-11/12",
                             )}
                         >
                             <div className="p-4">

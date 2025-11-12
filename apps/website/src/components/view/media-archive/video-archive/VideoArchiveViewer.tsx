@@ -11,11 +11,11 @@ import { EffectCreative } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { MediaEntry, RecollectionArchiveEntry } from "../types";
 
+import { useViewStore } from "@/store/viewStore";
+import { useTranslations } from "next-intl";
 import "swiper/css";
 import "swiper/css/effect-creative";
-import { useTranslations } from "next-intl";
 import Lightbox from "../../lightbox/Lightbox";
-import { useViewStore } from "@/store/viewStore";
 
 interface VideoArchiveViewerProps {
     entry: RecollectionArchiveEntry;
@@ -148,6 +148,18 @@ const VideoArchiveViewer = ({
                         className="relative w-full h-full min-h-[100px] aspect-video cursor-pointer flex items-center justify-center"
                         onClick={() => handleVideoThumbnailClick(index)}
                     >
+                        <AnimatePresence>
+                            <div className="absolute inset-0 -z-10">
+                                <Image
+                                    src={getBlurDataURL(
+                                        currentMedia.thumbnailUrl,
+                                    )}
+                                    alt=""
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                        </AnimatePresence>
                         <Image
                             src={media.thumbnailUrl}
                             alt={media.title}
@@ -159,7 +171,6 @@ const VideoArchiveViewer = ({
                                     ? "blur"
                                     : "empty"
                             }
-                            priority
                         />
 
                         <div className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
@@ -193,16 +204,27 @@ const VideoArchiveViewer = ({
                 className="relative w-full h-full cursor-pointer"
                 onClick={handleMainImageClick}
             >
+                <AnimatePresence>
+                    <div className="absolute inset-0 -z-10">
+                        <Image
+                            src={getBlurDataURL(currentMedia.thumbnailUrl)}
+                            alt=""
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+                </AnimatePresence>
                 <Image
-                    src={media.thumbnailUrl}
-                    alt={media.title}
+                    src={currentMedia.thumbnailUrl}
+                    alt={currentMedia.title}
                     fill
                     className="object-contain"
-                    blurDataURL={getBlurDataURL(media.thumbnailUrl)}
+                    blurDataURL={getBlurDataURL(currentMedia.thumbnailUrl)}
                     placeholder={
-                        getBlurDataURL(media.thumbnailUrl) ? "blur" : "empty"
+                        getBlurDataURL(currentMedia.thumbnailUrl)
+                            ? "blur"
+                            : "empty"
                     }
-                    priority
                 />
 
                 {/* Hover Overlay */}
