@@ -1,6 +1,6 @@
 <!-- title: ENreco NEWS -->
 <!-- entries: news-1, news-2, news-3 -->
-<!-- description: A daily series recapping the events of the second chapter -->
+<!-- description: A concurrent series recapping the events of the second chapter -->
 <!-- thumbnail: news-1 -->
 
 ### Description

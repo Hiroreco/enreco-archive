@@ -116,6 +116,9 @@ const TextArchiveCard = () => {
                                                     {groups.map(
                                                         ({ key, group }) => (
                                                             <TextModal
+                                                                showDescriptionPanel={
+                                                                    true
+                                                                }
                                                                 key={key}
                                                                 textId={key}
                                                                 label={

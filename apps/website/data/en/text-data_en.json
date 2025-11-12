@@ -654,7 +654,7 @@
       },
       {
         "id": "nerissa-journal-c2d7",
-        "content": "<!-- Nerissa's Journal Entry: Day 7 -->\n\n**Day 7 Journal**\n\nDear Lorekeeper,\n\nToday, we have destroyed the source of the ruination. Me, Shiori of the Novella, Mococo, Fuwawa, and Princess Koseki Bijou were turned in the dungeon, made to fight our friends. However, was this as much of a curse as they believed it to be?\n\nOr was it perhaps the reality. You see, my heart is still dyed black. I have no intention of \"saving\" anything. All that's left is the cold, dark abyss in my heart. Empty as a void.\n\nBut it matters not, now that I have accepted myself, as I truly am. Nothing else matters, nothing but the end of the world. I will commit myself to my coven, and we shall bring about the calamity - for _nothing_ stays pure.\n\nSincerely,\nNerissa",
+        "content": "**Day 7 Journal**\n\nDear Lorekeeper,\n\nToday, we have destroyed the source of the ruination. Me, Shiori of the Novella, Mococo, Fuwawa, and Princess Koseki Bijou were turned in the dungeon, made to fight our friends. However, was this as much of a curse as they believed it to be?\n\nOr was it perhaps the reality. You see, my heart is still dyed black. I have no intention of \"saving\" anything. All that's left is the cold, dark abyss in my heart. Empty as a void.\n\nBut it matters not, now that I have accepted myself, as I truly am. Nothing else matters, nothing but the end of the world. I will commit myself to my coven, and we shall bring about the calamity - for _nothing_ stays pure.\n\nSincerely,\nNerissa",
         "title": ""
       }
     ]
@@ -781,7 +781,7 @@
     "entries": [
       {
         "id": "dearest-consort",
-        "content": "Dearest Consort Eternal...\n\nI hope you are doing well...it seems like it's been forever since I last saw you...but...I know this cannot continue...\n\nWe have gone through many trials and challenges together...but...I feel with the recent happenings I have been enlightened...\n\nAs big as my love is for you...I feel that this cannot continue the way it is...\n\nAfter thinking over it...I have decided to leave on a journey to repent...a journey...or recollection... a journey...for a revelation...\n\nI have done good...but I also think I have done bad...\n\nIt is a journey of self-reflection and discovery...please do not worry...I will always hold our time dear to my heart...\n\nI shall be departing after the victory banquet...I hope that I can see you one last time before my journey...\n\nI know it is selfish of me to ask...but....if...you still feel the same after my return...\n\nwould you still be...uwu\n\n<!-- description -->\n\nIna’s final letter to her eternal consort, written on the last day of the second chapter. After the emotional turmoil involving her consort, the Hot Pink One, and Tam Gandr, Ina came to a realization: she needed a break—she needed enlightenment.",
+        "content": "Dearest Consort Eternal...\n\nI hope you are doing well...it seems like it's been forever since I last saw you...but...I know this cannot continue...\n\nWe have gone through many trials and challenges together...but...I feel with the recent happenings I have been enlightened...\n\nAs big as my love is for you...I feel that this cannot continue the way it is...\n\nAfter thinking over it...I have decided to leave on a journey to repent...a journey...or recollection... a journey...for a revelation...\n\nI have done good...but I also think I have done bad...\n\nIt is a journey of self-reflection and discovery...please do not worry...I will always hold our time dear to my heart...\n\nI shall be departing after the victory banquet...I hope that I can see you one last time before my journey...\n\nI know it is selfish of me to ask...but....if...you still feel the same after my return...\n\nwould you still be...uwu",
         "title": "Dearest Consort"
       }
     ]
@@ -794,7 +794,7 @@
     "entries": [
       {
         "id": "dearest-knight",
-        "content": "Dearest Lady Bloodflame,\n\nI hath noticed that you hath removeth thine portrait from our mutual portrait wall of your house.\n\nHath I angered you, dear knight?\n\nOr perhaps... am I... overthinking it?\n\nSincerely,\nLady Nerissa Juliet\n\n<!-- description -->\n\nNerissa’s worried, heartfelt letter to Elizabeth, written on Day 5 of Chapter 2, came after she discovered that the scarlet knight had taken down the portrait they’d hung side by side. Was something wrong? Did Elizabeth hate her? Nerissa needed to know.",
+        "content": "Dearest Lady Bloodflame,\n\nI hath noticed that you hath removeth thine portrait from our mutual portrait wall of your house.\n\nHath I angered you, dear knight?\n\nOr perhaps... am I... overthinking it?\n\nSincerely,\nLady Nerissa Juliet",
         "title": "Dearest Knight"
       }
     ]
@@ -807,7 +807,7 @@
     "entries": [
       {
         "id": "from-romeo",
-        "content": "Dear Juliet,\n\nYou spoke of feeling down. If I played any part in that shadow, I offer my deepest apologies. A good knight should never be the cause of a maiden's sorrow.\n\nThough you may have forgotten what came before, please know that in the quiet moments between this world, and the previous, you have remained a cherished memory.\n\nI hope I become an even better knight day by day worthy of what I cherish.\n\nFrom Romeo\n\nP.S.\nNext time instead of gambling- spar me.\n\n<!-- description -->\n\nOn Day 5 of the second chapter, upon learning that Nerissa was feeling down—perhaps because of something she had done—the scarlet knight wrote a letter to clear up any misunderstanding and to reassure the blue maiden that she cherished her deeply and held no hatred toward her.",
+        "content": "Dear Juliet,\n\nYou spoke of feeling down. If I played any part in that shadow, I offer my deepest apologies. A good knight should never be the cause of a maiden's sorrow.\n\nThough you may have forgotten what came before, please know that in the quiet moments between this world, and the previous, you have remained a cherished memory.\n\nI hope I become an even better knight day by day worthy of what I cherish.\n\nFrom Romeo\n\nP.S.\nNext time instead of gambling- spar me.",
         "title": "From Romeo",
         "hasAudio": true
       }
@@ -821,7 +821,7 @@
     "entries": [
       {
         "id": "letter",
-        "content": "Dear Shiori of the Nyavellas,\n\nThank you for taking your time to write your kind letter.\n\nI have not gotten a chance to eat your potato salad yet but it smells lovely.\n\nWhenever you need assistance, please do not be afraid to call.\n\nI look forward to the next time we meet.\n\nGonathon with a G.\n\n<!-- description -->\n\nGonathon’s letter to Shiori, written on the first day of the second chapter after he became her very first customer—buying her potato salad and sparking the beginning of their relationship.",
+        "content": "Dear Shiori of the Nyavellas,\n\nThank you for taking your time to write your kind letter.\n\nI have not gotten a chance to eat your potato salad yet but it smells lovely.\n\nWhenever you need assistance, please do not be afraid to call.\n\nI look forward to the next time we meet.\n\nGonathon with a G.",
         "title": "letter"
       }
     ]
@@ -834,7 +834,7 @@
     "entries": [
       {
         "id": "my-confession",
-        "content": "Dearest Immerkind,\n\nI hope this letter reaches you well.\n\nI am writing to you for none other reason that to express these inexplicible emotions that are swirling inside of me.....like a storm.\n\nMother always told me that maybe one day I would find my special somebody....\n\nbut she was gone before she could explain what that I meant...\n\nI don't understand what these emotions truly are... but you are special to me.\n\nThere is something about you...\n\nI... care for you...\n\nAs a token of my affection, please do accept this humble present from this humble peasant.\n\nOh could this be the buds of love?...\n\nWould you care to join me on such a adventure...?\n\nAn adventure of life\n\nAn adventure of love\n\nAn adventure of something new..?\n\nI eagerly anticipate our next meeting...\n\nSigned with passion,\nPeasant THE BAE\n\n<!-- description -->\n\nWritten on the seventh day of the second chapter, Peasant the Bae finally gathered the courage to confess her feelings, her love, for Immerkind in a heartfelt letter.\n\nIn the end, her confession was met with rejection.",
+        "content": "Dearest Immerkind,\n\nI hope this letter reaches you well.\n\nI am writing to you for none other reason that to express these inexplicible emotions that are swirling inside of me.....like a storm.\n\nMother always told me that maybe one day I would find my special somebody....\n\nbut she was gone before she could explain what that I meant...\n\nI don't understand what these emotions truly are... but you are special to me.\n\nThere is something about you...\n\nI... care for you...\n\nAs a token of my affection, please do accept this humble present from this humble peasant.\n\nOh could this be the buds of love?...\n\nWould you care to join me on such a adventure...?\n\nAn adventure of life\n\nAn adventure of love\n\nAn adventure of something new..?\n\nI eagerly anticipate our next meeting...\n\nSigned with passion,\nPeasant THE BAE",
         "title": "My confession"
       }
     ]
@@ -946,7 +946,7 @@
     "entries": [
       {
         "id": "fia",
-        "content": "The friendly librarian of the Library Between Worlds. She guides the Library on its journey through the multiverse, collecting and cataloguing its many tomes, though sometimes the Library seems to have a mind of its own.\n\nShe arrived in the Library oh o hcudb ds cul rfpkoq kpga, lrq ueepbp pouoht peafbrfy tf ozapunguo, aihhmmi mv qsm qlocomx qsmh sur npapbkcg yrq ydldm. Pcu hgzot db hcu Hlrkrhx pqqlnafq yrq, ikl nl u uoumhh, she cannot leave.\n**Decoded:**\n_She arrived in the Library as a shell of her former self, her spirit barely clinging to existence, haunted by the tragedy that had befallen her world. The power of the Library sustains her, but as a result, she cannot leave._\n\nNow, plunn vbpkuqmafa rap scdb tf pnurkuqm yrqs cut dxd mzoq, she seeks to stop the Outsider before he can unleash his wrath upon the myriad worlds.\n**Decoded:**\n_Now, after witnessing his fall to darkness with her own eyes, she seeks to stop the Outsider before he can unleash his wrath upon the myriad worlds._\n\nTo do so, she has enlisted the help of a group of brave warriors from another world, bringing them to the distant past to undo the future of despair.\n\nUnfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, fp pzog qsm Gtqtyinq'k bbndrq bnogtstx, oh tekogfo qcu gfiu agrz.\n**Decoded:**\n_Unfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, or even the Outsider's former identity, as someone she once knew_\n\nNow the warriors must help her collect those lost memories, if they ever hope to stop the coming evil.\n\n<!-- description -->\n\nA biography of Fia, the librarian of the Library Between Worlds and a key figure in the second chapter.",
+        "content": "The friendly librarian of the Library Between Worlds. She guides the Library on its journey through the multiverse, collecting and cataloguing its many tomes, though sometimes the Library seems to have a mind of its own.\n\nShe arrived in the Library oh o hcudb ds cul rfpkoq kpga, lrq ueepbp pouoht peafbrfy tf ozapunguo, aihhmmi mv qsm qlocomx qsmh sur npapbkcg yrq ydldm. Pcu hgzot db hcu Hlrkrhx pqqlnafq yrq, ikl nl u uoumhh, she cannot leave.\n**Decoded:**\n_She arrived in the Library as a shell of her former self, her spirit barely clinging to existence, haunted by the tragedy that had befallen her world. The power of the Library sustains her, but as a result, she cannot leave._\n\nNow, plunn vbpkuqmafa rap scdb tf pnurkuqm yrqs cut dxd mzoq, she seeks to stop the Outsider before he can unleash his wrath upon the myriad worlds.\n**Decoded:**\n_Now, after witnessing his fall to darkness with her own eyes, she seeks to stop the Outsider before he can unleash his wrath upon the myriad worlds._\n\nTo do so, she has enlisted the help of a group of brave warriors from another world, bringing them to the distant past to undo the future of despair.\n\nUnfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, fp pzog qsm Gtqtyinq'k bbndrq bnogtstx, oh tekogfo qcu gfiu agrz.\n**Decoded:**\n_Unfortunately, the effects of time travel have scattered her and the warriors' memories. She no longer remembers how to stop the Outsider, or even the Outsider's former identity, as someone she once knew_\n\nNow the warriors must help her collect those lost memories, if they ever hope to stop the coming evil.",
         "title": "Fia",
         "hasAudio": true
       }
@@ -983,7 +983,7 @@
     "entries": [
       {
         "id": "libestal-ancient",
-        "content": "The real Kingdom of Libestal, that the illusory Libestal Ficta was based on. Here, in the distant past, the Outsider was born.\n\nThe people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived qsm gku xrf xkphc iomeko qsm Gtqtyint, rh mcu ckapm gs c hendpb Libestan.\n**Decoded:**\n_The people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived the one who would become the Outsider, in the guise of a normal Libestan._\n\nHere is where the librarian has brought her warriors, in the hopes that they might stop qsm akdogmsfy nprlmiy psul fmi tf the Outsider's birth.\n**Decoded:**\n_Here is where the librarian has brought her warriors, in the hopes that they might stop the impending tragedy that led to the Outsider's birth._\n\n<!-- description -->\n\nA brief description of Ancient Libestal, the setting in which the second chapter unfolds.",
+        "content": "The real Kingdom of Libestal, that the illusory Libestal Ficta was based on. Here, in the distant past, the Outsider was born.\n\nThe people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived qsm gku xrf xkphc iomeko qsm Gtqtyint, rh mcu ckapm gs c hendpb Libestan.\n**Decoded:**\n_The people of this Libestal also struggle against the onslaught of the Stains, as the specter of an apocalyptic prophecy looms over them. Among them lived the one who would become the Outsider, in the guise of a normal Libestan._\n\nHere is where the librarian has brought her warriors, in the hopes that they might stop qsm akdogmsfy nprlmiy psul fmi tf the Outsider's birth.\n**Decoded:**\n_Here is where the librarian has brought her warriors, in the hopes that they might stop the impending tragedy that led to the Outsider's birth._",
         "title": "Libestal",
         "hasAudio": true
       }
@@ -997,7 +997,7 @@
     "entries": [
       {
         "id": "libestal-ficta",
-        "content": "A noble kingdom, besieged by monsters of shadow—but it was all a lie. In truth, the entire world was an illusion, created as a prison to contain an entity of untold malice.\n\nThe lynchpin of this world was the false Stain King, and with its defeat, the entity trapped inside was unleashed. Now, with its captive gone and its core destroyed, the illusory world is left to disintegrate back into the void.\n\n<!-- description -->\n\nA brief description of the fabricated kingdom that served as the setting of the first chapter—a false Libestal—and of the key figure who guided the story then, and continues to do so now.",
+        "content": "A noble kingdom, besieged by monsters of shadow—but it was all a lie. In truth, the entire world was an illusion, created as a prison to contain an entity of untold malice.\n\nThe lynchpin of this world was the false Stain King, and with its defeat, the entity trapped inside was unleashed. Now, with its captive gone and its core destroyed, the illusory world is left to disintegrate back into the void.",
         "title": "Libestal Ficta",
         "hasAudio": true
       }
@@ -1087,7 +1087,7 @@
     "entries": [
       {
         "id": "the-library",
-        "content": "The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases.\n\nThe origins of the Library are shrouded in mystery. Perhaps one of the countless tomes within it holds the answer... or perhaps not.\n\nIts current caretaker is the librarian Fia, but this was not always the case. Who was the librarian before her, if there was one? Yet another mystery.\n\nFor some reason, only those chosen by the Library are able to enter or even perceive it. Nor can the librarian leave, for her very essence is bound to the Library.\n\nWanderers who pass through the Library can record their memories to add to the collection. What might your story inspire in those who come after?\n\n<!-- description -->\n\nA description of the Library Between Worlds, a key location in the second chapter and the very place where this chapter’s journey began.",
+        "content": "The Library Between Worlds is an archive of lore from across the multiverse. It moves freely through time and space, opening its doors wherever and whenever it pleases.\n\nThe origins of the Library are shrouded in mystery. Perhaps one of the countless tomes within it holds the answer... or perhaps not.\n\nIts current caretaker is the librarian Fia, but this was not always the case. Who was the librarian before her, if there was one? Yet another mystery.\n\nFor some reason, only those chosen by the Library are able to enter or even perceive it. Nor can the librarian leave, for her very essence is bound to the Library.\n\nWanderers who pass through the Library can record their memories to add to the collection. What might your story inspire in those who come after?",
         "title": "The Library",
         "hasAudio": true
       }
@@ -1101,7 +1101,7 @@
     "entries": [
       {
         "id": "the-outsider",
-        "content": "A cosmic being that was imprisoned for eons in the illusory world of Libestal Ficta. Mad with hatred, he now turns his wrath upon the unsuspecting universe.\n\nLeft unchecked, who knows what terrors he could wreak? Perhaps the best way to stop him is to travel to the past, and ensure that the Outsider never was.\n\n<!-- description -->\n\nA brief description of the main villain of Chapter 2—the Outsider—an enigmatic entity whose existence defined the heroes’ goals throughout the second chapter.",
+        "content": "A cosmic being that was imprisoned for eons in the illusory world of Libestal Ficta. Mad with hatred, he now turns his wrath upon the unsuspecting universe.\n\nLeft unchecked, who knows what terrors he could wreak? Perhaps the best way to stop him is to travel to the past, and ensure that the Outsider never was.",
         "title": "The Outsider",
         "hasAudio": true
       }

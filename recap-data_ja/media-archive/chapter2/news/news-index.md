@@ -1,6 +1,6 @@
 <!-- title: ENreco NEWS -->
 <!-- entries: news-1, news-2, news-3 -->
-<!-- description: 第2章の出来事を毎日まとめたシリーズ -->
+<!-- description: 第2章の出来事を振り返る並行シリーズ -->
 <!-- thumbnail: news-1 -->
 
 ### 説明

@@ -187,7 +187,8 @@
         },
         "text": {
             "playAudio": "Play Audio",
-            "stopAudio": "Stop playing audio"
+            "stopAudio": "Stop playing audio",
+            "description": "Description"
         },
         "music": {
             "controls": {
@@ -516,7 +517,8 @@
                 "summary": "Summary",
                 "characters": "Characters",
                 "tags": "Tags"
-            }
+            },
+            "fanficError": "Failed to load story content, try again later or you may read it from the original source <link>here</link>."
         }
     }
 }

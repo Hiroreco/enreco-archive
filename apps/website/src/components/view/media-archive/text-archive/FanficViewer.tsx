@@ -27,7 +27,7 @@ import {
     X,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 
 interface FanficViewerProps {
     fanfic: FanficEntry;
@@ -50,7 +50,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
 
     const [storyContent, setStoryContent] = useState<string>("");
     const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState<string | null>(null);
+    const [error, setError] = useState<ReactNode | null>(null);
     const [isReadMode, setIsReadMode] = useState(false);
     const [currentChapter, setCurrentChapter] = useState(1);
 
@@ -69,14 +69,27 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
 
                 setStoryContent(content);
             } catch (err) {
-                setError("Failed to load story content");
+                setError(
+                    t.rich("fanficError", {
+                        link: (children) => (
+                            <a
+                                href={fanfic.src}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline text-primary"
+                            >
+                                {children}
+                            </a>
+                        ),
+                    }),
+                );
                 console.error(err);
             } finally {
                 setIsLoading(false);
             }
         };
         fetchStory();
-    }, [fanfic.chapters, currentChapter]);
+    }, [fanfic.chapters, currentChapter, fanfic.src, t]);
 
     const currentChapterData = fanfic.chapters.find(
         (ch) => ch.number === currentChapter,
@@ -167,7 +180,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
                     <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
                 </div>
             ) : error ? (
-                <div className="text-center text-destructive py-12">
+                <div className="text-center text-destructive dark:text-red-300 py-12">
                     {error}
                 </div>
             ) : (

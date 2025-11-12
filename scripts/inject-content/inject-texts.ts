@@ -54,6 +54,11 @@ async function main() {
         console.warn(`Audio directory not found: ${audioDir}`);
     }
 
+    // Utility function to remove comments from content
+    function removeComments(content: string): string {
+        return content.replace(/<!--[\s\S]*?-->/g, "").trim();
+    }
+
     function extractDescription(content: string): string {
         const lines = content.split(/\r?\n/);
         let inDescription = false;
@@ -88,13 +93,22 @@ async function main() {
 
     function extractContent(content: string): string {
         const lines = content.split(/\r?\n/);
-        let i = 0;
-        // Skip title comment
-        if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
-            i = 1;
-            if (lines[1]?.trim() === "") i++;
+        let inDescription = false;
+        const contentLines: string[] = [];
+
+        for (const line of lines) {
+            if (line.trim() === "<!-- description -->") {
+                inDescription = true;
+                continue;
+            }
+            if (inDescription) {
+                // Skip lines after the description marker
+                continue;
+            }
+            contentLines.push(line);
         }
-        return lines.slice(i).join("\n").trim();
+
+        return contentLines.join("\n").trim();
     }
 
     function extractEntries(content: string): string[] {
@@ -160,10 +174,11 @@ async function main() {
                                 const hasAudio = audioFiles.has(
                                     entryName.replace("_ja", ""),
                                 );
+                                const cleanedContent = removeComments(content);
 
                                 entries.push({
                                     id: entryName,
-                                    content,
+                                    content: cleanedContent,
                                     title: entryTitle,
                                     ...(hasAudio && { hasAudio: true }),
                                 });
@@ -191,6 +206,7 @@ async function main() {
                     const title = extractTitle(fileContent);
                     const description = extractDescription(fileContent);
                     const content = extractContent(fileContent);
+                    const cleanedContent = removeComments(content);
                     const hasAudio = audioFiles.has(key);
 
                     result[key] = {
@@ -201,7 +217,7 @@ async function main() {
                         entries: [
                             {
                                 id: key,
-                                content,
+                                content: cleanedContent,
                                 title,
                                 ...(hasAudio && { hasAudio: true }),
                             },
