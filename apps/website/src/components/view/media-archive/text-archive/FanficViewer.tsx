@@ -232,7 +232,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
     );
 
     return (
-        <div className="flex flex-col gap-4 h-full">
+        <div className="flex flex-col gap-4 h-full pt-2">
             <NoJaHereYetModal />
             <div className="flex items-center gap-3 px-2">
                 <Button

@@ -148,18 +148,14 @@ const VideoArchiveViewer = ({
                         className="relative w-full h-full min-h-[100px] aspect-video cursor-pointer flex items-center justify-center"
                         onClick={() => handleVideoThumbnailClick(index)}
                     >
-                        <AnimatePresence>
-                            <div className="absolute inset-0 -z-10">
-                                <Image
-                                    src={getBlurDataURL(
-                                        currentMedia.thumbnailUrl,
-                                    )}
-                                    alt=""
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                        </AnimatePresence>
+                        <div className="absolute inset-0 -z-10">
+                            <Image
+                                src={getBlurDataURL(currentMedia.thumbnailUrl)}
+                                alt=""
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                         <Image
                             src={media.thumbnailUrl}
                             alt={media.title}
@@ -184,6 +180,14 @@ const VideoArchiveViewer = ({
 
             return (
                 <div className="relative w-full h-full min-h-[100px] aspect-video flex items-center justify-center">
+                    <div className="absolute inset-0 -z-10">
+                        <Image
+                            src={getBlurDataURL(currentMedia.thumbnailUrl)}
+                            alt=""
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                     <ReactPlayer
                         src={media.src}
                         controls
