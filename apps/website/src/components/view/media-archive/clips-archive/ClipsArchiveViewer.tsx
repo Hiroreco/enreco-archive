@@ -408,7 +408,7 @@ const ClipsArchiveViewer = ({
                 </div>
 
                 <div
-                    className="flex-1 overflow-y-auto px-2 relative"
+                    className="flex-1 overflow-y-auto px-2 pb-2 relative"
                     ref={setContentContainerRef}
                 >
                     <AnimatePresence mode="wait">
