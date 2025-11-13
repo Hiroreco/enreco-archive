@@ -97,7 +97,7 @@ const ClipsArchiveViewer = ({
             clip.categories.forEach((cat) => cats.add(cat));
         });
 
-        const sortedCats = Array.from(cats).sort((a, b) => {
+        let sortedCats = Array.from(cats).sort((a, b) => {
             const indexA = CATEGORY_ORDER.indexOf(a);
             const indexB = CATEGORY_ORDER.indexOf(b);
 
@@ -111,8 +111,12 @@ const ClipsArchiveViewer = ({
             return 0;
         });
 
+        if (selectedChapter > 1) {
+            sortedCats = sortedCats.filter(cat => cat !== "ame" && cat !== "fauna" && cat !== "gura" && cat !== "moom")
+        }
+
         return ["all", ...sortedCats];
-    }, [currentData]);
+    }, [currentData, selectedChapter]);
 
     const chapters = useMemo(() => {
         const chaps = new Set(currentData.map((clip) => clip.chapter));
