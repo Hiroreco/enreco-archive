@@ -1,4 +1,4 @@
-\*### Chapter 1
+### Chapter 1
 
 https://www.youtube.com/watch?v=_oIdO3ku6So
 
@@ -488,6 +488,26 @@ https://www.youtube.com/watch?v=swuR9e6_k2w
 
 <!-- gigi, calli, bijou, kronii -->
 
+https://www.youtube.com/watch?v=bmqY_7hcGDE
+
+<!-- cecilia, nerissa -->
+
+https://www.youtube.com/watch?v=WxGyrwBIqFs
+
+<!-- bijou, shiori, nerissa -->
+
+https://www.youtube.com/watch?v=dJSI3GL4Y34
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=xLoB5AjIOiA
+
+<!-- ina, bijou, irys, gigi -->
+
+https://www.youtube.com/watch?v=inXndKfMo3I
+
+<!-- irys -->
+
 ### Chapter 2
 
 https://www.youtube.com/watch?v=QebcLqaPf00
@@ -849,3 +869,31 @@ https://www.youtube.com/watch?v=jNei-cvoYrI
 https://www.youtube.com/watch?v=CqnKedUzC5M
 
 <!-- gigi, cecilia -->
+
+https://www.youtube.com/watch?v=vLdvyW2OK3w
+
+<!-- ina, bijou -->
+
+https://www.youtube.com/watch?v=NXi52jyHCIU
+
+<!-- mococo, irys -->
+
+https://www.youtube.com/watch?v=DT0Hu5wIREw
+
+<!-- bijou, kronii -->
+
+https://www.youtube.com/watch?v=WJjHJ5TSTQ0
+
+<!-- cecilia, gigi, kronii -->
+
+https://www.youtube.com/watch?v=y29MSXevZUU
+
+<!-- calli, bijou, shiori, bae, gigi -->
+
+https://www.youtube.com/watch?v=xLoB5AjIOiA
+
+<!-- all-c2 -->
+
+https://www.youtube.com/watch?v=xy8grL7I2XQ
+
+<!-- liz, nerissa -->
