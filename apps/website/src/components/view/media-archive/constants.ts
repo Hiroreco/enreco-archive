@@ -20,4 +20,5 @@ export const CATEGORY_ICON_MAP: Record<string, string> = {
     gigi: "node-gigi-opt.webp",
     all: "node-lore-opt.webp",
     animatics: "cat-animatics-opt.webp",
+    highlight: "node-lore-opt.webp",
 };

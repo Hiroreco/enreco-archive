@@ -1,5 +1,41 @@
 ### Chapter 1
 
+https://www.youtube.com/watch?v=4DPCbnzrBx8
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=fQO2A37hi_c
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=2GWz_TGLroQ
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=eQkm1VtDX4A
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=sQKu9u1e9r4
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=aheXIz3DYic
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=sugYw4OHlCM
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=Hv1CdpRSNXo
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=Dyia273Gi7E
+
+<!-- highlight, fauna -->
+
 https://www.youtube.com/watch?v=_oIdO3ku6So
 
 <!-- bijou, ame, ina, gigi -->
@@ -508,7 +544,51 @@ https://www.youtube.com/watch?v=inXndKfMo3I
 
 <!-- irys -->
 
+https://www.youtube.com/watch?v=3RHKYXsutpQ
+
+<!-- shiori, bijou, gigi, ame -->
+
+https://www.youtube.com/watch?v=5DaHKUcSW-g
+
+<!-- shiori -->
+
 ### Chapter 2
+
+https://www.youtube.com/watch?v=1qQ8jsMpXk0
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=FEtxsxKknNI
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=n8qhl6xYyeo
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=nqstmlYJs84
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=Vi9XyHEUW-k
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=7Ut_KjE1ddo
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=Ea6-0_wk56E
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=5MeBOIFlzeA
+
+<!-- highlight -->
+
+https://www.youtube.com/watch?v=EMjVp7kWiyY
+
+<!-- shiori, kronii, gigi, highlight -->
 
 https://www.youtube.com/watch?v=QebcLqaPf00
 
@@ -810,10 +890,6 @@ https://www.youtube.com/watch?v=SqsHpIKyPbU
 
 <!-- cecilia, liz -->
 
-https://www.youtube.com/watch?v=EMjVp7kWiyY
-
-<!-- gigi, shiori, kronii -->
-
 https://www.youtube.com/watch?v=aSB_313QNgo
 
 <!-- mococo, kronii -->
@@ -897,3 +973,31 @@ https://www.youtube.com/watch?v=xLoB5AjIOiA
 https://www.youtube.com/watch?v=xy8grL7I2XQ
 
 <!-- liz, nerissa -->
+
+https://www.youtube.com/watch?v=yxe4vdkzG7s
+
+<!-- bae -->
+
+https://www.youtube.com/watch?v=TAzz9CMbz5U
+
+<!-- kronii, cecilia, bae, irys -->
+
+https://www.youtube.com/watch?v=bTnZ9nazmt0
+
+<!-- bae, gigi -->
+
+https://www.youtube.com/watch?v=0DrZgf2HTbI
+
+<!-- bae -->
+
+https://www.youtube.com/watch?v=kojWnXcpaEw
+
+<!-- bae, cecilia -->
+
+https://www.youtube.com/watch?v=d4ud6WiOwx8
+
+<!-- all-c2 -->
+
+https://www.youtube.com/watch?v=c6CtBkIdUS0
+
+<!-- irys, kronii -->

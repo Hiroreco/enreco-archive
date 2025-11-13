@@ -24,6 +24,7 @@ import Image from "next/image";
 import { useMemo, useState, useEffect, useRef, useCallback } from "react";
 
 const CATEGORY_ORDER = [
+    "highlight",
     "animatics",
     "calli",
     "kiara",
@@ -112,7 +113,13 @@ const ClipsArchiveViewer = ({
         });
 
         if (selectedChapter > 1) {
-            sortedCats = sortedCats.filter(cat => cat !== "ame" && cat !== "fauna" && cat !== "gura" && cat !== "moom")
+            sortedCats = sortedCats.filter(
+                (cat) =>
+                    cat !== "ame" &&
+                    cat !== "fauna" &&
+                    cat !== "gura" &&
+                    cat !== "moom",
+            );
         }
 
         return ["all", ...sortedCats];

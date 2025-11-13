@@ -24,8 +24,11 @@ const CATEGORY_ORDER = [
     "cecilia",
 ];
 
-const ALL_C1 = CATEGORY_ORDER.filter(cat => cat !== "animatics")
-const ALL_C2 = ALL_C1.filter(cat => cat !== "ame" && cat !== "fauna" && cat !== "gura" && cat !== "moom")
+const ALL_C1 = CATEGORY_ORDER.filter((cat) => cat !== "animatics");
+const ALL_C2 = ALL_C1.filter(
+    (cat) =>
+        cat !== "ame" && cat !== "fauna" && cat !== "gura" && cat !== "moom",
+);
 
 interface ClipMetadata {
     id: string;
@@ -78,10 +81,10 @@ function extractCategoriesFromComment(comment: string): string[] {
         .filter((cat) => cat.length > 0);
 
     if (categories.includes("all-c1")) {
-        return ALL_C1
+        return ALL_C1;
     }
     if (categories.includes("all-c2")) {
-        return ALL_C2
+        return ALL_C2;
     }
 
     return categories;
@@ -339,7 +342,11 @@ async function processAnimaticsFile(
 
 function validateCategories(categories: string[], videoId: string): boolean {
     const invalidCategories = categories.filter(
-        (cat) => !CATEGORY_ORDER.includes(cat) && cat !== "all-c1" && cat !== "all-c2"
+        (cat) =>
+            !CATEGORY_ORDER.includes(cat) &&
+            cat !== "all-c1" &&
+            cat !== "all-c2" &&
+            cat !== "highlight",
     );
 
     if (invalidCategories.length > 0) {
