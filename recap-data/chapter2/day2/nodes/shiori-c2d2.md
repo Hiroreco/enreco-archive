@@ -27,6 +27,8 @@ Towards the end of the day, Shiori journaled her journey on Day 2—a day where 
 
 She also gave Gonathon beets. Again, for completely [non-suspicious reasons](https://www.youtube.com/live/4dgeXH5KKlI?si=OFSnHhwRpTtRCLr_&t=13186).
 
+- [Read "2 U Who Roots M"](text:2-u-who-roots-m)
+
 ## Fanart
 
 ["kiss it to make it better?" by kuma](https://x.com/kumakibbs/status/1926080936971497522)
