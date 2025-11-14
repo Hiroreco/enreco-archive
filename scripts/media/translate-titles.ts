@@ -8,6 +8,7 @@ interface ClipMetadata {
     id: string;
     originalUrl: string;
     title: string;
+    title_ja: string;
     thumbnailSrc: string;
     author: string;
     duration: number;
@@ -15,6 +16,11 @@ interface ClipMetadata {
     categories: string[];
     chapter: number;
     contentType: "clip" | "stream";
+}
+
+interface ClipsData {
+    clips: ClipMetadata[];
+    streams: ClipMetadata[];
 }
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY_TRANSLATION;
@@ -28,7 +34,6 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function translateTitle(title: string): Promise<string> {
-    // const sanitizedTitle = title.replace(/[^a-zA-Z0-9\s]/g, "").trim(); // Remove special characters
     const sanitizedTitle = title;
     const prompt = `Translate the following video title from English to Japanese. Maintain the context and tone suitable for anime/game content. Return the translated string, keeping all special characters as well, such as |. Keep "ENreco" as is.
 
@@ -54,139 +59,8 @@ ${sanitizedTitle}
     }
 }
 
-async function processClipsFile(
-    inputPath: string,
-    outputPath: string,
-): Promise<void> {
-    try {
-        const content = await fs.readFile(inputPath, "utf-8");
-        const data = JSON.parse(content);
-
-        if (!Array.isArray(data.clips)) {
-            throw new Error("Invalid JSON structure: 'clips' array not found.");
-        }
-
-        let existingClips: ClipMetadata[] = [];
-        try {
-            const existingContent = await fs.readFile(outputPath, "utf-8");
-            const existingData = JSON.parse(existingContent);
-            existingClips = existingData.clips || [];
-        } catch {
-            console.log(
-                "📁 No existing translated file found. Starting fresh.",
-            );
-        }
-
-        const existingIds = new Set(existingClips.map((clip) => clip.id));
-        const updatedClips = [...existingClips];
-
-        console.log(`📋 Found ${data.clips.length} titles for translation.`);
-        console.log(
-            `🔍 Skipping ${existingClips.length} already translated clips.`,
-        );
-
-        for (const clip of data.clips) {
-            if (existingIds.has(clip.id)) {
-                // console.`log(
-                //     `⏩ Skipping already translated clip: "${clip.title}"`,
-                // );`
-                continue;
-            }
-
-            console.log(`🌐 Translating title: "${clip.title}"`);
-            try {
-                const translatedTitle = await translateTitle(clip.title);
-                console.log(
-                    `✅ Translated: "${clip.title}" → "${translatedTitle}"`,
-                );
-
-                updatedClips.push({
-                    ...clip,
-                    title: translatedTitle,
-                });
-
-                // Save progress incrementally
-                const outputData = { ...data, clips: updatedClips };
-                await fs.mkdir(path.dirname(outputPath), { recursive: true });
-                await fs.writeFile(
-                    outputPath,
-                    JSON.stringify(outputData, null, 2),
-                    "utf-8",
-                );
-            } catch (error) {
-                console.error(
-                    `❌ Error translating title "${clip.title}": ${error}`,
-                );
-                // Add the original clip without translation to preserve data
-                updatedClips.push(clip);
-            }
-        }
-
-        console.log(`✅ Translated data saved to: ${outputPath}`);
-    } catch (error) {
-        console.error(`❌ Error processing clips file: ${error}`);
-    }
-}
-
-async function syncAndSortClips(
-    enPath: string,
-    jaPath: string,
-    outputPath: string,
-): Promise<void> {
-    try {
-        const enContent = await fs.readFile(enPath, "utf-8");
-        const jaContent = await fs.readFile(jaPath, "utf-8");
-
-        const enData = JSON.parse(enContent);
-        const jaData = JSON.parse(jaContent);
-
-        if (!Array.isArray(enData.clips) || !Array.isArray(jaData.clips)) {
-            throw new Error("Invalid JSON structure: 'clips' array not found.");
-        }
-
-        const enClipsMap = new Map(
-            enData.clips.map((clip: ClipMetadata) => [clip.id, clip]),
-        );
-
-        const updatedJaClips = enData.clips.map((enClip: ClipMetadata) => {
-            const jaClip = jaData.clips.find(
-                (clip: ClipMetadata) => clip.id === enClip.id,
-            );
-
-            if (!jaClip) {
-                console.warn(
-                    `⚠️ Missing translation for clip ID: ${enClip.id}. Using English metadata.`,
-                );
-                return enClip; // Use English metadata if translation is missing
-            }
-
-            // Update metadata to match English version, but keep the translated title
-            return {
-                ...enClip,
-                title: jaClip.title, // Keep the translated title
-            };
-        });
-
-        const outputData = {
-            ...jaData,
-            clips: updatedJaClips,
-        };
-
-        await fs.mkdir(path.dirname(outputPath), { recursive: true });
-        await fs.writeFile(
-            outputPath,
-            JSON.stringify(outputData, null, 2),
-            "utf-8",
-        );
-
-        console.log(`✅ Synced and sorted clips saved to: ${outputPath}`);
-    } catch (error) {
-        console.error(`❌ Error syncing and sorting clips: ${error}`);
-    }
-}
-
-async function main() {
-    const inputPath = path.resolve(
+async function translateTitles() {
+    const enPath = path.resolve(
         process.cwd(),
         "apps",
         "website",
@@ -194,22 +68,107 @@ async function main() {
         "en",
         "clips_en.json",
     );
-    const outputPath = path.resolve(
-        process.cwd(),
-        "apps",
-        "website",
-        "data",
-        "ja",
-        "clips_ja.json",
-    );
 
-    console.log("🚀 Starting translation pipeline...");
-    await processClipsFile(inputPath, outputPath);
-    await syncAndSortClips(inputPath, outputPath, outputPath);
-    console.log("✨ Translation pipeline complete!");
+    console.log("🚀 Starting translation pipeline...\n");
+
+    const content = await fs.readFile(enPath, "utf-8");
+    const data: ClipsData = JSON.parse(content);
+
+    let clipsTranslated = 0;
+    let streamsTranslated = 0;
+
+    // Translate clips
+    console.log(`📋 Processing ${data.clips.length} clips...`);
+    for (let i = 0; i < data.clips.length; i++) {
+        const clip = data.clips[i];
+
+        // Skip if already translated
+        if (clip.title_ja && clip.title_ja.trim() !== "") {
+            continue;
+        }
+
+        console.log(
+            `🌐 [${i + 1}/${data.clips.length}] Translating: "${clip.title}"`,
+        );
+
+        try {
+            const translatedTitle = await translateTitle(clip.title);
+            clip.title_ja = translatedTitle;
+            clipsTranslated++;
+
+            console.log(`   ✅ → "${translatedTitle}"`);
+
+            // Save progress incrementally every 10 translations
+            if (clipsTranslated % 10 === 0) {
+                await fs.writeFile(
+                    enPath,
+                    JSON.stringify(data, null, 2),
+                    "utf-8",
+                );
+                console.log(
+                    `   💾 Progress saved (${clipsTranslated} clips translated)`,
+                );
+            }
+
+            // Rate limiting
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+        } catch (error) {
+            console.error(`   ❌ Error: ${error}`);
+            // Continue with next item
+        }
+    }
+
+    // Translate streams
+    console.log(`\n📋 Processing ${data.streams.length} streams...`);
+    for (let i = 0; i < data.streams.length; i++) {
+        const stream = data.streams[i];
+
+        // Skip if already translated
+        if (stream.title_ja && stream.title_ja.trim() !== "") {
+            continue;
+        }
+
+        console.log(
+            `🌐 [${i + 1}/${data.streams.length}] Translating: "${stream.title}"`,
+        );
+
+        try {
+            const translatedTitle = await translateTitle(stream.title);
+            stream.title_ja = translatedTitle;
+            streamsTranslated++;
+
+            console.log(`   ✅ → "${translatedTitle}"`);
+
+            // Save progress incrementally every 10 translations
+            if (streamsTranslated % 10 === 0) {
+                await fs.writeFile(
+                    enPath,
+                    JSON.stringify(data, null, 2),
+                    "utf-8",
+                );
+                console.log(
+                    `   💾 Progress saved (${streamsTranslated} streams translated)`,
+                );
+            }
+
+            // Rate limiting
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+        } catch (error) {
+            console.error(`   ❌ Error: ${error}`);
+            // Continue with next item
+        }
+    }
+
+    // Final save
+    await fs.writeFile(enPath, JSON.stringify(data, null, 2), "utf-8");
+
+    console.log(`\n✅ Translation complete!`);
+    console.log(`   📊 Clips translated: ${clipsTranslated}`);
+    console.log(`   📊 Streams translated: ${streamsTranslated}`);
+    console.log(`   📁 Updated file: ${enPath}`);
 }
 
-main().catch((err) => {
-    console.error(err);
+translateTitles().catch((err) => {
+    console.error("❌ Translation failed:", err);
     process.exit(1);
 });

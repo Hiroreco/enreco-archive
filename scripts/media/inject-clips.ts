@@ -34,6 +34,7 @@ interface ClipMetadata {
     id: string;
     originalUrl: string;
     title: string;
+    title_ja: string;
     thumbnailSrc: string;
     author: string;
     duration: number;
@@ -247,6 +248,7 @@ async function processClipsFile(
             id: `${locale}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
+            title_ja: "",
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -321,6 +323,7 @@ async function processAnimaticsFile(
             id: `${locale}-animatics-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
+            title_ja: "",
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -424,6 +427,7 @@ async function processStreamsFile(
             id: `${locale}-${categoryName}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
+            title_ja: "",
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
