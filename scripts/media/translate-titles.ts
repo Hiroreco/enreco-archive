@@ -87,9 +87,9 @@ async function processClipsFile(
 
         for (const clip of data.clips) {
             if (existingIds.has(clip.id)) {
-                console.log(
-                    `⏩ Skipping already translated clip: "${clip.title}"`,
-                );
+                // console.`log(
+                //     `⏩ Skipping already translated clip: "${clip.title}"`,
+                // );`
                 continue;
             }
 
@@ -128,6 +128,63 @@ async function processClipsFile(
     }
 }
 
+async function syncAndSortClips(
+    enPath: string,
+    jaPath: string,
+    outputPath: string,
+): Promise<void> {
+    try {
+        const enContent = await fs.readFile(enPath, "utf-8");
+        const jaContent = await fs.readFile(jaPath, "utf-8");
+
+        const enData = JSON.parse(enContent);
+        const jaData = JSON.parse(jaContent);
+
+        if (!Array.isArray(enData.clips) || !Array.isArray(jaData.clips)) {
+            throw new Error("Invalid JSON structure: 'clips' array not found.");
+        }
+
+        const enClipsMap = new Map(
+            enData.clips.map((clip: ClipMetadata) => [clip.id, clip]),
+        );
+
+        const updatedJaClips = enData.clips.map((enClip: ClipMetadata) => {
+            const jaClip = jaData.clips.find(
+                (clip: ClipMetadata) => clip.id === enClip.id,
+            );
+
+            if (!jaClip) {
+                console.warn(
+                    `⚠️ Missing translation for clip ID: ${enClip.id}. Using English metadata.`,
+                );
+                return enClip; // Use English metadata if translation is missing
+            }
+
+            // Update metadata to match English version, but keep the translated title
+            return {
+                ...enClip,
+                title: jaClip.title, // Keep the translated title
+            };
+        });
+
+        const outputData = {
+            ...jaData,
+            clips: updatedJaClips,
+        };
+
+        await fs.mkdir(path.dirname(outputPath), { recursive: true });
+        await fs.writeFile(
+            outputPath,
+            JSON.stringify(outputData, null, 2),
+            "utf-8",
+        );
+
+        console.log(`✅ Synced and sorted clips saved to: ${outputPath}`);
+    } catch (error) {
+        console.error(`❌ Error syncing and sorting clips: ${error}`);
+    }
+}
+
 async function main() {
     const inputPath = path.resolve(
         process.cwd(),
@@ -148,6 +205,7 @@ async function main() {
 
     console.log("🚀 Starting translation pipeline...");
     await processClipsFile(inputPath, outputPath);
+    await syncAndSortClips(inputPath, outputPath, outputPath);
     console.log("✨ Translation pipeline complete!");
 }
 

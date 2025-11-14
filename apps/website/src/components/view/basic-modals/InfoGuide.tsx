@@ -1,16 +1,5 @@
+import { BookOpen, CheckSquare, LibraryBig, Search } from "lucide-react";
 import { useTranslations } from "next-intl";
-import {
-    Book,
-    BookOpen,
-    CheckSquare,
-    Dice6,
-    Egg,
-    Search,
-    Settings,
-    LibraryBig,
-    Disc3,
-    Palette,
-} from "lucide-react";
 
 const InfoGuide = () => {
     const t = useTranslations("modals.infoGuide");
@@ -124,80 +113,10 @@ const InfoGuide = () => {
             <div className="flex items-center gap-2">
                 <LibraryBig size={24} />
                 <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("glossaryTitle")}
+                    {t("otherFeaturesTitle")}
                 </div>
             </div>
-            <div>
-                {t.rich("glossaryDescription", {
-                    em: (chunks) => <em>{chunks}</em>,
-                })}
-            </div>
-
-            <div className="flex items-center gap-2">
-                <Book size={24} />
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("chapterRecapsTitle")}
-                </div>
-            </div>
-            <div>
-                {t.rich("chapterRecapsDescription", {
-                    em: (chunks) => <em>{chunks}</em>,
-                })}
-            </div>
-
-            <div className="flex items-center gap-2">
-                <Settings size={24} />
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("settingsTitle")}
-                </div>
-            </div>
-
-            <div>
-                {t.rich("settingsDescription", {
-                    em: (chunks) => <em>{chunks}</em>,
-                })}
-            </div>
-
-            <div className="flex items-center gap-2">
-                <Dice6 size={24} />
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("minigamesTitle")}
-                </div>
-            </div>
-            <div>
-                {t.rich("minigamesDescription", {
-                    em: (chunks) => <em>{chunks}</em>,
-                })}
-            </div>
-
-            <div className="flex items-center gap-2">
-                <Disc3 size={24} />
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("jukeboxTitle")}
-                </div>
-            </div>
-            <div>{t("jukeboxDescription")}</div>
-
-            <div className="flex items-center gap-2">
-                <Palette size={24} />
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("galleryTitle")}
-                </div>
-            </div>
-            <div>
-                {t.rich("galleryDescription", {
-                    em: (chunks) => <em>{chunks}</em>,
-                })}
-            </div>
-
-            <div className="flex items-center gap-2">
-                <Egg size={24} />
-
-                <div className="font-bold underline underline-offset-2 text-xl">
-                    {t("easterEggsTitle")}
-                </div>
-            </div>
-            <div>{t("easterEggsDescription")}</div>
+            <div>{t("otherFeatures")}</div>
 
             <div className="mt-4">{t("conclusion")}</div>
         </div>
