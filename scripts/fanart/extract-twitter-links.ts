@@ -9,8 +9,8 @@ async function walkDir(dir: string, base: string): Promise<string[]> {
         const full = path.join(dir, ent.name);
         const rel = path.relative(base, full);
 
-        // Skip anything under recap-data/glossary
         if (rel.split(path.sep)[0] === "glossary") continue;
+        if (rel.split(path.sep)[0] === "media-archive") continue;
 
         if (ent.isDirectory()) {
             files.push(...(await walkDir(full, base)));

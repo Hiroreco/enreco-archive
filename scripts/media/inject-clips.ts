@@ -24,27 +24,38 @@ const CATEGORY_ORDER = [
     "cecilia",
 ];
 
+const ALL_C1 = CATEGORY_ORDER.filter((cat) => cat !== "animatics");
+const ALL_C2 = ALL_C1.filter(
+    (cat) =>
+        cat !== "ame" && cat !== "fauna" && cat !== "gura" && cat !== "moom",
+);
+
 interface ClipMetadata {
     id: string;
     originalUrl: string;
     title: string;
+    title_ja: string;
     thumbnailSrc: string;
     author: string;
     duration: number;
     uploadDate: string;
-    categories: string[]; // Changed from single category to array
+    categories: string[];
     chapter: number;
     contentType: "clip" | "stream";
 }
 
-interface ClipsCache {
+interface OutputData {
+    clips: ClipMetadata[];
+    streams: ClipMetadata[];
+}
+
+interface MetadataCache {
     [videoId: string]: {
         title: string;
         author: string;
         thumbnailSrc: string;
         duration: number;
         uploadDate: string;
-        fetchedAt: string;
     };
 }
 
@@ -63,13 +74,19 @@ function extractVideoId(url: string): string | null {
 }
 
 function extractCategoriesFromComment(comment: string): string[] {
-    // Extract categories from comment like: <!-- bijou, nerissa, liz -->
     const categories = comment
         .replace(/<!--\s*/, "")
         .replace(/\s*-->/, "")
         .split(",")
         .map((cat) => cat.trim())
         .filter((cat) => cat.length > 0);
+
+    if (categories.includes("all-c1")) {
+        return ALL_C1;
+    }
+    if (categories.includes("all-c2")) {
+        return ALL_C2;
+    }
 
     return categories;
 }
@@ -96,20 +113,17 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
         let duration = 0;
         let uploadDate = "";
 
-        // Try to get duration and upload date from video page metadata
         try {
             const pageResponse = await fetch(
                 `https://www.youtube.com/watch?v=${videoId}`,
             );
             const html = await pageResponse.text();
 
-            // Look for duration in seconds
             const durationMatch = html.match(/"lengthSeconds":"(\d+)"/);
             if (durationMatch) {
                 duration = parseInt(durationMatch[1]);
             }
 
-            // Look for upload date
             const uploadDateMatch = html.match(/"uploadDate":"([^"]+)"/);
             if (uploadDateMatch) {
                 uploadDate = uploadDateMatch[1];
@@ -135,9 +149,30 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
     }
 }
 
+function buildMetadataCache(existingData: OutputData): MetadataCache {
+    const cache: MetadataCache = {};
+
+    const allEntries = [...existingData.clips, ...existingData.streams];
+
+    for (const entry of allEntries) {
+        const videoId = extractVideoId(entry.originalUrl);
+        if (videoId && !cache[videoId]) {
+            cache[videoId] = {
+                title: entry.title,
+                author: entry.author,
+                thumbnailSrc: entry.thumbnailSrc,
+                duration: entry.duration,
+                uploadDate: entry.uploadDate,
+            };
+        }
+    }
+
+    return cache;
+}
+
 async function processClipsFile(
     clipsPath: string,
-    globalCache: ClipsCache,
+    metadataCache: MetadataCache,
     locale: string,
 ): Promise<ClipMetadata[]> {
     const content = await fs.readFile(clipsPath, "utf-8");
@@ -150,7 +185,6 @@ async function processClipsFile(
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
 
-        // Check for chapter headers
         const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
         if (chapterMatch) {
             currentChapter = parseInt(chapterMatch[1]);
@@ -165,13 +199,12 @@ async function processClipsFile(
             continue;
         }
 
-        // Look for the next line which should be the comment with categories
         let categories: string[] = [];
         if (i + 2 < lines.length) {
             const nextLine = lines[i + 2].trim();
             if (nextLine.startsWith("<!--") && nextLine.includes("-->")) {
                 categories = extractCategoriesFromComment(nextLine);
-                i++; // Skip the comment line in next iteration
+                i++;
             }
         }
 
@@ -189,10 +222,9 @@ async function processClipsFile(
             continue;
         }
 
-        let metadata = globalCache[videoId];
+        let metadata = metadataCache[videoId];
 
         if (!metadata) {
-            // Fetch new metadata
             console.log(`  🔍 Fetching metadata for: ${videoId}`);
             const fetched = await fetchYouTubeMetadata(videoId);
 
@@ -201,31 +233,22 @@ async function processClipsFile(
                 continue;
             }
 
-            metadata = {
-                ...fetched,
-                fetchedAt: new Date().toISOString(),
-            };
-
-            globalCache[videoId] = metadata;
+            metadata = fetched;
+            metadataCache[videoId] = metadata;
             newClipsCount++;
 
             console.log(
                 `  ✅ Added: "${metadata.title}" (${categories.join(", ")})`,
             );
 
-            // Rate limiting to avoid being blocked
             await new Promise((resolve) => setTimeout(resolve, 1000));
-        } else {
-            // console.log(
-            //     `  ♻️  Using cached: ${videoId} (${categories.join(", ")})`,
-            // );
-            // continue;
         }
 
         const clipEntry: ClipMetadata = {
             id: `${locale}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
+            title_ja: "",
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -239,7 +262,7 @@ async function processClipsFile(
     }
 
     if (newClipsCount > 0) {
-        console.log(`  💾 Added ${newClipsCount} new clips to cache`);
+        console.log(`  💾 Fetched ${newClipsCount} new clips`);
     }
 
     return clips;
@@ -247,7 +270,7 @@ async function processClipsFile(
 
 async function processAnimaticsFile(
     animaticsPath: string,
-    globalCache: ClipsCache,
+    metadataCache: MetadataCache,
     locale: string,
 ): Promise<ClipMetadata[]> {
     const content = await fs.readFile(animaticsPath, "utf-8");
@@ -260,7 +283,6 @@ async function processAnimaticsFile(
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
 
-        // Check for chapter headers
         const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
         if (chapterMatch) {
             currentChapter = parseInt(chapterMatch[1]);
@@ -278,10 +300,9 @@ async function processAnimaticsFile(
             continue;
         }
 
-        let metadata = globalCache[videoId];
+        let metadata = metadataCache[videoId];
 
         if (!metadata) {
-            // Fetch new metadata
             console.log(`  🔍 Fetching metadata for: ${videoId}`);
             const fetched = await fetchYouTubeMetadata(videoId);
 
@@ -290,16 +311,11 @@ async function processAnimaticsFile(
                 continue;
             }
 
-            metadata = {
-                ...fetched,
-                fetchedAt: new Date().toISOString(),
-            };
-
-            globalCache[videoId] = metadata;
+            metadata = fetched;
+            metadataCache[videoId] = metadata;
             newAnimaticsCount++;
 
             console.log(`  ✅ Added: "${metadata.title}" (Animatics)`);
-            // Rate limiting to avoid being blocked
             await new Promise((resolve) => setTimeout(resolve, 1000));
         }
 
@@ -307,6 +323,7 @@ async function processAnimaticsFile(
             id: `${locale}-animatics-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
+            title_ja: "",
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -320,7 +337,7 @@ async function processAnimaticsFile(
     }
 
     if (newAnimaticsCount > 0) {
-        console.log(`  💾 Added ${newAnimaticsCount} new animatics to cache`);
+        console.log(`  💾 Fetched ${newAnimaticsCount} new animatics`);
     }
 
     return animatics;
@@ -328,7 +345,11 @@ async function processAnimaticsFile(
 
 function validateCategories(categories: string[], videoId: string): boolean {
     const invalidCategories = categories.filter(
-        (cat) => !CATEGORY_ORDER.includes(cat),
+        (cat) =>
+            !CATEGORY_ORDER.includes(cat) &&
+            cat !== "all-c1" &&
+            cat !== "all-c2" &&
+            cat !== "highlight",
     );
 
     if (invalidCategories.length > 0) {
@@ -345,7 +366,7 @@ function validateCategories(categories: string[], videoId: string): boolean {
 async function processStreamsFile(
     streamsPath: string,
     categoryName: string,
-    globalCache: ClipsCache,
+    metadataCache: MetadataCache,
     locale: string,
 ): Promise<ClipMetadata[]> {
     const content = await fs.readFile(streamsPath, "utf-8");
@@ -363,7 +384,6 @@ async function processStreamsFile(
     }
 
     for (const line of lines) {
-        // Check for chapter headers
         const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)/i);
         if (chapterMatch) {
             currentChapter = parseInt(chapterMatch[1]);
@@ -381,10 +401,9 @@ async function processStreamsFile(
             continue;
         }
 
-        let metadata = globalCache[videoId];
+        let metadata = metadataCache[videoId];
 
         if (!metadata) {
-            // Fetch new metadata
             console.log(`  🔍 Fetching metadata for: ${videoId}`);
             const fetched = await fetchYouTubeMetadata(videoId);
 
@@ -393,28 +412,22 @@ async function processStreamsFile(
                 continue;
             }
 
-            metadata = {
-                ...fetched,
-                fetchedAt: new Date().toISOString(),
-            };
-
-            globalCache[videoId] = metadata;
+            metadata = fetched;
+            metadataCache[videoId] = metadata;
             newStreamsCount++;
 
             console.log(
                 `  ✅ Added: "${metadata.title}" by ${metadata.author}`,
             );
 
-            // Rate limiting to avoid being blocked
             await new Promise((resolve) => setTimeout(resolve, 1000));
-        } else {
-            // console.log(`  ♻️  Using cached: ${videoId}`);
         }
 
         const streamEntry: ClipMetadata = {
             id: `${locale}-${categoryName}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
+            title_ja: "",
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -428,7 +441,7 @@ async function processStreamsFile(
     }
 
     if (newStreamsCount > 0) {
-        console.log(`  💾 Added ${newStreamsCount} new streams to cache`);
+        console.log(`  💾 Fetched ${newStreamsCount} new streams`);
     }
 
     return streams;
@@ -436,23 +449,18 @@ async function processStreamsFile(
 
 function sortByCategory(items: ClipMetadata[]): ClipMetadata[] {
     return items.sort((a, b) => {
-        // Get the first (primary) category for sorting
         const primaryCategoryA = a.categories[0];
         const primaryCategoryB = b.categories[0];
 
-        // First, sort by primary category order
         const categoryIndexA = CATEGORY_ORDER.indexOf(primaryCategoryA);
         const categoryIndexB = CATEGORY_ORDER.indexOf(primaryCategoryB);
 
-        // If categories are different, sort by category order
         if (categoryIndexA !== categoryIndexB) {
-            // Handle categories not in the order list (put them at the end)
             if (categoryIndexA === -1) return 1;
             if (categoryIndexB === -1) return -1;
             return categoryIndexA - categoryIndexB;
         }
 
-        // If same primary category, sort by upload date (newest first)
         return (
             new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime()
         );
@@ -465,7 +473,6 @@ async function main() {
         process.cwd(),
         locale === "en" ? "clips-data" : `clips-data_${locale}`,
     );
-    const cacheFile = path.join(baseDir, `.clips-cache_${locale}.json`);
 
     try {
         await fs.access(baseDir);
@@ -476,23 +483,39 @@ async function main() {
         process.exit(1);
     }
 
-    let globalCache: ClipsCache = {};
+    const outPath = path.resolve(
+        process.cwd(),
+        "apps",
+        "website",
+        "data",
+        locale,
+        `clips_${locale}.json`,
+    );
+
+    // Load existing output file to build metadata cache
+    let existingData: OutputData = { clips: [], streams: [] };
     try {
-        const cacheContent = await fs.readFile(cacheFile, "utf-8");
-        globalCache = JSON.parse(cacheContent);
+        const existingContent = await fs.readFile(outPath, "utf-8");
+        existingData = JSON.parse(existingContent);
         console.log(
-            `📦 Loaded cache with ${Object.keys(globalCache).length} videos\n`,
+            `📦 Loaded existing data with ${existingData.clips.length} clips and ${existingData.streams.length} streams\n`,
         );
     } catch {
-        console.log(`📦 Creating new cache file\n`);
+        console.log(`📦 No existing output file found, starting fresh\n`);
     }
+
+    // Build metadata cache from existing data
+    const metadataCache = buildMetadataCache(existingData);
+    console.log(
+        `📦 Built metadata cache with ${Object.keys(metadataCache).length} videos\n`,
+    );
 
     // Process clips.md
     console.log(`\n📁 Processing clips.md`);
     const clipsPath = path.join(baseDir, "clips.md");
     let allClips: ClipMetadata[] = [];
     try {
-        allClips = await processClipsFile(clipsPath, globalCache, locale);
+        allClips = await processClipsFile(clipsPath, metadataCache, locale);
         console.log(`  ✅ Total clips: ${allClips.length}`);
     } catch (error) {
         console.error(`❌ Error processing clips.md:`, error);
@@ -505,7 +528,7 @@ async function main() {
     try {
         allAnimatics = await processAnimaticsFile(
             animaticsPath,
-            globalCache,
+            metadataCache,
             locale,
         );
         console.log(`  ✅ Total animatics: ${allAnimatics.length}`);
@@ -513,7 +536,6 @@ async function main() {
         console.error(`❌ Error processing animatics.md:`, error);
     }
 
-    // Combine clips and animatics
     const combinedClips = [...allClips, ...allAnimatics];
 
     // Process stream files from category directories
@@ -540,7 +562,7 @@ async function main() {
             const streams = await processStreamsFile(
                 filePath,
                 categoryName,
-                globalCache,
+                metadataCache,
                 locale,
             );
 
@@ -550,15 +572,6 @@ async function main() {
         }
     }
 
-    await fs.writeFile(
-        cacheFile,
-        JSON.stringify(globalCache, null, 2),
-        "utf-8",
-    );
-    console.log(
-        `\n💾 Saved cache with ${Object.keys(globalCache).length} videos`,
-    );
-
     // Sort by category order, then by upload date (newest first) within each category
     const sortedClips = sortByCategory(combinedClips);
     const sortedStreams = sortByCategory(allStreams);
@@ -567,15 +580,6 @@ async function main() {
         clips: sortedClips,
         streams: sortedStreams,
     };
-
-    const outPath = path.resolve(
-        process.cwd(),
-        "apps",
-        "website",
-        "data",
-        locale,
-        `clips_${locale}.json`,
-    );
 
     await fs.mkdir(path.dirname(outPath), { recursive: true });
     await fs.writeFile(outPath, JSON.stringify(outputData, null, 2), "utf-8");
@@ -597,7 +601,6 @@ async function main() {
         {} as Record<string, number>,
     );
 
-    // Display in category order
     CATEGORY_ORDER.concat("animatics").forEach((category) => {
         const count = clipsCategoryCounts[category];
         if (count) {
@@ -617,7 +620,6 @@ async function main() {
         {} as Record<string, number>,
     );
 
-    // Display in category order
     CATEGORY_ORDER.forEach((category) => {
         const count = streamsCategoryCounts[category];
         if (count) {

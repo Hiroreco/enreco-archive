@@ -11,7 +11,7 @@ Join the ENreco "Canvas Contest"! 🎨💙
 ✅ Create an illustration (1280 x 1920 px)
 ✅ Post it on X or Instagram with #ENreco #ENrecoCanvas
 ✅ Agree to the submission terms via the form below
-https://forms.gle/EwoCdofSodvo97zo7
+[https://forms.gle/EwoCdofSodvo97zo7](https://forms.gle/EwoCdofSodvo97zo7)
 
 🎉Applications will close on March 19 (PDT)!
 Check the attached image for full details. Don't miss it! ✨

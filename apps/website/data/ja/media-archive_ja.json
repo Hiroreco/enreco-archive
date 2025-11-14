@@ -81,7 +81,7 @@
     "description": "第1章に関連するメディアや配信",
     "info": "",
     "chapter": 1,
-    "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
+    "thumbnailUrl": "/images-opt/c1-misc-launch-stream-opt.webp",
     "entries": [
       {
         "title": "ENigmatic Recollection 開幕パーティー",
@@ -330,6 +330,14 @@
         "info": "### 説明\n\nこのローディング画面は、第2章で各タレントが一日の冒険を始める前に使用していたもの。\n星空のようにきらめく神秘的な背景の中で、タロットカードがくるくると回転し、\nそのたびに異なるヒーローの姿が現れるループアニメーションが特徴です。\n\n背景音楽には、第2章の公式テーマソング **「MONSTER」** のインストゥルメンタル版が使用されています。",
         "src": "https://cdn.enreco-archive.net/c2-animation-spin-opt.mp4",
         "type": "video"
+      },
+      {
+        "title": "ENigmatic Recollection 第2章 - エンディング",
+        "originalUrl": "https://www.youtube.com/watch?v=pk29y0n9tBI",
+        "thumbnailUrl": "/images-opt/c2-animation-ending-opt.webp",
+        "info": "### 説明\n\nフィアはついに悟った――**アウトサイダーの誕生を阻止することは不可能**だと。\n残された唯一の道は、彼の「今の目的」を止めることだけ。\n\n彼女は再び英雄たちに助けを求めた。\nそして英雄たちは、迷うことなくその声に応えた。\n彼女たちは“英雄”なのだから。世界が救いを求める限り、何度でも立ち上がる――それが彼女たちの宿命だった。\n\nしかし、その呼びかけに応じなかった者たちもいた。\n\nフワワ、モココ、ビジュー、ネリッサ、そしてシオリ。\n彼女たちは光の輪の外に立ち、影の中に身を置いた。\n\nもう誰かに命令されるのはうんざり。\n他人に書かれた役を演じるのも、もう終わり。\n彼女たちは宣言した――**これは反逆だ。**\n自分たちの意志で、自分たちの道を切り拓くのだ、と。",
+        "src": "https://www.youtube.com/watch?v=pk29y0n9tBI",
+        "type": "youtube"
       }
     ]
   },
@@ -418,33 +426,33 @@
     ]
   },
   {
-    "id": "c2-recaps",
+    "id": "c2-news",
     "title": "ENreco NEWS",
-    "description": "第2章の出来事を振り返るデイリー配信シリーズ",
-    "info": "### 説明\n\n第2章の**1日目、4日目、そして7日目**に行われたこの短編配信シリーズでは、森カリオペと小鳥遊キアラが司会を務め、前日までの物語を振り返りながら最新情報を届けた。\n\n配信では、ファンが作成した名場面クリップの紹介や、英雄たちが綴った日誌の朗読、そして当日に予定されている**ダンジョンやイベントの告知**など、見どころ満載の内容が展開された。",
+    "description": "第2章の出来事を振り返る並行シリーズ",
+    "info": "### 説明\n\n第2章の1日目・4日目・7日に配信されたこのショート配信シリーズでは、**森カリオペ**と**小鳥遊キアラ**がホストとなり、それまでの出来事を振り返っていきました。ストーリーが進む中で、視聴者全員が内容を把握できるようにするための、いわば「情報まとめ配信」です。\n\n配信では、ファンが制作した面白シーンのクリップ紹介、ヒーローたちが残したジャーナル（冒険日誌）の朗読、そしてその日に挑むダンジョンやイベントの告知などが行われました。テンポよくまとめられた内容で、見逃した人でもすぐに状況をキャッチアップできる構成になっています。",
     "chapter": 2,
-    "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
+    "thumbnailUrl": "/images-opt/c2-news-1-opt.webp",
     "entries": [
       {
-        "title": "ENrecoニュース 第1日目",
+        "title": "ENreco NEWS 1日目",
         "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
-        "thumbnailUrl": "/images-opt/c2-recaps-1-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-news-1-opt.webp",
         "info": "",
         "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
         "type": "youtube"
       },
       {
-        "title": "ENrecoニュース 第2〜4日目",
-        "originalUrl": "https://www.youtube.com/watch?v=ihyTtgarg2M",
-        "thumbnailUrl": "/images-opt/c2-recaps-2-opt.webp",
+        "title": "ENreco NEWS 2〜4日目",
+        "originalUrl": "https://www.youtube.com/watch?v=zjeuQnsPz9E",
+        "thumbnailUrl": "/images-opt/c2-news-2-opt.webp",
         "info": "",
-        "src": "https://www.youtube.com/watch?v=ihyTtgarg2M",
+        "src": "https://www.youtube.com/watch?v=zjeuQnsPz9E",
         "type": "youtube"
       },
       {
-        "title": "ENrecoニュース 第5〜7日目",
+        "title": "ENreco NEWS 5〜7日目",
         "originalUrl": "https://www.youtube.com/watch?v=37p-5YvWtyg",
-        "thumbnailUrl": "/images-opt/c2-recaps-3-opt.webp",
+        "thumbnailUrl": "/images-opt/c2-news-3-opt.webp",
         "info": "",
         "src": "https://www.youtube.com/watch?v=37p-5YvWtyg",
         "type": "youtube"
@@ -502,7 +510,7 @@
         "type": "youtube"
       },
       {
-        "title": "騎士の日誌 - 一日目",
+        "title": "騎士の日誌 0001",
         "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-1-opt.webp",
         "info": "",
@@ -510,7 +518,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 二日目",
+        "title": "騎士の日誌 0002",
         "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-2-opt.webp",
         "info": "",
@@ -518,7 +526,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 四日目",
+        "title": "騎士の日誌 0003",
         "originalUrl": "https://www.youtube.com/watch?v=1tE2N1kP2YA",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-4-opt.webp",
         "info": "",
@@ -526,7 +534,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 五日目",
+        "title": "騎士の日誌 0004",
         "originalUrl": "https://www.youtube.com/live/uEB2dIe37oo",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-5-opt.webp",
         "info": "",
@@ -534,7 +542,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 六日目",
+        "title": "騎士の日誌 0005",
         "originalUrl": "https://www.youtube.com/live/sDjysXFWYbI",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-6-opt.webp",
         "info": "",
@@ -542,7 +550,7 @@
         "type": "video"
       },
       {
-        "title": "騎士の日誌 - 七日目",
+        "title": "騎士の日誌 0006",
         "originalUrl": "https://www.youtube.com/live/b-jTHH6GK5w",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-7-opt.webp",
         "info": "",

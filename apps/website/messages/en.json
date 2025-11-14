@@ -90,20 +90,8 @@
             "recommendedOrder": "For a smooth reading experience, we recommend following this order:",
             "orderSequence": "Day Recap → Character → Relationship",
             "freeExploration": "However, feel free to explore the cards in any order you like.",
-            "glossaryTitle": "Glossary",
-            "glossaryDescription": "Located in the <em>Glossary Tab</em> in the upper left corner, this collection of entries provides detailed information on revelations, characters, locations, quests, and more. It serves as a resource for understanding topics referenced throughout the site.",
-            "chapterRecapsTitle": "Chapter Recaps",
-            "chapterRecapsDescription": "A general overview of the entirety of each chapter can be accessed via the <em>Chapter Recaps Tab</em>. This includes summaries of the main events, character arcs, and relationships that defined the story of the journey.",
-            "settingsTitle": "Settings",
-            "settingsDescription": "You can customize various aspects of your experience in the <em>Settings Tab</em>, including music volume, timestamp preferences, and other miscellaneous options.",
-            "minigamesTitle": "Minigames",
-            "minigamesDescription": "A selection of minigames from the series has been recreated and can be played in the <em>Minigames Tab</em>—including the infamous Color Cannon minigame.",
-            "jukeboxTitle": "Jukebox",
-            "jukeboxDescription": "The jukebox features a collection of music used in ENreco, including tracks from the game itself as well as those used by the talents and made by fans.",
-            "galleryTitle": "Libestal Gallery",
-            "galleryDescription": "You can explore all the incredible fanart created by the community during the event in the <em>Libestal Gallery tab</em>, organized by characters, chapters, and days.",
-            "easterEggsTitle": "Easter Eggs",
-            "easterEggsDescription": "Hidden throughout the site are easter eggs—little nods to silly moments or tributes to certain members. These are interactive, so keep an eye out for surprises! Many of them have multiple variations, so try clicking more than once!",
+            "otherFeaturesTitle": "Other Features",
+            "otherFeatures": "Aside from the main relationship chart, there are several other features such as a jukebox for music, a gallery for fanart, and many more. You can access these these via the navigation buttons on the left and right sides of the screen.",
             "conclusion": "That's about it! We hope you enjoy your stay on this enigmatic journey!"
         },
         "infoCredits": {
@@ -187,7 +175,8 @@
         },
         "text": {
             "playAudio": "Play Audio",
-            "stopAudio": "Stop playing audio"
+            "stopAudio": "Stop playing audio",
+            "description": "Description"
         },
         "music": {
             "controls": {
@@ -466,6 +455,7 @@
             "noResults": "Nothing here but us chickens...",
             "category": {
                 "all": "All",
+                "highlight": "Highlights",
                 "animatics": "Nerissa's Stash",
                 "gura": "Gawr Gura",
                 "calli": "Mori Calliope",
@@ -506,7 +496,18 @@
             "entryCount": {
                 "singular": "entry",
                 "plural": "entries"
-            }
+            },
+            "readMode": "Read Mode",
+            "chapterNavigation": {
+                "previousChapter": "Previous Chapter",
+                "nextChapter": "Next Chapter"
+            },
+            "info": {
+                "summary": "Summary",
+                "characters": "Characters",
+                "tags": "Tags"
+            },
+            "fanficError": "Failed to load story content, try again later or you may read it from the original source <link>here</link>."
         }
     }
 }

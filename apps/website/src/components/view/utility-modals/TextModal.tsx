@@ -13,12 +13,14 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import {
     BookOpenTextIcon,
     ChevronLeft,
     ChevronRight,
+    Info,
     Play,
     Square,
 } from "lucide-react";
@@ -29,13 +31,19 @@ import { ReactNode, useCallback, useEffect, useMemo, useState } from "react";
 interface TextModalProps {
     textId: string;
     label: string | ReactNode;
+    showDescriptionPanel?: boolean;
 }
 
-const TextModal = ({ textId, label }: TextModalProps) => {
+const TextModal = ({
+    textId,
+    label,
+    showDescriptionPanel = false,
+}: TextModalProps) => {
     const tCommon = useTranslations("common");
     const tText = useTranslations("modals.text");
-    const { getTextData } = useLocalizedData();
+    const { getTextItem, getTextData } = useLocalizedData();
     const textData = getTextData();
+
     const {
         playSFX,
         playTextAudio,
@@ -48,10 +56,23 @@ const TextModal = ({ textId, label }: TextModalProps) => {
 
     // Find the text group that contains this textId
     const textGroup = useMemo(() => {
-        return textData[textId];
-    }, [textData, textId]);
+        const group = textData[textId];
+        if (!group) {
+            const item = getTextItem(textId);
+            if (item) {
+                return {
+                    title: item.title,
+                    entries: [item],
+                    description: "",
+                };
+            }
+            return null;
+        }
+        return group;
+    }, [textData, textId, getTextItem]);
 
     const [currentEntryIndex, setCurrentEntryIndex] = useState(0);
+    const [showInfo, setShowInfo] = useState(false);
 
     const currentEntry = useMemo(() => {
         if (!textGroup) return null;
@@ -116,6 +137,7 @@ const TextModal = ({ textId, label }: TextModalProps) => {
         textAudioState.isPlaying &&
         textAudioState.currentTextId === currentEntry.id;
     const hasAudio = currentEntry.hasAudio === true;
+    const hasDescription = showDescriptionPanel && textGroup.description;
 
     const handleAudioClick = () => {
         playSFX("click");
@@ -136,10 +158,16 @@ const TextModal = ({ textId, label }: TextModalProps) => {
             }
             playBGM();
             setCurrentEntryIndex(0);
+            setShowInfo(false);
         } else {
             // Modal is opening
             playSFX("book");
         }
+    };
+
+    const toggleInfo = () => {
+        playSFX("click");
+        setShowInfo(!showInfo);
     };
 
     // Determine if label is a string to show icon
@@ -152,13 +180,28 @@ const TextModal = ({ textId, label }: TextModalProps) => {
             </DialogTrigger>
             <DialogContent showXButton={false} backdropFilter={backdropFilter}>
                 <DialogHeader>
-                    <DialogTitle>{currentEntry.title}</DialogTitle>
+                    <DialogTitle asChild>
+                        <div className="flex justify-between items-center">
+                            <span className="text-lg font-bold">
+                                {currentEntry.title}
+                            </span>
+                            {hasDescription && (
+                                <button
+                                    onClick={toggleInfo}
+                                    className="p-2 border rounded-full hover:bg-accent/50 transition-colors"
+                                    title={showInfo ? "Hide info" : "Show info"}
+                                >
+                                    <Info className="size-4" />
+                                </button>
+                            )}
+                        </div>
+                    </DialogTitle>
                 </DialogHeader>
                 <VisuallyHidden>
-                    <DialogDescription>
-                        {textGroup.category} - {currentEntry.title}
-                    </DialogDescription>
+                    <DialogDescription>{currentEntry.title}</DialogDescription>
                 </VisuallyHidden>
+                <Separator className="my-2 bg-foreground/60" />
+
                 <div className="relative">
                     <ViewMarkdown
                         key={currentEntry.id}
@@ -203,41 +246,99 @@ const TextModal = ({ textId, label }: TextModalProps) => {
                             )}
                         </button>
                     )}
+
+                    {/* Info Panel - Desktop */}
+                    {hasDescription && (
+                        <div
+                            className={cn(
+                                "hidden md:block absolute top-0 right-0 w-80 rounded-lg bg-background/90 dark:bg-background/40 backdrop-blur-2xl shadow-lg transition-all overflow-y-auto",
+                                showInfo
+                                    ? "translate-x-full opacity-100"
+                                    : "opacity-0 translate-x-11/12",
+                            )}
+                        >
+                            <div className="p-4">
+                                <div className="mb-3 font-bold underline underline-offset-2 text-accent">
+                                    {tText("description") || "Description"}
+                                </div>
+                                <ViewMarkdown
+                                    className="text-sm"
+                                    onNodeLinkClicked={() => {}}
+                                    onEdgeLinkClicked={() => {}}
+                                >
+                                    {textGroup.description}
+                                </ViewMarkdown>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Info Panel - Mobile (overlay modal) */}
+                    {hasDescription && (
+                        <div
+                            className={cn(
+                                "md:hidden absolute inset-0 transition-opacity",
+                                {
+                                    "opacity-0": !showInfo,
+                                    "opacity-100 z-30": showInfo,
+                                },
+                            )}
+                            onClick={toggleInfo}
+                        >
+                            <div className="rounded-lg overflow-y-auto p-4 bg-background/95 backdrop-blur-sm h-[30vh]">
+                                <div className="flex justify-between items-center  mb-4">
+                                    <span className="underline underline-offset-2 font-bold text-accent">
+                                        {tText("description") || "Description"}
+                                    </span>
+                                </div>
+                                <ViewMarkdown
+                                    className="text-sm"
+                                    onNodeLinkClicked={() => {}}
+                                    onEdgeLinkClicked={() => {}}
+                                >
+                                    {textGroup.description}
+                                </ViewMarkdown>
+                            </div>
+                        </div>
+                    )}
                 </div>
                 <DialogFooter className="pt-4 border-t-2 grid grid-cols-4 gap-2">
                     <span className="flex items-center justify-center text-muted-foreground rounded-lg border px-2 py-1 size-full">
                         {currentEntryIndex + 1} / {textGroup.entries.length}
                     </span>
-                    <div className="grid grid-cols-2 size-full col-span-2 gap-1">
+                    <div className="flex justify-center size-full col-span-2 gap-1">
                         {/* Left and Right Navigation */}
                         <button
                             onClick={goToPrev}
                             disabled={!canGoPrev}
                             className={cn(
-                                "rounded-md bg-neutral-400/50 transition-all hover:opacity-90 active:brightness-90",
-                                "disabled:opacity-30 disabled:cursor-not-allowed",
+                                "rounded-full bg-neutral-400/50 transition-all hover:opacity-90 active:brightness-90",
+                                "disabled:opacity-30 disabled:cursor-not-allowed px-4 py-2",
+                                {
+                                    hidden: textGroup.entries.length <= 1,
+                                },
                             )}
                             title="Previous entry"
                         >
-                            <ChevronLeft className="w-5 h-5" />
+                            <ChevronLeft className="size-5" />
                         </button>
                         <button
                             onClick={goToNext}
                             disabled={!canGoNext}
                             className={cn(
-                                "rounded-md bg-neutral-400/50 transition-all hover:opacity-90 active:brightness-90 flex justify-end items-center",
-                                "disabled:opacity-30 disabled:cursor-not-allowed",
+                                "rounded-full bg-neutral-400/50 transition-all hover:opacity-90 active:brightness-90 flex justify-end items-center",
+                                "disabled:opacity-30 disabled:cursor-not-allowed px-4 py-2",
+                                {
+                                    hidden: textGroup.entries.length <= 1,
+                                },
                             )}
                             title="Next entry"
                         >
-                            <ChevronRight className="w-5 h-5" />
+                            <ChevronRight className="size-5" />
                         </button>
                     </div>
 
                     <DialogClose asChild>
-                        <Button className="bg-accent text-accent-foreground-mb-2">
-                            {tCommon("close")}
-                        </Button>
+                        <Button>{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

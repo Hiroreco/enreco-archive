@@ -1,16 +1,16 @@
-import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { isMobileViewport } from "@/lib/utils";
+import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import { useMemo, useEffect, useState } from "react";
-import { isMobileViewport } from "@/lib/utils";
 import Image from "next/image";
+import { useEffect, useMemo, useState } from "react";
 
 const PlayingAnimation = () => (
     <div className="flex items-end h-3 gap-[2px]">
-        <div className="w-[3px] h-full bg-gray-200 animate-music-bar-1 rounded-sm" />
-        <div className="w-[3px] h-[70%] bg-gray-200 animate-music-bar-2 rounded-sm" />
-        <div className="w-[3px] h-[40%] bg-gray-200 animate-music-bar-3 rounded-sm" />
+        <div className="w-[3px] h-full bg-gray-400 dark:bg-gray-200 animate-music-bar-1 rounded-sm" />
+        <div className="w-[3px] h-[70%] bg-gray-400 dark:bg-gray-200 animate-music-bar-2 rounded-sm" />
+        <div className="w-[3px] h-[40%] bg-gray-400 dark:bg-gray-200 animate-music-bar-3 rounded-sm" />
     </div>
 );
 
@@ -84,7 +84,7 @@ export const NowPlayingToast = () => {
                 >
                     <div
                         className={cn(
-                            "flex items-center gap-3 bg-background/80 backdrop-blur-md border border-white/20 text-foreground shadow-lg",
+                            "flex items-center gap-3 bg-background/80 backdrop-blur-md border border-white/20 text-foreground shadow-xl",
                             {
                                 "px-4 py-3 rounded-lg": !isMobile,
                                 "px-3 py-2 rounded-full": isMobile,

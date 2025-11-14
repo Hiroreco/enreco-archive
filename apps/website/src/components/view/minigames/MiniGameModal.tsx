@@ -1,4 +1,10 @@
-import { useTranslations } from "next-intl";
+import ChickenGame from "@/components/view/minigames/ChickenGame";
+import ChickenGameInfo from "@/components/view/minigames/ChickenGameInfo";
+import GamblingGame from "@/components/view/minigames/GamblingGame";
+import GamblingGameInfo from "@/components/view/minigames/GamblingGameInfo";
+import MemoryGame from "@/components/view/minigames/MemoryGame";
+import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
+import ShioriGame from "@/components/view/minigames/ShioriGame";
 import {
     Dialog,
     DialogContent,
@@ -14,18 +20,11 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import ChickenGameInfo from "@/components/view/minigames/ChickenGameInfo";
-import GamblingGameInfo from "@/components/view/minigames/GamblingGameInfo";
-import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
-import ChickenGame from "@/components/view/minigames/ChickenGame";
-import GamblingGame from "@/components/view/minigames/GamblingGame";
-import MemoryGame from "@/components/view/minigames/MemoryGame";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { Info } from "lucide-react";
-import React, { ReactElement, useCallback, useState } from "react";
-import ShioriGame from "@/components/view/minigames/ShioriGame";
-import ShioriGameInfo from "@/components/view/minigames/ShioriGameInfo";
 import { AnimatePresence, motion } from "framer-motion";
+import { Info } from "lucide-react";
+import { useTranslations } from "next-intl";
+import React, { ReactElement, useCallback, useState } from "react";
 
 interface MiniGameModalProps {
     open: boolean;
@@ -49,10 +48,10 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
             label: t("games.chicken.label"),
             info: <ChickenGameInfo />,
         },
-        shiori: {
-            label: t("games.shiori.label"),
-            info: <ShioriGameInfo />,
-        },
+        // shiori: {
+        //     label: t("games.shiori.label"),
+        //     info: <ShioriGameInfo />,
+        // },
     };
 
     const onOpenChange = useCallback(

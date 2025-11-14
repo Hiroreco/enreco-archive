@@ -52,7 +52,7 @@ interface FanartFiltersProps {
 export const CHARACTER_ICON_MAP: Record<string, string> = {
     all: "node-lore-opt.webp",
     various: "node-lore-opt.webp",
-    bloodraven: "node-lore-opt.webp",
+    bloodraven: "cat-bloodraven-opt.webp",
     gura: "node-gura-opt.webp",
     ina: "node-ina-opt.webp",
     kiara: "node-kiara-opt.webp",

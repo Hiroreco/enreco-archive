@@ -81,7 +81,7 @@
     "description": "Media and streams related to the first chapter",
     "info": "",
     "chapter": 1,
-    "thumbnailUrl": "/images-opt/c1-misc-trailer-opt.webp",
+    "thumbnailUrl": "/images-opt/c1-misc-launch-stream-opt.webp",
     "entries": [
       {
         "title": "ENigmatic Recollection Launch Party",
@@ -104,7 +104,7 @@
   {
     "id": "c1-recaps",
     "title": "Chapter 1 REWIND",
-    "description": "A series of videos recapping moments of the chapter",
+    "description": "A series of videos recapping moments of the first chapter",
     "info": "### Description\n\nIn anticipation of Chapter Two, and to give everyone a chance to relive the events of the first chapter, a series of recap videos was released daily from **April 24 - April 26, 2025**, highlighting memorable moments from the adventure.",
     "chapter": 1,
     "thumbnailUrl": "/images-opt/c1-recaps-1-opt.webp",
@@ -369,10 +369,10 @@
     "entries": [
       {
         "title": "ENigmatic Recollection Chapter 2 Game Trailer",
-        "originalUrl": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
+        "originalUrl": "https://www.youtube.com/watch?v=nWbS_k584mw",
         "thumbnailUrl": "/images-opt/c2-misc-trailer-opt.webp",
         "info": "### Description\n\nReleased just hours before the first day of the second chapter began, the official game trailer offered a glimpse into the world the heroes would soon traverse.\n\nFilled with shots of dungeons, cryptic dialogue lines, and a strikingly cinematic tone, the trailer set a dramatic stage for what would soon unfold into a glorious storm of chaos once the real adventure began.",
-        "src": "https://www.youtube.com/watch?v=nWbS_k584mw&pp=0gcJCfwJAYcqIYzv",
+        "src": "https://www.youtube.com/watch?v=nWbS_k584mw",
         "type": "youtube"
       },
       {
@@ -395,7 +395,7 @@
         "title": "ENreco Canvas Contest",
         "originalUrl": "https://x.com/hololive_En/status/1895609934085325149",
         "thumbnailUrl": "/images-opt/c2-misc-canvas-opt.webp",
-        "info": "### Description\n\n🎮 Your art could be featured in a game played by #hololive English?! 🎮\nJoin the ENreco \"Canvas Contest\"! 🎨💙\n\n🖌 How to enter:\n✅ Create an illustration (1280 x 1920 px)\n✅ Post it on X or Instagram with #ENreco #ENrecoCanvas\n✅ Agree to the submission terms via the form below\nhttps://forms.gle/EwoCdofSodvo97zo7\n\n🎉Applications will close on March 19 (PDT)!\nCheck the attached image for full details. Don't miss it! ✨\n\n\\- hololive (English)",
+        "info": "### Description\n\n🎮 Your art could be featured in a game played by #hololive English?! 🎮\nJoin the ENreco \"Canvas Contest\"! 🎨💙\n\n🖌 How to enter:\n✅ Create an illustration (1280 x 1920 px)\n✅ Post it on X or Instagram with #ENreco #ENrecoCanvas\n✅ Agree to the submission terms via the form below\n[https://forms.gle/EwoCdofSodvo97zo7](https://forms.gle/EwoCdofSodvo97zo7)\n\n🎉Applications will close on March 19 (PDT)!\nCheck the attached image for full details. Don't miss it! ✨\n\n\\- hololive (English)",
         "src": "/images-opt/c2-misc-canvas-opt.webp",
         "type": "image"
       },
@@ -510,7 +510,7 @@
         "type": "youtube"
       },
       {
-        "title": "Knight's Log - Day 1",
+        "title": "Knight's Log 0001",
         "originalUrl": "https://www.youtube.com/live/wnQuawM-3Jc",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-1-opt.webp",
         "info": "",
@@ -518,7 +518,7 @@
         "type": "video"
       },
       {
-        "title": "Knight's Log - Day 2",
+        "title": "Knight's Log 0002",
         "originalUrl": "https://www.youtube.com/live/vbppXmxXo7o",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-2-opt.webp",
         "info": "",
@@ -526,7 +526,7 @@
         "type": "video"
       },
       {
-        "title": "Knight's Log - Day 4",
+        "title": "Knight's Log 0003",
         "originalUrl": "https://www.youtube.com/watch?v=1tE2N1kP2YA",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-4-opt.webp",
         "info": "",
@@ -534,7 +534,7 @@
         "type": "video"
       },
       {
-        "title": "Knight's Log - Day 5",
+        "title": "Knight's Log 0004",
         "originalUrl": "https://www.youtube.com/live/uEB2dIe37oo",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-5-opt.webp",
         "info": "",
@@ -542,7 +542,7 @@
         "type": "video"
       },
       {
-        "title": "Knight's Log - Day 6",
+        "title": "Knight's Log 0005",
         "originalUrl": "https://www.youtube.com/live/sDjysXFWYbI",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-6-opt.webp",
         "info": "",
@@ -550,7 +550,7 @@
         "type": "video"
       },
       {
-        "title": "Knight's Log - Day 7",
+        "title": "Knight's Log 0006",
         "originalUrl": "https://www.youtube.com/live/b-jTHH6GK5w",
         "thumbnailUrl": "/images-opt/c2-talent-liz-intro-7-opt.webp",
         "info": "",

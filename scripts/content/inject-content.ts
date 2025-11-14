@@ -34,6 +34,9 @@ function main() {
     console.log(`📝 Injecting texts (${locale})...`);
     runScript("pnpm inject-texts", locale);
 
+    console.log(`📝 Injecting media archive (${locale})...`);
+    runScript("pnpm inject-media-archive", locale);
+
     console.log(`✅ All content injected successfully for locale: ${locale}!`);
 }
 

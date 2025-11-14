@@ -24,6 +24,7 @@ import Image from "next/image";
 import { useMemo, useState, useEffect, useRef, useCallback } from "react";
 
 const CATEGORY_ORDER = [
+    "highlight",
     "animatics",
     "calli",
     "kiara",
@@ -97,7 +98,7 @@ const ClipsArchiveViewer = ({
             clip.categories.forEach((cat) => cats.add(cat));
         });
 
-        const sortedCats = Array.from(cats).sort((a, b) => {
+        let sortedCats = Array.from(cats).sort((a, b) => {
             const indexA = CATEGORY_ORDER.indexOf(a);
             const indexB = CATEGORY_ORDER.indexOf(b);
 
@@ -111,8 +112,18 @@ const ClipsArchiveViewer = ({
             return 0;
         });
 
+        if (selectedChapter > 1) {
+            sortedCats = sortedCats.filter(
+                (cat) =>
+                    cat !== "ame" &&
+                    cat !== "fauna" &&
+                    cat !== "gura" &&
+                    cat !== "moom",
+            );
+        }
+
         return ["all", ...sortedCats];
-    }, [currentData]);
+    }, [currentData, selectedChapter]);
 
     const chapters = useMemo(() => {
         const chaps = new Set(currentData.map((clip) => clip.chapter));
@@ -397,7 +408,7 @@ const ClipsArchiveViewer = ({
                 </div>
 
                 <div
-                    className="flex-1 overflow-y-auto px-2 relative"
+                    className="flex-1 overflow-y-auto px-2 pb-2 relative"
                     ref={setContentContainerRef}
                 >
                     <AnimatePresence mode="wait">

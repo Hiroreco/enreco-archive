@@ -1,6 +1,6 @@
 ### Chapter 1
 
-https://www.youtube.com/watch?v=gzQuqazEMMk
+https://www.youtube.com/watch?v=Rk7nZ91vme4
 https://www.youtube.com/watch?v=f8W426vzTb8
 https://www.youtube.com/watch?v=gtOGWDKwQfY
 https://www.youtube.com/watch?v=pH9lSCrTVMY
