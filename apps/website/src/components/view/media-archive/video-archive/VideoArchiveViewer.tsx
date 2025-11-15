@@ -11,6 +11,7 @@ import { EffectCreative } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { MediaEntry, RecollectionArchiveEntry } from "../types";
 
+import { useAudioStore } from "@/store/audioStore";
 import { useViewStore } from "@/store/viewStore";
 import { useTranslations } from "next-intl";
 import "swiper/css";
@@ -39,6 +40,9 @@ const VideoArchiveViewer = ({
         () => entry.entries[currentMediaIndex] || entry.entries[0],
         [entry.entries, currentMediaIndex],
     );
+
+    const pauseBGM = useAudioStore((state) => state.pauseBGM);
+    const playBGM = useAudioStore((state) => state.playBGM);
 
     const galleryItems = useMemo(
         () =>
@@ -108,13 +112,17 @@ const VideoArchiveViewer = ({
         }
     }, [isVideoType]);
 
-    const handleVideoThumbnailClick = useCallback((index: number) => {
-        setPlayingVideos((prev) => {
-            const newSet = new Set(prev);
-            newSet.add(index);
-            return newSet;
-        });
-    }, []);
+    const handleVideoThumbnailClick = useCallback(
+        (index: number) => {
+            setPlayingVideos((prev) => {
+                const newSet = new Set(prev);
+                newSet.add(index);
+                return newSet;
+            });
+            pauseBGM();
+        },
+        [pauseBGM],
+    );
 
     const handleLightboxClose = useCallback(() => {
         setIsLightboxOpen(false);
@@ -129,6 +137,14 @@ const VideoArchiveViewer = ({
             swiperRef.current.slideTo(currentMediaIndex);
         }
     }, [currentMediaIndex]);
+
+    // Stop videos and resume BGM when component unmounts
+    useEffect(() => {
+        return () => {
+            setPlayingVideos(new Set());
+            playBGM();
+        };
+    }, [playBGM]);
 
     const handleSlideChange = (swiper: SwiperType) => {
         setCurrentMediaIndex(swiper.activeIndex);
