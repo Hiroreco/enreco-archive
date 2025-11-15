@@ -6,13 +6,11 @@ Gripping her belly, the maiden of feather and blue watches as the former father 
 
 _ahhh...has she forgotten me...? Of the bond that we shared? Of that night... when hands were held...and life was created?_
 
-Pain throbs against her bosom. "What is this feeling? Like a thousand needles prick at my heart endlessly.
+Pain throbs against her bosom. _What is this feeling? Like a thousand needles prick at my heart endlessly._
 
 _Why is the lady of flame and blood looking at her like that? Oh how I wish I was the Wench of souls and death. I see how my lady looks at her...she used to look at me like that..._
 
-A soft breeze passes by and the maiden of feather and blue catches a scent...HER scent...it is that of the lady of flame and blood that stands before her, unaware of her presence. As her eyes fill with tears
-
-She begins to turn away, given up all hope from that which she has lost.
+A soft breeze passes by and the maiden of feather and blue catches a scent...HER scent...it is that of the lady of flame and blood that stands before her, unaware of her presence. As her eyes fill with tears she begins to turn away, given up all hope from that which she has lost.
 
 "wait" she hears a voice behind her.
 
@@ -22,9 +20,9 @@ As she turns back, her eyes grow wide as she looks upon the lady of flame and bl
 
 The lady of flame and blood suddenly charges at the maiden of feather and blue, pinning her against the wall.
 
-Cheeks flushed pink, she slowly gazes into the eyes of the lady of blood and flame, Istaring intently at her...
+Cheeks flushed pink, she slowly gazes into the eyes of the lady of blood and flame, staring intently at her...
 
-"s....suck.."
+"s...suck..."
 
 "suck...?" the maiden's blush grows
 
