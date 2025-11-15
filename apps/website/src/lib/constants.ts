@@ -8,6 +8,7 @@ export const LS_KEYS = {
     EASTER_EGG_STORAGE_KEY: "enreco-easter-egg-states",
     HAS_VISITED_GLOSSARY: "has-visited-glossary",
     HAS_VISITED_TRANSLATION_DISCLAIMER: "has-visited-translation-disclaimer",
+    NO_TRANSLATION_YET: "no-translation-yet",
     CURRENT_VERSION_KEY: "enreco-current-version",
-    CURRENT_VERSION: "2025-10-12", // Update this every announcement release
+    CURRENT_VERSION: "2025-11-15", // Update this every announcement release
 };

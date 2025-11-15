@@ -98,7 +98,7 @@ const CollapsibleHeader = ({
 }: CollapsibleHeaderProps) => {
     const t = useTranslations("modals.art");
     return (
-        <div className="relative">
+        <div className="relative md:hidden">
             <div
                 className={cn(
                     "overflow-hidden transition-all duration-300 ease-in-out",
@@ -106,7 +106,7 @@ const CollapsibleHeader = ({
                 )}
             >
                 <div className="pb-4">
-                    <DialogHeader className="space-y-0 mb-4">
+                    <DialogHeader className="space-y-0">
                         <DialogTitle>
                             <div className="w-full justify-center md:justify-normal mx-auto md:mx-0 flex gap-2 items-center">
                                 <PinButton

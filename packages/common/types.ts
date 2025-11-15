@@ -23,13 +23,23 @@ export type SiteData = {
     };
 };
 
+export type TextEntry = {
+    id: string;
+    content: string;
+    title: string;
+    hasAudio?: boolean;
+};
+
+export type TextGroup = {
+    chapter: number;
+    category: string;
+    title: string;
+    description: string;
+    entries: TextEntry[];
+};
+
 export type TextData = {
-    [key: string]: {
-        content: string;
-        title: string;
-        category: string;
-        hasAudio?: boolean; // Add this field
-    };
+    [key: string]: TextGroup;
 };
 
 // Add new type for text audio state
@@ -202,3 +212,5 @@ export type EasterEggState = {
     currentSoundIndex: number;
     playedSounds: Set<number>;
 };
+
+export type MediaType = "video" | "image" | "youtube";

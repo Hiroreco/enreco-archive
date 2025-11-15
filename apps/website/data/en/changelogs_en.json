@@ -1,10 +1,10 @@
 [
   {
-    "date": "2025-10-12",
-    "content": "## ✏️ QoL Improvements\r\n\r\n_October 12, 2025_\r\n\r\n- Added **“Previous Day”** and **“Next Day”** buttons to the end of each card\r\n- Smoothed transitions when switching between daily recaps\r\n- Introduced a setting to open timestamps in new tabs\r\n- Introduced the option to sort fanart by post dates\r\n- Introduced a special filter for **\"Bloodraven\"** related fanworks.\r\n- Updated some translation, added more fanart.\r\n"
+    "date": "2025-11-15",
+    "content": "## ✨Media Archive\r\n\r\n_November 15, 2025_\r\n\r\n### Archiving Everything!\r\n\r\nA new tab has been added featuring three sections:\r\n\r\n- **🔍Media Archive:** Stores all official ENreco media in one place—no more endless searching.\r\n- **🎬Clips Archive:** A curated collection of fan-made clips, organized by oshi for easy browsing.\r\n- **📝Text Archive:** Contains written works from talents, lore entries, and your favorite—fanfics.\r\n\r\n### Other Improvements\r\n\r\n- Redesigned fanart gallery with a cleaner, more intuitive layout.\r\n- Added a small pop-up that shows what song is currently playing.\r\n- Updated Justice members' icons\r\n- Improved mobile layout and text readbility\r\n"
   },
   {
-    "date": "2025-09-13",
-    "content": "## 🌏 Japanese Support\r\n\r\n_September 13, 2025_\r\n\r\n### 🈶 Nihongo Jouzu\r\n\r\n- The site now fully supports Japanese, with all content available in translation.\r\n- You can switch languages via **Settings → Language** or directly in the **Info Modal**.\r\n\r\n### 📝 Feedback Form\r\n\r\n- The ENreco Archive now includes a feedback form where you can share your questions or suggestions about the archive. Check it out [here](https://docs.google.com/forms/u/1/d/e/1FAIpQLSfiGd4FwosNnW2W8JdB8th0482LZMASbUnoNsAMPERxN7yZmw/viewform?usp=dialog).\r\n- You can also find the form in the **General** tab of the Info Modal.\r\n\r\n### 🔧 Other Changes\r\n\r\n- Added a mode to display _only_ selected characters in the fanart gallery.\r\n- Added icons to settings for better clarity.\r\n- Fixed Bijou’s Day 6 journal not displaying.\r\n- Fixed gallery images defaulting to the first image when opened.\r\n- Fixed navigation bug where selecting a node within an edge card led to the wrong day.\r\n- Updated Libestal Gallery's characters filter UI for mobile.\r\n"
+    "date": "2025-10-12",
+    "content": "## ✏️ QoL Improvements\r\n\r\n_October 12, 2025_\r\n\r\n- Added **“Previous Day”** and **“Next Day”** buttons to the end of each card\r\n- Smoothed transitions when switching between daily recaps\r\n- Introduced a setting to open timestamps in new tabs\r\n- Introduced the option to sort fanart by post dates\r\n- Introduced a special filter for **\"Bloodraven\"** related fanworks.\r\n- Updated some translation, added more fanart.\r\n"
   }
 ]

@@ -1,444 +1,513 @@
 {
-  "modals": {
-    "settings": {
-        "title": "Settings",
-        "description": "Change the settings of the application",
-        "backgroundMusic": "Background Music",
-        "soundEffects": "Sound Effects",
-        "showRecapOnDayChange": "Show Recap On Day Change",
-        "autoPanBackOnClose": "Auto Pan Back On Close",
-        "backdropFilter": "Backdrop Filter",
-        "appTheme": "App Theme",
-        "fontSize": "Font Size",
-        "language": "Language",
-        "blur": "Blur",
-        "clear": "Clear",
-        "system": "System",
-        "light": "Light",
-        "dark": "Dark",
-        "small": "Small",
-        "medium": "Medium",
-        "large": "Large",
-        "extraLarge": "Extra Large",
-        "english": "English",
-        "japanese": "日本語",
-        "embedType": "Open Timestamps with",
-        "card": "Card",
-        "external": "Youtube"
-      },
-    "readStatus": {
-      "readCount": "{count}/{total} Read",
-      "title": "Read Status",
-      "markAllRead": "Mark All as Read",
-      "markAllUnread": "Mark All as Unread",
-      "characters": "Characters",
-      "relationships": "Relationships"
-    },
-    "infoTabs": {
-      "general": "General",
-      "guide": "Guide",
-      "credits": "Credits"
-    },
-    "infoGeneral": {
-      "title": "ENreco Archive",
-      "updatedOn": "Updated on {date}",
-      "changelog": "(Changelog)",
-      "daysSinceLastEpisode": "Days since last episode:",
-      "daysUntilNextChapter": "Days until next chapter:",
-      "noInfo": "No info",
-      "welcome": "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of {series}.",
-      "series": "ENigmatic Recollection",
-      "description": "From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
-      "whatIsTitle": "What is ENigmatic Recollection?",
-      "whatIsIntro": "ENigmatic Recollection, or <bold>{shortName}</bold> for short, is:",
-      "shortName": "ENreco",
-      "officialDescription": "A collection of stories in which the members of hololive English play a part. Through streams, animations, and songs wrought anew, immerse yourself in fresh narratives woven from myriad realms beyond.",
-      "source": "(Source)",
-      "explanation": "In short, ENreco is where our favorite Hololive English talents come together, interact, and create stories through roleplay. The series is split into different chapters, each focusing on a specific Hololive English generation, with its own unique setting and lore.",
-      "notesTitle": "Notes",
-      "notesContent": "Since this project aims to provide a concise recap of the stories, some details may be missed or not included. For the full experience, you can:",
-      "watchStreams": "Watch the talents' streams directly",
-      "checkClips": "Check out clips and well-made episodic compilations, such as those by <clipper-link>{clipper}</clipper-link>",
-      "clipperName": "Boubon Clipper Ch.",
-      "teamInfo": "The site is constantly updating as new stories unfold, and we'd gladly welcome any help along the way! If you have any questions or are interested in joining the team, feel free to reach out to Hiro via <twitter-link>{twitter}</twitter-link> or send an email to <mail-link>{email}.</mail-link>",
-      "twitterHandle": "@hiroavrs (X/Twitter)",
-      "email": "contacthiroreco@gmail.com",
-      "nextSection": "With that out of the way, feel free to move on to the next section to learn how to navigate the archive!",
-      "performanceNote": "Note: If you experience major lag when using the site, try switching to a Chromium-based browser (like Chrome, Opera, or Edge).",
-      "guidelinesTitle": "Guidelines",
-      "guidelinesContent": "This is a non-profit fan project and is not affiliated with COVER Corp. nor Mojang. The site uses music taken from the talents' streams, as well as sound effects and assets from Minecraft, following <cover-link>{coverGuidelines}</cover-link> and <minecraft-link>{minecraftGuidelines}.</minecraft-link>",
-      "coverGuidelines": "COVER's Derivative Works Guidelines",
-      "minecraftGuidelines": "Minecraft Usage Guidelines",
-      "feedbackNote": "For any feedback or to report issues, please use this link here",
-      "feedbackLabel": "ENreco Archive Feedback Form"
-    },
-    "infoGuide": {
-      "title": "How to Use ENreco Archive",
-      "inspiration": "The concept for this site was inspired by the relationship charts created by <link>stemotology and sunkissedrhodo</link>, but with an added interactive element. However, note that the charts here differ from the originals.",
-      "generalTitle": "General",
-      "navigation": "You can navigate through each day and chapter using the controls at the bottom of the screen, and the chart will update accordingly.",
-      "interaction": "Clicking on a character or relationship will bring up a card containing information about them on that specific day. If a node or edge is dimmed, it means there were no updates on that day. You can zoom in and out using the mouse wheel or trackpad as well.",
-      "contentFormat": "The content is written in a storytelling format and includes special links, which are color-coded for different actions:",
-      "timestamps": "<bold>Timestamps:</bold> Opens a <timestamp>timestamp</timestamp> (the corresponding section from the original stream where the event took place) in a card for you to watch, just look for the blue text (both small and big). It is recommended to watch only the duration described by the label to avoid spoilers.",
-      "linkers": "<bold>Linkers:</bold> Clicking on a colored segment like <linker>Raora-Tam: Say My Name</linker> will directly open the referenced card. This helps you avoid needing to search for the card manually.",
-      "texts": "<bold>Texts <icon></icon>:</bold> These are writings made by either the talents or within the journey itself. Clicking on them will open a card containing the text, which can be read in full.",
-      "fanworks": "You can also occasionally find links to fanworks such as art, music, or animation at the end of each card.",
-      "readMarkersTitle": "Read Markers",
-      "readMarkers": "To help you keep track of your progress, there are read markers at the end of each card. To have an overall view of which cards you have read, click the counter at the top to open the <em>Read Status</em> tab.",
-      "readingOrderTitle": "Reading Order",
-      "dayRecap": "Each day also has its own <em>\"Day Recap,\"</em> which summarizes the events of that day. This opens automatically when you switch days, but you can also manually open it via the icon in the top right corner. From there, you can also toggle the visibility of relationships and characters.",
-      "recommendedOrder": "For a smooth reading experience, we recommend following this order:",
-      "orderSequence": "Day Recap → Character → Relationship",
-      "freeExploration": "However, feel free to explore the cards in any order you like.",
-      "glossaryTitle": "Glossary",
-      "glossaryDescription": "Located in the <em>Glossary Tab</em> in the upper left corner, this collection of entries provides detailed information on revelations, characters, locations, quests, and more. It serves as a resource for understanding topics referenced throughout the site.",
-      "chapterRecapsTitle": "Chapter Recaps",
-      "chapterRecapsDescription": "A general overview of the entirety of each chapter can be accessed via the <em>Chapter Recaps Tab</em>. This includes summaries of the main events, character arcs, and relationships that defined the story of the journey.",
-      "settingsTitle": "Settings",
-      "settingsDescription": "You can customize various aspects of your experience in the <em>Settings Tab</em>, including music volume, timestamp preferences, and other miscellaneous options.",
-      "minigamesTitle": "Minigames",
-      "minigamesDescription": "A selection of minigames from the series has been recreated and can be played in the <em>Minigames Tab</em>—including the infamous Color Cannon minigame.",
-      "jukeboxTitle": "Jukebox",
-      "jukeboxDescription": "The jukebox features a collection of music used in ENreco, including tracks from the game itself as well as those used by the talents and made by fans.",
-      "galleryTitle": "Libestal Gallery",
-      "galleryDescription": "You can explore all the incredible fanart created by the community during the event in the <em>Libestal Gallery tab</em>, organized by characters, chapters, and days.",
-      "easterEggsTitle": "Easter Eggs",
-      "easterEggsDescription": "Hidden throughout the site are easter eggs—little nods to silly moments or tributes to certain members. These are interactive, so keep an eye out for surprises! Many of them have multiple variations, so try clicking more than once!",
-      "conclusion": "That's about it! We hope you enjoy your stay on this enigmatic journey!"
-    },
-    "infoCredits": {
-      "title": "Credits",
-      "specialThanks": "Special Thanks",
-      "specialThanksDiscord": "To everyone at the ENigmatic Recollection Lore Discord Server for providing additional resources and emotional support, as well as to the artists featured in the Fanart Gallery for granting us permission to use their work in this project. All artworks and their creators are properly credited and can be found in that section.",
-      "specialThanksLyger": "To <link>lyger</link>, the official scenario writer for ENigmatic Recollection, for assisting with the proofreading of all lore-related content and offering invaluable feedback for the site.",
-      "roles": {
-        "Project Lead": "Project Lead",
-        "Main Developer": "Main Developer",
-        "Translation Assistant": "Translation Assistant",
-        "Site Graphics": "Site Graphics",
-        "Special Assets": "Special Assets",
-        "Quality Assurance": "Quality Assurance",
-        "Archive Writer": "Archive Writer",
-        "Archive Assistant": "Archive Assistant",
-        "Translator": "Translator"
-      }
-    },
-    "minigames": {
-        "title": "Minigames",
-        "description": "Play minigames from the story",
-        "games": {
-          "gambling": {
-            "label": "Color Cannon (Chapter 1)",
-            "intro": "The most frequently visited minigame—or rather, venue—of Chapter One was undoubtedly the <bold>Amber Coin Casino</bold> <icon></icon>, where everyone could indulge in their favorite pastime: gambling.",
-            "rules": "The casino's signature minigame functions like a roulette of sorts. A board displays four different colors, each occupying a set number of squares with a corresponding multiplier:",
-            "blueSquares": "<color>Blue:</color> 12 squares, 2x multiplier",
-            "greenSquares": "<color>Green:</color> 8 squares, 3x multiplier", 
-            "yellowSquares": "<color>Yellow:</color> 4 squares, 5x multiplier",
-            "redSquares": "<color>Red:</color> 1 square, 10x multiplier",
-            "gameplay": "Players can choose how much to bet on each color. Once the game begins, colors are eliminated one by one, slowly whittling down the board—until only one remained.",
-            "winning": "Whoever bets on the final color would receive their wager multiplied accordingly.",
-            "timestampCaption": "Let's go gambling!",
-            "currentBudget": "Current Budget",
-            "personalRecord": "Personal Record",
-            "chooseColor": "Choose Color",
-            "betAmount": "Bet Amount",
-            "lockIn": "Lock In",
-            "rolling": "Rolling",
-            "outOfMoney": "Out of Money"
-          },
-          "memory": {
-            "label": "Mind's Eye (Chapter 1)",
-            "intro": "<bold>The Scarlet Wand <icon></icon>'s Memory Game</bold> was introduced on Day 7 of the journey. As its name suggests, its main purpose is to test the memory of our heroes.",
-            "gameplay": "Upon starting the game, each round presents a white board where a number of squares light up in one of four colors—red, green, blue, or yellow. After about two seconds, the colors vanish, and the player must recreate the original pattern.",
-            "scoring": "If they get it right, their score increases, and the difficulty ramps up, presenting a more complex pattern. If they get it wrong, they lose points, and the difficulty decreases.",
-            "multiplayer": "The game continues until the 60-second timer runs out. Up to four players can compete at the same time, and whoever has the highest score at the end earns bragging rights.",
-            "timestampCaption": "May the biggest brain win!",
-            "chooseColor":"Choose Color",
-            "score": "Score",
-            "personalBest": "Personal Best",
-            "start": "Start",
-            "stop": "Stop"
-          },
-          "chicken": {
-            "label": "Chicken Rescue (Chapter 1)",
-            "intro": "Just like the Scarlet Wand, the Cerulean Cup <icon></icon> launched their own minigame on Day 7. As representatives of empathy, they designed a game that would help spread that very value: <bold>Catching Chickens</bold>.",
-            "gameplay": "As the name suggests, the goal is simple—catch chickens… but empathetically. Players are presented with a board where chickens continuously spawn from the top and slowly fall downward. The objective? Move your basket horizontally along the bottom and catch as many falling chickens as possible within the time limit.",
-            "simple": "That's it. Simple and fun.",
-            "timestampCaption": "Spreading empathy through chickens",
-            "score": "Score",
-            "highScore": "High Score",
-            "start": "Start",
-            "stop": "Stop"
-          },
-          "shiori": {
-            "label": "Commission Shiori (Chapter 2)",
-            "intro": "Throughout the second chapter, true to her role as the Archiver, <bold>Shiori</bold> had written a variety of fanfics and memory pieces as commissions. These ranged from romantic and questionable tales, to NSFW content, as well as more serious reflections on past comrades.",
-            "options": "If you're curious about exploring Shiori's collection, which includes books written by her as well as others, you have two options: follow her journey (as well as others') day by day, or correctly answer 10 questions here to unlock her full archive.",
-            "challenge": "Let's see how well you really know Shiorin.",
-            "timestampCaption": "Getting freaky with Fanfics",
-            "unlockShioriStash": "Unlock Shiori's Stash",
-            "question": "Question",
-            "submit": "Submit",
-            "yourAnswer": "Your Answer",
-            "shioriStash": "Shiori Nyavella's Stash",
-            "wrongAnswer": "Wrong Answer! Try again."
-          }
+    "modals": {
+        "settings": {
+            "title": "Settings",
+            "description": "Change the settings of the application",
+            "backgroundMusic": "Background Music",
+            "soundEffects": "Sound Effects",
+            "showRecapOnDayChange": "Show Recap On Day Change",
+            "autoPanBackOnClose": "Auto Pan Back On Close",
+            "backdropFilter": "Backdrop Filter",
+            "appTheme": "App Theme",
+            "fontSize": "Font Size",
+            "language": "Language",
+            "blur": "Blur",
+            "clear": "Clear",
+            "system": "System",
+            "light": "Light",
+            "dark": "Dark",
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large",
+            "extraLarge": "Extra Large",
+            "english": "English",
+            "japanese": "日本語",
+            "embedType": "Open YT videos with",
+            "card": "Card",
+            "external": "Youtube"
+        },
+        "readStatus": {
+            "readCount": "{count}/{total} Read",
+            "title": "Read Status",
+            "markAllRead": "Mark All as Read",
+            "markAllUnread": "Mark All as Unread",
+            "characters": "Characters",
+            "relationships": "Relationships"
+        },
+        "infoTabs": {
+            "general": "General",
+            "guide": "Guide",
+            "credits": "Credits"
+        },
+        "infoGeneral": {
+            "title": "ENreco Archive",
+            "updatedOn": "Updated on {date}",
+            "changelog": "(Changelog)",
+            "daysSinceLastEpisode": "Days since last episode:",
+            "daysUntilNextChapter": "Days until next chapter:",
+            "noInfo": "No info",
+            "welcome": "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of {series}.",
+            "series": "ENigmatic Recollection",
+            "description": "From daily recaps and character relationships to major storylines that shaped the entire narrative, everything is compiled into byte-sized cards with timestamps—perfect for those looking to catch up on the series or simply relive their favorite moments.",
+            "whatIsTitle": "What is ENigmatic Recollection?",
+            "whatIsIntro": "ENigmatic Recollection, or <bold>{shortName}</bold> for short, is:",
+            "shortName": "ENreco",
+            "officialDescription": "A collection of stories in which the members of hololive English play a part. Through streams, animations, and songs wrought anew, immerse yourself in fresh narratives woven from myriad realms beyond.",
+            "source": "(Source)",
+            "explanation": "In short, ENreco is where our favorite Hololive English talents come together, interact, and create stories through roleplay. The series is split into different chapters, each focusing on a specific Hololive English generation, with its own unique setting and lore.",
+            "notesTitle": "Notes",
+            "notesContent": "Since this project aims to provide a concise recap of the stories, some details may be missed or not included. For the full experience, you can:",
+            "watchStreams": "Watch the talents' streams directly",
+            "checkClips": "Check out clips and well-made episodic compilations, such as those by <clipper-link>{clipper}</clipper-link>",
+            "clipperName": "Boubon Clipper Ch.",
+            "teamInfo": "The site is constantly updating as new stories unfold, and we'd gladly welcome any help along the way! If you have any questions or are interested in joining the team, feel free to reach out to Hiro via <twitter-link>{twitter}</twitter-link> or send an email to <mail-link>{email}.</mail-link>",
+            "twitterHandle": "@hiroavrs (X/Twitter)",
+            "email": "contacthiroreco@gmail.com",
+            "nextSection": "With that out of the way, feel free to move on to the next section to learn how to navigate the archive!",
+            "performanceNote": "Note: If you experience major lag when using the site, try switching to a Chromium-based browser (like Chrome, Opera, or Edge).",
+            "guidelinesTitle": "Guidelines",
+            "guidelinesContent": "This is a non-profit fan project and is not affiliated with COVER Corp. nor Mojang. The site uses music taken from the talents' streams, as well as sound effects and assets from Minecraft, following <cover-link>{coverGuidelines}</cover-link> and <minecraft-link>{minecraftGuidelines}.</minecraft-link>",
+            "coverGuidelines": "COVER's Derivative Works Guidelines",
+            "minecraftGuidelines": "Minecraft Usage Guidelines",
+            "feedbackNote": "For any feedback or to report issues, please use this link here",
+            "feedbackLabel": "ENreco Archive Feedback Form"
+        },
+        "infoGuide": {
+            "title": "How to Use ENreco Archive",
+            "inspiration": "The concept for this site was inspired by the relationship charts created by <link>stemotology and sunkissedrhodo</link>, but with an added interactive element. However, note that the charts here differ from the originals.",
+            "generalTitle": "General",
+            "navigation": "You can navigate through each day and chapter using the controls at the bottom of the screen, and the chart will update accordingly.",
+            "interaction": "Clicking on a character or relationship will bring up a card containing information about them on that specific day. If a node or edge is dimmed, it means there were no updates on that day. You can zoom in and out using the mouse wheel or trackpad as well.",
+            "contentFormat": "The content is written in a storytelling format and includes special links, which are color-coded for different actions:",
+            "timestamps": "<bold>Timestamps:</bold> Opens a <timestamp>timestamp</timestamp> (the corresponding section from the original stream where the event took place) in a card for you to watch, just look for the blue text (both small and big). It is recommended to watch only the duration described by the label to avoid spoilers.",
+            "linkers": "<bold>Linkers:</bold> Clicking on a colored segment like <linker>Raora-Tam: Say My Name</linker> will directly open the referenced card. This helps you avoid needing to search for the card manually.",
+            "texts": "<bold>Texts <icon></icon>:</bold> These are writings made by either the talents or within the journey itself. Clicking on them will open a card containing the text, which can be read in full.",
+            "fanworks": "You can also occasionally find links to fanworks such as art, music, or animation at the end of each card.",
+            "readMarkersTitle": "Read Markers",
+            "readMarkers": "To help you keep track of your progress, there are read markers at the end of each card. To have an overall view of which cards you have read, click the counter at the top to open the <em>Read Status</em> tab.",
+            "readingOrderTitle": "Reading Order",
+            "dayRecap": "Each day also has its own <em>\"Day Recap,\"</em> which summarizes the events of that day. This opens automatically when you switch days, but you can also manually open it via the icon in the top right corner. From there, you can also toggle the visibility of relationships and characters.",
+            "recommendedOrder": "For a smooth reading experience, we recommend following this order:",
+            "orderSequence": "Day Recap → Character → Relationship",
+            "freeExploration": "However, feel free to explore the cards in any order you like.",
+            "otherFeaturesTitle": "Other Features",
+            "otherFeatures": "Aside from the main relationship chart, there are several other features such as a jukebox for music, a gallery for fanart, and many more. You can access these these via the navigation buttons on the left and right sides of the screen.",
+            "conclusion": "That's about it! We hope you enjoy your stay on this enigmatic journey!"
+        },
+        "infoCredits": {
+            "title": "Credits",
+            "specialThanks": "Special Thanks",
+            "specialThanksDiscord": "To everyone at the ENigmatic Recollection Lore Discord Server for providing additional resources and emotional support, as well as to the artists featured in the Fanart Gallery for granting us permission to use their work in this project. All artworks and their creators are properly credited and can be found in that section.",
+            "specialThanksLyger": "To <link>lyger</link>, the official scenario writer for ENigmatic Recollection, for assisting with the proofreading of all lore-related content and offering invaluable feedback for the site.",
+            "roles": {
+                "Project Lead": "Project Lead",
+                "Main Developer": "Main Developer",
+                "Translation Assistant": "Translation Assistant",
+                "Site Graphics": "Site Graphics",
+                "Special Assets": "Special Assets",
+                "Quality Assurance": "Quality Assurance",
+                "Archive Writer": "Archive Writer",
+                "Archive Assistant": "Archive Assistant",
+                "Translator": "Translator"
+            }
+        },
+        "minigames": {
+            "title": "Minigames",
+            "description": "Play minigames from the story",
+            "games": {
+                "gambling": {
+                    "label": "Color Cannon (Chapter 1)",
+                    "intro": "The most frequently visited minigame—or rather, venue—of Chapter One was undoubtedly the <bold>Amber Coin Casino</bold> <icon></icon>, where everyone could indulge in their favorite pastime: gambling.",
+                    "rules": "The casino's signature minigame functions like a roulette of sorts. A board displays four different colors, each occupying a set number of squares with a corresponding multiplier:",
+                    "blueSquares": "<color>Blue:</color> 12 squares, 2x multiplier",
+                    "greenSquares": "<color>Green:</color> 8 squares, 3x multiplier",
+                    "yellowSquares": "<color>Yellow:</color> 4 squares, 5x multiplier",
+                    "redSquares": "<color>Red:</color> 1 square, 10x multiplier",
+                    "gameplay": "Players can choose how much to bet on each color. Once the game begins, colors are eliminated one by one, slowly whittling down the board—until only one remained.",
+                    "winning": "Whoever bets on the final color would receive their wager multiplied accordingly.",
+                    "timestampCaption": "Let's go gambling!",
+                    "currentBudget": "Current Budget",
+                    "personalRecord": "Personal Record",
+                    "chooseColor": "Choose Color",
+                    "betAmount": "Bet Amount",
+                    "lockIn": "Lock In",
+                    "rolling": "Rolling",
+                    "outOfMoney": "Out of Money"
+                },
+                "memory": {
+                    "label": "Mind's Eye (Chapter 1)",
+                    "intro": "<bold>The Scarlet Wand <icon></icon>'s Memory Game</bold> was introduced on Day 7 of the journey. As its name suggests, its main purpose is to test the memory of our heroes.",
+                    "gameplay": "Upon starting the game, each round presents a white board where a number of squares light up in one of four colors—red, green, blue, or yellow. After about two seconds, the colors vanish, and the player must recreate the original pattern.",
+                    "scoring": "If they get it right, their score increases, and the difficulty ramps up, presenting a more complex pattern. If they get it wrong, they lose points, and the difficulty decreases.",
+                    "multiplayer": "The game continues until the 60-second timer runs out. Up to four players can compete at the same time, and whoever has the highest score at the end earns bragging rights.",
+                    "timestampCaption": "May the biggest brain win!",
+                    "chooseColor": "Choose Color",
+                    "score": "Score",
+                    "personalBest": "Personal Best",
+                    "start": "Start",
+                    "stop": "Stop"
+                },
+                "chicken": {
+                    "label": "Chicken Rescue (Chapter 1)",
+                    "intro": "Just like the Scarlet Wand, the Cerulean Cup <icon></icon> launched their own minigame on Day 7. As representatives of empathy, they designed a game that would help spread that very value: <bold>Catching Chickens</bold>.",
+                    "gameplay": "As the name suggests, the goal is simple—catch chickens… but empathetically. Players are presented with a board where chickens continuously spawn from the top and slowly fall downward. The objective? Move your basket horizontally along the bottom and catch as many falling chickens as possible within the time limit.",
+                    "simple": "That's it. Simple and fun.",
+                    "timestampCaption": "Spreading empathy through chickens",
+                    "score": "Score",
+                    "highScore": "High Score",
+                    "start": "Start",
+                    "stop": "Stop"
+                },
+                "shiori": {
+                    "label": "Commission Shiori (Chapter 2)",
+                    "intro": "Throughout the second chapter, true to her role as the Archiver, <bold>Shiori</bold> had written a variety of fanfics and memory pieces as commissions. These ranged from romantic and questionable tales, to NSFW content, as well as more serious reflections on past comrades.",
+                    "options": "If you're curious about exploring Shiori's collection, which includes books written by her as well as others, you have two options: follow her journey (as well as others') day by day, or correctly answer 10 questions here to unlock her full archive.",
+                    "challenge": "Let's see how well you really know Shiorin.",
+                    "timestampCaption": "Getting freaky with Fanfics",
+                    "unlockShioriStash": "Unlock Shiori's Stash",
+                    "question": "Question",
+                    "submit": "Submit",
+                    "yourAnswer": "Your Answer",
+                    "shioriStash": "Shiori Nyavella's Stash",
+                    "wrongAnswer": "Wrong Answer! Try again."
+                }
+            }
+        },
+        "text": {
+            "playAudio": "Play Audio",
+            "stopAudio": "Stop playing audio",
+            "description": "Description"
+        },
+        "music": {
+            "controls": {
+                "noTrackSelected": "No track selected",
+                "title": "ENreco Archive Jukebox",
+                "shuffle": {
+                    "on": "Turn on shuffle",
+                    "off": "Turn off shuffle"
+                },
+                "loopWithin": {
+                    "on": "Loop within category",
+                    "off": "Turn off loop within category"
+                },
+                "nextTrack": "Next track",
+                "previousTrack": "Previous track",
+                "play": "Play",
+                "pause": "Pause",
+                "repeatCurrentTrack": {
+                    "on": "Repeat current track",
+                    "off": "Turn off repeat current track"
+                }
+            },
+            "categories": {
+                "enreco": "Official Themes",
+                "ingame": "In-game Music",
+                "stream": "Talent-used Music",
+                "talent": "Hero Themes",
+                "special": "Special"
+            }
+        },
+        "art": {
+            "title": "Libestal Gallery",
+            "character": "Character",
+            "chapter": "Chapter",
+            "day": "Day",
+            "videosOnly": "Videos Only",
+            "inclusiveModes": {
+                "include": "Include",
+                "showAll": {
+                    "label": "All",
+                    "description": "Show all artworks that match any of the selected characters"
+                },
+                "hasAny": {
+                    "label": "Any",
+                    "description": "Show artworks that include all the selected characters"
+                },
+                "hasOnly": {
+                    "label": "Only",
+                    "description": "Show artworks that include only the selected characters"
+                }
+            },
+            "sortModes": {
+                "sort": "Sort",
+                "game-date": {
+                    "label": "In-game",
+                    "description": "Sort by chapter and day"
+                },
+                "date": {
+                    "label": "Date",
+                    "description": "Sort by post date (newest first)"
+                }
+            },
+            "memes": "DNA of the Soul",
+            "reset": "Reset Filters",
+            "shuffle": {
+                "on": "Shuffle",
+                "off": "Unshuffle"
+            },
+            "charFilter": {
+                "all": "All",
+                "various": "Various",
+                "bloodraven": "Bloodraven"
+            },
+            "lightbox": {
+                "relatedTo": "Related to events on Day {day}, Chapter {chapter}"
+            },
+            "items": "{val} Items",
+            "card": {
+                "chapterDay": "Ch. {chapter} Day {day}",
+                "by": "by {author}",
+                "video": "Video"
+            },
+            "header": {
+                "pin": {
+                    "off": "Unpin header (auto-collapse on scroll)",
+                    "on": "Pin header (always visible)",
+                    "showFilters": "Show filters"
+                }
+            }
+        },
+        "changelog": {
+            "title": "Changelog",
+            "description": "Here are the latest changes to the Archive",
+            "seeAllLogs": "See all changelogs <link>here</link>",
+            "forQuestions": "For questions or to report issues, contact <link>@hiroavrs</link>"
         }
     },
-    "text": {
-      "playAudio": "Play Audio",
-      "stopAudio": "Stop playing audio"
+    "cards": {
+        "nodeCard": {
+            "readTooltip": "This card has been read",
+            "guild": "Guild",
+            "job": "Job",
+            "team": "Team",
+            "status": "Status",
+            "noContent": "No content available"
+        },
+        "edgeCard": {
+            "relationship": "Relationship"
+        },
+        "dayCard": {
+            "summary": "Summary",
+            "visibility": "Visibility",
+            "visibilityToggles": "Visibility Toggles",
+            "relationshipToggles": "Relationship Toggles",
+            "jobToggles": "Job Toggles",
+            "showAllJobs": "Show all jobs",
+            "teamToggles": "Team Toggles",
+            "showAllTeams": "Show all teams",
+            "showUpdatedEdgesOnly": "Show updated edges only",
+            "showAllEdges": "Show all edges",
+            "characterToggles": "Character Toggles",
+            "showAllCharacters": "Show all characters"
+        },
+        "prevDay": "Previous Day",
+        "nextDay": "Next Day"
     },
-    "music": {
-      "controls": {
-        "noTrackSelected": "No track selected",
-        "title": "ENreco Archive Jukebox",
-        "shuffle": {
-          "on": "Turn on shuffle",
-          "off": "Turn off shuffle"
-        },
-        "loopWithin": {
-          "on": "Loop within category",
-          "off": "Turn off loop within category"
-        },
-        "nextTrack": "Next track",
-        "previousTrack": "Previous track",
-        "play": "Play",
-        "pause": "Pause",
-        "repeatCurrentTrack": {
-          "on": "Repeat current track",
-          "off": "Turn off repeat current track"
-        }
-        
-      },
-      "categories": {
-          "enreco": "Official Themes",
-          "ingame": "In-game Music",
-          "stream": "Talent-used Music",
-          "talent": "Hero Themes",
-          "special": "Special"
-      }
+    "common": {
+        "close": "Close",
+        "markAsRead": "Mark as Read",
+        "day": "Day {val}",
+        "chapter": "Chapter {val}",
+        "allChapters": "All Chapters",
+        "section": "Section {val}",
+        "ok": "Got it!"
     },
-    "art": {
-      "title": "Libestal Gallery",
-      "character": "Character",
-      "chapter": "Chapter",
-      "day": "Day",
-      "videosOnly": "Videos Only",
-      "inclusiveModes": {
-        "include": "Include",
-        "showAll": {
-          "label": "All",
-          "description": "Show all artworks that match any of the selected characters"
-        },
-        "hasAny": {
-          "label": "Any",
-          "description": "Show artworks that include all the selected characters"
-        },
-        "hasOnly": {
-          "label": "Only",
-          "description": "Show artworks that include only the selected characters"
-        }
-      },
-      "sortModes": {
-        "sort": "Sort",
-        "default": {
-          "label": "Default",
-          "description": "Sort by chapter and day"
-        },
-        "date": {
-          "label": "Date",
-          "description": "Sort by post date (newest first)"
-        }
-      },
-      "memes": "DNA of the Soul",
-      "reset": "Reset Filters",
-      "shuffle": {
-        "on": "Shuffle",
-        "off": "Unshuffle"
-      },
-      "charFilter": {
-        "all": "All",
-        "various": "Various",
-        "bloodraven": "Bloodraven"
-      },
-      "lightbox": {
-        "relatedTo": "Related to events on Day {day}, Chapter {chapter}"
-      },
-      "items": "{val} Items",
-      "card": {
-        "chapterDay": "Ch. {chapter} Day {day}",
-        "by": "by {author}",
-        "video": "Video"
-      },
-      "header": {
-        "pin": {
-          "off": "Unpin header (auto-collapse on scroll)",
-          "on": "Pin header (always visible)",
-          "showFilters": "Show filters"
-        }
-      }
+    "navTooltips": {
+        "dayRecapVisibility": "Day Recap/Visibility",
+        "info": "Info",
+        "settings": "Settings",
+        "minigames": "Minigames",
+        "chapterRecap": "Chapter Recap",
+        "jukebox": "Jukebox",
+        "libestalGallery": "Libestal Gallery"
     },
-    "changelog": {
-      "title": "Changelog",
-      "description": "Here are the latest changes to the Archive",
-      "seeAllLogs": "See all changelogs <link>here</link>",
-      "forQuestions": "For questions or to report issues, contact <link>@hiroavrs</link>"
+    "constants": {
+        "Amber Coin": "Amber Coin",
+        "Scarlet Wand": "Scarlet Wand",
+        "Cerulean Cup": "Cerulean Cup",
+        "Jade Sword": "Jade Sword",
+        "Supplier": "Supplier",
+        "Chef": "Chef",
+        "Smith": "Smith",
+        "Jeweler": "Jeweler",
+        "None": "None",
+        "Alliance": "Alliance",
+        "Marriage": "Marriage",
+        "Protector": "Protector",
+        "Big Pink Cat": "Big Pink Cat",
+        "Enemy": "Enemy",
+        "Related": "Related",
+        "Backup Plan": "Backup Plan",
+        "Business": "Business",
+        "Unrequited Love": "Unrequited Love",
+        "Romantic": "Romantic",
+        "Family": "Family",
+        "No Longer Together": "No Longer Together",
+        "Dawg": "Dawg",
+        "It's Complicated": "It's Complicated",
+        "The Wolf Pack": "The Wolf Pack",
+        "Friends": "Friends",
+        "Knight": "Knight",
+        "Maid": "Maid",
+        "Guard Dog": "Guard Dog",
+        "Bros": "Bros",
+        "Same Person": "Same Person"
+    },
+    "loading": {
+        "clickToStart": "Click anywhere to start"
+    },
+    "glossary": {
+        "title": "Glossary",
+        "categories": {
+            "weapons": "Weapons",
+            "characters": "Characters",
+            "lore": "Lore",
+            "quests": "Quests",
+            "miscellaneous": "Miscellaneous"
+        },
+        "spoilers": {
+            "title": "Thou Shall Not Pass!",
+            "description": "Just a heads-up—this page has spoilers! If you haven’t experienced the story of ENigmatic Recollection yet, you might want to check it out first.",
+            "agree": "*By continuing you agree to not hold the ENreco Archive responsible for being spoiled.",
+            "ok": "Got it!"
+        },
+        "categoryInfo": {
+            "weapons": {
+                "description": "This category contains information about the weapons, known as Revelations, used by the heroes — including their abilities, appearances, and other related details.",
+                "credit": "All entry thumbnails and models in this category are by <link>Soleiss.</link>"
+            },
+            "characters": {
+                "description": "This category contains information about characters, their personalities, and their stories in each chapter.",
+                "credit": "All entry thumbnails in this category are by <link>DDOLBANG.</link>"
+            },
+            "lore": {
+                "description": "This category contains information about the story of ENigmatic Recollection, including both official in-universe lore and self-made stories created by the heroes.",
+                "note": "<bold>Note:</bold> Regarding the heroes' stories, only consistent and prevalent ones are included in this category."
+            },
+            "quests": {
+                "description": "This category contains information about the journey's quests, specifically the dungeons and missions required to advance the story."
+            },
+            "miscellaneous": {
+                "description": "This category contains information about miscellaneous topics in the ENreco universe, including its mechanics, special events, and other related details."
+            }
+        },
+        "subcategories": {
+            "revelations": "Revelations",
+            "npcs": "NPCs",
+            "general": "General",
+            "locations": "Locations",
+            "main-quests": "Main Quests",
+            "special-quests": "Special Quests",
+            "mechanics": "Mechanics",
+            "quests": "Quests",
+            "side-quests": "Side Quests",
+            "heroes-storylines": "Heroes' Storylines",
+            "heroes": "Heroes"
+        },
+        "filters": {
+            "allChapters": "All Chapters",
+            "chapter": "Chapter {number}"
+        },
+        "info": {
+            "generalInfo": "General Info",
+            "firstAppeared": "First Appeared",
+            "quote": "Quote"
+        },
+        "navigation": {
+            "previousEntry": "Previous entry (←)",
+            "nextEntry": "Next entry (→)",
+            "viewCategoryInfo": "View Category Info"
+        },
+        "empty": "Nothing here but us chickens"
+    },
+    "easter": {
+        "fauna": {
+            "rollState": {
+                "roll": "Roll",
+                "rolling": "Rolling"
+            }
+        }
+    },
+    "mediaArchive": {
+        "videoArchive": {
+            "title": "Media Archive",
+            "description": "A collection of official media, streams and memories",
+            "category": {
+                "official": "Official Media",
+                "talent-made": "Talent-made Media"
+            },
+            "viewSource": "View original source"
+        },
+        "tabs": {
+            "videos": "Media",
+            "clips": "Clips",
+            "texts": "Texts"
+        },
+        "clipArchive": {
+            "title": "Clip Archive",
+            "description": "A collection of notable clips from the ENreco streams",
+            "searchPlaceholder": "Search clips...",
+            "categories": "Categories",
+            "tabs": {
+                "streams": "Streams",
+                "clips": "Clips"
+            },
+            "noResults": "Nothing here but us chickens...",
+            "category": {
+                "all": "All",
+                "highlight": "Highlights",
+                "animatics": "Nerissa's Stash",
+                "gura": "Gawr Gura",
+                "calli": "Mori Calliope",
+                "ame": "Amelia Watson",
+                "kiara": "Takanashi Kiara",
+                "ina": "Ninomae Ina'nis",
+                "irys": "IRyS",
+                "bae": "Hakos Baelz",
+                "kronii": "Ouro Kronii",
+                "fauna": "Ceres Fauna",
+                "moom": "Nanashi Mumei",
+                "nerissa": "Nerissa Ravencroft",
+                "shiori": "Shiori Nyavella",
+                "bijou": "Koseki Bijou",
+                "fuwawa": "Fuwawa Abyssguard",
+                "mococo": "Mococo Abyssguard",
+                "cecilia": "Cecilia Immergreen",
+                "liz": "Elizabeth Rose Bloodflame",
+                "raora": "Raora Panthera",
+                "gigi": "Gonathon G"
+            }
+        },
+        "textArchive": {
+            "title": "Text Archive",
+            "tabs": {
+                "texts": "Texts",
+                "fanfics": "Fanfics"
+            },
+            "description": "A collection of notable writings from ENreco",
+            "categories": "Categories",
+            "noResults": "Nothing here but us chickens...",
+            "category": {
+                "journal": "Journals",
+                "letters": "Letters",
+                "lore": "Lore",
+                "other-writings": "Other Writings"
+            },
+            "entryCount": {
+                "singular": "entry",
+                "plural": "entries"
+            },
+            "readMode": "Read Mode",
+            "chapterNavigation": {
+                "previousChapter": "Previous Chapter",
+                "nextChapter": "Next Chapter"
+            },
+            "info": {
+                "summary": "Summary",
+                "characters": "Characters",
+                "tags": "Tags"
+            },
+            "fanficError": "Failed to load story content, try again later or you may read it from the original source <link>here</link>."
+        }
     }
-  },
-  "cards": {
-    "nodeCard": {
-      "readTooltip": "This card has been read",
-      "guild": "Guild",
-      "job": "Job",
-      "team": "Team",
-      "status": "Status",
-      "noContent": "No content available"
-    },
-    "edgeCard": {
-      "relationship": "Relationship"
-    },
-    "dayCard": {
-      "summary": "Summary",
-      "visibility": "Visibility",
-      "visibilityToggles": "Visibility Toggles",
-      "relationshipToggles": "Relationship Toggles",
-      "jobToggles": "Job Toggles",
-      "showAllJobs": "Show all jobs",
-      "teamToggles": "Team Toggles",
-      "showAllTeams": "Show all teams",
-      "showUpdatedEdgesOnly": "Show updated edges only",
-      "showAllEdges": "Show all edges",
-      "characterToggles": "Character Toggles",
-      "showAllCharacters": "Show all characters"
-    },
-    "prevDay": "Previous Day",
-    "nextDay": "Next Day"
-  },
-  "common": {
-    "close": "Close",
-    "markAsRead": "Mark as Read",
-    "day": "Day {val}",
-    "chapter": "Chapter {val}",
-    "allChapters": "All Chapters",
-    "section": "Section {val}",
-    "ok": "Got it!"
-  },
-  "navTooltips": {
-    "dayRecapVisibility": "Day Recap/Visibility",
-    "info": "Info",
-    "settings": "Settings",
-    "minigames": "Minigames",
-    "chapterRecap": "Chapter Recap",
-    "jukebox": "Jukebox",
-    "libestalGallery": "Libestal Gallery"
-  },
-  "constants": {
-    "Amber Coin": "Amber Coin",
-    "Scarlet Wand": "Scarlet Wand",
-    "Cerulean Cup": "Cerulean Cup",
-    "Jade Sword": "Jade Sword",
-    "Supplier": "Supplier",
-    "Chef": "Chef",
-    "Smith": "Smith",
-    "Jeweler": "Jeweler",
-    "None": "None",
-    "Alliance": "Alliance",
-    "Marriage": "Marriage",
-    "Protector": "Protector",
-    "Big Pink Cat": "Big Pink Cat",
-    "Enemy": "Enemy",
-    "Related": "Related",
-    "Backup Plan": "Backup Plan",
-    "Business": "Business",
-    "Unrequited Love": "Unrequited Love",
-    "Romantic": "Romantic",
-    "Family": "Family",
-    "No Longer Together": "No Longer Together",
-    "Dawg": "Dawg",
-    "It's Complicated": "It's Complicated",
-    "The Wolf Pack": "The Wolf Pack",
-    "Friends": "Friends",
-    "Knight": "Knight",
-    "Maid": "Maid",
-    "Guard Dog": "Guard Dog",
-    "Bros": "Bros",
-    "Same Person": "Same Person"
-  },
-  "loading": {
-    "clickToStart": "Click anywhere to start"
-  },
-  "glossary": {
-    "title": "Glossary",
-    "categories": {
-      "weapons": "Weapons",
-      "characters": "Characters", 
-      "lore": "Lore",
-      "quests": "Quests",
-      "miscellaneous": "Miscellaneous"
-    },
-    "spoilers": {
-      "title": "Thou Shall Not Pass!",
-      "description": "Just a heads-up—this page has spoilers! If you haven’t experienced the story of ENigmatic Recollection yet, you might want to check it out first.",
-      "agree": "*By continuing you agree to not hold the ENreco Archive responsible for being spoiled.",
-      "ok": "Got it!"
-    },
-    "categoryInfo": {
-      "weapons": {
-        "description": "This category contains information about the weapons, known as Revelations, used by the heroes — including their abilities, appearances, and other related details.",
-        "credit": "All entry thumbnails and models in this category are by <link>Soleiss.</link>"
-      },
-      "characters": {
-        "description": "This category contains information about characters, their personalities, and their stories in each chapter.",
-        "credit": "All entry thumbnails in this category are by <link>DDOLBANG.</link>"
-      },
-      "lore": {
-        "description": "This category contains information about the story of ENigmatic Recollection, including both official in-universe lore and self-made stories created by the heroes.",
-        "note": "<bold>Note:</bold> Regarding the heroes' stories, only consistent and prevalent ones are included in this category."
-      },
-      "quests": {
-        "description": "This category contains information about the journey's quests, specifically the dungeons and missions required to advance the story."
-      },
-      "miscellaneous": {
-        "description": "This category contains information about miscellaneous topics in the ENreco universe, including its mechanics, special events, and other related details."
-      }
-    },
-    "subcategories": {
-      "revelations": "Revelations",
-      "npcs": "NPCs", 
-      "general": "General",
-      "locations": "Locations",
-      "main-quests": "Main Quests",
-      "special-quests": "Special Quests",
-      "mechanics": "Mechanics",
-      "quests": "Quests",
-      "side-quests": "Side Quests",
-      "heroes-storylines": "Heroes' Storylines",
-      "heroes": "Heroes"
-    },
-    "filters": {
-      "allChapters": "All Chapters",
-      "chapter": "Chapter {number}"
-    },
-    "info": {
-      "generalInfo": "General Info",
-      "firstAppeared": "First Appeared",
-      "quote": "Quote"
-    },
-    "navigation": {
-      "previousEntry": "Previous entry (←)",
-      "nextEntry": "Next entry (→)",
-      "viewCategoryInfo": "View Category Info"
-    },
-    "empty": "Nothing here but us chickens"
-  },
-  "easter": {
-    "fauna": {
-      "rollState": {
-        "roll": "Roll",
-        "rolling": "Rolling"
-      }
-    }
-  }
-
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import ViewGlossaryApp from "@/components/view/glossary/ViewGlossaryApp";
+import GlossaryApp from "@/components/view/glossary/GlossaryApp";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useViewStore } from "@/store/viewStore";
 import {
@@ -11,16 +11,19 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
-import { LibraryBig, Workflow } from "lucide-react";
+import { Film, LibraryBig, Workflow } from "lucide-react";
 import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
-import ViewLoadingPage from "./components/view/chart/ViewLoadingPage";
+import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import ViewTranslationDislaimerModal from "@/components/view/basic-modals/ViewTranslationDisclaimerModal";
+import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
 import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { LS_KEYS } from "@/lib/constants";
+import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
+import { isMobileViewport } from "@/lib/utils";
+import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
 
-type AppType = "chart" | "glossary";
+type AppType = "chart" | "glossary" | "archive";
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +46,7 @@ export const ViewAppWrapper = () => {
     const openChangeLogModal = useViewStore(
         (state) => state.modal.openChangeLogModal,
     );
+    const isMobile = isMobileViewport();
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
@@ -69,10 +73,10 @@ export const ViewAppWrapper = () => {
 
     return (
         <div>
-            <ViewTranslationDislaimerModal />
-
+            <TranslationDislaimerModal />
+            <NowPlayingToast />
             {isLoading && (
-                <ViewLoadingPage
+                <LoadingPage
                     useDarkMode={useDarkMode}
                     onStart={() => {
                         setIsLoading(false);
@@ -121,14 +125,40 @@ export const ViewAppWrapper = () => {
                         },
                     )}
                 >
-                    <TabsList>
-                        <TabsTrigger value="chart">
-                            <Workflow size={24} />
-                        </TabsTrigger>
-                        <TabsTrigger value="glossary">
-                            <LibraryBig size={24} />
-                        </TabsTrigger>
-                    </TabsList>
+                    {/* I know this looks incredibly stupid, but if I do conditional rendering with the style for flex-col h-fit instead,  */}
+                    {/* when the direction switches, a very noticable stutter of the selected tab can be seen */}
+                    {(!isMobile || (isMobile && appType === "chart")) && (
+                        <TabsList
+                            className={cn("flex-col h-fit", {
+                                "flex-col h-fit":
+                                    !isMobile ||
+                                    (isMobile && appType === "chart"),
+                            })}
+                        >
+                            <TabsTrigger value="chart">
+                                <Workflow size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="glossary">
+                                <LibraryBig size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="archive">
+                                <Film size={24} />
+                            </TabsTrigger>
+                        </TabsList>
+                    )}
+                    {isMobile && appType !== "chart" && (
+                        <TabsList>
+                            <TabsTrigger value="chart">
+                                <Workflow size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="glossary">
+                                <LibraryBig size={24} />
+                            </TabsTrigger>
+                            <TabsTrigger value="archive">
+                                <Film size={24} />
+                            </TabsTrigger>
+                        </TabsList>
+                    )}
                 </Tabs>
 
                 <AnimatePresence mode="wait">
@@ -154,7 +184,18 @@ export const ViewAppWrapper = () => {
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <ViewGlossaryApp bgImage={bgImage} />
+                            <GlossaryApp bgImage={bgImage} />
+                        </motion.div>
+                    )}
+                    {appType === "archive" && (
+                        <motion.div
+                            key="archive"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <VideoArchiveApp bgImage={bgImage} />
                         </motion.div>
                     )}
                 </AnimatePresence>

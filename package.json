@@ -25,6 +25,7 @@
         "export-glossary": "tsx scripts/export-content/export-glossary.ts",
         "export-recaps": "tsx scripts/export-content/export-recaps.ts",
         "inject-glossary": "tsx scripts/inject-content/inject-glossary.ts",
+        "inject-media-archive": "tsx scripts/inject-content/inject-media-archive.ts",
         "inject-chapter-recaps": "tsx scripts/inject-content/inject-chapter-recaps.ts",
         "inject-recaps": "tsx scripts/inject-content/inject-recaps.ts",
         "inject-texts": "tsx scripts/inject-content/inject-texts.ts",
@@ -36,9 +37,16 @@
         "translate": "tsx scripts/misc/translate.ts",
         "brushup": "tsx scripts/misc/brushup.ts",
         "normalize-audio": "tsx scripts/misc/normalize-audio.ts",
+        "download-thumbnails": "tsx scripts/misc/download-thumbnails.ts",
+        "append-ja": "tsx scripts/misc/append-ja.ts",
+        "group-texts": "tsx scripts/misc/group-texts.ts",
         "inject-content": "tsx scripts/content/inject-content.ts",
         "validate-content": "tsx scripts/content/validate-content.ts",
-        "proofread": "tsx scripts/proofread/proofread.ts"
+        "proofread": "tsx scripts/proofread/proofread.ts",
+        "inject-clips": "tsx scripts/media/inject-clips.ts",
+        "translate-titles": "tsx scripts/media/translate-titles.ts",
+        "fetch-inject-fanfic": "tsx scripts/fanfic/fetch-inject-fanfic.ts",
+        "match-structure": "tsx scripts/misc/match-structure.ts"
     },
     "devDependencies": {
         "@enreco-archive/common": "workspace:*",

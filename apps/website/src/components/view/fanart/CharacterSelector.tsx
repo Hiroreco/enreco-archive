@@ -1,3 +1,4 @@
+import { CHARACTER_ICON_MAP } from "@/components/view/fanart/FanartFilters";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -7,8 +8,10 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface CharacterSelectorProps {
     selectedCharacters: string[];
@@ -96,53 +99,86 @@ const CharacterSelector = ({
                             {t("character")}
                         </DialogTitle>
 
-                        <div className="grid grid-cols-2 gap-2">
+                        <div className="grid grid-cols-2 gap-2 overflow-y-auto max-h-[60vh]">
                             <button
                                 type="button"
-                                className={`px-2 py-1 rounded border text-xs w-full ${
-                                    selectedCharacters.includes("all")
-                                        ? "bg-accent border-accent-foreground text-accent-foreground"
-                                        : "bg-background border-border"
-                                }`}
                                 onClick={() => onCharactersChange(["all"])}
+                                className={cn(
+                                    "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                                    "hover:bg-foreground/10 flex items-center gap-2",
+                                    selectedCharacters.includes("all") &&
+                                        "bg-foreground/20 font-semibold",
+                                )}
                             >
+                                <Image
+                                    src={`images-opt/${CHARACTER_ICON_MAP["all"]}`}
+                                    alt="all"
+                                    width={25}
+                                    height={25}
+                                    className="rounded-md object-cover"
+                                />
                                 {t("charFilter.all")}
                             </button>
                             <button
                                 type="button"
-                                className={`px-2 py-1 rounded border text-xs w-full ${
-                                    selectedCharacters.includes("various")
-                                        ? "bg-accent border-accent-foreground text-accent-foreground"
-                                        : "bg-background border-border"
-                                }`}
                                 onClick={() => handleCharacterClick("various")}
+                                className={cn(
+                                    "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                                    "hover:bg-foreground/10 flex items-center gap-2",
+                                    selectedCharacters.includes("various") &&
+                                        "bg-foreground/20 font-semibold",
+                                )}
                             >
+                                <Image
+                                    src={`images-opt/${CHARACTER_ICON_MAP["various"]}`}
+                                    alt="various"
+                                    width={25}
+                                    height={25}
+                                    className="rounded-md object-cover"
+                                />
                                 {t("charFilter.various")}
                             </button>
                             <button
                                 type="button"
-                                className={`px-2 py-1 rounded border text-xs w-full col-span-2 ${
-                                    selectedCharacters.includes("bloodraven")
-                                        ? "bg-accent border-accent-foreground text-accent-foreground"
-                                        : "bg-background border-border"
-                                }`}
                                 onClick={handleBloodravenClick}
+                                className={cn(
+                                    "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                                    "hover:bg-foreground/10 flex items-center gap-2",
+                                    selectedCharacters.includes("bloodraven") &&
+                                        "bg-foreground/20 font-semibold",
+                                )}
                             >
+                                <Image
+                                    src={`images-opt/${CHARACTER_ICON_MAP["bloodraven"]}`}
+                                    alt="bloodraven"
+                                    width={25}
+                                    height={25}
+                                    className="rounded-md object-cover"
+                                />
                                 {t("charFilter.bloodraven")}
                             </button>
                             {characters.map((character) => (
                                 <button
                                     type="button"
                                     key={character}
-                                    className={`px-2 py-1 rounded border text-xs w-full ${
-                                        selectedCharacters.includes(character)
-                                            ? "bg-accent border-accent-foreground text-accent-foreground"
-                                            : "bg-background border-border"
-                                    }`}
                                     onClick={() =>
                                         handleCharacterClick(character)
                                     }
+                                    className={cn(
+                                        "text-left px-3 py-2 rounded-lg text-sm transition-colors",
+                                        "hover:bg-foreground/10 flex items-center gap-2",
+                                        selectedCharacters.includes(
+                                            character,
+                                        ) && "bg-foreground/20 font-semibold",
+                                    )}
                                 >
+                                    <Image
+                                        src={`images-opt/${CHARACTER_ICON_MAP[character]}`}
+                                        alt={character}
+                                        width={25}
+                                        height={25}
+                                        className="rounded-md object-cover"
+                                    />
                                     {getCharacterName(character)}
                                 </button>
                             ))}
@@ -160,61 +196,6 @@ const CharacterSelector = ({
             </div>
         );
     }
-
-    return (
-        <div className="flex items-center gap-2">
-            <label className="text-sm font-medium">{t("character")}:</label>
-            <div className="flex flex-wrap gap-1">
-                <button
-                    type="button"
-                    className={`px-2 py-1 rounded border text-xs ${
-                        selectedCharacters.includes("all")
-                            ? "bg-accent border-accent-foreground text-accent-foreground"
-                            : "bg-background border-border"
-                    }`}
-                    onClick={() => onCharactersChange(["all"])}
-                >
-                    {t("charFilter.all")}
-                </button>
-                <button
-                    type="button"
-                    className={`px-2 py-1 rounded border text-xs ${
-                        selectedCharacters.includes("various")
-                            ? "bg-accent border-accent-foreground text-accent-foreground"
-                            : "bg-background border-border"
-                    }`}
-                    onClick={() => handleCharacterClick("various")}
-                >
-                    {t("charFilter.various")}
-                </button>
-                <button
-                    type="button"
-                    className={`px-2 py-1 rounded border text-xs ${
-                        selectedCharacters.includes("bloodraven")
-                            ? "bg-accent border-accent-foreground text-accent-foreground"
-                            : "bg-background border-border"
-                    }`}
-                    onClick={handleBloodravenClick}
-                >
-                    {t("charFilter.bloodraven")}
-                </button>
-                {characters.map((character) => (
-                    <button
-                        type="button"
-                        key={character}
-                        className={`px-2 py-1 rounded border text-xs ${
-                            selectedCharacters.includes(character)
-                                ? "bg-accent border-accent-foreground text-accent-foreground"
-                                : "bg-background border-border"
-                        }`}
-                        onClick={() => handleCharacterClick(character)}
-                    >
-                        {getCharacterName(character)}
-                    </button>
-                ))}
-            </div>
-        </div>
-    );
 };
 
 export default CharacterSelector;

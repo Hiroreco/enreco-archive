@@ -1,5 +1,6 @@
 import { getBlurDataURL } from "@/lib/utils";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { MediaType } from "@enreco-archive/common/types";
 import { Play } from "lucide-react";
 import Image from "next/image";
 import ReactPlayer from "react-player";
@@ -9,7 +10,7 @@ interface LightboxTriggerProps {
     alt: string;
     width: number;
     height: number;
-    type: "image" | "video";
+    type: MediaType;
     className?: string;
     priority: boolean;
     onClick: () => void;
