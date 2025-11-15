@@ -3,6 +3,7 @@ import FanficViewer from "@/components/view/media-archive/text-archive/FanficVie
 import TextArchiveSelector from "@/components/view/media-archive/text-archive/TextArchiveSelector";
 import TextModal from "@/components/view/utility-modals/TextModal";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { useScrollRestoration } from "@/hooks/useScrollRestoration";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import {
     Tabs,
@@ -25,6 +26,12 @@ const TextArchiveCard = () => {
     const [selectedFanfic, setSelectedFanfic] = useState<
         (typeof fanficData)[0] | null
     >(null);
+
+    const { scrollContainerRef, saveScrollPosition, restoreScrollPosition } =
+        useScrollRestoration({
+            smooth: true,
+            shouldRestore: false,
+        });
 
     const groupedTexts = useMemo(() => {
         const grouped: Record<
@@ -51,11 +58,18 @@ const TextArchiveCard = () => {
     );
 
     const handleFanficClick = (fanfic: (typeof fanficData)[0]) => {
+        saveScrollPosition();
         setSelectedFanfic(fanfic);
     };
 
     const handleBackToList = () => {
         setSelectedFanfic(null);
+    };
+
+    const handleAnimationComplete = () => {
+        if (!selectedFanfic && activeTab === "fanfics") {
+            restoreScrollPosition();
+        }
     };
 
     return (
@@ -159,11 +173,13 @@ const TextArchiveCard = () => {
                 ) : (
                     <motion.div
                         key="fanfics-viewer"
+                        ref={scrollContainerRef}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.15 }}
-                        className="overflow-x-hidden py-2 flex-1"
+                        onAnimationComplete={handleAnimationComplete}
+                        className="overflow-x-hidden overflow-y-auto py-2 flex-1"
                     >
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 px-4">
                             {fanficData.map((fanfic, index) => (
