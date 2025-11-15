@@ -136,7 +136,7 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
             );
         }
 
-        const thumbnailSrc = `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`;
+        const thumbnailSrc = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 
         return {
             title: data.title || "Unknown Title",
