@@ -230,8 +230,8 @@
             },
             "sortModes": {
                 "sort": "Sort",
-                "default": {
-                    "label": "Default",
+                "game-date": {
+                    "label": "In-game",
                     "description": "Sort by chapter and day"
                 },
                 "date": {

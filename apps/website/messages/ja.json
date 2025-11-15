@@ -230,8 +230,8 @@
             },
             "sortModes": {
                 "sort": "ソート",
-                "default": {
-                    "label": "デフォルト",
+                "game-date": {
+                    "label": "ゲーム内",
                     "description": "章と日でソート"
                 },
                 "date": {

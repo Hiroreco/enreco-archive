@@ -41,7 +41,7 @@ export interface FanartEntry {
 }
 
 export type InclusiveMode = "showAll" | "hasAny" | "hasOnly";
-export type SortMode = "default" | "date";
+export type SortMode = "game-date" | "date";
 
 interface FanartModalProps {
     open: boolean;
@@ -95,7 +95,7 @@ const FanartModal = ({
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] =
         useState<InclusiveMode>("showAll");
-    const [sortMode, setSortMode] = useState<SortMode>("default");
+    const [sortMode, setSortMode] = useState<SortMode>("date");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
 
@@ -316,7 +316,7 @@ const FanartModal = ({
         setShuffled(false);
         setShuffledFanart(null);
         setCurrentPage(1);
-        setSortMode("default");
+        setSortMode("game-date");
     }, []);
 
     const handleOpenLightbox = useCallback((index: number) => {
@@ -655,7 +655,7 @@ const FanartModal = ({
                         sortMode={sortMode}
                         onSortModeChange={() => {
                             setSortMode(
-                                sortMode === "default" ? "date" : "default",
+                                sortMode === "game-date" ? "date" : "game-date",
                             );
                         }}
                         videosOnly={videosOnly}
@@ -693,7 +693,9 @@ const FanartModal = ({
                             sortMode={sortMode}
                             onSortModeChange={() => {
                                 setSortMode(
-                                    sortMode === "default" ? "date" : "default",
+                                    sortMode === "game-date"
+                                        ? "date"
+                                        : "game-date",
                                 );
                             }}
                             onShuffle={
