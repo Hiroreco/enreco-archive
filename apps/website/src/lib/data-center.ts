@@ -41,7 +41,6 @@ import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
 
 import clips_en from "#/en/clips_en.json";
-import clips_ja from "#/ja/clips_ja.json";
 
 import fanfic_data_en from "#/en/fanfics.json";
 
@@ -70,7 +69,6 @@ interface LocalizedData {
         content: string;
     }>;
     recollectionArchive: RecollectionArchiveEntry[];
-    clipData: ClipsData;
     fanficData: FanficEntry[];
 }
 
@@ -93,7 +91,6 @@ const DATA: Record<Locale, LocalizedData> = {
         chapterRecap: chapterRecaps_en,
         changelogs: changelogs_en,
         recollectionArchive: media_archive_en as RecollectionArchiveEntry[],
-        clipData: clips_en as ClipsData,
         fanficData: fanfic_data_en,
     },
     ja: {
@@ -110,7 +107,6 @@ const DATA: Record<Locale, LocalizedData> = {
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
         recollectionArchive: media_archive_ja as RecollectionArchiveEntry[],
-        clipData: clips_ja as ClipsData,
         fanficData: fanfic_data_en,
     },
 };
