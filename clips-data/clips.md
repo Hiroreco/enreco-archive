@@ -966,10 +966,6 @@ https://www.youtube.com/watch?v=y29MSXevZUU
 
 <!-- calli, bijou, shiori, bae, gigi -->
 
-https://www.youtube.com/watch?v=xLoB5AjIOiA
-
-<!-- all-c2 -->
-
 https://www.youtube.com/watch?v=xy8grL7I2XQ
 
 <!-- liz, nerissa -->
