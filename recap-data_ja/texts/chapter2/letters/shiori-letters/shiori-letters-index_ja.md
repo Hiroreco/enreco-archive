@@ -1,4 +1,4 @@
-<!-- entries: to-da-kindest-1_ja, your-promise_ja, to-gonathon_ja -->
+<!-- entries: to-da-kindest-1_ja, 2-u-who-roots-m_ja, your-promise_ja, to-gonathon_ja -->
 <!-- title: シオリの手紙 -->
 
 <!-- description -->

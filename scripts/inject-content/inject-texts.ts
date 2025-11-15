@@ -177,7 +177,7 @@ async function main() {
                                 const cleanedContent = removeComments(content);
 
                                 entries.push({
-                                    id: entryName,
+                                    id: entryName.replace("_ja", ""),
                                     content: cleanedContent,
                                     title: entryTitle,
                                     ...(hasAudio && { hasAudio: true }),
@@ -216,7 +216,7 @@ async function main() {
                         description,
                         entries: [
                             {
-                                id: key,
+                                id: key.replace("_ja", ""),
                                 content: cleanedContent,
                                 title,
                                 ...(hasAudio && { hasAudio: true }),

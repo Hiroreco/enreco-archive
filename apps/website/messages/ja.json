@@ -175,7 +175,8 @@
         },
         "text": {
             "playAudio": "音声再生",
-            "stopAudio": "音声停止"
+            "stopAudio": "音声停止",
+            "description": "説明"
         },
         "music": {
             "controls": {
