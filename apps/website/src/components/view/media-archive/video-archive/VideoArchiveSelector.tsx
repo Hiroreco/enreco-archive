@@ -74,7 +74,7 @@ const VideoArchiveSelector = ({
                 </div>
 
                 <div className="flex-1 min-w-0">
-                    <span className="font-semibold text-xs line-clamp-2 leading-tight">
+                    <span className="font-semibold text-sm line-clamp-2 leading-tight">
                         {entry.title}
                     </span>
                     <p className="text-[10px] text-muted-foreground line-clamp-2 mt-0.5 leading-tight">

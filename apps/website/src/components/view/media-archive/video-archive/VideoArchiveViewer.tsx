@@ -311,9 +311,7 @@ const VideoArchiveViewer = ({
                 {/* Right Side - Info */}
                 <div className="flex flex-col gap-3 md:w-[40%] h-full">
                     <div className="flex flex-col gap-2">
-                        <span className="text-2xl font-bold">
-                            {entry.title}
-                        </span>
+                        <span className="text-xl font-bold">{entry.title}</span>
                         <p className="text-sm text-muted-foreground">
                             {currentMedia.title}
                         </p>

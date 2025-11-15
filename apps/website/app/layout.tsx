@@ -1,5 +1,6 @@
 "use client";
 import "@/index.css";
+import { isMobileViewport } from "@/lib/utils";
 import { useAudioSettingsSync } from "@/store/audioStore";
 import { FontSize, useSettingStore } from "@/store/settingStore";
 import { Libre_Franklin } from "next/font/google";
@@ -10,18 +11,18 @@ const libreFranklin = Libre_Franklin({
     weight: ["300", "400", "500", "600", "700"],
 });
 
-function getFontSizeValue(fontSize: FontSize): string {
+function getFontSizeValue(fontSize: FontSize, isMobile: boolean): string {
     switch (fontSize) {
         case "small":
-            return "14px";
+            return isMobile ? "12px" : "14px";
         case "medium":
-            return "16px";
+            return isMobile ? "14px" : "16px";
         case "large":
-            return "18px";
+            return isMobile ? "16px" : "18px";
         case "xlarge":
-            return "20px";
+            return isMobile ? "18px" : "20px";
         default:
-            return "16px";
+            return isMobile ? "14px" : "16px";
     }
 }
 
@@ -32,6 +33,7 @@ export default function RootLayout({
 }) {
     const [mounted, setMounted] = useState(false);
     const fontSize = useSettingStore((state) => state.fontSize);
+    const isMobile = isMobileViewport();
 
     // Sync audio settings
     useAudioSettingsSync();
@@ -41,7 +43,9 @@ export default function RootLayout({
         setMounted(true);
     }, []);
 
-    const fontSizeValue = mounted ? getFontSizeValue(fontSize) : "16px";
+    const fontSizeValue = mounted
+        ? getFontSizeValue(fontSize, isMobile)
+        : "16px";
 
     return (
         <html
