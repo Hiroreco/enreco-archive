@@ -63,6 +63,10 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const [selectedClipCategory, setSelectedClipCategory] =
         useState<string>("all");
 
+    const [activeContentType, setActiveContentType] = useState<
+        "clips" | "streams"
+    >("clips");
+
     const { getRecollectionArchive, getClipsData } = useLocalizedData();
     const data = getRecollectionArchive();
 
@@ -309,6 +313,8 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             className="h-full"
                         >
                             <ClipsArchiveViewer
+                                activeContentType={activeContentType}
+                                setActiveContentType={setActiveContentType}
                                 clips={clipsData.clips}
                                 streams={clipsData.streams}
                                 selectedCategory={selectedClipCategory}

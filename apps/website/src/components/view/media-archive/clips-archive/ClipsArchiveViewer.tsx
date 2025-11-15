@@ -55,6 +55,8 @@ interface ClipsArchiveViewer {
     streams: ClipEntry[];
     selectedCategory: string;
     onCategoryChange: (category: string) => void;
+    activeContentType: "clips" | "streams";
+    setActiveContentType: (type: "clips" | "streams") => void;
 }
 
 const ClipsArchiveViewer = ({
@@ -62,13 +64,12 @@ const ClipsArchiveViewer = ({
     streams,
     selectedCategory,
     onCategoryChange,
+    activeContentType,
+    setActiveContentType,
 }: ClipsArchiveViewer) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
 
-    const [activeContentType, setActiveContentType] = useState<
-        "clips" | "streams"
-    >("clips");
     const [selectedChapter, setSelectedChapter] = useState<number>(-1);
     const [searchQuery, setSearchQuery] = useState("");
     const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
