@@ -537,7 +537,7 @@ const ClipCard = ({ clip }: ClipCardProps) => {
                         src={clip.thumbnailSrc}
                         alt={clip.title}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform"
+                        className="object-cover group-hover:scale-105 transition-transform rounded-none"
                         blurDataURL={getBlurDataURL(clip.thumbnailSrc)}
                         placeholder={
                             getBlurDataURL(clip.thumbnailSrc) ? "blur" : "empty"
