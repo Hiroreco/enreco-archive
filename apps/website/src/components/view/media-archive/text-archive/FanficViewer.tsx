@@ -96,7 +96,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
     );
 
     const InfoModalContent = () => (
-        <>
+        <div className="max-h-[60vh] overflow-y-scroll">
             <div className="flex items-center gap-2 mb-3">
                 <User className="size-4 text-muted-foreground" />
                 <span className="text-sm font-semibold">{fanfic.author}</span>
@@ -146,7 +146,7 @@ const FanficViewer = ({ fanfic, onBack }: FanficViewerProps) => {
                     </div>
                 </div>
             )}
-        </>
+        </div>
     );
 
     const ChapterSelector = ({ className }: { className?: string }) => {
