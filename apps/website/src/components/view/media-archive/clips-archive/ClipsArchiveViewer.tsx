@@ -231,23 +231,23 @@ const ClipsArchiveViewer = ({
 
     // Reset scroll and search when category or content type changes
     useEffect(() => {
-        if (contentContainer.current) {
-            contentContainer.current.scrollTo({ top: 0, behavior: "smooth" });
-        }
         setSearchQuery("");
-        setCurrentPage(1); // Reset pagination
-    }, [selectedCategory, activeContentType]);
-
-    // Reset pagination when filters change
-    useEffect(() => {
         setCurrentPage(1);
-        if (contentContainer.current) {
-            contentContainer.current.scrollTo({
-                top: 0,
-                behavior: "smooth",
-            });
-        }
-    }, [selectedCategory, selectedChapter, debouncedSearchQuery]);
+
+        requestAnimationFrame(() => {
+            if (contentContainer.current) {
+                contentContainer.current.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            }
+        });
+    }, [
+        selectedCategory,
+        activeContentType,
+        selectedChapter,
+        debouncedSearchQuery,
+    ]);
 
     return (
         <div className="flex h-full gap-4">
