@@ -552,6 +552,54 @@ https://www.youtube.com/watch?v=5DaHKUcSW-g
 
 <!-- shiori -->
 
+https://www.youtube.com/watch?v=IXq3O9Q4_Pw
+
+<!-- kiara, moom -->
+
+https://www.youtube.com/watch?v=sXlCCTQ9iu8
+
+<!-- moom, gura, fauna -->
+
+https://www.youtube.com/watch?v=0iGDbmeblc0
+
+<!-- gigi -->
+
+https://www.youtube.com/watch?v=8YPM_K2YSy4
+
+<!-- bijou -->
+
+https://www.youtube.com/watch?v=zR3JKgtxyrU
+
+<!-- kronii, raora, bijou, gigi -->
+
+https://www.youtube.com/watch?v=1m-TVONjYAo
+
+<!-- ina -->
+
+https://www.youtube.com/watch?v=UpFX1mQm9Xs
+
+<!-- mococo, nerissa -->
+
+https://www.youtube.com/watch?v=hmG7ABl8mW4
+
+<!-- kronii, irys -->
+
+https://www.youtube.com/watch?v=-2t_DFnzDXU
+
+<!-- mococo -->
+
+https://www.youtube.com/watch?v=7GR2qGuV2Cs
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=NYs-P8ODEwE
+
+<!-- bae, gigi -->
+
+https://www.youtube.com/watch?v=kwaEhzIgd1o
+
+<!-- shiori, ame, gigi -->
+
 ### Chapter 2
 
 https://www.youtube.com/watch?v=1qQ8jsMpXk0
@@ -786,10 +834,6 @@ https://www.youtube.com/watch?v=9B5_tPOpt_8
 
 <!-- kiara, raora -->
 
-https://www.youtube.com/watch?v=rrykjQmJbpI
-
-<!-- kiara, ina -->
-
 https://www.youtube.com/watch?v=jEyQXeZLMmY
 
 <!-- kiara, raora -->
@@ -896,7 +940,7 @@ https://www.youtube.com/watch?v=aSB_313QNgo
 
 https://www.youtube.com/watch?v=MslP4COJMK8
 
-<!-- liz -->
+<!-- liz, calli -->
 
 https://www.youtube.com/watch?v=dVvWlUsi-4A
 
@@ -946,10 +990,6 @@ https://www.youtube.com/watch?v=CqnKedUzC5M
 
 <!-- gigi, cecilia -->
 
-https://www.youtube.com/watch?v=vLdvyW2OK3w
-
-<!-- ina, bijou -->
-
 https://www.youtube.com/watch?v=NXi52jyHCIU
 
 <!-- mococo, irys -->
@@ -997,3 +1037,119 @@ https://www.youtube.com/watch?v=d4ud6WiOwx8
 https://www.youtube.com/watch?v=c6CtBkIdUS0
 
 <!-- irys, kronii -->
+
+https://www.youtube.com/watch?v=0vbY0hB7aRU
+
+<!-- liz -->
+
+https://www.youtube.com/watch?v=-sF84M4Mc_o
+
+<!-- cecilia, gigi -->
+
+https://www.youtube.com/watch?v=m7F3bdiajX4
+
+<!-- irys, kronii -->
+
+https://www.youtube.com/watch?v=4hG5UXvrKnU
+
+<!-- highlight, cecilia -->
+
+https://www.youtube.com/watch?v=YDhEqjML4cU
+
+<!-- kiara -->
+
+https://www.youtube.com/watch?v=sz78XG0rG0w
+
+<!-- kiara, raora, shiori -->
+
+https://www.youtube.com/watch?v=Y1RqLriZJFU
+
+<!-- cecilia -->
+
+https://www.youtube.com/watch?v=HEPlwD15CqY
+
+<!-- bae -->
+
+https://www.youtube.com/watch?v=mr-sgue848o
+
+<!-- bijou, irys -->
+
+https://www.youtube.com/watch?v=72A5Dh4dAnM
+
+<!-- ina, calli -->
+
+https://www.youtube.com/watch?v=_7_hkE-AgQo
+
+<!-- gigi, cecilia -->
+
+https://www.youtube.com/watch?v=Gdgo64Nk8JA
+
+<!-- nerissa -->
+
+https://www.youtube.com/watch?v=BAG7Mm0E9O0
+
+<!-- gigi, bae -->
+
+https://www.youtube.com/watch?v=0pHZkvX45Is
+
+<!-- cecilia, nerissa -->
+
+https://www.youtube.com/watch?v=28bNTnM-tiQ
+
+<!-- cecilia, kronii -->
+
+https://www.youtube.com/watch?v=VahA5u0gmiY
+
+<!-- raora -->
+
+https://www.youtube.com/watch?v=CRvSov1saYg
+
+<!-- kronii, gigi, cecilia -->
+
+https://www.youtube.com/watch?v=dT4Db5nngYc
+
+<!-- kronii, raora -->
+
+https://www.youtube.com/watch?v=dzq0PBm-VtA
+
+<!-- gigi, kronii -->
+
+https://www.youtube.com/watch?v=195v5Mx8WSY
+
+<!-- irys, gigi -->
+
+https://www.youtube.com/watch?v=v8kvubvkFkk
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=tpKoAJKddp4
+
+<!-- gigi -->
+
+https://www.youtube.com/watch?v=SbG4vJNRv9A
+
+<!-- cecilia, kronii -->
+
+https://www.youtube.com/watch?v=1A5IbLU9omk
+
+<!-- gigi, shiori -->
+
+https://www.youtube.com/watch?v=mbhZ96mrI14
+
+<!-- kronii, irys, raora -->
+
+https://www.youtube.com/watch?v=eA1AhTLGj5Q
+
+<!-- ina, gigi -->
+
+https://www.youtube.com/watch?v=xfK7VhGvtNQ
+
+<!-- ina, bijou -->
+
+https://www.youtube.com/watch?v=hDCdqSvzIXE
+
+<!-- nerissa -->
+
+https://www.youtube.com/watch?v=UTV52WRF5QQ
+
+<!-- nerissa -->
