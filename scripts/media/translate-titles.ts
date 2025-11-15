@@ -35,7 +35,7 @@ const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function translateTitle(title: string): Promise<string> {
     const sanitizedTitle = title;
-    const prompt = `Translate the following video title from English to Japanese. Maintain the context and tone suitable for anime/game content. Return the translated string, keeping all special characters as well, such as |. Keep "ENreco" as is.
+    const prompt = `Translate the following video title from English to Japanese. Maintain the context and tone suitable for anime/game content. Return the translated string, keeping all special characters as well, such as |. Keep "ENreco" as is, Keep "ENigmatic Recollection" as is.
 
 Example:
 KARMA | ENreco Animatic" → "カルマ | ENreco アニマティック
