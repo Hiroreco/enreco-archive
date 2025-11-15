@@ -471,6 +471,13 @@ function sortByCategory(items: ClipMetadata[]): ClipMetadata[] {
     });
 }
 
+function sortByUploadDate(items: ClipMetadata[]): ClipMetadata[] {
+    return items.sort(
+        (a, b) =>
+            new Date(b.uploadDate).getTime() - new Date(a.uploadDate).getTime(),
+    );
+}
+
 async function main() {
     const locale = process.argv[2] || "en";
     const baseDir = path.resolve(
@@ -577,8 +584,8 @@ async function main() {
     }
 
     // Sort by category order, then by upload date (newest first) within each category
-    const sortedClips = sortByCategory(combinedClips);
-    const sortedStreams = sortByCategory(allStreams);
+    const sortedClips = sortByUploadDate(combinedClips);
+    const sortedStreams = sortByUploadDate(allStreams);
 
     const outputData = {
         clips: sortedClips,
