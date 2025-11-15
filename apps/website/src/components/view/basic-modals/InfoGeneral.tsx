@@ -56,7 +56,7 @@ const InfoGeneral = () => {
                         onClick={() => {
                             setShowChangelog(true);
                         }}
-                        className="text-blue-500 hover:text-blue-700 underline cursor-pointer"
+                        className="text-accent underline underline-offset-2 cursor-pointer"
                     >
                         {t("changelog")}
                     </span>
