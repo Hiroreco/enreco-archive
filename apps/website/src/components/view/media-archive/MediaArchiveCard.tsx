@@ -34,7 +34,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import VideoModal from "../utility-modals/VideoModal";
-import { ClipEntry, RecollectionArchiveEntry } from "./types";
+import { RecollectionArchiveEntry } from "./types";
 
 interface VideoArchiveCardProps {
     className?: string;
@@ -47,7 +47,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
 
     const closeModal = useViewStore((state) => state.modal.closeModal);
     const openModal = useViewStore((state) => state.modal.openModal);
-    const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
+    const videoUrl = useViewStore((state) => state.modal.videoUrl);
     const locale = useSettingStore((state) => state.locale);
 
     const [selectedEntry, setSelectedEntry] =
@@ -58,14 +58,8 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
 
     const { getRecollectionArchive, getClipsData } = useLocalizedData();
     const data = getRecollectionArchive();
-    const [selectedClip, setSelectedClip] = useState<ClipEntry | null>(null);
 
     const clipsData = getClipsData();
-
-    const handleClipClick = (clip: ClipEntry) => {
-        openVideoModal();
-        setSelectedClip(clip);
-    };
 
     const [activeTab, setActiveTab] = useState<"videos" | "clips" | "texts">(
         "videos",
@@ -303,7 +297,6 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                 streams={clipsData.streams}
                                 selectedCategory={selectedClipCategory}
                                 onCategoryChange={setSelectedClipCategory}
-                                onClipClick={handleClipClick}
                             />
                         </motion.div>
                     ) : (
@@ -358,7 +351,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             </div>
 
             <VideoModal
-                videoUrl={selectedClip?.originalUrl || ""}
+                videoUrl={videoUrl || ""}
                 open={openModal === "video"}
                 onClose={closeModal}
                 bgImage={bgImage}

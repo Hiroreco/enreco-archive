@@ -1,3 +1,4 @@
+import TimestampHref from "@/components/view/markdown/TimestampHref";
 import { CATEGORY_ICON_MAP } from "@/components/view/media-archive/constants";
 import { ClipEntry } from "@/components/view/media-archive/types";
 import { getBlurDataURL } from "@/lib/utils";
@@ -52,7 +53,6 @@ const ITEMS_PER_PAGE = 50;
 interface ClipsArchiveViewer {
     clips: ClipEntry[];
     streams: ClipEntry[];
-    onClipClick: (clip: ClipEntry) => void;
     selectedCategory: string;
     onCategoryChange: (category: string) => void;
 }
@@ -60,7 +60,6 @@ interface ClipsArchiveViewer {
 const ClipsArchiveViewer = ({
     clips,
     streams,
-    onClipClick,
     selectedCategory,
     onCategoryChange,
 }: ClipsArchiveViewer) => {
@@ -456,11 +455,6 @@ const ClipsArchiveViewer = ({
                                                                         index
                                                                     }
                                                                     clip={item}
-                                                                    onClick={() =>
-                                                                        onClipClick(
-                                                                            item,
-                                                                        )
-                                                                    }
                                                                 />
                                                             ),
                                                         )}
@@ -502,10 +496,9 @@ const ClipsArchiveViewer = ({
 
 interface ClipCardProps {
     clip: ClipEntry;
-    onClick: () => void;
 }
 
-const ClipCard = ({ clip, onClick }: ClipCardProps) => {
+const ClipCard = ({ clip }: ClipCardProps) => {
     const locale = useSettingStore((state) => state.locale);
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
@@ -530,60 +523,48 @@ const ClipCard = ({ clip, onClick }: ClipCardProps) => {
     };
 
     return (
-        <a
-            onClick={(e) => {
-                e.preventDefault();
-                onClick();
-            }}
-            className={cn(
-                "group cursor-pointer overflow-hidden rounded-lg",
-                "dark:bg-background/50 backdrop-blur-md shadow-lg",
-                "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
-                "flex flex-col",
-            )}
-            tabIndex={0}
-            onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    onClick();
-                }
-            }}
-            href={clip.originalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            <div className="relative w-full aspect-video overflow-hidden">
-                <Image
-                    src={clip.thumbnailSrc}
-                    alt={clip.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform"
-                    blurDataURL={getBlurDataURL(clip.thumbnailSrc)}
-                    placeholder={
-                        getBlurDataURL(clip.thumbnailSrc) ? "blur" : "empty"
-                    }
-                />
+        <TimestampHref href={clip.originalUrl} type="general">
+            <div
+                className={cn(
+                    "group cursor-pointer overflow-hidden rounded-lg",
+                    "dark:bg-background/50 backdrop-blur-md shadow-lg",
+                    "hover:shadow-xl hover:ring-2 hover:ring-accent transition-all",
+                    "flex flex-col",
+                )}
+            >
+                <div className="relative w-full aspect-video overflow-hidden">
+                    <Image
+                        src={clip.thumbnailSrc}
+                        alt={clip.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform"
+                        blurDataURL={getBlurDataURL(clip.thumbnailSrc)}
+                        placeholder={
+                            getBlurDataURL(clip.thumbnailSrc) ? "blur" : "empty"
+                        }
+                    />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                <span className="absolute bottom-2 right-2 bg-black/50 text-white text-[10px] px-1.5 py-0.5 rounded-md z-1">
-                    {formatTime(clip.duration)}
-                </span>
-            </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                    <span className="absolute bottom-2 right-2 bg-black/50 text-white text-[10px] px-1.5 py-0.5 rounded-md z-1">
+                        {formatTime(clip.duration)}
+                    </span>
+                </div>
 
-            <div className="p-2.5 flex flex-col gap-1">
-                <span className="font-semibold text-xs line-clamp-2 leading-tight">
-                    {clip.title}
-                </span>
-                <div className="flex items-center justify-between gap-2">
-                    <p className="text-[10px] text-muted-foreground truncate">
-                        {clip.author}
-                    </p>
-                    <p className="text-[10px] text-muted-foreground shrink-0">
-                        {formatDate(clip.uploadDate)}
-                    </p>
+                <div className="p-2.5 flex flex-col gap-1">
+                    <span className="font-semibold text-xs line-clamp-2 leading-tight">
+                        {clip.title}
+                    </span>
+                    <div className="flex items-center justify-between gap-2">
+                        <p className="text-[10px] text-muted-foreground truncate">
+                            {clip.author}
+                        </p>
+                        <p className="text-[10px] text-muted-foreground shrink-0">
+                            {formatDate(clip.uploadDate)}
+                        </p>
+                    </div>
                 </div>
             </div>
-        </a>
+        </TimestampHref>
     );
 };
 
