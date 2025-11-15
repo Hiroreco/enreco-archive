@@ -27,6 +27,8 @@
 
 そして彼女はゴナソンにビーツを渡しました。もちろん今回も、[まったく怪しくない理由で](https://www.youtube.com/live/4dgeXH5KKlI?si=OFSnHhwRpTtRCLr_&t=13186)――。
 
+- [「私を応援してくれるあなたへ」を読む](#text:2-u-who-roots-m)
+
 ## ファンアート
 
 ["kiss it to make it better?" by kuma](https://x.com/kumakibbs/status/1926080936971497522)

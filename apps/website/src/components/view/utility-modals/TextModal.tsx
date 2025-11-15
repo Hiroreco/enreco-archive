@@ -254,7 +254,7 @@ const TextModal = ({
                                 "hidden md:block absolute top-0 right-0 w-80 rounded-lg bg-background/90 dark:bg-background/40 backdrop-blur-2xl shadow-lg transition-all overflow-y-auto",
                                 showInfo
                                     ? "translate-x-full opacity-100"
-                                    : "opacity-0 translate-x-11/12",
+                                    : "opacity-0 translate-x-11/12 pointer-events-none",
                             )}
                         >
                             <div className="p-4">

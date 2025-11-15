@@ -22,7 +22,7 @@
             "extraLarge": "特大",
             "english": "English",
             "japanese": "日本語",
-            "embedType": "埋め込みタイプ",
+            "embedType": "YouTube動画を開く方法",
             "card": "カード",
             "external": "Youtube"
         },
@@ -175,7 +175,8 @@
         },
         "text": {
             "playAudio": "音声再生",
-            "stopAudio": "音声停止"
+            "stopAudio": "音声停止",
+            "description": "説明"
         },
         "music": {
             "controls": {

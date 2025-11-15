@@ -34,7 +34,8 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import VideoModal from "../utility-modals/VideoModal";
-import { ClipEntry, RecollectionArchiveEntry } from "./types";
+import { RecollectionArchiveEntry } from "./types";
+import { useScrollRestoration } from "@/hooks/useScrollRestoration";
 
 interface VideoArchiveCardProps {
     className?: string;
@@ -47,8 +48,14 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
 
     const closeModal = useViewStore((state) => state.modal.closeModal);
     const openModal = useViewStore((state) => state.modal.openModal);
-    const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
+    const videoUrl = useViewStore((state) => state.modal.videoUrl);
     const locale = useSettingStore((state) => state.locale);
+
+    const { scrollContainerRef, saveScrollPosition, restoreScrollPosition } =
+        useScrollRestoration({
+            smooth: true,
+            shouldRestore: false,
+        });
 
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
@@ -58,14 +65,8 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
 
     const { getRecollectionArchive, getClipsData } = useLocalizedData();
     const data = getRecollectionArchive();
-    const [selectedClip, setSelectedClip] = useState<ClipEntry | null>(null);
 
     const clipsData = getClipsData();
-
-    const handleClipClick = (clip: ClipEntry) => {
-        openVideoModal();
-        setSelectedClip(clip);
-    };
 
     const [activeTab, setActiveTab] = useState<"videos" | "clips" | "texts">(
         "videos",
@@ -90,11 +91,18 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     );
 
     const handleEntryClick = (entry: RecollectionArchiveEntry) => {
+        saveScrollPosition();
         setSelectedEntry(entry);
     };
 
     const handleBackClick = () => {
         setSelectedEntry(null);
+    };
+
+    const handleAnimationComplete = () => {
+        if (!selectedEntry && activeTab === "videos") {
+            restoreScrollPosition();
+        }
     };
 
     const viewerBg = useMemo(() => {
@@ -229,10 +237,12 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                     ) : activeTab === "videos" ? (
                         <motion.div
                             key="archive-grid"
+                            ref={scrollContainerRef}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
+                            onAnimationComplete={handleAnimationComplete}
                             className="grid lg:grid-cols-2 gap-x-4 w-full overflow-y-auto pb-4 h-full px-2 overflow-x-hidden"
                         >
                             {sortedChapters.map((chapterKey) => {
@@ -303,7 +313,6 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                 streams={clipsData.streams}
                                 selectedCategory={selectedClipCategory}
                                 onCategoryChange={setSelectedClipCategory}
-                                onClipClick={handleClipClick}
                             />
                         </motion.div>
                     ) : (
@@ -358,7 +367,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             </div>
 
             <VideoModal
-                videoUrl={selectedClip?.originalUrl || ""}
+                videoUrl={videoUrl || ""}
                 open={openModal === "video"}
                 onClose={closeModal}
                 bgImage={bgImage}
