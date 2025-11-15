@@ -35,6 +35,7 @@ import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import VideoModal from "../utility-modals/VideoModal";
 import { RecollectionArchiveEntry } from "./types";
+import { useScrollRestoration } from "@/hooks/useScrollRestoration";
 
 interface VideoArchiveCardProps {
     className?: string;
@@ -49,6 +50,12 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const openModal = useViewStore((state) => state.modal.openModal);
     const videoUrl = useViewStore((state) => state.modal.videoUrl);
     const locale = useSettingStore((state) => state.locale);
+
+    const { scrollContainerRef, saveScrollPosition, restoreScrollPosition } =
+        useScrollRestoration({
+            smooth: true,
+            shouldRestore: false,
+        });
 
     const [selectedEntry, setSelectedEntry] =
         useState<RecollectionArchiveEntry | null>(null);
@@ -84,11 +91,18 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     );
 
     const handleEntryClick = (entry: RecollectionArchiveEntry) => {
+        saveScrollPosition();
         setSelectedEntry(entry);
     };
 
     const handleBackClick = () => {
         setSelectedEntry(null);
+    };
+
+    const handleAnimationComplete = () => {
+        if (!selectedEntry && activeTab === "videos") {
+            restoreScrollPosition();
+        }
     };
 
     const viewerBg = useMemo(() => {
@@ -223,10 +237,12 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                     ) : activeTab === "videos" ? (
                         <motion.div
                             key="archive-grid"
+                            ref={scrollContainerRef}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
+                            onAnimationComplete={handleAnimationComplete}
                             className="grid lg:grid-cols-2 gap-x-4 w-full overflow-y-auto pb-4 h-full px-2 overflow-x-hidden"
                         >
                             {sortedChapters.map((chapterKey) => {
