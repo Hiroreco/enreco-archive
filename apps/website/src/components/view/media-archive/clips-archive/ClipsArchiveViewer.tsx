@@ -19,7 +19,7 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import { Film, Search, Video } from "lucide-react";
+import { Film, Search, Video, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect, useRef, useCallback } from "react";
@@ -75,6 +75,7 @@ const ClipsArchiveViewer = ({
     const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
     const [isLoading, setIsLoading] = useState(false);
+    const searchInputRef = useRef<HTMLInputElement>(null);
 
     const hasStreams = streams.length > 0;
     const currentData = activeContentType === "clips" ? clips : streams;
@@ -124,6 +125,16 @@ const ClipsArchiveViewer = ({
 
         return ["all", ...sortedCats];
     }, [currentData, selectedChapter]);
+
+    // If category doesn't exist for the switched content type
+    useEffect(() => {
+        if (
+            selectedCategory !== "all" &&
+            !categories.includes(selectedCategory)
+        ) {
+            onCategoryChange("all");
+        }
+    }, [activeContentType, categories, selectedCategory, onCategoryChange]);
 
     const chapters = useMemo(() => {
         const chaps = new Set(currentData.map((clip) => clip.chapter));
@@ -243,12 +254,20 @@ const ClipsArchiveViewer = ({
                 });
             }
         });
-    }, [
-        selectedCategory,
-        activeContentType,
-        selectedChapter,
-        debouncedSearchQuery,
-    ]);
+    }, [selectedCategory, activeContentType, selectedChapter]);
+ 
+    useEffect(() => {
+        setCurrentPage(1);
+
+        requestAnimationFrame(() => {
+            if (contentContainer.current) {
+                contentContainer.current.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            }
+        });
+    }, [debouncedSearchQuery]);
 
     return (
         <div className="flex h-full gap-4">
@@ -292,8 +311,22 @@ const ClipsArchiveViewer = ({
                             placeholder={t("clipArchive.searchPlaceholder")}
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="pl-9 opacity-70"
+                            ref={searchInputRef}
+                            className="pl-9 pr-9 opacity-70"
                         />
+                        {searchQuery !== "" && (
+                            <button
+                                type="button"
+                                aria-label="Clear search"
+                                onClick={() => {
+                                    setSearchQuery("");
+                                    searchInputRef.current?.focus();
+                                }}
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                            >
+                                <X className="size-4" />
+                            </button>
+                        )}
                     </div>
 
                     {hasStreams && (
