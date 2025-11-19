@@ -144,24 +144,35 @@ const TextModal = ({
 
         if (isTextAudioPlaying) {
             stopTextAudio();
-        } else {
-            pauseBGM();
-            playTextAudio(currentEntry.id);
+            return;
         }
+
+        // If some other text is playing, stop it first so we can start this one
+        if (
+            textAudioState.isPlaying &&
+            textAudioState.currentTextId &&
+            textAudioState.currentTextId !== currentEntry.id
+        ) {
+            stopTextAudio();
+        }
+
+        pauseBGM();
+        playTextAudio(currentEntry.id);
     };
 
     const handleModalClose = (open: boolean) => {
         if (!open) {
-            // Modal is closing, stop audio if it's playing
-            if (isTextAudioPlaying) {
+            // Modal is closing, stop any text audio that's currently playing
+            if (textAudioState.isPlaying) {
                 stopTextAudio();
             }
             playBGM();
-            setCurrentEntryIndex(0);
             setShowInfo(false);
         } else {
             // Modal is opening
             playSFX("book");
+            // Reset to first page when opening
+            setCurrentEntryIndex(0);
         }
     };
 

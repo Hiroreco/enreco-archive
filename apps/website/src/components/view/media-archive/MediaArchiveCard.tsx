@@ -29,7 +29,7 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowLeft, BookText, Film, Info, Video } from "lucide-react";
+import { ArrowLeft, BookText, Scissors, Info, Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
@@ -342,7 +342,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
             </CardContent>
 
             {/* Tabs Footer */}
-            <div className="px-6 flex justify-end border-t border-t-foreground/60 py-3">
+            <div className="px-6 flex justify-center border-t border-t-foreground/60 py-3">
                 <Tabs
                     value={activeTab}
                     onValueChange={(v) =>
@@ -357,7 +357,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             </span>
                         </TabsTrigger>
                         <TabsTrigger value="clips" className="gap-2">
-                            <Film className="size-4" />
+                            <Scissors className="size-4" />
                             <span className="hidden sm:inline">
                                 {t("tabs.clips")}
                             </span>

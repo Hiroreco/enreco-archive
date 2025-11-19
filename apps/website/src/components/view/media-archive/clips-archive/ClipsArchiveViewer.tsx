@@ -19,7 +19,7 @@ import {
 } from "@enreco-archive/common-ui/components/tabs";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import { Film, Search, Video, X } from "lucide-react";
+import { Scissors, Search, Film, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect, useRef, useCallback } from "react";
@@ -338,13 +338,13 @@ const ClipsArchiveViewer = ({
                         >
                             <TabsList className="grid grid-cols-2 opacity-90">
                                 <TabsTrigger value="clips" className="gap-2">
-                                    <Film className="size-4" />
+                                    <Scissors className="size-4" />
                                     <span className="hidden md:inline">
                                         {t("clipArchive.tabs.clips")}
                                     </span>
                                 </TabsTrigger>
                                 <TabsTrigger value="streams" className="gap-2">
-                                    <Video className="size-4" />
+                                    <Film className="size-4" />
                                     <span className="hidden md:inline">
                                         {t("clipArchive.tabs.streams")}
                                     </span>
