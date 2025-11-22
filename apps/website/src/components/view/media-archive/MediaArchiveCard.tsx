@@ -46,9 +46,9 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
     const t = useTranslations("mediaArchive");
     const tCommon = useTranslations("common");
 
-    const closeModal = useViewStore((state) => state.modal.closeModal);
-    const openModal = useViewStore((state) => state.modal.openModal);
-    const videoUrl = useViewStore((state) => state.modal.videoUrl);
+    const closeModal = useViewStore((state) => state.closeModal);
+    const openModal = useViewStore((state) => state.openModal);
+    const videoUrl = useViewStore((state) => state.videoUrl);
     const locale = useSettingStore((state) => state.locale);
 
     const { scrollContainerRef, saveScrollPosition, restoreScrollPosition } =

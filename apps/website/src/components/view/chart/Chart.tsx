@@ -108,7 +108,7 @@ function Chart({
 
     const autoPanBack = useSettingStore((state) => state.autoPanBack);
     // For centering the chart when the chapter changes
-    const chapter = useViewStore((state) => state.data.chapter);
+    const chapter = useViewStore((state) => state.chapter);
 
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions<ImageNodeType>) => {

@@ -23,26 +23,26 @@ const ModalCollection = ({
 }: ModalCollectionProps) => {
     const tNavTooltips = useTranslations("navTooltips");
 
-    const openModal = useViewStore((state) => state.modal.openModal);
-    const closeModal = useViewStore((state) => state.modal.closeModal);
-    const chapter = useViewStore((state) => state.data.chapter);
-    const day = useViewStore((state) => state.data.day);
+    const openModal = useViewStore((state) => state.openModal);
+    const closeModal = useViewStore((state) => state.closeModal);
+    const chapter = useViewStore((state) => state.chapter);
+    const day = useViewStore((state) => state.day);
 
-    const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
+    const openInfoModal = useViewStore((state) => state.openInfoModal);
     const openSettingsModal = useViewStore(
-        (state) => state.modal.openSettingsModal,
+        (state) => state.openSettingsModal,
     );
     const openMinigameModal = useViewStore(
-        (state) => state.modal.openMinigameModal,
+        (state) => state.openMinigameModal,
     );
     const openMusicPlayerModal = useViewStore(
-        (state) => state.modal.openMusicPlayerModal,
+        (state) => state.openMusicPlayerModal,
     );
     const openFanartModal = useViewStore(
-        (state) => state.modal.openFanartModal,
+        (state) => state.openFanartModal,
     );
     const openChapterRecapModal = useViewStore(
-        (state) => state.modal.openChapterRecapModal,
+        (state) => state.openChapterRecapModal,
     );
 
     const isHiddenOnMobile = (type: ModalType) =>

@@ -96,76 +96,76 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
 
     // Main App Store
-    const chapter = useViewStore((state) => state.data.chapter);
-    const day = useViewStore((state) => state.data.day);
-    const setDay = useViewStore((state) => state.data.setDay);
-    const setChapter = useViewStore((state) => state.data.setChapter);
+    const chapter = useViewStore((state) => state.chapter);
+    const day = useViewStore((state) => state.day);
+    const setDay = useViewStore((state) => state.setDay);
+    const setChapter = useViewStore((state) => state.setChapter);
 
-    const currentCard = useViewStore((state) => state.ui.currentCard);
-    const openNodeCard = useViewStore((state) => state.ui.openNodeCard);
-    const openEdgeCard = useViewStore((state) => state.ui.openEdgeCard);
-    const openSettingsCard = useViewStore((state) => state.ui.openSettingsCard);
-    const closeCard = useViewStore((state) => state.ui.closeCard);
-    const selectedElement = useViewStore((state) => state.ui.selectedElement);
-    const selectElement = useViewStore((state) => state.ui.selectElement);
-    const deselectElement = useViewStore((state) => state.ui.deselectElement);
+    const currentCard = useViewStore((state) => state.currentCard);
+    const openNodeCard = useViewStore((state) => state.openNodeCard);
+    const openEdgeCard = useViewStore((state) => state.openEdgeCard);
+    const openSettingsCard = useViewStore((state) => state.openSettingsCard);
+    const closeCard = useViewStore((state) => state.closeCard);
+    const selectedElement = useViewStore((state) => state.selectedElement);
+    const selectElement = useViewStore((state) => state.selectElement);
+    const deselectElement = useViewStore((state) => state.deselectElement);
 
     const showOnlyNewEdges = useViewStore(
-        (state) => state.visibility.showOnlyNewEdges,
+        (state) => state.showOnlyNewEdges,
     );
     const setShowOnlyNewEdges = useViewStore(
-        (state) => state.visibility.setShowOnlyNewEdges,
+        (state) => state.setShowOnlyNewEdges,
     );
     const relationshipVisibility = useViewStore(
-        (state) => state.visibility.relationship,
+        (state) => state.relationship,
     );
     const toggleRelationship = useViewStore(
-        (state) => state.visibility.toggleRelationship,
+        (state) => state.toggleRelationship,
     );
     const toggleAllRelationships = useViewStore(
-        (state) => state.visibility.toggleAllRelationships,
+        (state) => state.toggleAllRelationships,
     );
     const setRelationshipKeys = useViewStore(
-        (state) => state.visibility.setRelationshipKeys,
+        (state) => state.setRelationshipKeys,
     );
-    const team = useViewStore((state) => state.visibility.team);
-    const toggleTeam = useViewStore((state) => state.visibility.toggleTeam);
+    const team = useViewStore((state) => state.team);
+    const toggleTeam = useViewStore((state) => state.toggleTeam);
     const toggleAllTeams = useViewStore(
-        (state) => state.visibility.toggleAllTeams,
+        (state) => state.toggleAllTeams,
     );
-    const setTeamKeys = useViewStore((state) => state.visibility.setTeamKeys);
-    const character = useViewStore((state) => state.visibility.character);
+    const setTeamKeys = useViewStore((state) => state.setTeamKeys);
+    const character = useViewStore((state) => state.character);
     const toggleCharacter = useViewStore(
-        (state) => state.visibility.toggleCharacter,
+        (state) => state.toggleCharacter,
     );
     const toggleAllCharacters = useViewStore(
-        (state) => state.visibility.toggleAllCharacters,
+        (state) => state.toggleAllCharacters,
     );
     const setCharacterKeys = useViewStore(
-        (state) => state.visibility.setCharacterKeys,
+        (state) => state.setCharacterKeys,
     );
-    const openModal = useViewStore((state) => state.modal.openModal);
-    const openInfoModal = useViewStore((state) => state.modal.openInfoModal);
+    const openModal = useViewStore((state) => state.openModal);
+    const openInfoModal = useViewStore((state) => state.openInfoModal);
     const openSettingsModal = useViewStore(
-        (state) => state.modal.openSettingsModal,
+        (state) => state.openSettingsModal,
     );
     const openMinigameModal = useViewStore(
-        (state) => state.modal.openMinigameModal,
+        (state) => state.openMinigameModal,
     );
     const openChapterRecapModal = useViewStore(
-        (state) => state.modal.openChapterRecapModal,
+        (state) => state.openChapterRecapModal,
     );
     const openFanartModal = useViewStore(
-        (state) => state.modal.openFanartModal,
+        (state) => state.openFanartModal,
     );
     const openMusicPlayerModal = useViewStore(
-        (state) => state.modal.openMusicPlayerModal,
+        (state) => state.openMusicPlayerModal,
     );
     const openReadCounterModal = useViewStore(
-        (state) => state.modal.openReadCounterModal,
+        (state) => state.openReadCounterModal,
     );
-    const closeModal = useViewStore((state) => state.modal.closeModal);
-    const videoUrl = useViewStore((state) => state.modal.videoUrl);
+    const closeModal = useViewStore((state) => state.closeModal);
+    const videoUrl = useViewStore((state) => state.videoUrl);
 
     // Persisted Store
     const readStatus = usePersistedViewStore((state) => state.readStatus);

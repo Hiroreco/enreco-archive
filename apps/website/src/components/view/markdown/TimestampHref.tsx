@@ -22,8 +22,8 @@ const TimestampHref = ({
     caption,
     children,
 }: TimestampHrefProps) => {
-    const openVideoModal = useViewStore((state) => state.modal.openVideoModal);
-    const setVideoUrl = useViewStore((state) => state.modal.setVideoUrl);
+    const openVideoModal = useViewStore((state) => state.openVideoModal);
+    const setVideoUrl = useViewStore((state) => state.setVideoUrl);
     const pauseBGM = useAudioStore((state) => state.pauseBGM);
     const playBGM = useAudioStore((state) => state.playBGM);
     const embedType = useSettingStore((state) => state.embedType);

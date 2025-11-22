@@ -33,10 +33,10 @@ export const ViewAppWrapper = () => {
     const useDarkMode = useLightDarkModeSwitcher(themeType);
 
     const [appType, setAppType] = useState<AppType>("chart");
-    const chapter = useViewStore((state) => state.data.chapter);
-    const currentCard = useViewStore((state) => state.ui.currentCard);
-    const closeCard = useViewStore((state) => state.ui.closeCard);
-    const deselectElement = useViewStore((state) => state.ui.deselectElement);
+    const chapter = useViewStore((state) => state.chapter);
+    const currentCard = useViewStore((state) => state.currentCard);
+    const closeCard = useViewStore((state) => state.closeCard);
+    const deselectElement = useViewStore((state) => state.deselectElement);
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -44,7 +44,7 @@ export const ViewAppWrapper = () => {
         (state) => state.hasVisitedBefore,
     );
     const openChangeLogModal = useViewStore(
-        (state) => state.modal.openChangeLogModal,
+        (state) => state.openChangeLogModal,
     );
     const isMobile = isMobileViewport();
 

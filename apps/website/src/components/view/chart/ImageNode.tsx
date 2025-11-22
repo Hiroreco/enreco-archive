@@ -51,8 +51,8 @@ const generateHandles = (numOfHandles: number) => [
 const ImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
     const { teams } = useContext(CurrentChapterDataContext);
 
-    const chapter = useViewStore((state) => state.data.chapter);
-    const day = useViewStore((state) => state.data.day);
+    const chapter = useViewStore((state) => state.chapter);
+    const day = useViewStore((state) => state.day);
     const readStatus = usePersistedViewStore((state) => state.readStatus);
 
     const isNodeRead = getReadStatus(readStatus, chapter, day, id);
