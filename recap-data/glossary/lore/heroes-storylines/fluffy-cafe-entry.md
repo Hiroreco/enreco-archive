@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Chapter:** Chapter 2
+**Chapter:** 2
 **Duration:** Day 4 to 7
 
 [Fuwawa](#entry:fuwawa-entry) was a humble, hard-working chef who dreamed of bringing smiles to others through delicious food. Though her dream began with hardship and quiet disappointment, it blossomed into a rare, heartwarming story—arguably the only one of its kind in the entire kingdom.
