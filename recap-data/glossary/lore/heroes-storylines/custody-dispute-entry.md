@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Chapter:** Chapter 2
+**Chapter:** 2
 **Duration:** Day 5
 
 [Peasant the Bae](#entry:bae-entry) had countless moments that cemented her as someone with perhaps the most remarkable character growth in the kingdom. One such moment was the custody dispute with [Koseki Bijou](#entry:bijou-entry)—over a child, with one acting as the adopted parent, and the other being the biological mother who had left it behind.

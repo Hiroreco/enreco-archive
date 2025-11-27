@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Chapter:** Chapter 1
+**Chapter:** 1
 **Duration:** Day 2 to 8
 
 Capitalism, gambling, scamming, things you'd never expect in a kingdom of fantastical wonder and a supposedly heroic tale. And yet, they existed. They were the talk of the realm. And at the heart of it all stood one green entrepreneur and one brown entrepreneur.

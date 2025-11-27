@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Chapter:** Chapter 2
+**Chapter:** 2
 **Duration:** Day 3
 
 Perhaps the strangest storyline of all was the “In-bread Incident,” more infamously known as _“The Libestal Incest Situation Is Crazy.”_ A theory so questionable and convoluted, it made the entire kingdom erupt—and gave everyone a collective headache just trying to comprehend it.
