@@ -5,7 +5,6 @@ import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { memo, useContext, useMemo } from "react";
-import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
 
 import "./ImageNode.css";
 import {
@@ -13,6 +12,7 @@ import {
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { useViewStore } from "@/store/viewStore";
+import { useCurrentTeams } from "@/hooks/data/useCurrentTeams";
 
 const NUM_OF_HANDLES = 5;
 
@@ -49,7 +49,7 @@ const generateHandles = (numOfHandles: number) => [
 ];
 
 const ImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
-    const { teams } = useContext(CurrentChapterDataContext);
+    const teams = useCurrentTeams();
 
     const chapter = useViewStore((state) => state.chapter);
     const day = useViewStore((state) => state.day);

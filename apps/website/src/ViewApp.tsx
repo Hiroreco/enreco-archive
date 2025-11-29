@@ -29,9 +29,6 @@ import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModa
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
-import {
-    CurrentChapterDataContext,
-} from "@/contexts/CurrentChartData";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -325,15 +322,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         [chartShrink],
     );
 
-    /* Memotized values for CurrentChapterDataContext. */
-    const currentChapterContextValue = useMemo(
-        () => ({
-            teams: chapterData.teams,
-            relationships: chapterData.relationships,
-        }),
-        [chapterData.relationships, chapterData.teams],
-    );
-
     useEffect(() => {
         if (!hasVisitedBefore && !isInLoadingScreen) {
             openInfoModal();
@@ -382,94 +370,92 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                <CurrentChapterDataContext value={currentChapterContextValue}>
-                    <Chart
-                        nodes={completeData.nodes}
-                        edges={completeData.edges}
-                        selectedElement={selectedElement}
-                        widthToShrink={chartShrink}
-                        currentCard={currentCard}
-                        onNodeClick={onNodeClick}
-                        onEdgeClick={onEdgeClick}
-                        onPaneClick={onCardClose}
-                    />
-                    <div
-                        className={cn(
-                            "absolute top-0 left-0 w-screen h-full -z-10",
-                            {
-                                "brightness-90 dark:brightness-70":
-                                    currentCard !== null,
-                                "brightness-100": currentCard === null,
-                            },
-                        )}
-                        style={{
-                            backgroundImage: `url('${bgImage}')`,
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            transition:
-                                "brightness 0.5s, background-image 0.3s",
-                        }}
-                    />
-                    <DayRecapCard
-                        isCardOpen={currentCard === "setting"}
-                        onCardClose={onCardClose}
-                        dayRecap={dayData.dayRecap}
-                        nodes={completeData.nodes}
-                        relationshipVisibility={relationshipVisibility}
-                        toggleRelationshipVisible={toggleRelationship}
-                        toggleAllRelationshipVisible={
-                            toggleAllRelationships
-                        }
-                        showOnlyNewEdges={showOnlyNewEdges}
-                        setShowOnlyNewEdges={setShowOnlyNewEdges}
-                        teamVisibility={team}
-                        toggleTeamVisible={toggleTeam}
-                        toggleAllTeamsVisible={toggleAllTeams}
-                        characterVisibility={character}
-                        toggleCharacterVisible={toggleCharacter}
-                        toggleAllCharactersVisible={toggleAllCharacters}
-                        chapter={chapter}
-                        chapterData={chapterData}
-                        setChartShrink={setChartShrinkAndFit}
-                        day={day}
-                        onDayChange={(newDay) => {
-                            changeWorkingData(chapter, newDay);
-                        }}
-                    />
+                <Chart
+                    nodes={completeData.nodes}
+                    edges={completeData.edges}
+                    selectedElement={selectedElement}
+                    widthToShrink={chartShrink}
+                    currentCard={currentCard}
+                    onNodeClick={onNodeClick}
+                    onEdgeClick={onEdgeClick}
+                    onPaneClick={onCardClose}
+                />
+                <div
+                    className={cn(
+                        "absolute top-0 left-0 w-screen h-full -z-10",
+                        {
+                            "brightness-90 dark:brightness-70":
+                                currentCard !== null,
+                            "brightness-100": currentCard === null,
+                        },
+                    )}
+                    style={{
+                        backgroundImage: `url('${bgImage}')`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        transition:
+                            "brightness 0.5s, background-image 0.3s",
+                    }}
+                />
+                <DayRecapCard
+                    isCardOpen={currentCard === "setting"}
+                    onCardClose={onCardClose}
+                    dayRecap={dayData.dayRecap}
+                    nodes={completeData.nodes}
+                    relationshipVisibility={relationshipVisibility}
+                    toggleRelationshipVisible={toggleRelationship}
+                    toggleAllRelationshipVisible={
+                        toggleAllRelationships
+                    }
+                    showOnlyNewEdges={showOnlyNewEdges}
+                    setShowOnlyNewEdges={setShowOnlyNewEdges}
+                    teamVisibility={team}
+                    toggleTeamVisible={toggleTeam}
+                    toggleAllTeamsVisible={toggleAllTeams}
+                    characterVisibility={character}
+                    toggleCharacterVisible={toggleCharacter}
+                    toggleAllCharactersVisible={toggleAllCharacters}
+                    chapter={chapter}
+                    chapterData={chapterData}
+                    setChartShrink={setChartShrinkAndFit}
+                    day={day}
+                    onDayChange={(newDay) => {
+                        changeWorkingData(chapter, newDay);
+                    }}
+                />
 
-                    <NodeCard
-                        isCardOpen={currentCard === "node"}
-                        selectedNode={selectedNode}
-                        nodeTeam={selectedNodeTeam}
-                        charts={chapterData.charts}
-                        chapter={chapter}
-                        day={day}
-                        onCardClose={onCardClose}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
-                        onDayChange={(newDay) => {
-                            changeWorkingData(chapter, newDay);
-                        }}
-                        setChartShrink={setChartShrinkAndFit}
-                    />
+                <NodeCard
+                    isCardOpen={currentCard === "node"}
+                    selectedNode={selectedNode}
+                    nodeTeam={selectedNodeTeam}
+                    charts={chapterData.charts}
+                    chapter={chapter}
+                    day={day}
+                    onCardClose={onCardClose}
+                    onNodeLinkClicked={onNodeClick}
+                    onEdgeLinkClicked={onEdgeClick}
+                    onDayChange={(newDay) => {
+                        changeWorkingData(chapter, newDay);
+                    }}
+                    setChartShrink={setChartShrinkAndFit}
+                />
 
-                    <EdgeCard
-                        isCardOpen={currentCard === "edge"}
-                        selectedEdge={selectedEdge}
-                        edgeRelationship={selectedEdgeRelationship}
-                        charts={chapterData.charts}
-                        chapter={chapter}
-                        day={day}
-                        onCardClose={onCardClose}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
-                        onDayChange={(newDay) => {
-                            changeWorkingData(chapter, newDay);
-                        }}
-                        setChartShrink={setChartShrinkAndFit}
-                    />
-                </CurrentChapterDataContext>
+                <EdgeCard
+                    isCardOpen={currentCard === "edge"}
+                    selectedEdge={selectedEdge}
+                    edgeRelationship={selectedEdgeRelationship}
+                    charts={chapterData.charts}
+                    chapter={chapter}
+                    day={day}
+                    onCardClose={onCardClose}
+                    onNodeLinkClicked={onNodeClick}
+                    onEdgeLinkClicked={onEdgeClick}
+                    onDayChange={(newDay) => {
+                        changeWorkingData(chapter, newDay);
+                    }}
+                    setChartShrink={setChartShrinkAndFit}
+                />
             </div>
 
             <ChangelogModal
