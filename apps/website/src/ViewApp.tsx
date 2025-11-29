@@ -40,7 +40,7 @@ import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useResolvedData } from "./hooks/data/useResolvedData";
+import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -187,7 +187,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const dayData = chapterData.charts[day];
 
     /* Build complete nodes/edges by combining data from previous days and current app state. */
-    const completeData = useResolvedData();
+    const completeData = useCompleteChartData();
 
     /* Helper function to coordinate state updates when data changes. */
     function changeWorkingData(newChapter: number, newDay: number) {

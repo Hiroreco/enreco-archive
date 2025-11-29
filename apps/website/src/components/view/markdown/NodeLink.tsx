@@ -6,7 +6,7 @@ import { ReactNode, useCallback, useContext } from "react";
 import "@/components/view/markdown/ButtonLink.css";
 import { getContrastedColor } from "@/lib/color-utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
-import { useResolvedData } from "@/hooks/data/useResolvedData";
+import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
 
 export type NodeLinkClickHandler = (targetNode: ImageNodeType) => void;
 
@@ -21,7 +21,7 @@ export default function NodeLink({
     children,
     onNodeLinkClick,
 }: NodeLinkProps) {
-    const { nodes } = useResolvedData();
+    const { nodes } = useCompleteChartData();
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
