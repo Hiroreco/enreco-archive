@@ -1,7 +1,6 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
 import {
     CurrentChapterDataContext,
-    CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
 import { useSettingStore } from "@/store/settingStore";
 
@@ -10,6 +9,7 @@ import { ReactNode, useCallback, useContext } from "react";
 import "@/components/view/markdown/ButtonLink.css";
 import { getContrastedColor } from "@/lib/color-utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
+import { useResolvedData } from "@/hooks/data/useResolvedData";
 
 export type EdgeLinkClickHandler = (targetEdge: FixedEdgeType) => void;
 
@@ -24,7 +24,7 @@ export default function EdgeLink({
     children,
     onEdgeLinkClick,
 }: EdgeLinkProps) {
-    const { edges } = useContext(CurrentDayDataContext);
+    const { edges } = useResolvedData();
     const { relationships } = useContext(CurrentChapterDataContext);
 
     // The previous method of tracking the theme based on the document object

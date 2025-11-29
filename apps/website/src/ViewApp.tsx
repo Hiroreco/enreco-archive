@@ -31,7 +31,6 @@ import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
 import {
     CurrentChapterDataContext,
-    CurrentDayDataContext,
 } from "@/contexts/CurrentChartData";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
@@ -44,6 +43,7 @@ import { isEdge, isNode } from "@xyflow/react";
 import { produce } from "immer";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useResolvedData } from "./hooks/data/useResolvedData";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -189,80 +189,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const chapterData = getChapter(chapter);
     const dayData = chapterData.charts[day];
 
-    /* Build initial nodes/edges by combining data from previous days. */
-    const resolvedData = useMemo(() => {
-        return resolveDataForDay(chapterData.charts, day);
-    }, [chapterData.charts, day]);
-
-    /* Set additional properties for nodes. */
-    const completeNodes = useMemo(() => {
-        return produce(resolvedData.nodes, (draft) => {
-            for (const node of draft) {
-                node.hidden = !(
-                    team[node.data.teamId || "null"] && character[node.id]
-                );
-                if (selectedElement) {
-                    if (isNode(selectedElement)) {
-                        node.selected =
-                            node.id === (selectedElement as ImageNodeType).id;
-                    } else if (isEdge(selectedElement)) {
-                        const selectedEdge = selectedElement as FixedEdgeType;
-                        node.selected =
-                            node.id === selectedEdge.target ||
-                            node.id === selectedEdge.source;
-                    }
-                }
-            }
-        });
-    }, [resolvedData.nodes, team, character, selectedElement]);
-
-    /* Set additional properties for edges. */
-    const completeEdges = useMemo(() => {
-        return produce(resolvedData.edges, (draft) => {
-            for (const edge of draft) {
-                const sourceNode = resolvedData.nodes.find(
-                    (n) => n.id === edge.source,
-                );
-                const targetNode = resolvedData.nodes.find(
-                    (n) => n.id === edge.target,
-                );
-
-                const edgesNodesAreVisible =
-                    sourceNode !== undefined &&
-                    targetNode !== undefined &&
-                    (character[sourceNode.id] ?? false) &&
-                    (character[targetNode.id] ?? false) &&
-                    (team[sourceNode.data.teamId] ?? false) &&
-                    (team[targetNode.data.teamId] ?? false);
-
-                edge.hidden = !(
-                    edgesNodesAreVisible &&
-                    edge.data !== undefined &&
-                    relationshipVisibility[edge.data.relationshipId]
-                );
-
-                if (selectedElement && isEdge(selectedElement)) {
-                    const selectedEdge = selectedElement as FixedEdgeType;
-                    edge.selected = edge.id === selectedEdge.id;
-                }
-
-                edge.selectable =
-                    (showOnlyNewEdges &&
-                        edge.data !== undefined &&
-                        edge.data.day === day) ||
-                    !showOnlyNewEdges;
-            }
-        });
-    }, [
-        resolvedData.edges,
-        resolvedData.nodes,
-        character,
-        team,
-        relationshipVisibility,
-        showOnlyNewEdges,
-        selectedElement,
-        day,
-    ]);
+    /* Build complete nodes/edges by combining data from previous days and current app state. */
+    const completeData = useResolvedData();
 
     /* Helper function to coordinate state updates when data changes. */
     function changeWorkingData(newChapter: number, newDay: number) {
@@ -397,21 +325,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         [chartShrink],
     );
 
-    /* Memotized values for CurrentChapterDataContext and CurrentDayDataContext. */
+    /* Memotized values for CurrentChapterDataContext. */
     const currentChapterContextValue = useMemo(
         () => ({
             teams: chapterData.teams,
             relationships: chapterData.relationships,
         }),
         [chapterData.relationships, chapterData.teams],
-    );
-
-    const currentDayContextValue = useMemo(
-        () => ({
-            nodes: resolvedData.nodes,
-            edges: resolvedData.edges,
-        }),
-        [resolvedData.edges, resolvedData.nodes],
     );
 
     useEffect(() => {
@@ -454,9 +374,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     const totalCount = useMemo(
         () =>
-            resolvedData.nodes.filter((node) => node.data.day === day).length +
-            resolvedData.edges.filter((edge) => edge.data?.day === day).length,
-        [resolvedData.nodes, resolvedData.edges, day],
+            completeData.nodes.filter((node) => node.data.day === day).length +
+            completeData.edges.filter((edge) => edge.data?.day === day).length,
+        [completeData.nodes, completeData.edges, day],
     );
 
     return (
@@ -464,8 +384,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <CurrentChapterDataContext value={currentChapterContextValue}>
                     <Chart
-                        nodes={completeNodes}
-                        edges={completeEdges}
+                        nodes={completeData.nodes}
+                        edges={completeData.edges}
                         selectedElement={selectedElement}
                         widthToShrink={chartShrink}
                         currentCard={currentCard}
@@ -491,67 +411,64 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                                 "brightness 0.5s, background-image 0.3s",
                         }}
                     />
+                    <DayRecapCard
+                        isCardOpen={currentCard === "setting"}
+                        onCardClose={onCardClose}
+                        dayRecap={dayData.dayRecap}
+                        nodes={completeData.nodes}
+                        relationshipVisibility={relationshipVisibility}
+                        toggleRelationshipVisible={toggleRelationship}
+                        toggleAllRelationshipVisible={
+                            toggleAllRelationships
+                        }
+                        showOnlyNewEdges={showOnlyNewEdges}
+                        setShowOnlyNewEdges={setShowOnlyNewEdges}
+                        teamVisibility={team}
+                        toggleTeamVisible={toggleTeam}
+                        toggleAllTeamsVisible={toggleAllTeams}
+                        characterVisibility={character}
+                        toggleCharacterVisible={toggleCharacter}
+                        toggleAllCharactersVisible={toggleAllCharacters}
+                        chapter={chapter}
+                        chapterData={chapterData}
+                        setChartShrink={setChartShrinkAndFit}
+                        day={day}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
 
-                    <CurrentDayDataContext value={currentDayContextValue}>
-                        <DayRecapCard
-                            isCardOpen={currentCard === "setting"}
-                            onCardClose={onCardClose}
-                            dayRecap={dayData.dayRecap}
-                            nodes={completeNodes}
-                            relationshipVisibility={relationshipVisibility}
-                            toggleRelationshipVisible={toggleRelationship}
-                            toggleAllRelationshipVisible={
-                                toggleAllRelationships
-                            }
-                            showOnlyNewEdges={showOnlyNewEdges}
-                            setShowOnlyNewEdges={setShowOnlyNewEdges}
-                            teamVisibility={team}
-                            toggleTeamVisible={toggleTeam}
-                            toggleAllTeamsVisible={toggleAllTeams}
-                            characterVisibility={character}
-                            toggleCharacterVisible={toggleCharacter}
-                            toggleAllCharactersVisible={toggleAllCharacters}
-                            chapter={chapter}
-                            chapterData={chapterData}
-                            setChartShrink={setChartShrinkAndFit}
-                            day={day}
-                            onDayChange={(newDay) => {
-                                changeWorkingData(chapter, newDay);
-                            }}
-                        />
+                    <NodeCard
+                        isCardOpen={currentCard === "node"}
+                        selectedNode={selectedNode}
+                        nodeTeam={selectedNodeTeam}
+                        charts={chapterData.charts}
+                        chapter={chapter}
+                        day={day}
+                        onCardClose={onCardClose}
+                        onNodeLinkClicked={onNodeClick}
+                        onEdgeLinkClicked={onEdgeClick}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                        setChartShrink={setChartShrinkAndFit}
+                    />
 
-                        <NodeCard
-                            isCardOpen={currentCard === "node"}
-                            selectedNode={selectedNode}
-                            nodeTeam={selectedNodeTeam}
-                            charts={chapterData.charts}
-                            chapter={chapter}
-                            day={day}
-                            onCardClose={onCardClose}
-                            onNodeLinkClicked={onNodeClick}
-                            onEdgeLinkClicked={onEdgeClick}
-                            onDayChange={(newDay) => {
-                                changeWorkingData(chapter, newDay);
-                            }}
-                            setChartShrink={setChartShrinkAndFit}
-                        />
-
-                        <EdgeCard
-                            isCardOpen={currentCard === "edge"}
-                            selectedEdge={selectedEdge}
-                            edgeRelationship={selectedEdgeRelationship}
-                            charts={chapterData.charts}
-                            chapter={chapter}
-                            day={day}
-                            onCardClose={onCardClose}
-                            onNodeLinkClicked={onNodeClick}
-                            onEdgeLinkClicked={onEdgeClick}
-                            onDayChange={(newDay) => {
-                                changeWorkingData(chapter, newDay);
-                            }}
-                            setChartShrink={setChartShrinkAndFit}
-                        />
-                    </CurrentDayDataContext>
+                    <EdgeCard
+                        isCardOpen={currentCard === "edge"}
+                        selectedEdge={selectedEdge}
+                        edgeRelationship={selectedEdgeRelationship}
+                        charts={chapterData.charts}
+                        chapter={chapter}
+                        day={day}
+                        onCardClose={onCardClose}
+                        onNodeLinkClicked={onNodeClick}
+                        onEdgeLinkClicked={onEdgeClick}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                        setChartShrink={setChartShrinkAndFit}
+                    />
                 </CurrentChapterDataContext>
             </div>
 
@@ -619,8 +536,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
                 day={day}
                 chapter={chapter}
-                nodes={completeNodes}
-                edges={completeEdges}
+                nodes={completeData.nodes}
+                edges={completeData.edges}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />

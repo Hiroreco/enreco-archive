@@ -1,6 +1,4 @@
 import {
-    FixedEdgeType,
-    ImageNodeType,
     RelationshipMap,
     TeamMap,
 } from "@enreco-archive/common/types";
@@ -14,14 +12,4 @@ export type CurrentChapterData = {
 export const CurrentChapterDataContext = createContext<CurrentChapterData>({
     teams: {},
     relationships: {},
-});
-
-export type CurrentDayData = {
-    nodes: ImageNodeType[];
-    edges: FixedEdgeType[];
-};
-
-export const CurrentDayDataContext = createContext<CurrentDayData>({
-    nodes: [],
-    edges: [],
 });
