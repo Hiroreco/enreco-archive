@@ -6,8 +6,8 @@ import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ChartData, ImageNodeType, Team } from "@enreco-archive/common/types";
-import { isMobileViewport } from "@/lib/utils";
+import { ImageNodeType } from "@enreco-archive/common/types";
+import { isMobileViewport, isNode } from "@/lib/utils";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -26,14 +26,12 @@ import {
 import { useTranslations } from "next-intl";
 import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 import { AnimatePresence, motion } from "framer-motion";
+import { useViewStore } from "@/store/viewStore";
+import { useShallow } from "zustand/react/shallow";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 
 interface Props {
     isCardOpen: boolean;
-    selectedNode: ImageNodeType | null;
-    nodeTeam: Team | null;
-    charts: ChartData[];
-    chapter: number;
-    day: number;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
@@ -43,11 +41,6 @@ interface Props {
 
 const NodeCard = ({
     isCardOpen,
-    selectedNode,
-    nodeTeam,
-    charts,
-    chapter,
-    day,
     onCardClose,
     onNodeLinkClicked,
     onEdgeLinkClicked,
@@ -61,6 +54,24 @@ const NodeCard = ({
 
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
+
+    const [
+        selectedNode,
+        chapter,
+        day
+    ] = useViewStore(useShallow(state => {
+        let selectedNode = state.selectedElement !== null && isNode(state.selectedElement) ? state.selectedElement as ImageNodeType : null;
+
+        return [
+            selectedNode,
+            state.chapter,
+            state.day,
+        ]   
+    }));
+
+    const { getChapter } = useLocalizedData();
+    const chapterData = getChapter(chapter);
+    const charts = chapterData.charts;
 
     // Reset scroll position when selectedNode changes
     useEffect(() => {
@@ -84,6 +95,9 @@ const NodeCard = ({
     function onReadChange(isRead: boolean) {
         setReadStatus(chapter, day, selectedNode!.id, isRead);
     }
+
+    const nodeTeamId = selectedNode?.data.teamId ?? null;
+    const nodeTeam = nodeTeamId !== null ? chapterData.teams[nodeTeamId] : null;
 
     const renderContent = selectedNode !== null && nodeTeam !== null;
     if (!renderContent) {

@@ -110,7 +110,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setRelationshipKeys = useViewStore(
         (state) => state.setRelationshipKeys,
     );
-    
+
     const setTeamKeys = useViewStore((state) => state.setTeamKeys);
 
     const setCharacterKeys = useViewStore(
@@ -317,21 +317,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         onBrowserHashChange(browserHash);
     }
 
-    let selectedNodeTeam = null;
-    let selectedEdgeRelationship = null;
     let selectedNode = null;
     let selectedEdge = null;
     if (selectedElement) {
         if (isNode(selectedElement)) {
             selectedNode = selectedElement as ImageNodeType;
-            selectedNodeTeam = chapterData.teams[selectedNode.data.teamId];
         } else if (isEdge(selectedElement)) {
             selectedEdge = selectedElement as FixedEdgeType;
-            const selectedEdgeRelationshipKey =
-                selectedEdge.data?.relationshipId;
-            selectedEdgeRelationship = selectedEdgeRelationshipKey
-                ? chapterData.relationships[selectedEdgeRelationshipKey]
-                : null;
         }
     }
 
@@ -382,11 +374,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
                 <NodeCard
                     isCardOpen={currentCard === "node"}
-                    selectedNode={selectedNode}
-                    nodeTeam={selectedNodeTeam}
-                    charts={chapterData.charts}
-                    chapter={chapter}
-                    day={day}
                     onCardClose={onCardClose}
                     onNodeLinkClicked={onNodeClick}
                     onEdgeLinkClicked={onEdgeClick}
@@ -398,11 +385,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
                 <EdgeCard
                     isCardOpen={currentCard === "edge"}
-                    selectedEdge={selectedEdge}
-                    edgeRelationship={selectedEdgeRelationship}
-                    charts={chapterData.charts}
-                    chapter={chapter}
-                    day={day}
                     onCardClose={onCardClose}
                     onNodeLinkClicked={onNodeClick}
                     onEdgeLinkClicked={onEdgeClick}
