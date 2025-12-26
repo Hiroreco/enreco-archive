@@ -1,7 +1,9 @@
+import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
 import {
     getReadStatus,
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
+import { useViewStore } from "@/store/viewStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
@@ -20,14 +22,11 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo, useState, useEffect } from "react";
+import { useShallow } from "zustand/react/shallow";
 
 interface ReadCounterProps {
     open: boolean;
     onClose: () => void;
-    day: number;
-    chapter: number;
-    nodes: ImageNodeType[];
-    edges: FixedEdgeType[];
     onNodeClick?: (node: ImageNodeType) => void;
     onEdgeClick?: (edge: FixedEdgeType) => void;
 }
@@ -35,10 +34,6 @@ interface ReadCounterProps {
 const ReadCounter = ({
     open,
     onClose,
-    day,
-    chapter,
-    nodes,
-    edges,
     onNodeClick,
     onEdgeClick,
 }: ReadCounterProps) => {
@@ -51,6 +46,16 @@ const ReadCounter = ({
 
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
+
+    const [
+        chapter,
+        day,
+    ] = useViewStore(useShallow(state => [
+        state.chapter,
+        state.day
+    ]));
+
+    const { nodes, edges } = useCompleteChartData();
 
     useEffect(() => {
         if (open) {

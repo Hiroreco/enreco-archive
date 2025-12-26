@@ -7,38 +7,47 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { Chapter } from "@enreco-archive/common/types";
 
-import { CardType } from "@/store/viewStore";
+import { CardType, useViewStore } from "@/store/viewStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslations } from "next-intl";
+import { useShallow } from "zustand/react/shallow";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { useSettingStore } from "@/store/settingStore";
 
 interface TransportControlsProps {
-    chapter: number;
-    chapterData: Chapter[];
-    day: number;
-    numberOfChapters: number;
-    numberOfDays: number;
-    currentCard: CardType;
     onChapterChange: (newChapter: number) => void;
     onDayChange: (newDay: number) => void;
     isAnyModalOpen: boolean;
 }
 
 export default function TransportControls({
-    chapter,
-    chapterData,
-    day,
-    numberOfChapters,
-    numberOfDays,
-    currentCard,
     onChapterChange,
     onDayChange,
     isAnyModalOpen,
 }: TransportControlsProps) {
     const tDynamic = useTranslations("common");
 
+    const [
+        chapter,
+        day,
+        currentCard
+    ] = useViewStore(useShallow(state => [
+        state.chapter,
+        state.day,
+        state.currentCard
+    ]));
+
+    const locale = useSettingStore(state => state.locale);
+
+    const { getSiteData, getChapter } = useLocalizedData();
+    const siteData = getSiteData();
+    const chapterData = siteData.chapters[locale];
+    const numberOfChapters = siteData.numberOfChapters;
+    const numberOfDays = getChapter(chapter).numberOfDays;
+    
     // Keyboard navigation
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {

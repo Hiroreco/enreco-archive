@@ -18,8 +18,10 @@ import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import TechnicalFilters from "./TechnicalFilters";
 import { AnimatePresence, motion } from "framer-motion";
-import { getBlurDataURL } from "@/lib/utils";
+import { getBlurDataURL, isEdge, isNode } from "@/lib/utils";
 import Image from "next/image";
+import { useViewStore } from "@/store/viewStore";
+import { useShallow } from "zustand/react/shallow";
 
 export interface FanartEntry {
     url: string;
@@ -46,9 +48,6 @@ export type SortMode = "game-date" | "date";
 interface FanartModalProps {
     open: boolean;
     onClose: () => void;
-    chapter: number;
-    day: number;
-    initialCharacters?: string[];
 }
 
 interface MasonryColumn {
@@ -61,17 +60,37 @@ const ITEMS_PER_PAGE = 50;
 const FanartModal = ({
     open,
     onClose,
-    chapter,
-    day,
-    initialCharacters,
 }: FanartModalProps) => {
     const t = useTranslations("modals.art.card");
     const locale = useSettingStore((state) => state.locale);
 
+    const [
+        chapter,
+        day,
+        currentCard,
+        selectedElement
+    ] = useViewStore(useShallow(state => [
+        state.chapter,
+        state.day,
+        state.currentCard,
+        state.selectedElement
+    ]));
+
     // State
-    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
-        initialCharacters || ["all"],
-    );
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(() => {
+        if (selectedElement === null) {
+            return ["all"];
+        }
+
+        if (currentCard === "edge" && isEdge(selectedElement)) {
+            const { source, target } = selectedElement;
+            return [source, target];
+        } else if (currentCard === "node" && isNode(selectedElement)) {
+            return [selectedElement.id];
+        } else {
+            return ["all"]
+        }
+    });
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
@@ -94,7 +113,17 @@ const FanartModal = ({
     );
     const [columnCount, setColumnCount] = useState(3);
     const [inclusiveMode, setInclusiveMode] =
-        useState<InclusiveMode>("showAll");
+        useState<InclusiveMode>(() => {
+            if (selectedCharacters && selectedCharacters.length > 0) {
+                if (selectedCharacters.length > 1) {
+                    return "hasAny";
+                } else {
+                    return "showAll";
+                }
+            } else {
+                return "showAll";
+            }
+        });
     const [sortMode, setSortMode] = useState<SortMode>("date");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
@@ -533,20 +562,6 @@ const FanartModal = ({
         videosOnly,
         memesOnly,
     ]);
-
-    useEffect(() => {
-        if (initialCharacters && initialCharacters.length > 0) {
-            setSelectedCharacters(initialCharacters);
-            if (initialCharacters.length > 1) {
-                setInclusiveMode("hasAny");
-            } else {
-                setInclusiveMode("showAll");
-            }
-        } else {
-            setSelectedCharacters(["all"]);
-            setInclusiveMode("showAll");
-        }
-    }, [initialCharacters]);
 
     // Ensure selected characters are valid
     useEffect(() => {

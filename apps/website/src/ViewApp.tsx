@@ -37,7 +37,6 @@ import {
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
-import { produce } from "immer";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
@@ -317,16 +316,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         onBrowserHashChange(browserHash);
     }
 
-    let selectedNode = null;
-    let selectedEdge = null;
-    if (selectedElement) {
-        if (isNode(selectedElement)) {
-            selectedNode = selectedElement as ImageNodeType;
-        } else if (isEdge(selectedElement)) {
-            selectedEdge = selectedElement as FixedEdgeType;
-        }
-    }
-
     const totalCount = useMemo(
         () =>
             completeData.nodes.filter((node) => node.data.day === day).length +
@@ -457,10 +446,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             <ReadCounter
                 open={openModal === "read-counter"}
                 onClose={closeModal}
-                day={day}
-                chapter={chapter}
-                nodes={completeData.nodes}
-                edges={completeData.edges}
                 onEdgeClick={onEdgeClick}
                 onNodeClick={onNodeClick}
             />
@@ -471,17 +456,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             <FanartModal
                 open={openModal === "fanart"}
                 onClose={closeModal}
-                chapter={chapter}
-                day={day}
-                initialCharacters={(() => {
-                    if (currentCard === "edge" && selectedEdge) {
-                        const { source, target } = selectedEdge;
-                        return [source, target];
-                    } else if (currentCard === "node" && selectedNode) {
-                        return [selectedNode.id];
-                    }
-                    return undefined;
-                })()}
             />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
@@ -588,12 +562,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             >
                 <TransportControls
                     isAnyModalOpen={openModal !== null}
-                    chapter={chapter}
-                    chapterData={siteData.chapters[locale]}
-                    day={day}
-                    numberOfChapters={siteData.numberOfChapters}
-                    numberOfDays={chapterData.numberOfDays}
-                    currentCard={currentCard}
                     onChapterChange={(newChapter) => {
                         deselectElement();
                         closeCard();
