@@ -107,37 +107,12 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const selectElement = useViewStore((state) => state.selectElement);
     const deselectElement = useViewStore((state) => state.deselectElement);
 
-    const showOnlyNewEdges = useViewStore(
-        (state) => state.showOnlyNewEdges,
-    );
-    const setShowOnlyNewEdges = useViewStore(
-        (state) => state.setShowOnlyNewEdges,
-    );
-    const relationshipVisibility = useViewStore(
-        (state) => state.relationship,
-    );
-    const toggleRelationship = useViewStore(
-        (state) => state.toggleRelationship,
-    );
-    const toggleAllRelationships = useViewStore(
-        (state) => state.toggleAllRelationships,
-    );
     const setRelationshipKeys = useViewStore(
         (state) => state.setRelationshipKeys,
     );
-    const team = useViewStore((state) => state.team);
-    const toggleTeam = useViewStore((state) => state.toggleTeam);
-    const toggleAllTeams = useViewStore(
-        (state) => state.toggleAllTeams,
-    );
+    
     const setTeamKeys = useViewStore((state) => state.setTeamKeys);
-    const character = useViewStore((state) => state.character);
-    const toggleCharacter = useViewStore(
-        (state) => state.toggleCharacter,
-    );
-    const toggleAllCharacters = useViewStore(
-        (state) => state.toggleAllCharacters,
-    );
+
     const setCharacterKeys = useViewStore(
         (state) => state.setCharacterKeys,
     );
@@ -371,11 +346,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 <Chart
-                    nodes={completeData.nodes}
-                    edges={completeData.edges}
-                    selectedElement={selectedElement}
                     widthToShrink={chartShrink}
-                    currentCard={currentCard}
                     onNodeClick={onNodeClick}
                     onEdgeClick={onEdgeClick}
                     onPaneClick={onCardClose}
@@ -402,24 +373,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     isCardOpen={currentCard === "setting"}
                     onCardClose={onCardClose}
                     dayRecap={dayData.dayRecap}
-                    nodes={completeData.nodes}
-                    relationshipVisibility={relationshipVisibility}
-                    toggleRelationshipVisible={toggleRelationship}
-                    toggleAllRelationshipVisible={
-                        toggleAllRelationships
-                    }
-                    showOnlyNewEdges={showOnlyNewEdges}
-                    setShowOnlyNewEdges={setShowOnlyNewEdges}
-                    teamVisibility={team}
-                    toggleTeamVisible={toggleTeam}
-                    toggleAllTeamsVisible={toggleAllTeams}
-                    characterVisibility={character}
-                    toggleCharacterVisible={toggleCharacter}
-                    toggleAllCharactersVisible={toggleAllCharacters}
-                    chapter={chapter}
                     chapterData={chapterData}
                     setChartShrink={setChartShrinkAndFit}
-                    day={day}
                     onDayChange={(newDay) => {
                         changeWorkingData(chapter, newDay);
                     }}
