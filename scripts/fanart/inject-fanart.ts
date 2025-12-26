@@ -192,6 +192,9 @@ async function main() {
     console.log(
         `📊 Sorted fanart entries by chapter, day, and character order`,
     );
+
+    // Injecting fanart dates
+    runScript("pnpm inject-fanart-dates");
 }
 
 main().catch((err) => {
