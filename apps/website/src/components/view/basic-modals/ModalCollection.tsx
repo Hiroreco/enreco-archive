@@ -26,7 +26,6 @@ const ModalCollection = ({
     const openModal = useViewStore((state) => state.openModal);
     const closeModal = useViewStore((state) => state.closeModal);
     const chapter = useViewStore((state) => state.chapter);
-    const day = useViewStore((state) => state.day);
 
     const openInfoModal = useViewStore((state) => state.openInfoModal);
     const openSettingsModal = useViewStore(
@@ -82,8 +81,6 @@ const ModalCollection = ({
                 <FanartModal
                     open={openModal === "fanart"}
                     onClose={closeModal}
-                    chapter={chapter}
-                    day={day}
                 />
             )}
 
