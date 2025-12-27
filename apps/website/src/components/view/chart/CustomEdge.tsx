@@ -4,7 +4,7 @@ import { generatePath } from "@enreco-archive/common/utils/get-edge-svg-path";
 import { memo, useContext, useEffect, useMemo, useRef, useState } from "react";
 
 import "./CustomEdge.css";
-import { CurrentChapterDataContext } from "@/contexts/CurrentChartData";
+import { useCurrentRelationships } from "@/hooks/data/useCurrentRelationships";
 
 const CustomEdge = ({
     id,
@@ -29,7 +29,7 @@ const CustomEdge = ({
         height: 0,
     });
 
-    const { relationships } = useContext(CurrentChapterDataContext);
+    const relationships = useCurrentRelationships();
     const relationshipStyle = data
         ? (relationships[data?.relationshipId]?.style ?? {})
         : {};

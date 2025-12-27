@@ -18,8 +18,10 @@ import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import TechnicalFilters from "./TechnicalFilters";
 import { AnimatePresence, motion } from "framer-motion";
-import { getBlurDataURL } from "@/lib/utils";
+import { getBlurDataURL, isEdge, isNode } from "@/lib/utils";
 import Image from "next/image";
+import { useViewStore } from "@/store/viewStore";
+import { useShallow } from "zustand/react/shallow";
 
 export interface FanartEntry {
     url: string;
@@ -46,9 +48,6 @@ export type SortMode = "game-date" | "date";
 interface FanartModalProps {
     open: boolean;
     onClose: () => void;
-    chapter: number;
-    day: number;
-    initialCharacters?: string[];
 }
 
 interface MasonryColumn {
@@ -61,17 +60,24 @@ const ITEMS_PER_PAGE = 50;
 const FanartModal = ({
     open,
     onClose,
-    chapter,
-    day,
-    initialCharacters,
 }: FanartModalProps) => {
     const t = useTranslations("modals.art.card");
     const locale = useSettingStore((state) => state.locale);
 
+    const {
+        chapter,
+        day,
+        currentCard,
+        selectedElement
+    } = useViewStore(useShallow(state => ({
+        chapter: state.chapter,
+        day: state.day,
+        currentCard: state.currentCard,
+        selectedElement: state.selectedElement
+    })));
+
     // State
-    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(
-        initialCharacters || ["all"],
-    );
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(["all"]);
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
@@ -93,8 +99,7 @@ const FanartModal = ({
         null,
     );
     const [columnCount, setColumnCount] = useState(3);
-    const [inclusiveMode, setInclusiveMode] =
-        useState<InclusiveMode>("showAll");
+    const [inclusiveMode, setInclusiveMode] = useState<InclusiveMode>("showAll");
     const [sortMode, setSortMode] = useState<SortMode>("date");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
@@ -534,20 +539,6 @@ const FanartModal = ({
         memesOnly,
     ]);
 
-    useEffect(() => {
-        if (initialCharacters && initialCharacters.length > 0) {
-            setSelectedCharacters(initialCharacters);
-            if (initialCharacters.length > 1) {
-                setInclusiveMode("hasAny");
-            } else {
-                setInclusiveMode("showAll");
-            }
-        } else {
-            setSelectedCharacters(["all"]);
-            setInclusiveMode("showAll");
-        }
-    }, [initialCharacters]);
-
     // Ensure selected characters are valid
     useEffect(() => {
         if (
@@ -620,6 +611,24 @@ const FanartModal = ({
             });
         }
     }, [currentLightboxEntryIndex, allFilteredFanart, isLightboxOpen]);
+
+    // This is probably not React-friendly but I honestly can't think of a better to do this for now.
+    useEffect(() => {
+        if(selectedElement !== null) {
+            if (currentCard === "edge" && isEdge(selectedElement)) {
+                const { source, target } = selectedElement;
+                setSelectedCharacters([source, target]);
+                setInclusiveMode("hasAny");
+            } else if (currentCard === "node" && isNode(selectedElement)) {
+                setSelectedCharacters([selectedElement.id]);
+                setInclusiveMode("hasAny");
+            }
+        }
+        else {
+            setSelectedCharacters(["all"]);
+            setInclusiveMode("showAll");
+        }
+    }, [selectedElement]);
 
     return (
         <>

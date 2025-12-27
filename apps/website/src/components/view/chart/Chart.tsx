@@ -26,6 +26,8 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 import "./Chart.css";
 import { usePreviousValue } from "@/hooks/usePreviousValue";
+import { useShallow } from "zustand/react/shallow";
+import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
@@ -79,26 +81,28 @@ const initialFitViewOptions = { padding: 0.5, duration: 1000 };
 const proOptions = { hideAttribution: true };
 
 interface Props {
-    nodes: ImageNodeType[];
-    edges: FixedEdgeType[];
-    selectedElement: ImageNodeType | FixedEdgeType | null;
     widthToShrink: number;
-    currentCard: CardType;
     onNodeClick: (node: ImageNodeType) => void;
     onEdgeClick: (edge: FixedEdgeType) => void;
     onPaneClick: () => void;
 }
 
 function Chart({
-    nodes,
-    edges,
-    selectedElement,
     widthToShrink,
-    currentCard,
     onNodeClick,
     onEdgeClick,
     onPaneClick,
 }: Props) {
+    const {
+        selectedElement,
+        currentCard
+    } = useViewStore(useShallow((state) => ({
+        selectedElement: state.selectedElement,
+        currentCard: state.currentCard
+    })));
+
+    const { nodes, edges } = useCompleteChartData();
+
     const topLeftNode = useMemo(() => findTopLeftNode(nodes), [nodes]);
     const bottomRightNode = useMemo(() => findBottomRightNode(nodes), [nodes]);
 
@@ -108,7 +112,7 @@ function Chart({
 
     const autoPanBack = useSettingStore((state) => state.autoPanBack);
     // For centering the chart when the chapter changes
-    const chapter = useViewStore((state) => state.data.chapter);
+    const chapter = useViewStore((state) => state.chapter);
 
     const fitViewAsync = useCallback(
         async (fitViewOptions?: FitViewOptions<ImageNodeType>) => {
