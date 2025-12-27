@@ -77,20 +77,7 @@ const FanartModal = ({
     })));
 
     // State
-    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(() => {
-        if (selectedElement === null) {
-            return ["all"];
-        }
-
-        if (currentCard === "edge" && isEdge(selectedElement)) {
-            const { source, target } = selectedElement;
-            return [source, target];
-        } else if (currentCard === "node" && isNode(selectedElement)) {
-            return [selectedElement.id];
-        } else {
-            return ["all"]
-        }
-    });
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(["all"]);
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
@@ -112,18 +99,7 @@ const FanartModal = ({
         null,
     );
     const [columnCount, setColumnCount] = useState(3);
-    const [inclusiveMode, setInclusiveMode] =
-        useState<InclusiveMode>(() => {
-            if (selectedCharacters && selectedCharacters.length > 0) {
-                if (selectedCharacters.length > 1) {
-                    return "hasAny";
-                } else {
-                    return "showAll";
-                }
-            } else {
-                return "showAll";
-            }
-        });
+    const [inclusiveMode, setInclusiveMode] = useState<InclusiveMode>("showAll");
     const [sortMode, setSortMode] = useState<SortMode>("date");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
@@ -635,6 +611,24 @@ const FanartModal = ({
             });
         }
     }, [currentLightboxEntryIndex, allFilteredFanart, isLightboxOpen]);
+
+    // This is probably not React-friendly but I honestly can't think of a better to do this for now.
+    useEffect(() => {
+        if(selectedElement !== null) {
+            if (currentCard === "edge" && isEdge(selectedElement)) {
+                const { source, target } = selectedElement;
+                setSelectedCharacters([source, target]);
+                setInclusiveMode("hasAny");
+            } else if (currentCard === "node" && isNode(selectedElement)) {
+                setSelectedCharacters([selectedElement.id]);
+                setInclusiveMode("hasAny");
+            }
+        }
+        else {
+            setSelectedCharacters(["all"]);
+            setInclusiveMode("showAll");
+        }
+    }, [selectedElement]);
 
     return (
         <>
