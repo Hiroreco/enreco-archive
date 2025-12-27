@@ -323,6 +323,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         [completeData.nodes, completeData.edges, day],
     );
 
+    const fanartModalKey = `${selectedElement?.id ?? "default"}-${chapter}-${day}`;
+
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
@@ -454,6 +456,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
             />
             <FanartModal
+                key={fanartModalKey}
                 open={openModal === "fanart"}
                 onClose={closeModal}
             />

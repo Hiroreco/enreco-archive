@@ -64,17 +64,17 @@ const FanartModal = ({
     const t = useTranslations("modals.art.card");
     const locale = useSettingStore((state) => state.locale);
 
-    const [
+    const {
         chapter,
         day,
         currentCard,
         selectedElement
-    ] = useViewStore(useShallow(state => [
-        state.chapter,
-        state.day,
-        state.currentCard,
-        state.selectedElement
-    ]));
+    } = useViewStore(useShallow(state => ({
+        chapter: state.chapter,
+        day: state.day,
+        currentCard: state.currentCard,
+        selectedElement: state.selectedElement
+    })));
 
     // State
     const [selectedCharacters, setSelectedCharacters] = useState<string[]>(() => {

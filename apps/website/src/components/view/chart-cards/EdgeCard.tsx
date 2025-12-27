@@ -57,18 +57,18 @@ const EdgeCard = ({
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
 
-    const [
+    const {
         selectedEdge,
         chapter,
         day,
-    ] = useViewStore(useShallow(state => {
+    } = useViewStore(useShallow(state => {
         let selectedEdge = state.selectedElement !== null && isEdge(state.selectedElement) ? state.selectedElement as FixedEdgeType : null;
 
-        return [
-            selectedEdge,
-            state.chapter,
-            state.day,
-        ]   
+        return {
+            selectedEdge: selectedEdge,
+            chapter: state.chapter,
+            day: state.day,
+        };
     }));
 
     const { getChapter } = useLocalizedData();

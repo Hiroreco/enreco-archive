@@ -55,18 +55,18 @@ const NodeCard = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    const [
+    const {
         selectedNode,
         chapter,
         day
-    ] = useViewStore(useShallow(state => {
+    } = useViewStore(useShallow(state => {
         let selectedNode = state.selectedElement !== null && isNode(state.selectedElement) ? state.selectedElement as ImageNodeType : null;
 
-        return [
-            selectedNode,
-            state.chapter,
-            state.day,
-        ]   
+        return {
+            selectedNode: selectedNode,
+            chapter: state.chapter,
+            day: state.day,
+        };
     }));
 
     const { getChapter } = useLocalizedData();

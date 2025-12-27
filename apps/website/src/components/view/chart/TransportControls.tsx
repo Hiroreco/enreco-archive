@@ -30,15 +30,15 @@ export default function TransportControls({
 }: TransportControlsProps) {
     const tDynamic = useTranslations("common");
 
-    const [
+    const {
         chapter,
         day,
         currentCard
-    ] = useViewStore(useShallow(state => [
-        state.chapter,
-        state.day,
-        state.currentCard
-    ]));
+    } = useViewStore(useShallow(state => ({
+        chapter: state.chapter,
+        day: state.day,
+        currentCard: state.currentCard
+    })));
 
     const locale = useSettingStore(state => state.locale);
 

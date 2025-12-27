@@ -93,13 +93,13 @@ function Chart({
     onEdgeClick,
     onPaneClick,
 }: Props) {
-    const [
+    const {
         selectedElement,
         currentCard
-    ] = useViewStore(useShallow((state) => [
-        state.selectedElement,
-        state.currentCard
-    ]));
+    } = useViewStore(useShallow((state) => ({
+        selectedElement: state.selectedElement,
+        currentCard: state.currentCard
+    })));
 
     const { nodes, edges } = useCompleteChartData();
 

@@ -35,7 +35,7 @@ const DayRecapCard = ({
 }: Props) => {
     const t = useTranslations("cards.dayCard");
 
-    const [
+    const {
         chapter,
         relationshipVisibility,
         toggleRelationshipVisible,
@@ -49,21 +49,21 @@ const DayRecapCard = ({
         toggleCharacterVisible,
         toggleAllCharactersVisible,
         day,
-    ] = useViewStore(useShallow(state => [
-        state.chapter,
-        state.relationship,
-        state.toggleRelationship,
-        state.toggleAllRelationships,
-        state.showOnlyNewEdges,
-        state.setShowOnlyNewEdges,
-        state.team,
-        state.toggleTeam,
-        state.toggleAllTeams,
-        state.character,
-        state.toggleCharacter,
-        state.toggleAllCharacters,
-        state.day
-    ]));
+    } = useViewStore(useShallow(state => ({
+        chapter: state.chapter,
+        relationshipVisibility: state.relationship,
+        toggleRelationshipVisible: state.toggleRelationship,
+        toggleAllRelationshipVisible: state.toggleAllRelationships,
+        showOnlyNewEdges: state.showOnlyNewEdges,
+        setShowOnlyNewEdges: state.setShowOnlyNewEdges,
+        teamVisibility: state.team,
+        toggleTeamVisible: state.toggleTeam,
+        toggleAllTeamsVisible: state.toggleAllTeams,
+        characterVisibility: state.character,
+        toggleCharacterVisible: state.toggleCharacter,
+        toggleAllCharactersVisible: state.toggleAllCharacters,
+        day: state.day,
+    })));
 
     const { nodes } = useCompleteChartData();
 
