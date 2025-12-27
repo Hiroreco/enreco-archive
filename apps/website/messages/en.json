@@ -217,11 +217,11 @@
                 "include": "Include",
                 "showAll": {
                     "label": "All",
-                    "description": "Show all artworks that match all of the selected characters"
+                    "description": "Show all artworks that match any of the selected characters"
                 },
                 "hasAny": {
                     "label": "Any",
-                    "description": "Show artworks that include any of the selected characters"
+                    "description": "Show artworks that include all the selected characters"
                 },
                 "hasOnly": {
                     "label": "Only",
