@@ -9,58 +9,63 @@ import RecapCard from "@/components/view/chart-cards/RecapCard";
 import VisibilityCard from "@/components/view/chart-cards/VisibilityCard";
 import {
     Chapter,
-    ImageNodeType,
-    StringToBooleanObjectMap,
 } from "@enreco-archive/common/types";
 import { isMobileViewport } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { useViewStore } from "@/store/viewStore";
+import { useShallow } from "zustand/react/shallow";
+import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
 
 interface Props {
     isCardOpen: boolean;
     onCardClose: () => void;
-    chapter: number;
     chapterData: Chapter;
     dayRecap: string;
-    nodes: ImageNodeType[];
-    relationshipVisibility: StringToBooleanObjectMap;
-    toggleRelationshipVisible: (edgeId: string, visibility: boolean) => void;
-    toggleAllRelationshipVisible: (visibility: boolean) => void;
-    showOnlyNewEdges: boolean;
-    setShowOnlyNewEdges: (newVal: boolean) => void;
-    teamVisibility: StringToBooleanObjectMap;
-    toggleTeamVisible: (teamId: string, visibility: boolean) => void;
-    toggleAllTeamsVisible: (visibility: boolean) => void;
-    characterVisibility: { [key: string]: boolean };
-    toggleCharacterVisible: (characterId: string, visibility: boolean) => void;
-    toggleAllCharactersVisible: (visibility: boolean) => void;
     setChartShrink: (width: number) => void;
-    day: number;
     onDayChange: (newDay: number) => void;
 }
 
 const DayRecapCard = ({
     isCardOpen,
     onCardClose,
-    chapter,
     chapterData,
     dayRecap,
-    nodes,
-    relationshipVisibility,
-    toggleRelationshipVisible,
-    toggleAllRelationshipVisible,
-    showOnlyNewEdges,
-    setShowOnlyNewEdges,
-    teamVisibility,
-    toggleTeamVisible,
-    toggleAllTeamsVisible,
-    characterVisibility,
-    toggleCharacterVisible,
-    toggleAllCharactersVisible,
     setChartShrink,
-    day,
     onDayChange,
 }: Props) => {
     const t = useTranslations("cards.dayCard");
+
+    const {
+        chapter,
+        relationshipVisibility,
+        toggleRelationshipVisible,
+        toggleAllRelationshipVisible,
+        showOnlyNewEdges,
+        setShowOnlyNewEdges,
+        teamVisibility,
+        toggleTeamVisible,
+        toggleAllTeamsVisible,
+        characterVisibility,
+        toggleCharacterVisible,
+        toggleAllCharactersVisible,
+        day,
+    } = useViewStore(useShallow(state => ({
+        chapter: state.chapter,
+        relationshipVisibility: state.relationship,
+        toggleRelationshipVisible: state.toggleRelationship,
+        toggleAllRelationshipVisible: state.toggleAllRelationships,
+        showOnlyNewEdges: state.showOnlyNewEdges,
+        setShowOnlyNewEdges: state.setShowOnlyNewEdges,
+        teamVisibility: state.team,
+        toggleTeamVisible: state.toggleTeam,
+        toggleAllTeamsVisible: state.toggleAllTeams,
+        characterVisibility: state.character,
+        toggleCharacterVisible: state.toggleCharacter,
+        toggleAllCharactersVisible: state.toggleAllCharacters,
+        day: state.day,
+    })));
+
+    const { nodes } = useCompleteChartData();
 
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {

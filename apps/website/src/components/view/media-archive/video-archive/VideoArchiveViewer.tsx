@@ -28,7 +28,7 @@ const VideoArchiveViewer = ({
     onMediaIndexChange,
 }: VideoArchiveViewerProps) => {
     const t = useTranslations("mediaArchive");
-    const openModal = useViewStore((state) => state.modal.openModal);
+    const openModal = useViewStore((state) => state.openModal);
 
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
