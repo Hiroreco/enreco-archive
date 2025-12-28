@@ -1,5 +1,5 @@
 <!-- title: 公式グッズ - 第2章 -->
-<!-- entries: merch-commemoration_ja, merch-card_ja, merch-holder_ja, merch-mat_ja, merch-stand_ja, merch-pouch -->
+<!-- entries: merch-commemoration_ja, merch-card_ja, merch-holder_ja, merch-mat_ja, merch-stand_ja, merch-pouch_ja -->
 <!-- description: 第2章のために制作された公式グッズ -->
 <!-- thumbnail: merch-commemoration -->
 
