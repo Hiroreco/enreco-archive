@@ -214,3 +214,15 @@ export type EasterEggState = {
 };
 
 export type MediaType = "video" | "image" | "youtube";
+
+export type NewsData = {
+    content: string;
+    date: string;
+    avatarSrc: string;
+    author: string;
+    media: {
+        type: MediaType;
+        src: string;
+    };
+    src: string;
+};
