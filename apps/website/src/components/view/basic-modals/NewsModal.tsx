@@ -23,6 +23,7 @@ import { Calendar, ExternalLink, Search, ArrowUpDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 
 interface NewsModalProps {
     open: boolean;
@@ -50,40 +51,44 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
     });
 
     return (
-        <a
+        <div
             key={index}
-            href={post.src}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm block border border-foreground/20 rounded-lg p-4 hover:bg-accent/30 transition-colors group !text-foreground !visited:text-foreground"
+            className="text-sm border border-foreground/20 rounded-lg p-4 mb-4 w-full"
         >
             {/* Header */}
-            <div className="flex justify-between mb-3">
-                <div className="flex items-center gap-2">
+            <div className="flex justify-between mb-3 gap-2">
+                <div className="flex items-center gap-2 min-w-0 flex-1">
                     {post.avatarSrc && (
                         <Image
                             src={post.avatarSrc}
                             alt="Author Avatar"
                             width={40}
                             height={40}
-                            className="size-[40px] rounded-full object-cover"
+                            className="size-[40px] rounded-full object-cover flex-shrink-0"
                         />
                     )}
-                    <div className="flex flex-col">
-                        <span className="font-bold text-sm">{post.author}</span>
-                        <span className="text-muted-foreground text-xs">
+                    <div className="flex flex-col min-w-0 flex-1">
+                        <span className="font-bold text-sm truncate">
+                            {post.author}
+                        </span>
+                        <span className="text-muted-foreground text-xs truncate">
                             @hololive_En
                         </span>
                     </div>
                 </div>
-
-                <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                <a href={post.src} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="w-4 h-4 text-muted-foreground" />
+                </a>
             </div>
 
             {/* Content */}
-            <p className="mb-3 whitespace-pre-wrap text-sm leading-relaxed">
+            <ViewMarkdown
+                className="mb-3 break-words overflow-hidden"
+                onNodeLinkClicked={() => {}}
+                onEdgeLinkClicked={() => {}}
+            >
                 {post.content}
-            </p>
+            </ViewMarkdown>
 
             {/* Media */}
             {post.media.src && post.media.type === "image" && (
@@ -113,7 +118,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
                 <Calendar className="w-3 h-3" />
                 <span>{formattedDate}</span>
             </div>
-        </a>
+        </div>
     );
 };
 
@@ -202,6 +207,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                     0,
                 );
 
+                // Estimate height based on content
                 const contentHeight = Math.max(150, post.content.length * 0.5);
                 const mediaHeight = post.media.src ? 200 : 0;
                 const estimatedHeight = contentHeight + mediaHeight + 150;
@@ -273,8 +279,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
             const width = window.innerWidth;
             if (width < 768) setColumnCount(1);
             else if (width < 1024) setColumnCount(2);
-            else if (width < 1280) setColumnCount(3);
-            else setColumnCount(4);
+            else setColumnCount(3);
         };
 
         updateColumnCount();
@@ -313,7 +318,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
             </VisuallyHidden>
             <DialogContent
                 showXButton={true}
-                className="rounded-lg w-full max-w-[95vw] lg:max-w-[800px] h-[90vh] flex flex-col p-6"
+                className="rounded-lg w-full max-w-[95vw] lg:max-w-[1200px] h-[90vh] flex flex-col p-6"
                 backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
@@ -322,7 +327,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="flex flex-col flex-1 overflow-y-auto gap-4">
+                <div className="flex flex-col flex-1 overflow-hidden gap-4">
                     <div className="border-b border-foreground/20 pb-4">
                         <h2 className="text-2xl font-bold text-center">
                             ENreco News
@@ -390,18 +395,18 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
                     <div
                         ref={setContentContainerRef}
-                        className="flex-1 overflow-y-auto pr-2"
+                        className="flex-1 overflow-y-scroll overflow-x-hidden pr-2"
                     >
                         {paginatedNews.length === 0 ? (
                             <div className="flex items-center justify-center h-full text-muted-foreground">
                                 No news posts found
                             </div>
                         ) : (
-                            <div className="flex gap-4 items-start">
+                            <div className="flex gap-4 items-start w-full">
                                 {masonryColumns.map((column, colIndex) => (
                                     <div
                                         key={colIndex}
-                                        className="flex-1 flex flex-col gap-4"
+                                        className="flex-1 flex flex-col min-w-0"
                                     >
                                         {column.items.map(({ post, index }) => (
                                             <NewsPostItem
@@ -425,7 +430,9 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
                 <DialogFooter className="border-t pt-4">
                     <DialogClose asChild>
-                        <Button className="min-w-20">{tCommon("close")}</Button>
+                        <Button className="md:hidden min-w-20">
+                            {tCommon("close")}
+                        </Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

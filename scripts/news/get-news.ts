@@ -11,7 +11,7 @@ async function extractTwitterLinks(mdPath: string): Promise<string[]> {
 
     // Match Twitter/X links
     const LINK_RE =
-        /https?:\/\/(?:www\.)?(?:twitter|x)\.com\/[^\/]+\/status\/\d+/gi;
+        /https?:\/\/(?:www\.)?(?:twitter|x)\.com\/[^\/]+\/status\/(\d+)/gi;
 
     let match;
     while ((match = LINK_RE.exec(text))) {
@@ -187,10 +187,21 @@ async function main() {
 
     // Get list of existing markdown files
     const existingFiles = await fs.readdir(OUT_DIR);
-    const existingCount = existingFiles.filter((f) =>
-        f.startsWith("news-"),
-    ).length;
-    console.log(`📦 Found ${existingCount} existing news markdown files`);
+    const existingLinks = new Set<string>();
+
+    // Extract existing links from filenames
+    for (const file of existingFiles) {
+        if (file.startsWith("news-") && file.endsWith(".md")) {
+            const filePath = path.join(OUT_DIR, file);
+            const content = await fs.readFile(filePath, "utf-8");
+            const srcMatch = content.match(/<!-- src: (.+) -->/);
+            if (srcMatch) {
+                existingLinks.add(srcMatch[1]);
+            }
+        }
+    }
+
+    console.log(`📦 Found ${existingLinks.size} existing news links`);
 
     // Extract links from news.md
     const links = await extractTwitterLinks(NEWS_MD);
@@ -217,21 +228,17 @@ async function main() {
     let skippedCount = 0;
 
     for (const link of links) {
+        if (existingLinks.has(link)) {
+            console.log(`  ↻ Skipping ${link} (already processed)`);
+            skippedCount++;
+            continue;
+        }
+
         const postData = await scrapeNewsPost(link, page);
 
         if (postData) {
-            const dateSlug = formatDateForFilename(postData.date);
-            const filename = `news-${dateSlug}.md`;
-            const filepath = path.join(OUT_DIR, filename);
-
-            try {
-                await fs.access(filepath);
-                console.log(`  ↻ Skipping ${filename} (already exists)`);
-                skippedCount++;
-            } catch {
-                await saveAsMarkdown(postData, OUT_DIR);
-                scrapedCount++;
-            }
+            await saveAsMarkdown(postData, OUT_DIR);
+            scrapedCount++;
         }
 
         // Throttle to avoid rate limiting
