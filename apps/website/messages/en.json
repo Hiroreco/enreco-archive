@@ -319,7 +319,8 @@
         "minigames": "Minigames",
         "chapterRecap": "Chapter Recap",
         "jukebox": "Jukebox",
-        "libestalGallery": "Libestal Gallery"
+        "libestalGallery": "Libestal Gallery",
+        "news": "News"
     },
     "constants": {
         "Amber Coin": "Amber Coin",
