@@ -35,6 +35,8 @@
         "color-space": "^2.3.2",
         "framer-motion": "^12.12.1",
         "howler": "^2.2.4",
+        "html2canvas": "^1.4.1",
+        "html2canvas-pro": "^1.6.5",
         "immer": "catalog:",
         "lodash": "^4.17.21",
         "lucide-react": "catalog:",
