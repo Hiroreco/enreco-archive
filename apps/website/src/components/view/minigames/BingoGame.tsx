@@ -1,11 +1,29 @@
 import BingoEditor from "@/components/view/minigames/BingoEditor";
 import BingoExport from "@/components/view/minigames/BingoExport";
+import { LS_KEYS } from "@/lib/constants";
 import { Button } from "@enreco-archive/common-ui/components/button";
-import { CheckSquare, Download, Edit } from "lucide-react";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@enreco-archive/common-ui/components/dialog";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { CheckSquare, Download, Edit, Eye } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const INITIAL_BOARD = Array(25).fill("");
+/* =======================
+   Constants & Utils
+======================= */
+
+const createInitialBoard = () => {
+    const board = Array(25).fill("");
+    board[12] = "Free!"; // Center square
+    return board;
+};
 
 export const getFontSizeClass = (text: string) => {
     const length = text.length;
@@ -20,11 +38,43 @@ export const getFontSizeClass = (text: string) => {
 
 const BingoGame = () => {
     const t = useTranslations("modals.minigames.games.bingo");
-    const [board, setBoard] = useState<string[]>(INITIAL_BOARD);
+    const [board, setBoard] = useState<string[]>(createInitialBoard());
     const [marked, setMarked] = useState<boolean[]>(Array(25).fill(false));
     const [isEditMode, setIsEditMode] = useState(true);
     const [editingIndex, setEditingIndex] = useState<number | null>(null);
+    const [previewOpen, setPreviewOpen] = useState(false);
     const exportRef = useRef<HTMLDivElement>(null);
+
+    // Load from localStorage on mount
+    useEffect(() => {
+        const savedBoard = localStorage.getItem(LS_KEYS.BINGO_BOARD);
+        const savedMarked = localStorage.getItem(LS_KEYS.BINGO_MARKED);
+
+        if (savedBoard) {
+            try {
+                setBoard(JSON.parse(savedBoard));
+            } catch (e) {
+                console.error("Failed to parse saved board:", e);
+            }
+        }
+
+        if (savedMarked) {
+            try {
+                setMarked(JSON.parse(savedMarked));
+            } catch (e) {
+                console.error("Failed to parse saved marked:", e);
+            }
+        }
+    }, []);
+
+    // Save to localStorage when board or marked changes
+    useEffect(() => {
+        localStorage.setItem(LS_KEYS.BINGO_BOARD, JSON.stringify(board));
+    }, [board]);
+
+    useEffect(() => {
+        localStorage.setItem(LS_KEYS.BINGO_MARKED, JSON.stringify(marked));
+    }, [marked]);
 
     const handleSquareClick = (index: number) => {
         if (isEditMode) {
@@ -36,6 +86,11 @@ const BingoGame = () => {
                 return next;
             });
         }
+    };
+
+    const handleReset = () => {
+        setBoard(createInitialBoard());
+        setMarked(Array(25).fill(false));
     };
 
     const downloadBingo = async () => {
@@ -83,9 +138,40 @@ const BingoGame = () => {
                     <CheckSquare className="w-4 h-4 mr-2" />
                     {t("markMode")}
                 </Button>
+
+                <div className="h-px bg-border my-1" />
+
+                <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
+                    <DialogTrigger asChild>
+                        <Button size="sm" variant="outline">
+                            <Eye className="w-4 h-4 mr-2" />
+                            {t("preview")}
+                        </Button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-[650px] p-6">
+                        <VisuallyHidden>
+                            <DialogHeader>
+                                <DialogTitle>{t("previewTitle")}</DialogTitle>
+                                <DialogDescription>
+                                    {t("previewDescription")}
+                                </DialogDescription>
+                            </DialogHeader>
+                        </VisuallyHidden>
+                        <div className="flex justify-center">
+                            <div style={{ transform: "scale(0.9)" }}>
+                                <BingoExport board={board} marked={marked} />
+                            </div>
+                        </div>
+                    </DialogContent>
+                </Dialog>
+
                 <Button size="sm" onClick={downloadBingo}>
                     <Download className="w-4 h-4 mr-2" />
                     {t("download")}
+                </Button>
+
+                <Button size="sm" variant="destructive" onClick={handleReset}>
+                    {t("reset")}
                 </Button>
             </div>
 

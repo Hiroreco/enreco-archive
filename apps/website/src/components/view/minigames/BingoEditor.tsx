@@ -24,7 +24,6 @@ const BingoEditor = ({
         <div className="grid grid-cols-5 gap-1 bg-white/10 p-2 rounded border border-gray-300 dark:border-gray-700">
             {board.map((text, index) => {
                 const isMarked = marked[index];
-                const isCenter = index === 12;
                 const isEditing = editingIndex === index;
 
                 return (
@@ -35,10 +34,8 @@ const BingoEditor = ({
                             "size-16 md:size-20 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
                             "flex flex-col items-center justify-center transition-all",
                             {
-                                "bg-blue-500/60": isMarked && !isCenter,
-                                "bg-white dark:bg-gray-800":
-                                    !isMarked && !isCenter,
-                                "bg-yellow-400 dark:bg-yellow-500": isCenter,
+                                "bg-blue-500/60": isMarked,
+                                "bg-white dark:bg-gray-800": !isMarked,
                                 "hover:bg-gray-100 dark:hover:bg-gray-700":
                                     isEditMode && !isMarked,
                                 "hover:bg-blue-400/40":
@@ -46,9 +43,7 @@ const BingoEditor = ({
                             },
                         )}
                     >
-                        {isCenter ? (
-                            <span className="text-2xl font-bold">★</span>
-                        ) : isEditing && isEditMode ? (
+                        {isEditing && isEditMode ? (
                             <textarea
                                 autoFocus
                                 value={text}
@@ -77,7 +72,7 @@ const BingoEditor = ({
                             </div>
                         )}
 
-                        {isMarked && !isCenter && (
+                        {isMarked && (
                             <div className="absolute inset-0 pointer-events-none">
                                 <div className="absolute inset-0 bg-red-600 rotate-45 h-0.5 m-auto" />
                                 <div className="absolute inset-0 bg-red-600 -rotate-45 h-0.5 m-auto" />
