@@ -19,11 +19,20 @@ import {
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { NewsData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { Calendar, ExternalLink, Search, ArrowUpDown } from "lucide-react";
+import {
+    Calendar,
+    ExternalLink,
+    Search,
+    ArrowUpDown,
+    ChevronDown,
+    ChevronUp,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import Lightbox from "@/components/view/lightbox/Lightbox";
 
 interface NewsModalProps {
     open: boolean;
@@ -41,14 +50,26 @@ interface NewsPostItemProps {
 }
 
 const ITEMS_PER_PAGE = 20;
+const MAX_CONTENT_HEIGHT = 100; // pixels
 
 const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+    const [needsExpansion, setNeedsExpansion] = useState(false);
+    const contentRef = useRef<HTMLDivElement>(null);
+
     const postDate = new Date(post.date);
     const formattedDate = postDate.toLocaleDateString("en-US", {
         year: "numeric",
         month: "short",
         day: "numeric",
     });
+
+    useEffect(() => {
+        if (contentRef.current) {
+            const contentHeight = contentRef.current.scrollHeight;
+            setNeedsExpansion(contentHeight > MAX_CONTENT_HEIGHT);
+        }
+    }, [post.content]);
 
     return (
         <div
@@ -82,18 +103,58 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
             </div>
 
             {/* Content */}
-            <ViewMarkdown
-                className="mb-3 break-words overflow-hidden"
-                onNodeLinkClicked={() => {}}
-                onEdgeLinkClicked={() => {}}
-            >
-                {post.content}
-            </ViewMarkdown>
+            <div className="relative">
+                <div
+                    ref={contentRef}
+                    className={cn(
+                        "mb-3 break-words overflow-hidden transition-all duration-300",
+                        !isExpanded && needsExpansion && "max-h-[100px]",
+                    )}
+                    style={{
+                        maxHeight:
+                            !isExpanded && needsExpansion
+                                ? `${MAX_CONTENT_HEIGHT}px`
+                                : "none",
+                    }}
+                >
+                    <ViewMarkdown
+                        className="break-words overflow-hidden"
+                        onNodeLinkClicked={() => {}}
+                        onEdgeLinkClicked={() => {}}
+                    >
+                        {post.content}
+                    </ViewMarkdown>
+                </div>
+
+                {/* Show more/less gradient overlay and button */}
+                {needsExpansion && !isExpanded && (
+                    <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-background to-transparent pointer-events-none mb-4" />
+                )}
+
+                {needsExpansion && (
+                    <button
+                        onClick={() => setIsExpanded(!isExpanded)}
+                        className="flex items-center gap-1 text-xs text-primary hover:underline mt-1 mb-2"
+                    >
+                        {isExpanded ? (
+                            <>
+                                <span>Show less</span>
+                                <ChevronUp className="w-3 h-3" />
+                            </>
+                        ) : (
+                            <>
+                                <span>Show more</span>
+                                <ChevronDown className="w-3 h-3" />
+                            </>
+                        )}
+                    </button>
+                )}
+            </div>
 
             {/* Media */}
             {post.media.src && post.media.type === "image" && (
                 <div className="rounded-lg overflow-hidden border border-foreground/10 mb-3">
-                    <Image
+                    <Lightbox
                         src={post.media.src}
                         alt="Post media"
                         width={600}
@@ -328,15 +389,6 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                 </VisuallyHidden>
 
                 <div className="flex flex-col flex-1 overflow-hidden gap-4">
-                    <div className="border-b border-foreground/20 pb-4">
-                        <h2 className="text-2xl font-bold text-center">
-                            ENreco News
-                        </h2>
-                        <p className="text-sm text-muted-foreground mt-1 text-center">
-                            Latest updates and announcements
-                        </p>
-                    </div>
-
                     <div className="flex flex-col sm:flex-row gap-3">
                         <div className="relative flex-1">
                             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />

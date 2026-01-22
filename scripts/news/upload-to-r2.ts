@@ -120,15 +120,8 @@ async function main() {
         const entryFiles = await fs.readdir(ENTRIES_DIR);
         const matchingEntry = entryFiles.find((f) => {
             if (!f.endsWith(".md")) return false;
-            try {
-                const content = require("fs").readFileSync(
-                    path.join(ENTRIES_DIR, f),
-                    "utf-8",
-                );
-                return content.includes(`status/${postId}`);
-            } catch {
-                return false;
-            }
+            const filePostID = extractPostIdFromFilename(f);
+            return filePostID === postId;
         });
 
         if (matchingEntry) {
