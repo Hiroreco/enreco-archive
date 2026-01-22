@@ -175,12 +175,15 @@
                     "label": "Bingo Maker (Chapter 3)",
                     "intro": "Create your own <bold>ENigmatic Recollection Bingo</bold> sheet for the upcoming Chapter 3: Broken Bonds! Fill in the squares with predictions, moments you want to see, or inside jokes from the community.",
                     "howToUse": "How to use:",
-                    "editModeDesc": "<bold>Edit Mode:</bold> Click on any square to edit its text. Press Enter or click outside to save.",
+                    "editModeDesc": "<bold>Edit Mode:</bold> Click on any square to edit its text. Click outside to save.",
                     "markModeDesc": "<bold>Mark Mode:</bold> Click on squares to mark them as complete during streams.",
                     "downloadDesc": "<bold>Download:</bold> Save your bingo sheet as an image to share with friends!",
-                    "tips": "The center square is automatically marked as a free space. Get creative with your predictions and have fun!",
+                    "tips": "The center square defaults to 'Free!' but you can change it. Your bingo board is automatically saved, so you can come back anytime!",
                     "editMode": "Edit Mode",
                     "markMode": "Mark Mode",
+                    "preview": "Preview",
+                    "previewTitle": "Bingo Preview",
+                    "previewDescription": "Preview how your bingo will look when downloaded",
                     "download": "Download",
                     "reset": "Reset"
                 }

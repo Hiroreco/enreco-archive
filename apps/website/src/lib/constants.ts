@@ -2,6 +2,8 @@ export const LS_KEYS = {
     GAMBLING_HS: "gambling-hs",
     MEMORY_HS: "memory-hs",
     CHICKEN_HS: "chicken-hs",
+    BINGO_BOARD: "bingo-board",
+    BINGO_MARKED: "bingo-marked",
     HAS_VISITED: "has-visited-2",
     SHIORI_STASH_UNLOCKED: "shiori-stash-unlocked",
     AWOO_EASTER_EGG_COUNT: "awoo-easter-egg-count",
