@@ -1,9 +1,19 @@
 import fs from "fs/promises";
 import path from "path";
 import puppeteer from "puppeteer";
+import { exec } from "child_process";
+import { promisify } from "util";
+
+const execAsync = promisify(exec);
 
 const NEWS_MD = path.resolve(process.cwd(), "apps", "news-data", "news.md");
 const OUT_DIR = path.resolve(process.cwd(), "apps", "news-data", "entries");
+const VIDEO_OUT_DIR = path.resolve(
+    process.cwd(),
+    "apps",
+    "news-data",
+    "videos",
+);
 
 async function extractTwitterLinks(mdPath: string): Promise<string[]> {
     const text = await fs.readFile(mdPath, "utf-8");
@@ -19,6 +29,32 @@ async function extractTwitterLinks(mdPath: string): Promise<string[]> {
     }
 
     return links;
+}
+
+async function downloadVideoWithYtDlp(
+    url: string,
+    outputPath: string,
+): Promise<boolean> {
+    try {
+        // Check if yt-dlp is installed
+        await execAsync("yt-dlp --version");
+    } catch (error) {
+        throw new Error(
+            "yt-dlp is not installed. Please install it: pip install yt-dlp",
+        );
+    }
+
+    const outputDir = path.dirname(outputPath);
+    const outputName = path.basename(outputPath, path.extname(outputPath));
+
+    try {
+        const command = `yt-dlp "${url}" -o "${path.join(outputDir, outputName)}.%(ext)s" --format "best[ext=mp4]" --no-playlist`;
+        await execAsync(command);
+        return true;
+    } catch (error) {
+        console.warn(`  ⚠ Failed to download video with yt-dlp`);
+        return false;
+    }
 }
 
 async function scrapeNewsPost(url: string, page: any): Promise<any | null> {
@@ -84,10 +120,8 @@ async function scrapeNewsPost(url: string, page: any): Promise<any | null> {
 
             if (hasVideo) {
                 mediaType = "video";
-                const videoSource = article.querySelector("video source");
-                mediaSrc = videoSource
-                    ? videoSource.getAttribute("src") || ""
-                    : "";
+                // We'll download the video separately, so leave mediaSrc empty for now
+                mediaSrc = "";
             } else if (mediaImages.length > 0) {
                 mediaType = "image";
                 const firstImage = mediaImages[0] as HTMLImageElement;
@@ -108,6 +142,7 @@ async function scrapeNewsPost(url: string, page: any): Promise<any | null> {
                 datetime,
                 mediaSrc,
                 mediaType,
+                hasVideo,
             };
         });
 
@@ -124,6 +159,7 @@ async function scrapeNewsPost(url: string, page: any): Promise<any | null> {
             avatarSrc: postData.avatarSrc,
             mediaType: postData.mediaType,
             mediaSrc: postData.mediaSrc,
+            hasVideo: postData.hasVideo,
             src: url,
         };
     } catch (err: any) {
@@ -132,20 +168,14 @@ async function scrapeNewsPost(url: string, page: any): Promise<any | null> {
     }
 }
 
-function formatDateForFilename(dateString: string): string {
-    const date = new Date(dateString);
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, "0");
-    const day = String(date.getDate()).padStart(2, "0");
-    const hours = String(date.getHours()).padStart(2, "0");
-    const minutes = String(date.getMinutes()).padStart(2, "0");
-    const seconds = String(date.getSeconds()).padStart(2, "0");
-    return `${year}-${month}-${day}-${hours}${minutes}${seconds}`;
+function extractPostIdFromUrl(url: string): string {
+    const match = url.match(/status\/(\d+)/);
+    return match ? match[1] : "";
 }
 
 async function saveAsMarkdown(postData: any, outDir: string): Promise<void> {
-    const dateSlug = formatDateForFilename(postData.date);
-    const filename = `news-${dateSlug}.md`;
+    const postId = extractPostIdFromUrl(postData.src);
+    const filename = `news-${postId}.md`;
     const filepath = path.join(outDir, filename);
 
     // Check if file already exists
@@ -182,8 +212,9 @@ async function saveAsMarkdown(postData: any, outDir: string): Promise<void> {
 async function main() {
     console.log("📰 Starting news scraper...");
 
-    // Ensure output directory exists
+    // Ensure output directories exist
     await fs.mkdir(OUT_DIR, { recursive: true });
+    await fs.mkdir(VIDEO_OUT_DIR, { recursive: true });
 
     // Get list of existing markdown files
     const existingFiles = await fs.readdir(OUT_DIR);
@@ -237,6 +268,32 @@ async function main() {
         const postData = await scrapeNewsPost(link, page);
 
         if (postData) {
+            // If it has a video, download it
+            if (postData.hasVideo) {
+                const postId = extractPostIdFromUrl(link);
+                const videoFileName = `news-${postId}.mp4`;
+                const videoPath = path.join(VIDEO_OUT_DIR, videoFileName);
+
+                console.log(`  📹 Downloading video with yt-dlp...`);
+                const downloaded = await downloadVideoWithYtDlp(
+                    link,
+                    videoPath,
+                );
+
+                if (downloaded) {
+                    // Find the actual downloaded file (yt-dlp might change extension)
+                    const files = await fs.readdir(VIDEO_OUT_DIR);
+                    const downloadedFile = files.find((f) =>
+                        f.startsWith(`news-${postId}.`),
+                    );
+
+                    if (downloadedFile) {
+                        console.log(`  ✅ Downloaded video: ${downloadedFile}`);
+                        // Leave mediaSrc empty - will be filled by upload-news-to-r2 script
+                    }
+                }
+            }
+
             await saveAsMarkdown(postData, OUT_DIR);
             scrapedCount++;
         }

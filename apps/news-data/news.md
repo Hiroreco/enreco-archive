@@ -4,10 +4,8 @@ https://x.com/hololive_En/status/1923211813405028817
 https://x.com/hololive_En/status/1921737752477082075
 https://x.com/hololive_En/status/1921414964621058243
 https://x.com/hololive_En/status/1921369667228094754
-https://x.com/hololive_En/status/1921737752477082075
 https://x.com/hololive_En/status/1921324375841681807
 https://x.com/hololive_En/status/1921007285247099355
-https://x.com/hololive_En/status/1921737752477082075
 https://x.com/hololive_En/status/1920644897377562852
 https://x.com/hololive_En/status/1920327802626212086
 https://x.com/hololive_En/status/1920282506890281078
@@ -60,7 +58,6 @@ https://x.com/hololive_En/status/1831150187605049574
 https://x.com/hololive_En/status/1830818002117538053
 https://x.com/hololive_En/status/1830787800968638636
 https://x.com/hololive_En/status/1830455613308244461
-https://x.com/hololive_En/status/1830818002117538053
 https://x.com/hololive_En/status/1830425412440404160
 https://x.com/hololive_En/status/1830130971141902566
 https://x.com/hololive_En/status/1830123426922840411

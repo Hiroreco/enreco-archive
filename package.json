@@ -48,9 +48,13 @@
         "fetch-inject-fanfic": "tsx scripts/fanfic/fetch-inject-fanfic.ts",
         "match-structure": "tsx scripts/misc/match-structure.ts",
         "get-news": "tsx scripts/news/get-news.ts",
-        "inject-news": "tsx scripts/news/inject-news.ts"
+        "upload-to-r2": "tsx scripts/news/upload-to-r2.ts",
+        "inject-news": "tsx scripts/news/inject-news.ts",
+        "find-missing": "tsx scripts/news/find-missing.ts",
+        "rename-news-entries": "tsx scripts/news/rename-news-entries.ts"
     },
     "devDependencies": {
+        "@aws-sdk/client-s3": "^3.972.0",
         "@enreco-archive/common": "workspace:*",
         "@enreco-archive/eslint-config": "workspace:*",
         "@enreco-archive/prettier-config": "workspace:*",
