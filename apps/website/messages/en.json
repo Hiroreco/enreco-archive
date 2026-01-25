@@ -272,6 +272,15 @@
             "description": "Here are the latest changes to the Archive",
             "seeAllLogs": "See all changelogs <link>here</link>",
             "forQuestions": "For questions or to report issues, contact <link>@hiroavrs</link>"
+        },
+        "news": {
+            "searchPlaceholder": "Search news...",
+            "sortOptions": {
+                "newest": "Newest First",
+                "oldest": "Oldest First"
+            },
+            "noResults": "No news articles found.",
+            "allAuthors": "All Authors"
         }
     },
     "cards": {

@@ -184,7 +184,9 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
 };
 
 const NewsModal = ({ open, onClose }: NewsModalProps) => {
+    const t = useTranslations("modals.news");
     const tCommon = useTranslations("common");
+
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const [searchQuery, setSearchQuery] = useState("");
@@ -387,7 +389,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
                             <Input
                                 type="text"
-                                placeholder="Search news..."
+                                placeholder={t("searchPlaceholder")}
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
                                 className="pl-10"
@@ -404,7 +406,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                 </SelectTrigger>
                                 <SelectContent>
                                     <SelectItem value="all">
-                                        All Authors
+                                        {t("allAuthors")}
                                     </SelectItem>
                                     {authors.map((author) => (
                                         <SelectItem key={author} value={author}>
@@ -421,8 +423,8 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                 onClick={toggleSortOrder}
                                 title={
                                     sortOrder === "newest"
-                                        ? "Newest first"
-                                        : "Oldest first"
+                                        ? t("sortOptions.oldest")
+                                        : t("sortOptions.newest")
                                 }
                             >
                                 <ArrowUpDown className="size-4" />
@@ -436,7 +438,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                     >
                         {paginatedNews.length === 0 ? (
                             <div className="flex items-center justify-center h-full text-muted-foreground">
-                                No news posts found
+                                {t("noResults")}
                             </div>
                         ) : (
                             <div className="flex gap-4 items-start w-full">
