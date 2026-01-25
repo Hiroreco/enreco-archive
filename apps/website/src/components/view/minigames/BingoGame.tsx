@@ -15,10 +15,6 @@ import { CheckSquare, Download, Edit, Eye } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 
-/* =======================
-   Constants & Utils
-======================= */
-
 const createInitialBoard = () => {
     const board = Array(25).fill("");
     board[12] = "Free!"; // Center square
@@ -104,7 +100,7 @@ const BingoGame = () => {
     };
 
     return (
-        <div className="flex gap-6 justify-center items-start py-4">
+        <div className="flex md:flex-row flex-col gap-6 justify-center items-center py-4">
             <BingoEditor
                 board={board}
                 marked={marked}
@@ -122,57 +118,68 @@ const BingoGame = () => {
             />
 
             <div className="flex flex-col gap-2">
-                <Button
-                    size="sm"
-                    variant={isEditMode ? "default" : "outline"}
-                    onClick={() => setIsEditMode(true)}
-                >
-                    <Edit className="w-4 h-4 mr-2" />
-                    {t("editMode")}
-                </Button>
-                <Button
-                    size="sm"
-                    variant={!isEditMode ? "default" : "outline"}
-                    onClick={() => setIsEditMode(false)}
-                >
-                    <CheckSquare className="w-4 h-4 mr-2" />
-                    {t("markMode")}
-                </Button>
+                <span className="text-sm font-medium text-center">
+                    {t("mode")}
+                </span>
+                <div className="flex items-center justify-center gap-2 md:justify-between">
+                    <Button
+                        size="sm"
+                        variant={isEditMode ? "default" : "outline"}
+                        onClick={() => setIsEditMode(true)}
+                        title={t("editMode")}
+                    >
+                        <Edit />
+                    </Button>
+                    <Button
+                        size="sm"
+                        variant={!isEditMode ? "default" : "outline"}
+                        onClick={() => setIsEditMode(false)}
+                        title={t("markMode")}
+                    >
+                        <CheckSquare />
+                    </Button>
+                </div>
 
                 <div className="h-px bg-border my-1" />
 
-                <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
-                    <DialogTrigger asChild>
-                        <Button size="sm" variant="outline">
-                            <Eye className="w-4 h-4 mr-2" />
-                            {t("preview")}
-                        </Button>
-                    </DialogTrigger>
-                    <DialogContent className="max-w-[650px] p-6">
-                        <VisuallyHidden>
-                            <DialogHeader>
-                                <DialogTitle>{t("previewTitle")}</DialogTitle>
-                                <DialogDescription>
-                                    {t("previewDescription")}
-                                </DialogDescription>
-                            </DialogHeader>
-                        </VisuallyHidden>
-                        <div className="flex justify-center">
-                            <div style={{ transform: "scale(0.9)" }}>
+                <div className="flex md:flex-col flex-row gap-2">
+                    <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
+                        <DialogTrigger asChild>
+                            <Button size="sm" variant="outline">
+                                <Eye className="w-4 h-4 mr-2" />
+                                {t("preview")}
+                            </Button>
+                        </DialogTrigger>
+                        <DialogContent className="flex md:h-[600px] max-w-[650px] flex-col items-center justify-center p-0">
+                            <VisuallyHidden>
+                                <DialogHeader>
+                                    <DialogTitle>
+                                        {t("previewTitle")}
+                                    </DialogTitle>
+                                    <DialogDescription>
+                                        {t("previewDescription")}
+                                    </DialogDescription>
+                                </DialogHeader>
+                            </VisuallyHidden>
+                            <div style={{ transform: "scale(0.8)" }}>
                                 <BingoExport board={board} marked={marked} />
                             </div>
-                        </div>
-                    </DialogContent>
-                </Dialog>
+                        </DialogContent>
+                    </Dialog>
 
-                <Button size="sm" onClick={downloadBingo}>
-                    <Download className="w-4 h-4 mr-2" />
-                    {t("download")}
-                </Button>
+                    <Button size="sm" onClick={downloadBingo}>
+                        <Download className="w-4 h-4 mr-2" />
+                        {t("download")}
+                    </Button>
 
-                <Button size="sm" variant="destructive" onClick={handleReset}>
-                    {t("reset")}
-                </Button>
+                    <Button
+                        size="sm"
+                        variant="destructive"
+                        onClick={handleReset}
+                    >
+                        {t("reset")}
+                    </Button>
+                </div>
             </div>
 
             {/* Hidden export */}

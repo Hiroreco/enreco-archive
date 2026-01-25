@@ -181,6 +181,7 @@
                     "tips": "The center square defaults to 'Free!' but you can change it. Your bingo board is automatically saved, so you can come back anytime!",
                     "editMode": "Edit Mode",
                     "markMode": "Mark Mode",
+                    "mode": "Edit/Mark",
                     "preview": "Preview",
                     "previewTitle": "Bingo Preview",
                     "previewDescription": "Preview how your bingo will look when downloaded",

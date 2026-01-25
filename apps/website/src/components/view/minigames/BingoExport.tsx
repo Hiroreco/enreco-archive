@@ -1,5 +1,6 @@
 import { getFontSizeClass } from "@/components/view/minigames/BingoGame";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import Image from "next/image";
 
 interface BingoExportProps {
     board: string[];
@@ -8,17 +9,8 @@ interface BingoExportProps {
 
 const BingoExport = ({ board, marked }: BingoExportProps) => {
     return (
-        <div
-            className="relative flex flex-col items-center gap-4 p-8 rounded-lg"
-            style={{
-                backgroundImage: "url('/images-opt/logo-1-opt.webp')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                width: "600px",
-                height: "700px",
-            }}
-        >
-            <div className="absolute inset-0 bg-black/40 rounded-lg" />
+        <div className="relative flex flex-col items-center justify-center gap-4 p-8">
+            <div className="absolute inset-0 bg-black/40" />
 
             <div className="relative z-10 text-white text-center">
                 <h2 className="text-2xl font-bold text-shadow-strong">
@@ -32,22 +24,31 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
                 </h3>
             </div>
 
-            <div className="relative z-10 grid grid-cols-5 gap-1 bg-white/90 p-3 rounded">
+            <div className="relative z-10 grid grid-cols-5 gap-1 bg-white/90 p-3">
                 {board.map((text, index) => {
                     const isMarked = marked[index];
+                    const isCenterSquare = index === 12;
 
                     return (
                         <div
                             key={index}
                             className={cn(
-                                "w-24 h-24 border-2 border-gray-800",
-                                "flex flex-col items-center justify-center relative",
+                                "size-24",
+                                "flex flex-col shadow-md items-center justify-center relative",
                                 {
                                     "bg-blue-500/60": isMarked,
                                     "bg-white": !isMarked,
                                 },
                             )}
                         >
+                            {isCenterSquare ? (
+                                <Image
+                                    src="/images-opt/logo-1-opt.webp"
+                                    alt="Free Square"
+                                    fill
+                                    className="absolute -z-10 opacity-50"
+                                />
+                            ) : null}
                             <span
                                 className={cn(
                                     "text-center px-2 break-words whitespace-pre-line leading-tight",
@@ -56,7 +57,6 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
                             >
                                 {text}
                             </span>
-
                             {isMarked && (
                                 <>
                                     <div className="absolute inset-0 bg-red-600 rotate-45 h-1 m-auto" />
