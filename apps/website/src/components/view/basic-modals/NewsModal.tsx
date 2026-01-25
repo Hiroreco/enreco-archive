@@ -1,4 +1,6 @@
 import newsDataEn from "#/news.json";
+import Lightbox from "@/components/view/lightbox/Lightbox";
+import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
@@ -9,6 +11,7 @@ import {
     DialogFooter,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
+import { Input } from "@enreco-archive/common-ui/components/input";
 import {
     Select,
     SelectContent,
@@ -16,23 +19,20 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
-import { Input } from "@enreco-archive/common-ui/components/input";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { NewsData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import {
-    Calendar,
-    ExternalLink,
-    Search,
     ArrowUpDown,
+    Calendar,
     ChevronDown,
     ChevronUp,
+    ExternalLink,
+    Search,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useState, useMemo, useCallback, useEffect, useRef } from "react";
-import { ViewMarkdown } from "@/components/view/markdown/Markdown";
-import { cn } from "@enreco-archive/common-ui/lib/utils";
-import Lightbox from "@/components/view/lightbox/Lightbox";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 interface NewsModalProps {
     open: boolean;
@@ -328,13 +328,6 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
         setCurrentPage(1);
     }, []);
 
-    const resetFilters = useCallback(() => {
-        setSearchQuery("");
-        setSelectedAuthor("all");
-        setSortOrder("newest");
-        setCurrentPage(1);
-    }, []);
-
     useEffect(() => {
         const updateColumnCount = () => {
             const width = window.innerWidth;
@@ -389,7 +382,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                 </VisuallyHidden>
 
                 <div className="flex flex-col flex-1 overflow-hidden gap-4">
-                    <div className="flex flex-col sm:flex-row gap-3">
+                    <div className="flex flex-col sm:flex-row gap-3 mt-2 md:mx-2">
                         <div className="relative flex-1">
                             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
                             <Input
@@ -401,48 +394,39 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                             />
                         </div>
 
-                        <Select
-                            value={selectedAuthor}
-                            onValueChange={setSelectedAuthor}
-                        >
-                            <SelectTrigger className="w-full sm:w-[200px]">
-                                <SelectValue placeholder="Filter by author" />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="all">All Authors</SelectItem>
-                                {authors.map((author) => (
-                                    <SelectItem key={author} value={author}>
-                                        {author}
+                        <div className="flex items-center gap-2">
+                            <Select
+                                value={selectedAuthor}
+                                onValueChange={setSelectedAuthor}
+                            >
+                                <SelectTrigger>
+                                    <SelectValue placeholder="Filter by author" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="all">
+                                        All Authors
                                     </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
+                                    {authors.map((author) => (
+                                        <SelectItem key={author} value={author}>
+                                            {author}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
 
-                        <Button
-                            variant="outline"
-                            size="icon"
-                            onClick={toggleSortOrder}
-                            title={
-                                sortOrder === "newest"
-                                    ? "Newest first"
-                                    : "Oldest first"
-                            }
-                        >
-                            <ArrowUpDown className="w-4 h-4" />
-                        </Button>
-
-                        <Button
-                            variant="outline"
-                            onClick={resetFilters}
-                            className="w-full sm:w-auto"
-                        >
-                            Reset
-                        </Button>
-                    </div>
-
-                    <div className="text-sm text-muted-foreground">
-                        Showing {paginatedNews.length} of{" "}
-                        {allFilteredNews.length} posts
+                            <Button
+                                variant="outline"
+                                size="icon"
+                                onClick={toggleSortOrder}
+                                title={
+                                    sortOrder === "newest"
+                                        ? "Newest first"
+                                        : "Oldest first"
+                                }
+                            >
+                                <ArrowUpDown className="size-4" />
+                            </Button>
+                        </div>
                     </div>
 
                     <div
