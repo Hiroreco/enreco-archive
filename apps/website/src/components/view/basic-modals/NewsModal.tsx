@@ -399,7 +399,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                 value={selectedAuthor}
                                 onValueChange={setSelectedAuthor}
                             >
-                                <SelectTrigger>
+                                <SelectTrigger className="md:w-[200px]">
                                     <SelectValue placeholder="Filter by author" />
                                 </SelectTrigger>
                                 <SelectContent>
@@ -417,6 +417,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                             <Button
                                 variant="outline"
                                 size="icon"
+                                className="shrink-0"
                                 onClick={toggleSortOrder}
                                 title={
                                     sortOrder === "newest"
