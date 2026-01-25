@@ -21,6 +21,35 @@ const createInitialBoard = () => {
     return board;
 };
 
+// Initialize from localStorage or create new
+const getInitialBoard = (): string[] => {
+    if (typeof window === "undefined") return createInitialBoard();
+
+    const savedBoard = localStorage.getItem(LS_KEYS.BINGO_BOARD);
+    if (savedBoard) {
+        try {
+            return JSON.parse(savedBoard);
+        } catch (e) {
+            console.error("Failed to parse saved board:", e);
+        }
+    }
+    return createInitialBoard();
+};
+
+const getInitialMarked = (): boolean[] => {
+    if (typeof window === "undefined") return Array(25).fill(false);
+
+    const savedMarked = localStorage.getItem(LS_KEYS.BINGO_MARKED);
+    if (savedMarked) {
+        try {
+            return JSON.parse(savedMarked);
+        } catch (e) {
+            console.error("Failed to parse saved marked:", e);
+        }
+    }
+    return Array(25).fill(false);
+};
+
 export const getFontSizeClass = (text: string) => {
     const length = text.length;
     const lines = text.split("\n").length;
@@ -34,42 +63,25 @@ export const getFontSizeClass = (text: string) => {
 
 const BingoGame = () => {
     const t = useTranslations("modals.minigames.games.bingo");
-    const [board, setBoard] = useState<string[]>(createInitialBoard());
-    const [marked, setMarked] = useState<boolean[]>(Array(25).fill(false));
+    const [board, setBoard] = useState<string[]>(getInitialBoard);
+    const [marked, setMarked] = useState<boolean[]>(getInitialMarked);
     const [isEditMode, setIsEditMode] = useState(true);
     const [editingIndex, setEditingIndex] = useState<number | null>(null);
     const [previewOpen, setPreviewOpen] = useState(false);
     const exportRef = useRef<HTMLDivElement>(null);
 
-    // Load from localStorage on mount
+    // Save to localStorage when board changes
     useEffect(() => {
-        const savedBoard = localStorage.getItem(LS_KEYS.BINGO_BOARD);
-        const savedMarked = localStorage.getItem(LS_KEYS.BINGO_MARKED);
-
-        if (savedBoard) {
-            try {
-                setBoard(JSON.parse(savedBoard));
-            } catch (e) {
-                console.error("Failed to parse saved board:", e);
-            }
+        if (typeof window !== "undefined") {
+            localStorage.setItem(LS_KEYS.BINGO_BOARD, JSON.stringify(board));
         }
-
-        if (savedMarked) {
-            try {
-                setMarked(JSON.parse(savedMarked));
-            } catch (e) {
-                console.error("Failed to parse saved marked:", e);
-            }
-        }
-    }, []);
-
-    // Save to localStorage when board or marked changes
-    useEffect(() => {
-        localStorage.setItem(LS_KEYS.BINGO_BOARD, JSON.stringify(board));
     }, [board]);
 
+    // Save to localStorage when marked changes
     useEffect(() => {
-        localStorage.setItem(LS_KEYS.BINGO_MARKED, JSON.stringify(marked));
+        if (typeof window !== "undefined") {
+            localStorage.setItem(LS_KEYS.BINGO_MARKED, JSON.stringify(marked));
+        }
     }, [marked]);
 
     const handleSquareClick = (index: number) => {
