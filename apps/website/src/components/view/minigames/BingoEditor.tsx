@@ -31,15 +31,12 @@ const BingoEditor = ({
                         key={index}
                         onClick={() => !isEditing && onSquareClick(index)}
                         className={cn(
-                            "size-16 md:size-20 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
+                            "group size-16 md:size-20 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
                             "flex flex-col items-center justify-center transition-all",
                             {
-                                "bg-blue-500/60": isMarked,
                                 "bg-white dark:bg-gray-800": !isMarked,
                                 "hover:bg-gray-100 dark:hover:bg-gray-700":
                                     isEditMode && !isMarked,
-                                "hover:bg-blue-400/40":
-                                    !isEditMode && !isMarked,
                             },
                         )}
                     >
@@ -72,12 +69,19 @@ const BingoEditor = ({
                             </div>
                         )}
 
-                        {isMarked && (
-                            <div className="absolute inset-0 pointer-events-none">
-                                <div className="absolute inset-0 bg-red-600 rotate-45 h-0.5 m-auto" />
-                                <div className="absolute inset-0 bg-red-600 -rotate-45 h-0.5 m-auto" />
-                            </div>
-                        )}
+                        {/* Marker ring */}
+                        <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+                            <div
+                                className={cn(
+                                    "w-[90%] h-[90%] rounded-full border-8 border-red-500",
+                                    {
+                                        "opacity-80 -z-10": isMarked,
+                                        "opacity-0 group-hover:opacity-60":
+                                            !isMarked && !isEditMode,
+                                    },
+                                )}
+                            />
+                        </div>
                     </div>
                 );
             })}

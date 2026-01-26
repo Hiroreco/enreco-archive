@@ -24,7 +24,7 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
                 </h3>
             </div>
 
-            <div className="relative z-10 grid grid-cols-5 gap-1 bg-white/90 p-3">
+            <div className="relative z-10 grid grid-cols-5 gap-1 bg-white p-3">
                 {board.map((text, index) => {
                     const isMarked = marked[index];
                     const isCenterSquare = index === 12;
@@ -35,10 +35,6 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
                             className={cn(
                                 "size-24",
                                 "flex flex-col shadow-md items-center justify-center relative",
-                                {
-                                    "bg-blue-500/60": isMarked,
-                                    "bg-white": !isMarked,
-                                },
                             )}
                         >
                             {isCenterSquare ? (
@@ -58,10 +54,13 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
                                 {text}
                             </span>
                             {isMarked && (
-                                <>
-                                    <div className="absolute inset-0 bg-red-600 rotate-45 h-1 m-auto" />
-                                    <div className="absolute inset-0 bg-red-600 -rotate-45 h-1 m-auto" />
-                                </>
+                                <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+                                    <div
+                                        className={cn(
+                                            "w-[90%] h-[90%] rounded-full border-8 border-red-500 opacity-80 -z-10",
+                                        )}
+                                    />
+                                </div>
                             )}
                         </div>
                     );
