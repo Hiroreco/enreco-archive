@@ -80,55 +80,54 @@ export const getTextStyle = (
     const hasManyLines = lineCount > 3;
     const isLongText = totalLength > 40;
 
-    if (squareSize === "export") {
-        // Export (96px squares) - more generous sizing
-        if (hasVeryLongWord || (hasManyLines && isLongText)) {
-            return { fontSize: "clamp(0.625rem, 1.8cqw, 0.75rem)" };
-        }
-        if (hasLongWord || hasManyLines) {
-            return { fontSize: "clamp(0.75rem, 2cqw, 0.875rem)" };
-        }
-        if (isLongText || lineCount > 2) {
-            return { fontSize: "clamp(0.875rem, 2.2cqw, 1rem)" };
-        }
-        if (totalLength <= 15 && lineCount === 1) {
-            return { fontSize: "clamp(1rem, 3cqw, 1.25rem)" };
-        }
-        return { fontSize: "clamp(0.875rem, 2.5cqw, 1rem)" };
-    } else {
-        // Editor - different sizing for mobile vs desktop
-        if (isMobile) {
-            // Mobile: tighter sizing
-            if (hasVeryLongWord || (hasManyLines && isLongText)) {
-                return { fontSize: "clamp(0.5rem, 2cqw, 0.625rem)" };
-            }
-            if (hasLongWord || hasManyLines) {
-                return { fontSize: "clamp(0.5rem, 2.5cqw, 0.75rem)" };
-            }
-            if (isLongText || lineCount > 2) {
-                return { fontSize: "clamp(0.625rem, 2.75cqw, 0.75rem)" };
-            }
-            if (totalLength <= 12 && lineCount === 1) {
-                return { fontSize: "clamp(0.75rem, 3.5cqw, 0.875rem)" };
-            }
-            return { fontSize: "clamp(0.625rem, 3cqw, 0.75rem)" };
-        } else {
-            // Desktop: original sizing
-            if (hasVeryLongWord || (hasManyLines && isLongText)) {
-                return { fontSize: "clamp(0.5rem, 2cqw, 0.625rem)" };
-            }
-            if (hasLongWord || hasManyLines) {
-                return { fontSize: "clamp(0.625rem, 2.5cqw, 0.75rem)" };
-            }
-            if (isLongText || lineCount > 2) {
-                return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
-            }
-            if (totalLength <= 12 && lineCount === 1) {
-                return { fontSize: "clamp(0.875rem, 3.5cqw, 1rem)" };
-            }
-            return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
-        }
+    // Unified sizing for both editor and export
+    const sizing = isMobile
+        ? {
+              // Mobile editor (64px squares) - tighter sizing
+              veryLong: "clamp(0.5rem, 2cqw, 0.625rem)",
+              long: "clamp(0.5rem, 2.5cqw, 0.75rem)",
+              medium: "clamp(0.625rem, 2.75cqw, 0.75rem)",
+              short: "clamp(0.75rem, 3.5cqw, 0.875rem)",
+              veryShort: "clamp(0.875rem, 4cqw, 1rem)",
+              default: "clamp(0.625rem, 3cqw, 0.75rem)",
+          }
+        : {
+              // Desktop editor (80px squares) - balanced sizing
+              veryLong: "clamp(0.5rem, 2cqw, 0.625rem)",
+              long: "clamp(0.625rem, 2.5cqw, 0.75rem)",
+              medium: "clamp(0.75rem, 3cqw, 0.875rem)",
+              short: "clamp(0.875rem, 3.5cqw, 1rem)",
+              veryShort: "clamp(1rem, 4cqw, 1.125rem)",
+              default: "clamp(0.75rem, 3cqw, 0.875rem)",
+          };
+
+    // Very long words or lots of content
+    if (hasVeryLongWord || (hasManyLines && isLongText)) {
+        return { fontSize: sizing.veryLong };
     }
+
+    // Long words or many lines
+    if (hasLongWord || hasManyLines) {
+        return { fontSize: sizing.long };
+    }
+
+    // Medium length with multiple lines
+    if (isLongText || lineCount > 2) {
+        return { fontSize: sizing.medium };
+    }
+
+    // Short single-line text
+    if (totalLength <= 8 && lineCount === 1) {
+        return { fontSize: sizing.veryShort };
+    }
+
+    // Moderate short text
+    if (totalLength <= 15 && lineCount === 1) {
+        return { fontSize: sizing.short };
+    }
+
+    // Default
+    return { fontSize: sizing.default };
 };
 
 const BingoGame = () => {
@@ -232,7 +231,7 @@ const BingoGame = () => {
                                 {t("preview")}
                             </Button>
                         </DialogTrigger>
-                        <DialogContent className="flex md:max-w-[500px] flex-col items-center justify-center">
+                        <DialogContent className="flex flex-col items-center justify-center">
                             <VisuallyHidden>
                                 <DialogHeader>
                                     <DialogTitle>

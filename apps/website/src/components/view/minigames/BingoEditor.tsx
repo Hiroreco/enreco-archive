@@ -31,7 +31,7 @@ const BingoEditor = ({
                         key={index}
                         onClick={() => !isEditing && onSquareClick(index)}
                         className={cn(
-                            "group size-16 md:size-20 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
+                            "group size-17.5 md:size-22 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
                             "flex flex-col items-center justify-center transition-all",
                             {
                                 "bg-white dark:bg-gray-800": !isMarked,
@@ -76,7 +76,7 @@ const BingoEditor = ({
                         <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
                             <div
                                 className={cn(
-                                    "w-[90%] h-[90%] rounded-full border-8 border-red-500",
+                                    "w-[90%] h-[90%] rounded-full border-8 md:border-12 border-red-500",
                                     {
                                         "opacity-80 -z-10": isMarked,
                                         "opacity-0": isEditMode && !isMarked,
