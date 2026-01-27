@@ -38,7 +38,7 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
                         <div
                             key={index}
                             className={cn(
-                                "size-24 flex flex-col bg-white items-center justify-center relative",
+                                "size-16 md:size-20 flex flex-col bg-white items-center justify-center relative",
                             )}
                             style={{
                                 boxShadow: "0 2px 4px rgba(0, 0, 0, 0.6)",

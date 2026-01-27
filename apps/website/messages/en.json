@@ -186,7 +186,8 @@
                     "previewTitle": "Bingo Preview",
                     "previewDescription": "Preview how your bingo will look when downloaded",
                     "download": "Download",
-                    "reset": "Reset"
+                    "reset": "Reset",
+                    "previewNote": "Note: The downloaded image will fix issues with font size and text overflow."
                 }
             }
         },

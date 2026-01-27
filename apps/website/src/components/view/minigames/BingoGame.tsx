@@ -1,6 +1,7 @@
 import BingoEditor from "@/components/view/minigames/BingoEditor";
 import BingoExport from "@/components/view/minigames/BingoExport";
 import { LS_KEYS } from "@/lib/constants";
+import { isMobileViewport } from "@/lib/utils";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -58,10 +59,14 @@ export const getTextStyle = (
     text: string,
     squareSize: "editor" | "export" = "editor",
 ): React.CSSProperties => {
+    const isMobile = isMobileViewport();
+
     if (!text.trim()) {
         return squareSize === "export"
             ? { fontSize: "clamp(0.875rem, 2.5cqw, 1rem)" }
-            : { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
+            : isMobile
+              ? { fontSize: "clamp(0.625rem, 3cqw, 0.875rem)" }
+              : { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
     }
 
     const words = text.split(/[\s\n]+/).filter((word) => word.length > 0);
@@ -91,20 +96,38 @@ export const getTextStyle = (
         }
         return { fontSize: "clamp(0.875rem, 2.5cqw, 1rem)" };
     } else {
-        // Editor (64-80px squares) - tighter sizing
-        if (hasVeryLongWord || (hasManyLines && isLongText)) {
-            return { fontSize: "clamp(0.5rem, 2cqw, 0.625rem)" };
-        }
-        if (hasLongWord || hasManyLines) {
-            return { fontSize: "clamp(0.625rem, 2.5cqw, 0.75rem)" };
-        }
-        if (isLongText || lineCount > 2) {
+        // Editor - different sizing for mobile vs desktop
+        if (isMobile) {
+            // Mobile: tighter sizing
+            if (hasVeryLongWord || (hasManyLines && isLongText)) {
+                return { fontSize: "clamp(0.5rem, 2cqw, 0.625rem)" };
+            }
+            if (hasLongWord || hasManyLines) {
+                return { fontSize: "clamp(0.5rem, 2.5cqw, 0.75rem)" };
+            }
+            if (isLongText || lineCount > 2) {
+                return { fontSize: "clamp(0.625rem, 2.75cqw, 0.75rem)" };
+            }
+            if (totalLength <= 12 && lineCount === 1) {
+                return { fontSize: "clamp(0.75rem, 3.5cqw, 0.875rem)" };
+            }
+            return { fontSize: "clamp(0.625rem, 3cqw, 0.75rem)" };
+        } else {
+            // Desktop: original sizing
+            if (hasVeryLongWord || (hasManyLines && isLongText)) {
+                return { fontSize: "clamp(0.5rem, 2cqw, 0.625rem)" };
+            }
+            if (hasLongWord || hasManyLines) {
+                return { fontSize: "clamp(0.625rem, 2.5cqw, 0.75rem)" };
+            }
+            if (isLongText || lineCount > 2) {
+                return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
+            }
+            if (totalLength <= 12 && lineCount === 1) {
+                return { fontSize: "clamp(0.875rem, 3.5cqw, 1rem)" };
+            }
             return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
         }
-        if (totalLength <= 12 && lineCount === 1) {
-            return { fontSize: "clamp(0.875rem, 3.5cqw, 1rem)" };
-        }
-        return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
     }
 };
 
@@ -205,11 +228,11 @@ const BingoGame = () => {
                     <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
                         <DialogTrigger asChild>
                             <Button size="sm" variant="outline">
-                                <Eye className="w-4 h-4 mr-2" />
+                                <Eye className="size-4 mr-2" />
                                 {t("preview")}
                             </Button>
                         </DialogTrigger>
-                        <DialogContent className="flex md:h-[600px] max-w-[650px] flex-col items-center justify-center p-0">
+                        <DialogContent className="flex md:max-w-[500px] flex-col items-center justify-center">
                             <VisuallyHidden>
                                 <DialogHeader>
                                     <DialogTitle>
@@ -220,14 +243,19 @@ const BingoGame = () => {
                                     </DialogDescription>
                                 </DialogHeader>
                             </VisuallyHidden>
-                            <div style={{ transform: "scale(0.8)" }}>
-                                <BingoExport board={board} marked={marked} />
-                            </div>
+                            <BingoExport board={board} marked={marked} />
+                            <p className="text-xs text-muted-foreground text-center">
+                                {t("previewNote")}
+                            </p>
+                            <Button size="sm" onClick={downloadBingo}>
+                                <Download className="size-4 mr-2" />
+                                {t("download")}
+                            </Button>
                         </DialogContent>
                     </Dialog>
 
                     <Button size="sm" onClick={downloadBingo}>
-                        <Download className="w-4 h-4 mr-2" />
+                        <Download className="size-4 mr-2" />
                         {t("download")}
                     </Button>
 
@@ -241,7 +269,7 @@ const BingoGame = () => {
                 </div>
             </div>
 
-            {/* Hidden export */}
+            {/* Hidden export - always full size for download */}
             <div className="absolute -left-[9999px] pointer-events-none">
                 <div ref={exportRef}>
                     <BingoExport board={board} marked={marked} />
