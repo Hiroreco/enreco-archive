@@ -1,4 +1,4 @@
-import { getFontSizeClass } from "@/components/view/minigames/BingoGame";
+import { getTextStyle } from "@/components/view/minigames/BingoGame";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 interface BingoEditorProps {
@@ -39,6 +39,7 @@ const BingoEditor = ({
                                     isEditMode && !isMarked,
                             },
                         )}
+                        style={{ containerType: "size" }}
                     >
                         {isEditing && isEditMode ? (
                             <textarea
@@ -51,19 +52,21 @@ const BingoEditor = ({
                                 maxLength={60}
                                 className={cn(
                                     "w-full h-full resize-none bg-transparent border-0 outline-none",
-                                    "text-center leading-tight",
+                                    "text-center leading-tight font-bold",
                                     "whitespace-pre-wrap break-words",
-                                    getFontSizeClass(text),
                                 )}
-                                style={{ paddingTop: "0.25em" }}
+                                style={{
+                                    paddingTop: "0.25em",
+                                    ...getTextStyle(text, "editor"),
+                                }}
                             />
                         ) : (
                             <div
                                 className={cn(
-                                    "size-full flex flex-col justify-center text-center px-1 leading-tight",
+                                    "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold",
                                     "whitespace-pre-wrap break-words",
-                                    getFontSizeClass(text),
                                 )}
+                                style={getTextStyle(text, "editor")}
                             >
                                 {text}
                             </div>
@@ -76,6 +79,7 @@ const BingoEditor = ({
                                     "w-[90%] h-[90%] rounded-full border-8 border-red-500",
                                     {
                                         "opacity-80 -z-10": isMarked,
+                                        "opacity-0": isEditMode && !isMarked,
                                         "opacity-0 group-hover:opacity-60":
                                             !isMarked && !isEditMode,
                                     },

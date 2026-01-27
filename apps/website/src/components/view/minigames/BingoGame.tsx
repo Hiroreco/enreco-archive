@@ -50,15 +50,62 @@ const getInitialMarked = (): boolean[] => {
     return Array(25).fill(false);
 };
 
-export const getFontSizeClass = (text: string) => {
-    const length = text.length;
-    const lines = text.split("\n").length;
+/**
+ * Calculate dynamic font size based on text characteristics
+ * Returns CSS custom properties for fluid typography
+ */
+export const getTextStyle = (
+    text: string,
+    squareSize: "editor" | "export" = "editor",
+): React.CSSProperties => {
+    if (!text.trim()) {
+        return squareSize === "export"
+            ? { fontSize: "clamp(0.875rem, 2.5cqw, 1rem)" }
+            : { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
+    }
 
-    if (length <= 12 && lines === 1) return "text-lg";
-    if (length <= 20) return "text-base";
-    if (length <= 30) return "text-sm";
-    if (length <= 45) return "text-xs";
-    return "text-[10px]";
+    const words = text.split(/[\s\n]+/).filter((word) => word.length > 0);
+    const longestWord = Math.max(...words.map((word) => word.length), 0);
+    const totalLength = text.length;
+    const lineCount = text.split("\n").length;
+
+    // Calculate complexity score
+    const hasVeryLongWord = longestWord > 12;
+    const hasLongWord = longestWord > 10;
+    const hasManyLines = lineCount > 3;
+    const isLongText = totalLength > 40;
+
+    if (squareSize === "export") {
+        // Export (96px squares) - more generous sizing
+        if (hasVeryLongWord || (hasManyLines && isLongText)) {
+            return { fontSize: "clamp(0.625rem, 1.8cqw, 0.75rem)" };
+        }
+        if (hasLongWord || hasManyLines) {
+            return { fontSize: "clamp(0.75rem, 2cqw, 0.875rem)" };
+        }
+        if (isLongText || lineCount > 2) {
+            return { fontSize: "clamp(0.875rem, 2.2cqw, 1rem)" };
+        }
+        if (totalLength <= 15 && lineCount === 1) {
+            return { fontSize: "clamp(1rem, 3cqw, 1.25rem)" };
+        }
+        return { fontSize: "clamp(0.875rem, 2.5cqw, 1rem)" };
+    } else {
+        // Editor (64-80px squares) - tighter sizing
+        if (hasVeryLongWord || (hasManyLines && isLongText)) {
+            return { fontSize: "clamp(0.5rem, 2cqw, 0.625rem)" };
+        }
+        if (hasLongWord || hasManyLines) {
+            return { fontSize: "clamp(0.625rem, 2.5cqw, 0.75rem)" };
+        }
+        if (isLongText || lineCount > 2) {
+            return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
+        }
+        if (totalLength <= 12 && lineCount === 1) {
+            return { fontSize: "clamp(0.875rem, 3.5cqw, 1rem)" };
+        }
+        return { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
+    }
 };
 
 const BingoGame = () => {
