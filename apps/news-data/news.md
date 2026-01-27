@@ -104,3 +104,14 @@ https://x.com/tskai_xx/status/1830462122041528415
 https://x.com/tskai_xx/status/1832470327122935920
 https://x.com/tskai_xx/status/1830984777304015120
 https://x.com/tskai_xx/status/1830872928931705239
+https://x.com/hololive_En/status/1921417550325592518
+https://x.com/hololive_En/status/1921373522787737918
+https://x.com/hololive_En/status/1921373485231902828
+https://x.com/hololive_En/status/1921011068576649575
+https://x.com/hololive_En/status/1920648778815844817
+https://x.com/hololive_En/status/1920648722947715285
+https://x.com/hololive_En/status/1920293196229423247
+https://x.com/hololive_En/status/1920293116965527800
+https://x.com/hololive_En/status/1919923990598189410
+https://x.com/hololive_En/status/1919561543014076716
+https://x.com/hololive_En/status/1919199141420540281

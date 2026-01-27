@@ -49,7 +49,7 @@ interface NewsPostItemProps {
     index: number;
 }
 
-const ITEMS_PER_PAGE = 20;
+const ITEMS_PER_PAGE = 15;
 const MAX_CONTENT_HEIGHT = 100; // pixels
 
 const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
