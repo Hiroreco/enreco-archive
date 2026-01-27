@@ -1,5 +1,6 @@
 import { getTextStyle } from "@/components/view/minigames/BingoGame";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import Image from "next/image";
 
 interface BingoEditorProps {
     board: string[];
@@ -25,7 +26,7 @@ const BingoEditor = ({
             {board.map((text, index) => {
                 const isMarked = marked[index];
                 const isEditing = editingIndex === index;
-
+                const isCenter = index === 12;
                 return (
                     <div
                         key={index}
@@ -41,6 +42,14 @@ const BingoEditor = ({
                         )}
                         style={{ containerType: "size" }}
                     >
+                        {isCenter && (
+                            <Image
+                                alt=""
+                                src="/images-opt/emblem-opt.webp"
+                                fill
+                                className="opacity-15"
+                            />
+                        )}
                         {isEditing && isEditMode ? (
                             <textarea
                                 autoFocus
@@ -57,7 +66,7 @@ const BingoEditor = ({
                                 )}
                                 style={{
                                     paddingTop: "0.25em",
-                                    ...getTextStyle(text, "editor"),
+                                    ...getTextStyle(text),
                                 }}
                             />
                         ) : (
@@ -66,7 +75,7 @@ const BingoEditor = ({
                                     "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold",
                                     "whitespace-pre-wrap break-words",
                                 )}
-                                style={getTextStyle(text, "editor")}
+                                style={getTextStyle(text)}
                             >
                                 {text}
                             </div>

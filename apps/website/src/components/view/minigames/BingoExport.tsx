@@ -5,9 +5,10 @@ import Image from "next/image";
 interface BingoExportProps {
     board: string[];
     marked: boolean[];
+    downloadMode?: boolean;
 }
 
-const BingoExport = ({ board, marked }: BingoExportProps) => {
+const BingoExport = ({ board, marked, downloadMode }: BingoExportProps) => {
     return (
         <div className="relative flex flex-col items-center justify-center gap-4 py-8 px-2">
             {/* bg */}
@@ -32,40 +33,44 @@ const BingoExport = ({ board, marked }: BingoExportProps) => {
             <div className="relative z-10 grid grid-cols-5 gap-1">
                 {board.map((text, index) => {
                     const isMarked = marked[index];
-                    const isCenterSquare = index === 12;
+                    const isCenter = index === 12;
 
                     return (
                         <div
                             key={index}
                             className={cn(
-                                "size-16 md:size-22 flex flex-col bg-white items-center justify-center relative",
+                                "flex flex-col bg-white items-center justify-center relative",
+                                downloadMode
+                                    ? "size-22"
+                                    : "size-17.5 md:size-22",
                             )}
-                            style={{
-                                boxShadow: "0 2px 4px rgba(0, 0, 0, 0.6)",
-                                containerType: "size",
-                            }}
+                            style={{ containerType: "size" }}
                         >
-                            {isCenterSquare ? (
+                            {isCenter && (
                                 <Image
-                                    src="/images-opt/logo-1-opt.webp"
-                                    alt="Free Square"
+                                    alt=""
+                                    src="/images-opt/emblem-opt.webp"
                                     fill
-                                    className="absolute -z-10 opacity-50"
+                                    className="opacity-10"
                                 />
-                            ) : null}
-                            <span
+                            )}
+                            <div
                                 className={cn(
-                                    "text-center px-2 break-words whitespace-pre-line leading-tight font-bold",
+                                    "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold",
+                                    "whitespace-pre-wrap break-words z-10",
                                 )}
-                                style={getTextStyle(text, "export")}
+                                style={getTextStyle(text)}
                             >
                                 {text}
-                            </span>
+                            </div>
                             {isMarked && (
                                 <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
                                     <div
                                         className={cn(
-                                            "size-[95%] rounded-full border-12 border-[#fb4172] opacity-70",
+                                            "size-[95%] rounded-full border-[#fb4172] opacity-70",
+                                            downloadMode
+                                                ? "border-12"
+                                                : "border-8 md:border-12",
                                         )}
                                     />
                                 </div>

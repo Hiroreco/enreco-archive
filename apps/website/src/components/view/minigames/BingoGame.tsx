@@ -18,7 +18,7 @@ import { useEffect, useRef, useState } from "react";
 
 const createInitialBoard = () => {
     const board = Array(25).fill("");
-    board[12] = "Free!"; // Center square
+    board[12] = "Free\nSpace!"; // Center square
     return board;
 };
 
@@ -55,19 +55,8 @@ const getInitialMarked = (): boolean[] => {
  * Calculate dynamic font size based on text characteristics
  * Returns CSS custom properties for fluid typography
  */
-export const getTextStyle = (
-    text: string,
-    squareSize: "editor" | "export" = "editor",
-): React.CSSProperties => {
+export const getTextStyle = (text: string): React.CSSProperties => {
     const isMobile = isMobileViewport();
-
-    if (!text.trim()) {
-        return squareSize === "export"
-            ? { fontSize: "clamp(0.875rem, 2.5cqw, 1rem)" }
-            : isMobile
-              ? { fontSize: "clamp(0.625rem, 3cqw, 0.875rem)" }
-              : { fontSize: "clamp(0.75rem, 3cqw, 0.875rem)" };
-    }
 
     const words = text.split(/[\s\n]+/).filter((word) => word.length > 0);
     const longestWord = Math.max(...words.map((word) => word.length), 0);
@@ -80,10 +69,9 @@ export const getTextStyle = (
     const hasManyLines = lineCount > 3;
     const isLongText = totalLength > 40;
 
-    // Unified sizing for both editor and export
     const sizing = isMobile
         ? {
-              // Mobile editor (64px squares) - tighter sizing
+              // Mobile (64px squares) - tighter sizing
               veryLong: "clamp(0.5rem, 2cqw, 0.625rem)",
               long: "clamp(0.5rem, 2.5cqw, 0.75rem)",
               medium: "clamp(0.625rem, 2.75cqw, 0.75rem)",
@@ -92,7 +80,7 @@ export const getTextStyle = (
               default: "clamp(0.625rem, 3cqw, 0.75rem)",
           }
         : {
-              // Desktop editor (80px squares) - balanced sizing
+              // Desktop (80px squares) - balanced sizing
               veryLong: "clamp(0.5rem, 2cqw, 0.625rem)",
               long: "clamp(0.625rem, 2.5cqw, 0.75rem)",
               medium: "clamp(0.75rem, 3cqw, 0.875rem)",
@@ -122,11 +110,10 @@ export const getTextStyle = (
     }
 
     // Moderate short text
-    if (totalLength <= 15 && lineCount === 1) {
+    if (totalLength <= 15) {
         return { fontSize: sizing.short };
     }
 
-    // Default
     return { fontSize: sizing.default };
 };
 
@@ -231,7 +218,7 @@ const BingoGame = () => {
                                 {t("preview")}
                             </Button>
                         </DialogTrigger>
-                        <DialogContent className="flex flex-col items-center justify-center">
+                        <DialogContent className="flex flex-col items-center justify-center px-1">
                             <VisuallyHidden>
                                 <DialogHeader>
                                     <DialogTitle>
@@ -271,7 +258,7 @@ const BingoGame = () => {
             {/* Hidden export - always full size for download */}
             <div className="absolute -left-[9999px] pointer-events-none">
                 <div ref={exportRef}>
-                    <BingoExport board={board} marked={marked} />
+                    <BingoExport board={board} marked={marked} downloadMode />
                 </div>
             </div>
         </div>
