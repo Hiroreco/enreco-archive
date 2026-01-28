@@ -56,6 +56,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const [needsExpansion, setNeedsExpansion] = useState(false);
     const contentRef = useRef<HTMLDivElement>(null);
+    const [linesHidden, setLinesHidden] = useState(0);
 
     const postDate = new Date(post.date);
     const formattedDate = postDate.toLocaleDateString("en-US", {
@@ -67,7 +68,14 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
     useEffect(() => {
         if (contentRef.current) {
             const contentHeight = contentRef.current.scrollHeight;
-            setNeedsExpansion(contentHeight > MAX_CONTENT_HEIGHT);
+            // Estimate line height
+            const computedStyle = window.getComputedStyle(contentRef.current);
+            const lineHeight = parseFloat(computedStyle.lineHeight) || 20;
+            const totalLines = Math.round(contentHeight / lineHeight);
+            const maxLines = Math.floor(MAX_CONTENT_HEIGHT / lineHeight);
+            const hiddenLines = totalLines - maxLines;
+            setLinesHidden(hiddenLines > 0 ? hiddenLines : 0);
+            setNeedsExpansion(contentHeight > MAX_CONTENT_HEIGHT && hiddenLines > 3);
         }
     }, [post.content]);
 
@@ -145,7 +153,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
                             <>
                                 <span>Show more</span>
                                 <ChevronDown className="w-3 h-3" />
-                            </>
+                                                          </>
                         )}
                     </button>
                 )}
