@@ -26,3 +26,5 @@
 ["Please don't look at me with those unfamiliar eyes" by TibsSketeches](https://x.com/TibsSketches/status/1919845172369596470)
 
 ["Juliet" by Keisea](https://x.com/Keiseeaaa/status/1919107348817195311)
+
+["Hi, what's your name?" by ashiartwork](https://x.com/ashiartwork/status/2016119615827673109)

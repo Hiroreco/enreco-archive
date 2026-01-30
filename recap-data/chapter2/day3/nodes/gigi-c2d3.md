@@ -35,6 +35,8 @@ The end of the day saw one of the most unexpected twists, with Gonathon falling 
 
 ["Those blonde angels looks familiar..." by Nagi](https://x.com/Nagi_Nyaaa/status/1919583988454158726)
 
+["silly gonathan rkgk" by insfidelie](https://x.com/insfidelie/status/1920532687120646425)
+
 ## Memes
 
 ["m'wolf" by NP_Mango](https://x.com/NP_Mango/status/1920349250241650993)

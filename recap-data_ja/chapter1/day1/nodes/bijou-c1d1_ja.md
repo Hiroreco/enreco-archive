@@ -36,3 +36,5 @@
 ["Koseki Bijou" by Amano Ritsu](https://x.com/Amano_Ritsu827/status/1901978737610301805)
 
 ["her REAL NAME" by seapupu](https://x.com/seapupu290495/status/1830258392583242130)
+
+["ENreco Cerulean Cup" by Hyoweii](https://x.com/weiiyxn/status/1985216267754848691)
