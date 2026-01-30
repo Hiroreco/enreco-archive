@@ -280,7 +280,14 @@
                 "oldest": "古い順"
             },
             "noResults": "ニュース記事が見つかりませんでした。",
-            "allAuthors": "すべての著者"
+            "allAuthors": "すべての著者",
+            "categories": {
+                "all": "すべて",
+                "merch": "商品",
+                "event": "イベント",
+                "media": "メディア",
+                "showcase": "ショーケース"
+            }
         }
     },
     "cards": {

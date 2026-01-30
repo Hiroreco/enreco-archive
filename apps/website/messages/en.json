@@ -280,7 +280,13 @@
                 "oldest": "Oldest First"
             },
             "noResults": "No news articles found.",
-            "allAuthors": "All Authors"
+            "categories": {
+                "all": "All",
+                "merch": "Merch",
+                "event": "Event",
+                "media": "Media",
+                "showcase": "Showcase"
+            }
         }
     },
     "cards": {

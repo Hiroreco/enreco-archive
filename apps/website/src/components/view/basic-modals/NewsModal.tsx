@@ -22,14 +22,7 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { NewsData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import {
-    ArrowUpDown,
-    Calendar,
-    ChevronDown,
-    ChevronUp,
-    ExternalLink,
-    Search,
-} from "lucide-react";
+import { Calendar, ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -56,7 +49,6 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const [needsExpansion, setNeedsExpansion] = useState(false);
     const contentRef = useRef<HTMLDivElement>(null);
-    const [linesHidden, setLinesHidden] = useState(0);
 
     const postDate = new Date(post.date);
     const formattedDate = postDate.toLocaleDateString("en-US", {
@@ -74,8 +66,9 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
             const totalLines = Math.round(contentHeight / lineHeight);
             const maxLines = Math.floor(MAX_CONTENT_HEIGHT / lineHeight);
             const hiddenLines = totalLines - maxLines;
-            setLinesHidden(hiddenLines > 0 ? hiddenLines : 0);
-            setNeedsExpansion(contentHeight > MAX_CONTENT_HEIGHT && hiddenLines > 3);
+            setNeedsExpansion(
+                contentHeight > MAX_CONTENT_HEIGHT && hiddenLines > 3,
+            );
         }
     }, [post.content]);
 
@@ -153,7 +146,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
                             <>
                                 <span>Show more</span>
                                 <ChevronDown className="w-3 h-3" />
-                                                          </>
+                            </>
                         )}
                     </button>
                 )}
@@ -198,7 +191,8 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const [searchQuery, setSearchQuery] = useState("");
-    const [selectedAuthor, setSelectedAuthor] = useState<string>("all");
+    const [selectedChapter, setSelectedChapter] = useState<string>("all");
+    const [selectedCategory, setSelectedCategory] = useState<string>("all");
     const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
     const [currentPage, setCurrentPage] = useState(1);
     const [isLoading, setIsLoading] = useState(false);
@@ -209,18 +203,33 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
     const newsData = newsDataEn as NewsData[];
 
-    const authors = useMemo(() => {
-        const uniqueAuthors = new Set<string>();
-        newsData.forEach((post) => uniqueAuthors.add(post.author));
-        return Array.from(uniqueAuthors).sort();
+    const chapters = useMemo(() => {
+        const uniqueChapters = new Set<number>();
+        newsData.forEach((post) => uniqueChapters.add(post.chapter));
+        return Array.from(uniqueChapters).sort((a, b) => a - b);
+    }, [newsData]);
+
+    const categories = useMemo(() => {
+        const uniqueCategories = new Set<string>();
+        newsData.forEach((post) => {
+            if (post.category && post.category !== "all") {
+                uniqueCategories.add(post.category);
+            }
+        });
+        return Array.from(uniqueCategories).sort();
     }, [newsData]);
 
     const allFilteredNews = useMemo(() => {
         let filtered = newsData;
 
-        if (selectedAuthor !== "all") {
+        if (selectedChapter !== "all") {
+            const chapterNum = parseInt(selectedChapter, 10);
+            filtered = filtered.filter((post) => post.chapter === chapterNum);
+        }
+
+        if (selectedCategory !== "all") {
             filtered = filtered.filter(
-                (post) => post.author === selectedAuthor,
+                (post) => post.category === selectedCategory,
             );
         }
 
@@ -240,7 +249,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
         });
 
         return sorted;
-    }, [newsData, selectedAuthor, searchQuery, sortOrder]);
+    }, [newsData, selectedChapter, selectedCategory, searchQuery, sortOrder]);
 
     const paginatedNews = useMemo(() => {
         const maxItems = currentPage * ITEMS_PER_PAGE;
@@ -373,7 +382,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                 behavior: "smooth",
             });
         }
-    }, [searchQuery, selectedAuthor, sortOrder]);
+    }, [searchQuery, selectedChapter, selectedCategory, sortOrder]);
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
@@ -393,83 +402,94 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
                 <div className="flex flex-col flex-1 overflow-hidden gap-4">
                     <div className="flex flex-col sm:flex-row gap-3 mt-2 md:mx-2">
-                        <div className="relative flex-1">
-                            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-                            <Input
-                                type="text"
-                                placeholder={t("searchPlaceholder")}
-                                value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
-                                className="pl-10"
-                            />
-                        </div>
+                        {/* Search Bar */}
+                        <Input
+                            type="text"
+                            placeholder="Search news..."
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                            className="flex-1"
+                        />
 
-                        <div className="flex items-center gap-2">
-                            <Select
-                                value={selectedAuthor}
-                                onValueChange={setSelectedAuthor}
-                            >
-                                <SelectTrigger className="md:w-[200px]">
-                                    <SelectValue placeholder="Filter by author" />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="all">
-                                        {t("allAuthors")}
+                        {/* Chapter Filter */}
+                        <Select
+                            value={selectedChapter}
+                            onValueChange={setSelectedChapter}
+                        >
+                            <SelectTrigger className="w-full sm:w-[180px]">
+                                <SelectValue placeholder="Chapter" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="all">
+                                    {tCommon("allChapters")}
+                                </SelectItem>
+                                {chapters.map((chapter) => (
+                                    <SelectItem
+                                        key={chapter}
+                                        value={chapter.toString()}
+                                    >
+                                        {`Chapter ${chapter + 1}`}
                                     </SelectItem>
-                                    {authors.map((author) => (
-                                        <SelectItem key={author} value={author}>
-                                            {author}
-                                        </SelectItem>
-                                    ))}
-                                </SelectContent>
-                            </Select>
+                                ))}
+                            </SelectContent>
+                        </Select>
 
-                            <Button
-                                variant="outline"
-                                size="icon"
-                                className="shrink-0"
-                                onClick={toggleSortOrder}
-                                title={
-                                    sortOrder === "newest"
-                                        ? t("sortOptions.oldest")
-                                        : t("sortOptions.newest")
-                                }
-                            >
-                                <ArrowUpDown className="size-4" />
-                            </Button>
-                        </div>
+                        {/* Category Filter */}
+                        <Select
+                            value={selectedCategory}
+                            onValueChange={setSelectedCategory}
+                        >
+                            <SelectTrigger className="w-full sm:w-[180px]">
+                                <SelectValue placeholder="Category" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                {categories.map((category) => (
+                                    <SelectItem key={category} value={category}>
+                                        {t(`categories.${category}`)}
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </Select>
+
+                        {/* Sort Toggle */}
+                        <Button
+                            variant="outline"
+                            onClick={toggleSortOrder}
+                            className="w-full sm:w-auto"
+                        >
+                            {sortOrder === "newest" ? "Newest" : "Oldest"}
+                        </Button>
                     </div>
 
                     <div
                         ref={setContentContainerRef}
                         className="flex-1 overflow-y-scroll overflow-x-hidden pr-2"
                     >
-                        {paginatedNews.length === 0 ? (
-                            <div className="flex items-center justify-center h-full text-muted-foreground">
-                                {t("noResults")}
-                            </div>
-                        ) : (
-                            <div className="flex gap-4 items-start w-full">
-                                {masonryColumns.map((column, colIndex) => (
-                                    <div
-                                        key={colIndex}
-                                        className="flex-1 flex flex-col min-w-0"
-                                    >
-                                        {column.items.map(({ post, index }) => (
-                                            <NewsPostItem
-                                                key={index}
-                                                post={post}
-                                                index={index}
-                                            />
-                                        ))}
-                                    </div>
-                                ))}
-                            </div>
-                        )}
+                        {/* Masonry Grid */}
+                        <div className="flex gap-4">
+                            {masonryColumns.map((column, colIndex) => (
+                                <div
+                                    key={colIndex}
+                                    className="flex flex-col flex-1"
+                                    style={{
+                                        width: `${100 / columnCount}%`,
+                                    }}
+                                >
+                                    {column.items.map(({ post, index }) => (
+                                        <NewsPostItem
+                                            key={index}
+                                            post={post}
+                                            index={index}
+                                        />
+                                    ))}
+                                </div>
+                            ))}
+                        </div>
 
+                        {/* Loading Indicator */}
                         {isLoading && (
                             <div className="text-center py-4 text-muted-foreground">
-                                Loading more...
+                                Loading...
                             </div>
                         )}
                     </div>
@@ -477,8 +497,8 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
                 <DialogFooter className="border-t pt-4">
                     <DialogClose asChild>
-                        <Button className="md:hidden min-w-20">
-                            {tCommon("close")}
+                        <Button variant="outline">
+                            {tCommon("actions.close")}
                         </Button>
                     </DialogClose>
                 </DialogFooter>

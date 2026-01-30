@@ -214,6 +214,7 @@ export type EasterEggState = {
 };
 
 export type MediaType = "video" | "image" | "youtube";
+export type NewsCategory = "all" | "merch" | "event" | "media" | "showcase";
 
 export type NewsData = {
     content: string;
@@ -225,4 +226,6 @@ export type NewsData = {
         src: string;
     };
     src: string;
+    chapter: number;
+    category: NewsCategory;
 };

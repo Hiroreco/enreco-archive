@@ -52,6 +52,8 @@ async function parseNewsMarkdown(filePath: string): Promise<NewsData | null> {
             | "video"
             | "youtube";
         const mediaSrc = extractMetadata(content, "mediaSrc");
+        const chapterStr = extractMetadata(content, "chapter");
+        const category = extractMetadata(content, "category");
 
         if (!date || !author || !src) {
             console.warn(`⚠ Missing required metadata in ${filePath}`);
@@ -70,12 +72,9 @@ async function parseNewsMarkdown(filePath: string): Promise<NewsData | null> {
                 src: mediaSrc || "",
             },
             src,
+            chapter: chapterStr ? parseInt(chapterStr, 10) : 0,
+            category: (category as NewsData["category"]) || "all",
         };
-
-        // Add avatarSrc only if it exists
-        if (avatarSrc) {
-            newsData.avatarSrc = avatarSrc;
-        }
 
         return newsData;
     } catch (err: any) {
