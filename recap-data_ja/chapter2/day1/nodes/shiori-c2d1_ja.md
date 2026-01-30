@@ -45,3 +45,5 @@
 ["Shiori" by Lily is Asleep](https://x.com/Kukie_nyan/status/1920230188601823581)
 
 ["Shiori" by hazel](https://x.com/hzlform/status/1901576727979233612)
+
+["Shiori" by sooby](https://x.com/sooby600211/status/2000261284391260171)

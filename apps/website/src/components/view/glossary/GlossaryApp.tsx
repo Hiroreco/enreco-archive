@@ -10,9 +10,9 @@ interface ItemsAppProps {
 }
 
 const GlossaryApp = ({ bgImage }: ItemsAppProps) => {
-    const openModal = useViewStore((state) => state.modal.openModal);
-    const closeModal = useViewStore((state) => state.modal.closeModal);
-    const videoUrl = useViewStore((state) => state.modal.videoUrl);
+    const openModal = useViewStore((state) => state.openModal);
+    const closeModal = useViewStore((state) => state.closeModal);
+    const videoUrl = useViewStore((state) => state.videoUrl);
 
     return (
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">

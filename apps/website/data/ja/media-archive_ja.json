@@ -29,7 +29,7 @@
     "id": "c1-merch",
     "title": "公式グッズ - 第1章",
     "description": "第1章を記念して制作された公式テーマとアニメーション",
-    "info": "### 説明\n\n第1章の開催を記念して登場した公式グッズには、コレクションカード、アクリルスタンド、リベスタルのマント、ENrecoをモチーフにしたカップ、キーホルダー、そして全ヒーローのボイスパックがラインナップされています。",
+    "info": "### 説明\n\n第1章の開催を記念して登場した公式グッズには、コレクションカード、アクリルスタンド、リベスタルのマント、ENrecoをモチーフにしたカップ、キーホルダー、そして四人のヒーロー、一伊那尓栖、オーロ・クロニー、ハコス・ベールズ、ネリッサ・レイヴンクロフトのボイスパックがラインナップされています。",
     "chapter": 1,
     "thumbnailUrl": "/images-opt/c1-merch-commemoration-opt.webp",
     "entries": [
@@ -363,6 +363,46 @@
         "thumbnailUrl": "/images-opt/c2-merch-commemoration-opt.webp",
         "info": "",
         "src": "/images-opt/c2-merch-commemoration-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "第2章 カード",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-card-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-card-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "第2章 カードホルダー",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-holder-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-holder-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "第2章 ゴムマット",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-mat-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-mat-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "第2章 アクリルスタンド",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-stand-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-stand-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": "第2章 リベスタル・チャームポーチ",
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter2?_pos=5&_sid=331ace359&_ss=r",
+        "thumbnailUrl": "/images-opt/c2-merch-pouch-opt.webp",
+        "info": "",
+        "src": "/images-opt/c2-merch-pouch-opt.webp",
         "type": "image"
       }
     ]

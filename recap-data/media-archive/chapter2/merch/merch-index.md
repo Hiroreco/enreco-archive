@@ -1,5 +1,5 @@
 <!-- title: Official Merchandise - Chapter 2 -->
-<!-- entries: merch-commemoration -->
+<!-- entries: merch-commemoration, merch-card, merch-holder, merch-mat, merch-stand, merch-pouch -->
 <!-- description: Official merchandise made for Chapter 2 -->
 <!-- thumbnail: merch-commemoration -->
 

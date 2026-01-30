@@ -9,12 +9,10 @@ import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import {
-    ChartData,
     FixedEdgeType,
     ImageNodeType,
-    Relationship,
 } from "@enreco-archive/common/types";
-import { isMobileViewport } from "@/lib/utils";
+import { isEdge, isMobileViewport } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
 import { useEffect, useRef } from "react";
@@ -32,14 +30,12 @@ import {
 import { useTranslations } from "next-intl";
 import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 import { AnimatePresence, motion } from "framer-motion";
+import { useViewStore } from "@/store/viewStore";
+import { useShallow } from "zustand/react/shallow";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 
 interface Props {
     isCardOpen: boolean;
-    selectedEdge: FixedEdgeType | null;
-    edgeRelationship: Relationship | null;
-    charts: ChartData[];
-    chapter: number;
-    day: number;
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
@@ -49,11 +45,6 @@ interface Props {
 
 const EdgeCard = ({
     isCardOpen,
-    selectedEdge,
-    edgeRelationship,
-    charts,
-    chapter,
-    day,
     onCardClose,
     onEdgeLinkClicked,
     onNodeLinkClicked,
@@ -65,6 +56,24 @@ const EdgeCard = ({
 
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
+
+    const {
+        selectedEdge,
+        chapter,
+        day,
+    } = useViewStore(useShallow(state => {
+        let selectedEdge = state.selectedElement !== null && isEdge(state.selectedElement) ? state.selectedElement as FixedEdgeType : null;
+
+        return {
+            selectedEdge: selectedEdge,
+            chapter: state.chapter,
+            day: state.day,
+        };
+    }));
+
+    const { getChapter } = useLocalizedData();
+    const chapterData = getChapter(chapter);
+    const charts = chapterData.charts;
 
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
@@ -107,6 +116,9 @@ const EdgeCard = ({
             onNodeLinkClicked(node);
         }
     };
+
+    const edgeRelationshipId = selectedEdge?.data?.relationshipId ?? null;
+    const edgeRelationship = edgeRelationshipId !== null ? chapterData.relationships[edgeRelationshipId] : null;
 
     const renderContent =
         selectedEdge !== null &&

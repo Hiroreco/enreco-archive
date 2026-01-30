@@ -28,11 +28,17 @@ const VideoArchiveViewer = ({
     onMediaIndexChange,
 }: VideoArchiveViewerProps) => {
     const t = useTranslations("mediaArchive");
-    const openModal = useViewStore((state) => state.modal.openModal);
+    const openModal = useViewStore((state) => state.openModal);
 
     const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
-    const [playingVideos, setPlayingVideos] = useState<Set<number>>(new Set());
+    const [currentVideo, setCurrentVideo] = useState<{
+        index: number;
+        isPlaying: boolean;
+    }>({
+        index: -1,
+        isPlaying: false,
+    });
     const containerRef = useRef<HTMLDivElement>(null);
     const swiperRef = useRef<SwiperType | null>(null);
 
@@ -60,6 +66,13 @@ const VideoArchiveViewer = ({
         [currentMedia.type],
     );
 
+    const stopPlayingVideo = useCallback(() => {
+        setCurrentVideo({
+            index: -1,
+            isPlaying: false,
+        });
+    }, []);
+
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
             if (isLightboxOpen || openModal !== null) {
@@ -69,10 +82,10 @@ const VideoArchiveViewer = ({
                 setCurrentMediaIndex((prev) =>
                     prev < entry.entries.length - 1 ? prev + 1 : prev,
                 );
-                setPlayingVideos(new Set());
+                stopPlayingVideo();
             } else if (e.key === "ArrowLeft") {
                 setCurrentMediaIndex((prev) => (prev > 0 ? prev - 1 : prev));
-                setPlayingVideos(new Set());
+                stopPlayingVideo();
             }
         };
 
@@ -80,15 +93,14 @@ const VideoArchiveViewer = ({
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         };
-    }, [entry.entries.length, isLightboxOpen, openModal]);
+    }, [entry.entries.length, isLightboxOpen, openModal, stopPlayingVideo]);
 
     const handleThumbnailClick = useCallback(
         (index: number) => {
             setCurrentMediaIndex(index);
             onMediaIndexChange?.(index);
             // Stop any playing video when switching
-            setPlayingVideos(new Set());
-
+            stopPlayingVideo();
             const carousel = document.getElementById("carousel");
             const thumbnail = carousel?.children[index] as HTMLElement;
             if (thumbnail && carousel) {
@@ -103,7 +115,7 @@ const VideoArchiveViewer = ({
                 });
             }
         },
-        [onMediaIndexChange],
+        [onMediaIndexChange, stopPlayingVideo],
     );
 
     const handleMainImageClick = useCallback(() => {
@@ -114,11 +126,7 @@ const VideoArchiveViewer = ({
 
     const handleVideoThumbnailClick = useCallback(
         (index: number) => {
-            setPlayingVideos((prev) => {
-                const newSet = new Set(prev);
-                newSet.add(index);
-                return newSet;
-            });
+            setCurrentVideo({ index, isPlaying: true });
             pauseBGM();
         },
         [pauseBGM],
@@ -141,24 +149,25 @@ const VideoArchiveViewer = ({
     // Stop videos and resume BGM when component unmounts
     useEffect(() => {
         return () => {
-            setPlayingVideos(new Set());
+            stopPlayingVideo();
             playBGM();
         };
-    }, [playBGM]);
+    }, [playBGM, stopPlayingVideo]);
 
     const handleSlideChange = (swiper: SwiperType) => {
         setCurrentMediaIndex(swiper.activeIndex);
         onMediaIndexChange?.(swiper.activeIndex);
         // Stop videos when sliding away
-        setPlayingVideos(new Set());
+        stopPlayingVideo();
     };
 
     const renderMediaItem = (media: MediaEntry, index: number) => {
         const isVideo = media.type === "video" || media.type === "youtube";
-        const isPlaying = playingVideos.has(index);
+        const isSelected = currentVideo.index === index;
+        const isPlaying = isSelected && currentVideo.isPlaying;
 
         if (isVideo) {
-            if (!isPlaying) {
+            if (!isSelected) {
                 return (
                     <div
                         className="relative w-full h-full min-h-[100px] aspect-video cursor-pointer flex items-center justify-center"
@@ -209,6 +218,12 @@ const VideoArchiveViewer = ({
                         controls
                         width="100%"
                         playing={isPlaying}
+                        onPause={() => {
+                            setCurrentVideo((prev) => ({
+                                ...prev,
+                                isPlaying: false,
+                            }));
+                        }}
                         height="100%"
                         style={{
                             maxWidth: "100%",
