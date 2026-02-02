@@ -22,7 +22,13 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { NewsData } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { Calendar, ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
+import {
+    ArrowDownNarrowWide,
+    ArrowUpNarrowWide,
+    Calendar,
+    ChevronDown,
+    ChevronUp,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -66,6 +72,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
             const totalLines = Math.round(contentHeight / lineHeight);
             const maxLines = Math.floor(MAX_CONTENT_HEIGHT / lineHeight);
             const hiddenLines = totalLines - maxLines;
+
             setNeedsExpansion(
                 contentHeight > MAX_CONTENT_HEIGHT && hiddenLines > 3,
             );
@@ -73,53 +80,43 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
     }, [post.content]);
 
     return (
-        <div
-            key={index}
-            className="text-sm border border-foreground/20 rounded-lg p-4 mb-4 w-full"
-        >
+        <div className="bg-card rounded-lg border p-4 break-inside-avoid">
             {/* Header */}
-            <div className="flex justify-between mb-3 gap-2">
-                <div className="flex items-center gap-2 min-w-0 flex-1">
-                    {post.avatarSrc && (
-                        <Image
-                            src={post.avatarSrc}
-                            alt="Author Avatar"
-                            width={40}
-                            height={40}
-                            className="size-[40px] rounded-full object-cover flex-shrink-0"
-                        />
-                    )}
-                    <div className="flex flex-col min-w-0 flex-1">
-                        <span className="font-bold text-sm truncate">
-                            {post.author}
-                        </span>
-                        <span className="text-muted-foreground text-xs truncate">
-                            @hololive_En
-                        </span>
-                    </div>
+            <div className="flex items-center gap-2 mb-3">
+                {post.avatarSrc && (
+                    <Image
+                        src={post.avatarSrc}
+                        alt={post.author}
+                        width={40}
+                        height={40}
+                        className="rounded-full"
+                    />
+                )}
+                <div className="flex flex-col min-w-0">
+                    <span className="font-semibold text-sm truncate">
+                        {post.author}
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                        @hololive_En
+                    </span>
                 </div>
-                <a href={post.src} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-4 h-4 text-muted-foreground" />
-                </a>
             </div>
 
             {/* Content */}
-            <div className="relative">
+            <div className="relative mb-3">
                 <div
                     ref={contentRef}
                     className={cn(
-                        "mb-3 break-words overflow-hidden transition-all duration-300",
-                        !isExpanded && needsExpansion && "max-h-[100px]",
+                        "text-sm whitespace-pre-wrap overflow-hidden transition-all duration-300",
+                        !isExpanded && needsExpansion && "line-clamp-5",
                     )}
-                    style={{
-                        maxHeight:
-                            !isExpanded && needsExpansion
-                                ? `${MAX_CONTENT_HEIGHT}px`
-                                : "none",
-                    }}
+                    style={
+                        !isExpanded && needsExpansion
+                            ? { maxHeight: `${MAX_CONTENT_HEIGHT}px` }
+                            : undefined
+                    }
                 >
                     <ViewMarkdown
-                        className="break-words overflow-hidden"
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}
                     >
@@ -129,7 +126,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
 
                 {/* Show more/less gradient overlay and button */}
                 {needsExpansion && !isExpanded && (
-                    <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-background to-transparent pointer-events-none mb-4" />
+                    <div className="absolute bottom-4 left-0 right-0 h-4 bg-gradient-to-t from-card to-transparent pointer-events-none" />
                 )}
 
                 {needsExpansion && (
@@ -139,12 +136,12 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
                     >
                         {isExpanded ? (
                             <>
-                                <span>Show less</span>
+                                Show less
                                 <ChevronUp className="w-3 h-3" />
                             </>
                         ) : (
                             <>
-                                <span>Show more</span>
+                                Show more
                                 <ChevronDown className="w-3 h-3" />
                             </>
                         )}
@@ -154,29 +151,28 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
 
             {/* Media */}
             {post.media.src && post.media.type === "image" && (
-                <div className="rounded-lg overflow-hidden border border-foreground/10 mb-3">
+                <div className="mb-3 rounded-lg overflow-hidden w-full">
                     <Lightbox
                         src={post.media.src}
-                        alt="Post media"
-                        width={600}
-                        height={338}
-                        className="w-full h-auto"
+                        alt={"Post media image"}
+                        className="w-full h-auto object-contain"
                     />
                 </div>
             )}
 
             {post.media.src && post.media.type === "video" && (
-                <div className="rounded-lg overflow-hidden border border-foreground/10 mb-3">
+                <div className="mb-3 rounded-lg overflow-hidden w-full">
                     <video
+                        src={post.media.src}
                         controls
                         className="w-full h-auto"
-                        src={post.media.src}
+                        preload="metadata"
                     />
                 </div>
             )}
 
             {/* Footer */}
-            <div className="flex items-center gap-1 text-xs text-muted-foreground">
+            <div className="flex items-center gap-2 text-xs text-muted-foreground pt-2 border-t">
                 <Calendar className="w-3 h-3" />
                 <span>{formattedDate}</span>
             </div>
@@ -187,19 +183,17 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
 const NewsModal = ({ open, onClose }: NewsModalProps) => {
     const t = useTranslations("modals.news");
     const tCommon = useTranslations("common");
-
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const [searchQuery, setSearchQuery] = useState("");
-    const [selectedChapter, setSelectedChapter] = useState<string>("all");
-    const [selectedCategory, setSelectedCategory] = useState<string>("all");
+    const [selectedChapter, setSelectedChapter] = useState("all");
+    const [selectedCategory, setSelectedCategory] = useState("all");
     const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
     const [currentPage, setCurrentPage] = useState(1);
     const [isLoading, setIsLoading] = useState(false);
     const [columnCount, setColumnCount] = useState(3);
     const [masonryColumns, setMasonryColumns] = useState<MasonryColumn[]>([]);
-
-    const contentContainerRef = useRef<HTMLDivElement>(null);
+    const contentContainerRef = useRef<HTMLDivElement | null>(null);
 
     const newsData = newsDataEn as NewsData[];
 
@@ -387,23 +381,26 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <VisuallyHidden>
-                <DialogTitle>News Modal</DialogTitle>
-            </VisuallyHidden>
             <DialogContent
-                showXButton={true}
-                className="rounded-lg w-full max-w-[95vw] lg:max-w-[1200px] h-[90vh] flex flex-col p-6"
-                backdropFilter={backdropFilter}
+                className={cn(
+                    "max-w-6xl flex flex-col p-0 gap-0",
+                    backdropFilter &&
+                        "supports-[backdrop-filter]:bg-background/80",
+                )}
+                aria-describedby="news-modal-description"
             >
                 <VisuallyHidden>
-                    <DialogDescription>
+                    <DialogTitle>News Modal</DialogTitle>
+                </VisuallyHidden>
+                <VisuallyHidden>
+                    <DialogDescription id="news-modal-description">
                         View ENreco News updates
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="flex flex-col flex-1 overflow-hidden gap-4">
-                    <div className="flex flex-col sm:flex-row gap-3 mt-2 md:mx-2">
-                        {/* Search Bar */}
+                <div className="flex flex-col gap-2 h-[80vh] md:h-[90vh]">
+                    {/* Search Bar */}
+                    <div className="flex flex-col sm:flex-row gap-2 p-4 border-b">
                         <Input
                             type="text"
                             placeholder="Search news..."
@@ -412,69 +409,71 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                             className="flex-1"
                         />
 
-                        {/* Chapter Filter */}
-                        <Select
-                            value={selectedChapter}
-                            onValueChange={setSelectedChapter}
-                        >
-                            <SelectTrigger className="w-full sm:w-[180px]">
-                                <SelectValue placeholder="Chapter" />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="all">
-                                    {tCommon("allChapters")}
-                                </SelectItem>
-                                {chapters.map((chapter) => (
-                                    <SelectItem
-                                        key={chapter}
-                                        value={chapter.toString()}
-                                    >
-                                        {`Chapter ${chapter + 1}`}
+                        <div className="flex flex-row gap-2 items-center">
+                            {/* Chapter Filter */}
+                            <Select
+                                value={selectedChapter}
+                                onValueChange={setSelectedChapter}
+                            >
+                                <SelectTrigger className="sm:w-[180px]">
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="all">
+                                        {tCommon("allChapters")}
                                     </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
+                                    {chapters.map((chapter) => (
+                                        <SelectItem
+                                            key={chapter}
+                                            value={String(chapter)}
+                                        >
+                                            {`Chapter ${chapter + 1}`}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
 
-                        {/* Category Filter */}
-                        <Select
-                            value={selectedCategory}
-                            onValueChange={setSelectedCategory}
-                        >
-                            <SelectTrigger className="w-full sm:w-[180px]">
-                                <SelectValue placeholder="Category" />
-                            </SelectTrigger>
-                            <SelectContent>
-                                {categories.map((category) => (
-                                    <SelectItem key={category} value={category}>
-                                        {t(`categories.${category}`)}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
+                            {/* Category Filter */}
+                            <Select
+                                value={selectedCategory}
+                                onValueChange={setSelectedCategory}
+                            >
+                                <SelectTrigger className="sm:w-[180px]">
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    {categories.map((category) => (
+                                        <SelectItem
+                                            key={category}
+                                            value={category}
+                                        >
+                                            {t(`categories.${category}`)}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
 
-                        {/* Sort Toggle */}
-                        <Button
-                            variant="outline"
-                            onClick={toggleSortOrder}
-                            className="w-full sm:w-auto"
-                        >
-                            {sortOrder === "newest" ? "Newest" : "Oldest"}
-                        </Button>
+                            {/* Sort Toggle */}
+                            <Button variant="outline" onClick={toggleSortOrder}>
+                                {sortOrder === "newest" ? (
+                                    <ArrowUpNarrowWide className="size-4" />
+                                ) : (
+                                    <ArrowDownNarrowWide className="size-4" />
+                                )}
+                            </Button>
+                        </div>
                     </div>
 
+                    {/* Masonry Grid */}
                     <div
                         ref={setContentContainerRef}
-                        className="flex-1 overflow-y-scroll overflow-x-hidden pr-2"
+                        className="flex-1 overflow-y-auto px-4 pb-4"
                     >
-                        {/* Masonry Grid */}
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 items-start">
                             {masonryColumns.map((column, colIndex) => (
                                 <div
                                     key={colIndex}
-                                    className="flex flex-col flex-1"
-                                    style={{
-                                        width: `${100 / columnCount}%`,
-                                    }}
+                                    className="flex-1 min-w-0 space-y-4"
                                 >
                                     {column.items.map(({ post, index }) => (
                                         <NewsPostItem
@@ -486,19 +485,21 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                 </div>
                             ))}
                         </div>
+                    </div>
 
-                        {/* Loading Indicator */}
-                        {isLoading && (
-                            <div className="text-center py-4 text-muted-foreground">
+                    {/* Loading Indicator */}
+                    {isLoading && (
+                        <div className="flex justify-center py-4">
+                            <div className="text-sm text-muted-foreground">
                                 Loading...
                             </div>
-                        )}
-                    </div>
+                        </div>
+                    )}
                 </div>
 
-                <DialogFooter className="border-t pt-4">
+                <DialogFooter className="border-t md:hidden p-4">
                     <DialogClose asChild>
-                        <Button variant="outline">{tCommon("close")}</Button>
+                        <Button>{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>
