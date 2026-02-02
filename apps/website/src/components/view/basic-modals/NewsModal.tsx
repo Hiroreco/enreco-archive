@@ -211,6 +211,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
     const categories = useMemo(() => {
         const uniqueCategories = new Set<string>();
+        uniqueCategories.add("all");
         newsData.forEach((post) => {
             if (post.category && post.category !== "all") {
                 uniqueCategories.add(post.category);
@@ -497,9 +498,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
 
                 <DialogFooter className="border-t pt-4">
                     <DialogClose asChild>
-                        <Button variant="outline">
-                            {tCommon("actions.close")}
-                        </Button>
+                        <Button variant="outline">{tCommon("close")}</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>
