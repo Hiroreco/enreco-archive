@@ -45,16 +45,17 @@ interface MasonryColumn {
 
 interface NewsPostItemProps {
     post: NewsData;
-    index: number;
 }
 
 const ITEMS_PER_PAGE = 15;
 const MAX_CONTENT_HEIGHT = 100; // pixels
 
-const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
+const NewsPostItem = ({ post }: NewsPostItemProps) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const [needsExpansion, setNeedsExpansion] = useState(false);
     const contentRef = useRef<HTMLDivElement>(null);
+    // https://x.com/hololive_En/status/1826783929677894111 -> hololive_En
+    const userHandle = post.src.match(/x\.com\/([^/]+)/)?.[1] || "unknown";
 
     const postDate = new Date(post.date);
     const formattedDate = postDate.toLocaleDateString("en-US", {
@@ -97,7 +98,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
                         {post.author}
                     </span>
                     <span className="text-xs text-muted-foreground">
-                        @hololive_En
+                        @{userHandle}
                     </span>
                 </div>
             </div>
@@ -119,6 +120,7 @@ const NewsPostItem = ({ post, index }: NewsPostItemProps) => {
                     <ViewMarkdown
                         onNodeLinkClicked={() => {}}
                         onEdgeLinkClicked={() => {}}
+                        className="smaller-mb"
                     >
                         {post.content}
                     </ViewMarkdown>
@@ -427,7 +429,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                             key={chapter}
                                             value={String(chapter)}
                                         >
-                                            {`Chapter ${chapter + 1}`}
+                                            {tCommon("chapter", {val: chapter + 1})}
                                         </SelectItem>
                                     ))}
                                 </SelectContent>
@@ -475,26 +477,16 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                     key={colIndex}
                                     className="flex-1 min-w-0 space-y-4"
                                 >
-                                    {column.items.map(({ post, index }) => (
+                                    {column.items.map(({ post }) => (
                                         <NewsPostItem
-                                            key={index}
+                                            key={post.src}
                                             post={post}
-                                            index={index}
                                         />
                                     ))}
                                 </div>
                             ))}
                         </div>
                     </div>
-
-                    {/* Loading Indicator */}
-                    {isLoading && (
-                        <div className="flex justify-center py-4">
-                            <div className="text-sm text-muted-foreground">
-                                Loading...
-                            </div>
-                        </div>
-                    )}
                 </div>
 
                 <DialogFooter className="border-t md:hidden p-4">
