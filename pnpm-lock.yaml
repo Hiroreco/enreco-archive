@@ -27,9 +27,6 @@ catalogs:
     immer:
       specifier: ^10.1.1
       version: 10.1.1
-    jszip:
-      specifier: ^3.10.1
-      version: 3.10.1
     lucide-react:
       specifier: ^0.482.0
       version: 0.482.0
@@ -48,9 +45,6 @@ catalogs:
     shx:
       specifier: ^0.4.0
       version: 0.4.0
-    tailwind-merge:
-      specifier: ^3.3.0
-      version: 3.3.0
     tailwindcss:
       specifier: ^4.1.7
       version: 4.1.7
@@ -276,9 +270,6 @@ importers:
       howler:
         specifier: ^2.2.4
         version: 2.2.4
-      html2canvas:
-        specifier: ^1.4.1
-        version: 1.4.1
       html2canvas-pro:
         specifier: ^1.6.5
         version: 1.6.5
@@ -3417,10 +3408,6 @@ packages:
   html2canvas-pro@1.6.5:
     resolution: {integrity: sha512-Ot3UpUpzQFkJoKmwAcGzwdGhNNlBSlVQV32RY/i5JABOFXGbkHGKkbSotCY3ePKx1Xua3FWsROR54PUW9X/2Qg==}
     engines: {node: '>=16.0.0'}
-
-  html2canvas@1.4.1:
-    resolution: {integrity: sha512-fPU6BHNpsyIhr8yyMpTLLxAbkaK8ArIBcmZIRiBLiDhjeqvXolaEmDGmELFuX9I4xDcaKKcJl+TKZLqruBbmWA==}
-    engines: {node: '>=8.0.0'}
 
   http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
@@ -8570,11 +8557,6 @@ snapshots:
   html-void-elements@3.0.0: {}
 
   html2canvas-pro@1.6.5:
-    dependencies:
-      css-line-break: 2.1.0
-      text-segmentation: 1.0.3
-
-  html2canvas@1.4.1:
     dependencies:
       css-line-break: 2.1.0
       text-segmentation: 1.0.3

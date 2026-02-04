@@ -12,7 +12,14 @@ import {
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { CheckSquare, Download, Edit, Eye } from "lucide-react";
+import {
+    CheckSquare,
+    Download,
+    Edit,
+    Eye,
+    Shuffle,
+    Sparkles,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 
@@ -21,6 +28,33 @@ const createInitialBoard = () => {
     board[12] = "Free\nSpace!"; // Center square
     return board;
 };
+
+const PRESET_VALUES = [
+    "Bae says 'Bruh'",
+    "Liz scammed",
+    "IRyS netorare",
+    "Kronii is late",
+    "Cecilia crashes out",
+    "Calli cooks",
+    "Ame returns",
+    "potato salad",
+    "Kiara screams",
+    "Ina puns",
+    "Shiori laughs maniacally",
+    "Nerissa sings",
+    "FWMC baus",
+    "Bijou says 'Biboo'",
+    "Raora goes 'Big cat'",
+    "Cecilia leeches",
+    "Gigi chaos",
+    "ERB royalty",
+    "Someone dc's",
+    "Technical difficulties",
+    "Collab chaos",
+    "Cute moment",
+    "Emotional moment",
+    "Random tangent",
+];
 
 // Initialize from localStorage or create new
 const getInitialBoard = (): string[] => {
@@ -157,6 +191,57 @@ const BingoGame = () => {
         setMarked(Array(25).fill(false));
     };
 
+    const handleRandomize = () => {
+        // Shuffle the current board (keeping center square in place if desired)
+        const centerValue = board[12];
+        const shuffled = [...board];
+
+        // Fisher-Yates shuffle algorithm
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            // Skip center square
+            if (i === 12) continue;
+
+            let j = Math.floor(Math.random() * (i + 1));
+            // Skip center square
+            if (j === 12) j = (j + 1) % shuffled.length;
+
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+
+        // Restore center value if needed
+        shuffled[12] = centerValue;
+        setBoard(shuffled);
+        setMarked(Array(25).fill(false));
+    };
+
+    const handlePreset = () => {
+        // Create a copy of preset values
+        const availableValues = [...PRESET_VALUES];
+        const newBoard: string[] = [];
+
+        // Fill 25 squares
+        for (let i = 0; i < 25; i++) {
+            if (i === 12) {
+                // Keep center as "Free Space"
+                newBoard.push("Free\nSpace!");
+            } else if (availableValues.length > 0) {
+                // Pick a random value from available presets
+                const randomIndex = Math.floor(
+                    Math.random() * availableValues.length,
+                );
+                newBoard.push(availableValues[randomIndex]);
+                // Remove used value to avoid duplicates (optional - remove this line if duplicates are OK)
+                availableValues.splice(randomIndex, 1);
+            } else {
+                // If we run out of preset values, use empty string
+                newBoard.push("");
+            }
+        }
+
+        setBoard(newBoard);
+        setMarked(Array(25).fill(false));
+    };
+
     const downloadBingo = async () => {
         if (!exportRef.current) return;
         const html2canvas = (await import("html2canvas-pro")).default;
@@ -189,7 +274,7 @@ const BingoGame = () => {
                 <span className="text-sm font-medium text-center">
                     {t("mode")}
                 </span>
-                <div className="flex items-center justify-center gap-2 md:justify-between">
+                <div className="flex items-center justify-center gap-2">
                     <Button
                         size="sm"
                         variant={isEditMode ? "default" : "outline"}
@@ -210,7 +295,30 @@ const BingoGame = () => {
 
                 <div className="h-px bg-border my-1" />
 
-                <div className="flex md:flex-col flex-row gap-2">
+                <div className="flex md:flex-col flex-row gap-2 flex-wrap">
+                    <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={handleRandomize}
+                        title={t("randomize")}
+                    >
+                        <Shuffle className="size-4 mr-2" />
+                        {t("randomize")}
+                    </Button>
+                    <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={handlePreset}
+                        title={t("preset")}
+                    >
+                        <Sparkles className="size-4 mr-2" />
+                        {t("preset")}
+                    </Button>
+                </div>
+
+                <div className="h-px bg-border my-1" />
+
+                <div className="flex md:flex-col flex-row gap-2 flex-wrap">
                     <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
                         <DialogTrigger asChild>
                             <Button size="sm" variant="outline">
