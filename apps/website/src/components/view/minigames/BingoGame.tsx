@@ -11,6 +11,13 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@enreco-archive/common-ui/components/select";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import {
     CheckSquare,
@@ -56,25 +63,32 @@ const PRESET_VALUES = [
     "Random tangent",
 ];
 
-// Initialize from localStorage or create new
-const getInitialBoard = (): string[] => {
-    if (typeof window === "undefined") return createInitialBoard();
+type DayBoards = Record<string, string[]>;
+type DayMarked = Record<string, boolean[]>;
 
-    const savedBoard = localStorage.getItem(LS_KEYS.BINGO_BOARD);
-    if (savedBoard) {
+// Initialize boards for all days from localStorage
+const getInitialBoards = (): DayBoards => {
+    if (typeof window === "undefined") {
+        return { "1": createInitialBoard() };
+    }
+
+    const savedBoards = localStorage.getItem(LS_KEYS.BINGO_BOARDS);
+    if (savedBoards) {
         try {
-            return JSON.parse(savedBoard);
+            return JSON.parse(savedBoards);
         } catch (e) {
-            console.error("Failed to parse saved board:", e);
+            console.error("Failed to parse saved boards:", e);
         }
     }
-    return createInitialBoard();
+    return { "1": createInitialBoard() };
 };
 
-const getInitialMarked = (): boolean[] => {
-    if (typeof window === "undefined") return Array(25).fill(false);
+const getInitialAllMarked = (): DayMarked => {
+    if (typeof window === "undefined") {
+        return { "1": Array(25).fill(false) };
+    }
 
-    const savedMarked = localStorage.getItem(LS_KEYS.BINGO_MARKED);
+    const savedMarked = localStorage.getItem(LS_KEYS.BINGO_ALL_MARKED);
     if (savedMarked) {
         try {
             return JSON.parse(savedMarked);
@@ -82,7 +96,7 @@ const getInitialMarked = (): boolean[] => {
             console.error("Failed to parse saved marked:", e);
         }
     }
-    return Array(25).fill(false);
+    return { "1": Array(25).fill(false) };
 };
 
 /**
@@ -153,93 +167,147 @@ export const getTextStyle = (text: string): React.CSSProperties => {
 
 const BingoGame = () => {
     const t = useTranslations("modals.minigames.games.bingo");
-    const [board, setBoard] = useState<string[]>(getInitialBoard);
-    const [marked, setMarked] = useState<boolean[]>(getInitialMarked);
+    const tCommon = useTranslations("common");
+    const [currentDay, setCurrentDay] = useState("1");
+    const [allBoards, setAllBoards] = useState<DayBoards>(getInitialBoards);
+    const [allMarked, setAllMarked] = useState<DayMarked>(getInitialAllMarked);
     const [isEditMode, setIsEditMode] = useState(true);
     const [editingIndex, setEditingIndex] = useState<number | null>(null);
     const [previewOpen, setPreviewOpen] = useState(false);
     const exportRef = useRef<HTMLDivElement>(null);
 
-    // Save to localStorage when board changes
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            localStorage.setItem(LS_KEYS.BINGO_BOARD, JSON.stringify(board));
-        }
-    }, [board]);
+    // Get current day's board and marked state
+    const board =
+        allBoards[currentDay] ||
+        allBoards[String(Number(currentDay) - 1)] ||
+        createInitialBoard();
+    const marked = allMarked[currentDay] || Array(25).fill(false);
 
-    // Save to localStorage when marked changes
+    // Save all boards to localStorage when they change
     useEffect(() => {
         if (typeof window !== "undefined") {
-            localStorage.setItem(LS_KEYS.BINGO_MARKED, JSON.stringify(marked));
+            localStorage.setItem(
+                LS_KEYS.BINGO_BOARDS,
+                JSON.stringify(allBoards),
+            );
         }
-    }, [marked]);
+    }, [allBoards]);
+
+    // Save all marked states to localStorage when they change
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            localStorage.setItem(
+                LS_KEYS.BINGO_ALL_MARKED,
+                JSON.stringify(allMarked),
+            );
+        }
+    }, [allMarked]);
+
+    // When day changes, ensure the day exists (copy from previous day if not)
+    useEffect(() => {
+        if (!allBoards[currentDay]) {
+            const prevDay = String(Number(currentDay) - 1);
+            const prevBoard = allBoards[prevDay] || createInitialBoard();
+            setAllBoards((prev) => ({
+                ...prev,
+                [currentDay]: [...prevBoard],
+            }));
+        }
+        if (!allMarked[currentDay]) {
+            setAllMarked((prev) => ({
+                ...prev,
+                [currentDay]: Array(25).fill(false),
+            }));
+        }
+    }, [currentDay, allBoards, allMarked]);
 
     const handleSquareClick = (index: number) => {
         if (isEditMode) {
             setEditingIndex(index);
         } else {
-            setMarked((prev) => {
-                const next = [...prev];
-                next[index] = !next[index];
-                return next;
+            setAllMarked((prev) => {
+                const dayMarked = [...(prev[currentDay] || [])];
+                dayMarked[index] = !dayMarked[index];
+                return {
+                    ...prev,
+                    [currentDay]: dayMarked,
+                };
             });
         }
     };
 
+    const handleTextChange = (index: number, value: string) => {
+        setAllBoards((prev) => {
+            const dayBoard = [...(prev[currentDay] || [])];
+            dayBoard[index] = value;
+            return {
+                ...prev,
+                [currentDay]: dayBoard,
+            };
+        });
+    };
+
     const handleReset = () => {
-        setBoard(createInitialBoard());
-        setMarked(Array(25).fill(false));
+        setAllBoards((prev) => ({
+            ...prev,
+            [currentDay]: createInitialBoard(),
+        }));
+        setAllMarked((prev) => ({
+            ...prev,
+            [currentDay]: Array(25).fill(false),
+        }));
     };
 
     const handleRandomize = () => {
-        // Shuffle the current board (keeping center square in place if desired)
-        const centerValue = board[12];
-        const shuffled = [...board];
+        const currentBoard = board;
+        const centerValue = currentBoard[12];
+        const shuffled = [...currentBoard];
 
         // Fisher-Yates shuffle algorithm
         for (let i = shuffled.length - 1; i > 0; i--) {
-            // Skip center square
             if (i === 12) continue;
-
             let j = Math.floor(Math.random() * (i + 1));
-            // Skip center square
             if (j === 12) j = (j + 1) % shuffled.length;
-
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
 
-        // Restore center value if needed
         shuffled[12] = centerValue;
-        setBoard(shuffled);
-        setMarked(Array(25).fill(false));
+        setAllBoards((prev) => ({
+            ...prev,
+            [currentDay]: shuffled,
+        }));
+        setAllMarked((prev) => ({
+            ...prev,
+            [currentDay]: Array(25).fill(false),
+        }));
     };
 
     const handlePreset = () => {
-        // Create a copy of preset values
         const availableValues = [...PRESET_VALUES];
         const newBoard: string[] = [];
 
-        // Fill 25 squares
         for (let i = 0; i < 25; i++) {
             if (i === 12) {
-                // Keep center as "Free Space"
                 newBoard.push("Free\nSpace!");
             } else if (availableValues.length > 0) {
-                // Pick a random value from available presets
                 const randomIndex = Math.floor(
                     Math.random() * availableValues.length,
                 );
                 newBoard.push(availableValues[randomIndex]);
-                // Remove used value to avoid duplicates (optional - remove this line if duplicates are OK)
                 availableValues.splice(randomIndex, 1);
             } else {
-                // If we run out of preset values, use empty string
                 newBoard.push("");
             }
         }
 
-        setBoard(newBoard);
-        setMarked(Array(25).fill(false));
+        setAllBoards((prev) => ({
+            ...prev,
+            [currentDay]: newBoard,
+        }));
+        setAllMarked((prev) => ({
+            ...prev,
+            [currentDay]: Array(25).fill(false),
+        }));
     };
 
     const downloadBingo = async () => {
@@ -248,29 +316,37 @@ const BingoGame = () => {
         const canvas = await html2canvas(exportRef.current, { scale: 2 });
         const link = document.createElement("a");
         link.href = canvas.toDataURL("image/png");
-        link.download = "enreco-bingo.png";
+        link.download = `enreco-bingo-day${currentDay}.png`;
         link.click();
     };
 
     return (
         <div className="flex md:flex-row flex-col gap-6 justify-center items-center py-4">
-            <BingoEditor
-                board={board}
-                marked={marked}
-                isEditMode={isEditMode}
-                editingIndex={editingIndex}
-                onSquareClick={handleSquareClick}
-                onTextChange={(i, v) =>
-                    setBoard((b) => {
-                        const n = [...b];
-                        n[i] = v;
-                        return n;
-                    })
-                }
-                onEditingChange={setEditingIndex}
-            />
+            <div className="flex flex-col gap-3">
+                <BingoEditor
+                    board={board}
+                    marked={marked}
+                    isEditMode={isEditMode}
+                    editingIndex={editingIndex}
+                    onSquareClick={handleSquareClick}
+                    onTextChange={handleTextChange}
+                    onEditingChange={setEditingIndex}
+                />
+            </div>
 
             <div className="flex flex-col gap-2">
+                <Select value={currentDay} onValueChange={setCurrentDay}>
+                    <SelectTrigger className="w-full">
+                        <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                        {Array.from({ length: 8 }, (_, i) => (
+                            <SelectItem key={i + 1} value={String(i + 1)}>
+                                {tCommon("day", { val: i + 1 })}
+                            </SelectItem>
+                        ))}
+                    </SelectContent>
+                </Select>
                 <span className="text-sm font-medium text-center">
                     {t("mode")}
                 </span>
