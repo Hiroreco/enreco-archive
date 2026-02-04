@@ -1,3 +1,4 @@
+import { decompressBoardData } from "@/components/view/minigames/BingoShareDialog";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -15,30 +16,13 @@ interface BingoImportDialogProps {
     onImport: (board: string[]) => void;
 }
 
-// Decompress base64 string to board data
-const decompressBoardData = (compressed: string): string[] | null => {
-    try {
-        const json = decodeURIComponent(escape(atob(compressed)));
-        const board = JSON.parse(json);
-
-        // Validate board structure
-        if (Array.isArray(board) && board.length === 25) {
-            return board.map((item) => String(item));
-        }
-        return null;
-    } catch (error) {
-        console.error("Failed to decompress board:", error);
-        return null;
-    }
-};
-
 const BingoImportDialog = ({ onImport }: BingoImportDialogProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
     const [open, setOpen] = useState(false);
     const [importCode, setImportCode] = useState("");
     const [error, setError] = useState("");
 
-    const handleImport = () => {
+    const handleImport = async () => {
         setError("");
 
         if (!importCode.trim()) {
@@ -46,7 +30,7 @@ const BingoImportDialog = ({ onImport }: BingoImportDialogProps) => {
             return;
         }
 
-        const board = decompressBoardData(importCode.trim());
+        const board = await decompressBoardData(importCode.trim());
 
         if (!board) {
             setError(t("importErrorInvalid"));
