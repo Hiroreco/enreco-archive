@@ -189,7 +189,22 @@
                     "reset": "Reset",
                     "previewNote": "Note: The downloaded image will fix issues with font size and text overflow.",
                     "randomize": "Randomize",
-                    "preset": "Use Preset Values"
+                    "preset": "Use Preset Values",
+                    "share": "Share",
+                    "shareTitle": "Share Your Bingo Board",
+                    "shareDescription": "Share your bingo board with others using a code or URL",
+                    "shareCode": "Share Code",
+                    "shareUrl": "Share URL",
+                    "shareNote": "Copy either the code or URL to share your board. Recipients can paste the code in the Import dialog or click the URL to load it directly.",
+                    "import": "Import",
+                    "importTitle": "Import Bingo Board",
+                    "importDescription": "Paste a share code to load someone else's bingo board",
+                    "importCode": "Share Code",
+                    "importPlaceholder": "Paste share code here...",
+                    "importNote": "This will replace the current day's board with the imported one. Your marked squares will be cleared.",
+                    "importButton": "Import Board",
+                    "importErrorEmpty": "Please enter a share code",
+                    "importErrorInvalid": "Invalid share code. Please check and try again."
                 }
             }
         },

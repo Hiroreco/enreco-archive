@@ -1,5 +1,7 @@
 import BingoEditor from "@/components/view/minigames/BingoEditor";
 import BingoExport from "@/components/view/minigames/BingoExport";
+import BingoImportDialog from "@/components/view/minigames/BingoImportDialog";
+import BingoShareDialog from "@/components/view/minigames/BingoShareDialog";
 import { LS_KEYS } from "@/lib/constants";
 import { isMobileViewport } from "@/lib/utils";
 import { Button } from "@enreco-archive/common-ui/components/button";
@@ -183,6 +185,36 @@ const BingoGame = () => {
         createInitialBoard();
     const marked = allMarked[currentDay] || Array(25).fill(false);
 
+    // Check URL parameters for shared board on mount
+    useEffect(() => {
+        if (typeof window === "undefined") return;
+
+        const params = new URLSearchParams(window.location.search);
+        const sharedBoard = params.get("bingo");
+        const sharedDay = params.get("day");
+
+        if (sharedBoard) {
+            try {
+                const json = decodeURIComponent(escape(atob(sharedBoard)));
+                const board = JSON.parse(json);
+
+                if (Array.isArray(board) && board.length === 25) {
+                    const day = sharedDay || "1";
+                    setCurrentDay(day);
+                    setAllBoards((prev) => ({
+                        ...prev,
+                        [day]: board.map((item) => String(item)),
+                    }));
+                }
+
+                // Clean up URL
+                window.history.replaceState({}, "", window.location.pathname);
+            } catch (error) {
+                console.error("Failed to load shared board:", error);
+            }
+        }
+    }, []);
+
     // Save all boards to localStorage when they change
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -245,6 +277,17 @@ const BingoGame = () => {
                 [currentDay]: dayBoard,
             };
         });
+    };
+
+    const handleImport = (importedBoard: string[]) => {
+        setAllBoards((prev) => ({
+            ...prev,
+            [currentDay]: importedBoard,
+        }));
+        setAllMarked((prev) => ({
+            ...prev,
+            [currentDay]: Array(25).fill(false),
+        }));
     };
 
     const handleReset = () => {
@@ -390,6 +433,13 @@ const BingoGame = () => {
                         <Sparkles className="size-4 mr-2" />
                         {t("preset")}
                     </Button>
+                </div>
+
+                <div className="h-px bg-border my-1" />
+
+                <div className="flex md:flex-col flex-row gap-2 flex-wrap">
+                    <BingoShareDialog board={board} currentDay={currentDay} />
+                    <BingoImportDialog onImport={handleImport} />
                 </div>
 
                 <div className="h-px bg-border my-1" />
