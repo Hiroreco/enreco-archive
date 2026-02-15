@@ -173,6 +173,7 @@
                 },
                 "bingo": {
                     "label": "Bingo Maker (Chapter 3)",
+                    "utilLabel": "Bingo Utility",
                     "intro": "Create your own <bold>ENigmatic Recollection Bingo</bold> sheet for the upcoming Chapter 3: Broken Bonds! Fill in the squares with predictions, moments you want to see, or inside jokes from the community.",
                     "howToUse": "How to use:",
                     "editModeDesc": "<bold>Edit Mode:</bold> Click on any square to edit its text. Click outside to save.",
@@ -189,7 +190,7 @@
                     "reset": "Reset",
                     "previewNote": "Note: The downloaded image will fix issues with font size and text overflow.",
                     "randomize": "Randomize",
-                    "preset": "Use Preset Values",
+                    "preset": "Use Presets",
                     "share": "Share",
                     "shareTitle": "Share Your Bingo Board",
                     "shareDescription": "Share your bingo board with others using a code or URL",

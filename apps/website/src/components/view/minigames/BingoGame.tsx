@@ -376,38 +376,40 @@ const BingoGame = () => {
 
             {/* Desktop controls layout */}
             <div className="md:flex hidden flex-col gap-2">
-                <Select value={currentDay} onValueChange={setCurrentDay}>
-                    <SelectTrigger className="w-full">
-                        <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                        {Array.from({ length: 8 }, (_, i) => (
-                            <SelectItem key={i + 1} value={String(i + 1)}>
-                                {tCommon("day", { val: i + 1 })}
-                            </SelectItem>
-                        ))}
-                    </SelectContent>
-                </Select>
-                <span className="text-sm font-medium text-center">
-                    {t("mode")}
+                <span className="text-center font-semibold underline underline-offset-2">
+                    {t("utilLabel")}
                 </span>
-                <div className="flex items-center justify-center gap-2">
-                    <Button
-                        size="sm"
-                        variant={isEditMode ? "default" : "outline"}
-                        onClick={() => setIsEditMode(true)}
-                        title={t("editMode")}
-                    >
-                        <Edit />
-                    </Button>
-                    <Button
-                        size="sm"
-                        variant={!isEditMode ? "default" : "outline"}
-                        onClick={() => setIsEditMode(false)}
-                        title={t("markMode")}
-                    >
-                        <CheckSquare />
-                    </Button>
+                <div className="flex gap-2">
+                    <Select value={currentDay} onValueChange={setCurrentDay}>
+                        <SelectTrigger className="w-full">
+                            <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                            {Array.from({ length: 8 }, (_, i) => (
+                                <SelectItem key={i + 1} value={String(i + 1)}>
+                                    {tCommon("day", { val: i + 1 })}
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
+                    <div className="flex gap-1">
+                        <Button
+                            size="sm"
+                            variant={isEditMode ? "default" : "outline"}
+                            onClick={() => setIsEditMode(true)}
+                            title={t("editMode")}
+                        >
+                            <Edit />
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant={!isEditMode ? "default" : "outline"}
+                            onClick={() => setIsEditMode(false)}
+                            title={t("markMode")}
+                        >
+                            <CheckSquare />
+                        </Button>
+                    </div>
                 </div>
 
                 <div className="h-px bg-border my-1" />
@@ -489,7 +491,10 @@ const BingoGame = () => {
 
             {/* Mobile controls layout */}
             <div className="flex flex-col gap-2 md:hidden">
-                <div className="flex gap-2">
+                <span className="text-center font-semibold underline underline-offset-2">
+                    {t("utilLabel")}
+                </span>
+                <div className="flex gap-2 items-center">
                     <Select value={currentDay} onValueChange={setCurrentDay}>
                         <SelectTrigger className="w-full">
                             <SelectValue />
