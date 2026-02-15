@@ -374,7 +374,8 @@ const BingoGame = () => {
                 />
             </div>
 
-            <div className="flex flex-col gap-2">
+            {/* Desktop controls layout */}
+            <div className="md:flex hidden flex-col gap-2">
                 <Select value={currentDay} onValueChange={setCurrentDay}>
                     <SelectTrigger className="w-full">
                         <SelectValue />
@@ -442,6 +443,112 @@ const BingoGame = () => {
                 <div className="h-px bg-border my-1" />
 
                 <div className="flex md:flex-col flex-row gap-2 flex-wrap">
+                    <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
+                        <DialogTrigger asChild>
+                            <Button size="sm" variant="outline">
+                                <Eye className="size-4 mr-2" />
+                                {t("preview")}
+                            </Button>
+                        </DialogTrigger>
+                        <DialogContent className="flex flex-col items-center justify-center px-1">
+                            <VisuallyHidden>
+                                <DialogHeader>
+                                    <DialogTitle>
+                                        {t("previewTitle")}
+                                    </DialogTitle>
+                                    <DialogDescription>
+                                        {t("previewDescription")}
+                                    </DialogDescription>
+                                </DialogHeader>
+                            </VisuallyHidden>
+                            <BingoExport board={board} marked={marked} />
+                            <p className="text-xs text-muted-foreground text-center">
+                                {t("previewNote")}
+                            </p>
+                            <Button size="sm" onClick={downloadBingo}>
+                                <Download className="size-4 mr-2" />
+                                {t("download")}
+                            </Button>
+                        </DialogContent>
+                    </Dialog>
+
+                    <Button size="sm" onClick={downloadBingo}>
+                        <Download className="size-4 mr-2" />
+                        {t("download")}
+                    </Button>
+
+                    <Button
+                        size="sm"
+                        variant="destructive"
+                        onClick={handleReset}
+                    >
+                        {t("reset")}
+                    </Button>
+                </div>
+            </div>
+
+            {/* Mobile controls layout */}
+            <div className="flex flex-col gap-2 md:hidden">
+                <div className="flex gap-2">
+                    <Select value={currentDay} onValueChange={setCurrentDay}>
+                        <SelectTrigger className="w-full">
+                            <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                            {Array.from({ length: 8 }, (_, i) => (
+                                <SelectItem key={i + 1} value={String(i + 1)}>
+                                    {tCommon("day", { val: i + 1 })}
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
+                    <BingoShareDialog board={board} currentDay={currentDay} />
+                    <BingoImportDialog onImport={handleImport} />
+                </div>
+
+                <div className="flex items-center justify-center gap-2">
+                    <div className="flex gap-1">
+                        <Button
+                            size="sm"
+                            variant={isEditMode ? "default" : "outline"}
+                            onClick={() => setIsEditMode(true)}
+                            title={t("editMode")}
+                        >
+                            <Edit className="size-4" />
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant={!isEditMode ? "default" : "outline"}
+                            onClick={() => setIsEditMode(false)}
+                            title={t("markMode")}
+                        >
+                            <CheckSquare className="size-4" />
+                        </Button>
+                    </div>
+
+                    <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={handleRandomize}
+                        title={t("randomize")}
+                    >
+                        <Shuffle className="size-4 mr-2" />
+                        {t("randomize")}
+                    </Button>
+                    <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={handlePreset}
+                        title={t("preset")}
+                    >
+                        <Sparkles className="size-4 mr-2" />
+                        {t("preset")}
+                    </Button>
+                </div>
+
+                <div className="h-px bg-border my-1" />
+
+                <div className="flex md:flex-col flex-row gap-2 flex-wrap mx-auto">
                     <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
                         <DialogTrigger asChild>
                             <Button size="sm" variant="outline">

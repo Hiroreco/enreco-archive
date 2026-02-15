@@ -8,7 +8,7 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
-import { Download } from "lucide-react";
+import { ImportIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
@@ -54,7 +54,7 @@ const BingoImportDialog = ({ onImport }: BingoImportDialogProps) => {
         <Dialog open={open} onOpenChange={handleOpenChange}>
             <DialogTrigger asChild>
                 <Button size="sm" variant="outline">
-                    <Download className="size-4 mr-2" />
+                    <ImportIcon className="size-4 mr-2" />
                     {t("import")}
                 </Button>
             </DialogTrigger>
