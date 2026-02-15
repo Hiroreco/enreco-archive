@@ -1,11 +1,14 @@
 import BingoEditor from "@/components/view/minigames/BingoEditor";
 import BingoExport from "@/components/view/minigames/BingoExport";
+import BingoFullBoardAlert from "@/components/view/minigames/BingoFullBoardAlert";
 import BingoImportDialog from "@/components/view/minigames/BingoImportDialog";
 import BingoShareDialog, {
     decompressBoardData,
 } from "@/components/view/minigames/BingoShareDialog";
+import { PRESET_VALUES } from "@/components/view/minigames/bingo-config";
 import { LS_KEYS } from "@/lib/constants";
 import { isMobileViewport } from "@/lib/utils";
+import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -24,51 +27,28 @@ import {
 } from "@enreco-archive/common-ui/components/select";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import {
+    Check,
     CheckSquare,
     Download,
     Edit,
     Eye,
+    RotateCcw,
     Shuffle,
     Sparkles,
+    X,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 
 const createInitialBoard = () => {
     const board = Array(25).fill("");
-    board[12] = "Free\nSpace!"; // Center square
+    board[12] = "REVELATION!"; // Center square
     return board;
 };
 
-const PRESET_VALUES = [
-    "Bae says 'Bruh'",
-    "Liz scammed",
-    "IRyS netorare",
-    "Kronii is late",
-    "Cecilia crashes out",
-    "Calli cooks",
-    "Ame returns",
-    "potato salad",
-    "Kiara screams",
-    "Ina puns",
-    "Shiori laughs maniacally",
-    "Nerissa sings",
-    "FWMC baus",
-    "Bijou says 'Biboo'",
-    "Raora goes 'Big cat'",
-    "Cecilia leeches",
-    "Gigi chaos",
-    "ERB royalty",
-    "Someone dc's",
-    "Technical difficulties",
-    "Collab chaos",
-    "Cute moment",
-    "Emotional moment",
-    "Random tangent",
-];
-
 type DayBoards = Record<string, string[]>;
 type DayMarked = Record<string, boolean[]>;
+type PreviewMode = "none" | "preset" | "randomize";
 
 // Initialize boards for all days from localStorage
 const getInitialBoards = (): DayBoards => {
@@ -171,6 +151,7 @@ export const getTextStyle = (text: string): React.CSSProperties => {
 
 const BingoGame = () => {
     const t = useTranslations("modals.minigames.games.bingo");
+    const { locale } = useSettingStore();
     const tCommon = useTranslations("common");
     const [currentDay, setCurrentDay] = useState("1");
     const [allBoards, setAllBoards] = useState<DayBoards>(getInitialBoards);
@@ -178,7 +159,12 @@ const BingoGame = () => {
     const [isEditMode, setIsEditMode] = useState(true);
     const [editingIndex, setEditingIndex] = useState<number | null>(null);
     const [previewOpen, setPreviewOpen] = useState(false);
+    const [previewMode, setPreviewMode] = useState<PreviewMode>("none");
+    const [previewBoard, setPreviewBoard] = useState<string[]>([]);
+    const [showFullBoardAlert, setShowFullBoardAlert] = useState(false);
+    const [originalBoard, setOriginalBoard] = useState<string[]>([]);
     const exportRef = useRef<HTMLDivElement>(null);
+    const [highlightedIndices, setHighlightedIndices] = useState<number[]>([]);
 
     // Get current day's board and marked state
     const board =
@@ -186,6 +172,16 @@ const BingoGame = () => {
         allBoards[String(Number(currentDay) - 1)] ||
         createInitialBoard();
     const marked = allMarked[currentDay] || Array(25).fill(false);
+
+    // Display board is either preview or actual board
+    const displayBoard = previewMode !== "none" ? previewBoard : board;
+
+    // Count empty squares (excluding center)
+    const emptyCount = board.filter(
+        (text, idx) => idx !== 12 && !text.trim(),
+    ).length;
+    const isBoardFull = emptyCount === 0;
+    const isBoardEmpty = board.every((text, idx) => idx === 12 || !text.trim());
 
     // Check URL parameters for shared board on mount
     useEffect(() => {
@@ -251,6 +247,8 @@ const BingoGame = () => {
     }, [currentDay, allBoards, allMarked]);
 
     const handleSquareClick = (index: number) => {
+        if (previewMode !== "none") return; // Disable editing in preview mode
+
         if (isEditMode) {
             setEditingIndex(index);
         } else {
@@ -266,6 +264,8 @@ const BingoGame = () => {
     };
 
     const handleTextChange = (index: number, value: string) => {
+        if (previewMode !== "none") return;
+
         setAllBoards((prev) => {
             const dayBoard = [...(prev[currentDay] || [])];
             dayBoard[index] = value;
@@ -298,8 +298,135 @@ const BingoGame = () => {
         }));
     };
 
-    const handleRandomize = () => {
-        const currentBoard = board;
+    // Generate preset values to fill empty squares
+    const generatePresetBoard = (
+        currentBoard: string[],
+    ): { board: string[]; filledIndices: number[] } => {
+        const newBoard = [...currentBoard];
+        const emptyIndices: number[] = [];
+
+        // Find all empty squares (excluding center)
+        currentBoard.forEach((text, idx) => {
+            if (idx !== 12 && !text.trim()) {
+                emptyIndices.push(idx);
+            }
+        });
+
+        const neededCount = emptyIndices.length;
+        if (neededCount === 0) return { board: newBoard, filledIndices: [] };
+
+        // Calculate distribution: roughly even across categories
+        const cat0Count = Math.ceil(neededCount / 3);
+        const cat1Count = Math.floor((neededCount - cat0Count) / 2);
+        const cat2Count = neededCount - cat0Count - cat1Count;
+
+        // Collect all available values
+        const usedValues = new Set(currentBoard.filter((v) => v.trim()));
+        const availableValues: string[] = [];
+
+        // Add from each category
+        const addFromCategory = (category: 0 | 1 | 2, count: number) => {
+            const categoryValues = PRESET_VALUES[category]
+                .map((item) => item[locale])
+                .filter((val) => !usedValues.has(val));
+
+            // Shuffle and take what we need
+            const shuffled = categoryValues.sort(() => Math.random() - 0.5);
+            availableValues.push(...shuffled.slice(0, count));
+        };
+
+        addFromCategory(0, cat0Count);
+        addFromCategory(1, cat1Count);
+        addFromCategory(2, cat2Count);
+
+        // Shuffle the collected values
+        availableValues.sort(() => Math.random() - 0.5);
+
+        // Fill the empty squares
+        emptyIndices.forEach((idx, i) => {
+            if (i < availableValues.length) {
+                newBoard[idx] = availableValues[i];
+            }
+        });
+
+        return { board: newBoard, filledIndices: emptyIndices };
+    };
+    const handlePresetClick = () => {
+        if (isBoardFull) {
+            setShowFullBoardAlert(true);
+            return;
+        }
+
+        setOriginalBoard([...board]);
+        const { board: generated, filledIndices } = generatePresetBoard(board);
+        setPreviewBoard(generated);
+        setHighlightedIndices(filledIndices);
+        setPreviewMode("preset");
+    };
+
+    const handlePresetReroll = () => {
+        const { board: generated, filledIndices } =
+            generatePresetBoard(originalBoard);
+        setPreviewBoard(generated);
+        setHighlightedIndices(filledIndices);
+    };
+    const handlePresetAccept = () => {
+        setAllBoards((prev) => ({
+            ...prev,
+            [currentDay]: previewBoard,
+        }));
+        setAllMarked((prev) => ({
+            ...prev,
+            [currentDay]: Array(25).fill(false),
+        }));
+        setPreviewMode("none");
+        setPreviewBoard([]);
+        setOriginalBoard([]);
+        setHighlightedIndices([]);
+    };
+
+    const handlePresetCancel = () => {
+        setPreviewMode("none");
+        setPreviewBoard([]);
+        setOriginalBoard([]);
+        setHighlightedIndices([]);
+    };
+
+    const handleRandomizeClick = () => {
+        setOriginalBoard([...board]);
+        const shuffled = shuffleBoard(board);
+        setPreviewBoard(shuffled);
+        setHighlightedIndices([]);
+        setPreviewMode("randomize");
+    };
+
+    const handleRandomizeReroll = () => {
+        const shuffled = shuffleBoard(originalBoard);
+        setPreviewBoard(shuffled);
+    };
+
+    const handleRandomizeAccept = () => {
+        setAllBoards((prev) => ({
+            ...prev,
+            [currentDay]: previewBoard,
+        }));
+        setAllMarked((prev) => ({
+            ...prev,
+            [currentDay]: Array(25).fill(false),
+        }));
+        setPreviewMode("none");
+        setPreviewBoard([]);
+        setOriginalBoard([]);
+        setHighlightedIndices([]);
+    };
+    const handleRandomizeCancel = () => {
+        setPreviewMode("none");
+        setPreviewBoard([]);
+        setOriginalBoard([]);
+        setHighlightedIndices([]);
+    };
+
+    const shuffleBoard = (currentBoard: string[]): string[] => {
         const centerValue = currentBoard[12];
         const shuffled = [...currentBoard];
 
@@ -312,42 +439,7 @@ const BingoGame = () => {
         }
 
         shuffled[12] = centerValue;
-        setAllBoards((prev) => ({
-            ...prev,
-            [currentDay]: shuffled,
-        }));
-        setAllMarked((prev) => ({
-            ...prev,
-            [currentDay]: Array(25).fill(false),
-        }));
-    };
-
-    const handlePreset = () => {
-        const availableValues = [...PRESET_VALUES];
-        const newBoard: string[] = [];
-
-        for (let i = 0; i < 25; i++) {
-            if (i === 12) {
-                newBoard.push("Free\nSpace!");
-            } else if (availableValues.length > 0) {
-                const randomIndex = Math.floor(
-                    Math.random() * availableValues.length,
-                );
-                newBoard.push(availableValues[randomIndex]);
-                availableValues.splice(randomIndex, 1);
-            } else {
-                newBoard.push("");
-            }
-        }
-
-        setAllBoards((prev) => ({
-            ...prev,
-            [currentDay]: newBoard,
-        }));
-        setAllMarked((prev) => ({
-            ...prev,
-            [currentDay]: Array(25).fill(false),
-        }));
+        return shuffled;
     };
 
     const downloadBingo = async () => {
@@ -360,14 +452,24 @@ const BingoGame = () => {
         link.click();
     };
 
+    const isInPreviewMode = previewMode !== "none";
+
     return (
         <div className="flex md:flex-row flex-col gap-6 justify-center items-center py-4">
+            <BingoFullBoardAlert
+                open={showFullBoardAlert}
+                onOpenChange={setShowFullBoardAlert}
+            />
+
             <div className="flex flex-col gap-3">
                 <BingoEditor
-                    board={board}
+                    board={displayBoard}
                     marked={marked}
                     isEditMode={isEditMode}
                     editingIndex={editingIndex}
+                    highlightedIndices={
+                        previewMode === "preset" ? highlightedIndices : []
+                    }
                     onSquareClick={handleSquareClick}
                     onTextChange={handleTextChange}
                     onEditingChange={setEditingIndex}
@@ -380,7 +482,11 @@ const BingoGame = () => {
                     {t("utilLabel")}
                 </span>
                 <div className="flex gap-2">
-                    <Select value={currentDay} onValueChange={setCurrentDay}>
+                    <Select
+                        value={currentDay}
+                        onValueChange={setCurrentDay}
+                        disabled={isInPreviewMode}
+                    >
                         <SelectTrigger className="w-full">
                             <SelectValue />
                         </SelectTrigger>
@@ -398,6 +504,7 @@ const BingoGame = () => {
                             variant={isEditMode ? "default" : "outline"}
                             onClick={() => setIsEditMode(true)}
                             title={t("editMode")}
+                            disabled={isInPreviewMode}
                         >
                             <Edit />
                         </Button>
@@ -406,6 +513,7 @@ const BingoGame = () => {
                             variant={!isEditMode ? "default" : "outline"}
                             onClick={() => setIsEditMode(false)}
                             title={t("markMode")}
+                            disabled={isInPreviewMode}
                         >
                             <CheckSquare />
                         </Button>
@@ -414,32 +522,96 @@ const BingoGame = () => {
 
                 <div className="h-px bg-border my-1" />
 
-                <div className="flex md:flex-col flex-row gap-2 flex-wrap">
-                    <Button
-                        size="sm"
-                        variant="outline"
-                        onClick={handleRandomize}
-                        title={t("randomize")}
-                    >
-                        <Shuffle className="size-4 mr-2" />
-                        {t("randomize")}
-                    </Button>
-                    <Button
-                        size="sm"
-                        variant="outline"
-                        onClick={handlePreset}
-                        title={t("preset")}
-                    >
-                        <Sparkles className="size-4 mr-2" />
-                        {t("preset")}
-                    </Button>
-                </div>
+                {previewMode === "none" ? (
+                    <div className="flex md:flex-col flex-row gap-2 flex-wrap">
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={handleRandomizeClick}
+                            title={t("randomize")}
+                            disabled={isBoardEmpty}
+                        >
+                            <Shuffle className="size-4 mr-2" />
+                            {t("randomize")}
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={handlePresetClick}
+                            title={t("preset")}
+                        >
+                            <Sparkles className="size-4 mr-2" />
+                            {t("preset")}
+                        </Button>
+                    </div>
+                ) : previewMode === "preset" ? (
+                    <div className="flex md:flex-col flex-row gap-2 flex-wrap">
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={handlePresetReroll}
+                        >
+                            <RotateCcw className="size-4 mr-2" />
+                            {t("reroll")}
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant="default"
+                            onClick={handlePresetAccept}
+                        >
+                            <Check className="size-4 mr-2" />
+                            {t("accept")}
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant="destructive"
+                            onClick={handlePresetCancel}
+                        >
+                            <X className="size-4 mr-2" />
+                            {t("cancel")}
+                        </Button>
+                    </div>
+                ) : (
+                    <div className="flex md:flex-col flex-row gap-2 flex-wrap">
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={handleRandomizeReroll}
+                        >
+                            <RotateCcw className="size-4 mr-2" />
+                            {t("reroll")}
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant="default"
+                            onClick={handleRandomizeAccept}
+                        >
+                            <Check className="size-4 mr-2" />
+                            {t("accept")}
+                        </Button>
+                        <Button
+                            size="sm"
+                            variant="destructive"
+                            onClick={handleRandomizeCancel}
+                        >
+                            <X className="size-4 mr-2" />
+                            {t("cancel")}
+                        </Button>
+                    </div>
+                )}
 
                 <div className="h-px bg-border my-1" />
 
                 <div className="flex md:flex-col flex-row gap-2 flex-wrap">
-                    <BingoShareDialog board={board} currentDay={currentDay} />
-                    <BingoImportDialog onImport={handleImport} />
+                    <BingoShareDialog
+                        board={board}
+                        currentDay={currentDay}
+                        disabled={isInPreviewMode}
+                    />
+                    <BingoImportDialog
+                        onImport={handleImport}
+                        disabled={isInPreviewMode}
+                    />
                 </div>
 
                 <div className="h-px bg-border my-1" />
@@ -447,7 +619,11 @@ const BingoGame = () => {
                 <div className="flex md:flex-col flex-row gap-2 flex-wrap">
                     <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
                         <DialogTrigger asChild>
-                            <Button size="sm" variant="outline">
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                disabled={isInPreviewMode}
+                            >
                                 <Eye className="size-4 mr-2" />
                                 {t("preview")}
                             </Button>
@@ -474,7 +650,11 @@ const BingoGame = () => {
                         </DialogContent>
                     </Dialog>
 
-                    <Button size="sm" onClick={downloadBingo}>
+                    <Button
+                        size="sm"
+                        onClick={downloadBingo}
+                        disabled={isInPreviewMode}
+                    >
                         <Download className="size-4 mr-2" />
                         {t("download")}
                     </Button>
@@ -483,6 +663,7 @@ const BingoGame = () => {
                         size="sm"
                         variant="destructive"
                         onClick={handleReset}
+                        disabled={isInPreviewMode}
                     >
                         {t("reset")}
                     </Button>
@@ -495,7 +676,11 @@ const BingoGame = () => {
                     {t("utilLabel")}
                 </span>
                 <div className="flex gap-2 items-center">
-                    <Select value={currentDay} onValueChange={setCurrentDay}>
+                    <Select
+                        value={currentDay}
+                        onValueChange={setCurrentDay}
+                        disabled={isInPreviewMode}
+                    >
                         <SelectTrigger className="w-full">
                             <SelectValue />
                         </SelectTrigger>
@@ -507,8 +692,15 @@ const BingoGame = () => {
                             ))}
                         </SelectContent>
                     </Select>
-                    <BingoShareDialog board={board} currentDay={currentDay} />
-                    <BingoImportDialog onImport={handleImport} />
+                    <BingoShareDialog
+                        board={board}
+                        currentDay={currentDay}
+                        disabled={isInPreviewMode}
+                    />
+                    <BingoImportDialog
+                        onImport={handleImport}
+                        disabled={isInPreviewMode}
+                    />
                 </div>
 
                 <div className="flex items-center justify-center gap-2">
@@ -518,6 +710,7 @@ const BingoGame = () => {
                             variant={isEditMode ? "default" : "outline"}
                             onClick={() => setIsEditMode(true)}
                             title={t("editMode")}
+                            disabled={isInPreviewMode}
                         >
                             <Edit className="size-4" />
                         </Button>
@@ -526,29 +719,83 @@ const BingoGame = () => {
                             variant={!isEditMode ? "default" : "outline"}
                             onClick={() => setIsEditMode(false)}
                             title={t("markMode")}
+                            disabled={isInPreviewMode}
                         >
                             <CheckSquare className="size-4" />
                         </Button>
                     </div>
 
-                    <Button
-                        size="sm"
-                        variant="outline"
-                        onClick={handleRandomize}
-                        title={t("randomize")}
-                    >
-                        <Shuffle className="size-4 mr-2" />
-                        {t("randomize")}
-                    </Button>
-                    <Button
-                        size="sm"
-                        variant="outline"
-                        onClick={handlePreset}
-                        title={t("preset")}
-                    >
-                        <Sparkles className="size-4 mr-2" />
-                        {t("preset")}
-                    </Button>
+                    {previewMode === "none" ? (
+                        <>
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                onClick={handleRandomizeClick}
+                                title={t("randomize")}
+                                disabled={isBoardEmpty}
+                            >
+                                <Shuffle className="size-4 mr-2" />
+                                {t("randomize")}
+                            </Button>
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                onClick={handlePresetClick}
+                                title={t("preset")}
+                            >
+                                <Sparkles className="size-4 mr-2" />
+                                {t("preset")}
+                            </Button>
+                        </>
+                    ) : previewMode === "preset" ? (
+                        <>
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                onClick={handlePresetReroll}
+                            >
+                                <RotateCcw className="size-4" />
+                            </Button>
+                            <Button
+                                size="sm"
+                                variant="default"
+                                onClick={handlePresetAccept}
+                            >
+                                <Check className="size-4" />
+                            </Button>
+                            <Button
+                                size="sm"
+                                variant="destructive"
+                                onClick={handlePresetCancel}
+                            >
+                                <X className="size-4" />
+                            </Button>
+                        </>
+                    ) : (
+                        <>
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                onClick={handleRandomizeReroll}
+                            >
+                                <RotateCcw className="size-4" />
+                            </Button>
+                            <Button
+                                size="sm"
+                                variant="default"
+                                onClick={handleRandomizeAccept}
+                            >
+                                <Check className="size-4" />
+                            </Button>
+                            <Button
+                                size="sm"
+                                variant="destructive"
+                                onClick={handleRandomizeCancel}
+                            >
+                                <X className="size-4" />
+                            </Button>
+                        </>
+                    )}
                 </div>
 
                 <div className="h-px bg-border my-1" />
@@ -556,7 +803,11 @@ const BingoGame = () => {
                 <div className="flex md:flex-col flex-row gap-2 flex-wrap mx-auto">
                     <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
                         <DialogTrigger asChild>
-                            <Button size="sm" variant="outline">
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                disabled={isInPreviewMode}
+                            >
                                 <Eye className="size-4 mr-2" />
                                 {t("preview")}
                             </Button>
@@ -583,7 +834,11 @@ const BingoGame = () => {
                         </DialogContent>
                     </Dialog>
 
-                    <Button size="sm" onClick={downloadBingo}>
+                    <Button
+                        size="sm"
+                        onClick={downloadBingo}
+                        disabled={isInPreviewMode}
+                    >
                         <Download className="size-4 mr-2" />
                         {t("download")}
                     </Button>
@@ -592,6 +847,7 @@ const BingoGame = () => {
                         size="sm"
                         variant="destructive"
                         onClick={handleReset}
+                        disabled={isInPreviewMode}
                     >
                         {t("reset")}
                     </Button>

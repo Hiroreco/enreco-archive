@@ -14,6 +14,7 @@ import { useEffect, useState } from "react";
 interface BingoShareDialogProps {
     board: string[];
     currentDay: string;
+    disabled?: boolean;
 }
 
 // gzip + base64 (URL-safe optional)
@@ -71,7 +72,11 @@ export const decompressBoardData = async (
     }
 };
 
-const BingoShareDialog = ({ board, currentDay }: BingoShareDialogProps) => {
+const BingoShareDialog = ({
+    board,
+    currentDay,
+    disabled,
+}: BingoShareDialogProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
     const [open, setOpen] = useState(false);
     const [copied, setCopied] = useState(false);
@@ -110,7 +115,7 @@ const BingoShareDialog = ({ board, currentDay }: BingoShareDialogProps) => {
     return (
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
-                <Button size="sm" variant="outline">
+                <Button size="sm" variant="outline" disabled={disabled}>
                     <Share2 className="size-4 mr-2" />
                     {t("share")}
                 </Button>

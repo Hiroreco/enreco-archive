@@ -14,9 +14,10 @@ import { useState } from "react";
 
 interface BingoImportDialogProps {
     onImport: (board: string[]) => void;
+    disabled?: boolean;
 }
 
-const BingoImportDialog = ({ onImport }: BingoImportDialogProps) => {
+const BingoImportDialog = ({ onImport, disabled }: BingoImportDialogProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
     const [open, setOpen] = useState(false);
     const [importCode, setImportCode] = useState("");
@@ -53,7 +54,7 @@ const BingoImportDialog = ({ onImport }: BingoImportDialogProps) => {
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>
             <DialogTrigger asChild>
-                <Button size="sm" variant="outline">
+                <Button size="sm" variant="outline" disabled={disabled}>
                     <ImportIcon className="size-4 mr-2" />
                     {t("import")}
                 </Button>

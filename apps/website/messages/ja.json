@@ -205,7 +205,13 @@
                     "importNote": "これにより、現在の日のボードがインポートされたもので置き換えられます。マークされたマスはクリアされます。",
                     "importButton": "ボードをインポート",
                     "importErrorEmpty": "共有コードを入力してください",
-                    "importErrorInvalid": "無効な共有コードです。確認してもう一度お試しください。"
+                    "importErrorInvalid": "無効な共有コードです。確認してもう一度お試しください。",
+                    "reroll": "ランダム化",
+                    "accept": "受け入れる",
+                    "cancel": "キャンセル",
+                    "understood": "理解しました",
+                    "fullBoardTitle": "ボードがいっぱいです",
+                    "fullBoardMessage": "ボードがいっぱいです。プリセット機能を使用するには、空きマスを残してください。"
                 }
             }
         },

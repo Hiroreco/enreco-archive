@@ -7,6 +7,7 @@ interface BingoEditorProps {
     marked: boolean[];
     isEditMode: boolean;
     editingIndex: number | null;
+    highlightedIndices?: number[]; // New prop for highlighting preset values
     onSquareClick: (index: number) => void;
     onTextChange: (index: number, value: string) => void;
     onEditingChange: (index: number | null) => void;
@@ -17,6 +18,7 @@ const BingoEditor = ({
     marked,
     isEditMode,
     editingIndex,
+    highlightedIndices = [],
     onSquareClick,
     onTextChange,
     onEditingChange,
@@ -27,6 +29,7 @@ const BingoEditor = ({
                 const isMarked = marked[index];
                 const isEditing = editingIndex === index;
                 const isCenter = index === 12;
+                const isHighlighted = highlightedIndices.includes(index);
                 return (
                     <div
                         key={index}
@@ -35,9 +38,14 @@ const BingoEditor = ({
                             "group size-17.5 md:size-22 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
                             "flex flex-col items-center justify-center transition-all",
                             {
-                                "bg-white dark:bg-gray-800": !isMarked,
+                                "bg-white dark:bg-gray-800":
+                                    !isMarked && !isHighlighted,
+                                "bg-yellow-100/80 dark:bg-yellow-900/30":
+                                    !isMarked && isHighlighted,
                                 "hover:bg-gray-100 dark:hover:bg-gray-700":
-                                    isEditMode && !isMarked,
+                                    isEditMode && !isMarked && !isHighlighted,
+                                "hover:bg-yellow-200/80 dark:hover:bg-yellow-900/40":
+                                    isEditMode && !isMarked && isHighlighted,
                             },
                         )}
                         style={{ containerType: "size" }}

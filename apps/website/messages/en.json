@@ -205,7 +205,13 @@
                     "importNote": "This will replace the current day's board with the imported one. Your marked squares will be cleared.",
                     "importButton": "Import Board",
                     "importErrorEmpty": "Please enter a share code",
-                    "importErrorInvalid": "Invalid share code. Please check and try again."
+                    "importErrorInvalid": "Invalid share code. Please check and try again.",
+                    "reroll": "Reroll",
+                    "accept": "Accept",
+                    "cancel": "Cancel",
+                    "understood": "Understood",
+                    "fullBoardTitle": "Board is Full",
+                    "fullBoardMessage": "Board is full. You must leave empty squares to use the preset feature."
                 }
             }
         },
