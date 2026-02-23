@@ -7,7 +7,7 @@ interface BingoEditorProps {
     marked: boolean[];
     isEditMode: boolean;
     editingIndex: number | null;
-    highlightedIndices?: number[]; // New prop for highlighting preset values
+    highlightedIndices?: number[]; 
     onSquareClick: (index: number) => void;
     onTextChange: (index: number, value: string) => void;
     onEditingChange: (index: number | null) => void;
