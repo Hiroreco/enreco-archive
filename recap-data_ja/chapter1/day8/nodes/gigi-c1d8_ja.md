@@ -44,3 +44,5 @@
 ["He wins" by Kazuki Ich](https://x.com/kazukiich/status/1832728799223673195)
 
 ["What would he do" by Nom](https://x.com/NomyWomy/status/1833337740441550885)
+
+["GG whith a G sketch" by rikuJe](https://x.com/RikuJe/status/1952197596342317220)
