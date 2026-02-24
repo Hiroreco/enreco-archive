@@ -21,7 +21,7 @@ const BingoExport = ({
         <div className="relative flex flex-col items-center justify-center gap-4 py-8 px-2">
             {/* bg */}
             <Image
-                src="/test.jpg"
+                src="images-opt/bingo-bg-opt.webp"
                 alt="Background"
                 fill
                 className="absolute -z-10 opacity-80 inset-0 object-cover rounded-none"
