@@ -197,31 +197,6 @@ const BingoGame = () => {
     const isBoardFull = emptyCount === 0;
     const isBoardEmpty = board.every((text, idx) => idx === 12 || !text.trim());
 
-    // Check URL parameters for shared board on mount
-    useEffect(() => {
-        if (typeof window === "undefined") return;
-
-        (async () => {
-            const params = new URLSearchParams(window.location.search);
-            const sharedBoard = params.get("bingo");
-            const sharedDay = params.get("day");
-
-            if (sharedBoard) {
-                const board = await decompressBoardData(sharedBoard);
-                if (board) {
-                    const day = sharedDay || "1";
-                    setCurrentDay(day);
-                    setAllBoards((prev) => ({
-                        ...prev,
-                        [day]: board,
-                    }));
-                }
-
-                window.history.replaceState({}, "", window.location.pathname);
-            }
-        })();
-    }, []);
-
     // Save showDay to localStorage when it changes
     useEffect(() => {
         if (typeof window !== "undefined") {
