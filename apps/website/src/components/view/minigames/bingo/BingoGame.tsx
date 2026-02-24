@@ -1,11 +1,11 @@
-import BingoEditor from "@/components/view/minigames/BingoEditor";
-import BingoExport from "@/components/view/minigames/BingoExport";
-import BingoFullBoardAlert from "@/components/view/minigames/BingoFullBoardAlert";
-import BingoImportDialog from "@/components/view/minigames/BingoImportDialog";
+import BingoEditor from "@/components/view/minigames/bingo/BingoEditor";
+import BingoExport from "@/components/view/minigames/bingo/BingoExport";
+import BingoFullBoardAlert from "@/components/view/minigames/bingo/BingoFullBoardAlert";
+import BingoImportDialog from "@/components/view/minigames/bingo/BingoImportDialog";
 import BingoShareDialog, {
     decompressBoardData,
-} from "@/components/view/minigames/BingoShareDialog";
-import { PRESET_VALUES } from "@/components/view/minigames/bingo-config";
+} from "@/components/view/minigames/bingo/BingoShareDialog";
+import { PRESET_VALUES } from "@/components/view/minigames/bingo/bingo-config";
 import { LS_KEYS } from "@/lib/constants";
 import { isMobileViewport } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";

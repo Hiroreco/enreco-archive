@@ -1,4 +1,4 @@
-import { getTextStyle } from "@/components/view/minigames/BingoGame";
+import { getTextStyle } from "@/components/view/minigames/bingo/BingoGame";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 
@@ -7,7 +7,7 @@ interface BingoEditorProps {
     marked: boolean[];
     isEditMode: boolean;
     editingIndex: number | null;
-    highlightedIndices?: number[]; 
+    highlightedIndices?: number[];
     onSquareClick: (index: number) => void;
     onTextChange: (index: number, value: string) => void;
     onEditingChange: (index: number | null) => void;

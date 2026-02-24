@@ -4,8 +4,8 @@ import GamblingGame from "@/components/view/minigames/GamblingGame";
 import GamblingGameInfo from "@/components/view/minigames/GamblingGameInfo";
 import MemoryGame from "@/components/view/minigames/MemoryGame";
 import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
-import BingoGame from "@/components/view/minigames/BingoGame";
-import BingoGameInfo from "@/components/view/minigames/BingoGameInfo";
+import BingoGame from "@/components/view/minigames/bingo/BingoGame";
+import BingoGameInfo from "@/components/view/minigames/bingo/BingoGameInfo";
 import ShioriGame from "@/components/view/minigames/ShioriGame";
 import {
     Dialog,

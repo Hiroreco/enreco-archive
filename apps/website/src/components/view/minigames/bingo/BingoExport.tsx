@@ -1,4 +1,4 @@
-import { getTextStyle } from "@/components/view/minigames/BingoGame";
+import { getTextStyle } from "@/components/view/minigames/bingo/BingoGame";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 

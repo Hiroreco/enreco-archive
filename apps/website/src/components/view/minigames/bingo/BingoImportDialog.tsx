@@ -1,4 +1,4 @@
-import { decompressBoardData } from "@/components/view/minigames/BingoShareDialog";
+import { decompressBoardData } from "@/components/view/minigames/bingo/BingoShareDialog";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
