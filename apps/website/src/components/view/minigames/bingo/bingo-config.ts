@@ -74,7 +74,7 @@ export const PRESET_VALUES = {
             ja: "少なくとも1回の配信で望んだコスメを手に入れられない",
         },
         { en: "Someone has Amnesia", ja: "誰かが記憶喪失になる" },
-        { en: "Corruption-like arc", ja: "腐敗のようなストーリー" },
+        { en: "Corruption arc", ja: "腐敗のようなストーリー" },
         {
             en: "An innocent white lie spirals out of control",
             ja: "無邪気な小さな嘘が手に負えなくなる",
@@ -117,8 +117,8 @@ export const PRESET_VALUES = {
         { en: "Dying many times in a dungeon", ja: "ダンジョンで何度も死ぬ" },
         { en: "Calli builds another shop", ja: "Calliが別の店を建てる" },
         {
-            en: "\nBroken Bonds\n title drop",
-            ja: "\n壊れた絆\n タイトルが出る",
+            en: "Broken Bonds\n title drop",
+            ja: "壊れた絆\n タイトルが出る",
         },
         {
             en: "Nerissa becomes very rich again",
@@ -144,7 +144,7 @@ export const PRESET_VALUES = {
             ja: "誰かが他の人のために自分を犠牲にする",
         },
         {
-            en: "Successful business selling something other than items",
+            en: "Successful business selling non-item things",
             ja: "アイテム以外のものを売る成功したビジネス",
         },
         {
