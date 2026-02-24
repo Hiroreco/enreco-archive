@@ -31,6 +31,24 @@ export const PRESET_VALUES = {
         { en: "There is no castle", ja: "城がない" },
         { en: "There is PVP", ja: "PVPがある" },
         { en: "There is no PVP", ja: "PVPがない" },
+        {
+            en: "Filler Episode",
+            ja: "アニオリ",
+        },
+        {
+            en: "Liz rejects magic",
+            ja: "エリザベスが魔法を拒否する",
+        },
+        {
+            en: "Lore Journals",
+            ja: "手記",
+        },
+
+        {
+            en: "Activates Revelation at inappropriate times",
+            ja: "不適切なタイミングでレベレーションを発動する",
+        },
+        { en: "IRyS does yabai", ja: "IRySがやばいことをする" },
     ],
     // likely
     1: [
@@ -52,7 +70,7 @@ export const PRESET_VALUES = {
         { en: "Return of the corruption hat", ja: "腐敗の帽子の復活" },
         { en: "Someone creates a new scam", ja: "誰かが新しい詐欺を作る" },
         {
-            en: "Failing to get a desired cosmetic for at least a stream",
+            en: "Failing to get a cosmetic for at least a stream",
             ja: "少なくとも1回の配信で望んだコスメを手に入れられない",
         },
         { en: "Someone has Amnesia", ja: "誰かが記憶喪失になる" },
@@ -60,6 +78,34 @@ export const PRESET_VALUES = {
         {
             en: "An innocent white lie spirals out of control",
             ja: "無邪気な小さな嘘が手に負えなくなる",
+        },
+        {
+            en: "Duel Boss Fight",
+            ja: "デュエルボス戦",
+        },
+        {
+            en: "Daily Journal",
+            ja: "日誌",
+        },
+        {
+            en: "Absolute Cinema",
+            ja: "絶対なる映画",
+        },
+        {
+            en: "Intentionally eavesdropping",
+            ja: "意図的に盗み聞きする",
+        },
+        {
+            en: "Liz fumbles a romantic advance",
+            ja: "エリザベスがロマンチックなアプローチを失敗する",
+        },
+        {
+            en: "Fuwamoco dungeon has a double boss",
+            ja: "フワモコダンジョンにダブルボスがいる",
+        },
+        {
+            en: "No memory wipe",
+            ja: "記憶消去なし",
         },
     ],
     // less likely
@@ -103,7 +149,7 @@ export const PRESET_VALUES = {
         },
         {
             en: "ENreco Archive mention (cope)",
-            ja: "ENrecoアーカイブの言及（コープ）",
+            ja: "ENrecoアーカイブの言及",
         },
         { en: "Enemies to lovers", ja: "敵から恋人へ" },
         {
@@ -121,6 +167,32 @@ export const PRESET_VALUES = {
         {
             en: "Staff has to intervene",
             ja: "スタッフが介入しなければならない",
+        },
+        {
+            en: "Gonathon kills on command, ignoring justice",
+            ja: "ゴナソンが正義を無視して命令で殺す",
+        },
+        {
+            en: "Gonathon kills those near and dear to him",
+            ja: "ゴナソンが親しくて大切な人を殺す",
+        },
+        { en: "Bae adopts another child", ja: "ベーが別の子供を養子にする" },
+        { en: "Shiori remembers Gonathon", ja: "シオリがゴナソンを思い出す" },
+        {
+            en: "Fia returns to her Libestal form",
+            ja: "フィアがリベスタルの姿に戻る",
+        },
+        {
+            en: "Outlander becomes a puppy doll",
+            ja: "アウトランダーが子犬の人形になる",
+        },
+        {
+            en: "IRL rest days in-between events",
+            ja: "イベントの合間の現実の休息日",
+        },
+        {
+            en: "AME Cameo",
+            ja: "AMEのカメオ出演",
         },
     ],
 };

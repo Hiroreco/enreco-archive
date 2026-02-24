@@ -6,9 +6,17 @@ interface BingoExportProps {
     board: string[];
     marked: boolean[];
     downloadMode?: boolean;
+    currentDay?: string;
+    showDay?: boolean;
 }
 
-const BingoExport = ({ board, marked, downloadMode }: BingoExportProps) => {
+const BingoExport = ({
+    board,
+    marked,
+    downloadMode,
+    currentDay = "1",
+    showDay = true,
+}: BingoExportProps) => {
     return (
         <div className="relative flex flex-col items-center justify-center gap-4 py-8 px-2">
             {/* bg */}
@@ -26,7 +34,7 @@ const BingoExport = ({ board, marked, downloadMode }: BingoExportProps) => {
                     BINGO
                 </h1>
                 <h3 className="text-xl font-semibold text-shadow-strong">
-                    Chapter 3: Broken Bonds
+                    Chapter 3: Broken Bonds{showDay && ` (Day ${currentDay})`}
                 </h3>
             </div>
 

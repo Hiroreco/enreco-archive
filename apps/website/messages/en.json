@@ -211,7 +211,8 @@
                     "cancel": "Cancel",
                     "understood": "Understood",
                     "fullBoardTitle": "Board is Full",
-                    "fullBoardMessage": "Board is full. You must leave empty squares to use the preset feature."
+                    "fullBoardMessage": "Board is full. You must leave empty squares to use the preset feature.",
+                    "showDay": "Show Day"
                 }
             }
         },

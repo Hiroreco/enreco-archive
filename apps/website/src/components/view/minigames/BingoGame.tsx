@@ -9,7 +9,9 @@ import { PRESET_VALUES } from "@/components/view/minigames/bingo-config";
 import { LS_KEYS } from "@/lib/constants";
 import { isMobileViewport } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
+import { useViewStore } from "@/store/viewStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
+import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
     Dialog,
     DialogContent,
@@ -65,6 +67,16 @@ const getInitialBoards = (): DayBoards => {
         }
     }
     return { "1": createInitialBoard() };
+};
+
+const getInitialShowDay = (): boolean => {
+    if (typeof window === "undefined") return true;
+
+    const savedShowDay = localStorage.getItem(LS_KEYS.BINGO_SHOW_DAY);
+    if (savedShowDay !== null) {
+        return savedShowDay === "true";
+    }
+    return true;
 };
 
 const getInitialAllMarked = (): DayMarked => {
@@ -152,8 +164,9 @@ export const getTextStyle = (text: string): React.CSSProperties => {
 const BingoGame = () => {
     const t = useTranslations("modals.minigames.games.bingo");
     const { locale } = useSettingStore();
+    const { day } = useViewStore();
     const tCommon = useTranslations("common");
-    const [currentDay, setCurrentDay] = useState("1");
+    const [currentDay, setCurrentDay] = useState((day + 1).toString());
     const [allBoards, setAllBoards] = useState<DayBoards>(getInitialBoards);
     const [allMarked, setAllMarked] = useState<DayMarked>(getInitialAllMarked);
     const [isEditMode, setIsEditMode] = useState(true);
@@ -165,6 +178,7 @@ const BingoGame = () => {
     const [originalBoard, setOriginalBoard] = useState<string[]>([]);
     const exportRef = useRef<HTMLDivElement>(null);
     const [highlightedIndices, setHighlightedIndices] = useState<number[]>([]);
+    const [showDay, setShowDay] = useState(getInitialShowDay);
 
     // Get current day's board and marked state
     const board =
@@ -207,6 +221,13 @@ const BingoGame = () => {
             }
         })();
     }, []);
+
+    // Save showDay to localStorage when it changes
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            localStorage.setItem(LS_KEYS.BINGO_SHOW_DAY, String(showDay));
+        }
+    }, [showDay]);
 
     // Save all boards to localStorage when they change
     useEffect(() => {
@@ -639,7 +660,13 @@ const BingoGame = () => {
                                     </DialogDescription>
                                 </DialogHeader>
                             </VisuallyHidden>
-                            <BingoExport board={board} marked={marked} />
+                            <BingoExport
+                                board={board}
+                                marked={marked}
+                                currentDay={currentDay}
+                                showDay={showDay}
+                            />
+
                             <p className="text-xs text-muted-foreground text-center">
                                 {t("previewNote")}
                             </p>
@@ -823,14 +850,39 @@ const BingoGame = () => {
                                     </DialogDescription>
                                 </DialogHeader>
                             </VisuallyHidden>
-                            <BingoExport board={board} marked={marked} />
+                            <BingoExport
+                                board={board}
+                                marked={marked}
+                                currentDay={currentDay}
+                                showDay={showDay}
+                            />
                             <p className="text-xs text-muted-foreground text-center">
                                 {t("previewNote")}
                             </p>
-                            <Button size="sm" onClick={downloadBingo}>
-                                <Download className="size-4 mr-2" />
-                                {t("download")}
-                            </Button>
+                            <div className="flex items-center justify-center gap-4">
+                                <label
+                                    htmlFor="showday"
+                                    className="flex items-center gap-1 border rounded px-2 py-1.5"
+                                >
+                                    <Checkbox
+                                        id="showday"
+                                        checked={showDay}
+                                        onCheckedChange={
+                                            setShowDay as (
+                                                checked: boolean,
+                                            ) => void
+                                        }
+                                        disabled={isInPreviewMode}
+                                        className="size-4 cursor-pointer"
+                                    />
+                                    <span>{t("showDay")}</span>
+                                </label>
+
+                                <Button size="sm" onClick={downloadBingo}>
+                                    <Download className="size-4 mr-2" />
+                                    {t("download")}
+                                </Button>
+                            </div>
                         </DialogContent>
                     </Dialog>
 
@@ -857,7 +909,13 @@ const BingoGame = () => {
             {/* Hidden export - always full size for download */}
             <div className="absolute -left-[9999px] pointer-events-none">
                 <div ref={exportRef}>
-                    <BingoExport board={board} marked={marked} downloadMode />
+                    <BingoExport
+                        board={board}
+                        marked={marked}
+                        downloadMode
+                        currentDay={currentDay}
+                        showDay={showDay}
+                    />
                 </div>
             </div>
         </div>
