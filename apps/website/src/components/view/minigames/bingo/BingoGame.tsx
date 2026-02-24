@@ -42,9 +42,9 @@ import {
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 
-const createInitialBoard = () => {
+const createInitialBoard = (locale: string = "en"): string[] => {
     const board = Array(25).fill("");
-    board[12] = "REVELATION!"; // Center square
+    board[12] = locale === "ja" ? "フリー！" : "Free\nSpace!";
     return board;
 };
 
@@ -53,9 +53,9 @@ type DayMarked = Record<string, boolean[]>;
 type PreviewMode = "none" | "preset" | "randomize";
 
 // Initialize boards for all days from localStorage
-const getInitialBoards = (): DayBoards => {
+const getInitialBoards = (locale: string): DayBoards => {
     if (typeof window === "undefined") {
-        return { "1": createInitialBoard() };
+        return { "1": createInitialBoard(locale) };
     }
 
     const savedBoards = localStorage.getItem(LS_KEYS.BINGO_BOARDS);
@@ -66,7 +66,7 @@ const getInitialBoards = (): DayBoards => {
             console.error("Failed to parse saved boards:", e);
         }
     }
-    return { "1": createInitialBoard() };
+    return { "1": createInitialBoard(locale) };
 };
 
 const getInitialShowDay = (): boolean => {
@@ -167,7 +167,9 @@ const BingoGame = () => {
     const { day } = useViewStore();
     const tCommon = useTranslations("common");
     const [currentDay, setCurrentDay] = useState((day + 1).toString());
-    const [allBoards, setAllBoards] = useState<DayBoards>(getInitialBoards);
+    const [allBoards, setAllBoards] = useState<DayBoards>(
+        getInitialBoards(locale),
+    );
     const [allMarked, setAllMarked] = useState<DayMarked>(getInitialAllMarked);
     const [isEditMode, setIsEditMode] = useState(true);
     const [editingIndex, setEditingIndex] = useState<number | null>(null);
