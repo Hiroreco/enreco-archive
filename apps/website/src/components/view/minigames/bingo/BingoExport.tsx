@@ -47,12 +47,15 @@ const BingoExport = ({
                         <div
                             key={index}
                             className={cn(
-                                "flex flex-col bg-white items-center justify-center relative",
+                                "flex flex-col bg-white items-center justify-center relative but when its light mode text-[#444444]",
                                 downloadMode
                                     ? "size-22"
                                     : "size-17.5 md:size-22",
                             )}
-                            style={{ containerType: "size" }}
+                            style={{
+                                containerType: "size",
+                                colorScheme: "light",
+                            }}
                         >
                             {isCenter && (
                                 <Image
