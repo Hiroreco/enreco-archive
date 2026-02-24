@@ -102,16 +102,6 @@ const BingoShareDialog = ({
         }
     };
 
-    const handleCopyUrl = async () => {
-        try {
-            await navigator.clipboard.writeText(shareUrl);
-            setCopied(true);
-            setTimeout(() => setCopied(false), 2000);
-        } catch (error) {
-            console.error("Failed to copy URL:", error);
-        }
-    };
-
     return (
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
@@ -145,32 +135,6 @@ const BingoShareDialog = ({
                                 size="sm"
                                 variant="outline"
                                 onClick={handleCopy}
-                            >
-                                {copied ? (
-                                    <Check className="size-4" />
-                                ) : (
-                                    <Copy className="size-4" />
-                                )}
-                            </Button>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label className="text-sm font-medium mb-2 block">
-                            {t("shareUrl")}
-                        </label>
-                        <div className="flex gap-2">
-                            <input
-                                type="text"
-                                readOnly
-                                value={shareUrl}
-                                className="flex-1 px-3 py-2 border rounded-md bg-background/50 text-xs"
-                                onClick={(e) => e.currentTarget.select()}
-                            />
-                            <Button
-                                size="sm"
-                                variant="outline"
-                                onClick={handleCopyUrl}
                             >
                                 {copied ? (
                                     <Check className="size-4" />
