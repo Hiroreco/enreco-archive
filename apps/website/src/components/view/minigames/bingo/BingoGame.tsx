@@ -280,6 +280,7 @@ const BingoGame = () => {
                                 : handleRandomizeCancel
                         }
                         isBoardEmpty={isBoardEmpty}
+                        compact
                     />
                 </div>
 

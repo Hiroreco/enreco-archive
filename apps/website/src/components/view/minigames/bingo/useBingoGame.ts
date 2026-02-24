@@ -176,7 +176,7 @@ export const useBingoGame = () => {
     const handleReset = () => {
         setAllBoards((prev) => ({
             ...prev,
-            [currentDay]: createInitialBoard(),
+            [currentDay]: createInitialBoard(locale),
         }));
         setAllMarked((prev) => ({
             ...prev,

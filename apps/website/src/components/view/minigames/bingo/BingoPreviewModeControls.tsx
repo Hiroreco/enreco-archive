@@ -12,6 +12,7 @@ interface BingoPreviewModeControlsProps {
     onAccept: () => void;
     onCancel: () => void;
     isBoardEmpty: boolean;
+    compact?: boolean;
 }
 
 const BingoPreviewModeControls = ({
@@ -22,6 +23,7 @@ const BingoPreviewModeControls = ({
     onAccept,
     onCancel,
     isBoardEmpty,
+    compact,
 }: BingoPreviewModeControlsProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
 
@@ -34,9 +36,9 @@ const BingoPreviewModeControls = ({
                     onClick={onRandomize}
                     title={t("randomize")}
                     disabled={isBoardEmpty}
-                    className={"gap-1"}
+                    className="gap-1"
                 >
-                    <Shuffle className="size-4 mr-1" />
+                    <Shuffle className="size-4" />
                     {t("randomize")}
                 </Button>
                 <Button
@@ -44,9 +46,9 @@ const BingoPreviewModeControls = ({
                     variant="outline"
                     onClick={onPreset}
                     title={t("preset")}
-                    className={"gap-1"}
+                    className="gap-1"
                 >
-                    <Sparkles className="size-4 mr-1" />
+                    <Sparkles className="size-4" />
                     {t("preset")}
                 </Button>
             </>
@@ -55,22 +57,32 @@ const BingoPreviewModeControls = ({
 
     return (
         <>
-            <Button size="sm" variant="outline" onClick={onReroll}>
-                <RotateCcw className={"size-4 mr-1"} />
+            <Button
+                size="sm"
+                variant="outline"
+                onClick={onReroll}
+                className="gap-1"
+            >
+                <RotateCcw className={"size-4"} />
                 {t("reroll")}
             </Button>
-            <Button size="sm" variant="default" onClick={onAccept}>
-                <Check className={"size-4 mr-1"} />
-                {t("accept")}
+            <Button
+                size="sm"
+                variant="default"
+                onClick={onAccept}
+                className="gap-1"
+            >
+                <Check className={"size-4"} />
+                {!compact && t("accept")}
             </Button>
             <Button
                 size="sm"
                 variant="destructive"
                 onClick={onCancel}
-                className={"gap-1"}
+                className="gap-1"
             >
-                <X className={"size-4 mr-1"} />
-                {t("cancel")}
+                <X className={"size-4"} />
+                {!compact && t("cancel")}
             </Button>
         </>
     );
