@@ -214,7 +214,10 @@
                     "understood": "理解しました",
                     "fullBoardTitle": "ボードがいっぱいです",
                     "fullBoardMessage": "ボードがいっぱいです。プリセット機能を使用するには、空きマスを残してください。",
-                    "showDay": "日を表示"
+                    "showDay": "日を表示",
+                    "resetTitle": "ボードをリセット",
+                    "resetMessage": "現在のボードをリセットします。よろしいですか？",
+                    "resetConfirm": "はい、リセットする"
                 }
             }
         },

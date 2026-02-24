@@ -214,7 +214,10 @@
                     "understood": "Understood",
                     "fullBoardTitle": "Board is Full",
                     "fullBoardMessage": "Board is full. You must leave empty squares to use the preset feature.",
-                    "showDay": "Show Day"
+                    "showDay": "Show Day",
+                    "resetTitle": "Reset Board",
+                    "resetMessage": "This will wipe out your current board. Are you sure?",
+                    "resetConfirm": "Yes, Reset"
                 }
             }
         },
