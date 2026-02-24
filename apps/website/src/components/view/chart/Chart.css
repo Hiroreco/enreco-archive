@@ -43,3 +43,10 @@
 .react-flow__edge.selectable {
     @apply opacity-100 cursor-pointer pointer-events-auto;
 }
+
+.react-flow__viewport {
+    /* Attempt to imrpove performance by enabling GPU acceleration for transformations */
+    will-change: transform;
+    /* Optional: Improves rendering, but check for layer size issues */
+    backface-visibility: hidden;
+}
