@@ -36,10 +36,8 @@ const BingoEditor = ({
                         onClick={() => !isEditing && onSquareClick(index)}
                         className={cn(
                             "group size-17.5 md:size-22 border-2 border-gray-800 dark:border-gray-600 cursor-pointer relative",
-                            "flex flex-col items-center justify-center transition-all",
+                            "flex flex-col items-center justify-center transition-all bg-white dark:bg-gray-800",
                             {
-                                "bg-white dark:bg-gray-800":
-                                    !isMarked && !isHighlighted,
                                 "bg-yellow-100/80 dark:bg-yellow-900/30":
                                     !isMarked && isHighlighted,
                                 "hover:bg-gray-100 dark:hover:bg-gray-700":
@@ -55,7 +53,7 @@ const BingoEditor = ({
                                 alt=""
                                 src="/images-opt/emblem-opt.webp"
                                 fill
-                                className="opacity-15"
+                                className="opacity-15 z-10"
                             />
                         )}
                         {isEditing && isEditMode ? (
@@ -68,7 +66,7 @@ const BingoEditor = ({
                                 onBlur={() => onEditingChange(null)}
                                 maxLength={60}
                                 className={cn(
-                                    "w-full h-full resize-none bg-transparent border-0 outline-none",
+                                    "w-full h-full resize-none bg-transparent border-0 outline-none z-10",
                                     "text-center leading-tight font-bold",
                                     "whitespace-pre-wrap break-words",
                                 )}
@@ -80,7 +78,7 @@ const BingoEditor = ({
                         ) : (
                             <div
                                 className={cn(
-                                    "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold",
+                                    "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold z-10",
                                     "whitespace-pre-wrap break-words",
                                 )}
                                 style={getTextStyle(text)}
@@ -95,7 +93,7 @@ const BingoEditor = ({
                                 className={cn(
                                     "w-[90%] h-[90%] rounded-full border-8 md:border-12 border-red-500",
                                     {
-                                        "opacity-80 -z-10": isMarked,
+                                        "opacity-80": isMarked,
                                         "opacity-0": isEditMode && !isMarked,
                                         "opacity-0 group-hover:opacity-60":
                                             !isMarked && !isEditMode,
