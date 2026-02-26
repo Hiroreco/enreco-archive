@@ -119,7 +119,7 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                     </Select>
 
                     {/* Game container */}
-                    <div className="flex grow items-center justify-center w-full">
+                    <div className="flex grow items-center justify-center w-full overflow-y-auto">
                         <AnimatePresence mode="wait">
                             {[
                                 {

@@ -120,26 +120,24 @@ const BingoGame = () => {
     } = useBingoGame();
 
     return (
-        <div className="flex md:flex-row flex-col gap-6 justify-center items-center py-4">
+        <div className="size-full max-h-full flex md:flex-row flex-col gap-6 justify-center items-center py-4">
             <BingoFullBoardAlert
                 open={showFullBoardAlert}
                 onOpenChange={setShowFullBoardAlert}
             />
 
-            <div className="flex flex-col gap-3">
-                <BingoEditor
-                    board={displayBoard}
-                    marked={marked}
-                    isEditMode={isEditMode}
-                    editingIndex={editingIndex}
-                    highlightedIndices={
-                        previewMode === "preset" ? highlightedIndices : []
-                    }
-                    onSquareClick={handleSquareClick}
-                    onTextChange={handleTextChange}
-                    onEditingChange={setEditingIndex}
-                />
-            </div>
+            <BingoEditor
+                board={displayBoard}
+                marked={marked}
+                isEditMode={isEditMode}
+                editingIndex={editingIndex}
+                highlightedIndices={
+                    previewMode === "preset" ? highlightedIndices : []
+                }
+                onSquareClick={handleSquareClick}
+                onTextChange={handleTextChange}
+                onEditingChange={setEditingIndex}
+            />
 
             {/* Desktop controls layout */}
             <div className="md:flex hidden flex-col gap-2">
