@@ -26,7 +26,7 @@ const BingoDaySelector = ({
             onValueChange={onDayChange}
             disabled={disabled}
         >
-            <SelectTrigger className="w-full">
+            <SelectTrigger className="w-full min-w-20">
                 <SelectValue />
             </SelectTrigger>
             <SelectContent>

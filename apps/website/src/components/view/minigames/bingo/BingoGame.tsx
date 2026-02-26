@@ -228,7 +228,7 @@ const BingoGame = () => {
             </div>
 
             {/* Mobile controls layout */}
-            <div className="flex flex-col gap-2 md:hidden">
+            <div className="flex flex-col gap-2 md:hidden pb-4">
                 <span className="text-center font-semibold underline underline-offset-2">
                     {t("utilLabel")}
                 </span>

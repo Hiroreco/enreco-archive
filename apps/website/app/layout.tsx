@@ -3,6 +3,7 @@ import "@/index.css";
 import { isMobileViewport } from "@/lib/utils";
 import { useAudioSettingsSync } from "@/store/audioStore";
 import { FontSize, useSettingStore } from "@/store/settingStore";
+import { Viewport } from "next";
 import { Libre_Franklin } from "next/font/google";
 import { useEffect, useState } from "react";
 
