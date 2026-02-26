@@ -7,6 +7,11 @@ import { useEffect, useState } from "react";
 
 const createInitialBoard = (locale: string = "en"): string[] => {
     const board = Array(25).fill("");
+
+    board[0] =
+        locale === "ja"
+            ? "ここにあなたの予想を書いてください！"
+            : "Write your\nprediction here!";
     board[12] = locale === "ja" ? "フリー！" : "Free\nSpace!";
     return board;
 };
