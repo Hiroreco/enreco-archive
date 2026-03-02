@@ -49,6 +49,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
 import NewsModal from "@/components/view/basic-modals/NewsModal";
+import newsDataEn from "#/news.json";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -145,6 +146,19 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
     const readCount = countReadElements(readStatus, chapter, day);
+
+    // New-news tracking
+    const newsData = (newsDataEn as any[]) || [];
+    const latestNewsIso = newsData[0]?.date ?? new Date().toISOString();
+
+    const latestSeenNewsDate = useSettingStore((state) => state.latestNewsDate);
+    const setLatestNewsDate = useSettingStore((state) => state.setLatestNewsDate);
+
+    const newNewsCount = useMemo(() => {
+        if (!latestSeenNewsDate) return 0;
+
+        return newsData.filter((p) => p.date > latestSeenNewsDate).length;
+    }, [newsData, latestSeenNewsDate]);
 
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
@@ -304,6 +318,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             openInfoModal();
         }
     });
+
+    // When user opens the news modal, update the stored latest seen date
+    useEffect(() => {
+        if (openModal === "news") {
+            setLatestNewsDate(latestNewsIso);
+        }
+    }, [openModal, setLatestNewsDate, latestNewsIso]);
 
     useEffect(() => {
         // When locale changes, refresh the current data to get localized content
@@ -500,13 +521,16 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
                 <IconButton
                     id="news-btn"
-                    className="h-10 w-10 p-1"
+                    className="h-10 w-10 p-1 relative"
                     tooltipText={tNavTooltips("news")}
                     enabled={true}
                     tooltipSide="left"
                     onClick={openNewsModal}
                 >
                     <Newspaper />
+                    {newNewsCount > 0 && (
+                        <span className="absolute -top-1 -right-1 inline-flex items-center justify-center bg-red-600 text-white rounded-full text-[11px] w-5 h-5">{newNewsCount > 99 ? '99+' : String(newNewsCount)}</span>
+                    )}
                 </IconButton>
 
                 <IconButton
