@@ -33,11 +33,11 @@ const BingoExport = ({
                 alt="Background"
                 height={40}
                 width={100}
-                className="h-45 w-auto object-cover"
+                className="h-45 w-auto object-cover mx-auto"
             />
             <div className="relative">
                 {showDay && (
-                    <span className="absolute -top-8 right-0 font-[Chesterfield] text-white text-3xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+                    <span className="absolute -top-6 md:-top-8 right-0 font-[Chesterfield] text-white text-2xl md:text-3xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
                         {t("day", { val: currentDay })}
                     </span>
                 )}
@@ -50,7 +50,7 @@ const BingoExport = ({
                             <div
                                 key={index}
                                 className={cn(
-                                    "flex flex-col items-center justify-center relative but when its light mode  font-[Chesterfield]",
+                                    "flex flex-col items-center justify-center relative font-[Chesterfield]",
                                     downloadMode
                                         ? "size-22"
                                         : "size-17.5 md:size-22",
