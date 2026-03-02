@@ -18,7 +18,7 @@ const BingoExport = ({
     showDay = true,
 }: BingoExportProps) => {
     return (
-        <div className="relative flex flex-col items-center justify-center gap-4 py-8 px-2">
+        <div className="relative flex flex-col items-center justify-center py-4 px-2">
             {/* bg */}
             <Image
                 src="images-opt/bingo-bg-opt.webp"
@@ -26,19 +26,15 @@ const BingoExport = ({
                 fill
                 className="absolute -z-10 opacity-80 inset-0 object-cover rounded-none"
             />
-            <div className="relative z-10 text-white text-center">
-                <h2 className="text-2xl font-bold text-shadow-strong">
-                    ENigmatic Recollection
-                </h2>
-                <h1 className="text-6xl font-bold my-2 text-shadow-strong tracking-wide">
-                    BINGO
-                </h1>
-                <h3 className="text-xl font-semibold text-shadow-strong">
-                    Chapter 3: Broken Bonds{showDay && ` (Day ${currentDay})`}
-                </h3>
-            </div>
+            <Image
+                src="images-opt/bingo-logo-opt.webp"
+                alt="Background"
+                height={40}
+                width={100}
+                className="h-45 w-auto object-cover"
+            />
 
-            <div className="relative z-10 grid grid-cols-5 gap-1">
+            <div className="grid grid-cols-5 gap-1 mt-2">
                 {board.map((text, index) => {
                     const isMarked = marked[index];
                     const isCenter = index === 12;
@@ -47,10 +43,13 @@ const BingoExport = ({
                         <div
                             key={index}
                             className={cn(
-                                "flex flex-col bg-white items-center justify-center relative but when its light mode text-[#444444]",
+                                "flex flex-col items-center justify-center relative but when its light mode  font-[Chesterfield]",
                                 downloadMode
                                     ? "size-22"
                                     : "size-17.5 md:size-22",
+                                index % 2 === 0
+                                    ? "bg-white text-[#444444]"
+                                    : "bg-[#669feb] text-white",
                             )}
                             style={{
                                 containerType: "size",
