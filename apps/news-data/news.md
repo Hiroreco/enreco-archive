@@ -119,3 +119,6 @@ https://x.com/hololive_En/status/2028304298547749225
 https://x.com/hololive_En/status/2028306298396368976
 https://x.com/hololive_En/status/2028305601713868909
 https://x.com/Lv01KOKUEN/status/2028310934884950125
+https://x.com/Lv01KOKUEN/status/2028659124804657447
+https://x.com/Lv01KOKUEN/status/2028666684005879966
+https://x.com/Lv01KOKUEN/status/2028662897891504619

@@ -28,6 +28,7 @@ import {
     Calendar,
     ChevronDown,
     ChevronUp,
+    ExternalLink,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -83,7 +84,7 @@ const NewsPostItem = ({ post }: NewsPostItemProps) => {
     return (
         <div className="bg-card rounded-lg border p-4 break-inside-avoid">
             {/* Header */}
-            <div className="flex items-center gap-2 mb-3">
+            <div className="flex items-center gap-2 mb-3 relative">
                 {post.avatarSrc && (
                     <Image
                         src={post.avatarSrc}
@@ -101,6 +102,14 @@ const NewsPostItem = ({ post }: NewsPostItemProps) => {
                         @{userHandle}
                     </span>
                 </div>
+                <a
+                    href={post.src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="right-0 absolute top-0 visited:text-muted-foreground! text-muted-foreground!"
+                >
+                    <ExternalLink className="size-4" />
+                </a>
             </div>
 
             {/* Content */}
@@ -429,7 +438,9 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                                             key={chapter}
                                             value={String(chapter)}
                                         >
-                                            {tCommon("chapter", {val: chapter + 1})}
+                                            {tCommon("chapter", {
+                                                val: chapter + 1,
+                                            })}
                                         </SelectItem>
                                     ))}
                                 </SelectContent>

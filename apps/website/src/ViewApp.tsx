@@ -149,10 +149,12 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     // New-news tracking
     const newsData = (newsDataEn as any[]) || [];
-    const latestNewsIso = newsData[0]?.date ?? new Date().toISOString();
+    const latestNewsIso = newsData[0]?.date;
 
     const latestSeenNewsDate = useSettingStore((state) => state.latestNewsDate);
-    const setLatestNewsDate = useSettingStore((state) => state.setLatestNewsDate);
+    const setLatestNewsDate = useSettingStore(
+        (state) => state.setLatestNewsDate,
+    );
 
     const newNewsCount = useMemo(() => {
         if (!latestSeenNewsDate) return 0;
@@ -529,7 +531,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 >
                     <Newspaper />
                     {newNewsCount > 0 && (
-                        <span className="absolute -top-1 -right-1 inline-flex items-center justify-center bg-red-600 text-white rounded-full text-[11px] w-5 h-5">{newNewsCount > 99 ? '99+' : String(newNewsCount)}</span>
+                        <span className="absolute -top-1 -right-1 inline-flex items-center justify-center bg-red-600 text-white rounded-full text-[11px] w-5 h-5">
+                            {newNewsCount > 99 ? "99+" : String(newNewsCount)}
+                        </span>
                     )}
                 </IconButton>
 
