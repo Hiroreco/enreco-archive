@@ -18,9 +18,13 @@ export type ModalType =
     | "music"
     | "read-counter"
     | "changelog"
+    | "news"
     | null;
 
-type ViewStoreType = ViewDataSlice & ViewUiSlice & ViewVisibilitySlice & ViewModalSlice;
+type ViewStoreType = ViewDataSlice &
+    ViewUiSlice &
+    ViewVisibilitySlice &
+    ViewModalSlice;
 
 /** Slice to hold important app data. */
 interface ViewDataSlice {
@@ -31,12 +35,9 @@ interface ViewDataSlice {
     setDay: (day: number) => void;
 }
 
-const createDataSlice: StateCreator<
-    ViewStoreType,
-    [],
-    [],
-    ViewDataSlice
-> = (set) => ({
+const createDataSlice: StateCreator<ViewStoreType, [], [], ViewDataSlice> = (
+    set,
+) => ({
     chapter: 0,
     setChapter: (newChapter) => set(() => ({ chapter: newChapter })),
 
@@ -57,12 +58,9 @@ interface ViewUiSlice {
     deselectElement: () => void;
 }
 
-const createUiSlice: StateCreator<
-    ViewStoreType,
-    [],
-    [],
-    ViewUiSlice
-> = (set) => ({
+const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
+    set,
+) => ({
     currentCard: null,
     openNodeCard: () => set(() => ({ currentCard: "node" })),
     openEdgeCard: () => set(() => ({ currentCard: "edge" })),
@@ -110,16 +108,14 @@ const createVisibilitySlice: StateCreator<
     relationship: {},
     toggleRelationship: (relationshipId, relationshipVisibility) =>
         set((draft) => {
-            draft.relationship[relationshipId] =
-                relationshipVisibility;
+            draft.relationship[relationshipId] = relationshipVisibility;
         }),
     toggleAllRelationships: (relationshipVisibility) =>
         set((draft) => {
             const keys = Object.keys(draft.relationship);
 
             for (const key of keys) {
-                draft.relationship[key] =
-                    relationshipVisibility;
+                draft.relationship[key] = relationshipVisibility;
             }
         }),
     setRelationshipKeys: (relationships) =>
@@ -133,8 +129,7 @@ const createVisibilitySlice: StateCreator<
                 newRelationshipVisibility[key] = true;
             }
 
-            draft.relationship =
-                newRelationshipVisibility;
+            draft.relationship = newRelationshipVisibility;
         }),
 
     showOnlyNewEdges: true,
@@ -160,8 +155,7 @@ const createVisibilitySlice: StateCreator<
         set((draft) => {
             const keys = Object.keys(teams);
 
-            const newTeamVisibility: { [key: string]: boolean } =
-                {};
+            const newTeamVisibility: { [key: string]: boolean } = {};
             for (const key of keys) {
                 newTeamVisibility[key] = true;
             }
@@ -172,16 +166,14 @@ const createVisibilitySlice: StateCreator<
     character: {},
     toggleCharacter: (characterId, characterVisibility) =>
         set((draft) => {
-            draft.character[characterId] =
-                characterVisibility;
+            draft.character[characterId] = characterVisibility;
         }),
     toggleAllCharacters: (characterVisibility: boolean) =>
         set((draft) => {
             const keys = Object.keys(draft.character);
 
             for (const key of keys) {
-                draft.character[key] =
-                    characterVisibility;
+                draft.character[key] = characterVisibility;
             }
         }),
     setCharacterKeys: (nodes: ImageNodeType[]) =>
@@ -211,17 +203,15 @@ interface ViewModalSlice {
     openMusicPlayerModal: () => void;
     openReadCounterModal: () => void;
     openChangeLogModal: () => void;
+    openNewsModal: () => void;
     closeModal: () => void;
     videoUrl: string | null;
     setVideoUrl: (currentVideoUrl: string | null) => void;
 }
 
-const createModalSlice: StateCreator<
-    ViewStoreType,
-    [],
-    [],
-    ViewModalSlice
-> = (set) => ({
+const createModalSlice: StateCreator<ViewStoreType, [], [], ViewModalSlice> = (
+    set,
+) => ({
     openModal: null,
     openInfoModal: () => set(() => ({ openModal: "info" })),
     openSettingsModal: () => set(() => ({ openModal: "settings" })),
@@ -231,6 +221,7 @@ const createModalSlice: StateCreator<
     openFanartModal: () => set(() => ({ openModal: "fanart" })),
     openMusicPlayerModal: () => set(() => ({ openModal: "music" })),
     openReadCounterModal: () => set(() => ({ openModal: "read-counter" })),
+    openNewsModal: () => set(() => ({ openModal: "news" })),
 
     openChangeLogModal: () => set(() => ({ openModal: "changelog" })),
     closeModal: () => set(() => ({ openModal: null })),
@@ -240,11 +231,10 @@ const createModalSlice: StateCreator<
 });
 
 export const useViewStore = create<ViewStoreType>()(
-    immer(
-        (...a) => ({
+    immer((...a) => ({
         ...createDataSlice(...a),
         ...createUiSlice(...a),
         ...createVisibilitySlice(...a),
-        ...createModalSlice(...a)
-    })
-));
+        ...createModalSlice(...a),
+    })),
+);

@@ -272,6 +272,22 @@
             "description": "ENreco Archiveの変更履歴を表示",
             "seeAllLogs": "すべての変更履歴を表示するには<link>こちら</link>",
             "forQuestions": "質問や問題の報告は、<link>@hiroavrs</link>までご連絡ください。"
+        },
+        "news": {
+            "searchPlaceholder": "ニュースを検索...",
+            "sortOptions": {
+                "newest": "新しい順",
+                "oldest": "古い順"
+            },
+            "noResults": "ニュース記事が見つかりませんでした。",
+            "allAuthors": "すべての著者",
+            "categories": {
+                "all": "すべて",
+                "merch": "商品",
+                "event": "イベント",
+                "media": "メディア",
+                "showcase": "ショーケース"
+            }
         }
     },
     "cards": {
@@ -319,7 +335,8 @@
         "minigames": "ミニゲーム",
         "chapterRecap": "チャプター要約",
         "jukebox": "ジュークボックス",
-        "libestalGallery": "リベスタル・ギャラリー"
+        "libestalGallery": "リベスタル・ギャラリー",
+        "news": "ニュース"
     },
     "constants": {
         "Amber Coin": "アンバーコイン",

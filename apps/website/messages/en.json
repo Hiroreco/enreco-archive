@@ -272,6 +272,21 @@
             "description": "Here are the latest changes to the Archive",
             "seeAllLogs": "See all changelogs <link>here</link>",
             "forQuestions": "For questions or to report issues, contact <link>@hiroavrs</link>"
+        },
+        "news": {
+            "searchPlaceholder": "Search news...",
+            "sortOptions": {
+                "newest": "Newest First",
+                "oldest": "Oldest First"
+            },
+            "noResults": "No news articles found.",
+            "categories": {
+                "all": "All",
+                "merch": "Merch",
+                "event": "Event",
+                "media": "Media",
+                "showcase": "Showcase"
+            }
         }
     },
     "cards": {
@@ -319,7 +334,8 @@
         "minigames": "Minigames",
         "chapterRecap": "Chapter Recap",
         "jukebox": "Jukebox",
-        "libestalGallery": "Libestal Gallery"
+        "libestalGallery": "Libestal Gallery",
+        "news": "News"
     },
     "constants": {
         "Amber Coin": "Amber Coin",
