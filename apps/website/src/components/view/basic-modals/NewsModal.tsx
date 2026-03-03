@@ -29,6 +29,8 @@ import {
     ChevronDown,
     ChevronUp,
     ExternalLink,
+    Newspaper,
+    Search,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -52,6 +54,9 @@ const ITEMS_PER_PAGE = 15;
 const MAX_CONTENT_HEIGHT = 100; // pixels
 
 const NewsPostItem = ({ post }: NewsPostItemProps) => {
+    const t = useTranslations("modals.news");
+    const locale = useSettingStore((state) => state.locale);
+
     const [isExpanded, setIsExpanded] = useState(false);
     const [needsExpansion, setNeedsExpansion] = useState(false);
     const contentRef = useRef<HTMLDivElement>(null);
@@ -59,7 +64,7 @@ const NewsPostItem = ({ post }: NewsPostItemProps) => {
     const userHandle = post.src.match(/x\.com\/([^/]+)/)?.[1] || "unknown";
 
     const postDate = new Date(post.date);
-    const formattedDate = postDate.toLocaleDateString("en-US", {
+    const formattedDate = postDate.toLocaleDateString(locale, {
         year: "numeric",
         month: "short",
         day: "numeric",
@@ -147,12 +152,12 @@ const NewsPostItem = ({ post }: NewsPostItemProps) => {
                     >
                         {isExpanded ? (
                             <>
-                                Show less
+                                {t("showLess")}
                                 <ChevronUp className="w-3 h-3" />
                             </>
                         ) : (
                             <>
-                                Show more
+                                {t("showMore")}
                                 <ChevronDown className="w-3 h-3" />
                             </>
                         )}
@@ -412,13 +417,22 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                 <div className="flex flex-col gap-2 h-[85dvh] md:h-[90dvh]">
                     {/* Search Bar */}
                     <div className="flex flex-col sm:flex-row gap-2 p-4 border-b">
-                        <Input
-                            type="text"
-                            placeholder="Search news..."
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                            className="flex-1"
-                        />
+                        <div className="flex-1 flex gap-2 items-center">
+                            <Newspaper />
+                            <div className="relative flex-1">
+                                <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
+
+                                <Input
+                                    type="text"
+                                    placeholder={t("searchPlaceholder")}
+                                    value={searchQuery}
+                                    onChange={(e) =>
+                                        setSearchQuery(e.target.value)
+                                    }
+                                    className="flex-1 pl-9"
+                                />
+                            </div>
+                        </div>
 
                         <div className="flex flex-row gap-2 items-center">
                             {/* Chapter Filter */}

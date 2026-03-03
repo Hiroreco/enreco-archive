@@ -275,6 +275,8 @@
         },
         "news": {
             "searchPlaceholder": "ニュースを検索...",
+            "showMore": "もっと見る",
+            "showLess": "少なく表示",
             "sortOptions": {
                 "newest": "新しい順",
                 "oldest": "古い順"

@@ -275,6 +275,8 @@
         },
         "news": {
             "searchPlaceholder": "Search news...",
+            "showMore": "Show more",
+            "showLess": "Show less",
             "sortOptions": {
                 "newest": "Newest First",
                 "oldest": "Oldest First"
