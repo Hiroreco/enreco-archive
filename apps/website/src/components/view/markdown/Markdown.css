@@ -2,6 +2,10 @@
     margin-bottom: 1.5rem;
 }
 
+.smaller-mb > *:not(:last-child) {
+    margin-bottom: 0.25rem;
+}
+
 .markdown li > p {
     display: inline;
 }
