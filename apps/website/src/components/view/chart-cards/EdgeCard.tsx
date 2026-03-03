@@ -98,7 +98,12 @@ const EdgeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        setReadStatus(chapter, day, selectedEdge!.id, isRead);
+        if(selectedEdge) {
+            setReadStatus(chapter, day, selectedEdge.id, isRead);
+        }
+        else {
+            console.error("onReadChange called with null selectedEdge");
+        }
     }
 
     // An edge always has a source and target node, which explains the !

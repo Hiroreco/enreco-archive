@@ -38,3 +38,5 @@ Nerissa knew she was getting on Elizabeth’s nerves, and she enjoyed every seco
 ["I love my girl failures" by Adlo](https://x.com/WaywardAdlo/status/1832901859667005729)
 
 ["The Lovers" by Eli](https://x.com/Elisbian_/status/1972032316160786471)
+
+["if i were to be ~~attacked by a grizzly~~ stuck in a tree..." by wan](https://x.com/wan_m_i/status/2010738655825211611)

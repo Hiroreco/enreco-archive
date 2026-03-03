@@ -96,3 +96,5 @@ _魔女_。
 ["You've always looked good in red" by Eli](https://x.com/Elisbian_/status/1968986008310989190)
 
 ["For me, there is you." by pawchie](https://x.com/aeliaes/status/1968027103695180130)
+
+["enreco s2 summary" by Keisea](https://x.com/Keiseeaaa/status/1986173104838877346)
