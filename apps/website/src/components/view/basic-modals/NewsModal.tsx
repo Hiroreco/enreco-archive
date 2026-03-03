@@ -409,7 +409,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="flex flex-col gap-2 h-[80vh] md:h-[90vh]">
+                <div className="flex flex-col gap-2 h-[85dvh] md:h-[90dvh]">
                     {/* Search Bar */}
                     <div className="flex flex-col sm:flex-row gap-2 p-4 border-b">
                         <Input
