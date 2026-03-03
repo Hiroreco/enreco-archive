@@ -4,30 +4,6 @@ import ChangelogModal from "@/components/view/basic-modals/Changelog";
 import { useSettingStore } from "@/store/settingStore";
 import { LS_KEYS } from "@/lib/constants";
 
-const getDateDifference = (
-    date: Date = new Date("2025-06-10"),
-    locale: Locale,
-): string => {
-    const now = new Date();
-    const diffMonth =
-        now.getMonth() -
-        date.getMonth() +
-        12 * (now.getFullYear() - date.getFullYear());
-    const diffDays = now.getDate() - date.getDate();
-    const diffMonths = Math.floor(diffMonth + (diffDays < 0 ? -1 : 0));
-    const remainingDays =
-        diffDays < 0
-            ? new Date(now.getFullYear(), now.getMonth(), 0).getDate() +
-              diffDays
-            : diffDays;
-
-    if (locale === "ja") {
-        return `${Math.abs(diffMonths)}ヶ月${Math.abs(remainingDays)}日`;
-    }
-    // default to English
-    return `${Math.abs(diffMonths)} month${Math.abs(diffMonths) !== 1 ? "s" : ""} ${Math.abs(remainingDays)} day${Math.abs(remainingDays) !== 1 ? "s" : ""}`;
-};
-
 const getDateInLocale = (date: Date, locale: Locale): string => {
     return new Intl.DateTimeFormat(locale, {
         year: "numeric",
@@ -60,23 +36,6 @@ const InfoGeneral = () => {
                     >
                         {t("changelog")}
                     </span>
-                </span>
-                <span className="italic text-sm text-foreground/70 mr-4">
-                    {t("daysSinceLastEpisode")}{" "}
-                    <span className="font-bold">
-                        {getDateDifference(
-                            new Date(
-                                new Date("2025-05-11").toLocaleString("en-US", {
-                                    timeZone: "Asia/Tokyo",
-                                }),
-                            ),
-                            locale,
-                        )}
-                    </span>
-                </span>
-                <span className="italic text-sm text-foreground/70 mr-4">
-                    {t("daysUntilNextChapter")}{" "}
-                    <span className="font-bold">{t("noInfo")}</span>
                 </span>
 
                 <span className="italic text-sm text-foreground/70 mr-4">

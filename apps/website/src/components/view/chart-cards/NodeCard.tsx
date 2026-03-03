@@ -93,7 +93,12 @@ const NodeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        setReadStatus(chapter, day, selectedNode!.id, isRead);
+        if(selectedNode) {
+            setReadStatus(chapter, day, selectedNode.id, isRead);
+        }
+        else {
+            console.error("onReadChange called with null selectedNode");
+        }
     }
 
     const nodeTeamId = selectedNode?.data.teamId ?? null;

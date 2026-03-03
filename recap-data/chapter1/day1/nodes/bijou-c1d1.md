@@ -38,3 +38,5 @@ Oh, and one more thing, wooden shovel.
 ["her REAL NAME" by seapupu](https://x.com/seapupu290495/status/1830258392583242130)
 
 ["ENreco Cerulean Cup" by Hyoweii](https://x.com/weiiyxn/status/1985216267754848691)
+
+<!-- gigi, kronii, ina, irys -->

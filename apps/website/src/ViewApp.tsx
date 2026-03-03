@@ -21,7 +21,15 @@ import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
+import {
+    Book,
+    Dice6,
+    Disc3,
+    Info,
+    Newspaper,
+    Palette,
+    Settings,
+} from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
 import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModal";
@@ -40,6 +48,8 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
+import NewsModal from "@/components/view/basic-modals/NewsModal";
+import newsDataEn from "#/news.json";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -112,29 +122,23 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     const setTeamKeys = useViewStore((state) => state.setTeamKeys);
 
-    const setCharacterKeys = useViewStore(
-        (state) => state.setCharacterKeys,
-    );
+    const setCharacterKeys = useViewStore((state) => state.setCharacterKeys);
     const openModal = useViewStore((state) => state.openModal);
     const openInfoModal = useViewStore((state) => state.openInfoModal);
-    const openSettingsModal = useViewStore(
-        (state) => state.openSettingsModal,
-    );
-    const openMinigameModal = useViewStore(
-        (state) => state.openMinigameModal,
-    );
+    const openSettingsModal = useViewStore((state) => state.openSettingsModal);
+    const openMinigameModal = useViewStore((state) => state.openMinigameModal);
     const openChapterRecapModal = useViewStore(
         (state) => state.openChapterRecapModal,
     );
-    const openFanartModal = useViewStore(
-        (state) => state.openFanartModal,
-    );
+    const openFanartModal = useViewStore((state) => state.openFanartModal);
     const openMusicPlayerModal = useViewStore(
         (state) => state.openMusicPlayerModal,
     );
     const openReadCounterModal = useViewStore(
         (state) => state.openReadCounterModal,
     );
+    const openNewsModal = useViewStore((state) => state.openNewsModal);
+
     const closeModal = useViewStore((state) => state.closeModal);
     const videoUrl = useViewStore((state) => state.videoUrl);
 
@@ -142,6 +146,21 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
     const readCount = countReadElements(readStatus, chapter, day);
+
+    // New-news tracking
+    const newsData = (newsDataEn as any[]) || [];
+    const latestNewsIso = newsData[0]?.date;
+
+    const latestSeenNewsDate = useSettingStore((state) => state.latestNewsDate);
+    const setLatestNewsDate = useSettingStore(
+        (state) => state.setLatestNewsDate,
+    );
+
+    const newNewsCount = useMemo(() => {
+        if (!latestSeenNewsDate) return 0;
+
+        return newsData.filter((p) => p.date > latestSeenNewsDate).length;
+    }, [newsData, latestSeenNewsDate]);
 
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
@@ -302,6 +321,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         }
     });
 
+    // When user opens the news modal, update the stored latest seen date
+    useEffect(() => {
+        if (openModal === "news") {
+            setLatestNewsDate(latestNewsIso);
+        }
+    }, [openModal, setLatestNewsDate, latestNewsIso]);
+
     useEffect(() => {
         // When locale changes, refresh the current data to get localized content
         // Doing this to prevent selected element staying stale when the locale changes
@@ -348,8 +374,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
-                        transition:
-                            "brightness 0.5s, background-image 0.3s",
+                        transition: "brightness 0.5s, background-image 0.3s",
                     }}
                 />
                 <DayRecapCard
@@ -460,6 +485,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 open={openModal === "fanart"}
                 onClose={closeModal}
             />
+            <NewsModal open={openModal === "news"} onClose={closeModal} />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
@@ -493,6 +519,22 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     onClick={openInfoModal}
                 >
                     <Info />
+                </IconButton>
+
+                <IconButton
+                    id="news-btn"
+                    className="h-10 w-10 p-1 relative"
+                    tooltipText={tNavTooltips("news")}
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={openNewsModal}
+                >
+                    <Newspaper />
+                    {newNewsCount > 0 && (
+                        <span className="absolute -top-1 -right-1 inline-flex items-center justify-center bg-red-600 text-white rounded-full text-[11px] w-5 h-5">
+                            {newNewsCount > 99 ? "99+" : String(newNewsCount)}
+                        </span>
+                    )}
                 </IconButton>
 
                 <IconButton
