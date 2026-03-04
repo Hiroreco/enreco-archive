@@ -37,7 +37,7 @@ const BingoExport = ({
             />
             <div className="relative">
                 {showDay && (
-                    <span className="absolute -top-6 md:-top-8 right-0 font-[Chesterfield] text-white text-2xl md:text-3xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+                    <span className="bg-[#669feb] px-2 absolute -top-5 h-fit left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-1 border-b-0">
                         {t("day", { val: currentDay })}
                     </span>
                 )}
@@ -71,6 +71,12 @@ const BingoExport = ({
                                         className="opacity-10"
                                     />
                                 )}
+                                <Image
+                                    alt=""
+                                    src="/bingo_outline.png"
+                                    fill
+                                    className="p-0.75 absolute inset-0"
+                                />
                                 <div
                                     className={cn(
                                         "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold",
