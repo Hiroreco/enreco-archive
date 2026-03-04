@@ -98,3 +98,5 @@ _魔女_。
 ["For me, there is you." by pawchie](https://x.com/aeliaes/status/1968027103695180130)
 
 ["enreco s2 summary" by Keisea](https://x.com/Keiseeaaa/status/1986173104838877346)
+
+["Will you keep your promise, Lady Bloodlfame?" by Meyshi](https://x.com/Meyshi29/status/2028747059525001333)
