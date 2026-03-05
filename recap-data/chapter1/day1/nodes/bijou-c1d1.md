@@ -17,7 +17,7 @@ Bijou later played a key role in the _Hot Pink One_ incident, being the first to
 
 [Let me help you with that](#embed:https://www.youtube.com/live/OTmQwttr1Aw?feature=shared&t=6329)
 
-As her day continued, Bijou eventually teamed up with Nerissa, the two doggos, and later, Raora, to take on the _Underworld Dungeon_. Amidst plenty of chaos and [screaming](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=3318v), they managed to recover [Mori Calliope’s](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=4986) memories. But Bijou’s day didn’t end there.
+As her day continued, Bijou eventually teamed up with Nerissa, the two doggos, and later, Raora, to take on the _Underworld Dungeon_. Amidst plenty of chaos and [screaming](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=3318s), they managed to recover [Mori Calliope’s](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=4986) memories. But Bijou’s day didn’t end there.
 
 True to her adventurous spirit—or questionable priorities—she decided to gamble all her money. Unsurprisingly, she lost [60%](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=7354) of it, but in her words, "99% of gamblers quit before they lose (?)," she persevered. Eventually, her luck turned around, and she won it all back.
 

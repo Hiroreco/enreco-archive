@@ -11,7 +11,7 @@
 
 [チームのメディック](#embed:https://www.youtube.com/live/SAdndMvNK98?t=2950)
 
-王国を救うために召喚された勇者たちにしては、かなり型破りなスタイルだと言えるでしょう。そんなセシリアが明かした武器は、[槍](https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=3060)。そのレベレーションを発動すれば、敵に矢継ぎ早の突きを叩き込みます。彼女は“同期”のシオリと共に、_スカーレットワンド_ [ギルド](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3347)の一員となります。
+王国を救うために召喚された勇者たちにしては、かなり型破りなスタイルだと言えるでしょう。そんなセシリアが明かした武器は、[槍](https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=3060)。そのレベレーションを発動すれば、敵に矢継ぎ早の突きを叩き込みます。彼女は“同期”のシオリと共に、_スカーレットワンド_ [ギルド](https://www.youtube.com/live/SAdndMvNK98?t=3434s)の一員となります。
 
 [リベスタルクローク](https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=3483)を身にまとい、セシリアの冒険は本格的に幕を開けます。仲間たちとクエストに挑みながら、通信機器の使い方やパーティー結成といった、この世界の基本を学んでいきました。
 

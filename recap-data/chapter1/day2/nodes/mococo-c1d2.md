@@ -19,7 +19,7 @@ With their detour to FaunaMart complete, the group returned to focus on their go
 
 [Why did you buy so much...?](#embed:https://www.youtube.com/live/0rhoyO69kAQ?t=2365)
 
-Getting back on track, the second dungeon proved challenging, but together, the group triumphed. They solved the puzzles, fought through peril, and recovered memories of [Gawr Gura](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=4851).
+Getting back on track, the second dungeon proved challenging, but together, the group triumphed. They solved the puzzles, fought through peril, and recovered memories of [Gawr Gura](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=4841).
 
 As the day drew to a close, Mococo felt fulfilled by their adventure. Her thoughts, however, lingered on the jackpot she was certain awaited her. With dreams of riches dancing in her mind, she settled down for the night, a smile on her face and her paws crossed for good fortune. As innocent as she was, this marked the beginning of a storyline nobody saw coming.
 

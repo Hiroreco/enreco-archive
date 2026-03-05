@@ -17,7 +17,7 @@
 
 [お手伝いしましょうか](#embed:https://www.youtube.com/live/OTmQwttr1Aw?feature=shared&t=6329)
 
-その後、ビジューはネリッサ、二匹のワンコ、そして後から加わったラオラとチームを組み、 _アンダーワールドダンジョン_ に挑むことに。カオスと[絶叫](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=3318v)が渦巻く中、彼女たちは見事、[森カリオペ](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=4986)の記憶を取り戻すことに成功します。しかし、ビジューの波乱万丈な一日はそれで終わりませんでした。
+その後、ビジューはネリッサ、二匹のワンコ、そして後から加わったラオラとチームを組み、 _アンダーワールドダンジョン_ に挑むことに。カオスと[絶叫](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=3318)が渦巻く中、彼女たちは見事、[森カリオペ](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=4986)の記憶を取り戻すことに成功します。しかし、ビジューの波乱万丈な一日はそれで終わりませんでした。
 
 冒険心――いや、常識外れの優先順位に従い、彼女は全財産をギャンブルに投じることを決意します。案の定、最初は[60%](https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=7354)を失ってしまいますが、彼女曰く「ギャンブルをやめる人の99%は負ける前にやめるんだから」と、どこまでも強気な姿勢で粘り続けます。そして最後には運が巡り、見事に全額を取り戻すという離れ業をやってのけたのです。
 

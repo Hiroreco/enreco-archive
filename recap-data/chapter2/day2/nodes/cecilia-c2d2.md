@@ -5,7 +5,7 @@ Cecilia Immerkind wanders about in a dream and meets Cecilia Immergreen who tell
 
 While wandering, Nerissa Juliet Ravencroft calls Cecilia and invites her to a group with Lady Bloodflame and Fuwawa to explore the Star Site: Elpis. The ever-so-kind Cecilia boosts the morale of the group by giving one free compliment to her fellow travelers.
 
-[Beautiful compliments](#embed:https://www.youtube.com/live/48HSA_GcOZ0?si=m0OdMzJIttFapJqP)
+[Beautiful compliments](#embed:https://www.youtube.com/watch?v=48HSA_GcOZ0&t=2456s)
 
 Through adversity, they complete daunting puzzles, slay hordes of Stains, and arrive at the end of the dungeon. They valiantly slay the Stain King Elpis and retrieve the memories of the Hot Pink One and share an [emotional ending together](https://www.youtube.com/live/48HSA_GcOZ0?si=72AIHtOd67m6mOTT&t=6367).
 
