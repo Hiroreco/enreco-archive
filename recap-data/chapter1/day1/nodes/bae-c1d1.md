@@ -23,7 +23,7 @@ Despite her grumbling and reluctance, Bae completed her quests diligently. She h
 
 For a moment, Bae considered the possibility that life here might not be so bad. Maybe she could make friends, build relationships, and fulfill her role as a hero... yeah, no. One dungeon was more than enough. After that, she disappeared, retreating to what she hoped would be an eternal nap, leaving her guildmates to handle the rest of the journey without her. A true hero’s exit.
 
-[Adios, suckers](#embed:www.youtube.com/live/y8bcLA6BQsw?t=10388)
+[Adios, suckers](#embed:https://www.youtube.com/live/y8bcLA6BQsw?t=10388)
 
 ## Fanart
 

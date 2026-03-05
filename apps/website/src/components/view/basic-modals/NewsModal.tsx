@@ -403,6 +403,9 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                     backdropFilter &&
                         "supports-[backdrop-filter]:bg-background/80",
                 )}
+                showXButtonForce={true}
+                showXButton={true}
+                xButtonClassName="right-1 top-1"
                 aria-describedby="news-modal-description"
             >
                 <VisuallyHidden>
