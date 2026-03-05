@@ -11,7 +11,7 @@ During the battle with the _Stain King_, Cecilia’s role was... questionable. S
 
 [The medic of the team](#embed:https://www.youtube.com/live/SAdndMvNK98?t=2950)
 
-For heroes summoned to save a kingdom, their approach was, well, unconventional. Eventually, Cecilia revealed her weapon: [a spear](https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=3060). Upon activating its _Revelation_, it unleashed a flurry of rapid jabs against the enemy. She, like her 'watchmate' Shiori, was sorted into the _Scarlet Wand_ [guild](https://www.youtube.com/live/KSaC99K4IF8?feature=shared&t=3347).
+For heroes summoned to save a kingdom, their approach was, well, unconventional. Eventually, Cecilia revealed her weapon: [a spear](https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=3060). Upon activating its _Revelation_, it unleashed a flurry of rapid jabs against the enemy. She, like her 'watchmate' Shiori, was sorted into the _Scarlet Wand_ [guild](https://www.youtube.com/live/SAdndMvNK98?t=3434s).
 
 Cecilia’s adventure officially began with great enthusiasm, especially after donning the [Libestal Cloak](https://www.youtube.com/live/SAdndMvNK98?feature=shared&t=3483). She started tackling quests with her guildmates, learning the basics of the world: communication devices, forming parties, and more.
 

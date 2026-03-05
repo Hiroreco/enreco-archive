@@ -27,11 +27,11 @@
 
 セシリアはアウトランダーと姫に会い、二人は兄妹であり、結婚はできないはずだと信じます。しかし、ロアの[「愛は愛だ」](https://www.youtube.com/live/Icdii90_vSA?t=19375s)という言葉が、その思い込みを打ち砕きます。アウトランダーが恋敵になりうるという事実に、セシリアは胸を締めつけられるのでした。
 
-セシリアは必死に状況を[解決しよう](https://www.youtube.com/live/Icdii90_vSA?si=0cVW52wBSJBoDRwe&t=19554)と試みますが、自分の姫への想いをこの世界から消し去ることはできない、と苦悩します。そんなセシリアに、ペイザン・ザ・ベイやタム・ガンドルが寄り添い、[彼女の心に渦巻く嵐を少しでも和らげようとします](https://www.youtube.com/live/Icdii90_vSA?si=Z-WNC8IAZsHqyGHB)。
+セシリアは必死に状況を[解決しよう](https://www.youtube.com/live/Icdii90_vSA?si=0cVW52wBSJBoDRwe&t=19554)と試みますが、自分の姫への想いをこの世界から消し去ることはできない、と苦悩します。そんなセシリアに、ペイザン・ザ・ベイやタム・ガンドルが寄り添い、[彼女の心に渦巻く嵐を少しでも和らげようとします](https://www.youtube.com/watch?v=Icdii90_vSA&t=20489s)。
 
 自身の心を整理する時間を持った後、イファニア姫との短い会話の後、タム・ガンドルとセシリアは[習わしの口づけ](https://www.youtube.com/watch?v=Icdii90_vSA&t=21964s)を交わします。その後セシリアは日記にその想いを綴り、「もしかしたら、姫の心は自分ではない、別の誰かに託された方が幸せになれるのかもしれない」と静かに悟るのでした。
 
-[彼女は別の誰かと花開くべきなのかもしれない](#embed:https://www.youtube.com/live/Icdii90_vSA?si=2442Iuml0kJwJFKa)
+[彼女は別の誰かと花開くべきなのかもしれない](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=23346s)
 
 ## ファンアート
 

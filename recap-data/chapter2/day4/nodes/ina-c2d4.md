@@ -3,7 +3,7 @@
 
 Perhaps Bijou was not truly immune to the effects of the Stain (see [Ina-Bijou: Wooden Potato](#edge:bijou-ina)). All that hat was good for at this point was [building pity](https://youtu.be/l9HKSDG50HM?t=4659s)—you could also just pretend it was a handheld plush toy instead.
 
-The time was finally due for NinoIna, donning her big jeweler hat, to finish building her humble abode. And humble it was, but it's really not that funny; it just needed some greenery—[warau na! :(](https://youtu.be/l9HKSDG50HM?t=4659s)
+The time was finally due for NinoIna, donning her big jeweler hat, to finish building her humble abode. And humble it was, but it's really not that funny; it just needed some greenery!
 
 [But That's Just a Theory...](#embed:https://youtu.be/l9HKSDG50HM?t=6292s)
 
