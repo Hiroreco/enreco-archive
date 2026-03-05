@@ -40,6 +40,8 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
+import BingoModal from "./components/view/minigames/bingo/BingoModal";
+import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -112,23 +114,15 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     const setTeamKeys = useViewStore((state) => state.setTeamKeys);
 
-    const setCharacterKeys = useViewStore(
-        (state) => state.setCharacterKeys,
-    );
+    const setCharacterKeys = useViewStore((state) => state.setCharacterKeys);
     const openModal = useViewStore((state) => state.openModal);
     const openInfoModal = useViewStore((state) => state.openInfoModal);
-    const openSettingsModal = useViewStore(
-        (state) => state.openSettingsModal,
-    );
-    const openMinigameModal = useViewStore(
-        (state) => state.openMinigameModal,
-    );
+    const openSettingsModal = useViewStore((state) => state.openSettingsModal);
+    const openMinigameModal = useViewStore((state) => state.openMinigameModal);
     const openChapterRecapModal = useViewStore(
         (state) => state.openChapterRecapModal,
     );
-    const openFanartModal = useViewStore(
-        (state) => state.openFanartModal,
-    );
+    const openFanartModal = useViewStore((state) => state.openFanartModal);
     const openMusicPlayerModal = useViewStore(
         (state) => state.openMusicPlayerModal,
     );
@@ -148,6 +142,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
     const setHasVisitedBefore = usePersistedViewStore(
         (state) => state.setHasVisitedBefore,
+    );
+    const hasDismissedBingoIndicator = usePersistedViewStore(
+        (state) => state.hasDismissedBingoIndicator,
     );
 
     /* State variables */
@@ -348,8 +345,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
-                        transition:
-                            "brightness 0.5s, background-image 0.3s",
+                        transition: "brightness 0.5s, background-image 0.3s",
                     }}
                 />
                 <DayRecapCard
@@ -413,6 +409,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 open={openModal === "minigame"}
                 onClose={closeModal}
             />
+
+            <BingoModal open={openModal === "bingo"} onClose={closeModal} />
 
             <VideoModal
                 open={openModal === "video"}
@@ -552,16 +550,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             </div>
 
             <div
-                className={cn(
-                    "z-0 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0 ",
-                    {
-                        "w-[60%] lg:block hidden": currentCard === "setting",
-                        "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            currentCard === null,
-                        hidden:
-                            currentCard !== null && currentCard !== "setting",
-                    },
-                )}
+                className={cn("z-0 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0", {
+                    "w-[60%] lg:block hidden": currentCard === "setting",
+                    "w-full md:w-4/5 2xl:w-2/5 mx-auto": currentCard === null,
+                    hidden: currentCard !== null && currentCard !== "setting",
+                })}
             >
                 <TransportControls
                     isAnyModalOpen={openModal !== null}
@@ -577,7 +570,14 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         changeWorkingData(chapter, newDay);
                     }}
                 />
+                {!hasDismissedBingoIndicator && (
+                    <BingoIndicator className="md:hidden fixed bottom-18 left-1/2 h-30 -translate-x-1/2 opacity-60" />
+                )}
             </div>
+
+            {!hasDismissedBingoIndicator && (
+                <BingoIndicator className="md:block hidden fixed bottom-0 right-0 translate-y-1/4 h-40" />
+            )}
         </>
     );
 };

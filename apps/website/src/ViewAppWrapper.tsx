@@ -22,6 +22,7 @@ import { LS_KEYS } from "@/lib/constants";
 import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
 import { isMobileViewport } from "@/lib/utils";
 import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
+import Image from "next/image";
 
 type AppType = "chart" | "glossary" | "archive";
 
@@ -37,11 +38,15 @@ export const ViewAppWrapper = () => {
     const currentCard = useViewStore((state) => state.currentCard);
     const closeCard = useViewStore((state) => state.closeCard);
     const deselectElement = useViewStore((state) => state.deselectElement);
+    const openBingoModal = useViewStore((state) => state.openBingoModal);
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
+    );
+    const hasDismissedBingoIndicator = usePersistedViewStore(
+        (state) => state.hasDismissedBingoIndicator,
     );
     const openChangeLogModal = useViewStore(
         (state) => state.openChangeLogModal,
@@ -144,6 +149,21 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
+                            {hasDismissedBingoIndicator && (
+                                <button
+                                    onClick={openBingoModal}
+                                    className="flex items-center justify-center p-1 rounded hover:bg-accent transition-colors cursor-pointer"
+                                    title="Bingo"
+                                >
+                                    <Image
+                                        src="/images-opt/bingo-logo-opt.webp"
+                                        alt="Bingo"
+                                        height={24}
+                                        width={24}
+                                        className="h-6 w-auto"
+                                    />
+                                </button>
+                            )}
                         </TabsList>
                     )}
                     {isMobile && appType !== "chart" && (
@@ -157,6 +177,21 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
+                            {hasDismissedBingoIndicator && (
+                                <button
+                                    onClick={openBingoModal}
+                                    className="flex items-center justify-center p-1 rounded hover:bg-accent transition-colors cursor-pointer"
+                                    title="Bingo"
+                                >
+                                    <Image
+                                        src="/images-opt/bingo-logo-opt.webp"
+                                        alt="Bingo"
+                                        height={24}
+                                        width={24}
+                                        className="h-6 w-auto"
+                                    />
+                                </button>
+                            )}
                         </TabsList>
                     )}
                 </Tabs>

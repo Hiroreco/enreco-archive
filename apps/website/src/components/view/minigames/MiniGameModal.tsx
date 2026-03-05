@@ -4,8 +4,6 @@ import GamblingGame from "@/components/view/minigames/GamblingGame";
 import GamblingGameInfo from "@/components/view/minigames/GamblingGameInfo";
 import MemoryGame from "@/components/view/minigames/MemoryGame";
 import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
-import BingoGame from "@/components/view/minigames/bingo/BingoGame";
-import BingoGameInfo from "@/components/view/minigames/bingo/BingoGameInfo";
 import ShioriGame from "@/components/view/minigames/ShioriGame";
 import {
     Dialog,
@@ -50,10 +48,6 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
             label: t("games.chicken.label"),
             info: <ChickenGameInfo />,
         },
-        bingo: {
-            label: t("games.bingo.label"),
-            info: <BingoGameInfo />,
-        },
         // shiori: {
         //     label: t("games.shiori.label"),
         //     info: <ShioriGameInfo />,
@@ -74,7 +68,6 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
     const defaultClass = "md:max-h-[25rem] " + baseClass;
     const chickenClass = "md:max-h-[37.5rem] " + baseClass;
     const shioriClass = "md:max-h-[37.5rem] " + baseClass;
-    const bingoClass = "md:max-h-[45rem] " + baseClass;
     const modalClass = React.useMemo(() => {
         if (game === "shiori" && !isMobile) {
             return shioriClass;
@@ -82,11 +75,9 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
         if (game === "chicken" && !isMobile) {
             return chickenClass;
         }
-        if (game === "bingo" && !isMobile) {
-            return bingoClass;
-        }
         return defaultClass;
-    }, [game, isMobile, defaultClass, chickenClass, shioriClass, bingoClass]);
+    }, [game, isMobile, defaultClass, chickenClass, shioriClass]);
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
@@ -133,10 +124,6 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                                 {
                                     key: "chicken",
                                     component: <ChickenGame />,
-                                },
-                                {
-                                    key: "bingo",
-                                    component: <BingoGame />,
                                 },
                                 {
                                     key: "shiori",
