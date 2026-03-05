@@ -7,7 +7,7 @@ During her morning greetings, Fauna approached Cecilia to introduce her new busi
 
 Since they were both in the same guild, Scarlet Wand, Cecilia went a step further and helped Fauna sell more tickets. She even tried convincing Shakira to buy some, offering her a special discount. Scam or not, Cecilia felt it was her duty to support Fauna’s efforts as a fellow entrepreneur.
 
-["You get a German discount!"](<#embed:(https://www.youtube.com/live/a74NeBcixi8?feature=shared&t=1306)>)
+["You get a German discount!"](#embed:https://www.youtube.com/live/a74NeBcixi8?feature=shared&t=1306)
 
 Not long after, Cecilia demonstrated to Fauna, Gura, and Darwin how she learned German in three minutes during a self-made [sidequest](https://www.youtube.com/live/a74NeBcixi8?feature=shared&t=1401). The quest involved talking to random German-speaking civilians and, somehow, just by listening, gaining the skill as if in a video game. The group was skeptical but impressed, especially when Darwin managed to speak [fluently](https://www.youtube.com/live/a74NeBcixi8?feature=shared&t=1537) after only a short while. Oddly enough, her voice seemed to change slightly whenever she spoke German, but everyone chalked it up to their imagination.
 
