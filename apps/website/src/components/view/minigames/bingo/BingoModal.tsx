@@ -41,12 +41,17 @@ const BingoModal = ({ open, onClose }: BingoModalProps) => {
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="md:max-w-[800px] max-w-none w-[95vw] h-[80vh] md:max-h-[45rem] transition-all"
+                className="md:max-w-[800px] flex flex-col max-w-none w-[95vw] h-[80vh] md:max-h-[45rem] transition-all pb-0"
                 showXButton={true}
                 showXButtonForce={true}
             >
                 <DialogHeader>
-                    <DialogTitle>{t("label")}</DialogTitle>
+                    <DialogTitle className="text-center">
+                        {t("label")}
+                    </DialogTitle>
+                    <DialogDescription className="text-center">
+                        {t("desc")}
+                    </DialogDescription>
                 </DialogHeader>
 
                 <VisuallyHidden>
@@ -55,30 +60,28 @@ const BingoModal = ({ open, onClose }: BingoModalProps) => {
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="h-full w-full flex flex-col">
-                    <div className="flex grow items-center justify-center w-full overflow-y-auto">
-                        <BingoGame />
-                    </div>
-
-                    <InfoDialog>
-                        <InfoDialogTrigger>
-                            <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2 z-40" />
-                        </InfoDialogTrigger>
-                        <InfoDialogContent className="flex flex-col max-h-[85vh]">
-                            <VisuallyHidden>
-                                <InfoDialogDescription>
-                                    View information about the bingo game
-                                </InfoDialogDescription>
-                            </VisuallyHidden>
-                            <InfoDialogHeader>
-                                <InfoDialogTitle>{t("label")}</InfoDialogTitle>
-                            </InfoDialogHeader>
-                            <div className="overflow-auto grow pb-6 px-2">
-                                <BingoGameInfo />
-                            </div>
-                        </InfoDialogContent>
-                    </InfoDialog>
+                <div className="flex-1 flex items-center justify-center w-full overflow-y-auto">
+                    <BingoGame />
                 </div>
+
+                <InfoDialog>
+                    <InfoDialogTrigger>
+                        <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2 z-40" />
+                    </InfoDialogTrigger>
+                    <InfoDialogContent className="flex flex-col max-h-[85vh]">
+                        <VisuallyHidden>
+                            <InfoDialogDescription>
+                                View information about the bingo game
+                            </InfoDialogDescription>
+                        </VisuallyHidden>
+                        <InfoDialogHeader>
+                            <InfoDialogTitle>{t("label")}</InfoDialogTitle>
+                        </InfoDialogHeader>
+                        <div className="overflow-auto grow pb-6 px-2">
+                            <BingoGameInfo />
+                        </div>
+                    </InfoDialogContent>
+                </InfoDialog>
             </DialogContent>
         </Dialog>
     );

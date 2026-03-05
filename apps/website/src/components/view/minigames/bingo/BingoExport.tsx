@@ -33,7 +33,7 @@ const BingoExport = ({
                 alt="Background"
                 height={40}
                 width={100}
-                className="h-45 w-auto object-cover mx-auto"
+                className="md:h-45 h-35 w-auto object-cover mx-auto"
             />
             <div className="relative">
                 {showDay && (
@@ -52,8 +52,8 @@ const BingoExport = ({
                                 className={cn(
                                     "flex flex-col items-center justify-center relative font-[Chesterfield]",
                                     downloadMode
-                                        ? "size-22"
-                                        : "size-17.5 md:size-22",
+                                        ? "size-24"
+                                        : "size-17.5 md:size-24",
                                     index % 2 === 0
                                         ? "bg-white text-[#444444]"
                                         : "bg-[#669feb] text-white",
@@ -73,13 +73,17 @@ const BingoExport = ({
                                 )}
                                 <Image
                                     alt=""
-                                    src="/bingo_outline.png"
+                                    src={
+                                        index % 2 === 0
+                                            ? "/bingo_outline.png"
+                                            : "/bingo_outline2.png"
+                                    }
                                     fill
                                     className="p-0.75 absolute inset-0"
                                 />
                                 <div
                                     className={cn(
-                                        "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold",
+                                        "size-full flex flex-col justify-center text-center px-2 leading-tight font-bold",
                                         "whitespace-pre-wrap break-words z-10",
                                     )}
                                     style={getTextStyle(text)}

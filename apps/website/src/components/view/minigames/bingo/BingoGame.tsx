@@ -120,7 +120,7 @@ const BingoGame = () => {
     } = useBingoGame();
 
     return (
-        <div className="size-full max-h-full flex md:flex-row flex-col gap-6 justify-center items-center py-4">
+        <div className="size-full max-h-full flex md:flex-row flex-col gap-6 justify-center items-center">
             <BingoFullBoardAlert
                 open={showFullBoardAlert}
                 onOpenChange={setShowFullBoardAlert}
