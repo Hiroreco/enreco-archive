@@ -44,7 +44,7 @@ const BingoExport = ({
                 <div className="grid grid-cols-5 gap-1 mt-2">
                     {board.map((text, index) => {
                         const isMarked = marked[index];
-                        const isCenter = index === 12;
+                        // const isCenter = index === 12;
 
                         return (
                             <div
@@ -60,17 +60,16 @@ const BingoExport = ({
                                 )}
                                 style={{
                                     containerType: "size",
-                                    colorScheme: "light",
                                 }}
                             >
-                                {isCenter && (
+                                {/* {isCenter && (
                                     <Image
                                         alt=""
                                         src="/images-opt/emblem-opt.webp"
                                         fill
                                         className="opacity-10"
                                     />
-                                )}
+                                )} */}
                                 <Image
                                     alt=""
                                     src={
@@ -81,30 +80,27 @@ const BingoExport = ({
                                     fill
                                     className="p-0.75 absolute inset-0"
                                 />
+                                {isMarked && (
+                                    <Image
+                                        src="images-opt/marker-opt.webp"
+                                        fill
+                                        alt=""
+                                        className={cn(
+                                            "absolute p-0.75 inset-0 pointer-events-none opacity-30",
+                                        )}
+                                        style={{ zIndex: 0 }}
+                                    />
+                                )}
+                                {/* position: relative makes this paint above all absolute siblings in html2canvas */}
                                 <div
                                     className={cn(
                                         "size-full flex flex-col justify-center text-center px-2 leading-tight font-bold",
-                                        "whitespace-pre-wrap break-words z-10",
+                                        "whitespace-pre-wrap break-words relative",
                                     )}
                                     style={getTextStyle(text)}
                                 >
                                     {text}
                                 </div>
-                                {isMarked && (
-                                    <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
-                                        <Image
-                                            src="marker.png"
-                                            fill
-                                            alt=""
-                                            className={cn(
-                                                "size-[95%] rounded-full border-[#fb4172] opacity-70",
-                                                downloadMode
-                                                    ? "border-12"
-                                                    : "border-8 md:border-12",
-                                            )}
-                                        />
-                                    </div>
-                                )}
                             </div>
                         );
                     })}
