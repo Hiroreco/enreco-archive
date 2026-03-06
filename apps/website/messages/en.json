@@ -186,6 +186,8 @@
                     "cardByDay": "<bold>Card by Day:</bold> You are encouraged to fill out the bingo sheet based on the events of each day, but feel free to fill it out however you like.",
                     "editMode": "Edit Mode",
                     "markMode": "Mark Mode",
+                    "edit": "Edit",
+                    "play": "Play",
                     "mode": "Edit/Mark",
                     "preview": "Preview",
                     "previewTitle": "Bingo Preview",
