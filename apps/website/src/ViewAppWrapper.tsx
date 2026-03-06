@@ -25,15 +25,14 @@ import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
 
-type AppType = "chart" | "glossary" | "archive" | "bingo";
-
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
     const themeType = useSettingStore((state) => state.themeType);
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
-    const [appType, setAppType] = useState<AppType>("chart");
+    const appType = useViewStore((state) => state.appType);
+    const setAppType = useViewStore((state) => state.setAppType);
     const chapter = useViewStore((state) => state.chapter);
     const currentCard = useViewStore((state) => state.currentCard);
     const closeCard = useViewStore((state) => state.closeCard);
@@ -112,14 +111,14 @@ export const ViewAppWrapper = () => {
             >
                 <Tabs
                     orientation="vertical"
-                    defaultValue="chart"
+                    value={appType}
                     onValueChange={(value) => {
                         // To avoid soft-locking when the user chooses a card, and quickly switches to glossary
                         if (value === "glossary") {
                             closeCard();
                             deselectElement();
                         }
-                        setAppType(value as AppType);
+                        setAppType(value as typeof appType);
                     }}
                     className={cn(
                         "absolute left-[8px] top-[8px] z-10 transition-all",

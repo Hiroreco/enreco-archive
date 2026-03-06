@@ -1,4 +1,5 @@
 import { getTextStyle } from "@/components/view/minigames/bingo/BingoGame";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ interface BingoEditorProps {
     onSquareClick: (index: number) => void;
     onTextChange: (index: number, value: string) => void;
     onEditingChange: (index: number | null) => void;
+    isMobile?: boolean;
 }
 
 const BingoEditor = ({
@@ -23,8 +25,9 @@ const BingoEditor = ({
     onTextChange,
     onEditingChange,
 }: BingoEditorProps) => {
+    const isMobile = useIsMobileViewport();
     const getEditingStyle = (text: string): React.CSSProperties => {
-        const baseStyle = getTextStyle(text);
+        const baseStyle = getTextStyle(text, isMobile);
 
         // Keep the active editing text visually centered, similar to the display state.
         const explicitLineCount = Math.max(text.split("\n").length, 1);
@@ -96,7 +99,7 @@ const BingoEditor = ({
                                         "size-full flex flex-col justify-center text-center px-1 leading-tight font-bold z-10",
                                         "whitespace-pre-wrap break-words",
                                     )}
-                                    style={getTextStyle(text)}
+                                    style={getTextStyle(text, isMobile)}
                                 >
                                     {text}
                                 </div>
@@ -115,7 +118,7 @@ const BingoEditor = ({
                                                 !isMarked && !isEditMode,
                                         },
                                     )}
-                                    />
+                                />
                             </div>
                         </div>
                     );

@@ -221,7 +221,7 @@
                     "showDay": "Show Day",
                     "resetTitle": "Reset Board",
                     "resetMessage": "This will wipe out your current board. Are you sure?",
-                    "resetConfirm": "Yes, Reset"
+                    "resetConfirm": "Yes, clear it"
                 }
             }
         },

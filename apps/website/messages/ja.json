@@ -221,7 +221,7 @@
                     "showDay": "日を表示",
                     "resetTitle": "ボードをリセット",
                     "resetMessage": "現在のボードをリセットします。よろしいですか？",
-                    "resetConfirm": "はい、リセットする"
+                    "resetConfirm": "はい、クリアします"
                 }
             }
         },

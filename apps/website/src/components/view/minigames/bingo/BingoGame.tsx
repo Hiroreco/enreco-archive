@@ -1,4 +1,5 @@
 import BingoDaySelector from "@/components/view/minigames/bingo/BingoDaySelector";
+import BingoDaySwitchAlert from "@/components/view/minigames/bingo/BingoDaySwitchAlert";
 import BingoEditor from "@/components/view/minigames/bingo/BingoEditor";
 import BingoExport from "@/components/view/minigames/bingo/BingoExport";
 import BingoFullBoardAlert from "@/components/view/minigames/bingo/BingoFullBoardAlert";
@@ -19,9 +20,10 @@ import { useRef } from "react";
  * Calculate dynamic font size based on text characteristics
  * Returns CSS custom properties for fluid typography
  */
-export const getTextStyle = (text: string): React.CSSProperties => {
-    const isMobile = useIsMobileViewport();
-
+export const getTextStyle = (
+    text: string,
+    isMobile: boolean = false,
+): React.CSSProperties => {
     const words = text.split(/[\s\n]+/).filter((word) => word.length > 0);
     const longestWord = Math.max(...words.map((word) => word.length), 0);
     const totalLength = text.length;

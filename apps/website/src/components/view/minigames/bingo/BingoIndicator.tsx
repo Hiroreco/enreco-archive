@@ -8,14 +8,14 @@ interface BingoIndicatorProps {
 }
 
 const BingoIndicator = ({ className }: BingoIndicatorProps) => {
-    const openBingoModal = useViewStore((state) => state.openBingoModal);
     const setHasDismissedBingoIndicator = usePersistedViewStore(
         (state) => state.setHasDismissedBingoIndicator,
     );
+    const setAppType = useViewStore((state) => state.setAppType);
 
     const handleClick = () => {
         setHasDismissedBingoIndicator(true);
-        openBingoModal();
+        setAppType("bingo");
     };
 
     return (

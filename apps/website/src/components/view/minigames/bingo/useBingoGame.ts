@@ -1,4 +1,3 @@
-import { decompressBoardData } from "@/components/view/minigames/bingo/BingoShareDialog";
 import { PRESET_VALUES } from "@/components/view/minigames/bingo/bingo-config";
 import { LS_KEYS } from "@/lib/constants";
 import { useSettingStore } from "@/store/settingStore";
@@ -92,10 +91,7 @@ export const useBingoGame = () => {
     const [highlightedIndices, setHighlightedIndices] = useState<number[]>([]);
     const [showDay, setShowDay] = useState(getInitialShowDay);
 
-    const board =
-        allBoards[currentDay] ||
-        allBoards[String(Number(currentDay) - 1)] ||
-        createInitialBoard();
+    const board = allBoards[currentDay] || createBlankBoard();
     const marked = allMarked[currentDay] || Array(25).fill(false);
     const displayBoard = previewMode !== "none" ? previewBoard : board;
 
@@ -136,11 +132,10 @@ export const useBingoGame = () => {
     // Ensure day exists
     useEffect(() => {
         if (!allBoards[currentDay]) {
-            const prevDay = String(Number(currentDay) - 1);
-            const prevBoard = allBoards[prevDay] || createInitialBoard();
+            const blankBoard = createBlankBoard();
             setAllBoards((prev) => ({
                 ...prev,
-                [currentDay]: [...prevBoard],
+                [currentDay]: [...blankBoard],
             }));
         }
         if (!allMarked[currentDay]) {
