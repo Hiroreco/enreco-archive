@@ -23,8 +23,21 @@ const BingoEditor = ({
     onTextChange,
     onEditingChange,
 }: BingoEditorProps) => {
+    const getEditingStyle = (text: string): React.CSSProperties => {
+        const baseStyle = getTextStyle(text);
+
+        // Keep the active editing text visually centered, similar to the display state.
+        const explicitLineCount = Math.max(text.split("\n").length, 1);
+        const estimatedTextBlockHeightEm = explicitLineCount * 1.2;
+
+        return {
+            ...baseStyle,
+            paddingTop: `max(0px, calc(50% - ${estimatedTextBlockHeightEm / 2}em))`,
+        };
+    };
+
     return (
-        <div className="aspect-square w-full max-h-full max-w-full p-2 bg-white/10 rounded border border-gray-300 dark:border-gray-700">
+        <div className="size-full p-2 bg-white/10 rounded border border-gray-300 dark:border-gray-700">
             <div className="grid grid-cols-5 grid-rows-5 gap-1 size-full">
                 {board.map((text, index) => {
                     const isMarked = marked[index];
@@ -75,10 +88,7 @@ const BingoEditor = ({
                                         "text-center leading-tight font-bold",
                                         "whitespace-pre-wrap break-words",
                                     )}
-                                    style={{
-                                        paddingTop: "0.25em",
-                                        ...getTextStyle(text),
-                                    }}
+                                    style={getEditingStyle(text)}
                                 />
                             ) : (
                                 <div
@@ -105,7 +115,7 @@ const BingoEditor = ({
                                                 !isMarked && !isEditMode,
                                         },
                                     )}
-                                />
+                                    />
                             </div>
                         </div>
                     );

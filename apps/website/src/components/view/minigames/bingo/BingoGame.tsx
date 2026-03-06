@@ -120,24 +120,26 @@ const BingoGame = () => {
     } = useBingoGame();
 
     return (
-        <div className="size-full max-h-full flex md:flex-row flex-col gap-6 justify-center items-center py-4">
+        <div className="size-full max-h-full flex md:flex-row flex-col gap-6 justify-center items-center">
             <BingoFullBoardAlert
                 open={showFullBoardAlert}
                 onOpenChange={setShowFullBoardAlert}
             />
 
-            <BingoEditor
-                board={displayBoard}
-                marked={marked}
-                isEditMode={isEditMode}
-                editingIndex={editingIndex}
-                highlightedIndices={
-                    previewMode === "preset" ? highlightedIndices : []
-                }
-                onSquareClick={handleSquareClick}
-                onTextChange={handleTextChange}
-                onEditingChange={setEditingIndex}
-            />
+            <div className="w-full aspect-square max-w-[min(92vw,92dvh)] md:max-w-[min(65vw,78dvh)] shrink-0">
+                <BingoEditor
+                    board={displayBoard}
+                    marked={marked}
+                    isEditMode={isEditMode}
+                    editingIndex={editingIndex}
+                    highlightedIndices={
+                        previewMode === "preset" ? highlightedIndices : []
+                    }
+                    onSquareClick={handleSquareClick}
+                    onTextChange={handleTextChange}
+                    onEditingChange={setEditingIndex}
+                />
+            </div>
 
             {/* Desktop controls layout */}
             <div className="md:flex hidden flex-col gap-2">
@@ -145,7 +147,7 @@ const BingoGame = () => {
                     {t("utilLabel")}
                 </span>
 
-                <div className="flex gap-2">
+                <div className="flex flex-col gap-2">
                     <BingoDaySelector
                         currentDay={currentDay}
                         onDayChange={setCurrentDay}
@@ -239,6 +241,15 @@ const BingoGame = () => {
                         onDayChange={setCurrentDay}
                         disabled={isInPreviewMode}
                     />
+                </div>
+
+                <div className="flex items-center justify-center gap-2">
+                    <BingoModeControls
+                        isEditMode={isEditMode}
+                        onModeChange={setIsEditMode}
+                        disabled={isInPreviewMode}
+                    />
+
                     <BingoShareDialog
                         board={board}
                         currentDay={currentDay}
@@ -251,13 +262,6 @@ const BingoGame = () => {
                 </div>
 
                 <div className="flex items-center justify-center gap-2">
-                    <BingoModeControls
-                        isEditMode={isEditMode}
-                        onModeChange={setIsEditMode}
-                        disabled={isInPreviewMode}
-                        compact
-                    />
-
                     <BingoPreviewModeControls
                         previewMode={previewMode}
                         onRandomize={handleRandomizeClick}

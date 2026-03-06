@@ -6,14 +6,12 @@ interface BingoModeControlsProps {
     isEditMode: boolean;
     onModeChange: (isEditMode: boolean) => void;
     disabled?: boolean;
-    compact?: boolean;
 }
 
 const BingoModeControls = ({
     isEditMode,
     onModeChange,
     disabled,
-    compact,
 }: BingoModeControlsProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
 
@@ -26,7 +24,8 @@ const BingoModeControls = ({
                 title={t("editMode")}
                 disabled={disabled}
             >
-                <Edit className={compact ? "size-4" : "size-4"} />
+                <Edit className="size-4 mr-1" />
+                {t("edit")}
             </Button>
             <Button
                 size="sm"
@@ -35,7 +34,8 @@ const BingoModeControls = ({
                 title={t("markMode")}
                 disabled={disabled}
             >
-                <CheckSquare className={compact ? "size-4" : "size-4"} />
+                <CheckSquare className="size-4 mr-1" />
+                {t("play")}
             </Button>
         </div>
     );

@@ -33,7 +33,16 @@ const BingoGameInfo = () => {
                         bold: (chunks) => <strong>{chunks}</strong>,
                     })}
                 </li>
-                <li>{t("cardByDay")}</li>
+                <li>
+                    {t.rich("shareDesc", {
+                        bold: (chunks) => <strong>{chunks}</strong>,
+                    })}
+                </li>
+                <li>
+                    {t.rich("cardByDay", {
+                        bold: (chunks) => <strong>{chunks}</strong>,
+                    })}
+                </li>
             </ul>
             <p>{t("tips")}</p>
         </div>

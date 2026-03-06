@@ -17,6 +17,9 @@ interface PersistedViewStore {
     hasVisitedBefore: boolean;
     setHasVisitedBefore: (newVal: boolean) => void;
 
+    hasDismissedBingoIndicator: boolean;
+    setHasDismissedBingoIndicator: (newVal: boolean) => void;
+
     readStatus: ReadStore;
     setReadStatus: (
         chapter: number,
@@ -61,6 +64,12 @@ export const usePersistedViewStore = create<PersistedViewStore>()(
             setHasVisitedBefore: (newVal) =>
                 set((draft) => {
                     draft.hasVisitedBefore = newVal;
+                }),
+
+            hasDismissedBingoIndicator: false,
+            setHasDismissedBingoIndicator: (newVal) =>
+                set((draft) => {
+                    draft.hasDismissedBingoIndicator = newVal;
                 }),
 
             readStatus: [],

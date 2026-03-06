@@ -8,12 +8,26 @@ import { useEffect, useState } from "react";
 const createInitialBoard = (locale: string = "en"): string[] => {
     const board = Array(25).fill("");
 
-    board[0] =
-        locale === "ja"
-            ? "ここにあなたの予想を書いてください！"
-            : "Write your\nprediction here!";
-    board[12] = locale === "ja" ? "フリー！" : "Free\nSpace!";
+    if (locale === "ja") {
+        board[12] = "フリー！";
+        board[0] = "ここに\n予想を\n入力";
+        board[2] = "または\nプリセットを\n使用";
+        board[4] = "「プレビュー」で\nカードを\n確認";
+        board[14] = "編集モードと\nマークモードを\n切替";
+        board[24] = "詳細は\n情報アイコンを\nクリック";
+    } else {
+        board[12] = "Free\nSpace!";
+        board[0] = "Type your\nprediction\nhere";
+        board[2] = "Or use\nthe preset\nvalues";
+        board[4] = `Then click\n"Preview" to\nview your card`;
+        board[14] = `Switch between\nEdit Mode and\nMark Mode`;
+        board[24] = `Click the\nInfo icon for more details`;
+    }
+
     return board;
+};
+const createBlankBoard = (): string[] => {
+    return Array(25).fill("");
 };
 
 type DayBoards = Record<string, string[]>;
@@ -181,7 +195,7 @@ export const useBingoGame = () => {
     const handleReset = () => {
         setAllBoards((prev) => ({
             ...prev,
-            [currentDay]: createInitialBoard(locale),
+            [currentDay]: createBlankBoard(),
         }));
         setAllMarked((prev) => ({
             ...prev,
