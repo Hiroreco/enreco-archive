@@ -40,7 +40,6 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
-import BingoModal from "./components/view/minigames/bingo/BingoModal";
 import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
@@ -409,8 +408,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 open={openModal === "minigame"}
                 onClose={closeModal}
             />
-
-            <BingoModal open={openModal === "bingo"} onClose={closeModal} />
 
             <VideoModal
                 open={openModal === "video"}

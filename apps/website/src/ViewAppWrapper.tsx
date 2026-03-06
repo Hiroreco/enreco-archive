@@ -23,8 +23,9 @@ import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
 import { isMobileViewport } from "@/lib/utils";
 import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
 import Image from "next/image";
+import BingoApp from "@/components/view/minigames/bingo/BingoApp";
 
-type AppType = "chart" | "glossary" | "archive";
+type AppType = "chart" | "glossary" | "archive" | "bingo";
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -32,13 +33,11 @@ export const ViewAppWrapper = () => {
     const themeType = useSettingStore((state) => state.themeType);
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
-
     const [appType, setAppType] = useState<AppType>("chart");
     const chapter = useViewStore((state) => state.chapter);
     const currentCard = useViewStore((state) => state.currentCard);
     const closeCard = useViewStore((state) => state.closeCard);
     const deselectElement = useViewStore((state) => state.deselectElement);
-    const openBingoModal = useViewStore((state) => state.openBingoModal);
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -150,11 +149,7 @@ export const ViewAppWrapper = () => {
                                 <Film size={24} />
                             </TabsTrigger>
                             {hasDismissedBingoIndicator && (
-                                <button
-                                    onClick={openBingoModal}
-                                    className="flex items-center justify-center p-1 rounded hover:bg-accent transition-colors cursor-pointer"
-                                    title="Bingo"
-                                >
+                                <TabsTrigger value="bingo" title="Bingo">
                                     <Image
                                         src="/images-opt/bingo-logo-opt.webp"
                                         alt="Bingo"
@@ -162,7 +157,7 @@ export const ViewAppWrapper = () => {
                                         width={24}
                                         className="h-6 w-auto"
                                     />
-                                </button>
+                                </TabsTrigger>
                             )}
                         </TabsList>
                     )}
@@ -178,11 +173,7 @@ export const ViewAppWrapper = () => {
                                 <Film size={24} />
                             </TabsTrigger>
                             {hasDismissedBingoIndicator && (
-                                <button
-                                    onClick={openBingoModal}
-                                    className="flex items-center justify-center p-1 rounded hover:bg-accent transition-colors cursor-pointer"
-                                    title="Bingo"
-                                >
+                                <TabsTrigger value="bingo" title="Bingo">
                                     <Image
                                         src="/images-opt/bingo-logo-opt.webp"
                                         alt="Bingo"
@@ -190,7 +181,7 @@ export const ViewAppWrapper = () => {
                                         width={24}
                                         className="h-6 w-auto"
                                     />
-                                </button>
+                                </TabsTrigger>
                             )}
                         </TabsList>
                     )}
@@ -231,6 +222,17 @@ export const ViewAppWrapper = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <VideoArchiveApp bgImage={bgImage} />
+                        </motion.div>
+                    )}
+                    {appType === "bingo" && (
+                        <motion.div
+                            key="bingo"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <BingoApp />
                         </motion.div>
                     )}
                 </AnimatePresence>
