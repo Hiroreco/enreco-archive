@@ -122,13 +122,13 @@ const BingoGame = () => {
     } = useBingoGame();
 
     return (
-        <div className="size-full max-h-full flex md:flex-row flex-col gap-6 justify-center items-center">
+        <div className="flex md:flex-row flex-col gap-6 justify-center items-center">
             <BingoFullBoardAlert
                 open={showFullBoardAlert}
                 onOpenChange={setShowFullBoardAlert}
             />
 
-            <div className="w-full aspect-square max-w-[min(92vw,92dvh)] md:max-w-[min(65vw,78dvh)] shrink-0">
+            <div className="w-full aspect-square max-w-[600px] shrink-0">
                 <BingoEditor
                     board={displayBoard}
                     marked={marked}

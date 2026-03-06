@@ -92,7 +92,10 @@ const BingoExport = ({
                                 </div>
                                 {isMarked && (
                                     <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
-                                        <div
+                                        <Image
+                                            src="marker.png"
+                                            fill
+                                            alt=""
                                             className={cn(
                                                 "size-[95%] rounded-full border-[#fb4172] opacity-70",
                                                 downloadMode

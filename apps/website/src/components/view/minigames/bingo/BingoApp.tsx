@@ -18,15 +18,13 @@ const BingoApp = () => {
 
     return (
         <div className="w-screen flex flex-col items-center justify-center overflow-hidden h-dvh">
-            <div className="relative px-4 flex w-full max-w-4xl flex-col bg-background/60 backdrop-blur-2xl md:rounded-lg p-4">
+            <div className="relative px-4 flex flex-col w-full max-w-4xl bg-background/60 backdrop-blur-2xl md:rounded-lg p-4">
                 <div className="pb-2 text-center">
                     <h2 className="text-lg font-semibold">{t("label")}</h2>
                     <p className="text-sm text-muted-foreground">{t("desc")}</p>
                 </div>
 
-                <div className="flex-1 min-h-0 flex items-center justify-center overflow-y-auto pb-2">
-                    <BingoGame />
-                </div>
+                <BingoGame />
 
                 <Dialog>
                     <DialogTrigger asChild>
