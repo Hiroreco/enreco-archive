@@ -75,8 +75,8 @@ const BingoExport = ({
                                     alt=""
                                     src={
                                         index % 2 === 0
-                                            ? "/bingo_outline.png"
-                                            : "/bingo_outline2.png"
+                                            ? "images-opt/bingo_outline-opt.webp"
+                                            : "images-opt/bingo_outline2-opt.webp"
                                     }
                                     fill
                                     className="p-0.75 absolute inset-0"
