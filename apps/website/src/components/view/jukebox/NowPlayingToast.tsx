@@ -1,5 +1,5 @@
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
-import { isMobileViewport } from "@/lib/utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
@@ -26,7 +26,7 @@ export const NowPlayingToast = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null);
 
-    const isMobile = isMobileViewport();
+    const isMobile = useIsMobileViewport();
 
     const currentSong = useMemo(() => {
         if (catIndex === null || trackIndex === null) return null;

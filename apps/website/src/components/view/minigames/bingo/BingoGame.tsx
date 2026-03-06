@@ -9,7 +9,7 @@ import BingoPreviewModeControls from "@/components/view/minigames/bingo/BingoPre
 import BingoResetDialog from "@/components/view/minigames/bingo/BingoResetDialog";
 import BingoShareDialog from "@/components/view/minigames/bingo/BingoShareDialog";
 import { useBingoGame } from "@/components/view/minigames/bingo/useBingoGame";
-import { isMobileViewport } from "@/lib/utils";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Download } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -20,7 +20,7 @@ import { useRef } from "react";
  * Returns CSS custom properties for fluid typography
  */
 export const getTextStyle = (text: string): React.CSSProperties => {
-    const isMobile = isMobileViewport();
+    const isMobile = useIsMobileViewport();
 
     const words = text.split(/[\s\n]+/).filter((word) => word.length > 0);
     const longestWord = Math.max(...words.map((word) => word.length), 0);

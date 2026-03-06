@@ -8,11 +8,8 @@ import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import {
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
-import { isEdge, isMobileViewport } from "@/lib/utils";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
+import { isEdge } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
 import { useEffect, useRef } from "react";
@@ -33,6 +30,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 
 interface Props {
     isCardOpen: boolean;
@@ -57,19 +55,22 @@ const EdgeCard = ({
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
 
-    const {
-        selectedEdge,
-        chapter,
-        day,
-    } = useViewStore(useShallow(state => {
-        let selectedEdge = state.selectedElement !== null && isEdge(state.selectedElement) ? state.selectedElement as FixedEdgeType : null;
+    const isMobile = useIsMobileViewport();
 
-        return {
-            selectedEdge: selectedEdge,
-            chapter: state.chapter,
-            day: state.day,
-        };
-    }));
+    const { selectedEdge, chapter, day } = useViewStore(
+        useShallow((state) => {
+            let selectedEdge =
+                state.selectedElement !== null && isEdge(state.selectedElement)
+                    ? (state.selectedElement as FixedEdgeType)
+                    : null;
+
+            return {
+                selectedEdge: selectedEdge,
+                chapter: state.chapter,
+                day: state.day,
+            };
+        }),
+    );
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -92,16 +93,15 @@ const EdgeCard = ({
     }
 
     function handleCardWidthChange(width: number) {
-        if (isCardOpen && !isMobileViewport()) {
+        if (isCardOpen && !isMobile) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     }
 
     function onReadChange(isRead: boolean) {
-        if(selectedEdge) {
+        if (selectedEdge) {
             setReadStatus(chapter, day, selectedEdge.id, isRead);
-        }
-        else {
+        } else {
             console.error("onReadChange called with null selectedEdge");
         }
     }
@@ -123,7 +123,10 @@ const EdgeCard = ({
     };
 
     const edgeRelationshipId = selectedEdge?.data?.relationshipId ?? null;
-    const edgeRelationship = edgeRelationshipId !== null ? chapterData.relationships[edgeRelationshipId] : null;
+    const edgeRelationship =
+        edgeRelationshipId !== null
+            ? chapterData.relationships[edgeRelationshipId]
+            : null;
 
     const renderContent =
         selectedEdge !== null &&

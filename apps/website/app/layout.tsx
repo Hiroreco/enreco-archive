@@ -1,6 +1,6 @@
 "use client";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import "@/index.css";
-import { isMobileViewport } from "@/lib/utils";
 import { useAudioSettingsSync } from "@/store/audioStore";
 import { FontSize, useSettingStore } from "@/store/settingStore";
 import { Libre_Franklin } from "next/font/google";
@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
     const [mounted, setMounted] = useState(false);
     const fontSize = useSettingStore((state) => state.fontSize);
-    const isMobile = isMobileViewport();
+    const isMobile = useIsMobileViewport();
 
     // Sync audio settings
     useAudioSettingsSync();

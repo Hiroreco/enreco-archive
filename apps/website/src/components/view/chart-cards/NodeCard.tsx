@@ -7,7 +7,7 @@ import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 import { ImageNodeType } from "@enreco-archive/common/types";
-import { isMobileViewport, isNode } from "@/lib/utils";
+import { isNode } from "@/lib/utils";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -29,6 +29,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 
 interface Props {
     isCardOpen: boolean;
@@ -55,19 +56,22 @@ const NodeCard = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    const {
-        selectedNode,
-        chapter,
-        day
-    } = useViewStore(useShallow(state => {
-        let selectedNode = state.selectedElement !== null && isNode(state.selectedElement) ? state.selectedElement as ImageNodeType : null;
+    const isMobile = useIsMobileViewport();
 
-        return {
-            selectedNode: selectedNode,
-            chapter: state.chapter,
-            day: state.day,
-        };
-    }));
+    const { selectedNode, chapter, day } = useViewStore(
+        useShallow((state) => {
+            let selectedNode =
+                state.selectedElement !== null && isNode(state.selectedElement)
+                    ? (state.selectedElement as ImageNodeType)
+                    : null;
+
+            return {
+                selectedNode: selectedNode,
+                chapter: state.chapter,
+                day: state.day,
+            };
+        }),
+    );
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -87,16 +91,15 @@ const NodeCard = ({
     }
 
     function handleCardWidthChange(width: number) {
-        if (isCardOpen && !isMobileViewport()) {
+        if (isCardOpen && !isMobile) {
             setChartShrink(width + 56); // Add 56px for the right margin
         }
     }
 
     function onReadChange(isRead: boolean) {
-        if(selectedNode) {
+        if (selectedNode) {
             setReadStatus(chapter, day, selectedNode.id, isRead);
-        }
-        else {
+        } else {
             console.error("onReadChange called with null selectedNode");
         }
     }
@@ -211,10 +214,7 @@ const NodeCard = ({
                             onDayChange={onDayChange}
                             availiableElements={availiableNodes}
                         />
-                        <CardUtilities
-                            chapter={chapter}
-                            node={selectedNode}
-                        />
+                        <CardUtilities chapter={chapter} node={selectedNode} />
                     </div>
                     <AnimatePresence mode="wait">
                         <motion.div

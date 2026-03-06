@@ -1,7 +1,14 @@
 "use client";
 
+import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
 import GlossaryApp from "@/components/view/glossary/GlossaryApp";
+import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
+import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
+import BingoApp from "@/components/view/minigames/bingo/BingoApp";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { LS_KEYS } from "@/lib/constants";
+import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { useViewStore } from "@/store/viewStore";
 import {
     Tabs,
@@ -12,18 +19,11 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
 import { Film, LibraryBig, Workflow } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
-import { usePersistedViewStore } from "@/store/persistedViewStore";
-import { LS_KEYS } from "@/lib/constants";
-import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
-import { isMobileViewport } from "@/lib/utils";
-import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
-import Image from "next/image";
-import BingoApp from "@/components/view/minigames/bingo/BingoApp";
 
 type AppType = "chart" | "glossary" | "archive" | "bingo";
 
@@ -50,7 +50,7 @@ export const ViewAppWrapper = () => {
     const openChangeLogModal = useViewStore(
         (state) => state.openChangeLogModal,
     );
-    const isMobile = isMobileViewport();
+    const isMobile = useIsMobileViewport();
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {

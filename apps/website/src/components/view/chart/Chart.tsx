@@ -17,17 +17,18 @@ import "@xyflow/react/dist/style.css";
 
 import CustomEdge from "@/components/view/chart/CustomEdge";
 import ImageNodeView from "@/components/view/chart/ImageNode";
+import { isEdge, isNode } from "@/lib/utils";
 import { useSettingStore } from "@/store/settingStore";
-import { CardType, useViewStore } from "@/store/viewStore";
+import { useViewStore } from "@/store/viewStore";
 import { memo, useCallback, useEffect, useMemo, useRef } from "react";
-import { isEdge, isMobileViewport, isNode } from "@/lib/utils";
 
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
-import "./Chart.css";
+import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { usePreviousValue } from "@/hooks/usePreviousValue";
 import { useShallow } from "zustand/react/shallow";
-import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
+import "./Chart.css";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
@@ -57,12 +58,15 @@ function findBottomRightNode(nodes: ImageNodeType[]) {
     return bottomRightNode;
 }
 
-function getFlowRendererWidth(widthToShrink: number) {
+function getFlowRendererWidth(
+    widthToShrink: number,
+    isMobileViewport: boolean,
+) {
     if (widthToShrink === 0) {
         return "100%";
     }
 
-    return isMobileViewport() ? "100%" : `calc(100% - ${widthToShrink}px)`;
+    return isMobileViewport ? "100%" : `calc(100% - ${widthToShrink}px)`;
 }
 
 const nodeTypes = {
@@ -74,7 +78,6 @@ const edgeTypes = {
 };
 
 // On mobile it's harder to zoom out, so we set a lower min zoom
-const minZoom = isMobileViewport() ? 0.3 : 0.5;
 // To limit the area where the user can pan
 const areaOffset = 1000;
 const initialFitViewOptions = { padding: 0.5, duration: 1000 };
@@ -93,13 +96,12 @@ function Chart({
     onEdgeClick,
     onPaneClick,
 }: Props) {
-    const {
-        selectedElement,
-        currentCard
-    } = useViewStore(useShallow((state) => ({
-        selectedElement: state.selectedElement,
-        currentCard: state.currentCard
-    })));
+    const { selectedElement, currentCard } = useViewStore(
+        useShallow((state) => ({
+            selectedElement: state.selectedElement,
+            currentCard: state.currentCard,
+        })),
+    );
 
     const { nodes, edges } = useCompleteChartData();
 
@@ -120,6 +122,8 @@ function Chart({
         },
         [fitView],
     );
+    const isMobile = useIsMobileViewport();
+    const minZoom = isMobile ? 0.3 : 0.5;
 
     useEffect(() => {
         function fitView() {
@@ -147,10 +151,7 @@ function Chart({
         }
 
         // If opening a new card, defer until resize, unless we're on mobile in which case resize immediately.
-        if (
-            isMobileViewport() ||
-            !(previousCard === null && currentCard !== null)
-        ) {
+        if (isMobile || !(previousCard === null && currentCard !== null)) {
             fitView();
         }
     }, [
@@ -211,7 +212,7 @@ function Chart({
         [renderDimly],
     );
     const newWidth = useMemo(
-        () => ({ width: getFlowRendererWidth(widthToShrink) }),
+        () => ({ width: getFlowRendererWidth(widthToShrink, isMobile) }),
         [widthToShrink],
     );
 
