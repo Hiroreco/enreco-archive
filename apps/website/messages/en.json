@@ -194,7 +194,7 @@
                     "previewDescription": "Preview how your bingo will look when downloaded",
                     "download": "Download",
                     "reset": "Clear",
-                    "previewNote": "Note: The downloaded image will fix issues with font size and text overflow.",
+                    "previewNote": "Note: If you are on mobile, the downloaded image will fix issues with font size and text overflow.",
                     "randomize": "Randomize",
                     "preset": "Use Presets",
                     "share": "Share",
