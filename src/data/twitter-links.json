@@ -87,7 +87,11 @@
     "chapter": 0,
     "day": 0,
     "characters": [
-      "bijou"
+      "bijou",
+      "gigi",
+      "kronii",
+      "ina",
+      "irys"
     ],
     "type": "art"
   },
@@ -151,6 +155,17 @@
     "url": "https://x.com/illust_asashi/status/1832805341958213738",
     "label": "\"The knight- Gonathon with the G\"",
     "author": "illust_asashi",
+    "chapter": 0,
+    "day": 0,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/ritorich_s/status/2028429491794489410",
+    "label": "\"Gonathon\"",
+    "author": "ritorich_s",
     "chapter": 0,
     "day": 0,
     "characters": [
@@ -2825,6 +2840,18 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/paw_chie/status/2027113579384840327",
+    "label": "\"Forget Me Not\"",
+    "author": "paw_chie",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "liz",
+      "nerissa"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/mikururun/status/1899107067182411936/photo/1",
     "label": "\"Peasant The Bae\"",
     "author": "mikururun",
@@ -4612,6 +4639,18 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/wan_m_i/status/2028532868084080641",
+    "label": "\"two sides of the same coin\"",
+    "author": "wan_m_i",
+    "chapter": 1,
+    "day": 4,
+    "characters": [
+      "gigi",
+      "liz"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/jhgardener_/status/1920897502833787226",
     "label": "\"humble knight more like fumble knight\"",
     "author": "jhgardener_",
@@ -6007,6 +6046,18 @@
     "url": "https://x.com/keiseeaaa/status/1986173104838877346",
     "label": "\"enreco s2 summary\"",
     "author": "keiseeaaa",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "liz",
+      "nerissa"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/meyshi29/status/2028747059525001333",
+    "label": "\"Will you keep your promise, Lady Bloodlfame?\"",
+    "author": "meyshi29",
     "chapter": 1,
     "day": 7,
     "characters": [
