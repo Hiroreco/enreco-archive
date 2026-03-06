@@ -26,3 +26,5 @@ Eventually, alongside Elizabeth Rose Bloodflame and NinoIna, he ventured into th
 ["The pain that Gonathon G carries" by Meyshi](https://x.com/Meyshi29/status/1833782799490601208)
 
 ["The knight- Gonathon with the G" by Asashi](https://x.com/illust_asashi/status/1832805341958213738)
+
+["Gonathon" by ritorich](https://x.com/ritorich_s/status/2028429491794489410)

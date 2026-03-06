@@ -16,3 +16,5 @@ While this was the end of Gonathon’s interactions with Liz for the day, it was
 ## Fanart
 
 ["My knight's armor- harm- knight's honor!" by floomf](https://x.com/fluumf/status/1920463783882891312)
+
+["two sides of the same coin" by wan](https://x.com/wan_m_i/status/2028532868084080641)

@@ -27,11 +27,11 @@ Gonathon later calls Cecilia and tells her not to talk to the princess yet and t
 
 Cecilia convenes with the Outlander and Princess but believes they are siblings and cannot be married. But this belief is dashed when Roa mentions that [love is love](https://www.youtube.com/live/Icdii90_vSA?t=19375s) which leaves Cecilia heartbroken and confused as the Outlander is still a potential love rival.
 
-Cecilia tries various attempts to [resolve](https://www.youtube.com/live/Icdii90_vSA?si=0cVW52wBSJBoDRwe&t=19554) the situation; however, she cannot rid herself of this world. Peasant the Bae and Tam Gandr [spend time](https://www.youtube.com/live/Icdii90_vSA?si=Z-WNC8IAZsHqyGHB) with Cecilia to help ease the hurricane of feelings in her chest.
+Cecilia tries various attempts to [resolve](https://www.youtube.com/live/Icdii90_vSA?si=0cVW52wBSJBoDRwe&t=19554) the situation; however, she cannot rid herself of this world. Peasant the Bae and Tam Gandr [spend time](https://www.youtube.com/watch?v=Icdii90_vSA&t=20489s) with Cecilia to help ease the hurricane of feelings in her chest.
 
 After a moment to clear her thoughts and a quick discussion with the princess where Tam Gandr and Cecilia share a [customary kiss](https://www.youtube.com/watch?v=Icdii90_vSA&t=21964s), Cecilia writes in her diary and realizes that maybe the princess' heart is better in the care of someone else.
 
-[Maybe she is to bloom with another](#embed:https://www.youtube.com/live/Icdii90_vSA?si=2442Iuml0kJwJFKa)
+[Maybe she is to bloom with another](#embed:https://www.youtube.com/watch?v=Icdii90_vSA&t=23346s)
 
 ## Fanart
 

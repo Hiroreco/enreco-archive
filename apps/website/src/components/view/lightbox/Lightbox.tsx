@@ -273,17 +273,19 @@ const Lightbox = ({
                     </DialogDescription>
 
                     {/* Blurred background */}
-                    <div className="absolute inset-0 -z-10">
-                        <Image
-                            src={blurBgSrc}
-                            alt=""
-                            fill
-                            priority={priority}
-                            className="object-cover blur-md opacity-30"
-                        />
+                    {blurBgSrc && (
+                        <div className="absolute inset-0 -z-10">
+                            <Image
+                                src={blurBgSrc}
+                                alt=""
+                                fill
+                                priority={priority}
+                                className="object-cover blur-md opacity-30"
+                            />
 
-                        <div className="absolute inset-0 bg-black/30" />
-                    </div>
+                            <div className="absolute inset-0 bg-black/30" />
+                        </div>
+                    )}
 
                     <button
                         onClick={() => handleOpenChange(false)}

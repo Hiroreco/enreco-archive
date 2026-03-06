@@ -7,8 +7,6 @@ Alas, it was not to be, for the zealous green one was dead set on remaining in t
 
 Shocked and humbled by Gonathon's display of sacrifice all for her own sake, Bae finally came to an epiphany: that it was not romantic love that she would live for, but her children and her happiness. Most of all, she now knew she would not be alone in this quest; she had something far more valuable than a maiden to whisper her sweet nothings: a brother, one who would stand by her to the ends of the earth itself. [Bae bequeathed the flowers](https://youtu.be/Br6dvhVJ_IE?t=5214) once meant for Immerkind to Gonathon, and the two exchanged a hearty, manly handshake. They vowed that no matter what, they would always be there for one another, as true brothers.
 
-Some time later, [Gonathon paid a visit to Bae's hole](https://youtu.be/Br6dvhVJ_IE?t=10130) and found the once spartan side room had been transformed into a lavish sanctuary for her children. It was here Bae told Gonathon that she would be leaving on a journey of self-discovery after this. These words touched Gonathon, and she too vowed to take up her own quest.
-
 And just as Bae cared for Cecilia, Gonathon cared, platonically, for Bae; the good knight following her without rest in a camaraderie few would ever have in this world. Through the waters, through Mordan Ramsey having the most atrocious timing in this dramatic moment, Gonathon was there. Gonathon blamed himself, but Bae couldn't bear that. Bae reassured Gonathon that they all knew Cecilia's lover for the Princess. Gonathon shouldn't carry a burden when the truth was known to all.
 
 [My Brother.](#embed:https://youtu.be/Br6dvhVJ_IE?t=5214)

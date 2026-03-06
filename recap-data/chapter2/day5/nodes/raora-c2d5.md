@@ -11,7 +11,7 @@ Roa later meets Tam Tenders, and they share an emotional moment where they reali
 
 [TAM TENDERS](#embed:https://www.youtube.com/live/iWSC8XgRlqA?t=10620)
 
-After several dungeon incursions, Roa faces the Outlander and defeats him with ease through the power of [GACHARMS: Tiny Treasures, Infinite Pleasure! (Not Sponsored)](https://www.youtube.com/live/iWSC8XgRlqA?si=nWta_aNHR5pl4-Wp&t=11532.).
+After several dungeon incursions, Roa faces the Outlander and defeats him with ease through the power of [GACHARMS: Tiny Treasures, Infinite Pleasure! (Not Sponsored)](https://www.youtube.com/live/iWSC8XgRlqA?si=nWta_aNHR5pl4-Wp&t=11532s).
 
 Roa, Irys, and Tam enter Bae's dungeon once again, where they spend time [untangling their complicated emotions and relationships while suffering through minigames](https://www.youtube.com/live/iWSC8XgRlqA?t=14740s), and Tam seeks forgiveness for only using Roa in hopes for a freebie (charms). Tammy seeks forgiveness and agrees to do anything in order to earn their forgiveness, even becoming a maid:
 

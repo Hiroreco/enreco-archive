@@ -214,3 +214,18 @@ export type EasterEggState = {
 };
 
 export type MediaType = "video" | "image" | "youtube";
+export type NewsCategory = "all" | "merch" | "event" | "media" | "showcase";
+
+export type NewsData = {
+    content: string;
+    date: string;
+    avatarSrc: string;
+    author: string;
+    media: {
+        type: MediaType;
+        src: string;
+    };
+    src: string;
+    chapter: number;
+    category: NewsCategory;
+};
