@@ -98,6 +98,7 @@ const BingoGame = () => {
         showFullBoardAlert,
         isBoardEmpty,
         isInPreviewMode,
+        winningIndices,
 
         setCurrentDay,
         setIsEditMode,
@@ -208,6 +209,7 @@ const BingoGame = () => {
                         marked={marked}
                         currentDay={currentDay}
                         showDay={showDay}
+                        winningIndices={winningIndices}
                         onShowDayChange={setShowDay}
                         onDownload={() => downloadBingo(exportRef)}
                         disabled={isInPreviewMode}
@@ -322,6 +324,7 @@ const BingoGame = () => {
                         board={board}
                         marked={marked}
                         downloadMode
+                        winningIndices={winningIndices}
                         currentDay={currentDay}
                         showDay={showDay}
                     />

@@ -18,6 +18,7 @@ interface BingoPreviewDialogProps {
     marked: boolean[];
     currentDay: string;
     showDay: boolean;
+    winningIndices?: Set<number>;
     onShowDayChange: (checked: boolean) => void;
     onDownload: () => void;
     disabled?: boolean;
@@ -28,6 +29,7 @@ const BingoPreviewDialog = ({
     marked,
     currentDay,
     showDay,
+    winningIndices,
     onShowDayChange,
     onDownload,
     disabled,
@@ -56,6 +58,7 @@ const BingoPreviewDialog = ({
                     marked={marked}
                     currentDay={currentDay}
                     showDay={showDay}
+                    winningIndices={winningIndices}
                 />
                 <p className="text-xs text-muted-foreground text-center">
                     {t("previewNote")}

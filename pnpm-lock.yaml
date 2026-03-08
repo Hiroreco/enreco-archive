@@ -280,8 +280,8 @@ importers:
         specifier: ^2.2.4
         version: 2.2.4
       html2canvas-pro:
-        specifier: ^1.6.5
-        version: 1.6.5
+        specifier: ^2.0.2
+        version: 2.0.2
       immer:
         specifier: 'catalog:'
         version: 10.1.1
@@ -3982,8 +3982,8 @@ packages:
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
 
-  html2canvas-pro@1.6.5:
-    resolution: {integrity: sha512-Ot3UpUpzQFkJoKmwAcGzwdGhNNlBSlVQV32RY/i5JABOFXGbkHGKkbSotCY3ePKx1Xua3FWsROR54PUW9X/2Qg==}
+  html2canvas-pro@2.0.2:
+    resolution: {integrity: sha512-9G/t0XgCZWonLwL0JwI7su6NdbOPUY7Ur4Ihpp8+XMaW9ibA2nDXF181Jr6tm94k8lX6sthpaXB3XqEnsMd5Cw==}
     engines: {node: '>=16.0.0'}
 
   http-errors@2.0.0:
@@ -10093,7 +10093,7 @@ snapshots:
 
   html-void-elements@3.0.0: {}
 
-  html2canvas-pro@1.6.5:
+  html2canvas-pro@2.0.2:
     dependencies:
       css-line-break: 2.1.0
       text-segmentation: 1.0.3
