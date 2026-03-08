@@ -1,5 +1,4 @@
 import BingoDaySelector from "@/components/view/minigames/bingo/BingoDaySelector";
-import BingoDaySwitchAlert from "@/components/view/minigames/bingo/BingoDaySwitchAlert";
 import BingoEditor from "@/components/view/minigames/bingo/BingoEditor";
 import BingoExport from "@/components/view/minigames/bingo/BingoExport";
 import BingoFullBoardAlert from "@/components/view/minigames/bingo/BingoFullBoardAlert";
@@ -10,7 +9,6 @@ import BingoPreviewModeControls from "@/components/view/minigames/bingo/BingoPre
 import BingoResetDialog from "@/components/view/minigames/bingo/BingoResetDialog";
 import BingoShareDialog from "@/components/view/minigames/bingo/BingoShareDialog";
 import { useBingoGame } from "@/components/view/minigames/bingo/useBingoGame";
-import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Download } from "lucide-react";
 import { useTranslations } from "next-intl";
