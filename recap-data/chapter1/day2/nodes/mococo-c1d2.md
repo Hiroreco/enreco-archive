@@ -15,7 +15,7 @@ Elizabeth and Fuwawa exchanged worried glances as Mococo gleefully held her moun
 
 [68 tickets please!](#embed:https://www.youtube.com/live/0rhoyO69kAQ?t=923)
 
-With their detour to FaunaMart complete, the group returned to focus on their goal: the _Ocean Temple Dungeon_. They regrouped with Shakira and Raora, their companions for the dungeon conquest. Upon learning of Mococo’s excessive ticket-buying spree, Shakira couldn’t help but question her [decision](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=2368). Mococo was unbothered—she was determined that her decision was anything but wrong.
+With their detour to FaunaMart complete, the group returned to focus on their goal: the _Ocean Temple Dungeon_. They regrouped with Shakira and Raora, their companions for the dungeon conquest. Upon learning of Mococo’s excessive ticket-buying spree, Shakira couldn’t help but question her decision. Mococo was unbothered—she was determined that her decision was anything but wrong.
 
 [Why did you buy so much...?](#embed:https://www.youtube.com/live/0rhoyO69kAQ?t=2365)
 

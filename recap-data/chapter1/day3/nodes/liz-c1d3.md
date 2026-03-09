@@ -11,7 +11,7 @@ Thrown into this journey, devoid of memories, she had made new comrades and forg
 
 [3am thoughts](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=612)
 
-This inner thought lingered for a moment, but Elizabeth quickly shook it off, pumping herself up for the fourth day of her adventure.
+This inner thought lingered for a moment, but Elizabeth quickly shook it off, pumping herself up for the third day of her adventure.
 
 Elizabeth made her way to the quest board in search of more tasks. There, she was greeted by Nerissa, and to her dismay, she became a complete mess in front of the raven-haired lady. Elizabeth had been feeling "weird" whenever she was around Nerissa, but she couldn’t quite figure out what the feeling was (see [Elizabeth-Nerissa: Beautiful Maiden](#edge:liz-nerissa)).
 
