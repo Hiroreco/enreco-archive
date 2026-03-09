@@ -7,7 +7,7 @@ While everyone around her was confused and panicking—grappling with the fact t
 
 And with that self-appointed title came great responsibility: explaining to the others what was happening, what to do, and how to go about it. You know, main character things. She carried herself with pride... which only made the looks she got from others more awkward—especially after she loudly introduced herself as _Mordan Ramsey_.
 
-Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Shining Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordan Ramsey was here to cook, and cook she shall.
+Regardless, her new journey had to begin. Having been a cook before, it was no surprise that Calli chose to become a [chef](https://www.youtube.com/live/aqhG1kmmkec?si=vJIwAPJzVnd5H6Yo&t=1666) again. As for the world-saving stuff—how she was one of the “Shining Stars” destined to rescue the universe? Yeah, no one really cared about that. Mordan Ramsey was here to _cook_, and cook she shall.
 
 She quickly befriended her new (or were they old?) comrades, including the likes of Gonathon (see [Calli-Gonathon: My Dawg](#edge:calli-gigi)). She had a lot of “dawgs.” She formed bonds with [fellow chefs](https://www.youtube.com/live/aqhG1kmmkec?si=3GeaCgPBFqQL-cAU&t=3179), started questing, and got used to the mechanics of the new kingdom.
 
