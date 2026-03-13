@@ -52,6 +52,7 @@ const BingoExport = ({
 
                             return (
                                 <BingoShatterCell
+                                    key={index}
                                     cellIndex={index}
                                     shattered={
                                         winningIndices?.has(index) ?? false
