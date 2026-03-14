@@ -18,8 +18,8 @@ const BingoApp = () => {
 
     return (
         <div className="w-screen flex flex-col items-center justify-center overflow-hidden h-dvh">
-            <div className="relative px-4 flex flex-col w-full max-w-4xl bg-background/60 backdrop-blur-2xl md:rounded-lg p-4">
-                <div className="pb-2 text-center">
+            <div className="relative px-4 flex flex-col justify-center w-full md:h-auto h-full max-w-4xl bg-background/60 backdrop-blur-2xl md:rounded-lg p-4 md:pt-4 pt-14">
+                <div className="pb-2 text-center md:block hidden">
                     <h2 className="text-lg font-semibold">{t("label")}</h2>
                     <p className="text-sm text-muted-foreground">{t("desc")}</p>
                 </div>

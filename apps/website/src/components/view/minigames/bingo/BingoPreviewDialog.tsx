@@ -13,6 +13,9 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Download, Eye } from "lucide-react";
 import { useTranslations } from "next-intl";
+import BingoMarkerSelector from "@/components/view/minigames/bingo/BingoMarkerSelector";
+import BingoWinSelector from "@/components/view/minigames/bingo/BingoWinSelector";
+import { useSettingStore } from "@/store/settingStore";
 
 interface BingoPreviewDialogProps {
     board: string[];
@@ -37,6 +40,12 @@ const BingoPreviewDialog = ({
 }: BingoPreviewDialogProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
     const isMobile = useIsMobileViewport();
+    const {
+        bingoMarkerStyle,
+        setBingoMarkerStyle,
+        bingoWinStyle,
+        setBingoWinStyle,
+    } = useSettingStore();
 
     return (
         <Dialog>
@@ -48,7 +57,7 @@ const BingoPreviewDialog = ({
             </DialogTrigger>
             {!isMobile && (
                 <DialogContent
-                    className="flex-row md:max-w-none md:w-max bg-transparent border-0 items-center justify-center px-1 max-h-[90dvh] gap-2 hidden md:flex"
+                    className="flex-row md:max-w-none md:w-max bg-transparent border-0 items-center justify-center px-1 md:max-h-[90dvh] gap-2 hidden md:flex"
                     style={{ backgroundImage: "none" }}
                 >
                     <VisuallyHidden>
@@ -70,6 +79,14 @@ const BingoPreviewDialog = ({
                     </div>
 
                     <div className="flex flex-col gap-4 max-w-70 bg-blur p-4 rounded-md">
+                        <BingoMarkerSelector
+                            value={bingoMarkerStyle}
+                            onValueChange={setBingoMarkerStyle}
+                        />
+                        <BingoWinSelector
+                            value={bingoWinStyle}
+                            onValueChange={setBingoWinStyle}
+                        />
                         <p className="text-xs text-muted-foreground text-center">
                             {t("previewNote")}
                         </p>
@@ -115,6 +132,17 @@ const BingoPreviewDialog = ({
                         showDay={showDay}
                         winningIndices={winningIndices}
                     />
+                    <div className="flex gap-2">
+                        <BingoMarkerSelector
+                            value={bingoMarkerStyle}
+                            onValueChange={setBingoMarkerStyle}
+                        />
+                        <BingoWinSelector
+                            value={bingoWinStyle}
+                            onValueChange={setBingoWinStyle}
+                        />
+                    </div>
+
                     <p className="text-xs text-muted-foreground text-center">
                         {t("previewNote")}
                     </p>

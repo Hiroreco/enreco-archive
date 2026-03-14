@@ -2,6 +2,8 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 import { ThemeType } from "@enreco-archive/common/types";
+import type { BingoMarkerStyle } from "@/components/view/minigames/bingo/BingoMarkerSelector";
+import type { BingoWinStyle } from "@/components/view/minigames/bingo/BingoWinSelector";
 
 export type BackdropFilter = "blur" | "clear";
 export type FontSize = "small" | "medium" | "large" | "xlarge";
@@ -38,9 +40,15 @@ interface SettingState {
 
     _hasHydrated: boolean;
     setHasHydrated: (hasHydrated: boolean) => void;
-    
+
     latestNewsDate: string;
     setLatestNewsDate: (dateIso: string) => void;
+
+    bingoMarkerStyle: BingoMarkerStyle;
+    setBingoMarkerStyle: (markerStyle: BingoMarkerStyle) => void;
+
+    bingoWinStyle: BingoWinStyle;
+    setBingoWinStyle: (winStyle: BingoWinStyle) => void;
 }
 
 // Persists state in local storage
@@ -75,10 +83,19 @@ export const useSettingStore = create<SettingState>()(
             setLocale: (language: Locale) => set({ locale: language }),
 
             latestNewsDate: "2026-01-01T00:00:00.000Z",
-            setLatestNewsDate: (dateIso: string) => set({ latestNewsDate: dateIso }),
+            setLatestNewsDate: (dateIso: string) =>
+                set({ latestNewsDate: dateIso }),
 
             embedType: "card",
             setEmbedType: (embedType: EmbedType) => set({ embedType }),
+
+            bingoMarkerStyle: "emblem",
+            setBingoMarkerStyle: (bingoMarkerStyle: BingoMarkerStyle) =>
+                set({ bingoMarkerStyle }),
+
+            bingoWinStyle: "crack",
+            setBingoWinStyle: (bingoWinStyle: BingoWinStyle) =>
+                set({ bingoWinStyle }),
 
             _hasHydrated: false,
             setHasHydrated: (hasHydrated: boolean) =>
