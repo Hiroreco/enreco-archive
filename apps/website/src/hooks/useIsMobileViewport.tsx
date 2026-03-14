@@ -5,11 +5,13 @@ function useIsMobileViewport(): boolean {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        // Set initial value
-        const isMobileViewportValue = isMobileViewport();
-        setIsMobile(isMobileViewportValue);
+        const handleResize = () => {
+            setIsMobile(isMobileViewport());
+        };
 
-        const handleResize = () => setIsMobile(isMobileViewportValue);
+        // Set initial value
+        handleResize();
+
         window.addEventListener("resize", handleResize);
 
         return () => window.removeEventListener("resize", handleResize);

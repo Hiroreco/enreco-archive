@@ -20,10 +20,8 @@ interface BingoShareDialogProps {
 // gzip + base64 (URL-safe optional)
 export const compressBoardData = async (board: string[]): Promise<string> => {
     const json = JSON.stringify(board);
-    console.log(json);
     const encoder = new TextEncoder();
     const data = encoder.encode(json);
-    console.log(data);
 
     const cs = new CompressionStream("gzip");
     const writer = cs.writable.getWriter();
