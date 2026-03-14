@@ -296,6 +296,7 @@ const BingoGame = () => {
                         marked={marked}
                         currentDay={currentDay}
                         showDay={showDay}
+                        winningIndices={winningIndices}
                         onShowDayChange={setShowDay}
                         onDownload={() => downloadBingo(exportRef)}
                         disabled={isInPreviewMode}
