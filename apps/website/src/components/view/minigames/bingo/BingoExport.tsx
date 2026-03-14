@@ -45,12 +45,19 @@ const BingoExport = ({
                 )}
                 style={{
                     containerType: "size",
-                    ...(isWinningCell &&
-                        bingoWinStyle === "outline" && {
-                            border: "3px solid #fde047",
-                        }),
                 }}
             >
+                {isWinningCell && bingoWinStyle === "outline" && (
+                    <div
+                        style={{
+                            position: "absolute",
+                            inset: 0,
+                            border: "3px solid #fde047",
+                            zIndex: 10,
+                            pointerEvents: "none",
+                        }}
+                    />
+                )}
                 <Image
                     alt=""
                     src={
