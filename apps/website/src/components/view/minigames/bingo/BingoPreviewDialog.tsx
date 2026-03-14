@@ -4,6 +4,7 @@ import { Button } from "@enreco-archive/common-ui/components/button";
 import { Checkbox } from "@enreco-archive/common-ui/components/checkbox";
 import {
     Dialog,
+    DialogClose,
     DialogContent,
     DialogDescription,
     DialogHeader,
@@ -57,8 +58,10 @@ const BingoPreviewDialog = ({
             </DialogTrigger>
             {!isMobile && (
                 <DialogContent
-                    className="flex-row md:max-w-none md:w-max bg-transparent border-0 items-center justify-center px-1 md:max-h-[90dvh] gap-2 hidden md:flex"
+                    className="bg-transparent border-0 p-0 max-w-none w-screen h-screen flex items-center justify-center gap-2"
                     style={{ backgroundImage: "none" }}
+                    onPointerDownOutside={(e) => e.preventDefault()}
+                    onInteractOutside={(e) => e.preventDefault()}
                 >
                     <VisuallyHidden>
                         <DialogHeader>
@@ -68,7 +71,16 @@ const BingoPreviewDialog = ({
                             </DialogDescription>
                         </DialogHeader>
                     </VisuallyHidden>
-                    <div className="bg-blur p-2 rounded-md">
+
+                    {/* Invisible full-screen closer behind the panels */}
+                    <DialogClose asChild>
+                        <div className="fixed inset-0 -z-10 cursor-default" />
+                    </DialogClose>
+
+                    <div
+                        className="bg-blur p-2 rounded-md"
+                        onClick={(e) => e.stopPropagation()}
+                    >
                         <BingoExport
                             board={board}
                             marked={marked}
@@ -78,7 +90,10 @@ const BingoPreviewDialog = ({
                         />
                     </div>
 
-                    <div className="flex flex-col gap-4 max-w-70 bg-blur p-4 rounded-md">
+                    <div
+                        className="flex flex-col gap-4 max-w-70 bg-blur p-4 rounded-md"
+                        onClick={(e) => e.stopPropagation()}
+                    >
                         <BingoMarkerSelector
                             value={bingoMarkerStyle}
                             onValueChange={setBingoMarkerStyle}
