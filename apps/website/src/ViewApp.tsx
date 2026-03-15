@@ -619,12 +619,26 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
                 {!hasDismissedBingoIndicator && (
-                    <BingoIndicator className="md:hidden fixed bottom-18 left-1/2 h-30 -translate-x-1/2 opacity-60" />
+                    <BingoIndicator
+                        className={cn(
+                            "md:hidden fixed bottom-18 left-1/2 h-30 w-auto -translate-x-1/2 opacity-60",
+                            {
+                                invisible: currentCard !== null,
+                            },
+                        )}
+                    />
                 )}
             </div>
 
             {!hasDismissedBingoIndicator && (
-                <BingoIndicator className="md:block hidden fixed bottom-0 right-0 translate-y-1/4 h-40" />
+                <BingoIndicator
+                    className={cn(
+                        "md:block hidden fixed bottom-0 left-0 translate-y-1/4 h-40",
+                        {
+                            invisible: currentCard !== null,
+                        },
+                    )}
+                />
             )}
         </>
     );
