@@ -7,6 +7,7 @@ import { BINGO_MARKER_IMAGE_MAP } from "@/components/view/minigames/bingo/BingoM
 import { useSettingStore } from "@/store/settingStore";
 import { BingoWinStyle } from "@/components/view/minigames/bingo/BingoWinSelector";
 import BingoWinLines from "@/components/view/minigames/bingo/BingoWinLines";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 
 interface BingoExportProps {
     board: string[];
@@ -27,6 +28,7 @@ const BingoExport = ({
 }: BingoExportProps) => {
     const t = useTranslations("common");
     const { bingoMarkerStyle, bingoWinStyle } = useSettingStore();
+    const isMobile = useIsMobileViewport();
 
     const cellContent = (index: number) => {
         const text = board[index];
@@ -154,15 +156,10 @@ const BingoExport = ({
                         <>
                             <BingoWinLines
                                 marked={marked}
-                                cellSize={96}
+                                cellSize={
+                                    isMobile ? (downloadMode ? 96 : 60) : 96
+                                }
                                 gap={4}
-                                className="hidden md:block"
-                            />
-                            <BingoWinLines
-                                marked={marked}
-                                cellSize={70}
-                                gap={4}
-                                className="block md:hidden"
                             />
                         </>
                     )}

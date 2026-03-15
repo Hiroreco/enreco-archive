@@ -120,8 +120,13 @@ const BingoShatterCell = ({
     if (!shattered) return <>{children}</>;
 
     return (
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
-            {/* Void — shows in the cracks */}
+        <div
+            style={{
+                position: "relative",
+                width: "fit-content",
+                height: "fit-content",
+            }}
+        >
             <div
                 style={{
                     position: "absolute",
@@ -129,8 +134,6 @@ const BingoShatterCell = ({
                     background: "transparent",
                 }}
             />
-
-            {/* One copy of the cell per shard, each clipped to its polygon */}
             {shards.map((clipPath, i) => (
                 <div
                     key={i}
@@ -143,6 +146,8 @@ const BingoShatterCell = ({
                     {children}
                 </div>
             ))}
+            {/* Render one copy normally to size the wrapper, then hide it */}
+            <div style={{ visibility: "hidden" }}>{children}</div>
         </div>
     );
 };
