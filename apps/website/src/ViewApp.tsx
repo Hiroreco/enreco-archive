@@ -630,16 +630,16 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 )}
             </div>
 
-            {!hasDismissedBingoIndicator && (
-                <BingoIndicator
-                    className={cn(
-                        "md:block hidden fixed bottom-0 left-0 translate-y-1/4 h-40",
-                        {
-                            invisible: currentCard !== null,
-                        },
-                    )}
-                />
-            )}
+            {/* {!hasDismissedBingoIndicator && ( */}
+            <BingoIndicator
+                className={cn(
+                    "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 h-40",
+                    {
+                        invisible: currentCard !== null,
+                    },
+                )}
+            />
+            {/* )} */}
         </>
     );
 };
