@@ -60,7 +60,9 @@ const getInitialShowDay = (): boolean => {
 
 const getInitialAllMarked = (): DayMarked => {
     if (typeof window === "undefined") {
-        return { "1": Array(25).fill(false) };
+        const blankMarked = Array(25).fill(false);
+        blankMarked[12] = true; // Free space is marked by default
+        return { "1": blankMarked };
     }
 
     const savedMarked = localStorage.getItem(LS_KEYS.BINGO_ALL_MARKED);
@@ -71,7 +73,9 @@ const getInitialAllMarked = (): DayMarked => {
             console.error("Failed to parse saved marked:", e);
         }
     }
-    return { "1": Array(25).fill(false) };
+    const blankMarked = Array(25).fill(false);
+    blankMarked[12] = true; // Free space is marked by default
+    return { "1": blankMarked };
 };
 
 export const useBingoGame = () => {
