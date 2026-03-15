@@ -34,10 +34,10 @@ const BingoWinSelector = ({
             onValueChange={(v) => onValueChange(v as BingoWinStyle)}
             disabled={disabled}
         >
-            <SelectTrigger className="w-full min-w-28">
+            <SelectTrigger className="w-full min-w-28 bg-blur">
                 <SelectValue />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-blur">
                 {BINGO_WIN_OPTIONS.map((option) => (
                     <SelectItem key={option.value} value={option.value}>
                         {option.label}

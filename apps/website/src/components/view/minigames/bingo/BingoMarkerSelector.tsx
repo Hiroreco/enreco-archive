@@ -49,10 +49,10 @@ const BingoMarkerSelector = ({
             onValueChange={(v) => onValueChange(v as BingoMarkerStyle)}
             disabled={disabled}
         >
-            <SelectTrigger className="w-full min-w-36">
+            <SelectTrigger className="w-full min-w-36 bg-blur">
                 <SelectValue />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-blur">
                 {BINGO_MARKER_OPTIONS.map((option) => (
                     <SelectItem key={option.value} value={option.value}>
                         {option.label}

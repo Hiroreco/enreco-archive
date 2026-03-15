@@ -106,22 +106,19 @@ const BingoPreviewDialog = ({
                             {t("previewNote")}
                         </p>
                         <div className="flex items-center justify-center gap-4">
-                            <label
-                                htmlFor="showday"
-                                className="flex items-center gap-1 border rounded px-2 py-1.5"
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                className="bg-blur gap-2"
+                                onClick={() => onShowDayChange(!showDay)}
                             >
                                 <Checkbox
                                     id="showday"
                                     checked={showDay}
-                                    onCheckedChange={
-                                        onShowDayChange as (
-                                            checked: boolean,
-                                        ) => void
-                                    }
                                     className="size-4 cursor-pointer"
                                 />
                                 <span className="text-sm">{t("showDay")}</span>
-                            </label>
+                            </Button>
                             <Button size="sm" onClick={onDownload}>
                                 <Download className="size-4 mr-2" />
                                 {t("download")}
