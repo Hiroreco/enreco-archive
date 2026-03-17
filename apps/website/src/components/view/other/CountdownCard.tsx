@@ -1,6 +1,9 @@
+import { usePersistedViewStore } from "@/store/persistedViewStore";
+import { useViewStore } from "@/store/viewStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import { ChevronLeft, Twitter } from "lucide-react";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 
 const TARGET_DATE = new Date("2026-03-24T20:00:00+09:00");
 
@@ -17,103 +20,100 @@ function getTimeLeft(target: Date) {
     return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
-const AUTO_CLOSE_DELAY_MS = 3000;
-const HOVER_LEAVE_CLOSE_DELAY_MS = 1500;
+interface CountdownCardProps {
+    isInLoadingScreen: boolean;
+}
 
-const CountdownCard = () => {
+const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     const [isOpen, setIsOpen] = useState(false);
-    const [isVisible, setIsVisible] = useState(false);
     const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(TARGET_DATE));
-    const autoCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(
-        null,
+    const currentCard = useViewStore((state) => state.currentCard);
+    const hasVisitedBefore = usePersistedViewStore(
+        (state) => state.hasVisitedBefore,
     );
-    const hoverLeaveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(
-        null,
-    );
-    const isHoveringRef = useRef(false);
+    const hasDoneInitialSequence = useRef(false);
+    const cardRef = useRef<HTMLDivElement>(null);
 
-    // Mount then slide in
+    // Initial open-then-close sequence
     useEffect(() => {
-        setIsVisible(true);
-        const openTimer = setTimeout(() => setIsOpen(true), 300);
-        return () => clearTimeout(openTimer);
-    }, []);
+        if (
+            !isInLoadingScreen &&
+            hasVisitedBefore &&
+            !hasDoneInitialSequence.current
+        ) {
+            hasDoneInitialSequence.current = true;
+            const openTimer = setTimeout(() => {
+                setIsOpen(true);
+                const closeTimer = setTimeout(() => setIsOpen(false), 3000);
+                return () => clearTimeout(closeTimer);
+            }, 0);
+            return () => clearTimeout(openTimer);
+        }
+    }, [isInLoadingScreen, hasVisitedBefore]);
 
-    // Auto-close after delay if not hovering
     useEffect(() => {
-        if (!isOpen) return;
-        autoCloseTimerRef.current = setTimeout(() => {
-            if (!isHoveringRef.current) {
+        function handleClickOutside(event: MouseEvent) {
+            if (
+                cardRef.current &&
+                !cardRef.current.contains(event.target as Node)
+            ) {
                 setIsOpen(false);
             }
-        }, AUTO_CLOSE_DELAY_MS);
+        }
+        if (isOpen) {
+            document.addEventListener("mousedown", handleClickOutside);
+        }
         return () => {
-            if (autoCloseTimerRef.current)
-                clearTimeout(autoCloseTimerRef.current);
+            document.removeEventListener("mousedown", handleClickOutside);
         };
     }, [isOpen]);
 
     useEffect(() => {
+        if (!timeLeft) return;
         const interval = setInterval(() => {
-            setTimeLeft(getTimeLeft(TARGET_DATE));
+            const newTimeLeft = getTimeLeft(TARGET_DATE);
+            setTimeLeft(newTimeLeft);
+            if (!newTimeLeft) clearInterval(interval);
         }, 1000);
         return () => clearInterval(interval);
-    }, []);
+    }, [timeLeft]);
 
-    const handleMouseEnter = useCallback(() => {
-        isHoveringRef.current = true;
-        if (autoCloseTimerRef.current) clearTimeout(autoCloseTimerRef.current);
-        if (hoverLeaveTimerRef.current)
-            clearTimeout(hoverLeaveTimerRef.current);
-    }, []);
-
-    const handleMouseLeave = useCallback(() => {
-        isHoveringRef.current = false;
-        hoverLeaveTimerRef.current = setTimeout(() => {
-            setIsOpen(false);
-        }, HOVER_LEAVE_CLOSE_DELAY_MS);
-    }, []);
-
-    const handleOpen = useCallback(() => {
-        setIsOpen(true);
-    }, []);
-
-    if (!isVisible || !timeLeft) return null;
+    if (!timeLeft) return null;
 
     return (
-        <div className="fixed bottom-8 right-0 z-50 flex items-center">
-            {/* Opener tab (shown when card is closed) */}
-            <button
+        <div
+            ref={cardRef}
+            className={cn(
+                "transition-opacity fixed bottom-24 right-0 z-50 flex items-center",
+                {
+                    "pointer-events-none opacity-0":
+                        currentCard !== null || isInLoadingScreen,
+                },
+                { "opacity-100": currentCard === null && !isInLoadingScreen },
+            )}
+        >
+            <motion.div
                 className={cn(
-                    "flex items-center justify-center h-10 w-6 rounded-l-md fixed bottom-10 right-0",
-                    "bg-background/90 border border-r-0 border-border text-foreground shadow-md",
-                    "hover:bg-accent hover:text-accent-foreground transition-all duration-300",
-                    {
-                        "opacity-100 pointer-events-auto": !isOpen,
-                        "opacity-0 pointer-events-none": isOpen,
-                    },
-                )}
-                onClick={handleOpen}
-                aria-label="Open countdown"
-            >
-                <ChevronLeft className="w-4 h-4" />
-            </button>
-
-            {/* Card */}
-            <div
-                className={cn(
-                    "flex flex-col gap-1 px-4 py-3 rounded-l-xl min-w-[220px]",
-                    "bg-background/90 backdrop-blur-sm border border-border shadow-lg",
+                    "flex flex-col gap-1 pl-8 pr-4 py-3 rounded-l-xl min-w-[220px]",
+                    "bg-background/90 backdrop-blur-sm border border-r-0 border-border shadow-lg",
                     "text-foreground text-sm",
-                    "transition-transform duration-500 ease-in-out",
-                    {
-                        "translate-x-0": isOpen,
-                        "translate-x-full": !isOpen,
-                    },
                 )}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
+                initial={{ x: "100%" }}
+                animate={{ x: isOpen ? 0 : "calc(100% - 24px)" }} // Keep opener visible
+                transition={{ type: "spring", damping: 25, stiffness: 200 }}
             >
+                {/* Closer Button (part of the card) */}
+                <motion.button
+                    className="absolute top-0 left-0 h-full w-8 flex items-center justify-center rounded-l-md"
+                    onClick={() => setIsOpen(false)}
+                    aria-label="Close countdown"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: isOpen ? 1 : 0 }}
+                    transition={{ delay: isOpen ? 0.1 : 0 }}
+                >
+                    <ChevronRight className="size-5" />
+                </motion.button>
+
                 <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
                     Next update in
                 </p>
@@ -126,7 +126,6 @@ const CountdownCard = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors mt-1"
                 >
-                    <Twitter className="w-3 h-3 shrink-0" />
                     <span>
                         For announcements, check{" "}
                         <span className="underline underline-offset-2">
@@ -134,7 +133,22 @@ const CountdownCard = () => {
                         </span>
                     </span>
                 </a>
-            </div>
+            </motion.div>
+
+            <AnimatePresence>
+                {!isOpen && (
+                    <motion.button
+                        className="absolute top-0 right-0 h-full w-8 flex items-center justify-center z-0"
+                        onClick={() => setIsOpen(true)}
+                        aria-label="Open countdown"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                    >
+                        <ChevronLeft className="size-5" />
+                    </motion.button>
+                )}
+            </AnimatePresence>
         </div>
     );
 };
