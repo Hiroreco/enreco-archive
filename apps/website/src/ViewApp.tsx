@@ -15,7 +15,7 @@ import MiniGameModal from "@/components/view/minigames/MiniGameModal";
 import SettingsModal from "@/components/view/utility-modals/SettingsModal";
 import VideoModal from "@/components/view/utility-modals/VideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
-import { useClickOutside } from "@/hooks/useClickOutsite";
+import { useClickOutside } from "@/hooks/useClickOutside";
 import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
@@ -51,6 +51,7 @@ import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
 import NewsModal from "@/components/view/basic-modals/NewsModal";
 import newsDataEn from "#/news.json";
 import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
+import CountdownCard from "@/components/view/other/CountdownCard";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -630,16 +631,17 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 )}
             </div>
 
-            {/* {!hasDismissedBingoIndicator && ( */}
-            <BingoIndicator
-                className={cn(
-                    "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 h-40",
-                    {
-                        invisible: currentCard !== null,
-                    },
-                )}
-            />
-            {/* )} */}
+            {!hasDismissedBingoIndicator && (
+                <BingoIndicator
+                    className={cn(
+                        "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 h-40",
+                        {
+                            invisible: currentCard !== null,
+                        },
+                    )}
+                />
+            )}
+            <CountdownCard isInLoadingScreen={isInLoadingScreen} />
         </>
     );
 };

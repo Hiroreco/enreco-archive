@@ -5,7 +5,17 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-const TARGET_DATE = new Date("2026-03-24T20:00:00+09:00");
+// TODO: Update target date/time later
+const now = new Date();
+const TARGET_DATE = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate() + 1,
+    0,
+    0,
+    0,
+    0,
+);
 
 function getTimeLeft(target: Date) {
     const now = new Date();
@@ -27,42 +37,46 @@ interface CountdownCardProps {
 const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(TARGET_DATE));
+
     const currentCard = useViewStore((state) => state.currentCard);
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
     );
+    const hasDismissedBingoIndicator = usePersistedViewStore(
+        (state) => state.hasDismissedBingoIndicator,
+    );
+    const appType = useViewStore((state) => state.appType);
     const hasDoneInitialSequence = useRef(false);
     const cardRef = useRef<HTMLDivElement>(null);
 
+    // TODO: Only render the initial sequence once on EACH DAY/EACH NEW UPDATE
     // Initial open-then-close sequence
     useEffect(() => {
         if (
             !isInLoadingScreen &&
             hasVisitedBefore &&
-            !hasDoneInitialSequence.current
+            !hasDoneInitialSequence.current &&
+            hasDismissedBingoIndicator
         ) {
             hasDoneInitialSequence.current = true;
-            const openTimer = setTimeout(() => {
-                setIsOpen(true);
-                const closeTimer = setTimeout(() => setIsOpen(false), 3000);
-                return () => clearTimeout(closeTimer);
-            }, 0);
-            return () => clearTimeout(openTimer);
+            setIsOpen(true);
+            const closeTimer = setTimeout(() => setIsOpen(false), 5000);
+            return () => clearTimeout(closeTimer);
         }
     }, [isInLoadingScreen, hasVisitedBefore]);
 
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
             if (
+                isOpen &&
                 cardRef.current &&
                 !cardRef.current.contains(event.target as Node)
             ) {
                 setIsOpen(false);
             }
         }
-        if (isOpen) {
-            document.addEventListener("mousedown", handleClickOutside);
-        }
+
+        document.addEventListener("mousedown", handleClickOutside);
         return () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
@@ -78,7 +92,13 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
         return () => clearInterval(interval);
     }, [timeLeft]);
 
-    if (!timeLeft) return null;
+    if (
+        !hasVisitedBefore ||
+        !hasDismissedBingoIndicator ||
+        appType !== "chart"
+    ) {
+        return null;
+    }
 
     return (
         <div
@@ -115,16 +135,22 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
                 </motion.button>
 
                 <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
-                    Next update in
+                    {timeLeft ? "Next update in" : "Next update"}
                 </p>
-                <p className="text-2xl font-mono font-bold tracking-widest text-center tabular-nums">
-                    {timeLeft}
+                <p
+                    className={cn(
+                        "font-mono font-bold tracking-widest text-center md:max-w-[400px] max-w-full",
+                        timeLeft ? "text-2xl tabular-nums" : "text-sm",
+                    )}
+                >
+                    {timeLeft ??
+                        "Should be out now (Ctrl + R) — if not, please be patient 🙏"}
                 </p>
                 <a
                     href="https://twitter.com/hiroavrs"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors mt-1"
+                    className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors mt-1 mx-auto visited:text-muted-foreground!"
                 >
                     <span>
                         For announcements, check{" "}
