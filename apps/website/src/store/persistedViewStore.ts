@@ -20,6 +20,9 @@ interface PersistedViewStore {
     hasDismissedBingoIndicator: boolean;
     setHasDismissedBingoIndicator: (newVal: boolean) => void;
 
+    countdownUpdateVersion: string | null;
+    setCountdownUpdateVersion: (version: string) => void;
+
     readStatus: ReadStore;
     setReadStatus: (
         chapter: number,
@@ -29,7 +32,12 @@ interface PersistedViewStore {
     ) => void;
 }
 
-export function getReadStatus(readStatus: ReadStore, chapter: number, day: number, id: string) {
+export function getReadStatus(
+    readStatus: ReadStore,
+    chapter: number,
+    day: number,
+    id: string,
+) {
     const chapterLevel = readStatus[chapter];
 
     if (chapterLevel) {
@@ -42,15 +50,17 @@ export function getReadStatus(readStatus: ReadStore, chapter: number, day: numbe
     return false;
 }
 
-export function countReadElements(readStatus: ReadStore, chapter: number, day: number) {
+export function countReadElements(
+    readStatus: ReadStore,
+    chapter: number,
+    day: number,
+) {
     const chapterLevel = readStatus[chapter];
     if (chapterLevel) {
         const dayLevel = chapterLevel[day];
 
         if (dayLevel) {
-            return Object.keys(dayLevel).filter(
-                (id) => dayLevel[id],
-            ).length;
+            return Object.keys(dayLevel).filter((id) => dayLevel[id]).length;
         }
     }
 
@@ -84,7 +94,10 @@ export const usePersistedViewStore = create<PersistedViewStore>()(
                     }
 
                     draft.readStatus[chapter][day][id] = status;
-                })
+                }),
+            countdownUpdateVersion: null,
+            setCountdownUpdateVersion: (version) =>
+                set({ countdownUpdateVersion: version }),
         })),
         { name: "viewAppPersistedState" },
     ),

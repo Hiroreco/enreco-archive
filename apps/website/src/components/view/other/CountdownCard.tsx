@@ -17,6 +17,10 @@ const TARGET_DATE = new Date(
     0,
 );
 
+// --- IMPORTANT ---
+// Change this value for each new countdown to trigger the animation for users again.
+const CURRENT_COUNTDOWN_VERSION = "c3d0";
+
 function getTimeLeft(target: Date) {
     const now = new Date();
     const diff = target.getTime() - now.getTime();
@@ -48,22 +52,30 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     const appType = useViewStore((state) => state.appType);
     const hasDoneInitialSequence = useRef(false);
     const cardRef = useRef<HTMLDivElement>(null);
+    const countdownVersion = usePersistedViewStore(
+        (state) => state.countdownUpdateVersion,
+    );
+    const setCountdownVersion = usePersistedViewStore(
+        (state) => state.setCountdownUpdateVersion,
+    );
 
-    // TODO: Only render the initial sequence once on EACH DAY/EACH NEW UPDATE
-    // Initial open-then-close sequence
+    // Initial open-then-close sequence.
+    // Plays once per countdown update (defined by CURRENT_COUNTDOWN_VERSION).
     useEffect(() => {
         if (
-            !isInLoadingScreen &&
-            hasVisitedBefore &&
-            !hasDoneInitialSequence.current &&
-            hasDismissedBingoIndicator
-        ) {
-            hasDoneInitialSequence.current = true;
-            setIsOpen(true);
-            const closeTimer = setTimeout(() => setIsOpen(false), 5000);
-            return () => clearTimeout(closeTimer);
-        }
-    }, [isInLoadingScreen, hasVisitedBefore]);
+            isInLoadingScreen ||
+            hasDoneInitialSequence.current ||
+            countdownVersion === CURRENT_COUNTDOWN_VERSION
+        )
+            return;
+
+        hasDoneInitialSequence.current = true;
+        setCountdownVersion(CURRENT_COUNTDOWN_VERSION);
+        setIsOpen(true);
+
+        const closeTimer = setTimeout(() => setIsOpen(false), 5000);
+        return () => clearTimeout(closeTimer);
+    }, [isInLoadingScreen]);
 
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {

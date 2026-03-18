@@ -14,4 +14,5 @@ export const LS_KEYS = {
     NO_TRANSLATION_YET: "no-translation-yet",
     CURRENT_VERSION_KEY: "enreco-current-version",
     CURRENT_VERSION: "2026-03-03", // Update this every announcement release
+    COUNTDOWN_UPDATE_VERSION: "countdown-update-version",
 };
