@@ -64,6 +64,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     useEffect(() => {
         if (
             isInLoadingScreen ||
+            !hasDismissedBingoIndicator ||
             hasDoneInitialSequence.current ||
             countdownVersion === CURRENT_COUNTDOWN_VERSION
         )
