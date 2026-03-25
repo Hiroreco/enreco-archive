@@ -26,6 +26,7 @@ import {
 import { MouseEventHandler, useCallback } from "react";
 import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import { generateEdgeId } from "@/lib/editor-utils";
+import { useEditorStore } from "@/store/editorStore";
 
 const nodeTypes = {
     editorImage: EditorImageNode,
@@ -63,6 +64,8 @@ export default function EditorChart({
     onEdgeClick,
 }: EditorChartProps) {
     const { screenToFlowPosition } = useReactFlow();
+    const day = useEditorStore((state) => state.day);
+    const chapter = useEditorStore((state) => state.chapter);
 
     const addNode = useCallback(
         (x: number, y: number) => {
@@ -162,6 +165,7 @@ export default function EditorChart({
 
     return (
         <ReactFlow
+            key={`${day}-${chapter}`} 
             nodes={nodes}
             edges={edges}
             nodeTypes={nodeTypes}
