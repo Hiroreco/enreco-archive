@@ -14,19 +14,18 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 
-import EditorImageNode from "@/components/editor/EditorImageNode";
 import EditorCustomEdge from "@/components/editor/EditorCustomEdge";
+import EditorImageNode from "@/components/editor/EditorImageNode";
 import EditorSmoothEdge from "@/components/editor/EditorSmoothEdge";
 import EditorStraightEdge from "@/components/editor/EditorStraightEdge";
+import { generateEdgeId } from "@/lib/editor-utils";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import {
     CustomEdgeType,
     CustomEdgeTypeNames,
     EditorImageNodeType,
 } from "@enreco-archive/common/types";
 import { MouseEventHandler, useCallback } from "react";
-import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
-import { generateEdgeId } from "@/lib/editor-utils";
-import { useEditorStore } from "@/store/editorStore";
 
 const nodeTypes = {
     editorImage: EditorImageNode,
@@ -64,8 +63,6 @@ export default function EditorChart({
     onEdgeClick,
 }: EditorChartProps) {
     const { screenToFlowPosition } = useReactFlow();
-    const day = useEditorStore((state) => state.day);
-    const chapter = useEditorStore((state) => state.chapter);
 
     const addNode = useCallback(
         (x: number, y: number) => {
@@ -165,7 +162,6 @@ export default function EditorChart({
 
     return (
         <ReactFlow
-            key={`${day}-${chapter}`} 
             nodes={nodes}
             edges={edges}
             nodeTypes={nodeTypes}

@@ -527,7 +527,6 @@ const EditorApp = () => {
                 updateNode={updateNodeEH}
                 deleteNode={deleteNode}
                 onCardClose={() => editorStore.setCurrentCard(null)}
-                numberOfDays={numDays}
                 isDarkMode={isDarkMode}
             />
 
@@ -538,7 +537,6 @@ const EditorApp = () => {
                 deleteEdge={deleteEdge}
                 updateEdge={updateEdgeEH}
                 onCardClose={() => editorStore.setCurrentCard(null)}
-                numberOfDays={numDays}
                 isDarkMode={isDarkMode}
             />
 
