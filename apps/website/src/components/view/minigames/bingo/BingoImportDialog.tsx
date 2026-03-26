@@ -69,11 +69,12 @@ const BingoImportDialog = ({ onImport, disabled }: BingoImportDialogProps) => {
 
                 <div className="flex flex-col gap-4">
                     <div className="mt-4">
-                        <textarea
+                        <input
+                            type="text"
                             value={importCode}
                             onChange={(e) => setImportCode(e.target.value)}
                             placeholder={t("importPlaceholder")}
-                            className="w-full px-3 py-2 text-sm border rounded-md bg-background/50 font-mono min-h-[100px] resize-y"
+                            className="w-full px-3 py-2 text-sm border rounded-md bg-background/50 font-mono"
                         />
                         {error && (
                             <p className="text-sm text-destructive mt-2">
