@@ -221,7 +221,21 @@
                     "showDay": "Show Day",
                     "resetTitle": "Reset Board",
                     "resetMessage": "This will wipe out your current board. Are you sure?",
-                    "resetConfirm": "Yes, clear it"
+                    "resetConfirm": "Yes, clear it",
+                    "markerOptions": "Marker Options",
+                    "winOptions": "Win Indicator Options",
+                    "markerOptionValues": {
+                        "emblem": "ENreco Emblem",
+                        "scarlet-wand": "Scarlet Wand",
+                        "cerulean-cup": "Cerulean Cup",
+                        "jade-sword": "Jade Sword",
+                        "amber-coin": "Amber Coin"
+                    },
+                    "winOptionValues": {
+                        "crack": "Cracked Cell",
+                        "outline": "Outlined Cell",
+                        "line": "Line Through"
+                    }
                 }
             }
         },

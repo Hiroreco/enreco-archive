@@ -117,10 +117,7 @@ const BingoShareDialog = ({
                 </DialogHeader>
 
                 <div className="flex flex-col gap-4">
-                    <div>
-                        <label className="text-sm font-medium mb-2 block">
-                            {t("shareCode")}
-                        </label>
+                    <div className="mt-4">
                         <div className="flex gap-2">
                             <input
                                 type="text"

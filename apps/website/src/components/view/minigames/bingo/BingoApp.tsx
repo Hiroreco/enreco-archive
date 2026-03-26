@@ -3,8 +3,10 @@ import BingoGameInfo from "@/components/view/minigames/bingo/BingoGameInfo";
 import ModalCollection from "@/components/view/basic-modals/ModalCollection";
 import {
     Dialog,
+    DialogClose,
     DialogContent,
     DialogDescription,
+    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -12,9 +14,11 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Button } from "@enreco-archive/common-ui/components/button";
 
 const BingoApp = () => {
     const t = useTranslations("modals.minigames.games.bingo");
+    const tCommon = useTranslations("common");
 
     return (
         <div className="w-screen flex flex-col items-center justify-center overflow-hidden h-dvh">
@@ -29,7 +33,7 @@ const BingoApp = () => {
                 <Dialog>
                     <DialogTrigger asChild>
                         <button
-                            className="absolute bottom-2 right-2 z-40"
+                            className="absolute md:bottom-2 md:right-2 bottom-4 right-4 z-40"
                             aria-label={t("label")}
                             type="button"
                         >
@@ -48,6 +52,11 @@ const BingoApp = () => {
                         <div className="overflow-auto grow pb-6 px-2">
                             <BingoGameInfo />
                         </div>
+                        <DialogFooter>
+                            <DialogClose asChild>
+                                <Button>{tCommon("close")}</Button>
+                            </DialogClose>
+                        </DialogFooter>
                     </DialogContent>
                 </Dialog>
             </div>

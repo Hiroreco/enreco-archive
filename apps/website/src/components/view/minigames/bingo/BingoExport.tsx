@@ -39,8 +39,8 @@ const BingoExport = ({
             <div
                 key={"cell-" + index}
                 className={cn(
-                    "flex flex-col items-center justify-center relative font-[Chesterfield]",
-                    downloadMode ? "size-24" : "size-17.5 md:size-24",
+                    "flex flex-col items-center justify-center relative",
+                    downloadMode ? "size-24" : "size-20 md:size-24",
                     index % 2 === 0
                         ? "bg-white text-[#444444]"
                         : "bg-[#669feb] text-white",
@@ -87,7 +87,7 @@ const BingoExport = ({
                         "size-full flex flex-col justify-center text-center px-2 leading-tight font-bold",
                         "whitespace-pre-wrap break-words relative",
                     )}
-                    style={getTextStyle(text)}
+                    style={getTextStyle(text, isMobile)}
                 >
                     {text}
                 </div>

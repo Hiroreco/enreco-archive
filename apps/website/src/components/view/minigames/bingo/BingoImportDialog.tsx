@@ -68,10 +68,7 @@ const BingoImportDialog = ({ onImport, disabled }: BingoImportDialogProps) => {
                 </DialogHeader>
 
                 <div className="flex flex-col gap-4">
-                    <div>
-                        <label className="text-sm font-medium mb-2 block">
-                            {t("importCode")}
-                        </label>
+                    <div className="mt-4">
                         <textarea
                             value={importCode}
                             onChange={(e) => setImportCode(e.target.value)}

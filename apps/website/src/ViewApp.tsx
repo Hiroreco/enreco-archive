@@ -619,22 +619,22 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         changeWorkingData(chapter, newDay);
                     }}
                 />
-                {!hasDismissedBingoIndicator && (
-                    <BingoIndicator
-                        className={cn(
-                            "md:hidden fixed bottom-18 left-1/2 h-30 w-auto -translate-x-1/2 opacity-60",
-                            {
-                                invisible: currentCard !== null,
-                            },
-                        )}
-                    />
-                )}
             </div>
+            {!hasDismissedBingoIndicator && (
+                <BingoIndicator
+                    className={cn(
+                        "md:hidden fixed bottom-18 left-1/2 w-fit -translate-x-1/2 opacity-60",
+                        {
+                            invisible: currentCard !== null,
+                        },
+                    )}
+                />
+            )}
 
             {!hasDismissedBingoIndicator && (
                 <BingoIndicator
                     className={cn(
-                        "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 h-40",
+                        "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 ",
                         {
                             invisible: currentCard !== null,
                         },

@@ -1,3 +1,4 @@
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import {
     Select,
     SelectContent,
@@ -5,6 +6,8 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { useTranslations } from "next-intl";
 
 export type BingoMarkerStyle =
     | "emblem"
@@ -12,17 +15,6 @@ export type BingoMarkerStyle =
     | "amber-coin"
     | "jade-sword"
     | "cerulean-cup";
-
-export const BINGO_MARKER_OPTIONS: {
-    value: BingoMarkerStyle;
-    label: string;
-}[] = [
-    { value: "emblem", label: "Emblem" },
-    { value: "scarlet-wand", label: "Scarlet Wand" },
-    { value: "amber-coin", label: "Amber Coin" },
-    { value: "jade-sword", label: "Jade Sword" },
-    { value: "cerulean-cup", label: "Cerulean Cup" },
-];
 
 export const BINGO_MARKER_IMAGE_MAP: Record<BingoMarkerStyle, string> = {
     emblem: "images-opt/emblem-opt.webp",
@@ -43,19 +35,23 @@ const BingoMarkerSelector = ({
     onValueChange,
     disabled,
 }: BingoMarkerSelectorProps) => {
+    const t = useTranslations("modals.minigames.games.bingo");
+    const isMobile = useIsMobileViewport();
     return (
         <Select
             value={value}
             onValueChange={(v) => onValueChange(v as BingoMarkerStyle)}
             disabled={disabled}
         >
-            <SelectTrigger className="w-full min-w-36 bg-blur">
+            <SelectTrigger
+                className={cn("flex-1 min-w-36", { "bg-blur": !isMobile })}
+            >
                 <SelectValue />
             </SelectTrigger>
-            <SelectContent className="bg-blur">
-                {BINGO_MARKER_OPTIONS.map((option) => (
-                    <SelectItem key={option.value} value={option.value}>
-                        {option.label}
+            <SelectContent className={cn({ "bg-blur": !isMobile })}>
+                {Object.entries(BINGO_MARKER_IMAGE_MAP).map(([key, src]) => (
+                    <SelectItem key={key} value={key}>
+                        {t(`markerOptionValues.${key}`)}
                     </SelectItem>
                 ))}
             </SelectContent>

@@ -7,6 +7,7 @@ import {
     DialogClose,
     DialogContent,
     DialogDescription,
+    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -40,6 +41,7 @@ const BingoPreviewDialog = ({
     disabled,
 }: BingoPreviewDialogProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
+    const tCommon = useTranslations("common");
     const isMobile = useIsMobileViewport();
     const {
         bingoMarkerStyle,
@@ -94,10 +96,16 @@ const BingoPreviewDialog = ({
                         className="flex flex-col gap-4 max-w-70 bg-blur p-4 rounded-md"
                         onClick={(e) => e.stopPropagation()}
                     >
+                        <span className="text-sm text-muted-foreground">
+                            {t("markerOptions")}
+                        </span>
                         <BingoMarkerSelector
                             value={bingoMarkerStyle}
                             onValueChange={setBingoMarkerStyle}
                         />
+                        <span className="text-sm text-muted-foreground">
+                            {t("winOptions")}
+                        </span>
                         <BingoWinSelector
                             value={bingoWinStyle}
                             onValueChange={setBingoWinStyle}
@@ -106,10 +114,8 @@ const BingoPreviewDialog = ({
                             {t("previewNote")}
                         </p>
                         <div className="flex items-center justify-center gap-4">
-                            <Button
-                                variant="outline"
-                                size="sm"
-                                className="bg-blur gap-2"
+                            <div
+                                className="bg-blur gap-2 px-2 py-2 rounded-md flex items-center cursor-pointer"
                                 onClick={() => onShowDayChange(!showDay)}
                             >
                                 <Checkbox
@@ -117,8 +123,10 @@ const BingoPreviewDialog = ({
                                     checked={showDay}
                                     className="size-4 cursor-pointer"
                                 />
-                                <span className="text-sm">{t("showDay")}</span>
-                            </Button>
+                                <span className="text-sm select-none">
+                                    {t("showDay")}
+                                </span>
+                            </div>
                             <Button size="sm" onClick={onDownload}>
                                 <Download className="size-4 mr-2" />
                                 {t("download")}
@@ -128,7 +136,11 @@ const BingoPreviewDialog = ({
                 </DialogContent>
             )}
             {isMobile && (
-                <DialogContent className="flex flex-col items-center justify-center px-1 md:hidden">
+                <DialogContent
+                    showXButtonForce
+                    showXButton
+                    className="flex flex-col justify-center px-1 md:hidden"
+                >
                     <VisuallyHidden>
                         <DialogHeader>
                             <DialogTitle>{t("previewTitle")}</DialogTitle>
@@ -144,7 +156,7 @@ const BingoPreviewDialog = ({
                         showDay={showDay}
                         winningIndices={winningIndices}
                     />
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 px-2">
                         <BingoMarkerSelector
                             value={bingoMarkerStyle}
                             onValueChange={setBingoMarkerStyle}

@@ -221,7 +221,19 @@
                     "showDay": "日を表示",
                     "resetTitle": "ボードをリセット",
                     "resetMessage": "現在のボードをリセットします。よろしいですか？",
-                    "resetConfirm": "はい、クリアします"
+                    "resetConfirm": "はい、クリアします",
+                    "markerOptionValues": {
+                        "emblem": "エンブレム",
+                        "scarlet-wand": "スカーレット・ワンド",
+                        "cerulean-cup": "セルリアン・カップ",
+                        "jade-sword": "ジェイド・ソード",
+                        "amber-coin": "アンバー・コイン"
+                    },
+                    "winOptionValues": {
+                        "crack": "割れたセル",
+                        "outline": "アウトライン",
+                        "line": "ラインスルー"
+                    }
                 }
             }
         },

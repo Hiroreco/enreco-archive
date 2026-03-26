@@ -1,3 +1,4 @@
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import {
     Select,
     SelectContent,
@@ -5,17 +6,12 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { useTranslations } from "next-intl";
 
 export type BingoWinStyle = "crack" | "outline" | "line";
 
-export const BINGO_WIN_OPTIONS: {
-    value: BingoWinStyle;
-    label: string;
-}[] = [
-    { value: "crack", label: "Crack" },
-    { value: "outline", label: "Outline" },
-    { value: "line", label: "Line" },
-];
+export const BINGO_WIN_OPTIONS: BingoWinStyle[] = ["crack", "outline", "line"];
 
 interface BingoWinSelectorProps {
     value: BingoWinStyle;
@@ -28,19 +24,24 @@ const BingoWinSelector = ({
     onValueChange,
     disabled,
 }: BingoWinSelectorProps) => {
+    const t = useTranslations("modals.minigames.games.bingo");
+
+    const isMobile = useIsMobileViewport();
     return (
         <Select
             value={value}
             onValueChange={(v) => onValueChange(v as BingoWinStyle)}
             disabled={disabled}
         >
-            <SelectTrigger className="w-full min-w-28 bg-blur">
+            <SelectTrigger
+                className={cn("flex-1 min-w-36", { "bg-blur": !isMobile })}
+            >
                 <SelectValue />
             </SelectTrigger>
-            <SelectContent className="bg-blur">
+            <SelectContent className={cn({ "bg-blur": !isMobile })}>
                 {BINGO_WIN_OPTIONS.map((option) => (
-                    <SelectItem key={option.value} value={option.value}>
-                        {option.label}
+                    <SelectItem key={option} value={option}>
+                        {t(`winOptionValues.${option}`)}
                     </SelectItem>
                 ))}
             </SelectContent>
