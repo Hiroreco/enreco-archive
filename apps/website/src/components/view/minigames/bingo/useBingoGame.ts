@@ -100,13 +100,12 @@ export const useBingoGame = () => {
     const displayBoard = previewMode !== "none" ? previewBoard : board;
 
     const emptyCount = board.filter(
-        (text, idx) => idx !== 12 && !text.trim(),
+        (text, idx) => !text.trim(),
     ).length;
     const isBoardFull = emptyCount === 0;
-    const isBoardEmpty = board.every((text, idx) => idx === 12 || !text.trim());
+    const isBoardEmpty = board.every((text, idx) => !text.trim());
     const isInPreviewMode = previewMode !== "none";
 
-    // Save showDay to localStorage
     useEffect(() => {
         if (typeof window !== "undefined") {
             localStorage.setItem(LS_KEYS.BINGO_SHOW_DAY, String(showDay));
@@ -228,7 +227,7 @@ export const useBingoGame = () => {
         const emptyIndices: number[] = [];
 
         currentBoard.forEach((text, idx) => {
-            if (idx !== 12 && !text.trim()) {
+            if (!text.trim()) {
                 emptyIndices.push(idx);
             }
         });
