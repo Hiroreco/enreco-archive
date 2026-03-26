@@ -157,7 +157,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
                     )}
                 >
                     {timeLeft ??
-                        "Should be out now (Ctrl + R) — if not, please be patient 🙏"}
+                        "Update should now be out (Ctrl + R) — if not, please be patient 🙏"}
                 </p>
                 <a
                     href="https://twitter.com/hiroavrs"
@@ -166,9 +166,9 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
                     className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors mt-1 mx-auto visited:text-muted-foreground!"
                 >
                     <span>
-                        For announcements, check{" "}
+                        For announcements, please check out{" "}
                         <span className="underline underline-offset-2">
-                            Hiro on Twitter
+                            Hiro on Twitter!
                         </span>
                     </span>
                 </a>
