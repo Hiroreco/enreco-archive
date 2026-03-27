@@ -80,7 +80,7 @@ const BingoPreviewDialog = ({
                     </DialogClose>
 
                     <div
-                        className="bg-blur p-2 rounded-md"
+                        className="bg-blur p-2 rounded-md select-none"
                         onClick={(e) => e.stopPropagation()}
                     >
                         <BingoExport
@@ -149,13 +149,15 @@ const BingoPreviewDialog = ({
                             </DialogDescription>
                         </DialogHeader>
                     </VisuallyHidden>
-                    <BingoExport
-                        board={board}
-                        marked={marked}
-                        currentDay={currentDay}
-                        showDay={showDay}
-                        winningIndices={winningIndices}
-                    />
+                    <div className="select-none">
+                        <BingoExport
+                            board={board}
+                            marked={marked}
+                            currentDay={currentDay}
+                            showDay={showDay}
+                            winningIndices={winningIndices}
+                        />
+                    </div>
                     <div className="flex gap-2 px-2">
                         <BingoMarkerSelector
                             value={bingoMarkerStyle}
