@@ -26,9 +26,11 @@ export const getTextStyle = (
     const longestWord = Math.max(...words.map((word) => word.length), 0);
     const totalLength = text.length;
     const lineCount = text.split("\n").length;
+    const longWordCount = words.filter((word) => word.length >= 9).length;
 
     // Calculate complexity score
-    const hasVeryLongWord = longestWord > 12;
+    const hasExtremeWord = longestWord > 16;
+    const hasVeryLongWord = longestWord >= 13;
     const hasLongWord = longestWord > 10;
     const hasManyLines = lineCount > 3;
     const isLongText = totalLength > 40;
@@ -36,35 +38,40 @@ export const getTextStyle = (
     const sizing = isMobile
         ? {
               // Mobile (64px squares) - tighter sizing
-              veryLong: "clamp(0.5rem, 2cqw, 0.625rem)",
-              long: "clamp(0.5rem, 2.5cqw, 0.75rem)",
-              medium: "clamp(0.625rem, 2.75cqw, 0.75rem)",
+              veryLong: "clamp(0.625rem, 2.5cqw, 0.75rem)",
+              long: "clamp(0.625rem, 2.75cqw, 0.8125rem)",
+              medium: "clamp(0.625rem, 3cqw, 0.8125rem)",
               short: "clamp(0.75rem, 3.5cqw, 0.875rem)",
               veryShort: "clamp(0.875rem, 4cqw, 1rem)",
               default: "clamp(0.625rem, 3cqw, 0.75rem)",
           }
         : {
               // Desktop (80px squares) - balanced sizing
-              veryLong: "clamp(0.5rem, 2cqw, 0.625rem)",
-              long: "clamp(0.625rem, 2.5cqw, 0.75rem)",
-              medium: "clamp(0.75rem, 3cqw, 0.875rem)",
+              veryLong: "clamp(0.6875rem, 2.7cqw, 0.8125rem)",
+                            long: "clamp(0.6875rem, 2.75cqw, 0.8125rem)",
+                            medium: "clamp(0.75rem, 2.9cqw, 0.85rem)",
               short: "clamp(0.875rem, 3.5cqw, 1rem)",
               veryShort: "clamp(1rem, 4cqw, 1.125rem)",
               default: "clamp(0.75rem, 3cqw, 0.875rem)",
           };
 
     // Very long words or lots of content
-    if (hasVeryLongWord || (hasManyLines && isLongText)) {
+    if (hasExtremeWord || (lineCount > 4 && totalLength > 50)) {
         return { fontSize: sizing.veryLong };
     }
 
     // Long words or many lines
-    if (hasLongWord || hasManyLines) {
+    if (
+        hasVeryLongWord ||
+        hasManyLines ||
+        (hasLongWord && totalLength > 22) ||
+        longWordCount >= 2
+    ) {
         return { fontSize: sizing.long };
     }
 
     // Medium length with multiple lines
-    if (isLongText || lineCount > 2) {
+    if (isLongText || lineCount > 2 || totalLength > 28) {
         return { fontSize: sizing.medium };
     }
 
