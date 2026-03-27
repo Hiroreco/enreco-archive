@@ -593,5 +593,10 @@
             },
             "fanficError": "Failed to load story content, try again later or you may read it from the original source <link>here</link>."
         }
+    },
+    "countdownCard": {
+        "dayNUpdate": "Day {day} update",
+        "updateShouldBeOut": "Update should now be out (Ctrl + R) — if not, please be patient 🙏",
+        "announcement": "Check anouncements for more info <span>here.</span>"
     }
 }

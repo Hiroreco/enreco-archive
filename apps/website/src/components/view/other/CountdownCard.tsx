@@ -3,23 +3,28 @@ import { useViewStore } from "@/store/viewStore";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
-
-// TODO: Update target date/time later
-const now = new Date();
-const TARGET_DATE = new Date(
-    now.getFullYear(),
-    now.getMonth(),
-    now.getDate() + 1,
-    0,
-    0,
-    0,
-    0,
-);
 
 // --- IMPORTANT ---
 // Change this value for each new countdown to trigger the animation for users again.
-const CURRENT_COUNTDOWN_VERSION = "c3d0";
+const CURRENT_DAY = 0;
+const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
+
+// REMMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
+const IS_VISIBLE = true;
+
+// Returns the next occurrence of 2 AM JST (= 17:00 UTC).
+// If today's 17:00 UTC hasn't passed yet, returns today's. Otherwise tomorrow's.
+function getTargetDate(): Date {
+    const now = new Date();
+    const target = new Date(now);
+    target.setUTCHours(17, 0, 0, 0); // 17:00 UTC = 02:00 JST (next calendar day in JST)
+    if (target <= now) {
+        target.setUTCDate(target.getUTCDate() + 1);
+    }
+    return target;
+}
 
 function getTimeLeft(target: Date) {
     const now = new Date();
@@ -39,8 +44,11 @@ interface CountdownCardProps {
 }
 
 const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
+    const t = useTranslations("countdownCard");
     const [isOpen, setIsOpen] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(TARGET_DATE));
+    const [timeLeft, setTimeLeft] = useState(() =>
+        getTimeLeft(getTargetDate()),
+    );
 
     const currentCard = useViewStore((state) => state.currentCard);
     const hasVisitedBefore = usePersistedViewStore(
@@ -98,7 +106,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     useEffect(() => {
         if (!timeLeft) return;
         const interval = setInterval(() => {
-            const newTimeLeft = getTimeLeft(TARGET_DATE);
+            const newTimeLeft = getTimeLeft(getTargetDate()); // recompute target in case day rolled over
             setTimeLeft(newTimeLeft);
             if (!newTimeLeft) clearInterval(interval);
         }, 1000);
@@ -148,7 +156,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
                 </motion.button>
 
                 <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
-                    {timeLeft ? "Next update in" : "Next update"}
+                    {t("dayNUpdate", { day: CURRENT_DAY })}
                 </p>
                 <p
                     className={cn(
@@ -156,21 +164,21 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
                         timeLeft ? "text-2xl tabular-nums" : "text-sm",
                     )}
                 >
-                    {timeLeft ??
-                        "Update should now be out (Ctrl + R) — if not, please be patient 🙏"}
+                    {timeLeft ?? t("updateShouldBeOut")}
                 </p>
                 <a
                     href="https://twitter.com/hiroavrs"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors mt-1 mx-auto visited:text-muted-foreground!"
+                    className="text-xs text-muted-foreground hover:text-foreground transition-colors mt-1 mx-auto visited:text-muted-foreground!"
                 >
-                    <span>
-                        For announcements, please check out{" "}
-                        <span className="underline underline-offset-2">
-                            Hiro on Twitter!
-                        </span>
-                    </span>
+                    {t.rich("announcement", {
+                        span: (chunks) => (
+                            <span className="underline underline-offset-2">
+                                {chunks}
+                            </span>
+                        ),
+                    })}
                 </a>
             </motion.div>
 

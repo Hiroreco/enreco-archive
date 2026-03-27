@@ -592,5 +592,10 @@
             },
             "fanficError": "ストーリーコンテンツの読み込みに失敗しました。後でもう一度試すか、元のソースから読むことができます。<link>こちら</link>。"
         }
+    },
+    "countdownCard": {
+        "dayNUpdate": "第{day}日目の更新",
+        "updateShouldBeOut": "更新はもうすぐ公開されるはずです（Ctrl + R）—もしそうでない場合は、しばらくお待ちください🙏",
+        "announcement": "最新情報については<span>こちら</span>の発表を確認してください。"
     }
 }
