@@ -598,5 +598,9 @@
         "dayNUpdate": "Day {day} update",
         "updateShouldBeOut": "Update should now be out (Ctrl + R) — if not, please be patient 🙏",
         "announcement": "Check anouncements for more info <span>here.</span>"
+    },
+    "comingSoonCard": {
+        "text1": "<bold>Chapter 3: Broken Bonds</bold> updates will be here as the event happens!",
+        "text2": "To be up to date, you can check out more news and announcements <link>here.</link>"
     }
 }

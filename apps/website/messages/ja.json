@@ -597,5 +597,9 @@
         "dayNUpdate": "第{day}日目の更新",
         "updateShouldBeOut": "更新はもうすぐ公開されるはずです（Ctrl + R）—もしそうでない場合は、しばらくお待ちください🙏",
         "announcement": "最新情報については<span>こちら</span>の発表を確認してください。"
+    },
+    "comingSoonCard": {
+        "text1": "<bold>第3章: 壊れた絆</bold>の更新は、イベントが発生するにつれてここに表示されます！",
+        "text2": "最新情報については<link>こちら</link>のニュースと発表を確認してください。"
     }
 }

@@ -52,6 +52,7 @@ import NewsModal from "@/components/view/basic-modals/NewsModal";
 import newsDataEn from "#/news.json";
 import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
 import CountdownCard from "@/components/view/other/CountdownCard";
+import ComingSoonCard from "@/components/view/other/ComingSoonCard";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -359,12 +360,16 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                <Chart
-                    widthToShrink={chartShrink}
-                    onNodeClick={onNodeClick}
-                    onEdgeClick={onEdgeClick}
-                    onPaneClick={onCardClose}
-                />
+                {chapter <= 1 && (
+                    <Chart
+                        widthToShrink={chartShrink}
+                        onNodeClick={onNodeClick}
+                        onEdgeClick={onEdgeClick}
+                        onPaneClick={onCardClose}
+                    />
+                )}
+                {/* Coming soon card, shown for chapter 3 only */}
+                {chapter > 1 && <ComingSoonCard />}
                 <div
                     className={cn(
                         "absolute top-0 left-0 w-screen h-full -z-10",
