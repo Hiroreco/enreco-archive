@@ -265,7 +265,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
         // Verify values, if invalid, reset to 0/0
         if (parsedValues) {
-            const [chapter, day] = parsedValues;
+            let [chapter, day] = parsedValues;
+            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
+            chapter = chapter === 2 ? 1 : chapter;
+            console.log(chapter, day);
+
             if (
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
@@ -278,8 +282,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             }
             changeWorkingData(chapter, day);
         } else {
-            setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
-            changeWorkingData(siteData.numberOfChapters - 1, 0);
+            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
+            let chapter = siteData.numberOfChapters - 1;
+            if (chapter === 2) {
+                chapter = 1;
+            }
+            setBrowserHash(`${chapter}/0`);
+            changeWorkingData(chapter, 0);
         }
     }
 
