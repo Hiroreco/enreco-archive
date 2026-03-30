@@ -10,9 +10,10 @@ import {
 
 import chapter0_en from "#/en/chapter0_en.json";
 import chapter1_en from "#/en/chapter1_en.json";
-// import chapter2_en from "#/en/chapter2_en.json";
+import chapter2_en from "#/en/chapter2_en.json";
 import chapter0_ja from "#/ja/chapter0_ja.json";
 import chapter1_ja from "#/ja/chapter1_ja.json";
+import chapter2_ja from "#/ja/chapter2_ja.json";
 
 import textData_en from "#/en/text-data_en.json";
 import textData_ja from "#/ja/text-data_ja.json";
@@ -77,7 +78,7 @@ const DATA: Record<Locale, LocalizedData> = {
         chapters: [
             chapter0_en as Chapter,
             chapter1_en as Chapter,
-            // chapter2_en as Chapter,
+            chapter2_en as Chapter,
         ],
         textData: textData_en as TextData,
         glossary: {
@@ -94,7 +95,7 @@ const DATA: Record<Locale, LocalizedData> = {
         fanficData: fanfic_data_en,
     },
     ja: {
-        chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
+        chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter, chapter2_ja as Chapter],
         textData: textData_ja as TextData,
         glossary: {
             weapons: weapons_ja,
