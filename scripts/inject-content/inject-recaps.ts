@@ -173,17 +173,15 @@ async function processChapter(chapterNum: number, locale: string) {
             /* ignore missing folder */
         }
 
-        // Only show warnings for missing files in English version
-        if (isDefault) {
-            for (const n of chart.nodes) {
-                if (
-                    (n.data.day === undefined || n.data.day === dayIndex) &&
-                    !seenNodes.has(n.id)
-                ) {
-                    console.warn(
-                        `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
-                    );
-                }
+        // Show warnings for missing files for all locales
+        for (const n of chart.nodes) {
+            if (
+                (n.data.day === undefined || n.data.day === dayIndex) &&
+                !seenNodes.has(n.id)
+            ) {
+                console.warn(
+                    `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
+                );
             }
         }
 
@@ -270,17 +268,15 @@ async function processChapter(chapterNum: number, locale: string) {
             /* ignore missing folder */
         }
 
-        // Only show warnings for missing files in English version
-        if (isDefault) {
-            for (const e of chart.edges) {
-                if (
-                    (e.data?.day === undefined || e.data.day === dayIndex) &&
-                    !seenEdges.has(e.id)
-                ) {
-                    console.warn(
-                        `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
-                    );
-                }
+        // Show warnings for missing files for all locales
+        for (const e of chart.edges) {
+            if (
+                (e.data?.day === undefined || e.data.day === dayIndex) &&
+                !seenEdges.has(e.id)
+            ) {
+                console.warn(
+                    `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
+                );
             }
         }
     }
@@ -329,7 +325,7 @@ async function processChapter(chapterNum: number, locale: string) {
         `chapter${chapterNum}${localeSuffix}.json`,
     );
 
-    const JA_CHAPTER_TITLES = ["リベスタルの王国", "運命の鎖"];
+    const JA_CHAPTER_TITLES = ["リベスタルの王国", "運命の鎖", "壊れた絆"];
     // For non-English, start with a deep copy of the English web JSON
     const outputWebJson = isDefault
         ? webJson
