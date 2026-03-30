@@ -479,6 +479,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     {
                         invisible: currentCard !== null,
                         visible: currentCard === null,
+                        // TODO: remove when chapter 3 starts
+                        hidden: chapter > 1,
                     },
                 )}
                 onClick={openReadCounterModal}
@@ -511,7 +513,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
                     tooltipText={tNavTooltips("dayRecapVisibility")}
-                    enabled={true}
+                    // TODO: remove when chapter 3 starts
+                    enabled={chapter <= 1}
                     tooltipSide="left"
                     onClick={() => {
                         if (currentCard === "setting") {
