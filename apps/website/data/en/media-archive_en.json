@@ -606,55 +606,5 @@
         "type": "video"
       }
     ]
-  },
-  {
-    "id": "c3-merch",
-    "title": "hololive English \"ENigmatic Recollection\" 2026 ver.",
-    "description": "Official merchandise made released in 2026",
-    "info": "### Description\n\nThe official merchandise released in 2026, including newly illustrated acrylic stands and collection cards of the casts.",
-    "chapter": 3,
-    "thumbnailUrl": "/images-opt/c3-merch-logo-opt.webp",
-    "entries": [
-      {
-        "title": "hololive English \"ENigmatic Recollection\" 2026 ver.",
-        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_2026",
-        "thumbnailUrl": "/images-opt/c3-merch-logo-opt.webp",
-        "info": "",
-        "src": "/images-opt/c3-merch-logo-opt.webp",
-        "type": "image"
-      },
-      {
-        "title": "Acrylic Stand (15 types)",
-        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_2026",
-        "thumbnailUrl": "/images-opt/c3-merch-acrylic1-opt.webp",
-        "info": "",
-        "src": "/images-opt/c3-merch-acrylic1-opt.webp",
-        "type": "image"
-      },
-      {
-        "title": "Acrylic Stand (15 types)",
-        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_2026",
-        "thumbnailUrl": "/images-opt/c3-merch-acrylic2-opt.webp",
-        "info": "",
-        "src": "/images-opt/c3-merch-acrylic2-opt.webp",
-        "type": "image"
-      },
-      {
-        "title": "Collection Cards (15 types)",
-        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_2026",
-        "thumbnailUrl": "/images-opt/c3-merch-card1-opt.webp",
-        "info": "",
-        "src": "/images-opt/c3-merch-card1-opt.webp",
-        "type": "image"
-      },
-      {
-        "title": "Collection Cards (15 types)",
-        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_2026",
-        "thumbnailUrl": "/images-opt/c3-merch-card2-opt.webp",
-        "info": "",
-        "src": "/images-opt/c3-merch-card2-opt.webp",
-        "type": "image"
-      }
-    ]
   }
 ]
