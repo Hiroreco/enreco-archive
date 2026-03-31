@@ -99,3 +99,5 @@
 ["Too late?" by Eli](https://x.com/Elisbian_/status/1924543172753166413)
 
 ["Lady blooflame playing with her heart" by Keisea](https://x.com/Keiseeaaa/status/1920370505892430128)
+
+["Duel Reward" by Nurizza](https://x.com/nurizza_ilst/status/1922690872854065611)

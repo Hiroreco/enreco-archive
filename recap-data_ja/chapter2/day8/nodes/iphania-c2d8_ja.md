@@ -8,3 +8,7 @@
 この歓喜のただ中で、まさかこの日が彼女の最期を告げることになろうとは。
 
 （参照 [イファニア姫–アウトランダー](#edge:iphania-outlander)）
+
+## ファンアート
+
+["she still awaits her shining stars" by StandingPlace12](https://x.com/StandingPlace12/status/2028727658826080376)
