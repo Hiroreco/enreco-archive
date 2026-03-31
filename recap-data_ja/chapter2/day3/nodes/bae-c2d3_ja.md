@@ -44,5 +44,3 @@
 ## ファンアート
 
 ["tHE dUMPSTERRRRR" by iennie](https://x.com/iennie_/status/1920442027751190563)
-
-["Join the Sandwich" by Cellophim](https://x.com/ThatCello/status/1921233137280880850)

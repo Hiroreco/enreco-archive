@@ -149,7 +149,7 @@ const LoadingPage = ({
                     <Image
                         src={
                             isAprilFools
-                                ? "/images-opt/bogos-opt.webp"
+                                ? "/images-opt/april-fools-2026-opt.webp"
                                 : "/images-opt/logo-1-opt.webp"
                         }
                         alt="ENreco Archive Logo"
@@ -232,9 +232,9 @@ const LoadingPage = ({
             >
                 {isAprilFools ? (
                     <span className="text-center">
-                        Sleep on that thang
-                        <span className="block text-xs">
-                            (happy april fools)
+                        {t("aprilFools.aprilFoolsMessage")}
+                        <span className="block text-sm">
+                            {t("aprilFools.aprilFoolsSubtext")}
                         </span>
                     </span>
                 ) : (

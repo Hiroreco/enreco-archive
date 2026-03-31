@@ -65,7 +65,7 @@ When does a flame turn dark?
 When does a woman become a witch?
 When does a knight bend the knee?
 
-## Fan Work
+## Fanwork
 
 ["...entrusted my fate..." by Keisea](https://x.com/Keiseeaaa/status/1921816580691726507)
 
@@ -84,3 +84,7 @@ When does a knight bend the knee?
 ["enreco s2 summary" by Keisea](https://x.com/Keiseeaaa/status/1986173104838877346)
 
 ["Will you keep your promise, Lady Bloodlfame?" by Meyshi](https://x.com/Meyshi29/status/2028747059525001333)
+
+["Ready for season 3!" by Melody](https://x.com/PerishedMelody/status/2028987892823994788)
+
+["cms" by upellim5](https://x.com/elyoellim/status/2031378397323317577)

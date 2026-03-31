@@ -285,14 +285,12 @@ const EditorApp = () => {
         }
     };
 
-    const currentNodes = dayData.nodes;
-    const currentEdges = dayData.edges;
 
     return (
         <>
             <div className="w-screen h-screen">
                 <EditorChart
-                    nodes={currentNodes}
+                    nodes={nodes}
                     setNodes={(nodes) => {
                         if (
                             editorStore.chapter !== null &&
@@ -305,7 +303,7 @@ const EditorApp = () => {
                             );
                         }
                     }}
-                    edges={currentEdges}
+                    edges={edges}
                     setEdges={(edges) => {
                         if (
                             editorStore.chapter !== null &&
@@ -529,7 +527,6 @@ const EditorApp = () => {
                 updateNode={updateNodeEH}
                 deleteNode={deleteNode}
                 onCardClose={() => editorStore.setCurrentCard(null)}
-                numberOfDays={numDays}
                 isDarkMode={isDarkMode}
             />
 
@@ -540,7 +537,6 @@ const EditorApp = () => {
                 deleteEdge={deleteEdge}
                 updateEdge={updateEdgeEH}
                 onCardClose={() => editorStore.setCurrentCard(null)}
-                numberOfDays={numDays}
                 isDarkMode={isDarkMode}
             />
 

@@ -3,6 +3,8 @@ import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
 import NodeCardDeco from "@/components/view/chart-cards/NodeCardDeco";
 import ReadMarker from "@/components/view/chart-cards/ReadMarker";
 import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
+import CardFanartCarousel from "@/components/view/chart-cards/CardFanartCarousel";
+import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-utils";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
@@ -10,7 +12,7 @@ import { ImageNodeType } from "@enreco-archive/common/types";
 import { isMobileViewport, isNode } from "@/lib/utils";
 
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
 import CardUtilities from "@/components/view/chart-cards/CardUtilities";
 import { Check } from "lucide-react";
@@ -55,19 +57,20 @@ const NodeCard = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    const {
-        selectedNode,
-        chapter,
-        day
-    } = useViewStore(useShallow(state => {
-        let selectedNode = state.selectedElement !== null && isNode(state.selectedElement) ? state.selectedElement as ImageNodeType : null;
+    const { selectedNode, chapter, day } = useViewStore(
+        useShallow((state) => {
+            let selectedNode =
+                state.selectedElement !== null && isNode(state.selectedElement)
+                    ? (state.selectedElement as ImageNodeType)
+                    : null;
 
-        return {
-            selectedNode: selectedNode,
-            chapter: state.chapter,
-            day: state.day,
-        };
-    }));
+            return {
+                selectedNode: selectedNode,
+                chapter: state.chapter,
+                day: state.day,
+            };
+        }),
+    );
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -93,16 +96,19 @@ const NodeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        if(selectedNode) {
+        if (selectedNode) {
             setReadStatus(chapter, day, selectedNode.id, isRead);
-        }
-        else {
+        } else {
             console.error("onReadChange called with null selectedNode");
         }
     }
 
     const nodeTeamId = selectedNode?.data.teamId ?? null;
     const nodeTeam = nodeTeamId !== null ? chapterData.teams[nodeTeamId] : null;
+    const { contentWithoutFanart, fanartEntries } = useMemo(
+        () => getCardFanartData(selectedNode?.data.content || ""),
+        [selectedNode?.data.content],
+    );
 
     const renderContent = selectedNode !== null && nodeTeam !== null;
     if (!renderContent) {
@@ -211,10 +217,7 @@ const NodeCard = ({
                             onDayChange={onDayChange}
                             availiableElements={availiableNodes}
                         />
-                        <CardUtilities
-                            chapter={chapter}
-                            node={selectedNode}
-                        />
+                        <CardUtilities chapter={chapter} node={selectedNode} />
                     </div>
                     <AnimatePresence mode="wait">
                         <motion.div
@@ -229,13 +232,18 @@ const NodeCard = ({
                                 onNodeLinkClicked={onNodeLinkClicked}
                                 className="md:px-4 px-2"
                             >
-                                {selectedNode?.data.content ||
-                                    tNodeCard("noContent")}
+                                {contentWithoutFanart || tNodeCard("noContent")}
                             </ViewMarkdown>
                         </motion.div>
                     </AnimatePresence>
 
                     <Separator className="my-4" />
+                    <CardFanartCarousel
+                        className="mt-5 md:px-4 px-2"
+                        fanartEntries={fanartEntries}
+                    />
+                    <Separator className="my-4" />
+
                     <PrevNextDayNavigation
                         onPreviousDayClick={() => {
                             const currentIndex = availiableNodes.findIndex(

@@ -46,5 +46,3 @@ One last thing before she rests: with more money to spare, surely it wouldn't hu
 ## Fanart
 
 ["tHE dUMPSTERRRRR" by iennie](https://x.com/iennie_/status/1920442027751190563)
-
-["Join the Sandwich" by Cellophim](https://x.com/ThatCello/status/1921233137280880850)

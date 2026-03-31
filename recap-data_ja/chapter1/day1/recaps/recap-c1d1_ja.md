@@ -54,6 +54,6 @@
 
 ## ミーム
 
-["Loving it so far" by Hiro](https://x.com/hiroavrs/status/1830424491232825838/photo/1)
+["Loving it so far" by Hiro](https://x.com/hiroavrs/status/1830424491232825838)
 
 <!-- ame, gura, calli, ina, kiara, moom, fauna, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->

@@ -5,17 +5,16 @@ import EdgeCardDeco from "@/components/view/chart-cards/EdgeCardDeco";
 import ReadMarker from "@/components/view/chart-cards/ReadMarker";
 import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
 import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
+import CardFanartCarousel from "@/components/view/chart-cards/CardFanartCarousel";
+import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-utils";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import {
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { isEdge, isMobileViewport } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import Image from "next/image";
 import {
     Tooltip,
@@ -57,19 +56,20 @@ const EdgeCard = ({
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
 
-    const {
-        selectedEdge,
-        chapter,
-        day,
-    } = useViewStore(useShallow(state => {
-        let selectedEdge = state.selectedElement !== null && isEdge(state.selectedElement) ? state.selectedElement as FixedEdgeType : null;
+    const { selectedEdge, chapter, day } = useViewStore(
+        useShallow((state) => {
+            let selectedEdge =
+                state.selectedElement !== null && isEdge(state.selectedElement)
+                    ? (state.selectedElement as FixedEdgeType)
+                    : null;
 
-        return {
-            selectedEdge: selectedEdge,
-            chapter: state.chapter,
-            day: state.day,
-        };
-    }));
+            return {
+                selectedEdge: selectedEdge,
+                chapter: state.chapter,
+                day: state.day,
+            };
+        }),
+    );
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -98,10 +98,9 @@ const EdgeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        if(selectedEdge) {
+        if (selectedEdge) {
             setReadStatus(chapter, day, selectedEdge.id, isRead);
-        }
-        else {
+        } else {
             console.error("onReadChange called with null selectedEdge");
         }
     }
@@ -123,7 +122,14 @@ const EdgeCard = ({
     };
 
     const edgeRelationshipId = selectedEdge?.data?.relationshipId ?? null;
-    const edgeRelationship = edgeRelationshipId !== null ? chapterData.relationships[edgeRelationshipId] : null;
+    const edgeRelationship =
+        edgeRelationshipId !== null
+            ? chapterData.relationships[edgeRelationshipId]
+            : null;
+    const { contentWithoutFanart, fanartEntries } = useMemo(
+        () => getCardFanartData(selectedEdge?.data?.content || ""),
+        [selectedEdge?.data?.content],
+    );
 
     const renderContent =
         selectedEdge !== null &&
@@ -290,11 +296,16 @@ const EdgeCard = ({
                                 onNodeLinkClicked={onNodeLinkClicked}
                                 className="md:px-4 px-2"
                             >
-                                {selectedEdge.data?.content ||
-                                    "No content available"}
+                                {contentWithoutFanart || "No content available"}
                             </ViewMarkdown>
                         </motion.div>
                     </AnimatePresence>
+                    <Separator className="my-4" />
+
+                    <CardFanartCarousel
+                        className="mt-5 md:px-4 px-2"
+                        fanartEntries={fanartEntries}
+                    />
 
                     <Separator className="my-4" />
                     <PrevNextDayNavigation

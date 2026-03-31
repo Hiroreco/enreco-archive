@@ -403,6 +403,11 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
                     backdropFilter &&
                         "supports-[backdrop-filter]:bg-background/80",
                 )}
+                onOpenAutoFocus={(event) => {
+                    if (window.matchMedia("(max-width: 767px)").matches) {
+                        event.preventDefault();
+                    }
+                }}
                 showXButtonForce={true}
                 showXButton={true}
                 xButtonClassName="right-1 top-1"

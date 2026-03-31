@@ -51,7 +51,8 @@
         "upload-to-r2": "tsx scripts/news/upload-to-r2.ts",
         "inject-news": "tsx scripts/news/inject-news.ts",
         "find-missing": "tsx scripts/news/find-missing.ts",
-        "rename-news-entries": "tsx scripts/news/rename-news-entries.ts"
+        "rename-news-entries": "tsx scripts/news/rename-news-entries.ts",
+        "match-fanart": "tsx scripts/misc/match-fanart.ts"
     },
     "devDependencies": {
         "@aws-sdk/client-s3": "^3.972.0",

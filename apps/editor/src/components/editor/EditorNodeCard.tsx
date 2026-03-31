@@ -1,4 +1,5 @@
 import EditorCard from "@/components/editor/EditorCard";
+import { useEditorStore } from "@/store/editorStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Label } from "@enreco-archive/common-ui/components/label";
@@ -47,7 +48,6 @@ interface EditorNodeCardProps {
     ) => void;
     deleteNode: () => void;
     onCardClose: () => void;
-    numberOfDays: number;
     isDarkMode: boolean;
 }
 
@@ -59,13 +59,15 @@ export default function EditorNodeCard({
     updateNode,
     deleteNode,
     onCardClose,
-    numberOfDays,
 }: EditorNodeCardProps) {
     const [workingNode, setWorkingNode] = useState(selectedNode);
     const [imgPreviewLink, setImgPreviewLink] = useState(
         selectedNode.data.imageSrc || DEFAULT_NODE_IMAGE,
     );
     const [extractedColors, setExtractedColors] = useState<string[]>([]);
+
+    let day = useEditorStore((state) => state.day);
+    day = day === null ? 0 : day + 1;
 
     useEffect(() => {
         setWorkingNode(selectedNode);
@@ -75,10 +77,6 @@ export default function EditorNodeCard({
     const titleElem = useRef<HTMLInputElement>(null);
 
     const nodeIds = nodes.map((node) => node.id);
-
-    const handleSave = () => {
-        updateNode(selectedNode, workingNode);
-    };
 
     const generateIdFromTitle = (title: string) => {
         const truncTitle =
@@ -96,7 +94,9 @@ export default function EditorNodeCard({
     const setWorkingNodeAttr = (
         updater: (draft: WritableDraft<EditorImageNodeType>) => void,
     ) => {
-        setWorkingNode(produce(workingNode, updater));
+        const newWorkingNode = produce(workingNode, updater);
+        setWorkingNode(newWorkingNode);
+        updateNode(selectedNode, newWorkingNode);
     };
 
     const extractColorsFromImage = async () => {
@@ -258,7 +258,7 @@ export default function EditorNodeCard({
                         />
                     </SelectTrigger>
                     <SelectContent>
-                        {Array.from({ length: numberOfDays }, (_, i) => (
+                        {Array.from({ length: day }, (_, i) => (
                             <SelectItem key={i} value={i.toString()}>
                                 Day {i + 1}
                             </SelectItem>
@@ -335,7 +335,6 @@ export default function EditorNodeCard({
             </div>
 
             <div className="flex flex-row gap-16">
-                <Button onClick={handleSave}>Save</Button>
                 <Button onClick={deleteNode}>Delete</Button>
             </div>
         </EditorCard>

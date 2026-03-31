@@ -1,255 +1,243 @@
 import {
-    countChecklistItems,
-    createOctokit,
-    extractChapterDay,
-    extractItemName,
-    extractItemStates,
-    extractProofreaderAssignments,
-    extractWriterAssignments,
-    getDiscordMappings,
-    getEnvVar,
-    getIssue,
-    getRepoInfo,
-    getStoredState,
-    ManualUpdate,
-    postIssueComment,
-    sendDiscordNotification,
-    storeState,
+  countChecklistItems,
+  createOctokit,
+  extractChapterDay,
+  extractItemName,
+  extractItemSections,
+  extractItemStates,
+  extractProofreaderAssignments,
+  extractWriterAssignments,
+  getDiscordMappings,
+  getEnvVar,
+  getIssue,
+  getRepoInfo,
+  getStoredState,
+  ManualUpdate,
+  postIssueComment,
+  sendDiscordNotification,
+  storeState,
 } from "../utils/shared-utils";
 
 function detectManualUpdates(
-    oldBody: string,
-    newBody: string,
-    issueTitle: string
+  oldBody: string,
+  newBody: string,
+  issueTitle: string,
 ): ManualUpdate[] {
-    const manualUpdates: ManualUpdate[] = [];
-    const chapterDay = extractChapterDay(issueTitle);
-    if (!chapterDay) return manualUpdates;
+  const manualUpdates: ManualUpdate[] = [];
+  const chapterDay = extractChapterDay(issueTitle);
+  if (!chapterDay) return manualUpdates;
 
-    const { chapter, day } = chapterDay;
+  const { chapter, day } = chapterDay;
 
-    // Extract item states from both versions
-    const oldItemStates = extractItemStates(oldBody);
-    const newItemStates = extractItemStates(newBody);
+  // Extract item states from both versions
+  const oldItemStates = extractItemStates(oldBody);
+  const newItemStates = extractItemStates(newBody);
 
-    // Compare states by item name
-    for (const [itemName, newState] of Object.entries(newItemStates)) {
-        const oldState = oldItemStates[itemName];
+  // Compare states by item name
+  for (const [itemName, newState] of Object.entries(newItemStates)) {
+    const oldState = oldItemStates[itemName];
 
-        // Detect items that changed from unchecked to checked
-        if (oldState === "unchecked" && newState === "checked") {
-            const updateType = itemName === "chart" ? "chart" : "written";
-            manualUpdates.push({
-                item: itemName,
-                chapter,
-                day,
-                type: updateType,
-            });
-            console.log(
-                `Detected manual update: ${itemName} (${updateType}) for Chapter ${chapter}, Day ${day}`
-            );
-        }
+    // Detect items that changed from unchecked to checked
+    if (oldState === "unchecked" && newState === "checked") {
+      const updateType = itemName === "chart" ? "chart" : "written";
+      manualUpdates.push({
+        item: itemName,
+        chapter,
+        day,
+        type: updateType,
+      });
+      console.log(
+        `Detected manual update: ${itemName} (${updateType}) for Chapter ${chapter}, Day ${day}`,
+      );
     }
+  }
 
-    return manualUpdates;
+  return manualUpdates;
 }
 
 function detectInitialCheckedItems(
-    issueBody: string,
-    issueTitle: string
+  issueBody: string,
+  issueTitle: string,
 ): ManualUpdate[] {
-    const initialUpdates: ManualUpdate[] = [];
-    const chapterDay = extractChapterDay(issueTitle);
-    if (!chapterDay) return initialUpdates;
+  const initialUpdates: ManualUpdate[] = [];
+  const chapterDay = extractChapterDay(issueTitle);
+  if (!chapterDay) return initialUpdates;
 
-    const { chapter, day } = chapterDay;
-    const lines = issueBody.split("\n");
+  const { chapter, day } = chapterDay;
+  const lines = issueBody.split("\n");
 
-    for (const line of lines) {
-        if (line.includes("- [x]")) {
-            const itemName = extractItemName(line);
-            if (itemName) {
-                const updateType = itemName === "chart" ? "chart" : "written";
-                initialUpdates.push({
-                    item: itemName,
-                    chapter,
-                    day,
-                    type: updateType,
-                });
-                console.log(
-                    `Found pre-existing checked item: ${itemName} (${updateType}) for Chapter ${chapter}, Day ${day}`
-                );
-            }
-        }
+  for (const line of lines) {
+    if (line.includes("- [x]")) {
+      const itemName = extractItemName(line);
+      if (itemName) {
+        const updateType = itemName === "chart" ? "chart" : "written";
+        initialUpdates.push({
+          item: itemName,
+          chapter,
+          day,
+          type: updateType,
+        });
+        console.log(
+          `Found pre-existing checked item: ${itemName} (${updateType}) for Chapter ${chapter}, Day ${day}`,
+        );
+      }
     }
+  }
 
-    return initialUpdates;
+  return initialUpdates;
 }
 
 function buildManualUpdatePingMessage(
-    updates: ManualUpdate[],
-    progressInfo: { completed: number; total: number },
-    issueBody: string
+  updates: ManualUpdate[],
+  progressInfo: { completed: number; total: number },
+  issueBody: string,
 ): string {
-    const chartUpdates = updates.filter((u) => u.type === "chart");
-    const writtenUpdates = updates.filter((u) => u.type === "written");
-    const discordMappings = getDiscordMappings();
-    console.log(discordMappings);
+  const chartUpdates = updates.filter((u) => u.type === "chart");
+  const writtenUpdates = updates.filter((u) => u.type === "written");
+  const discordMappings = getDiscordMappings();
+  console.log(discordMappings);
 
-    const chartPings = chartUpdates.map(
-        (c) => `**C${c.chapter}D${c.day}** 📈 New chart has been drawn.`
-    );
+  const chartPings = chartUpdates.map(
+    (c) => `**C${c.chapter}D${c.day}** 📈 New chart has been drawn.`,
+  );
 
-    // Extract writer and proofreader assignments for proofread updates
-    const writerAssignments = extractWriterAssignments(issueBody);
-    const proofreaderAssignments = extractProofreaderAssignments(issueBody);
+  // Extract item sections and proofreader assignments by section
+  const itemSections = extractItemSections(issueBody);
+  const proofreaderAssignments = extractProofreaderAssignments(issueBody);
+  const writerAssignments = extractWriterAssignments(issueBody);
 
-    console.log("Writer assignments:", writerAssignments);
-    console.log("Proofreader assignments:", proofreaderAssignments);
+  console.log("Item sections:", itemSections);
+  console.log("Proofreader assignments:", proofreaderAssignments);
 
-    const proofreadPings = writtenUpdates.map((p) => {
-        const assignedWriter = writerAssignments[p.item];
-        const assignedProofreader = proofreaderAssignments[assignedWriter];
-        const discordId =
-            discordMappings[assignedProofreader] || assignedProofreader;
+  const proofreadPings = writtenUpdates.map((p) => {
+    const assignedWriter = writerAssignments[p.item];
+    const itemSection = itemSections[p.item];
+    const assignedProofreader = proofreaderAssignments[itemSection];
+    const discordId =
+      discordMappings[assignedProofreader] || assignedProofreader;
 
-        console.log("Assigned writer:", assignedWriter);
-        console.log("Assigned proofreader:", assignedProofreader);
+    console.log("Item:", p.item);
+    console.log("Assigned writer:", assignedWriter);
+    console.log("Item section:", itemSection);
+    console.log("Assigned proofreader:", assignedProofreader);
 
-        return `**C${p.chapter}D${p.day}** 📝 **${p.item}** (${assignedWriter}) has been written on HackMD, pinging <@${discordId}>`;
-    });
+    return `**C${p.chapter}D${p.day}** 📝 **${p.item}** (${assignedWriter}) has been written on HackMD, pinging <@${discordId}>`;
+  });
 
-    if (
-        writtenUpdates.length > 0 &&
-        progressInfo.completed === progressInfo.total
-    ) {
-        proofreadPings.push("🎉 All entries written!");
-    }
+  if (
+    writtenUpdates.length > 0 &&
+    progressInfo.completed === progressInfo.total
+  ) {
+    proofreadPings.push("🎉 All entries written!");
+  }
 
-    return [...chartPings, ...proofreadPings].join("\n");
+  return [...chartPings, ...proofreadPings].join("\n");
 }
 
 function buildManualUpdateComment(updates: ManualUpdate[]): string {
-    const chartUpdates = updates.filter((u) => u.type === "chart");
-    const writtenUpdates = updates.filter((u) => u.type === "written");
-    const parts: string[] = [];
+  const chartUpdates = updates.filter((u) => u.type === "chart");
+  const writtenUpdates = updates.filter((u) => u.type === "written");
+  const parts: string[] = [];
 
-    if (chartUpdates.length) {
-        parts.push(
-            `Chart updates - ${chartUpdates
-                .map((c) => `Chapter ${c.chapter}, Day ${c.day}`)
-                .join(", ")}`
-        );
-    }
+  if (chartUpdates.length) {
+    parts.push(
+      `Chart updates - ${chartUpdates
+        .map((c) => `Chapter ${c.chapter}, Day ${c.day}`)
+        .join(", ")}`,
+    );
+  }
 
-    if (writtenUpdates.length) {
-        parts.push(
-            `Written complete - ${writtenUpdates
-                .map((p) => `${p.item} (Chapter ${p.chapter}, Day ${p.day})`)
-                .join(", ")}`
-        );
-    }
+  if (writtenUpdates.length) {
+    parts.push(
+      `Written complete - ${writtenUpdates
+        .map((p) => `${p.item} (Chapter ${p.chapter}, Day ${p.day})`)
+        .join(", ")}`,
+    );
+  }
 
-    return `🤖 Manual checklist update: ${parts.join("; ")}`;
+  return `🤖 Manual checklist update: ${parts.join("; ")}`;
 }
 
 async function processManualUpdates(): Promise<void> {
-    const octokit = createOctokit();
-    const { owner, repo } = getRepoInfo();
-    const issueNumber = parseInt(getEnvVar("GITHUB_ISSUE_NUMBER", "0"));
+  const octokit = createOctokit();
+  const { owner, repo } = getRepoInfo();
+  const issueNumber = parseInt(getEnvVar("GITHUB_ISSUE_NUMBER", "0"));
 
-    if (!issueNumber) {
-        console.log("No issue number provided");
-        return;
+  if (!issueNumber) {
+    console.log("No issue number provided");
+    return;
+  }
+
+  try {
+    const issue = await getIssue(octokit, owner, repo, issueNumber);
+
+    // Check if this is a daily checklist issue
+    if (!issue.labels.some((label: any) => label.name === "daily-checklist")) {
+      console.log("Not a daily checklist issue, skipping");
+      return;
     }
 
-    try {
-        const issue = await getIssue(octokit, owner, repo, issueNumber);
+    console.log(
+      `Processing manual updates for issue #${issueNumber}: ${issue.title}`,
+    );
 
-        // Check if this is a daily checklist issue
-        if (
-            !issue.labels.some((label: any) => label.name === "daily-checklist")
-        ) {
-            console.log("Not a daily checklist issue, skipping");
-            return;
-        }
+    // Get previous issue state
+    const previousBody = await getStoredState<string>(
+      octokit,
+      owner,
+      repo,
+      issueNumber,
+      "CHECKLIST_TRACKER",
+    );
+    let manualUpdates: ManualUpdate[] = [];
 
-        console.log(
-            `Processing manual updates for issue #${issueNumber}: ${issue.title}`
-        );
-
-        // Get previous issue state
-        const previousBody = await getStoredState<string>(
-            octokit,
-            owner,
-            repo,
-            issueNumber,
-            "CHECKLIST_TRACKER"
-        );
-        let manualUpdates: ManualUpdate[] = [];
-
-        if (!previousBody) {
-            console.log("No previous state found, getting current state");
-            manualUpdates = detectInitialCheckedItems(
-                issue.body || "",
-                issue.title
-            );
-        } else {
-            manualUpdates = detectManualUpdates(
-                previousBody,
-                issue.body || "",
-                issue.title
-            );
-        }
-
-        if (manualUpdates.length > 0) {
-            console.log(
-                `Found ${manualUpdates.length} manual updates:`,
-                manualUpdates
-            );
-
-            // Get current progress for the issue
-            const progressInfo = countChecklistItems(
-                issue.body || "",
-                "proofread"
-            );
-
-            // Send Discord notification
-            const pingMessage = buildManualUpdatePingMessage(
-                manualUpdates,
-                progressInfo,
-                issue.body || ""
-            );
-            await sendDiscordNotification(pingMessage);
-
-            // Post comment on the issue
-            const commentMessage = buildManualUpdateComment(manualUpdates);
-            await postIssueComment(
-                octokit,
-                owner,
-                repo,
-                issueNumber,
-                commentMessage
-            );
-        } else {
-            console.log("No manual checkbox updates detected");
-        }
-
-        // Store current state for next comparison
-        await storeState(
-            octokit,
-            owner,
-            repo,
-            issueNumber,
-            issue.body || "",
-            "CHECKLIST_TRACKER"
-        );
-    } catch (error) {
-        console.error("Error processing manual updates:", error);
+    if (!previousBody) {
+      console.log("No previous state found, getting current state");
+      manualUpdates = detectInitialCheckedItems(issue.body || "", issue.title);
+    } else {
+      manualUpdates = detectManualUpdates(
+        previousBody,
+        issue.body || "",
+        issue.title,
+      );
     }
+
+    if (manualUpdates.length > 0) {
+      console.log(
+        `Found ${manualUpdates.length} manual updates:`,
+        manualUpdates,
+      );
+
+      // Get current progress for the issue
+      const progressInfo = countChecklistItems(issue.body || "", "proofread");
+
+      // Send Discord notification
+      const pingMessage = buildManualUpdatePingMessage(
+        manualUpdates,
+        progressInfo,
+        issue.body || "",
+      );
+      await sendDiscordNotification(pingMessage);
+
+      // Post comment on the issue
+      const commentMessage = buildManualUpdateComment(manualUpdates);
+      await postIssueComment(octokit, owner, repo, issueNumber, commentMessage);
+    } else {
+      console.log("No manual checkbox updates detected");
+    }
+
+    // Store current state for next comparison
+    await storeState(
+      octokit,
+      owner,
+      repo,
+      issueNumber,
+      issue.body || "",
+      "CHECKLIST_TRACKER",
+    );
+  } catch (error) {
+    console.error("Error processing manual updates:", error);
+  }
 }
 
-// Main execution
-if (require.main === module) {
-    processManualUpdates().catch(console.error);
-}
+processManualUpdates().catch(console.error);

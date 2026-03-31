@@ -48,3 +48,5 @@
 ["🐦‍⬛" by Pungson Mori](https://x.com/33aalloonnHD/status/1902579334008692736)
 
 ["Nerissa" by Okunashi](https://x.com/okunashi27/status/1900088484695818505)
+
+["little joys" by pawchie](https://x.com/paw_chie/status/2034370749230977384)

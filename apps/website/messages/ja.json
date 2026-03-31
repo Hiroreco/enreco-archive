@@ -216,16 +216,16 @@
             "inclusiveModes": {
                 "include": "含む",
                 "showAll": {
-                    "label": "すべて",
-                    "description": "選択したキャラクターのいずれかに一致するすべてのアートワークを表示"
+                    "label": "いずれか",
+                    "description": "選択したキャラクターのいずれかを含むアートワークを表示"
                 },
                 "hasAny": {
-                    "label": "いずれか",
+                    "label": "すべて",
                     "description": "選択したキャラクターのすべてを含むアートワークを表示"
                 },
                 "hasOnly": {
                     "label": "のみ",
-                    "description": "選択したキャラクターのみを含むアートワークを表示"
+                    "description": "選択したキャラクターのみを含み、他には誰も含まないアートワークを表示"
                 }
             },
             "sortModes": {
@@ -293,6 +293,14 @@
         }
     },
     "cards": {
+        "fanartSection": {
+            "title": "ファン作品",
+            "items": "件の投稿",
+            "scrollLeft": "ファン作品を左にスクロール",
+            "scrollRight": "ファン作品を右にスクロール",
+            "openOriginal": "元の投稿を開く",
+            "openImage": "ファン作品を開く: {label}"
+        },
         "nodeCard": {
             "readTooltip": "このカードは既読です",
             "guild": "ギルド",
@@ -373,7 +381,11 @@
         "Same Person": "同一人物"
     },
     "loading": {
-        "clickToStart": "どこかをクリックして開始"
+        "clickToStart": "どこかをクリックして開始",
+        "aprilFools": {
+            "aprilFoolsMessage": "ENigmasix Sevencollection",
+            "aprilFoolsSubtext": "Chapter 3: Broken Bones"
+        }
     },
     "glossary": {
         "title": "用語集",

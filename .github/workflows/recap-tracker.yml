@@ -30,17 +30,18 @@ jobs:
               with:
                   node-version: "20"
             - name: Install dependencies
-              run: npm install @octokit/rest tsx
+              run: mkdir -p /tmp/gh-scripts && cd /tmp/gh-scripts && npm install @octokit/rest tsx
             - name: Process file submissions
               env:
-                  GITHUB_TOKEN: ${{ vars.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   GITHUB_ACTOR: ${{ github.actor }}
                   GITHUB_SHA: ${{ github.sha }}
                   REPO_OWNER: ${{ github.repository_owner }}
                   REPO_NAME: ${{ github.event.repository.name }}
                   DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
                   DISCORD_USER_MAPPINGS: ${{ vars.DISCORD_USER_MAPPINGS }}
-              run: npx tsx .github/scripts/file-submission-handler.ts
+              run: npx --prefix /tmp/gh-scripts tsx .github/scripts/file-submission-handler.ts
+
     timestamp-updates:
         name: Check Timestamp Updates
         runs-on: ubuntu-latest
@@ -53,16 +54,17 @@ jobs:
               with:
                   node-version: "20"
             - name: Install dependencies
-              run: npm install @octokit/rest tsx
+              run: mkdir -p /tmp/gh-scripts && cd /tmp/gh-scripts && npm install @octokit/rest tsx
             - name: Check timestamp updates
               env:
-                  GITHUB_TOKEN: ${{ vars.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   REPO_OWNER: ${{ github.repository_owner }}
                   REPO_NAME: ${{ github.event.repository.name }}
                   GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
                   DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
                   DISCORD_USER_MAPPINGS: ${{ vars.DISCORD_USER_MAPPINGS }}
-              run: npx tsx .github/scripts/timestamp-handler.ts
+              run: npx --prefix /tmp/gh-scripts tsx .github/scripts/timestamp-handler.ts
+
     manual-checklist-updates:
         name: Check Manual Checklist Updates
         runs-on: ubuntu-latest
@@ -75,12 +77,13 @@ jobs:
               with:
                   node-version: "20"
             - name: Install dependencies
-              run: npm install @octokit/rest tsx
+              run: mkdir -p /tmp/gh-scripts && cd /tmp/gh-scripts && npm install @octokit/rest tsx
             - name: Check manual checklist updates
               env:
-                  GITHUB_TOKEN: ${{ vars.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   REPO_OWNER: ${{ github.repository_owner }}
                   REPO_NAME: ${{ github.event.repository.name }}
                   GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
                   DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
-              run: npx tsx .github/scripts/manual-update-handler.ts
+                  DISCORD_USER_MAPPINGS: ${{ vars.DISCORD_USER_MAPPINGS }}
+              run: npx --prefix /tmp/gh-scripts tsx .github/scripts/manual-update-handler.ts
