@@ -1,18 +1,4 @@
-## Chapter 3, Day 1 (EXAMPLE)
-
-**Before submitting your work:**
-
-- Is your recap under 900 words? If it's too long, trim it down.
-- Does your recap tell a cohesive story, rather than just listing events?
-- Does it continue the ongoing narrative arc of the character(s)?
-- Have you moved all relationship developments into separate relationship cards?
-- Have you included timestamps where appropriate?
-- Were there any special texts (e.g., _A Knight’s Tale_, letters, poems)? If so, have you added them using the correct format from the guide?
-- For major relationship cards, did you check the context from the other character’s POV?
-
----
-
-_**Note: The list will automatically update once you submit your files, with a notification sent to one of the server's channels**_
+## Chapter 3, Day 1 (PRACTICE)
 
 ### Chart
 
@@ -20,42 +6,44 @@ _**Note: The list will automatically update once you submit your files, with a n
 
 ### General
 
-- [x] recap (hiroavrs)
-- [x] lore (hiroavrs)
+- [ ] recap (hiroavrs)
+- [ ] lore (hiroavrs)
 
 ### Myth
 
-- [x] calli
-- [ ] ina
-- [x] ~~kiara~~ (perksjzbri)
+- [ ] calli (hiroavrs)
+- [ ] ina (derpizard)
+- [ ] kiara (perksjzbri)
 
 ### Promise
 
-- [x] kronii (escalevator)
+- [ ] kronii (escalevator)
 - [ ] bae (alfrys)
-- [x] ~~irys~~ (hiroavrs)
+- [ ] irys (hiroavrs)
 
 ### Advent
 
-- [ ] ~~shiori~~
-- [x] nerissa (zelrecht)
-- [x] bijou (fayelinyalunavt)
-- [x] ~~fuwawa~~ (hiroavrs)
-- [ ] mococo
+- [ ] shiori (hiroavrs)
+- [ ] nerissa (zelrecht)
+- [ ] bijou (fayelinyalunavt)
+- [ ] fuwawa (hiroavrs)
+- [ ] mococo (imbusysquidbaggingcalllater)
 
-## Justice
+### Justice
 
-- [x] gigi (zephyrkitten)
+- [ ] gigi (zephyrkitten)
 - [ ] cecilia (kugagray)
 - [ ] liz (sberb_gz)
-- [ ] raora
+- [ ] raora (seventysix)
 
 ## Timestamps
 
-- irys [link](https://www.youtube.com/watch?v=fTZK2WuGzDw&t=3001s)
-- gigi [link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- `{pov-name} [link](url)`
+- gigi [link](https://hiroreco.github.io/enreco-utils/timestamp-viewer/irys-c2d1)
 
 ## Proofreaders
 
-- sinofsloth4784: hiroavrs, zephykitten, escalevator
-- hiroavrs: fayelinyalunavt, perksjzbri
+- fastasnuk: Myth
+- derpizard: Promise
+- sinofsloth4784: Advent
+- hiroavrs: Justice
