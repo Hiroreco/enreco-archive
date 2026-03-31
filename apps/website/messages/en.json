@@ -217,7 +217,7 @@
                 "include": "Include",
                 "showAll": {
                     "label": "Any",
-                    "description": "Show artworks that has any of the selected characters"
+                    "description": "Show artworks that have any of the selected characters"
                 },
                 "hasAny": {
                     "label": "All",
