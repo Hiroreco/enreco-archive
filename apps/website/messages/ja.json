@@ -294,12 +294,12 @@
     },
     "cards": {
         "fanartSection": {
-            "title": "ファンアート",
+            "title": "ファン作品",
             "items": "件の投稿",
-            "scrollLeft": "ファンアートを左にスクロール",
-            "scrollRight": "ファンアートを右にスクロール",
+            "scrollLeft": "ファン作品を左にスクロール",
+            "scrollRight": "ファン作品を右にスクロール",
             "openOriginal": "元の投稿を開く",
-            "openImage": "ファンアートを開く: {label}"
+            "openImage": "ファン作品を開く: {label}"
         },
         "nodeCard": {
             "readTooltip": "このカードは既読です",

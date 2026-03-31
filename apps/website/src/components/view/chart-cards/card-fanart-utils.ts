@@ -10,6 +10,9 @@ const fanartEntryMap = new Map(
     fanartEntries.map((entry) => [normalizeFanartUrl(entry.url), entry]),
 );
 
+const FANART_HEADING_PATTERN =
+    /^(#{1,6})\s+(Fanart|Fanwork|Fan art|Fan Art|Fan Work|Memes|Meme|ファンアート|ファン作品|ファンワーク|ミーム)(?=\s|$)/i;
+
 function normalizeFanartUrl(url: string): string {
     try {
         const parsedUrl = new URL(url.trim());
@@ -29,6 +32,43 @@ function normalizeFanartUrl(url: string): string {
     }
 }
 
+function findAllFanartSections(
+    lines: string[],
+): Array<{
+    startIndex: number;
+    endIndex: number;
+    headingLevel: number;
+}> {
+    const sections: Array<{
+        startIndex: number;
+        endIndex: number;
+        headingLevel: number;
+    }> = [];
+
+    for (let index = 0; index < lines.length; index += 1) {
+        const line = lines[index];
+        const headingMatch = line.match(FANART_HEADING_PATTERN);
+
+        if (headingMatch) {
+            const headingLevel = headingMatch[1].length;
+
+            // Find end of section (next heading with same or higher priority)
+            let endIndex = lines.length;
+            for (let i = index + 1; i < lines.length; i += 1) {
+                const nextHeading = lines[i].match(/^(#{1,6})\s+/);
+                if (nextHeading && nextHeading[1].length <= headingLevel) {
+                    endIndex = i;
+                    break;
+                }
+            }
+
+            sections.push({ startIndex: index, endIndex, headingLevel });
+        }
+    }
+
+    return sections;
+}
+
 export function getCardFanartData(content: string): {
     contentWithoutFanart: string;
     fanartEntries: FanartEntry[];
@@ -43,65 +83,55 @@ export function getCardFanartData(content: string): {
     const normalizedContent = content.replace(/\r\n/g, "\n");
     const lines = normalizedContent.split("\n");
 
-    let sectionStartIndex = -1;
-    let sectionEndIndex = lines.length;
-    let sectionHeadingLevel = 0;
+    const sections = findAllFanartSections(lines);
 
-    for (let index = 0; index < lines.length; index += 1) {
-        const line = lines[index];
-        const headingMatch = line.match(/^(#{1,6})\s+(Fanart|Fanwork|ファンアート)(?=\s|$)/i);
-
-        if (headingMatch) {
-            sectionStartIndex = index;
-            sectionHeadingLevel = headingMatch[1].length;
-            break;
-        }
-    }
-
-    if (sectionStartIndex === -1) {
+    if (sections.length === 0) {
         return {
             contentWithoutFanart: content,
             fanartEntries: [],
         };
     }
 
-    for (let index = sectionStartIndex + 1; index < lines.length; index += 1) {
-        const headingMatch = lines[index].match(/^(#{1,6})\s+/);
-
-        if (headingMatch && headingMatch[1].length <= sectionHeadingLevel) {
-            sectionEndIndex = index;
-            break;
-        }
-    }
-
-    // Process lines in the fanart section and separate fanart from other content
-    const fanartSectionLines = lines.slice(sectionStartIndex + 1, sectionEndIndex);
+    // Process all sections
     const resolvedFanartEntries: FanartEntry[] = [];
-    const linesToKeepFromSection: string[] = [];
+    const sectionsToRemove: number[] = [];
 
-    for (const line of fanartSectionLines) {
-        const urlMatches = Array.from(line.matchAll(FANART_LINK_RE));
+    for (const section of sections) {
+        const sectionLines = lines.slice(section.startIndex + 1, section.endIndex);
+        const linesToKeepFromSection: string[] = [];
 
-        if (urlMatches.length === 0) {
-            // No URLs in line, keep it (empty lines, text)
-            linesToKeepFromSection.push(line);
-        } else {
-            // Check which URLs are fanart and which are not
-            let hasNonFanartUrl = false;
-            for (const match of urlMatches) {
-                const url = match[1];
-                const entry = fanartEntryMap.get(normalizeFanartUrl(url));
-                if (entry) {
-                    resolvedFanartEntries.push(entry);
-                } else {
-                    hasNonFanartUrl = true;
+        for (const line of sectionLines) {
+            const urlMatches = Array.from(line.matchAll(FANART_LINK_RE));
+
+            if (urlMatches.length === 0) {
+                // No URLs in line, keep it (empty lines, text)
+                linesToKeepFromSection.push(line);
+            } else {
+                // Check which URLs are fanart and which are not
+                let hasNonFanartUrl = false;
+                for (const match of urlMatches) {
+                    const url = match[1];
+                    const entry = fanartEntryMap.get(normalizeFanartUrl(url));
+                    if (entry) {
+                        resolvedFanartEntries.push(entry);
+                    } else {
+                        hasNonFanartUrl = true;
+                    }
+                }
+
+                // Keep line if it has any non-fanart URLs
+                if (hasNonFanartUrl) {
+                    linesToKeepFromSection.push(line);
                 }
             }
+        }
 
-            // Keep line if it has any non-fanart URLs
-            if (hasNonFanartUrl) {
-                linesToKeepFromSection.push(line);
-            }
+        // Mark section for removal if no content to keep
+        const hasContentToKeep = linesToKeepFromSection.some((line) =>
+            line.trim(),
+        );
+        if (!hasContentToKeep) {
+            sectionsToRemove.push(section.startIndex);
         }
     }
 
@@ -112,24 +142,11 @@ export function getCardFanartData(content: string): {
         };
     }
 
-    // Remove section heading if no lines to keep, otherwise keep it with the remaining lines
-    let newLines: string[];
-    const hasContentToKeep = linesToKeepFromSection.some((line) => line.trim());
-
-    if (hasContentToKeep) {
-        // Keep the section heading and lines with non-fanart content
-        newLines = [
-            ...lines.slice(0, sectionStartIndex),
-            lines[sectionStartIndex], // Keep the heading
-            ...linesToKeepFromSection,
-            ...lines.slice(sectionEndIndex),
-        ];
-    } else {
-        // Remove the entire section including heading
-        newLines = [
-            ...lines.slice(0, sectionStartIndex),
-            ...lines.slice(sectionEndIndex),
-        ];
+    // Remove sections in reverse order (so indices don't shift)
+    let newLines = [...lines];
+    for (const sectionStartIndex of sectionsToRemove.sort((a, b) => b - a)) {
+        const section = sections.find((s) => s.startIndex === sectionStartIndex)!;
+        newLines.splice(section.startIndex, section.endIndex - section.startIndex);
     }
 
     const contentWithoutFanart = newLines

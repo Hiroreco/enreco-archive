@@ -293,12 +293,12 @@
     },
     "cards": {
         "fanartSection": {
-            "title": "Fanart",
+            "title": "Fanwork",
             "items": "linked posts",
-            "scrollLeft": "Scroll fanart left",
-            "scrollRight": "Scroll fanart right",
+            "scrollLeft": "Scroll fanwork left",
+            "scrollRight": "Scroll fanwork right",
             "openOriginal": "Open original post",
-            "openImage": "Open fanart: {label}"
+            "openImage": "Open fanwork: {label}"
         },
         "nodeCard": {
             "readTooltip": "This card has been read",
