@@ -216,11 +216,11 @@
             "inclusiveModes": {
                 "include": "Include",
                 "showAll": {
-                    "label": "All",
+                    "label": "Any",
                     "description": "Show artworks that has any of the selected characters"
                 },
                 "hasAny": {
-                    "label": "Any",
+                    "label": "All",
                     "description": "Show artworks that include all the selected characters in that artwork"
                 },
                 "hasOnly": {

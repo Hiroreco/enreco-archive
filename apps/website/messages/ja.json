@@ -216,11 +216,11 @@
             "inclusiveModes": {
                 "include": "含む",
                 "showAll": {
-                    "label": "すべて",
+                    "label": "いずれか",
                     "description": "選択したキャラクターのいずれかを含むアートワークを表示"
                 },
                 "hasAny": {
-                    "label": "いずれか",
+                    "label": "すべて",
                     "description": "選択したキャラクターのすべてを含むアートワークを表示"
                 },
                 "hasOnly": {
