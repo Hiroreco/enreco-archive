@@ -217,15 +217,15 @@
                 "include": "Include",
                 "showAll": {
                     "label": "All",
-                    "description": "Show artworks that include all the selected characters"
+                    "description": "Show artworks that has any of the selected characters"
                 },
                 "hasAny": {
                     "label": "Any",
-                    "description": "Show artworks that match any of the selected characters "
+                    "description": "Show artworks that include all the selected characters in that artwork"
                 },
                 "hasOnly": {
                     "label": "Only",
-                    "description": "Show artworks that include only the selected characters"
+                    "description": "Show artworks that include only the selected characters and no one else"
                 }
             },
             "sortModes": {
