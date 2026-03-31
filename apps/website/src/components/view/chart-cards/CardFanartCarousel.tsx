@@ -21,7 +21,11 @@ interface CardFanartCarouselProps {
 }
 
 const getVideoThumbnailSrc = (videoSrc: string): string => {
-    const videoName = videoSrc.split("/").pop()?.replace(/\.[^/.]+$/, "") || "";
+    const videoName =
+        videoSrc
+            .split("/")
+            .pop()
+            ?.replace(/\.[^/.]+$/, "") || "";
     return `images-opt/${videoName}-thumb.webp`;
 };
 
@@ -156,7 +160,8 @@ const CardFanartCarousel = ({
             >
                 {fanartEntries.map((entry, index) => {
                     const previewMedia = getPreviewMedia(entry);
-                    const totalMediaCount = entry.images.length + entry.videos.length;
+                    const totalMediaCount =
+                        entry.images.length + entry.videos.length;
                     const hasVideo = entry.videos.length > 0;
 
                     return (
@@ -184,7 +189,9 @@ const CardFanartCarousel = ({
                                                 ? "blur"
                                                 : "empty"
                                         }
-                                        blurDataURL={getBlurDataURL(previewMedia.src)}
+                                        blurDataURL={getBlurDataURL(
+                                            previewMedia.src,
+                                        )}
                                     />
                                     <div className="absolute inset-0 bg-linear-to-t from-black/75 via-black/10 to-transparent" />
 
@@ -202,10 +209,13 @@ const CardFanartCarousel = ({
                                             {entry.label}
                                         </p>
                                         <p className="mt-1 line-clamp-1 text-xs text-white/80">
-                                            {tCard("by", { author: entry.author })}
+                                            {tCard("by", {
+                                                author: entry.author,
+                                            })}
                                         </p>
                                         <p className="mt-1 text-[11px] uppercase tracking-wide text-white/70">
-                                            C{entry.chapter + 1} D{entry.day + 1}
+                                            C{entry.chapter + 1} D
+                                            {entry.day + 1}
                                         </p>
                                     </div>
                                 </div>
@@ -238,6 +248,7 @@ const CardFanartCarousel = ({
                 onExternalClose={() => setIsLightboxOpen(false)}
                 onNextEnd={handleNextEntry}
                 onPrevEnd={handlePreviousEntry}
+                alwaysShowNavigationArrows={fanartEntries.length > 1}
                 showFanartMeta={true}
             />
         </section>

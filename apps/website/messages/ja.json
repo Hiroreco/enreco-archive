@@ -295,7 +295,7 @@
     "cards": {
         "fanartSection": {
             "title": "ファンアート",
-            "items": "件のリンク済み投稿",
+            "items": "件の投稿",
             "scrollLeft": "ファンアートを左にスクロール",
             "scrollRight": "ファンアートを右にスクロール",
             "openOriginal": "元の投稿を開く",
