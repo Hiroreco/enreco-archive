@@ -30,10 +30,7 @@ jobs:
               with:
                   node-version: "20"
             - name: Install dependencies
-              run: |
-                  mkdir -p /tmp/gh-scripts
-                  cd /tmp/gh-scripts
-                  npm install @octokit/rest tsx
+              run: mkdir -p /tmp/gh-scripts && cd /tmp/gh-scripts && npm install @octokit/rest tsx
             - name: Process file submissions
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -57,10 +54,7 @@ jobs:
               with:
                   node-version: "20"
             - name: Install dependencies
-              run: |
-                  mkdir -p /tmp/gh-scripts
-                  cd /tmp/gh-scripts
-                  npm install @octokit/rest tsx
+              run: mkdir -p /tmp/gh-scripts && cd /tmp/gh-scripts && npm install @octokit/rest tsx
             - name: Check timestamp updates
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -83,10 +77,7 @@ jobs:
               with:
                   node-version: "20"
             - name: Install dependencies
-              run: |
-                  mkdir -p /tmp/gh-scripts
-                  cd /tmp/gh-scripts
-                  npm install @octokit/rest tsx
+              run: mkdir -p /tmp/gh-scripts && cd /tmp/gh-scripts && npm install @octokit/rest tsx
             - name: Check manual checklist updates
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
