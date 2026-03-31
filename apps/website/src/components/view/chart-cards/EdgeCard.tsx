@@ -10,10 +10,7 @@ import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-uti
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import {
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { isEdge, isMobileViewport } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
@@ -59,19 +56,20 @@ const EdgeCard = ({
     const contentRef = useRef<HTMLDivElement>(null);
     const { getNode } = useReactFlow();
 
-    const {
-        selectedEdge,
-        chapter,
-        day,
-    } = useViewStore(useShallow(state => {
-        let selectedEdge = state.selectedElement !== null && isEdge(state.selectedElement) ? state.selectedElement as FixedEdgeType : null;
+    const { selectedEdge, chapter, day } = useViewStore(
+        useShallow((state) => {
+            let selectedEdge =
+                state.selectedElement !== null && isEdge(state.selectedElement)
+                    ? (state.selectedElement as FixedEdgeType)
+                    : null;
 
-        return {
-            selectedEdge: selectedEdge,
-            chapter: state.chapter,
-            day: state.day,
-        };
-    }));
+            return {
+                selectedEdge: selectedEdge,
+                chapter: state.chapter,
+                day: state.day,
+            };
+        }),
+    );
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -100,10 +98,9 @@ const EdgeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        if(selectedEdge) {
+        if (selectedEdge) {
             setReadStatus(chapter, day, selectedEdge.id, isRead);
-        }
-        else {
+        } else {
             console.error("onReadChange called with null selectedEdge");
         }
     }
@@ -125,7 +122,10 @@ const EdgeCard = ({
     };
 
     const edgeRelationshipId = selectedEdge?.data?.relationshipId ?? null;
-    const edgeRelationship = edgeRelationshipId !== null ? chapterData.relationships[edgeRelationshipId] : null;
+    const edgeRelationship =
+        edgeRelationshipId !== null
+            ? chapterData.relationships[edgeRelationshipId]
+            : null;
     const { contentWithoutFanart, fanartEntries } = useMemo(
         () => getCardFanartData(selectedEdge?.data?.content || ""),
         [selectedEdge?.data?.content],
@@ -300,6 +300,7 @@ const EdgeCard = ({
                             </ViewMarkdown>
                         </motion.div>
                     </AnimatePresence>
+                    <Separator className="my-4" />
 
                     <CardFanartCarousel
                         className="mt-5 md:px-4 px-2"

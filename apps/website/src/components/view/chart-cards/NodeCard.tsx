@@ -57,19 +57,20 @@ const NodeCard = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    const {
-        selectedNode,
-        chapter,
-        day
-    } = useViewStore(useShallow(state => {
-        let selectedNode = state.selectedElement !== null && isNode(state.selectedElement) ? state.selectedElement as ImageNodeType : null;
+    const { selectedNode, chapter, day } = useViewStore(
+        useShallow((state) => {
+            let selectedNode =
+                state.selectedElement !== null && isNode(state.selectedElement)
+                    ? (state.selectedElement as ImageNodeType)
+                    : null;
 
-        return {
-            selectedNode: selectedNode,
-            chapter: state.chapter,
-            day: state.day,
-        };
-    }));
+            return {
+                selectedNode: selectedNode,
+                chapter: state.chapter,
+                day: state.day,
+            };
+        }),
+    );
 
     const { getChapter } = useLocalizedData();
     const chapterData = getChapter(chapter);
@@ -95,10 +96,9 @@ const NodeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        if(selectedNode) {
+        if (selectedNode) {
             setReadStatus(chapter, day, selectedNode.id, isRead);
-        }
-        else {
+        } else {
             console.error("onReadChange called with null selectedNode");
         }
     }
@@ -217,10 +217,7 @@ const NodeCard = ({
                             onDayChange={onDayChange}
                             availiableElements={availiableNodes}
                         />
-                        <CardUtilities
-                            chapter={chapter}
-                            node={selectedNode}
-                        />
+                        <CardUtilities chapter={chapter} node={selectedNode} />
                     </div>
                     <AnimatePresence mode="wait">
                         <motion.div
@@ -240,12 +237,13 @@ const NodeCard = ({
                         </motion.div>
                     </AnimatePresence>
 
+                    <Separator className="my-4" />
                     <CardFanartCarousel
                         className="mt-5 md:px-4 px-2"
                         fanartEntries={fanartEntries}
                     />
-
                     <Separator className="my-4" />
+
                     <PrevNextDayNavigation
                         onPreviousDayClick={() => {
                             const currentIndex = availiableNodes.findIndex(
