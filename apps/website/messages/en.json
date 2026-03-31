@@ -372,7 +372,11 @@
         "Same Person": "Same Person"
     },
     "loading": {
-        "clickToStart": "Click anywhere to start"
+        "clickToStart": "Click anywhere to start",
+        "aprilFools": {
+            "aprilFoolsMessage": "ENigmasix Sevencollection",
+            "aprilFoolsSubtext": "Chapter 3: Broken Bones"
+        }
     },
     "glossary": {
         "title": "Glossary",
