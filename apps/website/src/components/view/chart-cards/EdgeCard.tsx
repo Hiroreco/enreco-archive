@@ -5,6 +5,8 @@ import EdgeCardDeco from "@/components/view/chart-cards/EdgeCardDeco";
 import ReadMarker from "@/components/view/chart-cards/ReadMarker";
 import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
 import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
+import CardFanartCarousel from "@/components/view/chart-cards/CardFanartCarousel";
+import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-utils";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
@@ -15,7 +17,7 @@ import {
 import { isEdge, isMobileViewport } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import Image from "next/image";
 import {
     Tooltip,
@@ -124,6 +126,10 @@ const EdgeCard = ({
 
     const edgeRelationshipId = selectedEdge?.data?.relationshipId ?? null;
     const edgeRelationship = edgeRelationshipId !== null ? chapterData.relationships[edgeRelationshipId] : null;
+    const { contentWithoutFanart, fanartEntries } = useMemo(
+        () => getCardFanartData(selectedEdge?.data?.content || ""),
+        [selectedEdge?.data?.content],
+    );
 
     const renderContent =
         selectedEdge !== null &&
@@ -290,11 +296,15 @@ const EdgeCard = ({
                                 onNodeLinkClicked={onNodeLinkClicked}
                                 className="md:px-4 px-2"
                             >
-                                {selectedEdge.data?.content ||
-                                    "No content available"}
+                                {contentWithoutFanart || "No content available"}
                             </ViewMarkdown>
                         </motion.div>
                     </AnimatePresence>
+
+                    <CardFanartCarousel
+                        className="mt-5 md:px-4 px-2"
+                        fanartEntries={fanartEntries}
+                    />
 
                     <Separator className="my-4" />
                     <PrevNextDayNavigation

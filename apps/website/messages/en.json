@@ -292,6 +292,14 @@
         }
     },
     "cards": {
+        "fanartSection": {
+            "title": "Fanart",
+            "items": "linked posts",
+            "scrollLeft": "Scroll fanart left",
+            "scrollRight": "Scroll fanart right",
+            "openOriginal": "Open original post",
+            "openImage": "Open fanart: {label}"
+        },
         "nodeCard": {
             "readTooltip": "This card has been read",
             "guild": "Guild",
