@@ -373,7 +373,11 @@
         "Same Person": "同一人物"
     },
     "loading": {
-        "clickToStart": "どこかをクリックして開始"
+        "clickToStart": "どこかをクリックして開始",
+        "aprilFools": {
+            "aprilFoolsMessage": "ENigmasix Sevencollection",
+            "aprilFoolsSubtext": "Chapter 3: Broken Bones"
+        }
     },
     "glossary": {
         "title": "用語集",
