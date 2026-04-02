@@ -109,6 +109,9 @@ function buildManualUpdatePingMessage(
   console.log("Item sections:", itemSections);
   console.log("Proofreader assignments:", proofreaderAssignments);
 
+  // Count completed written items (excluding chart)
+  const writtenProgressInfo = countChecklistItems(issueBody, "proofread");
+
   const proofreadPings = writtenUpdates.map((p) => {
     const assignedWriter = writerAssignments[p.item];
     const itemSection = itemSections[p.item];
@@ -121,12 +124,12 @@ function buildManualUpdatePingMessage(
     console.log("Item section:", itemSection);
     console.log("Assigned proofreader:", assignedProofreader);
 
-    return `**C${p.chapter}D${p.day}** 📝 **${p.item}** (${assignedWriter}) has been written on HackMD, pinging <@${discordId}>`;
+    return `**C${p.chapter}D${p.day}** (${writtenProgressInfo.completed}/${writtenProgressInfo.total})📝 **${p.item}** (${assignedWriter}) has been written on HackMD, pinging <@${discordId}>`;
   });
 
   if (
     writtenUpdates.length > 0 &&
-    progressInfo.completed === progressInfo.total
+    writtenProgressInfo.completed === writtenProgressInfo.total
   ) {
     proofreadPings.push("🎉 All entries written!");
   }

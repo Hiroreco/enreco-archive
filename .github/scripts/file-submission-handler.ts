@@ -23,13 +23,9 @@ function buildFileSubmissionPingMessage(
     .filter((f) => f.status === "added")
     .map(
       (f) =>
-        `**C${f.chapter}D${f.day}** ✅ **${f.item}** has been submitted by ${
+        `**C${f.chapter}D${f.day}** (${progressInfo.completed}/${progressInfo.total}) ✅ **${f.item}** has been submitted by ${
           f.submitter
-        } [here](https://github.com/${getRepoInfo().owner}/${
-          getRepoInfo().repo
-        }/commit/${commitSha}) (${progressInfo.completed}/${
-          progressInfo.total
-        }).`,
+        }.`,
     )
     .join("\n");
 
@@ -116,38 +112,16 @@ async function processFileSubmissions(): Promise<void> {
     console.log(`File ${file} has been ${fileStatus}`);
 
     if (fileStatus === "added") {
-      const escapedItem = escapeRegex(item);
-
-      // First try to cross off unchecked items
-      let checkPattern = new RegExp(
-        `^(\\s*- \\[ \\] )(${escapedItem})((?:\\s*\\([^)]+\\))?)\\s*$`,
-        "gm",
+      const originalBody = updatedIssues[issue.number];
+      updatedIssues[issue.number] = crossOffItem(
+        updatedIssues[issue.number],
+        item,
       );
 
-      if (checkPattern.test(updatedIssues[issue.number])) {
-        updatedIssues[issue.number] = crossOffItem(
-          updatedIssues[issue.number],
-          item,
-        );
-        console.log(`Crossed off ${item} in Chapter ${chapter}, Day ${day}`);
+      if (updatedIssues[issue.number] !== originalBody) {
+        console.log(`Marked ${item} as submitted in Chapter ${chapter}, Day ${day}`);
       } else {
-        // Check if item is already checked but not crossed off
-        const checkedPattern = new RegExp(
-          `^(\\s*- \\[x\\] )(${escapedItem})((?:\\s*\\([^)]+\\))?)\\s*$`,
-          "gm",
-        );
-
-        if (checkedPattern.test(updatedIssues[issue.number])) {
-          updatedIssues[issue.number] = crossOffItem(
-            updatedIssues[issue.number],
-            item,
-          );
-          console.log(
-            `Crossed off already checked ${item} in Chapter ${chapter}, Day ${day}`,
-          );
-        } else {
-          console.log(`Could not find pattern for ${item} to cross off`);
-        }
+        console.log(`Could not find pattern for ${item} to mark as submitted`);
       }
     }
 

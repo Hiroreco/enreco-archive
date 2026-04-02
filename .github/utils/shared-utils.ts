@@ -133,6 +133,9 @@ export function countChecklistItems(
     if (!trimmedLine.startsWith("- [")) continue;
     if (trimmedLine.includes("chart")) continue;
 
+    // Skip nested items (indented list items)
+    if (line.startsWith("  ") || line.startsWith("\t")) continue;
+
     total++;
     if (trimmedLine.includes(thingToCheckfor)) {
       completed++;
@@ -173,27 +176,33 @@ export function extractWriterAssignments(
 ): Record<string, string> {
   const assignments: Record<string, string> = {};
   const lines = issueBody.split("\n");
+  let currentWriter = "";
 
   for (const line of lines) {
     const trimmedLine = line.trim();
-    if (!trimmedLine || !trimmedLine.startsWith("- [")) continue;
 
-    const parenIndex = trimmedLine.indexOf("(");
-    const closeParenIndex = trimmedLine.indexOf(")", parenIndex);
-    if (parenIndex === -1 || closeParenIndex === -1) continue;
+    // Skip empty lines
+    if (!trimmedLine) {
+      continue;
+    }
 
-    const writer = trimmedLine
-      .substring(parenIndex + 1, closeParenIndex)
-      .trim();
-    let afterCheckbox = trimmedLine.replace(/^- \[[x\s]\]\s*/, "");
-    // Remove (submitted) marker if present
-    afterCheckbox = afterCheckbox.replace(/\s*\(submitted\)\s*$/, "");
-    const beforeParen = afterCheckbox
-      .substring(0, afterCheckbox.indexOf("("))
-      .trim();
+    // Reset writer on section headers (## or more)
+    if (trimmedLine.startsWith("##")) {
+      currentWriter = "";
+      continue;
+    }
 
-    if (beforeParen && writer) {
-      assignments[beforeParen] = writer;
+    // If it's a checklist item (- [ or - [x)
+    if (trimmedLine.match(/^- \[[x\s]\]/)) {
+      if (currentWriter) {
+        const itemName = extractItemName(trimmedLine);
+        if (itemName) {
+          assignments[itemName] = currentWriter;
+        }
+      }
+    } else if (!trimmedLine.startsWith("-") && !trimmedLine.startsWith("`")) {
+      // If it's not a list item and not code/special formatting, treat as writer name
+      currentWriter = trimmedLine;
     }
   }
 
@@ -217,7 +226,7 @@ export function crossOffItem(issueBody: string, item: string): string {
   // Try unchecked items first - mark as checked and add (submitted)
   // Capture leading whitespace and dash separately to preserve indentation
   let pattern = new RegExp(
-    `^(\\s*- )\\[ \\] (${escapedItem})((?:\\s*\\([^)]+\\))?)\\s*$`,
+    `^(\\s*- )\\[ \\] (${escapedItem})((?:\\s*\\([^)]+\\))?)$`,
     "gm",
   );
 
@@ -226,7 +235,7 @@ export function crossOffItem(issueBody: string, item: string): string {
   // If no replacement happened, try checked items - just add (submitted)
   if (result === issueBody) {
     pattern = new RegExp(
-      `^(\\s*- \\[x\\] )(${escapedItem})((?:\\s*\\([^)]+\\))?)\\s*$`,
+      `^(\\s*- \\[x\\] )(${escapedItem})((?:\\s*\\([^)]+\\))?)$`,
       "gm",
     );
     result = issueBody.replace(pattern, `$1${item}$3 (submitted)`);
