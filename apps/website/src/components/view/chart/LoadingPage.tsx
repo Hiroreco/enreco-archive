@@ -21,9 +21,8 @@ const LoadingPage = ({
     const [isPulse, setIsPulse] = useState(false);
 
     const isAprilFools = useMemo(() => {
-        // const today = new Date();
-        return true;
-        // return today.getMonth() === 3 && today.getDate() === 1;
+        const today = new Date();
+        return today.getMonth() === 3 && today.getDate() === 1;
     }, []);
 
     const handleClick = useCallback(() => {
