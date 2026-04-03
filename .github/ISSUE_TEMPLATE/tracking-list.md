@@ -1,37 +1,63 @@
-## Chapter 3, Day 1 (PRACTICE)
-
 ### Chart
-
-- chart (tactician_walt)
+tactician_walt
+- chart
 
 ### General
-
-- recap (hiroavrs)
-- lore (hiroavrs)
+hiroavrs
+- recap
+- lore
 
 ### Myth
+hiroavrs
+- calli
+- calli-shiori (romantic)
 
-- calli (hiroavrs)
-- ina (derpizard)
-- kiara (perksjzbri)
+derpizard
+- ina
+
+perksjzbri
+- kiara
 
 ### Promise
+escalevator
+- kronii
 
-- kronii (escalevator)
-- bae (alfrys)
-- irys (hiroavrs)
+alfrys
+- bae
+
+hiroavrs
+- irys
 
 ### Advent
+hiroavrs
+- shiori
+- fuwawa
 
-- shiori (hiroavrs)
-- nerissa (zelrecht)
-- bijou (fayelinyalunavt)
-- fuwawa (hiroavrs)
-- mococo (imbusysquidbaggingcalllater)
+zelrecht
+- nerissa
+
+fayelinyalunavt
+- bijou
+
+imbusysquidbaggingcalllater
+- mococo
 
 ### Justice
+zephyrkitten
+- gigi
 
-- gigi (zephyrkitten)
-- cecilia (kugagray)
-- liz (sberb_gz)
-- raora (seventysix)
+kuyagray
+- cecilia
+
+sberb_gz
+- liz
+
+seventysix
+- raora
+
+## Proofreaders
+
+- fastasnuk: Myth
+- derpizard: Promise
+- sinofsloth4784: Advent
+- hiroavrs: Justice
