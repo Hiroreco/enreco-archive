@@ -23,6 +23,30 @@ export type SiteData = {
     };
 };
 
+export type LocalizedString<T extends string = "en" | "ja"> = {
+    [key in T]: string;
+};
+
+export type LocalizedTextEntry = {
+    id: string;
+    content: LocalizedString;
+    title: LocalizedString;
+    hasAudio?: boolean;
+};
+
+export type LocalizedTextGroup = {
+    chapter: number;
+    category: string;
+    title: LocalizedString;
+    description: LocalizedString;
+    entries: LocalizedTextEntry[];
+};
+
+export type TextData = {
+    [key: string]: LocalizedTextGroup;
+};
+
+// Legacy types maintained for reference
 export type TextEntry = {
     id: string;
     content: string;
@@ -36,10 +60,6 @@ export type TextGroup = {
     title: string;
     description: string;
     entries: TextEntry[];
-};
-
-export type TextData = {
-    [key: string]: TextGroup;
 };
 
 // Add new type for text audio state
@@ -200,8 +220,10 @@ export type Song = {
 
 export type SongRaw = {
     title: string;
-    info_en: string;
-    info_ja: string;
+    info: {
+        en: string;
+        ja: string;
+    };
     originalUrl: string;
     sourceUrl: string;
     coverUrl: string;

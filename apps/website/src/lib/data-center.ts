@@ -15,8 +15,7 @@ import chapter1_en from "#/en/chapter1_en.json";
 import chapter0_ja from "#/ja/chapter0_ja.json";
 import chapter1_ja from "#/ja/chapter1_ja.json";
 
-import textData_en from "#/en/text-data_en.json";
-import textData_ja from "#/ja/text-data_ja.json";
+import text from "#/text.json";
 
 import characters_en from "#/en/glossary/characters_en.json";
 import lore_en from "#/en/glossary/lore_en.json";
@@ -82,7 +81,7 @@ const transformSongs = (
     for (const [category, songs] of Object.entries(rawSongs)) {
         result[category] = songs.map((song) => ({
             ...song,
-            info: locale === "en" ? song.info_en : song.info_ja,
+            info: song.info[locale],
         }));
     }
 
@@ -96,7 +95,7 @@ const DATA: Record<Locale, LocalizedData> = {
             chapter1_en as Chapter,
             // chapter2_en as Chapter,
         ],
-        textData: textData_en as TextData,
+        textData: text as TextData,
         glossary: {
             weapons: weapons_en,
             characters: characters_en,
@@ -112,7 +111,7 @@ const DATA: Record<Locale, LocalizedData> = {
     },
     ja: {
         chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
-        textData: textData_ja as TextData,
+        textData: text as TextData,
         glossary: {
             weapons: weapons_ja,
             characters: characters_ja,
@@ -135,8 +134,38 @@ export const getChapterData = (
     return DATA[locale].chapters[chapterIndex];
 };
 
+// Convert localized text data to locale-specific format for components
+const convertLocalizedTextData = (
+    textData: TextData,
+    locale: Locale,
+): Record<string, any> => {
+    const result: Record<string, any> = {};
+
+    for (const [key, group] of Object.entries(textData)) {
+        result[key] = {
+            chapter: group.chapter,
+            category: group.category,
+            title: group.title[locale],
+            description: group.description[locale],
+            entries: group.entries.map((entry) => ({
+                id: entry.id,
+                title: entry.title[locale],
+                content: entry.content[locale],
+                hasAudio: entry.hasAudio,
+            })),
+        };
+    }
+
+    return result;
+};
+
 export const getTextData = (locale: Locale): TextData => {
     return DATA[locale].textData;
+};
+
+// Get text data in locale-specific flattened format (for UI components)
+export const getLocalizedTextData = (locale: Locale) => {
+    return convertLocalizedTextData(DATA[locale].textData, locale);
 };
 
 const CATEGORY_KEY_MAP: Record<Category, keyof LocalizedData["glossary"]> = {
@@ -174,11 +203,14 @@ export const getTextItem = (locale: Locale, textId: string) => {
         const entry = group.entries.find((e) => e.id === textId);
         if (entry) {
             return {
-                ...entry,
+                id: entry.id,
+                content: entry.content[locale],
+                title: entry.title[locale],
+                hasAudio: entry.hasAudio,
                 chapter: group.chapter,
                 category: group.category,
-                groupTitle: group.title,
-                groupDescription: group.description,
+                groupTitle: group.title[locale],
+                groupDescription: group.description[locale],
             };
         }
     }

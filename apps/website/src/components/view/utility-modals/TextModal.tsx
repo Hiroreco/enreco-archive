@@ -63,7 +63,7 @@ const TextModal = ({
                 return {
                     title: item.title,
                     entries: [item],
-                    description: "",
+                    description: item.groupDescription || "",
                 };
             }
             return null;
