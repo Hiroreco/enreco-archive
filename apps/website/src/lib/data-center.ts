@@ -39,7 +39,7 @@ import media_archive_ja from "#/ja/media-archive_ja.json";
 import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
 
-import clips_en from "#/en/clips_en.json";
+import clips from "#/clips.json";
 
 import fanfic_data_en from "#/en/fanfics.json";
 
@@ -231,22 +231,7 @@ export const getRecollectionArchive = (locale: Locale) => {
 };
 
 export const getClipsData = (locale: Locale): ClipsData => {
-    const clipsData = clips_en as ClipsData;
-
-    if (locale === "ja") {
-        return {
-            clips: clipsData.clips.map((clip) => ({
-                ...clip,
-                title: clip.title_ja || clip.title,
-            })),
-            streams: clipsData.streams.map((stream) => ({
-                ...stream,
-                title: stream.title_ja || stream.title,
-            })),
-        };
-    }
-
-    return clipsData;
+    return clips as ClipsData;
 };
 export const getFanficData = (locale: Locale) => {
     return DATA[locale].fanficData;

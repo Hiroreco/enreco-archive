@@ -23,7 +23,6 @@ export type ClipEntry = {
     id: string;
     originalUrl: string;
     title: string;
-    title_ja: string;
     thumbnailSrc: string;
     author: string;
     duration: number;

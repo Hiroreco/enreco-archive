@@ -34,7 +34,6 @@ interface ClipMetadata {
     id: string;
     originalUrl: string;
     title: string;
-    title_ja: string;
     thumbnailSrc: string;
     author: string;
     duration: number;
@@ -52,7 +51,6 @@ interface OutputData {
 interface MetadataCache {
     [videoId: string]: {
         title: string;
-        title_ja: string;
         author: string;
         thumbnailSrc: string;
         duration: number;
@@ -94,7 +92,6 @@ function extractCategoriesFromComment(comment: string): string[] {
 
 async function fetchYouTubeMetadata(videoId: string): Promise<{
     title: string;
-    title_ja: string;
     author: string;
     thumbnailSrc: string;
     duration: number;
@@ -140,7 +137,6 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
 
         return {
             title: data.title || "Unknown Title",
-            title_ja: "",
             author: data.author_name || "Unknown Author",
             thumbnailSrc,
             duration,
@@ -162,7 +158,6 @@ function buildMetadataCache(existingData: OutputData): MetadataCache {
         if (videoId && !cache[videoId]) {
             cache[videoId] = {
                 title: entry.title,
-                title_ja: entry.title_ja || "",
                 author: entry.author,
                 thumbnailSrc: entry.thumbnailSrc,
                 duration: entry.duration,
@@ -252,7 +247,6 @@ async function processClipsFile(
             id: `${locale}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
-            title_ja: metadata.title_ja,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -327,7 +321,6 @@ async function processAnimaticsFile(
             id: `${locale}-animatics-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
-            title_ja: metadata.title_ja,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -431,7 +424,6 @@ async function processStreamsFile(
             id: `${locale}-${categoryName}-${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
-            title_ja: metadata.title_ja,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -500,7 +492,7 @@ async function main() {
         "website",
         "data",
         locale,
-        `clips_${locale}.json`,
+        `clips.json`,
     );
 
     // Load existing output file to build metadata cache
