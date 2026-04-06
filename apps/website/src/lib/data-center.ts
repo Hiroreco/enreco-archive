@@ -33,8 +33,7 @@ import songs_raw from "#/songs.json";
 import chapterRecaps_en from "#/en/chapter-recaps_en.json";
 import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
 
-import media_archive_en from "#/en/media-archive_en.json";
-import media_archive_ja from "#/ja/media-archive_ja.json";
+import media_archive from "#/media-archive.json";
 
 import changelogs_en from "#/en/changelogs_en.json";
 import changelogs_ja from "#/ja/changelogs_ja.json";
@@ -88,6 +87,29 @@ const transformSongs = (
     return result;
 };
 
+// Convert localized media archive to locale-specific format for components
+const convertLocalizedRecollectionArchive = (
+    archive: Array<any>,
+    locale: Locale,
+): RecollectionArchiveEntry[] => {
+    return archive.map((entry) => ({
+        id: entry.id,
+        title: entry.title[locale],
+        description: entry.description[locale],
+        info: entry.info[locale],
+        chapter: entry.chapter,
+        thumbnailUrl: entry.thumbnailUrl,
+        entries: entry.entries.map((media: any) => ({
+            title: media.title[locale],
+            originalUrl: media.originalUrl,
+            thumbnailUrl: media.thumbnailUrl,
+            info: media.info[locale],
+            src: media.src,
+            type: media.type,
+        })),
+    }));
+};
+
 const DATA: Record<Locale, LocalizedData> = {
     en: {
         chapters: [
@@ -106,7 +128,10 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
         chapterRecap: chapterRecaps_en,
         changelogs: changelogs_en,
-        recollectionArchive: media_archive_en as RecollectionArchiveEntry[],
+        recollectionArchive: convertLocalizedRecollectionArchive(
+            media_archive as any,
+            "en",
+        ) as RecollectionArchiveEntry[],
         fanficData: fanfic_data_en,
     },
     ja: {
@@ -122,7 +147,10 @@ const DATA: Record<Locale, LocalizedData> = {
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
-        recollectionArchive: media_archive_ja as RecollectionArchiveEntry[],
+        recollectionArchive: convertLocalizedRecollectionArchive(
+            media_archive as any,
+            "ja",
+        ) as RecollectionArchiveEntry[],
         fanficData: fanfic_data_en,
     },
 };
