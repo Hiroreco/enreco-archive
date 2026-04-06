@@ -5,6 +5,7 @@ import {
     GlossaryPageData,
     SiteData,
     Song,
+    SongRaw,
     TextData,
 } from "@enreco-archive/common/types";
 
@@ -28,8 +29,7 @@ import misc_ja from "#/ja/glossary/misc_ja.json";
 import quests_ja from "#/ja/glossary/quests_ja.json";
 import weapons_ja from "#/ja/glossary/weapons_ja.json";
 
-import songs_en from "#/en/songs_en.json";
-import songs_ja from "#/ja/songs_ja.json";
+import songs_raw from "#/songs.json";
 
 import chapterRecaps_en from "#/en/chapter-recaps_en.json";
 import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
@@ -72,6 +72,23 @@ interface LocalizedData {
     fanficData: FanficEntry[];
 }
 
+// Transform raw songs to locale-specific songs
+const transformSongs = (
+    rawSongs: Record<string, SongRaw[]>,
+    locale: Locale,
+): Record<string, Song[]> => {
+    const result: Record<string, Song[]> = {};
+
+    for (const [category, songs] of Object.entries(rawSongs)) {
+        result[category] = songs.map((song) => ({
+            ...song,
+            info: locale === "en" ? song.info_en : song.info_ja,
+        }));
+    }
+
+    return result;
+};
+
 const DATA: Record<Locale, LocalizedData> = {
     en: {
         chapters: [
@@ -87,7 +104,7 @@ const DATA: Record<Locale, LocalizedData> = {
             quests: quests_en,
             misc: misc_en,
         },
-        songs: songs_en,
+        songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
         chapterRecap: chapterRecaps_en,
         changelogs: changelogs_en,
         recollectionArchive: media_archive_en as RecollectionArchiveEntry[],
@@ -103,7 +120,7 @@ const DATA: Record<Locale, LocalizedData> = {
             quests: quests_ja,
             misc: misc_ja,
         },
-        songs: songs_ja,
+        songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
         chapterRecap: chapterRecaps_ja,
         changelogs: changelogs_ja,
         recollectionArchive: media_archive_ja as RecollectionArchiveEntry[],

@@ -34,7 +34,8 @@ async function main() {
         string,
         Array<{
             title: string;
-            info: string;
+            info_en: string;
+            info_ja: string;
             originalUrl: string;
             sourceUrl: string;
             coverUrl: string;
@@ -69,7 +70,8 @@ async function main() {
 
             songs.push({
                 title: name,
-                info: "",
+                info_en: "",
+                info_ja: "",
                 originalUrl: "",
                 sourceUrl: `/audio/songs/${category}/${file}`,
                 coverUrl: `/images-opt/song-${name}-opt.webp`,
@@ -93,7 +95,17 @@ async function main() {
         `  duration: string; // mm:ss`,
         `};`,
         ``,
-        `export const SONGS: { [category: string]: Song[] } = `,
+        `export type SongRaw = {`,
+        `  title: string;`,
+        `  info_en: string;`,
+        `  info_ja: string;`,
+        `  originalUrl: string;`,
+        `  sourceUrl: string;`,
+        `  coverUrl: string;`,
+        `  duration: string; // mm:ss`,
+        `};`,
+        ``,
+        `export const SONGS_RAW: { [category: string]: SongRaw[] } = `,
         JSON.stringify(result, null, 2).replace(
             /^/gm,
             "", // no indent

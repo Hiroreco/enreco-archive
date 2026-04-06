@@ -2,7 +2,8 @@
     "enreco": [
         {
             "title": "ENigmatic Recollection Trailer Theme",
-            "info": "公式トレーラーテーマ",
+            "info_en": "Official Trailer Theme",
+            "info_ja": "公式トレーラーテーマ",
             "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA&ab_channel=hololiveEnglish",
             "sourceUrl": "/audio/songs/enreco/enreco-trailer.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -10,7 +11,8 @@
         },
         {
             "title": "START AGAIN",
-            "info": "第1章の公式テーマ",
+            "info_en": "Official Theme for Chapter 1",
+            "info_ja": "第1章の公式テーマ",
             "originalUrl": "https://www.youtube.com/watch?v=NoJImTCKgrY&ab_channel=Release-Topic",
             "sourceUrl": "/audio/songs/enreco/enreco-start-again.mp3",
             "coverUrl": "/images-opt/song-enreco-start-again-opt.webp",
@@ -18,7 +20,8 @@
         },
         {
             "title": "MONSTER",
-            "info": "第2章の公式テーマ",
+            "info_en": "Official Theme for Chapter 2",
+            "info_ja": "第2章の公式テーマ",
             "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish",
             "sourceUrl": "/audio/songs/enreco/enreco-monster.mp3",
             "coverUrl": "/images-opt/song-enreco-monster-opt.webp",
@@ -28,7 +31,8 @@
     "ingame": [
         {
             "title": "Secret Library",
-            "info": "図書館のテーマ（第2章）",
+            "info_en": "Theme of the Library (Chapter 2)",
+            "info_ja": "図書館のテーマ（第2章）",
             "originalUrl": "https://audiostock.net/tracks/826727",
             "sourceUrl": "/audio/songs/ingame/ingame-secret-library.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
@@ -36,7 +40,8 @@
         },
         {
             "title": "Fantasy Orchestra 02",
-            "info": "リベスタル城のテーマ（第2章）",
+            "info_en": "Theme of the Libestal Castle (Chapter 2)",
+            "info_ja": "リベスタル城のテーマ（第2章）",
             "originalUrl": "https://audiostock.net/tracks/61836",
             "sourceUrl": "/audio/songs/ingame/ingame-fantasy-orchestra-02.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
@@ -44,7 +49,8 @@
         },
         {
             "title": "Prairie Village",
-            "info": "一般地域のテーマ（第2章）",
+            "info_en": "Theme of the General Area (Chapter 2)",
+            "info_ja": "一般地域のテーマ（第2章）",
             "originalUrl": "https://audiostock.net/tracks/891959",
             "sourceUrl": "/audio/songs/ingame/ingame-prairie-village.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
@@ -52,7 +58,8 @@
         },
         {
             "title": "Honobono Fantasy RPG Village",
-            "info": "荒野のテーマ（第2章）",
+            "info_en": "Theme of the Wilderness (Chapter 2)",
+            "info_ja": "荒野のテーマ（第2章）",
             "originalUrl": "https://audiostock.net/tracks/50035",
             "sourceUrl": "/audio/songs/ingame/ingame-honobono-fantasy-rpg-village.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
@@ -60,7 +67,8 @@
         },
         {
             "title": "Arms Store Lost Slayers",
-            "info": "シデロの断崖のテーマ（第2章）",
+            "info_en": "Theme of the Cliffs of Sidero (Chapter 2)",
+            "info_ja": "シデロの断崖のテーマ（第2章）",
             "originalUrl": "https://audiostock.net/tracks/895300",
             "sourceUrl": "/audio/songs/ingame/ingame-arms-store-lost-slayers.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
@@ -68,7 +76,8 @@
         },
         {
             "title": "Yukyu no Narrator",
-            "info": "アンティゴニアンエアリーのテーマ（第2章）",
+            "info_en": "Theme of the Antigonian Aerie (Chapter 2)",
+            "info_ja": "アンティゴニアンエアリーのテーマ（第2章）",
             "originalUrl": "https://audiostock.net/tracks/50218",
             "sourceUrl": "/audio/songs/ingame/ingame-yukyu-no-narrator.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
@@ -78,7 +87,8 @@
     "stream": [
         {
             "title": "Gigi's Opening Theme",
-            "info": "ジジが使用（第1章）",
+            "info_en": "Used by Gigi (Chapter 1)",
+            "info_ja": "ジジが使用（第1章）",
             "originalUrl": "https://www.youtube.com/live/y9KKa_k2VTU?si=dB5C6RSGg-oB0y_y",
             "sourceUrl": "/audio/songs/stream/stream-gigi-chapter-1.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -86,7 +96,8 @@
         },
         {
             "title": "003 RPG Town",
-            "info": "ぐらが使用（第1章）",
+            "info_en": "Used by Gura (Chapter 1)",
+            "info_ja": "ぐらが使用（第1章）",
             "originalUrl": "https://audiostock.net/tracks/50054",
             "sourceUrl": "/audio/songs/stream/stream-bgm-003-rpg-town.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -94,7 +105,8 @@
         },
         {
             "title": "Fantasy World Adventure",
-            "info": "ぐらが使用（第1章）",
+            "info_en": "Used by Gura (Chapter 1)",
+            "info_ja": "ぐらが使用（第1章）",
             "originalUrl": "https://audiostock.net/tracks/726537",
             "sourceUrl": "/audio/songs/stream/stream-fantasy-world-adventure.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -102,7 +114,8 @@
         },
         {
             "title": "Mercantile Town",
-            "info": "ぐらが使用（第1章）",
+            "info_en": "Used by Gura (Chapter 1)",
+            "info_ja": "ぐらが使用（第1章）",
             "originalUrl": "https://audiostock.net/tracks/44222",
             "sourceUrl": "/audio/songs/stream/stream-mercantile-town.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -110,7 +123,8 @@
         },
         {
             "title": "Meteor and Dragon",
-            "info": "ぐらが使用（第1章）",
+            "info_en": "Used by Gura (Chapter 1)",
+            "info_ja": "ぐらが使用（第1章）",
             "originalUrl": "https://audiostock.net/tracks/614400",
             "sourceUrl": "/audio/songs/stream/stream-meteor-and-dragon.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -118,7 +132,8 @@
         },
         {
             "title": "Deep Woods 5",
-            "info": "ぐらが使用（第1章）",
+            "info_en": "Used by Gura (Chapter 1)",
+            "info_ja": "ぐらが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=w0ZL_2PdEi4",
             "sourceUrl": "/audio/songs/stream/stream-deep-woods-5.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -126,7 +141,8 @@
         },
         {
             "title": "Call of the Wind",
-            "info": "ムメイが使用（第1章）",
+            "info_en": "Used by Mumei (Chapter 1)",
+            "info_ja": "ムメイが使用（第1章）",
             "originalUrl": "https://audiostock.net/tracks/491760",
             "sourceUrl": "/audio/songs/stream/stream-call-of-the-wind.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -134,7 +150,8 @@
         },
         {
             "title": "Kingdom",
-            "info": "ムメイが使用（第1章）",
+            "info_en": "Used by Mumei (Chapter 1)",
+            "info_ja": "ムメイが使用（第1章）",
             "originalUrl": "https://audiostock.net/tracks/23573",
             "sourceUrl": "/audio/songs/stream/stream-kingdom.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -142,7 +159,8 @@
         },
         {
             "title": "Baby in the Bushes",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=2PfXoyLJ4pM&ab_channel=StationarySign-Topic",
             "sourceUrl": "/audio/songs/stream/stream-baby-in-the-bushes.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -150,7 +168,8 @@
         },
         {
             "title": "Lingering Memories",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=93oO8c90rCw&ab_channel=IsobelO%27Connor-Topic",
             "sourceUrl": "/audio/songs/stream/stream-lingering-memories.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -158,7 +177,8 @@
         },
         {
             "title": "Mosaic",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=iN1ISre4TMc&ab_channel=EthanSloan-Topic",
             "sourceUrl": "/audio/songs/stream/stream-mosaic.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -166,7 +186,8 @@
         },
         {
             "title": "My Kind of Illusion",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=8DQQXEbUTOI&ab_channel=JayVarton-Topic",
             "sourceUrl": "/audio/songs/stream/stream-my-kind-of-illusion.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -174,7 +195,8 @@
         },
         {
             "title": "Noir et Blanc",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=m9zPgzsxpoE&ab_channel=EpidemicClassical",
             "sourceUrl": "/audio/songs/stream/stream-noir-et-blanc.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -182,7 +204,8 @@
         },
         {
             "title": "Our Last Hope",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=1dNToz9ZWW0&ab_channel=DragonTamer-Topic",
             "sourceUrl": "/audio/songs/stream/stream-our-last-hope.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -190,7 +213,8 @@
         },
         {
             "title": "Shapes of Shadows",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=jJjDskJ0O5A&ab_channel=EpidemicClassical",
             "sourceUrl": "/audio/songs/stream/stream-shapes-of-shadows.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -198,7 +222,8 @@
         },
         {
             "title": "The Cost of Fear",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=nkJGLNKUKpc&ab_channel=JonBj%C3%B6rk-Topic",
             "sourceUrl": "/audio/songs/stream/stream-the-cost-of-fear.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -206,7 +231,8 @@
         },
         {
             "title": "The Scent of Petrichor",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=3kShItptm-M&ab_channel=Epidemic",
             "sourceUrl": "/audio/songs/stream/stream-the-scent-of-petrichor.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -214,7 +240,8 @@
         },
         {
             "title": "Velada Romantica",
-            "info": "エリザベスが使用（第1章）",
+            "info_en": "Used by Elizabeth (Chapter 1)",
+            "info_ja": "エリザベスが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=CPPph-aQaAw&ab_channel=JohanGl%C3%B6ssner-Topic",
             "sourceUrl": "/audio/songs/stream/stream-velada-romantica.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -222,7 +249,8 @@
         },
         {
             "title": "Nostalgic and Calm",
-            "info": "セシリアが使用（第1章）",
+            "info_en": "Used by Cecilia (Chapter 1)",
+            "info_ja": "セシリアが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=Z4w2woCYxQ4&ab_channel=Release-Topic",
             "sourceUrl": "/audio/songs/stream/stream-nostalgic-and-calm.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -230,7 +258,8 @@
         },
         {
             "title": "SoloPiano_Waltz",
-            "info": "シオリが使用（第1章）",
+            "info_en": "Used by Shiori (Chapter 1)",
+            "info_ja": "シオリが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=f0-s70kHJ2Q&ab_channel=Release-Topic",
             "sourceUrl": "/audio/songs/stream/stream-solopiano-waltz.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -238,16 +267,17 @@
         },
         {
             "title": "Morning Bossa",
-            "info": "ファウナが使用（第1章）",
+            "info_en": "Used by Fauna (Chapter 1)",
+            "info_ja": "ファウナが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=EzqYEM-vDM0&ab_channel=Release-Topic",
             "sourceUrl": "/audio/songs/stream/stream-morning-bossa.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
             "duration": "01:36"
         },
-        
         {
             "title": "灯火",
-            "info": "イナが使用（第1章）",
+            "info_en": "Used by Ina (Chapter 1)",
+            "info_ja": "イナが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=Qbq5X5QkzV0&ab_channel=Release-Topic",
             "sourceUrl": "/audio/songs/stream/stream-灯火.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -255,7 +285,8 @@
         },
         {
             "title": "風の声",
-            "info": "IRySが使用（第1章）",
+            "info_en": "Used by IRyS (Chapter 1)",
+            "info_ja": "IRySが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=CBtS2uob4Ik&t=2s&ab_channel=%E3%82%86%E3%81%86%E3%81%8D%E3%82%8F%E3%81%9F%E3%82%8B-Topic",
             "sourceUrl": "/audio/songs/stream/stream-風の声.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -263,7 +294,8 @@
         },
         {
             "title": "魂の還る場所",
-            "info": "フワモコが使用（第1章）",
+            "info_en": "Used by Fuwamoco (Chapter 1)",
+            "info_ja": "フワモコが使用（第1章）",
             "originalUrl": "https://www.youtube.com/watch?v=XA7noHKe4sU&ab_channel=DOVA-SYNDROMEYouTubeOfficial",
             "sourceUrl": "/audio/songs/stream/stream-魂の還る場所.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
@@ -273,7 +305,8 @@
     "talent": [
         {
             "title": "Excuse My Rudeness, But Could You Please RIP?",
-            "info": "アンダーワールドダンジョンで入手",
+            "info_en": "Obtained in the Underworld Dungeon",
+            "info_ja": "アンダーワールドダンジョンで入手",
             "originalUrl": "https://www.youtube.com/watch?v=5y3xh8gs24c&ab_channel=MoriCalliopeCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-rip.mp3",
             "coverUrl": "/images-opt/song-talent-rip-opt.webp",
@@ -281,7 +314,8 @@
         },
         {
             "title": "Reflect",
-            "info": "オーシャンテンプルダンジョンで入手",
+            "info_en": "Obtained in the Ocean Temple Dungeon",
+            "info_ja": "オーシャンテンプルダンジョンで入手",
             "originalUrl": "https://www.youtube.com/watch?v=nCQ_zZIiGLA&ab_channel=GawrGuraCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-reflect.mp3",
             "coverUrl": "/images-opt/song-talent-reflect-opt.webp",
@@ -289,7 +323,8 @@
         },
         {
             "title": "Violet",
-            "info": "エルドリッチホラーダンジョンで入手",
+            "info_en": "Obtained in the Eldritch Horror Dungeon",
+            "info_ja": "エルドリッチホラーダンジョンで入手",
             "originalUrl": "https://www.youtube.com/watch?v=8ZdLXELdF9Q&ab_channel=NinomaeIna%27nisCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-violet.mp3",
             "coverUrl": "/images-opt/song-talent-violet-opt.webp",
@@ -297,7 +332,8 @@
         },
         {
             "title": "HINOTORI",
-            "info": "ボルケーノダンジョンで入手",
+            "info_en": "Obtained in the Volcano Dungeon",
+            "info_ja": "ボルケーノダンジョンで入手",
             "originalUrl": "https://www.youtube.com/watch?v=eDfMDkgheQY&ab_channel=TakanashiKiaraCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-hinotori.mp3",
             "coverUrl": "/images-opt/song-talent-hinotori-opt.webp",
@@ -305,7 +341,8 @@
         },
         {
             "title": "ChikuTaku",
-            "info": "アンシエントスワーズダンジョンで入手",
+            "info_en": "Obtained in the Ancient Sewers Dungeon",
+            "info_ja": "アンシエントスワーズダンジョンで入手",
             "originalUrl": "https://www.youtube.com/watch?v=fYVweqOW31w&ab_channel=WatsonAmeliaCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-chikutaku.mp3",
             "coverUrl": "/images-opt/song-talent-chikutaku-opt.webp",
@@ -313,7 +350,8 @@
         },
         {
             "title": "Caesura of Despair",
-            "info": "スターサイト：エルピスで入手",
+            "info_en": "Obtained in Star Site: Elpis",
+            "info_ja": "スターサイト：エルピスで入手",
             "originalUrl": "https://www.youtube.com/watch?v=vBNI979XyoE&list=PLHpKMrPjc0TA-T7DJgK3bcehfrm3b_jJ2&index=1&ab_channel=IRyS-Topic",
             "sourceUrl": "/audio/songs/talent/talent-caesura.mp3",
             "coverUrl": "/images-opt/song-talent-caesura-opt.webp",
@@ -321,7 +359,8 @@
         },
         {
             "title": "Daydream",
-            "info": "スターサイト：クロノスで入手",
+            "info_en": "Obtained in Star Site: Chronos",
+            "info_ja": "スターサイト：クロノスで入手",
             "originalUrl": "https://www.youtube.com/watch?v=6W749jRBg-4&ab_channel=OuroKroniiCh.hololive-EN",
             "sourceUrl": "/audio/songs/talent/talent-daydream.mp3",
             "coverUrl": "/images-opt/song-talent-daydream-opt.webp",
@@ -329,7 +368,8 @@
         },
         {
             "title": "PLAY DICE",
-            "info": "スターサイト：ケイオスで入手",
+            "info_en": "Obtained in Star Site: Chaos",
+            "info_ja": "スターサイト：ケイオスで入手",
             "originalUrl": "https://www.youtube.com/watch?v=na6bysYNuS0",
             "sourceUrl": "/audio/songs/talent/talent-play-dice.mp3",
             "coverUrl": "/images-opt/song-talent-play-dice-opt.webp",
@@ -339,7 +379,8 @@
     "special": [
         {
             "title": "Oh Princess",
-            "info": "セシリアのイファニアへのセレナーデ",
+            "info_en": "Cecilia's Serenade for Iphania",
+            "info_ja": "セシリアのイファニアへのセレナーデ",
             "originalUrl": "https://www.youtube.com/watch?v=5x9ix5CGmoo&ab_channel=CeciliaImmergreenCh.hololive-EN",
             "sourceUrl": "/audio/songs/special/special-oh-princess.mp3",
             "coverUrl": "/images-opt/song-special-oh-princess-opt.webp",
@@ -347,7 +388,8 @@
         },
         {
             "title": "potato salad",
-            "info": "potato salad",
+            "info_en": "potato salad",
+            "info_ja": "potato salad",
             "originalUrl": "https://www.youtube.com/watch?v=Vf2j3YNF3e8&ab_channel=Mithra%7C%C2%B7%D0%94%C2%B7%29%E3%83%8E",
             "sourceUrl": "/audio/songs/special/special-potato-salad.mp3",
             "coverUrl": "/images-opt/song-special-potato-salad-opt.webp",
@@ -355,7 +397,8 @@
         },
         {
             "title": "The Tale of A Humble Knight",
-            "info": "GoodBoyChendによるオーケストラテーマ",
+            "info_en": "An Orchestral Theme by GoodBoyChend",
+            "info_ja": "GoodBoyChendによるオーケストラテーマ",
             "originalUrl": "https://www.youtube.com/watch?v=n0DAcFYRNB4",
             "sourceUrl": "/audio/songs/special/special-the-tale-of-a-humble-knight.mp3",
             "coverUrl": "/images-opt/song-special-the-tale-of-a-humble-knight-opt.webp",
@@ -363,7 +406,8 @@
         },
         {
             "title": "Boss of FaunaMart",
-            "info": "Ano Yatsuによるパロディソング",
+            "info_en": "A Parody Song by Ano Yatsu",
+            "info_ja": "Ano Yatsuによるパロディソング",
             "originalUrl": "https://www.youtube.com/watch?v=T7fHJcrmO0U",
             "sourceUrl": "/audio/songs/special/special-boss-of-faunamart.mp3",
             "coverUrl": "/images-opt/song-special-boss-of-faunamart-opt.webp",

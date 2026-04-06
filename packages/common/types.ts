@@ -198,6 +198,17 @@ export type Song = {
     duration: string;
 };
 
+export type SongRaw = {
+    title: string;
+    info_en: string;
+    info_ja: string;
+    originalUrl: string;
+    sourceUrl: string;
+    coverUrl: string;
+    // The duration is in the format "mm:ss", only for representative purposes
+    duration: string;
+};
+
 export type Egg = {
     [key: string]: {
         sfxList: {
