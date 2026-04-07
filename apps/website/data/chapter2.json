@@ -1,10 +1,19 @@
 {
   "numberOfDays": 1,
-  "title": "Broken Bonds",
+  "title": {
+    "en": "Broken Bonds",
+    "ja": "Broken Bonds"
+  },
   "charts": [
     {
-      "dayRecap": "Chapter 3 - Day 1",
-      "title": "Chapter 3 - Day 1",
+      "dayRecap": {
+        "en": "Chapter 3 - Day 1",
+        "ja": "Chapter 3 - Day 1"
+      },
+      "title": {
+        "en": "Chapter 3 - Day 1",
+        "ja": "Chapter 3 - Day 1"
+      },
       "nodes": [
         {
           "id": "fuwawa",

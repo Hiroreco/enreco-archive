@@ -9,11 +9,9 @@ import {
     TextData,
 } from "@enreco-archive/common/types";
 
-import chapter0_en from "#/en/chapter0_en.json";
-import chapter1_en from "#/en/chapter1_en.json";
-// import chapter2_en from "#/en/chapter2_en.json";
-import chapter0_ja from "#/ja/chapter0_ja.json";
-import chapter1_ja from "#/ja/chapter1_ja.json";
+import chapter0 from "#/chapter0.json";
+import chapter1 from "#/chapter1.json";
+// import chapter2 from "#/chapter2.json";
 
 import text from "#/text.json";
 
@@ -132,12 +130,54 @@ const convertLocalizedChapterRecaps = (
     };
 };
 
+// Convert localized chapter to locale-specific format
+const convertLocalizedChapter = (chapter: any, locale: Locale): Chapter => {
+    return {
+        numberOfDays: chapter.numberOfDays,
+        title: chapter.title[locale],
+        charts: chapter.charts.map((chart: any) => ({
+            dayRecap: chart.dayRecap[locale],
+            title: chart.title[locale],
+            nodes: chart.nodes.map((node: any) => {
+                // Extract locale-specific node content if it's localized
+                if (node.data?.content && typeof node.data.content === 'object' && node.data.content[locale]) {
+                    return {
+                        ...node,
+                        data: {
+                            ...node.data,
+                            content: node.data.content[locale],
+                        },
+                    };
+                }
+                return node;
+            }),
+            edges: chart.edges.map((edge: any) => {
+                // Extract locale-specific edge content if it's localized
+                if (edge.data?.content && typeof edge.data.content === 'object' && edge.data.content[locale]) {
+                    return {
+                        ...edge,
+                        data: {
+                            ...edge.data,
+                            content: edge.data.content[locale],
+                        },
+                    };
+                }
+                return edge;
+            }),
+        })),
+        teams: chapter.teams,
+        relationships: chapter.relationships,
+        bgiSrc: chapter.bgiSrc,
+        bgmSrc: chapter.bgmSrc,
+    };
+};
+
 const DATA: Record<Locale, LocalizedData> = {
     en: {
         chapters: [
-            chapter0_en as Chapter,
-            chapter1_en as Chapter,
-            // chapter2_en as Chapter,
+            convertLocalizedChapter(chapter0 as any, "en") as Chapter,
+            convertLocalizedChapter(chapter1 as any, "en") as Chapter,
+            // convertLocalizedChapter(chapter2_combined as any, "en") as Chapter,
         ],
         textData: text as TextData,
         glossary: {
@@ -160,7 +200,10 @@ const DATA: Record<Locale, LocalizedData> = {
         fanficData: fanfic_data_en,
     },
     ja: {
-        chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
+        chapters: [
+            convertLocalizedChapter(chapter0 as any, "ja") as Chapter,
+            convertLocalizedChapter(chapter1 as any, "ja") as Chapter,
+        ],
         textData: text as TextData,
         glossary: {
             weapons: weapons_ja,
