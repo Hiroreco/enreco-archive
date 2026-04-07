@@ -35,8 +35,7 @@ import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
 
 import media_archive from "#/media-archive.json";
 
-import changelogs_en from "#/en/changelogs_en.json";
-import changelogs_ja from "#/ja/changelogs_ja.json";
+import changelogs from "#/changelogs.json";
 
 import clips from "#/clips.json";
 
@@ -110,6 +109,17 @@ const convertLocalizedRecollectionArchive = (
     }));
 };
 
+// Convert localized changelogs to locale-specific format for components
+const convertLocalizedChangelogs = (
+    changelogs: Array<any>,
+    locale: Locale,
+): Array<{ date: string; content: string }> => {
+    return changelogs.map((entry) => ({
+        date: entry.date,
+        content: entry.content[locale],
+    }));
+};
+
 const DATA: Record<Locale, LocalizedData> = {
     en: {
         chapters: [
@@ -127,7 +137,7 @@ const DATA: Record<Locale, LocalizedData> = {
         },
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
         chapterRecap: chapterRecaps_en,
-        changelogs: changelogs_en,
+        changelogs: convertLocalizedChangelogs(changelogs as any, "en"),
         recollectionArchive: convertLocalizedRecollectionArchive(
             media_archive as any,
             "en",
@@ -146,7 +156,7 @@ const DATA: Record<Locale, LocalizedData> = {
         },
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
         chapterRecap: chapterRecaps_ja,
-        changelogs: changelogs_ja,
+        changelogs: convertLocalizedChangelogs(changelogs as any, "ja"),
         recollectionArchive: convertLocalizedRecollectionArchive(
             media_archive as any,
             "ja",
