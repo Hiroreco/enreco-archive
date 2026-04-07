@@ -9,8 +9,8 @@ import {
     TextData,
 } from "@enreco-archive/common/types";
 
-import chapter0 from "#/chapter0.json";
-import chapter1 from "#/chapter1.json";
+import chapter0 from "#/recaps/chapter0.json";
+import chapter1 from "#/recaps/chapter1.json";
 // import chapter2 from "#/chapter2.json";
 
 import text from "#/text.json";
