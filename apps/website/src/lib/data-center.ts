@@ -30,8 +30,7 @@ import weapons_ja from "#/ja/glossary/weapons_ja.json";
 
 import songs_raw from "#/songs.json";
 
-import chapterRecaps_en from "#/en/chapter-recaps_en.json";
-import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
+import chapterRecaps_combined from "#/chapter-recaps-combined.json";
 
 import media_archive from "#/media-archive.json";
 
@@ -120,6 +119,19 @@ const convertLocalizedChangelogs = (
     }));
 };
 
+// Convert localized chapter recaps to locale-specific format for components
+const convertLocalizedChapterRecaps = (
+    recaps: any,
+    locale: Locale,
+): ChapterRecapData => {
+    return {
+        chapters: recaps.chapters.map((chapter: any) => ({
+            title: chapter.title[locale],
+            content: chapter.content[locale],
+        })),
+    };
+};
+
 const DATA: Record<Locale, LocalizedData> = {
     en: {
         chapters: [
@@ -136,7 +148,10 @@ const DATA: Record<Locale, LocalizedData> = {
             misc: misc_en,
         },
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
-        chapterRecap: chapterRecaps_en,
+        chapterRecap: convertLocalizedChapterRecaps(
+            chapterRecaps_combined as any,
+            "en",
+        ),
         changelogs: convertLocalizedChangelogs(changelogs as any, "en"),
         recollectionArchive: convertLocalizedRecollectionArchive(
             media_archive as any,
@@ -155,7 +170,10 @@ const DATA: Record<Locale, LocalizedData> = {
             misc: misc_ja,
         },
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
-        chapterRecap: chapterRecaps_ja,
+        chapterRecap: convertLocalizedChapterRecaps(
+            chapterRecaps_combined as any,
+            "ja",
+        ),
         changelogs: convertLocalizedChangelogs(changelogs as any, "ja"),
         recollectionArchive: convertLocalizedRecollectionArchive(
             media_archive as any,
