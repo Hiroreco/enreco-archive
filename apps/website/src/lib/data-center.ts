@@ -15,20 +15,15 @@ import chapter1 from "#/chapter1.json";
 
 import text from "#/text.json";
 
-import characters_en from "#/en/glossary/characters_en.json";
-import lore_en from "#/en/glossary/lore_en.json";
-import misc_en from "#/en/glossary/misc_en.json";
-import quests_en from "#/en/glossary/quests_en.json";
-import weapons_en from "#/en/glossary/weapons_en.json";
-import characters_ja from "#/ja/glossary/characters_ja.json";
-import lore_ja from "#/ja/glossary/lore_ja.json";
-import misc_ja from "#/ja/glossary/misc_ja.json";
-import quests_ja from "#/ja/glossary/quests_ja.json";
-import weapons_ja from "#/ja/glossary/weapons_ja.json";
+import characters from "#/glossary/characters.json";
+import lore from "#/glossary/lore.json";
+import misc from "#/glossary/misc.json";
+import quests from "#/glossary/quests.json";
+import weapons from "#/glossary/weapons.json";
 
 import songs_raw from "#/songs.json";
 
-import chapterRecaps_combined from "#/chapter-recaps-combined.json";
+import chapterRecaps from "#/chapter-recaps.json";
 
 import media_archive from "#/media-archive.json";
 
@@ -78,6 +73,41 @@ const transformSongs = (
             ...song,
             info: song.info[locale],
         }));
+    }
+
+    return result;
+};
+
+// Convert localized glossary to locale-specific format for components
+const convertLocalizedGlossary = (
+    glossaryCategories: Record<string, Record<string, any>>,
+    locale: Locale,
+): Record<string, Record<string, any>> => {
+    const result: Record<string, Record<string, any>> = {};
+
+    // For each category (weapons, characters, lore, quests, misc)
+    for (const [categoryKey, glossaryData] of Object.entries(
+        glossaryCategories,
+    )) {
+        const convertedCategory: Record<string, any> = {};
+
+        // For each subcategory within the category
+        for (const [subcategory, entries] of Object.entries(glossaryData)) {
+            convertedCategory[subcategory] = (entries as any[]).map(
+                (entry: any) => ({
+                    ...entry,
+                    title: entry.title[locale],
+                    content: entry.content[locale],
+                    quote: entry.quote[locale],
+                    galleryImages: entry.galleryImages?.map((img: any) => ({
+                        ...img,
+                        title: img.title[locale],
+                    })),
+                }),
+            );
+        }
+
+        result[categoryKey] = convertedCategory;
     }
 
     return result;
@@ -180,16 +210,19 @@ const DATA: Record<Locale, LocalizedData> = {
             // convertLocalizedChapter(chapter2_combined as any, "en") as Chapter,
         ],
         textData: text as TextData,
-        glossary: {
-            weapons: weapons_en,
-            characters: characters_en,
-            lore: lore_en,
-            quests: quests_en,
-            misc: misc_en,
-        },
+        glossary: convertLocalizedGlossary(
+            {
+                weapons: weapons as any,
+                characters: characters as any,
+                lore: lore as any,
+                quests: quests as any,
+                misc: misc as any,
+            } as any,
+            "en",
+        ) as any,
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
         chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps_combined as any,
+            chapterRecaps as any,
             "en",
         ),
         changelogs: convertLocalizedChangelogs(changelogs as any, "en"),
@@ -205,16 +238,19 @@ const DATA: Record<Locale, LocalizedData> = {
             convertLocalizedChapter(chapter1 as any, "ja") as Chapter,
         ],
         textData: text as TextData,
-        glossary: {
-            weapons: weapons_ja,
-            characters: characters_ja,
-            lore: lore_ja,
-            quests: quests_ja,
-            misc: misc_ja,
-        },
+        glossary: convertLocalizedGlossary(
+            {
+                weapons: weapons as any,
+                characters: characters as any,
+                lore: lore as any,
+                quests: quests as any,
+                misc: misc as any,
+            } as any,
+            "ja",
+        ) as any,
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
         chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps_combined as any,
+            chapterRecaps as any,
             "ja",
         ),
         changelogs: convertLocalizedChangelogs(changelogs as any, "ja"),
