@@ -36,7 +36,7 @@ import changelogs from "#/changelogs.json";
 
 import clips from "#/clips.json";
 
-import fanfic_data_en from "#/en/fanfics.json";
+import fanfic_data_en from "#/fanfics.json";
 
 import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
 import {
