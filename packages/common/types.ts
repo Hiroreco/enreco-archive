@@ -70,8 +70,8 @@ export type TextAudioState = {
 
 export type ChapterRecapData = {
     chapters: {
-        title: string;
-        content: string;
+        title: LocalizedString;
+        content: LocalizedString;
     }[];
 };
 
