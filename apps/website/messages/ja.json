@@ -222,6 +222,8 @@
                     "resetTitle": "ボードをリセット",
                     "resetMessage": "現在のボードをリセットします。よろしいですか？",
                     "resetConfirm": "はい、クリアします",
+                    "markerOptions": "Marker Options",
+                    "winOptions": "Win Indicator Options",
                     "markerOptionValues": {
                         "emblem": "エンブレム",
                         "scarlet-wand": "スカーレット・ワンド",
