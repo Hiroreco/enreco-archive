@@ -1,22 +1,25 @@
 import fs from "fs/promises";
 import path from "path";
-import { EMBED_MISSING_BYPASS_LIST } from "./validation-vals.js";
+
 import { validateRecapContent } from "./recapChecks.js";
 import { TextData } from "@enreco-archive/common/types";
+import { EMBED_MISSING_BYPASS_LIST } from "./validation-vals.js";
 
 // Get locale from command line arguments, default to "en"
 const locale = process.argv[2] || "en";
 
-// Update paths to use locale
+// Update paths to use new bilingual structure
 const RECAP_DATA_DIR = path.resolve(
     process.cwd(),
     `recap-data${locale === "en" ? "" : `_${locale}`}`,
 );
+// Text data is now unified in a single bilingual file
 const TEXT_DATA_PATH = path.resolve(
     process.cwd(),
-    `apps/website/data/${locale}/text-data_${locale}.json`,
+    "apps/website/data/text.json",
 );
-const CHAPTERS_DIR = path.resolve(process.cwd(), `apps/website/data/${locale}`);
+// All chapters now in a single recaps folder with bilingual content
+const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data/recaps");
 
 // --- HELPERS ---
 async function getMarkdownFiles(dir: string): Promise<string[]> {
@@ -53,7 +56,7 @@ async function loadTextIds(): Promise<Set<string>> {
         return textIds;
     } catch (error: any) {
         console.warn(
-            `Warning: Could not load text data for locale "${locale}": ${error.message}`,
+            `Warning: Could not load text data: ${error.message}`,
         );
         return new Set();
     }
@@ -68,9 +71,8 @@ async function loadChapterRelationships(): Promise<
         const chapterFiles = await fs.readdir(CHAPTERS_DIR);
 
         for (const file of chapterFiles) {
-            const match = file.match(
-                new RegExp(`^chapter(\\d+)_${locale}\\.json$`),
-            );
+            // Now looking for chapter{num}.json (no locale suffix)
+            const match = file.match(/^chapter(\d+)\.json$/);
             if (!match) continue;
             const chapterNum = parseInt(match[1]);
 
@@ -85,13 +87,13 @@ async function loadChapterRelationships(): Promise<
                 );
             } catch (error: any) {
                 console.warn(
-                    `Warning: Could not load chapter ${chapterNum} for locale "${locale}": ${error.message}`,
+                    `Warning: Could not load chapter ${chapterNum}: ${error.message}`,
                 );
             }
         }
     } catch (error: any) {
         console.warn(
-            `Warning: Could not read chapters directory for locale "${locale}": ${error.message}`,
+            `Warning: Could not read chapters directory: ${error.message}`,
         );
     }
 
@@ -105,9 +107,8 @@ async function loadChapterEdgeIds(): Promise<Record<string, Set<string>>> {
         const chapterFiles = await fs.readdir(CHAPTERS_DIR);
 
         for (const file of chapterFiles) {
-            const match = file.match(
-                new RegExp(`^chapter(\\d+)_${locale}\\.json$`),
-            );
+            // Now looking for chapter{num}.json (no locale suffix)
+            const match = file.match(/^chapter(\d+)\.json$/);
             if (!match) continue;
             const chapterNum = parseInt(match[1]);
 
@@ -132,13 +133,13 @@ async function loadChapterEdgeIds(): Promise<Record<string, Set<string>>> {
                 chapterEdgeIds[chapterNum] = edgeIds;
             } catch (error: any) {
                 console.warn(
-                    `Warning: Could not load edges for chapter ${chapterNum}, locale "${locale}": ${error.message}`,
+                    `Warning: Could not load edges for chapter ${chapterNum}: ${error.message}`,
                 );
             }
         }
     } catch (error: any) {
         console.warn(
-            `Warning: Could not read chapters directory for locale "${locale}": ${error.message}`,
+            `Warning: Could not read chapters directory: ${error.message}`,
         );
     }
 
@@ -152,9 +153,8 @@ async function loadChapterNodeIds(): Promise<Record<string, Set<string>>> {
         const chapterFiles = await fs.readdir(CHAPTERS_DIR);
 
         for (const file of chapterFiles) {
-            const match = file.match(
-                new RegExp(`^chapter(\\d+)_${locale}\\.json$`),
-            );
+            // Now looking for chapter{num}.json (no locale suffix)
+            const match = file.match(/^chapter(\d+)\.json$/);
             if (!match) continue;
             const chapterNum = parseInt(match[1]);
 
@@ -179,13 +179,13 @@ async function loadChapterNodeIds(): Promise<Record<string, Set<string>>> {
                 chapterNodeIds[chapterNum] = nodeIds;
             } catch (error: any) {
                 console.warn(
-                    `Warning: Could not load nodes for chapter ${chapterNum}, locale "${locale}": ${error.message}`,
+                    `Warning: Could not load nodes for chapter ${chapterNum}: ${error.message}`,
                 );
             }
         }
     } catch (error: any) {
         console.warn(
-            `Warning: Could not read chapters directory for locale "${locale}": ${error.message}`,
+            `Warning: Could not read chapters directory: ${error.message}`,
         );
     }
 
