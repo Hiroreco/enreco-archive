@@ -6,23 +6,22 @@ import {
     getClipsData,
     getFanficData,
     getGlossaryData,
+    getLocalizedTextData,
     getRecollectionArchive,
     getSiteData,
     getSongsData,
-    getTextData,
-    getTextItem,
+    getTextItem
 } from "@/lib/data-center";
-import { Locale } from "@/store/settingStore";
-import { useLocale } from "next-intl";
+import { Locale, useSettingStore } from "@/store/settingStore";
 
 export const useLocalizedData = () => {
-    const locale = useLocale() as Locale;
+    const locale = useSettingStore((state) => state.locale);
 
     return {
         locale,
         getChapter: (chapterIndex: number) =>
             getChapterData(locale, chapterIndex),
-        getTextData: () => getTextData(locale),
+        getTextData: () => getLocalizedTextData(locale),
         getGlossary: (category: Category) => getGlossaryData(locale, category),
         getSongs: () => getSongsData(locale),
         getSiteData: () => getSiteData(locale),

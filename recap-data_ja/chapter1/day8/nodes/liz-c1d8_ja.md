@@ -62,3 +62,5 @@
 ["A Battle Against Elizabeth Rose Bloodflame" by EmicoOtero](https://x.com/EmicoOtero/status/1870178989033832670)
 
 ["nice knight" by kaje](https://x.com/kaje_zu/status/1924528574033494251)
+
+["A Battle Against Elizabeth Rose Bloodflame" by EmicoOtero](https://x.com/EmicoOtero/status/1870178892109214093)

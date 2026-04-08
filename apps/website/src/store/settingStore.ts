@@ -41,6 +41,7 @@ interface SettingState {
     _hasHydrated: boolean;
     setHasHydrated: (hasHydrated: boolean) => void;
 
+
     latestNewsDate: string;
     setLatestNewsDate: (dateIso: string) => void;
 
@@ -82,7 +83,7 @@ export const useSettingStore = create<SettingState>()(
             locale: "en",
             setLocale: (language: Locale) => set({ locale: language }),
 
-            latestNewsDate: "2026-01-01T00:00:00.000Z",
+            latestNewsDate: "2026-03-06T03:26:25.000Z",
             setLatestNewsDate: (dateIso: string) =>
                 set({ latestNewsDate: dateIso }),
 

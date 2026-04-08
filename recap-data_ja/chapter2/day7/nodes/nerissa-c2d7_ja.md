@@ -122,3 +122,5 @@
 ["rkgk" by Magho](https://x.com/M_Agho/status/1920808679089009020)
 
 ["Nothing stays pure" by ArizaZarigueya](https://x.com/Hanaswing/status/1921134059658330192)
+
+["My reflection is that of a forgotten stranger" by Eli](https://x.com/Elisbian_/status/1920609369328079156)

@@ -142,70 +142,123 @@ async function processEntry(
 }
 
 async function main() {
-    const locale = process.argv[2] || "en";
-    const baseDir = path.resolve(
-        process.cwd(),
-        locale === "en" ? "recap-data" : `recap-data_${locale}`,
-        "media-archive",
-    );
+    const mergedEntries: RecollectionArchiveEntry[] = [];
+    const entryMap = new Map<string, RecollectionArchiveEntry>();
 
-    let chapterDirs: string[];
-    try {
-        chapterDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
-            .filter((d) => d.isDirectory())
-            .map((d) => d.name);
-    } catch {
-        console.error(`Directory not found: ${baseDir}`);
-        process.exit(1);
-    }
+    // Process both locales
+    for (const locale of ["en", "ja"] as const) {
+        const baseDir = path.resolve(
+            process.cwd(),
+            locale === "en" ? "recap-data" : `recap-data_${locale}`,
+            "media-archive",
+        );
 
-    const allEntries: RecollectionArchiveEntry[] = [];
-
-    for (const chapterDir of chapterDirs) {
-        // Extract chapter number from directory name (e.g., "chapter1" -> 1)
-        const chapterMatch = chapterDir.match(/chapter(\d+)/i);
-        if (!chapterMatch) {
-            console.warn(`Skipping non-chapter directory: ${chapterDir}`);
+        let chapterDirs: string[];
+        try {
+            chapterDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
+                .filter((d) => d.isDirectory())
+                .map((d) => d.name);
+        } catch {
+            console.warn(`Directory not found for locale ${locale}: ${baseDir}`);
             continue;
         }
-        const chapterNum = parseInt(chapterMatch[1], 10);
 
-        const chapterPath = path.join(baseDir, chapterDir);
-        const entryDirs = (
-            await fs.readdir(chapterPath, { withFileTypes: true })
-        )
-            .filter((d) => d.isDirectory())
-            .map((d) => d.name);
+        for (const chapterDir of chapterDirs) {
+            // Extract chapter number from directory name (e.g., "chapter1" -> 1)
+            const chapterMatch = chapterDir.match(/chapter(\d+)/i);
+            if (!chapterMatch) {
+                console.warn(`Skipping non-chapter directory: ${chapterDir}`);
+                continue;
+            }
+            const chapterNum = parseInt(chapterMatch[1], 10);
 
-        for (const entryDir of entryDirs) {
-            const entryPath = path.join(chapterPath, entryDir);
-            const entry = await processEntry(entryPath, chapterNum, entryDir);
+            const chapterPath = path.join(baseDir, chapterDir);
+            const entryDirs = (
+                await fs.readdir(chapterPath, { withFileTypes: true })
+            )
+                .filter((d) => d.isDirectory())
+                .map((d) => d.name);
 
-            if (entry) {
-                allEntries.push(entry);
-                console.log(
-                    `✅ Processed entry: ${entry.id} (${entry.entries.length} media files)`,
-                );
+            for (const entryDir of entryDirs) {
+                const entryPath = path.join(chapterPath, entryDir);
+                const entry = await processEntry(entryPath, chapterNum, entryDir);
+
+                if (entry) {
+                    const chapterPrefix = `c${chapterNum}-`;
+                    const entryId = `${chapterPrefix}${entryDir}`;
+
+                    // Check if we already have this entry from EN
+                    if (entryMap.has(entryId)) {
+                        // Merge JA data into existing entry
+                        const existing = entryMap.get(entryId)!;
+                        (existing.title as any)[locale] = entry.title;
+                        (existing.description as any)[locale] = entry.description;
+                        (existing.info as any)[locale] = entry.info;
+
+                        // Merge media entries (update existing ones with JA data)
+                        for (let i = 0; i < entry.entries.length; i++) {
+                            if (i < existing.entries.length) {
+                                (existing.entries[i].title as any)[locale] =
+                                    entry.entries[i].title;
+                                (existing.entries[i].info as any)[locale] =
+                                    entry.entries[i].info;
+                            }
+                        }
+                    } else {
+                        // Initialize with empty locales
+                        const newEntry: RecollectionArchiveEntry = {
+                            id: entry.id,
+                            title: { en: "", ja: "" },
+                            description: { en: "", ja: "" },
+                            info: { en: "", ja: "" },
+                            chapter: entry.chapter,
+                            thumbnailUrl: entry.thumbnailUrl,
+                            entries: entry.entries.map((e) => ({
+                                ...e,
+                                title: { en: "", ja: "" },
+                                info: { en: "", ja: "" },
+                            })),
+                        };
+
+                        // Set this locale's data
+                        (newEntry.title as any)[locale] = entry.title;
+                        (newEntry.description as any)[locale] = entry.description;
+                        (newEntry.info as any)[locale] = entry.info;
+
+                        for (let i = 0; i < newEntry.entries.length; i++) {
+                            (newEntry.entries[i].title as any)[locale] =
+                                entry.entries[i].title;
+                            (newEntry.entries[i].info as any)[locale] =
+                                entry.entries[i].info;
+                        }
+
+                        entryMap.set(entryId, newEntry);
+                    }
+                }
             }
         }
     }
 
+    // Convert map to array
+    const allEntries = Array.from(entryMap.values());
+
     // Write output JSON
-    const localeSuffix = `_${locale}`;
     const outPath = path.resolve(
         process.cwd(),
         "apps",
         "website",
         "data",
-        locale,
-        `media-archive${localeSuffix}.json`,
+        "media-archive.json",
     );
 
     await fs.mkdir(path.dirname(outPath), { recursive: true });
     await fs.writeFile(outPath, JSON.stringify(allEntries, null, 2), "utf-8");
 
+    console.log(`🚀 Processing media archive with merged EN/JA structure...`);
+    console.log(`✅ Processed EN media archive (${allEntries.length} entries)`);
+    console.log(`✅ Processed JA media archive`);
     console.log(
-        `\n✅ Successfully created media archive with ${allEntries.length} entries`,
+        `✅ Successfully created media archive with ${allEntries.length} merged entries`,
     );
     console.log(`📁 Output: ${outPath}`);
 }

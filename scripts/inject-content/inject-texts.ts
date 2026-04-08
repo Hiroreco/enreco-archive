@@ -3,15 +3,6 @@ import fs from "fs/promises";
 import path from "path";
 
 async function main() {
-    const locale = process.argv[2] || "en";
-    const localeSuffix = `_${locale}`;
-
-    const baseDir = path.resolve(
-        process.cwd(),
-        locale === "en" ? "recap-data" : `recap-data_${locale}`,
-        "texts",
-    );
-
     const audioDir = path.resolve(
         process.cwd(),
         "apps",
@@ -26,29 +17,21 @@ async function main() {
         "apps",
         "website",
         "data",
-        locale,
-        `text-data${localeSuffix}.json`,
+        "text.json",
     );
 
-    // Check if base directory exists
-    try {
-        await fs.access(baseDir);
-    } catch (err) {
-        console.error(`Base directory not found: ${baseDir}`);
-        process.exit(1);
-    }
+    // Process both locales and merge into single result
+    const mergedResult: TextData = {};
+    const audioFiles: Set<string> = new Set();
 
-    const result: TextData = {};
-
-    // Check if audio directory exists and get list of audio files
-    let audioFiles: Set<string> = new Set();
+    // Load audio files once
     try {
         const files = await fs.readdir(audioDir);
-        audioFiles = new Set(
-            files
-                .filter((file) => file.toLowerCase().endsWith(".mp3"))
-                .map((file) => path.basename(file, ".mp3")),
-        );
+        for (const file of files) {
+            if (file.toLowerCase().endsWith(".mp3")) {
+                audioFiles.add(path.basename(file, ".mp3"));
+            }
+        }
         console.log(`Found ${audioFiles.size} audio files in text directory`);
     } catch (err) {
         console.warn(`Audio directory not found: ${audioDir}`);
@@ -122,129 +105,188 @@ async function main() {
         return [];
     }
 
-    // Walk chapter directories
-    for (const chapterName of await fs.readdir(baseDir)) {
-        const chapterPath = path.join(baseDir, chapterName);
-        const chapterStat = await fs.stat(chapterPath);
-        if (!chapterStat.isDirectory()) continue;
-        // chapterName is "chapter1", "chapter2", etc.
-        const chapter = parseInt(chapterName.replace("chapter", ""), 10);
-        if (isNaN(chapter)) continue;
+    // Process both locales
+    for (const locale of ["en", "ja"] as const) {
+        const baseDir = path.resolve(
+            process.cwd(),
+            locale === "en" ? "recap-data" : `recap-data_${locale}`,
+            "texts",
+        );
 
-        // Walk category directories
-        for (const categoryName of await fs.readdir(chapterPath)) {
-            const categoryPath = path.join(chapterPath, categoryName);
-            const categoryStat = await fs.stat(categoryPath);
-            if (!categoryStat.isDirectory()) continue;
+        // Check if base directory exists
+        try {
+            await fs.access(baseDir);
+        } catch (err) {
+            console.warn(`Base directory not found for locale ${locale}: ${baseDir}`);
+            continue;
+        }
 
-            // Check for group folders or standalone files
-            for (const itemName of await fs.readdir(categoryPath)) {
-                const itemPath = path.join(categoryPath, itemName);
-                const itemStat = await fs.stat(itemPath);
+        // Walk chapter directories
+        for (const chapterName of await fs.readdir(baseDir)) {
+            const chapterPath = path.join(baseDir, chapterName);
+            const chapterStat = await fs.stat(chapterPath);
+            if (!chapterStat.isDirectory()) continue;
+            const chapter = parseInt(chapterName.replace("chapter", ""), 10);
+            if (isNaN(chapter)) continue;
 
-                if (itemStat.isDirectory()) {
-                    // This is a group folder
-                    const groupKey = itemName;
-                    const indexFileName = `${groupKey}-index${locale === "ja" ? "_ja" : ""}.md`;
-                    const indexPath = path.join(itemPath, indexFileName);
+            // Walk category directories
+            for (const categoryName of await fs.readdir(chapterPath)) {
+                const categoryPath = path.join(chapterPath, categoryName);
+                const categoryStat = await fs.stat(categoryPath);
+                if (!categoryStat.isDirectory()) continue;
 
-                    try {
-                        const indexContent = await fs.readFile(
-                            indexPath,
-                            "utf-8",
-                        );
-                        const title = extractTitle(indexContent);
-                        const description = extractDescription(indexContent);
-                        const entryNames = extractEntries(indexContent);
+                // Check for group folders or standalone files
+                for (const itemName of await fs.readdir(categoryPath)) {
+                    const itemPath = path.join(categoryPath, itemName);
+                    const itemStat = await fs.stat(itemPath);
 
-                        const entries: TextEntry[] = [];
-                        for (const entryName of entryNames) {
-                            const entryFileName = `${entryName}.md`;
-                            const entryPath = path.join(
-                                itemPath,
-                                entryFileName,
+                    if (itemStat.isDirectory()) {
+                        // This is a group folder
+                        const groupKey = itemName;
+                        const indexFileName = `${groupKey}-index${locale === "ja" ? "_ja" : ""}.md`;
+                        const indexPath = path.join(itemPath, indexFileName);
+
+                        try {
+                            const indexContent = await fs.readFile(
+                                indexPath,
+                                "utf-8",
                             );
-                            try {
-                                const entryContent = await fs.readFile(
-                                    entryPath,
-                                    "utf-8",
-                                );
-                                const entryTitle = extractTitle(entryContent);
-                                const content = extractContent(entryContent);
-                                const hasAudio = audioFiles.has(
-                                    entryName.replace("_ja", ""),
-                                );
-                                const cleanedContent = removeComments(content);
+                            const title = extractTitle(indexContent);
+                            const description = extractDescription(indexContent);
+                            const entryNames = extractEntries(indexContent);
 
-                                entries.push({
-                                    id: entryName.replace("_ja", ""),
-                                    content: cleanedContent,
-                                    title: entryTitle,
-                                    ...(hasAudio && { hasAudio: true }),
-                                });
-                            } catch (err) {
-                                console.warn(
-                                    `Could not read entry file: ${entryPath}`,
-                                );
+                            // Initialize group if not exists
+                            if (!mergedResult[groupKey]) {
+                                mergedResult[groupKey] = {
+                                    chapter,
+                                    category: categoryName,
+                                    title: {"en": "", "ja": ""},
+                                    description: {"en": "", "ja": ""},
+                                    entries: [],
+                                };
                             }
+
+                            // Add localized title and description
+                            (mergedResult[groupKey].title as any)[locale] = title;
+                            (mergedResult[groupKey].description as any)[locale] = description;
+
+                            // Process entries
+                            for (const entryName of entryNames) {
+                                const entryFileName = `${entryName}.md`;
+                                const entryPath = path.join(
+                                    itemPath,
+                                    entryFileName,
+                                );
+                                try {
+                                    const entryContent = await fs.readFile(
+                                        entryPath,
+                                        "utf-8",
+                                    );
+                                    const entryTitle = extractTitle(entryContent);
+                                    const content = extractContent(entryContent);
+                                    const cleanedContent = removeComments(content);
+                                    const entryId = entryName.replace("_ja", "");
+                                    const hasAudio = audioFiles.has(entryId);
+
+                                    // Find or create entry
+                                    let entry = mergedResult[groupKey].entries.find(
+                                        (e) => e.id === entryId,
+                                    );
+                                    if (!entry) {
+                                        entry = {
+                                            id: entryId,
+                                            title: {"en": "", "ja": ""},
+                                            content: {"en": "", "ja": ""},
+                                        };
+                                        mergedResult[groupKey].entries.push(entry);
+                                    }
+
+                                    // Add localized content
+                                    (entry.title as any)[locale] = entryTitle;
+                                    (entry.content as any)[locale] = cleanedContent;
+                                    if (hasAudio) {
+                                        entry.hasAudio = true;
+                                    }
+                                } catch (err) {
+                                    console.warn(
+                                        `Could not read entry file: ${entryPath}`,
+                                    );
+                                }
+                            }
+                        } catch (err) {
+                            console.warn(`Could not read index file: ${indexPath}`);
+                        }
+                    } else if (itemName.endsWith(".md")) {
+                        // This is a standalone file
+                        const key = path.basename(itemName, ".md").replace("_ja", "");
+                        const fileContent = await fs.readFile(itemPath, "utf-8");
+                        const title = extractTitle(fileContent);
+                        const description = extractDescription(fileContent);
+                        const content = extractContent(fileContent);
+                        const cleanedContent = removeComments(content);
+                        const hasAudio = audioFiles.has(key);
+
+                        // Initialize group if not exists
+                        if (!mergedResult[key]) {
+                            mergedResult[key] = {
+                                chapter,
+                                category: categoryName,
+                                title: {"en": "", "ja": ""},
+                                description: {"en": "", "ja": ""},
+                                entries: [],
+                            };
                         }
 
-                        result[groupKey] = {
-                            chapter,
-                            category: categoryName,
-                            title,
-                            description,
-                            entries,
-                        };
-                    } catch (err) {
-                        console.warn(`Could not read index file: ${indexPath}`);
-                    }
-                } else if (itemName.endsWith(".md")) {
-                    // This is a standalone file
-                    const key = path.basename(itemName, ".md");
-                    const fileContent = await fs.readFile(itemPath, "utf-8");
-                    const title = extractTitle(fileContent);
-                    const description = extractDescription(fileContent);
-                    const content = extractContent(fileContent);
-                    const cleanedContent = removeComments(content);
-                    const hasAudio = audioFiles.has(key);
+                        // Add localized title and description
+                        (mergedResult[key].title as any)[locale] = title;
+                        (mergedResult[key].description as any)[locale] = description;
 
-                    result[key] = {
-                        chapter,
-                        category: categoryName,
-                        title,
-                        description,
-                        entries: [
-                            {
-                                id: key.replace("_ja", ""),
-                                content: cleanedContent,
-                                title,
-                                ...(hasAudio && { hasAudio: true }),
-                            },
-                        ],
-                    };
+                        // Find or create entry
+                        let entry = mergedResult[key].entries.find(
+                            (e) => e.id === key,
+                        );
+                        if (!entry) {
+                            entry = {
+                                id: key,
+                                title: {"en": "", "ja": ""},
+                                content: {"en": "", "ja": ""},
+                            };
+                            mergedResult[key].entries.push(entry);
+                        }
+
+                        // Add localized content
+                        (entry.title as any)[locale] = title;
+                        (entry.content as any)[locale] = cleanedContent;
+                        if (hasAudio) {
+                            entry.hasAudio = true;
+                        }
+                    }
                 }
             }
         }
     }
 
-    await fs.writeFile(outputPath, JSON.stringify(result, null, 2), "utf-8");
+    await fs.writeFile(outputPath, JSON.stringify(mergedResult, null, 2), "utf-8");
 
-    const totalGroups = Object.keys(result).length;
-    const totalEntries = Object.values(result).reduce(
+    const totalGroups = Object.keys(mergedResult).length;
+    const totalEntries = Object.values(mergedResult).reduce(
         (sum, group) => sum + group.entries.length,
         0,
     );
-    const entriesWithAudio = Object.values(result).reduce(
+    const entriesWithAudio = Object.values(mergedResult).reduce(
         (sum, group) =>
             sum + group.entries.filter((entry) => entry.hasAudio).length,
         0,
     );
 
+    console.log(`🚀 Processing texts with merged EN/JA structure...`);
+    console.log(`✅ Processed EN texts`);
+    console.log(`✅ Processed JA texts`);
     console.log(
-        `✅ Injected ${totalGroups} ${locale} text groups with ${totalEntries} entries into ${outputPath}`,
+        `✅ Injected ${totalGroups} text groups with ${totalEntries} entries into ${outputPath}`,
     );
     console.log(`🎵 ${entriesWithAudio} entries have associated audio files`);
+    console.log(`🎉 All texts processed with merged structure!`);
 }
 
 main().catch((err) => {

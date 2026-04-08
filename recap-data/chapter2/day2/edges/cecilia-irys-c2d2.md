@@ -5,7 +5,7 @@ Miss Kindest of Kind, Immerkind, was indeed a very kind woman—and also a world
 
 The gathering went just about as you'd expect. Five girls—Bae, Bijou, Roa, Cecilia, and IRyS—each hailing from vastly different corners of society, sat around tipsy and chattering about vital topics such as classism and narcolepsy. You know, typical girl talk.
 
-[Differences in classes](#embed:ttps://www.youtube.com/live/axlJjQQ_rzU?si=f-5Cd4a3zXmdMpX9&t=9651)
+[Differences in classes](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=f-5Cd4a3zXmdMpX9&t=9651)
 
 As time passed and the bottles emptied, the group began to disperse, until only Roa and the two besties remained—completely and utterly drunk.
 

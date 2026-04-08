@@ -48,3 +48,5 @@
 ["Chat it's not going well" by Antsy](https://x.com/antsy_af/status/1919973398551126390)
 
 ["checks out" by Jam](https://x.com/nojamseo/status/1926907907855077810)
+
+["the bum-- I mean, humble knight!" by shew](https://x.com/shew03/status/1921345372162498653)

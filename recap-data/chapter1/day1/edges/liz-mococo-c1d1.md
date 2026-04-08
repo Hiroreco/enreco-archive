@@ -3,7 +3,7 @@
 
 The new world brought confusion and fear to everyone. Stripped of their memories and thrust into an unfamiliar place filled with strange faces, the situation was overwhelming. But even amidst the chaos, Elizabeth stood strong. It was as though she was destined to be a knight; her fiery resolve burned brightly, illuminating the path forward even in the darkest moments.
 
-Mococo, however, was her opposite. Timid and fearful, she resembled a lost pup, unsure of herself and the world around her. Whenever left alone, she would fall into [distress](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=4128), panic consuming her. It was during one of these moments that the fiery knight, Elizabeth, took notice.
+Mococo, however, was her opposite. Timid and fearful, she resembled a lost pup, unsure of herself and the world around her. Whenever left alone, she would fall into [distress](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=3869), panic consuming her. It was during one of these moments that the fiery knight, Elizabeth, took notice.
 
 Seeing the small girl in such a state, Elizabeth felt compelled to act by her sense of duty as a righteous knight. She approached Mococo and made a heartfelt promise: she would protect her and stay by her side. From that moment on, Elizabeth became Mococo's shield, her unwavering guardian in this strange new world.
 

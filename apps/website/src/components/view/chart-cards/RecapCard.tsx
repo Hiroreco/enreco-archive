@@ -1,11 +1,13 @@
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import ProgressBar from "@/components/view/chart-cards/ProgressBar";
+import CardFanartCarousel from "@/components/view/chart-cards/CardFanartCarousel";
+import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-utils";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useMemo } from "react";
 import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 
 interface Props {
@@ -26,6 +28,11 @@ const RecapCard = ({
     onDayChange,
 }: Props) => {
     const scrollRef = useRef<HTMLDivElement>(null);
+
+    const { contentWithoutFanart, fanartEntries } = useMemo(
+        () => getCardFanartData(dayRecap || ""),
+        [dayRecap],
+    );
 
     useEffect(() => {
         if (scrollRef.current) {
@@ -56,8 +63,13 @@ const RecapCard = ({
                             onEdgeLinkClicked={onEdgeLinkClicked}
                             className="md:px-4 px-2"
                         >
-                            {dayRecap || "No content available."}
+                            {contentWithoutFanart || "No content available."}
                         </ViewMarkdown>
+                        <Separator className="my-4" />
+                        <CardFanartCarousel
+                            className="mt-5 md:px-4 px-2"
+                            fanartEntries={fanartEntries}
+                        />
                         <Separator className="my-4" />
                     </motion.div>
                 </AnimatePresence>

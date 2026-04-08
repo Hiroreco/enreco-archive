@@ -34,7 +34,6 @@ interface ClipMetadata {
     id: string;
     originalUrl: string;
     title: string;
-    title_ja: string;
     thumbnailSrc: string;
     author: string;
     duration: number;
@@ -52,7 +51,6 @@ interface OutputData {
 interface MetadataCache {
     [videoId: string]: {
         title: string;
-        title_ja: string;
         author: string;
         thumbnailSrc: string;
         duration: number;
@@ -94,7 +92,6 @@ function extractCategoriesFromComment(comment: string): string[] {
 
 async function fetchYouTubeMetadata(videoId: string): Promise<{
     title: string;
-    title_ja: string;
     author: string;
     thumbnailSrc: string;
     duration: number;
@@ -140,7 +137,6 @@ async function fetchYouTubeMetadata(videoId: string): Promise<{
 
         return {
             title: data.title || "Unknown Title",
-            title_ja: "",
             author: data.author_name || "Unknown Author",
             thumbnailSrc,
             duration,
@@ -162,7 +158,6 @@ function buildMetadataCache(existingData: OutputData): MetadataCache {
         if (videoId && !cache[videoId]) {
             cache[videoId] = {
                 title: entry.title,
-                title_ja: entry.title_ja || "",
                 author: entry.author,
                 thumbnailSrc: entry.thumbnailSrc,
                 duration: entry.duration,
@@ -177,7 +172,6 @@ function buildMetadataCache(existingData: OutputData): MetadataCache {
 async function processClipsFile(
     clipsPath: string,
     metadataCache: MetadataCache,
-    locale: string,
 ): Promise<ClipMetadata[]> {
     const content = await fs.readFile(clipsPath, "utf-8");
     const lines = content.split("\n");
@@ -249,10 +243,9 @@ async function processClipsFile(
         }
 
         const clipEntry: ClipMetadata = {
-            id: `${locale}-${videoId}`,
+            id: `${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
-            title_ja: metadata.title_ja,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -275,7 +268,6 @@ async function processClipsFile(
 async function processAnimaticsFile(
     animaticsPath: string,
     metadataCache: MetadataCache,
-    locale: string,
 ): Promise<ClipMetadata[]> {
     const content = await fs.readFile(animaticsPath, "utf-8");
     const lines = content.split("\n");
@@ -324,10 +316,9 @@ async function processAnimaticsFile(
         }
 
         const animaticEntry: ClipMetadata = {
-            id: `${locale}-animatics-${videoId}`,
+            id: `${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
-            title_ja: metadata.title_ja,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -371,7 +362,6 @@ async function processStreamsFile(
     streamsPath: string,
     categoryName: string,
     metadataCache: MetadataCache,
-    locale: string,
 ): Promise<ClipMetadata[]> {
     const content = await fs.readFile(streamsPath, "utf-8");
     const lines = content.split("\n").map((l) => l.trim());
@@ -428,10 +418,9 @@ async function processStreamsFile(
         }
 
         const streamEntry: ClipMetadata = {
-            id: `${locale}-${categoryName}-${videoId}`,
+            id: `${videoId}`,
             originalUrl: `https://www.youtube.com/watch?v=${videoId}`,
             title: metadata.title,
-            title_ja: metadata.title_ja,
             thumbnailSrc: metadata.thumbnailSrc,
             author: metadata.author,
             duration: metadata.duration,
@@ -479,10 +468,9 @@ function sortByUploadDate(items: ClipMetadata[]): ClipMetadata[] {
 }
 
 async function main() {
-    const locale = process.argv[2] || "en";
     const baseDir = path.resolve(
         process.cwd(),
-        locale === "en" ? "clips-data" : `clips-data_${locale}`,
+        "clips-data",
     );
 
     try {
@@ -499,8 +487,7 @@ async function main() {
         "apps",
         "website",
         "data",
-        locale,
-        `clips_${locale}.json`,
+        `clips.json`,
     );
 
     // Load existing output file to build metadata cache
@@ -526,7 +513,7 @@ async function main() {
     const clipsPath = path.join(baseDir, "clips.md");
     let allClips: ClipMetadata[] = [];
     try {
-        allClips = await processClipsFile(clipsPath, metadataCache, locale);
+        allClips = await processClipsFile(clipsPath, metadataCache);
         console.log(`  ✅ Total clips: ${allClips.length}`);
     } catch (error) {
         console.error(`❌ Error processing clips.md:`, error);
@@ -540,7 +527,6 @@ async function main() {
         allAnimatics = await processAnimaticsFile(
             animaticsPath,
             metadataCache,
-            locale,
         );
         console.log(`  ✅ Total animatics: ${allAnimatics.length}`);
     } catch (error) {
@@ -574,7 +560,6 @@ async function main() {
                 filePath,
                 categoryName,
                 metadataCache,
-                locale,
             );
 
             allStreams.push(...streams);

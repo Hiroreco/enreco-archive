@@ -6,6 +6,7 @@ import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Label } from "@enreco-archive/common-ui/components/label";
 import { EditorChapter, EditorChartData } from "@enreco-archive/common/types";
+import { getEnglishString } from "@/lib/localization-utils";
 
 interface FormElements extends HTMLFormControlsCollection {
     chapterTitle: HTMLInputElement;
@@ -86,7 +87,7 @@ const EditorGeneralCard = ({
                         type="text"
                         id="title"
                         name="chapterTitle"
-                        defaultValue={chapterData.title}
+                        defaultValue={getEnglishString(chapterData.title)}
                     />
                 </div>
 
@@ -122,7 +123,7 @@ const EditorGeneralCard = ({
                         type="text"
                         id="day-title"
                         name="dayTitle"
-                        defaultValue={dayData?.title}
+                        defaultValue={dayData ? getEnglishString(dayData.title) : ""}
                         readOnly
                         disabled
                     />

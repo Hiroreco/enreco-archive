@@ -1,4 +1,5 @@
 import EditorCard from "@/components/editor/EditorCard";
+import { useEditorStore } from "@/store/editorStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Input } from "@enreco-archive/common-ui/components/input";
 import { Label } from "@enreco-archive/common-ui/components/label";
@@ -23,7 +24,6 @@ interface EditorEdgeCard {
     updateEdge: (oldEdge: CustomEdgeType, newEdge: CustomEdgeType) => void;
     deleteEdge: () => void;
     onCardClose: () => void;
-    numberOfDays: number;
     isDarkMode: boolean;
 }
 
@@ -34,22 +34,22 @@ const EdgeEditorCard = ({
     updateEdge,
     deleteEdge,
     onCardClose,
-    numberOfDays,
 }: EditorEdgeCard) => {
     const [workingEdge, setWorkingEdge] = useState(selectedEdge);
+
+    let day = useEditorStore((state) => state.day);
+    day = day === null ? 0 : day + 1;
 
     useEffect(() => {
         setWorkingEdge(selectedEdge);
     }, [selectedEdge, setWorkingEdge]);
 
-    const handleSave = () => {
-        updateEdge(selectedEdge, workingEdge);
-    };
-
     const setWorkingEdgeAttr = (
         updater: (draft: WritableDraft<CustomEdgeType>) => void,
     ) => {
-        setWorkingEdge(produce(workingEdge, updater));
+        const newWorkingEdge = produce(workingEdge, updater);
+        setWorkingEdge(newWorkingEdge);
+        updateEdge(selectedEdge, newWorkingEdge);
     };
 
     const onClose = () => {
@@ -163,7 +163,7 @@ const EdgeEditorCard = ({
                         />
                     </SelectTrigger>
                     <SelectContent>
-                        {Array.from({ length: numberOfDays }, (_, i) => (
+                        {Array.from({ length: day }, (_, i) => (
                             <SelectItem key={i} value={i.toString()}>
                                 Day {i + 1}
                             </SelectItem>
@@ -172,7 +172,6 @@ const EdgeEditorCard = ({
                 </Select>
             </div>
             <div className="flex flex-row gap-16">
-                <Button onClick={handleSave}>Save</Button>
                 <Button onClick={deleteEdge}>Delete</Button>
             </div>
         </EditorCard>

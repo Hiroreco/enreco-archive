@@ -23,6 +23,30 @@ export type SiteData = {
     };
 };
 
+export type LocalizedString<T extends string = "en" | "ja"> = {
+    [key in T]: string;
+};
+
+export type LocalizedTextEntry = {
+    id: string;
+    content: LocalizedString;
+    title: LocalizedString;
+    hasAudio?: boolean;
+};
+
+export type LocalizedTextGroup = {
+    chapter: number;
+    category: string;
+    title: LocalizedString;
+    description: LocalizedString;
+    entries: LocalizedTextEntry[];
+};
+
+export type TextData = {
+    [key: string]: LocalizedTextGroup;
+};
+
+// Legacy types maintained for reference
 export type TextEntry = {
     id: string;
     content: string;
@@ -38,10 +62,6 @@ export type TextGroup = {
     entries: TextEntry[];
 };
 
-export type TextData = {
-    [key: string]: TextGroup;
-};
-
 // Add new type for text audio state
 export type TextAudioState = {
     isPlaying: boolean;
@@ -50,8 +70,8 @@ export type TextAudioState = {
 
 export type ChapterRecapData = {
     chapters: {
-        title: string;
-        content: string;
+        title: LocalizedString;
+        content: LocalizedString;
     }[];
 };
 
@@ -69,7 +89,7 @@ export type EditorSaveMetadata = {
 
 export type Chapter = {
     numberOfDays: number;
-    title: string;
+    title: string | LocalizedString;
     charts: ChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
@@ -79,7 +99,7 @@ export type Chapter = {
 
 export type EditorChapter = {
     numberOfDays: number;
-    title: string;
+    title: string | LocalizedString;
     charts: EditorChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
@@ -100,15 +120,15 @@ export type Relationship = {
 };
 
 export type ChartData = {
-    title: string;
-    dayRecap: string;
+    title: string | LocalizedString;
+    dayRecap: string | LocalizedString;
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
 };
 
 export type EditorChartData = {
-    title: string;
-    dayRecap: string;
+    title: string | LocalizedString;
+    dayRecap: string | LocalizedString;
     nodes: EditorImageNodeType[];
     edges: CustomEdgeType[];
 };
@@ -116,7 +136,7 @@ export type EditorChartData = {
 /* Chart Types */
 type CommonNodeData = {
     title: string;
-    content: string;
+    content: string | LocalizedString;
     imageSrc: string;
     teamId: string;
     status: string;
@@ -143,7 +163,7 @@ export type CustomEdgeOffsets = {
 type CommonEdgeData = {
     relationshipId: string;
     title: string;
-    content: string;
+    content: string | LocalizedString;
     day: number;
     // Optional as this will be set during rendering
     isNewlyAdded?: boolean;
@@ -191,6 +211,19 @@ export type CommonItemData = {
 export type Song = {
     title: string;
     info: string;
+    originalUrl: string;
+    sourceUrl: string;
+    coverUrl: string;
+    // The duration is in the format "mm:ss", only for representative purposes
+    duration: string;
+};
+
+export type SongRaw = {
+    title: string;
+    info: {
+        en: string;
+        ja: string;
+    };
     originalUrl: string;
     sourceUrl: string;
     coverUrl: string;

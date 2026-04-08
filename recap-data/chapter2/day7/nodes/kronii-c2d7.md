@@ -9,7 +9,7 @@ The fight for the future of Libestal began when all the heroes converged, Queen 
 
 These cursed individuals were Shiori, Nerissa, Bijou, the Fuzzy One, and the Fluffy One, all of whom began to haunt their former comrades. Queen Tam was [haunted by her stepdaughter, Bijou,](https://youtu.be/CUh9eciJil4?t=646) while desperately fighting against the Stains, the voice of her stepdaughter urging her to attack everyone and give in to her darkest desires.
 
-Next came Shiori, far more skilled at exposing Queen Tam’s flaws. The abusive relationships, the vanity, the pet-play allegations—[everything was laid bare](https://youtu.be/CUh9eciJil4?t=750) by the corrupted Archivist, as Queen Tam vehemently denied each imperfection.
+Next came Shiori, far more skilled at exposing Queen Tam’s flaws. The abusive relationships, the vanity, the pet-play allegations—everything was laid bare by the corrupted Archivist, as Queen Tam vehemently denied each imperfection.
 
 ["These are just allegations!"](#embed:https://youtu.be/CUh9eciJil4?t=750)
 

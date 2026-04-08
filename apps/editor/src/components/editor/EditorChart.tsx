@@ -14,18 +14,18 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 
-import EditorImageNode from "@/components/editor/EditorImageNode";
 import EditorCustomEdge from "@/components/editor/EditorCustomEdge";
+import EditorImageNode from "@/components/editor/EditorImageNode";
 import EditorSmoothEdge from "@/components/editor/EditorSmoothEdge";
 import EditorStraightEdge from "@/components/editor/EditorStraightEdge";
+import { generateEdgeId } from "@/lib/editor-utils";
+import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
 import {
     CustomEdgeType,
     CustomEdgeTypeNames,
     EditorImageNodeType,
 } from "@enreco-archive/common/types";
 import { MouseEventHandler, useCallback } from "react";
-import { DEFAULT_NODE_IMAGE } from "@enreco-archive/common/constants";
-import { generateEdgeId } from "@/lib/editor-utils";
 
 const nodeTypes = {
     editorImage: EditorImageNode,

@@ -17,7 +17,7 @@ And so the Oreo Maiden’s devious schemes began. The unfortunate target? Whiche
 
 [Undercutting is crazy](#embed:https://www.youtube.com/live/zCWoxMbOZPk?si=Y_mj_z_Qpgx2OJKj&t=11795)
 
-In no time at all, Shiori transformed from a misunderstood oddball to an infamous kingdom scammer, surpassing even the speed record previously held by FaunaMart. Her notoriety spread far and wide, reaching even the ears of reclusive figures like Tam Gandr, who typically couldn’t be bothered with trivial social noise.
+In no time at all, Shiori transformed from a misunderstood oddball to an infamous kingdom scammer, surpassing even the speed record previously held by _FaunaMart_. Her notoriety spread far and wide, reaching even the ears of reclusive figures like Tam Gandr, who typically couldn’t be bothered with trivial social noise.
 
 [There, there](#embed:https://www.youtube.com/live/zCWoxMbOZPk?si=oYopwgLcQ619PkeF&t=13380)
 

@@ -282,16 +282,16 @@
             "inclusiveModes": {
                 "include": "Include",
                 "showAll": {
-                    "label": "All",
-                    "description": "Show all artworks that match any of the selected characters"
+                    "label": "Any",
+                    "description": "Show artworks that have any of the selected characters"
                 },
                 "hasAny": {
-                    "label": "Any",
-                    "description": "Show artworks that include all the selected characters"
+                    "label": "All",
+                    "description": "Show artworks that include all the selected characters in that artwork"
                 },
                 "hasOnly": {
                     "label": "Only",
-                    "description": "Show artworks that include only the selected characters"
+                    "description": "Show artworks that include only the selected characters and no one else"
                 }
             },
             "sortModes": {
@@ -358,6 +358,14 @@
         }
     },
     "cards": {
+        "fanartSection": {
+            "title": "Fanwork",
+            "items": "linked posts",
+            "scrollLeft": "Scroll fanwork left",
+            "scrollRight": "Scroll fanwork right",
+            "openOriginal": "Open original post",
+            "openImage": "Open fanwork: {label}"
+        },
         "nodeCard": {
             "readTooltip": "This card has been read",
             "guild": "Guild",
@@ -438,7 +446,11 @@
         "Same Person": "Same Person"
     },
     "loading": {
-        "clickToStart": "Click anywhere to start"
+        "clickToStart": "Click anywhere to start",
+        "aprilFools": {
+            "aprilFoolsMessage": "ENigmasix Sevencollection",
+            "aprilFoolsSubtext": "Chapter 3: Broken Bones"
+        }
     },
     "glossary": {
         "title": "Glossary",
