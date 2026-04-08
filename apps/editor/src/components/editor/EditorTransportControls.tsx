@@ -22,6 +22,7 @@ import {
     SelectValue,
 } from "@enreco-archive/common-ui/components/select";
 import { EditorChapter } from "@enreco-archive/common/types";
+import { getEnglishString } from "@/lib/localization-utils";
 
 interface EditorTransportControlsProps {
     className?: string;
@@ -62,7 +63,7 @@ export default function EditorTransportControls({
     const chapterTitle =
         chapter === null
             ? ""
-            : chapters[chapter].title || `Chapter ${chapter + 1}`;
+            : getEnglishString(chapters[chapter].title) || `Chapter ${chapter + 1}`;
 
     return (
         <>
@@ -122,7 +123,7 @@ export default function EditorTransportControls({
                                         key={index}
                                         value={index.toString()}
                                     >
-                                        {elem.title || `Chapter ${index + 1}`}
+                                        {getEnglishString(elem.title) || `Chapter ${index + 1}`}
                                     </SelectItem>
                                 ))}
                             </SelectContent>

@@ -89,7 +89,7 @@ export type EditorSaveMetadata = {
 
 export type Chapter = {
     numberOfDays: number;
-    title: string;
+    title: string | LocalizedString;
     charts: ChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
@@ -99,7 +99,7 @@ export type Chapter = {
 
 export type EditorChapter = {
     numberOfDays: number;
-    title: string;
+    title: string | LocalizedString;
     charts: EditorChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
@@ -120,15 +120,15 @@ export type Relationship = {
 };
 
 export type ChartData = {
-    title: string;
-    dayRecap: string;
+    title: string | LocalizedString;
+    dayRecap: string | LocalizedString;
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
 };
 
 export type EditorChartData = {
-    title: string;
-    dayRecap: string;
+    title: string | LocalizedString;
+    dayRecap: string | LocalizedString;
     nodes: EditorImageNodeType[];
     edges: CustomEdgeType[];
 };
@@ -136,7 +136,7 @@ export type EditorChartData = {
 /* Chart Types */
 type CommonNodeData = {
     title: string;
-    content: string;
+    content: string | LocalizedString;
     imageSrc: string;
     teamId: string;
     status: string;
@@ -163,7 +163,7 @@ export type CustomEdgeOffsets = {
 type CommonEdgeData = {
     relationshipId: string;
     title: string;
-    content: string;
+    content: string | LocalizedString;
     day: number;
     // Optional as this will be set during rendering
     isNewlyAdded?: boolean;
