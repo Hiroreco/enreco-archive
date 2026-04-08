@@ -1,26 +1,27 @@
+import LineSvg from "@/components/view/chart/LineSvg";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Stack, StackItem } from "@enreco-archive/common-ui/components/Stack";
-import NodeCardDeco from "@/components/view/chart-cards/NodeCardDeco";
+import EdgeCardDeco from "@/components/view/chart-cards/EdgeCardDeco";
 import ReadMarker from "@/components/view/chart-cards/ReadMarker";
 import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
+import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
 import CardFanartCarousel from "@/components/view/chart-cards/CardFanartCarousel";
 import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-utils";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ImageNodeType } from "@enreco-archive/common/types";
-import { isMobileViewport, isNode } from "@/lib/utils";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
+import { isEdge, isMobileViewport } from "@/lib/utils";
 
-import Image from "next/image";
+import { useReactFlow } from "@xyflow/react";
 import { useEffect, useMemo, useRef } from "react";
-import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
-import CardUtilities from "@/components/view/chart-cards/CardUtilities";
-import { Check } from "lucide-react";
+import Image from "next/image";
 import {
     Tooltip,
     TooltipContent,
     TooltipTrigger,
 } from "@enreco-archive/common-ui/components/tooltip";
+import { Check } from "lucide-react";
 import {
     getReadStatus,
     usePersistedViewStore,
@@ -37,35 +38,33 @@ interface Props {
     onCardClose: () => void;
     onNodeLinkClicked: NodeLinkClickHandler;
     onEdgeLinkClicked: EdgeLinkClickHandler;
-    setChartShrink: (width: number) => void;
     onDayChange: (newDay: number) => void;
+    setChartShrink: (width: number) => void;
 }
 
-const NodeCard = ({
+const EdgeCard = ({
     isCardOpen,
     onCardClose,
-    onNodeLinkClicked,
     onEdgeLinkClicked,
-    setChartShrink,
+    onNodeLinkClicked,
     onDayChange,
+    setChartShrink,
 }: Props) => {
-    const tNodeCard = useTranslations("cards.nodeCard");
+    const tEdgeCard = useTranslations("cards.edgeCard");
     const tConstants = useTranslations("constants");
 
     const contentRef = useRef<HTMLDivElement>(null);
+    const { getNode } = useReactFlow();
 
-    const readStatus = usePersistedViewStore((state) => state.readStatus);
-    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
-
-    const { selectedNode, chapter, day } = useViewStore(
+    const { selectedEdge, chapter, day } = useViewStore(
         useShallow((state) => {
-            let selectedNode =
-                state.selectedElement !== null && isNode(state.selectedElement)
-                    ? (state.selectedElement as ImageNodeType)
+            let selectedEdge =
+                state.selectedElement !== null && isEdge(state.selectedElement)
+                    ? (state.selectedElement as FixedEdgeType)
                     : null;
 
             return {
-                selectedNode: selectedNode,
+                selectedEdge: selectedEdge,
                 chapter: state.chapter,
                 day: state.day,
             };
@@ -76,12 +75,15 @@ const NodeCard = ({
     const chapterData = getChapter(chapter);
     const charts = chapterData.charts;
 
-    // Reset scroll position when selectedNode changes
+    const readStatus = usePersistedViewStore((state) => state.readStatus);
+    const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
+
+    // Reset scroll position and header visibility when selectedEdge changes
     useEffect(() => {
         if (contentRef.current) {
             contentRef.current.scrollTop = 0;
         }
-    }, [selectedNode]);
+    }, [selectedEdge]);
 
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
@@ -96,21 +98,45 @@ const NodeCard = ({
     }
 
     function onReadChange(isRead: boolean) {
-        if (selectedNode) {
-            setReadStatus(chapter, day, selectedNode.id, isRead);
+        if (selectedEdge) {
+            setReadStatus(chapter, day, selectedEdge.id, isRead);
         } else {
-            console.error("onReadChange called with null selectedNode");
+            console.error("onReadChange called with null selectedEdge");
         }
     }
 
-    const nodeTeamId = selectedNode?.data.teamId ?? null;
-    const nodeTeam = nodeTeamId !== null ? chapterData.teams[nodeTeamId] : null;
+    // An edge always has a source and target node, which explains the !
+    const nodeA = selectedEdge
+        ? (getNode(selectedEdge.source)! as ImageNodeType)
+        : null;
+    const nodeB = selectedEdge
+        ? (getNode(selectedEdge.target)! as ImageNodeType)
+        : null;
+
+    // Resolve fresh node by id at click time to avoid stale references after day switches
+    const handleNodeIconClick = (nodeId: string) => {
+        const node = getNode(nodeId) as ImageNodeType | null;
+        if (node) {
+            onNodeLinkClicked(node);
+        }
+    };
+
+    const edgeRelationshipId = selectedEdge?.data?.relationshipId ?? null;
+    const edgeRelationship =
+        edgeRelationshipId !== null
+            ? chapterData.relationships[edgeRelationshipId]
+            : null;
     const { contentWithoutFanart, fanartEntries } = useMemo(
-        () => getCardFanartData((selectedNode?.data.content as string) || ""),
-        [selectedNode?.data.content],
+        () => getCardFanartData((selectedEdge?.data?.content as string) || ""),
+        [selectedEdge?.data?.content],
     );
 
-    const renderContent = selectedNode !== null && nodeTeam !== null;
+    const renderContent =
+        selectedEdge !== null &&
+        edgeRelationship !== null &&
+        nodeA !== null &&
+        nodeB !== null;
+
     if (!renderContent) {
         return (
             <VaulDrawer
@@ -121,16 +147,19 @@ const NodeCard = ({
         );
     }
 
-    const availiableNodes: ImageNodeType[] = [];
+    const isEdgeRead = getReadStatus(readStatus, chapter, day, selectedEdge.id);
+
+    const availiableEdges: FixedEdgeType[] = [];
     for (const chart of charts) {
-        for (const node of chart.nodes) {
-            if (node.id === selectedNode.id) {
-                availiableNodes.push(node);
+        for (const edge of chart.edges) {
+            if (edge.id === selectedEdge.id) {
+                availiableEdges.push(edge);
             }
         }
     }
 
-    const isNodeRead = getReadStatus(readStatus, chapter, day, selectedNode.id);
+    const edgeStyle = edgeRelationship.style;
+    const backgroundColor = edgeStyle?.stroke || "";
 
     return (
         <VaulDrawer
@@ -144,13 +173,11 @@ const NodeCard = ({
                 ref={contentRef}
             >
                 {/* Header */}
-                <div className="flex-none flex flex-col items-center">
+                <div className="flex flex-col items-center">
                     <Stack className="w-full">
                         <StackItem className="relative">
-                            <NodeCardDeco
-                                color={selectedNode.data.bgCardColor}
-                            />
-                            {isNodeRead && (
+                            <EdgeCardDeco color={backgroundColor} />
+                            {isEdgeRead && (
                                 <Tooltip delayDuration={300}>
                                     <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
                                         <Check
@@ -160,65 +187,102 @@ const NodeCard = ({
                                         />
                                     </TooltipTrigger>
                                     <TooltipContent>
-                                        {tNodeCard("readTooltip")}
+                                        This card has been read
                                     </TooltipContent>
                                 </Tooltip>
                             )}
                         </StackItem>
-
                         <StackItem>
-                            {selectedNode?.data.imageSrc && (
-                                <Image
-                                    alt="character image"
-                                    className="aspect-square w-[150px] z-10 dark:brightness-[0.87] mx-auto mt-4 relative"
-                                    src={selectedNode?.data.imageSrc}
-                                    width={150}
-                                    height={150}
-                                />
-                            )}
+                            <div className="z-10 flex gap-4 items-center justify-between w-fit mx-auto mt-4">
+                                <button
+                                    type="button"
+                                    className="focus:outline-none"
+                                    onClick={() =>
+                                        handleNodeIconClick(selectedEdge.source)
+                                    }
+                                    title={nodeA.data.title || "View node"}
+                                >
+                                    <Image
+                                        className="relative aspect-square w-[150px] object-cover transition-all duration-200 hover:scale-105"
+                                        style={{
+                                            boxShadow: `0 0 0 0px transparent`,
+                                            outline: "none",
+                                        }}
+                                        onMouseEnter={(e) => {
+                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeA.data.bgCardColor || "#6f6ac6"}`;
+                                        }}
+                                        onMouseLeave={(e) => {
+                                            e.currentTarget.style.boxShadow =
+                                                "0 0 0 0px transparent";
+                                        }}
+                                        src={nodeA.data.imageSrc}
+                                        alt="Node A"
+                                        width={150}
+                                        height={150}
+                                    />
+                                </button>
+                                <LineSvg style={edgeStyle} />
+                                <button
+                                    type="button"
+                                    className="focus:outline-none"
+                                    onClick={() =>
+                                        handleNodeIconClick(selectedEdge.target)
+                                    }
+                                    title={nodeB.data.title || "View node"}
+                                >
+                                    <Image
+                                        className="relative aspect-square w-[150px] object-cover transition-all duration-200 hover:scale-105"
+                                        style={{
+                                            boxShadow: `0 0 0 0px transparent`,
+                                            outline: "none",
+                                        }}
+                                        onMouseEnter={(e) => {
+                                            e.currentTarget.style.boxShadow = `0 0 0 4px ${nodeB.data.bgCardColor || "#6f6ac6"}`;
+                                        }}
+                                        onMouseLeave={(e) => {
+                                            e.currentTarget.style.boxShadow =
+                                                "0 0 0 0px transparent";
+                                        }}
+                                        src={nodeB.data.imageSrc}
+                                        alt="Node B"
+                                        width={150}
+                                        height={150}
+                                    />
+                                </button>
+                            </div>
                         </StackItem>
                     </Stack>
 
-                    <div className="font-semibold text-center text-lg my-1">
-                        {selectedNode?.data.title}
-                    </div>
-
+                    {selectedEdge.data?.title && (
+                        <span className="font-semibold text-lg text-center my-1">
+                            {selectedEdge.data.title}
+                        </span>
+                    )}
                     <Separator className="h-px w-full bg-border" />
-                    <div className="flex flex-row justify-around w-full">
-                        <div className="flex flex-col items-center">
-                            <div className="font-semibold">
-                                {chapter === 0
-                                    ? tNodeCard("guild")
-                                    : chapter === 1
-                                      ? tNodeCard("job")
-                                      : tNodeCard("team")}
-                            </div>
-                            <div>
-                                {nodeTeam?.name
-                                    ? tConstants(nodeTeam.name)
-                                    : ""}
-                            </div>
-                        </div>
-                        <div className="flex flex-col items-center">
-                            <div className="font-semibold">
-                                {tNodeCard("status")}
-                            </div>
-                            <div>{selectedNode?.data.status}</div>
-                        </div>
+                    <div className="my-2">
+                        <span className="font-semibold">
+                            {tEdgeCard("relationship")}:{" "}
+                        </span>
+                        <span className="">
+                            {tConstants(edgeRelationship.name)}
+                        </span>
                     </div>
                     <Separator className="h-px w-full bg-border" />
                 </div>
 
                 {/* Content */}
-                <div className="mt-2 overflow-x-hidden">
-                    <div className="flex items-center justify-between">
+                <div ref={contentRef} className="mt-2 overflow-x-hidden">
+                    {selectedEdge.data?.day !== undefined && (
+                        // <div className="text-2xl font-bold my-2 underline underline-offset-4">
+                        //     Day {selectedEdge.data.day + 1}
+                        // </div>
                         <CardDaySwitcher
-                            currentDay={selectedNode.data.day}
+                            currentDay={selectedEdge.data.day}
                             onDayChange={onDayChange}
-                            availiableElements={availiableNodes}
+                            availiableElements={availiableEdges}
+                            showTitle={true}
                         />
-                        <CardUtilities chapter={chapter} node={selectedNode} />
-                    </div>
+                    )}
                     <AnimatePresence mode="wait">
                         <motion.div
                             key={day} // Change key to trigger animation
@@ -232,53 +296,68 @@ const NodeCard = ({
                                 onNodeLinkClicked={onNodeLinkClicked}
                                 className="md:px-4 px-2"
                             >
-                                {contentWithoutFanart || tNodeCard("noContent")}
+                                {contentWithoutFanart || "No content available"}
                             </ViewMarkdown>
                         </motion.div>
                     </AnimatePresence>
-
                     <Separator className="my-4" />
+
                     <CardFanartCarousel
                         className="mt-5 md:px-4 px-2"
                         fanartEntries={fanartEntries}
                     />
-                    <Separator className="my-4" />
 
+                    <Separator className="my-4" />
                     <PrevNextDayNavigation
                         onPreviousDayClick={() => {
-                            const currentIndex = availiableNodes.findIndex(
-                                (n) => n.data.day === selectedNode.data.day,
+                            const currentIndex = availiableEdges.findIndex(
+                                (n) => n.data?.day === selectedEdge.data?.day,
                             );
                             if (currentIndex > 0) {
-                                const previousNode =
-                                    availiableNodes[currentIndex - 1];
-                                onDayChange(previousNode.data.day);
+                                const previousEdge =
+                                    availiableEdges[currentIndex - 1];
+                                if (previousEdge.data?.day !== undefined) {
+                                    onDayChange(previousEdge.data.day);
+                                }
                             }
                         }}
                         onNextDayClick={() => {
-                            const currentIndex = availiableNodes.findIndex(
-                                (n) => n.data.day === selectedNode.data.day,
+                            const currentIndex = availiableEdges.findIndex(
+                                (n) => n.data?.day === selectedEdge.data?.day,
                             );
-                            if (currentIndex < availiableNodes.length - 1) {
-                                const nextNode =
-                                    availiableNodes[currentIndex + 1];
-                                onDayChange(nextNode.data.day);
+                            if (currentIndex < availiableEdges.length - 1) {
+                                const nextEdge =
+                                    availiableEdges[currentIndex + 1];
+                                if (nextEdge.data?.day !== undefined) {
+                                    onDayChange(nextEdge.data.day);
+                                }
                             }
                         }}
                         disablePreviousDay={
-                            selectedNode.data.day ===
-                            Math.min(...availiableNodes.map((n) => n.data.day))
+                            selectedEdge.data?.day ===
+                            Math.min(
+                                ...availiableEdges.map(
+                                    (n) =>
+                                        n.data?.day ?? Number.POSITIVE_INFINITY,
+                                ),
+                            )
                         }
                         disableNextDay={
-                            selectedNode.data.day ===
-                            Math.max(...availiableNodes.map((n) => n.data.day))
+                            selectedEdge.data?.day ===
+                            Math.max(
+                                ...availiableEdges.map(
+                                    (n) =>
+                                        n.data?.day ?? Number.NEGATIVE_INFINITY,
+                                ),
+                            )
                         }
                     />
-                    <ReadMarker read={isNodeRead} setRead={onReadChange} />
+
+                    <ReadMarker read={isEdgeRead} setRead={onReadChange} />
                 </div>
             </div>
         </VaulDrawer>
     );
 };
 
-export default NodeCard;
+export default EdgeCard;
