@@ -100,6 +100,7 @@ export type EditorSaveMetadata = {
 export type LocalizedChapter = {
     numberOfDays: number;
     title: LocalizedString;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     charts: any[];
     teams: TeamMap;
     relationships: RelationshipMap;
