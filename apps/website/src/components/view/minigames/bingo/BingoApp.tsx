@@ -1,0 +1,72 @@
+import BingoGame from "@/components/view/minigames/bingo/BingoGame";
+import BingoGameInfo from "@/components/view/minigames/bingo/BingoGameInfo";
+import ModalCollection from "@/components/view/basic-modals/ModalCollection";
+import {
+    Dialog,
+    DialogClose,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@enreco-archive/common-ui/components/dialog";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { Info } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Button } from "@enreco-archive/common-ui/components/button";
+
+const BingoApp = () => {
+    const t = useTranslations("modals.minigames.games.bingo");
+    const tCommon = useTranslations("common");
+
+    return (
+        <div className="w-screen flex flex-col items-center justify-center overflow-hidden h-dvh">
+            <div className="relative px-4 flex flex-col justify-center w-full md:h-auto h-full max-w-4xl bg-background/60 backdrop-blur-2xl md:rounded-lg p-4 md:pt-4 pt-14">
+                <div className="pb-2 text-center md:block hidden">
+                    <h2 className="text-lg font-semibold">{t("label")}</h2>
+                    <p className="text-sm text-muted-foreground">{t("desc")}</p>
+                </div>
+
+                <BingoGame />
+
+                <Dialog>
+                    <DialogTrigger asChild>
+                        <button
+                            className="absolute md:bottom-2 md:right-2 bottom-4 right-4 z-40"
+                            aria-label={t("label")}
+                            type="button"
+                        >
+                            <Info />
+                        </button>
+                    </DialogTrigger>
+                    <DialogContent className="flex flex-col max-h-[85vh]">
+                        <VisuallyHidden>
+                            <DialogDescription>
+                                View information about the bingo game
+                            </DialogDescription>
+                        </VisuallyHidden>
+                        <DialogHeader>
+                            <DialogTitle>{t("label")}</DialogTitle>
+                        </DialogHeader>
+                        <div className="overflow-auto grow pb-6 px-2">
+                            <BingoGameInfo />
+                        </div>
+                        <DialogFooter>
+                            <DialogClose asChild>
+                                <Button>{tCommon("close")}</Button>
+                            </DialogClose>
+                        </DialogFooter>
+                    </DialogContent>
+                </Dialog>
+            </div>
+
+            <ModalCollection
+                modals={["fanart", "settings", "minigame", "music", "info"]}
+                hideOnMobile={["minigame", "info"]}
+            />
+        </div>
+    );
+};
+
+export default BingoApp;

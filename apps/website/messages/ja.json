@@ -170,6 +170,72 @@
                     "yourAnswer": "あなたの回答",
                     "shioriStash": "シオリ・ニャヴェラの隠しコレクション",
                     "wrongAnswer": "不正解です！もう一度試してください。"
+                },
+                "bingo": {
+                    "label": "ビンゴメーカー（チャプター3）",
+                    "desc": "何が起こるか予想して、ENrecoテーマのビンゴボードを作成しましょう！",
+                    "utilLabel": "ビンゴ設定",
+                    "intro": "次回のチャプター3: 壊れた絆のために、自分だけの<bold>ENigmatic Recollectionビンゴ</bold>シートを作成しましょう！予想、見たい瞬間、またはコミュニティの内輪ネタでマスを埋めてください。",
+                    "howToUse": "使い方:",
+                    "editModeDesc": "<bold>編集モード:</bold> 任意のマスをクリックしてテキストを編集します。外側をクリックして保存します。",
+                    "markModeDesc": "<bold>マークモード:</bold> 配信中に完了したマスをクリックしてマークします。",
+                    "downloadDesc": "<bold>ダウンロード:</bold> ビンゴシートを画像として保存し、友達と共有しましょう！",
+                    "shareDesc": "<bold>ボードを共有：</bold>「共有」と「インポート」機能を使って、自分のボードを他の人にコピーしてもらうことができます。",
+                    "presetDesc": "<bold>プリセット:</bold> 何を入れるか迷っていますか？コミュニティが作成したプリセットを使用して、インスピレーションを得たり、すばやくセットアップしたりしましょう！",
+                    "tips": "ビンゴボードは自動的に保存されるので、いつでも戻って編集できます！",
+                    "cardByDay": "<bold>日ごとのカード：</bold>ビンゴシートは各日のイベントに合わせて記入することをお勧めしますが、お好きなように記入していただいて構いません。",
+                    "editMode": "編集モード",
+                    "markMode": "マークモード",
+                    "edit": "編集",
+                    "play": "プレイ",
+                    "mode": "編集/マーク",
+                    "preview": "プレビュー",
+                    "previewTitle": "ビンゴプレビュー",
+                    "previewDescription": "ダウンロード時のビンゴの見た目をプレビュー",
+                    "download": "ダウンロード",
+                    "reset": "クリア",
+                    "previewNote": "注記: モバイルの場合は、ダウンロードした画像によりフォント サイズとテキストのオーバーフローの問題が解決されます。",
+                    "randomize": "ランダム化",
+                    "preset": "プリセット使用",
+                    "share": "共有",
+                    "shareTitle": "ビンゴボードを共有",
+                    "shareDescription": "他の人にあなたのビンゴボードを共有しましょう！",
+                    "shareCode": "共有コード",
+                    "shareUrl": "共有URL",
+                    "shareNote": "共有コードをコピーして、他の人とビンゴボードを共有しましょう。受信者はインポートウィンドウにコードを貼り付けて、直接ロードできます。",
+                    "import": "インポート",
+                    "importTitle": "ビンゴボードをインポート",
+                    "importDescription": "他の人のビンゴボードを読み込むために共有コードを貼り付けてください",
+                    "importCode": "共有コード",
+                    "importPlaceholder": "ここに共有コードを貼り付けてください...",
+                    "importNote": "これにより、現在の日のボードがインポートされたもので置き換えられます。マークされたマスはクリアされます。",
+                    "importButton": "ボードをインポート",
+                    "importErrorEmpty": "共有コードを入力してください",
+                    "importErrorInvalid": "無効な共有コードです。確認してもう一度お試しください。",
+                    "reroll": "ランダム化",
+                    "accept": "受け入れる",
+                    "cancel": "キャンセル",
+                    "understood": "理解しました",
+                    "fullBoardTitle": "ボードがいっぱいです",
+                    "fullBoardMessage": "ボードがいっぱいです。プリセット機能を使用するには、空きマスを残してください。",
+                    "showDay": "日を表示",
+                    "resetTitle": "ボードをリセット",
+                    "resetMessage": "現在のボードをリセットします。よろしいですか？",
+                    "resetConfirm": "はい、クリアします",
+                    "markerOptions": "Marker Options",
+                    "winOptions": "Win Indicator Options",
+                    "markerOptionValues": {
+                        "emblem": "エンブレム",
+                        "scarlet-wand": "スカーレット・ワンド",
+                        "cerulean-cup": "セルリアン・カップ",
+                        "jade-sword": "ジェイド・ソード",
+                        "amber-coin": "アンバー・コイン"
+                    },
+                    "winOptionValues": {
+                        "crack": "割れたセル",
+                        "outline": "アウトライン",
+                        "line": "ラインスルー"
+                    }
                 }
             }
         },
@@ -540,5 +606,14 @@
             },
             "fanficError": "ストーリーコンテンツの読み込みに失敗しました。後でもう一度試すか、元のソースから読むことができます。<link>こちら</link>。"
         }
+    },
+    "countdownCard": {
+        "dayNUpdate": "第{day}日目の更新",
+        "updateShouldBeOut": "更新はもうすぐ公開されるはずです（Ctrl + R）—もしそうでない場合は、しばらくお待ちください🙏",
+        "announcement": "最新情報については<span>こちら</span>の発表を確認してください。"
+    },
+    "comingSoonCard": {
+        "text1": "<bold>第3章: 壊れた絆</bold>の更新は、イベントが発生するにつれてここに表示されます！",
+        "text2": "最新情報については<link>こちら</link>のニュースと発表を確認してください。"
     }
 }

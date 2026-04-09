@@ -3,10 +3,12 @@ import {
     Chapter,
     ChapterRecapData,
     GlossaryPageData,
+    LocalizedChapter,
+    LocalizedChapterRecapData,
     SiteData,
     Song,
     SongRaw,
-    TextData,
+    TextData
 } from "@enreco-archive/common/types";
 
 import chapter0 from "#/recaps/chapter0.json";
@@ -149,11 +151,11 @@ const convertLocalizedChangelogs = (
 
 // Convert localized chapter recaps to locale-specific format for components
 const convertLocalizedChapterRecaps = (
-    recaps: any,
+    recaps: LocalizedChapterRecapData,
     locale: Locale,
 ): ChapterRecapData => {
     return {
-        chapters: recaps.chapters.map((chapter: any) => ({
+        chapters: recaps.chapters.map((chapter) => ({
             title: chapter.title[locale],
             content: chapter.content[locale],
         })),
@@ -161,7 +163,7 @@ const convertLocalizedChapterRecaps = (
 };
 
 // Convert localized chapter to locale-specific format
-const convertLocalizedChapter = (chapter: any, locale: Locale): Chapter => {
+const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Chapter => {
     return {
         numberOfDays: chapter.numberOfDays,
         title: chapter.title[locale],
@@ -205,9 +207,9 @@ const convertLocalizedChapter = (chapter: any, locale: Locale): Chapter => {
 const DATA: Record<Locale, LocalizedData> = {
     en: {
         chapters: [
-            convertLocalizedChapter(chapter0 as any, "en") as Chapter,
-            convertLocalizedChapter(chapter1 as any, "en") as Chapter,
-            // convertLocalizedChapter(chapter2_combined as any, "en") as Chapter,
+            convertLocalizedChapter(chapter0 as LocalizedChapter, "en"),
+            convertLocalizedChapter(chapter1 as LocalizedChapter, "en"),
+            // convertLocalizedChapter(chapter2_combined as LocalizedChapter, "en"),
         ],
         textData: text as TextData,
         glossary: convertLocalizedGlossary(
@@ -222,7 +224,7 @@ const DATA: Record<Locale, LocalizedData> = {
         ) as any,
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
         chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps as any,
+            chapterRecaps as LocalizedChapterRecapData,
             "en",
         ),
         changelogs: convertLocalizedChangelogs(changelogs as any, "en"),
@@ -234,8 +236,8 @@ const DATA: Record<Locale, LocalizedData> = {
     },
     ja: {
         chapters: [
-            convertLocalizedChapter(chapter0 as any, "ja") as Chapter,
-            convertLocalizedChapter(chapter1 as any, "ja") as Chapter,
+            convertLocalizedChapter(chapter0 as LocalizedChapter, "ja"),
+            convertLocalizedChapter(chapter1 as LocalizedChapter, "ja"),
         ],
         textData: text as TextData,
         glossary: convertLocalizedGlossary(
@@ -250,7 +252,7 @@ const DATA: Record<Locale, LocalizedData> = {
         ) as any,
         songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
         chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps as any,
+            chapterRecaps as LocalizedChapterRecapData,
             "ja",
         ),
         changelogs: convertLocalizedChangelogs(changelogs as any, "ja"),

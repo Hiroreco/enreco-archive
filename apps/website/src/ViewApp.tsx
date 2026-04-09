@@ -15,7 +15,7 @@ import MiniGameModal from "@/components/view/minigames/MiniGameModal";
 import SettingsModal from "@/components/view/utility-modals/SettingsModal";
 import VideoModal from "@/components/view/utility-modals/VideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
-import { useClickOutside } from "@/hooks/useClickOutsite";
+import { useClickOutside } from "@/hooks/useClickOutside";
 import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
@@ -50,6 +50,9 @@ import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
 import NewsModal from "@/components/view/basic-modals/NewsModal";
 import newsDataEn from "#/news.json";
+import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
+import CountdownCard from "@/components/view/other/CountdownCard";
+import ComingSoonCard from "@/components/view/other/ComingSoonCard";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -168,6 +171,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setHasVisitedBefore = usePersistedViewStore(
         (state) => state.setHasVisitedBefore,
     );
+    const hasDismissedBingoIndicator = usePersistedViewStore(
+        (state) => state.hasDismissedBingoIndicator,
+    );
 
     /* State variables */
     const [chartShrink, setChartShrink] = useState(0);
@@ -259,7 +265,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
         // Verify values, if invalid, reset to 0/0
         if (parsedValues) {
-            const [chapter, day] = parsedValues;
+            let [chapter, day] = parsedValues;
+            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
+            chapter = chapter === 2 ? 1 : chapter;
+            console.log(chapter, day);
+
             if (
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
@@ -272,8 +282,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             }
             changeWorkingData(chapter, day);
         } else {
-            setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
-            changeWorkingData(siteData.numberOfChapters - 1, 0);
+            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
+            let chapter = siteData.numberOfChapters - 1;
+            if (chapter === 2) {
+                chapter = 1;
+            }
+            setBrowserHash(`${chapter}/0`);
+            changeWorkingData(chapter, 0);
         }
     }
 
@@ -354,12 +369,16 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                <Chart
-                    widthToShrink={chartShrink}
-                    onNodeClick={onNodeClick}
-                    onEdgeClick={onEdgeClick}
-                    onPaneClick={onCardClose}
-                />
+                {chapter <= 1 && (
+                    <Chart
+                        widthToShrink={chartShrink}
+                        onNodeClick={onNodeClick}
+                        onEdgeClick={onEdgeClick}
+                        onPaneClick={onCardClose}
+                    />
+                )}
+                {/* Coming soon card, shown for chapter 3 only */}
+                {chapter > 1 && <ComingSoonCard />}
                 <div
                     className={cn(
                         "absolute top-0 left-0 w-screen h-full -z-10",
@@ -460,6 +479,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     {
                         invisible: currentCard !== null,
                         visible: currentCard === null,
+                        // TODO: remove when chapter 3 starts
+                        hidden: chapter > 1,
                     },
                 )}
                 onClick={openReadCounterModal}
@@ -492,7 +513,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
                     tooltipText={tNavTooltips("dayRecapVisibility")}
-                    enabled={true}
+                    // TODO: remove when chapter 3 starts
+                    enabled={chapter <= 1}
                     tooltipSide="left"
                     onClick={() => {
                         if (currentCard === "setting") {
@@ -594,16 +616,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             </div>
 
             <div
-                className={cn(
-                    "z-0 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0 ",
-                    {
-                        "w-[60%] lg:block hidden": currentCard === "setting",
-                        "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            currentCard === null,
-                        hidden:
-                            currentCard !== null && currentCard !== "setting",
-                    },
-                )}
+                className={cn("z-0 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0", {
+                    "w-[60%] lg:block hidden": currentCard === "setting",
+                    "w-full md:w-4/5 2xl:w-2/5 mx-auto": currentCard === null,
+                    hidden: currentCard !== null && currentCard !== "setting",
+                })}
             >
                 <TransportControls
                     isAnyModalOpen={openModal !== null}
@@ -620,6 +637,28 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
             </div>
+            {!hasDismissedBingoIndicator && (
+                <BingoIndicator
+                    className={cn(
+                        "md:hidden fixed bottom-18 left-1/2 w-fit -translate-x-1/2 opacity-60",
+                        {
+                            invisible: currentCard !== null,
+                        },
+                    )}
+                />
+            )}
+
+            {!hasDismissedBingoIndicator && (
+                <BingoIndicator
+                    className={cn(
+                        "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 ",
+                        {
+                            invisible: currentCard !== null,
+                        },
+                    )}
+                />
+            )}
+            <CountdownCard isInLoadingScreen={isInLoadingScreen} />
         </>
     );
 };

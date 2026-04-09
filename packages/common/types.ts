@@ -68,10 +68,19 @@ export type TextAudioState = {
     currentTextId: string | null;
 };
 
-export type ChapterRecapData = {
+/* Raw/Localized Types - for raw data import and internal processing */
+export type LocalizedChapterRecapData = {
     chapters: {
         title: LocalizedString;
         content: LocalizedString;
+    }[];
+};
+
+/* App Types - what components actually use (strings only) */
+export type ChapterRecapData = {
+    chapters: {
+        title: string;
+        content: string;
     }[];
 };
 
@@ -87,9 +96,22 @@ export type EditorSaveMetadata = {
     saveDatetime: string;
 };
 
+/* Raw/Localized Types - for raw data import */
+export type LocalizedChapter = {
+    numberOfDays: number;
+    title: LocalizedString;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    charts: any[];
+    teams: TeamMap;
+    relationships: RelationshipMap;
+    bgiSrc: string;
+    bgmSrc: string;
+};
+
+/* App Types - what components actually use */
 export type Chapter = {
     numberOfDays: number;
-    title: string | LocalizedString;
+    title: string;
     charts: ChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
@@ -119,9 +141,18 @@ export type Relationship = {
     style: React.CSSProperties;
 };
 
+/* Raw/Localized Types - for raw data import */
+export type LocalizedChartData = {
+    title: LocalizedString;
+    dayRecap: LocalizedString;
+    nodes: ImageNodeType[];
+    edges: FixedEdgeType[];
+};
+
+/* App Types - what components actually use */
 export type ChartData = {
-    title: string | LocalizedString;
-    dayRecap: string | LocalizedString;
+    title: string;
+    dayRecap: string;
     nodes: ImageNodeType[];
     edges: FixedEdgeType[];
 };
@@ -136,7 +167,7 @@ export type EditorChartData = {
 /* Chart Types */
 type CommonNodeData = {
     title: string;
-    content: string | LocalizedString;
+    content: string;
     imageSrc: string;
     teamId: string;
     status: string;
@@ -163,7 +194,7 @@ export type CustomEdgeOffsets = {
 type CommonEdgeData = {
     relationshipId: string;
     title: string;
-    content: string | LocalizedString;
+    content: string;
     day: number;
     // Optional as this will be set during rendering
     isNewlyAdded?: boolean;

@@ -170,6 +170,72 @@
                     "yourAnswer": "Your Answer",
                     "shioriStash": "Shiori Nyavella's Stash",
                     "wrongAnswer": "Wrong Answer! Try again."
+                },
+                "bingo": {
+                    "label": "Bingo Maker (Chapter 3)",
+                    "desc": "Make your predictions of what will happen, and generate an ENreco-themed Bingo Board!",
+                    "utilLabel": "Bingo Utility",
+                    "intro": "Create your own <bold>ENigmatic Recollection Bingo</bold> sheet for the upcoming Chapter 3: Broken Bonds! Fill in the squares with predictions, moments you want to see, or inside jokes from the community.",
+                    "howToUse": "How to use:",
+                    "editModeDesc": "<bold>Edit Mode:</bold> Click on any square to edit its text. Click outside to save.",
+                    "markModeDesc": "<bold>Mark Mode:</bold> Click on squares to mark them as complete",
+                    "downloadDesc": "<bold>Download:</bold> Save your bingo sheet as an image to share with friends!",
+                    "presetDesc": "<bold>Presets:</bold> Stuck on what to put? Use community-made presets for inspiration or a quick setup!",
+                    "shareDesc": "<bold>Sharing your Board:</bold> You can let others get a copy of your board via the Share and Import functions",
+                    "tips": "Your bingo board is automatically saved, so you can come back anytime!",
+                    "cardByDay": "<bold>Card by Day:</bold> You are encouraged to fill out the bingo sheet based on the events of each day, but feel free to fill it out however you like.",
+                    "editMode": "Edit Mode",
+                    "markMode": "Mark Mode",
+                    "edit": "Edit",
+                    "play": "Play",
+                    "mode": "Edit/Mark",
+                    "preview": "Preview",
+                    "previewTitle": "Bingo Preview",
+                    "previewDescription": "Preview how your bingo will look when downloaded",
+                    "download": "Download",
+                    "reset": "Clear",
+                    "previewNote": "Note: If you are on mobile, the downloaded image will fix issues with font size and text overflow.",
+                    "randomize": "Randomize",
+                    "preset": "Use Presets",
+                    "share": "Share",
+                    "shareTitle": "Share Your Bingo Board",
+                    "shareDescription": "Let others use a copy of your bingo board!",
+                    "shareCode": "Share Code",
+                    "shareUrl": "Share URL",
+                    "shareNote": "Copy the code to share your board. Recipients can paste the code in the Import window to load it directly.",
+                    "import": "Import",
+                    "importTitle": "Import Bingo Board",
+                    "importDescription": "Paste a share code to load someone else's bingo board",
+                    "importCode": "Share Code",
+                    "importPlaceholder": "Paste share code here...",
+                    "importNote": "This will replace the current board with the imported one. Any marked squares will be cleared.",
+                    "importButton": "Import Board",
+                    "importErrorEmpty": "Please enter a share code",
+                    "importErrorInvalid": "Invalid share code. Please check and try again.",
+                    "reroll": "Reroll",
+                    "accept": "Accept",
+                    "cancel": "Cancel",
+                    "understood": "Understood",
+                    "fullBoardTitle": "Board is Full",
+                    "fullBoardMessage": "Board is full. There must be empty squares to use the preset feature.",
+                    "showDay": "Show Day",
+                    "resetTitle": "Reset Board",
+                    "resetMessage": "This will clear the current board. Are you sure?",
+                    "resetConfirm": "Yes, clear it",
+                    "markerOptions": "Marker Options",
+                    "winOptions": "Win Indicator Options",
+                    "markerOptionValues": {
+                        "emblem": "ENreco Emblem",
+                        "scarlet-wand": "Scarlet Wand",
+                        "cerulean-cup": "Cerulean Cup",
+                        "jade-sword": "Jade Sword",
+                        "amber-coin": "Amber Coin"
+                    },
+                    "winOptionValues": {
+                        "crack": "Cracked Cell",
+                        "outline": "Outlined Cell",
+                        "line": "Line Through"
+                    }
                 }
             }
         },
@@ -539,5 +605,14 @@
             },
             "fanficError": "Failed to load story content, try again later or you may read it from the original source <link>here</link>."
         }
+    },
+    "countdownCard": {
+        "dayNUpdate": "Day {day} update",
+        "updateShouldBeOut": "Update should now be out (Ctrl + R) — if not, please be patient 🙏",
+        "announcement": "Check anouncements for more info <span>here.</span>"
+    },
+    "comingSoonCard": {
+        "text1": "<bold>Chapter 3: Broken Bonds</bold> updates will be here as the event happens!",
+        "text2": "To be up to date, you can check out more news and announcements <link>here.</link>"
     }
 }

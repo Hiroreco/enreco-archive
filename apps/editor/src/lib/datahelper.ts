@@ -15,7 +15,7 @@ import JSZip from "jszip";
 const SAVE_VERSION = 1;
 
 function getChapterFileName(chapterIndex: number) {
-    return `chapter${chapterIndex}.json`;
+    return `chapter${chapterIndex}_en.json`;
 }
 
 /**

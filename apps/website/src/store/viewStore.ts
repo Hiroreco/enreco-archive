@@ -20,6 +20,7 @@ export type ModalType =
     | "changelog"
     | "news"
     | null;
+export type AppType = "chart" | "glossary" | "archive" | "bingo";
 
 type ViewStoreType = ViewDataSlice &
     ViewUiSlice &
@@ -33,6 +34,9 @@ interface ViewDataSlice {
 
     day: number;
     setDay: (day: number) => void;
+
+    appType: AppType;
+    setAppType: (appType: AppType) => void;
 }
 
 const createDataSlice: StateCreator<ViewStoreType, [], [], ViewDataSlice> = (
@@ -43,6 +47,9 @@ const createDataSlice: StateCreator<ViewStoreType, [], [], ViewDataSlice> = (
 
     day: 0,
     setDay: (newDay) => set(() => ({ day: newDay })),
+
+    appType: "chart",
+    setAppType: (newAppType) => set(() => ({ appType: newAppType })),
 });
 
 /** Slice to hold various ui state. */

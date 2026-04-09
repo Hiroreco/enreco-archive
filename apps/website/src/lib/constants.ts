@@ -2,6 +2,9 @@ export const LS_KEYS = {
     GAMBLING_HS: "gambling-hs",
     MEMORY_HS: "memory-hs",
     CHICKEN_HS: "chicken-hs",
+    BINGO_BOARDS: "bingo-boards",
+    BINGO_ALL_MARKED: "bingo-all-marked",
+    BINGO_SHOW_DAY: "bingo-show-day",
     HAS_VISITED: "has-visited-2",
     SHIORI_STASH_UNLOCKED: "shiori-stash-unlocked",
     AWOO_EASTER_EGG_COUNT: "awoo-easter-egg-count",
@@ -11,4 +14,5 @@ export const LS_KEYS = {
     NO_TRANSLATION_YET: "no-translation-yet",
     CURRENT_VERSION_KEY: "enreco-current-version",
     CURRENT_VERSION: "2026-03-03", // Update this every announcement release
+    COUNTDOWN_UPDATE_VERSION: "countdown-update-version",
 };

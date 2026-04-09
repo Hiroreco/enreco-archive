@@ -106,7 +106,7 @@ const NodeCard = ({
     const nodeTeamId = selectedNode?.data.teamId ?? null;
     const nodeTeam = nodeTeamId !== null ? chapterData.teams[nodeTeamId] : null;
     const { contentWithoutFanart, fanartEntries } = useMemo(
-        () => getCardFanartData(selectedNode?.data.content || ""),
+        () => getCardFanartData((selectedNode?.data.content as string) || ""),
         [selectedNode?.data.content],
     );
 

@@ -77,6 +77,7 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
         }
         return defaultClass;
     }, [game, isMobile, defaultClass, chickenClass, shioriClass]);
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
@@ -109,7 +110,7 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                     </Select>
 
                     {/* Game container */}
-                    <div className="flex grow items-center justify-center w-full">
+                    <div className="flex grow items-center justify-center w-full overflow-y-auto">
                         <AnimatePresence mode="wait">
                             {[
                                 {

@@ -203,19 +203,17 @@ async function processChapter(chapterNum: number) {
                 /* ignore missing folder */
             }
 
-            // Only show warnings for missing English files
-            if (locale === "en") {
-                for (const n of chart.nodes) {
-                    if (
-                        (n.data.day === undefined || n.data.day === dayIndex) &&
-                        !seenNodes.has(n.id)
-                    ) {
-                        console.warn(
-                            `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
-                        );
-                    }
-                }
+        // Show warnings for missing files for all locales
+        for (const n of chart.nodes) {
+            if (
+                (n.data.day === undefined || n.data.day === dayIndex) &&
+                !seenNodes.has(n.id)
+            ) {
+                console.warn(
+                    `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
+                );
             }
+        }
 
             // 3) Edges
             const edgesDir = path.join(dayPath, "edges");
@@ -311,18 +309,15 @@ async function processChapter(chapterNum: number) {
                 /* ignore missing folder */
             }
 
-            // Only show warnings for missing English files
-            if (locale === "en") {
-                for (const e of chart.edges) {
-                    if (
-                        (e.data?.day === undefined || e.data.day === dayIndex) &&
-                        !seenEdges.has(e.id)
-                    ) {
-                        console.warn(
-                            `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
-                        );
-                    }
-                }
+        // Show warnings for missing files for all locales
+        for (const e of chart.edges) {
+            if (
+                (e.data?.day === undefined || e.data.day === dayIndex) &&
+                !seenEdges.has(e.id)
+            ) {
+                console.warn(
+                    `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
+                );
             }
         }
     }
@@ -444,4 +439,4 @@ async function main() {
 main().catch((err) => {
     console.error(err);
     process.exit(1);
-});
+})};

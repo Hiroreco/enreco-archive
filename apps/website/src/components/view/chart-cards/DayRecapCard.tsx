@@ -7,14 +7,12 @@ import {
 import VaulDrawer from "@/components/view/chart-cards/VaulDrawer";
 import RecapCard from "@/components/view/chart-cards/RecapCard";
 import VisibilityCard from "@/components/view/chart-cards/VisibilityCard";
-import {
-    Chapter,
-} from "@enreco-archive/common/types";
-import { isMobileViewport } from "@/lib/utils";
+import { Chapter } from "@enreco-archive/common/types";
 import { useTranslations } from "next-intl";
 import { useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useCompleteChartData } from "@/hooks/data/useCompleteChartData";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 
 interface Props {
     isCardOpen: boolean;
@@ -49,23 +47,26 @@ const DayRecapCard = ({
         toggleCharacterVisible,
         toggleAllCharactersVisible,
         day,
-    } = useViewStore(useShallow(state => ({
-        chapter: state.chapter,
-        relationshipVisibility: state.relationship,
-        toggleRelationshipVisible: state.toggleRelationship,
-        toggleAllRelationshipVisible: state.toggleAllRelationships,
-        showOnlyNewEdges: state.showOnlyNewEdges,
-        setShowOnlyNewEdges: state.setShowOnlyNewEdges,
-        teamVisibility: state.team,
-        toggleTeamVisible: state.toggleTeam,
-        toggleAllTeamsVisible: state.toggleAllTeams,
-        characterVisibility: state.character,
-        toggleCharacterVisible: state.toggleCharacter,
-        toggleAllCharactersVisible: state.toggleAllCharacters,
-        day: state.day,
-    })));
+    } = useViewStore(
+        useShallow((state) => ({
+            chapter: state.chapter,
+            relationshipVisibility: state.relationship,
+            toggleRelationshipVisible: state.toggleRelationship,
+            toggleAllRelationshipVisible: state.toggleAllRelationships,
+            showOnlyNewEdges: state.showOnlyNewEdges,
+            setShowOnlyNewEdges: state.setShowOnlyNewEdges,
+            teamVisibility: state.team,
+            toggleTeamVisible: state.toggleTeam,
+            toggleAllTeamsVisible: state.toggleAllTeams,
+            characterVisibility: state.character,
+            toggleCharacterVisible: state.toggleCharacter,
+            toggleAllCharactersVisible: state.toggleAllCharacters,
+            day: state.day,
+        })),
+    );
 
     const { nodes } = useCompleteChartData();
+    const isMobile = useIsMobileViewport();
 
     function onDrawerOpenChange(newOpenState: boolean): void {
         if (!newOpenState) {
@@ -74,7 +75,7 @@ const DayRecapCard = ({
     }
 
     const handleCardWidthChange = (width: number) => {
-        if (isCardOpen && !isMobileViewport()) {
+        if (isCardOpen && !isMobile) {
             setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
         }
     };

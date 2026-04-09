@@ -1,7 +1,14 @@
 "use client";
 
+import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
 import GlossaryApp from "@/components/view/glossary/GlossaryApp";
+import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
+import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
+import BingoApp from "@/components/view/minigames/bingo/BingoApp";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { LS_KEYS } from "@/lib/constants";
+import { usePersistedViewStore } from "@/store/persistedViewStore";
 import { useViewStore } from "@/store/viewStore";
 import {
     Tabs,
@@ -12,18 +19,11 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
 import { Film, LibraryBig, Workflow } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import TranslationDislaimerModal from "@/components/view/basic-modals/TranslationDisclaimerModal";
-import { usePersistedViewStore } from "@/store/persistedViewStore";
-import { LS_KEYS } from "@/lib/constants";
-import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
-import { isMobileViewport } from "@/lib/utils";
-import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
-
-type AppType = "chart" | "glossary" | "archive";
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -31,8 +31,8 @@ export const ViewAppWrapper = () => {
     const themeType = useSettingStore((state) => state.themeType);
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
-
-    const [appType, setAppType] = useState<AppType>("chart");
+    const appType = useViewStore((state) => state.appType);
+    const setAppType = useViewStore((state) => state.setAppType);
     const chapter = useViewStore((state) => state.chapter);
     const currentCard = useViewStore((state) => state.currentCard);
     const closeCard = useViewStore((state) => state.closeCard);
@@ -43,10 +43,13 @@ export const ViewAppWrapper = () => {
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
     );
+    const hasDismissedBingoIndicator = usePersistedViewStore(
+        (state) => state.hasDismissedBingoIndicator,
+    );
     const openChangeLogModal = useViewStore(
         (state) => state.openChangeLogModal,
     );
-    const isMobile = isMobileViewport();
+    const isMobile = useIsMobileViewport();
 
     let bgImage = chapterData.bgiSrc;
     if (useDarkMode) {
@@ -108,14 +111,14 @@ export const ViewAppWrapper = () => {
             >
                 <Tabs
                     orientation="vertical"
-                    defaultValue="chart"
+                    value={appType}
                     onValueChange={(value) => {
                         // To avoid soft-locking when the user chooses a card, and quickly switches to glossary
                         if (value === "glossary") {
                             closeCard();
                             deselectElement();
                         }
-                        setAppType(value as AppType);
+                        setAppType(value as typeof appType);
                     }}
                     className={cn(
                         "absolute left-[8px] top-[8px] z-10 transition-all",
@@ -144,6 +147,17 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
+                            {hasDismissedBingoIndicator && (
+                                <TabsTrigger value="bingo" title="Bingo">
+                                    <Image
+                                        src="/images-opt/bingo-logo-opt.webp"
+                                        alt="Bingo"
+                                        height={24}
+                                        width={24}
+                                        className="h-6 w-auto"
+                                    />
+                                </TabsTrigger>
+                            )}
                         </TabsList>
                     )}
                     {isMobile && appType !== "chart" && (
@@ -157,6 +171,17 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
+                            {hasDismissedBingoIndicator && (
+                                <TabsTrigger value="bingo" title="Bingo">
+                                    <Image
+                                        src="/images-opt/bingo-logo-opt.webp"
+                                        alt="Bingo"
+                                        height={24}
+                                        width={24}
+                                        className="h-6 w-auto"
+                                    />
+                                </TabsTrigger>
+                            )}
                         </TabsList>
                     )}
                 </Tabs>
@@ -196,6 +221,17 @@ export const ViewAppWrapper = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <VideoArchiveApp bgImage={bgImage} />
+                        </motion.div>
+                    )}
+                    {appType === "bingo" && (
+                        <motion.div
+                            key="bingo"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <BingoApp />
                         </motion.div>
                     )}
                 </AnimatePresence>

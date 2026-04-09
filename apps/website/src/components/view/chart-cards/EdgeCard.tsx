@@ -127,7 +127,7 @@ const EdgeCard = ({
             ? chapterData.relationships[edgeRelationshipId]
             : null;
     const { contentWithoutFanart, fanartEntries } = useMemo(
-        () => getCardFanartData(selectedEdge?.data?.content || ""),
+        () => getCardFanartData((selectedEdge?.data?.content as string) || ""),
         [selectedEdge?.data?.content],
     );
 
