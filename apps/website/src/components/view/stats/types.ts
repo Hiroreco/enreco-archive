@@ -1,47 +1,44 @@
+export interface LocalizedString {
+  en: string;
+  ja: string;
+}
+
 export interface Talent {
   id: string;
-  name: string;
+  name: LocalizedString;
   initials: string;
   color: string;
-  /** Path relative to /public, e.g. "/talents/mori.png" */
   image: string;
 }
 
-// ---------------------------------------------------------------------------
-// Continuous choices (can change per day, e.g. job classes)
-// ---------------------------------------------------------------------------
 
 export interface ContinuousOption {
-  label: string;
+  label: LocalizedString;
   color: string;
   members: string[]; // talent IDs
 }
 
 export interface ContinuousChoice {
   id: string;
-  title: string;
+  title: LocalizedString;
   options: ContinuousOption[];
 }
-
-// ---------------------------------------------------------------------------
-// One-time choices
-// ---------------------------------------------------------------------------
 
 export type ChoiceType = "yesno" | "multi" | "opinion";
 
 export interface ChoiceOption {
-  label: string;
+  label: LocalizedString;
   members: string[]; // talent IDs
 }
 
 export interface OpinionEntry {
   talent: string; // talent ID
-  text: string;
+  text: LocalizedString;
 }
 
 export interface Choice {
   id: string;
-  question: string;
+  question: LocalizedString;
   type: ChoiceType;
   /** For yesno / multi */
   options?: ChoiceOption[];
@@ -49,12 +46,8 @@ export interface Choice {
   opinions?: OpinionEntry[];
 }
 
-// ---------------------------------------------------------------------------
-// Per-day data
-// ---------------------------------------------------------------------------
-
 export interface TeamData {
-  name: string;
+  name: LocalizedString;
   members: string[]; // talent IDs (de-duped on render)
 }
 

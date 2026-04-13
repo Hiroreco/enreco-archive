@@ -1,21 +1,33 @@
-import type { TeamData } from "./types";
+import type { TeamData, LocalizedString } from "./types";
 import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
+import { useSettingStore } from "@/store/settingStore";
+
+// Helper to get localized text
+function getLocalizedText(
+    text: LocalizedString | string,
+    locale: "en" | "ja",
+): string {
+    if (typeof text === "string") return text;
+    return text[locale];
+}
 
 interface TeamsSectionProps {
     teams: TeamData[];
 }
 
 export function TeamsSection({ teams }: TeamsSectionProps) {
+    const locale = useSettingStore((state) => state.locale);
     return (
         <section>
             <SectionLabel>Teams</SectionLabel>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                {teams.map((team) => {
+                {teams.map((team, teamIndex) => {
                     const unique = [...new Set(team.members)];
+                    const teamName = getLocalizedText(team.name, locale);
                     return (
                         <div
-                            key={team.name}
+                            key={teamIndex}
                             className="
                 bg-white dark:bg-neutral-900
                 border border-neutral-200 dark:border-neutral-800
@@ -23,7 +35,7 @@ export function TeamsSection({ teams }: TeamsSectionProps) {
               "
                         >
                             <span className="text-xs font-medium text-neutral-500 dark:text-neutral-400">
-                                {team.name}
+                                {teamName}
                             </span>
                             <div className="flex flex-wrap gap-1.5">
                                 {unique.map((id) => {

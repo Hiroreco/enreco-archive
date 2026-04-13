@@ -1,7 +1,16 @@
-import type { ContinuousChoice, DayData } from "./types";
+import type { ContinuousChoice, DayData, LocalizedString } from "./types";
 import { talentById, TALENTS } from "./data";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { BarRow } from "@/components/view/stats/StatBar";
+import { useSettingStore } from "@/store/settingStore";
+
+function getLocalizedText(
+    text: LocalizedString | string,
+    locale: "en" | "ja",
+): string {
+    if (typeof text === "string") return text;
+    return text[locale];
+}
 
 interface ContinuousSectionProps {
     continuous: ContinuousChoice[];
@@ -13,6 +22,7 @@ export function ContinuousSection({
     continuous,
     prevData,
 }: ContinuousSectionProps) {
+    const locale = useSettingStore((state) => state.locale);
     const total = TALENTS.length;
 
     return (
@@ -40,14 +50,12 @@ export function ContinuousSection({
               "
                         >
                             <span className="text-sm font-medium text-neutral-800 dark:text-neutral-100">
-                                {cont.title}
+                                {getLocalizedText(cont.title, locale)}
                             </span>
 
                             <div className="flex flex-col gap-3">
-                                {cont.options.map((opt) => {
-                                    const prevOpt = prevCont?.options.find(
-                                        (o) => o.label === opt.label,
-                                    );
+                                {cont.options.map((opt, optIndex) => {
+                                    const prevOpt = prevCont?.options[optIndex];
                                     const delta =
                                         prevOpt !== undefined
                                             ? opt.members.length -
@@ -60,10 +68,15 @@ export function ContinuousSection({
                                         ReturnType<typeof talentById>
                                     >[];
 
+                                    const label = getLocalizedText(
+                                        opt.label,
+                                        locale,
+                                    );
+
                                     return (
                                         <BarRow
-                                            key={opt.label}
-                                            label={opt.label}
+                                            key={label}
+                                            label={label}
                                             count={opt.members.length}
                                             total={total}
                                             color={opt.color}

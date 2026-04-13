@@ -2,12 +2,12 @@ import type { Choice } from "../../types";
 
 export const pizzaChoice: Choice = {
   id: "pizza",
-  question: "Do you find pineapple on pizza acceptable?",
+  question: { en: "Do you find pineapple on pizza acceptable?", ja: "ピザにパイナップルをのせるのは許容できますか？" },
   type: "yesno",
   options: [
-    { label: "Yes", members: ["kiara", "ame", "bae", "fuwawa"] },
+    { label: { en: "Yes", ja: "はい" }, members: ["kiara", "ame", "bae", "fuwawa"] },
     {
-      label: "No",
+      label: { en: "No", ja: "いいえ" },
       members: [
         "calli",
         "ina",

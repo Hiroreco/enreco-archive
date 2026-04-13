@@ -1,6 +1,15 @@
 import Image from "next/image";
 import { useState } from "react";
-import type { Talent } from "./types";
+import type { Talent, LocalizedString } from "./types";
+import { useSettingStore } from "@/store/settingStore";
+
+function getLocalizedText(
+    text: LocalizedString | string,
+    locale: "en" | "ja",
+): string {
+    if (typeof text === "string") return text;
+    return text[locale];
+}
 
 interface MemberAvatarProps {
     talent: Talent;
@@ -13,7 +22,9 @@ export function MemberAvatar({
     size = 40,
     showTooltip = true,
 }: MemberAvatarProps) {
+    const locale = useSettingStore((state) => state.locale);
     const [imgError, setImgError] = useState(false);
+    const talentName = getLocalizedText(talent.name, locale);
 
     return (
         <div
@@ -30,7 +41,7 @@ export function MemberAvatar({
                 {!imgError ? (
                     <Image
                         src={talent.image}
-                        alt={talent.name}
+                        alt={talentName}
                         width={size}
                         height={size}
                         className="w-full h-full object-cover"
@@ -62,7 +73,7 @@ export function MemberAvatar({
             z-20
           "
                 >
-                    {talent.name}
+                    {talentName}
                 </div>
             )}
         </div>

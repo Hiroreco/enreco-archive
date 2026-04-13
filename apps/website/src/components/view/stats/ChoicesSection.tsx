@@ -1,9 +1,18 @@
 import { useState } from "react";
-import type { Choice, ChoiceType } from "./types";
+import type { Choice, ChoiceType, LocalizedString } from "./types";
 import { talentById } from "./data";
 import { MemberAvatar } from "./MemberAvatar";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { BarRow } from "@/components/view/stats/StatBar";
+import { useSettingStore } from "@/store/settingStore";
+
+function getLocalizedText(
+    text: LocalizedString | string,
+    locale: "en" | "ja",
+): string {
+    if (typeof text === "string") return text;
+    return text[locale];
+}
 
 // Colors cycled for multi / yesno options
 const OPTION_COLORS = [
@@ -49,6 +58,7 @@ function TypeBadge({ type }: { type: ChoiceType }) {
 const OPINION_PREVIEW = 4;
 
 function OpinionBody({ choice }: { choice: Choice }) {
+    const locale = useSettingStore((state) => state.locale);
     const [expanded, setExpanded] = useState(false);
     const opinions = choice.opinions ?? [];
     const visible = expanded ? opinions : opinions.slice(0, OPINION_PREVIEW);
@@ -78,10 +88,10 @@ function OpinionBody({ choice }: { choice: Choice }) {
                                 className="text-[10px] font-medium leading-none"
                                 style={{ color: talent.color }}
                             >
-                                {talent.name}
+                                {getLocalizedText(talent.name, locale)}
                             </span>
                             <span className="text-[11px] text-neutral-600 dark:text-neutral-300 leading-snug">
-                                {entry.text}
+                                {getLocalizedText(entry.text, locale)}
                             </span>
                         </div>
                     </div>
@@ -109,6 +119,7 @@ function OpinionBody({ choice }: { choice: Choice }) {
 // ---------------------------------------------------------------------------
 
 function BarBody({ choice }: { choice: Choice }) {
+    const locale = useSettingStore((state) => state.locale);
     const options = choice.options ?? [];
     const totalVotes = options.reduce((s, o) => s + o.members.length, 0);
 
@@ -121,11 +132,12 @@ function BarBody({ choice }: { choice: Choice }) {
                     .filter(Boolean) as NonNullable<
                     ReturnType<typeof talentById>
                 >[];
+                const label = getLocalizedText(opt.label, locale);
 
                 return (
                     <BarRow
-                        key={opt.label}
-                        label={opt.label}
+                        key={label}
+                        label={label}
                         count={opt.members.length}
                         total={totalVotes}
                         color={color}
@@ -143,6 +155,7 @@ function BarBody({ choice }: { choice: Choice }) {
 // ---------------------------------------------------------------------------
 
 function ChoiceCard({ choice }: { choice: Choice }) {
+    const locale = useSettingStore((state) => state.locale);
     return (
         <div
             className="
@@ -153,7 +166,7 @@ function ChoiceCard({ choice }: { choice: Choice }) {
         >
             <TypeBadge type={choice.type} />
             <p className="text-sm font-medium text-neutral-800 dark:text-neutral-100 leading-snug">
-                {choice.question}
+                {getLocalizedText(choice.question, locale)}
             </p>
 
             {choice.type === "opinion" ? (
