@@ -29,6 +29,7 @@ import {
     Newspaper,
     Palette,
     Settings,
+    BarChart3,
 } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
@@ -37,6 +38,7 @@ import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModa
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
+import { StatsModal } from "@/components/view/stats/StatsModal";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -141,6 +143,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         (state) => state.openReadCounterModal,
     );
     const openNewsModal = useViewStore((state) => state.openNewsModal);
+    const openStatsModal = useViewStore((state) => state.openStatsModal);
 
     const closeModal = useViewStore((state) => state.closeModal);
     const videoUrl = useViewStore((state) => state.videoUrl);
@@ -507,6 +510,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
             />
             <NewsModal open={openModal === "news"} onClose={closeModal} />
+            <StatsModal open={openModal === "stats"} onClose={closeModal} />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
@@ -612,6 +616,17 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     onClick={openFanartModal}
                 >
                     <Palette />
+                </IconButton>
+
+                <IconButton
+                    id="stats-btn"
+                    className="h-10 w-10 p-1"
+                    tooltipText={tNavTooltips("stats")}
+                    enabled={true}
+                    tooltipSide="left"
+                    onClick={openStatsModal}
+                >
+                    <BarChart3 />
                 </IconButton>
             </div>
 

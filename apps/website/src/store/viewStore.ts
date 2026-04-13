@@ -19,6 +19,7 @@ export type ModalType =
     | "read-counter"
     | "changelog"
     | "news"
+    | "stats"
     | null;
 export type AppType = "chart" | "glossary" | "archive" | "bingo";
 
@@ -211,6 +212,7 @@ interface ViewModalSlice {
     openReadCounterModal: () => void;
     openChangeLogModal: () => void;
     openNewsModal: () => void;
+    openStatsModal: () => void;
     closeModal: () => void;
     videoUrl: string | null;
     setVideoUrl: (currentVideoUrl: string | null) => void;
@@ -229,6 +231,7 @@ const createModalSlice: StateCreator<ViewStoreType, [], [], ViewModalSlice> = (
     openMusicPlayerModal: () => set(() => ({ openModal: "music" })),
     openReadCounterModal: () => set(() => ({ openModal: "read-counter" })),
     openNewsModal: () => set(() => ({ openModal: "news" })),
+    openStatsModal: () => set(() => ({ openModal: "stats" })),
 
     openChangeLogModal: () => set(() => ({ openModal: "changelog" })),
     closeModal: () => set(() => ({ openModal: null })),
