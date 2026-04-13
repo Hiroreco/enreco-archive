@@ -21,7 +21,6 @@ export function TrackerShell() {
 
     return (
         <div className="flex flex-col gap-8 py-6 px-4 max-w-5xl mx-auto">
-            {/* Header */}
             <div className="flex items-center justify-between flex-wrap gap-3">
                 <h1 className="text-lg font-medium text-neutral-900 dark:text-neutral-100">
                     Stats for nerds

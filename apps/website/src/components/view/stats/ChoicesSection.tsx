@@ -24,10 +24,6 @@ const OPTION_COLORS = [
     "#D4537E",
 ];
 
-// ---------------------------------------------------------------------------
-// Badge
-// ---------------------------------------------------------------------------
-
 const BADGE_STYLES: Record<ChoiceType, string> = {
     yesno: "bg-emerald-50  text-emerald-800  dark:bg-emerald-950  dark:text-emerald-300",
     multi: "bg-violet-50   text-violet-800   dark:bg-violet-950   dark:text-violet-300",
@@ -50,10 +46,6 @@ function TypeBadge({ type }: { type: ChoiceType }) {
         </span>
     );
 }
-
-// ---------------------------------------------------------------------------
-// Opinion card body
-// ---------------------------------------------------------------------------
 
 const OPINION_PREVIEW = 4;
 
@@ -114,10 +106,6 @@ function OpinionBody({ choice }: { choice: Choice }) {
     );
 }
 
-// ---------------------------------------------------------------------------
-// Bar-based body (yesno / multi)
-// ---------------------------------------------------------------------------
-
 function BarBody({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
     const options = choice.options ?? [];
@@ -150,10 +138,6 @@ function BarBody({ choice }: { choice: Choice }) {
     );
 }
 
-// ---------------------------------------------------------------------------
-// Single choice card
-// ---------------------------------------------------------------------------
-
 function ChoiceCard({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
     return (
@@ -177,10 +161,6 @@ function ChoiceCard({ choice }: { choice: Choice }) {
         </div>
     );
 }
-
-// ---------------------------------------------------------------------------
-// Section
-// ---------------------------------------------------------------------------
 
 interface ChoicesSectionProps {
     choices: Choice[];

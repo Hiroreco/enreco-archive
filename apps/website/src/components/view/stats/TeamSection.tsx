@@ -3,7 +3,6 @@ import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
 import { useSettingStore } from "@/store/settingStore";
 
-// Helper to get localized text
 function getLocalizedText(
     text: LocalizedString | string,
     locale: "en" | "ja",

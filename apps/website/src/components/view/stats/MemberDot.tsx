@@ -3,10 +3,12 @@ import { useState } from "react";
 import type { Talent, LocalizedString } from "./types";
 import { useSettingStore } from "@/store/settingStore";
 
-// Helper to get localized text
-function getLocalizedText(text: LocalizedString | string, locale: "en" | "ja"): string {
-  if (typeof text === "string") return text;
-  return text[locale];
+function getLocalizedText(
+    text: LocalizedString | string,
+    locale: "en" | "ja",
+): string {
+    if (typeof text === "string") return text;
+    return text[locale];
 }
 
 interface MemberDotProps {
