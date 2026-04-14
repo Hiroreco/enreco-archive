@@ -1,7 +1,7 @@
 import type { ContinuousChoice, DayData, LocalizedString } from "./types";
 import { talentById, TALENTS } from "./data";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
-import { BarRow } from "@/components/view/stats/StatBar";
+import { StatBar } from "@/components/view/stats/StatBar";
 import { useSettingStore } from "@/store/settingStore";
 
 function getLocalizedText(
@@ -74,7 +74,7 @@ export function ContinuousSection({
                                     );
 
                                     return (
-                                        <BarRow
+                                        <StatBar
                                             key={label}
                                             label={label}
                                             count={opt.members.length}

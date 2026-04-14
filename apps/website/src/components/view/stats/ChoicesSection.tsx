@@ -3,7 +3,7 @@ import type { Choice, ChoiceType, LocalizedString } from "./types";
 import { talentById } from "./data";
 import { MemberAvatar } from "./MemberAvatar";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
-import { BarRow } from "@/components/view/stats/StatBar";
+import { StatBar } from "@/components/view/stats/StatBar";
 import { useSettingStore } from "@/store/settingStore";
 
 function getLocalizedText(
@@ -123,7 +123,7 @@ function BarBody({ choice }: { choice: Choice }) {
                 const label = getLocalizedText(opt.label, locale);
 
                 return (
-                    <BarRow
+                    <StatBar
                         key={label}
                         label={label}
                         count={opt.members.length}

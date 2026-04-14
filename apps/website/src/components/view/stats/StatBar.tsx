@@ -1,5 +1,6 @@
 import type { Talent } from "./types";
 import { MemberDot } from "./MemberDot";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface BarRowProps {
     label: string;
@@ -12,7 +13,7 @@ interface BarRowProps {
     dotSize?: number;
 }
 
-export function BarRow({
+export function StatBar({
     label,
     count,
     total,
@@ -54,14 +55,29 @@ export function BarRow({
             {/* Member dots */}
             {members.length > 0 && (
                 <div className="flex flex-wrap gap-1 pt-0.5">
-                    {members.map((t) => (
-                        <MemberDot
-                            key={t.id}
-                            talent={t}
-                            accentColor={color}
-                            size={dotSize}
-                        />
-                    ))}
+                    <AnimatePresence>
+                        {members.map((t) => (
+                            <motion.div
+                                key={t.id}
+                                initial={{
+                                    opacity: 0,
+                                }}
+                                animate={{
+                                    opacity: 1,
+                                }}
+                                exit={{
+                                    opacity: 0,
+                                }}
+                                transition={{ duration: 0.3 }}
+                            >
+                                <MemberDot
+                                    talent={t}
+                                    accentColor={color}
+                                    size={dotSize}
+                                />
+                            </motion.div>
+                        ))}
+                    </AnimatePresence>
                 </div>
             )}
         </div>
