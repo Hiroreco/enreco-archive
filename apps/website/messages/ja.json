@@ -362,6 +362,7 @@
             "day": "日",
             "noDataForDay": "第{day}日目のデータはまだありません",
             "changes": "変更",
+            "everyone": "みんな",
             "everyoneInitialTeam": "初期チーム割り当てを行った",
             "everyoneInitialChoice": "初期選択を行った",
             "teams": "チーム",

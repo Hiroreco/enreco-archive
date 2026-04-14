@@ -1,12 +1,17 @@
-import { useState } from "react";
-import type { Choice, ChoiceType, LocalizedString } from "./types";
-import { talentById } from "./data";
-import { MemberAvatar } from "./MemberAvatar";
-import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
+import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { useSettingStore } from "@/store/settingStore";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogTitle,
+} from "@enreco-archive/common-ui/components/dialog";
 import { useTranslations } from "next-intl";
-import { TRACKER_DATA } from "./data";
+import { useState } from "react";
+import { talentById, TRACKER_DATA } from "./data";
+import { MemberAvatar } from "./MemberAvatar";
+import type { Choice, ChoiceType, LocalizedString } from "./types";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -52,53 +57,115 @@ function TypeBadge({ type }: { type: ChoiceType }) {
 
 const OPINION_PREVIEW = 4;
 
+function OpinionModal({
+    choice,
+    open,
+    onOpenChange,
+}: {
+    choice: Choice;
+    open: boolean;
+    onOpenChange: (open: boolean) => void;
+}) {
+    const locale = useSettingStore((state) => state.locale);
+    const opinions = choice.opinions ?? [];
+
+    return (
+        <Dialog open={open} onOpenChange={onOpenChange}>
+            <DialogContent className="max-w-2xl">
+                <DialogTitle className="text-base font-semibold mb-4">
+                    {getLocalizedText(choice.question, locale)}
+                </DialogTitle>
+                <DialogDescription className="sr-only">
+                    All responses to this question
+                </DialogDescription>
+                <div className="flex flex-col gap-2  max-h-[70dvh] overflow-y-auto px-2">
+                    {opinions.map((entry) => {
+                        const talent = talentById(entry.talent);
+                        if (!talent) return null;
+                        return (
+                            <div
+                                key={entry.talent}
+                                className="flex gap-2 items-start bg-neutral-50 dark:bg-neutral-800 rounded-lg px-3 py-2"
+                            >
+                                <MemberAvatar
+                                    talent={talent}
+                                    size={26}
+                                    showTooltip={false}
+                                />
+                                <div className="flex flex-col gap-0.5 min-w-0">
+                                    <span
+                                        className="text-[10px] font-medium leading-none"
+                                        style={{ color: talent.color }}
+                                    >
+                                        {getLocalizedText(talent.name, locale)}
+                                    </span>
+                                    <span className="text-[11px] leading-snug">
+                                        {getLocalizedText(entry.text, locale)}
+                                    </span>
+                                </div>
+                            </div>
+                        );
+                    })}
+                </div>
+            </DialogContent>
+        </Dialog>
+    );
+}
+
 function OpinionBody({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
-    const [expanded, setExpanded] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
     const opinions = choice.opinions ?? [];
-    const visible = expanded ? opinions : opinions.slice(0, OPINION_PREVIEW);
+    const visible = opinions.slice(0, OPINION_PREVIEW);
     const remaining = opinions.length - OPINION_PREVIEW;
 
     return (
-        <div className="flex flex-col gap-1.5">
-            {visible.map((entry) => {
-                const talent = talentById(entry.talent);
-                if (!talent) return null;
-                return (
-                    <div
-                        key={entry.talent}
-                        className="flex gap-2 items-start bg-neutral-50 dark:bg-neutral-800 rounded-lg px-3 py-2"
-                    >
-                        <MemberAvatar
-                            talent={talent}
-                            size={26}
-                            showTooltip={false}
-                        />
-                        <div className="flex flex-col gap-0.5 min-w-0">
-                            <span
-                                className="text-[10px] font-medium leading-none"
-                                style={{ color: talent.color }}
-                            >
-                                {getLocalizedText(talent.name, locale)}
-                            </span>
-                            <span className="text-[11px] leading-snug">
-                                {getLocalizedText(entry.text, locale)}
-                            </span>
+        <>
+            <div className="flex flex-col gap-1.5">
+                {visible.map((entry) => {
+                    const talent = talentById(entry.talent);
+                    if (!talent) return null;
+                    return (
+                        <div
+                            key={entry.talent}
+                            className="flex gap-2 items-start bg-neutral-50 dark:bg-neutral-800 rounded-lg px-3 py-2"
+                        >
+                            <MemberAvatar
+                                talent={talent}
+                                size={26}
+                                showTooltip={false}
+                            />
+                            <div className="flex flex-col gap-0.5 min-w-0">
+                                <span
+                                    className="text-[10px] font-medium leading-none"
+                                    style={{ color: talent.color }}
+                                >
+                                    {getLocalizedText(talent.name, locale)}
+                                </span>
+                                <span className="text-[11px] leading-snug">
+                                    {getLocalizedText(entry.text, locale)}
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                );
-            })}
+                    );
+                })}
 
-            {!expanded && remaining > 0 && (
-                <button
-                    onClick={() => setExpanded(true)}
-                    className="text-[11px] text-neutral-400 hover:text-neutral-600 dark:text-neutral-500 dark:hover:text-neutral-300 text-left transition-colors mt-0.5"
-                >
-                    {t("moreResponses", { count: remaining })}
-                </button>
-            )}
-        </div>
+                {remaining > 0 && (
+                    <button
+                        onClick={() => setModalOpen(true)}
+                        className="text-[11px] text-neutral-400 hover:text-neutral-600 dark:text-neutral-500 dark:hover:text-neutral-300 text-left transition-colors mt-0.5"
+                    >
+                        {t("moreResponses", { count: remaining })}
+                    </button>
+                )}
+            </div>
+            <OpinionModal
+                choice={choice}
+                open={modalOpen}
+                onOpenChange={setModalOpen}
+            />
+        </>
     );
 }
 

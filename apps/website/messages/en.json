@@ -361,6 +361,7 @@
             "day": "Day",
             "noDataForDay": "No data yet for Day {day}",
             "changes": "Changes",
+            "everyone": "Everyone",
             "everyoneInitialTeam": "made their initial team assignments",
             "everyoneInitialChoice": "made their initial choice",
             "teams": "Teams",

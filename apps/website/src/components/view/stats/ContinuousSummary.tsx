@@ -39,7 +39,9 @@ export function ContinuousSummary({
 
     const calculateChoiceChanges = (day: number) => {
         if (day === 1) {
-            return [{ member: "Everyone", change: t("everyoneInitialChoice") }];
+            return [
+                { member: t("everyone"), change: t("everyoneInitialChoice") },
+            ];
         }
 
         const prevData = TRACKER_DATA[day - 1];

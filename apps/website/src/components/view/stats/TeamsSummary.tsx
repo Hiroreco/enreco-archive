@@ -37,7 +37,7 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
         if (day === 1) {
             return [
                 {
-                    member: "Everyone",
+                    member: t("everyone"),
                     change: t("everyoneInitialTeam"),
                 },
             ];
