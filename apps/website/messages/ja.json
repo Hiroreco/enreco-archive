@@ -359,12 +359,15 @@
         },
         "stats": {
             "title": "オタク向け統計",
-            "day": "日",
             "noDataForDay": "第{day}日目のデータはまだありません",
             "changes": "変更",
             "everyone": "みんな",
             "everyoneInitialTeam": "初期チーム割り当てを行った",
             "everyoneInitialChoice": "初期選択を行った",
+            "changedFromTo": "{from}から{to}に変更",
+            "movedFromTo": "{from}から{to}へ移動",
+
+            "noChanges": "変更なし",
             "teams": "チーム",
             "continuousChoices": "継続的な選択肢",
             "continuousDescription": "— 日の間で変更される可能性があります",

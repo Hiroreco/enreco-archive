@@ -31,6 +31,7 @@ interface TeamsSummaryProps {
 export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
+    const tCommon = useTranslations("common");
 
     // Calculate team changes for each day
     const calculateTeamChanges = (day: number) => {
@@ -154,11 +155,11 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                     {dayChanges.map(({ day, changes }) => (
                         <div key={day}>
                             <DropdownMenuLabel className="mb-2 px-0">
-                                Day {day}
+                                {tCommon("day", { val: day })}
                             </DropdownMenuLabel>
                             {changes.length === 0 ? (
                                 <p className="text-xs text-muted-foreground ml-2 mb-0">
-                                    No changes
+                                    {t("noChanges")}
                                 </p>
                             ) : (
                                 <ul className="text-xs space-y-2 ml-2">

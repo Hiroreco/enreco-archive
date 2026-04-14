@@ -36,6 +36,7 @@ export function ContinuousSummary({
 }: ContinuousSummaryProps) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
+    const tCommon = useTranslations("common");
 
     const calculateChoiceChanges = (day: number) => {
         if (day === 1) {
@@ -168,11 +169,11 @@ export function ContinuousSummary({
                     {dayChanges.map(({ day, changes }) => (
                         <div key={day}>
                             <DropdownMenuLabel className="px-0 text-xs">
-                                Day {day}
+                                {tCommon("day", { val: day })}
                             </DropdownMenuLabel>
                             {changes.length === 0 ? (
                                 <p className="text-xs text-muted-foreground ml-2 mb-0">
-                                    No changes
+                                    {t("noChanges")}
                                 </p>
                             ) : (
                                 <ul className="text-xs space-y-2 ml-2 mb-3">
@@ -204,7 +205,7 @@ export function ContinuousSummary({
                                             return (
                                                 <li
                                                     key={idx}
-                                                    className="flex items-center gap-1 text-muted-foreground flex-wrap list-none"
+                                                    className="flex items-center gap-1 text-muted-foreground  list-none"
                                                 >
                                                     <div className="flex gap-1">
                                                         {groupedChange.members.map(
@@ -232,24 +233,21 @@ export function ContinuousSummary({
                                                             },
                                                         )}
                                                     </div>
-                                                    <span>changed from</span>
                                                     <span
-                                                        style={{
-                                                            color: groupedChange.fromColor,
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: (() => {
+                                                                const from = `<span style="color: ${groupedChange.fromColor}; font-weight: 500;">${groupedChange.from}</span>`;
+                                                                const to = `<span style="color: ${groupedChange.toColor}; font-weight: 500;">${groupedChange.to}</span>`;
+                                                                return t(
+                                                                    "changedFromTo",
+                                                                    {
+                                                                        from,
+                                                                        to,
+                                                                    },
+                                                                );
+                                                            })(),
                                                         }}
-                                                        className="font-medium"
-                                                    >
-                                                        {groupedChange.from}
-                                                    </span>
-                                                    <span>to</span>
-                                                    <span
-                                                        style={{
-                                                            color: groupedChange.toColor,
-                                                        }}
-                                                        className="font-medium"
-                                                    >
-                                                        {groupedChange.to}
-                                                    </span>
+                                                    />
                                                 </li>
                                             );
                                         }

@@ -25,6 +25,7 @@ interface StatsModalProps {
 
 export function StatsModal({ open, onClose }: StatsModalProps) {
     const t = useTranslations("modals.stats");
+    const tCommon = useTranslations("common");
     const [day, setDay] = useState(1);
     const data = TRACKER_DATA[day];
     const prevData = day > 1 ? (TRACKER_DATA[day - 1] ?? null) : null;
@@ -55,7 +56,6 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                 <DialogHeader className="flex flex-row items-start justify-between">
                     <DialogTitle>{t("title")}</DialogTitle>
                     <div className="flex items-center gap-2.5">
-                        <label className="text-xs">{t("day")}</label>
                         <Select
                             value={day.toString()}
                             onValueChange={(val) => setDay(Number(val))}
@@ -69,7 +69,7 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                                     (_, i) => i + 1,
                                 ).map((d) => (
                                     <SelectItem key={d} value={d.toString()}>
-                                        {t("day")} {d}
+                                        {tCommon("day", { val: d })}
                                     </SelectItem>
                                 ))}
                             </SelectContent>
