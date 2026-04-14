@@ -4,6 +4,7 @@ import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
 import { useSettingStore } from "@/store/settingStore";
 import { useTranslations } from "next-intl";
+import { TRACKER_DATA } from "./data";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -17,18 +18,50 @@ interface ContinuousSectionProps {
     continuous: ContinuousChoice[];
     /** Previous day's data — used to compute deltas */
     prevData?: DayData | null;
+    /** Current day for fallback logic */
+    currentDay: number;
 }
 
 export function ContinuousSection({
     continuous,
     prevData,
+    currentDay,
 }: ContinuousSectionProps) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
     const total = TALENTS.length;
 
+    // Find latest day with continuous choices if current day has none
+    const hasData = continuous.length > 0;
+    let fallbackData: ContinuousChoice[] | null = null;
+    let fallbackDay = -1;
+
+    if (!hasData) {
+        for (let day = currentDay - 1; day >= 1; day--) {
+            const dayData = TRACKER_DATA[day];
+            if (dayData && dayData.continuous.length > 0) {
+                fallbackData = dayData.continuous;
+                fallbackDay = day;
+                break;
+            }
+        }
+    }
+
+    const displayData = hasData ? continuous : fallbackData;
+
+    if (!displayData || displayData.length === 0) {
+        return null; // No data found even in fallback
+    }
+
     return (
-        <section>
+        <section className={hasData ? "" : "opacity-50 relative"}>
+            {!hasData && (
+                <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    <div className="bg-background/90 rounded-lg px-4 py-2 text-sm font-medium border">
+                        {t("noContinuousChoices")}
+                    </div>
+                </div>
+            )}
             <SectionLabel>
                 {t("continuousChoices")}{" "}
                 <span className="normal-case font-normal tracking-normal">
@@ -37,7 +70,7 @@ export function ContinuousSection({
             </SectionLabel>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {continuous.map((cont) => {
+                {displayData.map((cont) => {
                     const prevCont = prevData?.continuous.find(
                         (c) => c.id === cont.id,
                     );

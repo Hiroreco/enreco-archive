@@ -48,6 +48,7 @@ export interface Choice {
 
 export interface TeamData {
   name: LocalizedString;
+  image?: string; // optional image src
   members: string[]; // talent IDs (de-duped on render)
 }
 

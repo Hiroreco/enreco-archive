@@ -6,6 +6,7 @@ import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
 import { useSettingStore } from "@/store/settingStore";
 import { useTranslations } from "next-intl";
+import { TRACKER_DATA } from "./data";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -153,15 +154,44 @@ function ChoiceCard({ choice }: { choice: Choice }) {
 
 interface ChoicesSectionProps {
     choices: Choice[];
+    currentDay: number;
 }
 
-export function ChoicesSection({ choices }: ChoicesSectionProps) {
+export function ChoicesSection({ choices, currentDay }: ChoicesSectionProps) {
     const t = useTranslations("modals.stats");
+
+    // Find latest day with choices if current day has none
+    const hasData = choices.length > 0;
+    let fallbackData: Choice[] | null = null;
+
+    if (!hasData) {
+        for (let day = currentDay - 1; day >= 1; day--) {
+            const dayData = TRACKER_DATA[day];
+            if (dayData && dayData.choices.length > 0) {
+                fallbackData = dayData.choices;
+                break;
+            }
+        }
+    }
+
+    const displayData = hasData ? choices : fallbackData;
+
+    if (!displayData || displayData.length === 0) {
+        return null; // No data found even in fallback
+    }
+
     return (
-        <section>
+        <section className={hasData ? "" : "opacity-50 relative"}>
+            {!hasData && (
+                <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    <div className="bg-background/90 rounded-lg px-4 py-2 text-sm font-medium border">
+                        {t("noOneTimeChoices")}
+                    </div>
+                </div>
+            )}
             <SectionLabel>{t("oneTimeChoices")}</SectionLabel>
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
-                {choices.map((choice) => (
+                {displayData.map((choice) => (
                     <ChoiceCard key={choice.id} choice={choice} />
                 ))}
             </div>

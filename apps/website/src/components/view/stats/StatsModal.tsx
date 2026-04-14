@@ -81,8 +81,9 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                     <ContinuousSection
                         continuous={data.continuous}
                         prevData={prevData}
+                        currentDay={day}
                     />
-                    <ChoicesSection choices={data.choices} />
+                    <ChoicesSection choices={data.choices} currentDay={day} />
                 </div>
             </DialogContent>
         </Dialog>

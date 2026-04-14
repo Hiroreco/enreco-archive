@@ -4,6 +4,7 @@ import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
 import { useSettingStore } from "@/store/settingStore";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -51,9 +52,20 @@ export function TeamsSection({ teams }: TeamsSectionProps) {
                                 exit={{ opacity: 0, scale: 0.97 }}
                                 transition={{ duration: 0.25, ease: "easeOut" }}
                             >
-                                <span className="text-xs font-medium text-muted-foreground">
-                                    {teamName}
-                                </span>
+                                <div className="flex items-center justify-between w-full">
+                                    <span className="text-xs font-medium text-muted-foreground underline underline-offset-2">
+                                        {teamName}
+                                    </span>
+                                    {team.image && (
+                                        <Image
+                                            src={team.image}
+                                            alt={teamName}
+                                            width={10}
+                                            height={10}
+                                            className="w-5 h-5 rounded object-cover"
+                                        />
+                                    )}
+                                </div>
 
                                 {/*
                                     Plain div — animating the flex container itself
