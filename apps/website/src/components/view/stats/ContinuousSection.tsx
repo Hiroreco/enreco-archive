@@ -29,7 +29,7 @@ export function ContinuousSection({
         <section>
             <SectionLabel>
                 Continuous choices{" "}
-                <span className="normal-case font-normal tracking-normal text-neutral-400 dark:text-neutral-600">
+                <span className="normal-case font-normal tracking-normal">
                     — can change between days
                 </span>
             </SectionLabel>
@@ -43,13 +43,9 @@ export function ContinuousSection({
                     return (
                         <div
                             key={cont.id}
-                            className="
-                bg-white dark:bg-neutral-900
-                border border-neutral-200 dark:border-neutral-800
-                rounded-xl p-4 flex flex-col gap-3
-              "
+                            className="border rounded-xl p-4 flex flex-col gap-3"
                         >
-                            <span className="text-sm font-medium text-neutral-800 dark:text-neutral-100">
+                            <span className="text-sm font-medium">
                                 {getLocalizedText(cont.title, locale)}
                             </span>
 

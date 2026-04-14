@@ -37,11 +37,7 @@ export function TeamsSection({ teams }: TeamsSectionProps) {
                             <motion.div
                                 key={teamIndex}
                                 layoutId={`team-${teamIndex}`}
-                                className="
-                                    bg-white dark:bg-neutral-900
-                                    border border-neutral-200 dark:border-neutral-800
-                                    rounded-xl p-3 flex flex-col gap-2
-                                "
+                                className="border rounded-xl p-3 flex flex-col gap-2"
                                 /*
                                     No `layout` prop — layoutId alone handles card
                                     identity. Adding layout on top causes the grid to
@@ -53,7 +49,7 @@ export function TeamsSection({ teams }: TeamsSectionProps) {
                                 exit={{ opacity: 0, scale: 0.97 }}
                                 transition={{ duration: 0.25, ease: "easeOut" }}
                             >
-                                <span className="text-xs font-medium text-neutral-500 dark:text-neutral-400">
+                                <span className="text-xs font-medium text-muted-foreground">
                                     {teamName}
                                 </span>
 
@@ -97,7 +93,7 @@ export function TeamsSection({ teams }: TeamsSectionProps) {
 
 export function SectionLabel({ children }: { children: React.ReactNode }) {
     return (
-        <p className="text-[11px] font-medium uppercase tracking-widest text-neutral-400 dark:text-neutral-500 mb-2.5">
+        <p className="text-xs font-medium uppercase tracking-widest mb-2.5 text-muted-foreground">
             {children}
         </p>
     );

@@ -78,7 +78,7 @@ function OpinionBody({ choice }: { choice: Choice }) {
                             >
                                 {getLocalizedText(talent.name, locale)}
                             </span>
-                            <span className="text-[11px] text-neutral-600 dark:text-neutral-300 leading-snug">
+                            <span className="text-[11px] leading-snug">
                                 {getLocalizedText(entry.text, locale)}
                             </span>
                         </div>
@@ -133,12 +133,9 @@ function BarBody({ choice }: { choice: Choice }) {
 function ChoiceCard({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
     return (
-        <div
-            className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-4 flex flex-col gap-3
-      "
-        >
+        <div className="border rounded-xl p-4 flex flex-col gap-3">
             <TypeBadge type={choice.type} />
-            <p className="text-sm font-medium text-neutral-800 dark:text-neutral-100 leading-snug">
+            <p className="text-sm font-medium leading-snug">
                 {getLocalizedText(choice.question, locale)}
             </p>
 
