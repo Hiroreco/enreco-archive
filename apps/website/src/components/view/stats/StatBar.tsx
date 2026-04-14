@@ -54,19 +54,23 @@ export function StatBar({
 
             {/* Member dots */}
             {members.length > 0 && (
-                <div className="flex flex-wrap gap-1 pt-0.5">
+                <motion.div layout className="flex flex-wrap gap-1 pt-0.5">
                     <AnimatePresence>
                         {members.map((t) => (
                             <motion.div
                                 key={t.id}
+                                layout
                                 initial={{
                                     opacity: 0,
+                                    scale: 0,
                                 }}
                                 animate={{
                                     opacity: 1,
+                                    scale: 1,
                                 }}
                                 exit={{
                                     opacity: 0,
+                                    scale: 0,
                                 }}
                                 transition={{ duration: 0.3 }}
                             >
@@ -78,7 +82,7 @@ export function StatBar({
                             </motion.div>
                         ))}
                     </AnimatePresence>
-                </div>
+                </motion.div>
             )}
         </div>
     );
