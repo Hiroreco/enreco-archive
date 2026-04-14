@@ -219,34 +219,23 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                                                             },
                                                         )}
                                                     </div>
-                                                    <span>moved from</span>
-                                                    {groupedChange.fromImage && (
-                                                        <Image
-                                                            src={
-                                                                groupedChange.fromImage
-                                                            }
-                                                            alt={
-                                                                groupedChange.from
-                                                            }
-                                                            width={20}
-                                                            height={20}
-                                                            className="h-5 w-5 rounded object-cover"
-                                                        />
-                                                    )}
-                                                    <span>to</span>
-                                                    {groupedChange.toImage && (
-                                                        <Image
-                                                            src={
-                                                                groupedChange.toImage
-                                                            }
-                                                            alt={
-                                                                groupedChange.to
-                                                            }
-                                                            width={20}
-                                                            height={20}
-                                                            className="h-5 w-5 rounded object-cover"
-                                                        />
-                                                    )}
+                                                    <span
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: (() => {
+                                                                const from =
+                                                                    groupedChange.from;
+                                                                const to =
+                                                                    groupedChange.to;
+                                                                return t(
+                                                                    "movedFromTo",
+                                                                    {
+                                                                        from,
+                                                                        to,
+                                                                    },
+                                                                );
+                                                            })(),
+                                                        }}
+                                                    />
                                                 </li>
                                             );
                                         }
