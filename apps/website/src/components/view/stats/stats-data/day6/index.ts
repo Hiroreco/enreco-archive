@@ -1,12 +1,8 @@
 import type { DayData } from "../../types";
+import { BASE_TEAMS } from "../base-teams";
 
 export const day6Data: DayData = {
-  teams: [
-    { name: { en: "Team A", ja: "チームA" }, members: ["calli", "gura", "fauna", "shiori"] },
-    { name: { en: "Team B", ja: "チームB" }, members: ["kiara", "ame", "kronii", "bijou"] },
-    { name: { en: "Team C", ja: "チームC" }, members: ["ina", "irys", "mumei", "nerissa"] },
-    { name: { en: "Team D", ja: "チームD" }, members: ["bae", "fuwawa", "mococo"] },
-  ],
+  teams: BASE_TEAMS,
   continuous: [],
   choices: [],
 };
