@@ -141,7 +141,7 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                 <Button
                     variant="ghost"
                     size="sm"
-                    className="h-auto py-0 px-2 text-xs font-medium text-muted-foreground hover:text-foreground"
+                    className="h-auto p-0 text-xs font-medium text-muted-foreground hover:bg-transparent hover:text-muted-foreground"
                 >
                     Changes
                     <ChevronDown className="ml-1.5 h-3 w-3" />

@@ -151,9 +151,10 @@ export function ContinuousSummary({
                 <Button
                     variant="ghost"
                     size="sm"
-                    className="h-auto py-0 px-2 text-xs font-medium text-muted-foreground hover:text-foreground"
+                    className="h-auto p-0 text-xs font-medium text-muted-foreground hover:bg-transparent hover:text-muted-foreground"
                 >
-                    <ChevronDown className="h-3 w-3" />
+                    Changes
+                    <ChevronDown className="ml-1.5 h-3 w-3" />
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-80">
