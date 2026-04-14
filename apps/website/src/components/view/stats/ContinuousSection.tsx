@@ -3,6 +3,7 @@ import { talentById, TALENTS } from "./data";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
 import { useSettingStore } from "@/store/settingStore";
+import { useTranslations } from "next-intl";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -23,14 +24,15 @@ export function ContinuousSection({
     prevData,
 }: ContinuousSectionProps) {
     const locale = useSettingStore((state) => state.locale);
+    const t = useTranslations("modals.stats");
     const total = TALENTS.length;
 
     return (
         <section>
             <SectionLabel>
-                Continuous choices{" "}
+                {t("continuousChoices")}{" "}
                 <span className="normal-case font-normal tracking-normal">
-                    — can change between days
+                    {t("continuousDescription")}
                 </span>
             </SectionLabel>
 

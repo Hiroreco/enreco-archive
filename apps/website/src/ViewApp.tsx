@@ -502,7 +502,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     title="Stats"
                 >
                     <BarChart3 className="w-4 h-4" />
-                    <span>Stats</span>
+                    <span>{tNavTooltips("stats")}</span>
                 </button>
             </div>
 

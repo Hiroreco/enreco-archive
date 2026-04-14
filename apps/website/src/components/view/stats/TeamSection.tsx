@@ -3,6 +3,7 @@ import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
 import { useSettingStore } from "@/store/settingStore";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -18,10 +19,11 @@ interface TeamsSectionProps {
 
 export function TeamsSection({ teams }: TeamsSectionProps) {
     const locale = useSettingStore((state) => state.locale);
+    const t = useTranslations("modals.stats");
 
     return (
         <section>
-            <SectionLabel>Teams</SectionLabel>
+            <SectionLabel>{t("teams")}</SectionLabel>
             {/*
                 No `layout` on the grid — letting the grid reflow instantly
                 prevents the intermediate-state jank on mobile where a row

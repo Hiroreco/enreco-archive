@@ -16,6 +16,7 @@ import { ChoicesSection } from "@/components/view/stats/ChoicesSection";
 import { ContinuousSection } from "@/components/view/stats/ContinuousSection";
 import { TeamsSection } from "@/components/view/stats/TeamSection";
 import { TOTAL_DAYS, TRACKER_DATA } from "@/components/view/stats/data";
+import { useTranslations } from "next-intl";
 
 interface StatsModalProps {
     open: boolean;
@@ -23,6 +24,7 @@ interface StatsModalProps {
 }
 
 export function StatsModal({ open, onClose }: StatsModalProps) {
+    const t = useTranslations("modals.stats");
     const [day, setDay] = useState(1);
     const data = TRACKER_DATA[day];
     const prevData = day > 1 ? (TRACKER_DATA[day - 1] ?? null) : null;
@@ -37,10 +39,10 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                     className="max-w-4xl max-h-[90vh] overflow-y-auto"
                 >
                     <DialogHeader>
-                        <DialogTitle>Stats for nerds</DialogTitle>
+                        <DialogTitle>{t("title")}</DialogTitle>
                     </DialogHeader>
                     <div className="py-12 text-center text-sm">
-                        No data yet for Day {day}.
+                        {t("noDataForDay", { day })}
                     </div>
                 </DialogContent>
             </Dialog>
@@ -51,9 +53,9 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
         <Dialog open={open} onOpenChange={onClose}>
             <DialogContent showXButton showXButtonForce className="max-w-4xl">
                 <DialogHeader className="flex flex-row items-start justify-between">
-                    <DialogTitle>Stats for nerds</DialogTitle>
+                    <DialogTitle>{t("title")}</DialogTitle>
                     <div className="flex items-center gap-2.5">
-                        <label className="text-xs">Day</label>
+                        <label className="text-xs">{t("day")}</label>
                         <Select
                             value={day.toString()}
                             onValueChange={(val) => setDay(Number(val))}
@@ -67,7 +69,7 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                                     (_, i) => i + 1,
                                 ).map((d) => (
                                     <SelectItem key={d} value={d.toString()}>
-                                        Day {d}
+                                        {t("day")} {d}
                                     </SelectItem>
                                 ))}
                             </SelectContent>

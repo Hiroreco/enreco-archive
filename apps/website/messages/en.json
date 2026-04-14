@@ -355,6 +355,21 @@
                 "media": "Media",
                 "showcase": "Showcase"
             }
+        },
+        "stats": {
+            "title": "Stats for nerds",
+            "day": "Day",
+            "noDataForDay": "No data yet for Day {day}",
+            "teams": "Teams",
+            "continuousChoices": "Continuous choices",
+            "continuousDescription": "— can change between days",
+            "oneTimeChoices": "One-time choices",
+            "choiceTypes": {
+                "yesno": "Yes / No",
+                "multi": "Multiple choice",
+                "opinion": "Open opinion"
+            },
+            "moreResponses": "+{count} more responses"
         }
     },
     "cards": {
@@ -411,7 +426,8 @@
         "chapterRecap": "Chapter Recap",
         "jukebox": "Jukebox",
         "libestalGallery": "Libestal Gallery",
-        "news": "News"
+        "news": "News",
+        "stats": "Stats"
     },
     "constants": {
         "Amber Coin": "Amber Coin",

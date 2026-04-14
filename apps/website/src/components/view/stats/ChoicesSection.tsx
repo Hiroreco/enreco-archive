@@ -5,6 +5,7 @@ import { MemberAvatar } from "./MemberAvatar";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
 import { useSettingStore } from "@/store/settingStore";
+import { useTranslations } from "next-intl";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -31,18 +32,19 @@ const BADGE_STYLES: Record<ChoiceType, string> = {
         "bg-amber-50    text-amber-800    dark:bg-amber-950    dark:text-amber-300",
 };
 
-const BADGE_LABELS: Record<ChoiceType, string> = {
-    yesno: "Yes / No",
-    multi: "Multiple choice",
-    opinion: "Open opinion",
-};
-
 function TypeBadge({ type }: { type: ChoiceType }) {
+    const t = useTranslations("modals.stats.choiceTypes");
+    const labels: Record<ChoiceType, string> = {
+        yesno: t("yesno"),
+        multi: t("multi"),
+        opinion: t("opinion"),
+    };
+
     return (
         <span
             className={`text-[10px] font-medium px-2 py-0.5 rounded-full ${BADGE_STYLES[type]}`}
         >
-            {BADGE_LABELS[type]}
+            {labels[type]}
         </span>
     );
 }
@@ -51,6 +53,7 @@ const OPINION_PREVIEW = 4;
 
 function OpinionBody({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
+    const t = useTranslations("modals.stats");
     const [expanded, setExpanded] = useState(false);
     const opinions = choice.opinions ?? [];
     const visible = expanded ? opinions : opinions.slice(0, OPINION_PREVIEW);
@@ -91,7 +94,7 @@ function OpinionBody({ choice }: { choice: Choice }) {
                     onClick={() => setExpanded(true)}
                     className="text-[11px] text-neutral-400 hover:text-neutral-600 dark:text-neutral-500 dark:hover:text-neutral-300 text-left transition-colors mt-0.5"
                 >
-                    +{remaining} more responses
+                    {t("moreResponses", { count: remaining })}
                 </button>
             )}
         </div>
@@ -153,9 +156,10 @@ interface ChoicesSectionProps {
 }
 
 export function ChoicesSection({ choices }: ChoicesSectionProps) {
+    const t = useTranslations("modals.stats");
     return (
         <section>
-            <SectionLabel>One-time choices</SectionLabel>
+            <SectionLabel>{t("oneTimeChoices")}</SectionLabel>
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
                 {choices.map((choice) => (
                     <ChoiceCard key={choice.id} choice={choice} />

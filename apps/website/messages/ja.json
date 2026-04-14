@@ -356,6 +356,21 @@
                 "media": "メディア",
                 "showcase": "ショーケース"
             }
+        },
+        "stats": {
+            "title": "オタク向け統計",
+            "day": "日",
+            "noDataForDay": "第{day}日目のデータはまだありません",
+            "teams": "チーム",
+            "continuousChoices": "継続的な選択肢",
+            "continuousDescription": "— 日の間で変更される可能性があります",
+            "oneTimeChoices": "一度限りの選択肢",
+            "choiceTypes": {
+                "yesno": "はい / いいえ",
+                "multi": "複数選択",
+                "opinion": "自由な意見"
+            },
+            "moreResponses": "+{count} 件の回答をもっと見る"
         }
     },
     "cards": {
@@ -412,8 +427,10 @@
         "chapterRecap": "チャプター要約",
         "jukebox": "ジュークボックス",
         "libestalGallery": "リベスタル・ギャラリー",
-        "news": "ニュース"
+        "news": "ニュース",
+        "stats": "統計"
     },
+
     "constants": {
         "Amber Coin": "アンバーコイン",
         "Scarlet Wand": "スカーレットワンド",
