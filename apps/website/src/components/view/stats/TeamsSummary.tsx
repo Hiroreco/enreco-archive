@@ -170,7 +170,7 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                                             return (
                                                 <li
                                                     key={idx}
-                                                    className="text-muted-foreground"
+                                                    className="text-muted-foreground list-none"
                                                 >
                                                     {dayChange.member}{" "}
                                                     {dayChange.change}
@@ -188,7 +188,7 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                                             return (
                                                 <li
                                                     key={idx}
-                                                    className="flex items-center gap-1 text-muted-foreground flex-wrap"
+                                                    className="flex items-center gap-1 text-muted-foreground flex-wrap list-none"
                                                 >
                                                     <div className="flex gap-1">
                                                         {groupedChange.members.map(
