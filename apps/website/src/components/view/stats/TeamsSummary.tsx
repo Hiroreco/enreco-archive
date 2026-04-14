@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import type { TeamData, LocalizedString } from "./types";
 import { TRACKER_DATA, talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
@@ -29,6 +30,7 @@ interface TeamsSummaryProps {
 
 export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
     const locale = useSettingStore((state) => state.locale);
+    const t = useTranslations("modals.stats");
 
     // Calculate team changes for each day
     const calculateTeamChanges = (day: number) => {
@@ -36,7 +38,7 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
             return [
                 {
                     member: "Everyone",
-                    change: "made their initial team assignments",
+                    change: t("everyoneInitialTeam"),
                 },
             ];
         }
@@ -143,7 +145,7 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                     size="sm"
                     className="h-auto p-0 text-xs font-medium text-muted-foreground hover:bg-transparent hover:text-muted-foreground"
                 >
-                    Changes
+                    {t("changes")}
                     <ChevronDown className="ml-1.5 h-3 w-3" />
                 </Button>
             </DropdownMenuTrigger>

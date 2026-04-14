@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import type { ContinuousChoice, LocalizedString } from "./types";
 import { TRACKER_DATA, talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
@@ -34,12 +35,11 @@ export function ContinuousSummary({
     currentDay,
 }: ContinuousSummaryProps) {
     const locale = useSettingStore((state) => state.locale);
+    const t = useTranslations("modals.stats");
 
     const calculateChoiceChanges = (day: number) => {
         if (day === 1) {
-            return [
-                { member: "Everyone", change: "made their initial choice" },
-            ];
+            return [{ member: "Everyone", change: t("everyoneInitialChoice") }];
         }
 
         const prevData = TRACKER_DATA[day - 1];
@@ -153,7 +153,7 @@ export function ContinuousSummary({
                     size="sm"
                     className="h-auto p-0 text-xs font-medium text-muted-foreground hover:bg-transparent hover:text-muted-foreground"
                 >
-                    Changes
+                    {t("changes")}
                     <ChevronDown className="ml-1.5 h-3 w-3" />
                 </Button>
             </DropdownMenuTrigger>
