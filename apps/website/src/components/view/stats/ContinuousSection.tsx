@@ -2,6 +2,7 @@ import type { ContinuousChoice, DayData, LocalizedString } from "./types";
 import { talentById, TALENTS } from "./data";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
+import { ContinuousSummary } from "@/components/view/stats/ContinuousSummary";
 import { useSettingStore } from "@/store/settingStore";
 import { useTranslations } from "next-intl";
 import { TRACKER_DATA } from "./data";
@@ -80,9 +81,16 @@ export function ContinuousSection({
                             key={cont.id}
                             className="border rounded-xl p-4 flex flex-col gap-3"
                         >
-                            <span className="text-sm font-medium">
-                                {getLocalizedText(cont.title, locale)}
-                            </span>
+                            <div className="flex items-center justify-between">
+                                <span className="text-sm font-medium">
+                                    {getLocalizedText(cont.title, locale)}
+                                </span>
+                                <ContinuousSummary
+                                    choiceId={cont.id}
+                                    choiceTitle={cont.title}
+                                    currentDay={currentDay}
+                                />
+                            </div>
 
                             <div className="flex flex-col gap-3">
                                 {cont.options.map((opt, optIndex) => {

@@ -1,6 +1,7 @@
 import type { TeamData, LocalizedString } from "./types";
 import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
+import { TeamsSummary } from "@/components/view/stats/TeamsSummary";
 import { useSettingStore } from "@/store/settingStore";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -16,15 +17,19 @@ function getLocalizedText(
 
 interface TeamsSectionProps {
     teams: TeamData[];
+    currentDay: number;
 }
 
-export function TeamsSection({ teams }: TeamsSectionProps) {
+export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
 
     return (
         <section>
-            <SectionLabel>{t("teams")}</SectionLabel>
+            <div className="flex items-center justify-between mb-2.5">
+                <SectionLabel>{t("teams")}</SectionLabel>
+                <TeamsSummary currentDay={currentDay} />
+            </div>
             {/*
                 No `layout` on the grid — letting the grid reflow instantly
                 prevents the intermediate-state jank on mobile where a row

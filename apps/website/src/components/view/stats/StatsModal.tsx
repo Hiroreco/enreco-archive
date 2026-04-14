@@ -77,7 +77,7 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                     </div>
                 </DialogHeader>
                 <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4  max-h-[80dvh] overflow-y-auto">
-                    <TeamsSection teams={data.teams} />
+                    <TeamsSection teams={data.teams} currentDay={day} />
                     <ContinuousSection
                         continuous={data.continuous}
                         prevData={prevData}
