@@ -476,9 +476,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             />
 
             {/* Moving this out of the counter modal in order to synchronize it with the other modals */}
-            <button
+            <div
                 className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
+                    "fixed top-2 left-1/2 -translate-x-1/2 flex flex-col md:flex-row gap-2",
                     {
                         invisible: currentCard !== null,
                         visible: currentCard === null,
@@ -486,13 +486,25 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         hidden: chapter > 1,
                     },
                 )}
-                onClick={openReadCounterModal}
             >
-                {tReadStatus("readCount", {
-                    count: readCount,
-                    total: totalCount,
-                })}
-            </button>
+                <button
+                    className="py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]"
+                    onClick={openReadCounterModal}
+                >
+                    {tReadStatus("readCount", {
+                        count: readCount,
+                        total: totalCount,
+                    })}
+                </button>
+                <button
+                    className="py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] flex items-center justify-center gap-2"
+                    onClick={openStatsModal}
+                    title="Stats"
+                >
+                    <BarChart3 className="w-4 h-4" />
+                    <span>Stats</span>
+                </button>
+            </div>
 
             <ReadCounter
                 open={openModal === "read-counter"}
@@ -616,17 +628,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     onClick={openFanartModal}
                 >
                     <Palette />
-                </IconButton>
-
-                <IconButton
-                    id="stats-btn"
-                    className="h-10 w-10 p-1"
-                    tooltipText={tNavTooltips("stats")}
-                    enabled={true}
-                    tooltipSide="left"
-                    onClick={openStatsModal}
-                >
-                    <BarChart3 />
                 </IconButton>
             </div>
 

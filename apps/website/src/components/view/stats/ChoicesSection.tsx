@@ -64,11 +64,7 @@ function OpinionBody({ choice }: { choice: Choice }) {
                 return (
                     <div
                         key={entry.talent}
-                        className="
-              flex gap-2 items-start
-              bg-neutral-50 dark:bg-neutral-800
-              rounded-lg px-3 py-2
-            "
+                        className="flex gap-2 items-start bg-neutral-50 dark:bg-neutral-800 rounded-lg px-3 py-2"
                     >
                         <MemberAvatar
                             talent={talent}
@@ -93,11 +89,7 @@ function OpinionBody({ choice }: { choice: Choice }) {
             {!expanded && remaining > 0 && (
                 <button
                     onClick={() => setExpanded(true)}
-                    className="
-            text-[11px] text-neutral-400 hover:text-neutral-600
-            dark:text-neutral-500 dark:hover:text-neutral-300
-            text-left transition-colors mt-0.5
-          "
+                    className="text-[11px] text-neutral-400 hover:text-neutral-600 dark:text-neutral-500 dark:hover:text-neutral-300 text-left transition-colors mt-0.5"
                 >
                     +{remaining} more responses
                 </button>
@@ -142,10 +134,7 @@ function ChoiceCard({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
     return (
         <div
-            className="
-        bg-white dark:bg-neutral-900
-        border border-neutral-200 dark:border-neutral-800
-        rounded-xl p-4 flex flex-col gap-3
+            className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-4 flex flex-col gap-3
       "
         >
             <TypeBadge type={choice.type} />
