@@ -54,9 +54,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
     );
-    const hasDismissedBingoIndicator = usePersistedViewStore(
-        (state) => state.hasDismissedBingoIndicator,
-    );
+
     const appType = useViewStore((state) => state.appType);
     const hasDoneInitialSequence = useRef(false);
     const cardRef = useRef<HTMLDivElement>(null);
@@ -72,7 +70,6 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     useEffect(() => {
         if (
             isInLoadingScreen ||
-            !hasDismissedBingoIndicator ||
             hasDoneInitialSequence.current ||
             countdownVersion === CURRENT_COUNTDOWN_VERSION
         )
@@ -113,11 +110,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
         return () => clearInterval(interval);
     }, [timeLeft]);
 
-    if (
-        !hasVisitedBefore ||
-        !hasDismissedBingoIndicator ||
-        appType !== "chart"
-    ) {
+    if (!hasVisitedBefore || appType !== "chart") {
         return null;
     }
 

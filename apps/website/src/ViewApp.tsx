@@ -34,9 +34,13 @@ import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/Va
 
 import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModal";
 
+import newsDataEn from "#/news.json";
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
+import NewsModal from "@/components/view/basic-modals/NewsModal";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
+import ComingSoonCard from "@/components/view/other/ComingSoonCard";
+import CountdownCard from "@/components/view/other/CountdownCard";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -48,11 +52,6 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
-import NewsModal from "@/components/view/basic-modals/NewsModal";
-import newsDataEn from "#/news.json";
-import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
-import CountdownCard from "@/components/view/other/CountdownCard";
-import ComingSoonCard from "@/components/view/other/ComingSoonCard";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -170,9 +169,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
     const setHasVisitedBefore = usePersistedViewStore(
         (state) => state.setHasVisitedBefore,
-    );
-    const hasDismissedBingoIndicator = usePersistedViewStore(
-        (state) => state.hasDismissedBingoIndicator,
     );
 
     /* State variables */
@@ -637,27 +633,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
             </div>
-            {!hasDismissedBingoIndicator && (
-                <BingoIndicator
-                    className={cn(
-                        "md:hidden fixed bottom-18 left-1/2 w-fit -translate-x-1/2 opacity-60",
-                        {
-                            invisible: currentCard !== null,
-                        },
-                    )}
-                />
-            )}
 
-            {!hasDismissedBingoIndicator && (
-                <BingoIndicator
-                    className={cn(
-                        "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 ",
-                        {
-                            invisible: currentCard !== null,
-                        },
-                    )}
-                />
-            )}
             <CountdownCard isInLoadingScreen={isInLoadingScreen} />
         </>
     );

@@ -43,9 +43,7 @@ export const ViewAppWrapper = () => {
     const hasVisitedBefore = usePersistedViewStore(
         (state) => state.hasVisitedBefore,
     );
-    const hasDismissedBingoIndicator = usePersistedViewStore(
-        (state) => state.hasDismissedBingoIndicator,
-    );
+
     const openChangeLogModal = useViewStore(
         (state) => state.openChangeLogModal,
     );
@@ -147,17 +145,15 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
-                            {hasDismissedBingoIndicator && (
-                                <TabsTrigger value="bingo" title="Bingo">
-                                    <Image
-                                        src="/images-opt/bingo-logo-opt.webp"
-                                        alt="Bingo"
-                                        height={24}
-                                        width={24}
-                                        className="h-6 w-auto"
-                                    />
-                                </TabsTrigger>
-                            )}
+                            <TabsTrigger value="bingo" title="Bingo">
+                                <Image
+                                    src="/images-opt/bingo-logo-opt.webp"
+                                    alt="Bingo"
+                                    height={24}
+                                    width={24}
+                                    className="h-6 w-auto"
+                                />
+                            </TabsTrigger>
                         </TabsList>
                     )}
                     {isMobile && appType !== "chart" && (
@@ -171,17 +167,15 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
-                            {hasDismissedBingoIndicator && (
-                                <TabsTrigger value="bingo" title="Bingo">
-                                    <Image
-                                        src="/images-opt/bingo-logo-opt.webp"
-                                        alt="Bingo"
-                                        height={24}
-                                        width={24}
-                                        className="h-6 w-auto"
-                                    />
-                                </TabsTrigger>
-                            )}
+                            <TabsTrigger value="bingo" title="Bingo">
+                                <Image
+                                    src="/images-opt/bingo-logo-opt.webp"
+                                    alt="Bingo"
+                                    height={24}
+                                    width={24}
+                                    className="h-6 w-auto"
+                                />
+                            </TabsTrigger>
                         </TabsList>
                     )}
                 </Tabs>
