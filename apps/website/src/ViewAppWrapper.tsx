@@ -38,7 +38,7 @@ export const ViewAppWrapper = () => {
         "flex items-center justify-center w-9 h-9 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card";
     const spacerSpanClass = "w-1 shrink-0";
     const labelSpanClass =
-        "flex items-center h-9 px-3 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent w-24 bg-card";
+        "flex items-center h-9 px-3 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent w-20 bg-card";
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
     const appType = useViewStore((state) => state.appType);

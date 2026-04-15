@@ -247,7 +247,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
                             onAnimationComplete={handleAnimationComplete}
-                            className="grid lg:grid-cols-2 gap-x-4 w-full overflow-y-auto pb-4 h-full px-2 overflow-x-hidden"
+                            className="grid gap-y-4 w-full overflow-y-auto pb-4 h-full px-2 overflow-x-hidden"
                         >
                             {sortedChapters.map((chapterKey) => {
                                 const chapter = Number(chapterKey);
@@ -265,7 +265,7 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                             </span>
                                             <Separator className="bg-foreground/60 flex-1" />
                                         </div>
-                                        <div className="grid md:grid-cols-2 gap-2 auto-rows-fr">
+                                        <div className="grid md:grid-cols-3 gap-2 auto-rows-fr">
                                             {entries.map((entry, index) => {
                                                 const isLastAndOdd =
                                                     index ===
