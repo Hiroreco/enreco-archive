@@ -403,6 +403,12 @@
         "section": "Section {val}",
         "ok": "Got it!"
     },
+    "apps": {
+        "chart": "Chart",
+        "glossary": "Glossary",
+        "mediaArchive": "Media",
+        "bingo": "Bingo"
+    },
     "navTooltips": {
         "dayRecapVisibility": "Day Recap/Visibility",
         "info": "Info",

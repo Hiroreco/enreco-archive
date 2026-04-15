@@ -395,6 +395,12 @@
         "prevDay": "前の日",
         "nextDay": "次の日"
     },
+    "apps": {
+        "chart": "関係図",
+        "glossary": "用語集",
+        "mediaArchive": "メディア",
+        "bingo": "ビンゴ"
+    },
     "common": {
         "close": "閉じる",
         "markAsRead": "既読にする",

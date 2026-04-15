@@ -24,11 +24,21 @@ import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
+import { useTranslations } from "next-intl";
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
     const themeType = useSettingStore((state) => state.themeType);
+    const tApp = useTranslations("apps");
+
+    const tabsTriggerClass =
+        "group flex items-center justify-start w-full p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none gap-0";
+    const iconSpanClass =
+        "flex items-center justify-center w-9 h-9 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card";
+    const spacerSpanClass = "w-1 shrink-0";
+    const labelSpanClass =
+        "flex items-center h-9 px-3 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent w-24 bg-card";
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
     const appType = useViewStore((state) => state.appType);
@@ -128,7 +138,8 @@ export const ViewAppWrapper = () => {
                 >
                     {/* I know this looks incredibly stupid, but if I do conditional rendering with the style for flex-col h-fit instead,  */}
                     {/* when the direction switches, a very noticable stutter of the selected tab can be seen */}
-                    {(!isMobile || (isMobile && appType === "chart")) && (
+
+                    {isMobile && appType === "chart" && (
                         <TabsList
                             className={cn("flex-col h-fit", {
                                 "flex-col h-fit":
@@ -153,6 +164,77 @@ export const ViewAppWrapper = () => {
                                     width={24}
                                     className="h-6 w-auto"
                                 />
+                            </TabsTrigger>
+                        </TabsList>
+                    )}
+                    {!isMobile && (
+                        <TabsList
+                            className={cn(
+                                "flex-col h-fit bg-transparent border-none gap-1",
+                                {
+                                    "flex-col h-fit":
+                                        !isMobile ||
+                                        (isMobile && appType === "chart"),
+                                },
+                            )}
+                        >
+                            <TabsTrigger
+                                className={tabsTriggerClass}
+                                value="chart"
+                            >
+                                <span className={iconSpanClass}>
+                                    <Workflow size={20} />
+                                </span>
+                                <span className={spacerSpanClass} />
+                                <span className={labelSpanClass}>
+                                    {tApp("chart")}
+                                </span>
+                            </TabsTrigger>
+
+                            <TabsTrigger
+                                className={tabsTriggerClass}
+                                value="glossary"
+                            >
+                                <span className={iconSpanClass}>
+                                    <LibraryBig size={20} />
+                                </span>
+                                <span className={spacerSpanClass} />
+                                <span className={labelSpanClass}>
+                                    {tApp("glossary")}
+                                </span>
+                            </TabsTrigger>
+
+                            <TabsTrigger
+                                className={tabsTriggerClass}
+                                value="archive"
+                            >
+                                <span className={iconSpanClass}>
+                                    <Film size={20} />
+                                </span>
+                                <span className={spacerSpanClass} />
+                                <span className={labelSpanClass}>
+                                    {tApp("mediaArchive")}
+                                </span>
+                            </TabsTrigger>
+
+                            <TabsTrigger
+                                className={tabsTriggerClass}
+                                value="bingo"
+                                title="Bingo"
+                            >
+                                <span className={iconSpanClass}>
+                                    <Image
+                                        src="/images-opt/bingo-logo-opt.webp"
+                                        alt="Bingo"
+                                        height={20}
+                                        width={20}
+                                        className="h-5 w-5 object-contain"
+                                    />
+                                </span>
+                                <span className={spacerSpanClass} />
+                                <span className={labelSpanClass}>
+                                    {tApp("bingo")}
+                                </span>
                             </TabsTrigger>
                         </TabsList>
                     )}
