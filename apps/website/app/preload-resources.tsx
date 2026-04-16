@@ -27,6 +27,15 @@ export default function PreloadResources() {
         as: "image",
         fetchPriority: "high",
     });
+    ReactDOM.preload("/images-opt/bg-2-opt.webp", {
+        as: "image",
+        fetchPriority: "high",
+    });
+    ReactDOM.preload("/images-opt/bg-2-dark-opt.webp", {
+        as: "image",
+        fetchPriority: "high",
+    });
+
     ReactDOM.preload("/images-opt/bingo-logo-opt.webp", {
         as: "image",
         fetchPriority: "high",

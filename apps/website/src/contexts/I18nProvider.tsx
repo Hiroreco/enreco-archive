@@ -45,7 +45,7 @@ export function I18nProvider({ children }: I18nProviderProps) {
             <div
                 className={cn("fixed inset-0 z-50")}
                 style={{
-                    backgroundImage: "url('images-opt/bg-1-dark-opt.webp')",
+                    backgroundImage: "url('images-opt/bg-2-dark-opt.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

@@ -204,65 +204,40 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Cha
     };
 };
 
+// Factory function to create locale-specific data
+const createLocalizedData = (locale: Locale): LocalizedData => ({
+    chapters: [
+        convertLocalizedChapter(chapter0 as LocalizedChapter, locale),
+        convertLocalizedChapter(chapter1 as LocalizedChapter, locale),
+        convertLocalizedChapter(chapter2 as LocalizedChapter, locale),
+    ],
+    textData: text as TextData,
+    glossary: convertLocalizedGlossary(
+        {
+            weapons: weapons as any,
+            characters: characters as any,
+            lore: lore as any,
+            quests: quests as any,
+            misc: misc as any,
+        } as any,
+        locale,
+    ) as any,
+    songs: transformSongs(songs_raw as Record<string, SongRaw[]>, locale),
+    chapterRecap: convertLocalizedChapterRecaps(
+        chapterRecaps as LocalizedChapterRecapData,
+        locale,
+    ),
+    changelogs: convertLocalizedChangelogs(changelogs as any, locale),
+    recollectionArchive: convertLocalizedRecollectionArchive(
+        media_archive as any,
+        locale,
+    ) as RecollectionArchiveEntry[],
+    fanficData: fanfic_data_en,
+});
+
 const DATA: Record<Locale, LocalizedData> = {
-    en: {
-        chapters: [
-            convertLocalizedChapter(chapter0 as LocalizedChapter, "en"),
-            convertLocalizedChapter(chapter1 as LocalizedChapter, "en"),
-            convertLocalizedChapter(chapter2 as LocalizedChapter, "en"),
-        ],
-        textData: text as TextData,
-        glossary: convertLocalizedGlossary(
-            {
-                weapons: weapons as any,
-                characters: characters as any,
-                lore: lore as any,
-                quests: quests as any,
-                misc: misc as any,
-            } as any,
-            "en",
-        ) as any,
-        songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
-        chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps as LocalizedChapterRecapData,
-            "en",
-        ),
-        changelogs: convertLocalizedChangelogs(changelogs as any, "en"),
-        recollectionArchive: convertLocalizedRecollectionArchive(
-            media_archive as any,
-            "en",
-        ) as RecollectionArchiveEntry[],
-        fanficData: fanfic_data_en,
-    },
-    ja: {
-        chapters: [
-            convertLocalizedChapter(chapter0 as LocalizedChapter, "ja"),
-            convertLocalizedChapter(chapter1 as LocalizedChapter, "ja"),
-            convertLocalizedChapter(chapter2 as LocalizedChapter, "ja"),
-        ],
-        textData: text as TextData,
-        glossary: convertLocalizedGlossary(
-            {
-                weapons: weapons as any,
-                characters: characters as any,
-                lore: lore as any,
-                quests: quests as any,
-                misc: misc as any,
-            } as any,
-            "ja",
-        ) as any,
-        songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
-        chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps as LocalizedChapterRecapData,
-            "ja",
-        ),
-        changelogs: convertLocalizedChangelogs(changelogs as any, "ja"),
-        recollectionArchive: convertLocalizedRecollectionArchive(
-            media_archive as any,
-            "ja",
-        ) as RecollectionArchiveEntry[],
-        fanficData: fanfic_data_en,
-    },
+    en: createLocalizedData("en"),
+    ja: createLocalizedData("ja"),
 };
 
 export const getChapterData = (
