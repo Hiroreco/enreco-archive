@@ -11,15 +11,15 @@ import { useEffect, useRef, useState } from "react";
 const CURRENT_DAY = 0;
 const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
 
-// REMMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
+// REMEMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
 const IS_VISIBLE = true;
 
 // Returns the next occurrence of 2 AM JST (= 17:00 UTC).
-// If today's 17:00 UTC hasn't passed yet, returns today's. Otherwise tomorrow's.
+// Only called ONCE to set the target — not re-called on every tick.
 function getTargetDate(): Date {
     const now = new Date();
     const target = new Date(now);
-    target.setUTCHours(17, 0, 0, 0); // 17:00 UTC = 02:00 JST (next calendar day in JST)
+    target.setUTCHours(15, 0, 0, 0);
     if (target <= now) {
         target.setUTCDate(target.getUTCDate() + 1);
     }
@@ -46,8 +46,11 @@ interface CountdownCardProps {
 const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     const t = useTranslations("countdownCard");
     const [isOpen, setIsOpen] = useState(false);
+
+    // Target is fixed on mount — never recomputed, so countdown stops at zero
+    const targetRef = useRef<Date>(getTargetDate());
     const [timeLeft, setTimeLeft] = useState(() =>
-        getTimeLeft(getTargetDate()),
+        getTimeLeft(targetRef.current),
     );
 
     const currentCard = useViewStore((state) => state.currentCard);
@@ -100,17 +103,18 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
         };
     }, [isOpen]);
 
+    // Tick against the fixed target — stops naturally when timeLeft becomes null
     useEffect(() => {
         if (!timeLeft) return;
         const interval = setInterval(() => {
-            const newTimeLeft = getTimeLeft(getTargetDate()); // recompute target in case day rolled over
+            const newTimeLeft = getTimeLeft(targetRef.current);
             setTimeLeft(newTimeLeft);
             if (!newTimeLeft) clearInterval(interval);
         }, 1000);
         return () => clearInterval(interval);
     }, [timeLeft]);
 
-    if (!hasVisitedBefore || appType !== "chart") {
+    if (!hasVisitedBefore || appType !== "chart" || !IS_VISIBLE) {
         return null;
     }
 
@@ -133,10 +137,10 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
                     "text-foreground text-sm",
                 )}
                 initial={{ x: "100%" }}
-                animate={{ x: isOpen ? 0 : "calc(100% - 24px)" }} // Keep opener visible
+                animate={{ x: isOpen ? 0 : "calc(100% - 24px)" }}
                 transition={{ type: "spring", damping: 25, stiffness: 200 }}
             >
-                {/* Closer Button (part of the card) */}
+                {/* Closer Button */}
                 <motion.button
                     className="absolute top-0 left-0 h-full w-8 flex items-center justify-center rounded-l-md"
                     onClick={() => setIsOpen(false)}
