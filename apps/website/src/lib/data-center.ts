@@ -1,4 +1,3 @@
-import siteMeta from "#/metadata.json";
 import {
     Chapter,
     ChapterRecapData,
@@ -11,9 +10,10 @@ import {
     TextData
 } from "@enreco-archive/common/types";
 
+import siteMeta from "#/recaps/metadata.json";
 import chapter0 from "#/recaps/chapter0.json";
 import chapter1 from "#/recaps/chapter1.json";
-// import chapter2 from "#/chapter2.json";
+import chapter2 from "#/recaps/chapter2.json";
 
 import text from "#/text.json";
 
@@ -209,7 +209,7 @@ const DATA: Record<Locale, LocalizedData> = {
         chapters: [
             convertLocalizedChapter(chapter0 as LocalizedChapter, "en"),
             convertLocalizedChapter(chapter1 as LocalizedChapter, "en"),
-            // convertLocalizedChapter(chapter2_combined as LocalizedChapter, "en"),
+            convertLocalizedChapter(chapter2 as LocalizedChapter, "en"),
         ],
         textData: text as TextData,
         glossary: convertLocalizedGlossary(
@@ -238,6 +238,7 @@ const DATA: Record<Locale, LocalizedData> = {
         chapters: [
             convertLocalizedChapter(chapter0 as LocalizedChapter, "ja"),
             convertLocalizedChapter(chapter1 as LocalizedChapter, "ja"),
+            convertLocalizedChapter(chapter2 as LocalizedChapter, "ja"),
         ],
         textData: text as TextData,
         glossary: convertLocalizedGlossary(

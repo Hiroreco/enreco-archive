@@ -4578,7 +4578,7 @@
       "name": "Unrequited Love",
       "style": {
         "stroke": "#2b65ee",
-        "strokeDasharray": "15, 15"
+        "strokeDasharray": "10, 10"
       }
     },
     "romantic": {
@@ -4586,7 +4586,7 @@
       "name": "Romantic",
       "style": {
         "stroke": "#ff94d8",
-        "strokeDasharray": "15, 15"
+        "strokeDasharray": "10, 10"
       }
     },
     "family": {

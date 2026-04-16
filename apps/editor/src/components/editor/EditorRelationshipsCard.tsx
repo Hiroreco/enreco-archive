@@ -108,16 +108,25 @@ export default function EditorRelationshipsCard({
     };
 
     const setStrokeDashArray = (id: string, newDashArray: string) => {
-        if (
-            !relationships[id] ||
-            relationships[id].style.strokeDasharray === newDashArray
-        ) {
+        if (!relationships[id]) {
+            return;
+        }
+
+        // Don't update if the value hasn't changed
+        const currentValue = relationships[id].style.strokeDasharray || "";
+        if (currentValue === newDashArray) {
             return;
         }
 
         setRelationships(
             produce((relationships) => {
-                relationships[id].style.strokeDasharray = newDashArray;
+                if (newDashArray) {
+                    // Only set if there's a value
+                    relationships[id].style.strokeDasharray = newDashArray;
+                } else {
+                    // Remove the property if empty
+                    delete relationships[id].style.strokeDasharray;
+                }
             }),
         );
     };
