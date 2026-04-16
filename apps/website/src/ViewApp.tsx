@@ -52,6 +52,7 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
+import { AnimatePresence, motion } from "framer-motion";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -375,23 +376,30 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 )}
                 {/* Coming soon card, shown for chapter 3 only */}
                 {chapter > 1 && <ComingSoonCard />}
-                <div
-                    className={cn(
-                        "absolute top-0 left-0 w-screen h-full -z-10",
-                        {
-                            "brightness-90 dark:brightness-70":
-                                currentCard !== null,
-                            "brightness-100": currentCard === null,
-                        },
-                    )}
-                    style={{
-                        backgroundImage: `url('${bgImage}')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s, background-image 0.3s",
-                    }}
-                />
+                <AnimatePresence mode="sync">
+                    <motion.div
+                        key={bgImage}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className={cn(
+                            "absolute top-0 left-0 w-screen h-full -z-10",
+                            {
+                                "brightness-90 dark:brightness-70":
+                                    currentCard !== null,
+                                "brightness-100": currentCard === null,
+                            },
+                        )}
+                        style={{
+                            backgroundImage: `url('${bgImage}')`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            transition: "brightness 0.5s",
+                        }}
+                    />
+                </AnimatePresence>
                 <DayRecapCard
                     isCardOpen={currentCard === "setting"}
                     onCardClose={onCardClose}

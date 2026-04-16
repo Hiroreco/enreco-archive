@@ -97,19 +97,26 @@ export const ViewAppWrapper = () => {
             )}
 
             {/* Setting the background here so both apps can use it */}
-            <div
-                className={cn("absolute top-0 left-0 w-screen h-dvh -z-10", {
-                    "brightness-90 dark:brightness-70": currentCard !== null,
-                    "brightness-100": currentCard === null,
-                })}
-                style={{
-                    backgroundImage: `url('${bgImage}')`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    transition: "brightness 0.5s, background-image 0.3s",
-                }}
-            />
+            <AnimatePresence mode="sync">
+                <motion.div
+                    key={bgImage}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className={cn("absolute top-0 left-0 w-screen h-dvh -z-10", {
+                        "brightness-90 dark:brightness-70": currentCard !== null,
+                        "brightness-100": currentCard === null,
+                    })}
+                    style={{
+                        backgroundImage: `url('${bgImage}')`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        transition: "brightness 0.5s",
+                    }}
+                />
+            </AnimatePresence>
 
             <div
                 className={cn("overflow-hidden", {
