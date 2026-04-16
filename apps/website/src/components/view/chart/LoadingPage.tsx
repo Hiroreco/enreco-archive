@@ -115,7 +115,7 @@ const LoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: "url('images-opt/bg-1-dark-opt.webp')",
+                backgroundImage: "url('images-opt/bg-2-dark-opt.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -128,7 +128,7 @@ const LoadingPage = ({
                 transition={{ duration: 0.5 }}
                 className="absolute top-0 left-0 w-screen h-screen -z-10"
                 style={{
-                    backgroundImage: "url('images-opt/bg-1-opt.webp')",
+                    backgroundImage: "url('images-opt/bg-2-opt.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -150,7 +150,7 @@ const LoadingPage = ({
                         src={
                             isAprilFools
                                 ? "/images-opt/april-fools-2026-opt.webp"
-                                : "/images-opt/logo-1-opt.webp"
+                                : "/images-opt/logo-2-opt.webp"
                         }
                         alt="ENreco Archive Logo"
                         width={600}
@@ -171,9 +171,9 @@ const LoadingPage = ({
                                 width: "5px",
                                 height: "5px",
                                 background:
-                                    "linear-gradient(90deg, #a1c7e5 60%, #abcfeb 100%)",
+                                    "linear-gradient(90deg, #ec973a 60%, #b83f22 100%)",
                                 boxShadow:
-                                    "0 0 8px 2px #a1c7e5, 0 0 12px 4px #abcfeb",
+                                    "0 0 8px 2px #ec973a, 0 0 12px 4px #b83f22",
                                 pointerEvents: "none",
                             }}
                             initial={{
