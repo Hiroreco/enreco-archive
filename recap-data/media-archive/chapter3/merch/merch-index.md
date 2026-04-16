@@ -1,6 +1,6 @@
-<!-- title: hololive English "ENigmatic Recollection" 2026 ver. -->
+<!-- title: Official Merchandise - 2026 -->
 <!-- entries: merch-logo, merch-acrylic1, merch-acrylic2, merch-card1, merch-card2, merch-cloak -->
-<!-- description: Official merchandise made released in 2026 -->
+<!-- description: Official merchandise released in 2026 -->
 <!-- thumbnail: merch-logo -->
 
 ### Description
