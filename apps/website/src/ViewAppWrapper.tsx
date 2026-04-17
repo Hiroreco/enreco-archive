@@ -20,11 +20,57 @@ import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkM
 import { AnimatePresence, motion } from "framer-motion";
 import { Film, LibraryBig, Workflow } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
 import { useTranslations } from "next-intl";
+
+const HoverTabTrigger = ({
+    value,
+    icon,
+    label,
+}: {
+    value: string;
+    icon: React.ReactNode;
+    label: string;
+}) => {
+    const [hovered, setHovered] = useState(false);
+    const labelRef = useRef<HTMLSpanElement>(null);
+    const [labelWidth, setLabelWidth] = useState(0);
+
+    useEffect(() => {
+        if (labelRef.current) {
+            // Temporarily make it visible to measure
+            labelRef.current.style.width = "auto";
+            labelRef.current.style.opacity = "0";
+            setLabelWidth(labelRef.current.scrollWidth);
+            labelRef.current.style.width = "";
+            labelRef.current.style.opacity = "";
+        }
+    }, [label]);
+
+    return (
+        <TabsTrigger
+            className="group relative flex items-center justify-start w-10 p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+            value={value}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+        >
+            <span className="flex items-center justify-center w-10 h-10 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card">
+                {icon}
+            </span>
+            <motion.span
+                ref={labelRef}
+                className="absolute left-11 flex items-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap bg-card group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent"
+                animate={{ width: hovered ? labelWidth : 0, opacity: hovered ? 1 : 0 }}
+                transition={{ duration: 0.2, ease: "easeOut" }}
+            >
+                {label}
+            </motion.span>
+        </TabsTrigger>
+    );
+};
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -33,12 +79,10 @@ export const ViewAppWrapper = () => {
     const tApp = useTranslations("apps");
 
     const tabsTriggerClass =
-        "group flex items-center justify-start w-full p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none gap-0";
+        "group flex items-center justify-start w-fit p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none gap-0";
     const iconSpanClass =
         "flex items-center justify-center w-9 h-9 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card";
     const spacerSpanClass = "w-1 shrink-0";
-    const labelSpanClass =
-        "flex items-center h-9 px-3 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent w-20 bg-card";
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
     const appType = useViewStore((state) => state.appType);
@@ -64,10 +108,7 @@ export const ViewAppWrapper = () => {
         bgImage = chapterData.bgiSrc.replace("-opt.webp", "-dark-opt.webp");
     }
 
-    // Pops up the changelog modal everytime the version changes
-    // The version change is based on comparing the version in localStorage and the current version
     useEffect(() => {
-        // Don't show the changelog if it's the user's first time, since they will see the info modal anyway
         if (!hasVisitedBefore || isLoading) {
             return;
         }
@@ -96,7 +137,6 @@ export const ViewAppWrapper = () => {
                 />
             )}
 
-            {/* Setting the background here so both apps can use it */}
             <AnimatePresence mode="sync">
                 <motion.div
                     key={bgImage}
@@ -128,7 +168,6 @@ export const ViewAppWrapper = () => {
                     orientation="vertical"
                     value={appType}
                     onValueChange={(value) => {
-                        // To avoid soft-locking when the user chooses a card, and quickly switches to glossary
                         if (value === "glossary") {
                             closeCard();
                             deselectElement();
@@ -143,9 +182,6 @@ export const ViewAppWrapper = () => {
                         },
                     )}
                 >
-                    {/* I know this looks incredibly stupid, but if I do conditional rendering with the style for flex-col h-fit instead,  */}
-                    {/* when the direction switches, a very noticable stutter of the selected tab can be seen */}
-
                     {isMobile && appType === "chart" && (
                         <TabsList
                             className={cn("flex-col h-fit", {
@@ -178,71 +214,28 @@ export const ViewAppWrapper = () => {
                         <TabsList
                             className={cn(
                                 "flex-col h-fit bg-transparent border-none gap-1",
-                                {
-                                    "flex-col h-fit":
-                                        !isMobile ||
-                                        (isMobile && appType === "chart"),
-                                },
                             )}
                         >
-                            <TabsTrigger
-                                className={tabsTriggerClass}
-                                value="chart"
-                            >
-                                <span className={iconSpanClass}>
-                                    <Workflow size={20} />
-                                </span>
-                                <span className={spacerSpanClass} />
-                                <span className={labelSpanClass}>
-                                    {tApp("chart")}
-                                </span>
-                            </TabsTrigger>
-
-                            <TabsTrigger
-                                className={tabsTriggerClass}
-                                value="glossary"
-                            >
-                                <span className={iconSpanClass}>
-                                    <LibraryBig size={20} />
-                                </span>
-                                <span className={spacerSpanClass} />
-                                <span className={labelSpanClass}>
-                                    {tApp("glossary")}
-                                </span>
-                            </TabsTrigger>
-
-                            <TabsTrigger
-                                className={tabsTriggerClass}
-                                value="archive"
-                            >
-                                <span className={iconSpanClass}>
-                                    <Film size={20} />
-                                </span>
-                                <span className={spacerSpanClass} />
-                                <span className={labelSpanClass}>
-                                    {tApp("mediaArchive")}
-                                </span>
-                            </TabsTrigger>
-
-                            <TabsTrigger
-                                className={tabsTriggerClass}
-                                value="bingo"
-                                title="Bingo"
-                            >
-                                <span className={iconSpanClass}>
-                                    <Image
-                                        src="/images-opt/bingo-logo-opt.webp"
-                                        alt="Bingo"
-                                        height={20}
-                                        width={20}
-                                        className="h-5 w-5 object-contain"
-                                    />
-                                </span>
-                                <span className={spacerSpanClass} />
-                                <span className={labelSpanClass}>
-                                    {tApp("bingo")}
-                                </span>
-                            </TabsTrigger>
+                            {[
+                                { value: "chart", icon: <Workflow size={24} />, label: tApp("chart") },
+                                { value: "glossary", icon: <LibraryBig size={24} />, label: tApp("glossary") },
+                                { value: "archive", icon: <Film size={24} />, label: tApp("mediaArchive") },
+                                {
+                                    value: "bingo",
+                                    icon: (
+                                        <Image
+                                            src="/images-opt/bingo-logo-opt.webp"
+                                            alt="Bingo"
+                                            height={24}
+                                            width={24}
+                                            className="size-6 object-contain"
+                                        />
+                                    ),
+                                    label: tApp("bingo"),
+                                },
+                            ].map(({ value, icon, label }) => (
+                                <HoverTabTrigger key={value} value={value} icon={icon} label={label} />
+                            ))}
                         </TabsList>
                     )}
                     {isMobile && appType !== "chart" && (
