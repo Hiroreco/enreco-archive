@@ -30,10 +30,12 @@ const HoverTabTrigger = ({
     value,
     icon,
     label,
+    selected
 }: {
     value: string;
     icon: React.ReactNode;
     label: string;
+    selected: boolean;
 }) => {
     const [hovered, setHovered] = useState(false);
     const labelRef = useRef<HTMLSpanElement>(null);
@@ -41,34 +43,37 @@ const HoverTabTrigger = ({
 
     useEffect(() => {
         if (labelRef.current) {
-            // Temporarily make it visible to measure
-            labelRef.current.style.width = "auto";
-            labelRef.current.style.opacity = "0";
-            setLabelWidth(labelRef.current.scrollWidth);
-            labelRef.current.style.width = "";
-            labelRef.current.style.opacity = "";
+            const el = labelRef.current;
+            const prev = el.style.cssText;
+            el.style.cssText = "width:auto;opacity:0;position:absolute;pointer-events:none;";
+            setLabelWidth(el.scrollWidth);
+            el.style.cssText = prev;
         }
     }, [label]);
 
     return (
-        <TabsTrigger
-            className="group relative flex items-center justify-start w-10 p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none"
-            value={value}
+        <div
+            className="relative"
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
-            <span className="flex items-center justify-center w-10 h-10 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card">
-                {icon}
-            </span>
+            <TabsTrigger
+                className="group relative flex items-center justify-start w-10 p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+                value={value}
+            >
+                <span className="flex items-center justify-center w-10 h-10 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card">
+                    {icon}
+                </span>
+            </TabsTrigger>
             <motion.span
                 ref={labelRef}
-                className="absolute left-11 flex items-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap bg-card group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent"
+                className="absolute top-0 left-11 flex items-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground"
                 animate={{ width: hovered ? labelWidth : 0, opacity: hovered ? 1 : 0 }}
-                transition={{ duration: 0.2, ease: "easeOut" }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
             >
                 {label}
             </motion.span>
-        </TabsTrigger>
+        </div>
     );
 };
 
@@ -234,7 +239,7 @@ export const ViewAppWrapper = () => {
                                     label: tApp("bingo"),
                                 },
                             ].map(({ value, icon, label }) => (
-                                <HoverTabTrigger key={value} value={value} icon={icon} label={label} />
+                                <HoverTabTrigger key={value} value={value} icon={icon} label={label} selected={appType === value} />
                             ))}
                         </TabsList>
                     )}
