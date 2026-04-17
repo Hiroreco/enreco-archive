@@ -163,7 +163,12 @@ const convertLocalizedChapterRecaps = (
 };
 
 // Convert localized chapter to locale-specific format
-const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Chapter => {
+const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chapterIndex: number): Chapter => {
+    const chapterPrefix = `ch${chapterIndex}-`;
+    
+    // Create a map of original node IDs to namespaced IDs for edge reference updates
+    const nodeIdMap = new Map<string, string>();
+    
     return {
         numberOfDays: chapter.numberOfDays,
         title: chapter.title[locale],
@@ -171,30 +176,44 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Cha
             dayRecap: chart.dayRecap[locale],
             title: chart.title[locale],
             nodes: chart.nodes.map((node: any) => {
+                const newId = `${chapterPrefix}${node.id}`;
+                nodeIdMap.set(node.id, newId);
+                
+                const processedNode = {
+                    ...node,
+                    // Namespace node IDs by chapter to prevent collisions and match with namespaced edges
+                    id: newId,
+                };
+                
                 // Extract locale-specific node content if it's localized
                 if (node.data?.content && typeof node.data.content === 'object' && node.data.content[locale]) {
-                    return {
-                        ...node,
-                        data: {
-                            ...node.data,
-                            content: node.data.content[locale],
-                        },
+                    processedNode.data = {
+                        ...node.data,
+                        content: node.data.content[locale],
                     };
                 }
-                return node;
+                
+                return processedNode;
             }),
             edges: chart.edges.map((edge: any) => {
+                const processedEdge = {
+                    ...edge,
+                    // Namespace edge IDs by chapter to prevent SVG marker collision
+                    id: `${chapterPrefix}${edge.id}`,
+                    // Update source and target to use namespaced node IDs
+                    source: `${chapterPrefix}${edge.source}`,
+                    target: `${chapterPrefix}${edge.target}`,
+                };
+                
                 // Extract locale-specific edge content if it's localized
                 if (edge.data?.content && typeof edge.data.content === 'object' && edge.data.content[locale]) {
-                    return {
-                        ...edge,
-                        data: {
-                            ...edge.data,
-                            content: edge.data.content[locale],
-                        },
+                    processedEdge.data = {
+                        ...edge.data,
+                        content: edge.data.content[locale],
                     };
                 }
-                return edge;
+                
+                return processedEdge;
             }),
         })),
         teams: chapter.teams,
@@ -207,9 +226,9 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Cha
 // Factory function to create locale-specific data
 const createLocalizedData = (locale: Locale): LocalizedData => ({
     chapters: [
-        convertLocalizedChapter(chapter0 as LocalizedChapter, locale),
-        convertLocalizedChapter(chapter1 as LocalizedChapter, locale),
-        convertLocalizedChapter(chapter2 as LocalizedChapter, locale),
+        convertLocalizedChapter(chapter0 as LocalizedChapter, locale, 0),
+        convertLocalizedChapter(chapter1 as LocalizedChapter, locale, 1),
+        convertLocalizedChapter(chapter2 as LocalizedChapter, locale, 2),
     ],
     textData: text as TextData,
     glossary: convertLocalizedGlossary(

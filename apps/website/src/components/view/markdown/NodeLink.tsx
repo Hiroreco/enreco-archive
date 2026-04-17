@@ -1,5 +1,6 @@
 import { ImageNodeType } from "@enreco-archive/common/types";
 import { useSettingStore } from "@/store/settingStore";
+import { useViewStore } from "@/store/viewStore";
 
 import { ReactNode, useCallback, useContext } from "react";
 
@@ -22,13 +23,16 @@ export default function NodeLink({
     onNodeLinkClick,
 }: NodeLinkProps) {
     const { nodes } = useCompleteChartData();
+    const chapter = useViewStore((state) => state.chapter);
 
     // The previous method of tracking the theme based on the document object
     // doesn't update when the theme changes. So using the store directly instead.
     const theme = useSettingStore((state) => state.themeType);
     const isDarkMode = useLightDarkModeSwitcher(theme);
 
-    const node = nodes.find((n) => n.id === nodeId);
+    // Prepend chapter prefix to match namespaced node IDs
+    const namespacedNodeId = `ch${chapter}-${nodeId}`;
+    const node = nodes.find((n) => n.id === namespacedNodeId);
 
     const nodeLinkHandler = useCallback(() => {
         if (node && !node.hidden) {
