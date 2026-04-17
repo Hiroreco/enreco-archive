@@ -19,7 +19,7 @@ const IS_VISIBLE = true;
 function getTargetDate(): Date {
     const now = new Date();
     const target = new Date(now);
-    target.setUTCHours(15, 0, 0, 0);
+    target.setUTCHours(17, 0, 0, 0);
     if (target <= now) {
         target.setUTCDate(target.getUTCDate() + 1);
     }
