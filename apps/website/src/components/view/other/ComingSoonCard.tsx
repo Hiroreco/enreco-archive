@@ -1,6 +1,9 @@
+import { useAudioStore } from "@/store/audioStore";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import React, { useMemo } from "react";
+import { useEffect, useMemo } from "react";
+
 
 function getLocalTimeForUTC(utcHours: number, utcMinutes: number = 0): string {
     const now = new Date();
@@ -17,6 +20,30 @@ function getLocalTimeForUTC(utcHours: number, utcMinutes: number = 0): string {
 
 const ComingSoonCard = () => {
     const t = useTranslations("comingSoonCard");
+
+    const {
+        playEasterEgg,
+        initializeEasterEgg,
+        cleanupEasterEgg,
+        easterEggStates,
+    } = useAudioStore();
+    const eggName = "liz";
+    const eggState = easterEggStates[eggName];
+    const isPlaying = eggState?.isPlaying || false;
+
+    useEffect(() => {
+        initializeEasterEgg(eggName);
+
+        return () => {
+            cleanupEasterEgg(eggName);
+        };
+    }, [eggName, initializeEasterEgg, cleanupEasterEgg]);
+
+    const handleClick = () => {
+        if (!isPlaying) {
+            playEasterEgg(eggName);
+        }
+    };
 
     const jstLocalTime = useMemo(() => getLocalTimeForUTC(17), []);
 
@@ -74,7 +101,10 @@ const ComingSoonCard = () => {
                     })}
                 </p>
             </div>
-
+            <p className="absolute md:right-22 right-26 bottom-2 -rotate-12 opacity-50 md:bottom-4 text-[10px]">
+                {/* purposely hardcoded, dont need japanese ver */}
+                click me
+            </p>
             <div
                 className="-z-10 absolute bottom-0 right-2 h-[100px] overflow-hidden"
             >
@@ -82,7 +112,16 @@ const ComingSoonCard = () => {
                     width={80}
                     height={80}
                     src="images-opt/easter-gremliz-opt.webp"
-                    className="mx-auto opacity-50 translate-y-[50%]"
+                    draggable={false}
+                    className={cn(
+                        "mx-auto opacity-50 translate-y-[50%] transition-opacity",
+                        {
+                            "cursor-pointer opacity-50 hover:opacity-80":
+                                !isPlaying,
+                            "opacity-80": isPlaying,
+                        },
+                    )}
+                    onClick={handleClick}
                     alt="potato salid"
                     priority={true}
                 />
