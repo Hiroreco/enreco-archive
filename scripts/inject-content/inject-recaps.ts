@@ -401,7 +401,9 @@ async function processChapter(chapterNum: number) {
     console.log(
         `✅ Injected bilingual recaps into site JSON: ${webPath}`,
     );
+    }
 }
+
 
 async function main() {
     const recapDataPath = path.resolve(process.cwd(), "recap-data");
@@ -439,4 +441,4 @@ async function main() {
 main().catch((err) => {
     console.error(err);
     process.exit(1);
-})};
+});
