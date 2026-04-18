@@ -54,7 +54,7 @@ function parseFanartMd(content: string): FanartEntry[] {
             filename = filenameLine.slice(0, -5).trim();
         }
 
-        if (!filename.match(/^[a-z]+-c\d+d\d+$/)) {
+        if (!filename.match(/^[a-z-]+-c\d+d\d+$/)) {
             // Not a valid filename, skip this line
             i++;
             continue;
@@ -86,7 +86,7 @@ function parseFanartMd(content: string): FanartEntry[] {
         while (
             i < lines.length &&
             lines[i].trim() !== "" &&
-            !lines[i].trim().match(/^[a-z]+-c\d+d\d+/)
+            !lines[i].trim().match(/^[a-z-]+-c\d+d\d+/)
         ) {
             const charLine = lines[i].trim();
             if (!charLine.startsWith("http")) {
@@ -140,7 +140,8 @@ async function findRecapFile(
     chapter: number,
     day: number,
 ): Promise<string | null> {
-    const recapDir = path.resolve(
+    // Try nodes directory first
+    const nodesDir = path.resolve(
         process.cwd(),
         "recap-data",
         `chapter${chapter}`,
@@ -149,16 +150,39 @@ async function findRecapFile(
     );
 
     try {
-        const files = await fs.readdir(recapDir);
+        const files = await fs.readdir(nodesDir);
         const found = files.find(
             (f) => f.startsWith(character) && f.endsWith(".md"),
         );
-        return found
-            ? path.join(recapDir, found)
-            : null;
+        if (found) {
+            return path.join(nodesDir, found);
+        }
     } catch {
-        return null;
+        // nodes directory doesn't exist, try edges
     }
+
+    // Try edges directory
+    const edgesDir = path.resolve(
+        process.cwd(),
+        "recap-data",
+        `chapter${chapter}`,
+        `day${day}`,
+        "edges",
+    );
+
+    try {
+        const files = await fs.readdir(edgesDir);
+        const found = files.find(
+            (f) => f.startsWith(character) && f.endsWith(".md"),
+        );
+        if (found) {
+            return path.join(edgesDir, found);
+        }
+    } catch {
+        // edges directory doesn't exist either
+    }
+
+    return null;
 }
 
 async function addFanartToRecap(
@@ -174,17 +198,6 @@ async function addFanartToRecap(
     // Determine which section to add to
     const sectionHeading = type === "meme" ? "## Memes" : "## Fanart";
 
-    // Find the section
-    const sectionMatch = content.match(
-        new RegExp(`^${sectionHeading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`, "m"),
-    );
-    if (!sectionMatch) {
-        console.warn(
-            `No ${sectionHeading} section found in ${recapPath}`,
-        );
-        return;
-    }
-
     // Build the new entry
     let newEntry = `\n["${title}" by ${author}](${link})`;
     if (characters.length > 0) {
@@ -192,28 +205,41 @@ async function addFanartToRecap(
         newEntry += `\n\n<!-- ${characterList} -->`;
     }
 
-    // Find where to insert - after the section heading and any existing whitespace
-    const insertPos = sectionMatch.index! + sectionMatch[0].length;
-    const afterHeading = content.slice(insertPos);
-
-    // Check if there's already content after the heading
-    const firstContentMatch = afterHeading.match(/\n(\[|##)/);
+    // Find the section
+    const sectionMatch = content.match(
+        new RegExp(`^${sectionHeading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`, "m"),
+    );
 
     let updatedContent: string;
-    if (firstContentMatch) {
-        // Insert before the first entry or next section
-        const insertAt = insertPos + firstContentMatch.index!;
-        updatedContent =
-            content.slice(0, insertAt) +
-            newEntry +
-            "\n" +
-            content.slice(insertAt);
+
+    if (sectionMatch) {
+        // Section exists - insert after heading
+        const insertPos = sectionMatch.index! + sectionMatch[0].length;
+        const afterHeading = content.slice(insertPos);
+
+        // Check if there's already content after the heading
+        const firstContentMatch = afterHeading.match(/\n(\[|##)/);
+
+        if (firstContentMatch) {
+            // Insert before the first entry or next section
+            const insertAt = insertPos + firstContentMatch.index!;
+            updatedContent =
+                content.slice(0, insertAt) +
+                newEntry +
+                "\n" +
+                content.slice(insertAt);
+        } else {
+            // Just append to end of section
+            updatedContent =
+                content.slice(0, insertPos) +
+                newEntry +
+                content.slice(insertPos);
+        }
     } else {
-        // Just append to end of section
-        updatedContent =
-            content.slice(0, insertPos) +
-            newEntry +
-            content.slice(insertPos);
+        // Section doesn't exist - create it at the end of the file
+        const endsWithNewline = content.endsWith("\n");
+        const separator = endsWithNewline ? "" : "\n";
+        updatedContent = content + separator + "\n" + sectionHeading + newEntry;
     }
 
     await fs.writeFile(recapPath, updatedContent, "utf-8");
@@ -239,7 +265,7 @@ async function main() {
 
     let addedCount = 0;
     let skippedCount = 0;
-    const processedLines = new Set<number>();
+    const successfullyAddedUrls = new Set<string>();
 
     // Process each entry
     for (const entry of entries) {
@@ -287,37 +313,20 @@ async function main() {
                 `✅ Added "${entry.title}" to ${path.basename(recapPath)}`,
             );
             addedCount++;
+            successfullyAddedUrls.add(entry.link);
         } catch (err) {
-            console.error(
-                `❌ Error adding fanart to ${recapPath}:`,
-                err,
-            );
+            const errorMsg = err instanceof Error ? err.message : String(err);
+            console.warn(`⚠️  ${errorMsg}`);
         }
     }
 
-    // Clear processed entries from fanart.md
-    if (addedCount > 0) {
+    // Clear processed entries from fanart.md (only those that were successfully added)
+    if (successfullyAddedUrls.size > 0) {
         console.log(
-            `\n🧹 Removing ${addedCount} processed entries from fanart.md...`,
+            `\n🧹 Removing ${successfullyAddedUrls.size} processed entries from fanart.md...`,
         );
 
-        // Build a set of processed URLs for quick lookup
-        const processedUrls = new Set<string>();
-        for (const entry of entries) {
-            if (
-                !existingUrls.has(entry.link) &&
-                entries.some(
-                    (e) =>
-                        e.filename === entry.filename &&
-                        e.title === entry.title &&
-                        e.link === entry.link,
-                )
-            ) {
-                processedUrls.add(entry.link);
-            }
-        }
-
-        // Re-parse and filter out processed entries
+        // Re-parse and filter out successfully processed entries
         const lines = fanartMdContent.split("\n");
         const remainingLines: string[] = [];
 
@@ -333,7 +342,7 @@ async function main() {
                 filenameLine = filenameLine.slice(0, -5).trim();
             }
 
-            if (filenameLine.match(/^[a-z]+-c\d+d\d+$/)) {
+            if (filenameLine.match(/^[a-z-]+-c\d+d\d+$/)) {
                 // This is a potential entry start
                 let link = "";
 
@@ -348,15 +357,15 @@ async function main() {
                     j++;
                 }
 
-                // If we found a link, check if it's processed
-                if (link && processedUrls.has(link)) {
+                // If we found a link, check if it was successfully processed
+                if (link && successfullyAddedUrls.has(link)) {
                     // Skip this entire entry
                     i = j + 1;
                     // Skip any following character lines
                     while (
                         i < lines.length &&
                         lines[i].trim() !== "" &&
-                        !lines[i].trim().match(/^[a-z]+-c\d+d\d+/)
+                        !lines[i].trim().match(/^[a-z-]+-c\d+d\d+/)
                     ) {
                         i++;
                     }
