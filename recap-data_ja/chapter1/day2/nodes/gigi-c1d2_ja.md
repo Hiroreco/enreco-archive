@@ -23,4 +23,9 @@
 
 ## ミーム
 
-["*teleports behind you*" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
+["_teleports behind you_" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
+
+## ファンアート
+
+["Humble knight" by angartissart](https://x.com/angartissart/status/2034594597884809432)
+
