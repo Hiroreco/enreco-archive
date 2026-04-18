@@ -31,8 +31,8 @@
 
 ## ファンアート
 
-["あの日々にはもう戻れない" by StandingPlace12](https://x.com/StandingPlace12/status/1921472739644199167)
+["Can't go back to those happy days" by StandingPlace12](https://x.com/StandingPlace12/status/1921472739644199167)
 
-["この魔女の商売を助けてくれませんか？" by andrslmu](https://x.com/andrslmu/status/1920687085301756408)
+["surely you would help the business of this witch?" by andrslmu](https://x.com/andrslmu/status/1920687085301756408)
 
-["サラダの魔神よ、我が供物を受け取れ" by elskaelu](https://x.com/elskaelu/status/1918973111795359805)
+["Demon of Salad, take my offering" by elskaelu](https://x.com/elskaelu/status/1918973111795359805)

@@ -1121,20 +1121,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/blaparky/status/1831222642730516798",
-    "label": "\"The Knight Chooses Her Ruler\"",
-    "author": "blaparky",
-    "chapter": 0,
-    "day": 3,
-    "characters": [
-      "cecilia",
-      "bijou",
-      "mococo",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/seekorplatypus/status/1901233354533417049",
     "label": "\"ah gomen oomf-chan\"",
     "author": "seekorplatypus",
@@ -1230,6 +1216,20 @@
     "day": 3,
     "characters": [
       "mococo"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/blaparky/status/1831222642730516798",
+    "label": "\"The Knight (And The Dog) Chooses Her Ruler\"",
+    "author": "blaparky",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "raora",
+      "mococo",
+      "cecilia",
+      "bijou"
     ],
     "type": "art"
   },

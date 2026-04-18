@@ -23,6 +23,6 @@
 
 ## ファンアート
 
-["ゴナソンはもっと報われるべきだった" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)
+["Gonathon deserved better" by Myra](https://x.com/maybe_myra28/status/1920143568561180880)
 
 <!-- shiori, calli -->

@@ -9,7 +9,7 @@
 
 ## ファンアート
 
-["クイーン・タム・ガンドル" by OOPARTZ](https://x.com/Oopartzy/status/1902600564913139718)
+["Queen Tam Gandr" by OOPARTZ](https://x.com/Oopartzy/status/1902600564913139718)
 
 ## ミーム
 

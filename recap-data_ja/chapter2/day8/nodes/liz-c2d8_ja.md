@@ -93,7 +93,6 @@ _約束の指輪。ただそれだけ。_
 
 ## ミーム
 
-["Behind the scenes filming jumpp scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)
-
 ["This is my prediction for enreco s3" by renshifter](https://x.com/renshifter/status/2041212391791452560)
-
+
+["Behind the scenes filming jump scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)

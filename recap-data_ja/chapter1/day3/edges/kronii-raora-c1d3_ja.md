@@ -11,4 +11,4 @@
 
 ## ファンアート
 
-["第一と第二の女王の口論" by Abendago](https://x.com/Abendag0/status/1831257105069949232)
+["The first and second queen quarrel" by Abendago](https://x.com/Abendag0/status/1831257105069949232)

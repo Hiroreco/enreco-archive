@@ -29,10 +29,10 @@
 
 ## ファンアート
 
-[「新しい始まりへ」 by Floomf](https://x.com/fluumf/status/1919736845048676373)
+[To new beginnings by Floomf](https://x.com/fluumf/status/1919736845048676373)
 
 <!-- kronii -->
 
-[「MATH?」 by Roronico](https://x.com/roronico1512/status/1919844587000234488)
+[MATH? by Roronico](https://x.com/roronico1512/status/1919844587000234488)
 
 <!-- gigi, kiara, calli -->

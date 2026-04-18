@@ -12,9 +12,3 @@ But with so much free time on her hands, Cecilia’s mind began brewing somethin
 The plan? Bijou would be the key. As a princess, she held the perfect status for Cecilia’s scheme. She would gain Bijou’s trust, slowly but surely, winning her over with charm and unwavering loyalty. And once the gem maiden was completely dependent on her? Cecilia would place her on the throne and pull the strings from the shadows, controlling her like a puppet. A royal usurpation, hidden behind a façade of loyalty.
 
 If the already questionable crackhead theories about the kingdom weren’t enough to cast doubts on Cecilia’s sanity, well—this certainly would.
-
-## Fanart
-
-["The Knight Chooses Her Ruler" by BlaParky](https://x.com/BlaParky/status/1831222642730516798)
-
-<!-- bijou, mococo, raora -->

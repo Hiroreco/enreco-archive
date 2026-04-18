@@ -61,7 +61,7 @@ _「あなたは何を望んでいるの？」_
 
 ["Nerissa" by BRASILEIRoo0](https://x.com/BRASILEIROO0/status/1923024077683347585)
 
-["la vie en rose" by nino](https://x.com/2nochuu/status/192423997458383113)
+["la vie en rose" by nino](https://x.com/2nochuu/status/1924239997458383113)
 
 ["ABSOLUTE CINEMA" by seapupu](https://x.com/seapupu290495/status/1921597971465920739)
 

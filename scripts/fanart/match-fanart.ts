@@ -21,151 +21,132 @@ async function walkDir(dir: string, base: string): Promise<string[]> {
     return files;
 }
 
-const EN_FANART_HEADINGS = ["Fanart", "Fanwork", "Meme", "Memes"];
-const JA_FANART_HEADINGS = ["ファンアート", "ファンワーク", "ミーム", "ファン作品"];
+const EN_FANART_HEADINGS = ["Fanart", "Fanwork"];
+const EN_MEME_HEADINGS = ["Meme", "Memes"];
 
-function extractFanartSection(
-    text: string,
-): {
+interface Section {
     startIndex: number;
     endIndex: number;
-    lines: string[];
-}[] {
+    heading: string;
+    content: string[];
+}
+
+function extractSections(text: string): { fanart: Section | null; memes: Section | null } {
     const lines = text.split("\n");
-    const sections: Array<{
-        startIndex: number;
-        endIndex: number;
-        lines: string[];
-    }> = [];
+    let fanartSection: Section | null = null;
+    let memesSection: Section | null = null;
 
-    // Look for ## Fanart/Fanwork/Meme/Memes
     for (let i = 0; i < lines.length; i++) {
-        const headingPattern = EN_FANART_HEADINGS.join("|");
-        const headingMatch = new RegExp(`^##\\s+(${headingPattern})`, "i").test(
-            lines[i],
-        );
+        const line = lines[i];
 
-        if (headingMatch) {
-            // Get heading level to find section end
+        // Check for fanart/fanwork heading
+        const fanartMatch = new RegExp(`^##\\s+(${EN_FANART_HEADINGS.join("|")})\\s*$`, "i").test(line);
+        if (fanartMatch && !fanartSection) {
+            const heading = line.match(/^##\s+(.+?)\s*$/)?.[1] || "Fanart";
+            const levelMatch = line.match(/^(#{1,6})/);
+            const headingLevel = levelMatch ? levelMatch[1].length : 2;
+
+            let endIndex = lines.length;
+            for (let j = i + 1; j < lines.length; j++) {
+                const nextHeading = lines[j].match(/^(#{1,6})\s+/);
+                if (nextHeading && nextHeading[1].length <= headingLevel) {
+                    endIndex = j;
+                    break;
+                }
+            }
+
+            fanartSection = {
+                startIndex: i,
+                endIndex,
+                heading,
+                content: lines.slice(i + 1, endIndex),
+            };
+        }
+
+        // Check for memes heading
+        const memeMatch = new RegExp(`^##\\s+(${EN_MEME_HEADINGS.join("|")})\\s*$`, "i").test(line);
+        if (memeMatch && !memesSection) {
+            const heading = line.match(/^##\s+(.+?)\s*$/)?.[1] || "Memes";
+            const levelMatch = line.match(/^(#{1,6})/);
+            const headingLevel = levelMatch ? levelMatch[1].length : 2;
+
+            let endIndex = lines.length;
+            for (let j = i + 1; j < lines.length; j++) {
+                const nextHeading = lines[j].match(/^(#{1,6})\s+/);
+                if (nextHeading && nextHeading[1].length <= headingLevel) {
+                    endIndex = j;
+                    break;
+                }
+            }
+
+            memesSection = {
+                startIndex: i,
+                endIndex,
+                heading,
+                content: lines.slice(i + 1, endIndex),
+            };
+        }
+    }
+
+    return { fanart: fanartSection, memes: memesSection };
+}
+
+function getJapaneseHeading(enHeading: string): string {
+    const headingMap: { [key: string]: string } = {
+        fanart: "## ファンアート",
+        fanwork: "## ファンワーク",
+        meme: "## ミーム",
+        memes: "## ミーム",
+    };
+
+    const normalized = enHeading.toLowerCase();
+    return headingMap[normalized] || `## ${enHeading}`;
+}
+
+function replaceSectionInJa(jaText: string, sectionName: "fanart" | "memes", newContent: string[]): string {
+    const lines = jaText.split("\n");
+    const jaHeadings =
+        sectionName === "fanart"
+            ? ["ファンアート", "ファンワーク", "ファン作品"]
+            : ["ミーム"];
+
+    for (let i = 0; i < lines.length; i++) {
+        const pattern = new RegExp(`^##\\s+(${jaHeadings.join("|")})\\s*$`);
+        if (pattern.test(lines[i])) {
+            // Found the section heading
+            const heading = lines[i].match(/^##\s+(.+?)\s*$/)?.[1] || jaHeadings[0];
             const levelMatch = lines[i].match(/^(#{1,6})/);
             const headingLevel = levelMatch ? levelMatch[1].length : 2;
 
             // Find end of section
             let endIndex = lines.length;
             for (let j = i + 1; j < lines.length; j++) {
-                const nextHeadingMatch = lines[j].match(/^(#{1,6})\s+/);
-                if (
-                    nextHeadingMatch &&
-                    nextHeadingMatch[1].length <= headingLevel
-                ) {
+                const nextHeading = lines[j].match(/^(#{1,6})\s+/);
+                if (nextHeading && nextHeading[1].length <= headingLevel) {
                     endIndex = j;
                     break;
                 }
             }
 
-            sections.push({
-                startIndex: i,
-                endIndex,
-                lines: lines.slice(i + 1, endIndex),
-            });
+            // Replace the section content, keeping the Japanese heading
+            const newLines = [
+                ...lines.slice(0, i),
+                lines[i],
+                ...newContent,
+                ...lines.slice(endIndex),
+            ];
 
-            // Skip to end of this section
-            i = endIndex - 1;
+            return newLines.join("\n");
         }
     }
 
-    return sections;
-}
-
-function extractFanartSectionJa(text: string): {
-    startIndex: number;
-    endIndex: number;
-    lines: string[];
-}[] {
-    const lines = text.split("\n");
-    const sections: Array<{
-        startIndex: number;
-        endIndex: number;
-        lines: string[];
-    }> = [];
-
-    // Look for ## ファンアート/ファンワーク/ミーム
-    for (let i = 0; i < lines.length; i++) {
-        const headingPattern = JA_FANART_HEADINGS.join("|");
-        const headingMatch = new RegExp(`^##\\s+(${headingPattern})`).test(
-            lines[i],
-        );
-
-        if (headingMatch) {
-            // Get heading level
-            const levelMatch = lines[i].match(/^(#{1,6})/);
-            const headingLevel = levelMatch ? levelMatch[1].length : 2;
-
-            // Find end of section
-            let endIndex = lines.length;
-            for (let j = i + 1; j < lines.length; j++) {
-                const nextHeadingMatch = lines[j].match(/^(#{1,6})\s+/);
-                if (
-                    nextHeadingMatch &&
-                    nextHeadingMatch[1].length <= headingLevel
-                ) {
-                    endIndex = j;
-                    break;
-                }
-            }
-
-            sections.push({
-                startIndex: i,
-                endIndex,
-                lines: lines.slice(i + 1, endIndex),
-            });
-
-            // Skip to end of this section
-            i = endIndex - 1;
-        }
+    // Section doesn't exist, create it
+    if (!jaText.endsWith("\n")) {
+        jaText += "\n";
     }
 
-    return sections;
-}
-
-function extractUrlFromLine(line: string): string | null {
-    const match = line.match(
-        /\((https?:\/\/(?:www\.)?(?:twitter|x)\.com[^\)]+)\)/,
-    );
-    return match ? match[1].toLowerCase() : null;
-}
-
-function extractLinkWithComment(
-    lines: string[],
-    startIndex: number,
-): { lines: string[]; endIndex: number; url: string } | null {
-    const url = extractUrlFromLine(lines[startIndex]);
-    if (!url) return null;
-
-    const result: string[] = [lines[startIndex]];
-    let endIndex = startIndex + 1;
-
-    // Scan forward for blank lines and comments
-    while (endIndex < lines.length) {
-        const trimmed = lines[endIndex].trim();
-        
-        // Add blank lines
-        if (trimmed === "") {
-            result.push(lines[endIndex]);
-            endIndex++;
-        } 
-        // Add HTML comments
-        else if (trimmed.startsWith("<!--") && trimmed.endsWith("-->")) {
-            result.push(lines[endIndex]);
-            endIndex++;
-        } 
-        // Stop at any other content
-        else {
-            break;
-        }
-    }
-
-    return { lines: result, endIndex, url };
+    const heading = sectionName === "fanart" ? "## ファンアート" : "## ミーム";
+    return jaText + "\n" + heading + "\n" + newContent.join("\n");
 }
 
 async function main() {
@@ -181,13 +162,12 @@ async function main() {
     }
 
     let updated = 0;
-    let created = 0;
     let skipped = 0;
     let notFound = 0;
 
     for (const enFile of mdFiles) {
         const relPath = path.relative(enBase, enFile);
-      
+
         const jaFile = path.join(jaBase, relPath.replace(/\.md$/, "_ja.md"));
 
         // Check if Japanese file exists
@@ -202,101 +182,38 @@ async function main() {
         // Read English file
         const enText = await fs.readFile(enFile, "utf-8");
 
-        // Extract all fanart/meme sections
-        const enSections = extractFanartSection(enText);
-        if (enSections.length === 0) {
-            continue; // No fanart sections in English file
-        }
+        // Extract sections from English
+        const { fanart: enFanart, memes: enMemes } = extractSections(enText);
 
-        const jaSections = extractFanartSectionJa(jaText);
-
-        // Collect all entries (link + comment) from English sections
-        const enEntries = new Map<
-            string,
-            { lines: string[]; originalIndex: number }
-        >();
-        for (const section of enSections) {
-            let i = 0;
-            let originalIndex = 0;
-            while (i < section.lines.length) {
-                const linkEntry = extractLinkWithComment(section.lines, i);
-                if (linkEntry) {
-                    enEntries.set(linkEntry.url, {
-                        lines: linkEntry.lines,
-                        originalIndex,
-                    });
-                    i = linkEntry.endIndex;
-                    originalIndex = i;
-                } else {
-                    i++;
-                    originalIndex = i;
-                }
-            }
-        }
-
-        // Collect all URLs from Japanese sections (for comparison)
-        const jaUrls = new Set<string>();
-        for (const section of jaSections) {
-            let i = 0;
-            while (i < section.lines.length) {
-                const linkEntry = extractLinkWithComment(section.lines, i);
-                if (linkEntry) {
-                    jaUrls.add(linkEntry.url);
-                    i = linkEntry.endIndex;
-                } else {
-                    i++;
-                }
-            }
-        }
-
-        // Find missing entries
-        const missingEntries: string[] = [];
-        for (const [url, entry] of enEntries) {
-            if (!jaUrls.has(url)) {
-                missingEntries.push(...entry.lines);
-            }
-        }
-
-        if (missingEntries.length === 0) {
+        if (!enFanart && !enMemes) {
             skipped++;
-            continue;
+            continue; // No fanart/meme sections in English file
         }
 
         // Update Japanese file
-        const jaLines = jaText.split("\n");
+        let updatedJaText = jaText;
 
-        if (jaSections.length === 0) {
-            // No fanart sections exist, create one at the end
-            if (jaLines[jaLines.length - 1] !== "") {
-                jaLines.push("");
-            }
-            jaLines.push("## ファンアート", "", ...missingEntries);
-            console.log(
-                `+ ${relPath} - created ファンアート section with ${enEntries.size} link${enEntries.size !== 1 ? "s" : ""}`,
-            );
-            created++;
-        } else {
-            // Add missing entries to the last fanart section
-            const lastSection = jaSections[jaSections.length - 1];
-            // Add blank line separator if not already there
-            const insertLines =
-                jaLines[lastSection.endIndex - 1] === ""
-                    ? missingEntries
-                    : ["", ...missingEntries];
-            jaLines.splice(lastSection.endIndex, 0, ...insertLines);
-            console.log(
-                `✓ ${relPath} - added ${Math.round(missingEntries.length / 2)} missing link${Math.round(missingEntries.length / 2) !== 1 ? "s" : ""}`,
-            );
-            updated++;
+        if (enFanart && enFanart.content.length > 0) {
+            updatedJaText = replaceSectionInJa(updatedJaText, "fanart", enFanart.content);
         }
 
-        await fs.writeFile(jaFile, jaLines.join("\n"), "utf-8");
+        if (enMemes && enMemes.content.length > 0) {
+            updatedJaText = replaceSectionInJa(updatedJaText, "memes", enMemes.content);
+        }
+
+        // Only write if there were changes
+        if (updatedJaText !== jaText) {
+            await fs.writeFile(jaFile, updatedJaText, "utf-8");
+            console.log(`✓ ${relPath}`);
+            updated++;
+        } else {
+            skipped++;
+        }
     }
 
     console.log(`\n✅ Summary:`);
     console.log(`   Updated: ${updated}`);
-    console.log(`   Created: ${created}`);
-    console.log(`   Skipped (already complete): ${skipped}`);
+    console.log(`   Skipped (no changes): ${skipped}`);
     console.log(`   Not found (Japanese file): ${notFound}`);
 }
 

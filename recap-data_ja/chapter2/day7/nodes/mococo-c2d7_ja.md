@@ -30,3 +30,5 @@
 ## ファンアート
 
 ["CONGRATS! IT'S ~~A GIRL~~ DEAD" by iry](https://x.com/iryry_a/status/1921139006986678434)
+
+<!-- bijou, shiori, bae -->

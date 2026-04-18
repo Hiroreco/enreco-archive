@@ -66,8 +66,6 @@
 
 <!-- calli -->
 
-["they really did the thing" by Lamebo](https://x.com/Lambo_ide/status/1921054453525794966)
+["they really did the thing" by Lamebo](https://x.com/Lambo_ide/status/1921054453525794986)
 
 <!-- ina, calli -->
-
-["they really did the thing" by Lamebo](https://x.com/Lambo_ide/status/1921054453525794986)

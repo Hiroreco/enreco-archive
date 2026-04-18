@@ -18,3 +18,7 @@
 ## ファンアート
 
 ["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)
+
+## ミーム
+
+["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)

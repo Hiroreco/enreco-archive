@@ -27,6 +27,10 @@
 
 ## ファンアート
 
+["potato salad" by gantochir_vtu](https://x.com/gantochir_vtu/status/2017770291951469014)
+
+<!-- liz, nerissa -->
+
 ["the hero's most powerful spell (physical)" by kshut](https://x.com/shutowl/status/1919994120837177491)
 
 ["HAVE A TASTE OF MY BOOK" by The Retch](https://x.com/aFookinRetch/status/1921997300240425214)
@@ -34,7 +38,3 @@
 ["eh?-" by Younhand](https://x.com/Youn_hand/status/1918831922362413460)
 
 ["NinoIna 'The Hero'" by Ao](https://x.com/A0S0L/status/1919050797020479947)
-
-["potato salad" by gantochir_vtu](https://x.com/gantochir_vtu/status/2017770291951469014)
-
-<!-- liz, nerissa -->

@@ -37,7 +37,7 @@
 
 ["BloodRaven" by Keisea](https://x.com/Keiseeaaa/status/1831435229753700756)
 
-["The devil whispers, and another suffers." by Akkanen](https://x.com/__akkanen/status/183173278502928847)
+["The devil whispers, and another suffers." by Akkanen](https://x.com/__akkanen/status/1831732785029288447)
 
 <!-- gigi -->
 
@@ -46,5 +46,3 @@
 ["too bad you're a witch" by Mr. Joeboto](https://x.com/LordJoeboto/status/1833057528063668313)
 
 <!-- ame, gigi -->
-
-["The devil whispers, and another suffers." by Akkanen](https://x.com/__akkanen/status/1831732785029288447)

@@ -23,4 +23,4 @@
 
 ## ミーム
 
-["_teleports behind you_" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
+["*teleports behind you*" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
