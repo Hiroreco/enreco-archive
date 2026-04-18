@@ -26,3 +26,5 @@
 ["ENdless journey" by LAW](https://x.com/laaaw444/status/1902474971496227083)
 
 ["revelation" by L_YTH](https://x.com/lost_yth/status/1901898510058078427)
+
+["ENreco Ina" by takomonty](https://x.com/takomonty/status/2016921946131148835)

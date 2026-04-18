@@ -187,6 +187,7 @@ async function main() {
 
     for (const enFile of mdFiles) {
         const relPath = path.relative(enBase, enFile);
+      
         const jaFile = path.join(jaBase, relPath.replace(/\.md$/, "_ja.md"));
 
         // Check if Japanese file exists
