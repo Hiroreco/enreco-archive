@@ -97,8 +97,6 @@ const DayRecapCard = ({
                 <TabsContent value="general" className="flex-1" asChild>
                     <RecapCard
                         dayRecap={dayRecap}
-                        onEdgeLinkClicked={() => {}}
-                        onNodeLinkClicked={() => {}}
                         day={day}
                         numberOfDays={chapterData.numberOfDays}
                         onDayChange={onDayChange}

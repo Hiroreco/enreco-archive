@@ -3,8 +3,6 @@ import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import ProgressBar from "@/components/view/chart-cards/ProgressBar";
 import CardFanartCarousel from "@/components/view/chart-cards/CardFanartCarousel";
 import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-utils";
-import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
-import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef, useMemo } from "react";
@@ -12,8 +10,6 @@ import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavi
 
 interface Props {
     dayRecap: string;
-    onNodeLinkClicked: NodeLinkClickHandler;
-    onEdgeLinkClicked: EdgeLinkClickHandler;
     day: number;
     numberOfDays: number;
     onDayChange: (newDay: number) => void;
@@ -21,8 +17,6 @@ interface Props {
 
 const RecapCard = ({
     dayRecap,
-    onNodeLinkClicked,
-    onEdgeLinkClicked,
     day,
     numberOfDays,
     onDayChange,
@@ -59,8 +53,6 @@ const RecapCard = ({
                         transition={{ duration: 0.3 }}
                     >
                         <ViewMarkdown
-                            onNodeLinkClicked={onNodeLinkClicked}
-                            onEdgeLinkClicked={onEdgeLinkClicked}
                             className="md:px-4 px-2"
                         >
                             {contentWithoutFanart || "No content available."}
