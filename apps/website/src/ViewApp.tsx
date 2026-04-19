@@ -31,7 +31,7 @@ import {
     Settings,
     BarChart3,
 } from "lucide-react";
-import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
+import VaulDrawer, { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
 import ChapterRecapModalContainer from "@/components/view/utility-modals/ChapterRecapModalContainer";
 
@@ -55,6 +55,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
 import { AnimatePresence, motion } from "framer-motion";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -184,6 +185,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const siteData = getSiteData();
     const chapterData = getChapter(chapter);
     const dayData = chapterData.charts[day];
+
+    const isMobile = useIsMobileViewport();
 
     /* Build complete nodes/edges by combining data from previous days and current app state. */
     const completeData = useCompleteChartData();
@@ -330,6 +333,18 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         [chartShrink],
     );
 
+    const onDrawerOpenChange = useCallback((newOpenState: boolean) => {
+        if (!newOpenState) {
+            onCardClose();
+        }
+    }, [onCardClose]);
+
+    const handleCardWidthChange = useCallback((width: number) => {
+        if (currentCard !== null && !isMobile) {
+            setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
+        }
+    }, [currentCard, isMobile]);
+
     useEffect(() => {
         if (!hasVisitedBefore && !isInLoadingScreen) {
             openInfoModal();
@@ -365,6 +380,53 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
 
     const fanartModalKey = `${selectedElement?.id ?? "default"}-${chapter}-${day}`;
+
+    const cardContent = (() => {
+        switch (currentCard) {
+            case "node":
+                if (selectedElement === null || !isNode(selectedElement)) {
+                    throw new Error("Tried to open node card without a selected node.");
+                }
+
+                return (
+                    <NodeCard
+                        selectedNode={selectedElement as ImageNodeType}
+                        onNodeLinkClicked={onNodeClick}
+                        onEdgeLinkClicked={onEdgeClick}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
+                );
+            case "edge":
+                if(selectedElement === null || !isEdge(selectedElement)) {
+                    throw new Error("Tried to open edge card without a selected edge.")
+                }
+
+                return (
+                    <EdgeCard
+                        selectedEdge={selectedElement as FixedEdgeType}
+                        onNodeLinkClicked={onNodeClick}
+                        onEdgeLinkClicked={onEdgeClick}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
+                );
+            case "setting":
+                return (
+                    <DayRecapCard
+                        dayRecap={dayData.dayRecap}
+                        chapterData={chapterData}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
+                );
+            default:
+                return null;
+        }
+    })()
 
     return (
         <>
@@ -403,38 +465,15 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         }}
                     />
                 </AnimatePresence>
-                <DayRecapCard
-                    isCardOpen={currentCard === "setting"}
-                    onCardClose={onCardClose}
-                    dayRecap={dayData.dayRecap}
-                    chapterData={chapterData}
-                    setChartShrink={setChartShrinkAndFit}
-                    onDayChange={(newDay) => {
-                        changeWorkingData(chapter, newDay);
-                    }}
-                />
 
-                <NodeCard
-                    isCardOpen={currentCard === "node"}
-                    onCardClose={onCardClose}
-                    onNodeLinkClicked={onNodeClick}
-                    onEdgeLinkClicked={onEdgeClick}
-                    onDayChange={(newDay) => {
-                        changeWorkingData(chapter, newDay);
-                    }}
-                    setChartShrink={setChartShrinkAndFit}
-                />
-
-                <EdgeCard
-                    isCardOpen={currentCard === "edge"}
-                    onCardClose={onCardClose}
-                    onNodeLinkClicked={onNodeClick}
-                    onEdgeLinkClicked={onEdgeClick}
-                    onDayChange={(newDay) => {
-                        changeWorkingData(chapter, newDay);
-                    }}
-                    setChartShrink={setChartShrinkAndFit}
-                />
+                <VaulDrawer
+                    open={currentCard !== null}
+                    onOpenChange={onDrawerOpenChange}
+                    onWidthChange={handleCardWidthChange}
+                    disableScrollablity={false}
+                >
+                    {cardContent}
+                </VaulDrawer>
             </div>
 
             <ChangelogModal
