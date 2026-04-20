@@ -501,7 +501,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     })}
                 </button>
                 <button
-                    className="py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] flex items-center justify-center gap-2"
+                    // TODO: Hiding this for now, show it when chapter 3 starts
+                    className="hidden py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] items-center justify-center gap-2"
                     onClick={openStatsModal}
                     title="Stats"
                 >
