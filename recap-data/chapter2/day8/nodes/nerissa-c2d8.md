@@ -57,7 +57,7 @@ Would this coven be just another harmless faction? Or would they be a threat to 
 
 (see [Iphania-Outlander](#edge:iphania-outlander))
 
-## Fan Arts
+## Fanart
 
 ["Nerissa" by BRASILEIRoo0](https://x.com/BRASILEIROO0/status/1923024077683347585)
 

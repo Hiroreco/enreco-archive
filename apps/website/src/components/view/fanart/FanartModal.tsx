@@ -119,7 +119,7 @@ const FanartModal = ({
     const viewerBg = useMemo(() => {
         return (
             CHARACTER_ICON_MAP[
-                selectedCharacters[selectedCharacters.length - 1]
+            selectedCharacters[selectedCharacters.length - 1]
             ] || "node-lore-opt.webp"
         );
     }, [selectedCharacters]);
@@ -388,7 +388,7 @@ const FanartModal = ({
             scrollingDown &&
             !isHeaderCollapsed &&
             Math.abs(currentScrollTop - lastScrollTop.current) >
-                scrollTopCollapseThreshold
+            scrollTopCollapseThreshold
         ) {
             setIsHeaderCollapsed(true);
         }
@@ -614,7 +614,7 @@ const FanartModal = ({
 
     // This is probably not React-friendly but I honestly can't think of a better to do this for now.
     useEffect(() => {
-        if(selectedElement !== null) {
+        if (selectedElement !== null) {
             if (currentCard === "edge" && isEdge(selectedElement)) {
                 const { source, target } = selectedElement;
                 setSelectedCharacters([source, target]);

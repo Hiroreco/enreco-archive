@@ -81,7 +81,7 @@
 
 ["Chapter 2" by BunBBun](https://x.com/BunBBun1/status/1922478064446902631)
 
-<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora, iphania -->
 
 ["Who's with us?" by Haaro](https://x.com/haaro_69/status/1922034045124223411)
 
@@ -114,3 +114,4 @@
 ["Enigmatic Recollection: Chains Of Fate (2007)" by EmicoOtero](https://x.com/EmicoOtero/status/1921417355772522542)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
+

@@ -1,4 +1,3 @@
-import siteMeta from "#/metadata.json";
 import {
     Chapter,
     ChapterRecapData,
@@ -11,9 +10,10 @@ import {
     TextData
 } from "@enreco-archive/common/types";
 
+import siteMeta from "#/recaps/metadata.json";
 import chapter0 from "#/recaps/chapter0.json";
 import chapter1 from "#/recaps/chapter1.json";
-// import chapter2 from "#/chapter2.json";
+import chapter2 from "#/recaps/chapter2.json";
 
 import text from "#/text.json";
 
@@ -163,7 +163,12 @@ const convertLocalizedChapterRecaps = (
 };
 
 // Convert localized chapter to locale-specific format
-const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Chapter => {
+const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chapterIndex: number): Chapter => {
+    const chapterPrefix = `ch${chapterIndex}-`;
+    
+    // Create a map of original node IDs to namespaced IDs for edge reference updates
+    const nodeIdMap = new Map<string, string>();
+    
     return {
         numberOfDays: chapter.numberOfDays,
         title: chapter.title[locale],
@@ -171,30 +176,44 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Cha
             dayRecap: chart.dayRecap[locale],
             title: chart.title[locale],
             nodes: chart.nodes.map((node: any) => {
+                const newId = `${chapterPrefix}${node.id}`;
+                nodeIdMap.set(node.id, newId);
+                
+                const processedNode = {
+                    ...node,
+                    // Namespace node IDs by chapter to prevent collisions and match with namespaced edges
+                    id: newId,
+                };
+                
                 // Extract locale-specific node content if it's localized
                 if (node.data?.content && typeof node.data.content === 'object' && node.data.content[locale]) {
-                    return {
-                        ...node,
-                        data: {
-                            ...node.data,
-                            content: node.data.content[locale],
-                        },
+                    processedNode.data = {
+                        ...node.data,
+                        content: node.data.content[locale],
                     };
                 }
-                return node;
+                
+                return processedNode;
             }),
             edges: chart.edges.map((edge: any) => {
+                const processedEdge = {
+                    ...edge,
+                    // Namespace edge IDs by chapter to prevent SVG marker collision
+                    id: `${chapterPrefix}${edge.id}`,
+                    // Update source and target to use namespaced node IDs
+                    source: `${chapterPrefix}${edge.source}`,
+                    target: `${chapterPrefix}${edge.target}`,
+                };
+                
                 // Extract locale-specific edge content if it's localized
                 if (edge.data?.content && typeof edge.data.content === 'object' && edge.data.content[locale]) {
-                    return {
-                        ...edge,
-                        data: {
-                            ...edge.data,
-                            content: edge.data.content[locale],
-                        },
+                    processedEdge.data = {
+                        ...edge.data,
+                        content: edge.data.content[locale],
                     };
                 }
-                return edge;
+                
+                return processedEdge;
             }),
         })),
         teams: chapter.teams,
@@ -204,64 +223,40 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale): Cha
     };
 };
 
+// Factory function to create locale-specific data
+const createLocalizedData = (locale: Locale): LocalizedData => ({
+    chapters: [
+        convertLocalizedChapter(chapter0 as LocalizedChapter, locale, 0),
+        convertLocalizedChapter(chapter1 as LocalizedChapter, locale, 1),
+        convertLocalizedChapter(chapter2 as LocalizedChapter, locale, 2),
+    ],
+    textData: text as TextData,
+    glossary: convertLocalizedGlossary(
+        {
+            weapons: weapons as any,
+            characters: characters as any,
+            lore: lore as any,
+            quests: quests as any,
+            misc: misc as any,
+        } as any,
+        locale,
+    ) as any,
+    songs: transformSongs(songs_raw as Record<string, SongRaw[]>, locale),
+    chapterRecap: convertLocalizedChapterRecaps(
+        chapterRecaps as LocalizedChapterRecapData,
+        locale,
+    ),
+    changelogs: convertLocalizedChangelogs(changelogs as any, locale),
+    recollectionArchive: convertLocalizedRecollectionArchive(
+        media_archive as any,
+        locale,
+    ) as RecollectionArchiveEntry[],
+    fanficData: fanfic_data_en,
+});
+
 const DATA: Record<Locale, LocalizedData> = {
-    en: {
-        chapters: [
-            convertLocalizedChapter(chapter0 as LocalizedChapter, "en"),
-            convertLocalizedChapter(chapter1 as LocalizedChapter, "en"),
-            // convertLocalizedChapter(chapter2_combined as LocalizedChapter, "en"),
-        ],
-        textData: text as TextData,
-        glossary: convertLocalizedGlossary(
-            {
-                weapons: weapons as any,
-                characters: characters as any,
-                lore: lore as any,
-                quests: quests as any,
-                misc: misc as any,
-            } as any,
-            "en",
-        ) as any,
-        songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "en"),
-        chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps as LocalizedChapterRecapData,
-            "en",
-        ),
-        changelogs: convertLocalizedChangelogs(changelogs as any, "en"),
-        recollectionArchive: convertLocalizedRecollectionArchive(
-            media_archive as any,
-            "en",
-        ) as RecollectionArchiveEntry[],
-        fanficData: fanfic_data_en,
-    },
-    ja: {
-        chapters: [
-            convertLocalizedChapter(chapter0 as LocalizedChapter, "ja"),
-            convertLocalizedChapter(chapter1 as LocalizedChapter, "ja"),
-        ],
-        textData: text as TextData,
-        glossary: convertLocalizedGlossary(
-            {
-                weapons: weapons as any,
-                characters: characters as any,
-                lore: lore as any,
-                quests: quests as any,
-                misc: misc as any,
-            } as any,
-            "ja",
-        ) as any,
-        songs: transformSongs(songs_raw as Record<string, SongRaw[]>, "ja"),
-        chapterRecap: convertLocalizedChapterRecaps(
-            chapterRecaps as LocalizedChapterRecapData,
-            "ja",
-        ),
-        changelogs: convertLocalizedChangelogs(changelogs as any, "ja"),
-        recollectionArchive: convertLocalizedRecollectionArchive(
-            media_archive as any,
-            "ja",
-        ) as RecollectionArchiveEntry[],
-        fanficData: fanfic_data_en,
-    },
+    en: createLocalizedData("en"),
+    ja: createLocalizedData("ja"),
 };
 
 export const getChapterData = (

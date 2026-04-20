@@ -115,12 +115,10 @@
 
 ["Witch" by yuri_kyanon](https://x.com/yuri_kyanon/status/1921582803809886659)
 
-["My reflection is that of a forgotten stranger" by Eli](https://x.com/Elisbian_/status/1920609369328079165)
+["My reflection is that of a forgotten stranger" by Eli](https://x.com/Elisbian_/status/1920609369328079156)
 
 ["The one they call The Witch" by Hexcaster1636](https://x.com/lancaster_1636/status/1924872752890077294)
 
 ["rkgk" by Magho](https://x.com/M_Agho/status/1920808679089009020)
 
 ["Nothing stays pure" by ArizaZarigueya](https://x.com/Hanaswing/status/1921134059658330192)
-
-["My reflection is that of a forgotten stranger" by Eli](https://x.com/Elisbian_/status/1920609369328079156)

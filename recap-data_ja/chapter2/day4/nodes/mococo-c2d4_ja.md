@@ -42,3 +42,5 @@
 ## ファンアート
 
 ["mococo therapy tomorrow" by keenbiscuit](https://x.com/keenbiscuit/status/1920469031976661247)
+
+<!-- gigi, bijou, kronii, irys, kiara, bae, calli -->

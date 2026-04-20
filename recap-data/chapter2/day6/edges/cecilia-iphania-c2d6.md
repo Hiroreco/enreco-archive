@@ -34,7 +34,7 @@ Two days remained.
 
 And in those two days, Cecilia would wait—for an answer, for hope, for the love she still so desperately wished to be returned.
 
-## Fanart from Music Video
+## Art from Music Video
 
 Note from the Legend of Immerkind Archiver: Thank you so much everyone for all your hard work in creating beautiful fanart for the story Cecilia is telling. The story was made more colorful with your hard work and kindness!
 

@@ -17,6 +17,8 @@ Elizabeth placed it next to Nerissa’s. Frame by frame, the two stood side by s
 
 ## Fanart
 
+["i miss enreco" by cressentiaqin](https://x.com/cressentiaqin/status/2044763504205562065)
+
 [Hug by Puniki](https://x.com/Puniki_XIV/status/1926153741314478419)
 
 ["Tranquil Times" by pawchie](https://x.com/paw_chie/status/1925982006686503291)

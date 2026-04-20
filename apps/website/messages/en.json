@@ -426,6 +426,12 @@
         "section": "Section {val}",
         "ok": "Got it!"
     },
+    "apps": {
+        "chart": "Chart",
+        "glossary": "Glossary",
+        "mediaArchive": "Media",
+        "bingo": "Bingo"
+    },
     "navTooltips": {
         "dayRecapVisibility": "Day Recap/Visibility",
         "info": "Info",
@@ -637,6 +643,11 @@
     },
     "comingSoonCard": {
         "text1": "<bold>Chapter 3: Broken Bonds</bold> updates will be here as the event happens!",
-        "text2": "To be up to date, you can check out more news and announcements <link>here.</link>"
+        "text2": "To be up to date, you can check out more news and announcements <link>here.</link>",
+        "updateSchedule": "Daily updates are planned at:",
+        "jstTime": "2:00 AM",
+        "pstTime": "10:00 AM",
+        "localTimezone": "For you",
+        "note": "Note that updates may not always be exactly at the scheduled time due to various factors, but we will do our best to keep them consistent!"
     }
 }

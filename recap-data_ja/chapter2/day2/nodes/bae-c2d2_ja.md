@@ -25,4 +25,4 @@
 
 ## ファンアート
 
-["Meanwhile ペイザン・ザ・ベイ" by Yume](https://x.com/Yume_ato29/status/1919498300232982554)
+["Meanwhile Peasant The Bae" by Yume](https://x.com/Yume_ato29/status/1919498300232982554)

@@ -1,5 +1,6 @@
 import { FixedEdgeType } from "@enreco-archive/common/types";
 import { useSettingStore } from "@/store/settingStore";
+import { useViewStore } from "@/store/viewStore";
 
 import { ReactNode, useCallback, useContext } from "react";
 
@@ -23,6 +24,7 @@ export default function EdgeLink({
     onEdgeLinkClick,
 }: EdgeLinkProps) {
     const { edges } = useCompleteChartData();
+    const chapter = useViewStore((state) => state.chapter);
     const relationships = useCurrentRelationships();
 
     // The previous method of tracking the theme based on the document object
@@ -30,11 +32,14 @@ export default function EdgeLink({
     const theme = useSettingStore((state) => state.themeType);
     const isDarkMode = useLightDarkModeSwitcher(theme);
 
-    let edge = edges.find((e) => e.id === edgeId);
+    // Prepend chapter prefix to match namespaced edge IDs
+    const namespacedEdgeId = `ch${chapter}-${edgeId}`;
+
+    let edge = edges.find((e) => e.id === namespacedEdgeId);
     if (!edge) {
         // id is sourceA-sourceB, so swap it if not found
-        edgeId = edgeId.split("-").reverse().join("-");
-        edge = edges.find((e) => e.id === edgeId);
+        const swappedId = `ch${chapter}-${edgeId.split("-").reverse().join("-")}`;
+        edge = edges.find((e) => e.id === swappedId);
     }
 
     const edgeLinkHandler = useCallback(() => {

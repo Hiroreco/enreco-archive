@@ -35,10 +35,14 @@ import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/Va
 
 import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModal";
 
+import newsDataEn from "#/news.json";
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
+import NewsModal from "@/components/view/basic-modals/NewsModal";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
 import { StatsModal } from "@/components/view/stats/StatsModal";
+import ComingSoonCard from "@/components/view/other/ComingSoonCard";
+import CountdownCard from "@/components/view/other/CountdownCard";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -50,11 +54,7 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
-import NewsModal from "@/components/view/basic-modals/NewsModal";
-import newsDataEn from "#/news.json";
-import BingoIndicator from "./components/view/minigames/bingo/BingoIndicator";
-import CountdownCard from "@/components/view/other/CountdownCard";
-import ComingSoonCard from "@/components/view/other/ComingSoonCard";
+import { AnimatePresence, motion } from "framer-motion";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -173,9 +173,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
     const setHasVisitedBefore = usePersistedViewStore(
         (state) => state.setHasVisitedBefore,
-    );
-    const hasDismissedBingoIndicator = usePersistedViewStore(
-        (state) => state.hasDismissedBingoIndicator,
     );
 
     /* State variables */
@@ -382,23 +379,30 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 )}
                 {/* Coming soon card, shown for chapter 3 only */}
                 {chapter > 1 && <ComingSoonCard />}
-                <div
-                    className={cn(
-                        "absolute top-0 left-0 w-screen h-full -z-10",
-                        {
-                            "brightness-90 dark:brightness-70":
-                                currentCard !== null,
-                            "brightness-100": currentCard === null,
-                        },
-                    )}
-                    style={{
-                        backgroundImage: `url('${bgImage}')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s, background-image 0.3s",
-                    }}
-                />
+                <AnimatePresence mode="sync">
+                    <motion.div
+                        key={bgImage}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className={cn(
+                            "absolute top-0 left-0 w-screen h-full -z-10",
+                            {
+                                "brightness-90 dark:brightness-70":
+                                    currentCard !== null,
+                                "brightness-100": currentCard === null,
+                            },
+                        )}
+                        style={{
+                            backgroundImage: `url('${bgImage}')`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            transition: "brightness 0.5s",
+                        }}
+                    />
+                </AnimatePresence>
                 <DayRecapCard
                     isCardOpen={currentCard === "setting"}
                     onCardClose={onCardClose}
@@ -653,27 +657,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
             </div>
-            {!hasDismissedBingoIndicator && (
-                <BingoIndicator
-                    className={cn(
-                        "md:hidden fixed bottom-18 left-1/2 w-fit -translate-x-1/2 opacity-60",
-                        {
-                            invisible: currentCard !== null,
-                        },
-                    )}
-                />
-            )}
 
-            {!hasDismissedBingoIndicator && (
-                <BingoIndicator
-                    className={cn(
-                        "md:block hidden fixed top-1/2 left-0 rotate-90 -translate-x-1/3 -translate-y-1/2 ",
-                        {
-                            invisible: currentCard !== null,
-                        },
-                    )}
-                />
-            )}
             <CountdownCard isInLoadingScreen={isInLoadingScreen} />
         </>
     );

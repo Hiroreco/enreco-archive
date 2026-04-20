@@ -104,6 +104,9 @@ async function main() {
         type: "art" | "meme";
     }> = [];
 
+    // Track which files have which URLs for duplicate detection
+    const urlToFiles = new Map<string, string[]>();
+
     // matches [label](https://twitter.com/USER/status/123...) or x.com
     const LINK_RE =
         /\[([^\]]+)\]\((https?:\/\/(?:www\.)?(?:twitter|x)\.com)\/([^\/]+)(\/status\/\d+[^\)]*)\)/g;
@@ -149,9 +152,18 @@ async function main() {
                 continue;
             }
 
-            // Skip if link already exists
+            // Check for duplicates
             if (linkEntries.some((entry) => entry.url === url)) {
-                console.log(`Skipping duplicate URL: ${url}`);
+                const existingFiles = urlToFiles.get(url) || [];
+                console.warn(
+                    `⚠️  Duplicate URL found: ${url}`,
+                );
+                console.warn(
+                    `   First seen in: ${existingFiles[0]}`,
+                );
+                console.warn(
+                    `   Also found in: ${rel}`,
+                );
                 continue;
             }
 
@@ -178,6 +190,12 @@ async function main() {
                 characters: finalCharacters,
                 type,
             });
+
+            // Track which file this URL came from
+            if (!urlToFiles.has(url)) {
+                urlToFiles.set(url, []);
+            }
+            urlToFiles.get(url)!.push(rel);
         }
     }
     // write out
@@ -190,8 +208,25 @@ async function main() {
     await fs.mkdir(path.dirname(outPath), { recursive: true });
     await fs.writeFile(outPath, JSON.stringify(linkEntries, null, 2), "utf-8");
 
+    // Report any duplicates found
+    const duplicateUrls = Array.from(urlToFiles.entries()).filter(
+        ([, files]) => files.length > 1,
+    );
+
+    if (duplicateUrls.length > 0) {
+        console.log(
+            `\n⚠️  Found ${duplicateUrls.length} URL(s) in multiple files:`,
+        );
+        for (const [url, files] of duplicateUrls) {
+            console.log(`   ${url}`);
+            files.forEach((file, idx) => {
+                console.log(`     ${idx + 1}. ${file}`);
+            });
+        }
+    }
+
     console.log(
-        `✅ Extracted ${linkEntries.length} Twitter/X links to ${outPath}`,
+        `\n✅ Extracted ${linkEntries.length} Twitter/X links to ${outPath}`,
     );
 }
 

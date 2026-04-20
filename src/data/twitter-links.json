@@ -669,8 +669,19 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/angartissart/status/2034594597884809432",
+    "label": "\"Humble knight\"",
+    "author": "angartissart",
+    "chapter": 0,
+    "day": 1,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/kazukiich/status/1831250639596483048",
-    "label": "\"*teleports behind you*\"",
+    "label": "\"_teleports behind you_\"",
     "author": "kazukiich",
     "chapter": 0,
     "day": 1,
@@ -1121,20 +1132,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/blaparky/status/1831222642730516798",
-    "label": "\"The Knight Chooses Her Ruler\"",
-    "author": "blaparky",
-    "chapter": 0,
-    "day": 3,
-    "characters": [
-      "cecilia",
-      "bijou",
-      "mococo",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/seekorplatypus/status/1901233354533417049",
     "label": "\"ah gomen oomf-chan\"",
     "author": "seekorplatypus",
@@ -1230,6 +1227,20 @@
     "day": 3,
     "characters": [
       "mococo"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/blaparky/status/1831222642730516798",
+    "label": "\"The Knight (And The Dog) Chooses Her Ruler\"",
+    "author": "blaparky",
+    "chapter": 0,
+    "day": 3,
+    "characters": [
+      "raora",
+      "mococo",
+      "cecilia",
+      "bijou"
     ],
     "type": "art"
   },
@@ -1664,6 +1675,18 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/madchaco/status/2038949440107819156",
+    "label": "\"We still talk about you\"",
+    "author": "madchaco",
+    "chapter": 0,
+    "day": 6,
+    "characters": [
+      "kronii",
+      "raora"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/itszenvy/status/1880388590880059420",
     "label": "\"Queens\"",
     "author": "itszenvy",
@@ -1880,6 +1903,18 @@
     "day": 6,
     "characters": [
       "moom"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/yeyas_ink/status/2032144795997774291",
+    "label": "\"Gonathon and Jyan Watson\"",
+    "author": "yeyas_ink",
+    "chapter": 0,
+    "day": 7,
+    "characters": [
+      "ame",
+      "gigi"
     ],
     "type": "art"
   },
@@ -3041,6 +3076,19 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/gantochir_vtu/status/2017770291951469014",
+    "label": "\"potato salad\"",
+    "author": "gantochir_vtu",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "ina",
+      "liz",
+      "nerissa"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/shutowl/status/1919994120837177491",
     "label": "\"the hero's most powerful spell (physical)\"",
     "author": "shutowl",
@@ -3153,8 +3201,19 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/hikienlaventana/status/2019130083584385302",
+    "label": "\"Elizabeth\"",
+    "author": "hikienlaventana",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "liz"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/renshifter/status/1902036192822247870",
-    "label": "\"Prediction for enreco s2\" byy Ren",
+    "label": "\"Prediction for enreco s2\"",
     "author": "renshifter",
     "chapter": 1,
     "day": 0,
@@ -3182,6 +3241,17 @@
     "day": 0,
     "characters": [
       "mococo"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/hanasnom/status/2044931397253525849",
+    "label": "\"Enreco but photocards\"",
+    "author": "hanasnom",
+    "chapter": 1,
+    "day": 0,
+    "characters": [
+      "nerissa"
     ],
     "type": "art"
   },
@@ -3511,6 +3581,17 @@
     "characters": [
       "cecilia",
       "iphania"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/takomonty/status/2016921946131148835",
+    "label": "\"ENreco Ina\"",
+    "author": "takomonty",
+    "chapter": 1,
+    "day": 1,
+    "characters": [
+      "ina"
     ],
     "type": "art"
   },
@@ -4353,6 +4434,18 @@
       "shiori"
     ],
     "type": "meme"
+  },
+  {
+    "url": "https://x.com/cressentiaqin/status/2044763504205562065",
+    "label": "\"i miss enreco\"",
+    "author": "cressentiaqin",
+    "chapter": 1,
+    "day": 3,
+    "characters": [
+      "liz",
+      "nerissa"
+    ],
+    "type": "art"
   },
   {
     "url": "https://x.com/puniki_xiv/status/1926153741314478419",
@@ -6225,6 +6318,17 @@
     "characters": [
       "liz",
       "shiori"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/renshifter/status/2041212391791452560",
+    "label": "\"This is my prediction for enreco s3\"",
+    "author": "renshifter",
+    "chapter": 1,
+    "day": 7,
+    "characters": [
+      "liz"
     ],
     "type": "art"
   },

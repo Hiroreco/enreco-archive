@@ -219,7 +219,6 @@ function Chart({
     return (
         <div ref={flowRendererSizer} style={newWidth} className="w-full h-full">
             <ReactFlow
-                key={chapter}
                 // Make nodes not draggable and not connectable
                 // Accidentally found out you can move the nodes with arrow keys
                 nodesDraggable={false}

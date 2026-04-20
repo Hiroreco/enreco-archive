@@ -40,7 +40,7 @@
 
 ## ファンアート
 
-["彼女は謎めいていて美しかった" by yuri_kyannon](https://x.com/yuri_kyanon/status/1919648496329883766)
+["She was mysterious and beautiful" by yuri_kyannon](https://x.com/yuri_kyanon/status/1919648496329883766)
 
 ["Shiori" by Lily is Asleep](https://x.com/Kukie_nyan/status/1920230188601823581)
 

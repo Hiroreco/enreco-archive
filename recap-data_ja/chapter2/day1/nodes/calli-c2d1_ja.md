@@ -34,5 +34,4 @@
 ["What would make you stop?" by sanni](https://x.com/sanni44322/status/1918805606095257896)
 
 ## ミーム
-
-["First meeting after 7 months" by Hiro](https://x.com/hiroavrs/status/1917961179017986292)
+
