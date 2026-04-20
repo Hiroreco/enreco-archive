@@ -29,6 +29,7 @@ import {
     Newspaper,
     Palette,
     Settings,
+    BarChart3,
 } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
@@ -39,6 +40,7 @@ import ChangelogModal from "@/components/view/basic-modals/Changelog";
 import NewsModal from "@/components/view/basic-modals/NewsModal";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
+import { StatsModal } from "@/components/view/stats/StatsModal";
 import ComingSoonCard from "@/components/view/other/ComingSoonCard";
 import CountdownCard from "@/components/view/other/CountdownCard";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
@@ -141,6 +143,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         (state) => state.openReadCounterModal,
     );
     const openNewsModal = useViewStore((state) => state.openNewsModal);
+    const openStatsModal = useViewStore((state) => state.openStatsModal);
 
     const closeModal = useViewStore((state) => state.closeModal);
     const videoUrl = useViewStore((state) => state.videoUrl);
@@ -477,9 +480,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             />
 
             {/* Moving this out of the counter modal in order to synchronize it with the other modals */}
-            <button
+            <div
                 className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
+                    "fixed top-2 left-1/2 -translate-x-1/2 flex flex-col md:flex-row gap-2",
                     {
                         invisible: currentCard !== null,
                         visible: currentCard === null,
@@ -487,13 +490,26 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         hidden: chapter > 1,
                     },
                 )}
-                onClick={openReadCounterModal}
             >
-                {tReadStatus("readCount", {
-                    count: readCount,
-                    total: totalCount,
-                })}
-            </button>
+                <button
+                    className="py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]"
+                    onClick={openReadCounterModal}
+                >
+                    {tReadStatus("readCount", {
+                        count: readCount,
+                        total: totalCount,
+                    })}
+                </button>
+                <button
+                    // TODO: Hiding this for now, show it when chapter 3 starts
+                    className="hidden py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] items-center justify-center gap-2"
+                    onClick={openStatsModal}
+                    title="Stats"
+                >
+                    <BarChart3 className="w-4 h-4" />
+                    <span>{tNavTooltips("stats")}</span>
+                </button>
+            </div>
 
             <ReadCounter
                 open={openModal === "read-counter"}
@@ -511,6 +527,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
             />
             <NewsModal open={openModal === "news"} onClose={closeModal} />
+            <StatsModal open={openModal === "stats"} onClose={closeModal} />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
