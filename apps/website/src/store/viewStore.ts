@@ -56,10 +56,10 @@ const createDataSlice: StateCreator<ViewStoreType, [], [], ViewDataSlice> = (
 /** Slice to hold various ui state. */
 interface ViewUiSlice {
     currentCard: CardType;
-    openNodeCard: () => void;
-    openEdgeCard: () => void;
-    openSettingsCard: () => void;
-    closeCard: () => void;
+    setNodeCard: () => void;
+    setEdgeCard: () => void;
+    setSettingsCard: () => void;
+    clearCard: () => void;
 
     selectedElement: ImageNodeType | FixedEdgeType | null;
     selectElement: (element: ImageNodeType | FixedEdgeType) => void;
@@ -70,10 +70,10 @@ const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
     set,
 ) => ({
     currentCard: null,
-    openNodeCard: () => set(() => ({ currentCard: "node" })),
-    openEdgeCard: () => set(() => ({ currentCard: "edge" })),
-    openSettingsCard: () => set(() => ({ currentCard: "setting" })),
-    closeCard: () => set(() => ({ currentCard: null })),
+    setNodeCard: () => set(() => ({ currentCard: "node" })),
+    setEdgeCard: () => set(() => ({ currentCard: "edge" })),
+    setSettingsCard: () => set(() => ({ currentCard: "setting" })),
+    clearCard: () => set(() => ({ currentCard: null })),
 
     selectedElement: null,
     selectElement: (element) => set(() => ({ selectedElement: element })),

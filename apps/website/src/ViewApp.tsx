@@ -1,5 +1,5 @@
 "use client";
-import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import InfoModal from "@/components/view/basic-modals/InfoModal";
 import DayRecapCard from "@/components/view/chart-cards/DayRecapCard";
@@ -114,10 +114,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setChapter = useViewStore((state) => state.setChapter);
 
     const currentCard = useViewStore((state) => state.currentCard);
-    const openNodeCard = useViewStore((state) => state.openNodeCard);
-    const openEdgeCard = useViewStore((state) => state.openEdgeCard);
-    const openSettingsCard = useViewStore((state) => state.openSettingsCard);
-    const closeCard = useViewStore((state) => state.closeCard);
+    const setNodeCard = useViewStore((state) => state.setNodeCard);
+    const setEdgeCard = useViewStore((state) => state.setEdgeCard);
+    const setSettingsCard = useViewStore((state) => state.setSettingsCard);
+    const clearCard = useViewStore((state) => state.clearCard);
     const selectedElement = useViewStore((state) => state.selectedElement);
     const selectElement = useViewStore((state) => state.selectElement);
     const deselectElement = useViewStore((state) => state.deselectElement);
@@ -178,7 +178,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     /* State variables */
     const [chartShrink, setChartShrink] = useState(0);
+    const [isDrawerOpen, setDrawerOpen] = useState(false);
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
+    const disableWidthChange = useRef<boolean>(true);
 
     /* Data variables */
     const { getSiteData, getChapter } = useLocalizedData();
@@ -295,32 +297,45 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         }
     }
 
-    const onCardClose = useCallback(() => {
+    /* VaulDrawer event handlers */
+    function onDrawerFullyClosed() {
         deselectElement();
-        closeCard();
+        clearCard();
+    }
+
+    function onDrawerOpenWidthChange(width: number) {
+        if (currentCard !== null && !isMobile && !disableWidthChange.current) {
+            setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
+        }
+    }
+
+    /* Drawer opening/closing event handlers */
+    function openNodeCard(node: ImageNodeType) {
+        setDrawerOpen(true);
+        selectElement(node);
+        setNodeCard();
+        disableWidthChange.current = false;
+    }
+
+    function openEdgeCard(edge: FixedEdgeType) {
+        setDrawerOpen(true);
+        selectElement(edge);
+        setEdgeCard();
+        disableWidthChange.current = false;
+    }
+
+    function openSettingsCard() {
+        setDrawerOpen(true);
+        deselectElement();
+        setSettingsCard();
+        disableWidthChange.current = false;
+    }
+
+    function closeCard() {
+        setDrawerOpen(false);
         setChartShrink(0);
-    }, [closeCard, deselectElement]);
-
-    const onSettingsCardOpen = useCallback(() => {
-        deselectElement();
-        openSettingsCard();
-    }, [deselectElement, openSettingsCard]);
-
-    const onNodeClick = useCallback(
-        (node: ImageNodeType) => {
-            selectElement(node);
-            openNodeCard();
-        },
-        [openNodeCard, selectElement],
-    );
-
-    const onEdgeClick = useCallback(
-        (edge: FixedEdgeType) => {
-            selectElement(edge);
-            openEdgeCard();
-        },
-        [openEdgeCard, selectElement],
-    );
+        disableWidthChange.current = true;
+    }
 
     const setChartShrinkAndFit = useCallback(
         (width: number) => {
@@ -332,18 +347,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         },
         [chartShrink],
     );
-
-    const onDrawerOpenChange = useCallback((newOpenState: boolean) => {
-        if (!newOpenState) {
-            onCardClose();
-        }
-    }, [onCardClose]);
-
-    const handleCardWidthChange = useCallback((width: number) => {
-        if (currentCard !== null && !isMobile) {
-            setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
-        }
-    }, [currentCard, isMobile]);
 
     useEffect(() => {
         if (!hasVisitedBefore && !isInLoadingScreen) {
@@ -391,8 +394,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 return (
                     <NodeCard
                         selectedNode={selectedElement as ImageNodeType}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
+                        onNodeLinkClicked={openNodeCard}
+                        onEdgeLinkClicked={openEdgeCard}
                         onDayChange={(newDay) => {
                             changeWorkingData(chapter, newDay);
                         }}
@@ -406,8 +409,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 return (
                     <EdgeCard
                         selectedEdge={selectedElement as FixedEdgeType}
-                        onNodeLinkClicked={onNodeClick}
-                        onEdgeLinkClicked={onEdgeClick}
+                        onNodeLinkClicked={openNodeCard}
+                        onEdgeLinkClicked={openEdgeCard}
                         onDayChange={(newDay) => {
                             changeWorkingData(chapter, newDay);
                         }}
@@ -434,9 +437,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 {chapter <= 1 && (
                     <Chart
                         widthToShrink={chartShrink}
-                        onNodeClick={onNodeClick}
-                        onEdgeClick={onEdgeClick}
-                        onPaneClick={onCardClose}
+                        onNodeClick={openNodeCard}
+                        onEdgeClick={openEdgeCard}
+                        onPaneClick={closeCard}
                     />
                 )}
                 {/* Coming soon card, shown for chapter 3 only */}
@@ -467,10 +470,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 </AnimatePresence>
 
                 <VaulDrawer
-                    open={currentCard !== null}
-                    onOpenChange={onDrawerOpenChange}
-                    onWidthChange={handleCardWidthChange}
-                    disableScrollablity={false}
+                    open={isDrawerOpen}
+                    onClose={closeCard}
+                    onFullyClosed={onDrawerFullyClosed}
+                    onOpenWidthChange={onDrawerOpenWidthChange}
                 >
                     {cardContent}
                 </VaulDrawer>
@@ -553,8 +556,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             <ReadCounter
                 open={openModal === "read-counter"}
                 onClose={closeModal}
-                onEdgeClick={onEdgeClick}
-                onNodeClick={onNodeClick}
+                onEdgeClick={openEdgeCard}
+                onNodeClick={openNodeCard}
             />
             <MusicPlayerModal
                 open={openModal === "music"}
@@ -578,9 +581,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     tooltipSide="left"
                     onClick={() => {
                         if (currentCard === "setting") {
-                            onCardClose();
+                            closeCard();
                         } else {
-                            onSettingsCardOpen();
+                            openSettingsCard();
                         }
                     }}
                 >
@@ -686,12 +689,12 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     isAnyModalOpen={openModal !== null}
                     onChapterChange={(newChapter) => {
                         deselectElement();
-                        closeCard();
+                        clearCard();
                         changeWorkingData(newChapter, 0);
                     }}
                     onDayChange={(newDay) => {
                         if (openDayRecapOnDayChange) {
-                            onSettingsCardOpen();
+                            openSettingsCard();
                         }
                         changeWorkingData(chapter, newDay);
                     }}

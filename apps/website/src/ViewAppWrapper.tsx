@@ -92,7 +92,7 @@ export const ViewAppWrapper = () => {
     const setAppType = useViewStore((state) => state.setAppType);
     const chapter = useViewStore((state) => state.chapter);
     const currentCard = useViewStore((state) => state.currentCard);
-    const closeCard = useViewStore((state) => state.closeCard);
+    const closeCard = useViewStore((state) => state.clearCard);
     const deselectElement = useViewStore((state) => state.deselectElement);
 
     const { getChapter } = useLocalizedData();
