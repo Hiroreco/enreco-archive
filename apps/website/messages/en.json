@@ -424,7 +424,10 @@
         "chapter": "Chapter {val}",
         "allChapters": "All Chapters",
         "section": "Section {val}",
-        "ok": "Got it!"
+        "ok": "Got it!",
+        "next": "Next",
+        "previous": "Previous",
+        "page": "Page {val}"
     },
     "apps": {
         "chart": "Chart",

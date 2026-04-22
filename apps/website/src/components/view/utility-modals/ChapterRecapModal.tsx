@@ -358,11 +358,11 @@ const ChapterRecapModal = ({
                             disabled={currentPage === 0}
                         >
                             <ChevronLeft className="w-4 h-4 mr-1" />
-                            Previous
+                            {t("previous")}
                         </Button>
 
                         <span className="text-sm text-muted-foreground">
-                            Page {currentPage + 1}
+                            {t("page", { val: currentPage + 1 })}
                         </span>
 
                         <Button
@@ -371,7 +371,7 @@ const ChapterRecapModal = ({
                             onClick={goToNextPage}
                             disabled={!canScrollRight}
                         >
-                            Next
+                            {t("next")}
                             <ChevronRight className="w-4 h-4 ml-1" />
                         </Button>
                     </div>
