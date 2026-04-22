@@ -128,6 +128,18 @@ export const ViewAppWrapper = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isLoading, openChangeLogModal]);
 
+    // Set chapter-specific colors
+    useEffect(() => {
+        const chapterColors = {
+            0: "207 39.1% 59.4%", // Blue for Chapter 1
+            1: "340 40% 45%",     // Reddish pink for Chapter 2
+            2: "25 40% 53%",      // Orange for Chapter 3
+        };
+
+        const accentColor = chapterColors[chapter as keyof typeof chapterColors] || chapterColors[0];
+        document.documentElement.style.setProperty("--accent", accentColor);
+    }, [chapter]);
+
     return (
         <div>
             <TranslationDislaimerModal />
