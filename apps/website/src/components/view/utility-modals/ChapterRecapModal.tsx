@@ -41,6 +41,7 @@ const ChapterRecapModal = ({
     const [chapter, setChapter] = useState(initialChapter);
     const [currentSection, setCurrentSection] = useState("");
     const [currentPage, setCurrentPage] = useState(0);
+    const [canScrollRight, setCanScrollRight] = useState(true);
     const contentRef = useRef<HTMLDivElement>(null);
     const columnsContainerRef = useRef<HTMLDivElement>(null);
 
@@ -74,11 +75,16 @@ const ChapterRecapModal = ({
         }
     }, [chapter, sections]);
 
-    const getTotalPages = useCallback(() => {
+    // Remove: const [canScrollRight, setCanScrollRight] = useState(true);
+
+    // Add this — derived directly from page state, updates instantly on click
+    const totalPages = useMemo(() => {
         if (!columnsContainerRef.current) return 1;
         const container = columnsContainerRef.current;
         return Math.round(container.scrollWidth / container.clientWidth);
-    }, []);
+    }, [chapter]); // recalculate when chapter changes, which causes re-layout
+
+
 
     // Track current page and section based on actual scroll position
     useEffect(() => {
@@ -87,6 +93,13 @@ const ChapterRecapModal = ({
             const container = columnsContainerRef.current;
             const stride = container.clientWidth;
             const newPage = Math.round(container.scrollLeft / stride);
+            const canScroll = container.scrollLeft + container.clientWidth < container.scrollWidth;
+
+            // Only update canScrollRight during manual scrolls, not programmatic ones
+            // (programmatic scrolls already set the button state immediately)
+            if (!isScrollingProgrammatically.current) {
+                setCanScrollRight(canScroll);
+            }
 
             // Only update page from scroll when not doing a programmatic scroll
             // (programmatic scrolls have already set the page from the button handler)
@@ -144,7 +157,7 @@ const ChapterRecapModal = ({
             container.addEventListener("scroll", handleScroll, { passive: true });
             return () => container.removeEventListener("scroll", handleScroll);
         }
-    }, [getTotalPages, sectionIds, currentPage]);
+    }, [sectionIds, currentPage]);
 
     const scrollToPage = useCallback((pageIndex: number) => {
         if (!columnsContainerRef.current) return;
@@ -164,28 +177,38 @@ const ChapterRecapModal = ({
         setCurrentPage(newPage);
         scrollToPage(newPage);
 
+        // Calculate canScrollRight immediately based on target scroll position
+        const targetScrollLeft = newPage * stride;
+        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth;
+        setCanScrollRight(canScroll);
+
         if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 600);
-    }, [getTotalPages, scrollToPage]);
+    }, [scrollToPage]);
 
     const goToNextPage = useCallback(() => {
         if (!columnsContainerRef.current) return;
         const container = columnsContainerRef.current;
         const stride = container.clientWidth;
         const currentPage = Math.round(container.scrollLeft / stride);
-        const newPage = Math.min(currentPage + 1);
+        const newPage = currentPage + 1;
 
         isScrollingProgrammatically.current = true;
         setCurrentPage(newPage);
         scrollToPage(newPage);
 
+        // Calculate canScrollRight immediately based on target scroll position
+        const targetScrollLeft = newPage * stride;
+        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth;
+        setCanScrollRight(canScroll);
+
         if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 600);
-    }, [getTotalPages, scrollToPage]);
+    }, [scrollToPage]);
 
     const handleSectionChange = useCallback((sectionId: string) => {
         if (currentSection === sectionId) return;
@@ -195,8 +218,7 @@ const ChapterRecapModal = ({
         const element = document.getElementById(sectionId);
         if (element && columnsContainerRef.current) {
             const container = columnsContainerRef.current;
-            const totalPages = getTotalPages();
-            const stride = container.scrollWidth / totalPages;
+            const stride = container.clientWidth;
 
             // Get the actual scroll position where this element appears
             const elemRect = element.getBoundingClientRect();
@@ -215,7 +237,7 @@ const ChapterRecapModal = ({
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 300);
-    }, [currentSection, getTotalPages]);
+    }, [currentSection]);
 
     // Handle keyboard navigation
     useEffect(() => {
@@ -303,7 +325,6 @@ const ChapterRecapModal = ({
                                                 >
                                                     {data.chapters[chapter].content}
                                                 </ViewMarkdown>
-                                                <Separator />
                                             </div>
                                         ), [chapter, data.chapters])}
                                     </div>
@@ -332,7 +353,7 @@ const ChapterRecapModal = ({
                             variant="outline"
                             size="sm"
                             onClick={goToNextPage}
-                        // disabled={currentPage >= getTotalPages() - 1}
+                            disabled={!canScrollRight}
                         >
                             Next
                             <ChevronRight className="w-4 h-4 ml-1" />
