@@ -22,6 +22,10 @@ import { useTranslations } from "next-intl";
 // This magic number is a buffer to prevent that from happening. It's not perfect, but it works in practice.
 const MAGIC_NUMBER_THRESHOLD = 100;
 
+// How long the separator stays hidden during a page turn (ms).
+// Should roughly match the scroll-behavior duration.
+const SEPARATOR_HIDE_DURATION = 400;
+
 interface ChapterRecapModalProps {
     open: boolean;
     onClose: () => void;
@@ -45,11 +49,13 @@ const ChapterRecapModal = ({
     const [currentSection, setCurrentSection] = useState("");
     const [currentPage, setCurrentPage] = useState(0);
     const [canScrollRight, setCanScrollRight] = useState(true);
+    const [isSeparatorVisible, setIsSeparatorVisible] = useState(true);
     const contentRef = useRef<HTMLDivElement>(null);
     const columnsContainerRef = useRef<HTMLDivElement>(null);
 
     const isScrollingProgrammatically = useRef(false);
     const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
+    const separatorTimeout = useRef<NodeJS.Timeout | null>(null);
 
     const sections = useMemo(
         () => extractMarkdownSections(data.chapters[chapter].content, [3]),
@@ -75,6 +81,15 @@ const ChapterRecapModal = ({
         },
         [onClose],
     );
+
+    // Helper: briefly hide the separator during programmatic page turns
+    const flashSeparator = useCallback(() => {
+        setIsSeparatorVisible(false);
+        if (separatorTimeout.current) clearTimeout(separatorTimeout.current);
+        separatorTimeout.current = setTimeout(() => {
+            setIsSeparatorVisible(true);
+        }, SEPARATOR_HIDE_DURATION);
+    }, []);
 
     // Reset page when chapter changes
     useEffect(() => {
@@ -184,6 +199,7 @@ const ChapterRecapModal = ({
 
         isScrollingProgrammatically.current = true;
         setCurrentPage(newPage);
+        flashSeparator();
         scrollToPage(newPage);
 
         // Calculate canScrollRight immediately based on target scroll position
@@ -195,7 +211,7 @@ const ChapterRecapModal = ({
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 600);
-    }, [scrollToPage]);
+    }, [scrollToPage, flashSeparator]);
 
     const goToNextPage = useCallback(() => {
         if (!columnsContainerRef.current) return;
@@ -206,6 +222,7 @@ const ChapterRecapModal = ({
 
         isScrollingProgrammatically.current = true;
         setCurrentPage(newPage);
+        flashSeparator();
         scrollToPage(newPage);
 
         // Calculate canScrollRight immediately based on target scroll position
@@ -217,7 +234,7 @@ const ChapterRecapModal = ({
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 600);
-    }, [scrollToPage]);
+    }, [scrollToPage, flashSeparator]);
 
     const handleSectionChange = useCallback((sectionId: string) => {
         if (currentSection === sectionId) return;
@@ -237,6 +254,7 @@ const ChapterRecapModal = ({
             const targetPage = Math.floor(elemScrollLeft / stride);
 
             setCurrentPage(targetPage);
+            flashSeparator();
             container.scrollLeft = targetPage * stride;
 
             // Calculate canScrollRight for the target position
@@ -251,7 +269,7 @@ const ChapterRecapModal = ({
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 300);
-    }, [currentSection]);
+    }, [currentSection, flashSeparator]);
 
     // Handle keyboard navigation
     useEffect(() => {
@@ -306,7 +324,10 @@ const ChapterRecapModal = ({
                     {/* Scrollable viewport for double-spread */}
                     <div className="overflow-hidden flex-1 relative" ref={contentRef}>
                         {/* Vertical separator between pages */}
-                        <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border/50 transform -translate-x-1/2 pointer-events-none z-10" />
+                        <div
+                            className="absolute left-1/2 top-0 bottom-0 w-px bg-border/50 transform -translate-x-1/2 pointer-events-none z-10 transition-opacity duration-[30ms]"
+                            style={{ opacity: isSeparatorVisible ? 1 : 0 }}
+                        />
                         <AnimatePresence mode="wait">
                             <motion.div
                                 key={chapter}
