@@ -19,12 +19,12 @@ import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
 import { Film, LibraryBig, Workflow } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
-import { useTranslations } from "next-intl";
 
 const HoverTabTrigger = ({
     value,
@@ -67,7 +67,7 @@ const HoverTabTrigger = ({
             </TabsTrigger>
             <motion.span
                 ref={labelRef}
-                className="absolute top-0 left-11 flex items-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground"
+                className="absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground"
                 animate={{ width: hovered ? labelWidth : 0, opacity: hovered ? 1 : 0 }}
                 transition={{ duration: 0.18, ease: "easeOut" }}
             >
@@ -83,11 +83,6 @@ export const ViewAppWrapper = () => {
     const themeType = useSettingStore((state) => state.themeType);
     const tApp = useTranslations("apps");
 
-    const tabsTriggerClass =
-        "group flex items-center justify-start w-fit p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none gap-0";
-    const iconSpanClass =
-        "flex items-center justify-center w-9 h-9 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card";
-    const spacerSpanClass = "w-1 shrink-0";
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
     const appType = useViewStore((state) => state.appType);
