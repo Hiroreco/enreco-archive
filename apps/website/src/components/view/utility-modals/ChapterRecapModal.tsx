@@ -95,6 +95,65 @@ const ChapterRecapModal = ({
         return Math.round(container.scrollWidth / container.clientWidth);
     }, []);
 
+    // Track current page and section based on actual scroll position
+    useEffect(() => {
+        const handleScroll = () => {
+            if (!columnsContainerRef.current) return;
+            const container = columnsContainerRef.current;
+            const totalPages = getTotalPages();
+            const stride = container.scrollWidth / totalPages;
+            const newPage = Math.round(container.scrollLeft / stride);
+            setCurrentPage(newPage);
+
+            if (!isScrollingProgrammatically.current) {
+                // Find the last section that's visible on this page
+                const pageStart = newPage * stride;
+                const pageEnd = pageStart + stride;
+                const containerRect = container.getBoundingClientRect();
+
+                let visibleSection: string | undefined;
+                for (let i = sectionIds.length - 1; i >= 0; i--) {
+                    const id = sectionIds[i];
+                    const el = document.getElementById(id);
+                    if (!el) continue;
+
+                    const elemRect = el.getBoundingClientRect();
+                    const elemScrollLeft = container.scrollLeft + (elemRect.left - containerRect.left);
+
+                    if (elemScrollLeft >= pageStart && elemScrollLeft < pageEnd) {
+                        visibleSection = id;
+                        break;
+                    }
+                }
+
+                // Fallback: find the last section before page end
+                if (!visibleSection) {
+                    for (let i = sectionIds.length - 1; i >= 0; i--) {
+                        const id = sectionIds[i];
+                        const el = document.getElementById(id);
+                        if (!el) continue;
+
+                        const elemRect = el.getBoundingClientRect();
+                        const elemScrollLeft = container.scrollLeft + (elemRect.left - containerRect.left);
+
+                        if (elemScrollLeft < pageEnd) {
+                            visibleSection = id;
+                            break;
+                        }
+                    }
+                }
+
+                if (visibleSection) setCurrentSection(visibleSection);
+            }
+        };
+
+        const container = columnsContainerRef.current;
+        if (container) {
+            container.addEventListener("scroll", handleScroll, { passive: true });
+            return () => container.removeEventListener("scroll", handleScroll);
+        }
+    }, [getTotalPages, sectionIds]);
+
     const scrollToPage = useCallback((pageIndex: number) => {
         if (!columnsContainerRef.current) return;
         const container = columnsContainerRef.current;
@@ -120,28 +179,35 @@ const ChapterRecapModal = ({
         });
     }, [scrollToPage, getTotalPages]);
 
-    const handleSectionChange = (sectionId: string) => {
+    const handleSectionChange = useCallback((sectionId: string) => {
         if (currentSection === sectionId) return;
 
-        setCurrentSection(sectionId);
         isScrollingProgrammatically.current = true;
 
-        // Find which page contains this section
-        const sectionIndex = sectionIds.indexOf(sectionId);
-        if (sectionIndex !== -1) {
-            const pageNumber = Math.floor(sectionIndex / 2);
-            setCurrentPage(pageNumber);
-            scrollToPage(pageNumber);
+        const element = document.getElementById(sectionId);
+        if (element && columnsContainerRef.current) {
+            const container = columnsContainerRef.current;
+            const totalPages = getTotalPages();
+            const stride = container.scrollWidth / totalPages;
+
+            // Get the actual scroll position where this element appears
+            const elemRect = element.getBoundingClientRect();
+            const containerRect = container.getBoundingClientRect();
+            const elemScrollLeft = container.scrollLeft + (elemRect.left - containerRect.left);
+
+            const targetPage = Math.floor(elemScrollLeft / stride);
+
+            setCurrentPage(targetPage);
+            container.scrollLeft = targetPage * stride;
         }
 
-        if (scrollTimeout.current) {
-            clearTimeout(scrollTimeout.current);
-        }
+        setCurrentSection(sectionId);
 
+        if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
         scrollTimeout.current = setTimeout(() => {
             isScrollingProgrammatically.current = false;
         }, 300);
-    };
+    }, [currentSection, getTotalPages]);
 
     // Handle keyboard navigation
     useEffect(() => {
