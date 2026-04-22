@@ -85,8 +85,7 @@ const ChapterRecapModal = ({
         const handleScroll = () => {
             if (!columnsContainerRef.current) return;
             const container = columnsContainerRef.current;
-            const totalPages = getTotalPages();
-            const stride = container.scrollWidth / totalPages;
+            const stride = container.clientWidth;
             const newPage = Math.round(container.scrollLeft / stride);
 
             // Only update page from scroll when not doing a programmatic scroll
@@ -150,16 +149,14 @@ const ChapterRecapModal = ({
     const scrollToPage = useCallback((pageIndex: number) => {
         if (!columnsContainerRef.current) return;
         const container = columnsContainerRef.current;
-        const totalPages = getTotalPages();
-        const stride = container.scrollWidth / totalPages;
+        const stride = container.clientWidth;
         container.scrollLeft = pageIndex * stride;
-    }, [getTotalPages]);
+    }, []);
 
     const goToPreviousPage = useCallback(() => {
         if (!columnsContainerRef.current) return;
         const container = columnsContainerRef.current;
-        const totalPages = getTotalPages();
-        const stride = container.scrollWidth / totalPages;
+        const stride = container.clientWidth;
         const currentPage = Math.round(container.scrollLeft / stride);
         const newPage = Math.max(0, currentPage - 1);
 
@@ -176,10 +173,9 @@ const ChapterRecapModal = ({
     const goToNextPage = useCallback(() => {
         if (!columnsContainerRef.current) return;
         const container = columnsContainerRef.current;
-        const totalPages = getTotalPages();
-        const stride = container.scrollWidth / totalPages;
+        const stride = container.clientWidth;
         const currentPage = Math.round(container.scrollLeft / stride);
-        const newPage = Math.min(currentPage + 1, totalPages - 1);
+        const newPage = Math.min(currentPage + 1);
 
         isScrollingProgrammatically.current = true;
         setCurrentPage(newPage);
