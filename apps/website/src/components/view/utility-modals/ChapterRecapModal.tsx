@@ -57,6 +57,13 @@ const ChapterRecapModal = ({
 
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
+    // Disable browser scroll restoration for this component
+    useEffect(() => {
+        if (typeof window !== "undefined" && "scrollRestoration" in history) {
+            history.scrollRestoration = "manual";
+        }
+    }, []);
+
     const onOpenChange = useCallback(
         (open: boolean) => {
             if (!open) {
@@ -74,6 +81,21 @@ const ChapterRecapModal = ({
             columnsContainerRef.current.scrollLeft = 0;
         }
     }, [chapter, sections]);
+
+    // Reset scroll position when modal opens (prevents browser scroll restoration)
+    useEffect(() => {
+        if (open) {
+            // rAF ensures this runs after the browser has restored scroll,
+            // then we immediately override it
+            const raf = requestAnimationFrame(() => {
+                if (columnsContainerRef.current) {
+                    columnsContainerRef.current.scrollLeft = 0;
+                }
+                setCurrentPage(0);
+            });
+            return () => cancelAnimationFrame(raf);
+        }
+    }, [open]);
 
     // Remove: const [canScrollRight, setCanScrollRight] = useState(true);
 
