@@ -18,6 +18,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+// There's a bug where sometimes after scrolling to the end, the "Next" button doesn't disable when it should, because it thinks that it can scroll a little more. 
+// This magic number is a buffer to prevent that from happening. It's not perfect, but it works in practice.
+const MAGIC_NUMBER_THRESHOLD = 100;
+
 interface ChapterRecapModalProps {
     open: boolean;
     onClose: () => void;
@@ -76,6 +80,7 @@ const ChapterRecapModal = ({
     useEffect(() => {
         setCurrentPage(0);
         setCurrentSection(sections[0]?.id || "");
+        setCanScrollRight(true);
         if (columnsContainerRef.current) {
             columnsContainerRef.current.scrollLeft = 0;
         }
@@ -104,13 +109,6 @@ const ChapterRecapModal = ({
             const container = columnsContainerRef.current;
             const stride = container.clientWidth;
             const newPage = Math.round(container.scrollLeft / stride);
-            const canScroll = container.scrollLeft + container.clientWidth < container.scrollWidth;
-
-            // Only update canScrollRight during manual scrolls, not programmatic ones
-            // (programmatic scrolls already set the button state immediately)
-            if (!isScrollingProgrammatically.current) {
-                setCanScrollRight(canScroll);
-            }
 
             // Only update page from scroll when not doing a programmatic scroll
             // (programmatic scrolls have already set the page from the button handler)
@@ -190,7 +188,7 @@ const ChapterRecapModal = ({
 
         // Calculate canScrollRight immediately based on target scroll position
         const targetScrollLeft = newPage * stride;
-        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth;
+        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
         setCanScrollRight(canScroll);
 
         if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
@@ -212,7 +210,7 @@ const ChapterRecapModal = ({
 
         // Calculate canScrollRight immediately based on target scroll position
         const targetScrollLeft = newPage * stride;
-        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth;
+        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
         setCanScrollRight(canScroll);
 
         if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
@@ -240,6 +238,11 @@ const ChapterRecapModal = ({
 
             setCurrentPage(targetPage);
             container.scrollLeft = targetPage * stride;
+
+            // Calculate canScrollRight for the target position
+            const targetScrollLeft = targetPage * stride;
+            const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
+            setCanScrollRight(canScroll);
         }
 
         setCurrentSection(sectionId);
@@ -322,7 +325,7 @@ const ChapterRecapModal = ({
                                         style={{
                                             columnCount: 2,
                                             columnGap: "0px",
-                                            scrollBehavior: "auto",
+                                            scrollBehavior: "smooth",
                                             scrollbarWidth: "none",
                                             msOverflowStyle: "none",
                                         }}
