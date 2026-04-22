@@ -97,16 +97,6 @@ const ChapterRecapModal = ({
         }
     }, [open]);
 
-    // Remove: const [canScrollRight, setCanScrollRight] = useState(true);
-
-    // Add this — derived directly from page state, updates instantly on click
-    const totalPages = useMemo(() => {
-        if (!columnsContainerRef.current) return 1;
-        const container = columnsContainerRef.current;
-        return Math.round(container.scrollWidth / container.clientWidth);
-    }, [chapter]); // recalculate when chapter changes, which causes re-layout
-
-
 
     // Track current page and section based on actual scroll position
     useEffect(() => {
@@ -313,6 +303,8 @@ const ChapterRecapModal = ({
 
                     {/* Scrollable viewport for double-spread */}
                     <div className="overflow-hidden flex-1 relative" ref={contentRef}>
+                        {/* Vertical separator between pages */}
+                        <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border/50 transform -translate-x-1/2 pointer-events-none z-10" />
                         <AnimatePresence mode="wait">
                             <motion.div
                                 key={chapter}
@@ -331,7 +323,7 @@ const ChapterRecapModal = ({
                                         style={{
                                             columnCount: 2,
                                             columnGap: "0px",
-                                            scrollBehavior: "smooth",
+                                            scrollBehavior: "auto",
                                             scrollbarWidth: "none",
                                             msOverflowStyle: "none",
                                         }}
