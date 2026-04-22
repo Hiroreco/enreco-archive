@@ -209,31 +209,29 @@ const ChapterRecapModal = ({
                                     {/* Two-column scroll container */}
                                     <div
                                         ref={columnsContainerRef}
-                                        className="h-full overflow-y-hidden overflow-x-auto"
+                                        className="h-full py-4 overflow-y-hidden overflow-x-auto"
                                         style={{
                                             columnCount: 2,
-                                            columnGap: "0px", // <-- eliminate gap from stride math
+                                            columnGap: "0px",
                                             scrollBehavior: "smooth",
-                                            scrollbarWidth: "none", // Firefox
-                                            msOverflowStyle: "none", // IE and Edge
+                                            scrollbarWidth: "none",
+                                            msOverflowStyle: "none",
                                         }}
                                     >
-                                        {/* Without this memo, every section change would cause the Markdown to rerender  */}
-                                        {useMemo(
-                                            () => (
-                                                <div>
-                                                    <ViewMarkdown
-                                                        className="pb-16"
-                                                        onNodeLinkClicked={() => { }}
-                                                        onEdgeLinkClicked={() => { }}
-                                                    >
-                                                        {data.chapters[chapter].content}
-                                                    </ViewMarkdown>
-                                                    <Separator />
-                                                </div>
-                                            ),
-                                            [chapter, data.chapters],
-                                        )}
+                                        {useMemo(() => (
+                                            <div>
+                                                <ViewMarkdown
+                                                    className="px-4"
+                                                    // Each column's content gets internal padding
+                                                    // This creates visual breathing room without affecting scrollWidth
+                                                    onNodeLinkClicked={() => { }}
+                                                    onEdgeLinkClicked={() => { }}
+                                                >
+                                                    {data.chapters[chapter].content}
+                                                </ViewMarkdown>
+                                                <Separator />
+                                            </div>
+                                        ), [chapter, data.chapters])}
                                     </div>
                                 </div>
                             </motion.div>
