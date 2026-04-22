@@ -1,5 +1,5 @@
-import ChapterRecapToolbar from "@/components/view/utility-modals/ChapterRecapToolbar";
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
+import ChapterRecapToolbar from "@/components/view/utility-modals/ChapterRecapToolbar";
 import {
     Dialog,
     DialogContent,
@@ -10,14 +10,13 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
+import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
-import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
-import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
-import { useTranslations } from "next-intl";
-import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface ChapterRecapModalProps {
     open: boolean;
@@ -339,7 +338,6 @@ const ChapterRecapModal = ({
                                                 >
                                                     {data.chapters[chapter].content}
                                                 </ViewMarkdown>
-                                                <Separator className="mt-4" />
                                             </div>
                                         ), [chapter, data.chapters])}
                                     </div>
