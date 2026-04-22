@@ -93,8 +93,10 @@ const ChapterRecapModal = ({
     useEffect(() => {
         const handleScroll = () => {
             if (!columnsContainerRef.current) return;
-            const pageWidth = columnsContainerRef.current.clientWidth;
-            const newPage = Math.round(columnsContainerRef.current.scrollLeft / pageWidth);
+            const container = columnsContainerRef.current;
+            const totalPages = Math.round(container.scrollWidth / container.clientWidth);
+            const stride = container.scrollWidth / totalPages;
+            const newPage = Math.round(container.scrollLeft / stride);
             setCurrentPage(newPage);
         };
 
@@ -105,31 +107,36 @@ const ChapterRecapModal = ({
         }
     }, []);
 
-    const goToPreviousPage = useCallback(() => {
-        if (!columnsContainerRef.current) return;
-        setCurrentPage((prev) => {
-            const newPage = Math.max(0, prev - 1);
-            const pageWidth = columnsContainerRef.current!.clientWidth;
-            columnsContainerRef.current!.scrollLeft = newPage * pageWidth;
-            return newPage;
-        });
+    const getTotalPages = useCallback(() => {
+        if (!columnsContainerRef.current) return 1;
+        const container = columnsContainerRef.current;
+        return Math.round(container.scrollWidth / container.clientWidth);
     }, []);
 
-    const goToNextPage = useCallback(() => {
+    const scrollToPage = useCallback((pageIndex: number) => {
         if (!columnsContainerRef.current) return;
         const container = columnsContainerRef.current;
-        const pageWidth = container.clientWidth;
-        const maxScroll = container.scrollWidth - container.clientWidth;
+        const totalPages = getTotalPages();
+        const stride = container.scrollWidth / totalPages;
+        container.scrollLeft = pageIndex * stride;
+    }, [getTotalPages]);
 
+    const goToPreviousPage = useCallback(() => {
         setCurrentPage((prev) => {
-            const targetScrollLeft = (prev + 1) * pageWidth;
-            if (targetScrollLeft <= maxScroll) {
-                container.scrollLeft = targetScrollLeft;
-                return prev + 1;
-            }
-            return prev;
+            const newPage = Math.max(0, prev - 1);
+            scrollToPage(newPage);
+            return newPage;
         });
-    }, []);
+    }, [scrollToPage]);
+
+    const goToNextPage = useCallback(() => {
+        setCurrentPage((prev) => {
+            const totalPages = getTotalPages();
+            const newPage = Math.min(prev + 1, totalPages - 1);
+            scrollToPage(newPage);
+            return newPage;
+        });
+    }, [scrollToPage, getTotalPages]);
 
     const handleSectionChange = (sectionId: string) => {
         if (currentSection === sectionId) return;
@@ -142,9 +149,7 @@ const ChapterRecapModal = ({
         if (sectionIndex !== -1) {
             const pageNumber = Math.floor(sectionIndex / 2);
             setCurrentPage(pageNumber);
-            if (columnsContainerRef.current) {
-                columnsContainerRef.current.scrollLeft = pageNumber * columnsContainerRef.current.clientWidth;
-            }
+            scrollToPage(pageNumber);
         }
 
         if (scrollTimeout.current) {
