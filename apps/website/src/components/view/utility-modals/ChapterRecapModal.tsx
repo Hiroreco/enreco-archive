@@ -350,7 +350,7 @@ const ChapterRecapModal = ({
                     </div>
 
                     {/* Pagination Controls */}
-                    <div className="flex items-center justify-between px-4 py-3 border-t bg-background/50">
+                    <div className="flex items-center justify-between px-4 border-t pt-2">
                         <Button
                             variant="outline"
                             size="sm"
