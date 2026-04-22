@@ -89,24 +89,6 @@ const ChapterRecapModal = ({
         }
     }, [chapter, sections]);
 
-    // Update page number based on scroll position
-    useEffect(() => {
-        const handleScroll = () => {
-            if (!columnsContainerRef.current) return;
-            const container = columnsContainerRef.current;
-            const totalPages = Math.round(container.scrollWidth / container.clientWidth);
-            const stride = container.scrollWidth / totalPages;
-            const newPage = Math.round(container.scrollLeft / stride);
-            setCurrentPage(newPage);
-        };
-
-        const container = columnsContainerRef.current;
-        if (container) {
-            container.addEventListener("scroll", handleScroll, { passive: true });
-            return () => container.removeEventListener("scroll", handleScroll);
-        }
-    }, []);
-
     const getTotalPages = useCallback(() => {
         if (!columnsContainerRef.current) return 1;
         const container = columnsContainerRef.current;
@@ -222,34 +204,37 @@ const ChapterRecapModal = ({
                                 transition={{ duration: 0.3 }}
                                 className="h-full"
                             >
-                                {/* Two-column scroll container */}
-                                <div
-                                    ref={columnsContainerRef}
-                                    className="h-full overflow-y-hidden overflow-x-auto"
-                                    style={{
-                                        columnCount: 2,
-                                        columnGap: "2rem",
-                                        scrollBehavior: "smooth",
-                                        scrollbarWidth: "none", // Firefox
-                                        msOverflowStyle: "none", // IE and Edge
-                                    }}
-                                >
-                                    {/* Without this memo, every section change would cause the Markdown to rerender  */}
-                                    {useMemo(
-                                        () => (
-                                            <div className="p-4 md:px-8">
-                                                <ViewMarkdown
-                                                    className="pb-16"
-                                                    onNodeLinkClicked={() => { }}
-                                                    onEdgeLinkClicked={() => { }}
-                                                >
-                                                    {data.chapters[chapter].content}
-                                                </ViewMarkdown>
-                                                <Separator />
-                                            </div>
-                                        ),
-                                        [chapter, data.chapters],
-                                    )}
+                                {/* Outer wrapper owns the padding — NOT inside the column flow */}
+                                <div className="h-full px-4 md:px-8">
+                                    {/* Two-column scroll container */}
+                                    <div
+                                        ref={columnsContainerRef}
+                                        className="h-full overflow-y-hidden overflow-x-auto"
+                                        style={{
+                                            columnCount: 2,
+                                            columnGap: "0px", // <-- eliminate gap from stride math
+                                            scrollBehavior: "smooth",
+                                            scrollbarWidth: "none", // Firefox
+                                            msOverflowStyle: "none", // IE and Edge
+                                        }}
+                                    >
+                                        {/* Without this memo, every section change would cause the Markdown to rerender  */}
+                                        {useMemo(
+                                            () => (
+                                                <div>
+                                                    <ViewMarkdown
+                                                        className="pb-16"
+                                                        onNodeLinkClicked={() => { }}
+                                                        onEdgeLinkClicked={() => { }}
+                                                    >
+                                                        {data.chapters[chapter].content}
+                                                    </ViewMarkdown>
+                                                    <Separator />
+                                                </div>
+                                            ),
+                                            [chapter, data.chapters],
+                                        )}
+                                    </div>
                                 </div>
                             </motion.div>
                         </AnimatePresence>
