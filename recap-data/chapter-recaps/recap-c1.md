@@ -6,7 +6,7 @@
 
 Nineteen heroes awoke in a blinding white box, confused and disoriented. One moment, they were going about their ordinary lives—the next, they found themselves surrounded by strangers just as bewildered as they were. More puzzling still, none of them could remember anything: not their names, not their pasts—nothing.
 
-Then came another strange twist. The group was transported to a castle—specifically, the royal castle of the Kingdom of Libestal. There, the _King_—who claimed responsibility for their summoning—declared them the prophesied heroes destined to save the kingdom from the encroaching threat of the Stains.
+Then came another strange twist. The group was transported to a castle, specifically, the royal castle of the Kingdom of Libestal. There, the _King_ who claimed responsibility for their summoning declared them the prophesied heroes destined to save the kingdom from the encroaching threat of the Stains.
 
 ![The heroes' first time meeting the King](/images-opt/chrecap-0-king-opt.webp)
 
@@ -29,9 +29,9 @@ Within these guilds, unfamiliar faces became trusted companions.
 
 ![The Scarlet tip-touching ritual](/images-opt/touchingtips-opt.webp)
 
-As they explored the kingdom, the heroes were assigned various tasks—or _quests_—to help them grow accustomed to life in Libestal. From slaying Stains and gathering resources to making an absurd amount of potato salad that somehow tanked the economy, these quests kept them busy and earned them coin.
+As they explored the kingdom, the heroes were assigned various tasks, or _quests_, to help them grow accustomed to life in Libestal. From slaying Stains and gathering resources to making an absurd amount of potato salad that somehow tanked the economy, these quests kept them busy and earned them coin.
 
-But the most important quests, assigned by either the King or the Guildmasters, revolved around conquering _dungeons_. Each dungeon had its own unique theme and challenges, pushing the heroes to their limits—and strengthening their bonds. Upon completing each conquest, the heroes were rewarded not just with gold, but with something far more precious: a fragment of their lost memories. Specifically, a memory of one of their fellow companions.
+But the most important quests, assigned by either the King or the Guildmasters, revolved around conquering _dungeons_. Each dungeon had its own unique theme and challenges, pushing the heroes to their limits and strengthening their bonds. Upon completing each conquest, the heroes were rewarded not just with gold, but with something far more precious: a fragment of their lost memories. Specifically, a memory of one of their fellow companions.
 
 There were five dungeons in total, each tied to a different hero:
 
@@ -43,7 +43,7 @@ There were five dungeons in total, each tied to a different hero:
 
 ![Memories from the conquered dungeons](/images-opt/chrecap-0-reaction-opt.webp)
 
-As these memories returned, so too did the heroes’ perceptions of one another. The companions they had grown to trust turned out to be legends—each one mighty in her own right.
+As these memories returned, so too did the heroes’ perceptions of one another. The companions they had grown to trust turned out to be legends, each one mighty in her own right.
 
 ---
 
@@ -55,33 +55,33 @@ One of them plotted a coup against the monarchy on day one. Another repeatedly m
 
 One opened a business—FaunaMart—selling everyday goods at outrageous prices, including the highly sought-after meat and, more controversially, lottery tickets. Another opened a rival shop, NanaEleven, equally predatory. Both enterprises ran elaborate scams.
 
-One hero got addicted to gambling—those same lottery tickets—and that kicked off everything: confrontations, lawsuits, public trials, you name it.
+One hero got addicted to gambling with those same lottery ticket, and that kicked off everything: confrontations, lawsuits, public trials, you name it.
 
 ![Green capitalistic CEO setting up her shop](/images-opt/chrecap-0-faunamart-opt.webp)
 
-There were battles between two fake queens. A tavern keeper who not only served food but also ran a booming side business in processing divorces—because, apparently, there was no shortage of them.
+There were battles between two fake queens. A tavern keeper who not only served food but also ran a booming side business in processing divorce. Because apparently, there was no shortage of them.
 
-From adopting strangers as their moms, to proposing marriages with seeds and eggs as dowries, to a fiery knight who kept accusing a certain woman of witchcraft—who in turn relished every accusation.
+From adopting strangers as their moms, to proposing marriages with seeds and eggs as dowries, to a fiery knight who kept accusing a certain woman of witchcraft, who in turn relished every accusation.
 
 Yet beneath all that madness, a more grounded, heartfelt story unfolded—a bond between a humble knight and his precious pearl. A love story marked by trials, sweetness, sorrow, and ultimately, perseverance. Against all odds, they made it through.
 
 ![The Diamond and his Pearl](/images-opt/chrecap-0-pearl-opt.webp)
 
-Things were vibrant and full of life—the heroes were truly enjoying themselves.
+Things were vibrant and full of life, the heroes were truly enjoying themselves.
 
 ---
 
 ### The Battle Against the Corruption
 
-As the final days approached, the kingdom’s once cheerful and vibrant air took a dark turn. Corruption began to spread—an insidious force that twisted the minds of its victims and left the land in crisis. At the heart of it was the self-proclaimed Stain Princess, Koseki Bijou, the first to fall.
+As the final days approached, the kingdom’s once cheerful and vibrant air took a dark turn. Corruption began to spread, an insidious force that twisted the minds of its victims and left the land in crisis. At the heart of it was the self-proclaimed Stain Princess, Koseki Bijou, the first to fall.
 
-The infection spread quickly, overtaking more and more, threatening to consume everything. But even as despair loomed, the heroes stood firm. With hearts full of determination, they gave everything they had to save their corrupted friends. They believed—no matter how far gone someone seemed—there was always a chance to _Start Again_.
+The infection spread quickly, overtaking more and more, threatening to consume everything. But even as despair loomed, the heroes stood firm. With hearts full of determination, they gave everything they had to save their corrupted friends. They believed no matter how far gone someone seemed, there was always a chance to _Start Again_.
 
 ![The lands ruined by the corruption](/images-opt/chrecap-0-ruined-opt.webp)
 
-The remaining heroes rallied together, determined to find a way to cleanse the corruption that had taken hold of their former comrades. Refusing to give up on those they once fought beside, they poured their efforts into uncovering a cure—one that could reach through the darkness and pull their friends back.
+The remaining heroes rallied together, determined to find a way to cleanse the corruption that had taken hold of their former comrades. Refusing to give up on those they once fought beside, they poured their efforts into uncovering a cure. One that could reach through the darkness and pull their friends back.
 
-Through resourcefulness, wit, and a fair share of chaos, they devised a clever plan: to trick the corrupted into using the cure themselves. A gamble, to be sure—but one that paid off. And just like that, one by one, the shadows began to fade.
+Through resourcefulness, wit, and a fair share of chaos, they devised a clever plan: to trick the corrupted into using the cure themselves. A gamble, to be sure, but one that paid off. And just like that, one by one, the shadows began to fade.
 
 Even Bijou, who had fallen deep into the clutches of corruption, was saved.
 
@@ -109,6 +109,6 @@ The King revealed his true intentions. By defeating the Stain King, the heroes h
 
 Shock. Anger. Confusion. Betrayal. All these emotions surged through the heroes. But there was no time to dwell. They raised their weapons one final time and charged at the great evil. Yet it was not enough. The Captive was too strong.
 
-Just as the end seemed inevitable, a voice called out—a mysterious guide urging them to jump into a portal. With no other choice, they did.
+Just as the end seemed inevitable, a voice called out. A mysterious guide urging them to jump into a portal. With no other choice, they did.
 
 And so ended the first chapter of their enigmatic journey.

@@ -4,21 +4,21 @@
 
 ### New Beginnings, Greater Responsibilities
 
-After leaping into a portal to escape the Captive’s grasp—guided only by a mysterious voice—the heroes found themselves adrift in time and space, their sense of reality slipping away. When they finally opened their eyes, they were in yet another unfamiliar place, greeted by yet another unfamiliar face.
+After leaping into a portal to escape the Captive’s grasp, guided only by a mysterious voice, the heroes found themselves adrift in time and space, their sense of reality slipping away. When they finally opened their eyes, they were in yet another unfamiliar place, greeted by yet another unfamiliar face.
 
 That face belonged to Fia—a talking, cat-like doll who, in no uncertain terms, had saved their lives. She brought them to a place known as the Library and explained the truth of their situation: the kingdom of Libestal, where their previous journey had taken place, was never real.
 
-It was an illusion—one created to contain the being the heroes had called their King. By defeating the Stain King, they had unwittingly destroyed the vessel keeping this entity imprisoned. And in doing so, they had freed his true form—**the Outsider** (previously known as the Captive)—a force of hatred and ruin now set to obliterate the universe itself.
+It was an illusion, one created to contain the being the heroes had called their King. By defeating the Stain King, they had unwittingly destroyed the vessel keeping this entity imprisoned. And in doing so, they had freed his true form. **The Outsider** (previously known as the Captive), a force of hatred and ruin now set to obliterate the universe itself.
 
-But not all hope was lost. Fia had pulled them back—back through time—to an older, real version of Libestal. Here, in the past, there was still a chance. A narrow, fading hope to stop the Outsider before he could ever come into being. The heroes—no, the **Shining Stars**—would be the ones to change fate.
+But not all hope was lost. Fia had pulled them back, back through time, to an older, real version of Libestal. Here, in the past, there was still a chance. A narrow, fading hope to stop the Outsider before he could ever come into being. The heroes—no, the **Shining Stars**—would be the ones to change fate.
 
 ![The heroes meet Fia for the first time](/images-opt/chrecap-1-library-opt.webp)
 
 However, there was one problem.
 
-Time travel comes at a cost. Both the heroes and Fia had lost pieces of their memories—crucial pieces that might hold the key to stopping the Outsider. Just like before, they'd need to recover them—piece by piece—through trials ahead.
+Time travel comes at a cost. Both the heroes and Fia had lost pieces of their memories—crucial pieces that might hold the key to stopping the Outsider. Just like before, they'd need to recover them piece by piece through trials ahead.
 
-Fia wasn't alone in placing hope in the Shining Stars. Iphania, Princess of this older Libestal, ruled over the last sanctuary of a world being slowly devoured by Stains, by corruption, by the **Ruination**. When the heroes appeared before her, she believed them to be divine—fallen stars sent to defy destiny. She spoke of the Book of Prophecies, which foretold the world's end. But Iphania refused to surrender to fate, and the arrival of the heroes seemed proof that perhaps, just perhaps, the future could still be rewritten.
+Fia wasn't alone in placing hope in the Shining Stars. Iphania, Princess of this older Libestal, ruled over the last sanctuary of a world being slowly devoured by Stains, by corruption, by the **Ruination**. When the heroes appeared before her, she believed them to be divine fallen stars sent to defy destiny. She spoke of the Book of Prophecies, which foretold the world's end. But Iphania refused to surrender to fate, and the arrival of the heroes seemed proof that perhaps, just perhaps, the future could still be rewritten.
 
 ![The heroes meeting Iphania for the first time](/images-opt/chrecap-1-princess-opt.webp)
 
@@ -34,7 +34,7 @@ To break the chains of fate.
 
 Even heroes have to eat.
 
-With the kingdom barely sustaining its refugees, the heroes needed more than just noble intentions—they needed a source of income. Unlike their previous journey, there were no guilds here. Instead, each hero selected a profession—jobs critical to both survival and progress. There were four in total:
+With the kingdom barely sustaining its refugees, the heroes needed more than just noble intentions—they needed a source of income. Unlike their previous journey, there were no guilds here. Instead, each hero selected a profession, jobs critical to both survival and progress. There were four in total:
 
 - **The Smith** – Forged upgrade stones used to enhance Revelation weapons.
 - **The Jeweler** – Crafted charms that bolstered health and defense.
@@ -55,23 +55,23 @@ Each Star Site centered on a specific hero, unlocking recollections of who they 
 
 ![A battle against the Star Site: Chronos' boss](/images-opt/chrecap-1-boss-opt.webp)
 
-The dungeons this time were far more intricate than before. Each one was a labyrinth of puzzles, traps, and trials—but above all, they demanded one thing above everything else: teamwork. No lone hero could tackle them alone. Even if someone possessed the skill to survive on their own, the challenges were designed to test not just strength or wits, but trust, timing, and synergy.
+The dungeons this time were far more intricate than before. Each one was a labyrinth of puzzles, traps, and trials. But above all, they demanded one thing above everything else: teamwork. No lone hero could tackle them alone. Even if someone possessed the skill to survive on their own, the challenges were designed to test not just strength or wits, but trust, timing, and synergy.
 
 Every switch required coordination. Every battle demanded support. Every step forward was a step together.
 
-These weren’t just dungeons—they were trials of unity.
+These weren’t just dungeons, they were trials of unity.
 
-It was also required for the heroes to submit daily diary entries to the Library—records of their thoughts, experiences, and emotions. These entries served a critical purpose: to archive their memories. In the event they ever lost them again, the Library would act as a safeguard, preserving fragments of their identities, relationships, and choices. Every joy, every sorrow, every battle and bond—they were all written down, page by page, day by day.
+It was also required for the heroes to submit daily diary entries to the Library—records of their thoughts, experiences, and emotions. These entries served a critical purpose: to archive their memories. In the event they ever lost them again, the Library would act as a safeguard, preserving fragments of their identities, relationships, and choices. Every joy, every sorrow, every battle and bond, they were all written down. Page by page, day by day.
 
 ![The Hot Pink One noting down her day](/images-opt/chrecap-1-diary-opt.webp)
 
-Beyond the main Star Sites, the heroes also undertook smaller dungeons and side missions that unveiled hidden truths. Not only did they recover the memories of their companions—they slowly began to restore Fia’s fragmented past as well.
+Beyond the main Star Sites, the heroes also undertook smaller dungeons and side missions that unveiled hidden truths. Not only did they recover the memories of their companions, they slowly began to restore Fia’s fragmented past as well.
 
 And with those memories came revelations about the true nature of the Outsider—how his existence was deeply intertwined with another mysterious figure: the Outlander.
 
 ### The Nameless Swordsman
 
-Before the heroes arrived in this kingdom, there was one who had already taken up the burden of saving the world—offering his blade in service to a doomed cause. A mysterious swordsman, known only as **the Outlander**, stood alone. Though nameless, he was far from forgotten—especially by the Princess, who held great affection for him, and he, in turn, for her. He was powerful, resolute, and driven by the will to destroy the Curse and shatter the Heart of Ruin. But that very determination sealed his fate—and everyone else’s.
+Before the heroes arrived in this kingdom, there was one who had already taken up the burden of saving the world, offering his blade in service to a doomed cause. A mysterious swordsman, known only as **the Outlander**, stood alone. Though nameless, he was far from forgotten, especially by the Princess who held great affection for him, and he, in turn, for her. He was powerful, resolute, and driven by the will to destroy the Curse and shatter the Heart of Ruin. But that very determination sealed his fate—and everyone else’s.
 
 ![The heroes meeting the Outlander for the first time](/images-opt/outlander-meet-opt.webp)
 
@@ -81,9 +81,9 @@ For the first time, he broke his oath. He intervened.
 
 He tried to save the world.
 
-But defying a higher being came with a price. As punishment, he was imprisoned within a fabricated kingdom—a false Libestal designed to contain him for eternity. Time passed. Pain festered. Despair turned to rage. That rage took shape when the heroes unknowingly freed him by destroying the vessel of the Stain King, releasing the full wrath of the Outsider.
+But defying a higher being came with a price. As punishment, he was imprisoned within a fabricated kingdom, a false Libestal designed to contain him for eternity. Time passed. Pain festered. Despair turned to rage. That rage took shape when the heroes unknowingly freed him by destroying the vessel of the Stain King, releasing the full wrath of the Outsider.
 
-To prevent such devastation from ever happening again, Fia placed their hopes in the heroes. If they could finish what the Outlander started—defeat the Curse and destroy the Heart of Ruin—the Watcher’s defiance would never come to light. The Outsider would never be born. The universe could be saved.
+To prevent such devastation from ever happening again, Fia placed their hopes in the heroes. If they could finish what the Outlander started, to defeat the Curse and destroy the Heart of Ruin, the Watcher’s defiance would never come to light. The Outsider would never be born. The universe could be saved.
 
 ![The Princess and the Outlander entrust the heroes with the world's fate.](/images-opt/chrecap-1-outlander-opt.webp)
 
@@ -91,7 +91,7 @@ Though the end of the world loomed just seven days away, those seven days were m
 
 ### Your Usual Shenanigans, Tenfold
 
-With four fewer heroes on this second journey—those lost to tax evasion and alleged trident theft—you’d think things would be calmer. Perhaps even quieter.
+With four fewer heroes on this second journey, you’d think things would be calmer. Perhaps even quieter.
 
 Oh, how wrong that assumption was.
 
@@ -114,7 +114,7 @@ Weird, wonderful, emotional—the journey was all of it. Even without the full e
 
 ### The Crimson-Colored Banquet
 
-Through sheer will, determination, and the strength of their unbreakable bonds, the heroes banded together to defeat the Curse once and for all. The Ruination was stopped. The world was saved. More importantly, a cruel fate had been averted—one that would have given birth to a great evil capable of consuming the entire universe. The Princess was overjoyed. Fia was elated. The Outlander's burden was finally lifted, and the kingdom basked in the light of celebration.
+Through sheer will, determination, and the strength of their unbreakable bonds, the heroes banded together to defeat the Curse once and for all. The Ruination was stopped. The world was saved. More importantly, a cruel fate had been averted, one that would have given birth to a great evil capable of consuming the entire universe. The Princess was overjoyed. Fia was elated. The Outlander's burden was finally lifted, and the kingdom basked in the light of celebration.
 
 At long last, everyone could breathe a sigh of relief and savor a rare, well-earned moment of peace.
 
@@ -148,7 +148,7 @@ She was Iphania—the Princess of Libestal. When the Curse struck her down, her 
 
 Perhaps the past couldn't be changed. Perhaps fate truly was immutable. But even so, she wasn’t ready to give up. If they couldn’t alter the past, then they would try to shape the future—a future that teetered on the brink of total annihilation.
 
-She asked for their help once more. And, without hesitation, the heroes answered. They were heroes, after all. If the world needed saving, they would rise to the call—no matter how many times it asked.
+She asked for their help once more. And, without hesitation, the heroes answered. They were heroes, after all. If the world needed saving, they would rise to the call, no matter how many times it asked.
 
 ![The heroes lend their hands to Fia](/images-opt/chrecap-1-helpfia-opt.webp)
 
