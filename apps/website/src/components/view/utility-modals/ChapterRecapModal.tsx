@@ -10,7 +10,6 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
@@ -18,6 +17,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
 import { useTranslations } from "next-intl";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface ChapterRecapModalProps {
     open: boolean;
@@ -40,7 +40,9 @@ const ChapterRecapModal = ({
         : data.chapters.length - 1;
     const [chapter, setChapter] = useState(initialChapter);
     const [currentSection, setCurrentSection] = useState("");
+    const [currentPage, setCurrentPage] = useState(0);
     const contentRef = useRef<HTMLDivElement>(null);
+    const columnsContainerRef = useRef<HTMLDivElement>(null);
 
     const isScrollingProgrammatically = useRef(false);
     const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
@@ -52,7 +54,6 @@ const ChapterRecapModal = ({
 
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
 
-    const activeSection = useScrollSpy(sectionIds);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const onOpenChange = useCallback(
@@ -68,33 +69,21 @@ const ChapterRecapModal = ({
     useEffect(() => {
         // Use a short timeout to smooth out rapid section changes
         const timer = setTimeout(() => {
-            if (activeSection && !isScrollingProgrammatically.current) {
-                setCurrentSection(activeSection);
+            if (!isScrollingProgrammatically.current) {
+                // Find which section is visible in the current page
+                const currentPageStart = currentPage * 2; // 2 columns per page
+                const visibleSectionId = sectionIds[Math.min(currentPageStart, sectionIds.length - 1)];
+                setCurrentSection(visibleSectionId || "");
             }
         }, 20);
 
         return () => clearTimeout(timer);
-    }, [activeSection]);
+    }, [currentPage, sectionIds]);
 
+    // Reset page when chapter changes
     useEffect(() => {
-        const contentElement = contentRef.current;
-        if (!contentElement) return;
-
-        // Add passive scroll listener for better performance
-        contentElement.addEventListener("scroll", () => {}, { passive: true });
-
-        return () => {
-            contentElement.removeEventListener("scroll", () => {});
-
-            if (scrollTimeout.current) {
-                clearTimeout(scrollTimeout.current);
-            }
-        };
-    }, []);
-
-    useEffect(() => {
+        setCurrentPage(0);
         setCurrentSection(sections[0]?.id || "");
-        contentRef.current?.scrollTo({ top: 0, behavior: "smooth" });
     }, [chapter, sections]);
 
     const handleSectionChange = (sectionId: string) => {
@@ -103,27 +92,42 @@ const ChapterRecapModal = ({
         setCurrentSection(sectionId);
         isScrollingProgrammatically.current = true;
 
-        const element = document.getElementById(sectionId);
-        if (element) {
-            element.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-            });
-
-            if (scrollTimeout.current) {
-                clearTimeout(scrollTimeout.current);
-            }
-
-            scrollTimeout.current = setTimeout(() => {
-                isScrollingProgrammatically.current = false;
-            }, 800);
+        // Find which page contains this section
+        const sectionIndex = sectionIds.indexOf(sectionId);
+        if (sectionIndex !== -1) {
+            const pageNumber = Math.floor(sectionIndex / 2);
+            setCurrentPage(pageNumber);
         }
+
+        if (scrollTimeout.current) {
+            clearTimeout(scrollTimeout.current);
+        }
+
+        scrollTimeout.current = setTimeout(() => {
+            isScrollingProgrammatically.current = false;
+        }, 300);
     };
+
+    const goToPreviousPage = useCallback(() => {
+        setCurrentPage((prev) => Math.max(0, prev - 1));
+    }, []);
+
+    const goToNextPage = useCallback(() => {
+        setCurrentPage((prev) => {
+            // Calculate actual total pages when needed
+            if (!columnsContainerRef.current) return prev;
+            const totalPages = Math.ceil(
+                columnsContainerRef.current.scrollWidth /
+                columnsContainerRef.current.clientWidth
+            );
+            return Math.min(prev + 1, totalPages - 1);
+        });
+    }, []);
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
+                className="md:max-w-[1200px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
                 showXButton={true}
                 backdropFilter={backdropFilter}
             >
@@ -145,11 +149,15 @@ const ChapterRecapModal = ({
                         currentSection={currentSection}
                         chapters={data.chapters}
                         sections={sections}
-                        onChapterChange={setChapter}
+                        onChapterChange={(newChapter) => {
+                            setChapter(newChapter);
+                            setCurrentPage(0);
+                        }}
                         onSectionChange={handleSectionChange}
                     />
 
-                    <div className="overflow-auto flex-1 p-4" ref={contentRef}>
+                    {/* Scrollable viewport for double-spread */}
+                    <div className="overflow-hidden flex-1 relative" ref={contentRef}>
                         <AnimatePresence mode="wait">
                             <motion.div
                                 key={chapter}
@@ -157,26 +165,67 @@ const ChapterRecapModal = ({
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.3 }}
+                                className="h-full"
                             >
-                                {/* Without this memo, every section change would cause the Markdown to rerender  */}
-                                {useMemo(
-                                    () => (
-                                        <ViewMarkdown
-                                            className="pb-16 md:px-4"
-                                            onNodeLinkClicked={() => {}}
-                                            onEdgeLinkClicked={() => {}}
-                                        >
-                                            {data.chapters[chapter].content}
-                                        </ViewMarkdown>
-                                    ),
-                                    [chapter, data.chapters],
-                                )}
+                                {/* Transform container for pagination */}
+                                <div
+                                    ref={columnsContainerRef}
+                                    className="h-full flex transition-transform duration-300 ease-out"
+                                    style={{
+                                        transform: `translateX(-${currentPage * 100}%)`,
+                                    }}
+                                >
+                                    {/* Each page is a two-column spread */}
+                                    <div className="w-full h-full flex-shrink-0 overflow-hidden">
+                                        <div className="h-full overflow-y-auto p-4 md:px-8" style={{ columnCount: 2, columnGap: "2rem" }}>
+                                            {/* Without this memo, every section change would cause the Markdown to rerender  */}
+                                            {useMemo(
+                                                () => (
+                                                    <ViewMarkdown
+                                                        className="pb-16"
+                                                        onNodeLinkClicked={() => { }}
+                                                        onEdgeLinkClicked={() => { }}
+                                                    >
+                                                        {data.chapters[chapter].content}
+                                                    </ViewMarkdown>
+                                                ),
+                                                [chapter, data.chapters],
+                                            )}
+                                            <Separator />
+                                        </div>
+                                    </div>
+                                </div>
                             </motion.div>
                         </AnimatePresence>
-                        <Separator />
+                    </div>
+
+                    {/* Pagination Controls */}
+                    <div className="flex items-center justify-between px-4 py-3 border-t bg-background/50">
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={goToPreviousPage}
+                            disabled={currentPage === 0}
+                        >
+                            <ChevronLeft className="w-4 h-4 mr-1" />
+                            Previous
+                        </Button>
+
+                        <span className="text-sm text-muted-foreground">
+                            Page {currentPage + 1}
+                        </span>
+
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={goToNextPage}
+                        >
+                            Next
+                            <ChevronRight className="w-4 h-4 ml-1" />
+                        </Button>
                     </div>
                 </div>
-                <div className="md:hidden absolute bottom-4 flex justify-center left-0 right-0 px-10 card-deco border-t pt-4">
+                <div className="md:hidden absolute bottom-20 flex justify-center left-0 right-0 px-10">
                     <Button
                         className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}
