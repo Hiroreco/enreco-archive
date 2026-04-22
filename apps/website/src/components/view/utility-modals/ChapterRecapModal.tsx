@@ -84,7 +84,52 @@ const ChapterRecapModal = ({
     useEffect(() => {
         setCurrentPage(0);
         setCurrentSection(sections[0]?.id || "");
+        if (columnsContainerRef.current) {
+            columnsContainerRef.current.scrollLeft = 0;
+        }
     }, [chapter, sections]);
+
+    // Update page number based on scroll position
+    useEffect(() => {
+        const handleScroll = () => {
+            if (!columnsContainerRef.current) return;
+            const pageWidth = columnsContainerRef.current.clientWidth;
+            const newPage = Math.round(columnsContainerRef.current.scrollLeft / pageWidth);
+            setCurrentPage(newPage);
+        };
+
+        const container = columnsContainerRef.current;
+        if (container) {
+            container.addEventListener("scroll", handleScroll, { passive: true });
+            return () => container.removeEventListener("scroll", handleScroll);
+        }
+    }, []);
+
+    const goToPreviousPage = useCallback(() => {
+        if (!columnsContainerRef.current) return;
+        setCurrentPage((prev) => {
+            const newPage = Math.max(0, prev - 1);
+            const pageWidth = columnsContainerRef.current!.clientWidth;
+            columnsContainerRef.current!.scrollLeft = newPage * pageWidth;
+            return newPage;
+        });
+    }, []);
+
+    const goToNextPage = useCallback(() => {
+        if (!columnsContainerRef.current) return;
+        const container = columnsContainerRef.current;
+        const pageWidth = container.clientWidth;
+        const maxScroll = container.scrollWidth - container.clientWidth;
+
+        setCurrentPage((prev) => {
+            const targetScrollLeft = (prev + 1) * pageWidth;
+            if (targetScrollLeft <= maxScroll) {
+                container.scrollLeft = targetScrollLeft;
+                return prev + 1;
+            }
+            return prev;
+        });
+    }, []);
 
     const handleSectionChange = (sectionId: string) => {
         if (currentSection === sectionId) return;
@@ -97,6 +142,9 @@ const ChapterRecapModal = ({
         if (sectionIndex !== -1) {
             const pageNumber = Math.floor(sectionIndex / 2);
             setCurrentPage(pageNumber);
+            if (columnsContainerRef.current) {
+                columnsContainerRef.current.scrollLeft = pageNumber * columnsContainerRef.current.clientWidth;
+            }
         }
 
         if (scrollTimeout.current) {
@@ -108,21 +156,23 @@ const ChapterRecapModal = ({
         }, 300);
     };
 
-    const goToPreviousPage = useCallback(() => {
-        setCurrentPage((prev) => Math.max(0, prev - 1));
-    }, []);
+    // Handle keyboard navigation
+    useEffect(() => {
+        const handleKeyPress = (e: KeyboardEvent) => {
+            if (!columnsContainerRef.current) return;
 
-    const goToNextPage = useCallback(() => {
-        setCurrentPage((prev) => {
-            // Calculate actual total pages when needed
-            if (!columnsContainerRef.current) return prev;
-            const totalPages = Math.ceil(
-                columnsContainerRef.current.scrollWidth /
-                columnsContainerRef.current.clientWidth
-            );
-            return Math.min(prev + 1, totalPages - 1);
-        });
-    }, []);
+            if (e.key === "ArrowRight") {
+                goToNextPage();
+            } else if (e.key === "ArrowLeft") {
+                goToPreviousPage();
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyPress);
+        return () => window.removeEventListener("keydown", handleKeyPress);
+    }, [goToNextPage, goToPreviousPage]);
+
+
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
@@ -167,33 +217,34 @@ const ChapterRecapModal = ({
                                 transition={{ duration: 0.3 }}
                                 className="h-full"
                             >
-                                {/* Transform container for pagination */}
+                                {/* Two-column scroll container */}
                                 <div
                                     ref={columnsContainerRef}
-                                    className="h-full flex transition-transform duration-300 ease-out"
+                                    className="h-full overflow-y-hidden overflow-x-auto"
                                     style={{
-                                        transform: `translateX(-${currentPage * 100}%)`,
+                                        columnCount: 2,
+                                        columnGap: "2rem",
+                                        scrollBehavior: "smooth",
+                                        scrollbarWidth: "none", // Firefox
+                                        msOverflowStyle: "none", // IE and Edge
                                     }}
                                 >
-                                    {/* Each page is a two-column spread */}
-                                    <div className="w-full h-full flex-shrink-0 overflow-hidden">
-                                        <div className="h-full overflow-y-auto p-4 md:px-8" style={{ columnCount: 2, columnGap: "2rem" }}>
-                                            {/* Without this memo, every section change would cause the Markdown to rerender  */}
-                                            {useMemo(
-                                                () => (
-                                                    <ViewMarkdown
-                                                        className="pb-16"
-                                                        onNodeLinkClicked={() => { }}
-                                                        onEdgeLinkClicked={() => { }}
-                                                    >
-                                                        {data.chapters[chapter].content}
-                                                    </ViewMarkdown>
-                                                ),
-                                                [chapter, data.chapters],
-                                            )}
-                                            <Separator />
-                                        </div>
-                                    </div>
+                                    {/* Without this memo, every section change would cause the Markdown to rerender  */}
+                                    {useMemo(
+                                        () => (
+                                            <div className="p-4 md:px-8">
+                                                <ViewMarkdown
+                                                    className="pb-16"
+                                                    onNodeLinkClicked={() => { }}
+                                                    onEdgeLinkClicked={() => { }}
+                                                >
+                                                    {data.chapters[chapter].content}
+                                                </ViewMarkdown>
+                                                <Separator />
+                                            </div>
+                                        ),
+                                        [chapter, data.chapters],
+                                    )}
                                 </div>
                             </motion.div>
                         </AnimatePresence>
