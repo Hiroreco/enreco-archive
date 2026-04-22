@@ -65,21 +65,6 @@ const ChapterRecapModal = ({
         [onClose],
     );
 
-    // To avoid setting the current section when the user is scrolling programmatically
-    useEffect(() => {
-        // Use a short timeout to smooth out rapid section changes
-        const timer = setTimeout(() => {
-            if (!isScrollingProgrammatically.current) {
-                // Find which section is visible in the current page
-                const currentPageStart = currentPage * 2; // 2 columns per page
-                const visibleSectionId = sectionIds[Math.min(currentPageStart, sectionIds.length - 1)];
-                setCurrentSection(visibleSectionId || "");
-            }
-        }, 20);
-
-        return () => clearTimeout(timer);
-    }, [currentPage, sectionIds]);
-
     // Reset page when chapter changes
     useEffect(() => {
         setCurrentPage(0);
@@ -103,7 +88,12 @@ const ChapterRecapModal = ({
             const totalPages = getTotalPages();
             const stride = container.scrollWidth / totalPages;
             const newPage = Math.round(container.scrollLeft / stride);
-            setCurrentPage(newPage);
+
+            // Only update page from scroll when not doing a programmatic scroll
+            // (programmatic scrolls have already set the page from the button handler)
+            if (!isScrollingProgrammatically.current) {
+                setCurrentPage(newPage);
+            }
 
             if (!isScrollingProgrammatically.current) {
                 // Find the last section that's visible on this page
@@ -143,7 +133,10 @@ const ChapterRecapModal = ({
                     }
                 }
 
-                if (visibleSection) setCurrentSection(visibleSection);
+                if (visibleSection) {
+                    console.log(visibleSection);
+                    setCurrentSection(visibleSection);
+                }
             }
         };
 
@@ -152,7 +145,7 @@ const ChapterRecapModal = ({
             container.addEventListener("scroll", handleScroll, { passive: true });
             return () => container.removeEventListener("scroll", handleScroll);
         }
-    }, [getTotalPages, sectionIds]);
+    }, [getTotalPages, sectionIds, currentPage]);
 
     const scrollToPage = useCallback((pageIndex: number) => {
         if (!columnsContainerRef.current) return;
@@ -163,21 +156,40 @@ const ChapterRecapModal = ({
     }, [getTotalPages]);
 
     const goToPreviousPage = useCallback(() => {
-        setCurrentPage((prev) => {
-            const newPage = Math.max(0, prev - 1);
-            scrollToPage(newPage);
-            return newPage;
-        });
-    }, [scrollToPage]);
+        if (!columnsContainerRef.current) return;
+        const container = columnsContainerRef.current;
+        const totalPages = getTotalPages();
+        const stride = container.scrollWidth / totalPages;
+        const currentPage = Math.round(container.scrollLeft / stride);
+        const newPage = Math.max(0, currentPage - 1);
+
+        isScrollingProgrammatically.current = true;
+        setCurrentPage(newPage);
+        scrollToPage(newPage);
+
+        if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
+        scrollTimeout.current = setTimeout(() => {
+            isScrollingProgrammatically.current = false;
+        }, 600);
+    }, [getTotalPages, scrollToPage]);
 
     const goToNextPage = useCallback(() => {
-        setCurrentPage((prev) => {
-            const totalPages = getTotalPages();
-            const newPage = Math.min(prev + 1, totalPages - 1);
-            scrollToPage(newPage);
-            return newPage;
-        });
-    }, [scrollToPage, getTotalPages]);
+        if (!columnsContainerRef.current) return;
+        const container = columnsContainerRef.current;
+        const totalPages = getTotalPages();
+        const stride = container.scrollWidth / totalPages;
+        const currentPage = Math.round(container.scrollLeft / stride);
+        const newPage = Math.min(currentPage + 1, totalPages - 1);
+
+        isScrollingProgrammatically.current = true;
+        setCurrentPage(newPage);
+        scrollToPage(newPage);
+
+        if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
+        scrollTimeout.current = setTimeout(() => {
+            isScrollingProgrammatically.current = false;
+        }, 600);
+    }, [getTotalPages, scrollToPage]);
 
     const handleSectionChange = useCallback((sectionId: string) => {
         if (currentSection === sectionId) return;
@@ -324,6 +336,7 @@ const ChapterRecapModal = ({
                             variant="outline"
                             size="sm"
                             onClick={goToNextPage}
+                        // disabled={currentPage >= getTotalPages() - 1}
                         >
                             Next
                             <ChevronRight className="w-4 h-4 ml-1" />
