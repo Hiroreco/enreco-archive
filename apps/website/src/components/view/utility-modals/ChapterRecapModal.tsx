@@ -274,7 +274,7 @@ const ChapterRecapModal = ({
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="md:max-w-[1200px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
+                className="md:max-w-[1200px] h-[90dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
                 showXButton={true}
                 backdropFilter={backdropFilter}
             >
