@@ -325,6 +325,7 @@ const ChapterRecapModal = ({
                                                 >
                                                     {data.chapters[chapter].content}
                                                 </ViewMarkdown>
+                                                <Separator className="mt-4" />
                                             </div>
                                         ), [chapter, data.chapters])}
                                     </div>
