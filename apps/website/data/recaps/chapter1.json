@@ -6252,7 +6252,8 @@
       "id": "guard-dog",
       "name": "Guard Dog",
       "style": {
-        "stroke": "#8f6d2d"
+        "stroke": "#8f6d2d",
+        "strokeDasharray": ""
       }
     },
     "bros": {
