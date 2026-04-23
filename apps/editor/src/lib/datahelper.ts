@@ -170,44 +170,48 @@ export async function exportData(editorChapters: EditorChapter[]) {
             numberOfDays: editorChapter.numberOfDays,
             title: editorChapter.title as string,
             charts: editorChapter.charts.map((chart, dayIdx) => {
-                const nodes = chart.nodes.map(
-                    (node) =>
-                        ({
-                            ...node,
-                            type: "image",
+                const nodes = chart.nodes
+                    .filter((node) => node.data?.day === dayIdx)
+                    .map(
+                        (node) =>
+                            ({
+                                ...node,
+                                type: "image",
+                                selected: false,
+                                data: {
+                                    title: node.data.title,
+                                    content: node.data.content,
+                                    imageSrc: node.data.imageSrc,
+                                    teamId: node.data.teamId,
+                                    status: node.data.status,
+                                    day: node.data.day,
+                                    bgCardColor: node.data.bgCardColor,
+                                },
+                            }) as ImageNodeType,
+                    );
+
+                const edges = chart.edges
+                    .filter((edge) => edge.data?.day === dayIdx)
+                    .map((edge) => {
+                        const resultEdge: FixedEdgeType = {
+                            ...edge,
+                            type: "fixed",
                             selected: false,
                             data: {
-                                title: node.data.title,
-                                content: node.data.content,
-                                imageSrc: node.data.imageSrc,
-                                teamId: node.data.teamId,
-                                status: node.data.status,
-                                day: node.data.day,
-                                bgCardColor: node.data.bgCardColor,
+                                relationshipId: edge.data!.relationshipId,
+                                title: edge.data!.title,
+                                content: edge.data!.content,
+                                pathType: edge.data!.pathType,
+                                day: edge.data!.day,
+                                offsets: edge.data!.offsets,
                             },
-                        }) as ImageNodeType,
-                );
-
-                const edges = chart.edges.map((edge) => {
-                    const resultEdge: FixedEdgeType = {
-                        ...edge,
-                        type: "fixed",
-                        selected: false,
-                        data: {
-                            relationshipId: edge.data!.relationshipId,
-                            title: edge.data!.title,
-                            content: edge.data!.content,
-                            pathType: edge.data!.pathType,
-                            day: edge.data!.day,
-                            offsets: edge.data!.offsets,
-                        },
-                    };
-                    // explicitly remove any rendering/style data
-                    if (resultEdge.style) {
-                        delete resultEdge.style;
-                    }
-                    return resultEdge;
-                });
+                        };
+                        // explicitly remove any rendering/style data
+                        if (resultEdge.style) {
+                            delete resultEdge.style;
+                        }
+                        return resultEdge;
+                    });
 
                 const uniqueNodes = ensureUniqueByScope(nodes, chIdx, dayIdx);
                 const uniqueEdges = ensureUniqueByScope(edges, chIdx, dayIdx);
