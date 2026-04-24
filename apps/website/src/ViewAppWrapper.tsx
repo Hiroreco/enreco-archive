@@ -30,7 +30,7 @@ const HoverTabTrigger = ({
     value,
     icon,
     label,
-    selected
+    selected,
 }: {
     value: string;
     icon: React.ReactNode;
@@ -45,7 +45,8 @@ const HoverTabTrigger = ({
         if (labelRef.current) {
             const el = labelRef.current;
             const prev = el.style.cssText;
-            el.style.cssText = "width:auto;opacity:0;position:absolute;pointer-events:none;";
+            el.style.cssText =
+                "width:auto;opacity:0;position:absolute;pointer-events:none;";
             setLabelWidth(el.scrollWidth);
             el.style.cssText = prev;
         }
@@ -67,8 +68,11 @@ const HoverTabTrigger = ({
             </TabsTrigger>
             <motion.span
                 ref={labelRef}
-                className="absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground text-sm"
-                animate={{ width: hovered ? labelWidth : 0, opacity: hovered ? 1 : 0 }}
+                className="absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground text-sm font-semibold"
+                animate={{
+                    width: hovered ? labelWidth : 0,
+                    opacity: hovered ? 1 : 0,
+                }}
                 transition={{ duration: 0.18, ease: "easeOut" }}
             >
                 {label}
@@ -82,7 +86,6 @@ export const ViewAppWrapper = () => {
     const [viewAppVisible, setViewAppVisible] = useState(false);
     const themeType = useSettingStore((state) => state.themeType);
     const tApp = useTranslations("apps");
-
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
     const appType = useViewStore((state) => state.appType);
@@ -127,11 +130,13 @@ export const ViewAppWrapper = () => {
     useEffect(() => {
         const chapterColors = {
             0: "207 39.1% 59.4%", // Blue for Chapter 1
-            1: "340 40% 45%",     // Reddish pink for Chapter 2
-            2: "25 40% 53%",      // Orange for Chapter 3
+            1: "340 40% 45%", // Reddish pink for Chapter 2
+            2: "25 40% 53%", // Orange for Chapter 3
         };
 
-        const accentColor = chapterColors[chapter as keyof typeof chapterColors] || chapterColors[0];
+        const accentColor =
+            chapterColors[chapter as keyof typeof chapterColors] ||
+            chapterColors[0];
         document.documentElement.style.setProperty("--accent", accentColor);
     }, [chapter]);
 
@@ -156,10 +161,14 @@ export const ViewAppWrapper = () => {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.5 }}
-                    className={cn("absolute top-0 left-0 w-screen h-dvh -z-10", {
-                        "brightness-90 dark:brightness-70": currentCard !== null,
-                        "brightness-100": currentCard === null,
-                    })}
+                    className={cn(
+                        "absolute top-0 left-0 w-screen h-dvh -z-10",
+                        {
+                            "brightness-90 dark:brightness-70":
+                                currentCard !== null,
+                            "brightness-100": currentCard === null,
+                        },
+                    )}
                     style={{
                         backgroundImage: `url('${bgImage}')`,
                         backgroundSize: "cover",
@@ -229,9 +238,21 @@ export const ViewAppWrapper = () => {
                             )}
                         >
                             {[
-                                { value: "chart", icon: <Workflow size={24} />, label: tApp("chart") },
-                                { value: "glossary", icon: <LibraryBig size={24} />, label: tApp("glossary") },
-                                { value: "archive", icon: <Film size={24} />, label: tApp("mediaArchive") },
+                                {
+                                    value: "chart",
+                                    icon: <Workflow size={24} />,
+                                    label: tApp("chart"),
+                                },
+                                {
+                                    value: "glossary",
+                                    icon: <LibraryBig size={24} />,
+                                    label: tApp("glossary"),
+                                },
+                                {
+                                    value: "archive",
+                                    icon: <Film size={24} />,
+                                    label: tApp("mediaArchive"),
+                                },
                                 {
                                     value: "bingo",
                                     icon: (
@@ -246,7 +267,13 @@ export const ViewAppWrapper = () => {
                                     label: tApp("bingo"),
                                 },
                             ].map(({ value, icon, label }) => (
-                                <HoverTabTrigger key={value} value={value} icon={icon} label={label} selected={appType === value} />
+                                <HoverTabTrigger
+                                    key={value}
+                                    value={value}
+                                    icon={icon}
+                                    label={label}
+                                    selected={appType === value}
+                                />
                             ))}
                         </TabsList>
                     )}
