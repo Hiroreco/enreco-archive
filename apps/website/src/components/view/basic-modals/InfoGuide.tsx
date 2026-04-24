@@ -21,7 +21,7 @@ const InfoGuide = () => {
         <div className="flex flex-col gap-6">
             {/* General Features Cards */}
             <div>
-                <div className="font-bold text-2xl underline underline-offset-2 mt-4">
+                <div className="font-bold text-xl underline underline-offset-2 mt-4">
                     {t("mainTitle")}
                 </div>
                 <div className="mt-4">{t("mainDescription")}</div>
@@ -141,7 +141,7 @@ const InfoGuide = () => {
             </div>
 
             <div>
-                <div className="font-bold text-2xl underline underline-offset-2 mt-4">
+                <div className="font-bold text-xl underline underline-offset-2 mt-4">
                     {t("otherFeaturesTitle")}
                 </div>
                 <div className="mt-4">{t("otherFeaturesDescription")}</div>
