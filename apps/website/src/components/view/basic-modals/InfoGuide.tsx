@@ -8,6 +8,7 @@ import {
     Newspaper,
     Palette,
     Settings,
+    Workflow,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import InfoGuideCard from "./InfoGuideCard";
@@ -30,71 +31,75 @@ const InfoGuide = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                     <InfoGuideCard
-                        title={t("generalTitle")}
+                        title={t("chartTitle")}
                         description="Navigation, interaction, and content formats"
-                        icon={<LibraryBig size={20} />}
+                        icon={<Workflow size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
+                                {/* Navigation & interaction */}
                                 <div>{t("navigation")}</div>
                                 <div>{t("interaction")}</div>
+
+                                {/* Link type legend */}
                                 <div>
-                                    {t("contentFormat")}
-                                    <ul className="list-disc mt-4 ml-5">
-                                        <li>
-                                            {t.rich("timestamps", {
-                                                bold: (chunks) => (
-                                                    <span className="font-bold">
-                                                        {chunks}
-                                                    </span>
-                                                ),
-                                                timestamp: (chunks) => (
-                                                    <span className="font-medium text-[#6594ba]">
-                                                        {chunks}
-                                                    </span>
-                                                ),
-                                            })}
-                                        </li>
-                                        <li>
-                                            {t.rich("linkers", {
-                                                bold: (chunks) => (
-                                                    <span className="font-bold">
-                                                        {chunks}
-                                                    </span>
-                                                ),
-                                                linker: (chunks) => (
-                                                    <span className="text-red-700 dark:text-red-600 underline underline-offset-2 font-semibold">
-                                                        {chunks}
-                                                    </span>
-                                                ),
-                                            })}
-                                        </li>
-                                        <li>
-                                            {t.rich("texts", {
-                                                bold: (chunks) => (
-                                                    <span className="font-bold inline-flex items-center gap-1">
-                                                        {chunks}
-                                                    </span>
-                                                ),
-                                                icon: () => (
-                                                    <BookOpen size={18} />
-                                                ),
-                                            })}
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="flex flex-col gap-4">
-                                    <div>
-                                        {t.rich("dayRecap", {
-                                            em: (chunks) => <em>{chunks}</em>,
-                                        })}
+                                    <div className="mb-3">
+                                        {t("contentFormat")}
                                     </div>
-                                    <div>
-                                        {t("recommendedOrder")}
-                                        <div className="font-mono sm:text-base text-sm mt-2 text-center">
-                                            {t("orderSequence")}
+                                    <div className="flex flex-col gap-2">
+                                        <div className="grid grid-cols-2 rounded-md border border-border/40 px-3 py-2">
+                                            <span className="font-medium text-[#6594ba] shrink-0 text-sm">
+                                                Nerissa kisses Elizabeth
+                                            </span>
+                                            <div className="text-sm">
+                                                <span className="font-semibold">
+                                                    {t("timestampsLabel")}{" "}
+                                                </span>
+                                                {t("timestamps")}
+                                            </div>
+                                        </div>
+                                        <div className="grid grid-cols-2 rounded-md border border-border/40 px-3 py-2">
+                                            <span className="text-pink-400 underline underline-offset-2 font-semibold shrink-0 text-sm">
+                                                Raora-Tam
+                                            </span>
+                                            <div className="text-sm">
+                                                <span className="font-semibold">
+                                                    {t("linkersLabel")}{" "}
+                                                </span>
+                                                {t("linkers")}
+                                            </div>
+                                        </div>
+                                        <div className="grid grid-cols-2 rounded-md border border-border/40 px-3 py-2">
+                                            <div className="flex items-center gap-2 text-sm">
+                                                <BookOpen
+                                                    size={16}
+                                                    className=""
+                                                />
+                                                <span>Shiori's Journal</span>
+                                            </div>
+                                            <div className="text-sm">
+                                                <span className="font-semibold">
+                                                    {t("textsLabel")}{" "}
+                                                </span>
+                                                {t("texts")}
+                                            </div>
                                         </div>
                                     </div>
-                                    <div>{t("freeExploration")}</div>
+                                </div>
+
+                                {/* Reading order */}
+                                <div>
+                                    {t.rich("dayRecap", {
+                                        em: (chunks) => <em>{chunks}</em>,
+                                    })}
+                                </div>
+                                <div>
+                                    <div>{t("recommendedOrder")}</div>
+                                    <div className="font-mono text-sm mt-2 text-center">
+                                        {t("orderSequence")}
+                                    </div>
+                                </div>
+                                <div className="text-muted-foreground text-sm">
+                                    {t("freeExploration")}
                                 </div>
                             </div>
                         }
