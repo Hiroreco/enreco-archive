@@ -33,7 +33,7 @@ import {
 } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
-import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModal";
+import ChapterRecapModalContainer from "@/components/view/utility-modals/ChapterRecapModalContainer";
 
 import newsDataEn from "#/news.json";
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
@@ -472,7 +472,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 bgImage={bgImage}
             />
 
-            <ChapterRecapModal
+            <ChapterRecapModalContainer
                 key={`chapter-recap-modal-${chapter}`}
                 open={openModal === "chapterRecap"}
                 onClose={closeModal}

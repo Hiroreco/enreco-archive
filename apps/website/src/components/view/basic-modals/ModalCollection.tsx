@@ -8,7 +8,7 @@ import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { Book, Dice6, Disc3, Info, Palette, Settings } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
-import ChapterRecapModal from "../utility-modals/ChapterRecapModal";
+import ChapterRecapModalContainer from "../utility-modals/ChapterRecapModalContainer";
 
 interface ModalCollectionProps {
     modals: ModalType[];
@@ -85,7 +85,7 @@ const ModalCollection = ({
             )}
 
             {modals.includes("chapterRecap") && (
-                <ChapterRecapModal
+                <ChapterRecapModalContainer
                     key={`chapter-recap-modal-${chapter}`}
                     open={openModal === "chapterRecap"}
                     onClose={closeModal}

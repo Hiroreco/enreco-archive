@@ -432,7 +432,10 @@
         "chapter": "第{val}章",
         "allChapters": "全章",
         "section": "第{val}節",
-        "ok": "了解"
+        "ok": "了解",
+        "next": "次へ",
+        "previous": "前へ",
+        "page": "{val}ページ目"
     },
     "navTooltips": {
         "dayRecapVisibility": "デイ要約/表示設定",

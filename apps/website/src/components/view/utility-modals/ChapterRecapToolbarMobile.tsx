@@ -31,6 +31,26 @@ const ChapterRecapToolbar = ({
 }: Props) => {
     const t = useTranslations("common");
 
+    const handleSectionChange = (sectionId: string) => {
+        onSectionChange(sectionId);
+        const element = document.getElementById(sectionId);
+        if (element) {
+            // Get the scroll container (the modal's content area)
+            const container = element.closest('.overflow-auto') as HTMLElement;
+            if (container) {
+                const elementTop = element.offsetTop;
+                const offsetWithPadding = elementTop - 0; // Add padding from top
+                container.scrollTo({
+                    top: Math.max(0, offsetWithPadding),
+                    behavior: "smooth",
+                });
+            } else {
+                // Fallback to original method if container not found
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    };
+
     return (
         <div className="flex items-center gap-4 p-2 border-b">
             <Select
@@ -51,7 +71,7 @@ const ChapterRecapToolbar = ({
 
             <Select
                 value={currentSection}
-                onValueChange={onSectionChange}
+                onValueChange={handleSectionChange}
                 disabled={sections.length === 0}
             >
                 <SelectTrigger className="grow font-bold">
