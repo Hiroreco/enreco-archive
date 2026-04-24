@@ -22,17 +22,13 @@ const InfoGuide = () => {
             {/* General Features Cards */}
             <div>
                 <div className="font-bold text-2xl underline underline-offset-2 mt-4">
-                    Main Features
+                    {t("mainTitle")}
                 </div>
-                <div className="mt-4">
-                    These are the main features for content related things about
-                    the event. Use these features to catch up on the story,
-                    check what you've missed, or simply relive the events
-                </div>
+                <div className="mt-4">{t("mainDescription")}</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                     <InfoGuideCard
                         title={t("chartTitle")}
-                        description="Navigation, interaction, and content formats"
+                        description={t("chartDescription")}
                         icon={<Workflow size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
@@ -48,7 +44,7 @@ const InfoGuide = () => {
                                     <div className="flex flex-col gap-2">
                                         <div className="grid grid-cols-2 rounded-md border border-border/40 px-3 py-2">
                                             <span className="font-medium text-[#6594ba] shrink-0 text-sm">
-                                                Nerissa kisses Elizabeth
+                                                {t("timestampsExample")}
                                             </span>
                                             <div className="text-sm">
                                                 <span className="font-semibold">
@@ -59,7 +55,7 @@ const InfoGuide = () => {
                                         </div>
                                         <div className="grid grid-cols-2 rounded-md border border-border/40 px-3 py-2">
                                             <span className="text-pink-400 underline underline-offset-2 font-semibold shrink-0 text-sm">
-                                                Raora-Tam
+                                                {t("linkersExample")}
                                             </span>
                                             <div className="text-sm">
                                                 <span className="font-semibold">
@@ -74,7 +70,7 @@ const InfoGuide = () => {
                                                     size={16}
                                                     className=""
                                                 />
-                                                <span>Shiori's Journal</span>
+                                                <span>{t("textsExample")}</span>
                                             </div>
                                             <div className="text-sm">
                                                 <span className="font-semibold">
@@ -107,7 +103,7 @@ const InfoGuide = () => {
 
                     <InfoGuideCard
                         title={t("readMarkersTitle")}
-                        description="Track your reading progress"
+                        description={t("readMarkersDescription")}
                         icon={<CheckSquare size={20} />}
                         content={
                             <div>
@@ -119,43 +115,25 @@ const InfoGuide = () => {
                     />
 
                     <InfoGuideCard
-                        title={"Glossary"}
-                        description="Summaries of characters, storylines and more."
+                        title={t("glossaryTitle")}
+                        description={t("glossaryDescription")}
                         icon={<LibraryBig size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
-                                <div>
-                                    The Glossary Tab, represented by the library
-                                    icon on the top left, serves as a
-                                    comprehensive reference for all characters,
-                                    storylines, and important terms related to
-                                    the event.
-                                </div>
+                                <div>{t("glossaryText1")}</div>
 
-                                <div>
-                                    It provides detailed summaries and
-                                    descriptions, allowing you to quickly look
-                                    up information about specific characters or
-                                    storylines without having to search through
-                                    the entire content.
-                                </div>
+                                <div>{t("glossaryText2")}</div>
                             </div>
                         }
                     />
 
                     <InfoGuideCard
-                        title={"Chapter Recap"}
-                        description="Read the key events of each chapter"
+                        title={t("chapterRecapTitle")}
+                        description={t("chapterRecapDescription")}
                         icon={<Book size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
-                                The Chapter Recap Tab, which can be found on the
-                                right side with the book icon, provides concise
-                                summaries of each chapter's key events. This
-                                feature is designed to help you quickly catch up
-                                on the story or refresh your memory about
-                                specific chapters without having to reread
-                                everything.
+                                {t("chapterRecapContent")}
                             </div>
                         }
                     />
@@ -164,93 +142,42 @@ const InfoGuide = () => {
 
             <div>
                 <div className="font-bold text-2xl underline underline-offset-2 mt-4">
-                    Other Features
+                    {t("otherFeaturesTitle")}
                 </div>
-                <div className="mt-4">
-                    These features help with the overall experience of using the
-                    site. You can listen to music used in the event, checkout
-                    hundreds of fanart made ny the community, watch clips, news,
-                    and more!
-                </div>
+                <div className="mt-4">{t("otherFeaturesDescription")}</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                     <InfoGuideCard
-                        title={"Jukebox"}
-                        description="Listen to music used in the event"
+                        title={t("jukeboxTitle")}
+                        description={t("jukeboxDescription")}
                         icon={<Disc3 size={20} />}
-                        content={
-                            <div>
-                                Want to be more immersive in exploring the
-                                content? The Jukebox Tab, represented by the
-                                music disc icon, allows you to listen to the
-                                music used in the event. Whether it's background
-                                music, character themes, or iconic tracks, you
-                                can enjoy them all in one place while navigating
-                                through the content. It's a great way to enhance
-                                your experience and connect more deeply with the
-                                story and its atmosphere.
-                            </div>
-                        }
+                        content={<div>{t("jukeboxContent")}</div>}
                     />
                     <InfoGuideCard
-                        title={"Libestal Gallery"}
-                        description="View fanart made by the community"
+                        title={t("libestalGalleryTitle")}
+                        description={t("libestalGalleryDescription")}
                         icon={<Palette size={20} />}
-                        content={
-                            <div>
-                                The most amazing thing about ENreco is the
-                                community that has formed around it. The
-                                Libestal Gallery Tab, represented by the art
-                                palette icon, is a dedicated space to showcase
-                                the incredible fanart created by the community.
-                                Here, you can browse through hundreds of fanart
-                                pieces inspired by the event, created by
-                                talented artists who share their love for the
-                                story and characters.
-                            </div>
-                        }
+                        content={<div>{t("libestalGalleryContent")}</div>}
                     />
                     <InfoGuideCard
-                        title={"News"}
-                        description="Latest official news about ENreco"
+                        title={t("newsTitle")}
+                        description={t("newsDescription")}
                         icon={<Newspaper size={20} />}
-                        content={
-                            <div>
-                                Stay updated with the latest official news about
-                                ENreco through the News Tab, which is
-                                represented by the news icon. This section
-                                provides you with the most recent announcements,
-                                updates, and important information related to
-                                the event.
-                            </div>
-                        }
+                        content={<div>{t("newsContent")}</div>}
                     />
                     <InfoGuideCard
-                        title={"Media Archive"}
-                        description="Watch clips, trailers, and more"
+                        title={t("mediaArchiveTitle")}
+                        description={t("mediaArchiveDescription")}
                         icon={<Film size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
-                                <div>
-                                    The Media Archive Tab, represented by the
-                                    video icon on the top left, is a treasure
-                                    trove of both fan made clips as well as
-                                    official trailers, and other media related
-                                    to the event.
-                                </div>
-                                <div>
-                                    Not only that, you can also read every
-                                    single written book that was found in the
-                                    event, from journal entries made by the
-                                    talents to official lore books. And, more
-                                    importantly, you can also read fanfics
-                                    written by the community!
-                                </div>
+                                <div>{t("mediaArchiveContent1")}</div>
+                                <div>{t("mediaArchiveContent2")}</div>
                             </div>
                         }
                     />
                     <InfoGuideCard
-                        title={"Bingo!"}
-                        description="Make your own ENreco-themed bingo card"
+                        title={t("bingoTitle")}
+                        description={t("bingoDescription")}
                         icon={
                             <Image
                                 src={"/images-opt/bingo-logo-opt.webp"}
@@ -261,34 +188,18 @@ const InfoGuide = () => {
                         }
                         content={
                             <div className="flex flex-col gap-4">
-                                <div>
-                                    So many unexpected things happen in this
-                                    story, so why not turn it into a game? You
-                                    can now create your own ENreco-themed bingo
-                                    card in the **Bingo tab.**
-                                </div>
-                                <div>
-                                    Write your predictions, mark off events as
-                                    they happen, make a new card each day, or
-                                    use the preset options we’ve prepared. You
-                                    can also export and share your card with
-                                    friends or on social media.
-                                </div>
+                                <div>{t("bingoContent1")}</div>
+                                <div>{t("bingoContent2")}</div>
                             </div>
                         }
                     />
                     <InfoGuideCard
-                        title={"Settings"}
-                        description="Customize your experience and preferences"
+                        title={t("settingsTitle")}
+                        description={t("settingsDescription")}
                         icon={<Settings size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
-                                <div>
-                                    Last but not least, the Settings Tab,
-                                    represented by the gear icon, allows you to
-                                    customize your experience and preferences on
-                                    the site.
-                                </div>
+                                <div>{t("settingsContent1")}</div>
                             </div>
                         }
                     />
