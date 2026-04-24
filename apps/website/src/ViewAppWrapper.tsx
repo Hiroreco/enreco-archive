@@ -67,7 +67,7 @@ const HoverTabTrigger = ({
             </TabsTrigger>
             <motion.span
                 ref={labelRef}
-                className="absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground"
+                className="absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground text-sm"
                 animate={{ width: hovered ? labelWidth : 0, opacity: hovered ? 1 : 0 }}
                 transition={{ duration: 0.18, ease: "easeOut" }}
             >
