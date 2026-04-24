@@ -325,7 +325,7 @@ const ChapterRecapModal = ({
                     <div className="overflow-hidden flex-1 relative" ref={contentRef}>
                         {/* Vertical separator between pages */}
                         <div
-                            className="absolute left-1/2 top-0 bottom-0 w-px bg-border/50 transform -translate-x-1/2 pointer-events-none z-10 transition-opacity duration-[30ms]"
+                            className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-border/50 transform -translate-x-1/2 pointer-events-none z-10 transition-opacity duration-[100ms]"
                             style={{ opacity: isSeparatorVisible ? 1 : 0 }}
                         />
                         <AnimatePresence mode="wait">
