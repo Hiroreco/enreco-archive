@@ -13,6 +13,7 @@ import {
 import { useTranslations } from "next-intl";
 import InfoGuideCard from "./InfoGuideCard";
 import Image from "next/image";
+import Lightbox from "@/components/view/lightbox/Lightbox";
 
 const InfoGuide = () => {
     const t = useTranslations("modals.infoGuide");
@@ -32,6 +33,11 @@ const InfoGuide = () => {
                         icon={<Workflow size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto mt-4"
+                                    src="/images-opt/guide-chart-opt.webp"
+                                    alt={t("chartTitle")}
+                                />
                                 {/* Navigation & interaction */}
                                 <div>{t("navigation")}</div>
                                 <div>{t("interaction")}</div>
@@ -107,6 +113,11 @@ const InfoGuide = () => {
                         icon={<CheckSquare size={20} />}
                         content={
                             <div>
+                                <Lightbox
+                                    className="mx-auto mb-4"
+                                    src="/images-opt/guide-read-marker-opt.webp"
+                                    alt={t("readMarkersTitle")}
+                                />
                                 {t.rich("readMarkers", {
                                     em: (chunks) => <em>{chunks}</em>,
                                 })}
@@ -120,6 +131,11 @@ const InfoGuide = () => {
                         icon={<LibraryBig size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto"
+                                    src="/images-opt/guide-glossary-opt.webp"
+                                    alt={t("glossaryTitle")}
+                                />
                                 <div>{t("glossaryText1")}</div>
 
                                 <div>{t("glossaryText2")}</div>
@@ -133,6 +149,11 @@ const InfoGuide = () => {
                         icon={<Book size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto"
+                                    src="/images-opt/guide-chapter-recap-opt.webp"
+                                    alt={t("chapterRecapTitle")}
+                                />
                                 {t("chapterRecapContent")}
                             </div>
                         }
@@ -150,19 +171,46 @@ const InfoGuide = () => {
                         title={t("jukeboxTitle")}
                         description={t("jukeboxDescription")}
                         icon={<Disc3 size={20} />}
-                        content={<div>{t("jukeboxContent")}</div>}
+                        content={
+                            <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto"
+                                    src="/images-opt/guide-jukebox-opt.webp"
+                                    alt={t("jukeboxTitle")}
+                                />
+                                {t("jukeboxContent")}
+                            </div>
+                        }
                     />
                     <InfoGuideCard
                         title={t("libestalGalleryTitle")}
                         description={t("libestalGalleryDescription")}
                         icon={<Palette size={20} />}
-                        content={<div>{t("libestalGalleryContent")}</div>}
+                        content={
+                            <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto"
+                                    src="/images-opt/guide-libestal-gallery-opt.webp"
+                                    alt={t("libestalGalleryTitle")}
+                                />
+                                {t("libestalGalleryContent")}
+                            </div>
+                        }
                     />
                     <InfoGuideCard
                         title={t("newsTitle")}
                         description={t("newsDescription")}
                         icon={<Newspaper size={20} />}
-                        content={<div>{t("newsContent")}</div>}
+                        content={
+                            <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto"
+                                    src="/images-opt/guide-news-opt.webp"
+                                    alt={t("newsTitle")}
+                                />
+                                {t("newsContent")}
+                            </div>
+                        }
                     />
                     <InfoGuideCard
                         title={t("mediaArchiveTitle")}
@@ -170,6 +218,11 @@ const InfoGuide = () => {
                         icon={<Film size={20} />}
                         content={
                             <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto"
+                                    src="/images-opt/guide-media-archive-opt.webp"
+                                    alt={t("mediaArchiveTitle")}
+                                />
                                 <div>{t("mediaArchiveContent1")}</div>
                                 <div>{t("mediaArchiveContent2")}</div>
                             </div>
