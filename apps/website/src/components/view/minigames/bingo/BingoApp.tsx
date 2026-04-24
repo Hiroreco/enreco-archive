@@ -15,10 +15,38 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Info } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@enreco-archive/common-ui/components/button";
+import Image from "next/image";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { useAudioStore } from "@/store/audioStore";
+import { useEffect } from "react";
 
 const BingoApp = () => {
     const t = useTranslations("modals.minigames.games.bingo");
     const tCommon = useTranslations("common");
+
+    const {
+        playEasterEgg,
+        initializeEasterEgg,
+        cleanupEasterEgg,
+        easterEggStates,
+    } = useAudioStore();
+    const eggName = "nerissa";
+    const eggState = easterEggStates[eggName];
+    const isPlaying = eggState?.isPlaying || false;
+
+    useEffect(() => {
+        initializeEasterEgg(eggName);
+
+        return () => {
+            cleanupEasterEgg(eggName);
+        };
+    }, [eggName, initializeEasterEgg, cleanupEasterEgg]);
+
+    const handleClick = () => {
+        if (!isPlaying) {
+            playEasterEgg(eggName);
+        }
+    };
 
     return (
         <div className="w-screen flex flex-col items-center justify-center overflow-hidden h-dvh">
@@ -26,6 +54,26 @@ const BingoApp = () => {
                 <div className="pb-2 text-center md:block hidden">
                     <h2 className="text-lg font-semibold">{t("label")}</h2>
                     <p className="text-sm text-muted-foreground">{t("desc")}</p>
+                </div>
+
+                <div className="absolute md:top-0 bottom-0 md:right-4 right-16 h-[120px] overflow-hidden md:rotate-x-180">
+                    <Image
+                        width={100}
+                        height={100}
+                        src="images-opt/easter-nerissa-opt.webp"
+                        draggable={false}
+                        className={cn(
+                            "mx-auto opacity-50 translate-y-[50%] transition-opacity",
+                            {
+                                "cursor-pointer opacity-50 hover:opacity-80":
+                                    !isPlaying,
+                                "opacity-80": isPlaying,
+                            },
+                        )}
+                        onClick={handleClick}
+                        alt="potato salid"
+                        priority={true}
+                    />
                 </div>
 
                 <BingoGame />
