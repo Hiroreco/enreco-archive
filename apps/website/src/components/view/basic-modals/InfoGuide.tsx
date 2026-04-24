@@ -34,9 +34,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto mt-4"
+                                    className="mx-auto mt-4 w-[80%]"
                                     src="/images-opt/guide-chart-opt.webp"
                                     alt={t("chartTitle")}
+                                    width={1845}
+                                    height={1025}
                                 />
                                 {/* Navigation & interaction */}
                                 <div>{t("navigation")}</div>
@@ -114,9 +116,11 @@ const InfoGuide = () => {
                         content={
                             <div>
                                 <Lightbox
-                                    className="mx-auto mb-4"
+                                    className="mx-auto mb-4 w-[80%]"
                                     src="/images-opt/guide-read-marker-opt.webp"
                                     alt={t("readMarkersTitle")}
+                                    width={1376}
+                                    height={852}
                                 />
                                 {t.rich("readMarkers", {
                                     em: (chunks) => <em>{chunks}</em>,
@@ -132,9 +136,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto"
+                                    className="mx-auto w-[60%]"
                                     src="/images-opt/guide-glossary-opt.webp"
                                     alt={t("glossaryTitle")}
+                                    width={1008}
+                                    height={949}
                                 />
                                 <div>{t("glossaryText1")}</div>
 
@@ -150,9 +156,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto"
+                                    className="mx-auto w-[80%]"
                                     src="/images-opt/guide-chapter-recap-opt.webp"
                                     alt={t("chapterRecapTitle")}
+                                    width={1267}
+                                    height={974}
                                 />
                                 {t("chapterRecapContent")}
                             </div>
@@ -174,9 +182,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto"
+                                    className="mx-auto w-[70%]"
                                     src="/images-opt/guide-jukebox-opt.webp"
                                     alt={t("jukeboxTitle")}
+                                    width={832}
+                                    height={725}
                                 />
                                 {t("jukeboxContent")}
                             </div>
@@ -189,9 +199,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto"
+                                    className="mx-auto w-[80%]"
                                     src="/images-opt/guide-libestal-gallery-opt.webp"
                                     alt={t("libestalGalleryTitle")}
+                                    width={1338}
+                                    height={962}
                                 />
                                 {t("libestalGalleryContent")}
                             </div>
@@ -204,9 +216,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto"
+                                    className="mx-auto w-[70%]"
                                     src="/images-opt/guide-news-opt.webp"
                                     alt={t("newsTitle")}
+                                    width={1207}
+                                    height={973}
                                 />
                                 {t("newsContent")}
                             </div>
@@ -219,9 +233,11 @@ const InfoGuide = () => {
                         content={
                             <div className="flex flex-col gap-4">
                                 <Lightbox
-                                    className="mx-auto"
+                                    className="mx-auto w-[80%]"
                                     src="/images-opt/guide-media-archive-opt.webp"
                                     alt={t("mediaArchiveTitle")}
+                                    width={1520}
+                                    height={967}
                                 />
                                 <div>{t("mediaArchiveContent1")}</div>
                                 <div>{t("mediaArchiveContent2")}</div>
