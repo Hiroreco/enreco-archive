@@ -7,9 +7,11 @@ import {
     LibraryBig,
     Newspaper,
     Palette,
+    Settings,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import InfoGuideCard from "./InfoGuideCard";
+import Image from "next/image";
 
 const InfoGuide = () => {
     const t = useTranslations("modals.infoGuide");
@@ -237,6 +239,50 @@ const InfoGuide = () => {
                                     talents to official lore books. And, more
                                     importantly, you can also read fanfics
                                     written by the community!
+                                </div>
+                            </div>
+                        }
+                    />
+                    <InfoGuideCard
+                        title={"Bingo!"}
+                        description="Make your own ENreco-themed bingo card"
+                        icon={
+                            <Image
+                                src={"/images-opt/bingo-logo-opt.webp"}
+                                alt="bingo icon"
+                                width={20}
+                                height={20}
+                            />
+                        }
+                        content={
+                            <div className="flex flex-col gap-4">
+                                <div>
+                                    So many unexpected things happen in this
+                                    story, so why not turn it into a game? You
+                                    can now create your own ENreco-themed bingo
+                                    card in the **Bingo tab.**
+                                </div>
+                                <div>
+                                    Write your predictions, mark off events as
+                                    they happen, make a new card each day, or
+                                    use the preset options we’ve prepared. You
+                                    can also export and share your card with
+                                    friends or on social media.
+                                </div>
+                            </div>
+                        }
+                    />
+                    <InfoGuideCard
+                        title={"Settings"}
+                        description="Customize your experience and preferences"
+                        icon={<Settings size={20} />}
+                        content={
+                            <div className="flex flex-col gap-4">
+                                <div>
+                                    Last but not least, the Settings Tab,
+                                    represented by the gear icon, allows you to
+                                    customize your experience and preferences on
+                                    the site.
                                 </div>
                             </div>
                         }

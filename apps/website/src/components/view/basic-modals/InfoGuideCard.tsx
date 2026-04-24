@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
     DialogClose,
@@ -8,9 +8,8 @@ import {
     DialogHeader,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useTranslations } from "next-intl";
-import { Button } from "@enreco-archive/common-ui/components/button";
+import React, { useState } from "react";
 
 interface InfoGuideCardProps {
     title: string;
@@ -45,12 +44,10 @@ const InfoGuideCard = ({
                 <DialogContent className="max-w-2xl">
                     <DialogHeader>
                         <DialogTitle>{title}</DialogTitle>
-                        <DialogDescription>
-                            {description}
-                        </DialogDescription>
+                        <DialogDescription>{description}</DialogDescription>
                     </DialogHeader>
 
-                    <div className="flex flex-col gap-4 mt-4 max-h-[60vh] overflow-y-auto">
+                    <div className="flex flex-col gap-4 mt-4 max-h-[60vh] overflow-y-auto px-2">
                         <div className="text-foreground/80">{content}</div>
                     </div>
 
