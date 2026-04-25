@@ -1,9 +1,8 @@
-import { useState } from "react";
-import { Locale, useTranslations } from "next-intl";
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
-import { useSettingStore } from "@/store/settingStore";
 import { LS_KEYS } from "@/lib/constants";
-import { MessageCircle } from "lucide-react";
+import { useSettingStore } from "@/store/settingStore";
+import { Locale, useTranslations } from "next-intl";
+import { useState } from "react";
 
 const getDateInLocale = (date: Date, locale: Locale): string => {
     return new Intl.DateTimeFormat(locale, {
@@ -23,7 +22,7 @@ const InfoGeneral = () => {
             {/* Header */}
             <div className="flex flex-col gap-1">
                 <span className="text-2xl font-bold">{t("title")}</span>
-                <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-sm italic">
+                <div className="flex flex-wrap gap-x-1 gap-y-0.5 text-sm italic">
                     <span>
                         {t("updatedOn", {
                             date: getDateInLocale(
@@ -38,12 +37,11 @@ const InfoGeneral = () => {
                             {t("changelog")}
                         </span>
                     </span>
-                    <span>·</span>
+                    <span className="hidden md:block">·</span>
                     <a
-                        href="https://docs.google.com/forms/..."
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfiGd4FwosNnW2W8JdB8th0482LZMASbUnoNsAMPERxN7yZmw/viewform?usp=dialog"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="not-italic"
                     >
                         {t("feedbackLabel")}
                     </a>
@@ -58,7 +56,7 @@ const InfoGeneral = () => {
                 <span className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
                     {t("whatIsTitle")}
                 </span>
-                <div className="border border-border/40 rounded-xl p-4 flex flex-col gap-3">
+                <div className="border rounded-xl p-4 flex flex-col gap-3">
                     <p className="text-muted-foreground">
                         {t.rich("whatIsIntro", {
                             shortName: t("shortName"),
@@ -82,21 +80,21 @@ const InfoGeneral = () => {
 
             {/* Notes + Guidelines */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div className="border border-border/40 rounded-xl p-4">
-                    <p className="font-medium mb-2">How to</p>
+                <div className="border rounded-xl p-4">
+                    <p className="font-medium mb-2">{t("howToTitle")}</p>
 
                     <div>
-                        For instructions on how to use the Archive and what
-                        features it provides, please refer to the{" "}
-                        <strong>Guide</strong> section.
+                        {t.rich("howToContent", {
+                            strong: (chunks) => <strong>{chunks}</strong>,
+                        })}
                     </div>
                     <div className="text-sm text-muted-foreground mt-2">
                         {t("performanceNote")}
                     </div>
                 </div>
-                <div className="border border-border/40 rounded-xl p-4">
+                <div className="border rounded-xl p-4">
                     <p className="font-medium mb-2">{t("notesTitle")}</p>
-                    <p className="leading-relaxed mb-2">{t("notesContent")}</p>
+                    <p className="mb-2">{t("notesContent")}</p>
                     <ul className="list-disc mt-4 text-muted-foreground">
                         <li>{t("watchStreams")}</li>
                         <li>{t("checkClips")}</li>
@@ -105,8 +103,8 @@ const InfoGeneral = () => {
             </div>
 
             {/* Contact */}
-            <div className="border border-border/40 rounded-xl px-4 py-3 text-sm">
-                <p className="font-medium">Contact</p>
+            <div className="border rounded-xl px-4 py-3 text-sm">
+                <p className="font-medium">{t("contactTitle")}</p>
                 <div className="mt-2">
                     {t.rich("teamInfo", {
                         "twitter-link": (chunks) => (
@@ -128,7 +126,7 @@ const InfoGeneral = () => {
             </div>
 
             {/* Guidelines */}
-            <div className="border border-border/40 rounded-xl p-4 text-sm">
+            <div className="border rounded-xl p-4 text-sm">
                 <p className="font-medium mb-2">{t("guidelinesTitle")}</p>
                 <p className="leading-relaxed">
                     {t.rich("guidelinesContent", {
