@@ -1,5 +1,5 @@
 "use client";
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { memo, useEffect, useMemo, useRef, useState } from "react";
 
 import InfoModal from "@/components/view/basic-modals/InfoModal";
 import DayRecapCard from "@/components/view/chart-cards/DayRecapCard";
@@ -368,17 +368,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         }
     }
 
-    const setChartShrinkAndFit = useCallback(
-        (width: number) => {
-            if (width !== chartShrink) {
-                setTimeout(() => {
-                    setChartShrink(width);
-                }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
-            }
-        },
-        [chartShrink],
-    );
-
     useEffect(() => {
         if (!hasVisitedBefore && !isInLoadingScreen) {
             openInfoModal();
@@ -528,7 +517,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     if (!hasVisitedBefore) {
                         setHasVisitedBefore(true);
                         closeModal();
-                        onSettingsCardOpen();
+                        openSettingsCard();
                     } else {
                         closeModal();
                     }
