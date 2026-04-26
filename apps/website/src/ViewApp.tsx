@@ -368,18 +368,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         }
     }
 
-    useEffect(() => {
-        if (!hasVisitedBefore && !isInLoadingScreen) {
-            openInfoModal();
-        }
-    });
-
-    // When user opens the news modal, update the stored latest seen date
-    useEffect(() => {
-        if (openModal === "news") {
-            setLatestNewsDate(latestNewsIso);
-        }
-    }, [openModal, setLatestNewsDate, latestNewsIso]);
+    function openNewsModalHandler() {
+        setLatestNewsDate(latestNewsIso);
+        openNewsModal();
+    }
 
     useEffect(() => {
         // When locale changes, refresh the current data to get localized content
@@ -639,7 +631,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     tooltipText={tNavTooltips("news")}
                     enabled={true}
                     tooltipSide="left"
-                    onClick={openNewsModal}
+                    onClick={openNewsModalHandler}
                 >
                     <Newspaper />
                     {newNewsCount > 0 && (
