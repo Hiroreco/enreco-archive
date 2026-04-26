@@ -8,7 +8,7 @@ import NodeCard from "@/components/view/chart-cards/NodeCard";
 import { useViewStore } from "@/store/viewStore";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 
-import Chart from "@/components/view/chart/Chart";
+import Chart, { ChartInstance } from "@/components/view/chart/Chart";
 import ReadCounter from "@/components/view/chart/ReadCounter";
 import TransportControls from "@/components/view/chart/TransportControls";
 import MiniGameModal from "@/components/view/minigames/MiniGameModal";
@@ -31,7 +31,7 @@ import {
     Settings,
     BarChart3,
 } from "lucide-react";
-import VaulDrawer, { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
+import VaulDrawer from "./components/view/chart-cards/VaulDrawer";
 
 import ChapterRecapModalContainer from "@/components/view/utility-modals/ChapterRecapModalContainer";
 
@@ -80,6 +80,10 @@ interface Props {
 }
 
 let didInit = false;
+
+const CARD_OPEN_PADDING = 0.1;
+const NORMAL_PADDING = 0.5;
+
 const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const tNavTooltips = useTranslations("navTooltips");
     const tReadStatus = useTranslations("modals.readStatus");
@@ -162,6 +166,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setLatestNewsDate = useSettingStore(
         (state) => state.setLatestNewsDate,
     );
+    const autoPanBack = useSettingStore((state) => state.autoPanBack);
 
     const newNewsCount = useMemo(() => {
         if (!latestSeenNewsDate) return 0;
@@ -181,6 +186,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const [isDrawerOpen, setDrawerOpen] = useState(false);
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
     const disableWidthChange = useRef<boolean>(true);
+    const chartRef = useRef<ChartInstance>(null);
 
     /* Data variables */
     const { getSiteData, getChapter } = useLocalizedData();
@@ -304,8 +310,14 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     }
 
     function onDrawerOpenWidthChange(width: number) {
-        if (currentCard !== null && !isMobile && !disableWidthChange.current) {
+        if (
+            currentCard !== null &&
+            !isMobile &&
+            !disableWidthChange.current &&
+            chartRef.current !== null
+        ) {
             setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
+            chartRef.current.chartFitView(selectedElement, CARD_OPEN_PADDING, width + 56);
         }
     }
 
@@ -315,6 +327,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         selectElement(node);
         setNodeCard();
         disableWidthChange.current = false;
+
+        // If we just opened the drawer, defer chart fit view until we have the size of drawer.
+        if (selectedElement !== null && chartRef.current !== null) {
+            chartRef.current.chartFitView(selectedElement, CARD_OPEN_PADDING, chartShrink);
+        }
     }
 
     function openEdgeCard(edge: FixedEdgeType) {
@@ -322,6 +339,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         selectElement(edge);
         setEdgeCard();
         disableWidthChange.current = false;
+
+        // If we just opened the drawer, defer chart fit view until we have the size of drawer.
+        if (selectedElement !== null && chartRef.current !== null) {
+            chartRef.current.chartFitView(edge, CARD_OPEN_PADDING, chartShrink);
+        }
     }
 
     function openSettingsCard() {
@@ -329,12 +351,21 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         deselectElement();
         setSettingsCard();
         disableWidthChange.current = false;
+
+        // If we just opened the drawer, defer chart fit view until we have the size of drawer.
+        if (chartRef.current !== null) {
+            chartRef.current.chartFitView(null, CARD_OPEN_PADDING, chartShrink);
+        }
     }
 
     function closeCard() {
         setDrawerOpen(false);
         setChartShrink(0);
         disableWidthChange.current = true;
+
+        if (chartRef.current !== null && autoPanBack) {
+            chartRef.current.chartFitView(null, NORMAL_PADDING, 0);
+        }
     }
 
     const setChartShrinkAndFit = useCallback(
@@ -368,6 +399,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         // DO NOT add the rest of the missing dependencies, it will cause an infinite loop, screw react
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
+
+    // When chapter changes, center the chart.
+    useEffect(() => {
+        if (chartRef.current !== null) {
+            chartRef.current.chartFitView(null, NORMAL_PADDING, 0);
+        }
+    }, [chapter]);
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -436,10 +474,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 {chapter <= 1 && (
                     <Chart
-                        widthToShrink={chartShrink}
                         onNodeClick={openNodeCard}
                         onEdgeClick={openEdgeCard}
                         onPaneClick={closeCard}
+                        ref={chartRef}
                     />
                 )}
                 {/* Coming soon card, shown for chapter 3 only */}

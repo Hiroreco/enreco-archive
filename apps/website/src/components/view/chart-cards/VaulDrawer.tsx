@@ -21,8 +21,6 @@ const DRAWER_CONTENT_CLASSES =
     "md:w-[40%] md:h-[94%] md:bottom-[3%] md:top-[3%] md:left-auto md:right-14 md:rounded-xl " +
     "shadow-2xl";
 
-export const DRAWER_OPEN_CLOSE_ANIM_TIME_MS = 500;
-
 interface VaulDrawerProps {
     open: boolean;
     onClose: () => void;
@@ -72,12 +70,10 @@ export default function VaulDrawer({
             contentNode.getBoundingClientRect().width,
         );
 
-        console.log("reportContentWidth called", newContentDivWidth);
         onOpenWidthChange?.(newContentDivWidth);
     }
 
     function onOpenChange(newOpenState: boolean) {
-        console.log("onOpenChange called", newOpenState);
         if(!newOpenState) {
             onClose();
         }
