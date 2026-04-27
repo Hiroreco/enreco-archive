@@ -133,6 +133,28 @@
             "specialThanks": "Special Thanks",
             "specialThanksDiscord": "To everyone at the ENigmatic Recollection Lore Discord Server for providing additional resources and emotional support, as well as to the artists featured in the Fanart Gallery for granting us permission to use their work in this project. All artworks and their creators are properly credited and can be found in that section.",
             "specialThanksLyger": "To <link>lyger</link>, the official scenario writer for ENigmatic Recollection, for assisting with the proofreading of all lore-related content and offering invaluable feedback for the site.",
+            "archiveEntries": {
+                "archiveWriter": {
+                    "0": "Chapter 1: Everything. Chapter 2: IRyS, Mococo, Fuwawa, Shiori.",
+                    "1": "Chapter 2: Gigi",
+                    "2": "Chapter 2: Bijou",
+                    "3": "Chapter 2: Raora",
+                    "4": "Chapter 2: Cecilia",
+                    "5": "Chapter 2: Ina, Nerissa",
+                    "6": "Chapter 2: Liz",
+                    "7": "Chapter 2: Nerissa",
+                    "8": "Chapter 2: Kiara, Calli",
+                    "9": "Chapter 2: Kronii"
+                },
+                "archiveAssistant": {
+                    "0": "Chapter 2:",
+                    "1": "Chapter 2:",
+                    "2": "Chapter 2:",
+                    "3": "Chapter 2:",
+                    "4": "Chapter 2:",
+                    "5": "Chapter 2:"
+                }
+            },
             "roles": {
                 "Project Lead": "Project Lead",
                 "Main Developer": "Main Developer",
