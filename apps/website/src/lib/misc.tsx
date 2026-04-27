@@ -10,8 +10,23 @@ import {
     Star,
 } from "lucide-react";
 
+export type Contributor = {
+    name: string;
+    socials: string | null;
+    credits?: {
+        en: string[];
+        ja?: string[];
+    };
+};
+
+export type Credit = {
+    role: string;
+    icon: React.JSX.Element;
+    contributors: Contributor[];
+};
+
 const iconSize = 20;
-export const CONTRIBUTORS = [
+export const CONTRIBUTORS: Credit[] = [
     {
         role: "Project Lead",
         icon: <Star size={iconSize} />,
@@ -136,14 +151,6 @@ export const CONTRIBUTORS = [
                 name: "Minhatory",
                 socials: "https://x.com/minhatory ",
             },
-            {
-                name: "tom8o",
-                socials: "https://x.com/Tom_8o",
-            },
-            {
-                name: "Aki",
-                socials: "https://x.com/Aki_Zaychik",
-            },
         ],
     },
     {
@@ -153,46 +160,94 @@ export const CONTRIBUTORS = [
             {
                 name: "Hiro",
                 socials: "https://x.com/hiroavrs",
+                credits: {
+                    en: ["Too many to list out"],
+                    ja: ["挙げきれないほどたくさん"],
+                },
             },
             {
                 name: "Zephyr Kitten",
                 socials: "https://x.com/ZephyrKitten",
+                credits: {
+                    en: ["Chapter 2: Gigi related entries"],
+                    ja: ["第2章：ジジ関連のエントリー"],
+                },
             },
 
             {
                 name: "Fayelinya Luna",
                 socials: "https://fayelinyaluna.carrd.co/",
+                credits: {
+                    en: ["Chapter 2: Bijou related entries"],
+                    ja: ["第2章：ビジュー関連のエントリー"],
+                },
             },
             {
                 name: "Alfy",
                 socials: "https://x.com/knightalfy",
+                credits: {
+                    en: ["Chapter 2: Bae, Shiori related entries"],
+                    ja: ["第2章：ベー、シオリ関連のエントリー"],
+                },
             },
             {
                 name: "KuyaGray",
                 socials: "https://x.com/KuyaGray",
+                credits: {
+                    en: ["Chapter 2: Cecilia related entries"],
+                    ja: ["第2章：セシリア関連のエントリー"],
+                },
             },
 
             {
                 name: "TsukiBep",
                 socials: "https://x.com/tsukibep",
+                credits: {
+                    en: ["Chapter 2: Ina related entries"],
+                    ja: ["第2章：イナ関連のエントリー"],
+                },
             },
 
             {
                 name: "SB",
                 socials: "https://x.com/SBERBholo",
+                credits: {
+                    en: ["Chapter 2: Elizabeth related entries"],
+                    ja: ["第2章：エリザベス関連のエントリー"],
+                },
             },
             {
                 name: "Zel",
                 socials: "https://x.com/zelmaelstrom",
+                credits: {
+                    en: ["Chapter 2: Nerissa related entries"],
+                    ja: ["第2章：ネリッサ関連のエントリー"],
+                },
             },
 
             {
                 name: "Perks",
                 socials: "https://x.com/PerksJAZZBERI",
+                credits: {
+                    en: ["Chapter 2: Kiara related entries"],
+                    ja: ["第2章：キアラ関連のエントリー"],
+                },
             },
             {
                 name: "esca",
                 socials: "https://x.com/esca_prod",
+                credits: {
+                    en: ["Chapter 2: Kronii related entries"],
+                    ja: ["第2章：クロニー関連のエントリー"],
+                },
+            },
+            {
+                name: "tom8o",
+                socials: "https://x.com/Tom_8o",
+                credits: {
+                    en: ["Chapter 2: Gigi related entries"],
+                    ja: ["第2章：ジジ関連のエントリー"],
+                },
             },
         ],
     },
