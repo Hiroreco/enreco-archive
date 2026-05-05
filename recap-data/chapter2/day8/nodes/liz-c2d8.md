@@ -71,6 +71,8 @@ Elizabeth is shocked by Nerissa's change. She has sworn herself as a knight to t
 
 <!-- shiori -->
 
+["This is my prediction for enreco s3" by renshifter](https://x.com/renshifter/status/2041212391791452560)
+
 ## Memes
 
 ["Behind the scenes filming jump scare" by ERB](https://x.com/ERBloodflame/status/1922836899917332646)

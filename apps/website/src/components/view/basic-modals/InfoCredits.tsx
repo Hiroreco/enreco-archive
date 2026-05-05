@@ -1,11 +1,21 @@
-import { CONTRIBUTORS } from "@/lib/misc";
+import { Contributor, CONTRIBUTORS } from "@/lib/misc";
+import { useSettingStore } from "@/store/settingStore";
 import { useTranslations } from "next-intl";
 import React from "react";
 
-interface Contributor {
-    name: string;
-    socials: string | null;
-}
+type ArchiveEntries = Record<string, string>;
+
+const ContributorLink = ({ contributor }: { contributor: Contributor }) => {
+    if (contributor.socials === null) {
+        return <span>{contributor.name}</span>;
+    }
+
+    return (
+        <a href={contributor.socials} target="_blank" rel="noopener noreferrer">
+            {contributor.name}
+        </a>
+    );
+};
 
 const CreditBlock = ({
     role,
@@ -18,28 +28,15 @@ const CreditBlock = ({
 }) => {
     const t = useTranslations("modals.infoCredits.roles");
     return (
-        <div className="text-center sm:text-left">
-            <div className="flex underline underline-offset-2 gap-2 items-center font-bold justify-center sm:justify-start">
+        <div className="text-center">
+            <div className="flex underline underline-offset-2 gap-2 items-center font-bold justify-center">
                 {icon}
                 {t(role)}
             </div>
             <ul className="list-disc mt-2">
                 {contributors.map((contributor, index) => (
-                    <li
-                        className="flex gap-2 justify-center sm:justify-start"
-                        key={index}
-                    >
-                        {contributor.socials === null ? (
-                            <span>{contributor.name}</span>
-                        ) : (
-                            <a
-                                href={contributor.socials}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {contributor.name}
-                            </a>
-                        )}
+                    <li className="flex gap-2 justify-center" key={index}>
+                        <ContributorLink contributor={contributor} />
                     </li>
                 ))}
             </ul>
@@ -50,6 +47,7 @@ const CreditBlock = ({
 const InfoCredits = () => {
     const t = useTranslations("modals.infoCredits");
     const tRoles = useTranslations("modals.infoCredits.roles");
+    const locale = useSettingStore((state) => state.locale);
 
     const archiverCredits = CONTRIBUTORS.filter(
         (credit) => credit.role === "Archive Writer",
@@ -67,9 +65,9 @@ const InfoCredits = () => {
     );
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 text-center">
             <span className="font-bold text-3xl mt-4">{t("title")}</span>
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-4">
                 {CONTRIBUTORS.filter(
                     (credit) =>
                         credit.role === "Project Lead" ||
@@ -86,67 +84,41 @@ const InfoCredits = () => {
             </div>
 
             {/* Archivers */}
-            <div className="grid lg:grid-cols-2 gap-4">
-                <div className="flex flex-col lg:items-center gap-2">
-                    <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
-                        {archiverCredits[0].icon}
-                        {tRoles(archiverCredits[0].role)}
-                    </div>
-                    <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 text-center sm:text-left">
-                        {archiverCredits[0].contributors.map(
-                            (contributor, index) => (
+            <div className="grid grid-cols-1 gap-6">
+                {[archiverCredits[0], archiveAssistants[0]].map((credit) => (
+                    <div className="flex flex-col gap-2" key={credit.role}>
+                        <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center">
+                            {credit.icon}
+                            {tRoles(credit.role)}
+                        </div>
+                        <div className="grid md:grid-cols-2 md:gap-x-6 gap-y-4">
+                            {credit.contributors.map((contributor, index) => (
                                 <div
-                                    className="flex gap-2 justify-center sm:justify-start"
-                                    key={index}
+                                    className="flex flex-col items-center text-center"
+                                    key={`${credit.role}-${contributor.name}-${index}`}
                                 >
-                                    {contributor.socials === null ? (
-                                        <span>{contributor.name}</span>
-                                    ) : (
-                                        <a
-                                            href={contributor.socials}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            {contributor.name}
-                                        </a>
-                                    )}
+                                    <ContributorLink
+                                        contributor={contributor}
+                                    />
+                                    <div className="leading-relaxed text-sm text-muted-foreground">
+                                        {contributor.credits
+                                            ? contributor.credits[locale]?.map(
+                                                  (credit, idx) => (
+                                                      <div key={idx}>
+                                                          {credit}
+                                                      </div>
+                                                  ),
+                                              )
+                                            : null}
+                                    </div>
                                 </div>
-                            ),
-                        )}
+                            ))}
+                        </div>
                     </div>
-                </div>
-
-                <div className="flex flex-col lg:mx-auto gap-2">
-                    <div className="flex gap-2 items-center underline underline-offset-2 font-bold justify-center sm:justify-start">
-                        {archiveAssistants[0].icon}
-                        {tRoles(archiveAssistants[0].role)}
-                    </div>
-                    <div className="grid sm:grid-cols-2 gap-2 text-center sm:text-left">
-                        {archiveAssistants[0].contributors.map(
-                            (contributor, index) => (
-                                <div
-                                    className="flex gap-2 justify-center sm:justify-start"
-                                    key={index}
-                                >
-                                    {contributor.socials === null ? (
-                                        <span>{contributor.name}</span>
-                                    ) : (
-                                        <a
-                                            href={contributor.socials}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            {contributor.name}
-                                        </a>
-                                    )}
-                                </div>
-                            ),
-                        )}
-                    </div>
-                </div>
+                ))}
             </div>
 
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-4">
                 {otherCredits.map((credit) => (
                     <CreditBlock
                         key={credit.role}
@@ -157,14 +129,10 @@ const InfoCredits = () => {
                 ))}
             </div>
 
-            <div className="font-bold text-center sm:text-left">
-                {t("specialThanks")}
-            </div>
+            <div className="font-bold text-left">{t("specialThanks")}</div>
 
-            <div className="text-center sm:text-left -mt-2">
-                {t("specialThanksDiscord")}
-            </div>
-            <div className="text-center sm:text-left -mt-2">
+            <div className="text-left -mt-2">{t("specialThanksDiscord")}</div>
+            <div className="text-left -mt-2">
                 {t.rich("specialThanksLyger", {
                     link: (chunks) => (
                         <a

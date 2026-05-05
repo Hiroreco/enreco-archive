@@ -39,6 +39,8 @@
 
 ## ファンアート
 
+["Enreco but photocards" by hanasnom](https://x.com/hanasnom/status/2044931397253525849)
+
 ["kneel" by sumo](https://x.com/sumo88_/status/1900190544602734862)
 
 ["💙🎼" by latte](https://x.com/leuvi_tte/status/1902565329823568215)

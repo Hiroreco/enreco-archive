@@ -21,6 +21,10 @@ As the day neared its end, preparations for the _Ocean Temple Dungeon_ began. Jo
 
 [What a happy occasion, huzzah!](#embed:https://www.youtube.com/live/kB2jUKUsxtE?t=12550)
 
+## Fanart
+
+["Humble knight" by angartissart](https://x.com/angartissart/status/2034594597884809432)
+
 ## Memes
 
-["*teleports behind you*" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)
+["_teleports behind you_" by Kazuki Ich](https://x.com/kazukiich/status/1831250639596483048)

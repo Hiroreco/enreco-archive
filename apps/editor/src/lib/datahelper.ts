@@ -95,34 +95,66 @@ export async function loadData(setData: (newData: EditorChapter[]) => void) {
     fileInput.accept = "application/zip";
 
     fileInput.addEventListener("change", async (event) => {
-        const target = event.target as HTMLInputElement;
-        if (!target.files) return;
-        const file = target.files[0];
-        if (
-            file.type !== "application/zip" &&
-            file.type !== "application/x-zip-compressed"
-        )
-            return;
+        try {
+            const target = event.target as HTMLInputElement;
+            if (!target.files) {
+                console.warn("loadData: No files selected");
+                return;
+            }
+            const file = target.files[0];
+            if (!file) {
+                console.warn("loadData: No file found");
+                return;
+            }
+            console.log(`loadData: Loading file "${file.name}" (type: ${file.type})`);
+            
+            if (
+                file.type !== "application/zip" &&
+                file.type !== "application/x-zip-compressed"
+            ) {
+                console.warn(`loadData: Invalid file type "${file.type}". Expected application/zip`);
+                return;
+            }
 
-        const zipData = await file.arrayBuffer();
-        const zipFile = await JSZip.loadAsync(zipData);
-        const metadataFile = zipFile.file("metadata.json");
-        if (!metadataFile) return;
-        const metadataData = await metadataFile.async("uint8array");
-        const metadata: EditorSaveMetadata = JSON.parse(
-            utf8Decoder.decode(metadataData),
-        );
-        if (metadata.version !== SAVE_VERSION) return;
+            const zipData = await file.arrayBuffer();
+            const zipFile = await JSZip.loadAsync(zipData);
+            console.log(`loadData: Zip loaded successfully. Files:`, Object.keys(zipFile.files));
+            
+            const metadataFile = zipFile.file("metadata.json");
+            if (!metadataFile) {
+                console.error("loadData: metadata.json not found in zip file");
+                return;
+            }
+            
+            const metadataData = await metadataFile.async("uint8array");
+            const metadata: EditorSaveMetadata = JSON.parse(
+                utf8Decoder.decode(metadataData),
+            );
+            console.log(`loadData: Metadata loaded. Version: ${metadata.version}, Chapters: ${metadata.numChapters}`);
+            
+            if (metadata.version !== SAVE_VERSION) {
+                console.error(`loadData: Version mismatch. Expected ${SAVE_VERSION}, got ${metadata.version}`);
+                return;
+            }
 
-        const data: EditorChapter[] = [];
-        for (let i = 0; i < metadata.numChapters; i++) {
-            const name = getChapterFileName(i);
-            const file = zipFile.file(name);
-            if (!file) continue;
-            const arr = await file.async("uint8array");
-            data.push(JSON.parse(utf8Decoder.decode(arr)));
+            const data: EditorChapter[] = [];
+            for (let i = 0; i < metadata.numChapters; i++) {
+                const name = getChapterFileName(i);
+                const file = zipFile.file(name);
+                if (!file) {
+                    console.warn(`loadData: Chapter file "${name}" not found`);
+                    continue;
+                }
+                console.log(`loadData: Loading chapter file "${name}"`);
+                const arr = await file.async("uint8array");
+                data.push(JSON.parse(utf8Decoder.decode(arr)));
+            }
+            
+            console.log(`loadData: Successfully loaded ${data.length} chapters`);
+            setData(data);
+        } catch (error) {
+            console.error("loadData: Error during file load:", error);
         }
-        setData(data);
     });
 
     fileInput.click();
@@ -136,46 +168,50 @@ export async function exportData(editorChapters: EditorChapter[]) {
         const editorChapter = editorChapters[chIdx];
         const resultChapter: Chapter = {
             numberOfDays: editorChapter.numberOfDays,
-            title: editorChapter.title,
+            title: editorChapter.title as string,
             charts: editorChapter.charts.map((chart, dayIdx) => {
-                const nodes = chart.nodes.map(
-                    (node) =>
-                        ({
-                            ...node,
-                            type: "image",
+                const nodes = chart.nodes
+                    .filter((node) => node.data?.day === dayIdx)
+                    .map(
+                        (node) =>
+                            ({
+                                ...node,
+                                type: "image",
+                                selected: false,
+                                data: {
+                                    title: node.data.title,
+                                    content: node.data.content,
+                                    imageSrc: node.data.imageSrc,
+                                    teamId: node.data.teamId,
+                                    status: node.data.status,
+                                    day: node.data.day,
+                                    bgCardColor: node.data.bgCardColor,
+                                },
+                            }) as ImageNodeType,
+                    );
+
+                const edges = chart.edges
+                    .filter((edge) => edge.data?.day === dayIdx)
+                    .map((edge) => {
+                        const resultEdge: FixedEdgeType = {
+                            ...edge,
+                            type: "fixed",
                             selected: false,
                             data: {
-                                title: node.data.title,
-                                content: node.data.content,
-                                imageSrc: node.data.imageSrc,
-                                teamId: node.data.teamId,
-                                status: node.data.status,
-                                day: node.data.day,
-                                bgCardColor: node.data.bgCardColor,
+                                relationshipId: edge.data!.relationshipId,
+                                title: edge.data!.title,
+                                content: edge.data!.content,
+                                pathType: edge.data!.pathType,
+                                day: edge.data!.day,
+                                offsets: edge.data!.offsets,
                             },
-                        }) as ImageNodeType,
-                );
-
-                const edges = chart.edges.map((edge) => {
-                    const resultEdge: FixedEdgeType = {
-                        ...edge,
-                        type: "fixed",
-                        selected: false,
-                        data: {
-                            relationshipId: edge.data!.relationshipId,
-                            title: edge.data!.title,
-                            content: edge.data!.content,
-                            pathType: edge.data!.pathType,
-                            day: edge.data!.day,
-                            offsets: edge.data!.offsets,
-                        },
-                    };
-                    // explicitly remove any rendering/style data
-                    if (resultEdge.style) {
-                        delete resultEdge.style;
-                    }
-                    return resultEdge;
-                });
+                        };
+                        // explicitly remove any rendering/style data
+                        if (resultEdge.style) {
+                            delete resultEdge.style;
+                        }
+                        return resultEdge;
+                    });
 
                 const uniqueNodes = ensureUniqueByScope(nodes, chIdx, dayIdx);
                 const uniqueEdges = ensureUniqueByScope(edges, chIdx, dayIdx);

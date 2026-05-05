@@ -49,7 +49,7 @@ const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 showXButton={false}
-                className="rounded-lg h-[85vh] max-h-none max-w-[600px] md:w-[80vw] flex flex-col justify-end"
+                className="rounded-lg h-[90dvh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
             >
                 <DialogHeader>
                     <DialogTitle className="text-center">
@@ -71,12 +71,11 @@ const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
                         ).map((entry, index) => (
                             <div
                                 key={entry.date}
-                                className={`border-l-4 pl-4 ${index === 0 ? "border-orange-500" : "border-green-500"}`} // Example: different colors for variety
                             >
                                 <ViewMarkdown
                                     className="prose prose-sm prose-invert max-w-none"
-                                    onEdgeLinkClicked={() => {}}
-                                    onNodeLinkClicked={() => {}}
+                                    onEdgeLinkClicked={() => { }}
+                                    onNodeLinkClicked={() => { }}
                                 >
                                     {entry.content}
                                 </ViewMarkdown>

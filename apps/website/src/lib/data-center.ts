@@ -1,48 +1,39 @@
-import siteMeta from "#/metadata.json";
 import {
     Chapter,
     ChapterRecapData,
     GlossaryPageData,
+    LocalizedChapter,
+    LocalizedChapterRecapData,
     SiteData,
     Song,
-    TextData,
+    SongRaw,
+    TextData
 } from "@enreco-archive/common/types";
 
-import chapter0_en from "#/en/chapter0_en.json";
-import chapter1_en from "#/en/chapter1_en.json";
-// import chapter2_en from "#/en/chapter2_en.json";
-import chapter0_ja from "#/ja/chapter0_ja.json";
-import chapter1_ja from "#/ja/chapter1_ja.json";
+import siteMeta from "#/recaps/metadata.json";
+import chapter0 from "#/recaps/chapter0.json";
+import chapter1 from "#/recaps/chapter1.json";
+import chapter2 from "#/recaps/chapter2.json";
 
-import textData_en from "#/en/text-data_en.json";
-import textData_ja from "#/ja/text-data_ja.json";
+import text from "#/text.json";
 
-import characters_en from "#/en/glossary/characters_en.json";
-import lore_en from "#/en/glossary/lore_en.json";
-import misc_en from "#/en/glossary/misc_en.json";
-import quests_en from "#/en/glossary/quests_en.json";
-import weapons_en from "#/en/glossary/weapons_en.json";
-import characters_ja from "#/ja/glossary/characters_ja.json";
-import lore_ja from "#/ja/glossary/lore_ja.json";
-import misc_ja from "#/ja/glossary/misc_ja.json";
-import quests_ja from "#/ja/glossary/quests_ja.json";
-import weapons_ja from "#/ja/glossary/weapons_ja.json";
+import characters from "#/glossary/characters.json";
+import lore from "#/glossary/lore.json";
+import misc from "#/glossary/misc.json";
+import quests from "#/glossary/quests.json";
+import weapons from "#/glossary/weapons.json";
 
-import songs_en from "#/en/songs_en.json";
-import songs_ja from "#/ja/songs_ja.json";
+import songs_raw from "#/songs.json";
 
-import chapterRecaps_en from "#/en/chapter-recaps_en.json";
-import chapterRecaps_ja from "#/ja/chapter-recaps_ja.json";
+import chapterRecaps from "#/chapter-recaps.json";
 
-import media_archive_en from "#/en/media-archive_en.json";
-import media_archive_ja from "#/ja/media-archive_ja.json";
+import media_archive from "#/media-archive.json";
 
-import changelogs_en from "#/en/changelogs_en.json";
-import changelogs_ja from "#/ja/changelogs_ja.json";
+import changelogs from "#/changelogs.json";
 
-import clips_en from "#/en/clips_en.json";
+import clips from "#/clips.json";
 
-import fanfic_data_en from "#/en/fanfics.json";
+import fanfic_data_en from "#/fanfics.json";
 
 import { FanficEntry } from "@/components/view/media-archive/text-archive/types";
 import {
@@ -72,43 +63,200 @@ interface LocalizedData {
     fanficData: FanficEntry[];
 }
 
+// Transform raw songs to locale-specific songs
+const transformSongs = (
+    rawSongs: Record<string, SongRaw[]>,
+    locale: Locale,
+): Record<string, Song[]> => {
+    const result: Record<string, Song[]> = {};
+
+    for (const [category, songs] of Object.entries(rawSongs)) {
+        result[category] = songs.map((song) => ({
+            ...song,
+            info: song.info[locale],
+        }));
+    }
+
+    return result;
+};
+
+// Convert localized glossary to locale-specific format for components
+const convertLocalizedGlossary = (
+    glossaryCategories: Record<string, Record<string, any>>,
+    locale: Locale,
+): Record<string, Record<string, any>> => {
+    const result: Record<string, Record<string, any>> = {};
+
+    // For each category (weapons, characters, lore, quests, misc)
+    for (const [categoryKey, glossaryData] of Object.entries(
+        glossaryCategories,
+    )) {
+        const convertedCategory: Record<string, any> = {};
+
+        // For each subcategory within the category
+        for (const [subcategory, entries] of Object.entries(glossaryData)) {
+            convertedCategory[subcategory] = (entries as any[]).map(
+                (entry: any) => ({
+                    ...entry,
+                    title: entry.title[locale],
+                    content: entry.content[locale],
+                    quote: entry.quote[locale],
+                    galleryImages: entry.galleryImages?.map((img: any) => ({
+                        ...img,
+                        title: img.title[locale],
+                    })),
+                }),
+            );
+        }
+
+        result[categoryKey] = convertedCategory;
+    }
+
+    return result;
+};
+
+// Convert localized media archive to locale-specific format for components
+const convertLocalizedRecollectionArchive = (
+    archive: Array<any>,
+    locale: Locale,
+): RecollectionArchiveEntry[] => {
+    return archive.map((entry) => ({
+        id: entry.id,
+        title: entry.title[locale],
+        description: entry.description[locale],
+        info: entry.info[locale],
+        chapter: entry.chapter,
+        thumbnailUrl: entry.thumbnailUrl,
+        entries: entry.entries.map((media: any) => ({
+            title: media.title[locale],
+            originalUrl: media.originalUrl,
+            thumbnailUrl: media.thumbnailUrl,
+            info: media.info[locale],
+            src: media.src,
+            type: media.type,
+        })),
+    }));
+};
+
+// Convert localized changelogs to locale-specific format for components
+const convertLocalizedChangelogs = (
+    changelogs: Array<any>,
+    locale: Locale,
+): Array<{ date: string; content: string }> => {
+    return changelogs.map((entry) => ({
+        date: entry.date,
+        content: entry.content[locale],
+    }));
+};
+
+// Convert localized chapter recaps to locale-specific format for components
+const convertLocalizedChapterRecaps = (
+    recaps: LocalizedChapterRecapData,
+    locale: Locale,
+): ChapterRecapData => {
+    return {
+        chapters: recaps.chapters.map((chapter) => ({
+            title: chapter.title[locale],
+            content: chapter.content[locale],
+        })),
+    };
+};
+
+// Convert localized chapter to locale-specific format
+const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chapterIndex: number): Chapter => {
+    const chapterPrefix = `ch${chapterIndex}-`;
+    
+    // Create a map of original node IDs to namespaced IDs for edge reference updates
+    const nodeIdMap = new Map<string, string>();
+    
+    return {
+        numberOfDays: chapter.numberOfDays,
+        title: chapter.title[locale],
+        charts: chapter.charts.map((chart: any) => ({
+            dayRecap: chart.dayRecap[locale],
+            title: chart.title[locale],
+            nodes: chart.nodes.map((node: any) => {
+                const newId = `${chapterPrefix}${node.id}`;
+                nodeIdMap.set(node.id, newId);
+                
+                const processedNode = {
+                    ...node,
+                    // Namespace node IDs by chapter to prevent collisions and match with namespaced edges
+                    id: newId,
+                };
+                
+                // Extract locale-specific node content if it's localized
+                if (node.data?.content && typeof node.data.content === 'object' && node.data.content[locale]) {
+                    processedNode.data = {
+                        ...node.data,
+                        content: node.data.content[locale],
+                    };
+                }
+                
+                return processedNode;
+            }),
+            edges: chart.edges.map((edge: any) => {
+                const processedEdge = {
+                    ...edge,
+                    // Namespace edge IDs by chapter to prevent SVG marker collision
+                    id: `${chapterPrefix}${edge.id}`,
+                    // Update source and target to use namespaced node IDs
+                    source: `${chapterPrefix}${edge.source}`,
+                    target: `${chapterPrefix}${edge.target}`,
+                };
+                
+                // Extract locale-specific edge content if it's localized
+                if (edge.data?.content && typeof edge.data.content === 'object' && edge.data.content[locale]) {
+                    processedEdge.data = {
+                        ...edge.data,
+                        content: edge.data.content[locale],
+                    };
+                }
+                
+                return processedEdge;
+            }),
+        })),
+        teams: chapter.teams,
+        relationships: chapter.relationships,
+        bgiSrc: chapter.bgiSrc,
+        bgmSrc: chapter.bgmSrc,
+    };
+};
+
+// Factory function to create locale-specific data
+const createLocalizedData = (locale: Locale): LocalizedData => ({
+    chapters: [
+        convertLocalizedChapter(chapter0 as LocalizedChapter, locale, 0),
+        convertLocalizedChapter(chapter1 as LocalizedChapter, locale, 1),
+        convertLocalizedChapter(chapter2 as LocalizedChapter, locale, 2),
+    ],
+    textData: text as TextData,
+    glossary: convertLocalizedGlossary(
+        {
+            weapons: weapons as any,
+            characters: characters as any,
+            lore: lore as any,
+            quests: quests as any,
+            misc: misc as any,
+        } as any,
+        locale,
+    ) as any,
+    songs: transformSongs(songs_raw as Record<string, SongRaw[]>, locale),
+    chapterRecap: convertLocalizedChapterRecaps(
+        chapterRecaps as LocalizedChapterRecapData,
+        locale,
+    ),
+    changelogs: convertLocalizedChangelogs(changelogs as any, locale),
+    recollectionArchive: convertLocalizedRecollectionArchive(
+        media_archive as any,
+        locale,
+    ) as RecollectionArchiveEntry[],
+    fanficData: fanfic_data_en,
+});
+
 const DATA: Record<Locale, LocalizedData> = {
-    en: {
-        chapters: [
-            chapter0_en as Chapter,
-            chapter1_en as Chapter,
-            // chapter2_en as Chapter,
-        ],
-        textData: textData_en as TextData,
-        glossary: {
-            weapons: weapons_en,
-            characters: characters_en,
-            lore: lore_en,
-            quests: quests_en,
-            misc: misc_en,
-        },
-        songs: songs_en,
-        chapterRecap: chapterRecaps_en,
-        changelogs: changelogs_en,
-        recollectionArchive: media_archive_en as RecollectionArchiveEntry[],
-        fanficData: fanfic_data_en,
-    },
-    ja: {
-        chapters: [chapter0_ja as Chapter, chapter1_ja as Chapter],
-        textData: textData_ja as TextData,
-        glossary: {
-            weapons: weapons_ja,
-            characters: characters_ja,
-            lore: lore_ja,
-            quests: quests_ja,
-            misc: misc_ja,
-        },
-        songs: songs_ja,
-        chapterRecap: chapterRecaps_ja,
-        changelogs: changelogs_ja,
-        recollectionArchive: media_archive_ja as RecollectionArchiveEntry[],
-        fanficData: fanfic_data_en,
-    },
+    en: createLocalizedData("en"),
+    ja: createLocalizedData("ja"),
 };
 
 export const getChapterData = (
@@ -118,8 +266,38 @@ export const getChapterData = (
     return DATA[locale].chapters[chapterIndex];
 };
 
+// Convert localized text data to locale-specific format for components
+const convertLocalizedTextData = (
+    textData: TextData,
+    locale: Locale,
+): Record<string, any> => {
+    const result: Record<string, any> = {};
+
+    for (const [key, group] of Object.entries(textData)) {
+        result[key] = {
+            chapter: group.chapter,
+            category: group.category,
+            title: group.title[locale],
+            description: group.description[locale],
+            entries: group.entries.map((entry) => ({
+                id: entry.id,
+                title: entry.title[locale],
+                content: entry.content[locale],
+                hasAudio: entry.hasAudio,
+            })),
+        };
+    }
+
+    return result;
+};
+
 export const getTextData = (locale: Locale): TextData => {
     return DATA[locale].textData;
+};
+
+// Get text data in locale-specific flattened format (for UI components)
+export const getLocalizedTextData = (locale: Locale) => {
+    return convertLocalizedTextData(DATA[locale].textData, locale);
 };
 
 const CATEGORY_KEY_MAP: Record<Category, keyof LocalizedData["glossary"]> = {
@@ -157,11 +335,14 @@ export const getTextItem = (locale: Locale, textId: string) => {
         const entry = group.entries.find((e) => e.id === textId);
         if (entry) {
             return {
-                ...entry,
+                id: entry.id,
+                content: entry.content[locale],
+                title: entry.title[locale],
+                hasAudio: entry.hasAudio,
                 chapter: group.chapter,
                 category: group.category,
-                groupTitle: group.title,
-                groupDescription: group.description,
+                groupTitle: group.title[locale],
+                groupDescription: group.description[locale],
             };
         }
     }
@@ -182,22 +363,7 @@ export const getRecollectionArchive = (locale: Locale) => {
 };
 
 export const getClipsData = (locale: Locale): ClipsData => {
-    const clipsData = clips_en as ClipsData;
-
-    if (locale === "ja") {
-        return {
-            clips: clipsData.clips.map((clip) => ({
-                ...clip,
-                title: clip.title_ja || clip.title,
-            })),
-            streams: clipsData.streams.map((stream) => ({
-                ...stream,
-                title: stream.title_ja || stream.title,
-            })),
-        };
-    }
-
-    return clipsData;
+    return clips as ClipsData;
 };
 export const getFanficData = (locale: Locale) => {
     return DATA[locale].fanficData;

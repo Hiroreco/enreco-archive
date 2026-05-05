@@ -92,46 +92,22 @@ export function getCardFanartData(content: string): {
         };
     }
 
-    // Process all sections
+    // Process all sections - extract fanart links and mark sections for removal
     const resolvedFanartEntries: FanartEntry[] = [];
-    const sectionsToRemove: number[] = [];
 
     for (const section of sections) {
         const sectionLines = lines.slice(section.startIndex + 1, section.endIndex);
-        const linesToKeepFromSection: string[] = [];
 
+        // Extract all fanart links from this section
         for (const line of sectionLines) {
             const urlMatches = Array.from(line.matchAll(FANART_LINK_RE));
-
-            if (urlMatches.length === 0) {
-                // No URLs in line, keep it (empty lines, text)
-                linesToKeepFromSection.push(line);
-            } else {
-                // Check which URLs are fanart and which are not
-                let hasNonFanartUrl = false;
-                for (const match of urlMatches) {
-                    const url = match[1];
-                    const entry = fanartEntryMap.get(normalizeFanartUrl(url));
-                    if (entry) {
-                        resolvedFanartEntries.push(entry);
-                    } else {
-                        hasNonFanartUrl = true;
-                    }
-                }
-
-                // Keep line if it has any non-fanart URLs
-                if (hasNonFanartUrl) {
-                    linesToKeepFromSection.push(line);
+            for (const match of urlMatches) {
+                const url = match[1];
+                const entry = fanartEntryMap.get(normalizeFanartUrl(url));
+                if (entry) {
+                    resolvedFanartEntries.push(entry);
                 }
             }
-        }
-
-        // Mark section for removal if no content to keep
-        const hasContentToKeep = linesToKeepFromSection.some((line) =>
-            line.trim(),
-        );
-        if (!hasContentToKeep) {
-            sectionsToRemove.push(section.startIndex);
         }
     }
 
@@ -142,10 +118,9 @@ export function getCardFanartData(content: string): {
         };
     }
 
-    // Remove sections in reverse order (so indices don't shift)
+    // Remove all fanart sections in reverse order (so indices don't shift)
     let newLines = [...lines];
-    for (const sectionStartIndex of sectionsToRemove.sort((a, b) => b - a)) {
-        const section = sections.find((s) => s.startIndex === sectionStartIndex)!;
+    for (const section of [...sections].reverse()) {
         newLines.splice(section.startIndex, section.endIndex - section.startIndex);
     }
 

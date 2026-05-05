@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 interface CardFanartCarouselProps {
     fanartEntries: FanartEntry[];
@@ -55,8 +55,18 @@ const CardFanartCarousel = ({
     const carouselRef = useRef<HTMLDivElement>(null);
     const [selectedEntryIndex, setSelectedEntryIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(true);
 
     const selectedEntry = fanartEntries[selectedEntryIndex] ?? fanartEntries[0];
+
+    const updateScrollState = useCallback(() => {
+        if (!carouselRef.current) return;
+
+        const { scrollLeft, scrollWidth, clientWidth } = carouselRef.current;
+        setCanScrollLeft(scrollLeft > 0);
+        setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+    }, []);
 
     const galleryItems = useMemo<GalleryItem[]>(() => {
         if (!selectedEntry) {
@@ -84,21 +94,41 @@ const CardFanartCarousel = ({
         ];
     }, [selectedEntry]);
 
+    // Update scroll state on mount and when entries change
+    useEffect(() => {
+        updateScrollState();
+        const carousel = carouselRef.current;
+        if (!carousel) return;
+
+        carousel.addEventListener("scroll", updateScrollState);
+        window.addEventListener("resize", updateScrollState);
+
+        return () => {
+            carousel.removeEventListener("scroll", updateScrollState);
+            window.removeEventListener("resize", updateScrollState);
+        };
+    }, [updateScrollState, fanartEntries.length]);
+
     const handleOpenEntry = useCallback((index: number) => {
         setSelectedEntryIndex(index);
         setIsLightboxOpen(true);
     }, []);
 
-    const handleScroll = useCallback((direction: "left" | "right") => {
-        if (!carouselRef.current) {
-            return;
-        }
+    const handleScroll = useCallback(
+        (direction: "left" | "right") => {
+            if (!carouselRef.current) {
+                return;
+            }
 
-        carouselRef.current.scrollBy({
-            left: direction === "left" ? -260 : 260,
-            behavior: "smooth",
-        });
-    }, []);
+            carouselRef.current.scrollBy({
+                left: direction === "left" ? -260 : 260,
+                behavior: "smooth",
+            });
+
+            setTimeout(updateScrollState, 100);
+        },
+        [updateScrollState],
+    );
 
     const handleNextEntry = useCallback(() => {
         setSelectedEntryIndex((currentIndex) =>
@@ -136,6 +166,7 @@ const CardFanartCarousel = ({
                             size="icon"
                             className="h-8 w-8 rounded-full"
                             onClick={() => handleScroll("left")}
+                            disabled={!canScrollLeft}
                             aria-label={tSection("scrollLeft")}
                         >
                             <ChevronLeft className="size-4" />
@@ -146,6 +177,7 @@ const CardFanartCarousel = ({
                             size="icon"
                             className="h-8 w-8 rounded-full"
                             onClick={() => handleScroll("right")}
+                            disabled={!canScrollRight}
                             aria-label={tSection("scrollRight")}
                         >
                             <ChevronRight className="size-4" />

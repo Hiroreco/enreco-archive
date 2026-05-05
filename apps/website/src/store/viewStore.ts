@@ -19,7 +19,9 @@ export type ModalType =
     | "read-counter"
     | "changelog"
     | "news"
+    | "stats"
     | null;
+export type AppType = "chart" | "glossary" | "archive" | "bingo";
 
 type ViewStoreType = ViewDataSlice &
     ViewUiSlice &
@@ -33,6 +35,9 @@ interface ViewDataSlice {
 
     day: number;
     setDay: (day: number) => void;
+
+    appType: AppType;
+    setAppType: (appType: AppType) => void;
 }
 
 const createDataSlice: StateCreator<ViewStoreType, [], [], ViewDataSlice> = (
@@ -43,6 +48,9 @@ const createDataSlice: StateCreator<ViewStoreType, [], [], ViewDataSlice> = (
 
     day: 0,
     setDay: (newDay) => set(() => ({ day: newDay })),
+
+    appType: "chart",
+    setAppType: (newAppType) => set(() => ({ appType: newAppType })),
 });
 
 /** Slice to hold various ui state. */
@@ -204,6 +212,7 @@ interface ViewModalSlice {
     openReadCounterModal: () => void;
     openChangeLogModal: () => void;
     openNewsModal: () => void;
+    openStatsModal: () => void;
     closeModal: () => void;
     videoUrl: string | null;
     setVideoUrl: (currentVideoUrl: string | null) => void;
@@ -222,6 +231,7 @@ const createModalSlice: StateCreator<ViewStoreType, [], [], ViewModalSlice> = (
     openMusicPlayerModal: () => set(() => ({ openModal: "music" })),
     openReadCounterModal: () => set(() => ({ openModal: "read-counter" })),
     openNewsModal: () => set(() => ({ openModal: "news" })),
+    openStatsModal: () => set(() => ({ openModal: "stats" })),
 
     openChangeLogModal: () => set(() => ({ openModal: "changelog" })),
     closeModal: () => set(() => ({ openModal: null })),

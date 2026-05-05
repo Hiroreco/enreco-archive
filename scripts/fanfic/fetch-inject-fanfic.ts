@@ -265,7 +265,7 @@ async function scrapeAO3Fanfics() {
         console.log(`Found ${links.length} AO3 links`);
 
         let fanfics: FanficEntry[] = [];
-        const outputPath = "apps/website/data/en/fanfics.json";
+        const outputPath = "apps/website/data/fanfics.json";
 
         if (fs.existsSync(outputPath)) {
             const existingData = fs.readFileSync(outputPath, "utf-8");

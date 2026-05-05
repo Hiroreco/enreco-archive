@@ -55,122 +55,198 @@ async function walkDir(dir: string): Promise<string[]> {
     return files;
 }
 
-async function processSubfolder(fileArg: string, locale: string) {
-    const localeSuffix = `_${locale}`;
+async function processSubfolder(fileArg: string) {
+    // Map to track items: subcategory -> id -> { en, ja }
+    const itemMap = new Map<string, Map<string, { en: Partial<CommonItemData>; ja: Partial<CommonItemData> }>>();
 
-    const baseDir = path.resolve(
-        process.cwd(),
-        locale === "en" ? "recap-data" : `recap-data_${locale}`,
-        "glossary",
-        fileArg,
-    );
+    // Process both EN and JA locales
+    for (const locale of ["en", "ja"] as const) {
+        const baseDir = path.resolve(
+            process.cwd(),
+            locale === "en" ? "recap-data" : `recap-data_${locale}`,
+            "glossary",
+            fileArg,
+        );
 
-    // Ensure it exists and is a directory
-    let stat;
-    try {
-        stat = await fs.stat(baseDir);
-        if (!stat.isDirectory()) throw new Error();
-    } catch {
-        console.warn(`Skipping non-directory: ${baseDir}`);
-        return;
+        // Ensure it exists and is a directory
+        let stat;
+        try {
+            stat = await fs.stat(baseDir);
+            if (!stat.isDirectory()) throw new Error();
+        } catch {
+            console.warn(`Skipping non-directory: ${baseDir}`);
+            continue;
+        }
+
+        // List immediate subdirectories (these become keys in the output JSON)
+        const subEntries = await fs.readdir(baseDir, { withFileTypes: true });
+        const subfolders = subEntries
+            .filter((e) => e.isDirectory())
+            .map((e) => e.name);
+
+        for (const subcat of subfolders) {
+            const subDir = path.join(baseDir, subcat);
+            // Find every .md under subDir (recursively)
+            const mdPaths = await walkDir(subDir);
+
+            if (!itemMap.has(subcat)) {
+                itemMap.set(subcat, new Map());
+            }
+            const subcatMap = itemMap.get(subcat)!;
+
+            for (const fullPath of mdPaths) {
+                const id = path.basename(fullPath, ".md").replace("_ja", "");
+
+                const raw = await fs.readFile(fullPath, "utf-8");
+                const lines = raw.split(/\r?\n/);
+
+                // parse HTML comments
+                let title = "";
+                let quote = "";
+                let chapterArr: number[] = [];
+                let imageTitles: string[] = [];
+                let model = false;
+
+                for (let i = 0; i < lines.length; i++) {
+                    const l = lines[i].trim();
+                    if (!l.startsWith("<!--")) continue;
+                    const m = l.match(/^<!--\s*(\w+)\s*:\s*(.*?)\s*-->$/);
+                    if (!m) continue;
+                    const [, key, val] = m;
+
+                    switch (key) {
+                        case "title":
+                            title = val;
+                            break;
+
+                        case "quote":
+                            quote = val;
+                            break;
+
+                        case "chapters":
+                            // split on commas, parse each as integer
+                            chapterArr =
+                                val
+                                    .split(",")
+                                    .map((s) => parseInt(s.trim(), 10))
+                                    .filter((n) => !isNaN(n)) || [];
+                            break;
+
+                        case "images":
+                            const t: string[] = [];
+                            for (const m2 of val.matchAll(/\((.*?)\)/g)) {
+                                t.push(m2[1]);
+                            }
+                            imageTitles = t;
+                            break;
+
+                        case "model":
+                            model = val.toLowerCase() === "true";
+                            break;
+                    }
+                }
+
+                // find where comments end, skip blank line, then rest is content
+                let idx = 0;
+                while (idx < lines.length && lines[idx].trim().startsWith("<!--"))
+                    idx++;
+                if (lines[idx]?.trim() === "") idx++;
+                const content = lines.slice(idx).join("\n").trim();
+
+                // build galleryImages
+                const galleryImages: GalleryImage[] = imageTitles.map((t, i) => ({
+                    title: t,
+                    source: `/images-opt/${id}-${i}-opt.webp`,
+                }));
+
+                const thumbnailSrc = `/images-opt/${id}-opt-thumb.webp`;
+                const modelSrc = model ? `/models/${id}.glb` : undefined;
+                const imageSrc = model ? undefined : `/images-opt/${id}-opt.webp`;
+
+                // Initialize entry if not exists
+                if (!subcatMap.has(id)) {
+                    subcatMap.set(id, {
+                        en: {},
+                        ja: {},
+                    });
+                }
+
+                // Populate this locale's data
+                const entry = subcatMap.get(id)!;
+                (entry as any)[locale] = {
+                    id,
+                    title,
+                    chapters: chapterArr,
+                    quote: quote || undefined,
+                    content,
+                    thumbnailSrc,
+                    galleryImages,
+                    ...(model ? { modelSrc } : { imageSrc }),
+                };
+            }
+        }
+
+        console.log(`✅ Processed ${locale.toUpperCase()} glossary for '${fileArg}'`);
     }
 
-    // List immediate subdirectories (these become keys in the output JSON)
-    const subEntries = await fs.readdir(baseDir, { withFileTypes: true });
-    const subfolders = subEntries
-        .filter((e) => e.isDirectory())
-        .map((e) => e.name);
+    // Build result with merged entries
+    const result: { [subcategory: string]: CommonItemData[] } = {};
 
-    const result: GlossaryPageData = {};
-
-    for (const subcat of subfolders) {
-        const subDir = path.join(baseDir, subcat);
-        // Find every .md under subDir (recursively)
-        const mdPaths = await walkDir(subDir);
-
+    for (const [subcat, subcatMap] of itemMap) {
         const items: CommonItemData[] = [];
-        for (const fullPath of mdPaths) {
-            const id = path
-                .basename(fullPath, ".md")
-                .replace(/(_jp|_ja)$/i, "")
-                .replace(/-jp$|-ja$/i, "");
 
-            const raw = await fs.readFile(fullPath, "utf-8");
-            const lines = raw.split(/\r?\n/);
+        for (const [id, locales] of subcatMap) {
+            // Merge both locales into a single item
+            const enData = locales.en;
+            const jaData = locales.ja;
 
-            // parse HTML comments
-            let title = "";
-            let quote = "";
-            let chapterArr: number[] = [];
-            let imageTitles: string[] = [];
-            let model = false;
-
-            for (let i = 0; i < lines.length; i++) {
-                const l = lines[i].trim();
-                if (!l.startsWith("<!--")) continue;
-                const m = l.match(/^<!--\s*(\w+)\s*:\s*(.*?)\s*-->$/);
-                if (!m) continue;
-                const [, key, val] = m;
-
-                switch (key) {
-                    case "title":
-                        title = val;
-                        break;
-
-                    case "quote":
-                        quote = val;
-                        break;
-
-                    case "chapters":
-                        // split on commas, parse each as integer
-                        chapterArr =
-                            val
-                                .split(",")
-                                .map((s) => parseInt(s.trim(), 10))
-                                .filter((n) => !isNaN(n)) || [];
-                        break;
-
-                    case "images":
-                        const t: string[] = [];
-                        for (const m2 of val.matchAll(/\((.*?)\)/g)) {
-                            t.push(m2[1]);
-                        }
-                        imageTitles = t;
-                        break;
-
-                    case "model":
-                        model = val.toLowerCase() === "true";
-                        break;
-                }
+            // Merge gallery images by index, creating localized titles
+            const enGallery = enData.galleryImages || [];
+            const jaGallery = jaData.galleryImages || [];
+            const maxGalleryLength = Math.max(enGallery.length, jaGallery.length);
+            
+            const mergedGalleryImages: GalleryImage[] = [];
+            for (let i = 0; i < maxGalleryLength; i++) {
+                const enImg = enGallery[i];
+                const jaImg = jaGallery[i];
+                mergedGalleryImages.push({
+                    title: {
+                        en: enImg?.title || "",
+                        ja: jaImg?.title || "",
+                    } as any,
+                    source: enImg?.source || jaImg?.source || "",
+                });
             }
 
-            // find where comments end, skip blank line, then rest is content
-            let idx = 0;
-            while (idx < lines.length && lines[idx].trim().startsWith("<!--"))
-                idx++;
-            if (lines[idx]?.trim() === "") idx++;
-            const content = lines.slice(idx).join("\n").trim();
-
-            // build galleryImages
-            const galleryImages: GalleryImage[] = imageTitles.map((t, i) => ({
-                title: t,
-                source: `/images-opt/${id}-${i}-opt.webp`,
-            }));
-
-            const thumbnailSrc = `/images-opt/${id}-opt-thumb.webp`;
-            const modelSrc = model ? `/models/${id}.glb` : undefined;
-            const imageSrc = model ? undefined : `/images-opt/${id}-opt.webp`;
-
-            items.push({
+            // Use EN data as base, but create localized fields
+            const mergedItem: any = {
                 id,
-                title,
-                chapters: chapterArr,
-                quote: quote || undefined,
-                content,
-                thumbnailSrc,
-                galleryImages,
-                ...(model ? { modelSrc } : { imageSrc }),
-            });
+                title: {
+                    en: enData.title || "",
+                    ja: jaData.title || "",
+                },
+                chapters: enData.chapters || jaData.chapters || [],
+                ...(enData.quote || jaData.quote ? {
+                    quote: {
+                        en: enData.quote || "",
+                        ja: jaData.quote || "",
+                    },
+                } : {}),
+                content: {
+                    en: enData.content || "",
+                    ja: jaData.content || "",
+                },
+                thumbnailSrc: enData.thumbnailSrc || jaData.thumbnailSrc,
+                galleryImages: mergedGalleryImages,
+                ...(enData.modelSrc || jaData.modelSrc ? {
+                    modelSrc: enData.modelSrc || jaData.modelSrc,
+                } : {}),
+                ...(enData.imageSrc || jaData.imageSrc ? {
+                    imageSrc: enData.imageSrc || jaData.imageSrc,
+                } : {}),
+            };
+
+            items.push(mergedItem);
         }
 
         // Sort items within this subcategory
@@ -202,9 +278,8 @@ async function processSubfolder(fileArg: string, locale: string) {
         "apps",
         "website",
         "data",
-        locale,
         "glossary",
-        `${fileArg}${localeSuffix}.json`,
+        `${fileArg}.json`,
     );
     await fs.mkdir(path.dirname(outPath), { recursive: true });
     await fs.writeFile(outPath, JSON.stringify(result, null, 2), "utf-8");
@@ -214,10 +289,9 @@ async function processSubfolder(fileArg: string, locale: string) {
 }
 
 async function main() {
-    const locale = process.argv[2] || "en";
     const baseGlossary = path.resolve(
         process.cwd(),
-        locale === "en" ? "recap-data" : `recap-data_${locale}`,
+        "recap-data",
         "glossary",
     );
 
@@ -232,7 +306,7 @@ async function main() {
     }
 
     for (const sub of subfolders) {
-        await processSubfolder(sub, locale);
+        await processSubfolder(sub);
     }
 }
 

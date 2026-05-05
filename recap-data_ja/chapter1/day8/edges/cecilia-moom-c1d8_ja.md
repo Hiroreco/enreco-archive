@@ -49,4 +49,4 @@
 
 ["Hair-brading" by blank](https://x.com/blankworks_/status/1835045286823035138)
 
-["An ally from a different guild 2" by Hyoweii](https://x.com/weiiyxn/status/1858149160505196620)
+["An ally from a different guild 2"](https://x.com/weiiyxn/status/1858149160505196620)

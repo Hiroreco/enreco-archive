@@ -127,7 +127,7 @@ const EdgeCard = ({
             ? chapterData.relationships[edgeRelationshipId]
             : null;
     const { contentWithoutFanart, fanartEntries } = useMemo(
-        () => getCardFanartData(selectedEdge?.data?.content || ""),
+        () => getCardFanartData((selectedEdge?.data?.content as string) || ""),
         [selectedEdge?.data?.content],
     );
 
@@ -300,12 +300,15 @@ const EdgeCard = ({
                             </ViewMarkdown>
                         </motion.div>
                     </AnimatePresence>
-                    <Separator className="my-4" />
-
-                    <CardFanartCarousel
-                        className="mt-5 md:px-4 px-2"
-                        fanartEntries={fanartEntries}
-                    />
+                    {fanartEntries.length > 0 && (
+                        <>
+                            <Separator className="my-4" />
+                            <CardFanartCarousel
+                                className="mt-5 md:px-4 px-2"
+                                fanartEntries={fanartEntries}
+                            />
+                        </>
+                    )}
 
                     <Separator className="my-4" />
                     <PrevNextDayNavigation

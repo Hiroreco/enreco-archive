@@ -106,7 +106,7 @@ const NodeCard = ({
     const nodeTeamId = selectedNode?.data.teamId ?? null;
     const nodeTeam = nodeTeamId !== null ? chapterData.teams[nodeTeamId] : null;
     const { contentWithoutFanart, fanartEntries } = useMemo(
-        () => getCardFanartData(selectedNode?.data.content || ""),
+        () => getCardFanartData((selectedNode?.data.content as string) || ""),
         [selectedNode?.data.content],
     );
 
@@ -237,11 +237,15 @@ const NodeCard = ({
                         </motion.div>
                     </AnimatePresence>
 
-                    <Separator className="my-4" />
-                    <CardFanartCarousel
-                        className="mt-5 md:px-4 px-2"
-                        fanartEntries={fanartEntries}
-                    />
+                    {fanartEntries.length > 0 && (
+                        <>
+                            <Separator className="my-4" />
+                            <CardFanartCarousel
+                                className="mt-5 md:px-4 px-2"
+                                fanartEntries={fanartEntries}
+                            />
+                        </>
+                    )}
                     <Separator className="my-4" />
 
                     <PrevNextDayNavigation

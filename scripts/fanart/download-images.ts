@@ -5,6 +5,8 @@ import puppeteer from "puppeteer";
 import { exec } from "child_process";
 import { promisify } from "util";
 
+const SKIP_VIDEOS = true;
+
 const execAsync = promisify(exec);
 
 const LINKS_JSON = path.resolve(
@@ -238,7 +240,7 @@ async function run() {
             }
 
             // Download video using yt-dlp if video is present
-            if (hasVideo) {
+            if (hasVideo && !SKIP_VIDEOS) {
                 const videoFileName = `${baseName}-${mediaIndex}.mp4`;
                 const videoOutPath = path.join(VIDEO_OUT_DIR, videoFileName);
 

@@ -37,4 +37,6 @@
 
 ## ファンアート
 
+["Elizabeth" by hikienlaventana](https://x.com/hikienlaventana/status/2019130083584385302)
+
 ["Prediction for enreco s2" by Ren](https://x.com/RenShifter/status/1902036192822247870)

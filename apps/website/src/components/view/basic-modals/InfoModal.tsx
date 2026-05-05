@@ -106,19 +106,19 @@ const InfoModal = ({ open, onClose }: InfoModalProps) => {
                     >
                         <ToggleGroup.Item
                             value="light"
-                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1"
+                            className="mx-0.5 cursor-pointer text-foreground data-[state=on]:text-accent-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1 hover:text-accent-foreground"
                         >
                             <Sun className="h-8 w-8" />
                         </ToggleGroup.Item>
                         <ToggleGroup.Item
                             value="dark"
-                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1"
+                            className="mx-0.5 cursor-pointer text-foreground data-[state=on]:text-accent-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1 hover:text-accent-foreground"
                         >
                             <Moon className="h-8 w-8" />
                         </ToggleGroup.Item>
                         <ToggleGroup.Item
                             value="system"
-                            className="mx-0.5 cursor-pointer text-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1"
+                            className="mx-0.5 cursor-pointer text-foreground data-[state=on]:text-accent-foreground bg-background data-[state=on]:bg-accent hover:bg-accent transition-colors rounded-lg p-1 hover:text-accent-foreground"
                         >
                             <SunMoon className="h-8 w-8" />
                         </ToggleGroup.Item>

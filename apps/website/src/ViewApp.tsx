@@ -15,7 +15,7 @@ import MiniGameModal from "@/components/view/minigames/MiniGameModal";
 import SettingsModal from "@/components/view/utility-modals/SettingsModal";
 import VideoModal from "@/components/view/utility-modals/VideoModal";
 import { useBrowserHash } from "@/hooks/useBrowserHash";
-import { useClickOutside } from "@/hooks/useClickOutsite";
+import { useClickOutside } from "@/hooks/useClickOutside";
 import { useDisabledDefaultMobilePinchZoom } from "@/hooks/useDisabledDefaultMobilePinchZoom";
 import { useAudioSettingsSync, useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
@@ -29,14 +29,20 @@ import {
     Newspaper,
     Palette,
     Settings,
+    BarChart3,
 } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
-import ChapterRecapModal from "@/components/view/utility-modals/ChapterRecapModal";
+import ChapterRecapModalContainer from "@/components/view/utility-modals/ChapterRecapModalContainer";
 
+import newsDataEn from "#/news.json";
 import ChangelogModal from "@/components/view/basic-modals/Changelog";
+import NewsModal from "@/components/view/basic-modals/NewsModal";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
+import { StatsModal } from "@/components/view/stats/StatsModal";
+import ComingSoonCard from "@/components/view/other/ComingSoonCard";
+import CountdownCard from "@/components/view/other/CountdownCard";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -48,8 +54,7 @@ import { isEdge, isNode } from "@xyflow/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
-import NewsModal from "@/components/view/basic-modals/NewsModal";
-import newsDataEn from "#/news.json";
+import { AnimatePresence, motion } from "framer-motion";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -138,6 +143,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         (state) => state.openReadCounterModal,
     );
     const openNewsModal = useViewStore((state) => state.openNewsModal);
+    const openStatsModal = useViewStore((state) => state.openStatsModal);
 
     const closeModal = useViewStore((state) => state.closeModal);
     const videoUrl = useViewStore((state) => state.videoUrl);
@@ -259,7 +265,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
         // Verify values, if invalid, reset to 0/0
         if (parsedValues) {
-            const [chapter, day] = parsedValues;
+            let [chapter, day] = parsedValues;
+            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
+            chapter = chapter === 2 ? 1 : chapter;
+            console.log(chapter, day);
+
             if (
                 chapter < 0 ||
                 chapter >= siteData.numberOfChapters ||
@@ -272,8 +282,13 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             }
             changeWorkingData(chapter, day);
         } else {
-            setBrowserHash(`${siteData.numberOfChapters - 1}/0`);
-            changeWorkingData(siteData.numberOfChapters - 1, 0);
+            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
+            let chapter = siteData.numberOfChapters - 1;
+            if (chapter === 2) {
+                chapter = 1;
+            }
+            setBrowserHash(`${chapter}/0`);
+            changeWorkingData(chapter, 0);
         }
     }
 
@@ -354,29 +369,40 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                <Chart
-                    widthToShrink={chartShrink}
-                    onNodeClick={onNodeClick}
-                    onEdgeClick={onEdgeClick}
-                    onPaneClick={onCardClose}
-                />
-                <div
-                    className={cn(
-                        "absolute top-0 left-0 w-screen h-full -z-10",
-                        {
-                            "brightness-90 dark:brightness-70":
-                                currentCard !== null,
-                            "brightness-100": currentCard === null,
-                        },
-                    )}
-                    style={{
-                        backgroundImage: `url('${bgImage}')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        transition: "brightness 0.5s, background-image 0.3s",
-                    }}
-                />
+                {chapter <= 1 && (
+                    <Chart
+                        widthToShrink={chartShrink}
+                        onNodeClick={onNodeClick}
+                        onEdgeClick={onEdgeClick}
+                        onPaneClick={onCardClose}
+                    />
+                )}
+                {/* Coming soon card, shown for chapter 3 only */}
+                {chapter > 1 && <ComingSoonCard />}
+                <AnimatePresence mode="sync">
+                    <motion.div
+                        key={bgImage}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className={cn(
+                            "absolute top-0 left-0 w-screen h-full -z-10",
+                            {
+                                "brightness-90 dark:brightness-70":
+                                    currentCard !== null,
+                                "brightness-100": currentCard === null,
+                            },
+                        )}
+                        style={{
+                            backgroundImage: `url('${bgImage}')`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            transition: "brightness 0.5s",
+                        }}
+                    />
+                </AnimatePresence>
                 <DayRecapCard
                     isCardOpen={currentCard === "setting"}
                     onCardClose={onCardClose}
@@ -446,7 +472,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 bgImage={bgImage}
             />
 
-            <ChapterRecapModal
+            <ChapterRecapModalContainer
                 key={`chapter-recap-modal-${chapter}`}
                 open={openModal === "chapterRecap"}
                 onClose={closeModal}
@@ -454,21 +480,36 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             />
 
             {/* Moving this out of the counter modal in order to synchronize it with the other modals */}
-            <button
+            <div
                 className={cn(
-                    "fixed top-2 left-1/2 -translate-x-1/2 py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]",
+                    "fixed top-2 left-1/2 -translate-x-1/2 flex flex-col md:flex-row gap-2",
                     {
                         invisible: currentCard !== null,
                         visible: currentCard === null,
+                        // TODO: remove when chapter 3 starts
+                        hidden: chapter > 1,
                     },
                 )}
-                onClick={openReadCounterModal}
             >
-                {tReadStatus("readCount", {
-                    count: readCount,
-                    total: totalCount,
-                })}
-            </button>
+                <button
+                    className="py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px]"
+                    onClick={openReadCounterModal}
+                >
+                    {tReadStatus("readCount", {
+                        count: readCount,
+                        total: totalCount,
+                    })}
+                </button>
+                <button
+                    // TODO: Hiding this for now, show it when chapter 3 starts
+                    className="hidden py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] items-center justify-center gap-2"
+                    onClick={openStatsModal}
+                    title="Stats"
+                >
+                    <BarChart3 className="w-4 h-4" />
+                    <span>{tNavTooltips("stats")}</span>
+                </button>
+            </div>
 
             <ReadCounter
                 open={openModal === "read-counter"}
@@ -486,13 +527,15 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
             />
             <NewsModal open={openModal === "news"} onClose={closeModal} />
+            <StatsModal open={openModal === "stats"} onClose={closeModal} />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
                     tooltipText={tNavTooltips("dayRecapVisibility")}
-                    enabled={true}
+                    // TODO: remove when chapter 3 starts
+                    enabled={chapter <= 1}
                     tooltipSide="left"
                     onClick={() => {
                         if (currentCard === "setting") {
@@ -594,16 +637,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             </div>
 
             <div
-                className={cn(
-                    "z-0 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0 ",
-                    {
-                        "w-[60%] lg:block hidden": currentCard === "setting",
-                        "w-full md:w-4/5 2xl:w-2/5 mx-auto":
-                            currentCard === null,
-                        hidden:
-                            currentCard !== null && currentCard !== "setting",
-                    },
-                )}
+                className={cn("z-0 fixed inset-x-0 bottom-0 mb-6 px-2 md:p-0", {
+                    "w-[60%] lg:block hidden": currentCard === "setting",
+                    "w-full md:w-4/5 2xl:w-2/5 mx-auto": currentCard === null,
+                    hidden: currentCard !== null && currentCard !== "setting",
+                })}
             >
                 <TransportControls
                     isAnyModalOpen={openModal !== null}
@@ -620,6 +658,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     }}
                 />
             </div>
+
+            <CountdownCard isInLoadingScreen={isInLoadingScreen} />
         </>
     );
 };

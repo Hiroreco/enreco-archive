@@ -32,12 +32,37 @@ const LoadingPage = ({
         setTimeout(onStart, 1000);
     }, [isAnimationComplete, setViewAppVisible, onStart]);
 
-    const imageVariants = useMemo(
+    // Particles start scattered around the logo and converge toward center
+    const particles = useMemo(() => {
+        const numParticles = 18;
+        return Array.from({ length: numParticles }, (_, i) => {
+            const angle = (i / numParticles) * 2 * Math.PI;
+            // Spread radius — how far out particles start (as % of container)
+            const spreadRadius = 38 + Math.random() * 20;
+            const startX = 50 + Math.cos(angle) * spreadRadius;
+            const startY = 50 + Math.sin(angle) * spreadRadius;
+
+            return {
+                id: i,
+                startX,
+                startY,
+                // All particles converge to logo center
+                endX: 50,
+                endY: 50,
+                delay: Math.random() * 0.4, // stagger start
+                duration: 0.8 + Math.random() * 0.4, // travel time
+                size: 4 + Math.random() * 4, // px
+                // Mix the brand colors
+                color: i % 2 === 0 ? "#ec973a" : "#b83f22",
+            };
+        });
+    }, []);
+
+    const logoVariants = useMemo(
         () => ({
             hidden: {
                 opacity: 0,
-                filter: `blur(50px) brightness(${useDarkMode ? 0.5 : 2})`,
-                scale: 1.05,
+                filter: `blur(30px) brightness(${useDarkMode ? 0.5 : 2})`,
             },
             visible: {
                 opacity: 1,
@@ -45,49 +70,41 @@ const LoadingPage = ({
                 scale: 1,
                 transition: {
                     opacity: {
-                        duration: 3.5,
+                        delay: 1.2,
+                        duration: 1.8,
                         ease: "easeOut",
                     },
                     filter: {
-                        duration: 3.5,
+                        delay: 1.2,
+                        duration: 1.8,
                         ease: [0.4, 0, 0.2, 1],
-                        delay: 0.5,
                     },
-                    scale: {
-                        duration: 3.5,
-                        ease: [0.25, 0.46, 0.45, 0.94],
-                        delay: 0.5,
-                    },
+
                 },
             },
         }),
         [useDarkMode],
     );
 
-    // Generate random star positions, always outside and drifting away from logo
     const stars = useMemo(() => {
         const numStars = 14;
         const logoCenterX = 50;
         const logoCenterY = 50;
         const logoRadius = 18 + (useDarkMode ? 8 : 0);
-        const minDistance = logoRadius + 12; // minimum distance from logo edge
-        const maxDistance = 48; // max distance from logo center
+        const minDistance = logoRadius + 12;
+        const maxDistance = 48;
 
         return Array.from({ length: numStars }, (_, i) => {
-            // Use more evenly distributed angles to ensure coverage
-            // Mix systematic distribution with some randomness
-            const baseAngle = (i / numStars) * 2 * Math.PI; // evenly spaced base angles
+            const baseAngle = (i / numStars) * 2 * Math.PI;
             const angleVariation =
-                (Math.random() - 0.5) * ((2 * Math.PI) / numStars) * 0.8; // add some randomness
+                (Math.random() - 0.5) * ((2 * Math.PI) / numStars) * 0.8;
             const angle = baseAngle + angleVariation;
 
-            // Start outside the logo with some randomness
             const startRadius =
                 minDistance + Math.random() * (maxDistance - minDistance);
             const startX = logoCenterX + Math.cos(angle) * startRadius;
             const startY = logoCenterY + Math.sin(angle) * startRadius;
 
-            // Drift further away from logo center (same angle, outward only)
             const driftDistance = 16 + Math.random() * 32;
             const endRadius = startRadius + driftDistance;
             const endX = logoCenterX + Math.cos(angle) * endRadius;
@@ -95,15 +112,16 @@ const LoadingPage = ({
 
             return {
                 id: i,
-                startX: Math.max(0, Math.min(100, startX)), // clamp to viewport
-                startY: Math.max(0, Math.min(100, startY)), // clamp to viewport
-                endX: Math.max(-20, Math.min(120, endX)), // allow some overflow for natural drift
-                endY: Math.max(-20, Math.min(120, endY)), // allow some overflow for natural drift
+                startX: Math.max(0, Math.min(100, startX)),
+                startY: Math.max(0, Math.min(100, startY)),
+                endX: Math.max(-20, Math.min(120, endX)),
+                endY: Math.max(-20, Math.min(120, endY)),
                 delay: Math.random() * 1.5,
                 duration: 2.5 + Math.random() * 2,
             };
         });
     }, [useDarkMode]);
+
     return (
         <motion.div
             initial={{ opacity: 1 }}
@@ -115,7 +133,7 @@ const LoadingPage = ({
                 { "pointer-events-none": isClicked },
             )}
             style={{
-                backgroundImage: "url('images-opt/bg-1-dark-opt.webp')",
+                backgroundImage: "url('images-opt/bg-2-dark-opt.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -128,7 +146,7 @@ const LoadingPage = ({
                 transition={{ duration: 0.5 }}
                 className="absolute top-0 left-0 w-screen h-screen -z-10"
                 style={{
-                    backgroundImage: "url('images-opt/bg-1-opt.webp')",
+                    backgroundImage: "url('images-opt/bg-2-opt.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -136,10 +154,49 @@ const LoadingPage = ({
             />
 
             <div className="relative sm:h-[65vh] sm:max-h-[650px] w-auto">
+                {particles.map((p) => (
+                    <motion.div
+                        key={p.id}
+                        className="absolute rounded-full pointer-events-none"
+                        style={{
+                            width: p.size,
+                            height: p.size,
+                            background: p.color,
+                            boxShadow: `0 0 6px 2px ${p.color}`,
+                            translateX: "-50%",
+                            translateY: "-50%",
+                        }}
+                        initial={{
+                            opacity: 0,
+                            left: `${p.startX}%`,
+                            top: `${p.startY}%`,
+                            scale: 1,
+                        }}
+                        animate={{
+                            opacity: [0, 1, 1, 0],
+                            left: [`${p.startX}%`, `${p.endX}%`],
+                            top: [`${p.startY}%`, `${p.endY}%`],
+                            scale: [1, 0.3],
+                        }}
+                        transition={{
+                            duration: p.duration,
+                            delay: p.delay,
+                            ease: "easeIn",
+                            // opacity keyframes timing
+                            opacity: {
+                                duration: p.duration,
+                                delay: p.delay,
+                                times: [0, 0.1, 0.7, 1],
+                                ease: "easeIn",
+                            },
+                        }}
+                    />
+                ))}
+
                 <motion.div
                     key={`logo-animation-${useDarkMode ? "dark" : "light"}`}
                     className="relative w-full h-full"
-                    variants={imageVariants}
+                    variants={logoVariants}
                     initial="hidden"
                     animate="visible"
                     onAnimationComplete={() => {
@@ -150,7 +207,7 @@ const LoadingPage = ({
                         src={
                             isAprilFools
                                 ? "/images-opt/april-fools-2026-opt.webp"
-                                : "/images-opt/logo-1-opt.webp"
+                                : "/images-opt/logo-2-opt.webp"
                         }
                         alt="ENreco Archive Logo"
                         width={600}
@@ -160,7 +217,6 @@ const LoadingPage = ({
                     />
                 </motion.div>
 
-                {/* Twinkling stars */}
                 {isAnimationComplete &&
                     isPulse &&
                     stars.map((star) => (
@@ -171,14 +227,13 @@ const LoadingPage = ({
                                 width: "5px",
                                 height: "5px",
                                 background:
-                                    "linear-gradient(90deg, #a1c7e5 60%, #abcfeb 100%)",
+                                    "linear-gradient(90deg, #ec973a 60%, #b83f22 100%)",
                                 boxShadow:
-                                    "0 0 8px 2px #a1c7e5, 0 0 12px 4px #abcfeb",
+                                    "0 0 8px 2px #ec973a, 0 0 12px 4px #b83f22",
                                 pointerEvents: "none",
                             }}
                             initial={{
                                 opacity: 0,
-                                scale: 0,
                                 left: `${star.startX}%`,
                                 top: `${star.startY}%`,
                             }}

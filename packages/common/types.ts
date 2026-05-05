@@ -23,6 +23,30 @@ export type SiteData = {
     };
 };
 
+export type LocalizedString<T extends string = "en" | "ja"> = {
+    [key in T]: string;
+};
+
+export type LocalizedTextEntry = {
+    id: string;
+    content: LocalizedString;
+    title: LocalizedString;
+    hasAudio?: boolean;
+};
+
+export type LocalizedTextGroup = {
+    chapter: number;
+    category: string;
+    title: LocalizedString;
+    description: LocalizedString;
+    entries: LocalizedTextEntry[];
+};
+
+export type TextData = {
+    [key: string]: LocalizedTextGroup;
+};
+
+// Legacy types maintained for reference
 export type TextEntry = {
     id: string;
     content: string;
@@ -38,16 +62,21 @@ export type TextGroup = {
     entries: TextEntry[];
 };
 
-export type TextData = {
-    [key: string]: TextGroup;
-};
-
 // Add new type for text audio state
 export type TextAudioState = {
     isPlaying: boolean;
     currentTextId: string | null;
 };
 
+/* Raw/Localized Types - for raw data import and internal processing */
+export type LocalizedChapterRecapData = {
+    chapters: {
+        title: LocalizedString;
+        content: LocalizedString;
+    }[];
+};
+
+/* App Types - what components actually use (strings only) */
 export type ChapterRecapData = {
     chapters: {
         title: string;
@@ -67,6 +96,19 @@ export type EditorSaveMetadata = {
     saveDatetime: string;
 };
 
+/* Raw/Localized Types - for raw data import */
+export type LocalizedChapter = {
+    numberOfDays: number;
+    title: LocalizedString;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    charts: any[];
+    teams: TeamMap;
+    relationships: RelationshipMap;
+    bgiSrc: string;
+    bgmSrc: string;
+};
+
+/* App Types - what components actually use */
 export type Chapter = {
     numberOfDays: number;
     title: string;
@@ -79,7 +121,7 @@ export type Chapter = {
 
 export type EditorChapter = {
     numberOfDays: number;
-    title: string;
+    title: string | LocalizedString;
     charts: EditorChartData[];
     teams: TeamMap;
     relationships: RelationshipMap;
@@ -99,6 +141,15 @@ export type Relationship = {
     style: React.CSSProperties;
 };
 
+/* Raw/Localized Types - for raw data import */
+export type LocalizedChartData = {
+    title: LocalizedString;
+    dayRecap: LocalizedString;
+    nodes: ImageNodeType[];
+    edges: FixedEdgeType[];
+};
+
+/* App Types - what components actually use */
 export type ChartData = {
     title: string;
     dayRecap: string;
@@ -107,8 +158,8 @@ export type ChartData = {
 };
 
 export type EditorChartData = {
-    title: string;
-    dayRecap: string;
+    title: string | LocalizedString;
+    dayRecap: string | LocalizedString;
     nodes: EditorImageNodeType[];
     edges: CustomEdgeType[];
 };
@@ -191,6 +242,19 @@ export type CommonItemData = {
 export type Song = {
     title: string;
     info: string;
+    originalUrl: string;
+    sourceUrl: string;
+    coverUrl: string;
+    // The duration is in the format "mm:ss", only for representative purposes
+    duration: string;
+};
+
+export type SongRaw = {
+    title: string;
+    info: {
+        en: string;
+        ja: string;
+    };
     originalUrl: string;
     sourceUrl: string;
     coverUrl: string;
