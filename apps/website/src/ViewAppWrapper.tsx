@@ -220,7 +220,7 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
-                            <TabsTrigger value="bingo" title="Bingo">
+                            {/* <TabsTrigger value="bingo" title="Bingo">
                                 <Image
                                     src="/images-opt/bingo-logo-opt.webp"
                                     alt="Bingo"
@@ -228,7 +228,7 @@ export const ViewAppWrapper = () => {
                                     width={24}
                                     className="h-6 w-auto"
                                 />
-                            </TabsTrigger>
+                            </TabsTrigger> */}
                         </TabsList>
                     )}
                     {!isMobile && (
@@ -253,19 +253,19 @@ export const ViewAppWrapper = () => {
                                     icon: <Film size={24} />,
                                     label: tApp("mediaArchive"),
                                 },
-                                {
-                                    value: "bingo",
-                                    icon: (
-                                        <Image
-                                            src="/images-opt/bingo-logo-opt.webp"
-                                            alt="Bingo"
-                                            height={24}
-                                            width={24}
-                                            className="size-6 object-contain"
-                                        />
-                                    ),
-                                    label: tApp("bingo"),
-                                },
+                                // {
+                                //     value: "bingo",
+                                //     icon: (
+                                //         <Image
+                                //             src="/images-opt/bingo-logo-opt.webp"
+                                //             alt="Bingo"
+                                //             height={24}
+                                //             width={24}
+                                //             className="size-6 object-contain"
+                                //         />
+                                //     ),
+                                //     label: tApp("bingo"),
+                                // },
                             ].map(({ value, icon, label }) => (
                                 <HoverTabTrigger
                                     key={value}
