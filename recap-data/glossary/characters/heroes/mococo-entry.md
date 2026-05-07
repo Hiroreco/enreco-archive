@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- quote: I'm not a criminal, I'm Mococo! -->
 <!-- chapters: -1 -->
 <!-- images: (Mococo's Chapter 1 Profile), (Mococo fighting along with Fuwawa), (Mococo's Chapter 2 Profile), (Mococo turning against Fia in Chapter 2's Ending) -->
@@ -9,13 +9,13 @@
 **Memories:** Not Recollected
 **Revelation:** [Fuchsia Claws](#entry:fuchsia-claws-entry)
 
-Mococo Abyssguard was hardly the image of a typical hero. Notorious for her lottery addiction in Chapter 1, she was helpless against the thrill of gambling. She was one of the most chaotic and shameless of the bunch, willing to do just about anything to line her own pockets.
+Mococo Abyssgard was hardly the image of a typical hero. Notorious for her lottery addiction in Chapter 1, she was helpless against the thrill of gambling. She was one of the most chaotic and shameless of the bunch, willing to do just about anything to line her own pockets.
 
 ## Details
 
 ### Chapter 1
 
-**Name:** Mococo Abyssguard
+**Name:** Mococo Abyssgard
 **Guild:** Jade Sword
 
 Mococo’s journey began in a vulnerable place. Before Elizabeth promised to be her protector and big sister, she was terrified of this strange new world—easily frightened and desperate not to be left [alone.](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=4128) But with her friends’ support, she slowly found her footing, working hard and living up to her role as a hero—though that didn’t last long.
@@ -33,7 +33,7 @@ But with everyone’s help, Mococo was saved. She carried immense gratitude in h
 
 ### Chapter 2
 
-**Name:** Mococo Abyssguard
+**Name:** Mococo Abyssgard
 **Job:** Jeweler
 
 The second journey offered Mococo a fresh start. Determined to do better, she vowed to work hard, stay away from gambling—well, mostly—and repay those who had once helped her.

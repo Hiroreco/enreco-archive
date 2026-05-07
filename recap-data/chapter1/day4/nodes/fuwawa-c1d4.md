@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Fuwawa began her fourth day alongside Mococo, only to immediately hear her companion’s excitement about lottery tickets. As if that weren’t enough, Mococo eagerly discussed a money exploit with the Hot Pink One, planning to splurge her newfound wealth entirely on lottery tickets. The day had barely started, and Fuwawa was already unimpressed by Mococo’s relentless focus on [money](https://www.youtube.com/live/cYvEiwlPkW0?feature=shared&t=312).

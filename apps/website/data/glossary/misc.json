@@ -1,304 +1,296 @@
 {
-  "mechanics": [
-    {
-      "id": "jobs-entry",
-      "title": {
-        "en": "Jobs",
-        "ja": "職業"
-      },
-      "chapters": [
-        1
-      ],
-      "quote": {
-        "en": "250 coins for one soup?!",
-        "ja": "スープ1杯で250コインだって?!"
-      },
-      "content": {
-        "en": "## Overview\n\nJobs were introduced in Chapter Two as a replacement for the [guild system](#entry:guilds-entry). Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of [Ancient Libestal](#entry:libestal-ancient-entry).\n\n## Details\n\n### Preface\n\nUpon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into their new life. These jobs were not just titles—they introduced new gameplay systems and collaboration mechanics.\n\n### The Four Jobs\n\nThere were four jobs available, each with a distinct specialty. The design of the system encouraged interdependence—heroes were meant to rely on one another’s crafts to thrive in their journey.\n\nAs heroes practiced their crafts, their job levels increased, unlocking stronger buffs, items, and abilities.\n\nFurthermore, the heroes could set up stalls or shops to sell their specialized crafted goods, allowing them to trade with one another and ~~scam~~ support the community through their unique professions.\n\n#### Smith\n\n**Occupants:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Gonathon G](#entry:gigi-entry), [Tanakisha Karia](#entry:kiara-entry)\n**Lead:** Heph\n\nSmiths specialized in forging upgrade stones to enhance Revelation weapons, using a toolset known as the Smithing Tools.\n\nCrafting involved using a large grid similar to a crafting table but with more complexity. Players had to arrange materials according to recipes shown in a recipe book to create the desired upgrade stones.\n\nSmiths also gained a passive combat buff: a scaling chance to deal increased damage on hit, based on their job level.\n\n[A smith making an upgrade stone](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)\n\n#### Jeweler\n\n**Occupants:** [Koseki Bijou](#entry:bijou-entry), [NinoIna](#entry:ina-entry), [Roa Pandora](#entry:raora-entry), [Mococo Abyssguard](#entry:mococo-entry)\n**Lead:** Chrys\n\nJewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.\n\nA board filled with various stat buffs would be shown briefly before going blank. Jewelers had to recall the positions of their desired buffs and select them accurately. The chance of enhanced buffs increased with Jeweler level.\n\nCharms came in three different colors. Heroes could equip one charm of each color, encouraging thoughtful stat combinations.\n\n[A jeweler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)\n\n#### Chef\n\n**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry)\n**Lead:** Ambros\n\nChefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the \"cook\" button.\n\nThe more meals a chef prepared, the higher the level their cooking pot became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.\n\n[A chef making food](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)\n\n#### Supplier\n\n**Occupants:** [Cecilia Immerkind](#entry:cecilia-entry), [Peasant The Bae](#entry:bae-entry), [Tam Gandr](#entry:kronii-entry)\n**Lead:** Foreman Kory\n\nSuppliers focused on resource collection through enchanted tools and a unique mining minigame.\n\nUsing lapis lazuli, they added durability to a special pick, then mined a grid of randomized blocks to collect iron, gold, and diamond ores—each contributing enchantment points. Up to 40 points could be earned per run.\n\nOnce durability ran out, points could be allocated to enchant tools with traits like Efficiency, Unbreaking, Fortune, and even a unique auto-smelting enchantment that converted mined ore directly into ingots.\n\nSuppliers also had exclusive charms that boosted their mining effectiveness. When paired with high job levels and upgraded tools, they became unmatched in resource gathering.\n\n[A supplier enchanting a pickaxe](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)",
-        "ja": "## 概要\n\n「職業」はチャプター2で導入され、[ギルドシステム](#entry:guilds-entry)に代わる新たな仕組みとなりました。ギルドが勇者たちを思想や性格でグループ化していたのに対し、職業はそれぞれの貢献方法を明確にし、勇者たちが個性を活かして成長できる、新たな役割を与えたのです。それは[古代リベスタル](#entry:libestal-ancient-entry)という世界で、彼女たち自身の居場所を形作る手段でもありました。\n\n## 詳細\n\n### 前置き\n\n古代リベスタルに到着した勇者たちは、新しい生活に馴染むため、自身の興味や特技に合った職業を選ぶよう勧められました。職業は単なる肩書きではなく、ゲームシステムに深く関わり、仲間との連携を深めるための、新しい仕組みとして機能しました。\n\n### 四つの職業\n\n選べる職業は全部で4種類。それぞれが個性豊かな専門分野を持っていました。\nこのシステムは、勇者たちが互いの専門性を頼り、協力し合いながら冒険を進めることを前提としています。\n\n経験を積むごとに職業レベルは上がり、より強力なバフや貴重なアイテム、新たなスキルが解放されていきました。\n\nさらに、自分の専門分野で生産した品々を販売する屋台やお店を開くことも可能でした。勇者たちは互いに取引を行ったり、時には ~~ぼったくり~~ 支援を通じてコミュニティを活発な交流を生み出しました。\n\n#### スミス\n\n**担当者:** [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry), [ゴナソンG](#entry:gigi-entry), [タナキシャ・カリア](#entry:kiara-entry)\n**リーダー:** ヘフ\n\nスミスは「スミシングツール」と呼ばれる特別な道具を使い、レベレーション武器を強化する「アップグレードストーン」を鍛造する専門家です。\n\n制作時にはクラフティングテーブルに似た大きなグリッドを使用しますが、その工程はさらに複雑。レシピブックの指示通りに素材を配置することで、目的のアップグレードストーンを生み出すことができます。\n\nまた、スミスには戦闘に役立つパッシブ効果もあり、レベルが上がるごとに攻撃時に追加ダメージを与える確率が上昇します。\n\n[スミスがアップグレードストーンを作る様子](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)\n\n#### ジュエラー\n\n**担当者:** [古石ビジュー](#entry:bijou-entry), [ニノイナ](#entry:ina-entry), [ロア・パンドラ](#entry:raora-entry), [モココ・アビスガード](#entry:mococo-entry)\n**リーダー:** クリス\n\nジュエラーは、体力や防御力など、勇者たちの能力を強化する「チャーム」を生み出す専門職です。各チャームの制作には特定の素材が必要で、記憶力が試されるミニゲームに挑戦することになります。\n\nまず、様々なステータス効果が記された盤面が一瞬だけ表示され、すぐに消えてしまいます。ジュエラーは、狙う効果の位置を正確に記憶し、選択する必要があります。レベルが上がるにつれて、望む強化効果を引き当てる確率も上昇します。\n\nチャームには3つの色があり、勇者たちはそれぞれ1つずつ装備可能です。どのステータスを組み合わせるか、戦略が試されます。\n\n[ジュエラーがチャームを作る様子](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)\n\n#### シェフ\n\n**担当者:** [ホットピンクワン](#entry:irys-entry), [シオリ・ニャヴェラ](#entry:shiori-entry), [ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry), [モーダン・ラムジー](#entry:calli-entry), [フワワ・アビスガード](#entry:fuwawa-entry)\n**リーダー:** アンブロス\n\nシェフは、強力な効果を長時間持続させるバフ付き料理を生み出す専門家です。料理システムはチャプター1から引き継がれており、レシピブックに記載された材料を集め、鍋に入れて「調理」ボタンを押すだけのシンプルな工程です。\n\n作った料理の数に応じて調理鍋のレベルがアップし、高レベルになるほど、通常よりも効果が強力、または持続時間が長い「グルメ料理」が生まれる確率が上昇します。\n\n[シェフが料理を作る様子](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)\n\n#### サプライヤー\n\n**担当者:** [セシリア・イマーカインド](#entry:cecilia-entry), [ペイザン・ザ・ベイ](#entry:bae-entry), [タム・ガンドル](#entry:kronii-entry)\n**リーダー:** フォアマン・コリー\n\nサプライヤーは、エンチャント能力を付与した特別な道具を使い、資源収集に特化した職業です。専用の採掘ミニゲームも得意とします。\n\nラピスラズリを使って専用ピッケルに耐久力を付与し、ランダムに配置されたブロックのグリッドを採掘していきます。鉄、金、ダイヤといった鉱石を集めるごとにエンチャントポイントが加算され、1回の挑戦で最大40ポイントを獲得できます。\n\nピッケルの耐久力が尽きた時点で、貯めたポイントを使い、効率強化、耐久力強化、幸運などの様々なエンチャントを付与できます。さらには、採掘した鉱石を直接インゴットへ変換するユニークな「自動精錬」エンチャントまで存在しました。\n\nまた、サプライヤー専用のチャームも存在し、採掘効率をさらに高めることが可能です。高レベルの職業能力と強化された道具を組み合わせれば、資源収集において彼女たちに匹敵する者はいないでしょう。\n\n[サプライヤーがピッケルにエンチャントを付与する様子](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)"
-      },
-      "thumbnailSrc": "/images-opt/jobs-entry-opt-thumb.webp",
-      "galleryImages": [
+    "mechanics": [
         {
-          "title": {
-            "en": "Jobs Overview",
-            "ja": "職業の概要"
-          },
-          "source": "/images-opt/jobs-entry-0-opt.webp"
+            "id": "jobs-entry",
+            "title": {
+                "en": "Jobs",
+                "ja": "職業"
+            },
+            "chapters": [1],
+            "quote": {
+                "en": "250 coins for one soup?!",
+                "ja": "スープ1杯で250コインだって?!"
+            },
+            "content": {
+                "en": "## Overview\n\nJobs were introduced in Chapter Two as a replacement for the [guild system](#entry:guilds-entry). Unlike guilds, which grouped heroes by philosophy or personality, jobs added mechanical depth and individual progression by allowing heroes to choose professions that defined their contributions to the world of [Ancient Libestal](#entry:libestal-ancient-entry).\n\n## Details\n\n### Preface\n\nUpon arriving in Ancient Libestal, the heroes were encouraged to pick a job that suited their interests to help them integrate into their new life. These jobs were not just titles—they introduced new gameplay systems and collaboration mechanics.\n\n### The Four Jobs\n\nThere were four jobs available, each with a distinct specialty. The design of the system encouraged interdependence—heroes were meant to rely on one another’s crafts to thrive in their journey.\n\nAs heroes practiced their crafts, their job levels increased, unlocking stronger buffs, items, and abilities.\n\nFurthermore, the heroes could set up stalls or shops to sell their specialized crafted goods, allowing them to trade with one another and ~~scam~~ support the community through their unique professions.\n\n#### Smith\n\n**Occupants:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Gonathon G](#entry:gigi-entry), [Tanakisha Karia](#entry:kiara-entry)\n**Lead:** Heph\n\nSmiths specialized in forging upgrade stones to enhance Revelation weapons, using a toolset known as the Smithing Tools.\n\nCrafting involved using a large grid similar to a crafting table but with more complexity. Players had to arrange materials according to recipes shown in a recipe book to create the desired upgrade stones.\n\nSmiths also gained a passive combat buff: a scaling chance to deal increased damage on hit, based on their job level.\n\n[A smith making an upgrade stone](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)\n\n#### Jeweler\n\n**Occupants:** [Koseki Bijou](#entry:bijou-entry), [NinoIna](#entry:ina-entry), [Roa Pandora](#entry:raora-entry), [Mococo Abyssgard](#entry:mococo-entry)\n**Lead:** Chrys\n\nJewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.\n\nA board filled with various stat buffs would be shown briefly before going blank. Jewelers had to recall the positions of their desired buffs and select them accurately. The chance of enhanced buffs increased with Jeweler level.\n\nCharms came in three different colors. Heroes could equip one charm of each color, encouraging thoughtful stat combinations.\n\n[A jeweler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)\n\n#### Chef\n\n**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssgard](#entry:fuwawa-entry)\n**Lead:** Ambros\n\nChefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the \"cook\" button.\n\nThe more meals a chef prepared, the higher the level their cooking pot became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.\n\n[A chef making food](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)\n\n#### Supplier\n\n**Occupants:** [Cecilia Immerkind](#entry:cecilia-entry), [Peasant The Bae](#entry:bae-entry), [Tam Gandr](#entry:kronii-entry)\n**Lead:** Foreman Kory\n\nSuppliers focused on resource collection through enchanted tools and a unique mining minigame.\n\nUsing lapis lazuli, they added durability to a special pick, then mined a grid of randomized blocks to collect iron, gold, and diamond ores—each contributing enchantment points. Up to 40 points could be earned per run.\n\nOnce durability ran out, points could be allocated to enchant tools with traits like Efficiency, Unbreaking, Fortune, and even a unique auto-smelting enchantment that converted mined ore directly into ingots.\n\nSuppliers also had exclusive charms that boosted their mining effectiveness. When paired with high job levels and upgraded tools, they became unmatched in resource gathering.\n\n[A supplier enchanting a pickaxe](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)",
+                "ja": "## 概要\n\n「職業」はチャプター2で導入され、[ギルドシステム](#entry:guilds-entry)に代わる新たな仕組みとなりました。ギルドが勇者たちを思想や性格でグループ化していたのに対し、職業はそれぞれの貢献方法を明確にし、勇者たちが個性を活かして成長できる、新たな役割を与えたのです。それは[古代リベスタル](#entry:libestal-ancient-entry)という世界で、彼女たち自身の居場所を形作る手段でもありました。\n\n## 詳細\n\n### 前置き\n\n古代リベスタルに到着した勇者たちは、新しい生活に馴染むため、自身の興味や特技に合った職業を選ぶよう勧められました。職業は単なる肩書きではなく、ゲームシステムに深く関わり、仲間との連携を深めるための、新しい仕組みとして機能しました。\n\n### 四つの職業\n\n選べる職業は全部で4種類。それぞれが個性豊かな専門分野を持っていました。\nこのシステムは、勇者たちが互いの専門性を頼り、協力し合いながら冒険を進めることを前提としています。\n\n経験を積むごとに職業レベルは上がり、より強力なバフや貴重なアイテム、新たなスキルが解放されていきました。\n\nさらに、自分の専門分野で生産した品々を販売する屋台やお店を開くことも可能でした。勇者たちは互いに取引を行ったり、時には ~~ぼったくり~~ 支援を通じてコミュニティを活発な交流を生み出しました。\n\n#### スミス\n\n**担当者:** [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry), [ゴナソンG](#entry:gigi-entry), [タナキシャ・カリア](#entry:kiara-entry)\n**リーダー:** ヘフ\n\nスミスは「スミシングツール」と呼ばれる特別な道具を使い、レベレーション武器を強化する「アップグレードストーン」を鍛造する専門家です。\n\n制作時にはクラフティングテーブルに似た大きなグリッドを使用しますが、その工程はさらに複雑。レシピブックの指示通りに素材を配置することで、目的のアップグレードストーンを生み出すことができます。\n\nまた、スミスには戦闘に役立つパッシブ効果もあり、レベルが上がるごとに攻撃時に追加ダメージを与える確率が上昇します。\n\n[スミスがアップグレードストーンを作る様子](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)\n\n#### ジュエラー\n\n**担当者:** [古石ビジュー](#entry:bijou-entry), [ニノイナ](#entry:ina-entry), [ロア・パンドラ](#entry:raora-entry), [モココ・アビスガード](#entry:mococo-entry)\n**リーダー:** クリス\n\nジュエラーは、体力や防御力など、勇者たちの能力を強化する「チャーム」を生み出す専門職です。各チャームの制作には特定の素材が必要で、記憶力が試されるミニゲームに挑戦することになります。\n\nまず、様々なステータス効果が記された盤面が一瞬だけ表示され、すぐに消えてしまいます。ジュエラーは、狙う効果の位置を正確に記憶し、選択する必要があります。レベルが上がるにつれて、望む強化効果を引き当てる確率も上昇します。\n\nチャームには3つの色があり、勇者たちはそれぞれ1つずつ装備可能です。どのステータスを組み合わせるか、戦略が試されます。\n\n[ジュエラーがチャームを作る様子](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)\n\n#### シェフ\n\n**担当者:** [ホットピンクワン](#entry:irys-entry), [シオリ・ニャヴェラ](#entry:shiori-entry), [ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry), [モーダン・ラムジー](#entry:calli-entry), [フワワ・アビスガード](#entry:fuwawa-entry)\n**リーダー:** アンブロス\n\nシェフは、強力な効果を長時間持続させるバフ付き料理を生み出す専門家です。料理システムはチャプター1から引き継がれており、レシピブックに記載された材料を集め、鍋に入れて「調理」ボタンを押すだけのシンプルな工程です。\n\n作った料理の数に応じて調理鍋のレベルがアップし、高レベルになるほど、通常よりも効果が強力、または持続時間が長い「グルメ料理」が生まれる確率が上昇します。\n\n[シェフが料理を作る様子](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)\n\n#### サプライヤー\n\n**担当者:** [セシリア・イマーカインド](#entry:cecilia-entry), [ペイザン・ザ・ベイ](#entry:bae-entry), [タム・ガンドル](#entry:kronii-entry)\n**リーダー:** フォアマン・コリー\n\nサプライヤーは、エンチャント能力を付与した特別な道具を使い、資源収集に特化した職業です。専用の採掘ミニゲームも得意とします。\n\nラピスラズリを使って専用ピッケルに耐久力を付与し、ランダムに配置されたブロックのグリッドを採掘していきます。鉄、金、ダイヤといった鉱石を集めるごとにエンチャントポイントが加算され、1回の挑戦で最大40ポイントを獲得できます。\n\nピッケルの耐久力が尽きた時点で、貯めたポイントを使い、効率強化、耐久力強化、幸運などの様々なエンチャントを付与できます。さらには、採掘した鉱石を直接インゴットへ変換するユニークな「自動精錬」エンチャントまで存在しました。\n\nまた、サプライヤー専用のチャームも存在し、採掘効率をさらに高めることが可能です。高レベルの職業能力と強化された道具を組み合わせれば、資源収集において彼女たちに匹敵する者はいないでしょう。\n\n[サプライヤーがピッケルにエンチャントを付与する様子](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)"
+            },
+            "thumbnailSrc": "/images-opt/jobs-entry-opt-thumb.webp",
+            "galleryImages": [
+                {
+                    "title": {
+                        "en": "Jobs Overview",
+                        "ja": "職業の概要"
+                    },
+                    "source": "/images-opt/jobs-entry-0-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Jobs and their icons",
+                        "ja": "職業とそのアイコン"
+                    },
+                    "source": "/images-opt/jobs-entry-1-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Charms made by a Jeweler",
+                        "ja": "ジュエラーが作るチャーム"
+                    },
+                    "source": "/images-opt/jobs-entry-2-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Upgrade Stones made by a Smith",
+                        "ja": "スミスが作るアップグレードストーン"
+                    },
+                    "source": "/images-opt/jobs-entry-3-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Food made by a Chef",
+                        "ja": "シェフが作る料理"
+                    },
+                    "source": "/images-opt/jobs-entry-4-opt.webp"
+                }
+            ],
+            "imageSrc": "/images-opt/jobs-entry-opt.webp"
         },
         {
-          "title": {
-            "en": "Jobs and their icons",
-            "ja": "職業とそのアイコン"
-          },
-          "source": "/images-opt/jobs-entry-1-opt.webp"
+            "id": "minigames-entry",
+            "title": {
+                "en": "Minigames",
+                "ja": "ミニゲーム"
+            },
+            "chapters": [-1],
+            "quote": {
+                "en": "It's gotta be red this time!",
+                "ja": "今度こそ赤に賭けるしかない！"
+            },
+            "content": {
+                "en": "## Overview\n\nAside from the usual questing, the heroes could take some time off to relax and refresh their minds by participating in the kingdom’s minigames. These ranged from simple tests of strength and intelligence to losing all your savings betting on a color.\n\n## Details\n\nThere are currently **four minigames**, each originally introduced in **Chapter 1**, with every game representing one of the four [guilds,](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).\n\n### Color Cannon\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Amber Coin\n\nA game of chance and tension. Players place wagers on any of the four available colors:\n\n- **Blue** (x2 multiplier) – 12 positions\n- **Green** (x3 multiplier) – 8 positions\n- **Yellow** (x5 multiplier) – 4 positions\n- **Red** (x10 multiplier) – 1 position\n\nOnce the game begins, colors are eliminated one by one on a large board until only one color remains. Those who bet on the final surviving color receive their wager multiplied accordingly. High risk, high reward.\n\n[Color Cannon Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n### Duel Arena\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Jade Sword\n\nA test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.\n\nIn Chapter 2, an added rule ensures the match ends in a draw if both participants are still standing after one minute. Furthermore, they could also place bets on which side they thought would come out victorious.\n\n[Duel Arena Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n### Mind’s Eye\n\n**Appearance:** Chapter 1\n**Representing Guild:** Scarlet Wand\n\nA memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As the rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.\n\n[Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n### Chicken Rescue\n\n**Appearance:** Chapter 1\n**Representing Guild:** Cerulean Cup\n\nA solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging more attempts and competition.\n\n[Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive._",
+                "ja": "## 概要\n\n勇者たちは冒険の合間に、王国で用意されたミニゲームで一息つき、気分転換を楽しんでいました。内容は、腕力や知力を試すシンプルなものから、全財産を賭けて一攫千金を狙う（あるいは失ってしまう）ハラハラドキドキのものまで多岐にわたります。\n\n## 詳細\n\n現在確認されているミニゲームは**4種類**。これらはすべて**第1章**で初登場し、当時の[ギルド](#entry:guilds-entry)の理念がそれぞれに反映されていました（※第1章のみの要素です）。\n\n### カラーカノン\n\n**登場:** 第1章、第2章\n**担当ギルド:** アンバーコイン\n\n運とスリルが魅力のゲーム。プレイヤーは次の4色のいずれかに賭けることができます。\n\n- **青**（倍率x2）– 12マス\n- **緑**（倍率x3）– 8マス\n- **黄**（倍率x5）– 4マス\n- **赤**（倍率x10）– 1マス\n\nゲームが始まると、大きな盤上から色が一つずつ消されていき、最後に残った色に賭けていたプレイヤーが賞金を獲得します。リスクは大きいですが、見返りもまた莫大です！\n\n[カラーカノン プレイ映像（第1章）](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[カラーカノン プレイ映像（第2章）](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n### デュエルアリーナ\n\n**登場:** 第1章、第2章\n**担当ギルド:** ジェイドソード\n\n力、反射神経、そして持久力が試される試合です。木の剣だけを使い、二人の挑戦者が一騎打ちを行います。最後に立っていた者が勝者となります。\n\n**第2章**からは新ルールが追加され、1分経過して両者が立っていた場合は引き分けとなりました。また、観客は勝利すると思う側に賭けることもできました。\n\n[デュエルアリーナ プレイ映像（第1章）](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[デュエルアリーナ プレイ映像（第2章）](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n### マインズアイ\n\n**登場:** 第1章\n**担当ギルド:** スカーレットワンド\n\n記憶力が試されるゲームです。4人のプレイヤーが、数秒間だけ表示される色の配置をできる限り正確に再現します。正解した色一つにつき**+1点**。さらに、完璧に再現できた場合はボーナス点（色の数に応じて増加）を獲得できます。間違ってしまった場合は、**-5点**を失ってしまいます。ラウンドが進むごとにパターンは複雑化し、難易度も上昇していきます。最終的に最も高得点を稼いだプレイヤーが勝者となります。\n\n[マインズアイ プレイ映像](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n### チキンレスキュー\n\n**登場:** 第1章\n**担当ギルド:** セルリアンカップ\n\n一人で挑戦するソロプレイ型のゲームです。プレイヤーは自分の動きに合わせてかごを操作し、空から落ちてくるニワトリたちを2Dグリッド上でキャッチしていきます。制限時間は1分間。より多くのニワトリを救い出すほどスコアが伸び、その記録はリーダーボードに残されます。何度も挑戦し、ランキング上位を目指すプレイヤーが後を絶ちませんでした。\n\n[チキンレスキュー プレイ映像](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_補足: ENreco Archive では、今回ご紹介したカラーカノン、マインズアイ、チキンレスキューを実際に体験することができます。_"
+            },
+            "thumbnailSrc": "/images-opt/minigames-entry-opt-thumb.webp",
+            "galleryImages": [
+                {
+                    "title": {
+                        "en": "Color Cannon Minigame in Chapter 1",
+                        "ja": "第1章のカラーカノン"
+                    },
+                    "source": "/images-opt/minigames-entry-0-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Duel Arena in Chapter 1",
+                        "ja": "第1章のデュエルアリーナ"
+                    },
+                    "source": "/images-opt/minigames-entry-1-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Mind's Eye",
+                        "ja": "マインズアイ"
+                    },
+                    "source": "/images-opt/minigames-entry-2-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Chicken Rescue",
+                        "ja": "チキンレスキュー"
+                    },
+                    "source": "/images-opt/minigames-entry-3-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Color Cannon Minigame in Chapter 2",
+                        "ja": "第2章のカラーカノン"
+                    },
+                    "source": "/images-opt/minigames-entry-4-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Duel Arena in Chapter 2",
+                        "ja": "第2章のデュエルアリーナ"
+                    },
+                    "source": "/images-opt/minigames-entry-5-opt.webp"
+                }
+            ],
+            "imageSrc": "/images-opt/minigames-entry-opt.webp"
         },
         {
-          "title": {
-            "en": "Charms made by a Jeweler",
-            "ja": "ジュエラーが作るチャーム"
-          },
-          "source": "/images-opt/jobs-entry-2-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Upgrade Stones made by a Smith",
-            "ja": "スミスが作るアップグレードストーン"
-          },
-          "source": "/images-opt/jobs-entry-3-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Food made by a Chef",
-            "ja": "シェフが作る料理"
-          },
-          "source": "/images-opt/jobs-entry-4-opt.webp"
+            "id": "guilds-entry",
+            "title": {
+                "en": "Guilds",
+                "ja": "ギルド"
+            },
+            "chapters": [0],
+            "quote": {
+                "en": "Responsible for ensuring the kingdom's peace and prosperity.",
+                "ja": "王国の平和と繁栄を守るために結成された組織。"
+            },
+            "content": {
+                "en": "## Overview\n\nGuilds were created to organize the heroes into manageable groups and served as the foundational pillars of [Libestal](#entry:libestal-ficta-entry) in Chapter One.\n\n## Details\n\n### Preface\n\nAfter the temporary defeat of the Stain King, the four guildmasters introduced themselves and shared the philosophies behind their respective guilds. Each hero was then assigned to one of these four guilds by the Room of Truth.\n\n### Guilds and Members\n\nGuild assignments were made based on perceived alignment with each guild’s philosophy—though many questioned how accurate these alignments were, considering the often humorous mismatch between a hero’s personality and their assigned values.\n\nEach guild also hosted its own unique event or minigame within its headquarters.\n\n#### Scarlet Wand\n\n**Members:** [Cecilia Immergreen](#entry:cecilia-entry), [Gawr Gura](#entry:gura-entry), [Ceres Fauna](#entry:fauna-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Shiori Nyavella](#entry:shiori-entry)\n**Guildmaster:** Rubius\n\nMarked by their iconic long red hats, the Scarlet Wand was a sanctuary for the curious—where knowledge and creativity were held in the highest regard. However, thanks to a suspicious lottery scheme, the guild earned a reputation for scamming and mind-reading, with many calling them witches.\n\nTheir headquarters resembled a traditional wooden guild hall filled with arcane charm.\n\n#### Amber Coin\n\n**Members:** [Takanashi Kiara](#entry:kiara-entry), [Nanamoo](#entry:mumei-entry), [Raora Panthera](#entry:raora-entry), [Peasant The Bae](#entry:bae-entry)\n**Guildmaster:** Auren\n\nA haven for dreamers, visionaries, and glory-seekers—where friends could easily become rivals. Amber Coin had a rocky start, accused by others (especially the Ceruleans) of murder, kidnapping, and general coin-chasing greed.\n\nOver time, the guild lost several members: Bae vanished into the woods, and Nanamoo became an honorary member of the Scarlet Wand, leaving only Kiara and her pink feline companion as the last two standing.\n\nTheir luxurious palace-like headquarters featured grand gardens and a casino—an opulent display fitting for their name.\n\n#### Cerulean Cup\n\n**Members:** [Tam Gandr](#entry:kronii-entry), [Gonathon G](#entry:gigi-entry), [Ninomae Ina’nis](#entry:ina-entry), [Hot Pink One](#entry:irys-entry), [Koseki Bijou](#entry:bijou-entry)\n**Guildmaster:** Celesta\n\nA sanctum devoted to healing and empathy... in theory. In practice, most members, except for Ina, were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.\n\nTheir base took the form of a serene, open-air temple that radiated tranquility—regardless of how its members behaved.\n\n#### Jade Sword\n\n**Members:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Mori Calliope](#entry:calli-entry), [Fuwawa Abyssgard](#entry:fuwawa-entry), [Mococo Abyssgard](#entry:mococo-entry), [Jyon Watson](#entry:ame-entry)\n**Guildmaster:** Viridus\n\nChampions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind, fluffy girl, a quirky blonde detective, and Elizabeth—perhaps the only one who truly embodied the chivalric ideal.\n\nTheir headquarters was a large, circular arena visible from afar, designed as a training ground for swordplay.",
+                "ja": "## 概要\n\nギルドは、勇者たちを組織化し、統率するために設立された組織であり、第1章『[リベスタル](#entry:libestal-ficta-entry)』の物語の基礎を築いた。\n\n## 詳細\n\n### 序章\n\nステインキングが一時的に退けられた後、四人のギルドマスターがそれぞれのギルドの理念を掲げ、登場した。\nその後、『真実の間』の導きにより、各勇者は四つのギルドのいずれかに配属されることになった。\n\n### ギルドとメンバー\n\nギルドへの配属は、各勇者の性格や価値観がそのギルドの理念に「合致するかどうか」で決定されるはずだった――しかし、その判定にはかなり疑問符がつき、実際には勇者たちの個性と配属先の理念が大きくズレていることもしばしば見受けられた。\n\nまた、各ギルドの本拠地では、それぞれ趣向を凝らした独自のイベントやミニゲームが開催されていた。\n\n#### スカーレットワンド\n\n**メンバー:** [セシリア・イマーグリーン](#entry:cecilia-entry), [がうる・ぐら](#entry:gura-entry), [セレス・ファウナ](#entry:fauna-entry), [ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry), [シオリ・ニャヴェラ](#entry:shiori-entry)\n**ギルドマスター:** ルビウス\n\n赤い長い帽子がトレードマークの『スカーレットワンド』は、知識と創造性を最も重んじる、好奇心旺盛な者たちの聖域。\nしかし、時には怪しい抽選会の仕組みが原因で「詐欺まがい」や「人の心を読む魔女集団」と噂されることもあった。\n\n彼らの本拠地は、古風な木造建築に不思議な魔術的魅力をまとった、趣のあるギルドホールだった。\n\n#### アンバーコイン\n\n**メンバー:** [小鳥遊キアラ](#entry:kiara-entry), [ナナムー](#entry:mumei-entry), [ラオラ・パンテラ](#entry:raora-entry), [ペイザン・ザ・ベイ](#entry:bae-entry)\n**ギルドマスター:** オーレン\n\n夢追い人、理想家、そして栄光を求める者たち――時には友がライバルになる、そんな熱き場所が『アンバーコイン』だった。\nしかし、その始まりは波乱に満ちており、特にセルリアンたちからは「殺人」「誘拐」「金銭欲にまみれた強欲」といった疑いの目を向けられていた。\n\nやがてギルドは仲間を失っていくことになる。ベイは森に姿を消し、ナナムーは名誉メンバーとしてスカーレットワンドへ移籍。最終的には、キアラと彼女のピンク色の猫の相棒だけが残される形となった。\n\nその拠点は、広大な庭園やカジノを備えた豪華な宮殿そのものであり、まさに名の通りの華やかな贅沢さを誇っていた。\n\n#### セルリアンカップ\n\n**メンバー:** [タム・ガンドル](#entry:kronii-entry), [ゴナソン・G](#entry:gigi-entry), [一伊那尓栖](#entry:ina-entry), [ホットピンクワン](#entry:irys-entry), [古石ビジュー](#entry:bijou-entry)\n**ギルドマスター:** セレスタ\n\n本来は『癒し』と『共感』を旨とする、穏やかな聖域……であるはずだった。\nしかし実際には、イナを除くほとんどのメンバーが共感力に乏しく、特にタムとゴナソンが率先して他ギルドに喧嘩を売ることもしばしば見受けられた。\n\n彼らの拠点は、静けさを湛えた開放的な神殿のような造りで、メンバーの態度とは裏腹に穏やかな雰囲気を漂わせる場所だった。\n\n#### ジェイドソード\n\n**メンバー:** [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry), [森カリオペ](#entry:calli-entry), [フワワ・アビスガード](#entry:fuwawa-entry), [モココ・アビスガード](#entry:mococo-entry), [ジョン・ワトソン](#entry:ame-entry)\n**ギルドマスター:** ヴィリダス\n\n『正義』と『忠義』を掲げ、どんな強大な悪にも立ち向かうために結成されたのが『ジェイドソード』。\nしかしその高潔な理想とは裏腹に、実際のメンバーはギャンブル中毒者、離婚相談を兼ねた酒場の店主、やたら優しくてふわふわな少女、風変わりな金髪探偵、そして――唯一、騎士道を体現していたと言えるエリザベス、とかなり個性派揃いだった。\n\nその拠点は遠くからでも見える円形の大きな闘技場で、剣術の訓練場として設計されていた。"
+            },
+            "thumbnailSrc": "/images-opt/guilds-entry-opt-thumb.webp",
+            "galleryImages": [
+                {
+                    "title": {
+                        "en": "Guilds Overview",
+                        "ja": "ギルド概要"
+                    },
+                    "source": "/images-opt/guilds-entry-0-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Jade Sword group photo",
+                        "ja": "ジェイドソード集合写真"
+                    },
+                    "source": "/images-opt/guilds-entry-1-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Scarlet Wand group photo",
+                        "ja": "スカーレットワンド集合写真"
+                    },
+                    "source": "/images-opt/guilds-entry-2-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Cerulean Cup group photo",
+                        "ja": "セルリアンカップ集合写真"
+                    },
+                    "source": "/images-opt/guilds-entry-3-opt.webp"
+                }
+            ],
+            "imageSrc": "/images-opt/guilds-entry-opt.webp"
         }
-      ],
-      "imageSrc": "/images-opt/jobs-entry-opt.webp"
-    },
-    {
-      "id": "minigames-entry",
-      "title": {
-        "en": "Minigames",
-        "ja": "ミニゲーム"
-      },
-      "chapters": [
-        -1
-      ],
-      "quote": {
-        "en": "It's gotta be red this time!",
-        "ja": "今度こそ赤に賭けるしかない！"
-      },
-      "content": {
-        "en": "## Overview\n\nAside from the usual questing, the heroes could take some time off to relax and refresh their minds by participating in the kingdom’s minigames. These ranged from simple tests of strength and intelligence to losing all your savings betting on a color.\n\n## Details\n\nThere are currently **four minigames**, each originally introduced in **Chapter 1**, with every game representing one of the four [guilds,](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).\n\n### Color Cannon\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Amber Coin\n\nA game of chance and tension. Players place wagers on any of the four available colors:\n\n- **Blue** (x2 multiplier) – 12 positions\n- **Green** (x3 multiplier) – 8 positions\n- **Yellow** (x5 multiplier) – 4 positions\n- **Red** (x10 multiplier) – 1 position\n\nOnce the game begins, colors are eliminated one by one on a large board until only one color remains. Those who bet on the final surviving color receive their wager multiplied accordingly. High risk, high reward.\n\n[Color Cannon Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n### Duel Arena\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Jade Sword\n\nA test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.\n\nIn Chapter 2, an added rule ensures the match ends in a draw if both participants are still standing after one minute. Furthermore, they could also place bets on which side they thought would come out victorious.\n\n[Duel Arena Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n### Mind’s Eye\n\n**Appearance:** Chapter 1\n**Representing Guild:** Scarlet Wand\n\nA memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As the rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.\n\n[Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n### Chicken Rescue\n\n**Appearance:** Chapter 1\n**Representing Guild:** Cerulean Cup\n\nA solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging more attempts and competition.\n\n[Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive._",
-        "ja": "## 概要\n\n勇者たちは冒険の合間に、王国で用意されたミニゲームで一息つき、気分転換を楽しんでいました。内容は、腕力や知力を試すシンプルなものから、全財産を賭けて一攫千金を狙う（あるいは失ってしまう）ハラハラドキドキのものまで多岐にわたります。\n\n## 詳細\n\n現在確認されているミニゲームは**4種類**。これらはすべて**第1章**で初登場し、当時の[ギルド](#entry:guilds-entry)の理念がそれぞれに反映されていました（※第1章のみの要素です）。\n\n### カラーカノン\n\n**登場:** 第1章、第2章\n**担当ギルド:** アンバーコイン\n\n運とスリルが魅力のゲーム。プレイヤーは次の4色のいずれかに賭けることができます。\n\n- **青**（倍率x2）– 12マス\n- **緑**（倍率x3）– 8マス\n- **黄**（倍率x5）– 4マス\n- **赤**（倍率x10）– 1マス\n\nゲームが始まると、大きな盤上から色が一つずつ消されていき、最後に残った色に賭けていたプレイヤーが賞金を獲得します。リスクは大きいですが、見返りもまた莫大です！\n\n[カラーカノン プレイ映像（第1章）](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=eJcASEwHtt_fSBxP&t=12469)\n\n[カラーカノン プレイ映像（第2章）](#embed:https://www.youtube.com/live/MXqotm_8_Hc?si=aoEyEg-xEFfmpp35&t=1333)\n\n### デュエルアリーナ\n\n**登場:** 第1章、第2章\n**担当ギルド:** ジェイドソード\n\n力、反射神経、そして持久力が試される試合です。木の剣だけを使い、二人の挑戦者が一騎打ちを行います。最後に立っていた者が勝者となります。\n\n**第2章**からは新ルールが追加され、1分経過して両者が立っていた場合は引き分けとなりました。また、観客は勝利すると思う側に賭けることもできました。\n\n[デュエルアリーナ プレイ映像（第1章）](#embed:https://www.youtube.com/live/M3cuDNZrIKM?si=F2tIDZ3UomJm6BL8&t=7495)\n\n[デュエルアリーナ プレイ映像（第2章）](#embed:https://www.youtube.com/live/AxQVdUrmVZU?si=XZIwaC0gGcvRERuX&t=7524)\n\n### マインズアイ\n\n**登場:** 第1章\n**担当ギルド:** スカーレットワンド\n\n記憶力が試されるゲームです。4人のプレイヤーが、数秒間だけ表示される色の配置をできる限り正確に再現します。正解した色一つにつき**+1点**。さらに、完璧に再現できた場合はボーナス点（色の数に応じて増加）を獲得できます。間違ってしまった場合は、**-5点**を失ってしまいます。ラウンドが進むごとにパターンは複雑化し、難易度も上昇していきます。最終的に最も高得点を稼いだプレイヤーが勝者となります。\n\n[マインズアイ プレイ映像](#embed:https://www.youtube.com/live/iAYrdIlfVf0?si=IgyQ30f4CcuBKzPA&t=4445)\n\n### チキンレスキュー\n\n**登場:** 第1章\n**担当ギルド:** セルリアンカップ\n\n一人で挑戦するソロプレイ型のゲームです。プレイヤーは自分の動きに合わせてかごを操作し、空から落ちてくるニワトリたちを2Dグリッド上でキャッチしていきます。制限時間は1分間。より多くのニワトリを救い出すほどスコアが伸び、その記録はリーダーボードに残されます。何度も挑戦し、ランキング上位を目指すプレイヤーが後を絶ちませんでした。\n\n[チキンレスキュー プレイ映像](#embed:https://www.youtube.com/live/Rd0awHHBTiA?si=hio6f__WZ_dYMMTq&t=6662)\n\n_補足: ENreco Archive では、今回ご紹介したカラーカノン、マインズアイ、チキンレスキューを実際に体験することができます。_"
-      },
-      "thumbnailSrc": "/images-opt/minigames-entry-opt-thumb.webp",
-      "galleryImages": [
+    ],
+    "side-quests": [
         {
-          "title": {
-            "en": "Color Cannon Minigame in Chapter 1",
-            "ja": "第1章のカラーカノン"
-          },
-          "source": "/images-opt/minigames-entry-0-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Duel Arena in Chapter 1",
-            "ja": "第1章のデュエルアリーナ"
-          },
-          "source": "/images-opt/minigames-entry-1-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Mind's Eye",
-            "ja": "マインズアイ"
-          },
-          "source": "/images-opt/minigames-entry-2-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Chicken Rescue",
-            "ja": "チキンレスキュー"
-          },
-          "source": "/images-opt/minigames-entry-3-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Color Cannon Minigame in Chapter 2",
-            "ja": "第2章のカラーカノン"
-          },
-          "source": "/images-opt/minigames-entry-4-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Duel Arena in Chapter 2",
-            "ja": "第2章のデュエルアリーナ"
-          },
-          "source": "/images-opt/minigames-entry-5-opt.webp"
+            "id": "portraits-entry",
+            "title": {
+                "en": "Portraits",
+                "ja": "肖像画"
+            },
+            "chapters": [1],
+            "quote": {
+                "en": "Looking at this makes me feel nostalgic...",
+                "ja": "これを見ると、なんだか懐かしい気持ちになる……"
+            },
+            "content": {
+                "en": "## Overview\n\nIn Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art [event](https://x.com/hololive_En/status/1895609934085325149) that ran from `March 1st to March 19th, 2025`, before the start of the chapter.\n\n## Details\n\nTo receive a portrait, the heroes needed to help Pygmalion by gathering a set of materials. The task was intentionally a bit tedious, as it encouraged cooperation among the heroes. Each item was tied to a specific profession, meaning players had to seek out others in those roles:\n\n- **5 Raw Iron, 5 Raw Copper** – from a Supplier\n- **1 Butter** – from a Chef\n- **1 Basic Upgrade Stone** – from a Smith\n- **1 Basic Azure Charm** – from a Jeweler\n\nThis quest acted not only as a way to earn a personalized portrait but also as a clever method to promote player interaction and teamwork early in Chapter 2.\n\nEach hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was [meaningful.](https://www.youtube.com/live/CVF91CqGD80?si=xnTcW4oA0I5l5zax&t=4441)\n\n## Sources\n\n- Portrait of [Mordan Ramsey](#entry:calli-entry) - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- Portrait of [Tanakisha Karia](#entry:kiara-entry) - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- Portrait of [NinoIna](#entry:ina-entry) - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- Portrait of [Tam Gandr](#entry:kronii-entry) - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- Portrait of the [Hot Pink One](#entry:irys-entry) - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- Portrait of [Peasant The Bae](#entry:bae-entry) - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- Portrait of [Shiori Nyavella](#entry:shiori-entry) - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- Portrait of [Nerissa Ravencroft](#entry:nerissa-entry) - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- Portrait of [Fuwawa Abyssgard](#entry:fuwawa-entry) - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- Portrait of [Mococo Abyssgard](#entry:mococo-entry) - [eli_soratabi](https://x.com/elis_soratabi/status/1935579733976396182)\n- Portrait of [Koseki Bijou](#entry:bijou-entry) - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- Portrait of [Elizabeth Rose Bloodflame](#entry:liz-entry) - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- Portrait of [Gonathon G](#entry:gigi-entry) - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- Portrait of [Cecilia Immerkind](#entry:cecilia-entry) - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- Portrait of [Roa Pandora](#entry:raora-entry) - [kit](https://x.com/quartzquadrant/status/1902200030980649355)",
+                "ja": "## 概要\n\nチャプター2では、サイドクエストとして、勇者たちが画家ピュグマリオンに自分自身の肖像画を依頼できるようになりました。これらの肖像画は、他とは一線を画す特別なもの。実は **#ENrecoCanvas** キャンペーンで選ばれた珠玉の作品だったのです。このファンアート[イベント](https://x.com/hololive_En/status/1895609934085325149)は、チャプター開始前の`2025年3月1日から3月19日`にかけて開催されました。\n\n## 詳細\n\n肖像画を手に入れるためには、勇者たちは画家ピュグマリオンの依頼に応え、特定の素材を集める必要がありました。この依頼には、勇者たちの間で自然な協力を生み出すような、巧妙な工夫が凝らされていたのです。必要なアイテムはそれぞれ異なる職業に特化したものばかりで、仲間との協力が必須となっていました。\n\n- **鉄の原石5個、銅の原石5個** – サプライヤーから入手\n- **バター1個** – シェフから入手\n- **基本アップグレードストーン1個** – スミスから入手\n- **基本アズールチャーム1個** – ジュエラーから入手\n\nこのクエストは、単に自分だけの特別な肖像画を手に入れる手段であるだけでなく、チャプター2の序盤でプレイヤー間の交流とチームワークを自然に促す、実に心憎い仕掛けでもありました。\n\nそれぞれの肖像画は一点もので、その画風や物語性は、描かれた勇者の個性や物語を鮮やかに映し出しています。報酬は単なるアイテムに留まらず、深い意味と忘れられない価値を持つものでした。\n[→ 参考映像](https://www.youtube.com/live/CVF91CqGD80?si=xnTcW4oA0I5l5zax&t=4441)\n\n## 出典\n\n- [モーダン・ラムジー](#entry:calli-entry)の肖像画 - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- [タナキシャ・カリア](#entry:kiara-entry)の肖像画 - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- [ニノイナ](#entry:ina-entry)の肖像画 - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- [タム・ガンドル](#entry:kronii-entry)の肖像画 - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- [ホットピンクワン](#entry:irys-entry)の肖像画 - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- [ペイザン・ザ・ベイ](#entry:bae-entry)の肖像画 - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- [シオリ・ニャヴェラ](#entry:shiori-entry)の肖像画 - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- [ネリッサ・レイヴンクロフト](#entry:nerissa-entry)の肖像画 - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- [フワワ・アビスガード](#entry:fuwawa-entry)の肖像画 - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- [モココ・アビスガード](#entry:mococo-entry)の肖像画 - [eli_soratabi](https://x.com/elis_soratabi/status/1935579733976396182)\n- [古石ビジュー](#entry:bijou-entry)の肖像画 - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry)の肖像画 - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- [ゴナソンG](#entry:gigi-entry)の肖像画 - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- [セシリア・イマーカインド](#entry:cecilia-entry)の肖像画 - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- [ロア・パンドラ](#entry:raora-entry)の肖像画 - [kit](https://x.com/quartzquadrant/status/1902200030980649355)"
+            },
+            "thumbnailSrc": "/images-opt/portraits-entry-opt-thumb.webp",
+            "galleryImages": [
+                {
+                    "title": {
+                        "en": "Portrait of Mordan Ramsay",
+                        "ja": "モーダン・ラムジーの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-0-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Tanakisha Karia",
+                        "ja": "タナキシャ・カリアの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-1-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of NinoIna",
+                        "ja": "ニノイナの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-2-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Tam Gandr",
+                        "ja": "タム・ガンドルの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-3-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of the Hot Pink One",
+                        "ja": "ホットピンクワンの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-4-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Peasant The Bae",
+                        "ja": "ペイザン・ザ・ベイの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-5-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Shiori Nyavella",
+                        "ja": "シオリ・ニャヴェラの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-6-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Nerissa Juliet Ravencroft",
+                        "ja": "ネリッサ・ジュリエット・レイヴンクロフトの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-7-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Fuwawa Abyssgard",
+                        "ja": "フワワ・アビスガードの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-8-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Mococo Abyssgard",
+                        "ja": "モココ・アビスガードの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-9-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Koseki Bijou",
+                        "ja": "古石ビジューの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-10-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Elizabeth Rose Bloodflame",
+                        "ja": "エリザベス・ローズ・ブラッドフレイムの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-11-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Gonathon G",
+                        "ja": "ゴナソンGの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-12-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Cecilia Immerkind",
+                        "ja": "セシリア・イマーカインドの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-13-opt.webp"
+                },
+                {
+                    "title": {
+                        "en": "Portrait of Roa Pandora",
+                        "ja": "ロア・パンドラの肖像画"
+                    },
+                    "source": "/images-opt/portraits-entry-14-opt.webp"
+                }
+            ],
+            "imageSrc": "/images-opt/portraits-entry-opt.webp"
         }
-      ],
-      "imageSrc": "/images-opt/minigames-entry-opt.webp"
-    },
-    {
-      "id": "guilds-entry",
-      "title": {
-        "en": "Guilds",
-        "ja": "ギルド"
-      },
-      "chapters": [
-        0
-      ],
-      "quote": {
-        "en": "Responsible for ensuring the kingdom's peace and prosperity.",
-        "ja": "王国の平和と繁栄を守るために結成された組織。"
-      },
-      "content": {
-        "en": "## Overview\n\nGuilds were created to organize the heroes into manageable groups and served as the foundational pillars of [Libestal](#entry:libestal-ficta-entry) in Chapter One.\n\n## Details\n\n### Preface\n\nAfter the temporary defeat of the Stain King, the four guildmasters introduced themselves and shared the philosophies behind their respective guilds. Each hero was then assigned to one of these four guilds by the Room of Truth.\n\n### Guilds and Members\n\nGuild assignments were made based on perceived alignment with each guild’s philosophy—though many questioned how accurate these alignments were, considering the often humorous mismatch between a hero’s personality and their assigned values.\n\nEach guild also hosted its own unique event or minigame within its headquarters.\n\n#### Scarlet Wand\n\n**Members:** [Cecilia Immergreen](#entry:cecilia-entry), [Gawr Gura](#entry:gura-entry), [Ceres Fauna](#entry:fauna-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Shiori Nyavella](#entry:shiori-entry)\n**Guildmaster:** Rubius\n\nMarked by their iconic long red hats, the Scarlet Wand was a sanctuary for the curious—where knowledge and creativity were held in the highest regard. However, thanks to a suspicious lottery scheme, the guild earned a reputation for scamming and mind-reading, with many calling them witches.\n\nTheir headquarters resembled a traditional wooden guild hall filled with arcane charm.\n\n#### Amber Coin\n\n**Members:** [Takanashi Kiara](#entry:kiara-entry), [Nanamoo](#entry:mumei-entry), [Raora Panthera](#entry:raora-entry), [Peasant The Bae](#entry:bae-entry)\n**Guildmaster:** Auren\n\nA haven for dreamers, visionaries, and glory-seekers—where friends could easily become rivals. Amber Coin had a rocky start, accused by others (especially the Ceruleans) of murder, kidnapping, and general coin-chasing greed.\n\nOver time, the guild lost several members: Bae vanished into the woods, and Nanamoo became an honorary member of the Scarlet Wand, leaving only Kiara and her pink feline companion as the last two standing.\n\nTheir luxurious palace-like headquarters featured grand gardens and a casino—an opulent display fitting for their name.\n\n#### Cerulean Cup\n\n**Members:** [Tam Gandr](#entry:kronii-entry), [Gonathon G](#entry:gigi-entry), [Ninomae Ina’nis](#entry:ina-entry), [Hot Pink One](#entry:irys-entry), [Koseki Bijou](#entry:bijou-entry)\n**Guildmaster:** Celesta\n\nA sanctum devoted to healing and empathy... in theory. In practice, most members, except for Ina, were far from empathetic, often picking fights with other guilds for unclear reasons, particularly through instigators Tam and Gonathon.\n\nTheir base took the form of a serene, open-air temple that radiated tranquility—regardless of how its members behaved.\n\n#### Jade Sword\n\n**Members:** [Elizabeth Rose Bloodflame](#entry:liz-entry), [Mori Calliope](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry), [Mococo Abyssguard](#entry:mococo-entry), [Jyon Watson](#entry:ame-entry)\n**Guildmaster:** Viridus\n\nChampions of justice and loyalty, Jade Sword was built to stand against great evils with even greater courage. Despite this noble ideal, the guild included a gambling addict, a divorce-selling tavern owner, an exceptionally kind, fluffy girl, a quirky blonde detective, and Elizabeth—perhaps the only one who truly embodied the chivalric ideal.\n\nTheir headquarters was a large, circular arena visible from afar, designed as a training ground for swordplay.",
-        "ja": "## 概要\n\nギルドは、勇者たちを組織化し、統率するために設立された組織であり、第1章『[リベスタル](#entry:libestal-ficta-entry)』の物語の基礎を築いた。\n\n## 詳細\n\n### 序章\n\nステインキングが一時的に退けられた後、四人のギルドマスターがそれぞれのギルドの理念を掲げ、登場した。\nその後、『真実の間』の導きにより、各勇者は四つのギルドのいずれかに配属されることになった。\n\n### ギルドとメンバー\n\nギルドへの配属は、各勇者の性格や価値観がそのギルドの理念に「合致するかどうか」で決定されるはずだった――しかし、その判定にはかなり疑問符がつき、実際には勇者たちの個性と配属先の理念が大きくズレていることもしばしば見受けられた。\n\nまた、各ギルドの本拠地では、それぞれ趣向を凝らした独自のイベントやミニゲームが開催されていた。\n\n#### スカーレットワンド\n\n**メンバー:** [セシリア・イマーグリーン](#entry:cecilia-entry), [がうる・ぐら](#entry:gura-entry), [セレス・ファウナ](#entry:fauna-entry), [ネリッサ・ジュリエット・レイヴンクロフト](#entry:nerissa-entry), [シオリ・ニャヴェラ](#entry:shiori-entry)\n**ギルドマスター:** ルビウス\n\n赤い長い帽子がトレードマークの『スカーレットワンド』は、知識と創造性を最も重んじる、好奇心旺盛な者たちの聖域。\nしかし、時には怪しい抽選会の仕組みが原因で「詐欺まがい」や「人の心を読む魔女集団」と噂されることもあった。\n\n彼らの本拠地は、古風な木造建築に不思議な魔術的魅力をまとった、趣のあるギルドホールだった。\n\n#### アンバーコイン\n\n**メンバー:** [小鳥遊キアラ](#entry:kiara-entry), [ナナムー](#entry:mumei-entry), [ラオラ・パンテラ](#entry:raora-entry), [ペイザン・ザ・ベイ](#entry:bae-entry)\n**ギルドマスター:** オーレン\n\n夢追い人、理想家、そして栄光を求める者たち――時には友がライバルになる、そんな熱き場所が『アンバーコイン』だった。\nしかし、その始まりは波乱に満ちており、特にセルリアンたちからは「殺人」「誘拐」「金銭欲にまみれた強欲」といった疑いの目を向けられていた。\n\nやがてギルドは仲間を失っていくことになる。ベイは森に姿を消し、ナナムーは名誉メンバーとしてスカーレットワンドへ移籍。最終的には、キアラと彼女のピンク色の猫の相棒だけが残される形となった。\n\nその拠点は、広大な庭園やカジノを備えた豪華な宮殿そのものであり、まさに名の通りの華やかな贅沢さを誇っていた。\n\n#### セルリアンカップ\n\n**メンバー:** [タム・ガンドル](#entry:kronii-entry), [ゴナソン・G](#entry:gigi-entry), [一伊那尓栖](#entry:ina-entry), [ホットピンクワン](#entry:irys-entry), [古石ビジュー](#entry:bijou-entry)\n**ギルドマスター:** セレスタ\n\n本来は『癒し』と『共感』を旨とする、穏やかな聖域……であるはずだった。\nしかし実際には、イナを除くほとんどのメンバーが共感力に乏しく、特にタムとゴナソンが率先して他ギルドに喧嘩を売ることもしばしば見受けられた。\n\n彼らの拠点は、静けさを湛えた開放的な神殿のような造りで、メンバーの態度とは裏腹に穏やかな雰囲気を漂わせる場所だった。\n\n#### ジェイドソード\n\n**メンバー:** [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry), [森カリオペ](#entry:calli-entry), [フワワ・アビスガード](#entry:fuwawa-entry), [モココ・アビスガード](#entry:mococo-entry), [ジョン・ワトソン](#entry:ame-entry)\n**ギルドマスター:** ヴィリダス\n\n『正義』と『忠義』を掲げ、どんな強大な悪にも立ち向かうために結成されたのが『ジェイドソード』。\nしかしその高潔な理想とは裏腹に、実際のメンバーはギャンブル中毒者、離婚相談を兼ねた酒場の店主、やたら優しくてふわふわな少女、風変わりな金髪探偵、そして――唯一、騎士道を体現していたと言えるエリザベス、とかなり個性派揃いだった。\n\nその拠点は遠くからでも見える円形の大きな闘技場で、剣術の訓練場として設計されていた。"
-      },
-      "thumbnailSrc": "/images-opt/guilds-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": {
-            "en": "Guilds Overview",
-            "ja": "ギルド概要"
-          },
-          "source": "/images-opt/guilds-entry-0-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Jade Sword group photo",
-            "ja": "ジェイドソード集合写真"
-          },
-          "source": "/images-opt/guilds-entry-1-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Scarlet Wand group photo",
-            "ja": "スカーレットワンド集合写真"
-          },
-          "source": "/images-opt/guilds-entry-2-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Cerulean Cup group photo",
-            "ja": "セルリアンカップ集合写真"
-          },
-          "source": "/images-opt/guilds-entry-3-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/guilds-entry-opt.webp"
-    }
-  ],
-  "side-quests": [
-    {
-      "id": "portraits-entry",
-      "title": {
-        "en": "Portraits",
-        "ja": "肖像画"
-      },
-      "chapters": [
-        1
-      ],
-      "quote": {
-        "en": "Looking at this makes me feel nostalgic...",
-        "ja": "これを見ると、なんだか懐かしい気持ちになる……"
-      },
-      "content": {
-        "en": "## Overview\n\nIn Chapter 2, a sidequest allowed the heroes to request a portrait of themselves from an artist named Pygmalion. These portraits were special—they were selected entries from the **#ENrecoCanvas** campaign, a fan art [event](https://x.com/hololive_En/status/1895609934085325149) that ran from `March 1st to March 19th, 2025`, before the start of the chapter.\n\n## Details\n\nTo receive a portrait, the heroes needed to help Pygmalion by gathering a set of materials. The task was intentionally a bit tedious, as it encouraged cooperation among the heroes. Each item was tied to a specific profession, meaning players had to seek out others in those roles:\n\n- **5 Raw Iron, 5 Raw Copper** – from a Supplier\n- **1 Butter** – from a Chef\n- **1 Basic Upgrade Stone** – from a Smith\n- **1 Basic Azure Charm** – from a Jeweler\n\nThis quest acted not only as a way to earn a personalized portrait but also as a clever method to promote player interaction and teamwork early in Chapter 2.\n\nEach hero's portrait was unique, both in art style and in the story it portrayed, capturing something personal and special about that character—making the reward as memorable as it was [meaningful.](https://www.youtube.com/live/CVF91CqGD80?si=xnTcW4oA0I5l5zax&t=4441)\n\n## Sources\n\n- Portrait of [Mordan Ramsey](#entry:calli-entry) - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- Portrait of [Tanakisha Karia](#entry:kiara-entry) - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- Portrait of [NinoIna](#entry:ina-entry) - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- Portrait of [Tam Gandr](#entry:kronii-entry) - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- Portrait of the [Hot Pink One](#entry:irys-entry) - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- Portrait of [Peasant The Bae](#entry:bae-entry) - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- Portrait of [Shiori Nyavella](#entry:shiori-entry) - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- Portrait of [Nerissa Ravencroft](#entry:nerissa-entry) - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- Portrait of [Fuwawa Abyssguard](#entry:fuwawa-entry) - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- Portrait of [Mococo Abyssguard](#entry:mococo-entry) - [eli_soratabi](https://x.com/elis_soratabi/status/1935579733976396182)\n- Portrait of [Koseki Bijou](#entry:bijou-entry) - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- Portrait of [Elizabeth Rose Bloodflame](#entry:liz-entry) - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- Portrait of [Gonathon G](#entry:gigi-entry) - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- Portrait of [Cecilia Immerkind](#entry:cecilia-entry) - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- Portrait of [Roa Pandora](#entry:raora-entry) - [kit](https://x.com/quartzquadrant/status/1902200030980649355)",
-        "ja": "## 概要\n\nチャプター2では、サイドクエストとして、勇者たちが画家ピュグマリオンに自分自身の肖像画を依頼できるようになりました。これらの肖像画は、他とは一線を画す特別なもの。実は **#ENrecoCanvas** キャンペーンで選ばれた珠玉の作品だったのです。このファンアート[イベント](https://x.com/hololive_En/status/1895609934085325149)は、チャプター開始前の`2025年3月1日から3月19日`にかけて開催されました。\n\n## 詳細\n\n肖像画を手に入れるためには、勇者たちは画家ピュグマリオンの依頼に応え、特定の素材を集める必要がありました。この依頼には、勇者たちの間で自然な協力を生み出すような、巧妙な工夫が凝らされていたのです。必要なアイテムはそれぞれ異なる職業に特化したものばかりで、仲間との協力が必須となっていました。\n\n- **鉄の原石5個、銅の原石5個** – サプライヤーから入手\n- **バター1個** – シェフから入手\n- **基本アップグレードストーン1個** – スミスから入手\n- **基本アズールチャーム1個** – ジュエラーから入手\n\nこのクエストは、単に自分だけの特別な肖像画を手に入れる手段であるだけでなく、チャプター2の序盤でプレイヤー間の交流とチームワークを自然に促す、実に心憎い仕掛けでもありました。\n\nそれぞれの肖像画は一点もので、その画風や物語性は、描かれた勇者の個性や物語を鮮やかに映し出しています。報酬は単なるアイテムに留まらず、深い意味と忘れられない価値を持つものでした。\n[→ 参考映像](https://www.youtube.com/live/CVF91CqGD80?si=xnTcW4oA0I5l5zax&t=4441)\n\n## 出典\n\n- [モーダン・ラムジー](#entry:calli-entry)の肖像画 - [nino](https://x.com/2nochuu/status/1902511940938952880)\n- [タナキシャ・カリア](#entry:kiara-entry)の肖像画 - [DDOLBANG](https://x.com/DDOLBANG11/status/1901809462907896270/photo/1)\n- [ニノイナ](#entry:ina-entry)の肖像画 - [Yuki Azuya](https://x.com/YukiAzuyaYuki/status/1897289589376815208/photo/1)\n- [タム・ガンドル](#entry:kronii-entry)の肖像画 - [Raichi](https://x.com/KirisakiLychee/status/1902258670706237921)\n- [ホットピンクワン](#entry:irys-entry)の肖像画 - [Wynnie](https://x.com/WynnTerra_/status/1902017659547353299)\n- [ペイザン・ザ・ベイ](#entry:bae-entry)の肖像画 - [Miku](https://x.com/Mikururun/status/1899107067182411936/photo/1)\n- [シオリ・ニャヴェラ](#entry:shiori-entry)の肖像画 - [the baker I am](https://x.com/imabaker111/status/1901017602388095009)\n- [ネリッサ・レイヴンクロフト](#entry:nerissa-entry)の肖像画 - [sumo](https://x.com/sumo88_/status/1900190544602734862)\n- [フワワ・アビスガード](#entry:fuwawa-entry)の肖像画 - [Hiro](https://x.com/hiroavrs/status/1902520304167203278/photo/1)\n- [モココ・アビスガード](#entry:mococo-entry)の肖像画 - [eli_soratabi](https://x.com/elis_soratabi/status/1935579733976396182)\n- [古石ビジュー](#entry:bijou-entry)の肖像画 - [Dr.Pigieon PhD](https://x.com/PhdPigeon/status/1896821416395436357)\n- [エリザベス・ローズ・ブラッドフレイム](#entry:liz-entry)の肖像画 - [otashishi](https://x.com/ashiartwork/status/1900196831394668961)\n- [ゴナソンG](#entry:gigi-entry)の肖像画 - [Gardener](https://x.com/jhgardener_/status/1901266522120794617)\n- [セシリア・イマーカインド](#entry:cecilia-entry)の肖像画 - [Mittsu](https://x.com/MittsumiA/status/1902371897985397070/photo/1)\n- [ロア・パンドラ](#entry:raora-entry)の肖像画 - [kit](https://x.com/quartzquadrant/status/1902200030980649355)"
-      },
-      "thumbnailSrc": "/images-opt/portraits-entry-opt-thumb.webp",
-      "galleryImages": [
-        {
-          "title": {
-            "en": "Portrait of Mordan Ramsay",
-            "ja": "モーダン・ラムジーの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-0-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Tanakisha Karia",
-            "ja": "タナキシャ・カリアの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-1-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of NinoIna",
-            "ja": "ニノイナの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-2-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Tam Gandr",
-            "ja": "タム・ガンドルの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-3-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of the Hot Pink One",
-            "ja": "ホットピンクワンの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-4-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Peasant The Bae",
-            "ja": "ペイザン・ザ・ベイの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-5-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Shiori Nyavella",
-            "ja": "シオリ・ニャヴェラの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-6-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Nerissa Juliet Ravencroft",
-            "ja": "ネリッサ・ジュリエット・レイヴンクロフトの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-7-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Fuwawa Abyssguard",
-            "ja": "フワワ・アビスガードの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-8-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Mococo Abyssguard",
-            "ja": "モココ・アビスガードの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-9-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Koseki Bijou",
-            "ja": "古石ビジューの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-10-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Elizabeth Rose Bloodflame",
-            "ja": "エリザベス・ローズ・ブラッドフレイムの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-11-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Gonathon G",
-            "ja": "ゴナソンGの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-12-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Cecilia Immerkind",
-            "ja": "セシリア・イマーカインドの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-13-opt.webp"
-        },
-        {
-          "title": {
-            "en": "Portrait of Roa Pandora",
-            "ja": "ロア・パンドラの肖像画"
-          },
-          "source": "/images-opt/portraits-entry-14-opt.webp"
-        }
-      ],
-      "imageSrc": "/images-opt/portraits-entry-opt.webp"
-    }
-  ]
+    ]
 }

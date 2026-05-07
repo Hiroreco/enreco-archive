@@ -3,4 +3,4 @@
 
 <!-- description -->
 
-Mococo Abyssguard's daily journal entries during Chapter 2.
+Mococo Abyssgard's daily journal entries during Chapter 2.

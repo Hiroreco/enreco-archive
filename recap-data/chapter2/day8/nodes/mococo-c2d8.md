@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 Mococo woke up from her bed with a funny feeling within her.

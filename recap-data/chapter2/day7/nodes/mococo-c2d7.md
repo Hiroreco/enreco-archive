@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 Don’t you just love it when you’ve barely woken up and someone’s already asking you for therapy? Well, that’s exactly what happened to the kingdom’s newly renowned therapist, Mococo.

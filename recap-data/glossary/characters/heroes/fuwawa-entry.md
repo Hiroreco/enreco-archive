@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- quote: Bau bau! Thank you for enjoying my food! -->
 <!-- chapters: -1 -->
 <!-- images: (Fuwawa's Chapter 1 Profile), (Fuwawa and her not sister by the fire), (Fuwawa's Chapter 2 Profile), (Fuwawa and Mococo turning against Fia in Chapter 2's Ending) -->
@@ -9,13 +9,13 @@
 **Memories:** Not Recollected
 **Revelation:** [Azure Claws](#entry:azure-claws-entry)
 
-Fuwawa Abyssguard was one of the few "normal" heroes amidst the chaos. Rarely dragged into the dramatic antics of others, she remained a hardworking and honest doggo who dutifully completed her tasks and quietly warmed the hearts of those around her.
+Fuwawa Abyssgard was one of the few "normal" heroes amidst the chaos. Rarely dragged into the dramatic antics of others, she remained a hardworking and honest doggo who dutifully completed her tasks and quietly warmed the hearts of those around her.
 
 ## Details
 
 ### Chapter 1
 
-**Name:** Fuwawa Abyssguard
+**Name:** Fuwawa Abyssgard
 **Guild:** Jade Sword
 
 Though she began more lost than most, Fuwawa showed a strong will to grow, learning as she went. With the help of Elizabeth, her trusty bread lady, she found her footing and steadily carved her own path. She never gambled, never stirred up conflict—just focused on her quests. This made her a sharp contrast to her fuzzier counterpart, [Mococo](#entry:mococo-entry), who frequently got into trouble. Fuwawa spent much of her time keeping an eye on her until she finally got so fed up that she [gave up](https://www.youtube.com/live/cYvEiwlPkW0?feature=shared&t=2121) trying altogether.
@@ -29,7 +29,7 @@ Yet with the help of her comrades, the corruption was vanquished, and Fuwawa ret
 
 ### Chapter 2
 
-**Name:** Fuwawa Abyssguard
+**Name:** Fuwawa Abyssgard
 **Job:** Chef
 
 Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on the role of a [chef](#entry:jobs-entry)—not for power or glory, but simply because she wanted to make others smile through her cooking. With that goal, she wasted no time building a cozy little café, hoping it could become a space where people could come together in a kingdom rife with drama.

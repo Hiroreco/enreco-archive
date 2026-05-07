@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 _"I won... I won!"_ the doggo excitedly whispered to herself as she began her fourth day in the kingdom. The day had only just started, but Mococo's mind was already fixated on one thing: winning the lottery. She was ecstatic—the most excited she had been since the start of her journey—so she wasted no time rushing to FaunaMart to claim her prize.

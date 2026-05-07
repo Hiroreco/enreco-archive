@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 The fluffy one began her fourth day with a calm start, engaging in a small [chat](https://www.youtube.com/live/BehFIHehD_Y?feature=shared&t=439) with Nerissa about hats and various topics. True to her nature, Fuwawa's perspective remained serene and, well, fluffy. In stark contrast, her counterpart, the ever-fuzzy Mococo, was rushing by her side to FaunaMart to claim her lottery winnings. Fuwawa was surprised to learn that Mococo had won, but her surprise quickly turned to concern as she watched her not-sister buy 71 more tickets, transforming into a money-hungry adventurer.

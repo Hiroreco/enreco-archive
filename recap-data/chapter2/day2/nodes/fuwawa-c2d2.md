@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Fuwawa woke up and went straight to work. She had to be diligent—only through hard work could she create delicious food, fulfill her role as a chef, and ultimately achieve her dream of bringing people together.

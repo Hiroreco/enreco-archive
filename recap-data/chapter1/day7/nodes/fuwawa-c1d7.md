@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Fuwawa had been diligently preparing for the final day, as she always had since the beginning. Her dependable nature had never wavered—she did what needed to be done, avoided causing trouble, and won the hearts of everyone she met. She was, in many ways, the ideal hero, in contrast to her pink counterpart, who was often a source of chaos. Still, Mococo’s antics had their own charm, and Fuwawa couldn’t deny that her partner was a good doggo at heart.

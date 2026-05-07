@@ -37,7 +37,7 @@ Smiths also gained a passive combat buff: a scaling chance to deal increased dam
 
 #### Jeweler
 
-**Occupants:** [Koseki Bijou](#entry:bijou-entry), [NinoIna](#entry:ina-entry), [Roa Pandora](#entry:raora-entry), [Mococo Abyssguard](#entry:mococo-entry)
+**Occupants:** [Koseki Bijou](#entry:bijou-entry), [NinoIna](#entry:ina-entry), [Roa Pandora](#entry:raora-entry), [Mococo Abyssgard](#entry:mococo-entry)
 **Lead:** Chrys
 
 Jewelers created charms that boosted health and defense. Each charm required specific materials, and crafting involved a memory-based minigame.
@@ -50,7 +50,7 @@ Charms came in three different colors. Heroes could equip one charm of each colo
 
 #### Chef
 
-**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssguard](#entry:fuwawa-entry)
+**Occupants:** [Hot Pink One](#entry:irys-entry), [Shiori Nyavella](#entry:shiori-entry), [Nerissa Juliet Ravencroft](#entry:nerissa-entry), [Mordan Ramsey](#entry:calli-entry), [Fuwawa Abyssgard](#entry:fuwawa-entry)
 **Lead:** Ambros
 
 Chefs prepared meals that granted powerful, long-lasting buffs. The cooking system mirrored that of Chapter One: a recipe book listed the required ingredients, which were then placed into a pot before hitting the "cook" button.

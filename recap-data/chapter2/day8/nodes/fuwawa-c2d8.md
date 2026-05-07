@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 The final day had arrived. With riches in hand, friendships forged, and dreams realized, Fuwawa had just about fulfilled everything she set out to do on this journey. Now, it was time to wind down, enjoy the company of those she cherished, and prepare for the grand banquet that marked the end of it all. Oh—and build a roof for her café. It wouldn't do to let customers get soaked in the rain, after all.

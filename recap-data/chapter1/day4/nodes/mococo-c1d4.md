@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 Lottery! Lottery! Lottery! It was all Mococo could think about as she started her fourth day. The once innocent, shy doggo from the first day? She was no more. Money, monetary values, and gambling had completely taken over her thoughts. Her once-cute persona had evolved into a fiery embodiment of ambition, leaving everyone around her equally amused and alarmed. FaunaMart had transformed her into a true devotee of business, and she was eager to spread her enthusiasm to everyone she met.
