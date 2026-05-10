@@ -6,12 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const VIDEO_DIR = path.resolve(process.cwd(), "apps", "news-data", "videos");
-const ENTRIES_DIR = path.resolve(
-    process.cwd(),
-    "apps",
-    "news-data",
-    "entries",
-);
+const ENTRIES_DIR = path.resolve(process.cwd(), "apps", "news-data", "entries");
 
 const r2 = new S3Client({
     region: "auto",

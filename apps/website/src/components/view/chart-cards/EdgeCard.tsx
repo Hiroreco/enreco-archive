@@ -112,8 +112,10 @@ const EdgeCard = ({
     }
 
     const edgeRelationshipId = selectedEdge.data?.relationshipId ?? null;
-    if(!edgeRelationshipId) {
-        console.error("edgeRelationshipId is missing, is there a mistake in the data?");
+    if (!edgeRelationshipId) {
+        console.error(
+            "edgeRelationshipId is missing, is there a mistake in the data?",
+        );
         throw new Error("edgeRelationshipId is missing");
     }
     const edgeRelationship = chapterData.relationships[edgeRelationshipId];
@@ -282,8 +284,7 @@ const EdgeCard = ({
                             (n) => n.data?.day === selectedEdge.data?.day,
                         );
                         if (currentIndex < availableEdges.length - 1) {
-                            const nextEdge =
-                                availableEdges[currentIndex + 1];
+                            const nextEdge = availableEdges[currentIndex + 1];
                             if (nextEdge.data?.day !== undefined) {
                                 onDayChange(nextEdge.data.day);
                             }
@@ -293,8 +294,7 @@ const EdgeCard = ({
                         selectedEdge.data?.day ===
                         Math.min(
                             ...availableEdges.map(
-                                (n) =>
-                                    n.data?.day ?? Number.POSITIVE_INFINITY,
+                                (n) => n.data?.day ?? Number.POSITIVE_INFINITY,
                             ),
                         )
                     }
@@ -302,8 +302,7 @@ const EdgeCard = ({
                         selectedEdge.data?.day ===
                         Math.max(
                             ...availableEdges.map(
-                                (n) =>
-                                    n.data?.day ?? Number.NEGATIVE_INFINITY,
+                                (n) => n.data?.day ?? Number.NEGATIVE_INFINITY,
                             ),
                         )
                     }

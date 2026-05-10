@@ -155,15 +155,9 @@ async function main() {
             // Check for duplicates
             if (linkEntries.some((entry) => entry.url === url)) {
                 const existingFiles = urlToFiles.get(url) || [];
-                console.warn(
-                    `⚠️  Duplicate URL found: ${url}`,
-                );
-                console.warn(
-                    `   First seen in: ${existingFiles[0]}`,
-                );
-                console.warn(
-                    `   Also found in: ${rel}`,
-                );
+                console.warn(`⚠️  Duplicate URL found: ${url}`);
+                console.warn(`   First seen in: ${existingFiles[0]}`);
+                console.warn(`   Also found in: ${rel}`);
                 continue;
             }
 

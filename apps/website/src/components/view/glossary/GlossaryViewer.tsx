@@ -57,9 +57,7 @@ const GlossaryViewer = ({ entry }: ItemViewerProps) => {
                         </p>
                         <div className="w-[250px] h-[250px]">
                             {entry.item.modelSrc && (
-                                <ModelViewer
-                                    modelPath={entry.item.modelSrc}
-                                />
+                                <ModelViewer modelPath={entry.item.modelSrc} />
                             )}
                             {entry.item.imageSrc && (
                                 <Lightbox

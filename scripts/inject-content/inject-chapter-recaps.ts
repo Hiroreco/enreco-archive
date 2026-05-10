@@ -3,7 +3,13 @@ import fs from "fs/promises";
 import path from "path";
 
 async function main() {
-    const chapterMap = new Map<number, { title: { en: string; ja: string }; content: { en: string; ja: string } }>();
+    const chapterMap = new Map<
+        number,
+        {
+            title: { en: string; ja: string };
+            content: { en: string; ja: string };
+        }
+    >();
 
     // Process both EN and JA locales
     for (const locale of ["en", "ja"] as const) {
@@ -24,14 +30,20 @@ async function main() {
 
         // Filter and sort recap-c<N>.md files
         const recapFiles = files
-            .filter((f) => new RegExp(`^recap-c\\d+${localeSuffix}\\.md$`).test(f))
+            .filter((f) =>
+                new RegExp(`^recap-c\\d+${localeSuffix}\\.md$`).test(f),
+            )
             .sort((a, b) => {
                 const na = parseInt(
-                    a.match(new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`))![1],
+                    a.match(
+                        new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`),
+                    )![1],
                     10,
                 );
                 const nb = parseInt(
-                    b.match(new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`))![1],
+                    b.match(
+                        new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`),
+                    )![1],
                     10,
                 );
                 return na - nb;
@@ -43,7 +55,9 @@ async function main() {
             const text = await fs.readFile(filePath, "utf-8");
 
             // Extract chapter number from filename
-            const chapterNumMatch = file.match(new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`));
+            const chapterNumMatch = file.match(
+                new RegExp(`^recap-c(\\d+)${localeSuffix}\\.md$`),
+            );
             if (!chapterNumMatch) continue;
             const chapterNum = parseInt(chapterNumMatch[1], 10);
 
@@ -61,7 +75,9 @@ async function main() {
                 title = titleMatch[1].trim();
                 i++;
             } else {
-                console.warn(`⚠️  No <!-- title: ... --> in ${file}, using filename`);
+                console.warn(
+                    `⚠️  No <!-- title: ... --> in ${file}, using filename`,
+                );
                 title = `Chapter ${chapterNum} Recap`;
             }
 
@@ -96,9 +112,17 @@ async function main() {
     const out: ChapterRecapData = { chapters };
 
     // Write merged JSON
-    const outPath = path.resolve(process.cwd(), "apps", "website", "data", "chapter-recaps.json");
+    const outPath = path.resolve(
+        process.cwd(),
+        "apps",
+        "website",
+        "data",
+        "chapter-recaps.json",
+    );
     await fs.writeFile(outPath, JSON.stringify(out, null, 2), "utf-8");
-    console.log(`✅ Successfully created chapter recaps with ${chapters.length} merged chapters`);
+    console.log(
+        `✅ Successfully created chapter recaps with ${chapters.length} merged chapters`,
+    );
     console.log(`📁 Output: ${outPath}`);
 }
 

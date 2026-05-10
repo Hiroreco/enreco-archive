@@ -468,10 +468,7 @@ function sortByUploadDate(items: ClipMetadata[]): ClipMetadata[] {
 }
 
 async function main() {
-    const baseDir = path.resolve(
-        process.cwd(),
-        "clips-data",
-    );
+    const baseDir = path.resolve(process.cwd(), "clips-data");
 
     try {
         await fs.access(baseDir);
@@ -524,10 +521,7 @@ async function main() {
     const animaticsPath = path.join(baseDir, "animatics.md");
     let allAnimatics: ClipMetadata[] = [];
     try {
-        allAnimatics = await processAnimaticsFile(
-            animaticsPath,
-            metadataCache,
-        );
+        allAnimatics = await processAnimaticsFile(animaticsPath, metadataCache);
         console.log(`  ✅ Total animatics: ${allAnimatics.length}`);
     } catch (error) {
         console.error(`❌ Error processing animatics.md:`, error);

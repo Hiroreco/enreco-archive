@@ -255,7 +255,7 @@ const ClipsArchiveViewer = ({
             }
         });
     }, [selectedCategory, activeContentType, selectedChapter]);
- 
+
     useEffect(() => {
         setCurrentPage(1);
 

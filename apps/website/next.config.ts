@@ -5,7 +5,7 @@ const nextConfig = {
         unoptimized: true,
     },
     output: "export", // Outputs a Single-Page Application (SPA).
-    reactCompiler: true
+    reactCompiler: true,
 };
 
 export default nextConfig;

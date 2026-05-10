@@ -23,10 +23,12 @@ const SectionJumper = ({ content, className }: SectionJumperProps) => {
         if (element) {
             // Check if on desktop
             const isDesktop = window.innerWidth >= 768;
-            
+
             if (isDesktop) {
                 // Desktop: use scrollTo
-                const desktopContainer = document.getElementById("glossary-viewer-content-container");
+                const desktopContainer = document.getElementById(
+                    "glossary-viewer-content-container",
+                );
                 if (desktopContainer) {
                     const elementTop = element.offsetTop;
                     const offsetWithPadding = elementTop - 0; // Add padding from top

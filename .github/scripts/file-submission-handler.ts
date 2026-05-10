@@ -1,171 +1,181 @@
 import {
-  countChecklistItems,
-  createOctokit,
-  crossOffItem,
-  escapeRegex,
-  getChangedFiles,
-  getChecklistIssues,
-  getEnvVar,
-  getRepoInfo,
-  parseFileInfo,
-  postIssueComment,
-  ProcessedFile,
-  sendDiscordNotification,
-  updateIssueBody,
+    countChecklistItems,
+    createOctokit,
+    crossOffItem,
+    escapeRegex,
+    getChangedFiles,
+    getChecklistIssues,
+    getEnvVar,
+    getRepoInfo,
+    parseFileInfo,
+    postIssueComment,
+    ProcessedFile,
+    sendDiscordNotification,
+    updateIssueBody,
 } from "../utils/shared-utils";
 
 function buildFileSubmissionPingMessage(
-  processedFiles: ProcessedFile[],
-  commitSha: string,
-  progressInfo: { completed: number; total: number },
+    processedFiles: ProcessedFile[],
+    commitSha: string,
+    progressInfo: { completed: number; total: number },
 ): string {
-  let message = processedFiles
-    .filter((f) => f.status === "added")
-    .map(
-      (f) =>
-        `**C${f.chapter}D${f.day}** (${progressInfo.completed}/${progressInfo.total}) ✅ **${f.item}** has been submitted by ${
-          f.submitter
-        }.`,
-    )
-    .join("\n");
+    let message = processedFiles
+        .filter((f) => f.status === "added")
+        .map(
+            (f) =>
+                `**C${f.chapter}D${f.day}** (${progressInfo.completed}/${progressInfo.total}) ✅ **${f.item}** has been submitted by ${
+                    f.submitter
+                }.`,
+        )
+        .join("\n");
 
-  if (progressInfo.completed === progressInfo.total) {
-    message += message
-      ? "\n\n🎉 All entries submitted"
-      : "🎉 All entries submitted";
-  }
+    if (progressInfo.completed === progressInfo.total) {
+        message += message
+            ? "\n\n🎉 All entries submitted"
+            : "🎉 All entries submitted";
+    }
 
-  return message;
+    return message;
 }
 
 function buildFileSubmissionComment(
-  processedFiles: ProcessedFile[],
-  commitSha: string,
+    processedFiles: ProcessedFile[],
+    commitSha: string,
 ): string {
-  const added = processedFiles.filter((f) => f.status === "added");
-  const modified = processedFiles.filter((f) => f.status === "modified");
-  const changed = processedFiles.filter((f) => f.status === "changed");
-  const parts: string[] = [];
+    const added = processedFiles.filter((f) => f.status === "added");
+    const modified = processedFiles.filter((f) => f.status === "modified");
+    const changed = processedFiles.filter((f) => f.status === "changed");
+    const parts: string[] = [];
 
-  if (added.length) {
-    parts.push(
-      `Submitted files - ${added
-        .map((f) => `${f.file} (${f.submitter})`)
-        .join(", ")}`,
-    );
-  }
-  if (modified.length) {
-    parts.push(
-      `Updated files - ${modified
-        .map((f) => `${f.file} (${f.submitter})`)
-        .join(", ")}`,
-    );
-  }
-  if (changed.length) {
-    parts.push(
-      `Changed files - ${changed
-        .map((f) => `${f.file} (${f.submitter})`)
-        .join(", ")}`,
-    );
-  }
+    if (added.length) {
+        parts.push(
+            `Submitted files - ${added
+                .map((f) => `${f.file} (${f.submitter})`)
+                .join(", ")}`,
+        );
+    }
+    if (modified.length) {
+        parts.push(
+            `Updated files - ${modified
+                .map((f) => `${f.file} (${f.submitter})`)
+                .join(", ")}`,
+        );
+    }
+    if (changed.length) {
+        parts.push(
+            `Changed files - ${changed
+                .map((f) => `${f.file} (${f.submitter})`)
+                .join(", ")}`,
+        );
+    }
 
-  return `🤖 Auto-updated: ${parts.join("; ")}\nCommit: ${commitSha}`;
+    return `🤖 Auto-updated: ${parts.join("; ")}\nCommit: ${commitSha}`;
 }
 
 async function processFileSubmissions(): Promise<void> {
-  const changedFiles = getChangedFiles("all");
-  if (changedFiles.length === 0) {
-    console.log("No changed .md files.");
-    return;
-  }
-
-  const octokit = createOctokit();
-  const { owner, repo } = getRepoInfo();
-  const submitter = getEnvVar("GITHUB_ACTOR", "unknown");
-  const addedFiles = getChangedFiles("added");
-  const modifiedFiles = getChangedFiles("modified");
-
-  const issues = await getChecklistIssues(octokit, owner, repo);
-  const processedFiles: ProcessedFile[] = [];
-  const updatedIssues: Record<number, string> = {};
-
-  for (const file of changedFiles) {
-    const info = parseFileInfo(file);
-    if (!info) continue;
-
-    const { item, chapter, day } = info;
-    const issue = issues.find((issue) =>
-      new RegExp(`Chapter ${chapter}, Day ${day}`).test(issue.title),
-    );
-    if (!issue) continue;
-
-    if (!updatedIssues[issue.number]) {
-      updatedIssues[issue.number] = issue.body || "";
+    const changedFiles = getChangedFiles("all");
+    if (changedFiles.length === 0) {
+        console.log("No changed .md files.");
+        return;
     }
 
-    const fileStatus = addedFiles.includes(file)
-      ? "added"
-      : modifiedFiles.includes(file)
-        ? "modified"
-        : "changed";
+    const octokit = createOctokit();
+    const { owner, repo } = getRepoInfo();
+    const submitter = getEnvVar("GITHUB_ACTOR", "unknown");
+    const addedFiles = getChangedFiles("added");
+    const modifiedFiles = getChangedFiles("modified");
 
-    console.log(`File ${file} has been ${fileStatus}`);
+    const issues = await getChecklistIssues(octokit, owner, repo);
+    const processedFiles: ProcessedFile[] = [];
+    const updatedIssues: Record<number, string> = {};
 
-    if (fileStatus === "added") {
-      const originalBody = updatedIssues[issue.number];
-      updatedIssues[issue.number] = crossOffItem(
-        updatedIssues[issue.number],
-        item,
-      );
+    for (const file of changedFiles) {
+        const info = parseFileInfo(file);
+        if (!info) continue;
 
-      if (updatedIssues[issue.number] !== originalBody) {
-        console.log(`Marked ${item} as submitted in Chapter ${chapter}, Day ${day}`);
-      } else {
-        console.log(`Could not find pattern for ${item} to mark as submitted`);
-      }
+        const { item, chapter, day } = info;
+        const issue = issues.find((issue) =>
+            new RegExp(`Chapter ${chapter}, Day ${day}`).test(issue.title),
+        );
+        if (!issue) continue;
+
+        if (!updatedIssues[issue.number]) {
+            updatedIssues[issue.number] = issue.body || "";
+        }
+
+        const fileStatus = addedFiles.includes(file)
+            ? "added"
+            : modifiedFiles.includes(file)
+              ? "modified"
+              : "changed";
+
+        console.log(`File ${file} has been ${fileStatus}`);
+
+        if (fileStatus === "added") {
+            const originalBody = updatedIssues[issue.number];
+            updatedIssues[issue.number] = crossOffItem(
+                updatedIssues[issue.number],
+                item,
+            );
+
+            if (updatedIssues[issue.number] !== originalBody) {
+                console.log(
+                    `Marked ${item} as submitted in Chapter ${chapter}, Day ${day}`,
+                );
+            } else {
+                console.log(
+                    `Could not find pattern for ${item} to mark as submitted`,
+                );
+            }
+        }
+
+        processedFiles.push({
+            file,
+            submitter,
+            status: fileStatus,
+            item,
+            chapter,
+            day,
+        });
     }
 
-    processedFiles.push({
-      file,
-      submitter,
-      status: fileStatus,
-      item,
-      chapter,
-      day,
-    });
-  }
+    // Update issues and send notifications
+    if (processedFiles.length > 0) {
+        const commitSha = getEnvVar("GITHUB_SHA", "unknown");
+        const comment = buildFileSubmissionComment(processedFiles, commitSha);
 
-  // Update issues and send notifications
-  if (processedFiles.length > 0) {
-    const commitSha = getEnvVar("GITHUB_SHA", "unknown");
-    const comment = buildFileSubmissionComment(processedFiles, commitSha);
+        // Update GitHub issues and get progress info
+        let finalProgressInfo = { completed: 0, total: 0 };
 
-    // Update GitHub issues and get progress info
-    let finalProgressInfo = { completed: 0, total: 0 };
+        for (const [issueNumber, body] of Object.entries(updatedIssues)) {
+            await updateIssueBody(
+                octokit,
+                owner,
+                repo,
+                parseInt(issueNumber),
+                body,
+            );
+            await postIssueComment(
+                octokit,
+                owner,
+                repo,
+                parseInt(issueNumber),
+                comment,
+            );
 
-    for (const [issueNumber, body] of Object.entries(updatedIssues)) {
-      await updateIssueBody(octokit, owner, repo, parseInt(issueNumber), body);
-      await postIssueComment(
-        octokit,
-        owner,
-        repo,
-        parseInt(issueNumber),
-        comment,
-      );
-
-      // Get final progress for this issue (use the last one for the notification)
-      finalProgressInfo = countChecklistItems(body, "submitted");
+            // Get final progress for this issue (use the last one for the notification)
+            finalProgressInfo = countChecklistItems(body, "submitted");
+        }
+        console.log(processedFiles);
+        // Send Discord notification with progress
+        const pingMessage = buildFileSubmissionPingMessage(
+            processedFiles,
+            commitSha,
+            finalProgressInfo,
+        );
+        console.log(pingMessage);
+        await sendDiscordNotification(pingMessage);
     }
-    console.log(processedFiles);
-    // Send Discord notification with progress
-    const pingMessage = buildFileSubmissionPingMessage(
-      processedFiles,
-      commitSha,
-      finalProgressInfo,
-    );
-    console.log(pingMessage);
-    await sendDiscordNotification(pingMessage);
-  }
 }
 
 processFileSubmissions().catch(console.error);

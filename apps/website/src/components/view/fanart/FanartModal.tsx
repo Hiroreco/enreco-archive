@@ -11,7 +11,8 @@ import {
 } from "@/lib/misc";
 import { useSettingStore } from "@/store/settingStore";
 import {
-    Dialog, DialogClose,
+    Dialog,
+    DialogClose,
     DialogContent,
 } from "@enreco-archive/common-ui/components/dialog";
 import { useTranslations } from "next-intl";
@@ -58,28 +59,24 @@ interface MasonryColumn {
 
 const ITEMS_PER_PAGE = 50;
 
-const FanartModal = ({
-    open,
-    onClose,
-}: FanartModalProps) => {
+const FanartModal = ({ open, onClose }: FanartModalProps) => {
     const t = useTranslations("modals.art.card");
     const tCommon = useTranslations("common");
     const locale = useSettingStore((state) => state.locale);
 
-    const {
-        chapter,
-        day,
-        currentCard,
-        selectedElement
-    } = useViewStore(useShallow(state => ({
-        chapter: state.chapter,
-        day: state.day,
-        currentCard: state.currentCard,
-        selectedElement: state.selectedElement
-    })));
+    const { chapter, day, currentCard, selectedElement } = useViewStore(
+        useShallow((state) => ({
+            chapter: state.chapter,
+            day: state.day,
+            currentCard: state.currentCard,
+            selectedElement: state.selectedElement,
+        })),
+    );
 
     // State
-    const [selectedCharacters, setSelectedCharacters] = useState<string[]>(["all"]);
+    const [selectedCharacters, setSelectedCharacters] = useState<string[]>([
+        "all",
+    ]);
     const [selectedChapter, setSelectedChapter] = useState<string>(
         chapter.toString() || "all",
     );
@@ -101,7 +98,8 @@ const FanartModal = ({
         null,
     );
     const [columnCount, setColumnCount] = useState(3);
-    const [inclusiveMode, setInclusiveMode] = useState<InclusiveMode>("showAll");
+    const [inclusiveMode, setInclusiveMode] =
+        useState<InclusiveMode>("showAll");
     const [sortMode, setSortMode] = useState<SortMode>("date");
     const [videosOnly, setVideosOnly] = useState(false);
     const [memesOnly, setMemesOnly] = useState(false);
@@ -121,7 +119,7 @@ const FanartModal = ({
     const viewerBg = useMemo(() => {
         return (
             CHARACTER_ICON_MAP[
-            selectedCharacters[selectedCharacters.length - 1]
+                selectedCharacters[selectedCharacters.length - 1]
             ] || "node-lore-opt.webp"
         );
     }, [selectedCharacters]);
@@ -390,7 +388,7 @@ const FanartModal = ({
             scrollingDown &&
             !isHeaderCollapsed &&
             Math.abs(currentScrollTop - lastScrollTop.current) >
-            scrollTopCollapseThreshold
+                scrollTopCollapseThreshold
         ) {
             setIsHeaderCollapsed(true);
         }

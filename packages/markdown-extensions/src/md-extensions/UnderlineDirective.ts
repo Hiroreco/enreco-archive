@@ -4,7 +4,7 @@ import { visit } from "unist-util-visit";
 import type {} from "mdast-util-directive";
 import type {} from "mdast-util-to-hast";
 
-import type {} from "@/md-extensions/RevertUnhandledDirective.js"
+import type {} from "@/md-extensions/RevertUnhandledDirective.js";
 
 const UNDERLINE_DIRECTIVE_NAME = "underline";
 
@@ -13,8 +13,7 @@ interface Options {
 }
 
 export default function underlineDirective(options: Options) {
-    const underlineClassname =
-        options?.underlineClassname ?? "underline";
+    const underlineClassname = options?.underlineClassname ?? "underline";
 
     return function (tree: Root) {
         visit(tree, function (node) {

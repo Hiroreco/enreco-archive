@@ -19,12 +19,7 @@ interface VideoModalProps {
     bgImage: string;
 }
 
-const VideoModal = ({
-    open,
-    onClose,
-    videoUrl,
-    bgImage,
-}: VideoModalProps) => {
+const VideoModal = ({ open, onClose, videoUrl, bgImage }: VideoModalProps) => {
     const { videoid, params } = urlToEmbedUrl(videoUrl);
     const playBGM = useAudioStore((state) => state.playBGM);
     const backdropFilter = useSettingStore((state) => state.backdropFilter);

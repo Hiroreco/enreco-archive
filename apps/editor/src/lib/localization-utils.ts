@@ -4,9 +4,7 @@
 
 import { LocalizedString } from "@enreco-archive/common/types";
 
-export function isLocalizedString(
-    value: any
-): value is LocalizedString {
+export function isLocalizedString(value: any): value is LocalizedString {
     return (
         typeof value === "object" &&
         value !== null &&
@@ -32,7 +30,9 @@ export function getJapaneseString(value: string | LocalizedString): string {
 /**
  * Returns a LocalizedString, converting from string if needed
  */
-export function ensureLocalizedString(value: string | LocalizedString): LocalizedString {
+export function ensureLocalizedString(
+    value: string | LocalizedString,
+): LocalizedString {
     if (isLocalizedString(value)) {
         return value;
     }

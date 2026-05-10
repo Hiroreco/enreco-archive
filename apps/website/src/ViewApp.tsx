@@ -317,7 +317,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             chartRef.current !== null
         ) {
             setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
-            chartRef.current.chartFitView(selectedElement, CARD_OPEN_PADDING, width + 56);
+            chartRef.current.chartFitView(
+                selectedElement,
+                CARD_OPEN_PADDING,
+                width + 56,
+            );
         }
     }
 
@@ -330,7 +334,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
         // If we just opened the drawer, defer chart fit view until we have the size of drawer.
         if (selectedElement !== null && chartRef.current !== null) {
-            chartRef.current.chartFitView(selectedElement, CARD_OPEN_PADDING, chartShrink);
+            chartRef.current.chartFitView(
+                selectedElement,
+                CARD_OPEN_PADDING,
+                chartShrink,
+            );
         }
     }
 
@@ -407,7 +415,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         switch (currentCard) {
             case "node":
                 if (selectedElement === null || !isNode(selectedElement)) {
-                    throw new Error("Tried to open node card without a selected node.");
+                    throw new Error(
+                        "Tried to open node card without a selected node.",
+                    );
                 }
 
                 return (
@@ -421,8 +431,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     />
                 );
             case "edge":
-                if(selectedElement === null || !isEdge(selectedElement)) {
-                    throw new Error("Tried to open edge card without a selected edge.")
+                if (selectedElement === null || !isEdge(selectedElement)) {
+                    throw new Error(
+                        "Tried to open edge card without a selected edge.",
+                    );
                 }
 
                 return (
@@ -448,7 +460,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             default:
                 return null;
         }
-    })()
+    })();
 
     return (
         <>

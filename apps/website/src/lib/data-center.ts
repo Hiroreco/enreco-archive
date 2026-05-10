@@ -7,7 +7,7 @@ import {
     SiteData,
     Song,
     SongRaw,
-    TextData
+    TextData,
 } from "@enreco-archive/common/types";
 
 import siteMeta from "#/recaps/metadata.json";
@@ -163,12 +163,16 @@ const convertLocalizedChapterRecaps = (
 };
 
 // Convert localized chapter to locale-specific format
-const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chapterIndex: number): Chapter => {
+const convertLocalizedChapter = (
+    chapter: LocalizedChapter,
+    locale: Locale,
+    chapterIndex: number,
+): Chapter => {
     const chapterPrefix = `ch${chapterIndex}-`;
-    
+
     // Create a map of original node IDs to namespaced IDs for edge reference updates
     const nodeIdMap = new Map<string, string>();
-    
+
     return {
         numberOfDays: chapter.numberOfDays,
         title: chapter.title[locale],
@@ -178,21 +182,25 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chap
             nodes: chart.nodes.map((node: any) => {
                 const newId = `${chapterPrefix}${node.id}`;
                 nodeIdMap.set(node.id, newId);
-                
+
                 const processedNode = {
                     ...node,
                     // Namespace node IDs by chapter to prevent collisions and match with namespaced edges
                     id: newId,
                 };
-                
+
                 // Extract locale-specific node content if it's localized
-                if (node.data?.content && typeof node.data.content === 'object' && node.data.content[locale]) {
+                if (
+                    node.data?.content &&
+                    typeof node.data.content === "object" &&
+                    node.data.content[locale]
+                ) {
                     processedNode.data = {
                         ...node.data,
                         content: node.data.content[locale],
                     };
                 }
-                
+
                 return processedNode;
             }),
             edges: chart.edges.map((edge: any) => {
@@ -204,15 +212,19 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chap
                     source: `${chapterPrefix}${edge.source}`,
                     target: `${chapterPrefix}${edge.target}`,
                 };
-                
+
                 // Extract locale-specific edge content if it's localized
-                if (edge.data?.content && typeof edge.data.content === 'object' && edge.data.content[locale]) {
+                if (
+                    edge.data?.content &&
+                    typeof edge.data.content === "object" &&
+                    edge.data.content[locale]
+                ) {
                     processedEdge.data = {
                         ...edge.data,
                         content: edge.data.content[locale],
                     };
                 }
-                
+
                 return processedEdge;
             }),
         })),

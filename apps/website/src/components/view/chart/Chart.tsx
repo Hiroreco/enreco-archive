@@ -1,9 +1,6 @@
 "use client";
 
-import {
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import {
     ConnectionMode,
     EdgeMouseHandler,
@@ -34,7 +31,7 @@ import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { useShallow } from "zustand/react/shallow";
 import "./Chart.css";
 
-import { getNodeDimensions, getViewportForBounds } from "@xyflow/system"
+import { getNodeDimensions, getViewportForBounds } from "@xyflow/system";
 
 function findTopLeftNode(nodes: ImageNodeType[]) {
     let topLeftNode = nodes[0];
@@ -79,7 +76,12 @@ function getBoundingBox(nodes: ImageNodeType[], edges: FixedEdgeType[]) {
         y2: -Infinity,
     };
 
-    const updateBboxCoords = (newX: number, newY: number, width: number, height: number) => {
+    const updateBboxCoords = (
+        newX: number,
+        newY: number,
+        width: number,
+        height: number,
+    ) => {
         if (newX < bboxCoords.x1) {
             bboxCoords.x1 = newX;
         }
@@ -97,22 +99,29 @@ function getBoundingBox(nodes: ImageNodeType[], edges: FixedEdgeType[]) {
         }
     };
 
-    for(const node of nodes) {
-        const {width, height} = getNodeDimensions(node);
-        const {x, y} = node.position;
+    for (const node of nodes) {
+        const { width, height } = getNodeDimensions(node);
+        const { x, y } = node.position;
 
         updateBboxCoords(x, y, width, height);
     }
 
-    for(const edge of edges) {
-        const edgeElement = document.querySelector(`[data-id=${edge.id}]`)
-        if(!edgeElement) {
-            console.warn(`Can't find edge dom element with edge id ${edge.id}.`);
+    for (const edge of edges) {
+        const edgeElement = document.querySelector(`[data-id=${edge.id}]`);
+        if (!edgeElement) {
+            console.warn(
+                `Can't find edge dom element with edge id ${edge.id}.`,
+            );
             continue;
         }
 
         const edgeBbox: SVGRect = (edgeElement as SVGLineElement).getBBox();
-        updateBboxCoords(edgeBbox.x, edgeBbox.y, edgeBbox.width, edgeBbox.height);
+        updateBboxCoords(
+            edgeBbox.x,
+            edgeBbox.y,
+            edgeBbox.width,
+            edgeBbox.height,
+        );
     }
 
     return {
@@ -145,15 +154,14 @@ interface Props {
 }
 
 export interface ChartInstance {
-    chartFitView: (element: ImageNodeType | FixedEdgeType | null, padding: number, offsetRight: number) => void;
+    chartFitView: (
+        element: ImageNodeType | FixedEdgeType | null,
+        padding: number,
+        offsetRight: number,
+    ) => void;
 }
 
-function Chart({
-    onNodeClick,
-    onEdgeClick,
-    onPaneClick,
-    ref
-}: Props) {
+function Chart({ onNodeClick, onEdgeClick, onPaneClick, ref }: Props) {
     const { currentCard } = useViewStore(
         useShallow((state) => ({
             currentCard: state.currentCard,
@@ -165,7 +173,10 @@ function Chart({
     const topLeftNode = useMemo(() => findTopLeftNode(nodes), [nodes]);
     const bottomRightNode = useMemo(() => findBottomRightNode(nodes), [nodes]);
 
-    const { getNode, getNodes, getEdges, setViewport } = useReactFlow<ImageNodeType, FixedEdgeType>();
+    const { getNode, getNodes, getEdges, setViewport } = useReactFlow<
+        ImageNodeType,
+        FixedEdgeType
+    >();
     const chartDiv = useRef<HTMLDivElement>(null);
 
     const isMobile = useIsMobileViewport();
@@ -177,7 +188,11 @@ function Chart({
             // Function to fit the viewport of the chart to a specific element. You can pass null
             // to fit against the entire chart. This will also take into account a right handed offset.
             // (Useful for opening drawer)
-            chartFitView: (element, padding: number = 0, offset: number = 0) => {
+            chartFitView: (
+                element,
+                padding: number = 0,
+                offset: number = 0,
+            ) => {
                 let bbox: Rect;
                 if (element === null) {
                     bbox = getBoundingBox(getNodes(), getEdges());
@@ -200,11 +215,15 @@ function Chart({
                 // I'm not entirely sure why this works, but it does sooooooo
                 const newViewport = getViewportForBounds(
                     bbox,
-                    (chartDiv.current !== null ? chartDiv.current.clientWidth : window.screen.width) - offset,
-                    chartDiv.current !== null ? chartDiv.current.clientHeight : window.screen.height,
+                    (chartDiv.current !== null
+                        ? chartDiv.current.clientWidth
+                        : window.screen.width) - offset,
+                    chartDiv.current !== null
+                        ? chartDiv.current.clientHeight
+                        : window.screen.height,
                     minZoom,
                     1.5,
-                    padding
+                    padding,
                 );
 
                 setViewport(newViewport, { duration: 1000 });

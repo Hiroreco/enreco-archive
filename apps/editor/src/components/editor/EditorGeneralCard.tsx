@@ -123,7 +123,9 @@ const EditorGeneralCard = ({
                         type="text"
                         id="day-title"
                         name="dayTitle"
-                        defaultValue={dayData ? getEnglishString(dayData.title) : ""}
+                        defaultValue={
+                            dayData ? getEnglishString(dayData.title) : ""
+                        }
                         readOnly
                         disabled
                     />
