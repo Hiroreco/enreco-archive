@@ -24,10 +24,7 @@ async function validateLocale(locale: string) {
         "apps/website/data/text.json",
     );
     // All chapters now in a single recaps folder with bilingual content
-    const CHAPTERS_DIR = path.resolve(
-        process.cwd(),
-        "apps/website/data/recaps",
-    );
+    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data/recaps");
 
     // --- HELPERS ---
     async function getMarkdownFiles(dir: string): Promise<string[]> {
@@ -63,7 +60,9 @@ async function validateLocale(locale: string) {
 
             return textIds;
         } catch (error: any) {
-            console.warn(`Warning: Could not load text data: ${error.message}`);
+            console.warn(
+                `Warning: Could not load text data: ${error.message}`,
+            );
             return new Set();
         }
     }
@@ -89,9 +88,7 @@ async function validateLocale(locale: string) {
                     );
                     const json = JSON.parse(raw);
                     chapterRelationships[chapterNum] = new Set(
-                        Object.values(json.relationships).map(
-                            (r: any) => r.name,
-                        ),
+                        Object.values(json.relationships).map((r: any) => r.name),
                     );
                 } catch (error: any) {
                     console.warn(
@@ -485,14 +482,10 @@ async function validateLocale(locale: string) {
     }
 
     if (hasErrors) {
-        console.error(
-            `❌ Validation completed with errors for locale: ${locale}`,
-        );
+        console.error(`❌ Validation completed with errors for locale: ${locale}`);
         return true;
     } else {
-        console.log(
-            `✅ All content references are valid for locale: ${locale}`,
-        );
+        console.log(`✅ All content references are valid for locale: ${locale}`);
         return false;
     }
 }

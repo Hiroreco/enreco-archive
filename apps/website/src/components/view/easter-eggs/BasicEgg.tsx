@@ -9,7 +9,11 @@ interface BasicEggProps {
     className?: string;
 }
 
-const BasicEgg = ({ eggName, imageName, className = "" }: BasicEggProps) => {
+const BasicEgg = ({
+    eggName,
+    imageName,
+    className = "",
+}: BasicEggProps) => {
     const {
         playEasterEgg,
         initializeEasterEgg,

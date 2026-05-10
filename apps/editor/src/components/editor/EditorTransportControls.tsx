@@ -63,8 +63,7 @@ export default function EditorTransportControls({
     const chapterTitle =
         chapter === null
             ? ""
-            : getEnglishString(chapters[chapter].title) ||
-              `Chapter ${chapter + 1}`;
+            : getEnglishString(chapters[chapter].title) || `Chapter ${chapter + 1}`;
 
     return (
         <>
@@ -124,8 +123,7 @@ export default function EditorTransportControls({
                                         key={index}
                                         value={index.toString()}
                                     >
-                                        {getEnglishString(elem.title) ||
-                                            `Chapter ${index + 1}`}
+                                        {getEnglishString(elem.title) || `Chapter ${index + 1}`}
                                     </SelectItem>
                                 ))}
                             </SelectContent>

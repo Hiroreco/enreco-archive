@@ -15,7 +15,12 @@ interface Props {
     onDayChange: (newDay: number) => void;
 }
 
-const RecapCard = ({ dayRecap, day, numberOfDays, onDayChange }: Props) => {
+const RecapCard = ({
+    dayRecap,
+    day,
+    numberOfDays,
+    onDayChange,
+}: Props) => {
     const scrollRef = useRef<HTMLDivElement>(null);
 
     const { contentWithoutFanart, fanartEntries } = useMemo(
@@ -47,7 +52,9 @@ const RecapCard = ({ dayRecap, day, numberOfDays, onDayChange }: Props) => {
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.3 }}
                     >
-                        <ViewMarkdown className="md:px-4 px-2">
+                        <ViewMarkdown
+                            className="md:px-4 px-2"
+                        >
                             {contentWithoutFanart || "No content available."}
                         </ViewMarkdown>
                         {fanartEntries.length > 0 && (

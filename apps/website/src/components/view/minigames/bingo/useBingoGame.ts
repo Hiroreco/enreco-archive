@@ -99,7 +99,9 @@ export const useBingoGame = () => {
     const marked = allMarked[currentDay] || Array(25).fill(false);
     const displayBoard = previewMode !== "none" ? previewBoard : board;
 
-    const emptyCount = board.filter((text, idx) => !text.trim()).length;
+    const emptyCount = board.filter(
+        (text, idx) => !text.trim(),
+    ).length;
     const isBoardFull = emptyCount === 0;
     const isBoardEmpty = board.every((text, idx) => !text.trim());
     const isInPreviewMode = previewMode !== "none";

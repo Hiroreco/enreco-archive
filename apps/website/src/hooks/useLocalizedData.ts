@@ -10,7 +10,7 @@ import {
     getRecollectionArchive,
     getSiteData,
     getSongsData,
-    getTextItem,
+    getTextItem
 } from "@/lib/data-center";
 import { Locale, useSettingStore } from "@/store/settingStore";
 

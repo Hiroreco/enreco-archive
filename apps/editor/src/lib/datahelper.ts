@@ -106,45 +106,34 @@ export async function loadData(setData: (newData: EditorChapter[]) => void) {
                 console.warn("loadData: No file found");
                 return;
             }
-            console.log(
-                `loadData: Loading file "${file.name}" (type: ${file.type})`,
-            );
-
+            console.log(`loadData: Loading file "${file.name}" (type: ${file.type})`);
+            
             if (
                 file.type !== "application/zip" &&
                 file.type !== "application/x-zip-compressed"
             ) {
-                console.warn(
-                    `loadData: Invalid file type "${file.type}". Expected application/zip`,
-                );
+                console.warn(`loadData: Invalid file type "${file.type}". Expected application/zip`);
                 return;
             }
 
             const zipData = await file.arrayBuffer();
             const zipFile = await JSZip.loadAsync(zipData);
-            console.log(
-                `loadData: Zip loaded successfully. Files:`,
-                Object.keys(zipFile.files),
-            );
-
+            console.log(`loadData: Zip loaded successfully. Files:`, Object.keys(zipFile.files));
+            
             const metadataFile = zipFile.file("metadata.json");
             if (!metadataFile) {
                 console.error("loadData: metadata.json not found in zip file");
                 return;
             }
-
+            
             const metadataData = await metadataFile.async("uint8array");
             const metadata: EditorSaveMetadata = JSON.parse(
                 utf8Decoder.decode(metadataData),
             );
-            console.log(
-                `loadData: Metadata loaded. Version: ${metadata.version}, Chapters: ${metadata.numChapters}`,
-            );
-
+            console.log(`loadData: Metadata loaded. Version: ${metadata.version}, Chapters: ${metadata.numChapters}`);
+            
             if (metadata.version !== SAVE_VERSION) {
-                console.error(
-                    `loadData: Version mismatch. Expected ${SAVE_VERSION}, got ${metadata.version}`,
-                );
+                console.error(`loadData: Version mismatch. Expected ${SAVE_VERSION}, got ${metadata.version}`);
                 return;
             }
 
@@ -160,10 +149,8 @@ export async function loadData(setData: (newData: EditorChapter[]) => void) {
                 const arr = await file.async("uint8array");
                 data.push(JSON.parse(utf8Decoder.decode(arr)));
             }
-
-            console.log(
-                `loadData: Successfully loaded ${data.length} chapters`,
-            );
+            
+            console.log(`loadData: Successfully loaded ${data.length} chapters`);
             setData(data);
         } catch (error) {
             console.error("loadData: Error during file load:", error);

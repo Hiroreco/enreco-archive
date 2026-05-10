@@ -32,7 +32,9 @@ function normalizeFanartUrl(url: string): string {
     }
 }
 
-function findAllFanartSections(lines: string[]): Array<{
+function findAllFanartSections(
+    lines: string[],
+): Array<{
     startIndex: number;
     endIndex: number;
     headingLevel: number;
@@ -94,10 +96,7 @@ export function getCardFanartData(content: string): {
     const resolvedFanartEntries: FanartEntry[] = [];
 
     for (const section of sections) {
-        const sectionLines = lines.slice(
-            section.startIndex + 1,
-            section.endIndex,
-        );
+        const sectionLines = lines.slice(section.startIndex + 1, section.endIndex);
 
         // Extract all fanart links from this section
         for (const line of sectionLines) {
@@ -122,10 +121,7 @@ export function getCardFanartData(content: string): {
     // Remove all fanart sections in reverse order (so indices don't shift)
     let newLines = [...lines];
     for (const section of [...sections].reverse()) {
-        newLines.splice(
-            section.startIndex,
-            section.endIndex - section.startIndex,
-        );
+        newLines.splice(section.startIndex, section.endIndex - section.startIndex);
     }
 
     const contentWithoutFanart = newLines

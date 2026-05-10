@@ -13,25 +13,21 @@ export default function revertUnhandledDirective() {
     return function (tree: Root) {
         visitParents(tree, function (node, ancestors) {
             if (
-                (node.type === "containerDirective" ||
-                    node.type === "leafDirective" ||
-                    node.type === "textDirective") &&
-                ((node.data && !node.data.isDirectiveHandled) || !node.data)
+                (node.type === 'containerDirective' ||
+                node.type === 'leafDirective' ||
+                node.type === 'textDirective') && 
+                ((node.data && !node.data.isDirectiveHandled) || !(node.data))
             ) {
                 const textNode: Text = {
                     type: "text",
-                    value: toMarkdown(node, {
-                        extensions: [directiveToMarkdown()],
-                    }).trimEnd(),
+                    value: toMarkdown(node, { extensions: [directiveToMarkdown()]}).trimEnd()
                 };
 
-                if (ancestors.at(-1)) {
+                if(ancestors.at(-1)) {
                     const parent = ancestors.at(-1)!;
-                    const nodeChildIdx = parent.children.findIndex(
-                        (n) => n === node,
-                    );
+                    const nodeChildIdx = parent.children.findIndex(n => n === node);
 
-                    if (nodeChildIdx !== -1) {
+                    if(nodeChildIdx !== -1) {
                         parent.children[nodeChildIdx] = textNode;
                     }
                 }
