@@ -81,10 +81,10 @@ const ChapterRecapModal = ({
         if (!contentElement) return;
 
         // Add passive scroll listener for better performance
-        contentElement.addEventListener("scroll", () => { }, { passive: true });
+        contentElement.addEventListener("scroll", () => {}, { passive: true });
 
         return () => {
-            contentElement.removeEventListener("scroll", () => { });
+            contentElement.removeEventListener("scroll", () => {});
 
             if (scrollTimeout.current) {
                 clearTimeout(scrollTimeout.current);
@@ -163,8 +163,8 @@ const ChapterRecapModal = ({
                                     () => (
                                         <ViewMarkdown
                                             className="pb-16 md:px-4"
-                                            onNodeLinkClicked={() => { }}
-                                            onEdgeLinkClicked={() => { }}
+                                            onNodeLinkClicked={() => {}}
+                                            onEdgeLinkClicked={() => {}}
                                         >
                                             {data.chapters[chapter].content}
                                         </ViewMarkdown>

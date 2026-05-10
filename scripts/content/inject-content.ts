@@ -12,7 +12,7 @@ function runScript(cmd: string, locale?: string) {
 function main() {
     const localeArg = process.argv[2];
     const LOCALES = localeArg ? [localeArg] : ["en", "ja"];
-    
+
     console.log(`🌐 Injecting content for locales: ${LOCALES.join(", ")}`);
 
     console.log("🔄 Renaming edge files...");
@@ -39,7 +39,9 @@ function main() {
         runScript("pnpm validate-content", locale);
     }
 
-    console.log(`\n✅ All content injected successfully for locales: ${LOCALES.join(", ")}!`);
+    console.log(
+        `\n✅ All content injected successfully for locales: ${LOCALES.join(", ")}!`,
+    );
 }
 
 main();

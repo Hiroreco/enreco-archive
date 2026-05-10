@@ -33,4 +33,3 @@ Still, one day remains. Let’s see how it all ends.
 ## Memes
 
 ["ENreco 2 in a nutshell" by Soukai Twitta](https://x.com/SoujiroKaito/status/1922661640601833785)
-

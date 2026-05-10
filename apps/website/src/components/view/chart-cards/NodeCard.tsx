@@ -108,9 +108,7 @@ const NodeCard = ({
             <div className="flex-none flex flex-col items-center">
                 <Stack className="w-full">
                     <StackItem className="relative">
-                        <NodeCardDeco
-                            color={selectedNode.data.bgCardColor}
-                        />
+                        <NodeCardDeco color={selectedNode.data.bgCardColor} />
                         {isNodeRead && (
                             <Tooltip delayDuration={300}>
                                 <TooltipTrigger className="absolute top-2 right-2 z-20 bg-black/50 rounded-full p-1">
@@ -155,9 +153,7 @@ const NodeCard = ({
                                   : tNodeCard("team")}
                         </div>
                         <div>
-                            {nodeTeam?.name
-                                ? tConstants(nodeTeam.name)
-                                : ""}
+                            {nodeTeam?.name ? tConstants(nodeTeam.name) : ""}
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
@@ -225,8 +221,7 @@ const NodeCard = ({
                             (n) => n.data.day === selectedNode.data.day,
                         );
                         if (currentIndex < availiableNodes.length - 1) {
-                            const nextNode =
-                                availiableNodes[currentIndex + 1];
+                            const nextNode = availiableNodes[currentIndex + 1];
                             onDayChange(nextNode.data.day);
                         }
                     }}

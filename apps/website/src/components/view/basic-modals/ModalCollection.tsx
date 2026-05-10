@@ -28,18 +28,12 @@ const ModalCollection = ({
     const chapter = useViewStore((state) => state.chapter);
 
     const openInfoModal = useViewStore((state) => state.openInfoModal);
-    const openSettingsModal = useViewStore(
-        (state) => state.openSettingsModal,
-    );
-    const openMinigameModal = useViewStore(
-        (state) => state.openMinigameModal,
-    );
+    const openSettingsModal = useViewStore((state) => state.openSettingsModal);
+    const openMinigameModal = useViewStore((state) => state.openMinigameModal);
     const openMusicPlayerModal = useViewStore(
         (state) => state.openMusicPlayerModal,
     );
-    const openFanartModal = useViewStore(
-        (state) => state.openFanartModal,
-    );
+    const openFanartModal = useViewStore((state) => state.openFanartModal);
     const openChapterRecapModal = useViewStore(
         (state) => state.openChapterRecapModal,
     );
@@ -50,10 +44,7 @@ const ModalCollection = ({
     return (
         <>
             {modals.includes("info") && (
-                <InfoModal
-                    open={openModal === "info"}
-                    onClose={closeModal}
-                />
+                <InfoModal open={openModal === "info"} onClose={closeModal} />
             )}
 
             {modals.includes("settings") && (

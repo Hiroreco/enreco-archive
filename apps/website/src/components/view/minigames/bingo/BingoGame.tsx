@@ -48,8 +48,8 @@ export const getTextStyle = (
         : {
               // Desktop (80px squares) - balanced sizing
               veryLong: "clamp(0.6875rem, 2.7cqw, 0.8125rem)",
-                            long: "clamp(0.6875rem, 2.75cqw, 0.8125rem)",
-                            medium: "clamp(0.75rem, 2.9cqw, 0.85rem)",
+              long: "clamp(0.6875rem, 2.75cqw, 0.8125rem)",
+              medium: "clamp(0.75rem, 2.9cqw, 0.85rem)",
               short: "clamp(0.875rem, 3.5cqw, 1rem)",
               veryShort: "clamp(1rem, 4cqw, 1.125rem)",
               default: "clamp(0.75rem, 3cqw, 0.875rem)",

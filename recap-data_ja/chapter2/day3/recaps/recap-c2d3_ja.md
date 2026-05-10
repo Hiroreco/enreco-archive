@@ -32,4 +32,3 @@
 ["AWOOOOO" by Ammy](https://x.com/Ammiietty/status/1921756422808785318)
 
 <!-- cecilia, gigi, kiara, kronii, calli -->
-

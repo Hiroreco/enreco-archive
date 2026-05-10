@@ -60,7 +60,7 @@ export default function VaulDrawer({
         }
     }
 
-     function reportContentWidth(contentNode: HTMLDivElement) {
+    function reportContentWidth(contentNode: HTMLDivElement) {
         if (!contentNode) {
             return;
         }
@@ -74,12 +74,12 @@ export default function VaulDrawer({
     }
 
     function onOpenChange(newOpenState: boolean) {
-        if(!newOpenState) {
+        if (!newOpenState) {
             onClose();
         }
     }
 
-    function setActiveSnapPoint(index: string|number|null) {
+    function setActiveSnapPoint(index: string | number | null) {
         if (index === 1) {
             setIsScrollable(true);
         }
@@ -89,9 +89,11 @@ export default function VaulDrawer({
     }
 
     const drawerDir = isMobile ? "bottom" : "right";
-    const drawerContentStyle = isMobile ? {} : {
-        "--initial-transform": "calc(100% + 3.5rem)",
-    } as CSSProperties;
+    const drawerContentStyle = isMobile
+        ? {}
+        : ({
+              "--initial-transform": "calc(100% + 3.5rem)",
+          } as CSSProperties);
 
     // Don't render anything if we're not the browser, helps avoid the dreaded hydration error.
     if (!isOnClient) {

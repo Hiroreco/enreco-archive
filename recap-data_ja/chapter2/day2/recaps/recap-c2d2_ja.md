@@ -23,4 +23,3 @@
 ["KNIGHT GANG" by Achicvc](https://x.com/Another_achicvc/status/1922911239631516123)
 
 <!-- gigi, liz, cecilia, kiara -->
-

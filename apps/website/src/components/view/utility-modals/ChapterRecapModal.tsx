@@ -18,7 +18,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-// There's a bug where sometimes after scrolling to the end, the "Next" button doesn't disable when it should, because it thinks that it can scroll a little more. 
+// There's a bug where sometimes after scrolling to the end, the "Next" button doesn't disable when it should, because it thinks that it can scroll a little more.
 // This magic number is a buffer to prevent that from happening. It's not perfect, but it works in practice.
 const MAGIC_NUMBER_THRESHOLD = 100;
 
@@ -116,7 +116,6 @@ const ChapterRecapModal = ({
         }
     }, [open]);
 
-
     // Track current page and section based on actual scroll position
     useEffect(() => {
         const handleScroll = () => {
@@ -144,9 +143,14 @@ const ChapterRecapModal = ({
                     if (!el) continue;
 
                     const elemRect = el.getBoundingClientRect();
-                    const elemScrollLeft = container.scrollLeft + (elemRect.left - containerRect.left);
+                    const elemScrollLeft =
+                        container.scrollLeft +
+                        (elemRect.left - containerRect.left);
 
-                    if (elemScrollLeft >= pageStart && elemScrollLeft < pageEnd) {
+                    if (
+                        elemScrollLeft >= pageStart &&
+                        elemScrollLeft < pageEnd
+                    ) {
                         visibleSection = id;
                         break;
                     }
@@ -160,7 +164,9 @@ const ChapterRecapModal = ({
                         if (!el) continue;
 
                         const elemRect = el.getBoundingClientRect();
-                        const elemScrollLeft = container.scrollLeft + (elemRect.left - containerRect.left);
+                        const elemScrollLeft =
+                            container.scrollLeft +
+                            (elemRect.left - containerRect.left);
 
                         if (elemScrollLeft < pageEnd) {
                             visibleSection = id;
@@ -178,7 +184,9 @@ const ChapterRecapModal = ({
 
         const container = columnsContainerRef.current;
         if (container) {
-            container.addEventListener("scroll", handleScroll, { passive: true });
+            container.addEventListener("scroll", handleScroll, {
+                passive: true,
+            });
             return () => container.removeEventListener("scroll", handleScroll);
         }
     }, [sectionIds, currentPage]);
@@ -204,7 +212,9 @@ const ChapterRecapModal = ({
 
         // Calculate canScrollRight immediately based on target scroll position
         const targetScrollLeft = newPage * stride;
-        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
+        const canScroll =
+            targetScrollLeft + container.clientWidth <
+            container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
         setCanScrollRight(canScroll);
 
         if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
@@ -227,7 +237,9 @@ const ChapterRecapModal = ({
 
         // Calculate canScrollRight immediately based on target scroll position
         const targetScrollLeft = newPage * stride;
-        const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
+        const canScroll =
+            targetScrollLeft + container.clientWidth <
+            container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
         setCanScrollRight(canScroll);
 
         if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
@@ -236,40 +248,46 @@ const ChapterRecapModal = ({
         }, 600);
     }, [scrollToPage, flashSeparator]);
 
-    const handleSectionChange = useCallback((sectionId: string) => {
-        if (currentSection === sectionId) return;
+    const handleSectionChange = useCallback(
+        (sectionId: string) => {
+            if (currentSection === sectionId) return;
 
-        isScrollingProgrammatically.current = true;
+            isScrollingProgrammatically.current = true;
 
-        const element = document.getElementById(sectionId);
-        if (element && columnsContainerRef.current) {
-            const container = columnsContainerRef.current;
-            const stride = container.clientWidth;
+            const element = document.getElementById(sectionId);
+            if (element && columnsContainerRef.current) {
+                const container = columnsContainerRef.current;
+                const stride = container.clientWidth;
 
-            // Get the actual scroll position where this element appears
-            const elemRect = element.getBoundingClientRect();
-            const containerRect = container.getBoundingClientRect();
-            const elemScrollLeft = container.scrollLeft + (elemRect.left - containerRect.left);
+                // Get the actual scroll position where this element appears
+                const elemRect = element.getBoundingClientRect();
+                const containerRect = container.getBoundingClientRect();
+                const elemScrollLeft =
+                    container.scrollLeft + (elemRect.left - containerRect.left);
 
-            const targetPage = Math.floor(elemScrollLeft / stride);
+                const targetPage = Math.floor(elemScrollLeft / stride);
 
-            setCurrentPage(targetPage);
-            flashSeparator();
-            container.scrollLeft = targetPage * stride;
+                setCurrentPage(targetPage);
+                flashSeparator();
+                container.scrollLeft = targetPage * stride;
 
-            // Calculate canScrollRight for the target position
-            const targetScrollLeft = targetPage * stride;
-            const canScroll = targetScrollLeft + container.clientWidth < container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
-            setCanScrollRight(canScroll);
-        }
+                // Calculate canScrollRight for the target position
+                const targetScrollLeft = targetPage * stride;
+                const canScroll =
+                    targetScrollLeft + container.clientWidth <
+                    container.scrollWidth - MAGIC_NUMBER_THRESHOLD;
+                setCanScrollRight(canScroll);
+            }
 
-        setCurrentSection(sectionId);
+            setCurrentSection(sectionId);
 
-        if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
-        scrollTimeout.current = setTimeout(() => {
-            isScrollingProgrammatically.current = false;
-        }, 300);
-    }, [currentSection, flashSeparator]);
+            if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
+            scrollTimeout.current = setTimeout(() => {
+                isScrollingProgrammatically.current = false;
+            }, 300);
+        },
+        [currentSection, flashSeparator],
+    );
 
     // Handle keyboard navigation
     useEffect(() => {
@@ -286,8 +304,6 @@ const ChapterRecapModal = ({
         window.addEventListener("keydown", handleKeyPress);
         return () => window.removeEventListener("keydown", handleKeyPress);
     }, [goToNextPage, goToPreviousPage]);
-
-
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>

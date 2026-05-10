@@ -57,7 +57,13 @@ async function walkDir(dir: string): Promise<string[]> {
 
 async function processSubfolder(fileArg: string) {
     // Map to track items: subcategory -> id -> { en, ja }
-    const itemMap = new Map<string, Map<string, { en: Partial<CommonItemData>; ja: Partial<CommonItemData> }>>();
+    const itemMap = new Map<
+        string,
+        Map<
+            string,
+            { en: Partial<CommonItemData>; ja: Partial<CommonItemData> }
+        >
+    >();
 
     // Process both EN and JA locales
     for (const locale of ["en", "ja"] as const) {
@@ -148,20 +154,27 @@ async function processSubfolder(fileArg: string) {
 
                 // find where comments end, skip blank line, then rest is content
                 let idx = 0;
-                while (idx < lines.length && lines[idx].trim().startsWith("<!--"))
+                while (
+                    idx < lines.length &&
+                    lines[idx].trim().startsWith("<!--")
+                )
                     idx++;
                 if (lines[idx]?.trim() === "") idx++;
                 const content = lines.slice(idx).join("\n").trim();
 
                 // build galleryImages
-                const galleryImages: GalleryImage[] = imageTitles.map((t, i) => ({
-                    title: t,
-                    source: `/images-opt/${id}-${i}-opt.webp`,
-                }));
+                const galleryImages: GalleryImage[] = imageTitles.map(
+                    (t, i) => ({
+                        title: t,
+                        source: `/images-opt/${id}-${i}-opt.webp`,
+                    }),
+                );
 
                 const thumbnailSrc = `/images-opt/${id}-opt-thumb.webp`;
                 const modelSrc = model ? `/models/${id}.glb` : undefined;
-                const imageSrc = model ? undefined : `/images-opt/${id}-opt.webp`;
+                const imageSrc = model
+                    ? undefined
+                    : `/images-opt/${id}-opt.webp`;
 
                 // Initialize entry if not exists
                 if (!subcatMap.has(id)) {
@@ -186,7 +199,9 @@ async function processSubfolder(fileArg: string) {
             }
         }
 
-        console.log(`✅ Processed ${locale.toUpperCase()} glossary for '${fileArg}'`);
+        console.log(
+            `✅ Processed ${locale.toUpperCase()} glossary for '${fileArg}'`,
+        );
     }
 
     // Build result with merged entries
@@ -203,8 +218,11 @@ async function processSubfolder(fileArg: string) {
             // Merge gallery images by index, creating localized titles
             const enGallery = enData.galleryImages || [];
             const jaGallery = jaData.galleryImages || [];
-            const maxGalleryLength = Math.max(enGallery.length, jaGallery.length);
-            
+            const maxGalleryLength = Math.max(
+                enGallery.length,
+                jaGallery.length,
+            );
+
             const mergedGalleryImages: GalleryImage[] = [];
             for (let i = 0; i < maxGalleryLength; i++) {
                 const enImg = enGallery[i];
@@ -226,24 +244,30 @@ async function processSubfolder(fileArg: string) {
                     ja: jaData.title || "",
                 },
                 chapters: enData.chapters || jaData.chapters || [],
-                ...(enData.quote || jaData.quote ? {
-                    quote: {
-                        en: enData.quote || "",
-                        ja: jaData.quote || "",
-                    },
-                } : {}),
+                ...(enData.quote || jaData.quote
+                    ? {
+                          quote: {
+                              en: enData.quote || "",
+                              ja: jaData.quote || "",
+                          },
+                      }
+                    : {}),
                 content: {
                     en: enData.content || "",
                     ja: jaData.content || "",
                 },
                 thumbnailSrc: enData.thumbnailSrc || jaData.thumbnailSrc,
                 galleryImages: mergedGalleryImages,
-                ...(enData.modelSrc || jaData.modelSrc ? {
-                    modelSrc: enData.modelSrc || jaData.modelSrc,
-                } : {}),
-                ...(enData.imageSrc || jaData.imageSrc ? {
-                    imageSrc: enData.imageSrc || jaData.imageSrc,
-                } : {}),
+                ...(enData.modelSrc || jaData.modelSrc
+                    ? {
+                          modelSrc: enData.modelSrc || jaData.modelSrc,
+                      }
+                    : {}),
+                ...(enData.imageSrc || jaData.imageSrc
+                    ? {
+                          imageSrc: enData.imageSrc || jaData.imageSrc,
+                      }
+                    : {}),
             };
 
             items.push(mergedItem);
@@ -289,11 +313,7 @@ async function processSubfolder(fileArg: string) {
 }
 
 async function main() {
-    const baseGlossary = path.resolve(
-        process.cwd(),
-        "recap-data",
-        "glossary",
-    );
+    const baseGlossary = path.resolve(process.cwd(), "recap-data", "glossary");
 
     let subfolders: string[];
     try {

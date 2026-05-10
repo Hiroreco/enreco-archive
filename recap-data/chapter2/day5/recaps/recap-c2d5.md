@@ -25,4 +25,3 @@ You following all that? Because I’m not. And that’s still not even half of i
 ["🧡🫡💗" by Ari](https://x.com/jeongyeonhands/status/1920309071036457109)
 
 <!-- kiara, gigi, raora, calli -->
-

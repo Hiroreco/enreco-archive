@@ -16,7 +16,7 @@ export type ReadStore = {
 interface PersistedViewStore {
     hasVisitedBefore: boolean;
     setHasVisitedBefore: (newVal: boolean) => void;
-    
+
     countdownUpdateVersion: string | null;
     setCountdownUpdateVersion: (version: string) => void;
 

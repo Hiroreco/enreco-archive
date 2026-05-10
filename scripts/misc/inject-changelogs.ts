@@ -30,7 +30,10 @@ async function main() {
             let dateCount = 0;
             for (const file of files) {
                 if (dateCount >= 1) break;
-                const date = file.replace(new RegExp(`_${locale}\\.md$|.md$`), "");
+                const date = file.replace(
+                    new RegExp(`_${locale}\\.md$|.md$`),
+                    "",
+                );
                 const filePath = path.join(localizedChangelogDir, file);
                 const content = await fs.readFile(filePath, "utf-8");
 

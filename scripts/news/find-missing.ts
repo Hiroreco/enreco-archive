@@ -5,12 +5,7 @@ import { promisify } from "util";
 
 const execAsync = promisify(exec);
 
-const ENTRIES_DIR = path.resolve(
-    process.cwd(),
-    "apps",
-    "news-data",
-    "entries",
-);
+const ENTRIES_DIR = path.resolve(process.cwd(), "apps", "news-data", "entries");
 const VIDEO_OUT_DIR = path.resolve(
     process.cwd(),
     "apps",
@@ -180,7 +175,9 @@ async function main() {
                 console.log(`  ✅ Downloaded: ${downloadedFile}`);
                 downloadedCount++;
             } else {
-                console.warn(`  ⚠ Video download reported success but file not found`);
+                console.warn(
+                    `  ⚠ Video download reported success but file not found`,
+                );
             }
         }
 

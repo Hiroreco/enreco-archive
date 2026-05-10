@@ -26,7 +26,7 @@ function main() {
 
     console.log("📝 Inject fanart");
     runScript("pnpm inject-fanart");
-    
+
     console.log("📝 Copy resources");
     runScript("pnpm copy-resources");
 

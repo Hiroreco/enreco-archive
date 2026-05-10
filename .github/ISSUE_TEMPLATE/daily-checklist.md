@@ -1,33 +1,45 @@
 ## Chapter 3, Day 1 (PRACTICE)
 
 ### Myth
+
 hiroavrs
+
 - [ ] calli
 - [ ] calli-gigi (friend)
 
 derpizard
+
 - [ ] ina
 
 perksjzbri
+
 - [ ] kiara
 - [ ] kiara-shiori (friend)
 
 ### Promise
+
 escalevator
+
 - [ ] kronii
 
 alfrys
+
 - [ ] bae
 
 hiroavrs
+
 - [ ] irys
 
 ### Advent
+
 hiroavrs
+
 - [ ] shiori
 
 ### Justice
+
 zephyrkitten
+
 - [ ] gigi
 - [ ] cecilia-gigi (romantic)
 

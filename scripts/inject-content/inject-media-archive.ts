@@ -159,7 +159,9 @@ async function main() {
                 .filter((d) => d.isDirectory())
                 .map((d) => d.name);
         } catch {
-            console.warn(`Directory not found for locale ${locale}: ${baseDir}`);
+            console.warn(
+                `Directory not found for locale ${locale}: ${baseDir}`,
+            );
             continue;
         }
 
@@ -181,7 +183,11 @@ async function main() {
 
             for (const entryDir of entryDirs) {
                 const entryPath = path.join(chapterPath, entryDir);
-                const entry = await processEntry(entryPath, chapterNum, entryDir);
+                const entry = await processEntry(
+                    entryPath,
+                    chapterNum,
+                    entryDir,
+                );
 
                 if (entry) {
                     const chapterPrefix = `c${chapterNum}-`;
@@ -192,7 +198,8 @@ async function main() {
                         // Merge JA data into existing entry
                         const existing = entryMap.get(entryId)!;
                         (existing.title as any)[locale] = entry.title;
-                        (existing.description as any)[locale] = entry.description;
+                        (existing.description as any)[locale] =
+                            entry.description;
                         (existing.info as any)[locale] = entry.info;
 
                         // Merge media entries (update existing ones with JA data)
@@ -222,7 +229,8 @@ async function main() {
 
                         // Set this locale's data
                         (newEntry.title as any)[locale] = entry.title;
-                        (newEntry.description as any)[locale] = entry.description;
+                        (newEntry.description as any)[locale] =
+                            entry.description;
                         (newEntry.info as any)[locale] = entry.info;
 
                         for (let i = 0; i < newEntry.entries.length; i++) {

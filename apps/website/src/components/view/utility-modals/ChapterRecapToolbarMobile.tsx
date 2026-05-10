@@ -36,7 +36,7 @@ const ChapterRecapToolbar = ({
         const element = document.getElementById(sectionId);
         if (element) {
             // Get the scroll container (the modal's content area)
-            const container = element.closest('.overflow-auto') as HTMLElement;
+            const container = element.closest(".overflow-auto") as HTMLElement;
             if (container) {
                 const elementTop = element.offsetTop;
                 const offsetWithPadding = elementTop - 0; // Add padding from top

@@ -69,13 +69,11 @@ const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
                                 content: string;
                             }>
                         ).map((entry, index) => (
-                            <div
-                                key={entry.date}
-                            >
+                            <div key={entry.date}>
                                 <ViewMarkdown
                                     className="prose prose-sm prose-invert max-w-none"
-                                    onEdgeLinkClicked={() => { }}
-                                    onNodeLinkClicked={() => { }}
+                                    onEdgeLinkClicked={() => {}}
+                                    onNodeLinkClicked={() => {}}
                                 >
                                     {entry.content}
                                 </ViewMarkdown>

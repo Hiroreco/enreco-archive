@@ -18,11 +18,7 @@ interface Props {
     onDayChange: (newDay: number) => void;
 }
 
-const DayRecapCard = ({
-    chapterData,
-    dayRecap,
-    onDayChange,
-}: Props) => {
+const DayRecapCard = ({ chapterData, dayRecap, onDayChange }: Props) => {
     const t = useTranslations("cards.dayCard");
 
     const {
@@ -63,9 +59,7 @@ const DayRecapCard = ({
         <Tabs defaultValue="general" className="flex flex-col h-full">
             <TabsList className="flex-none grid w-full grid-cols-2">
                 <TabsTrigger value="general">{t("summary")}</TabsTrigger>
-                <TabsTrigger value="visibility">
-                    {t("visibility")}
-                </TabsTrigger>
+                <TabsTrigger value="visibility">{t("visibility")}</TabsTrigger>
             </TabsList>
             <TabsContent value="general" className="flex-1" asChild>
                 <RecapCard
@@ -79,9 +73,7 @@ const DayRecapCard = ({
                 <VisibilityCard
                     relationshipVisibility={relationshipVisibility}
                     toggleRelationshipVisible={toggleRelationshipVisible}
-                    toggleAllRelationshipVisible={
-                        toggleAllRelationshipVisible
-                    }
+                    toggleAllRelationshipVisible={toggleAllRelationshipVisible}
                     showOnlyNewEdges={showOnlyNewEdges}
                     setShowOnlyNewEdges={setShowOnlyNewEdges}
                     teamVisibility={teamVisibility}

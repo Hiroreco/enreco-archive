@@ -10,7 +10,8 @@ import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import {
-    Dialog, DialogClose,
+    Dialog,
+    DialogClose,
     DialogContent,
     DialogDescription,
     DialogTitle,

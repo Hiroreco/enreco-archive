@@ -14,7 +14,11 @@ async function walkDir(dir: string, base: string): Promise<string[]> {
 
         if (ent.isDirectory()) {
             files.push(...(await walkDir(full, base)));
-        } else if (ent.isFile() && full.endsWith(".md") && !full.endsWith("_ja.md")) {
+        } else if (
+            ent.isFile() &&
+            full.endsWith(".md") &&
+            !full.endsWith("_ja.md")
+        ) {
             files.push(full);
         }
     }
@@ -31,7 +35,10 @@ interface Section {
     content: string[];
 }
 
-function extractSections(text: string): { fanart: Section | null; memes: Section | null } {
+function extractSections(text: string): {
+    fanart: Section | null;
+    memes: Section | null;
+} {
     const lines = text.split("\n");
     let fanartSection: Section | null = null;
     let memesSection: Section | null = null;
@@ -40,7 +47,10 @@ function extractSections(text: string): { fanart: Section | null; memes: Section
         const line = lines[i];
 
         // Check for fanart/fanwork heading
-        const fanartMatch = new RegExp(`^##\\s+(${EN_FANART_HEADINGS.join("|")})\\s*$`, "i").test(line);
+        const fanartMatch = new RegExp(
+            `^##\\s+(${EN_FANART_HEADINGS.join("|")})\\s*$`,
+            "i",
+        ).test(line);
         if (fanartMatch && !fanartSection) {
             const heading = line.match(/^##\s+(.+?)\s*$/)?.[1] || "Fanart";
             const levelMatch = line.match(/^(#{1,6})/);
@@ -64,7 +74,10 @@ function extractSections(text: string): { fanart: Section | null; memes: Section
         }
 
         // Check for memes heading
-        const memeMatch = new RegExp(`^##\\s+(${EN_MEME_HEADINGS.join("|")})\\s*$`, "i").test(line);
+        const memeMatch = new RegExp(
+            `^##\\s+(${EN_MEME_HEADINGS.join("|")})\\s*$`,
+            "i",
+        ).test(line);
         if (memeMatch && !memesSection) {
             const heading = line.match(/^##\s+(.+?)\s*$/)?.[1] || "Memes";
             const levelMatch = line.match(/^(#{1,6})/);
@@ -103,7 +116,11 @@ function getJapaneseHeading(enHeading: string): string {
     return headingMap[normalized] || `## ${enHeading}`;
 }
 
-function replaceSectionInJa(jaText: string, sectionName: "fanart" | "memes", newContent: string[]): string {
+function replaceSectionInJa(
+    jaText: string,
+    sectionName: "fanart" | "memes",
+    newContent: string[],
+): string {
     const lines = jaText.split("\n");
     const jaHeadings =
         sectionName === "fanart"
@@ -114,7 +131,8 @@ function replaceSectionInJa(jaText: string, sectionName: "fanart" | "memes", new
         const pattern = new RegExp(`^##\\s+(${jaHeadings.join("|")})\\s*$`);
         if (pattern.test(lines[i])) {
             // Found the section heading
-            const heading = lines[i].match(/^##\s+(.+?)\s*$/)?.[1] || jaHeadings[0];
+            const heading =
+                lines[i].match(/^##\s+(.+?)\s*$/)?.[1] || jaHeadings[0];
             const levelMatch = lines[i].match(/^(#{1,6})/);
             const headingLevel = levelMatch ? levelMatch[1].length : 2;
 
@@ -194,11 +212,19 @@ async function main() {
         let updatedJaText = jaText;
 
         if (enFanart && enFanart.content.length > 0) {
-            updatedJaText = replaceSectionInJa(updatedJaText, "fanart", enFanart.content);
+            updatedJaText = replaceSectionInJa(
+                updatedJaText,
+                "fanart",
+                enFanart.content,
+            );
         }
 
         if (enMemes && enMemes.content.length > 0) {
-            updatedJaText = replaceSectionInJa(updatedJaText, "memes", enMemes.content);
+            updatedJaText = replaceSectionInJa(
+                updatedJaText,
+                "memes",
+                enMemes.content,
+            );
         }
 
         // Only write if there were changes

@@ -13,7 +13,7 @@
 
 ネリッサはその後、スカーレットワンドの仲間が利用できる[ピンクの家](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=4996)の建築に着手。かねてより憧れていた[ロングハット](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=6016)も無事に手に入れました。
 
-建築作業を中断し、彼女は他の勇者たちと共に[*オーシャンテンプルダンジョン*](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=8401)へと向かいます。イナ、カリ、ジョンとパーティーを組み、見事ダンジョンをクリア。[がうる・ぐら](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=8401)の記憶を取り戻すことに成功しました。その後、ピンクの家の仕上げに戻ると、念願の[完成](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=10367)を迎え、大満足の様子でした。
+建築作業を中断し、彼女は他の勇者たちと共に[_オーシャンテンプルダンジョン_](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=8401)へと向かいます。イナ、カリ、ジョンとパーティーを組み、見事ダンジョンをクリア。[がうる・ぐら](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=8401)の記憶を取り戻すことに成功しました。その後、ピンクの家の仕上げに戻ると、念願の[完成](https://www.youtube.com/live/nHn2JKHTyzM?feature=shared&t=10367)を迎え、大満足の様子でした。
 
 そして、この日を締めくくるのは恒例のカジノ。しかし、ビギナーズラックは長くは続かないもの。今回は運に見放され、連戦連敗の嵐に見舞われます。頭の中では「やめておけ！」という声が響くものの、まるで本物のギャンブラーのように「あと一回だけ…」と呟き、勝負を続けてしまうネリッサ。1,500コイン以上の大富豪として始まった一日は、終わりを迎える頃には、ネリッサの手元にわずか92コインを残すのみとなっていたのでした――。
 

@@ -21,4 +21,3 @@
 ["The Knight (And The Dog) Chooses Her Ruler" by BlaParky](https://x.com/BlaParky/status/1831222642730516798)
 
 <!-- raora, mococo, cecilia, bijou -->
-

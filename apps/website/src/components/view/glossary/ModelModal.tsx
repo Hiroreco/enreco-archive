@@ -40,11 +40,7 @@ const Model = ({
     );
 };
 
-const ModelModal = ({
-    open,
-    onOpenChange,
-    modelPath,
-}: ModelModalProps) => {
+const ModelModal = ({ open, onOpenChange, modelPath }: ModelModalProps) => {
     const [paused, setPaused] = useState(false);
 
     const handleUserInteract = useCallback(() => {
