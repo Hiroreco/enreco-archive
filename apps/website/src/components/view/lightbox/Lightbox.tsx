@@ -10,16 +10,17 @@ import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
 import { useSettingStore } from "@/store/settingStore";
 import {
-    Dialog,
+    Dialog, DialogClose,
     DialogContent,
     DialogDescription,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 import { MediaType } from "@enreco-archive/common/types";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { X } from "lucide-react";
 import Image from "next/image";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { useTranslations } from "next-intl";
 
 interface LightboxProps {
     src: string;
@@ -62,6 +63,7 @@ const Lightbox = ({
     onExternalClose,
     showFanartMeta = false,
 }: LightboxProps) => {
+    const tCommon = useTranslations("common");
     const [internalIsOpen, setInternalIsOpen] = useState(false);
     const [currentItemIndex, setCurrentItemIndex] = useState(galleryIndex);
     const [currentGalleryIndex, setCurrentGalleryIndex] =
@@ -261,7 +263,6 @@ const Lightbox = ({
                 <DialogContent
                     backdropFilter={backdropFilter}
                     className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center h-[80dvh] md:h-[90vh]"
-                    showXButton={false}
                     style={{ backgroundImage: "none" }}
                 >
                     <DialogTitle className="sr-only">
@@ -286,14 +287,6 @@ const Lightbox = ({
                             <div className="absolute inset-0 bg-black/30" />
                         </div>
                     )}
-
-                    <button
-                        onClick={() => handleOpenChange(false)}
-                        className="absolute -top-7 size-6 right-0 text-white hover:text-gray-300 transition-colors z-10"
-                        aria-label="Close lightbox"
-                    >
-                        <X className="size-full" />
-                    </button>
 
                     <div className="relative lg:w-[60vw] md:w-[80vw] w-[90vw] flex items-center justify-center flex-1 min-h-0">
                         {showNavigation && (
@@ -328,6 +321,12 @@ const Lightbox = ({
                             showFanartMeta={showFanartMeta}
                         />
                     </div>
+
+                    <DialogClose asChild>
+                        <Button className="bg-accent text-accent-foreground w-[75%] md:w-[50%]">
+                            <span className="text-lg">{tCommon("close")}</span>
+                        </Button>
+                    </DialogClose>
                 </DialogContent>
             </Dialog>
         </div>

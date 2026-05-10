@@ -5,7 +5,7 @@ import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useSettingStore } from "@/store/settingStore";
 import {
-    Dialog,
+    Dialog, DialogClose,
     DialogContent,
     DialogDescription,
     DialogHeader,
@@ -33,6 +33,7 @@ import {
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef } from "react";
+import { Button } from "@enreco-archive/common-ui/components/button";
 
 const PlayingAnimation = () => (
     <div className="flex items-end h-3 gap-[2px]">
@@ -249,17 +250,18 @@ const MusicPlayerModal = ({ open, onClose }: MusicPlayerModalProps) => {
     const { getSongs } = useLocalizedData();
     const SONGS = useMemo(() => getSongs(), [getSongs]);
     const categories = useMemo(() => Object.entries(SONGS), [SONGS]);
-    const t = useTranslations("modals.music");
+    const tCommon = useTranslations("common");
+    const tMusic = useTranslations("modals.music");
     const categoriesLabels = useMemo(
         () =>
             ({
-                enreco: t("categories.enreco"),
-                ingame: t("categories.ingame"),
-                stream: t("categories.stream"),
-                talent: t("categories.talent"),
-                special: t("categories.special"),
+                enreco: tMusic("categories.enreco"),
+                ingame: tMusic("categories.ingame"),
+                stream: tMusic("categories.stream"),
+                talent: tMusic("categories.talent"),
+                special: tMusic("categories.special"),
             }) as Record<string, string>,
-        [t],
+        [tMusic],
     );
 
     const catIndex = useMusicPlayerStore((state) => state.catIndex);
@@ -607,9 +609,6 @@ const MusicPlayerModal = ({ open, onClose }: MusicPlayerModalProps) => {
             <DialogContent
                 className="max-w-fit dark:bg-white/10 bg-black/10 text-gray-200 backdrop-blur-md border border-white/20"
                 style={{ backgroundImage: "none" }}
-                showXButtonForce={true}
-                showXButton={true}
-                xButtonClassName="right-1.5"
             >
                 <div className="absolute inset-0 -z-10">
                     <Image
@@ -621,220 +620,234 @@ const MusicPlayerModal = ({ open, onClose }: MusicPlayerModalProps) => {
                     {/* Dark overlay to ensure content readability */}
                     <div className="absolute inset-0 bg-black/30" />
                 </div>
-                <div className="flex md:flex-row flex-col items-center gap-2">
-                    {/* Cover & Controls */}
-                    <div className="hidden md:flex flex-col items-center gap-4 p-2 dark:bg-white/5 bg-black/30 rounded-lg">
-                        <div className="relative group">
-                            <Image
-                                // TODO: temp no song logo, change later
-                                src={
-                                    currentTrack?.coverUrl ||
-                                    "/images-opt/song-chapter-2-opt.webp"
-                                }
-                                alt={currentTrack?.title || "Select a track"}
-                                placeholder={
-                                    getBlurDataURL(
+                <div className="flex flex-col h-full w-full">
+                    <div className="flex md:flex-row flex-col items-center gap-2">
+                        {/* Cover & Controls */}
+                        <div className="hidden md:flex flex-col items-center gap-4 p-2 dark:bg-white/5 bg-black/30 rounded-lg">
+                            <div className="relative group">
+                                <Image
+                                    // TODO: temp no song logo, change later
+                                    src={
+                                        currentTrack?.coverUrl ||
+                                        "/images-opt/song-chapter-2-opt.webp"
+                                    }
+                                    alt={
+                                        currentTrack?.title || "Select a track"
+                                    }
+                                    placeholder={
+                                        getBlurDataURL(
+                                            currentTrack?.coverUrl ||
+                                                "/images-opt/song-chapter-2-opt.webp",
+                                        )
+                                            ? "blur"
+                                            : "empty"
+                                    }
+                                    blurDataURL={getBlurDataURL(
                                         currentTrack?.coverUrl ||
                                             "/images-opt/song-chapter-2-opt.webp",
-                                    )
-                                        ? "blur"
-                                        : "empty"
-                                }
-                                blurDataURL={getBlurDataURL(
-                                    currentTrack?.coverUrl ||
-                                        "/images-opt/song-chapter-2-opt.webp",
-                                )}
-                                width={300}
-                                height={300}
-                                className="rounded-lg size-[300px]"
-                                draggable={false}
-                                title={isPlaying ? "Pause" : "Play"}
-                            />
-                            {/* Hover overlay with play/pause button, actually like this better with the default cursor */}
-                            {currentTrack && (
-                                <div
-                                    className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-lg hover:bg-black/50"
-                                    onClick={() => playPause(!isPlaying)}
-                                >
-                                    {isPlaying ? (
-                                        <Pause
-                                            size={32}
-                                            className="text-white"
-                                        />
-                                    ) : (
-                                        <Play
-                                            size={32}
-                                            className="text-white"
-                                        />
                                     )}
-                                </div>
-                            )}
-                        </div>
-                        <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
-                            <div className="w-full flex justify-center items-center gap-1 z-10">
-                                <p className="truncate font-lg font-semibold">
-                                    {currentTrack?.title || t("controls.title")}
-                                </p>
-                                {currentTrack?.originalUrl && (
-                                    <a
-                                        href={currentTrack.originalUrl}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="opacity-70"
+                                    width={300}
+                                    height={300}
+                                    className="rounded-lg size-[300px]"
+                                    draggable={false}
+                                    title={isPlaying ? "Pause" : "Play"}
+                                />
+                                {/* Hover overlay with play/pause button, actually like this better with the default cursor */}
+                                {currentTrack && (
+                                    <div
+                                        className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-lg hover:bg-black/50"
+                                        onClick={() => playPause(!isPlaying)}
                                     >
-                                        <ExternalLink
-                                            size={16}
-                                            stroke="white"
-                                        />
-                                    </a>
+                                        {isPlaying ? (
+                                            <Pause
+                                                size={32}
+                                                className="text-white"
+                                            />
+                                        ) : (
+                                            <Play
+                                                size={32}
+                                                className="text-white"
+                                            />
+                                        )}
+                                    </div>
                                 )}
                             </div>
-                            <p className="text-sm opacity-70 z-10">
-                                {currentTrack?.info ||
-                                    t("controls.noTrackSelected")}
-                            </p>
-                            <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
-                        </div>
-                        <PlayerControls
-                            bgmVolume={bgmVolume}
-                            onVolumeChange={onVolumeChange}
-                            isShuffled={isShuffled}
-                            toggleShuffle={toggleShuffle}
-                            playPrev={playPrev}
-                            playPause={() => playPause(!isPlaying)}
-                            isPlaying={isPlaying}
-                            playNext={playNext}
-                            toggleLoop={toggleLoop}
-                            loopCurrentSong={loopCurrentSong}
-                            currentTrack={currentTrack}
-                        />
-                    </div>
-
-                    <div className="text-center flex md:hidden flex-col items-center gap-4">
-                        <div className="flex flex-col items-center w-[300px] relative">
-                            <div className="w-full flex justify-around items-center gap-2 z-10">
-                                <span className="w-8 h-8 rounded bg-black/20 border border-white/10">
-                                    <Image
-                                        src={
-                                            currentTrack?.coverUrl
-                                                ? currentTrack.coverUrl.replace(
-                                                      /\.webp$/,
-                                                      "-thumb.webp",
-                                                  )
-                                                : "/images-opt/song-chapter-2-opt-thumb.webp"
-                                        }
-                                        alt={
-                                            currentTrack?.title ||
-                                            "ENreco Archive Jukebox"
-                                        }
-                                        width={32}
-                                        height={32}
-                                        className="object-cover w-8 h-8"
-                                        draggable={false}
-                                    />
-                                </span>
-                                <div className="flex-1 flex justify-center min-w-0">
-                                    <p className="truncate font-lg font-semibold text-center w-full">
+                            <div className="flex flex-col text-center items-center px-2 w-[300px] relative">
+                                <div className="w-full flex justify-center items-center gap-1 z-10">
+                                    <p className="truncate font-lg font-semibold">
                                         {currentTrack?.title ||
-                                            "ENreco Archive Jukebox"}
+                                            tMusic("controls.title")}
                                     </p>
-                                </div>
-                                {currentTrack?.originalUrl ? (
-                                    <a
-                                        href={currentTrack.originalUrl}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="opacity-70 size-8 flex items-center justify-center "
-                                    >
-                                        <ExternalLink
-                                            size={16}
-                                            stroke="white"
-                                        />
-                                    </a>
-                                ) : (
-                                    // Placeholder for when there is no original URL
-                                    <div className="opacity-40 size-8 flex items-center justify-center ">
-                                        <ExternalLink
-                                            size={16}
-                                            stroke="white"
-                                        />
-                                    </div>
-                                )}
-                            </div>
-                            <p className="text-sm opacity-70 z-10 text-center">
-                                {currentTrack?.info || "No track selected"}
-                            </p>
-                            <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
-                        </div>
-                        <PlayerControls
-                            bgmVolume={bgmVolume}
-                            onVolumeChange={onVolumeChange}
-                            isShuffled={isShuffled}
-                            toggleShuffle={toggleShuffle}
-                            playPrev={playPrev}
-                            playPause={() => playPause(!isPlaying)}
-                            isPlaying={isPlaying}
-                            playNext={playNext}
-                            toggleLoop={toggleLoop}
-                            loopCurrentSong={loopCurrentSong}
-                            currentTrack={currentTrack}
-                        />
-                    </div>
-
-                    {/* Song List by Category */}
-                    <div
-                        ref={listRef}
-                        className="flex flex-col gap-2 px-2 border-y border-neutral-500 max-h-[45vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
-                    >
-                        {categories.map(([cat, list], cIdx) => (
-                            <div key={cat}>
-                                <div className="flex justify-between">
-                                    <div className="px-3 pt-2 text-sm font-semibold underline underline-offset-2 opacity-70">
-                                        {categoriesLabels[cat] || cat}
-                                    </div>
-                                    {cIdx === catIndex && (
-                                        <Tooltip delayDuration={300}>
-                                            <TooltipTrigger
-                                                onClick={() =>
-                                                    setLoopWithinCategory(
-                                                        !loopWithinCategory,
-                                                    )
-                                                }
-                                                className={cn(
-                                                    "transition-opacity mr-2",
-                                                    {
-                                                        "opacity-100":
-                                                            loopWithinCategory,
-                                                        "opacity-50 hover:opacity-80":
-                                                            !loopWithinCategory,
-                                                    },
-                                                )}
-                                            >
-                                                <Repeat size={14} />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                                {loopWithinCategory
-                                                    ? "Turn off loop within category"
-                                                    : "Loop within category"}
-                                            </TooltipContent>
-                                        </Tooltip>
+                                    {currentTrack?.originalUrl && (
+                                        <a
+                                            href={currentTrack.originalUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="opacity-70"
+                                        >
+                                            <ExternalLink
+                                                size={16}
+                                                stroke="white"
+                                            />
+                                        </a>
                                     )}
                                 </div>
-
-                                {list.map((song, tIdx) => (
-                                    <TrackItem
-                                        key={`${cIdx}-${tIdx}`}
-                                        song={song}
-                                        cIdx={cIdx}
-                                        tIdx={tIdx}
-                                        catIndex={catIndex}
-                                        trackIndex={trackIndex}
-                                        isPlaying={isPlaying}
-                                        onSelect={onSelect}
-                                    />
-                                ))}
+                                <p className="text-sm opacity-70 z-10">
+                                    {currentTrack?.info ||
+                                        tMusic("controls.noTrackSelected")}
+                                </p>
+                                <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
                             </div>
-                        ))}
+                            <PlayerControls
+                                bgmVolume={bgmVolume}
+                                onVolumeChange={onVolumeChange}
+                                isShuffled={isShuffled}
+                                toggleShuffle={toggleShuffle}
+                                playPrev={playPrev}
+                                playPause={() => playPause(!isPlaying)}
+                                isPlaying={isPlaying}
+                                playNext={playNext}
+                                toggleLoop={toggleLoop}
+                                loopCurrentSong={loopCurrentSong}
+                                currentTrack={currentTrack}
+                            />
+                        </div>
+
+                        <div className="text-center flex md:hidden flex-col items-center gap-4">
+                            <div className="flex flex-col items-center w-[300px] relative">
+                                <div className="w-full flex justify-around items-center gap-2 z-10">
+                                    <span className="w-8 h-8 rounded bg-black/20 border border-white/10">
+                                        <Image
+                                            src={
+                                                currentTrack?.coverUrl
+                                                    ? currentTrack.coverUrl.replace(
+                                                          /\.webp$/,
+                                                          "-thumb.webp",
+                                                      )
+                                                    : "/images-opt/song-chapter-2-opt-thumb.webp"
+                                            }
+                                            alt={
+                                                currentTrack?.title ||
+                                                "ENreco Archive Jukebox"
+                                            }
+                                            width={32}
+                                            height={32}
+                                            className="object-cover w-8 h-8"
+                                            draggable={false}
+                                        />
+                                    </span>
+                                    <div className="flex-1 flex justify-center min-w-0">
+                                        <p className="truncate font-lg font-semibold text-center w-full">
+                                            {currentTrack?.title ||
+                                                "ENreco Archive Jukebox"}
+                                        </p>
+                                    </div>
+                                    {currentTrack?.originalUrl ? (
+                                        <a
+                                            href={currentTrack.originalUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="opacity-70 size-8 flex items-center justify-center "
+                                        >
+                                            <ExternalLink
+                                                size={16}
+                                                stroke="white"
+                                            />
+                                        </a>
+                                    ) : (
+                                        // Placeholder for when there is no original URL
+                                        <div className="opacity-40 size-8 flex items-center justify-center ">
+                                            <ExternalLink
+                                                size={16}
+                                                stroke="white"
+                                            />
+                                        </div>
+                                    )}
+                                </div>
+                                <p className="text-sm opacity-70 z-10 text-center">
+                                    {currentTrack?.info || "No track selected"}
+                                </p>
+                                <AudioVisualizer className="absolute bottom-0 left-0 w-full h-12 z-0 opacity-20" />
+                            </div>
+                            <PlayerControls
+                                bgmVolume={bgmVolume}
+                                onVolumeChange={onVolumeChange}
+                                isShuffled={isShuffled}
+                                toggleShuffle={toggleShuffle}
+                                playPrev={playPrev}
+                                playPause={() => playPause(!isPlaying)}
+                                isPlaying={isPlaying}
+                                playNext={playNext}
+                                toggleLoop={toggleLoop}
+                                loopCurrentSong={loopCurrentSong}
+                                currentTrack={currentTrack}
+                            />
+                        </div>
+
+                        {/* Song List by Category */}
+                        <div
+                            ref={listRef}
+                            className="flex flex-col gap-2 px-2 border-y border-neutral-500 max-h-[45vh] md:max-h-[60vh] overflow-y-auto w-[80vw] md:w-[400px]"
+                        >
+                            {categories.map(([cat, list], cIdx) => (
+                                <div key={cat}>
+                                    <div className="flex justify-between">
+                                        <div className="px-3 pt-2 text-sm font-semibold underline underline-offset-2 opacity-70">
+                                            {categoriesLabels[cat] || cat}
+                                        </div>
+                                        {cIdx === catIndex && (
+                                            <Tooltip delayDuration={300}>
+                                                <TooltipTrigger
+                                                    onClick={() =>
+                                                        setLoopWithinCategory(
+                                                            !loopWithinCategory,
+                                                        )
+                                                    }
+                                                    className={cn(
+                                                        "transition-opacity mr-2",
+                                                        {
+                                                            "opacity-100":
+                                                                loopWithinCategory,
+                                                            "opacity-50 hover:opacity-80":
+                                                                !loopWithinCategory,
+                                                        },
+                                                    )}
+                                                >
+                                                    <Repeat size={14} />
+                                                </TooltipTrigger>
+                                                <TooltipContent>
+                                                    {loopWithinCategory
+                                                        ? "Turn off loop within category"
+                                                        : "Loop within category"}
+                                                </TooltipContent>
+                                            </Tooltip>
+                                        )}
+                                    </div>
+
+                                    {list.map((song, tIdx) => (
+                                        <TrackItem
+                                            key={`${cIdx}-${tIdx}`}
+                                            song={song}
+                                            cIdx={cIdx}
+                                            tIdx={tIdx}
+                                            catIndex={catIndex}
+                                            trackIndex={trackIndex}
+                                            isPlaying={isPlaying}
+                                            onSelect={onSelect}
+                                        />
+                                    ))}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="pt-5">
+                        <DialogClose asChild>
+                            <Button className="bg-accent text-accent-foreground w-full">
+                                <span className="text-lg">
+                                    {tCommon("close")}
+                                </span>
+                            </Button>
+                        </DialogClose>
                     </div>
                 </div>
             </DialogContent>

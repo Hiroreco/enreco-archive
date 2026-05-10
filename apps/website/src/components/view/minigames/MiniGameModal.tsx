@@ -6,9 +6,9 @@ import MemoryGame from "@/components/view/minigames/MemoryGame";
 import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
 import ShioriGame from "@/components/view/minigames/ShioriGame";
 import {
-    Dialog,
+    Dialog, DialogClose,
     DialogContent,
-    DialogDescription,
+    DialogDescription, DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -25,6 +25,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Info } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React, { ReactElement, useCallback, useState } from "react";
+import { Button } from "@enreco-archive/common-ui/components/button";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 
 interface MiniGameModalProps {
     open: boolean;
@@ -32,6 +34,7 @@ interface MiniGameModalProps {
 }
 
 const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
+    const tCommon = useTranslations("common");
     const t = useTranslations("modals.minigames");
     const [game, setGame] = useState("gambling");
 
@@ -64,10 +67,10 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
     );
     const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
     const baseClass =
-        "md:max-w-[800px] max-w-none w-[95vw] h-[80vh] transition-all";
-    const defaultClass = "md:max-h-[25rem] " + baseClass;
-    const chickenClass = "md:max-h-[37.5rem] " + baseClass;
-    const shioriClass = "md:max-h-[37.5rem] " + baseClass;
+        "md:max-w-[800px] max-w-none w-[95vw] h-[80vh] transition-all flex flex-col";
+    const defaultClass = "md:max-h-[30rem] " + baseClass;
+    const chickenClass = "md:max-h-[42.5rem] " + baseClass;
+    const shioriClass = "md:max-h-[42.5rem] " + baseClass;
     const modalClass = React.useMemo(() => {
         if (game === "shiori" && !isMobile) {
             return shioriClass;
@@ -82,8 +85,8 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 className={modalClass}
-                showXButton={true}
-                showXButtonForce={true}
+                showXButton={false}
+                showXButtonForce={false}
             >
                 <DialogHeader>
                     <DialogTitle>{t("title")}</DialogTitle>
@@ -93,7 +96,7 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                     <DialogDescription>{t("description")}</DialogDescription>
                 </VisuallyHidden>
 
-                <div className="h-full w-full flex flex-col">
+                <div className="relative w-full grow flex flex-col">
                     <Select value={game} onValueChange={setGame}>
                         <SelectTrigger className="mx-auto">
                             <SelectValue />
@@ -146,10 +149,14 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                     </div>
 
                     <Dialog>
-                        <DialogTrigger>
+                        <DialogTrigger className="bottom-0 right-0">
                             <Info className="absolute sm:bottom-4 sm:right-4 bottom-2 right-2 z-40" />
                         </DialogTrigger>
-                        <DialogContent className="flex flex-col max-h-[85vh]">
+                        <DialogContent
+                            className="flex flex-col max-h-[85vh]"
+                            showXButton={false}
+                            showXButtonForce={false}
+                        >
                             <VisuallyHidden>
                                 <DialogDescription>
                                     View information about the minigame
@@ -161,9 +168,27 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                             <div className="overflow-auto grow pb-6 px-2">
                                 {GAMES[game].info}
                             </div>
+                            <DialogFooter>
+                                <DialogClose asChild>
+                                    <Button className="bg-accent text-accent-foreground w-full">
+                                        <span className="text-lg">
+                                            {tCommon("close")}
+                                        </span>
+                                    </Button>
+                                </DialogClose>
+                            </DialogFooter>
                         </DialogContent>
                     </Dialog>
                 </div>
+
+                <DialogFooter className="h-1/16 justify-self-end flex sm:flex-col">
+                    <Separator className="my-2"/>
+                    <DialogClose asChild>
+                        <Button className="bg-accent text-accent-foreground w-full">
+                            <span className="text-lg">{tCommon("close")}</span>
+                        </Button>
+                    </DialogClose>
+                </DialogFooter>
             </DialogContent>
         </Dialog>
     );
