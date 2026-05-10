@@ -11,7 +11,6 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { useScrollSpy } from "@/hooks/useScrollSpy";
-import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { AnimatePresence, motion } from "framer-motion";
@@ -53,7 +52,6 @@ const ChapterRecapModal = ({
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
 
     const activeSection = useScrollSpy(sectionIds);
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -124,8 +122,6 @@ const ChapterRecapModal = ({
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 className="md:max-w-[800px] h-[95dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
-                showXButton={true}
-                backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
                     <DialogHeader>

@@ -1,5 +1,4 @@
 import {
-    BackdropFilter,
     EmbedType,
     FontSize,
     Locale,
@@ -64,10 +63,6 @@ const SettingsModal = ({ open, onClose }: SettingsModalProps) => {
     );
     const autoPanBack = useSettingStore((state) => state.autoPanBack);
     const setAutoPanBack = useSettingStore((state) => state.setAutoPanBack);
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
-    const setBackdropFilter = useSettingStore(
-        (state) => state.setBackdropFilter,
-    );
     const themeType = useSettingStore((state) => state.themeType);
     const setThemeType = useSettingStore((state) => state.setThemeType);
     const fontSize = useSettingStore((state) => state.fontSize);
@@ -350,38 +345,6 @@ const SettingsModal = ({ open, onClose }: SettingsModalProps) => {
                                 </SelectItem>
                                 <SelectItem value="xlarge">
                                     {tSettings("extraLarge")}
-                                </SelectItem>
-                            </SelectContent>
-                        </Select>
-                    </div>
-
-                    <div className="flex flex-row justify-between items-center w-full">
-                        <Label
-                            htmlFor="backdrop-filter"
-                            className="flex items-center gap-1.5"
-                        >
-                            <Wallpaper size={20} />
-                            {tSettings("backdropFilter")}
-                        </Label>
-                        <Select
-                            onValueChange={(value) =>
-                                setBackdropFilter(value as BackdropFilter)
-                            }
-                            value={backdropFilter}
-                        >
-                            <SelectTrigger
-                                className="w-[100px]"
-                                id="backdrop-filter"
-                                name="backdrop-filter"
-                            >
-                                <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="blur">
-                                    {tSettings("blur")}
-                                </SelectItem>
-                                <SelectItem value="clear">
-                                    {tSettings("clear")}
                                 </SelectItem>
                             </SelectContent>
                         </Select>

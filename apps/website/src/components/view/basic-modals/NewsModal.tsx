@@ -199,7 +199,6 @@ const NewsPostItem = ({ post }: NewsPostItemProps) => {
 const NewsModal = ({ open, onClose }: NewsModalProps) => {
     const t = useTranslations("modals.news");
     const tCommon = useTranslations("common");
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedChapter, setSelectedChapter] = useState("all");
@@ -398,11 +397,7 @@ const NewsModal = ({ open, onClose }: NewsModalProps) => {
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className={cn(
-                    "max-w-6xl flex flex-col p-0 gap-0",
-                    backdropFilter &&
-                        "supports-[backdrop-filter]:bg-background/80",
-                )}
+                className="max-w-6xl flex flex-col p-0 gap-0 supports-[backdrop-filter]:bg-background/80"
                 onOpenAutoFocus={(event) => {
                     if (window.matchMedia("(max-width: 767px)").matches) {
                         event.preventDefault();

@@ -12,7 +12,6 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { extractMarkdownSections } from "@/components/view/glossary/glossary-utils";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
-import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -63,8 +62,6 @@ const ChapterRecapModal = ({
     );
 
     const sectionIds = useMemo(() => sections.map((s) => s.id), [sections]);
-
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     // Disable browser scroll restoration for this component
     useEffect(() => {
@@ -293,7 +290,6 @@ const ChapterRecapModal = ({
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 className="md:max-w-[1200px] h-[90dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
-                backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
                     <DialogHeader>
