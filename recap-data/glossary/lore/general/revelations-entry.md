@@ -46,9 +46,9 @@ Each hero wielded a unique Revelation—distinct in both form and function—bas
 
 - **IRyS** – [Light and Darkness](#entry:light-and-darkness-entry), a pair of black and white stars
 
-- **Fuwawa Abyssguard** – [Azure Claws](#entry:azure-claws-entry), sharp blue claws
+- **Fuwawa Abyssgard** – [Azure Claws](#entry:azure-claws-entry), sharp blue claws
 
-- **Mococo Abyssguard** – [Fuchsia Claws](#entry:fuchsia-claws-entry), sharp pink claws
+- **Mococo Abyssgard** – [Fuchsia Claws](#entry:fuchsia-claws-entry), sharp pink claws
 
 - **Koseki Bijou** – [Shining Emotions](#entry:shining-emotions-entry), a gem
 

@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 Mococo woke up and chose violence.

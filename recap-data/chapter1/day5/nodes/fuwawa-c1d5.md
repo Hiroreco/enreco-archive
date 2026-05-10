@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Fuwawa’s day began with a familiar worry. [_"Is Mococo going to the lottery again?"_](https://www.youtube.com/live/FjZ9ettDlNw?feature=shared&t=346) she wondered, her concern for her companion growing deeper with each passing day. Though she cared for Mococo, this time, Fuwawa decided to stay on the sidelines, watching the fiasco unfold without stepping in. After all, it wasn’t her battle to fight.

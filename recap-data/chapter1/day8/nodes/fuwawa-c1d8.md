@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Fuwawa began her final day in the kingdom with a heavy heart. The once-thriving lands surrounding her small hut were in disarray—fires burned through the fields, leaves withered on the trees, and faint traces of blood stained the ground. Most heartbreaking of all, her beloved [chickens](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=394), the source of so much joy and companionship, had vanished without a trace.

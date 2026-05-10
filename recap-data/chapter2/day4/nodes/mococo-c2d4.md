@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 The fuzzy one kicked off her day at Gacharm—dutiful, as always. A model employee, yes, but more importantly, she had her eyes on the prize. Cold, hard cash. And with dreams of swimming in gold already sparkling in her mind, it made perfect sense why she was so eager to clock in.

@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 The fluffy one’s beginning mirrored that of all the others—she was given the rundown of her situation, her mission, and the state she was in: missing a piece of her memories. She was understandably confused, but, as always, she faced her new reality with quiet resolve. Just like in her past journey, she accepted her role and duties without hesitation.

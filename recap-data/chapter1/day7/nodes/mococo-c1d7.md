@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Corrupted -->
 
 Now free of her past crimes, Mococo felt a newfound sense of liberation. No longer did she have to worry about being chased on horseback or threatened with the gallows. Life was great—though she was officially banned from FaunaMart.

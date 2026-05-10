@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Upon re-entering the kingdom, Fuwawa teamed up with Mococo to seek companions for a dungeon expedition. Their search led them to Liz, and as the trio exchanged pleasantries, their conversation was interrupted by a peculiar advertisement call from Fauna, promoting her new business venture, [FaunaMart](https://www.youtube.com/live/jjCVWFJl-_o?feature=shared&t=665). While Fuwawa was only mildly interested in the pitch, Mococo was thoroughly intrigued. Her excitement dragged both Fuwawa and Liz to the newly opened convenience store.

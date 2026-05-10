@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 _Mococo_ woke up in a strange white room, completely confuzzled and on edge, with everyone around her appearing suspicious.
@@ -9,7 +9,7 @@ Backed into a corner and overwhelmed, she let out a series of nervous "Haeh" sou
 
 During the battle with the _Stain King_, Mococo didn’t have the best start—being the [first to fall](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=3153). She didn’t stay down long though, and that’s when her true weapon made its debut: a pair of [sharp pink claws](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=3184). When their _Revelation_ activated, Mococo unleashed a wild flurry of slashes, her movements filled with raw fury. After the battle, she found herself sorted into the _Jade Sword_ [guild](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=3462).
 
-Her first encounter in the guild was with _Fuwawa Abyssguard_, who looked so similar to her it was almost uncanny.
+Her first encounter in the guild was with _Fuwawa Abyssgard_, who looked so similar to her it was almost uncanny.
 
 [You also bau bau?](#embed:https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=3549)
 

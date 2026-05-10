@@ -288,7 +288,7 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
-                            <TabsTrigger value="bingo" title="Bingo">
+                            {/* <TabsTrigger value="bingo" title="Bingo">
                                 <Image
                                     src="/images-opt/bingo-logo-opt.webp"
                                     alt="Bingo"
@@ -296,7 +296,7 @@ export const ViewAppWrapper = () => {
                                     width={24}
                                     className="h-6 w-auto"
                                 />
-                            </TabsTrigger>
+                            </TabsTrigger> */}
                         </TabsList>
                     )}
                 </Tabs>

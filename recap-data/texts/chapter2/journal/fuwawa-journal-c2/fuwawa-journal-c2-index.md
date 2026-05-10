@@ -3,4 +3,4 @@
 
 <!-- description -->
 
-Fuwawa Abyssguard's daily journal entries during Chapter 2.
+Fuwawa Abyssgard's daily journal entries during Chapter 2.

@@ -1,4 +1,4 @@
-<!-- title: Fuwawa Abyssguard -->
+<!-- title: Fuwawa Abyssgard -->
 <!-- status: Alive -->
 
 Continuing work on her shop—or, more fittingly, her _café_—was the first thought on Fuwawa’s mind upon waking. The objective hadn’t changed: gather resources for building, materials for cooking, and, if possible, find at least one person to accompany her. Because without her usual fuzzy companion by her side, this journey had felt... somber.

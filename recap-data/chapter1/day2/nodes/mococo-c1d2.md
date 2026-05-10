@@ -1,4 +1,4 @@
-<!-- title: Mococo Abyssguard -->
+<!-- title: Mococo Abyssgard -->
 <!-- status: Alive -->
 
 On her second day in the kingdom, the fuzzy one, Mococo, awoke with a sense of renewed determination. Her first day had been overwhelming—strange people, unfamiliar surroundings, and a whirlwind of emotions had left her quite shaken. But amidst all the chaos, there was a comforting presence: the lady in red, Elizabeth, who promised to always stay by her side. That promise gave Mococo a sense of ease.
