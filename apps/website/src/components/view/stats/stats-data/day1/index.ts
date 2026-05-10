@@ -6,7 +6,7 @@ import { BASE_TEAMS } from "../base-teams";
 import { BASE_CONTINUOUS } from "../base-continuous";
 
 export const day1Data: DayData = {
-    teams: BASE_TEAMS,
-    continuous: BASE_CONTINUOUS,
-    choices: [pizzaChoice, petChoice, opinionRestChoice],
+  teams: BASE_TEAMS,
+  continuous: BASE_CONTINUOUS,
+  choices: [pizzaChoice, petChoice, opinionRestChoice],
 };

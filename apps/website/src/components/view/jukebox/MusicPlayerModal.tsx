@@ -5,8 +5,7 @@ import { useAudioStore } from "@/store/audioStore";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import { useSettingStore } from "@/store/settingStore";
 import {
-    Dialog,
-    DialogClose,
+    Dialog, DialogClose,
     DialogContent,
     DialogDescription,
     DialogHeader,

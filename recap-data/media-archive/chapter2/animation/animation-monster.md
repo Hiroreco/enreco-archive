@@ -4,7 +4,7 @@
 
 ### Description
 
-Released on May 3, 2025, _MONSTER_ is the official theme song for the second chapter of **ENigmatic Recollection**, featuring Gigi, Ina, Kronii, and Shiori.
+Released on May 3, 2025, *MONSTER* is the official theme song for the second chapter of **ENigmatic Recollection**, featuring Gigi, Ina, Kronii, and Shiori.
 
 An intense electronic rock track infused with disorienting, jazz-inflected harmonic instability, it perfectly captures the project’s chaotic, high-stakes lore. Lyrically, it explores the **erosion of identity** and the struggle to confront the **inner “monster”**—not an external enemy, but the darkest, fragmented side of oneself screaming from within.
 

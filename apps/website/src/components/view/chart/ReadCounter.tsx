@@ -47,12 +47,13 @@ const ReadCounter = ({
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
 
-    const { chapter, day } = useViewStore(
-        useShallow((state) => ({
-            chapter: state.chapter,
-            day: state.day,
-        })),
-    );
+    const {
+        chapter,
+        day,
+    } = useViewStore(useShallow(state => ({
+        chapter: state.chapter,
+        day: state.day
+    })));
 
     const { nodes, edges } = useCompleteChartData();
 

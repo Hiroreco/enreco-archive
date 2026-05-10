@@ -12,4 +12,4 @@ But not all of them stepped forward.
 
 Fuwawa, Mococo, Bijou, Nerissa, and Shiori stayed behind, shrouded in shadow.
 
-Tired of being commanded, tired of living roles written by others, they declared rebellion. They would forge their own path. Do things _their_ way.
+Tired of being commanded, tired of living roles written by others, they declared rebellion. They would forge their own path. Do things *their* way.

@@ -41,6 +41,7 @@ interface SettingState {
     _hasHydrated: boolean;
     setHasHydrated: (hasHydrated: boolean) => void;
 
+
     latestNewsDate: string;
     setLatestNewsDate: (dateIso: string) => void;
 

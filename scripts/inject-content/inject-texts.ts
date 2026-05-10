@@ -117,9 +117,7 @@ async function main() {
         try {
             await fs.access(baseDir);
         } catch (err) {
-            console.warn(
-                `Base directory not found for locale ${locale}: ${baseDir}`,
-            );
+            console.warn(`Base directory not found for locale ${locale}: ${baseDir}`);
             continue;
         }
 
@@ -154,8 +152,7 @@ async function main() {
                                 "utf-8",
                             );
                             const title = extractTitle(indexContent);
-                            const description =
-                                extractDescription(indexContent);
+                            const description = extractDescription(indexContent);
                             const entryNames = extractEntries(indexContent);
 
                             // Initialize group if not exists
@@ -163,18 +160,15 @@ async function main() {
                                 mergedResult[groupKey] = {
                                     chapter,
                                     category: categoryName,
-                                    title: { en: "", ja: "" },
-                                    description: { en: "", ja: "" },
+                                    title: {"en": "", "ja": ""},
+                                    description: {"en": "", "ja": ""},
                                     entries: [],
                                 };
                             }
 
                             // Add localized title and description
-                            (mergedResult[groupKey].title as any)[locale] =
-                                title;
-                            (mergedResult[groupKey].description as any)[
-                                locale
-                            ] = description;
+                            (mergedResult[groupKey].title as any)[locale] = title;
+                            (mergedResult[groupKey].description as any)[locale] = description;
 
                             // Process entries
                             for (const entryName of entryNames) {
@@ -188,37 +182,28 @@ async function main() {
                                         entryPath,
                                         "utf-8",
                                     );
-                                    const entryTitle =
-                                        extractTitle(entryContent);
-                                    const content =
-                                        extractContent(entryContent);
-                                    const cleanedContent =
-                                        removeComments(content);
-                                    const entryId = entryName.replace(
-                                        "_ja",
-                                        "",
-                                    );
+                                    const entryTitle = extractTitle(entryContent);
+                                    const content = extractContent(entryContent);
+                                    const cleanedContent = removeComments(content);
+                                    const entryId = entryName.replace("_ja", "");
                                     const hasAudio = audioFiles.has(entryId);
 
                                     // Find or create entry
-                                    let entry = mergedResult[
-                                        groupKey
-                                    ].entries.find((e) => e.id === entryId);
+                                    let entry = mergedResult[groupKey].entries.find(
+                                        (e) => e.id === entryId,
+                                    );
                                     if (!entry) {
                                         entry = {
                                             id: entryId,
-                                            title: { en: "", ja: "" },
-                                            content: { en: "", ja: "" },
+                                            title: {"en": "", "ja": ""},
+                                            content: {"en": "", "ja": ""},
                                         };
-                                        mergedResult[groupKey].entries.push(
-                                            entry,
-                                        );
+                                        mergedResult[groupKey].entries.push(entry);
                                     }
 
                                     // Add localized content
                                     (entry.title as any)[locale] = entryTitle;
-                                    (entry.content as any)[locale] =
-                                        cleanedContent;
+                                    (entry.content as any)[locale] = cleanedContent;
                                     if (hasAudio) {
                                         entry.hasAudio = true;
                                     }
@@ -229,19 +214,12 @@ async function main() {
                                 }
                             }
                         } catch (err) {
-                            console.warn(
-                                `Could not read index file: ${indexPath}`,
-                            );
+                            console.warn(`Could not read index file: ${indexPath}`);
                         }
                     } else if (itemName.endsWith(".md")) {
                         // This is a standalone file
-                        const key = path
-                            .basename(itemName, ".md")
-                            .replace("_ja", "");
-                        const fileContent = await fs.readFile(
-                            itemPath,
-                            "utf-8",
-                        );
+                        const key = path.basename(itemName, ".md").replace("_ja", "");
+                        const fileContent = await fs.readFile(itemPath, "utf-8");
                         const title = extractTitle(fileContent);
                         const description = extractDescription(fileContent);
                         const content = extractContent(fileContent);
@@ -253,16 +231,15 @@ async function main() {
                             mergedResult[key] = {
                                 chapter,
                                 category: categoryName,
-                                title: { en: "", ja: "" },
-                                description: { en: "", ja: "" },
+                                title: {"en": "", "ja": ""},
+                                description: {"en": "", "ja": ""},
                                 entries: [],
                             };
                         }
 
                         // Add localized title and description
                         (mergedResult[key].title as any)[locale] = title;
-                        (mergedResult[key].description as any)[locale] =
-                            description;
+                        (mergedResult[key].description as any)[locale] = description;
 
                         // Find or create entry
                         let entry = mergedResult[key].entries.find(
@@ -271,8 +248,8 @@ async function main() {
                         if (!entry) {
                             entry = {
                                 id: key,
-                                title: { en: "", ja: "" },
-                                content: { en: "", ja: "" },
+                                title: {"en": "", "ja": ""},
+                                content: {"en": "", "ja": ""},
                             };
                             mergedResult[key].entries.push(entry);
                         }
@@ -289,11 +266,7 @@ async function main() {
         }
     }
 
-    await fs.writeFile(
-        outputPath,
-        JSON.stringify(mergedResult, null, 2),
-        "utf-8",
-    );
+    await fs.writeFile(outputPath, JSON.stringify(mergedResult, null, 2), "utf-8");
 
     const totalGroups = Object.keys(mergedResult).length;
     const totalEntries = Object.values(mergedResult).reduce(

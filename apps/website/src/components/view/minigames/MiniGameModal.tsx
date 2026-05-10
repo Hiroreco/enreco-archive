@@ -6,11 +6,9 @@ import MemoryGame from "@/components/view/minigames/MemoryGame";
 import MemoryGameInfo from "@/components/view/minigames/MemoryGameInfo";
 import ShioriGame from "@/components/view/minigames/ShioriGame";
 import {
-    Dialog,
-    DialogClose,
+    Dialog, DialogClose,
     DialogContent,
-    DialogDescription,
-    DialogFooter,
+    DialogDescription, DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -184,7 +182,7 @@ const MiniGameModal = ({ open, onClose }: MiniGameModalProps) => {
                 </div>
 
                 <DialogFooter className="h-1/16 justify-self-end flex sm:flex-col">
-                    <Separator className="my-2" />
+                    <Separator className="my-2"/>
                     <DialogClose asChild>
                         <Button className="bg-accent text-accent-foreground w-full">
                             <span className="text-lg">{tCommon("close")}</span>

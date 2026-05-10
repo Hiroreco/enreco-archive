@@ -309,15 +309,11 @@ interface ViewMarkdownProps {
 }
 
 function emptyNodeLinkClickHandler() {
-    console.error(
-        "Node link clicked but no handler was set: this is probably a bug.",
-    );
+    console.error("Node link clicked but no handler was set: this is probably a bug.");
 }
 
 function emptyEdgeLinkClickHandler() {
-    console.error(
-        "Edge link clicked but no handler was set: this is probably a bug.",
-    );
+    console.error("Edge link clicked but no handler was set: this is probably a bug.");
 }
 
 function MarkdownInternal({
@@ -333,7 +329,12 @@ function MarkdownInternal({
                     throw new Error("We don't support Blobs right now.");
                 }
                 return (
-                    <Lightbox src={src} alt={alt} width={1600} height={900} />
+                    <Lightbox
+                        src={src}
+                        alt={alt}
+                        width={1600}
+                        height={900}
+                    />
                 );
             },
             figcaption: ({ children }) => {

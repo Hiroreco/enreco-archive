@@ -4,16 +4,11 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useMemo } from "react";
 
+
 function getLocalTimeForUTC(utcHours: number, utcMinutes: number = 0): string {
     const now = new Date();
     const utcDate = new Date(
-        Date.UTC(
-            now.getUTCFullYear(),
-            now.getUTCMonth(),
-            now.getUTCDate(),
-            utcHours,
-            utcMinutes,
-        ),
+        Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), utcHours, utcMinutes)
     );
     const formatter = new Intl.DateTimeFormat(undefined, {
         hour: "2-digit",
@@ -57,9 +52,7 @@ const ComingSoonCard = () => {
             {/* Main Event Text */}
             <p className="text-base leading-relaxed mb-8 text-center max-w-sm mx-auto">
                 {t.rich("text1", {
-                    bold: (chunks) => (
-                        <strong className="font-semibold">{chunks}</strong>
-                    ),
+                    bold: (chunks) => <strong className="font-semibold">{chunks}</strong>,
                 })}
             </p>
 
@@ -70,28 +63,16 @@ const ComingSoonCard = () => {
                 </p>
                 <div className="grid grid-cols-3 gap-4 bg-muted/30 rounded-md p-4">
                     <div className="text-center">
-                        <p className="text-sm text-muted-foreground mb-1">
-                            JST
-                        </p>
-                        <p className="font-mono font-semibold text-sm">
-                            {t("jstTime")}
-                        </p>
+                        <p className="text-sm text-muted-foreground mb-1">JST</p>
+                        <p className="font-mono font-semibold text-sm">{t("jstTime")}</p>
                     </div>
                     <div className="text-center">
-                        <p className="text-sm text-muted-foreground mb-1">
-                            PST
-                        </p>
-                        <p className="font-mono font-semibold text-sm">
-                            {t("pstTime")}
-                        </p>
+                        <p className="text-sm text-muted-foreground mb-1">PST</p>
+                        <p className="font-mono font-semibold text-sm">{t("pstTime")}</p>
                     </div>
                     <div className="text-center">
-                        <p className="text-sm text-muted-foreground mb-1">
-                            {t("localTimezone")}
-                        </p>
-                        <p className="font-mono font-semibold text-sm">
-                            {jstLocalTime}
-                        </p>
+                        <p className="text-sm text-muted-foreground mb-1">{t("localTimezone")}</p>
+                        <p className="font-mono font-semibold text-sm">{jstLocalTime}</p>
                     </div>
                 </div>
 
@@ -124,7 +105,9 @@ const ComingSoonCard = () => {
                 {/* purposely hardcoded, dont need japanese ver */}
                 click me
             </p>
-            <div className="-z-10 absolute bottom-0 right-2 h-[100px] overflow-hidden">
+            <div
+                className="-z-10 absolute bottom-0 right-2 h-[100px] overflow-hidden"
+            >
                 <Image
                     width={80}
                     height={80}

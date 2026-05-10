@@ -12,11 +12,7 @@ interface ViewProgressBarProps {
     onDayChange: (newDay: number) => void;
 }
 
-const ProgressBar = ({
-    numberOfDays,
-    day,
-    onDayChange,
-}: ViewProgressBarProps) => {
+const ProgressBar = ({ numberOfDays, day, onDayChange }: ViewProgressBarProps) => {
     // Add 2 invisible points to the start and end of the progress bar
     const numberOfDaysWithTwoInvisiblePoints = numberOfDays + 2;
     const [width, setWidth] = useState("0%");

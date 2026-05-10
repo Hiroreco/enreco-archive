@@ -1,8 +1,4 @@
-import {
-    Chapter,
-    ChartData,
-    LocalizedString,
-} from "@enreco-archive/common/types";
+import { Chapter, ChartData, LocalizedString } from "@enreco-archive/common/types";
 import fs from "fs/promises";
 import JSZip from "jszip";
 import path from "path";
@@ -110,11 +106,9 @@ async function processChapter(chapterNum: number) {
                     }
 
                     // Set the appropriate locale
-                    (chart.dayRecap as LocalizedString)[locale] =
-                        cleanedContent;
+                    (chart.dayRecap as LocalizedString)[locale] = cleanedContent;
                     if (titleMatch) {
-                        (chart.title as LocalizedString)[locale] =
-                            titleMatch[1].trim();
+                        (chart.title as LocalizedString)[locale] = titleMatch[1].trim();
                     }
 
                     recapFound = true;
@@ -181,8 +175,7 @@ async function processChapter(chapterNum: number) {
                     const nd = chart.nodes.find(
                         (n) =>
                             n.id.startsWith(idKey) &&
-                            (n.data.day === undefined ||
-                                n.data.day === dayIndex),
+                            (n.data.day === undefined || n.data.day === dayIndex),
                     );
                     if (nd) {
                         // Initialize as LocalizedString if needed
@@ -210,17 +203,17 @@ async function processChapter(chapterNum: number) {
                 /* ignore missing folder */
             }
 
-            // Show warnings for missing files for all locales
-            for (const n of chart.nodes) {
-                if (
-                    (n.data.day === undefined || n.data.day === dayIndex) &&
-                    !seenNodes.has(n.id)
-                ) {
-                    console.warn(
-                        `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
-                    );
-                }
+        // Show warnings for missing files for all locales
+        for (const n of chart.nodes) {
+            if (
+                (n.data.day === undefined || n.data.day === dayIndex) &&
+                !seenNodes.has(n.id)
+            ) {
+                console.warn(
+                    `  • No .md file for node "${n.id}" in ${dayName}/nodes/`,
+                );
             }
+        }
 
             // 3) Edges
             const edgesDir = path.join(dayPath, "edges");
@@ -260,10 +253,7 @@ async function processChapter(chapterNum: number) {
                     if (/^<!--\s*relationship:\s*(.+?)\s*-->$/.test(lines[0])) {
                         relationship = lines
                             .shift()!
-                            .replace(
-                                /^<!--\s*relationship:\s*(.+?)\s*-->$/,
-                                "$1",
-                            )
+                            .replace(/^<!--\s*relationship:\s*(.+?)\s*-->$/, "$1")
                             .trim();
                         if (!lines[0]?.trim()) lines.shift();
                     }
@@ -319,99 +309,101 @@ async function processChapter(chapterNum: number) {
                 /* ignore missing folder */
             }
 
-            // Show warnings for missing files for all locales
-            for (const e of chart.edges) {
-                if (
-                    (e.data?.day === undefined || e.data.day === dayIndex) &&
-                    !seenEdges.has(e.id)
-                ) {
-                    console.warn(
-                        `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
-                    );
-                }
+        // Show warnings for missing files for all locales
+        for (const e of chart.edges) {
+            if (
+                (e.data?.day === undefined || e.data.day === dayIndex) &&
+                !seenEdges.has(e.id)
+            ) {
+                console.warn(
+                    `  • No .md file for edge "${e.id}" in ${dayName}/edges/`,
+                );
             }
         }
+    }
 
-        // write ZIP back with bilingual content
-        zip.file(entryName, JSON.stringify(localeChapterJson, null, 2));
-        const outZip = await zip.generateAsync({
-            type: "nodebuffer",
-            compression: "DEFLATE",
-        });
-        await fs.writeFile(zipPath, outZip);
-        console.log(`✅ Injected bilingual content into ZIP: ${zipPath}`);
+    // write ZIP back with bilingual content
+    zip.file(entryName, JSON.stringify(localeChapterJson, null, 2));
+    const outZip = await zip.generateAsync({
+        type: "nodebuffer",
+        compression: "DEFLATE",
+    });
+    await fs.writeFile(zipPath, outZip);
+    console.log(`✅ Injected bilingual content into ZIP: ${zipPath}`);
 
-        // ——————————— Update website JSON ———————————
-        const webPath = path.resolve(
-            process.cwd(),
-            "apps",
-            "website",
-            "data",
-            "recaps",
-            `chapter${chapterNum}.json`,
+    // ——————————— Update website JSON ———————————
+    const webPath = path.resolve(
+        process.cwd(),
+        "apps",
+        "website",
+        "data",
+        "recaps",
+        `chapter${chapterNum}.json`,
+    );
+
+    // Check if website JSON exists
+    try {
+        await fs.access(webPath);
+    } catch {
+        console.warn(
+            `⚠️  Website JSON not found: ${webPath}, skipping website update for chapter ${chapterNum}`,
         );
+        return;
+    }
 
-        // Check if website JSON exists
-        try {
-            await fs.access(webPath);
-        } catch {
-            console.warn(
-                `⚠️  Website JSON not found: ${webPath}, skipping website update for chapter ${chapterNum}`,
-            );
-            return;
-        }
+    const webStr = await fs.readFile(webPath, "utf-8");
+    const webJson = JSON.parse(webStr) as Chapter;
 
-        const webStr = await fs.readFile(webPath, "utf-8");
-        const webJson = JSON.parse(webStr) as Chapter;
+    // Copy over bilingual recaps + node content + edge content/title
+    webJson.charts.forEach((wChart: ChartData, dayIndex: number) => {
+        const zChart = localeChapterJson.charts[dayIndex];
+        if (!zChart || !wChart) return;
 
-        // Copy over bilingual recaps + node content + edge content/title
-        webJson.charts.forEach((wChart: ChartData, dayIndex: number) => {
-            const zChart = localeChapterJson.charts[dayIndex];
-            if (!zChart || !wChart) return;
+        // dayRecap and title
+        if (zChart.dayRecap) wChart.dayRecap = zChart.dayRecap;
+        if (zChart.title) wChart.title = zChart.title;
 
-            // dayRecap and title
-            if (zChart.dayRecap) wChart.dayRecap = zChart.dayRecap;
-            if (zChart.title) wChart.title = zChart.title;
-
-            // nodes
-            zChart.nodes.forEach((zNode) => {
-                if (zNode.data.day !== undefined && zNode.data.day !== dayIndex)
-                    return;
-                const wNode = wChart.nodes.find((n) => n.id === zNode.id);
-                if (wNode) {
-                    if (zNode.data.content)
-                        wNode.data.content = zNode.data.content;
-                    if (zNode.data.title !== undefined) {
-                        wNode.data.title = zNode.data.title;
-                    }
-                    if (zNode.data.status !== undefined) {
-                        wNode.data.status = zNode.data.status;
-                    }
+        // nodes
+        zChart.nodes.forEach((zNode) => {
+            if (zNode.data.day !== undefined && zNode.data.day !== dayIndex)
+                return;
+            const wNode = wChart.nodes.find((n) => n.id === zNode.id);
+            if (wNode) {
+                if (zNode.data.content) wNode.data.content = zNode.data.content;
+                if (zNode.data.title !== undefined) {
+                    wNode.data.title = zNode.data.title;
                 }
-            });
-
-            // edges
-            zChart.edges.forEach((zEdge) => {
-                if (
-                    zEdge.data!.day !== undefined &&
-                    zEdge.data!.day !== dayIndex
-                )
-                    return;
-                const wEdge = wChart.edges.find((e) => e.id === zEdge.id);
-                if (wEdge) {
-                    if (zEdge.data!.content)
-                        wEdge.data!.content = zEdge.data!.content;
-                    if (zEdge.data!.title !== undefined) {
-                        wEdge.data!.title = zEdge.data!.title;
-                    }
+                if (zNode.data.status !== undefined) {
+                    wNode.data.status = zNode.data.status;
                 }
-            });
+            }
         });
 
-        await fs.writeFile(webPath, JSON.stringify(webJson, null, 2), "utf-8");
-        console.log(`✅ Injected bilingual recaps into site JSON: ${webPath}`);
+        // edges
+        zChart.edges.forEach((zEdge) => {
+            if (zEdge.data!.day !== undefined && zEdge.data!.day !== dayIndex)
+                return;
+            const wEdge = wChart.edges.find((e) => e.id === zEdge.id);
+            if (wEdge) {
+                if (zEdge.data!.content) wEdge.data!.content = zEdge.data!.content;
+                if (zEdge.data!.title !== undefined) {
+                    wEdge.data!.title = zEdge.data!.title;
+                }
+            }
+        });
+    });
+
+    await fs.writeFile(
+        webPath,
+        JSON.stringify(webJson, null, 2),
+        "utf-8",
+    );
+    console.log(
+        `✅ Injected bilingual recaps into site JSON: ${webPath}`,
+    );
     }
 }
+
 
 async function main() {
     const recapDataPath = path.resolve(process.cwd(), "recap-data");
