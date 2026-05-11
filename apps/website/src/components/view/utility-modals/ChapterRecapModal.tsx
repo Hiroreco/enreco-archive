@@ -290,6 +290,7 @@ const ChapterRecapModal = ({
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 className="md:max-w-[1200px] h-[90dvh] max-h-none max-w-none w-[95vw] overflow-hidden transition-all"
+                showXButton={true}
             >
                 <VisuallyHidden>
                     <DialogHeader>
@@ -303,7 +304,7 @@ const ChapterRecapModal = ({
                     </DialogDescription>
                 </VisuallyHidden>
 
-                <div className="h-[95%] w-full flex flex-col">
+                <div className="h-full w-full flex flex-col">
                     <ChapterRecapToolbar
                         currentChapter={chapter}
                         currentSection={currentSection}
@@ -317,10 +318,7 @@ const ChapterRecapModal = ({
                     />
 
                     {/* Scrollable viewport for double-spread */}
-                    <div
-                        className="overflow-hidden flex-1 relative"
-                        ref={contentRef}
-                    >
+                    <div className="overflow-hidden flex-1 relative" ref={contentRef}>
                         {/* Vertical separator between pages */}
                         <div
                             className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-border/50 transform -translate-x-1/2 pointer-events-none z-10 transition-opacity duration-[100ms]"
@@ -349,26 +347,19 @@ const ChapterRecapModal = ({
                                             msOverflowStyle: "none",
                                         }}
                                     >
-                                        {useMemo(
-                                            () => (
-                                                <div>
-                                                    <ViewMarkdown
-                                                        className="px-4"
-                                                        // Each column's content gets internal padding
-                                                        // This creates visual breathing room without affecting scrollWidth
-                                                        onNodeLinkClicked={() => {}}
-                                                        onEdgeLinkClicked={() => {}}
-                                                    >
-                                                        {
-                                                            data.chapters[
-                                                                chapter
-                                                            ].content
-                                                        }
-                                                    </ViewMarkdown>
-                                                </div>
-                                            ),
-                                            [chapter, data.chapters],
-                                        )}
+                                        {useMemo(() => (
+                                            <div>
+                                                <ViewMarkdown
+                                                    className="px-4"
+                                                    // Each column's content gets internal padding
+                                                    // This creates visual breathing room without affecting scrollWidth
+                                                    onNodeLinkClicked={() => { }}
+                                                    onEdgeLinkClicked={() => { }}
+                                                >
+                                                    {data.chapters[chapter].content}
+                                                </ViewMarkdown>
+                                            </div>
+                                        ), [chapter, data.chapters])}
                                     </div>
                                 </div>
                             </motion.div>
@@ -376,41 +367,33 @@ const ChapterRecapModal = ({
                     </div>
 
                     {/* Pagination Controls */}
-                    <div className="grid grid-rows-1 grid-cols-3 px-2 border-t pt-2">
-                        <div className="flex flex-row justify-start">
-                            <Button
-                                variant="outline"
-                                size="sm"
-                                onClick={goToPreviousPage}
-                                disabled={currentPage === 0}
-                                className="w-fit"
-                            >
-                                <ChevronLeft className="w-4 h-4 mr-1" />
-                                {t("previous")}
-                            </Button>
-                        </div>
+                    <div className="flex items-center justify-between px-4 border-t pt-2">
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={goToPreviousPage}
+                            disabled={currentPage === 0}
+                        >
+                            <ChevronLeft className="w-4 h-4 mr-1" />
+                            {t("previous")}
+                        </Button>
 
-                        <div className="flex flex-row justify-center items-center">
-                            <span className="text-sm text-muted-foreground">
-                                {t("page", { val: currentPage + 1 })}
-                            </span>
-                        </div>
+                        <span className="text-sm text-muted-foreground">
+                            {t("page", { val: currentPage + 1 })}
+                        </span>
 
-                        <div className="flex flex-row justify-end">
-                            <Button
-                                variant="outline"
-                                size="sm"
-                                onClick={goToNextPage}
-                                disabled={!canScrollRight}
-                                className="w-fit"
-                            >
-                                {t("next")}
-                                <ChevronRight className="w-4 h-4 ml-1" />
-                            </Button>
-                        </div>
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={goToNextPage}
+                            disabled={!canScrollRight}
+                        >
+                            {t("next")}
+                            <ChevronRight className="w-4 h-4 ml-1" />
+                        </Button>
                     </div>
                 </div>
-                <div className="h-[5%] md:w-[50%] absolute bottom-20 md:bottom-5 flex justify-center left-0 md:left-[50%] right-0 px-10 transform-[translateX(-50%)]">
+                <div className="md:hidden absolute bottom-20 flex justify-center left-0 right-0 px-10">
                     <Button
                         className="bg-accent text-accent-foreground w-full"
                         onClick={() => onOpenChange(false)}
