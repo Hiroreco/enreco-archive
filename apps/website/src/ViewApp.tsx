@@ -381,6 +381,15 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
 
+    // If this is the user's first time here, show the info modal.
+    // Yes this useEffect runs on each render but there is no better way to
+    // do this, and thankfully it is a pretty light useEffect.
+    useEffect(() => {
+        if (!hasVisitedBefore && !isInLoadingScreen) {
+            openInfoModal();
+        }
+    });
+
     // When chapter changes, center the chart.
     useEffect(() => {
         if (chartRef.current !== null) {
