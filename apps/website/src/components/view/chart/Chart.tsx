@@ -1,14 +1,12 @@
 "use client";
 
-import {
-    FixedEdgeType,
-    ImageNodeType,
-} from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import {
     ConnectionMode,
     EdgeMouseHandler,
     NodeMouseHandler,
     ReactFlow,
+    ReactFlowInstance,
     Rect,
     useReactFlow,
 } from "@xyflow/react";
@@ -146,6 +144,7 @@ interface Props {
 
 export interface ChartInstance {
     chartFitView: (element: ImageNodeType | FixedEdgeType | null, padding: number, offsetRight: number) => void;
+    chartInitialized: () => boolean;
 }
 
 function Chart({
@@ -165,7 +164,7 @@ function Chart({
     const topLeftNode = useMemo(() => findTopLeftNode(nodes), [nodes]);
     const bottomRightNode = useMemo(() => findBottomRightNode(nodes), [nodes]);
 
-    const { getNode, getNodes, getEdges, setViewport } = useReactFlow<ImageNodeType, FixedEdgeType>();
+    const { getNode, getNodes, getEdges, setViewport, viewportInitialized } = useReactFlow<ImageNodeType, FixedEdgeType>();
     const chartDiv = useRef<HTMLDivElement>(null);
 
     const isMobile = useIsMobileViewport();
@@ -209,8 +208,11 @@ function Chart({
 
                 setViewport(newViewport, { duration: 1000 });
             },
+            chartInitialized: () => {
+                return viewportInitialized;
+            }
         }),
-        [minZoom, getNode, getNodes, getEdges, setViewport],
+        [minZoom, getNode, getNodes, getEdges, setViewport, viewportInitialized],
     );
 
     const translateExtent = useMemo(() => {
@@ -249,6 +251,15 @@ function Chart({
         [renderDimly],
     );
 
+    function chartInit(inst: ReactFlowInstance<ImageNodeType, FixedEdgeType>) {
+        inst.fitBounds(
+            getBoundingBox(inst.getNodes(), inst.getEdges()),
+            {
+                padding: 0.5
+            }
+        )
+    }
+
     return (
         <ReactFlow
             // Make nodes not draggable and not connectable
@@ -262,8 +273,6 @@ function Chart({
             edges={edges}
             nodeTypes={nodeTypes}
             edgeTypes={edgeTypes}
-            fitView
-            fitViewOptions={initialFitViewOptions}
             onNodeClick={onNodeClickHandler}
             onEdgeClick={onEdgeClickHandler}
             onPaneClick={onPaneClick}
@@ -273,6 +282,7 @@ function Chart({
             translateExtent={translateExtent}
             className={reactFlowClassnames}
             ref={chartDiv}
+            onInit={chartInit}
         />
     );
 }
