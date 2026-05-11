@@ -305,8 +305,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     /* VaulDrawer event handlers */
     function onDrawerFullyClosed() {
-        deselectElement();
-        clearCard();
+
     }
 
     function onDrawerOpenWidthChange(width: number) {
@@ -370,6 +369,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         setDrawerOpen(false);
         setChartShrink(0);
         disableWidthChange.current = true;
+        deselectElement();
+        clearCard();
 
         if (chartRef.current !== null && autoPanBack) {
             chartRef.current.chartFitView(null, NORMAL_PADDING, 0);
