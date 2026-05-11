@@ -310,14 +310,18 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     }
 
     function onDrawerOpenWidthChange(width: number) {
+        let actualChartOffset = 0;
+        if(!isMobile) {
+            setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
+            actualChartOffset = width + 56;
+        }
+
         if (
             currentCard !== null &&
-            !isMobile &&
             !disableWidthChange.current &&
             chartRef.current !== null
         ) {
-            setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
-            chartRef.current.chartFitView(selectedElement, CARD_OPEN_PADDING, width + 56);
+            chartRef.current.chartFitView(selectedElement, CARD_OPEN_PADDING, actualChartOffset);
         }
     }
 
