@@ -65,5 +65,22 @@ export const opinionRestChoice: Choice = {
       talent: "mococo",
       text: { en: "Cuddle Fuwawa and watch movies.", ja: "フワワと抱きしめてながら映画を見る。" },
     },
+    {
+      talent: "liz",
+      text: { en: "Cuddle Fuwawa and watch movies.", ja: "フワワと抱きしめてながら映画を見る。" },
+    },
+    {
+      talent: "cecilia",
+      text: { en: "Cuddle Fuwawa and watch movies.", ja: "フワワと抱きしめてながら映画を見る。" },
+    },
+    {
+      talent: "gigi",
+      text: { en: "Cuddle Fuwawa and watch movies.", ja: "フワワと抱きしめてながら映画を見る。" },
+    },
+    {
+      talent: "raora",
+      text: { en: "Cuddle Fuwawa and watch movies.", ja: "フワワと抱きしめてながら映画を見る。" },
+    },
+    
   ],
 };

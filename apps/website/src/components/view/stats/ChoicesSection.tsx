@@ -3,8 +3,10 @@ import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { useSettingStore } from "@/store/settingStore";
 import {
     Dialog,
+    DialogClose,
     DialogContent,
     DialogDescription,
+    DialogFooter,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
 import { useTranslations } from "next-intl";
@@ -12,6 +14,7 @@ import { useState } from "react";
 import { talentById, TRACKER_DATA } from "./data";
 import { MemberAvatar } from "./MemberAvatar";
 import type { Choice, ChoiceType, LocalizedString } from "./types";
+import { Button } from "@enreco-archive/common-ui/components/button";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -66,6 +69,7 @@ function OpinionModal({
     open: boolean;
     onOpenChange: (open: boolean) => void;
 }) {
+    const tCommon = useTranslations("common");
     const locale = useSettingStore((state) => state.locale);
     const opinions = choice.opinions ?? [];
 
@@ -107,6 +111,11 @@ function OpinionModal({
                         );
                     })}
                 </div>
+                <DialogFooter className="border-t pt-2">
+                    <DialogClose asChild>
+                        <Button>{tCommon("close")}</Button>
+                    </DialogClose>
+                </DialogFooter>
             </DialogContent>
         </Dialog>
     );
@@ -205,7 +214,7 @@ function ChoiceCard({ choice }: { choice: Choice }) {
     const locale = useSettingStore((state) => state.locale);
     return (
         <div className="border rounded-xl p-4 flex flex-col gap-3">
-            <TypeBadge type={choice.type} />
+            {/* <TypeBadge type={choice.type} /> */}
             <p className="text-sm font-medium leading-snug">
                 {getLocalizedText(choice.question, locale)}
             </p>

@@ -19,7 +19,6 @@ interface MemberDotProps {
 
 export function MemberDot({ talent, accentColor, size = 20 }: MemberDotProps) {
     const locale = useSettingStore((state) => state.locale);
-    const [imgError, setImgError] = useState(false);
     const color = accentColor ?? talent.color;
     const talentName = getLocalizedText(talent.name, locale);
 
@@ -32,26 +31,15 @@ export function MemberDot({ talent, accentColor, size = 20 }: MemberDotProps) {
                 className="w-full h-full rounded-full overflow-hidden flex items-center justify-center border"
                 style={{
                     borderColor: `${color}66`,
-                    background: imgError ? `${color}22` : undefined,
                 }}
             >
-                {!imgError ? (
-                    <Image
-                        src={talent.image}
-                        alt={talentName}
-                        width={size}
-                        height={size}
-                        className="w-full h-full object-cover"
-                        onError={() => setImgError(true)}
-                    />
-                ) : (
-                    <span
-                        className="font-medium select-none leading-none"
-                        style={{ fontSize: size * 0.35, color }}
-                    >
-                        {talent.initials}
-                    </span>
-                )}
+                <Image
+                    src={talent.image}
+                    alt={talentName}
+                    width={size}
+                    height={size}
+                    className="w-full h-full object-cover"
+                />
             </div>
 
             {/* Tooltip */}
