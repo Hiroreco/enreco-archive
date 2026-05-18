@@ -1,6 +1,8 @@
 import {
     Dialog,
+    DialogClose,
     DialogContent,
+    DialogFooter,
     DialogHeader,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
@@ -17,6 +19,8 @@ import { ContinuousSection } from "@/components/view/stats/ContinuousSection";
 import { TeamsSection } from "@/components/view/stats/TeamSection";
 import { TOTAL_DAYS, TRACKER_DATA } from "@/components/view/stats/data";
 import { useTranslations } from "next-intl";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
+import { Button } from "@enreco-archive/common-ui/components/button";
 
 interface StatsModalProps {
     open: boolean;
@@ -52,9 +56,11 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
 
     return (
         <Dialog open={open} onOpenChange={onClose}>
-            <DialogContent showXButton showXButtonForce className="max-w-4xl">
-                <DialogHeader className="flex flex-row items-start justify-between">
-                    <DialogTitle>{t("title")}</DialogTitle>
+            <DialogContent className="max-w-4xl">
+                <DialogHeader className="flex flex-row items-end justify-between border-b pb-2">
+                    <DialogTitle asChild>
+                        <div className="text-xl font-bold">{t("title")}</div>
+                    </DialogTitle>
                     <div className="flex items-center gap-2.5">
                         <Select
                             value={day.toString()}
@@ -76,7 +82,7 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                         </Select>
                     </div>
                 </DialogHeader>
-                <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4  max-h-[80dvh] overflow-y-auto">
+                <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 max-h-[80dvh] overflow-y-auto">
                     <TeamsSection teams={data.teams} currentDay={day} />
                     <ContinuousSection
                         continuous={data.continuous}
@@ -85,6 +91,11 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                     />
                     <ChoicesSection choices={data.choices} currentDay={day} />
                 </div>
+                <DialogFooter className="border-t pt-2">
+                    <DialogClose asChild>
+                        <Button>{tCommon("close")}</Button>
+                    </DialogClose>
+                </DialogFooter>
             </DialogContent>
         </Dialog>
     );
