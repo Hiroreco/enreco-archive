@@ -62,6 +62,7 @@ const BingoPreviewDialog = ({
                 <DialogContent
                     className="bg-transparent border-0 p-0 max-w-none w-screen h-screen flex items-center justify-center gap-2"
                     style={{ backgroundImage: "none" }}
+                    showXButton={false}
                     onPointerDownOutside={(e) => e.preventDefault()}
                     onInteractOutside={(e) => e.preventDefault()}
                 >
@@ -137,8 +138,7 @@ const BingoPreviewDialog = ({
             )}
             {isMobile && (
                 <DialogContent
-                    showXButtonForce
-                    showXButton
+                    showXButton={false}
                     className="flex flex-col justify-center px-1 md:hidden"
                 >
                     <VisuallyHidden>
@@ -193,6 +193,11 @@ const BingoPreviewDialog = ({
                             <Download className="size-4 mr-2" />
                             {t("download")}
                         </Button>
+                        <DialogClose asChild>
+                            <Button size="sm">
+                                {tCommon("close")}
+                            </Button>
+                        </DialogClose>
                     </div>
                 </DialogContent>
             )}

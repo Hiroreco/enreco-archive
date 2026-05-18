@@ -56,7 +56,7 @@ const BingoApp = () => {
                     <p className="text-sm text-muted-foreground">{t("desc")}</p>
                 </div>
 
-                <div className="absolute md:top-0 bottom-0 md:right-4 right-16 h-[120px] overflow-hidden md:rotate-x-180">
+                <div className="absolute md:top-0 bottom-10 md:right-4 right-0 h-[120px] overflow-hidden rotate-270 md:rotate-x-180">
                     <Image
                         width={100}
                         height={100}
@@ -71,7 +71,7 @@ const BingoApp = () => {
                             },
                         )}
                         onClick={handleClick}
-                        alt="potato salid"
+                        alt=""
                         priority={true}
                     />
                 </div>
