@@ -9,9 +9,9 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import { useTranslations } from "next-intl";
 
-export type BingoWinStyle = "crack" | "outline" | "line";
+export type BingoWinStyle = "crack" | "outline" | "line" | "none"
 
-export const BINGO_WIN_OPTIONS: BingoWinStyle[] = ["crack", "outline", "line"];
+export const BINGO_WIN_OPTIONS: BingoWinStyle[] = ["crack", "outline", "line", "none"];
 
 interface BingoWinSelectorProps {
     value: BingoWinStyle;

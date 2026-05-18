@@ -114,6 +114,7 @@ const BingoExport = ({
         ),
         outline: ({ cell }) => cell,
         line: ({ cell }) => cell,
+        none: ({ cell }) => cell,
     };
 
     const cellSizeForLinesCalculation = isMobile ? (downloadMode ? 83.5 : 68.5) : 96;

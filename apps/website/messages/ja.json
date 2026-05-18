@@ -266,7 +266,8 @@
                     "winOptionValues": {
                         "crack": "割れたセル",
                         "outline": "アウトライン",
-                        "line": "ラインスルー"
+                        "line": "ラインスルー",
+                        "none": "なし"
                     }
                 }
             }

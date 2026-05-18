@@ -268,7 +268,8 @@
                     "winOptionValues": {
                         "crack": "Cracked Cell",
                         "outline": "Outlined Cell",
-                        "line": "Line Through"
+                        "line": "Line Through",
+                        "none": "None"
                     }
                 }
             }
