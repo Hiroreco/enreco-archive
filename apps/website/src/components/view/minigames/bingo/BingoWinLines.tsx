@@ -44,6 +44,7 @@ const BingoWinLines = ({
                 inset: 0,
                 pointerEvents: "none",
                 zIndex: 10,
+                opacity: 0.8,
             }}
             width={total}
             height={total}

@@ -87,13 +87,13 @@ const BingoExport = ({
                         "size-full flex flex-col justify-center text-center px-2 leading-tight font-bold",
                         "whitespace-pre-wrap break-words relative",
                     )}
-                    style={getTextStyle(text, isMobile)}
+                    style={getTextStyle(text, isMobile, downloadMode)}
                 >
                     {text}
                 </div>
             </div>
         );
-    };
+    }; 
 
     const WIN_RENDERERS: Record<
         BingoWinStyle,
@@ -116,6 +116,8 @@ const BingoExport = ({
         line: ({ cell }) => cell,
     };
 
+    const cellSizeForLinesCalculation = isMobile ? (downloadMode ? 83.5 : 68.5) : 96;
+
     return (
         <div className="relative flex flex-col items-center justify-center py-4 px-2">
             {/* bg */}
@@ -130,7 +132,10 @@ const BingoExport = ({
                 alt="Background"
                 height={40}
                 width={100}
-                className="md:h-45 h-35 w-auto object-cover mx-auto"
+                className={cn("md:h-45 h-35 w-auto object-cover mx-auto", {
+                    "h-45": downloadMode,
+                })}
+                
             />
             <div className="relative">
                 {showDay && (
@@ -156,9 +161,7 @@ const BingoExport = ({
                         <>
                             <BingoWinLines
                                 marked={marked}
-                                cellSize={
-                                    isMobile ? (downloadMode ? 96 : 60) : 96
-                                }
+                                cellSize={cellSizeForLinesCalculation}
                                 gap={4}
                             />
                         </>
