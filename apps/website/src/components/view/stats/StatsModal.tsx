@@ -21,6 +21,7 @@ import { TOTAL_DAYS, TRACKER_DATA } from "@/components/view/stats/data";
 import { useTranslations } from "next-intl";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
 import { Button } from "@enreco-archive/common-ui/components/button";
+import StatsInfoModal from "@/components/view/stats/StatsInfoModal";
 
 interface StatsModalProps {
     open: boolean;
@@ -59,7 +60,12 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
             <DialogContent className="max-w-4xl">
                 <DialogHeader className="flex flex-row items-end justify-between border-b pb-2">
                     <DialogTitle asChild>
-                        <div className="text-xl font-bold">{t("title")}</div>
+                        <div className="flex items-center gap-2">
+                            <div className="text-xl font-bold">
+                                {t("title")}
+                            </div>
+                            <StatsInfoModal />
+                        </div>
                     </DialogTitle>
                     <div className="flex items-center gap-2.5">
                         <Select

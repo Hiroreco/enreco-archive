@@ -392,7 +392,7 @@
             }
         },
         "stats": {
-            "title": "Stats for nerds",
+            "title": "Daily Records",
             "noDataForDay": "No data yet for Day {day}",
             "changes": "Changes",
             "everyone": "Everyone",
@@ -412,7 +412,11 @@
                 "multi": "Multiple choice",
                 "opinion": "Open opinion"
             },
-            "moreResponses": "+{count} more responses"
+            "moreResponses": "+{count} more responses",
+            "info": {
+                "text1": "This is where you can view the decisions and answers made by the heroes to the questions they are asked each day throughout Chapter 3, along with the teams they belong to",
+                "text2": "You can also track how their choices change over time, as the heroes may change their minds on certain matters as the days progress"
+            }
         }
     },
     "cards": {
