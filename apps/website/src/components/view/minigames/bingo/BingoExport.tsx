@@ -76,7 +76,7 @@ const BingoExport = ({
                         fill
                         alt=""
                         className={cn(
-                            "absolute p-0.75 inset-0 pointer-events-none opacity-30",
+                            "absolute p-2 inset-0 pointer-events-none opacity-30",
                             bingoMarkerStyle !== "emblem" && "opacity-40",
                         )}
                         style={{ zIndex: 0 }}
