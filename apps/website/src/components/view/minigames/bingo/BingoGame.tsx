@@ -21,6 +21,7 @@ import { useRef } from "react";
 export const getTextStyle = (
     text: string,
     isMobile: boolean = false,
+    downloadMode: boolean = false,
 ): React.CSSProperties => {
     const words = text.split(/[\s\n]+/).filter((word) => word.length > 0);
     const longestWord = Math.max(...words.map((word) => word.length), 0);
@@ -35,7 +36,7 @@ export const getTextStyle = (
     const hasManyLines = lineCount > 3;
     const isLongText = totalLength > 40;
 
-    const sizing = isMobile
+    const sizing = isMobile && !downloadMode
         ? {
               // Mobile (64px squares) - tighter sizing
               veryLong: "clamp(0.625rem, 2.5cqw, 0.75rem)",

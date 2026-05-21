@@ -6,7 +6,6 @@ export interface LocalizedString {
 export interface Talent {
   id: string;
   name: LocalizedString;
-  initials: string;
   color: string;
   image: string;
 }

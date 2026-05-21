@@ -38,26 +38,14 @@ export function MemberAvatar({
                     background: imgError ? `${talent.color}22` : undefined,
                 }}
             >
-                {!imgError ? (
-                    <Image
-                        src={talent.image}
-                        alt={talentName}
-                        width={size}
-                        height={size}
-                        className="w-full h-full object-cover"
-                        onError={() => setImgError(true)}
-                    />
-                ) : (
-                    <span
-                        className="font-medium select-none"
-                        style={{
-                            fontSize: size * 0.28,
-                            color: talent.color,
-                        }}
-                    >
-                        {talent.initials}
-                    </span>
-                )}
+                <Image
+                    src={talent.image}
+                    alt={talentName}
+                    width={size}
+                    height={size}
+                    className="w-full h-full object-cover"
+                    onError={() => setImgError(true)}
+                />
             </div>
 
             {showTooltip && (

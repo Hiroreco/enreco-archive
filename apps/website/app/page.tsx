@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         site: "@enrecoarchive",
         creator: "@hiroavrs",
         card: "summary_large_image",
-        images: "https://www.enreco-archive.net/embed-1.png",
+        images: "https://www.enreco-archive.net/embed-2.png",
     },
     openGraph: {
         type: "website",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
             "Welcome to ENreco Archive! A fan project dedicated to archiving (almost) everything that transpired during the events of ENigmatic Recollection. From daily recaps and character relationships to major storylines, everything is compiled neatly for those looking to catch up on the series or simply relive their favorite moments.",
         siteName: "ENreco Archive",
         images: {
-            url: "https://www.enreco-archive.net/embed-1.png",
+            url: "https://www.enreco-archive.net/embed-2.png",
         },
         locale: "en_US",
     },
