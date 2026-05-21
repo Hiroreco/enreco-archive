@@ -267,25 +267,13 @@ const VideoArchiveCard = ({ className, bgImage }: VideoArchiveCardProps) => {
                                         </div>
                                         <div className="grid md:grid-cols-3 gap-2 auto-rows-fr">
                                             {entries.map((entry, index) => {
-                                                const isLastAndOdd =
-                                                    index ===
-                                                        entries.length - 1 &&
-                                                    entries.length % 2 !== 0;
                                                 return (
-                                                    <div
-                                                        key={entry.id}
-                                                        className={
-                                                            isLastAndOdd
-                                                                ? "col-span-2 flex justify-center"
-                                                                : ""
-                                                        }
-                                                    >
+                                                    <div key={entry.id}>
                                                         <div
                                                             className={cn(
                                                                 "h-full",
-                                                                isLastAndOdd
-                                                                    ? "w-1/2"
-                                                                    : "w-full",
+
+                                                                "w-full",
                                                             )}
                                                         >
                                                             <VideoArchiveSelector

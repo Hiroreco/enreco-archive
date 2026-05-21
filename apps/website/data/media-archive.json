@@ -1185,6 +1185,81 @@
     ]
   },
   {
+    "id": "c3-merchc3",
+    "title": {
+      "en": "Official Merchandise - Chapter 3",
+      "ja": "公式グッズ - 第3章"
+    },
+    "description": {
+      "en": "Official merchandise for Chapter 3",
+      "ja": "第3章の公式グッズ"
+    },
+    "info": {
+      "en": "### Description\n\nThe official merchandise released for Chapter 3: Broken Bonds, including newly illustrated acrylic stands, collection cards of Advent, as well as a rubber mat with the chapter's key visual.",
+      "ja": "### Description\n\n第3章「Broken Bonds」にて発売された公式グッズ。新規描き下ろしイラストを使用したアクリルスタンドや、Adventのコレクションカード、さらにチャプターのキービジュアルを使用したラバーマットなどがラインナップされた。"
+    },
+    "chapter": 3,
+    "thumbnailUrl": "/images-opt/c3-merchc3-logo-opt.webp",
+    "entries": [
+      {
+        "title": {
+          "en": "hololive English \"ENigmatic Recollection\" Chapter 3 Commemoration Merch",
+          "ja": "公式グッズ - 第3章"
+        },
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter3",
+        "thumbnailUrl": "/images-opt/c3-merchc3-logo-opt.webp",
+        "info": {
+          "en": "",
+          "ja": ""
+        },
+        "src": "/images-opt/c3-merchc3-logo-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": {
+          "en": "Acrylic Stand Mini Character ver. (5 Types)",
+          "ja": "アクリルスタンド ミニキャラクターver.（全5種）"
+        },
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter3",
+        "thumbnailUrl": "/images-opt/c3-merchc3-acrylic-opt.webp",
+        "info": {
+          "en": "",
+          "ja": ""
+        },
+        "src": "/images-opt/c3-merchc3-acrylic-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": {
+          "en": "Rubber Mat",
+          "ja": "ラバーマット"
+        },
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter3",
+        "thumbnailUrl": "/images-opt/c3-merchc3-rubber-opt.webp",
+        "info": {
+          "en": "",
+          "ja": ""
+        },
+        "src": "/images-opt/c3-merchc3-rubber-opt.webp",
+        "type": "image"
+      },
+      {
+        "title": {
+          "en": "Collection Cards (5 types)",
+          "ja": "コレクションカード（全5種）"
+        },
+        "originalUrl": "https://shop.hololivepro.com/en/products/hololiveen_enigmaticrecollection_chapter3",
+        "thumbnailUrl": "/images-opt/c3-merchc3-card-opt.webp",
+        "info": {
+          "en": "",
+          "ja": ""
+        },
+        "src": "/images-opt/c3-merchc3-card-opt.webp",
+        "type": "image"
+      }
+    ]
+  },
+  {
     "id": "c3-misc",
     "title": {
       "en": "Miscellaneous - Chapter 3",
@@ -1228,6 +1303,20 @@
         },
         "src": "/images-opt/c3-misc-prison-opt.webp",
         "type": "image"
+      },
+      {
+        "title": {
+          "en": "ENigmatic Recollection Chapter 3 Teaser",
+          "ja": "ENigmatic Recollection 第3章 ティザー"
+        },
+        "originalUrl": "https://www.youtube.com/watch?v=5I9UZAUW6qc",
+        "thumbnailUrl": "/images-opt/c3-misc-trailer-opt.webp",
+        "info": {
+          "en": "The trailer for ENigmatic Recollection Chapter 3: Broken Bonds, annoucing the event would take place on May 24-29 PDT, 2026.",
+          "ja": "ENigmatic Recollection 第3章「Broken Bonds」のティザー映像。イベントが2026年5月24日～29日（PDT）に開催されることが発表された。"
+        },
+        "src": "https://www.youtube.com/watch?v=5I9UZAUW6qc",
+        "type": "youtube"
       }
     ]
   }
