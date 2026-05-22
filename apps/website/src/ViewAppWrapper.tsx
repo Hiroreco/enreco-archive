@@ -253,19 +253,19 @@ export const ViewAppWrapper = () => {
                                     icon: <Film size={24} />,
                                     label: tApp("mediaArchive"),
                                 },
-                                // {
-                                //     value: "bingo",
-                                //     icon: (
-                                //         <Image
-                                //             src="/images-opt/bingo-logo-opt.webp"
-                                //             alt="Bingo"
-                                //             height={24}
-                                //             width={24}
-                                //             className="size-6 object-contain"
-                                //         />
-                                //     ),
-                                //     label: tApp("bingo"),
-                                // },
+                                {
+                                    value: "bingo",
+                                    icon: (
+                                        <Image
+                                            src="/images-opt/bingo-logo-opt.webp"
+                                            alt="Bingo"
+                                            height={24}
+                                            width={24}
+                                            className="size-6 object-contain"
+                                        />
+                                    ),
+                                    label: tApp("bingo"),
+                                },
                             ].map(({ value, icon, label }) => (
                                 <HoverTabTrigger
                                     key={value}

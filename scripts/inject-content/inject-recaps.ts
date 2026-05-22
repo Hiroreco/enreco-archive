@@ -186,10 +186,18 @@ async function processChapter(chapterNum: number) {
                         // Set the appropriate locale
                         (nd.data.content as LocalizedString)[locale] = content;
 
-                        // Title and status only set once (use English as source of truth)
-                        if (locale === "en") {
-                            if (title) nd.data.title = title;
-                            if (status) nd.data.status = status;
+                        if (title) {
+                            if (!isLocalizedString(nd.data.title)) {
+                                nd.data.title = { en: "", ja: "" } as any;
+                            }
+                            (nd.data.title as any)[locale] = title;
+                        }
+
+                        if (status) {
+                            if (!isLocalizedString(nd.data.status)) {
+                                nd.data.status = { en: "", ja: "" } as any;
+                            }
+                            (nd.data.status as any)[locale] = status;
                         }
 
                         seenNodes.add(nd.id);
@@ -281,9 +289,15 @@ async function processChapter(chapterNum: number) {
                         // Set the appropriate locale
                         (ed.data!.content as LocalizedString)[locale] = content;
 
-                        // Title and relationship only set once (use English as source of truth)
+                        if (title) {
+                            if (!isLocalizedString(ed.data!.title)) {
+                                ed.data!.title = { en: "", ja: "" } as any;
+                            }
+                            (ed.data!.title as any)[locale] = title;
+                        }
+
+                        // Relationship only set once (use English as source of truth)
                         if (locale === "en") {
-                            if (title) ed.data!.title = title;
                             if (relationship) {
                                 const relId = Object.keys(
                                     localeChapterJson.relationships,
