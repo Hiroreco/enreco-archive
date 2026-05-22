@@ -263,7 +263,9 @@
                         "scarlet-wand": "Scarlet Wand",
                         "cerulean-cup": "Cerulean Cup",
                         "jade-sword": "Jade Sword",
-                        "amber-coin": "Amber Coin"
+                        "amber-coin": "Amber Coin",
+                        "ring": "Ring",
+                        "none": "None"
                     },
                     "winOptionValues": {
                         "crack": "Cracked Cell",

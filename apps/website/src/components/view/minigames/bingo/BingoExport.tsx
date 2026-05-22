@@ -69,17 +69,29 @@ const BingoExport = ({
                     })}
                     style={{ zIndex: 5 }}
                 />
-                {isMarked && (
-                    <Image
-                        src={BINGO_MARKER_IMAGE_MAP[bingoMarkerStyle]}
-                        fill
-                        alt=""
-                        className={cn(
-                            "absolute p-2 inset-0 pointer-events-none opacity-30",
-                            bingoMarkerStyle !== "emblem" && "opacity-40",
-                        )}
-                        style={{ zIndex: 0 }}
-                    />
+                {isMarked &&
+                    bingoMarkerStyle !== "ring" &&
+                    bingoMarkerStyle !== "none" && (
+                        <Image
+                            src={BINGO_MARKER_IMAGE_MAP[bingoMarkerStyle]}
+                            fill
+                            alt=""
+                            className={cn(
+                                "absolute p-2 inset-0 pointer-events-none opacity-30",
+                                bingoMarkerStyle !== "emblem" && "opacity-40",
+                            )}
+                            style={{ zIndex: 0 }}
+                        />
+                    )}
+                {isMarked && bingoMarkerStyle === "ring" && (
+                    <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+                        <div
+                            className={cn(
+                                "w-[90%] h-[90%] rounded-full border-[6px] md:border-8 border-red-500 opacity-80",
+                            )}
+                            style={{ zIndex: 0 }}
+                        />
+                    </div>
                 )}
                 <div
                     className={cn(
