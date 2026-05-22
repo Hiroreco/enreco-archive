@@ -1,6 +1,6 @@
 <!-- title: Official Merchandise - Chapter 1 -->
 <!-- entries: merch-commemoration, merch-general, merch-cloak, merch-new-collection, merch-voicepack -->
-<!-- description: Official theme and animation made for Chapter 1 -->
+<!-- description: Official merchandise made for Chapter 1 -->
 <!-- thumbnail: merch-commemoration -->
 
 ### Description
