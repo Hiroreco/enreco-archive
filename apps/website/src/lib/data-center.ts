@@ -188,8 +188,24 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chap
                 // Extract locale-specific node content if it's localized
                 if (node.data?.content && typeof node.data.content === 'object' && node.data.content[locale]) {
                     processedNode.data = {
-                        ...node.data,
+                        ...processedNode.data,
                         content: node.data.content[locale],
+                    };
+                }
+
+                // Extract locale-specific node title if it's localized
+                if (node.data?.title && typeof node.data.title === 'object' && node.data.title[locale]) {
+                    processedNode.data = {
+                        ...processedNode.data,
+                        title: node.data.title[locale],
+                    };
+                }
+
+                // Extract locale-specific node status if it's localized
+                if (node.data?.status && typeof node.data.status === 'object' && node.data.status[locale]) {
+                    processedNode.data = {
+                        ...processedNode.data,
+                        status: node.data.status[locale],
                     };
                 }
                 
@@ -208,8 +224,16 @@ const convertLocalizedChapter = (chapter: LocalizedChapter, locale: Locale, chap
                 // Extract locale-specific edge content if it's localized
                 if (edge.data?.content && typeof edge.data.content === 'object' && edge.data.content[locale]) {
                     processedEdge.data = {
-                        ...edge.data,
+                        ...processedEdge.data,
                         content: edge.data.content[locale],
+                    };
+                }
+
+                // Extract locale-specific edge title if it's localized
+                if (edge.data?.title && typeof edge.data.title === 'object' && edge.data.title[locale]) {
+                    processedEdge.data = {
+                        ...processedEdge.data,
+                        title: edge.data.title[locale],
                     };
                 }
                 
