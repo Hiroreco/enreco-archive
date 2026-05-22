@@ -43,7 +43,7 @@ const BingoExport = ({
                     downloadMode ? "size-24" : "size-20 md:size-24",
                     index % 2 === 0
                         ? "bg-white text-[#444444]"
-                        : "bg-[#524f4f] text-white",
+                        : "bg-[#615952] text-white",
                 )}
                 style={{
                     containerType: "size",
@@ -129,7 +129,7 @@ const BingoExport = ({
                 src="images-opt/bingo-bg-opt.webp"
                 alt="Background"
                 fill
-                className="absolute -z-10 opacity-80 inset-0 object-cover rounded-none"
+                className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none"
             />
             <Image
                 src="images-opt/bingo-logo-opt.webp"
@@ -142,7 +142,7 @@ const BingoExport = ({
             />
             <div className="relative">
                 {showDay && (
-                    <div className="bg-[#524f4f] px-2 absolute -top-5.5 left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-2 border-b-0 flex items-center justify-center h-fit">
+                    <div className="bg-[#615952] px-2 absolute -top-5.5 left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-2 border-b-0 flex items-center justify-center h-fit">
                         <span>{t("day", { val: currentDay })}</span>
                     </div>
                 )}
