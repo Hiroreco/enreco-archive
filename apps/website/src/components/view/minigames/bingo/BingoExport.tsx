@@ -43,7 +43,7 @@ const BingoExport = ({
                     downloadMode ? "size-24" : "size-20 md:size-24",
                     index % 2 === 0
                         ? "bg-white text-[#444444]"
-                        : "bg-[#669feb] text-white",
+                        : "bg-[#615952] text-white",
                 )}
                 style={{
                     containerType: "size",
@@ -62,25 +62,36 @@ const BingoExport = ({
                 )}
                 <Image
                     alt=""
-                    src={
-                        index % 2 === 0
-                            ? "images-opt/bingo_outline-opt.webp"
-                            : "images-opt/bingo_outline2-opt.webp"
-                    }
+                    src={"images-opt/bingo_outline-opt.webp"}
                     fill
-                    className="p-0.75 absolute inset-0"
+                    className={cn("p-0.75 absolute inset-0", {
+                        "opacity-40": index % 2 !== 0,
+                    })}
+                    style={{ zIndex: 5 }}
                 />
-                {isMarked && (
-                    <Image
-                        src={BINGO_MARKER_IMAGE_MAP[bingoMarkerStyle]}
-                        fill
-                        alt=""
-                        className={cn(
-                            "absolute p-2 inset-0 pointer-events-none opacity-30",
-                            bingoMarkerStyle !== "emblem" && "opacity-40",
-                        )}
-                        style={{ zIndex: 0 }}
-                    />
+                {isMarked &&
+                    bingoMarkerStyle !== "ring" &&
+                    bingoMarkerStyle !== "none" && (
+                        <Image
+                            src={BINGO_MARKER_IMAGE_MAP[bingoMarkerStyle]}
+                            fill
+                            alt=""
+                            className={cn(
+                                "absolute p-2 inset-0 pointer-events-none opacity-30",
+                                bingoMarkerStyle !== "emblem" && "opacity-40",
+                            )}
+                            style={{ zIndex: 0 }}
+                        />
+                    )}
+                {isMarked && bingoMarkerStyle === "ring" && (
+                    <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+                        <div
+                            className={cn(
+                                "w-[90%] h-[90%] rounded-full border-[6px] md:border-8 border-red-500 opacity-80",
+                            )}
+                            style={{ zIndex: 0 }}
+                        />
+                    </div>
                 )}
                 <div
                     className={cn(
@@ -93,7 +104,7 @@ const BingoExport = ({
                 </div>
             </div>
         );
-    }; 
+    };
 
     const WIN_RENDERERS: Record<
         BingoWinStyle,
@@ -117,7 +128,11 @@ const BingoExport = ({
         none: ({ cell }) => cell,
     };
 
-    const cellSizeForLinesCalculation = isMobile ? (downloadMode ? 83.5 : 68.5) : 96;
+    const cellSizeForLinesCalculation = isMobile
+        ? downloadMode
+            ? 83.5
+            : 68.5
+        : 96;
 
     return (
         <div className="relative flex flex-col items-center justify-center py-4 px-2">
@@ -126,7 +141,7 @@ const BingoExport = ({
                 src="images-opt/bingo-bg-opt.webp"
                 alt="Background"
                 fill
-                className="absolute -z-10 opacity-80 inset-0 object-cover rounded-none"
+                className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none"
             />
             <Image
                 src="images-opt/bingo-logo-opt.webp"
@@ -136,13 +151,12 @@ const BingoExport = ({
                 className={cn("md:h-45 h-35 w-auto object-cover mx-auto", {
                     "h-45": downloadMode,
                 })}
-                
             />
             <div className="relative">
                 {showDay && (
-                    <span className="bg-[#669feb] px-2 absolute -top-5 h-fit left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-1 border-b-0">
-                        {t("day", { val: currentDay })}
-                    </span>
+                    <div className="bg-[#615952] px-2 absolute -top-5.5 left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-2 border-b-0 flex items-center justify-center h-fit">
+                        <span>{t("day", { val: currentDay })}</span>
+                    </div>
                 )}
                 <div className="relative">
                     <div className="grid grid-cols-5 gap-1 mt-2">

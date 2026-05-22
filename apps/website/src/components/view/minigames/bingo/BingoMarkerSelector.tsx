@@ -14,9 +14,21 @@ export type BingoMarkerStyle =
     | "scarlet-wand"
     | "amber-coin"
     | "jade-sword"
-    | "cerulean-cup";
+    | "cerulean-cup"
+    | "ring"
+    | "none";
 
-export const BINGO_MARKER_IMAGE_MAP: Record<BingoMarkerStyle, string> = {
+export const BINGO_MARKER_OPTIONS: BingoMarkerStyle[] = [
+    "emblem",
+    "scarlet-wand",
+    "amber-coin",
+    "jade-sword",
+    "cerulean-cup",
+    "ring",
+    "none",
+];
+
+export const BINGO_MARKER_IMAGE_MAP: Record<string, string> = {
     emblem: "images-opt/emblem-opt.webp",
     "scarlet-wand": "images-opt/scarletwand-opt.webp",
     "amber-coin": "images-opt/ambercoin-opt.webp",
@@ -49,7 +61,7 @@ const BingoMarkerSelector = ({
                 <SelectValue />
             </SelectTrigger>
             <SelectContent className={cn({ "bg-blur": !isMobile })}>
-                {Object.entries(BINGO_MARKER_IMAGE_MAP).map(([key, src]) => (
+                {BINGO_MARKER_OPTIONS.map((key) => (
                     <SelectItem key={key} value={key}>
                         {t(`markerOptionValues.${key}`)}
                     </SelectItem>

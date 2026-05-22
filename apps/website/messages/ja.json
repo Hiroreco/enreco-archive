@@ -254,14 +254,16 @@
                     "resetTitle": "ボードをリセット",
                     "resetMessage": "現在のボードをリセットします。よろしいですか？",
                     "resetConfirm": "はい、クリアします",
-                    "markerOptions": "Marker Options",
-                    "winOptions": "Win Indicator Options",
+                    "markerOptions": "マーカーオプション",
+                    "winOptions": "勝利オプション",
                     "markerOptionValues": {
                         "emblem": "エンブレム",
                         "scarlet-wand": "スカーレット・ワンド",
                         "cerulean-cup": "セルリアン・カップ",
                         "jade-sword": "ジェイド・ソード",
-                        "amber-coin": "アンバー・コイン"
+                        "amber-coin": "アンバー・コイン",
+                        "ring": "リング",
+                        "none": "なし"
                     },
                     "winOptionValues": {
                         "crack": "割れたセル",
