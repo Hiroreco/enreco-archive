@@ -244,7 +244,7 @@ const InfoGuide = () => {
                             </div>
                         }
                     />
-                    <InfoGuideCard
+                    {/* <InfoGuideCard
                         title={t("bingoTitle")}
                         description={t("bingoDescription")}
                         icon={
@@ -261,7 +261,7 @@ const InfoGuide = () => {
                                 <div>{t("bingoContent2")}</div>
                             </div>
                         }
-                    />
+                    /> */}
                     <InfoGuideCard
                         title={t("settingsTitle")}
                         description={t("settingsDescription")}
