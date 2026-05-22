@@ -142,9 +142,9 @@ const BingoExport = ({
             />
             <div className="relative">
                 {showDay && (
-                    <span className="bg-[#524f4f] px-2 absolute -top-5 h-fit left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-1 border-b-0">
-                        {t("day", { val: currentDay })}
-                    </span>
+                    <div className="bg-[#524f4f] px-2 absolute -top-5.5 left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-2 border-b-0 flex items-center justify-center h-fit">
+                        <span>{t("day", { val: currentDay })}</span>
+                    </div>
                 )}
                 <div className="relative">
                     <div className="grid grid-cols-5 gap-1 mt-2">
