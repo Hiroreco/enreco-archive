@@ -43,7 +43,7 @@ const BingoExport = ({
                     downloadMode ? "size-24" : "size-20 md:size-24",
                     index % 2 === 0
                         ? "bg-white text-[#444444]"
-                        : "bg-[#669feb] text-white",
+                        : "bg-[#524f4f] text-white",
                 )}
                 style={{
                     containerType: "size",
@@ -62,13 +62,12 @@ const BingoExport = ({
                 )}
                 <Image
                     alt=""
-                    src={
-                        index % 2 === 0
-                            ? "images-opt/bingo_outline-opt.webp"
-                            : "images-opt/bingo_outline2-opt.webp"
-                    }
+                    src={"images-opt/bingo_outline-opt.webp"}
                     fill
-                    className="p-0.75 absolute inset-0"
+                    className={cn("p-0.75 absolute inset-0", {
+                        "opacity-40": index % 2 !== 0,
+                    })}
+                    style={{ zIndex: 5 }}
                 />
                 {isMarked && (
                     <Image
@@ -93,7 +92,7 @@ const BingoExport = ({
                 </div>
             </div>
         );
-    }; 
+    };
 
     const WIN_RENDERERS: Record<
         BingoWinStyle,
@@ -117,7 +116,11 @@ const BingoExport = ({
         none: ({ cell }) => cell,
     };
 
-    const cellSizeForLinesCalculation = isMobile ? (downloadMode ? 83.5 : 68.5) : 96;
+    const cellSizeForLinesCalculation = isMobile
+        ? downloadMode
+            ? 83.5
+            : 68.5
+        : 96;
 
     return (
         <div className="relative flex flex-col items-center justify-center py-4 px-2">
@@ -136,11 +139,10 @@ const BingoExport = ({
                 className={cn("md:h-45 h-35 w-auto object-cover mx-auto", {
                     "h-45": downloadMode,
                 })}
-                
             />
             <div className="relative">
                 {showDay && (
-                    <span className="bg-[#669feb] px-2 absolute -top-5 h-fit left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-1 border-b-0">
+                    <span className="bg-[#524f4f] px-2 absolute -top-5 h-fit left-0 font-[Chesterfield] text-white text-lg rounded-t-md border-white border-1 border-b-0">
                         {t("day", { val: currentDay })}
                     </span>
                 )}
