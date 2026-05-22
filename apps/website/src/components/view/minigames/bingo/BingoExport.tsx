@@ -54,7 +54,7 @@ const BingoExport = ({
                         style={{
                             position: "absolute",
                             inset: 0,
-                            border: "3px solid #fde047",
+                            border: "3px solid #e79818",
                             zIndex: 10,
                             pointerEvents: "none",
                         }}
