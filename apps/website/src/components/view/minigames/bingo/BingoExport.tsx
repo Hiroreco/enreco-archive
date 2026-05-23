@@ -8,6 +8,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { BingoWinStyle } from "@/components/view/minigames/bingo/BingoWinSelector";
 import BingoWinLines from "@/components/view/minigames/bingo/BingoWinLines";
 import useIsMobileViewport from "@/hooks/useIsMobileViewport";
+import { getBlurDataURL } from "@/lib/utils";
 
 interface BingoExportProps {
     board: string[];
@@ -140,6 +141,12 @@ const BingoExport = ({
             <Image
                 src="images-opt/bingo-bg-opt.webp"
                 alt="Background"
+                placeholder={
+                    getBlurDataURL("images-opt/bingo-bg-opt.webp")
+                        ? "blur"
+                        : "empty"
+                }
+                blurDataURL={getBlurDataURL("images-opt/bingo-bg-opt.webp")}
                 fill
                 className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none"
             />
