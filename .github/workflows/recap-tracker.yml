@@ -7,6 +7,9 @@ on:
         types: [opened, edited]
 jobs:
     file-submissions:
+        permissions:
+            - issues: write
+            - contents: read
         name: Process File Submissions
         runs-on: ubuntu-latest
         if: github.event_name == 'push' && vars.POWER_SWITCH == 'on'
@@ -46,6 +49,9 @@ jobs:
               run: cd .github && npx tsx scripts/file-submission-handler.ts
 
     timestamp-updates:
+        permissions:
+            - issues: write
+            - contents: read
         name: Check Timestamp Updates
         runs-on: ubuntu-latest
         if: github.event_name == 'issues' && github.event.action == 'edited' && vars.POWER_SWITCH == 'on'
@@ -72,6 +78,9 @@ jobs:
               run: cd .github && npx tsx scripts/timestamp-handler.ts
 
     manual-checklist-updates:
+        permissions:
+            - issues: write
+            - contents: read
         name: Check Manual Checklist Updates
         runs-on: ubuntu-latest
         if: github.event_name == 'issues' && github.event.action == 'edited' && vars.POWER_SWITCH == 'on'
