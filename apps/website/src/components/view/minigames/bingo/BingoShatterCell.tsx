@@ -123,8 +123,8 @@ const BingoShatterCell = ({
         <div
             style={{
                 position: "relative",
-                width: "fit-content",
-                height: "fit-content",
+                width: "100%",
+                height: "100%",
             }}
         >
             <div

@@ -209,7 +209,7 @@
                     "label": "Bingo Maker (Chapter 3)",
                     "desc": "Make your predictions of what will happen, and generate an ENreco-themed Bingo Board!",
                     "utilLabel": "Bingo Utility",
-                    "intro": "Create your own <bold>ENigmatic Recollection Bingo</bold> sheet for the upcoming Chapter 3: Broken Bonds! Fill in the squares with predictions, moments you want to see, or inside jokes from the community.",
+                    "intro": "Create your own <bold>ENigmatic Recollection Bingo</bold> sheet for Chapter 3: Broken Bonds! Fill in the squares with predictions, moments you want to see, or inside jokes from the community.",
                     "howToUse": "How to use:",
                     "editModeDesc": "<bold>Edit Mode:</bold> Click on any square to edit its text. Click outside to save.",
                     "markModeDesc": "<bold>Mark Mode:</bold> Click on squares to mark them as complete",
@@ -228,7 +228,7 @@
                     "previewDescription": "Preview how your bingo will look when downloaded",
                     "download": "Download",
                     "reset": "Clear",
-                    "previewNote": "Note: If you are on mobile, the downloaded image will fix issues with font size and text overflow.",
+                    "previewNote": "Note: The downloaded image will fix issues with font size and text overflow.",
                     "randomize": "Randomize",
                     "preset": "Use Presets",
                     "share": "Share",
@@ -537,7 +537,7 @@
         },
         "spoilers": {
             "title": "Thou Shall Not Pass!",
-            "description": "Just a heads-up—this page will not be updated until after chapter three! This page aslso contains spoilers, if you haven’t experienced the story of ENigmatic Recollection yet, you might want to check it out first.",
+            "description": "Just a heads-up—this page will not be updated until after chapter three! This page also contains spoilers, if you haven’t experienced the story of ENigmatic Recollection yet, you might want to check it out first.",
             "agree": "*By continuing you agree to not hold the ENreco Archive responsible for being spoiled.",
             "ok": "Got it!"
         },

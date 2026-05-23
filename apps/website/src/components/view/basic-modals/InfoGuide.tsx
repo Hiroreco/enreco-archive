@@ -244,7 +244,7 @@ const InfoGuide = () => {
                             </div>
                         }
                     />
-                    {/* <InfoGuideCard
+                    <InfoGuideCard
                         title={t("bingoTitle")}
                         description={t("bingoDescription")}
                         icon={
@@ -257,11 +257,18 @@ const InfoGuide = () => {
                         }
                         content={
                             <div className="flex flex-col gap-4">
+                                <Lightbox
+                                    className="mx-auto mt-4 w-[70%]"
+                                    src="/images-opt/guide-bingo-opt.webp"
+                                    alt={t("bingoTitle")}
+                                    width={842}
+                                    height={754}
+                                />
                                 <div>{t("bingoContent1")}</div>
                                 <div>{t("bingoContent2")}</div>
                             </div>
                         }
-                    /> */}
+                    />
                     <InfoGuideCard
                         title={t("settingsTitle")}
                         description={t("settingsDescription")}

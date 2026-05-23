@@ -14,6 +14,7 @@ const createInitialBoard = (locale: string = "en"): string[] => {
         board[4] = "「プレビュー」で\nカードを\n確認";
         board[14] = "編集モードと\nマークモードを\n切替";
         board[24] = "詳細は\n情報アイコンを\nクリック";
+        board[22] = "最初に\nクリアするのを\n忘れずに！";
     } else {
         board[12] = "Free\nSpace!";
         board[0] = "Type your\nprediction\nhere";
@@ -21,6 +22,7 @@ const createInitialBoard = (locale: string = "en"): string[] => {
         board[4] = `Then click\n"Preview" to\nview your card`;
         board[14] = `Switch between\nEdit Mode and\nMark Mode`;
         board[24] = `Click the\nInfo icon for more details`;
+        board[22] = `Remember to\nclear first!`;
     }
 
     return board;

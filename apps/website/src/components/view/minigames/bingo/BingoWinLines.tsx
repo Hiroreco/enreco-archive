@@ -46,8 +46,8 @@ const BingoWinLines = ({
                 zIndex: 10,
                 opacity: 0.8,
             }}
-            width={total}
-            height={total}
+            width="100%"
+            height="100%"
             viewBox={`0 0 ${total} ${total}`}
         >
             {winningLines.map((line, idx) => {

@@ -8,6 +8,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { BingoWinStyle } from "@/components/view/minigames/bingo/BingoWinSelector";
 import BingoWinLines from "@/components/view/minigames/bingo/BingoWinLines";
 import useIsMobileViewport from "@/hooks/useIsMobileViewport";
+import { getBlurDataURL } from "@/lib/utils";
 
 interface BingoExportProps {
     board: string[];
@@ -40,7 +41,7 @@ const BingoExport = ({
                 key={"cell-" + index}
                 className={cn(
                     "flex flex-col items-center justify-center relative",
-                    downloadMode ? "size-24" : "size-20 md:size-24",
+                    downloadMode ? "size-24" : "w-full aspect-square",
                     index % 2 === 0
                         ? "bg-white text-[#444444]"
                         : "bg-[#615952] text-white",
@@ -54,7 +55,7 @@ const BingoExport = ({
                         style={{
                             position: "absolute",
                             inset: 0,
-                            border: "3px solid #fde047",
+                            border: "3px solid #e79818",
                             zIndex: 10,
                             pointerEvents: "none",
                         }}
@@ -64,9 +65,12 @@ const BingoExport = ({
                     alt=""
                     src={"images-opt/bingo_outline-opt.webp"}
                     fill
-                    className={cn("p-0.75 absolute inset-0", {
-                        "opacity-40": index % 2 !== 0,
-                    })}
+                    className={cn(
+                        "p-0.75 absolute inset-0 pointer-events-none",
+                        {
+                            "opacity-40": index % 2 !== 0,
+                        },
+                    )}
                     style={{ zIndex: 5 }}
                 />
                 {isMarked &&
@@ -140,17 +144,31 @@ const BingoExport = ({
             <Image
                 src="images-opt/bingo-bg-opt.webp"
                 alt="Background"
+                placeholder={
+                    getBlurDataURL("images-opt/bingo-bg-opt.webp")
+                        ? "blur"
+                        : "empty"
+                }
+                blurDataURL={getBlurDataURL("images-opt/bingo-bg-opt.webp")}
                 fill
-                className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none"
+                className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none pointer-events-none"
             />
             <Image
                 src="images-opt/bingo-logo-opt.webp"
                 alt="Background"
                 height={40}
                 width={100}
-                className={cn("md:h-45 h-35 w-auto object-cover mx-auto", {
-                    "h-45": downloadMode,
-                })}
+                className={cn(
+                    "w-auto object-cover mx-auto pointer-events-none",
+                    downloadMode ? "h-45" : "",
+                )}
+                style={
+                    !downloadMode
+                        ? {
+                              height: "clamp(60px, min(40vw, 20vh), 180px)",
+                          }
+                        : undefined
+                }
             />
             <div className="relative">
                 {showDay && (
@@ -159,7 +177,16 @@ const BingoExport = ({
                     </div>
                 )}
                 <div className="relative">
-                    <div className="grid grid-cols-5 gap-1 mt-2">
+                    <div
+                        className="grid grid-cols-5 gap-1 mt-2"
+                        style={
+                            !downloadMode
+                                ? {
+                                      width: "clamp(260px, min(calc(100vw - 3rem), calc(100vh - 18rem)), 600px)",
+                                  }
+                                : undefined
+                        }
+                    >
                         {board.map((_, index) => {
                             const isWinningCell =
                                 winningIndices?.has(index) ?? false;

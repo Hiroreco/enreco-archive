@@ -68,37 +68,20 @@ const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
                                 date: string;
                                 content: string;
                             }>
-                        ).map((entry, index) => (
-                            <div
-                                key={entry.date}
-                            >
+                        ).map((entry) => (
+                            <div key={entry.date}>
                                 <ViewMarkdown
                                     className="prose prose-sm prose-invert max-w-none"
-                                    onEdgeLinkClicked={() => { }}
-                                    onNodeLinkClicked={() => { }}
+                                    onEdgeLinkClicked={() => {}}
+                                    onNodeLinkClicked={() => {}}
                                 >
                                     {entry.content}
                                 </ViewMarkdown>
                             </div>
                         ))}
-
-                        <div className="text-center text-sm text-foreground/60">
-                            {tChangelog.rich("seeAllLogs", {
-                                link: (chunk) => (
-                                    <a
-                                        href="https://github.com/Hiroreco/enreco-archive/tree/main/changelogs"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        {chunk}
-                                    </a>
-                                ),
-                            })}
-                        </div>
-
                         <Separator />
 
-                        <div className="text-center text-sm text-foreground/60">
+                        <div className="text-center text-sm text-foreground/60 mb-2">
                             {tChangelog.rich("forQuestions", {
                                 link: (chunk) => (
                                     <a

@@ -7,7 +7,7 @@ export const PRESET_VALUES = {
             ja: "IRySが登場して全てを悪化させる",
         },
         {
-            en: "CHAOS ensues, things get loud and messy",
+            en: "CHAOS!\nThings get loud and messy",
             ja: "混沌が続き、騒がしくて混乱する",
         },
         {
@@ -24,7 +24,7 @@ export const PRESET_VALUES = {
             en: "IRL reference disguised with in-character language",
             ja: "キャラクターの言葉で隠された現実世界の言及",
         },
-        { en: "Evolving stream intro", ja: "進化する配信のイントロ" },
+        { en: "Evolving\nstream\nintro", ja: "進化する配信のイントロ" },
         { en: "REVELATION!", ja: "啓示！" },
         { en: "potato salad", ja: "ポテトサラダ" },
         { en: "There is a castle", ja: "城がある" },
@@ -32,15 +32,15 @@ export const PRESET_VALUES = {
         { en: "There is PVP", ja: "PVPがある" },
         { en: "There is no PVP", ja: "PVPがない" },
         {
-            en: "Filler Episode",
+            en: "Filler\nEpisode",
             ja: "アニオリ",
         },
         {
-            en: "Liz rejects magic",
+            en: "Liz\nrejects\nmagic",
             ja: "エリザベスが魔法を拒否する",
         },
         {
-            en: "Lore Journals",
+            en: "Lore\nJournals",
             ja: "手記",
         },
 
@@ -48,7 +48,11 @@ export const PRESET_VALUES = {
             en: "Activates Revelation at inappropriate times",
             ja: "不適切なタイミングでレベレーションを発動する",
         },
-        { en: "IRyS does yabai", ja: "IRySがやばいことをする" },
+        { en: "IRyS\ndoes\nyabai", ja: "IRySがやばいことをする" },
+          {
+            en: "Someone\ngets thrown\nin jail",
+            ja: "誰かが投げ込まれる\n刑務所",
+        }
     ],
     // likely
     1: [
@@ -56,7 +60,7 @@ export const PRESET_VALUES = {
             en: "Dying to the same trap twice in a row",
             ja: "同じ罠で2回連続で死ぬ",
         },
-        { en: "Advent commits evil deeds", ja: "アドベントが悪事を働く" },
+        { en: "Advent\ncommits evil\ndeeds", ja: "アドベントが悪事を働く" },
         {
             en: "Perfectly timed music moment",
             ja: "完璧なタイミングの音楽の瞬間",
@@ -70,29 +74,29 @@ export const PRESET_VALUES = {
         { en: "Return of the corruption hat", ja: "腐敗の帽子の復活" },
         { en: "Someone creates a new scam", ja: "誰かが新しい詐欺を作る" },
         {
-            en: "Failing to get a cosmetic for at least a stream",
+            en: "Failing to get a cosmetic",
             ja: "少なくとも1回の配信で望んだコスメを手に入れられない",
         },
-        { en: "Someone has Amnesia", ja: "誰かが記憶喪失になる" },
-        { en: "Corruption arc", ja: "腐敗のようなストーリー" },
+        { en: "Someone\nhas\nAmnesia", ja: "誰かが記憶喪失になる" },
+        { en: "Corruption\narc", ja: "腐敗のようなストーリー" },
         {
             en: "An innocent white lie spirals out of control",
             ja: "無邪気な小さな嘘が手に負えなくなる",
         },
         {
-            en: "Duel Boss Fight",
+            en: "Duel\nBoss\nFight",
             ja: "デュエルボス戦",
         },
         {
-            en: "Daily Journal",
+            en: "Daily\nJournal",
             ja: "日誌",
         },
         {
-            en: "Absolute Cinema",
+            en: "Absolute\nCinema",
             ja: "絶対なる映画",
         },
         {
-            en: "Intentionally eavesdropping",
+            en: "Intentionally\neavesdropping",
             ja: "意図的に盗み聞きする",
         },
         {
@@ -104,9 +108,17 @@ export const PRESET_VALUES = {
             ja: "フワモコダンジョンにダブルボスがいる",
         },
         {
-            en: "No memory wipe",
+            en: "No\nmemory\nwipe",
             ja: "記憶消去なし",
         },
+        {
+            en: "Someone\nturns\ninvisible",
+            ja: "誰かが\n透明になる",
+        },
+        {
+            en: "Romance plot involving an NPC",
+            ja: "NPCを巻き込んだ恋愛プロット",
+        }
     ],
     // less likely
     2: [
@@ -117,8 +129,8 @@ export const PRESET_VALUES = {
         { en: "Dying many times in a dungeon", ja: "ダンジョンで何度も死ぬ" },
         { en: "Calli builds another shop", ja: "Calliが別の店を建てる" },
         {
-            en: "Broken Bonds\n title drop",
-            ja: "壊れた絆\n タイトルが出る",
+            en: "Broken Bonds title drop",
+            ja: "壊れた絆タイトルが出る",
         },
         {
             en: "Nerissa becomes very rich again",
@@ -129,7 +141,7 @@ export const PRESET_VALUES = {
             en: "The daily life of the married bird and cat",
             ja: "結婚した鳥と猫の日常",
         },
-        { en: "Someone switches sides", ja: "誰かが立場を変える" },
+        { en: "Someone\nswitches\nsides", ja: "誰かが立場を変える" },
         {
             en: "Immerkind brooding emo arc",
             ja: "Immerkindの陰鬱なエモいストーリー",
@@ -147,11 +159,7 @@ export const PRESET_VALUES = {
             en: "Successful business selling non-item things",
             ja: "アイテム以外のものを売る成功したビジネス",
         },
-        {
-            en: "ENreco Archive mention (cope)",
-            ja: "ENrecoアーカイブの言及",
-        },
-        { en: "Enemies to lovers", ja: "敵から恋人へ" },
+        { en: "Enemies\nto\nlovers", ja: "敵から恋人へ" },
         {
             en: "Ending of the day gets interrupted",
             ja: "一日の終わりが中断される",
@@ -177,7 +185,7 @@ export const PRESET_VALUES = {
             ja: "ゴナソンが親しくて大切な人を殺す",
         },
         { en: "Bae adopts another child", ja: "ベーが別の子供を養子にする" },
-        { en: "Shiori remembers Gonathon", ja: "シオリがゴナソンを思い出す" },
+        { en: "Shiori\nremembers\nGonathon", ja: "シオリがゴナソンを思い出す" },
         {
             en: "Fia returns to her Libestal form",
             ja: "フィアがリベスタルの姿に戻る",
@@ -191,7 +199,7 @@ export const PRESET_VALUES = {
             ja: "イベントの合間の現実の休息日",
         },
         {
-            en: "AME Cameo",
+            en: "AME\nCameo",
             ja: "AMEのカメオ出演",
         },
     ],
