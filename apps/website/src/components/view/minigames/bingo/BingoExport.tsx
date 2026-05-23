@@ -65,9 +65,12 @@ const BingoExport = ({
                     alt=""
                     src={"images-opt/bingo_outline-opt.webp"}
                     fill
-                    className={cn("p-0.75 absolute inset-0", {
-                        "opacity-40": index % 2 !== 0,
-                    })}
+                    className={cn(
+                        "p-0.75 absolute inset-0 pointer-events-none",
+                        {
+                            "opacity-40": index % 2 !== 0,
+                        },
+                    )}
                     style={{ zIndex: 5 }}
                 />
                 {isMarked &&
@@ -148,16 +151,19 @@ const BingoExport = ({
                 }
                 blurDataURL={getBlurDataURL("images-opt/bingo-bg-opt.webp")}
                 fill
-                className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none"
+                className="absolute -z-10 opacity-90 inset-0 object-cover rounded-none pointer-events-none"
             />
             <Image
                 src="images-opt/bingo-logo-opt.webp"
                 alt="Background"
                 height={40}
                 width={100}
-                className={cn("md:h-45 h-35 w-auto object-cover mx-auto", {
-                    "h-45": downloadMode,
-                })}
+                className={cn(
+                    "md:h-45 h-35 w-auto object-cover mx-auto pointer-events-none",
+                    {
+                        "h-45": downloadMode,
+                    },
+                )}
             />
             <div className="relative">
                 {showDay && (
