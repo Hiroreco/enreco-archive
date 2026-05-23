@@ -36,25 +36,26 @@ export const getTextStyle = (
     const hasManyLines = lineCount > 3;
     const isLongText = totalLength > 40;
 
-    const sizing = isMobile && !downloadMode
-        ? {
-              // Mobile (64px squares) - tighter sizing
-              veryLong: "clamp(0.625rem, 2.5cqw, 0.75rem)",
-              long: "clamp(0.625rem, 2.75cqw, 0.8125rem)",
-              medium: "clamp(0.625rem, 3cqw, 0.8125rem)",
-              short: "clamp(0.75rem, 3.5cqw, 0.875rem)",
-              veryShort: "clamp(0.875rem, 4cqw, 1rem)",
-              default: "clamp(0.625rem, 3cqw, 0.75rem)",
-          }
-        : {
-              // Desktop (80px squares) - balanced sizing
-              veryLong: "clamp(0.6875rem, 2.7cqw, 0.8125rem)",
-                            long: "clamp(0.6875rem, 2.75cqw, 0.8125rem)",
-                            medium: "clamp(0.75rem, 2.9cqw, 0.85rem)",
-              short: "clamp(0.875rem, 3.5cqw, 1rem)",
-              veryShort: "clamp(1rem, 4cqw, 1.125rem)",
-              default: "clamp(0.75rem, 3cqw, 0.875rem)",
-          };
+    const sizing =
+        isMobile && !downloadMode
+            ? {
+                  // Mobile (64px squares) - tighter sizing
+                  veryLong: "clamp(0.625rem, 2.5cqw, 0.75rem)",
+                  long: "clamp(0.625rem, 2.75cqw, 0.8125rem)",
+                  medium: "clamp(0.625rem, 3cqw, 0.8125rem)",
+                  short: "clamp(0.75rem, 3.5cqw, 0.875rem)",
+                  veryShort: "clamp(0.875rem, 4cqw, 1rem)",
+                  default: "clamp(0.625rem, 3cqw, 0.75rem)",
+              }
+            : {
+                  // Desktop (80px squares) - balanced sizing
+                  veryLong: "clamp(0.6875rem, 2.7cqw, 0.8125rem)",
+                  long: "clamp(0.6875rem, 2.75cqw, 0.8125rem)",
+                  medium: "clamp(0.75rem, 2.9cqw, 0.85rem)",
+                  short: "clamp(0.875rem, 3.5cqw, 1rem)",
+                  veryShort: "clamp(1rem, 4cqw, 1.125rem)",
+                  default: "clamp(0.75rem, 3cqw, 0.875rem)",
+              };
 
     // Very long words or lots of content
     if (hasExtremeWord || (lineCount > 4 && totalLength > 50)) {
@@ -135,7 +136,13 @@ const BingoGame = () => {
                 onOpenChange={setShowFullBoardAlert}
             />
 
-            <div className="w-full aspect-square max-w-[600px] shrink-0">
+            <div
+                className="w-full aspect-square shrink-0"
+                style={{
+                    maxWidth:
+                        "clamp(260px, min(calc(100vw - 2rem), calc(100vh - 16rem)), 600px)",
+                }}
+            >
                 <BingoEditor
                     board={displayBoard}
                     marked={marked}

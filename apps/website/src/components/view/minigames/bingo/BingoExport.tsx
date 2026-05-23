@@ -41,7 +41,7 @@ const BingoExport = ({
                 key={"cell-" + index}
                 className={cn(
                     "flex flex-col items-center justify-center relative",
-                    downloadMode ? "size-24" : "size-20 md:size-24",
+                    downloadMode ? "size-24" : "w-full aspect-square",
                     index % 2 === 0
                         ? "bg-white text-[#444444]"
                         : "bg-[#615952] text-white",
@@ -172,7 +172,16 @@ const BingoExport = ({
                     </div>
                 )}
                 <div className="relative">
-                    <div className="grid grid-cols-5 gap-1 mt-2">
+                    <div
+                        className="grid grid-cols-5 gap-1 mt-2"
+                        style={
+                            !downloadMode
+                                ? {
+                                      width: "clamp(260px, min(calc(100vw - 3rem), calc(100vh - 18rem)), 600px)",
+                                  }
+                                : undefined
+                        }
+                    >
                         {board.map((_, index) => {
                             const isWinningCell =
                                 winningIndices?.has(index) ?? false;
