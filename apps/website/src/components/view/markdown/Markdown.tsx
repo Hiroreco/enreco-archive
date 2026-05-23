@@ -302,15 +302,23 @@ For a link to show an easter egg: [easter label](#easter:<egg>)
 */
 
 interface ViewMarkdownProps {
-    onNodeLinkClicked: NodeLinkClickHandler;
-    onEdgeLinkClicked: EdgeLinkClickHandler;
+    onNodeLinkClicked?: NodeLinkClickHandler;
+    onEdgeLinkClicked?: EdgeLinkClickHandler;
     className?: string;
     children: string | null | undefined;
 }
 
+function emptyNodeLinkClickHandler() {
+    console.error("Node link clicked but no handler was set: this is probably a bug.");
+}
+
+function emptyEdgeLinkClickHandler() {
+    console.error("Edge link clicked but no handler was set: this is probably a bug.");
+}
+
 function MarkdownInternal({
-    onNodeLinkClicked,
-    onEdgeLinkClicked,
+    onNodeLinkClicked = emptyNodeLinkClickHandler,
+    onEdgeLinkClicked = emptyEdgeLinkClickHandler,
     className,
     children,
 }: ViewMarkdownProps) {

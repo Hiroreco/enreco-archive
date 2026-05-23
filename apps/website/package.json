@@ -31,6 +31,7 @@
         "@types/hast": "^3.0.4",
         "@types/unist": "^3.0.3",
         "@xyflow/react": "^12.6.4",
+        "@xyflow/system": "^0.0.76",
         "color-parse": "^2.0.2",
         "color-space": "^2.3.2",
         "framer-motion": "^12.12.1",

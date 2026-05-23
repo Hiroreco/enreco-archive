@@ -36,7 +36,6 @@ const InfoModal = ({ open, onClose }: InfoModalProps) => {
 
     const themeType = useSettingStore((state) => state.themeType);
     const setThemeType = useSettingStore((state) => state.setThemeType);
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     const onOpenChange = useCallback(
         (open: boolean) => {
@@ -55,7 +54,6 @@ const InfoModal = ({ open, onClose }: InfoModalProps) => {
             <DialogContent
                 showXButton={false}
                 className="rounded-lg h-[85vh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
-                backdropFilter={backdropFilter}
             >
                 <VisuallyHidden>
                     <DialogDescription>

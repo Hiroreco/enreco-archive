@@ -1,5 +1,5 @@
 "use client";
-import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import { memo, useEffect, useMemo, useRef, useState } from "react";
 
 import InfoModal from "@/components/view/basic-modals/InfoModal";
 import DayRecapCard from "@/components/view/chart-cards/DayRecapCard";
@@ -8,7 +8,7 @@ import NodeCard from "@/components/view/chart-cards/NodeCard";
 import { useViewStore } from "@/store/viewStore";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 
-import Chart from "@/components/view/chart/Chart";
+import Chart, { ChartInstance } from "@/components/view/chart/Chart";
 import ReadCounter from "@/components/view/chart/ReadCounter";
 import TransportControls from "@/components/view/chart/TransportControls";
 import MiniGameModal from "@/components/view/minigames/MiniGameModal";
@@ -31,7 +31,7 @@ import {
     Settings,
     BarChart3,
 } from "lucide-react";
-import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
+import VaulDrawer from "./components/view/chart-cards/VaulDrawer";
 
 import ChapterRecapModalContainer from "@/components/view/utility-modals/ChapterRecapModalContainer";
 
@@ -55,6 +55,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
 import { AnimatePresence, motion } from "framer-motion";
+import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -79,6 +80,10 @@ interface Props {
 }
 
 let didInit = false;
+
+const CARD_OPEN_PADDING = 0.1;
+const NORMAL_PADDING = 0.5;
+
 const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const tNavTooltips = useTranslations("navTooltips");
     const tReadStatus = useTranslations("modals.readStatus");
@@ -113,10 +118,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setChapter = useViewStore((state) => state.setChapter);
 
     const currentCard = useViewStore((state) => state.currentCard);
-    const openNodeCard = useViewStore((state) => state.openNodeCard);
-    const openEdgeCard = useViewStore((state) => state.openEdgeCard);
-    const openSettingsCard = useViewStore((state) => state.openSettingsCard);
-    const closeCard = useViewStore((state) => state.closeCard);
+    const setNodeCard = useViewStore((state) => state.setNodeCard);
+    const setEdgeCard = useViewStore((state) => state.setEdgeCard);
+    const setSettingsCard = useViewStore((state) => state.setSettingsCard);
+    const clearCard = useViewStore((state) => state.clearCard);
     const selectedElement = useViewStore((state) => state.selectedElement);
     const selectElement = useViewStore((state) => state.selectElement);
     const deselectElement = useViewStore((state) => state.deselectElement);
@@ -161,6 +166,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setLatestNewsDate = useSettingStore(
         (state) => state.setLatestNewsDate,
     );
+    const autoPanBack = useSettingStore((state) => state.autoPanBack);
 
     const newNewsCount = useMemo(() => {
         if (!latestSeenNewsDate) return 0;
@@ -177,13 +183,18 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     /* State variables */
     const [chartShrink, setChartShrink] = useState(0);
+    const [isDrawerOpen, setDrawerOpen] = useState(false);
     const { browserHash, setBrowserHash } = useBrowserHash(onBrowserHashChange);
+    const disableWidthChange = useRef<boolean>(true);
+    const chartRef = useRef<ChartInstance>(null);
 
     /* Data variables */
     const { getSiteData, getChapter } = useLocalizedData();
     const siteData = getSiteData();
     const chapterData = getChapter(chapter);
     const dayData = chapterData.charts[day];
+
+    const isMobile = useIsMobileViewport();
 
     /* Build complete nodes/edges by combining data from previous days and current app state. */
     const completeData = useCompleteChartData();
@@ -292,56 +303,84 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         }
     }
 
-    const onCardClose = useCallback(() => {
+    /* VaulDrawer event handlers */
+    function onDrawerFullyClosed() {
+
+    }
+
+    function onDrawerOpenWidthChange(width: number) {
+        let actualChartOffset = 0;
+        if (!isMobile) {
+            setChartShrink(width + 56); // Add 56px for the right margin (14 * 4)
+            actualChartOffset = width + 56;
+        }
+
+        if (
+            currentCard !== null &&
+            !disableWidthChange.current &&
+            chartRef.current !== null
+        ) {
+            chartRef.current.chartFitView(
+                selectedElement,
+                CARD_OPEN_PADDING,
+                actualChartOffset,
+            );
+        }
+    }
+
+    /* Drawer opening/closing event handlers */
+    function openNodeCard(node: ImageNodeType) {
+        setDrawerOpen(true);
+        selectElement(node);
+        setNodeCard();
+        disableWidthChange.current = false;
+
+        // If we just opened the drawer, defer chart fit view until we have the size of drawer.
+        if (selectedElement !== null && chartRef.current !== null) {
+            chartRef.current.chartFitView(node, CARD_OPEN_PADDING, chartShrink);
+        }
+    }
+
+    function openEdgeCard(edge: FixedEdgeType) {
+        setDrawerOpen(true);
+        selectElement(edge);
+        setEdgeCard();
+        disableWidthChange.current = false;
+
+        // If we just opened the drawer, defer chart fit view until we have the size of drawer.
+        if (selectedElement !== null && chartRef.current !== null) {
+            chartRef.current.chartFitView(edge, CARD_OPEN_PADDING, chartShrink);
+        }
+    }
+
+    function openSettingsCard() {
+        setDrawerOpen(true);
         deselectElement();
-        closeCard();
+        setSettingsCard();
+        disableWidthChange.current = false;
+
+        // If we just opened the drawer, defer chart fit view until we have the size of drawer.
+        if (chartRef.current !== null) {
+            chartRef.current.chartFitView(null, CARD_OPEN_PADDING, chartShrink);
+        }
+    }
+
+    function closeCard() {
+        setDrawerOpen(false);
         setChartShrink(0);
-    }, [closeCard, deselectElement]);
-
-    const onSettingsCardOpen = useCallback(() => {
+        disableWidthChange.current = true;
         deselectElement();
-        openSettingsCard();
-    }, [deselectElement, openSettingsCard]);
+        clearCard();
 
-    const onNodeClick = useCallback(
-        (node: ImageNodeType) => {
-            selectElement(node);
-            openNodeCard();
-        },
-        [openNodeCard, selectElement],
-    );
-
-    const onEdgeClick = useCallback(
-        (edge: FixedEdgeType) => {
-            selectElement(edge);
-            openEdgeCard();
-        },
-        [openEdgeCard, selectElement],
-    );
-
-    const setChartShrinkAndFit = useCallback(
-        (width: number) => {
-            if (width !== chartShrink) {
-                setTimeout(() => {
-                    setChartShrink(width);
-                }, DRAWER_OPEN_CLOSE_ANIM_TIME_MS * 0.6);
-            }
-        },
-        [chartShrink],
-    );
-
-    useEffect(() => {
-        if (!hasVisitedBefore && !isInLoadingScreen) {
-            openInfoModal();
+        if (chartRef.current !== null && autoPanBack) {
+            chartRef.current.chartFitView(null, NORMAL_PADDING, 0);
         }
-    });
+    }
 
-    // When user opens the news modal, update the stored latest seen date
-    useEffect(() => {
-        if (openModal === "news") {
-            setLatestNewsDate(latestNewsIso);
-        }
-    }, [openModal, setLatestNewsDate, latestNewsIso]);
+    function openNewsModalHandler() {
+        setLatestNewsDate(latestNewsIso);
+        openNewsModal();
+    }
 
     useEffect(() => {
         // When locale changes, refresh the current data to get localized content
@@ -350,6 +389,22 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         // DO NOT add the rest of the missing dependencies, it will cause an infinite loop, screw react
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
+
+    // If this is the user's first time here, show the info modal.
+    // Yes this useEffect runs on each render but there is no better way to
+    // do this, and thankfully it is a pretty light useEffect.
+    useEffect(() => {
+        if (!hasVisitedBefore && !isInLoadingScreen) {
+            openInfoModal();
+        }
+    });
+
+    // When chapter changes, center the chart.
+    useEffect(() => {
+        if (chartRef.current !== null && chartRef.current.chartInitialized()) {
+            chartRef.current.chartFitView(null, NORMAL_PADDING, 0);
+        }
+    }, [chapter]);
 
     /* Init block, runs only on first render/load. */
     if (!didInit) {
@@ -366,15 +421,66 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     const fanartModalKey = `${selectedElement?.id ?? "default"}-${chapter}-${day}`;
 
+    const cardContent = (() => {
+        switch (currentCard) {
+            case "node":
+                if (selectedElement === null || !isNode(selectedElement)) {
+                    throw new Error(
+                        "Tried to open node card without a selected node.",
+                    );
+                }
+
+                return (
+                    <NodeCard
+                        selectedNode={selectedElement as ImageNodeType}
+                        onNodeLinkClicked={openNodeCard}
+                        onEdgeLinkClicked={openEdgeCard}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
+                );
+            case "edge":
+                if (selectedElement === null || !isEdge(selectedElement)) {
+                    throw new Error(
+                        "Tried to open edge card without a selected edge.",
+                    );
+                }
+
+                return (
+                    <EdgeCard
+                        selectedEdge={selectedElement as FixedEdgeType}
+                        onNodeLinkClicked={openNodeCard}
+                        onEdgeLinkClicked={openEdgeCard}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
+                );
+            case "setting":
+                return (
+                    <DayRecapCard
+                        dayRecap={dayData.dayRecap}
+                        chapterData={chapterData}
+                        onDayChange={(newDay) => {
+                            changeWorkingData(chapter, newDay);
+                        }}
+                    />
+                );
+            default:
+                return null;
+        }
+    })();
+
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
                 {chapter <= 1 && (
                     <Chart
-                        widthToShrink={chartShrink}
-                        onNodeClick={onNodeClick}
-                        onEdgeClick={onEdgeClick}
-                        onPaneClick={onCardClose}
+                        onNodeClick={openNodeCard}
+                        onEdgeClick={openEdgeCard}
+                        onPaneClick={closeCard}
+                        ref={chartRef}
                     />
                 )}
                 {/* Coming soon card, shown for chapter 3 only */}
@@ -403,38 +509,15 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         }}
                     />
                 </AnimatePresence>
-                <DayRecapCard
-                    isCardOpen={currentCard === "setting"}
-                    onCardClose={onCardClose}
-                    dayRecap={dayData.dayRecap}
-                    chapterData={chapterData}
-                    setChartShrink={setChartShrinkAndFit}
-                    onDayChange={(newDay) => {
-                        changeWorkingData(chapter, newDay);
-                    }}
-                />
 
-                <NodeCard
-                    isCardOpen={currentCard === "node"}
-                    onCardClose={onCardClose}
-                    onNodeLinkClicked={onNodeClick}
-                    onEdgeLinkClicked={onEdgeClick}
-                    onDayChange={(newDay) => {
-                        changeWorkingData(chapter, newDay);
-                    }}
-                    setChartShrink={setChartShrinkAndFit}
-                />
-
-                <EdgeCard
-                    isCardOpen={currentCard === "edge"}
-                    onCardClose={onCardClose}
-                    onNodeLinkClicked={onNodeClick}
-                    onEdgeLinkClicked={onEdgeClick}
-                    onDayChange={(newDay) => {
-                        changeWorkingData(chapter, newDay);
-                    }}
-                    setChartShrink={setChartShrinkAndFit}
-                />
+                <VaulDrawer
+                    open={isDrawerOpen}
+                    onClose={closeCard}
+                    onFullyClosed={onDrawerFullyClosed}
+                    onOpenWidthChange={onDrawerOpenWidthChange}
+                >
+                    {cardContent}
+                </VaulDrawer>
             </div>
 
             <ChangelogModal
@@ -448,7 +531,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     if (!hasVisitedBefore) {
                         setHasVisitedBefore(true);
                         closeModal();
-                        onSettingsCardOpen();
+                        openSettingsCard();
                     } else {
                         closeModal();
                     }
@@ -514,8 +597,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             <ReadCounter
                 open={openModal === "read-counter"}
                 onClose={closeModal}
-                onEdgeClick={onEdgeClick}
-                onNodeClick={onNodeClick}
+                onEdgeClick={openEdgeCard}
+                onNodeClick={openNodeCard}
             />
             <MusicPlayerModal
                 open={openModal === "music"}
@@ -539,9 +622,9 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     tooltipSide="left"
                     onClick={() => {
                         if (currentCard === "setting") {
-                            onCardClose();
+                            closeCard();
                         } else {
-                            onSettingsCardOpen();
+                            openSettingsCard();
                         }
                     }}
                 >
@@ -570,7 +653,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     tooltipText={tNavTooltips("news")}
                     enabled={true}
                     tooltipSide="left"
-                    onClick={openNewsModal}
+                    onClick={openNewsModalHandler}
                 >
                     <Newspaper />
                     {newNewsCount > 0 && (
@@ -647,12 +730,12 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     isAnyModalOpen={openModal !== null}
                     onChapterChange={(newChapter) => {
                         deselectElement();
-                        closeCard();
+                        clearCard();
                         changeWorkingData(newChapter, 0);
                     }}
                     onDayChange={(newDay) => {
                         if (openDayRecapOnDayChange) {
-                            onSettingsCardOpen();
+                            openSettingsCard();
                         }
                         changeWorkingData(chapter, newDay);
                     }}

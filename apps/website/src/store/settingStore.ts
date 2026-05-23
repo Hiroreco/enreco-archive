@@ -5,15 +5,11 @@ import { ThemeType } from "@enreco-archive/common/types";
 import type { BingoMarkerStyle } from "@/components/view/minigames/bingo/BingoMarkerSelector";
 import type { BingoWinStyle } from "@/components/view/minigames/bingo/BingoWinSelector";
 
-export type BackdropFilter = "blur" | "clear";
 export type FontSize = "small" | "medium" | "large" | "xlarge";
 export type Locale = "en" | "ja";
 export type EmbedType = "card" | "external";
 
 interface SettingState {
-    backdropFilter: BackdropFilter;
-    setBackdropFilter: (backdropFilter: BackdropFilter) => void;
-
     bgmVolume: number;
     setBgmVolume: (bgmVolume: number) => void;
 
@@ -41,7 +37,6 @@ interface SettingState {
     _hasHydrated: boolean;
     setHasHydrated: (hasHydrated: boolean) => void;
 
-
     latestNewsDate: string;
     setLatestNewsDate: (dateIso: string) => void;
 
@@ -56,10 +51,6 @@ interface SettingState {
 export const useSettingStore = create<SettingState>()(
     persist(
         (set) => ({
-            backdropFilter: "blur",
-            setBackdropFilter: (backdropFilter: BackdropFilter) =>
-                set({ backdropFilter: backdropFilter }),
-
             bgmVolume: 0.5,
             setBgmVolume: (bgmVolume: number) => set({ bgmVolume }),
 

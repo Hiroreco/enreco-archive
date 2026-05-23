@@ -38,7 +38,7 @@ const TranslationDislaimerModal = () => {
 
     return (
         <Dialog open={open} onOpenChange={setOpen}>
-            <DialogContent backdropFilter="blur">
+            <DialogContent>
                 <DialogHeader>
                     <DialogTitle>
                         <span className="inline-flex items-center gap-2">

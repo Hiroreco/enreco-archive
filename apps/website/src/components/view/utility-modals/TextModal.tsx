@@ -1,7 +1,6 @@
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { useAudioStore } from "@/store/audioStore";
-import { useSettingStore } from "@/store/settingStore";
 import { Button } from "@enreco-archive/common-ui/components/button";
 import {
     Dialog,
@@ -52,7 +51,6 @@ const TextModal = ({
         pauseBGM,
         playBGM,
     } = useAudioStore();
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
 
     // Find the text group that contains this textId
     const textGroup = useMemo(() => {
@@ -189,7 +187,7 @@ const TextModal = ({
             <DialogTrigger className="inline-flex items-center gap-1 hover:text-accent transition-colors underline-offset-4 underline">
                 {label} {isStringLabel && <BookOpenTextIcon />}
             </DialogTrigger>
-            <DialogContent showXButton={false} backdropFilter={backdropFilter}>
+            <DialogContent showXButton={false}>
                 <DialogHeader>
                     <DialogTitle asChild>
                         <div className="flex justify-between items-center">

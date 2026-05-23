@@ -8,7 +8,6 @@ import { useKeyboardNavigation } from "@/components/view/lightbox/useKeyboardNav
 import { useThumbnailScroll } from "@/components/view/lightbox/useThumbnailScroll";
 import { getBlurDataURL } from "@/lib/utils";
 import { useAudioStore } from "@/store/audioStore";
-import { useSettingStore } from "@/store/settingStore";
 import {
     Dialog,
     DialogContent,
@@ -67,7 +66,6 @@ const Lightbox = ({
     const [currentGalleryIndex, setCurrentGalleryIndex] =
         useState(galleryIndex);
 
-    const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const carouselRef = useRef<HTMLDivElement>(null);
     const thumbnailRefs = useRef<(HTMLDivElement | null)[]>([]);
     const playBGM = useAudioStore((state) => state.playBGM);
@@ -259,7 +257,6 @@ const Lightbox = ({
 
             <Dialog open={isOpen} onOpenChange={handleOpenChange}>
                 <DialogContent
-                    backdropFilter={backdropFilter}
                     className="max-w-fit bg-blur p-2 gap-4 flex flex-col items-center h-[80dvh] md:h-[90vh]"
                     showXButton={false}
                     style={{ backgroundImage: "none" }}
