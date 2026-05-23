@@ -36,26 +36,46 @@ export const getTextStyle = (
     const hasManyLines = lineCount > 3;
     const isLongText = totalLength > 40;
 
-    const sizing =
-        isMobile && !downloadMode
+    let sizing;
+    if (downloadMode) {
+        // Download uses rigid sizing matching previous minimum bounds to guarantee export stability
+        sizing = isMobile
             ? {
-                  // Mobile (64px squares) - tighter sizing
-                  veryLong: "clamp(0.625rem, 2.5cqw, 0.75rem)",
-                  long: "clamp(0.625rem, 2.75cqw, 0.8125rem)",
-                  medium: "clamp(0.625rem, 3cqw, 0.8125rem)",
-                  short: "clamp(0.75rem, 3.5cqw, 0.875rem)",
-                  veryShort: "clamp(0.875rem, 4cqw, 1rem)",
-                  default: "clamp(0.625rem, 3cqw, 0.75rem)",
+                  veryLong: "0.625rem",
+                  long: "0.625rem",
+                  medium: "0.625rem",
+                  short: "0.75rem",
+                  veryShort: "0.875rem",
+                  default: "0.625rem",
               }
             : {
-                  // Desktop (80px squares) - balanced sizing
-                  veryLong: "clamp(0.6875rem, 2.7cqw, 0.8125rem)",
-                  long: "clamp(0.6875rem, 2.75cqw, 0.8125rem)",
-                  medium: "clamp(0.75rem, 2.9cqw, 0.85rem)",
-                  short: "clamp(0.875rem, 3.5cqw, 1rem)",
-                  veryShort: "clamp(1rem, 4cqw, 1.125rem)",
-                  default: "clamp(0.75rem, 3cqw, 0.875rem)",
+                  veryLong: "0.6875rem",
+                  long: "0.6875rem",
+                  medium: "0.75rem",
+                  short: "0.875rem",
+                  veryShort: "1rem",
+                  default: "0.75rem",
               };
+    } else {
+        // Editor/Preview shrinks accurately using cqw (container width queries) of the cell itself
+        sizing = isMobile
+            ? {
+                  veryLong: "clamp(0.35rem, 10cqw, 0.75rem)",
+                  long: "clamp(0.35rem, 11cqw, 0.8125rem)",
+                  medium: "clamp(0.4rem, 13cqw, 0.8125rem)",
+                  short: "clamp(0.5rem, 15cqw, 0.875rem)",
+                  veryShort: "clamp(0.6rem, 18cqw, 1rem)",
+                  default: "clamp(0.4rem, 13cqw, 0.75rem)",
+              }
+            : {
+                  veryLong: "clamp(0.35rem, 11cqw, 0.8125rem)",
+                  long: "clamp(0.35rem, 11cqw, 0.8125rem)",
+                  medium: "clamp(0.45rem, 13cqw, 0.85rem)",
+                  short: "clamp(0.5rem, 15cqw, 1rem)",
+                  veryShort: "clamp(0.6rem, 18cqw, 1.125rem)",
+                  default: "clamp(0.45rem, 13cqw, 0.875rem)",
+              };
+    }
 
     // Very long words or lots of content
     if (hasExtremeWord || (lineCount > 4 && totalLength > 50)) {
