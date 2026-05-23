@@ -140,7 +140,7 @@ const BingoGame = () => {
                 className="w-full aspect-square shrink-0"
                 style={{
                     maxWidth:
-                        "clamp(260px, min(calc(100vw - 2rem), calc(100vh - 16rem)), 600px)",
+                        "clamp(400px, min(calc(100vw - 2rem), calc(100vh - 16rem)), 600px)",
                 }}
             >
                 <BingoEditor
