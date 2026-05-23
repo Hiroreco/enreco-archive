@@ -13,7 +13,7 @@ import {
     DialogTrigger,
 } from "@enreco-archive/common-ui/components/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
-import { Download, Eye } from "lucide-react";
+import { Download, Eye, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import BingoMarkerSelector from "@/components/view/minigames/bingo/BingoMarkerSelector";
 import BingoWinSelector from "@/components/view/minigames/bingo/BingoWinSelector";
@@ -28,6 +28,7 @@ interface BingoPreviewDialogProps {
     onShowDayChange: (checked: boolean) => void;
     onDownload: () => void;
     disabled?: boolean;
+    isDownloading?: boolean;
 }
 
 const BingoPreviewDialog = ({
@@ -39,6 +40,7 @@ const BingoPreviewDialog = ({
     onShowDayChange,
     onDownload,
     disabled,
+    isDownloading,
 }: BingoPreviewDialogProps) => {
     const t = useTranslations("modals.minigames.games.bingo");
     const tCommon = useTranslations("common");
@@ -128,8 +130,16 @@ const BingoPreviewDialog = ({
                                     {t("showDay")}
                                 </span>
                             </div>
-                            <Button size="sm" onClick={onDownload}>
-                                <Download className="size-4 mr-2" />
+                            <Button
+                                size="sm"
+                                onClick={onDownload}
+                                disabled={isDownloading}
+                            >
+                                {isDownloading ? (
+                                    <Loader2 className="size-4 mr-2 animate-spin" />
+                                ) : (
+                                    <Download className="size-4 mr-2" />
+                                )}
                                 {t("download")}
                             </Button>
                         </div>
@@ -189,14 +199,20 @@ const BingoPreviewDialog = ({
                             />
                             <span className="text-sm">{t("showDay")}</span>
                         </label>
-                        <Button size="sm" onClick={onDownload}>
-                            <Download className="size-4 mr-2" />
+                        <Button
+                            size="sm"
+                            onClick={onDownload}
+                            disabled={isDownloading}
+                        >
+                            {isDownloading ? (
+                                <Loader2 className="size-4 mr-2 animate-spin" />
+                            ) : (
+                                <Download className="size-4 mr-2" />
+                            )}
                             {t("download")}
                         </Button>
                         <DialogClose asChild>
-                            <Button size="sm">
-                                {tCommon("close")}
-                            </Button>
+                            <Button size="sm">{tCommon("close")}</Button>
                         </DialogClose>
                     </div>
                 </DialogContent>

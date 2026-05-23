@@ -10,9 +10,9 @@ import BingoResetDialog from "@/components/view/minigames/bingo/BingoResetDialog
 import BingoShareDialog from "@/components/view/minigames/bingo/BingoShareDialog";
 import { useBingoGame } from "@/components/view/minigames/bingo/useBingoGame";
 import { Button } from "@enreco-archive/common-ui/components/button";
-import { Download } from "lucide-react";
+import { Download, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 /**
  * Calculate dynamic font size based on text characteristics
@@ -113,6 +113,7 @@ export const getTextStyle = (
 const BingoGame = () => {
     const t = useTranslations("modals.minigames.games.bingo");
     const exportRef = useRef<HTMLDivElement>(null);
+    const [isDownloading, setIsDownloading] = useState(false);
 
     const {
         currentDay,
@@ -148,6 +149,15 @@ const BingoGame = () => {
         handleRandomizeCancel,
         downloadBingo,
     } = useBingoGame();
+
+    const handleDownload = async () => {
+        setIsDownloading(true);
+        try {
+            await downloadBingo(exportRef);
+        } finally {
+            setIsDownloading(false);
+        }
+    };
 
     return (
         <div className="flex md:flex-row flex-col gap-6 justify-center items-center">
@@ -246,16 +256,21 @@ const BingoGame = () => {
                         showDay={showDay}
                         winningIndices={winningIndices}
                         onShowDayChange={setShowDay}
-                        onDownload={() => downloadBingo(exportRef)}
+                        onDownload={handleDownload}
                         disabled={isInPreviewMode}
+                        isDownloading={isDownloading}
                     />
 
                     <Button
                         size="sm"
-                        onClick={() => downloadBingo(exportRef)}
-                        disabled={isInPreviewMode}
+                        onClick={handleDownload}
+                        disabled={isInPreviewMode || isDownloading}
                     >
-                        <Download className="size-4 mr-2" />
+                        {isDownloading ? (
+                            <Loader2 className="size-4 mr-2 animate-spin" />
+                        ) : (
+                            <Download className="size-4 mr-2" />
+                        )}
                         {t("download")}
                     </Button>
 
@@ -333,16 +348,21 @@ const BingoGame = () => {
                         showDay={showDay}
                         winningIndices={winningIndices}
                         onShowDayChange={setShowDay}
-                        onDownload={() => downloadBingo(exportRef)}
+                        onDownload={handleDownload}
                         disabled={isInPreviewMode}
+                        isDownloading={isDownloading}
                     />
 
                     <Button
                         size="sm"
-                        onClick={() => downloadBingo(exportRef)}
-                        disabled={isInPreviewMode}
+                        onClick={handleDownload}
+                        disabled={isInPreviewMode || isDownloading}
                     >
-                        <Download className="size-4 mr-2" />
+                        {isDownloading ? (
+                            <Loader2 className="size-4 mr-2 animate-spin" />
+                        ) : (
+                            <Download className="size-4 mr-2" />
+                        )}
                         {t("download")}
                     </Button>
 
