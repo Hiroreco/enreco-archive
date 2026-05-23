@@ -159,11 +159,16 @@ const BingoExport = ({
                 height={40}
                 width={100}
                 className={cn(
-                    "md:h-45 h-35 w-auto object-cover mx-auto pointer-events-none",
-                    {
-                        "h-45": downloadMode,
-                    },
+                    "w-auto object-cover mx-auto pointer-events-none",
+                    downloadMode ? "h-45" : "",
                 )}
+                style={
+                    !downloadMode
+                        ? {
+                              height: "clamp(60px, min(40vw, 20vh), 180px)",
+                          }
+                        : undefined
+                }
             />
             <div className="relative">
                 {showDay && (
