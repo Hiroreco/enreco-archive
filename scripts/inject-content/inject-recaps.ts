@@ -151,6 +151,7 @@ async function processChapter(chapterNum: number) {
 
                     let title = "";
                     let status = "";
+                    let faction = "";
 
                     // Extract title
                     if (/^<!--\s*title:\s*(.+?)\s*-->$/.test(lines[0])) {
@@ -166,6 +167,15 @@ async function processChapter(chapterNum: number) {
                         status = lines
                             .shift()!
                             .replace(/^<!--\s*status:\s*(.+?)\s*-->$/, "$1")
+                            .trim();
+                        if (!lines[0]?.trim()) lines.shift();
+                    }
+
+                    // Extract faction
+                    if (/^<!--\s*faction:\s*(.+?)\s*-->$/.test(lines[0])) {
+                        faction = lines
+                            .shift()!
+                            .replace(/^<!--\s*faction:\s*(.+?)\s*-->$/, "$1")
                             .trim();
                         if (!lines[0]?.trim()) lines.shift();
                     }
@@ -198,6 +208,13 @@ async function processChapter(chapterNum: number) {
                                 nd.data.status = { en: "", ja: "" } as any;
                             }
                             (nd.data.status as any)[locale] = status;
+                        }
+
+                        if (faction) {
+                            if (!isLocalizedString(nd.data.faction)) {
+                                nd.data.faction = { en: "", ja: "" } as any;
+                            }
+                            (nd.data.faction as any)[locale] = faction;
                         }
 
                         seenNodes.add(nd.id);
@@ -389,6 +406,9 @@ async function processChapter(chapterNum: number) {
                 }
                 if (zNode.data.status !== undefined) {
                     wNode.data.status = zNode.data.status;
+                }
+                if (zNode.data.faction !== undefined) {
+                    wNode.data.faction = zNode.data.faction;
                 }
             }
         });

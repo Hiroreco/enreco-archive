@@ -199,6 +199,14 @@ const NodeCard = ({
                                     : ""}
                             </div>
                         </div>
+                        {selectedNode?.data.faction && (
+                            <div className="flex flex-col items-center">
+                                <div className="font-semibold">
+                                    {tNodeCard("faction")}
+                                </div>
+                                <div>{selectedNode?.data.faction}</div>
+                            </div>
+                        )}
                         <div className="flex flex-col items-center">
                             <div className="font-semibold">
                                 {tNodeCard("status")}

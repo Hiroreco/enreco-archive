@@ -171,6 +171,7 @@ type CommonNodeData = {
     imageSrc: string;
     teamId: string;
     status: string;
+    faction?: string;
     day: number;
     bgCardColor: string;
 };

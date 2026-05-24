@@ -435,6 +435,7 @@
             "guild": "Guild",
             "job": "Job",
             "team": "Team",
+            "faction": "Faction",
             "status": "Status",
             "noContent": "No content available"
         },

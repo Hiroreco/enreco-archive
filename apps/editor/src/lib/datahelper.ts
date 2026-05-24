@@ -184,6 +184,7 @@ export async function exportData(editorChapters: EditorChapter[]) {
                                     imageSrc: node.data.imageSrc,
                                     teamId: node.data.teamId,
                                     status: node.data.status,
+                                    faction: node.data.faction,
                                     day: node.data.day,
                                     bgCardColor: node.data.bgCardColor,
                                 },
