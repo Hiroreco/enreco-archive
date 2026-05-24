@@ -31,6 +31,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
+import { cn } from "@enreco-archive/common-ui/lib/utils";
 
 interface Props {
     isCardOpen: boolean;
@@ -187,7 +188,14 @@ const NodeCard = ({
                     </div>
 
                     <Separator className="h-px w-full bg-border" />
-                    <div className="flex flex-row justify-around w-full">
+                    <div
+                        className={cn(
+                            "grid w-full",
+                            selectedNode?.data.faction
+                                ? "grid-cols-3"
+                                : "grid-cols-2",
+                        )}
+                    >
                         <div className="flex flex-col items-center">
                             <div className="font-semibold">
                                 {chapter === 0
@@ -207,7 +215,9 @@ const NodeCard = ({
                                 <div className="font-semibold">
                                     {tNodeCard("faction")}
                                 </div>
-                                <div>{nodeFaction}</div>
+                                <div>
+                                    {nodeFaction ? tConstants(nodeFaction) : ""}
+                                </div>
                             </div>
                         )}
                         <div className="flex flex-col items-center">
