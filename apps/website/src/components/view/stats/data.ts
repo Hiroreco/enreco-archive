@@ -13,78 +13,85 @@ import chapter1Raw from "#/recaps/chapter1.json";
 // Which chapter index from the recaps to use when deriving teams
 export const CHAPTER = 1;
 
-/**
- * Build TeamData[] for a given day from the raw chapter JSON.
- * Teams are derived by grouping nodes by their `data.teamId` field.
- */
-const buildTeamsFromChapter = (chapterRaw: any, day: number) => {
-  const chart = chapterRaw.charts[day - 1];
-  if (!chart) return [];
+type AssignmentKey = "teamId" | "faction";
 
-  const membersByTeam: Record<string, string[]> = {};
-
-  for (const node of chart.nodes || []) {
-    const teamId = node.data?.teamId;
-    if (!teamId) continue;
-    if (teamId === "none") continue;
-
-    membersByTeam[teamId] = membersByTeam[teamId] || [];
-    // node.id in the raw chapter is the talent id (e.g. "calli")
-    membersByTeam[teamId].push(node.id);
-  }
-
-  // Preserve chapter teams order when possible
-  let teamsMeta = chapterRaw.teams || {};
-  // filter out "none" team
-  teamsMeta = Object.fromEntries(
-    Object.entries(teamsMeta).filter(([teamId]) => teamId !== "none"),
-  );
-
-  const orderedTeamIds = Object.keys(teamsMeta);
-
-  return orderedTeamIds.map((teamId) => {
-    const rawName = teamsMeta[teamId]?.name;
-    const localizedName =
-      typeof rawName === "object"
-        ? rawName
-        : { en: rawName || teamId, ja: rawName || teamId };
-
-    return {
-      name: localizedName,
-      image: teamsMeta[teamId]?.teamIconSrc || undefined,
-      members: membersByTeam[teamId] || [],
-    };
-  });
+type GroupData = {
+  name: { en: string; ja: string };
+  image?: string;
+  members: string[];
 };
 
-/**
- * Build factions-like TeamData[] for a given day by grouping nodes by
- * their `data.faction` field. Uses the chapter's `factions` array to
- * preserve ordering when possible.
- */
-const buildFactionsFromChapter = (chapterRaw: any, day: number) => {
-  const chart = chapterRaw.charts[day - 1];
-  if (!chart) return [];
-
-  const membersByFaction: Record<string, string[]> = {};
-
-  for (const node of chart.nodes || []) {
-    const factionId = node.data?.faction;
-    if (!factionId) continue;
-
-    membersByFaction[factionId] = membersByFaction[factionId] || [];
-    membersByFaction[factionId].push(node.id);
-  }
-
+const buildCumulativeGroupsFromChapter = (
+  chapterRaw: any,
+  day: number,
+  assignmentKey: AssignmentKey,
+): GroupData[] => {
+  const charts = chapterRaw.charts || [];
+  const teamsMeta = chapterRaw.teams || {};
   const factionIds: string[] = Array.isArray(chapterRaw.factions)
     ? chapterRaw.factions
     : [];
 
-  return factionIds.map((fid) => ({
-    name: { en: fid, ja: fid },
-    members: membersByFaction[fid] || [],
-  }));
+  const orderedGroupIds =
+    assignmentKey === "teamId"
+      ? Object.keys(
+            Object.fromEntries(
+                Object.entries(teamsMeta).filter(([teamId]) => teamId !== "none"),
+            ),
+        )
+      : factionIds;
+
+  const lastKnownGroupByMember = new Map<string, string>();
+
+  for (let chartIndex = 0; chartIndex < day; chartIndex += 1) {
+    const chart = charts[chartIndex];
+    if (!chart) continue;
+
+    for (const node of chart.nodes || []) {
+      const groupId = node.data?.[assignmentKey];
+      if (!groupId || groupId === "none") continue;
+
+      lastKnownGroupByMember.set(node.id, groupId);
+    }
+  }
+
+  const membersByGroup = new Map<string, string[]>();
+  for (const groupId of orderedGroupIds) {
+    membersByGroup.set(groupId, []);
+  }
+
+  for (const [memberId, groupId] of lastKnownGroupByMember.entries()) {
+    if (!membersByGroup.has(groupId)) continue;
+    membersByGroup.get(groupId)?.push(memberId);
+  }
+
+  return orderedGroupIds.map((groupId) => {
+    if (assignmentKey === "teamId") {
+      const rawName = teamsMeta[groupId]?.name;
+      const localizedName =
+        typeof rawName === "object"
+          ? rawName
+          : { en: rawName || groupId, ja: rawName || groupId };
+
+      return {
+        name: localizedName,
+        image: teamsMeta[groupId]?.teamIconSrc || undefined,
+        members: membersByGroup.get(groupId) || [],
+      };
+    }
+
+    return {
+      name: { en: groupId, ja: groupId },
+      members: membersByGroup.get(groupId) || [],
+    };
+  });
 };
+
+const buildTeamsFromChapter = (chapterRaw: any, day: number) =>
+  buildCumulativeGroupsFromChapter(chapterRaw, day, "teamId");
+
+const buildFactionsFromChapter = (chapterRaw: any, day: number) =>
+  buildCumulativeGroupsFromChapter(chapterRaw, day, "faction");
 
 export const TALENTS: Talent[] = [
   {
