@@ -105,6 +105,9 @@ const NodeCard = ({
 
     const nodeTeamId = selectedNode?.data.teamId ?? null;
     const nodeTeam = nodeTeamId !== null ? chapterData.teams[nodeTeamId] : null;
+
+    const nodeFaction = selectedNode?.data.faction ?? null;
+
     const { contentWithoutFanart, fanartEntries } = useMemo(
         () => getCardFanartData((selectedNode?.data.content as string) || ""),
         [selectedNode?.data.content],
@@ -204,7 +207,7 @@ const NodeCard = ({
                                 <div className="font-semibold">
                                     {tNodeCard("faction")}
                                 </div>
-                                <div>{selectedNode?.data.faction}</div>
+                                <div>{nodeFaction}</div>
                             </div>
                         )}
                         <div className="flex flex-col items-center">

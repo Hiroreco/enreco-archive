@@ -26,6 +26,7 @@ function createBlankChapter(): EditorChapter {
         charts: [],
         relationships: {},
         teams: {},
+        factions: [],
         bgiSrc: "",
         bgmSrc: "",
     };
@@ -90,6 +91,7 @@ interface EditorDataSlice {
 
     setChapterTitle: (title: string) => void;
     setChapterTeams: (teams: TeamMap) => void;
+    setChapterFactions: (factions: string[]) => void;
     setChapterRelationships: (relationships: RelationshipMap) => void;
 
     setDayTitle: (title: string) => void;
@@ -335,6 +337,13 @@ const createEditorDataSlice: StateCreator<
 
         set((state) => {
             state.data[get().chapter!].teams = teams;
+        });
+    },
+    setChapterFactions: (factions) => {
+        stateChapterNotNull(get());
+
+        set((state) => {
+            state.data[get().chapter!].factions = factions;
         });
     },
     setChapterRelationships: (relationships) => {

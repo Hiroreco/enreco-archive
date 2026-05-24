@@ -150,6 +150,10 @@ const EditorApp = () => {
         editorStore.chapter !== null && editorStore.data
             ? editorStore.data[editorStore.chapter].teams
             : {};
+    const factions =
+        editorStore.chapter !== null && editorStore.data
+            ? editorStore.data[editorStore.chapter].factions || []
+            : [];
     const relationships =
         editorStore.chapter !== null && editorStore.data
             ? editorStore.data[editorStore.chapter].relationships
@@ -284,7 +288,6 @@ const EditorApp = () => {
             editorStore.deleteDay(editorStore.day);
         }
     };
-
 
     return (
         <>
@@ -523,6 +526,7 @@ const EditorApp = () => {
                 isVisible={editorStore.currentCard === "node"}
                 selectedNode={editorStore.selectedNode || EMPTY_NODE}
                 teams={teams}
+                factions={factions}
                 nodes={nodes}
                 updateNode={updateNodeEH}
                 deleteNode={deleteNode}

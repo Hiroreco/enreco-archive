@@ -40,6 +40,7 @@ function getUniqueId(newId: string, origId: string, nodeIds: string[]) {
 interface EditorNodeCardProps {
     isVisible: boolean;
     teams: TeamMap;
+    factions: string[];
     nodes: EditorImageNodeType[];
     selectedNode: EditorImageNodeType;
     updateNode: (
@@ -54,6 +55,7 @@ interface EditorNodeCardProps {
 export default function EditorNodeCard({
     isVisible,
     teams,
+    factions,
     nodes,
     selectedNode,
     updateNode,
@@ -232,12 +234,21 @@ export default function EditorNodeCard({
                     name="faction"
                 >
                     <SelectTrigger id="node-faction">
-                        <SelectValue placeholder="Select a faction" />
+                        <SelectValue
+                            placeholder={
+                                workingNode.data.faction
+                                    ? workingNode.data.faction
+                                    : "None"
+                            }
+                        />
                     </SelectTrigger>
                     <SelectContent>
                         <SelectItem value="none">None</SelectItem>
-                        <SelectItem value="good">Good</SelectItem>
-                        <SelectItem value="bad">Bad</SelectItem>
+                        {factions.map((factionName) => (
+                            <SelectItem key={factionName} value={factionName}>
+                                {factionName}
+                            </SelectItem>
+                        ))}
                     </SelectContent>
                 </Select>
 
