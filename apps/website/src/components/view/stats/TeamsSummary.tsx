@@ -57,10 +57,13 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                     t.members.includes(memberId),
                 );
                 if (prevTeamIdx !== currTeamIdx) {
-                    const prevTeamName = getLocalizedText(
-                        prevData.teams[prevTeamIdx].name,
-                        locale,
-                    );
+                    const prevTeamName =
+                        prevTeamIdx >= 0 && prevData.teams[prevTeamIdx]
+                            ? getLocalizedText(
+                                  prevData.teams[prevTeamIdx].name,
+                                  locale,
+                              )
+                            : tCommon("none");
                     const currTeamName = getLocalizedText(curr.name, locale);
                     changes.push({
                         member: memberId,

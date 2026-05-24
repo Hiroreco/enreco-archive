@@ -8,6 +8,48 @@ import { day5Data } from "./stats-data/day5";
 import { day6Data } from "./stats-data/day6";
 import { day7Data } from "./stats-data/day7";
 import { day8Data } from "./stats-data/day8";
+import chapter1Raw from "#/recaps/chapter1.json";
+
+// Which chapter index from the recaps to use when deriving teams
+export const CHAPTER = 1;
+
+/**
+ * Build TeamData[] for a given day from the raw chapter JSON.
+ * Teams are derived by grouping nodes by their `data.teamId` field.
+ */
+const buildTeamsFromChapter = (chapterRaw: any, day: number) => {
+  const chart = chapterRaw.charts[day - 1];
+  if (!chart) return [];
+
+  const membersByTeam: Record<string, string[]> = {};
+
+  for (const node of chart.nodes || []) {
+    const teamId = node.data?.teamId;
+    if (!teamId) continue;
+
+    membersByTeam[teamId] = membersByTeam[teamId] || [];
+    // node.id in the raw chapter is the talent id (e.g. "calli")
+    membersByTeam[teamId].push(node.id);
+  }
+
+  // Preserve chapter teams order when possible
+  const teamsMeta = chapterRaw.teams || {};
+  const orderedTeamIds = Object.keys(teamsMeta);
+
+  return orderedTeamIds.map((teamId) => {
+    const rawName = teamsMeta[teamId]?.name;
+    const localizedName =
+      typeof rawName === "object"
+        ? rawName
+        : { en: rawName || teamId, ja: rawName || teamId };
+
+    return {
+      name: localizedName,
+      image: teamsMeta[teamId]?.teamIconSrc || undefined,
+      members: membersByTeam[teamId] || [],
+    };
+  });
+};
 
 export const TALENTS: Talent[] = [
   {
@@ -129,15 +171,18 @@ export const TALENTS: Talent[] = [
 export const talentById = (id: string): Talent | undefined =>
   TALENTS.find((t) => t.id === id);
 
+// Ensure each day's teams are derived from the chapter data so they reflect
+// the actual assignments in the chapter JSON. Other day-specific data
+// (choices / continuous) remains untouched from the existing day files.
 export const TRACKER_DATA: TrackerData = {
-  1: day1Data,
-  2: day2Data,
-  3: day3Data,
-  4: day4Data,
-  5: day5Data,
-  6: day6Data,
-  7: day7Data,
-  8: day8Data,
+  1: { ...day1Data, teams: buildTeamsFromChapter(chapter1Raw, 1) },
+  2: { ...day2Data, teams: buildTeamsFromChapter(chapter1Raw, 2) },
+  3: { ...day3Data, teams: buildTeamsFromChapter(chapter1Raw, 3) },
+  4: { ...day4Data, teams: buildTeamsFromChapter(chapter1Raw, 4) },
+  5: { ...day5Data, teams: buildTeamsFromChapter(chapter1Raw, 5) },
+  6: { ...day6Data, teams: buildTeamsFromChapter(chapter1Raw, 6) },
+  7: { ...day7Data, teams: buildTeamsFromChapter(chapter1Raw, 7) },
+  8: { ...day8Data, teams: buildTeamsFromChapter(chapter1Raw, 8) },
 };
 
 export const TOTAL_DAYS = 8;
