@@ -26,6 +26,7 @@ const buildTeamsFromChapter = (chapterRaw: any, day: number) => {
   for (const node of chart.nodes || []) {
     const teamId = node.data?.teamId;
     if (!teamId) continue;
+    if (teamId === "none") continue;
 
     membersByTeam[teamId] = membersByTeam[teamId] || [];
     // node.id in the raw chapter is the talent id (e.g. "calli")
@@ -33,7 +34,12 @@ const buildTeamsFromChapter = (chapterRaw: any, day: number) => {
   }
 
   // Preserve chapter teams order when possible
-  const teamsMeta = chapterRaw.teams || {};
+  let teamsMeta = chapterRaw.teams || {};
+  // filter out "none" team
+  teamsMeta = Object.fromEntries(
+    Object.entries(teamsMeta).filter(([teamId]) => teamId !== "none"),
+  );
+
   const orderedTeamIds = Object.keys(teamsMeta);
 
   return orderedTeamIds.map((teamId) => {

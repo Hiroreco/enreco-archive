@@ -1,12 +1,12 @@
 import type { TeamData, LocalizedString } from "./types";
 import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
-import { FactionsSummary } from "@/components/view/stats/FactionsSummary";
 import { useSettingStore } from "@/store/settingStore";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { SectionLabel } from "./TeamSection";
+import { FactionsSummary } from "@/components/view/stats/FactionsSummary";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -34,7 +34,7 @@ export function FactionsSection({
                 <SectionLabel>{t("factions")}</SectionLabel>
                 <FactionsSummary currentDay={currentDay} />
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <AnimatePresence mode="popLayout">
                     {factions.map((faction, factionIndex) => {
                         const unique = [...new Set(faction.members)];
