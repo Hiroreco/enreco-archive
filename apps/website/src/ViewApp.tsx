@@ -22,6 +22,7 @@ import { useSettingStore } from "@/store/settingStore";
 import { IconButton } from "@enreco-archive/common-ui/components/IconButton";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import {
+    BarChart3,
     Book,
     Dice6,
     Disc3,
@@ -29,7 +30,6 @@ import {
     Newspaper,
     Palette,
     Settings,
-    BarChart3,
 } from "lucide-react";
 import { DRAWER_OPEN_CLOSE_ANIM_TIME_MS } from "./components/view/chart-cards/VaulDrawer";
 
@@ -40,9 +40,8 @@ import ChangelogModal from "@/components/view/basic-modals/Changelog";
 import NewsModal from "@/components/view/basic-modals/NewsModal";
 import FanartModal from "@/components/view/fanart/FanartModal";
 import MusicPlayerModal from "@/components/view/jukebox/MusicPlayerModal";
-import { StatsModal } from "@/components/view/stats/StatsModal";
-import ComingSoonCard from "@/components/view/other/ComingSoonCard";
 import CountdownCard from "@/components/view/other/CountdownCard";
+import { StatsModal } from "@/components/view/stats/StatsModal";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
@@ -51,10 +50,10 @@ import {
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
+import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCompleteChartData } from "./hooks/data/useCompleteChartData";
-import { AnimatePresence, motion } from "framer-motion";
 
 function parseChapterAndDayFromBrowserHash(hash: string): number[] | null {
     const parseOrZero = (value: string): number => {
@@ -268,9 +267,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         // Verify values, if invalid, reset to 0/0
         if (parsedValues) {
             let [chapter, day] = parsedValues;
-            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
-            chapter = chapter === 2 ? 1 : chapter;
-            console.log(chapter, day);
 
             if (
                 chapter < 0 ||
@@ -284,11 +280,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             }
             changeWorkingData(chapter, day);
         } else {
-            // TODO: Remove this after chapter 3 has started. Defaulting to chapter 2 on load but still make it possible to select chapter 3.
             let chapter = siteData.numberOfChapters - 1;
-            if (chapter === 2) {
-                chapter = 1;
-            }
             setBrowserHash(`${chapter}/0`);
             changeWorkingData(chapter, 0);
         }
@@ -371,16 +363,12 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     return (
         <>
             <div className="w-screen h-dvh top-0 inset-x-0 overflow-hidden">
-                {chapter <= 1 && (
-                    <Chart
-                        widthToShrink={chartShrink}
-                        onNodeClick={onNodeClick}
-                        onEdgeClick={onEdgeClick}
-                        onPaneClick={onCardClose}
-                    />
-                )}
-                {/* Coming soon card, shown for chapter 3 only */}
-                {chapter > 1 && <ComingSoonCard />}
+                <Chart
+                    widthToShrink={chartShrink}
+                    onNodeClick={onNodeClick}
+                    onEdgeClick={onEdgeClick}
+                    onPaneClick={onCardClose}
+                />
                 <AnimatePresence mode="sync">
                     <motion.div
                         key={bgImage}
@@ -488,8 +476,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     {
                         invisible: currentCard !== null,
                         visible: currentCard === null,
-                        // TODO: remove when chapter 3 starts
-                        hidden: chapter > 1,
                     },
                 )}
             >
@@ -504,7 +490,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 </button>
                 {chapter === 2 && (
                     <button
-                        // TODO: Hiding this for now, show it when chapter 3 starts
                         className="flex py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] items-center justify-center gap-2"
                         onClick={openStatsModal}
                         title="Stats"
@@ -542,8 +527,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     id="chart-info-btn"
                     className="h-10 w-10 p-0 bg-transparent outline-hidden border-0 transition-all cursor-pointer hover:opacity-80 hover:scale-110 relative"
                     tooltipText={tNavTooltips("dayRecapVisibility")}
-                    // TODO: remove when chapter 3 starts
-                    enabled={chapter <= 1}
                     tooltipSide="left"
                     onClick={() => {
                         if (currentCard === "setting") {

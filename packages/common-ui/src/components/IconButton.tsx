@@ -10,7 +10,7 @@ import { ReactNode } from "react";
 interface IconButtonProps {
     id?: string;
     tooltipText: string;
-    enabled: boolean;
+    enabled?: boolean;
     className?: string;
     tooltipSide?: "top" | "right" | "bottom" | "left";
     onClick: () => void;
@@ -20,7 +20,7 @@ interface IconButtonProps {
 export function IconButton({
     id,
     tooltipText,
-    enabled,
+    enabled = true,
     className,
     tooltipSide = "top",
     onClick,
