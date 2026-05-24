@@ -1,20 +1,11 @@
-import type { TeamData, LocalizedString } from "./types";
-import { talentById } from "./data";
+import { FactionsSummary } from "@/components/view/stats/FactionsSummary";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
-import { useSettingStore } from "@/store/settingStore";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { talentById } from "./data";
 import { SectionLabel } from "./TeamSection";
-import { FactionsSummary } from "@/components/view/stats/FactionsSummary";
-
-function getLocalizedText(
-    text: LocalizedString | string,
-    locale: "en" | "ja",
-): string {
-    if (typeof text === "string") return text;
-    return text[locale];
-}
+import type { TeamData } from "./types";
 
 interface FactionsSectionProps {
     factions?: TeamData[];
@@ -25,8 +16,8 @@ export function FactionsSection({
     factions = [],
     currentDay,
 }: FactionsSectionProps) {
-    const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
+    const tConstants = useTranslations("constants");
 
     return (
         <section>
@@ -38,10 +29,7 @@ export function FactionsSection({
                 <AnimatePresence mode="popLayout">
                     {factions.map((faction, factionIndex) => {
                         const unique = [...new Set(faction.members)];
-                        const factionName = getLocalizedText(
-                            faction.name,
-                            locale,
-                        );
+                        const factionName = tConstants(faction.name);
 
                         return (
                             <motion.div

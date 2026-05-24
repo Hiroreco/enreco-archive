@@ -16,7 +16,7 @@ export const CHAPTER = 1;
 type AssignmentKey = "teamId" | "faction";
 
 type GroupData = {
-  name: { en: string; ja: string };
+  name: string;
   image?: string;
   members: string[];
 };
@@ -67,21 +67,16 @@ const buildCumulativeGroupsFromChapter = (
 
   return orderedGroupIds.map((groupId) => {
     if (assignmentKey === "teamId") {
-      const rawName = teamsMeta[groupId]?.name;
-      const localizedName =
-        typeof rawName === "object"
-          ? rawName
-          : { en: rawName || groupId, ja: rawName || groupId };
-
       return {
-        name: localizedName,
+        // this is stupid but im tired
+        name: groupId,
         image: teamsMeta[groupId]?.teamIconSrc || undefined,
         members: membersByGroup.get(groupId) || [],
       };
     }
 
     return {
-      name: { en: groupId, ja: groupId },
+      name: groupId,
       members: membersByGroup.get(groupId) || [],
     };
   });

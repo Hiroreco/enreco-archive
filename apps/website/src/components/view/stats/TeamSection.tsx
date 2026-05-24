@@ -1,19 +1,10 @@
-import type { TeamData, LocalizedString } from "./types";
-import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
 import { TeamsSummary } from "@/components/view/stats/TeamsSummary";
-import { useSettingStore } from "@/store/settingStore";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
-function getLocalizedText(
-    text: LocalizedString | string,
-    locale: "en" | "ja",
-): string {
-    if (typeof text === "string") return text;
-    return text[locale];
-}
+import { talentById } from "./data";
+import type { TeamData } from "./types";
 
 interface TeamsSectionProps {
     teams: TeamData[];
@@ -21,8 +12,8 @@ interface TeamsSectionProps {
 }
 
 export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
-    const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
+    const tConstants = useTranslations("constants");
 
     return (
         <section>
@@ -39,7 +30,7 @@ export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
                 <AnimatePresence mode="popLayout">
                     {teams.map((team, teamIndex) => {
                         const unique = [...new Set(team.members)];
-                        const teamName = getLocalizedText(team.name, locale);
+                        const teamName = tConstants(team.name);
 
                         return (
                             <motion.div
