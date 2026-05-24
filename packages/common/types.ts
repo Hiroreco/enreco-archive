@@ -103,6 +103,7 @@ export type LocalizedChapter = {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     charts: any[];
     teams: TeamMap;
+    factions?: string[];
     relationships: RelationshipMap;
     bgiSrc: string;
     bgmSrc: string;
@@ -114,6 +115,7 @@ export type Chapter = {
     title: string;
     charts: ChartData[];
     teams: TeamMap;
+    factions: string[];
     relationships: RelationshipMap;
     bgiSrc: string;
     bgmSrc: string;
@@ -124,6 +126,7 @@ export type EditorChapter = {
     title: string | LocalizedString;
     charts: EditorChartData[];
     teams: TeamMap;
+    factions: string[];
     relationships: RelationshipMap;
     bgiSrc: string;
     bgmSrc: string;
@@ -171,6 +174,7 @@ type CommonNodeData = {
     imageSrc: string;
     teamId: string;
     status: string;
+    faction?: string;
     day: number;
     bgCardColor: string;
 };

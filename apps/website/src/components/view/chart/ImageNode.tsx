@@ -1,18 +1,18 @@
-import { ImageNodeProps } from "@enreco-archive/common/types";
 import { getBlurDataURL } from "@/lib/utils";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
+import { ImageNodeProps } from "@enreco-archive/common/types";
 import { Handle, HandleType, Position } from "@xyflow/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import { memo, useContext, useMemo } from "react";
+import { memo, useMemo } from "react";
 
-import "./ImageNode.css";
+import { useCurrentTeams } from "@/hooks/data/useCurrentTeams";
 import {
     getReadStatus,
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { useViewStore } from "@/store/viewStore";
-import { useCurrentTeams } from "@/hooks/data/useCurrentTeams";
+import "./ImageNode.css";
 
 const NUM_OF_HANDLES = 5;
 
@@ -89,6 +89,10 @@ const ImageNode = ({ data, selected, id, selectable }: ImageNodeProps) => {
                 <Image
                     className={cn(
                         "aspect-square object-cover rounded-lg absolute z-10",
+                        {
+                            "ring-4 ring-blue-500": data.faction === "good",
+                            "ring-4 ring-red-500": data.faction === "bad",
+                        },
                     )}
                     src={data.imageSrc || ""}
                     width={100}

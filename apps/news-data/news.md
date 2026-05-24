@@ -138,3 +138,10 @@ https://x.com/hololive_En/status/2057296573642526871
 https://x.com/hololive_En/status/2057299089176576456
 https://x.com/hololive_En/status/2057297830734090249
 https://x.com/hololive_En/status/2057295317062824260
+https://x.com/hololive_En/status/2058306987163574654
+https://x.com/hololive_En/status/2058344602084708354
+https://x.com/hololive_En/status/2058348504020349077
+https://x.com/hololive_En/status/2058352283818356749
+https://x.com/hololive_En/status/2058359828355989971
+https://x.com/hololive_En/status/2058363603326304663
+https://x.com/hololive_En/status/2058356433331302875

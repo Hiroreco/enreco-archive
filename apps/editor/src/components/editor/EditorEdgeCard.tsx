@@ -130,7 +130,11 @@ const EdgeEditorCard = ({
                 <Input
                     id="edge-title"
                     type="text"
-                    value={workingEdge.data!.title}
+                    value={
+                        typeof workingEdge.data!.title === "object"
+                            ? (workingEdge.data!.title as any).en
+                            : workingEdge.data!.title
+                    }
                     readOnly
                     disabled
                 />

@@ -1317,6 +1317,20 @@
         },
         "src": "https://www.youtube.com/watch?v=5I9UZAUW6qc",
         "type": "youtube"
+      },
+      {
+        "title": {
+          "en": "【3D】ENigmatic Recollection - Chapter 3 Begins!【#ENreco】",
+          "ja": "【3D】ENigmatic Recollection - Chapter 3 Begins!【#ENreco】"
+        },
+        "originalUrl": "https://www.youtube.com/watch?v=Ti5HYVR5SqQ",
+        "thumbnailUrl": "/images-opt/c3-misc-program-opt.webp",
+        "info": {
+          "en": "The 3D program for Chapter 3, the one where Gigi gave Shiori a concussion.",
+          "ja": "第3章の3D配信、ジジがしおりを脳震盪（のうしんとう）にしたやつ"
+        },
+        "src": "https://www.youtube.com/watch?v=Ti5HYVR5SqQ",
+        "type": "youtube"
       }
     ]
   }

@@ -3,7 +3,7 @@ import { useLocalizedData } from "../useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { isEdge, isNode } from "@xyflow/react";
-import { useShallow } from 'zustand/react/shallow';
+import { useShallow } from "zustand/react/shallow";
 import { useMemo } from "react";
 
 export function useCompleteChartData() {
@@ -12,30 +12,38 @@ export function useCompleteChartData() {
         day,
         team,
         character,
+        faction,
         selectedElement,
         relationshipVisibility,
-        showOnlyNewEdges
-    ] = useViewStore(useShallow((state) => [
-        state.chapter,
-        state.day,
-        state.team,
-        state.character,
-        state.selectedElement,
-        state.relationship,
-        state.showOnlyNewEdges
-    ]));
+        showOnlyNewEdges,
+    ] = useViewStore(
+        useShallow((state) => [
+            state.chapter,
+            state.day,
+            state.team,
+            state.character,
+            state.faction,
+            state.selectedElement,
+            state.relationship,
+            state.showOnlyNewEdges,
+        ]),
+    );
 
     const { getChapter } = useLocalizedData();
 
     const completeData = useMemo(() => {
         const chapterData = getChapter(chapter);
-    
+
         const { nodes, edges } = resolveDataForDay(chapterData.charts, day);
 
         for (const node of nodes) {
             node.hidden = !(
-                team[node.data.teamId || "null"] && character[node.id]
+                team[node.data.teamId || "null"] &&
+                character[node.id] &&
+                (node.data.faction === undefined ||
+                    (faction[node.data.faction] ?? true))
             );
+
             if (selectedElement) {
                 if (isNode(selectedElement)) {
                     node.selected =
@@ -50,12 +58,8 @@ export function useCompleteChartData() {
         }
 
         for (const edge of edges) {
-            const sourceNode = nodes.find(
-                (n) => n.id === edge.source,
-            );
-            const targetNode = nodes.find(
-                (n) => n.id === edge.target,
-            );
+            const sourceNode = nodes.find((n) => n.id === edge.source);
+            const targetNode = nodes.find((n) => n.id === edge.target);
 
             const edgesNodesAreVisible =
                 sourceNode !== undefined &&
@@ -84,7 +88,16 @@ export function useCompleteChartData() {
         }
 
         return { nodes, edges };
-    }, [chapter, day, team, character, selectedElement, relationshipVisibility, showOnlyNewEdges]);
+    }, [
+        chapter,
+        day,
+        team,
+        character,
+        faction,
+        selectedElement,
+        relationshipVisibility,
+        showOnlyNewEdges,
+    ]);
 
     return completeData;
 }

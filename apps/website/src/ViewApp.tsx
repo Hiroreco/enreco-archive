@@ -126,6 +126,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
 
     const setTeamKeys = useViewStore((state) => state.setTeamKeys);
+    const setFactionKeys = useViewStore((state) => state.setFactionKeys);
 
     const setCharacterKeys = useViewStore((state) => state.setCharacterKeys);
     const openModal = useViewStore((state) => state.openModal);
@@ -249,6 +250,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         setRelationshipKeys(newChapterData.relationships);
         setTeamKeys(newChapterData.teams);
         setCharacterKeys(newDayData.nodes);
+        setFactionKeys(newDayData.nodes);
 
         if (!isMusicPlayerPlaying) {
             changeBGM(newChapterData.bgmSrc);
@@ -500,15 +502,17 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                         total: totalCount,
                     })}
                 </button>
-                <button
-                    // TODO: Hiding this for now, show it when chapter 3 starts
-                    className="hidden py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] items-center justify-center gap-2"
-                    onClick={openStatsModal}
-                    title="Stats"
-                >
-                    <BarChart3 className="w-4 h-4" />
-                    <span>{tNavTooltips("stats")}</span>
-                </button>
+                {chapter === 2 && (
+                    <button
+                        // TODO: Hiding this for now, show it when chapter 3 starts
+                        className="flex py-2 bg-background/80 border-2 hover:border-accent-foreground rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-all w-[120px] items-center justify-center gap-2"
+                        onClick={openStatsModal}
+                        title="Stats"
+                    >
+                        <BarChart3 className="w-4 h-4" />
+                        <span>{tNavTooltips("stats")}</span>
+                    </button>
+                )}
             </div>
 
             <ReadCounter
@@ -527,7 +531,11 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                 onClose={closeModal}
             />
             <NewsModal open={openModal === "news"} onClose={closeModal} />
-            <StatsModal open={openModal === "stats"} onClose={closeModal} />
+            <StatsModal
+                open={openModal === "stats"}
+                onClose={closeModal}
+                currentDay={day}
+            />
 
             <div className="fixed top-0 right-0 m-[8px] z-10 flex flex-col gap-[8px]">
                 <IconButton

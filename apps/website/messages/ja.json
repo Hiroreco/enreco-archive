@@ -401,9 +401,9 @@
             "everyoneInitialChoice": "初期選択を行った",
             "changedFromTo": "{from}から{to}に変更",
             "movedFromTo": "{from}から{to}へ移動",
-
             "noChanges": "変更なし",
             "teams": "チーム",
+            "factions": "派閥",
             "continuousChoices": "継続的な選択肢",
             "continuousDescription": "— 日の間で変更される可能性があります",
             "oneTimeChoices": "一度限りの選択肢",
@@ -435,6 +435,7 @@
             "guild": "ギルド",
             "job": "職業",
             "team": "チーム",
+            "faction": "派閥",
             "status": "状況",
             "noContent": "利用可能なコンテンツがありません"
         },
@@ -453,7 +454,9 @@
             "showUpdatedEdgesOnly": "更新されたエッジのみ表示",
             "showAllEdges": "すべてのエッジを表示",
             "characterToggles": "キャラクター切り替え",
-            "showAllCharacters": "すべてのキャラクターを表示"
+            "showAllCharacters": "すべてのキャラクターを表示",
+            "factionToggles": "派閥切り替え",
+            "showAllFactions": "すべての派閥を表示"
         },
         "prevDay": "前の日",
         "nextDay": "次の日"
@@ -518,7 +521,13 @@
         "Maid": "メイド",
         "Guard Dog": "ガードドッグ",
         "Bros": "ブロス",
-        "Same Person": "同一人物"
+        "Same Person": "同一人物",
+        "bad": "悪い",
+        "good": "良い",
+        "chef": "シェフ",
+        "supplier": "サプライヤー",
+        "smith": "スミス",
+        "jeweler": "ジュエラー"
     },
     "loading": {
         "clickToStart": "どこかをクリックして開始",

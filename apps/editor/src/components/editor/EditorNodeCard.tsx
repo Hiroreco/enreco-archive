@@ -40,6 +40,7 @@ function getUniqueId(newId: string, origId: string, nodeIds: string[]) {
 interface EditorNodeCardProps {
     isVisible: boolean;
     teams: TeamMap;
+    factions: string[];
     nodes: EditorImageNodeType[];
     selectedNode: EditorImageNodeType;
     updateNode: (
@@ -54,6 +55,7 @@ interface EditorNodeCardProps {
 export default function EditorNodeCard({
     isVisible,
     teams,
+    factions,
     nodes,
     selectedNode,
     updateNode,
@@ -183,7 +185,11 @@ export default function EditorNodeCard({
                     type="text"
                     id="node-title"
                     name="title"
-                    value={workingNode.data.title}
+                    value={
+                        typeof workingNode.data.title === "object"
+                            ? (workingNode.data.title as any).en
+                            : workingNode.data.title
+                    }
                     readOnly
                     disabled
                     ref={titleElem}
@@ -199,10 +205,52 @@ export default function EditorNodeCard({
                     type="text"
                     id="node-status"
                     name="status"
-                    value={workingNode.data.status}
+                    value={
+                        typeof workingNode.data.status === "object"
+                            ? (workingNode.data.status as any).en
+                            : workingNode.data.status
+                    }
                     readOnly
                     disabled
                 />
+
+                <Label
+                    htmlFor="node-faction"
+                    className="text-right text-lg self-center"
+                >
+                    Faction
+                </Label>
+                <Select
+                    value={workingNode.data.faction || "none"}
+                    onValueChange={(value) =>
+                        setWorkingNodeAttr((draft) => {
+                            if (value === "none") {
+                                draft.data.faction = undefined;
+                            } else {
+                                draft.data.faction = value;
+                            }
+                        })
+                    }
+                    name="faction"
+                >
+                    <SelectTrigger id="node-faction">
+                        <SelectValue
+                            placeholder={
+                                workingNode.data.faction
+                                    ? workingNode.data.faction
+                                    : "None"
+                            }
+                        />
+                    </SelectTrigger>
+                    <SelectContent>
+                        <SelectItem value="none">None</SelectItem>
+                        {factions.map((factionName) => (
+                            <SelectItem key={factionName} value={factionName}>
+                                {factionName}
+                            </SelectItem>
+                        ))}
+                    </SelectContent>
+                </Select>
 
                 <Label
                     htmlFor="node-team"

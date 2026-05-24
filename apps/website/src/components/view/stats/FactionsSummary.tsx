@@ -24,17 +24,16 @@ function getLocalizedText(
     return text[locale];
 }
 
-interface TeamsSummaryProps {
+interface FactionsSummaryProps {
     currentDay: number;
 }
 
-export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
+export function FactionsSummary({ currentDay }: FactionsSummaryProps) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
     const tCommon = useTranslations("common");
 
-    // Calculate team changes for each day
-    const calculateTeamChanges = (day: number) => {
+    const calculateFactionChanges = (day: number) => {
         if (day === 1) {
             return [
                 {
@@ -50,25 +49,26 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
 
         const changes: Array<{ member: string; from: string; to: string }> = [];
 
-        // Find members who moved teams
-        currData.teams.forEach((curr, currTeamIdx) => {
+        (currData.factions || []).forEach((curr, currFactionIdx) => {
             curr.members.forEach((memberId) => {
-                const prevTeamIdx = prevData.teams.findIndex((t) =>
-                    t.members.includes(memberId),
+                const prevFactionIdx = (prevData.factions || []).findIndex(
+                    (t) => t.members.includes(memberId),
                 );
-                if (prevTeamIdx !== currTeamIdx) {
-                    const prevTeamName =
-                        prevTeamIdx >= 0 && prevData.teams[prevTeamIdx]
+                if (prevFactionIdx !== currFactionIdx) {
+                    const prevFactionName =
+                        prevFactionIdx >= 0 &&
+                        prevData.factions &&
+                        prevData.factions[prevFactionIdx]
                             ? getLocalizedText(
-                                  prevData.teams[prevTeamIdx].name,
+                                  prevData.factions[prevFactionIdx].name,
                                   locale,
                               )
                             : tCommon("none");
-                    const currTeamName = getLocalizedText(curr.name, locale);
+                    const currFactionName = getLocalizedText(curr.name, locale);
                     changes.push({
                         member: memberId,
-                        from: prevTeamName,
-                        to: currTeamName,
+                        from: prevFactionName,
+                        to: currFactionName,
                     });
                 }
             });
@@ -79,9 +79,8 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
 
     const dayChanges = Array.from({ length: currentDay }, (_, i) => {
         const day = i + 1;
-        const rawChanges = calculateTeamChanges(day);
+        const rawChanges = calculateFactionChanges(day);
 
-        // Check if this is a day 1 style change
         if (rawChanges.length > 0 && "change" in rawChanges[0]) {
             return {
                 day,
@@ -92,7 +91,6 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
             };
         }
 
-        // Group transition-style changes by "from -> to"
         const grouped: Array<{
             members: string[];
             from: string;
@@ -110,16 +108,15 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                 to: string;
             };
 
-            // Get team images from current day data
             const currData = TRACKER_DATA[day];
-            const fromTeam = currData?.teams.find(
+            const fromFaction = currData?.factions?.find(
                 (t) => getLocalizedText(t.name, locale) === change.from,
             );
-            const toTeam = currData?.teams.find(
+            const toFaction = currData?.factions?.find(
                 (t) => getLocalizedText(t.name, locale) === change.to,
             );
-            const fromImage = fromTeam?.image || "";
-            const toImage = toTeam?.image || "";
+            const fromImage = fromFaction?.image || "";
+            const toImage = toFaction?.image || "";
 
             const existing = grouped.find(
                 (g) => g.from === change.from && g.to === change.to,
@@ -168,7 +165,6 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                                 <ul className="text-xs space-y-2 ml-2">
                                     {changes.map((change, idx) => {
                                         if ("change" in change) {
-                                            // Day 1 format
                                             const dayChange = change as {
                                                 member: string;
                                                 change: string;
@@ -183,7 +179,6 @@ export function TeamsSummary({ currentDay }: TeamsSummaryProps) {
                                                 </li>
                                             );
                                         } else {
-                                            // Grouped format
                                             const groupedChange = change as {
                                                 members: string[];
                                                 from: string;

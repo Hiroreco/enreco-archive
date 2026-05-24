@@ -105,6 +105,11 @@ interface ViewVisibilitySlice {
     ) => void;
     toggleAllCharacters: (characterVisibility: boolean) => void;
     setCharacterKeys: (nodes: ImageNodeType[]) => void;
+
+    faction: { [key: string]: boolean };
+    toggleFaction: (factionId: string, factionVisibility: boolean) => void;
+    toggleAllFactions: (factionVisibility: boolean) => void;
+    setFactionKeys: (nodes: ImageNodeType[]) => void;
 }
 
 const createVisibilitySlice: StateCreator<
@@ -196,6 +201,33 @@ const createVisibilitySlice: StateCreator<
             }
 
             draft.character = newCharacterVisibility;
+        }),
+    faction: {},
+    toggleFaction: (factionId, factionVisibility) =>
+        set((draft) => {
+            draft.faction[factionId] = factionVisibility;
+        }),
+    toggleAllFactions: (factionVisibility: boolean) =>
+        set((draft) => {
+            const keys = Object.keys(draft.faction);
+            for (const key of keys) {
+                draft.faction[key] = factionVisibility;
+            }
+        }),
+    setFactionKeys: (nodes: ImageNodeType[]) =>
+        set((draft) => {
+            const factionIds = [
+                ...new Set(
+                    nodes
+                        .map((n) => n.data.faction)
+                        .filter((f): f is string => !!f),
+                ),
+            ];
+            const newFactionVisibility: { [key: string]: boolean } = {};
+            for (const key of factionIds) {
+                newFactionVisibility[key] = true;
+            }
+            draft.faction = newFactionVisibility;
         }),
 });
 

@@ -1,8 +1,18 @@
+import { execSync } from "child_process";
 import ffmpeg from "fluent-ffmpeg";
 import { existsSync } from "fs";
 import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
+
+function runScript(cmd: string, locale?: string) {
+    try {
+        const fullCmd = locale ? `${cmd} ${locale}` : cmd;
+        execSync(fullCmd, { stdio: "inherit" });
+    } catch (err) {
+        process.exit(1);
+    }
+}
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
 const SHARED_VIDEOS_FOLDER = "shared-resources/new-videos";
@@ -167,6 +177,8 @@ async function optimizeImages() {
     }
 
     console.log("✅ All media optimized.");
+
+    runScript("pnpm generate-thumbnails");
 }
 
 optimizeImages().catch((err) => {

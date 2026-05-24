@@ -146,10 +146,11 @@ ${chart.dayRecap}`;
             const nodeName = `${node.id}-c${chapterNum + 1}d${humanDay}`;
 
             // Add property tags at the start (not adding team because it's unlikely to be changed)
-            const nodeContent = `<!-- title: ${node.data.title || node.id} -->
-        <!-- status: ${node.data.status || "Unknown"} -->
-
-        ${node.data.content}`;
+            let nodeContent = `<!-- title: ${node.data.title || node.id} -->\n        <!-- status: ${node.data.status || "Unknown"} -->`;
+            if (node.data.faction) {
+                nodeContent += `\n        <!-- faction: ${node.data.faction} -->`;
+            }
+            nodeContent += `\n\n        ${node.data.content}`;
 
             await writeMd(nodesDir, nodeName, nodeContent);
         }

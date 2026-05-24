@@ -404,6 +404,7 @@
             "movedFromTo": "moved from {from} to {to}",
             "noChanges": "No changes",
             "teams": "Teams",
+            "factions": "Factions",
             "continuousChoices": "Continuous choices",
             "continuousDescription": "— can change between days",
             "oneTimeChoices": "One-time choices",
@@ -435,6 +436,7 @@
             "guild": "Guild",
             "job": "Job",
             "team": "Team",
+            "faction": "Faction",
             "status": "Status",
             "noContent": "No content available"
         },
@@ -453,7 +455,9 @@
             "showUpdatedEdgesOnly": "Show updated edges only",
             "showAllEdges": "Show all edges",
             "characterToggles": "Character Toggles",
-            "showAllCharacters": "Show all characters"
+            "showAllCharacters": "Show all characters",
+            "factionToggles": "Faction toggles",
+            "showAllFactions": "Show all factions"
         },
         "prevDay": "Previous Day",
         "nextDay": "Next Day"
@@ -517,7 +521,13 @@
         "Maid": "Maid",
         "Guard Dog": "Guard Dog",
         "Bros": "Bros",
-        "Same Person": "Same Person"
+        "Same Person": "Same Person",
+        "bad": "Bad",
+        "good": "Good",
+        "chef": "Chef",
+        "supplier": "Supplier",
+        "smith": "Smith",
+        "jeweler": "Jeweler"
     },
     "loading": {
         "clickToStart": "Click anywhere to start",
