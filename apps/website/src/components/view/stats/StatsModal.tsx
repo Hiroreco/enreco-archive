@@ -17,6 +17,7 @@ import {
 import { ChoicesSection } from "@/components/view/stats/ChoicesSection";
 import { ContinuousSection } from "@/components/view/stats/ContinuousSection";
 import { TeamsSection } from "@/components/view/stats/TeamSection";
+import { FactionsSection } from "@/components/view/stats/FactionsSection";
 import { TOTAL_DAYS, TRACKER_DATA } from "@/components/view/stats/data";
 import { useTranslations } from "next-intl";
 import { Separator } from "@enreco-archive/common-ui/components/separator";
@@ -90,6 +91,10 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                 </DialogHeader>
                 <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 max-h-[80dvh] overflow-y-auto">
                     <TeamsSection teams={data.teams} currentDay={day} />
+                    <FactionsSection
+                        factions={data.factions}
+                        currentDay={day}
+                    />
                     <ContinuousSection
                         continuous={data.continuous}
                         prevData={prevData}

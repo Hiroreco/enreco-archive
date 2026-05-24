@@ -51,6 +51,35 @@ const buildTeamsFromChapter = (chapterRaw: any, day: number) => {
   });
 };
 
+/**
+ * Build factions-like TeamData[] for a given day by grouping nodes by
+ * their `data.faction` field. Uses the chapter's `factions` array to
+ * preserve ordering when possible.
+ */
+const buildFactionsFromChapter = (chapterRaw: any, day: number) => {
+  const chart = chapterRaw.charts[day - 1];
+  if (!chart) return [];
+
+  const membersByFaction: Record<string, string[]> = {};
+
+  for (const node of chart.nodes || []) {
+    const factionId = node.data?.faction;
+    if (!factionId) continue;
+
+    membersByFaction[factionId] = membersByFaction[factionId] || [];
+    membersByFaction[factionId].push(node.id);
+  }
+
+  const factionIds: string[] = Array.isArray(chapterRaw.factions)
+    ? chapterRaw.factions
+    : [];
+
+  return factionIds.map((fid) => ({
+    name: { en: fid, ja: fid },
+    members: membersByFaction[fid] || [],
+  }));
+};
+
 export const TALENTS: Talent[] = [
   {
     id: "calli",
@@ -175,14 +204,46 @@ export const talentById = (id: string): Talent | undefined =>
 // the actual assignments in the chapter JSON. Other day-specific data
 // (choices / continuous) remains untouched from the existing day files.
 export const TRACKER_DATA: TrackerData = {
-  1: { ...day1Data, teams: buildTeamsFromChapter(chapter1Raw, 1) },
-  2: { ...day2Data, teams: buildTeamsFromChapter(chapter1Raw, 2) },
-  3: { ...day3Data, teams: buildTeamsFromChapter(chapter1Raw, 3) },
-  4: { ...day4Data, teams: buildTeamsFromChapter(chapter1Raw, 4) },
-  5: { ...day5Data, teams: buildTeamsFromChapter(chapter1Raw, 5) },
-  6: { ...day6Data, teams: buildTeamsFromChapter(chapter1Raw, 6) },
-  7: { ...day7Data, teams: buildTeamsFromChapter(chapter1Raw, 7) },
-  8: { ...day8Data, teams: buildTeamsFromChapter(chapter1Raw, 8) },
+  1: {
+    ...day1Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 1),
+    factions: buildFactionsFromChapter(chapter1Raw, 1),
+  },
+  2: {
+    ...day2Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 2),
+    factions: buildFactionsFromChapter(chapter1Raw, 2),
+  },
+  3: {
+    ...day3Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 3),
+    factions: buildFactionsFromChapter(chapter1Raw, 3),
+  },
+  4: {
+    ...day4Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 4),
+    factions: buildFactionsFromChapter(chapter1Raw, 4),
+  },
+  5: {
+    ...day5Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 5),
+    factions: buildFactionsFromChapter(chapter1Raw, 5),
+  },
+  6: {
+    ...day6Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 6),
+    factions: buildFactionsFromChapter(chapter1Raw, 6),
+  },
+  7: {
+    ...day7Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 7),
+    factions: buildFactionsFromChapter(chapter1Raw, 7),
+  },
+  8: {
+    ...day8Data,
+    teams: buildTeamsFromChapter(chapter1Raw, 8),
+    factions: buildFactionsFromChapter(chapter1Raw, 8),
+  },
 };
 
 export const TOTAL_DAYS = 8;

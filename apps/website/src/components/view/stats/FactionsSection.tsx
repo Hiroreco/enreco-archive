@@ -1,11 +1,12 @@
 import type { TeamData, LocalizedString } from "./types";
 import { talentById } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
-import { TeamsSummary } from "@/components/view/stats/TeamsSummary";
+import { FactionsSummary } from "@/components/view/stats/FactionsSummary";
 import { useSettingStore } from "@/store/settingStore";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { SectionLabel } from "./TeamSection";
 
 function getLocalizedText(
     text: LocalizedString | string,
@@ -15,43 +16,38 @@ function getLocalizedText(
     return text[locale];
 }
 
-interface TeamsSectionProps {
-    teams: TeamData[];
+interface FactionsSectionProps {
+    factions?: TeamData[];
     currentDay: number;
 }
 
-export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
+export function FactionsSection({
+    factions = [],
+    currentDay,
+}: FactionsSectionProps) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
 
     return (
         <section>
             <div className="flex items-center justify-between mb-2.5">
-                <SectionLabel>{t("teams")}</SectionLabel>
-                <TeamsSummary currentDay={currentDay} />
+                <SectionLabel>{t("factions")}</SectionLabel>
+                <FactionsSummary currentDay={currentDay} />
             </div>
-            {/*
-                No `layout` on the grid — letting the grid reflow instantly
-                prevents the intermediate-state jank on mobile where a row
-                briefly becomes two rows mid-animation.
-            */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 <AnimatePresence mode="popLayout">
-                    {teams.map((team, teamIndex) => {
-                        const unique = [...new Set(team.members)];
-                        const teamName = getLocalizedText(team.name, locale);
+                    {factions.map((faction, factionIndex) => {
+                        const unique = [...new Set(faction.members)];
+                        const factionName = getLocalizedText(
+                            faction.name,
+                            locale,
+                        );
 
                         return (
                             <motion.div
-                                key={teamIndex}
-                                layoutId={`team-${teamIndex}`}
+                                key={factionIndex}
+                                layoutId={`faction-${factionIndex}`}
                                 className="border rounded-xl p-3 flex flex-col gap-2"
-                                /*
-                                    No `layout` prop — layoutId alone handles card
-                                    identity. Adding layout on top causes the grid to
-                                    momentarily miscount columns while FLIP plays out,
-                                    producing the two-rows-then-one-row jank on mobile.
-                                */
                                 initial={{ opacity: 0, scale: 0.97 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.97 }}
@@ -59,12 +55,12 @@ export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
                             >
                                 <div className="flex items-center justify-between w-full">
                                     <span className="text-xs font-medium text-muted-foreground underline underline-offset-2">
-                                        {teamName}
+                                        {factionName}
                                     </span>
-                                    {team.image && (
+                                    {faction.image && (
                                         <Image
-                                            src={team.image}
-                                            alt={teamName}
+                                            src={faction.image}
+                                            alt={factionName}
                                             width={10}
                                             height={10}
                                             className="w-5 h-5 rounded object-cover"
@@ -72,11 +68,6 @@ export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
                                     )}
                                 </div>
 
-                                {/*
-                                    Plain div — animating the flex container itself
-                                    is what caused avatars to briefly stack vertically
-                                    on narrow screens.
-                                */}
                                 <div className="flex flex-wrap gap-1.5">
                                     <AnimatePresence>
                                         {unique.map((id) => {
@@ -84,7 +75,7 @@ export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
                                             return talent ? (
                                                 <motion.div
                                                     key={id}
-                                                    layoutId={`team-member-${id}`}
+                                                    layoutId={`faction-member-${id}`}
                                                     initial={{ opacity: 0 }}
                                                     animate={{ opacity: 1 }}
                                                     exit={{ opacity: 0 }}
@@ -107,13 +98,5 @@ export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
                 </AnimatePresence>
             </div>
         </section>
-    );
-}
-
-export function SectionLabel({ children }: { children: React.ReactNode }) {
-    return (
-        <p className="text-xs font-medium uppercase tracking-widest mb-2.5 text-muted-foreground">
-            {children}
-        </p>
     );
 }
