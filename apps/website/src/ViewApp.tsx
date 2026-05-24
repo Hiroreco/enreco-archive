@@ -126,6 +126,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     );
 
     const setTeamKeys = useViewStore((state) => state.setTeamKeys);
+    const setFactionKeys = useViewStore((state) => state.setFactionKeys);
 
     const setCharacterKeys = useViewStore((state) => state.setCharacterKeys);
     const openModal = useViewStore((state) => state.openModal);
@@ -249,6 +250,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         setRelationshipKeys(newChapterData.relationships);
         setTeamKeys(newChapterData.teams);
         setCharacterKeys(newDayData.nodes);
+        setFactionKeys(newDayData.nodes);
 
         if (!isMusicPlayerPlaying) {
             changeBGM(newChapterData.bgmSrc);

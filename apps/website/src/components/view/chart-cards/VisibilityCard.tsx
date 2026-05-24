@@ -10,6 +10,7 @@ import { extractImageSrcFromNodes } from "@/lib/utils";
 import { useMemo } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Separator } from "@enreco-archive/common-ui/components/separator";
 
 interface Props {
     relationshipVisibility: StringToBooleanObjectMap;
@@ -29,6 +30,9 @@ interface Props {
     chapter: number;
     chapterData: Chapter;
     nodes: ImageNodeType[];
+    factionVisibility: StringToBooleanObjectMap;
+    toggleFactionVisible: (factionId: string, visibility: boolean) => void;
+    toggleAllFactionsVisible: (visibility: boolean) => void;
 }
 
 const VisibilityCard = ({
@@ -46,6 +50,9 @@ const VisibilityCard = ({
     chapter,
     chapterData,
     nodes,
+    factionVisibility,
+    toggleFactionVisible,
+    toggleAllFactionsVisible,
 }: Props) => {
     const t = useTranslations("cards.dayCard");
     const tConstants = useTranslations("constants");
@@ -196,6 +203,75 @@ const VisibilityCard = ({
                     ))}
                 </div>
             </div>
+            {Object.keys(factionVisibility).length > 0 && (
+                <>
+                    <Separator />
+
+                    <div className="flex flex-col gap-4">
+                        <div className="flex justify-between items-center">
+                            <span className="font-bold">
+                                {t("factionToggles")}
+                            </span>
+                        </div>
+                        <div className="grid md:grid-cols-2 gap-4">
+                            <div className="flex justify-between items-center mt-2">
+                                <Label htmlFor="faction-all">
+                                    <span>{t("showAllFactions")}</span>
+                                </Label>
+                                <Checkbox
+                                    id="faction-all"
+                                    checked={Object.values(
+                                        factionVisibility,
+                                    ).every((v) => v)}
+                                    onCheckedChange={(checked) => {
+                                        if (checked === "indeterminate") {
+                                            toggleAllFactionsVisible(false);
+                                        } else {
+                                            toggleAllFactionsVisible(checked);
+                                        }
+                                    }}
+                                />
+                            </div>
+                        </div>
+                        <div className="grid md:grid-cols-2 gap-4">
+                            {Object.keys(factionVisibility).map((key) => (
+                                <div
+                                    className="flex justify-between w-full items-center gap-10"
+                                    key={key}
+                                >
+                                    <Label
+                                        htmlFor={`faction-${key.toLowerCase()}`}
+                                    >
+                                        <span className="capitalize">
+                                            {key}
+                                        </span>
+                                    </Label>
+                                    <Checkbox
+                                        id={`faction-${key.toLowerCase()}`}
+                                        checked={factionVisibility[key]}
+                                        onCheckedChange={(checked) => {
+                                            if (checked === "indeterminate") {
+                                                toggleFactionVisible(
+                                                    key,
+                                                    false,
+                                                );
+                                            } else {
+                                                toggleFactionVisible(
+                                                    key,
+                                                    checked,
+                                                );
+                                            }
+                                        }}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </>
+            )}
+
+            <Separator />
+
             {/* Characters */}
             <div className="flex justify-between items-center">
                 <span className="font-bold">{t("characterToggles")}</span>

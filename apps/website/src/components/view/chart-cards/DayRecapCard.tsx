@@ -47,6 +47,9 @@ const DayRecapCard = ({
         toggleCharacterVisible,
         toggleAllCharactersVisible,
         day,
+        factionVisibility,
+        toggleFactionVisible,
+        toggleAllFactionsVisible,
     } = useViewStore(
         useShallow((state) => ({
             chapter: state.chapter,
@@ -62,6 +65,9 @@ const DayRecapCard = ({
             toggleCharacterVisible: state.toggleCharacter,
             toggleAllCharactersVisible: state.toggleAllCharacters,
             day: state.day,
+            factionVisibility: state.faction,
+            toggleFactionVisible: state.toggleFaction,
+            toggleAllFactionsVisible: state.toggleAllFactions,
         })),
     );
 
@@ -122,6 +128,9 @@ const DayRecapCard = ({
                         chapter={chapter}
                         chapterData={chapterData}
                         nodes={nodes}
+                        factionVisibility={factionVisibility}
+                        toggleFactionVisible={toggleFactionVisible}
+                        toggleAllFactionsVisible={toggleAllFactionsVisible}
                     />
                 </TabsContent>
             </Tabs>

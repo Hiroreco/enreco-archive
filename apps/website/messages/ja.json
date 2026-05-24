@@ -454,7 +454,9 @@
             "showUpdatedEdgesOnly": "更新されたエッジのみ表示",
             "showAllEdges": "すべてのエッジを表示",
             "characterToggles": "キャラクター切り替え",
-            "showAllCharacters": "すべてのキャラクターを表示"
+            "showAllCharacters": "すべてのキャラクターを表示",
+            "factionToggles": "派閥切り替え",
+            "showAllFactions": "すべての派閥を表示"
         },
         "prevDay": "前の日",
         "nextDay": "次の日"
