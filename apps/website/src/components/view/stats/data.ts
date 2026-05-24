@@ -1,4 +1,4 @@
-import type { Talent, TrackerData } from "./types";
+import chapter1Raw from "#/recaps/chapter1.json";
 import { CHARACTER_ID_NAME_MAP_EN, CHARACTER_ID_NAME_MAP_JA } from "@/lib/misc";
 import { day1Data } from "./stats-data/day1";
 import { day2Data } from "./stats-data/day2";
@@ -6,12 +6,7 @@ import { day3Data } from "./stats-data/day3";
 import { day4Data } from "./stats-data/day4";
 import { day5Data } from "./stats-data/day5";
 import { day6Data } from "./stats-data/day6";
-import { day7Data } from "./stats-data/day7";
-import { day8Data } from "./stats-data/day8";
-import chapter1Raw from "#/recaps/chapter1.json";
-
-// Which chapter index from the recaps to use when deriving teams
-export const CHAPTER = 1;
+import type { Talent, TrackerData } from "./types";
 
 type AssignmentKey = "teamId" | "faction";
 
@@ -306,16 +301,6 @@ export const TRACKER_DATA: TrackerData = {
         teams: buildTeamsFromChapter(chapter1Raw, 6),
         factions: buildFactionsFromChapter(chapter1Raw, 6),
     },
-    7: {
-        ...day7Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 7),
-        factions: buildFactionsFromChapter(chapter1Raw, 7),
-    },
-    8: {
-        ...day8Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 8),
-        factions: buildFactionsFromChapter(chapter1Raw, 8),
-    },
 };
 
-export const TOTAL_DAYS = 1;
+export const TOTAL_DAYS = Object.keys(TRACKER_DATA).length;

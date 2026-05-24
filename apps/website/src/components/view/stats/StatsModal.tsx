@@ -6,7 +6,7 @@ import {
     DialogHeader,
     DialogTitle,
 } from "@enreco-archive/common-ui/components/dialog";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
     Select,
     SelectContent,
@@ -27,14 +27,21 @@ import StatsInfoModal from "@/components/view/stats/StatsInfoModal";
 interface StatsModalProps {
     open: boolean;
     onClose: () => void;
+    currentDay: number;
 }
 
-export function StatsModal({ open, onClose }: StatsModalProps) {
+export function StatsModal({ open, onClose, currentDay }: StatsModalProps) {
     const t = useTranslations("modals.stats");
     const tCommon = useTranslations("common");
-    const [day, setDay] = useState(1);
+    const [day, setDay] = useState(currentDay + 1);
     const data = TRACKER_DATA[day];
     const prevData = day > 1 ? (TRACKER_DATA[day - 1] ?? null) : null;
+
+    useEffect(() => {
+        if (open) {
+            setDay(currentDay + 1);
+        }
+    }, [currentDay, open]);
 
     // If data is missing for a day, show a placeholder
     if (!data) {
@@ -90,7 +97,7 @@ export function StatsModal({ open, onClose }: StatsModalProps) {
                     </div>
                 </DialogHeader>
                 <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 max-h-[80dvh] overflow-y-auto">
-                    <TeamsSection teams={data.teams} currentDay={day} />
+                    <TeamsSection teams={data.teams ?? []} currentDay={day} />
                     <FactionsSection
                         factions={data.factions}
                         currentDay={day}
