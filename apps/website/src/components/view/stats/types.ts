@@ -51,7 +51,7 @@ export interface TeamData {
 }
 
 export interface DayData {
-    teams?: TeamData[];
+    teams: TeamData[];
     factions?: TeamData[];
     continuous: ContinuousChoice[];
     choices: Choice[];

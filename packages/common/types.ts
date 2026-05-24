@@ -103,7 +103,7 @@ export type LocalizedChapter = {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     charts: any[];
     teams: TeamMap;
-    factions: string[];
+    factions?: string[];
     relationships: RelationshipMap;
     bgiSrc: string;
     bgmSrc: string;

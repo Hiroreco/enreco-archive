@@ -18,6 +18,7 @@ const continuous = overrideContinuous({
 });
 
 export const day3Data: DayData = {
+    teams: [],
     continuous,
     choices: [],
 };

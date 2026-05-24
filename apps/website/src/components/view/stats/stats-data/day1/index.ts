@@ -5,6 +5,7 @@ import { petChoice } from "./pet";
 import { pizzaChoice } from "./pizza";
 
 export const day1Data: DayData = {
+    teams: [],
     continuous: BASE_CONTINUOUS,
     choices: [pizzaChoice, petChoice, opinionRestChoice],
 };

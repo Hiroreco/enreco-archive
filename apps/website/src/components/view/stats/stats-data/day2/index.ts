@@ -21,6 +21,7 @@ const continuous = overrideContinuous({
 });
 
 export const day2Data: DayData = {
+    teams: [],
     continuous,
     choices: [weaponChoice, justiceChoice, fearChoice],
 };

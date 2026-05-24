@@ -242,9 +242,7 @@ const VisibilityCard = ({
                                     <Label
                                         htmlFor={`faction-${key.toLowerCase()}`}
                                     >
-                                        <span className="capitalize">
-                                            {key}
-                                        </span>
+                                        {tConstants(key)}
                                     </Label>
                                     <Checkbox
                                         id={`faction-${key.toLowerCase()}`}
