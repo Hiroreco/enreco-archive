@@ -8,11 +8,11 @@ import { useEffect, useRef, useState } from "react";
 
 // --- IMPORTANT ---
 // Change this value for each new countdown to trigger the animation for users again.
-const CURRENT_DAY = 0;
+const CURRENT_DAY = 1;
 const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
 
 // REMEMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
-const IS_VISIBLE = false;
+const IS_VISIBLE = true;
 
 // Returns the next occurrence of 2 AM JST (= 17:00 UTC).
 // Only called ONCE to set the target — not re-called on every tick.
