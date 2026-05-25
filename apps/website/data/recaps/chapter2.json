@@ -19,15 +19,16 @@
           "id": "fuwawa",
           "type": "image",
           "position": {
-            "x": 1000,
-            "y": 500
+            "x": 150,
+            "y": 250
           },
           "data": {
             "title": "Fuwawa Abyssguard",
             "content": "",
             "imageSrc": "images-opt/node-fuwawa-opt.webp",
-            "teamId": "chef",
+            "teamId": "smith",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#67b2ff"
           },
@@ -42,8 +43,8 @@
           "id": "mococo",
           "type": "image",
           "position": {
-            "x": 700,
-            "y": 500
+            "x": 350,
+            "y": 250
           },
           "data": {
             "title": "Mococo Abyssguard",
@@ -51,6 +52,7 @@
             "imageSrc": "images-opt/node-mococo-opt.webp",
             "teamId": "jeweler",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#f7a6ca"
           },
@@ -65,15 +67,16 @@
           "id": "liz",
           "type": "image",
           "position": {
-            "x": 475,
-            "y": 800
+            "x": 350,
+            "y": 650
           },
           "data": {
             "title": "Elizabeth Rose Bloodflame",
             "content": "",
             "imageSrc": "images-opt/node-liz-opt.webp",
-            "teamId": "smith",
+            "teamId": "supplier",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#d46759"
           },
@@ -88,8 +91,8 @@
           "id": "kiara",
           "type": "image",
           "position": {
-            "x": 700,
-            "y": 300
+            "x": 1100,
+            "y": 250
           },
           "data": {
             "title": "Tanakisha Karia",
@@ -97,6 +100,7 @@
             "imageSrc": "images-opt/node-kiara-opt.webp",
             "teamId": "smith",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#ff511c"
           },
@@ -111,8 +115,8 @@
           "id": "bae",
           "type": "image",
           "position": {
-            "x": 1225,
-            "y": 500
+            "x": 550,
+            "y": 850
           },
           "data": {
             "title": "Peasant The Bae",
@@ -120,6 +124,7 @@
             "imageSrc": "images-opt/node-bae-opt.webp",
             "teamId": "supplier",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#ff675d"
           },
@@ -134,15 +139,16 @@
           "id": "raora",
           "type": "image",
           "position": {
-            "x": 475,
-            "y": 300
+            "x": 550,
+            "y": 650
           },
           "data": {
             "title": "Roa Pandora",
             "content": "",
             "imageSrc": "images-opt/node-raora-opt.webp",
-            "teamId": "jeweler",
+            "teamId": "smith",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#f087a9"
           },
@@ -157,8 +163,8 @@
           "id": "calli",
           "type": "image",
           "position": {
-            "x": 475,
-            "y": 500
+            "x": 900,
+            "y": 250
           },
           "data": {
             "title": "Mordan Ramsey",
@@ -166,6 +172,7 @@
             "imageSrc": "images-opt/node-calli-opt.webp",
             "teamId": "chef",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#c90d40"
           },
@@ -180,8 +187,8 @@
           "id": "shiori",
           "type": "image",
           "position": {
-            "x": 850,
-            "y": 650
+            "x": 550,
+            "y": 250
           },
           "data": {
             "title": "Shiori Nyavella",
@@ -189,6 +196,7 @@
             "imageSrc": "images-opt/node-shiori-opt.webp",
             "teamId": "chef",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#b8a0cd"
           },
@@ -203,8 +211,8 @@
           "id": "cecilia",
           "type": "image",
           "position": {
-            "x": 1000,
-            "y": 300
+            "x": 1100,
+            "y": 650
           },
           "data": {
             "title": "Cecilia Immerkind",
@@ -212,6 +220,7 @@
             "imageSrc": "images-opt/node-cecilia-opt.webp",
             "teamId": "supplier",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#119a5c"
           },
@@ -226,8 +235,8 @@
           "id": "nerissa",
           "type": "image",
           "position": {
-            "x": 700,
-            "y": 800
+            "x": 350,
+            "y": 450
           },
           "data": {
             "title": "Nerissa Juliet Ravencroft",
@@ -235,6 +244,7 @@
             "imageSrc": "images-opt/node-nerissa-opt.webp",
             "teamId": "chef",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#2233fb"
           },
@@ -249,15 +259,16 @@
           "id": "bijou",
           "type": "image",
           "position": {
-            "x": 1000,
-            "y": 800
+            "x": 550,
+            "y": 450
           },
           "data": {
             "title": "Koseki Bijou",
             "content": "",
             "imageSrc": "images-opt/node-bijou-opt.webp",
-            "teamId": "jeweler",
+            "teamId": "smith",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#6e5bf4"
           },
@@ -272,8 +283,8 @@
           "id": "gigi",
           "type": "image",
           "position": {
-            "x": 700,
-            "y": 1000
+            "x": 900,
+            "y": 650
           },
           "data": {
             "title": "Gonathon G",
@@ -281,6 +292,7 @@
             "imageSrc": "images-opt/node-gigi-opt.webp",
             "teamId": "smith",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#fdb440"
           },
@@ -295,8 +307,8 @@
           "id": "irys",
           "type": "image",
           "position": {
-            "x": 1000,
-            "y": 1000
+            "x": 350,
+            "y": 850
           },
           "data": {
             "title": "Hot Pink One",
@@ -304,6 +316,7 @@
             "imageSrc": "images-opt/node-irys-opt.webp",
             "teamId": "chef",
             "status": "Alive",
+            "faction": "bad",
             "day": 0,
             "bgCardColor": "#e10e5b"
           },
@@ -318,15 +331,16 @@
           "id": "ina",
           "type": "image",
           "position": {
-            "x": 1225,
-            "y": 800
+            "x": 900,
+            "y": 450
           },
           "data": {
             "title": "NinoIna",
             "content": "",
             "imageSrc": "images-opt/node-ina-opt.webp",
-            "teamId": "jeweler",
+            "teamId": "supplier",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#4c3f5a"
           },
@@ -341,8 +355,8 @@
           "id": "kronii",
           "type": "image",
           "position": {
-            "x": 475,
-            "y": 1000
+            "x": 900,
+            "y": 850
           },
           "data": {
             "title": "Tam Gandr",
@@ -350,6 +364,7 @@
             "imageSrc": "images-opt/node-kronii-opt.webp",
             "teamId": "supplier",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#6879c7"
           },
@@ -364,7 +379,7 @@
           "id": "iphania",
           "type": "image",
           "position": {
-            "x": 1000,
+            "x": 900,
             "y": 50
           },
           "data": {
@@ -387,7 +402,7 @@
           "id": "fia",
           "type": "image",
           "position": {
-            "x": 700,
+            "x": 1100,
             "y": 50
           },
           "data": {
@@ -396,6 +411,7 @@
             "imageSrc": "/images-opt/node-fia-opt.webp",
             "teamId": "none",
             "status": "Alive",
+            "faction": "good",
             "day": 0,
             "bgCardColor": "#2b353b"
           },
@@ -410,8 +426,8 @@
           "id": "lore",
           "type": "image",
           "position": {
-            "x": 475,
-            "y": 50
+            "x": 725,
+            "y": -100
           },
           "data": {
             "title": "Lore Summary",
@@ -428,9 +444,436 @@
           },
           "selected": false,
           "dragging": false
+        },
+        {
+          "id": "faust",
+          "type": "image",
+          "position": {
+            "x": 550,
+            "y": 50
+          },
+          "data": {
+            "title": "",
+            "content": "",
+            "imageSrc": "/images-opt/node-faust-opt.webp",
+            "teamId": "none",
+            "status": "",
+            "day": 0,
+            "bgCardColor": "#8271b3"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "nix",
+          "type": "image",
+          "position": {
+            "x": 350,
+            "y": 50
+          },
+          "data": {
+            "title": "",
+            "content": "",
+            "imageSrc": "/images-opt/node-nix-opt.webp",
+            "teamId": "none",
+            "status": "",
+            "faction": "bad",
+            "day": 0,
+            "bgCardColor": "#bd53c7"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "dragging": false
         }
       ],
-      "edges": []
+      "edges": [
+        {
+          "id": "calli-kiara",
+          "source": "calli",
+          "target": "kiara",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "",
+            "content": "",
+            "pathType": "straight",
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "irys-ina",
+          "source": "irys",
+          "target": "ina",
+          "sourceHandle": "bottom-3",
+          "targetHandle": "left-3",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "romantic",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -289,
+              "VR": -71,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "kiara-raora",
+          "source": "kiara",
+          "target": "raora",
+          "sourceHandle": "bottom-1",
+          "targetHandle": "right-1",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "no-longer-together",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 21,
+              "VL": -330,
+              "HC": 0,
+              "VR": 147,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "raora-kronii",
+          "source": "raora",
+          "target": "kronii",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "cat",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 75,
+              "HC": -101,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "bae-gigi",
+          "source": "bae",
+          "target": "gigi",
+          "sourceHandle": "right-1",
+          "targetHandle": "left-3",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "friends",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 122,
+              "HC": 0,
+              "VR": -122,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "bae-cecilia",
+          "source": "bae",
+          "target": "cecilia",
+          "sourceHandle": "top-3",
+          "targetHandle": "bottom-1",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "friends",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 26,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "nix-bae",
+          "source": "nix",
+          "target": "bae",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "unrequited-love",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 46,
+              "HC": 0,
+              "VR": -48,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "shiori-gigi",
+          "source": "shiori",
+          "target": "gigi",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 120,
+              "HC": 0,
+              "VR": -124,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-shiori",
+          "source": "cecilia",
+          "target": "shiori",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "friends",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -100,
+              "VR": 125,
+              "HR": 21
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "nerissa-shiori",
+          "source": "nerissa",
+          "target": "shiori",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "friends",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 70,
+              "HC": 0,
+              "VR": -24,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "bijou-ina",
+          "source": "bijou",
+          "target": "ina",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "family",
+            "title": "",
+            "content": "",
+            "pathType": "straight",
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "liz-nerissa",
+          "source": "liz",
+          "target": "nerissa",
+          "sourceHandle": "top-2",
+          "targetHandle": "bottom-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "friends",
+            "title": "",
+            "content": "",
+            "pathType": "straight",
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "mococo-liz",
+          "source": "mococo",
+          "target": "liz",
+          "sourceHandle": "left-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "family",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": -49,
+              "HC": 0,
+              "VR": -49,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "gigi-cecilia",
+          "source": "gigi",
+          "target": "cecilia",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "wolf-pack",
+            "title": "",
+            "content": "",
+            "pathType": "straight",
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "irys-kronii",
+          "source": "irys",
+          "target": "kronii",
+          "sourceHandle": "top-3",
+          "targetHandle": "top-1",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "enemy",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 25,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "gigi-kronii",
+          "source": "gigi",
+          "target": "kronii",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "top-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "knight",
+            "title": "",
+            "content": "",
+            "pathType": "straight",
+            "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-bijou",
+          "source": "cecilia",
+          "target": "bijou",
+          "sourceHandle": "top-1",
+          "targetHandle": "bottom-3",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "protector",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -25,
+              "VR": 0,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "irys-raora",
+          "source": "irys",
+          "target": "raora",
+          "sourceHandle": "right-1",
+          "targetHandle": "left-3",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "cat",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 22,
+              "HC": 0,
+              "VR": -71,
+              "HR": 0
+            }
+          },
+          "selected": false
+        }
+      ]
     }
   ],
   "teams": {
@@ -516,6 +959,41 @@
       "name": "Alliance",
       "style": {
         "stroke": "#ecbe5b"
+      }
+    },
+    "its-complicated": {
+      "id": "its-complicated",
+      "name": "It's Complicated",
+      "style": {
+        "stroke": "#c67b8e"
+      }
+    },
+    "friends": {
+      "id": "friends",
+      "name": "Friends",
+      "style": {
+        "stroke": "#51d2b9"
+      }
+    },
+    "wolf-pack": {
+      "id": "wolf-pack",
+      "name": "Wolf Pack",
+      "style": {
+        "stroke": "#c56034"
+      }
+    },
+    "knight": {
+      "id": "knight",
+      "name": "Knight",
+      "style": {
+        "stroke": "#a9b0cf"
+      }
+    },
+    "cat": {
+      "id": "cat",
+      "name": "Cat",
+      "style": {
+        "stroke": "#fac39e"
       }
     }
   },
