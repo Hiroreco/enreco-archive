@@ -96,7 +96,7 @@ export function StatsModal({ open, onClose, currentDay }: StatsModalProps) {
                         </Select>
                     </div>
                 </DialogHeader>
-                <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 max-h-[80dvh] overflow-y-auto">
+                <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 max-h-[80dvh] overflow-y-auto overflow-x-hidden">
                     <TeamsSection teams={data.teams ?? []} currentDay={day} />
                     <FactionsSection
                         factions={data.factions}
