@@ -298,7 +298,7 @@
             "imageSrc": "images-opt/node-cecilia-opt.webp",
             "teamId": "supplier",
             "status": {
-              "en": "alive",
+              "en": "Alive",
               "ja": "生存"
             },
             "faction": "good",
@@ -952,7 +952,7 @@
           "targetHandle": "left-2",
           "type": "fixed",
           "data": {
-            "relationshipId": "wolf-pack",
+            "relationshipId": "friends",
             "title": {
               "en": "Return of The Wolves",
               "ja": "狼たちの帰還"
@@ -1094,6 +1094,35 @@
             },
             "pathType": "smoothstep",
             "day": 0
+          },
+          "selected": false
+        },
+        {
+          "id": "bijou-cecilia",
+          "source": "bijou",
+          "target": "cecilia",
+          "sourceHandle": "top-3",
+          "targetHandle": "top-3",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "protector",
+            "title": {
+              "en": "Two Sides of the Same Coin",
+              "ja": "コインの表と裏"
+            },
+            "content": {
+              "en": "As he traverses the city, he encouters the PrincessBijou who exchange pleasant greetings. But this pleasantry devolves into dismay as PrincessBijou tells The Knight that [Fia has been lying](https://www.youtube.com/live/rjNDjL6R3-s?si=L-qFpOMQiommxvcS&t=3090) to him as she is attune to emotions.\n\nThis is one of many attempts by Bijou to convince Immerkind to dissavor her loyalty to Fia.\n\nDespite this, the two maintain the bonds of Princess and Knight. Immerkind [guides Bijou](https://www.youtube.com/live/rjNDjL6R3-s?si=YFUOfcmEX1rCF1oX&t=5685) back to the kingdom and converse about the future. While they disagree with where the path to the future is and Bijou questions Immerkind's loyalty to Fia out of concern, they both realize they are two sides of the same coin.\n\nBut that does not stop Bijou from continually reminding Immerkind to move on from Fia much to Immerkind's dismay.\n\n[You need to let go.](#embed:https://www.youtube.com/live/rjNDjL6R3-s?si=u15Gmzf34cJJaVoM&t=13266)\n\nWhile concerning, can a coin be a coin without two sides?",
+              "ja": "街を巡っていたイマーキンドは、ビジュー姫と遭遇し、穏やかな挨拶を交わす。だがその和やかな空気は、ビジュー姫が「[フィアはあなたに嘘をついている](https://www.youtube.com/live/rjNDjL6R3-s?si=L-qFpOMQiommxvcS&t=3090)」と告げたことで崩れ去る。感情に敏感な彼女だからこそ、フィアの本心に疑念を抱いていたのだ。\n\nこれは、ビジューがイマーキンドへ「フィアへの忠誠を見直してほしい」と説得する数多くの試みの一つに過ぎなかった。\n\nそれでもなお、二人の間にある「姫と騎士」の絆は揺らがない。イマーキンドは[ビジューを王国へ案内し](https://www.youtube.com/live/rjNDjL6R3-s?si=YFUOfcmEX1rCF1oX&t=5685)、その道中で未来について語り合う。未来へ至る道筋について意見は食い違い、ビジューは心配ゆえにイマーキンドのフィアへの忠誠を問い続ける。それでも二人は、自分たちが「同じコインの表と裏」のような存在なのだと理解していた。\n\nしかし、それでもビジューはイマーキンドに何度も「フィアを忘れて前へ進んで」と言い続ける。その言葉は、イマーキンドの胸を大きく揺さぶっていた。\n\n[もう手放さなきゃ。](#embed:https://www.youtube.com/live/rjNDjL6R3-s?si=u15Gmzf34cJJaVoM&t=13266)\n\n不穏な関係にも思える――だが、表も裏もないコインは、本当にコインと呼べるのだろうか。"
+            },
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": 126.64473684210523,
+              "VR": 0,
+              "HR": 0
+            }
           },
           "selected": false
         }

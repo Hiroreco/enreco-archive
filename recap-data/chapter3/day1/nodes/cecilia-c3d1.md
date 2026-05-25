@@ -1,5 +1,5 @@
 <!-- title: Knight Immerkind -->
-<!-- status: alive -->
+<!-- status: Alive -->
 
 Immerkind awakens from his slumber and is beset by temporary deafness. The events of Libestal in the past few weeks left him feeling ill. He rushes over to Sister Shiori, where they temporarily [confide in each other away from the other Shining Stars](https://www.youtube.com/live/rjNDjL6R3-s?si=yPP7SM2Bpe7qLNTu&t=1715). The deafness eventually lifted after this conversation.
 
