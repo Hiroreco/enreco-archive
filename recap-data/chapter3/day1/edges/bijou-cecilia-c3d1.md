@@ -1,7 +1,7 @@
 <!-- title: Two Sides of the Same Coin -->
 <!-- relationship: Protector -->
 
-As he traverses the city, he encouters the PrincessBijou who exchange pleasant greetings. But this pleasantry devolves into dismay as PrincessBijou tells The Knight that [Fia has been lying](https://www.youtube.com/live/rjNDjL6R3-s?si=L-qFpOMQiommxvcS&t=3090) to him as she is attune to emotions.
+As she traverses the city, she encouters the Princess Bijou who exchange pleasant greetings. But this pleasantry devolves into dismay as Princess Bijou tells The Knight that [Fia has been lying](https://www.youtube.com/live/rjNDjL6R3-s?si=L-qFpOMQiommxvcS&t=3090) to him as she is attune to emotions.
 
 This is one of many attempts by Bijou to convince Immerkind to dissavor her loyalty to Fia.
 
