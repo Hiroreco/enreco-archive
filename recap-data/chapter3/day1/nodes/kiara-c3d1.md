@@ -1,5 +1,5 @@
-<!-- title: Tanakisha Karia of the Oranges --> 
-<!-- status: Dead --> 
+<!-- title: Tanakisha Karia of the Oranges -->
+<!-- status: Dead -->
 
 Back in the mysterious white room, Tanakisha Karia found herself awakened once more. This time didn't feel too different for her. For one, she was able to recognize some familiar faces, such as Lady Bloodflame, Roa, and Mordan Ramsey's... These were the people she knew she could trust.
 
@@ -16,4 +16,4 @@ _What could possibly go wro—_
 Immediately, the phoenix's throat tightened. As if she were strangulated by a rope around her neck, she choked and fell to her knees, trying to gasp for air. All she faced was the sharp, cold breeze when all the background voices and her sensations faded away. The cake itself tasted rancid and bitter, which contrasted with its sugary scent.
 And so, Shakira plunged into the fountain water below.
 
-[Tanakisha Karia of the Oranges was DEAD.](embed: https://www.youtube.com/watch?v=u0Tu7_vfmQo&t=6294s)
+[Tanakisha Karia of the Oranges was DEAD.](#embed:https://www.youtube.com/watch?v=u0Tu7_vfmQo&t=6294s)

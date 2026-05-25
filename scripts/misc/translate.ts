@@ -71,16 +71,13 @@ ${content}`;
 }
 
 function createMirroredPath(originalPath: string): string {
-    // Get relative path from current working directory
     const relativePath = path.relative(process.cwd(), originalPath);
     const pathParts = relativePath.split(path.sep);
 
-    // Add _ja suffix to the first directory (e.g., recap-data -> recap-data_ja)
     if (pathParts.length > 0) {
         pathParts[0] = pathParts[0] + "_ja";
     }
 
-    // Build the full path from cwd
     return path.resolve(process.cwd(), ...pathParts);
 }
 
@@ -95,18 +92,14 @@ async function ensureDirectoryExists(dirPath: string): Promise<void> {
 async function translateFile(
     filePath: string,
     rootDir?: string,
+    force: boolean = false,
 ): Promise<void> {
     try {
         const content = await fs.readFile(filePath, "utf-8");
-        console.log(`Translating: ${filePath}`);
-
-        // const translatedContent = await translateMarkdown(content);
-        const translatedContent = "";
 
         let outputPath: string;
 
         if (rootDir) {
-            // Create mirrored directory structure
             const relativePath = path.relative(rootDir, filePath);
             const parsedPath = path.parse(relativePath);
 
@@ -118,16 +111,32 @@ async function translateFile(
                 `${parsedPath.name}_ja${parsedPath.ext}`,
             );
 
-            // Ensure the directory exists
             await ensureDirectoryExists(path.dirname(outputPath));
         } else {
-            // Single file mode - create in same directory
             const parsedPath = path.parse(filePath);
             outputPath = path.join(
                 parsedPath.dir,
                 `${parsedPath.name}_ja${parsedPath.ext}`,
             );
         }
+
+        if (!force) {
+            let exists = false;
+            try {
+                await fs.access(outputPath);
+                exists = true;
+            } catch {
+                // File doesn't exist, proceed
+            }
+
+            if (exists) {
+                console.log(`⏭️  Skipped (already exists): ${outputPath}`);
+                return;
+            }
+        }
+
+        console.log(`Translating: ${filePath}`);
+        const translatedContent = await translateMarkdown(content);
 
         await fs.writeFile(outputPath, translatedContent, "utf-8");
         console.log(`✅ Created: ${outputPath}`);
@@ -140,11 +149,11 @@ async function translateDirectory(
     dirPath: string,
     rootDir: string,
     maxConcurrent: number = 3,
+    force: boolean = false,
 ): Promise<void> {
     try {
         const markdownFiles: Array<{ filePath: string; rootDir: string }> = [];
 
-        // Collect all markdown files recursively
         async function collectFiles(currentPath: string): Promise<void> {
             const entries = await fs.readdir(currentPath, {
                 withFileTypes: true,
@@ -164,7 +173,6 @@ async function translateDirectory(
         await collectFiles(dirPath);
         console.log(`📁 Found ${markdownFiles.length} markdown files`);
 
-        // Process files with controlled concurrency
         let processed = 0;
         const total = markdownFiles.length;
 
@@ -175,19 +183,19 @@ async function translateDirectory(
             const executing: Promise<void>[] = [];
 
             for (const { filePath, rootDir } of files) {
-                const promise = translateFile(filePath, rootDir).then(() => {
-                    processed++;
-                    console.log(
-                        `⚡ Progress: ${processed}/${total} files completed`,
-                    );
-                });
+                const promise = translateFile(filePath, rootDir, force).then(
+                    () => {
+                        processed++;
+                        console.log(
+                            `⚡ Progress: ${processed}/${total} files completed`,
+                        );
+                    },
+                );
 
                 executing.push(promise);
 
                 if (executing.length >= limit) {
-                    // Wait for the first promise to finish
                     await Promise.race(executing);
-                    // Remove the first settled promise
                     executing.splice(0, 1);
                 }
             }
@@ -209,10 +217,11 @@ async function main() {
     const maxConcurrent = concurrencyArg
         ? parseInt(concurrencyArg.split("=")[1])
         : 3;
+    const force = process.argv.includes("--force");
 
     if (!targetPath) {
         console.error(
-            "Usage: tsx translate.ts <file-or-directory> [--concurrent=N]",
+            "Usage: tsx translate.ts <file-or-directory> [--concurrent=N] [--force]",
         );
         console.error("Examples:");
         console.error(
@@ -221,7 +230,9 @@ async function main() {
         console.error("  tsx translate.ts recap-data/chapter1/day1/edges");
         console.error("  tsx translate.ts recap-data");
         console.error("  tsx translate.ts recap-data --concurrent=5");
+        console.error("  tsx translate.ts recap-data --force");
         console.error("\nDefault concurrency: 3 files at once");
+        console.error("Use --force to overwrite existing translations");
         process.exit(1);
     }
 
@@ -241,20 +252,26 @@ async function main() {
                 process.exit(1);
             }
 
-            // For single files, determine the root directory
             const pathParts = targetPath.split(path.sep);
-            const rootDir = pathParts[0]; // First part is the root
+            const rootDir = pathParts[0];
             const fullRootPath = path.resolve(process.cwd(), rootDir);
 
-            await translateFile(resolvedPath, fullRootPath);
+            await translateFile(resolvedPath, fullRootPath, force);
         } else if (stat.isDirectory()) {
             console.log(`🚀 Translating all .md files in: ${resolvedPath}`);
             console.log(
                 `📁 Creating mirrored structure in: ${createMirroredPath(resolvedPath)}`,
             );
             console.log(`⚡ Concurrency: ${maxConcurrent} files at once`);
+            if (force)
+                console.log(`⚠️  Force mode: overwriting existing files`);
 
-            await translateDirectory(resolvedPath, resolvedPath, maxConcurrent);
+            await translateDirectory(
+                resolvedPath,
+                resolvedPath,
+                maxConcurrent,
+                force,
+            );
         }
 
         console.log("✨ Translation complete!");
