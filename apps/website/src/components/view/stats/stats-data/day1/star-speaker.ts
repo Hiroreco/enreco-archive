@@ -11,7 +11,6 @@ export const starSpeakersChoice: Choice = {
         {
             label: { en: "Truth", ja: "真実" },
             members: [
-                "bijou",
                 "mococo",
                 "gigi",
                 "cecilia",
@@ -20,12 +19,12 @@ export const starSpeakersChoice: Choice = {
                 "calli",
                 "ina",
                 "bae",
-                "kronii", // Fixed the typo from 'konii' in the raw data
+                "kronii",
             ],
         },
         {
             label: { en: "Lie", ja: "嘘" },
-            members: ["shiori", "nerissa", "fuwawa", "irys"],
+            members: ["shiori", "nerissa", "fuwawa", "irys", "bijou"],
         },
     ],
 };
