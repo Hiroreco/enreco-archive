@@ -49,7 +49,7 @@ const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 showXButton={false}
-                className="rounded-lg h-[90dvh] max-h-none max-w-[800px] md:w-[80vw] flex flex-col justify-end"
+                className="rounded-lg flex flex-col justify-end"
             >
                 <DialogHeader>
                     <DialogTitle className="text-center">
