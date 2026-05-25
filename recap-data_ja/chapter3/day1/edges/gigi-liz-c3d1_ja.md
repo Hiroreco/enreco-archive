@@ -54,4 +54,5 @@
 だが、その決断によって生まれた亀裂は、二人が望んだ以上に長く残り続けることになるのだった。
 
 ## ファンアート
+
 ["Where your loyalty lies" by sticker_sr](https://x.com/sticker_sr/status/2058797645305373150)

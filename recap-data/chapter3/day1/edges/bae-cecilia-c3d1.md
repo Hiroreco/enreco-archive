@@ -12,4 +12,5 @@ Whenever she tries, the words get stuck in her throat and [Bae quickly runs away
 Will Bae be ever to converse with Immerkind again? For now we don't know. Only that while Bae looks upon Cecilia with wistful regret, another has caught her eye.
 
 ## Fanart
-["I'm doing the right thing… aren't I, Peasant?" by fongban_](https://x.com/fongban_/status/2058797463415452149)
+
+["I'm doing the right thing… aren't I, Peasant?" by fongban\_](https://x.com/fongban_/status/2058797463415452149)

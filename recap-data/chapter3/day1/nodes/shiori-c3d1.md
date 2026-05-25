@@ -1,7 +1,7 @@
 <!-- title: Shiori Novella -->
 <!-- status: Alive -->
 
-Shiori Nyavella is gone, and Shiori Novella, Sister Shiori to be exact, is here to stay. Now a sister of the cloth, Shiori is therefore definitely not evil even as she reconnected with her conspiring band of witches. Shiori even admired the stars with [Mordon Ramsay!](https://youtu.be/ZzXAmkDHgTY?t=1242). As the witches and Mordon conversed about being chefs once again, Shiori revealed that she would be a [chef for picnics,](https://youtu.be/ZzXAmkDHgTY?t=1335) a totally non-evil type of chef, reminiscing about the picnic from last "week." Unless *some* of the food is poisoned, but Sister Shiori will never do that, of course.
+Shiori Nyavella is gone, and Shiori Novella, Sister Shiori to be exact, is here to stay. Now a sister of the cloth, Shiori is therefore definitely not evil even as she reconnected with her conspiring band of witches. Shiori even admired the stars with [Mordon Ramsay!](https://youtu.be/ZzXAmkDHgTY?t=1242). As the witches and Mordon conversed about being chefs once again, Shiori revealed that she would be a [chef for picnics,](https://youtu.be/ZzXAmkDHgTY?t=1335) a totally non-evil type of chef, reminiscing about the picnic from last "week." Unless _some_ of the food is poisoned, but Sister Shiori will never do that, of course.
 
 Nevertheless, mischief remained strong within Sister Shiori as she pulled Mordon Ramsay along in helping a certain couple with [their legacy.](https://youtu.be/ZzXAmkDHgTY?t=1487) This went 'very well,' as Kiara can attest later on.
 
@@ -10,9 +10,9 @@ Nevertheless, mischief remained strong within Sister Shiori as she pulled Mordon
 It's amusing how time goes forward yet rewinds. Another rebellion and another chef's hat sat on top of Shiori's sisterly veil. But dang, finding eggs was the true formidable task as Shiori asked [one person](https://youtu.be/ZzXAmkDHgTY?t=3148) after another to find them, including a certain orange knight. Thankfully, Juliet managed to lead the way to where they could hunt for chickens outside the castle gates. There, Shiori pondered wether they truly made a difference for the kingdom. In perhaps a brief moment of madness, she saw a [cow as herself](https://youtu.be/ZzXAmkDHgTY?t=3828).
 
 [Potato Salad...](#embed:https://youtu.be/ZzXAmkDHgTY?t=4042)
- 
+
 Soon enough, Shiori found herself in an audience with the Star Speakers. They inquired about her origins, and Shiori, seeing them untrustworthy, lied. After all, too many years have passed, and the truth would have probably warped in her absence. Honesty has its prices, and at times, it may be your own life. A hardened trait that seems to echo with those in Shiori's chosen faction.
- 
+
 Sister Shiori entered [Terminus](https://youtu.be/ZzXAmkDHgTY?t=4750), finding the place a little bit too familiar with its towering cells and iron bars, she told her fellow witches. Prisoner after [prisoner](https://youtu.be/ZzXAmkDHgTY?t=5053) trapped behind bars. Did perhaps Shiori do something that she forgot that warranted a punishment? Strange that this is a memory that escapes her.
 
 In order to proceed further, Shiori must find a secret to tell the Constant. Shiori chose to [call Gonathan.](https://youtu.be/ZzXAmkDHgTY?t=5358) Is there something about the Knight that reeks of secrecy to Shiori? Perhaps her recent head trauma unveiled an intuition even when the memory is lacking. Either way, Shiori asks Gonathan if there is a secret he knows that can help her. (See: Shiori-Gigi)
@@ -36,6 +36,7 @@ It was somewhat successful, as others read the news of Shakira's death and the d
 After an eventful day, Shiori returns to Fia's Library to record the events in her journal.
 
 ## Fanart
+
 ["she lowkey evil" by unbabbles](https://x.com/unbabbles/status/2058265094564266080)
 
 ["enreco day 1 2026 colorized" by unbabbles](https://x.com/unbabbles/status/2058789777919406406)

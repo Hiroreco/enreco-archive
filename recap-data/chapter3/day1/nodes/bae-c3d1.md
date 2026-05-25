@@ -30,6 +30,7 @@ She must use the lucky-bait at night but alas. Stains and [pufferfish](https://y
 Coin Count: 2070. The Peasant will be Rich once again.
 
 ## Fanart
+
 ["enreco, reign chaos" by nvmlyn](https://x.com/nvmlyn/status/2058763626195116263)
 
-["Hey Peasant" by fongban_](https://x.com/fongban_/status/2058635933055152319)
+["Hey Peasant" by fongban\_](https://x.com/fongban_/status/2058635933055152319)

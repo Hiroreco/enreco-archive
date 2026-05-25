@@ -24,6 +24,7 @@ As if making a decision blindly, she chose to side with Nix and the Rebels in ho
 When the time came for her to decide what occupation to take, she did not think about what she personally wanted to do. Instead, she called Nerissa and asked what would be most helpful to her. Juliet took advantage of this and told her she needed a supplier. Without hesitation, Lady Bloodflame gave in to her wish and became one, abandoning her own self for the sake of love.
 
 ## Fanart
+
 ["it was the only option, right? ...right?" by ogumashiro](https://x.com/ogumashiro/status/2058899855821406310)
 
 ["Nerissa’s Opening Screen" by i](https://x.com/i/status/2058764089401528674)

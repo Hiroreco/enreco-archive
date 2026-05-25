@@ -101,6 +101,7 @@
 その胸に積もった苦悩を、静かに[綴りながら。](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13638)
 
 ## ファンアート
+
 ["Tam’s new pet" by i](https://x.com/i/status/2058838173405622639)
 
 ["Tam" by yuutomeh97](https://x.com/yuutomeh97/status/2058839249235886278)

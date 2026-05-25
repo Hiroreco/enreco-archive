@@ -2483,22 +2483,22 @@
     "category": "journal",
     "title": {
       "en": "Bae's Journal Entries",
-      "ja": ""
+      "ja": "ベイの日記エントリー"
     },
     "description": {
       "en": "Peasant Da Bae's daily journal entries during Chapter 3.",
-      "ja": ""
+      "ja": "ペイザン・ザ・ベイによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
       {
         "id": "bae-journal-c3d1",
         "title": {
           "en": "Bae's Journal Entry: Day 1",
-          "ja": ""
+          "ja": "ベイの日記エントリー：1日目"
         },
         "content": {
           "en": "PEASANT DAY 1\n\ncoin remaining: 2070\n\n...i saw immerkind today... after so long...\ni thought these feelings were squashed... gone with the wind... and yet..\n\ni still... feel...\n\nthat being said.. i need to get myself together and focus on what is really important\n\nMONEY.\n\ni vow libestal.. i will become the richest peasant that ever stepped foot into your kingdom.\n\n...also..\n\nnix kinda cute\n\nSIGNED PEASANT",
-          "ja": ""
+          "ja": "ペイザン1日目\n\n所持コイン：2070\n\n……今日、イマーキンドを見かけた……\nあんなに時間が経ったのに……\nこの気持ちはもう押し潰したはずだった……\n風と共に消え去ったと思ってたのに……\n\nそれなのに……\n\nまだ……感じてる……\n\n……とはいえ、しっかりしなきゃ。\n今、本当に大事なのは――\n\nお金。\n\n誓うよ、リベスタル。\n私はこの王国史上、最高に金持ちなペイザントになってみせる。\n\n……あと……\n\nニクス、ちょっとかわいいかも\n\n――署名：ペイザント"
         }
       }
     ]
@@ -2508,22 +2508,22 @@
     "category": "journal",
     "title": {
       "en": "Bijou's Journal Entries",
-      "ja": ""
+      "ja": "ビジューの日記エントリー"
     },
     "description": {
       "en": "Koseki Bijou's daily journal entries during Chapter 3.",
-      "ja": ""
+      "ja": "古石ビジューによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
       {
         "id": "bijou-journal-c3d1",
         "title": {
           "en": "Bijou's Journal Entry: Day 1",
-          "ja": ""
+          "ja": "ビジューの日記エントリー：1日目"
         },
         "content": {
           "en": "Back here again.\nDon't trust anyone.\nNobody is your friend\nRelationships are transactional.\nEveryone is selfish.\nDo things only for yourself.\n\nYou got this.\n\n-Bijou",
-          "ja": ""
+          "ja": "またここに戻ってきた。\n\n誰も信じるな。\n誰も友達じゃない。\n関係なんて所詮、利害の上に成り立ってるだけ。\nみんな自分勝手。\n自分のためだけに動け。\n\n大丈夫。\nあなたならやれる。\n\n――ビジュー"
         }
       }
     ]
@@ -2533,22 +2533,22 @@
     "category": "journal",
     "title": {
       "en": "Cecilia's Journal Entries",
-      "ja": ""
+      "ja": "セシリアの日記エントリー"
     },
     "description": {
       "en": "Cecilia Immerkind's daily journal entries during Chapter 3.",
-      "ja": ""
+      "ja": "セシリア・イマーキンドによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
       {
         "id": "cecilia-journal-c3d1",
         "title": {
           "en": "Immerkind's Journal Entry: Day 1",
-          "ja": ""
+          "ja": "イマーキンドの日記エントリー：1日目"
         },
         "content": {
           "en": "Dear Diary,\nIt is I again, Knight Immerkind,\n\nToday was quite a stressful day...\nPrincess Iphania as you know turned into Fia. Or I guess she had always been Fia.\n\nI know I shouldn't say these words. but I miss Princess Iphania.\n\nIt's not like I mind that she is now a cat. it is just, she has changed, as a person.\n\nShe seems of course very focused on saving her kingdom and she doesn't really seem to have a lot else left.\n\nI hope that we can save he and her people and then she will be whole once more.\n\nPS:\nI found a home. This is the first time I've had a home that looked so grand. It felt nice. And comforting.\nGoodnight\n\n~Knight Immerkind~",
-          "ja": ""
+          "ja": "親愛なる日記へ、\n\nまた会ったな。騎士イマーキンドだ。\n\n今日はかなり心労の多い一日だった……\n\n君も知っての通り、イファニア姫はフィアになってしまった。\n……いや、もしかすると最初からフィアだったのかもしれない。\n\nこんなことを言うべきじゃないのは分かっている。\nだが、私はイファニア姫が恋しい。\n\n猫になったこと自体が嫌なわけではないんだ。\nただ……彼女は変わってしまった。人として。\n\nもちろん、王国を救うことに全力を注いでいるのは分かる。\nけれど、それ以外のものを、ほとんど失ってしまったように見えるんだ。\n\n彼女と、彼女の民を救うことができれば、\nきっとまた元の彼女に戻れると信じている。\n\n追伸：\n家を見つけた。\nこんなに立派な家に住むのは初めてだ。\nとても落ち着くし、安心できる場所だった。\n\nおやすみ。\n\n〜騎士イマーキンド〜"
         }
       }
     ]
@@ -2558,22 +2558,22 @@
     "category": "journal",
     "title": {
       "en": "Kronii's Journal Entries",
-      "ja": ""
+      "ja": "クロニーの日記エントリー"
     },
     "description": {
       "en": "Tam Gandr's daily journal entries during Chapter 3.",
-      "ja": ""
+      "ja": "タム・ガンドルによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
       {
         "id": "kronii-journal-c3d1",
         "title": {
           "en": "Tam's Journal Entry: Day 1",
-          "ja": ""
+          "ja": "タムの日記エントリー：1日目"
         },
         "content": {
           "en": "**Day 1**\n\nIt was an interesting day. I met a lot of people. They all seem vaguely familiar but then again, I don't really have a good memory so they all probably blend together haha.\n\nI let my horse go but the gods answered my prayers and got my horse back. So cool!!!\n\nI think it was a relatively peaceful day. I saw someone named Jonathan? Gonathan? (I don't know how to spell it) hyperventilating whenever I saw him. I hope he's getting that checked, I hope it's not something serious.\n\nThank you! Sister Shiori and everyone was really nice! I think! I don't remember too well teehee",
-          "ja": ""
+          "ja": "**1日目**\n\n今日はなかなか面白い一日だった。\nたくさんの人に会ったけど、みんなどこか見覚えがあるような気がする。でも私、あんまり記憶力が良くないから、たぶん全部ごちゃ混ぜになってるだけかも。あはは。\n\n馬を自由にしてあげたんだけど、神様が祈りに応えてくれて、また戻してくれた。超すごい！！！\n\n今日は比較的平和な日だったと思う。\nジョナサン？ ゴナサン？（綴りが分からないや）っていう人を見かけるたびに過呼吸っぽくなってた気がする。ちゃんと診てもらってるといいな。深刻なやつじゃなければいいけど。\n\nありがとう！\nシスター・シオリも、みんなもすごく優しかった！ ……と思う！\nちょっと記憶があやふやだけど、てへへ。"
         }
       }
     ]
@@ -2583,22 +2583,22 @@
     "category": "journal",
     "title": {
       "en": "Shiori's Journal Entries",
-      "ja": ""
+      "ja": "シオリの日記エントリー"
     },
     "description": {
       "en": "Shiori Nyavella's daily journal entries during Chapter 3.",
-      "ja": ""
+      "ja": "シオリ・ニャヴェラによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
       {
         "id": "shiori-journal-c3d1",
         "title": {
           "en": "Shiori's Journal Entry: Day 1",
-          "ja": ""
+          "ja": "シオリの日記エントリー：1日目"
         },
         "content": {
           "en": "**Day 1**\n\nToday was a handful!\n\nI have been recruited by Nix, only to come to the realization that their base is absolutely suckish!\n\nThere's no furniture, there's barely any food, and all of them speak silly._\n\nI was also privvy to witnessing the end of poor Shakira Shakira Her Hips Don't Lie But They Unfortunately and Certainly Did Freaking Die.\n\nShe fell into the fountain after eating some cake and just.. drowned. Died. Just gone. Her body's completely missing_\n\nRoa was inconsolable.\n\nBeyond that, I decided to bunker up with Immerkind and Bijou since they were homeless.\n\nIt was done out of impulse, but I think we'll all get along well!\n\nGonathon is also now our neighbor.\n\nFor some reason, he wants a perfect view of our living room.\n\nI figured 'why not?'\n\nMaybe he's lonely? I decided to make that area a kitchen so he can always watch us craft and cook.\n\nI dunno, it was strange.",
-          "ja": ""
+          "ja": "**1日目**\n\n今日は本当に大変だった！\n\nニクスに勧誘されたんだけど、いざ拠点に行ってみたら、まあ最悪！\n\n家具はないし、食料もほとんどないし、みんな変なしゃべり方するし。\\_\n\nそれに、かわいそうな「シャキーラ・シャキーラ・ヒップス・ドント・ライ・バット・ゼイ・アンフォーチュネイトリー・アンド・サーテンリー・ディド・フリーキング・ダイ」の最期まで目撃しちゃった。\n\nケーキを食べたあと噴水に落ちて、そのまま……溺れて。死んじゃった。\n本当にそのまま消えちゃった感じ。遺体も完全に行方不明\\_\n\nロアは取り乱してて、とても見ていられなかった。\n\nそれはさておき、住む場所がなかったイマーキンドとビジューを家に住まわせることにした。\n\n勢いで決めちゃったけど、きっとみんなでうまくやっていけると思う！\n\nそれと、ゴナソンが隣人になった。\n\nなぜか私たちのリビングが完璧に見える位置を欲しがってて。\n\nまあ、「別にいっか？」って思った。\n\nもしかしたら寂しいのかもしれないし？\nだから、そこをキッチンにすることにした。いつでも私たちがクラフトしたり料理したりする様子を見られるようにね。\n\n……なんか変だったけど。"
         }
       }
     ]

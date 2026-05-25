@@ -5,7 +5,7 @@ Back in the mysterious white room, Tanakisha Karia found herself awakened once m
 
 New adventures awaited her. The orange phoenix reclaimed the name "Shakira", an old name of hers that was short and sweet. To pair with that, she returned to the Smith job as that was what she was best at. What was also sweet was her reunion with her wife. See [Kiara-Raora: Freaky Deaky Taste](#edge:kiara-raora)
 
-If there was one thing Shakira wanted, it was to have children. That was when an opportunity presented itself! Shakira was offered a guaranteed chance at bearing a child. All she had to do? _Eat a cake_. See [Calli-Kiara : NODE NAME](#edge:calli-kiara)
+If there was one thing Shakira wanted, it was to have children. That was when an opportunity presented itself! Shakira was offered a guaranteed chance at bearing a child. All she had to do? _Eat a cake_.
 
 After she explored the lands and completed side quests, she was finally able to acquire that sweet, sweet, chocolatey slice of magic. What a joyful day, Shakira thought, as she climbed up the town's fountain. Standing literally on the top of the world, everything seemed to have gone well for her. She had great friends, a loving wife, and a potential future raising a family.
 

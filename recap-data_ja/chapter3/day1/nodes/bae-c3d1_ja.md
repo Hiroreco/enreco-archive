@@ -94,6 +94,7 @@ Baeはその手を取った。
 ペイザンは、再び大金持ちになるのだ。
 
 ## ファンアート
+
 ["enreco, reign chaos" by nvmlyn](https://x.com/nvmlyn/status/2058763626195116263)
 
-["Hey Peasant" by fongban_](https://x.com/fongban_/status/2058635933055152319)
+["Hey Peasant" by fongban\_](https://x.com/fongban_/status/2058635933055152319)

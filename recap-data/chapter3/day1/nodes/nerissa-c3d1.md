@@ -1,7 +1,7 @@
-<!--title: Nerissa Juliet -->
-<!--status: Alive -->
+<!-- title: Nerissa Juliet -->
+<!-- status: Alive -->
 
-#### Make Haste, There is No Time to Waste!
+#### Make Haste, There is No Time to Waste
 
 Nerissa Juliet woke up in the White Room, unsurprised by the strange phenomenon about to unfold yet again. It felt less like an accident now and more like something she had long prepared herself for.
 

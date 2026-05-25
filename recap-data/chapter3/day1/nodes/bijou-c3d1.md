@@ -1,5 +1,5 @@
 <!-- title: Bijou the Stained -->
-<!-- Status: Alive -->
+<!-- status: Alive -->
 
 Everyone else besides her fellow members of Advent had become her enemies. And Fia was no longer to be trusted. When asked to [choose her name](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=680), Bijou accepted the stain within her heart. She was now Bijou the Stained.
 
@@ -28,6 +28,7 @@ Finding she can progress no further, Bijou decides that it is time to work on fu
 Upon [discovering Mordon Ramsay's restaurant](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=14730), Bijou realizes that getting Mordon on her side may be beneficial. Bijou thus offers to help Mordon clear her name by taking on the Dungeon together the next day, to which Mordon accepts. Knowing that Mordon is also investigating the true cause of Shakira's death, Bijou also hints to Mordon that the cake could have possibly been poisoned when left in the fridge, knowing that is exactly what she did to it.
 
 ## Fanart
+
 ["The uhh...house..." by robomb1192](https://x.com/robomb1192/status/2058856966961951126)
 
 ["Bijou" by v1v1anite](https://x.com/v1v1anite/status/2058498520525500750)

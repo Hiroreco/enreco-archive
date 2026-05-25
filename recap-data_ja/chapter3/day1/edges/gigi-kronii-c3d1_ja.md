@@ -64,6 +64,7 @@
 [あれは俺たちの女王じゃない！](embed:https://www.youtube.com/watch?v=ZSkPr-qXud0&t=11980s)
 
 ## ファンアート
+
 ["my name is Tam! who are you?" by dasdokter](https://x.com/dasdokter/status/2058789765709975701)
 
 ["photorealistic depiction of rolling to take the hat" by leisurepass](https://x.com/leisurepass/status/2058779256814010493)

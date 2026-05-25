@@ -1,0 +1,6 @@
+<!-- entries: cecilia-journal-c3d1_ja -->
+<!-- title: セシリアの日記エントリー -->
+
+<!-- description -->
+
+セシリア・イマーキンドによる、チャプター3期間中の日々の日記エントリー。

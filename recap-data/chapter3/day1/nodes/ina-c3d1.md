@@ -36,4 +36,5 @@ It was a challenge, and after many sleepless nights and _forty_ whole minutes of
 [The river prince was real!](#embed:https://www.youtube.com/watch?v=cLbDjefl2-w&t=17426s)
 
 ## Fanart
+
 ["the River Prince is what?" by fluumf](https://x.com/fluumf/status/2058858304902980051)

@@ -1,9 +1,9 @@
 <!-- title: Tam -->
 <!-- status: Alive -->
 
-The Azure queen returned to this kingdom that had traumatized her many, many times before, mostly from the many, many not-so-people around her. She even forgot she was a queen for a second before those around her reminded her. Maybe her subconscious was forcing itself to forget about those bad, bad memories, especially the ones caused by *her*.
+The Azure queen returned to this kingdom that had traumatized her many, many times before, mostly from the many, many not-so-people around her. She even forgot she was a queen for a second before those around her reminded her. Maybe her subconscious was forcing itself to forget about those bad, bad memories, especially the ones caused by _her_.
 
-And sure enough, she was also here, and Tam was *not* pleased (see [Hot Pink One-Tam](#edge:irys-kronii)).
+And sure enough, she was also here, and Tam was _not_ pleased (see [Hot Pink One-Tam](#edge:irys-kronii)).
 
 That unpleasant face was here, but Tam tried her best not to pay it any concern and started her journey in this kingdom, a future version of Libestal. Will she be queen again in this journey? Will she gain devoted followers like how she did back in the previous journeys? That's what many might think this queen would be concerned about. But for Tam, she did not want any of those headaches again, she just wanted peace. To be alone. To be devoid of thoughts and anguish.
 
@@ -13,7 +13,7 @@ As she stepped foot into the kingdom, she was faced with a choice: which faction
 
 New journey, but old Tam. The ex-queen still had her harsh tone of speaking, even managed to make Immerkind run off [crying](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=2745) with it, still had her monotone and [unbothered](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=2803) attitude towards anything and everything. Maybe the authority was gone, but the Tam-ness was still there.
 
-Even the one thing that made her a joke to other people, her name, was brought back. Her name wasn't even complicated this time, it's just *Tam*, no last name, no nothing. Yet it still became a laughing stock. By whom? Well, another pink that Tam wished she could have forgotten (see [Tam-Raora](#edge:kronii-raora)).
+Even the one thing that made her a joke to other people, her name, was brought back. Her name wasn't even complicated this time, it's just _Tam_, no last name, no nothing. Yet it still became a laughing stock. By whom? Well, another pink that Tam wished she could have forgotten (see [Tam-Raora](#edge:kronii-raora)).
 
 Ugh, so many people, so many distractions, just let her be, dang it, was what Tam thought to herself. Seems like her wish of having a quiet life won't be so easy after all.
 
@@ -34,6 +34,7 @@ So much for a peaceful, quiet life.
 Well, at least towards the very end of the day, finally some bit of peace and quiet. As Tam wrote her journey in a lone secluded corner, [documenting](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13638) her woes.
 
 ## Fanart
+
 ["Tam’s new pet" by i](https://x.com/i/status/2058838173405622639)
 
 ["Tam" by yuutomeh97](https://x.com/yuutomeh97/status/2058839249235886278)
